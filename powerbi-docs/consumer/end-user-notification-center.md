@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a1cc536e83832ab89b8a0aee8e8f01b9ced35a10
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256355"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716949"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır. Sizinle paylaşılan yeni panolar, Power BI etkinliklerine ve toplantılarına ilişkin bilgiler, ayarladığınız uyarılar ve daha fazlası hakkındaki iletileri görmek için Bildirim Merkezi’ni açın. Power BI hizmetinin yanı sıra Power BI Mobil uygulamalarında da [uyarılar ayarlayabilirsiniz](end-user-alerts.md).
 
 Amanda’nın bildirimleri incelemesini, yönetmesini ve bunlara yanıt vermesini izleyin. Ardından kendiniz denemek için videonun altındaki yönergeleri uygulayın.    

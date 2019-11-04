@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159902"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060844"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI ile Office365Mon'a bağlanma
 Office 365 ile ilgili hizmet kesintilerinizi ve sistem durumuna ilişkin performans verilerinizi Power BI ve Office365Mon şablon uygulamasıyla kolayca analiz edebilirsiniz. Power BI, hizmet kesintileri ve sistem durumu araştırmalarının yer aldığı verilerinizi alır ve ardından kullanıma hazır bir pano ve bu verilere dayalı raporlar oluşturur.
@@ -57,7 +57,7 @@ Power BI için [Office365Mon şablon uygulamasına](https://app.powerbi.com/grou
 Oturum açmak için Office365Mon abonelik kimlik bilgilerinizi kullandıktan sonra bir **"oturum açma başarısız oldu"** hatası alırsanız kullandığınız hesabın Office365Mon verilerini hesabınızdan alma izinleri yok demektir. Bir yönetici hesabı olduğunu doğrulayın ve yeniden deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI için veri alma](service-get-data.md)
 

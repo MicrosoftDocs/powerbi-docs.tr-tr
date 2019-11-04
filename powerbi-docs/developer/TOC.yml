@@ -71,6 +71,8 @@
               href: visuals/landing-page.md
             - name: URL’yi başlatma
               href: visuals/launch-url.md
+            - name: Yerel Depolama API’si
+              href: visuals/local-storage.md
             - name: Olayları işleme
               href: visuals/event-service.md
             - name: Sıralama

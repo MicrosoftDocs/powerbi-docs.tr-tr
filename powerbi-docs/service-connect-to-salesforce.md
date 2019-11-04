@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc562c1c75f72e0ada23580aa0698f6463c129bb
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814316"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060807"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI ile Salesforce'a bağlanma
 Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyla Salesforce verilerinizi alabilirsiniz ve panoyla raporlar otomatik olarak sağlanır.
@@ -91,7 +91,7 @@ Salesforce hesabınıza bağlanmaya çalışırken "Uzak sunucuya bağlanılamı
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI hizmeti için veri kaynakları](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ddcbee2c6d60541db0d71ea5ccfbfd5e6cf037ac
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: b0e8739e93d24ba10b0ffc72042b847cce1d5fe9
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184586"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060761"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Power BI ile Stripe'a bağlanma
 Power BI içerik paketi ile Power BI'da Stripe verilerinizi görselleştirin ve araştırın. Power BI Stripe içerik paketi Müşterileriniz, Ödemeleriniz, Olaylarınız ve Faturalarınız ile ilgili verileri çeker. Veriler, son 30 günde gerçekleşen en yeni on bin olayı ve beş bin ödemeyi içerir. İçerik, sizin denetiminizde olan bir zamanlamada her gün otomatik olarak bir kez yenilenir. 
@@ -49,7 +49,7 @@ Power BI içerik paketi ile Power BI'da Stripe verilerinizi görselleştirin ve 
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI için veri alma](service-get-data.md)
 

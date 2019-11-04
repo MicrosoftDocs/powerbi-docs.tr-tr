@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307831"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021349"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -71,7 +71,7 @@ Microsoft kendi takdirine bağlı olarak, bir görseli [sertifikalı listesinden
 
 * capabilities.json dosyasındaki bir özellik değiştirilirse, mevcut kullanıcıların raporlarını bozmadığından emin olun.
 
-* Görselin, [Power BI görsellerine ilişkin yönergelerle](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases) uyumlu olduğundan emin olun. **Filigran kullanılamaz**.
+* Görselin, [Power BI görsellerine ilişkin yönergelerle](./developer/guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases) uyumlu olduğundan emin olun. **Filigran kullanılamaz**.
 
 * Yalnızca genel kullanıma açık olarak incelenebilen OSS bileşenlerini kullanır (JS kitaplıkları veya genel kullanıma açık TypeScript. Kaynak kod incelenebilir ve bilinen güvenlik açıkları yoktur). Ticari bir bileşen kullanarak özel görseli doğrulayamayız.
 
@@ -192,7 +192,7 @@ Bir özel görseli sertifikasyona göndermek için:
 
 ## <a name="faq"></a>SSS
 
-Görseller hakkında daha fazla bilgi için bkz. [Sertifikalı görseller hakkında sık sorulan sorular](#get-a-power-bi-visual-certified).
+Görseller hakkında daha fazla bilgi için bkz. [Sertifikalı görseller hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

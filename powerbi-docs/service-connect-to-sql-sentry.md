@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161982"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060515"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Power BI ile SQL Sentry'ye bağlanma
 SQL Sentry tarafından toplanan performans verilerinizi Power BI ile çözümlemek kolaydır. Power BI, verilerinizi alır ve ardından bu verilere dayalı varsayılan bir pano ve raporlar oluşturur.
@@ -93,7 +93,7 @@ Uygulamalarınızın bazılarındaki veriler Power BI'da görünmüyorsa doğru 
 <https://cloud.sqlsentry.com> ile eşitlenmekte olan SQL Sentry veritabanının sahibi değilseniz toplanan verileri görüntüleme haklarına sahip olduğunuzdan emin olmak için yöneticinizle iletişime geçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)
+[Power BI nedir?](fundamentals/power-bi-overview.md)
 
 [Power BI için veri alma](service-get-data.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186054"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060607"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Power BI ile Azure Audit Logs'a bağlanma
 Azure Audit Logs içerik paketini kullanarak, denetim günlüklerinde depolanan bilgileri çözümleyebilir ve görselleştirebilirsiniz. Power BI verilerinizi alır, kullanıma hazır bir pano ve söz konusu verilere dayalı raporlar oluşturur.
@@ -71,6 +71,6 @@ Abonelik kimliğiniz yukarıda bulunan \#4 numaralı adımdaki örneğe benzer �
 Bir kimlik bilgileri hatası veya geçeriz kimlik bilgileri nedeniyle yenileme hatasıyla karşılaşırsanız Azure Audit Logs içerik paketinin tüm örneklerini silin ve yeniden bağlanmayı deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)  
+[Power BI nedir?](fundamentals/power-bi-overview.md)  
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
 

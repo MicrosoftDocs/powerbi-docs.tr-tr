@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a4d8b094fe10b674d315b1982e1dc34148ba6d1d
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70775752"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060867"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI hizmeti nedir?
 **Power BI**, iş içgörülerini siz ve işiniz için en verimli şekilde kullanmanıza yardımcı olmak üzere birlikte çalışan bir yazılım hizmetleri, uygulamalar ve bağlayıcılar koleksiyonudur. Power BI çevrimiçi olarak da adlandırılan Microsoft Power BI *hizmeti* (app.powerbi.com) Power BI’ın SaaS (*Hizmet Olarak Yazılım*) bölümüdür. Power BI hizmetindeki *panolar*, işletmenizin nabzını tutmanıza yardımcı olur. Panolarda görüntülenen *kutucukları* seçtiğinizde *raporlar* açılır ve böylece daha fazla araştırma yapabilirsiniz. Panolar ve raporlar birden çok *veri kümesine* bağlanarak tüm ilgili verileri bir yerde toplar. 
@@ -26,7 +26,7 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var? Bk
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-Power BI’ın diğer ana bileşenleri, Windows masaüstü uygulaması **Power BI Desktop** ve Windows, iOS ve Android cihazları için Power BI **mobil uygulamalarıdır**. Siz ve iş arkadaşlarınız, iş içgörülerini oluşturmak, paylaşmak ve kullanmak için bu üç öğeyi (Power BI Desktop, hizmet ve mobil uygulamalar) kullanabilirsiniz. Genel bakış için [Power BI nedir?](power-bi-overview.md) bölümünü okuyun.
+Power BI’ın diğer ana bileşenleri, Windows masaüstü uygulaması **Power BI Desktop** ve Windows, iOS ve Android cihazları için Power BI **mobil uygulamalarıdır**. Siz ve iş arkadaşlarınız, iş içgörülerini oluşturmak, paylaşmak ve kullanmak için bu üç öğeyi (Power BI Desktop, hizmet ve mobil uygulamalar) kullanabilirsiniz. Genel bakış için [Power BI nedir?](fundamentals/power-bi-overview.md) bölümünü okuyun.
 
 ## <a name="creating-reports-in-the-service"></a>Hizmette rapor oluşturma
 Tipik bir Power BI iş akışında, Power BI Desktop’ta bir rapor oluşturup Power BI hizmetine yayımlarsınız.  

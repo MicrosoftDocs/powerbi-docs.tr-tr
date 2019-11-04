@@ -12,16 +12,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 902bfe11ba3dfa4047ab5918de7081ae05fb9a09
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543761"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060341"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI hizmeti müşterilerine yönelik temel kavramlar
 
-Bu makalede [Power BI genel bakış](../power-bi-overview.md) sayfasını okuduğunuz ve bir [Power BI ***tüketicisi***](end-user-consumer.md) olduğunuza karar verdiğiniz varsayılmaktadır. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır.
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+Bu makalede [Power BI genel bakış](../fundamentals/power-bi-overview.md) sayfasını okuduğunuz ve bir [Power BI ***tüketicisi***](end-user-consumer.md) olduğunuza karar verdiğiniz varsayılmaktadır. Tüketiciler, iş arkadaşlarından panolar veya raporlar gibi Power BI içerikleri alan kullanıcılardır. Tüketiciler, Power BI'ın web sitesi tabanlı sürümü olan Power BI hizmetini kullanır.
 
 "Power BI Desktop" veya yalnızca "Desktop" terimini mutlaka duyacaksınız. Bu, panolar ve raporları oluşturup sizinle paylaşan *tasarımcıların* kullandığı tek başına bir araçtır. Başka Power BI araçları da olduğunu bilmeniz önemlidir. Tüketici olduğunuz sürece yalnızca Power BI hizmetiyle çalışırsınız. Bu makale yalnızca Power BI hizmeti için geçerlidir.
 

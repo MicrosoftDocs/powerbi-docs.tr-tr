@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: bc3fdd40848975dea675ce63955184686912ffd7
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544971"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891908"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
 
