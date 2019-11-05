@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7500b5b5ff7f3eabde730b527c16fb6fe2570b89
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523542"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432409"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B kullanarak dış Konuk kullanıcılarına Power BI içeriği dağıtma
 
 **Özet:** Bu, Işletmeden işletmeye (Azure AD B2B) Azure Active Directory tümleştirmesini kullanarak kuruluşun dışındaki kullanıcılara içerik dağıtmayı gösteren teknik bir teknik incelemeye sahiptir.
 
-**CI** Lukasz Pawlowski, Kasper de Jonge
+**Yazarlar:** Lukasz Pawlowski, Kasper de Jonge
 
-**Teknik Açıdan Gözden Geçirenler:** Adam Solson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
+**Teknik gözden geçirenler:** Adam Solson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
 > Tarayıcınızdan **Yazdır**’ı ve ardından **PDF olarak kaydet**’i seçerek bu teknik incelemeyi yazdırabilir veya kaydedebilirsiniz.
@@ -39,7 +39,7 @@ Bu Teknik İnceleme, Power BI Azure Active Directory B2B tümleştirmesini anlam
 > [!NOTE]
 > Bu Teknik İnceleme boyunca Azure AD 'ye Azure Active Directory ve Iş için Azure AD B2B olarak iş Azure Active Directory.
 
-## <a name="scenarios"></a>Senaryolar
+## <a name="scenarios"></a>Larla
 
 Contoso, bir bir oto üreticisi ve üretim işlemlerini çalıştırmak için gerekli tüm bileşenleri, malzemeleri ve hizmetleri sağlayan birçok farklı tedarikçiyle çalışır. Contoso, tedarik zinciri lojistik ve tedarik zincirinin önemli performans ölçümlerini izlemek için Power BI kullanmayı planlıyor. Contoso, dış tedarik zinciri iş ortakları analiziyle güvenli ve yönetilebilir bir şekilde paylaşmak istiyor.
 
@@ -97,7 +97,7 @@ Uygulamalar, uygulama yazarlarının Kullanıcı için uygulamayı otomatik olar
 
 Contoso, alt yüklenicileri veya tedarikçileriyle çalışmaya devam ettiğinden, dış mühendislerin contoso analistleriyle yakından çalışması gerekir. Power BI, kullanıcıların tüketebilecekleri içerikler hakkında iletişim kurmasına yardımcı olan çeşitli işbirliği özellikleri sağlar. Pano yorumu (ve yakında rapor yorumu), kullanıcıların göreceği veri noktalarını tartışmasına ve soru sormak için rapor yazarlarıyla iletişim kurmasına olanak tanır.
 
-Şu anda dış Konuk kullanıcılar açıklamalara bırakarak ve yanıtları okuyarak açıklamalara katılabilirler. Bununla birlikte, iç kullanıcılardan farklı olarak, Konuk kullanıcılar @mentioned bir yorum aldıkları bildirimleri alamaz. Konuk kullanıcılar, yazma sırasında Power BI içindeki abonelikler özelliğini kullanamaz. Yakında yayınlanacak bir sürümde, bu kısıtlamalar yükseltilmemiş ve ziyaretçi Kullanıcı bir e- @mentions posta alır ve bu da bir abonelik, Power BI içerik bağlantısı içeren bir e-postaya teslim edildiğinde gönderilir.
+Şu anda dış Konuk kullanıcılar açıklamalara bırakarak ve yanıtları okuyarak açıklamalara katılabilirler. Ancak, iç kullanıcılardan farklı olarak, Konuk kullanıcılar @mentioned ve bir yorum aldığını bildirimleri alamaz. Konuk kullanıcılar, yazma sırasında Power BI içindeki abonelikler özelliğini kullanamaz. Yakında yayınlanacak bir sürümde, bu kısıtlamalar yükseltilmemiş ve ziyaretçi Kullanıcı e-postasına @mentions bir e-posta alır ve bir abonelik, Power BI içerik bağlantısı içeren e-postasına gönderilir.
 
 ### <a name="access-content-in-the-power-bi-mobile-apps"></a>Power BI Mobile Apps 'teki içeriğe erişme
 
@@ -120,7 +120,7 @@ Power BI tüm kullanıcıları kuruluşa dahili olduğunda Azure AD B2B kullanma
 
 Genellikle, Power BI içinde Azure AD B2B stili şirketler arası işbirliği için uygun olan kurumsal yapılar ile karşılaşıldı. Azure AD B2B çoğu durumda iyi çalışmaktadır, ancak bazı durumlarda bu belgenin sonunda ele alınan yaygın alternatif yaklaşımlar göz önünde bulundurulmaktadır.
 
-### <a name="case-1-direct-collaboration-between-organizations"></a>Durum 1: Kuruluşlar arasında doğrudan işbirliği
+### <a name="case-1-direct-collaboration-between-organizations"></a>Durum 1: kuruluşlar arasında doğrudan işbirliği
 
 Contoso 'nun, kordiator tedarikçiyle olan ilişkisi, kuruluşlar arasındaki doğrudan işbirliğinin bir örneğidir. Contoso 'da ve tedarikçide, en az sayıda kullanıcı olduğundan, bu, Azure AD B2B tabanlı dış paylaşımının kullanılması idealdir. Kullanımı kolaydır ve kolay bir şekilde yönetilir. Bu ayrıca danışmanlık hizmetleri 'nde bir danışman 'nin bir kuruluş için içerik oluşturması gerekebilecek ortak bir modeldir.
 
@@ -129,7 +129,7 @@ Contoso 'nun, kordiator tedarikçiyle olan ilişkisi, kuruluşlar arasındaki do
 
 Genellikle, bu paylaşım, öğe paylaşımı başına ad hoc kullanılarak başlangıçta oluşur. Ancak, takımlar büyüdükçe veya ilişkiler detacağından, her öğe için planlanmış yaklaşım, yönetim yükünü azaltmak için tercih edilen yöntem haline gelir. Ayrıca, Power BI uygulamaların geçici veya planlı paylaşımı, kuruluşlar genelinde içeriğe yorum yapma ve bu içeriklere abone olma, Mobil uygulamalardaki içeriğe erişim de, Power BI içeriğinin yanı sıra, şirketler arası düzenleme ve yönetimi de alabilir. Önemlisi, her iki kuruluşun kullanıcıları kendi kuruluşlarında Power BI Pro lisanslarsa, bu Pro lisanslarını diğer Power BI ortamlarında kullanabilirler. Bu, davet eden kuruluşun dış kullanıcılara yönelik bir Power BI Pro lisansı için ödeme yapması gerekmiyorsa, avantajlı lisanslama sağlar. Bu, bu belgenin ilerleyen kısımlarında lisanslama bölümünde daha ayrıntılı bir şekilde ele alınmıştır.
 
-### <a name="case-2-parent-and-its-subsidiaries-or-affiliates"></a>Durum 2: Üst ve yan kuruluşları veya bağlı kuruluşları
+### <a name="case-2-parent-and-its-subsidiaries-or-affiliates"></a>Durum 2: üst ve yan kuruluşları veya bağlı kuruluşları
 
 Bazı kuruluş yapıları, kısmen veya tamamen sahip olunan bağlı kuruluşları, bağlantılı şirketler veya yönetilen hizmet sağlayıcısı ilişkileri dahil daha karmaşıktır. Bu kuruluşların, tutan şirket gibi bir üst kuruluşu vardır ancak temel kuruluşlar, bazen farklı bölgesel gereksinimler altında yarı olarak çalışabilen işler. Bu, her kuruluşun kendi Azure AD ortamına sahip olduğunu ve Power BI kiracılarını ayırdığını gösterir.
 
@@ -173,7 +173,7 @@ Genellikle bir yan kuruluşdaki analistlerin, ana kuruluşun sağladığı veril
 
 Daha karmaşık yaklaşımlar da olasıdır, ancak yukarıdaki en yaygın olarak en sık kullanılan yaklaşım vardır.
 
-### <a name="case-3-shared-environment-across-partners"></a>Durum 3: İş ortakları genelinde paylaşılan ortam
+### <a name="case-3-shared-environment-across-partners"></a>Durum 3: iş ortakları genelinde paylaşılan ortam
 
 Contoso, paylaşılan bir derleme satırında bir otomobil oluşturmak için bir rakiple ortaklığı girebilir, ancak farklı markalara veya farklı bölgelerde araç dağıtmak için. Bu, kuruluşlar genelinde veri, zekası ve analizler için kapsamlı işbirliği ve birlikte sahipliğin yapılmasını gerektirir. Bu yapı aynı zamanda bir danışmanın ekibinin bir istemci için proje tabanlı analizler olabileceği danışmanlık hizmetleri sektöründe de yaygındır.
 
@@ -189,24 +189,24 @@ Uygulamada, bu yapılar aşağıdaki görüntüde gösterildiği gibi karmaşık
 
 Paylaşılan bir Power BI kiracı oluşturmak için bir Azure Active Directory oluşturulması ve bu Active Directory 'deki bir kullanıcı için en az bir Power BI Pro Kullanıcı hesabının satın alınması gerekir. Bu Kullanıcı, gerekli kullanıcıları paylaşılan kuruluşa davet eder. Bu senaryoda, contoso kullanıcıları paylaşılan kuruluşun Power BI içinde çalıştıklarında dış Kullanıcı olarak kabul edilir.
 
-İşlemi aşağıdaki gibidir:
+İşlem aşağıdaki gibidir:
 
 1. Paylaşılan kuruluş yeni bir Azure Active Directory olarak oluşturulmuştur ve yeni kuruluşta en az bir kullanıcı hesabı oluşturulur. Bu kullanıcıya atanmış bir Power BI Pro Lisansı olmalıdır.
 2. Bu Kullanıcı daha sonra bir Power BI kiracı oluşturur ve gerekli kullanıcıları contoso ve Iş ortağı kuruluştan davet eder. Kullanıcı aynı zamanda Azure Analysis Services gibi paylaşılan veri varlıkları da oluşturur. Contoso ve Iş ortağının kullanıcıları, paylaşılan kuruluşun Power BI Konuk Kullanıcı olarak erişebilir. Power BI içinde içerik düzenleme ve yönetme izni varsa, dış kullanıcılar Power BI giriş, çalışma alanları, karşıya yükleme veya düzenleme ve rapor paylaşma olabilir. Genellikle tüm paylaşılan varlıklar, paylaşılan kuruluştan depolanır ve bunlara erişir.
 3. Tarafların işbirliğini nasıl kabul ettiğinize bağlı olarak, her bir kuruluşun, paylaşılan veri ambarı varlıklarını kullanarak kendi özel verilerini ve analizlerini geliştirmesi mümkündür. Bunlar, dahili Power BI kiracılarını kullanarak bunları kendi iç kullanıcılarına dağıtabilirler.
 
-### <a name="case-4-distribution-to-hundreds-or-thousands-of-external-partners"></a>Durum 4: Yüzlerce veya binlerce harici iş ortağına dağıtım
+### <a name="case-4-distribution-to-hundreds-or-thousands-of-external-partners"></a>Durum 4: yüzlerce veya binlerce harici iş ortağına dağıtım
 
 Contoso, bir tedarikçi için bir üdiator güvenilirlik raporu oluşturmuş olsa da, contoso isteklerinizi, yüzlerce tedarikçi için standartlaştırılmış bir rapor kümesi oluşturmaya yönelik olarak sunulmuştur. Bu, contoso 'nun tüm tedarikçilerin geliştirmeler yapması veya üretim kusurlarını çözmesi için ihtiyaç duydukları analizler olmasını sağlar.
 
 ![Birçok iş ortağına dağıtım](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_10.png)
 
 
-Bir kuruluşun birçok harici kullanıcıya/kuruluşa standartlaştırılmış veri ve Öngörüler dağıtması gerektiğinde, hızlı bir şekilde ve kapsamlı geliştirme maliyeti olmadan bir bı portalı oluşturmak için Power BI Apps senaryosunun geçici veya planlı paylaşımını kullanabilirler. Power BI bir uygulama kullanarak böyle bir portal oluşturma işlemi, örnek olay Incelemesinde ele alınmıştır: Power BI + Azure AD B2B – bu belgenin ilerleyen kısımlarında adım adım yönergeleri kullanarak bir bı portalı oluşturma.
+Bir kuruluşun birçok harici kullanıcıya/kuruluşa standartlaştırılmış veri ve Öngörüler dağıtması gerektiğinde, hızlı bir şekilde ve kapsamlı geliştirme maliyeti olmadan bir bı portalı oluşturmak için Power BI Apps senaryosunun geçici veya planlı paylaşımını kullanabilirler. Power BI bir uygulama kullanarak böyle bir portal oluşturma işlemi, örnek olay Incelemesi: Power BI + Azure AD B2B ile bir bı portalı oluşturma-bu belgenin ilerleyen bölümlerinde adım adım yönergeler ele alınmıştır.
 
 Bu durumun yaygın bir çeşidi, bir kuruluşun, özellikle de Power BI ile Azure B2C 'yi kullanmak için tüketicilerle Öngörüler paylaşmaya çalışıldığında olduğu durumdur. Power BI Azure B2C 'yi yerel olarak desteklemez. Bu durum için seçenekleri değerlendiriyorsanız, bu belgenin ilerleyen kısımlarında yer aldığı yaygın alternatif seçeneğinde Alternatif seçenek 2 ' yi kullanmayı düşünün.
 
-## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>Örnek olay Incelemesi: Power BI + Azure AD B2B ile bı portalı oluşturma – adım adım yönergeler
+## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>Örnek olay Incelemesi: Power BI + Azure AD B2B kullanarak bı portalı oluşturma – adım adım yönergeler
 
 Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcılarına kendi bı portalına güvenli erişim sağlamak için sorunsuz ve sorunsuz bir yol sağlar. Contoso bu ayarı üç adımdan oluşabilir:
 
@@ -217,9 +217,9 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
 
     Contoso ilk görevi Power BI ' de bı portalını oluşturmaktır. Contoso BI portalı, çok sayıda iç ve Konuk Kullanıcı için kullanılabilir hale getirilen, amaç tarafından oluşturulan panolar ve raporlar koleksiyonundan oluşur. Bunu Power BI yapmanın önerilen yolu Power BI bir uygulama oluşturmak içindir. [Power BI uygulamalar](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/)hakkında daha fazla bilgi edinin.
 
-- Contoso BI ekibi, Power BI bir uygulama çalışma alanı oluşturuyor
+- Contoso BI ekibi Power BI bir çalışma alanı oluşturuyor
 
-    ![Uygulama çalışma alanı](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![alanında](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Diğer yazarlar çalışma alanına eklenir
@@ -232,7 +232,7 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
     ![Çalışma alanı içinde içerik oluşturma](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_14.png)
 
 
-    İçerik bir uygulama çalışma alanında oluşturuldığına göre, contoso iş ortağı kuruluşlarında Konuk kullanıcıları bu içeriği kullanmak üzere davet etmeye hazırdır.
+    İçerik bir çalışma alanında oluşturuldığına göre, contoso iş ortağı kuruluşlarında Konuk kullanıcıları bu içeriği tüketmek üzere davet etmeye hazırdır.
 
 2. Konuk Kullanıcı Davet Et
 
@@ -315,11 +315,11 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
 
     Genellikle bireysel raporların ve panoların mevcut bir portala katıştırılması gerekir. Bu, örnekte gösterilen birçok tekniği yeniden kullanmak için de gerçekleştirilebilir. Ancak, bu durumlarda, raporları veya panoları doğrudan bir çalışma alanından eklemek daha kolay olabilir. Kullanıcılara gereken güvenlik iznini davet etme ve atama süreci aynı kalır.
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Üzerinde: Supplier1 'in contoso kiracısından Power BI içeriğine nasıl erişebiliyor?
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Supplier1 'in altında, contoso kiracısından Power BI içeriğe nasıl erişebilmektedir?
 
 Contoso 'nun iş ortağı kuruluşlarında Konuk kullanıcılara sorunsuz bir şekilde Power BI nasıl dağıtabileceğini gördüğünüze göre, bu, BT 'nin altında nasıl çalıştığını inceleyelim.
 
-Contoso, dizinine [lucy@supplier1.com](mailto:lucy@supplier1.com) davet edildiğinde, Azure AD ile contoso Azure AD kiracısı [Lucy@supplier1.com](mailto:Lucy@supplier1.com) arasında bir bağlantı oluşturulur. Bu bağlantı, Azure AD 'nin contoso Lucy@supplier1.com kiracısındaki içeriğe erişebileceklerini bilmesini sağlar.
+Contoso, dizinine [lucy@supplier1.com](mailto:lucy@supplier1.com) davet edildiğinde, azure ad [Lucy@supplier1.com](mailto:Lucy@supplier1.com) ve contoso Azure AD kiracısı arasında bir bağlantı oluşturur. Bu bağlantı, Azure AD 'nin contoso kiracısındaki içeriğe Lucy@supplier1.com erişebileceğini bilmesini sağlar.
 
 Lucy, contoso 'nun Power BI uygulamasına erişmeye çalıştığında, Azure AD, kullanıcının contoso kiracısına erişebildiğini doğrular ve sonra, contoso kiracısındaki içeriğe erişmek için bilgisayarın kimliğinin doğrulandığını belirten bir belirteç Power BI sağlar. Power BI, bu belirteci yetkilendirmek için kullanır ve Lucy 'in contoso Power BI uygulamasına erişimi olduğundan emin olun.
 
@@ -337,9 +337,9 @@ Azure AD hesabının dış tarafın Azure AD 'de kullanılacağını veya oluşt
 Contoso, kuruluşların ve iş ortağı kuruluşlarından konuk kullanıcıların Power BI içeriğe erişimine sahip olmasını sağlamak için üç yaklaşımdan birini seçebilir.
 
 > [!NOTE]
-> _Azure AD B2B's ücretsiz katmanı, Azure AD B2B ile Power BI kullanmak için yeterlidir. Dinamik gruplar gibi bazı gelişmiş Azure AD B2B özellikleri için ek lisans gerekir. Daha fazla bilgi için lütfen Azure AD B2B belgelerine başvurun:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's ücretsiz katmanı, Azure AD B2B ile Power BI kullanmak için yeterlidir. Dinamik gruplar gibi bazı gelişmiş Azure AD B2B özellikleri için ek lisans gerekir. Daha fazla bilgi için lütfen Azure AD B2B belgelerine bakın:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
-### <a name="approach-1-contoso-uses-power-bi-premium"></a>Yaklaşım 1: Contoso Power BI Premium kullanır
+### <a name="approach-1-contoso-uses-power-bi-premium"></a>Yaklaşım 1: contoso Power BI Premium kullanır
 
 Contoso, bu yaklaşımla Power BI Premium kapasiteyi satın alır ve bu kapasiteye bı portalı içeriğini atar. Bu, konuk kullanıcıların iş ortağı kuruluşlarından Power BI lisansı olmadan contoso Power BI uygulamasına erişmesini sağlar.
 
@@ -350,12 +350,12 @@ Contoso, daha fazla yenileme ücretleri, adanmış kapasite ve büyük model boy
 ![Ek yetenekler](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
 
-### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>Yaklaşım 2: Contoso, Konuk kullanıcılara Power BI Pro lisansları atar
+### <a name="approach-2-contoso-assigns-power-bi-pro-licenses-to-guest-users"></a>2\. yaklaşım: contoso, Konuk kullanıcılara Power BI Pro lisansları atar
 
 Bu yaklaşım sayesinde contoso, iş ortağı kuruluşlarından Konuk kullanıcılara Pro lisansları atar. Bu, contoso 'nun Microsoft 365 Yönetim merkezinden yapılabilir. Bu, konuk kullanıcıların iş ortağı kuruluşlarından, bir lisansı satın almadan contoso Power BI uygulamasına erişmesini sağlar. Bu, kuruluş Power BI henüz benimsememiş dış kullanıcılarla paylaşmak için uygun olabilir.
 
 > [!NOTE]
-> _Contoso Pro lisansı, yalnızca contoso kiracısındaki içeriğe erişirken Konuk kullanıcılar için geçerlidir. Pro lisansları Power BI Premium kapasitede olmayan içeriklere erişim sağlar. Ancak, bir Pro lisansına sahip dış kullanıcılar varsayılan olarak yalnızca tüketim deneyimine göre kısıtlanır. Bu,_ _Bu belgenin ilerleyen kısımlarında_ yer alan _Power BI içeriğini düzenlemek ve yönetmek için dış kullanıcıları etkinleştirme_ bölümünde açıklanan yaklaşım kullanılarak değiştirilebilir.
+> Contoso Pro lisansı, yalnızca contoso kiracısındaki içeriğe erişirken Konuk kullanıcılar için geçerlidir. Pro lisansları Power BI Premium kapasitede olmayan içeriklere erişim sağlar. Ancak, bir Pro lisansına sahip dış kullanıcılar varsayılan olarak yalnızca tüketim deneyimine göre kısıtlanır. Bu, bu belgenin ilerleyen kısımlarında yer alan _Power BI içeriğini düzenlemek ve yönetmek için dış kullanıcıları etkinleştirme_ bölümünde açıklanan yaklaşım kullanılarak değiştirilebilir.
 
 ![Lisans bilgileri](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
@@ -365,7 +365,7 @@ Bu yaklaşım sayesinde contoso, iş ortağı kuruluşlarından Konuk kullanıc�
 Bu yaklaşımla, 1. tedarikçide Power BI Pro bir lisans atar. Bu lisans, daha sonra contoso Power BI uygulamasına bu lisansla erişebilirler. Lucy, dış bir Power BI ortamına erişirken kendi kuruluşlarından Pro lisansını kullanabilmesi için, bu yaklaşım bazen _kendi lisansını getir_ (KLG) olarak adlandırılır. Her iki kuruluş Power BI kullanıyorsa, bu genel analiz çözümü için avantajlı lisanslama sağlar ve dış kullanıcılara lisans atama yükünü en aza indirir.
 
 > [!NOTE]
-> _1. tedarikçiye göre belirtilen Pro lisansı, Lucy 'in Konuk Kullanıcı olduğu tüm Power BI kiracılarına uygulanır. Pro lisansları Power BI Premium kapasitede olmayan içeriklere erişim sağlar. Ancak, bir Pro lisansına sahip dış kullanıcılar varsayılan olarak yalnızca tüketim deneyimine göre kısıtlanır. Bu,_ _Bu belgenin ilerleyen kısımlarında_ yer alan _Power BI içeriğini düzenlemek ve yönetmek için dış kullanıcıları etkinleştirme_ bölümünde açıklanan yaklaşım kullanılarak değiştirilebilir.
+> 1\. tedarikçiye göre belirtilen Pro lisansı, Lucy 'in Konuk Kullanıcı olduğu tüm Power BI kiracılarına uygulanır. Pro lisansları Power BI Premium kapasitede olmayan içeriklere erişim sağlar. Ancak, bir Pro lisansına sahip dış kullanıcılar varsayılan olarak yalnızca tüketim deneyimine göre kısıtlanır. Bu, bu belgenin ilerleyen kısımlarında yer alan _Power BI içeriğini düzenlemek ve yönetmek için dış kullanıcıları etkinleştirme_ bölümünde açıklanan yaklaşım kullanılarak değiştirilebilir.
 
 ![Pro lisans gereksinimleri](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
@@ -400,7 +400,7 @@ Bu, Contoso BI ekibinin oluşturdukları iki rolü görebilecekleri bir sayfa a�
 
 ![Satır düzeyi güvenlik](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-Contoso örneğinde, "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" e-posta adresine sahip bir iş ortağı kuruluşunda Avrupa rolüne bir Kullanıcı ekleniyor:
+Contoso örneğinde, Avrupa rolüne "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" e-posta adresine sahip bir iş ortağı kuruluşunda Kullanıcı ekleniyor:
 
 ![Satır düzeyi güvenlik ayarları](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
@@ -460,7 +460,7 @@ Power BI, contoso 'nın [SQL Server Analysis Services](https://powerbi.microsoft
 > [!NOTE]
 > Power BI kiracınıza bağlanmak üzere bir ağ geçidi yüklerken kiracınızda oluşturulmuş bir Kullanıcı kullanmanız gerekir. Dış kullanıcılar bir ağ geçidi yükleyemez ve kiracınıza bağlanamaz. _
 
-Dış kullanıcılar için, dış kullanıcılar genellikle şirket içi AD tarafından bilinmediği için bu daha karmaşık olabilir. Power BI, contoso yöneticilerinin dış kullanıcı adlarını, [veri Analysis Services kaynağınızı yönetme](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)bölümünde açıklandığı gibi iç kullanıcı adlarıyla eşlemelerine izin vererek bunun için geçici bir çözüm sunar. Örneğin, [lucy@supplier1.com](mailto:lucy@supplier1.com) [Lucy\_supplier1\_com#EXT@contoso.com](mailto:lucy_supplier1_com)ile eşlenebilir.
+Dış kullanıcılar için, dış kullanıcılar genellikle şirket içi AD tarafından bilinmediği için bu daha karmaşık olabilir. Power BI, contoso yöneticilerinin dış kullanıcı adlarını, [veri Analysis Services kaynağınızı yönetme](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)bölümünde açıklandığı gibi iç kullanıcı adlarıyla eşlemelerine izin vererek bunun için geçici bir çözüm sunar. Örneğin, [lucy@supplier1.com](mailto:lucy@supplier1.com) [Lucy\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com)ile eşlenebilir.
 
 ![Kullanıcı adlarını eşleme](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
@@ -471,11 +471,11 @@ Bu yöntem, contoso 'nun yalnızca bir kullanıcısı varsa veya contoso tüm d�
 Contoso, dış kullanıcıların daha önce Power BI içeriği düzenleme ve Yönetimi bölümünde açıklandığı gibi kuruluş içinde içerik katkıda bulunmasına izin verebilir.
 
 > [!NOTE]
-> Kuruluşunuzun Power BI içeriğini düzenlemek ve yönetmek için kullanıcının çalışma alanım dışında bir çalışma alanında Power BI Pro lisansına sahip olması gerekir. Kullanıcılar, _Bu belgenin the_ Licensing__section_ içinde yer aldığı gibi Pro lisanslarını edinebilir.
+> Kuruluşunuzun Power BI içeriğini düzenlemek ve yönetmek için kullanıcının çalışma alanım dışında bir çalışma alanında Power BI Pro lisansına sahip olması gerekir. Kullanıcılar bu belgenin _lisanslama_ bölümünde açıklandığı gibi Pro lisanslarını alabilir.
 
 Power BI Yönetici portalı, **dış konuk kullanıcıların kiracı ayarları 'ndaki kuruluş ayarında içeriği düzenlemesine ve yönetmesine izin ver** ' i sağlar. Varsayılan olarak, ayar devre dışı olarak ayarlanır, yani dış kullanıcılar varsayılan olarak kısıtlanmış bir salt okuma deneyimi alır. Bu ayar, UserType 'ın Azure AD 'de Konuk olarak ayarlandığı kullanıcılar için geçerlidir. Aşağıdaki tabloda, Kullanıcıtürlerine ve ayarların nasıl yapılandırıldığına bağlı olarak davranış kullanıcıları deneyimi açıklanmaktadır.
 
-| **Azure AD 'de Kullanıcı türü** | **Dış konuk kullanıcıların içerik ayarını düzenlemesine ve yönetmesine izin ver** | **Davranışı** |
+| **Azure AD 'de Kullanıcı türü** | **Dış konuk kullanıcıların içerik ayarını düzenlemesine ve yönetmesine izin ver** | **Durum** |
 | --- | --- | --- |
 | Konuk | Kullanıcı için devre dışı (varsayılan) | Yalnızca öğe başına tüketim görünümü. Konuk kullanıcıya gönderilen bir URL aracılığıyla görüntülenen raporlara, panolara ve uygulamalara salt okuma erişimi sağlar. Power BI Mobil uygulamalar, Konuk kullanıcıya salt okunurdur bir görünüm sağlar. |
 | Konuk | Kullanıcı için etkinleştirildi | Dış Kullanıcı tam Power BI deneyimine erişebilir, ancak bazı özellikler kullanılamaz. Dış Kullanıcı, Power BI hizmeti URL 'sini Power BI ' de, kiracı bilgileri dahil olmak üzere kullanarak oturum açması gerekir. Kullanıcı, giriş deneyimini, çalışma alanım 'ı ve izinleri temel alarak içeriğe gözatabilir, görüntüleyebilir ve oluşturabilir. </br></br> Power BI Mobil uygulamalar, Konuk kullanıcıya salt okunurdur bir görünüm sağlar. |
@@ -505,14 +505,14 @@ Dış konuk kullanıcıların kuruluş kiracı ayarında içerik düzenlemesine 
 
 - Power BI Desktop'tan Power BI hizmetine doğrudan yayımlama
 - Konuk kullanıcılar Power BI hizmetindeki hizmet veri kümelerine bağlanmak için Power BI Desktop kullanamaz
-- Office 365 Gruplarına bağlanan klasik çalışma alanları: Konuk kullanıcılar bu çalışma alanlarını oluşturamaz ve bunların Yöneticisi olamaz. Bunlara üye olabilirler.
+- Office 365 gruplarına bağlı olan klasik çalışma alanları: Konuk Kullanıcı, bu çalışma alanları için yönetici oluşturamaz veya bu alanları kullanamaz. Bunlara üye olabilirler.
 - Çalışma alanı erişim listeleri için geçici davet gönderme desteklenmez
 - Konuk kullanıcılarda Excel için Power BI Publisher desteklenmez
 - Konuk kullanıcılar Power BI Gateway yükleyemez ve bunu kuruluşunuza bağlayamaz
 - Konuk kullanıcılar kuruluşun tamamına yayımlayan uygulamalar yükleyemez
 - Konuk kullanıcılar kurumsal içerik paketlerini kullanamaz, oluşturamaz, güncelleştiremez veya yükleyemez
 - Konuk kullanıcılar Excel'de Çözümle özelliğini kullanamaz
-- Konuk kullanıcılar @mentioned yorum halinde olamaz (Bu işlev gelecek bir yayına eklenecektir)
+- Konuk kullanıcılar, açıklama eklemek @mentioned olamaz (Bu işlev gelecek bir yayına eklenecektir)
 - Konuk kullanıcılar abonelikleri kullanamaz (Bu işlev gelecek bir sürüme eklenecektir)
 - Bu özelliği kullanan konuk kullanıcıların iş veya okul hesabı olmalıdır. Kişisel hesapları kullanan Konuk kullanıcılar, oturum açma kısıtlamaları nedeniyle daha fazla sınırlama yaşar.
 
@@ -555,7 +555,7 @@ Contoso, contoso kiracısından içeriğe erişen Konuk kullanıcılar için ko�
 
 Azure AD B2B, kuruluşların genelinde veri ve rapor paylaşmayı kolaylaştırırken, yaygın olarak kullanılan birkaç farklı yaklaşım vardır ve belirli durumlarda üst düzey olabilir.
 
-### <a name="alternative-option-1-create-duplicate-identities-for-partner-users"></a>Alternatif seçenek 1: İş ortağı kullanıcıları için yinelenen kimlikler oluşturma
+### <a name="alternative-option-1-create-duplicate-identities-for-partner-users"></a>Alternatif seçenek 1: iş ortağı kullanıcıları için yinelenen kimlikler oluşturma
 
 Bu seçenekle, contoso kiracısındaki her iş ortağı kullanıcısı için aşağıdaki görüntüde gösterildiği gibi Contoso 'nun yinelenen kimliklerini el ile oluşturması gerekiyordu. Power BI içinde contoso, uygun raporlar, panolar veya uygulamalar için atanan kimliklere paylaşabilir.
 
@@ -575,7 +575,7 @@ Bu alternatifi seçmemek için nedenler:
 - Kullanıcı kuruluştan ayrıldığında, contoso Yöneticisi kendi hesabını el ile silene kadar contoso kaynaklarına erişime sahip olmaya devam eder
 - Contoso yöneticilerinin, oluşturma, parola sıfırlama vb. dahil olmak üzere konuğun kimliğini yönetmesi gerekir.
 
-### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternatif seçenek 2: Özel kimlik doğrulaması kullanarak özel bir Power BI Embedded uygulaması oluşturma
+### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternatif seçenek 2: özel kimlik doğrulaması kullanarak özel bir Power BI Embedded uygulaması oluşturma
 
 Contoso için başka bir seçenek de özel kimlik doğrulaması ([' veri sahibi](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)') ile kendi özel katıştırılmış Power BI uygulamasını derlemenize yöneliktir. Birçok kuruluş, Power BI içeriğini dış iş ortaklarına dağıtmak üzere özel bir uygulama oluşturmak için zaman veya kaynaklara sahip olmasa da, bazı kuruluşlar için bu en iyi yaklaşım ve ciddi bir değerlendirme sunar.
 

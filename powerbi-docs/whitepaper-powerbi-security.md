@@ -8,22 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 1ae51620a51c0dc76cd50bd85fc09aa2bfc8e026
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561037"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430504"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
-**Özet:** Power BI, Microsoft’un çevrimiçi yazılım hizmeti (*SaaS* veya Hizmet olarak Yazılım) teklifidir. Bu hizmet, kolayca ve hızla self servis İş Zekası panoları, raporları, veri kümeleri ve görselleştirmeleri oluşturmanıza olanak tanır. Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
+**Özet:** Power BI, Microsoft 'un sunduğu ve kolayca self servis Iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (*SaaS*veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-**Yazan:** David Iseminger
+**Yazıcı:** David Iyayma aygıtı
 
-**Teknik Açıdan Gözden Geçirenler:** Pedram Rezaei, Cristian Petculescu, Siva Harinath, Tod Manning, Haydn Richardson, Adam Wilson, Ben Childs, Robert Bruckner, Sergei Gundorov, Kasper de Jonge
+**Teknik gözden geçirenler:** Pedram Rezaei, cristia Petcukascu, sıva Harınres, Tod Manle, Haydn Richardson, adam Solson, ben Childs, Robert Bruckner, Sergei Gundorov, Kasper de Jonge
 
 **Uygulama hedefi:** Power BI SaaS, Power BI Desktop, Power BI Embedded, Power BI Premium
 
@@ -34,13 +34,13 @@ ms.locfileid: "69561037"
 
 **Power BI**, Microsoft’un çevrimiçi yazılım hizmeti (_SaaS_ veya Hizmet olarak Yazılım) teklifidir. Bu hizmet, kolayca ve hızla self servis İş Zekası panoları, raporları, veri kümeleri ve görselleştirmeleri oluşturmanıza olanak tanır. Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI şu anda [Office 365 Uyumluluk Çerçevesi](http://go.microsoft.com/fwlink/p/?LinkID=618494)’nin Katman D bölümünde yer alıyor.
+Power BI hizmeti [Microsoft Online Services Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](http://go.microsoft.com/fwlink/p/?LinkID=618494)'Nin D katmanında.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
 ## <a name="power-bi-architecture"></a>Power BI Mimarisi
 
-**Power BI** hizmetinin temelini, Microsoft'un [bulut bilgi işlem platformu](http://azure.microsoft.com/overview/what-is-azure/) olan **Azure** oluşturur. Power BI şu anda dünyanın her yerinde birçok veri merkezine dağıtılmıştır. Bu veri merkezlerinin hizmet verdiği bölgelerdeki müşterilerin kullanıma sunulan çok sayıda etkin dağıtım bulunur ve her etkin dağıtım için yedekleme işlevi gören, edilgen dağıtımlar vardır.
+**Power BI** hizmetinin temelini, Microsoft'un **bulut bilgi işlem platformu** olan [Azure](http://azure.microsoft.com/overview/what-is-azure/) oluşturur. Power BI şu anda dünyanın her yerinde birçok veri merkezine dağıtılmıştır. Bu veri merkezlerinin hizmet verdiği bölgelerdeki müşterilerin kullanıma sunulan çok sayıda etkin dağıtım bulunur ve her etkin dağıtım için yedekleme işlevi gören, edilgen dağıtımlar vardır.
 
 Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümesi ve bir **Arka Uç** kümesi. Bu iki küme aşağıdaki resimde gösterilmiştir ve makalenin geri kalanının arka planını oluşturur. 
 
@@ -66,7 +66,7 @@ Kullanıcıya en yakın WFE kümesi oturum açma ve kimlik doğrulama dizisini y
 
 **Ağ Geçidi Rolü** kullanıcı istekleriyle Power BI hizmeti arasında bir ağ geçidi işlevi görür. Kullanıcılar Ağ Geçidi Rolü haricindeki bir rolle doğrudan etkileşim kurmaz.
 
-**Önemli:** _Yalnızca_ Azure API Management (**APIM**) ve Ağ Geçidi (**GW**) rollerinin İnternet üzerinden herkesin erişimine açık olduğu unutulmamalıdır. Bu hizmetler kimlik doğrulaması, yetkilendirme, DDoS koruması, Azaltma, Yük Dengeleme, Yönlendirme gibi özellikler sunar.
+**Önemli:** _Yalnızca_ Azure API Management (**APIM**) ve Gateway (**GW**) rollerinin genel Internet üzerinden erişilebilir olduğunu unutmayın. Bu hizmetler kimlik doğrulaması, yetkilendirme, DDoS koruması, Azaltma, Yük Dengeleme, Yönlendirme gibi özellikler sunar.
 
 Yukarıdaki **Arka Uç** kümesi resminde yer alan kesik çizgi, kullanıcılar tarafından erişilebilen iki rol (kesik çizginin sol tarafı) ile yalnızca sistem tarafından erişilebilen roller arasındaki ayrımı gösterir. Kimliği doğrulanmış bir kullanıcı Power BI hizmetine bağlandığında bağlantı ve istemci istekleri **Ağ Geçidi Rolü** ve **Azure API Management** tarafından kabul edilip yönetilir ve bu rol Power BI hizmetinin geri kalan kısmında kullanıcının adına etkileşimde bulunur. Örneğin, bir istemci bir panoyu görüntülemek istediğinde **Ağ Geçidi Rolü** bu isteği kabul eder ve tarayıcının panoyu oluşturması için gerekli olan verileri almak için **Sunum Rolü**'ne ayrı bir istek gönderir.
 
@@ -120,13 +120,13 @@ Aşağıdaki bağlantılar Azure veri merkezleri hakkında ek bilgi sağlar.
 - [Azure Bölgeleri](http://azure.microsoft.com/regions/): Azure’ın küresel varlığı ve konumları hakkında bilgiler
 - [Bölgeye göre Azure Hizmetleri](http://azure.microsoft.com/regions/#services): Her bölgede Microsoft tarafından sunulan Azure hizmetlerinin (hem altyapı hizmetleri hem de platform hizmetleri) tam listesi.
 
-Şu anda Power BI hizmeti [Microsoft Güven Merkezi]((https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) konumunda açıklandığı gibi veri merkezlerinin hizmet sağladığı belirli bölgelerde kullanılabilir. Şu bağlantı Power BI veri merkezlerinin haritasını gösterir; bir bölgedeki veri merkezlerini görmek için bölgenin üzerine gelin:
+Şu anda Power BI hizmeti, [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)'nde açıklandığı şekilde veri merkezleri tarafından hizmet verilen belirli bölgelerde kullanılabilir. Şu bağlantı Power BI veri merkezlerinin haritasını gösterir; bir bölgedeki veri merkezlerini görmek için bölgenin üzerine gelin:
 
 * [Power BI Veri Merkezleri](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft özerk bölgeler için de veri merkezleri sağlar. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
-Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler [Microsoft Online Services Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)'nın **Bilgi İşlem Koşulları** bölümünde belirtilir.
+Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler **Microsoft Online Services Koşulları**'nın [Bilgi İşlem Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) bölümünde belirtilir.
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 
@@ -136,7 +136,7 @@ Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve k
 
 Power BI hizmeti için kullanıcı kimlik doğrulaması işlemi aşağıdaki adımlarda açıklanan ve aşağıdaki resimlerde gösterilen şekilde gerçekleşir.
 
-1. Kullanıcı, adres çubuğuna Power BI adresini yazarak (örneğin https://app.powerbi.com) veya Power BI giriş sayfasından (https://powerbi.microsoft.com) _Oturum Aç_’ı seçerek bir tarayıcıdan Power BI hizmetine bağlantı başlatır. Bağlantı, TLS 1.2 ve HTTPS kullanarak kurulur ve daha sonra tarayıcı ile Power BI hizmeti arasındaki tüm bağlantılarda HTTPS kullanılır. İstek **Azure Traffic Manager**’a gönderilir.
+1. Kullanıcı, adres çubuğuna Power BI adresini yazarak (örneğin https://app.powerbi.com) veya Power BI giriş sayfasından (Oturum Aç https://powerbi.microsoft.com)’ı seçerek bir tarayıcıdan Power BI hizmetine bağlantı başlatır. Bağlantı, TLS 1.2 ve HTTPS kullanarak kurulur ve daha sonra tarayıcı ile Power BI hizmeti arasındaki tüm bağlantılarda HTTPS kullanılır. İstek **Azure Traffic Manager**’a gönderilir.
 
 2. **Azure Traffic Manager**, Power BI’ın dağıtıldığı en yakın veri merkezini belirlemek için kullanıcının DNS kaydını denetler ve DNS’ye kullanıcının gönderileceği WFE kümesinin IP adresiyle yanıt verir.
 
@@ -173,7 +173,7 @@ Power BI hizmeti, verileri **DirectQuery** ile veya içeri aktarmayla erişilmel
 Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açıklanır. **X** işareti ilişkili veri türü kullanıldığında Power BI verilerinin varlığına işaret eder.
 
 
-|  |İçeri Aktarma  |DirectQuery  |Canlı Bağlantı  |
+|  |İçeri Aktar  |DirectQuery  |Canlı Bağlantı  |
 |---------|---------|---------|---------|
 |Şema     |     X    |    X     |         |
 |Ham veriler     |    X     |         |         |
@@ -224,7 +224,7 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
         - Veri kümesi yenileme için ayarlanırsa kimlik bilgileri Veri Taşıma’nın Azure SQL Veritabanında şifrelenmiş olarak depolanır. Şifreleme anahtarı müşterinin altyapısında Ağ Geçidini çalıştıran makinede depolanır.
         - Veri kümesi yenileme için ayarlanmazsa veri kaynakları için depolanan kimlik bilgileri yoktur
 
-1. Data
+1. Veri
 
     a. Analysis Services şirket içi ve DirectQuery: Power BI Hizmetinde hiçbir şey depolanmaz.
 
@@ -248,23 +248,23 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
    a. Raporlar Office 365 için Excel raporları veya Power BI raporları olabilir. Aşağıdakiler, raporun türüne göre meta veriler için geçerlidir:
         
-    &ensp;&ensp; a. Excel rapor meta verileri SQL Azure şifreli olarak depolanır. Meta veriler de Office 365 ' de depolanır.
+    &ensp; &ensp;. Excel rapor meta verileri SQL Azure şifreli olarak depolanır. Meta veriler de Office 365 ' de depolanır.
 
-    &ensp;&ensp; b. Power BI raporlar, Azure SQL veritabanı 'nda şifreli olarak depolanır.
+    &ensp; &ensp; b. Power BI raporlar, Azure SQL veritabanı 'nda şifreli olarak depolanır.
 
 2. Statik veriler
 
    Statik veriler arka plan resimleri ve özel görseller gibi yapıtları içerir.
 
-    &ensp;&ensp; a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey depolanmaz.
+    &ensp; &ensp;. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey depolanmaz.
 
-    &ensp;&ensp; b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
+    &ensp; &ensp; b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
 
-3. Önbelleklerinde
+3. önbelleklerinde
 
-    &ensp;&ensp; a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
+    &ensp; &ensp;. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
 
-    &ensp;&ensp; b. Power BI raporları söz konusu olduğunda, gösterilen görsellerin verileri Azure SQL Veritabanında şifrelenmiş olarak önbelleğe alınır.
+    &ensp; &ensp; b. Power BI raporları söz konusu olduğunda, gösterilen görsellerin verileri Azure SQL Veritabanında şifrelenmiş olarak önbelleğe alınır.
  
 
 4. Özgün Power BI Desktop (.pbix) veya Excel (.xlsx) dosyaları Power BI’da yayımlanır
@@ -301,7 +301,7 @@ Geçici olmayan cihazlar, sabit güç olmadan devam eden belleğe sahip cihazlar
     c. Gönderilen veriler: Yok (geçerli değil)
 
     d. ETL: Yok (işlem düğümünde hiçbir şey depolanmaz ve yukarıda **Bekleyen Veriler** bölümünde açıklanan durumdan farkı yoktur)
-4. Data
+4. Veri
 
     Bazı veri yapıtları sınırlı bir süre için işlem düğümlerinin diskinde depolanabilir.
 
@@ -343,7 +343,7 @@ ExpressRoute, Azure veri merkezleri (Power BI'ın bulunduğu) ile şirket içi a
 
 ## <a name="power-bi-mobile"></a>Power BI Mobil
 
-Power BI Mobil, önde gelen üç mobil platform için tasarlanmış bir uygulama koleksiyonudur: Android, iOS ve Windows Mobile. Power BI Mobil uygulamalarının güvenlik yaklaşımları iki kategoriye ayrılır:
+Power BI Mobil, üç birincil mobil platform için tasarlanan uygulamalar koleksiyonudur: Android, iOS ve Windows Mobile. Power BI Mobil uygulamalarının güvenlik yaklaşımları iki kategoriye ayrılır:
 
 * Cihaz iletişimi
 * Cihazdaki uygulama ve veriler
@@ -355,7 +355,7 @@ Aşağıdaki tabloda mobil cihazın platformuna göre Power BI Mobil için serti
 | **CBA Desteği** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (hizmette oturum açın) | destekleniyor | destekleniyor | Desteklenmiyor |
-| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Desteklenen | Desteklenmiyor |
+| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Destekleniyor | Desteklenmiyor |
 
 Power BI Mobil uygulamaları Power BI hizmetiyle etkin bir iletişim kurar. Mobil uygulamanın kullanım istatistiklerini ve benzer verileri toplamak için telemetri kullanılır. Bu telemetri kullanım ve etkinliği izlemek için kullanılan hizmetlere iletilir; telemetri verileriyle birlikte hiçbir kişisel veri gönderilmez.
 
@@ -379,13 +379,13 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Kullanıcılar Power BI'ı kullanırken nasıl bağlantı kurabilir ve veri kaynaklarına erişebilir?**
 
-* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcı bir e-posta adresi kullanarak Power BI'da oturum açar; kullanıcı veri kaynağına bağlanmayı denediğinde, Power BI kimlik bilgileri olarak Power BI'ın oturum açma e-posta adresini geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI'da oturum açarken iş e-posta adreslerini ( _david@contoso.com_ gibi iş kaynaklarında oturum açarken kullandıkları e-postanın aynısını) kullanan kuruluşlarda, eşleme sorunsuz gerçekleştirilebilir; iş e-posta adreslerini kullanmayan kuruluşlarda ( _david@contoso.onmicrosoft.com_ gibi), Power BI oturum açma kimlik bilgileriyle şirket içi kaynaklara erişime izin vermek için dizin eşlemesi oluşturulmalıdır.
+* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcılar bir e-posta adresi kullanarak Power BI oturum açtığında; bir Kullanıcı bir veri kaynağına bağlanmaya çalıştığında, Power BI Power BI oturum açma e-posta adresini kimlik bilgileri olarak geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI'da oturum açarken iş e-posta adreslerini ( _david@contoso.com_ gibi iş kaynaklarında oturum açarken kullandıkları e-postanın aynısını) kullanan kuruluşlarda, eşleme sorunsuz gerçekleştirilebilir; iş e-posta adreslerini kullanmayan kuruluşlarda ( _david@contoso.onmicrosoft.com_ gibi), Power BI oturum açma kimlik bilgileriyle şirket içi kaynaklara erişime izin vermek için dizin eşlemesi oluşturulmalıdır.
 
-* **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlara, Power BI tarafından Power BI şirket içi veri ağ geçidi (önceki bölümlerde sözü edilen **Ağ Geçidi**) sunulur.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. Ağ geçitleri hakkında daha fazla bilgi için bkz. Şirket [içi veri ağ geçidi](service-gateway-onprem.md).
+* **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlar için Power BI, Power BI şirket içi veri ağ geçidini (önceki bölümlerde başvurulduğu gibi bir **ağ geçidi**) sunmaktadır.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. Ağ geçitleri hakkında daha fazla bilgi için bkz. Şirket [içi veri ağ geçidi](service-gateway-onprem.md).
 
   Bunlara ek olarak, kuruluşlar **çoklu oturum açma** (SSO) için Kerberos kullanabilir ve Power BI'dan SQL Server, SAP HANA ve Teradata gibi şirket içi veri kaynaklarına sorun yaşamadan bağlanabilir. Daha fazla bilgi edinmek ve belirli yapılandırma gereksinimlerini öğrenmek için bkz. [**Power BI'dan şirket içi veri kaynaklarına SSO için Kerberos kullanma**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
-* **Etki alanı dışındaki bağlantılar**: Etki alanına katılmayan ve Rol Düzeyi Güvenlik (RLS) özelliğine sahip olmayan veri bağlantıları için, bağlantı dizisi sırasında kullanıcının kimlik bilgilerini sağlaması gerekir ve Power BI bu kimlik bilgilerini veri kaynağına geçirerek bağlantı kurar. İzinler yeterliyse, veriler veri kaynağından Power BI hizmetine yüklenir.
+* **Etki alanı olmayan bağlantılar**: etki alanına katılmamış ve rol düzeyi GÜVENLIK (RLS) özelliğine sahip olmayan veri bağlantıları için, kullanıcının bağlantı sırası sırasında kimlik bilgileri sağlaması gerekir ve bu, Power BI daha sonra bu verileri oluşturmak için veri kaynağına geçirilir. bağlanma. İzinler yeterliyse, veriler veri kaynağından Power BI hizmetine yüklenir.
 
 **Veriler Power BI'a nasıl aktarılır?**
 
@@ -399,7 +399,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 * Tarayıcı istemcileri Power BI'a eriştiğinde, Power BI web sunucuları _Cache-Control_ yönergesini _no-store_ olarak ayarlar. Bu _no-store_ yönergesi tarayıcılara kullanıcı tarafından görüntülenmekte olan web sayfasını önbelleğe almamasını ve istemcinin önbellek klasöründe depolamamasını bildirir.
 
-**Rol tabanlı güvenlik nedir ve raporların, panoların ve veri bağlantılarının paylaşımı nasıl olur? Veri erişimi, pano görüntüleme, rapor erişimi veya yenileme açısından bu nasıl çalışır?**
+**Rol tabanlı güvenlik, rapor veya pano paylaşma ve veri bağlantıları hakkında ne olacak? Veri erişimi, pano görüntüleme, rapor erişimi veya yenileme bakımından nasıl çalışır?**
 
 * **Rol Düzeyi Güvenliğin (RLS) etkinleştirilmediği** veri kaynaklarında bir pano, rapor veya veri modeli Power BI üzerinden başka kullanıcılarla paylaşılırsa, veriler görüntülenmek ve etkileşimli çalışılmak üzere paylaşıldığı kullanıcıların kullanımına sunulur. Power BI verilerin özgün kaynağında kullanıcıların kimliğini yeniden *doğrulamaz*; veriler Power BI'a yüklendikten sonra başka hangi kullanıcıların ve grupların verileri görüntüleyebileceğini yönetme sorumluluğu kaynak verilerde kimliği doğrulanan kullanıcıya aittir.
 
@@ -407,7 +407,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
   Daha fazla bilgi için bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın.
 
-**Kullanıcılarımız sürekli aynı veri kaynaklarına bağlanıyor ve bunlardan bazıları etki alanı kimlik bilgilerinden farklı kimlik bilgileri gerektiriyor. Her veri bağlantısı kurduklarında bu kimlik bilgilerini girme zorunluluğundan kurtulmaları sağlanabilir mi?**
+**Kullanıcılarımız, bazıları etki alanı kimlik bilgilerinden farklı kimlik bilgileri gerektiren her seferinde aynı veri kaynaklarına bağlanır. Her veri bağlantısı kurduklarında bu kimlik bilgilerini girmek zorunda kalmaktan kaçınabilirsiniz.**
 
 * Power BI kullanıcıların birden çok farklı veri kaynağı için kimlik bilgileri oluşturmasına, sonra da bu veri kaynaklarından birine arka arkaya erişilirken söz konusu kimlik bilgilerini otomatik olarak kullanmasına olanak tanıyan [Power BI Personal Gateway](https://support.powerbi.com/knowledgebase/articles/649846) özelliğini sunar. Daha fazla bilgi için bkz. [Power BI Personal Gateway](https://support.powerbi.com/knowledgebase/articles/649846).
 
@@ -419,11 +419,11 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
   [Power BI'daki Gruplar](https://support.powerbi.com/knowledgebase/articles/654247) hakkında daha fazla bilgi edinebilirsiniz.
 
-**Şirket içi veri ağ geçidi ile kişisel ağ geçidi hangi bağlantı noktalarını kullanır? Bağlantı amacıyla izin verilmesi gereken etki alanı adları var mı?**
+**Şirket içi veri ağ geçidi ve kişisel ağ geçidi tarafından hangi bağlantı noktaları kullanılır? Bağlantı amaçları için izin verilmesi gereken etki alanı adları var mı?**
 
-* Bu sorunun ayrıntılı yanıtını şu bağlantıda bulabilirsiniz: [Ağ Geçidi bağlantı noktaları](/data-integration/gateway/service-gateway-communication#ports)
+* Bu soruya ayrıntılı yanıtı şu bağlantıda bulabilirsiniz: [ağ geçidi bağlantı noktaları](/data-integration/gateway/service-gateway-communication#ports)
 
-**Şirket içi veri ağ geçidiyle çalışırken kurtarma anahtarları nasıl kullanılır ve nerede depolanır? Güvenli kimlik bilgileri yönetimi nasıl yapılır?**
+**Şirket içi veri ağ geçidiyle çalışırken, kurtarma anahtarları nasıl kullanılır ve nerede depolanır? Güvenli kimlik bilgisi yönetimi ne?**
 
 * Ağ geçidi yüklemesi ve yapılandırması sırasında yönetici bir ağ geçidi **Kurtarma Anahtarı** yazar. Bu **Kurtarma anahtarı** , güçlü bir **AES** simetrik anahtar oluşturmak için kullanılır. Aynı anda **RSA** asimetrik anahtarı da oluşturulur.
 
@@ -435,9 +435,9 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 * Ağ geçidi şu iki iletişim protokolünü destekler:
 
-  - **AMQP 1.0 – TCP + TLS**: Bu protokol 443, 5671-5672 ve 9350-9354 bağlantı noktalarının giden iletişime açık olmasını gerektirir. İletişim yükü daha düşük olduğundan bu protokol tercih edilir.
+  - **AMQP 1,0 – TCP + TLS**: Bu protokol, giden iletişim için 443, 5671-5672 ve 9350-9354 bağlantı noktalarını gerektirir. İletişim yükü daha düşük olduğundan bu protokol tercih edilir.
 
-  - **HTTPS – HTTPS + TLS üzerinden WebSockets**: Bu protokol yalnızca 443 bağlantı noktasını kullanır. WebSocket tek bir HTTP CONNECT iletisiyle başlatılır. Kanal oluşturulduktan sonra iletişim temelde TCP+TLS iletişimidir. Ağ geçidini, [Şirket içi ağ geçidi makalesinde](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)açıklanan bir ayarı değiştirerek bu protokolü kullanmaya zorlayabilirsiniz.
+  - **Https – WebSockets üzerinden https + TLS**: Bu protokol yalnızca 443 numaralı bağlantı noktasını kullanır. WebSocket tek bir HTTP CONNECT iletisiyle başlatılır. Kanal oluşturulduktan sonra iletişim temelde TCP+TLS iletişimidir. Ağ geçidini, [Şirket içi ağ geçidi makalesinde](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus)açıklanan bir ayarı değiştirerek bu protokolü kullanmaya zorlayabilirsiniz.
 
 **Power BI'da Azure CDN'nin rolü nedir?**
 
@@ -459,13 +459,13 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 **Müşteri ağı dışına bilgi gönderebilen şablon uygulamaları var mı?**
 * Evet. Yayımcının gizlilik ilkesini gözden geçirmek ve şablon uygulamanın kiracıya yüklenip yüklenmeyeceğini öğrenmek müşterinin sorumluluğundadır. Ayrıca Yayımcı, uygulamanın davranış ve yeteneklerini bildirmekten sorumludur.
 
-**Veri hakimiyeti hakkında ne söylenebilir? Verilerin ülke sınırlarından çıkmadığından emin olmak için belirli coğrafi bölgelerde yer alan veri merkezlerinde kiracılar sağlayabilir miyiz?**
+**Veri ne olacak? Verilerin ülke kenarlıklarını terk etmemesini sağlamak için, belirli coğrafi bölgelerde bulunan veri merkezlerinde kiracılar sağlayabiliriz.**
 
 * Belirli coğrafi bölgelerdeki müşterilerin bir bölümü ulusal bulutta kiracı oluşturma seçeneğine sahiptir. Bu bulutta veri depolama ile işleme diğer tüm veri merkezlerinden ayrı tutulur. Ulusal bulut Power BI hizmetini Microsoft adına ayrı bir veri şirketi çalıştırdığından, ulusal bulutların güvenlik türü biraz farklıdır.
 
   Alternatif olarak müşteriler belirli bir bölgede kiracı ayarlayabilir ama bu tür kiracıların Microsoft'tan ayrı bir veri şirketi yoktur. Ulusal bulutların fiyatlandırması genel kullanıma sunulan ticari Power BI hizmetinden farklıdır. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
-**Microsoft, Power BI Premium abonelikleri olan müşterilerin bağlantılarını nasıl işler? Bu bağlantıların Premium olmayan Power BI hizmeti için kurulan bağlantılardan farkı nedir?**
+**Microsoft, Power BI Premium abonelikleri olan müşteriler için bağlantıları nasıl işler? Bu bağlantılar Premium olmayan Power BI hizmeti göre belirlenenlerden farklı midir?**
 
 * Power BI Premium abonelikleri olan müşteriler için kurulan bağlantılar, erişim denetimi ve yetkilendirmesini etkinleştirmek için Azure Active Directory (AD) kullanarak [İşletmeler Arası (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) yetkilendirme işlemi gerçekleştirir. Power BI, Power BI Premium abonelerinden Power BI Premium kaynaklarına yönelik bağlantıları da diğer Azure AD kullanıcıları için yaptığı gibi işler.
 
@@ -487,7 +487,7 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 - [Power BI Desktop ile çalışmaya başlama](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
+- [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
 - [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
