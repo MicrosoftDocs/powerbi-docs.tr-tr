@@ -1109,6 +1109,8 @@
       items:
         - name: Kapasite planlamaya ilişkin teknik inceleme
           href: report-server/capacity-planning.md
+        - name: PDF İşleme Uzantısı uyumluluğu
+          href: report-server/rendering-extension-support.md
 - name: Ağ geçitleri
   items:
     - name: Genel Bakış
