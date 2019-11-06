@@ -44,6 +44,14 @@
           href: ../service-admin-power-bi-expressroute.md
         - name: Azure AD B2B hizmetini kullanma
           href: ../service-admin-azure-ad-b2b.md
+        - name: Veri koruma
+          items:
+            - name: Veri korumaya genel bakış
+              href: service-security-data-protection-overview.md
+            - name: Veri duyarlılığı etiketlemesini etkinleştirme
+              href: service-security-enable-data-sensitivity-labels.md
+            - name: Power BI ile Microsoft Cloud App Security kullanma
+              href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: Satır düzeyi güvenlik
           href: ../service-admin-rls.md
         - name: Arşivlenmiş çalışma alanı

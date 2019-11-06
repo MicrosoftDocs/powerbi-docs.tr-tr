@@ -327,7 +327,9 @@
               href: visuals/power-bi-map-tips-and-tricks.md
             - name: X ve Y ekseni özelliklerini özelleştirme
               href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
-            - name: ArcGIS haritaları
+            - name: ArcGIS Maps for Power BI görseli oluşturma
+              href: visuals/power-bi-visualizations-arcgis.md
+            - name: ArcGIS Maps for Power BI görseliyle etkileşim kurma
               href: visuals/power-bi-visualization-arcgis.md
             - name: Basit alan grafiği
               href: visuals/power-bi-visualization-basic-area-chart.md
@@ -727,6 +729,12 @@
               href: service-cognitive-services.md
             - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
               href: service-machine-learning-automated.md
+        - name: Verilerinizi koruma
+          items:
+            - name: Veri korumaya genel bakış
+              href: admin/service-security-data-protection-overview.md
+            - name: Duyarlılık etiketleri uygulama
+              href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Veri kökeni
           href: service-data-lineage.md
         - name: Power BI’daki sayfalandırılmış raporlar
@@ -929,6 +937,8 @@
           href: service-admin-premium-monitor-portal.md
         - name: Artımlı yenilemeyi yapılandırma
           href: service-premium-incremental-refresh.md
+        - name: Büyük modelleri yapılandırma (önizleme)
+          href: service-premium-large-models.md
         - name: Multi-Geo özelliğini yapılandırma
           href: service-admin-premium-multi-geo.md
         - name: Kendi şifreleme anahtarlarınızı getirme
