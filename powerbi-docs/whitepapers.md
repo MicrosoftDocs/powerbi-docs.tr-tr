@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194777"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710769"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -27,11 +27,10 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
 | [Power BI Premium Planlama ve Dağıtım](whitepaper-powerbi-premium-deployment.md)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Mart 2019 |
 | [Plan capacity for embedded analytics with Power BI Premium (Power BI Premium ile katıştırılmış analize yönelik plan kapasitesi)](https://aka.ms/pbiewhitepaper) |Bu makalede, işine en uygun kapasiteyi belirlemesi için uygulama geliştiriciye/ISV'ye yönelik rehberlik sunulmaktadır. | Ekim 2017 |
-| [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. | Mart 2018 |
-| [Güvenlik](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. | Mart 2019 |
+| [Power BI Rapor Sunucusu için kapasite planlaması rehberi](report-server/capacity-planning.md) |Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. | Mart 2018 |
+| [Security (Güvenlik)](service-admin-power-bi-security.md) |Power BI'da güvenliğe ilişkin ayrıntılı bir açıklama sunar. | Mart 2019 |
 | [Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)](whitepaper-azure-b2b-power-bi.md)|Bu makalede, İşletmeler Arası Azure Active Directory (AAD B2B) tümleştirmesi kullanılarak kuruluş dışındaki kullanıcılara nasıl içerik dağıtılacağı açıklanmaktadır.| Mart 2019 |
 | [Advanced Analytics with Power BI (Power BI ile Gelişmiş Analiz)](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Tahmine dayalı analiz, özel görselleştirmeler, R tümleştirmesi ve veri çözümleme ifadeleri dahil olmak üzere Power BI'ın gelişmiş analiz özelliklerini açıklar. | Şubat 2017 |
-| [Raporlar ve görseller için en iyi tasarım yöntemleri](visuals/power-bi-visualization-best-practices.md) |Power BI'da rapor tasarlamaya yönelik en iyi uygulamaları sunar. | Haziran 2018 |
 | [Bidirectional filtering (Çift yönlü filtreleme)](desktop-bidirectional-filtering.md) |Power BI Desktop'ta çift yönlü çapraz filtrelemeyi açıklar. (Ayrıca bu teknik inceleme, aynı davranışa sahip SQL Server Analysis Services 2016'yı da kapsar.) | Temmuz 2018 |
 | [SQL Server 2016 Analysis Services'da DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery, SQL Server 2016 için büyük ölçüde geliştirilmiş hız ve performans elde etmek üzere yeniden tasarlandı. Bu geliştirmeyle birlikte DirectQuery, artık daha da karmaşık ve uygulaması zor hale geldi. | Ocak 2017 |
 | [Power BI ve SAP BW](https://aka.ms/powerbiandsapbw)| Bu belgede, SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği açıklanmaktadır.| Şubat 2018 |
