@@ -3,19 +3,19 @@ title: Power BI güvenliği teknik incelemesi
 description: Power BI'ın güvenlik mimarisi ve uygulamasının açıklandığı ve tartışıldığı teknik inceleme
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430504"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787757"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430504"
 
 **Power BI**, Microsoft’un çevrimiçi yazılım hizmeti (_SaaS_ veya Hizmet olarak Yazılım) teklifidir. Bu hizmet, kolayca ve hızla self servis İş Zekası panoları, raporları, veri kümeleri ve görselleştirmeleri oluşturmanıza olanak tanır. Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](http://go.microsoft.com/fwlink/p/?LinkID=618494)'Nin D katmanında.
+Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](https://go.microsoft.com/fwlink/p/?LinkID=618494)'Nin D katmanında.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
 ## <a name="power-bi-architecture"></a>Power BI Mimarisi
 
-**Power BI** hizmetinin temelini, Microsoft'un **bulut bilgi işlem platformu** olan [Azure](http://azure.microsoft.com/overview/what-is-azure/) oluşturur. Power BI şu anda dünyanın her yerinde birçok veri merkezine dağıtılmıştır. Bu veri merkezlerinin hizmet verdiği bölgelerdeki müşterilerin kullanıma sunulan çok sayıda etkin dağıtım bulunur ve her etkin dağıtım için yedekleme işlevi gören, edilgen dağıtımlar vardır.
+**Power BI** hizmetinin temelini, Microsoft'un [bulut bilgi işlem platformu](https://azure.microsoft.com/overview/what-is-azure/) olan **Azure** oluşturur. Power BI şu anda dünyanın her yerinde birçok veri merkezine dağıtılmıştır. Bu veri merkezlerinin hizmet verdiği bölgelerdeki müşterilerin kullanıma sunulan çok sayıda etkin dağıtım bulunur ve her etkin dağıtım için yedekleme işlevi gören, edilgen dağıtımlar vardır.
 
 Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümesi ve bir **Arka Uç** kümesi. Bu iki küme aşağıdaki resimde gösterilmiştir ve makalenin geri kalanının arka planını oluşturur. 
 
@@ -117,8 +117,8 @@ Power BI, Power BI kümelerinin bölgesel veri merkezlerinde dağıtıldığı y
 
 Aşağıdaki bağlantılar Azure veri merkezleri hakkında ek bilgi sağlar.
 
-- [Azure Bölgeleri](http://azure.microsoft.com/regions/): Azure’ın küresel varlığı ve konumları hakkında bilgiler
-- [Bölgeye göre Azure Hizmetleri](http://azure.microsoft.com/regions/#services): Her bölgede Microsoft tarafından sunulan Azure hizmetlerinin (hem altyapı hizmetleri hem de platform hizmetleri) tam listesi.
+- [Azure Bölgeleri](https://azure.microsoft.com/regions/): Azure’ın küresel varlığı ve konumları hakkında bilgiler
+- [Bölgeye göre Azure Hizmetleri](https://azure.microsoft.com/regions/#services): Her bölgede Microsoft tarafından sunulan Azure hizmetlerinin (hem altyapı hizmetleri hem de platform hizmetleri) tam listesi.
 
 Şu anda Power BI hizmeti, [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)'nde açıklandığı şekilde veri merkezleri tarafından hizmet verilen belirli bölgelerde kullanılabilir. Şu bağlantı Power BI veri merkezlerinin haritasını gösterir; bir bölgedeki veri merkezlerini görmek için bölgenin üzerine gelin:
 
@@ -126,7 +126,7 @@ Aşağıdaki bağlantılar Azure veri merkezleri hakkında ek bilgi sağlar.
 
 Microsoft özerk bölgeler için de veri merkezleri sağlar. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
-Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler **Microsoft Online Services Koşulları**'nın [Bilgi İşlem Koşulları](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) bölümünde belirtilir.
+Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)'nın **Bilgi İşlem Koşulları** bölümünde belirtilir.
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 
@@ -136,7 +136,7 @@ Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve k
 
 Power BI hizmeti için kullanıcı kimlik doğrulaması işlemi aşağıdaki adımlarda açıklanan ve aşağıdaki resimlerde gösterilen şekilde gerçekleşir.
 
-1. Kullanıcı, adres çubuğuna Power BI adresini yazarak (örneğin https://app.powerbi.com) veya Power BI giriş sayfasından (Oturum Aç https://powerbi.microsoft.com)’ı seçerek bir tarayıcıdan Power BI hizmetine bağlantı başlatır. Bağlantı, TLS 1.2 ve HTTPS kullanarak kurulur ve daha sonra tarayıcı ile Power BI hizmeti arasındaki tüm bağlantılarda HTTPS kullanılır. İstek **Azure Traffic Manager**’a gönderilir.
+1. Kullanıcı, adres çubuğuna Power BI adresini yazarak (örneğin https://app.powerbi.com) veya Power BI giriş sayfasından (https://powerbi.microsoft.com) _Oturum Aç_’ı seçerek bir tarayıcıdan Power BI hizmetine bağlantı başlatır. Bağlantı, TLS 1.2 ve HTTPS kullanarak kurulur ve daha sonra tarayıcı ile Power BI hizmeti arasındaki tüm bağlantılarda HTTPS kullanılır. İstek **Azure Traffic Manager**’a gönderilir.
 
 2. **Azure Traffic Manager**, Power BI’ın dağıtıldığı en yakın veri merkezini belirlemek için kullanıcının DNS kaydını denetler ve DNS’ye kullanıcının gönderileceği WFE kümesinin IP adresiyle yanıt verir.
 
@@ -371,7 +371,7 @@ Power BI Mobil'den gelen veri önbelleği iki hafta süreyle veya şunlardan bir
 
 Power BI Mobil uygulamaları cihazdaki klasörlere bakmaz. 
 
-Power BI Mobil'in sağlandığı platformların üçü de, mobil cihaz ve uygulama yönetimi sağlayan yazılım hizmeti Microsoft Intune'u destekler. Intune etkinleştirilip yapılandırıldığında, mobil cihazlardaki veriler şifrelenir ve Power BI uygulamasının kendisi bir SD karta yüklenemez. [Microsoft Intune hakkında daha fazla bilgi edinebilirsiniz](http://www.microsoft.com/cloud-platform/microsoft-intune).
+Power BI Mobil'in sağlandığı platformların üçü de, mobil cihaz ve uygulama yönetimi sağlayan yazılım hizmeti Microsoft Intune'u destekler. Intune etkinleştirilip yapılandırıldığında, mobil cihazlardaki veriler şifrelenir ve Power BI uygulamasının kendisi bir SD karta yüklenemez. [Microsoft Intune hakkında daha fazla bilgi edinebilirsiniz](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="power-bi-security-questions-and-answers"></a>Power BI Güvenlik Soruları ve Yanıtları
 
@@ -487,7 +487,7 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 - [Power BI Desktop ile çalışmaya başlama](https://support.powerbi.com/knowledgebase/articles/471664)
 - [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
+- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
 - [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

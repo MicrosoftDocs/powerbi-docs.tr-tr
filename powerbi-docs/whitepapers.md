@@ -2,19 +2,19 @@
 title: Power BI'a yönelik teknik incelemeler
 description: Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde araştırmanıza olanak sağlar.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710769"
+ms.locfileid: "73787313"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -34,9 +34,9 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 | [Bidirectional filtering (Çift yönlü filtreleme)](desktop-bidirectional-filtering.md) |Power BI Desktop'ta çift yönlü çapraz filtrelemeyi açıklar. (Ayrıca bu teknik inceleme, aynı davranışa sahip SQL Server Analysis Services 2016'yı da kapsar.) | Temmuz 2018 |
 | [SQL Server 2016 Analysis Services'da DirectQuery](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery, SQL Server 2016 için büyük ölçüde geliştirilmiş hız ve performans elde etmek üzere yeniden tasarlandı. Bu geliştirmeyle birlikte DirectQuery, artık daha da karmaşık ve uygulaması zor hale geldi. | Ocak 2017 |
 | [Power BI ve SAP BW](https://aka.ms/powerbiandsapbw)| Bu belgede, SAP müşterilerinin Power BI’ı mevcut SAP Business Warehouse (BW) sistemlerine bağlayarak nasıl avantaj elde edebileceği açıklanmaktadır.| Şubat 2018 |
-| [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Bu makalede, tablolu BI anlam modeline ve Power BI'a yönelik güvenlik modeli tanıtılmaktadır. Rol oluşturmayı, dinamik güvenlik uygulamayı, kimliğe bürünme ayarlarını yapılandırmayı, rolleri yönetmeyi ve ağınızın güvenlik bağlamında çalışan modellere bağlanma yöntemi seçmeyi öğreneceksiniz. | Nisan 2016 |
+| [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Bu makalede, tablolu BI anlam modeline ve Power BI'a yönelik güvenlik modeli tanıtılmaktadır. Rol oluşturmayı, dinamik güvenlik uygulamayı, kimliğe bürünme ayarlarını yapılandırmayı, rolleri yönetmeyi ve ağınızın güvenlik bağlamında çalışan modellere bağlanma yöntemi seçmeyi öğreneceksiniz. | Nisan 2016 |
 | [Power BI ve GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Bu bağlantı, Microsoft Power BI GDPR teknik incelemesinin de bulunduğu Hizmet Güveni Portalı'ndaki teknik inceleme listesini açar. | Nisan 2018 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
