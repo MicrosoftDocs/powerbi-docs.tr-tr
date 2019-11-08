@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Power BI'da öğeleri veri olmadan gösterme
           href: desktop-show-items-no-data.md
+        - name: Power BI Desktop’ta otomatik tarih/saat
+          href: desktop-auto-date-time.md
         - name: Verilere bağlanma
           items:
             - name: Power BI Desktop'taki veri kaynakları
