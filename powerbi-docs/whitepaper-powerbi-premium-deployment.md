@@ -3,19 +3,18 @@ title: Power BI Premium kapasiteleri dağıtma ve yönetme
 description: Power BI Premium potansiyelini anlayın ve ölçeklenebilir çözümleri tasarlama, dağıtma, izleme ve sorun giderme hakkında bilgi edinin.
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786337"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880603"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium kapasiteleri dağıtma ve yönetme
 
@@ -834,7 +833,7 @@ Power BI Premium kapasiteleri dağıtmak ve yönetmek için, Yöneticiler ve mod
 
 ## <a name="end-notes"></a>Son notlar
 
-<a name="endnote-01"></a>\[1\] bu teknik kağıt yalnızca Power BI bulut hizmeti tarafından desteklenen Power BI Premium ilgilidir ve Power BI rapor sunucusu, yüklemek için gereken lisansın dahil olduğu durumlar dışında Power BI Rapor Sunucusu kapsamda değildir. Bazı Power BI Premium SKU 'Ları.
+<a name="endnote-01"></a>\[1\] bu teknik kağıt yalnızca Power BI bulut hizmeti tarafından desteklenen Power BI Premium ilgilidir ve Power BI rapor sunucusu, yüklemek için gereken lisansın bazı Power BI Rapor Sunucusu SKU 'Lara dahil olduğu durumlar dışında Power BI Premium kapsamda değildir.
 
 <a name="endnote-02"></a>\[2\], uygulama kullanıcıları adına içerik eklemek için kullanıldığında bir bulut hizmeti olarak Power BI, hizmet olarak platform (PaaS). Bu tür gömme, biri Power BI Premium farklı iki ürünle elde edilebilir.
 
