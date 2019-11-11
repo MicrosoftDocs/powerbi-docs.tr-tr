@@ -2,7 +2,6 @@
 title: Power BI Desktop'taki raporlarınızı PDF biçiminde dışarı aktarma
 description: Power BI Desktop'taki raporlarınızı kolayca PDF biçiminde dışarı aktarın ve bu PDF raporlarını yazdırın
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2f64973650edd951a9a780090426afba3e8471f5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61303191"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867689"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Power BI Desktop'taki raporları PDF olarak dışarı aktarma
 **Power BI Desktop** veya Power BI hizmetindeki raporlarınızı PDF dosyası biçiminde dışarı aktarabilir, bu PDF raporları kolayca paylaşabilir veya yazdırabilirsiniz.

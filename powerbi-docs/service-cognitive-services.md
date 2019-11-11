@@ -2,7 +2,6 @@
 title: Power BI'da Bilişsel Hizmetler
 description: Power BI ile Bilişsel Hizmetler'i kullanmayı öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 267534198d40b91a5550321162b42ecd45500673
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823507"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855592"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI'da Bilişsel Hizmetler 
 

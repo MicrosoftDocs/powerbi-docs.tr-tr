@@ -2,7 +2,6 @@
 title: Yönetim ve dağıtım yaklaşımları
 description: Power BI ekosisteminde yönetimle ilgili kavramlar, seçenekler ve öneriler hakkında bilgi edinmeye yönelik teknik inceleme.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 38ae1e609afe90c24a16f0cb1d1f35671422f883
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: bede44edd545829ce6a891a0b3ecf634d530efbb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857604"
 ---
 # <a name="governance-and-deployment-approaches"></a>Yönetim ve dağıtım yaklaşımları
 

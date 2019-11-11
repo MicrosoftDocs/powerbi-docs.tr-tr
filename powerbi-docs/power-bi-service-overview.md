@@ -2,7 +2,6 @@
 title: Power BI hizmeti nedir?
 description: Power BI hizmetine genel bakış ve Power BI’ın diğer bölümleriyle birlikte çalışma şekli.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060867"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874982"
 ---
 # <a name="what-is-the-power-bi-service"></a>Power BI hizmeti nedir?
 **Power BI**, iş içgörülerini siz ve işiniz için en verimli şekilde kullanmanıza yardımcı olmak üzere birlikte çalışan bir yazılım hizmetleri, uygulamalar ve bağlayıcılar koleksiyonudur. Power BI çevrimiçi olarak da adlandırılan Microsoft Power BI *hizmeti* (app.powerbi.com) Power BI’ın SaaS (*Hizmet Olarak Yazılım*) bölümüdür. Power BI hizmetindeki *panolar*, işletmenizin nabzını tutmanıza yardımcı olur. Panolarda görüntülenen *kutucukları* seçtiğinizde *raporlar* açılır ve böylece daha fazla araştırma yapabilirsiniz. Panolar ve raporlar birden çok *veri kümesine* bağlanarak tüm ilgili verileri bir yerde toplar. 

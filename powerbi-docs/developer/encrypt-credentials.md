@@ -3,18 +3,17 @@ title: Kimlik bilgilerini şifreleme
 description: İzlenecek yol - Şirket İçi Ağ Geçidi veri kaynakları için kimlik bilgilerini şifreleme
 author: mahirdiab
 ms.author: madia
-manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/04/2019
-ms.openlocfilehash: 0952867ef9660a9dab6fc532df055ed619bf47fc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 4747d548f8b02806c1e7b1359d140b09039e09d8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750907"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863863"
 ---
 # <a name="encrypt-credentials"></a>Kimlik bilgilerini şifreleme
 

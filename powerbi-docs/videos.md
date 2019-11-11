@@ -2,7 +2,6 @@
 title: Power BI videoları
 description: Power BI Videoları ve YouTube kanalı bağlantısı.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 9068c522d2aedf95fc65e9bc4bece04531db478d
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060327"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871167"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.
@@ -49,5 +48,5 @@ Daha fazla video için aşağıdaki kaynak ve içerik koleksiyonuna göz atın.
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](fundamentals/power-bi-overview.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
