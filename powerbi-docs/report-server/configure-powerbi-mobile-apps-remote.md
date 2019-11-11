@@ -2,19 +2,18 @@
 title: Bir rapor sunucusuna yönelik uzaktan iOS mobil uygulama erişimini yapılandırma
 description: Rapor sunucunuz için uzaktan iOS mobil uygulamaları yapılandırmayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874199"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
 

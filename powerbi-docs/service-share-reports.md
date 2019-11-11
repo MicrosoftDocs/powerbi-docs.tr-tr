@@ -2,7 +2,6 @@
 title: Filtre uygulanmış bir Power BI raporunu paylaşmanın iki yolu
 description: Power BI raporuna filtre uygulamanın ve bu raporu kuruluşunuzdaki iş arkadaşlarınızla paylaşmanın iki yolunu öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877720"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871440"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Filtre uygulanmış bir Power BI raporunu paylaşmanın iki yolu
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Bu, yalnızca belirli bir şehre veya satış temsilcisine ya da yıla ait verileri gösteren bir rapor olabilir. Bir raporu filtrelemeyi ve paylaşmayı deneyin ya da özel bir URL oluşturun. Alıcılar URL’yi ilk kez açtığında rapor filtrelenir. URL'yi değiştirerek filtreyi kaldırabilirler. 
@@ -74,6 +73,6 @@ Daha ayrıntılı bilgi için [URL'de sorgu dizesi parametreleri kullanarak bir 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Bir panoyu paylaşma](service-share-dashboards.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 * Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 

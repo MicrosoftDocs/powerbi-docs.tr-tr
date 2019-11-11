@@ -2,7 +2,6 @@
 title: Power BI raporlarındaki metin kutuları ve şekiller
 description: Microsoft Power BI hizmetini kullanarak bir rapora metin kutuları ve şekiller ekleyin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715279"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874432"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI raporlarındaki metin kutuları ve şekiller
 Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller ekleyebilirsiniz. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Power BI hizmetinde sizinle bir rapor paylaşıldıysa, düzenleme izinlerine sahip olmazsınız. 
@@ -68,4 +67,4 @@ Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

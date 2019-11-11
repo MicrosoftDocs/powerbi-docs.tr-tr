@@ -2,7 +2,6 @@
 title: Excel'deki kutucukları bir Power BI panosuna sabitleme
 description: OneDrive İş'teki bir Excel dosyasında bulunan kutucukları Power BI panolarına sabitleyin. Aralıkları, grafikleri ve tabloları sabitleyin
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 273cfbd86573a5eceaf9705ac19b0f7928b59176
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877424"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  
 Sizinle bir çalışma kitabı paylaşılırsa, dosyanın sahibi tarafından sabitlenen kutucukları görüntüleyebilirsiniz ancak herhangi bir pano kutucuğu oluşturamazsınız. 
 
-Excel ve Power BI'ın birlikte nasıl çalıştığı hakkında ayrıntılı bilgi için bkz. [Excel çalışma kitabı dosyalarından veri alma](http://go.microsoft.com/fwlink/?LinkID=521962).
+Excel ve Power BI'ın birlikte nasıl çalıştığı hakkında ayrıntılı bilgi için bkz. [Excel çalışma kitabı dosyalarından veri alma](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 Will bize Excel çalışma kitaplarındaki verileri içeri aktarmak ve bu verilere bağlanmak için kullanabileceğimiz birkaç yöntem gösterecek.
 
@@ -81,12 +80,12 @@ Bir çalışma kitabı kutucuğu seçildiğinde bağlantılı çalışma kitabı
  ![video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Desteklenmeyen özellikler: Power BI, çalışma kitabı kutucuklarını almak için Excel Hizmetleri'ni kullanır. Bu nedenle, Excel'in bazı özellikleri Excel Hizmetleri REST API'sinde desteklenmediğinden söz konusu özellikler Power BI'daki kutucuklarda görülmez. Örnek: Mini grafikler, simge kümesi koşullu biçimlendirme özelliği ve zaman dilimleyicileri. Desteklenmeyen özelliklerin tam listesi için bkz. [Unsupported Features in Excel Services REST API (Excel Hizmetler REST API'sinde Desteklenmeyen Özellikler)](http://msdn.microsoft.com/library/office/ff394477.aspx)
+Desteklenmeyen özellikler: Power BI, çalışma kitabı kutucuklarını almak için Excel Hizmetleri'ni kullanır. Bu nedenle, Excel'in bazı özellikleri Excel Hizmetleri REST API'sinde desteklenmediğinden söz konusu özellikler Power BI'daki kutucuklarda görülmez. Örnek: Mini grafikler, simge kümesi koşullu biçimlendirme özelliği ve zaman dilimleyicileri. Desteklenmeyen özelliklerin tam listesi için bkz. [Unsupported Features in Excel Services REST API (Excel Hizmetler REST API'sinde Desteklenmeyen Özellikler)](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Excel çalışma kitabıyla bağlantılı bir panoyu paylaşma](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Excel çalışma kitaplarından veri alma](service-excel-workbook-files.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

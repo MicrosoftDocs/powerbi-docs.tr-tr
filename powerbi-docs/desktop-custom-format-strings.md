@@ -2,7 +2,6 @@
 title: Power BI Desktop’ta özel biçim dizelerini kullanma
 description: Power BI Desktop’ta biçim dizelerini özelleştirme hakkında bilgi edinin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305725"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878341"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
 

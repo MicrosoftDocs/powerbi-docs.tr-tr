@@ -2,7 +2,6 @@
 title: Power BI’da çok boyutlu modellerde varsayılan üye
 description: Çok boyutlu modellerde varsayılan üyelerle çalışırken Power BI'ın nasıl davrandığını öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: afd85404dd926cab396222d3ba9b4bf62e689054
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61308881"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876355"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Power BI’da çok boyutlu modellerde varsayılan üye
 

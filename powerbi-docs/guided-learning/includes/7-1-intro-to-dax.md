@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847748"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800199"
 ---
 Size **DAX**'ı tanıtmak için tasarlanan Power BI **Destekli Öğrenme** bölümüne hoş geldiniz.
 
 **Veri Çözümleme İfadeleri** anlamına gelen **DAX**, Power BI genelinde kullanılan (arka planda Power BI tarafından da kullanılır) formül dilidir. DAX, Power Pivot ve SSAS Tablosu gibi diğer Microsoft tekliflerinde de yer alır ancak bu Destekli Öğrenme konularında, DAX dilinin nasıl kullanıldığına ve Power BI'da sizin tarafınızdan nasıl kullanılabileceğine odaklanılmıştır.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX ve Destekli Öğrenme video serisi
-Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](http://www.sqlbi.com/learning-dax) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
+Bu **Destekli Öğrenme** bölümünde; ünlü DAX uzmanı [Alberto Ferrari](https://www.sqlbi.com/learning-dax) tarafından açıklandığı (ve sayısız deneyimle öğrenildiği) şekilde DAX ile ilgili temel kavramları ve bilgileri (DAX üzerinde düşünme, DAX dilinin çalışma şekli ve en kullanışlı özellikler) anlatmak amaçlanmıştır.
 
 ![Alberto Ferrari'nin portresi](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX, işleç aşırı yüklemesini kullanır. Böylece, hesaplamalarınızda ver
 
 Power BI'da sıklıkla kullanacağınız bir veri türü bulunur: **DateTime**. **Tarih/Saat**, hem tamsayı hem de ondalık kısımları içeren bir kayan noktalı değer olarak depolanır. Tarih/Saat, 1 Mart 1900 tarihinden sonraki herhangi bir zaman aralığına ilişkin hesaplamalar için tutarlı bir şekilde kullanılabilir.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)'ye teşekkür ederiz
 > 
 > 
 

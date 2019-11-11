@@ -2,7 +2,6 @@
 title: Power BI tasarımcıları için pano kutucuklarına giriş
 description: Bu makalede, SQL Server Reporting Services (SSRS) raporlarından oluşturulan kutucuklar da dahil olmak üzere Power BI'daki pano kutucukları açıklanmaktadır.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994862"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872797"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 
@@ -99,8 +98,8 @@ Bir kutucuğu seçtiğinizde sonraki adım, kutucuğu nasıl oluşturduğunuza b
 - [Power BI tasarımcıları için panolara giriş](service-dashboards.md)  
 - [Power BI'da veri yenileme](refresh-data.md)
 - [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
-- [Power BI kutucuklarını Office belgeleriyle tümleştirme](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Power BI kutucuklarını Office belgeleriyle tümleştirme](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Reporting Services öğelerini Power BI panolarına sabitleme](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 

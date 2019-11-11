@@ -2,7 +2,6 @@
 title: Veri kaynağınızı yönetme - Oracle
 description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832462"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872472"
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 
@@ -29,11 +28,11 @@ Ağ geçidini Oracle sunucunuza bağlamak için .NET için Oracle Veri Sağlayı
 
 Power BI Desktop'ın 32 bit sürümü için, 32 bit Oracle istemcisini indirip yüklemek amacıyla aşağıdaki bağlantıyı kullanın:
 
-* [Oracle Developer Tools for Visual Studio (12.1.0.2.4) ile 32 bit Oracle Data Access Components (ODAC)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [Oracle Developer Tools for Visual Studio (12.1.0.2.4) ile 32 bit Oracle Data Access Components (ODAC)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Power BI Desktop’ın 64 bit sürümü veya Şirket içi veri ağ geçidi için, 64 bit Oracle istemcisini indirip yüklemek üzere aşağıdaki bağlantıyı kullanın:
 
-* [Windows x64 için 64 bit ODAC 12.2c Sürüm 1 (12.2.0.1.0)](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [Windows x64 için 64 bit ODAC 12.2c Sürüm 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 İstemci yüklendikten sonra, tnsnames.ora dosyanızı veritabanınız için uygun bilgilerle yapılandırın. Power BI Desktop ve ağ geçidi, tnsnames.ora dosyasında tanımlanan net_service_name için farklı değerlere sahip olur. net_service_name yapılandırılmamışsa bağlanamazsınız. tnsnames.ora için varsayılan yol şudur: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. tnsnames.ora dosyalarının nasıl yapılandırılacağı hakkında daha fazla bilgi için bkz. [Oracle: Yerel adlandırma parametreleri (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -132,5 +131,5 @@ Ağ geçidi ile ilgili daha fazla sorun giderme bilgisi için bkz. [Şirket içi
 * [Ağ geçidiyle ilgili sorunları giderme - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 

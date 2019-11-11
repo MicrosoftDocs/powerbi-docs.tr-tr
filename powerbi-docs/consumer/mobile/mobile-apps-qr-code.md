@@ -2,19 +2,18 @@
 title: Mobil cihazınızdan Power BI QR kodu tarama
 description: Power BI'daki QR kodları, gerçek dünyadaki herhangi bir öğeyi, iPhone'lar ve Android cihazlar için Power BI mobil uygulamasındaki ilgili BI bilgilerine doğrudan bağlayabilir.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236751"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879200"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
 Aşağıdakiler için geçerlidir:
@@ -50,7 +49,7 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>iPhone'unuzda bir dış tarayıcıyla QR kodu tarama
 1. Telefonunuzda yüklü bulunan herhangi bir tarayıcıyı kullanarak, kutucuğa ya da rapora doğrudan erişim sağlamak üzere tarayıcıyı ilgili Power BI QR koduna doğrultun. 
-2. Power BI uygulaması yüklü değilse iPhone'unuza [indirmek üzere Apple App Store'a](http://go.microsoft.com/fwlink/?LinkId=522062) yönlendirilirsiniz.
+2. Power BI uygulaması yüklü değilse iPhone'unuza [indirmek üzere Apple App Store'a](https://go.microsoft.com/fwlink/?LinkId=522062) yönlendirilirsiniz.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Power BI tarayıcısıyla Android cihazınıza Power BI QR kodu taratma
 1. Power BI mobil uygulamasının sol üst tarafında bulunan genel gezinti düğmesini ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) açın. 
@@ -67,12 +66,12 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android cihazınızda bir dış tarayıcıyla QR kodu tarama
 1. Android cihazınızda yüklü bulunan herhangi bir tarayıcıyı kullanarak, kutucuğa ya da rapora doğrudan erişim sağlamak üzere tarayıcıyı ilgili Power BI QR koduna doğrultun. 
-2. Power BI uygulaması yüklü değilse [indirmek üzere Google Play'e](http://go.microsoft.com/fwlink/?LinkID=544867) yönlendirilirsiniz. 
+2. Power BI uygulaması yüklü değilse [indirmek üzere Google Play'e](https://go.microsoft.com/fwlink/?LinkID=544867) yönlendirilirsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)
 * [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../service-create-qr-code-for-tile.md)
 * [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../service-create-qr-code-for-report.md)
 * Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

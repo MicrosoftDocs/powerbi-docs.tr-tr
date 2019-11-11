@@ -3,19 +3,18 @@ title: Azure ve Power BI
 description: Azure ve Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 9d48054e4b41c097d51522ad7596b750bd067e6d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: db988dfd360aae00fed1f6d917376a6ba54f9089
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513319"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873235"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 
@@ -31,7 +30,7 @@ Bir Azure SQL Veritabanı ile bağlantı kurarak çalışmaya başlayabilir, iş
 
 ![SQL’den Power BI’a](media/service-azure-and-power-bi/azure_2_sqltopbi.png)
 
-[Azure SQL Veritabanı](http://azure.microsoft.com/services/sql-database/) hakkında bilmeniz gereken birçok farklı özellik mevcuttur.
+[Azure SQL Veritabanı](https://azure.microsoft.com/services/sql-database/) hakkında bilmeniz gereken birçok farklı özellik mevcuttur.
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>Bulut verilerinizi dönüştürme, şekillendirme ve birleştirme
 
@@ -43,13 +42,13 @@ Aynı veri bağlantılarını ve hatta aynı Sorguyu kullanarak farklı hedef ki
 
 Daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Azure SQL Veritabanı](http://azure.microsoft.com/services/sql-database/)
-* [Azure HDInsight](http://azure.microsoft.com/services/hdinsight/)
-* [Azure Depolama](http://azure.microsoft.com/services/storage/) (Blob Depolama ve Tablo Depolama)
+* [Azure SQL Veritabanı](https://azure.microsoft.com/services/sql-database/)
+* [Azure HDInsight](https://azure.microsoft.com/services/hdinsight/)
+* [Azure Depolama](https://azure.microsoft.com/services/storage/) (Blob Depolama ve Tablo Depolama)
 
 ## <a name="get-complex-and-ahead-using-azure-services-and-power-bi"></a>Azure Hizmetlerini ve Power BI'ı kullanarak karmaşık (ve avantaj sağlayan) senaryolar oluşturma
 
-Azure ve Power BI sayesinde istediğiniz ölçekte çalışma yapabilirsiniz. Çok kaynaklı veri işleme özelliklerinden faydalanın, büyük ölçekli, gerçek zamanlı sistemleri kullanın, [Akış Analizi](http://azure.microsoft.com/services/stream-analytics/) ve [Event Hubs](http://azure.microsoft.com/services/event-hubs/)'dan yararlanın ve farklı SaaS hizmetlerinizi işletmenize avantaj sağlayan iş zekası raporlarına dönüştürün.
+Azure ve Power BI sayesinde istediğiniz ölçekte çalışma yapabilirsiniz. Çok kaynaklı veri işleme özelliklerinden faydalanın, büyük ölçekli, gerçek zamanlı sistemleri kullanın, [Akış Analizi](https://azure.microsoft.com/services/stream-analytics/) ve [Event Hubs](https://azure.microsoft.com/services/event-hubs/)'dan yararlanın ve farklı SaaS hizmetlerinizi işletmenize avantaj sağlayan iş zekası raporlarına dönüştürün.
 
 ![Azure Karmaşık](media/service-azure-and-power-bi/azure_4_complex.png)
 
@@ -57,7 +56,7 @@ Azure ve Power BI sayesinde istediğiniz ölçekte çalışma yapabilirsiniz. Ç
 
 İş verilerinizden faydalanmak için uygulamalara, web sitelerine, portallara ve çok daha fazlasına etkileyici ve etkileşimli veri görselleştirmeleri ekleyin. [Azure’da Power BI Embedded’ı kaynak olarak kullanarak](https://azure.microsoft.com/services/power-bi-embedded/) etkileşimli raporları ve panoları kolayca ekleyebilir, bu sayede kullanıcılarınıza farklı cihazlarda tutarlı ve yüksek güvenilirlikli deneyimler sunabilirsiniz.  Eklenen analizler sayesinde Power BI, Veri -> Bilgi -> İçgörüler -> Eylemler yolculuğunuzda size yardımcı olur.  Ayrıca analizleri [kuruluşunuzun şirket içi uygulamalarına ve portallarına](https://powerbi.microsoft.com/developers/embedded-analytics/organization/) ekleyerek Power BI ve Azure’dan daha fazla fayda elde edebilirsiniz.
 
-[Power BI Geliştirici Portalı](http://dev.powerbi.com)'nda Power BI API'leri hakkında oldukça fazla bilgi mevcuttur.
+[Power BI Geliştirici Portalı](https://dev.powerbi.com)'nda Power BI API'leri hakkında oldukça fazla bilgi mevcuttur.
 
 Daha fazla bilgi için bkz. [Geliştiriciler Power BI ile neler yapabilir?](developer/what-can-you-do.md).
 

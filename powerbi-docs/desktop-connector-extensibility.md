@@ -2,7 +2,6 @@
 title: Power BI’da Bağlayıcı Genişletilebilirliği
 description: Bağlayıcı genişletilebilirlik özellikleri, güvenlik ayarları ve sertifikalı bağlayıcılar
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d5d743dda31d05df0beb528648c5a43ffc6b335
-ms.sourcegitcommit: 32a44dd17a44ccfd4a2d86a0d235251c2fda1c5c
+ms.openlocfilehash: e493e4a41e7b357a23677c1c50f654dbee51e0ca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "68702100"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878415"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI’da bağlayıcı genişletilebilirliği
 

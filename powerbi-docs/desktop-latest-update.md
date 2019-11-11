@@ -2,7 +2,6 @@
 title: Son Power BI Desktop güncelleştirmesindeki yenilikler
 description: Son Power BI Desktop güncelleştirmesindeki yenilikler
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ccd89bfa868569f6547c67d3673d0afd664d6a7
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: a9fb691882c8f34aeb8006eee3ec30d428db72e4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307701"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878127"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler 
 

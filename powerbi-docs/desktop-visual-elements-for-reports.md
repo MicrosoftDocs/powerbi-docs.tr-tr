@@ -2,7 +2,6 @@
 title: Görsel öğeler kullanarak Power BI raporlarını geliştirme
 description: Duvar kağıdı ve görsel üst bilgi gibi görsel öğeleri kullanarak raporları geliştirme
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 87d530bdf966e549e67427f68fa8b23895120e48
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514062"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865425"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Görsel öğeler kullanarak Power BI raporlarını geliştirme
 

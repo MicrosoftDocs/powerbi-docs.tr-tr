@@ -3,19 +3,18 @@ title: Power BI Premium kapasitesini yeniden başlatma
 description: Performans sorunlarını gidermek için Power BI Premium kapasitesinin nasıl yeniden başlatılacağını öğrenin.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1622e06cd7aa394d384954b393d1e547e87df10a
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 758d630a06ed0194dec69013535df53f9a2825a6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305667"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873436"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 
@@ -59,4 +58,4 @@ Ayrıca, altında yatan sorunlara işaret eden eğilimleri saptamak için düzen
 
 [Power BI Premium nedir?](service-premium-what-is.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Python programlama dilini kullanarak Power BI görselleri oluşturma
 description: Python programlama dilini kullanarak Power BI görselleri oluşturma
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303061"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877972"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
 **Power BI Desktop** ile verilerinizi görselleştirmek için **Python** programlama dilini kullanabilirsiniz.
@@ -158,7 +157,7 @@ Bu öğretici **Power BI Desktop**’ta Python ile görseller oluşturmaya başl
 * [Matplotlib](https://matplotlib.org/) web sitesindeki belgeler. 
 * [Matplotlib Öğreticisi: Python ile Matplotlib Kullanımı için Temel Kılavuz](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
 * [Matplotlib Öğreticisi – Örneklerle Python Matplotlib Kitaplığı](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
-* [Pandas API Başvurusu](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Pandas API Başvurusu](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
 * [Power BI Hizmeti’nde Python görselleştirmeleri](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [Power BI’da Python Görsellerini Kullanma](https://www.absentdata.com/how-to-user-python-and-power-bi/)
 

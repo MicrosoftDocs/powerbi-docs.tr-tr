@@ -2,7 +2,6 @@
 title: Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 description: Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023766"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877394"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Harika bir Power BI panosu tasarlamaya ilişkin ipuçları
 Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel göründüğü kadar işlevsel hale getirmeye geldi. Genel olarak yapmanız gereken, en önemli bilgileri öne çıkarıp panoyu temiz ve sade bir hale getirmektir.
@@ -24,8 +23,6 @@ Panonuzu oluşturup birkaç kutucuk eklediğinizde göre sıra panonuzu güzel g
 
 > [!TIP]
 > Bu panoyu beğendiniz mi? Panoyu ve ilgili raporları AppSource'tan indirebilirsiniz. **Veri al** > **Hizmetler**’e gidin. **Microsoft Örneği - Satış ve Pazarlama** > **Şimdi edinin**’i arayın.
-
-Bunların çoğu raporlara ilişkin tasarım ilkeleridir ancak panolar için de geçerlidir. Daha fazla bilgi için [Raporlar ve görselleştirmeler için en iyi tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md) teknik incelememizi okuyun.
 
 Panolar için aşağıda birkaç ipucu verilmiştir.
 
@@ -85,4 +82,4 @@ Pano tasarımı konusunda uzmanlaşmak için bağlam içinde eyleme dönüştür
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapordan pano oluşturma](service-dashboard-create.md)  
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

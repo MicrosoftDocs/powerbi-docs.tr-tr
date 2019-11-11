@@ -2,7 +2,6 @@
 title: Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
 description: CSV dosyalarından Power BI'a veri almayı öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513326"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855518"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-Genellikle .CSV olarak bilinen virgülle ayrılmış değer dosyaları, her değerin virgülle ayrıldığı veri satırları içeren basit metin dosyalarıdır. Bu tür dosyaların çok büyük miktarda veriyi görece küçük boyutlu bir dosya içinde barındırması, bu dosyaları Power BI için ideal bir veri kaynağı haline getirir. Bir .CSV dosyası örneğini [buradan](http://go.microsoft.com/fwlink/?LinkID=619356) indirebilirsiniz.
+Genellikle .CSV olarak bilinen virgülle ayrılmış değer dosyaları, her değerin virgülle ayrıldığı veri satırları içeren basit metin dosyalarıdır. Bu tür dosyaların çok büyük miktarda veriyi görece küçük boyutlu bir dosya içinde barındırması, bu dosyaları Power BI için ideal bir veri kaynağı haline getirir. Bir .CSV dosyası örneğini [buradan](https://go.microsoft.com/fwlink/?LinkID=619356) indirebilirsiniz.
 
 Bir .CSV dosyanız varsa bu dosyayı bir veri kümesi olarak Power BI sitenize almanın şimdi tam zamanı! Burada verilerinizi araştırmaya başlayabilir, bazı panolar oluşturabilir ve öngörülerinizi başkalarıyla paylaşabilirsiniz.
 

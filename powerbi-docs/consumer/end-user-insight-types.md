@@ -2,20 +2,19 @@
 title: Power BI tarafından desteklenen Öngörü türleri
 description: Power BI ile Hızlı Öngörüler Öngörüleri görüntüleme.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379905"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863479"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -32,17 +31,17 @@ Kullandığımız bazı algoritmalar şunlardır:
 ## <a name="category-outliers-topbottom"></a>Kategori aykırı değerleri (üst/alt)
 Modeldeki bir ölçü için bir boyutun bir veya iki üyesinin, boyutun diğer üyelerinden daha büyük değerlere sahip olduğu durumları vurgular.  
 
-![Kategori aykırı değerleri örneği](./media/end-user-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Kategori aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Zaman serilerindeki değişim noktaları
 Verilere ilişkin bir zaman serisindeki eğilimlerde görülen önemli değişiklikleri vurgular.
 
-![Zaman serilerindeki değişim noktaları örneği](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
+![Zaman serilerindeki değişim noktaları örneği](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
 ## <a name="correlation"></a>Bağıntı
 Veri kümesindeki bir boyuta göre değerlendirilen birden fazla ölçü arasında bağıntı görülen durumları algılar.
 
-![Bağıntı örneği](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
+![Bağıntı örneği](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ## <a name="low-variance"></a>Düşük Varyans
 Veri noktalarının ortalamaya yakın olduğu durumları algılar.
@@ -52,30 +51,30 @@ Veri noktalarının ortalamaya yakın olduğu durumları algılar.
 ## <a name="majority-major-factors"></a>Çoğunluk (Ana etkenler)
 Bir toplam değerin çoğunluğunun, başka bir boyuta göre değerlendirildiğinde tek bir etkenle ilişkilendirilebildiği durumları bulur.  
 
-![Ana etkenler örneği](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![Ana etkenler örneği](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Zaman serisindeki genel eğilimler
 Zaman serisi verilerinde görülen yukarı veya aşağı yönlü eğilimleri algılar.
 
-![Zaman serisindeki genel eğilimler örneği](./media/end-user-insight-types/pbi_auto_insight_types_trend.png)
+![Zaman serisindeki genel eğilimler örneği](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Zaman serisinde mevsimsellik
 Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi dönemsel düzenler bulur.
 
-![Mevsimsellik örneği](./media/end-user-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ## <a name="steady-share"></a>Düzenli paylaşım
 Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular.
 
-![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Zaman serisi aykırı değerleri
 Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğer tarih/saat değerlerinden büyük ölçüde farklılık gösteren değerler içerdiği durumları algılar.
 
-![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI öngörüleri](end-user-insights.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

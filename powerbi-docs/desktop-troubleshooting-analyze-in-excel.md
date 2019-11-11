@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta Excel'de Çözümle özelliği ile ilgili sorunları giderme
 description: Excel'de Çözümle özelliği ile ilgili olarak sık karşılaşılan sorunların çözümleri
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543973"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865754"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
 
@@ -24,7 +23,7 @@ Excel'de Çözümle özelliğini kullanırken beklemediğiniz bir sonuç aldığ
 > [!NOTE]
 > [Excel'de Çözümle](service-analyze-in-excel.md) özelliğinin açıklandığı ve bu özelliği etkinleştirme konusunda bilgilerin sunulduğu ayrı bir sayfa daha bulunur.
 > 
-> Aşağıda belirtilmemiş bir senaryoyla karşılaşırsanız ve bu durum sorun yaratırsa daha fazla yardım almak için [topluluk sitesine](http://community.powerbi.com/) başvurabilir veya bir [destek bileti](https://powerbi.microsoft.com/support/) oluşturabilirsiniz.
+> Aşağıda belirtilmemiş bir senaryoyla karşılaşırsanız ve bu durum sorun yaratırsa daha fazla yardım almak için [topluluk sitesine](https://community.powerbi.com/) başvurabilir veya bir [destek bileti](https://powerbi.microsoft.com/support/) oluşturabilirsiniz.
 > 
 > 
 
@@ -40,7 +39,7 @@ Bu makale, aşağıdaki sorun giderme bölümlerini içermektedir:
 * PivotTable Değerleri alanına (ölçü yok) herhangi bir öğenin sürüklenememesi
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>OLE DB sağlayıcısı için Excel kitaplıklarını güncelleştirme
-**Excel'de Çözümle** özelliğini kullanabilmeniz için bilgisayarınızda güncel bir AS OLE DB sağlayıcısı yüklü olmalıdır. Bu [topluluk gönderisi](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081), OLE DB sağlayıcısı yüklemenizi doğrulamak veya yeni bir sürüm indirmek için mükemmel bir kaynaktır.
+**Excel'de Çözümle** özelliğini kullanabilmeniz için bilgisayarınızda güncel bir AS OLE DB sağlayıcısı yüklü olmalıdır. Bu [topluluk gönderisi](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081), OLE DB sağlayıcısı yüklemenizi doğrulamak veya yeni bir sürüm indirmek için mükemmel bir kaynaktır.
 
 Excel kitaplıkları, Windows sürümünüzle bit düzeyi bakımından eşleşmelidir. 64 bit Windows yüklüyse 64 bit OLE DB sağlayıcısını yüklemeniz gerekir.
 

@@ -2,7 +2,6 @@
 title: Power BI’da tüketiciler için görsel türleri
 description: Power BI hizmetindeki görsel türleri
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302542"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861319"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
@@ -232,4 +231,4 @@ Power BI Soru-Cevap’ta doğal dilde sorgular yazarken, sorgunuzda görsel tür
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)    
-[Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

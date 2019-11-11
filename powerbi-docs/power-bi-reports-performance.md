@@ -3,19 +3,18 @@ title: Performans açısından en iyi Power BI yöntemleri
 description: Bu makalede, Power BI’da hızlı ve güvenilir raporlar oluşturmaya yönelik rehberlik sağlanır
 author: Bhavik-MSFT
 ms.author: bhmerc
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841489"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875100"
 ---
 # <a name="power-bi-performance-best-practices"></a>Performans açısından en iyi Power BI yöntemleri
 
@@ -152,7 +151,7 @@ SQL Profiler aracılığıyla en uzun CPU süresini alan sorguları belirleyebil
 
 Ağ gecikmesi, isteklerin Power BI hizmete ulaşması ve yanıtların teslim edilmesi için gereken süreyi artırarak rapor performansını etkileyebilir. Power BI'da kiracılara belirli bir bölge atanır. Kiracınızın “ev” bölgesini powerbi.com adresine gidip sağ üstteki **?** işaretini ve sonra **Power BI Hakkında**’yı seçerek görüntüleyebilirsiniz. Kiracıdaki kullanıcıların Power BI hizmetine erişirken gerçekleştirdiği istekler her zaman bu bölgeye yönlendirilir. İstekler Power BI hizmetine ulaştığında, hizmet yine ağ gecikmesine yol açabilecek ek istekler (örneğin, temel veri kaynağına veya ağ geçidine) gönderebilir.
 
-[Azure Hız Testi](http://azurespeedtest.azurewebsites.net/) gibi araçlar, istemci ile Azure bölgesi arasındaki ağ gecikmesini gösterir. Genel olarak ağ gecikmesinin etkisini en aza indirmek için veri kaynaklarını, ağ geçitlerini ve Power BI kümenizi mümkün olduğunca yakın tutun. Ağ gecikmesi sorunu yaşıyorsanız, ağ geçitlerini ve veri kaynaklarını sanal makinelere yerleştirerek Power BI kümenize yakınlaştırmayı deneyin.
+[Azure Hız Testi](https://azurespeedtest.azurewebsites.net/) gibi araçlar, istemci ile Azure bölgesi arasındaki ağ gecikmesini gösterir. Genel olarak ağ gecikmesinin etkisini en aza indirmek için veri kaynaklarını, ağ geçitlerini ve Power BI kümenizi mümkün olduğunca yakın tutun. Ağ gecikmesi sorunu yaşıyorsanız, ağ geçitlerini ve veri kaynaklarını sanal makinelere yerleştirerek Power BI kümenize yakınlaştırmayı deneyin.
 
 Ağ gecikmesini daha da azaltmak için istemcilerinizle Azure veri merkezleri arasında daha hızlı, daha güvenilir ağ bağlantıları oluşturabilen [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)’u kullanmayı göz önünde bulundurun.
 

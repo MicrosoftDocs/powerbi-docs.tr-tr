@@ -2,7 +2,6 @@
 title: 'Öğretici: Bir web sayfasından verileri içeri aktarma ve analiz etme'
 description: 'Öğretici: Power BI Desktop kullanarak bir web sayfasından verileri içeri aktarma ve çözümleme'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879586"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
 
@@ -29,7 +28,7 @@ Uzun süreli bir futbol sever olarak, yıllara göre UEFA Avrupa Kupası (Euro C
 
 ## <a name="connect-to-a-web-data-source"></a>Bir web veri kaynağına bağlanma
 
-UEFA kupası sahiplerine ait verileri, http://en.wikipedia.org/wiki/UEFA_European_Football_Championship adresindeki UEFA Avrupa Futbol Şampiyonası Wikipedia sayfasında bulunan Sonuçlar tablosundan alabilirsiniz. 
+UEFA kupası sahiplerine ait verileri, https://en.wikipedia.org/wiki/UEFA_European_Football_Championship adresindeki UEFA Avrupa Futbol Şampiyonası Wikipedia sayfasında bulunan Sonuçlar tablosundan alabilirsiniz. 
 
 ![Wikipedia Sonuçlar tablosu](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Verileri içeri aktarmak için:
    >[!NOTE]
    >Ayrıca **Veri Al** öğesini seçebilir ya da Power BI **Kullanmaya başlama** iletişim kutusundan **Veri Al**’ı seçtikten sonra **Veri Al** iletişim kutusundaki **Tümü** veya **Diğer** bölümünden **Web**’i ve sonra **Bağlan**’ı seçebilirsiniz.
    
-2. **Web’den** iletişim kutusunda, `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` URL’sini **URL** metin kutusuna yapıştırın ve sonra **Tamam**’ı seçin.
+2. **Web’den** iletişim kutusunda, `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` URL’sini **URL** metin kutusuna yapıştırın ve sonra **Tamam**’ı seçin.
    
     ![İletişim kutusundan Veri Al](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ Haritayı bir pasta grafiği ile değiştirmek için haritayı ve sonra **Görse
 Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Rapor hazır hale geldikten sonra [Power BI'a yükleyip](desktop-upload-desktop-files.md) bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 ## <a name="see-also"></a>Ayrıca bkz.
-* [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Diğer Power BI Desktop eğitimlerini okuyun](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop videolarını izleyin](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)
 

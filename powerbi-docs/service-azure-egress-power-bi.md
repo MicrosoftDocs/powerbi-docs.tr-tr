@@ -2,7 +2,6 @@
 title: Power BI ve Azure çıkışı
 description: Kiracı konumuna ve Power BI Premium aboneliğine göre Azure çıkışı ücretlerini ve Power BI'ı anlama
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 720ef2f059c3c87be84c3d8db98e89400c161ad0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 17175e1accb5013b960c5e1a71ae036b3dda72f3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514402"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855584"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI ve Azure çıkışı
 

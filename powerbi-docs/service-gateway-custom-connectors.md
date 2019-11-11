@@ -3,19 +3,18 @@ title: Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 description: Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanabilirsiniz.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832530"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881763"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832530"
 
 Power BI veri bağlayıcıları ile bir uygulamadan, hizmetten veya veri kaynağından verilere bağlanıp erişebilirsiniz. Özel veri bağlayıcıları geliştirebilir ve bunları Power BI Desktop'ta kullanabilirsiniz.
 
-Power BI için özel veri bağlayıcıları geliştirme hakkında daha fazla bilgi edinmek için bkz. [Veri Bağlayıcı SDK’sı GitHub sayfası](http://aka.ms/dataconnectors). Bu site, Power BI ve Power Query’yi kullanmaya başlamaya yönelik bilgileri ve örnekleri içerir.
+Power BI için özel veri bağlayıcıları geliştirme hakkında daha fazla bilgi edinmek için bkz. [Veri Bağlayıcı SDK’sı GitHub sayfası](https://aka.ms/dataconnectors). Bu site, Power BI ve Power Query’yi kullanmaya başlamaya yönelik bilgileri ve örnekleri içerir.
 
 Power BI Desktop'ta özel veri bağlayıcıları kullanan raporlar oluşturduğunuzda, şirket içi veri ağ geçidini kullanarak bu raporları Power BI hizmetinden yenileyebilirsiniz.
 
@@ -58,4 +57,4 @@ Bu seçenek etkinleştirildiğinde, özel bağlayıcılarınızı bu ağ geçidi
 * [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](/data-integration/gateway/service-gateway-proxy)
 * [Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma](service-gateway-sso-kerberos.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.

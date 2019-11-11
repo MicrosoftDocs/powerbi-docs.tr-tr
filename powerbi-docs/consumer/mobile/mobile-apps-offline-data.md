@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 description: "Power BI'ı mobil tarayıcı yerine mobil uygulamada görüntülemenin avantajlarından biri hakkında bilgi edinin: Bir ağa bağlı olmasanız bile verilerinizi görebilirsiniz."
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059427"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870613"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -64,6 +63,6 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 
 * [Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)
 * Bizi Twitter'da takip edin: @MSPowerBI
-* [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
+* [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 

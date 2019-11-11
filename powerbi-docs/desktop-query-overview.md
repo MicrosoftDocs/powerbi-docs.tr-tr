@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta sorgulara genel bakış
 description: Power BI Desktop'ta sorgulara genel bakış
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 56c38a4e42dcdb3fb22e9dc92446c7e963f50e3e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3ee7c094972e7251ab99d9092691bf809344a3d5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513561"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876296"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 **Power BI Desktop** ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
@@ -47,7 +46,7 @@ Hiçbir veri bağlantısı olmadığında **Sorgu Düzenleyicisi** veri almaya h
 
 Bir sorgu yüklendikten sonra **Sorgu Düzenleyicisi** daha ilgi çekici hale gelir. Aşağıdaki Web veri kaynağına bağlanırsak **Sorgu Düzenleyicisi**, verilerle ilgili bilgileri yükler ve verileri şekillendirmeye başlayabilirsiniz.
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Veri bağlantısı oluşturulduktan sonra **Sorgu Düzenleyicisi** aşağıdaki gibi görünür:
 

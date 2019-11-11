@@ -2,7 +2,6 @@
 title: Power BI Desktop'taki genel sorgu görevleri
 description: Power BI Desktop'taki genel sorgu görevleri
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239454"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878664"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevleri
 Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
@@ -31,9 +30,9 @@ Burada gösterilen, sık kullanılan sorgu görevleri aşağıda verilmiştir:
 
 Bu görevleri tamamlamak için birkaç veri bağlantısından yararlanacağız. Bu görevlere ilişkin adımları kendi başınıza uygulamak isterseniz ilgili verileri indirebilir veya verilere bağlanabilirsiniz.
 
-İlk veri bağlantısı bir Excel çalışma kitabına yapılmaktadır ve dosyayı [bu bağlantıdan](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) indirebilirsiniz. Diğeri ise (başka bir Power BI Desktop yardım içeriğinde de kullanılmıştır) şu sayfadan erişilebilen bir Web kaynağıdır:
+İlk veri bağlantısı bir Excel çalışma kitabına yapılmaktadır ve dosyayı [bu bağlantıdan](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) indirebilirsiniz. Diğeri ise (başka bir Power BI Desktop yardım içeriğinde de kullanılmıştır) şu sayfadan erişilebilen bir Web kaynağıdır:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Bu veri kaynaklarından her ikisine de bağlanmak için gerekli adımlar, sık kullanılan Sorgu görevlerinin başlangıcı niteliğindedir.
 
@@ -142,7 +141,7 @@ Sorgu Düzenleyicisi, her bir sorgu için uygulanan tüm adımları, görüntül
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla **M** olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Bilgi için bkz. [Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Yalnızca dil belirtimini görüntülemek için bkz. [Excel için Microsoft Power Query Formül Dili Belirtimi](http://go.microsoft.com/fwlink/?linkid=320633).
+Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla **M** olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Bilgi için bkz. [Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Yalnızca dil belirtimini görüntülemek için bkz. [Excel için Microsoft Power Query Formül Dili Belirtimi](/powerquery-m/excel-workbook).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

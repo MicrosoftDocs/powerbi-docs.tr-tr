@@ -2,7 +2,6 @@
 title: Power BI'da radyal ölçer grafikleri
 description: Power BI'da radyal ölçer grafikleri
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 020d7edcf6bc499623df93a9def30285a37cffc6
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194260"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880896"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 
@@ -49,7 +48,7 @@ Radial ölçerler şunlar için harika bir seçimdir:
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu öğreticide [Financial Sample Excel dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılır.
+Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılır.
 
 1. Menü çubuğunun sol üst kısmından **Veri Al** > **Excel**’i seçin
    
@@ -153,4 +152,4 @@ Bu adımları tamamladıktan sonra şuna benzeyen bir ölçer grafiğiniz olur:
 
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

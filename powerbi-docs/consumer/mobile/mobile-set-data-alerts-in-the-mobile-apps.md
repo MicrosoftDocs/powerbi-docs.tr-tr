@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında veri uyarıları oluşturma
 description: Bir panodaki veriler belirlediğiniz sınırları aşacak şekilde değiştirildiğinde bildirim almak için Power BI mobil uygulamasında veri uyarıları oluşturmayı öğrenin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381467"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870106"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler için geçerlidir:
@@ -168,5 +167,5 @@ Veri kaynakları genelde her gün yenilenecek şekilde ayarlanmıştır ancak ba
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki uyarılarınızı yönetme](../../service-set-data-alerts.md)
 * [Power BI Mobil Bildirim Merkezi](mobile-apps-notification-center.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

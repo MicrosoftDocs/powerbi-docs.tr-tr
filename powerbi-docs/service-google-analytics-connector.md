@@ -2,7 +2,6 @@
 title: 'Üçüncü taraf hizmeti: Google Analytics bağlayıcısı'
 description: 'Üçüncü taraf hizmeti: Power BI Desktop için Google Analytics bağlayıcısı'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ad2c67e73fe8afbd0f379c149181db56f12e9b17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514374"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881410"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Power BI Desktop için Google Analytics bağlayıcısı
 > [!NOTE]

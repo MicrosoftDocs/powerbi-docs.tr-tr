@@ -3,18 +3,17 @@ title: SSL sertifikası oluşturma
 description: Geliştirici sunucusu için el ile sertifika oluşturmaya yönelik geçici yönergeler
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: c96489e6577f4887d2f22a9e81ea50f46cc9a5a3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194425"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880198"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL sertifikası oluşturma
 

@@ -3,19 +3,18 @@ title: Kamu bulutu ve ulusal bulut için uygulamanızda Power BI içeriğini tü
 description: Müşterileriniz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Kamu ve ulusal bulutlar için tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374335"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875876"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -37,7 +36,7 @@ Farklı ulusal bulutlar şunlardır:
 
 ![Katıştırılmış pano](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, devlet veya ülke türüne bağlı olarak kendiniz için uygun ulusal bulutu seçebilirsiniz. [ABD kamu Power BI hesabına](../service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](http://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
+Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, devlet veya ülke türüne bağlı olarak kendiniz için uygun ulusal bulutu seçebilirsiniz. [ABD kamu Power BI hesabına](../service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](https://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
 
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](integrate-dashboard.md).
@@ -150,7 +149,7 @@ Uygulamanızın içinden Power BI REST API'si çağrısı yapabilmek için Azure
 
 * Kamu Topluluk Bulutu (GCC) - ```https://login.microsoftonline.com```
 
-* Askeri Yükleniciler (DoDCON) - ```http://login.microsoftonline.us```
+* Askeri Yükleniciler (DoDCON) - ```https://login.microsoftonline.us```
 
 * Askeri (DoD) - ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ Bir uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mi
 
 Önemli noktalar ve sınırlamalar
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Power BI Desktop'taki Veri Görünümü
 description: Power BI Desktop'taki Veri Görünümü
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454476"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876367"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri Görünümü
 **Veri Görünümü**, **Power BI Desktop** modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri **Sorgu Düzenleyicisi**'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten *sonraki* halini incelersiniz.

@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta detaylandırma özelliğini kullanma
 description: Power BI Desktop'ta yeni bir rapor sayfasında verilerin ayrıntılarına gitmeyi öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: e093788683d10bc11c09d63ba327611a67f311c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375167"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879911"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
 **Power BI Desktop**'ta **detaylandırma** özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Kullanıcılar diğer rapor sayfalarındaki bir veri noktasına sağ tıklayabilir. Ardından odaklanan sayfayı detaylandırarak seçilen bağlama göre filtrelenmiş ayrıntılara ulaşabilir.
@@ -81,6 +80,6 @@ Raporlarınızda **detaylandırma** özelliğini kullanmak için yapmanız gerek
 
 Aşağıdaki makaleler de ilginizi çekebilir:
 
-* [Power BI Desktop'ta rapor arası detaylandırma kullanın](desktop-cross-report-drill-through.md)
+* [Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma](desktop-cross-report-drill-through.md)
 * [Power BI Desktop’ta dilimleyicileri kullanma](visuals/power-bi-visualization-slicers.md)
 

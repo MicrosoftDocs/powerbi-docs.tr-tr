@@ -3,18 +3,17 @@ title: Power BI veri modeli sürümü oluşturma
 description: OData Hizmeti tarafından uygulanan Veri Modeli
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875956"
 ---
 # <a name="data-model-versioning"></a>Veri Modeli sürümü oluşturma
 
@@ -37,7 +36,7 @@ Modelde böyle artımlı değişiklikler yapabilmek için istemcilerin hizmetler
   
 Hizmetlerin kimliği doğrulanmış kullanıcıya göre veri modellerini değiştirmemeleri ***GEREKİR***. Veri modeli kullanıcıya veya kullanıcı grubuna bağımlı olursa, tam model ile sınırlı yetkilendirmeye sahip kullanıcılara gösterilen model karşılaştırıldığında tüm değişiklikler güvenlik değişiklik OLMALIDIR.  
   
-OData Veri Modeli standartları hakkında daha fazla bilgi için bkz. [OData Version 4.0 Part 1: Protocol Plus Errata 02](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
+OData Veri Modeli standartları hakkında daha fazla bilgi için bkz. [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   
 ## <a name="see-also"></a>Ayrıca bkz.
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://docs.microsoft.com/rest/api/power-bi/)  

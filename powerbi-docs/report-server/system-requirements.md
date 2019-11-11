@@ -3,18 +3,17 @@ title: Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gere
 description: Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin minimum donanım ve yazılım gereksinimleri açıklanmaktadır.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415358"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873935"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 
@@ -24,7 +23,7 @@ Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin 
 
 | Bileşen | Gereksinim |
 | --- | --- |
-| .NET Framework |4.6<br><br>.NET Framework'ü [Windows için Microsoft .NET Framework 4.6 (Web Yükleyicisi)](http://support.microsoft.com/kb/3045560) sayfasından elle yükleyebilirsiniz.<br/><br/> NET Framework 4.6 ile ilgili daha fazla bilgi, öneri ve yardım için bkz. [Geliştiriciler için .NET Framework Dağıtım Kılavuzu](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 ve Windows Server 2012 R2 için .NET Framework 4.6 yüklemesinden önce [KB2919355](http://support.microsoft.com/kb/2919355) güncelleştirmesinin yapılması gerekir. |
+| .NET Framework |4.6<br><br>.NET Framework'ü [Windows için Microsoft .NET Framework 4.6 (Web Yükleyicisi)](https://support.microsoft.com/kb/3045560) sayfasından elle yükleyebilirsiniz.<br/><br/> NET Framework 4.6 ile ilgili daha fazla bilgi, öneri ve yardım için bkz. [Geliştiriciler için .NET Framework Dağıtım Kılavuzu](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 ve Windows Server 2012 R2 için .NET Framework 4.6 yüklemesinden önce [KB2919355](https://support.microsoft.com/kb/2919355) güncelleştirmesinin yapılması gerekir. |
 | Sabit Disk |Power BI Rapor Sunucusu için en az 1 GB'lık kullanılabilir sabit disk alanı gerekir.<br><br>Rapor sunucusu veritabanını barındıran veritabanı sunucusunda da ek alan gerekir. |
 | Bellek |**Minimum:** 1 GB<br/><br/> **Önerilen:** En azından 4 GB |
 | İşlemci hızı |**En az:** x64 İşlemci: 1,4 GHz<br/><br/> **Önerilen:** 2,0 GHz veya daha hızlı |
@@ -77,6 +76,6 @@ Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz. A
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

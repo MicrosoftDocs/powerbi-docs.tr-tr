@@ -2,7 +2,6 @@
 title: Power BI'da canlı bağlantılarla Soru-Cevap özelliğini kullanma
 description: Analysis Services verileriyle ve şirket içi veri ağ geçidiyle canlı bağlantı yoluyla Power BI Soru-Cevap Canlı doğal dil sorgularını kullanmaya yönelik belgeler.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 8bb3597d2877376431a2249428e88d56bee2c0a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720897"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871803"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI'da canlı bağlantılar için Soru-Cevap özelliğini etkinleştirme
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Şirket içi veri ağ geçidi nedir?  Canlı bağlantı nedir?
@@ -66,5 +65,5 @@ Bu özelliğin bazı sınırlamaları vardır:
 - [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
 - [Power BI Soru-Cevap Özelliğine Genel Bakış](consumer/end-user-q-and-a.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 description: Power BI'ın çalışmasına yönelik sorularınız konusunda yardım almanın 10 yolu
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 668df24e8e4df2257a78a5f7a843abc65df3ef8f
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060315"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876937"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -55,7 +54,7 @@ Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belir
 * Yüz yüze "**Dashboard in a Day (Bir Günde Pano)** " eğitim oturumları arayın.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI Topluluğu'nda soru sorun veya arama yapın
-[Power BI Topluluğu'nda](http://community.powerbi.com) soru sorun ve sorularınıza cevap bulun. Dünyanın her yerinden Power BI uzmanları, topluluğu aktif olarak kullanmaktadır. Bu kaynağı kullanarak uzmanların bilgisinden yararlanın.
+[Power BI Topluluğu'nda](https://community.powerbi.com) soru sorun ve sorularınıza cevap bulun. Dünyanın her yerinden Power BI uzmanları, topluluğu aktif olarak kullanmaktadır. Bu kaynağı kullanarak uzmanların bilgisinden yararlanın.
 
 ## <a name="8-join-or-create-a-power-bi-user-group"></a>8 Bir Power BI kullanıcı grubuna katılın veya kullanıcı grubu oluşturun
 Bir [Power BI kullanıcı grubuna](https://community.powerbi.com/t5/Power-BI-User-Groups/ct-p/Groups) katılarak sorularınıza cevap bulmak için grubunuzdan yardım isteyin. Alternatif olarak, kendi kullanıcı grubunuzu kurabilir, kullanıcıların birbirine yardım ettiği bir topluluk oluşturabilir ve kendi bölgenizde, kendi verileriniz için, kendi saat diliminizde ihtiyaçlarınıza odaklanabilirsiniz.
@@ -70,5 +69,5 @@ Bu seçeneklerin hiçbiri işinize yaramazsa son ipucu olarak sistemi gözlemley
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI nedir?](fundamentals/power-bi-overview.md)
-* [Power BI Topluluğu](http://community.powerbi.com/)'na sorun
+* [Power BI Topluluğu](https://community.powerbi.com/)'na sorun
 * Sorununuz hâlâ çözülmedi mi? Lütfen [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin

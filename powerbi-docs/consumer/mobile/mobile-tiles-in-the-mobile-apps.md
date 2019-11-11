@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarındaki kutucukları keşfetme
 description: Kutucuklar verilerinize ilişkin, panoya sabitlenmiş canlı ve anlık veri görüntüleridir. Power BI mobil uygulamalarındaki kutucuklarla etkileşim kurma hakkında daha fazla bilgi edinin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059772"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870049"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler için geçerlidir:
@@ -123,5 +122,5 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

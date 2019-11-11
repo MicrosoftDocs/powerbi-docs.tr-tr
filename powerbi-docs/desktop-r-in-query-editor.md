@@ -2,7 +2,6 @@
 title: Power Sorgu Düzenleyicisi’nde R kullanma
 description: Gelişmiş çözümleme için Power BI Desktop Sorgu Düzenleyicisi'nde R programlama dilini kullanma
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841524"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877938"
 ---
 # <a name="use-r-in-query-editor"></a>Sorgu Düzenleyicisi'nde R kullanma
 
@@ -50,7 +49,7 @@ R ortamınızda [**mice** kitaplığı](https://www.rdocumentation.org/packages/
 
 **Sorgu Düzenleyicisi**’nde **R** kullanmayı göstermek için bir .csv dosyasında yer alan örnek bir borsa veri kümesi kullanacak ve aşağıdaki adımları uygulayacağız:
 
-1. [**EuStockMarkets_NA.csv** dosyasını indirin](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Dosyayı kaydettiğiniz yeri unutmayın.
+1. [**EuStockMarkets_NA.csv** dosyasını indirin](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Dosyayı kaydettiğiniz yeri unutmayın.
 
 1. Dosyayı **Power BI Desktop**’a yükleyin: **Ana Sayfa** şeridinden **Veri Al > Metin/CSV** öğesini seçin.
 
@@ -108,7 +107,7 @@ Artık R betik kodunun, **mice** kitaplığını kullanarak eksik değerleri aş
 Tamamlanan tüm görselleri bir **Power BI Desktop** .pbix dosyasına kaydedebilir ve veri modeli ile R betiklerini Power BI hizmetinde kullanabilirsiniz.
 
 > [!NOTE]
-> Bu adımların hepsi tamamlandıktan sonra [bir .pbix dosyası indirebilirsiniz](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix).
+> Bu adımların hepsi tamamlandıktan sonra [bir .pbix dosyası indirebilirsiniz](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix).
 
 .pbix dosyasını Power BI hizmetine yükledikten sonra, hizmet verilerini yenilemeyi ve güncelleştirilmiş görselleri etkinleştirmek için ilave adımlar uygulamanız gerekir:  
 

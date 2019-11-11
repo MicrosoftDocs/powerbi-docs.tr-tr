@@ -2,7 +2,6 @@
 title: Veri kaynağınızı yönetme - SAP HANA
 description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu makale SAP HANA'ya özeldir.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881719"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Veri kaynağınızı yönetme - SAP HANA
 
@@ -74,5 +73,5 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 * [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](/data-integration/gateway/service-gateway-tshoot)
 * [Ağ geçidiyle ilgili sorunları giderme - Power BI](service-gateway-onprem-tshoot.md) 
 
-Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 

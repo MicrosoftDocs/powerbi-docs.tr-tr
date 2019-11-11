@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma"
 description: Bu öğreticide Power BI'da Bilişsel Hizmetler'i ve veri akışlarını kullanacaksınız.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c0c1ea450a4b386644fd1c83e9831e993c2b8e5a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bdf35d04a5b4dc7000a9ada0afcb23d882d17780
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404084"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871239"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma
 

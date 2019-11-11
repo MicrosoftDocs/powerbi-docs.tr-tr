@@ -2,7 +2,6 @@
 title: Power BI kiracım nerede bulunur?
 description: Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğrenin. Hizmetle kurduğunuz etkileşimleri etkileyebileceğinden öğrenmek önemlidir.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074151"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873341"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
@@ -44,5 +43,5 @@ Power BI, seçiminize en yakın veri bölgesini seçer ve kiracınıza ait veril
 > [!IMPORTANT]
 > Kiracıyı oluşturduktan sonra seçimi değiştiremezsiniz.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

@@ -3,18 +3,17 @@ title: Başlatma URL’si oluşturma
 description: Bu makalede Power BI Görselleri’ni kullanarak URL’nin yeni sekmede nasıl açılabileceği açıklanır.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879940"
 ---
 # <a name="create-a-launch-url"></a>Başlatma URL’si oluşturma
 
@@ -31,12 +30,12 @@ Başlatma URL’si oluşturduğunuzda asıl çalışmayı yapması için Power B
 `host.launchUrl()` API çağrısını kullanarak hedef URL’nizi bir dize bağımsız değişkeni olarak geçirin:
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>Kısıtlamalar
 
-* Göreli yolları değil yalnızca mutlak yolları kullanın. Örneğin `http://some.link.net/subfolder/page.html` gibi bir mutlak yol kullanın. `/page.html` göreli yolu açılmaz.
+* Göreli yolları değil yalnızca mutlak yolları kullanın. Örneğin `https://some.link.net/subfolder/page.html` gibi bir mutlak yol kullanın. `/page.html` göreli yolu açılmaz.
 
 * Şu anda yalnızca *HTTP* ve *HTTPS* protokolleri desteklenir. *FTP* ve *MAILTO* gibi protokolleri kullanmaktan kaçının.
 

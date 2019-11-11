@@ -2,7 +2,6 @@
 title: Microsoft Intune ile mobil uygulamaları yapılandırma
 description: Power BI Mobil uygulamalarını Microsoft Intune ile yapılandırma. Bu makalede, uygulamayı ekleme ve dağıtma işlemleri açıklanır. Ayrıca güvenliği denetlemeye yönelik mobil uygulama ilkesinin nasıl oluşturulacağı da ele alınır.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b1af8c58e24ff1d95b28ea8a024c29ccdcac56b3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: abbbceb6734ecb70469efa198b6e85fce4c3e840
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075626"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857341"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 
@@ -191,4 +190,4 @@ Uygulamayı, *Şirket Portalı* uygulaması aracılığıyla yüklersiniz. Şirk
 
 [Mobil cihazlar için Power BI uygulamaları](consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)  
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)  

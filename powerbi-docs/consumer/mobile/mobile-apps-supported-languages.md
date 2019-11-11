@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında desteklenen diller
 description: Power BI mobil uygulamalarında desteklenen dillerin listesine göz atın.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ac3ed868f23ff15441a30dd2425820d2cda0c920
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841429"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879144"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında desteklenen diller
 Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
@@ -60,6 +59,6 @@ Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI için desteklenen diller ve ülkeler/bölgeler](../../supported-languages-countries-regions.md)
-* Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+* Sorularınız mı var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 

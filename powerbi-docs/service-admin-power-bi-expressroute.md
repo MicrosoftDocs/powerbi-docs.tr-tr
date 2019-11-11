@@ -2,7 +2,6 @@
 title: Power BI ve ExpressRoute
 description: Power BI ve ExpressRoute
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c7d12bf6a1a2a02c988f8351a1844be1080ad2b8
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 59ddddcf1b02f07b850294fa314b7508f7f9fcdc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074791"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856942"
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI ve ExpressRoute
 

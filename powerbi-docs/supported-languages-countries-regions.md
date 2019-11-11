@@ -2,7 +2,6 @@
 title: Power BI için desteklenen diller ve ülkeler/bölgeler
 description: Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen diller ile ülkelerin/bölgelerin bulunduğu listelere göz atın.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: efb2ee5ef0ed09cbca1a2bebf6ab3a0f8908efb8
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968672"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876910"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -126,7 +125,7 @@ Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak
 > Power BI Desktop'ın Power BI Rapor Sunucusu için iyileştirilmiş sürümünü yüklüyorsanız, indirirken dili seçersiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop'ı yükleme](report-server/install-powerbi-desktop.md).
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop için dil seçme 
-1. Power BI Desktop’ı [Microsoft Store](http://aka.ms/pbidesktopstore)’dan veya [tek başına yükleyici](http://aka.ms/pbiSingleInstaller) olarak yükleyin.
+1. Power BI Desktop’ı [Microsoft Store](https://aka.ms/pbidesktopstore)’dan veya [tek başına yükleyici](https://aka.ms/pbiSingleInstaller) olarak yükleyin.
 2. Dili değiştirmek için bilgisayarınızda **Windows Ayarları** ifadesini arayın. 
 3. **Zaman ve dil**'i seçin.
    
@@ -195,6 +194,6 @@ Yardım belgeleri şu 10 dilde kullanıma sunulmuştur:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Power BI mobil uygulamalarından birini kullanıyor musunuz? Ayrıntılı bilgi için bkz. [Power BI mobil uygulamalarında desteklenen diller](consumer/mobile/mobile-apps-supported-languages.md).
-* Sorularınız mı var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+* Sorularınız mı var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 

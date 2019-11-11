@@ -2,19 +2,18 @@
 title: Power BI web seminerleri
 description: Power BI web seminerleri
 author: v-tatero
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 851a87e22174be6084ea5cf0c0c9b1e0c89464ef
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060876"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880550"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 

@@ -2,7 +2,6 @@
 title: Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 description: Power BI hizmetinde bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirmeyi öğrenin.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710609"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873301"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 
@@ -50,7 +49,7 @@ Power BI hizmetinde toplama işlemleriyle çalışmak kafa karıştırıcı olab
 
 Normalde temel sorun veri kümesindeki alan tanımıdır. Veri kümesi sahibi alanı metin olarak tanımlamış olabilir ve işte bu nedenle Power BI alanda toplam veya ortalama hesaplaması yapamayabilir. Ne yazık ki, [bir alanın kategorisi yalnızca veri kümesi sahibi tarafından değiştirilebilir](desktop-measures.md). Bu, veri kümesine yönelik sahip izinlerinizin bulunması halinde, Desktop'ta veya veri kümesinin oluşturulması için kullanılan programda (örneğin, Excel) bu sorunu çözebileceğiniz anlamına gelir. Aksi halde, yardım almak için veri kümesinin sahibine ulaşmanız gerekir.  
 
-Bu makalenin sonunda [**Önemli noktalar ve sorun giderme**](#considerations-and-troubleshooting) adlı özel bir bölüm vardır. Bu bölümde ipuçları ve rehberlik sağlanır. Yanıtı bu bölümde bulamamanız halinde, sorunuzu [Power BI Topluluğu forumuna](http://community.powerbi.com) gönderin. Doğrudan Power BI takımından hemen yanıt alırsınız.
+Bu makalenin sonunda [**Önemli noktalar ve sorun giderme**](#considerations-and-troubleshooting) adlı özel bir bölüm vardır. Bu bölümde ipuçları ve rehberlik sağlanır. Yanıtı bu bölümde bulamamanız halinde, sorunuzu [Power BI Topluluğu forumuna](https://community.powerbi.com) gönderin. Doğrudan Power BI takımından hemen yanıt alırsınız.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Bir sayısal alana yönelik toplama işlemini değiştirme
 
@@ -188,4 +187,4 @@ S:  Açılan listede **Özetleme** seçeneğini görmüyorum.
 
 Y:  Alanı kaldırıp tekrar eklemeyi deneyin.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

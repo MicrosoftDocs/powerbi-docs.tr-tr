@@ -2,7 +2,6 @@
 title: Power BI Desktop ile çalışmaya başlama
 description: Power BI Desktop ile çalışmaya başlama
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201017"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868012"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 **Power BI Desktop ile Çalışmaya Başlama Kılavuzu**'na hoş geldiniz. Bu kısa Power BI Desktop turu, uygulamanın nasıl çalıştığını size tanıtan, neler yapabileceğini gösteren ve mükemmel raporların yanı sıra, iş zekası girişimlerinizi güçlendiren etkili veri modellerini daha hızlı şekilde oluşturabilmenizi sağlar. 
 
-Okumak yerine izlemeyi mi tercih ediyorsunuz? [Çalışmaya başlama konulu videomuza göz atın](desktop-videos.md). Videoyu izlerken aynı örnek verileri kullanarak birlikte ilerlemek isterseniz [bu örnek Excel çalışma kitabını indirebilirsiniz](http://go.microsoft.com/fwlink/?LinkID=521962).
+Okumak yerine izlemeyi mi tercih ediyorsunuz? [Çalışmaya başlama konulu videomuza göz atın](desktop-videos.md). Videoyu izlerken aynı örnek verileri kullanarak birlikte ilerlemek isterseniz [bu örnek Excel çalışma kitabını indirebilirsiniz](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Emekliye ayrıldığınızı (bol güneşli, vergileri uygun ve sağlık hizmeti
 
 İşte size her iki senaryo için de bu konulara yönelik olarak işinize yarayacak veriler içeren bir web kaynağı:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 **Veri Al \> Web**'i seçin ve adresi yapıştırın.
 
@@ -158,7 +157,7 @@ Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözü
 
 Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik web kaynağına ulaşabilirsiniz:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 **Sorgu Düzenleyicisi**'ndeki **Giriş** şeridinde **Veri Al \> Web**'i seçip adresi yazın, **Tamam**'ı seçtiğinizde ilgili Web sayfasında bulunanlar **Gezgin** penceresinde görüntülenir.
 

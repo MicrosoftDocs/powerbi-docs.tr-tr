@@ -2,19 +2,18 @@
 title: 'DAX: Hata işlevlerinin uygun kullanımı'
 description: DAX hata işlevlerinin ne zaman kullanılacağına yönelik rehber.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 0855a9ee4c699c4a3b65e4331b5af2fa68a5610c
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: ae4e9081930b0f6934a557ba45afd99dd8dfc05d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021080"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875631"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX: Hata işlevlerinin uygun kullanımı
 

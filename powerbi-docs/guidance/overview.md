@@ -2,19 +2,18 @@
 title: Power BI için kılavuz
 description: Kılavuz belgeleri Power BI'ı kullanırken önerilen yöntemleri sağlar.
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691255"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875560"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI için kılavuz
 
@@ -37,6 +36,6 @@ Burada Power BI için kılavuzluğu ve önerilen yöntemleri bulacaksınız. Kı
 
 | Rehber | Açıklama |
 | --- | --- |
-| [Veri akışları en iyi yöntemi](/service-dataflows-best-practices.md) | Power BI'da veri akışları tasarlamaya yönelik en iyi yöntemleri açıklar. |
+| [Veri akışları en iyi yöntemi](../service-dataflows-best-practices.md) | Power BI'da veri akışları tasarlamaya yönelik en iyi yöntemleri açıklar. |
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

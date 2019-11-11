@@ -3,18 +3,17 @@ title: Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 description: REST API, bir Power BI Rapor Sunucusu kataloğundaki nesnelere program aracılığıyla erişim sağlar.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770755"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874070"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için REST API'lerle içerik geliştirme
 
@@ -41,7 +40,7 @@ REST API istek/yanıt çifti beş bileşene ayrılabilir:
 * URI ve HTTP işlemini destekleyecek isteğe bağlı HTTP **istek iletisi gövdesi** alanları. Örneğin POST işlemleri, karmaşık parametreler olarak iletilen MIME kodlamalı nesneler içerir. POST veya PUT işlemleri için gövde MIME kodlama türü de `Content-type` istek üst bilgisinde belirtilmelidir. Bazı hizmetlerde `application/json` gibi belirli bir MIME türü kullanılması gerekir.
 * HTTP **yanıt iletisi üst bilgi** alanları:
   
-  * 2xx başarı kodlarından 4xx veya 5xx hata kodlarına kadar değişebilen bir [HTTP durum kodu](http://www.w3.org/Protocols/HTTP/HTRESP.html). Alternatif olarak API belgelerinde belirtildiği şekilde hizmet tarafından tanımlanan bir durum kodu da döndürülebilir.
+  * 2xx başarı kodlarından 4xx veya 5xx hata kodlarına kadar değişebilen bir [HTTP durum kodu](https://www.w3.org/Protocols/HTTP/HTRESP.html). Alternatif olarak API belgelerinde belirtildiği şekilde hizmet tarafından tanımlanan bir durum kodu da döndürülebilir.
   * İsteğin yanıtını desteklemek için `Content-type` yanıt üst bilgisi gibi isteğe bağlı ek üst bilgi alanları.
 * İsteğe bağlı HTTP **yanıt iletisi gövdesi** alanları:
   
@@ -53,7 +52,7 @@ Modern bir REST API'si için modern API belgeleri gerekir. REST API'si, OpenAPI 
 
 ## <a name="testing-api-calls"></a>API çağrılarını test etme
 
-HTTP istek/yanıt iletilerini test etmek için kullanabileceğiniz araçlardan biri [Fiddler](http://www.telerik.com/fiddler) aracıdır. Fiddler, REST isteklerinizi keserek HTTP istek/yanıt iletilerini tanılamayı kolaylaştıran ücretsiz bir web tabanlı hata ayıklama ara sunucusudur.
+HTTP istek/yanıt iletilerini test etmek için kullanabileceğiniz araçlardan biri [Fiddler](https://www.telerik.com/fiddler) aracıdır. Fiddler, REST isteklerinizi keserek HTTP istek/yanıt iletilerini tanılamayı kolaylaştıran ücretsiz bir web tabanlı hata ayıklama ara sunucusudur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

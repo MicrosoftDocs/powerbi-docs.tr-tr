@@ -2,19 +2,18 @@
 title: Power BI Rapor Sunucusu'nda paylaşılan veri kümelerine OData akışları olarak erişme
 description: Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7505860f7eedf62fe4384fea051a2731a932fce9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 49fe816e4920443ca101fc2f463fa23eae1ce765
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860531"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda paylaşılan veri kümelerine OData akışları olarak erişme
 Paylaşılan veri kümelerine Power BI Desktop'tan OData akışı ile erişebilirsiniz.

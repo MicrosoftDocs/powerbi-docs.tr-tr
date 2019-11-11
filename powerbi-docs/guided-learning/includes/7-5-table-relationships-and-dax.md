@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273628"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800198"
 ---
 Power BI, tamamen farklı veri kaynaklarından gelen tablolar da dahil olmak üzere birden çok tablo arasında ilişkiler oluşturmanızı sağlar. Power BI Desktop'ın **İlişkiler** görünümünde herhangi bir veri modeli için bu ilişkileri görebilirsiniz.
 
@@ -23,7 +23,7 @@ DAX işlevlerini kullanarak bir sütunun değerini veya bir ilişkideki tüm sat
 
 Birden çok tabloda değerler içeren ifadeler oluşturmak için ilişkisel işlevleri kullanabilirsiniz. DAX, ilişki zincirinin uzunluğu fark etmeksizin bu işlevlerle bir sonuç döndürür.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](https://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

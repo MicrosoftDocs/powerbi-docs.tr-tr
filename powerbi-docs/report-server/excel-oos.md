@@ -3,18 +3,17 @@ title: Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kit
 description: Power BI raporlarını web portalında görüntülemenin yanı sıra Power BI Rapor Sunucusu da Office Online Server (OOS) uygulamasını kullanarak Excel çalışma kitaplarını barındırabilir.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769576"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874104"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Office Online Server (OOS) uygulamasını kullanarak rapor sunucunuzu Excel çalışma kitaplarını barındıracak şekilde yapılandırma
 
@@ -54,7 +53,7 @@ Bu yordamları Office Online Server uygulamasının çalıştırılacağı sunuc
 
 Dış veri erişimi kullanan Excel Online özelliklerini kullanmayı planlıyorsanız (Power Pivot gibi) Office Online Server'ın kullanıcılarla ve Windows tabanlı kimlik doğrulaması kullanarak erişmeyi planladığınız dış veri kaynaklarıyla aynı Active Directory ormanında olması gerektiğini unutmayın.
 
-1. Office Online Server'ı [Toplu Lisanslama Hizmeti Merkezi (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561) sayfasından indirin. İndirilecek dosya VLSC portalında Office ürünlerinin altında bulunur. Geliştirme amacıyla OOS uygulamasını MSDN aboneliği indirme sayfasından indirebilirsiniz.
+1. Office Online Server'ı [Toplu Lisanslama Hizmeti Merkezi (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561) sayfasından indirin. İndirilecek dosya VLSC portalında Office ürünlerinin altında bulunur. Geliştirme amacıyla OOS uygulamasını MSDN aboneliği indirme sayfasından indirebilirsiniz.
 2. Setup.exe dosyasını çalıştırın.
 3. **Microsoft Yazılım Lisansı Koşulları'nı okuyun** sayfasında **Bu sözleşmenin koşullarını kabul ediyorum**'u ve ardından **Devam**'ı seçin.
 4. **Dosya konumu seçin** sayfasında Office Online Server dosyalarının yüklenmesini istediğiniz klasörü belirleyin (örneğin,C:\Program Files\Microsoft Office Web Apps\*) ve ardından **Şimdi Yükle**'yi seçin. Belirttiğiniz klasör yoksa Kurulum sırasında oluşturulur.
@@ -69,7 +68,7 @@ Office Online Server Dil Paketleri, kullanıcıların web tabanlı Office dosyal
 
 Dil paketlerini yüklemek için bu adımları uygulayın.
 
-1. Office Online Server Dil Paketleri'ni [Microsoft İndirme Merkezi](http://go.microsoft.com/fwlink/p/?LinkId=798136)'nden indirebilirsiniz.
+1. Office Online Server Dil Paketleri'ni [Microsoft İndirme Merkezi](https://go.microsoft.com/fwlink/p/?LinkId=798136)'nden indirebilirsiniz.
 2. **wacserverlanguagepack.exe** dosyasını çalıştırın.
 3. Office Online Server Dil Paketi Sihirbazı'nın **Microsoft Yazılım Lisansı Koşulları'nı okuyun** sayfasında **Bu sözleşmenin koşullarını kabul ediyorum**'u ve ardından **Devam**'ı seçin.
 4. Kurulum Office Online Server yüklemesini tamamladıktan sonra **Kapat**'ı seçin.
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametreler**
 
-* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun tam etki alanı adıdır (FQDN), örneğin: `http://servername.contoso.com`.
+* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun tam etki alanı adıdır (FQDN), örneğin: `https://servername.contoso.com`.
 * **–ExternalURL**: İnternet'ten erişilebilen FQDN bilgisidir.
 * **–CertificateName**: Sertifikanın kolay adıdır.
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 Aşağıdaki örnekte gösterilen şekilde tek bir sunucudan oluşan yeni bir Office Online Server grubu oluşturmak için New-OfficeWebAppsFarm komutunu kullanın.
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **Parametreler**
 
-* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun adıdır, örneğin: `http://servername`.
+* **–InternalURL**: Office Online Server uygulamasını çalıştıran sunucunun adıdır, örneğin: `https://servername`.
 * **–AllowHttp**: Grubu HTTP kullanacak şekilde yapılandırır.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Office Online Server grubunun başarıyla oluşturulduğunu doğrulama
@@ -168,7 +167,7 @@ Güvenlik duvarı sorunlarıyla karşılaşmamak için 2382 ve 2383 numaralı ba
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>Power BI Rapor Sunucusu'nu OOS sunucusunu kullanacak şekilde yapılandırma
 
-**Site ayarları**'nın **Genel** sayfasına OOS bulma URL'sini girin. OOS keşif URL'si, OOS sunucusu dağıtılırken kullanılan *InternalUrl* parametresine */hosting/discovery* eklenerek elde edilir. Örneğin, HTTP için `http://servername/hosting/discovery`. HTTPS içinse `https://server.contoso.com/hosting/discovery`.
+**Site ayarları**'nın **Genel** sayfasına OOS bulma URL'sini girin. OOS keşif URL'si, OOS sunucusu dağıtılırken kullanılan *InternalUrl* parametresine */hosting/discovery* eklenerek elde edilir. Örneğin, HTTP için `https://servername/hosting/discovery`. HTTPS içinse `https://server.contoso.com/hosting/discovery`.
 
 **Site ayarları** sayfasına ulaşmak için sağ üst köşedeki **dişli simgesini** ve ardından **Site ayarları**'nı seçin.
 
@@ -187,6 +186,6 @@ Keşif URL'sini girip **Uygula**'yı belirledikten ve web portalında bir Excel 
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

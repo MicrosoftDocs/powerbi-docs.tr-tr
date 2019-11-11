@@ -2,7 +2,6 @@
 title: Görseller için dinamik başvuru çizgileri oluşturma
 description: Power BI hizmetinde görseller için dinamik başvuru çizgileri oluşturma
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ce99539e1804746970eae20dc9396f0f0536afea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ab8fb8daa46a21676925de16a068f2d2029954d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61184166"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855907"
 ---
 # <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Power BI hizmetinde görseller için dinamik başvuru çizgileri oluşturma
 
@@ -100,5 +99,5 @@ Son olarak, aşağıdakiler gibi Kartezyen olmayan görsellerle şu anda **Anali
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Desktop'taki Analiz bölmesi](desktop-analytics-pane.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Farklı çalışma alanlarını temel alarak raporlar oluşturma (Önizleme) - Power BI
 description: Bir veri kümesini kuruluşunuzdaki kullanıcılarla nasıl paylaşabileceğinizi öğrenin. Veri kümenizi temel alarak kendi çalışma alanlarında rapor oluşturabilirler.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 371507eb86e1b68225e9d66ee3a1363b0e163d4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567450"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877168"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma (Önizleme)
 
@@ -63,4 +62,4 @@ Böylece, çalışma alanının üyeleri hangi raporların ve panoların çalı�
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

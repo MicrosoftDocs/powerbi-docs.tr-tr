@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 629c53358f757002f2b3dcda468641bbaaa2f4d4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5bc0d3bbfb2c2b67b56e6406646f6131a360b97d
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70166797"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800201"
 ---
 **DAX** ile Excel formül dili arasındaki tek büyük fark DAX'ın tek bir değerle sınırlı kalmak yerine *tabloların tamamını* ifadeler arasında geçirmenize olanak tanımasıdır. Etkili bir özellik olarak DAX, tabloları ifadelerinde filtrelemenize ve ardından, filtrelenen değer kümesiyle çalışmanızı sağlar.
 
@@ -42,7 +42,7 @@ Bu, önünüzde bir tablo görüntüleniyorken yanıtlanması kolay bir soru ola
 
 Ayrıca DAX işlevlerini kullanarak tamamen hesaplanmış tablolar da oluşturabilirsiniz. DAX kullanılarak oluşturulmuş tablolarda **NAME** ve **TABLE** işlevleri gereklidir. Hesaplanmış tablolar, ilişki oluşturma da dahil olmak üzere diğer tüm tablolar gibi kullanılabilir.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](https://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

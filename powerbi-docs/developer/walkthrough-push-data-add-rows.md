@@ -3,18 +3,17 @@ title: Tabloya satır ekleme
 description: Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablosuna satır ekleme
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710410"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879843"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5 Adım: Bir Power BI tablosuna satır ekleme
 
@@ -317,4 +316,4 @@ Yukarıdaki kodda **_//İlk kimliği alın_** belirtimini eklemiş olsak da, en 
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

@@ -2,19 +2,18 @@
 title: Power BI ile iOS cihazı arama tümleştirmesi
 description: İhtiyacınız olan verileri bulmak ve bu verilere erişmek için cihaz araması (spotlight) kullanma
 author: michalfo
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 8f40781bb15b06f894a53f16d4ec6754d88e6b53
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f89895650bb0b81533aeddbc149f225742dc9d3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66817088"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879222"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Power BI Mobil iOS Uygulaması ile iOS Cihaz Araması (Spotlight) tümleştirmesi (önizleme)
 İhtiyacınız olan verileri bulmak ve bu verilere erişmek için iOS cihaz aramasını kullanın.
@@ -51,7 +50,7 @@ Siri'yle desteklenen cihaz araması, Power BI uygulamasında sık gerçekleştir
 ## <a name="next-steps"></a>Sonraki adımlar
 Aşağıdakileri yaparak Power BI mobil uygulaması hakkında daha fazla bilgi edinin: 
 
-* [Power BI iPhone mobil uygulamasını](http://go.microsoft.com/fwlink/?LinkId=522062) indirin
+* [Power BI iPhone mobil uygulamasını](https://go.microsoft.com/fwlink/?LinkId=522062) indirin
 * [@MSPowerBI'ı Twitter'da](https://twitter.com/MSPowerBI) takip edin
-* [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
+* [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 

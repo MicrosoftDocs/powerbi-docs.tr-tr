@@ -2,7 +2,6 @@
 title: Power BI hizmetinde en son ziyaret edilen içerikleri görüntüleme
 description: Power BI'da son görüntülenenler ile ilgili belge
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256252"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862416"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
 Son görüntülenen içerik, Power BI hizmetinde en son ziyaret ettiğiniz öğeleri (en fazla 20 öğe) içerir.  Bunlar içerisinde panolar, raporlar, uygulamalar ve çalışma kitapları bulunur.
@@ -53,5 +52,5 @@ Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI hizmet uygulamaları](end-user-apps.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

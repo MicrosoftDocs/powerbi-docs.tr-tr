@@ -2,19 +2,18 @@
 title: Power BI mobil Windows uygulamasında Çoklu Oturum Açma
 description: Power BI mobil Windows uygulamasında Çoklu Oturum Açma (SSO) hakkında daha fazlasını öğrenin. SSO, çalışmak istediğiniz tüm uygulamalara ve kaynaklara tek kullanıcı hesabıyla yalnızca bir kez oturum açarak erişmeniz anlamına gelir.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
-ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61336856"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876663"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI mobil Windows uygulamasında Çoklu Oturum Açma
 
@@ -35,5 +34,5 @@ Power BI’da oturum açmak için geçerli Windows etkin oturum kimlik bilgileri
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -3,19 +3,18 @@ title: Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 description: Hangi veri kaynaklarında DirectQuery'nin kullanabildiğini gösteren listeyi edinin.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
-ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
+ms.openlocfilehash: 4c2e2904790d69e5df388d34b5a737f1890d7e12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72511644"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878276"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Power BI'da DirectQuery tarafından desteklenen veri kaynakları
 

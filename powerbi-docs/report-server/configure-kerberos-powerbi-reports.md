@@ -2,19 +2,18 @@
 title: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 description: Dağıtılmış bir ortam için rapor sunucunuzu, Power BI raporlarında kullanılan veri kaynaklarında Kerberos kimlik doğrulaması gerçekleştirecek şekilde yapılandırmayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770710"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874233"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>

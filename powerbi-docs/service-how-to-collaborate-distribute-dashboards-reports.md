@@ -3,19 +3,18 @@ title: Power BI'da çalışmanızı paylaşmanın yolları
 description: Power BI'da panolar, raporlar, kutucuklar ve uygulamalar üzerinde farklı yollarla işbirliği yapabilir ve bunları paylaşabilirsiniz. Her yolun kendi avantajları vardır.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841644"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881332"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
 
@@ -135,4 +134,4 @@ Hangi seçeneği kullanırsanız kullanın, Power BI kullanıcıların içeriği
 
 Geri bildirimde bulunmak ister misiniz? [Power BI Topluluğu sitesine](https://community.powerbi.com/) giderek önerilerinizi belirtin.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

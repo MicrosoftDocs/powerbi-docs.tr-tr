@@ -2,7 +2,6 @@
 title: OneDrive'daki bir Excel dosyasıyla bağlantılı panoyu paylaşma - Power BI
 description: OneDrive İş'teki bir Excel çalışma kitabına bağlı panoları (söz konusu çalışma kitabından sabitlenen kutucuklar içeren) paylaşma hakkında bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7157ddd66c651519f59eb964f5fcf95eb127943c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721438"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871456"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive'daki bir Excel dosyasıyla bağlantılı bir Power BI panosunu paylaşma
 Power BI'da,[OneDrive İş'teki Excel çalışma kitaplarına bağlanabilir](service-excel-workbook-files.md) ve söz konusu çalışma kitabındaki kutucukları bir panoya sabitleyebilirsiniz. Söz konusu panoyu paylaştığınızda veya panonun bulunduğu bir içerik paketi oluşturduğunuzda:
@@ -57,5 +56,5 @@ Power BI çalışma alanından pano paylaşma, dosyaların özel OneDrive İş'i
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Excel'deki kutucukları Power BI panolarına sabitleme](service-dashboard-pin-tile-from-excel.md)
 * [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

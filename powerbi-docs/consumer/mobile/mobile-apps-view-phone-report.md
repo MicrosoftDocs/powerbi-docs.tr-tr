@@ -2,19 +2,18 @@
 title: Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 description: Power BI telefon uygulamalarında görüntülemek için en iyi duruma getirilmiş rapor sayfalarıyla etkileşim kurma hakkında bilgi edinin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
-ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f8dba41a15390e4b52227c7daaa603daf7c08939
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65100971"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870527"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -58,7 +57,7 @@ Görseli seçtiğinizde kaydırma gibi işlemler gerçekleştirebilirsiniz. Bir 
 ## <a name="open-visuals-in-focus-mode"></a>Görselleri odak modunda açma
 Telefon raporları da bir odak modu sunar: Tek bir görselin daha büyük görünümünü elde eder ve daha kolayca araştırabilirsiniz.
 
-* Telefon raporunda görselin sağ üst köşesindeki üç nokta (**...**) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
+* Telefon raporunda görselin sağ üst köşesindeki üç nokta ( **...** ) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
   
     ![Odak moduna genişlet](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
@@ -70,7 +69,7 @@ Bazı eylemler ekran boyutu kısıtlamaları nedeniyle yalnızca odak modunda ge
 * Görseldeki değerleri **sıralama**.
 * **Geri döndürme**: Görselde gerçekleştirdiğiniz keşfetme adımlarını silme ve tanım kümesini raporun oluşturulduğu zamandaki duruma döndürme.
   
-    Bir görseldeki tüm araştırma düzeyini silmek için üç nokta simgesine (**...**) dokunup **Geri döndür**'ü seçin.
+    Bir görseldeki tüm araştırma düzeyini silmek için üç nokta simgesine ( **...** ) dokunup **Geri döndür**'ü seçin.
   
     ![Geri döndür](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
@@ -91,7 +90,7 @@ Birkaç farklı türde detaya gitme bulunur:
 4. Detaydan çıkmak için yukarı oka dokunun.
 
 ### <a name="drill-to-next-level"></a>Sonraki düzeyde detaya gitme
-1. Telefondaki raporda sağ üst köşedeki üç nokta (**...**) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
+1. Telefondaki raporda sağ üst köşedeki üç nokta ( **...** ) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
    
     ![Odak moduna genişlet](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
@@ -109,7 +108,7 @@ Birkaç farklı türde detaya gitme bulunur:
 4. Sol üst köşedeki ok simgesine dokunursanız telefon raporuna dönersiniz ve değerler alt düzeye genişletilmiş şekilde kalır.
    
     ![Alt düzeye genişletilmiş durumda](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
-5. Özgün düzeye dönmek için üç nokta simgesine (**...**) tekrar dokunup **Geri döndür**'ü seçin.
+5. Özgün düzeye dönmek için üç nokta simgesine ( **...** ) tekrar dokunup **Geri döndür**'ü seçin.
    
     ![Geri döndür](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
@@ -134,5 +133,5 @@ Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https
 * [Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../desktop-create-phone-report.md)
 * [Power BI'da bir panonun telefon görünümünü oluşturma](../../service-create-dashboard-mobile-phone-view.md)
 * [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../../visuals/desktop-create-responsive-visuals.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Power BI parolanızı mı unuttunuz?
 description: Parolanızı unuttuysanız bir bağlantıyı kullanarak parola sıfırlama isteğinde bulunabilirsiniz.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075178"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873604"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI parolanızı mı unuttunuz?
 
@@ -34,4 +33,4 @@ Bu telefon numarasının Power BI hizmeti destek numarası olmadığı unutulmam
 > [!NOTE]
 > Power BI, Doğu Standart Saati (EST) saat dilimindeki normal çalışma saatleri sırasında destek sağlar. Destek şu anda yalnızca İngilizce olarak sunulmaktadır.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

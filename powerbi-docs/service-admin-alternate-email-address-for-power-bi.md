@@ -2,7 +2,6 @@
 title: Alternatif e-posta adresi kullanma
 description: Alternatif e-posta adresi kullanma
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858081"
 ---
 # <a name="use-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
 
@@ -70,4 +69,4 @@ Power BI, kullanılacak e-posta adresini şu sıralamaya göre seçer:
 
 1. Yukarıdaki koşulların hiçbiri mevcut değilse Power BI, UPN adresini kullanır.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

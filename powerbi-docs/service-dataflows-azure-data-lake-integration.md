@@ -2,7 +2,6 @@
 title: Veri akışları ve Azure Data Lake tümleştirmesi
 description: Power BI veri akışlarının Azure Data Lake Storage 2. Nesil ile nasıl tümleştirildiğine dair genel bakış
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150497"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877308"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
 
@@ -97,4 +96,4 @@ Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuy
 * [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Ayrıca her zaman [Power BI Topluluğuna soru sormayı](http://community.powerbi.com/) deneyebilirsiniz.
+Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

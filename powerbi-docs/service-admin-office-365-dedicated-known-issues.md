@@ -2,7 +2,6 @@
 title: Office 365 Dedicated müşterileri - bilinen sorunlar
 description: Office 365 Dedicated müşterileri için destek - bilinen sorunlar. Bu konu başlığında Office 365 Dedicated müşterilerine özgü sorunlar açıklanmaktadır. Bunlara grup özelliğiyle ilgili sınırlamaların yanı sıra iPhone uygulamasının özel etki alanlarıyla kullanılması dahildir.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 06/28/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 010a45c08a3ed27b12b4fca91c64c87a00430f5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187854"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873589"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Office 365 Dedicated müşterileri - bilinen sorunlar
 Artık Office 365 Dedicated müşterileri için Power BI desteği sunulmaktadır.  O365 Dedicated müşterisiyseniz kiracınıza ait bir hesaptan oturum açabilir ve Power BI'ı kullanabilirsiniz. Şu anda bilinen iki sorun vardır.
@@ -36,5 +35,5 @@ Bu sorunu geçici olarak çözmek için; özel etki alanı yerin,e Power BI hizm
 
 ![Oturum açma e-postası](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

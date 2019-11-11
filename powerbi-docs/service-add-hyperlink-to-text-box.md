@@ -2,7 +2,6 @@
 title: Bir rapordaki metin kutusuna köprü ekleme
 description: Power BI Desktop’ta ve Power BI hizmetinde metin kutusuna köprü ekleme
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832414"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873788"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
 Power BI Desktop veya Power BI hizmetindeki bir rapora metin kutusu ekleyebilirsiniz. Bir rapordaki metin kutusunu panoya sabitleyebilir veya doğrudan panoya bir tane ekleyebilirsiniz. Metin kutusu nerede olursa olsun, bir köprü ekleyebilirsiniz. Bu makale, bir rapordaki metin kutusuna köprü eklemeyi gösterir. 
@@ -63,5 +62,5 @@ Power BI tablolarındaki ve matrislerindeki köprülerle ilgili bilgi için bkz.
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki metin kutuları ve şekiller](power-bi-reports-add-text-and-shapes.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 

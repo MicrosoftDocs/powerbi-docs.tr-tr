@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI Desktop'ta Excel’deki ve OData akışındaki verileri birleştirme"
 description: 'Öğretici: Excel’deki ve OData akışındaki verileri birleştirme'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160399"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866080"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini birleştirme
 
@@ -35,7 +34,7 @@ Her veri kümesini içeri aktaracak, dönüştürme ve toplama işlemleri yapaca
 
 İlk olarak, Excel'in Products.xlsx çalışma kitabındaki ürün verilerini Power BI Desktop’a aktarın.
 
-1. [Products.xlsx Excel çalışma kitabını indirin](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) ve **Products.xlsx** olarak kaydedin.
+1. [Products.xlsx Excel çalışma kitabını indirin](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) ve **Products.xlsx** olarak kaydedin.
    
 2. Power BI Desktop şeridinin **Giriş** sekmesinde **Verileri Al** öğesinin yanındaki açılır oku ve sonra **En Yaygın** açılır listesinden **Excel**’i seçin. 
    
@@ -76,7 +75,7 @@ Ardından, örnek Northwind satış sistemi OData akışından sipariş verileri
    
    ![OData alma](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. **OData akışı** iletişim kutusunda Northwind OData akışının URL'sini (`http://services.odata.org/V3/Northwind/Northwind.svc/`) yapıştırın. **Tamam**'ı seçin.
+2. **OData akışı** iletişim kutusunda Northwind OData akışının URL'sini (`https://services.odata.org/V3/Northwind/Northwind.svc/`) yapıştırın. **Tamam**'ı seçin.
    
    ![OData akışı iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Harita görselleştirmesi üzerinde, merkezi **Kanada**’da bulunan daireyi se�
 Tamamlanmış raporunuz Products.xlsx Excel dosyasındaki ve Northwind OData akışındaki verileri, farklı ülkelerin sipariş bilgilerini, zaman çerçevelerini ve ürünlerini analiz etmeye yardımcı olan görsellerde birleştirir. Raporunuz hazır olduğunda [Power BI hizmetine yükleyerek](desktop-upload-desktop-files.md) diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Diğer Power BI Desktop eğitimlerini okuyun](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop videolarını izleyin](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)

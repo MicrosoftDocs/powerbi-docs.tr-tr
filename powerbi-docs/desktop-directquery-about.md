@@ -2,7 +2,6 @@
 title: Power BI'da DirectQuery kullanma
 description: Power BI'da DirectQuery kullanmayı anlama
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 13ca0b53bb1aed2d4323afdc99a97f8b9cfa5567
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305789"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868331"
 ---
 # <a name="using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma
 **Power BI Desktop**'ı veya **Power BI hizmetini** kullanırken her türde farklı veri kaynağına bağlanabilir ve bu veri bağlantılarını farklı yollarla gerçekleştirebilirsiniz. En çok kullanılan veri alma yöntemi olan *içeri aktarma* seçeneğini kullanarak Power BI'a veri aktarabilir veya **DirectQuery** olarak bilinen yöntemle verilerin bulunduğu özgün kaynak deposuna doğrudan bağlanabilirsiniz. Bu makalede **DirectQuery** ve özellikleri açıklanır:
@@ -32,7 +31,7 @@ Kısaca ifade etmek gerekirse içeri aktarma ve DirectQuery kullanmaya yönelik 
 
 Hem içeri aktarma hem de DirectQuery bağlantı modları için Power BI tarafından sunulan özellikler zamanla geliştirilecektir. Buna, içeri aktarma işleminin daha fazla durumda kullanılabilmesi amacıyla, içeri aktarılan verilerin kullanımında daha çok esneklik sağlamanın yanı sıra DirectQuery kullanımına yönelik dezavantajların bazılarının ortadan kaldırılması da dahildir. İyileştirmelerden bağımsız olarak, temel alınan veri kaynağının performansı DirectQuery kullanımı sırasında dikkate alınması gereken önemli bir nokta olmaya devam edecektir. Temel alınan veri kaynağı yavaşsa bu kaynak için DirectQuery seçeneğinin kullanılması uygun olmaz.
 
-Bu makalede SQL Server Analysis Services değil, Power BI ile DirectQuery kullanımı ele alınır. DirectQuery aynı zamanda bir **SQL Server Analysis Services** özelliğidir ve aşağıda açıklanan ayrıntıların birçoğu bu hizmetin kullanımı için geçerlidir ancak önemli farklar da mevcuttur. SQL Server Analysis Services ile DirectQuery kullanımı hakkında bilgi için [SQL Server Analysis Services 2016'daki DirectQuery özelliğine yönelik ayrıntılı bilgiye yer verilen teknik incelemeye](http://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) bakın.  
+Bu makalede SQL Server Analysis Services değil, Power BI ile DirectQuery kullanımı ele alınır. DirectQuery aynı zamanda bir **SQL Server Analysis Services** özelliğidir ve aşağıda açıklanan ayrıntıların birçoğu bu hizmetin kullanımı için geçerlidir ancak önemli farklar da mevcuttur. SQL Server Analysis Services ile DirectQuery kullanımı hakkında bilgi için [SQL Server Analysis Services 2016'daki DirectQuery özelliğine yönelik ayrıntılı bilgiye yer verilen teknik incelemeye](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) bakın.  
 
 Bu makalede, raporun **Power BI Desktop**'ta oluşturulduğu durumlarda DirectQuery için önerilen iş akışına odaklanılmakla birlikte, doğrudan **Power BI hizmetine** bağlanma konusuna da değinilmektedir.
 
@@ -141,7 +140,7 @@ Bu bağlamda *modelleme* terimi, ham veriler kullanılarak rapor yazılırken ve
 * **Hesaplanmış sütunlara yönelik sınırlamalar:** Hesaplanmış sütunlar satır içi işlemlerle sınırlıdır; herhangi bir toplama işlevi kullanılmadan yalnızca aynı tablonun diğer sütunlarındaki değerlerine başvurabilir. Buna ek olarak, izin verilen DAX skaler işlevleri (LEFT () gibi), temel alınan kaynağa kolayca gönderilebilecek olanlarla sınırlıdır. Bu nedenle, kaynağın tam olarak hangi özelliklere sahip olduğuna göre değişiklik gösterir. Hesaplanmış bir sütun için DAX yazılırken, desteklenmeyen işlevler otomatik tamamlamada listelenmez ve kullanılırsa hataya neden olur.
 * **Üst-alt DAX işlevleri desteği yok:** DirectQuery modelinde, genellikle Üst-Alt yapıları (hesaplar grafiği ve çalışan hiyerarşileri gibi) işleyen DAX PATH() işlev ailesini kullanmak mümkün değildir.
 * **Hesaplanan tablolar desteklenmiyor:** DAX ifadesi kullanarak hesaplanan tablo tanımlama özelliği, DirectQuery modunda desteklenmez.
-* **İlişki filtrelemesi:** İki yönlü filtreleme kullanımı [bu teknik incelemede](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) ayrıntılı şekilde açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
+* **İlişki filtrelemesi:** İki yönlü filtreleme kullanımı [bu teknik incelemede](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) ayrıntılı şekilde açıklanmıştır. (Yazıda SQL Server Analysis Services bağlamında örnekler sunulmuştur ancak temel noktalar Power BI için de geçerlidir.)
 
 * **Kümeleme yok:** DirectQuery kullanılırken grupları otomatik olarak bulmak için Kümeleme özelliği kullanılamaz
 

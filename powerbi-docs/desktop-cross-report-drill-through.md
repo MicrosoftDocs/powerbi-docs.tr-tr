@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma
 description: Power BI Desktop'ta bir rapordan diğerindeki detaya gitme hakkında bilgi edinin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 7189ef77446446b56b1dcb55b43b022d0fc5c057
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100089"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868772"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma
 

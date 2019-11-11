@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273627"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800200"
 ---
 DAX ile verilerinizi şekillendirmek, biçimlendirmek veya başka şekilde analiz etmek için kullanabileceğiniz birçok işlev vardır. Bu işlevler bir dizi kategoride gruplandırılabilir:
 
@@ -97,7 +97,7 @@ DAX şu **Tarih** işlevlerini içerir:
 
 Bu işlevler *tarih* değerlerindeki bilgileri hesaplamak ve ayıklamak için kullanılabilir ancak bir veri tablosunun kullanıldığı akıllı zaman gösterimi için geçerli değildir.
 
-> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](http://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
+> Video içeriğini sağladığı için [SQLBI'dan Alberto Ferrari](https://www.sqlbi.com/learning-dax)'ye teşekkür ederiz
 > 
 > 
 

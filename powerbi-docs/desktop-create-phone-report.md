@@ -2,7 +2,6 @@
 title: Mobil uygulamalar için raporları iyileştirme - Power BI
 description: Raporun telefon ve tabletlere özgü bir dikey sürümünü oluşturarak, Power BI mobil uygulamalarının rapor sayfalarını nasıl iyileştireceğinizi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310797"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878404"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için raporları iyileştirme
 Dikey düzen oluşturarak mobil uygulamalarda rapor görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop ve Power BI hizmetinde, dikey modda en iyi deneyim için rapor görsellerini yeniden düzenleyebilir ve yeniden boyutlandırabilirsiniz.  
@@ -110,5 +109,5 @@ Raporu okuyanlar sayfayı yatay modda görmek için telefonlarını veya tabletl
 * [Power BI'da bir panonun telefon görünümünü oluşturma](service-create-dashboard-mobile-phone-view.md)
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme](consumer/mobile/mobile-apps-view-phone-report.md)
 * [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](visuals/desktop-create-responsive-visuals.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

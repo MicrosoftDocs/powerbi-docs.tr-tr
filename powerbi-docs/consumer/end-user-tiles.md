@@ -2,7 +2,6 @@
 title: Tüketiciler için Power BI'daki pano kutucukları
 description: Tüketiciler için Power BI'daki pano kutucukları hakkında tüm bilinmesi gerekenler. SQL Server Reporting Services (SSRS) ile oluşturulan kutucuklar da ele alınmaktadır.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffacc95feef1557d5e6aaec2cca72821127d27d6
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716637"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861405"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
 

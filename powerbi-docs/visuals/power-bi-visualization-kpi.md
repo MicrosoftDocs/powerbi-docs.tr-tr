@@ -2,7 +2,6 @@
 title: Ana Performans Göstergesi (KPI) görselleri
 description: Power BI’da Ana Performans Göstergesi (KPI) görselleri oluşturma
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239946"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870859"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Ana Performans Göstergesi (KPI) görselleri
 
@@ -47,7 +46,7 @@ KPI veri kümelerinin bir KPI için hedef değerleri içermesi gerekir. Veri kü
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
+Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
 1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
 
@@ -106,4 +105,4 @@ KPI'niz yukarıdaki gibi görünmüyorsa **FiscalMonth**’a göre sıralama yap
 
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

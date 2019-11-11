@@ -2,7 +2,6 @@
 title: Power BI Desktop’ta Toplamaları Kullanma
 description: Power BI Desktop'ta büyük verilerle etkileşimli analizler gerçekleştirin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325195"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876732"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamalar
 
@@ -60,7 +59,7 @@ Aşağıdaki görüntüde bu model gösterilmektedir.
 ![Toplama tablosundaki model](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> **Sales Agg** tablosu da bir tablo olduğundan farklı şekillerde yüklenme esnekliğine sahiptir. Örneğin ETL/ELT işlemleri veya tablo için [M ifadesi](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) kullanılarak kaynak veritabanında toplama işlemleri gerçekleştirilebilir. [Power BI Premium'da artımlı yenilemeyi](service-premium-incremental-refresh.md) kullanarak veya kullanmadan İçeri aktarma depolama modunu kullanabilir veya DirectQuery olabilir ve [columnstore dizinleri](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview) kullanılarak hızlı sorgular için iyileştirilebilir. Bu esneklik performans sorunlarından kaçınmak için sorgu yükünü yayan dengeli mimarileri mümkün kılar.
+> **Sales Agg** tablosu da bir tablo olduğundan farklı şekillerde yüklenme esnekliğine sahiptir. Örneğin ETL/ELT işlemleri veya tablo için [M ifadesi](/powerquery-m/power-query-m-function-reference) kullanılarak kaynak veritabanında toplama işlemleri gerçekleştirilebilir. [Power BI Premium'da artımlı yenilemeyi](service-premium-incremental-refresh.md) kullanarak veya kullanmadan İçeri aktarma depolama modunu kullanabilir veya DirectQuery olabilir ve [columnstore dizinleri](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview) kullanılarak hızlı sorgular için iyileştirilebilir. Bu esneklik performans sorunlarından kaçınmak için sorgu yükünü yayan dengeli mimarileri mümkün kılar.
 
 ### <a name="storage-mode"></a>Depolama modu 
 Kullandığımız örnek üzerinden devam edelim. Sorguları hızlandırmak için **Sales Agg** tablosunun depolama modunu **İçeri Aktarma** olarak ayarlamıştık.

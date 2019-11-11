@@ -2,19 +2,18 @@
 title: Surface Hub'da sunu modunda görüntüleme, Windows 10 - Power BI
 description: Power BI raporlarını Surface Hub'da görüntüleme ve Power BI panolarını, raporlarını ve kutucuklarını Windows 10 cihazlarda tam ekran modunda görüntüleme hakkında bilgi edinin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
-ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338272"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869540"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. 
@@ -54,5 +53,5 @@ Araç çubuğunu yerinden çıkarabilir ve sürükleyerek ekranın herhangi bir 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki panoları ve raporları tam ekran modunda görüntüleme](../end-user-focus.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

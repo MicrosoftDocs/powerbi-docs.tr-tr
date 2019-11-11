@@ -4,17 +4,16 @@ description: Kuruluşunuz için içerik eklerken Power BI uygulamalarını otoma
 ms.subservice: powerbi-developer
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 50040731ec5602dc38d9d323fe916e4e2e239d27
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 5fcb71d01616d8d6f7189a1b4073f2c82ca7defa
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751055"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877743"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 

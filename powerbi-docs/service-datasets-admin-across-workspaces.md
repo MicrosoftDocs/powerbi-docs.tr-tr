@@ -2,7 +2,6 @@
 title: Çalışma alanları genelinde veri kümeleri kullanımını denetleme (Önizleme) - Power BI
 description: Power BI kiracısında bilgi akışını kısıtlamayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363bf9b107722b3993ed7ac43138c73da03f410a
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461799"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872577"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Çalışma alanları genelinde veri kümeleri kullanımını denetleme (Önizleme)
 
@@ -40,4 +39,4 @@ Kiracı yöneticisi olarak, **Onay** ayarı sayfasındaki **Daha fazla bilgi edi
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

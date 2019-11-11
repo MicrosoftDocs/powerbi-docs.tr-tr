@@ -2,19 +2,18 @@
 title: Panoyu Windows 10 Başlangıç ekranına sabitleme - Power BI mobil uygulaması
 description: Kritik öneme sahip ölçümleri bir bakışta görebilmek için Power BI mobil uygulamasındaki bir Power BI panosunu Windows 10 Başlangıç ekranına nasıl sabitleyeceğinizi öğrenin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 78bb51a7ef2d7bd7309c7bb93c27b7e9193b85bf
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 556ca293458c6874097a4733aaed453130778848
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059401"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869856"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI mobil uygulamasındaki bir panoyu Windows 10 Başlangıç ekranına sabitleme
 Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows Başlangıç ekranına sabitleyebilirsiniz. Bunlar *canlı kutucuklar* haline gelir. Başlangıç ekranında bulunan kutucuğa tıkladığınızda pano Windows 10 için Power BI mobil uygulamasında açılır.
@@ -32,8 +31,8 @@ Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows B
    ![Windows 10 canlı kutucuğu](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/pbi_win10ph_startscrn.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Microsoft Store'dan [Windows 10 için Power BI mobil uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=526478)  
+* Microsoft Store'dan [Windows 10 için Power BI mobil uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
