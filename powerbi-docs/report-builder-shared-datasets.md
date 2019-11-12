@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431520"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791278"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki paylaşılan veri kümelerini kullanma
 
@@ -30,7 +30,7 @@ Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız 
 - Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](service-datasets-build-permissions.md) hakkında bilgi edinin.
 - Rapor Oluşturucusu’nda sayfalandırılmış rapor oluşturmak için Power BI Pro lisansına sahip olmanız gerekmez. 
 - Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir. 
-- İsteğe bağlı: Bu makaleyi izlemek isterseniz, Power BI Desktop [Perakende Analizi Örneği .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) dosyasını indirin, bu dosyayı Power BI Desktop’ta açın ve çok sayıda sütun içeren bir tablo ekleyin. **Biçim** bölmesinde **Toplamlar** seçeneğini kapatın. Ardından Power BI hizmetindeki bir çalışma alanında yayımlayın.
+- İsteğe bağlı: Bu makaleyi izlemek isterseniz, Power BI Desktop [Perakende Analizi Örneği .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) dosyasını indirin, bu dosyayı Power BI Desktop’ta açın ve çok sayıda sütun içeren bir tablo ekleyin. **Biçim** bölmesinde **Toplamlar** seçeneğini kapatın. Ardından Power BI hizmetindeki bir çalışma alanında yayımlayın.
 
     ![Toplamlar kapalı](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

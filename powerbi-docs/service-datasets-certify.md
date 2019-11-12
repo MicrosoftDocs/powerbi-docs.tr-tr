@@ -2,7 +2,6 @@
 title: Veri kümelerini onaylama (Önizleme) - Power BI
 description: Kurumsal kullanıcılara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmeyi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567333"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877154"
 ---
 # <a name="certify-datasets-preview"></a>Veri kümelerini onaylama (Önizleme)
 
@@ -43,4 +42,4 @@ Kiracı yöneticilerinin [çalışma alanları genelinde veri kümeleri kullanı
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Çalışma alanı genelinde veri kümeleri kullanma](service-datasets-across-workspaces.md) hakkındaki bilgileri okuyun
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
