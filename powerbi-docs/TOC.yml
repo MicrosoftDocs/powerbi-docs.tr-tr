@@ -119,6 +119,8 @@
           items:
             - name: Power BI Desktop'taki veri kaynakları
               href: desktop-data-sources.md
+            - name: LinkedIn Satış Gezgini’ne bağlanma (önizleme)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Örnek olarak bir Web sayfasına bağlanma (önizleme)
               href: desktop-connect-to-web-by-example.md
             - name: Power BI hizmetindeki veri kümelerine bağlanma
@@ -201,6 +203,8 @@
           items:
             - name: İkili değerleri birleştirme
               href: desktop-combine-binaries.md
+            - name: Power BI Desktop’taki Yapay Zeka İçgörüleri’ni kullanma (önizleme)
+              href: desktop-ai-insights.md
         - name: Verilerinizi modelleme
           items:
             - name: Power BI Desktop'ta verileri kategorilere ayırma
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Power BI'da birleşik harita
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Power BI’daki ayrıştırma ağacı (önizleme)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Power BI'da halka grafikler
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Power BI'da kartogramlar (Koroplet haritalar)
@@ -405,6 +411,8 @@
       items:
         - name: Power BI Desktop'taki veri türleri
           href: desktop-data-types.md
+        - name: Power BI Desktop’taki güncelleştirilmiş şeridi kullanma (önizleme)
+          href: desktop-ribbon.md
         - name: Power BI Desktop için formül düzenleyicisi kısayolları
           href: desktop-formula-editor.md
         - name: Power BI Desktop gizlilik düzeyleri
