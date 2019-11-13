@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 075d4ea0c243f77ebf0d29020f25bbca6567c6c0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870773"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009827"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -334,12 +334,6 @@ RLS ve RLS olmayan veri kaynaklarını karşılaştırmak için örnek olarak Sa
 
 Paylaşılan pano veya rapora Ralph erişirse, onun rol düzeyine bağlı olarak aynı olaylar zinciri gerçekleşir.
 
-## <a name="power-bi-and-expressroute"></a>Power BI ve ExpressRoute
-
-Power BI ve ExpressRoute ile, gizli Power BI verileriniz ve bağlantılarınız için daha yüksek düzeyde güvenlik sağlamak üzere, İnternet kullanmadan (veya bir ISP'nin ortak konum özelliğini kullanarak) kuruluşunuzla Power BI arasında özel bir ağ bağlantısı oluşturabilirsiniz.
-
-ExpressRoute, Azure veri merkezleri (Power BI'ın bulunduğu) ile şirket içi altyapınız veya Azure veri merkezleri ile ortak konum ortamınız arasında özel bağlantılar oluşturmanıza olanak sağlayan bir Azure hizmetidir. Daha fazla bilgi için [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md) makalesini gözden geçirin.
-
 ## <a name="power-bi-mobile"></a>Power BI Mobil
 
 Power BI Mobil, üç birincil mobil platform için tasarlanan uygulamalar koleksiyonudur: Android, iOS ve Windows Mobile. Power BI Mobil uygulamalarının güvenlik yaklaşımları iki kategoriye ayrılır:
@@ -450,7 +444,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Müşteri ağının dışına bilgi gönderen başka Power BI görselleri var mı?**
 
-* Evet. Bing Haritalar ve ESRI görselleri, bu hizmetleri kullanan görseller için Power BI hizmetinin dışına veri iletir. Daha fazla bilgi edinmek ve Power BI dışı kiracı trafiğinin ayrıntılı açıklamalarını görmek için bkz. [**Power BI ve ExpressRoute**](service-admin-power-bi-expressroute.md).
+* Evet. Bing Haritalar ve ESRI görselleri, bu hizmetleri kullanan görseller için Power BI hizmetinin dışına veri iletir.
 
 **Şablon uygulamaları için, Microsoft, öğeleri galeriye yayımlamadan önce şablon uygulamasının herhangi bir güvenlik veya gizlilik değerlendirmesi gerçekleştirmesini ister misiniz?**
 * Hayır. Uygulama yayımcısı, müşterinin gözden geçirilmesi ve şablon uygulama yayımcısına güvenip güvenmeyeceğini tespit ederken içerikten sorumludur. 
@@ -487,7 +481,6 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 - [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
 - [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)
-- [Power BI ve ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI’dan şirket içi veri kaynaklarına SSO için Kerberos kullanma](service-gateway-sso-overview.md)
