@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Power BI'da şelale grafikler
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: Dinamik başvuru çizgileri oluşturma
-              href: service-analytics-pane.md
         - name: Doğal dil
           items:
             - name: Soru-Cevap’a giriş
