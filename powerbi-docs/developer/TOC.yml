@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
               href: ../desktop-r-powered-custom-visuals.md
-            - name: Görsellerin etkileşimleri
+            - name: Görsel etkileşimlere izin verme
               href: visuals/visuals-interactions.md
+            - name: Seçimleri ekleme
+              href: visuals/selection-api.md
             - name: Görsellere yönelik araç ipuçları ekleme
               href: visuals/add-tooltips.md
             - name: Analiz bölmesi ekleme
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: Yer işaretleri desteği ekleme
               href: visuals/bookmarks-support.md
+            - name: Bağlam menüsünü desteği ekleme
+              href: visuals/context-menu.md
             - name: Görsellerde verileri vurgulama
               href: visuals/highlight.md
             - name: Yüksek Karşıtlıklı mod desteği ekleme
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Power BI görselleriyle ilgili sorunları giderme
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: Yeni PowerBI görsel araçlarına geçirme
+              href: visuals/migrate-to-new-tools.md
         - name: Başvuru
           items:
             - name: Giriş sayfası
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: Sıralama
               href: visuals/sort-options.md
+            - name: Etkileşim yardımcı programları
+              href: visuals/utils-interactivity-selections.md
         - name: Kaynaklar
           items:
             - name: Geliştirme Merkezi
