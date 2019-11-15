@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: c608a6f69e3e9d614b23df7e04561e5fc2b6840b
-  ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+  ms.openlocfilehash: 18c09880a7e036c768d67a5df169df3c4c4f0f4c
+  ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 11/07/2019
-  ms.locfileid: "73769783"
+  ms.lasthandoff: 11/15/2019
+  ms.locfileid: "74099407"
 landingContent:
 - title: Geliştiriciler için Power BI hakkında
   linkLists:
@@ -26,7 +26,7 @@ landingContent:
     - text: Geliştiriciler neler yapabilir?
       url: what-can-you-do.md
     - text: Power BI’daki görseller
-      url: ../power-bi-custom-visuals.md
+      url: power-bi-custom-visuals.md
     - text: Ekleme nedir?
       url: embedding.md
     - text: Power BI API nedir?
@@ -52,7 +52,7 @@ landingContent:
   - linkListType: concept
     links:
     - text: Görseller hakkında SSS
-      url: ../power-bi-custom-visuals-faq.md
+      url: power-bi-custom-visuals-faq.md
     - text: Görsellere ilişkin yönergeler
       url: guidelines-powerbi-visuals.md
     - text: Görsellerde gelişmiş düzenleme modu
@@ -60,7 +60,7 @@ landingContent:
   - linkListType: how-to-guide
     links:
     - text: Özel görseller için sertifika alma
-      url: ../power-bi-custom-visuals-certified.md
+      url: power-bi-custom-visuals-certified.md
     - text: AppSource'ta özel görsel yayımlama
       url: office-store.md
 - title: Tümleşik analiz

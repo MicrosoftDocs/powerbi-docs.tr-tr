@@ -12,7 +12,7 @@
         - name: Genel Bakış
           items:
             - name: Power BI’daki görseller
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Öğreticiler
           items:
             - name: Power BI görseli geliştirme
@@ -24,11 +24,11 @@
         - name: Kavramlar
           items:
             - name: Power BI’da kuruluşlara yönelik görseller
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Power BI görselleri için yönergeler
               href: guidelines-powerbi-visuals.md
             - name: Görseller hakkında SSS
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Özellikleri kullanma
               href: visuals/capabilities.md
             - name: Veri görünümü eşlemeleri
@@ -40,12 +40,12 @@
         - name: Nasıl yapılır?
           items:
             - name: Özel görseller için sertifika alma
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: AppSource'ta özel görsel yayımlama
               href: office-store.md
             - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Görsel etkileşimlere izin verme
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Görsellerin etkileşimleri
               href: visuals/visuals-interactions.md
             - name: Seçimleri ekleme
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Eşitleme dilimleyicilerini etkinleştirme
               href: visuals/enable-sync-slicers.md
             - name: Power BI görselleriyle ilgili sorunları giderme
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Yeni PowerBI görsel araçlarına geçirme
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Başvuru
           items:
             - name: Giriş sayfası
