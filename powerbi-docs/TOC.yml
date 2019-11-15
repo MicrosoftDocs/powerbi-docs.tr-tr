@@ -80,7 +80,7 @@
         - name: Power BI’da çok boyutlu modellerde varsayılan üye
           href: desktop-default-member-multidimensional-models.md
         - name: Görseller hakkında SSS
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: Nasıl yapılır?
       items:
         - name: Power BI Desktop uygulamasını edinme
@@ -673,6 +673,8 @@
           items:
             - name: Yeni çalışma alanları oluşturma
               href: service-create-the-new-workspaces.md
+            - name: Klasik çalışma alanları yükseltme
+              href: designer/service-upgrade-workspaces.md
             - name: Çalışma alanı oluşturma
               href: service-create-workspaces.md
             - name: Çalışma alanlarındaki uygulamaları yayımlama
