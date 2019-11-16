@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 06/10/2019
-ms.openlocfilehash: dc8292de402474bee812f5ed489dd89ba2afe5f3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms:date: 11/14/2019
+ms.openlocfilehash: 8bdd81657d7f8917e3ce147b813ba6745207f1f8
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239863"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128216"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -103,7 +103,7 @@ ms.locfileid: "72239863"
                                 </a>
                             </li>
                             <li>
-                                <a href="guidance/overview.md">
+                                <a href="guidance/index.yml">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
