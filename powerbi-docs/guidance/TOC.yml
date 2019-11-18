@@ -1,0 +1,36 @@
+- name: Power BI kılavuz belgeleri
+  href: index.yml
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Genel Bakış
+          href: overview.md
+    - name: Kavramlar
+      expanded: true
+      items:
+        - name: Yıldız şeması nedir?
+          href: star-schema.md
+        - name: Veri modeli boyutunu azaltma
+          href: import-modeling-data-reduction.md
+        - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
+          href: dax-divide-function-operator.md
+        - name: Sorguyu kaynağa döndürmenin önemi
+          href: power-query-folding.md
+        - name: Hata işlevlerinin uygun kullanımı
+          href: dax-error-functions.md
+        - name: Veri akışları için en iyi uygulamalar
+          href: ../service-dataflows-best-practices.md
+        - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
+          href: directquery-model-guidance.md
+    - name: Teknik incelemeler
+      items:
+        - name: Teknik incelemelere genel bakış
+          href: ../whitepapers.md
+        - name: Power BI güvenliği teknik incelemesi
+          href: ../whitepaper-powerbi-security.md
+        - name: Power BI premium dağıtımı
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
+          href: ../whitepaper-azure-b2b-power-bi.md

@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Power BI veri kaynakları
               href: service-get-data.md
+            - name: Power BI veri kümelerini anlama
+              href: service-datasets-understand.md
+            - name: Power BI veri kümesi modlarını anlama
+              href: service-dataset-modes-understand.md
             - name: Power BI'da veri yenileme
               href: refresh-data.md
         - name: Power BI'da işbirliği
@@ -1125,31 +1129,3 @@
       items:
         - name: Aylık ağ geçidi güncelleştirmeleri
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Rehber
-  items:
-    - name: Genel Bakış
-      href: guidance/overview.md
-    - name: Yıldız şeması nedir?
-      href: guidance/star-schema.md
-    - name: Veri modeli boyutunu azaltma
-      href: guidance/import-modeling-data-reduction.md
-    - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
-      href: guidance/dax-divide-function-operator.md
-    - name: Sorguyu kaynağa döndürmenin önemi
-      href: guidance/power-query-folding.md
-    - name: Hata işlevlerinin uygun kullanımı
-      href: guidance/dax-error-functions.md
-    - name: Veri akışları için en iyi uygulamalar
-      href: service-dataflows-best-practices.md
-    - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
-      href: guidance/directquery-model-guidance.md
-    - name: Teknik incelemeler
-      items:
-        - name: Teknik incelemelere genel bakış
-          href: whitepapers.md
-        - name: Power BI güvenliği teknik incelemesi
-          href: whitepaper-powerbi-security.md
-        - name: Power BI premium dağıtımı
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
-          href: whitepaper-azure-b2b-power-bi.md
