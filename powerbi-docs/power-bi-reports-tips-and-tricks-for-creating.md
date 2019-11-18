@@ -2,7 +2,6 @@
 title: Etkileyici raporlar oluşturmaya ilişkin ipuçları
 description: Power BI hizmetinde ve Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721359"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860879"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Power BI Desktop ve Power BI hizmetinde rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop, Power BI hizmeti *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik.
@@ -115,7 +114,7 @@ Bir örneğe göz atalım:
 
 Aşağıdaki şemalara sahip olan etkin müşteri destek taleplerini içeren veri kümelerini ve iş öğelerini içeren başka bir veri kümesini yükleyecek olursak:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
 >
 >
 
@@ -163,12 +162,9 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir.  BI analizi için en iyi
 
 [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX Resource Center (DAX Kaynak Merkezi)](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX Resource Center (DAX Kaynak Merkezi)](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI hizmeti *ve* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Teknik incelemeyi okuyun: [Power BI raporlarının tasarım ilkeleri](visuals/power-bi-visualization-best-practices.md)
-Bu incelemede, Power BI'da rapor tasarlamaya ilişkin en iyi yöntemler sunulmaktadır. Planlama ile başlayan incelemede, raporlarınıza ve raporu oluşturan sayfalar ile görsellere uygulayabileceğiniz tasarım ilkelerine yer verilmektedir. Bu en iyi uygulamaların çoğu pano tasarımı için de geçerlidir.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI'da görsel olarak etkileyici raporlar (ve panolar) oluşturma" başlıklı makaleyi okuyun ve/veya videoyu izleyin
 Topluluk üyesi Miguel Myers, hem Veri Bilimcisi hem de Grafik Tasarımcısı olarak görev yapmaktadır.
@@ -226,4 +222,4 @@ Favori kitaplarımızdan bazıları:
 
 [Power BI'daki raporlar](consumer/end-user-reports.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

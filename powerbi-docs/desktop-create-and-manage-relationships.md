@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 description: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312716"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869125"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve Otomatik Algıla özelliği sizin yerinize bunları yapar. Ancak, bazı durumlarda ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -64,9 +63,9 @@ Daha ayrıntılı bilgi için [blog gönderisine](https://blogs.technet.microsof
 Kardinalitenin ne zaman değiştirileceği hakkında daha ayrıntılı bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 
 ## <a name="cross-filter-direction"></a>Çapraz filtre yönü
-**Her İkisi** - Filtreleme amacıyla her iki tablonun da tek bir tabloymuş gibi kabul edildiği anlamına gelen en yaygın ve varsayılan yöndür. **Her İkisi**, bir dizi arama tablosu içeren tek bir tabloda kullanıldığında oldukça kullanışlıdır. Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir. Buna genellikle Yıldız şeması yapılandırması (birkaç arama tablosuna sahip merkezi bir tablo) denir. Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir. Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur. Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır. Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
+**Her İkisi:** Filtreleme amacıyla her iki tablonun da tek bir tabloymuş gibi kabul edildiği anlamına gelir. **Her İkisi**, bir dizi arama tablosu içeren tek bir tabloda kullanıldığında oldukça kullanışlıdır. Departman için bir arama tablosuna sahip Satış değerleri tablosu buna bir örnektir. Buna genellikle Yıldız şeması yapılandırması (birkaç arama tablosuna sahip merkezi bir tablo) denir. Ancak, arama tablolarına sahip (bazıları ortak olmak üzere) iki veya daha fazla tablonuz varsa Her ikisi de ayarını kullanmanız gerekebilir. Önceki örneği devam ettirirsek, bu durumda her bir departman için hedef bütçenin kaydedildiği bir bütçe satış tablonuz da olur. Ayrıca, departman tablosu hem satış hem de bütçe tablosuna bağlıdır. Bu tür bir yapılandırma için Her ikisi de ayarını kullanmayın.
 
-**Tek:** Bağlı tablolardaki filtreleme seçimleri, değerlerin toplandığı tablolarda çalışır. Excel 2013 veya önceki sürümlerinden bir Power Pivot veri modeli aktarırsanız tüm ilişkilerin tek bir yönü olur. 
+**Tek:** En yaygın kullanılan varsayılan yöndür ve bağlı tablolardaki filtreleme seçimlerinin, değerlerin toplandığı tablolarda çalıştığı anlamına gelir. Excel 2013 veya önceki sürümlerinden bir Power Pivot veri modeli aktarırsanız tüm ilişkilerin tek bir yönü olur. 
 
 Çapraz filtre yönünün ne zaman değiştirileceği hakkında daha fazla bilgi için bu makalenin devamındaki Ek seçenekleri anlama bölümüne bakın.
 

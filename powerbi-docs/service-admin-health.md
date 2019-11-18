@@ -2,7 +2,6 @@
 title: Office 365'te Power BI hizmet durumunu izleme
 description: Microsoft 365 yönetim merkezinde mevcut ve geçmiş hizmet durumunu görüntüleme hakkında bilgi edinin.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 579950320c3193e9cc1921a06d5b121ff0b58ae0
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075355"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857699"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365'te Power BI hizmet durumunu izleme
 
@@ -29,7 +28,7 @@ Rolleri hakkında daha fazla bilgi için bkz. [Power BI ile ilgili yönetici rol
 
 1. [Microsoft 365 yönetim merkezinde](https://portal.office.com/adminportal) oturum açın.
 
-1. Sol gezinti çubuğundan **Tümünü göster** > **Sistem Durumu** > **Hizmet durumu**’nu seçin. Hizmet durumu sayfası görüntülenir:
+1. Gezinti bölmesinden **Tümünü göster** > **Sistem Durumu** > **Hizmet durumu**’nu seçin. Hizmet durumu sayfası görüntülenir:
 
     ![Sistem ve Hizmet durumu seçeneklerinin öne çıkarıldığı Microsoft 365 yönetim merkezinin ekran görüntüsü.](media/service-admin-health/service-health-tile.png)
 

@@ -2,7 +2,6 @@
 title: Power BI Gateway’de sorun giderme (kişisel mod)
 description: Power BI Gateway’de sorun giderme (kişisel mod)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543532"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873388"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway’de sorun giderme (kişisel mod)
 
@@ -128,7 +127,7 @@ Pano kutucukları yenilendiğinde bu hatayı alırsanız şu bölüme bakın: [K
 ![Veri Yönetimi Ağ Geçidi ve PowerBIGateway günlükleri](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Fiddler ile izleme
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır. İstemci makinesinden Power BI hizmetiyle iletişimi görebilirsiniz. Bu iletişim hataları ve diğer ilgili bilgileri gösterebilir.
+[Fiddler](https://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır. İstemci makinesinden Power BI hizmetiyle iletişimi görebilirsiniz. Bu iletişim hataları ve diğer ilgili bilgileri gösterebilir.
 
 ![Fiddler ile izleme](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ Geçici klasörünüze (%temp%) gidebilir ve *Power\_BI\_* ile başlayan dosyala
 - [Kutucuk hatalarıyla ilgili sorunları giderme](refresh-troubleshooting-tile-errors.md)  
 - [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md) 
  
-Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'na sorun.
+Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 

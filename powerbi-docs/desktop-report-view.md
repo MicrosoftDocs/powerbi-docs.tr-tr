@@ -2,7 +2,6 @@
 title: Power BI Desktop'taki Rapor Görünümü
 description: Power BI Desktop'taki Rapor Görünümü
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142194"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877860"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Power BI Desktop'taki Rapor Görünümü
 Power BI'a aşinaysanız, verilerinize dinamik bakış açıları ve öngörüler kazandıran raporlar oluşturmanın ne kadar kolay olduğunu biliyorsunuz demektir. Power BI, Power BI Desktop'ta daha gelişmiş özelliklere de sahiptir. Power BI Desktop ile gelişmiş sorgular oluşturabilir, birden fazla kaynaktaki verileri birleştirebilir, tablolar arasında ilişkiler oluşturabilir ve daha fazlasını yapabilirsiniz.
@@ -29,7 +28,7 @@ Power BI Desktop'a veri yüklediğinizde ilk olarak boş bir tuval içeren **Rap
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Sol taraftaki gezinti çubuğunda bulunan simgeleri seçerek **Rapor Görünümü**, **Veri Görünümü** ve **İlişki Görünümü** arasında geçiş yapabilirsiniz:
+Sol taraftaki gezinti bölmesinde bulunan simgeleri seçerek **Rapor Görünümü**, **Veri Görünümü** ve **İlişki Görünümü** arasında geçiş yapabilirsiniz:
 
 ![Rapor görünümü simgesi](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

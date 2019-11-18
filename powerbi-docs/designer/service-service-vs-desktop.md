@@ -2,7 +2,6 @@
 title: Power BI Desktop ile Power BI hizmetini karşılaştırma
 description: Power BI Desktop eksiksiz bir veri analizi ve rapor oluşturma aracıdır. Power BI hizmeti, ekiplerin ve kuruluşların basit rapor düzenlemesine ve işbirliği yapmasına yönelik bulut tabanlı çevrimiçi bir hizmettir.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064365"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879009"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop ile Power BI hizmetini karşılaştırma
 
@@ -38,7 +37,7 @@ Hem uygulamada hem de hizmette *raporları* oluşturabilir ve düzenleyebilirsin
 
 Power BI Desktop'taki ve hizmetteki rapor düzenleyicileri birbirine benzer. Bunlar üç bölümden oluşur:  
 
-1. Üst gezinti çubukları (Power BI Desktop ile hizmette farklıdır)    
+1. Üst gezinti bölmeleri (Power BI Desktop ile hizmette farklıdır)    
 2. Rapor tuvali     
 3. **Alanlar**, **Görsel Öğeler** ve **Filtreler** bölmeleri
 

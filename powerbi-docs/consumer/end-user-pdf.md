@@ -2,7 +2,6 @@
 title: Raporları PDF dosyasına dışarı aktarma
 description: Bir Power BI raporunu PDF’ye nasıl aktaracağınızı öğrenin.
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716981"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862861"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716981"
 Power BI sayesinde raporunuzu PDF biçiminde yayımlayabilir ve kolayca Power BI raporunuzu temel alan bir belge oluşturabilirsiniz. PDF’ye aktardığınızda Power BI raporundaki her sayfa PDF belgesinde ayrı sayfalara dönüşür.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Power BI raporunuzu PDF’ye aktarma
-Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş** sayfanızdan, **Uygulamalar**’dan veya sol gezinti bölmesindeki başka bir kapsayıcıdan da bir rapor seçebilirsiniz.
+Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş** sayfanızdan, **Uygulamalar**’dan veya gezinti bölmesindeki başka bir kapsayıcıdan bir rapor seçebilirsiniz.
 
 1. Menü çubuğundan **Dışarı Aktar** > **PDF**’i seçin.
 

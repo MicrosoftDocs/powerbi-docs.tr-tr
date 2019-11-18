@@ -1,9 +1,8 @@
 ---
 title: Microsoft Power BI Premium kapasite senaryoları
-description: Power BI Premium kapasite senaryoları açıklar.
+description: Yaygın Microsoft Power BI Premium kapasite senaryolarını açıklar.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,147 +10,147 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1d666a6702515a935d93549d026f207848f2bca8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3190645044c930c1c63fd7c199883d784723d6f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565348"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881253"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
-Bu makalede, Power BI premium kapasiteler burada uygulanmıştır gerçek dünya senaryoları açıklar. Sık karşılaşılan sorunlar ve zorlukları, ayrıca sorunlarını tanımlaması nasıl açıklanmaktadır ve bunları gidermek:
+Bu makalede Power BI Premium kapasitelerinin uygulanmış olduğu gerçek dünya senaryoları açıklanmaktadır. Yaygın sorunlar ve zorluklar ile sorunları tespit etme adımları açıklanmakta ve yardım bilgileri sunulmaktadır:
 
-- [Veri kümeleri güncel tutma](#keeping-datasets-up-to-date)
-- [Veri kümeleri tanımlayan yavaş yanıt](#identifying-slow-responding-datasets)
-- [Düzensiz yavaş yanıtlanan için nedenleri tanımlayan veri kümeleri](#identifying-causes-for-sporadically-slow-responding-datasets)
+- [Veri kümelerini güncel tutma](#keeping-datasets-up-to-date)
+- [Yavaş yanıt veren veri kümelerini tanımlama](#identifying-slow-responding-datasets)
+- [Aralıklı olarak yavaş yanıt veren veri kümeleriyle ilgili nedenleri tanımlama](#identifying-causes-for-sporadically-slow-responding-datasets)
 - [Yeterli bellek olup olmadığını belirleme](#determining-whether-there-is-enough-memory)
 - [Yeterli CPU olup olmadığını belirleme](#determining-whether-there-is-enough-cpu)
 
-Adımları, grafik ve tablo örneklerinin yanı sıra arasındadır **Power BI Premium kapasite ölçümleri uygulama** Power BI yönetici erişimi olacaktır.
+Adımlar, örnek grafikler ve tablolar, Power BI yöneticisi tarafından erişim sağlanabilecek **Power BI Premium Kapasite Ölçümleri uygulamasından** alınmıştır.
 
-## <a name="keeping-datasets-up-to-date"></a>Veri kümeleri güncel tutma
+## <a name="keeping-datasets-up-to-date"></a>Veri kümelerini güncel tutma
 
-Rapor verileri bazen eski veya "eski" olduğu görüldü, kullanıcıların şikayet olduğunda bu senaryoda, bir araştırma tetiklendi.
+Bu senaryoda, kullanıcıların rapor verilerinin bazen eski veya "süresi dolmuş" olduğunu belirtmesi üzerine bir araştırma gerçekleştirilmiştir.
 
-Uygulamada, yönetici etkileşimde **yeniler** görsel tarafından veri kümelerini sıralama **en fazla bekleme zamanı** azalan düzende istatistikleri. Bu görsel çalışma alanı adına göre gruplandırılmış en uzun bekleme süresini sahip veri kümeleri açığa yardımcı olur.
+Yönetici, uygulamadaki **Yenilemeler** görseliyle etkileşime geçip veri kümelerini **En Uzun Bekleme Süresi** istatistiklerine göre azalan sırada sıralamıştır. Bu görsel, yöneticinin en uzun bekleme süresine sahip olan veri kümelerini çalışma alanı adına göre gruplanmış bir şekilde görmesini sağlar.
 
-![Veri kümesini yenilemeleri maksimum bekleme süresi, çalışma alanı tarafından gruplandırılmış göre azalan düzende sıralandı](media/service-premium-capacity-scenarios/dataset-refreshes.png)
+![Çalışma alanına göre gruplanmış, en uzun bekleme süresine göre azalan sırada listelenmiş veri kümesi yenilemeleri](media/service-premium-capacity-scenarios/dataset-refreshes.png)
 
-İçinde **saatlik ortalama Yenile bekleme süresini** visual, bunlar yenileme bekleme süresini tutarlı bir şekilde her gün 4 saat yaklaşık tepe dikkat edin.
+Yönetici, **Saatlik Ortalama Yenileme Bekleme Süreleri** görselinde yenileme bekleme sürelerinin tutarlı bir şekilde her gün saat 16:00 civarında zirve yaptığını görmüştür.
 
-![Yenileme yoğun düzenli olarak 4 saat bekler.](media/service-premium-capacity-scenarios/peak-refresh-waits.png)
+![Saat 16:00'da zirve yapan yenileme bekleme süreleri](media/service-premium-capacity-scenarios/peak-refresh-waits.png)
 
-Bu sonuçları için birkaç olası açıklamalar şunlardır:
+Bu sonuçlar için birkaç olası açıklama söz konusudur:
 
-- Çok fazla sayıda yenileme denemesi kapasite düğümü tarafından tanımlanan sınırları aşma aynı anda gerçekleşen. Bu durumda, varsayılan bellek ayırma ile P1 üzerinde altı eşzamanlı yenileme.
+- Aynı anda çok fazla yenileme girişimi olması nedeniyle kapasite düğümü tarafından tanımlanan sınırlar aşılmıştır. Bu örnekte varsayılan bellek ayırma özelliğine sahip olan bir P1 ile altı eşzamanlı yenileme gerçekleştirilmiştir.
 
-- Yenilenecek veri kümeleri (en az 2 x tam yenileme için gerekli bellek gerektiren) kullanılabilir belleğe sığmayacak kadar büyük olabilir.
-- Bellek kullanım artış verimsiz Power Query mantıksal veri kümesi yenilemesi sırasında elde edilen. Meşgul bir kapasitesi, bu depo, bazen yenileme başarısız ve büyük olasılıkla diğer rapor görünümü işlemleri kapasite etkileyen fiziksel sınırı ulaşabilirsiniz.
-- Bellekte kalması için gereken sık Sorgulanmış veri kümeleri, diğer veri kümelerine sınırlı kullanılabilir bellek nedeniyle yenileme yeteneğini etkileyebilir.
+- Yenilenecek veri kümeleri, kullanılabilir durumdaki belleğe sığamayacak kadar büyük olabilir (tam yenileme için en az 2 katı bellek gerekiyor olabilir).
+- Verimsiz Power Query mantığı nedeniyle veri kümesi yenileme işlemi sırasında bellek kullanımında ani artış yaşanıyor olabilir. Yoğun bir kapasitede bu ani artış fiziksel sınıra ulaşılmasına ve yenilemenin başarısız olmasının yanı sıra kapasitedeki diğer rapor görünümü işlemlerinin etkilenmesine neden olabilir.
+- Bellek içinde kalması gereken sık sorgulanan veri kümeleri, kullanılabilir belleğin sınırlı olması nedeniyle diğer veri kümelerinin yenilenmemesine neden olabilir.
 
-Araştırmanıza yardımcı olmak için Power BI yönetici bakabilirsiniz:
+Power BI yöneticisi araştırmaya devam etmek için şu noktalara bakabilir:
 
-- Kullanılabilir bellek yenilenecek veri kümesi boyutu x 2'den az olduğunda, verileri anında kullanılabilir düşük bellekle yeniler.
-- Değil yenilenir ve yenileme önce değil bellek içinde etkileşimli trafiği yenileme yoğun saatlerde göstermek için henüz başladı. veri kümeleri. Hangi veri kümelerinin belirli bir zamanda belleğe yüklenen görmek için veri kümeleri adreste bir Power BI yönetici bakabilirsiniz **veri kümeleri** uygulama sekmesinde. Yönetici çubuklardan birine tıklayarak filtresi için belirli bir süre sonra çapraz **saatlik yüklenen veri kümesi sayar**. Aşağıdaki görüntüde, yerel bir depo birden fazla veri kümesi zamanlanmış yenilemeleri başlangıcını geciktirebilir belleğe yüklenen ne zaman bir saat gösterir.
-- Başlatmak için zamanlanan veri yenilemeleri, artan veri kümesi çıkarmaları alma yerleştirin. Çıkarmaları var. yenileme saatten önce çok fazla sayıda farklı etkileşimli raporlar sunarak yüksek bellek baskısı nedeniyle oluştu belirtebilirsiniz. **Saatlik veri kümesi çıkarmaları ve bellek tüketimi** visual çıkarmaları artış açıkça belirtebilirsiniz.
+- Kullanılabilir belleğin, yenilenecek veri kümesinin boyutunun iki katından az olduğu veri yenileme işlemleri.
+- Veri kümelerinin yenilenmemesi ve yenileme öncesi bellek içinde olmaması ancak yoğun yenileme zamanlarında etkileşimli trafik olduğunu göstermesi. Power BI yöneticisi, herhangi bir anda bellek içine yüklenmiş olan veri kümelerini görmek için uygulamanın **Veri Kümeleri** sekmesinin veri kümeleri bölümüne bakabilir. Yönetici daha sonra **Saatlik Yüklenen Veri Kümesi Sayısı** bölümündeki çubuklardan birine tıklayarak belirli bir an için çapraz filtreleme yapabilir. Aşağıdaki görüntüde gösterilen yerel ani artışlar, zamanlanan yenilemelerin başlatılmasını geciktirebilecek şekilde belleğe birden fazla veri kümesinin yüklendiği belirli bir saati göstermektedir.
+- Veri yenileme işlemlerinin başlatılmak üzere zamanlandığı durumlarda gerçekleşen artan veri kümesi çıkarma işlemleri. Çıkarma işlemleri, yenileme öncesinde çok fazla farklı etkileşimli raporun sunulmasından kaynaklanan yüksek bellek baskısı olduğunu gösteriyor olabilir. Çıkarma işlemlerindeki ani artışlar, **Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi** görselinde net bir şekilde görülebilir.
 
-Aşağıdaki görüntüde yüklenen veri kümeleri içinde yerel bir depo gösterilmektedir etkileşimli sorgulama kullandınız, yenilemeleri başlangıcı ertelendi. Bir zaman diliminde seçerek **saatlik yüklenen veri kümesi sayar** visual alanları arası filtre **veri kümesi boyutları** visual.
+Aşağıdaki görüntüde yüklenmiş olan veri kümelerindeki yerel ani artış gösterilmektedir ve bu artış, etkileşimli sorgulardan kaynaklı yenileme gecikmesini gösteriyor olabilir. **Saatlik Yüklenen Veri Kümesi Sayısı** görselinde bir zaman aralığı seçildiğinde **Veri Kümesi Boyutları** görseline çapraz filtreleme uygulanır.
 
-![Yerel bir depo yüklenen veri kümelerinde etkileşimli sorgulama Gecikmeli Başlangıç gecikebilir önerir](media/service-premium-capacity-scenarios/hourly-loaded-dataset-counts.png)
+![Etkileşimli sorgulardan kaynaklı yenileme gecikmesine işaret eden yüklenmiş olan veri kümelerindeki yerel ani artış](media/service-premium-capacity-scenarios/hourly-loaded-dataset-counts.png)
 
-Power BI yönetici olarak başlatmak veri yenileme için kullanılabilir yeterli bellek olduğundan emin olmak için adımları izleyerek bu sorunu çözmek deneyebilirsiniz:
+Power BI yöneticisi, veri kümeleri için yeterli belleğin sağlandığından emin olmak için gerekli adımları atarak bu sorunu çözme girişiminde bulunabilir. Bunun için gerekli adımlar:
 
-- Veri kümesi bağlantı kuruluyor sahipleri ve bunları isteyen kademelendirme ve veri çıkışı boşluk zamanlamaları yenileyin.
-- Veri kümesi azaltma gereksiz panolar veya Pano kaldırarak sorgu yükünü kutucukları, özellikle de satır düzeyinde güvenlik zorlama.
-- Power Query mantıksal iyileştirerek veri yenilemeleri ' hızlandırma. Hesaplanmış sütunları veya tabloları modelleme geliştirin. Veri kümesi boyutları azaltın veya artımlı veri yenileme gerçekleştirmek için daha büyük veri kümelerinden yapılandırın.
+- Veri kümesi sahipleriyle iletişime geçerek veri yenileme işlemlerini aşamalı olarak ve aralarında zaman bırakarak gerçekleştirmelerini istemek.
+- Özellikle satır düzeyinde güvenlik gerektiren gereksiz panoları veya pano kutucuklarını kaldırarak veri kümesi sorgu yükünü azaltmak.
+- Power Query mantığını iyileştirerek veri yenileme işlemlerini hızlandırmak. Hesaplanmış sütunları veya tabloları modelleme süreçlerini geliştirmek. Veri kümesi boyutlarını azaltmak veya daha büyük veri kümelerini artımlı veri yenileme gerçekleştirecek şekilde yapılandırmak.
 
-## <a name="identifying-slow-responding-datasets"></a>Veri kümeleri tanımlayan yavaş yanıt
+## <a name="identifying-slow-responding-datasets"></a>Yavaş yanıt veren veri kümelerini tanımlama
 
-Kullanıcılar belirli raporları açmak için çok uzun sürdü şikayet olduğunda bu senaryoda, bir araştırma başladı ve bazen askıda kalabilir.
+Bu senaryoda kullanıcıların, belirli raporların açılmasının çok uzun sürdüğü ve bazen kilitlendiği yönündeki şikayetleri üzerine bir araştırma başlatılmıştır.
 
-Uygulamada, Power BI yönetici kullanabilir **sorgu süreleri** kötü performansa veri kümeleri, veri kümelerine göre azalan düzende sıralayarak belirlemek için görsel **ortalama süresi**. Veri kümelerinin ne sıklıkta sorgulanır görebilmeniz için bu görsel sorgu sayısı, veri kümesi de gösterir.
+Power BI yöneticisi uygulama içinde **Sorgu Süreleri** görselini kullanarak veri kümelerini **Ortalama Süre** ölçütüne göre azalan sırada sıralayarak performansı en düşük olan veri kümelerini görebilir. Bu görselde ayrıca veri kümesi sorgu sayıları da vardır ve bu sayede veri kümelerinin ne kadar sorgulandığını görebilirsiniz.
 
-![Kötü performansa veri kümeleri](media/service-premium-capacity-scenarios/worst-performing-datasets.png)
+![Performansı en düşük olan veri kümeleri](media/service-premium-capacity-scenarios/worst-performing-datasets.png)
 
-Yönetici başvurabilir **sorgu süre dağılımı** görsel, genel bir kümelenmiş sorgu performansı dağılımını gösterir (< 30ms, = 0 100ms) filtrelenmiş bir dönem. Genellikle, sınav zamanı bir saniye veya daha kısa, çoğu kullanıcı tarafından duyarlı kabul sorgular; uzun süren sorgular, hatalı performans algısı oluşturma eğilimindedir.
+Yönetici, filtrelenen zaman aralığı için kümelenmiş olan sorgu performansının (<= 30 ms, 0-100 ms) genel dağılımını gösteren **Sorgu Süresi Dağılımı** görseline bakabilir. Kullanıcılar genellikle bir saniye veya altında tamamlanan sorguları hızlı olarak kabul eder. Daha uzun süren sorgular, performansın düşük olduğu algısını yaratabilir.
 
-**Saatlik sorgu süre dağılımı** visual ne zaman kapasite performans algılanan bir saatlik sürelere belirlemek Power BI Yöneticisi olarak zayıf sağlar. Daha büyük çubuğunu temsil sorgu süreleri bir saniye içinde daha büyük kullanıcıların kötü performans algılamalarını risk ayırır.
+**Saatlik Sorgu Süresi Dağılımı** görseli, Power BI yöneticisinin kapasitenin kötü olarak algılanmış olabileceği bir saatlik dönemleri belirlemesini sağlar. Çubuğun bir saniyeden uzun süren sorgu sürelerini gösteren bölümleri ne kadar büyük olursa kullanıcıların performansın düşük olduğunu düşünme riski o kadar yüksek olur.
 
-Görsel etkileşimlidir ve bir segmenti çubuk seçildiğinde, karşılık gelen **sorgu süreleri** Tablo rapor sayfasında visual temsil ettiği veri kümelerini göstermek için çapraz filtre. Bu çapraz filtreleme kolayca belirlemek Power BI yönetici, veri kümeleri yavaş yanıt verir.
+Görsel etkileşimlidir ve çubuğun bir bölümü seçildiğinde rapor sayfasındaki karşılık gelen **Sorgu Süreleri** tablo görseline çapraz filtre uygulanarak temsil ettiği veri kümeleri gösterilir. Çapraz filtreleme, Power BI yöneticisinin yavaş yanıt veren veri kümelerini kolayca tanımlamasını sağlar.
 
-Aşağıdaki görüntüde göre filtrelenmiş bir görsel gösterir **saatlik sorgu süresi dağıtımları**, kötü performansa veri kümelerinin bir saatlik demet odaklanan. 
+Aşağıdaki görüntüde **Saatlik Sorgu Süresi Dağılımları** ölçütüyle filtrelenmiş olan ve bir saatlik aralıklarla en düşük performanslı veri kümelerini gösteren bir görsel yer almaktadır. 
 
-![Veri kümeleri gerçekleştirmek daha da kötüsü filtrelenmiş saatlik sorgu süresi dağıtımları visual gösterir](media/service-premium-capacity-scenarios/hourly-query-duration-distributions.png)
+![En düşük performanslı veri kümelerini gösteren filtrelenmiş Saatlik Sorgu Süresi Dağılımları görseli](media/service-premium-capacity-scenarios/hourly-query-duration-distributions.png)
 
-Belirli bir saat timespan zayıf performanslı kümesinde belirlendiğinde, Power BI yönetici kötü performans tarafından aşırı yüklenmiş bir kapasite nedeniyle veya veri kümesini veya raporu nedeniyle kötü tasarlanmış araştırabilirsiniz. Bunlar başvurabilir **sorgu bekleme süreleri** görsel ve tarafından Ortalama Sorgu bekleme süresi azalan sıralama veri kümeleri. Sorguları büyük bir yüzdesini bekliyor, yüksek talep veri kümesi için büyük olasılıkla çok sayıda sorgu bekler neden olur. Ortalama Sorgu bekleme süresi önemli ölçüde ise (> 100 ms), veri kümesini ve en iyi duruma getirme yaptıklarını varsa görmek için raporu gözden geçirmekte olabilir. Örneğin, daha az görsellerin üzerinde rapor sayfaları ya da bir DAX ifadesi iyileştirme verilir.
+Power BI yöneticisi, belirli bir saatin içindeki düşük performanslı veri kümesini belirledikten sonra düşük performansın nedeninin kapasiteye aşırı yüklenilmesinden mi yoksa kötü tasarlanmış veri kümesi ve rapordan mı kaynaklandığını araştırmaya başlayabilir. Yönetici, **Sorgu Bekleme Süreleri** görseline bakarak veri kümelerini azalan ortalama sorgu bekleme süresine göre sıralayabilir. Sorguların büyük bir bölümü bekliyorsa, veri kümesi yüksek talep nedeniyle çok fazla sorguyu bekletiyor olabilir. Ortalama sorgu bekleme süresi önemli bir düzeydeyse (> 100 ms), veri kümesi ve raporu inceleyerek iyileştirme yapılıp yapılamayacağı belirlenebilir. Örneğin ilgili raporun sayfalarındaki görsel sayısı azaltılabilir veya DAX ifadeleri iyileştirilebilir.
 
-![Zayıf performans gösteren veri kümelerini görüntülemek için sorgu bekleme süreleri görsel yardımcı olur](media/service-premium-capacity-scenarios/query-wait-times.png)
+![Sorgu Bekleme Süreleri görseli, düşük performanslı veri kümelerinin belirlenmesine yardımcı olur](media/service-premium-capacity-scenarios/query-wait-times.png)
 
-Sorgu bekleme süresi sırasında olay birikmesine veri kümelerinde birkaç olası nedeni vardır:
+Veri kümelerindeki sorgu bekleme sürelerinin artmasının birden fazla nedeni olabilir:
 
-- Yetersiz modeli tasarımı, ölçü ifadelerini veya hatta rapor Tasarım - katkıda bulunmak tüm koşullar, yüksek düzeyde CPU kullanan sorguları uzun süre çalışan. Bu, CPU iş parçacığı kullanılabilir hale gelir ve en yüksek çalışma saatleri sırasında yaygın olarak görülen bir konvoy etkisi (Düşünme trafiği Başınızı) oluşturabilirsiniz kadar beklenecek yeni sorgular zorlar. **Sorgu beklemeleri** sayfası, veri kümeleri yüksek Ortalama Sorgu bekleme süresini sahip olup olmadığını belirlemek için ana kaynak olacaktır.
-- Çok sayıda eş zamanlı kapasite kullanıcılar (yüz binlerce) aynı rapor veya veri kümesi kullanma. Daha iyi tasarlanmış veri kümeleri, hatalı bir eşzamanlılık eşikten yüksek gerçekleştirebilirsiniz. Bu genellikle diğer veri kümelerini Göster sorgu sayısına yönelik önemli ölçüde daha yüksek bir değer gösteren tek bir veri kümesi tarafından gösterilir (örneğin, bir veri kümesi ile karşılaştırıldığında için 300 K sorgular. < 30 bin sorguları diğer tüm veri kümeleri için). Bu veri kümesi basamaklandırmak başlayacak için bir sorgu bekler, şurada görülebilir noktada **sorgu süreleri** visual.
-- Veri kümeleri içine ve dışına bellek sık geçerken çok yavaş neden sorgulanan aynı anda birçok farklı veri kümeleri. Veri kümesi belleğe yüklendiğinde, yavaş performans sorunu yaşayan kullanıcı sonuçlanır. Onaylamak için Power BI yöneticinize başvurabilir **saatlik veri kümesi çıkarmaları ve bellek tüketimi** görsel, çok sayıda veri kümeleri belleğe yüklenen gösterebilir art arda çıkarıldığına.
+- Uygun olmayan model tasarımı, ölçü ifadeleri ve hatta rapor tasarımı gibi yüksek düzeyde CPU kullanan ve uzun süre çalışan sorgulara neden olabilecek tüm koşullar. Bu durum, yeni sorguların CPU iş parçacıkları müsait duruma gelene kadar beklemesine neden olur ve bir konvoy etkisi yaratabilir (trafik sıkışıklığı gibi düşünebilirsiniz). Bu, yoğun iş saatlerinde sık görülen bir durumdur. Veri kümelerinin ortalama sorgu bekleme süresinin yüksek olup olmadığını belirlemek için öncelikli olarak **Sorgu Beklemeleri** sayfasını incelemeniz gerekir.
+- Bir raporu veya veri kümesini eşzamanlı olarak kullanan kullanıcıların sayısının çok yüksek (yüzlerce veya binlerce) olması. Eşzamanlılık eşiğinin aşılması durumunda iyi tasarlanmış veri kümeleri dahi kötü bir performans sergileyebilir. Bu durum genellikle tek bir veri kümesinin diğer veri kümelerine kıyasla çok daha yüksek bir sorgu sayısına sahip olmasıyla anlaşılabilir (örneğin bir veri kümesine 300 binden fazla sorgu gelirken diğer veri kümelerine gelen sorguların toplamı 30 binden küçük olabilir). Bu veri kümesine gönderilen sorgular belirli bir noktada aksamaya başlayacaktır ve bu durum **Sorgu Süreleri** görselinden takip edilebilir.
+- Birbirinden ayrı birçok veri kümesinin aynı anda sorgulanması nedeniyle belleğe alınan ve atılan veri kümesi sayısının çok olması, bu nedenle belleğin sürekli temizlenmesi. Veri kümesi her seferinde belleğe yüklendiğinden kullanıcılar düşük performansla karşılaşır. Power BI yöneticisi bu durumu doğrulamak için **Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi** görseline bakabilir. Bu görselde belleğe yüklenen çok sayıdaki veri kümesinin sürekli çıkarıldığı gösteriliyor olabilir.
 
-## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Düzensiz yavaş yanıtlanan için nedenleri tanımlayan veri kümeleri
+## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Aralıklı olarak yavaş yanıt veren veri kümeleriyle ilgili nedenleri tanımlama
 
-Kullanıcıların rapor görselleri bazen yavaş yanıt veya yanıt veremez duruma, ancak yazıldıkça yeterince hızlı yanıt veren diğer zamanlarda açıklanan olduğunda bu senaryoda, bir araştırma başladı.
+Bu senaryoda, kullanıcıların görsellerin belirli zamanlarda yavaşlayıp yanıt vermeyi durdurabildiğini ancak onun dışında kabul edilebilir düzeyde hızlı olduğunu belirtmeleri üzerine bir araştırma başlatılmıştır.
 
-Uygulama içinde **sorgu süreleri** bölümü, aşağıdaki şekilde sorunlu veri kümesini bulmak için kullanılan:
+Bu duruma neden olan veri kümesini bulmak için uygulamanın içindeki **Sorgu Süreleri** bölümü kullanılmış ve aşağıdaki adımlar izlenmiştir:
 
-- İçinde **sorgu süreleri** visual yönetici veri kümesini veri kümesi (sorgulanan en üst veri kümeleri başlayarak) tarafından filtrelenir ve çapraz filtre uygulanmış çubuklarında incelenirken **saatlik sorgu dağıtımları** visual.
-- Ne zaman bir tek bir saatlik çubuğu gösterdi önemli değişiklikler, bu veri kümesi için başka bir saatlik çubukları ve tüm sorgu süresi grupları arasındaki oran (örneğin, oranlarla renkler arasında değişikliği önemli ölçüde), bu veri kümesi ara sıra bir değişiklik gösterilen anlamına gelir performans.
-- Zayıf performanslı sorguların düzensiz bir kısmını gösteren bir saatlik çubukları, söz konusu veri kümesi tarafından diğer veri kümelerine etkinlikleri tarafından neden bir gürültülü komşu etkisi burada etkilendiğini bir TimeSpan değeri gösterilir.
+- Yönetici, **Sorgu Süreleri** görselinde veri kümesine göre filtreleme yapmış (en çok sorgulanan veri kümeleriyle başlayarak) ve **Saatlik Sorgu Dağılımları** görselindeki çapraz filtrelenmiş çubukları incelemiştir.
+- Saatlik çubuklardan birinin, tüm sorgu süresi grupları ile veri kümesinin diğer bir saatlik çubukları arasında önemli bir fark göstermesi (örneğin, renkler arasındaki oranların önemli ölçüde değişmesi), veri kümesinin performansının önemli ölçüde değiştiğini gösterir.
+- Düşük performanslı sorguların düzensiz olduğu zamanı gösteren bir saatlik çubuklar, veri kümesinin diğer veri kümelerinin etkinliklerinden kaynaklanan gürültülü komşu etkisine maruz kaldığını göstermektedir.
 
-Bir veri kümesi performans önemli bir setback oluştu burada gösterildiği bir saat 30 Ocak aşağıdaki resim "(3,10s]"yürütme süre demetine. boyutu tarafından belirtilen Bu bir saatlik çubuğunu gürültülü komşu etkisi olası veri kümeleri görünmesini bu süre boyunca, belleğe yüklenmiş tüm veri kümelerini gösterir.
+Aşağıdaki görüntüde "(3,10s]" olan yürütme süresi demetinin boyutu ile veri kümesi performansında önemli bir düşüşün görüldüğü 30 Ocak tarihindeki bir saat gösterilmiştir. Bu bir saatlik çubuğa tıkladığınızda o saat içinde belleğe yüklenmiş olan tüm veri kümeleri gösterilmekte ve gürültülü komşu etkisine neden olan olası veri kümeleri belirtilmektedir.
 
-![Büyük bir bölümü tarafından kötü performans gösteren çubuk](media/service-premium-capacity-scenarios/worst-performing-queries.png)
+![Açık ara en kötü performansı gösteren çubuk](media/service-premium-capacity-scenarios/worst-performing-queries.png)
 
-(Örneğin, sırasında 30 Ocak yukarıdaki resimde) sorunlu bir timespan tanımlandıktan sonra Power BI yönetici tüm veri kümesi filtreleri kaldırın ardından hangi veri kümelerinin bu süre boyunca etkin bir şekilde sorgulandığını belirlemek için yalnızca bu timespan göre filtreleyin. Gürültülü komşu efekt için sabah veri kümesi, genellikle üst sorgulanan veri kümesi veya Ortalama Sorgu en uzun süresi aşağıdakilerden olur.
+Sorunlu bir zaman aralığı belirlendikten (örneğin, yukarıdaki görüntüde 30 Ocak tarihinde) sonra Power BI yöneticisi tüm veri kümesi filtrelerini kaldırıp yalnızca bu zaman aralığına göre filtreleme gerçekleştirerek bu süre içinde etkin olarak sorgulanan veri kümelerini belirleyebilir. Gürültülü komşu etkisinde suçlu olan veri kümesi genellikle en çok sorgulanan veya ortalama sorgu süresi en yüksek olan veri kümesidir.
 
-Bu soruna bir çözüm, veri kümeleri üzerinde farklı Premium kapasite veya veri kümesi boyutu, tüketim gereksinimleri ve veri desenleri yenilerseniz paylaşılan kapasite üzerinde farklı çalışma alanları desteklenir sabah dağıtmak için olabilir.
+Bu sorunu gidermek için sorun yaratan veri kümeleri farklı Premium kapasitelerdeki veya veri kümesi boyutunun, tüketim gereksinimlerinin ve veri yenileme desenlerinin desteklenmesi durumunda paylaşılan kapasitedeki bağımsız çalışma alanlarına dağıtılabilir.
 
-Bu durumun tersi de geçerli olabilir. Power BI yönetici, ne zaman bir veri kümesi sorgu performansını önemli ölçüde artıran kez belirleyin ve sonra ne kayboldu bakın. Bu noktada belirli bilgileri eksikse, ardından, neden olan soruna işaret edecek şekilde yardımcı olabilir.
+Bunun tersi de yapılabilir. Power BI yöneticisi, bir veri kümesinin sorgu performansında önemli artış yaşanan anları belirleyip ardından bunu geriye götüren noktaları tespit edebilir. Bu noktadaki eksik bilgiler de sorunun nedenini bulma konusunda yardımcı olabilir.
 
 ## <a name="determining-whether-there-is-enough-memory"></a>Yeterli bellek olup olmadığını belirleme
 
-Kapasite, iş yüklerini tamamlanması için yeterli bellek olup olmadığını belirlemek için Power BI yöneticinize başvurabilir **tüketilen bellek yüzdelerini** görsel **veri kümeleri** uygulama sekmesinde. **Tüm** (toplam) bellek olup olmadığı, etkin olarak sorgulanan işlenen veya bağımsız olarak belleğe yüklenen veri kümeleri tarafından kullanılan belleği temsil eder. **Etkin** belleği, etkin olarak işlenmekte olan veri kümeleri tarafından kullanılan belleği temsil eder.
+Power BI yöneticisi, kapasitede iş yüklerini tamamlamaya yetecek kadar bellek olup olmadığını belirlemek için uygulamanın **Veri Kümeleri** sekmesindeki **Tüketilen Bellek Yüzdeleri** görseline bakabilir. **Tümü** (toplam) bellek, etkin olarak sorgulanıp sorgulanmadıklarına veya işlenip işlenmediklerine bakılmaksızın belleğe yüklenmiş olan veri kümeleri tarafından tüketilen belleği temsil eder. **Etkin** bellek, etkin olarak işlenen veri kümeleri tarafından tüketilen belleği temsil eder.
 
-Bu, tüm (toplam) arasında bir boşluk gösteren gibi görsel sağlıklı bir kapasitede görünür ve etkin bellek:
+İyi durumdaki bir kapasitede bu görsel aşağıdaki gibi görünür ve Tümü (toplam) ile Etkin bellek arasında fark vardır:
 
-![Sağlıklı bir kapasite tüm (toplam) arasında bir boşluk gösterilir ve etkin bellek](media/service-premium-capacity-scenarios/memory-healthy-capacity.png)
+![İyi durumdaki bir kapasitede Tümü (toplam) ile Etkin bellek arasında fark olacaktır](media/service-premium-capacity-scenarios/memory-healthy-capacity.png)
 
-Bellek baskısı yaşayan bir kapasitede etkin bellek ve yakınsamaya, ek veri kümeleri belleğe daha sonra yüklemek imkansız olduğu anlamına gelen toplam bellek ve aynı görsele açıkça gösterilir. Bu durumda, Power BI yönetici tıklayabilirsiniz **kapasite yeniden** (içinde **Gelişmiş Seçenekler** Yönetim Portalı'nın kapasite ayarları alanının). Kapasite sonuçları, tüm veri kümeleri olduğu bellekten Temizlenen ve bunları belleğe gerektirdiği (yenileme) sorguları veya veri olarak yeniden yüklemek izin verme yeniden başlatılıyor.
+Bellek baskısı yaşayan bir kapasitede aynı görsel, etkin bellekle toplam belleğin birbirine yakın olduğunu ve belleğe ek veri kümesi yüklemenin mümkün olmadığını gösterecektir. Power BI yöneticisi böyle bir durumda **Kapasite Yeniden Başlatma**'ya (yönetim portalının kapasite ayarları sayfasındaki **Gelişmiş Seçenekler** menüsünde) tıklayabilir. Kapasitenin yeniden başlatılması durumunda bellekteki tüm veri kümeleri boşaltılır ve ihtiyaç duyulanlar (sorguyla veya veri yenileme işlemiyle) belleğe yeniden yüklenir.
 
-![** İle yakınsamaya etkin ** bellek ** tüm ** bellek](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
+![**Etkin** bellek ile **Tümü** birbirine yakın](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
 ## <a name="determining-whether-there-is-enough-cpu"></a>Yeterli CPU olup olmadığını belirleme
 
-Genel olarak, kapasite 's ortalama CPU kullanımı % 80 aşağısına kalmalıdır. Bu değer aşan CPU doygunluğu kapasitesine yaklaşıyor anlamına gelir.
+Bir kapasitenin ortalama CPU kullanımı genellikle %80'in altında olmalıdır. Bu değerin aşılması, kapasitenin CPU doyma noktasına yaklaştığı anlamına gelir.
 
-CPU doygunluğu etkilerini, işlemler, tüm işlemleri işlemek çalışır gibi çok sayıda CPU bağlamları geçiş gerçekleştirme kapasite nedeniyle gereken daha uzun sürüyor. ifade edilir. Çok sayıda eş zamanlı sorguları ile Premium kapasitede, bu yüksek sorgu bekleme süresini tarafından belirtilir. Normalden daha yavaş yanıt hızı yüksek sorgu bekleme süresini bir sonucu var. CPU görüntüleyerek Doygunluk düzeyine ne zaman Power BI yönetici kolayca tanımlayabilirsiniz **saatlik sorgu bekleme süresi dağıtımları** visual. Dönemsel en yüksek sayılar sorgu bekleme süresi olası CPU doygunluğu sayılarını gösterir.
+CPU'nun doyma noktasına gelmesi durumunda, kapasitenin tüm işlemleri gerçekleştirme amacıyla birçok CPU bağlam değiştirme işlemi gerçekleştirmesi nedeniyle işlemler normalden daha uzun sürecektir. Bu durum, çok sayıda eşzamanlı sorguya sahip olan bir Premium kapasitede sorgu bekleme sürelerinin uzamasına neden olacaktır. Sorgu bekleme sürelerinin uzun olması da yanıtların daha yavaş gelmesi olacaktır. Power BI yöneticisi, **Saatlik Sorgu Bekleme Süresi Dağılımı** görselini görüntüleyerek CPU doyma noktasına geldiği zamanları kolayca tanımlayabilir. Sorgu bekleme süresi sayılarının düzenli aralıklarla zirve yapması olası CPU doyma noktasına işaret eder.
 
-![Dönemsel en yüksek sayılar sorgu bekleme süresi olası CPU doygunluğu sayılarını gösterir](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
+![Sorgu bekleme süresi sayılarının düzenli aralıklarla zirve yapması olası CPU doyma noktasına işaret eder](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
-Bunlar için CPU doygunluğu katkıda, benzer bir desen bazen arka plan işlemlerinde algılanabilir. Power BI yönetici düzenli bir depo için CPU doygunluğu zaman (büyük olasılıkla diğer devam eden bir veri kümesini yenilemeleri ve/veya etkileşimli sorgular nedeniyle) belirtebilirsiniz. belirli bir dataset için yenileme zamanları bakabilirsiniz. Bu örnekte, söz konusu **sistem** uygulama görünümünde mutlaka açığa CPU'nun % 100 olduğundan. **Sistem** görüntüleyen saatlik ortalamalar, ancak CPU yoğun işlem birkaç dakika içinde bekleme süresini ani gösterilir, doygun.
+Benzer bir durum, CPU'nun doyma noktasına gelmesine katkıda bulunan arka plan işlemleri olması halinde de ortaya çıkabilir. Power BI yöneticisi, belirli bir veri kümesinin yenileme sürelerindeki aralıklı ani artışları gözlemleyebilir. Bu değer, devam eden veri kümesi yenileme işlemleri ve/veya etkileşimli sorgular nedeniyle CPU'nun doyma noktasına geldiğini gösterebilir. Bu örnekte uygulamanın **Sistem** görünümünde CPU'nun %100 olduğu gösterilmeyebilir. **Sistem** görünümü saatlik ortalama değerleri gösterir ancak CPU, yoğun işlemler nedeniyle birkaç dakika boyunca doyma noktasına ulaşabilir ve bu da bekleme sürelerinde ani artışlar olarak görülebilir.
 
-CPU doygunluğu etkisini görmek için daha fazla küçük farklar vardır. Bekleme sorguların sayısını önemli olsa da, sorgu bekleme süresi her zaman bir dereceye kadar Ölçek performans düşüşüne neden olmadan gerçekleşir. Bazı veri kümeleri (ile karmaşıklığı ya da boyutunu gösteren daha uzun Ortalama Sorgu süresini) diğerlerinden daha fazla CPU doygunluğu etkilerini fazladır. Bu veri kümelerini kolayca belirlemek için Power BI yönetici değişiklikleri çubukların rengini birleşimde arayabilirsiniz **bekleyin saatlik zaman dağıtım** visual. Aykırı çubuğu kapsamlı sonra bunlar sorgu beklediği sırada olan veri kümeleri için bakın ve Ortalama Sorgu süresi ile karşılaştırıldığında Ortalama Sorgu bekleme zaman da bakın. Bu iki ölçüm aynı büyüklük ve veri kümesi için sorgu iş yükü Önemsiz olduğundan, veri kümesi tarafından yetersiz CPU etkilenir olasıdır.
+CPU'nun doyma noktasına gelmesinin etkileri farklı şekillerde de gözlemlenebilir. Bekleyen sorgu sayısı önemlidir ancak performansta önemli bir düşüş yaşanmadan sorgu bekleme süreleri de uzayabilir. Bazı veri kümeleri (karmaşık veya büyük olması nedeniyle ortalama sorgu süresi daha uzun olanlar), CPU'nun doyma noktasına gelmesi etkisine diğerlerinden daha açıktır. Power BI yöneticisi bu veri kümelerini kolayca tanımlamak için **Saatlik Bekleme Süresi Dağılımı** görselindeki çubukların renklerinde gerçekleşen değişimleri inceleyebilir. Bir aykırı değer çubuğu gören yönetici, bu zaman aralığında sorgu bekleten veri kümelerini inceleyebilir ve ayrıca ortalama sorgu süresiyle ortalama sorgu bekleme süresini karşılaştırabilir. Bu iki ölçüm aynı değere sahipse ve veri kümesinin sorgu iş yükü önemsiz düzeydeyse veri kümesinin CPU değeri yetersiz olabilir.
 
-Bir veri kümesi her veri bloğu sırasında CPU doygunluğu výsledek kısa ani artışlara yüksek sıklık düzeyi sorgular (örneğin, bir oturumda eğitim), birden çok kullanıcı tarafından tüketilen bu etki özellikle görünür olabilir. Bu durumda, bu veri kümesi üzerinde önemli bir sorgu bekleme süresini (gürültülü komşu etkisi) kapasite diğer veri kümelerinde etkileyen yanı sıra yaşadı.
+Bu etki özellikle veri kümesinin birden fazla kullanıcıdan gelen yüksek yoğunluklu sorgularla ve kısa süreli ani artışlarla tüketilmesi (eğitim oturumu gibi), bu nedenle de her ani artışta CPU'nun doyma noktasına ulaşması durumunda görülebilir. Bu durumda bu veri kümesinde uzun sorgu bekleme süreleri yaşanabilir ve bu durum kapasitedeki diğer veri kümelerini de etkileyebilir (gürültülü komşu etkisi).
 
-Bazı durumlarda, Power BI yöneticileri veri kümesi sahipleri daha az oluşturmak isteyebilirsiniz (düzenli aralıklarla herhangi bir veri kümesi ile hangi sorguların yenilemek için önbelleğe alınan kutucuklar) bir Pano yerine bir rapor oluşturarak geçici sorgu iş yükü. Bu, Pano yüklendiğinde ani önlemeye yardımcı olabilir. CPU doygunluğu, veri kümesine değiştirme yapmadan önlemek için verimli bir yöntem olabilir ancak bu çözümü her zaman iş gereksinimlerini mümkün olmayabilir.
+Bazı durumlarda Power BI yöneticileri, veri kümesi sahiplerinin rapor yerine pano (önbelleğe alınmış kutucuklar için veri kümesi yenileme işlemleriyle ve belirli aralıklarla sorgu gönderen) oluşturmalarını sağlayarak daha az geçici sorgu iş yükü oluşturmasını isteyebilir. Bu durum, pano yüklendiğinde karşılaşılan ani artışların engellenmesine yardımcı olabilir. Bu çözüm her zaman iş gereksinimlerine uygun olmayabilir ancak veri kümesinde değişiklik yapmadan CPU'nun doyma noktasına gelmesinden kaçınmanın etkili bir yolu olabilir.
 
-## <a name="acknowledgements"></a>Onayları
+## <a name="acknowledgements"></a>Bildirimler
 
-Bu makale, Peter Myers, veri platformu MVP ve bağımsız BI Uzmanı ile yazılmıştır [Bitsel çözümleri](https://www.bitwisesolutions.com.au/).
+Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 > [!div class="nextstepaction"]
-> [Premium kapasiteler uygulaması ile izleme](service-admin-premium-monitor-capacity.md)    
+> [Uygulama ile Premium kapasiteleri izleme](service-admin-premium-monitor-capacity.md)    
 > [!div class="nextstepaction"]
-> [Yönetim Portalı'nda izleme kapasiteleri](service-admin-premium-monitor-portal.md)   
+> [Yönetim portalında kapasiteleri izleme](service-admin-premium-monitor-portal.md)   
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

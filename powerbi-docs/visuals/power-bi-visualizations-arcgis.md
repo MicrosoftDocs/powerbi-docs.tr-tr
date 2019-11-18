@@ -2,7 +2,6 @@
 title: Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma
 description: Power BI rapor tüketicisi olarak okuma görünümünde ArcGis haritasını kullanma
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,15 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
-ms.openlocfilehash: 7fef2c96afadad6fe39d731038f74249a4ccbf6d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 85a5f50bbccd22041bb035d14b16e4f8b76a3f7b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432312"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880719"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
-Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde *kullanan* bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](../visuals/power-bi-visualization-arcgis.md) başvurabilirsiniz.
+Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde kullanan bir kişinin bakış açısından yazılmıştır. Oluşturan kişi sizinle bir ArcGIS haritası paylaştığında, haritayla etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları eğitimine](../visuals/power-bi-visualization-arcgis.md) başvurabilirsiniz.
 
 ArcGIS haritaları ile Power BI'ın birleşimi, eşlemeyi haritada belirli noktaları göstermekten öteye götürüp yepyeni bir düzeye çıkarıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için kullanabileceğiniz seçenekler arasında temel haritalar, konum türleri, temalar, simge stilleri ve başvuru katmanları bulunur. Uzamsal analiz içeren bir haritadaki yetkili veri katmanlarının (nüfus sayımı verileri gibi) birleşimi, görselleştirmenizdeki verilerin daha derinlemesine anlaşılmasını sağlar.
 
@@ -28,33 +27,33 @@ ArcGIS haritaları ile Power BI'ın birleşimi, eşlemeyi haritada belirli nokta
 
 Kullandığımız örnek, geçen yılın satışlarını şehre göre inceler ve boyutu ifade etmek için bir sokak temel haritası ve kabarcık sembolleri, ortalama hane halkı geliri içinse bir başvuru katmanı kullanır. Harita, 3 raptiye ve bir sürüş süresi yarıçapı (mor renkte) içerir.
 
-![](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
+![Kabarcıklar, raptiyeler ve sürüş süresi gösteren ABD ArcGIS haritası](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
 
 > [!TIP]
-> Birçok örneğe bakmak ve referansları okumak için [Esri'nin Power BI sayfasını](https://www.esri.com/powerbi) ziyaret edin. Ardından Esri'nin [ArcGIS Maps for Power BI ile Çalışmaya Başlama sayfasına](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) bakın.
+> Birçok örneğe göz atmak ve referansları okumak için [Esri'nin Power BI sayfasını](https://www.esri.com/powerbi) ziyaret edin. Ardından Esri'nin [ArcGIS Maps for Power BI ile Çalışmaya Başlama sayfasına](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) bakın.
 > 
 > 
 
 <br/>
 
 ## <a name="user-consent"></a>Kullanıcı onayı
-Bir iş arkadaşınız sizinle ilk defa ArcGIS haritası paylaştığında Power BI, ekranda bir komut istemi görüntüler. ArcGIS Maps for Power BI, Esri (www.esri.com) tarafından sağlanır ve ArcGIS Maps for Power BI’ı kullanımınız Esri'nin koşullarına ve gizlilik ilkesine tabidir. ArcGIS Maps for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının onay iletişim kutusunu kabul etmesi gerekir.
+Bir iş arkadaşınız sizinle ilk defa ArcGIS haritası paylaştığında Power BI, ekranda bir komut istemi görüntüler. ArcGIS Maps for Power BI, Esri (https://www.esri.com) ) tarafından sağlanmakta olup ArcGIS Maps for Power BI'ın kullanımı için Esri'nin şartları ve gizlilik ilkesi geçerlidir. ArcGIS Maps for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının onay iletişim kutusunu kabul etmesi gerekir.
 
 ## <a name="selection-tools"></a>Seçim araçları
 ArcGIS Maps for Power BI üç seçim modu sunar. Aynı anda en fazla 250 veri noktası seçilebilir.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
+![Üç seçim aracının ekran görüntüsü](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) Tek tek veri noktalarını seçer.
+![tek seçim aracının ekran görüntüsü](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) Tek tek veri noktalarını seçin.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) Harita üzerinde bir dikdörtgen çizer ve içerdiği veri noktalarını seçer. Birden fazla dikdörtgen alan seçmek için CTRL tuşunu kullanın.
+![çoklu seçim aracı](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) Harita üzerinde bir dikdörtgen çizer ve içerdiği veri noktalarını seçer. Birden fazla dikdörtgen alan seçmek için CTRL tuşunu kullanın.
 
-![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) İçindeki veri noktalarını seçmek için, kullanılan başvuru katmanlarında sınırlara veya çokgenlere izin verir.
+![sınırlar için üçüncü seçim aracı](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) Referans katmanlarındaki sınırların veya çokgenlerin, kapsanan veri noktalarının seçilmesi için kullanılmasına olanak sağlar.
 
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Bir ArcGIS haritasıyla etkileşim kurma
-Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluşturan kişi) ya da *kullanıcısı* (ArcGIS haritası sizinle paylaşıldığında) olmanıza göre farklılık gösterebilir. Bir ArcGIS haritası ile kullanıcı olarak etkileşim kuruyorsanız (bir başka deyişle [Okuma görünümü](../consumer/end-user-reading-view.md)) aşağıdaki işlemleri gerçekleştirebilirsiniz.
+Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluşturan kişi) ya da *kullanıcısı* (ArcGIS haritası sizinle paylaşıldığında) olmanıza göre farklılık gösterebilir. Bir ArcGIS haritası ile kullanıcı olarak etkileşim kuruyorsanız ([Okuma görünümü](../consumer/end-user-reading-view.md) olarak da bilinir) aşağıdaki işlemleri gerçekleştirebilirsiniz.
 
 * *Görüntüleme* izinlerine sahip bir Premium tüketiciyseniz [görselleştirmeyi oluşturmak için kullanılan verileri görüntüleyebilir](../consumer/end-user-show-data.md) , [abone olabilir](../consumer/end-user-subscribe.md), haritayı [Odak modunda ve tam ekran modunda](../consumer/end-user-focus.md) görebilir, [ilgili içeriği görüntüleyebilir](../consumer/end-user-related.md), *rapor oluşturucusu* tarafından ayarlanan [filtrelerle etkileşim kurabilir](../consumer/end-user-report-filter.md), [Raporu paylaşabilir](../service-share-reports.md) ve çok daha fazlasını yapabilirsiniz.
 
@@ -62,28 +61,28 @@ Kullanabileceğiniz özellikler, haritanın *oluşturucusu* (haritayı oluştura
 
     
 * Filtre kullanarak haritada gezmek için **Filtreler** bölmesini genişletin.   
-    ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
+    ![Filtreler bölmesi](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
 * Haritada başvuru katmanı olması durumunda bir araç ipucunda ayrıntıları görüntülemek için konumları seçin. Bu örnekte Adams County'yi seçtik ve haritayı oluşturan tarafından haritaya eklenen ortalama hane halkı geliri başvuru katmanı verilerini görüntüledik.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
+    ![Adams County araç ipucu](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
   
     Bu örnekte ayrıca grafik de elde ediyoruz. Veriyi daha derinlemesine incelemek için grafik üzerinde bulunan bir çubuğu seçin. Burada Adams ilçesinde bulunan 79 hanenin 200.000 Dolar veya üzerinde kazandığını görüyoruz.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
+    ![Özgün araç ipucu grafiğindeki bir çubuk için araç ipucu](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
   
     Ek grafikleri görüntülemek için oku seçin.
 * Bir araç ipucundaki ayrıntıları görüntülemek için temel harita konumu sembolleri üzerine gelin.     
-  ![](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
+  ![konum araç ipucu](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
   
   > [!TIP]
   > Belirli bir konum seçmek için yakınlaştırmanız gerekebilir.  Diğer durumlarda, çakışan konumlar söz konusuysa Power BI size bir seferde 1 adetten fazla araç ipucu sunabilir. Araç ipuçları arasında hareket etmek için okları seçin
   > 
-  > ![](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
+  > ![Üç sayfa gösteren araç ipucu](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
   > 
   > 
 * Haritayı oluşturan kişinin ArcGIS haritasına İnfografik katmanı eklemesi durumunda haritanın sağ üst köşesinde ek veri görüntülendiğini görebilirsiniz.  Örneğin, haritayı oluşturan kişi burada "Children under 14" (14 yaşın altındaki çocuklar) bilgisi eklemiştir.
   
-    ![](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
+    ![İnfografik katmanı içeren harita](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabilir:
@@ -117,7 +116,7 @@ ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabil
 </table>
 
 **ArcGIS Maps for Power BI birlikte nasıl çalışır?**
-ArcGIS Maps for Power BI, Esri (www.esri.com) tarafından sağlanmaktadır. ArcGIS Maps for Power BI kullanımınız Esri'nin [koşullarına](https://go.microsoft.com/fwlink/?LinkID=8263222) ve [gizlilik ilkesine](https://go.microsoft.com/fwlink/?LinkID=826323) tabidir. ArcGIS Maps for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının, onay iletişim kutusunu kabul etmesi gerekir (ayrıntılı bilgi için bkz. Kullanıcı Onayı).  Esri tarafından sağlanan ArcGIS Maps for Power BI’ın kullanımı, Esri’nin Koşullarına ve Gizlilik İlkesine tabidir. Bunların bağlantıları, onay iletişim kutusunda da belirtilir. Her kullanıcı ArcGIS Maps for Power BI’ı ilk kez kullanmadan önce onay vermelidir. Kullanıcı, onayı kabul ettikten sonra görsele bağlı veriler en azından coğrafi kodlama (konum bilgilerini bir haritada gösterilebilen enlem ve boylam bilgilerine dönüştürme) için Esri’nin hizmetlerine gönderilir. Veri görselleştirmesine bağlı tüm verilerin Esri’nin hizmetlerine gönderilebildiğini varsaymanız gerekir. Esri; altlık haritalar, uzamsal analiz ve coğrafi kodlama gibi hizmetler sunar. ArcGIS Maps for Power BI görseli, sağlanan bir sertifika ile korunan ve Esri tarafından bakımı yapılan bir SSL bağlantısını kullanarak bu hizmetlerle etkileşime geçer. ArcGIS Maps for Power BI hakkında ek bilgilere Esri’nin [ArcGIS Maps for Power BI ürün sayfasından](https://www.esri.com/powerbi) ulaşılabilir.
+ArcGIS Maps for Power BI, Esri (https://www.esri.com) ) tarafından sağlanmaktadır. ArcGIS Maps for Power BI kullanımınız Esri'nin [koşullarına](https://go.microsoft.com/fwlink/?LinkID=8263222) ve [gizlilik ilkesine](https://go.microsoft.com/fwlink/?LinkID=826323) tabidir. ArcGIS Maps for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının, onay iletişim kutusunu kabul etmesi gerekir (ayrıntılı bilgi için bkz. Kullanıcı Onayı).  Esri tarafından sağlanan ArcGIS Maps for Power BI’ın kullanımı, Esri’nin Koşullarına ve Gizlilik İlkesine tabidir. Bunların bağlantıları, onay iletişim kutusunda da belirtilir. Her kullanıcı ArcGIS Maps for Power BI’ı ilk kez kullanmadan önce onay vermelidir. Kullanıcı, onayı kabul ettikten sonra görsele bağlı veriler en azından coğrafi kodlama (konum bilgilerini bir haritada gösterilebilen enlem ve boylam bilgilerine dönüştürme) için Esri’nin hizmetlerine gönderilir. Veri görselleştirmesine bağlı tüm verilerin Esri’nin hizmetlerine gönderilebildiğini varsaymanız gerekir. Esri; altlık haritalar, uzamsal analiz ve coğrafi kodlama gibi hizmetler sunar. ArcGIS Maps for Power BI görseli, sağlanan bir sertifika ile korunan ve Esri tarafından bakımı yapılan bir SSL bağlantısını kullanarak bu hizmetlerle etkileşime geçer. ArcGIS Maps for Power BI hakkında ek bilgilere Esri’nin [ArcGIS Maps for Power BI ürün sayfasından](https://www.esri.com/powerbi) ulaşılabilir.
 
 **Power BI Plus**    
 ![Plus simgesini seçerek kaydolun veya oturum açın](media/power-bi-visualizations-arcgis/power-bi-plus.png)

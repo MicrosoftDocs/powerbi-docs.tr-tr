@@ -2,7 +2,6 @@
 title: Power BI ile kullanılabilen örneklerde gezinin
 description: Power BI için örnek içerik paketleri, PBIX dosyaları ve Excel veri kümeleri
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721490"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858982"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Veya bir veri kümeniz olabilir. Henüz Power BI'ın nasıl çalıştığını bilmediğiniz için veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
@@ -116,16 +115,16 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
 ## <a name="the-power-bi-samples-as-excel-files"></a>Excel dosyaları olarak sunulan Power BI örnekleri
 Örnek içerik paketlerinden her biri aynı zamanda Excel çalışma kitabı olarak da kullanılabilir. Excel çalışma kitapları, Power BI hizmetiyle kullanılacak şekilde tasarlanmıştır.  
 
-1. Aşağıdaki bağlantıları kullanarak dosyaları tek tek veya [tüm örnek dosyalarını içeren bir zip dosyası halinde indirin](http://go.microsoft.com/fwlink/?LinkId=535020). İleri düzeyde bir kullanıcıysanız veri modellerini araştırmak veya düzenlemek için Excel çalışma kitaplarını indirmeyi tercih edebilirsiniz.
+1. Aşağıdaki bağlantıları kullanarak dosyaları tek tek veya [tüm örnek dosyalarını içeren bir zip dosyası halinde indirin](https://go.microsoft.com/fwlink/?LinkId=535020). İleri düzeyde bir kullanıcıysanız veri modellerini araştırmak veya düzenlemek için Excel çalışma kitaplarını indirmeyi tercih edebilirsiniz.
 
-   * [Perakende Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Tedarikçi Kalite Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [İnsan Kaynakları Örneği](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [Müşteri Kârlılığı Örneği](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [Fırsat İzleme Örneği](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [BT Harcama Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [Tedarik Analizi Örneği](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [Satış ve Pazarlama Örneği](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [Perakende Analizi Örneği](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [Tedarikçi Kalite Analizi Örneği](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [İnsan Kaynakları Örneği](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [Müşteri Kârlılığı Örneği](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [Fırsat İzleme Örneği](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [BT Harcama Analizi Örneği](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [Tedarik Analizi Örneği](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [Satış ve Pazarlama Örneği](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. İndirdiğiniz dosyayı kaydedin. Dosyayı kaydettiğiniz yer önemlidir.
 
    * ![Yerel](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI’ı kullanarak dosyanızı Power BI’a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
@@ -154,7 +153,7 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
 
     ![İçeri Aktar veya Bağlan](media/sample-datasets/power-bi-import.png)
 9. **İçeri aktar** seçeneğini belirlemeniz durumunda Power BI, örnek çalışma kitabını içeri aktarır **Tedarik Analizi Örneği** adında yeni bir veri kümesi olarak ekler.  Çalışma kitabında herhangi bir Power View sayfası, tablo veya aralık ya da veri modeli varsa Power BI bir rapor (aynı ada sahip) da oluşturur. Ayrıca, açık bir panoya sahip olmamanız halinde Power BI tarafından yeni bir pano oluşturulur. (**Veri Al** seçeneğine tıkladığınız sırada bir panonuz açıksa bu panoda yeni bir boş kutucuk görürsünüz.  Bu kutucuğa tıkladığınızda, yeni eklediğiniz veri kümesine ilişkin rapora yönlendirilirsiniz.) Yeni içerik örneğin adını alır ve sarı yıldızla işaretlenir.
-10. **Veri kümeniz hazır!** ekranı göründüğünde, **Veri kümesini görüntüle** veya **Hızlı Öngörüler Alın** seçeneğini belirleyin ya da Power BI'daki sol gezinti çubuğunuzu kullanarak ilişkili raporu ya da panoyu bulup açın.  
+10. **Veri kümeniz hazır!** ekranı göründüğünde, **Veri kümesini görüntüle** veya **Hızlı İçgörüler Alın** seçeneğini belirleyin ya da Power BI'daki gezinti bölmenizi kullanarak ilişkili raporu ya da panoyu bulup açın.  
 
      ![Veri kümesini görüntüle](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 
 1. Aşağıdaki bağlantıları kullanarak dosyaları tek tek indirebilirsiniz. Bu bağlantıların seçilmesi dosyayı otomatik olarak İndirilenler klasörünüze kaydeder. 
 
-   * [Perakende Analizi Örneği PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [Tedarikçi Kalite Analizi Örneği PBIX](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [Perakende Analizi Örneği PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Tedarikçi Kalite Analizi Örneği PBIX](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [İnsan Kaynakları Örneği PBIX](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [Müşteri Kârlılığı Örneği PBIX](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [Fırsat İzleme Örneği PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [BT Harcama Analizi Örneği PBIX](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [Tedarik Analizi Örneği PBIX](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [Satış ve Pazarlama Örneği PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [İnsan Kaynakları Örneği PBIX](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Müşteri Kârlılığı Örneği PBIX](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Fırsat İzleme Örneği PBIX](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [BT Harcama Analizi Örneği PBIX](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Tedarik Analizi Örneği PBIX](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Satış ve Pazarlama Örneği PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. Power BI Desktop'ta **Dosya > Aç** seçeneğini belirleyin ve örnek .pbix dosyasını kaydettiğiniz konuma gidin.
 
@@ -198,4 +197,4 @@ Bir Excel çalışma kitabındaki verilerin Power BI veri kümelerine ve raporla
 
 [Power BI için veri kaynakları](service-get-data.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

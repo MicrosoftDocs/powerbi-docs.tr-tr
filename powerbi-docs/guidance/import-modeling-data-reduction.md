@@ -2,19 +2,18 @@
 title: İçeri Aktarma modellemesi için veri azaltma teknikleri
 description: İçeri Aktarma modellerine yüklenen verileri azaltmaya yardımcı olmak için farklı teknikleri anlayın.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 794ded1bc310cfcecc609f48ee4f0595693ceeb3
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69520192"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875618"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 
@@ -29,7 +28,7 @@ VertiPaq depolama motoruyla elde edilen verimliliklere karşın, modellerinize y
 - Daha küçük modeller daha hızlı veri yinelemesi sağladığından düşük gecikme süreli raporlama, daha yüksek veri kümesi yenileme işleme hızı ve kaynak sistemle kapasite kaynakları üzerinde daha az baskı sonucu verir.
 - Tablo satır sayısının daha az olması daha hızlı hesaplama değerlendirmeleri sonucu verebildiğinden bir bütün olarak sorgu performansını artırabilir.
 
-Bu makalede yedi farklı veri azaltma tekniği ele alınmıştır. Bu modüller şunlardır:
+Bu makalede sekiz farklı veri azaltma tekniği ele alınmıştır. Bu modüller şunlardır:
 
 - [Gereksiz sütunları kaldırma](#remove-unnecessary-columns)
 - [Gereksiz satırları kaldırma](#remove-unnecessary-rows)
@@ -37,6 +36,7 @@ Bu makalede yedi farklı veri azaltma tekniği ele alınmıştır. Bu modüller 
 - [Sütun veri türlerini iyileştirme](#optimize-column-data-types)
 - [Özel sütunlar tercihi](#preference-for-custom-columns)
 - [Power Query sorgu yükünü devre dışı bırakma](#disable-power-query-query-load)
+- [Otomatik tarih/saati devre dışı bırakma](#disable-auto-datetime)
 - [Karma moda geçiş](#switch-to-mixed-mode)
 
 ## <a name="remove-unnecessary-columns"></a>Gereksiz sütunları kaldırma
@@ -85,6 +85,10 @@ Power Query'de özel sütunlar oluşturmanın tercih edilmesi gerekir. Kaynak bi
 Diğer sorgularla veri tümleştirmesini desteklemesi hedeflenen Power Query sorguları modele yüklenmemelidir. Sorgunun modele yüklenmesini önlemek için bu örneklerde sorgu yüklemesinin devre dışı bırakıldığından emin olun.
 
 ![Power Query sorgusu için yükü devre dışı bırakma](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+
+## <a name="disable-auto-datetime"></a>Otomatik tarih/saati devre dışı bırakma
+
+Power BI Desktop'ta _Otomatik tarih/saat_ olarak adlandırılan bir seçenek mevcuttur. Bu seçenek etkinleştirildiğinde takvim süreleri için filtreleme, gruplama ve detaylandırma yapılandırma aşamalarında rapor yazarlarına destek olma amacıyla tarih sütunları için gizli bir otomatik tarih/saat tablosu oluşturur. Gizli tablolar gerçekte hesaplanmış tablolardır ve modelin boyutunu artıracaktır. Bu seçeneği kullanma hakkında bilgi edinmek için [Power BI Desktop'ta otomatik tarih/saat kılavuzu](../desktop-auto-date-time.md) makalesine bakın.
 
 ## <a name="switch-to-mixed-mode"></a>Karma moda geçiş
 

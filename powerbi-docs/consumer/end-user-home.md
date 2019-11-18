@@ -2,7 +2,6 @@
 title: Power BI hizmetinde içerik bulma
 description: Giriş tuvalinden başlayıp raporları, panoları ve uygulamaları bulun ve açın.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d97b5a93060869d65de6652af869b472baf8cd10
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: b905b738dc9fa38e390a94fb1b893aba8e45a0db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71077796"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863710"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 Power BI’da, *içerik* terimi uygulamaları, panoları ve raporları belirtir. Power BI *tasarımcıları* içerikleri oluşturup sizinle ve diğer iş arkadaşlarıyla paylaşır. İçeriğiniz, Power BI hizmetinden erişilebilir ve buradan görüntülenebilir. Power BI’da çalışmaya başlamak için en iyi yer, giriş sayfanızdır.
@@ -28,7 +27,7 @@ Oturum açtığınızda Power BI açılır ve aşağıdaki şekilde gösterildi�
 Power BI Giriş, içeriğinizi bulmanız ve görüntülemeniz için üç farklı yol sunar. Her üç yöntem de aynı içerik havuzuna erişir. Bunlar, aynı içeriğe erişmenizi sağlayan üç farklı yöntemdir. Bazen, bir öğeyi bulmanın en kolay ve en hızlı yolu öğeyi aramak bazen de Giriş tuvalindeki bir *kartı* seçmek olabilir.
 
 - Giriş tuvali, en sık ve en son kullandığınız içeriklerin yanı sıra önerilen içerikleri ve öğrenme kaynaklarını görüntüleyip düzenler. Her içerik parçası, bir başlığı ve simgesi bulunan *kartlar* halinde görüntülenir. Kart seçildiğinde içerik açılır.
-- Sol tarafta, gezinti çubuğu olarak adlandırılan gezinti bölmesi bulunur. Bu bölmede içerik aynıdır ancak farklı şekilde düzenlenmiştir (Sık Kullanılanlar, Son Kullanılanlar, Uygulamalar ve Benimle Paylaşılanlar). Buradan, içerik listesini görüntüleyebilir ve açmak için birini seçebilirsiniz.
+- Sol tarafta, gezinti bölmesi olarak adlandırılan gezinti bölmesi bulunur. Bu bölmede içerik aynıdır ancak farklı şekilde düzenlenmiştir (Sık Kullanılanlar, Son Kullanılanlar, Uygulamalar ve Benimle Paylaşılanlar). Buradan, içerik listesini görüntüleyebilir ve açmak için birini seçebilirsiniz.
 - Sağ üst köşede yer alan genel arama kutusu, içeriği başlığa, ada veya anahtar sözcüğe göre aramanıza olanak tanır.
 
 Aşağıdaki konular, içeriği bulmaya ve görüntülemeye yönelik seçeneklerin her birini ele alır.
@@ -65,23 +64,23 @@ Power BI, etkinliklerinize ve hesap ayarlarınıza bağlı olarak bir dizi öner
 ### <a name="learning-resources"></a>Öğrenme kaynakları
 Giriş tuvalinin alt kısmında çeşitli öğrenme kaynakları yer alır. Bunlar, Power BI yöneticisindeki etkinliklerinize ve ayarlarınıza bağlı olarak görüntülenen kaynaklardır. 
  
-## <a name="explore-the-navigation-pane-nav-bar"></a>Gezinti bölmesini (gezinti çubuğunu) keşfetme
+## <a name="explore-the-nav-pane"></a>Gezgin bölmesini keşfedin
 
-![Power BI hizmeti gezinti çubuğunun ekran görüntüsü.](media/end-user-home/power-bi-nav-bar.png)
+![Power BI hizmeti gezinti bölmesinin ekran görüntüsü.](media/end-user-home/power-bi-nav-bar.png)
 
 
-Panoları, raporları ve uygulamaları bulup bunların arasında geçiş yapmak için sol gezinti bölmesini (gezinti çubuğunu) kullanın. Gezinti çubuğunun kullanılması, bazen içeriğe erişmenin en hızlı yolu olabilir.
-Gezinti çubuğu, Giriş sayfanızı açtığınızda görünür ve Power BI hizmetinin diğer alanlarını açtıkça statik olarak kalır.
+Panoları, raporları ve uygulamaları bulup bunların arasında geçiş yapmak için gezinti bölmesini kullanın. Gezinti bölmesinin kullanılması, bazen içeriğe erişmenin en hızlı yolu olabilir.
+Gezinti bölmesi, Giriş sayfanızı açtığınızda görünür ve Power BI hizmetinin diğer alanlarını açtıkça statik olarak kalır.
   
-Gezinti çubuğu, içeriğinizi Giriş tuvalinizde gördüklerinize benzer kapsayıcılar halinde düzenler: Sık kullanılanlar, Son kullanılanlar, Uygulamalar ve Benimle paylaşılanlar. Açılır öğeleri kullanarak bu kapsayıcıların her birindeki son kullanılan içerikleri görüntüleyebilir veya her kapsayıcı kategorisine yönelik tüm içerikleri görmek için içerik listelerine gidebilirsiniz.
+Gezinti bölmesi, içeriğinizi Giriş tuvalinizde gördüklerinize benzer kapsayıcılar halinde düzenler: Sık kullanılanlar, Son kullanılanlar, Uygulamalar ve Benimle paylaşılanlar. Açılır öğeleri kullanarak bu kapsayıcıların her birindeki son kullanılan içerikleri görüntüleyebilir veya her kapsayıcı kategorisine yönelik tüm içerikleri görmek için içerik listelerine gidebilirsiniz.
  
 - Bu içerik bölümlerinin birini açmak ve tüm öğelerin listesini görüntülemek için bölüm başlığını seçin.
-- Her kapsayıcıdaki son kullanılan öğeleri görmek için (**>**) açılır öğesini seçin.
+- Her kapsayıcıdaki son kullanılan öğeleri görmek için ( **>** ) açılır öğesini seçin.
 
-    ![Son kullanılanlar için gezinti çubuğunu kullanmayı gösteren video](media/end-user-home/power-bi-nav-bar.gif)
+    ![Son kullanılanlar için gezinti bölmesini kullanmayı gösteren video](media/end-user-home/power-bi-nav-bar.gif)
 
  
-Gezinti çubuğu, istediğiniz içeriği hızla bulmanın bir diğer yoludur. İçerik, Giriş tuvaline benzer şekilde düzenlenir ancak kartlar yerine listeler halinde gösterilir. 
+Gezinti bölmesi, istediğiniz içeriği hızla bulmanın bir diğer yoludur. İçerik, Giriş tuvaline benzer şekilde düzenlenir ancak kartlar yerine listeler halinde gösterilir. 
 
 ## <a name="search-all-of-your-content"></a>Tüm içeriğinizi arama
 Bazen, içeriğinizi bulmanın en hızlı yolu içeriği aramaktır. Örneğin, uzun zamandır kullanmadığınız bir panonun Giriş tuvalinizde gösterilmediğini fark etmiş olabilirsiniz. Veya iş arkadaşınız Aaron’ın bunu sizinle paylaştığını, ancak buna verdiği adı ya da paylaştığı içeriğin türünü (pano veya rapor) hatırlamıyor olabilirsiniz.

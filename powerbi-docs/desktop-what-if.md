@@ -2,7 +2,6 @@
 title: Değişkenleri görselleştirmek için Durum parametrelerini kullanma
 description: Power BI raporlarında değişkenlere yönelik varsayımlarda bulunmak ve değişkenleri görselleştirmek için kendi Durum değişkeninizi oluşturma
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513476"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876040"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop'ta değişkenleri görselleştirmek için Durum parametresi oluşturma ve kullanma
 **Power BI Desktop**'ın Ağustos 2018 sürümünden itibaren, raporlarınız için **Durum** değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.
@@ -50,7 +49,7 @@ Size kolaylık sağlamak adına, **Bu sayfaya dilimleyici ekle** onay kutusu oto
 
 ![](media/desktop-what-if/what-if_05.png)
 
-Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Elbette raporunuzu kullanan kişilerin **Durum** parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çelici ölçüler oluşturabilirsiniz. Örneğin, satış temsilcilerinin belirli satış hedeflerini veya yüzdelerini yakalamaları veya etkisini görmek indirimlerin kendi maaş artar bkz sağlayan bir rapor oluşturabilirsiniz.
+Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Elbette raporunuzu kullanan kişilerin **Durum** parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çelici ölçüler oluşturabilirsiniz. Örneğin, satış görevlilerinin, belirli satış hedeflerini veya yüzdelerini yakalamaları halinde alacakları tazminatı ya da daha yüksek indirimlerin satışların artmasına yönelik etkisini görmesini sağlayan bir rapor oluşturabilirsiniz.
 
 Ölçü formülünü formül çubuğuna yazmamızın ve **Sales after Discount** olarak adlandırmamızın ardından formülün sonucunu görürüz:
 

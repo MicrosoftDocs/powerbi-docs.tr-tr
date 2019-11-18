@@ -2,7 +2,6 @@
 title: Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
 description: Power BI hizmetindeki raporları Power BI Desktop dosyalarına indirme
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715177"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881813"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
 Power BI Desktop’ta bir raporu ( *.pbix* dosyası) yerel bilgisayarınızdan Power BI hizmetine yayımlayabilirsiniz. Power BI raporları diğer yöne de gidebilir: Power BI hizmetindeki bir raporu Power BI Desktop’a indirebilirsiniz. Power BI raporunun uzantısı, her iki durumda da .pbix olur.
@@ -32,7 +31,7 @@ Yalnızca 23 Kasım 2016'dan sonra [Power BI Desktop ile oluşturulmuş](/learn/
 
 1. Power BI hizmetinde, indirmek istediğiniz raporu [Düzenleme görünümü](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)'nde açın.
 
-2. Üst gezinti çubuğundan **Dosya > Raporu indir**'i seçin.
+2. Üst gezinti bölmesinden **Dosya > Raporu indir**'i seçin.
    
 3. Rapor indirilirken, ilerleme durumu bir durum başlığında gösterilir. Dosya hazır olduğunda .pbix dosyasını nereye kaydedeceğiniz sorulur. Dosyanın varsayılan adı, raporun başlığıyla aynıdır.
    
@@ -71,5 +70,5 @@ Power BI Desktop uygulamasını yükledikten sonra aşağıdaki makale hızlı b
 
 * [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 

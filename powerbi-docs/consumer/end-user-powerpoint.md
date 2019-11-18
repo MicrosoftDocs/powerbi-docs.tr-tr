@@ -2,7 +2,6 @@
 title: Raporları Power BI'dan PowerPoint'e aktarma
 description: Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğrenin.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717018"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862911"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
 
@@ -31,7 +30,7 @@ Power BI ile raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI ra
 **Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI raporunuzu PowerPoint’e aktarma
-Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş** sayfanızdan, **Uygulamalar**’dan veya sol gezinti bölmesindeki başka bir kapsayıcıdan da bir rapor seçebilirsiniz.
+Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş** sayfanızdan, **Uygulamalar**’dan veya gezinti bölmesindeki başka bir kapsayıcıdan bir rapor seçebilirsiniz.
 
 PowerPoint’e aktarmak istediğiniz rapor tuvalde görüntülendiğinde menü çubuğundan **Dışarı Aktar** > **PowerPoint** seçeneğini belirleyin.
 
@@ -60,7 +59,7 @@ Power BI'dan aktarılan PowerPoint dosyasını açtığınızda, ilgi çekici ve
 
 1. Slayt destesinin ilk sayfasında raporunuzun adı ve ayrıca slayt destesi için temel alınan raporu **Power BI’da Görüntülemenizi** sağlayan bir bağlantı bulunur.
 2. Raporla ilgili bazı yararlı bilgiler de bulabilirsiniz. **Son veri yenileme**, dışarı aktarılan raporun temel aldığı tarih ve saati gösterir. **İndirme zamanı**, Power BI raporunun bir PowerPoint dosyasına aktarıldığı tarih ve saati gösterir.
-3. Sol gezinti bölmesinde gösterildiği gibi her rapor sayfası ayrı bir slayttır. 
+3. Gezinti bölmesinde gösterildiği gibi her rapor sayfası ayrı bir slayttır. 
 4. Yayımlanan raporunuz, varsa ilgili Power BI ayarlarınıza, yoksa tarayıcınızın yerel ayarına göre seçilen dilde gösterilir. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin. Yerel ayar bilgileri için bkz. [Power BI için desteklenen diller ve ülkeler veya bölgeler](../supported-languages-countries-regions.md).
 5. PowerPoint sunusu, dışa aktarılan zamanın doğru saat diliminde gösterildiği bir kapak slaydı içerir.
 

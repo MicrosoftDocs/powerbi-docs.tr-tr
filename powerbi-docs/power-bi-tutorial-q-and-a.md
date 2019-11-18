@@ -1,108 +1,107 @@
 ---
-title: Keşfetmek ve görsel oluşturmak için Power BI soru- cevap'ı kullanın
-description: Panolarda ve raporlarda yeni görselleştirmeler oluşturmak için Power BI soru- cevap'ı kullanma
+title: Power BI Soru-Cevap ile görselleri keşfetme ve oluşturma
+description: Pano ve raporlarda yeni görselleştirmeler oluşturmak için Power BI Soru-Cevap özelliğinin nasıl kullanılacağını öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c6fd8967a49515af4d0614653b3d7550c335052f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875081"
 ---
-# <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Verilerinizi keşfetme ve görseller oluşturmak için Power BI soru- cevap'ı kullanın
+# <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Soru-Cevap ile verilerinizi keşfetme ve görseller oluşturma
 
-Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Power bı'daki soru- cevap özelliği, kendi kelimelerinizle oluşturarak verilerinizi araştırmanıza olanak sağlar.  Bu makalenin ilk bölümünü, soru- cevap Power BI hizmetinde panolarda kullanma gösterilmektedir. İkinci bölümü, soru- cevap ile Power BI hizmetinde veya Power BI Desktop raporları oluştururken, neler yapabileceğinizi gösterir. Daha fazla arka plan bilgileri için bkz [Tüketiciler için soru- cevap](consumer/end-user-q-and-a.md) makalesi. 
+Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Power BI'ın Soru-Cevap özelliği, verilerinizi kendi sözcüklerinizi kullanarak keşfetmenizi sağlar.  Bu makalenin ilk bölümünde, Soru-Cevap özelliğini Power BI hizmetindeki panolarda nasıl kullanacağınız gösterilmektedir. İkinci bölümde ise Power BI hizmeti veya Power BI Desktop ile rapor oluştururken Soru-Cevap ile yapabilecekleriniz anlatılmaktadır. Daha fazla arka plan bilgisine [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md) makalesinden ulaşabilirsiniz. 
 
-[Soru- cevap Power BI mobil uygulamalarında](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded ile soru- cevap](developer/qanda.md) ayrı makalelerde ele alınmıştır. 
+[Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded’da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır. 
 
-Soru- cevap, etkileşimli ve eğlenceli. Genellikle, görselleştirmeler ele Geçiren ilginç yolları ortaya gibi bir soru başkalarına geliyor. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
+Soru-Cevap etkileşimli ve hatta eğlenceli bir özelliktir. Genellikle görselleştirmelerin sürdürülebilecek ilginç yollar açması nedeniyle her soru yeni bir soruyu getirir. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qMf7OLJfCz8?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-## <a name="part-1-use-qa-on-a-dashboard-in-the-power-bi-service"></a>1. Bölüm: Power BI hizmetinde Panoda soru- cevap'ı kullanın
+## <a name="part-1-use-qa-on-a-dashboard-in-the-power-bi-service"></a>1\. Bölüm: Power BI hizmetindeki bir panoda Soru-Cevap özelliğini kullanma
 
-Power BI hizmetinde (app.powerbi.com) bir Pano herhangi biri, tüm bu veri kümelerinde bulunan veriler hakkında sorular sorabilirsiniz bir veya daha fazla veri kümesinden sabitlenmiş kutucuklar içerir. Hangi raporların ve veri kümeleri panoyu oluşturmak için kullanılan görmek için seçin **ilişkilileri görüntüle** menü çubuğundan.
+Power BI hizmetinde (app.powerbi.com) panolar, bir veya daha fazla veri kümesinden sabitlenmiş kutucuklar içerir. Bu nedenle, bu veri kümelerinde bulunan tüm verilerle ilgili sorular sorabilirsiniz. Panonun oluşturulması için hangi raporların ve veri kümelerinin kullanıldığını görmek üzere menü çubuğundan **İlişkilileri görüntüle**'yi seçin.
 
-![İlişkili raporlar ve veri kümelerini görüntüleme](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
+![İlgili raporları ve veri kümelerini görüntüleme](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Soru- cevap soru kutusu, doğal dil kullanarak sorunuzu yazdığınız yerdir, panonuzun sol üst köşede bulunur. Cevap kutusunu göremiyor musunuz? Bkz: [önemli noktalar ve sorun giderme](consumer/end-user-q-and-a.md#considerations-and-troubleshooting) içinde **Tüketiciler için soru- cevap** makalesi.  Soru- cevap sözcükleri yazın ve yanıt bulmak için nerede (hangi kümesindeki) kullanıma rakamları tanır. Soru-Cevap ayrıca sorunuzu otomatik tamamlama ve farklı şekilde ifade etme özelliklerinin yanı sıra diğer metin ve görsel desteklerle biçimlendirmenize yardımcı olur.
+Soru-Cevap soru kutusu, panonuzun sol üst köşesinde bulunur. Burası, doğal dil kullanarak sorunuzu yazdığınız yerdir. Soru-Cevap kutusunu görmüyor musunuz? **Tüketiciler için Soru-Cevap** makalesinin [Önemli noktalar ve sorun giderme](consumer/end-user-q-and-a.md#considerations-and-troubleshooting) bölümünü inceleyin.  Soru-Cevap, yazdığınız kelimeleri tanıyarak cevabı nerede (hangi veri kümesinde) bulabileceğini belirler. Soru-Cevap ayrıca sorunuzu otomatik tamamlama ve farklı şekilde ifade etme özelliklerinin yanı sıra diğer metin ve görsel desteklerle biçimlendirmenize yardımcı olur.
 
-![Soru- cevap soru kutusu](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![Soru-Cevap soru kutusu](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 Sorunuzun cevabı etkileşimli görselleştirme olarak görüntülenir ve soruyu değiştirdiğinizde güncelleştirilir.
 
-1. Bir pano açın ve imlecinizi soru kutusuna yerleştirin. Sağ üst köşedeki seçin **yeni cevap deneyiminde**.
+1. Bir pano açın ve imlecinizi soru kutusuna yerleştirin. Sağ üst köşeden **Yeni Soru-Cevap deneyimi**'ni seçin.
 
-    ![Power BI yeni soru- cevap bir deneyim](media/power-bi-tutorial-q-and-a/power-bi-qna-new-experience.png)
+    ![Power BI Yeni Soru-Cevap deneyimi](media/power-bi-tutorial-q-and-a/power-bi-qna-new-experience.png)
 
-1. Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak önerilerin bulunduğu yeni bir ekran görüntüler. İfadeler ve temel alınan veri kümelerinden tablolarında adını içeren tam sorular bakın ve veri kümesi sahibi oluşturmuş olması halinde tam sorular bile görebilirsiniz [öne çıkan sorular](service-q-and-a-create-featured-questions.md),
+1. Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak önerilerin bulunduğu yeni bir ekran görüntüler. Temel alınan veri kümelerindeki tabloların adlarını içeren ifadelerin ve tamamlanmış soruların yanı sıra veri kümesi sahibinin [öne çıkan sorular](service-q-and-a-create-featured-questions.md) oluşturmuş olması halinde soruların tamamlanmış hallerini bile görebilirsiniz.
 
-   ![Soru- cevap soruları önerilen](media/power-bi-tutorial-q-and-a/power-bi-qna-suggested-questions.png)
+   ![Soru-Cevap özelliğindeki önerilen sorular](media/power-bi-tutorial-q-and-a/power-bi-qna-suggested-questions.png)
 
-   Bu sorulardan birini başlangıç noktası olarak seçin ve belirli bir yanıt bulmak için soru iyileştirmeye devam edin. Veya yeni soru oluşturmanıza yardımcı olması için tablo adı kullanın.
+   Bu sorulardan birini başlangıç noktası olarak kullanabilir, soruyu değiştirerek belirli bir yanıta ulaşabilirsiniz. İsterseniz yeni soru oluşturmanıza yardımcı olması için tablo adı yazabilirsiniz.
 
-2. Soruları listesinden seçin veya kendi sorunuzu yazmaya başlayın ve açılan listedeki önerilerden seçin.
+2. Soru listesinden seçim yapın veya kendi sorunuzu yazmaya başlayıp açılan listedeki önerilerden birini seçin.
 
    ![Listeden bir soru seçin](media/power-bi-tutorial-q-and-a/power-bi-qna-select-a-question-how-many-stores.png)
 
-3. Bir soru yazarken soru- cevap, yanıtınızı görüntülemek üzere en iyi görselleştirmeyi seçer.
+3. Sorunuzu yazmaya başladığınızda, Soru-Cevap özelliği yanıtınızı görüntülemek için en uygun görselleştirmeyi seçer.
 
-   ![Soru- cevap kaç durumuna göre depolar](media/power-bi-tutorial-q-and-a/power-bi-qna-how-many-stores-by-state.png)
+   ![Soru-Cevap eyalete göre mağaza sayısı](media/power-bi-tutorial-q-and-a/power-bi-qna-how-many-stores-by-state.png)
 
-4. Dinamik olarak görselleştirme değişiklikleri ve soruyu değiştirdiğinizde.
+4. Soruyu değiştirdiğinizde görselleştirme de dinamik olarak değişir.
 
-   ![Soru- cevap çubuk grafik olarak duruma göre kaç depolar](media/power-bi-tutorial-q-and-a/power-bi-qna-stores-by-state-bar-chart.png)
+   ![Soru-Cevap eyalete göre mağaza sayısı çubuk grafiği](media/power-bi-tutorial-q-and-a/power-bi-qna-stores-by-state-bar-chart.png)
 
-1. Bir soru yazdığınızda Power BI, ilgili panoda kutucuğu bulunan tüm veri kümelerinde en iyi cevabı arar.  Tüm kutucukların kaynağı *datasetA* ise cevabınız *datasetA* kaynağından gelir.  Kutucukları varsa *datasetA* ve *datasetB*, soru- cevap arar sonra bu 2 veri kümesinden en iyi yanıtı.
+1. Bir soru yazdığınızda Power BI, ilgili panoda kutucuğu bulunan tüm veri kümelerinde en iyi cevabı arar.  Tüm kutucukların kaynağı *datasetA* ise cevabınız *datasetA* kaynağından gelir.  Hem *datasetA* hem de *datasetB* varsa Soru-Cevap, bu 2 veri kümesinden en iyi cevabı almak için arama yapar.
 
    > [!TIP]
    > Bu nedenle dikkatli olmanızda fayda vardır, *datasetA* kaynağından tek bir kutucuğunuz varsa ve bunu panonuzdan kaldırırsanız Soru-Cevap artık *datasetA* erişimine sahip olmaz.
    >
 
-5. Sonuç, bir panoya sağ üst köşedeki Raptiye simgesini seçerek görselleştirmeyi sabitleme memnun olduğunuzda. Sizinle paylaşılmış veya bir uygulamanın parçası olan panoları sabitleyemezsiniz.
+5. Sonuç içinize sindiğinde sağ üst köşedeki raptiye simgesini seçerek görselleştirmeyi panoya sabitleyebilirsiniz. Sizinle paylaşılmış veya bir uygulamanın parçası olan panoları sabitleyemezsiniz.
 
-   ![Soru- cevap görseli Sabitle](media/power-bi-tutorial-q-and-a/power-bi-qna-pin-visual.png)
+   ![Soru-Cevap Görseli sabitleme](media/power-bi-tutorial-q-and-a/power-bi-qna-pin-visual.png)
 
-## <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>2. Bölüm: Power BI hizmetindeki veya Power BI Desktop'taki bir raporda Soru-Cevap özelliğini kullanma
+## <a name="part-2-use-qa-in-a-report-in-power-bi-service-or-power-bi-desktop"></a>2\. Bölüm: Power BI hizmetindeki veya Power BI Desktop'taki bir raporda Soru-Cevap özelliğini kullanma
 
 Soru-Cevap özelliğini kullanarak veri kümenizi keşfetmenin yanı sıra rapor ve panolara görselleştirmeler ekleyebilirsiniz. Bir rapor için tek bir veri kümesi temel alınır. Raporlar tamamen boş olabileceği gibi görselleştirmelerle dolu sayfalar da içerebilir. Bir raporun boş olması, araştırabileceğiniz veri olmadığı anlamına gelmez. Veri kümesi, raporla bağlantılıdır ve bu veri kümesini araştırıp görselleştirmeler oluşturabilirsiniz.  Bir raporun oluşturulması için hangi veri kümesinin kullanıldığını görmek üzere raporu Power BI hizmetinde Okuma görünümü'nde açıp menü çubuğundan **İlişkilileri görüntüle**'yi seçin.
 
-![İlgili veri kümelerini görüntüleme](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
+![İlgili veri kümelerini görüntüle](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Soru- cevap raporlarda kullanmak için rapor ve temel alınan veri kümesi için düzenleme izinleri olmalıdır. İçinde [Tüketiciler için soru- cevap](consumer/end-user-q-and-a.md) makalenin diyoruz bu bir *Oluşturucu* senaryo. Bunun yerine, değilseniz *tüketen* sizinle birlikte, soru- cevap paylaşılan bir raporu kullanılamaz.
+Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve temel alınan veri kümesine ilişkin düzenleme izinlerine sahip olmanız gerekir. [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md) makalesinde bu bir *oluşturan* senaryosu olarak adlandırılmıştır. Bunun yerine sizinle paylaşılan bir raporu *tüketiyorsanız* Soru-Cevap özelliğini kullanamazsınız.
 
-1. Bir raporu düzenleme görünümü (Power BI hizmeti) veya rapor görünümünde (Power BI Desktop) açın ve seçin **soru** menü çubuğundan.
+1. Bir raporu Düzenleme görünümü'nde (Power BI hizmeti) veya Rapor görünümü'nde (Power BI Desktop) açın ve menü çubuğundan **Soru sorun**'u seçin.
 
     **Power BI Desktop**    
-    ![Select Power BI Desktop'ta soru sorun](media/power-bi-tutorial-q-and-a/power-bi-desktop-question.png)
+    ![Power BI Desktop'ta Soru sorun'u seçin](media/power-bi-tutorial-q-and-a/power-bi-desktop-question.png)
 
     **Hizmet**    
-    ![Power BI hizmetinde bir soru seçin](media/power-bi-tutorial-q-and-a/power-bi-service.png)
+    ![Power BI hizmetinse Soru sorun'u seçin](media/power-bi-tutorial-q-and-a/power-bi-service.png)
 
 2. Rapor tuvalinizde bir Soru-Cevap soru kutusu görüntülenir. Aşağıdaki örnekte soru kutusu, başka bir görselleştirmenin üst kısmında görüntülenmektedir. Bunda bir sakınca yoktur ancak soru sormadan önce rapora boş bir sayfa eklemek daha iyi bir seçenek olabilir.
 
-    ![Soru- cevap soru kutusu](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![Soru-Cevap soru kutusu](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. İmlecinizi soru kutusuna yerleştirin. Siz sorunuzu yazdıkça Soru-Cevap, sorunuzu oluşturmaya yardımcı olmak üzere bazı öneriler görüntüler.
 
-   ![Soru- cevap soru kutusu içinde yazın](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
+   ![Soru-Cevap soru kutusuna yazın](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
 4. Siz bir soru yazarken Soru-Cevap özelliği, cevabınızı görüntülemek için en iyi [görselleştirmeyi](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir.
 
-   ![Soru- cevap, bir görselleştirme oluşturur](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
+   ![Soru-Cevap bir görselleştirme oluşturur](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 
 5. İstediğiniz görselleştirmeye sahip olduğunuzda ENTER'a basın. Görselleştirmeyi rapora kaydetmek için **Dosya > Kaydet**'i seçin.
 
 6. Yeni görselleştirme ile etkileşim kurun. Görselleştirmeyi nasıl oluşturduğunuz fark etmeksizin aynı etkileşim, biçimlendirme ve özellikleri kullanabilirsiniz.
 
-   ![Görselleştirme ile etkileşim](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![Görselleştirme ile etkileşim kurun](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
    Görselleştirmeyi Power BI hizmetinde oluşturduysanız [bir panoya da sabitleyebilirsiniz](service-dashboard-pin-tile-from-q-and-a.md).
 
@@ -112,12 +111,12 @@ Soru-Cevap ile verileriniz hakkında bilgi edinmekle kalmaz Power BI'ın cevabı
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 - Bir veri kümesine canlı bağlantı veya ağ geçidi ile bağlandıysanız Soru-Cevap özelliğinin [söz konusu veri kümesi için etkinleştirilmesi gerekir](service-q-and-a-direct-query.md).
 
-- Bir raporu açtınız ve Soru-Cevap seçeneğini görmüyorsunuz. Power BI hizmetini kullanıyorsanız raporun Düzenleme görünümü'nde açıldığından emin olun. Bu rapor için düzenleme izinlerine sahip değilseniz ve soru- cevap belirli bir rapor ile kullanabileceğiniz anlamına gelir düzenleme Görünümü'nü açamıyorsanız için.
+- Bir raporu açtınız ve Soru-Cevap seçeneğini görmüyorsunuz. Power BI hizmetini kullanıyorsanız raporun Düzenleme görünümü'nde açıldığından emin olun. Düzenleme görünümü'nü açamıyorsanız bu, söz konusu rapor için düzenleme izinlerine sahip olmadığınız ve bu raporla Soru-Cevap özelliğini kullanabileceğiniz anlamına gelir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Tüketiciler için soru- cevap](consumer/end-user-q-and-a.md)   
+- [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md)   
 - [Soru-Cevap'ta soru sormaya yönelik ipuçları](consumer/end-user-q-and-a-tips.md)   
 - [Bir çalışma kitabını Soru-Cevap için hazırlama](service-prepare-data-for-q-and-a.md)  
-- [Bir şirket içi veri kümesi için soru- cevap için hazırlama](service-q-and-a-direct-query.md)   
+- [Şirket içi veri kümesini Soru-Cevap için hazırlama](service-q-and-a-direct-query.md)   
 - [Pin a tile to the dashboard from Q&A (Soru-Cevap kutucuklarını panolara sabitleme)](service-dashboard-pin-tile-from-q-and-a.md)

@@ -2,19 +2,18 @@
 title: iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 description: iOS cihazınızdaki Power BI mobil uygulamasında yer alan Soru-Cevap sanal çözümleyicisini kullanarak kendi kelimelerinizle örnek verilerle ilgili sorular sorun.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977571"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879374"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -35,7 +34,7 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
 ## <a name="prerequisites"></a>Önkoşullar
 
 ### <a name="install-the-power-bi-for-ios-app"></a>iOS için Power BI uygulamasını yükleme
-App Store'a giderek iPad, iPhone veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
+App Store'a giderek iPad, iPhone veya iPod Touch'ınıza [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
 
 iOS için Power BI uygulamasını şu sürümler destekler:
 - iOS 10 veya sonraki sürümünü çalıştıran iPad.
@@ -49,7 +48,7 @@ iOS için Power BI uygulamasını şu sürümler destekler:
 
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
 
-2. Sol gezinti bölmesinde **Çalışma Alanları**, **Çalışma Alanım**’ı seçin.
+2. Gezinti bölmesinde **Çalışma Alanları**, **Çalışma Alanım**’ı seçin.
 
 3. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
    

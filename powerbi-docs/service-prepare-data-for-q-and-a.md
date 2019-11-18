@@ -1,8 +1,7 @@
 ---
-title: Excel verilerini Power bı'da soru cevap özelliğiyle düzgün çalışmasını olun
+title: Power BI'daki Soru-Cevap özelliğiyle Excel verilerinin düzgün çalışmasını sağlama
 description: Verilerinizin Power BI'daki Soru-Cevap özelliğiyle düzgün çalışmasını sağlama
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881077"
 ---
-# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel verilerini Power bı'da soru cevap özelliğiyle düzgün çalışmasını olun
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI'daki Soru-Cevap özelliğiyle Excel verilerinin düzgün çalışmasını sağlama
 Veri modelleri veya Power BI ile kullanılacak Excel çalışma kitapları oluşturuyorsanız bu makaleyi okumaya devam edin.
 
 Yapılandırılmış verilerde arama yapabilmesi ve sorunuza yönelik doğru görselleştirmeyi seçebilmesi, Power BI'daki Soru-Cevap'ın ilgiyle kullanacağınız bir araç olmasını sağlar.   
@@ -27,7 +26,7 @@ Soru-Cevap; tablo, aralıklar veya PowerPivot modeli içeren, karşıya yüklenm
 ## <a name="how-qa-works-with-excel"></a>Soru-Cevap özelliği Excel ile nasıl kullanılır?
 Soru-Cevap, verileriniz üzerinde kullanılan, bir dizi temel doğal dil anlama becerisine sahiptir. Excel tablo ve sütun adlarınızın yanı sıra hesaplanmış alan adlarınız için bağlama bağlı anahtar sözcük arama özelliği içerir. Ayrıca verileri filtreleme, sıralama, toplama, gruplandırma ve görüntülemeye yönelik yerleşik bilgilerle donatılmıştır. 
 
-Örneğin, "Product" (Ürün), "Month" (Ay), "Units Sold" (Satılan Birim Sayısı), "Gross Sales" (Brüt Satışlar) ve "Profit" (Kâr) sütunlarının bulunduğu "Sales" (Satışlar) adlı bir Excel tablosunda, söz konusu varlıklardan herhangi biriyle ilgili sorular sorabilirsiniz.  Satışların ve aylık toplam kârın gösterilmesi, ürünlerin satılan birim sayısına göre sıralanması ve daha nicesi gibi işlemlerin gerçekleştirilmesini isteyebilirsiniz. Daha fazla bilgi edinin [soru- cevap panolar ve raporlar kullanılarak](power-bi-tutorial-q-and-a.md), ve [bir soru- cevap sorgusunda belirtebileceğiniz görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Örneğin, "Product" (Ürün), "Month" (Ay), "Units Sold" (Satılan Birim Sayısı), "Gross Sales" (Brüt Satışlar) ve "Profit" (Kâr) sütunlarının bulunduğu "Sales" (Satışlar) adlı bir Excel tablosunda, söz konusu varlıklardan herhangi biriyle ilgili sorular sorabilirsiniz.  Satışların ve aylık toplam kârın gösterilmesi, ürünlerin satılan birim sayısına göre sıralanması ve daha nicesi gibi işlemlerin gerçekleştirilmesini isteyebilirsiniz. [Panolarda ve raporlarda Soru-Cevap özelliğini kullanma](power-bi-tutorial-q-and-a.md) ve [bir Soru-Cevap sorgusunda belirtebileceğiniz görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="prepare-an-excel-dataset-for-qa"></a>Bir Excel veri kümesini Soru-Cevap için hazır hale getirme
 Soru-Cevap, verilere özgü soruları cevaplamak için tablo, sütun ve hesaplanmış alan adlarını kullanır; bu nedenle çalışma kitabınızda varlıklara verdiğiniz adlar konusunda dikkatli olmanız gerekir.
@@ -39,16 +38,16 @@ Aşağıda, çalışma kitabınızda Soru-Cevap'tan en iyi şekilde yararlanman�
   
   Örneğin, satış verileri içeren bir tablonuz varsa bunu "Sales" olarak adlandırın. "Year" (Yıl), "Product" (Ürün), "Sales Rep" (Satış Temsilcisi) ve "Amount" (Miktar) gibi sütun adları Soru-Cevap ile düzgün bir şekilde çalışır.
 
-* Çalışma kitabınızda Power Pivot veri modeli bulunuyorsa daha da fazla iyileştirme yapabilirsiniz. Doğal dil uzmanlarından oluşan şirket içi ekibimizin kaleme aldığı [Demystifying Power BI Q&A part 2 (Power BI Soru-Cevap'ın gizemini çözme - 2. kısım)](http://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) başlıklı blogdan daha fazla bilgi edinebilirsiniz.
+* Çalışma kitabınızda Power Pivot veri modeli bulunuyorsa daha da fazla iyileştirme yapabilirsiniz. Doğal dil uzmanlarından oluşan şirket içi ekibimizin kaleme aldığı [Demystifying Power BI Q&A part 2 (Power BI Soru-Cevap'ın gizemini çözme - 2. kısım)](https://blogs.msdn.com/b/powerbi/archive/2014/02/27/demystifying-power-bi-q-amp-a-part-2.aspx) başlıklı blogdan daha fazla bilgi edinebilirsiniz.
 
 * Veri kümesini Power BI Desktop'ta açın, yeni sütunlar ve hesaplanmış ölçüler oluşturun, benzersiz değerler elde etmek için alanları birleştirin, verileri türe göre (ör. tarihler, dizeler, coğrafya, görüntüler, URL'ler) sınıflandırın ve daha pek çok işlem gerçekleştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Tüketiciler için soru- cevap](consumer/end-user-q-and-a.md)  
-- [Pano ve raporlarda soru- cevap kullanma](power-bi-tutorial-q-and-a.md)
-- [Şirket içi veri kümelerini soru- cevap için hazırlama](service-q-and-a-direct-query.md)   
+- [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md)  
+- [Panolarda ve raporlarda Soru-Cevap kullanma](power-bi-tutorial-q-and-a.md)
+- [Şirket içi veri kümelerini Soru-Cevap için hazır hale getirme](service-q-and-a-direct-query.md)   
 - [Power BI için veri alma](service-get-data.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

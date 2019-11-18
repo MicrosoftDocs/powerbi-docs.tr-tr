@@ -2,21 +2,20 @@
 title: Bildirim Merkezi'ndeki iletileri görüntüleme
 description: Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: c4feda0e502a9363900901ebe76005219587167b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716949"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863023"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 
@@ -31,7 +30,7 @@ Amanda’nın bildirimleri incelemesini, yönetmesini ve bunlara yanıt vermesin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
-
+## <a name="view-your-notifications"></a>Bildirimlerinizi görüntüleme
 1. Power BI'da oturum açtığınızda, siz çevrimdışıyken size gönderilen tüm bildirimler, akışınıza eklenir. Yeni bildirimleriniz varsa Power BI, yeni öğe sayısının yer aldığı sarı bir baloncuk görüntüler.
    
    ![yeni Bildirim simgesi](./media/end-user-notification-center/power-bi-new-notification.png)
@@ -43,9 +42,9 @@ Amanda’nın bildirimleri incelemesini, yönetmesini ve bunlara yanıt vermesin
    ![Bildirim Merkezi](./media/end-user-notification-center/power-bi-notification-center.png)
 4. Bir bildirimi kapatmak için X simgesini seçin.
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki veri uyarıları](end-user-alerts.md)
 * [iPhone uygulamasında (iOS için Power BI) veri uyarıları oluşturma](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 için Power BI mobil uygulamasında veri uyarıları ayarlama](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

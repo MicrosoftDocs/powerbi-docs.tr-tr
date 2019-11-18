@@ -1,8 +1,7 @@
 ---
-title: Power BI Desktop'ta rapor öğesi performansını incelemek için Performans Çözümleyicisi'ni kullanın
-description: Nasıl görsel ve rapor öğeleri kaynak kullanımı ve yanıt hızı bakımından gerçekleştiriyorsanız kullanıma Bul
+title: Power BI Desktop'ta rapor öğesi performansını incelemek için Performans Analizi’ni kullanma
+description: Görsellerin ve rapor öğelerinin kaynak kullanımı ve yanıt verme açısından nasıl bir performans sergilediğini keşfedin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,74 +9,74 @@ ms.topic: conceptual
 ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1851e0a55bf01073a6591f64de43830a72eca89b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65854425"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866418"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Rapor öğesi performansını incelemek için Performans Çözümleyicisi'ni kullanın
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma
 
-İçinde **Power BI Desktop** bulabilirsiniz nasıl her biri, görsellerin ve DAX formülleri gibi rapor öğelerinizin yapmakta olduğunuz giden. Kullanarak **Performans Çözümleyicisi**görebilirsiniz ve kayıt günlüklerini nasıl her rapor öğelerinizin gerçekleştiren kullanıcılar bunlarla etkileşim kurduğunuzda ölçün ve performanslarını hangi yönlerini çoğu (ya da en az) kaynak yoğunluğu olan.
+**Power BI Desktop**'ta görseller ve DAX formülleri gibi rapor öğelerinizin nasıl bir performans sergilediğini görebilirsiniz. **Performans Analizi**'ni kullanarak kullanıcılar etkileşim kurduğunda rapor öğelerinizin nasıl bir performans sergilediğini ve en çok (veya en az) kaynak kullanan performans özelliklerini gösteren günlükleri görebilir ve kaydedebilirsiniz.
 
-![Performans Çözümleyicisi](media/desktop-performance-analyzer/performance-analyzer-01.png)
+![Performans çözümleyici](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
-Performans Çözümleyicisi inceler ve başlatabilir, Kullanıcı etkileşimlerine güncelleştiriliyor veya tüm görsellerin yenilenmesi için gereken süreyi görüntüler ve görüntülemek, detaya gitme veya sonuçlarını dışarı aktarma için bilgiler sunulmuştur. Performans Çözümleyicisi raporlarınızı performansını etkileyen görselleri belirleyip etkisi nedenini belirlemenize yardımcı olabilir.
+Performans Analizi, kullanıcı etkileşimleriyle başlatılan tüm görsellerin güncelleştirilmesi veya yenilenmesi için gerekli olan süreyi inceleyip gösterir. Sunulan değerleri görüntüleyebilir, detaya gidebilir veya dışarı aktarabilirsiniz. Performans Analizi, raporlarınızın performansını etkileyen görselleri belirlemenize ve bu etkinin nedenini belirlemenize yardımcı olabilir.
 
-## <a name="displaying-the-performance-analyzer-pane"></a>Performans Çözümleyicisi bölmesini görüntüleme
+## <a name="displaying-the-performance-analyzer-pane"></a>Performans Analizi bölmesini görüntüleme
 
-İçinde **Power BI Desktop** seçin **görünümü** Şerit. İçinde **Göster** alanının **görünümü** seçebileceğiniz onay kutusunun yanındaki Şerit **Performans Çözümleyicisi** Performans Çözümleyicisi bölmesini görüntülemek için.
+**Power BI Desktop**'ta **Görünüm** şeridini seçin. **Görünüm** şeridinin **Göster** alanında **Performans Analizi**'nin yanındaki onay kutusunu seçerek Performans Analizi bölmesini görüntüleyebilirsiniz.
 
-![Görünüm şeridinden Performans Çözümleyicisi'ni seçin](media/desktop-performance-analyzer/performance-analyzer-02.png)
+![Görünüm şeridinde Performans Analizi'ni seçin](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
-Sonra Performans Çözümleyicisi'ni rapor tuvalinin sağ kendi bölmesinde görüntülenir.
+Performans Analizi seçildiğinde rapor tuvalinin sağ tarafında, kendi bölmesinde görüntülenir.
 
-## <a name="using-performance-analyzer"></a>Performans Çözümleyicisi'ni kullanma
+## <a name="using-performance-analyzer"></a>Performans Analizi'ni kullanma
 
-Performans Çözümleyicisi ölçüler, çalışan bir sorgu sonuçları herhangi bir kullanıcı etkileşimi sonucunda başlatılan rapor öğeleri güncelleştirmek için işleme süresi (zaman oluşturmak veya bir görseli güncelleştirmek için de dahil olmak üzere) gereklidir. Örneğin, bir Dilimleyici ayarlama yeni ayarların sonucunda güncelleştirilmesi gereken etkilenen görseller ve bir sorgu için veri modeli, gönderilecek değişiklik Dilimleyici visual gerektirir. 
+Performans Analizi, bir sorgu çalıştırılmasına neden olan kullanıcı etkileşimi ile başlatılan rapor öğelerinin güncelleştirilmesi için gereken işlem süresini (görsel oluşturmak veya güncelleştirmek için gerekli zaman dahil olmak üzere) ölçer. Örneğin bir dilimleyicinin ayarlanması için dilimleyici görselinin değiştirilmesi, veri modeline bir sorgu gönderilmesi ve ilgili görsellerin yeni ayarlara göre güncelleştirilmesi gerekir. 
 
-Performans Çözümleyicisi'ni kaydetmeye başlamak için basitçe seçin **kaydetmeye başlayın**
+Performans Analizi'nin kaydı başlatması için **Kaydı başlat**'ı seçmeniz yeterlidir.
 
-![Kaydı Başlat](media/desktop-performance-analyzer/performance-analyzer-03.png)
+![Kaydı başlat](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
-Raporda tüm eylemleri görüntülenir ve günlüğe Performans Çözümleyicisi bölmesinde, sırayla görselin Power BI tarafından yüklenir. Örneğin, kullanıcıların yenilemek için uzun zaman alıyor söylediğiniz bir raporunuz varsa belki de. Veya belirli bir rapordaki görsellerde bulunan kaydırıcıyı ayarlandığında görüntülenecek uzun sürebilir. Performans Çözümleyicisi'ni hangi görselin sorunlu olduğunu ve hangi yönlerini görsel tanımlayan işlemek için uzun süreli sürüyor söyleyebilirsiniz. 
+Raporda gerçekleştirdiğiniz tüm eylemler, Power BI'ın görselleri yükleme sırasına göre Performans Analizi bölmesinde görüntülenir ve kaydedilir. Örneğin kullanıcıların yenileme süresinin uzun olduğunu belirttiği bir raporunuz olabilir. Ya da kaydırıcı ayarlandığında bir raporun içindeki belirli görsellerin görüntülenmesi uzun sürüyor olabilir. Performans Çözümleyici, sorunlu olan görseli bulmanıza ve görselin işlenmesi en uzun süren özelliklerini tanımlamanıza yardımcı olabilir. 
 
-Kayıt başlattıktan sonra **kaydetmeye başlayın** düğmesi gri çıkış (etkin olmayan, kaydı önceden başladığınızı olduğundan) ve **Durdur** düğmesi etkin olduğu. 
+Kaydı başlattığınızda, **Kaydı başlat** düğmesi gri hale gelir (kaydı başlattığınız için devre dışı kalır) ve **Durdur** düğmesi etkinleştirilir. 
 
-Performans Çözümleyicisi toplar ve gerçek zamanlı performans ölçüm bilgilerini görüntüler. Her zaman bir görsele tıklayın bir Dilimleyiciyi taşıyın ya da başka şekilde, etkileşimli Performans Çözümleyicisi alt bölmede hemen performans sonuçlarını görüntüler.
+Performans Çözümleyici, performans ölçümü bilgilerini gerçek zamanlı olarak toplar ve görüntüler. Bu nedenle bir görsele tıkladığınızda, bir dilimleyiciyi hareket ettirdiğinizde veya farklı bir şekilde etkileşimde bulunduğunuzda ilgili performans sonuçları anında Performans Analizi bölmesinde görüntülenir.
 
-Bölmesinde görüntülenebilecek olandan daha fazla bilgi için ek bilgiler gitmek için bir kaydırma çubuğu görünür.
+Bölmede görüntülenemeyecek kadar çok bilgi varsa, ek bilgilere ulaşmanızı sağlayacak bir kaydırma çubuğu görünür.
 
-Her bir bölüm tanımlayıcısı bölmesinde günlük girişlerini başlatan eylemi açıklayan, etkileşen. Aşağıdaki görüntüde, kullanıcıların bir Dilimleyici değiştiğini etkileşimi oluştu.
+Bölmedeki her etkileşim, günlük girişlerini başlatan eylemi tarif eden bir bölüm tanımlayıcısına sahiptir. Aşağıdaki görüntüde etkileşim, kullanıcıların bir dilimleyiciyi değiştirmesidir.
 
-![Etkileşim türüne bağlı olarak bölümlerde](media/desktop-performance-analyzer/performance-analyzer-04.png)
+![Etkileşim türüne göre bölümler](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-Aşağıdaki kategorileri görevleri tamamlamak için harcadığı sürenin (süre) her görselin günlük bilgileri içerir:
+Her görselin günlük bilgileri, aşağıdaki görev kategorilerini tamamlamak için harcanan zamanı (süre) içerir:
 
-* **DAX sorgusu** -DAX sorgusu gerekli olursa, sonuçları döndürmek Analysis Services yanı sıra, sorgu gönderme görsel arasındaki zamanı budur.
-* **Görselle** -tüm web görüntüler veya coğrafi kodlama almak için gereken süre de dahil olmak üzere ekranda çizim yapmak görsel için gereken süre. 
-* **Diğer** -görsel sorguları hazırlama, diğer görseller için bekleyen veya başka bir arka plan işleme gerçekleştirmek için gereken süre.
+* **DAX sorgusu**: Bir DAX sorgusuna ihtiyaç duyulması halinde bu değer görselin sorguyu göndermesi ile Analysis Services'ın sonuçları döndürmesi arasında geçen süredir.
+* **Görsel görüntüleme**: Görselin ekranda çizilmesi için gereken süredir ve web görüntülerini getirme veya coğrafi kodlama için gereken süre de buna dahildir. 
+* **Diğer**: Görselin sorguları hazırlamak, diğer görsellerin tamamlanmasını beklemek veya arka planda farklı işlemler yapmak için ihtiyaç duyduğu süredir.
 
-![Günlük bilgilerini öğeleri](media/desktop-performance-analyzer/performance-analyzer-06.png)
+![Günlük bilgilerinin öğeleri](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
-Performans Çözümleyicisi ile ölçmek istediğiniz rapor öğeleri etkileşim kurulabilen sonra seçebileceğiniz **Durdur** düğmesi. Performans bilgilerini kalır bölmesinde seçtikten sonra **Durdur** , analiz etmek.
+Performans Analizi'ni kullanarak ölçmek istediğiniz rapor öğeleriyle etkileşimde bulunduktan sonra **Durdur** düğmesini seçebilirsiniz. **Durdur**'u seçtikten sonra performans bilgileri analiz etmeniz için bölmede kalır.
 
-Performans Çözümleyicisi bölmesinde bilgiyi temizlemek için seçin **Temizle**. Tüm bilgiler silinir ve seçtiğinizde kaydedilmez **Temizle**. Günlüklerde bilgilerini kaydetme hakkında bilgi edinmek için sonraki bölüme bakın. 
+Performans Analizi bölmesindeki bilgileri silmek için **Temizle**'yi seçin. **Temizle**'yi seçtiğinizde tüm bilgiler silinir ve kaydedilmez. Bilgileri günlük halinde kaydetmeyi öğrenmek için bir sonraki bölüme bakın. 
 
-## <a name="refreshing-visuals"></a>Görsellerin
+## <a name="refreshing-visuals"></a>Görselleri yenileme
 
-Seçebileceğiniz **Yenile görselleri** Performans Çözümleyicisi bölmesinde raporun geçerli sayfadaki tüm görsellerin yenileyin ve böylece Performans Çözümleyicisi'ni tüm görseller hakkında bilgi toplayın.
+Performans Analizi bölmesinde **Görselleri yenile**'yi seçerek raporun geçerli sayfasındaki tüm görselleri yenileyebilir ve Performans Analizi'nin tüm görseller hakkında bilgi toplamasını sağlayabilirsiniz.
 
-Tek başına görseller de yenileyebilirsiniz. Performans Çözümleyicisi kaydederken seçebileceğiniz **bu görseli Yenile** bu görsellerin yenilenmesi için her görselin sağ üst köşede bulunan ve performans bilgilerini yakalayın.
+Ayrıca yalnızca istediğiniz görselleri de yenileyebilirsiniz. Performans Analizi kayıtta olduğunda her bir görselin sağ üst köşesindeki **Bu görseli yenile** öğesini seçerek ilgili görseli yenileyebilir ve performans bilgilerini kaydedebilirsiniz.
 
-![tek bir görsel Yenile](media/desktop-performance-analyzer/performance-analyzer-07.png)
+![Tek bir görseli yenileme](media/desktop-performance-analyzer/performance-analyzer-07.png)
 
-## <a name="saving-performance-information"></a>Performans bilgileri kaydediliyor
+## <a name="saving-performance-information"></a>Performans bilgilerini kaydetme
 
-Performans Çözümleyicisi oluşturan bir raporu bilgilerini seçerek kaydedebilirsiniz **dışarı** düğmesi. Seçme **dışarı** Performans Çözümleyicisi bölmesinden bilgileri içeren bir .json dosyası oluşturur. 
+**Dışarı Aktar** düğmesini seçerek Performans Analizi tarafından oluşturulan rapor bilgilerini kaydedebilirsiniz. **Dışarı Aktar**'ı seçtiğinizde Performans Analizi bölmesindeki bilgilerle bir .json dosyası oluşturulur. 
 
-![Performans Çözümleyicisi için günlük dosyasına kaydedin](media/desktop-performance-analyzer/performance-analyzer-05.png)
+![Performans Analizi günlük dosyasını kaydetme](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -3,18 +3,17 @@ title: Power BI Rapor Sunucusu'nu yükleme
 description: Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839446"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874129"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -127,14 +126,14 @@ URL ayırmaları ön ek, ana bilgisayar adı, bağlantı noktası ve sanal dizin
 | Bölüm | Açıklama |
 | --- | --- |
 | Ön ek |Varsayılan ön ek HTTP'dir. Daha önce bir Güvenli Yuva Katmanı (SSL) sertifikası yüklediyseniz kurulum, HTTPS ön ekini kullanan URL ayırmaları oluşturmaya çalışır. |
-| Ana bilgisayar adı |Varsayılan ana bilgisayar adı güçlü bir joker karakterdir (+). Rapor sunucusunun, belirtilen bağlantı noktasında ilgili bilgisayara çözümlenen tüm ana bilgisayar adlarına ait HTTP isteklerini (`http://<computername>/reportserver`, `http://localhost/reportserver` veya `http://<IPAddress>/reportserver.` dahil) kabul ettiğini belirtir |
+| Ana bilgisayar adı |Varsayılan ana bilgisayar adı güçlü bir joker karakterdir (+). Rapor sunucusunun, belirtilen bağlantı noktasında ilgili bilgisayara çözümlenen tüm ana bilgisayar adlarına ait HTTP isteklerini (`https://<computername>/reportserver`, `https://localhost/reportserver` veya `https://<IPAddress>/reportserver.` dahil) kabul ettiğini belirtir |
 | Bağlantı noktası |Varsayılan bağlantı noktası 80'dir. 80 haricinde bir bağlantı noktası kullanacaksanız web portalını tarayıcı penceresinde açtığınızda bunu URL'ye açıkça eklemeniz gerekir. |
 | Sanal dizin |Varsayılan olarak, Rapor Sunucusu Web hizmetiniz ve web portalı Raporları için sanal dizinler ReportServer biçiminde oluşturulur. **reportserver**, Rapor Sunucusu Web hizmeti için varsayılan sanal dizindir. Web portalı için varsayılan sanal dizin ise **reports** dizinidir. |
 
 Eksiksiz bir URL dizesi örneği şu şekildedir:
 
-* `http://+:80/reportserver`, rapor sunucusuna erişim sağlar.
-* `http://+:80/reports`, web portalına erişim sağlar.
+* `https://+:80/reportserver`, rapor sunucusuna erişim sağlar.
+* `https://+:80/reports`, web portalına erişim sağlar.
 
 ## <a name="firewall"></a>Güvenlik duvarı
 

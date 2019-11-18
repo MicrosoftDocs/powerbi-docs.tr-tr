@@ -2,7 +2,6 @@
 title: Rapor düzenleyicisi turu
 description: Power BI Desktop'da ve Power BI hizmetinde rapor düzenleyicisi, son kullanıcılarınızın gördüğü raporları tasarladığınız yerdir. Bu düzenleyici iki ortamda da benzerdir.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023732"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871352"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 
@@ -34,14 +33,14 @@ Power BI hizmetinde rapor düzenleyicisi yalnızca Düzenleme Görünümünde ku
 
 Power BI rapor düzenleyicisi birkaç ana bölüme ayrılır:  
 
-1. Üst gezinti çubuğu
+1. Üst gezinti bölmesi
 1. Rapor tuvali
 1. Filtreler bölmesi
 1. Görselleştirmeler bölmesi
 1. Alanlar bölmesi
 
-## <a name="1-the-top-navigation-bar"></a>1. Üst gezinti çubuğu
-Üst gezinti çubuğundan birçok farklı eylem gerçekleştirilebilir ve sürekli olarak bu eylemlere yenileri eklenmektedir. Belirli bir eylem hakkında bilgi edinmek için Power BI belgelerinin içindekiler tablosunu veya Arama kutusunu kullanın.
+## <a name="1-the-top-nav-pane"></a>1. Üst gezinti bölmesi
+Üst gezinti bölmesinden birçok farklı eylem gerçekleştirilebilir ve sürekli olarak bu eylemlere yenileri eklenmektedir. Belirli bir eylem hakkında bilgi edinmek için Power BI belgelerinin içindekiler tablosunu veya Arama kutusunu kullanın.
 
 
 ## <a name="2-the-report-canvas"></a>2. Rapor tuvali
@@ -156,5 +155,5 @@ Power BI rapordaki alanların türünü belirtmek için bir dizi farklı simge k
 
 [Power BI tasarımcıları için temel kavramlar](service-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

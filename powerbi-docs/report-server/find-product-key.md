@@ -2,19 +2,18 @@
 title: Rapor sunucusu ürün anahtarınızı bulma
 description: Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769638"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859695"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Rapor sunucusu ürün anahtarınızı bulma
 Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.
@@ -42,13 +41,13 @@ SQL Server Enterprise YG sözleşmeniz varsa ürün anahtarınızı [Toplu Lisan
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Toplu Lisanslama Hizmeti Merkezi")
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

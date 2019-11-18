@@ -2,19 +2,18 @@
 title: Uygulamayı Power BI'da yayımlama
 description: Yerleşik gezintiyle pano ve rapor koleksiyonları olan yeni uygulamaları yayımlamayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020231"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853638"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -115,7 +114,7 @@ Aşağıdakileri yaparak uygulama gezintisini daha da özelleştirebilirsiniz:
 * **Rapor ayrıntıları**, **Pano ayrıntıları** ve **Çalışma kitabı ayrıntıları**'ndaki öğeleri yeniden adlandırma.
 * Bazı öğeleri gezintiden gizleme.
 * **Yeni** seçeneğini kullanıp **bölümler** ekleyerek birbiriyle ilgili içeriği gruplandırma.
-* **Yeni** seçeneğini kullanarak sol gezintiye bir dış kaynağın **bağlantısını** ekleme. 
+* **Yeni** seçeneğini kullanarak gezinti bölmesine bir dış kaynağın **bağlantısını** ekleme. 
 
 **Bağlantı** eklerken **Bağlantı ayrıntıları** altında bağlantının nerede açılacağını seçebilirsiniz. Varsayılan olarak bağlantılar **Geçerli sekme**'de açılır ama **Yeni sekme**'yi veya **İçerik alanı**'nı da seçebilirsiniz. 
 
@@ -187,7 +186,7 @@ Bu eylem uygulamayı yayımladığınız herkesten uygulamayı kaldırır ve bu 
 
 ## <a name="view-your-published-app"></a>Yayımlanmış uygulamanızı görüntüleme
 
-Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI son gezinti bölmesi yerine sizin oluşturduğunuz gezintiyi görür. Uygulama gezintisi sizin tanımladığınız bölümlerde raporları ve panoları listeler. Ayrıca, yalnızca rapor adını değil her rapordaki tek tek sayfaları da listeler.
+Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI gezinti bölmesi yerine sizin oluşturduğunuz gezintiyi görür. Uygulama gezintisi sizin tanımladığınız bölümlerde raporları ve panoları listeler. Ayrıca, yalnızca rapor adını değil her rapordaki tek tek sayfaları da listeler.
 
 ![Gezintisi gösterilen uygulama](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
 * [Power BI'da uygulamaları yükleme ve kullanma](consumer/end-user-apps.md)
 * [Dış hizmetler için Power BI uygulamaları](service-connect-to-services.md)
 * [Power BI Yönetici Portalı](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

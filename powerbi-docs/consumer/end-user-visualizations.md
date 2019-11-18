@@ -2,7 +2,6 @@
 title: Görselleştirmelerle (görsellerle) bir tüketici olarak çalışma
 description: 'Power BI kavramları ve terminolojisi: görselleştirmeler, görseller. Power BI bağlamında görselleştirme, görsel nedir?'
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379966"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860981"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
 
@@ -52,7 +51,7 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 |[Power BI'ın görsel verilerindeki ilgi çekici olguları veya eğilimleri aramasını isteyin](end-user-insights.md).  Otomatik olarak oluşturulan bu görseller *içgörü* olarak adlandırılır.     |    evet     |  görsel başına değil raporun tamamı için       | hayır   |
 |[*Odak* modunu kullanarak bir kerede tek bir görseli görüntüleyin](end-user-focus.md).     | evet        |   evet      | yok  |
 |[Görselin en son yenilenme zamanını bulun](end-user-fresh.md).     |  evet       |    evet     | yok  |
-|[*Tam ekran* veya *odak* modunu kullanarak tek seferde kenarlıklar veya gezinti çubukları olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | varsayılan olarak  |
+|[*Tam ekran* veya *odak* modunu kullanarak tek seferde kenarlıklar veya gezinti bölmeleri olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | varsayılan olarak  |
 |[Yazdırın](end-user-print.md).     |  evet       |   evet      | hayır  |
 |[Görsel filtreleri ekleyip var olanları düzenleyerek görselin ayrıntılarına inin.](end-user-report-filter.md)     |    hayır     |   evet      | hayır  |
 |Ek ayrıntıları ve araç ipuçlarını görmek için bir görselin üzerine gelin.     |    evet     |   evet      | evet  |

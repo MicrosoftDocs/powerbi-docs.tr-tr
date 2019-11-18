@@ -2,7 +2,6 @@
 title: Bir kurumsal içerik paketinin bağlantısını kesme - Power BI
 description: Bir kurumsal içerik paketinin bağlantısını, Power BI'daki veri kümesini silerek nasıl keseceğiniz hakkında bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3936ebfedb1e4e51fe93b948a49de0b9fb133c52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020648"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881285"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 
@@ -27,7 +26,7 @@ ms.locfileid: "72020648"
 
 Bir içerik paketini kaldırmak için veri kümesini silersiniz.  
 
-* Sol gezinti bölmesinde veri kümesinin sağında bulunan üç nokta simgesini seçin ve ardından **Kaldır \> Evet** seçeneğini belirleyin.  
+* Gezinti bölmesinde veri kümesinin sağında bulunan üç nokta simgesini seçin ve ardından **Kaldır \> Evet** seçeneğini belirleyin.  
   
   ![İçerik paketini kaldırma](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 
@@ -37,5 +36,5 @@ Veri kümesi kaldırıldığında, ilişkili olduğu tüm raporlar ve panolar da
 * [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md) 
 * [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
 * [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

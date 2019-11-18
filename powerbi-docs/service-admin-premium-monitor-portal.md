@@ -3,64 +3,63 @@ title: Yönetim portalını kullanarak Power BI Premium kapasitelerini izleme
 description: Premium kapasitelerinizi izlemek için Power BI yönetim portalını kullanın.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0d1e0da498a7a2c78e86b643b8a86cb87d6d095a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564887"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856864"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Yönetim portalında kapasiteleri izleme
 
-**Sistem durumu** sekmesinde **kapasite ayarlarını** alanı Yönetim Portalı'nda, kapasite ve etkin iş yükleri hakkında özet bir ölçüm sağlar.  
+Yönetim portalının **Kapasite ayarları** alanındaki **Sistem durumu** sekmesi, kapasiteniz ve etkin iş yükleriniz ile ilgili ölçümler hakkında özet bilgiler sunar.  
 
-![Portalda kapasite sistem durumu sekmesi](media/service-admin-premium-monitor-portal/admin-portal-health.png)
+![Portaldaki Kapasite Sistem Durumu sekmesi](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-Daha kapsamlı ölçüler ihtiyacınız varsa, [Power BI Premium kapasite ölçümleri](service-admin-premium-monitor-capacity.md) uygulama. En ayrıntılı ölçümler için neredeyse her açıdan kapasite performansını ve uygulama detaya gitme ve filtreleme sağlar. Daha fazla bilgi için bkz. [İzleyici Premium kapasiteleri uygulamasıyla](service-admin-premium-monitor-capacity.md).
+Daha kapsamlı ölçümlere ihtiyacınız varsa [Power BI Premium Kapasite Ölçümleri](service-admin-premium-monitor-capacity.md) uygulamasını kullanın. Bu uygulama detaya gitme ve filtreleme özelliklerine ek olarak kapasite performansını etkileyen neredeyse tüm etmenler için en ayrıntılı ölçümleri sunar. Daha fazla bilgi edinmek için bkz. [Uygulama ile Premium kapasiteleri izleme](service-admin-premium-monitor-capacity.md).
 
-## <a name="system-metrics"></a>Sistem ölçümlerini
+## <a name="system-metrics"></a>Sistem Ölçümleri
 
-Üzerinde **sistem durumu** sekmesinde, yüksek düzeyde CPU kullanımı ve bellek kullanım kapasitesi için en önemli ölçümler hızlı bir görünümünü sağlar. Bu ölçümler toplu, dahil olmak üzere tüm iş yükleri kapasite için etkindir.
+**Sistem durumu** sekmesinde en üst düzeyde görüntülenen CPU ve bellek kullanımı, kapasiteyle ilgili en önemli ölçümler hakkında hızlı bir görünüm sunar. Bu ölçümler, kapasitede etkinleştirilmiş olan tüm iş yüklerinin birikimidir.
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
-| CPU KULLANIMI | Toplam kullanılabilir CPU yüzdesi cinsinden ortalama CPU kullanımı. |
+| CPU KULLANIMI | Kullanılabilir toplam CPU değerinin yüzdesi olarak görüntülenen ortalama CPU kullanımı. |
 | BELLEK KULLANIMI | Gigabayt (GB) cinsinden ortalama bellek kullanımı.|
 
 ## <a name="workload-metrics"></a>İş yükü ölçümleri
 
-Kapasiteyi etkin her iş yükü için. CPU kullanımı ve bellek kullanımı gösterilmektedir.
+Kapasitede etkinleştirilen her bir iş yükü için. CPU ve bellek kullanımı gösterilir.
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
-| CPU KULLANIMI | Toplam kullanılabilir CPU yüzdesi cinsinden ortalama CPU kullanımı. |
+| CPU KULLANIMI | Kullanılabilir toplam CPU değerinin yüzdesi olarak görüntülenen ortalama CPU kullanımı. |
 | BELLEK KULLANIMI | Gigabayt (GB) cinsinden ortalama bellek kullanımı.|
 
 ### <a name="detailed-workload-metrics"></a>Ayrıntılı iş yükü ölçümleri
 
-Her iş yükünün ek ölçümler vardır. Gösterilen ölçümleri türü iş yüküne bağlıdır. Bir iş yükü için ayrıntılı ölçümler görmek için Genişlet (basılı) oka tıklayın.
+Her iş yükü el ölçümlere sahiptir. Gösterilen ölçüm türleri, iş yüküne göre değişir. Bir iş yükünün ayrıntılı ölçümlerini görmek için genişlet (aşağı) okuna tıklayın.
 
-![İş yükü sistem durumu genişletin](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+![İş yükü durumunu genişletme](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
 
 #### <a name="dataflows"></a>Veri akışları
 
-##### <a name="dataflow-operations"></a>Veri akışı işlem
+##### <a name="dataflow-operations"></a>Veri Akışı İşlemleri
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
 | Toplam Sayı | Her veri akışı için toplam yenileme sayısı. |
-| Başarı Sayısı | Her veri akışı için toplam başarılı yeniler.|
-| Ortalama süre (dk) | Veri akışı yenilemesinin ortalama süresi (dakika cinsinden) |
-| En uzun süre (dk) | Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
-| Ortalama Bekleme süresi (dak) | Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden). |
-| En fazla bekleme süresi (dk) | Veri akışının en uzun bekleme süresi (dakika cinsinden).  |
+| Başarı Sayısı | Her veri akışı için toplam başarılı yenileme sayısı.|
+| Ortalama Süre (dk) | Veri akışı yenilemesinin ortalama süresi (dakika cinsinden) |
+| En Uzun Süre (dk) | Veri akışında en uzun zamandır çalışan yenilemenin süresi (dakika cinsinden). |
+| Ortalama Bekleme Süresi (dk) | Zamanlanan saat ve veri akışının yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden). |
+| En Fazla Bekleme Süresi (dk) | Veri akışının en uzun bekleme süresi (dakika cinsinden).  |
 
 #### <a name="datasets"></a>Veri kümeleri
 
@@ -69,13 +68,13 @@ Her iş yükünün ek ölçümler vardır. Gösterilen ölçümleri türü iş y
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
 | Toplam Sayı | Her veri kümesi için toplam yenileme sayısı. |
-| Başarı Sayısı | Toplam her veri kümesi için yenileme başarılı. |
-| Hata Sayısı | Toplam, her veri kümesi için yenileme başarısız oldu. |
-| Başarı oranı  | Başarılı yenileme ölçmek için toplam yenilemelerinde bölünmüş sayısı. Güvenilirlik. |
-| Ortalama süre (dk) | Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).  |
-| En uzun süre (dk) | Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
-| Ortalama Bekleme süresi (dak) | Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden). |
-| En fazla bekleme süresi (dk) | Veri kümesi için en uzun bekleme süresi (dakika cinsinden). |
+| Başarı Sayısı | Her veri kümesi için toplam başarılı yenileme sayısı. |
+| Hata Sayısı | Her veri kümesi için toplam başarısız yenileme sayısı. |
+| Başarı Oranı  | Başarılı yenileme sayısının son toplam başarılı yenileme sayısına bölünmesiyle elde edilen sonuç. Güvenilirlik. |
+| Ortalama Süre (dk) | Veri kümesi yenilemesinin ortalama süresi (dakika cinsinden).  |
+| En Uzun Süre (dk) | Veri kümesinin en uzun çalışan yenilemesinin süresi (dakika cinsinden). |
+| Ortalama Bekleme Süresi (dk) | Zamanlanan saat ve veri kümesinin yenileme başlangıcı arasındaki ortalama gecikme süresi (dakika cinsinden). |
+| En Fazla Bekleme Süresi (dk) | Veri kümesi için en uzun bekleme süresi (dakika cinsinden). |
 
 ##### <a name="query"></a>Sorgu
 
@@ -85,39 +84,39 @@ Her iş yükünün ek ölçümler vardır. Gösterilen ölçümleri türü iş y
 | Ortalama Süre (ms) |Veri kümesi için ortalama sorgu süresi (milisaniye cinsinden)|
 | En Uzun Süre (ms) |Veri kümesinde en uzun süre çalışan sorgunun süresi (milisaniye cinsinden). |
 | Ortalama Bekleme Süresi (ms) |Veri kümesi için ortalama sorgu bekleme süresi (milisaniye cinsinden). |
-| En fazla bekleme süresi (ms) |Veri kümesinde en uzun süre bekleyen sorgunun süresi (milisaniye cinsinden). |
+| En Fazla Bekleme Süresi (ms) |Veri kümesinde en uzun süre bekleyen sorgunun süresi (milisaniye cinsinden). |
 
 ##### <a name="eviction"></a>Çıkarma
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
-| Model sayısı | Bu kapasite için veri kümesi çıkarmaları toplam sayısı. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten çıkarır. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir. |
+| Model Sayısı | Bu kapasite için veri kümesi çıkarmalarının toplam sayısı. Kapasite, bellek baskısıyla karşı karşıya kaldığında düğüm bir veya daha fazla veri kümesini bellekten çıkarır. Devre dışı olan veri kümeleri (sorgu/yenileme işlemi yürütülmeyen) önce çıkarılır. Çıkarma sırası, 'en önce kullanılan' (LRU) ölçütüne göre belirlenir. |
 
 #### <a name="paginated-reports"></a>Sayfalandırılmış Raporlar
 
-##### <a name="report-execution"></a>Rapor yürütme
+##### <a name="report-execution"></a>Rapor Yürütme
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
-| Yürütme sayısı  | Rapor yürütüldü sayısı ve kullanıcılar tarafından görüntülenebilir.|
+| Yürütme Sayısı  | Raporun kullanıcılar tarafından toplam yürütülme ve görüntülenme sayısı.|
 
-##### <a name="report-usage"></a>Rapor kullanım
+##### <a name="report-usage"></a>Rapor Kullanımı
 
 | **Ölçüm** | **Açıklama** |
 | --- | --- |
-| Başarı Sayısı | Rapor, bir kullanıcı tarafından görüntülenmiş sayısı. |
-| Hata Sayısı |Rapor, bir kullanıcı tarafından görüntülenmiş sayısı.|
+| Başarı Sayısı | Raporun bir kullanıcı tarafından toplam görüntülenme sayısı. |
+| Hata Sayısı |Raporun bir kullanıcı tarafından toplam görüntülenme sayısı.|
 | Satır Sayısı |Rapordaki veri satırlarının sayısı. |
-| Veri alma süresi (ms) |Raporun verilerini almak için gereken ortalama süre (milisaniye cinsinden). Uzun süreler yavaş çalışan sorgulara veya başka veri kaynağı sorunlarına işaret ediyor olabilir.  |
-| İşleme süresi (ms) |Raporun verileri üzerinde işlem yapmak için gereken ortalama süre (milisaniye cinsinden). |
-| İşleme süresi (ms) |Raporu tarayıcıda işlemek için gereken ortalama süre (milisaniye cinsinden). |
+| Veri Alma Süresi (ms) |Raporun verilerini almak için gereken ortalama süre (milisaniye cinsinden). Uzun süreler yavaş çalışan sorgulara veya başka veri kaynağı sorunlarına işaret ediyor olabilir.  |
+| İşlem Süresi (ms) |Raporun verileri üzerinde işlem yapmak için gereken ortalama süre (milisaniye cinsinden). |
+| İşleme Süresi (ms) |Raporu tarayıcıda işlemek için gereken ortalama süre (milisaniye cinsinden). |
 
 > [!NOTE]
-> Ayrıntılı ölçümler için **AI** iş yükü henüz mevcut değildir.
+> **Yapay zeka** iş yükü için ayrıntılı ölçümler henüz mevcut değildir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Power BI Premium kapasitelerini izlemeyi anladığınıza göre kapasiteleri iyileştirme konusunda daha fazla bilgi edinebilirsiniz.
 
 > [!div class="nextstepaction"]
-> [Power BI Premium kapasiteleri en iyi duruma getirme](service-premium-capacity-optimize.md)
+> [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)

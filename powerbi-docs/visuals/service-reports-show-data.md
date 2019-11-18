@@ -2,20 +2,19 @@
 title: Power BI görselleştirmesini oluşturmak için kullanılan verileri gösterme
 description: Bu belgede Power BI'daki bir görseli oluşturmak için kullanılan verileri gösterme ve bu verileri .csv dosyası biçiminde dışarı aktarma adımları açıklanmaktadır.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/26/2018
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ffb0a2e7bee17d71ca2037c8a233c2443ff1120
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389850"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880635"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 ## <a name="show-data"></a>Verileri göster
@@ -28,17 +27,20 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 > 
 > 
 
-## <a name="using-show-data-in-power-bi-service"></a>Power BI hizmetinde *Verileri Göster* işlevini kullanma
-1. Power BI hizmetinde bir raporu [Okuma görünümü veya Düzenleme görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açın ve bir görsel seçin.  Power BI Desktop'ta Rapor görünümünü açın.
-2. Görselde kullanılan verileri görüntülemek için **Araştır** > **Verileri göster**'i seçin.
-   
-   ![Verileri Göster’i seçme](media/service-reports-show-data/power-bi-show-data.png)
+## <a name="using-show-data"></a>*Verileri Göster* seçeneğini kullanma 
+1. Power BI Desktop'ta etkin duruma getirmek için bir görselleştirmeyi seçin.
+
+2. **Diğer eylemler** (...) ve **Verileri göster** öğelerini seçin. 
+    ![Verileri Göster için görüntüleme seçenekleri](media/service-reports-show-data/power-bi-more-action.png)
+
+
 3. Veriler varsayılan olarak görselin altında gösterilir.
    
-   ![görsel ve veri dikey görüntüsü](media/service-reports-show-data/power-bi-explore-show-data.png)
-4. Verilerin yönünü değiştirmek için görselleştirmenin sağ üst köşesinden dikey düzeni ![](media/service-reports-show-data/power-bi-vertical-icon-new.png) seçin.
+   ![görsel ve veri dikey görüntüsü](media/service-reports-show-data/power-bi-show-data-below.png)
+
+4. Yönü değiştirmek için, görselleştirmenin sağ üst köşesinde dikey düzeni ![dikey yerleşime geçmek için kullanılan simgenin küçük ekran görüntüsü](media/service-reports-show-data/power-bi-vertical-icon-new.png) seçin.
    
-   ![görsel ve veri yatay görüntüsü](media/service-reports-show-data/power-bi-explore-show-data2.png)
+   ![görsel ve veri yatay görüntüsü](media/service-reports-show-data/power-bi-show-data-side.png)
 5. Verileri .csv biçiminde dışarı aktarmak için üç noktayı ve ardından **Verileri dışarı aktar**'ı seçin.
    
     ![Verileri dışarı aktar’ı seçme](media/service-reports-show-data/power-bi-export-data-new.png)
@@ -46,9 +48,30 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
     Verileri Excel'e aktarma hakkında daha fazla bilgi için bkz. [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md).
 6. Verileri gizlemek için **Araştır** > **verileri göster** seçimini kaldırın.
 
+## <a name="using-show-records"></a>Kayıtları göster seçeneğini kullanma
+Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin temel aldığı verilerin de detayına gidebilirsiniz. 
+
+1. **Kayıtları görüntüle** seçeneğini kullanmak için, bir görselleştirmeyi seçerek etkin duruma getirin. 
+
+2. Masaüstü şeridinde **Görsel araçlar** > **Veri/Detay** > **Kayıtları görüntüle** sekmesini seçin. 
+
+    ![Kayıtları Görüntüle özelliğinin seçili olduğunu gösteren ekran görüntüsü.](media/service-reports-show-data/power-bi-see-record.png)
+
+3. Görselleştirme üzerinde bir veri noktası veya satır seçin. Bu örnekte soldan dördüncü sütunu seçtik. Power BI, bu veri noktasına ait olan veri kümesi kaydını gösterir.
+
+    ![Veri kümesindeki tek bir kaydın ekran görüntüsü.](media/service-reports-show-data/power-bi-row.png)
+
+4. Masaüstü rapor tuvaline geri dönmek için **Rapora geri dön**'ü seçin. 
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
+- Şeritteki **Kayıtları görüntüle** düğmesinin devre dışı ve gri renkte olması, seçili görselleştirmenin Kayıtları Görüntüle özelliğini desteklemediği anlamına gelir.
+- Kayıtları Görüntüle görünümünde verileri değiştiremez ve rapora geri kaydedemezsiniz.
+- Görselinizde hesaplanmış ölçü kullanılıyorsa Kayıtları Görüntüle özelliğinden yararlanamazsınız.
+- Canlı bir çok boyutlu (MD) modele bağlıyken Kayıtları Görüntüle özelliğini kullanamazsınız.  
+
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md)    
-[Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)    
-[Power BI raporları](../consumer/end-user-reports.md)    
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

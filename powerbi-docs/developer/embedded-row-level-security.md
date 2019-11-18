@@ -3,18 +3,17 @@ title: Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kull
 description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073360"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875815"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -33,7 +32,7 @@ RLS'den faydalanmak için üç ana kavramı anlamak önemlidir: Kullanıcılar, 
 **Roller**: Kullanıcılar rollere aittir. Rol, kural kapsayıcısıdır ve *Satış Yöneticisi* veya *Satış Temsilcisi* gibi adlar verilebilir. Rolleri Power BI Desktop uygulamasından oluşturabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../desktop-rls.md).
 
 **Kurallar**: Roller kurallara sahiptir ve bu kurallar, verilere uygulanacak gerçek filtrelerdir. Kurallar, "Country = USA" kadar basit veya çok daha dinamik bir şey olabilir.
-Bu makalenin kalan bölümünde RLS yazma ve sonra bunu eklenmiş bir uygulama içinde kullanma için bir örnek verilmektedir. Örneğimizde [Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkID=780547) PBIX dosyası kullanılmıştır.
+Bu makalenin kalan bölümünde RLS yazma ve sonra bunu eklenmiş bir uygulama içinde kullanma için bir örnek verilmektedir. Örneğimizde [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX dosyası kullanılmıştır.
 
 ![Rapor örneği](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -64,7 +63,7 @@ Aşağıdaki adımları uygulayın:
 2. **Manager** adlı yeni bir rol oluşturun.
 
     ![Yeni rol oluşturma](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()**.
+3. **District** tablosuna şu DAX deyimini girin: **[District Manager] = USERNAME()** .
 
     ![RLS kuralı için DAX deyimi](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Kuralların çalıştığından emin olmak için **Modelleme** sekmesinde **Rol olarak görüntüle**'yi ve ardından oluşturduğunuz **Manager** rolünü ve **Diğer kullanıcılar**'ı seçin. Kullanıcı olarak **AndrewMa** girin.
@@ -73,7 +72,7 @@ Aşağıdaki adımları uygulayın:
 
     Raporlarda veriler **AndrewMa** olarak oturum açmışsınız gibi gösterilir.
 
-Burada yaptığımız gibi filtreyi uygulamak **District**, **Store** ve **Sales** tablolarındaki tüm kayıtları filtreler. Ancak **Sales** ile **Time**, **Sales** ile **Item** ve **Item** ile **Time** tabloları arasındaki ilişkilerdeki filtre yönü nedeniyle tablolar filtrelenmez. İki yönlü çapraz filtreleme hakkında daha fazla bilgi edinmek için [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (SQL Server Analysis Services 2016 ve Power BI Desktop'ta iki yönlü çapraz filtreleme)](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) teknik incelemesini indirin.
+Burada yaptığımız gibi filtreyi uygulamak **District**, **Store** ve **Sales** tablolarındaki tüm kayıtları filtreler. Ancak **Sales** ile **Time**, **Sales** ile **Item** ve **Item** ile **Time** tabloları arasındaki ilişkilerdeki filtre yönü nedeniyle tablolar filtrelenmez. İki yönlü çapraz filtreleme hakkında daha fazla bilgi edinmek için [Bidirectional cross-filtering in SQL Server Analysis Services 2016 and Power BI Desktop (SQL Server Analysis Services 2016 ve Power BI Desktop'ta iki yönlü çapraz filtreleme)](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) teknik incelemesini indirin.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Ekleme belirtecine kullanıcı ve rol uygulama
 
@@ -83,9 +82,9 @@ Kullanıcıların kimlik doğrulaması ve yetkilendirmesi uygulama tarafından g
 
 API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin çalışması için aşağıdaki parçaları kimlikle birlikte iletmeniz gerekir.
 
-* **username (zorunlu)**: RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
-* **roles (zorunlu)**: Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
-* **dataset (zorunlu)**: Eklediğiniz yapıta uygulanabilen bir veri kümesi.
+* **username (zorunlu)** : RLS kurallarını uygularken kullanıcının kimliğini belirlemeye yardımcı olmak için kullanılabilen bir dize. Yalnızca tek bir kullanıcı listelenebilir. Kullanıcı adınız *ASCII* karakterler ile oluşturulabilir.
+* **roles (zorunlu)** : Satır Düzeyi Güvenlik kurallarını uygularken seçilecek rolleri içeren dize. Birden fazla rol iletiliyorsa dize dizisi olarak iletilmesi gerekir.
+* **dataset (zorunlu)** : Eklediğiniz yapıta uygulanabilen bir veri kümesi.
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz.
 
@@ -241,7 +240,7 @@ Raporda verilerinizi filtrelemeye karar verirseniz **satır düzeyi güvenliği 
 
 [JavaScript filtreleri](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters), ile kullanıcı verilerin sınırlı, kapsamlı veya filtrelenmiş bir görünümünü kullanabilir. Öte yandan kullanıcı hala model şeması tablolarına, sütunlara ve ölçülere erişebilir ve verilere buralardan ulaşabilir. Verilere sınırlı erişim yalnızca RLS tarafından uygulanabilir ve istemci tarafı filtreleme API’leri üzerinden uygulanamaz.
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Azure SQL Veritabanı ile Belirteç Tabanlı Kimlik (Önizleme)
+## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Veritabanı ile Belirteç Tabanlı Kimlik
 
 **Belirteç tabanlı kimlik**, **Azure SQL Veritabanı** için **Azure Active Directory (AAD)** erişim belirtecini kullanarak ekleme belirtecine etkili bir kimlik belirtmenize olanak tanır.
 
@@ -332,7 +331,7 @@ Yönetim portalını kullanarak bu izni ayarlayamazsınız. Bu izin yalnızca AP
 * Temel alınan veri kümesi bir bulut modeliyse (önbelleğe alınmış model veya DirectQuery) etkin kimliğin en az bir rol içermesi gerekir. Aksi halde, rol ataması gerçekleşmez.
 * Kimlik listesi sayesinde, pano ekleme işlemi için birden çok kimlik belirteci kullanılabilir. Diğer tüm yapıtlar için liste tek bir kimlik içerir.
 
-### <a name="token-based-identity-limitations-preview"></a>Belirteç Tabanlı Kimlik sınırlamaları (Önizleme)
+### <a name="token-based-identity-limitations"></a>Belirteç Tabanlı Kimlik sınırlamaları
 
 * Bu özellik kullanımı yalnızca Power BI Premium ile kısıtlar.
 * Bu özellik SQL Server şirketi içi ile çalışmaz.

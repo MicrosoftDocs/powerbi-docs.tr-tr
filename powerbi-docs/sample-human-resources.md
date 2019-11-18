@@ -2,7 +2,6 @@
 title: 'İnsan Kaynakları örneği: Tura katılın'
 description: 'Power BI için İnsan Kaynakları örneği: Tura katılın'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858858"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI için İnsan Kaynakları örneği: Tura katılın
 
@@ -58,11 +57,11 @@ Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, İnsan Kaynakları örneğini bir [.pbix dosyası](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
+Alternatif olarak, İnsan Kaynakları örneğini bir [.pbix dosyası](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529780) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529780) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="new-hires"></a>Yeni işe alımlar
 Önce yeni işe alımları inceleyelim.
@@ -87,7 +86,7 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
 
 4. Yaş, cinsiyet, bölge ve etnik köken arasındaki ilişkileri araştırmak için grafiklerdeki farklı yaş gruplarını ve cinsiyetleri seçin.
 
-5. Panoya geri dönmek için üst gezinti çubuğundan **İnsan Kaynakları Örneği** seçeneğini belirleyin.
+5. Panoya geri dönmek için üst gezinti bölmesinden **İnsan Kaynakları Örneği** seçeneğini belirleyin.
 
    ![Panoya geri dönme](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Rapora, Düzenleme Görünümü'nde göz atalım. Geçerli çalışan verileri y
 
 8. **Gender’a göre Active Employee Count** pasta grafiği için de aynı adımları izleyebilir ve grafiği, etkin çalışanlar yerine ayrılanları gösterecek şekilde değiştirebilirsiniz. Başka herhangi bir öngörü bulup bulamayacağınızı öğrenmek için cinsiyete göre gönüllü ayrılma verilerini gözden geçirin.
 
-9. Panoya geri dönmek için üst gezinti çubuğundan **İnsan Kaynakları Örneği** seçeneğini belirleyin. Raporda yapmış olduğunuz değişiklikleri kaydedip kaydetmemek size kalmıştır.
+9. Panoya geri dönmek için üst gezinti bölmesinden **İnsan Kaynakları Örneği** seçeneğini belirleyin. Raporda yapmış olduğunuz değişiklikleri kaydedip kaydetmemek size kalmıştır.
 
 ## <a name="bad-hires"></a>Hatalı işe alımlar
 Araştırılacak son alan hatalı işe alımlardır. Hatalı işe alımlar, en fazla 60 gün çalışan kişiler olarak tanımlanır. İşe alım sürecimizi hızla tamamlayabiliyoruz, ancak iyi adayları işe alıyor muyuz?
@@ -147,7 +146,7 @@ Araştırılacak son alan hatalı işe alımlardır. Hatalı işe alımlar, en f
 
 3. **Gender’a göre Bad Hire Count** halka grafiğine bakıp **Region** dilimleyicisinde farklı bölgeler seçerseniz hatalı kadın işe alımlarının, hatalı erkek işe alımlarından daha fazla olduğu tek bölgenin East bölgesi olduğunu fark edersiniz.  
 
-4. Panoya geri dönmek için üst gezinti çubuğundan panonun adını seçin.
+4. Panoya geri dönmek için üst gezinti bölmesinden panonun adını seçin.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Panodaki Soru-Cevap kutusunda soru sorma
 Panodaki [Soru-Cevap soru kutusunda](power-bi-tutorial-q-and-a.md) doğal dil kullanarak verileriniz hakkında soru sorabilirsiniz. Soru-Cevap, yazdığınız kelimeleri tanıyarak cevabı veri kümesinin neresinde bulabileceğini belirler.

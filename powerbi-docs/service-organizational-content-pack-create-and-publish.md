@@ -2,7 +2,6 @@
 title: Kurumsal içerik paketi oluşturma ve yayımlama - Power BI
 description: Bu öğretici kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, erişimi belirli bir grup ile sınırlayacak ve içerik paketini, kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020661"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872000"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Öğretici: Power BI kurumsal içerik paketi oluşturma ve yayımlama
 
@@ -34,9 +33,9 @@ Contoso'da Yayın Yöneticisi olduğunuzu ve yeni bir ürün lansmanı için haz
 
 Birlikte ilerlemek ister misiniz? [Power BI hizmeti](https://powerbi.com)’nde **Çalışma Alanım**'a gidin. Sonra **Veri Al** > **Örnekler** > **Fırsat Analizi Örneği** > **Bağlan**’a giderek kendi kopyanızı alın.
 
-1. Sol gezinti bölmesinde **Çalışma Alanları** > **Çalışma alanım**’ı seçin.
+1. Gezinti bölmesinde **Çalışma Alanları** > **Çalışma alanlarım**'ı seçin.
 
-1. Üst gezinti çubuğunda dişli simgesini ![Dişli simgesinin ekran görüntüsü](media/service-organizational-content-pack-create-and-publish/cog.png) seçin. > **İçerik paketi oluştur**.
+1. Üst gezinti bölmesinde dişli simgesini ![Dişli simgesinin ekran görüntüsü](media/service-organizational-content-pack-create-and-publish/cog.png) seçin. > **İçerik paketi oluştur**.
 
    ![Dişli simgesine odaklanmış kullanıcı arabirimi ve İçerik paketi oluştur seçeneğinin ekran görüntüsü.](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ Birlikte ilerlemek ister misiniz? [Power BI hizmeti](https://powerbi.com)’nde 
 
 * [OneDrive İş nedir?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

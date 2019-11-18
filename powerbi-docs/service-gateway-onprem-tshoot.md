@@ -3,25 +3,24 @@ title: Ağ geçidiyle ilgili sorunları giderme - Power BI
 description: Bu makalede, şirket içi veri ağ geçidi ve Power BI ile ilgili sorunları gidermeye yönelik yöntemler açıklanır. Bilinen sorunlara ilişkin olası geçici çözümlerin yanı sıra bu işlemlerde size yardımcı olabilecek araçlara da yer verilmiştir.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543825"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881569"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Ağ geçidiyle ilgili sorunları giderme - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Bu makalede, şirket içi veri ağ geçidini Power BI ile kullanırken karşılaştığınız bazı yaygın sorunlar ele alınır. Burada listelenmeyen bir sorunla karşılaşırsanız Power BI [Topluluk](http://community.powerbi.com) sitesini kullanabilirsiniz. Öte yandan bir [destek bileti](http://powerbi.microsoft.com/support) de oluşturabilirsiniz.
+Bu makalede, şirket içi veri ağ geçidini Power BI ile kullanırken karşılaştığınız bazı yaygın sorunlar ele alınır. Burada listelenmeyen bir sorunla karşılaşırsanız Power BI [Topluluk](https://community.powerbi.com) sitesini kullanabilirsiniz. Öte yandan bir [destek bileti](https://powerbi.microsoft.com/support) de oluşturabilirsiniz.
 
 ## <a name="configuration"></a>Yapılandırma
 
@@ -241,7 +240,7 @@ Yenileme senaryolarındaki sorunları giderme hakkında daha fazla bilgi için b
 
 ## <a name="fiddler-trace"></a>Fiddler ile izleme
 
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izlemeyi sağlayan ücretsiz bir araçtır. İstemci makinesinden Power BI hizmetindeki gelen ve giden trafiği görebilirsiniz. Bu trafik listesi hataları ve diğer ilgili bilgileri gösterebilir.
+[Fiddler](https://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izlemeyi sağlayan ücretsiz bir araçtır. İstemci makinesinden Power BI hizmetindeki gelen ve giden trafiği görebilirsiniz. Bu trafik listesi hataları ve diğer ilgili bilgileri gösterebilir.
 
 ![Fiddler izlemesini kullanma](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Yenileme senaryolarındaki sorunları giderme hakkında daha fazla bilgi için b
 * [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'nu deneyin.
+Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.

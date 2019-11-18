@@ -3,18 +3,17 @@ title: Bir rapor sunucusu yüklemesini geçirme
 description: Bir Power BI Rapor Sunucusu örneğine mevcut SQL Server Reporting Services örneğinizi geçirmeyi öğrenin.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770173"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858890"
 ---
 # <a name="migrate-a-report-server-installation"></a>Bir rapor sunucusu yüklemesini geçirme
 
@@ -35,7 +34,7 @@ Geçiş, uygulama verisi dosyalarını yeni bir Power BI Rapor Sunucusu örneği
 
 Bir SSRS (Yerel mod) örneğinden Power BI Rapor Sunucusu'na geçiş birkaç adımdan oluşur.
 
-![SSRS yerel modundan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-ssrs-native.png "SSRS yerel modundan Power BI Rapor Sunucusu’na geçiş")
+![SSRS yerel modundan Power BI Rapor Sunucusu'na geçme](media/migrate-report-server/migrate-from-ssrs-native.png "SSRS yerel modundan Power BI Rapor Sunucusu'na geçme")
 
 > [!NOTE]
 > SQL Server 2008 Reporting Services ve sonraki sürümleri geçiş için desteklenmektedir.
@@ -55,7 +54,7 @@ Bir SSRS (Yerel mod) örneğinden Power BI Rapor Sunucusu'na geçiş birkaç ad�
 
 Bir SSRS'den (SharePoint ile tümleşik modu) Power BI Rapor Sunucusu'na geçiş yerel moddaki kadar basit değildir. Bu adımlar bazı konularda yol gösterici olsa da SharePoint'te bu adımların dışında yönetilmesi gereken başka dosyalarınız ve varlıklarınız olabilir.
 
-![SSRS SharePoint tümleşik modundan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "SSRS SharePoint tümleşik modundan Power BI Rapor Sunucusu’na geçiş")
+![SSRS SharePoint ile tümleşik modundan Power BI Rapor Sunucusu'na geçme](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "SSRS SharePoint ile tümleşik modundan Power BI Rapor Sunucusu'na geçme")
 
 SharePoint'teki belirli rapor sunucusu içeriklerinizi Power BI Rapor Sunucunuza geçirmeniz gerekir. Power BI Rapor Sunucusu'nun ortamınızdaki herhangi bir konumda zaten yüklü olması gerekir. Power BI Rapor Sunucusu'nu yükleme hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md).
 
@@ -70,10 +69,10 @@ SharePoint ortamınızdaki rapor sunucusu içeriğini Power BI Rapor Sunucusu'na
 Sample Script
 rs.exe
 -i ssrs_migration.rss -e Mgmt2010
--s http://SourceServer/_vti_bin/reportserver
+-s https://SourceServer/_vti_bin/reportserver
 -v st="sites/bi" -v f="Shared Documents“
 -u Domain\User1 -p Password
--v ts=http://TargetServer/reportserver
+-v ts=https://TargetServer/reportserver
 -v tu="Domain\User" -v tp="Password"
 ```
 
@@ -81,7 +80,7 @@ rs.exe
 
 Bir Power BI Rapor Sunucusu'ndan geçiş yaparken izlenen süreç, SSRS'den (yerel mod) geçiş yapılırken izlenen süreçle aynıdır.
 
-![Power BI Rapor Sunucusu’ndan Power BI Rapor Sunucusu’na geçiş](media/migrate-report-server/migrate-from-pbirs.png "Power BI Rapor Sunucusu’ndan Power BI Rapor Sunucusu’na geçiş")
+![Power BI Rapor Sunucusu'ndan Power BI Rapor Sunucusu'na geçme](media/migrate-report-server/migrate-from-pbirs.png "Power BI Rapor Sunucusu'ndan Power BI Rapor Sunucusu'na geçme")
 
 * Veritabanı, uygulama ve yapılandırma dosyalarını yedekleme
 * Şifreleme anahtarını yedekleme

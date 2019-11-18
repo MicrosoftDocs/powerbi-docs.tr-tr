@@ -2,19 +2,18 @@
 title: 'Öğretici: iOS uygulamalarında Soru-Cevap sanal analisti ile soru sorma'
 description: Bu öğreticide, iOS cihazınızdaki Power BI mobil uygulamasında yer alan Soru-Cevap sanal analistini kullanarak kendi kelimelerinizle örnek verilerle ilgili sorular soracaksınız.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337779"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869650"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Öğretici: Power BI iOS uygulamalarındaki Soru-Cevap sanal analistini kullanarak verileriniz hakkında sorular sorma
 
@@ -42,7 +41,7 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
 ## <a name="prerequisites"></a>Önkoşullar
 
 ### <a name="install-the-power-bi-for-ios-app"></a>iOS için Power BI uygulamasını yükleme
-App Store'a giderek iPad, iPhone veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
+App Store'a giderek iPad, iPhone veya iPod Touch'ınıza [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
 
 iOS için Power BI uygulamasını şu sürümler destekler:
 - iOS 10 veya sonraki sürümünü çalıştıran iPad.
@@ -54,11 +53,11 @@ Eğitimin ilk adımı, Power BI hizmetindeki Fırsat Analizi örneklerini indirm
 
 1. Tarayıcınızda Power BI hizmetini (app.powerbi.com) açın ve oturum açın.
 
-1. Genel gezinti simgesini seçerek sol gezinti bölmesini açın.
+1. Genel gezinti simgesini seçerek gezinti bölmesini açın.
 
     ![genel gezinti simgesi](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Sol gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**’ı seçin.
+2. Gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**'ı seçin.
 
     ![Çalışma Alanım](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ Eğitimin ilk adımı, Power BI hizmetindeki Fırsat Analizi örneklerini indirm
 
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
 
-2. Sol gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**’ı seçin.
+2. Gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**'ı seçin.
 
 3. **Panolar** sekmesinde Fırsat Analizi panosunun yanında bulunan çöp kutusu biçimindeki **Sil** simgesini seçin.
 

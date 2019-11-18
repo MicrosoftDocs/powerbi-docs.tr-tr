@@ -2,7 +2,6 @@
 title: 'Öğretici: SQL Server’da şirket içi verilere bağlanma'
 description: Verileri yenilemek de dahil olmak üzere SQL Server’ı bir ağ geçidi veri kaynağı olarak kullanma hakkında bilgi edinin.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307391"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881546"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
 
@@ -131,7 +130,7 @@ Power BI Desktop’ta doğrudan SQL Server veritabanınıza bağlandınız ancak
 
 Power BI’daki veri kümenizi bir veri ağ geçidi aracılığıyla şirket içindeki SQL Server veritabanınıza bağladıktan sonra bir yenileme zamanlaması yapılandırmak için aşağıdaki adımları izleyin. Veri kümenizin belirli bir zamanlamaya göre yenilenmesi, rapor ve panolarınızın en güncel verileri içermesine yardımcı olur.
 
-1. Sol gezinti bölmesinde **Çalışma Alanım** \> **Veri Kümeleri**’ni açın. **AdventureWorksProducts** veri kümesi için üç noktayı ( **. . .** ), ardından **Yenileme zamanla**’yı seçin.
+1. Gezinti bölmesinde **Çalışma Alanım** \> **Veri Kümeleri**’ni açın. **AdventureWorksProducts** veri kümesi için üç noktayı ( **. . .** ), ardından **Yenileme zamanla**’yı seçin.
 
     > [!NOTE]
     > Aynı ada sahip raporun üç noktasını değil, **AdventureWorksProducts** veri kümesinin üç noktasını seçtiğinizden emin olun. **AdventureWorksProducts** raporunun bağlam menüsünde **Yenileme zamanla** seçeneği bulunmaz.
@@ -149,7 +148,7 @@ Power BI’daki veri kümenizi bir veri ağ geçidi aracılığıyla şirket iç
 
 ## <a name="perform-an-on-demand-refresh"></a>İsteğe bağlı yenileme gerçekleştirme
 
-Bir yenileme zamanlaması yapılandırdıktan sonra, Power BI 15 dakikalık bir toleransla sonraki zamanlanmış saatte veri kümenizi yeniler. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme saatini etkilemez ancak önceki bölümde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
+Bir yenileme zamanlaması yapılandırdıktan sonra, Power BI 15 dakikalık bir toleransla sonraki zamanlanmış saatte veri kümenizi yeniler. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme saatini etkilemez ancak önceki bölümde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
 
 Gösterim amacıyla, SQL Server Management Studio’yu (SSMS) kullanarak AdventureWorksDW veritabanında .DimProduct tablosunu güncelleştirerek örnek verilerde bir değişikliğin benzetimini yapın.
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 Şimdi de güncelleştirilen verilerin ağ bağlantısı aracılığıyla veri kümesine ve Power BI’daki raporlara akabilmesi için aşağıdaki adımları izleyin.
 
-1. Power BI Hizmetinin sol gezinti bölmesinde **Çalışma Alanım**’ı seçip genişletin.
+1. Power BI Hizmetinin gezinti bölmesinde **Çalışma Alanım**’ı seçip genişletin.
 
 2. **Veri Kümeleri** altında, **AdventureWorksProducts** veri kümesinin üç noktasını ( **. . .** ), ardından **Şimdi yenile**’yi seçin.
 

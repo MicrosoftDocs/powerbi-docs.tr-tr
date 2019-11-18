@@ -2,7 +2,6 @@
 title: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
 description: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542866"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873398"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık
 
@@ -61,7 +60,7 @@ Bir Excel çalışma kitabını içeri aktardığınızda, Power BI bu tablolar�
    
     ![Tablo olarak biçimlendirilmiş veriler](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Çalışma kitabınızı kaydedin.
-7. Power BI'a geri dönün. Sol gezinti bölmesinin alt kısmındaki Veri Al seçeneğini belirleyin.
+7. Power BI'a geri dönün. Gezinti bölmesinin alt kısmında bulunan Veri Al'ı seçin.
    
     ![Veri al](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. **Dosyalar** kutusunda **Al**'ı seçin.

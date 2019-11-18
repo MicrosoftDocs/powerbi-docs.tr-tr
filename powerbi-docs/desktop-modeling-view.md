@@ -1,8 +1,7 @@
 ---
-title: Power BI Desktop'taki modelleme görünümünü kullanın
+title: Power BI Desktop'ta Modelleme görünümünü kullanma
 description: Power BI Desktop'ta karmaşık veri kümelerini görsel bir biçimde görmek için Modelleme görünümünü kullanma
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6869430e3fece78210d538c9886234c7728b667a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941347"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866538"
 ---
-# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop'ta model görünümü
+# <a name="modeling-view-in-power-bi-desktop"></a>Power BI Desktop'ta Modelleme görünümü
 
 **Power BI Desktop**'taki **Modelleme görünümü** ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz.
 

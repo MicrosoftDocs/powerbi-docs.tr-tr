@@ -2,19 +2,18 @@
 title: 'Hızlı başlangıç: Mobil uygulamalarda pano ve raporları keşfetme'
 description: Bu hızlı başlangıçta, Power BI mobil uygulamalarındaki örnek bir pano ve raporu keşfedeceksiniz.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976187"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879270"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Hızlı başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme
 Bu hızlı başlangıçta, bir Android telefon üzerinde çalışan Power BI mobil uygulamalarındaki örnek bir pano ve raporu keşfedeceksiniz. Diğer mobil uygulamaları da takip edebilirsiniz. 
@@ -35,7 +34,7 @@ Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı port
 Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ### <a name="install-the-power-bi-for-android-app"></a>Android için Power BI uygulamasını yükleme
-Google Play'den [Android için Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=544867).
+Google Play'den [Android için Power BI uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkID=544867).
 
 Power BI, Android 5.0 veya sonraki işletim sistemlerini çalıştıran Android cihazlarda çalışır. Cihazınızı kontrol etmek için **Ayarlar** > **Cihaz hakkında** > **Android sürümü** menüsüne gidin.
 
@@ -44,11 +43,11 @@ Bu hızlı başlangıcın ilk adımı, Power BI hizmetindeki Perakende Analizi �
 
 1. Tarayıcınızda Power BI hizmetini (app.powerbi.com) açın ve oturum açın.
 
-1. Genel gezinti simgesini seçerek sol gezinti bölmesini açın.
+1. Genel gezinti simgesini seçerek gezinti bölmesini açın.
 
     ![genel gezinti simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Sol gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**’ı seçin.
+2. Gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**'ı seçin.
 
     ![Çalışma Alanım](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örne
 
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
 
-2. Sol gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**’ı seçin.
+2. Gezinti bölmesinde **Çalışma Alanları** > **Çalışma Alanım**'ı seçin.
 
     Sık kullanılanların sarı yıldızla gösterildiğini fark ettiniz mi?
 

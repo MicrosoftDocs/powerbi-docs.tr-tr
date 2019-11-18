@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta DirectQuery'yi kullanma
 description: Power BI Desktop'ta Canlı bağlantı olarak da bilinen DirectQuery'yi kullanın
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 08b739c5be01efed5abf8258540b5ab66b3b390b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654775"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876060"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 **Power BI Desktop** ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman **Power BI Desktop**'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: **DirectQuery**'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -70,7 +69,7 @@ Bazı sınırlamalar olsa da **DirectQuery** ile kullanabileceğiniz çok sayıd
       The resultset of a query to external data source has exceeded
   
   Bu durum, kardinalitenin çok yüksek olduğu bir sütun içeren, toplama seçeneği *Özetleme* olarak ayarlanmış basit bir grafikte ortaya çıkabilir. Görselde yalnızca, kardinalite değeri 1 milyondan az olan sütunlar bulunmalı veya uygun filtreler uygulanmış olmalıdır.
-* **Güvenlik**: Yayımlanan bir raporu kullanan tüm kullanıcılar arka uç veri kaynağına, Power BI hizmetinde yayımlama işleminin ardından girilen kimlik bilgilerini kullanarak bağlanır. Bu durum, içeri aktarılan veriler için de geçerlidir: Tüm kullanıcılar, arka uç kaynağında tanımlanan herhangi bir güvenlik kuralından bağımsız olarak aynı verileri görür. Her kullanıcı için DirectQuery kaynaklarıyla ayrı bir güvenlik doğrulaması olmasını isteyen müşteriler RLS'yi kullanmalıdır. [RLS hakkında daha fazla bilgi edinin](service-admin-rls.md).
+* **Güvenlik**: Varsayılan olarak yayımlanan bir raporu kullanan tüm kullanıcılar arka uç veri kaynağına, Power BI hizmetinde yayımlama işleminin ardından girilen kimlik bilgilerini kullanarak bağlanır. Bu durum, içeri aktarılan veriler için de geçerlidir: Tüm kullanıcılar, arka uç kaynağında tanımlanan herhangi bir güvenlik kuralından bağımsız olarak aynı verileri görür. DirectQuery kaynaklarında kullanıcı tabanlı güvenlik uygulamaları kullanmak isteyen müşteriler, RLS kullanabilir veya kaynakta Kerberos kısıtlı kimlik doğrulamasını yapılandırabilir. Kerberos tüm kaynaklar için kullanılamaz. [RLS hakkında daha fazla bilgi edinin](service-admin-rls.md). [DirectQuery'de Kerberos hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos). 
 * **Desteklenen özellikler**: **Power BI Desktop**'taki özelliklerin tümü **DirectQuery** modunda desteklenmez veya bazı sınırlamalar mevcuttur. Buna ek olarak, Power BI hizmetindeki bazı özellikler de (*Hızlı Öngörüler* gibi) **DirectQuery** modunda veri kümeleri için kullanılamaz. Benzer şekilde, **DirectQuery**'yi kullanıp kullanmayacağınıza karar verirken, **DirectQuery** modunda bu özelliklere getirilen sınırlamaları da göz önünde bulundurmanız gerekir.   
 
 ## <a name="publish-to-the-power-bi-service"></a>Power BI hizmetinde yayımlama
@@ -88,7 +87,7 @@ Bu işlemin ardından Power BI'da **Ayarlar** penceresi görüntülenir. Bu penc
 
 Kimlik bilgilerini girene kadar, yayımlanmış bir raporu açmayı veya ilgili veri kaynaklarına bağlanmak için **DirectQuery** bağlantısı kullanılarak oluşturulmuş bir veri kümesini incelemeyi denediğinizde hata ile karşılaşırsınız.
 
-DirectQuery bağlantısı kullanan **Azure SQL Veritabanı**, **Azure SQL Veri Ambarı** ve **Redshift** dışındaki veri kaynakları söz konusu olduğunda bir veri bağlantısı gerçekleştirilebilmesi için **şirket içi veri ağ geçidinin** yüklü olması ve ilgili veri kaynağının kayıtlı olması gerekir. [Şirket içi veri ağ geçidi hakkında daha fazla bilgi](http://go.microsoft.com/fwlink/p/?LinkID=627094) edinebilirsiniz.
+DirectQuery bağlantısı kullanan **Azure SQL Veritabanı**, **Azure SQL Veri Ambarı** ve **Redshift** dışındaki veri kaynakları söz konusu olduğunda bir veri bağlantısı gerçekleştirilebilmesi için **şirket içi veri ağ geçidinin** yüklü olması ve ilgili veri kaynağının kayıtlı olması gerekir. [Şirket içi veri ağ geçidi hakkında daha fazla bilgi](https://go.microsoft.com/fwlink/p/?LinkID=627094) edinebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **DirectQuery** hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

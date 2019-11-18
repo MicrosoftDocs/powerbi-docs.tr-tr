@@ -1,79 +1,83 @@
 ---
-title: X Ekseni ve Y Ekseni özelliklerini özelleştirme
-description: X Ekseni ve Y Ekseni özelliklerini özelleştirme
+title: X ve Y ekseni özelliklerini özelleştirme
+description: X ve Y ekseni özelliklerini özelleştirme
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bfe84acdf73fcb5ace791c9a84943262d0f73ab
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390089"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880916"
 ---
-# <a name="customize-x-axis-and-y-axis-properties"></a>X Ekseni ve Y Ekseni özelliklerini özelleştirme
+# <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 
-Bu eğitimde görsellerinizin X Eksenini ve Y Eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerin ekseni yoktur. Örneğin pasta grafiklerinde eksen bulunmaz. Özelleştirme seçenekleri de bir görselden diğerine farklılık gösterir. Bir makalenin kapsamına sığmayacak kadar çok seçenek vardır; bu nedenle en sık kullanılan bazı eksenlere ilişkin özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel **Biçim** bölmesini rahatlıkla kullanmanızı sağlayacağız.  
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+Bu öğreticide görsellerinizin X eksenini ve Y eksenini özelleştirmenin pek çok farklı yolunu öğreneceksiniz. Tüm görsellerin ekseni yoktur. Örneğin pasta grafiklerinde eksen bulunmaz. Özelleştirme seçenekleri de bir görselden diğerine farklılık gösterir. Bir makalenin kapsamına sığmayacak kadar çok seçenek vardır; bu nedenle en sık kullanılan bazı özelleştirmeleri inceleyerek Power BI rapor tuvalinde görsel **Biçim** bölmesini rahatlıkla kullanmanızı sağlayacağız.  
+
+Amanda'nın X ve Y eksenlerini özelleştirmesini izleyin. Detaya gitme ve detaydan çıkma kullanılırken birleştirme işlemini denetlemenin farklı yollarını da gösterecek.
 
 > [!NOTE]
-> Bu sayfa hem Power BI hizmeti hem Power BI Desktop için geçerlidir. **Biçim** (boya rulosu ![Boya rulosu simgesinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) simgesi seçiliyken kullanılabilen bu özelleştirmeler Power BI Desktop'ta da kullanılabilir.
-
-Amanda'nın X ve Y Eksenlerini özelleştirmesini izleyin. Detaya gitme ve detaydan çıkma kullanılırken birleştirme işlemini denetlemenin farklı yollarını gösterecek.
+> Bu videoda Power BI’ın eski bir sürümü kullanılmaktadır.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9DeAKM4SNJM" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-- Power BI hizmeti
+- Power BI Desktop
 
-- Perakende Analizi Örneği raporu
+- [Perakende Analizi Örneği](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-## <a name="customize-visualization-x--and-y-axes-in-reports"></a>Raporlardaki görselleştirme X ve Y Eksenlerini özelleştirme
 
-Örneği takip etmek için [Power BI hizmetinde](https://app.powerbi.com) oturum açın ve [Perakende Analizi Örneği](../sample-datasets.md) raporunu [Raporu düzenleme](../service-interact-with-a-report-in-editing-view.md) görünümünde açın.
-
-### <a name="create-a-stacked-column-chart-visualization"></a>Yığılmış sütun grafiği görselleştirmesi oluşturma
+## <a name="add-a-new-visualization"></a>Yeni görselleştirme ekleme
 
 Görselleştirmenizi özelleştirebilmek için önce oluşturmanız gerekir.
 
-1. Power BI hizmetinde **Çalışma Alanım**'ı genişletin.
+1. Power BI Desktop’ta Perakende Analizi örneğini açın.  
 
-1. Ekranı aşağı kaydırın ve **Veri kümeleri** listesinden **Perakende Analizi Örneği**'ni seçin.
+2. En alttaki sarı artı simgesini seçerek yeni bir sayfa ekleyin. 
 
-1. **Görselleştirmeler** bölmesinden yığılmış sütun grafiği simgesini seçin.
+    ![sarı artı işareti](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-new-page-icon.png)
 
-    ![Görselleştirmeler bölmesinin ve boş bir yığılmış sütun grafiğinin ekran görüntüsü](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stacked-column-chart.png)
+1. **Görselleştirmeler** bölmesinden yığılmış sütun grafiği simgesini seçin. Bu işlem, rapor tuvalinize boş bir şablon ekler.
 
-1. X Ekseni değerlerini ayarlamak için **Alanlar** bölmesinde **Time** > **FiscalMonth** alanını seçin.
+    ![Görselleştirmeler bölmesinin ve boş bir yığılmış sütun grafiğinin ekran görüntüsü](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-column-chart.png)
 
-1. Y Ekseni değerlerini ayarlamak için **Alanlar** bölmesinden **Sales** > **Last Year Sales** ve **Sales** > **This Year Sales** > **Value** alanını seçin.
+1. X ekseni değerlerini ayarlamak için **Alanlar** bölmesinde **Zaman** > **MaliAy** alanını seçin.
 
-    ![Doldurulmuş yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-create-chart.png)
+1. Y ekseni değerlerini ayarlamak için **Alanlar** bölmesinden **Satışlar** > **Önceki Yılın Satışları** ve **Satışlar** > **Bu Yılın Satışları** > **Değer** alanını seçin.
 
-### <a name="customize-the-x-axis"></a>X Eksenini özelleştirme
+    ![Doldurulmuş yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-build-visual.png)
 
-Artık X Eksenini özelleştirebilirsiniz.
+    Artık X eksenini özelleştirebilirsiniz. Power BI, görselleştirmenizi biçimlendirmek için neredeyse sınırsız sayıda seçenek sunar. 
 
-1. **Görselleştirmeler** bölmesinde özelleştirme seçeneklerini görüntülemek için **Biçim** (boya rulosu simgesi ![Boya rulosu simgesinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller.png)) öğesini seçin.
+## <a name="customize-the-x-axis"></a>X eksenini özelleştirme
+X ekseninde özelleştirebileceğiniz birçok seçenek vardır. X eksenine veri etiketi ve başlık ekleyebilir, var olanları değiştirebilirsiniz. Kategoriler için çubukların, sütunların, çizgilerin ve alanların genişliğini, boyutunu ve doldurma özelliklerini değiştirebilirsiniz. Değerler için de görüntüleme birimlerini, ondalık basamakları ve kılavuz çizgilerini düzenleyebilirsiniz. Aşağıdaki örnekte bir sütun grafiğinin özelleştirilmesi gösterilmiştir. Seçenekleri tanımanız için burada birlikte birkaç özelleştirme seçeneği ekleyeceğiz. Geri kalanları da sonrasında kendiniz keşfedebilirsiniz.
 
-1. X ekseni seçeneklerini genişletin.
+### <a name="customize-the-x-axis-labels"></a>X ekseni etiketlerini özelleştirme
+X ekseni etiketleri, grafiğin sütunlarının altında görüntülenir. Etiketler şu anda açık gri renkte, küçük ve okunmaları zor. Şimdi bunu değiştirelim.
 
-   ![X Ekseni seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-axis.png)
+1. **Görselleştirmeler** bölmesinde **Biçim** (boya rulosu simgesi ![Boya rulosu simgesinin ekran görüntüsü](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png)) öğesini seçin. Bunu yaptığınızda özelleştirme seçenekleri açılır.
 
-1. **X Ekseni** kaydırıcısını **Açık** konuma getirin.
+2. X ekseni seçeneklerini genişletin.
 
-    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+   ![X Ekseni seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-x.png)
 
-    Daha fazla veriye yer açmak için X Eksenini kapatmak isteyebilirsiniz.
+3. **X ekseni** kaydırıcısını **Açık** konuma getirin.
 
-1. Metin rengini, boyutunu ve yazı tipini biçimlendirin:
+    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+
+    Bazı durumlarda X eksenini **Kapalı** duruma getirmek isteyebilirsiniz. Görselleştirme, etiket olmadan anlaşılabilir durumda olabilir veya rapor sayfası kalabalık olduğu için daha fazla veriye yer açma gereksinimi duyuyor olabilirsiniz.
+
+4. Metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
     - **Renk**: Siyahı seçin
 
@@ -81,137 +85,147 @@ Artık X Eksenini özelleştirebilirsiniz.
 
     - **Yazı tipi ailesi**: **Arial Black** seçin
 
-1. **Başlık** seçeneğini **Açık** konuma getirerek X Ekseninin adını görüntüleyin. Bu örnekte ad **FiscalMonth** olur.
+    - **İç dolgu**: *%40* girin
+
+        ![Açılı etiketleri gösteren ekran görüntüsü](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
+    
+5. X ekseni metninin açılı olarak görünmesini istemiyor olabilirsiniz. Burada birkaç seçeneğiniz vardır. 
+    - Metin boyutunu 14'ten daha küçük bir değerle değiştirin.
+    - Görselleştirmeyi büyütün. 
+    - **Minimum kategori genişliği** değerini artırarak daha az sütun görüntüleyin ve kaydırma çubuğu ekleyin. 
+    
+    Burada ikinci seçeneği tercih ettik ve görselleştirmeyi daha geniş hale getirmek için yeniden boyutlandırma çubuklarından birini tuttuk. Artık metni açılı olarak veya kaydırma çubuğu ile görüntülemeye gerek duymadan 14 nokta metni görüntüleyebiliyor. 
+
+   ![Yatay etiketlere sahip grafik ve biçimlendirme bölmesi](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stretch.png)
+
+### <a name="customize-the-x-axis-title"></a>X ekseni başlığını özelleştirme
+X ekseni başlığı **Açık** olduğunda X ekseni etiketlerinin altında X ekseni başlığı görüntülenir. 
+
+1. İlk olarak X ekseni başlığını **Açık** konuma getirin.  
+
+    ![Başlık kaydırıcısı](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-title-on.png)
+
+    Göreceğiniz ilk şey, görselleştirmenizde artık varsayılan bir X ekseni başlığı olduğudur.  Bu örnekte ad **FiscalMonth** olur.
+
+   ![Altında başlığı bulunan grafik](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title.png)
 
 1. Başlığın metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
     - **Başlık rengi**: Turuncu seçin
 
-    - **Eksen başlığı**: *Fiscal Month* girin
+    - **Eksen başlığı**: *Mali Ay* (boşluk bırakarak) yazın
 
-    - **Başlık metin boyutu**: *21* girin
+    - **Başlık metin boyutu**: *18* girin
 
-Özelleştirmeleri bitirdikten sonra yığılmış sütun grafiğiniz aşağıdakine benzer görünecektir:
+    Özelleştirmeleri bitirdikten sonra yığılmış sütun grafiğiniz aşağıdakine benzer görünecektir:
 
-![Özelleştirilmiş yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-customize-axis.png)
+    ![Özelleştirilmiş yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title-formatted.png)
 
-Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
+1. Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin. Yaptığınız tüm değişiklikleri geri almanız gerekirse, **X Ekseni** özelleştirme bölmesinin altındaki **Varsayılana geri dön** seçeneğini belirleyin. Ardından Y Ekseninizi özelleştireceksiniz.
 
-Yaptığınız tüm değişiklikleri geri almanız gerekirse, **X Ekseni** özelleştirme bölmesinin altındaki **Varsayılana geri dön** seçeneğini belirleyin.
+## <a name="customize-the-y-axis"></a>Y eksenini özelleştirme
+Y ekseninde özelleştirilebilecek birçok özellik vardır. Veri etiketi, Y ekseni başlığı ve kılavuz çizgileri ekleyip var olanları değiştirebilirsiniz. Değerler için görüntüleme birimlerini, ondalık basamakları, başlangıç ve bitiş noktalarını değiştirebilirsiniz. Kategoriler için de çubukların, sütunların, çizgilerin ve alanların genişliğini, boyutunu ve doldurma özelliklerini düzenleyebilirsiniz. 
 
-### <a name="customize-the-y-axis"></a>Y Eksenini özelleştirme
+Aşağıdaki örnekte sütun grafiğini özelleştirme işlemleri devam ettirilmektedir. Seçenekleri tanımanız için burada birlikte birkaç değişiklik yapacağız. Geri kalanları da sonrasında kendiniz keşfedebilirsiniz.
 
-Ardından Y Ekseninizi özelleştireceksiniz.
+### <a name="customize-the-y-axis-labels"></a>Y ekseni etiketlerini özelleştirme
+Y ekseni etiketleri varsayılan olarak sol tarafta gösterilir. Etiketler şu anda açık gri renkte, küçük ve okunmaları zor. Şimdi bunu değiştirelim.
 
 1. Y ekseni seçeneklerini genişletin.
 
-   ![X ekseni seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis.png)
+   ![X ekseni seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-y.png)
 
 1. **Y Ekseni** kaydırıcısını **Açık** konuma getirin.  
 
-    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/onoffslider.png)
+    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
-    Daha fazla veriye yer açmak için Y Eksenini kapatmak isteyebilirsiniz.
-
-1. Y Ekseni **Konumunu** **Sağ** olarak ayarlayın.
+    Daha fazla veriye yer açmak için Y eksenini kapatmak isteyebilirsiniz.
 
 1. Metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
     - **Renk**: Siyahı seçin
 
-    - **Metin boyutu**: *14* girin
+    - **Metin boyutu**: *10* girin
 
-    - **Yazı tipi ailesi**: **Arial Black** seçin
+    - **Görüntüleme birimleri**: **Milyon**'u seçin
 
-1. **Görüntüleme birimleri** seçeneğini **Milyon** olarak ve **Değer ondalık basamakları** seçeneğini *0* olarak ayarlayın.
+    ![Y ekseni biçimlendirilmiş grafik](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
-1. Bu görselleştirme için Y ekseni başlığının görüntülenmesi görseli geliştirmediğinden, **Başlık** seçeneğini **Kapalı** olarak bırakın.  
+### <a name="customize-the-y-axis-title"></a>Y ekseni başlığını özelleştirme
+Y ekseni başlığı **Açık** olduğunda Y ekseni etiketlerinin yanında Y ekseni başlığı görüntülenir. Bu görselleştirme için Y ekseni başlığının görüntülenmesi görseli geliştirmediğinden, **Başlık** seçeneğini **Kapalı** olarak bırakın. Bu öğreticinin ilerleyen bölümlerinde çift eksenli bir görsele Y ekseni başlıklarını ekleyeceğiz. 
 
-1. Rengi değiştirerek ve darbeyi artırarak kılavuz çizgilerini belirginleştirin:
+### <a name="customize-the-gridlines"></a>Kılavuz çizgilerini özelleştirme
+Rengi değiştirerek ve darbeyi artırarak kılavuz çizgilerini belirginleştirin:
 
-    - **Renk**: Koyu gri seçin
+- **Renk**: Turuncu seçin
 
-    - **Darbe**: *2* girin
+- **Darbe**: *2* girin
 
 Bu özelleştirmelerin ardından sütun grafiğiniz aşağıdakine benzer şekilde görünür:
 
-![Özelleştirilmiş Y Ekseninin bulunduğu grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-complete.png)
+![Özelleştirilmiş Y Ekseninin bulunduğu grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-gridline.png)
 
-## <a name="customizing-visualizations-with-dual-y-axes"></a>Çift Y Eksenli görselleştirmeleri özelleştirme
+## <a name="customizing-visualizations-with-dual-y-axes"></a>Çift Y eksenli görselleştirmeleri özelleştirme
 
-Önce mağaza sayısının satış üzerindeki etkisini gösteren bir birleşik harita oluşturacaksınız. Bu, [Birleşik harita eğitimi](power-bi-visualization-combo-chart.md) sırasında oluşturulan aynı grafiktir. Ardından çift Y Eksenini biçimlendireceksiniz.
+Bazı görselleştirmelerde iki Y ekseni bulunabilir. Birleşik haritalar buna iyi bir örnektir. Çift Y eksenini biçimlendirmek için satış ve brüt kar eğilimlerini karşılaştıran bir birleşik harita oluşturacağız.  
 
 ### <a name="create-a-chart-with-two-y-axes"></a>İki Y Eksenli bir grafik oluşturun
 
-1. **Time > FiscalMonth** tarafından **Sales > Gross Margin last year %** değerini izleyen yeni bir çizgi grafiği oluşturun.
+1. Sütun grafiğini seçip *Çizgi ve yığılmış sütun* grafiği olarak değiştirin. 
 
-    ![Yeni çizgi grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
+    ![Çizgi ve yığılmış sütun grafiği seçeneğinin vurgulandığı Görselleştirmeler bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
+   
 
-    > [!NOTE]
-    > Aylara göre sıralarken yardım almak için bkz. [Başka ölçütler kullanarak sıralama](../consumer/end-user-change-sort.md#other).
+2. Alanlar bölmesindeki **Satış** > **Brüt Kar Önceki Yıl %** değerini **Satır Değerleri** kutusuna sürükleyin.
 
-    January Gross Margin yüzdesi %35'di, Nisan ayında %45 ile zirve yaptı, Temmuz ayında düştü ve Ağustos'ta yeniden zirve yaptı. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
+    ![Üç değerin de net bir şekilde gösterildiği çizgi ve yığılmış sütun grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-add-line.png)
 
-1. **This Year Sales > Değer** ve **Last Year Sales** alanlarını çizgi grafiğe ekleyin.
+    
+3. Görselleştirmeyi yeniden biçimlendirerek açılı X ekseni etiketlerini kaldırın. 
 
-    ![Eklenen yeni verilerle çizgi grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+   ![Birleşik harita ve Biçimlendirme bölmesi, yazı tipi boyutu 12'ye düşürülmüş](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-    Geçen yıla ait brüt kâr yüzdesini gösteren **Gross Margin Last Year %** alanının (**0M%** kılavuz çizgisi boyunca görüntülenen mavi çizgi) ölçeği, satış verilerini gösteren **Sales** alanının ölçeğinden çok daha küçük olduğundan karşılaştırma işlemi zorlaşır. Y ekseni etiket yüzdeleri mantıksızdır.
+   Power BI iki Y ekseni oluşturarak değerlerin farklı ölçeklendirilmesine olanak tanır. Sol taraftaki eksen doları ölçer ve sağ taraf eksen de yüzdeyi ölçer.
 
-1. Görselin okunmasını ve yorumlanmasını daha kolay hale getirmek için çizgi grafiği Çizgi ve yığılmış sütun grafiğine dönüştürün.
-
-   ![Çizgi ve yığılmış sütun grafiği seçeneğinin vurgulandığı Görselleştirmeler bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
-
-1. **Gross Margin Last Year %** alanını **Sütun Değerleri** demetinden alıp **Çizgi Değerleri** demetine sürükleyin.
-
-    ![Üç değerin de net bir şekilde gösterildiği çizgi ve yığılmış sütun grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
-
-    Şimdi ilk bölümde oluşturduğunuz yığılmış sütun grafiğin üzerine yerleştirilmiş bir çizgi grafiğiniz oldu. İsteğe bağlı olarak, eksen yazı tipi rengini ve boyutunu biçimlendirmek üzere yukarıda öğrendiklerinizi uygulayın.
-
-   ![Özelleştirilmiş çizgi ve yığılmış sütun grafiğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
-
-   Power BI iki Y Ekseni oluşturarak veri kümelerinin farklı ölçeklendirilmesine olanak tanır. Sol taraftaki eksen doları ölçer ve sağ taraf eksen de yüzdeyi ölçer.
-
-### <a name="format-the-secondary-y-axis"></a>İkincil Y Eksenini biçimlendirme
+### <a name="format-the-second-y-axis"></a>İkinci Y eksenini biçimlendirme
+Görselleştirmeye tek bir biçimlendirilmiş Y ekseniyle başladığımız için Power BI, aynı ayarlarla ikinci bir Y ekseni ekledi. Ancak bunu değiştirebiliriz. 
 
 1. **Görselleştirmeler** bölmesinde biçim seçeneklerini görüntülemek için boya rulosu simgesini seçin.
 
 1. Y ekseni seçeneklerini genişletin.
 
-1. **İkincili göster** seçeneğini bulana kadar ekranı aşağı kaydırın. Bu seçeneğin **Açık** olduğundan emin olun.
+1. **İkincili göster** seçeneğini bulana kadar ekranı aşağı kaydırın. Bu seçeneğin **Açık** olduğundan emin olun. İkincil Y ekseni, çizgi grafiği temsil eder.
 
-   ![İkincili göster seçeneğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
+   ![İkincili göster seçeneğinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-secondary.png)
 
-1. (İsteğe bağlı) İki ekseni özelleştirin. Sütun ekseni veya çizgi ekseni için **Konum** değerini değiştirirseniz iki eksen yer değiştirir.
+1. (İsteğe bağlı) İki eksenin yazı tipi rengini, boyutunu ve görüntüleme birimini özelleştirin. Sütun ekseni veya çizgi ekseni için **Konum** değerini değiştirirseniz iki eksen yer değiştirir.
 
 ### <a name="add-titles-to-both-axes"></a>Her iki eksene başlık ekleme
 
-Bu düzeyde çok karmaşık olan görselleştirmelerde eksen başlıklarının eklenmesi faydalıdır.  Başlıklar, iş arkadaşlarınızın görselleştirmeniz ile anlatılanları öğrenmesine yardımcı olur.
+Bu düzeyde karmaşık olan görselleştirmelerde eksen başlıklarının eklenmesi faydalıdır.  Başlıklar, iş arkadaşlarınızın görselleştirmeniz ile anlatılanları anlamasına yardımcı olur.
 
 1. **Y Ekseni (Sütun)** ve **Y Ekseni (Satır)** için **Başlık** değerini **Açık** olarak ayarlayın.
 
 1. Her ikisi için de **Stil** seçeneğini **Yalnızca başlığı göster** olarak ayarlayın.
 
-   ![Başlık ve Stil seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![Başlık ve Stil seçeneklerinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-title.png)
 
 1. Artık birleşik haritanız başlıkları olan iki eksen gösterir.
 
-   ![Özelleştirilmiş çift Y Ekseni olan grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)
+   ![Özelleştirilmiş çift Y Ekseni olan grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-titles-on.png)
 
-Daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md).
+1. Başlıkları biçimlendirin. Bu örnekte başlıklardan birini kısalttık ve ikisinin birden yazı tipi boyutunu küçülttük. 
+    - Yazı tipi boyutu: **9**
+    - İlk Y ekseninin (sütun grafiği) **Eksen başlığı** kısaltıldı: Önceki yılın ve bu yılın satışları
 
-## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+    ![Tam başlıkları görüntülenen birleşik haritanın ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-X Ekseni rapor sahibi tarafından tarih türü kategorisine ayrılmışsa **Tür** seçeneği görüntülenir ve sürekli veya kategorik arasında seçim yapabilirsiniz.
+
+
+Daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md) ve [Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme](power-bi-visualization-customize-title-background-and-legend.md). Yeni başlık biçimlendirme seçenekleri çok yakında kullanıma sunulacak. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)
 
-- [Görselleştirme başlıklarını, göstergelerini ve arka planlarını özelleştirme](power-bi-visualization-customize-title-background-and-legend.md)
-
-- [Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama](service-getting-started-with-color-formatting-and-axis-properties.md)
-
-- [Power BI hizmeti müşterilerine yönelik temel kavramlar](../consumer/end-user-basic-concepts.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

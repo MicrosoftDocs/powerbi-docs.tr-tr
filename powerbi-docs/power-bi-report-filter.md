@@ -2,7 +2,6 @@
 title: Power BI raporlarındaki yeni filtre deneyimi
 description: Power BI'daki filtrelere yeni işlevsellik ve yeni bir tasarım sağlanıyor.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841276"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875161"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Power BI raporlarındaki yeni filtre deneyimi
 
@@ -44,7 +43,7 @@ Yeni filtre deneyimi, yeni raporlar için varsayılan olarak açıktır. Mevcut 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Power BI Desktop’ta mevcut olan bir rapor için yeni filtreleri açma
 
 1. Power BI Desktop'ta, mevcut raporda **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler**'i seçin
-2. Sol gezinti çubuğunda, **Geçerli dosya**'nın altından **Rapor ayarları**'nı seçin.
+2. Gezinti bölmesinin **Geçerli dosya** bölümünde **Rapor ayarları**'nı seçin.
 3. **Filtreleme deneyimi**'nin altında **Güncelleştirilmiş filtre bölmesini etkinleştirin ve bu rapor için görsel üst bilgisinde filtreleri gösterin** öğesini seçin.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Hizmette mevcut olan bir rapor için yeni filtreleri açma
@@ -238,5 +237,5 @@ Yeni filtre deneyimini bir kez deneyin. [Power BI Ideas sitesinde](https://ideas
 - [Raporlarda filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)
 - [Power BI’daki farklı filtre türleri](power-bi-report-filter-types.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

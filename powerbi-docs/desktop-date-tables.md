@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 description: Power BI Desktop'ta bir tabloyu tarih tablosu ayarlama ve bunun ne anlama geldiği hakkında bilgi edinin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454378"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868619"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 
 Arka planda çalışan **Power BI Desktop**, tarihleri temsil eden otomatik olarak tanımlar ve sonra sizin adınıza modeliniz için tarih hiyerarşileri ve başka destekleyici meta veriler oluşturur. Bu yerleşik hiyerarşileri daha sonra görseller, tablolar, hızlı ölçümler ve dilimleyiciler gibi rapor özellikleri oluştururken kullanabilirsiniz. Bunun için Power BI Desktop, sizin adınıza daha sonra raporlarınız ve DAX ifadeleriniz için kullanabileceğiniz gizli tablolar oluşturur.
+
+Bu otomatik davranış hakkında daha fazla bilgi için [Power BI Desktop'ta otomatik tarih/saat](desktop-auto-date-time.md) makalesini okuyun.
 
 Çoğu veri analisti kendi tarih tablolarını oluşturmayı tercih eder ve bunda bir sakınca yoktur. **Power BI Desktop**’ta modelinizin **tarih tablosu** olarak kullanmasını istediğiniz tabloyu belirtebilir ve ardından bu tablonun tarih verilerini kullanan tarihle ilgili görseller, tablolar, hızlı ölçümler, vb. oluşturabilirsiniz. Kendi tarih tablonuzu belirtiyorsanız modelinizde oluşturulan tarih hiyerarşileri sizin denetiminizdedir ve bunları modelinizin veri tablosunu kullanan **hızlı ölçümlerde** ve diğer işlemlerde kullanırsınız. 
 
@@ -73,8 +74,7 @@ Kendi **tarih tablonuzu** belirttiğinizde, veri türünün düzgün ayarlandı�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Aşağıdaki makaleler de ilginizi çekebilir.
+Aşağıdaki makaleler de ilginizi çekebilir:
 
+* [Power BI Desktop’ta otomatik tarih/saat](desktop-auto-date-time.md)
 * [Power BI Desktop'taki veri türleri](desktop-data-types.md)
-
- 

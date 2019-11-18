@@ -2,7 +2,6 @@
 title: 'Tedarik Analizi örneği: Tura katılın'
 description: 'Power BI için Tedarik Analizi örneği: Tura katılın'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462264"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873872"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarik Analizi örneği: Tura katılın
 
@@ -58,11 +57,11 @@ Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, Tedarik Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
+Alternatif olarak, Tedarik Analizi örneğini bir [.pbix dosyası](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529784) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529784) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 
 ## <a name="spending-trends"></a>Harcama eğilimleri
@@ -99,7 +98,7 @@ Aşağıdaki bilgileri unutmayın:
       ![Mexico için Indirect Goods & Services detayına gitme](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Detaydan çıkmak için grafiğin sol üst köşesindeki yukarı oku seçin.
 4. Detaya gitme okunu tekrar seçerek detaya gitme özelliğini devre dışı bırakın.  
-5. Üst gezinti çubuğunda **Tedarik Analizi Örneği**'ni seçerek panoya dönün.
+5. Üst gezinti bölmesinde **Tedarik Analizi Örneği**'ni seçerek panoya dönün.
 
 ## <a name="evaluate-different-cities"></a>Farklı şehirleri değerlendirme
 Farklı şehirleri değerlendirmek için vurgulama özelliğini kullanabiliriz.

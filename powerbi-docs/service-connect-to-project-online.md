@@ -2,7 +2,6 @@
 title: Power BI ile Project Online'a bağlanma
 description: Power BI için Project Online
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023774"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854650"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI ile Project Web App’e bağlanma
 Microsoft Project Web App, proje portföy yönetimi (PPM) ve günlük çalışmalara yönelik esnek bir çevrimiçi çözümdür. Project Web App, kuruluşların çalışmaya başlayarak proje portföy yatırımlarını önceliklendirmesine ve planlanan iş değerini sunmasına olanak sağlar. Power BI için Project Web App Şablon Uygulaması, projelerin, portföylerin ve kaynakların yönetimine yardımcı olmak için Project Web App’te içgörü ortaya çıkarmanıza olanak sağlar.
@@ -24,7 +23,7 @@ Power BI için [Project Web App Şablon Uygulaması](https://appsource.microsoft
 
 ## <a name="how-to-connect"></a>Bağlanma
 
-1. Sol gezinti bölmesinde **Uygulamalar**'ı seçin ve ardından sağ üst köşedeki **Uygulama edinin** seçeneğini belirleyin.
+1. Gezinti bölmesinde **Uygulamalar**'ı seçin ve ardından sağ üst köşedeki **Uygulama edinin** seçeneğini belirleyin.
 
     ![Uygulamaları edinin](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Power BI için [Project Web App Şablon Uygulaması](https://appsource.microsoft
 
 9. Verilerinizin yüklendiğini belirten bir bildirim görürsünüz. Bu işlem, hesabınızın boyutuna bağlı olarak biraz zaman alabilir. Power BI verileri içeri aktardıktan sonra yeni çalışma alanınızın içeriklerini görürsünüz. En son güncelleştirmeleri almak için veri kümesini yenilemeniz gerekebilir. 
 
-    Veriler Power BI tarafından içeri aktarıldıktan sonra sol gezinti bölmesinde 13 sayfalık raporu ve veri kümesini görürsünüz. 
+    Veriler Power BI tarafından içeri aktarıldıktan sonra gezinti bölmesinde 13 sayfalık raporu ve veri kümesini görürsünüz. 
 
 10. Raporlarınız hazır olduktan sonra, devam edin ve Project Web App verilerinizi incelemeye başlayın! Şablon Uygulaması’nda Portföye Genel Bakış (6 rapor sayfası), Kaynağa Genel Bakış (5 rapor sayfası) ve Proje Durumu (2 rapor sayfası) için 13 zengin ve ayrıntılı rapor yer alır. 
 

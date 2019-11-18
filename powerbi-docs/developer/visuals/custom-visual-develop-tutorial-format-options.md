@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 084ef3affcec7a177bab95aa5809161dd591858a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c2e2bcd14612f5096b4b0f44690effe247128f58
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880214"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74127838"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme
 

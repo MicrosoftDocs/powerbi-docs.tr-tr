@@ -2,7 +2,6 @@
 title: Power BI'da rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 description: Power BI hizmetinde ve Power BI Desktop’ta raporları oluşturmaya yönelik en iyi uygulamaları öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514069"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865842"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -28,19 +27,19 @@ Daha fazla bilgi için [Power Query Kaynak Merkezi](https://support.office.com/a
 Ayrıca [Formül Başvurusu](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f)'nu da görüntüleyebilirsiniz.
 
 ## <a name="data-types-in-query-editor"></a>Sorgu Düzenleyicisi'ndeki veri türleri
-Veri yüklemek için Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullandığınızda veri türünü tahmin etmeye çalışırız. Bazen formül kullanıldığında sütunların veri türü ayarları korunmaz. Sütunların veri türünü doğru şu işlemleri gerçekleştirdikten sonra olduğundan emin olun:  Sorgu sekmesine ilk veri yükleme işlemi, İlk Satır Üst Bilgi içeriyor, Sütun ekleme, Gruplandırma, Birleştirme, Ekleme ve ilk kez veri yükleme işlemini başlatmadan önce.
+Veri yüklemek için Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullandığınızda veri türünü tahmin etmeye çalışırız. Bazen formül kullanıldığında sütunların veri türü ayarları korunmaz. Şu işlemleri gerçekleştirdikten sonra sütunların veri türlerinin doğru olduğundan emin olmanız gerekir:  Sorgu sekmesine ilk veri yükleme işlemi, İlk Satır Üst Bilgi içeriyor, Sütun ekleme, Gruplandırma, Birleştirme, Ekleme ve ilk kez veri yükleme işlemini başlatmadan önce.
 
 Aklınızda tutmanız gereken noktalardan biri, veri kılavuzundaki italik metinlerin veri türünün doğru ayarlanmadığını değil yalnızca Metin olarak kabul edilmediğini göstermesidir.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Sorgu Düzenleyicisi'ndeki başvuru sorguları
-Power BI Desktop'taki sorgu Düzenleyicisi'nin Gezgin'de sorgulardan birine sağ tıkladığınızda "Başvuru" seçeneği kullanılabilir. Bu seçenek şu nedenlerden dolayı faydalıdır:
+Power BI Desktop’ta Sorgu Düzenleyicisi'nin gezinti panelinde sorgulardan birine sağ tıkladığınızda "Başvuru" seçeneği açılır. Bu seçenek şu nedenlerden dolayı faydalıdır:
 
 * Dosyalarınızı bir sorgu için veri kaynağı olarak kullandığınızda dosyanın mutlak yolu sorguda depolanır. Power BI Desktop dosyasını veya Excel çalışma kitabını paylaştığınızda ya da taşıdığınızda yollar yerine bu dosyayı veya çalışma kitabını yalnızca bir kez güncelleştirerek zaman kazanmış olursunuz.
 
-Varsayılan olarak tüm sorgular bir Excel çalışma kitabına veya veri modeline (ya da ikisine birden) yüklenir. Bazı sorgular Ara adımlardır ve son kullanıcılar için tasarlanmamıştır. Bu durum genellikle yukarıda belirtildiği gibi sorgulara başvurma sırasında ortaya çıkar. Sorgu sorguya sağ tıklayıp "Yüklemeyi etkinleştir" seçeneği geçiş tarafından yükleme davranışını denetleyebilirsiniz. Zaman *yüklemeyi etkinleştir* bir onay işareti yok yanında, sorgu sorgu sekmesinde hala kullanılabilir olduğunu ve diğer sorguları kullanabilirsiniz. Bu durum özelikle Birleştir, Ekle ve Başvuru dönüşümlerinde kullanışlıdır. Ancak sorgu sonuçları veri modeline yüklenmediği için sorgu rapor alan listenizi veya veri modelinizi doldurmaz. 
+Varsayılan olarak tüm sorgular bir Excel çalışma kitabına veya veri modeline (ya da ikisine birden) yüklenir. Bazı sorgular ara adımlardır ve son kullanıcılara yönelik değildir. Bu durum genellikle yukarıda belirtildiği gibi sorgulara başvurma sırasında ortaya çıkar. Gezginde sorguya sağ tıklayıp "Yüklemeyi Etkinleştir" seçeneğini ayarlayarak sorgu yükleme davranışını denetleyebilirsiniz. *Yüklemeyi Etkinleştir* seçeneğinin yanında onay işareti olmadığında da sorgu, sorgu sekmesinde görünür ve diğer sorgularla kullanılabilir. Bu durum özelikle Birleştir, Ekle ve Başvuru dönüşümlerinde kullanışlıdır. Ancak sorgu sonuçları veri modeline yüklenmediği için sorgu rapor alan listenizi veya veri modelinizi doldurmaz. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Dağılım grafikleri için bir nokta tanımlayıcısı gerekir
-Sıcaklıkların ve ölçülme Zamanlarının yer aldığı basit bir tabloyu ele alalım. Bu tabloyu doğrudan bir dağılım grafiğinde çizerseniz Power BI tüm değerleri tek bir noktaya toplar. Tek tek veri noktalarını göstermek için bir alan bölümündeki Ayrıntılar demetine bir alan da eklemeniz gerekir. Power BI Desktop’ta bunu yapmanın kolay yolu sorgu sekmesindeki "Sütun Ekle" şeridinde "Dizin sütunu ekle" seçeneğini kullanmaktır. 
+Sıcaklıkların ve ölçülme Zamanlarının yer aldığı basit bir tabloyu ele alalım. Bu tabloyu doğrudan bir dağılım grafiğinde çizerseniz Power BI tüm değerleri tek bir noktaya toplar. Veri noktalarını ayrı bir şekilde göstermek için alan bölümündeki Ayrıntılar demetine bir alan eklemeniz gerekir. Power BI Desktop’ta bunu yapmanın kolay yolu sorgu sekmesindeki "Sütun Ekle" şeridinde "Dizin sütunu ekle" seçeneğini kullanmaktır. 
 
 ## <a name="reference-lines-in-your-report"></a>Raporunuzdaki başvuru çizgisi
 Power BI Desktop’ta başvuru çizgisini tanımlamak için hesaplanmış bir sütun kullanabilirsiniz. Başvuru çizgisi oluşturmak için kullanmak istediğiniz tabloyu ve sütunu belirleyin. Şeritteki "Yeni Sütun" komutunu seçip formül çubuğuna aşağıdaki formülü yazın:
@@ -50,7 +49,7 @@ Power BI Desktop’ta başvuru çizgisini tanımlamak için hesaplanmış bir s�
 Bu hesaplanmış sütun, kullanıldığı yerden bağımsız olarak 100 değerini döndürür. Yeni sütun Alan Listesinde gösterilir. Hedef Değer hesaplanmış sütununu bir çizgi grafiğe ekleyerek dizinin belirli başvuru çizgisiyle olan ilişkisini gösterebilirsiniz. 
 
 ## <a name="sort-by-another-column"></a>Başka bir sütuna göre sıralama
-Power BI'da grafik eksenleri için ya da dilimleyicide veya filtrede kategori (dize) değeri kullandığınızda varsayılan olarak alfabetik sıralama kullanılır. Bu sıralamayı geçersiz kılmak isterseniz, örneğin, ayların veya haftanın günü gibi şeyler için daha sonra Power BI Desktop'ın farklı bir sütuna göre sıralamak için söyleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop'ta sütuna göre sırala](desktop-sort-by-column.md).
+Power BI'da grafik eksenleri için ya da dilimleyicide veya filtrede kategori (dize) değeri kullandığınızda varsayılan olarak alfabetik sıralama kullanılır. Haftanın günleri veya aylar gibi girişler nedeniyle bu sıralamayı geçersiz kılmak isterseniz Power BI Desktop uygulamasına farklı bir sütuna göre sıralama yapma komutu verebilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop'ta sütuna göre sıralama](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Bing ipuçlarıyla haritaları daha kolay oluşturma
 Power BI, varsayılan harita koordinatlarını sağlamak için Bing ile tümleşir (coğrafi kodlama adlı bir işlem). Bu sayede daha kolay bir şekilde harita oluşturabilirsiniz. Bing, doğru konumu almak için bazı algoritmalar ve ipuçları kullanır ancak sonuçta yapılan bir tahmindir. Doğru coğrafi kodlama ihtimalini artırmak için aşağıdaki ipuçlarından faydalanabilirsiniz:
@@ -62,7 +61,7 @@ Bazı terimler birden fazla ülke/bölge söz konusu olduğunda belirsiz olabili
 Power BI hizmetinde veya Desktop’ta dilediğiniz zaman enlem ve boylam konumlarını da kullanabilirsiniz. Bunu yaptığınızda ayrıca bir Konum alanı da iletmeniz gerekir. Aksi halde veriler varsayılan olarak toplanır ve enlem ile boylam konumu istediğiniz değeri vermeyebilir.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Bing'e coğrafi kodlama konusunda yardımcı olmak için coğrafi alanları kategorilere ayırma
-Veri alanlarında Veri Kategorisi belirlemek, alanlarda doğru coğrafi kodlamanın yapıldığından emin olmanın başka bir yoludur. Power BI Desktop'ta istediğiniz tabloyu seçin, Gelişmiş şeridine gidin ve ardından veri kategorisini adres, şehir, kıta, ülke/bölge, ülke, posta kodu, eyalet veya bölge için ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](desktop-data-categorization.md).
+Veri alanlarında Veri Kategorisi belirlemek, alanlarda doğru coğrafi kodlamanın yapıldığından emin olmanın başka bir yoludur. Power BI Desktop'ta istediğiniz tabloyu seçin, Gelişmiş şeridine gidin ve Veri Kategorisini Adres, Şehir, Kıta, Ülke/Bölge, Posta Kodu, Eyalet veya İl olarak belirleyin. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](desktop-data-categorization.md).
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Daha belirli konumlarla daha iyi coğrafi kodlama
 Bazen veri kategorilerinin ayarlanması bile harita oluşturma için yeterli olmaz. Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullanarak açık adres gibi daha belirli bir konuma yer verebilirsiniz. Özel sütun oluşturmak için Sütun Ekle özelliğini kullanın. Ardından aşağıda belirtilen şekilde istediğiniz konumu oluşturun: 
@@ -86,7 +85,7 @@ Histogram oluşturmak için demet tanımlama: Histogram oluşturmak istediğiniz
 
 Elde edilecek olan toplama sütunu için, veri türünün bir sayı olduğundan emin olun. Artık, En Basit Histogram bölümünde açıklanan gruplandırma yöntemini kullanarak histogramı oluşturabilirsiniz. Bu seçenek daha fazla veri noktasıyla birlikte kullanılabilir ancak fırça kullanımına bunda da izin verilmez.
 
-Bağlantılıyken - Bağlantılıyken destekler, böylece bir kullanıcı bir görselde bir veri noktasını seçtiğinde görselleri birbirine bağlı olan bir histogram tanımlama, rapor sayfasındaki diğer görsellerde vurgulayın veya seçilen veri noktası ile ilgili veri noktalarını. Sorgu süresince verileri düzenlediğimiz için tablolar arasında bir ilişki oluşturmamız ve histogramda bulunan demetin hangi ayrıntı öğesiyle ilgili olduğundan (veya tam tersi) emin olmamız gerekir.
+Fırça kullanımını destekleyen bir histogram tanımlama: Fırça özelliği, görseller bağlantılıyken kullanıcı bir görselde bir veri noktasını seçtiğinde rapor sayfasında bulunan diğer görsellerin, seçilen veri noktası ile ilgili veri noktalarını vurgulaması veya filtrelemesi için kullanılır. Sorgu süresince verileri düzenlediğimiz için tablolar arasında bir ilişki oluşturmamız ve histogramda bulunan demetin hangi ayrıntı öğesiyle ilgili olduğundan (veya tam tersi) emin olmamız gerekir.
 
 Histogram oluşturmak istediğiniz alanın bulunduğu sorguda "Başvuru" seçeneğini kullanarak işleme başlayın. Yeni sorguyu "Buckets" olarak adlandırın. Bu örnek için özgün sorguyu "Details" olarak adlandıralım. Ardından, histogram için demet olarak kullanacağınız sütun dışındaki tüm sütunları kaldırın. Şimdi, sorguda bulunan ve sütunu seçtiğinizde sağ tıklama menüsünde bulunan "Yinelenenleri Kaldır" özelliğini kullanın. Böylece sütunda yalnızca benzersiz değerler kalır. Elinizde ondalık sayılar varsa yönetebileceğiniz kadar demeti almak için bir histogram oluşturmak üzere ilk olarak demet tanımlama ipucunu kullanabilirsiniz. Şimdi, sorgu önizlemesinde gösterilen verileri kontrol edin. Boş veya null değerler görürseniz ilişki oluşturmadan önce bunları düzeltmeniz gerekir. Bkz. "Verilerinizde null veya boş değerler varsa ilişki oluşturma". Sıralama gereksinimi nedeniyle, bu yaklaşımın kullanılması sorunlara neden olabilir. Demetlerin doğru şekilde sıralanması için bkz. "Sıralama düzeni: kategorilerin istediğiniz düzende görünmesini sağlama". 
 
@@ -161,4 +160,4 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir. BI analizi için en iyi 
 
 [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[DAX Resource Center (DAX Kaynak Merkezi)](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[DAX Resource Center (DAX Kaynak Merkezi)](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

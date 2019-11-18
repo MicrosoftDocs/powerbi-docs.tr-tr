@@ -1,8 +1,7 @@
 ---
-title: Power BI soru- cevap ile bir görsel oluşturun
-description: Soru- cevap ile Power BI hizmetinde perakende analizi örneğini kullanarak bir görsel oluşturmayı öğrenin
+title: Power BI Soru-Cevap özelliğiyle görsel oluşturma
+description: Perakende Analizi örneğini kullanarak Power BI hizmetindeki Soru-Cevap özelliği ile görsel oluşturmayı öğrenin
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,44 +9,44 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 580b387f8c763b0457bd32a71bfbccd90d4040a3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65625206"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874455"
 ---
-# <a name="create-a-visual-with-power-bi-qa"></a>Power BI soru- cevap ile bir görsel oluşturun
+# <a name="create-a-visual-with-power-bi-qa"></a>Power BI Soru-Cevap özelliğiyle görsel oluşturma
 
-Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır.  Bu makalede, biz aynı görselleştirmeyi oluşturmanın iki farklı yollarına göz atın: ilk olarak, soru- cevap ile soru sorma ve ikinci olarak, Bu raporda oluşturma. Power BI hizmetinde rapor görseli oluşturmak için kullanıyoruz, ancak bu işlemi Power BI Desktop ile neredeyse aynıdır.
+Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır.  Bu makalede aynı görselleştirmeyi oluşturmak için kullanabileceğiniz iki yöntemi inceleyeceğiz: Soru-Cevap ile soru sorma ve görseli bir raporda oluşturma. Rapordaki görseli oluşturmak için Power BI hizmetini kullanacağız ancak Power BI Desktop kullanıldığında da neredeyse aynı işlem gerçekleştirilir.
 
-![Power BI doldurulmuş grafiği](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-visual.png)
+![Power BI doldurulmuş grafik](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-visual.png)
 
 Birlikte ilerleyebilmeniz için, düzenleyebileceğiniz bir raporu kullanmanız gerekir. Bu nedenle, Power BI'da bulunan örneklerden birini kullanacağız.
 
-## <a name="create-a-visual-with-qa"></a>Soru- cevap ile bir görsel oluşturun
+## <a name="create-a-visual-with-qa"></a>Soru-Cevap özelliğiyle görsel oluşturma
 
-Nasıl soru- cevap'ı kullanarak bu çizgi grafiği oluşturma hakkında çıkacak?
+Soru-Cevap özelliğini kullanarak bu çizgi grafiği nasıl oluşturabiliriz?
 
 1. Power BI çalışma alanınızda **Veri Al** \> **Örnekler** \> **Perakende Analizi Örneği** > **Bağlan**'ı seçin.
 
-1. Retail Analysis Sample panosunu açın ve imlecinizi soru- cevap bir kutu içinde yerleştirin **verileriniz hakkında soru sorun**.
+1. Perakende Analizi Örneği panosunu açın ve imlecinizi **Verilerinizle ilgili bir soru sorun** ifadesinin yer aldığı Soru-Cevap kutusuna getirin.
 
-    ![İmleci soru- cevap bir kutu içinde](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-cursor-in-qna-box.png)
+    ![İmleci Soru-Cevap kutusuna getirin](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-cursor-in-qna-box.png)
 
-2. Soru- cevap bir kutusu içinde bu soruyu gibi yazın:
+2. Soru-Cevap kutusuna şu soruya benzer bir soru yazın:
    
-    **Bu yılın satışları ve geçen yılın satışlarını alan grafiği olarak ay**
+    **bu yıla ait satış verileri ile önceki yıla ait satış verilerini alan grafiğinde aylara göre görüntüle**
    
-    Siz sorunuzu yazarken Soru-Cevap özelliği, yanıtınızı görüntülemek üzere en iyi görselleştirmeyi seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir. Soru-Cevap özelliği öneriler, otomatik tamamlama ve yazım düzeltmeleri ile sorunuzu biçimlendirmenize de yardımcı olur. Soru- cevap, bir küçük ifade değişiklik önerir: "Bu yılın satışları ve geçen yılın satışları *saat ayı* alan grafiği olarak".  
+    Siz sorunuzu yazarken Soru-Cevap özelliği, yanıtınızı görüntülemek üzere en iyi görselleştirmeyi seçer. Siz soruyu değiştirdikçe görselleştirmeler de dinamik olarak değiştirilir. Soru-Cevap özelliği öneriler, otomatik tamamlama ve yazım düzeltmeleri ile sorunuzu biçimlendirmenize de yardımcı olur. Soru-Cevap, ifadede ufak bir değişiklik yapılmasını önerir: "bu yıla ait satış verileri ile önceki yıla ait satış verilerini alan grafiğinde *aylara göre zamanlayarak* görüntüle".  
 
-    ![Soru- cevap ifadesi düzeltildi](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-corrected-create-filled-chart.png)
+    ![Soru-Cevap tarafından düzeltilen ifade](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-corrected-create-filled-chart.png)
 
-4. Öneriyi kabul etmek için cümle seçin. 
+4. Öneriyi kabul etmek için tümceyi seçin. 
    
-   Sorunuzu yazmayı bitirdikten sonra sonuç Panoda gördüğünüz aynı grafiktir.
+   Soruyu yazmayı tamamladığınızda göreceğiniz sonuç, panodakiyle aynı grafik olacaktır.
    
-   ![Soru- cevap bir doldurulmuş alan grafiği](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
+   ![Soru-Cevap tarafından doldurulmuş alan grafiği](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
 4. Grafiği panonuza sabitlemek için raptiye simgesini seçin ![Raptiye simgesi](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) dokunun.
 
@@ -55,24 +54,24 @@ Nasıl soru- cevap'ı kullanarak bu çizgi grafiği oluşturma hakkında çıkac
 
 1. Perakende Analizi Örneği panosuna geri dönün.
    
-2. Panoyu aynı alan grafiği kutucuğu, "Last Year Sales ve bu yılın satışları için." içerir.  Bu kutucuğu seçin. Soru- cevap ile oluşturulan kutucuk seçmeyin Bunu seçtiğinizde soru- cevap açılır Rapor, bu görselleştirmeyi içeren sayfa açılır özgün alan grafiği kutucuğu bir raporda oluşturuldu.
+2. Panoda "Geçen Yılın Satışları ve Bu Yılın Satışları" adlı, hem geçen yıla ait hem de bu yıla ait satış verilerinin yer aldığı aynı alan grafiği kutucuğu bulunur.  Bu kutucuğu seçin. Soru-Cevap ile oluşturduğunuz kutucuğu seçmeyin. Bunu seçerseniz Soru-Cevap açılır. Özgün alan grafiği kutucuğu raporda oluşturulduğundan raporda, bu görselleştirmeyi içeren sayfa açılır.
 
     ![Perakende Analizi örneği panosu](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 
 1. **Raporu düzenle**'yi seçerek raporu Düzenleme Görünümü'nde açın.  Raporun sahibi siz değilseniz Düzenleme görünümünde açma seçeneği sağlanmaz.
    
     ![Raporu düzenle düğmesi](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. Alan grafiğini seçin ve **Alanlar** bölmesinde ayarları gözden geçirin.  Bu üç değere seçerek raporu oluşturan kişi bu grafiği yerleşik (**Last Year Sales** ve **This Year Sales > değer** gelen **satış** tablosunu ve  **FiscalMonth** gelen **zaman** tablo) ve bunları düzenleme **eksen** ve **değerleri** oluşturmuştur.
+4. Alan grafiğini seçin ve **Alanlar** bölmesinde ayarları gözden geçirin.  Raporu oluşturan kişi bu grafiği, ilgili üç değeri seçip (**Satış** tablosundan **Önceki Yılın Satışları** ve **Bu Yılın Satışları > Değer** ile **Zaman** tablosundan **MaliAy**) bunları **Eksen** ve **Değerler** kutularında düzenleyerek oluşturmuştur.
    
     ![Görselleştirmeler bölmesi](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 
-    Bunlar aynı görselle sonuçlandı görürsünüz. Gördüğünüz gibi bu çok karmaşık değildi. Ancak soru- cevap ile oluşturmayı daha kolay!
+    Gördüğünüz gibi iki işlem de aynı görseli oluşturmaktadır. Bu şekilde oluşturmak da çok zor değildir. Ancak Soru-Cevap ile oluşturmak çok daha kolaydır!
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Pano ve raporlarda soru- cevap kullanma](power-bi-tutorial-q-and-a.md)  
-- [Tüketiciler için soru- cevap](consumer/end-user-q-and-a.md)
+- [Panolarda ve raporlarda Soru-Cevap kullanma](power-bi-tutorial-q-and-a.md)  
+- [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md)
 - [Power BI'daki Soru-Cevap özelliğiyle verilerinizin düzgün çalışmasını sağlama](service-prepare-data-for-q-and-a.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

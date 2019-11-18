@@ -2,7 +2,6 @@
 title: 'Power BI için Perakende Analizi örneği: Tura katılın'
 description: 'Power BI için Perakende Analizi örneği: Tura katılın'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962230"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858565"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
@@ -54,11 +53,11 @@ Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, Perakende Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi Power BI Desktop ile kullanım için tasarlanmıştır. 
+Alternatif olarak, Perakende Analizi örneğini bir [.pbix dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi Power BI Desktop ile kullanım için tasarlanmıştır. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529778) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529778) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Panodan başlayın ve raporu açın
 
@@ -78,7 +77,7 @@ Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel ça
 
    **FD-01** bölgesi en yüksek ortalama **Fit Kare Başına Satış** değerine sahipken FD-02 geçen yılla karşılaştırıldığında en düşük **Toplam Satış Varyansı** değerine sahip. FD-03 ve FD-04 tüm bölgeler arasında en düşük performansa sahip olanlar.
 4. Seçimlerinizin etkisini ortaya çıkaran çapraz vurgulamayı görmek için kabarcıkları veya diğer grafikleri seçin.
-5. Panoya dönmek için üst gezinti çubuğundan **Perakende Analizi Örneği**'ni seçin.
+5. Panoya dönmek için üst gezinti bölmesinden **Perakende Analizi Örneği**'ni seçin.
 
    ![Gezinti çubuğu](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. Panoda **This Year's Sales New & Existing Stores** kutucuğunu seçin. Bu seçim, Soru-Cevap soru kutusuna *This year sales* (Bu yılın satışları) yazmakla eşdeğerdir.

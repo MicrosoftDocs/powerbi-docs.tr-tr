@@ -1,8 +1,7 @@
 ---
-title: Power BI üçüncü taraf bağlayıcı güvenilir
-description: Power bı'da imzalı üçüncü taraf bağlayıcı güven nasıl
+title: Power BI'daki Güvenilen Üçüncü Taraf Bağlayıcılar
+description: Power BI'daki imzalı üçüncü taraf bağlayıcılara güvenme
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,41 +9,41 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 30b7457c6149320c43f24b967a842382821b01b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ac3f795d6a80d5f143daf68436f41f5771b3c2bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65607783"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876154"
 ---
-# <a name="trusting-third-party-connectors"></a>Güvenen üçüncü taraf bağlayıcılar
+# <a name="trusting-third-party-connectors"></a>Üçüncü taraf bağlayıcılara güvenme
 
-## <a name="why-do-you-need-trusted-third-party-connectors"></a>Güvenilir bir üçüncü taraf bağlayıcılar neden gerekiyor?
+## <a name="why-do-you-need-trusted-third-party-connectors"></a>Güvenilen üçüncü taraf bağlayıcılara neden ihtiyaç duyulur?
 
-Power BI'da genellikle 'veri uzantısını güvenlik', Microsoft tarafından onaylanmamıştır kod yüklenmesini engeller daha yüksek düzeydeki düzeyi tutulması önerilir. Ancak, özel bağlayıcılar--olanları, yazdığınız veya size bir danışman veya Microsoft Sertifika yolu dışında bir satıcı tarafından sağlanan olanları yüklemek istediğiniz birçok durumlar olabilir.
+Power BI'da genellikle "Veri uzantısı güvenliği" düzeyinin yüksek tutulması ve bu sayede Microsoft tarafından onaylanmayan yüklenmesinin önlenmesi önerilir. Ancak kendi yazdığınız veya Microsoft onay yolu dışındaki bir danışman veya satıcı tarafından sağlanmış olan belirli bağlayıcıları yüklemek istediğiniz durumlar söz konusu olabilir.
 
-Belirli bir bağlayıcı geliştiricisi, bir sertifika ile oturum ve güvenlik ayarlarınızı azaltmayı olmadan güvenli bir şekilde yüklemek gereken bilgileri sağlarız.
+Bağlayıcıyı geliştiren kişi bunu bir sertifika ile imzalayabilir ve güvenlik ayarlarınızı düşürmeye gerek kalmadan güvenli bir şekilde yüklemeniz için gerekli bilgileri sağlayabilir.
 
-Güvenlik ayarları hakkında daha fazla bilgi edinmek istiyorsanız, bunları hakkında bilgi edinebilirsiniz [burada](https://docs.microsoft.com/power-bi/desktop-connector-extensibility).
+Güvenlik ayarları hakkında daha fazla bilgi edinmek için [bu sayfayı](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) inceleyebilirsiniz.
 
-## <a name="using-the-registry-to-trust-third-party-connectors"></a>Üçüncü taraf bağlayıcılar güvenecek şekilde kayıt defterini kullanma
+## <a name="using-the-registry-to-trust-third-party-connectors"></a>Üçüncü taraf bağlayıcılarına güvenmek için kayıt defterini kullanma
 
-Power BI üçüncü taraf bağlayıcı güvenen belirtilen kayıt defteri değerindeki güven istediğiniz sertifikanın parmak izini listeleyerek gerçekleştirilir. Bu parmak izine Bağlayıcısı'nı yüklemek istediğiniz sertifika parmak izi eşleşirse, Power BI 'Önerilen' güvenlik düzeyini yüklemek mümkün olacaktır. 
+Power BI'da üçüncü taraf bağlayıcılarına güvenmek için güvenmek istediğiniz sertifikanın parmak izini belirtilen bir kayıt defteri değerinde listelemeniz gerekir. Bu parmak izinin yüklemek istediğiniz bağlayıcının sertifikasındaki parmak izi ile eşleşmesi durumunda ilgili bağlayıcıyı Power BI'da "Önerilen" güvenlik düzeyinde yükleyebilirsiniz. 
 
-Kayıt defteri yolunu HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Masaüstü ' dir. Yolun var olduğundan emin olun veya oluşturun. Bu konum, BT ilkesi hem de tarafından gerektiren yerel makine yönetim erişimini düzenlemek için öncelikle denetlenen seçtik. 
+Kayıt defteri yolu: HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Desktop. Yolun var olduğundan emin olun veya oluşturun. Bu konumu seçmemizin nedeni öncelikli olarak BT ilkeleri tarafından denetlenmesi ve düzenlemek için yerel makinede yönetim izinlerinin gerekli olmasıdır. 
 
-![Power BI Desktop kayıt defteri güvenilir bir üçüncü taraf anahtar olmadan ayarlayın](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
+![Power BI Desktop kayıt defteri, güvenilen üçüncü taraf anahtar ayarlanmamış durumda](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
 
-Yukarıda belirtilen yolun altındaki yeni bir değer ekleyin. Tür "Çok dizeli değer" (REG_MULTI_SZ) olmalıdır ve "TrustedCertificateThumbprints" çağrılmalıdır 
+Yukarıda belirtilen yola yeni bir değer ekleyin. Türü “Çoklu Dize Değeri” (REG_MULTI_SZ), adı ise “TrustedCertificateThumbprints” olmalıdır. 
 
-![Power BI Desktop kayıt defteri ile güvenilir üçüncü taraf bağlayıcılar ancak hiçbir anahtar için bir giriş](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
+![Power BI Desktop kayıt defteri, güvenilen üçüncü taraf bağlayıcılar için giriş var ancak anahtar yok](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
 
-Güven istediğiniz sertifikaların parmak izleriyle ekleyin. Ayırıcı olarak ya da -> tıklatın doğru Kayıt Defteri Düzenleyicisi'nde "\0" kullanarak birden çok sertifika değiştirin ve her parmak izi yeni bir satıra ekleyebilirsiniz. Otomatik olarak imzalanan bir sertifika parmak izi alınır. 
+Güvenmek istediğiniz sertifikaların parmak izlerini ekleyin. Sınırlayıcı olarak “\0” kullanarak birden fazla sertifika ekleyebilir veya kayıt defteri düzenleyicisinde sağ tıklayıp Değiştir'i seçerek her parmak izini yeni bir satıra ekleyebilirsiniz. Örnek parmak izi, otomatik olarak imzalanan bir sertifikadan alınmıştır. 
 
- ![Power BI Desktop güvenilir bir üçüncü taraf anahtar kümesi ile kayıt defteri](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
+ ![Power BI Desktop kayıt defteri, güvenilen üçüncü taraf anahtar ayarlanmış durumda](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
 
-Yönergeleri takip düzgün bir şekilde ve uygun parmak izi, geliştirici tarafından verilmiş, güvenli bir şekilde ilişkili sertifika ile imzalanmış güven bağlayıcılara mümkün olması gerekir.
+Yönergeleri doğru bir şekilde takip ettiyseniz ve geliştiriciden doğru parmak izini aldıysanız ilgili sertifika ile imzalanmış olan bağlayıcılara güvenebilmeniz gerekir.
 
-## <a name="how-to-sign-connectors"></a>Bağlayıcılar oturum açma
+## <a name="how-to-sign-connectors"></a>Bağlayıcıları İmzalama
 
-Bağlayıcı, ya da oturum açmanız gerekir Geliştirici varsa, bu konuda Power Query belgelere okuyabilirsiniz [burada](https://docs.microsoft.com/power-query/handlingconnectorsigning).
+Sizin veya geliştiricinizin imzalaması gereken bir bağlayıcı varsa gerekli bilgilere [buradaki](https://docs.microsoft.com/power-query/handlingconnectorsigning) Power Query belgesinden ulaşabilirsiniz.

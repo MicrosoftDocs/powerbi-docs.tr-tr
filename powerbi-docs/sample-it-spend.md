@@ -2,7 +2,6 @@
 title: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
 description: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462261"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873900"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için BT Harcama Analizi örneği: Tura katılın
 
@@ -54,11 +53,11 @@ Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, BT Harcama Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
+Alternatif olarak, BT Harcama Analizi örneğini bir [.pbix dosyası](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529783) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529783) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>BT Harcama Analizi Örneği panosu
 Panonun solunda yer alan, **Var Plan %** ve **Variance Latest Estimate % Quarter 3** adlı iki sayı kutucuğu, plana göre ve en yeni üç aylık dönem tahminine (LE3 = latest estimate quarter 3) göre nasıl bir ilerleme kaydettiğimize ilişkin bir genel bakış sunar. Genel olarak bakıldığında, planın yaklaşık %6 oranında gerisindeyiz. Şimdi bu farkın nedenini araştıralım: ne zaman, nerede ve hangi kategori.
@@ -78,7 +77,7 @@ Panonun solunda yer alan, **Var Plan %** ve **Variance Latest Estimate % Quarter
     Sonra da ABD'de varyansa neden olan kategorinin hangisi olduğunu araştıralım.
 
 ## <a name="ask-questions-of-the-data"></a>Veriler hakkında soru sorma
-1. Örnek panoya geri dönmek için üst gezinti çubuğunda **BT Harcama Analizi Örneği**'ni seçin.
+1. Örnek panoya geri dönmek için üst gezinti bölmesinde **BT Harcama Analizi Örneği**'ni seçin.
 2. **Verilerinizle ilgili bir soru sorun**’u seçin.
 3. Sol taraftaki **Başlamanıza yardımcı olacak sorular** listesinden **BT alanına göre plan nedir**’i seçin.
 

@@ -2,22 +2,21 @@
 title: Power BI hizmetinde dolaşma
 description: Yeni Power BI gezinti deneyimine genel bakış
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589448"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851522"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -57,7 +56,7 @@ Temel içeriğin (panolar, raporlar, veri kümeleri ve çalışma kitapları) na
 
 ![Çalışma Alanım ekranı](./media/end-user-experience/power-bi-my-workspace.png)
 
-Sol gezinti bölmesinden bir çalışma alanı seçtiğinizde, ilişkili içerik (panolar, raporlar, çalışma kitapları ve veri kümeleri) için sekmeler Power BI tuvalinin sağ tarafını doldurur.
+Gezinti bölmesinden bir çalışma alanı seçtiğinizde, ilişkili içerik (panolar, raporlar, çalışma kitapları ve veri kümeleri) için sekmeler Power BI tuvalinin sağ tarafını doldurur.
 
 Yeni bir kullanıcıysanız yalnızca bir çalışma alanı görürsünüz: **Çalışma Alanım**.
 
@@ -82,7 +81,7 @@ Pano adını seçerek panoyu açın.
    
    ![sık kullanılanlardan çıkarma](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. Sık kullanılanlara eklediğiniz tüm içeriklerin listesini görüntülemek için sol gezinti bölmesinde **Sık Kullanılanlar**'ın sağ tarafındaki oku seçin. Sol gezinti bölmesi Power BI hizmetinin kalıcı bir özelliği olduğundan, bu listeye Power BI hizmetindeki herhangi bir konumdan erişebilirsiniz.
+2. Sık kullanılanlara eklediğiniz tüm içeriklerin listesini görüntülemek için gezinti bölmesinde **Sık Kullanılanlar**'ın sağ tarafındaki oku seçin. Gezinti bölmesi Power BI hizmetinin kalıcı bir özelliği olduğundan, bu listeye Power BI hizmetindeki herhangi bir konumdan erişebilirsiniz.
    
     ![sık kullanılanlar açılır öğesi](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Pano adını seçerek panoyu açın.
    
    ![sık kullanılan olarak işaretleme](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Sol gezinti bölmesinden **Sık Kullanılanlar**’ı seçerek veya yıldız simgesini ![](media/end-user-experience/powerbi-star-icon.png) seçerek **Sık Kullanılanlar** *bölmesini* açın.
+3. Gezinti bölmesinden **Sık Kullanılanlar**’ı seçerek veya yıldız simgesini ![sarı yıldız simgesini gösteren ekran görüntüsü](media/end-user-experience/powerbi-star-icon.png) seçerek **Sık Kullanılanlar** *bölmesini* açın.
    
    ![Sık Kullanılanlar’ı açma ekranı](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Daha fazla bilgi edinmek için bkz. [Sık Kullanılanlar](end-user-favorite.md)
 
 ## <a name="locate-your-most-recent-content"></a>En son içeriğinizi bulma
 
-1. Sık Kullanılanlar bölmesine benzer şekilde, sol gezinti bölmesinde bulunan **En son** sekmesinin yanındaki oku seçerek Power BI hizmetinde en son eriştiğiniz içeriği hızlıca görebilirsiniz.
+1. Sık Kullanılanlar bölmesine benzer şekilde, gezinti bölmesinde bulunan **En son** sekmesinin yanındaki oku seçerek Power BI hizmetinde en son eriştiğiniz içeriği hızlıca görebilirsiniz.
 
    ![Son görüntülenen açılır öğesi](./media/end-user-experience/power-bi-recent-flyout.png)
 
     Açılan menüden içeriği seçip açın.
 
-2. Bazen son içeriği açmak istemezsiniz ancak içgörüleri görüntüleme veya Excel’e dışarı aktarma gibi bilgi görüntülemek veya başka bir işlem uygulamak istersiniz. Bu tür durumlarda **En son** seçeneğini belirleyerek veya sol gezinti bölmesinden simgesini seçerek **En son** bölmesini açın. Birden fazla çalışma alanınız varsa, tüm alanlarınızdaki içerikler bu listede yer alır.
+2. Bazen son içeriği açmak istemezsiniz ancak içgörüleri görüntüleme veya Excel’e dışarı aktarma gibi bilgi görüntülemek veya başka bir işlem uygulamak istersiniz. Bu tür durumlarda **En son** seçeneğini belirleyerek veya gezinti bölmesinden simgesini seçerek **En son** bölmesini açın. Birden fazla çalışma alanınız varsa, tüm alanlarınızdaki içerikler bu listede yer alır.
 
    ![Son görüntülenen bölmesi](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ Daha fazla bilgi edinmek için bkz. [Power BI'da gezinti: arama ve sıralama](en
 Bu hızlı başlangıcı tamamladıktan sonra dilerseniz Perakende Analizi örneği panosunu, raporu ve veri kümesini silebilirsiniz.
 
 1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.    
-2. Sol gezinti bölmesinde **Çalışma Alanları > Çalışma Alanım**’ı seçin.  
+2. Gezinti bölmesinde **Çalışma Alanları > Çalışma Alanım**’ı seçin.  
     Sık kullanılanların sarı yıldızla gösterildiğini fark ettiniz mi?    
 3. **Panolar** sekmesinde Perakende Analizi panosunun yanında bulunan çöp kutusu biçimindeki **Sil** simgesini seçin.    
 

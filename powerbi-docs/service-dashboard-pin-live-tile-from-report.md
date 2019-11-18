@@ -2,7 +2,6 @@
 title: 'Rapor sayfasının tamamını bir Power BI panosuna sabitleme '
 description: Raporlardaki bir canlı rapor sayfasının tamamını Power BI panosuna sabitleme hakkında belge.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140214"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853072"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Rapor sayfasının tamamını bir Power BI panosuna canlı kutucuk olarak sabitleme
 Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin başka bir yolu da rapor sayfasının tamamını sabitlemektir. Bu işlem, aynı anda birden fazla görselleştirme sabitlemenin kolay bir yoludur.  Ayrıca, bir sayfanın tamamını sabitlediğinizde kutucuklar *canlıdır*; kutucuklarla doğrudan pano üzerinden etkileşim kurabilirsiniz. Üstelik rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
@@ -55,5 +54,5 @@ Canlı rapor sayfasını bir panoya sabitleyen Amanda'yı izledikten sonra kendi
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki panolar](consumer/end-user-dashboards.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

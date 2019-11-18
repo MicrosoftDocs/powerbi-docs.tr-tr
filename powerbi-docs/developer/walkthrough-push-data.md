@@ -3,18 +3,17 @@ title: Bir veri kümesine veri gönderme
 description: Power BI veri kümelerine veri gönderme
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222153"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875440"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 
@@ -43,7 +42,7 @@ Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
 * [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [Grupları Al](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Bir JavaScript Nesne Gösterimi (JSON) dizesini Power BI hizmetine geçirerek veri kümesi oluşturabilirsiniz. JSON hakkında daha fazla bilgi edinmek için bkz. [Introducing JSON (JSON'a giriş)](http://json.org/).
+Bir JavaScript Nesne Gösterimi (JSON) dizesini Power BI hizmetine geçirerek veri kümesi oluşturabilirsiniz. JSON hakkında daha fazla bilgi edinmek için bkz. [Introducing JSON (JSON'a giriş)](https://json.org/).
 
 Bir veri kümesi için JSON dizesi aşağıdaki biçimdedir:
 
@@ -119,6 +118,6 @@ Verileri bir veri kümesine göndermeye başlamak için, sol gezinti bölmesinde
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI'a kaydolma](create-an-azure-active-directory-tenant.md)  
-[Introducing JSON (JSON'a giriş)](http://json.org/)  
+[Introducing JSON (JSON'a giriş)](https://json.org/)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

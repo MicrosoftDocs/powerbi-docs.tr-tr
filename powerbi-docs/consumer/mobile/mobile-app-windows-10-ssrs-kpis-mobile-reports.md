@@ -2,19 +2,18 @@
 title: Windows 10 için Power BI mobil uygulamasında SSRS mobil raporlarını ve KPI'lerini görüntüleme
 description: Windows 10 için Power BI mobil uygulaması, önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 114cf65e8abb072ab3f0254cbd4041a43a31d1dc
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059642"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879371"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI mobil uygulamasında Reporting Services (SSRS) mobil raporlarını ve KPI'lerini görüntüleme
 Windows 10 için Power BI mobil uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 
@@ -46,11 +45,11 @@ Reporting Services web portalına erişiminiz olmasa bile Reporting Services mob
 KPI'ler ve mobil raporlarla etkileşim kurmak için örneklere göz atın.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Bir Reporting Services rapor sunucusuna bağlanma
-1. Sol gezinti çubuğunun alt kısmında bulunan **Ayarlar** simgesine ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun
+1. Gezinti bölmesinin alt kısmındaki **Ayarlar**'a ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun.
 2. **Sunucuya bağlan**'a dokunun.
 3. Sunucu adresinin yanı sıra kullanıcı adınızı ve parolanızı girin. Sunucu adresi için şu biçimi kullanın:
    
-     `http://<servername>/reports` VEYA   `https://<servername>/reports`
+     `https://<servername>/reports` VEYA   `https://<servername>/reports`
    
    > [!NOTE]
    > Bağlantı dizesinin başına **http** veya **https** ifadesini ekleyin.
@@ -60,9 +59,9 @@ KPI'ler ve mobil raporlarla etkileşim kurmak için örneklere göz atın.
     Sunucuya istediğiniz adı vermek için **Gelişmiş seçenek**'e dokunun.
 4. Bağlanmak için onay işaretine dokunun. 
    
-   Artık sunucuyu sol gezinti çubuğunda görebilirsiniz.
+   Artık sunucuyu gezinti bölmesinde görebilirsiniz.
    
-   ![Sol gezinti çubuğundaki sunucu](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
+   ![Gezinti bölmesindeki sunucu](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-server.png)
    
    >[!TIP]
    >İstediğiniz zaman genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/powerbi_windows10_options_icon.png) dokunarak Reporting Services mobil raporları ve Power BI hizmetindeki panolarınız arasında gezinebilirsiniz. 
@@ -96,7 +95,7 @@ Reporting Services web portalınızda sık kullanılan olarak işaretlediğiniz 
 ## <a name="remove-a-connection-to-a-report-server"></a>Rapor sunucusu bağlantısını kesme
 Power BI mobil uygulamanızdan tek seferde yalnızca bir rapor sunucusuna bağlanabilirsiniz. Farklı bir sunucuya bağlanmak isterseniz geçerli sunucu bağlantısını kesmeniz gerekir.
 
-1. Sol gezinti çubuğunun alt kısmında bulunan **Ayarlar** simgesine ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun.
+1. Gezinti bölmesinin alt kısmındaki **Ayarlar**'a ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun.
 2. Bağlantısını kesmek istediğiniz sunucunun adını basılı tutun.
 3. **Sunucuyu kaldır**'a dokunun.
    
@@ -111,5 +110,5 @@ Reporting Services KPI'leri ve mobil raporları Power BI mobil uygulamasında ol
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)  
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

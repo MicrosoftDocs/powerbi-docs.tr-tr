@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060702"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873239"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 
@@ -54,7 +53,7 @@ SQL Veri Ambarı’nızla Power BI arasında veri alışverişi yapmanın en kol
 
 SQL Veri Ambarı, Power BI Veri Al sayfasında da bulunmaktadır. 
 
-1. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.  
+1. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.  
 
     ![Veri al düğmesi](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -102,4 +101,4 @@ Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL V
 * [Power BI için veri alma](service-get-data.md)  
 * [Azure SQL Veri Ambarı](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

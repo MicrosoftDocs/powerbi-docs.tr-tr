@@ -3,17 +3,16 @@ title: Azure'da Power BI Embedded hizmeti için tanılama günlüğüne kaydetme
 description: Azure'da Power BI Embedded hizmeti için tanılama günlüğüne kaydetmeyi ayarlama hakkında bilgi edinin.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289859"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875975"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded için tanılama günlüğüne kaydetme
 
@@ -29,7 +28,7 @@ Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
 
 ### <a name="azure-portal"></a>Azure portalı
 
-1. [Azure portal](https://portal.azure.com) > Power BI Embedded kaynağı sayfasında sol taraftaki gezinti menüsünden **Tanılama günlükleri**'ni ve ardından **Tanılamayı aç**'ı seçin.
+1. [Azure portal](https://portal.azure.com) > Power BI Embedded kaynağı sayfasında gezinti bölmesinden **Tanılama günlükleri**'ni ve ardından **Tanılamayı aç**'ı seçin.
 
     ![Azure portalda Power BI Embedded için tanılama günlüğüne kaydetmeyi açma](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 

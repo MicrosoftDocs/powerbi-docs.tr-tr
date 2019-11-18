@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: d24135cc55ebc8cdfd2a1279cb2a2a46f8f0bc3e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880198"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060341"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL sertifikası oluşturma
 
@@ -22,20 +22,19 @@ Bu makalede SSL sertifikasını oluşturma işlemi açıklanır.
 Windows 8 veya üstünde PowerShell `New-SelfSignedCertificate` cmdlet’ini kullanarak sertifika oluşturmak için aşağıdaki komutu çalıştırın:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 Araç, Windows 7 için OpenSSL yüklemesini gerektirir. OpenSSL yardımcı programının komut satırından kullanılabilmesi gerekir.
 
 OpenSSL’yi yüklemek için [OpenSSL](https://www.openssl.org) veya [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sitesine gidin.
 
-
-
 ## <a name="create-a-certificate-mac-os-x"></a>Sertifika oluşturma (Mac OS X)
 
 Genellikle OpenSSL yardımcı programı Linux veya Mac OS X işletim sisteminde sağlanır.
 
 Aşağıdaki komutlardan birini çalıştırarak da yardımcı programı yükleyebilirsiniz:
+
 * *Brew* paket yöneticisinden:
 
     ```cmd
@@ -52,7 +51,7 @@ Aşağıdaki komutlardan birini çalıştırarak da yardımcı programı yükley
 Yeni sertifikayı oluşturmak üzere OpenSSL yardımcı programını yükledikten sonra aşağıdaki komutu çalıştırın:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 ## <a name="create-a-certificate-linux"></a>Sertifika oluşturma (Linux)
@@ -80,7 +79,7 @@ OpenSSL yardımcı programı Linux işletim sisteminizde yoksa, aşağıdaki kom
 OpenSSL yardımcı programı işletim sisteminizde zaten varsa, aşağıdaki komutu çalıştırarak yeni sertifikayı oluşturun:
 
 ```cmd
-pbiviz --create-cert
+pbiviz --install-cert
 ```
 
 Öte yandan, [OpenSSL](https://www.openssl.org) veya [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sitesine giderek de OpenSSL yardımcı programını alabilirsiniz.

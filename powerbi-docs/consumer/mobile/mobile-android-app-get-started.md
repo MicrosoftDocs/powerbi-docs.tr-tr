@@ -2,19 +2,18 @@
 title: Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 description: Android telefonlardaki Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060282"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876792"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -34,7 +33,7 @@ Daha sonra Android için Power BI uygulamasında, şirket içinde veya bulutta o
 
 ### <a name="get-the-app"></a>Uygulamayı alın
 
-Google Play'den [Android için Power BI uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkID=544867).
+Google Play'den [Android için Power BI uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkID=544867).
   
 Power BI, Android 5.0 veya sonraki işletim sistemlerini çalıştıran birkaç farklı Android cihazda çalışabilir. Cihazınızı kontrol etmek için **Ayarlar** > **Cihaz hakkında** > **Android sürümü** menüsüne gidin. 
 
@@ -44,9 +43,9 @@ Kaydolmanıza veya oturum açmanıza gerek kalmadan, Android cihazınızdaki Pow
 [Power BI mobil uygulamalarındaki yenilikleri](../../mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web üzerinde Power BI hizmetine kaydolma
-Henüz kaydolmadıysanız [Power BI hizmeti http://powerbi.com/)](http://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Android cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
+Henüz kaydolmadıysanız [Power BI hizmeti https://powerbi.com/)](https://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Android cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
 
-1. Power BI hizmetinde bir Power BI hesabı oluşturmak için [Kaydol](http://go.microsoft.com/fwlink/?LinkID=513879) seçeneğine dokunun.
+1. Power BI hizmetinde bir Power BI hesabı oluşturmak için [Kaydol](https://go.microsoft.com/fwlink/?LinkID=513879) seçeneğine dokunun.
 2. [Kendi panolarınızı ve raporlarınızı oluşturmaya](../../service-get-started.md) başlayın.
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Cihazınızdaki Power BI uygulaması ile çalışmaya başlama
@@ -86,16 +85,16 @@ Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebili
     Varsayılan olarak tüm panolarda ve raporlarda arama yapılır ancak hangilerinde arama yapılacağını da seçebilirsiniz.
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
-Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](../../mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz her şeyi dilediğiniz zaman arayabilirsiniz. 
+Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](../../mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz tüm içeriği dilediğiniz zaman arayabilirsiniz. 
 
-![Sol gezinti bölmesi](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+![Gezinti bölmesi](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Sık kullandığınız panoları, KPI'leri ve raporları görüntüleme
 Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu ve Reporting Services KPI'lerinin ve raporlarının yanı sıra sık kullandığınız Power BI panolarının tümünü görebilirsiniz. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak eklediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 
 
 * **Sık Kullanılanlar**'a dokunun.
   
-   ![Sol gezinti bölmesindeki Sık Kullanılanlar seçeneği](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
+   ![Gezinti bölmesinde Sık Kullanılanlar](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
   
    Power BI sık kullanılanlarınız ile birlikte Power BI Rapor Sunucusu ve Reporting Services web portalında sık kullanılanlara eklediğiniz öğelerin tümü bu sayfada bulunur.
   
@@ -135,8 +134,8 @@ Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yan
 * [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](../../report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
 
 ### <a name="see-also"></a>Ayrıca bkz.
-* Android uygulama mağazasından [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867).
+* Android uygulama mağazasından [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867).
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
 

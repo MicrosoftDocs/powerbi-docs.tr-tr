@@ -2,21 +2,20 @@
 title: Haritalar için ipuçları (Bing Haritalar tümleştirmesi dahil)
 description: 'Power BI Harita görselleştirmeleri, görseller, konumlar, boylam, eylem ve bunların Bing Haritalar ile nasıl birlikte çalıştığına ilişkin İpuçları ve Püf Noktaları. '
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61411912"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881035"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Harita görselleştirmelerine ilişkin İpuçları ve Püf Noktaları
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmayı dener ancak tek başına başarılı olmazsa, Bing Haritalar'dan yararlanır. 
@@ -26,12 +25,13 @@ Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama içi
 * https://platform.bing.com/geo/spatial/v1/public/Geodata
 * https://www.bing.com/api/maps/mapcontrol
 
-Doğru coğrafi kodlamayı edinme olasılığını artırmak için aşağıdaki ipuçlarını kullanın. İlk ipucu kümesi, veri kümesine erişiminizin bulunması halinde uygulamanız içindir. İkinci ipucu dizisinde, veri kümesine erişiminizin bulunmaması halinde Power BI'da yapabilecekleriniz ele alınmıştır. Son olarak, URL'lerin bulunduğu bir listeye yer verilmiştir.
+Doğru coğrafi kodlamayı edinme olasılığını artırmak için aşağıdaki ipuçlarını kullanın. İlk ipucu kümesi, veri kümesine erişiminizin bulunması halinde uygulamanız içindir. İkinci ipucu dizisinde, veri kümesine erişiminizin bulunmaması halinde Power BI'da yapabilecekleriniz ele alınmıştır. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>Bing Haritalar'a hangi veriler gönderilir?
 Power BI hizmeti ve Power BI Desktop, Bing'e harita görselleştirmesini oluşturması için ihtiyaç duyduğu coğrafi verileri gönderir. Bunlar, **Konum**, **Enlem** ve **Boylam** kutularının yanı sıra **Rapor düzeyi**, **Sayfa düzeyi** veya **Görsel düzeyi** filtre demetlerindeki coğrafi alanları içerebilir. Tam olarak nelerin gönderildiği ise harita türüne göre değişir. Daha fazla bilgi edinmek için bkz. [Bing Haritalar gizliliği](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Haritalarda (kabarcık haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, **Konum** (ve filtre) demetlerindeki tüm veriler Bing'e gönderilir.     
+* Haritalarda (kabarcık, dağılım ve nokta çizim haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, **Konum** (ve filtre) demetlerindeki tüm veriler Bing'e gönderilir.     
+
 * Kartogramlar, enlem ve boylam sağlanmış olsa bile **Konum** demetinde bir alan bulunmasını gerektirir. **Konum**, **Enlem** veya **Boylam** demetlerindeki tüm veriler Bing'e gönderilir.
   
     Aşağıdaki örnekte, coğrafi kodlama için **Vendor** alanı kullanılmaktadır, bu nedenle tüm satıcı verileri Bing'e gönderilir. **Boyut** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
@@ -47,7 +47,7 @@ Harita görselleştirmesinin oluşturulması için kullanılan veri kümesine er
 
 **1. Power BI Desktop'taki coğrafi alanları kategorilere ayırma**
 
-Power BI Desktop'ı kullanırken, veri alanlarında *Veri Kategorisi*'ni belirleyerek alanların coğrafi olarak doğru bir şekilde kodlanmasını sağlayabilirsiniz. İstediğiniz tabloyu seçin, **Gelişmiş** şeridine gidin ve **Veri Kategorisi**'ni **Adres**, **Şehir**, **Kıta**, **Ülke/Bölge**, **İlçe**, **Posta Kodu**, **Eyalet** veya **İl** olarak ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](../desktop-data-categorization.md). SQL Server Analysis Services'e canlı olarak bağlanıyorsanız verileri kategorilere ayırma işlemini [SQL Server Veri Araçları'nı (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) kullanarak Power BI'ın dışında gerçekleştirmeniz gerekir.
+Power BI Desktop'ı kullanırken, veri alanlarında *Veri Kategorisi*'ni belirleyerek alanların coğrafi olarak doğru bir şekilde kodlanmasını sağlayabilirsiniz. Veri görünümünde istediğiniz sütunu seçin. Şeritte **Modelleme** sekmesini seçin ve **Veri Kategorisi**'ni **Adres**, **Şehir**, **Kıta**, **Ülke/Bölge**, **İlçe**, **Posta Kodu**, **Eyalet** veya **İl** olarak ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](../desktop-data-categorization.md). SQL Server Analysis Services'e canlı olarak bağlanıyorsanız verileri kategorilere ayırma işlemini [SQL Server Veri Araçları'nı (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) kullanarak Power BI'ın dışında gerçekleştirmeniz gerekir.
 
 **2. Birden fazla konum sütunu kullanın.**     
  Bazen, harita oluşturma için veri kategorilerinin belirlenmesi Bing'in amacınızı doğru bir şekilde tahmin etmesi için yeterli olmaz. Konum birden çok ülkede veya bölgede mevcut olduğundan bazı gösterimler anlaşılır değildir. Örneğin, ***Southampton***, İngiltere'nin yanı sıra Pennsylvania ve New York'ta da bulunur.
@@ -56,7 +56,7 @@ Power BI, ülkelere ilişkin adres değerlerini temel alan enlem ve boylam koord
 
  Örneğin, yalnızca bir Şehir sütununa sahipseniz Bing coğrafi kodlama gerçekleştirmede zorlanabilir. Konumun daha anlaşılır olmasını sağlamak için daha fazla coğrafi veri içeren sütun ekleyin.  Bazı durumlarda tek gereken, veri kümesine bir tane daha konum sütunu (bu örnekte eyalet/il) eklemektir. Sütunu, yukarıdaki 1. Adım'da açıklandığı gibi düzgün bir şekilde kategoriye ayırmayı da unutmayın.
 
-Her bir alanda yalnızca söz konusu kategoriye özgü biglilerin bulunduğundan emin olun.  Örneğin, Şehir konum alanınızın **Southampton, New York** değil, **Southampton** olması gerekir.  Adres konum alanlarınızın ise **1 Microsoft Way, Redmond, WA** değil, **1 Microsoft Way** şeklinde olması gerekir.
+Her alanda yalnızca bir konum kategorisi olduğundan emin olun. Örneğin, Şehir konum alanınızın **Southampton, New York** değil, **Southampton** olması gerekir.  Adres konum alanlarınızın ise **1 Microsoft Way, Redmond, WA** değil, **1 Microsoft Way** şeklinde olması gerekir.
 
 **3. Belirli Enlem ve Boylam değerleri kullanın**
 
@@ -84,8 +84,8 @@ Veri kümelerinizde farklı konum verisi düzeyleri bulunuyorsa siz ve iş arkad
 
 Coğrafi hiyerarşilerle ayrıntılandırma yaparken, her bir ayrıntılandırma düğmesinin nasıl çalıştığını ve Bing Haritalar'a hangi verilerin gönderildiğini bilmekte yarar vardır. 
 
-* En sağda bulunan, Ayrıntı Modu ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) adlı ayrıntı düğmesi, bir harita Konumu seçmenize ve her seferde söz konusu konuma ilişkin bir sonraki düzeye gitmenize olanak sağlar. Örneğin, Detaya Git özelliğini etkinleştirir ve North America seçeneğine tıklarsanız hiyerarşideki bir sonraki düzeye (Kuzey Amerika'daki eyaletler) inersiniz. Coğrafi kodlama için, Power BI, yalnızca Kuzey Amerika'ya ilişkin ülke ve eyalet verilerini Bing Haritalar'a gönderir.  
-* Sol tarafta 2 ayrıntılandırma seçeneği daha bulunur. İlk seçenek olan ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) tek seferde tüm konumlar için hiyerarşideki bir sonraki düzeye gidilmesini sağlar. Örneğin, ülkelere göz attığınız sırada bir sonraki düzey olan eyaletlere gitmek için bu seçeneği kullandığınızda, Power BI, tüm ülkeler için eyalet verilerini görüntüler. Coğrafi kodlama için, Power BI, tüm konumlara ilişkin eyalet verilerini (ülke verilerini değil) Bing Haritalar'a gönderir. Bu seçenek, hiyerarşinizdeki düzeylerin bir üstlerindeki düzey ile ilgisiz olması durumunda kullanışlıdır. 
+* En sağda bulunan, Ayrıntı Modu ![Ayrıntı modu simgesi](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) adlı ayrıntı düğmesi, bir harita Konumu seçmenize ve her seferde söz konusu konuma ilişkin bir sonraki düzeye gitmenize olanak sağlar. Örneğin, Detaya Git özelliğini etkinleştirir ve North America seçeneğine tıklarsanız hiyerarşideki bir sonraki düzeye (Kuzey Amerika'daki eyaletler) inersiniz. Coğrafi kodlama için, Power BI, yalnızca Kuzey Amerika'ya ilişkin ülke ve eyalet verilerini Bing Haritalar'a gönderir.  
+* Sol tarafta 2 ayrıntılandırma seçeneği daha bulunur. İlk seçenek olan ![ilk detay simgesi](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) tek seferde tüm konumlar için hiyerarşideki bir sonraki düzeye gidilmesini sağlar. Örneğin, ülkelere göz attığınız sırada bir sonraki düzey olan eyaletlere gitmek için bu seçeneği kullandığınızda, Power BI, tüm ülkeler için eyalet verilerini görüntüler. Coğrafi kodlama için, Power BI, tüm konumlara ilişkin eyalet verilerini (ülke verilerini değil) Bing Haritalar'a gönderir. Bu seçenek, hiyerarşinizdeki düzeylerin bir üstlerindeki düzey ile ilgisiz olması durumunda kullanışlıdır. 
 * İkinci seçenek olan ![haritalarda detaya gitme,](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) Detaya Git özelliğine benzer ancak bu seçenek için haritaya tıklamanız gerekmez.  Geçerli düzeyin bağlamı hatırlanarak hiyerarşinin bir sonraki düzeyine genişletilir. Örneğin, ülkelere göz attığınız sırada bu simgeyi seçerseniz hiyerarşideki bir sonraki düzeye (eyaletler) inersiniz. Coğrafi kodlama için, Power BI, coğrafi kodlamayı daha tutarlı bir şekilde gerçekleştirmesini sağlamak üzere, her bir eyalete ve ilgili ülkeye ilişkin verileri Bing Haritalar'a gönderir. Çoğu haritada, doğru konum bilgilerini almak üzere Bing'e mümkün olduğunca fazla bilgi gönderebilmek için bu seçeneği veya en sağdaki Detaya Git seçeneğini kullanırsınız. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
@@ -93,5 +93,5 @@ Coğrafi hiyerarşilerle ayrıntılandırma yaparken, her bir ayrıntılandırma
 
 [Power BI görselleştirmeleri](power-bi-report-visualizations.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

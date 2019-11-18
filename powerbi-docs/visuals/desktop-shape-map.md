@@ -2,20 +2,19 @@
 title: Power BI Desktop'ta Şekil eşlemeleri kullanma (Önizleme)
 description: Power BI Desktop'ta şekil eşlemeleri kullanarak bölgelere ilişkin göreli karşılaştırmalar oluşturma
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164067"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871113"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
 
@@ -61,7 +60,7 @@ Bir **Şekil Haritası** oluşturmak için aşağıdaki adımları uygulayın:
 3. Ardından **Varsayılan renk** ve **Yakınlaştır** gibi çeşitli Biçimlendirme seçeneklerin kullanarak haritada değişiklik yapabilirsiniz. Ayrıca **Gösterge** demetine bir kategori veri sütunu ekleyebilir ve harita bölgelerini kategorilere göre sınıflandırabilirsiniz.
 
 ## <a name="use-custom-maps"></a>Özel harita kullanma
-**TopoJSON** biçimindeki özel haritaları **Şekil Haritası** ile kullanabilirsiniz. Haritanız başka bir biçimdeyse [**Map Shaper**](http://mapshaper.org/) gibi çevrimiçi araçları kullanarak *şekil dosyalarınızı* ve *GeoJSON* haritalarınızı **TopoJSON** biçimine dönüştürebilirsiniz.
+**TopoJSON** biçimindeki özel haritaları **Şekil Haritası** ile kullanabilirsiniz. Haritanız başka bir biçimdeyse [**Map Shaper**](https://mapshaper.org/) gibi çevrimiçi araçları kullanarak *şekil dosyalarınızı* ve *GeoJSON* haritalarınızı **TopoJSON** biçimine dönüştürebilirsiniz.
 
 **TopoJSON** harita dosyanızı kullanmak için, raporunuza bir Şekil Haritası görseli, *Konum* ve *Renk doygunluğu* demetlerine ise bazı veriler ekleyin. Ardından **Görsel Öğeler** bölmesinde **Biçim** bölümü seçiliyken (aşağıdaki görüntüde (1) olarak gösterilen) **Şekil** bölümünü genişletin ve **+Harita Ekle** seçeneğini belirleyin.
 
@@ -82,7 +81,7 @@ Tek tek eyalet haritalarıyla ilgi çekici şeyler yapabilir ve içerdiği bölg
 
 Bu veri kümesi ve görselleştirme ile deneme yapmak istiyorsanız, aşağıdaki bağlantıyı kullanarak bu raporu oluşturmak için kullanılan özgün PBIX dosyasını indirebilirsiniz.
 
-* [Özel şekil haritası .PBIX dosyası](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [Özel şekil haritası .PBIX dosyası](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Harita verileri alma
 **Şekil Haritası**'nı test etmek üzere bir modele hızlıca veri almak için, bu makalenin sonundaki tablolardan birini kopyalayabilir ve ardından **Giriş** şeridindeki **Verileri Girin** seçeneğini belirleyebilirsiniz.
@@ -108,7 +107,7 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 * **Şekil Haritası** görseli Önizleme'dedir ve Power BI Desktop'ta etkinleştirilmesi gerekir. **Şekil Haritası**’nı etkinleştirmek için, **Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme Özellikleri**’ni seçin ve ardından **Şekil Haritası Görseli** onay kutusunu işaretleyin.
 * Şu anda **Açıklama** sınıflandırmasının düzgün şekilde çalışabilmesi için **Renk doygunluğu** demetini de ayarlamanız gerekir.
 * **Şekil Haritası**’nın son sürümü, şu anda seçili haritanın harita anahtarlarını gösteren bir kullanıcı arabirimi içerecektir (son sürüm için ayarlanmış bir tarih yoktur ve **Şekil Haritası** halen Önizleme aşamasındadır). Bu Önizleme sürümünde, bu makalenin aşağıdaki **Bölge Anahtarları** bölümünde bulunan tablolarda yer alan harita bölgesi anahtarlarına başvurabilirsiniz.
-* **Şekil Eşlemesi** görseli en fazla 1.000 veri noktasına kadar çizim yapar.
+* **Şekil Haritası** görseli en fazla 1.500 veri noktasına kadar çizim yapar.
 
 ## <a name="region-keys"></a>Bölge anahtarları
 

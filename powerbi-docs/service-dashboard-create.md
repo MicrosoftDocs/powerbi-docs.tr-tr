@@ -2,7 +2,6 @@
 title: Rapordan Power BI panosu oluşturma
 description: Rapordan Power BI panosu oluşturma
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543443"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853400"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
 [Power BI'da panolara giriş](service-dashboards.md) makalesini okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Pano oluşturmanın birçok farklı yolu vardır. Örneğin bir rapordan, sıfırdan, bir veri kümesinden veya mevcut panoyu yinelenerek oluşturulabilirler.  
@@ -44,11 +43,11 @@ Amanda'nın bir rapordaki görselleştirmeleri sabitleyerek yeni bir pano oluşt
 ## <a name="import-a-dataset-with-a-report"></a>Rapor içeren bir veri kümesini içeri aktarma
 Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini içeri aktarıp yeni panomuzu oluşturmak için kullanacağız. Kullandığımız örnek iki PowerView sayfası bulunan bir Excel çalışma kitabıdır. Çalışma kitabı Power BI tarafından içeri aktarıldığında, çalışma alanınıza bir veri kümesi ve bir rapor eklenir. Rapor otomatik olarak PowerView sayfalarından oluşturulur.
 
-1. [Tedarik Analizi örneğinin](http://go.microsoft.com/fwlink/?LinkId=529784) Excel dosyasını indirin. Dosyayı OneDrive İş hesabınıza kaydetmenizi öneririz.
+1. [Tedarik Analizi örneğinin](https://go.microsoft.com/fwlink/?LinkId=529784) Excel dosyasını indirin. Dosyayı OneDrive İş hesabınıza kaydetmenizi öneririz.
 2. Tarayıcınızda Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
-3. Sol gezinti bölmesinde **Çalışma Alanım**'ı ve ardından **Veri Al**'ı seçin.
+3. Gezinti bölmesinde **Çalışma Alanım**'ı ve ardından **Veri Al**'ı seçin.
 
-    ![Sol gezinti bölmesi](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![gezinti bölmesi](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. **Dosyalar**’ı seçip **Al** seçeneğini belirleyin.
 
    ![Dosya alma](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini i
    ![Başarılı iletisi](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> Biliyor muydunuz? Yukarıda yer alan üç çizgili simgeyi (![Gezinti bölmesini göster veya gizle simgesi](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)) seçerek sol gezinti çubuğunu daraltabilirsiniz. Böylelikle rapor için daha fazla alan elde edersiniz.
+> Biliyor muydunuz? Yukarıda yer alan üç çizgili simgeyi (![gezinti bölmesini göster veya gizle simgesi](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)) seçerek gezinti bölmesini daraltabilirsiniz. Böylelikle rapor için daha fazla alan elde edersiniz.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Raporu açma ve panonuza kutucukları sabitleme
 1. Aynı çalışma alanında **Raporlar** sekmesini seçin ve ardından **Tedarik Analizi Örneği**'ni seçerek raporu açın.
@@ -118,4 +117,4 @@ Tebrikler, ilk panonuzu oluşturdunuz! Artık panonuz olduğuna göre bununla bi
 * [Power BI - Temel Kavramlar](service-basic-concepts.md)
 * [Harika bir pano oluşturmaya yönelik ipuçları](service-dashboards-design-tips.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).

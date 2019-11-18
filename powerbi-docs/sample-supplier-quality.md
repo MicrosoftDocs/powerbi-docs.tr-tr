@@ -2,7 +2,6 @@
 title: 'Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın'
 description: 'Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621306"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858418"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın
 
@@ -59,11 +58,11 @@ Power BI Desktop'ta örnekleri incelemek için Power BI lisansına ihtiyacınız
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Bu örneğe ilişkin .pbix dosyasını edinme
 
-Alternatif olarak, Tedarikçi Kalite Analizi örneğini bir [.pbix dosyası](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
+Alternatif olarak, Tedarikçi Kalite Analizi örneğini bir [.pbix dosyası](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) olarak indirebilirsiniz. Bu dosya biçimi, Power BI Desktop ile kullanım için tasarlanmıştır.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](http://go.microsoft.com/fwlink/?LinkId=529779) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529779) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
 
 ## <a name="downtime-caused-by-defective-materials"></a>Hatalı malzemelerin neden olduğu çalışmama süresi
 Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi satıcıların sorumlu olduğunu bulalım.  
@@ -94,7 +93,7 @@ Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi sa
     ![Downtime (min) by Vendor (Satıcıya göre Dakika Cinsinden Çalışmama Süresi) ağaç haritası](media/sample-supplier-quality/supplier5.png)  
 
    Bu ağaç haritasından, en kötü sekiz satıcının ağaç haritasının solundaki sekiz blok olduğunu görürüz. Ayrıca bu satıcıların, dakika cinsinden toplam çalışmama süresinin yaklaşık %50'sini oluşturduğunu da görebiliriz.  
-3. Panoya geri dönmek için üst gezinti çubuğunda **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.
+3. Panoya geri dönmek için üst gezinti bölmesinde **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.
 
 ### <a name="comparing-plants"></a>Tesisleri karşılaştırma
 Şimdi hangi tesisin daha iyi bir iş çıkardığını ve hatalı malzemeyi yöneterek daha az çalışmama süresi sağladığını keşfedelim.  
@@ -113,7 +112,7 @@ Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi sa
 3. Kabarcık grafiğinde **Lojistik** kabarcığını seçin ve Springfield ve Naperville, IL seçeneklerini belirleyin. Naperville, Springfield'in çok sayıdaki etkisiyle karşılaştırıldığında, yüksek reddetme sayısına ve birkaç etkiye sahip olduğundan hatalı tedarikleri yönetme konusunda çok daha iyi bir iş çıkarıyor.  
 
    ![Lojistik’i seçin](media/sample-supplier-quality/supplier8.png)  
-4. Panoya geri dönmek için üst gezinti çubuğunda **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.
+4. Panoya geri dönmek için üst gezinti bölmesinde **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.
 
 ## <a name="which-material-type-is-best-managed"></a>Hangi malzeme türü en iyi şekilde yönetilmektedir?
 En iyi yönetilen malzeme türü, hata miktarına bakılmaksızın en düşük çalışmama süresine sahip olan veya hiçbir etki görmeyendir.
@@ -138,7 +137,7 @@ En iyi yönetilen malzeme türü, hata miktarına bakılmaksızın en düşük �
 
     ![Total Defect Qty by Month and Year (Ay ve Yıla göre Toplam Hata Miktarı) grafiği](media/sample-supplier-quality/supplier11.png)  
 3. Daha fazla hata daha fazla çalışmama süresi anlamına mı gelir? Bunu öğrenmek için Soru-Cevap kutusunda soru sorabilirsiniz.  
-4. Panoya geri dönmek için üst gezinti çubuğunda **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.  
+4. Panoya geri dönmek için üst gezinti bölmesinde **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.  
 5. Raw Materials'ın (Ham Maddeler) en yüksek sayıda hataya sahip olduğunu bildiğimizden soru kutusuna *show material types, year and total defect qty* (malzeme türlerini, yılı ve toplam hata miktarını göster) yazın.  
 
     2014'te 2013'e göre çok daha fazla ham madde hatası vardı.  
