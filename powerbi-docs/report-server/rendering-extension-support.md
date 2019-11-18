@@ -100,13 +100,13 @@ Uygulanamaz
 
 Uygulanamaz
 
-## <a name="disclaimer"></a>Sorumluluk Reddi
+## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. Tüm hakları saklıdır. Burada adı geçen gerçek şirket ve ürünlerin adları, ilgili sahiplerinin ticari markaları olabilir. Bu belgede yer alan bilgiler, yayın tarihi itibarıyla Microsoft Corporation'ın söz konusu durumlarla ilgili geçerli görüşlerini temsil etmektedir. Microsoft, sunulan bilgilerin yayın tarihinden sonra doğru olduğunu garanti edemez. Microsoft, web sitelerini ürünlerin erişilebilirliği konusunda elde edilen yeni bilgilerle düzenli olarak güncelleştirmektedir.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-Ürünün özelleştirilmesi, Microsoft tarafından sunulan bu uyumluluk bildirimini geçersiz kılacaktır. Belirli Yardımcı Teknoloji (AT) ürünleri hakkında uyumluluk bilgileri için lütfen AT ürünü satıcılarıyla iletişime geçin.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-Bu belge yalnızca bilgilendirme amaçlıdır. MICROSOFT BURADA SAĞLANAN BİLGİLER KONUSUNDA AÇIK VEYA ÖRTÜLÜ HİÇBİR GARANTİ VERMEZ.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
