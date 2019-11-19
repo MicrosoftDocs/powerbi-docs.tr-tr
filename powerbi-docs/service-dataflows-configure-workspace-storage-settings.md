@@ -1,6 +1,6 @@
 ---
 title: Çalışma alanı veri akışı ayarlarını yapılandırma
-description: Power BI’da bir uygulama çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
+description: Power BI’da bir çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523514"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431994"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
 
@@ -35,11 +35,11 @@ Aşağıdaki bölümlerde her birine göz atacağız.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Yeni bir çalışma alanı oluşturma, veri akışı depolamasını yapılandırma
 
-Power BI hizmetinde yeni bir uygulama çalışma alanı oluşturmak için **Çalışma Alanları > Uygulama çalışma alanı oluştur** seçeneğini belirleyin.
+Power BI hizmetinde yeni bir çalışma alanı oluşturmak için **Çalışma Alanları > Çalışma alanı oluştur** seçeneğini belirleyin.
 
 ![Yeni çalışma alanı ekleme](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-Uygulama çalışma alanı oluştur iletişim kutusunda, **Geliştirilmiş çalışma alanlarını önizle** başlıklı sarı bir kutu görüntülenebilir. Bu alanda **Şimdi deneyin**’i seçin.
+Çalışma alanı oluştur iletişim kutusunda, **Geliştirilmiş çalışma alanlarını önizle** başlıklı sarı bir kutu görüntülenebilir. Bu alanda **Şimdi deneyin**’i seçin.
 
 ![Geliştirilmiş çalışma alanlarını önizle](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ Görüntülenen iletişim kutusunda yeni çalışma alanınıza benzersiz bir ad
 
 ![Yeni çalışma alanınızı adlandırma](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Daha sonra, **Uygulama çalışma alanı oluştur** iletişim kutusunun **Gelişmiş** alanını genişletin; burada **Veri akışı depolama (önizleme)** ayarını etkinleştirebilirsiniz.
+Daha sonra, **Çalışma alanı oluştur** iletişim kutusunun **Gelişmiş** alanını genişletin; burada **Veri akışı depolama (önizleme)** ayarını etkinleştirebilirsiniz.
 
 ![Yeni çalışma alanı için gelişmiş ayarlar](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ Yeni çalışma alanınızı oluşturmak için **Kaydet**’i seçin. Bu çalı�
 
 Yeni bir çalışma alanı oluşturmaya alternatif olarak, tanım dosyasını ve verileri kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında depolamak için mevcut bir çalışma alanını güncelleştirebilirsiniz. Yalnızca çalışma alanı önceden bir veri akışı içermiyorsa veri akışı depolama ayarının değiştirilebileceğini unutmayın.
 
-Bir uygulama çalışma alanını düzenlemek için üç nokta **(...)** simgesini ve **Çalışma alanını düzenle**’yi seçin. 
+Bir çalışma alanını düzenlemek için üç nokta **(...)** simgesini ve **Çalışma alanını düzenle**’yi seçin. 
 
 ![Çalışma alanını düzenle](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Aşağıdaki listede açıklandığı gibi, dikkate alınacak bazı ek unsurlar 
 
 **Power BI Desktop** müşterileri, veri akışının sahibi olmadığı sürece, Azure Data Lake Storage 2. Nesil hesabında depolanan veri akışlarına erişemez. Aşağıdaki durumu dikkate alın:
 
-1.  Ayşe yeni bir uygulama çalışma alanı oluşturur ve veri akışları, kuruluşun veri gölünde depolanacak şekilde bu çalışma alanını yapılandırır.
+1.  Ayşe yeni bir çalışma alanı oluşturuyor ve veri akışları, kuruluşun veri gölünde depolanacak şekilde bu çalışma alanını yapılandırıyor.
 2.  Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu veri akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
 3.  Berk, veri gölünde veri akışının CDM klasörüne yetkili bir kullanıcı olarak eklenmediğinden bir hata alır.
 

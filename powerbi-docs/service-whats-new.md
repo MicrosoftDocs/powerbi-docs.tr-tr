@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/28/2019
+ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d45b63d3cd97185ce9be9e0592565a491cf195f
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: a6595389a95cbf434bc9deb9f1560f6157910ceb
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655043"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060985"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -30,11 +30,43 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2019"></a>Mayıs 2019
-* Power BI Uygulamaları için [özel gezinti](service-create-distribute-apps.md).
-* Sayfalandırılmış raporların içinde e-posta abonelikleri için fazladan ek türleri (PPTX, XLSX, DOCX, CSV, XML) kullanılabilir.
+### <a name="october-2019"></a>Ekim 2019
+* Power BI veri kümelerini yenilemek için yeni Microsoft Flow eylemi.
+* Power BI hizmetinde raporlar ve panolar için [Kişi listesi](https://powerbi.microsoft.com/en-us/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/).
 
 ## <a name="previous-months-2019"></a>Önceki aylar (2019)
+### <a name="september-2019"></a>Eylül 2019
+* [Şablon uygulamaları](service-template-apps-overview.md) için bağlantı yapılandırması güncelleştirmeleri.
+
+### <a name="august-2019"></a>Ağustos 2019
+* Power BI Premium için yeni kapasite ayarları.
+* Kuruluşunuz için [özel markalama](https://powerbi.microsoft.com/en-us/blog/announcing-custom-branding-for-your-organization/).
+* Yapı izniyle özetlenen veri dışa aktarma.
+* [Sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md) için URL parametreleri desteği.
+* Aylık e-posta abonelikleri desteği. 
+
+### <a name="july-2019"></a>Temmuz 2019
+* [Sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md) için premium dışı veri kümeleri desteği.
+* Power BI [toplamalarının](desktop-aggregations.md) genel kullanılabilirliği.
+* Başkalarına yenileme bildirimleri gönderme.
+* Power BI Premium kapasiteleri için [test aracı](https://powerbi.microsoft.com/en-us/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/).
+* [Hizmet kullanılabilirlik bildirimlerinin](https://powerbi.microsoft.com/en-us/blog/power-bi-introduces-service-availability-notifications/) genel önizlemesi.
+* Power BI raporları için [Yeni Görünümün](https://powerbi.microsoft.com/en-us/blog/introducing-the-new-look-for-power-bi-service/) genel önizlemesi.
+* Güney Afrika'daki yeni Power BI bölgesi.
+
+### <a name="june-2019"></a>Haziran 2019
+* [Paylaşılan ve Sertifikalı veri kümelerinin](service-datasets-across-workspaces.md) genel önizlemesi.
+* [Premium Capacity Metrics uygulamasında](service-admin-premium-monitor-capacity.md) mevcut olan yapay zeka ölçümleri.
+* Power BI [şablon uygulamalarının](service-template-apps-overview.md) genel kullanılabilirliği.
+* Power BI’da [sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) genel kullanılabilirliği.
+* Power BI Premium için Kendi Anahtarını Getir ([BYOK](service-encryption-byok.md)) genel önizlemesi.
+* [Yeni çalışma alanları deneyimi](service-new-workspaces.md) için görüntüleyici rolü.
+
+### <a name="may-2019"></a>Mayıs 2019
+* Power BI Uygulamaları için [özel gezinti](service-create-distribute-apps.md).
+* Sayfalandırılmış raporların içinde e-posta abonelikleri için fazladan ek türleri (PPTX, XLSX, DOCX, CSV, XML) kullanılabilir.
+* Hizmette Power BI raporları için [yorum yapma](https://powerbi.microsoft.com/en-us/blog/announcing-report-commenting-for-power-bi-service-and-mobile/).
+
 ### <a name="april-2019"></a>Nisan 2019
 * Power BI [veri akışlarının](service-dataflows-overview.md) genel kullanılabilirliği.
 * Yeni çalışma alanları deneyiminin genel kullanılabilirliği.
@@ -348,7 +380,7 @@ Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleşt
 * Tam Ekran modu: **Genişliğe Uydur**'u seçerek kutucuklarınızı tuvali dolduracak şekilde genişletme ve fazla boşluğu kaldırma
 * Kutucuklarınızı otomatik olarak tuvalin sol üst köşesine hizalamak için Kutucuk Akışını kullanma.
 
-***Hızlı İçgörüler***
+***Quick Insights (Hızlı Öngörüler)***
 
 * Eğilim ve Bağıntı içgörüleri artık veri desenlerini daha kolay görmeniz için eğilim çizgilerine sahip.
 
@@ -731,7 +763,7 @@ Daha fazla bilgi için [blog sayfasını](http://blogs.msdn.com/b/powerbi/archiv
 * OneDrive ile yenileme özelliğinin güvenilirliği artırıldı.  Çalışma kitaplarının OneDrive'dan yenilenmediği bazı durumlar çözüldü.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI nedir?](power-bi-overview.md)  
+[Power BI nedir?](fundamentals/power-bi-overview.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

@@ -3,19 +3,18 @@ title: Power BI desteğiyle iletişim kurulamıyor
 description: Kullanıcı oturum açamadığında Power BI servis talebi oluşturmaya yönelik geçici çözümler
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769835"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874609"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI'da oturum açma sorunlarını giderme
 
@@ -27,7 +26,7 @@ Bu makalede, Power BI oturum açma sorunlarıyla karşılaştığınızda nasıl
 
 ## <a name="engage-the-support-team"></a>Destek ekibiyle etkileşim kurma
 
-İlk olarak, [Power BI destek sayfası](https://powerbi.microsoft.com/en-us/support/) üzerinden bir destek bileti oluşturmayı deneyin.
+İlk olarak, [Power BI destek sayfası](https://powerbi.microsoft.com/support/) üzerinden bir destek bileti oluşturmayı deneyin.
 
 Power BI destek sayfasına gidemiyorsanız, [Office 365 (O365) destek sayfası](https://support.office.com/home/contact) üzerinden bir bilet oluşturmayı deneyin.
 
@@ -50,9 +49,11 @@ Yardım almak üzere Microsoft desteğine başvurmak için bir diğer seçenek [
 
 Topluluk sayfasında bir forum gönderisi oluşturamazsanız, bunun nedeni [Power BI topluluk forumunda](https://community.powerbi.com/) da oturum açmanın gerekmesidir.
 
+> [!Note]
+> Daha fazla bilgi için bkz. [Topluluk Desteği](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport).
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Burada ek Power BI desteği için ziyaret edebileceğiniz birkaç site vardır:
 
 * [Power BI Microsoft belgeleri](https://docs.microsoft.com/power-bi/)
-* [Power BI Desteği Servis Talepleri Oluşturma](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/)

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61270485"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429104"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -20,7 +20,7 @@ Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine g
 
 Microsoft kısa süre önce kullanıcılara içerikle ilgili erişme, paylaşma ve dağıtma konularında daha fazla esneklik sunan yeni bir kapasite tabanlı lisanslama modeli olan [Power BI Embedded’i duyurdu](https://powerbi.microsoft.com/blog/power-bi-embedded-capacity-based-skus-coming-to-azure/). Bu teklif ayrıca ek ölçeklenebilirlik ve performansı da beraberinde getirdi.
 
-Power BI Embedded ile tek bir API yüzeyi, içeriğinizi eklerken kullanabileceğiniz tutarlı özellik kümesi ve panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacaksınız. Ayrıca Power BI Desktop’ı kullanmaya başlayabilecek ve Power BI Embedded ile dağıtıma geçebileceksiniz.
+Power BI Embedded ile tek bir API yüzeyi, içeriğinizi eklerken kullanabileceğiniz tutarlı özellik kümesi ve panolar, ağ geçitleri ve çalışma alanları gibi en yeni Power BI özeliklerine erişim sahibi olacaksınız. Ayrıca Power BI Desktop’ı kullanmaya başlayabilecek ve Power BI Embedded ile dağıtıma geçebileceksiniz.
 
 Geçerli Power BI Çalışma Alanı Koleksiyonu sınırlı bir süre için kullanılabilir olmaya devam edecektir. Kurumsal Anlaşma kapsamındaki müşteriler mevcut sözleşmelerinin süresi dolana kadar erişim sahibi olacak, Power BI Çalışma Alanı Koleksiyonu hizmetini Doğrudan ya da Bulut Çözümü Sağlayıcısı kanallarından satın almış müşteriler ise Power BI Embedded’in Genel Kullanılabilirlik sürümünden bir yıl süreyle erişim sağlamaya devam edebilecektir.  Bu makalede Power BI Çalışma Alanı Koleksiyonu hizmetinden yeni Power BI Embedded deneyimine geçiş ve uygulamanızda oluşabilecek değişiklikler hakkında bilgilere yer verilmiştir.
 
@@ -56,19 +56,19 @@ Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine g
 Aşağıdaki hesapların kiracınızda bulunması gerekir.
 
 > [!NOTE]
-> Bu hesapların Uygulama çalışma alanlarını kullanabilmesi için Power BI Pro lisansına sahip olması gerekir.
+> Bu hesapların çalışma alanlarını kullanabilmesi için Power BI Pro lisansına sahip olması gerekir.
 
 1. Kiracı yöneticisi rolüne sahip bir kullanıcı.
 
-    Bu kullanıcının eklemek üzere oluşturulan tüm Uygulama çalışma alanlarına üye olması önerilir.
+    Bu kullanıcının eklemek üzere oluşturulan tüm çalışma alanlarına üye olması önerilir.
 
 2. İçeriği oluşturacak analistlerin hesapları.
 
-    Bu kullanıcıların gerektiğinde Uygulama çalışma alanlarına atanması gerekir.
+    Bu kullanıcıların gerektiğinde çalışma alanlarına atanması gerekir.
 
 3. Uygulama *ana* kullanıcı hesabı veya Embedded hesabı.
 
-    Bu hesabın kimlik bilgileri uygulama arka ucunda depolanır ve Power BI REST API'leri ile kullanılacak Azure AD belirteçlerini almak için kullanılır. Bu hesap uygulamanın ekleme belirtecini oluşturmak için kullanılır. Bu hesabın aynı zamanda ekleme için oluşturulmuş olan Uygulama çalışma alanlarının da yöneticisi olması gerekir.
+    Bu hesabın kimlik bilgileri uygulama arka ucunda depolanır ve Power BI REST API'leri ile kullanılacak Azure AD belirteçlerini almak için kullanılır. Bu hesap uygulamanın ekleme belirtecini oluşturmak için kullanılır. Bu hesabın aynı zamanda ekleme için oluşturulmuş olan çalışma alanlarının da yöneticisi olması gerekir.
 
 > [!NOTE]
 > Bu, kuruluşunuzda bulunan normal bir kullanıcı hesabıdır ve ekleme amacıyla kullanılacaktır.
@@ -83,14 +83,14 @@ REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kay
 
 Uygulamayı kaydetmek için uygulamanın **ana** hesabını kullanmanız gerekir.
 
-## <a name="create-app-workspaces-required"></a>Uygulama çalışma alanı oluşturma (Gerekli)
+## <a name="create-workspaces-required"></a>Çalışma alanı oluşturma (Gerekli)
 
-Uygulama çalışma alanlarından faydalanarak birden fazla müşteriye hizmet veren uygulamalarınız için daha iyi yalıtım sağlayabilirsiniz. Her müşterinin panoları ve raporları diğerlerinden ayrılır. Ardından her Uygulama çalışma alanında bir Power BI hesabı kullanarak müşterilerinizin uygulama deneyimlerini de birbirinden ayırabilirsiniz.
+Çalışma alanlarından faydalanarak birden fazla müşteriye hizmet veren uygulamalarınız için daha iyi yalıtım sağlayabilirsiniz. Her müşterinin panoları ve raporları diğerlerinden ayrılır. Ardından her çalışma alanında bir Power BI hesabı kullanarak müşterilerinizin uygulama deneyimlerini de birbirinden ayırabilirsiniz.
 
 > [!IMPORTANT]
 > Power BI kullanmayan kişiler için ekleme özelliğinden yararlanma amacıyla kişisel çalışma alanlarını kullanamazsınız.
 
-Power BI'da bir uygulama çalışma alanı oluşturmak için Pro lisansa sahip bir kullanıcınız olması gerekir. Uygulama çalışma alanını oluşturan Power BI kullanıcısı, varsayılan olarak ilgili çalışma alanının yöneticisi olur.
+Power BI'da bir çalışma alanı oluşturmak için Pro lisansa sahip bir kullanıcınız olması gerekir. Çalışma alanını oluşturan Power BI kullanıcısı, varsayılan olarak ilgili çalışma alanının yöneticisi olur.
 
 > [!NOTE]
 > Uygulama *ana* hesabının çalışma alanının yöneticisi olması gerekir.
@@ -163,7 +163,7 @@ Aşağıdaki geçici çözümleri kullanarak Push API raporunu PaaS’tan SaaS�
 
 ## <a name="create-and-upload-new-reports"></a>Yeni rapor oluşturma ve yükleme
 
-Power BI Çalışma Alanı Koleksiyonu hizmetinden geçirdiğiniz içeriğe ek olarak Power BI Desktop uygulamasını kullanarak rapor ve veri kümesi oluşturabilir, ardından bu raporları bir uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
+Power BI Çalışma Alanı Koleksiyonu hizmetinden geçirdiğiniz içeriğe ek olarak Power BI Desktop uygulamasını kullanarak rapor ve veri kümesi oluşturabilir, ardından bu raporları bir çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
 
 ## <a name="rebuild-your-application"></a>Uygulamanızı yeniden oluşturma
 
@@ -179,9 +179,9 @@ Uygulamanızın içinde yönettiğiniz kullanıcıları, uygulamanızın amaçla
 
 Üretim aşamasına geçmeye hazır olduğunuzda aşağıdaki işlemleri yapmanız gerekir.
 
-* Geliştirme için ayrı bir kiracı kullanıyorsanız uygulama çalışma alanlarınızın, panolarınızın ve raporlarınızın üretim ortamınızda kullanılabilir durumda olduğundan emin olmanız gerekir. Ayrıca uygulamayı üretim kiracınızın Azure AD ortamında oluşturduğunuzdan ve 1. Adım ile belirtilen gerekli uygulama izinlerini atadığınızdan da emin olmanız gerekir.
+* Geliştirme için ayrı bir kiracı kullanıyorsanız çalışma alanlarınızın, panolarınızın ve raporlarınızın üretim ortamınızda kullanılabilir durumda olduğundan emin olmanız gerekir. Ayrıca uygulamayı üretim kiracınızın Azure AD ortamında oluşturduğunuzdan ve 1. Adım ile belirtilen gerekli uygulama izinlerini atadığınızdan da emin olmanız gerekir.
 * İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Power BI Embedded analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
-* Uygulama çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir Premium kapasite atayın.
+* Çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir Premium kapasite atayın.
 
     ![Premium kapasite](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
 

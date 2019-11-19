@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 513c6a4a3f5041b7af06e5c1713de3bd417a1354
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968486"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431574"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
 Bu makalede sayfalandırılmış raporlar hakkında sık sorulan sorular yanıtlanır. Bu raporlar, üst düzeyde biçimlendirilmiş, yazdırma veya PDF oluşturma için iyileştirilmiş mükemmel çıkışlardır. "Sayfalandırılmış" olarak adlandırılmalarının nedeni, birden çok sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. 
 
-Bu makalede Power BI Premium'daki sayfalandırılmış raporlar hakkında ve sayfalandırılmış raporları yazmak için kullanılan tek başına Rapor Oluşturucusu aracı hakkında kullanıcıların sorduğu en yaygın sorular yanıtlanır. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki uygulama çalışma alanlarında yayımlayıp paylaşabilirsiniz. 
+Bu makalede Power BI Premium'daki sayfalandırılmış raporlar hakkında ve sayfalandırılmış raporları yazmak için kullanılan tek başına Rapor Oluşturucusu aracı hakkında kullanıcıların sorduğu en yaygın sorular yanıtlanır. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki çalışma alanlarında yayımlayıp paylaşabilirsiniz. 
 
 ## <a name="administration"></a>Yönetim
 
@@ -163,7 +163,7 @@ Evet, SSRS'de yapabildiğiniz gibi raporlarınızda kod çalıştırabilme özel
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Sayfalandırılmış raporlarımı barındırdığım bir uygulamaya eklemek için Power BI Embedded'i kullanabilir miyim?
 
-SaaS ekleme zaten destekleniyor. PaaS ekleme şu anda desteklenmiyor.
+Güvenli Ekleme desteği dahil olmak üzere SaaS ekleme zaten kullanılabilir.  PaaS ekleme desteği ise bu yılın sonuna doğru planlanmaktadır.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Bir Power BI raporundan sayfalandırılmış rapora detaylandırma yapabilir miyim?
 
@@ -179,7 +179,7 @@ Raporların hizmetteki önemli senaryoların aynılarını olabildiğince destek
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>SSRS müşterilerinin mevcut raporlarıyla varlıklarını Power BI'a taşıyabilmelerini sağlayacak bir geçiş aracı planlanıyor mu?
 
-İçeriğin Power BI'a otomatik bir yolla taşınmasına olanak tanıyacak seçenekleri değerlendiriyoruz ama bu özellik GA'ya kadar kullanıma sunulmayacak.
+GitHub'daki bir proje artık içeriğin SQL Server Reporting Services’ten Power BI’ya geçirilmesini desteklemektedir.  Buradan ayrıntıları görüntüleyin ve aracı indirin: [https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için bir rapor görüntüleyicisi denetimi var mı?
 

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100179"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019570"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını veya rapor görselini yazdırın. Raporlar yalnızca sayfa sayfa yazdırılabilir; tek seferde raporun tamamını yazdıramazsınız.
 
    > [!NOTE]
@@ -37,7 +40,7 @@ Power BI hizmetinden bir panonun tamamını, pano kutucuğunu, rapor sayfasını
 
 ## <a name="print-a-dashboard-tile"></a>Pano kutucuğu yazdırma
 1. Üst menü çubuğundan tam ekran simgesini ![tam ekran simgesi](./media/end-user-print/power-bi-full-screen-icon.png) seçerek panoyu [tam ekran modunda](end-user-focus.md) açın.
-3. Üç noktayı (...) göstermek için imlecinizi kutucuğun üzerine getirip **Odak modunda aç** seçeneğini veya odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçerek [Kutucuğu Odak modunda açın](end-user-focus.md).
+3. **Diğer seçenekler**’in (...) üzerine gelip **Odak modunda aç** seçeneğini veya odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçerek [Kutucuğu odak modunda açın](end-user-focus.md).
    
     ![üç nokta menüsü](./media/end-user-print/power-bi-menu-options.png)
 4. Seçenekler menüsünün gösterilmesi için kutucuğun üzerine gelin.

@@ -2,7 +2,6 @@
 title: Klasik bir çalışma alanında işbirliği yapma
 description: Office 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41aaf33602fc8a895d54666736d775ac53d5aaef
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cddb55ab85cfd6d8d6a5e49d81b83a80df2f81da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832442"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873190"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Klasik bir çalışma alanında işbirliği yapma
 Power BI çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. Bu makale, orijinal, *klasik* çalışma alanlarını ele alır.  
@@ -45,7 +44,7 @@ Bir Power BI Desktop dosyası oluşturduktan sonra, dosyanın üzerinde işbirli
 ## <a name="collaborate-in-office-365"></a>Office 365'te işbirliği
 Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki klasik çalışma alanıdır.
 
-1. Power BI hizmetinde **Çalışma Alanı**'nın yanındaki oku ve ardından çalışma alanı adınızın yanındaki üç nokta (…) simgesini seçin. 
+1. Power BI hizmetinde **Çalışma Alanlarım**’ın yanındaki oku seçin > çalışma alanı adının yanındaki **Diğer seçenekler** (...) öğesini seçin. 
    
    ![Çalışma Alanı menüsü](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Bu menüden, grubunuzdaki kişilerle birkaç şekilde işbirliği yapabilirsiniz: 
@@ -56,7 +55,7 @@ Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki klas
    Office 365'te grup çalışma alanına ilk kez gittiğinizde bir süre beklemeniz gerekebilir. 15 ila 30 dakika bekledikten sonra tarayıcınızı yenileyin.
 
 ## <a name="have-a-group-conversation-in-office-365"></a>Office 365'te grup sohbeti yapma
-1. Uygulama çalışma alanınızın adının yanındaki üç nokta (…) simgesini ve \> **Konuşmalar** seçeneğini belirleyin. 
+1. Çalışma alanı adının yanındaki **Diğer seçenekler** (...) öğesini \> **Konuşmalar**’ı seçin. 
    
     ![Konuşmalar sekmesi](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -66,7 +65,7 @@ Office 365'te işbirliği yapmak için başlangıç noktanız Power BI'daki klas
 2. [Office 365 için Outlook'taki grup sohbetleri](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22) hakkında daha fazla bilgi edinin.
 
 ## <a name="schedule-an-event-on-the-group-workspace-calendar"></a>Grup çalışma alanı takviminde bir etkinlik zamanlama
-1. Çalışma alanı adının yanındaki üç nokta (…) simgesini ve \> **Takvim** seçeneğini belirleyin. 
+1. Çalışma alanı adının yanındaki **Diğer seçenekler** (...) öğesini \> **Takvim**’i seçin. 
    
    ![Takvim sekmesi](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    
@@ -80,6 +79,6 @@ Bir çalışma alanının sahibi veya yöneticisiyseniz çalışma alanı üyesi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI’da uygulama yayımlayın](service-create-distribute-apps.md).
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 * Geri bildirimde bulunmak ister misiniz? [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin.
 

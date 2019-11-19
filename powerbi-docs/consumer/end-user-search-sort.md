@@ -3,22 +3,25 @@ title: Power BI hizmetinde içeriğinizi arama ve sıralama
 description: Power BI Çalışma alanım’da içerik aramaya ve sıralamaya ilişkin belge
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e32f0da4c512434fb316c010f2547de3ad5828e5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302770"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891779"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Gezinme: Power BI hizmetinde içerik arama, bulma ve sıralama
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Power BI hizmetindeki içeriğinizde gezinmek için kullanabileceğiniz birçok farklı yöntem vardır. Çalışma alanınızdaki içerik türe göre düzenlenmiştir: panolar ve raporlar.  İçerik ayrıca kullanıma göre de düzenlenmiştir: sık kullanılanlar, son görüntülenenler, benimle paylaşılanlar ve öne çıkan. Power BI *Giriş* sayfası bir sayfadaki tüm içeriği tek bir noktadan düzenlemenizi sağlar. İçeriğinize ulaştıran bu farklı yollarla Power BI hizmetinde aradığınızı kolayca bulabilirsiniz.  
 
 ## <a name="navigation-within-workspaces"></a>Çalışma alanlarında gezinme
@@ -41,13 +44,13 @@ Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz. **Ad** alan
 
 ![içeriği sıralama](./media/end-user-experience/power-bi-sort-new.png)
 
-Her sütun sıralanamaz. Sıralanabilecek sütunları bulmak için sütun başlığına gidin.
+Her sütun sıralanamaz. Sıralanabilen sütunları bulmak için sütun başlığına gidin.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-left-nav-bar"></a>Sol gezinti çubuğunu kullanarak gezinme
-Sol gezinti çubuğu, aradıklarınızı daha hızlı bulmanıza yardımcı olacak şekilde içeriğinizi sınıflandırır.  
+## <a name="navigation-using-the-navigation-pane"></a>Gezinti bölmesini kullanarak gezinme
+Sol gezinti bölmesi, aradıklarınızı daha hızlı bulmanıza yardımcı olacak şekilde içeriğinizi sınıflandırır.  
 
-![sol gezinti çubuğu](./media/end-user-search-sort/power-bi-navbar.png)
+![sol gezinti bölmesi](./media/end-user-search-sort/power-bi-navbar.png)
 
 
 - Sizinle paylaşılan içerikler **Benimle paylaşılan** bölümünde bulunur.

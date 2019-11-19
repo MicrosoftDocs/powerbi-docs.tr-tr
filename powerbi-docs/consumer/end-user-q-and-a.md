@@ -3,26 +3,44 @@ title: Power BI tüketicileri için Soru-Cevap
 description: Power BI Soru-Cevap doğal dil sorgularına yönelik belgelere genel bakış konusu.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9960ebe11271eea34245250ef5701e9a94bba744
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 8c39d64619018d01c436ddb1478881f15480bab6
+ms.sourcegitcommit: 8e28280d9d4d6034d28e2f635af2b765edc282ba
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408482"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "72793951"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ## <a name="what-is-qa"></a>Soru-Cevap nedir?
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Örneğin, "What were total sales last year?" (Bu yılki toplam satış rakamları nedir?)
 
 Kullanımı kolay olan doğal dil özelliklerinden yararlanarak verilerinizi araştırmak ve grafikler ile graflar biçiminde cevaplar almak için Soru-Cevap'ı kullanın. Bir arama motorundan farklı olan Soru-Cevap, yalnızca Power BI'daki verilerle ilgili sonuçlar sunar.
+
+## <a name="which-visualization-does-qa-use"></a>Soru-Cevap hangi görselleştirmeleri kullanır?
+Soru-Cevap görüntülenen verilere en uygun görselleştirmeyi seçer. Bazen temel alınan veri kümesi belirli bir tür veya kategoride tanımlanmış olur ve bu durum Soru-Cevap özelliğine ilgili verileri görüntüleme konusunda yardımcı olur. Örneğin, verilerin türü tarih olarak tanımlanmışsa çizgi grafik olarak görüntülenme olasılığı yüksektir. Kategorisi şehir olarak belirlenmiş veriler ise genelde harita olarak görüntülenir.
+
+Sorunuza görselin türünü ekleyerek Soru-Cevap özelliğinin o türü kullanmasını sağlayabilirsiniz. Ancak Soru-Cevap özelliğinin, verileri her zaman istediğiniz görsel türünde görüntülemesinin mümkün olmayacağını unutmayın. Soru-Cevap, çalışabileceğiniz görsel türlerini listesini gösterir.
+
+## <a name="where-can-i-use-qa"></a>Soru-Cevap özelliğini nerede kullanabilirim?
+Soru-Cevap özelliğini Power BI hizmetindeki panolarda ve Power BI mobilde panonun en altında bulabilirsiniz. Panonun tasarımcısı size düzenleme izinleri vermediyse verileri araştırmak için Soru-Cevap özelliğini kullanabilirsiniz ancak Soru-Cevap ile oluşturulan görselleştirmeleri kaydedemezsiniz.
+
+![soru kutusu](media/end-user-q-and-a/powerbi-qna.png)
+
+Rapor *tasarımcısı* bir [Soru-Cevap görseli](../visuals/power-bi-visualization-q-and-a.md) eklediyse raporlarda Soru-Cevap da bulabilirsiniz.   
+
+![Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-default.png)
+
+## <a name="qa-on-dashboards"></a>Panolarda Soru-Cevap
 
 **Power BI Soru-Cevap**, Pro veya Premium lisansla sunulur.  [Power BI mobil uygulamalarında Soru-Cevap](mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded’da Soru-Cevap](../developer/qanda.md) konuları ayrı makalelerde ele alınmıştır. Şu anda **Power BI Soru-Cevap** yalnızca İngilizce sorulan doğal dil sorgularını destekler ancak Power BI yöneticiniz tarafından etkinleştirilebilecek olan bir İspanyolca önizleme sürümü vardır.
 
@@ -33,15 +51,11 @@ Soruyu sormak yalnızca bir başlangıçtır.  Sorunuzu daraltarak veya genişle
 
 Bu, gerçekten etkileşimli ve hızlı bir deneyim. Bellek içi bir depolama birimi sayesinde neredeyse anında cevap alırsınız.
 
-## <a name="where-can-i-use-qa"></a>Soru-Cevap özelliğini nerede kullanabilirim?
-Soru-Cevap özelliğini Power BI hizmetindeki panolarda ve Power BI mobilde panonun en altında bulabilirsiniz. Panonun tasarımcısı size düzenleme izinleri vermediyse verileri araştırmak için Soru-Cevap özelliğini kullanabilirsiniz ancak Soru-Cevap ile oluşturulan görselleştirmeleri kaydedemezsiniz.
-
-![soru kutusu](media/end-user-q-and-a/powerbi-qna.png)
 
 ## <a name="use-qa-on-a-dashboard-in-the-power-bi-service"></a>Power BI hizmetindeki bir panoda Soru-Cevap özelliğini kullanma
-Power BI hizmetinde (app.powerbi.com) panolar, bir veya daha fazla veri kümesinden sabitlenmiş kutucuklar içerir. Bu nedenle, bu veri kümelerinde bulunan tüm verilerle ilgili sorular sorabilirsiniz. Panonun oluşturulması için hangi raporların ve veri kümelerinin kullanıldığını görmek üzere menü çubuğundan **İlişkilileri görüntüle**'yi seçin.
+Power BI hizmetinde (app.powerbi.com) panolar, bir veya daha fazla veri kümesinden sabitlenmiş kutucuklar içerir. Bu nedenle, bu veri kümelerinde bulunan tüm verilerle ilgili sorular sorabilirsiniz. Panonun oluşturulması için hangi raporların ve veri kümelerinin kullanıldığını görmek üzere **Diğer eylemler** açılır listesinden **İlişkilileri görüntüle**'yi seçin.
 
-![üst menü çubuğunda ilgili düğmeyi görüntüleyin](media/end-user-q-and-a/power-bi-view-related.png)
+![menü çubuğundaki ilgili görünüm](media/end-user-q-and-a/power-bi-q-and-a-view-related.png)
 
 ## <a name="how-do-i-start"></a>Nereden başlayabilirim?
 Öncelikle içerikle ilgili bilgi edinin. Panodaki ve rapordaki görselleri gözden geçirin. Kullanabileceğiniz veri türünü ve aralığını inceleyin. 
@@ -56,22 +70,69 @@ Verileri tanıdıktan sonra panoya dönün ve imlecinizi soru kutusuna yerleşti
 
 ![Soru-Cevap ekranı](media/end-user-q-and-a/power-bi-screen.png) 
 
-Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak önerilerin bulunduğu yeni bir ekran görüntüler. Temel alınan veri kümelerinde adları içeren ifade ve soruları görürsünüz ve veri kümesi sahibi tarafından oluşturulan *öne çıkan** soruları da görüntüleyebilirsiniz.
+Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak önerilerin bulunduğu yeni bir ekran görüntüler. Temel alınan veri kümelerinde adları içeren ifade ve soruları görürsünüz ve veri kümesi sahibi tarafından oluşturulan *öne çıkan* soruları da görüntüleyebilirsiniz.
 
 Bunlardan herhangi birini seçerek soru kutusuna ekleyebilir ve belirli bir yanıtı bulmak için bunlardan faydalanabilirsiniz. 
 
 Soru-Cevap özelliği ayrıca istemler, otomatik tamamlama ve görsel ipuçları ile de soru sormanıza yardımcı olur. 
 
-![video](media/end-user-q-and-a/qna4.gif) 
+<!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-### <a name="which-visualization-does-qa-use"></a>Soru-Cevap hangi görselleştirmeleri kullanır?
-Soru-Cevap görüntülenen verilere en uygun görselleştirmeyi seçer. Bazen temel alınan veri kümeleri belirli bir tür veya kategoride tanımlanmış olur ve bu durum Soru-Cevap özelliğine ilgili verileri görüntüleme konusunda yardımcı olur. Örneğin, verilerin türü tarih olarak tanımlanmışsa çizgi grafik olarak görüntülenme olasılığı yüksektir. Kategorisi şehir olarak belirlenmiş veriler ise genelde harita olarak görüntülenir.
+## <a name="the-qa-visual"></a>Soru-Cevap görseli
 
-Sorunuza görselin türünü ekleyerek Soru-Cevap özelliğinin o türü kullanmasını sağlayabilirsiniz. Ancak Soru-Cevap özelliğinin, verileri her zaman istediğiniz görsel türünde görüntülemesinin mümkün olmayacağını unutmayın. Soru-Cevap, çalışabileceğiniz görsel türlerini listesini gösterir.
+Soru-Cevap görseli, doğal dil soruları sormanıza ve görsel biçiminde yanıtlar almanıza olanak tanır. Soru-Cevap görseli de diğer tüm görseller gibi davranır. Çapraz filtre/çapraz vurgu uygulanabilir ve aynı zamanda yer işaretleri ile yorumları destekler. 
+
+Bir Soru-Cevap görselini üst kısımdaki soru kutusundan tanıyabilirsiniz. Buraya doğal dil kullanarak sorular girebilir veya yazabilirsiniz. Soru-Cevap görseli, verileriniz hakkında sorular sormak için tekrar tekrar kullanılabilir. Rapordan ayrıldığınızda Soru-Cevap varsayılan değerine sıfırlanır. 
+
+![Varsayılan Soru-Cevap görselinin ekran görüntüsü](media/end-user-q-and-a/power-bi-q-and-a-default.png)
+
+
+## <a name="use-the-qa-visual"></a>Soru-Cevap görselini kullanma
+Soru-Cevap görselini kullanmak için önerilen sorulardan birini seçin veya kendi doğal dil sorunuzu yazın. 
+
+### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Önerilen bir soruyu kullanarak Soru-Cevap görseli oluşturma
+
+Burada, **toplam birim sayısı en fazla olan coğrafi durumları** seçtik. Power BI kullanılacak görsel türünü en iyi şekilde seçmeye çalışır. Bu örnekte görsel türü bir haritadır.
+
+![Soru-Cevap görseli harita](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
+
+Ancak, doğal dil sorgunuza ekleyerek hangi görsel türünü kullanacağını Power BI’a söyleyebilirsiniz. Tüm görsel türlerinin verileriniz üzerinde işe yaramayacağını veya mantıklı olmayacağını unutmayın. Örneğin, bu veriler anlamlı bir dağılım grafiği oluşturmaz. Ancak bir kartogram gibi çalışır.
+
+![Kartogram olarak Soru-Cevap görseli](media/end-user-q-and-a/power-bi-filled-map.png)
+
+### <a name="create-a-qa-visual-by-typing-a-natural-language-query"></a>Doğal dil sorgusu yazarak bir Soru-Cevap görseli oluşturma
+
+
+Ne tür sorular soracağınızdan veya hangi terminolojiyi kullanacağınızdan emin değilseniz **Tüm önerileri göster**’i genişletin veya rapordaki diğer görsellere bakın. Bunu yaparak veri kümesinin terim ve içeriklerini yakından tanıyabilirsiniz.
+
+1. Doğal dil kullanarak Soru-Cevap alanına sorunuzu yazın. Sorunuzu yazarken, Power BI otomatik tamamlama, öneriler ve geri bildirim ile size yardımcı olur.
+
+    - Power BI’ın tanımadığı sözcükler için kırmızı alt çizgi kullanılır. Mümkün olduğunda, Power BI bu sözcükleri tanımlamanıza yardımcı olur. Doğru tanımı görürseniz açılan listeden seçin.  
+
+        ![Soru-Cevap soru kutusundaki kırmızı altı çizili terim](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+
+    - Tanımların hiçbiri doğru değilse başka bir terim deneyin veya raporun sahibinden sözcüğü eklemesini istemek için kırmızı altı çizili sözcüğü seçin.
+
+        ![Soru-Cevap soru kutusuna soru yazma](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+
+    - Harf girmeye devam ettikçe, Power BI soruyu anlamaması durumunda size bildirir ve yardımcı olmaya çalışır. Aşağıdaki örnekte Power BI "Şunu mu demek istediniz..." sorusunu sorar ve veri kümenizdeki terminolojiyi kullanarak sorunuzu farklı bir şekilde sormayı önerir. 
+
+        ![Önerilen düzeltmeler sunan Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+2. Power BI’ın düzeltmesini seçtikten sonra sonuçlarınız çizgi grafik olarak görüntülenir. 
+
+    ![Çizgi grafik olarak Soru-Cevap görseli sonuçları](media/end-user-q-and-a/power-bi-q-and-a-line.png)
+
+
+3. Ancak, çizgi grafiği başka bir görsel türü ile değiştirebilirsiniz.  
+
+    ![Soruya "sütun grafik olarak" eklenmiş Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
+
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
 **Soru**: Panoda Soru-Cevap özelliğini göremiyorum.    
 **Yanıt 1:** Soru kutusu görmüyorsanız öncelikle ayarlarınızı kontrol edin. Bunun için Power BI araç çubuğunuzun sağ üst köşesindeki dişli simgesini seçin.   
 ![dişli simgesi](media/end-user-q-and-a/power-bi-settings.png)
@@ -80,11 +141,12 @@ Ardından **Ayarlar** > **Panolar**'ı seçin. **Soru-Cevap arama kutusunu bu pa
 ![Pano için Soru-Cevap ayarları](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**Yanıt 2**: Bazen pano *tasarımcısı* veya yöneticiniz Soru-Cevap özelliğini kapatabilir. Bu kişilerle iletişime geçerek özelliği açmalarının mümkün olup olmadığını sorabilirsiniz.   
+**Yanıt 2**: Bazen ayarlara erişemezsiniz. Pano *tasarımcısı* veya yöneticiniz Soru-Cevap özelliğini kapattıysa, tekrar açmanın uygun olup olmadığını sorun.   
 
 **Soru**: Bir soru yazdığımda beklediğim sonuçları alamıyorum.    
-**Yanıt**: Panonun *tasarımcısıyla* iletişime geçin. Tasarımcının Soru-Cevap sonuçlarını geliştirmek için gerçekleştirebileceği birçok işlem vardır. Örneğin tasarımcı, veri kümesindeki sütunların adını değiştirerek daha kolay anlaşılır hale getirebilir (`CustFN` yerine `CustomerFirstName`). Tasarımcı veri kümesine hakim olduğundan yararlı sorular oluşturup bunları Soru-Cevap tuvaline de ekleyebilir.
+**Yanıt**: Rapor veya pano sahibiyle iletişim kurma seçeneğini belirleyin. Bunu doğrudan Soru-Cevap panosu sayfasından veya Soru-Cevap görselinden yapabilirsiniz. Ya da Power BI üst bilgisinden sahibi arayabilirsiniz.  Tasarımcının Soru-Cevap sonuçlarını geliştirmek için gerçekleştirebileceği birçok işlem vardır. Örneğin tasarımcı, veri kümesindeki sütunların adını değiştirerek daha kolay anlaşılır hale getirebilir (`CustFN` yerine `CustomerFirstName`). Tasarımcı veri kümesine hakim olduğundan yararlı sorular oluşturup bunları Soru-Cevap önerilen sorularına ekleyebilir.
 
+![İletişim bilgilerini görüntüleme](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI tüketicileri için Soru-Cevap ipuçları](end-user-q-and-a.md)
+Bir Soru-Cevap görselinin rapor *tasarımcısı* tarafından nasıl oluşturulup yönetildiğini öğrenmek için bkz. [Soru-Cevap görsel türü](../visuals/power-bi-visualization-q-and-a.md).

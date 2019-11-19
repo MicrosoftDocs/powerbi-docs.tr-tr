@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621287"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429659"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -37,7 +37,7 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 **Kiracı**: SaaS uygulamasını ve müşterinin SaaS uygulamasına getirdiği tüm kaynakları veya verileri kullanan tek bir müşteri (organizasyon).
 
-**[Power BI](../power-bi-overview.md)** : Power BI Embedded için platform işlevi gören Power BI bulut hizmeti.
+**[Power BI](../fundamentals/power-bi-overview.md)** : Power BI Embedded için platform işlevi gören Power BI bulut hizmeti.
 
 **Power BI kiracısı**: Tek bir AAD kiracısıyla ilişkilendirilmiş bir dizi Power BI kaynağı.
 
@@ -55,7 +55,7 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 **Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
 
-**[Power BI Pro lisansı](../service-admin-purchasing-power-bi-pro.md)** : Uygulama çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
+**[Power BI Pro lisansı](../service-admin-purchasing-power-bi-pro.md)** : Çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
 
 **[Veri bağlantısı modları](../desktop-directquery-about.md)** : Farklı modlarda yapılabilecek veri kaynaklarını Power BI'a bağlama işlemi:
 

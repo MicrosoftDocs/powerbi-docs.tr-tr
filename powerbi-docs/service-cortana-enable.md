@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375145"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020489"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana'nın, Power BI raporlarına (ve bağlantılı veri kümelerine) erişebilmesini sağlama
 [Cortana ve Power BI'a Giriş](service-cortana-intro.md) konulu makaleyi okudunuz. (Henüz okumadıysanız öncelikle bu makaleyi okumak isteyebilirsiniz.) Şimdi söz konusu işlemleri kendiniz gerçekleştirmek istiyorsunuz.  Cortana'da doğal dilde sorular sorup Power BI ***raporlarında*** depolanan verilerden yanıtlar elde edebilmeniz için karşılamanız gereken birkaç gereksinim mevcuttur. Aşağıdakileri yapmanız gerekir.
 
 > [!IMPORTANT]
-> Power BI'da Cortana tümleştirmesi kullanımdan kaldırılıyor. 11 Haziran'a kadar başlayarak, tüm panolar ve raporlar için artık Cortana çalışır.
+> Cortana tümleştirmesi Power BI’da kullanım dışı bırakılıyor. Cortana, 11 Haziran'dan itibaren artık pano ve raporlar için çalışmayacak.
 
 Power BI hizmetinde
 
@@ -42,7 +42,7 @@ Power BI hizmetinde (Power BI Desktop değil) oturum açıp Cortana'nın erişeb
 2. Bu raporla ilişkilendirilen veri kümesi **Contoso Sales**'dir.
    
     ![Contoso Sales veri kümesi](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Veri kümesi adının sağında **üç nokta (...) > Ayarlar**'ı seçin.  
+3. Veri kümesi adının sağında **Diğer seçenekler** (...) > Ayarlar** öğesini seçin.  
    
     ![Ayarlar'ı seçme](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. **Soru-Cevap ve Cortana** > **Cortana'nın bu veri kümesine erişmesine izin ver** > **Uygula** seçeneğini belirleyin.

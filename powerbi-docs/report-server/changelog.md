@@ -8,13 +8,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259969"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922555"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -23,15 +23,22 @@ Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğeler
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
 
 ## <a name="september-2019"></a>Eylül 2019
-
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.6.7236.4246 (Derleme 15.0.1102.646), Yayın Tarihi: 25 Ekim 2019*
+        - Güvenlik güncelleştirmeleri
+        - Hata düzeltmeleri
+            - .Net Framework 4.7 düzeltmesi yüklenmedi.
+            - 110083 hatası ile çoklu değer parametrelerine sahip Teradata için sayfalandırılmış raporların düzeltilmesi.
+            - Birden çok web hizmeti URL bağlaması varsa ve bunlardan biri http://+80/reportserver ise URLRoot değeri çalışmıyor sorununun düzeltilmesi.
+          - Rapor alanının dışında gösterilen sayfalandırılmış raporların çok değerli parametresi için düzeltme.
+          
     - *Sürüm: 1.6.7221.30698 (Derleme 15.0.1102.620), Yayınlanma Tarihi: 9 Ekim 2019*
         - Hata düzeltmeleri
             - Metin Filtresi özel görseli için düzeltme.
             - Açılır liste dilimleyicilerinin performansı için düzeltme.
             - Telemetriden Şerit PII için düzeltme.
           - URL’lerin büyük/küçük harfe duyarlı olmaması için düzeltme.
-             
+          
     - *Sürüm 1.6.7206.38019 (Derleme 15.0.1102.597), Yayınlanma tarihi: 26 Eylül 2019*
         - Güvenlik güncelleştirmeleri
         - Hata düzeltmeleri
@@ -50,7 +57,10 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
              - Web API: /PowerBIReports({Id})/DataSources (PATCH), bağlantı dizesi güncelleştirmelerine izin verecek şekilde güncelleştirildi.
          
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
-
+    - *Sürüm: 2.73.5586.1501 (Eylül 2019), Yayın Tarihi: 25 Ekim 2019*
+        - Hata düzeltmeleri
+            - Telemetri çözümü.
+            
     - *Sürüm: 2.73.5586.1241 (Eylül 2019), Yayınlanma Tarihi: 9 Ekim 2019*
         - Hata düzeltmeleri
             - Metin Filtresi özel görseli için düzeltme.

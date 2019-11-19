@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305885"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442868"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -169,7 +169,9 @@ Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bak
 
 Kuruluştaki kullanıcılar, Power BI yardım menüsünden iç yardıma ve destek kaynaklarına gidebilir. Özellikle, bu parametreler Öğrenme, Topluluk ve Yardım alın menü öğelerinin davranışını değiştirir.
 
-Kullanıcıları lisanslama istekleri için özel bir çözüme yönlendirmek üzere bir URL belirtmek de mümkündür. Bu parametre, Power BI Pro lisansı olmayan bir kullanıcının Power BI Pro’ya Güncelleştir iletişim kutusunda ve Kişisel depolama alanını yönet sayfasında bulabileceği Hesabı yükselt düğmesinin hedef URL’sini özelleştirir.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+Lisans istekleri için bir URL belirterek, Power BI Pro lisansı olmayan bir kullanıcının **Power BI Pro’ya Güncelleştir** iletişim kutusunda ve **Kişisel depolama alanını yönet** sayfasında bulabileceği **Hesabı yükselt** düğmesinin hedef URL’sini özelleştirebilirsiniz. Ayrıca, Power BI’ın kullanıcılarınızı lisans yönetimi çözümünüz aracılığıyla kuruluşunuzda tanımlanmış işleme güvenilir şekilde yönlendirdiğinden emin olmak için, Power BI artık bu iletişim kutusunda veya depolama sayfasında **Pro sürümünü ücretsiz deneyin** düğmesini sunmamaktadır.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylar için e-posta bildirimlerini etkinleştir
 
@@ -179,7 +181,7 @@ Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenl
 
 ### <a name="create-workspaces"></a>Çalışma alanı oluşturma
 
-Yöneticiler, kuruluştaki hangi kullanıcıların uygulama çalışma alanı oluşturarak pano, rapor ve diğer içerikler üzerinde işbirliği yapabileceğini belirtmek için **Çalışma alanı oluştur** ayarını kullanır. [Uygulama çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.
+Yöneticiler, kuruluştaki hangi kullanıcıların çalışma alanı oluşturarak pano, rapor ve diğer içerikler üzerinde işbirliği yapabileceğini belirtmek için **Çalışma alanı oluştur** ayarını kullanır. [Çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
 Yönetici portalında, kiracınızda bulunan çalışma alanları hakkında başka bir ayarlar bölümü bulunur. Bu bölümde, çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Ayrıntılar için bkz. [Çalışma alanları](#workspaces).
 
@@ -293,7 +295,7 @@ Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümel
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI kullanma
 
-Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI kullanılabilir. [Daha fazla bilgi](visuals/power-bi-visualization-arcgis.md)
+Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI görselleştirmesini kullanabilir. [Daha fazla bilgi](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI için genel aramayı kullanma (Önizleme)
 

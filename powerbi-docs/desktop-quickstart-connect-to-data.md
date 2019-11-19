@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514448"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891700"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma
 
@@ -33,7 +33,7 @@ Bu makaledeki adımları tamamlamak için aşağıdakiler gerekir:
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop'ı başlatma
 
-**Power BI Desktop**’ı yükledikten sonra yerel bilgisayarınızda çalışması için uygulamayı başlatın. Bağlandığınız verilerden görseller ve raporlar oluşturacağınız boş bir tuval açılır. 
+**Power BI Desktop**’ı yükledikten sonra yerel bilgisayarınızda çalışması için uygulamayı başlatın. Bir Power BI öğreticisi gösterilir. Öğreticiyi takip edin veya öğreticiyi kapatarak bağlandığınız verilerden görseller ve raporlar oluşturacağınız boş bir tuval ile çalışmaya başlayın. 
 
 ![Power BI Desktop - boş tuval](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

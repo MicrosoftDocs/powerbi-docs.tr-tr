@@ -8,12 +8,12 @@ ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
 ms:date: 11/14/2019
-ms.openlocfilehash: 8bdd81657d7f8917e3ce147b813ba6745207f1f8
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: aec7fc7cace8ec16eb0bf511e32402f56279cf2a
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128216"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178305"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -122,7 +122,7 @@ ms.locfileid: "74128216"
                                 </a>
                             </li>
                             <li>
-                                <a href="guided-learning/index.md">
+                                <a href="guided-learning/index.yml">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

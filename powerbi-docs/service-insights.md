@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994956"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020234"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI ile otomatik olarak veri içgörüleri oluşturma
 Yeni bir veri kümeniz var ve keşfetmeye nereden başlayacağınızı bilemiyor musunuz?  Hızla bir pano mu oluşturmanız gerekiyor?  Gözünüzden kaçmış olabilecek öngörülere göz atmak mı istiyorsunuz?
@@ -38,7 +38,7 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 
 Şimdi sıra sizde. [Tedarikçi Kalite Analizi örneğini](sample-supplier-quality.md) kullanarak içgörüleri keşfedin.
 
-1. **Veri kümeleri** sekmesinde, üç nokta simgesini (...) ve **Hızlı içgörüler alın**'ı seçin.
+1. **Veri Kümeleri** sekmesinden **Diğer seçenekler** (...) ve sonra **Hızlı içgörüler alın**’ı seçin.
    
     ![Veri Kümeleri sekmesi](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 
 1. Kartlardan birinin üzerine gelin ve görselleştirmeyi bir panoya eklemek için raptiye simgesini seçin.
 
-2. Bir kartın üzerine gelin, üç nokta (...) simgesini ve ardından **İçgörüleri görüntüle**'yi seçin. 
+2. Bir kartın üzerine gelin, **Diğer seçenekler** (...) ve sonra **İçgörüleri görüntüle**’yi seçin. 
 
     İçgörü ekranı Odak modunda açılır.
    
@@ -86,7 +86,7 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 İçgörüleri bir veri kümesinin tamamında aramak yerine aramanızı tek bir pano kutucuğunu oluşturmak için kullanılan veriler üzerinde kapsama alınmış bir içgörüyle sınırlayabilirsiniz. 
 
 1. Bir pano açın.
-2. Bir kutucuğun üzerine gelin, üç nokta (...) simgesini ve sonra **İçgörüleri görüntüle**'yi seçin. Kutucuk, öngörü kartları sağ tarafta görüntülenecek şekilde [Odak modunda](service-focus-mode.md) açılır.    
+2. Bir kutucuğun üzerine gelin, **Diğer seçenekler** (...) ve sonra **İçgörüleri görüntüle**’yi seçin. Kutucuk, öngörü kartları sağ tarafta görüntülenecek şekilde [Odak modunda](service-focus-mode.md) açılır.    
    
     ![Odak modu](media/service-insights/pbi-insights-tile.png)    
 3. Öngörülerden biri ilginizi mi çekti? İlgili öngörü kartını seçerek detaylandırabilirsiniz. Seçilen öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni öngörü kartları da sağ tarafta görüntülenir.    

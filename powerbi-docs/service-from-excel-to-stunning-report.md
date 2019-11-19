@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995021"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020987"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI hizmetinde Excel çalışma kitabından muhteşem raporlar elde etme
 Yöneticiniz gün bitimine kadar, son kampanyaya ilişkin izlenimlerinizle birlikte güncel satış rakamlarınızın yer aldığı bir rapor sunmanızı istiyor. Ancak, güncel verileriniz çeşitli üçüncü taraf sistemlerde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.
@@ -111,7 +111,7 @@ Yöneticiniz, en fazla kâr sağlayan ülkeleri görmek istiyor. Bir harita gör
 
 2. **Görsel Öğeler** menüsündeki simgelerden birini seçerek grafiğin türünü değiştirin. Örneğin, görseli bir **Yığılmış sütun grafik** olarak değiştirin. 
 
-3. Grafiği sıralamak için üç nokta (...) > **Sıralama Ölçütü** seçeneğini belirleyin.
+3. Grafiği sıralamak için **Diğer seçenekler** (...) > **Sıralama ölçütü**’nü seçin.
 
    ![Rapor düzenleyicisinde yığılmış sütun grafik](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157818"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431979"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -71,7 +71,7 @@ Veri kümesi bir veya daha fazla [kurumsal içerik paketinin](service-organizati
 
 ### <a name="to-delete-a-dataset"></a>Bir veri kümesini silmek için
 1. Çalışma alanınızda **Veri Kümeleri** sekmesini seçin.
-2. Silmek istediğiniz veri kümesini bulup üç nokta (...) simgesini seçin.  
+2. Silmek istediğiniz veri kümesini bulup **Diğer seçenekler**’i (...) seçin.  
 
     ![Veri Kümeleri sekmesi](media/service-delete/power-bi-delete-datasetnew.png)
 3. Açılan listeden **Sil**'i seçin.
@@ -81,40 +81,41 @@ Veri kümesi bir veya daha fazla [kurumsal içerik paketinin](service-organizati
 
    ![Panoyu sil iletişim kutusu](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>Bir uygulama çalışma alanını silme
+## <a name="delete-a-workspace"></a>Çalışma alanı silme
 > [!WARNING]
-> Bir uygulama çalışma alanı oluşturduğunuzda bir Office 365 grubu oluşturmuş olursunuz. Bir uygulama çalışma alanını sildiğinizde de oluşturduğunuz Office 365 grubunu silmiş olursunuz. Başka bir deyişle, söz konusu grup SharePoint ve Microsoft Teams gibi diğer O365 ürünlerinden de silinir.
+> Bir çalışma alanı oluşturduğunuzda bir Office 365 grubu oluşturmuş olursunuz. Bir çalışma alanını sildiğinizde de oluşturduğunuz Office 365 grubunu silmiş olursunuz. Başka bir deyişle, söz konusu grup SharePoint ve Microsoft Teams gibi diğer O365 ürünlerinden de silinir.
 >
 >
 
-Kendi oluşturduğunuz uygulama çalışma alanlarını silebilirsiniz. Ayrıca silme işleminin ardından ilişkili uygulama, tüm grup üyeleri için silinir ve AppSource'unuzdan kaldırılır (uygulamayı kuruluşunuzun tamamında yayımladıysanız). Bir uygulama çalışma alanını silmek, uygulama çalışma alanından ayrılmaktan farklıdır.
+Kendi oluşturduğunuz çalışma alanlarını silebilirsiniz. Ayrıca silme işleminin ardından ilişkili uygulama, tüm grup üyeleri için silinir ve AppSource'unuzdan kaldırılır (uygulamayı kuruluşunuzun tamamında yayımladıysanız). Bir çalışma alanını silmek, çalışma alanından ayrılmaktan farklıdır.
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Yöneticisi olduğunuz bir uygulama çalışma alanını silmek için
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Yöneticisi olduğunuz bir çalışma alanını silmek için
 1. Sol gezinti bölmesinde, **Çalışma Alanı**'nı seçin
 
-    ![Uygulama çalışma alanları](media/service-delete/power-bi-delete-workspace.png)
-2. Silmek istediğiniz çalışma alanının sağ tarafındaki üç nokta (...) simgesini seçip **Çalışma alanını düzenle**'yi seçin.
+2. Silmek istediğiniz çalışma alanının sağ tarafındaki **Diğer seçenekler**’i (...) ve **Çalışma alanını düzenle**’yi seçin.
 
-   ![üç nokta menüsü > Çalışma alanını düzenle](media/service-delete/power-bi-edit-workspace.png)
+    ![çalışma alanı](media/service-delete/power-bi-delete-workspace.png)
+
 3. **Çalışma alanını düzenle** penceresinde, **Çalışma alanını sil** > **Sil**'i seçin.
 
     ![çalışma alanını silme](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>Bir uygulama çalışma alanını listenizden kaldırma
-Artık bir uygulama çalışma alanının üyesi olmak istemiyorsanız ***ayrılabilir*** ve ilgili girişin listenizden kaldırılmasını sağlayabilirsiniz. Siz bir çalışma alanından ayrıldığınızda diğer çalışma alanı üyeleri için herhangi bir değişiklik olmaz.  
+### <a name="to-remove-a-workspace-from-your-list"></a>Bir çalışma alanını listenizden kaldırmak için
+Artık bir çalışma alanının üyesi olmak istemiyorsanız ***ayrılabilir*** ve ilgili girişin listenizden kaldırılmasını sağlayabilirsiniz. Siz bir çalışma alanından ayrıldığınızda diğer çalışma alanı üyeleri için herhangi bir değişiklik olmaz.  
 
 > [!IMPORTANT]
-> Uygulama çalışma alanındaki tek Yönetici sizseniz Power BI ayrılmanıza izin vermez.
+> Çalışma alanındaki tek Yönetici sizseniz Power BI ayrılmanıza izin vermez.
 >
 >
 
 1. Kaldırmak istediğiniz çalışma alanında işleme başlayın.
-2. Sağ üst köşede üç nokta (...) simgesini seçin ve **Çalışma alanından ayrıl** > **Ayrıl** seçeneğini belirleyin.
+
+2. Sağ üst köşede **Diğer seçenekler**’i (...) ve **Çalışma alanından ayrıl** > **Ayrıl**’ı seçin.
 
       ![çalışma alanından ayrılma](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > Açılan listede göreceğiniz seçenekler, uygulama çalışma alanında Yönetici veya Üye olma durumunuza göre değişir.
+   > Açılan listede göreceğiniz seçenekler, çalışma alanında Yönetici veya Üye olma durumunuza göre değişir.
    >
    >
 

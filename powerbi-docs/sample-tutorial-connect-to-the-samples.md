@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391518"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020621"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 
@@ -91,7 +91,7 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, bkz. [Power BI için P
      
    ![Yeni rapor](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. Veri kümesini keşfetmenin bir başka yolu [hızlı içgörüler](consumer/end-user-insights.md) çalıştırmaktır. Üç nokta (...) simgesini ve ardından **Hızlı içgörüler al**'ı seçin. Öngörüler hazır olduğunda **Öngörüleri görüntüle** seçeneğini belirleyin.
+1. Veri kümesini keşfetmenin bir başka yolu [hızlı içgörüler](consumer/end-user-insights.md) çalıştırmaktır. **Diğer seçenekler** (...) ve sonra **Hızlı içgörüler al**’ı seçin. Öngörüler hazır olduğunda **Öngörüleri görüntüle** seçeneğini belirleyin.
      
     ![İçgörüler raporu](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

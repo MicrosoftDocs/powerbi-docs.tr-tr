@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207587"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019622"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 Panonuzdaki her görsel [kutucuğu](end-user-tiles.md), veri araştırma dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda veya [Soru-Cevap kutusunda](end-user-q-and-a.md) bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
@@ -31,7 +31,7 @@ Verilerinizi temel alan ilgi çekici ve etkileşimli görseller oluşturmak içi
 Bir pano kutucuğunda içgörü çalıştırdığınızda Power BI yalnızca o pano kutucuğunu oluşturmak için kullanılan verilerde arama yapar. 
 
 1. [Bir pano açın](end-user-dashboards.md).
-2. Bir kutucuğun üzerine gelin, üç nokta (...) simgesini ve **İçgörüleri görüntüle**'yi seçin. 
+2. Bir kutucuğun üzerine gelin, **Diğer seçenekler**’i (...) ve **İçgörüleri görüntüle**’yi seçin. 
 
     ![üç nokta menüsü modu](./media/end-user-insights/power-bi-hovers.png)
 

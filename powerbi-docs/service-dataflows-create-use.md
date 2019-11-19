@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144620"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432062"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI'da veri akışlarını oluşturma ve kullanma
 
 **Power BI**'da sağlanan gelişmiş veri hazırlama olanağıyla, veri akışı olarak adlandırılan bir veri koleksiyonu oluşturabilir ve bunu kullanarak çeşitli kaynaklardan iş verilerine bağlanabilir, verileri temizleyebilir, dönüştürebilir ve ardından bu veri akışını Power BI depolama alanına yükleyebilirsiniz.
 
-**Veri akışı**, Power BI hizmetindeki uygulama çalışma alanlarında oluşturulan ve yönetilen bir *varlık* koleksiyonudur (varlıklar, tablolara benzer). Veri akışınızda varlıkları ekleyip düzenleyebilir, ayrıca doğrudan veri akışınızı oluşturduğunuz çalışma alanından veri yenileme zamanlamalarını yönetebilirsiniz.
+**Veri akışı**, Power BI hizmetindeki çalışma alanlarında oluşturulan ve yönetilen bir *varlık* koleksiyonudur (varlıklar, tablolara benzer). Veri akışınızda varlıkları ekleyip düzenleyebilir, ayrıca doğrudan veri akışınızı oluşturduğunuz çalışma alanından veri yenileme zamanlamalarını yönetebilirsiniz.
 
 Veri akışını oluşturduktan sonra, **Power BI Desktop**'ı veya **Power BI hizmetini** kullanarak Power BI veri akışlarına yerleştirdiğiniz verileri temel alan veri kümeleri, raporlar, panolar ve uygulamalar oluşturabilir, bu yolla iş etkinliklerinizle ilgili içgörüler kazanabilirsiniz.
 
@@ -36,13 +36,13 @@ Veri akışını kullanmanın başlıca üç adımı vardır:
 Aşağıdaki bölümlerde, bu adımlardan her birini gözden geçirecek ve her adımı tamamlamak için sağlanan araçları tanıyacağız. Başlayalım.
 
 ## <a name="creating-a-dataflow"></a>Veri akışı oluşturma
-Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinde **uygulama çalışma alanını** (Power BI hizmetinde *çalışma alanım* içinde veri akışları kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
+Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinde **çalışma alanını** (Power BI hizmetinde *çalışma alanım* içinde veri akışları kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
 
 ![Power BI'da veri akışı oluşturma](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Veri akışı oluşturabileceğiniz bir **uygulama çalışma alanındayken**, tuvalin sağ üst kısmında **+ Oluştur** düğmesi görüntülenir. **+ Oluştur** düğmesini seçin ve sonra açılan listeden **Veri Akışı**'nı seçin. 
+Veri akışı oluşturabileceğiniz bir **çalışma alanındayken**, tuvalin sağ üst kısmında **+ Oluştur** düğmesi görüntülenir. **+ Oluştur** düğmesini seçin ve sonra açılan listeden **Veri Akışı**'nı seçin. 
 
-Her veri akışının *tek bir sahibi* olduğunu ve bu sahibin, veri akışını oluşturan kişi olduğunu bilmeniz önemlidir. Veri akışını yalnızca sahibi düzenleyebilir. Veri akışının oluşturulduğu uygulama çalışma alanı üzerinde okuma ve yazma izinleri olan tüm **uygulama çalışma alanı** üyeleri, bu makalenin devamında açıklandığı gibi **Power BI Desktop**'ın içinden veri akışına bağlanabilir.
+Her veri akışının *tek bir sahibi* olduğunu ve bu sahibin, veri akışını oluşturan kişi olduğunu bilmeniz önemlidir. Veri akışını yalnızca sahibi düzenleyebilir. Veri akışının oluşturulduğu çalışma alanı üzerinde okuma ve yazma izinleri olan tüm **çalışma alanı** üyeleri, bu makalenin devamında açıklandığı gibi **Power BI Desktop**'ın içinden veri akışına bağlanabilir.
 
 ![Power BI hizmetinde veri akışı oluşturmaya yönelik +Oluştur düğmesi](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ Harika! Artık bir sonraki adım olan veri kaynaklarınızın yenileme sıklığ
 
 Veri akışınız kaydedildikten sonra, bağlantılı veri kaynaklarınızdan her biri için yenileme sıklığını zamanlamak istersiniz.
 
-Power BI veri akışlarında, verilerinizin güncelliğini korumak için Power BI veri yenileme işlemi kullanılır. **Power BI hizmetindeki** **uygulama çalışma alanı** bölümünde, aşağıdaki resimde gösterildiği gibi veri akışlarınız da dahil olmak üzere bilgilerinizin listelendiği bir alan koleksiyonu vardır.
+Power BI veri akışlarında, verilerinizin güncelliğini korumak için Power BI veri yenileme işlemi kullanılır. **Power BI hizmetindeki** **çalışma alanı** bölümünde, aşağıdaki resimde gösterildiği gibi veri akışlarınız da dahil olmak üzere bilgilerinizin listelendiği bir alan koleksiyonu vardır.
 
 ![Power BI hizmetinde veri akışlarını yönetme](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Veri akışına bağlanmak için, aşağıdaki resimde gösterildiği gibi Power
 
 ![Power BI Desktop’tan veri akışlarına bağlanma](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-Buradan, veri akışınızı kaydettiğiniz **uygulama çalışma alanına** gidin, veri akışını seçin ve sonra oluşturduğunuz varlıkları listeden seçin.
+Buradan, veri akışınızı kaydettiğiniz **çalışma alanına** gidin, veri akışını seçin ve sonra oluşturduğunuz varlıkları listeden seçin.
 
 Ayrıca, veri akışınızın adını ve diğer birçok veri akışı varlığı içinde varlıklarınızı hızla bulmak için, pencerenin üst kısmındaki **arama çubuğunu** da kullanabilirsiniz.
 

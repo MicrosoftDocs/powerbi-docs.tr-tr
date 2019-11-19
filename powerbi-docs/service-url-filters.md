@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623897"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891807"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -153,7 +153,7 @@ V3 ile V4 arasında başka farklılıklar da vardır. OData V3'te Dates desteği
 |---------|---------|---------|
 |**Tablo Adı**     | Boşluk 0x20        |  Tablo_x0020_Adı       |
 |**Sütun**@**Numarası**     |   @ 0x40     |  Sütun_x0040_Numarası       |
-|**[Sütun]**     |  [ is 0x0058 ] 0x0050       |  _x0058_Sütun_x0050_       |
+|**[Sütun]**     |  [ is 0x005B ] is 0x005D       |  _x005B_Column_x005D_       |
 |**Sütun+Artı**     | + 0x2B        |  Sütun_x002B_Artı       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters1.png)

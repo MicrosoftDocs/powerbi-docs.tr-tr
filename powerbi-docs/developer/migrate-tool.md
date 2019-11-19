@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272273"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429434"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 
@@ -132,7 +132,7 @@ Otomatik olarak bir yol oluşturulur. Dilerseniz bu yolu değiştirebilirsiniz. 
 
 #### <a name="upload-plan"></a>Yükleme Planı
 
-Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için kullanılacak bir ön ek belirtebilirsiniz. Ön ek sonrasında Azure'daki çalışma alanı GUID değeri gelecektir.
+Burada Power BI hizmetinde oluşturulacak çalışma alanları için kullanılacak bir ön ek belirtebilirsiniz. Ön ek sonrasında Azure'daki çalışma alanı GUID değeri gelecektir.
 
 ![Planı karşıya yükleme](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +167,21 @@ Burada Power BI hizmetinde oluşturulacak Uygulama Çalışma Alanları için ku
 
 ## <a name="step-3-create-groups"></a>3\. Adım: Grup Oluştur
 
-Kullanılabilir raporları indirdikten sonra **Create Groups** (Grup Oluştur) sekmesine gidebilirsiniz. Bu sekme oluşturduğunuz geçiş planına bağlı olarak Power BI hizmetinde uygulama çalışma alanları oluşturur. Uygulama çalışma alanını **Analyze & Plan Migration** (Analiz Etme ve Geçişi Planlama) sekmesindeki **Upload** (Yükle) sekmesinde belirlediğiniz adla oluşturur.
+Kullanılabilir raporları indirdikten sonra **Create Groups** (Grup Oluştur) sekmesine gidebilirsiniz. Bu sekme oluşturduğunuz geçiş planına bağlı olarak Power BI hizmetinde çalışma alanları oluşturur. Çalışma alanını **Analiz Etme ve Geçişi Planlama** sekmesindeki **Yükle** sekmesinde belirlediğiniz adla oluşturur.
 
 ![Grup oluşturma](media/migrate-tool/migrate-tool-create-groups.png)
 
-Uygulama çalışma alanlarını oluşturmak için **Create Selected Groups** (Seçilen Grupları Oluştur) veya **Create All Missing Groups** (Tüm Eksik Grupları Oluştur) seçeneğini belirleyebilirsiniz.
+Çalışma alanlarını oluşturmak için **Seçilen Grupları Oluştur** veya **Tüm Eksik Grupları Oluştur** seçeneğini belirleyebilirsiniz.
 
-İki durumda da oturum açmanız istenir. *Uygulama çalışma alanlarını oluşturduğunuz Power BI hizmetine ait kimlik bilgilerini kullanmanız gerekir.*
+İki durumda da oturum açmanız istenir. *Çalışma alanlarını oluşturduğunuz Power BI hizmetine ait kimlik bilgilerini kullanmanız gerekir.*
 
 ![Grup oturum açma işlemi oluşturma](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Bu işlemin ardından uygulama çalışma alanı Power BI hizmetinde oluşturulur. Raporlar uygulama çalışma alanına yüklenmez.
+Bu işlemin ardından çalışma alanı Power BI hizmetinde oluşturulur. Raporlar çalışma alanına yüklenmez.
 
-Uygulama çalışma alanının oluşturulduğunu doğrulamak için Power BI oturumu açıp çalışma alanının mevcut olup olmadığını kontrol edebilirsiniz. Çalışma alanının boş olduğunu göreceksiniz.
+Çalışma alanının oluşturulduğunu doğrulamak için Power BI oturumu açıp çalışma alanının mevcut olup olmadığını kontrol edebilirsiniz. Çalışma alanının boş olduğunu göreceksiniz.
 
-![Uygulama çalışma alanı](media/migrate-tool/migrate-tool-app-workspace.png)
+![çalışma alanı](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Çalışma alanı oluşturulduktan sonra **Upload** (Yükleme) sekmesine geçebilirsiniz.
 
@@ -235,9 +235,9 @@ Başarısız olan öğenin SaaSTargetReportName değerini değiştirebiliriz.
 
 Ardından planı geçiş aracında tekrar açarak başarısız olan raporu yükleyebiliriz.
 
-Power BI'a geri döndüğünüzde uygulama çalışma alanına yüklenen raporları ve veri kümelerini görebilirsiniz.
+Power BI'a geri döndüğünüzde çalışma alanına yüklenen raporları ve veri kümelerini görebilirsiniz.
 
-![Uygulama çalışma alanı karşıya yükleme](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Çalışma alanını karşıya yükleme](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +264,7 @@ Ardından veri kümesi bağlantı dizesini Power BI hizmetinden (SaaS) güncelle
 
 ## <a name="embedding"></a>Ekleme
 
-Power BI Embedded Azure hizmetindeki raporlarınızı Power BI hizmetine geçirdiğinize göre uygulamanızı güncelleştirebilir ve raporları bu uygulama çalışma alanına eklemeye başlayabilirsiniz.
+Power BI Embedded Azure hizmetindeki raporlarınızı Power BI hizmetine geçirdiğinize göre uygulamanızı güncelleştirebilir ve raporları bu çalışma alanına eklemeye başlayabilirsiniz.
 
 Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md).
 

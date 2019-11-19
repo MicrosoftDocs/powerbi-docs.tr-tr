@@ -1,6 +1,6 @@
 ---
 title: Çalışma alanlarınızdaki veri depolama alanlarını yönetme
-description: Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya uygulama çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
+description: Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61191066"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431374"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
 
-Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya uygulama çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
+Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
 
-Kullanıcı ve uygulama çalışma alanları farklı veri kapasitelerine sahiptir:
+Kullanıcılar ve çalışma alanları farklı veri kapasitelerine sahiptir:
 
 * Tüm kullanıcılar en fazla 10 GB veri depolama alanına sahip olur.
-* Power BI Pro lisansı olan kullanıcılar, her biri en fazla 10 GB veri depolama alanına sahip uygulama çalışma alanları oluşturabilir.
-* Premium kapasitedeki bir uygulama çalışma alanı Power BI Pro kullanıcısının depolama alanında hesaba katılmaz.
+* Power BI Pro lisansı olan kullanıcılar, her biri en fazla 10 GB veri depolama alanına sahip çalışma alanları oluşturabilir.
+* Premium kapasitedeki bir çalışma alanı Power BI Pro kullanıcısının depolama alanında hesaba katılmaz.
 
-Kiracı düzeyinde toplam kullanım, tüm Pro sürüm kullanıcıları ve kiracıdaki tüm uygulama çalışma alanları için Pro sürüm kullanıcısı başına 10 GB'ı aşamaz.
+Kiracı düzeyinde toplam kullanım, tüm Pro sürüm kullanıcıları ve kiracıdaki tüm çalışma alanları için Pro sürüm kullanıcısı başına 10 GB'ı aşamaz.
 
 [Power BI fiyatlandırma modelinin](https://powerbi.microsoft.com/pricing) diğer özellikleri hakkında bilgi edinin.
 
@@ -63,15 +63,15 @@ Power BI hesabınızda kullandığınız depolama alanı miktarını görün ve 
 
 Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağlı olabileceğini unutmayın. İlgili veri kümesini silerseniz bağlı raporlar ve panolar artık çalışmaz.
 
-## <a name="manage-your-app-workspace"></a>Uygulama çalışma alanınızı yönetme
-1. **Çalışma Alanı** \>'nın yanındaki oku ve ardından uygulama çalışma alanının adını seçin.
+## <a name="manage-your-workspace"></a>Çalışma alanınızı yönetme
+1. **Çalışma Alanları**’nın \> yanındaki oku ve ardından çalışma alanının adını seçin.
    
-    ![Uygulama çalışma alanı seçme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Çalışma alanı seçme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Sağ üst köşedeki dişli simgesini ![dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \> **Grup depolama alanını yönet**’i seçin.
    
     Üst taraftaki çubukta, grup depolama alanınızın ne kadarının kullanıldığı gösterilir.
    
-    ![Uygulama çalışma alanı depolama alanlarını yönetme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Çalışma alanı depolama alanlarını yönetme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Veri kümeleri ve raporlar iki sekmeye ayrılmıştır:
    
@@ -80,7 +80,7 @@ Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağl
 3. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)geçin.
    
    > [!NOTE]
-   > Uygulama çalışma alanında düzenleme izinlerine sahip olan tüm üyeler uygulama çalışma alanındaki veri kümelerini ve raporları silme izinlerine de sahip olur.
+   > Çalışma alanında düzenleme izinlerine sahip olan tüm üyeler çalışma alanındaki veri kümelerini ve raporları silme izinlerine de sahip olur.
    > 
    > 
 

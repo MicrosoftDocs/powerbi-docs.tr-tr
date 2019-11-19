@@ -1,5 +1,5 @@
 ---
-title: Birden fazla kaynaktan verileri şekillendirme ve birleştirme
+title: "Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme"
 description: Bu öğreticide, Power BI Desktop’ta verileri şekillendirmeyi ve birleştirmeyi öğreneceksiniz
 author: davidiseminger
 manager: kfile
@@ -7,235 +7,302 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/08/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2835dd34ce5ba2d7bc6be8659b87eb1f550fdc28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514583"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922576"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop’ta verileri şekillendirme ve birleştirme
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme
 
-**Power BI Desktop** ile çok çeşitli veri kaynaklarına bağlanabilir ve ardından verileri ihtiyaçlarınızı karşılayacak şekilde şekillendirebilir, böylece başkalarıyla paylaşabileceğiniz görsel raporlar oluşturabilirsiniz. Verileri *şekillendirme* verileri dönüştürme anlamına gelir. Sütunları veya tabloları yeniden adlandırma, metinleri sayı olarak değiştirme, satırları kaldırma, ilk satırı başlık olarak ayarlama ve benzeri değişiklikler yapma bu işlemlere örnek olarak verilebilir. Verileri *birleştirme*, iki veya daha fazla veri kaynağını bağlama, gerektiği şekilde şekillendirme ve ardından bunları kullanışlı tek bir sorguda birleştirme anlamına gelir.
+Power BI Desktop ile çok çeşitli veri kaynaklarına bağlanabilir ve ardından verileri ihtiyaçlarınızı karşılayacak şekilde şekillendirebilir, böylece başkalarıyla paylaşılabilecek görsel raporlar oluşturabilirsiniz. Verileri *şekillendirme* verileri dönüştürme anlamına gelir. Sütunları veya tabloları yeniden adlandırma, metinleri sayı olarak değiştirme, satırları kaldırma, ilk satırı başlık olarak ayarlama ve benzeri değişiklikler yapma bu işlemlere örnek olarak verilebilir. Verileri *birleştirme*, iki veya daha fazla veri kaynağını bağlama, gerektiği şekilde şekillendirme ve ardından bunları kullanışlı tek bir sorguda birleştirme anlamına gelir.
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
-* **Sorgu Düzenleyicisi** kullanarak verileri şekillendirme
-* Bir veri kaynağına bağlanma
-* Başka bir veri kaynağına bağlanma
-* Bu veri kaynaklarını birleştirme ve raporlarda kullanılacak bir veri modeli oluşturma
+* Sorgu Düzenleyicisi kullanarak verileri şekillendirme.
+* Farklı veri kaynaklarına bağlanma.
+* Bu veri kaynaklarını birleştirme ve raporlarda kullanılacak bir veri modeli oluşturma.
 
-Bu öğreticide Power BI Desktop’ı kullanarak bir sorgunun nasıl şekillendirileceği gösterilmiş ve sık kullanılan görevlerin bazılarının üzerinde durulmuştur. Burada kullanılan sorgu, sıfırdan nasıl oluşturulacağı da dahil olmak üzere [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) başlıklı makalede daha ayrıntılı bir şekilde açıklanmıştır.
+Bu öğreticide Power BI Desktop’ı kullanarak bir sorgunun nasıl şekillendirileceği gösterilmiş ve en yaygın görevlerin üzerinde durulmuştur. Burada kullanılan sorgu, sıfırdan nasıl oluşturulacağı da dahil olmak üzere [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) başlıklı makalede daha ayrıntılı bir şekilde açıklanmıştır.
 
-Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde, şeridin yanı sıra, sağ tıklama menülerinin de bolca kullanıldığını bilmekte yarar vardır. **Dönüştürme** şeridinde seçebileceklerinizin çoğunu, bir öğeye (sütun gibi) sağ tıklayıp görüntülenen menüden seçim yaparak da kullanabilirsiniz.
+Power BI Desktop'taki Sorgu Düzenleyicisi, **Dönüştür** şeridinin yanı sıra, sağ tıklama menülerini bolca kullanır. Şeritte seçilebilecek öğelerin çoğu, sütun gibi bir öğeye sağ tıklanıp görüntülenen menüden seçim yapılarak kullanılabilir.
 
 ## <a name="shape-data"></a>Verileri şekillendirme
-Sorgu Düzenleyicisi'nde verileri şekillendirdiğinizde, Sorgu Düzenleyicisi'nin yüklediği ve sunduğu verilerin ayarlanması için adım adım yönergeler (Sorgu Düzenleyicisi'nin sizin için uyguladığı) sağlamış olursunuz. Özgün veri kaynağı etkilenmez. Yalnızca söz konusu belirli veri görünümü ayarlanır veya *şekillendirilir*.
+Sorgu Düzenleyicisi'nde verileri şekillendirdiğinizde, Sorgu Düzenleyicisi'nin verileri yüklemesi ve size sunması sırasında ayarlaması için adım adım yönergeler sağlamış olursunuz. Özgün veri kaynağı etkilenmez. Yalnızca bu veri görünümü ayarlanır veya *şekillendirilir*.
 
-Belirttiğiniz adımlar (bir tabloyu yeniden adlandırma, bir veri türünü dönüştürme veya sütunları silme gibi) Sorgu Düzenleyicisi tarafından kaydedilir ve bu sorgu veri kaynağına her bağlandığında söz konusu adımlar uygulanır. Böylece veriler her zaman sizin belirttiğiniz biçimde şekillendirilir. Bu işlem, Sorgu Düzenleyicisi özelliğini Power BI Desktop'ta her kullanışınızda veya **Power BI** hizmetinde olduğu gibi, paylaşılan sorgunuzu kullanan herkes için gerçekleştirilir. Bu adımlar, **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar** bölümünde sırasıyla kaydedilir.
+Belirttiğiniz adımlar (bir tabloyu yeniden adlandırma, bir veri türünü dönüştürme veya bir sütunu silme gibi), Sorgu Düzenleyicisi tarafından kaydedilir. Bu sorgu veri kaynağına her bağlandığında, Sorgu Düzenleyicisi verilerin her zaman belirttiğiniz şekilde olması için o adımları uygular. Bu işlem, Sorgu Düzenleyicisi’ni her kullanışınızda veya paylaşılan sorgunuzu kullanan herkes için (örneğin, Power BI hizmetinde) gerçekleştirilir. Bu adımlar, **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar** bölümünde sırasıyla kaydedilir. Önümüzdeki birkaç paragrafta bu adımların her birini inceleyeceğiz.
 
-Aşağıdaki görüntüde, şekillendirilmiş bir sorgu için **Sorgu Ayarları** bölmesi gösterilmiştir. Sonraki paragraflarda bu adımların her birini inceleyeceğiz.
+![Sorgu Ayarları’nda uygulanan adımlar](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_querysettingsfinished2.png)
+[Power BI Desktop ile Çalışmaya Başlama](desktop-getting-started.md) başlıklı makalede bir web veri kaynağına bağlanarak edindiğimiz emeklilik verilerini kullanarak, bu verileri ihtiyaçlarımız doğrultusunda şekillendirelim. Tüm verilerin eşit olduğunu dikkate alarak dereceyi hesaplamak için bir özel sütun ekleyelim ve bu sütunu mevcut **Derece** sütunuyla karşılaştıralım.  
 
-[Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) başlıklı makalede bir Web veri kaynağına bağlanarak edindiğimiz emeklilik verilerini kullanarak, bu verileri ihtiyaçlarımız doğrultusunda şekillendirelim.
+1. **Sütun Ekle** şeridinden, özel sütun eklemenize olanak tanıyan **Özel Sütun**’u seçin.
 
-Yeni başlayanlar için, tüm verilerin eşit olduğunu dikkate alarak dereceyi hesaplamak için bir özel sütun ekleyelim ve bunu mevcut _Derece_ sütunuyla karşılaştıralım.  Burada, özel sütun eklemenize olanak sağlayan **Özel Sütun** düğmesini işaret eden bir ok ile birlikte **Sütun Ekle** şeridi yer almaktadır.
+    ![Özel Sütun seçme](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumn.png)
+1. **Özel Sütun** penceresinde **Yeni sütun adı** alanına _Yeni Derece_ girin. **Özel sütun formülü** alanına aşağıdaki verileri girin:
 
-**Özel Sütun** iletişim kutusunda **Yeni sütun adı** bölümüne _Yeni Derece_ girin ve **Özel sütun formülü** alanına aşağıdakileri girin:
-
+    ```
     ([Cost of living] + [Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 8
+    ```
+ 
+1. *Söz dizimi hatası algılanmadı* durum iletisinin gösterildiğinden emin olun ve **Tamam**’ı seçin.
 
-Durum iletisinde _'Bir söz dizimi hatası algılanmadı.'_ yazdığından emin olun ve **Tamam** düğmesine tıklayın.
+    ![Söz dizimi hatası olmayan Özel Sütun sayfası](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_customcolumndialog.png)
+1. Sütun verilerinin tutarlılığını korumak için yeni sütun değerlerini tam sayılara dönüştürün. Değerleri değiştirmek için sütun üst bilgisine sağ tıklayıp **Türü Değiştir \> Tam Sayı** seçeneğini belirleyin. 
 
-Sütun verilerinin tutarlılığını korumak için yeni sütun değerlerini tam sayılara dönüştürelim. Bunları değiştirmek için sütun üst bilgisine sağ tıklayıp **Türü Değiştir \> Tam Sayı** seçeneğini belirlemeniz yeterlidir. 
+    Birden fazla sütun seçmeniz gerekirse bir sütun seçip **SHIFT** tuşunu basılı tutarak daha fazla bitişik sütun belirleyin ve ardından bir sütun üst bilgisine sağ tıklayın. Bitişik olmayan sütunları seçmek için **CTRL** tuşunu da kullanabilirsiniz.
 
-Birden fazla sütun seçmeniz gerekirse, öncelikle bir sütun seçip **SHIFT** tuşunu basılı tutarak bitişik daha fazla sütun belirleyin ve ardından bir sütun üst bilgisine sağ tıklayarak seçili tüm sütunları değiştirin. Bitişik olmayan sütunları seçmek için **CTRL** tuşunu da kullanabilirsiniz.
+    ![Tam Sayı sütun verilerini seçme](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_changetype2.png)
+1. Geçerli veri türünün başka bir türe dönüştürüldüğü sütun veri türlerini *dönüştürme* işlemini yapmak için **Dönüştürme** şeridinden **Veri Türü Metni**'ni seçin. 
 
-**Dönüştür** şeridinden de sütun veri türlerini *dönüştürebilirsiniz*. Aşağıda gördüğünüz üzere, **Dönüştür** şeridindeki **Veri Türü** düğmesinde, geçerli veri türünü başka bir türe dönüştürmenize olanak sağlayan bir ok mevcuttur.
+   ![Veri Türü Metni seçme](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
 
-![](media/desktop-shape-and-combine-data/queryoverview_transformribbonarrow.png)
+1. **Sorgu Ayarları**'ndaki **Uygulanan Adımlar** listesi, verilere uygulanan tüm şekillendirme adımlarını gösterir. Bir adımı şekillendirme işleminden kaldırmak için adımın solundaki **X** simgesini seçin. 
 
-**Sorgu Ayarları**'ndaki **Uygulanan Adımlar**'ın, verilere uygulanan tüm şekillendirme adımlarını gösterdiğine dikkat edin. Herhangi bir adımı şekillendirme işleminden kaldırmak istersem bunu adımın solundaki **X**'i seçerek kolayca gerçekleştirebilirim. Aşağıdaki görüntüde, **Uygulanan Adımlar** o ana kadar uygulanmış adımları göstermektedir: web sitesine bağlanma (**Kaynak**) ve tabloyu seçme (**Gezinme**). Ayrıca Sorgu Düzenleyicisi, tabloyu yüklerken metin tabanlı sayı sütunlarının *Metin* olan veri türünü *Tam Sayı* olarak değiştirmiştir (**Değiştirilen Tür**). Son iki adım, **Özel Eklendi** ve **Tür1 Değiştirildi** seçeneği ile önceki eylemlerimizi göstermektedir. 
+    Aşağıdaki görüntüde **Uygulanan Adımları** listesi şimdiye kadar eklenen adımları göstermektedir: 
+     - **Kaynak**: Web sitesine bağlanma.
+     - **Gezinti**: Tabloyu seçme. 
+     - **Değiştirilen Tür**: Metin tabanlı sayı sütunlarını *Metin*’den *Tam Sayı*’ya değiştirme. 
+     - **Özel Eklendi**: Özel sütun ekleme.
+     - **Değiştirilen Tür1**: Son uygulanan adım.
 
-![](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
+       ![Uygulanan Adım listesi](media/desktop-shape-and-combine-data/shapecombine_appliedstepsearly2.png)
 
-Bu sorguyla çalışabilmek için, ilgili verileri istediğimiz hale getirmek üzere birkaç değişiklik yapmamız gerekiyor:
+## <a name="adjust-data"></a>Verileri ayarlama
 
-* *Bir sütunu kaldırarak derecelendirmeleri ayarlama*: **Cost of living**’in sonuçlarımızda bir faktör olmadığına karar verdik. Bu sütunu kaldırdıktan sonra, verilerin değişmeden kaldığını belirledik. Ancak Power BI Desktop kullanılarak bu kolayca düzeltilebilir ve bu da, Sorgudaki muhteşem **Uygulanan Adımlar** özelliğini göstermektedir.
-* *Birkaç hatayı düzeltme*: Bir sütunu kaldırdığımız için **Yeni Derece** sütunundaki hesaplamalarımızı ayarlamamız gerekiyor. Bu, bir formülün değiştirilmesini kapsar.
-* *Verileri sıralama*: **Yeni Derece** ve **Derece** sütunlarına dayanarak verileri sıralayın. 
-* *Verileri değiştirme*: Belirli bir değerin nasıl değiştirileceğini ve bir **Uygulanan Adım** ekleme gereksinimini vurgulayacağız.
-* *Tablo adını değiştirme*: **Table 0** kullanışlı bir tanımlayıcı değildir ancak bunu değiştirmek kolaydır.
+Bu sorguyla çalışabilmek için, verilerini ayarlayacak birkaç değişiklik yapmamız gerekir:
 
-**Cost of living** sütununu kaldırmak için, söz konusu sütunu ve şeritteki **Giriş** sekmesini seçip aşağıdaki şekilde gösterildiği gibi **Sütunları Kaldır** seçeneğini belirlemeniz yeterlidir.
+   - Bir sütunu kaldırarak dereceleri ayarlama.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
+       Sonuçlarımızda **Yaşam maliyeti**’nin bir etken olmadığına karar verdik. Bu sütunu kaldırdıktan sonra verilerin değişmeden kaldığını bulduk. 
 
-_Yeni Derece_ değerlerinin değişmediğine dikkat edin; bu, adımların sıralanmasından kaynaklanır. Adımlar Sorgu Düzenleyicisi tarafından sırasıyla, ancak birbirinden bağımsız olarak kaydedildiğinden her bir **Uygulanan Adım**'ı sıranın yukarısına veya aşağısına taşıyabilirsiniz. Herhangi bir adımda sağ tıklarsanız, Sorgu Düzenleyicisi aşağıdakileri yapmanızı sağlayan bir menü görüntüler: **Yeniden Adlandır**, **Sil**, **Sona Kadar** **Sil** (geçerli adımı ve onu izleyen tüm adımları kaldır), **Yukarı Taşı** veya **Aşağı Taşı**. Devam edin ve _Özel Eklendi_ adımın hemen yukarısındaki son adım olan _Kaldırılan Sütunlar_ adımına geçin.
+   - Birkaç hatayı düzeltme.
 
-![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+       Bir sütunu kaldırdığımız için **Yeni Derece** sütunundaki hesaplamalarımızı yeniden ayarlamamız ve bu işlemin bir parçası olarak bir formülü değiştirmemiz gerekir.
 
-Ardından _Özel Eklendi_ adımını seçin. Verilerin şimdi ele almamız gereken _Hata_’yı gösterdiğine dikkat edin. 
+   - Verileri sıralama.
 
-![](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+       **Yeni Derece** ve **Derece** sütunlarını temel alarak verileri sıralayın.
+ 
+   - Verileri değiştirme.
 
-Her bir hata ile ilgili daha fazla bilgi edinmek için birkaç farklı yol izlenebilir. Hücreyi seçebilir (**Hata** sözcüğüne tıklamadan) veya doğrudan **Hata** sözcüğüne tıklayabilirsiniz. Doğrudan **Hata** sözcüğüne *tıklamadan* hücreyi seçerseniz Sorgu Düzenleyicisi, hata bilgilerini pencerenin alt kısmında görüntüler.
+       Belirli bir değerin nasıl değiştirileceğini ve bir **Uygulanan Adım** ekleme gereksinimini vurgulayacağız.
 
-![](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+   - Tablo adını değiştirin. 
 
-Doğrudan *Hata* sözcüğüne tıklarsanız Sorgu Düzenleyicisi, **Sorgu Ayarları** bölmesinde bir **Uygulanan Adım** oluşturur ve hata hakkındaki bilgileri görüntüler. Bu rotayı istemiyoruz, bu nedenle **İptal**’i seçin.
+       **Tablo 0** tablo için yararlı bir tanımlayıcı olmadığından adını değiştireceğiz.
 
-Hataları düzeltmek için, _Yeni Derece_ sütununu seçin, ardından **Görünüm** şeridini açıp **Formül Çubuğu** onay kutusunu seçerek sütunun veri formülünü görüntüleyin. 
+1. **Yaşam maliyeti** sütununu kaldırmak için sütunu seçin, şeritten **Giriş** sekmesini seçin ve sonra **Sütunları Kaldır** seçeneğini belirleyin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+    ![Sütunları Kaldır’ı seçin](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Şimdi formülü aşağıdaki şekilde değiştirerek _Cost of living_ parametresini kaldırabilir ve böleni azaltabilirsiniz: 
+   Adımların sıralanma şekli nedeniyle **Yeni Derece** değerlerinin değişmediğine dikkat edin. Adımlar Sorgu Düzenleyicisi tarafından sırasıyla ancak birbirinden bağımsız olarak kaydedildiğinden, her bir **Uygulanan Adım**'ı sırada yukarı veya aşağı taşıyabilirsiniz. 
 
+1. Bir adıma sağ tıklama. Sorgu Düzenleyicisi aşağıdaki görevleri gerçekleştirmenizi sağlayan bir menü görüntüler: 
+   - **Yeniden Adlandır**; Adımı yeniden adlandırma.
+   - **Sil**: Adımı silme.
+   - **Sona Kadar** **Sil**: Geçerli adımı ve sonraki tüm adımları kaldırma.
+   - **Yukarı Taşı**: Adımı listede yukarı taşıma.
+   - **Aşağı Taşı**: Adımı listede aşağı taşıma.
+
+1. **Özel Eklendi** adımın hemen yukarısındaki son adım olan **Kaldırılan Sütunlar** adımına geçin.
+
+   ![Uygulanan Adımlar’da adımı yukarı taşıma](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
+
+1. **Özel Eklendi** adımını seçin. 
+
+   Verilerin şimdi ele almamız gereken _Hata_’yı gösterdiğine dikkat edin.
+
+   ![Sütun verilerinde Hata sonucu](media/desktop-shape-and-combine-data/shapecombine_error2.png)
+
+   Her bir hata ile ilgili daha fazla bilgi edinmek için birkaç farklı yol izlenebilir. *Hata* sözcüğüne tıklamadan hücreyi seçerseniz Sorgu Düzenleyicisi, hata bilgilerini pencerenin alt kısmında görüntüler.
+
+   ![Sorgu Düzenleyicisi'nde hata bilgileri](media/desktop-shape-and-combine-data/shapecombine_errorinfo2.png)
+
+   Doğrudan *Hata* sözcüğünü seçerseniz Sorgu Düzenleyicisi, **Sorgu Ayarları** bölmesinde bir **Uygulanan Adım** oluşturur ve hata hakkındaki bilgileri görüntüler. 
+
+1. Hatalar hakkında bilgi görüntülememiz gerekmediği için **İptal**'i seçin.
+
+1. Hataları düzeltmek için, **Yeni Derece** sütununu seçin, sonra **Görünüm** sekmesinden **Formül Çubuğu** onay kutusunu seçerek sütunun veri formülünü görüntüleyin. 
+
+   ![Formül Çubuğunu seçme](media/desktop-shape-and-combine-data/shapecombine_formulabar.png)
+
+1. Formülü aşağıdaki gibi değiştirerek _Cost of living_ parametresini kaldırın ve böleni azaltın: 
+   ```
     Table.AddColumn(#"Removed Columns", "New Rank", each ([Weather] + [Health care quality] + [Crime] + [Tax] + [Culture] + [Senior] + [#"Well-being"]) / 7)
+   ```
 
-Formül kutusunun solundaki yeşil onay işaretini seçin veya **Enter** tuşuna basın. Böylece veriler, düzeltilen değerlerle değiştirilmeli ve **Özel Eklendi** adımı artık *herhangi bir hata olmadan* tamamlanmalıdır.
+1. Formül kutusunun solundaki yeşil onay işaretini seçin veya **Enter** tuşuna basın.
 
-> [!NOTE]
-> Ayrıca hata içeren tüm satırların kaldırılmasını sağlayan **Hataları Kaldır** seçeneğini de belirleyebilirsiniz (şeridi veya sağ tıklama menüsünü kullanarak). Bu durumda, verilerimizden tüm satırları kaldırmış oluruz ancak biz bunu değil, verileri tabloda tutmak istiyoruz.
+  Sorgu Düzenleyicisi, verileri gözden geçirilen değerlerle değiştirir ve **Özel Eklendi** adımı hata olmadan tamamlanır.
 
-Şimdi **Yeni Derece** sütununa dayanarak verileri sıralamamız gerekir. İlk olarak, en yeni verilere ulaşmak için son uygulanan adım olan **Tür1 Değiştirildi** adımını seçin. Sonra, **Yeni Derece** sütun üst bilgisinin yanında bulunan açılır listeyi seçin ve **Artan Düzende Sırala** seçeneğini belirleyin.
+   > [!NOTE]
+   > Ayrıca şeridi veya sağ tıklama menüsünü kullanarak **Hataları Kaldır** seçeneğini belirleyebilir ve hata içeren tüm satırları kaldırabilirsiniz. Ancak, bu öğreticide tablodaki verileri korumak istediğimiz için bu işlemi yapmak istemedik.
 
-![](media/desktop-shape-and-combine-data/shapecombine_sort.png)
+1. **Yeni Derece** sütununu temel alarak verileri sıralayın. İlk olarak, en yeni verileri görüntülemek için son uygulanan adım olan **Değiştirilen Tür1** adımını seçin. Sonra, **Yeni Derece** sütun üst bilgisinin yanında bulunan açılır listeyi seçin ve **Artan Düzende Sırala** seçeneğini belirleyin.
 
-Verilerin şimdi **Yeni Derece**’ye göre sıralandığına dikkat edin.  Ancak **Derece** sütununa bakarsanız, **Yeni Derece** değerinin bağ olması durumunda verilerin düzgün şekilde sıralanmadığını fark edersiniz. Bunu düzeltmek için, **Yeni Derece** sütununu seçin ve **Formül Çubuğu**’ndaki formülü aşağıdaki şekilde değiştirin:
+   ![Yeni Derece sütunundaki verileri sıralama](media/desktop-shape-and-combine-data/shapecombine_sort.png)
 
+   Veriler **Yeni Derece**’ye göre sıralanır. Ancak **Derece** sütununa bakarsanız, **Yeni Derece** değerinin bağ olması durumunda verilerin düzgün şekilde sıralanmadığını fark edersiniz. Bu sorunu bir sonraki adımda çözeceğiz.
+
+1. Veri sıralama sorununu düzeltmek için, **Yeni Derece** sütununu seçin ve **Formül Çubuğu**’ndaki formülü aşağıdaki formülle değiştirin:
+
+   ```
     = Table.Sort(#"Changed Type1",{{"New Rank", Order.Ascending},{"Rank", Order.Ascending}})
+   ```
 
-Formül kutusunun solundaki yeşil onay işaretini seçin veya **Enter** tuşuna basın; böylece satırlar, _Yeni Derece_ ve _Derece_’ye göre sıralanmalıdır.
+1. Formül kutusunun solundaki yeşil onay işaretini seçin veya **Enter** tuşuna basın. 
 
-Ek olarak, listenin herhangi bir yerinde bulunan bir **Uygulanan Adım**'ı seçebilir ve verileri, sıradaki ilgili noktada şekillendirmeye devam edebilirsiniz. Sorgu Düzenleyicisi, yeni adımları otomatik olarak, seçili olan **Uygulanan Adım**'ın arkasına yerleştirir. Denemeye ne dersiniz?
+   Satırlar artık hem **Yeni Derece** hem de **Derece** sütununa uygun olarak sıralanır. Ek olarak, listenin herhangi bir yerinde bulunan bir **Uygulanan Adım**'ı seçebilir ve verileri, sıradaki ilgili noktada şekillendirmeye devam edebilirsiniz. Sorgu Düzenleyicisi, yeni bir adımı o anda seçili olan **Uygulanan Adım**'ın arkasına otomatik olarak yerleştirir. 
 
-İlk olarak, özel sütunu eklemeden önce **Uygulanan Adım**’ı seçin; bu, _Kaldırılan Sütunlar_ adımı olacaktır. Burada, Arizona’daki _Hava Durumu_ derecelendirmesinin değerini değiştireceğiz. Arizona’nın _Hava Durumu_ derecelendirmesini içeren hücreye sağ tıklayın ve görünen menüden *Değerleri Değiştir...* seçeneğini belirleyin. Şu anda hangi **Uygulanan Adım**’ın (_Özel Eklendi_ adımından önceki adım) seçili olduğuna dikkat edin.
+1. **Uygulanan Adım**’da özel sütundan önceki **Kaldırılan Sütunlar** adımını seçin. Burada, Arizona’daki **Hava Durumu** derecelendirmesinin değerini değiştireceğiz. Arizona’nın **Hava Durumu** derecelendirmesini içeren hücreye sağ tıklayın ve sonra **Değerleri Değiştir**’i seçin. O anda hangi **Uygulanan Adım**’ın seçili olduğuna dikkat edin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
+   ![Sütun için Değerleri Değiştir’i seçin](media/desktop-shape-and-combine-data/shapecombine_replacevalues2.png)
 
-Bir adım eklemeye çalıştığımız için Sorgu Düzenleyicisi bizi bu işlemin taşıdığı risk konusunda uyarır: Birbirini izleyen adımlar sorgunun bozulmasına neden olabilir. Bu işlemi gerçekleştirirken dikkatli ve mantıklı hareket etmemiz gerekir. Bunun bir eğitim olduğunu ve adımları nasıl oluşturacağınızı, sileceğinizi, ekleyeceğinizi ve yeniden sıralayacağınızı göstermek için Sorgu Düzenleyicisi'nin oldukça etkili bir özelliğinin üzerinde durduğumuzu düşündüğümüzde, devam edip **Ekle**'yi seçmememiz için önümüzde hiçbir engel yok.
+1. **Ekle**'yi seçin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
+    Bir adım eklemeye çalıştığımız için Sorgu Düzenleyicisi bizi bu işlemin taşıdığı risk konusunda uyarır; birbirini izleyen adımlar sorgunun bozulmasına neden olabilir. 
 
-Değeri _51_ olarak değiştirin, böylece Arizona verileri değiştirilir. Yeni bir Uygulanan Adım oluşturduğunuzda, Sorgu Düzenleyicisi bu adımı, gerçekleştirilen eyleme göre (bu örnekte, **Değiştirilen Değer**) adlandırır. Sorgunuzda aynı adlı birden fazla adım olduğunda, Sorgu Düzenleyicisi bunları ayırt etmek için, birbirini izleyen her bir **Uygulanan Adım**'a bir sayı (sırasıyla) ekler.
+    ![Adım Ekleme doğrulaması](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Şimdi son **Uygulanan Adım**’ı, _Sıralanan Satırlar_’ı seçin ve verilerin Arizona’nın yeni derecelendirmesine göre değiştiğine dikkat edin.  Bu, _Değiştirilen Değer_ adımını, _Özel Eklendi_ adımından önce doğru yere eklememizden kaynaklanır.
+1. Veri değerini _51_ olarak değiştirin. 
 
-Yukarıdakilerin biraz karmaşık olduğunu kabul etmek gerekse de Sorgu Düzenleyicisi'nin ne kadar etkili ve çok yönlü olduğuna yönelik iyi bir örnek olduğunu görmezden gelemeyiz.
+   Sorgu Düzenleyicisi, Arizona verilerini değiştirir. Yeni bir **Uygulanan Adım** oluşturduğunuzda, Sorgu Düzenleyicisi bu adımı, gerçekleştirilen eyleme göre (bu örnekte, **Değiştirilen Değer**) adlandırır. Sorgunuzda aynı adlı birden fazla adım varsa, Sorgu Düzenleyicisi bunları ayırt etmek için, birbirini izleyen her bir **Uygulanan Adım**'a bir sayı (sırasıyla) ekler.
 
-Son olarak, söz konusu tablonun adını daha açıklayıcı bir adla değiştirmek istiyoruz. Rapor oluştururken, özellikle de birden çok veri kaynağına bağlandığımızda, açıklayıcı tablo adları kullanmakta yarar vardır. Bu tablo adları **Rapor** görünümünün **Alanlar** bölmesinde yer alır.
+1. Son **Uygulanan Adım**’ı, **Satırlar Sıralandı**’yı seçin. 
 
-Tablo adı kolayca değiştirilebilir: **Sorgu Ayarları** bölmesindeki **Özellikler** bölümünü altında, tablonun yeni adını aşağıdaki görüntüde gösterildiği gibi yazmak ve **Enter** tuşuna basmak yeterlidir. Bu tabloya *RetirementStats* adını verelim.
+   Arizona'nın yeni derecelendirmesi ile ilgili verilerin değiştiğine dikkat edin. Bu değişiklik, **Değiştirilen Değer** adımını, **Özel Eklendi** adımından önce doğru konuma eklememizden kaynaklanır.
 
-![](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+1. Son olarak, söz konusu tablonun adını daha açıklayıcı bir adla değiştirmek istiyoruz. **Sorgu Ayarları** bölmesindeki **Özellikler** altında tablonun yeni adını girip **Enter** tuşuna basın. Bu tabloyu *RetirementStats* olarak adlandırın.
 
-Verileri gerektiği ölçüde şekillendirdik. Şimdi de başka bir veri kaynağına bağlanalım ve verileri birleştirelim.
+   ![Sorgu Ayarları’nda tabloyu yeniden adlandırma](media/desktop-shape-and-combine-data/shapecombine_renametable2.png)
+
+   Rapor oluşturmaya başladığımızda, özellikle de birden çok veri kaynağına bağlandığımızda, açıklayıcı tablo adları kullanmakta yarar vardır. Bu tablo adları **Rapor** görünümünün **Alanlar** bölmesinde listelenir.
+
+   Verilerimizi gerektiği ölçüde şekillendirdik. Şimdi de başka bir veri kaynağına bağlanalım ve verileri birleştirelim.
 
 ## <a name="combine-data"></a>Verileri birleştirme
-Eyaletlerin çeşitli durumları hakkındaki bu veriler ilgi çekici; ek çözümleme çalışmaları ve sorgular oluşturmak için faydalı olacaktır. Ancak, bu noktada bir sorun var: Gösterilen verilerin çoğunda eyalet kodları için eyaletin tam adı yerine iki harfli kısaltmalar kullanılmıştır. Eyalet adlarını kısaltmalarıyla ilişkilendirmek için bir yönteme ihtiyacımız var.
+Eyaletlerin çeşitli durumları hakkındaki veriler ilgi çekicidir ve ek çözümleme çalışmaları ile sorgular oluşturmak için faydalı olacaktır. Ancak, bu noktada bir sorun var: Gösterilen verilerin çoğunda eyalet kodları için eyaletin tam adı yerine iki harfli kısaltmalar kullanılmıştır. Eyalet adlarını kısaltmalarıyla ilişkilendirmek için bir yönteme ihtiyacımız vardır.
 
-Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Aşağıda eyalet kısaltmalarına yönelik web kaynağına ulaşabilirsiniz:
+Şanslı günümüzdeyiz! Tam da bunu yapan başka bir genel veri kaynağı var, ancak emeklilik tablomuza bağlamadan önce bazı şekillendirme işlemleri yapmamız gerekiyor. Verileri şekillendirmek için aşağıdaki adımları izleyin:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+1. Sorgu Düzenleyicisi'ndeki **Giriş** şeridinde, **Yeni Kaynak \> Web**’i seçin. 
 
-Sorgu Düzenleyicisi’ndeki **Giriş** şeridinde, **Yeni Kaynak \> Web** seçeneğini belirledikten sonra adresi girip **Bağlan**’ı seçtiğimizde Gezgin, bu Web sayfasında neler bulduğunu gösterir.
+2. Durum kısaltmaları için web sitesinin *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* adresini girin ve ardından **Bağlan**'ı seçin.
 
- ![](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
+   Gezgin, web sitesinin içeriğini görüntüler.
 
-İstediğimiz verileri içerdiğinden **Kodlar ve kısaltmalar...** tablosunu seçiyoruz ancak söz konusu tablonun verilerini istediğimiz ölçüde küçültmek için biraz şekillendirme yapmamız gerekir.
+    ![Gezgin sayfası](media/desktop-shape-and-combine-data/designer_gsg_usstateabbreviationsnavigator2.png)
 
-> [!TIP]
-> Aşağıdaki adımları daha hızlı veya kolay bir şekilde gerçekleştirmenin bir yolu var mı? Evet, iki tablo arasında *ilişki* oluşturabilir ve verileri bu ilişkiye göre şekillendirebiliriz. Aşağıdaki adımlar tablolarla çalışma konusunda öğrenilmesi gereken adımlardır ancak ilişkilerin birden fazla tablodaki verileri hızlı bir şekilde kullanmanıza yardımcı olduğunu bilmenizde yarar vardır.
+1. **Kodlar ve kısaltmalar**’ı seçin. 
+
+   > [!TIP]
+   > Bu tablonun verilerini istediğimiz düzeye indirmek için çok fazla şekillendirme işlemi gerekecektir. Aşağıdaki adımları daha hızlı veya kolay bir şekilde gerçekleştirmenin bir yolu var mı? Evet, iki tablo arasında *ilişki* oluşturabilir ve verileri bu ilişkiye göre şekillendirebiliriz. Aşağıdaki adımlar tablolarla çalışma konusunda öğrenilmesi gereken adımlardır ancak ilişkiler birden fazla tablodaki verileri hızlı bir şekilde kullanmanıza yardımcı olabilir.
 > 
 > 
 
-Bu verileri şekillendirmek için aşağıdaki adımları uygularız:
+Verileri şekillendirmek için aşağıdaki adımları izleyin:
 
-* Üst satırı kaldırma: Bu, Web sayfasına ilişkin tablonun oluşturulma biçiminin bir sonucudur ve bu satıra ihtiyacımız yok. **Giriş** şeridinde, **Satırları Azalt \> Satırları Kaldır \> Üst Satırları Kaldır** seçeneğini belirleyin.
+1. En üstteki satırı kaldırın. Bu satır, web sayfasına ilişkin tablonun oluşturulma biçiminin bir sonucudur ve gerekli değildir. **Giriş** şeridinde, **Satırları Azalt \> Satırları Kaldır \> Üst Satırları Kaldır** seçeneğini belirleyin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
+    ![Üst Satırları Kaldır’ı seçin](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
-Kaldırmak istediğiniz sütun sayısını belirtmenizi sağlayan **Üst Satırları Kaldır** penceresi görünür.
+    Kaldırmak istediğiniz sütun sayısını belirtmenizi sağlayan **Üst Satırları Kaldır** penceresi görünür.
 
->[!NOTE]
->Power BI, tablo üst bilgilerini veri tablonuzdaki bir satır olarak yanlışlıkla içeri aktarırsa, tablonuzu düzeltmek için **Giriş** sekmesinden veya şeritteki **Dönüştür** sekmesinden **İlk Satırı Üst Bilgi Olarak Kullan** seçeneğini belirleyebilirsiniz.
+    > [!NOTE]
+    > Power BI, tablo üst bilgilerini veri tablonuzdaki bir satır olarak yanlışlıkla içeri aktarırsa, tablonuzu düzeltmek için **Giriş** sekmesinden veya şeritteki **Dönüştür** sekmesinden **İlk Satırı Üst Bilgi Olarak Kullan** seçeneğini belirleyebilirsiniz.
 
-* Alttaki 26 satırı kaldırma: Bölgeleri belirten bu satırlara ihtiyacımız yoktur. **Giriş** şeridinde, **Satırları Azalt \> Satırları Kaldır \> Alt Satırları Kaldır** seçeneğini belirleyin.
+1. En alttaki 26 satırı kaldırın. Bu satırlar ABD bölgeleridir ve dahil edilmesi gerekli değildir. **Giriş** şeridinde, **Satırları Azalt \> Satırları Kaldır \> Alt Satırları Kaldır** seçeneğini belirleyin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
+    ![Alt Satırları Kaldır’ı seçin](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 
-* RetirementStats tablosunda Washington DC için bilgi bulunmadığından bunu listemizde filtrelememiz gerekir. Region Status sütununun yanındaki açılan menü okunu seçin ve ardından **Federal district** seçeneğinin yanındaki onay kutusunu temizleyin.
+1. RetirementStats tablosunda Washington DC için bilgi bulunmadığından bunu listemizde filtrelememiz gerekir. **Bölge Durumu** açılır listesini seçin ve ardından **Federal bölge** seçeneğinin yanındaki onay kutusunu temizleyin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
+    ![Federal bölge onay kutusunu temizleyin](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Gereksiz sütunları kaldırma: Yalnızca eyaletleri iki harfli resmi kısaltmalarıyla eşlememiz gerekiyor, bu nedenle aşağıdaki sütunları kaldırabiliriz: **Sütun1**, **Sütun3**, **Sütun4** ve ardından **Sütun6** ile **Sütun11** arası. İlk olarak **Sütun1**’i seçin ve ardından **CTRL** tuşunu basılı tutarak (bitişik olmayan birden çok sütunu seçmenizi sağlar), kaldırılacak diğer sütunları seçin. Şeritteki Giriş sekmesinde, **Sütunları Kaldır \> Sütunları Kaldır** seçeneğini belirleyin.
+1. Birkaç gereksiz sütunu kaldırın. Yalnızca eyaletlerin iki harfli resmi kısaltmalarıyla eşlenmesi gerekli olduğundan aşağıdaki sütunları kaldırabiliriz: **Sütun1**, **Sütun3**, **Sütun4** ve **Sütun6** ile **Sütun11** arası. İlk olarak **Sütun1**’i seçin ve ardından **CTRL** tuşunu basılı tutarak kaldırılacak diğer sütunların her birini seçin. Şeritteki **Giriş** sekmesinden **Sütunları Kaldır \> Sütunları Kaldır** seçeneğini belirleyin.
 
-![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
+   ![Sütunu kaldırma](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 
->[!NOTE]
->Sorgu Düzenleyicisi'nde uygulanan adımların *sırasının* önemli olduğuna ve verilerin nasıl şekilleneceğini etkileyebildiğine değinmenin zamanı geldi. Bir adımın sonraki bir adımı nasıl etkileyebileceği üzerinde düşünmekte de yarar vardır. Uygulanan Adımlar'daki bir adımı kaldırmanız durumunda, sorgunun adım sıralamasına etkisi nedeniyle sonraki adımlar başta planlandığı gibi davranış göstermeyebilir.
+   > [!NOTE]
+   > Sorgu Düzenleyicisi'nde uygulanan adımların *sırasının* önemli olduğuna ve verilerin nasıl şekilleneceğini etkileyebildiğine değinmenin zamanı geldi. Bir adımın sonraki bir adımı nasıl etkileyebileceği üzerinde düşünmekte de yarar vardır. Uygulanan Adımlar'daki bir adımı kaldırmanız durumunda, sorgunun adım sıralamasına etkisi nedeniyle sonraki adımlar başta planlandığı gibi davranış göstermeyebilir.
 
->[!NOTE]
->Sorgu Düzenleyicisi penceresini genişlik azalacak şekilde yeniden boyutlandırdığınızda, bazı şerit öğeleri, görünür alandan en iyi şekilde yararlanılmasını sağlayacak şekilde daraltılır. Sorgu Düzenleyicisi penceresinin genişliğini artırdığınızda ise şerit öğeleri, artırılmış şerit alanından en iyi şekilde yararlanılması için genişletilir.
+   > [!NOTE]
+   > Sorgu Düzenleyicisi penceresini genişlik azalacak şekilde yeniden boyutlandırdığınızda, bazı şerit öğeleri, görünür alandan en iyi şekilde yararlanılmasını sağlayacak şekilde daraltılır. Sorgu Düzenleyicisi penceresinin genişliğini artırdığınızda ise şerit öğeleri, artırılmış şerit alanından en iyi şekilde yararlanılması için genişletilir.
 
-* Sütunları ve tabloyu daha önce de yaptığımız gibi yeniden adlandırın. Bir sütunu birkaç şekilde yeniden adlandırabilirsiniz: İlk olarak sütunu seçin ve ardından şeritteki **Dönüştür** sekmesinde bulunan **Yeniden Adlandır**'ı seçin veya sütuna sağ tıklayıp **Yeniden Adlandır…** seçeneğini (görünen menüden) belirleyin. Söz konusu iki seçenek aşağıdaki görüntüde oklarla gösterilmiştir; bunlardan birini seçmeniz yeterlidir.
+1. Sütunları ve tabloyu yeniden adlandırın. Bir sütunu yeniden adlandırmanın birkaç yolu vardır: İlk olarak sütunu seçin, sonra **Dönüştür** sekmesinden **Yeniden Adlandır**’ı seçin ya da sağ tıklayıp **Yeniden Adlandır**'ı seçin. Söz konusu iki seçenek aşağıdaki görüntüde oklarla gösterilmiştir; bunlardan birini seçmeniz yeterlidir.
 
-![](media/desktop-shape-and-combine-data/shapecombine_rename.png)
+   ![Sorgu Düzenleyicisi'nde sütunu yeniden adlandırma](media/desktop-shape-and-combine-data/shapecombine_rename.png)
 
-Sütunları *State Name* ve *State Code* olarak yeniden adlandıralım. Tabloyu yeniden adlandırmak için, adı **Sorgu Ayarları** bölmesindeki **Ad** kutusuna yazmanız yeterlidir. Bu tabloya *StateCodes* adını verelim.
+1. Sütunları *Eyalet Adı* ve *Eyalet Kodu* olarak yeniden adlandırın. Tabloyu yeniden adlandırmak için **Sorgu Ayarları** bölmesine **Ad** girin. Bu tabloyu *StateCodes* olarak adlandırın.
 
-StateCodes tablosunu istediğimiz biçimde şekillendirdiğimize göre, bu iki tabloyu veya sorguyu bir tane olacak şekilde birleştirebiliriz. Şu anda sahip olduğumuz tablolar verilere uyguladığımız sorgular sonucunda elde edildiğinden, bunlar genellikle *sorgu* olarak adlandırılır.
+## <a name="combine-queries"></a>Sorguları birleştirme
 
-Sorguları birleştirmek için izlenebilecek, *birleştirme* ve *ekleme* olmak üzere iki temel yol bulunur.
+StateCodes tablosunu istediğimiz gibi şekillendirdiğimize göre bu iki tabloyu veya sorguyu birleştirelim. Elde ettiğimiz tablolar verilere uyguladığımız tabloların sorguların bir sonucu olduğundan genellikle *sorgular* olarak adlandırılır.
 
-Bir veya daha fazla sütunu başka bir sorguya eklemek istediğinizde sorguları **birleştirirsiniz**. Var olan bir sorguya eklemek istediğiniz ek veri satırları olduğunda sorguyu **eklersiniz**.
+Sorguları birleştirmenin iki temel yolu vardır: *birleştirme* ve *ekleme*.
 
-Bu örnekte sorguları birleştirmek istiyoruz. Başlamak için, Sorgu Düzenleyicisi'nin sol bölmesinde, diğer sorguyu *hangi* sorguyla birleştirmek istediğimizi (bu örnekte *RetirementStats*) seçeriz. Ardından, şeritte **Giriş** sekmesinde bulunan **Birleştir \> Sorguları Birleştir** seçeneğini belirleriz.
+- Bir veya daha fazla sütunu başka bir sorguya eklemek istediğinizde sorguları *birleştirirsiniz*. 
+- Var olan bir sorguya eklemek istediğiniz ek veri satırları olduğunda sorguyu *eklersiniz*.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
+Bu örnekte sorguları birleştirmek istiyoruz. Bunu yapmak için şu adımları uygulayın:
+ 
+1. Sorgu Düzenleyicisi'nin sol bölmesinde, diğer sorgunun *içine* birleştirilmesini istediğiniz sorguyu seçin. Bu örnekte sorgu **RetirementStats**’tır. 
 
-Verilerin, aktarılmasını istemediğiniz veriler dahil edilmeden veya aktarılmadan birleştirildiğinden emin olmak için gizlilik düzeyleri belirlemeniz istenebilir.
+1. Şeritteki **Giriş** sekmesinden **Birleştir \> Sorguları Birleştir** seçeneğini belirleyin.
 
-Seçilen tablo ile hangi tabloyu birleştirmek istediğimizi belirleyeceğimiz ve ardından birleştirme için kullanılacak eşleşen sütunları seçeceğimiz **Birleştir** penceresi görüntülenir. *RetirementStats* tablosunda (sorgu) State seçeneğini belirleyin ve ardından *StateCodes* sorgusunu seçin. (Yalnızca iki sorgu bulunduğundan bu örnekte seçim yapmak kolaydır. Birçok veri kaynağına bağlandığınızda arasından seçim yapmanız gereken birçok sorguyla karşılaşırsınız.) Eşleşen doğru sütunları seçtiğimizde (*RetirementStats* tablosundaki **State** sütunu ve *StateCodes* tablosundaki **State Name** sütunu), **Birleştir** penceresi aşağıdaki gibi görünür ve **Tamam** düğmesi etkin hale gelir.
+   ![Sorguları Birleştir’i seçin](media/desktop-shape-and-combine-data/shapecombine_mergequeries.png)
 
-![](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
+   Verilerin, aktarılmasını istemediğiniz veriler dahil edilmeden veya aktarılmadan birleştirildiğinden emin olmak için gizlilik düzeyleri belirlemeniz istenebilir.
 
-Sorgunun sonunda, var olan sorguyla birleştirilen tablonun (sorgunun) içeriği olan **NewColumn** oluşturulur. Birleştirilen sorgunun tüm sütunları **NewColumn**'da yer alacak şekilde daraltılır, ancak **Genişlet** seçeneğini belirleyerek tabloyu genişletebilir ve istediğiniz sütunları dahil edebilirsiniz.
+   **Birleştir** penceresi görüntülenir. Seçili tabloyla birleştirmek istediğiniz tabloyu ve birleştirme için kullanılacak eşleşen sütunları seçmenizi ister. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
+1. RetirementStats tablosundan **State**'i ve ardından **StateCodes**'u seçin. 
 
-Birleştirilen tabloyu Genişletmek ve hangi sütunların ekleneceğini belirlemek için genişlet simgesini (![Genişlet](media/desktop-shape-and-combine-data/icon.png)) seçin. **Genişlet** penceresi görünür.
+   Doğru eşleşen sütunları seçtiğinizde **Tamam** düğmesi etkinleştirilir.
 
-![](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+   ![Birleştir penceresi](media/desktop-shape-and-combine-data/shapecombine_merge2.png)
 
-Bu örnekte yalnızca **State Code** sütununu istediğimizden, yalnızca bu sütunu seçer ve ardından **Tamam** seçeneğini belirleriz. Ön ek olarak orijinal sütun adını kullan ayarına ihtiyacımız olmadığından veya bunu istemediğimizden ilgili onay kutusunu temizleriz. Bu onay kutusunu seçili bırakırsak, birleştirilen sütun **NewColumn.State Code** (sırasıyla orijinal sütun adı veya **NewColumn**, bir nokta ve sorguya aktarılan sütunun adı) şeklinde adlandırılır.
+1. **Tamam**'ı seçin.
 
->[!NOTE]
->Söz konusu **NewColumn** tablosunu elde etme konusunda birkaç deneme yapmak ister misiniz? Biraz deneme yapabilirsiniz ve sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**'dan bu adımı silmeniz yeterlidir. Sorgunuz, bu **Genişlet** adımı uygulanmadan önceki haline geri döner. Bu işlem, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabileceğiniz bir serbest tekrarlama gibidir.
+   Sorgu Düzenleyicisi, sorgunun sonunda, var olan sorguyla birleştirilen tablonun (sorgunun) içeriğinin bulunduğu bir **NewColumn** sütunu oluşturur. Birleştirilen sorgunun tüm sütunları **NewColumn** sütununda yer alacak şekilde daraltılır, ancak tabloyu **Genişlet** seçeneğini belirleyebilir ve istediğiniz sütunları dahil edebilirsiniz.
 
-Her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağının birleştirildiği tek bir sorgu (tablo) elde etmiş olduk. Bu sorgu, herhangi bir eyaletteki konut maliyeti istatistikleri, demografik bilgiler veya iş fırsatları gibi ilgi çekici diğer birçok veri bağlantısı için temel oluşturabilir.
+   ![NewColumn sütunu](media/desktop-shape-and-combine-data/shapecombine_mergenewcolumn.png)
 
-Değişiklikleri uygulamak ve Sorgu Düzenleyicisi’ni kapatmak için, şeritteki **Giriş** sekmesinde **Kapat ve Uygula** seçeneğini belirleyin. Dönüştürülmüş veri kümesi, rapor oluşturmak için kullanılmaya hazır bir şekilde Power BI Desktop'ta görüntülenir.
+1. Birleştirilen tabloyu genişletmek ve hangi sütunların ekleneceğini seçmek için genişlet simgesini (![Genişlet simgesi](media/desktop-shape-and-combine-data/icon.png)) seçin. 
 
-![](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
+   **Genişlet** penceresi görünür.
+
+   ![Sorgudaki NewColumn](media/desktop-shape-and-combine-data/shapecombine_mergeexpand.png)
+
+1. Bu örnekte yalnızca **State Code** sütunu gereklidir. Bu sütunu seçin, **Ön ek olarak orijinal sütun adını kullan**'ı temizleyin ve ardından **Tamam**'ı seçin.
+
+   **Ön ek olarak orijinal sütun adını kullan** onay kutusunu işaretlenmiş olarak bıraksaydık, birleştirilen sütun **NewColumn.State Code** olarak adlandırılırdı.
+
+   > [!NOTE]
+   > NewColumn tablosunu nasıl getirebileceğinizi araştırmak mı istiyorsunuz? Biraz deneme yapabilirsiniz ve sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**'dan bu adımı silmeniz yeterlidir. Sorgunuz, bu **Genişlet** adımı uygulanmadan önceki haline geri döner. Bu işlemi, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabilirsiniz.
+
+   Her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağının birleştirildiği tek bir sorgu (tablo) elde etmiş olduk. Bu sorgu, herhangi bir eyaletteki konut maliyeti istatistikleri, demografik bilgiler veya iş fırsatları gibi çok sayıda ve ilgi çekici veri bağlantıları için temel oluşturabilir.
+
+1. Yaptığınız değişiklikleri uygulamak ve Sorgu Düzenleyicisi’ni kapatmak için, şeritteki **Giriş** sekmesinde **Kapat ve Uygula** seçeneğini belirleyin. 
+
+   Dönüştürülmüş veri kümesi, rapor oluşturmak için kullanılmaya hazır bir şekilde Power BI Desktop'ta görüntülenir.
+
+   ![Kapat ve Uygula’yı seçin](media/desktop-shape-and-combine-data/shapecombine_closeandapply.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+Power BI Desktop ve özellikleri hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
-* [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
-* [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
+* [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md)
+* [Power BI Desktop'taki genel sorgu görevleri](desktop-common-query-tasks.md)   
 

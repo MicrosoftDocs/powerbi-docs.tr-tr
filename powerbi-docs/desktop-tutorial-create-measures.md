@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513875"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019339"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma
 Power BI Desktop’taki en güçlü veri analizi çözümlerinin bazılarını ölçüler kullanarak oluşturabilirsiniz. Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur. Bu öğretici, Power BI Desktop’ta temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.
@@ -60,7 +60,7 @@ Kendi ölçünüzü oluşturduğunuzda bu ölçü, seçtiğiniz tablonun Alanlar
 
 Toplam satış miktarından indirimleri ve iadeleri çıkararak net satışınızı analiz etmek istersiniz. Görselleştirmenizde ne için bağlam olursa olsun, SalesAmount toplamından DiscountAmount ve ReturnAmount toplamını çıkaran bir ölçü gerekir. Alanlar listesinde Net Satış için bir alan yoktur, ancak net satışı hesaplamak için kendi ölçünüzü oluşturmak üzere yapı taşlarınız vardır. 
 
-1.  Alanlar bölümünde **Satış** tablosuna sağ tıklayın veya imleci tablonun üzerine getirip **Diğer seçenekler** üç noktasını (...) ve sonra **Yeni Ölçü**’yü seçin. Böylece yeni ölçünüz, daha kolay bir şekilde bulabileceğiniz Satış tablosuna kaydedilir.
+1.  Alanlar bölümünde **Satış** tablosuna sağ tıklayın veya imleci tablonun üzerine getirip **Diğer seçenekler**’i (...) ve sonra **Yeni Ölçü**’yü seçin. Böylece yeni ölçünüz, daha kolay bir şekilde bulabileceğiniz Satış tablosuna kaydedilir.
     
     ![Yeni ölçü](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020253"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021123"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
@@ -39,7 +39,7 @@ Bir çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Office 365 gr
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 çalışma alanınıza görüntü ekleme (isteğe bağlı)
 Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini içeren küçük ve renkli bir daire oluşturur. Ancak, bunu bir görüntüyle özelleştirmek isteyebilirsiniz. Bir görüntü eklemek için Exchange Online lisansı gerekir.
 
-1. **Çalışma Alanı**'nı ve ardından çalışma alanı adının yanındaki üç nokta (...) simgesiyle **Üyeler**'i seçin. 
+1. **Çalışma Alanları**'nı, çalışma alanı adının yanındaki **Diğer seçenekler**'i (...), sonra da **Üyeler**’i seçin. 
    
      ![Çalışma Alanı Üyelerini seçme](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

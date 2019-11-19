@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161209"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775959"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -146,6 +146,14 @@ Daha fazla bilgi için bkz. [Power BI'daki matris görselleri](desktop-matrix-vi
 
 >[!TIP]
 >Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
+
+### <a name="qa-visual"></a>Soru-Cevap görseli
+![Soru-Cevap görselleri](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>[Panolarda Soru-Cevap deneyimine](../power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
+
+Daha fazla bilgi için bkz. [Power BI’daki Soru-Cevap görselleri](power-bi-visualization-q-and-a.md).
 
 ### <a name="r-script-visuals"></a>R betik görselleri
 ![R görselleri](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)

@@ -11,12 +11,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325452"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060671"
 ---
 # <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim kullanma
 
@@ -162,7 +162,9 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 | Yönetici, veri akışı depolama hesabını kiracıya ekledi | AdminAttachedDataflowStorageAccountToTenant | Şu anda kullanılmıyor                       |
 | Power BI veri kümesi çözümleme                         | AnalyzedByExternalApplication               |                                          |
 | Power BI raporu analiz edildi                          | AnalyzeInExcel                              |                                          |
+| Ekli veri akışı depolama hesabı                 | AttachedDataflowStorageAccount              |                                          |
 | Ağ geçidine bağlanmış Power BI veri kümesi                | BindToGateway                               |                                          |
+| Veri akışı yenileme iptal edildi                        | CancelDataflowRefresh                       |                                          |
 | Kapasite durumu değiştirildi                            | ChangeCapacityState                         |                                          |
 | Kapasite kullanıcı ataması değiştirildi                  | UpdateCapacityUsersAssignment               |                                          |
 | Power BI veri kümesi bağlantıları değiştirildi              | SetAllConnections                           |                                          |
@@ -194,6 +196,7 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 | Power BI raporu silindi                           | DeleteReport                                |                                          |
 | Power BI veri kümesi veri kaynakları keşfedildi          | GetDatasources                              |                                          |
 | Power BI raporu indirme                        | DownloadReport                              |                                          |
+| Veri akışı özellikleri düzenlendi                        | EditDataflowProperties                      |                                          |
 | Power BI sertifika izni düzenlendi          | EditCertificationPermission                 | Şu anda kullanılmıyor                       |
 | Power BI panosu düzenlendi                         | EditDashboard                               | Şu anda kullanılmıyor                       |
 | Power BI veri kümesi düzenlendi                           | EditDataset                                 |                                          |
@@ -213,7 +216,7 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 | Power BI panosu yazdırıldı                        | PrintDashboard                              |                                          |
 | Power BI rapor sayfası yazdırıldı                      | PrintReport                                 |                                          |
 | Power BI raporu web'de yayımlandı                  | PublishToWebReport                          |                                          |
-| Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           | Şu anda kullanılmıyor                       |
+| Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Veri kaynağını Power BI ağ geçidinden kaldırma         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI grup üyeleri kaldırıldı                    | DeleteGroupMembers                          |                                          |
 | Çalışma alanı kapasiteden kaldırıldı                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +224,7 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 | Power BI veri akışı yenileme isteği gönderildi               | RequestDataflowRefresh                      | Şu anda kullanılmıyor                       |
 | Power BI veri kümesi yenileme isteği gönderildi                | RefreshDataset                              |                                          |
 | Power BI çalışma alanları alındı                     | GetWorkspaces                               |                                          |
+| Çalışma alanı için veri akışı depolama konumu ayarlandı     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI veri akışı üzerinde zamanlanmış yenileme ayarlandı        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI veri kümesi üzerinde zamanlanmış yenileme ayarlandı         | SetScheduledRefresh                         |                                          |
 | Power BI panosu paylaşıldı                         | ShareDashboard                              |                                          |
@@ -229,10 +233,12 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 | Power BI deneme sürümü başlatıldı                            | OptInForProTrial                            |                                          |
 | Power BI veri kaynağı devralındı                   | TakeOverDatasource                          |                                          |
 | Power BI veri kümesi devralındı                        | TakeOverDataset                             |                                          |
+| Power BI veri akışı devralındı                     | TookOverDataflow                             |                                          |
 | Power BI uygulaması yayımdan kaldırıldı                          | UnpublishApp                                |                                          |
 | Kapasite kaynağı idare ayarları güncelleştirildi      | UpdateCapacityResourceGovernanceSettings    | Şu anda Microsoft 365 yönetim merkezinde değil |
 | Kapasite yöneticisi güncelleştirildi                            | UpdateCapacityAdmins                        |                                          |
 | Kapasitenin görünen adı güncelleştirildi                     | UpdateCapacityDisplayName                   |                                          |
+| Veri akışı depolama alanı atama izinleri güncelleştirildi   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Kuruluşun Power BI ayarları güncelleştirildi          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI uygulaması güncelleştirildi                              | UpdateApp                                   |                                          |
 | Power BI veri akışı güncelleştirildi                         | UpdateDataflow                              |                                          |

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67499002"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059457"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -31,7 +31,7 @@ Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="download-the-app"></a>Uygulamayı indirme
-App Store'a giderek iPhone, iPad veya iPod touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indirin").
+App Store'a giderek iPhone, iPad veya iPod Touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
 
 iOS için Power BI uygulamasını, iOS 11 veya sonraki bir sürümü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
 
@@ -109,7 +109,7 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI nedir?](../../power-bi-overview.md)
+* [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 
 

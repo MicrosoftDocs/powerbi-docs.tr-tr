@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c750b4e3bea0649405316fe9e789234c32bba817
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61221262"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020076"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
 Xero Power BI içerik paketini kullanıyorsanız yeni bir Power BI hizmet olayı nedeniyle, içerik paketinin günlük olarak yenilenmesi ile ilgili bazı sorunlar yaşamış olabilirsiniz.
@@ -26,7 +26,7 @@ Aşağıdaki ekran görüntüsünde gösterildiği gibi, Xero veri kümenizin so
 
 Yukarıda gösterildiği gibi, yenilemenin başarısız olduğunu görmeniz halinde lütfen içerik paketi kimlik bilgilerinizi yenilemek için aşağıdaki adımları uygulayın.
 
-1. Xero veri kümenizin yanındaki üç nokta (...) simgesine ve ardından **Yenilemeyi zamanla**'ya tıklayın. Xero içerik paketiniz için ayarlar sayfası açılır.
+1. Xero veri kümenizin yanındaki **Diğer seçenekler**’e (...), sonra da **Yenilemeyi zamanla**’ya tıklayın. Xero içerik paketiniz için ayarlar sayfası açılır.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. **Ayarlar: Xero** sayfasında, **Veri kaynağı kimlik bilgileri** > **Kimlik bilgilerini düzenle** seçeneğini belirleyin.
@@ -38,10 +38,10 @@ Yukarıda gösterildiği gibi, yenilemenin başarısız olduğunu görmeniz hali
 4. Xero hesabınızla oturum açın.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. Kimlik bilgilerinizi güncelleştirme işlemi tamamlandığına göre; şimdi de yenileme zamanlamasının günlük olarak çalıştırılacak şekilde belirlendiğinden emin olun. Bu ayarı, Xero veri kümenizin yanındaki üç nokta (...) simgesine ve ardından tekrar **Yenilemeyi zamanla**'ya tıklayarak denetleyebilirsiniz.
+5. Kimlik bilgilerinizi güncelleştirme işlemi tamamlandığına göre; şimdi de yenileme zamanlamasının günlük olarak çalıştırılacak şekilde belirlendiğinden emin olun. Xero veri kümenizin yanındaki **Diğer seçenekler**’e (...) ve sonra tekrar **Yenilemeyi zamanla**’ya tıklayarak bunu denetleyin.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. Ayrıca, veri kümesini hemen yenilemeyi de seçebilirsiniz. Xero veri kümenizin yanındaki üç nokta (...) simgesine ve ardından **Şimdi yenile**'ye tıklayın.
+6. Ayrıca, veri kümesini hemen yenilemeyi de seçebilirsiniz. Xero veri kümenizin yanındaki **Diğer seçenekler**’e (...), ardından **Şimdi yenile**’ye tıklayın.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 

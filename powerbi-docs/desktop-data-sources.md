@@ -2,20 +2,19 @@
 title: Power BI Desktop'taki veri kaynakları
 description: Power BI Desktop'taki veri kaynakları
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307847"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878360"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Bu sayfanın en altında, kullanabileceğiniz veri kaynaklarının tam listesi yer almaktadır.
@@ -234,7 +233,7 @@ Kuruluşunuzda rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştı
 
 Bir yazar .PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. Gezinti iletişim kutusu görüntülenir ve kullanıcı, veri kaynağından modele yüklenecek tabloları seçmelidir. Kullanıcıların, .PBIDS dosyasında belirtilmemişse, veritabanlarını seçmesi de gerekebilir. 
 
-Bu noktadan itibaren kullanıcı, görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için *Son kaynakları yeniden ziyaret edebilir. 
+Bu noktadan itibaren kullanıcı, görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için *Son kaynaklar*’ı yeniden ziyaret edebilir. 
 
 Şu anda .PBIDS dosyaları tek bir dosyada yalnızca tek bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır. 
 
@@ -364,21 +363,20 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
 ```
  
 
+**Veri akışı**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

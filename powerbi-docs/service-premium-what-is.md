@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305857"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431643"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -53,7 +53,7 @@ Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tar
 
 Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. 
 
-Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için **Uygulama Çalışma Alanları** olarak bilinen ek çalışma alanları oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de Uygulama çalışma alanları Premium kapasitelere atanabilir.
+Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için ek **çalışma alanları** oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de çalışma alanları Premium kapasitelere atanabilir.
 
 ### <a name="capacity-nodes"></a>Kapasite düğümleri
 
@@ -71,7 +71,7 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | DirectQuery/Canlı Bağlantı (saniyede) | Model Yenileme Paralelliği |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

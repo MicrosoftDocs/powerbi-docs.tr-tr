@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943337"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430044"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
@@ -24,11 +24,11 @@ ms.locfileid: "71943337"
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Microsoft Power BI hizmeti nedir?
 
-Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekilde ile görselleştirilmesini ve analiz edilebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler ile kullanıcıların çok çeşitli bulut tabanlı ve şirket içi veriler ile bağlantı kurmasını sağlar. [Power BI](../power-bi-overview.md) ile ilgili daha fazla bilgi edinin.
+Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekilde ile görselleştirilmesini ve analiz edilebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler ile kullanıcıların çok çeşitli bulut tabanlı ve şirket içi veriler ile bağlantı kurmasını sağlar. [Power BI](../fundamentals/power-bi-overview.md) ile ilgili daha fazla bilgi edinin.
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro ile Power BI Premium arasındaki fark nedir?
 
-Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel bir lisanstır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Uygulama çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir.
+Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel bir lisanstır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir.
 
 Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar.
 

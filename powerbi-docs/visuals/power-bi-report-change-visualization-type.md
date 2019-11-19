@@ -7,27 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2ccbf8eaa272d6e5a57f88c76c79b5d06bb3892
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: f002237c7417a749506d1343fd50630852286f30
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839669"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019095"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Bir Power BI raporundaki görselleştirmenin türünü değiştirme
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI hizmetindeki ve Power BI Desktop'taki farklı görselleştirme türlerini deneyin. 
 
 1. En az bir görselleştirmeye sahip bir rapor açın.   
 2. Etkin duruma getirmek için bir görselleştirmeyi seçin. Etkin görselleştirmenin etrafında tutamaçlar ve kenarlık vardır.    
 3. Görsel Öğeler bölmesinde yeni bir görselleştirme türü seçin. 
    
-   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/changeviz.gif)geçin.
+   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif)geçin.
 4. (İsteğe bağlı) Görselleştirmenizi panonuza bir kutucuk olarak [sabitleyin](../service-dashboard-pin-tile-from-report.md). 
 
-Panonuza sabitleme işleminin ardından, raporda görselleştirmenin türünü değiştirmeniz halinde pano kutucuğu otomatik olarak güncelleştirilmez. Görselleştirmeyi bir çizgi grafik olarak sabitledikten sonra, raporda görselleştirmenin türünü bir çubuk grafik olarak değiştirmeniz halinde ilgili verilerin sabitlenmiş sürümü bir çizgi grafik olarak kalır. Panoda da görmek istiyorsanız ilgili çubuk grafiği sabitleyin.
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+Panonuza sabitleme işleminin ardından, raporda görselleştirmenin türünü değiştirmeniz halinde pano kutucuğu otomatik olarak güncelleştirilmez. Power BI hizmetini kullanarak görselleştirmeyi bir çizgi grafik olarak sabitledikten sonra, raporda görselleştirmenin türünü bir çubuk grafik olarak değiştirmeniz halinde ilgili verilerin sabitlenmiş sürümü bir çizgi grafik olarak kalır. Panoda da görmek istiyorsanız ilgili çubuk grafiği sabitleyin.
 
 ### <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770141"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021470"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Web portalında içeriği yönetme 
 Power BI Rapor Sunucusu web portalı, Power BI, mobil ve sayfalandırılmış raporlarınızın yanı sıra KPI'lerinizi yönetebileceğiniz şirket içi bir konumdur.
@@ -56,7 +56,7 @@ Web portalı uygulaması bir tarayıcıda çalışır. Web portalını başlatt�
 ## <a name="manage-items-in-the-web-portal"></a>Web portalındaki öğeleri yönetme
 Power BI Rapor Sunucusu, web portalında depoladığınız öğeler üzerinde ayrıntılı denetim sağlar. Örneğin, her sayfalandırılmış rapor üzerinde abonelik, önbelleğe alma, anlık görüntü ve güvenlik ayarları yapabilirsiniz.
 
-1. Bir öğenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve ardından **Manage** (Yönet) seçeneğini belirleyin.
+1. Bir öğenin sağ üst köşesindeki **Diğer seçenekler**’i (...) ve sonra **Yönet**’i seçin.
    
     ![Manage (Yönet) seçeneğini belirleme](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. Ayarlamak istediğiniz özelliği seçin.

@@ -9,17 +9,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/12/2019
-LocalizationGroup: Common tasks
-ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.date: 10/21/2019
+rLocalizationGroup: Common tasks
+ms.openlocfilehash: 95bcb3ef0eb8b2d79502e3905a56dbc81e3f43bd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68961677"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430023"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
-En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en önemli rapor sayfalarına ve panolara abone olduğunuzda, Power BI size e-postayla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip olmak hiç bu kadar kolay olmamıştı. Sizin için en önemli rapor sayfalarına ve panolara abone olduğunuzda, Power BI size e-postayla bir anlık görüntü gönderir. Power BI'da e-postaları hangi sıklıkla almak istediğinizi seçebilirsiniz: günlük, haftalık veya veriler yenilendiğinde. Hatta Power BI'ın e-postaları göndermesi için belirli bir zaman ayarlayabilir veya bunu hemen çalıştırabilirsiniz.  Toplamda her rapor veya pano için günde en fazla 24 farklı abonelik ayarlayabilirsiniz.  
 
 E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](../supported-languages-countries-regions.md)). Dil tanımlanmazsa, Power BI geçerli tarayıcınızın yerel ayarına göre seçilen dili kullanır. Dil tercihinizi görmek veya belirlemek için sırasıyla dişli simgesini ![dişli simgesi](./media/end-user-subscribe/power-bi-settings-icon.png) > **Ayarlar > Genel > Dil** seçeneklerini belirleyin. 
 
@@ -78,7 +81,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
 * E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olursanız ve bu rapor sayfası yeniden adlandırılırsa, aboneliğinizi yeniden oluşturmanız gerekir.
-* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz, kimlik doğrulaması için veya başka nedenlerle bu özelliği devre dışı bırakmış olabilir.  
+* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz bu özelliği devre dışı bırakmış olabilir.  
 * E-posta abonelikleri çoğu [özel görseli](../power-bi-custom-visuals.md) desteklemez.  Bu konudaki istisna, [sertifikalı](../power-bi-custom-visuals-certified.md) özel görsellerdir.  
 * E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.  
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     

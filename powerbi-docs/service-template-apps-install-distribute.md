@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195263"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432351"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI
 
@@ -57,7 +57,7 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
 
 4. İletişim kutusunda **Yükle**'yi seçin.
 
-    ![Uygulamayı yükle](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro lisansınız varsa, uygulama kendisiyle ilişkilendirilmiş uygulama çalışma alanına yüklenir. Uygulamayı, ilişkilendirilmiş çalışma alanında özelleştirirsiniz.
+    ![Uygulamayı yükle](media/service-template-apps-install-distribute/power-install-dialog.png) Power BI Pro lisansınız varsa, uygulama kendisiyle ilişkilendirilmiş çalışma alanına yüklenir. Uygulamayı, ilişkilendirilmiş çalışma alanında özelleştirirsiniz.
 
     Yükleme başarılı olduğunda yeni uygulamanızın hazır olduğuna ilişkin bir bildirim görürsünüz.
 4. **Uygulamaya git**’i seçin.
@@ -71,7 +71,7 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
 
     İsterseniz bu iletişim kutusunu atlayın ve sol gezinti bölmesindeki **Çalışma Alanları** yoluyla doğrudan ilişkili çalışma alanına erişin.
     >[!NOTE]
-    >Hem bir *kurumsal uygulama* hem de bir *uygulama çalışma alanı* üzerinde yüklü bir şablon uygulaması yükleme. [Power BI’da uygulama dağıtma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin.
+    >Hem bir *kurumsal uygulama* hem de bir *çalışma alanı* üzerinde yüklü bir şablon uygulaması yükleme. [Power BI’da uygulama dağıtma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin.
  
 6. İş arkadaşlarınızla paylaşmadan önce, kendi verilerinize bağlanmak istersiniz. Ayrıca kuruluşunuza uygun olması için raporu veya panoyu değiştirmek de isteyebilirsiniz. Bu noktada başka raporlar ve panolar eklemeniz de mümkündür.
 

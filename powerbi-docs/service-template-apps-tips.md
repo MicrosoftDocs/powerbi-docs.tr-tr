@@ -2,19 +2,18 @@
 title: Power BI’da şablon uygulaması yazma ipuçları
 description: İyi şablon uygulamaları hazırlamak için sorgular, veri modelleri, raporlar ve panolar yazmaya yönelik ipuçları
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194796"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099756"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -132,7 +131,7 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 * [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) belgelerine uyduğunuzdan emin olun.
 * Uygulamanızda bir pano varsa boş olmadığından emin olun.
 * Uygulamayı göndermeden önce uygulama bağlantısını kullanarak yükleyin; veri kümesini bağlayabildiğinizden ve uygulama deneyiminin planladığınız gibi olduğundan emin olun.
-* Şablon uygulaması çalışma alanına bpix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
+* Şablon çalışma alanına bpix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
 * Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) izleyin.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
@@ -147,7 +146,7 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 | Veri kaynakları | Bulutta Zamanlanmış Veri yenileme için desteklenen veri kaynaklarına izin verilir. <br>Desteklenmez: <li> DirectQuery</li><li>Canlı bağlantılar (Azure AS yok)</li> <li>Şirket içi veri kaynakları (kişisel ve kurumsal ağ geçitleri desteklenmez)</li> <li>Gerçek zamanlı (gönderim veri kümesi desteği yok)</li> <li>Bileşik modeller</li></ul> |
 | Veri kümesi: çalışma alanları arası | Çalışma alanları arası veri kümelerine izin verilmez  |
 | Sorgu parametreleri | Desteklenmez: "Any" veya "Binary" türündeki parametreler veri kümesi için yenileme işlemini engeller |
-| Özel görseller | Yalnızca genel kullanıma açık özel görseller desteklenir. [Özel kuruluş görselleri](power-bi-custom-visuals-organization.md) desteklenmez |
+| Özel görseller | Yalnızca genel kullanıma açık özel görseller desteklenir. [Özel kuruluş görselleri](developer/power-bi-custom-visuals-organization.md) desteklenmez |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

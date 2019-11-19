@@ -3,18 +3,17 @@ title: AppSource'ta Power BI görsellerini yayımlama
 description: Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307661"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128046"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource'ta Power BI görsellerini yayımlama
 
@@ -38,10 +37,10 @@ ms.locfileid: "72307661"
 | Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya kattığı değere odaklanmanız ve kullanım, biçimlendirme seçenekleri gibi alanlarda örnekler vermeniz gerekir. En sona ekleyeceğiniz *"ipuçları"* sayfasına püf noktalarını, dikkat edilmesi gerekenleri ve benzer bilgileri girebilirsiniz.<br>Örnek .pbix rapor dosyası, herhangi bir dış bağlantı olmadan çevrimdışı çalıştırılmalıdır |
 | Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) boyutunda olmalıdır. **Önemli!** Lütfen Simgeyi göndermeden önce [kısa kılavuzu](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) gözden geçirin. |
 | Ekran görüntüleri |Evet |En az bir ekran görüntüsü eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) boyutunda olmalıdır. Dosya boyutu 1024 KB’tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.* |
-| Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. URL'niz https:// veya http:// ile başlamalıdır. |
-| Gizlilik belgesi bağlantısı |Evet |Görselinizi kullanmak isteyen müşterilerin inceleyebileceği gizlilik ilkesinin bağlantısını girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. Bağlantınız http:// veya https:// ile başlamalıdır. |
+| Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. URL'niz https:// veya https:// ile başlamalıdır. |
+| Gizlilik belgesi bağlantısı |Evet |Görselinizi kullanmak isteyen müşterilerin inceleyebileceği gizlilik ilkesinin bağlantısını girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. Bağlantınız https:// veya https:// ile başlamalıdır. |
 | Son kullanıcı lisans sözleşmesi (EULA) |Evet |EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyasını karşıya yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| Video bağlantısı |Hayır |Kullanıcıların dikkatini özel görselinize çekmek için görselinizle ilgili bir videonun bağlantısını eklemeniz önerilir. URL'niz https:// veya http:// ile başlamalıdır. |
+| Video bağlantısı |Hayır |Kullanıcıların dikkatini özel görselinize çekmek için görselinizle ilgili bir videonun bağlantısını eklemeniz önerilir. URL'niz https:// veya https:// ile başlamalıdır. |
 | GitHub deposu |Hayır |Geliştiricilerin kodunuzla ilgili geri bildirim sağlamasını ve geliştirme önermesini sağlamak için görselinizin kaynağının ve örnek verilerin bulunduğu geçerli ve herkese açık [GitHub](https://www.github.com) deposu bağlantısına sahip olmanız önerilir. |
 
 ## <a name="submitting-to-power-bi"></a>Power BI'a gönderme
@@ -143,13 +142,13 @@ Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboa
 
 ## <a name="certify-your-visual"></a>Görselinizi onaylatma
 
-Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikalatmanız durumunda görseliniz Power BI hizmetinde çalışabilir ve PowerPoint'e aktarma gibi diğer özelliklerle birlikte kullanılabilir. Daha fazla bilgi için bkz. [Özel görselleri *sertifikalatma*](../power-bi-custom-visuals-certified.md).
+Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikalatmanız durumunda görseliniz Power BI hizmetinde çalışabilir ve PowerPoint'e aktarma gibi diğer özelliklerle birlikte kullanılabilir. Daha fazla bilgi için bkz. [Özel görselleri *sertifikalatma*](../developer/power-bi-custom-visuals-certified.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI özel görseli geliştirme](visuals/custom-visual-develop-tutorial.md)  
 [Power BI'daki Görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
-[Power BI'daki Özel Görselleştirmeler](../power-bi-custom-visuals.md)  
-[Özel görselleri *sertifikalatma*](../power-bi-custom-visuals-certified.md)
+[Power BI'daki Özel Görselleştirmeler](../developer/power-bi-custom-visuals.md)  
+[Özel görselleri *sertifikalatma*](../developer/power-bi-custom-visuals-certified.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

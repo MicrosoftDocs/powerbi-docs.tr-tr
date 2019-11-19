@@ -8,15 +8,15 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: d1944f139cdd7089d9465e174e554ac7df1d8bf8
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962616"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060381"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI hizmetinde veri uyarıları
 
@@ -24,7 +24,7 @@ Panolarınızdaki veriler belirlediğiniz sınırları aşacak şekilde değişt
 
 Power BI Pro lisansınız varsa, kutucuklar üzerinde uyarılar ayarlayabilirsiniz. Ayrıca, bir kullanıcı [Premium kapasitede](service-premium-what-is.md) bir pano paylaşırsa alacağınız uyarılar da ayarlayabilirsiniz. Uyarılar yalnızca rapor görsellerinden sabitlenmiş olan kutucuklarda ve yalnızca ölçekler, KPI'ler ve kartlar için ayarlanabilir. Bir rapordan panoya sabitlediğiniz akış veri kümelerinden oluşturulan görseller üzerinde uyarılar ayarlanabilir. **Kutucuk ekle** > **Özel akış verileri** kullanılarak doğrudan pano üzerinde oluşturulan akış kutucukları üzerinde uyarılar ayarlanamaz.
 
-Panonuzu paylaşsanız dahi ayarladığınız uyarıları yalnızca siz görebilirsiniz. Veri uyarıları platformlar arasında tamamen eşitlenir. Veri uyarılarını [Power BI mobil uygulamalarında](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) ve Power BI hizmetinde ayarlayıp görüntüleyebilirsiniz. Bujlar Power BI Desktop'ta kullanılamaz. Uyarıları Microsoft Flow ile de otomatikleştirebilir ve tümleştirebilirsiniz. Bu işlemi bu [Microsoft Flow ve Power BI](service-flow-integration.md) makalesinde kendiniz deneyebilirsiniz.
+Panonuzu paylaşsanız dahi ayarladığınız uyarıları yalnızca siz görebilirsiniz. Panosunun sizdeki görünümü üzerinde belirlediğiniz uyarıları pano sahibi bile göremez. Veri uyarıları platformlar arasında tamamen eşitlenir. Veri uyarılarını [Power BI mobil uygulamalarında](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) ve Power BI hizmetinde ayarlayıp görüntüleyebilirsiniz. Bujlar Power BI Desktop'ta kullanılamaz. Uyarıları Microsoft Flow ile de otomatikleştirebilir ve tümleştirebilirsiniz. Bu işlemi bu [Microsoft Flow ve Power BI](service-flow-integration.md) makalesinde kendiniz deneyebilirsiniz.
 
 ![kutucuklar](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +116,13 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
 1. Bu sayfadan uyarıları etkinleştirebilir ve devre dışı bırakabilir, **Uyarıları yönet** penceresini açarak değişiklik yapabilir veya uyarıları silebilirsiniz.
 
-## <a name="tips-and-troubleshooting"></a>İpuçları ve sorun giderme
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 * Tarih/saat ölçülerine sahip kart kutucuklarında uyarılar desteklenmemektedir.
-
 * Uyarılar yalnızca sayısal veri türleriyle çalışır.
-
 * Uyarılar yalnızca yenilenen veriler üzerinde çalışır. Sabit veriler üzerinde çalışmaz.
-
 * Uyarılar, akış veri kümelerinde yalnızca KPI, kart veya ölçek rapor görseli oluşturup bunu panoya sabitlemeniz durumunda çalışır.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -132,6 +130,6 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
 * [Mobil cihazınızda veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
-* [Power BI nedir?](power-bi-overview.md)
+* [Power BI nedir?](fundamentals/power-bi-overview.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)

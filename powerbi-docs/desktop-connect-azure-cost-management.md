@@ -1,6 +1,6 @@
 ---
 title: Power BI Desktop’ta Azure Maliyet Yönetimi verilerine bağlanma
-description: Power BI Desktop’ı kullanarak Azure'a kolayca bağlanma ve maliyet yönetimiyle ilgili içgörüler elde etme
+description: Power BI Desktop ile Azure'a kolayca bağlanın ve Azure maliyeti ile kullanımınız hakkında içgörüler edinin
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,21 +11,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308019"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891768"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Maliyet Yönetimi verilerine bağlanma
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Maliyet Yönetimi’ne bağlanma
 
 Azure harcamalarınızı daha iyi anlamanıza yardımcı olan güçlü, özelleştirilmiş görselleştirmeler ve raporlar oluşturmak için Power BI Desktop için Azure Maliyet Yönetimi bağlayıcısını kullanabilirsiniz. Azure Maliyet Yönetimi bağlayıcısı şu anda [Microsoft Müşteri Sözleşmesi](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) veya [Kurumsal Anlaşması](https://azure.microsoft.com/pricing/enterprise-agreement/) olan müşterileri destekler.  
 
-Azure Maliyet Yönetimi bağlayıcısı, Azure’da kimlik doğrulaması için OAuth 2.0’ı kullanır. Bağlanmak istiyorsanız, Kurumsal Anlaşmalar için [Kuruluş Yöneticisi](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) hesabını veya Microsoft Müşteri Sözleşmeleri için [Faturalama hesabı sahibini](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) kullanmanız gerekir. 
+Azure Maliyet Yönetimi bağlayıcısı, Azure’da kimlik doğrulaması için OAuth 2.0 kullanır ve bağlayıcıyı kullanacak kullanıcıları tanımlar. Bu işlemde oluşturulan belirteçler belirli bir süre için geçerlidir. Power BI sonraki oturum açma için belirteci saklar. OAuth 2.0, bu izinlerin güvenli bir şekilde işlenmesini sağlamak için arka planda devam eden işlemin standardıdır. Bağlanmak istiyorsanız, Kurumsal Anlaşmalar için [Kuruluş Yöneticisi](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) hesabını veya Microsoft Müşteri Sözleşmeleri için [Faturalama hesabı sahibini](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) kullanmanız gerekir. 
 
 > [!NOTE]
-> Bu bağlayıcı, önceden kullanılabilir olan [Azure Maliyet Yönetimi (Beta)](desktop-connect-azure-consumption-insights.md) bağlayıcısının yerini alır. Önceki bağlayıcı ile oluşturulan raporlar, bu bağlayıcı kullanılarak yeniden oluşturulmalıdır.
+> Bu bağlayıcı, önceden kullanılabilir olan [Azure Consumption Insights ve Azure Maliyet Yönetimi (Beta)](desktop-connect-azure-consumption-insights.md) bağlayıcılarının yerini alır. Önceki bağlayıcı ile oluşturulan raporlar, bu bağlayıcı kullanılarak yeniden oluşturulmalıdır.
 
 ## <a name="connect-using-azure-cost-management"></a>Azure Maliyet Yönetimi’ni kullanarak bağlanma
 

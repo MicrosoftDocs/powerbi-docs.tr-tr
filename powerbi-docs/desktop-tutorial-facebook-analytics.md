@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841408"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018081"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Öğretici: Power BI Desktop ile Facebook analizi
 
@@ -147,7 +147,7 @@ Facebook sayfasındaki verileri içeri aktardığınıza göre şimdi görselle�
    
    ![Çubuk Grafik](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Görselleştirmenin sağ üst kısmındaki üç noktayı (...) seçin ve sonra tabloyu açıklama sayısına göre azalan düzende sıralamak için **Açıklama sayısına göre sırala** seçeneğini belirleyin. 
+4. Görselleştirmenin sağ üst kısmındaki **Diğer seçenekler**’i (...) seçin ve sonra tabloyu açıklama sayısına göre azalan düzende sıralamak için **Açıklama sayısına göre sırala** seçeneğini belirleyin. 
    
    ![Açıklama sayısına göre sıralama](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ Grafiğin X ekseni (açıklama sayısı), tam değerleri göstermez ve grafiğin
 
 Bu daha iyi, ancak **Gönderi sayısı** değerinin bir tamsayı olması gerektiğinden, tüm veri etiketlerinde dikkat dağıtabilecek ve yanıltabilecek bir **.0** ondalık basamağı vardır. **Gönderi sayısı** sütununun veri türünü Tam Sayı olarak değiştirmeniz gerekir.
 
-1. Veri türünü düzenlemek için, Alanlar listesinde **Sorgu1**’e sağ tıklayın veya imleci üzerine getirip **Diğer seçenekler** üç noktasını (...) seçin ve **Sorguyu Düzenle** seçeneğini belirleyin. Şeridin Giriş sekmesinin **Dış veri** alanından **Sorguları Düzenle**’yi de seçebilir ve sonra açılır listeden **Sorguları Düzenle**’yi seçin. Power BI Desktop **Power Query Editor**, ayrı bir pencerede açılır.
+1. Veri türünü düzenlemek için, Alanlar listesinde **Sorgu1**’e sağ tıklayın veya imleci üzerine getirip **Diğer seçenekler**’i (...) seçin ve **Sorguyu Düzenle** seçeneğini belirleyin. Şeridin Giriş sekmesinin **Dış veri** alanından **Sorguları Düzenle**’yi de seçebilir ve sonra açılır listeden **Sorguları Düzenle**’yi seçin. Power BI Desktop **Power Query Editor**, ayrı bir pencerede açılır.
    
    ![Alanlar listesinden Sorguyu Düzenleme](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Şeritten Sorguları Düzenleme](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

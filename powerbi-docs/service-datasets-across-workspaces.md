@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020774"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431934"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)
 
@@ -62,7 +62,7 @@ Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özel
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-- Bir uygulama yayımcısı olarak, hedef kitlenizin uygulama çalışma alanının dışında bulunan veri kümelerine erişebildiğinden emin olmanız gerekir. Aksi takdirde, kullanıcılar uygulamanızla etkileşime geçerken, raporların veri kümesi erişimi olmadan açılmaması ve pano kutucuklarının kilitli olarak görünmesi gibi sorunlar yaşar. Ayrıca, bu öğenin gezintisindeki ilk öğe veri kümesine erişimi olmayan bir rapor olursa, kullanıcılar uygulamayı açamaz.
+- Bir uygulama yayımcısı olarak, hedef kitlenizin çalışma alanının dışında bulunan veri kümelerine erişebildiğinden emin olmanız gerekir. Aksi takdirde, kullanıcılar uygulamanızla etkileşime geçerken, raporların veri kümesi erişimi olmadan açılmaması ve pano kutucuklarının kilitli olarak görünmesi gibi sorunlar yaşar. Ayrıca, bu öğenin gezintisindeki ilk öğe veri kümesine erişimi olmayan bir rapor olursa, kullanıcılar uygulamayı açamaz.
 - Raporu farklı çalışma alanında bulunan bir veri kümesinin üstünde oluşturabilmeniz için iki uçta da yeni çalışma alanı deneyimi gerekir: Rapor yeni çalışma alanı deneyiminde olmalı ve veri kümesi de yeni çalışma alanı deneyiminde olmalıdır.
 - Klasik çalışma alanında veri kümesi bulma deneyimi yalnızca o çalışma alanındaki veri kümelerini gösterir.
 - Tasarım gereği, paylaşılan veri kümesini temel alan bir raporda “Web'de yayımla” özelliği çalışmaz.

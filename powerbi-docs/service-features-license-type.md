@@ -1,6 +1,6 @@
 ---
 title: Lisans türüne göre Power BI hizmeti özellikleri
-description: 'Power BI hizmetinde, kullanıcıların iki tür lisans temelinde tanımlanmış özellikleri vardır: kullanıcı başına (ücretsiz ve Pro) ve kapasite temelli.'
+description: Power BI hizmetinde kullanıcılar sahip oldukları kullanıcı başına lisans türüne (ücretsiz veya Pro) ve etkileşime girdikleri içeriğin bir Power BI Premium kapasitesine atanıp atanmamasına göre özellikleri tanımlamıştır.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 38bf9acb76faa3c2d5d04d247edbdc46455d22e1
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554445"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442771"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Lisans türüne göre Power BI hizmeti özellikleri
 
@@ -37,7 +37,7 @@ Aşağıda, kullanıcı başına lisans türü tarafından desteklenen özellikl
 | API ve denetim ekleme |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | **İşbirliği** | | |
 | Eşler arası paylaşma |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
-| Uygulama çalışma alanları |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
+| Çalışma alanları |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 | Excel'de çözümleme, Power BI Desktop'ta çözümleme |![Özellik kullanılamaz](media/features-license-type/not-available.png) |![Özellik kullanılabilir](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>Sonraki adımlar

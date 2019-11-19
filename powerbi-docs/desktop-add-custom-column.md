@@ -7,66 +7,93 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408548"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922522"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
-**Power BI Desktop**'taki **Sorgu Düzenleyicisi**'ni kullanarak modelinize veri içeren yeni bir özel sütunu kolayca ekleyebilirsiniz. Özel sütununuzu tanımlayan [M formüllerini](https://msdn.microsoft.com/library/mt270235.aspx) oluşturmaya yönelik kullanışlı tuşlar yardımıyla özel sütununuzu oluşturabilir ve yeniden adlandırabilirsiniz. M formülü, [kapsamlı bir işlev başvurusu içerik kümesine](https://msdn.microsoft.com/library/mt779182.aspx) sahiptir. 
 
-![](media/desktop-add-custom-column/add-custom-column_01.png)
+Power BI Desktop'ta Sorgu Düzenleyicisi'ni kullanarak modelinize veri içeren yeni bir özel sütunu kolayca ekleyebilirsiniz. Sorgu Düzenleyicisi ile özel sütununuzu oluşturup yeniden adlandırarak, özel sütununuzu tanımlamak için [PowerQuery M formül sorguları](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) oluşturun. PowerQuery M formül sorguları [kapsamlı bir işlev başvurusu içerik kümesine](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) sahiptir. 
 
-Özel sütun oluşturma, **Sorgu Düzenleyicisi**'nde oluşturduğunuz sorgu için **Uygulanan Adımlar**'dan biridir. Bu da değiştirilebileceği, öne veya arkaya taşınabileceği ya da istendiğinde düzenlenebileceği anlamına gelir.
+Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu sütunu sorgunun **Sorgu Ayarları**’nda **Uygulanan Adım** olarak ekler. Her zaman değiştirilebilir, taşınabilir veya üzerinde değişiklik yapılabilir.
 
-## <a name="use-query-editor-to-add-a-new-custom-column"></a>Yeni özel sütun eklemek için Sorgu Düzenleyicisi'ni kullanma
-Yeni özel sütun oluşturmak için **Sorgu Düzenleyicisi**'ni başlatın. Bunu, **Power BI Desktop**'taki **Giriş** şeridinden **Sorguları Düzenle** seçeneğini belirleyerek yapabilirsiniz.
+![Özel Sütun Ekle sayfası](media/desktop-add-custom-column/add-custom-column_01.png)
 
-![](media/desktop-add-custom-column/add-column-from-example_02.png)
+## <a name="use-query-editor-to-add-a-custom-column"></a>Özel sütun eklemek için Sorgu Düzenleyicisi'ni kullanma
 
-**Sorgu Düzenleyicisi**'ni başlattıktan ve veri yükledikten sonra, şeritteki **Sütun Ekle** sekmesini seçip **Özel Sütun** seçeneğini belirleyerek özel sütun ekleyebilirsiniz.
+Özel bir sütun oluşturmaya başlamak için şu adımları izleyin:
 
-![](media/desktop-add-custom-column/add-custom-column_02.png)
+1. Power BI Desktop’ı başlatın ve bazı verileri yükleyin.
 
-Bir sonraki bölümde ele alacağımız **Özel Sütun Ekle** penceresi görüntülenir.
+2. Şeritteki **Giriş** sekmesinden **Sorguları Düzenle**'yi ve sonra menüden **Sorguları Düzenle**'yi seçin.
+
+   ![Sorguları Düzenle’yi seçme](media/desktop-add-custom-column/add-column-from-example_02.png)
+
+   **Sorgu Düzenleyicisi** penceresi görüntülenir. 
+
+2. Şeritteki **Sütun Ekle** sekmesinden **Özel Sütun**’u seçin.
+
+   ![Özel Sütun seçme](media/desktop-add-custom-column/add-custom-column_02.png)
+
+   **Özel Sütun Ekle** penceresi görüntülenir.
 
 ## <a name="the-add-custom-column-window"></a>Özel Sütun Ekle penceresi
-**Özel Sütun Ekle** penceresindeyken, kullanılabilir alanların listesini sağ bölmede, özel sütununuzun adını ise üstte (yeniden adlandırmak için bu metin kutusuna yeni bir ad girmeniz yeterlidir) görürsünüz. Ayrıca bu pencerede, sağ bölmeden alan ekleyerek, işleçler yerleştirerek ve başka işlemlerle oluşturduğunuz (veya yazdığınız), yeni özel sütununuzun tanımlanacağı [**M** formülünü](https://msdn.microsoft.com/library/mt779182.aspx) de görüntülersiniz. 
 
-![](media/desktop-add-custom-column/add-custom-column_03.png)
+**Özel Sütun Ekle** penceresi aşağıdaki özellikleri içerir: 
+- Sağ taraftaki **Kullanılabilir sütunlar** listesinde kullanılabilir sütunların listesi.
+
+- **Yeni sütun adı** kutusunda özel sütununuzun ilk adı. Bu sütunu yeniden adlandırabilirsiniz.
+
+- **Özel sütun formülü** kutusunda [PowerQuery M formülü sorguları](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference). Bu sorguları, yeni özel sütununuzun tanımlandığı formülü oluşturarak oluşturursunuz. 
+
+   ![Özel Sütun Ekle sayfası](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Özel sütununuz için formül oluşturma
-Sağ taraftaki **Mevcut sütunlar:** listesinden bir alan seçebilir ve alanı özel sütun formülüne eklemek için **<< Ekle** seçeneğini belirleyebilirsiniz. Ayrıca, listedeki bir sütuna çift tıklayarak da söz konusu sütunu ekleyebilirsiniz.
 
-Siz formülü yazarken ve sütununuzu oluştururken, pencerenin alt kısmında, herhangi bir söz dizimi hatasının algılanıp algılanmadığını gerçek zamanlı olarak (yazdığınız sırada) belirten bir göstergeyle karşılaşırsınız. Herhangi bir sorun yoksa yeşil bir onay işareti görürsünüz.
+1. Sağ taraftaki **Kullanılabilir sütunlar** listesinden bir sütun seçin ve sonra listenin altındaki **<< Ekle** düğmesini seçerek sütunu özel sütun formülüne ekleyin. Ayrıca, listede çift tıklayarak da bir sütun ekleyebilirsiniz.
 
-![](media/desktop-add-custom-column/add-custom-column_04.png)
+2. Formülü girip sütununuzu oluştururken **Özel Sütun Ekle** penceresinin altındaki göstergeyi not edin. 
 
-Ancak söz diziminizde hata varsa algılanan hatanın yanı sıra imleci (formülünüzde) hatanın algılandığı yere yerleştiren bir bağlantıyla birlikte sarı bir uyarı simgesiyle karşılaşırsınız.
+   Hata yoksa, yeşil bir onay işareti ile birlikte *Söz dizimi hatası algılanmadı* iletisini görürsünüz.
 
-![](media/desktop-add-custom-column/add-custom-column_05.png)
+   ![Özel Sütun Ekle sayfasındaki başarılı söz dizimi denetimi](media/desktop-add-custom-column/add-custom-column_04.png)
 
-**Tamam**'ı seçtiğinizde, özel sütununuz modele eklenir ve sorgunuzun **Uygulanan Adımlar**'ında **Özel Eklendi** yer alır.
+   Söz dizimi hatası varsa, sarı bir uyarı simgesi ile birlikte hatanın formülünüzdeki yerinin bağlantısını görürsünüz.
 
-![](media/desktop-add-custom-column/add-custom-column_06.png)
+   ![Özel Sütun Ekle sayfasındaki hata](media/desktop-add-custom-column/add-custom-column_05.png)
 
-**Uygulanan Adımlar** bölmesindeki **Özel Eklendi** seçeneğine çift tıklamanız halinde, oluşturduğunuz özel sütun formülünün, gerekli değişiklikleri yapabilmeniz için hazır olarak yüklendiği **Özel Sütun Ekle** penceresi tekrar görünür.
+3. **Tamam**'ı seçin. 
 
-## <a name="using-the-advanced-editor-for-custom-columns"></a>Özel Sütunlar için Gelişmiş Düzenleyici'yi kullanma
-**Gelişmiş Düzenleyici**'yi kullanarak da özel bir sütun oluşturabilirsiniz. (Ayrıca sorgunuzun herhangi bir adımını değiştirebilirsiniz.) **Sorgu Düzenleyicisi**'ndeki **Görünüm** sekmesini seçip **Gelişmiş Düzenleyici** seçeneğini belirleyerek **Gelişmiş Düzenleyici**'yi görüntüleyebilirsiniz.
+   Power BI Desktop, özel sütununuzu modele ekler ve **Özel Eklendi** adımını **Sorgu Ayarları**’nda sorgunuzun **Uygulanan Adımlar** listesine ekler.
 
-![](media/desktop-add-custom-column/add-custom-column_07.png)
+   ![Sorgu Ayarlarına eklenen özel sütun](media/desktop-add-custom-column/add-custom-column_06.png)
 
-**Gelişmiş Düzenleyici**, sorgunuz üzerinde tam denetime sahip olmanızı sağlar.
+4. Özel sütununuzu değiştirmek için **Uygulanan Adımlar** listesindeki **Özel Eklendi** adımına çift tıklayın. 
 
+   **Özel Sütun Ekle** penceresi, oluşturduğunuz özel sütun formülüyle birlikte görüntülenir.
+
+## <a name="use-the-advanced-editor-for-custom-columns"></a>Özel sütunlar için Gelişmiş Düzenleyici'yi kullanma
+
+Sorgunuzu oluşturduktan sonra, sorgunuzun herhangi bir adımını değiştirmek için **Gelişmiş Düzenleyici**’yi de kullanabilirsiniz. Bunu yapmak için şu adımları uygulayın:
+
+1. **Sorgu Düzenleyicisi** penceresinde şeritteki **Görünüm** sekmesini seçin. 
+
+2. **Gelişmiş Düzenleyici** seçeneğini belirleyin.
+
+   Sorgunuz üzerinde tam denetime sahip olmanızı sağlayan **Gelişmiş Düzenleyici** sayfası görüntülenir. 
+
+   ![Gelişmiş Düzenleyici sayfası](media/desktop-add-custom-column/add-custom-column_07.png)
+
+   
 ## <a name="next-steps"></a>Sonraki adımlar
-**Sorgu Düzenleyicisi**'ne sunduğunuz örnekleri temel alan bir sütun oluşturma gibi, özel sütun oluşturmak için uygulanabilecek başka yöntemler de vardır. Örneklerden özel sütunlar oluşturma ile ilgili daha fazla bilgi için şu makaleye bakın:
 
-* [Add a column from an example in Power BI Desktop (Power BI Desktop'ta örnekten sütun ekleme)](desktop-add-column-from-example.md)
-* [Power Query M Başvurusu](/powerquery-m/power-query-m-reference)  
+- Sorgu Düzenleyicisi'ne sunduğunuz örnekleri temel alan bir sütun oluşturma gibi diğer yöntemlerle özel bir sütun oluşturabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop'ta örnekten sütun ekleme](desktop-add-column-from-example.md).
+
+- Power Query M başvuru bilgileri için bkz. [Power Query M işlev başvurusu](/powerquery-m/power-query-m-function-reference).
 

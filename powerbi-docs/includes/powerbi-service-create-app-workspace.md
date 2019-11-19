@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903906"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021099"
 ---
 1. İşe çalışma alanını oluşturarak başlayın. **Çalışma alanları** > **Çalışma alanı oluştur**'u seçin. 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903906"
 
 7. **Kaydet**'i seçin.
 
-Power BI çalışma alanını oluşturur ve açar. Üyesi olduğunuz çalışma alanlarının listesinde görünür. Yönetici olduğunuz için üç nokta (…) simgesini seçerek geri gidebilir, değişiklik yapabilir, yeni üye ekleyebilir veya üye izinlerini değiştirebilirsiniz.
+Power BI çalışma alanını oluşturur ve açar. Üyesi olduğunuz çalışma alanlarının listesinde görünür. Yönetici olduğunuz için **Diğer seçenekler**’i (…) seçerek geri gidebilir, değişiklik yapabilir, yeni üye ekleyebilir veya üye izinlerini değiştirebilirsiniz.
 
-![Çalışma alanını düzenleme](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
+![Çalışma alanını düzenle](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

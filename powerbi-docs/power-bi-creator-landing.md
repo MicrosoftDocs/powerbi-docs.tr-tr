@@ -10,12 +10,12 @@ ms.date: 10/07/2019
 ms.author: maggies
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 64e77a97ec8f316473d6b953b506b323b69bfd0e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239889"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431526"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 
@@ -37,7 +37,7 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                           <h3>Power BI ile oluşturmaya başlama</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Power BI Desktop ile çalışmaya başlama</a><br/> 
-                                               <a href="power-bi-overview.md">Power BI hizmeti ile çalışmaya başlama</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Power BI hizmeti ile çalışmaya başlama</a><br/> 
                                                <a href="report-server/get-started.md">Power BI Rapor Sunucusu nedir?</a>
                                     </div> 
                               </div> 
@@ -156,7 +156,7 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                           <h3>Çalışmanızı paylaşma</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Nasıl işbirliği yapmalı ve paylaşımda bulunmalıyım?</a><br/>
-                                                <a href="service-create-workspaces.md">Power BI hizmetinde çalışma alanı ekleme</a> 
+                                                <a href="service-create-workspaces.md">Power BI hizmetindeki çalışma alanları</a> 
                                     </div> 
                               </div> 
                         </div> 

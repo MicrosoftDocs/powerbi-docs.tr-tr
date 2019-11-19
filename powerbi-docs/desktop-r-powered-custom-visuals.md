@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 276fc99a1bc4bed4aecb8ca4f6de1094599ff66f
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945253"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017630"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI’da R destekli Power BI görsellerini kullanma
 
@@ -55,7 +55,7 @@ Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Görseli indirdikten sonra (indirme işlemi tarayıcınızdan herhangi bir dosya indirmeye benzer) **Power BI Desktop**'a giderek **Görsel Öğeler** bölmesindeki üç nokta (...) simgesine tıklayın ve **Dosyadan içeri aktar**'ı seçin.
+4. Görseli indirdikten sonra (indirme işlemi tarayıcınızdan herhangi bir dosya indirmeye benzer) **Power BI Desktop**'a giderek **Görsel Öğeler** bölmesindeki **Diğer seçenekler** (...) düğmesine tıklayın ve **Dosyadan içeri aktar**'ı seçin.
 
    ![R görseli 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Aşağıdaki görüntüde gösterildiği gibi özel görseli içeri aktarırken dikkatli olmanız konusunda uyarı alırsınız:

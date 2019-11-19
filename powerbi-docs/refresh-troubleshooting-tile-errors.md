@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544272"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021546"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.
@@ -69,7 +69,7 @@ Bu genellikle geçici bir sorundur. Daha sonra yeniden denediğinizde aynı ilet
 
 Temel alınan veri kümesi, bir şirket içi veri ağ geçidi üzerinden Analysis Services için DirectQuery modunu veya Canlı Bağlantıyı kullanmak üzere yapılandırıldıysa bu durum oluşabilir. Bu durumda kutucuklar, sonraki kutucuk yenileme zamanı gelinceye kadar veri kaynağı için çoklu oturum açma etkinleştirildikten sonra filtrelenmemiş verileri göstermeye devam eder. Sonraki kutucuk yenilemesinde Power BI, yapılandırıldığı şekilde çoklu oturum açmayı kullanır ve kutucuklar, kullanıcı kimliğine göre filtrelenen verileri gösterir. 
 
-Filtrelenen verileri hemen görmek istiyorsanız, panonun sağ üst kısmındaki üç nokta (...) simgesini seçip **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
+Filtrelenen verileri hemen görmek istiyorsanız, panonun sağ üst kısmındaki **Diğer seçenekler** (...) ve **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
 
 Ayrıca veri kümesi sahibi olarak, kutucuk yenilemeyi hızlandırmak için kutucuk yenileme sıklığını değiştirip 15 dakika olarak ayarlayabilirsiniz. Power BI hizmetinin sağ üst köşesinde yer alan dişli simgesini ve ardından **Ayarlar**’ı seçin. **Ayarlar** sayfasında **Veri Kümeleri**’ni seçin. **Zamanlanmış önbellek yenileme**’yi genişletin ve **Yenileme sıklığı**’nı değiştirin. Power BI, sonraki kutucuk yenilemeyi gerçekleştirdikten sonra yapılandırmayı özgün yenileme sıklığına sıfırladığınızdan emin olun.
 

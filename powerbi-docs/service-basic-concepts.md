@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542961"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431321"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
@@ -48,10 +48,10 @@ Daha sonra bu özelliklerin ayrıntısına ineceğiz ancak şimdi bazı Power BI
 Power BI'ın başlıca 4 yapı taşı şunlardır: **_panolar_** , **_raporlar_** , **_çalışma kitapları_** ve **_veri kümeleri_** . Bunların tamamı **_çalışma alanları_** halinde düzenlenmiştir. Dört yapı taşını ayrıntılı olarak incelemeden önce çalışma alanlarını anlamanız önemli olduğundan bu kavramla başlayacağız.
 
 ## <a name="workspaces"></a>Çalışma alanları
-Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve*uygulama çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuzun Power BI son kullanıcılarına ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ama son kullanıcılar bunları düzenleyemez.
+Çalışma alanları, Power BI'daki panolar, raporlar, çalışma kitapları ve veri kümeleri için kapsayıcı görevi görür. İki tür çalışma alanı vardır: *Çalışma alanım* ve *çalışma alanları*. Peki *uygulama* nedir? Power BI *uygulaması*, kuruluşunuzun Power BI son kullanıcılarına ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ama son kullanıcılar bunları düzenleyemez.
 
-- *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir uygulama çalışma alanında çalışmak istersiniz.      
--  *Uygulama çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Uygulama çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm uygulama çalışma alanı üyelerinin Power BI Pro lisansı olmalıdır. Uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur. [Yeni çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.  
+- *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir çalışma alanında çalışmak istersiniz.      
+-  *Çalışma alanlarını* iş arkadaşlarınızla işbirliği yapmak ve içerik paylaşmak için kullanabilirsiniz. Bu alanlarda ayrıca kuruluşunuz için uygulama oluşturabilir, yayımlayabilir ve yönetebilirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Tüm çalışma alanı üyelerinin Power BI Pro lisansı olmalıdır. Uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur. [Yeni çalışma alanları](service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin.  
 
 Paylaşma hakkında genel olarak daha fazla bilgi edinmek için [Çalışmanızın panolarını paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md) ile başlayın.
 
@@ -62,7 +62,7 @@ Bir *veri kümesi*, *içeri aktardığınız* veya *bağlandığınız* bir veri
 
 Veri kümeleri, *çalışma alanlarıyla* ilişkilendirilmiştir ve tek bir veri kümesi, birden fazla çalışma alanına ait olabilir. Bir çalışma alanını açtığınızda ilişkilendirilmiş veri kümeleri, **Veri kümeleri** sekmesinde listelenir. Listelenen her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı veya tablosal bir şirket içi SSAS veri kümesi). Desteklenen birçok veri kaynağı olmakla birlikte yenilerini eklemeye de hiç ara vermiyoruz. [Power BI ile kullanılabilen veri kümesi türlerinin](service-get-data.md) listesine göz atın.
 
-Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Veri kümeleri** sekmesine tıkladım.
+Aşağıdaki örnekte "Sales and marketing" çalışma alanını seçtim ve **Veri kümeleri** sekmesine tıkladım.
 
 ![Veri kümeleri seçildi](media/service-basic-concepts/power-bi-datasets.png)
 
@@ -96,7 +96,7 @@ Bir uygulamayı açtığınızda bir pano görüntülenir.  Rapordan sabitlenmi�
 
 Raporlar varsayılan olarak Okuma Görünümü'nde açılır.  Raporu, Düzenleme Görünümü'nde açmak için **Raporu düzenle**'yi seçmeniz yeterlidir (gerekli izinlere sahipseniz).
 
-Aşağıdaki örnekte "Sales and marketing" uygulama çalışma alanını seçtim ve **Raporlar** sekmesine tıkladım.
+Aşağıdaki örnekte "Sales and marketing" çalışma alanını seçtim ve **Raporlar** sekmesine tıkladım.
 
 ![Raporlar seçildi](media/service-basic-concepts/power-bi-reports.png)
 
@@ -224,7 +224,7 @@ Ekranın bu bölümünde içerikle (bu durumda pano) etkileşim kurmak için kul
    ![Etiketli simge düğmeleri](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-- [Power BI nedir?](power-bi-overview.md)  
+- [Power BI nedir?](fundamentals/power-bi-overview.md)  
 - [Power BI videoları](videos.md)  
 - [Rapor düzenleyicisi: tura katılın](service-the-report-editor-take-a-tour.md)
 

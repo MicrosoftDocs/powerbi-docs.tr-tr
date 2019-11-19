@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751381"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060389"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Öğretici: Power BI hizmeti ile çalışmaya başlama
-Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
+Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](fundamentals/power-bi-overview.md) makalesini okumanızı öneririz.
 
 ![Power BI hizmeti giriş](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
    
 8. Rapora geri dönmek için panonuzdaki yeni kutucuğu seçin. Power BI, raporu Okuma görünümü'nde açar. 
 
-1. Düzenleme görünümü'ne geçmek için üst gezinti çubuğu > **Düzenle**’den üç nokta (...) simgesini seçin. Düzen görünümü'ne döndükten sonra kutucukları keşfetmeye ve sabitlemeye devam edebilirsiniz.
+1. Düzenleme görünümüne geri dönmek için üst gezin çubuğu > **Düzenle** menüsünde **Diğer seçenekler**’i (...) seçin. Düzen görünümü'ne döndükten sonra kutucukları keşfetmeye ve sabitlemeye devam edebilirsiniz.
 
     ![Raporu düzenlemek için Düzenle’yi seçin](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ Kendi panolarınızı ve raporlarınızı oluşturmaya başlamadan önce, görme
 
 1. Sol gezinti çubuğunda, **Çalışma Alanım**’da olduğunuzdan emin olun.
 2. **Veri Kümeleri** sekmesini seçin ve bu öğretici için içeri aktardığınız veri kümesini bulun.  
-3. Üç nokta (...) > **Sil**'i seçin.
+3. **Diğer seçenekler** (...) > **Sil**’i seçin.
 
     ![Veri kümesini silme](media/service-get-started/power-bi-service-delete-dataset.png)
 

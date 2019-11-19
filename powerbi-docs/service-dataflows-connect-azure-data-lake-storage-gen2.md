@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160359"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432027"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -183,7 +183,7 @@ Bu bölümde açıklandığı gibi bilinen birkaç sorun vardır.
 
 Power BI Desktop müşterileri, veri akışının sahibi olmadığı veya göldeki CDM klasörüne yönelik açıkça yetkilendirilmediği sürece, **Azure Data Lake Storage Hesabında** depolanan veri akışlarına erişemez. Senaryo aşağıdaki gibidir:
 
-1. Ayşe yeni bir uygulama çalışma alanı oluşturdu ve veri akışları, kuruluşun veri gölünde depolanacak şekilde bu çalışma alanını yapılandırdı. 
+1. Ayşe yeni bir çalışma alanı oluşturdu ve veri akışları, kuruluşun veri gölünde depolanacak şekilde bu çalışma alanını yapılandırdı. 
 2. Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu Veri Akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
 3. Berk, veri akışının göldeki CDM klasörü için yetkilendirilmediğinden aşağıdakine benzer bir hata alır.
 

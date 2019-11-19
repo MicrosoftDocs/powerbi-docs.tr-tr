@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514553"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017817"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
 
@@ -36,7 +36,7 @@ Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones –
 
  ![Alanlar listesindeki sütunlar](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  **Diğer seçenekler** üç nokta simgesini (...) seçin veya Alanlar listesindeki **ProductSubcategory** tablosuna sağ tıklayın ve sonra **Yeni Sütun**’u seçin. Bu işlem ProductSubcategory tablosunda yeni sütununuzu oluşturur.
+1.  **Diğer seçenekler**’i (...) seçin veya Alanlar listesindeki **ProductSubcategory** tablosuna sağ tıklayın ve sonra **Yeni Sütun**’u seçin. Bu işlem ProductSubcategory tablosunda yeni sütununuzu oluşturur.
     
     ![Yeni Sütun](media/desktop-tutorial-create-calculated-columns/create2.png)
     

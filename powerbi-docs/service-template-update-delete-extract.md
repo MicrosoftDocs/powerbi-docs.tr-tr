@@ -2,19 +2,18 @@
 title: Power BI şablon uygulaması güncelleştirme, silme ve ayıklama
 description: Şablon uygulamasını güncelleştirme, silme ve ayıklama.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207639"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871375"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 
@@ -65,7 +64,7 @@ Ayıklama özelliği sayesinde artık bir şablon uygulamasını önceki sürüm
 Yeni çalışma alanı sürümünüz sıfırlanır ve şablon uygulamasını yeni ayıklanan çalışma alanından geliştirmeye ve dağıtmaya devam edebilirsiniz.
 
 ## <a name="delete-template-app-version"></a>Şablon uygulaması sürümünü silme
-Şablon uygulaması çalışma alanı, etkin bir dağıtılmış şablon uygulamasının kaynağıdır. Şablon uygulaması kullanıcılarını korumak için, bir çalışma alanını, çalışma alanında oluşturulan tüm uygulama sürümlerini kaldırmadan silmek mümkün değildir.
+Şablon çalışma alanı, etkin bir dağıtılmış şablon uygulamasının kaynağıdır. Şablon uygulaması kullanıcılarını korumak için, bir çalışma alanını, çalışma alanında oluşturulan tüm uygulama sürümlerini kaldırmadan silmek mümkün değildir.
 Bir uygulama sürümü silindiğinde, artık çalışmayan uygulama url’si de silinir.
 
 1. Yayın yönetimi bölmesinde üç noktaya **(...)** ve ardından **Sil**’e basın.

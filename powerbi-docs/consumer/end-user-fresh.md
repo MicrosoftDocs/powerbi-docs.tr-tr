@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141702"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019792"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Bir *tüketici* olarak *tasarımcılar* tarafından oluşturulup sizinle paylaşılan içeriklerle etkileşim kurarsınız. Bu içeriğin güncel olup olmadığını merak edebilir ya da yalnızca içeriğin en son ne zaman yenilendiğini öğrenmek isteyebilirsiniz. En yeni içerikle çalıştığınızı bilmek size güven verir.  
  
 ![Power BI panosu](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ Uygulama ekranı hem tasarımcının adını hem de uygulamanın son güncelleş
 ### <a name="dashboard-tiles"></a>Pano kutucukları
 Pano kutucuklarının Son yenileme zaman damgasını görmek için kutucuğu Odak modunda görüntüleyin.
 
-1. Bir pano kutucuğunda üç nokta (...) simgesini seçin ve **Odak modunda aç** seçeneğini belirtin.
+1. Bir pano kutucuğunda **Diğer seçenekler** (...) ve **Odak modunda aç**’ı seçin.
 
     ![Üç noktayı seçtikten sonra görüntülenen menü](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ Pano kutucuklarının Son yenileme zaman damgasını görmek için kutucuğu Oda
     ![son yenilemenin gösterildiği geniş tarayıcı](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Panolar ve raporlar
-Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle**’yi kullanmaktır.  **İlişkilileri görüntüle** seçeneği, Power BI’ın üst menü çubuğundan üç nokta (...) kullanılabilir.
+Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle**’yi kullanmaktır.  **İlişkilileri görüntüle** seçeneği, Power BI’ın üst menü çubuğundan **Diğer seçenekler** (...) seçilerek görüntülenebilir.
 
 ![Menüden İlişkilileri görüntüle'yi seçin](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

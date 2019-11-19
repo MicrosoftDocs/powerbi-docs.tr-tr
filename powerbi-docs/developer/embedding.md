@@ -17,16 +17,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391518"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430735"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
-Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişmenize olanak tanır.
+Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken panolar, ağ geçitleri ve çalışma alanları gibi en yeni Power BI özeliklerine erişmenize olanak tanır.
 
 Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 
@@ -85,7 +85,7 @@ Geliştiriciler, Power BI Embedded kullanarak görselleri ve analitiği gelişti
 > [!IMPORTANT]
 > Ekleme Power BI hizmetini gerektirse de uygulamanızın eklenmiş içeriğini görüntülemek için müşterilerinizin bir Power BI hesabı olması gerekmez. 
 
-Üretim aşamasına geçmeye hazır olduğunuzda uygulama çalışma alanınızın ayrılmış bir kapasiteye atanması gerekir. Microsoft Azure'daki Power BI Embedded çözümü, uygulamalarınızla kullanılabilecek [ayrılmış kapasiteler](azure-pbie-create-capacity.md) sunar.
+Üretim aşamasına geçmeye hazır olduğunuzda çalışma alanınızın ayrılmış bir kapasiteye atanması gerekir. Microsoft Azure'daki Power BI Embedded çözümü, uygulamalarınızla kullanılabilecek [ayrılmış kapasiteler](azure-pbie-create-capacity.md) sunar.
 
 Ekleme işleminin ayrıntıları için bkz. [Power BI içeriğini ekleme](embed-sample-for-customers.md).
 

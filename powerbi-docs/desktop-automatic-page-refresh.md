@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: e694add3fd275cc2d3e9e0e6799adc9a16f32bbd
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307996"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429914"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -112,7 +112,7 @@ Bunun nasıl çalıştığını netleştirmek için, [kapasiteler ve çalışma 
 
 Paylaşılan kapasitede iş yükleri, diğer müşterilerle paylaşılan hesaplama kaynaklarında çalışır. Kapasitenin kaynakları paylaşması gerektiğinden, *tarafsızlığı* sağlamak için maksimum model boyutu (1 GB) ve maksimum günlük yenileme sıklığı (günde sekiz defa) ayarlama gibi sınırlamalar uygulanır.
 
-Power BI **çalışma alanları**, kapasitelerin içinde bulunur ve güvenlik, işbirliği ve dağıtım kapsayıcılarını temsil eder. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine ve dağıtıma olanak tanımak için ek çalışma alanları oluşturulabilir ve bunlar **Uygulama Çalışma Alanları** olarak bilinir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak **paylaşılan kapasitede** oluşturulur.
+Power BI **çalışma alanları**, kapasitelerin içinde bulunur ve güvenlik, işbirliği ve dağıtım kapsayıcılarını temsil eder. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine ve dağıtıma olanak tanımak için ek çalışma alanları oluşturulabilir ve bunlar **çalışma alanları** olarak bilinir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak **paylaşılan kapasitede** oluşturulur.
 
 Burada, iki çalışma alanı senaryosu için bazı ayrıntılara yer verilmiştir:
 

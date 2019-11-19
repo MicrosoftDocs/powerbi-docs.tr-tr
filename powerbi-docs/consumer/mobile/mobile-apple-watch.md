@@ -9,18 +9,18 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 23f2b41b84c387ca772fdda1397a6c5e4fce6acf
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61338943"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017667"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
 Power BI Apple Watch uygulamasıyla, Power BI panolarınızdaki KPI'leri ve kart kutucuklarını doğrudan saatinizde görüntüleyebilirsiniz. KPI'ler ve kart kutucukları küçük ekranda bir kalp atışı ölçümü sunmak üzere en iyi şekilde yerleştirilir. iPhone'dan veya doğrudan Apple Watch'tan bir panoyu yenileyebilirsiniz.
 
 ## <a name="install-the-apple-watch-app"></a>Apple Watch uygulamasını yükleme
-Power BI Apple Watch uygulaması iOS için Power BI uygulamasıyla birlikte sunulur, bu nedenle Apple App Store'dan [Power BI uygulamasını iPhone'unuza indirdiğinizde](http://go.microsoft.com/fwlink/?LinkId=522062 " iPhone uygulamasını indirin") Power BI Watch uygulamasını da otomatik olarak indirirsiniz. Apple tarafından sağlanan kılavuzda [Apple Watch uygulamalarının nasıl yükleneceği](https://support.apple.com/HT204784) açıklanmaktadır.
+Power BI Apple Watch uygulaması iOS için Power BI uygulamasıyla birlikte sunulur, bu nedenle Apple App Store'dan [Power BI uygulamasını iPhone'unuza indirdiğinizde](http://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin") Power BI Watch uygulamasını da otomatik olarak indirirsiniz. Apple tarafından sağlanan kılavuzda [Apple Watch uygulamalarının nasıl yükleneceği](https://support.apple.com/HT204784) açıklanmaktadır.
 
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch'ta Power BI uygulamasını kullanma
 Saatin duyuru panosundan veya doğrudan saat kadranındaki Power BI pencere öğesine tıklayarak (yapılandırılmışsa) Power BI Apple Watch uygulamasına gidin.
@@ -52,7 +52,7 @@ Watch Uygulaması, panonuzu Power BI hizmetindeki verilerle eşitler.
 Apple Watch'unuzdaki bir panoyu iPhone'unuzdan da yenileyebilirsiniz.
 
 1. iPhone'unuzdaki Power BI'da, Apple Watch ile eşitlemek istediğiniz panoyu açın. 
-2. Üç nokta (...) simgesini seçip **Saat ile Eşitle** seçeneğini belirleyin.
+2. **Diğer seçenekler** (...) > **Saat ile Eşitle**'yi seçin.
 
 Power BI, bir göstergede panonun saat ile eşitlendiğini gösterir.
 
@@ -88,5 +88,5 @@ Geri bildiriminiz, gelecekte neleri kullanıma sunacağımıza karar verme konus
 
 * [Power BI iPhone mobil uygulamasını](http://go.microsoft.com/fwlink/?LinkId=522062) indirin
 * [Twitter'da @MSPowerBI sayfasını](https://twitter.com/MSPowerBI) takip edin
-* [Power BI Topluluğu](http://community.powerbi.com/)'ndaki sohbetlere katılın
+* [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
 

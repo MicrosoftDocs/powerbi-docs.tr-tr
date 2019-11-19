@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139710"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432096"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
 ## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
@@ -52,7 +52,7 @@ Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sor
    ![kutucuklar içeren pano](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi yanıtı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti çubuğunda görünen panodur. Örneğin, bu soru, **mihart** uygulama çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
+* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi yanıtı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti çubuğunda görünen panodur. Örneğin, bu soru, **mihart** çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
 
   ![içerik haritaları](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Soru-Cevap hangi veri kümelerinin kullanılacağına nasıl karar veriyor**?  Soru-Cevap özelliği, ilgili panoya sabitlenmiş en az bir görselleştirmeye sahip olan tüm veri kümelerine erişim sahibidir.

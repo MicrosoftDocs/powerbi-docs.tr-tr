@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867180"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020008"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Öğretici: Power BI ile bir GitHub deposuna bağlanma
 Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şunlar gibi soruların cevaplarını görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer sorular. 
@@ -76,7 +76,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
     ![Sol gezinti bölmesindeki uygulama](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Pano adının yanındaki üç noktayı (...) seçip **Adlandır**’ı belirleyin ve **GitHub panosu** yazın.
+10. Pano adının yanındaki **Diğer seçenekler** (...) > **Yeniden adlandır**’ı seçin ve **GitHub panosu** yazın.
  
     ![Power BI GitHub kutucuğu](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

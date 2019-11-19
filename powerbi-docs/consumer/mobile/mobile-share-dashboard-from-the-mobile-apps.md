@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 6bd0b929bbf4fa7df0d13a3cc7e529bad708582e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274660"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017906"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -86,7 +86,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 3. Paylaşımı kaldırmak için herhangi bir adın yanında bulunan kırmızı daireye dokunup **Sil**'i seçin.
 
 ## <a name="share-from-your-android-device"></a>Android cihazınızdan paylaşımda bulunma
-1. Panoların veya raporların giriş sayfasında üç nokta (...) simgesine ve **İş arkadaşınızı davet edin**'e dokunun.
+1. Panoların veya raporların giriş sayfasında **Diğer seçenekler** (...) ve sonra **İş arkadaşınızı davet edin**’e dokunun.
    
    ![İş arkadaşınızı davet edin](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. Dilerseniz bir panonun veya raporun içinde Davet et simgesine dokunun ![Davet et simgesi](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png)geçin.

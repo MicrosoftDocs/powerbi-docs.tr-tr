@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715308"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060745"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Tabloya köprü (URL) ekleme
 Bu konu başlığı altında bir tabloya köprü (URL) ekleme hakkında bilgi alacaksınız. Bir tabloya veya matrise köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. 
@@ -44,7 +44,7 @@ Köprü ekleme yordamı, verileri içeri aktararak mı yoksa DirectQuery bağlan
     ![Mavi ve altı çizili bağlantılar](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > URL’ler **http:// , https://** veya **www** başlamalıdır.
+    > URL'lerin belirli ön eklerle başlaması gerekir. Eksiksiz bir liste için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
     >
    
 1. Tabloda uzun bir URL'nin görünmesini istemiyorsanız, bunun yerine köprü simgesini  ![Köprü simgesi](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) gösterebilirsiniz. Matrislerde simge gösteremezsiniz.
@@ -80,8 +80,9 @@ Power BI tablolarınıza ve matrislerinize köprü eklemenin diğer bir yolu da 
 4. İmlecinizi, Power BI tablolarında köprüye dönüştürmek istediğiniz URL'leri içeren sütuna yerleştirin.
    
    > [!NOTE]
-   > URL’ler **http:// , https://** veya **www** başlamalıdır.
+   > URL'lerin belirli ön eklerle başlaması gerekir. Eksiksiz bir liste için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
    > 
+   
 5. **Raporlama Özellikleri** grubundaki **Veri Kategorisi** açılan listesinden **Web URL'si** seçeneğini belirleyin. 
    
    ![Excel’de veri kategorisi açılan listesi](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +93,16 @@ Power BI tablolarınıza ve matrislerinize köprü eklemenin diğer bir yolu da 
    ![URL alanı ile Power BI’da bir tablo oluşturma](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
+URL’ler aşağıdakilerden biriyle başlamalıdır:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 S: Bir tablo veya matriste köprü bağlantısını özel URL olarak kullanabilir miyim?    
 C: Hayır. Bir bağlantı simgesi kullanabilirsiniz. Köprü bağlantılarınız için özel metin gerekirse ve URL listeniz kısaysa, bunun yerine bir metin kutusu kullanmayı düşünün.
 

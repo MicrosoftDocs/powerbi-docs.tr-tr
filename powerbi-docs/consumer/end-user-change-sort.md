@@ -7,25 +7,34 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 98a91b0651e7a357f0ba0462f6ba8734c64ab162
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302739"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019952"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
-Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre sıralanmıştır.
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilir ve görselin bu eğilimi yansıtmasını (veya vurgulamasını) sağlayabilirsiniz.
+
+İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz şekilde sıralayabilir ve istediğiniz gibi görünmelerini sağlayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. Herhangi bir görselde **Diğer eylemler** (...) öğesini seçin ve ardından sıralamayı istediğiniz alanı seçin.
+
+![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/power-bi-more-actions.png)
+
+Bir panodaki görseller sıralanamaz ancak Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre alfabetik olarak sıralanmıştır.
 
 ![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürebilirsiniz.
 
-1. Üç nokta (...) simgesini seçin ve ardından **Sıralama ölçütü: Sales Per Sq Ft** seçeneğini belirleyin.
-2. Gerekirse, üç nokta simgesini yeniden seçin ve **Azalan düzende sırala** seçeneğini belirleyin.
+1. **Diğer eylemler** (...) ve **Sıralama ölçütü > Fit Kare Başına Satış**’ı seçin.
+2. Gerekirse, **Diğer eylemler**’i (...) tekrar seçip **Azalan düzende sırala**’yı seçin. Sıralamak için kullanılan alan kalın yazı tipindedir ve sarı bir çubuğa sahiptir.
 
    ![sıralamanın ve ardından artan, azalan ayarının seçilmesini gösteren video](media/end-user-change-sort/sort.gif)
 
@@ -41,9 +50,9 @@ Ancak, **Varsayılana sıfırla** düğmesi griyse, bu durum rapor tasarımcıs�
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Diğer ölçütleri kullanarak sıralama
-Bazı durumlarda görselinizi farklı bir alana veya ölçüte göre sıralamak isteyebilirsiniz.  Örneğin, aya göre (alfabetik sırada değil) veya tek basamak yerine sayının tamamına göre (ör. 0, 1, 20, 9 değil 0, 1, 9, 20 şeklinde) sıralama yapmak isteyebilirsiniz.  
+Bazı durumlarda görselinizi farklı bir alana (görsele dahil olmayan) veya ölçüte göre sıralamak isteyebilirsiniz.  Örneğin, aya göre (alfabetik sırada değil) veya tek basamak yerine sayının tamamına göre (ör. 0, 1, 20, 9 değil 0, 1, 9, 20 şeklinde) sıralama yapmak isteyebilirsiniz.  Rapor tasarımcısı bu sıralama türünü etkinleştirmek için veri kümesini güncelleştirebilir. Tasarımcının iletişim bilgileri başlık çubuğundan rapor adı seçilerek bulunabilir.
 
-Bazı durumlarda görseli istediğiniz şekilde (örneğin, aya göre) sıralayabilirsiniz.  Aksi halde, raporun temel aldığı veri kümesinde değişiklik yapmanız gerekebilir. Rapor tasarımcısından veri kümesini güncelleştirmesini isteyin.
+![İletişim bilgilerini gösteren açılır menü](media/end-user-change-sort/power-bi-contact.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](end-user-visualizations.md) hakkında daha fazla bilgi.

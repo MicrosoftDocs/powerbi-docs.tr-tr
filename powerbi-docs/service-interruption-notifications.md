@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: f1d1a22f676873e3a68edf891c4b23522904ddd9
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073566"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169019"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -28,7 +28,7 @@ Görev açısından kritik iş uygulamalarınızın kullanılabilirliği hakkın
 - Model yenileme güvenilirliği
 - Sorgu yenileme güvenilirliği
 
-Kullanıcıların, raporları açma, veri kümelerini yenileme veya sorgu yürütme gibi işlemlerde daha fazla gecikme yaşaması durumları, bu bildirimlerin örneklerine dahil edilebilir. Bir olay çözümlendikten sonra bir izleme e-postası alırsınız.
+Raporları açma, veri kümesi yenileme veya sorgu yürütme gibi işlemlerde _uzun gecikme_ yaşandığında bildirim gönderilir. Bir olay çözümlendikten sonra bir izleme e-postası alırsınız.
 
 > [!NOTE]
 > Bu özellik, şu anda yalnızca Power BI Premium’daki ayrılmış kapasiteler için sunulmaktadır. Paylaşılan veya ekli kapasite için sunulmamaktadır.

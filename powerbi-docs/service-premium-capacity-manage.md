@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175212"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431724"
 ---
 # <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 
@@ -42,7 +42,7 @@ En az bir Kapasite Yöneticisinin atanması gerekir. Kapasite Yöneticisi olarak
 
 Kapasite Yöneticileri, çalışma alanı izinlerine açıkça atanmadıkça çalışma alanı içeriğine erişemez. Kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetim alanlarına da erişim izinleri yoktur (açıkça atanmadıkları sürece). Önemli bir bilgi olarak, Kapasite Yöneticilerinin yeni kapasiteler oluşturma veya mevcut kapasiteleri ölçeklendirme izinleri yoktur. Yöneticiler kapasite temelinde atanır. Bu sayede yalnızda atandıkları kapasiteleri görüntüleyip yönetebilirler.
 
-Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtlanmış olan bir SKU seçenekleri listesinden seçilir. Havuzdan, kaynakları bir veya daha fazla satın alınan SKU’dan kullanılan birden fazla kapasite oluşturulması mümkündür. Örneğin, bir P3 SKU (32 sanal çekirdek) üç kapasite oluşturmak için kullanılabilir: bir P2 (16 sanal çekirdek) ve iki P1 (2 x 8 sanal çekirdek). Gelişmiş performans ve ölçek, [Premium Kapasiteleri İyileştirme](service-premium-capacity-optimize.md) makalesinde açıklandığı gibi daha küçük boyutlu kapasiteler oluşturularak elde edilebilir. Aşağıdaki görüntüde, her biri uygulama çalışma alanları ve paylaşılan kapasitede birkaç çalışma alanı içeren beş Premium kapasiteden (3 x P1 ve 2 x P3) oluşan kurgusal Contoso kuruluşu için örnek bir kurulum gösterilmektedir.
+Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtlanmış olan bir SKU seçenekleri listesinden seçilir. Havuzdan, kaynakları bir veya daha fazla satın alınan SKU’dan kullanılan birden fazla kapasite oluşturulması mümkündür. Örneğin, bir P3 SKU (32 sanal çekirdek) üç kapasite oluşturmak için kullanılabilir: bir P2 (16 sanal çekirdek) ve iki P1 (2 x 8 sanal çekirdek). Gelişmiş performans ve ölçek, [Premium Kapasiteleri İyileştirme](service-premium-capacity-optimize.md) makalesinde açıklandığı gibi daha küçük boyutlu kapasiteler oluşturularak elde edilebilir. Aşağıdaki görüntüde, her biri çalışma alanı ve paylaşılan kapasitede birkaç çalışma alanı içeren beş Premium kapasiteden (3 x P1 ve 2 x P3) oluşan kurgusal Contoso kuruluşu için örnek bir kurulum gösterilmektedir.
 
 ![Kurgusal Contoso kuruluşu için örnek kurulumu](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +66,7 @@ Premium kapasitenin silinmesi mümkün değildir ve çalışma alanları ile iç
 
 ### <a name="assigning-workspaces-to-capacities"></a>Kapasiteye çalışma alanları atama
 
-Çalışma alanları, Power BI yönetim portalındaki veya bir uygulama çalışma alanı için **Çalışma Alanı** bölmesindeki bir Premium kapasiteye atanabilir.
+Çalışma alanları, Power BI yönetim portalındaki veya bir çalışma alanı için **Çalışma Alanı** bölmesindeki bir Premium kapasiteye atanabilir.
 
 Kapasite Yöneticilerinin yanı sıra Office 365 Genel Yöneticileri veya Power BI hizmeti yöneticileri, Power BI Yönetim portalında çalışma alanlarını toplu olarak atayabilir. Toplu atama şunlara uygulanabilir:
 

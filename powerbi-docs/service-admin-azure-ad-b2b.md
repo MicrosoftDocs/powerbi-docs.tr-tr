@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 8de1b483f31a540cf27a89d94167d919a2a85e95
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075762"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431433"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -81,7 +81,7 @@ Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının d
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium kullanma
 
-Uygulama çalışma alanının [Power BI Premium kapasitesine](service-premium-what-is.md) atanması, konuk kullanıcının uygulamayı bir Power BI Pro lisansına ihtiyaç duymadan kullanabilmesine olanak sağlar. Power BI Premium uygulamaların artırılmış yenileme sıklığı, ayrılmış kapasite ve büyük model boyutları gibi başka özelliklerden de yararlanmasına izin verir.
+Çalışma alanının [Power BI Premium kapasitesine](service-premium-what-is.md) atanması, konuk kullanıcının uygulamayı bir Power BI Pro lisansına ihtiyaç duymadan kullanabilmesine olanak sağlar. Power BI Premium uygulamaların artırılmış yenileme sıklığı, ayrılmış kapasite ve büyük model boyutları gibi başka özelliklerden de yararlanmasına izin verir.
 
 ![Power BI Premium ile konuk kullanıcı deneyiminin diyagramı.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +113,8 @@ Bu kullanıcıların Power BI'da oturum açmalarına yardımcı olmak için onla
 
 * Varsayılan olarak, dış Azure AD B2B konukları yalnızca içeriğin tüketimiyle sınırlandırır. Dış Azure AD B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar. Öte yandan, bu kısıtlamalar [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğiyle erişim kazanan konuk kullanıcılar için geçerli değildir.
 
+* Konuk kullanıcıları davet etmek için bir Power BI Pro lisansı gerekir. Pro Deneme kullanıcıları Power BI’da konuk kullanıcı davet edemez.
+
 * [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğiyle etkinleştirilen konuk kullanıcılara bazı deneyimler sağlanmaz. Raporları güncelleştirmek veya yayımlamak için, Power BI Desktop dosyalarını karşıya yüklerken Veri Al'ı kullanmak da dahil olmak üzere Power BI hizmeti web kullanıcı arabirimini kullanmaları gerekir.  Aşağıdaki deneyimler desteklenmez:
     * Power BI Desktop'tan Power BI hizmetine doğrudan yayımlama
     * Konuk kullanıcılar Power BI hizmetindeki hizmet veri kümelerine bağlanmak için Power BI Desktop kullanamaz
@@ -127,7 +129,12 @@ Bu kullanıcıların Power BI'da oturum açmalarına yardımcı olmak için onla
     * Konuk kullanıcılar Excel'de Çözümle özelliğini kullanamaz
     * Konuk kullanıcılar yorumlarda @mentioned olarak yer alamaz
     * Konuk kullanıcılar abonelikleri kullanamaz
-    * Bu özelliği kullanan konuk kullanıcıların iş veya okul hesabı olmalıdır. Kişisel hesaplarını kullanan konuk kullanıcılar oturum açma kısıtlamalarından kaynaklanan daha fazla sınırlamayla karşılaşır.
+    * Bu özelliği kullanan konuk kullanıcıların iş veya okul hesabı olmalıdır. 
+    
+* Kişisel hesaplarını kullanan konuk kullanıcılar oturum açma kısıtlamalarından kaynaklanan daha fazla sınırlamayla karşılaşır.
+    * Power BI hizmetindeki tüketim deneyimlerini bir web tarayıcısı aracılığıyla kullanabilirler
+    * Power BI Mobil uygulamalarını kullanamazlar.
+    * Bir iş veya okul hesabının gerekli olduğu durumda kimlik bilgilerini sağlamak üzere oturum açamazlar.
 
 * Bu özellik şu anda Power BI SharePoint Online raporu web bölümüyle kullanılamaz.
 

@@ -7,53 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/23/2018
+ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c42d96fea37a6309908dd357425c3d0504e18397
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
+ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61410265"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73049172"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-[1. Bölüm](power-bi-report-add-visualizations-ii.md)'de alan adlarının yanında bulunan onay kutularını seçerek temel görselleştirmeler oluşturdunuz.  2\. Bölüm'de sürükle bırak işlevini nasıl kullanacağınızı ve her türlü görselleştirmeyi oluşturmak ve değiştirmek için **Alanlar** ve **Görsel Öğeler** bölmelerini tam olarak nasıl kullanabileceğinizi öğreneceksiniz.
 
-### <a name="prerequisites"></a>Önkoşullar
-- [Bölüm 1](power-bi-report-add-visualizations-ii.md)
-- Power BI Desktop - Power BI hizmeti veya Power BI Desktop kullanılarak, raporlara görsel öğeler eklenebilir. Bu öğretici, Power BI Desktop uygulamasını kullanır. 
-- [Perakende Analizi örneği](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+[1. Bölüm](power-bi-report-add-visualizations-i.md)'de alan adlarının yanında bulunan onay kutularını seçerek temel görselleştirmeler oluşturdunuz.  2\. Bölüm'de sürükle bırak işlevini nasıl kullanacağınızı ve her türlü görselleştirmeyi oluşturmak ve değiştirmek için **Alanlar** ve **Görsel Öğeler** bölmelerini tam olarak nasıl kullanabileceğinizi öğreneceksiniz.
+
 
 ## <a name="create-a-new-visualization"></a>Yeni görselleştirme oluşturma
-Bu eğitim kapsamında Perakende Analizi veri kümesini derinlemesine inceleyeceğiz ve birkaç anahtar görselleştirme oluşturacağız.
+Bu öğreticide Perakende Analizi veri kümesini derinlemesine inceleyeceğiz ve birkaç temel görselleştirme oluşturacağız.
 
-### <a name="open-a-report-and-add-a-new-blank-page"></a>Bir rapor açın ve boş bir sayfa ekleyin.
-1. Power BI Desktop’ta Perakende Analizi örneği .PBIX dosyasını açın. 
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
+## <a name="prerequisites"></a>Önkoşullar
 
-2. Tuvalin alt kısmında bulunan sarı artı simgesini seçerek yeni sayfa ekleyin.
+Bu öğreticide [Perakende analizi örneği PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Bu yılın satışlarıyla geçen yılın satışlarının karşılaştırılmasının incelendiği bir görselleştirme ekleyin.
-1. **Sales** tablosundan, **This Year Sales** > **Değer** ve **Last Year Sales** öğelerini seçin. Power BI, bir sütun grafik oluşturur.  Bu verinin ilginizi çektiğini farz ederek daha derinlemesine inceleyelim. Aylara göre satışların görünümü nasıl?  
+1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
    
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-barchart.png)
+2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
+
+1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
+## <a name="add-visualizations-to-the-report"></a>Rapora görselleştirme ekleme
+
+**Alanlar** bölmesindeki alanlardan birini seçerek bir görselleştirme oluşturun. Oluşturulan görselleştirme türü, seçilen alanın türüne bağlıdır. Power BI, sonuçları göstermek için kullanılacak görselleştirmeyi belirlemek için veri türünü kullanır. Görselleştirmeler bölmesinden farklı bir simge seçerek kullanılan görselleştirmeyi değiştirebilirsiniz. Tüm görselleştirmelerin verilerinizi göstermeyeceğini aklınızda bulundurun. Örneğin, coğrafi veriler bir huni grafiği veya çizgi grafik kullanılarak iyi görüntülenmez. 
+
+
+### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>Bu yılın satışlarıyla geçen yılın satışlarının karşılaştırılmasının incelendiği bir alan grafiği ekleyin
+
+1. **Sales** tablosundan, **This Year Sales** > **Değer** ve **Last Year Sales** öğelerini seçin. Power BI, bir sütun grafik oluşturur.  Bu grafik ilginizi çektiği için daha derinlemesine incelemek istiyorsunuz. Aylara göre satışların görünümü nasıl?  
+   
+   ![Sütun grafiğini gösteren ekran görüntüsü](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
+
 2. Time tablosundan **FiscalMonth** öğesini **Eksen** alanına sürükleyin.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-month.png)
-3. [Görselleştirmeyi değiştirerek](power-bi-report-change-visualization-type.md) bir Alan grafiğine dönüştürün.  Aralarından seçim yapabileceğiniz pek çok görselleştirme türü bulunur. Hangi türü kullanacağınıza karar vermek için [her birinin açıklamasına, en iyi uygulama ipuçlarına ve eğitimlere](power-bi-visualization-types-for-reports-and-q-and-a.md) başvurabilirsiniz. Görsel Öğeler bölmesinden Alan grafiği simgesini ![](media/power-bi-report-add-visualizations-ii/power-bi-areachart.png) seçin.
-4. Üç nokta simgesini seçip ardından **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyerek görselleştirmeyi sıralayın.
+   ![Eksen olarak FiscalMonth ile sütun grafiğini gösteren ekran görüntüsü](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
+
+3. [Görselleştirmeyi değiştirerek](power-bi-report-change-visualization-type.md) bir alan grafiğine dönüştürün.  Aralarından seçim yapabileceğiniz pek çok görselleştirme türü bulunur. Hangi türü kullanacağınıza karar vermek için [her birinin açıklamasına, en iyi uygulama ipuçlarına ve öğreticilere](power-bi-visualization-types-for-reports-and-q-and-a.md) başvurabilirsiniz. Görselleştirmeler bölmesinden alan grafiği simgesini ![Görselleştirmeler bölmesindeki Alan grafiği simgesi](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png) seçin.
+
+4. **Diğer eylemler**’i (...) ve **Sıralama ölçütü** >  **FiscalMonth** öğesini seçerek görselleştirmeyi sıralayın.
+
 5. Görselleştirmeyi seçerek ve ana hat dairelerinden birini yakalayıp sürükleyerek [görselleştirmeyi yeniden boyutlandırın](power-bi-visualization-move-and-resize.md). Kaydırma çubuğunu ortadan kaldırmak için yeterince geniş ve bir başka görselleştirme eklememiz için alan bırakacak kadar da küçük olmasını sağlayın.
    
    ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Raporu kaydedin](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Konuma göre satışları gösteren bir harita görselleştirmesi ekleyin.
-1. **Store** tablosundan **Territory** öğesini seçin. Power BI, Territory'nin bir konum olduğunu algılayarak bir harita görselleştirmesi oluşturur.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map.png)
-2. **Total Stores** öğesini Boyut alanına sürükleyin.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-map2.png)
-3. Bir açıklama ekleyin.  Veriyi mağaza adına göre görmek için **Chain** öğesini Açıklama alanına sürükleyin.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-legend.png)
+
+1. **Store** tablosundan **Territory** öğesini seçin. **Total Stores** öğesini Boyut alanına sürükleyin. Power BI, Territory'nin bir konum olduğunu algılayarak bir harita görselleştirmesi oluşturur.  
+   ![Alan grafiği](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
+
+2. Bir açıklama ekleyin.  Verileri mağaza adına göre görmek için **Mağaza** > **Zincir** öğesini Gösterge alanına sürükleyin.  
+   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi.  

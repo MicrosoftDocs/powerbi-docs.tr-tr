@@ -1,6 +1,6 @@
 ---
 title: Power BI’a veri akışı olarak bir CDM klasörü ekleme
-description: Bir uygulama çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
+description: Bir çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522762"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432031"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -33,7 +33,7 @@ Aşağıdaki bölümlerde bir CDM klasöründen veri akışı oluşturma işlemi
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM klasöründen veri akışı oluşturma
 
-CDM klasöründen veri akışı oluşturmaya başlamak için **Power BI hizmetini** başlatın ve sol gezinti bölmesinden bir **uygulama çalışma alanı** seçin. İçinde yeni veri akışı oluşturabileceğiniz yeni bir çalışma alanı da oluşturabilirsiniz.
+CDM klasöründen veri akışı oluşturmaya başlamak için **Power BI hizmetini** başlatın ve sol gezinti bölmesinden bir **çalışma alanı** seçin. İçinde yeni veri akışı oluşturabileceğiniz yeni bir çalışma alanı da oluşturabilirsiniz.
 
 ![Power BI hizmetinde veri akışı oluşturma](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,7 +74,7 @@ Aşağıdaki listede açıklandığı gibi, dikkate alınacak bazı ek unsurlar 
 
 **Power BI Desktop** müşterileri, veri akışının sahibi olmadığı veya veri akışının CDM klasörüne yönelik açıkça yetkilendirilmediği sürece, Azure Data Lake Storage 2. Nesil hesabında depolanan veri akışlarına erişemez. Aşağıdaki durumu dikkate alın:
 
-1.  Ayşe yeni bir uygulama çalışma alanı oluşturur ve CDM klasöründen veri akışları depolanacak şekilde bu çalışma alanını yapılandırır.
+1.  Ayşe yeni bir çalışma alanı oluşturuyor ve CDM klasöründen veri akışları depolanacak şekilde bu çalışma alanını yapılandırıyor.
 2.  Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu veri akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
 3.  Berk, veri gölünde veri akışının CDM klasörüne yetkili bir kullanıcı olarak eklenmediğinden bir hata alır.
 

@@ -2,7 +2,6 @@
 title: Power BI Mobil uygulamalarında kullanmak üzere bir rapor için QR kodu oluşturma
 description: Power BI'daki QR kodları kullanılarak gerçek dünyadaki her şey, Power BI Mobil uygulamasındaki ilgili BI bilgilerine, arama gerekmeden doğrudan bağlanabilir.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160716"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853381"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir rapor için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey, ilgili BI bilgilerine, gezinti ve arama gerekmeden doğrudan bağlanabilir.
@@ -26,7 +25,7 @@ Raporu paylaştığınız iş arkadaşlarınız [QR kodunu tarayarak doğrudan m
 
 ## <a name="create-a-qr-code-for-a-report"></a>Rapor için QR kodu oluşturma
 1. Power BI hizmetinde bir raporu açın.
-2. Sağ üst köşedeki üç nokta (...) simgesini seçin ve **QR kodu oluştur** seçeneğini belirleyin. 
+2. Sağ üst köşedeki **Diğer seçenekler** (...) düğmesini ve **QR kodu oluştur**’u seçin. 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. QR kodunu içeren bir iletişim kutusu görünür. 
@@ -51,5 +50,5 @@ Power BI, QR kodunu, JPG dosyası olarak yazdırılmaya hazır bir şekilde olu�
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [Mobil cihazınızdan Power BI QR kodu tarama](consumer/mobile/mobile-apps-qr-code.md)
 * [Bir kutucuk için QR kodu oluşturma](service-create-qr-code-for-tile.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

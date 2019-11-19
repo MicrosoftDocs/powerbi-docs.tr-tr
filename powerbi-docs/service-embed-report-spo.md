@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073605"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431892"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -79,11 +79,11 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki ve uygulama çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklemedir. Daha fazla bilgi için bkz. [Bir uygulama çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklemedir. Daha fazla bilgi için bkz. [Bir çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 İkinci yöntem de bir uygulamaya rapor ekleyip bunu kullanıcılarla doğrudan paylaşmadır:  
 
-1. Bir Pro kullanıcısı olması gereken yazar, uygulama çalışma alanında bir rapor oluşturur. *Power BI ücretsiz kullanıcılarıyla* paylaşım yapabilmek için uygulama çalışma alanının *Premium çalışma alanı* olarak ayarlanması gerekir.
+1. Bir Pro kullanıcısı olması gereken yazar, çalışma alanında bir rapor oluşturur. *Power BI ücretsiz kullanıcılarıyla* paylaşım yapabilmek için çalışma alanının *Premium çalışma alanı* olarak ayarlanması gerekir.
 
 2. Yazar uygulamayı yayımlar ve yükler. Uygulamanın SharePoint Online’a eklemek için kullanılan rapor URL’sine erişimi olması için yazarın uygulamayı yüklemesi gerekir.
 
@@ -93,7 +93,7 @@ Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, Sh
 
 4. Yazar uygulamayı açar ve rapora gider.
 
-5. Yazar, uygulama tarafından yüklenen raporun ekleme URL'sini kopyalar. Uygulama çalışma alanında bulunan özgün rapor URL’sini kullanmayın.
+5. Yazar, uygulama tarafından yüklenen raporun ekleme URL'sini kopyalar. Çalışma alanında bulunan özgün rapor URL’sini kullanmayın.
 
 6. SharePoint Online'da yeni bir ekip sitesi oluşturun.
 

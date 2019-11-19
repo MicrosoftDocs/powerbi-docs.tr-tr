@@ -2,20 +2,19 @@
 title: Büyük veri kümeleri, veri noktası sınırları ve veri stratejileri
 description: Veri azaltma stratejileri ve görseller için veri sınırları
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276463"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011292"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları
 
@@ -64,7 +63,7 @@ Bkz. [Satır örnekleme nasıl çalışır?](../desktop-high-density-sampling.md
 - Kategorik moddayken
     - Kategoriler: Aynı anda 500 satırlık Pencere kullanılarak sanallaştırma
     - Seri: İlk 60
-    - Skaler modundayken (bu, dinamik sınırları kullanabilir)
+    - Skaler modundayken (dinamik sınırları kullanabilir)
         - Maksimum nokta sayısı: 10.000
         - Kategoriler: 500 değerlik örnek
         - Seri: İlk 20 değer
@@ -113,8 +112,8 @@ Yapılandırmaya bağlı olarak bir haritada şunlar bulunabilir:
 - Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](desktop-high-density-scatter-charts.md)
 - Enlem, Boylam, Boyut: İlk 3.500
 - Gösterge, Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](desktop-high-density-scatter-charts.md)
-- Gösterge, Enlem, Boylam, Boyut: İlk 233 gösterge, İlk 15 enlem ve boylam (bu, istatistikleri veya dinamik sınırları kullanabilir)
-- Toplamalar olarak Konum, Gösterge, Enlem Boylam (+/-Boyut): İlk 233 konum, İlk 15 gösterge (bu, istatistikleri veya dinamik sınırları kullanabilir)
+- Gösterge, Enlem, Boylam, Boyut: İlk 233 gösterge, İlk 15 enlem ve boylam (istatistikleri veya dinamik sınırları kullanabilir)
+- Toplamalar olarak Konum, Gösterge, Enlem ve Boylam (+/-Boyut): İlk 233 konum, İlk 15 gösterge (istatistikleri veya dinamik sınırları kullanabilir)
 
 ### <a name="matrix"></a>Matris
 - Satırlar: Aynı anda 500 satırlık Pencere kullanılarak sanallaştırma
@@ -142,21 +141,20 @@ Bkz. [Yüksek yoğunluklu dağılım](https://docs.microsoft.com/power-bi/visual
 - Kategorik moddayken
     - Kategoriler: Aynı anda 500 satırlık Pencere kullanılarak sanallaştırma (veri pencereleme)
     - Seri: İlk 60
-    - Skaler modundayken (bu, dinamik sınırları kullanabilir)
+    - Skaler modundayken (dinamik sınırları kullanabilir)
         - Maksimum nokta sayısı: 10.000
         - Kategoriler: 500 değerlik örnek
         - Seri: İlk 20 değer
 
-### <a name="shape-map"></a>Şekil haritası
-Kartogram, istatistikleri veya dinamik sınırları kullanabilir. 
-- Maksimum nokta sayısı: 10.000
+### <a name="shape-map-preview"></a>Şekil haritası (Önizleme)
+Şekil haritası, istatistikleri veya dinamik sınırları kullanabilir. 
+- Maksimum nokta sayısı: 1.500
 - Kategoriler: İlk 500
-- Seri (hem X hem Y mevcut olduğunda): İlk 20
 
 ### <a name="table"></a>Tablo
 - Değerler: Aynı anda 500 satırlık Pencere kullanılarak sanallaştırma (veri pencereleme)
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Ağaç harita (bu, istatistikleri veya dinamik sınırları kullanabilir)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Ağaç harita (istatistikleri veya dinamik sınırları kullanabilir)
 - Maksimum nokta sayısı: 3.500
 - Grup: İlk 500
 - Ayrıntılar: İlk 20

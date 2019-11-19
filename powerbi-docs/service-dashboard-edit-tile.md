@@ -2,7 +2,6 @@
 title: Pano kutucuğunu düzenleme
 description: Bu eğitimde kutucuk oluşturup panoya sabitlemenin yanı sıra pano kutucuğunu nasıl düzenleyeceğinizi (yeniden boyutlandırma, taşıma, yeniden adlandırma, sabitleme, silme ve köprü ekleme) öğreneceksiniz.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720560"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877482"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 
@@ -83,9 +82,9 @@ Kutucuklar için 1x1'den 5x5'e kadar birçok farklı boyut belirleyebilirsiniz. 
 ![video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>Üç nokta (...) menüsü
+## <a name="more-options--menu"></a>**Diğer seçenekler** (...) menüsü
 
-1. Kutucuğun sağ üst köşesindeki üç nokta (...) simgesini seçin. 
+1. Kutucuğun sağ üst köşesindeki **Diğer seçenekler**’i (...) seçin. 
    
    ![kutucuk üç noktası](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

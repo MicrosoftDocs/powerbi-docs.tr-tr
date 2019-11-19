@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 7d2bfbfb53914fea43014c78d88ac0c66559466c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074842"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431355"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
 
@@ -70,7 +70,7 @@ Rol adının veya Üyeler'in yanında parantez içinde gösterilen sayıya bakar
 
 Tanımladığınız rolü test ederek rolün doğru şekilde çalışıp çalışmadığını doğrulayabilirsiniz. 
 
-1. Rolün yanındaki **üç nokta (...)** simgesini seçin.
+1. Rolün yanındaki **Diğer seçenekler** (...) düğmesini seçin.
 2. **Verileri role göre test et** seçeneğini belirleyin
 
 ![Role göre test et](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +89,12 @@ Normal görüntülemeye geri dönmek için **Satır Düzeyi Güvenliğe Geri Dö
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Power BI'da uygulama çalışma alanlarıyla RLS'yi kullanma
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Power BI'da çalışma alanlarıyla RLS'yi kullanma
 
-Power BI Desktop raporunuzu Power BI hizmetindeki bir uygulama çalışma alanında yayımlarsanız roller salt okunur üyeler için geçerli olur. Uygulama çalışma alanı ayarlarında üyelerin Power BI içeriğini yalnızca görüntüleyebileceklerini belirtmeniz gerekir.
+Power BI Desktop raporunuzu Power BI hizmetindeki bir çalışma alanında yayımlarsanız roller salt okunur üyeler için geçerli olur. Çalışma alanı ayarlarında üyelerin Power BI içeriğini yalnızca görüntüleyebileceklerini belirtmeniz gerekir.
 
 > [!WARNING]
-> Uygulama çalışma alanını yapılandırırken üyelerin, düzenleme izinlerine sahip olacağını belirtirseniz RLS rolleri söz konusu üyeler için geçerli olmaz. Bu durumda, kullanıcılar tüm verileri görebilir.
+> Çalışma alanını yapılandırırken üyelerin, düzenleme izinlerine sahip olacağını belirtirseniz RLS rolleri söz konusu üyeler için geçerli olmaz. Bu durumda, kullanıcılar tüm verileri görebilir.
 
 ![Grup ayarları](media/service-admin-rls/rls-group-settings.png)
 

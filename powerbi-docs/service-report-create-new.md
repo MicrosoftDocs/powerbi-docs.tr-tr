@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523073"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432207"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde rapor oluşturma
 [Power BI'daki raporlar](consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın farklı yolları vardır. Bu makalede, Power BI hizmetinde bir Excel veri kümesinden temel bir rapor oluşturarak başlayacağız. Rapor oluşturmanın temeli anladıktan sonra, raporlara yönelik daha gelişmiş konu başlıkları için [sonraki adımlara](#next-steps) göz atın.  
@@ -29,7 +29,7 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 
 1. Raporu bir Power BI hizmeti çalışma alanında oluşturacağımızdan mevcut bir çalışma alanını seçin veya bir tane oluşturun.
    
-   ![Uygulama çalışma alanlarının listesi](media/service-report-create-new/power-bi-workspaces2.png)
+   ![çalışma alanlarının listesi](media/service-report-create-new/power-bi-workspaces2.png)
 2. Sol gezinti bölmesinin alt kısmında bulunan **Veri al** seçeneğini belirleyin.
    
    ![Veri al](media/service-report-create-new/power-bi-get-data3.png)

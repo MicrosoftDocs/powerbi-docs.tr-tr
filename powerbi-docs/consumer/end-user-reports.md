@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903716"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019329"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan kişi de olabilirsiniz. Bu makale *tüketiciler* içindir.
 
@@ -27,7 +29,7 @@ A. Bu raporda altı sayfa (veya sekme) bulunuyor ve şu anda **Yaklaşım** sayf
 B. Bu sayfada beş farklı görsel ve bir sayfa başlığı bulunuyor.    
 C. *Filtreler* bölmesi tüm rapor sayfalarına bir filtre uygulandığını gösteriyor. Filtreler bölmesini daraltmak için oku ( **>** ) seçin.    
 D. Power BI başlığı, raporun adını ve son güncelleştirme tarihini görüntüler. Rapor sahibinin adını da gösteren bir menü açmak için oku seçin.    
-E. Eylem çubuğu, bu raporda gerçekleştirebileceğiniz eylemleri içerir.  Örneğin, bir yorum ekleyebilir, bir yer işaretini görüntüleyebilir veya verileri rapordan dışarı aktarabilirsiniz.  Ek rapor işlevlerinin listesini göstermek için üç nokta (...) simgesini seçin.    
+E. Eylem çubuğu, bu raporda gerçekleştirebileceğiniz eylemleri içerir.  Örneğin, bir yorum ekleyebilir, bir yer işaretini görüntüleyebilir veya verileri rapordan dışarı aktarabilirsiniz.  Ek rapor işlevlerinin listesini göstermek için **Diğer seçenekler** (...) simgesini seçin.    
 
 Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti tüketicileri için temel kavramlar](end-user-basic-concepts.md) makalesini okuyarak iyi bir temel oluşturabilirsiniz. Raporlar mobil cihazlarda görüntülenebilir, paylaşılabilir ve raporlara not eklenebilir. Daha fazla bilgi için bkz. [Power BI mobil uygulamalarında raporları araştırma](mobile/mobile-reports-in-the-mobile-apps.md).
 

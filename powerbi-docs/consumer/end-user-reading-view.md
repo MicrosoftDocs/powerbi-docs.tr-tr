@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236982"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019588"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
 Bu hızlı başlangıçta Power BI ile etkileşim kurarak veri temelli iş içgörülerini keşfetmeyi öğreneceksiniz. Bu makalede ayrıntılı bilgiler yerine Power BI **tüketicileri** için sunulan eylemlerin bazılarıyla ilgili kısa bilgiler verilmektedir.
@@ -118,7 +118,7 @@ Görseller veri noktalarından oluşur ve bir veri noktasının üzerine geldiğ
 ### <a name="favorite-a-dashboard"></a>Bir panoyu sık kullanılanlara ekleme
 İçeriği *sık kullanılanlara* eklediğinizde buna gezinti çubuğundan erişebilirsiniz. Gezinti çubuğu, Power BI'ın neredeyse tüm alanlarından görünür. Sık kullanılanlar, en çok ziyaret ettiğiniz panolar, rapor sayfaları ve uygulamalardır.
 
-Power BI hizmetinin sağ üst köşesinde **Sık Kullanılan**’ı seçin veya bu görünmüyorsa üç noktayı (...) seçin ve açılan listeden **Sık Kullanılan**’ı seçin. 
+Power BI hizmetinin sağ üst köşesinde **Sık Kullan**’ı seçin veya bu seçenek görünmüyorsa **Diğer seçenekler**’i (...) ve açılır listeden **Sık Kullanılan**’ı seçin. 
    
 ![Sık kullanılan simgesi](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Görselin üzerine gelip **Odak modu** simgesini ![](media/end-user-reading-view
 ### <a name="sort-a-visualization"></a>Bir görselleştirmeyi sıralama
 Bir rapor sayfasındaki görseller sıralanabilir ve yaptığınız değişiklikler kaydedilebilir. 
 
-Görseli etkinleştirmek için üzerine gelin ve üç noktayı (...) seçerek sıralama seçeneklerini açın.
+Görseli etkinleştirmek için üzerine gelin ve **Diğer seçenekler**’i (...) seçerek sıralama seçeneklerini açın.
 
 ![bir grafiği sıralama](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Görseli etkinleştirmek için üzerine gelin ve üç noktayı (...) seçerek s�
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
 Power BI görselleştirmeleri, bağlı veri kümelerindeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. **Verileri Göster**'i seçtiğinizde, Power BI ilgili verileri görselleştirmenin altında (veya yanında) görüntüler.
 
-Görsel etkin durumdayken üç noktayı (...) seçin ve sonra da **Verileri göster**’i seçin.
+Bir görsel etkinken **Diğer seçenekler**’i (...) ve **Verileri göster**’i seçin.
    
    ![Verileri Göster’i seçme](./media/end-user-show-data/power-bi-explore-show-data.png)
 

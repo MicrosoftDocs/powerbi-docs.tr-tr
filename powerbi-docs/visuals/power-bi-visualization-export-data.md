@@ -3,24 +3,24 @@ title: Bir Power BI görselleştirmesindeki verileri dışarı aktarma
 description: Bir rapor görselleştirmesindeki ve pano görselleştirmesindeki verileri dışarı aktarıp Excel'de görüntüleyin.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431104"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060477"
 ---
 # <a name="export-data-from-visualizations"></a>Görselleştirmelerdeki verileri dışarı aktarma
 
-Bir görselleştirmenin oluşturulması için Power BI’ın kullandığı verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilirsiniz](service-reports-show-data.md). Bu verileri bir *.xlsx* veya *.csv* dosyası olarak Excel'e de aktarabilirsiniz. Verileri dışarı aktarma seçeneği Pro veya Premium lisansına ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir.
+Bir görselleştirmenin oluşturulması için Power BI’ın kullandığı verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilirsiniz](service-reports-show-data.md). Bu verileri bir *.xlsx* veya *.csv* dosyası olarak Excel'e de aktarabilirsiniz. Verileri dışarı aktarma seçeneği Pro veya Premium lisansına ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, *.xlsx* dosyası olarak kaydedip dosyayı Excel'de açarken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
 
@@ -152,7 +152,7 @@ Power BI yönetim portalındaki ayarlarla raporun dışarı aktarma ayarları fa
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Power BI Pro ve Premium dahil) için geçerlidir.
 
-- Görseldeki verileri dışarı aktarmak için [Temel alınan veri kümesi üzerinde Derleme izniniz](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets) olmalıdır.
+- Görseldeki verileri dışarı aktarmak için [Temel alınan veri kümesi üzerinde Derleme izniniz](https://docs.microsoft.com/power-bi/service-datasets-build-permissions) olmalıdır.
 
 -  **Power BI Desktop** ve **Power BI hizmetinin** **içeri aktarma modu raporundan** bir *.csv* dosyasına aktarabildiği en fazla satır sayısı 30.000’dir.
 
@@ -160,17 +160,15 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
 
 - *Temel alınan verileri* kullanarak dışarı aktarma aşağıdaki durumlarda çalışmaz:
 
-  - Veri kaynağı bir Analysis Services canlı bağlantısıdır.
+  - 2016'dan önceki sürümlerde.
 
-  - Sürüm 2016'dan eskidir.
-
-  - Modeldeki tabloların benzersiz anahtarı yoktur.
+  - Modeldeki tabloların benzersiz anahtarı olmadığında.
     
-  -  Yönetici veya rapor tasarımcısı bu özelliği devre dışı bırakmıştır.
+  -  Yönetici veya rapor tasarımcısı bu özelliği devre dışı bırakmışsa.
 
 - Power BI'ın dışarı aktardığı görselleştirme için *Veri içermeyen öğeleri göster* seçeneğini etkinleştirdiyseniz *Temel alınan verileri* kullanarak dışarı aktarma özelliği çalışmaz.
 
-- DirectQuery kullanılırken, Power BI’nin dışarı aktarabildiği maksimum veri miktarı 16 MB sıkıştırılmamış veridir. Maksimum satır sayısından daha azını dışarı aktarma gibi istenmeyen bir sonuçla karşılaşabilirsiniz. Bunun olası nedeni:
+- DirectQuery kullanılırken, Power BI’ın dışarı aktarabildiği maksimum veri miktarı 16 MB sıkıştırılmamış veridir. Maksimum satır sayısından daha azını dışarı aktarma gibi istenmeyen bir sonuçla karşılaşabilirsiniz. Bunun olası nedeni:
 
     - Çok fazla sütun vardır.
 
@@ -196,4 +194,4 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
 
 - Power BI yöneticileri verilerin dışarı aktarılmasını devre dışı bırakabilir.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

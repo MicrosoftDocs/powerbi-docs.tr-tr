@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: fc255cda798b528acf7f782efac742872a442d41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523176"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021059"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir panonun kopyasını oluşturma
 ![pano](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,7 +28,7 @@ Panolar, Power BI hizmeti kullanılarak oluşturulur (ve kopyalanır). Oluşturu
 Bir panonun kopyasını oluşturabilmeniz için panonun *oluşturucusu* olmanız gerekir. Sizinle uygulama olarak paylaşılan panolar yinelenemez.
 
 1. Panoyu açın.
-2. Sağ üst köşeden üç nokta (...) simgesini seçin ve **Panoyu yinele** seçeneğini belirleyin.
+2. Sağ üst köşeden **Diğer seçenekler**’i (...) ve **Panoyu yinele**’yi seçin.
    
    ![üç nokta menüsü](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Panoya bir ad verin ve **Yinele** seçeneğini belirleyin. 
@@ -40,10 +40,10 @@ Bir panonun kopyasını oluşturabilmeniz için panonun *oluşturucusu* olmanız
 
 5.    Yeni panoyu açın ve gereken şekilde düzenleyin. Daha sonra yapmak isteyebileceğiniz bazı işlemler aşağıda verilmiştir:    
     a. [Kutucukları taşıma, yeniden adlandırma, yeniden boyutlandırma ve hatta silme](service-dashboard-edit-tile.md).  
-    b. Kutucukta bulunan üç nokta (...) simgesini ve **Ayrıntıları düzenle**'yi seçerek kutucuk ayrıntılarını ve köprüleri düzenleme.  
+    b. Kutucuğun **Diğer seçenekler** (...) düğmesini ve **Ayrıntıları düzenle**’yi seçerek kutucuk ayrıntılarını ve köprüleri düzenleyin.  
     c. [Panodaki menü çubuğundan yeni kutucuklar ekleme](service-dashboard-add-widget.md) (**Kutucuk ekle**)  
     d. [Soru-Cevap bölümünden](service-dashboard-pin-tile-from-q-and-a.md) veya [raporlardan](service-dashboard-pin-tile-from-report.md) yeni kutucuklar sabitleme.  
-    e. Panodaki Ayarlar bölmesinden panoyu yeniden adlandırma, Soru-Cevap özelliğini etkinleştirme veya devre dışı bırakma ve kutucuk akışını ayarlama.  (Panodaki üç nokta (...) açılan menüsünü ve ardından **Ayarlar**'ı seçin.)  
+    e. Panodaki Ayarlar bölmesinden panoyu yeniden adlandırma, Soru-Cevap özelliğini etkinleştirme veya devre dışı bırakma ve kutucuk akışını ayarlama.  (Panodaki **Diğer seçenekler** (...) açılır listesini ve **Ayarlar**’ı seçin)  
     f. Panonuzu doğrudan iş arkadaşlarınızla veya bir Power BI uygulamasının parçası olarak paylaşma. 
 
 

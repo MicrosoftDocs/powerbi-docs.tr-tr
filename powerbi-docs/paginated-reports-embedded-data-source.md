@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: db79c33abe6f9e472dc29db007c4485d7a8d861e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020810"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431608"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
@@ -72,17 +72,17 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
 
 Power BI veri kümelerine bağlanan sayfalandırılmış raporlar, birkaç küçük değişiklikle birlikte Power BI’da paylaşılan veri kümelerindeki kuralları izler.  Kullanıcıların, Power BI veri kümelerini kullanarak sayfalandırılmış raporları düzgün bir şekilde görüntüleyebilmesini ve satır düzeyinde güvenliğin (RLS) etkinleştirilip tüm görüntüleyiciler için zorlanmasını sağlamak için şu kurallara uyduğunuzdan emin olun:
 
-### <a name="classic-apps-and-app-workspaces"></a>Klasik uygulamalar ve uygulama çalışma alanları
+### <a name="classic-apps-and-workspaces"></a>Klasik uygulamalar ve çalışma alanları
 
 - Veri kümesi olarak aynı çalışma alanında .rdl (aynı sahip): Destekleniyor
 - Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor
-- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya oluşturma izni atamanız gerekir
+- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
 - Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
 - Veri kümesi olarak aynı çalışma alanında .rdl (farklı kullanıcı): Destekleniyor
 - Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
 - Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Yeni deneyim uygulamaları ve uygulama çalışma alanları
+### <a name="new-experience-apps-and-workspaces"></a>Yeni deneyim uygulamaları ve çalışma alanları
 
 - Veri kümesi olarak aynı çalışma alanında .rdl: Destekleniyor
 - Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor

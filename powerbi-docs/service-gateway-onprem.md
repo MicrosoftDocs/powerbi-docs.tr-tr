@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730285"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442813"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi nedir?
 
@@ -42,13 +42,13 @@ Her biri farklı bir senaryoya yönelik olan iki farklı türde ağ geçidi bulu
 Ağ geçidi kullanmanın dört ana adımı vardır.
 
 1. Bir yerel bilgisayara [Ağ geçidini indirme ve yükleme](/data-integration/gateway/service-gateway-install).
-2. Güvenlik duvarınızı ve diğer ağ gereksinimlerini temel alarak ağ geçidini [Yapılandırma](/data-integration/gateway/service-gateway-app).
-3. Diğer ağ gereksinimlerini yönetebilen [Ağ geçidi yöneticileri ekleme](/data-integration/gateway/service-gateway-manage).
-4. Hata oluştuğunda [Sorun giderme](service-gateway-onprem-tshoot.md).
+1. Güvenlik duvarınızı ve diğer ağ gereksinimlerini temel alarak ağ geçidini [Yapılandırma](/data-integration/gateway/service-gateway-app).
+1. Diğer ağ gereksinimlerini yönetebilen [Ağ geçidi yöneticileri ekleme](/data-integration/gateway/service-gateway-manage).
+1. Şirket içi veri kaynağını yenilemek için [ağ geçidini kullanın](service-gateway-sql-tutorial.md).
+1. Hata oluştuğunda [Sorun giderme](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Şirket içi veri ağ geçidini yükleme](/data-integration/gateway/service-gateway-install)
-
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)

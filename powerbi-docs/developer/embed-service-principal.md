@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073095"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429255"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
 
@@ -58,8 +58,8 @@ Kimlik doğrulaması için bir hizmet sorumlusu kullanmakla standart ana hesap (
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI hizmetinde oturum açabilir  | Evet | Hayır |
 | Power BI Yönetim portalında etkindir | Hayır | Evet |
-| [Uygulama çalışma alanlarıyla çalışır (v1)](../service-create-workspaces.md) | Evet | Hayır |
-| [Yeni uygulama çalışma alanlarıyla çalışır (v2)](../service-create-the-new-workspaces.md) | Evet | Evet |
+| [Çalışma alanlarıyla çalışır (v1)](../service-create-workspaces.md) | Evet | Hayır |
+| [Yeni çalışma alanlarıyla çalışır (v2)](../service-create-the-new-workspaces.md) | Evet | Evet |
 | Power BI Embedded ile kullanıldığında çalışma alanı yöneticisi olması gerekir | Evet | Evet |
 | Power BI REST API’lerini kullanabilir | Evet | Evet |
 | Oluşturulması için genel yönetici gerekir | Evet | Hayır |
@@ -141,7 +141,7 @@ Power BI yapıtlarını ve kaynaklarını bir çalışma alanından diğerine ta
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Hizmet sorumlusu nesne kimliğini alma
 
-Yeni uygulama çalışma alanına bir hizmet sorumlusu atamak için [Power BI REST API’lerini](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) kullanırsınız. İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **hizmet sorumlusu nesne kimliğini** kullanırsınız.
+Yeni çalışma alanına bir hizmet sorumlusu atamak için [Power BI REST API’lerini](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) kullanırsınız. İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **hizmet sorumlusu nesne kimliğini** kullanırsınız.
 
 Azure portalından hizmet sorumlusu nesne kimliğini alma adımları aşağıda verilmiştir.
 
@@ -166,7 +166,7 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-* Hizmet sorumlusu yalnızca [yeni uygulama çalışma alanlarıyla](../service-create-the-new-workspaces.md) çalışır.
+* Hizmet sorumlusu yalnızca [yeni çalışma alanlarıyla](../service-create-the-new-workspaces.md) çalışır.
 * Hizmet sorumlusu kullanırken **Çalışma Alanım** desteklenmez.
 * Üretime geçilirken adanmış kapasite gerekir.
 * Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.

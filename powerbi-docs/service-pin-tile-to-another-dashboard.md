@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225905"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020115"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
 Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 
@@ -26,7 +26,7 @@ Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğ
 ## <a name="pin-a-tile-to-another-dashboard"></a>Bir kutucuğu başka bir panoya sabitleme
 1. [Veri alın](service-get-data.md). Bu örnekte [BT Harcama Analizi Örneği](sample-it-spend.md) kullanılmaktadır.
 2. Bir [pano](consumer/end-user-dashboards.md) açın.
-3. Sabitlemek istediğiniz kutucuğun üzerine gelip üç nokta (...) simgesini ve ardından **Kutucuğu sabitle**'yi seçin.  
+3. Sabitlemek istediğiniz kutucuğun üzerine gelip **Diğer seçenekler**’i (...) ve **Kutucuğu sabitle**’yi seçin.  
    
    ![üç nokta menüsü](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. 

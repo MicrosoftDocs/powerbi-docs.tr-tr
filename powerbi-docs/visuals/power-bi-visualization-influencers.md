@@ -7,15 +7,15 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544078"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72776005"
 ---
 # <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
 
@@ -58,7 +58,7 @@ Kategorik bir ölçümle ana etmenler görseli oluşturmayı öğrenmek için bu
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ürün Yöneticiniz, müşterilerin bulut hizmetiniz hakkında olumsuz incelemeler yazmasına hangi faktörlerin yol açtığını bulmanızı istiyor. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) da indirebilirsiniz. 
+Ürün Yöneticiniz, müşterilerin bulut hizmetiniz hakkında olumsuz incelemeler yazmasına hangi faktörlerin yol açtığını bulmanızı istiyor. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) da indirebilirsiniz. Bağlantılardan birini ve sonra açılan GitHub sayfasından **İndir**'i seçin.
 
 > [!NOTE]
 > Customer Feedback veri kümesinde şu makale temel alınmıştır: [Moro et al., 2014] S. Moro, P. Cortez ve P. Rita. “A Data-Driven Approach to Predict the Success of Bank Telemarketing.” *Decision Support Systems*, Elsevier, 62:22-31, Haziran 2014. 
@@ -240,7 +240,7 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Ölçü veya özetlenmiş sütun olan bir ölçümü analiz etme
 
-Ölçü veya özetlenmiş sütun söz konusu olduğunda analiz varsayılan olarak [yukarıda](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) açıklanan **Sürekli Çözümleme Türü** olur. Bu değiştirilemez. Ölçüyü/Özetlenmiş sütunu analiz etmekle özetlenmemiş bir sayısal sütunu analiz etmek arasındaki en büyük fark analizin çalıştırılma düzeyidir.
+Ölçü veya özetlenmiş sütun söz konusu olduğunda analiz varsayılan olarak [yukarıda](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) açıklanan **Sürekli Çözümleme Türü** olur. Bu değiştirilemez. Ölçüyü/Özetlenmiş sütunu analiz etmekle özetlenmemiş bir sayısal sütunu analiz etmek arasındaki en büyük fark analizin çalıştırılma düzeyidir.
 
 Özetlenmemiş sütunlar söz konusu olduğunda analiz her zaman tablo düzeyinde çalıştırılır. Yukarıdaki ev fiyatı örneğinde, ev fiyatının artmasını/düşmesini nelerin etkilediğini görmek için **Ev Fiyatı** ölçümünü analiz etmiştik. Analiz otomatik olarak tablo düzeyinde çalıştırıldı. Tablomuzda her ev için benzersiz bir kimlik olduğundan analiz ev düzeyinde çalıştırıldı.
 
@@ -254,7 +254,7 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde öğrenebileceği desenler bulması zor olacaktır. Daha iyi sonuçlar elde etmek için analizi daha ayrıntılı düzeyde çalıştırmalıyız. Ev fiyatını ev düzeyinde analiz etmek isteseydik analize açıkça **ID** (Kimlik) alanını eklememiz gerekecekti. Bununla birlikte ev kimliğinin bir etmen olarak değerlendirilmesini istemiyoruz. Ev kimliği yükseldikçe ev fiyatının yükseldiğini öğrenmek yararlı bir bilgi değil. İşte bu noktada **Genişletme Ölçütü** alanı seçeneği yararlı oluyor. Yeni etmenler aramadan analizin düzeyini ayarlamak amacıyla kullanmak istediğiniz alanları eklemek için **Genişletme Ölçütü**'nü kullanabilirsiniz.
 
-**Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
+**Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
 
 ![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

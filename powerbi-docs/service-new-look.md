@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 1612ae952489a047be884a25842bd47fd70d8447
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239952"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020201"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
@@ -66,7 +66,7 @@ Eski görünümden işlevlerden hiçbirini kaldırmadık. Eylem çubuğunda üç
 
 ### <a name="where-are-file-menu-actions"></a>Dosya menüsü eylemleri nerede?
 
-**Dosya** menüsü eylemlerini mi arıyorsunuz? Eskiden **Dosya** menüsünde olan eylemler artık üç nokta (...) menüsünde de bulunur. 
+**Dosya** menüsü eylemlerini mi arıyorsunuz? Daha önce **Dosya** menüsünde olan eylemler **Diğer seçenekler** (...) menüsünde de bulunur. 
 
 ![Yeni görünümde dosya menüsü](media/service-new-look/power-bi-file-menu-new-look.gif)
 

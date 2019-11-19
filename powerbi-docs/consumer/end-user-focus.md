@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327795"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019814"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ Odak modunu açmanın iki yolu vardır: biri pano kutucukları, diğeri ise rapo
 
 1. Power BI hizmetinde bir pano açın.
 
-2. Fare ile pano kutucuğunun veya rapor görselinin üzerine gelin, üç nokta (...) simgesini seçin ve **Odak modunda aç** seçeneğini belirleyin.
+2. Bir pano kutucuğunun veya rapor görselinin üzerine gelin, **Diğer seçenekler**’i (...) ve **Odak modunda aç**’ı seçin.
 
     ![kutucuk için üç nokta menüsü](media/end-user-focus/power-bi-dashboard-focus.png)geçin.
 
-2. Kutucuk, tuvalin tamamını kaplayacak şekilde açılır. Görselle etkileşimde bulunmak için kullanabileceğiniz **Filtreler** bölmesinin hala orada olduğuna dikkat edin. **Filtreler** bölmesi daraltılabilir. 
+2. Kutucuk, tuvalin tamamını kaplayacak şekilde açılır. Görselle etkileşimde bulunmak için kullanabileceğiniz **Filtreler** bölmesinin hala orada olduğuna dikkat edin. **Filtreler** bölmesi daraltılabilir.
 
    ![rapor tuvalini dolduran kutucuk](media/end-user-focus/power-bi-focus-filter.png)
 

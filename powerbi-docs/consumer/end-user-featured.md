@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256325"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019829"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır. Bu, işlerimizi yürütmek için kullandığımız pano olabilir. Veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
@@ -37,7 +40,7 @@ Videoda Amanda’nın öne çıkan bir pano oluşturmasını izleyin. Ardından,
 
 
 1. Öne çıkan olarak ayarlamak istediğiniz panoyu açın. 
-2. Üst menü çubuğunda üç noktayı (...) seçip **Öne çıkan olarak ayarla** seçeneğini belirleyin. 
+2. Üst menü çubuğunda **Diğer seçenekler** (...) ve sonra **Öne çıkan olarak ayarla**’yı seçin. 
    
     ![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropdown.png)
 3. Seçiminizi onaylayın.
@@ -58,7 +61,7 @@ Videoda Amanda’nın öne çıkan bir pano oluşturmasını izleyin. Ardından,
 Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönergeleri izleyerek öne çıkan panoyu kaldırabilirsiniz.
 
 1. O anda öne çıkan panoyu açın.
-2. Üst menü çubuğunda üç noktayı (...) seçip **Öne çıkan öğeyi devre dışı bırak** seçeneğini belirleyin.
+2. Üst menü çubuğunda **Diğer seçenekler** (...) ve sonra **Öne çıkan öğeyi devre dışı bırak**’ı seçin.
 
     ![Öne çıkan panoyu devre dışı bırak seçeneği belirlendi](./media/end-user-featured/power-bi-unfeature-newer.png)
    

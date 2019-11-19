@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903673"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429883"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -37,10 +37,8 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **answer card, answer page (yanıt kartı, yanıt sayfası)** Bkz. Cortana yanıt kartı.
 
-**app, apps (uygulama, uygulamalar)**
+**app, apps (uygulama, uygulamalar)** 
 
- 
-**app workspace (uygulama çalışma alanı)** Çalışma alanım dışında Power BI'daki tüm çalışma alanları şimdi uygulama çalışma alanıdır. İçerikler bir Power BI uygulamasında paketlenebilir. Premium kapasitede depolananlar Ücretsiz kullanıcılarla paylaşılabilir. Kişisel çalışma alanları (Çalışma alanım'ın altındaki) Premium kapasitede barındırılabilir.  
 
 İndirilecek panolara, raporlara, veri kümelerine ve uygulamalara göz atıp bunları keşfedebileceğiniz **AppSource** Merkezi çevrimiçi deposu.
 
@@ -54,7 +52,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **bookmark (yer işareti)** Power BI Desktop'ta veya hizmetinde bir raporun Yer İşaretleri bölmesinde yakalanan verilerin görünümü. Desktop'ta, yer işaretleri Power BI hizmetinde paylaşılmak üzere .pbix rapor dosyasında kaydedilir
   
-**breadcrumbs (içerik haritaları)** Uygulama çalışma alanları arasında hızla gezinmeyi sağlayan sol üst kısımdaki gezinti.
+**breadcrumbs (içerik haritaları)** Çalışma alanları arasında hızla gezinmeyi sağlayan sol üst kısımdaki gezinti.
 
 ## <a name="c"></a>C
 
@@ -177,7 +175,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **modeling (modelleme)** [Power BI Desktop] Bağlandığınız verileri Power BI'da kullanıma hazır duruma getirme. Birden çok veri kaynağındaki tablolar arasında ilişkileri oluşturma, ölçüleri oluşturma ve ölçümleri atama işlemlerini içerir.
 
-**My workspace (Çalışma alanım)** Her Power BI müşterisinin içerik oluşturması için sağlanan çalışma alanı. Burada oluşturulan öğeleri bir uygulamaya paketlemek isterlerse ve *tasarımcı* izinleri varsa, bunları uygun uygulama çalışma alanına yükler veya yeni bir uygulama çalışma alanı oluştururlar.
+**My workspace (Çalışma alanım)** Her Power BI müşterisinin içerik oluşturması için sağlanan çalışma alanı. Burada oluşturulan öğeleri bir uygulamaya paketlemek isterlerse ve *tasarımcı* izinleri varsa, bunları uygun çalışma alanına yükler veya yeni bir çalışma alanı oluştururlar.
 
 ## <a name="n"></a>N
 
@@ -222,7 +220,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**, Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
-**Power BI Desktop** *Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../power-bi-overview.md)
+**Power BI Desktop** *Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
 
 **Power BI Embedded** Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
@@ -232,7 +230,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **Power BI Rapor Sunucusu** Kuruluşların dağıtılmış, hibrit BI sistemleri (bulut ve şirket içi dağıtımların bir bileşimi) oluşturabilmesi için Power BI Premium ile birlikte tanıtılan yeni bir SSRS teklifi markası. Embedded, Power BI raporlarını depolayıp yönetmenin yerelleştirilmiş bir yolunu sağlar.
 
-**Power BI hizmeti** Çevrimiçi bir SaaS (Hizmet olarak yazılım) hizmeti. Daha fazla bilgi için bkz. [Power BI nedir?](../power-bi-overview.md)
+**Power BI hizmeti** Çevrimiçi bir SaaS (Hizmet olarak yazılım) hizmeti. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
 
 **Power BI hizmet bağlayıcısı** Bu bağlayıcı Power BI Desktop kullanıcılarının Desktop'tan Power BI hizmetindeki veri kümelerine bağlanmasını sağlar. Bir kereliğine bir model oluşturup bu modeli birçok raporda ve panoda kullanabilirler.
 
@@ -325,7 +323,7 @@ Power BI panolarında rapor kutucukları yer alır.
 
 **workbook (çalışma kitabı)** Veri kaynağı olarak kullanılacak Excel çalışma kitabı. Çalışma kitapları; bağlantılı tablolar, Power Query veya Power Pivot kullanılarak yüklenen bir veya daha fazla veri tablosunun bulunduğu bir veri modeli içerebilir.
 
-**workspace (çalışma alanı)** Power BI'daki panolar, raporlar ve veri kümeleri için kapsayıcılar. Bu terim koleksiyonunda uygulama çalışma alanı terimine bakın.
+**workspace (çalışma alanı)** Power BI'daki panolar, raporlar ve veri kümeleri için kapsayıcılar. Kullanıcılar, Çalışma alanım hariç herhangi bir çalışma alanındaki içerik üzerinde işbirliği yapabilirler. İçerikler bir Power BI uygulamasında paketlenebilir. Premium kapasitede depolananlar Ücretsiz kullanıcılarla paylaşılabilir. Kişisel çalışma alanları (Çalışma alanım'ın altındaki) Premium kapasitede barındırılabilir.
 
 ## <a name="x"></a>X
 **x-axis (x ekseni)**  

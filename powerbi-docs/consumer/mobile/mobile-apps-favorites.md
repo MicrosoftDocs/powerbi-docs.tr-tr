@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339575"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017822"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında sık kullanılanlara ekleme ve sık kullanılanları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -44,7 +44,7 @@ Power BI Rapor Sunucusu veya Reporting Services web portalında sık kullanılan
   ![Sık Kullanılanlar sayfası](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>Bir uygulamayı sık kullanılanlara ekleme
-1. Mobil uygulamadaki uygulama listesinde uygulamanın yanındaki üç nokta (...) simgesine ve ardından **Sık Kullanılanlara Ekle**'ye dokunun.
+1. Mobil uygulamadaki uygulama listesinde uygulamanın yanındaki **Diğer seçenekler**’e (...) > **Sık Kullanılanlara Ekle**’ye dokunun.
    
     ![Sık kullanılan uygulama menüsü](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ Bir Power BI panosunu veya raporunu, pano veya rapor listesinden ya da doğrudan
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Android mobil uygulamalarında bir panoyu veya raporu sık kullanılanlara ekleme
 Bir panoyu veya raporu, pano veya rapor listesinden ya da doğrudan pano veya raporun içinden sık kullanılanlara ekleyebilirsiniz.
 
-* Mobil uygulamadaki pano veya rapor listesinde adın yanında bulunan dikey üç nokta (...) simgesine ve ardından **Sık Kullanılanlara Ekle**'ye dokunun. Adın yanında sarı bir yıldız ![Sık Kullanılan simgesi](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) görünür.
+* Mobil uygulamadaki pano veya rapor listesinde adın yanında bulunan dikey **Diğer seçenekler** (...) düğmesine, sonra da **Sık Kullanılanlara Ekle**’ye dokunun. Adın yanında sarı bir yıldız ![Sık Kullanılan simgesi](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png) görünür.
   
     ![Android Sık Kullanılan menüsü](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * Panoda veya raporda şeritteki içi boş yıldız simgesine dokunun ![Sık Kullanılan Değil simgesi](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)geçin. Yıldız koyu gri renk olur ![Sık kullanılan simgesi](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)geçin.

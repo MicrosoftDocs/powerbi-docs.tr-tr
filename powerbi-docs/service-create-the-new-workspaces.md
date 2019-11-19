@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020114"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020456"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma
 
@@ -74,7 +74,7 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
 
     İlk kez oluşturduğunuzda **Çalışma alanı oluştur** bölmesinden.
 
-    Sol gezinti bölmesinde **Çalışma Alanı**'nın yanındaki oku, çalışma alanı adının yanındaki üç nokta (…) simgesini > **Çalışma alanı ayarları**'nı seçin. **Ayarlar** bölmesi açılır.
+    Sol gezinti bölmesinde, **Çalışma alanı**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
 
     ![Çalışma alanı ayarları](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +94,7 @@ Power BI, Office 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekil
 
     İlk kez oluşturduğunuzda **Çalışma alanı oluştur** bölmesinden.
 
-    Sol gezinti bölmesinde **Çalışma Alanı**'nın yanındaki oku, çalışma alanı adının yanındaki üç nokta (…) simgesini > **Çalışma alanı ayarları**'nı seçin. **Ayarlar** bölmesi açılır.
+    Sol gezinti bölmesinde, **Çalışma alanı**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
 
     ![Çalışma alanı ayarları](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985744"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019388"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler için geçerlidir:
@@ -45,7 +45,7 @@ Power BI mobil uygulamalarında raporlar için iki simge vardır:
 > [!NOTE]
 > Rapor sayfası telefon düzeninde olsa bile telefonunuzu yatay tuttuğunuzda her zaman yatay düzen elde edersiniz.
 
-Panodan rapor almak için kutucuğun sağ üst köşesindeki üç noktaya (...) dokunun ve sonra da **Raporu aç**'a dokunun:
+Panodan rapor almak için kutucuğun sağ üst köşesindeki **Diğer seçenekler**’e (...) ve sonra **Raporu aç**’a dokunun:
   
   ![Rapor Aç](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Dokunma hareketi fare tıklamasıyla aynı işlevi görür. Dolayısıyla bir ve
 Dilimleyici değerine dokunduğunuzda değer seçilir ve raporun kalan bölümü bu değere göre dilimlenir.
 Bağlantıya, düğmeye veya yer işaretine dokunduğunuzda rapor yazarı tarafından tanımlanan eylem gerçekleşir.
 
-Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Kenarlığın sağ üst köşesinde üç nokta (...) görürsünüz. Üç noktaya dokunursanız bu görsel üzerinde gerçekleştirebileceğiniz eylemleri içeren bir menü görürsünüz:
+Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Kenarlığın sağ üst köşesinde **Diğer seçenekler** (...) düğmesini görürsünüz. Üç noktaya dokunursanız bu görsel üzerinde gerçekleştirebileceğiniz eylemleri içeren bir menü görürsünüz:
 
 ![Görsel ve menü](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Daha fazla bilgi için [Power BI Desktop’ta detaylandırma ekleme](../../deskt
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>Rapor alt bilgisindeki eylemleri kullanma
-Rapor alt bilgisinden, geçerli rapor sayfasında veya raporun tamamında çeşitli eylemler gerçekleştirebilirsiniz. Alt bilgi en yaygın kullanılan eylemlere hızlı erişim sağlar. Diğer eylemlere ise üç nokta (...) düğmesine dokunarak erişebilirsiniz:
+Rapor alt bilgisinden, geçerli rapor sayfasında veya raporun tamamında çeşitli eylemler gerçekleştirebilirsiniz. Alt bilgi en yaygın kullanılan eylemlere hızlı erişim sağlar. Diğer eylemlere ise **Diğer seçenekler** (...) düğmesine dokunarak erişebilirsiniz:
 
 ![Rapor alt bilgisi](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ Ekranınızın kenarından ortaya doğru çekerek rapor sayfaları arasında ge�
 - Tüm rapor eylemlerini görüntüleme.
 
 #### <a name="all-report-actions"></a>Tüm rapor eylemleri
-Rapor alt bilgisinde üç nokta (...) düğmesine dokunduğunuzda rapor üzerinde gerçekleştirebileceğiniz tüm eylemleri görürsünüz:
+Rapor alt bilgisinde **Diğer seçenekler** (...) düğmesine dokunduğunuzda rapor üzerinde gerçekleştirebileceğiniz tüm eylemleri görürsünüz:
 
 
 ![Tüm rapor eylemleri](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

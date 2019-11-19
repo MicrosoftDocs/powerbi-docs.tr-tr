@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020608"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431734"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -26,7 +26,7 @@ Raporları ekibinize düzenli olarak dağıtmak için e-postaları mı kullanır
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-İçerik paketleri oluşturma, pano paylaşmaktan veya bir uygulama çalışma alanında bunlar üzerinde işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) bölümünü okuyun. 
+İçerik paketi oluşturma işlemi, pano paylaşmaktan veya bir çalışma alanında bunlara yönelik işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) makalesini okuyun. 
 
 AppSource'ta kuruluşun tamamında, dağıtım veya güvenlik gruplarında ve [ait olduğunuz Office 365 gruplarında](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9) yayımlanan içerik paketlerine göz atabilir ve bunları arayabilirsiniz. Belirli bir grubun üyesi değilseniz, söz konusu grupla paylaşılan içerik paketlerini görmezsiniz. Grup üyelerinin tamamı içerik paketi verilerine, raporlara, çalışma kitaplarına ve panolara aynı şekilde salt okunur erişime (ayrıcalıklarınızın veri kaynağı ile devralındığı SQL Server Analysis Services (SSAS) veri kaynakları dışında) sahip olur.
 
@@ -50,7 +50,7 @@ Yaşam döngüsü aşağıdaki gibidir:
 1. Nate, Power BI Pro'da bir içerik paketi oluşturur ve bunu Pazarlama dağıtım grubunda yayımlar. Yenileme ayarları, veri kümesi ile devralınır ve yalnızca Nate tarafından değiştirilebilir.
    
    > [!NOTE]
-   > Nate, içerik paketini üyesi olduğu bir [Power BI uygulama çalışma alanından](service-create-distribute-apps.md) oluşturması halinde, çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
+   > Nate, içerik paketini üyesi olduğu bir [Power BI çalışma alanından](service-create-distribute-apps.md) oluşturması halinde, çalışma alanından ayrılsa bile Power BI çalışma alanındaki diğer kişiler sahipliği devralabilir.
    > 
    > 
 2. Nate, dağıtım grubuna posta gönderir ve gruptakilere yeni içerik paketinden bahseder.
@@ -58,7 +58,7 @@ Yaşam döngüsü aşağıdaki gibidir:
 4. Jane’in panoyu özelleştirmeye karar verdiğini varsayalım. Artık panonun ve raporların bir kopyasına sahip olur. Jane'in çalışmaları kaynağı, özgün içerik paketini veya diğer dağıtım grubu üyelerini etkilemez. Artık her biri panonun ve raporun kendisine ait kopyası üzerinde çalışıyor.
 5. Nate panoda güncelleştirmeler yapar ve hazır olduğunda içerik paketinin yeni sürümünü yayımlar.
    
-   * Bir başka dağıtım grubu üyesi olan Julio, özgün içerik paketini özelleştirmedi. Yeni değişiklikler Jane'in kendi içerik paketi sürümüne otomatik olarak uygulanır.  
+   * Bir başka dağıtım grubu üyesi olan Julio, özgün içerik paketini özelleştirmedi. Yeni değişiklikler Julio'nun kendi içerik paketi sürümüne otomatik olarak uygulanır.  
    * Jane ise içerik paketini özelleştirdi. Jane, yeni bir sürüm olduğuna ilişkin bildirim alır.  AppSource'a giderek, kendi kişiselleştirilmiş sürümünü kaybetmeden güncelleştirilmiş içerik paketini alabilir. Jane artık 2 sürüm sahip: kişiselleştirilmiş sürüm ve güncelleştirilmiş içerik paketi.
 6. Nate'in güvenlik ayarlarını değiştirdiğini varsayalım. Julio ve Jane içeriğe artık erişemez. Veya Pazarlama dağıtım grubundan çıkarıldıklarını varsayalım.
    

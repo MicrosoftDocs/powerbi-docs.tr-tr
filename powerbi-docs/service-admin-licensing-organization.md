@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 24cc798814e0c19de4f1dd4d0d6907fc7a0074a6
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075415"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442838"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -27,9 +27,9 @@ Bu makale, yönetim açısından kullanıcı başına lisanslamaya odaklanır.
 
 Yönetici olarak, Power BI Pro lisanslarını satın alabilir ve atayabilirsiniz; ayrıca, kuruluşunuz için Power BI Pro denemesine kaydolabilirsiniz. Power BI Pro denemesine bireyler de kaydolabilir.
 
-### <a name="purchase-power-bi-pro"></a>Power BI Pro satın alma
+### <a name="purchase-power-bi-pro-licenses"></a>Power BI Pro lisansları satın alma
 
-Power BI Pro lisanslarını Microsoft Office 365 aracılığıyla veya sertifikalı Microsoft iş ortağı aracılığıyla satın alırsınız. Lisansları satın aldıktan sonra, bunları tek tek kullanıcılara atarsınız. Daha fazla bilgi için bkz. [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md).
+Yönetici olarak Power BI Pro lisanslarını Microsoft 365 aracılığıyla veya sertifikalı Microsoft iş ortağı aracılığıyla satın alırsınız. Lisansları satın aldıktan sonra, bunları tek tek kullanıcılara atarsınız. Daha fazla bilgi için bkz. [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md).
 
 ### <a name="power-bi-pro-license-expiration"></a>Power BI Pro lisansı süre sonu
 
@@ -41,7 +41,7 @@ Power BI Pro, Office 365 ile aynı abonelik yaşam döngüsüne sahiptir. Daha f
 
 Kuruluşunuzdaki bireyler Power BI Pro denemesine kaydolabilir. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md).
 
-Ürün içi Power BI Pro deneme sürümü avantajından yararlanan kullanıcılar, Microsoft 365 yönetim merkezinde Power BI Pro Deneme Sürümü kullanıcıları olarak değil, Power BI ücretsiz sürüm kullanıcıları olarak görünür. Ancak, Power BI'daki depolama alanını yönet sayfasında Power BI Pro Deneme Sürümü kullanıcıları olarak görünürler.
+Bireysel kullanıcılar için ürün içi Power BI Pro deneme sürümü avantajından yararlanan kullanıcılar, Microsoft 365 yönetim merkezinde Power BI Pro Deneme Sürümü kullanıcıları olarak değil, Power BI ücretsiz sürüm kullanıcıları olarak görünür. Ancak, Power BI'daki depolama alanını yönet sayfasında Power BI Pro Deneme Sürümü kullanıcıları olarak görünürler.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Kuruluşlar için Power BI Pro denemesi
 
@@ -49,7 +49,7 @@ Power BI deneme sürümü lisansları alıp kuruluşunuzdaki kullanıcıların d
 
 Kaydolma adımlarını izlemeden önce aşağıdakileri aklınızda bulundurun:
 
-* Kaydolmak için, Office 365’te [**Genel yönetici** veya **Faturalama yöneticisi**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) rolünün üyesi olmanız gerekir.
+* Kaydolmak için, Microsoft 365’te [**Genel yönetici** veya **Faturalama yöneticisi**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) rolünün üyesi olmanız gerekir.
 
 * Kiracı başına bir kuruluş deneme sürümü sınırı vardır. Bu, Power BI Pro Deneme Sürümünün kiracınıza daha önce uygulanmış olması halinde bunu bir daha yapamayacağınız anlamına gelir. Bu konuda yardıma ihtiyacınız varsa [Office 365 Faturalama destek ekibiyle](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671) iletişim kurun.
 
@@ -79,11 +79,11 @@ Kuruluşunuzdaki kullanıcılar Power BI ücretsiz lisanslarına iki farklı yol
 
 * Microsoft 365 yönetim merkezinden bu kullanıcılara birer Power BI lisansı atayabilirsiniz.
 
-* [Power BI Pro deneme sürümüne kaydolan](service-self-service-signup-for-power-bi.md) bir kullanıcının denemenin süresi dolarsa, ona ücretsiz lisans atanır.
+* [Power BI hesabına kaydolan](service-self-service-signup-for-power-bi.md) bir kullanıcının denemenin süresi dolarsa, ona ücretsiz lisans atanır.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Ücretsiz lisansları isteme ve atama
 
-Lisans isteklerini ve atamalarını merkezi olarak yönetmeyi planlıyorsanız, önce zaten sınırsız Power BI (ücretsiz) lisans bloğunuzun olup olmadığını denetleyin.
+Lisans isteklerini ve atamalarını merkezi olarak yönetmeyi planlıyorsanız, önce kiracınızda zaten sınırsız Power BI (ücretsiz) lisans blokunuzun olup olmadığını denetleyin.
 
 Bu lisans bloğu, kullanıcılardan biri bireysel Power BI kaydı oluşturduktan sonra kullanılabilir. İşlem sırasında bu lisans bloğu kuruluşunuza eklenir ve kaydolan kullanıcıya bir lisans atanır.
 
@@ -125,9 +125,9 @@ Sınırsız Power BI (ücretsiz) lisans bloğu kullanılamıyorsa ve bireysel ka
 
 Yönetici olarak, Azure Active Directory (AAD) aracılığıyla bireysel kullanıcı kayıtlarını etkinleştirebilir veya devre dışı bırakabilirsiniz. Makalenin bu bölümünde kayıtların PowerShell komutlarıyla nasıl yönetildiği gösterilir. Azure PowerShell hakkında daha fazla bilgi için bkz. [Azure PowerShell'e genel bakış](/powershell/azure/overview).
 
-Kaydı denetleyen Azure AD ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda bu *true* olarak ayarlanmıştır ve kaydın etkinleştirildiği anlamına gelir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde *false* olabilir. *True* olan ayarı *false* olarak değiştirirseniz, kuruluşunuzdaki yeni kullanıcıların bireysel olarak kaydolması engellenir. Ayar değişikliğinden önce Power BI'a kaydolmuş olan kullanıcılar lisanslarını korur. *false* ayarı kullanıcıların Pro deneme sürümüne kaydolmasına neden olabilir.
+Kaydı denetleyen Azure Active Directory ayarı **AllowAdHocSubscriptions**'dır. Çoğu kiracıda bu *true* olarak ayarlanmıştır ve kaydın etkinleştirildiği anlamına gelir. Power BI uygulamasını bir iş ortağı aracılığıyla aldıysanız, bu ayar devre dışı bırakıldığını gösterecek şekilde *false* olabilir. *True* olan ayarı *false* olarak değiştirirseniz, kuruluşunuzdaki yeni kullanıcıların bireysel olarak kaydolması engellenir. Ayar değişikliğinden önce Power BI'a kaydolmuş olan kullanıcılar lisanslarını korur. Ayar *false* olduğunda Power BI (ücretsiz) lisansına sahip kullanıcılar bireysel Power BI Pro deneme sürümüne kaydolabilir.
 
-1. Office 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki PowerShell betiğinin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
+1. Microsoft 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki PowerShell betiğinin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
 
     ```powershell
      $msolcred = get-credential

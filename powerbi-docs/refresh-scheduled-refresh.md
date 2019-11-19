@@ -2,7 +2,6 @@
 title: Zamanlanmış yenileme yapılandırma
 description: Burada, bir ağ geçidi seçme ve zamanlanmış yenileme özelliklerini ayarlama adımları ele alınır.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860711"
 ---
 # <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 
@@ -30,7 +29,7 @@ Burada hem [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-person
 
 **Zamanlanmış yenileme** ekranına gitmek için aşağıdakileri yapabilirsiniz.
 
-1. **Veri Kümeleri** bölümünde bulunan bir veri kümesinin yanındaki **üç nokta (...)** simgesini seçin.
+1. **Veri Kümeleri** bölümünde bulunan bir veri kümesinin yanındaki **Diğer seçenekler** (...) simgesini seçin.
 2. **Yenilemeyi Zamanla** seçeneğini belirleyin.
 
     ![Yenileme Zamanlama](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Bu, genellikle a�
 - [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 - [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

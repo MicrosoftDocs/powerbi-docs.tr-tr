@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542874"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432112"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
 Bu makale bir serinin parçasıdır. 
@@ -39,7 +39,7 @@ Cortana'yı Power BI ile tümleştirme konusunda sorun yaşıyorsanız doğru ye
    * "show sales" ifadesi Power BI sonucu *döndürmez*.   
    * "show me sales fy16", "sales fy16", "show fy16" ve "show me sales f" ifadeleri bir Power BI sonucu *döndürür*.    
    * "powerbi" kelimesini eklediğinizde gerekli 2 kelimeden biri olarak sayılır ve bu nedenle "powerbi sales" ifadesi bir Power BI sonucu *döndürür*.
-5. Herhangi bir raporda veya panoda erişim ya da düzenleme izniniz var mı? Raporlar için aramaya çalıştığınız içeriğin bir [yanıt kartına](service-cortana-answer-cards.md) sahip olduğundan emin olun.  Panolar için aramaya çalıştığınız içeriğin **Benimle paylaşılan**, uygulama çalışma alanı veya **Çalışma alanım** bölümlerinden birinde olduğundan emin olun. Sorunu tanımlama konusunda yardım almak için [sorun giderme aracını kullanın](#try-the-cortana-troubleshooting-tool).
+5. Herhangi bir raporda veya panoda erişim ya da düzenleme izniniz var mı? Raporlar için aramaya çalıştığınız içeriğin bir [yanıt kartına](service-cortana-answer-cards.md) sahip olduğundan emin olun.  Panolar için aramaya çalıştığınız içeriğin **Benimle paylaşılan**, bir çalışma alanı veya **Çalışma alanım** bölümlerinden birinde olduğundan emin olun. Sorunu tanımlama konusunda yardım almak için [sorun giderme aracını kullanın](#try-the-cortana-troubleshooting-tool).
 6. Mobil cihaz mı kullanıyorsunuz?  Şu anda Power BI ve Cortana tümleştirmesini yalnızca Windows mobil cihazlarda destekliyoruz.
 7. Cortana İngilizce için mi yapılandırılmış?  Cortana-Power BI tümleştirmesi şu an için yalnızca İngilizce dilini desteklemektedir. Cortana'yı açın ve ayarlarını görüntülemek için dişli simgesini seçin. Aşağıdaki **Cortana dili** bölümüne kaydırın ve İngilizce seçeneklerinden birine ayarlanmış olduğundan emin olun.
 

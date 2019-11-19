@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654571"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017669"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop’ta bileşik modeller kullanma
 
@@ -53,7 +53,7 @@ DirectQuery'yi kullandığınızda *bileşik modeller* aşağıdakilerden birini
 Birden çok DirectQuery kaynağından alınan verileri birleştiren veya DirectQuery'yi içeri aktarılan verilerle birleştiren modeller, *bileşik model* olarak adlandırılır.
 
 
-Tablolar farklı kaynaklardan geliyor olsa bile, her zaman yaptığınız gibi tablolar arasında ilişkiler oluşturabilirsiniz; ama şu kısıtlamalar söz konusudur: kaynaklar arası kurulan tüm ilişkiler, gerçek kardinalitesi ne olursa olsun *çok-çok* kardinalitesi olacak şekilde tanımlanır. Bu tür ilişkilerin davranışı da [Power BI Desktop'ta çok-çok ilişkileri (önizleme)](desktop-many-to-many-relationships.md) makalesinde açıklandığı gibi normal *çok-çok* ilişkileriyle aynıdır. 
+Her zaman yaptığınız gibi, tablolar farklı kaynaklardan gelse bile tablolar arasında ilişkiler oluşturabilirsiniz. Çapraz kaynaklı olan tüm ilişkiler, gerçek kardinalitelerine bakılmaksızın *çoka çok* kardinalitesi ile oluşturulur. Bunları bire çok, çoğa bir veya bire bir olacak şekilde değiştirebilirsiniz. Hangi kardinaliteyi ayarlarsanız ayarlayın, çapraz kaynak ilişkileri, bir tarafta birçok taraftan veri almak için DAX işlevleri kullanamamanız bakımından farklı davranışa sahiptir. Aynı kaynak içinde çoka-çok ilişkilere göre bir performans etkisi de görebilirsiniz.
 
 > [!NOTE]
 > Bileşik modeller bağlamında, gerçekte içeri aktarıldıkları temel veri kaynağından bağımsız olarak tüm içeri aktarılan tablolar aslında tek bir kaynaktır.   
@@ -88,7 +88,7 @@ Benzer biçimde, Power BI Desktop'ta **İlişki** görünümüne baktığımızd
 
 ![Tabloların ilişki görünümü](media/desktop-composite-models/composite-models_08.png)
 
-Şimdi bu tabloları modeldeki diğer tablolarla ilişkilendirmemiz gerekiyor. Her zamanki gibi SQL Server'dan alınan **Bike** tablosu ile içeri aktarılan **ProductManagers** tablosu arasında bir ilişki oluşturacağız. Başka bir deyişle bu ilişkiyi *Bike[ProductName]* ile *ProductManagers[ProductName]* arasında kurmuş olacağız. Önceden belirtildiği üzere kaynaklar arasındaki tüm ilişkilerin varsayılan *çok-çok* kardinalitesini kullanması gerekir. 
+Şimdi bu tabloları modeldeki diğer tablolarla ilişkilendirmemiz gerekiyor. Her zamanki gibi SQL Server'dan alınan **Bike** tablosu ile içeri aktarılan **ProductManagers** tablosu arasında bir ilişki oluşturacağız. Başka bir deyişle bu ilişkiyi *Bike[ProductName]* ile *ProductManagers[ProductName]* arasında kurmuş olacağız. Önceden belirtildiği gibi, kaynak boyunca devam eden ilişkiler varsayılan olarak *çoka-çok* kardinalitesine sahiptir. 
 
 !["İlişki oluştur" penceresi](media/desktop-composite-models/composite-models_09.png)
 

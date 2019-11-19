@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: c3c1b11b4445ceba67e272b7f652d61d8935fc16
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175620"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431429"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
 
@@ -98,7 +98,7 @@ Power BI yöneticileri ve Office 365 Genel Yöneticileri, Power BI Premium kapas
 
 ### <a name="manage-user-permissions"></a>Kullanıcı izinlerini yönetme
 
-Ek kapasite yöneticileri ve *kapasite atama* iznine sahip kullanıcılar atayabilirsiniz. Atama izinleri bulunan kullanıcılar, söz konusu çalışma alanının yöneticisi olmaları halinde kapasiteye uygulama çalışma alanı atayabilir. Bu kapasiteye kişisel Çalışma Alanlarını (*Çalışma Alanım*) da atayabilirler. Atama izinlerine sahip kullanıcılar yönetici portalına erişemez.
+Ek kapasite yöneticileri ve *kapasite atama* iznine sahip kullanıcılar atayabilirsiniz. Atama izinleri bulunan kullanıcılar, söz konusu çalışma alanının yöneticisi olmaları halinde kapasiteye çalışma alanı atayabilir. Bu kapasiteye kişisel Çalışma Alanlarını (*Çalışma Alanım*) da atayabilirler. Atama izinlerine sahip kullanıcılar yönetici portalına erişemez.
 
 > [!NOTE]
 > Power BI Embedded için kapasite yöneticileri Microsoft Azure portalda tanımlanır.
@@ -109,7 +109,7 @@ Ek kapasite yöneticileri ve *kapasite atama* iznine sahip kullanıcılar atayab
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
 
-Kapasiteye çalışma alanı atamak için yönetici portalını ve uygulama çalışma alanlarını kullanabilirsiniz.
+Kapasiteye çalışma alanı atamak için yönetici portalını ve bir çalışma alanını kullanabilirsiniz.
 
 ### <a name="assign-from-the-admin-portal"></a>Yönetici portalından atama
 
@@ -127,22 +127,22 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel
    | --- | --- |
    | **Kullanıcılara göre çalışma alanları** | Çalışma alanlarını kullanıcıya veya gruba göre atadığınızda, söz konusu kullanıcıların sahip olduğu tüm çalışma alanları, kullanıcının kişisel çalışma alanı da dahil olmak üzere, Premium kapasiteye atanır. Söz konusu kullanıcılar çalışma alanı atama izinlerini otomatik olarak alır.<br>Buna, farklı bir kapasiteye atanmış olan çalışma alanları da dahildir. |
    | **Belirli çalışma alanları** | Seçili kapasiteye atamak istediğiniz belirli çalışma alanının adını girin. |
-   | **Tüm kuruluşun çalışma alanları** | Tüm kuruluşun çalışma alanlarını Premium kapasiteye atamak kuruluşunuzdaki tüm uygulama çalışma alanlarını ve Çalışma Alanım adlı kişisel alanları bu Premium kapasiteye atar. Ayrıca mevcut ve gelecekteki tüm kullanıcılar bu kapasiteye çalışma alanlarını ayrı ayrı yeniden atama iznine sahip olur. |
+   | **Tüm kuruluşun çalışma alanları** | Tüm kuruluşun çalışma alanlarını Premium kapasiteye atamak kuruluşunuzdaki tüm çalışma alanlarını ve Çalışma Alanım adlı kişisel alanları bu Premium kapasiteye atar. Ayrıca mevcut ve gelecekteki tüm kullanıcılar bu kapasiteye çalışma alanlarını ayrı ayrı yeniden atama iznine sahip olur. |
    | | |
 
 1. **Apply** (Uygula) seçeneğini belirleyin.
 
-### <a name="assign-from-app-workspace-settings"></a>Uygulama çalışma alanı ayarlarından atama
+### <a name="assign-from-workspace-settings"></a>Çalışma alanı ayarlarından atama
 
-Söz konusu çalışma alanının ayarlarından Premium kapasiteye uygulama çalışma alanı da atayabilirsiniz. Bir çalışma alanını kapasiteye taşımak için söz konusu çalışma alanının yönetici izinlerinin yanı sıra bu kapasiteye ilişkin kapasite atama izinlerine de sahip olmanız gerekir. Çalışma alanı yöneticilerinin bir çalışma alanını Premium kapasiteden istedikleri zaman kaldırabileceğini unutmayın.
+Söz konusu çalışma alanının ayarlarından çalışma alanını Premium kapasiteye de atayabilirsiniz. Bir çalışma alanını kapasiteye taşımak için söz konusu çalışma alanının yönetici izinlerinin yanı sıra bu kapasiteye ilişkin kapasite atama izinlerine de sahip olmanız gerekir. Çalışma alanı yöneticilerinin bir çalışma alanını Premium kapasiteden istedikleri zaman kaldırabileceğini unutmayın.
 
-1. Üç nokta **(. . .)** simgesini ve **Çalışma alanını düzenle**'yi seçerek uygulama çalışma alanını düzenleyin.
+1. Üç nokta **(. . .)** simgesini ve **Çalışma alanını düzenle**'yi seçerek çalışma alanını düzenleyin.
 
     ![Üç nokta bağlam menüsünden çalışma alanı düzenleme](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. **Çalışma alanını düzenle** alanında **Gelişmiş** seçeneğini genişletin.
 
-1. Bu uygulama çalışma alanını atamak istediğiniz kapasiteyi seçin.
+1. Bu çalışma alanını atamak istediğiniz kapasiteyi seçin.
 
     ![Kapasite seçimi açılan listesi](media/service-admin-premium-manage/app-workspace-advanced.png)
 

@@ -2,21 +2,19 @@
 title: Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
 description: Power BI'daki Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları ve püf noktaları
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408187"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099011"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Soru-Cevap tarafından tanınan sözcükler ve terminoloji
@@ -66,7 +64,7 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |  |  |
 |**Üst N**     |     (düzen, sıralama): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [özel görsellerdir](../power-bi-custom-visuals.md).  |
+|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [özel görsellerdir](../developer/power-bi-custom-visuals.md).  |
 |  |  Örnek: show districts by month and sales total as bar chart (bölgeleri aya ve satış toplamına göre çubuk grafik olarak göster)               |
 |        |         |
 |**Wh (ilişki, belirtili)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |
@@ -79,7 +77,9 @@ Soru-Cevap sorulan soruyu anlamak ve yanıtlamak için elinden gelenin en iyisin
 * Yanıtın önizlemesini görsel biçiminde sunar. Görsel siz soruyu yazdıkça ve düzenledikçe güncelleştirilir. (Enter tuşuna basmanızı beklemez.)
 * İmleci soru kutusuna tekrar taşıdığınızda, temel alınan veri kümelerinden elde edilen değişiklik terimlerini önerir.
 * Temel alınan veri kümelerindeki verilere göre soruyu yeniden yazar. Soru-Cevap, kullandığınız sözcükleri temel alınan veri kümelerindeki eş anlamlı sözcüklerle değiştirir. Farklı şekilde ifade edilen metni okuyarak Soru-Cevap'ın sorunuzu anlayıp anlamadığını belirleyebilirsiniz. 
-* Anlamadığı sözcükleri gri renkte gösterir.
+* anlamadığı sözcüklere bir çift alt çizgi ekler.
+* anladığı sözcüklere bir tek alt çizgi ekler.
+* teriminiz bulunamadığında veya sorunuz sonuç döndürmediğinde rapor veya pano sahibiyle iletişim kurmanıza olanak tanır.
 
 ## <a name="dont-stop-now"></a>Durmayın
 Soru-Cevap, sonuçlarınızı görüntüledikten sonra konuşmaya devam edin! Daha fazla içgörü elde etmek için görselin ve Soru-Cevap’ın etkileşimli özelliklerini kullanın.
@@ -89,5 +89,5 @@ Soru-Cevap, sonuçlarınızı görüntüledikten sonra konuşmaya devam edin! Da
 
 [Power BI - Temel Kavramlar](end-user-basic-concepts.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

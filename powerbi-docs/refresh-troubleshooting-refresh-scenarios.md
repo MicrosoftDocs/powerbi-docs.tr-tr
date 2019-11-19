@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 7e66cbf11c8177a12dbbf825873adb4cef5f26fd
+ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543868"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73169033"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 
@@ -25,6 +25,12 @@ Burada Power BI hizmetindeki verileri yenilerken karşılaşabileceğiniz farkl�
 > Aşağıda listelenmeyen bir senaryoyla karşılaşırsanız ve bu durum sorun yaratırsa daha fazla yardım almak için [topluluk sitesine](http://community.powerbi.com/) başvurabilir veya bir [destek bileti](https://powerbi.microsoft.com/support/) oluşturabilirsiniz.
 >
 >
+
+## <a name="email-notifications"></a>E-posta bildirimleri
+
+Bu makaleye bir e-posta bildiriminden geliyorsanız ve bundan böyle yenileme sorunları hakkında e-posta almak istemiyorsanız Power BI yöneticinize başvurun. E-postanızı veya abone olduğunuz bir e-posta listesini Power BI'daki uygun veri kümelerinden kaldırmasını isteyin. Bunu Power BI yönetici portalının aşağıdaki alanından gerçekleştirebilir.
+
+![Yenileme bildirimleri için e-posta](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Web bağlayıcısı kullanılarak gerçekleştirilen yenileme işlemi düzgün bir şekilde gerçekleştirilmiyor
 

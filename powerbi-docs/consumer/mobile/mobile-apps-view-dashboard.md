@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654617"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059811"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -118,7 +118,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
 
     Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../service-create-dashboard-mobile-phone-view.md). 
 
-1. Pano adının yanındaki üç nokta (...) simgesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
+1. Pano adının yanındaki **Diğer seçenekler** (...) düğmesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
    ![Üç nokta menüsü](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. [Panodaki tüm kutucukları](mobile-tiles-in-the-mobile-apps.md) görmek için ekranı yukarı ve aşağı kaydırın. 
@@ -134,7 +134,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
    * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
-3. Pano adının yanındaki üç nokta (...) simgesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
+3. Pano adının yanındaki **Diğer seçenekler** (...) düğmesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
    ![Üç nokta menüsü](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. [Panodaki tüm kutucukları](mobile-tiles-in-the-mobile-apps.md) görmek için ekranı yukarı ve aşağı kaydırın. 
@@ -156,6 +156,6 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Google Play'den [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
-* [Power BI nedir?](../../power-bi-overview.md)
+* [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
 

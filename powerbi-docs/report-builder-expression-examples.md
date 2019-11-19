@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Oluşturucusu’nda İfade örnekleri
 description: İçerik ve rapor görünümünü denetlemek için Power BI Sayfalandırılmış Rapor Oluşturucusu’nda ifadeler sıklıkla kullanılır.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624135"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728560"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
 İçerik ve rapor görünümünü denetlemek için Power BI Sayfalandırılmış Rapor Oluşturucusu’nda ifadeler sıklıkla kullanılır. Microsoft Visual Basic’te yazılan ifadeler yerleşik işlevleri, özel kodu, rapor ve grup değişkenlerini, kullanıcı tanımlı değişkenleri kullanabilir. İfadeler eşittir işaretiyle (=) başlar.   
@@ -35,7 +35,7 @@ Bu konu, bir raporda sıkça gerçekleştirilen görevler için kullanılabilen 
 Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleyebileceğiniz başvuru türleri hakkında daha fazla bilgi edinmek için [Power BI Rapor Oluşturucusu’nda İfadeler](report-builder-expressions.md) bölümünde yer alan konu başlıklarına göz atın. 
   
 ## <a name="functions"></a>İşlevler  
- Bir raporda bulunan ifadelerin çoğu işlev içerir. Bu işlevleri kullanarak verileri biçimlendirebilir, mantık uygulayabilir ve raporun meta verilerine erişebilirsiniz. Microsoft Visual Basic çalışma zamanı kitaplığındaki işlevlerin yanı sıra `xref:System.Convert` ve `xref:System.Math` ad alanlarındaki işlevleri de kullanan ifadeler yazabilirsiniz. Diğer derlemelerin veya özel kodun işlevlerine yönelik başvuru ekleyebilirsiniz. `xref:System.Text.RegularExpressions` dahil olmak üzere Microsoft .NET Framework sınıflarını da kullanabilirsiniz.  
+ Bir raporda bulunan ifadelerin çoğu işlev içerir. Bu işlevleri kullanarak verileri biçimlendirebilir, mantık uygulayabilir ve raporun meta verilerine erişebilirsiniz. Microsoft Visual Basic çalışma zamanı kitaplığındaki işlevlerin yanı sıra `xref:System.Convert` ve `xref:System.Math` ad alanlarındaki işlevleri de kullanan ifadeler yazabilirsiniz. Özel kodda işlevlere başvurular ekleyebilirsiniz. `xref:System.Text.RegularExpressions` dahil olmak üzere Microsoft .NET Framework sınıflarını da kullanabilirsiniz.  
   
 ##  <a name="VisualBasicFunctions"></a> Visual Basic işlevleri  
  Metin kutularında görüntülenen veya parametreler, özellikler veya raporun diğer alanları için kullanılan verileri denetlemek için Visual Basic işlevlerini kullanabilirsiniz. Bu bölüm, bu işlevlerin bazılarını gösteren örnekleri sunar. Daha fazla bilgi için MSDN’de bulunan [Visual Basic Çalışma Zamanı Kitaplığı Üyeleri](https://go.microsoft.com/fwlink/?LinkId=198941) bölümüne göz atın.  
@@ -476,7 +476,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     ```  
   
 ##  <a name="CustomCode"></a> Özel kod  
- Bir raporda özel kod kullanabilirsiniz. Özel kod, bir rapora ekli olur ya da raporda kullanılan özel bir derlemede depolanır.  
+ Bir raporda katıştırılmış özel kod kullanabilirsiniz. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Özel toplama için grup değişkenlerini kullanma  
  Belirli bir grup kapsamında yerel olan bir grup değişkeninin değerini başlatıp ifadelere bu değişken için bir başvuru ekleyebilirsiniz. Özel toplama uygulama, özel kod ile grup değişkeni kullanmanıza olanak tanıyan yöntemlerden biridir. 

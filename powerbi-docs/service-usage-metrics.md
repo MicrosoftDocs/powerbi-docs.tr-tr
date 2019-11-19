@@ -3,20 +3,19 @@ title: Panolar ve raporlar için kullanım ölçümlerini izleme
 description: Power BI panoları ve raporları için kullanım ölçümlerini görüntüleme, kaydetme ve kullanma.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530531"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871224"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları için kullanım ölçümlerini izleme
 
@@ -86,7 +85,7 @@ Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporları
 
 | Ölçüm | Pano | Rapor | Açıklama |
 | --- | --- | --- | --- |
-| Distribution method dilimleyicisi |evet |evet |Kullanıcıların içeriğe erişme şekli. Bunun için 3 olası yöntem vardır. Kullanıcılar panoya veya rapora bir [uygulama çalışma alanına](consumer/end-user-experience.md) üye olarak, içeriğin [kendileriyle paylaşılması](service-share-dashboards.md) yoluyla veya bir içerik paketini/uygulamayı yükleyerek erişebilir.  Uygulamadan gerçekleştirilen görüntüleme işlemleri "içerik paketi" olarak değerlendirilir. |
+| Distribution method dilimleyicisi |evet |evet |Kullanıcıların içeriğe erişme şekli. Bunun için 3 olası yöntem vardır. Kullanıcılar panoya veya rapora bir [çalışma alanına](consumer/end-user-experience.md) üye olarak, içeriğin [kendileriyle paylaşılması](service-share-dashboards.md) yoluyla veya bir içerik paketini/uygulamayı yükleyerek erişebilir.  Uygulamadan gerçekleştirilen görüntüleme işlemleri "içerik paketi" olarak değerlendirilir. |
 | Platforms dilimleyicisi |evet |evet |Panoya veya rapora Power BI hizmetinden (powerbi.com) mi yoksa mobil cihazdan mı erişim sağlandı? Mobile seçeneğine iOS, Android ve Windows uygulamalarımızın tamamı dahildir. |
 | Report page dilimleyicisi |hayır |evet |Raporda 1'den fazla sayfa varsa raporu görüntülenen sayfalara göre dilimleyebilirsiniz. Listede "Boş" seçeneğinin bulunması, bir rapor sayfasının yeni eklendiğini (yeni sayfanın gerçek adının dilimleyici listesine eklenmesi 24 saat kadar sürebilir) ve/veya rapor sayfalarının silindiğini gösterir. Bu gibi durumlarda "Boş" seçeneği görüntülenir. |
 | Views per day |evet |evet |Günlük toplam görüntüleme sayısı. Görüntüleme, kullanıcıların bir rapor sayfasını veya panoyu yüklemesi olarak tanımlanır. |
@@ -152,11 +151,18 @@ Power BI, ayrı ayrı ulusal bulutlarda kullanılabilir. Bu bulutlar hizmet tesl
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklılıklar olabileceğini ve bunların nedenlerini anlamak önemlidir. *Denetim günlükleri* Power BI hizmetinin verileri kullanılarak toplanırken, *Kullanım ölçümleri* istemcide toplanır. Denetim günlüklerindeki etkinliklerin toplam sayısı her zaman kullanım ölçümleriyle uyuşmaz. Nedenleri şunlardır:
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Denetim günlükleri ile kullanım ölçümleri arasındaki tutarsızlıklar
+
+Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklılıklar olabileceğini ve bunların nedenlerini anlamak önemlidir. *Denetim günlükleri* Power BI hizmetinin verileri kullanılarak toplanırken, *kullanım ölçümleri* istemcide toplanır. Denetim günlüklerindeki etkinliklerin toplam sayısı her zaman kullanım ölçümleriyle uyuşmaz. Nedenleri şunlardır:
 
 * Kullanım ölçümleri bazen ağ bağlantılarındaki tutarsızlıklar, reklam engelleyiciler veya istemciden etkinlikleri göndermeyi aksatan diğer sorunlar nedeniyle etkinlikleri eksik sayabilir.
 * Bu makalede daha önce açıklandığı gibi belirli görünüm türleri kullanım ölçümlerine dahil edilmez.
 * Kullanım ölçümleri istemcinin isteği Power BI hizmetine geri göndermesine gerek olmadan yenilemesi durumlarında, bazen etkinlikleri fazla sayabilir.
+
+### <a name="other-considerations"></a>Diğer önemli noktalar
+
+Çalışma alanınızdaki içeriği, aynı çalışma alanının içinden en az bir kez görüntülemeniz gerekir. Çalışma alanından içerikler en az bir kez görüntülenmemişse veriler Kullanım Ölçümleri Raporundaki uygulama görünümleriyle ilişkilendirilmez. Bu rapor için veri işleme engelini kaldırmak üzere içerikleri çalışma alanınızdan en az bir kez görüntüleyin.
+
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
@@ -188,4 +194,4 @@ Kullanım ölçümleriyle denetim günlükleri arasındaki farklılıklara ek ol
 
 [Yönetim portalında Power BI’ı yönetme](service-admin-portal.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

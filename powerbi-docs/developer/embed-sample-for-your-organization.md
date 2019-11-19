@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237397"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431073"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -45,7 +45,7 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan uygulama çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
+Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
 
 Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
 
@@ -57,13 +57,13 @@ Uygulamanızın [Power BI REST API'lerine](https://docs.microsoft.com/rest/api/p
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 
-### <a name="create-an-app-workspace"></a>Uygulama çalışma alanı oluştur
+### <a name="create-a-workspace"></a>Çalışma alanı oluşturma
 
-Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, uygulama çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../service-create-workspaces.md) veya [yeni çalışma alanları](../service-create-the-new-workspaces.md).
+Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../service-create-workspaces.md) veya [yeni çalışma alanları](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI raporlarınızı oluşturma ve yayımlama
 
-Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabilirsiniz. Daha sonra bu raporları bir uygulama çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının bir uygulama çalışma alanında yayımlamak için bir Power BI Pro lisansına sahip olması gerekir.
+Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabilirsiniz. Daha sonra bu raporları bir çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının bir çalışma alanında yayımlamak için Power BI Pro lisansına sahip olması gerekir.
 
 1. GitHub'dan örnek [Tanıtım](https://github.com/Microsoft/powerbi-desktop-samples)'ı indirin.
 
@@ -73,7 +73,7 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
 
    ![Örnek Power BI Desktop raporu](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Uygulama çalışma alanında yayımlayın.
+3. Çalışma alanında yayımlayın.
 
    ![Power BI Desktop raporunu yayımlama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabili
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yayımlama
 
-[Power BI Rapor Oluşturucusu](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)’nu kullanarak sayfalandırılmış raporlarınızı oluşturabilirsiniz. Daha sonra en az P1 kapasitesine atanmış bir uygulama çalışma alanına [raporu yükleyebilirsiniz](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu yükleyen son kullanıcının uygulama çalışma alanında yayımlama yapabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
+[Power BI Rapor Oluşturucusu](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)’nu kullanarak sayfalandırılmış raporlarınızı oluşturabilirsiniz. Daha sonra en az P1 kapasitesine atanmış bir çalışma alanına [raporu yükleyebilirsiniz](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu yükleyen son kullanıcının çalışma alanında yayımlayabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriğinizi ekleme
 
@@ -130,7 +130,7 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
 
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
-**workspaceId** bilgisini Power BI’daki uygulama çalışma alanı (grup) GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
+**workspaceId** bilgisini Power BI’daki çalışma alanı (grup) GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi Powershell'i kullanarak da alabilirsiniz.
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Power BI Premium adanmış kapasitesini kullanma
 
-Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile uygulamanızın çalışma alanını destekleme işlemine geçmelisiniz.
+Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
 
 Aşağıdaki tabloda, [Microsoft Office 365](../service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 
@@ -399,9 +399,9 @@ Aşağıdaki tabloda, [Microsoft Office 365](../service-admin-premium-purchase.m
 > - Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz bir Power BI lisansıyla içeriğe erişmek için EM SKU’larını kullanabilirsiniz. Ancak Powerbi.com veya Power BI mobil kullanırken ücretsiz bir Power BI lisansı ile içeriğe erişemezsiniz.
 > - Powerbi.com veya Power BI mobil kullanarak Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz Power BI lisansı ile içeriğe erişebilirsiniz.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye uygulama çalışma alanı atama
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye çalışma alanı atama
 
-Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
+Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
 
 1. Power BI hizmetinde, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanının üç noktasını seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
 
@@ -411,9 +411,9 @@ Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu ada
 
     ![Adanmış kapasite atama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. **Kaydet**’i seçtikten sonra, uygulama çalışma alanının yanında bir baklava işareti görmeniz gerekir.
+3. **Kaydet**’i seçtikten sonra, çalışma alanının yanında bir baklava işareti görmeniz gerekir.
 
-    ![Kapasiteye bağlanmış uygulama çalışma alanı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![Kapasiteye bağlanmış çalışma alanı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Yönetici ayarları
 

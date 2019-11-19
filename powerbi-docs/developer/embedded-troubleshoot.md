@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543910"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429309"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -78,8 +78,8 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının 
 
 * Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aşmıştır. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın alın ve çalışma alanını bu kapasiteye atayın. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
-* Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) üyesi değildir.
-* Kimliği doğrulanmış kullanıcı, grubun (uygulama çalışma alanı) yöneticisi değildir.
+* Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) üyesi değildir.
+* Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) yöneticisi değildir.
 * Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
 * Yetkilendirme üst bilgisi doğru listelenmemiş olabilir. Yazım hatası olmadığından emin olun.
 

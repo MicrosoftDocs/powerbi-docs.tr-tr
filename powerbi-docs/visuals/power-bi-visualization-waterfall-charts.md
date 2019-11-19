@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: c4def89d7c91186295e4f2b3f07769792a8892e8
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191403"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017786"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 
@@ -24,7 +24,7 @@ ms.locfileid: "71191403"
 
 Şelale grafikleri, Power BI değer ekleyip çıkardıkça değişen toplamı gösterir. Bunlar, bir başlangıç değerinin (net gelir gibi) bir dizi pozitif ve negatif değişiklikten nasıl etkilendiğini anlamak için faydalıdır.
 
-Artış ve azalmaları hızla fark edebilmeniz için sütunlar renk kodludur. Başlangıç değeri ve son değer sütunları genellikle [yatay eksende başlar](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "start on the horizontal axis") ve ara değerler, yüzen sütun şeklinde görünür. Bu stil nedeniyle şelale grafikler köprü grafikleri olarak da adlandırılır.
+Artış ve azalmaları hızla fark edebilmeniz için sütunlar renk kodludur. Başlangıç değeri ve son değer sütunları genellikle [yatay eksende başlar](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "yatay eksende başlat") ve ara değerler de yüzen sütunlar olarak görünür. Bu stil nedeniyle şelale grafikler köprü grafikleri olarak da adlandırılır.
 
    > [!NOTE]
    > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
@@ -76,7 +76,7 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
 
     ![şelale](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Power BI’ın şelale grafiğini kronolojik olarak sıraladığından emin olun. Grafiğin sağ üst köşesinden üç noktayı (...) seçin.
+1. Power BI’ın şelale grafiğini kronolojik olarak sıraladığından emin olun. Grafiğin sağ üst köşesinden **Diğer seçenekler** (...) düğmesini seçin.
 
     Bu örnekte **Artan düzende sırala**’yı seçeceğiz
 

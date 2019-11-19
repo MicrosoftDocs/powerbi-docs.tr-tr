@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 605f942f2d19c7701d7146829e75fa282efcb0a5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019630"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020127"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Kurumsal içerik paketleri: Kopyalama, yenileme ve erişim kazanma
 
@@ -30,7 +30,7 @@ Bir kurumsal içerik paketi yayımlandığında, bütün alıcılar aynı panoyu
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Kurumsal içerik paketinin bir kopyasını oluşturma
 İçerik paketinin, size ait ve başkalarına görünemeyecek bir kopyasını oluşturun.
 
-1. İçerik paketi panosu yanındaki üç nokta (...) simgesini ve Kopya oluştur'u seçin.
+1. İçerik paketi panosu yanındaki **Diğer seçenekler**’i (...) ve Kopya oluştur'u seçin.
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. **Kaydet**'i seçin.  

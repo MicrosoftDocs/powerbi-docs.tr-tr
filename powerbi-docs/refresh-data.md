@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307929"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442950"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -93,14 +93,14 @@ Power BI yenileme işlemi, veri yenileme, OneDrive yenilemesi, sorgu önbellekle
 
 #### <a name="data-refresh"></a>Veri yenileme
 
-Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, günde 48’e kadar yenileme yapabilirsiniz. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında bulunan zamanlanmış yenileme yapılandırma bölümüne göz atın.
+Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, veri kümesi ayarlarında günde 48’e kadar yenileme zamanlayabilirsiniz. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında bulunan zamanlanmış yenileme yapılandırma bölümüne göz atın.
 
-Günlük yenileme sınırlamasında, hem zamanlanmış hem de isteğe bağlı olarak yapılan yenilemelerin birleşik toplamının dikkate alındığının unutulmaması önemlidir. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi menüsünde **Şimdi Yenile**’yi seçerek bir isteğe bağlı yenilemeyi tetikleyebilirsiniz. Power BI REST API’sini kullanarak, veri yenilemeyi programlama yoluyla da tetikleyebilirsiniz. Kendi yenileme çözümünüzü oluşturmak istiyorsanız [Veri Kümeleri - Veri Kümesini Yenileme](/rest/api/power-bi/datasets/refreshdataset) bölümüne göz atın.
+Günlük yenilemelere ilişkin paylaşılan kapasite sınırlamasında hem zamanlanmış yenilemelerin hem de API yenilemelerinin dikkate alındığının unutulmaması önemlidir. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi menüsünde **Şimdi Yenile**’yi seçerek bir isteğe bağlı yenilemeyi de tetikleyebilirsiniz. İsteğe bağlı yenilemeler, yenileme sınırlamasına dahil değildir. Ayrıca, Premium kapasitedeki veri kümelerinin API yenileme sınırlamaları getirmediğini unutmayın. Power BI REST API kullanarak kendi yenileme çözümünüzü oluşturmak istiyorsanız bkz. [Veri Kümeleri - Veri Kümesini Yenileme](/rest/api/power-bi/datasets/refreshdataset).
 
 ![Şimdi yenile](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> Veri yenilemelerinin 2 saatten kısa bir sürede tamamlanması gerekir. Veri kümeleriniz daha uzun yenileme işlemleri gerektiriyorsa, veri kümesini bir Premium kapasiteye geçirmeyi düşünebilirsiniz. Premium’da en uzun yenileme süresi 5 saattir.
+> Paylaşılan kapasitede veri yenilemelerinin 2 saatten kısa bir sürede tamamlanması gerekir. Veri kümeleriniz daha uzun yenileme işlemleri gerektiriyorsa, veri kümesini bir Premium kapasiteye geçirmeyi düşünebilirsiniz. Premium’da en uzun yenileme süresi 5 saattir.
 
 #### <a name="onedrive-refresh"></a>OneDrive yenilemesi
 
@@ -134,7 +134,7 @@ Ancak, veri yenilemenin ardından daha önce önbelleğe alınmış sorgu sonuç
 
 #### <a name="tile-refresh"></a>Kutucuk yenileme
 
-Power BI, panolarınızda yer alan her kutucuk görseli için bir önbellek tutar ve veriler değiştiğinde kutucuk önbelleklerini proaktif bir şekilde güncelleştirir. Diğer bir deyişle kutucuk yenileme, bir veri yenilemesinden sonra otomatik olarak gerçekleşir. Bu, hem zamanlanmış hem de isteğe bağlı gerçekleştirilen yenileme işlemleri için geçerlidir. Ayrıca, bir panonun sağ üst bölümündeki üç nokta (...) simgesini seçerek ve **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
+Power BI, panolarınızda yer alan her kutucuk görseli için bir önbellek tutar ve veriler değiştiğinde kutucuk önbelleklerini proaktif bir şekilde güncelleştirir. Diğer bir deyişle kutucuk yenileme, bir veri yenilemesinden sonra otomatik olarak gerçekleşir. Bu, hem zamanlanmış hem de isteğe bağlı gerçekleştirilen yenileme işlemleri için geçerlidir. Ayrıca, bir panonun sağ üst bölümündeki **Diğer seçenekler** (...) simgesini seçerek ve **Pano kutucuklarını yenile** seçeneğini belirleyerek kutucuk yenileme işlemi yapabilirsiniz.
 
 ![Pano kutucuklarını yenile](media/refresh-data/refresh-dashboard-tiles.png)
 

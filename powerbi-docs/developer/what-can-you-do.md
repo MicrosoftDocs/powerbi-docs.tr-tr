@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 54d0b1635eb75fd5cbcb1f3e745097e7da566342
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307449"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429306"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
 
@@ -22,7 +22,7 @@ Geliştiriciler, Power BI içeriğini uygulamalara eklemek için farklı seçene
 
 ## <a name="embedding-power-bi-content"></a>Power BI içeriğini ekleme
 
-Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken panolar, ağ geçitleri ve uygulama çalışma alanları gibi en yeni Power BI özeliklerine erişebileceğiniz anlamına gelir.
+Power BI hizmetinde (SaaS) ve Azure’daki Power BI Embedded hizmetinde (PaaS), panolarınızı ve raporlarınızı eklemeye yönelik API’ler bulunur. Bu özellik, içeriğinizi eklerken panolar, ağ geçitleri ve çalışma alanları gibi en yeni Power BI özeliklerine erişebileceğiniz anlamına gelir.
 
 Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum aracını](https://aka.ms/embedsetup) inceleyebilirsiniz.
 

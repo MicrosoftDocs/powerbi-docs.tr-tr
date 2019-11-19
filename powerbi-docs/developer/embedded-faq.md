@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490344"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429287"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -67,7 +67,7 @@ Aşağıda özellik farklarının kısmi bir listesini bulabilirsiniz.
 | Öne çıkan özelliği | Power BI Embedded | Power BI Premium Kapasitesi | Power BI Premium Kapasitesi |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU'ları-Azure kapasitesi | EM SKU'ları-O365 kapasitesi | P SKU'ları-O365 kapasitesi |
-| Power BI Uygulaması çalışma alanından yapıtları ekleme | Evet | Evet | Evet |
+| Power BI çalışma alanından yapıtları ekleme | Evet | Evet | Evet |
 | Katıştırılmış uygulamada Power BI raporlarını kullanma - SaaS | Hayır | Evet | Evet |
 | Katıştırılmış uygulamada Power BI raporlarını kullanma - PaaS | Evet | Evet | Evet |
 | Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
@@ -146,7 +146,7 @@ Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Pow
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
 
-[Çözümünüzü üretime yükseltmek](embed-sample-for-customers.md#move-to-production) için uygulamanızın kullandığı Power BI içeriğini (uygulama çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atamanız gerekir.
+[Çözümünüzü üretime yükseltmek](embed-sample-for-customers.md#move-to-production) için uygulamanızın kullandığı Power BI içeriğini (çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atamanız gerekir.
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded hangi Azure bölgelerinde kullanılabilir?
 

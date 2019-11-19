@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195394"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432148"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -33,19 +33,19 @@ Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin
 - [Temel Power BI kavramlarını](service-basic-concepts.md) tanıma
 - Bir şablon uygulamasını herkese açık şekilde paylaşma izinleri. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings).
 
-## <a name="create-the-template-app-workspace"></a>Şablon uygulaması çalışma alanını oluşturma
+## <a name="create-the-template-workspace"></a>Şablon çalışma alanını oluşturma
 
-Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması oluşturmak için, bu uygulamayı yeni uygulama çalışma alanlarından birinde oluşturmalısınız.
+Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması oluşturmak için, bu uygulamayı yeni çalışma alanlarından birinde oluşturmalısınız.
 
-1. Power BI hizmetinde **Çalışma alanları** > **Uygulama çalışma alanı oluştur**’u seçin.
+1. Power BI hizmetinde **Çalışma alanları** > **Çalışma alanı oluştur**’u seçin.
 
-    ![Uygulama çalışma alanı oluştur](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Çalışma alanı oluşturma](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **Uygulama çalışma alanı oluştur**’da **Yenisine yükselt** seçeneğini belirleyin.
+2. **Çalışma alanı oluştur**’da **Yenisine yükselt** seçeneğini belirleyin.
 
     ![Yeni çalışma alanlarını deneme](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Uygulama çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
+3. Çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
 
 4. **Gelişmiş** bölümünü genişletin ve **Şablon uygulaması geliştirin**’i seçin.
 
@@ -57,9 +57,9 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
 ## <a name="create-the-content-in-your-template-app"></a>Şablon uygulamanızdaki içeriği oluşturma
 
-Normal Power BI uygulama çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanında içeriği oluşturmaktır.  
+Normal Power BI çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanında içeriği oluşturmaktır.  
 
-- Uygulama çalışma alanınızda [Power BI içeriğinizi oluşturun](power-bi-creator-landing.md).
+- Çalışma alanınızda [Power BI içeriğinizi oluşturun](power-bi-creator-landing.md).
 
 Power Query’de parametreleri kullanıyorsanız, bunların iyi tanımlanmış türde (örneğin, Text) olmasına dikkat edin. Any ve Binary türleri desteklenmez.
 
@@ -69,7 +69,7 @@ Power Query’de parametreleri kullanıyorsanız, bunların iyi tanımlanmış t
 
 Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir şablon uygulamasında paketlemeye hazırsınız. İlk adım yalnızca kiracınızda kuruluşunuzun içinden erişilebilen bir test şablon uygulaması oluşturmaktır.
 
-1. Şablon uygulaması çalışma alanında **Uygulama oluştur**’u seçin.
+1. Şablon çalışma alanında **Uygulama oluştur**’u seçin.
 
     ![Uygulama oluşturma](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
 Şimdi aşamaları gözden geçirelim:
 
-1. Şablon uygulaması çalışma alanında **Sürüm Yönetimi**’ni seçin.
+1. Şablon çalışma alanında **Release Management**’ı seçin.
 
     ![Sürüm Yönetimi simgesi](media/service-template-apps-create/power-bi-release-management-icon.png)
 

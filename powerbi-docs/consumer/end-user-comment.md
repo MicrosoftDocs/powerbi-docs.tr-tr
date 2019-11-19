@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: f9979a852028e929b626e76534fef073feca3fd8
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 45c158d15c92b67d945696b6d55ba0b1e4c6d971
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100639"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019927"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla bir pano ya da rapor hakkında bir konuşma başlatın. **Açıklama** özelliği, *tüketicinin* diğer kişilerle işbirliği yaparak çalışma yollarından yalnızca biridir. 
 
 ![açıklamalar videosu](media/end-user-comment/comment.gif)
@@ -64,7 +67,7 @@ Bir panoya veya rapora açıklama ekleme işlemi benzerdir.  Bu örnekte pano se
 ### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Belirli bir pano veya rapor görseline açıklama ekleme
 Bir panonun tamamına veya bütün bir rapor sayfasına açıklama eklemenin yanı sıra, açıklamaları ayrı pano kutucuklarına ve bireysel rapor görsellerine de ekleyebilirsiniz. Süreçler benzerdir, biz bu örnekte bir rapor kullanıyoruz.
 
-1. Görselin üzerine gelin ve üç noktayı (...) seçin.    
+1. Görselin üzerine gelin ve **Diğer seçenekler**’i (...) seçin.    
 2. Açılan listeden **Yorumları aç**'ı seçin.
 
     ![Açıklama ekle, ilk seçenektir](media/end-user-comment/power-bi-report-comment.png)  

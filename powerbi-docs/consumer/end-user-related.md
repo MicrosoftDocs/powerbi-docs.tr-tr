@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100313"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019434"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 **İlişkili içerik** bölmesi, Power BI hizmet içeriğinizin (panolar, raporlar ve veri kümeleri) birbirine nasıl bağlı olduğunu gösterir. **İlgili içerik** panosu ayrıca eylem gerçekleştirmek için bir fırlatma rampasıdır. Buradan, pano açma, rapor açma, içgörü oluşturma, Excel'de verileri çözümleme ve daha birçok şey yapabilirsiniz.  
 
 Power BI'da raporlar veri kümeleri temelinde oluşturulur, rapor görselleri panolara sabitlenir ve pano görselleri raporlara geri bağlanır. Peki hangi panoların Pazarlama raporunuzdaki görselleri barındırdığını nasıl bilebilirsiniz? Bu panoları nasıl bulabilirsiniz? Tedarik panonuz birden fazla veri kümesine ait görselleri mi kullanıyor? Öyleyse bunların adları nedir ve bunları nasıl açabilir ve düzenleyebilirsiniz? İK veri kümeniz herhangi bir rapor veya panoda kullanılıyor mu? Veya, herhangi bir bağlantı kesintisine neden olmadan taşınabilir mi? Bu ve benzeri tüm soruların cevapları **İlişkili içerik** bölmesinde verilebilir.  Bölme, ilişkili içeriği görüntülemenin yanı sıra içerik üzerinde işlem yapmanıza ve ilişkili içerik arasında kolayca gezinmenize olanak tanır.
@@ -36,7 +39,7 @@ Bir panonun ilişkili içeriğini görüntüleyen Will'i izleyin. Ardından Teda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Bir pano veya rapor açıkken menü çubuğunda üç noktayı (...) ve açılır listeden **İlişkilileri görüntüle**’yi seçin.
+Bir pano veya rapor açıkken menü çubuğundan **Diğer seçenekler**’i (...) ve açılır listeden **İlişkilileri görüntüle**’yi seçin.
 
 ![Üç nokta açılır listesi](./media/end-user-related/power-bi-dropdown.png)
 

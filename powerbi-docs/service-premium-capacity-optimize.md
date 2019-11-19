@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: fc983fe9027f6d94c5394d524a6417a64719a8ac
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750932"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431694"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium kapasiteleri iyileştirme
 
@@ -33,7 +33,7 @@ Son olarak, yaklaşımlar ve Premium kapasite boyutlandırması test edilerek bu
 
 En uygun kullanımı ve en iyi performansı elde etmek için şunları da içeren önerilen en iyi yöntemler bulunur:
 
-- Kişisel çalışma alanlarının yerine uygulama çalışma alanlarını kullanma.
+- Kişisel çalışma alanlarının yerine çalışma alanlarını kullanma.
 - İş açısından kritik ve Self Servis BI’ı (SSBI) farklı kapasitelere ayırma.
 
   ![İş açısından kritik ve Self Servis BI’ı farklı kapasitelere ayırma](media/service-premium-capacity-optimize/separate-capacities.png)

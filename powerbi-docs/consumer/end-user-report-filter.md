@@ -8,17 +8,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3217691d68be6a351f87e5011fd5bc5ef347acfc
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840989"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774787"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Bu makale Power BI hizmetindeki Rapor **Filtreleri** bölmesine bir bakış sunmaktadır. Verilerinizde yeni içgörüler keşfetmek için filtreleri kullanın.
 
@@ -34,11 +36,14 @@ Bir iş arkadaşı sizinle bir rapor paylaştığında **Filtreler** bölmesine 
 
 **Filtreler** bölmesi, rapor *tasarımcısı* tarafından rapora eklenen filtreleri içerir. Sizin gibi *tüketiciler* mevcut filtrelerle etkileşebilir ve değişikliklerini kaydedebilir, ancak rapora yeni filtre ekleyemezsiniz. Örneğin yukarıdaki ekran görüntüsünde tasarımcı üç sayfa düzeyi filtre eklemiştir: **Segment is All**, **Year is 2014** ve **Region is Central**. Bu filtrelerle etkileşim kurabilir ve bunları değiştirebilirsiniz ancak dördüncü bir sayfa düzeyi filtresi ekleyemezsiniz.
 
-Power BI hizmetinde raporlar, **Filtreler** bölümünde yaptığınız tüm değişiklikleri saklar. Hizmet, raporun mobil versiyonu aracılığıyla bu değişiklikleri taşır.
+Power BI hizmetinde raporlar, **Filtreler** bölümünde yaptığınız tüm değişiklikleri saklar. Hizmet, raporun mobil versiyonu aracılığıyla bu değişiklikleri taşır. 
 
 **Filtreler** bölmesini tasarımcının varsayılanlarına geri döndürmek için üstteki menü çubuğundan **Varsayılana sıfırla**'yı seçin.
 
 ![Varsayılana sıfırla simgesinin ekran görüntüsü.](media/end-user-report-filter/power-bi-reset-icon.png) 
+
+> [!NOTE]
+> **Varsayılana sıfırla** seçeneğini görmüyorsanız rapor *tasarımcısı* tarafından devre dışı bırakılmış olabilir. *Tasarımcı*, değiştirememeniz için belirli filtreleri de kilitleyebilir.
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Bir rapor sayfasının tüm filtrelerini görüntüleme
 
