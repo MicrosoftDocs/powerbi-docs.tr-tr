@@ -3,19 +3,18 @@ title: CommonCryptoLib (sapcrypto.dll) kullanarak SSO için SAP BW’de Kerberos
 description: CommonCryptoLib (sapcrypto.dll) kullanarak SAP BW sunucunuzu Power BI hizmetinden SSO etkinleştirecek şekilde yapılandırma
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020876"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872421"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib (sapcrypto.dll) kullanarak SSO için SAP BW’de Kerberos çoklu oturum açma kullanma
 
@@ -31,7 +30,7 @@ Bu makalede, CommonCryptoLib (sapcrypto.dll) kullanılarak Power BI hizmetinden 
 
 1. BW sunucunuzun CommonCryptoLib kullanarak Kerberos SSO için doğru yapılandırıldığından emin olun. Doğru yapılandırılmışsa, CommonCryptoLib kullanacak şekilde yapılandırılmış SAP GUI’si gibi bir SAP aracı ile BW sunucunuza erişmek için (doğrudan veya bir SAP BW İleti Sunucusu üzerinden) SSO kullanabilirsiniz. 
 
-   Kurulum adımları hakkında daha fazla bilgi için bkz. [Sap Çoklu Oturum Açma: Kerberos/SPNEGO ile kimlik doğrulama](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). BW sunucunuzun CommonCryptoLib’i SNC Kitaplığı olarak kullanması ve *CN=BW1* gibi *CN=* ile başlayan bir SNC adının olması gerekir. SNC ad gereksinimleri (özellikle snc/kimlik/parametre olarak) hakkında daha fazla bilgi için bkz. [Kerberos Yapılandırması için SNC Parametreleri](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html).
+   Kurulum adımları hakkında daha fazla bilgi için bkz. [Sap Çoklu Oturum Açma: Kerberos/SPNEGO ile kimlik doğrulama](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). BW sunucunuzun CommonCryptoLib’i SNC Kitaplığı olarak kullanması ve *CN=BW1* gibi *CN=* ile başlayan bir SNC adının olması gerekir. SNC ad gereksinimleri (özellikle snc/kimlik/parametre olarak) hakkında daha fazla bilgi için bkz. [Kerberos Yapılandırması için SNC Parametreleri](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Daha önce yapmadıysanız, [SAP .NET Bağlayıcısının](https://support.sap.com/en/product/connectors/msnet.html) x64 sürümünü, ağ geçidinin yüklü olduğu bilgisayara yükleyin. 
    
@@ -102,7 +101,7 @@ Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamak olması i
 
 ### <a name="cpic-tracing"></a>CPIC izleme
 
-1. CPIC izlemeyi etkinleştirmek için iki ortam değişkeni ayarlayın: **CPIC**TRACE\_ ve \_CPIC**TRACE\_DIR**. 
+1. CPIC izlemeyi etkinleştirmek için iki ortam değişkeni ayarlayın: **CPIC\_TRACE** ve **CPIC\_TRACE\_DIR**. 
 
    İlk değişken izleme düzeyini, ikinci değişken de izleme dosyası dizinini ayarlar. Dizin, Kimliği Doğrulanmış Kullanıcılar grubunun yazma izninin bulunduğu bir konum olmalıdır. 
  
