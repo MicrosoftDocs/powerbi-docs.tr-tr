@@ -2,7 +2,6 @@
 title: Düzenleme görünümünde bir raporla etkileşim kurma
 description: Power BI hizmetindeki rapor Düzenleme görünümü'nde bir raporla etkileşim kurma
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 786357d2861b05c46ffb3c7b827d5c797fb5ea20
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431798"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872200"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümü'nde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop'ta raporlar oluşturulup düzenlenebilir. Power BI hizmetinde raporlar, **Düzenleme görünümü**'nde oluşturulup düzenlenebilir. Power BI Desktop’ta ise raporlar [**Rapor görünümü**](desktop-report-view.md)'nde oluşturulup düzenlenebilir. Bu makalede Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
@@ -45,5 +44,5 @@ Başkaları tarafından oluşturulan raporları düzenlemek ve raporlarınızı 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI hizmetinde Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md) sayfasına dönün
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

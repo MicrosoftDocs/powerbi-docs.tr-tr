@@ -2,7 +2,6 @@
 title: Görselde detaya gitme ve detaydan çıkma
 description: Bu makalede, Microsoft Power BI hizmetinde bir görselin detayına nasıl gidileceği gösterilir.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589504"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851452"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
 
@@ -128,7 +127,7 @@ Yalnızca posta kodu gösteren bir ağaç haritası pek bilgi vermez.  Bu nedenl
 ## <a name="show-the-data-as-you-drill"></a>Detaylandırırken verileri gösterme
 Sahne gerisine göz atmak için **Verileri göster**'i kullanın. Her detaylandırma veya genişletme işlemi yaptığınızda, **Verileri göster** seçeneği görseli oluştururken kullanılan verileri görüntüler. Bu, görselleri oluşturmak için hiyerarşilerin, detaylandırmanın ve genişletmenin birlikte nasıl çalıştığını anlamanıza yardımcı olabilir. 
 
-Sağ üst köşede üç noktayı (...) ve sonra da **Verileri Göster**'i seçin. 
+Sağ üst köşede **Diğer seçenekler** (...) ve sonra **Verileri Göster**’i seçin. 
 
 ![Üç nokta menüsünün ekran görüntüsü.](./media/end-user-drill/power-bi-ellipses.png)
 
@@ -153,4 +152,4 @@ Varsayılan olarak, detaylandırma özelliği bir rapordaki diğer görselleri f
 
 [Power BI - Temel Kavramlar](end-user-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

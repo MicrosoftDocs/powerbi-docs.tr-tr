@@ -2,7 +2,6 @@
 title: Pano kutucuklarında içgörüleri çalıştırma ve görüntüleme
 description: Power BI son kullanıcısı olarak, pano kutucuklarınız hakkındaki öngörüleri nasıl edineceğinizi öğrenin.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019622"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863395"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 Panonuzdaki her görsel [kutucuğu](end-user-tiles.md), veri araştırma dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda veya [Soru-Cevap kutusunda](end-user-q-and-a.md) bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.

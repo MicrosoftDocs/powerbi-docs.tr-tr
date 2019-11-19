@@ -2,7 +2,6 @@
 title: Power BI için Cortana ile ilgili sorunları giderme
 description: Cortana'yı Power BI ile kullanma konusunda sorun yaşıyorsanız bu önerileri uygulamayı deneyin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432112"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872890"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Power BI için Cortana ile ilgili sorunları giderme
 Bu makale bir serinin parçasıdır. 
@@ -96,4 +95,4 @@ Sizinle paylaşılmış olan bir panoyu mu arıyorsunuz?  Power BI > **Benimle p
 * İşlevin tasarımı nedeniyle sorgunun 2 veya daha fazla kelimeden oluşması gerekir.  Sorgunuz çok kısaysa "show" kelimesini ekleyin.
 * Edat içeren bazı sorgu dizeleri (ör. sales by item) sonuç döndürmeyebilir. Edat içermeyen, anlamlı ve benzersiz sorgu terimleri kullanmayı deneyin.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

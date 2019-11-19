@@ -2,7 +2,6 @@
 title: Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 description: Birden fazla çalışma alanında birden fazla Power BI Desktop raporu için ortak bir veri kümesi kullanma ve rapor yaşam döngüsünü yönetme
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429809"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877885"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 Power BI hizmetinde bir paylaşılan veri kümesiyle canlı bağlantı kurabilir, aynı veri kümesinden pek çok farklı rapor oluşturabilirsiniz. Bu Power BI Desktop'ta mükemmel veri modelinizi oluşturabileceğiniz ve Power BI hizmetinde yayımlayabileceğiniz anlamına gelir. Ardından siz ve başkaları aynı, ortak veri modelinden farklı raporlar (ayrı .pbix dosyalarında) oluşturabilir ve bunları farklı çalışma alanlarına kaydedebilirsiniz. Bu özelliğin adı **Power BI hizmeti Canlı bağlantısı**'dır.

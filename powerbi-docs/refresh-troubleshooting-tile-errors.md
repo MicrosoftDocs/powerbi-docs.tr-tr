@@ -2,7 +2,6 @@
 title: Kutucuk hatalarıyla ilgili sorunları giderme
 description: Power BI’da kutucuklar yenileme yapmaya çalıştığında karşılaşılabilecek genel hatalar
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021546"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877498"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.
 
 > [!NOTE]
-> Aşağıda belirtilmemiş bir hatayla karşılaşırsanız ve bu durum sorun yaratırsa daha fazla yardım almak için [topluluk sitesine](http://community.powerbi.com/) başvurabilir veya bir [destek bileti](https://powerbi.microsoft.com/support/) oluşturabilirsiniz.
+> Aşağıda belirtilmemiş bir hatayla karşılaşırsanız ve bu durum sorun yaratırsa daha fazla yardım almak için [topluluk sitesine](https://community.powerbi.com/) başvurabilir veya bir [destek bileti](https://powerbi.microsoft.com/support/) oluşturabilirsiniz.
 > 
 > 
 
@@ -38,7 +37,7 @@ Veri kaynaklarıyla veri modelinin mevcut ve hesabınız için erişilebilir old
 
 **Özel görseller yöneticiniz tarafından devre dışı bırakıldı.**
 
-Power BI yöneticiniz, kuruluşunuz veya güvenlik grubunuz için özel görsel kullanımını devre dışı bıraktı. [Microsoft marketten](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) özel görselleri kullanamazsınız veya dosyadan özel görselleri aktaramazsınız. Yalnızca önceden paketlenmiş görseller kümesini kullanabilirsiniz.
+Power BI yöneticiniz, kuruluşunuz veya güvenlik grubunuz için özel görsel kullanımını devre dışı bıraktı. [Microsoft marketten](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) özel görselleri kullanamazsınız veya dosyadan özel görselleri aktaramazsınız. Yalnızca önceden paketlenmiş görseller kümesini kullanabilirsiniz.
 
 
 **Veri şekilleri, veri çıkışı sağlayan en az bir grup veya hesaplama içermelidir. Lütfen pano sahibiyle iletişime geçin.**
@@ -82,5 +81,5 @@ Sorun yaşamaya devam ediyorsanız daha fazla araştırma yapılabilmesi için [
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 [Power BI kişisel ağ geçidiyle ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

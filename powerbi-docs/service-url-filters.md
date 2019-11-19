@@ -3,7 +3,6 @@ title: URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 description: URL sorgu dizesi parametrelerini kullanarak bir raporu ve hatta birden fazla alanı filtreleyebilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 389b28a4cadca10445ebaabeebaa109e414496f1
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891807"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876921"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -195,4 +194,4 @@ Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar
 [Panoya görselleştirme sabitleme](service-dashboard-pin-tile-from-report.md)  
 [Ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/get-started/)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

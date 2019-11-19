@@ -2,7 +2,6 @@
 title: Kuruluşunuzda denetim kullanma
 description: Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cbb9fa77c529052e32800e0a72a6263b770840d0
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060671"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873780"
 ---
 # <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim kullanma
 
@@ -261,4 +260,4 @@ Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
 
 [Power BI Yönetici Portalı](service-admin-portal.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

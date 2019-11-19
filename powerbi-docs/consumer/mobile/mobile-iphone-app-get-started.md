@@ -2,19 +2,18 @@
 title: iOS için Power BI mobil uygulaması ile çalışmaya başlama
 description: iOS uygulaması için Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: cc239ad33d8789d679fccd21339740af71155336
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059457"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870198"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -31,7 +30,7 @@ Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="download-the-app"></a>Uygulamayı indirme
-App Store'a giderek iPhone, iPad veya iPod Touch'ınıza [iOS uygulamasını indirin](http://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
+App Store'a giderek iPhone, iPad veya iPod Touch'ınıza [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
 
 iOS için Power BI uygulamasını, iOS 11 veya sonraki bir sürümü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
 
@@ -73,9 +72,9 @@ Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebili
    ![Power BI mobil uygulamasındaki Reporting Services örnekleri](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
-Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz her şeyi dilediğiniz zaman arayabilirsiniz. 
+Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz tüm içeriği dilediğiniz zaman arayabilirsiniz. 
 
-![Sol gezinti bölmesi](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![Gezinti bölmesi](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında daha fazla bilgi edinin.
 
@@ -84,7 +83,7 @@ Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu v
 
 * **Sık Kullanılanlar**'a dokunun.
   
-   ![Sol gezinti bölmesindeki Sık Kullanılanlar seçeneği](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![Gezinti bölmesinde Sık Kullanılanlar](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    Sık kullanılanlarınızın tümünü şu sayfada görürsünüz:
   
@@ -110,6 +109,6 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
 

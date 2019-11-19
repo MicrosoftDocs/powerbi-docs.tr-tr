@@ -2,7 +2,6 @@
 title: Power BI'da veri yenileme
 description: Bu makalede, Power BI’ın veri yenileme özellikleri ve bu özelliklerin bağımlılıkları kavramsal düzeyde açıklanmaktadır.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 948776a12af2d99da2d84d07c9298f9ec0558c7b
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442950"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860783"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -277,7 +276,7 @@ Power BI ve veri kaynaklarınız arasındaki bağlantıyı oluşturma, bir veri 
 
 ![Zamanlanmış yenileme yapılandırma](media/refresh-data/configure-scheduled-refresh.png)
 
-Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, sol gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
+Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
 
 Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan işlemi yapmaya başladığı kesin zaman olmayabileceğini unutmayın. Power BI, zamanlanmış yenilemelere en iyi çaba ilkesine göre başlar. Hedef, yenilemeyi zamanlanan zaman aralığının 15 dakika içerisinde başlatmaktır. Ancak, hizmet gerekli kaynakları daha erken ayıramazsa, bir saati bulabilen gecikmeler ortaya çıkabilir.
 
@@ -339,4 +338,4 @@ Buna ek olarak, veri kümeleriniz için güvenilir veri yenileme işlemleri olu�
 [Yenileme ile ilgili sorun giderme araçları](service-gateway-onprem-tshoot.md)  
 [Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

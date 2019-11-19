@@ -2,7 +2,6 @@
 title: Çalışma alanları arasında veri kümelerine giriş (Önizleme)
 description: Kuruluş genelindeki kullanıcılarla veri kümesi paylaşmayı öğrenin. Kendi çalışma alanlarında sizin veri kümelerinizi temel alan raporlar oluşturabilirler.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431934"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877187"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)
 
@@ -73,4 +72,4 @@ Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özel
 - [Veri kümelerini tanıtma](service-datasets-promote.md)
 - [Veri kümelerini onaylama](service-datasets-certify.md)
 - [Çalışma alanları arasında veri kümeleri kullanımını yönetme](service-datasets-admin-across-workspaces.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Power BI ve Office 365'te çalışma alanınızı yönetme
 description: Power BI'daki çalışma alanları, Office 365 grupları temel alınarak oluşturulmuş bir işbirliği deneyimi sunar. Çalışma alanlarınızı hem Power BI'da hem de Office 365'te yönetebilirsiniz.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872064"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te çalışma alanınızı yönetme
 
@@ -87,4 +86,4 @@ Uygulamanızı, çalışma alanından dağıttığınızda burada eklediğiniz r
 
 * [Uygulamayı Power BI'da yayımlama](service-create-distribute-apps.md)
 
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

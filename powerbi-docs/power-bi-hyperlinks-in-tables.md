@@ -2,7 +2,6 @@
 title: Tabloya köprü (URL) ekleme
 description: Bu konu başlığı altında bir tabloya köprü (URL) ekleme hakkında bilgi alacaksınız. Bir tabloya veya matrise köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c53ce84610e68280c915d55466bc7cddd3c0cc92
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060745"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874509"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Tabloya köprü (URL) ekleme
 Bu konu başlığı altında bir tabloya köprü (URL) ekleme hakkında bilgi alacaksınız. Bir tabloya veya matrise köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. 
@@ -112,5 +111,5 @@ C: Hayır. Bir bağlantı simgesi kullanabilirsiniz. Köprü bağlantılarınız
 
 [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

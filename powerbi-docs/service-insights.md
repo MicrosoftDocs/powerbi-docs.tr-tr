@@ -2,7 +2,6 @@
 title: Power BI ile otomatik olarak veri içgörüleri oluşturma
 description: Veri kümeleriniz ve pano kutucuklarınız hakkındaki öngörüleri nasıl edineceğinizi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020234"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872240"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI ile otomatik olarak veri içgörüleri oluşturma
 Yeni bir veri kümeniz var ve keşfetmeye nereden başlayacağınızı bilemiyor musunuz?  Hızla bir pano mu oluşturmanız gerekiyor?  Gözünüzden kaçmış olabilecek öngörülere göz atmak mı istiyorsunuz?
@@ -96,5 +95,5 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
 - Bir veri kümesine sahipseniz [bu veri kümesini Hızlı İçgörüler için en iyi duruma getirebilirsiniz](service-insights-optimize.md).
 - [Kullanılabilir Hızlı İçgörü türleri](service-insight-types.md) hakkında bilgi edinin.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/).
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).
 

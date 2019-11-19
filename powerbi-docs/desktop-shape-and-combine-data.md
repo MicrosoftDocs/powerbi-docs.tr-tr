@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme"
 description: Bu öğreticide, Power BI Desktop’ta verileri şekillendirmeyi ve birleştirmeyi öğreneceksiniz
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 19e0fa75426cd3e3f72ce9c01712b8d1c52e4abf
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922576"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877816"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme
 
@@ -195,7 +194,7 @@ Eyaletlerin çeşitli durumları hakkındaki veriler ilgi çekicidir ve ek çöz
 
 1. Sorgu Düzenleyicisi'ndeki **Giriş** şeridinde, **Yeni Kaynak \> Web**’i seçin. 
 
-2. Durum kısaltmaları için web sitesinin *http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* adresini girin ve ardından **Bağlan**'ı seçin.
+2. Durum kısaltmaları için web sitesinin *https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations* adresini girin ve ardından **Bağlan**'ı seçin.
 
    Gezgin, web sitesinin içeriğini görüntüler.
 

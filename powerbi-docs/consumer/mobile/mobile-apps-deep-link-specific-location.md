@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 description: Tekdüzen kaynak tanımlayıcısı (URI) kullanarak Power BI mobil uygulamasındaki belirli bir panonun, kutucuğun veya raporun ayrıntılı bağlantısını oluşturmayı öğrenin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ef7766f8783fef08561a70d8ea77212c138e3148
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429909"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879288"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Power BI’da bulunan belirli öğelere doğrudan ulaşmak için bağlantıları kullanabilirsiniz: Rapor, Pano ve Kutucuk.
@@ -117,6 +116,6 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 
 * [Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)
 * Bizi Twitter'da takip edin: @MSPowerBI
-* [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
+* [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 

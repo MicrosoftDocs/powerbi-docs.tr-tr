@@ -3,18 +3,17 @@ title: Katıştırılmış uygulamanızla ilgili sorunları giderme
 description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429309"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864095"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -24,7 +23,7 @@ Bu makalede, Power BI'dan içerik ekleme sırasında sıkça karşılaşılan ba
 
 ### <a name="fiddler-trace"></a>Fiddler ile İzleme
 
-[Fiddler](http://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinde Power BI API'lerini kullanarak trafiği görebilirsiniz. Bu araç hataları ve diğer ilgili bilgileri gösterebilir.
+[Fiddler](https://www.telerik.com/fiddler), Telerik tarafından kullanıma sunulup HTTP trafiğini izleyen ücretsiz bir araçtır.  İstemci makinesinde Power BI API'lerini kullanarak trafiği görebilirsiniz. Bu araç hataları ve diğer ilgili bilgileri gösterebilir.
 
 ![Fiddler ile izleme](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının 
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) yöneticisi değildir.
-* Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
+* Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
 * Yetkilendirme üst bilgisi doğru listelenmemiş olabilir. Yazım hatası olmadığından emin olun.
 
 GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması belirtecini yenilemesi gerekebilir.
@@ -293,7 +292,7 @@ Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Bu hatanın nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak `http://localhost:13526/` kullanın.
+Bu hatanın nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak `https://localhost:13526/` kullanın.
 
 Kayıtlı uygulamayı düzenlemek isterseniz, uygulamanın web API’lerine erişim sağlayabilmesi için [Azure AD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) güncelleştirme hakkında bilgi edinin.
 
@@ -305,7 +304,7 @@ Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [P
 
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 
 Daha fazla yardıma ihtiyacınız varsa [destek ekibine ulaşın](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) veya [Azure portal aracılığıyla bir destek bileti oluşturun](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) ve karşılaştığınız hata iletilerini belirtin.
 
@@ -313,4 +312,4 @@ Daha fazla yardıma ihtiyacınız varsa [destek ekibine ulaşın](https://powerb
 
 Daha fazla bilgi için bkz. [SSS](embedded-faq.md).
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

@@ -3,18 +3,17 @@ title: Power BI görsel projeleri için birim testlerine giriş
 description: Bu makalede Power BI görsel projeleri için birim testlerinin nasıl yazıldığı açıklanır
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060410"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879949"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI görsel projeleri için birim testleri ekleme
 
@@ -393,8 +392,8 @@ Komut satırı penceresinde şu çıkışı alırsınız:
 > karma start
 
 23 05 2017 12:24:26.842:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 12:24:30.850:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 12:24:31.059:INFO [launcher]: Starting browser Chrome
 23 05 2017 12:24:33.160:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#2meR6hjXFmsE_fjiAAAA with id 5875251
@@ -580,8 +579,8 @@ npm install
 > karma start
 
 23 05 2017 16:19:54.318:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 16:19:58.346:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 16:19:58.394:INFO [launcher]: Starting browser Chrome
 23 05 2017 16:19:59.873:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#NcNTAGH9hWfGMCuEAAAA with id 3551106

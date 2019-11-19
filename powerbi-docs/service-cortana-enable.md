@@ -2,19 +2,18 @@
 title: Power BI için Cortana'yı etkinleştirme
 description: Verilerinizle ilgili sorularınıza cevap almak için Power BI ile Cortana'yı kullanın. Her bir Power BI veri kümesi için Cortana'yı etkinleştirin ve Cortana'nın, Windows cihazlarından veri kümelerinize erişebilmesini sağlayın.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020489"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872899"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Cortana'nın, Power BI raporlarına (ve bağlantılı veri kümelerine) erişebilmesini sağlama
 [Cortana ve Power BI'a Giriş](service-cortana-intro.md) konulu makaleyi okudunuz. (Henüz okumadıysanız öncelikle bu makaleyi okumak isteyebilirsiniz.) Şimdi söz konusu işlemleri kendiniz gerçekleştirmek istiyorsunuz.  Cortana'da doğal dilde sorular sorup Power BI ***raporlarında*** depolanan verilerden yanıtlar elde edebilmeniz için karşılamanız gereken birkaç gereksinim mevcuttur. Aşağıdakileri yapmanız gerekir.
@@ -84,5 +83,5 @@ Cortana, Cortana'daki sorularınıza olası yanıtlar bulmak için Power BI'ı k
 
 [Cortana ve Power BI tümleştirmesi ile ilgili sorunlarını giderme](service-cortana-troubleshoot.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

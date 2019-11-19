@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903811"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019457"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Rapor, görsellerden oluşan bir veya daha çok sayfalık bir belgedir. Raporlar Power BI *tasarımcıları* tarafından oluşturulur ve [*tüketicilerle* doğrudan](end-user-shared-with-me.md) veya bir [uygulama](end-user-apps.md) aracılığıyla paylaşılır. 
 
 Bir raporu açmanın birçok farklı yolu vardır. Burada, Giriş’ten açma ve panodan açma olmak üzere iki farklı yöntem gösterilmektedir. 
@@ -52,7 +55,7 @@ Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağ
 
 6. Sağ taraftaki **Filtreler** bölmesine dikkat edin. Bu rapor sayfasına veya raporun tamamına uygulanan filtreler burada görüntülenir.
 
-7. Bir rapor görseli üzerine gelindiğinde birkaç simge ve üç nokta (...) görünür. Belirli bir görsele uygulanan filtreleri görmek için filtre simgesini seçin. Burada, *Toplama dönemi ve bölgeye göre toplam birim sayısı* çizgi grafiği için filtre simgesini seçtik.
+7. Bir rapor görseli üzerine gelindiğinde birkaç simge ve **Diğer seçenekler** (...) görünür. Belirli bir görsele uygulanan filtreleri görmek için filtre simgesini seçin. Burada, *Toplama dönemi ve bölgeye göre toplam birim sayısı* çizgi grafiği için filtre simgesini seçtik.
 
    ![rapor sayfası sekmeleri](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en 
 - [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma    
 - Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](end-user-alerts.md) aldığınız e-postadan    
 - [Bildirim merkezinizi](end-user-notification-center.md) kullanma    
+- Bir çalışma alanından
 - ve daha fazlası
 
 ## <a name="next-steps"></a>Sonraki adımlar

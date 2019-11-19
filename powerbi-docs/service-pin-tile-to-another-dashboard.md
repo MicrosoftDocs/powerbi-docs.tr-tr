@@ -2,7 +2,6 @@
 title: Panolardaki kutucukları başka panolara sabitleme
 description: Panolardaki kutucukları başka panolara sabitleme
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020115"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881232"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
 Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğu başka bir panodan kopyalamaktır. Bu kutucukların her biri, tıklandığında oluşturulduğu yere (Soru-Cevap veya bir rapor) yönlendiren birer bağlantıdır. 
@@ -44,5 +43,5 @@ Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğ
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki kutucuklar](consumer/end-user-tiles.md)  
 [Power BI'daki panolar](consumer/end-user-dashboards.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

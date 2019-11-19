@@ -3,7 +3,6 @@ title: Raporlara ve panolara kendiniz abone olma
 description: Bir Power BI raporunun veya panosunun e-posta ile gönderilen bir anlık görüntüsüne abone olmayı öğrenin.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 10/21/2019
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: 95bcb3ef0eb8b2d79502e3905a56dbc81e3f43bd
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430023"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099205"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -82,7 +81,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olursanız ve bu rapor sayfası yeniden adlandırılırsa, aboneliğinizi yeniden oluşturmanız gerekir.
 * Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz bu özelliği devre dışı bırakmış olabilir.  
-* E-posta abonelikleri çoğu [özel görseli](../power-bi-custom-visuals.md) desteklemez.  Bu konudaki istisna, [sertifikalı](../power-bi-custom-visuals-certified.md) özel görsellerdir.  
+* E-posta abonelikleri çoğu [özel görseli](../developer/power-bi-custom-visuals.md) desteklemez.  Bu konudaki istisna, [sertifikalı](../developer/power-bi-custom-visuals-certified.md) özel görsellerdir.  
 * E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.  
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
 * E-posta boyutu sınırları nedeniyle, çok büyük resimler içeren panolarda veya raporlarda abonelikler başarısız olabilir.    

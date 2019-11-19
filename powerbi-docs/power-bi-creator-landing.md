@@ -1,21 +1,20 @@
 ---
 title: Rapor tasarımcıları için Power BI
 description: Power BI'da verilere ve tasarım sorgularına bağlanıp raporlar ve panolar oluşturuyor musunuz? Power BI yöneticisi misiniz?
-author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e77a97ec8f316473d6b953b506b323b69bfd0e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431526"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128325"
 ---
 # <a name="power-bi-for-report-designers"></a>Rapor tasarımcıları için Power BI
 

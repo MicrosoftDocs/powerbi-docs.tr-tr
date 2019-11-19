@@ -2,7 +2,6 @@
 title: Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
 description: Oluşturma iznini kullanarak verilere kimin erişebileceğini denetlemeyi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020295"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872552"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
 
@@ -103,4 +102,4 @@ Oluşturma iznini kaldırabilirsiniz. Bunu yaparsanız, izinlerini iptal ettiği
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -7,14 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
-manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 1883d82b47c32f3c7f03e55a177429d09ce337a2
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 188601167684313c6e103063e67b9ba57fd2d451
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430864"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877691"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Uygulamalardan rapor veya pano ekleme
 

@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında pano ve raporları görüntüleme
 description: Power BI hizmetinde pano ve raporlar oluşturun veya var olanlara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059811"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870663"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -40,7 +39,7 @@ Power BI hizmetinde Power BI panoları şu şekilde görünür:
 ## <a name="view-dashboards-on-your-iphone"></a>Panoları iPhone'unuzda görüntüleme
 1. iPhone'unuzda Power BI uygulamasını açıp oturum açın.
    
-   Apple App Store'dan [iPhone uygulamasını indirmeniz](http://go.microsoft.com/fwlink/?LinkId=522062) mi gerekiyor?
+   Apple App Store'dan [iPhone uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkId=522062) mi gerekiyor?
 2. Açmak istediğiniz panoya dokunun.  
    
     ![Panoya dokunun](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
 ## <a name="view-dashboards-on-your-ipad"></a>Panoları iPad'inizde görüntüleme
 1. Power BI uygulamasını açın.
    
-   Önce Apple App Store'dan [iPad uygulamasını indirmeniz](http://go.microsoft.com/fwlink/?LinkId=522062) mi gerekiyor?
+   Önce Apple App Store'dan [iPad uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkId=522062) mi gerekiyor?
 2. Uygulamanın en üstünde yer alan **Panolar**'a dokunun.  
    
    ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
 ## <a name="view-dashboards-on-your-android-phone"></a>Panoları Android telefonunuzda görüntüleme
 1. Android telefonunuzda Power BI uygulamasını açıp oturum açın.
    
-   Önce [Android uygulamasını indirmeniz](http://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
+   Önce [Android uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
 2. Açmak istediğiniz panoya dokunun.   
    
    ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
 ## <a name="view-dashboards-on-your-android-tablet"></a>Panoları Android tabletinizde görüntüleme
 1. Android tabletinizde Power BI uygulamasını açıp oturum açın.
    
-   Önce [Android uygulamasını indirmeniz](http://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
+   Önce [Android uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
 2. Açmak istediğiniz panoya dokunun.   
    
    ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 [Bir panonun telefon görünümünü oluşturma](../../service-create-dashboard-mobile-phone-view.md) hakkında daha fazla bilgi alın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Google Play'den [Android uygulamasını indirme](http://go.microsoft.com/fwlink/?LinkID=544867)  
+* Google Play'den [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Power BI hizmetindeki raporlar
 description: Tüketiciler için Power BI hizmetindeki raporlar
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019329"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851216"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 

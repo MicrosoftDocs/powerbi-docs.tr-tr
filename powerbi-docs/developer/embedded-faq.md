@@ -3,22 +3,21 @@ title: Power BI Embedded hakkında sık sorulan sorular
 description: Power BI Embedded hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 81eb5de3294430c3960502700bb6255aea43f91a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9e641b70c9fd6c6d378628d34413b14c59eaea23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429287"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864224"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
-* Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
+* Başka sorularınız varsa [Power BI Topluluğu'na sorun](https://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 
 ## <a name="general"></a>Genel
@@ -362,4 +361,4 @@ Power BI verilerinizi düzenleme hakkında bilgiyi [burada](https://docs.microso
 
 Daha fazla bilgi için bkz. [Ekli uygulamanızın sorunlarını giderme](embedded-troubleshoot.md).
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

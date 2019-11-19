@@ -2,7 +2,6 @@
 title: Power BI Desktop'taki Access ve XLS içeri aktarma sorunlarını giderme
 description: Power BI Desktop'ta ve Power Query'de Access veritabanlarını ve .XLS elektronik tablolarını içeri aktarmayla ilgili sorunları giderme
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 085a21404fefe214656f31d077c6cba401b8219e
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922537"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878996"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Power BI Desktop'ta Access ve .XLS dosyalarını içeri aktarmaya ilişkin sorunlarını giderme
 
@@ -24,7 +23,7 @@ Power BI Desktop'ta hem Access veritabanları hem de Excel çalışma kitapları
 
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>1\. Durum: Access Veritabanı Altyapısı’nın yüklenmemiş olması
 
-Power BI Desktop hata iletisi Access Veritabanı Altyapısı'nın yüklenmediğini belirtiyorsa, Power BI Desktop sürümünüzle eşleşen (32 bit veya 64 bit) Access Veritabanı Altyapısı sürümünü yüklemeniz gerekir. Access Veritabanı Altyapısı'nı [indirmeler sayfasından](http://www.microsoft.com/download/details.aspx?id=13255) yükleyebilirsiniz.
+Power BI Desktop hata iletisi Access Veritabanı Altyapısı'nın yüklenmediğini belirtiyorsa, Power BI Desktop sürümünüzle eşleşen (32 bit veya 64 bit) Access Veritabanı Altyapısı sürümünü yüklemeniz gerekir. Access Veritabanı Altyapısı'nı [indirmeler sayfasından](https://www.microsoft.com/download/details.aspx?id=13255) yükleyebilirsiniz.
 
 >[!NOTE]
 >Yüklenen Access Veritabanı Altyapısı bit sürümü, Microsoft Office yüklemenizin bit sürümünden farklıysa Office uygulamaları, Access Veritabanı Altyapısı'nı kullanamaz.
@@ -72,7 +71,7 @@ Hata, bir .XLS dosyası (bir Excel 97-2003 çalışma kitabı) açmaya çalışt
 
 Access Veritabanı Altyapısının her iki bit sürümünü de yüklemek için aşağıdaki adımları izleyin:
 
-1. [İndirme sayfasından](http://www.microsoft.com/download/details.aspx?id=13255) Access Veritabanı Altyapısının her iki bit sürümünü de yükleyin. 
+1. [İndirme sayfasından](https://www.microsoft.com/download/details.aspx?id=13255) Access Veritabanı Altyapısının her iki bit sürümünü de yükleyin. 
 
 1. Access Veritabanı Altyapısı'nın her bir sürümünü, */passive* anahtarını kullanarak çalıştırın. Örnek:
    
@@ -84,7 +83,7 @@ Access Veritabanı Altyapısının her iki bit sürümünü de yüklemek için a
 
 Bir Office 365 aboneliği (**Office 2013** veya **Office 2016**) kullanıyorsanız Access Veritabanı Altyapısı sağlayıcısı *yalnızca* Microsoft Office işlemlerinin erişebildiği sanal bir kayıt defteri konumuna kayıtlıdır. Sonuç olarak, Mashup Altyapısı (Office 365 Excel ve Power BI Desktop dışındaki çalıştırma işlemlerinden sorumludur ve bir Office işlemi değildir), Access Veritabanı Altyapısı sağlayıcısını kullanamaz.
 
-Bu durumu ortadan kaldırmak için Power BI Desktop yüklemenizin bit sürümüyle (bit sürümleri hakkında daha fazla bilgi için önceki bölümlere göz atın) eşleşen [Access Veritabanı Altyapısı yeniden dağıtılabilir paketini indirip yükleyin](http://www.microsoft.com/download/details.aspx?id=13255). Bit sürümleri hakkında daha fazla bilgi için bu makalenin önceki bölümlerine bakın.
+Bu durumu ortadan kaldırmak için Power BI Desktop yüklemenizin bit sürümüyle (bit sürümleri hakkında daha fazla bilgi için önceki bölümlere göz atın) eşleşen [Access Veritabanı Altyapısı yeniden dağıtılabilir paketini indirip yükleyin](https://www.microsoft.com/download/details.aspx?id=13255). Bit sürümleri hakkında daha fazla bilgi için bu makalenin önceki bölümlerine bakın.
 
 ## <a name="other-situations-that-can-cause-import-issues"></a>İçeri aktarma sorunlarına neden olabilecek diğer durumlar
 

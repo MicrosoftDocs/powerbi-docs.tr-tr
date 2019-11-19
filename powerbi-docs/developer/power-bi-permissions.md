@@ -3,18 +3,17 @@ title: Power BI izinleri
 description: Power BI izinleri
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 06901a484ca53881f30cc71d9a7404807ac6cd57
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429131"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880451"
 ---
 # <a name="power-bi-permissions"></a>Power BI izinleri
 
@@ -46,7 +45,7 @@ Uygulama, istenen izinleri çağrının kapsam parametresinde ileterek kullanıc
 
 ## <a name="requesting-permissions"></a>İzin İsteme
 
-Kullanıcı adı ve parolayla kimlik doğrulaması gerçekleştirmek için API çağrısı yapmaya ek olarak, başka bir kullanıcı adına eylem gerçekleştirmek isteyen uygulamaların izin istemesi, bu iznin kullanıcı tarafından onaylanması ve ardından sonraki çağrılarda kullanılmak üzere erişim belirtecinin gönderilmesi gerekir. Bu işlem için standart [OAuth 2.0](http://oauth.net/2/) protokolünü uygulayacağız. Gerçek uygulamalar farklılık gösterebilir ancak Power BI için OAuth akışı şu öğelere sahiptir:
+Kullanıcı adı ve parolayla kimlik doğrulaması gerçekleştirmek için API çağrısı yapmaya ek olarak, başka bir kullanıcı adına eylem gerçekleştirmek isteyen uygulamaların izin istemesi, bu iznin kullanıcı tarafından onaylanması ve ardından sonraki çağrılarda kullanılmak üzere erişim belirtecinin gönderilmesi gerekir. Bu işlem için standart [OAuth 2.0](https://oauth.net/2/) protokolünü uygulayacağız. Gerçek uygulamalar farklılık gösterebilir ancak Power BI için OAuth akışı şu öğelere sahiptir:
 
 * **Oturum açma kullanıcı arabirimi**: Geliştirici izin istemek için bu arabirimi çağırabilir. Kullanıcı oturum açmamışsa açması istenecektir. Kullanıcının ayrıca uygulamanın istediği izinleri de onaylaması gerekecektir. Oturum açma penceresi bir erişim kodu veya verilen yeniden yönlendirme URL'sine giden bir hata iletisi döndürecektir.
   * Yerel uygulamalar tarafından kullanılmak üzere Power BI tarafından standart bir yeniden yönlendirme URL'si iletilmelidir.
@@ -54,4 +53,4 @@ Kullanıcı adı ve parolayla kimlik doğrulaması gerçekleştirmek için API �
 * **Yetkilendirme Belirteci**: API çağrılarında kullanıcı adına kimlik doğrulaması gerçekleştirmek için kullanılır. Belirteçlerin kapsamı belirli bir uygulamayla sınırlı olacaktır. Belirteçlerin kullanım ömrü sınırlıdır ve bu süre dolduğunda yenilenmeleri gerekir.
 * **Yenileme Belirteci**: Belirteçlerin süresi dolduğunda yenileme işlemi gerçekleştirilir.
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

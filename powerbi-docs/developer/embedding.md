@@ -3,7 +3,6 @@ title: Power BI ile tümleşik analiz
 description: Power BI, panolarınıza ve raporlarınıza yönelik tümleşik analizi uygulamalara eklemek için API’ler sunar. Tümleşik analiz yazılımlarını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak hem PaaS ortamında hem de SaaS ortamında Power BI ile ekleme hakkında daha fazla bilgi edinin.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 501b43b7a17d60bbb277cd68c1a5d13e09b14bd5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ccd5917b91d9dd0576f0f4607f84f849f6df145d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430735"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875769"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
@@ -102,4 +101,4 @@ Artık Power BI içeriğini uygulamaya eklemeyi veya müşterileriniz için Powe
 > [!div class="nextstepaction"]
 >[Müşterileriniz için ekleme](embed-sample-for-customers.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

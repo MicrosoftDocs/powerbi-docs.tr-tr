@@ -2,7 +2,6 @@
 title: Power BI hizmetinden yazdırma
 description: Power BI hizmetinden bir panoyu, kutucuğu veya rapor sayfasını yazdırma.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019570"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862781"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
 
@@ -82,5 +81,5 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 ## <a name="next-steps"></a>Sonraki adımlar
 [İş arkadaşlarınızla ve diğer kişilerle pano ve rapor paylaşma](../service-share-dashboards.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

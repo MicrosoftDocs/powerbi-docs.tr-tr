@@ -2,7 +2,6 @@
 title: Kendinizi ve başkalarını raporlara ve panolara abone yapma
 description: Kendinizi ve başkalarını bir Power BI raporunun, sayfasının, panosunun veya sayfalandırılmış raporunun anlık görüntüsüne abone yapmayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891820"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099765"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -97,7 +96,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 * Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir.  Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
 * Güvenlik bağlamınızı kullanarak aboneliği diğer kişilere göndermenize olanak tanıyan sayfalandırılmış raporları kullanmadıkça, diğerlerine abone olurken canlı bağlantı veri kümelerini kullanan raporlar/panolar için e-posta aboneliği şu anda desteklenmemektedir. 
-* E-posta abonelikleri çoğu [özel görselleri](power-bi-custom-visuals.md) desteklemez.  Bu konudaki tek istisna, [sertifikalı](power-bi-custom-visuals-certified.md) özel görsellerdir.  
+* E-posta abonelikleri çoğu [özel görselleri](developer/power-bi-custom-visuals.md) desteklemez.  Bu konudaki tek istisna, [sertifikalı](developer/power-bi-custom-visuals-certified.md) özel görsellerdir.  
 * E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.  
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.  Sayfalandırılmış Raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.   
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
@@ -109,5 +108,5 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md)
-- Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)    
+- Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)    
 - [Blog gönderisini okuyun](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -2,7 +2,6 @@
 title: Power BI'da sık sorulan son kullanıcı soruları
 description: Power BI hizmeti ve Power BI mobil uygulamaları hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5166c99a66178fb29ecab3d5ed0a660f694f7a61
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430044"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852522"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
-* Başka sorularınız varsa [Power BI Topluluğu'na sorun](http://community.powerbi.com/).
+* Başka sorularınız varsa [Power BI Topluluğu'na sorun](https://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>Microsoft Power BI hizmeti nedir?
@@ -56,9 +55,9 @@ Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen 
 
 Evet. Power BI Android telefonlar ve tabletler, iOS cihazları ve Windows 10 cihazları için yerel uygulamalar içerir. İlgili mağazadan [Power BI mobil uygulamalarından](https://powerbi.microsoft.com/mobile) birini indirin:  
 
-* [Apple App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Microsoft Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [Apple App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>Power BI kullanmak için ne yüklemem gerekir?
 
@@ -66,15 +65,15 @@ Power BI hizmetini ücretsiz kullanmak için yalnızca bir Web tarayıcısı ve 
 
 Power BI mobil uygulamalarını ilgili mağazalardan da ücretsiz indirebilirsiniz:
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Microsoft Store](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>Power BI ile çalışmaya nereden başlayabilirim?
 
 Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabilirsiniz:
 
-* [Power BI Blogu](http://blogs.msdn.com/b/powerbi/)
+* [Power BI Blogu](https://blogs.msdn.com/b/powerbi/)
 * [Web Seminerleri](../webinars.md)
 * [YouTube Kanalımızdaki](https://www.youtube.com/user/mspowerbi) başlangıç videoları
 * [*Tüketici* olarak Power BI kullanmaya başlama](power-bi-consumer-landing.md) makalesi
@@ -91,19 +90,19 @@ Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabil
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Ülkemde Power BI Pro'yu nasıl satın alabilirim?
 
-Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](http://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
+Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](https://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
 
 Ayrıca Power BI uygulamanızla ilgili yardımcı olması için bir [Microsoft İş Ortağı](https://partner.microsoft.com/) bulabilirsiniz.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
 
-[Microsoft Güven Merkezi](http://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.
+[Microsoft Güven Merkezi](https://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.
 
 ## <a name="where-can-i-learn-more-about-security"></a>Güvenlik hakkında nereden daha fazla bilgi edinebilirim?
 
 Power BI güvenliği, gizliliği ve uyumluluğu hakkında daha fazla bilgiyi burada bulabilirsiniz:
 
-* [Power BI Güvenliği](http://go.microsoft.com/fwlink/?LinkId=829185) incelemesi
+* [Power BI Güvenliği](https://go.microsoft.com/fwlink/?LinkId=829185) incelemesi
 
 * [Power BI güvenlik desteği](../service-admin-power-bi-security.md) makalesi
 
@@ -117,5 +116,5 @@ Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da girdiğiniz son
 
 * [Power BI tüketicisi nedir?](end-user-consumer.md)
 * [Tüketici Power BI'ı nasıl kullanır?](end-user-reading-view.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin

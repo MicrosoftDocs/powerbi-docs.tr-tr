@@ -2,21 +2,20 @@
 title: Power BI yönetici portalı
 description: Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Microsoft 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442868"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128372"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -305,7 +304,7 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 
 ### <a name="add-and-use-custom-visuals"></a>Özel görseller ekle ve kullan
 
-Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](power-bi-custom-visuals.md)
+Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Bu ayar kuruluş geneline uygulanabilir veya belirli gruplarla sınırlandırılabilir.
@@ -457,7 +456,7 @@ Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görünt
 
  ## <a name="organizational-visuals">Kuruluş görselleri</a> 
 
-**Kuruluş görselleri** sekmesi, kuruluşunuzda özel görseller dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](power-bi-custom-visuals-organization.md)
+**Kuruluş görselleri** sekmesi, kuruluşunuzda özel görseller dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
@@ -513,7 +512,7 @@ Kuruluş deposundaki bir görseli güncelleştirmek için dişli simgesini seçi
 
 Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
 
-Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals) bağlantısını ziyaret edin
+Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals) bağlantısını ziyaret edin
 
 ## <a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
 
@@ -547,7 +546,7 @@ Yönetici olarak, tüm kuruluşunuz için Power BI görünümünü özelleştire
 * **Tema rengi seç**: Bir onaltılık numara, RGB, değere göre veya verilen paletten temanızı seçebilirsiniz.
 
 
-Daha fazla bilgi için bkz. [Kuruluşunuz için özel marka oluşturma](http://aka.ms/orgBranding).
+Daha fazla bilgi için bkz. [Kuruluşunuz için özel marka oluşturma](https://aka.ms/orgBranding).
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Sonraki adımlar

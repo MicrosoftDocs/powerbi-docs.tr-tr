@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 description: "Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019339"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865956"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma
 Power BI Desktop’taki en güçlü veri analizi çözümlerinin bazılarını ölçüler kullanarak oluşturabilirsiniz. Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur. Bu öğretici, Power BI Desktop’ta temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.
@@ -23,7 +22,7 @@ Power BI Desktop’taki en güçlü veri analizi çözümlerinin bazılarını �
 ### <a name="prerequisites"></a>Önkoşullar
 - Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden çok ilişkili tabloyla çalışmak ve Rapor Tuvali'ne alan eklemek için Veri Al ve Sorgu Düzenleyicisi özelliklerini kullanmaya alışmış olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
   
-- Kurgusal Contoso, Inc. şirketinin çevrimiçi satış verilerini içeren [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirin. Bu veriler veritabanından içeri aktarılmıştır; dolayısıyla veri kaynağına bağlanamaz veya bunu Sorgu Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı bilgisayarınızda ayıklayıp Power BI Desktop’ta açın.
+- Kurgusal Contoso, Inc. şirketinin çevrimiçi satış verilerini içeren [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) dosyasını indirin. Bu veriler veritabanından içeri aktarılmıştır; dolayısıyla veri kaynağına bağlanamaz veya bunu Sorgu Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı bilgisayarınızda ayıklayıp Power BI Desktop’ta açın.
 
 ## <a name="understand-measures"></a>Ölçüleri anlama
 

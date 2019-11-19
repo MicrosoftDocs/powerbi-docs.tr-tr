@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
 description: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017817"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876143"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
 
@@ -28,7 +27,7 @@ Bu öğretici, bazı hesaplanmış sütunları anlayıp oluşturmanız ve Power 
 ### <a name="prerequisites"></a>Önkoşullar
 - Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden fazla ilgili tablo ile çalışmak ve Rapor tuvaline alanlar eklemek için **Veri Alma** ve **Power Query Düzenleyicisi**’ni nasıl kullanacağınızı zaten biliyor olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
   
-- Bu öğreticide, [Power BI Desktop’ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) öğreticisi için kullanılan örneğin aynısı, yani [Power BI Desktop için Contoso Satış Örneği](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) kullanılır. Contoso, Inc adlı kurgusal şirketin bu satış verileri bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Power Query Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı indirip bilgisayarınıza ayıklayın ve sonra Power BI Desktop’ta açın.
+- Bu öğreticide, [Power BI Desktop’ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) öğreticisi için kullanılan örneğin aynısı, yani [Power BI Desktop için Contoso Satış Örneği](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) kullanılır. Contoso, Inc adlı kurgusal şirketin bu satış verileri bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Power Query Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı indirip bilgisayarınıza ayıklayın ve sonra Power BI Desktop’ta açın.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>İlgili tablolardan değerlerle hesaplanmış bir sütun oluşturma
 

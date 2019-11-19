@@ -2,7 +2,6 @@
 title: Görseli oluşturmak için kullanılan verileri gösterme
 description: Bu belgede Power BI tüketicilerinin bir görseli oluşturmak için kullanılan verileri nasıl "görebileceği" anlatılmaktadır.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8a4eee43aeab8be096e8e7b7021763c7e77bd26d
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 83248967f721526f61e63aa92b1e51f22ddbefa9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019299"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861538"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI ile verileri görüntüleme
 

@@ -2,7 +2,6 @@
 title: 'Öğretici: Power BI Desktop ile Facebook analizi'
 description: 'Öğretici: Power BI Desktop ile Facebook analizi'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018081"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876288"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Öğretici: Power BI Desktop ile Facebook analizi
 
@@ -241,8 +240,8 @@ Gördüğünüz gibi verileri istediğiniz şekilde sunmak için raporunuzdaki g
 Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Raporunuz hazır hale geldikten sonra raporunuzu [Power BI hizmetine yükleyebilir](desktop-upload-desktop-files.md), bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Diğer Power BI Desktop eğitimlerini okuyun](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop videolarını izleyin](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Power BI Forumu'nu ziyaret edin](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Power BI Blogu'nu okuyun](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Diğer Power BI Desktop eğitimlerini okuyun](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Power BI Desktop videolarını izleyin](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)
 

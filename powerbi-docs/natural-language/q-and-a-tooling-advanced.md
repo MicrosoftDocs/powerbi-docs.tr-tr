@@ -2,18 +2,17 @@
 title: Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme
 description: Power BI Soru-Cevap tarafından kullanılan dil şemasını düzenlemek için Power BI Desktop’ı kullanma.
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891485"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875339"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Verilerinizin cevapladığında daha da güçlü olur. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. Ancak daha da iyi Soru-Cevap etkileşimleri için yanıtları geliştirebilirsiniz. Bunun bir yolu, dil şemasını düzenlemektir. 
@@ -338,4 +337,4 @@ Artık .lsdl.yaml dosyasında, dil şeması biçimine uymayan bir değişiklik y
 
 ![hataları gösteren yaml dosyası](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

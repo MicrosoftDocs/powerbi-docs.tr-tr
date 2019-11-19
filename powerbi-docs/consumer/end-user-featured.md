@@ -2,7 +2,6 @@
 title: Power BI hizmetini açtığınızda hangi panonun görüntüleneceğini seçme
 description: Power BI hizmetinde Öne çıkan pano oluşturmaya ilişkin belge
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f72a07d723a63291d59d6c3824c3616e97b686e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019829"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852548"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 
@@ -67,5 +66,5 @@ Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönerge
    
 ## <a name="next-steps"></a>Sonraki adımlar
 - [Bir panoyu sık kullanılanlara ekleme](end-user-favorite.md)
-- Başka bir sorunuz mu var? [Power BI Topluluğu](http://community.powerbi.com/)'nu deneyin.
+- Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.
 

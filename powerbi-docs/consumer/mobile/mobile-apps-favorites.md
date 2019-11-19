@@ -2,19 +2,18 @@
 title: Power BI mobil uygulamalarında sık kullanılanlar
 description: Mobil uygulamalarda Power BI panoları, raporları ve uygulamalarının yanı sıra Power BI Rapor Sunucusu ile Reporting Services raporlarını ve KPI'leri sık kullanılanlara ekleme ve eklediğiniz girişleri görüntüleme hakkında bilgi edinin.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017822"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870675"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında sık kullanılanlara ekleme ve sık kullanılanları görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -77,5 +76,5 @@ Sık kullanılan Power BI Rapor Sunucusu ve Reporting Services raporlarınızla 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki sık kullanılan panolar](../end-user-favorite.md) 
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

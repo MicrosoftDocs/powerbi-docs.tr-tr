@@ -2,7 +2,6 @@
 title: Power BI'a bireysel olarak kaydolma
 description: Power BI'a kaydolmayı ve Power BI'ı veri analizi ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 785aad2cb7fe369805d8562eb8e493fb65036ef0
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871537"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
 
@@ -88,4 +87,4 @@ Power BI (ücretsiz) lisansı yeterliyse başka bir şey yapmanız gerekmez. Pow
 [Power BI Pro'yu satın alma](service-admin-purchasing-power-bi-pro.md)  
 [Bireysel kullanıcılar için Power BI Hizmet sözleşmesi](https://powerbi.microsoft.com/terms-of-service/)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

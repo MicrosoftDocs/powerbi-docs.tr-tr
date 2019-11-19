@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: d06709f16beec025b99b69d82d5c17c248288004
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f55a9f1bfc9454c7d5a4ee3755a10f7cde1b0fd6
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429104"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73780950"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -207,4 +207,4 @@ Azure'da biraz temizlik yapmanız gerekir.
 [Çalışma Alanı Koleksiyonu analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

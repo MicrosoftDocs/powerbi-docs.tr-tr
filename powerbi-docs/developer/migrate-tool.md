@@ -3,18 +3,17 @@ title: Power BI Embedded Geçiş Aracı
 description: Power BI Embedded Azure hizmetindeki (PaaS) raporlarınızı Power BI hizmetine (SaaS) kopyalamak için bu geçiş aracından faydalanabilirsiniz.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: f839c8d4208dd63cab411ef5dae064fdb3d2fa95
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429434"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880586"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 
@@ -278,4 +277,4 @@ Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içe
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

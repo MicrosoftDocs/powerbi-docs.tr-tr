@@ -2,7 +2,6 @@
 title: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 description: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922495"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877905"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmaktadır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi inceleyeceğiz ve öğrendiklerinizi sınamaya yönelik bilgi kontrolü gerçekleştireceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -33,7 +32,7 @@ Hesaplamalarda, özellikle de ölçülerde ve hesaplanmış sütunlarda kullanı
 
 ### <a name="example-workbook"></a>Örnek çalışma kitabı
 
-DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde [Power BI Desktop için Contoso Sales örneği](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) dosyası kullanılmaktadır. Bu örnek dosya, [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) makalesinde kullanılan örnek dosyanın aynısıdır. 
+DAX'ı öğrenmenin en iyi yolu, bazı temel formüller oluşturmanız, bunları gerçek verilerle kullanmanız ve sonuçları kendiniz görmenizdir. Buradaki örneklerde ve görevlerde [Power BI Desktop için Contoso Sales örneği](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) dosyası kullanılmaktadır. Bu örnek dosya, [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) makalesinde kullanılan örnek dosyanın aynısıdır. 
 
 ## <a name="lets-begin"></a>Haydi başlayalım!
 DAX'a ilişkin kavrayışımızı üç temel kavram etrafında şekillendireceğiz: *Söz dizimi*, *İşlevler* ve *Bağlam*. DAX'ta başka önemli kavramlar da bulunmaktadır ancak bu üç kavramı anlamak, DAX becerilerinizi oluşturmak için en iyi temeli sağlayacaktır.
@@ -82,7 +81,7 @@ Basit bir formül oluşturalım. Bu görev, formül söz dizimini ve formül çu
 
 ### <a name="task-create-a-measure-formula"></a>Görev: Ölçü formülü oluşturma
 
-1. Contoso Satış Örneği Power BI Desktop dosyasını [indirin](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) ve açın. 
+1. Contoso Satış Örneği Power BI Desktop dosyasını [indirin](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) ve açın. 
     
 2. Rapor görünümündeki alan listesinde, **Sales** tablosuna sağ tıklayın ve ardından **Yeni Ölçü**'yü seçin.
     
@@ -213,7 +212,7 @@ Yanıtlara bu makalenin sonunda ulaşabilirsiniz.
 ## <a name="summary"></a>Özet
 DAX'taki en önemli kavramları temel düzeyde öğrendiğinize göre kendi kendinize ölçüler için DAX formülleri oluşturmaya başlayabilirsiniz. DAX'ı öğrenmek gerçekten de biraz karmaşık olabilir ancak kullanabileceğiniz pek çok kaynak mevcuttur. Bu makaleyi okuyup kendi formüllerinizin birkaçıyla deneme yaptıktan sonra işinizle ilgili sorunları çözmenize yardımcı olabilecek diğer DAX kavram ve formülleri hakkında daha fazla bilgi edinebilirsiniz. Yararlanabileceğiniz birçok DAX kaynağından en önemlisi, [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'dur.
 
-DAX, Power Pivot ve Analysis Services Tablolu modelleri gibi diğer Microsoft BI araçlarında yıllardır kullanıldığı için ulaşabileceğiniz pek çok harika bilgi vardır. Hem Microsoft hem de önde gelen BI uzmanları tarafından sunulan kitaplarda, teknik incelemelerde ve bloglarda daha fazla bilgiye ulaşabilirsiniz. [TechNet'teki DAX Resource Center Wiki](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) de başlangıç için harika bir kaynaktır.
+DAX, Power Pivot ve Analysis Services Tablolu modelleri gibi diğer Microsoft BI araçlarında yıllardır kullanıldığı için ulaşabileceğiniz pek çok harika bilgi vardır. Hem Microsoft hem de önde gelen BI uzmanları tarafından sunulan kitaplarda, teknik incelemelerde ve bloglarda daha fazla bilgiye ulaşabilirsiniz. [TechNet'teki DAX Resource Center Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) de başlangıç için harika bir kaynaktır.
 
 ### <a name="quickquiz-answers"></a>Hızlı Test yanıtları
 Söz dizimi:

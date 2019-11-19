@@ -3,19 +3,18 @@ title: Şirket içi veri ağ geçidi
 description: Bu makale, Power BI için şirket içi veri ağ geçidine bir genel bakıştır. DirectQuery veri kaynaklarıyla çalışmak için bu ağ geçidini kullanabilirsiniz. Bulut veri kümelerini şirket içi verilerle yenilemek için de bu ağ geçidini kullanabilirsiniz.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442813"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872452"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi nedir?
 
@@ -51,4 +50,4 @@ Ağ geçidi kullanmanın dört ana adımı vardır.
 
 * [Şirket içi veri ağ geçidini yükleme](/data-integration/gateway/service-gateway-install)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

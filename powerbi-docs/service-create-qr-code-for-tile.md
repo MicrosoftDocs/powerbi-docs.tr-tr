@@ -2,7 +2,6 @@
 title: Power BI Mobil uygulamalarında kullanmak üzere bir kutucuk için QR kodu oluşturma
 description: Power BI'daki QR kodları ile, gerçek dünyadaki her şey Power BI Mobil uygulamasındaki ilgili BI bilgilerine arama gerekmeden doğrudan bağlanılabilir.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021180"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853338"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir kutucuk için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey ilgili BI bilgilerine gezinti ve arama gerekmeden doğrudan bağlanılabilir.
@@ -55,5 +54,5 @@ Power BI, QR kodunu, JPG dosyası olarak yazdırılmaya hazır bir şekilde olu�
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [Scan a Power BI QR code from your mobile device (Mobil cihazınızdan Power BI QR kodu tarama)](consumer/mobile/mobile-apps-qr-code.md)
 * [Bir rapor için QR kodu oluşturma](service-create-qr-code-for-report.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

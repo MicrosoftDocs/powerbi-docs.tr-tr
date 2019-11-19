@@ -2,7 +2,6 @@
 title: 'Hızlı Başlangıç: Verilere bağlanma'
 description: Power BI Desktop'taki bir veri kaynağına bağlanma
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891700"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876203"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma
 
@@ -28,8 +27,8 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
 ## <a name="prerequisites"></a>Önkoşullar
 
 Bu makaledeki adımları tamamlamak için aşağıdakiler gerekir:
-* Yerel bilgisayarınızda çalışan ücretsiz bir uygulama olan **Power BI Desktop**’ı indirin ve yükleyin. [**Power BI Desktop’ı doğrudan indirebilir**](https://powerbi.microsoft.com/desktop) veya [**Microsoft Store**](http://aka.ms/pbidesktopstore)’dan edinebilirsiniz.
-* [Bu örnek Excel çalışma kitabını indirin](http://go.microsoft.com/fwlink/?LinkID=521962) ve Excel dosyasını depolayabileceğiniz *C:\PBID-qs* adlı bir klasör oluşturun. Bu hızlı başlangıcın sonraki adımlarında, indirilen Excel çalışma kitabı için dosya konumunun burası olduğu varsayılır.
+* Yerel bilgisayarınızda çalışan ücretsiz bir uygulama olan **Power BI Desktop**’ı indirin ve yükleyin. [**Power BI Desktop’ı doğrudan indirebilir**](https://powerbi.microsoft.com/desktop) veya [**Microsoft Store**](https://aka.ms/pbidesktopstore)’dan edinebilirsiniz.
+* [Bu örnek Excel çalışma kitabını indirin](https://go.microsoft.com/fwlink/?LinkID=521962) ve Excel dosyasını depolayabileceğiniz *C:\PBID-qs* adlı bir klasör oluşturun. Bu hızlı başlangıcın sonraki adımlarında, indirilen Excel çalışma kitabı için dosya konumunun burası olduğu varsayılır.
 
 ## <a name="launch-power-bi-desktop"></a>Power BI Desktop'ı başlatma
 

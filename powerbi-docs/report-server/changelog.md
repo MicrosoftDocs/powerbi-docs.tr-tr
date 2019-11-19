@@ -3,18 +3,17 @@ title: Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 description: Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/25/2019
-ms.openlocfilehash: 0a4aaa5d9fcb3d5dab6cce0b0c8dd6034581aedb
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922555"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874285"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -29,7 +28,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
         - Hata düzeltmeleri
             - .Net Framework 4.7 düzeltmesi yüklenmedi.
             - 110083 hatası ile çoklu değer parametrelerine sahip Teradata için sayfalandırılmış raporların düzeltilmesi.
-            - Birden çok web hizmeti URL bağlaması varsa ve bunlardan biri http://+80/reportserver ise URLRoot değeri çalışmıyor sorununun düzeltilmesi.
+            - Birden çok web hizmeti URL bağlaması varsa ve bunlardan biri https://+80/reportserver ise URLRoot değeri çalışmıyor sorununun düzeltilmesi.
           - Rapor alanının dışında gösterilen sayfalandırılmış raporların çok değerli parametresi için düzeltme.
           
     - *Sürüm: 1.6.7221.30698 (Derleme 15.0.1102.620), Yayınlanma Tarihi: 9 Ekim 2019*
@@ -305,6 +304,6 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Çalışma alanı veri akışı ayarlarını yapılandırma
 description: Power BI’da bir çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431994"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877339"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
 
@@ -138,4 +137,4 @@ Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuy
 * [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Ayrıca her zaman [Power BI Topluluğuna soru sormayı](http://community.powerbi.com/) deneyebilirsiniz.
+Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

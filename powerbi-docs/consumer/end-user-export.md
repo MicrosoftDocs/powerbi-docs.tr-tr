@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 77d26d32c70c3047636eb03d1211aff3736c8f0c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589515"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73430178"
 ---
 # <a name="export-data-from-a-visual"></a>Bir görseldeki verileri dışarı aktarma
 
@@ -30,7 +30,7 @@ Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [sö
 
     ![Uygulama panosu](media/end-user-export/power-bi-dashboards.png)
 
-2. Bir görselin üzerine gelerek üç nokta (...) seçeneğini görüntüleyin ve tıklayarak eylem menüsünü gösterin.
+2. Bir görselin üzerine gelerek **Diğer seçenekler** (...) seçeneğini ortaya çıkarın ve tıklayarak eylem menüsünü görüntüleyin.
 
     ![Üç nokta seçildiğinde görünen menü](media/end-user-export/power-bi-action-menu.png)
 

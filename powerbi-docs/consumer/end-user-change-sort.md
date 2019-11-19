@@ -2,7 +2,6 @@
 title: Raporlarda grafiklerin sıralanma biçimini değiştirme
 description: Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: aaf2af2209097b75a4a6aee4faa062bc432dd765
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: e325d13dd8001e8da41dc5602bf3f7dbba2f371f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019952"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852381"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 
@@ -29,7 +28,7 @@ Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin g�
 
 Bir panodaki görseller sıralanamaz ancak Power BI raporunda çoğu görselleştirmeyi kategori adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralayabilirsiniz. Örneğin, bu grafik, **mağaza adı** kategorisine göre alfabetik olarak sıralanmıştır.
 
-![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/pbi_chartsortcategory.png)
+![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/pbi-chartsortcategory.png)
 
 Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürebilirsiniz.
 

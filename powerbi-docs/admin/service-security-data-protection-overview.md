@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a84e762d3c27376b72c424022e3fee3f595d6861
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433620"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73766401"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI’da veri koruma (önizleme)
 
@@ -104,7 +104,7 @@ Aşağıdaki listede, Power BI’daki duyarlılık etiketlerinin bazı sınırla
 * Power BI varlıkları üzerindeki duyarlılık etiketleri yalnızca çalışma alanı listesinde ve veri kökeni görünümlerinde görünür; etiketler şu anda sık kullanılanlar, benimle paylaşılan, son kullanılanlar veya uygulama görünümlerinde görünmemektedir. Ancak, görünür olmasa bile, Power BI varlığına uygulanmış bir etiketin Excel, PowerPoint ve PDF dosyalarına aktarılmış veriler üzerinde her zaman kalıcı olacağını unutmayın.
 * [Microsoft 365 güvenlik merkezi](https://security.microsoft.com/) veya [Microsoft 365 uyumluluk merkezi](https://compliance.microsoft.com/) içinde yapılandırılmış *dosya Şifreleme ayarı* duyarlılık etiketi yalnızca Power BI’dan *dışarı aktarılmış* dosyalara uygulanır; Power BI *içinde* uygulanmaz.
 * [HYOK koruması](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions), Power BI’da uygulanan etiketler için desteklenmez.
-* Office uygulamalarında etiketleri görüntülemek ve uygulamak için [lisanslama gereksinimleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#common-requirements) mevcuttur.
+* Office uygulamalarında etiketleri görüntülemek ve uygulamak için [lisanslama gereksinimleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels) mevcuttur.
 * Duyarlılık etiketleri yalnızca genel (ortak) buluttaki kiracılar için desteklenir. Duyarlılık etiketleri diğer bulutlardaki kiracılar için desteklenmez.
 
 

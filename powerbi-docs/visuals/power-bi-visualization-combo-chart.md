@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 527334d2772dbe20f7f78929231cca9faf036e95
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194808"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017739"
 ---
 # <a name="combo-chart-in-power-bi"></a>Power BI'da birleşik harita
 
@@ -67,7 +67,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
     c. **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
 
     ![birleşik öğretici örneği](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Görselleştirmenin sağ üst köşesindeki üç nokta (...) simgesini seçin ve **Sıralama Ölçütü: FiscalMonth** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin. Bu örnekte **Artan düzende sırala** kullanılacaktır.
+5. Görselleştirmenin sağ üst köşesindeki **Diğer seçenekler**’i (...) ve **Sıralama ölçütü > FiscalMonth** öğesini seçin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin. Bu örnekte **Artan düzende sırala** kullanılacaktır.
 
 6. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik haritalar vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
 
