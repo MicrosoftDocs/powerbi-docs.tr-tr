@@ -142,7 +142,7 @@
               href: register-app.md
             - name: Azure AD erişim belirteci alma
               href: get-azuread-access-token.md
-            - name: Dinamik bağlama
+            - name: Dinamik bağlama kullanarak rapor bağlama
               href: embed-dynamic-binding.md
             - name: Ekleme Hakkında Soru-Cevap
               href: qanda.md
