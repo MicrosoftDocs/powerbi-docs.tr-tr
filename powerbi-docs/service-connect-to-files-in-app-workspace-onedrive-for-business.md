@@ -2,19 +2,18 @@
 title: Bir Power BI çalışma alanı için OneDrive'daki dosyalara bağlanma
 description: Power BI çalışma alanınız için OneDrive'da Excel, CSV ve Power BI Desktop dosyalarınızı depolama ve bunlara bağlanma hakkında bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cecd327d76659eb11d81180480cb9be998fd772
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431625"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854875"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
 [Power BI'da bir çalışma alanı oluşturduktan](service-create-distribute-apps.md) sonra Power BI çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz. Bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
@@ -53,7 +52,7 @@ Dosyalarınız artık çalışma alanınız için OneDrive İş'te olduğuna gö
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>Çalışma alanınızdaki dosyaları içeri aktarma veya bu dosyalara bağlanma
 1. Power BI'da, çalışma alanı adının sol üst köşede bulunduğu çalışma alanına geçin. 
-2. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. 
+2. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. **Dosyalar** kutusunda **Al**'ı seçin.
@@ -80,6 +79,6 @@ Dosyalarınız artık çalışma alanınız için OneDrive İş'te olduğuna gö
 * [Power BI'da uygulama ve çalışma alanı oluşturma](service-create-distribute-apps.md)
 * [Excel çalışma kitaplarındaki verileri içeri aktarma](service-get-data-from-files.md)
 * [Excel çalışma kitaplarının tamamına bağlanma](service-excel-workbook-files.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 * Geri bildirimde bulunmak ister misiniz? [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi) sayfasını ziyaret edin
 
