@@ -3,7 +3,6 @@ title: Microsoft Power BI Premium nedir?
 description: Power BI Premium kuruluşunuz için ayrılmış kapasiteler sağlar ve kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri getirir.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431643"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871820"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -166,9 +165,9 @@ SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI D
 
 ### <a name="size-considerations"></a>Boyutla ilgili dikkat edilmesi gerekenler
 
-Büyük modeller yoğun kaynak kullanabilir. 1 GB'ın üzerindeki modeller için en az P1 SKU kullanmalısınız. Büyük modelleri A3 düzeyine kadar olan A SKU'larını kullanan çalışma alanlarında yayımlama işlemi başarılı sonuç verebilse de bu modelleri yenileme işlemi yapılamaz.
+Büyük veri kümelerinin kaynak kullanımı yoğun olabilir. 1 GB'ın üzerindeki veri kümeleri için en az P1 SKU kullanmalısınız. Büyük veri kümelerini A3 düzeyine kadar olan A SKU'larını kullanan çalışma alanlarında yayımlama işlemi başarılı sonuç verebilse de bu veri kümelerini yenileme işlemi yapılamaz.
 
-Aşağıdaki tabloda çeşitli .pbix boyutları için önerilen SKU'lar açıklanmıştır:
+Aşağıdaki tabloda, .pbix dosyasını karşıya yüklemek veya Power BI hizmetinde yayımlamak için önerilen SKU'lar gösterilmektedir:
 
    |SKU  |.pbix dosyasının boyutu   |
    |---------|---------|
@@ -176,9 +175,11 @@ Aşağıdaki tabloda çeşitli .pbix boyutları için önerilen SKU'lar açıkla
    |P2    | 6 GB’tan küçük        |
    |P3, P4, P5    | 10 GB'a kadar   |
 
-Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir. A ve EM SKU'larında büyük modellerin yayımlanması durumunda, paylaşılan kapasitedeki model boyutu sınırlamasına özgü olmayan hatalar döndürülebilir. A ve EM SKU'larında büyük modellerin yenilenmesi muhtemelen zaman aşımı hatalarına neden olacaktır. 
+Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir. A ve EM SKU'larında büyük veri kümelerinin yayımlanması durumunda, paylaşılan kapasitedeki model boyutu sınırlamasına özgü olmayan hatalar döndürülebilir. A ve EM SKU'larında veri kümelerinin yenilenmesi muhtemelen zaman aşımı hatalarına neden olacaktır.
 
-.pbix dosyalarınız, verileri *yüksek oranda sıkıştırılmış durumda* gösterir. Muhtemelen veriler belleğe yüklenirken birkaç kez genişletilir ve veri yenileme sırasında birkaç kez daha genişletilebilir.
+Bir veri kümesinde [büyük modelleri](service-premium-large-models.md) etkinleştirirseniz, .pbix dosya boyutu sınırlamaları dosyaları karşıya yükleme veya yayımlama işlemleri için geçerli olmaya devam eder. Ancak, artımlı yenileme ve büyük modellerin birleştirilmesiyle, veri kümeleri bu sınırlamalardan çok daha fazla büyüyebilir. Büyük modellerle veri kümesi boyutu yalnızca Power BI Premium kapasitesi boyutuyla sınırlıdır.
+
+.pbix dosyalarınız, verileri *yüksek oranda sıkıştırılmış durumda* gösterir. Muhtemelen veriler belleğe yüklenirken genişletilir ve veri yenileme sırasında birkaç kez daha genişletilebilir.
 
 Büyük veri kümeleri için zamanlanmış yenileme çok uzun sürebilir ve yoğun kaynak kullanabilir. Bunu göz önünde bulundurarak çok fazla örtüşen yenileme zamanlamamak önemlidir. Daha hızlı ve daha güvenilir olmasının yanı sıra daha az kaynak tükettiği için [artımlı yenileme](service-premium-incremental-refresh.md) yapılandırılması önerilir.
 
