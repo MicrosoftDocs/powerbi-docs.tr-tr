@@ -279,8 +279,6 @@
               href: desktop-slicer-filter-date-range.md
             - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
               href: power-bi-slicer-filter-responsive.md
-            - name: Cortana için özel yanıt kartları oluşturma
-              href: service-cortana-answer-cards.md
             - name: Satır düzeyi güvenlik
               href: desktop-rls.md
             - name: Araç ipuçlarını özelleştirme
@@ -665,10 +663,6 @@
               href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
             - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
               href: service-q-and-a-direct-query.md
-            - name: Power BI için Cortana'ya giriş
-              href: service-cortana-intro.md
-            - name: Power BI için Cortana'yı etkinleştirme
-              href: service-cortana-enable.md
             - name: Power BI'daki Hızlı Öngörüler
               href: service-insights.md
             - name: Hızlı İçgörüler için verileri iyileştirme
@@ -801,8 +795,6 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Cortana ile ilgili sorunları giderme
-              href: service-cortana-troubleshoot.md
             - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
               href: service-refresh-xero-credentials.md
         - name: Diğer görevler

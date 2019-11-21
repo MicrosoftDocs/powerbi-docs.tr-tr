@@ -44,7 +44,7 @@
             - name: AppSource'ta özel görsel yayımlama
               href: office-store.md
             - name: Power BI'da R tarafından sağlanan özel görselleri kullanma
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Görsellerin etkileşimleri
               href: visuals/visuals-interactions.md
             - name: Seçimleri ekleme
