@@ -2,7 +2,6 @@
 title: Veri akışı depolaması için Azure Data Lake Storage 2. Nesil’i Power BI’a bağlamayı öğrenin
 description: Azure Data Lake Storage 2. Nesil kullanarak veri akışlarına kendi verilerinizi getirme
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432027"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872730"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)
 
@@ -105,7 +104,7 @@ Dosya sistemine yönelik izin vermek için, Power BI hizmet erişimi veren Eriş
 
 Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
 
-1. [Azure portalında](https://portal.azure.com/), sol panelden **Azure Active Directory**’yi seçin.
+1. [Azure portalında](https://portal.azure.com/), gezinti panelinden **Azure Active Directory**’i seçin.
 2. Azure **Active Directory** dikey penceresinde **Kurumsal uygulamalar**’ı seçin.
 3. **Uygulama Türü** açılan menüsünden **Tüm Uygulamalar**’ı ve sonra **Uygula**’yı seçin. Aşağıdaki görüntüye benzer şekilde, kiracı uygulamalarınızın bir örneği görüntülenir.
 
@@ -223,4 +222,4 @@ Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuy
 * [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Ayrıca her zaman [Power BI Topluluğuna soru sormayı](http://community.powerbi.com/) deneyebilirsiniz.
+Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

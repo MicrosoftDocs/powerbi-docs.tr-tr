@@ -2,19 +2,18 @@
 title: Rapor görüntüleme
 description: Bu konuda Power BI tüketicilerine ve son kullanıcılarına bir Power BI raporunu açma ve görüntüleme adımları gösterilmektedir.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019457"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861961"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 
@@ -33,11 +32,11 @@ Bir raporu açmanın birçok farklı yolu vardır. Burada, Giriş’ten açma ve
    ![Giriş sayfası](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Sizinle paylaşılmış olan bir raporu açma
-Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağlantıyı otomatik ekleyerek tek bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti çubuğunuzdaki **Benimle paylaşılan** kapsayıcısında ve Giriş’inizin **Benimle paylaşılan** bölümünde gösterilir.
+Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağlantıyı otomatik ekleyerek tek bir raporu sizinle doğrudan paylaşabilir. Bu şekilde paylaşılan içerik gezinti bölmenizdeki **Benimle paylaşılan** kapsayıcısında ve Giriş tuvalinizin **Benimle paylaşılan** bölümünde gösterilir.
 
 1. Power BI hizmetini açın (app.powerbi.com).
 
-2. Giriş tuvalinizi göstermek için gezinti çubuğundan **Giriş**’i seçin.  
+2. Giriş tuvalinizi görüntülemek için gezinti bölmesinden **Giriş**’i seçin.  
 
    ![Giriş tuvali](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ Power BI *tasarımcıları* e-postaya bir bağlantı yerleştirerek veya bu bağ
    ![sayfaya sığdır](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Bir uygulamanın parçası olan bir raporu açma
-İş arkadaşlarınızdan veya AppSource’tan uygulama aldıysanız, bunlar Giriş’inizde ve gezinti çubuğundaki **Uygulamalar** kapsayıcısında yer alır. [Uygulama](end-user-apps.md), panolardan ve raporlardan oluşan bir pakettir.
+İş arkadaşlarınızdan veya AppSource’tan uygulama aldıysanız, bunlar Giriş’te ve gezinti bölmenizdeki **Uygulamalar** kapsayıcısında yer alır. [Uygulama](end-user-apps.md), panolardan ve raporlardan oluşan bir pakettir.
 
 ### <a name="prerequisites"></a>Önkoşullar
 Takip etmek için Satış ve Pazarla uygulamasını indirin.
@@ -75,7 +74,7 @@ Takip etmek için Satış ve Pazarla uygulamasını indirin.
 1. Uygulamayı Uygulama kapsayıcısına yüklemek için **Hemen al** > **Devam** > **Yükle**’yi seçin. 
 
 Uygulamayı uygulama kapsayıcınızdan veya Giriş sayfasından açabilirsiniz.
-1. Gezinti çubuğundan **Giriş**’i seçerek Giriş’e geri dönün.
+1. Gezinti bölmesinden **Giriş**’i seçerek Giriş’e geri dönün.
 
 7. **Uygulamalarım** bölümünü görene kadar aşağı kaydırın.
 
@@ -101,7 +100,7 @@ Raporlar panodan açılabilir. Çoğu pano [kutucuğu](end-user-tiles.md), rapor
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Raporları açmak için kullanabileceğiniz yöntemler bunlarla sınırlı değildir
 Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en uygun iş akışlarını keşfedeceksiniz. Raporlara erişmek için kullanabileceğiniz diğer yöntemlerden bazıları aşağıda verilmiştir:
-- Sol gezinti çubuğunda bulunan **Sık Kullanılanlar** ve **Son Görüntülenen** seçeneklerinden    
+- Gezinti bölmesinde bulunan **Sık Kullanılanlar** ve **Son Görüntülenen** seçeneklerinden    
 - [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma    
 - Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](end-user-alerts.md) aldığınız e-postadan    
 - [Bildirim merkezinizi](end-user-notification-center.md) kullanma    

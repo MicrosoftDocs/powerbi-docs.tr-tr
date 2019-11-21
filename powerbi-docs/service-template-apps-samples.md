@@ -2,19 +2,18 @@
 title: Şablon uygulamaları örnekleri
 description: Bir AppSource Power BI uygulaması olarak kişisel kullanım veya yeniden dağıtım örnekleri
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: tebercov
-ms.openlocfilehash: 2b3095bc8bb446364d10f3a5e29981025fd03aee
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: b1f04f6c9fd0381d6454eb0ef8649c3d7fec49b6
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717180"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010911"
 ---
 # <a name="template-apps-samples"></a>Şablon uygulamaları örnekleri
 
@@ -26,9 +25,9 @@ Bu belgenin amacı Power BI kullanıcıları ile şablon uygulama örneklerini p
 
 ## <a name="downloadable-template-apps-samples"></a>İndirilebilir Şablon uygulama örnekleri
 
+* [LinkedIn Sales Navigator Analytics Tümleştirmesi](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
 * [Github](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
 * [Mailchimp](https://templateapps.blob.core.windows.net/sampletemplateapps/MailChimp.pbix)
-* [JIRA](https://templateapps.blob.core.windows.net/sampletemplateapps/JIRA.pbix)
 * [QuickBooks Online](https://templateapps.blob.core.windows.net/sampletemplateapps/QuickBooksOnline.pbix)
 * [Google Analytics](https://templateapps.blob.core.windows.net/sampletemplateapps/GoogleAnalytics.pbix)
 * [Salesforce Sales Manager](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesforceSalesManager.pbix)

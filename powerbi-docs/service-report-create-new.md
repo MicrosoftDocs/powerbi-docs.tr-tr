@@ -2,7 +2,6 @@
 title: Bir veri kümesinden rapor oluşturma
 description: Bir veri kümesinden Power BI raporu oluşturun.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432207"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871762"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Veri kümesini içeri aktararak Power BI hizmetinde rapor oluşturma
 [Power BI'daki raporlar](consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın farklı yolları vardır. Bu makalede, Power BI hizmetinde bir Excel veri kümesinden temel bir rapor oluşturarak başlayacağız. Rapor oluşturmanın temeli anladıktan sonra, raporlara yönelik daha gelişmiş konu başlıkları için [sonraki adımlara](#next-steps) göz atın.  
 
 ## <a name="prerequisites"></a>Önkoşullar
 - [Power BI hizmetine kaydolma](service-self-service-signup-for-power-bi.md). Power BI Desktop kullanarak raporları oluşturmak için bkz. [Masaüstü rapor görünümü](desktop-report-view.md). 
-- [Retail Analysis Sample adlı Excel veri kümesini indirin](http://go.microsoft.com/fwlink/?LinkId=529778) ve bunu OneDrive İş'e veya yerel bir konuma kaydedin.
+- [Retail Analysis Sample adlı Excel veri kümesini indirin](https://go.microsoft.com/fwlink/?LinkId=529778) ve bunu OneDrive İş'e veya yerel bir konuma kaydedin.
 
 ## <a name="import-the-dataset"></a>Veri kümesini içeri aktarma
 Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başlayacağız. Artık Perakende Analizi Örneği Excel veri kümesine siz de dahil olabilirsiniz.
@@ -30,7 +29,7 @@ Bu rapor oluşturma yöntemi için bir veri kümesi ve boş bir tuval ile başla
 1. Raporu bir Power BI hizmeti çalışma alanında oluşturacağımızdan mevcut bir çalışma alanını seçin veya bir tane oluşturun.
    
    ![çalışma alanlarının listesi](media/service-report-create-new/power-bi-workspaces2.png)
-2. Sol gezinti bölmesinin alt kısmında bulunan **Veri al** seçeneğini belirleyin.
+2. Gezinti bölmesinin alt kısmından **Veri al**'ı seçin.
    
    ![Veri al](media/service-report-create-new/power-bi-get-data3.png)
 3. **Dosyalar**'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
@@ -93,5 +92,5 @@ Verilerinizi keşfetmeye ve görsel öğeleri eklemeye devam edin. Özellikle il
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Görselleştirmeleri bir panoya sabitlemeyi](service-dashboard-pin-tile-from-report.md) öğrenin   
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

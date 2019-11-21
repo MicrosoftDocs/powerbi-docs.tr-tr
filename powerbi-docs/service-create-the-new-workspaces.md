@@ -2,7 +2,6 @@
 title: Yeni çalışma alanları oluşturma - Power BI
 description: Kuruluşunuza ana ölçümler sunmayı amaçlayan yeni çalışma alanları, pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturmayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020456"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877529"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma
 
@@ -74,7 +73,7 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
 
     İlk kez oluşturduğunuzda **Çalışma alanı oluştur** bölmesinden.
 
-    Sol gezinti bölmesinde, **Çalışma alanı**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
+    Gezinti bölmesinde, **Çalışma alanları**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
 
     ![Çalışma alanı ayarları](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ Power BI, Office 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekil
 
     İlk kez oluşturduğunuzda **Çalışma alanı oluştur** bölmesinden.
 
-    Sol gezinti bölmesinde, **Çalışma alanı**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
+    Gezinti bölmesinde, **Çalışma alanları**’nın yanındaki oku ve sonra çalışma alanı adı > **Çalışma alanı ayarları**’nın yanındaki **Diğer seçenekler** (...) düğmesini seçin. **Ayarlar** bölmesi açılır.
 
     ![Çalışma alanı ayarları](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -108,7 +107,7 @@ Power BI, Office 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekil
 
 OneDrive konumunuzu yapılandırdıktan sonra, bunu tıpkı Power BI hizmetindeki diğer veri kaynaklarını aldığınız gibi alırsınız.
 
-1. Sol gezinti bölmesinde **Veri Al**’ı seçip **Dosyalar** kutusunda **Al** seçeneğini belirleyin.
+1. Gezinti bölmesinde **Veri Al**’ı seçip **Dosyalar** kutusunda **Al** seçeneğini belirleyin.
 
     ![Verileri ve dosyaları alma](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -145,4 +144,4 @@ Kuruluşunuzda büyük bir hedef kitleye resmi içerik dağıtmak istiyorsanız,
 * [Power BI'da yeni çalışma alanlarında çalışmayı düzenleme deneyimi](service-new-workspaces.md) makalesini okuyun
 * [Klasik çalışma alanları oluşturma](service-create-workspaces.md)
 * [Power BI’da yeni çalışma alanlarından uygulama yayımlama](service-create-distribute-apps.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

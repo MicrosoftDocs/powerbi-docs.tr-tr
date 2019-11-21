@@ -2,7 +2,6 @@
 title: Soru-Cevap bölümünden bir kutucuğu panoya sabitleme
 description: Soru-Cevap soru kutusundan kutucukları Power BI panolarına sabitlemeye ilişkin belge
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e75c9b86b20eda2de630f2b27caa6b88a687fbb4
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432096"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872805"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
 ## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
@@ -52,9 +51,9 @@ Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sor
    ![kutucuklar içeren pano](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi yanıtı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti çubuğunda görünen panodur. Örneğin, bu soru, **mihart** çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
+* Soru yazmaya başladığınızda Soru-Cevap özelliği, geçerli panoyla ilişkilendirilmiş olan tüm veri kümelerinden en iyi yanıtı bulmak üzere arama yapmaya başlar.  "Geçerli pano", üst gezinti bölmesinde listelenen panodur. Örneğin, bu soru, **mihart** çalışma alanının bir parçası olan **Retail Analysis Sample** panosunda sorulmaktadır.
 
-  ![içerik haritaları](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![içerik haritaları](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * **Soru-Cevap hangi veri kümelerinin kullanılacağına nasıl karar veriyor**?  Soru-Cevap özelliği, ilgili panoya sabitlenmiş en az bir görselleştirmeye sahip olan tüm veri kümelerine erişim sahibidir.
 
 * **Soru kutusunu göremiyor musunuz**? Power BI yöneticinizle iletişime geçin. Yönetici Soru-Cevap özelliğini devre dışı bırakabilir.
@@ -64,4 +63,4 @@ Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sor
 [Kutucukla ilgili yeniden adlandırma, yeniden boyutlandırma, köprü ekleme, yeniden konumlandırma ve diğer işlemleri gerçekleştirme](service-dashboard-edit-tile.md)    
 [Pano kutucuğunuzu Odak modunda görüntüleme](consumer/end-user-focus.md)     
 [Power BI'daki Soru-Cevap özelliği](consumer/end-user-q-and-a.md)  
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

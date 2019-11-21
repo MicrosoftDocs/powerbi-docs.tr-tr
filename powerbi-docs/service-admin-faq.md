@@ -2,7 +2,6 @@
 title: Power BI yönetimi - sık sorulan sorular (SSS)
 description: Power BI’a kaydolma, kiracı yönetimi ve diğer yönetim görevleri hakkında sık sorulan soruların yanıtlarını öğrenin.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cc29bd1d06e948facf1058411759c15841a8352
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 711646009fe79e145a3ab756266a442243c1116e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442911"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857822"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -56,7 +55,7 @@ Bu makalede, Power BI yönetimi için sık sorulan sorular ele alınmıştır. P
 
 ### <a name="using-powershell"></a>PowerShell'i kullanma
 
-Bu bölümdeki yordamların bazılarında Windows PowerShell betiklerinin kullanılması gerekir. PowerShell hakkında bilgi sahibi değilseniz [PowerShell'i kullanmaya başlama kılavuzuna](http://go.microsoft.com/fwlink/p/?LinkID=286814) göz atmanızı öneririz. Betikleri çalıştırmak için öncelikle [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) uygulamasının 64 bit sürümünü yüklemeniz gerekir.
+Bu bölümdeki yordamların bazılarında Windows PowerShell betiklerinin kullanılması gerekir. PowerShell hakkında bilgi sahibi değilseniz [PowerShell'i kullanmaya başlama kılavuzuna](https://go.microsoft.com/fwlink/p/?LinkID=286814) göz atmanızı öneririz. Betikleri çalıştırmak için öncelikle [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) uygulamasının 64 bit sürümünü yüklemeniz gerekir.
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Kullanıcılar Power BI'a nasıl kaydolur?
 
@@ -193,7 +192,7 @@ Power BI'a kaydolmuş bir kullanıcının artık Power BI'a erişim sağlamasın
 
 1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
-1. Sol gezinti çubuğunda **Kullanıcılar** > **Etkin Kullanıcılar**'ı seçin.
+1. Gezinti bölmesinde, **Kullanıcılar** > **Etkin Kullanıcılar**’ı seçin.
 
 1. Lisansını kaldırmak istediğiniz kullanıcıyı bulup bu kullanıcının adını seçin.
 
@@ -211,7 +210,7 @@ Kiracınıza self-servis kaydolma üzerinden katılan kullanıcılara benzersiz 
 
 1. [Microsoft 365 yönetim merkezine](https://admin.microsoft.com/AdminPortal/Home#/homepage) gidin.
 
-1. Sol gezinti çubuğunda **Kullanıcılar** > **Etkin Kullanıcılar**'ı seçin.
+1. Gezinti bölmesinde, **Kullanıcılar** > **Etkin Kullanıcılar**’ı seçin.
 
 1. **Görünümler** menüsünde **Özel görünüm ekle**'yi seçin.
 
@@ -235,7 +234,7 @@ Power BI kiracınızın bulunduğu veri bölgesi hakkında bilgi edinmek için b
 
 ### <a name="what-is-the-power-bi-sla"></a>Power BI SLA'sı nedir?
 
-Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) hakkında bilgi edinmek için Microsoft Licensing web sitesinin **Licensing** (Lisanslama) bölümündeki [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Lisanslama ile ilgili Koşullar ve Belgeler) makalesine bakın.
+Power BI SLA'sı (Hizmet Düzeyi Sözleşmesi) hakkında bilgi edinmek için Microsoft Licensing web sitesinin **Licensing** (Lisanslama) bölümündeki [Licensing Terms and Documentation](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Lisanslama ile ilgili Koşullar ve Belgeler) makalesine bakın.
 
 ### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>Power BI yüksek kullanılabilirliği ve yük devretmeyi nasıl işler?
 
@@ -264,6 +263,6 @@ Microsoft, Power BI’ı Office 365 temel alarak oluşturmuştur. Microsoft 365'
 [Office 365 kullanıcı hesabı yönetimi](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
 [Office 365 grup yönetimi](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
 [1]: https://docs.microsoft.com/powershell/scripting/overview

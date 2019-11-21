@@ -3,19 +3,18 @@ title: Kuruluşunuz için uygulamanıza Power BI içeriği eklemek için tümle�
 description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu (Power BI veya Sayfalandırılmış), panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431073"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875993"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -429,4 +428,4 @@ Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power
 > [!div class="nextstepaction"]
 >[Müşterileriniz için ekleme](embed-sample-for-customers.md)
 
-Başka sorularınız varsa [Power BI Topluluğu’na sormayı deneyin](http://community.powerbi.com/).
+Başka sorularınız varsa [Power BI Topluluğu’na sormayı deneyin](https://community.powerbi.com/).

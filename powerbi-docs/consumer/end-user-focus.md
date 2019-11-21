@@ -2,7 +2,6 @@
 title: Odak modu ve tam ekran modu - daha fazla ayrıntı için yakınlaştırma
 description: Bir Power BI panosunu, pano kutucuğunu, raporu veya rapor görselini odak modunda veya tam ekran modunda görüntülemeye ilişkin belgeler
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019814"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852741"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 
@@ -38,7 +37,7 @@ Odak modu ve tam ekran modu, görsellerinizde, raporlarınızda ve panolarınız
 
 ![panonun tam ekran modundan önceki ve sonraki hali](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Power BI hizmeti içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görseller) menüler ve gezinti düğmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır.   
+Power BI hizmeti içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görseller) menüler ve gezinti bölmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır.   
 
 Tam ekran modunu açmak için, odak modunda panonuzun, raporunuzun, kutucuğunuzun veya odak modundaki görselin üzerinde bulunan Power BI hizmeti menü çubuğundan **tam ekran** simgesini ![tam ekran simgesi ](media/end-user-focus/power-bi-full-screen-icon.png) seçin.  Seçtiğiniz içerik ekranın tamamını kaplar.
 Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -60,7 +59,7 @@ Odak modundayken, bir Power BI *tüketicisi* söz konusu görsel oluşturulduğu
 
 ## <a name="working-in-full-screen-mode"></a>Tam ekran modunda çalışma
 
-Tam ekran modunda bir pano veya rapor sayfası açmak için üst gezinti çubuğundan ![tam ekran simgesi](media/end-user-focus/power-bi-full-screen-icon.png) tam ekran simgesini seçin. Tam ekran moduna geçtikten sonra farenizi veya imlecinizi hareket ettirmek bir bağlam menüsü açar. Tam ekran çok çeşitli içerikler için kullanılabildiğinden, bağlam menüsündeki seçeneklerin her biri biraz farklı ancak açıklayıcıdır.  Tanım için fare ile bir simgenin üzerine gelin.
+Tam ekran modunda bir pano veya rapor sayfası açmak için üst gezinti çubuğundan ![tam ekran simgesi](media/end-user-focus/power-bi-full-screen-icon.png) üst gezinti bölmesinden. Tam ekran moduna geçtikten sonra farenizi veya imlecinizi hareket ettirmek bir bağlam menüsü açar. Tam ekran çok çeşitli içerikler için kullanılabildiğinden, bağlam menüsündeki seçeneklerin her biri biraz farklı ancak açıklayıcıdır.  Tanım için fare ile bir simgenin üzerine gelin.
 
 Panolar için menü    
 ![Panolar için menü](media/end-user-focus/power-bi-full-screen-dash.png)    

@@ -2,7 +2,6 @@
 title: 'Kurumsal içerik paketleri: Yönetme ve güncelleştirme'
 description: Power BI'da kurumsal içerik paketlerini yönetme, güncelleştirme ve silme hakkında bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431771"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881263"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
@@ -64,8 +63,8 @@ Bir içerik paketine eklediğiniz panoda değişiklik yapıp kaydettiğinizde Po
    
    Yeni takma adın parçası olmayan herhangi bir iş arkadaşınız için:
    
-   * İçerik paketini özelleştirmemiş grup üyeleri söz konusu içerik paketiyle ilişkili pano ve raporları artık kullanamaz ve içerik paketi, Gezinti Bölmesinde görünmez.
-   * İçerik paketini özelleştirmiş olan grup üyeleri özelleştirilmiş panoyu tekrar açtıklarında özgün içerik paketine ait tüm kutucuklar kaybolmuş olur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder. Özgün içerik paketi raporları ve veri kümesi artık kullanılamaz ve içerik paketi, Gezinti bölmesinde görünmez.   
+   * İçerik paketini özelleştirmemiş grup üyeleri söz konusu içerik paketiyle ilişkili pano ve raporları artık kullanamaz ve içerik paketi, gezinti bölmesinde görünmez.
+   * İçerik paketini özelleştirmiş olan grup üyeleri özelleştirilmiş panoyu tekrar açtıklarında özgün içerik paketine ait tüm kutucuklar kaybolmuş olur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder. Özgün içerik paketi raporları ve veri kümesi artık kullanılamaz ve içerik paketi, gezinti bölmesinde görünmez.   
 
 ## <a name="refresh-an-organizational-content-pack"></a>Bir kurumsal içerik paketini yenileme
 İçerik paketi oluşturucusu olarak, [veri kümelerinin yenilenmesini zamanlayabilirsiniz](refresh-data.md).  İçerik paketi oluşturup karşıya yüklediğinizde, söz konusu yenileme zamanlaması veri kümeleriyle birlikte karşıya yüklenir. Yenileme zamanlamasını değiştirirseniz içerik paketini yeniden yayımlamanız gerekir. (Yukarıya bakın.)
@@ -81,11 +80,11 @@ AppSource'ta yalnızca oluşturucusu olduğunuz içerik paketlerini silebilirsin
 1. AppSource'taki bir içerik paketini silmek için, içerik paketini oluşturduğunuz çalışma alanına gidin, dişli simgesini ![](media/service-organizational-content-pack-manage-update-delete/cog.png) seçin ve **İçerik Paketlerini Görüntüle** seçeneğini belirleyin.
 2. **Sil \> Sil** seçeneğini belirleyin. 
    
-   * İçerik paketini özelleştirmemiş grup üyeleri için, söz konusu içerik paketiyle ilişkili raporlar ve pano otomatik olarak kaldırılır. Bunlar artık kullanılamaz ve içerik paketi, Gezinti bölmesinde görünmez.
-   * İçerik paketini özelleştirmiş olan grup üyeleri özelleştirilmiş panoyu tekrar açtıklarında özgün içerik paketine ait tüm kutucuklar kaybolmuş olur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder. Özgün içerik paketi raporları ve veri kümesi artık kullanılamaz ve içerik paketi, Gezinti bölmesinde görünmez.   
+   * İçerik paketini özelleştirmemiş grup üyeleri için, söz konusu içerik paketiyle ilişkili raporlar ve pano otomatik olarak kaldırılır. Bunlar artık kullanılamaz ve içerik paketi, gezinti bölmesinde görünmez.
+   * İçerik paketini özelleştirmiş olan grup üyeleri özelleştirilmiş panoyu tekrar açtıklarında özgün içerik paketine ait tüm kutucuklar kaybolmuş olur.  Ancak diğer raporlardan sabitlenmiş kutucuklar görünmeye devam eder. Özgün içerik paketi raporları ve veri kümesi artık kullanılamaz ve içerik paketi, gezinti bölmesinde görünmez.   
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketlerine giriş](service-organizational-content-pack-introduction.md)
 * [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

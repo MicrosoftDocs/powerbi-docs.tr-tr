@@ -2,7 +2,6 @@
 title: Power BI'da veri akışlarını oluşturma ve kullanma
 description: Power BI’da veri akışları oluşturma ve kullanmayı öğrenin
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432062"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877391"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI'da veri akışlarını oluşturma ve kullanma
 
@@ -36,7 +35,7 @@ Veri akışını kullanmanın başlıca üç adımı vardır:
 Aşağıdaki bölümlerde, bu adımlardan her birini gözden geçirecek ve her adımı tamamlamak için sağlanan araçları tanıyacağız. Başlayalım.
 
 ## <a name="creating-a-dataflow"></a>Veri akışı oluşturma
-Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinde **çalışma alanını** (Power BI hizmetinde *çalışma alanım* içinde veri akışları kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
+Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinden **çalışma alanını** (veri akışları Power BI hizmetindeki *my-workspace* içinde kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
 
 ![Power BI'da veri akışı oluşturma](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 

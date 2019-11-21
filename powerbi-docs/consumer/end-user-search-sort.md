@@ -2,7 +2,6 @@
 title: Power BI hizmetinde içeriğinizi arama ve sıralama
 description: Power BI Çalışma alanım’da içerik aramaya ve sıralamaya ilişkin belge
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891779"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861728"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Gezinme: Power BI hizmetinde içerik arama, bulma ve sıralama
 
@@ -47,10 +46,10 @@ Ayrıca içeriği adına veya sahibine göre de sıralayabilirsiniz. **Ad** alan
 Her sütun sıralanamaz. Sıralanabilen sütunları bulmak için sütun başlığına gidin.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>Gezinti bölmesini kullanarak gezinme
-Sol gezinti bölmesi, aradıklarınızı daha hızlı bulmanıza yardımcı olacak şekilde içeriğinizi sınıflandırır.  
+## <a name="navigation-using-the-nav-pane"></a>Gezinti bölmesini kullanarak gezinme
+Gezinti bölmesi, aradıklarınızı hızlıca bulmanıza yardımcı olacak şekilde içeriğinizi sınıflandırır.  
 
-![sol gezinti bölmesi](./media/end-user-search-sort/power-bi-navbar.png)
+![gezinti bölmesi](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - Sizinle paylaşılan içerikler **Benimle paylaşılan** bölümünde bulunur.
@@ -58,7 +57,7 @@ Sol gezinti bölmesi, aradıklarınızı daha hızlı bulmanıza yardımcı olac
 - **Uygulamalar**'ı seçerek uygulamalarınıza ulaşabilirsiniz.
 - **Giriş**, en önemli içeriğin yanı sıra önerilen içeriğin ve öğrenme kaynaklarının bulunduğu tek sayfalık bir görünümdür.
 
-Ayrıca içerikleri [sık kullanılan](end-user-favorite.md) ve [öne çıkan](end-user-featured.md) olarak etiketleyebilirsiniz. En sık görüntülemeyi planladığınız panoyu veya raporu seçip *öne çıkan* içeriğiniz olarak ayarlayabilirsiniz. Power BI hizmetini her açtığınızda ilk olarak öne çıkan panonuz görüntülenir. Sık ziyaret ettiğiniz panolar ve uygulamalar mı var? Bu öğeleri sık kullanılanlara ekleyerek, her zaman sol gezinti çubuğunda kalmalarını sağlayabilirsiniz.
+Ayrıca içerikleri [sık kullanılan](end-user-favorite.md) ve [öne çıkan](end-user-featured.md) olarak etiketleyebilirsiniz. En sık görüntülemeyi planladığınız panoyu veya raporu seçip *öne çıkan* içeriğiniz olarak ayarlayabilirsiniz. Power BI hizmetini her açtığınızda ilk olarak öne çıkan panonuz görüntülenir. Sık ziyaret ettiğiniz panolar ve uygulamalar mı var? Bu öğeleri sık kullanılanlara ekleyerek, her zaman gezinti bölmenizde kalmalarını sağlayabilirsiniz.
 
 ![Sık kullanılanlar açılır öğesi](./media/end-user-search-sort/power-bi-favorite.png)geçin.
 
@@ -70,4 +69,4 @@ Ayrıca içerikleri [sık kullanılan](end-user-favorite.md) ve [öne çıkan](e
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlardaki görselleri sıralama](end-user-change-sort.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

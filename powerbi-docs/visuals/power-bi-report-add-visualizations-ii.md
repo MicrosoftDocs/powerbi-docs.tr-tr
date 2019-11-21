@@ -2,7 +2,6 @@
 title: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 description: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049172"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881007"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 
@@ -29,7 +28,7 @@ Bu öğreticide Perakende Analizi veri kümesini derinlemesine inceleyeceğiz ve
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu öğreticide [Perakende analizi örneği PBIX dosyası](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
+Bu öğreticide [Perakende analizi örneği PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
 1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
    
@@ -59,7 +58,7 @@ Bu öğreticide [Perakende analizi örneği PBIX dosyası](http://download.micro
 
 5. Görselleştirmeyi seçerek ve ana hat dairelerinden birini yakalayıp sürükleyerek [görselleştirmeyi yeniden boyutlandırın](power-bi-visualization-move-and-resize.md). Kaydırma çubuğunu ortadan kaldırmak için yeterince geniş ve bir başka görselleştirme eklememiz için alan bırakacak kadar da küçük olmasını sağlayın.
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![alan grafiği görselinin ekran görüntüsü](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Raporu kaydedin](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Konuma göre satışları gösteren bir harita görselleştirmesi ekleyin.
@@ -68,9 +67,9 @@ Bu öğreticide [Perakende analizi örneği PBIX dosyası](http://download.micro
    ![Alan grafiği](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. Bir açıklama ekleyin.  Verileri mağaza adına göre görmek için **Mağaza** > **Zincir** öğesini Gösterge alanına sürükleyin.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![alanlar listesindeki Zincirden Gösterge demetindeki Zincire işaret eden oka sahip rapor tuvali](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi.  
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

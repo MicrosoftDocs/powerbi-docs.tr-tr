@@ -2,19 +2,18 @@
 title: Kuruluşunuzda şablon uygulamalarını dağıtma - Power BI
 description: Power BI’da şablon uygulamalarını kuruluşunuzda yükleme, özelleştirme ve dağıtma hakkında bilgi edinin.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432351"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871414"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI
 
@@ -45,7 +44,7 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Power BI hizmetinde AppSource’u arama
 
-1. Power BI hizmetinin sol gezinti bölmesinde **Uygulamalar** > **Uygulama edinin**’i seçin.
+1. Power BI hizmetinin gezinti bölmesinde **Uygulamalar** > **Uygulama edinin**’i seçin.
 
     ![Uygulamaları edinin](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ Tarayıcıda, Power BI uygulamalarını gösterecek şekilde filtrelenmiş AppSo
     - **Verilere bağlan**: Veri kaynağını örnek verilerden kendi veri kaynağınıza geçirin. Veri kümesi parametrelerini ve veri kaynağı kimlik bilgilerini yeniden tanımlayabilirsiniz. Şablon uygulaması ipuçları makalesinde [Bilinen sınırlamalar](service-template-apps-tips.md#known-limitations) bölümüne bakın. 
     - **Çalışma alanına git** (en gelişmiş seçenek): uygulama oluşturucusunun izin verdiği tüm değişiklikleri yapabilirsiniz.
 
-    İsterseniz bu iletişim kutusunu atlayın ve sol gezinti bölmesindeki **Çalışma Alanları** yoluyla doğrudan ilişkili çalışma alanına erişin.
+    İsterseniz bu iletişim kutusunu atlayın ve gezinti bölmesindeki **Çalışma Alanları** yoluyla doğrudan ilişkili çalışma alanına erişin.
     >[!NOTE]
     >Hem bir *kurumsal uygulama* hem de bir *çalışma alanı* üzerinde yüklü bir şablon uygulaması yükleme. [Power BI’da uygulama dağıtma](service-create-distribute-apps.md) hakkında daha fazla bilgi edinin.
  

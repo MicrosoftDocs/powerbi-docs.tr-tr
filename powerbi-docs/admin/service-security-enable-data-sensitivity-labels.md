@@ -2,7 +2,6 @@
 title: Power BI'da veri duyarlılığı etiketlerini etkinleştirme
 description: Power BI'da veri duyarlılığı etiketlerini etkinleştirme hakkında bilgi edinin
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: a53e06f65f5ef8328a0c27b48f2020228a0570ed
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433569"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851077"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI'da veri duyarlılığı etiketlerini etkinleştirme (önizleme)
 
@@ -63,7 +62,7 @@ Power BI, Microsoft Information Protection duyarlılık etiketlerini kullanır. 
 
 ## <a name="licensing"></a>Lisanslama
 
-* Power BI’da Microsoft Azure Information Protection etiketlerini görüntülemek için kullanıcıların bir Azure Information Protection Premium P1 veya Premium P2 lisansına sahip olması gerekir. Microsoft Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın.
+* Power BI’da Microsoft Information Protection etiketlerini görüntülemek veya uygulamak için kullanıcıların bir Azure Information Protection Premium P1 veya Premium P2 lisansına sahip olması gerekir. Microsoft Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın.
 * Power BI varlıklarına etiket uygulaması gereken kullanıcıların bir Power BI Pro Lisansı olmalıdır.
 
 

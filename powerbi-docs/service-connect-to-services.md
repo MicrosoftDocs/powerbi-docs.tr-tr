@@ -2,25 +2,24 @@
 title: Power BI ile kullandığınız hizmetlere bağlanma
 description: Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159990"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925824"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Power BI ile, Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI, hizmete bağlanmak için sizin kimlik bilgilerinizi kullanarak başlar. Verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir panoyu ve çeşitli Power BI raporlarını içeren bir Power BI *çalışma alanı* oluşturur.
 
 >[!IMPORTANT]
->Birkaç içerik paketini 25 Eylül 2019’da kullanımdan kaldıracağız. Yüklü içerik paketleri çalışmaya devam eder. Ancak, bu tarihten sonra yenisini yükleyemezsiniz. [Şablon uygulamaları](https://docs.microsoft.com/power-bi/service-template-apps-overview), hizmet içerik paketlerinin yerini alır.
+>Hizmet içerik paketleri [Şablon uygulamaları](https://docs.microsoft.com/power-bi/service-template-apps-overview) ile değiştiriliyor. 25 Eylül 2019’dan itibaren bir dizi içerik paketi zaten kullanım dışı bırakılmıştır. Yüklediğiniz tüm kullanım dışı içerik paketleri hesabınızda kalır, ancak bunlar için bir belge veya destek sağlanmaz ya da bunları yeniden yüklemek mümkün olmaz.
 
 [Bağlantı kurabileceğiniz tüm hizmetleri](https://app.powerbi.com/getdata/services) görüntülemek için Power BI’da oturum açın. 
 
@@ -36,7 +35,7 @@ Uygulamayı yükledikten sonra, panoyu ve raporları uygulamada ve Power BI hizm
 ## <a name="edit-the-dashboard-and-reports"></a>Panoyu ve raporları düzenleme
 İçeri aktarma tamamlandığında, yeni uygulama Uygulamalar sayfasında görünür.
 
-1. Sol gezinti bölmesinde **Uygulamalar** seçeneğini belirleyin ve ardından uygulamayı seçin.
+1. Gezinti bölmesinde **Uygulamalar** seçeneğini belirleyin ve ardından uygulamayı seçin.
    
      ![Uygulamalar sayfası](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Soru-Cevap kutusuna yazarak soru sorabilir veya bağlantılı raporu açmak için bir kutucuğa tıklayabilirsiniz. 
@@ -71,6 +70,6 @@ Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Uygulamaları iş arkadaşlarınıza dağıtma](service-create-distribute-apps.md)
 * [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

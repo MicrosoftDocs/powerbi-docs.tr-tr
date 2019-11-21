@@ -2,7 +2,6 @@
 title: Power BI'da klasik çalışma alanları oluşturma
 description: Kuruluşunuza ana ölçümler sunmayı amaçlayan çalışma alanları, pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturmayı öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021123"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853545"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
@@ -75,7 +74,7 @@ Geçerli çalışma alanlarında, kurumsal içerik paketlerini ve Microsoft Dyna
 
 Kuruluşunuzda büyük bir hedef kitleye resmi içerik dağıtmak istiyorsanız, çalışma alanınızdan bir uygulama yayımlayabilirsiniz.  İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz.
 
-Sol gezinti bölmesinde bulunan uygulamalar listesinde, yüklediğiniz tüm uygulamalar gösterilir. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. 
+Gezinti bölmesinde bulunan Uygulamalar listesinde, yüklediğiniz tüm uygulamalar gösterilir. İş arkadaşlarınız uygulamanızı birkaç farklı yolla alabilir. 
 - Uygulamanızı Microsoft AppSource’tan da bulabilir ve yükleyebilir
 - Onlara bir doğrudan bağlantı gönderebilirsiniz. 
 - Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz. 
@@ -97,4 +96,4 @@ Uygulamalar, kurumsal içerik paketlerinin gelişmiş halidir. Zaten kurumsal i�
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da uygulamaları yükleme ve kullanma](service-create-distribute-apps.md)
 - [Yeni çalışma alanlarını oluşturma](service-create-the-new-workspaces.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma'
 description: Bu öğreticide Power BI'da bir Makine öğrenmesi modeli oluşturacaksınız.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432251"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877015"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma
 
@@ -47,7 +46,7 @@ Veri kümesini UC Irvine web sitesinden indirebilirsiniz. Bu öğretici için a�
 
 Veri akışınızda varlıkları oluşturmak için, Power BI hizmetinde oturum açın ve yapay zekanın etkinleştirildiği ayrılmış kapasitenizdeki çalışma alanına gidin.
 
-Henüz çalışma alanınız yoksa, Power BI hizmetinin sol gezinti menüsünde **Çalışma Alanları**'nı ve sonra görüntülenen panelin altındaki **Çalışma alanı oluştur**'u seçerek bir çalışma alanı oluşturabilirsiniz. Sağ tarafta, çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Bir çalışma alanı adı girin ve **Gelişmiş**'i seçin. Radyo düğmesini kullanarak çalışma alanının Ayrılmış Kapasite kullandığını ve yapay zeka önizlemesi açık olan bir ayrılmış kapasite örneğine atandığını doğrulayın. Sonra **Kaydet**'i seçin.
+Henüz çalışma alanınız yoksa, Power BI hizmetinin gezinti bölmesi menüsünde **Çalışma Alanları**'nı ve sonra görüntülenen panelin altındaki **Çalışma alanı oluştur**'u seçerek bir çalışma alanı oluşturabilirsiniz. Sağ tarafta, çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Bir çalışma alanı adı girin ve **Gelişmiş**'i seçin. Radyo düğmesini kullanarak çalışma alanının Ayrılmış Kapasite kullandığını ve yapay zeka önizlemesi açık olan bir ayrılmış kapasite örneğine atandığını doğrulayın. Sonra **Kaydet**'i seçin.
 
 ![Çalışma alanı oluşturma](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

@@ -2,19 +2,18 @@
 title: Power BI’da şablon uygulamaları oluşturma
 description: Power BI’da tüm Power BI müşterilerine dağıtabileceğiniz şablon uygulamaları oluşturma.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871487"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -86,7 +85,7 @@ Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir ş
 
     **Gezinti**
 
-    Uygulamanın sol gezinti bölmesini tanımlayabileceğiniz **Yeni gezinti oluşturucu**’yu etkinleştirin (Ayrıntılar için bu makaledeki [Gezinti deneyimini tasarlama](service-create-distribute-apps.md#design-the-navigation-experience) bölümüne bakın).
+    Uygulamanın gezinti bölmesini tanımlayabileceğiniz **Yeni gezinti oluşturucu**’yu etkinleştirin (Ayrıntılar için bu makaledeki [Gezinti deneyimini tasarlama](service-create-distribute-apps.md#design-the-navigation-experience) bölümüne bakın).
 
    ![Uygulama giriş sayfasını ayarlama](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

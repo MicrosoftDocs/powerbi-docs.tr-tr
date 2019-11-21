@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429883"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764713"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -68,7 +68,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **connect live (canlı bağlanma)** SQL Server Analysis Services veri modellerine bağlanma yöntemi. Canlı bağlantı olarak da adlandırılır.
 
-**kapsayıcı** Gezinti çubuğundaki alanlar *kapsayıcılardır*. Gezinti çubuğunda şu kapsayıcıları bulabilirsiniz: Sık Kullanılanlar, En Son, Uygulamalar, Benimle paylaşılan ve Giriş. 
+**kapsayıcı** Gezinti bölmesindeki alanlar *kapsayıcılardır*. Gezinti bölmesinde şunlar için kapsayıcılar bulabilirsiniz: Sık Kullanılanlar, En Son, Uygulamalar, Benimle paylaşılan ve Giriş. 
 
 **içerik** Power BI hizmeti içeriği genellikle panolar, raporlar ve uygulamalardır. Ayrıca, çalışma kitaplarını ve veri kümelerini de içerebilir.
 
@@ -162,12 +162,12 @@ Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerin
 
 ## <a name="l"></a>L
 
-**Sol gezinti (sol gez)** **Gezinti çubuğu** ile değiştirilmiştir ancak bazı belgelerde görünmeye devam edebilir.    
+**sol gezinti (sol gez)** **Gezinti bölmesi** ile değiştirilmiştir ancak bazı belgelerde görünmeye devam edebilir.    
 Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
-İlk örnek: sol gezinti çubuğu Daha sonra geçtiğinde veya dar alanlarda: sol gezinti
+İlk örnek: gezinti bölmesi Daha sonra geçtiğinde veya dar alanlarda: gezinti bölmesi
 
-**list page (liste sayfası)** veya **içerik listesi** Sol gezintideki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
+**liste sayfası** veya **içerik listesi** Gezinti bölmesindeki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **native (yerel)** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ama başka türleri, örneğin özel görselleri de içeri aktarabilirsiniz.
 
-**Gezinti çubuğu** veya **sol çub** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
+**gezinti bölmesi** veya **gezinti bölmesi** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
-İlk örnek: gezinti çubuğu Daha sonra geçtiğinde veya dar alanlarda: sol gez
+İlk örnek: gezinti bölmesi Daha sonra geçtiğinde veya dar alanlarda: gezinti bölmesi
 
-**gezinti bölmesi** Bkz. **gezinti çubuğu**
+**gezinti bölmesi** bkz. **gezinti bölmesi**
 
 **notification (bildirim)** Power BI Bildirim Merkezi tarafından veya bu bildirim merkezine gönderilen iletiler.  
 
@@ -260,7 +260,7 @@ Power BI raporunda görünen sonuçları önceden filtrelemek için URL'ye ekley
 
 **real-time streaming (gerçek zamanlı akış)** Algılayıcılardan, sosyal medyadan, kullanım ölçümlerinden ve zamana duyarlı verilerin toplanabileceği veya iletilebileceği başka herhangi bir kaynaktan gelen verileri gerçek zamanlı olarak aktarabilme ve panoları güncelleştirebilme özelliği.  
 
-**Recent (Son görüntülenen)** Sol gezintide yer alan ve son erişilen tek tek tüm yapıtları barındıran kapsayıcı.
+**Son görüntülenen** Gezinti bölmesinde yer alan ve son erişilen tüm yapıtları tek tek barındıran kapsayıcı.
 
 **related content (içerik)** Geçerli içeriği oluşturan tek tek içerik parçalarını gösterir. Örneğin panolar için, panodaki verileri ve görselleştirmeleri sağlayan raporları ve veri kümelerini görebilirsiniz.   
 
@@ -288,7 +288,7 @@ Tek bir veri kümesinden elde edilen farklı bulguları ve içgörüleri temsil 
 **share, sharing (paylaşma, paylaşım)** Power BI'da, paylaşım genel olarak tek bir yapıtı (pano veya rapor) bir veya birden çok kişiyle e-posta adreslerini kullanarak doğrudan paylaşma anlamına gelir. Gönderenin ve alıcının Power BI Pro lisansı olmalıdır.
 Mobil cihazlarda, paylaşma yerel işletim sisteminin paylaşım işlevselliğine ("not ekleyip paylaşma" gibi) işaret edebilir.  
 
-**Shared with me (Benimle paylaşılan)** Sol gezintide bulunan ve başka bir Power BI kullanıcısıyla doğrudan paylaşılmış tek tek yapıtları barındıran kapsayıcı.
+**Benimle paylaşılan** Gezinti bölmesinde bulunan ve başka bir Power BI kullanıcısıyla doğrudan paylaşılmış yapıtları tek tek barındıran kapsayıcı.
 
 **snapshot (anlık görüntü)**
 

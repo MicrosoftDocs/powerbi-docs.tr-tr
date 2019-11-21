@@ -2,7 +2,6 @@
 title: Power BI'da kurumsal içerik paketlerine giriş
 description: Panolarınızı, raporlarınızı, Excel çalışma kitaplarınızı ve veri kümelerinizi, iş arkadaşlarınızla paylaşabileceğiniz kurumsal içerik paketleri haline getirme hakkında bilgi edinin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431734"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871983"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -54,7 +53,7 @@ Yaşam döngüsü aşağıdaki gibidir:
    > 
    > 
 2. Nate, dağıtım grubuna posta gönderir ve gruptakilere yeni içerik paketinden bahseder.
-3. Power BI Pro'da Pazarlama dağıtım grubunun üyesi olan Jane, AppSource'ta bir içerik paketini arayıp pakete bağlanır. Jane'in artık salt okunur bir kopyası var. Jane, sol Gezinti Bölmesinde pano adının ve rapor adının solunda bir paylaşım simgesi bulunduğundan kopyanın salt okunur olduğunu anlar. Pano seçildiğinde görünen kilit simgesi, Jane'in bir içerik paketi panosuna baktığını anlamasını sağlar. 
+3. Power BI Pro'da Pazarlama dağıtım grubunun üyesi olan Jane, AppSource'ta bir içerik paketini arayıp pakete bağlanır. Jane'in artık salt okunur bir kopyası var. Jane, gezinti bölmesinde pano adının ve rapor adının solunda bir paylaşım simgesi bulunduğundan kopyanın salt okunur olduğunu anlar. Pano seçildiğinde görünen kilit simgesi, Jane'in bir içerik paketi panosuna baktığını anlamasını sağlar. 
 4. Jane’in panoyu özelleştirmeye karar verdiğini varsayalım. Artık panonun ve raporların bir kopyasına sahip olur. Jane'in çalışmaları kaynağı, özgün içerik paketini veya diğer dağıtım grubu üyelerini etkilemez. Artık her biri panonun ve raporun kendisine ait kopyası üzerinde çalışıyor.
 5. Nate panoda güncelleştirmeler yapar ve hazır olduğunda içerik paketinin yeni sürümünü yayımlar.
    
@@ -63,11 +62,11 @@ Yaşam döngüsü aşağıdaki gibidir:
 6. Nate'in güvenlik ayarlarını değiştirdiğini varsayalım. Julio ve Jane içeriğe artık erişemez. Veya Pazarlama dağıtım grubundan çıkarıldıklarını varsayalım.
    
    * Julio özgün içerik paketini güncelleştirmediğinden içerik otomatik olarak kaldırılır. 
-   * Jane ise içerik paketini özelleştirdi. Panoyu bir sonraki açışında, özgün içerik paketinden gelen tüm kutucuklar gitmiş olur ancak Jane’in başka raporlardan sabitlediği kutucuklar (kullanma iznine hâlâ sahip olduğu) görünmeye devam eder. İlişkili raporlar ve veri kümeleri artık kullanılamaz (ve bunların sol gezinti bölmesinde görünmez).
+   * Jane ise içerik paketini özelleştirdi. Panoyu bir sonraki açışında, özgün içerik paketinden gelen tüm kutucuklar gitmiş olur ancak Jane’in başka raporlardan sabitlediği kutucuklar (kullanma iznine hâlâ sahip olduğu) görünmeye devam eder. İlişkili raporlar ve veri kümeleri artık kullanılamaz (ve bunların gezinti bölmesinde görünmez).
 7. Şimdi de Nate'in içerik paketini sildiğini varsayalım.
    
    * Julio özgün içerik paketini güncelleştirmediğinden içerik otomatik olarak kaldırılır. 
-   * Jane ise içerik paketini özelleştirdi. Panoyu bir sonraki açışında, özgün içerik paketinden gelen tüm kutucuklar gitmiş olur ancak Jane’in başka raporlardan sabitlediği kutucuklar görünmeye devam eder. İlişkili raporlar ve veri kümeleri artık kullanılamaz (ve bunların sol gezinti bölmesinde görünmez).
+   * Jane ise içerik paketini özelleştirdi. Panoyu bir sonraki açışında, özgün içerik paketinden gelen tüm kutucuklar gitmiş olur ancak Jane’in başka raporlardan sabitlediği kutucuklar görünmeye devam eder. İlişkili raporlar ve veri kümeleri artık kullanılamaz (ve bunların gezinti bölmesinde görünmez).
 
 ## <a name="data-security"></a>Veri güvenliği
 Dağıtım grup üyelerinin tümü, verilere yönelik olarak içerik paketi oluşturucusuyla aynı izinlere sahiptir. Bunun tek istisnası SQL Server Analysis Services (SSAS) şirket içi tablo veri kümeleridir. Raporlar ve panolar, şirket içi SSAS modeline canlı bağlandığından her bir dağıtım grubu üyesinin kimlik bilgileri, üyenin erişebildiği verileri belirlemek için kullanılır.
@@ -76,5 +75,5 @@ Dağıtım grup üyelerinin tümü, verilere yönelik olarak içerik paketi olu�
 * [Kurumsal içerik paketi oluşturma ve yayımlama](service-organizational-content-pack-create-and-publish.md)
 * [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
 * [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

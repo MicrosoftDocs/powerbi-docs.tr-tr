@@ -2,7 +2,6 @@
 title: Power BI’da erişilebilirliğe genel bakış
 description: Özellikler ve erişilebilir Power BI Desktop raporları oluşturmaya yönelik öneriler
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180988"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878909"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI’da erişilebilirliğe genel bakış
 Power BI ile çalışırken, raporlarınızla etkileşimde bulunan farklı kullanıcı türlerini göz önünde bulundurmanız önemlidir. Klavye veya ekran okuyucu kullanıcıları tarafından kolayca gezinilen ve anlaşılan raporlar oluşturmak ve sunmak, görsel veya fiziksel sorunları olabilecek kullanıcıların aynı bilgileri almasını sağlar.
@@ -30,10 +29,10 @@ Evrensel tasarım, özel bir uyarlama veya özel tasarıma gerek duymadan olabil
 
 ## <a name="accessibility-standards"></a>Erişilebilirlik standartları
 
-Power BI, aşağıdaki erişilebilirlik standartları ile uyumludur.  Bu uyum, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur.
+Power BI, aşağıdaki erişilebilirlik standartlarına bağlıdır.  Bu uyum, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur.
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI, Web İçeriği Erişilebilirliği (WCAG) 2.1 yönergelerine uyar. WCAG’nin başlıca üç ilkesi vardır:
+Web Content Accessibility (WCAG), web içeriğinin engelli kişiler tarafından erişilebilir olmasına yardımcı olur. WCAG’nin başlıca üç ilkesi vardır:
 
 1. **Algılanabilir** - Bilgiler ve kullanıcı arabirimi bileşenleri, kullanıcılara algılayabilecekleri şekilde sunulabilir olmalıdır.
 2. **Çalıştırılabilir** - Kullanıcı arabirimi bileşenleri ve gezinme, çalıştırılabilir olmalıdır.

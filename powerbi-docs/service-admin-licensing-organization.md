@@ -2,7 +2,6 @@
 title: Kuruluşunuzda Power BI lisansları
 description: "Power BI'da sağlanan farklı lisans türlerini öğrenin: ücretsiz lisans, Power BI Pro ve Power BI Premium."
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442838"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857723"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
 
@@ -55,7 +54,7 @@ Kaydolma adımlarını izlemeden önce aşağıdakileri aklınızda bulundurun:
 
 1. [Microsoft 365 yönetim merkezine](https://portal.office.com/adminportal/home#/homepage) gidin.
 
-1. Sol gezinti bölmesinde **Faturalama**'yı, sonra da **Abonelikler**'i seçin.
+1. Gezinti bölmesinde **Faturalama**’yı ve ardından **Abonelikler**'i seçin.
 
    ![Faturalama ve abonelikler](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Sınırsız Power BI (ücretsiz) lisans bloğu kullanılamıyorsa ve bireysel ka
 
 1. [Microsoft 365 yönetim merkezine](https://portal.office.com/admin/default.aspx) gidin.
 
-1. Sol gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
+1. Gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
 
 1. Sağ taraftaki **Abonelik ekleyin +** öğesini seçin.
 
@@ -156,4 +155,4 @@ Kaydı denetleyen Azure Active Directory ayarı **AllowAdHocSubscriptions**'dır
 
 [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

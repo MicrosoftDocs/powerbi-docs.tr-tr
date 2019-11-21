@@ -1,48 +1,45 @@
 ---
-title: Dinamik bağlama
+title: Dinamik bağlama kullanarak bir raporu veri kümesine bağlama
 description: Dinamik bağlama kullanarak rapor eklemeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 09/25/2019
-ms.openlocfilehash: 8b42b397f726e492eda80a99eb730c215eb17ccb
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.date: 11/07/2019
+ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72776249"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925750"
 ---
-# <a name="dynamic-binding"></a>Dinamik bağlama
+# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
 
-Dinamik bağlama, bir raporu eklerken veri kümesini dinamik olarak seçmeye olanak sağlar. Raporun ve veri kümesinin aynı çalışma alanında bulunması gerekmez. Son kullanıcılar seçili veri kümesine bağlı olarak farklı sonuçlar görür.
+Dinamik bağlama kullanma işlemi, yalnızca rapor bir veri kümesine bağlı olduğunda geçerlidir. Rapor ve veri kümesi arasındaki bağlantı, *bağlama* olarak bilinir. Bağlama, daha önceden belirlenmesinin aksine ekleme sırasında belirlendiğinde, bu işlem [dinamik bağlama](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) olarak bilinir.
+ 
+*Dinamik bağlama* kullanarak bir Power BI raporu eklerken, kullanıcının kimlik bilgilerine bağlı olarak aynı raporu farklı veri kümelerine bağlayabilirsiniz.
+ 
+Bu, farklı bilgileri göstermek için bağlı olduğu veri kümesine bağlı olarak bir rapor kullanabileceğiniz anlamına gelir. Örneğin, perakende satış değerlerini gösteren bir rapor farklı perakende satıcı veri kümelerine bağlanabilir ve bağlı olduğu perakende satıcının veri kümesine bağlı olarak farklı sonuçlar oluşturabilir.
+ 
+Raporun ve veri kümesinin aynı çalışma alanında bulunması gerekmez. Her iki çalışma alanı da (raporu içeren çalışma alanı ve veri kümesini içeren çalışma alanı) bir [kapasiteye](azure-pbie-create-capacity.md) atanmalıdır.
 
-Her iki çalışma alanı da (raporu içeren çalışma alanı ve veri kümesini içeren çalışma alanı) bir kapasiteye atanmalıdır.
+Ekleme sürecinin bir parçası olarak, *yeterli izinlere sahip bir belirteç oluşturduğunuzdan* ve *yapılandırma nesnesini ayarladığınızdan* emin olun.
 
-Dinamik bağlama kullanarak bir raporun eklenmesi iki aşamayı içerir:
-1. Belirteç oluşturma
-2. Yapılandırma nesnesini ayarlama
 
-## <a name="generating-a-token"></a>Belirteç oluşturma
-Belirteç oluşturmak için, [birden çok öğe için ekleme belirteci oluşturmaya yönelik API](embed-sample-for-customers.md#multiEmbedToken)’yi kullanın.
+## <a name="generating-a-token-with-sufficient-permissions"></a>Yeterli izinlere sahip bir belirteç oluşturma
 
-Dinamik bağlama, her iki ekleme senaryosu için de desteklenir: *Kuruluşunuz için içerik ekleme* ve *Müşterileriniz için içerik ekleme*.
+Dinamik bağlama, *Kuruluşunuz için ekleme* ve *Müşterileriniz için ekleme* senaryolarının her ikisi için de desteklenir. Aşağıdaki tabloda her senaryoya ilişkin değerlendirmeler açıklanmaktadır.
 
-| Çözüm                   | Belirteç                               | Gereksinimler                                                                                                                                                  |
-|---------------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Kuruluşunuz için içerik ekleme* | Power BI kullanıcıları için erişim belirteci     | Azure AD belirteci kullanılan kullanıcının tüm yapıtlar için uygun izinlere sahip olması gerekir.                                                                    |
-| *Müşterileriniz için içerik ekleme*    | Power BI kullanıcısı olmayan kişiler için erişim belirteci | Hem rapora hem de dinamik olarak bağlı veri kümesine yönelik izinleri içermelidir. Birden çok yapıtı destekleyen bir ekleme belirteci oluşturmak için yeni API'yi kullanın. |
+
+|Senaryo  |Veri sahipliği  |Belirteç  |Gereksinimler  |
+|---------|---------|---------|---------|
+|*Kuruluşunuz için içerik ekleme*    |Veriler kullanıcıya aittir         |Power BI kullanıcıları için erişim belirteci         |Azure AD belirteci kullanılan kullanıcının tüm yapıtlar için uygun izinlere sahip olması gerekir.         |
+|*Müşterileriniz için içerik ekleme*     |Veriler uygulamaya aittir         |Power BI kullanıcısı olmayan kişiler için erişim belirteci         |Hem rapora hem de dinamik olarak bağlı veri kümesine yönelik izinleri içermelidir. [Birden çok öğe için ekleme belirteci oluşturmayı sağlayan API](embed-sample-for-customers.md#multiEmbedToken)’yi kullanarak birden çok yapıtı destekleyen bir ekleme belirteci oluşturun.         |
 
 ## <a name="adjusting-the-config-object"></a>Yapılandırma nesnesini ayarlama
-Yapılandırma nesnesine `datasetBinding` ekleyin. Sayfanın alt kısmındaki örneği başvuru olarak kullanın.
+Yapılandırma nesnesine `datasetBinding` ekleyin. Aşağıdaki örneği başvuru olarak kullanın.
 
-Power BI’da ekleme konusuna yeni başladıysanız, Power BI içeriğinizi nasıl ekleyeceğinizi öğrenmek için şu öğreticileri inceleyin:
-* [Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-customers.md)
-* [Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md)
-
- ### <a name="example"></a>Örnek
 ```javascript
 var config = {
     type: 'report',
@@ -52,13 +49,11 @@ var config = {
     id: "reportId", // The wanted report id
     permissions: permissions,
 
-    /////////////////////////////////////////////
-    // Adjustment required for dynamic binding //
+    // -----  Adjustment required for dynamic binding ---- //
     datasetBinding: {
         datasetId: "notOriginalDatasetId",  // </The wanted dataset id
     }
-    // End of dynamic binding adjustment            //
-    /////////////////////////////////////////////
+    // ---- End of dynamic binding adjustment ---- //
 };
 
 // Get a reference to the embedded report HTML element
@@ -67,3 +62,9 @@ var embedContainer = $('#embedContainer')[0];
 // Embed the report and display it within the div container
 var report = powerbi.embed(embedContainer, config);
 ```
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Power BI’da ekleme konusuna yeni başladıysanız, Power BI içeriğinizi nasıl ekleyeceğinizi öğrenmek için şu öğreticileri inceleyin:
+* [Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-customers.md)
+* [Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md)

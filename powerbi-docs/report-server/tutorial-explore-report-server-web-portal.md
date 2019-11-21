@@ -2,19 +2,18 @@
 title: 'Öğretici: Bir VM’de Power BI Rapor Sunucusunu keşfedin'
 description: Bu öğreticide, Power BI Rapor Sunucusu zaten yüklüyken bir sanal makine oluşturacak ve web portalını keşfedeceksiniz.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021617"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859247"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Öğretici: VM’de Power BI Rapor Sunucusu web portalını keşfetme
 Bu öğreticide, örnek Power BI ve sayfalandırılmış raporları görüntüleme, düzenleme ve yönetme işlemlerini yapabilmek için Power BI Rapor Sunucusu zaten yüklüyken bir Azure sanal makinesi oluşturacaksınız.
@@ -72,7 +71,7 @@ Neyse ki, Power BI ekibi Power BI Rapor Sunucusunun zaten yüklü olduğu bir VM
 
 ## <a name="connect-to-your-virtual-machine"></a>Sanal makinenize bağlanma
 
-1. Azure sol gezinti bölmesinde **Sanal makineler**’i seçin. 
+1. Azure gezinti bölmesinde **Sanal makineler**’i seçin. 
 
 2. **Ada göre filtrele** kutusuna "report" yazın. 
 
@@ -108,7 +107,7 @@ Sanal makineniz açıldığında masaüstünde aşağıdaki öğeleri görürsü
 |![4 Numara](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Rapor Sunucusu web portalını tarayıcıda açar |
 |![5 Numara](media/tutorial-explore-report-server-web-portal/number-5.png) | Sayfalandırılmış (.RDL) raporlar oluşturmak için SQL Server Veri Araçları’nı başlatır |
 
-**Rapor Sunucusu Web Portalı** simgesine çift tıklayın. Tarayıcıda `http://localhost/reports/browse` sayfası açılır. Web portalında türe göre gruplandırılmış çeşitli dosyalar görürsünüz. 
+**Rapor Sunucusu Web Portalı** simgesine çift tıklayın. Tarayıcıda `https://localhost/reports/browse` sayfası açılır. Web portalında türe göre gruplandırılmış çeşitli dosyalar görürsünüz. 
 
 ![Power BI Rapor Sunucusu web portalı](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

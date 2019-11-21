@@ -2,7 +2,6 @@
 title: Power BI hizmeti ile çalışmaya başlama
 description: Power BI çevrimiçi hizmeti (app.powerbi.com) ile çalışmaya başlama
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060389"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872318"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Öğretici: Power BI hizmeti ile çalışmaya başlama
 Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](fundamentals/power-bi-overview.md) makalesini okumanızı öneririz.
@@ -35,7 +34,7 @@ Bu öğreticide aşağıdaki adımları tamamlarsınız:
 > * Veri kümesini, raporu ve panoyu silerek kaynakları temizleyin.
 
 > [!TIP]
-> Bunun yerine kendi kendinize ilerleyebileceğiniz ücretsiz bir eğitim almayı mı tercih edersiniz? [EdX'teki Analyzing and Visualizing Data (Verileri Çözümleme ve Görselleştirme) kursumuza kaydolun](http://aka.ms/edxpbi).
+> Bunun yerine kendi kendinize ilerleyebileceğiniz ücretsiz bir eğitim almayı mı tercih edersiniz? [EdX'teki Analyzing and Visualizing Data (Verileri Çözümleme ve Görselleştirme) kursumuza kaydolun](https://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI hizmetine kaydolma
 Bir Power BI hesabınız yoksa, başlamadan önce [ücretsiz Power BI Pro deneme sürümüne kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
@@ -46,10 +45,10 @@ Bir hesap oluşturduktan sonra, Power BI hizmetini açmak için tarayıcınızda
 
 Genellikle Power BI bir raporu oluşturmak istediğinizde çalışmaya Power BI Desktop’ta başlarsınız. Bu kez, Power BI hizmetinde bir rapor oluşturmaya sıfırdan başlayacağız.
 
-Bu öğreticide, verileri bir CSV dosyasından alacağız. Birlikte ilerlemek ister misiniz? [Financial Sample CSV dosyasını indirin](http://go.microsoft.com/fwlink/?LinkID=521962).
+Bu öğreticide, verileri bir CSV dosyasından alacağız. Birlikte ilerlemek ister misiniz? [Financial Sample CSV dosyasını indirin](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Power BI'da oturum açın](http://www.powerbi.com/). Hesabınız yok mu? Endişelenmeyin, ücretsiz denemeye kaydolabilirsiniz.
-2. Power BI, tarayıcınızda açılır. Sol gezinti çubuğunun alt kısmında bulunan **Veri al**'ı seçin.
+1. [Power BI'da oturum açın](https://www.powerbi.com/). Hesabınız yok mu? Endişelenmeyin, ücretsiz denemeye kaydolabilirsiniz.
+2. Power BI, tarayıcınızda açılır. Gezinti bölmesinin alt kısmında bulunan **Veri al**'ı seçin.
 
     **Veri Al** sayfası açılır.   
 
@@ -73,7 +72,7 @@ Bu öğreticide, verileri bir CSV dosyasından alacağız. Birlikte ilerlemek is
 
     ![Boş rapor tuvali](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Üst gezinti çubuğunda **Okuma görünümü** için bir seçenek olduğuna dikkat edin. Bu seçeneğe sahip olmanız şu anda Düzenleme görünümünde olduğunuz anlamına gelir. Rapor düzenleyicisi ile ilgili bilgi edinmenin en iyi yollarından biri de [tura katılmaktır](service-the-report-editor-take-a-tour.md).
+7. Üst gezinti bölmesinde **Okuma görünümü** için bir seçenek olduğuna dikkat edin. Bu seçeneğe sahip olmanız şu anda Düzenleme görünümünde olduğunuz anlamına gelir. Rapor düzenleyicisi ile ilgili bilgi edinmenin en iyi yollarından biri de [tura katılmaktır](service-the-report-editor-take-a-tour.md).
 
     ![Okuma görünümü seçeneği](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Verilere bağlandığınıza göre keşfetmeye başlayabilirsiniz.  İlginizi ç
    
 8. Rapora geri dönmek için panonuzdaki yeni kutucuğu seçin. Power BI, raporu Okuma görünümü'nde açar. 
 
-1. Düzenleme görünümüne geri dönmek için üst gezin çubuğu > **Düzenle** menüsünde **Diğer seçenekler**’i (...) seçin. Düzen görünümü'ne döndükten sonra kutucukları keşfetmeye ve sabitlemeye devam edebilirsiniz.
+1. Düzenleme görünümüne geri dönmek için üst gezinti bölmesinde **Diğer seçenekler** (...) > **Düzenle**’yi seçin. Düzen görünümü'ne döndükten sonra kutucukları keşfetmeye ve sabitlemeye devam edebilirsiniz.
 
     ![Raporu düzenlemek için Düzenle’yi seçin](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>3\. Adım: Soru-Cevap ile araştırma
 
-Verilerinizi hızla araştırmak için Soru-Cevap soru kutusunda soru sormayı deneyin. Soru-Cevap, verileriniz hakkında doğal dil sorguları oluşturur. Bir panoda Soru-Cevap kutusu en üst kısımdadır (**Verileriniz hakkında soru sorun**). Bir raporda, üst gezinti çubuğunda bulunur (**Bir soru sorun**).
+Verilerinizi hızla araştırmak için Soru-Cevap soru kutusunda soru sormayı deneyin. Soru-Cevap, verileriniz hakkında doğal dil sorguları oluşturur. Bir panoda Soru-Cevap kutusu en üst kısımdadır (**Verileriniz hakkında soru sorun**). Bir raporda, üst gezinti bölmesinde bulunur (**Bir soru sorun**).
 
 1. Panoya geri dönmek için siyah **Power BI** çubuğunda **Çalışma alanım**’ı seçin.
 
@@ -198,7 +197,7 @@ Kendi panolarınızı ve raporlarınızı oluşturmaya başlamadan önce, görme
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
 Öğreticiyi bitirdiğinize göre şimdi veri kümesini, raporu ve panoyu silebilirsiniz. 
 
-1. Sol gezinti çubuğunda, **Çalışma Alanım**’da olduğunuzdan emin olun.
+1. Gezinti bölmesinde, **Çalışma Alanım** sayfasında olduğunuzdan emin olun.
 2. **Veri Kümeleri** sekmesini seçin ve bu öğretici için içeri aktardığınız veri kümesini bulun.  
 3. **Diğer seçenekler** (...) > **Sil**’i seçin.
 

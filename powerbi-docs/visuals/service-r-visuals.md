@@ -1,23 +1,25 @@
 ---
 title: R betiklerini kullanarak gelişmiş analizler ve görselleştirmeler oluşturma
-description: Gelişmiş analizler ve görselleştirmeler oluşturmak için Power BI'da R betiklerini kullanma
+description: Gelişmiş analizler ve görselleştirmeler oluşturmak için Power BI Desktop'ta R betiklerini kullanma
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655019"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099835"
 ---
-# <a name="creating-r-visuals-in-the-power-bi-service"></a>Power BI hizmetinde R görselleri oluşturma
+# <a name="r-visuals-in-power-bi"></a>Power BI’daki R görselleri
+R görselleri şu anda yalnızca **Power BI Desktop**'ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../desktop-r-visuals.md).
+
+## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI hizmetinde R görselleri görüntüleme
 Power BI hizmeti, R betikleriyle oluşturulan görselleri görüntülemeyi ve bu görsellerle etkileşim kurmayı destekler. R betikleriyle oluşturulan ve genellikle *R görselleri* olarak adlandırılan görseller, R'ın zengin analizlerini ve görselleştirme gücünü kullanarak tahmin etme özelliği gibi gelişmiş veri şekillendirme özellikleri ve analizler sunabilir.
 
 > [!NOTE]
@@ -27,23 +29,23 @@ Power BI hizmeti, R betikleriyle oluşturulan görselleri görüntülemeyi ve bu
 
 Aşağıdaki görüntüde, gelişmiş analizler için kullanılan bir R görseli koleksiyonu içeren bir Power BI panosu gösterilmektedir.
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Power BI hizmeti rapor tuvalinin ekran görüntüsü](media/service-r-visuals/power-bi-r-visuals.png)
 
 R görselleri, aşağıdaki görüntüde gösterilen rapora benzer bir [Power BI Desktop raporunda](../desktop-get-the-desktop.md) oluşturulur.
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![İki görsele sahip Desktop raporu](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-Rapor **Power BI Desktop**'ta oluşturulduktan sonra, bir veya daha fazla R görseli içeren raporunuzu Power BI hizmetinde yayımlayabilirsiniz. R görselleri şu anda yalnızca **Power BI Desktop**’ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [CR programlama dilini kullanarak Power BI görselleri oluşturma (Power BI Desktop)](../desktop-r-visuals.md).
+Rapor **Power BI Desktop**'ta oluşturulduktan sonra, bir veya daha fazla R görseli içeren raporunuzu Power BI hizmetinde yayımlayabilirsiniz. 
 
-Hizmette R paketlerinin tümünün desteklenmediğini unutmayın. Şu anda Power BI hizmetinde desteklenen paketlerin listesi için, bu makalenin sonunda bulunan desteklenen paketler bölümüne bakın.
+ Hizmette R paketlerinin tümü desteklenmiyor. Şu anda Power BI hizmetinde desteklenen paketlerin listesi için, bu makalenin sonunda bulunan desteklenen paketler bölümüne bakın.
 
-Nasıl çalıştığını görmek ve kullanmayı denemek için birkaç R görseli içeren bu [örnek Power BI Desktop dosyasını](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix dosyası) indirebilirsiniz.
+Nasıl çalıştığını görmek ve kullanmayı denemek için birkaç R görseli içeren bu [örnek Power BI Desktop dosyasını](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (.pbix dosyası) indirebilirsiniz.
 
 **Power BI Desktop**'ta oluşturulan ve ardından Power BI hizmetinde yayımlanan R görselleri çoğunlukla Power BI hizmetindeki diğer görseller gibi çalışır; R görselleri ile etkileşim kurabilir, bu görsellere filtre uygulayabilir, görselleri bir panoya sabitleyebilir veya başkalarıyla paylaşabilirsiniz. Pano ve görsel paylaşma hakkında daha fazla bilgi için bkz. [panoları iş arkadaşlarınızla ve diğer kişilerle paylaşma](../service-share-dashboards.md). R görsellerinin diğer görsellerden farkı, araç ipuçlarını gösterememesi ve diğer görsellere filtre uygulamak için kullanılamamasıdır.
 
 Aşağıdaki görüntüde görebileceğiniz gibi, Power BI hizmetindeki R görselleri, hem panolarda hem de raporlarda büyük ölçüde diğer görseller gibi görünüp bu şekilde davranır ve kullanıcıların, görseli oluşturan, temel alınan R betiğini bilmeleri gerekmez.
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![Power BI hizmetindeki rapor sayfasının ekran görüntüsü](media/service-r-visuals/power-bi-r-visual.png)
 
 ## <a name="r-scripts-security"></a>R betiklerinin güvenliği
 R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R betiklerinden oluşturulur.
@@ -57,14 +59,14 @@ Bu *korumalı alan* yaklaşımı, Power BI hizmetinde çalıştırılan R betikl
 ## <a name="r-scripts-error-experience"></a>R betik hatası deneyimi
 Bir R betiği hatayla karşılaştığında R görseli çizilmez ve bir hata iletisi görüntülenir. Hata hakkında ayrıntılı bilgi için, aşağıdaki görüntüde gösterilen şekilde, tuvaldeki R görseli hatasında **Ayrıntılara göz atın** seçeneğini belirleyin.
 
-![](media/service-r-visuals/r-visuals-service_4.png)
+![hata iletisi](media/service-r-visuals/r-visuals-service-4.png)
 
 Başka bir örnek olarak, aşağıdaki görüntüde, Azure'da bir R paketinin eksik olması nedeniyle R betiği çalıştırılamadığında görünen hata iletisi gösterilmektedir.
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![Çalışma zamanı hatasını gösteren ekran görüntüsü](media/service-r-visuals/r-visuals-service-5.png)
 
 ## <a name="licensing"></a>Lisanslama
-R görselleri için raporlarda işleme, yenileme, filtre uygulama ve çapraz filtre özelliklerine yönelik olarak [Power BI Pro](../service-self-service-signup-for-power-bi.md) lisansı gerekir. Power BI Pro lisansları ve bunların ücretsiz lisanslardan farkı hakkında daha fazla bilgi edinmek için bkz. [Power BI Pro içeriği nedir?](../service-admin-purchasing-power-bi-pro.md)
+R görselleri, raporlarda işleme, yenileme, filtreleme ve çapraz filtreleme yapmak için [Power BI Pro](../service-self-service-signup-for-power-bi.md) lisansı gerektirir. Power BI Pro lisansları ve bunların ücretsiz lisanslardan farkı hakkında daha fazla bilgi edinmek için bkz. [Power BI Pro içeriği nedir?](../service-admin-purchasing-power-bi-pro.md)
 
 Power BI’ın ücretsiz kullanıcıları, Premium çalışma alanlarında yalnızca kendileriyle paylaşılan kutucukları kullanabilir. Daha fazla bilgi için bkz. [Power BI Pro'yu satın alma](../service-admin-purchasing-power-bi-pro.md).
 
@@ -83,7 +85,7 @@ Pro lisansı ile **yönetilen kiracı**     |   Destekleniyor      | Destekleniy
 ## <a name="known-limitations"></a>Bilinen Sınırlamalar
 Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
 
-* R görseli desteği, şu sayfada belirtilen paketlerle sınırlıdır <make this a link to the supported packages page per my excel>. Şu anda özel paketler için destek bulunmamaktadır.
+* R görselleri desteği, [Hangi R paketlerinin desteklendiğini öğrenin](../service-r-packages-support.md) konusunda tanımlanan paketlerle sınırlıdır. Şu anda özel paketler için destek bulunmamaktadır.
 * Veri boyutu sınırlamaları: R görseli tarafından çizim için kullanılan veri 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
 * Hesaplama süresi sınırlaması: Bir R görseli hesaplaması 60 saniyeden uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
 * R görselleri; veri güncelleştirmeleri, filtre uygulama ve vurgulama işlemleri ardından yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve araç ipuçlarını desteklemez.
@@ -92,7 +94,7 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
 * R Görselleri **Web'de yayımla** özelliği kullanılırken görüntülenmez.
 * R görselleri şu anda pano ve rapor yazdırma özelliğiyle yazdırılamaz
 * R görselleri şu anda Analysis Services'in DirectQuery modunda desteklenmemektedir
-* Çince, Japonca ve Korece yazı tiplerinin Power BI hizmetinde düzgün çalışması için şu ek adımları izlemeniz gerekir:
+* Çince, Japonca ve Korece yazı tiplerinin Power BI hizmetinde düzgün çalışması için şu ek adımların tümünü izlemeniz gerekir:
   
   * İlk olarak, *showtext* R paketini ve tüm bağımlılıklarını yükleyin. Bunu, şu betiği çalıştırarak da yapabilirsiniz:
     
@@ -102,7 +104,7 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
         powerbi_rEnableShowTextForCJKLanguages =  1
 
 ## <a name="overview-of-r-packages"></a>R paketlerine genel bakış
-R paketleri, iyi tanımlanmış bir biçimde bir araya getirilen R işlevlerinden, verilerden ve derlenmiş kodlardan oluşan koleksiyonlardır. R yüklendiğinde, standart bir paket kümesi ile birlikte gelir. Diğer paketleri ise ayrı olarak indirebilir ve yükleyebilirsiniz. Yükleme işleminin ardından kullanılabilmesi için R paketleri oturuma da yüklenmelidir. Ücretsiz R paketlerinin birincil kaynağı, açılımı [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html) olan CRAN'dir.
+R paketleri, iyi tanımlanmış bir biçimde bir araya getirilen R işlevlerinden, verilerden ve derlenmiş kodlardan oluşan koleksiyonlardır. R yüklendiğinde, standart bir paket kümesi ile birlikte gelir. Diğer paketleri ise ayrı olarak indirebilir ve yükleyebilirsiniz. Yükleme işleminin ardından kullanılabilmesi için R paketleri oturuma yüklenmelidir. Ücretsiz R paketlerinin birincil kaynağı, açılımı [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html) olan CRAN'dir.
 
 **Power BI Desktop** her tür R paketini sınırlama olmaksızın kullanabilir. R paketlerini **Power BI Desktop**'ta kullanmak üzere kendiniz yükleyebilirsiniz (örneğin, [RStudio IDE](https://www.rstudio.com/) kullanarak).
 

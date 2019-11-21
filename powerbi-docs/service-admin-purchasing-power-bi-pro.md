@@ -2,7 +2,6 @@
 title: Power BI Pro lisanslarını satın alma ve atama
 description: Kullanıcılarınızın Power BI hizmetindeki içeriğe erişebilmesi ve iş arkadaşlarıyla işbirliği yapabilmesi için Power BI Pro lisansları satın alma ve atama hakkında bilgi edinin.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 72a158e2dca32d2199fcd48e2cc37bf4c90778ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431395"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873533"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
@@ -37,7 +36,7 @@ Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için ş
 
 1. [Microsoft 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
 
-2. Sol gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
+2. Gezinti bölmesinde **Faturalama** > **Abonelikler**'i seçin.
 
     ![Gezinti bölmesi](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
 
@@ -75,7 +74,7 @@ Bireysel kullanıcı hesaplarına Power BI Pro lisansları atamak için şu adı
 
 1. [Microsoft 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
 
-2. Sol gezinti bölmesinde **Kullanıcılar**’ı genişletin ve sonra **Etkin kullanıcılar**’ı seçin.
+2. Gezinti bölmesinde **Kullanıcılar**’ı genişletin ve sonra **Etkin kullanıcılar**’ı seçin.
 
     ![Etkin kullanıcılar](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
 
@@ -97,7 +96,7 @@ Bireysel kullanıcı hesaplarına Power BI Pro lisansları atamak için şu adı
 
 1. [Azure portalını](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0) açın.
 
-2. Sol gezinti çubuğunda **Azure Active Directory**'yi seçin.
+2. Gezinti bölmesinde **Azure Active Directory**'yi seçin.
 
     ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
 

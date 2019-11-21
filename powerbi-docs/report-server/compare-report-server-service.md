@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431456"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128276"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -27,7 +26,7 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 |---------|---------|---------|---------|
 | Dağıtım | Şirket içi veya barındırılan bulut | Bulut | Power BI Rapor Sunucusu, Power BI Premium lisansına sahipse Azure VM’lerde (barındırılan bulur) dağıtılabilir |
 | Kaynak verileri | Bulut ve/veya şirket içi | Bulut ve/veya şirket içi |  |
-| Lisans | Power BI Premium veya Yazılım Güvencesi ile SQL Server EE | Power BI Pro ve/veya Power BI Premium | |  
+| Lisans | Power BI Premium veya Yazılım Güvencesi (SA) ile SQL Server EE | Power BI Pro ve/veya Power BI Premium | |  
 | Yaşam Döngüsü | Modern yaşam döngüsü ilkesi | Tam olarak yönetilen hizmet |  |
 | Yayın döngüsü | Yılda üç kez (Ocak, Mayıs, Eylül) | Ayda bir kez | En son özellikler ve düzeltmeler ilk önce Power BI Hizmetine gelir. Çoğu temel işlevsellik, önümüzdeki birkaç yayında Power BI Rapor Sunucusuna gelecektir; bazı özellikler yalnızca Power BI hizmetine yöneliktir. |
 | Power BI Desktop'ta Power BI raporları oluşturma | Evet | Evet |  |
@@ -52,9 +51,9 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Gelişmiş Office 365 işbirliği | Hayır | Evet | Office 365 ile [bir çalışma alanında işbirliği yapma](../service-collaborate-power-bi-workspace.md) |
 | R görselleri | Hayır | Evet | Power BI Desktop'ta [R görselleri oluşturma](../desktop-r-visuals.md) ve bunları Power BI hizmetine yayımlama. R görseli içeren Power BI raporlarını Power BI Rapor Sunucusu'na kaydedemezsiniz.  |
 | Önizleme özellikleri | Hayır | Evet | [Power BI hizmetinin önizleme özelliklerini kullanma](../consumer/end-user-preview-features.md) |
-| Özel görseller | Evet | Evet | [Power BI'daki özel görseller](../power-bi-custom-visuals.md) |
+| Özel görseller | Evet | Evet | [Power BI'daki özel görseller](../developer/power-bi-custom-visuals.md) |
 | Bileşik modeller | Hayır | Evet |
-| Power BI Desktop | Rapor Sunucusu için en iyi duruma getirilmiş sürüm, Rapor Sunucusu ile birlikte indirilebilir | Power BI Hizmeti için en iyi duruma getirilmiş sürüm, Microsoft Store’dan indirilebilir | [Rapor sunucusu için Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI hizmeti için Power BI Desktop](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Rapor Sunucusu için en iyi duruma getirilmiş sürüm, Rapor Sunucusu ile birlikte indirilebilir | Power BI Hizmeti için en iyi duruma getirilmiş sürüm, Microsoft Store’dan indirilebilir | [Rapor sunucusu için Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI hizmeti için Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

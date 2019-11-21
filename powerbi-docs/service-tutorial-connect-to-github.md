@@ -2,7 +2,6 @@
 title: 'Öğretici: Power BI ile bir GitHub deposuna bağlanma'
 description: Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020008"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871270"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Öğretici: Power BI ile bir GitHub deposuna bağlanma
 Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şunlar gibi soruların cevaplarını görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer sorular. 
@@ -45,7 +44,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
 ## <a name="how-to-connect"></a>Bağlanma
 1. Power BI hizmetinde (https://app.powerbi.com) ) oturum açın. 
-2. Sol gezinti bölmesinde **Uygulamalar**’ı ve sonra **Uygulamaları al**’ı seçin.
+2. Gezinti bölmesinde **Uygulamalar** seçeneğini ve ardından **Uygulamaları edinin** seçeneğini belirleyin.
    
    ![Power BI Get uygulamaları](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
    Şimdi Power BI, GitHub ile bağlantı kurup verilere bağlanabilir.  Veriler, günde bir kez yenilenir.
 
 8. Power BI verileri içeri aktardıktan sonra yeni GitHub çalışma alanınızın içeriklerini görürsünüz. 
-9. Sol gezinti çubuğunda çalışma alanı adının yanındaki oku seçin. Çalışma alanının bir pano ve rapor içerdiğini görürsünüz. 
+9. Gezinti bölmesinde çalışma alanı adının yanındaki oku seçin. Çalışma alanının bir pano ve rapor içerdiğini görürsünüz. 
 
-    ![Sol gezinti bölmesindeki uygulama](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![Gezinti bölmesindeki uygulama](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. Pano adının yanındaki **Diğer seçenekler** (...) > **Yeniden adlandır**’ı seçin ve **GitHub panosu** yazın.
  
     ![Power BI GitHub kutucuğu](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. Daha fazla alan kazanmak için genel gezinti simgesini seçerek sol gezinti bölmesini simge durumuna küçültün.
+8. Daha fazla alan kazanmak için genel gezinti simgesini seçerek gezinti bölmesini simge durumuna küçültün.
 
     ![Genel gezinti simgesi](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
 Öğreticiyi bitirdiğinize göre şimdi GitHub uygulamasını silebilirsiniz. 
 
-1. Sol gezinti çubuğundan **Uygulamalar**’ı seçin.
+1. Gezinti bölmesinde **Uygulamalar**’ı seçin.
 2. İmleci GitHub kutucuğunun üzerine getirin ve **Sil** çöp kutusunu seçin.
 
     ![GitHub uygulamasını silme](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

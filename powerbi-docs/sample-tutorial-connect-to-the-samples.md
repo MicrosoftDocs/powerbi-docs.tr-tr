@@ -2,7 +2,6 @@
 title: Power BI hizmetindeki örneklere bağlanma
 description: Power BI hizmetindeki örnekleri yüklemeyi ve keşfetmeyi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020621"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873843"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
 
@@ -38,11 +37,11 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, bkz. [Power BI için P
 
     Power BI Pro lisansınız yoksa örneği Çalışma Alanım alanınıza kaydedebilirsiniz.
 
-2. Sol gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. 
+2. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin. 
 
    ![Veri Al’ı seçme](media/sample-datasets/power-bi-get-data.png)
 
-   **Veri Al** seçeneğini görmüyorsanız, bölmenin en üstünde bulunan aşağıdaki simgeyi seçerek gezinti bölmesini genişletin: ![hamburger simgesi](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
+   **Veri Al** seçeneğini görmüyorsanız, bölmenin en üstünde bulunan şu simgeyi seçerek gezinti bölmesini genişletin: ![hamburger simgesi](media/sample-tutorial-connect-to-the-samples/expand-nav.png).
 
 5. Görüntülenen **Veri Al** sayfasında **Örnekler**'i seçin.
    
@@ -100,7 +99,7 @@ Bu içerik paketine ve senaryosuna aşina olmanız için, bkz. [Power BI için P
 
 Power BI hizmetinde rapor düzenlemekten farklı olarak, Power BI Desktop'ı kullanırken sorgularla çalışabilir ve verilerinizin raporlarınızdaki en etkileyici içgörüleri desteklediğinden emin olmak için verilerinizi modelleyebilirsiniz. Ardından, Power BI Desktop dosyanızı dilediğiniz yere (ister yerel sürücünüze ister buluta) kaydedebilirsiniz.
 
-1. [Perakende Analizi örnek .pbix dosyasını](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) indirin ve Power BI Desktop’ta açın. 
+1. [Perakende Analizi örnek .pbix dosyasını](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) indirin ve Power BI Desktop’ta açın. 
 
     ![Power BI rapor görünümünde örnek](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Daha fazla bilgi için bkz.
 - [Power BI hizmeti için örnekler](sample-datasets.md)
 - [Power BI için veri kaynakları](service-get-data.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

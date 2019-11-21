@@ -2,7 +2,6 @@
 title: Power BI’a veri akışı olarak bir CDM klasörü ekleme
 description: Bir çalışma alanını, veri akışı tanımını ve veri dosyalarını Azure Data Lake Storage 2. Nesil içinde depolayacak şekilde yapılandırın
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432031"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872707"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -33,7 +32,7 @@ Aşağıdaki bölümlerde bir CDM klasöründen veri akışı oluşturma işlemi
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM klasöründen veri akışı oluşturma
 
-CDM klasöründen veri akışı oluşturmaya başlamak için **Power BI hizmetini** başlatın ve sol gezinti bölmesinden bir **çalışma alanı** seçin. İçinde yeni veri akışı oluşturabileceğiniz yeni bir çalışma alanı da oluşturabilirsiniz.
+CDM klasöründen veri akışı oluşturmaya başlamak için **Power BI hizmetini** başlatın ve gezinti bölmesinden bir **çalışma alanı** seçin. İçinde yeni veri akışı oluşturabileceğiniz yeni bir çalışma alanı da oluşturabilirsiniz.
 
 ![Power BI hizmetinde veri akışı oluşturma](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuy
 * [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Ayrıca her zaman [Power BI Topluluğuna soru sormayı](http://community.powerbi.com/) deneyebilirsiniz.
+Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.
 

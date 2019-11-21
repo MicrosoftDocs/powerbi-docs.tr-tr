@@ -3,7 +3,6 @@ title: SharePoint Online'da rapor web bölümüyle ekleme
 description: Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431892"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881900"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
 
@@ -123,7 +122,7 @@ SharePoint Online’ın web bölümü için Power BI’da düzenleyebileceğiniz
 | --- | --- |
 | Sayfa adı |Web bölümünün varsayılan sayfasını ayarlar. Açılan listeden bir değer seçin. Herhangi bir sayfa görüntülenmiyorsa raporunuzda tek sayfa vardır veya yapıştırdığınız URL bir sayfa adı içeriyordur. Belirli bir sayfayı seçmek için URL'deki rapor bölümünü kaldırın. |
 | Göster |Raporun SharePoint Online sayfasına nasıl yerleştirileceğini ayarlar. |
-| Gezinti Bölmesini Göster |Gezinti bölmesini gösterir veya gizler. |
+| Gezinti Bölmesini Göster |Sayfa gezinti bölmesini gösterir veya gizler. |
 | Filtre Bölmesini Göster |Filtre bölmesini gösterir veya gizler. |
 
 ## <a name="reports-that-do-not-load"></a>Yüklenmeyen raporlar
@@ -173,4 +172,4 @@ SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisan
 * [Power BI Premium nedir?](service-premium-what-is.md)
 * [Raporu güvenli bir portala veya web sitesine ekleme](service-embed-secure.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

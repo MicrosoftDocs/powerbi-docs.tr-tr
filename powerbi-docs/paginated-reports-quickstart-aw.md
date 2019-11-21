@@ -3,18 +3,17 @@ title: 'Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI 
 description: Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Rapor Oluşturucusu'ndaki sihirbazı kullanarak sayfalandırılmış bir rapor oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431678"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875424"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
 
@@ -287,7 +286,7 @@ Raporu Power BI hizmetinde yayımlamadan önce bir biçimlendirme geliştirmesi 
 
 Bu sayfalandırılmış raporu oluşturduğunuza göre, artık raporu Power BI hizmetine yükleyebilirsiniz.
 
-1. Power BI hizmetindeki (http://app.powerbi.com) sol gezintide, **Çalışma alanları** > **Çalışma alanı oluştur**'u seçin.
+1. Power BI hizmetinde (gezinti bölmesindeki https://app.powerbi.com) ) **Çalışma alanları** > **Çalışma alanı oluştur**'u seçin.
 
 2. Çalışma alanınızı **Azure AW** olarak adlandırın (veya başka bir benzersiz ad kullanın). Şimdilik tek üye sizsiniz. 
 

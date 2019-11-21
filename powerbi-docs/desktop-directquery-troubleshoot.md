@@ -2,19 +2,18 @@
 title: Power BI Desktop’ta DirectQuery modeli sorunlarını giderme
 description: DirectQuery modeli ile ilgili sorunları giderin.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73433349"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868059"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli sorunlarını giderme
 
@@ -92,7 +91,7 @@ Olası bir performans sorununun tanılanmasına yardımcı olmak üzere izleme d
 - Önceki bir bölümde açıklanan şekilde, SQL Server Profiler'ı açın ve izleme dosyasını inceleyin. Power BI Desktop'ı kapattığınızda izleme dosyasının silineceğini unutmayın. Ayrıca, Power BI Desktop'ta yapılan ek eylemler hemen görünmez. Yeni olayların görünmesi için izleme dosyasının kapatılıp yeniden açılması gerekir.
 - İzleme dosyasının kolayca yorumlanabilmesi için tek tek oturumları makul şekilde kısa (yüzlerce değil 10 saniyelik eylemler) tutun (izleme dosyasının boyutunda sınır olduğundan, uzun oturumlarda erken gerçekleşen olayların bırakılma riski olur).
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Power BI Desktop tarafından gönderilen sorgu biçimini anlama
+## <a name="understand-queries-sent-to-the-source"></a>Kaynağa gönderilen sorguları anlama
 
 Power BI Desktop tarafından oluşturulan ve gönderilen sorguların genel biçimi, başvurulan model tablolarının her biri için alt sorgular kullanır ve bunlarda alt sorgu, Power Query sorgusu ile tanımlanır. Örneğin, aşağıdaki TPC-DS tablolarının SQL Server ilişkisel veritabanında olduğunu varsayalım:
 

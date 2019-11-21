@@ -2,26 +2,25 @@
 title: Power BI'daki görselleştirme türleri
 description: Power BI'daki görselleştirme türleri
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775959"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099923"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
 Yeni görselleştirmeler ekleyeceğiz, takipte kalın!
 
-İndirip pano ve raporlarınızda kullanabileceğiniz [özel görsellerin](../power-bi-custom-visuals.md) bulunduğu [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)'a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/office-store.md).  
+İndirip pano ve raporlarınızda kullanabileceğiniz [özel görsellerin](../developer/power-bi-custom-visuals.md) bulunduğu [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)'a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI'da kullanılabilen görselleştirmelerin listesi
 Tüm bu görselleştirmeler Power BI raporlarına eklenebilir, Soru-Cevap'ta belirtilebilir ve panolara sabitlenebilir.
@@ -226,8 +225,8 @@ Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken s
 
 "***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Belirtilen görselleştirme türünü gösteren Soru-Cevap soru kutusu](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)    
-[Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

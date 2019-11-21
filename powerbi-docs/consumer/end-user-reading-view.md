@@ -4,7 +4,6 @@ description: Bu hızlı başlangıçta **tüketiciler** Power BI, uygulamalar, r
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019588"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862685"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
 Bu hızlı başlangıçta Power BI ile etkileşim kurarak veri temelli iş içgörülerini keşfetmeyi öğreneceksiniz. Bu makalede ayrıntılı bilgiler yerine Power BI **tüketicileri** için sunulan eylemlerin bazılarıyla ilgili kısa bilgiler verilmektedir.
@@ -50,7 +49,7 @@ Power BI’da "içerik" terimini kullandığımızda raporlardan, panolardan ve 
 
 *Uygulama*, ilgili panoları ve raporları bir araya getiren bir Power BI içerik türüdür. Bir uygulamada bir veya daha fazla pano ve bir veya daha fazla rapor bir arada bulunabilir. Uygulamalar Power BI *tasarımcıları* tarafından oluşturulur ve sizin gibi *tüketicilere* dağıtılarak paylaşılır. 
 
-Uygulamalarınızı görüntülemenin bir yolu gezinti çubuğundan **Uygulamalar**’ı seçmek ve açılacak uygulamayı belirtmektir.
+Uygulamalarınızı görüntülemenin bir yolu gezinti bölmesinden **Uygulamalar**’ı seçmek ve açılacak uygulamayı belirlemektir.
 
 ![Uygulama edinin simgesi](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Görseller veri noktalarından oluşur ve bir veri noktasının üzerine geldiğ
 ![ayrıntıları görmek için öğelerin üzerine gelin](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Bir panoyu sık kullanılanlara ekleme
-İçeriği *sık kullanılanlara* eklediğinizde buna gezinti çubuğundan erişebilirsiniz. Gezinti çubuğu, Power BI'ın neredeyse tüm alanlarından görünür. Sık kullanılanlar, en çok ziyaret ettiğiniz panolar, rapor sayfaları ve uygulamalardır.
+İçeriği *sık kullanılanlara* eklediğinizde buna gezinti bölmesinden erişebilirsiniz. Gezinti bölmesi, Power BI'ın neredeyse tüm alanlarından görünür. Sık kullanılanlar, en çok ziyaret ettiğiniz panolar, rapor sayfaları ve uygulamalardır.
 
 Power BI hizmetinin sağ üst köşesinde **Sık Kullan**’ı seçin veya bu seçenek görünmüyorsa **Diğer seçenekler**’i (...) ve açılır listeden **Sık Kullanılan**’ı seçin. 
    
@@ -194,9 +193,9 @@ Görseli oluştururken kullanılan verileri göstermenin yanı sıra, bu veriler
 Bu hızlı başlangıç, *tüketicilerin* Power BI hizmeti ile gerçekleştirebileceği işlemlere hızlı bir genel bakış niteliğindedir.  
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
-- Bir uygulamaya bağlandıysanız sol gezinti çubuğunda **Uygulamalar**'ı seçerek Uygulamalar içerik listesini açın. Silmek istediğiniz uygulamanın üzerine gelip çöp kutusu simgesini seçin.
+- Bir uygulamaya bağlandıysanız gezinti bölmesinden **Uygulamalar**'ı seçerek Uygulamalar içerik listesini açın. Silmek istediğiniz uygulamanın üzerine gelip çöp kutusu simgesini seçin.
 
-- Bir Power BI örnek raporunu içeri aktardıysanız veya bağlantı kurduysanız sol gezinti çubuğundan **Çalışma alanım**'ı açın. Yukarıdaki sekmeleri kullanarak panoyu, raporu ve veri kümesini bulun ve her birinin yanındaki çöp kutusu simgesini seçin.
+- Bir Power BI örnek raporunu içeri aktardıysanız veya raporla bağlantı kurduysanız gezinti bölmesinden **Çalışma alanım**'ı açın. Yukarıdaki sekmeleri kullanarak panoyu, raporu ve veri kümesini bulun ve her birinin yanındaki çöp kutusu simgesini seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Tüketiciler için Power BI](end-user-consumer.md)

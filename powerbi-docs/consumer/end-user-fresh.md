@@ -2,7 +2,6 @@
 title: Power BI içeriğinizin güncelliğini korumasını nasıl sağlar?
 description: Power BI’ın veri, rapor, pano ve uygulamanın en son sürümüyle çalışmanızı nasıl sağladığını öğrenin.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019792"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863876"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
 
@@ -43,9 +42,9 @@ Sahibin adı panolar ve raporların başlık çubuğunda bulunabilir. **Sahip** 
 
 Uygulama ekranı hem tasarımcının adını hem de uygulamanın son güncelleştirildiği tarihi gösterir.  
 
-1. Sol gezinti bölmesinde **Uygulamalar**’ı seçin.
+1. Gezinti bölmesinde **Uygulamalar**’ı seçin.
 
-    ![sol gezinti bölmesi](media/end-user-fresh/power-bi-nav-app.png)
+    ![gezinti bölmesi](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Uygulama, tasarımcısı tarafından silinirse ne olur?
 
-Tasarımcı bir uygulamayı silerse o uygulamayla ilişkilendirilmiş panolar ve raporlar da Power BI çalışma alanınızdan otomatik olarak kaldırılır. Bu seçenekler artık mevcut değildir ve uygulama, Uygulama kapsayıcısında veya gezinti çubuğunun başka bir yerinde görünmemektedir.
+Tasarımcı bir uygulamayı silerse o uygulamayla ilişkilendirilmiş panolar ve raporlar da Power BI çalışma alanınızdan otomatik olarak kaldırılır. Bu seçenekler artık mevcut değildir ve uygulama, Uygulama kapsayıcısında veya gezinti bölmesinin başka bir yerinde görünmemektedir.
 
 
 ## <a name="subscribe-to-see-changes"></a>Değişiklikleri görmek için abone olun

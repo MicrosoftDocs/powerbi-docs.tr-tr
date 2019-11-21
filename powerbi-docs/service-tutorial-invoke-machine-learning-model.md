@@ -2,7 +2,6 @@
 title: "Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)"
 description: Bu öğreticide Power BI'da bir Machine Learning Studio modelini çağıracaksınız.
 author: davidiseminger
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 368f860ed064cf3b4ff73496db1fa993fd3b716a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432214"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876958"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)
 
@@ -44,7 +43,7 @@ Power BI'dan Azure ML modeline erişmek için Azure aboneliğiyle kaynak grubu �
 
 Aşağıdaki adımlarda, modelin yayımlandığı Azure aboneliğinin ve kaynak grubunun yöneticisi olduğunuz varsayılır.
 
-[Azure portalında](https://portal.azure.com) oturum açın ve sol gezinti menüsündeki **Tüm Hizmetler** listesini kullanarak bulabileceğiniz **Abonelikler** sayfasına gidin.
+[Azure portalında](https://portal.azure.com) oturum açın ve gezinti bölmesi menüsündeki **Tüm Hizmetler** listesini kullanarak bulabileceğiniz **Abonelikler** sayfasına gidin.
 
 ![Azure portalı](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
@@ -135,7 +134,7 @@ _Automobile Price Prediction_ Azure ML modeline erişmek için, tahmini fiyatı 
 
 ![Düzenle](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_16.png)
 
-Şeritte **AI Öngörüler** düğmesini seçin ve ardından sol gezinti menüsünden _Azure Machine Learning Modelleri_ klasörünü seçin.
+Şeritte **Yapay Zeka İçgörüleri** düğmesini seçin ve ardından gezinti menüsünden _Azure Machine Learning Modelleri_ klasörünü seçin.
 
 Erişim verdiğiniz Azure ML modelleri, *AzureML.* ön ekiyle Power Query işlevleri olarak listelenir.  _AutomobilePricePrediction_ modeline karşılık gelen işleve tıkladığınızda, modelin web hizmetine ilişkin parametreler işlev parametreleri olarak listelenir.
 

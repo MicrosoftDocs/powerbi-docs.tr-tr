@@ -2,7 +2,6 @@
 title: Bir panoyu, raporu, çalışma kitabını, veri kümesini veya çalışma alanını silme
 description: Power BI'daki neredeyse tüm nesneleri silmeyi öğrenin
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431979"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872535"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -90,7 +89,7 @@ Veri kümesi bir veya daha fazla [kurumsal içerik paketinin](service-organizati
 Kendi oluşturduğunuz çalışma alanlarını silebilirsiniz. Ayrıca silme işleminin ardından ilişkili uygulama, tüm grup üyeleri için silinir ve AppSource'unuzdan kaldırılır (uygulamayı kuruluşunuzun tamamında yayımladıysanız). Bir çalışma alanını silmek, çalışma alanından ayrılmaktan farklıdır.
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Yöneticisi olduğunuz bir çalışma alanını silmek için
-1. Sol gezinti bölmesinde, **Çalışma Alanı**'nı seçin
+1. Gezinti bölmesinden **Çalışma alanları**’nı seçin
 
 2. Silmek istediğiniz çalışma alanının sağ tarafındaki **Diğer seçenekler**’i (...) ve **Çalışma alanını düzenle**’yi seçin.
 
@@ -125,7 +124,7 @@ Uygulamaları uygulama listesi sayfanızdan kolayca kaldırabilirsiniz. Ancak bi
 ### <a name="remove-an-app-from-your-app-list-page"></a>Bir uygulamayı uygulama listesi sayfanızdan kaldırma
 Uygulama listesi sayfanızdan sildiğiniz uygulamalar diğer üyeler için silinmez.
 
-1. Sol gezinti bölmesinde **Uygulamalar**'ı seçerek uygulama listesi sayfasını açın.
+1. Gezinti bölmesinde **Uygulamalar**'ı seçerek uygulama listesi sayfasını açın.
 2. Silmek istediğiniz uygulamanın üzerine gelip Sil simgesini ![](media/service-delete/power-bi-delete-report2.png) seçin.
 
    ![Uygulama seçme](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ Bu makalede Power BI hizmetinin başlıca yapı taşlarını silme yöntemleri e
 * [Bir pano kutucuğunu silme](service-dashboard-edit-tile.md)
 * [Bir rapor görselleştirmesini silme](service-delete.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

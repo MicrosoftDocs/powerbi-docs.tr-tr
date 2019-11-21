@@ -2,7 +2,6 @@
 title: Çalışma alanlarınızdaki veri depolama alanlarını yönetme
 description: Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya çalışma alanlarınızla veri depolama alanlarınızı nasıl yönetebileceğinizi öğrenin.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431374"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873649"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
 
@@ -46,7 +45,7 @@ Paylaştığınız panoların boyutları, bu panolara sabitlenmiş öğelere gö
 
 Power BI hesabınızda kullandığınız depolama alanı miktarını görün ve hesabınızı yönetin.
 
-1. Kendi depolama alanınızı yönetmek için sol gezinti bölmesinde **Çalışma Alanım** sayfasına gidin.
+1. Kendi depolama alanınızı yönetmek için gezinti bölmesinde **Çalışma Alanım**’a gidin.
    
     ![Çalışma Alanım](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Sağ üst köşedeki dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \>  **Kişisel depolama alanını yönet**'i seçin.
@@ -104,5 +103,5 @@ Bu sınır, **Kişisel depolama alanını yönet** bölümünde de belirtilir.
 
  ![Depolama sınırınızın üzerinde](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+ Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

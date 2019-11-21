@@ -2,7 +2,6 @@
 title: Panolar, raporlar ve veri kümelerinden ilgili içeriği görüntüleme
 description: Gezinme artık daha kolay; panolardaki, raporlardaki ve veri kümelerindeki ilişkili içeriği görüntüleyin
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019434"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862278"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
 
@@ -54,9 +53,9 @@ Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz.  Örneğin, 
 ## <a name="view-related-content-for-a-dataset"></a>Bir veri kümesinin ilişkili içeriğini görüntüleme
 **İlişkili içerik** bölmesini açmak için en azından bir veri kümesini *görüntüleme* izinleriniz olmalıdır. Bu örnekte [Tedarik Analizi örneğini](../sample-procurement.md) kullanıyoruz.
 
-Gezinti çubuğundan **Çalışma Alanları** başlığını ve listeden bir çalışma alanını seçin. Bir çalışma alanında içeriğiniz varsa sağdaki tuvalde görüntülenir. 
+Gezinti bölmesinden **Çalışma Alanları** başlığını bulun ve listeden bir çalışma alanı seçin. Bir çalışma alanında içeriğiniz varsa sağdaki tuvalde görüntülenir. 
 
-![sol gezinti çubuğundaki çalışma alanları](./media/end-user-related/power-bi-workspace.png)
+![gezinti bölmesindeki çalışma alanları](./media/end-user-related/power-bi-workspace.png)
 
 
 Bir çalışma alanında **Veri kümeleri** sekmesini seçin ve **İlişkilileri görüntüle** simgesini ![İlişkilileri görüntüle simgesi](./media/end-user-related/power-bi-view-related-icon-new.png) bulun.
@@ -76,5 +75,5 @@ Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz. Örneğin, a
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmeti ile çalışmaya başlama](../service-get-started.md)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+* Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Bir rapordaki görselleştirmenin türünü değiştirme
 description: Power BI hizmetinde ve Power BI Desktop'ta rapor görselleştirmesi türünü değiştirme
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f002237c7417a749506d1343fd50630852286f30
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019095"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871039"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Bir Power BI raporundaki görselleştirmenin türünü değiştirme
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+## <a name="select-a-new-visualization-type"></a>Yeni bir görselleştirme türü seçin
 
 Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI hizmetindeki ve Power BI Desktop'taki farklı görselleştirme türlerini deneyin. 
 
@@ -33,10 +34,10 @@ Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 Panonuza sabitleme işleminin ardından, raporda görselleştirmenin türünü değiştirmeniz halinde pano kutucuğu otomatik olarak güncelleştirilmez. Power BI hizmetini kullanarak görselleştirmeyi bir çizgi grafik olarak sabitledikten sonra, raporda görselleştirmenin türünü bir çubuk grafik olarak değiştirmeniz halinde ilgili verilerin sabitlenmiş sürümü bir çizgi grafik olarak kalır. Panoda da görmek istiyorsanız ilgili çubuk grafiği sabitleyin.
 
-### <a name="next-steps"></a>Sonraki adımlar
+## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md) hakkında daha fazla bilgi
 
 [Power BI - Temel Kavramlar](../consumer/end-user-basic-concepts.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

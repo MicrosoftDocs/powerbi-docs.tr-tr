@@ -3,19 +3,18 @@ title: Müşterileriniz için uygulamanıza Power BI içeriği eklemek için tü
 description: Müşterileriniz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429679"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877709"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -415,7 +414,7 @@ Adanmış kapasite oluşturduğunuzda, müşteriniz için özel olarak ayrılmı
 > [!NOTE]
 > A SKU’larla, ÜCRETSİZ Power BI lisansını kullanarak Power BI içeriğine erişemezsiniz.
 
-Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) tablosuna bakın.
+Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario) tablosuna bakın.
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | DirectQuery/Canlı Bağlantı (saniyede) | Model Yenileme Paralelliği |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -460,4 +459,4 @@ Bu öğreticide müşterileriniz için bir uygulamaya Power BI içeriği eklemey
 > [!div class="nextstepaction"]
 >[Kuruluşunuz için ekleme](embed-sample-for-your-organization.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](http://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
