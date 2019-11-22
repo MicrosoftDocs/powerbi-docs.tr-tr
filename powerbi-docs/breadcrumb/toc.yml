@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: Power BI’da R destekli Power BI görsellerini kullanma
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: Destekli Öğrenme
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
