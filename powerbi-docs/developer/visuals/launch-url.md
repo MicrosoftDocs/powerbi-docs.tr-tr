@@ -8,21 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879940"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060423"
 ---
 # <a name="create-a-launch-url"></a>Başlatma URL’si oluşturma
 
 Başlatma URL’si oluşturduğunuzda asıl çalışmayı yapması için Power BI’ı temsilci olarak atayarak yeni bir tarayıcı sekmesi (veya penceresi) açabilirsiniz.
 
+> [!IMPORTANT]
+> `host.launchUrl()`, Görseller API 1.9.0’da tanıtılmıştır.
+
 ## <a name="sample"></a>Örnek
 
+`IVisualHost` arabirimini içeri aktarın ve bağlantıyı görselin oluşturucusunun `host` nesnesine kaydedin.
+
 ```typescript
-   this.host.launchUrl('https://powerbi.microsoft.com');
+import powerbi from "powerbi-visuals-api";
+import IVisualHost = powerbi.extensibility.visual.IVisualHost;
+
+export class Visual implements IVisual {
+    private host: IVisualHost;
+    // ...
+    constructor(options: VisualConstructorOptions) {
+        // ...
+        this.host = options.host;
+        // ...
+    }
+
+    // ...
+}
 ```
 
 ## <a name="usage"></a>Kullanım

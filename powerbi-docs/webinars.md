@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880550"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060441"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -21,7 +21,13 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
+**Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**
+<br>Gayle Sheppard ve John Macintyre
+<br>[Hemen kaydolun](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
+<br>Anton Fritz ve Adi Regev
+<br>[4 Aralık'ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

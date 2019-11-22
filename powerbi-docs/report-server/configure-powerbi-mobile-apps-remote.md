@@ -1,25 +1,31 @@
 ---
-title: Bir rapor sunucusuna yönelik uzaktan iOS mobil uygulama erişimini yapılandırma
-description: Rapor sunucunuz için uzaktan iOS mobil uygulamaları yapılandırmayı öğrenin.
-author: maggiesMSFT
+title: Rapor Sunucusuna yönelik uzaktan mobil uygulama erişimini yapılandırma
+description: Rapor sunucunuz için uzaktan mobil uygulamaları yapılandırmayı öğrenin.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874199"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925872"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Uzaktan bir rapora Power BI iOS mobil uygulama erişimini yapılandırma
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma
 
-Bu makalede, kuruluşunuzun MDM aracını kullanarak bir rapor sunucusuna Power BI iOS mobil uygulama erişimini yapılandırma hakkında bilgi edineceksiniz. IT yöneticileri, bunu yapılandırmak için uygulamaya gönderilecek gerekli bilgilerle birlikte bir uygulama yapılandırma ilkesi oluşturur. 
+Aşağıdakiler cihazlar için geçerlidir:
 
- Rapor sunucusu bağlantısı zaten yapılandırıldığından Power BI iOS mobil uygulama kullanıcıları kuruluşlarının rapor sunucusuna daha kolay bir şekilde bağlanabilir. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android telefon](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+Bu makalede, kuruluşunuzun MDM aracını kullanarak Rapor Sunucusuna Power BI mobil uygulama erişimini yapılandırma hakkında bilgi edineceksiniz. IT yöneticileri, bunu yapılandırmak için uygulamaya gönderilecek gerekli bilgilerle birlikte bir uygulama yapılandırma ilkesi oluşturur. 
+
+ Rapor Sunucusu bağlantısı zaten yapılandırıldığından Power BI mobil uygulama kullanıcıları kuruluşlarının Rapor Sunucusuna daha kolay bir şekilde bağlanabilir. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>MDM aracında uygulama yapılandırma ilkesi oluşturma 
 
@@ -43,11 +49,11 @@ Intune kullanarak yapılandırma ilkesini ayarlama örneği aşağıda verilmiş
 
 ![Intune yapılandırma ayarları](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>Bir rapor sunucusuna bağlanan son kullanıcılar
+## <a name="end-users-connecting-to-report-server"></a>Rapor Sunucusuna bağlanan son kullanıcılar
 
- Uygulama yapılandırma ilkesini bir dağıtım listesi için yayımladığınızı düşünelim. Bu dağıtım listesine ait olan kullanıcılar ve cihazlar, iOS mobil uygulamasını başlattıklarında aşağıdaki deneyimi yaşarlar. 
+ Uygulama yapılandırma ilkesini bir dağıtım listesi için yayımladığınızı düşünelim. Bu dağıtım listesine ait olan kullanıcılar ve cihazlar, mobil uygulamasını başlattıklarında aşağıdaki deneyimi yaşarlar. 
 
-1. Mobil uygulamalarının bir rapor sunucusu ile yapılandırıldığına dair bir ileti görürler ve **Oturum aç**’a dokunurlar.
+1. Mobil uygulamalarının Rapor Sunucusu ile yapılandırıldığına dair bir ileti görürler ve **Oturum aç**’a dokunurlar.
 
     ![Rapor sunucusunda oturum açma](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
@@ -59,7 +65,7 @@ Intune kullanarak yapılandırma ilkesini ayarlama örneği aşağıda verilmiş
 
     ![Doldurulmuş rapor sunucusu ayrıntıları](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
-Artık KPI’leri ve rapor sunucusunda depolanmış Power BI raporlarını görüntüleyebilir ve etkileşimde bulunabilirler.
+Artık KPI’leri ve Rapor Sunucusunda depolanmış Power BI raporlarını görüntüleyebilir ve etkileşimde bulunabilirler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

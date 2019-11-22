@@ -3,18 +3,18 @@ title: Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 description: Bu konu başlığında, Power BI Sayfalandırılmış Rapor Oluşturucusu’nun rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840545"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128430"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 
@@ -40,7 +40,7 @@ Bu konu başlığında, Power BI Sayfalandırılmış Rapor Oluşturucusu’nun 
 
 Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici araç çubuğunda her parametre gösterilir, böylece değerleri etkileşimli bir şekilde belirtebilirsiniz. Aşağıdaki çizimde @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota ve @SalesDate parametreleri ile bir raporun parametre alanı gösterilmektedir.  
 
-![Parametreleri olan raporu görüntüleme](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Parametreleri olan raporu görüntüleme")
+![Parametreleri olan bir raporu görüntüleme](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Parametreleri olan bir raporu görüntüleme")
   
 1. **Parametreler bölmesi** Rapor görüntüleyici araç çubuğunda bir istem ya da her parametre için varsayılan bir değer gösterilir. Parametrelerin düzenini parametreler bölmesinde özelleştirebilirsiniz.  
   
