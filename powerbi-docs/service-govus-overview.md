@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881353"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265448"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -55,7 +55,6 @@ Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bi
 * **SharePoint Online'da ekleme** - Power BI web bölümünü kullanarak SharePoint Online’a içerik eklemek mümkün değildir. Bununla birlikte, [*Ekleme* web bölümü](https://docs.microsoft.com/power-bi/service-embed-secure) kullanıldığında güvenli ekleme çalışır. Özel durum listesine *app.powerbigov.us*'i eklemelisiniz. Bu işlem, [SharePoint sayfalarına içerik eklemeye izin verme veya bunu kısıtlama](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) makalesinde verilen yönergeler izlenerek yapılabilir.
 * **Power BI US Government**, yalnızca **Pro** lisans olarak kullanılabilir. Bir yönetim portalında (veya kullanıcılar olarak) Power BI (Ücretsiz) lisanslarına yapılan tüm başvurular, ticari bir Power BI hizmet bulutunda çalışmaktadır.
 * **Denetim** - Denetim, Haziran 2018’den itibaren Office 365 Güvenlik ve Uyumluluk portalı aracılığıyla kullanılabilir.
-* **Cortana'da Power BI içeriği**: Cortana arama sonuçlarında Power BI sonuçları gösterilmez. Buna, Power BI içeriğinizin (panolar, raporlar, uygulamalar) yanı sıra belirli anahtar sözcüklere göre, Cortana için en iyi duruma getirilmiş rapor sayfalarına ilişkin sonuçlar da dahildir.
 * **Dış kullanıcı paylaşımı** - Bir Power BI kiracısı içinde paylaşıma izin verilir; Haziran 2018 itibarıyla Power BI kiracınız dışındaki kullanıcılarla da paylaşım yapılabilir. Bkz. [Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma](service-admin-azure-ad-b2b.md).
 * **Panolar ve raporlar için kullanım ölçümleri** - Kullanım ölçümleri, raporlar ve panolar için kullanılamaz. Müşteriler, kuruluşlarındaki içeriğe ait kullanım bilgilerini almak için denetim günlüğü verilerini kullanabilir.
 * **Veri akışları** - Veri akışları kullanılamaz.
@@ -103,7 +102,7 @@ Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete
 
 * [Power BI US Government'a kaydolma](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demosu</a>
-* [Power BI için Destekli Öğrenme](guided-learning/index.md)
+* [Power BI için Destekli Öğrenme](guided-learning/index.yml)
 * [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 

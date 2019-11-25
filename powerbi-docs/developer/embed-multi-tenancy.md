@@ -1,19 +1,19 @@
 ---
 title: Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 description: Tümleşik analizle çok kiracılı bir uygulama tasarlayın.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 0456e1e56db3e291f359f266b1ac12073fb747da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2eaf712dc6042eba154896a4df2ef55010154d5b
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864418"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264988"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 

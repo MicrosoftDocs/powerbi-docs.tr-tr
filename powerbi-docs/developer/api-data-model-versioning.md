@@ -1,19 +1,19 @@
 ---
 title: Power BI veri modeli sürümü oluşturma
 description: OData Hizmeti tarafından uygulanan Veri Modeli
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 89fd2a6c1297abb1d76a30b170b901b41d630f44
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875956"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265681"
 ---
 # <a name="data-model-versioning"></a>Veri Modeli sürümü oluşturma
 

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128372"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265903"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -278,13 +278,6 @@ Rapor oluşturucular, kullanıcıların [AppSource](https://appsource.microsoft.
 
 ## <a name="integration-settings"></a>Tümleştirme ayarları
 
-### <a name="ask-questions-about-data-using-cortana"></a>Cortana'yı kullanarak veriler hakkında soru sorma
-
-Kuruluştaki kullanıcılar Cortana'yı kullanarak verileri hakkında sorular sorabilir. [Daha fazla bilgi](service-cortana-enable.md)
-
-> [!NOTE]
-> Bu ayar kuruluş genelinde geçerli olur ve belirli gruplarla sınırlanamaz.
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle Excel'de Çözümle özelliğini kullanma
 
 Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. [Daha fazla bilgi](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI için genel aramayı kullanma (Önizleme)
 
-Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerinden yararlanabilir. Örneğin, kullanıcılar Cortana’yı kullanarak Power BI panolarındaki ve raporlarındaki önemli bilgileri doğrudan alabilir. [Daha fazla bilgi](service-cortana-intro.md)
+Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerinden yararlanabilir.
 
 ## <a name="custom-visuals-settings"></a>Özel görsel ayarları
 

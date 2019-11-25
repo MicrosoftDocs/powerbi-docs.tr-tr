@@ -1,5 +1,5 @@
 ---
-title: Power BI'da Analysis Services tablolu modelindeki dinamik satır düzeyi güvenlik
+title: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 description: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 author: selvarms
 ms.reviewer: davidi
@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 09726bccdd5a0b9a88d4a2df4d5be3b902a64b8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876087"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311445"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 

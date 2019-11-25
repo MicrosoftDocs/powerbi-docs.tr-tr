@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d432f8320bfa9d1e425e7f0079407ce46b12373
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4459ae95ccd900b0592dbae1048800bcd4609307
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872285"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178243"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -73,7 +73,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete nasıl kaydolacağınızı açıklayan bir makaleyi de içeren aşağıdaki kaynaklara başvurun:
 
-* [Power BI için Destekli Öğrenme](guided-learning/index.md)
+* [Power BI için Destekli Öğrenme](guided-learning/index.yml)
 * [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 

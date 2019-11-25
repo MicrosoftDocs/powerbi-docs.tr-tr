@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099492"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310813"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -1503,7 +1503,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 ### <a name="reporting"></a>Raporlama:
 
 -   Yer işareti ekleme (önizleme) [[video]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[makale]](desktop-bookmarks.md)
--   Seçim bölmesi ve görsel görüntüleme denetimleri [[video]](https://youtu.be/jksjtR8GnBE?t=7m26s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[makale]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   Seçim bölmesi ve görsel görüntüleme denetimleri [[video]](https://youtu.be/jksjtR8GnBE?t=7m26s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[makale]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   Şekiller ve resimler için yer işareti bağlantıları [[video]](https://youtu.be/jksjtR8GnBE?t=8m54s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[makale]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   Spotlight [[video]](https://youtu.be/jksjtR8GnBE?t=5m39s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[makale]](desktop-bookmarks.md#using-spotlight)
 -   Dağılım ve Kabarcık işaretçileri  [[video]](https://youtu.be/jksjtR8GnBE?t=17m20s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[makale]](desktop-accessibility.md)

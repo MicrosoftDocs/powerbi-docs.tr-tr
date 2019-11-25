@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875130"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265863"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunu anlıyoruz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğiniz için, bu bazen güç olabilir. 
@@ -66,7 +66,6 @@ Birinci Sayfa görünümü ayarları kümesi, rapor sayfanızın tarayıcı penc
 
 * 4:3 oranı
 * 16:9 oranı (varsayılan)
-* Cortana
 * Letter
 * Özel (piksel cinsinden yükseklik ve genişlik)
 

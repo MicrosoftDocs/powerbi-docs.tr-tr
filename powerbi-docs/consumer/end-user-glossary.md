@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764713"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264849"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -34,8 +34,6 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 **alert, alerts (uyarı, uyarılar)** Kullanıcılara ayarladıkları sınırlar temelinde verilerdeki değişiklikleri bildiren özellik. Uyarılar rapor görsellerinden sabitlenen kutucuklarda ayarlanabilir. Kullanıcılar hizmetle ve mobil uygulamalarıyla ilgili uyarılar alır.
 
 **annotate (not ekleme)** iOS ve Android cihazları için Power BI mobil uygulamasında kutucukların, raporların veya görsellerin bir anlık kopyasına satırlar, metinler veya damgalar ekleme.
-
-**answer card, answer page (yanıt kartı, yanıt sayfası)** Bkz. Cortana yanıt kartı.
 
 **app, apps (uygulama, uygulamalar)** 
 
@@ -77,10 +75,6 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 **content pack (içerik paketi)** Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Şimdi **uygulamalar**, [yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) bilgi edinin. 
 
 **content view (içerik görünümü)**
-
-**Cortana answer card (Cortana yanıt kartı)** Özel Cortana yanıtları oluşturabilmek için Power BI raporuna eklenmek üzere ayrılmış rapor sayfası.
-
-**Cortana answer page (Cortana yanıt sayfası)** Müşterilere gösterilen Cortana sayfasının adı.
 
 **cross filter, cross highlight (çapraz filtre, çapraz vurgulama)**
 

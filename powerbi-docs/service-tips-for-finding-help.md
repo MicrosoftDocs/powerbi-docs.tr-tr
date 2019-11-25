@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876937"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178240"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -44,7 +44,7 @@ Video izlemek öğrenme şeklinize daha mı uygun? Power BI ilginizi çekecek ik
 ## <a name="6-attend-training"></a>6 Eğitimlere katılın
 Yüz yüze laboratuvar eğitimlerinden kısa videolara kadar neredeyse sınırsız sayıda eğitim seçeneğiniz bulunmaktadır.
 
-* Power BI sitesindeki [destekli öğrenme](guided-learning/index.md) kursu.
+* Power BI sitesindeki [destekli öğrenme](guided-learning/index.yml) kursu.
 * Power BI sitesinden canlı ve isteğe bağlı olarak sunulan [ücretsiz Power BI web seminerleri](webinars.md).
 
 Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belirtilmiştir:

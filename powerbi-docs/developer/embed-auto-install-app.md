@@ -2,18 +2,18 @@
 title: Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 description: Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yüklemeyi öğrenin.
 ms.subservice: powerbi-developer
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 5fcb71d01616d8d6f7189a1b4073f2c82ca7defa
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: df701c724f47dbf7d2ce44bb077e749fa2f9ea6f
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877743"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264923"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 
