@@ -633,7 +633,7 @@
               href: service-report-save.md
             - name: Düzenleme Görünümü’nde bir raporla etkileşim kurma
               href: service-interact-with-a-report-in-editing-view.md
-            - name: Excel'de Analiz Et
+            - name: Excel’de Analiz Et
               href: service-analyze-in-excel.md
             - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
               href: power-bi-reports-tips-and-tricks-for-creating.md
@@ -813,10 +813,6 @@
               items:
                 - name: Uygulamalarla hizmetlere bağlanma
                   href: service-connect-to-services.md
-                - name: Acumatica
-                  href: service-connect-to-acumatica.md
-                - name: Azure Denetim Günlükleri
-                  href: service-connect-to-azure-audit-logs.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -907,7 +903,9 @@
           href: report-builder-power-bi.md
     - name: Öğreticiler
       items:
-        - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme Etkileşim
+        - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
           href: paginated-reports-quickstart-aw.md
     - name: Kavramlar
       items:
