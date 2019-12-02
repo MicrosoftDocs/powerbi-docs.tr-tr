@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881771"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410857"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI, her biri kendi gereksinimlerine sahip olan birçok veri kaynağını destekler. Bir ağ geçidi tek bir veri kaynağı ya da birden çok veri kaynağı için kullanılabilir. Bu örnekte veri kaynağı olarak SQL Server'ın nasıl ekleneceğini gösteriyoruz. Adımlar diğer veri kaynaklarında da benzerdir.
+Power BI, her biri kendi gereksinimlerine sahip olan birçok [şirket içi veri kaynağını](power-bi-data-sources.md) destekler. Bir ağ geçidi tek bir veri kaynağı ya da birden çok veri kaynağı için kullanılabilir. Bu örnekte veri kaynağı olarak SQL Server'ın nasıl ekleneceğini gösteriyoruz. Adımlar diğer veri kaynaklarında da benzerdir.
 
 Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçekleştirilebilir. Daha fazla bilgi için bkz. [REST API’ler (Ağ Geçitleri)](/rest/api/power-bi/gateways).
 
@@ -117,56 +117,7 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 
 ## <a name="list-of-available-data-source-types"></a>Kullanılabilir veri kaynağı türlerinin listesi
 
-Şirket içi veri ağ geçidi, Power BI için aşağıdaki veri kaynaklarını destekler. Şirket içi veri kaynaklarının yanı sıra, bir güvenlik duvarının arkasındaki kaynaklar, VPN’ler veya sanal ağlar için de bir veri ağ geçidi gerekebilir.
-
-| **Veri kaynağı** | **Canlı/DirectQuery** | **El ile veya zamanlanmış yenileme (kullanıcı tarafından yapılandırılmış)** |
-| --- | --- | --- |
-| Amazon Redshift |Evet |Evet |
-| Analysis Services |Evet |Evet |
-| AtScale küpleri |Evet |Evet |
-| Azure Active Directory |Hayır |Evet |
-| Azure Blob depolama |Hayır |Evet |
-| Azure DevOps Server |Hayır |Evet |
-| Azure Tablo depolama |Hayır |Evet |
-| BI Bağlayıcısı |Evet |Evet |
-| Denodo |Evet |Evet |
-| Dremio |Evet |Evet |
-| EmigoDataSourceConnector |Hayır |Evet |
-| Essbase |Evet |Evet |
-| Exasol |Evet |Evet |
-| Dosya |Hayır |Evet |
-| Klasör |Hayır |Evet |
-| Paxata |Hayır |Evet |
-| IBM DB2 |Evet |Evet |
-| IBM Informix Veritabanı |Hayır |Evet |
-| IBM Netezza |Evet |Evet |
-| Impala |Evet |Evet |
-| Jethro ODBC |Evet |Evet |
-| Kyligence Enterprise |Evet |Evet |
-| MarkLogic ODBC |Evet |Evet |
-| Microsoft Graph Güvenliği |Hayır |Evet |
-| MySQL |Hayır |Evet |
-| ODBC |Hayır |Evet |
-| OData |Hayır |Evet |
-| OLE DB |Hayır |Evet |
-| Oracle |Evet |Evet |
-| PostgreSQL |Hayır |Evet |
-| QubolePresto |Evet |Evet |
-| Quick Base Bağlayıcısı |Hayır |Evet |
-| SAP Business Warehouse İleti Sunucusu |Evet |Evet |
-| SAP Business Warehouse Sunucusu |Evet |Evet |
-| SAP HANA |Evet |Evet |
-| SQL Server |Evet |Evet |
-| SharePoint |Hayır |Evet |
-| Snowflake |Evet |Evet |
-| Spark |Evet |Evet |
-| SurveyMonkey |Hayır |Evet |
-| Sybase |Hayır |Evet |
-| TeamDesk.Database |Hayır |Evet |
-| Teradata |Evet |Evet |
-| Vertica |Evet |Evet |
-| Web |Hayır |Evet |
-| Workforce Dimensions |Hayır |Evet |
+Şirket içi veri ağ geçidinin desteklediği veri kaynakları hakkında daha fazla bilgi için bkz. [Power BI veri kaynakları](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

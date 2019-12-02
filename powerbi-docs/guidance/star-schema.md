@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 42da2dd74d80d2a68cf38c8d35ee4e500d6780d8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875596"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410834"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -27,7 +27,7 @@ Bu makalede yıldız şeması tasarımıyla ilgili eksiksiz bir açıklama sağl
 
 **Boyut tabloları** iş varlıklarını, modellediğiniz "şeyleri" açıklar. Varlıklar ürünlerden, kişilerden, yerlerden ve kavramlardan, ayrıca zamanın kendisinden oluşabilir. Yıldız şemasında bulabileceğiniz en tutarlı tablo tarih boyutu tablosudur. Boyut tablosu benzersiz tanımlayıcı işlevi gören bir anahtar sütunu (veya sütunları) ile açıklayıcı sütunlar içerir.
 
-**Olgu tablolarında** gözlemler ve olaylar depolanır. Bunlar satış siparişleri, envanter bakiyeleri, döviz kurları, sıcaklıklar vb. olabilir. Olgu tablosu boyut tablolarıyla ilgili boyut anahtar sütunları ve sayısal ölçü sütunları içerir. Boyut anahtar sütunları olgu tablosunun _boyut özelliklerini_ belirlerken boyut anahtar değerleri de olgu tablosunun _ayrıntı düzeyini_ belirler. Örneğin satış hedeflerinin depolandığı, iki boyut anahtar sütunu (**Date** ve **ProductKey**) olan bir olgu tablosu tasarlandığını düşünün. Tablonun iki boyutu olduğu kolayca anlaşılabilir. Öte yandan ayrıntı düzeyi boyut anahtar değerleri dikkate alınmadan belirlenemez. Bu örnekte **Date** sütununda depolanan değerlerin her ayın ilk günü olduğunu düşünün. Bu örnekte ayrıntı düzeyi aylık ürün düzeyidir.
+Gözlemleri ve olayları depolayan **olgu tabloları** satış siparişleri, envanter bakiyeleri, döviz kurları, sıcaklıklar vb. olabilir. Olgu tablosu boyut tablolarıyla ilgili boyut anahtar sütunları ve sayısal ölçü sütunları içerir. Boyut anahtar sütunları olgu tablosunun _boyut özelliklerini_ belirlerken boyut anahtar değerleri de olgu tablosunun _ayrıntı düzeyini_ belirler. Örneğin satış hedeflerinin depolandığı, iki boyut anahtar sütunu (**Date** ve **ProductKey**) olan bir olgu tablosu tasarlandığını düşünün. Tablonun iki boyutu olduğu kolayca anlaşılabilir. Öte yandan ayrıntı düzeyi boyut anahtar değerleri dikkate alınmadan belirlenemez. Bu örnekte **Date** sütununda depolanan değerlerin her ayın ilk günü olduğunu düşünün. Bu örnekte ayrıntı düzeyi aylık ürün düzeyidir.
 
 Genel olarak boyut tabloları görece az sayıda satır içerir. Öte yandan olgu tabloları çok fazla sayıda satır içerebilir ve zamanla bu sayı büyümeye devam eder.
 
@@ -37,7 +37,7 @@ Genel olarak boyut tabloları görece az sayıda satır içerir. Öte yandan olg
 
 Bu makalede tanıtılan yıldız şeması tasarımı ve bununla ilgili birçok kavram, performans ve kullanılabilirlik için iyileştirilmiş Power BI modelleri geliştirmeyle son derece ilgilidir.
 
-Her Power BI raporu görselinin Power BI modeline gönderilen bir sorgu oluşturduğunu düşünün (Power BI hizmeti bir veri kümesi çağırır). Bu sorgular model verilerini filtrelemek, gruplandırmak ve özetlemek için kullanılır. İyi tasarlanmış bir model filtreleme ve gruplandırma için tablolar ve özetleme için tablolar sağlayan modeldir. Bu da yıldız şemasının tasarım ilkelerine çok iyi uyar:
+Her Power BI raporu görselinin Power BI modeline gönderilen bir sorgu oluşturduğunu düşünün (Power BI hizmeti bir veri kümesi çağırır). Bu sorgular model verilerini filtrelemek, gruplandırmak ve özetlemek için kullanılır. İyi tasarlanmış bir model filtreleme ve gruplandırma için tablolar ve özetleme için tablolar sağlayan modeldir. Bu tasarım, yıldız şemasının ilkelerine çok iyi uyar:
 
 - Boyut tabloları _filtrelemeyi_ ve _gruplandırmayı_ destekler
 - Olgu tabloları _özetlemeyi_ destekler
@@ -50,7 +50,7 @@ Modelleyicilerin tablo türünü (boyut veya olgu) yapılandırmak için ayarlay
 
 Son olarak, en uygun model tasarımını yapmanın kısmen bilim kısmen de sanat olduğunu anlamalısınız. Bazen size mantıklı geldiğinde uygun yönergelerden uzaklaşabilirsiniz.
 
-Yıldız şeması tasarımında Power BI modeline uygulanabilecek birçok başka kavram da vardır. Bu modüller şunlardır:
+Yıldız şeması tasarımında Power BI modeline uygulanabilecek birçok başka kavram da vardır. Bu kavramlar şunlardır:
 
 - [Ölçüler](#measures)
 - [Vekil anahtarlar](#surrogate-keys)
@@ -67,14 +67,14 @@ Yıldız şeması tasarımında **ölçü** özetlenecek değerlerin depolandı�
 
 Power BI modelinde **ölçünün** farklı ama benzer bir tanımı vardır. Özetleme yapabilen [Veri Çözümleme İfadeleri (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) dilinde yazılmış bir formüldür. Ölçü ifadeleri çoğunlukla sorgu süresinde skaler bir değer sonucu üretmek için SUM, MIN, MAX ve AVERAGE gibi DAX toplama işlevlerinden yararlanır (değerler hiçbir zaman modelde depolanmaz). Ölçü ifadesi basit sütun toplamalarından filtre bağlamını ve/veya ilişki yayma işlemini geçersiz kılan daha gelişmiş formüllere kadar değişebilir. Daha fazla bilgi için [Power BI Desktop'ta DAX ile İlgili Temel Bilgiler](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) makalesini okuyun.
 
-Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha desteklediğini anlamanız önemlidir. Herhangi bir sütun ve genellikle de sayısal sütunlar rapor görseli veya Soru-Cevap kullanılarak özetlenebilir. Birçok durumda ölçüler oluşturmanız gerekmediğinden bir model geliştiricisi olarak bu size kolaylık sağlar. Örneğin Adventure Works bayi satışlarının **Sales Amount** (Satış Tutarı) sütunu, olası her toplama türü için bir ölçü oluşturmaya gerek kalmadan çok sayıda yolla (sum, count, average, median, min, max vb.) özetlenebilir.
+Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha desteklediğini anlamanız önemlidir. Herhangi bir sütun ve genellikle de sayısal sütunlar rapor görseli veya Soru-Cevap kullanılarak özetlenebilir. Bu sütunlara _örtülü ölçüler_ denir. Birçok durumda ölçüler oluşturmanız gerekmediğinden bir model geliştiricisi olarak bu size kolaylık sağlar. Örneğin Adventure Works bayi satışlarının **Sales Amount** (Satış Tutarı) sütunu, olası her toplama türü için bir ölçü oluşturmaya gerek kalmadan çok sayıda yolla (sum, count, average, median, min, max vb.) özetlenebilir.
 
 ![Alan listesinde simge örneği](media/star-schema/field-list-example.png)
 
 Öte yandan basit sütun düzeyi özetlemelerinde bile ölçüler oluşturmanız için iki cazip neden vardır:
 
-- Rapor yazarlarının modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin ölçüler içermesi gerekir. MDX sütun değerlerinin özetlemesini yapamaz. Power BI veri kümesi MDX kullanılarak sorgulandığında bu son derece uygundur ve [Excel'de Analiz Et](https://docs.microsoft.com/power-bi/service-analyze-in-excel) kullanıldığında (MDX sorgularını PivotTable'lar gönderir) bu durum geçerlidir.
-- Rapor yazarlarının sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerekiyorsa. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
+- Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır (PivotTables MDX sorguları gönderir).
+- Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerekiyorsa. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
 
 Bu tasarım yaklaşımının Power BI hizmetinde yazılan raporlarda ve Soru-Cevap için iyi sonuç verdiğine dikkat edin. Öte yandan Power BI Desktop canlı bağlantıları rapor yazarlarının **Alanlar** bölmesinde gizli alanları göstermesine izin verir ve sonuç olarak bu tasarım yaklaşımı aşılabilir.
 
@@ -127,11 +127,11 @@ Tür 1 SCD'nin sonucu, Power BI modeli boyut türündeki tablonun artımlı olma
 
 Örneğin Adventure Works satış bölgelerine satış elemanları atar. Bir satış elemanının bölgesi değiştiğinde, geçmiş olgularının eski bölgeyle ilişkili kalmasını sağlamak için satış elemanına yeni bir sürüm oluşturmak gerekir. Satış elemanına göre satışlarla ilgili doğru geçmiş analizini desteklemek için, boyut tablosu satış elemanlarının ve ilişkili bölgelerinin sürümlerini depolamalıdır. Tablo ayrıca zaman geçerliliğini tanımlamak üzere başlangıç ve bitiş tarihi değerlerini de içermelidir. Satırın geçerli sürüm olduğunu göstermek üzere geçerli sürümlerde Current boş bir bitiş tarihi (veya 31/12/9999) tanımlanabilir. Tablo aynı zamanda bir de vekil anahtar tanımlamalıdır çünkü iş anahtarı (bu örnekte çalışan kimliği) benzersiz olmayacaktır.
 
-Kaynak verilerde sürüm depolanmadığında, değişiklikleri algılamak ve depolamak için bir ara sistem (veri ambarı gibi) kullanmanız gerektiğini anlamanız önemlidir. Tablo yükleme işlemi mevcut verileri korumalı ve değişiklikleri algılamalıdır. Değişiklik algılandığında tablo yükleme işleminin geçerli sürümün süresini sona erdirmesi gerekir. **EndDate** değerini güncelleştirerek ve **StartDate** değeri önceki **EndDate** değerinden başlayan yeni bir sürüm ekleyerek bunu yapar. Ayrıca, ilgili olgular olgu tarihine uygun boyut anahtarı değerini almak için zamana dayalı bir arama kullanmalıdır. Power Query kullanan bir Power BI modeli bunu başaramaz. Bununla birlikte önceden yüklenmiş bir SCD Type 2 boyut tablosundan verileri yükleyebilir.
+Kaynak verilerde sürüm depolanmadığında, değişiklikleri algılamak ve depolamak için bir ara sistem (veri ambarı gibi) kullanmanız gerektiğini anlamanız önemlidir. Tablo yükleme işlemi mevcut verileri korumalı ve değişiklikleri algılamalıdır. Değişiklik algılandığında tablo yükleme işleminin geçerli sürümün süresini sona erdirmesi gerekir. **EndDate** değerini güncelleştirerek ve **StartDate** değeri önceki **EndDate** değerinden başlayan yeni bir sürüm ekleyerek bu değişiklikleri kaydeder. Ayrıca, ilgili olgular olgu tarihine uygun boyut anahtarı değerini almak için zamana dayalı bir arama kullanmalıdır. Power Query kullanan bir Power BI modeli bu sonucu üretemez. Bununla birlikte önceden yüklenmiş bir SCD Type 2 boyut tablosundan verileri yükleyebilir.
 
-Power BI modeli değişikliğe bakılmaksızın üyenin ve üye sürümünün (üyenin zaman içindeki belirli bir durumunu temsil eder) geçmiş verilerini sorgulamayı desteklemelidir. Adventure Works bağlamında baktığımızda, hangi satış bölgesine atanmış olursa olsun satış elemanını veya satış elemanının belirli bir sürümünü sorgulamanıza olanak tanır.
+Power BI modeli değişikliğe bakılmaksızın üyenin ve üye sürümünün (üyenin zaman içindeki belirli bir durumunu temsil eder) geçmiş verilerini sorgulamayı desteklemelidir. Adventure Works bağlamında baktığımızda bu tasarım, hangi satış bölgesine atanmış olursa olsun satış elemanını veya satış elemanının belirli bir sürümünü sorgulamanıza olanak tanır.
 
-Bunu başarmak için Power BI modeli boyut türündeki tablosunda satış elemanını filtreleme sütunu ve bir de satış elemanının belirli bir sürümünü filtreleme sütunu bulunmalıdır. Sürüm sütununun "Michael Blythe (12/15/2008-06/26/2019)" veya "Michael Blythe (güncel)" gibi belirgin bir açıklama sağlaması önemlidir. Ayrıca rapor yazarlarıyla tüketicilerine SCD Tür 2 ile ilgili eğitim vermek ve doğru filtreleri uygulayarak uygun rapor tasarımları elde etmeyi öğretmek de önemlidir.
+Bu gereksinimi karşılamak için Power BI modeli boyut türündeki tablosunda satış elemanını filtreleme sütunu ve bir de satış elemanının belirli bir sürümünü filtreleme sütunu bulunmalıdır. Sürüm sütununun "Michael Blythe (12/15/2008-06/26/2019)" veya "Michael Blythe (güncel)" gibi belirgin bir açıklama sağlaması önemlidir. Ayrıca rapor yazarlarıyla tüketicilerine SCD Tür 2 ile ilgili eğitim vermek ve doğru filtreleri uygulayarak uygun rapor tasarımları elde etmeyi öğretmek de önemlidir.
 
 Görsellerin sürüm düzeyinde detaya gitmesine izin veren bir hiyerarşi eklemek de iyi bir yöntem olabilir.
 
@@ -145,11 +145,11 @@ Görsellerin sürüm düzeyinde detaya gitmesine izin veren bir hiyerarşi eklem
 
 Veri ambarında kabul edilen tasarım yaklaşımı tek tarihli boyut tablosu tanımlamaktır. Sorgu zamanında tarih boyutunun "rolü", tabloları birleştirmek için kullandığınız olgu sütunu tarafından belirlenir. Örneğin sipariş tarihine göre satışları analiz ederken tablo birleştirmesi bayi satış siparişi tarihi sütunuyla ilgilidir.
 
-Power BI modelinde bu tasarım iki tablo arasında birden çok ilişki oluşturularak taklit edilebilir. Adventure Works örneğinde tarih ile bayi satış tabloları arasında üç ilişki olabilir. Bu mümkün olsa da, iki Power BI modeli tablosu arasında tek bir etkin ilişki olabileceğini anlamanız önemlidir. Kalan tüm ilişkiler etkin değil olarak ayarlanmalıdır. Tek etkin ilişki olması tarihten bayi satışlarına varsayılan bir filtre yayılması olduğu anlamına gelir. Bu örnekte etkin ilişki raporlar tarafından kullanılan en yaygın filtreye, Adventure Works'te sipariş tarih ilişkisine ayarlanmıştır.
+Power BI modelinde bu tasarım iki tablo arasında birden çok ilişki oluşturularak taklit edilebilir. Adventure Works örneğinde tarih ile bayi satış tabloları arasında üç ilişki olabilir. Bu tasarım mümkün olsa da, iki Power BI modeli tablosu arasında tek bir etkin ilişki olabileceğini anlamanız önemlidir. Kalan tüm ilişkiler etkin değil olarak ayarlanmalıdır. Tek etkin ilişki olması tarihten bayi satışlarına varsayılan bir filtre yayılması olduğu anlamına gelir. Bu örnekte etkin ilişki raporlar tarafından kullanılan en yaygın filtreye, Adventure Works'te sipariş tarih ilişkisine ayarlanmıştır.
 
 ![Tek rol yapan boyut ve ilişkiler örneği](media/star-schema/relationships.png)
 
-Etkin olmayan ilişki kullanmanın tek yolu [USERELATIONSHIP işlevini](https://docs.microsoft.com/dax/userelationship-function-dax) kullanan bir DAX ifadesi tanımlamaktır. Bizim örneğimizde model geliştiricisinin sevk tarihine ve teslim tarihine göre bayi satışlarını analiz etmeye olanak tanımak için ölçüler oluşturması gerekir. Özellikle de bayi tablosunun çok sayıda ölçü tanımladığı durumlarda bu bıktırıcı bir işlem olabilir. Ayrıca ölçülerin aşırı bolluğu nedeniyle **Alanlar** bölmesinde dağınıklığa da yol açar. Başka sınırlamaları da vardır:
+Etkin olmayan ilişki kullanmanın tek yolu [USERELATIONSHIP işlevini](https://docs.microsoft.com/dax/userelationship-function-dax) kullanan bir DAX ifadesi tanımlamaktır. Bizim örneğimizde model geliştiricisinin sevk tarihine ve teslim tarihine göre bayi satışlarını analiz etmeye olanak tanımak için ölçüler oluşturması gerekir. Özellikle de bayi tablosunun çok sayıda ölçü tanımladığı durumlarda bu bıktırıcı bir çalışma olabilir. Ayrıca ölçülerin aşırı bolluğu nedeniyle **Alanlar** bölmesinde dağınıklığa da yol açar. Başka sınırlamaları da vardır:
 
 - Rapor yazarları ölçüleri tanımlamak yerine sütunları özetlemeye dayandığında, rapor düzeyi bir ölçü yazmadan etkin olmayan ilişkileri özetlemeyi başaramaz. Rapor düzeyi ölçüleri ancak raporlar Power BI Desktop'ta yazılırken tanımlanabilir.
 - Tarih ile bayi satışları arasında tek bir etkin ilişki yolu olduğunda bayi satışlarını farklı tarih türlerine göre eş zamanlı olarak filtrelemek mümkün olmaz. Örneğin sevk edilen satışlara göre sipariş tarihi satışlarının çizildiği bir görsel oluşturamazsınız.
@@ -197,7 +197,7 @@ Olgu içermeyen olgu tablosunun daha cazip bir kullanımı, boyutlar arasındaki
 
 ![Olgu içermeyen olgu tablosu örneği](media/star-schema/factless-fact.png)
 
-Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablosu olmadan da başarılabilir. Öte yandan, iki boyut ilişkilendirilirken köprü oluşturma tablosunun en iyi yöntem olduğu düşünülür. Diğer ayrıntılar için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
+Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablosu olmadan da başarılabilir. Öte yandan, iki boyut ilişkilendirilirken köprü oluşturma tablosunun en iyi yöntem olduğu düşünülür. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -207,3 +207,4 @@ Yıldız şeması tasarımı ve Power BI modeli tasarımı hakkında daha fazla 
 - [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](../desktop-create-and-manage-relationships.md)
 - [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../desktop-many-to-many-relationships.md)
 - [Modelleme destekli öğrenme deneyimi](/learn/modules/model-data-power-bi/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

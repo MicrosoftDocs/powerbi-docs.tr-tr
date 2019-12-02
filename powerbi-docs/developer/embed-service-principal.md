@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877647"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264201"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
 
@@ -93,7 +93,7 @@ Ana hesabın geleneksel kullanımının aksine, hizmet sorumlusu (yalnızca uygu
    > [!Important]
    > Hizmet sorumlusunun Power BI ile kullanımını etkinleştirdikten sonra, uygulamanın AD izinleri artık geçerli olmaz. Bundan sonra uygulamanın izinleri Power BI yönetim portalı üzerinden yönetilir.
 
-2.  **Önerilen** - [Azure Active Directory’de (AAD) bir güvenlik grubu](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) oluşturun ve oluşturduğunuz uygulamayı bu güvenlik grubuna ekleyin. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir AAD güvenlik grubu oluşturabilirsiniz.
+2.  **Önerilen** - [Azure Active Directory’de (AAD) bir güvenlik grubu](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) oluşturun ve oluşturduğunuz uygulamayı bu güvenlik grubuna ekleyin. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir AAD güvenlik grubu oluşturabilirsiniz.
 
     Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örnek betik aşağıda verilmiştir.
 

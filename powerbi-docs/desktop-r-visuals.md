@@ -1,128 +1,148 @@
 ---
 title: R programlama dilini kullanarak Power BI görselleri oluşturma
-description: R programlama dilini kullanarak Power BI görselleri oluşturma
+description: Power BI Desktop'la verilerinizi görselleştirmek için R altyapısını kullanabilirsiniz.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1889c7327bd6f0123dd2ab79b296e7449155ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879816"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265076"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
-**Power BI Desktop** ile verilerinizi görselleştirmek için **R** programlama dilini kullanabilirsiniz.
+Power BI Desktop'la verilerinizi görselleştirmek için *R* programlama dilini kullanabilirsiniz. [R](https://mran.revolutionanalytics.com/documents/what-is-r) istatistiksel bilgi işlem ve grafiklere yönelik bir dil ve ortamdır.
 
 ## <a name="install-r"></a>R yükleme
-**Power BI Desktop**, **R** altyapısını içermez, dağıtmaz veya yüklemez. **Power BI Desktop**'ta R betikleri çalıştırmak için yerel bilgisayarınıza **R**'yi ayrıca yüklemeniz gerekir. **R**'yi [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirip yükleyebilirsiniz. R betiklerinin **Power BI Desktop**'taki güncel sürümü, yükleme yolunda Unicode karakterlerin yanı sıra boşlukların (boş karakterler) olmasını da destekler.
+Varsayılan olarak Power BI Desktop R altyapısını içermez, dağıtmaz veya yüklemez. Power BI Desktop’ta R betiklerini çalıştırmak için yerel bilgisayarınıza R’yi ayrıca yüklemeniz gerekir. R'yi [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirip yükleyebilirsiniz. R betiklerinin Power BI Desktop'taki güncel sürümü, yükleme yolunda Unicode karakterlerin yanı sıra boşlukların (boş karakterler) olmasını da destekler.
 
-## <a name="enable-r-visuals"></a>R görsellerini etkinleştirme
-R görsellerini etkinleştirmek için **Dosya > Seçenekler ve ayarlar > Seçenekler** öğesini seçin. Görüntülenen **Seçenekler** sayfasında, aşağıda gösterildiği şekilde, **Seçenekler** penceresinin **R betiği oluşturma** bölümünde yerel R yüklemenizin belirtildiğinden emin olun. Aşağıdaki görüntüde, yerel R yüklemesinin yolu **C:\Program Files\R\R-3.2.0** şeklindedir ve bu yol, metin kutusunda açıkça belirtilmektedir. Görüntülenen yolun, **Power BI Desktop**'ın kullanmasını istediğiniz yerel R yüklemesini doğru şekilde yansıttığından emin olun.
+## <a name="enable-r-visuals-in-power-bi-desktop"></a>Power BI Desktop'ta R görsellerini etkinleştirme
+R'yi yükledikten sonra Power BI Desktop bunu otomatik olarak etkinleştirir. Power BI Desktop'ın R'yi doğru konumda etkinleştirdiğini onaylamak için şu adımları izleyin: 
+
+1. Power BI Desktop menüsünde **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler**'i seçin. 
+
+2. **Seçenekler** sayfasının sol tarafındaki **Genel**'in altında **R betiği oluşturma**'yı seçin. 
+
+3. **R betik seçenekleri**'nin altında, **Algılanan R giriş dizinleri**'nde yerel R yüklemenizin belirtildiğini ve bunun Power BI Desktop'ın kullanmasını isteğiniz yerel R yüklemesini düzgün bir şekilde yansıttığını doğrulayın. Aşağıdaki resimde yerel R yüklemesinin yolu **C:\Program Files\R Open\R-3.5.3\\** 'tür.
    
-   ![](media/desktop-r-visuals/r-visuals-2.png)
+   ![R betik seçenekleri sayfası](media/desktop-r-visuals/r-visuals-2.png)
 
-R yüklemenizi belirttiğinizde R görselleri oluşturmaya başlayabilirsiniz.
+R yüklemenizi doğruladıktan sonra R görselleri oluşturmaya başlayabilirsiniz.
 
 ## <a name="create-r-visuals-in-power-bi-desktop"></a>Power BI Desktop'ta R görselleri oluşturma
-1. Bir R görseli eklemek için, aşağıdaki görüntüde gösterilen şekilde, **Görsel Öğeler** bölmesindeki **R Görseli** simgesini seçin.
+1. R görseli eklemek için **Görsel Öğeler** bölmesindeki **R Görseli** simgesini seçin.
    
-   ![](media/desktop-r-visuals/r-visuals-3.png)
+   ![Görsel Öğeler bölmesindeki R Görseli simgesi](media/desktop-r-visuals/r-visuals-3.png)
 
-   Bir rapora R görseli eklediğinizde **Power BI Desktop** şu işlemleri gerçekleştirir:
+2. Görüntülenen **Betik görsellerini etkinleştir** penceresinde **Etkinleştir**’i seçin.
+
+   ![Betik görsellerini etkinleştir](media/desktop-r-visuals/r-visuals-10.png)
+
+   Bir rapora R görseli eklediğinizde Power BI Desktop şu değişiklikleri yapar:
    
    - Rapor tuvalinde bir yer tutucu R görseli görüntüsü görünür.
    
    - Orta bölmenin alt kısmında **R betik düzenleyicisi** görünür.
    
-   ![](media/desktop-r-visuals/r-visuals-4.png)
+   ![R betik düzenleyici](media/desktop-r-visuals/r-visuals-4.png)
 
-2. Daha sonra, R betiğinizde kullanmak istediğiniz alanları, diğer **Power BI Desktop** görsellerinde yaptığınız gibi **Alanlar** bölmesindeki **Değerler** bölümüne ekleyin. 
+3. **Görsel Öğeler** bölmesinin **Değerler** bölümünde, R betiğinde kullanmak istediğiniz alanları aynı diğer Power BI Desktop görsellerinde yaptığınız gibi **Alanlar** bölmesinden sürükleyin. Alternatif olarak, alanları doğrudan **Alanlar** bölmesinde de seçebilirsiniz.
     
-    Yalnızca **Alanlar** kutusuna eklenmiş alanlar R betiğinizle kullanılabilir. Ayrıca, **Power BI Desktop R betik düzenleyicisinde** R betiğinizle çalışırken **Alanlar** bölmesine yeni alan ekleyebilir veya gereksiz alanları bu bölmeden çıkarabilirsiniz. **Power BI Desktop**, hangi alanları eklediğinizi veya kaldırdığınızı otomatik olarak algılar.
+    Yalnızca **Değerler** bölümüne eklediğiniz alanlar R betiğinizde kullanılabilir. Ayrıca, **R betik düzenleyicisinde** R betiğinizle çalışırken **Değerler** bölümüne yeni alan ekleyebilir veya gereksiz alanları bu bölümden çıkarabilirsiniz. Power BI Desktop, hangi alanları eklediğinizi veya kaldırdığınızı otomatik olarak algılar.
    
    > [!NOTE]
-   > R görselleri için varsayılan toplama türü, *özetleme* şeklindedir.
+   > R görselleri için varsayılan toplama işlemi *özetleme*'dir.
    > 
    > 
    
-3. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz. 
+4. Artık bir çizim oluşturmak için seçtiğiniz verileri kullanabilirsiniz: 
 
-    Siz alan seçtikçe **R betik düzenleyicisi**, düzenleyici bölmesinin üst kısmında bulunan gri bölümde yaptığınız seçimlere bağlı olarak yardımcı R betiği bağlama kodunu oluşturur. Yeni alan seçtiğinizde veya var olan bir alanı kaldırdığınızda R betik düzenleyicisinde yardımcı kod otomatik olarak oluşturulur veya kaldırılır.
+    - Siz alan seçtikçe **R betik düzenleyicisi**, düzenleyici bölmesinin üst kısmında bulunan gri bölümde bu alanlar için yardımcı R betiği bağlama kodunu oluşturur.
+    - Alanı kaldırırsanız, **R betik düzenleyicisi** destekleyen kodu bu alandan otomatik olarak kaldırır.
    
-   Aşağıdaki görüntüde gösterilen örnekte hp, gear ve drat olmak üzere üç alan seçilmiştir. Bu seçimlerin sonucunda R betik düzenleyicisi, aşağıdaki bağlama kodunu oluşturmuştur:
+   Aşağıdaki resimde gösterilen örnekte üç alan seçilmiştir: hp, gear ve drat. Bu seçimlerin sonucunda R betik düzenleyicisi, aşağıdaki şekilde özetlenen bir bağlama kodu oluşturur:
    
-   * **dataset** adlı bir veri çerçevesi oluşturulmuştur
-     * Bu veri çerçevesi, kullanıcı tarafından seçilen farklı alanlardan oluşmaktadır
-   * Varsayılan toplama türü, *özetleme* şeklindedir
-   * Tablo görsellerinde olduğu gibi alanlar da gruplandırılır ve yinelenen satırlar yalnızca bir kez görünür
+   * Kullanıcının seçtiği farklı alanlardan oluşan **dataset** adlı bir veri çerçevesi oluşturun.
+   * Varsayılan toplama türü şudur: *özetleme*.
+   * Tablo görsellerinde olduğu gibi alanlar da gruplandırılır ve yinelenen satırlar yalnızca bir kez görünür.
    
-   ![](media/desktop-r-visuals/r-visuals-5.png)
+   ![R betik düzenleyicisi kodu](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-   > Bazı durumlarda, otomatik gruplandırma işleminin gerçekleştirilmesini istemeyebilir veya yinelenenler de dahil olmak üzere tüm satırların görünmesini isteyebilirsiniz. Böyle durumlarda veri kümenize bir dizin alanı ekleyebilirsiniz. Böylece, tüm satırların benzersiz olduğu kabul edilir ve gruplandırma yapılması önlenir.
+   > Bazı durumlarda, otomatik gruplandırma işleminin gerçekleştirilmesini istemeyebilir veya yinelenenler de dahil olmak üzere tüm satırların görünmesini isteyebilirsiniz. Böyle durumlarda veri kümenize bir dizin alanı ekleyin. Böylece, tüm satırların benzersiz olduğu kabul edilir ve gruplandırma yapılması önlenir.
    > 
    > 
    
-   Oluşturulan veri çerçevesi **dataset** olarak adlandırılır ve seçilen sütunlara, adlarıyla erişebilirsiniz. Örneğin, R betiğinizde *dataset$gear* yazarak gear alanına erişin. Boşluklu veya özel karakterler içeren alanlar için tek tırnak işareti kullanın.
+   Oluşturulan veri çerçevesi **dataset** olarak adlandırılır ve seçilen sütunlara, adlarıyla erişirsiniz. Örneğin, R betiğinizde *dataset$gear* ekleyerek gear alanına erişin. Boşluklu veya özel karakterler içeren alanlar için tek tırnak işareti kullanın.
 
-4. Seçtiğiniz alanlara göre otomatik olarak oluşturulan veri çerçevesi ile R betiği yazmaya hazır hale gelirsiniz. R betiği yazdığınızda, varsayılan R cihazında bir çizim oluşturulur. Betik tamamlandığında **R betik düzenleyicisi** başlık çubuğunda **Çalıştır**'ı seçin. (**Çalıştır** seçeneği, başlık çubuğunun sağ tarafında bulunur.)
+5. Veri çerçevesinin seçtiğiniz alanlara göre otomatik olarak oluşturulmasıyla R betiği yazmaya hazır hale gelirsiniz. R betiği yazdığınızda Power BI Desktop bunu varsayılan R cihazında çizer. Betiği tamamladıktan sonra **R betik düzenleyicisi** başlık çubuğunun sağ tarafında **Betiği çalıştır**'ı seçin.
    
-    **Çalıştır**’ı seçtiğinizde **Power BI Desktop**, çizimi tanımlar ve tuval üzerinde görüntüler. İşlem yerel R yüklemenizde gerçekleştirildiğinden, gerekli paketlerin yüklendiğinden emin olun.
+    **Betiği çalıştır**’ı seçtiğinizde Power BI Desktop çizimi tanımlar ve tuval üzerinde görüntüler. İşlem yerel R yüklemenizde gerçekleştirildiğinden, gerekli R paketlerinin yüklendiğinden emin olun.
    
-   **Power BI Desktop**, aşağıdaki olaylardan herhangi biri meydana geldiğinde görseli yeniden çizer:
+   Power BI Desktop, aşağıdaki olaylardan herhangi biri meydana geldiğinde görseli yeniden çizer:
    
-   * **R betik düzenleyicisi** başlık çubuğunda **Çalıştır** seçeneğini belirlediğinizde
-   * Veri yenileme, filtreleme veya vurgulama işlemi nedeniyle her veri değişikliği gerçekleştiğinde
+   * **R betik düzenleyicisi** başlık çubuğunda **Betiği çalıştır**'ı seçersiniz.
+   * Veri yenileme, filtreleme veya vurgulama işleminden dolayı bir veri değişikliği oluşur.
 
-     Aşağıdaki görüntüde bağıntı çizim koduna ilişkin bir örnek ve farklı otomobil türlerinin öznitelikleri arasındaki bağıntılara ilişkin bir çizim gösterilmektedir.
+     Aşağıdaki resimde, farklı otomobil türlerinin öznitelikleri arasındaki bağıntıları çizen bir bağıntı çizim kodu örneği gösterilir.
 
-     ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![Bağıntı çizim kodu örneği](media/desktop-r-visuals/r-visuals-6.png)
 
-5. Görselleştirmelerin daha büyük bir görünümünü elde etmek için **R betik düzenleyicisi**'ni simge durumuna küçültebilirsiniz. **Power BI Desktop**'taki diğer görsellerde olduğu gibi, halka görselinde (yukarıdaki örnek görüntüsünde, sağdaki yuvarlak görsel) yalnızca spor otomobilleri seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
+6. Görselleştirmelerin daha büyük bir görünümünü elde etmek için **R betik düzenleyicisi**'ni simge durumuna küçültün. Power BI Desktop'taki diğer görsellerde olduğu gibi, halka biçimli görselde (sağdaki yuvarlak görsel) belirli bir bölümü (spor arabaları gibi) seçerek bağıntı çiziminde çapraz filtre uygulayabilirsiniz.
 
-    ![](media/desktop-r-visuals/r-visuals-7.png)
+    ![Daha büyük görselleştirme görünümü](media/desktop-r-visuals/r-visuals-7.png)
 
-6. Ayrıca, görseli özelleştirmek için R betiğini değiştirebilir ve çizim oluşturma komutuna parametre ekleyerek R programlama dilinin gücünden yararlanabilirsiniz.
+7. Görseli özelleştirmek için R betiğini değiştirin ve çizim oluşturma komutuna parametre ekleyerek R programlama dilinin gücünden yararlanın.
 
-    Başlangıçta, çizim oluşturma komutu şu şekildeydi:
+    Özgün çizim oluşturma komutu:
 
+    ```
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
+    ```
 
-    R betiğinde yapılan birkaç değişikliğin ardından yeni komut şu şekildedir:
+    R betiğini değiştirerek çizim komutunun şöyle olmasını sağlayın:
 
+    ```
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
+    ```
 
-    Değişikliklerin ardından R görseli, aşağıdaki görüntüde gösterildiği gibi, artık daireler çiziyor, yalnızca üst yarıyı dikkate alıyor ve bağıntılı öznitelikleri kümelemek için matrisi yeniden sıralıyor.
+    Değişikliklerin ardından R görseli artık daireler çiziyor, yalnızca üst yarıyı dikkate alıyor ve bağıntılı öznitelikleri kümelemek için matrisi yeniden sıralıyor.
 
-    ![](media/desktop-r-visuals/r-visuals-8.png)
+    ![R görseli daire çizimi](media/desktop-r-visuals/r-visuals-8.png)
 
-    Bir R betiği yürütülürken hata oluşursa R görseli çizilmez ve tuvalde bir hata iletisi görüntülenir. Hataya ilişkin ayrıntılar için, tuvalde görüntülenen R görseli hata iletisinde **Ayrıntılara göz atın** seçeneğini belirleyin.
+    Hatayla sonuçlanan bir R betiği yürüttüğünüzde hata iletisi R görsel çiziminde değil tuvalde görüntülenir. Hataya ilişkin ayrıntılar için, R görseli hatasındaki **Ayrıntılara göz atın** seçeneğini belirleyin.
 
-    ![](media/desktop-r-visuals/r-visuals-9.png)
+    ![R görseli hatası](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **R betiklerinin güvenliği:** R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R betiklerinden oluşturulur. Bir R görselini ilk kez görüntülemeye veya R görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. R görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili R betiğini gözden geçirip anladıktan sonra etkinleştirin.
-    > 
-    > 
+## <a name="r-scripts-security"></a>R betiklerinin güvenliği 
+R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R betiklerinden oluşturulur. Bir R görselini ilk kez görüntülemeye veya R görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. R görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili R betiğini gözden geçirip anladıktan sonra etkinleştirin.
+
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
-**Power BI Desktop**'ta R görsellerine ilişkin bazı sınırlamalar mevcuttur:
+Power BI Desktop'ta R görsellerinin şöyle sınırlamaları vardır:
 
-* Veri boyutu sınırlamaları: R görseli tarafından çizim için kullanılan veri 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
-* Hesaplama süresi sınırlaması: Bir R görseli hesaplaması beş dakikadan uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
+* Veri boyutları: R görseli tarafından çizim için kullanılan veriler 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
+
+* Hesaplama süreleri: R görseli hesaplama süresi 5 dakikayı aşarsa zaman aşımı hatasına neden olur.
+
 * İlişkiler: Diğer Power BI Desktop görsellerinde olduğu gibi, aralarında tanımlanmış hiçbir ilişki bulunmayan farklı tablolardan veri alanları seçilirse hata oluşur.
-* R görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve çapraz filtrelemenin kaynağı olamaz.
-* R görselleri, diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için R görsellerindeki öğelere tıklayamazsınız.
-* Yalnızca varsayılan R görüntüleme cihazında çizilen çizimler tuval üzerinde doğru şekilde görüntülenir. Farklı bir R görüntüleme cihazını açıkça kullanmaktan kaçının.
-* Bu sürümde RRO yüklemeleri, Power BI Desktop'ın 32 bit sürümü tarafından otomatik olarak tanımlanmaz; bu nedenle, **Seçenekler ve ayarlar > Seçenekler > R betiği oluşturma** bölümündeki R yükleme dizininin yolunu elle sağlamanız gerekir.
+
+* Yenilemeler: R görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve çapraz filtrelemenin kaynağı olamaz.
+
+* Vurgulamalar: R görselleri diğer görselleri vurgulama işleminize yanıt verir ancak diğer öğelere çapraz filtre uygulamak için R görselindeki öğeleri seçemezsiniz.
+
+* Görüntü bağdaştırıcıları: Yalnızca varsayılan R görüntüleme cihazında çizilen çizimler tuval üzerinde doğru şekilde görüntülenir. Farklı bir R görüntüleme cihazını açıkça kullanmaktan kaçının.
+
+* RRO yüklemeleri: Bu sürümde Power BI Desktop'ın 32 bit sürümü RRO yüklemelerini otomatik olarak belirlemez; **Seçenekler ve ayarlar** > **Seçenekler** > **R Betiği Oluşturma** bölümünde R yükleme dizininin yolunu el ile sağlamanız gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI'da R kullanımı ile ilgili aşağıdaki ek bilgilere göz atın.
+Power BI'da R hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 * [Power BI Desktop'ta R Betikleri Çalıştırma](desktop-r-scripts.md)
 * [Power BI ile harici bir R IDE kullanma](desktop-r-ide.md)

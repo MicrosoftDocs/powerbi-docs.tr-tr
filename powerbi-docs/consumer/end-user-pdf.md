@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099136"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164190"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -61,6 +61,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 * Arka plan görüntüsü içeren raporlar PDF’e aktarıldığında **Sayfa Arka Planı** için **Normal** veya **Doldur** seçeneklerinin kullanılması durumunda dışarı aktarılan dosyada yer alan görüntü bozuk olabilir. En iyi sonucu elde etmek ve dışarı aktarılan belgenizde sorun yaşamamak için **Sığdır** seçeneğini kullanın.
 * Power BI hizmeti, PDF dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
 * Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde URL filtreleri dikkate alınmaz.
+* Olağan dışı sayıda özel sayfa içeren raporlar, dışarı aktarma senayolarında sorunlara neden olabilir. En iyi sonuçları almak için raporunuzda standart sayfa boyutuna geçmeyi düşünebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor yazdırma](end-user-print.md)

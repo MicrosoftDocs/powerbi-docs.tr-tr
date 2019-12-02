@@ -2,20 +2,20 @@
 title: Power BI’daki dağılım, kabarcık ve noktalı çizim grafikleri
 description: Power BI’daki dağılım grafiği, noktalı çizim grafikleri ve kabarcık grafikleri
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870829"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311688"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 
@@ -131,13 +131,30 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
     > [!NOTE]
     > Daha fazla veri noktası, yükleme süresinin uzamasına neden olabilir. Raporları, ölçeğin üst uçlarında sınır koyarak yayımlamayı seçerseniz, raporlarınızı web ve mobilde test ettiğinizden emin olun. Grafiğin performansının kullanıcılarınızın beklentileriyle eşleştiğini doğrulayabilirsiniz.
 
-1. [Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha pek çok özelliğini biçimlendirebilirsiniz](service-getting-started-with-color-formatting-and-axis-properties.md).
-
-    [Erişilebilirliği artırmak](../desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. İşaretçi şeklini seçmek için **Şekiller**’i genişletin ve bir **İşaretçi şekli**’ni seçin ve bir şekil belirleyin.
+1. Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha fazlasını biçimlendirmeye devam edin. [Erişilebilirliği artırmak](../desktop-accessibility.md) için her satıra işaretçi şekilleri eklemeyi deneyin. İşaretçi şeklini seçmek için **Şekiller**’i genişletin ve bir **İşaretçi şekli**’ni seçin ve bir şekil belirleyin.
 
     ![İşaretçi şekli seçeneği çağrılan Şekiller açılan öğesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    İşaretçi şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz. Her çizgi için farklı bir işaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar.
+    İşaret şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz. Her çizgi için farklı bir işaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar.
+
+1. Görselleştirmenize ek bilgi eklemek için ![Analiz bölmesi simgesinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics.png) Analiz bölmesini açın.  
+    - Ortanca çizgisi ekleyin. **Ortanca çizgisi** > **Ekle**'yi seçin. Power BI varsayılan olarak *fit kare başına Satışlar* için bir ortanca çizgisi ekler. 10 veri noktası olduğunu görebildiğimiz ve ortancanın her tarafta beş veri noktası ile oluşturulacağını bildiğimiz için bu çok faydalı değildir. Bunun yerine **Ölçü** seçeneğini *Toplam satış varyansı yüzdesi* olarak değiştirin.  
+
+        ![Ortanca çizgisi eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - X ekseni ölçüsünün hangi noktalarının Y ekseni ölçüsüne kıyasla daha yüksek bir değere sahip olduğunu göstermek için simetri gölgelendirmesi ekleyin. Bunun tam tersi de geçerlidir. Analiz bölmesinde simetri gölgelendirmesini açtığınızda Power BI, geçerli ekseninizin üst ve alt sınırlarına göre dağılım grafiğinizin arka planını simetrik olarak gösterir. Bu, özellikle x ve y ekseniniz için farklı bir eksen aralığınız olduğunda, bir veri noktasının hangi eksen ölçüsünü tercih ettiğini belirlemenin çok hızlı bir yoludur.
+
+        a. **Toplam satış varyansı yüzdesi** alanını **Geçen yılın brüt kar yüzdesi** olarak değiştirin
+
+        ![Ortanca çizgisi eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. Analiz bölmesinden **Simetri gölgelendirme** ekleyin. Gölgelendirmeden, Hosiery’nin (pembe gölgeli alandaki yeşil balon) mağaza kare ölçüsü başına satışları yerine brüt karı tercih eden tek kategori olduğunu görebiliriz. 
+
+        ![Simetri gölgelendirme eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - Verilerinize yönelik ilginç içgörüleri bulmak için Analiz bölmesini keşfetmeye devam edin. 
+
+        ![Simetri gölgelendirme eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Noktalı çizim grafiği oluşturma
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874034"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265544"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 
@@ -128,7 +128,7 @@ Müşteri Kârlılığı örnek panosundaki kutucuklarının birçoğu, temel al
 
     * **Team Scorecard** sayfasında 5 yöneticinin performansına ve müşterilerine odaklanılmaktadır.
     * **Industry Margin Analysis** sayfasında kârlılık durumunu, sektörün tamamı ile karşılaştırmalı bir şekilde çözümlememizi sağlayacak bir yöntem sunulur.
-    * **Executive Scorecard** sayfasında ise her yöneticiye ilişkin bir bakış sağlanır. Bunlar Cortana'da görüntülenmek üzere biçimlendirilmiştir.
+    * **Executive Scorecard**, her yöneticiye ilişkin özel sayfa boyutu biçiminde bir görünüm sağlar.
 
 ### <a name="team-scorecard-page"></a>Team Scorecard sayfası
 ![Team scorecard rapor sayfası](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tam
    * Tek bir üründen sorumlu olan Valery, yalnızca beş sektör segmentinde çalışıyor. Valery’nin sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kâr-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör segmentleri onun bu olumsuz performansını nasıl etkiliyor?
 
 ### <a name="executive-scorecard"></a>Yönetim Puan Kartı
-Bu sayfa bir Cortana yanıt sayfası olarak biçimlendirilmiştir. Daha fazla bilgi edinmek için bkz. [Cortana için özel yanıt sayfası oluşturma](service-cortana-answer-cards.md).
+Bu sayfanın özel bir sayfa boyutu biçimi vardır.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Soru-Cevap ile sorular sorarak verilerle ilgili ayrıntılara ulaşma
 Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir elde ettiğini belirlememize yardımcı olabilir. Soru-Cevap'ı kullanalım.

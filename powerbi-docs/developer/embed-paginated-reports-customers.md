@@ -1,5 +1,5 @@
 ---
-title: Uygulamanıza müşterileriniz için sayfalandırılmış Power BI raporları ekleme
+title: Uygulamanıza müşterileriniz için sayfalandırılmış raporlar ekleme
 description: Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 11/04/2019
-ms.openlocfilehash: 5611d65ab800c14b2570a12078c08cce5dc58147
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877727"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311442"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme (önizleme)
 
@@ -37,6 +37,11 @@ Başlamak için şunlara sahip olmalısınız:
 * En az bir A4 veya P1 [kapasitesi](#create-a-dedicated-capacity), [sayfalandırılmış raporlar](../service-admin-premium-workloads.md#paginated-reports) iş yükü etkinleştirilmiş
 
 Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
+
+> [!IMPORTANT]
+> * Bir **hizmet sorumlusu** kullanmalısınız. Ana kullanıcı desteklenmiyor.
+> * Çoklu oturum açma (SSO) gerektiren veri kaynakları desteklenmez.
+> * Power BI veri kümesi, [veri kaynağı](../service-get-data.md)olarak desteklenmez.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 
