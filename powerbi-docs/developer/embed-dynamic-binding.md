@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925750"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164070"
 ---
-# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
+# <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
 
-Dinamik bağlama kullanma işlemi, yalnızca rapor bir veri kümesine bağlı olduğunda geçerlidir. Rapor ve veri kümesi arasındaki bağlantı, *bağlama* olarak bilinir. Bağlama, daha önceden belirlenmesinin aksine ekleme sırasında belirlendiğinde, bu işlem [dinamik bağlama](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) olarak bilinir.
+Rapor bir veri kümesine bağlı olduğunda dinamik bağlamayı kullanabilirsiniz. Rapor ve veri kümesi arasındaki bağlantı, *bağlama* olarak bilinir. Bağlama, daha önceden belirlenmesinin aksine ekleme sırasında belirlendiğinde, bu işlem [dinamik bağlama](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0) olarak bilinir.
  
 *Dinamik bağlama* kullanarak bir Power BI raporu eklerken, kullanıcının kimlik bilgilerine bağlı olarak aynı raporu farklı veri kümelerine bağlayabilirsiniz.
  

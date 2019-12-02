@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880466"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311502"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Eklenen sayfalandırılmış raporlarda satır düzeyinde güvenlik uygulama (önizleme)
 
@@ -30,7 +30,7 @@ Bir Power BI sayfalandırılmış raporuna satır düzeyi güvenlik uygulamak i�
 
 Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API'sini kullanarak ekleme belirtecini alabilirsiniz.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>UserID özniteliğini rapor veya sorgu düzeyinde filtre olarak kullanma
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID özniteliğini rapor veya sorgu düzeyinde filtre olarak kullanma
 
 **UserId** özniteliğini [Power BI Sayfalandırılmış Rapor Oluşturucusu](../report-builder-power-bi.md)'nda veri kaynağı için bir *filtre* veya *sorgu* olarak kullanabilirsiniz.
 
@@ -66,7 +66,7 @@ Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenFor
 
     ![Power BI Rapor Oluşturucusu parametreleri](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. **Parametre Adı** alanına **@UserID** girin, **Parametre Değeri** alanına ise **[&UserID]** ekleyin.
+2. **Parametre Adı** alanına **\@UserID** girin, **Parametre Değeri** alanına ise **[&UserID]** ekleyin.
 
     ![Power BI Rapor Oluşturucusu parametre adı](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

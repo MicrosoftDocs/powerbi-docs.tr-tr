@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060441"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164250"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -28,6 +28,10 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 **Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
 <br>Anton Fritz ve Adi Regev
 <br>[4 Aralık'ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**
+<br>Vijay Gopalakrishnan
+<br>[18 Aralık’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 
 ### <a name="getting-started"></a>Kullanmaya Başlama
 
-**Power BI, PowerApps ve Microsoft Flow ile Günlük İşleri Otomatikleştirme**
+**Power BI, Power Apps ve Power Automate ile Günlük İşleri Otomatikleştirme**
 <br>Hazırlayan: Wim Coorevits ve Enrique Plaza Garcia
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Charles Sterling
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Microsoft Flow ile PowerApps'in Toplam Ekonomik Etkisi**
+**Power Automate ile Power Apps’in Toplam Ekonomik Etkisi**
 <br>Jonathan Lipsitz ve Enrique Plaza Garcia
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

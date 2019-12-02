@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099714"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265352"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -30,7 +30,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>Ekim 2019
-* Power BI veri kümelerini yenilemek için yeni Microsoft Flow eylemi.
+* Power BI veri kümelerini yenilemek için yeni Power Automate eylemi.
 * Power BI hizmetinde raporlar ve panolar için [Kişi listesi](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/).
 
 ## <a name="previous-months-2019"></a>Önceki aylar (2019)
@@ -227,7 +227,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Office 365 denetim portalındaki [Power BI denetim günlükleri](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) genel kullanıma açıldı.
 * [Geliştirici araçları ve özel görseller API'lerinin](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 sürümü yayımlandı.
 * [Gerçek zamanlı akış özellik kümesi](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) genel kullanıma açıldı.
-* Tek satır kod yazmadan [Microsoft Flow kullanarak Power BI'a veri iletme](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/).
+* Tek satır kod yazmadan [Power Automate kullanarak Power BI'a veri iletme](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/).
 * Önizleme: Verilerinizden haberdar olmak için [rapor sayfalarına abone olma](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/).
 * Çalışanlarınızın ve iş ortaklarınızın Azure AD kullanımları hakkında daha fazla bilgi almak için Azure AD İçerik Paketini kullanma.
 
@@ -530,7 +530,6 @@ Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI B
 
 * Hızlı Öngörüler sayesinde veri kümelerindeki eğilimleri ve desenleri otomatik olarak keşfetme: [video](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) veya [makale](consumer/end-user-insights.md)
 * [VMob verilerinizi Power BI'da görselleştirme](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Power BI ile Cortana tümleştirmesi](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Kuruluşlar için Power BI ağ geçidi önizlemesi](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Yeni içerik paketi tanıtımı: [Bing Arama Analitiği Power BI panolarında](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
 * Yeni Geliştirici odaklı geliştirmeler: [İki yeni API ve daha kolay uygulama kaydı](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

@@ -8,22 +8,20 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 01c3d7ac00ec4aa50373e36e1732d4eda55b280c
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875352"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410808"
 ---
 # <a name="the-importance-of-query-folding"></a>Sorguyu kaynağa döndürmenin önemi
 
 Bu makale Power BI Desktop’ta model geliştiren veri modelleyicilerine yöneliktir. Sorguyu kaynağa döndürmenin ne olduğunu ve neden önemli olduğunu açıklar. Ayrıca, sorguyu kaynağa döndürmeyi sağlayabilecek veri kaynakları ile dönüşümleri ve Power Query sorgularınızın tamamen ya da kısmen kaynağa döndürülebileceğinin nasıl belirlendiğini açıklar. Son olarak, sorguyu kaynağa döndürmenin ne zaman ve nasıl gerçekleştirileceğine ilişkin en iyi uygulama yönergelerini sağlar.
 
-## <a name="background"></a>Arka Plan
-
 Sorguyu kaynağa döndürme, bir Power Query sorgusunun kaynak verileri almak ve dönüştürmek üzere tek bir sorgu deyimi oluşturma becerisidir. Power Query karma altyapısı, bir Power BI model tablosunu temel alınan veri kaynağına bağlayacak en verimli yolu verdiği için mümkün olan her durumda sorguyu kaynağa döndürmek için çabalar.
 
-Sorguyu kaynağa döndürme birkaç nedenden dolayı veri modellemenin önemli bir konusudur:
+Sorguyu kaynağa döndürme birkaç nedenden dolayı veri modellemenin önemli bir kavramıdır:
 
 - **İçeri aktarma model tabloları:** Veri yenileme işlemi kaynak kullanımı ve yenileme süresi bakımından İçeri aktarma model tabloları için verimli bir şekilde gerçekleşir
 - **DirectQuery ve İkili depolama modu tabloları:** Her DirectQuery ve İkili depolama modu tablosu, kaynağa döndürülebilen bir Power Query sorgusunu temel almalıdır
@@ -35,11 +33,11 @@ Veri modelleyicilerin mümkün olan her durumda sorguyu kaynağa döndürme işl
 
 ## <a name="sources-that-support-query-folding"></a>Sorguyu kaynağa döndürmeyi destekleyen kaynaklar
 
-Sorgu dili kavramına sahip olan çoğu veri kaynağı, sorguyu kaynağa döndürmeyi destekler. Buna ilişkisel veritabanları, OData akışları (SharePoint listeleri dahil), Exchange ve Active Directory dahildir. Öte yandan düz dosyalar, bloblar ve web genellikle bu desteği vermez.
+Sorgu dili kavramına sahip olan çoğu veri kaynağı, sorguyu kaynağa döndürmeyi destekler. Bu veri kaynaklarına ilişkisel veritabanları, OData akışları (SharePoint listeleri dahil), Exchange ve Active Directory dahildir. Öte yandan düz dosyalar, bloblar ve web genellikle bu desteği vermez.
 
 ## <a name="transformations-that-can-achieve-query-folding"></a>Sorguyu kaynağa döndürmeyi gerçekleştirebilen dönüşümler
 
-Sorguyu kaynağa döndürebilen ilişkisel veri kaynağı dönüşümleri tek bir SELECT deyimi olarak yazılabilir. SELECT deyimi uygun WHERE, GROUP BY ve JOIN yan tümceleri ile oluşturulabilir. Ayrıca, SQL veritabanları tarafından desteklenen yaygın yerleşik işlevleri kullanan sütun ifadeleri (hesaplamalar) içerebilir.
+Sorguyu kaynağa döndürebilen ilişkisel veri kaynağı dönüşümleri tek bir SELECT deyimine yazılabilir. SELECT deyimi uygun WHERE, GROUP BY ve JOIN yan tümceleri ile oluşturulabilir. Ayrıca, SQL veritabanları tarafından desteklenen yaygın yerleşik işlevleri kullanan sütun ifadeleri (hesaplamalar) içerebilir.
 
 Genel olarak, aşağıdaki madde işaretli listede sorguyu kaynağına döndürebilen dönüşümler açıklanmaktadır.
 
@@ -50,7 +48,7 @@ Genel olarak, aşağıdaki madde işaretli listede sorguyu kaynağına döndüre
 - İki kaynak tablonun birleşimini gerçekleştirecek kayıt sütunlarını (kaynak yabancı anahtar sütunları) genişletme (JOIN yan tümcesi)
 - Aynı kaynağı temel alan kaynağa döndürülebilir sorguların benzer olmayan öğelerle birleştirilmesi (JOIN yan tümcesi)
 - Aynı kaynağı temel alan kaynağa döndürülebilir sorguları ekleme (UNION ALL işleci)
-- _Basit mantık_ ile özel sütunlar ekleme (SELECT sütun ifadeleri). Basit mantık; matematik veya metin işleme işlevleri gibi SQL veri kaynağında eşdeğer işlevleri olan M işlevlerinin kullanılmasını da içerebilen, karmaşık olmayan işlemleri ifade eder. Örneğin, aşağıdaki ifadeler **OrderDate** sütun değerinin yıl bileşenini döndürür (sayısal bir değer döndürmek için).
+- _Basit mantık_ ile özel sütunlar ekleme (SELECT sütun ifadeleri). Basit mantık; matematik veya metin işleme işlevleri gibi SQL veri kaynağında eşdeğer işlevleri olan M işlevlerinin kullanılmasını da içerebilen, karmaşık olmayan işlemleri ifade eder. Örneğin, aşağıdaki ifade **OrderDate** sütun değerinin yıl bileşenini döndürür (sayısal bir değer döndürmek için).
 
     ```powerquery-m
     Date.Year([OrderDate])
@@ -85,7 +83,7 @@ Kaynağa döndürülmüş sorguyu görüntülemek için devam edin ve **Yerel So
 
 ![Yerel sorgu örneği](media/power-query-folding/native-query-example.png)
 
-**Yerel Sorguyu Görüntüle** seçeneği etkin değilse (griyse), tüm sorgu adımlarının kaynağa döndürülemez olduğunu gösterir. Ancak, yine de bir adım alt kümesinin kaynağa döndürülebileceği anlamına gelebilir. Son adımdan geriye doğru giderek, **Yerel Sorguyu Görüntüle** seçeneğinin etkinleşip etkinleşmediğini görmek üzere her bir adımı kontrol edebilirsiniz. Etkinleşiyorsa, adım sırasına göre sorguyu kaynağa döndürmenin artık gerçekleşemediği yeri öğrenmiş olursunuz.
+**Yerel Sorguyu Görüntüle** seçeneği etkin değilse (griyse), tüm sorgu adımlarının kaynağa döndürülemez olduğunu gösterir. Ancak, yine de bir adım alt kümesinin kaynağa döndürülebileceği anlamına gelebilir. Son adımdan geriye doğru giderek, **Yerel Sorguyu Görüntüle** seçeneğinin etkinleşip etkinleşmediğini görmek üzere her bir adımı kontrol edebilirsiniz. Bu olduğunda, adım sırasına göre sorguyu kaynağa döndürmenin artık gerçekleşemediği yeri öğrenmiş olursunuz.
 
 ![Power Query’nin sorguyu kaynağa döndüremediğini belirleme örneği](media/power-query-folding/query-folding-not-example.png)
 
@@ -95,7 +93,7 @@ Kısaca, bir DirectQuery veya İkili depolama modu tablosunda Power Query sorgus
 
 Aşağıdaki madde işaretli listede en iyi yöntem yönergeleri verilmektedir.
 
-- **Veri kaynağını mümkün olduğunca fazla işlemle görevlendirin:** Bir Power Query sorgusunun tüm adımları kaynağa döndürülemediğinde, sorguyu kaynağa döndürmeyi önleyen adımı bulma. Mümkün olduğunda, sorguyu kaynağa döndürme işleminde hesaba katılabilmesi için sonraki adımları sıranın başına taşıma. Power Query karma altyapısının, kaynak sorguyu oluşturduğunda sorgu adımlarınızı yeniden sıralamak için yeterince akıllı olabileceğini unutmayın.
+- **Veri kaynağını mümkün olduğunca fazla işlemle görevlendirin:** Bir Power Query sorgusunun tüm adımları kaynağa döndürülemediğinde, sorguyu kaynağa döndürmeyi önleyen adımı bulma. Mümkün olduğunda, sorguyu kaynağa döndürme işleminde hesaba katılabilmesi için sonraki adımları sıranın başına taşıma. Power Query karma altyapısı, kaynak sorguyu oluşturduğunda sorgu adımlarınızı yeniden sıralamak için yeterince akıllı olabilir.
 
 İlişkisel bir veri kaynağı için, sorgu katlamayı engelleyen adım tek bir SELECT deyiminde veya saklı yordamın yordamsal mantığı dahilinde gerçekleştirilebiliyorsa, bir sonraki bölümde açıklandığı gibi yerel bir sorgu deyimi kullanmayı düşünün.
 
@@ -113,7 +111,7 @@ Aşağıdaki madde işaretli listede en iyi yöntem yönergeleri verilmektedir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Sorguyu Kaynağa Döndürme ve ilgili konu hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
+Sorguyu Kaynağa Döndürme ve ilgili makaleler hakkında daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
 - [Power BI Desktop’ta bileşik modeller kullanma](../desktop-composite-models.md)
 - [Power BI Premium’da artımlı yenileme](../service-premium-incremental-refresh.md)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128046"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265242"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>AppSource'ta Power BI görsellerini yayımlama
 
@@ -25,7 +25,7 @@ ms.locfileid: "74128046"
 
 ## <a name="what-is-appsource"></a>AppSource nedir?
 
-**AppSource**, Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Office 365, Dynamics 365 ve Cortana Intelligence gibi çok sayıda ürünün milyonlarca kullanıcısını; işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlerle bir araya getirir.
+**AppSource**, Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Office 365, Dynamics 365 ve diğer pek çok uygulama çok sayıda ürünün milyonlarca kullanıcısını; işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlerle bir araya getirir.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102077"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265204"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
@@ -49,7 +49,7 @@ Power BI yöneticileri, rapor yazarlarının kolayca keşfedebildiği, güncelle
 
 Hem Topluluk üyeleri hem de Microsoft, genel kamu yararı için Power BI görseli katkısında bulunup bunları [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) markette yayımlamıştır. Bu görselleri indirip Power BI raporlarınıza ekleyebilirsiniz. Microsoft bu Power BI görsellerini işlevsellik ve kalite bakımından test edip onaylamıştır.
 
-[AppSource](office-store.md) nedir? Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulabileceğiniz yerdir. AppSource; Power BI, Office 365, Azure, Dynamics 365 ve Cortana gibi ürünlerin milyonlarca kullanıcısının, işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlanmasını sağlar.
+[AppSource](office-store.md) nedir? Microsoft yazılımınıza yönelik uygulamaları, eklentileri ve uzantıları bulabileceğiniz yerdir. AppSource; Office 365, Azure, Dynamics 365 ve Power BI gibi ürünlerin milyonlarca kullanıcısının, işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlere bağlanmasını sağlar.
 
 ### <a name="certified-visuals"></a>Sertifikalı görseller
 

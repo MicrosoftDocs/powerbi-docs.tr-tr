@@ -1,5 +1,5 @@
 ---
-title: Microsoft Flow ile Power BI tümleştirmesi
+title: Power BI ile Power Automate tümleştirmesi
 description: Power BI veri uyarıları ile tetiklenen Akışlar oluşturmayı öğrenin.
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881836"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164305"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow ve Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Flow ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Flow ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
 
 [Flow'u kullanmaya hemen başlayın.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI veri uyarısıyla tetiklenen bir akış oluşturma
 
 ### <a name="prerequisites"></a>Önkoşullar
-Bu eğitimde, biri şablondan ve diğeri sıfırdan olmak üzere iki farklı akışı nasıl oluşturacağınız gösterilmektedir. Örneği takip edebilmek için, [Power BI'da bir veri uyarısı oluşturun](service-set-data-alerts.md), ücretsiz bir Slack hesabı oluşturun ve [Microsoft Flow'a kaydolun](https://flow.microsoft.com/#home-signup) (ücretsiz!).
+Bu eğitimde, biri şablondan ve diğeri sıfırdan olmak üzere iki farklı akışı nasıl oluşturacağınız gösterilmektedir. Örneği takip edebilmek için, [Power BI'da bir veri uyarısı oluşturun](service-set-data-alerts.md), ücretsiz bir Slack hesabı oluşturun ve [Power Automate’e kaydolun](https://flow.microsoft.com/#home-signup) (ücretsiz!).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI'ı kullanan bir akış oluşturma (şablondan)
 Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit bir akış oluşturmak için şablon kullanacağız.
 
-1. Microsoft Flow'da (flow.microsoft.com) oturum açın.
+1. Power Automate’te oturum açın (flow.microsoft.com).
 2. **Akışlarım**'ı seçin.
    
    ![Akış menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat mada
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI'ı kullanan bir Akış oluşturma (sıfırdan)
 Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir akışı sıfırdan oluşturacağız.
 
-1. Microsoft Flow'da oturum açın.
+1. Power Automate’te oturum açın.
 2. **Akışlarım** > **Boş akış oluştur** seçeneğini belirleyin.
    
    ![Akış üst menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
     ![Outlook bildirimini tetikleyen akış](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Get started with Microsoft Flow (Microsoft Flow ile çalışmaya başlama)](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate kullanmaya başlama](https://flow.microsoft.com/documentation/getting-started/)
 * [Set data alerts in Power BI service (Power BI hizmetinde veri uyarısı oluşturma)](service-set-data-alerts.md)
 * [iPhone'unuzda veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

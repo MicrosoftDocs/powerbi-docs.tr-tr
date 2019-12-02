@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128132"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410813"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 
 Bu makalede klasik bir çalışma alanını yeni çalışma alanı deneyimine yükseltme işlemi açıklanır. Tüm klasik çalışma alanlarını yükseltebilirsiniz. Yeni çalışma alanlarında daha ayrıntılı çalışma alanı rolleri olduğundan, içeriğe erişimi daha iyi yönetebilirsiniz. Yükseltilen çalışma alanlarını daha büyük bir esneklikle yönetebilirsiniz çünkü özgün Office 365 gruplarıyla aralarında daha gevşek bir bağlantı vardır. [Yeni çalışma alanı deneyimi](../service-new-workspaces.md) hakkında bilgi edinin. 
 
 >[!NOTE]
->Bu belge yayın öncesi sürümdür ve henüz kullanıma sunulmamış bir özelliği kapsar. Bunu yayımlamamızın nedeni yeni özelliğe hazırlanabilmenizi ve sürüm öncesinde ortaya çıkabilecek sorularınıza yanıt isteyebilmenizi sağlamaktır.  
+>Çalışma alanı yükseltmesi Genel Önizleme olarak kullanıma sunuldu. 
 
 ![Yükseltme başarılı](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -198,7 +198,15 @@ Bazı kuruluşlar çalışma alanlarının çoğunu veya tümünü yeni çalış
 2. Çalışma alanlarını yükseltmeleri için tek tek Office 365 grubu sahipleriyle veya Office 365 Yöneticinizle birlikte çalışın. Çalışma alanını yükseltmek istiyorsanız grubun Sahibi olmanız gerekir.
 
 Çalışma alanı yükseltme özelliği toplu veya programlı yükseltme için araç sağlamaz. Bunlara ek olarak, kuruluşunuzda yeni oluşturulan Office 365 grupları Power BI'da gösterilmeye devam eder. 
-    
+   
+   
+## <a name="known-issues"></a>Bilinen sorunlar
+
+Bilinen bazı sorunlarla karşılaşabilirsiniz:
+- Yükseltmeden sonra kullanıcılar “Model yüklenemedi” uyarı iletişim kutusunu görebilir. Bu ileti yanlışlıkla gösterilir ve yoksayılabilir. 
+- Yükseltmeden sonra, bazı çalışma alanı adları yükseltmeden önceki adlarından farklı olabilir. Bu sorun oluştuğunda, çalışma alanı adı önceki adlarından birine döndürülür veya boş kalır. Bu sorunu çözmek için çalışma alanını dilediğiniz bir adla yeniden adlandırın.
+- Yüklü içerik paketine sahip olan bir çalışma alanını yükselttikten sonra, çalışma alanında yükseltmeden önce görülemeyen ek panolar görebilirsiniz. Bu sorun, bir içerik paketinin yakın zamanda güncelleştirilmediği bazı durumlarda oluşur. Bu panoları güvenli bir şekilde kaldırabilirsiniz.
+
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
