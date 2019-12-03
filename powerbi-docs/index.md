@@ -9,10 +9,10 @@ author: maggiesMSFT
 ms.topic: hub-page
 ms:date: 11/14/2019
 ms.openlocfilehash: aec7fc7cace8ec16eb0bf511e32402f56279cf2a
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "74178305"
 ---
 <div id="main" class="v2">
