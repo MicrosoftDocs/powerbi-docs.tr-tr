@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881515"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164174"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI 'de kişisel ağ geçitleri kullanma
 
@@ -31,7 +31,7 @@ Aşağıdaki tablo, şirket içi veri ağ geçidi ve şirket içi veri ağ geçi
 
 |   |Şirket içi veri ağ geçidi | Şirket içi veri ağ geçidi (kişisel mod) |
 | ---- | ---- | ---- |
-|Desteklenen bulut hizmetleri |Power BI, PowerApps, Azure Logic Apps, Microsoft Flow, Azure Analysis Services, veri akışları |Power BI |
+|Desteklenen bulut hizmetleri |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, veri akışları |Power BI |
 |Çalıştırmalar |Ağ geçidine erişimi olan kullanıcılar tarafından yapılandırıldığı gibi |Windows kimlik doğrulaması için ve diğer kimlik doğrulaması türleri için sizin tarafınızdan yapılandırıldığı gibi |
 |Sadece bilgisayar yöneticisi olarak yüklenebilir |Evet |Hayır |
 |Merkezi ağ geçidi ve veri kaynağı yönetimi |Evet |Hayır |

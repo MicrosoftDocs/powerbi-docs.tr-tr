@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128179"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311740"
 ---
 # <a name="conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme 
 Tablolar için koşullu biçimlendirme sayesinde hücre değerlerine göre (veya başka değerlere ya da alanlara göre) özel hücre renkleri belirtebilir ve gradyan renklerini kullanabilirsiniz. Ayrıca, veri çubukları ile hücre değerlerini gösterebilirsiniz. 
@@ -139,7 +139,7 @@ Görsellerinizi renklendirmek için [https://www.w3.org/TR/css-color-3/](https:/
 Koşul tablo biçimlendirme ile çalışırken dikkat etmeniz gereken birkaç önemli nokta vardır:
 
 * Koşullu biçimlendirme yalnızca **Matris** görselinin değerlerine uygulanır ve alt toplamlar ya da genel toplamlar için uygulanmaz. 
-* **Toplam** satırına koşullu biçimlendirme uygulanmaz
+* **Toplam** satırına koşullu biçimlendirme uygulanmaz.
 * Gruplandırması olmayan Tablolar, koşullu biçimlendirmeyi desteklemeyen tek bir satır olarak görüntülenir.
 * Otomatik maksimum/minimum değerler veya yüzde kuralları ile kurala dayalı biçimlendirme içeren gradyan biçimini kullanırsanız, verileriniz NaN değerlerini içerdiğinde koşullu biçimlendirme uygulanamaz. NaN, ‘Sayı değil’ anlamına gelir ve genellikle sıfıra bölme hatasından kaynaklanır. Bu hataları engellemek için [DIVIDE() DAX işlevini](https://docs.microsoft.com/dax/divide-function-dax) kullanabilirsiniz.
 

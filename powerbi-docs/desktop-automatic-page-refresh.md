@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878763"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164142"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -105,9 +105,9 @@ Power BI Desktop’ın yenileme aralığı için bir kısıtlaması yoktur; yeni
 
 Power BI hizmetinde, Premium hizmetlerinin kullanılıp kullanılmadığına bakılmaksızın, çalışma alanı gibi faktörlere göre otomatik sayfa yenileme kısıtlamaları uygulanır.
 
-Bunun nasıl çalıştığını netleştirmek için, [kapasiteler ve çalışma alanları](whitepaper-powerbi-premium-deployment.md#capacities) ile ilgili arka plan bilgileriyle başlayalım
+Bunun nasıl çalıştığını netleştirmek için, kapasiteler ve çalışma alanları ile ilgili arka plan bilgileriyle başlayalım:
 
-**Kapasiteler**, Power BI içeriğini barındırmak ve sunmak için kullanılan bir dizi kaynağı (depolama, işlemci ve bellek) temsil eden temel bir Power BI kavramıdır. Kapasiteler paylaşımlı veya ayrılmıştır. **Paylaşılan Kapasite** diğer Microsoft müşterileriyle paylaşılırken, **Ayrılmış Kapasite** ise tamamen tek bir müşteriye ayrılmıştır. Ayrılmış kapasiteler, [premium kapasiteler](whitepaper-powerbi-premium-deployment.md#capacities) makalesinde sunulmaktadır.
+**Kapasiteler**, Power BI içeriğini barındırmak ve sunmak için kullanılan bir dizi kaynağı (depolama, işlemci ve bellek) temsil eden temel bir Power BI kavramıdır. Kapasiteler paylaşımlı veya ayrılmıştır. **Paylaşılan Kapasite** diğer Microsoft müşterileriyle paylaşılırken, **Ayrılmış Kapasite** ise tamamen tek bir müşteriye ayrılmıştır. Ayrılmış kapasiteler, [Yönetilen Premium kapasiteler](service-premium-capacity-manage.md) makalesinde sunulmaktadır.
 
 Paylaşılan kapasitede iş yükleri, diğer müşterilerle paylaşılan hesaplama kaynaklarında çalışır. Kapasitenin kaynakları paylaşması gerektiğinden, *tarafsızlığı* sağlamak için maksimum model boyutu (1 GB) ve maksimum günlük yenileme sıklığı (günde sekiz defa) ayarlama gibi sınırlamalar uygulanır.
 
@@ -123,7 +123,7 @@ Burada, iki çalışma alanı senaryosu için bazı ayrıntılara yer verilmişt
 
  2. *Minimum yenileme aralığı*: Özellik etkinleştirilirken, kapasite yöneticinizin bir minimum yenileme aralığı ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar.
 
-Aşağıdaki tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](whitepaper-powerbi-premium-deployment.md#model-storage-modes) ilişkin sınırlar açıklanmaktadır
+Aşağıdaki tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](service-dataset-modes-understand.md) ilişkin sınırlar açıklanmaktadır
 
 | Depolama Modu | Ayrılmış Kapasite | Paylaşılan Kapasite |
 | --- | --- | --- |
