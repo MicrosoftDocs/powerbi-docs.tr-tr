@@ -16,10 +16,18 @@
           href: import-modeling-data-reduction.md
         - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
           href: dax-divide-function-operator.md
+        - name: VALUES yerine SELECTEDVALUE kullanma
+          href: dax-selectedvalue.md
         - name: Sorguyu kaynağa döndürmenin önemi
           href: power-query-folding.md
         - name: Hata işlevlerinin uygun kullanımı
           href: dax-error-functions.md
+        - name: Formülleri iyileştirmek için değişkenleri kullanma
+          href: dax-variables.md
+        - name: COUNT yerine COUNTROWS
+          href: dax-countrows.md
+        - name: BOŞLUKLARI değerlere dönüştürmekten kaçınma
+          href: dax-avoid-converting-blank.md
         - name: Veri akışları için en iyi uygulamalar
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop’ta DirectQuery modeli kılavuzu

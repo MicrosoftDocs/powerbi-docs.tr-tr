@@ -15,6 +15,8 @@
               href: power-bi-custom-visuals.md
         - name: Öğreticiler
           items:
+            - name: Görsel kavram
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI görseli geliştirme
               href: visuals/custom-visual-develop-tutorial.md
             - name: Biçimlendirme seçenekleri ekleme
@@ -67,6 +69,8 @@
               href: visuals/high-contrast-support.md
             - name: Eşitleme dilimleyicilerini etkinleştirme
               href: visuals/enable-sync-slicers.md
+            - name: Detaya gitme desteği ekleme
+              href: visuals/drill-down-support.md
             - name: Power BI görselleriyle ilgili sorunları giderme
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Başvuru
@@ -81,8 +85,14 @@
               href: visuals/event-service.md
             - name: Sıralama
               href: visuals/sort-options.md
-            - name: Etkileşim yardımcı programları
-              href: visuals/utils-interactivity-selections.md
+            - name: Localization (Yerelleştirme)
+              href: visuals/localization.md
+            - name: Power BI Görsel yardımcı programları
+              items:
+                - name: Etkileşim yardımcı programları
+                  href: visuals/utils-interactivity-selections.md
+                - name: Biçimlendirme yardımcı programları
+                  href: visuals/utils-formatting.md
         - name: Kaynaklar
           items:
             - name: Geliştirme Merkezi

@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9f7c745ad251fdb81c7898130cd3ca6c5d32af9
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164142"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548555"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -83,7 +83,7 @@ Daha sonra, kapasite yöneticisi olarak performans sorunlarını nasıl algılay
 
 Ayrıca, Power BI Desktop’ta yazılmış ve Power BI hizmetinde yayımlanmış olan raporlar için de otomatik sayfa yenilemeyi ayarlayabilirsiniz. 
 
-Power BI hizmetindeki raporlar için otomatik sayfa yenileme, Power BI Desktop’taki yapılandırmaya benzer adımlarla yapılandırılır. Aşağıdaki görüntüde, Power BI hizmeti için **Page yenileme**  yapılandırması gösterilmektedir:
+Power BI hizmetindeki raporlar için otomatik sayfa yenileme, Power BI Desktop’taki yapılandırmaya benzer adımlarla yapılandırılır. Power BI hizmetinde yapılandırıldığında, otomatik sayfa yenileme [eklenmiş Power BI](developer/embedding.md) içeriğini de destekler. Aşağıdaki görüntüde, Power BI hizmeti için **Page yenileme**  yapılandırması gösterilmektedir:
 
 ![Power BI hizmetinde otomatik sayfa yenileme](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
