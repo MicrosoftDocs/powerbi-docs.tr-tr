@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Rapora yer işareti ekleme
               href: end-user-bookmarks.md
+            - name: Sayfalandırılmış raporlar
+              href: end-user-paginated-report.md
         - name: Görselleştirmeler
           items:
             - name: Görselleştirmeler ile ne yapabilirim?
