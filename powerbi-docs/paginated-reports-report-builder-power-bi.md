@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874723"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565717"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -21,9 +21,9 @@ SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandır
 
 Sayfalandırılmış raporlar birçok sayfadan oluşabilir. Örneğin bu raporun 563 sayfası vardır. Her biri tam olarak her fatura için bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde düzenlenmiştir.
 
-![Sayfalandırılmış](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+[Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)’yı deneyin.
 
-![Power BI hizmetinde sayfalandırılmış rapor](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Sayfalandırılmış](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından https://app.powerbi.com Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](service-admin-premium-workloads.md#paginated-reports) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
 
@@ -87,6 +87,6 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
 - [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
 - [Verileri doğrudan sayfalandırılmış bir rapora girme](paginated-reports-enter-data.md)
-
+- [Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ad657da4e0a81c6b3b9845d9c130755334f5a97f
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860133"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565726"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
 Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konulan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki bir kişi için başvuru noktası oluşturur.
@@ -56,7 +56,10 @@ Yük testi çalıştırmalarında kullanılan testlere, [Reporting Services Load
 * Sayfalandırılmış küçük ve büyük raporların işlenmesinin benzetiminin yapıldığı testler ve 
 * Çeşitli türlerde web portalı işlemlerinin gerçekleştirilmesinin benzetiminin yapıldığı testler. 
 
-Tüm testler, uçtan uca bir işlem (rapor işleme, yeni bir veri kaynağı oluşturma vb.) gerçekleştirmeye yönelik olarak yazılmıştır. Bunu, rapor sunucusuna yönelik bir veya daha fazla web isteğinde bulunarak (API'ler aracılığıyla) gerçekleştirirler. Gerçek dünyada, bir kullanıcının bu uçtan uca işlemleri tamamlaması için birkaç ara işlem gerçekleştirmesi gerekebilir. Örneğin, kullanıcının, bir raporu işlemek için web portalına erişmesi, raporun bulunduğu klasöre gitmesi ve ardından işlemi gerçekleştirmek üzere rapora tıklaması gerekir. Testler uçtan uca bir görevi tamamlamak için gereken tüm işlemleri gerçekleştirmese de Power BI Rapor Sunucusu’nun deneyimleyeceği yükü büyük oranda yansıtmaktadır. GitHub projesini inceleyerek, kullanılan farklı rapor türlerinin yanı sıra gerçekleştirilen çeşitli işlemler hakkında daha fazla bilgi edinebilirsiniz.
+Tüm testler, uçtan uca bir işlem (rapor işleme, yeni bir veri kaynağı oluşturma vb.) gerçekleştirmeye yönelik olarak yazılmıştır. Bunu, rapor sunucusuna yönelik bir veya daha fazla web isteğinde bulunarak (API'ler aracılığıyla) gerçekleştirirler. Gerçek dünyada, bir kullanıcının bu uçtan uca işlemleri tamamlaması için birkaç ara işlem gerçekleştirmesi gerekebilir. Örneğin, kullanıcının, bir raporu işlemek için web portalına erişmesi, raporun bulunduğu klasöre gitmesi ve ardından işlemi gerçekleştirmek üzere rapora tıklaması gerekir. Testler uçtan uca bir görevi tamamlamak için gereken tüm işlemleri gerçekleştirmese de Power BI Rapor Sunucusu’nun deneyimleyeceği yükü büyük oranda yansıtmaktadır. GitHub projesini inceleyerek, kullanılan farklı rapor türlerinin yanı sıra gerçekleştirilen çeşitli işlemler hakkında daha fazla bilgi edinebilirsiniz.  
+
+> [!NOTE]
+> Araç Microsoft tarafından resmi olarak desteklenmez, ancak ürün ekibi projeye katkıda bulunur ve diğer katkıda bulunanlar tarafından oluşturulan sorunları yanıtlar.
 
 ### <a name="workloads"></a>İş Yükleri
 Testte kullanılan 2 iş yükü profili vardır: Power BI Report Heavy ve Paginated Report Heavy. Aşağıdaki tabloda, Rapor Sunucusu'na yönelik olarak yürütülen dağıtım istekleri açıklanmıştır.
@@ -133,12 +136,11 @@ Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işl
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest aracını çalıştırma
 Reporting Services LoadTest aracını Power BI Rapor Sunucusu'na ilişkin Microsoft Azure dağıtımınızda çalıştırmak için aşağıdaki adımları uygulayın.
 
-1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest) ) Reporting Services LoadTest projesini kopyalayın.
+1. GitHub'daki (https://github.com/Microsoft/Reporting-Services-LoadTest) ) Reporting Services LoadTest projesini kopyalayın.  
 2. Proje dizininde, RSLoadTests.sln adlı bir çözüm dosyası bulunur. Bu dosyayı Visual Studio 2015 veya sonraki bir sürümünde açın.
 3. Bu aracı Power BI Rapor Sunucusu dağıtımınızda mı yoksa Microsoft Azure'daki bir Power BI Rapor Sunucusu dağıtımında mı çalıştırmak istediğinize karar verin. Aracı kendi dağıtımınızda çalıştırmak istiyorsanız 5. adıma gidin.
 4. Azure'da bir Power BI Rapor Sunucusu ortamı oluşturmak için https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure bölümünde listelenen yönergeleri izleyin.
 5. Ortamı dağıtma işlemini tamamladıktan sonra, testleri çalıştırmak üzere https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution sayfasında listelenen yönergeleri uygulayın.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
 

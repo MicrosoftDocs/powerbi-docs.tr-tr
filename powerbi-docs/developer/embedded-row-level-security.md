@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875815"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478655"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -333,8 +333,7 @@ Yönetim portalını kullanarak bu izni ayarlayamazsınız. Bu izin yalnızca AP
 
 ### <a name="token-based-identity-limitations"></a>Belirteç Tabanlı Kimlik sınırlamaları
 
-* Bu özellik kullanımı yalnızca Power BI Premium ile kısıtlar.
-* Bu özellik SQL Server şirketi içi ile çalışmaz.
-* Bu özellik Multi-Geo ile çalışmaz.
+* RLS’yi yalnızca ayrılmış bir kapasiteniz varsa kullanabilirsiniz.
+* RLS SQL Server şirket içi ile çalışmaz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

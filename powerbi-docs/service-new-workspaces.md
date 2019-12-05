@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2019
+ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099682"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565328"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -60,7 +60,7 @@ Roller çalışma alanında kimlerin neler yapabileceğini yönetmenizi sağlar 
 
 Bir kullanıcı grubuna roller atadığınızda, gruptaki kişiler içeriğe erişim sahibi olur. İç içe kullanıcı gruplarınız varsa, kapsam içinde yer alan tüm kullanıcıların izni olur.
 
-Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar ve görüntüleyiciler. Bu özelliklerin sonuncusu hariç tamamı için bir Power BI Pro lisansı gerekir.
+Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar ve görüntüleyiciler. Görüntüleme ve etkileşim dışında bu özelliklerin tamamı için bir Power BI Pro lisansı gerekir.
 
 |Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
 |---|---|---|---|---|
@@ -72,15 +72,15 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |   |
 | Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
 | Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
-| Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun. |  X | X  | X  |   |
-| Bir raporu kopyalayın. | X | X | X |  |
-| Öğeleri açın ve öğelerle etkileşim kurun. |  X | X  | X  | X  |
+| Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun.<sup>1</sup> |  X | X  | X  |   |
+| Bir raporu kopyalayın.<sup>1</sup> | X | X | X |  |
+| Öğeleri açın ve öğelerle etkileşim kurun.<sup>2</sup> |  X | X  | X  | X  |
 
-> [!NOTE]
->Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için kişilerin ek ölçütlere uyması gerekir:
->- Power BI Pro lisansına ihtiyaçları vardır. Ayrıntılar için sonraki kısım olan [Lisanslama](#licensing)’ya bakın.
->- Veri kümesi için Oluşturma izinleri olmalıdır. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla Oluşturma izinleri olur.
- 
+1. Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için ek ölçütlere uymanız gerekir:
+    - Power BI Pro lisansına ihtiyacınız vardır. Ayrıntılar için sonraki kısım olan [Lisanslama](#licensing)’ya bakın.
+    - Veri kümesi için Oluşturma izniniz olmalıdır. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla Oluşturma izinleri olur.
+2. Power BI Pro lisansınız olmasa bile, öğeler Premium kapasitedeki bir çalışma alanında yer alıyorsa Power BI hizmetinde öğeleri görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
+
 ## <a name="licensing"></a>Lisanslama
 Paylaşılan bir kapasitedeki çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. Bu kullanıcılar çalışma alanında hep birlikte, daha geniş bir kitleye, hatta tüm kuruluşunuza dağıtmayı planladığınız panolar ve raporlar üzerinde işbirliği yapabilir. 
 

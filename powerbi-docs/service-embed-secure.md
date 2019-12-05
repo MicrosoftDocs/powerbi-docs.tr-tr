@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 11/27/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877073"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565750"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -118,6 +118,8 @@ report.src = newUrl;
 Alt düzey kodlu özel bir deneyim oluşturmak için istediğiniz kadar çok düğme ekleyebilirsiniz. 
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+
+* Sayfalandırılmış raporlar güvenli ekleme senaryolarında desteklenir ve URL parametrelerine sahip sayfalandırılmış raporlar da desteklenir. [Sayfalandırılmış rapor için bir URL’deki rapor parametrelerini geçirme](report-builder-url-pass-parameters.md) hakkında daha fazla bilgi edinin.
 
 * Azure işletmeler arası (B2B) ile dışarıdan konuk kullanıcıları desteklemez.
 

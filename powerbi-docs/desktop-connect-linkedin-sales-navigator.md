@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016262"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565633"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop'ta LinkedIn Satış Gezgini’ne bağlanma
 
@@ -37,7 +37,7 @@ Aşağıdaki video **LinkedIn Satış Gezgini** şablon uygulamasını kullanmay
 
 Henüz geliştirme aşamasında olan bir üçüncü taraf bağlayıcıya bağlandığınız bildirilir. 
 
-![Üçüncü taraf uyarısı](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-03.png)
+![Üçüncü taraf uyarı](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-03.png)
 
 **Devam**'ı seçtiğinizde hangi verileri istediğiniz belirtmeniz istenir.
 
@@ -80,7 +80,7 @@ Uygulamayı indirdiğinizde verilerinize bağlanmayı veya örnek verilerle uygu
 Şablon uygulaması bilgilerinizi analiz etmeye ve paylaşmaya yardımcı olmak için dört sekme sağlar:
 
 * Kullanım
-* Arama
+* Ara
 * InMail
 * SSI
 
@@ -111,6 +111,10 @@ Burada kaç günlük verilerin yükleneceğini seçerek kendi verilerinize bağl
 Şablon uygulaması, uygulamadaki verileri kendi verilerinizle yeniler. Uygulamanızdaki verilerin yenileme sıklığınızda belirtilen düzeyde güncel olması için bir zamanlanmış yenileme de ayarlayabilirsiniz. 
 
 Veriler güncelleştirildikten sonra uygulamanın sizin verilerinizle doldurulduğunu görebilirsiniz.
+
+## <a name="getting-help"></a>Yardım alma
+
+Verilerinize bağlanırken sorunlarla karşılaşırsanız, https://www.linkedin.com/help/sales-navigator adresinden LinkedIn Satış Gezgini desteğine başvurabilirsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

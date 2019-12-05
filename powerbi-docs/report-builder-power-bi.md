@@ -1,7 +1,7 @@
 ---
 title: Power BI Sayfalandırılmış Rapor Oluşturucusu
 description: Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076073"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565283"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Power BI Sayfalandırılmış Rapor Oluşturucusu
 
  Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
+
+[Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)’yı deneyin.
 
 Videolardan öğrenmeyi mi tercih ediyorsunuz? Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki Power BI sayfalandırılmış raporlar video serisine göz atın.
 
@@ -61,5 +63,5 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
-
+- [Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki [Power BI sayfalandırılmış raporlar video serisini](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) izleyin

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874129"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565767"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -21,9 +21,9 @@ Power BI Rapor Sunucusu'nu nasıl yükleyeceğinizi öğrenin.
 
 ## <a name="download-power-bi-report-server"></a>Power BI Rapor Sunucusunu indirin
 
-Microsoft İndirme Merkezi'nden [Power BI Rapor Sunucusu'nu indirin](https://www.microsoft.com/download/details.aspx?id=56722).
+[Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasında **Ücretsiz denemeyi indirin** öğesini seçin.
 
-Ücretsiz bir deneme sürümü de vardır. [Power BI Rapor Sunucusu ile şirket içi raporlama](https://powerbi.microsoft.com/report-server/) sayfasında **Ücretsiz denemeyi indirin** öğesini seçin.
+PowerBIReportServer.exe dosyasını çalıştırdığınızda, ücretsiz denemeyi seçebilir veya ürün anahtarınızı girebilirsiniz. Ayrıntılar için okumaya devam edin.
 
 ## <a name="before-you-install"></a>Yüklemeden önce
 
@@ -43,7 +43,7 @@ Ayrıntılar için okumaya devam edin.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Power BI Premium'u satın aldıysanız Power BI yönetici portalının **Premium ayarları** sekmesine giderek Power BI Rapor Sunucusu ürün anahtarınıza erişebilirsiniz. Bu yalnızca Power BI hizmeti yönetici rolüne atanan kullanıcılar veya Genel Yöneticiler tarafından kullanılabilir.
+Power BI Premium’u satın aldıysanız Power BI yönetici portalının **Premium ayarları** sekmesine giderek Power BI Rapor Sunucusu ürün anahtarınıza erişebilirsiniz. Yönetici portalı yalnızca Genel Yöneticiler veya Power BI hizmet yöneticisi rolüne atanan kullanıcılar tarafından kullanılabilir.
 
 ![Premium ayarları](../report-server/media/install-report-server/pbirs-product-key.png "Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı")
 
@@ -70,7 +70,7 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
     ![Sürüm seçme](media/install-report-server/pbireportserver-choose-edition.png)
 
-    Açılan menüde bulunan Değerlendirme veya Geliştirici sürümünü seçebilirsiniz.
+    Değerlendirme veya Geliştirici sürümünü seçin.
 
     ![Sürüm 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 4. Lisans hüküm ve koşullarını okuyup kabul ettikten sonra **İleri**'yi seçin.
 
     ![Lisans koşulları](media/install-report-server/pbireportserver-eula.png)
-5. Rapor sunucusu veritabanını depolamak için bir Veritabanı Altyapısı sunucusuna ihtiyacınız yoktur. Yalnızca rapor sunucusunu yüklemek için **İleri**'yi seçin.
+5. Rapor sunucusu veritabanını depolamak için kullanılabilir bir Veritabanı Altyapısı sunucunuzun olması gerekir. Yalnızca rapor sunucusunu yüklemek için **İleri**'yi seçin.
 
     ![Yalnızca dosyaları yükleme](media/install-report-server/pbireportserver-install-files-only.png)
 6. Rapor sunucusunun yükleneceği konumu belirtin. Devam etmek için **Yükle**'yi seçin.
@@ -95,11 +95,11 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
 Kurulumda **Rapor Sunucusunu Yapılandır**'ı seçtiğinizde Reporting Services Yapılandırma Yöneticisi açılır. Daha fazla bilgi için bkz. [Reporting Services Yapılandırma Yöneticisi](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
-Reporting Services'in ilk yapılandırmasını tamamlamak için [rapor sunucusu veritabanı oluşturmanız](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) gerekir. Bu adımı tamamlamak için bir SQL Server Veritabanı sunucusu gerekir.
+Reporting Services’in ilk yapılandırmasını tamamlamak için [rapor sunucusu veritabanı oluşturmanız](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) gerekir. Bu adımı tamamlamak için bir SQL Server Veritabanı sunucusu gerekir.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Farklı bir sunucuda veritabanı oluşturma
 
-Rapor sunucusu veritabanını farklı bir makinedeki veritabanı sunucusunda oluşturuyorsanız rapor sunucusuna ilişkin hizmet hesabını, veritabanı sunucusunda tanınan bir hesap olarak değiştirmeniz gerekir. 
+Rapor sunucusu veritabanını farklı bir makinedeki veritabanı sunucusunda oluşturuyorsanız rapor sunucusuna ilişkin hizmet hesabını, veritabanı sunucusunda tanınan bir hesap olarak değiştirin. 
 
 Rapor sunucusu varsayılan olarak sanal hizmet hesabını kullanır. Farklı bir sunucuda veritabanı oluşturmaya çalışırsanız Bağlantı hakları uygulanıyor adımında aşağıdaki hatayı alabilirsiniz.
 
@@ -137,9 +137,9 @@ Eksiksiz bir URL dizesi örneği şu şekildedir:
 
 ## <a name="firewall"></a>Güvenlik duvarı
 
-Rapor sunucusuna uzak makineden erişiyorsanız gerekli güvenlik duvarı (varsa) kurallarını yapılandırdığınızdan emin olmanız gerekir.
+Rapor sunucusuna uzak makineden erişiyorsanız gerekli güvenlik duvarı (varsa) kurallarını yapılandırdığınızdan emin olun.
 
-Web Hizmeti URL'niz ve Web Portalı URL'niz için yapılandırmış olduğunuz TCP bağlantı noktasını açmanız gerekir. Varsayılan olarak, bu URL'ler 80 numaralı TCP bağlantı noktası üzerinde yapılandırılır.
+Web Hizmeti URL'niz ve Web Portalı URL'niz için yapılandırmış olduğunuz TCP bağlantı noktasını açın. Varsayılan olarak, bu URL’ler 80 numaralı TCP bağlantı noktası üzerinde yapılandırılır.
 
 ## <a name="additional-configuration"></a>Ek yapılandırma
 
