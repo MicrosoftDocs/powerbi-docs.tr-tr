@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: Rapora yer işareti ekleme
               href: end-user-bookmarks.md
-            - name: Sayfalandırılmış raporlar
-              href: end-user-paginated-report.md
+            - name: Power BI’daki sayfalandırılmış raporlar
+              items:
+                - name: Sayfalandırılmış raporlar
+                  href: end-user-paginated-report.md
+                - name: Sayfalandırılmış rapor görüntüleme
+                  href: paginated-reports-view-power-bi-service.md
+                - name: Parametrelerle etkileşim kurma
+                  href: paginated-reports-view-parameters.md
+                - name: Kendinizin veya başkalarının abone olmasını sağlama
+                  href: paginated-reports-subscriptions.md
         - name: Görselleştirmeler
           items:
             - name: Görselleştirmeler ile ne yapabilirim?

@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Veri kökeni
           href: service-data-lineage.md
-        - name: Power BI’daki sayfalandırılmış raporlar
-          items:
-            - name: Sayfalandırılmış rapor görüntüleme
-              href: paginated-reports-view-power-bi-service.md
-            - name: Desteklenen veri kaynakları
-              href: paginated-reports-data-sources.md
-            - name: Parametrelerle etkileşim kurma
-              href: paginated-reports-view-parameters.md
-            - name: Kendinizin veya başkalarının abone olmasını sağlama
-              href: paginated-reports-subscriptions.md
         - name: Şablon uygulamalar
           items:
             - name: Şablon uygulamalara genel bakış
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Rapor Oluşturucusu verileri
           href: report-builder-data.md
+        - name: Desteklenen veri kaynakları
+          href: paginated-reports-data-sources.md
         - name: Power BI paylaşılan veri kümelerini kullanma
           href: report-builder-shared-datasets.md
         - name: Tasarım ipuçları
