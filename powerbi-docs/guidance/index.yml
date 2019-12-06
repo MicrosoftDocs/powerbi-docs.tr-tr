@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: f0ce469a57eb36d53769272feaff1b124c2a77ff
-  ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+  ms.openlocfilehash: e95a60b0927592bfac06f05f84158449803f421b
+  ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/02/2019
-  ms.locfileid: "74695255"
+  ms.lasthandoff: 12/05/2019
+  ms.locfileid: "74830715"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -59,3 +59,11 @@ landingContent:
     links:
     - text: Veri akışları için en iyi yöntemler
       url: ../service-dataflows-best-practices.md
+- title: Raporlama
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Rapor sayfası araç ipuçlarıyla görselleri genişletme
+      url: report-page-tooltips.md
+    - text: Rapor sayfasını detaylandırma
+      url: report-drillthrough.md

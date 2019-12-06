@@ -32,6 +32,10 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
           href: directquery-model-guidance.md
+        - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
+          href: report-page-tooltips.md
+        - name: Rapor sayfasını detaylandırma
+          href: report-drillthrough.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
