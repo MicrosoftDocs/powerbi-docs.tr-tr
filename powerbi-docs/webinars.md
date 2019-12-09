@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478639"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882769"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -24,10 +24,6 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 **Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**
 <br>Gayle Sheppard ve John Macintyre
 <br>[Hemen kaydolun](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
-<br>Anton Fritz ve Adi Regev
-<br>[4 Aralık'ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**
 <br>Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
+
+**Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
+<br>Anton Fritz ve Adi Regev
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI ile Modern ve Kurumsal İş Zekasının Geleceği**
 <br>Hazırlayan: Arun Ulag ve Amir Netz
