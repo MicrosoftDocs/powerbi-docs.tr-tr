@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: b469cd4649a7acaef3a64eb0d3d8359e438e796f
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 2d8fc35383aa427d8e5c9fd37c6c35f4f3d0a6bb
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311115"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565310"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -25,6 +25,8 @@ Power BI [ulusal bulutları](https://docs.microsoft.com/azure/active-directory/d
 Farklı ulusal bulutlar şunlardır:
 
 * ABD Kamu Topluluk Bulutu (GCC)
+
+* U. S. Kamu Topluluk Bulutu Yüksek (GCC High)
 
 * U. S. Askeri Yükleniciler (DoDCON)
 
@@ -51,8 +53,8 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 
 * Kamu Topluluk Bulutu (GCC):
 
-    > [!Note]
-    > GCC hesapları yalnızca P ve EM kapasitelerini desteklemektedir.
+    > [!NOTE]
+    > Kamu Topluluk Bulutu’ndaki (GCC) Power BI içeriğini yalnızca bir Office 365 SKU’su kullanarak ekleyebilirsiniz. GCC High müşterileri [Office 365’i veya Azure SKU](embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)’larını kullanabilir.
 
 1. GCCCloud.config içeriğiyle Cloud.config dosyasının üzerine yazın.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164250"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478639"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -32,6 +32,10 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 **Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**
 <br>Vijay Gopalakrishnan
 <br>[18 Aralık’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**Yapay zeka BI’ı üç farklı şekilde değiştiriyor**
+<br>yazan: Justyna Lucznik
+<br>[8 Ocak’ta izlemek üzere kaydolun](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

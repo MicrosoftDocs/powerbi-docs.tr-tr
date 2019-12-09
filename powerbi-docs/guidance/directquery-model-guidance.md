@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d7fcc054ccf0bea1a036eaf24cb9631a2abb3969
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410894"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478629"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 
@@ -99,7 +99,7 @@ Bir DirectQuery veri kümesini temel alan raporlar, aşağıdaki madde işaretli
     
 - **Önce filtreleri uygulayın:** Raporları ilk kez tasarlarken, alanları görsel alanlarla eşlemeye başlamadan önce rapor, sayfa veya görsel düzeyinde uygulanabilir tüm filtreleri uygulamanızı öneririz. Örneğin, **Country** ve **Sales** ölçümlerini sürükleyip belirli bir yıla göre filtrelemek yerine, filtreyi öncelikle **Year** alanına uygulayın. Bunun nedeni, görsel oluşturma işleminin her adımında sorgu gönderilecek olmasıdır. İlk sorgu tamamlanmadan başka bir değişiklik yapılabilse de, temel alınan veri kaynağında yine de gereksiz yük oluşur. Filtreler erken uygulandığında, bu ara sorgular genellikle daha az maliyetli ve daha hızlı olur. Ayrıca, filtrelerin erken uygulanmaması yukarıda açıklandığı gibi 1 milyon satır sınırının aşılmasına neden olabilir.
 - **Sayfadaki görsel sayısını sınırlayın:** Bir rapor sayfası açıldığında (ve sayfa filtreleri uygulandığında), sayfadaki tüm görseller yenilenir. Ancak, yukarıda açıklandığı gibi, paralel olarak gönderilebilecek sorgu sayısı Power BI ortamı ve **Veri Kaynağı Başına En Fazla Bağlantı** ayarı ile sınırlandırılır. Bu nedenle, sayfa görsellerinin sayısı arttıkça, sayfa görsellerinin seri bir şekilde yenilenme olasılığı artar. Sonuç olarak tüm sayfayı yenileme süresi uzar ve aynı zamanda görsellerin tutarsız sonuçlar (geçici veri kaynakları için) gösterme olasılığı artar. Bu nedenle, herhangi bir sayfadaki görsel sayısının sınırlanması ve bunun yerine sade içeriklere sahip daha fazla sayıda sayfa oluşturulması önerilir. Birden fazla kart görseli tek bir çok satırlı kart görseli ile değiştirilerek benzer bir sayfa düzeni elde edilebilir.
-- **Görseller arasındaki etkileşimi kapatın:** Çapraz vurgulama ve çapraz filtreleme etkileşimleri, temel alınan kaynağa sorgu gönderilmesini gerektirir. Kullanıcı seçimlerine yanıt verme süresi makul olmayan bir uzunluktaysa, bu etkileşimlerin gerekli olmadığı sürece kapatılması önerilir. Bu etkileşim raporun tamamı için (yukarıda Sorgu Azaltma seçenekleri için açıklandığı gibi) veya [Görseller bir Power BI raporunda birbirini nasıl çapraz filtreler?](../consumer/end-user-interactions.md) makalesinde açıklandığı gibi olay temelinde tek tek kapatılabilir.
+- **Görseller arasındaki etkileşimi kapatın:** Çapraz vurgulama ve çapraz filtreleme etkileşimleri, temel alınan kaynağa sorgu gönderilmesini gerektirir. Kullanıcı seçimlerine yanıt verme süresi makul olmayan bir uzunluktaysa, bu etkileşimlerin gerekli olmadığı sürece kapatılması önerilir. Bu etkileşimler raporun tamamı için (yukarıda Sorgu Azaltma seçenekleri için açıklandığı gibi) veya tek tek olay temelinde kapatılabilir. Daha fazla bilgi için bkz. [Görseller bir Power BI raporunda birbirini nasıl çapraz filtreler?](../consumer/end-user-interactions.md).
 
 Yukarıdaki iyileştirme teknikleri listesine ek olarak, aşağıdaki raporlama özelliklerinin her biri performans sorunlarını artırabilir:
 
@@ -110,8 +110,8 @@ Yukarıdaki iyileştirme teknikleri listesine ek olarak, aşağıdaki raporlama 
     
     Bunun sonucunda, temel alınan kaynağa iki sorgu gönderilebilir:
     
-      - İlk sorgu, koşulu karşılayan (Satış > 15 milyon ABD doları) kategorileri alır
-      - İkinci sorgu, koşulu karşılayan kategorileri WHERE yan tümcesine ekleyerek görsel için gereken verileri alır
+    - İlk sorgu, koşulu karşılayan (Satış > 15 milyon ABD doları) kategorileri alır
+    - İkinci sorgu, koşulu karşılayan kategorileri WHERE yan tümcesine ekleyerek görsel için gereken verileri alır
     
     Bu örnekte olduğu gibi, yüzlerce veya binlerce kategori olduğunda genellikle düzgün bir performans sergilenir. Bununla birlikte, kategori sayısı çok daha fazla olduğunda performans düşebilir ve yukarıda bahsedilen 1 milyon satır sınırı nedeniyle, koşulu karşılayan kategoriler 1 milyondan fazlaysa sorgu başarısız olur.
 - **Üst N filtreleri:** Bir ölçüye göre derecelendirilen ilk (veya son) N değeri filtrelemek için gelişmiş filtreler tanımlanabilir. Örneğin, yukarıdaki görselde yalnızca en üstteki beş kategoriyi göstermek için. Ölçü filtrelerinde olduğu gibi bu da temel alınan veri kaynağına iki sorgunun gönderilmesine neden olur. Ancak, ilk sorgu temel alınan kaynaktan tüm kategorileri döndürür ve döndürülen sonuçlara dayalı olarak İlk N belirlenir. Söz konusu sütunun kardinalitesine bağlı olarak performans sorunları oluşabilir veya 1 milyon satır sınırı nedeniyle sorgu başarısız olabilir.
@@ -127,7 +127,7 @@ Bir DirectQuery modelini Bileşik modele dönüştürerek elde edilebilen birço
 
 ## <a name="educate-users"></a>Kullanıcıları eğitme
 
-DirectQuery veri kümelerini temel alan raporlarla verimli bir şekilde çalışmak için kullanıcılarınızı eğitmeniz önemlidir. Rapor yazarlarınız, [Rapor tasarımlarını iyileştirme](#optimize-report-designs) sayfasında açıklanan içerikle eğitilmelidir.
+DirectQuery veri kümelerini temel alan raporlarla verimli bir şekilde çalışmak için kullanıcılarınızı eğitmeniz önemlidir. Rapor yazarlarınız, [Rapor tasarımlarını iyileştirme](#optimize-report-designs section) sayfasında açıklanan içerikle eğitilmelidir.
 
 Rapor tüketicilerinizi, DirectQuery veri kümelerini temel alan raporlarınız hakkında eğitmenizi öneririz. Bu makalede açıklanan ilgili sınırlamalar da dahil olmak üzere genel veri mimarisini öğrenmeleri yararlı olabilir. Yenileme yanıtlarının ve etkileşimli filtrelemenin zaman zaman yavaş olabileceğini bildirin. Rapor kullanıcıları performans düşüşünün nedenlerini anladıklarında raporlara ve verilere yönelik güven kaybı yaşama olasılığı düşüktür.
 
