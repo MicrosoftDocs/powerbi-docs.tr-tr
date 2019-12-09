@@ -1,20 +1,20 @@
 ---
 title: Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
 description: Power BI Premium'da kendi şifreleme anahtarlarınızı kullanmayı öğrenin.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ab5b09aa6341acf86e039c5951e4752e260876e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881860"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698291"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
 
@@ -116,9 +116,9 @@ Birden çok anahtar eklemek için farklı -`-Name` ve `-KeyVaultKeyUri` değerle
 
 Cmdlet mevcut ve gelecekteki kapasiteler için şifrelemeyi etkileyen iki anahtar parametresi kabul eder. Varsayılan olarak anahtarların hiçbiri ayarlanmamıştır:
 
-- `-Activate`: Bu anahtarın kiracıda henüz şifrelenmemiş tüm mevcut kapasitelerde kullanılacağını gösterir.
+- `-Activate` Bu anahtarın kiracıda henüz şifrelenmemiş tüm mevcut kapasitelerde kullanılacağını gösterir.
 
-- `-Default`: Bu anahtarın şimdi kiracının tamamı için varsayılan olduğunu gösterir. Yeni kapasite oluşturduğunuzda, kapasite bu anahtarı devralır.
+- `-Default` Bu anahtarın şimdi kiracının tamamı için varsayılan olduğunu gösterir. Yeni kapasite oluşturduğunuzda, kapasite bu anahtarı devralır.
 
 > [!IMPORTANT]
 > `-Default` belirtirseniz, bu noktadan sonra kiracınızda oluşturulan kapasitelerin tümü belirttiğiniz anahtar (veya güncelleştirilmiş bir varsayılan anahtar) kullanılarak şifrelenir. Varsayılan işlemi geri alamazsınız dolayısıyla kiracınızda KAG kullanmayan bir premium kapasite oluşturma olanağını kaybedersiniz.

@@ -2,20 +2,20 @@
 title: Power BI rapor ve panolarındaki tablo görselleştirmeleri
 description: Sütun genişliklerini değiştirme dahil olmak üzere Power BI rapor ve panolarındaki tablo görselleştirmeleriyle çalışmaya ilişkin öğretici.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bb20b9ecc43e73e85d798416fe0ddaabb98e12b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870803"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74830874"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
@@ -130,7 +130,7 @@ Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dah
 
 1. Açılan iletişim kutusunda **Pozitif çubuk** ve **Negatif çubuk** renklerini ayarlayın, **Yalnızca çubuğu göster** seçeneğini belirleyin ve istediğiniz diğer değişiklikleri yapın.
 
-    ![Yalnızca çubuğu gösterme onay işareti](media/power-bi-visualization-tables/power-bi-data-bars.png)
+    ![Yalnızca çubuğu gösterme onay işareti](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
 1. **Tamam**'ı seçin.
 

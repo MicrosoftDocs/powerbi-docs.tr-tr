@@ -1,20 +1,20 @@
 ---
 title: Power BI 'de kişisel ağ geçitleri kullanma
 description: Kişilerin şirket içi verilere bağlanmak için kullanabileceği Power BI şirket içi veri ağ geçidi (kişisel mod) hakkında bilgi sunar.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: ee93635abdff63c98eeaaca24640ac229a4dc97c
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164174"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699280"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI 'de kişisel ağ geçitleri kullanma
 

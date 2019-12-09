@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium'u satın alma
 description: Power BI Premium'u nasıl satın alabileceğinizi ve kuruluşunuzun tamamı için içerik erişimini nasıl sağlayabileceğinizi öğrenin.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bc5576bcf1edbe5c3d3ccaf2d217e5666484a7d4
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856892"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699947"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 

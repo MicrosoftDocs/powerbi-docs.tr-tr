@@ -1,20 +1,20 @@
 ---
 title: Power BI Arşivlenmiş Çalışma Alanı
 description: Office 365 kiracınızı yönetmeye başladıktan sonra Power BI Arşivlenmiş Çalışma Alanı
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/18/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 403bf213cc2da7ad803780946e606433166e3484
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873562"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699970"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI Arşivlenmiş Çalışma Alanı
 

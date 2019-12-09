@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128276"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831128"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -39,12 +39,12 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Salesforce gibi hizmetlere bağlanma | Evet | Evet | Power BI hizmetindeki içerik paketleriyle [kullandığınız hizmetlere bağlanma](../service-connect-to-services.md). Power BI Rapor Sunucusu'nda hizmetlere bağlanmak için sertifikalı bağlayıcıları kullanabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları](data-sources.md). |
 | Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../power-bi-tutorial-q-and-a.md) 
 | Hızlı içgörüler | Hayır | Evet | [Power BI ile otomatik olarak veri içgörüleri oluşturma](../consumer/end-user-insights.md) |
-| Excel'de Analiz Et | Hayır | Evet | [Excel'de Çözümle](../service-analyze-in-excel.md) 
+| Excel’de Analiz Et | Hayır | Evet | [Excel'de Çözümle](../service-analyze-in-excel.md) 
 | Sayfalandırılmış raporlar | Evet | Evet | [Power BI hizmetinde sayfalandırılmış raporlar şu anda](../paginated-reports-report-builder-power-bi.md) Premium kapasitede önizleme aşamasındadır |
 | Power BI mobil uygulamaları | Evet | Evet | [Power BI mobil uygulamalarına genel bakış](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS haritaları | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI raporları için e-posta abonelikleri | Hayır | Evet | [Kendinizi veya başkalarını](../service-report-subscribe.md) Power BI hizmetinde bir rapora veya panoya abone yapma |
-| Sayfalandırılmış raporlar için e-posta abonelikleri | Evet | Evet | [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma](../paginated-reports-subscriptions.md)<br><br>[Reporting Services’da e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Sayfalandırılmış raporlar için e-posta abonelikleri | Evet | Evet | [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services’da e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | Veri uyarıları | Hayır | Evet | Power BI hizmetinde [veri uyarıları](../service-set-data-alerts.md)
 | Satır düzeyi güvenlik (RLS) | Evet | Evet | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir <br><br>[Power BI hizmetinde](../service-admin-rls.md) satır düzeyi güvenlik <br><br>[Power BI Rapor Sunucusu](row-level-security-report-server.md)'nda satır düzeyi güvenlik |
 | Tam ekran modu | Hayır | Evet | Power BI hizmetinde [tam ekran modu](../consumer/end-user-focus.md) |

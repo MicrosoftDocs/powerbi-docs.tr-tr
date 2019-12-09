@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 08/14/2019
+ms.date: 12/05/2019
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3c3310b6fd60d0e6f30eabd4c5136af5b8c54ff
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: abbd8f34f42bdcfdca6e65df58c78bf394f00d91
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866008"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882815"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Power BI Desktop ile satır düzeyi güvenlik (RLS)
 

@@ -1,19 +1,19 @@
 ---
 title: Hizmet kesintisi bildirimleri
 description: Power BI hizmeti kesintisi veya hizmette performans düşüşü yaşandığında e-posta bildirimlerini almayı öğrenin.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
-ms.author: mblythe
-ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: kfollis
+ms.openlocfilehash: cb117cb325255f63a0c5d21eddc01e9806358f7f
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872177"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697256"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 

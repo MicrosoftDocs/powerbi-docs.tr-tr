@@ -1,20 +1,20 @@
 ---
 title: Power BI hesabınızı kapatma
 description: Power BI'ı artık kullanmak istemiyorsanız Power BI hesabınızı kapatabilirsiniz.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 6909e07619f36337f9ff69f97f3212afa0f5659d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e3a4d49a0b4997073488834ea785cbacb28fda2
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857881"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698636"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI hesabınızı kapatma
 

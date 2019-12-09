@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI Premium nedir?
 description: Power BI Premium kuruluşunuz için ayrılmış kapasiteler sağlar ve kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri getirir.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871820"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699142"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -123,11 +123,11 @@ Office 365 Genel yöneticileri ve Power BI hizmeti yöneticileri kullanılabilir
 
 Kapasiteleri oluşturma işleminde yönetim görevlerinin çoğu [Yönetim portalında](service-admin-portal.md) tamamlanır.
 
-![Yönetim portalı](media/service-premium-what-is/premium-admin-portal.png)
+![Yönetici portalı](media/service-premium-what-is/premium-admin-portal.png)
 
 Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir, bellek ayırmalarını ayarlayabilir ve aşırı yüklenmiş kapasitede işlemleri sıfırlayarak gerekirse kapasiteyi yeniden başlatabilir.
 
-![Yönetim portalı](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Yönetici portalı](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 Yine kapasite yöneticileri kapasitenin sorunsuz çalıştığından emin olunmasını sağlayabilir. Doğrudan Yönetim portalında veya Premium kapasite ölçümleri uygulamasını kullanarak kapasitenin durumunu izleyebilirler.
 
@@ -139,7 +139,7 @@ Premium kapasitelerin izlenmesi yöneticilerin kapasitelerin nasıl performans g
 
 Portalda izleme, son yedi gün içinde kapasitenizde yerleştirilen yükleri ve kullanılan kaynakları gösteren, ortalaması alınmış üst düzey ölçümlere hızlı bir bakış sağlar. 
 
-![Yönetim portalı](media/service-premium-what-is/premium-admin-portal-health.png)
+![Yönetici portalı](media/service-premium-what-is/premium-admin-portal-health.png)
 
 **Power BI Premium Kapasite Ölçümleri** uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Uygulamada bir üst düzey pano ve daha ayrıntılı raporlar sağlanır.
 

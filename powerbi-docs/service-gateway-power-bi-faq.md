@@ -1,20 +1,20 @@
 ---
 title: Şirket içi veri ağ geçidi hakkında SSS - Power BI
 description: Bu makale Power BI için şirket içi veri ağ geçidi ile ilgili SSS bölümüdür. Power BI’da kullanılan ağ geçidi ile ilgili sıkça sorulan sorular, bu makalede bir araya getirilmiştir.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 8ed8b148f857aa4cac85ccbf0ad725d2e644a973
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010829"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697417"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Şirket içi veri ağ geçidi hakkında SSS - Power BI
 

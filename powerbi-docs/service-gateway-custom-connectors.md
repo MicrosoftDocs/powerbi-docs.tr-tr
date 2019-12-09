@@ -1,20 +1,20 @@
 ---
 title: Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 description: Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanabilirsiniz.
-author: mgblythe
-ms.author: mblythe
+author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881763"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699486"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 

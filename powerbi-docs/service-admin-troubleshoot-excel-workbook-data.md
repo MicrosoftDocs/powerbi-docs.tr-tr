@@ -1,21 +1,21 @@
 ---
 title: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
 description: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 04/30/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 1976567029454445f625ff400fb1d87ae6c01219
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873398"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698429"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık
 

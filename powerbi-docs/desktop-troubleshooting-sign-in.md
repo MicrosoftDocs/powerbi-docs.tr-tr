@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: bfe0e217edc65c3edb5d78d9399ef2b9b376e286
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73879553"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop'ta oturum açma sorunlarını giderme

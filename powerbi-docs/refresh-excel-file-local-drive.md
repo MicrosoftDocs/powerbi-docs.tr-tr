@@ -1,20 +1,20 @@
 ---
 title: Yerel bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme
 description: Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf007dfe70b5bfb7be9fa8c00865663b07210367
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874401"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698774"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)
 ## <a name="whats-supported"></a>Desteklenenler

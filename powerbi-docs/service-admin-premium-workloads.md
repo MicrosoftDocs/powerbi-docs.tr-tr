@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium’da iş yüklerini yapılandırma
 description: Power BI Premium kapasitesinde iş yüklerini yapılandırmayı öğrenin.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856829"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831292"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -164,7 +164,7 @@ Sayfalandırılmış raporlar iş yükü Power BI hizmetinde standart SQL Server
 | **En Yüksek Bellek (%)** | Kapasitede sayfalandırılmış raporların kullanabileceği en yüksek kullanılabilir bellek yüzdesi. |
 |  |  |
 
-Sayfalandırılmış raporlar, bir raporu işlerken özel kodun çalıştırılmasına olanak tanır. Örneğin metin rengini içeriğe göre dinamik olarak değiştirme olabilir ve bu işlem ek bellek kullanabilir. Power BI Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin *olup olmadığına* bakılmaksızın, belirtilen En Yüksek Bellek kullanılır. En Yüksek Bellek ayarının varsayılan değeri değiştiriliyorsa, bu değeri diğer iş yüklerini olumsuz etkilemeyecek kadar düşük ayarlamaya dikkat edin.
+Sayfalandırılmış raporlar, bir raporu işlerken özel kodun çalıştırılmasına olanak tanır. Örneğin metin rengini içeriğe göre dinamik olarak değiştirme olabilir ve bu işlem ek bellek kullanabilir. Power BI Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. 
 
 Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü Yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın ve sonra yeniden etkinleştirin.
 

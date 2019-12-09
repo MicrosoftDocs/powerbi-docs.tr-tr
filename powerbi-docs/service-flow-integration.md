@@ -1,21 +1,21 @@
 ---
 title: Power BI ile Power Automate tümleştirmesi
 description: Power BI veri uyarıları ile tetiklenen Akışlar oluşturmayı öğrenin.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164305"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699694"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
 

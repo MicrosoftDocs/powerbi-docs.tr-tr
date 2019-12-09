@@ -1,20 +1,20 @@
 ---
 title: Office 365'te Power BI hizmet durumunu izleme
 description: Microsoft 365 yönetim merkezinde mevcut ve geçmiş hizmet durumunu görüntüleme hakkında bilgi edinin.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 0e944dfa34bec1e1c1816cf80d7dc2df7252b65a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857699"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74700016"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Office 365'te Power BI hizmet durumunu izleme
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI Premium hakkında SSS
 description: Power BI Premium teklifi hakkında sık sorulan sorular ve cevaplar listesini inceleyin.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881179"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697049"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 

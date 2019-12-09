@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 description: Power BI raporları farklı veri kaynaklarına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: mblythe
-ms.openlocfilehash: ede44316d9dd188787381b26ee3352af13775c0f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: maggies
+ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874006"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699027"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 Power BI raporları için zamanlanmış yenileme, bir rapora ilişkin verilerin güncel kalmasını sağlar.

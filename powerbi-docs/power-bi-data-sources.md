@@ -1,19 +1,19 @@
 ---
 title: Power BI veri kaynakları
 description: Bu makalede, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın desteklediği veri kaynakları listelenir.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
-ms.author: mblythe
-ms.openlocfilehash: 5f0161afc2174ac3511c03fda6ada09f2a5e41de
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.author: kfollis
+ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74414315"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699740"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 

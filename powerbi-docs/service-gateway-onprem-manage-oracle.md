@@ -1,20 +1,20 @@
 ---
 title: Veri kaynağınızı yönetme - Oracle
 description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5641e42d380458bd1ddcdb316c56e17fafe2d71f
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872472"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697762"
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 

@@ -10,10 +10,10 @@ ms.author: mihart
 layout: HubPage
 LocalizationGroup: Get started
 ms.openlocfilehash: ad6f9f0bc231f54c35501be24bb03a47e205a27e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73876726"
 ---
 <div id="main" class="v2">
@@ -39,7 +39,7 @@ ms.locfileid: "73876726"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Başlangıç</h3>
+                                                <h3>Kullanmaya başlayın</h3>
                                                 <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">Power BI hizmetinde bir tura katılın</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">Power BI <b><i>tüketicisi</i></b> nedir?</a></p>
                                                 <p><b>Fark nedir?</b> <a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">Raporlar</a>, <a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">Panolar</a>, <a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">Uygulamalar</a></p>

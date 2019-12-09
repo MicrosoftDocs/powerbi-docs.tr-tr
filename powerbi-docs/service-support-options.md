@@ -1,19 +1,19 @@
 ---
 title: Power BI Pro ve Power BI Premium destek seçenekleri
 description: Bu makalede, Power BI Pro ve Power BI Premium müşterileri için kullanılabilen destek seçenekleri açıklanmaktadır.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: mblythe
-ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.author: kfollis
+ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871404"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696545"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro ve Power BI Premium destek seçenekleri
 

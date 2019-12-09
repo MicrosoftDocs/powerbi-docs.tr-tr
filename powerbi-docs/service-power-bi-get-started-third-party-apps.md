@@ -4,18 +4,18 @@ description: Power BI - üçüncü taraf uygulamalarla çalışmaya başlama
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-author: mgblythe
-ms.author: mblythe
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: a3c060693a218a4c7a9dc5d0dea726c10e07d276
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ff44527ab0f6c57007db82c79d6b357973eded17
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871933"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699188"
 ---
 # <a name="get-started-with-third-party-apps"></a>Üçüncü taraf uygulamalarla çalışmaya başlama
 

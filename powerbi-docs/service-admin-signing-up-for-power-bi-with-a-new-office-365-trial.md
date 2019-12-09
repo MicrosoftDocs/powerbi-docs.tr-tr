@@ -1,20 +1,20 @@
 ---
 title: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 description: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 89732201276c00949a8ef1d605c5e60ea03b6b47
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873354"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698452"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
