@@ -32,10 +32,14 @@
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
           href: directquery-model-guidance.md
+        - name: Power Query sorgularına başvurma
+          href: power-query-referenced-queries.md
         - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
           href: report-page-tooltips.md
         - name: Rapor sayfasını detaylandırma
           href: report-drillthrough.md
+        - name: Power BI Desktop’ta otomatik tarih/saat kılavuzu
+          href: auto-date-time.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

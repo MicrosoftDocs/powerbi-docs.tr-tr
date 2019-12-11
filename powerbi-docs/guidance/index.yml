@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: e95a60b0927592bfac06f05f84158449803f421b
-  ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+  ms.openlocfilehash: b4985ca61f1d1cd15f4fc0935e28cd2c0ed7e443
+  ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/05/2019
-  ms.locfileid: "74830715"
+  ms.lasthandoff: 12/11/2019
+  ms.locfileid: "74999641"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -37,6 +37,10 @@ landingContent:
       url: import-modeling-data-reduction.md
     - text: Sorguyu kaynağa döndürmenin önemi
       url: power-query-folding.md
+    - text: Power Query sorgularına başvurma
+      url: power-query-referenced-queries.md
+    - text: Power BI Desktop’ta otomatik tarih/saat kılavuzu
+      url: auto-date-time.md
 - title: DAX
   linkLists:
   - linkListType: concept
