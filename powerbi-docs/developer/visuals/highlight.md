@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880029"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695416"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI Görselleri’nde veri noktalarını vurgulama
 
@@ -26,6 +26,9 @@ Varsayılan olarak, bir öğe seçildiğinde `dataView` nesnesindeki `values` di
 ![`dataview` vurgulamayı destekler](./media/highlight-dataview-supports.png)
 
 Örnekte, 1 çubuğun seçili olduğunu fark edeceksiniz. Bu, vurgular dizisindeki tek değerdir. Birden fazla seçimin ve kısmi vurguların olabileceği de göz önünde bulundurulmalıdır. Vurgulanan değerler veri görünümünde sunulacaktır.
+
+> [!Note]
+> Tablo veri görünümü eşlemesi vurgulama özelliğini desteklemiyor.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Kategorik veri görünümü eşlemesi ile veri noktalarını vurgulama
 

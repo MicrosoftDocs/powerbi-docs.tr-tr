@@ -1,20 +1,20 @@
 ---
 title: Power BI'a bireysel olarak kaydolma
 description: Power BI'a kaydolmayı ve Power BI'ı veri analizi ve görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871537"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791640"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Power BI'a bireysel olarak kaydolma
 
@@ -40,7 +40,7 @@ Power BI hesabına kaydolmak için şu adımları izleyin. Bu işlemi tamamladı
 
 1. E-posta adresinizi girin, sonra da **Kaydol**'u seçin.
 
-    ![Başlangıç](media/service-self-service-signup-for-power-bi/get-started.png)
+    ![Kullanmaya başlayın](media/service-self-service-signup-for-power-bi/get-started.png)
 
 1. Buna benzer bir ileti alırsanız, bir seçenek belirterek doğrulama kodunu alın ve ardından bu yordamın sonraki adımından devam edin.
 

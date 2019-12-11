@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878075"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791323"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.
@@ -44,7 +44,7 @@ Bir veri kaynağı gizlilik düzeyi yapılandırmak için, veri kaynağını se�
 > 
 
 ## <a name="configure-privacy-levels"></a>Gizlilik Düzeylerini yapılandırma
-Varsayılan **Gizlilik Düzeyleri** ayarı **Her bir kaynak için verileri Gizlilik Düzeyi ayarlarınıza göre birleştirin** olarak belirlenir ve bu, **Gizlilik Düzeyleri**'nin henüz etkinleştirilmediğini gösterir.
+Varsayılan olarak **Gizlilik Düzeyleri** için **Her kaynak için verileri Gizlilik Düzeyi ayarlarınıza göre birleştirin** ayarı belirlenir ve bu, **Gizlilik Düzeyleri**'nin zorunlu tutulduğunu gösterir.
 
 | Ayar | Açıklama |
 | --- | --- |

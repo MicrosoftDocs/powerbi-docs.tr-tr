@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870854"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791802"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Power BI Soru-Cevap görseline giriş
 
@@ -93,6 +93,10 @@ Ne tür sorular soracağınızdan veya hangi terminolojiyi kullanacağınızdan 
 6. Görseli bir sütun grafik olarak değiştirelim. 
 
     ![Soruya "sütun grafik olarak" eklenmiş Soru-Cevap görseli](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Rapor sayfasına daha fazla görsel ekleyin ve Soru-Cevap görselinin sayfadaki diğer görsellerle nasıl etkileşim kurduğuna bakın. Bu örnekte Soru-Cevap görseli çizgi grafiği ve haritayı çapraz filtrelemiş ve çubuk grafiği çapraz vurgulamıştır.
+
+    ![Tek çubuğun seçili olduğu Soru-Cevap görseli ve rapor sayfasındaki diğer üç görsel üzerindeki etkisi](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>Soru-Cevap görselini biçimlendirme ve özelleştirme
 Soru-Cevap görseli, biçimlendirme bölmesi kullanılarak ve bir tema uygulanarak özelleştirilebilir. 

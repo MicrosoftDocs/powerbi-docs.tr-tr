@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871725"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699118"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Gerçek zamanlı ortam algılayıcılarının sonuçlarını gösteren ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Bu makalede, Power BI'da nasıl gerçek zamanlı akış veri kümesi ayarlayacağınız gösterilmektedir. Ancak bu konuya değinmeden önce, kutucuklarda (ve panolarda) görüntülenecek şekilde tasarlanmış gerçek zamanlı veri kümesi türlerini ve bu veri kümelerinin nasıl farklılık gösterdiğini anlamakta yarar vardır.
 
@@ -198,7 +198,7 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Power BI çalışma alanınızda yeni bir pano oluşturun ve ardından bir kutucuk ekleyin. (İhtiyaç duyarsanız gerekli adımlar için yukarıya bakın.) Artık bir kutucuk oluşturup **Özel Akış Verileri**'ni seçtiğinizde, birlikte çalışacağınız bir akış veri kümesine sahip olursunuz. Gerçekleştirebileceğiniz işlemlere göz atabilirsiniz. Çizgi grafiklere *sayı* alanları ekler ve ardından başka kutucuklar oluşturursanız aşağıdakine benzer gerçek zamanlı bir pano elde edebilirsiniz:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Gerçek zamanlı ortam algılayıcılarının sonuçlarını gösteren ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Örnek veri kümesiyle gerçekleştirebileceğiniz işlemleri deneyin. Daha sonra kendi veri kümelerinizi oluşturun ve Power BI'a canlı veri akışı yapın.
 

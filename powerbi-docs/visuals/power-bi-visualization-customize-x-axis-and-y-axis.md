@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880916"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791780"
 ---
+- yılların yüzdesini gösteren brüt kar çizgisi nerede? Birden çok çubuk grafiğim olabilir ama birden çok çizgim olamaz.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Bazı görselleştirmelerde iki Y ekseni bulunabilir. Birleşik haritalar buna i
 
 ### <a name="create-a-chart-with-two-y-axes"></a>İki Y Eksenli bir grafik oluşturun
 
-1. Sütun grafiğini seçip *Çizgi ve yığılmış sütun* grafiği olarak değiştirin. 
+1. Sütun grafiğini seçip *Çizgi ve yığılmış sütun* grafiği olarak değiştirin. Bu tür görseller tek bir çizgi grafik değerini ve birden çok yığılabilir sütun değerini destekler. 
 
     ![Çizgi ve yığılmış sütun grafiği seçeneğinin vurgulandığı Görselleştirmeler bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Bazı görselleştirmelerde iki Y ekseni bulunabilir. Birleşik haritalar buna i
 
    ![Birleşik harita ve Biçimlendirme bölmesi, yazı tipi boyutu 12'ye düşürülmüş](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI iki Y ekseni oluşturarak değerlerin farklı ölçeklendirilmesine olanak tanır. Sol taraftaki eksen doları ölçer ve sağ taraf eksen de yüzdeyi ölçer.
+   Power BI iki Y ekseni oluşturarak değerlerin farklı ölçeklendirilmesine olanak tanır. Sol taraftaki eksen satış doları tutarını ölçer ve sağ taraf eksen de brüt kar yüzdesini ölçer.
 
 ### <a name="format-the-second-y-axis"></a>İkinci Y eksenini biçimlendirme
 Görselleştirmeye tek bir biçimlendirilmiş Y ekseniyle başladığımız için Power BI, aynı ayarlarla ikinci bir Y ekseni ekledi. Ancak bunu değiştirebiliriz. 

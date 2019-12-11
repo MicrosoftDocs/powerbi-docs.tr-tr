@@ -1,21 +1,21 @@
 ---
 title: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
 description: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856260"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791986"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
 Veri kümelerini zamanlanmış yenileme için yapılandırmaya çalışırken bir hatayla karşılaşabilirsiniz.
@@ -35,7 +35,7 @@ Hangi veri kaynağının kullanıldığından emin değilseniz Power BI Desktop'
    ![Gelişmiş düzenleyici](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Kaynak için belirtilen sağlayıcıyı not edin.  Bu örnekteki sağlayıcı Active Directory'dir.  
    ![Veri kaynağı sağlayıcı](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. Sağlayıcıyı, [Power BI'da verileri yenileme](refresh-data.md) makalesinde bulunan, desteklenen veri kaynakları listesinde arayın.  Active Directory'nin yenileme için desteklenen bir veri kaynağı olmadığını göreceksiniz.  
+5. Sağlayıcıyı, [Power BI veri kaynakları](power-bi-data-sources.md) makalesindeki desteklenen veri kaynakları listesinde arayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri Yenileme](refresh-data.md)  

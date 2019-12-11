@@ -1,21 +1,21 @@
 ---
 title: Power BI yönetici portalı
 description: Yönetici portalı, kuruluşunuzda Power BI kiracı yönetimine olanak sağlar. Kullanım ölçümleri, Microsoft 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265903"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882891"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -172,7 +172,7 @@ Kuruluştaki kullanıcılar, Power BI yardım menüsünden iç yardıma ve deste
 
 Lisans istekleri için bir URL belirterek, Power BI Pro lisansı olmayan bir kullanıcının **Power BI Pro’ya Güncelleştir** iletişim kutusunda ve **Kişisel depolama alanını yönet** sayfasında bulabileceği **Hesabı yükselt** düğmesinin hedef URL’sini özelleştirebilirsiniz. Ayrıca, Power BI’ın kullanıcılarınızı lisans yönetimi çözümünüz aracılığıyla kuruluşunuzda tanımlanmış işleme güvenilir şekilde yönlendirdiğinden emin olmak için, Power BI artık bu iletişim kutusunda veya depolama sayfasında **Pro sürümünü ücretsiz deneyin** düğmesini sunmamaktadır.
 
-### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylar için e-posta bildirimlerini etkinleştir
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylara yönelik e-posta bildirimlerini etkinleştir
 
 Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenlik grupları e-posta bildirimleri alır. [Hizmet kesintisi bildirimleri](service-interruption-notifications.md) hakkında daha fazla bilgi edinin.
 
@@ -247,11 +247,14 @@ Aşağıdaki görüntüde **Panoları ve raporları yazdırın** ayarı etkinle�
 ![Rapor yazdırma](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
-Azure B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
+Azure Active Directory B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
 
 Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin verme seçeneği gösterilir.
 
 ![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Azure AD kiracınıza dış kullanıcı eklediğinizde (el ile veya söz konusu kullanıcıyla rapor paylaşarak) bu kullanıcı hesabı artık iç hesaplar tarafından bulunabilir duruma gelir. İç hesabın dış paylaşım izinleri olmasa bile iç kullanıcı dış kullanıcıyla başka şeyler paylaşabilir.
 
 ### <a name="email-subscriptions"></a>E-posta Abonelikleri
 Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](service-report-subscribe.md) hakkında daha fazla bilgi edinin.

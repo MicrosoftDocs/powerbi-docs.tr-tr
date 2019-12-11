@@ -1,20 +1,20 @@
 ---
 title: Power BI'da veri yenileme
 description: Bu makalede, Power BI’ın veri yenileme özellikleri ve bu özelliklerin bağımlılıkları kavramsal düzeyde açıklanmaktadır.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415448"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791669"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -92,7 +92,7 @@ Power BI yenileme işlemi, veri yenileme, OneDrive yenilemesi, sorgu önbellekle
 
 #### <a name="data-refresh"></a>Veri yenileme
 
-Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, veri kümesi ayarlarında günde 48’e kadar yenileme zamanlayabilirsiniz. Daha fazla bilgi için bu makalenin ilerleyen kısımlarında bulunan zamanlanmış yenileme yapılandırma bölümüne göz atın.
+Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, veri kümesi ayarlarında günde 48’e kadar yenileme zamanlayabilirsiniz. Daha fazla bilgi için bu makalenin devamındaki [Zamanlanmış yenileme yapılandırma](#configure-scheduled-refresh) bölümüne göz atın.
 
 Günlük yenilemelere ilişkin paylaşılan kapasite sınırlamasında hem zamanlanmış yenilemelerin hem de API yenilemelerinin dikkate alındığının unutulmaması önemlidir. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi menüsünde **Şimdi Yenile**’yi seçerek bir isteğe bağlı yenilemeyi de tetikleyebilirsiniz. İsteğe bağlı yenilemeler, yenileme sınırlamasına dahil değildir. Ayrıca, Premium kapasitedeki veri kümelerinin API yenileme sınırlamaları getirmediğini unutmayın. Power BI REST API kullanarak kendi yenileme çözümünüzü oluşturmak istiyorsanız bkz. [Veri Kümeleri - Veri Kümesini Yenileme](/rest/api/power-bi/datasets/refreshdataset).
 
@@ -283,7 +283,7 @@ Power BI ve veri kaynaklarınız arasındaki bağlantıyı oluşturma, bir veri 
 
 ![Zamanlanmış yenileme yapılandırma](media/refresh-data/configure-scheduled-refresh.png)
 
-Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler bir sonraki zamanlanmış yenileme süresini etkilemez ancak bu makalenin önceki bölümlerinde açıklandığı gibi günlük yenileme sınırınızdan düşülür.
+Yenileme zamanlaması yapılandırıldıktan sonra, veri kümesi ayarları sayfası yukarıdaki ekran görüntüsünde gösterildiği gibi bir sonraki yenileme zamanını size bildirir. Örneğin, ağ geçidi ve veri kaynağı yapılandırmanız için veriyi daha erken yenilemek istiyorsanız, gezinti bölmesindeki veri kümesi menüsünde bulunan **Şimdi Yenile** seçeneğini kullanarak isteğe bağlı yenileme gerçekleştirin. İsteğe bağlı yenilemeler, zamanlanan sonraki yenileme zamanını etkilemez.
 
 Yapılandırılmış yenileme zamanının, Power BI’ın bir sonraki planlanan işlemi yapmaya başladığı kesin zaman olmayabileceğini unutmayın. Power BI, zamanlanmış yenilemelere en iyi çaba ilkesine göre başlar. Hedef, yenilemeyi zamanlanan zaman aralığının 15 dakika içerisinde başlatmaktır. Ancak, hizmet gerekli kaynakları daha erken ayıramazsa, bir saati bulabilen gecikmeler ortaya çıkabilir.
 

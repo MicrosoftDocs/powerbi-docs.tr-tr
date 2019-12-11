@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 91acaa3a2252250e2a10674bae0e9be81f142696
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410930"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695209"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
 
@@ -25,7 +25,7 @@ DIVIDE işlevini kullandığınızda pay ve payda ifadelerini geçirmeniz gereki
 DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 ```
 
-DIVIDE işlevi sıfıra bölme durumlarını otomatik olarak işleyecek şekilde tasarlanmıştır. Alternatif sonuç geçirilmezse ve payda sıfır veya BOŞLUK ise işlev BOŞLUK döndürür. Alternatif sonuç geçirilirse BOŞLUK yerine o sonuç döndürülür.
+DIVIDE işlevi sıfıra bölme durumlarını otomatik olarak işleyecek şekilde tasarlanmıştır. Alternatif sonuç geçirilmezse ve payda sıfır veya BOŞLUK ise işlev BOŞLUK döndürür. Alternatif sonuç geçirildiğinde BOŞLUK yerine o sonuç döndürülür.
 
 DIVIDE işlevinin kullanışlı olmasının nedeni ifadenizde önce payda değerinin test edilmesi gereğini ortadan kaldırmasıdır. Bu işlev payda değerinin test edilmesi açısından [IF](/dax/if-function-dax) işlevinden de daha iyidir. Sıfıra göre bölüm kontrol etmek pahalı olduğu için performans kazancı önemlidir. DIVIDE işlevi kullanıldığında sonuçta daha kısa ve zarif bir ifade elde edilir.
 
@@ -58,7 +58,7 @@ Paydanın sıfır veya BOŞLUK _döndürebilecek_ bir ifade olduğu her durumda 
 
 Paydanın sabit değer olduğu durumlarda bölme işlecini kullanmanızı öneririz. Bu durumda bölmenin başarılı olması garanti edilir ve ifadeniz gereksiz testten kaçınacağı için daha iyi bir performans gösterir.
 
-DIVIDE işlevinin alternatif değer döndürüp döndürmeyeceğini dikkatli bir şekilde düşünün. Ölçüler için bu genellikle BOŞLUK döndürmesinden daha iyi bir tasarımdır. Özetlemeler BOŞLUK olduğunda rapor görselleri varsayılan olarak gruplandırmaları ortadan kaldırdığından, BOŞLUK döndürmesi daha iyidir. Bu sayede görsel verilerin bulunduğu gruplara odaklanabilir. Gerektiğinde "Veri İçermeyen Öğeleri Göster" seçeneğini etkinleştirerek filtre bağlamındaki tüm grupları (değer veya BOŞLUK döndürenler) görüntüleyecek şekilde görseli yapılandırabilirsiniz.
+DIVIDE işlevinin alternatif değer döndürüp döndürmeyeceğini dikkatli bir şekilde düşünün. Ölçümler için, anlamlı bir sonucun hesaplanamadığı durumlarda genellikle BOŞLUK döndürülmesi daha iyi bir tasarımdır. Daha fazla bilgi için bkz. [BOŞLUK'ları değerlere dönüştürmekten kaçınma](dax-avoid-converting-blank.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

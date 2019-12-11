@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878341"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791587"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
 
@@ -51,7 +51,6 @@ Aşağıdaki tabloda desteklenen **Tarih sembolleri** gösterilmektedir:
 | _mm_ | 01-12 (Ocak = 01’den başlayarak önünde sıfır olan yılın ayı) |
 | _mmm_ | Kısaltılmış ay adlarını gösterir (Hicri ay adlarının kısaltması yoktur) |
 | _mmmm_ | Tam ay adlarını gösterir |
-| _y_ | 1-366 (Yılın günü) |
 | _yy_ | 00-99 (Yılın son iki hanesi) |
 | _yyyy_ | 100-9999 (Üç veya Dört basamaklı yıl) |
 
@@ -121,7 +120,6 @@ Aşağıdaki tabloda **kullanıcı tanımlı tarih/saat biçimleri** oluşturmak
 | mm | Ay değerini, önüne sıfır koyarak bir sayı (01-12) olarak görüntüler. h veya hh’nin hemen ardından m geliyorsa ay yerine dakika gösterilir. |
 | mmm | Ay değerini kısaltma (Oca-Ara) olarak görüntüler. Yerelleştirilmiştir. |
 | mmmm | Ay değerini tam ay adıyla (Ocak-Aralık) görüntüler. Yerelleştirilmiştir. |
-| y | Yılın gününü sayı olarak (1–366) gösterir. |
 | yy | Yılı 2 basamaklı bir sayı (00–99) olarak gösterir. |
 | yyyy | Yılı 4 basamaklı bir sayı (100–9999) olarak gösterir. |
 | h | Saat değerini, önünde sıfır olmadan bir sayı (0-23) olarak görüntüler. |
@@ -146,7 +144,7 @@ Aşağıdaki tabloda **kullanıcı tanımlı sayı biçimleri** oluşturmak içi
 | ( **/** ) | Tarih ayırıcısı. Bazı yerel ayarlarda, tarih ayırıcısını temsil etmek için başka karakterler kullanılabilir. Tarih ayırıcısı, tarih değerleri biçimlendirilirken gün, ay ve yılı ayırır. Biçimlendirilmiş çıktıda tarih ayırıcısı olarak kullanılan gerçek karakter, sistem ayarlarınıza göre belirlenir. |
 | ( **E- E+ e- e+** ) | Bilimsel biçim. Biçim ifadesi E-, E+, e- veya e+ sembolünün sağında en az bir basamak yer tutucusu ( **0** veya **#** ) içeriyorsa, bu sayı bilimsel biçimde gösterilir veya sayı ile üssü arasına eklenir. Sağdaki basamak yer tutucularının sayısı, üs içindeki basamak sayısını belirler. Negatif üslerin yanına eksi işareti yerleştirmek için E-veya e- kullanın. Negatif üslerin yanına eksi işareti ve pozitif üslerin yanına artı işareti yerleştirmek için E+ veya e+ kullanın. |
 | **- + $**  ( ) | Değişmez bir karakter görüntüler. Listelenenlerin dışında bir karakter görüntülemek için, önüne bir ters eğik çizgi koyun (\) veya çift tırnak işareti (&quot; &quot;) içine alın. |
-| ( * *\** ) | Biçim dizesinde bir sonraki karakteri görüntüler. Özel anlamı olan bir karakteri değişmez karakter olarak görüntülemek için önüne bir ters eğik çizgi (\)) koyun. Ters eğik çizgi gösterilmez. Ters eğik çizgi kullanmak, sonraki karakteri çift tırnak işaretleri içine almakla aynıdır. Bir ters eğik çizgiyi göstermek için iki ters eğik çizgi (\\) kullanın. Tarih biçimlendirme ve saat biçimlendirme karakterleri (a, c, d, h, m, n, p, q, s, t, w, y, / ve :), sayısal biçimlendirme karakterleri (#, 0, %, E, e, virgül ve nokta) ve dize biçimlendirme karakterleri (@, &amp;, \&lt;, \&gt; ve !), değişmez karakter olarak gösterilemeyen karakterlerin örneklerindendir. |
+| ( * *\** ) | Biçim dizesinde bir sonraki karakteri görüntüler. Özel anlamı olan bir karakteri değişmez karakter olarak görüntülemek için önüne bir ters eğik çizgi (\)) koyun. Ters eğik çizgi gösterilmez. Ters eğik çizgi kullanmak, sonraki karakteri çift tırnak işaretleri içine almakla aynıdır. Bir ters eğik çizgiyi göstermek için iki ters eğik çizgi (\\) kullanın. Tarih biçimlendirme ve saat biçimlendirme karakterleri (a, c, d, h, m, n, p, q, s, t, w, / ve :), sayısal biçimlendirme karakterleri (#, 0, %, E, e, virgül ve nokta) ve dize biçimlendirme karakterleri (@, &amp;, \&lt;, \&gt; ve !), değişmez karakter olarak gösterilemeyen karakterlerin örneklerindendir. |
 | (&quot;ABC&quot;) | Dizeyi çift tırnak işaretleri (&quot; &quot;) içinde görüntüler. |
 
 

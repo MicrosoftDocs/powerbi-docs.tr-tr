@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099765"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831122"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -38,7 +38,7 @@ Kendinize abonelik oluşturmak için içeriği (pano veya rapor) düzenleme izin
 
 Panoya, rapora veya sayfalandırılmış rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
 
-Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md).
+Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](consumer/paginated-reports-subscriptions.md).
  
 ![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png)geçin.
 
@@ -89,7 +89,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdaki kutucuktan fazla panoya abonelikler engellenmez. Ancak, sorunlarla karşılaşırsanız desteklenmeyen olarak kabul edilirler. Desteklenen aralıkta yer almak için bunları uygun şekilde değiştirmeyi değerlendirin.
+* Üzerinde 25’ten fazla sabitlenmiş kutucuk veya 4 sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir.  Bu sayıdan fazla kutucuk bulunan panolara abonelik engellenmez. Ancak, sorunlarla karşılaşırsanız desteklenmeyen olarak kabul edilirler. Desteklenen aralıkta yer almak için bunları uygun şekilde değiştirmeyi değerlendirin.
 * E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa, bu kutucuklar görüntülenmez.  
 * Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Güvenlik bağlamınızı kullanarak aboneliği diğer kişilere göndermenize olanak tanıyan sayfalandırılmış raporları kullanmadıkça, diğerlerinin satır düzeyinde güvenlik (RLS) uygulanmış bir rapora abone olmasını sağlayamazsınız. 
@@ -107,6 +107,6 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md)
+- [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](consumer/paginated-reports-subscriptions.md)
 - Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)    
 - [Blog gönderisini okuyun](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

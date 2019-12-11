@@ -1,20 +1,20 @@
 ---
 title: Azure AD B2B ile içerikleri dış konuk kullanıcılara dağıtma
 description: Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümleşerek Power BI içeriklerinin kuruluş dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858003"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882817"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -30,7 +30,9 @@ Konuk kullanıcıları davet etmeden önce Power BI yönetim portalında [Dış 
 
 ## <a name="who-can-you-invite"></a>Kimleri davet edebilirsiniz?
 
-Gmail.com, outlook.com ve hotmail.com gibi kişisel hesaplar da dahil olmak üzere herhangi bir e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure AD B2B'de bu adresler *sosyal kimlik* olarak adlandırılır.
+Gmail.com, outlook.com ve hotmail.com gibi kişisel hesaplar da dahil olmak üzere çoğu e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure AD B2B'de bu adresler *sosyal kimlik* olarak adlandırılır.
+
+[Power BI for US Government](service-govus-overview.md) gibi kamu bulutuyla ilişkilendirilmiş kullanıcıları davet edemezsiniz.
 
 ## <a name="invite-guest-users"></a>Konuk kullanıcı davet etme
 

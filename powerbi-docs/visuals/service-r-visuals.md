@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099835"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699004"
 ---
 # <a name="r-visuals-in-power-bi"></a>Power BI’daki R görselleri
 R görselleri şu anda yalnızca **Power BI Desktop**'ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../desktop-r-visuals.md).
@@ -94,6 +94,11 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
 * R Görselleri **Web'de yayımla** özelliği kullanılırken görüntülenmez.
 * R görselleri şu anda pano ve rapor yazdırma özelliğiyle yazdırılamaz
 * R görselleri şu anda Analysis Services'in DirectQuery modunda desteklenmemektedir
+* R görsellerinin metin etiketlerini grafik öğelerine dönüştürebilme özelliği vardır. Power BI hizmetinde bunu yapabilmek için aşağıdaki ek adımlar gerekir:
+  
+  * R betiğinin başına şu satırı ekleyin:
+    
+        powerbi_rEnableShowText =  1
 * Çince, Japonca ve Korece yazı tiplerinin Power BI hizmetinde düzgün çalışması için şu ek adımların tümünü izlemeniz gerekir:
   
   * İlk olarak, *showtext* R paketini ve tüm bağımlılıklarını yükleyin. Bunu, şu betiği çalıştırarak da yapabilirsiniz:
