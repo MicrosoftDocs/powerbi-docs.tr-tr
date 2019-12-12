@@ -8,20 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7453854376923fbb55376182a8674e5f3d7d1b63
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878793"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696176"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat
 
-Bu makale, Power BI Desktop'ta İçeri Aktarma modelleri veya Bileşik modeller geliştiren veri modelleyicilerine yöneliktir.
+Bu makale, Power BI Desktop'ta İçeri Aktarma modelleri veya Bileşik modeller geliştiren veri modelleyicilerine yöneliktir. _Otomatik tarih/saat_ seçeneği tanıtılır ve açıklanır.
 
-## <a name="background"></a>Arka Plan
-
-_Otomatik tarih/saat_, Power BI Desktop'taki bir veri yükleme seçeneğidir. Bu seçeneğin amacı, modele yüklenmiş olan tarih sütunlarını kullanarak kolay akıllı zaman gösterimi raporlaması sağlamaktır. Bu seçenek, modelleyicinin özellikle geliştirmesine gerek kalmadan rapor yazarlarının takvim zaman aralıklarına göre filtreleme, gruplama ve detaya gitme işlemleri gerçekleştirmesini sağlar. Takvim zaman aralıkları yıllar, üç aylık dönemler, aylar ve günlerdir.
+Otomatik tarih/saat, Power BI Desktop'taki bir veri yükleme seçeneğidir. Bu seçeneğin amacı, modele yüklenmiş olan tarih sütunlarını kullanarak kolay akıllı zaman gösterimi raporlaması sağlamaktır. Bu seçenek, veri modelinizi kullanan rapor yazarlarının takvim zaman aralıklarını (yıl, üç ay, ay ve gün) kullanarak filtreleme, gruplandırma ve detaya gitme işlemleri gerçekleştirmesini sağlar. Önemli olan bu akıllı zaman gösterimi özelliklerini açıkça geliştirmenizin gerekmemesidir.
 
 Bu seçenek etkinleştirildiğinde ve aşağıdaki koşulların karşılanması durumunda Power BI Desktop, her bir tarih sütunu için gizli bir otomatik tarih/saat tablosu oluşturur:
 
@@ -34,11 +32,11 @@ Bu seçenek etkinleştirildiğinde ve aşağıdaki koşulların karşılanması 
 Her otomatik tarih/saat tablosu aslında DAX [CALENDAR](/dax/calendar-function-dax) işlevini kullanarak veri satırları oluşturan bir [hesaplanmış tablodur](desktop-calculated-tables.md). Her tablo da altı hesaplanmış sütun içerir: **Day** (Gün), **MonthNo** (Ay Numarası), **Month** (Ay), **QuarterNo** (Üç Aylık Dönem Numarası), **Quarter** (Üç Aylık Dönem) ve **Year** (Yıl).
 
 > [!NOTE]
-> Sütun adları ve değerleri, [model diline](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop) göre çevrilir ve biçimlendirilir.
+> Power BI sütun adları ve değerlerini [model diline](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop) göre çevirir ve biçimlendirir.
 
-Ayrıca otomatik tarih/saat tablosunun **Tarih** sütunuyla model tarih sütunu arasında bir ilişki de oluşturulur.
+Ayrıca Power BI Desktop otomatik tarih/saat tablosunun **Tarih** sütunuyla model tarih sütunu arasında bir ilişki oluşturur.
 
-Otomatik tarih/saat tablosuna, model tarih sütununda kayıtlı olan tüm tarih değerlerini kapsayan tam takvim yılları yüklenir. Örneğin bir tarih sütunundaki en eski değer 20 Mart 2016, en yeni değer de 23 Ekim 2019 ise tabloda 1.461 satır yer alır. Bu tablo, 2016 ile 2019 arasındaki dört takvim yılındaki her gün için bir satır içerir. Model yenilendiğinde otomatik tarih/saat tabloları da yenilenerek tarih sütunundaki değerleri kapsayan tarihlerin mevcut olması sağlanır.
+Otomatik tarih/saat tablosu, model tarih sütununda kayıtlı olan tüm tarih değerlerini kapsayan tam takvim yıllarını içerir. Örneğin bir tarih sütunundaki en eski değer 20 Mart 2016, en yeni değer de 23 Ekim 2019 ise tabloda 1.461 satır yer alır. Bu tablo, 2016 ile 2019 arasındaki dört takvim yılındaki her gün için bir satır içerir. Power BI modeli yenilediğinde otomatik tarih/saat tabloları da yenilenerek tarih sütunundaki değerleri kapsayan tarihlerin mevcut olması sağlanır.
 
 Otomatik tarih/saat tablosunun satırlarını görmek mümkün olsaydı şu şekilde görünürdü:
 
@@ -61,11 +59,11 @@ Bir tarih sütunu için otomatik tarih/saat sütunu mevcut olduğunda (ve bu sü
 
 Otomatik tarih/saat tarafından oluşturulan hiyerarşi, normal hiyerarşiler gibi görsel yapılandırmak için kullanılabilir. Görseller, **Tarih Hiyerarşisinin** tamamı veya belirli düzeyleri kullanılarak yapılandırılabilir.
 
-Ancak bu hiyerarşi, normal hiyerarşiler tarafından desteklenmeyen ek bir özelliğe de sahiptir. Otomatik tarih/saat hiyerarşisi veya bu hiyerarşideki bir düzey bir görsel kutusuna eklendiğinde, rapor yazarı hiyerarşi ile tarih sütunu arasında geçiş yaparak hangisini kullanmak istediğini belirleyebilir. Bu yaklaşım, hiyerarşi ve düzeyleri yerine tarih sütununa ihtiyaç duyulan bazı görseller için kullanışlıdır. Görsel alanını yapılandırarak başlayıp (görsel alanına sağ tıklayarak veya aşağı oka tıklayarak) bağlam menüsü ile tarih sütunu veya tarih hiyerarşisi arasında geçiş yapabilirsiniz.
+Ancak bu hiyerarşi, normal hiyerarşiler tarafından desteklenmeyen ek bir özelliğe de sahiptir. Otomatik tarih/saat hiyerarşisi veya bu hiyerarşideki bir düzey bir görsel kutusuna eklendiğinde, rapor yazarı hiyerarşi ile tarih sütunu arasında geçiş yaparak hangisini kullanmak istediğini belirleyebilir. Bu yaklaşım, hiyerarşi ve düzeyleri yerine yalnızca tarih sütununa ihtiyaç duyulan bazı görseller için kullanışlıdır. Görsel alanını yapılandırarak başlayıp (görsel alanına sağ tıklayarak veya aşağı oka tıklayarak) bağlam menüsü ile tarih sütunu veya tarih hiyerarşisi arasında geçiş yapabilir.
 
 ![OrderDate hiyerarşisi için görsel alanı yapılandırması örneği. Açık bağlam menüsünde, OrderDate sütunu ile Tarih Hiyerarşi arasında geçiş yapmayı sağlayan iki seçenek görüntüleniyor.](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 
-Son olarak DAX ile yazılmış olan model hesaplamaları doğrudan bir tarih sütununa veya dolaylı olarak gizli otomatik tarih/saat tablosu sütunlarına başvurabilir.
+Son olarak DAX ile yazılmış olan model hesaplamaları _doğrudan_ bir tarih sütununa veya _dolaylı_ olarak gizli otomatik tarih/saat tablosu sütunlarına başvurabilir.
 
 Power BI Desktop ile yazılmış olan bir formülde tarih sütununa başvurmak için standart yöntemler kullanılabilir. Ancak otomatik tarih/saat sütunlarına özel ve genişletilmiş bir söz dizimi ile başvuru yapılması gerekir. İlk olarak tarih sütunu başvurusunu ekleyip arkasına bir nokta (.) koymanız gerekir. Bunu yaptığınızda formül çubuğu otomatik tamamlama işlevi, otomatik tarih/saat tablosundan sütun seçimi yapmanıza izin verecektir.
 
@@ -89,7 +87,7 @@ Geçerli dosya seçeneğini de istediğiniz zaman kapatıp açabilirsiniz. Bu ö
 > [!CAUTION]
 > Otomatik tarih/saat tablolarının kaldırılmasına neden olacağından geçerli dosya seçeneğini kapatırken dikkatli olun. Bu tabloları kullanacak şekilde yapılandırılmış olan rapor filtrelerini veya görselleri düzeltmeyi unutmayın.
 
-Power BI Desktop'ta _Dosya > Seçenekler ve ayarlar > Seçenekler_'i ve ardından **Genel** veya **Geçerli Dosya** sayfasını seçin. İlgili seçenek, iki sayfada da **Akıllı zaman gösterimi** bölümünde yer alır.
+Power BI Desktop'ta _Dosya > Seçenekler ve ayarlar > Seçenekler_'i ve ardından **Genel** veya **Geçerli Dosya** sayfasını seçersiniz. İlgili seçenek, iki sayfada da **Akıllı zaman gösterimi** bölümünde yer alır.
 
 ![Power BI Desktop seçeneklerini yapılandırma. GENEL gruptaki Veri Yükle sayfası seçili durumda. Akıllı Zaman Gösterimi bölümünde Yeni dosyalar için otomatik tarih/saat seçeneği işaretlenmiş.](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 
