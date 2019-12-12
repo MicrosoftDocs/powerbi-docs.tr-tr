@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/22/2019
-ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874779"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831251"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarında sayfalandırma
 
- Sayfalandırma, bir raporda yer alan sayfa sayısını ve rapor öğelerinin bu sayfalarda düzenlenme biçimini ifade eder. Power BI sayfalandırılmış raporlardaki sayfalandırma, raporu görüntüleyip teslim etmek için kullandığınız işleme uzantısına göre farklılık gösterir. Rapor, bir rapor sunucusunda çalıştırıldığında HTML işleyici kullanılır. HTML, belirli bir sayfalandırma kuralları kümesini takip eder. Örneğin, aynı raporu PDF’e aktarırsanız PDF işleyici kullanıldığından ve farklı bir kural kümesi uygulandığından rapor farklı şekilde sayfalandırılır. Raporu teslim etmek amacıyla kullanmayı düşündüğünüz işleyiciye yönelik olarak iyileştirilmiş ve kullanıcılarınız için kolay okunabilir bir raporu başarıyla tasarlamak adına, Power BI sayfalandırılmış raporlarındaki sayfalandırmanın denetiminde kullanılan kuralları anlamanız gerekir.  
+ *Sayfalandırma*, bir raporda yer alan sayfa sayısını ve rapor öğelerinin bu sayfalardaki yerleşimini ifade eder. Power BI sayfalandırılmış raporlardaki sayfalandırma, raporu görüntüleyip teslim etmek için kullandığınız işleme uzantısına göre farklılık gösterir. Rapor, bir rapor sunucusunda çalıştırıldığında HTML işleyici kullanılır. HTML, belirli bir sayfalandırma kuralları kümesini takip eder. Örneğin aynı raporu PDF'ye aktarırsanız, farklı bir kural kümesinin kullanıldığı PDF işleyicisini kullanırsınız. Dolayısıyla rapor farklı sayfalandırılır. Power BI sayfalandırılmış raporlarında sayfalandırmayı denetleyen kuralları anlamanız gerekir. Bundan sonra raporunuzu vermek için kullanmayı planladığınız işleyici için iyileştirdiğiniz, okuması kolay bir raporu başarıyla tasarlayabilirsiniz.  
   
- Bu konuda, fiziksel sayfa boyutunun ve rapor düzeninin, sabit sayfa sonu oluşturucuların raporu işleme biçimi üzerindeki etkisi ele alınır. **Rapor Özellikleri** bölmesini, **Özellikler** bölmesini veya **Sayfa Düzeni** iletişim kutusunu kullanarak fiziksel sayfa boyutu ile kenar boşluklarını değiştirmeye ve raporu sütunlara ayırmaya yönelik özellikleri ayarlayabilirsiniz. **Rapor Özellikleri** bölmesine rapor gövdesinin dışındaki mavi alana tıklayarak erişebilirsiniz. Giriş sekmesinde **Çalıştır**’a tıklayıp Çalıştır sekmesinde **Sayfa Düzeni** seçeneğine tıklayarak **Sayfa Düzeni** iletişim kutusuna erişebilirsiniz.  
+ Bu konu başlığı altında, fiziksel sayfa boyutunun ve rapor düzeninin, sabit sayfa sonu oluşturucuların raporu işleme biçimi üzerindeki etkisi ele alınır. Fiziksel sayfa boyutu ile kenar boşluklarını değiştirmeye ve raporu sütunlara ayırmaya yönelik özellikleri ayarlayabilirsiniz. Bunun için **Rapor Özellikleri** bölmesini, **Özellikler** bölmesini veya **Sayfa Düzeni** iletişim kutusunu kullanın. **Rapor Özellikleri** bölmesine rapor gövdesinin dışındaki mavi alana tıklayarak erişin. Giriş sekmesinde **Çalıştır**’a tıklayıp Çalıştır sekmesinde **Sayfa Düzeni** seçeneğine tıklayarak **Sayfa Düzeni** iletişim kutusuna erişin.  
   
 > [!NOTE]  
 >  Raporu bir sayfa genişliğinde olacak şekilde tasarlamanıza rağmen rapor birden fazla sayfa genişliğinde işlendiyse, rapor gövdesinin genişliğinin (kenar boşlukları dahil) fiziksel sayfa boyutu genişliğinden büyük olup olmadığını denetleyin. Raporunuza boş sayfaların eklenmesini önlemek için kapsayıcının köşesini sola sürükleyerek kapsayıcı boyutunu azaltabilirsiniz.  
@@ -30,7 +30,7 @@ ms.locfileid: "73874779"
  Rapor gövdesini kenarlık rengi, kenarlık stili ve kenarlık genişliği gibi denetimlerle biçimlendirebilirsiniz. Arka plan rengi ve arka plan görüntüsü de ekleyebilirsiniz.  
   
 ## <a name="the-physical-page"></a>Fiziksel sayfa  
- Fiziksel sayfa boyutu kağıt boyutudur. Raporda belirttiğiniz kağıt boyutu raporun işlenme biçimini denetler. Sabit sayfa sonlu biçimlerde işlenen raporlarda, sayfa sonları fiziksel sayfa boyutuna göre yatay veya dikey olarak eklenir. Bu sayede sabit sayfa sonlu dosya biçiminde yazdırıldıklarında veya görüntülendiklerinde iyileştirilmiş bir okuma deneyimi sağlanır. Değişebilir sayfa sonlu biçimlerde işlenen raporlarda, sayfa sonları fiziksel boyuta göre yatay olarak eklenir. Bu sayede Web tarayıcısında görüntülendiklerinde iyileştirilmiş bir okuma deneyimi sağlanır.  
+ Fiziksel sayfa boyutu kağıt boyutudur. Raporda belirttiğiniz kağıt boyutu raporun işlenme biçimini denetler. Sabit sayfa sonu biçimleriyle işlenen raporlar, sayfa sonlarını fiziksel sayfanın boyutuna göre yatay ve dikey olarak ekler. Bu sayfa sonları, sabit sayfa sonu dosya biçiminde yazdırıldığında veya görüntülendiğinde iyileştirilmiş bir okuma deneyimi sağlar. Değişebilir sayfa sonu biçimleriyle işlenen raporlar, sayfa sonlarını fiziksel boyuta göre yatay olarak ekler. Bir kez daha belirtmek gerekirse, Web tarayıcısında görüntülenirken sayfa sonları iyileştirilmiş bir okuma deneyimi sağlar.  
   
  Sayfa boyutu, varsayılan olarak 21,59 x 27,94 santimetredir. Ancak, bu boyutu **Rapor Özellikleri** bölmesinden, **Sayfa Düzeni** iletişim kutusundan veya **Özellikler** bölmesindeki PageHeight ve PageWidth özelliklerini değiştirerek ayarlayabilirsiniz. Sayfa boyutu, rapor gövdesinin içeriklerine uyum sağlayacak şekilde büyümez veya küçülmez. Raporun tek bir sayfada görünmesini istiyorsanız, rapor gövdesindeki tüm içeriklerin fiziksel sayfaya sığması gerekir. Sabit sayfa sonlu biçimi kullanıyorsanız ve içerikler sığmıyorsa, rapora ek sayfa eklenmesi gerekir. Rapor gövdesi fiziksel sayfanın sağ kenarından dışarı taşarsa, sayfa sonu yatay olarak eklenir. Rapor gövdesi fiziksel sayfanın alt kenarından dışarı taşarsa, sayfa sonu dikey olarak eklenir.  
   
@@ -87,6 +87,6 @@ ms.locfileid: "73874779"
   
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI hizmetinde sayfalandırılmış rapor görüntüleme](paginated-reports-view-power-bi-service.md)
+[Power BI hizmetinde sayfalandırılmış rapor görüntüleme](consumer/paginated-reports-view-power-bi-service.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

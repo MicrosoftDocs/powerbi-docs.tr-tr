@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061880"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696152"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI görselleri etkileşim yardımcı programları
 
@@ -26,7 +26,7 @@ InteractivityUtils Power BI özel görsellerinde çapraz seçim ve çapraz filtr
 > powerbi-visuals-tools'un eski sürümlerini (3.x.x'ten düşük bir sürüm numarası) kullanmaya devam ediyorsanız, araçların yeni sürümünü (3.x.x) yükleyin.
 
 > [!IMPORTANT]
-> Etkileşim yardımcı programlarının yeni güncelleştirmeleri yalnızca araçların er son sürümünü destekler. [En son araçlarla kullanmak üzere görsel kodunuzu nasıl güncelleştireceğiniz hakkında daha fazla bilgi edinin](migrate-to-new-tools.md)
+> Etkileşim yardımcı programlarının yeni güncelleştirmeleri yalnızca araçların en son sürümünü destekler. [En son araçlarla kullanmak üzere görsel kodunuzu nasıl güncelleştireceğiniz hakkında daha fazla bilgi edinin](migrate-to-new-tools.md)
 
 Paketi yüklemek için geçerli özel görselinizin dizininde aşağıdaki komutu çalıştırmalısınız:
 
@@ -59,7 +59,7 @@ Sonuç olarak şu dosya yapısına sahip olursunuz:
 ```
 
 > [!NOTE]
-> .css dosyasını .less dosyası olarak eklemeniz gerekir çünkü Power BI Görsel Araçları dış CSS kurallarını sarmalar.
+> Power BI Görsel Araçları dış CSS kurallarını sarmaladığından, .css dosyasını .less dosyası olarak eklemeniz gerekir.
 
 ## <a name="usage"></a>Kullanım
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-`visual behaviour` için sınıfı tanımlayın. Sınıf `click` işlemeden, `contextmenu` fare olaylarından sorumludur.
-Kullanıcı veri öğelerine tıkladığında, görsel veri noktalarını seçmek için seçim işleyicisini çağırır. Kullanıcı görselin arka plan öğesini tıkladığında ise seçimi temizler. Sınıfın bunlara karşılık gelen şu yöntemleri vardır: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+`visual behavior` için sınıfı tanımlayın. Sınıf `click`, `contextmenu` fare olaylarının işlenmesinden sorumludur.
+Kullanıcı veri öğelerine tıkladığında, görsel veri noktalarını seçmek için seçim işleyicisini çağırır. Kullanıcı görselin arka plan öğesine tıklarsa, seçimi temizleme işleyicisini çağırır. Sınıfın bunlara karşılık gelen şu yöntemleri vardır: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -259,7 +259,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `selectionMerge`, görseldeki tüm seçilebilir öğeleri temsil eden D3 seçim nesnesidir.
 
-* `select(this.target)`, görselin ana DOm öğelerini temsil eden D3 seçim nesnesidir.
+* `select(this.target)`, görseldeki ana DOM öğelerini temsil eden D3 seçim nesnesidir.
 
 * `this.categories` öğelerin olduğu veri noktalarıdır, burada arabirim `VisualDataPoint` (veya `categories: VisualDataPoint[];`)
 

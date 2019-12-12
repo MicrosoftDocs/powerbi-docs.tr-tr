@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061903"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696454"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
 
@@ -37,7 +37,7 @@ export interface ISelectionId {
 
 Görsel konak nesnesi seçim yöneticisi örneği oluşturma yöntemini sağlar. Seçim yöneticisi seçim yapmaktan, bağlam menüsünü göstermekten, geçerli seçimleri depolamaktan ve seçim durumunu denetlemekten sorumludur. Ayrıca seçim yöneticisinin bu eylemlere karşılık gelen yöntemleri vardır.
 
-### <a name="create-instance-of-selection-manager"></a>Seçim yöneticisi örneği oluşturma
+### <a name="create-an-instance-of-the-selection-manager"></a>Seçim yöneticisinin örneğini oluşturma
 
 Seçim yöneticisi kullanmak için, seçim yöneticisinin örneğini oluşturmanız gerekir. Genellikle görseller seçim yöneticisi örneğini görsel nesnesinin `constructor` öğesinde oluşturur.
 
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Seçim oluşturucusu örneği oluşturma
+### <a name="create-an-instance-of-the-selection-builder"></a>Seçim oluşturucusunun örneğini oluşturma
 
 Seçim yöneticisi örneği oluşturulduğunda, görselin her veri noktası için `selections` oluşturmanız gerekir. Her veri noktasına seçim oluşturmak için görsel konak nesnesi `createSelectionIdBuilder` yöntemini sağlar. Bu yöntem `powerbi.visuals.ISelectionIdBuilder` arabirimiyle nesnenin örneğini döndürür:
 
@@ -74,8 +74,8 @@ export interface ISelectionIdBuilder {
 Bu nesnenin veri görünümü eşlemelerinin farklı türleri için `selections` oluşturmaya yönelik ilgili yöntemleri vardır.
 
 > [!NOTE]
-> `withTable` ve `withMatrixNode`  yöntemleri Power BI görsellerinin API 2.5.0 sürümünde tanıtılmıştır.
-> Tablo veya matris veri görünümü eşlemeleri için seçimler kUllanmaya ihtiyacınız varsa, API'nin sürümünü 2.5.0 veya üzerine yükseltmelisiniz.
+> `withTable` ve `withMatrixNode` yöntemleri Power BI görsellerinin API 2.5.0 sürümünde tanıtılmıştır.
+> Tablo veya matris veri görünümü eşlemeleri için seçimler kullanmaya ihtiyacınız varsa, API'nin sürümünü 2.5.0 veya üzerine yükseltmelisiniz.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Kategorik veri görünümü eşlemesi için seçimler oluşturma
 
@@ -155,11 +155,11 @@ Görselde de aşağıdaki veri görünümü eşlemesi kullanılır:
 }
 ```
 
-Örnekte, `Manafacturer` `columns` ve `Type` `rows` olur. `rows` temelinde değerler gruplandırılarak oluşturulan bir seri vardır (`Type`).
+Örnekte, `Manufacturer` `columns` ve `Type` `rows` olur. `rows` temelinde değerler gruplandırılarak oluşturulan bir seri vardır (`Type`).
 
-Görselin de `Manafacturer` ve `Type` temelinde verileri dilimleyebilmesi gerekir.
+Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gerekir.
 
-Örneğin kullanıcı `Manafacturer` olarak `Chrysler` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
+Örneğin kullanıcı `Manufacturer` olarak `Chrysler` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
 
 | Üretici | Tür | Değer |
 | - | - | - |
@@ -185,7 +185,7 @@ Görsel veri sepetleri doldurulmalıdır.
 
 ![Seçimler içeren görselin veri sepetleri](media/visual-selections-databuckets.png)
 
-Kategori (sütunlar) olarak `Manafacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Values` olarak `Value` vardır.
+Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Values` olarak `Value` vardır.
 
 > [!NOTE]
 > Seriler için `Values` gereklidir çünkü veri görünümü eşlemesine göre görsel `Values` öğelerinin `Rows` verilerine göre gruplandırılmasını bekler.
@@ -196,7 +196,7 @@ Kategori (sütunlar) olarak `Manafacturer`, seri (satırlar) olarak `Type` as se
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 Örnek kodda tüm kategorileri yinelediğimizi görebilirsiniz. Her yinelemede, seçim oluşturucusunun `withCategory` yöntemini çağırarak her kategoriye bir sonraki seçimi oluşturmak için `createSelectionIdBuilder` çağrısı yaparız. `createSelectionId` yöntemi, oluşturulan `selection` nesnesini döndürmek için son yöntem olarak kullanılır.
 
-`withCategory` yönteminde `category` sütununu geçiririz; örnekte bu `Manafacturer` öğesi ve kategori öğesini dizinidir.
+`withCategory` yönteminde `category` sütununu geçiririz; örnekte bu `Manufacturer` öğesi ve kategori öğesinin dizinidir.
 
 #### <a name="create-selections-for-series"></a>Seriler için seçimler oluşturma
 
