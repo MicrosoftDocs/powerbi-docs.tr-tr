@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061834"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696294"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Yeni powerbi-visuals-tools 3.x.x'e geçme
 
@@ -27,7 +27,7 @@ Yeni sürüm geliştiricilere görsel oluşturmaları için birçok yeni fırsat
 
 * [D3v5](https://d3js.org/)'in ve ES6 modülü tabanlı diğer kitaplıkların yeni sürümleri desteklenir.
 
-* Azaltılmış paket boyutu. Webpack kullanılmayan kodu kaldırmak için [Ağaç Sallama](https://webpack.js.org/guides/tree-shaking/) özelliğini kullanır. JS'nin kodunu azaltır ve sonuç olarak görseli yüklerken daha iyi bir performans elde edersiniz.
+* Azaltılmış paket boyutu. Webpack kullanılmayan kodu kaldırmak için [Ağaç Sallama](https://webpack.js.org/guides/tree-shaking/) özelliğini kullanır. JS'nin kodunu azaltır ve sonuç olarak görseli yüklerken daha iyi performans elde edersiniz.
 
 * Geliştirilmiş API performansı.
 
@@ -79,7 +79,7 @@ sampleBarChart görseli örneği ve `package.json` dosyasında ilgili [değişik
 
 ## <a name="how-to-install-power-bi-custom-visuals-api"></a>Power BI Özel Görseller API'sini yükleme
 
-powerbi-visual-tools'un yeni sürümü tüm API sürümlerini içermez. Bunun yerine geliştiricinin [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) paketinin belirli bir sürümünü yüklemesi gerekir. Paketin sürümü Power BI Özel Görseller'in API sürümüyle eşleşir ve Power BI Özel Görseller API'sinin tüm tür tanımlarını sağlar.
+Yeni powerbi-visual-tools sürümü tüm API sürümlerini içermez. Bunun yerine geliştiricinin [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) paketinin belirli bir sürümünü yüklemesi gerekir. Paketin sürümü Power BI Özel Görseller'in API sürümüyle eşleşir ve Power BI Özel Görseller API'sinin tüm tür tanımlarını sağlar.
 
 `npm install --save-dev powerbi-visuals-api` komutunu yürüterek projenin bağımlılıklarına `powerbi-visuals-api` öğesini ekleyin.
 Eski API türü tanımlarının bağlantısını da kaldırmanız gerekir. Çünkü `powerbi-visuals-api` türleri Webpack tarafından otomatik olarak eklenir. Buna karşılık gelen değişiklikler `package.json` dosyasının [bu](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) satırındadır.
@@ -95,7 +95,7 @@ Ayrıca çıkış olarak modern JavaScript kullanmak istiyorsanız `target` seç
 
 ## <a name="update-custom-visuals-utils"></a>Özel Görseller yardımcı programlarını güncelleştirme
 
-[powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) içinden kullandıklarınız varsa onları da en son sürüme güncelleştirmelisiniz.
+powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) içinden kullandıklarınız varsa onları da en son sürüme güncelleştirmelisiniz.
 
 `npm install powerbi-visuals-utils-<UTILNAME> --save` komutunu yürütün ve (örneğin `npm install powerbi-visuals-utils-dataviewutils --save` ) TypeScript'in dış modülleriyle yeni sürümü alın.
 
@@ -250,6 +250,6 @@ ve paketi görsel kodunun (genellikle 'src/visual.ts' dosyası) başlangıç nok
 
 [Belgelerde](https://babeljs.io/docs/en/) Babel hakkında daha fazla bilgi edinin.
 
-Son olarak, görselin kod tabanını görüntülemek için [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer) komutunu çalıştırın.  
+Son olarak görselin kod tabanını görüntülemek için [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer) komutunu çalıştırın.  
 
 ![Görsel kodu istatistikleri](./media/webpack-stats.png)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876732"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907971"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamalar
 
@@ -92,7 +92,7 @@ Güçlü ilişkiler, her iki tablonun da *tek bir kaynaktan* geldiği aşağıda
 
 *Çapraz kaynak* toplamasında ilişkilere dayanmayan isabetler için, aşağıda gruplandırma ölçütü sütunlarına dayanan toplamalarla ilgili bölüme bakın.
 
-### <a name="aggregation-tables-are-not-addressable"></a>Toplama tabloları adreslenemez
+### <a name="aggregation-tables-arent-addressable"></a>Toplama tabloları adreslenemez
 Veri kümesi üzerinde salt okuma erişimi olan kullanıcılar toplama tablolarını sorgulayamaz. RLS ile kullanıldığında bu durum güvenlik kaygılarını önler. Kullanıcılar ve sorgular toplama tablosuna değil ayrıntı tablosuna başvurur. Toplama tablosunun var olduğundan dahi haberleri olmasına gerek yoktur.
 
 Dolayısıyla **Sales Agg** tablosu gizli olmalıdır. Gizli değilse, Tümünü uygulama düğmesine tıklandığında Toplamaları yönetme iletişim kutusu bunu gizli olarak ayarlayacaktır.
@@ -184,7 +184,7 @@ Bazı durumlarda DISTINCTCOUNT işlevi de toplamaları kullanabilir. Toplama tab
 ### <a name="rls"></a>RLS
 Satır düzeyi güvenlik (RLS) ifadelerinin düzgün çalışmak için hem toplama tablosunu hem de ayrıntı tablosunu filtrelemelidir. Örnekten devam edersek, **Geography** tablosundaki RLS ifadesi çalışır çünkü Geography hem **Sales** tablosuyla hem de **Sales Agg** tablosuyla ilişkilerin filtreleme tarafından yer alır. Toplama tablosuna isabet eden sorgulara ve isabet etmeyenlere RLS başarıyla uygulanır.
 
-![toplamalar rolleri yönetme](media/desktop-aggregations/manage-roles.jpg)
+![toplamalar rolleri yönetme](media/desktop-aggregations/manage-roles.png)
 
 **Product** tablosundaki RLS ifadesi yalnızca **Sales** tablosunu filtreler; **Sales Agg** tablosunu filtrelemez. Bu önerilmez. Bu rolü kullanarak veri kümesine erişen kullanıcıların gönderdiği sorgular toplama isabetlerinden yararlanamaz. Toplama tablosu, ayrıntı tablosundaki aynı verilerin başka bir gösterimi olduğundan toplama tablosundan gelen sorguları yanıtlamak güvenli olmayabilir çünkü RLS filtresi uygulanamaz.
 
@@ -285,7 +285,7 @@ DATESYTD işlevi toplama tablosunun kapsamında olmayan CalendarDay değeri tabl
 
 ## <a name="caches-should-be-kept-in-sync"></a>Önbellekler eşitlenmiş durumda tutulmalıdır
 
-Bellek içi önbelleğin kaynak verilerle eşitlenmemesi durumunda DirectQuery ve İçeri Aktarma ve/veya İkili depolama modunu birlikte kullanan **toplamalar** farklı veri döndürebilir. Sorgu yürütme, örneğin DirectQuery sonuçlarını önbelleğe alınmış değerlerle eşleşecek şekilde filtreleyerek veri sorunlarını maskeleme girişiminde bulunmaz. Bu özellikler performansı geliştirmeleridir ve yalnızca iş gereksinimlerinizi karşılama imkanını tehlikeye atmayacak şekillerde kullanılmalıdır. Veri akışlarınızı bilmek sizin sorumluluğunuzdadır. Bu nedenle lütfen tasarımlarınızı buna uygun şekilde yapın. Gerekirse, kaynakta bu tür sorunlarla başa çıkmak için yerleşik teknikler vardır.
+Bellek içi önbelleğin kaynak verilerle eşitlenmemesi durumunda DirectQuery ve İçeri Aktarma ve/veya İkili depolama modunu birlikte kullanan **toplamalar** farklı veri döndürebilir. Sorgu yürütme, örneğin DirectQuery sonuçlarını önbelleğe alınmış değerlerle eşleşecek şekilde filtreleyerek veri sorunlarını maskeleme girişiminde bulunmaz. Bu özellikler performansı geliştirmeleridir ve yalnızca iş gereksinimlerinizi karşılama imkanını tehlikeye atmayacak şekillerde kullanılmalıdır. Veri akışlarınızı bilmek sizin sorumluluğunuzdadır. Bu nedenle tasarımlarınızı buna uygun şekilde yapın. Gerekirse, kaynakta bu tür sorunlarla başa çıkmak için yerleşik teknikler vardır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

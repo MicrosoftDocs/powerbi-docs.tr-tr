@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881962"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907676"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 
@@ -63,9 +63,11 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaştırması) görüntüleyen bir şelale grafik oluşturacaksınız.
 
+### <a name="build-the-waterfall-chart"></a>Şelale grafiği oluşturma
+
 1. **Alanlar** bölmesinde **Sales**  > **Total Sales Variance** alanını seçin.
 
-   ![Sales > Total Sales Variance’ın seçili olduğu ve sonuçta elde edilen görselin gösterildiği ekran görüntüsü.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![Sales > Total Sales Variance’ın seçili olduğu ve sonuçta elde edilen görselin gösterildiği ekran görüntüsü.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. Şelale simgesini seçerek ![Şelale simgesinin ekran görüntüsü](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
 
 1. **Kategori** kutusuna eklemek üzere **Time** > **FiscalMonth** alanını seçin.
 
-    ![şelale](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![şelale](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Power BI’ın şelale grafiğini kronolojik olarak sıraladığından emin olun. Grafiğin sağ üst köşesinden **Diğer seçenekler** (...) düğmesini seçin.
+### <a name="sort-the-waterfall-chart"></a>Şelale grafiğini sıralama
 
-    Bu örnekte **Artan düzende sırala**’yı seçeceğiz
+1. Power BI’ın şelale grafiğini aya göre kronolojik olarak sıraladığından emin olun. Grafiğin sağ üst köşesinden **Diğer seçenekler** (...) düğmesini seçin.
 
-    **Artan Düzende Sırala** seçeneğinin solunda sarı bir gösterge olup olmadığını kontrol edin. Bu, belirlediğiniz seçeneğin uygulandığını gösterir.
+    Bu örnek için **Sıralama ölçütü**'nü ve **FiscalMonth** öğesini seçin. Seçiminizin yanındaki sarı gösterge, belirttiğiniz seçeneğin ne zaman uygulandığını gösterir.
 
-    ![Sıralama ölçütü > Artan düzende sırala’yı seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![Sıralama ölçütü > FiscalMonth seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    Ayları kronolojik düzende görüntülemek için **Artan düzende sırala**'yı seçin. Önceki adımda olduğu gibi **Artan düzende sırala** seçeneğinin solunda sarı bir gösterge olup olmadığını kontrol edin. Bu, belirlediğiniz seçeneğin uygulandığını gösterir.
 
-    Ardından, **Sıralama ölçütü**’ne tıklayıp **FiscalMonth** seçeneğini belirleyeceğiz. Önceki adımda olduğu gibi, seçiminizin yanındaki sarı gösterge, belirlediğiniz seçeneğin uygulandığı anlamına gelir.
+    ![Sıralama ölçütü > Artan düzende sırala’yı seçin](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![Sıralama ölçütü > FiscalMonth seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    X ekseni değerlerine bakarak **Oca**’dan **Ağu**’ya kadar düzgün sıralandığını görebilirsiniz.
+    Grafiğinizin FiscalMonth için Ocak'tan Ağustos'a kadar sıralandığına dikkat edin.  
 
-    Aydan aya değişikliklere en çok katkıda bulunan öğeleri görmek için biraz daha ayrıntıya inin.
+### <a name="explore-the-waterfall-chart"></a>Şelale grafiğini keşfetme
+
+Aydan aya değişikliklere en çok katkıda bulunan öğeleri görmek için biraz daha ayrıntıya inin.
 
 1.  **Depolama** > **Bölge**’yi seçtiğinizde **Bölge**, **Döküm** demetine eklenir.
 
     ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Varsayılan olarak, Power BI aya göre artışa ve azalmaya en çok katkıda bulunan beş öğeyi ekler. Aşağıdaki görüntüde görselleştirme bölmemiz daha fazla veri içerecek şekilde genişletilmiştir. 
+    Power BI görselleştirmeye başka veriler eklemek için **Döküm**'deki değeri kullanır. Her mali ay için artışa ve azalmaya en çok katkıda bulunan beş öğeyi ekler. Diğer bir deyişle şimdi Şubat ayının tek veri noktası yerine altı veri noktası vardır.  
 
-    ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    Sizi yalnızca en çok katkıda bulunan iki öğe ilgilendirir.
+    Sizi yalnızca en çok katkıda bulunan iki öğenin ilgilendirdiğini varsayalım.
 
 1. **Biçim** bölmesinde **Kırılım**’ı seçin ve **En yüksek kırılım**’ı **2** olarak ayarlayın.
 
-    ![Biçim > Kırılım](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Biçim > Kırılım](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     Hızlı bir gözden geçirmeyle şelale grafiğinizde hem negatif hem de pozitif olarak harekete en çok katkıda bulunan bölgelerin Ohio ve Pennsylvania olduğunu görüyoruz.
 
-    ![Şelale grafiği](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![Şelale grafiği](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

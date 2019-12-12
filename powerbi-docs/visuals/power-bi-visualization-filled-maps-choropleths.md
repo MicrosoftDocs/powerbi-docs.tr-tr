@@ -1,23 +1,23 @@
 ---
-title: Power BI'da kartogramlar (Koroplet haritalar)
-description: Power BI'da Kartogram (Koroplet harita) oluşturma belgeleri
+title: Power BI'da Kartogramlar (Koroplet Haritalar)
+description: Power BI'da Kartogram (Koroplet Harita) oluşturma belgeleri
 author: mihart
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870956"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907859"
 ---
-# <a name="filled-maps-choropleths-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
+# <a name="filled-maps-choropleth-in-power-bi"></a>Power BI'da kartogramlar (koroplet haritalar)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -46,12 +46,12 @@ Kartogramlar şu durumlarda kullanım için mükemmel seçimdir:
 * coğrafi konumlarda dağıtıma ilişkin bir genel bakış edinmek için.
 
 ### <a name="prerequisites"></a>Önkoşullar
-Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) kullanılmıştır.
+Bu eğitimde [Satış ve Pazarlama örneği PBIX dosyası](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) kullanılmaktadır.
 1. Menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
    
-2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
+2. **Satış ve Pazarlama örneği PBIX dosyası** kopyanızı bulun
 
-1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+1. **Satış ve Pazarlama örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
@@ -63,7 +63,7 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
    > 
    > 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
+[VİDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Kartogram oluşturma
 1. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
@@ -84,27 +84,27 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
    ![Tümü ve AK'nin seçili olmadığı State açılan listesi](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. Boya rulosu simgesini seçip biçimlendirme bölmesini açtıktan sonra **Veri renkleri** seçeneğini belirleyin.
 
-    ![Veri renkleri seçeneğini gösteren biçimlendirme bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
+    ![Veri renkleri seçeneğini gösteren biçimlendirme bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
 5. Üç dikey noktayı seçip **Koşullu Biçimlendirme** seçeneğini belirleyin.
 
-    ![Veri renkleri koşullu biçimlendirme düğmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+    ![Veri renkleri koşullu biçimlendirme düğmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. Kartogramınızın nasıl gölgelendirileceğini belirlemek için **Varsayılan renk - Veri renkleri** ekranını kullanın. Burada gölgelendirmenin temel alacağı alanı belirleyebilir ve gölgelendirmenin nasıl uygulanacağını seçebilirsiniz. Bu örnekte, **SalesFact** > **Sentiment** alanını kullanıp yaklaşımın en düşük değerini kırmızı, en yüksek değerini de yeşil olarak ayarlayacağız. En fazla ve en düşük değer arasındaki değerler kırmızı ve yeşilin tonlarında olur. Ekranın alt kısmındaki gösterim kullanılacak renk aralığını gösterir. 
+6. Kartogramınızın nasıl gölgelendirileceğini belirlemek için **Varsayılan renk - Veri renkleri** ekranını kullanın. Burada gölgelendirmenin temel alacağı alanı belirleyebilir ve gölgelendirmenin nasıl uygulanacağını seçebilirsiniz. Bu örnekte **SalesFact** > **Sentiment** alanını kullanıp yaklaşımın en düşük değerini turuncu, en yüksek değerini de mavi olarak ayarlayacağız. En fazla ve en düşük değer arasındaki değerler turuncu ile mavinin tonlarında olacak. Ekranın alt kısmındaki gösterim kullanılacak renk aralığını gösterir. 
 
-    ![Yaklaşım seçiliyken varsayılan renk bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+    ![Yaklaşım seçiliyken varsayılan renk bölmesi](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. Kartogram yeşil ve kırmızı ile gölgelendirilir; kırmızı daha düşük yaklaşım sayılarını, yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Ek ayrıntıları görüntülemek için bir alanı araç ipucu kutusuna sürükleyin.  Burada, **Yaklaşım boşluğu** ekleyip Idaho (ID) eyaletine vurgu yaptım ve yaklaşım boşluğunun 6 olduğunu, yani düşük olduğunu gördüm.
-   ![Idaho araç ipuçlarını gösteren kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+7. Kartogram yeşil ve kırmızı ile gölgelendirilir; kırmızı daha düşük yaklaşım sayılarını, yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Ek ayrıntıları görüntülemek için bir alanı araç ipucu kutusuna sürükleyin.  Burada **SalesFact** > **Yaklaşım aralığı** ekledik. Idaho (ID) eyaletinin vurgulanması yaklaşım aralığının 6 gibi düşük bir değerde olduğunu gösterir.
+   ![Idaho araç ipuçlarını gösteren kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [Raporu kaydedin](../service-report-save.md).
 
-Power BI, kartogramınızın görünümü üzerinde büyük ölçüde denetim elde etmenizi sağlar. İsteğiniz görünümü yakalayana kadar bu veri denetimlerini kullanarak farklı görünümler deneyin. 
+Power BI, kartogramınızın görünümü üzerinde büyük ölçüde denetim elde etmenizi sağlar. İstediğiniz görünümü elde edinceye kadar bu veri rengi denetimleri üzerinde deneme yapın. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
 Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).
 
-Bir Kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu, tam tersi için de geçerlidir.
+Bir kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu tam tersi için de geçerlidir.
 
 1. İzlemek için önce **Dosya > Kaydet**’i seçerek bu raporu kaydedin. 
 
@@ -118,10 +118,10 @@ Bir Kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselle�
 
    ![Yaklaşım sayfasına eklenen kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Kartogramda bir eyalet seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır ve çapraz filtrelenir. Örneğin, **Texas** seçeneği belirlendiğinde Yaklaşımın 75 olduğu ve Texas’ın Central District #23’te olduğu bana gösterilir.   
-   ![Texas seçili](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+5. Kartogramda bir eyalet seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır ve çapraz filtrelenir. Örneğin **Texas**'ın seçilmesi kartlarda çapraz filtre uygular ve çubuk grafiğini çapraz vurgular. Buradan, Yaklaşımın 75 olduğunu ve Texas’ın Central District #23’te yer aldığını anlarım.   
+   ![Texas seçili](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. VanArsdel üzerinde bir veri noktası seçin - Aya Göre Yaklaşım çizgi grafiği. Bu, rakibi için değil, VanArsdel için Yaklaşım verilerini göstermek amacıyla kartogramı filtreler.  
-   ![yeni gölgelendirme](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
+   ![yeni gölgelendirme](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, bir Paris, Fransa mevcuttur ancak Paris, Texas da bulunmaktadır. Coğrafi verileriniz büyük olasılıkla ayrı sütunlarda (şehir adları için bir sütun, eyalet veya il adları için ayrı bir sütun vb.) depolanır, bu nedenle Bing Paris'leri ayırt edemeyebilir. Veri kümeniz zaten enlem ve boylam verileri içeriyorsa Power BI, harita verilerinin anlaşılır hale getirilmesine yardımcı olacak özel alanlara sahiptir. Enlem verilerinizi içeren alanı Görsel Öğeler \> Enlem alanına sürüklemeniz yeterlidir.  Aynı işlemi boylam verileriniz için de gerçekleştirin.    
@@ -130,7 +130,7 @@ Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, b
 
 Power BI Desktop'ta veri kümesini düzenleme izniniz varsa haritalarla ilgili kafa karıştırıcı durumların ele alınmasına yardımcı olabilecek şu videoyu izleyin.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
+[VİDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Enlem ve boylam verilerine erişiminiz yoksa ama veri kümesi üzerinde düzenleme erişiminiz varsa [veri kümenizi güncelleştirmek için bu yönergeleri izleyin](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
