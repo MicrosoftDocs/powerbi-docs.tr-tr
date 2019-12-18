@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102100"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999848"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
 Power BI’da Power BI görsellerini kullanarak size göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Power BI görselleri geliştiriciler tarafından, Power BI’a eklenmiş olan zengin görsellerin gereksinimlerini tam olarak karşılamadığı durumlarda oluşturulur.
 
-Bazı kuruluşlarda Power BI görselleri daha da önemlidir ve bunlar kuruluşa özgü verilerin ya da bilgilerin aktarılması için gerekli olabilir, özel veri gereksinimlerine sahip olabilir ya da özel iş yöntemlerini vurgulayabilir. Bu durumdaki kuruluşların Power BI görselleri geliştirmesi, kuruluş genelinde paylaşması ve bakımlarının düzgün yapıldığından emin olması gerekir. Power BI Power BI görselleri, kuruluşların tam olarak bunu yapmasına olanak sağlar.
+Bazı kuruluşlarda Power BI görselleri daha da önemlidir ve bunlar kuruluşa özgü verilerin ya da bilgilerin aktarılması için gerekli olabilir, özel veri gereksinimlerine sahip olabilir ya da özel iş yöntemlerini vurgulayabilir. Bu durumdaki kuruluşların Power BI görselleri geliştirmesi, kuruluş genelinde paylaşması ve bakımlarının düzgün yapıldığından emin olması gerekir. Power BI görselleri, kuruluşların tam olarak bunu yapmasına olanak sağlar.
 
 Aşağıdaki resimde, Power BI’daki Power BI kuruluş görsellerinin yöneticiden başlayıp geliştirme ve bakım aşamalarından geçerek veri analistinde sonlanan akış süreci gösterilmektedir.
 
@@ -55,10 +55,10 @@ Son kullanıcı:
 
 ## <a name="troubleshoot"></a>Sorun giderme
 
-Sorun giderme hakkında bilgi için [Power BI Power BI görsellerinizin sorunlarını giderme](power-bi-custom-visuals-troubleshoot.md) bağlantısını ziyaret edin.
+Sorun giderme hakkında bilgi için [Power BI görsellerinizin sorunlarını giderme](power-bi-custom-visuals-troubleshoot.md) bağlantısını ziyaret edin.
 
 ## <a name="faq"></a>SSS
 
-Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-visuals) bağlantısını ziyaret edin.
+Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).

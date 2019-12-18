@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699234"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000124"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI hizmetinden şirket içi veri kaynaklarına Kerberos tabanlı SSO yapılandırma
 
@@ -66,6 +66,22 @@ Gerekirse, etki alanı yöneticisi olarak ağ geçidi hizmeti etki alanı hesab�
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    **Active Directory Kullanıcıları ve Bilgisayarları** MMC ek bileşenini kullanarak SPN ayarı da yapabilirsiniz.
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>Gerekirse Windows Yetkilendirme ve Erişim Grubu'na ağ geçidi hizmet hesabı ekleme
+
+Bazı senaryolarda Windows Yetkilendirme ve Erişim Grubu'na ağ geçidi hizmet hesabı eklenmesi gerekir. Bu senaryolar Active Directory ortamının güvenliğini güçlendirme çalışması ve ağ geçidi hizmet hesabıyla ağ geçidinin kimliğine bürüneceği kullanıcı hesaplarının ayrı etki alanlarında veya ormanlarda olduğu durumlardır. Ayrıca etki alanının / ormanın güçlendirilmediği ama bunun gerekli olmadığı durumlarda da Windows Yetkilendirme ve Erişim Grubu'na ağ geçidi hizmet hesabını ekleyebilirsiniz.
+
+Daha fazla bilgi için bkz. [Windows Yetkilendirme ve Erişim Grubu](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess).
+
+Bu yapılandırma adımını tamamlamak için, Active Directory kullanıcılarını içeren her etki alanında ağ geçidi hizmet hesabının kimliğe bürünebilmesini istersiniz:
+1. Etki alanındaki bilgisayarda oturum açın ve Active Directory Kullanıcıları ve Bilgisayarları MMC ek bileşenini başlatın.
+2. Normalde **Builtin** kapsayıcısında bulunan **Windows Yetkilendirme ve Erişim Grubu**'nun yerini belirleyin.
+3. Gruba çift tıklayın ve **Üyeler** sekmesine tıklayın.
+4. **Ekle**'ye tıklayın ve etki alanının konumunu ağ geçidi hizmet hesabının bulunduğu etki alanıyla değiştirin.
+5. Ağ geçidi hizmet hesabının adını yazın ve **Adları Denetle**'ye tıklayarak ağ geçidi hizmet hesabının erişilebilir olduğunu doğrulayın.
+6. **Tamam**'a tıklayın.
+7. **Uygula**'ya tıklayın.
+8. Ağ geçidi hizmetini yeniden başlatın.
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Kullanılacak Kerberos kısıtlanmış temsilinin türüne karar verme
 

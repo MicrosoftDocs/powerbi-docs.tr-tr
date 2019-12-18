@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698291"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958483"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
 
@@ -30,7 +30,8 @@ KAG kullanmak için verileri bir Power BI Desktop (PBIX) dosyasından Power BI h
 
 - Analysis Services Canlı Bağlantısı
 - Excel çalışma kitapları (veriler önce Power BI Desktop'a içeri aktarılmadıysa)
-- Gönderme veri kümeleri
+- [Gönderme veri kümeleri](/rest/api/power-bi/pushdatasets)
+- [Akış veri kümeleri](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Büyük modeller](service-premium-large-models.md)
 
 KAG, kutucuk ve görsellerin sorgu sonuçlarından ziyade sadece PBIX dosyasıyla ilişkilendirilen veri kümesi için geçerlidir.

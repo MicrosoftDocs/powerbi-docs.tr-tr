@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696176"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000170"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat
 
@@ -36,7 +36,7 @@ Her otomatik tarih/saat tablosu aslında DAX [CALENDAR](/dax/calendar-function-d
 
 Ayrıca Power BI Desktop otomatik tarih/saat tablosunun **Tarih** sütunuyla model tarih sütunu arasında bir ilişki oluşturur.
 
-Otomatik tarih/saat tablosu, model tarih sütununda kayıtlı olan tüm tarih değerlerini kapsayan tam takvim yıllarını içerir. Örneğin bir tarih sütunundaki en eski değer 20 Mart 2016, en yeni değer de 23 Ekim 2019 ise tabloda 1.461 satır yer alır. Bu tablo, 2016 ile 2019 arasındaki dört takvim yılındaki her gün için bir satır içerir. Power BI modeli yenilediğinde otomatik tarih/saat tabloları da yenilenerek tarih sütunundaki değerleri kapsayan tarihlerin mevcut olması sağlanır.
+Otomatik tarih/saat tablosu, model tarih sütununda kayıtlı olan tüm tarih değerlerini kapsayan tam takvim yıllarını içerir. Örneğin bir tarih sütunundaki en eski değer 20 Mart 2016, en yeni değer de 23 Ekim 2019 ise tabloda 1.461 satır yer alır. Bu tablo, 2016 ile 2019 arasındaki dört takvim yılındaki her gün için bir satır içerir. Power BI modeli yenilediğinde her otomatik tarih/saat tablosu da yenilenir. Bu şekilde model her zaman tarih sütunu değerlerini kapsayan tarihleri içerir.
 
 Otomatik tarih/saat tablosunun satırlarını görmek mümkün olsaydı şu şekilde görünürdü:
 
@@ -93,7 +93,8 @@ Power BI Desktop'ta _Dosya > Seçenekler ve ayarlar > Seçenekler_'i ve ardında
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Otomatik tarih/saat ve ilgili konular hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
+- [Power BI Desktop’ta otomatik tarih/saat kılavuzu](guidance/auto-date-time.md)
 - [Power BI Desktop'ta tarih tabloları ayarlama ve kullanma](desktop-date-tables.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

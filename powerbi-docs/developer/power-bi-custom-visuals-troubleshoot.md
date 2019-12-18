@@ -1,5 +1,5 @@
 ---
-title: Power BI Power BI görsellerini geliştirme sorunlarını giderme
+title: Power BI görsellerini geliştirme sorunlarını giderme
 description: Bu makalede, özel Power BI görseli geliştirme veya oluşturma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanır.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127749"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999779"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Power BI Power BI görselleriyle ilgili sorunları giderme
+# <a name="troubleshoot-power-bi-visuals"></a>Power BI görselleriyle ilgili sorunları giderme
 
 ## <a name="debug"></a>Hata Ayıklama
 
@@ -42,4 +42,4 @@ Tüm sorularınız, yorumlarınız veya sorunlarınız için Power BI görseller
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Daha fazla bilgi edinmek için [Power BI Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-visuals) bağlantısını ziyaret edin.
+Daha fazla bilgi edinmek için [Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin.

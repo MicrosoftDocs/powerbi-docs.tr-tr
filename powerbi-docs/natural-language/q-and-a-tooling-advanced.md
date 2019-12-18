@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875339"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958529"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Verilerinizin cevapladığında daha da güçlü olur. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. Ancak daha da iyi Soru-Cevap etkileşimleri için yanıtları geliştirebilirsiniz. Bunun bir yolu, dil şemasını düzenlemektir. 
 
-Kurumsal veriler her şeyin başıdır.  Veri modeli ne kadar iyiyse, kullanıcıların kaliteli yanıtlar alması o kadar kolay olacaktır. Modeli iyileştirmenin bir yolu, veri kümenizdeki tablo ve sütun adları arasındaki ilişkileri ve terminolojiyi tanımlayıp kategorilere ayıran bir dil şeması eklenmesidir. Dil şemalarınızı Power BI Desktop’ta yönetirsiniz. 
+Her şey kurumsal verilerle başlar.  Veri modeli ne kadar iyiyse, kullanıcıların kaliteli yanıtlar alması o kadar kolay olacaktır. Modeli iyileştirmenin bir yolu, veri kümenizdeki tablo ve sütun adları arasındaki ilişkileri ve terminolojiyi tanımlayıp kategorilere ayıran bir dil şeması eklenmesidir. Dil şemalarınızı Power BI Desktop’ta yönetirsiniz. 
 
-Soru-Cevap iki çerçevede ele alınır.  Birinci yönü hazırlık, yani *modellemedir*.  İkincisi, soru sorma ve verileri keşfetme, yani *kullanmadır*. Bazı şirketlerde, *veri modelleyicileri* veya BT yöneticileri olarak bilinen çalışanlar, veri kümelerini derleyen, veri modelleri oluşturan ve veri kümelerini Power BI’a yayımlayan kişiler olabilir.  Başka bir çalışan grubu ise verileri çevrimiçi "kullanacak" çalışanlardır.  Başka şirketlerde bu roller birleştirilebilir. 
+Soru-Cevap iki çerçevede ele alınır.  Birinci yönü hazırlık, yani *modellemedir*.  İkincisi, soru sorma ve verileri keşfetme, yani *kullanmadır*. Bazı şirketlerde, *veri modelleyicileri* veya BT yöneticileri olarak bilinen çalışanlar, veri kümelerini derleyen, veri modelleri oluşturan ve veri kümelerini Power BI’a yayımlayan kişiler olabilir.  Başka bir çalışan grubu ise verileri çevrimiçi "kullanacak" çalışanlardır.  Başka şirketlerde bu roller birleştirilebilir. 
 
 Bu makale, mümkün olan en iyi Soru-Cevap sonuçlarını sağlamak üzere veri kümelerini iyileştiren veri modelleyicilerine yöneliktir. 
 

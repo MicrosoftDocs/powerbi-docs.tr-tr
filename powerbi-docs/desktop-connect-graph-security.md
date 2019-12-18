@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876482"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999802"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop’ta Microsoft Graph Güvenliği API’sine bağlanma
 
@@ -40,7 +40,7 @@ Bağlayıcıya onay vermek için Azure AD kiracısı yöneticiniz aşağıdaki y
 
 * [Uygulama onayı deneyimi](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) aracılığıyla ilk çalıştırma sırasında mantıksal uygulamanızın gönderdiği bir isteği yanıtlayın
    
-Microsoft Graph Güvenlik bağlayıcısında oturum açan kullanıcı hesabı Azure AD’de Güvenlik Okuyucusu Sınırlı Yönetim rolünün üyesi olmalıdır (*Güvenlik Okuyucusu* ya da *Güvenlik Yöneticisi*). Bkz. [Kullanıcılara Azure AD rolleri atama](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
+Microsoft Graph Güvenlik bağlayıcısında oturum açan kullanıcı hesabına Azure AD Güvenlik Okuyucusu rolü atanmalıdır (kullanıcı **Güvenlik Yöneticisi** rolüne üye *değilse*). Bkz. [Kullanıcılara Azure AD rolleri atama](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Microsoft Graph Güvenlik bağlayıcısını kullanma
 

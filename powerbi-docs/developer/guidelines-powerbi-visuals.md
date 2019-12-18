@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565604"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000101"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Power BI görselinizi başkalarının bulması ve kullanması amacıyla Microsoft AppSource’ta [yayımlamadan](https://docs.microsoft.com/power-bi/developer/office-store) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun.
@@ -50,7 +50,12 @@ Power BI IAP görselinizle geçersiz (veya süresi dolmuş) bir lisans kullanıl
 
 ### <a name="submission-process"></a>Gönderme işlemi
 
-Geliştiriciler, ücretsiz görseller için yaptıkları gibi Satıcı Panosu üzerinden IAP Power BI görsellerini Microsoft AppSource'a yüklerler. Gönderilen Power BI görselinin IAP özelliklerine sahip olduğunu belirtmek için, geliştiricilerin Satıcı Panosu'na "Uygulama içi satın alma özellikli görsel" yazması gerekir. Ayrıca, doğrulama ekibinin IAP özelliklerini doğrulayabilmesi için geliştiriciler bir lisans anahtarı veya belirteç sağlamalıdır. Power BI görseli doğrulandıktan ve onaylandıktan sonra, IAP Power BI görseli için Microsoft AppSource listesinde, fiyat seçeneklerinin altında "Ek satın alma işlemleri gerekebilir" belirtimi yer alır.
+[Gönderme işlemini](office-store.md#submitting-to-appsource) uygulayın, ardından *Ürün kurulumu* sekmesine gidin ve *Ürünüm için hizmet satın alınması gerekiyor* onay kutusunu işaretleyin.
+
+Power BI görseli doğrulandıktan ve onaylandıktan sonra, IAP Power BI görseli için Microsoft AppSource listesinde, fiyat seçeneklerinin altında "Ek satın alma işlemleri gerekebilir" belirtimi yer alır.
+
+>[!NOTE]
+>Power BI görseliniz önceden [Satıcı Panosu](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) kullanılarak gönderildiyse ve bir IAP özelliği eklemek istiyorsanız, Satıcı Panosu'nda "Uygulama içi satın alma içeren görsel" notunu yazmanız gerekir. Ayrıca, doğrulama ekibinin IAP özelliklerini doğrulayabilmesi için lisans anahtarı veya belirteç sağlamalısınız.
 
 ## <a name="context-menu"></a>Bağlam menüsü
 Bağlam menüsü, kullanıcı imlecini bir görselin üzerine getirdiğinde görüntülenen sağ tıklama menüsüdür.

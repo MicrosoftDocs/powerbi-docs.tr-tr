@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 10/29/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ebaf32bbf84dcbb8efd8516fd0a1ab01011f2d63
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698498"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958733"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
-Power BI Pro, kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanmış raporları ve panoları okuyup etkileşimde bulunmasına ve diğer Power BI Pro kullanıcılarıyla içerik paylaşıp işbirliği yapmasına olanak tanıyan bireysel bir kullanıcı lisansıdır. Yalnızca Power BI Pro kullanıcı lisansı olan kullanıcılar içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI özellikleri](service-features-license-type.md).
+Power BI Pro, kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanmış raporları ve panoları okuyup etkileşimde bulunmasına ve diğer Power BI Pro kullanıcılarıyla içerik paylaşıp işbirliği yapmasına olanak tanıyan bireysel bir kullanıcı lisansıdır. Yalnızca Power BI Pro kullanıcı lisansı olan kullanıcılar içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
 
 ## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 

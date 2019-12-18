@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6c098a187b7f0d0d4828500cd6c5995a7c82ab42
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697647"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000193"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib (sapcrypto.dll) kullanarak SSO için SAP BW’de Kerberos çoklu oturum açma kullanma
 
@@ -89,7 +89,7 @@ Bu makalede, CommonCryptoLib (sapcrypto.dll) kullanılarak Power BI hizmetinden 
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamak olması için ağ geçidi izleme, CPIC izleme ve CommonCryptoLib izleme özelliklerini kullanabilirsiniz. CPIC izleme ve CommonCryptoLib, SAP ürünleri olduğu için Microsoft bunlar için destek sağlayamaz. Bazı Active Directory yapılandırmaları, BW’ye çoklu oturum açma erişimi verilen Active Directory kullanıcıları için kullanıcıların ağ geçidinin kurulu olduğu makinede Yöneticiler grubunun üyesi olmasını gerektirebilir.
+Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamak olması için ağ geçidi izleme, CPIC izleme ve CommonCryptoLib izleme özelliklerini kullanabilirsiniz. CPIC izleme ve CommonCryptoLib, SAP ürünleri olduğu için Microsoft bunlar için destek sağlayamaz.
 
 ### <a name="gateway-logs"></a>Ağ geçidi günlükleri
 
@@ -109,7 +109,49 @@ Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamak olması i
 
    ![CPIC izleme](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
- 3. Sorunları yeniden üretip **CPIC\_TRACE\_DIR** parametresinin izleme dosyalarını içerdiğinden emin olun.
+3. Sorunları yeniden üretip **CPIC\_TRACE\_DIR** parametresinin izleme dosyalarını içerdiğinden emin olun.
+ 
+    CPIC izleme, sapcrypto.dll kitaplığının yüklenememesi gibi daha üst düzey sorunları tanılayabilir. Örneğin burada .dll yükü hatasının oluştuğu CPIC izleme dosyasından bir kod parçacığı verilmiştir:
+
+    ```
+    [Thr 7228] *** ERROR => DlLoadLib()==DLENOACCESS - LoadLibrary("C:\Users\test\Desktop\sapcrypto.dll")
+    Error 5 = "Access is denied." [dlnt.c       255]
+    ```
+
+    Böyle bir hatayla karşılaşırsanız ama sapcrypto.dll ve sapcrypto.ini üzerinde Okuma ve Yürütme izinlerini [yukarıdaki bölümde](#configure-sap-bw-to-enable-sso-using-commoncryptolib) açıklandığı gibi ayarladıysanız, dosyaları içeren klasörde aynı Okuma ve Yürütme izinlerini ayarlamayı deneyin.
+
+    Yine de .dll'yi yükleyemezseniz [dosya için denetimi](/windows/security/threat-protection/auditing/apply-a-basic-audit-policy-on-a-file-or-folder) açmayı deneyin. Sonuçta elde edilen denetim günlüklerini Windows Olay Görüntüleyicisi'nde incelemek, dosyanın neden yüklenemediğini saptamanıza yardımcı olabilir. Kimliğine bürünülen Active Directory kullanıcısı tarafından başlatılmış bir hata girdisi arayın. Örneğin kimliğine bürünülen `MYDOMAIN\mytestuser` kullanıcısı için denetim günlüğündeki bir hata şöyle görünebilir:
+
+    ```
+    A handle to an object was requested.
+
+    Subject:
+        Security ID:        MYDOMAIN\mytestuser
+        Account Name:       mytestuser
+        Account Domain:     MYDOMAIN
+        Logon ID:       0xCF23A8
+
+    Object:
+        Object Server:      Security
+        Object Type:        File
+        Object Name:        <path information>\sapcrypto.dll
+        Handle ID:      0x0
+        Resource Attributes:    -
+
+    Process Information:
+        Process ID:     0x2b4c
+        Process Name:       C:\Program Files\On-premises data gateway\Microsoft.Mashup.Container.NetFX45.exe
+
+    Access Request Information:
+        Transaction ID:     {00000000-0000-0000-0000-000000000000}
+        Accesses:       ReadAttributes
+                
+    Access Reasons:     ReadAttributes: Not granted
+                
+    Access Mask:        0x80
+    Privileges Used for Access Check:   -
+    Restricted SID Count:   0
+    ```
 
 ### <a name="commoncryptolib-tracing"></a>CommonCryptoLib izleme 
 

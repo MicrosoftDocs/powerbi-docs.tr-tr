@@ -1,138 +1,106 @@
 ---
-title: AppSource'ta Power BI görsellerini yayımlama
-description: Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
+title: Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
+description: Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla İş Ortağı Merkezi'nde nasıl yayımlayabileceğinizi öğrenin
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 3/27/2019
-ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/02/2019
+ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265242"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999938"
 ---
-# <a name="publish-power-bi-visuals-to-appsource"></a>AppSource'ta Power BI görsellerini yayımlama
+# <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
-Özel görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta nasıl yayımlayabileceğinizi öğrenin.
-
-Özel görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması amacıyla AppSource'ta yayımlamak isteyebilirsiniz. Bu işlemi gerçekleştirmeden önce yapmanız gereken hazırlıklar vardır. Özel görsel oluşturma hakkında daha fazla bilgi için bkz. [Power BI Özel Görseli Geliştirme](visuals/custom-visual-develop-tutorial.md).
-
-   ![Office Mağazası](media/office-store/appsource-01.png)
+Power BI görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması için bunu AppSource'ta yayımlamak isteyebilirsiniz. Power BI görseli oluşturma hakkında daha fazla bilgi için bkz. [Power BI görseli geliştirme](visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="what-is-appsource"></a>AppSource nedir?
 
-**AppSource**, Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) Office 365, Dynamics 365 ve diğer pek çok uygulama çok sayıda ürünün milyonlarca kullanıcısını; işlerini hiç olmadığı kadar verimli, bilinçli ve etkileyici bir şekilde gerçekleştirmelerine yardımcı olacak çözümlerle bir araya getirir.
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir.
 
-## <a name="preparing-to-submit-your-custom-visual"></a>Özel görselinizi göndermek için hazırlanma
+![Office Mağazası](media/office-store/appsource-01.png)
 
-[Power BI görselleri yönergelerimizi](guidelines-powerbi-visuals.md) okumayı, [özel görselinizi kodlamayı ve test etmeyi](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) tamamlayıp pbiviz dosyası şeklinde paketledikten sonra gönderim için aşağıdaki bilgilere sahip de olmanız gerekir.
+## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI görselinizi göndermek için hazırlanma
+
+Power BI görselini AppSource'a göndermeden önce [Power BI görselleriyle ilgili yönergeler](guidelines-powerbi-visuals.md) konusunu okuduğunuzdan ve [özel görselinizi test ettiğinizden](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) emin olun.
+
+Power BI görselinizi göndermeye hazır olduğunuzda görselinizin aşağıda listelenen tüm gereksinimleri karşıladığını doğrulayın.
 
 | Öğe | Gerekli | Açıklama |
 | --- | --- | --- |
-| Pbiviz paketi gerekli tüm meta verileri içeriyor |Evet |Görsel adı<br>Görünen ad<br>GUID<br>Sürüm<br>Açıklama<br>Yazarın adı ve e-posta adresi |
-| Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya kattığı değere odaklanmanız ve kullanım, biçimlendirme seçenekleri gibi alanlarda örnekler vermeniz gerekir. En sona ekleyeceğiniz *"ipuçları"* sayfasına püf noktalarını, dikkat edilmesi gerekenleri ve benzer bilgileri girebilirsiniz.<br>Örnek .pbix rapor dosyası, herhangi bir dış bağlantı olmadan çevrimdışı çalıştırılmalıdır |
-| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) boyutunda olmalıdır. **Önemli!** Lütfen Simgeyi göndermeden önce [kısa kılavuzu](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) gözden geçirin. |
-| Ekran görüntüleri |Evet |En az bir ekran görüntüsü eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) boyutunda olmalıdır. Dosya boyutu 1024 KB’tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.* |
-| Destek indirme bağlantısı |Evet |Görselinizle sorun yaşayan müşterilerin destek için ulaşabileceği URL'yi girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. URL'niz https:// veya https:// ile başlamalıdır. |
-| Gizlilik belgesi bağlantısı |Evet |Görselinizi kullanmak isteyen müşterilerin inceleyebileceği gizlilik ilkesinin bağlantısını girin. Bu bağlantı, SellerDashboard listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. Bağlantınız https:// veya https:// ile başlamalıdır. |
-| Son kullanıcı lisans sözleşmesi (EULA) |Evet |EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyasını karşıya yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| Video bağlantısı |Hayır |Kullanıcıların dikkatini özel görselinize çekmek için görselinizle ilgili bir videonun bağlantısını eklemeniz önerilir. URL'niz https:// veya https:// ile başlamalıdır. |
-| GitHub deposu |Hayır |Geliştiricilerin kodunuzla ilgili geri bildirim sağlamasını ve geliştirme önermesini sağlamak için görselinizin kaynağının ve örnek verilerin bulunduğu geçerli ve herkese açık [GitHub](https://www.github.com) deposu bağlantısına sahip olmanız önerilir. |
+| Pbiviz paketi |Evet |Power BI görselinizi tüm gerekli meta verileri içeren bir Pbiviz paketine yerleştirin.<br>Görsel adı<br>Görünen ad<br>GUID<br>Sürüm<br>Açıklama<br>Yazarın adı ve e-posta adresi |
+| Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya sunduğu değeri vurgulayın, ayrıca kullanım ve biçimlendirme seçenekleriyle ilgili örnekler verin. En sona ekleyeceğiniz bir *"ipuçları"* sayfasına püf noktalarını ve kaçınılması gerekenleri girebilirsiniz.<br>Örnek .pbix rapor dosyası, dış bağlantı olmadan çevrimdışı çalıştırılmalıdır. |
+| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) boyutunda olmalıdır.<BR>**Önemli!** Simgeyi göndermeden önce [AppSource mağazası resim kılavuzunu](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) dikkatle gözden geçirin. |
+| Ekran görüntüleri |Evet |En az bir ekran görüntüsü ekleyin. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutlar tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) olmalıdır. Dosyanın boyutu 1024 KB'tan büyük olamaz.<br>Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin. |
+| Destek indirme bağlantısı |Evet |Müşterileriniz için destek URL'si sağlayın. Bu bağlantı, Satıcı Panosu listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. URL'niz https:// veya https:// ile başlamalıdır. |
+| Gizlilik belgesi bağlantısı |Evet |Görselin gizlilik ilkesinin bağlantısını sağlayın. Bu bağlantı, Satıcı Panosu listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. Bağlantınız https:// veya https:// ile başlamalıdır. |
+| Son kullanıcı lisans sözleşmesi (EULA) |Evet |EULA dosyasını karşıya yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyasını karşıya yükleme iletişim kutusuna yapıştırın. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Video bağlantısı |Hayır |Kullanıcıların dikkatini özel görselinize çekmek için görselinizle ilgili bir videonun bağlantısını ekleyin. URL'niz https:// veya https:// ile başlamalıdır. |
+| GitHub deposu |Hayır |Power BI görselinizin kaynaklarını ve örnek verileri içeren bir [GitHub](https://www.github.com) deposunun genel bağlantısını paylaşın. Bu sayede diğer geliştiricilere geri bildirim sağlama ve kodunuzda geliştirmeler önerme fırsatı sağlanır. |
 
-## <a name="submitting-to-power-bi"></a>Power BI'a gönderme
+## <a name="getting-an-app-package-xml"></a>Uygulama paketi XML'si alma
 
-Gönderme süreci Power BI görselleri gönderim ekibine gönderilen bir e-posta ile başlar. E-postayı [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com) adresine gönderebilirsiniz.
+Power BI görselini göndermek için Power BI ekibinden bir uygulama paketi XML'si almalısınız. Uygulama paketi XML'sini almak için Power BI görselleri gönderim ekibine e-posta gönderin ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)).
 
-> [!IMPORTANT]
-> .pbiviz paketini oluşturmadan önce pbiviz.json dosyasında aşağıdaki alanları doldurmanız gerekir: “description”, “supportUrl”, “author“, “name” ve “email.
+**Pbiviz** paketini oluşturmadan önce **pbiviz.json** dosyasında aşağıdaki alanları doldurmalısınız:
+* açıklama
+* supportUrl
+* yazar
+* ad
+* e-posta
 
-E-postanıza **.pbiviz dosyasını** ve **örnek rapor .pbix** dosyasını ekleyin. Power BI ekibi yanıt olarak talimatları ve yüklenecek uygulama paketi XML dosyasını gönderecektir. Görselinizi Office Geliştirici Merkezi'nden göndermek için bu XML uygulama paketini kullanmanız gerekir.
+E-postanıza **pbiviz dosyasını** ve **örnek rapor pbix dosyasını** ekleyin. Power BI ekibi yanıt olarak talimatları ve yüklenecek uygulama paketi XML dosyasını gönderecektir. Görselinizi Office Geliştirici Merkezi'nden göndermek için bu XML uygulama paketini kullanmanız gerekir.
 
 > [!NOTE]
 > Kaliteyi yükseltmek ve var olan raporların çalışmaya devam etmesini sağlamak için, mevcut görsellerde yapılan güncelleştirmelerin mağaza onayından geçtikten sonra üretim ortamına ulaşması için ek olarak iki hafta geçmesi gerekir.
 
 ## <a name="submitting-to-appsource"></a>AppSource'a gönderme
 
-Power BI ekibinin gönderdiği uygulama paketi XML dosyasını aldıktan sonra [geliştirici merkezine](https://sellerdashboard.microsoft.com/Application/Summary) giderek görselinizi AppSource'a gönderebilirsiniz.
+Power BI görselinizi AppSource'a göndermek için Power BI ekibinden bir uygulama paketi almalı ve ardından bunu İş Ortağı Merkezi'ne göndermelisiniz. 
 
-> [!NOTE]
-> [Office Geliştirici Merkezi](https://dev.office.com/)'nde oturum açmak için geçerli bir Office geliştirici hesabına sahip olmanız gerekir. Office geliştirici hesabının Microsoft Hesabı (hotmail.com veya outlook.com gibi Live ID) olması gerekir.
+### <a name="getting-the-app-package"></a>Uygulama paketini alma
 
-> [!IMPORTANT]
-> Görselinizi AppSource'a göndermeden önce .pbiviz ve .pbix dosyasını e-posta ile Power BI ekibine göndermeniz gerekir. Böylece Power BI ekibi, dosyaları herkese açık paylaşım sunucusuna yükleyebilir. Aksi halde mağaza, dosyaları alamaz. Yeni bir görsel gönderirken, mevcut görselleri güncelleştirirken veya reddedilen görselleri düzeltirken her seferinde dosyaları göndermeniz gerekir.
+Görselinizi AppSource'a göndermeden önce **pbiviz** dosyasını ve **pbix** dosyasını e-posta ile Power BI ekibine göndermeniz gerekir. Böylece Power BI ekibi, dosyaları herkese açık paylaşım sunucusuna yükleyebilir. Aksi halde mağaza, dosyaları alamaz. 
 
-### <a name="process-to-submit-visual"></a>Görsel gönderme işlemi
+Power BI ekibi yeni Power BI görsel gönderimleri, mevcut Power BI görsellerinin güncelleştirmeleri ve reddedilen gönderimlerin düzeltmeleri için dosyaları denetlemelidir.
 
-Gönderim işlemini tamamlamak için aşağıdaki adımları uygulayın.
+### <a name="submitting-to-partner-center"></a>İş Ortağı Merkezi'ne gönderme
 
-1. **Add a new app** (Yeni uygulama ekle) seçeneğini belirleyin.
+Power BI görselinizi İş Ortağı Merkezi'ne göndermek için İş Ortağı Merkezi'ne kaydolmanız gerekir. Henüz kaydolmadıysanız [İş Ortağı Merkezi'nde bir geliştirici hesabı açın](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
-    ![Uygulama ekleme](media/office-store/powerbi-custom-visual-add-an-app.png)
+Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki adımları izleyin. Gönderim işlemi hakkında daha fazla bilgi için bkz. [Office çözümünüzü İş Ortağı Merkezi üzerinden AppSource'a gönderme](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
 
-2. **Power BI custom visual** (Power BI özel görsel) ve ardından **Next** (İleri) seçeneklerini belirleyin.
+>[!NOTE]
+> Power BI görseli gönderim işleminin ortasındaysanız ve [Satıcı Panosu](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)'nu (eski yönetim aracı) kullanmanız gerekiyorsa, [Power BI görselini Satıcı Panosu üzerinden AppSource'a gönderme](seller-dashboard.md) başlığı altında verilen yönergeleri gözden geçirin.
 
-3. **App package** (Uygulama paketi) bölümündeki **+** öğesini seçin ve dosya aç iletişim kutusunda Power BI ekibinden gelen uygulama paketi XML dosyasını seçin.
+1. **İş Ortağı Merkezi**'nde oturum açın.
 
-    ![Uygulama paketi](media/office-store/powerbi-custom-visual-apppackage.png)
+2. Sol bölmede **OFFICE MAĞAZASI**'nı seçin.
 
-4. Geçerli bir Power BI uygulama paketi olduğunu belirten bir onay iletisi görmeniz gerekir.
+3. **Genel bakış**'ı seçin.
 
-    ![Bildirim onaylandı](media/office-store/powerbi-custom-visual-manifest-approved.png)
+4. **Yeni oluştur**'u seçin ve açılan menüden **Power BI görseli**'ni seçin.
 
-5. **General info** (Genel bilgiler) bölümünü doldurun.
+    ![Office Mağazası](media/office-store/power-bi-visual.png)
 
-   * *Submission title* (Gönderim başlığı): Gönderdiğiniz dosyaya geliştirici merkezinde verilecek ad
-   * *Version* (Sürüm): Sürüm numaranız, eklenti uygulama paketinden otomatik olarak alınır.
-   * *Release Date (UTC)* (Sürüm Tarihi (UTC)): Uygulamanızın mağazada yayımlanacağı tarihi seçin. Gelecekteki bir tarihi seçerseniz bu tarihe kadar uygulamanız mağazada yer almaz.
-   * *Category* (Kategori): İlk kategori otomatik olarak "Data Visualization + BI" şeklinde belirlenecektir. Tüm Power BI görselleri bu şekilde etiketlenir. Kullanıcılarınızın görselinizi kolayca bulmasına yardımcı olmak için 2 adede kadar ek kategori ekleyebilirsiniz
-   * *Test notes* (Test notları): İsteğe bağlıdır, Microsoft'taki test uzmanlarına vermek istediğiniz talimatları buraya yazabilirsiniz
-   * *My app calls, supports, contains, or uses cryptography or encryption* (Uygulamam şifreleme çağrısı yapıyor, şifrelemeyi destekliyor, içeriyor veya kullanıyor): İşaretlemeyin
-   * *Make this add-in available in the Office add-in catalog on iPad* (Bu eklentiyi iPad üzerindeki Office eklenti kataloğuna ekle): İşaretlemeyin
-6. **App logo** (Uygulama logosu) bölümündeki **+** öğesini seçerek görselinizin logosunu yükleyin. Ardından dosya aç iletişim kutusundan simge dosyasını seçin. Dosya .png, .jpg, .jpeg veya .gif biçiminde olmalıdır. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) olmalı ve 512 KB’tan büyük olmamalıdır.
+5. **Yeni Power BI görseli oluştur** penceresinde Power BI görseliniz için bir ad girin ve **Oluştur**'u seçin.
 
-    ![Uygulama logosu](media/office-store/powerbi-custom-visual-app-logo.png)
+6. **Paketler**'i seçin ve Power BI görseli XML uygulama paketinizi karşıya yükleyin.
 
-7. **Support documents** (Destek belgeleri) ayrıntılarını girin.
+7. **Özellikler**'i seçin ve gerekli bilgileri sağlayın.
 
-   * Destek belgesi bağlantısı
-   * Gizlilik belgesi bağlantısı
-   * Video bağlantısı
-   * Son Kullanıcı Lisans Sözleşmesi (EULA)
+8. Ürününüz ek satın alma gerektiriyorsa **Ürün kurulumu**'nu seçin ve **İlişkili hizmet satın alma** onay kutusunu işaretleyin.
 
-       EULA dosyası yüklemeniz gerekir. Kendi EULA dosyanızı veya Office Mağazası'ndaki Power BI görsellerine yönelik varsayılan EULA dosyasını kullanabilirsiniz. Varsayılan EULA dosyasını kullanmak için aşağıdaki URL’yi satıcı panosunun "Son Kullanıcı Lisans Sözleşmesi" dosyasını karşıya yükleme iletişim kutusuna yapıştırın: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+9. (İsteğe bağlı) Görselinizi [sertifikalamak](power-bi-custom-visuals-certified.md) istiyorsanız **Ürün kurulumu**'nu seçin ve **Power BI sertifikasyonu** onay kutusunu işaretleyin.
+    >[!TIP]
+    >Power BI sertifikasyon işlemi zaman alabilir. Yeni Power BI görseli oluşturuyorsanız, Power BI sertifikasyonu istemeden önce Power BI görselinizi İş Ortağı Merkezi'nde yayımlamanızı öneririz. Bu şekilde görselinizin yayımlanmasını geciktirmemiş olursunuz.
 
-8. **Next**'i (İleri) seçerek **Details** (Ayrıntılar) sayfasına gidin.
-
-9. **Language**'ı (Dil) seçip listeden bir dil belirleyin.
-
-    ![Dil](media/office-store/powerbi-custom-visual-language.png)
-
-10. "Description" (Açıklama) ayrıntılarını girin.
-
-    * *App name (for this language)* (Uygulama adı (bu dil için)): Uygulamanızın başlığını mağazada görünmesini istediğiniz şekilde girin.
-    * *Short description* (Kısa açıklama): Mağazada görüntülenmek üzere en fazla 100 karakterlik uygulama açıklaması girin. Bu açıklama üst düzey sayfalarda logoyla birlikte gösterilir. Pbiviz paketindeki açıklamayı kullanabilirsiniz.
-    * *Long description* (Uzun açıklama): Müşterilerin uygulama ayrıntıları sayfasında göreceği ayrıntılı uygulama açıklamasını girin. Görselinizi açık kaynak yaparak topluluğun geliştirmesine izin vermek için GitHub gibi herkese açık depo bağlantısını buraya girin.
-
-11. En az bir ekran görüntüsü yükleyin. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) boyutunda olmalıdır. Dosya boyutu 1024 KB’tan büyük olamaz. *Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin.*
-
-12. Daha fazla dil eklemek istiyorsanız **Add a language** (Dil ekle) seçeneğini belirleyin ve 10-11 arası adımları tekrarlayın. Daha fazla dil eklemek kullanıcılarınızın özel görsel ayrıntılarını kendi dillerinde görüntülemesine yardımcı olur. Listede bulunmayan diller için varsayılan olarak seçilen ilk dil kullanılacaktır.
-
-13. Dil eklemeyi tamamladığınızda **Next**'i (İleri) seçerek **Block access** (Erişimi engelle) sayfasına geçin.
-
-14. Belirli ülke veya bölgelerdeki müşterilerin uygulamanızı kullanmanızı veya satın almasını önlemek istiyorsanız kutuyu işaretleyip listeden seçim yapın.
-
-15. **Next**'i (İleri) seçerek **Pricing** (Fiyatlandırma) sayfasına gidin.
-
-16. Şu anda yalnızca *ücretsiz* görseller desteklenmektedir ve görsel içinde ek satın alma işlemlerine (Uygulama içi satın alma) izin verilmez. **This app is free** (Bu uygulama ücretsizdir) seçeneğini blirleyin.
-
-    > [!NOTE]
-    > Ücretsiz dışında bir seçenek belirlerseniz veya gönderilen görselde Uygulama içi satın alma varsa gönderim reddedilir.
-
-17. Bu adımda **Save as draft** (Taslak olarak kaydet) seçeneğini belirleyip daha sonra gönderebilir veya **Submit for approval** (Onay için gönder) seçeneğini belirleyerek özel görselinizi Office Mağazası’na gönderebilirsiniz.
+10. **Ürün kurulumu**'nu seçin ve **Gözden geçir ve yayımla**'ya tıklayın.
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
 
@@ -142,13 +110,13 @@ Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboa
 
 ## <a name="certify-your-visual"></a>Görselinizi onaylatma
 
-Görselinizi oluşturduktan sonra isterseniz sertifikalatabilirsiniz. Sertifikalatmanız durumunda görseliniz Power BI hizmetinde çalışabilir ve PowerPoint'e aktarma gibi diğer özelliklerle birlikte kullanılabilir. Daha fazla bilgi için bkz. [Özel görselleri *sertifikalatma*](../developer/power-bi-custom-visuals-certified.md).
+Görseliniz oluşturulduktan sonra isterseniz görselinizi [sertifikalayabilirsiniz](../developer/power-bi-custom-visuals-certified.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI özel görseli geliştirme](visuals/custom-visual-develop-tutorial.md)  
 [Power BI'daki Görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
 [Power BI'daki Özel Görselleştirmeler](../developer/power-bi-custom-visuals.md)  
-[Özel görselleri *sertifikalatma*](../developer/power-bi-custom-visuals-certified.md)
+[Power BI görselini sertifikalama](../developer/power-bi-custom-visuals-certified.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

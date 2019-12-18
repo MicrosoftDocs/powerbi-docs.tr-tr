@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699326"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958460"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
 
@@ -49,6 +49,10 @@ AdventureWorksDW örnek veritabanını kullanarak temel bir Power BI raporu olu�
 2. **SQL Server veritabanı** iletişim kutusuna **Sunucu** ve **Veritabanı (isteğe bağlı)** adlarını girin, **Veri Bağlantısı modu**’nun **İçeri Aktarma** olduğundan emin olun ve sonra **Tamam**’ı seçin.
 
     ![SQL Server veritabanı](./media/service-gateway-sql-tutorial/sql-server-database.png)
+
+    Bu öğreticide **Gelişmiş seçenekleri** kullanmıyoruz ama bir SQL deyimi belirtebileceğinizi ve [SQL Server Yük Devretme](/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server) kullanımı gibi başka seçenekler ayarlayabileceğinizi aklınızda bulundurun.
+
+    ![SQL Server gelişmiş seçenekleri](media/service-gateway-sql-tutorial/sql-server-advanced-options.png)
 
 3. **Kimlik bilgilerinizi** doğrulayın, ardından **Bağlan**’ı seçin.
 

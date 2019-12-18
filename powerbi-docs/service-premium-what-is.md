@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699142"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958575"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -29,16 +29,17 @@ Power BI Premium, kuruluşunuzda Power BI hizmetinin çalıştırılması için 
 > * Bölgeye göre veri yerleşimi desteği (Multi-Geo)
 > * Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
 
-Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır.
+Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır. Power BI Pro ve Power BI Premium hakkında daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 
 Power BI Premium iki SKU (Stok Saklama Birimi) ailesinde sağlanan kiracı düzeyi bir Office 365 aboneliğidir:
 
-- **EM** SKU'ları (EM1-EM3) eklemeye yöneliktir, yıllık taahhüt gerektirir, aylık faturalanır. EM1 ve EM2 SKU'ları yalnızca toplu lisans planlarıyla sağlanır. Bunları doğrudan satın alamazsınız.
 - **P** SKU'ları (P1-P3) eklemeye ve kurumsal özelliklere yöneliktir, aylık veya yıllık taahhüt gerektirir, aylık faturalanır ve şirket içinde Power BI Rapor Sunucusu'nu yüklemek için bir lisans içerir.
 
-Alternatif bir yaklaşım, yalnızca eklemeye ve kapasite testi amaçlarına yönelik tek bir **A** (A1-A6) SKU ailesi içeren bir **Azure Power BI Embedded** aboneliği satın almaktır. Tüm SKU'lar kapasiteleri oluşturmak için sanal çekirdekler getirir ama EM SKU'ları daha küçük ölçekli eklemeyle sınırlanmıştır. Dörtten az sanal çekirdeği olan EM1, EM2, A1 ve A2 SKU'ları ayrılmış altyapı üzerinde çalıştırılmaz.
+- **EM** SKU'ları (EM1-EM3) _kurumsal_ eklemeye yöneliktir, yıllık taahhüt gerektirir, aylık faturalanır. EM1 ve EM2 SKU'ları yalnızca toplu lisans planlarıyla sağlanır. Bunları doğrudan satın alamazsınız.
+
+Alternatif bir yaklaşım Azure'da **Power BI Embedded** aboneliği satın almaktır. Taahhüt gerektirmeyen tek bir **A** (A1-A6) SKU ailesi vardır ve uygulamalarda, portallarda ve web sitelerinde Power BI'ın markasını değiştirerek kullanımının karşılığı olarak ya da P veya EM kapasitelerini test etmenin bir yolu olarak saatlik faturalanır. Tüm SKU'lar kapasiteleri oluşturmak için sanal çekirdekler getirir ama EM SKU'ları daha küçük ölçekli eklemeyle sınırlanmıştır. Dörtten az sanal çekirdeği olan EM1, EM2, A1 ve A2 SKU'ları ayrılmış altyapı üzerinde çalıştırılmaz.
 
 Bu makale P SKU'larına odaklansa da, buradaki açıklamaların büyük bölümü A SKU'larına da uygundur. Premium aboneliği SKU'larının aksine, Azure SKU'ları hiçbir taahhüt süresi gerektirmez ve saatlik faturalanır. Bunlar tam esneklik getirerek ölçek büyütmeye, ölçek küçültmeye, duraklatmaya, sürdürmeye ve silmeye olanak tanırlar. 
 
@@ -50,7 +51,11 @@ Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tar
 
 ## <a name="dedicated-capacities"></a>Ayrılmış kapasiteler
 
-Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. 
+Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. Aşağıdaki kaynakların size ayrılmış kapasitede değil paylaşılan kapasitede depolandığına dikkat edin:
+
+* Excel çalışma kitapları (veriler önce Power BI Desktop'a içeri aktarılmadıysa)
+* [Gönderme veri kümeleri](/rest/api/power-bi/pushdatasets)
+* [Akış veri kümeleri](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 
 Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için ek **çalışma alanları** oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de çalışma alanları Premium kapasitelere atanabilir.
 
@@ -77,6 +82,9 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
+
+> [!NOTE]
+> Daha küçük SKU'ları (örneğin iki P1 SKU'su) birleştirmek yerine tek bir büyük SKU (örneğin tek P2 SKU'su) kullanmak tercih edilebilir. Örneğin P2 ile daha büyük modeller kullanabilir ve daha iyi bir paralellik elde edebilirsiniz.
 
 ### <a name="capacity-workloads"></a>Kapasite iş yükleri
 
@@ -235,5 +243,3 @@ Daha fazla bilgi için bkz. [İstemci uygulaması ve araçlarıyla veri kümeler
 > [Premium kapasiteleri yönetme](service-premium-capacity-manage.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-||||||

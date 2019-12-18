@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699855"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958368"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 
@@ -48,7 +48,7 @@ Bir Power BI Pro veya Power BI Premium aboneliği satın almak istiyorsanız, sa
 
 ## <a name="sign-up-for-a-free-trial"></a>Ücretsiz deneme için kaydolma
 
-Power BI Pro için ücretsiz denemeye kaydolabilirsiniz. Deneme süresinin sonunda Power BI Pro'yu satın almasanız da birçok Power BI özelliğini sunan ücretsiz bir lisansa sahip olursunuz. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI özellikleri](service-features-license-type.md).
+Power BI için ücretsiz denemeye kaydolabilirsiniz. Deneme süresinin sonunda Power BI Pro'yu satın almasanız da birçok Power BI özelliğini sunan ücretsiz bir lisansa sahip olursunuz. Daha fazla bilgi için bkz. [Power BI'a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md).
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Özel abonelikleri etkinleştirme
 

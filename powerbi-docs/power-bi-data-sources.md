@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699740"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958506"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
-Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın desteklediği veri kaynakları gösterilir.
+Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](service-dataflows-data-sources.md).
 
 | Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Projectplace | Evet | Evet | Hayır | Hayır | Hayır |
-| PostgreSQL | Evet | Evet | Hayır | Evet | Evet |
+| PostgreSQL | Evet | Evet | Evet | Evet | Evet |
 | Power BI veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
 | Power BI veri kümeleri | Evet | Evet | Evet | Hayır | Hayır |
 | Power Platform veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
