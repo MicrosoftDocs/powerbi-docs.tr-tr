@@ -116,7 +116,7 @@ Bu makalede ortaya konulan sonuçlar, belirli veriler kullanılarak özel bir ra
 ### <a name="1-topology"></a>1 Topoloji
 **1.1 Power BI Rapor Sunucusu Topolojisi**
 
-Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranışına odaklanmak üzere, her bir makineye yönelik VM yapılandırması (Power BI Rapor Sunucusu'nun barındırıldığı makine dışında) aynı tutulmuştur. Her makine, Premium Depolama Diskleri içeren ikinci nesil (v2) D Serisi makineler temel alınarak hazırlanmıştır. [https://azure.microsoft.com/pricing/details/virtual-machines/windows/](https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) sayfasındaki "Genel Amaçlı" bölümünde, her bir VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine Türü | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Yalnızca farklı yapılandırmalarda görülen Power BI Rapor Sunucusu davranı
 
 **1.2 Power BI Rapor Sunucusu Sanal Makine Yapılandırması** 
 
-Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. https://azure.microsoft.com/pricing/details/virtual-machines/windows/ sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
+Power BI Rapor Sunucusu'nun barındırıldığı Sanal Makine için farklı işlemci ve bellek yapılandırmaları kullanılmıştır. Diğer VM'lerden farklı olarak, bu makine, Premium Depolama Diskleri içeren üçüncü nesil (v3) D Serisi Makineler temel alınarak hazırlanmıştır. [https://azure.microsoft.com/pricing/details/virtual-machines/windows](https://azure.microsoft.com/pricing/details/virtual-machines/windows/ ) sayfasındaki "Genel Amaçlı" bölümünde, bu VM boyutu ile ilgili ayrıntılı bilgilere ulaşabilirsiniz.
 
 | Sanal Makine | İşlemci | Bellek | Azure VM Boyutu |
 | --- | --- | --- | --- |
