@@ -7,6 +7,10 @@
       items:
         - name: Power BI yönetimi nedir?
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: Kiracım nerede bulunur?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Go Local German bölgelerine geçirme
+          href: service-admin-migrate-data-germany.md
     - name: Kavramlar
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: Yönetici portalını kullanma
           href: ../service-admin-portal.md
-        - name: Kiracım nerede bulunur?
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: Oturum açan kullanıcıları bulma
           href: ../service-admin-access-usage.md
         - name: Denetim

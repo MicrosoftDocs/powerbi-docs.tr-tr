@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: b4985ca61f1d1cd15f4fc0935e28cd2c0ed7e443
-  ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+  ms.openlocfilehash: c99ca86bc619fbb13a6f1c48ecf96d18c4a91188
+  ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/11/2019
-  ms.locfileid: "74999641"
+  ms.lasthandoff: 12/20/2019
+  ms.locfileid: "75304105"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -41,6 +41,8 @@ landingContent:
       url: power-query-referenced-queries.md
     - text: Power BI Desktop’ta otomatik tarih/saat kılavuzu
       url: auto-date-time.md
+    - text: Çoka çok ilişkiler kılavuzu
+      url: relationships-many-to-many.md
 - title: DAX
   linkLists:
   - linkListType: concept

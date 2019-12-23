@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: Power BI Desktop’ta otomatik tarih/saat kılavuzu
           href: auto-date-time.md
+        - name: Çoka çok ilişkiler kılavuzu
+          href: relationships-many-to-many.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
