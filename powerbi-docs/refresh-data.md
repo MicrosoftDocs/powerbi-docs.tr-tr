@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791669"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme

@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7189ef77446446b56b1dcb55b43b022d0fc5c057
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73868772"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma

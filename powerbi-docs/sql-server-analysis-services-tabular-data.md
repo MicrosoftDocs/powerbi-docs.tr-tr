@@ -11,10 +11,10 @@ ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 00b7c98236f37505fbb0ddec81a45b65bf3e3ee6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871187"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI'da SQL Server Analysis Services canlı verileri
@@ -58,7 +58,7 @@ Bir rapordan panoya sabitlediğiniz görsellere ait kutucuklar 10 dakikada bir o
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
+* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)  
 * [Analysis Services veri kaynaklarını yönetme](service-gateway-enterprise-manage-ssas.md)  
 * [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
 

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872707"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
@@ -24,7 +24,7 @@ Power BI’da, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında depola
 
 Aşağıdaki listede açıklandığı gibi CDM klasörlerinden veri akışları oluşturmak için birkaç gereksinim vardır:
 
-* CDM klasörlerinden veri akışları oluşturma *yalnızca* [yeni çalışma alanı deneyiminde](service-create-the-new-workspaces.md) mevcuttur. 
+* CDM klasörlerinden veri akışları oluşturma *yalnızca*[yeni çalışma alanı deneyiminde](service-create-the-new-workspaces.md) mevcuttur. 
 * Power BI’a CDM klasörü eklemek için klasörü ekleyen kullanıcının [CDM klasörü ve dosyaları için yetkilendirmeye](https://go.microsoft.com/fwlink/?linkid=2029121) sahip olması gerekir.
 * CDM klasöründeki tüm dosyaları ve klasörleri Power BI’a eklemek için, size bu dosya ve klasörler üzerinde okuma ve yürütme izinleri verilmesi gerekir.
 
@@ -67,7 +67,7 @@ Power BI Desktop:
 
 Aşağıdaki listede açıklandığı gibi, dikkate alınacak bazı ek unsurlar da vardır:
 
-* CDM klasörlerinden veri akışları oluşturma *yalnızca* [yeni çalışma alanı deneyiminde](service-create-the-new-workspaces.md) mevcuttur
+* CDM klasörlerinden veri akışları oluşturma *yalnızca*[yeni çalışma alanı deneyiminde](service-create-the-new-workspaces.md) mevcuttur
 * CDM klasörlerinden oluşturulan veri akışları için bağlantılı varlıklar kullanılamaz
 
 

@@ -9,10 +9,10 @@ ms.date: 10/02/2019
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 008b159c41e0c9d7edf8bd46090f9f7e1db74468
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "71968811"
 ---
 > [!NOTE]

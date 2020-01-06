@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831122"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
@@ -40,7 +40,7 @@ Panoya, rapora veya sayfalandırılmış rapora abone olma süreçleri birbirine
 
 Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](consumer/paginated-reports-subscriptions.md).
  
-![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png)geçin.
+![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Panoyu veya raporu açın.
 2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![Abone ol simgesi](media/service-report-subscribe/power-bi-icon-envelope.png) seçin.

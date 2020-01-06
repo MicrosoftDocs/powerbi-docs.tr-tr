@@ -10,10 +10,10 @@ ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: b766cc4eae71b94a28e12ba989f85542fec2ab83
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871983"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
@@ -74,6 +74,6 @@ Dağıtım grup üyelerinin tümü, verilere yönelik olarak içerik paketi olu�
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Kurumsal içerik paketi oluşturma ve yayımlama](service-organizational-content-pack-create-and-publish.md)
 * [Power BI'da uygulama oluşturma ve dağıtma](service-create-distribute-apps.md) 
-* [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+* [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

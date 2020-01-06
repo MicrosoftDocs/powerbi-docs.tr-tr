@@ -10,10 +10,10 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697555"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi nedir?
@@ -32,19 +32,19 @@ Ağ geçidinin nasıl çalıştığı hakkında daha fazla bilgi için bkz. [Şi
 
 Her biri farklı bir senaryoya yönelik olan iki farklı türde ağ geçidi bulunur:
 
-* **Şirket içi veri ağ geçidi** birden fazla kullanıcının birden fazla şirket içi veri kaynağına bağlanmasını sağlar. Tek ağ geçidi kurulumuyla, tüm desteklenen hizmetler ile bir şirket içi veri ağ geçidi kullanabilirsiniz. Bu ağ geçidi birden fazla kullanıcının birden fazla veri kaynağına eriştiği karmaşık senaryolara çok uygundur.
+* **Şirket içi veri ağ geçidi** birden fazla kullanıcının birden fazla şirket içi veri kaynağına bağlanmasını sağlar. Tek bir ağ geçidi yüklemesiyle, şirket içi veri ağ geçidini tüm desteklenen hizmetlerle kullanabilirsiniz. Bu ağ geçidi birden çok kişinin birden çok veri kaynağına eriştiği karmaşık senaryolara çok uygundur.
 
-* **Şirket içi veri ağ geçidi (kişisel mod)** tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Şirket içi veri ağ geçidi (kişisel mod) sadece Power BI ile kullanılabilir. Bu ağ geçidi, rapor oluşturan tek kişinin siz olduğunuz ve herhangi bir veri kaynağını başkalarıyla paylaşmak zorunda olmadığınız senaryolara çok uygundur.
+* **Şirket içi veri ağ geçidi (kişisel mod)** tek kullanıcının kaynaklara bağlantı kurmasını sağlar ve başkalarıyla paylaşılamaz. Şirket içi veri ağ geçidi (kişisel mod) yalnızca Power BI ile kullanılabilir. Bu ağ geçidi, rapor oluşturan tek kişinin siz olduğunuz ve herhangi bir veri kaynağını başkalarıyla paylaşmak zorunda olmadığınız senaryolara çok uygundur.
 
-## <a name="use-a-gateway"></a>Ağ geçidi kullan
+## <a name="use-a-gateway"></a>Ağ geçidi kullanma
 
 Ağ geçidi kullanmanın dört ana adımı vardır.
 
 1. Bir yerel bilgisayara [Ağ geçidini indirme ve yükleme](/data-integration/gateway/service-gateway-install).
-1. Güvenlik duvarınızı ve diğer ağ gereksinimlerini temel alarak ağ geçidini [Yapılandırma](/data-integration/gateway/service-gateway-app).
-1. Diğer ağ gereksinimlerini yönetebilen [Ağ geçidi yöneticileri ekleme](/data-integration/gateway/service-gateway-manage).
+1. Güvenlik duvarınızı ve diğer ağ gereksinimlerini temel alarak ağ geçidini [yapılandırma](/data-integration/gateway/service-gateway-app).
+1. Diğer ağ gereksinimlerini de yönetebilen [Ağ geçidi yöneticileri ekleme](/data-integration/gateway/service-gateway-manage).
 1. Şirket içi veri kaynağını yenilemek için [ağ geçidini kullanın](service-gateway-sql-tutorial.md).
-1. Hata oluştuğunda [Sorun giderme](service-gateway-onprem-tshoot.md).
+1. Hata oluştuğunda ağ geçidi [sorunları giderme](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

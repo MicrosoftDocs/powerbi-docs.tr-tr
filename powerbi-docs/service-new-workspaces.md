@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565328"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622432"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -111,18 +111,19 @@ OneDrive Çalışma Alanı özelliği, SharePoint Belge Kitaplığı dosya depol
 Power BI, Office 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekilde yapılandırılmış kullanıcı veya grupların izinlerini eşitlemez. En iyi yöntem çalışma alanı erişimini yönetmek için bu ayarda dosya depolama alanını yapılandırdığınız aynı Office 365 Grubunu kullanmaktır. 
 
 [OneDrive Çalışma Alanı'nı ayarlama ve bu çalışma alanına erişme](service-create-the-new-workspaces.md#workspace-onedrive) hakkında bilgi edinin.  
-   
+
 ## <a name="auditing"></a>Denetim
+
 Yeni çalışma alanı deneyimi çalışma alanları için aşağıdaki etkinlikler Power BI tarafından denetlenir.
 
-| Kolay ad |   İşlem adı |
+| Kolay ad | İşlem adı |
 |---|---|
 | Power BI klasörü oluşturuldu | CreateFolder |
 | Power BI klasörü silindi | DeleteFolder |
 | Power BI klasörü güncelleştirildi | UpdateFolder |
 | Power BI klasörüne erişim güncelleştirildi| UpdateFolderAccess |
 
-[Power BI denetimi](service-admin-auditing.md#activities-audited-by-power-bi) ile ilgili daha fazla bilgi edinin.
+[Power BI denetimi](service-admin-auditing.md) ile ilgili daha fazla bilgi edinin.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 

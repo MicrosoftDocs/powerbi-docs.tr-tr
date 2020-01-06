@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265815"
 ---
 # <a name="dataset-properties"></a>Veri kümesi özellikleri
@@ -27,7 +27,7 @@ Veri kümesi API'sinin geçerli v1 sürümü, veri kümesinin yalnızca bir ad v
 Ad  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
 kimlik     |  Guid       | Veri kümesi için sistem genelinde benzersiz tanımlayıcı.        | Doğru        | Yanlış        
-ad     | Dize        | Veri kümesinin kullanıcı tanımlı adı.        | Yanlış        | Doğru        
+name     | Dize        | Veri kümesinin kullanıcı tanımlı adı.        | Yanlış        | Doğru        
 tablolar     | Table[]        | Tablo koleksiyonu.        |  Yanlış       | Yanlış        
 ilişkiler     | Relationship[]        | Tablolar arasında ilişki koleksiyonu.        | Yanlış        |  Yanlış  
 defaultMode     | Dize        | "Push" ve "Streaming" değerleriyle veri kümesinin gönderildiğini, akıtıldığını veya her ikisinin de yapıldığını belirler.         | Yanlış        |  Yanlış
@@ -36,7 +36,7 @@ defaultMode     | Dize        | "Push" ve "Streaming" değerleriyle veri kümesi
 
 Ad  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     | Dize        |  Tablonun kullanıcı tanımlı adı. Ayrıca tablonun tanımlayıcısı olarak da kullanılır.       | Yanlış        |  Doğru       
+name     | Dize        |  Tablonun kullanıcı tanımlı adı. Ayrıca tablonun tanımlayıcısı olarak da kullanılır.       | Yanlış        |  Doğru       
 sütunlar     |  column[]       |  Sütun koleksiyonu.       | Yanlış        |  Doğru       
 ölçüler     | measure[]        |  Ölçü koleksiyonu.       | Yanlış        |  Yanlış       
 isHidden     | Boole        | Doğru olduğunda, tablo istemci araçlarından gizlenir.        | Yanlış        | Yanlış        
@@ -45,7 +45,7 @@ isHidden     | Boole        | Doğru olduğunda, tablo istemci araçlarından gi
 
 Ad  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     |  Dize        | Sütunun kullanıcı tanımlı adı.        |  Yanlış       | Doğru       
+name     |  Dize        | Sütunun kullanıcı tanımlı adı.        |  Yanlış       | Doğru       
 dataType     |  Dize       |  Desteklenen [EDM veri türleri](https://msdn.microsoft.com/library/ee382832.aspx) ve kısıtlamalar. Bkz. [Veri türü kısıtlamaları](#DataTypeRestrictions).      |  Yanlış       | Doğru        
 formatString     | Dize        | Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](https://msdn.microsoft.com/library/ms146084.aspx).      | Yanlış        | Yanlış        
 sortByColumn    | Dize        |   Geçerli sütunu sıralamak için kullanılacak, aynı tablodaki bir sütunun dize adı.     | Yanlış        | Yanlış       
@@ -57,7 +57,7 @@ summarizeBy     | Dize        |  Sütun için varsayılan toplama yöntemi. Değ
 
 Ad  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     | Dize        |  Ölçünün kullanıcı tanımlı adı.       |  Yanlış       | Doğru        
+name     | Dize        |  Ölçünün kullanıcı tanımlı adı.       |  Yanlış       | Doğru        
 ifade     | Dize        | Geçerli bir DAX ifadesi.        | Yanlış        |  Doğru       
 formatString     | Dize        |  Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](https://msdn.microsoft.com/library/ms146084.aspx).       | Yanlış        | Yanlış        
 isHidden     | Dize        |  Doğru olduğunda, tablo istemci araçlarından gizlenir.       |  Yanlış       | Yanlış       
@@ -66,7 +66,7 @@ isHidden     | Dize        |  Doğru olduğunda, tablo istemci araçlarından gi
 
 Ad  |Tür  |Açıklama  |Salt Okunur  |Gerekli 
 ---------|---------|---------|---------|---------
-ad     | Dize        | İlişkinin kullanıcı tanımlı adı. Ayrıca ilişkinin tanımlayıcısı olarak da kullanılır.        | Yanlış       | Doğru        
+name     | Dize        | İlişkinin kullanıcı tanımlı adı. Ayrıca ilişkinin tanımlayıcısı olarak da kullanılır.        | Yanlış       | Doğru        
 crossFilteringBehavior     | Dize        |    İlişkinin filtre yönü: OneDirection (varsayılan), BothDirections, Automatic       | Yanlış        | Yanlış        
 fromTable     | Dize        | Yabancı anahtar tablosunun adı.        | Yanlış        | Doğru         
 fromColumn    | Dize        | Yabancı anahtar sütununun adı.        | Yanlış        | Doğru         

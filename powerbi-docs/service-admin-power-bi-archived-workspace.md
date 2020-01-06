@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 403bf213cc2da7ad803780946e606433166e3484
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699970"
 ---
 # <a name="power-bi-archived-workspace"></a>Power BI Arşivlenmiş Çalışma Alanı
