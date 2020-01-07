@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73925824"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
@@ -29,7 +29,7 @@ Uygulamayı yükledikten sonra, panoyu ve raporları uygulamada ve Power BI hizm
 
 ![Power BI mobil uygulamasında Google Analytics uygulaması](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Başlangıç
+## <a name="get-started"></a>Kullanmaya başlayın
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Panoyu ve raporları düzenleme

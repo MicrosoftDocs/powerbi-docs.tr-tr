@@ -12,10 +12,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74128353"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
@@ -184,8 +184,8 @@ Gezinti bölmesini kullanarak çalışma alanlarınızı ve Power BI yapı taşl
 
   ![Gezinti bölmesi](media/service-basic-concepts/power-bi-navigation.png)
 
-* [Power BI'a veri kümesi, rapor ve pano eklemek için](service-get-data.md) **Veri Al**'ı seçin.
-* Gezinti bölmesini bu simgeyle genişletip daraltın ![gezinti bölmesi simgesi](media/service-basic-concepts/expand-icon.png)geçin.
+* [Power BI'a veri kümesi, rapor ve pano eklemek için](service-get-data.md)**Veri Al**'ı seçin.
+* Gezinti bölmesini bu simgeyle genişletip daraltın ![gezinti bölmesi simgesi](media/service-basic-concepts/expand-icon.png).
 * **Sık Kullanılanlar**'ı seçerek sık kullandığınız içerikleri açabilir veya yönetebilirsiniz.
 * **Son görüntülenen**'i seçerek en son incelediğiniz içeriği görüntüleyebilir ve açabilirsiniz
 * **Uygulamalar**'ı seçerek bir uygulamayı görüntüleyebilir, açabilir veya silebilirsiniz.

@@ -10,10 +10,10 @@ ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73877187"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)

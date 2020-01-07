@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876222"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223461"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI ile harici bir R IDE kullanma
 **Power BI Desktop** ile dış R IDE'nizi (Tümleşik Geliştirme Ortamı) kullanarak R betikleri oluşturabilir ve geliştirebilir, ardından da söz konusu betikleri Power BI'da kullanabilirsiniz.
@@ -31,7 +31,7 @@ ms.locfileid: "73876222"
 Bu özelliği kullanmak için yerel bilgisayarınıza **R IDE** yüklemeniz gerekir. **Power BI Desktop** R motoru içermez, dağıtmaz veya yüklemez. Bu nedenle, **R**’ı yerel bilgisayarınıza ayrı olarak yüklemeniz gerekir. Hangi R IDE'yi kullanmak istediğinizi seçebilirsiniz. Bu işlem için aşağıdaki şekillerde ilerleyebilirsiniz:
 
 * [Revolution Open](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) gibi, çoğu ücretsiz olarak sunulan R IDE'ler arasından favorinizi yükleyebilirsiniz.
-* **Power BI Desktop**, [R Studio](https://www.rstudio.com/) ve [*Visual Studio için R Araçları*](https://beta.visualstudio.com/vs/rtvs/)'nı içeren **Visual Studio 2015** düzenleyicilerini de destekler.
+* **Power BI Desktop**, [R Studio](https://www.rstudio.com/) ve [*Visual Studio için R Araçları*](/visualstudio/rtvs)'nı içeren **Visual Studio 2015** düzenleyicilerini de destekler.
 * Ayrıca aşağıdakilerden birini gerçekleştirerek farklı bir R IDE yükleyebilir ve **Power BI Desktop**'ın söz konusu **R IDE**'yi açmasını sağlayabilirsiniz:
   
   * **.R** dosyalarını, **Power BI Desktop**'ın açmasını istediğiniz dış IDE ile ilişkilendirebilirsiniz.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478629"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223654"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 
@@ -87,7 +87,7 @@ Bir DirectQuery modeli, aşağıdaki madde işaretli listede açıklandığı gi
 
     **Veri Kaynağı Başına En Fazla Bağlantı Sayısı** değerini yükseltmek temel veri kaynağına daha fazla sorgu (belirtilen en yüksek sayıya kadar) gönderilebilmesini sağlar ve tek sayfada çok sayıda görsel bulunduğunda veya rapora aynı anda çok sayıda kullanıcı eriştiğinde yararlı olur. En fazla bağlantı sayısına ulaşıldığında, bağlantı kullanılabilir duruma gelene kadar diğer sorgular kuyruğa alınır. Bu sınırın yükseltilmesi temel veri kaynağında daha fazla yüke yol açtığından bu ayar genel performansın artırılmasını garanti etmez.
     
-    Model Power BI’da yayımlandığında, temel alınan veri kaynağına gönderilen en fazla eşzamanlı sorgu sayısı da ortama bağlı olarak değişir. Farklı ortamların (Power BI, Power BI Premium veya Power BI Rapor Sunucusu gibi) her biri farklı aktarım hızı kısıtlamaları uygulayabilir. Power BI Premium kapasite kaynak sınırlamaları hakkında daha fazla bilgi için bkz. [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities).
+    Model Power BI’da yayımlandığında, temel alınan veri kaynağına gönderilen en fazla eşzamanlı sorgu sayısı da ortama bağlı olarak değişir. Farklı ortamların (Power BI, Power BI Premium veya Power BI Rapor Sunucusu gibi) her biri farklı aktarım hızı kısıtlamaları uygulayabilir. Power BI Premium kapasite kaynak sınırlamaları hakkında daha fazla bilgi için bkz. [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment).
 
 ## <a name="optimize-report-designs"></a>Rapor tasarımlarını iyileştirme
 

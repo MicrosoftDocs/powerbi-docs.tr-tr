@@ -1,19 +1,19 @@
 ---
 title: Power BI içeriğini dış konuk kullanıcı olarak görüntüleme (Azure AD B2B)
 description: Dış kuruluştan sizinle paylaşılan içeriği görüntülemek için Power BI mobile uygulamalarını kullanın.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879334"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219924"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Dış kuruluştan sizinle paylaşılan Power BI içeriğini görüntüleme
 
@@ -30,18 +30,18 @@ Aşağıdakiler cihazlar için geçerlidir:
 
 **İlk olarak, sizinle içerik paylaşması için dış kuruluştan bir kişi gereklidir.** Sizinle aynı kuruluştan ya da bir dış kuruluştan birisi [sizinle bir içerik paylaştığında](../../service-share-dashboards.md), paylaşılan içeriğin bağlantısını içeren bir e-posta alırsınız. Mobil cihazınızda bu bağlantıyı takip etmek Power BI mobil uygulamasını açar. Uygulama içeriğin bir dış kuruluştan paylaşıldığını belirlerse, uygulama sizin kimliğinizi kullanarak bu kuruluşa yeniden bağlanır. Uygulama daha sonra o kuruluştan sizinle paylaşılan tüm içerikleri yükler.
 
-![Power BI’da paylaşılan öğeyi e-postadan açma ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI’da paylaşılan öğeyi e-postadan açma ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Dış konuk kullanıcı olarak sizinle paylaşılan ilk içerik buysa, daveti bir tarayıcıdan kabul etmeniz gerekir. Daveti Power BI uygulamasından kabul edemezsiniz.
 
 Bir dış kuruluşa bağlı olduğunuz sürece uygulamada siyah bir üst bilgi görünür. Bu üst bilgi, ana kuruluşunuza bağlı olmadığınızı gösterir. Ana kuruluşunuza tekrar bağlanmak için konuk modundan çıkış yapın.
 
-![Power BI konuk kullanıcı üst bilgisi](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Power BI konuk kullanıcı üst bilgisi](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Bir dış kuruluşa bağlanmak için Power BI yapıt bağlantısına sahip olmanız gerekse de, uygulamanız geçiş yaptıktan sonra sizinle paylaşılan tüm içeriklere erişebilirsiniz (yalnızca e-postadan açtığınız içeriğe değil). Dış kuruluşta erişebileceğiniz tüm içerikleri görüntülemek için uygulama menüsüne gidin ve **Benimle paylaşılan**’ı seçin. **Uygulamalar**'ın altında, kullanabileceğiniz uygulamaları da bulabilirsiniz.
 
-![Konuk dış kullanıcı olarak Power BI uygulama menüsü](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Konuk dış kullanıcı olarak Power BI uygulama menüsü](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Sınırlamalar
 

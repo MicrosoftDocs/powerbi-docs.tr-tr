@@ -10,10 +10,10 @@ ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876288"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Öğretici: Power BI Desktop ile Facebook analizi
@@ -66,7 +66,7 @@ Zaman içinde hangi gönderilerin en çok açıklama içerdiğini görmek ve gö
    
    Power BI Desktop **Power Query Editor**, yeni bir pencerede açılır ve Power BI Facebook sayfasından veri önizlemesini görüntüler. 
    
-   ![Power Query Editor](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
+   ![Power Query Düzenleyicisi](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
 2. **created_time** sütununu seçin. Bunun, sütun üst bilgisindeki bir **ABC** simgesiyle gösterilen bir Metin veri türü olduğunu unutmayın. Üst bilgiye sağ tıklayın ve açılır listeden **Sütunu Böl > Sınırlayıcıya Göre** seçeneğini belirleyin veya şeridin Giriş sekmesindeki **Dönüştür** bölümünden **Sütunu Böl > Sınırlayıcıya Göre** seçeneğini belirleyin.  
    

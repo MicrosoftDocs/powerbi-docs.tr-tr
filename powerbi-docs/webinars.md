@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882769"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548568"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
 Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı oturumlarımızı izleyin.
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
-
-**Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**
-<br>Gayle Sheppard ve John Macintyre
-<br>[Hemen kaydolun](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**
-<br>Vijay Gopalakrishnan
-<br>[18 Aralık’ta izlemek için kaydolun](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Yapay zeka BI’ı üç farklı şekilde değiştiriyor**
 <br>yazan: Justyna Lucznik
@@ -39,6 +31,10 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 
+**Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**
+<br>Gayle Sheppard ve John Macintyre
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
 <br>Anton Fritz ve Adi Regev
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 **Power BI ile Modern ve Kurumsal İş Zekasının Geleceği**
 <br>Hazırlayan: Arun Ulag ve Amir Netz
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**
+<br>Vijay Gopalakrishnan
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Power BI ile çalışmaya başlama**
 <br>Sağlayan: Miguel Martinez

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74010880"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI hizmetinde SAP değişkenlerini düzenleme

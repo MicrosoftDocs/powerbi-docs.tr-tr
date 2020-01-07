@@ -10,10 +10,10 @@ ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ac3f795d6a80d5f143daf68436f41f5771b3c2bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876154"
 ---
 # <a name="trusting-third-party-connectors"></a>Üçüncü taraf bağlayıcılara güvenme

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73876203"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma

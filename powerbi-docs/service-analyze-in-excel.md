@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958644"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223741"
 ---
 # <a name="analyze-in-excel"></a>Excel’de Analiz Et
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.
@@ -92,10 +92,10 @@ Artık Excel açıldı ve boş bir PivotTable'ınız var. Power BI veri kümeniz
 > 
 > 
 
-## <a name="save"></a>Kaydetme
+## <a name="save"></a>Kaydet
 Power BI veri kümesine bağlı bu çalışma kitabını başka herhangi bir çalışma kitabı gibi kaydedebilirsiniz. Ancak, Power BI'da yayımlanabilen ve içeri aktarılabilen çalışma kitapları sadece veriyi tablolarda bulunduran veya bir veri modeli olan çalışma kitapları olabileceği için çalışma kitabını Power BI'da yayımlayamazsınız veya içeri aktaramazsınız. Yeni çalışma kitabının Power BI'daki veri kümesine sadece bağlantısı olduğundan, bu çalışma kitabını Power BI'da yayımlamak veya içeri aktarmak, yerimizde saymak olur.
 
-## <a name="share"></a>Paylaşma
+## <a name="share"></a>Paylaş
 Çalışma kitabınızı kaydettikten sonra kuruluşunuzdaki diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 Çalışma kitabınızı paylaştığınız bir kullanıcı çalışma kitabınızı açtığında, PivotTable'larınızı ve verilerinizi çalışma kitabının en son kaydedilme anındaki gibi görür ve bu, verinin son biçimi olmayabilir. En son verileri almak için kullanıcıların **Veri** şeridindeki **Yenile** düğmesini kullanmaları gerekir. Çalışma kitabı Power BI'daki bir veri kümesine bağlandığı için, çalışma kitabını yenilemeye çalışan kullanıcıların Power BI'da oturum açması ve bu yöntemle ilk kez güncelleştirme yapacakları zaman gerekli Excel güncelleştirmelerini yüklemesi gerekir.
@@ -104,3 +104,11 @@ Kullanıcıların veri kümesini yenilemeleri gerektiğinden ve Excel Online'da 
 
 ## <a name="troubleshooting"></a>Sorun giderme
 Excel'de Çözümle özelliğini kullanırken beklemediğiniz bir sonuç aldığınız veya özelliğin beklediğiniz şekilde çalışmadığı durumlarla karşılaşabilirsiniz. [Bu sayfada, Excel'de Çözümle özelliği ile ilgili olarak sık karşılaşılan sorunların çözümleri açıklanmaktadır](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Aşağıdaki makaleler de ilginizi çekebilir:
+
+* [Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma](desktop-cross-report-drill-through.md)
+* [Power BI Desktop’ta dilimleyicileri kullanma](visuals/power-bi-visualization-slicers.md)
+

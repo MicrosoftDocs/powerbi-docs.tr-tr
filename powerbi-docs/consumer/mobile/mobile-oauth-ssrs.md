@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870092"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220620"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
@@ -94,7 +94,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
 
    ![ADFS Uygulama Grubu Sihirbazı 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. **Sonraki** seçeneğini belirleyin.
+3. **İleri**’yi seçin.
 
 4. Eklediğiniz uygulama için bir **ad** girin. 
 
@@ -112,7 +112,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS Uygulama Grubu Sihirbazı 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. **Sonraki** seçeneğini belirleyin.
+7. **İleri**’yi seçin.
 
 8. Rapor Sunucunuzun URL'sini sağlayın. URL, Web Uygulaması Ara Sunucunuza yönelik dış URL'dir. Aşağıdaki biçimde olmalıdır.
 
@@ -122,17 +122,17 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    *https://< rapor sunucusu url’si >/*
 
    ![ADFS Uygulama Grubu Sihirbazı 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. **Sonraki** seçeneğini belirleyin.
+9. **İleri**’yi seçin.
 
 10. Kuruluşunuzun gereksinimlerine uyan **Erişim Denetimi İlkesi**'ni seçin.
 
     ![ADFS Uygulama Grubu Sihirbazı 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. **Sonraki** seçeneğini belirleyin.
+11. **İleri**’yi seçin.
 
 12. **Sonraki** seçeneğini belirleyin.
 
-13. **Sonraki** seçeneğini belirleyin.
+13. **İleri**’yi seçin.
 
 14. **Kapat**'ı seçin.
 
@@ -185,7 +185,7 @@ Kısıtlanmış temsil yapılandırması gerçekleştirmek için aşağıdaki ad
 
     ![WAP Kısıtlı 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. **Tamam**'ı seçin.
+11. **Tamam**’ı seçin.
 
 ### <a name="add-wap-application"></a>WAP Uygulaması ekleme
 
@@ -244,7 +244,7 @@ Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğru
 
 [Fiddler](https://www.telerik.com/fiddler)'i mobil cihazlarınız için bir ara sunucu görevi görecek şekilde ayarlayarak isteğin ne ölçüde başarılı olduğunu görebilirsiniz. Telefonunuz için bir Fiddler ara sunucusu etkinleştirmek üzere Fiddler çalıştıran makinede [iOS ve Android için CertMaker](https://www.telerik.com/fiddler/add-ons) kurulumunu yapmanız gerekir. Eklenti, Fiddler için Telerik tarafından sağlanır.
 
-Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulaması veya ADFS sunucusu ile ilgili bir sertifika sorununuz olabilir. [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) gibi bir araç kullanarak sertifikaların geçerliliğini doğrulayabilirsiniz.
+Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulaması veya ADFS sunucusu ile ilgili bir sertifika sorununuz olabilir. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -11,10 +11,10 @@ ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874509"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Tabloya köprü (URL) ekleme
@@ -103,13 +103,13 @@ URL’ler aşağıdakilerden biriyle başlamalıdır:
 - telnet
 
 S: Bir tablo veya matriste köprü bağlantısını özel URL olarak kullanabilir miyim?    
-C: Hayır. Bir bağlantı simgesi kullanabilirsiniz. Köprü bağlantılarınız için özel metin gerekirse ve URL listeniz kısaysa, bunun yerine bir metin kutusu kullanmayı düşünün.
+Y: Hayır. Bir bağlantı simgesi kullanabilirsiniz. Köprü bağlantılarınız için özel metin gerekirse ve URL listeniz kısaysa, bunun yerine bir metin kutusu kullanmayı düşünün.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](visuals/power-bi-report-visualizations.md)
 
-[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

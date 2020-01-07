@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879694"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223429"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Power BI Desktop'ta sütuna göre sıralama
 **Power BI Desktop** uygulamasında ve **Power BI hizmetinde** farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilir ve görselin bu eğilimi yansıtmasını (veya vurgulamasını) sağlayabilirsiniz.
@@ -100,4 +100,11 @@ Menüye gidip **SalesQuantity** sütununu yeniden seçtiğimizde görsel aşağ�
 ![Varsayılan sıralama düzeni](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 Görsellerinizi sıralamak için kullanabileceğiniz seçenekler sayesinde istediğiniz grafiği veya görüntüyü oluşturmak oldukça kolaydır.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Aşağıdaki makaleler de ilginizi çekebilir:
+
+* [Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma](desktop-cross-report-drill-through.md)
+* [Power BI Desktop’ta dilimleyicileri kullanma](visuals/power-bi-visualization-slicers.md)
 

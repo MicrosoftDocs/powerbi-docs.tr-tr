@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834782"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223617"
 ---
 # <a name="report-page-drillthrough"></a>Rapor sayfasını detaylandırma
 
@@ -63,7 +63,7 @@ Rapor tasarımı sırasında aşağıdaki uygulamaları öneririz:
 - **Bulma:** Görsel üst bilgisi simge metni ayarlayarak veya bir metin kutusuna yönergeler ekleyerek detaylandırma sayfasıyla ilgili farkındalığı artırmaya yardımcı olun. Ayrıca [bu blog gönderisinde](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/) açıklandığı gibi bir katman tasarlayabilirsiniz.
 
 > [!TIP]
-> Power BI sayfalandırılmış raporlarınız için detaylandırma yapılandırmak da mümkündür. Bunu, Power BI raporlarına bağlantılar ekleyerek yapabilirsiniz. Bağlantılar [URL parametrelerini](/blog/url-parameters-for-paginated-reports-are-now-available/) tanımlayabilir.
+> Power BI sayfalandırılmış raporlarınız için detaylandırma yapılandırmak da mümkündür. Bunu, Power BI raporlarına bağlantılar ekleyerek yapabilirsiniz. Bağlantılar [URL parametrelerini](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/) tanımlayabilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
