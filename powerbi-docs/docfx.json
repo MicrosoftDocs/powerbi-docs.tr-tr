@@ -48,14 +48,20 @@
       "titleSuffix": "Power BI",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/powerbi-docs.de-de-",
-      "feedback_product_url": "https://ideas.powerbi.com/forums/265200-power-bi"
+      "feedback_product_url": "https://ideas.powerbi.com/forums/265200-power-bi",
+      "disable_contribution_on_translation_quality": [
+        "MT",
+        "MTE75",
+        "MTE95",
+        "Blank"
+      ]
     },
     "fileMetadata": {
-          "featureFlags": {
-              "**/*.md": [
-                 "show_binary_rating"
-              ]
-          }
+      "featureFlags": {
+        "**/*.md": [
+          "show_binary_rating"
+        ]
+      }
     },
     "template": [],
     "dest": "powerbi-docs"
