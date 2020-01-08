@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Öğreticiler
           items:
-            - name: Görsel kavram
-              href: visuals/power-bi-visuals-concept.md
             - name: Power BI görseli geliştirme
               href: visuals/custom-visual-develop-tutorial.md
             - name: Biçimlendirme seçenekleri ekleme
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Kavramlar
           items:
+            - name: Power BI görseli proje yapısı
+              href: visuals/visual-project-structure.md
+            - name: Görsel kavram
+              href: visuals/power-bi-visuals-concept.md
             - name: Power BI’da kuruluşlara yönelik görseller
               href: power-bi-custom-visuals-organization.md
             - name: Power BI görselleri için yönergeler
@@ -39,7 +41,7 @@
               href: visuals/objects-properties.md
             - name: Gelişmiş Düzenleme Modu
               href: visuals/advanced-edit-mode.md
-        - name: Nasıl yapılır?
+        - name: Nasıl yapılır
           items:
             - name: Power BI görseli için sertifika alın
               href: power-bi-custom-visuals-certified.md
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Bağlam menüsünü desteği ekleme
               href: visuals/context-menu.md
+            - name: Detaya gitme desteği ekleme
+              href: visuals/drill-down-support.md
             - name: Görsellerde verileri vurgulama
               href: visuals/highlight.md
             - name: Yüksek Karşıtlıklı mod desteği ekleme
@@ -109,7 +113,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: SSL sertifikası oluşturma
               href: visuals/create-ssl-certificate.md
-    - name: Tümleşik analiz
+    - name: Ekli analiz
       expanded: true
       items:
         - name: Genel Bakış
@@ -146,7 +150,7 @@
               href: embedded-faq.md
             - name: Power BI izinleri
               href: power-bi-permissions.md
-        - name: Nasıl yapılır?
+        - name: Nasıl yapılır
           items:
             - name: Uygulamadan ekleme
               href: embed-from-apps.md
@@ -204,7 +208,7 @@
               href: 'https://aka.ms/embedsetup'
             - name: JavaScript Playground Örneği
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Power BI JavaScript wiki
+            - name: Power BI JavaScript wiki'si
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
             - name: JavaScript Git Deposu
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
@@ -247,7 +251,7 @@
                   href: api-dataset-properties.md
                 - name: Veri modeli sürümü oluşturma
                   href: api-data-model-versioning.md
-        - name: Nasıl yapılır?
+        - name: Nasıl yapılır
           items:
             - name: Kimlik bilgilerini yapılandırma
               href: configure-credentials.md
