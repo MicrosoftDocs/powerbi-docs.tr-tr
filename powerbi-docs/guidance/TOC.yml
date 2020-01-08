@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: BOŞLUKLARI değerlere dönüştürmekten kaçınma
           href: dax-avoid-converting-blank.md
+        - name: Sütun ve ölçü başvuruları
+          href: dax-column-measure-references.md
         - name: Veri akışları için en iyi uygulamalar
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: Çoka çok ilişkiler kılavuzu
           href: relationships-many-to-many.md
+        - name: Power Query arka plan yenilemesini devre dışı bırakma
+          href: power-query-background-refresh.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

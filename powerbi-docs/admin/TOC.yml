@@ -20,7 +20,7 @@
           href: ../service-admin-faq.md
         - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
           href: ../service-admin-failover.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Lisanslama ve kaydolma
           items:
@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: Oturum açan kullanıcıları bulma
           href: ../service-admin-access-usage.md
-        - name: Denetim
+        - name: Kullanıcı etkinliklerini izleme
           href: ../service-admin-auditing.md
         - name: Hizmet durumunu izleme
           href: ../service-admin-health.md

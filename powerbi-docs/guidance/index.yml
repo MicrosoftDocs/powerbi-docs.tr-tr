@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 11/14/2019
-  ms.openlocfilehash: c99ca86bc619fbb13a6f1c48ecf96d18c4a91188
-  ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+  ms.openlocfilehash: 7fe5b29b891f2eeac49f2fac357c4f643362785d
+  ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/20/2019
-  ms.locfileid: "75304105"
+  ms.lasthandoff: 01/03/2020
+  ms.locfileid: "75622223"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -43,6 +43,8 @@ landingContent:
       url: auto-date-time.md
     - text: Çoka çok ilişkiler kılavuzu
       url: relationships-many-to-many.md
+    - text: Power Query arka plan yenilemesini devre dışı bırakma
+      url: power-query-background-refresh.md
 - title: DAX
   linkLists:
   - linkListType: concept
@@ -59,6 +61,8 @@ landingContent:
       url: dax-variables.md
     - text: BOŞLUKLARI değerlere dönüştürmekten kaçınma
       url: dax-avoid-converting-blank.md
+    - text: Sütun ve ölçü başvuruları
+      url: dax-column-measure-references.md
 - title: Veri akışları
   linkLists:
   - linkListType: concept
