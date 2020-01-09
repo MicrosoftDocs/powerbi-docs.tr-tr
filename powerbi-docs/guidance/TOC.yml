@@ -30,6 +30,8 @@
           href: dax-avoid-converting-blank.md
         - name: Sütun ve ölçü başvuruları
           href: dax-column-measure-references.md
+        - name: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
+          href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Veri akışları için en iyi uygulamalar
           href: ../service-dataflows-best-practices.md
         - name: Power BI Desktop’ta DirectQuery modeli kılavuzu

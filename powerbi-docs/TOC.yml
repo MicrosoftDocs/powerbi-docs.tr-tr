@@ -507,13 +507,13 @@
               href: service-tips-for-finding-help.md
             - name: Hizmet kesintisi bildirimleri
               href: service-interruption-notifications.md
-        - name: Power BI’ı genişletin
+        - name: Power BI’ı Genişletme
           items:
             - name: Power Automate ve Power BI
               href: service-flow-integration.md
             - name: Üçüncü taraf uygulamaları kullanma
               href: service-power-bi-get-started-third-party-apps.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Dosyalardan veri alma
           items:
@@ -855,7 +855,7 @@
           href: service-premium-capacity-scenarios.md
         - name: Power BI Premium hakkında SSS
           href: service-premium-faq.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Power BI Premium'u satın alma
           href: service-admin-premium-purchase.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: Desteklenen veri kaynakları
           href: paginated-reports-data-sources.md
-        - name: Power BI paylaşılan veri kümelerini kullanma
-          href: report-builder-shared-datasets.md
         - name: Tasarım ipuçları
           href: report-builder-design-tips.md
         - name: 'Tablolar, matrisler, listeler'
@@ -921,7 +919,7 @@
           href: report-builder-previewing-reports.md
         - name: Sayfalandırılmış raporlar hakkında SSS
           href: paginated-reports-faq.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Verileri doğrudan sayfalandırılmış bir rapora girme
           href: paginated-reports-enter-data.md
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Eklenmiş veri kümesi oluşturma
           href: paginated-reports-create-embedded-dataset.md
+        - name: Power BI paylaşılan veri kümesiyle rapor oluşturma
+          href: report-builder-shared-datasets.md
         - name: Parametreler oluşturma
           href: paginated-reports-parameters.md
         - name: URL’de rapor parametresi geçirme
@@ -985,10 +985,12 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: Rapor ekleme
               href: report-server/quickstart-embed.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Power BI Desktop uygulamasını yükleme
           href: report-server/install-powerbi-desktop.md
+        - name: Rapor Oluşturucusu’nu yükleyin
+          href: report-server/install-report-builder.md
         - name: Rapor sunucusu temel bilgileri
           items:
             - name: Bir rapor sunucusu için Power BI raporu oluşturma
@@ -1059,7 +1061,7 @@
           href: service-gateway-deployment-guidance.md
         - name: Şirket içi veri ağ geçidi hakkında SSS
           href: service-gateway-power-bi-faq.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Şirket içi veri ağ geçidi (ayrıntılı)
           href: service-gateway-onprem-indepth.md
