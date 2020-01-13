@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: Power Query arka plan yenilemesini devre dışı bırakma
           href: power-query-background-refresh.md
+        - name: Power BI’daki sayfalandırılmış raporları kullanma zamanı
+          href: report-paginated-or-power-bi.md
+        - name: SQL Server Reporting Services raporlarını Power BI’a geçirme
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
