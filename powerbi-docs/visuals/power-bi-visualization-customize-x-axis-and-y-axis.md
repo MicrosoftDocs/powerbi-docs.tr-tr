@@ -10,16 +10,14 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791780"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758118"
 ---
-- yılların yüzdesini gösteren brüt kar çizgisi nerede? Birden çok çubuk grafiğim olabilir ama birden çok çizgim olamaz.
-
-# <a name="customize-x-axis-and-y-axis-properties"></a>X ve Y ekseni özelliklerini özelleştirme
+# <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

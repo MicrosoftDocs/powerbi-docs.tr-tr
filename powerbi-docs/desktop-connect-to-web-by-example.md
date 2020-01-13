@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869049"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761554"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Bir örnek vererek web sayfasından veri alma
+# <a name="get-webpage-data-by-providing-examples"></a>Örnek sağlayarak web sayfası verilerini alma
 
 Bir web sayfasından veri almak, kullanıcıların web sayfalarından kolayca veri ayıklamasına ve bu verileri **Power BI Desktop**’a aktarmasına olanak tanır. Ancak çoğu zaman, web sayfalarındaki veriler kolayca ayıklanabilen düzenli tablolar halinde olmaz. Bu nedenle, yapılandırılmış ve tutarlı olsa bile bu tür sayfalardan veri almak zor olabilir. 
 

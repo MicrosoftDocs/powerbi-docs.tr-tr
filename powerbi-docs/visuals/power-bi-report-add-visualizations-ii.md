@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73881007"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758434"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
+# <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI raporuna görsel ekleme (2. Bölüm)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 

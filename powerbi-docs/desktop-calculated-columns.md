@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876626"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762060"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunları kullanma
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunlar oluşturma
 Hesaplanmış sütunları kullanarak modelinizdeki tablolara yeni veriler ekleyebilirsiniz. Ancak bir veri kaynağından yeni sütununuza değer sorgulamak ve yüklemek yerine sütunun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanmış sütunları oluşturmak için Rapor Görünümündeki Yeni Sütun özelliğini kullanabilirsiniz.
 
 Sorgu Düzenleyicisi'ndeki Özel Sütun Ekle işlevini kullanarak bir sorgunun parçası olarak oluşturulan özel sütunlardan farklı olarak Rapor Görünümü veya Veri Görünümünde oluşturulan hesaplanmış sütunlar, modele önceden yüklemiş olduğunuz verileri temel alır. Örneğin, birbiriyle ilişkili iki farklı tabloda bulunan iki farklı sütundaki değerleri birleştirebilir, ekleme veya alt dizeleri ayıklama işlemi gerçekleştirebilirsiniz.

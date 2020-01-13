@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199526"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758819"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları ile etkileşim kurma
 Bu konu başlığı, ArcGIS haritasını Power BI hizmeti, Desktop veya mobil sürümünde kullanan bir kişinin bakış açısından yazılmıştır. Tasarımcı sizinle bir ArcGIS Maps for Power BI görseli paylaştığında, görselle etkileşime geçmek için pek çok yol bulunur.  ArcGIS haritası oluşturma hakkında daha fazla bilgi edinmek için [Esri tarafından sunulan ArcGIS haritaları öğreticisine](../visuals/power-bi-visualization-arcgis.md) bakın.
 
 ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Rapor tasarımcıları bir harita ile başlar ve bu haritaya demografik veri katmanları ekler. Uzamsal analiz içeren bir haritadaki bu konum tabanlı veri katmanlarının (nüfus sayımı verileri gibi) birleşimi, görselleştirmelerinizdeki verilerin daha derinlemesine anlaşılmasını sağlar.
@@ -69,7 +69,7 @@ Rapor *tasarımcısı* birçok bilgi grafikleri katmanı ekleyebilir. Bilgi graf
 
 ![yakınlaştırılan Orlando alanının haritası ve tuvalin sağ tarafında bulunan bilgi grafiği kartları](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
-### <a name="pins"></a>Raptiye
+### <a name="pins"></a>Sabitlenmiş öğeler
 
 Raptiyeler, şehir veya adres gibi kesin konumları temsil eder. Bazen rapor *tasarımcıları* raptiyeleri sürüş süresi yarıçapı ile kullanır. Bu örnekte Charlotte, Kuzey Carolina’nın 50 millik yarıçapı içindeki mağazalar gösterilmektedir.
 

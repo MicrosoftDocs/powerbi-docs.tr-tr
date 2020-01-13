@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf434c2b6d7181e723977d6264df718ee1e5ee5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878463"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761646"
 ---
-# <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Power BI Desktop'ta Amazon Redshift'e bağlanma
+# <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop'ta** **Amazon Redshift** veritabanına bağlanabilir ve temel alınan verileri kullanabilirsiniz.
 
 ## <a name="connect-to-an-amazon-redshift-database"></a>Bir Amazon Redshift veritabanına bağlanma

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548568"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837581"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 
@@ -21,9 +21,7 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-**Yapay zeka BI’ı üç farklı şekilde değiştiriyor**
-<br>yazan: Justyna Lucznik
-<br>[8 Ocak’ta izlemek üzere kaydolun](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -38,6 +36,10 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 **Microsoft BI Veri Korumasını Nasıl Değiştiriyor**
 <br>Anton Fritz ve Adi Regev
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Yapay zeka BI’ı üç farklı şekilde değiştiriyor**
+<br>yazan: Justyna Lucznik
+<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI ile Modern ve Kurumsal İş Zekasının Geleceği**
 <br>Hazırlayan: Arun Ulag ve Amir Netz

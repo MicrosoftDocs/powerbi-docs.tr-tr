@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9078aaebd49705833d3ad5a15497ab0c2d69a1c3
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 01fe7056c844a9eed96356e478cc23d5593809bd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "74999733"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759072"
 ---
-# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Power BI görselleri hakkında sık sorulan sorular
+# <a name="power-bi-visuals-faq"></a>Power BI görselleri hakkında SSS
 
 ## <a name="organizational-power-bi-visuals"></a>Power BI kuruluş görselleri
 
