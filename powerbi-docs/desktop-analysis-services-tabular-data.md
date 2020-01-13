@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878840"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523039"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
 Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -76,6 +76,12 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
 **Soru:** Gezgin'de bir model ve bir perspektif görüyorum. Fark nedir?
 
 **Cevap:** Perspektif, bir Tablo modelinin belirli bir görünümüdür. Veri analiz ihtiyaçlarına göre yalnızca belirli tabloları, sütunları veya ölçüleri kapsıyor olabilir. Tablo modelinde her zaman en az bir perspektif bulunabilir ve bu modeldeki her şeyi içerebilir. Hangisini seçeceğinizden emin değilseniz yöneticinizle iletişime geçmeniz gerekir.
+
+**Soru:** Power BI'ın davranış şeklini değiştiren Analysis Services özellikleri var mı?
+
+**Cevap:** Evet. Tablosal modelinizin kullandığı özelliklere bağlı olarak Power BI Desktop'taki deneyim değişebilir. Bazı örnekler:
+* Modelde ölçülerin tablolarda sütunlar boyunca gruplandırılması yerine Alan Listesi'nin en üstünde birlikte gruplandırıldığını görebilirsiniz. Endişelenmeyin! Bunları yine normal şekilde kullanabilirsiniz, yalnızca bu yolla daha kolay bulabilirsiniz!
+* Tablosal modelde Hesaplama Grupları tanımlandıysa, bunları yalnızca model ölçüleriyle birlikte kullanabilirsiniz. Görsele sayısal alanlar ekleyerek oluşturduğunuz örtülü ölçülerle kullanamazsınız. Ayrıca modelin **DiscourageImplicitMeasures** bayrağı el ile ayarlanmış olabilir ve bu da aynı etkiyi yapar. Daha fazla bilgi edinmek için bkz. [Analysis Services'te hesaplama grupları](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>İlk bağlantının ardından sunucu adını değiştirme
 Canlı keşfetme bağlantısıyla bir Power BI Desktop dosyası oluşturduktan sonra bağlantıyı farklı bir sunucuya almak isteyebileceğiniz durumlar söz konusu olabilir. Örneğin Power BI Desktop dosyasını geliştirme sunucusuna bağlıyken oluşturduysanız Power BI hizmetinde yayımlamadan önce bağlantıyı üretim sunucusuna geçirmek isteyebilirsiniz.

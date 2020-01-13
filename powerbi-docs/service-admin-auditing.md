@@ -1,43 +1,123 @@
 ---
-title: Kuruluşunuzda denetim kullanma
-description: Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte denetim özelliklerini nasıl kullanabileceğinizi öğrenin. Güvenlik ve Uyumluluk Merkezi'ni veya PowerShell'i kullanabilirsiniz.
+title: Power BI'da kullanıcı etkinliklerini izleme
+description: Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte etkinlik günlüklerini ve denetim özelliklerini nasıl kullanabileceğinizi öğrenin.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868d3dc2463f5ed94b8d8ccd85e5edff33ca1c6e
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698935"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75657202"
 ---
-# <a name="use-auditing-within-your-organization"></a>Kuruluşunuzda denetim kullanma
+# <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
-Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Kullanıcılar tarafından gerçekleştirilen "Raporu Görüntüleme" ve "Panoyu Görüntüleme" gibi eylemleri denetlemek için Power BI denetim özelliğini kullanın. Denetimi izinleri denetlemek için kullanamazsınız.
+Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Power BI'la kullanıcı etkinliğini izlemek için iki seçeneğiniz vardır: [Power BI etkinlik günlüğü](#use-the-activity-log) ve [birleşik Office 365 denetim günlüğü](#use-the-audit-log). Bu günlüklerin her ikisi de [Power BI denetim verilerinin](#operations-available-in-the-audit-and-activity-logs) eksiksiz kopyasını içerir ama aşağıdaki tabloda özetlendiği gibi bazı önemli farklılıklar vardır.
 
-Denetim görevlerini Office 365 Güvenlik ve Uyumluluk Merkezi'nden gerçekleştirebilir veya bunun için PowerShell'i kullanabilirsiniz. Denetim, Power BI'ı desteklemek için otomatik olarak sağlanan Exchange Online'ın işlevselliğine dayanır.
+| **Birleşik Office 365 denetim günlüğü** | **Power BI etkinlik günlüğü** |
+| --- | --- |
+| Power BI denetim olaylarına ek olarak SharePoint Online, Exchange Online, Dynamics 365 ve diğer hizmetlerden olayları içerir. | Yalnızca Power BI denetim olaylarını içerir. |
+| Yalnızca genel yöneticiler ve denetçiler gibi Yalnızca Görüntülenebilir Denetim Günlükleri ve Denetim Günlükleri izinleri olan kullanıcılar erişebilir. | Genel yöneticilerin ve Power BI hizmeti yöneticilerinin erişimi vardır. |
+| Genel yöneticiler ve denetçiler Office 365 Güvenlik ve Uyumluluk Merkezi'ni, Microsoft 365 Güvenlik Merkezi'ni ve Microsoft 365 Uyumluluk Merkezi'ni kullanarak birleşik denetim günlüğünde arama yapabilir. | Henüz etkinlik günlüğünde arama yapmaya yönelik kullanıcı arabirimi yoktur. |
+| Genel yöneticiler ve denetçiler Office 365 Yönetim API'lerini ve cmdlet'leri kullanarak denetim günlüğü girdilerini indirebilir. | Genel yöneticiler ve Power BI hizmeti yöneticileri Power BI REST API'sini ve yönetim cmdlet'ini kullanarak etkinlik günlüğü girdilerini indirebilir. |
+| Denetim verilerini 90 gün süreyle tutar | Etkinlik verilerini 30 gün süreyle tutar (genel önizleme) |
+| | |
+
+## <a name="use-the-activity-log"></a>Ekinlik günlüğünü kullanma
+
+Power BI hizmeti yöneticisi olarak, Power BI etkinlik günlüğüne dayalı özel raporları kullanarak tüm Power BI kaynakları için kiracı düzeyinde kullanımı analiz edebilirsiniz. REST API veya PowerShell cmdlet'i kullanarak etkinlikleri indirebilirsiniz. Ayrıca etkinlik verilerini tarih aralığına, kullanıcıya ve etkinlik türüne göre filtreleyebilirsiniz.
+
+### <a name="activity-log-requirements"></a>Etkinlik günlüğü gereksinimleri
+
+Power BI etkinlik günlüğüne erişmek için şu gereksinimleri karşılamanız gerekir:
+
+- Genel yönetici veya Power BI hizmeti yöneticisi olmalısınız.
+- [Power BI Yönetim cmdlet'lerini](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt) yerel olarak yüklediniz veya Azure Cloud Shell'de Power BI Yönetim cmdlet'lerini kullandınız.
+
+### <a name="activityevents-rest-api"></a>ActivityEvents REST API'si
+
+Etkinlik olaylarını blob deposuna veya SQL veritabanına aktarmak için Power BI REST API'lerine dayalı bir yönetim uygulaması kullanabilirsiniz. Ardından dışarı aktarılan verilerin üzerinde özel bir kullanım raporu oluşturabilirsiniz. **ActivityEvents** REST API çağrısında başlangıç tarihiyle bitiş tarihini ve isteğe bağlı olarak etkinlikleri etkinlik türüne veya kullanıcı kimliğine göre seçmek üzere bir filtre belirtmeniz gerekir. Etkinlik günlüğü çok büyük miktarlarda veri içerebildiğinden **ActivityEvents** API'si şu anda istek başına yalnızca bir günlük verileri indirmeyi destekler. Diğer bir deyişle, aşağıdaki örnekte olduğu gibi başlangıç tarihiyle bitiş tarihinde aynı gün belirtilmelidir. DateTime değerlerini UTC biçiminde belirttiğinizden emin olun.
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
+```
+
+Girdi sayısı çok fazlaysa **ActivityEvents** API'si yalnızca 5.000 - 10.000 dolayında girdi ve bir devamlılık belirteci döndürür. Ardından sonraki girdi kümesini almak için devamlılık belirteciyle **ActivityEvents** API'sini yeniden çağırmanız gerekir. Tür girdileri aldığınız ve artık devamlılık belirteci almadığınız aşamaya kadar böyle devam edersiniz. Aşağıdaki örnekte devamlılık belirtecinin nasıl kullanılacağı gösterilir.
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
+```
+
+Döndürülen girdilerin sayısından bağımsız olarak, sonuçlar devamlılık belirteci içeriyorsa kalan verileri almak için bu belirteçle API'yi yeniden çağırdığınızdan ve artık devamlılık belirteci döndürülmeyinceye kadar bunu sürdürdüğünüzden emin olun. Hiçbir olay girdisi kalmadığında bile devamlılık belirtecinin döndürüldüğü durumlar olabilir. Aşağıdaki örnekte yanıtta döndürülen devamlılık belirteciyle nasıl döngü yapıldığı gösterilir:
+
+```
+while(response.ContinuationToken != null)
+{
+   // Store the activity event results in a list for example
+    completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+
+    // Make another call to the API with continuation token
+    response = GetPowerBIActivityEvents(response.ContinuationToken)
+}
+completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+```
+
+### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet'i
+
+PowerShell için Power BI Yönetim cmdlet'lerini kullanarak etkinlik günlüklerini indirmek basit bir işlemdir; bunların arasında sizin için devamlılık belirtecini otomatik olarak işleyen **Get-PowerBIActivityEvent** cmdlet'i de vardır. **Get-PowerBIActivityEvent** cmdlet'i **ActivityEvents** REST API'siyle aynı kısıtlamalarla StartDateTime ve EndDateTime parametrelerini alır. Diğer bir deyişle başlangıç tarihi ile bitiş tarihi aynı tarih değerine başvurmalıdır çünkü bir kerede yalnızca bir günlük etkinlik verilerini alabilirsiniz.
+
+Aşağıdaki betik Power BI etkinliklerinin nasıl indirileceğini gösterir. Tek tek etkinlik özelliklerine kolay erişim için komut sonuçlar JSON'dan .NET nesnelerine dönüştürür.
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+### <a name="filter-activity-data"></a>Etkinlik verilerini filtreleme
+
+Etkinlik verilerini etkinlik türüne ve kullanıcı kimliğine göre filtreleyebilirsiniz. Aşağıdaki betik yalnızca **ViewDashboard** etkinliğine ilişkin olay verilerinin nasıl indirileceğini gösterir. Desteklenen parametreler hakkında daha fazla bilgi edinmek için `Get-Help Get-PowerBIActivityEvent` komutunu kullanın.
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' -ActivityType 'ViewDashboard' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+## <a name="use-the-audit-log"></a>Denetim günlüğünü kullanma
+
+Göreviniz Power BI ve Office 365'te kullanıcı etkinliklerini izlemekse, Office 365 Güvenlik ve Uyumluluk Merkezi'deki denetim özelliğiyle çalışır veya PowerShell'i kullanırsınız. Denetim, Power BI'ı desteklemek için otomatik olarak sağlanan Exchange Online'ın işlevselliğine dayanır.
 
 Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri kümesine ve etkinlik türüne göre filtreleyebilirsiniz. İsterseniz etkinlikleri csv (virgülle ayrılmış değer) dosyası halinde indirerek çevrimdışı analiz gerçekleştirebilirsiniz.
 
-## <a name="requirements"></a>Gereksinimler
+### <a name="audit-log-requirements"></a>Denetim günlüğü gereksinimleri
 
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
 
-* Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır.
+- Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır.
 
     Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için, kullanıcıyı söz konusu rol gruplarından birine üye olarak eklemelisiniz. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 
     Microsoft 365 yönetim merkezinden Exchange yönetim merkezine erişemiyorsanız, https://outlook.office365.com/ecp adresine gidin ve kimlik bilgilerinizi kullanarak oturum açın.
 
-* Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
+- Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
 
-## <a name="access-your-audit-logs"></a>Denetim günlüklerinize erişme
+### <a name="access-your-audit-logs"></a>Denetim günlüklerinize erişme
 
 Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğini etkinleştirdiğinizden emin olun. Daha fazla bilgi için yönetici portalı belgelerinin [Denetim günlükleri](service-admin-portal.md#audit-logs) bölümüne bakın. Denetimi etkinleştirmeniz ile denetim verilerini görüntüleyebilmeniz arasında 48 saate kadar gecikme olabilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
 
@@ -53,9 +133,9 @@ Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Mer
 
    ![Denetim günlükleri seçeneği ve Microsoft O365 Yönetim Merkezine Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
-## <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
+### <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 
-Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle sınırlayabilirsiniz. Etkinlik listesi için bu makalenin devamındaki [Power BI tarafından denetlenen etkinlikler](#activities-audited-by-power-bi) listesine bakın.
+Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle sınırlayabilirsiniz. Etkinlik listesi için bu makalenin devamındaki [Power BI tarafından denetlenen etkinlikler](#operations-available-in-the-audit-and-activity-logs) listesine bakın.
 
 1. **Denetim günlüğü arama** sayfasının **Ara** bölümünde **Etkinlikler** açılan menüsünü seçin.
 
@@ -67,7 +147,7 @@ Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle
 
 Aramalarınız yalnızca Power BI etkinliklerini döndürür.
 
-## <a name="search-the-audit-logs-by-date"></a>Denetim günlüklerinde tarihe göre arama yapma
+### <a name="search-the-audit-logs-by-date"></a>Denetim günlüklerinde tarihe göre arama yapma
 
 **Başlangıç tarihi** ve **Bitiş tarihi** alanlarını kullanarak günlüklerde tarihe göre arama yapabilirsiniz. Son yedi gün varsayılan seçimdir. Ekranda tarih ve saat Eşgüdümlü Evrensel Saat (UTC) biçiminde gösterilir. Belirtebileceğiniz maksimum tarih aralığı 90 gündür. 
 
@@ -75,21 +155,21 @@ Seçilen tarih aralığı 90 günden fazlaysa bir hata alırsınız. 90 gün ola
 
 ![Başlangıç Tarihi ve Bitiş Tarihi seçenekleri öne çıkarılan Denetim günlüğü araması ekran görüntüsü.](media/service-admin-auditing/search-audit-log-by-date.png)
 
-## <a name="search-the-audit-logs-by-users"></a>Denetim günlüklerinde kullanıcılara göre arama yapma
+### <a name="search-the-audit-logs-by-users"></a>Denetim günlüklerinde kullanıcılara göre arama yapma
 
 Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli kullanıcılara göre arama yapabilirsiniz. **Kullanıcılar** alanına bir veya daha fazla kullanıcı adı girin. Kullanıcı adı bir e-posta adresine benzer. Bu, kullanıcıların Power BI’da oturum açtığı hesaptır. Kuruluşunuzdaki tüm kullanıcılara (ve hizmet hesaplarına) ait girişleri döndürmek için bu kutuyu boş bırakın.
 
 ![Kullanıcılara göre arama](media/service-admin-auditing/search-audit-log-by-user.png)
 
-## <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
+### <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 
 **Ara**’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
 
-### <a name="view-the-main-results"></a>Ana sonuçları görüntüleme
+#### <a name="view-the-main-results"></a>Ana sonuçları görüntüleme
 
 **Sonuçlar** alanı bu arama sonucunda döndürülen olaylar hakkında bilgiler içerir. Sonuçları sıralamak için **Sonuçlar** bölümündeki sütun başlıklarından birini seçin.
 
-| **Sütun** | **Tanım** |
+| **Column** | **Tanım** |
 | --- | --- |
 | Tarih |Olayın gerçekleştiği tarih ve saat (UTC biçiminde). |
 | IP adresi |Günlüğe kaydedilen etkinlik için kullanılan cihazın IP adresi. Uygulama, IP adresini IPv4 veya IPv6 adresi biçiminde gösterir. |
@@ -98,7 +178,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 | Öğe |İlgili etkinlik nedeniyle oluşturulmuş veya değiştirilmiş olan nesne. Örneğin, görüntülenen veya değiştirilen dosya ya da güncelleştirilmiş kullanıcı hesabı. Etkinliklerin hepsi için bu sütunda değer görüntülenmez. |
 | Ayrıntı |Bir etkinlikle ilgili ayrıntılı bilgiler. Bu sütunda da tüm etkinlikler için değer görüntülenmez. |
 
-### <a name="view-the-details-for-an-event"></a>Olay ayrıntılarını görüntüleme
+#### <a name="view-the-details-for-an-event"></a>Olay ayrıntılarını görüntüleme
 
 Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Office 365 hizmetine bağlı olarak özellikler gösterilir.
 
@@ -106,7 +186,7 @@ Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI
 
    ![Daha fazla bilgi seçeneği öne çıkarılmış denetim ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-auditing/audit-details.png)
 
-## <a name="export-search-results"></a>Arama sonuçlarını dışarı aktarma
+### <a name="export-search-results"></a>Arama sonuçlarını dışarı aktarma
 
 Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için aşağıdaki adımları izleyin.
 
@@ -116,9 +196,9 @@ Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için
 
     ![Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
 
-## <a name="use-powershell-to-search-audit-logs"></a>Denetim günlüklerinde arama yapmak için PowerShell'i kullanma
+### <a name="use-powershell-to-search-audit-logs"></a>Denetim günlüklerinde arama yapmak için PowerShell'i kullanma
 
-Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için, [Gereksinimler](#requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
+Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -131,9 +211,9 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-## <a name="use-powershell-to-export-audit-logs"></a>Denetim günlüklerini dışarı aktarmak için PowerShell’i kullanma
+### <a name="use-powershell-to-export-audit-logs"></a>Denetim günlüklerini dışarı aktarmak için PowerShell’i kullanma
 
-Denetim günlükleri aramanızın sonuçlarını dışarı aktarmak için PowerShell de kullanabilirsiniz. Aşağıdaki örnekte [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutundan nasıl gönderebileceğiniz ve [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet’ini kullanarak sonuçları nasıl dışarı aktarabileceğiniz gösterilmektedir. Betiği çalıştırmak için, [Gereksinimler](#requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
+Denetim günlükleri aramanızın sonuçlarını dışarı aktarmak için PowerShell de kullanabilirsiniz. Aşağıdaki örnekte [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutundan nasıl gönderebileceğiniz ve [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet’ini kullanarak sonuçları nasıl dışarı aktarabileceğiniz gösterilmektedir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
 
 ```powershell
 $UserCredential = Get-Credential
@@ -147,11 +227,11 @@ Export-Csv -Path "c:\temp\PowerBIAuditLog.csv" -NoTypeInformation
 Remove-PSSession $Session
 ```
 
-Exchange Online'a bağlanma hakkında daha fazla bilgi için bkz. [Connect to Exchange Online PowerShell (Exchange Online PowerShell'e bağlanma)](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Denetim günlükleriyle PowerShell kullanımı üzerine başka bir örnek için bkz. [Power BI Pro lisanslarını atamak için Power BI denetim günlüğünü ve PowerShell'i kullanma](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
+Exchange Online’a bağlanma hakkında daha fazla bilgi için bkz. [Connect to Exchange Online PowerShell (Exchange Online PowerShell’e bağlanma)](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Denetim günlükleriyle PowerShell kullanımı üzerine başka bir örnek için bkz. [Power BI Pro lisanslarını atamak için Power BI denetim günlüğünü ve PowerShell'i kullanma](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
 
-## <a name="activities-audited-by-power-bi"></a>Power BI tarafından denetlenen etkinlikler
+## <a name="operations-available-in-the-audit-and-activity-logs"></a>Denetim ve etkinlik günlüklerinde kullanılabilen işlemler
 
-Power BI tarafından denetlenen etkinlikler aşağıda listelenmiştir:
+Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabilir.
 
 | Kolay ad                                     | İşlem adı                              | Notlar                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831173"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657179"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 
@@ -60,8 +60,13 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
     -   Parametreyi gizlemek ve rapor yayımlandıktan sonra rapor sunucusunda değiştirilmeye karşı korumak için **İç**’i seçin. Bu durumda rapor parametresi yalnızca rapor tanımında görüntülenebilir. Bu seçenek için bir varsayılan değer ayarlamanız ya da parametrenin bir null değeri kabul etmesine izin vermeniz gerekir.  
   
-9. **Tamam**'ı seçin. 
-  
+9. **Tamam**’ı seçin. 
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
+- Veri kaynağınız olarak Power BI veri kümesini veya Analysis Services modelini kullanıyorsanız, DAX sınırlamalarına göre tek istekte 1.000'den fazla parametre değeri geçiremezsiniz. 
+
+ 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Parametrelerin Power BI hizmetinde nasıl göründüğünü görmek için bkz. [Sayfalandırılmış raporlar için parametreleri görüntüleme](consumer/paginated-reports-view-parameters.md).

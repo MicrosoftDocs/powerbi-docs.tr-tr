@@ -1,19 +1,19 @@
 ---
 title: Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 description: Android telefonlardaki Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876792"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220263"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -43,7 +43,7 @@ Kaydolmanıza veya oturum açmanıza gerek kalmadan, Android cihazınızdaki Pow
 [Power BI mobil uygulamalarındaki yenilikleri](../../mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web üzerinde Power BI hizmetine kaydolma
-Henüz kaydolmadıysanız [Power BI hizmeti https://powerbi.com/)](https://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Android cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
+Henüz kaydolmadıysanız [Power BI hizmeti](https://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Android cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
 
 1. Power BI hizmetinde bir Power BI hesabı oluşturmak için [Kaydol](https://go.microsoft.com/fwlink/?LinkID=513879) seçeneğine dokunun.
 2. [Kendi panolarınızı ve raporlarınızı oluşturmaya](../../service-get-started.md) başlayın.
@@ -61,44 +61,26 @@ Henüz kaydolmadıysanız [Power BI hizmeti https://powerbi.com/)](https://power
    ![Power BI'da oturum açma](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI ve Reporting Services örneklerini deneme
-Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Panoların bulunduğu giriş sayfasından dilediğiniz zaman örneklere geri dönebilirsiniz.
+Kaydolmadan bile Power BI ve Reporting Services örneklerini görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
 
-### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Örneklere erişmek için gezinti çubuğunda **Diğer seçenekler**'e (...) dokunun ve **Örnekler**'i seçin.
 
-1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) dokunun.
-2. **Ayarlar** > **Örneklerimizi keşfedin**'e dokunun, ardından bir rol seçin ve bu role ilişkin örnek panoyu inceleyin.  
+Bir dizi Power BI örneğinin ardında çeşitli Rapor sunucusu örnekleri yer alır.
    
    ![Power BI mobil örnekleri](./media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
-### <a name="reporting-services-mobile-report-samples"></a>Reporting Services mobil rapor örnekleri
-1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) dokunun.
-2. **Reporting Services örnekleri** seçeneğine dokunun, ardından Retail Reports veya Sales Reports klasörünü açarak bunlara ilişkin KPI'leri ve mobil raporları inceleyin.
    
-   ![Reporting Services örnekleri](./media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
-
-## <a name="search-for-a-dashboard-or-report"></a>Pano veya rapor arama
-* Sağ üst köşedeki büyütece ![Arama simgesi](./media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)dokunun, ardından bulmak istediğiniz terimi yazın.
-  
-    ![Arama sonuçları](./media/mobile-android-app-get-started/power-bi-android-tablet-search.png)
-  
-    Varsayılan olarak tüm panolarda ve raporlarda arama yapılır ancak hangilerinde arama yapılacağını da seçebilirsiniz.
+   > [!NOTE]
+   > Örneklerde tüm özellikler kullanılamaz. Örneğin panoların temelini oluşturan raporları görüntüleyemez, örnekleri başkalarıyla paylaşamaz ve bunları sık kullanılanlarınıza ekleyemezsiniz. 
+   > 
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
-Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](../../mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz tüm içeriği dilediğiniz zaman arayabilirsiniz. 
 
-![Gezinti bölmesi](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+Power BI içeriğinizi aramaya başlamak için üst bilgide büyütece dokunun.
 
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Sık kullandığınız panoları, KPI'leri ve raporları görüntüleme
-Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu ve Reporting Services KPI'lerinin ve raporlarının yanı sıra sık kullandığınız Power BI panolarının tümünü görebilirsiniz. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak eklediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 
-
-* **Sık Kullanılanlar**'a dokunun.
-  
-   ![Gezinti bölmesinde Sık Kullanılanlar](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
-  
-   Power BI sık kullanılanlarınız ile birlikte Power BI Rapor Sunucusu ve Reporting Services web portalında sık kullanılanlara eklediğiniz öğelerin tümü bu sayfada bulunur.
-  
-   ![Sık Kullanılanlar sayfası](./media/mobile-android-app-get-started/power-bi-android-favorites-callouts.png)
+## <a name="view-your-favorite-dashboards-and-reports"></a>Sık kullandığınız panoları ve raporları görüntüleme
+Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
 
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
@@ -112,7 +94,7 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 > 
 > 
 
-[Microsoft Intune ile Android için Power BI mobil uygulamalarını yapılandırma](../../service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
+[Microsoft Intune ile Power BI mobil uygulamalarını yapılandırma](../../service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yanı sıra Power BI Rapor Sunucusu veya Reporting Services web portalındaki raporlar ve KPI'ler ile gerçekleştirebileceğiniz diğer işlemlerden bazıları aşağıda verilmiştir.

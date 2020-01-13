@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000124"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI hizmetinden şirket içi veri kaynaklarına Kerberos tabanlı SSO yapılandırma
@@ -132,7 +132,7 @@ Temsilci seçme ayarlarını yapılandırmak için şunları yapabilirsiniz:
 
    Örneğimizde SPN, *MSSQLSvc* ile başlar. Veritabanı hizmeti için hem FQDN hem de NetBIOS SPN'sini eklediyseniz her ikisini de seçin. Yalnızca bir tane görebilirsiniz.
 
-9. **Tamam**'ı seçin. 
+9. **Tamam**’ı seçin. 
 
    Şimdi hizmet listesinde ağ geçidi hizmet hesabının temsilci kimlik bilgilerini gösterebileceği SPN'yi görüyor olmalısınız.
 
@@ -231,7 +231,7 @@ Azure AD Connect yapılandırılmamışsa, bir Power BI hizmeti kullanıcısın�
     
         `msDS-cloudExtensionAttribute1` özelliğini bulun ve çift tıklayın. Değeri, Power BI Hizmetinde oturum açmak için kullandığınız kullanıcının tam kullanıcı adı (UPN) olarak ayarlayın.
     
-    1. **Tamam**'ı seçin.
+    1. **Tamam**’ı seçin.
     
         ![Dize Özniteliği Düzenleyicisi penceresi](media/service-gateway-sso-kerberos/edit-attribute.png)
     

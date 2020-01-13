@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002547"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223659"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>Satıcı Panosu'nu kullanarak Power BI görselini AppSource'a gönderme
 
@@ -103,7 +103,7 @@ Satıcı Panosu'nda Power BI görselinizi sertifikasyon amacıyla göndermek iç
     * [Gereksinimlere uygunluk](power-bi-custom-visuals-certified.md#certification-requirements)
     * Kod incelemesini geçme
 
-2. Microsoft Power BI görselleri ekibi, Power BI görseliniz sertifikalandığında ve [sertifikalı listesine](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
+2. Microsoft Power BI görselleri ekibi, Power BI görseliniz sertifikalandığında ve [sertifikalı Power BI görselleri](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) listesine eklendiğinde ya da reddedilmesi durumunda düzeltilmesi gereken sorunların yer aldığı bir raporla sizi bilgilendirir. Microsoft ile açık bir iletişim hattı kurmak ve sertifikalı görsellerini gerektiği şekilde güncelleştirmek geliştiricinin sorumluluğundadır.
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
 

@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9aaa26b4798a0632b0ad751bc30e8496f6103fb1
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872103"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223769"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI'da Azure Machine Learning tümleştirmesi
 
-Pek çok kuruluş işleriyle ilgili daha iyi öngörüler ve tahminler elde etmek için **Machine Learning** modellerini kullanıyor. Raporlarınızda, panolarınızda ve diğer analizlerinizde bu modelleri görselleştirme ve içgörüleri çağırma olanağı, bu içgörüleri en çok ihtiyaç duyan işletme kullanıcılarına yaymanıza yardımcı olabilir.  Power BI şimdi sorunsuz işaretleyip tıklama hareketlerini kullanarak Azure Machine Learning hizmetinde barındırılan modellerden gelen içgörüleri birleştirmenizi basitleştirir.
+Pek çok kuruluş işleriyle ilgili daha iyi öngörüler ve tahminler elde etmek için **Machine Learning** modellerini kullanıyor. Raporlarınızda, panolarınızda ve diğer analizlerinizde bu modelleri görselleştirme ve içgörüleri çağırma olanağı, bu içgörüleri en çok ihtiyaç duyan işletme kullanıcılarına yaymanıza yardımcı olabilir.  Power BI şimdi sorunsuz işaretleyip tıklama hareketlerini kullanarak Azure Machine Learning'de barındırılan modellerden gelen içgörüleri birleştirmenizi basitleştirir.
 
 Bu özelliği kullanmak için bir veri bilimcisi Azure portalını kullanarak BI analistine Azure ML modeli üzerinde erişim verebilir.  Ardından, her oturumun başlangıcında Power Query kullanıcının erişimi olan tüm Azure ML modellerini keşfeder ve bunları dinamik Power Query işlevleri olarak kullanıma sunar.  Kullanıcı Power Query Düzenleyicisi'nin şeridinden bu işlevlere erişerek bunları çağırabileceği gibi M işlevini doğrudan da çağırabilir. Ayrıca Power BI bir satır kümesi için Azure ML modelini çağırırken erişim isteklerini otomatik toplu iş olarak işleyerek daha iyi bir performans elde edebilir.
 
@@ -28,15 +28,15 @@ Veri akışları hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self
 
 Azure Machine Learning hakkında daha fazla bilgi edinmek için bkz:
 
-- Genel Bakış:  [Azure Machine Learning hizmeti nedir?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
+- Genel Bakış:  [Azure Machine Learning nedir?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure Machine Learning için Hızlı Başlangıçlar ve Öğreticiler:  [Azure Machine Learning Belgeleri](https://docs.microsoft.com/azure/machine-learning/)
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>Power BI kullanıcısına Azure ML modeli üzerinde erişim verme
 
 Power BI'dan Azure ML modeline erişmek için, kullanıcının Azure aboneliğine **Okuma** erişimi olmalıdır.  Ek olarak:
 
-- Machine Learning Studio modelleri için, Machine Learning Studio web hizmetine **Okuma** erişiminiz olmalıdır
-- Machine Learning Hizmeti modelleri için, Machine Learning hizmeti çalışma alanına **Okuma** erişiminiz olmalıdır
+- Machine Learning Studio (klasik) modelleri için, Machine Learning Studio (klasik) web hizmetine **Okuma** erişiminiz olmalıdır
+- Machine Learning modelleri için, Machine Learning çalışma alanına **Okuma** erişiminiz olmalıdır
 
 Bu makaledeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barındırılan model üzerinde erişim verme işlemi açıklanır. Bu sayede bu modele bir Power Query işlevi olarak erişebilirler.  Diğer ayrıntılar için bkz. [RBAC'yi ve Azure portalını kullanarak erişimi yönetme](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 
@@ -60,21 +60,21 @@ Bu makaledeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barındı
 
 6. **Kaydet**'i seçin.
 
-7. Kullanıcıya belirli bir Machine Learning Studio web hizmeti *veya* modeli barındıran Machine Learning hizmeti çalışma alanı üzerinde **Okuma** erişimi vermek için üç ile altı arasındaki adımları yineleyin.
+7. Kullanıcıya belirli bir Machine Learning Studio (klasik) web hizmeti *veya* modeli barındıran Machine Learning çalışma alanı üzerinde **Okuma** erişimi vermek için üç ile altı arasındaki adımları yineleyin.
 
 
-## <a name="schema-discovery-for-machine-learning-service-models"></a>Machine Learning Hizmeti modelleri için şema bulma
+## <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning modelleri için şema bulma
 
-Veri bilimcileri Machine Learning Hizmeti için makine öğrenmesi modellerini geliştirir hatta dağıtırken öncelikli olarak Python kullanır.  Model için şema dosyası oluşturma görevini otomatikleştirmenize yardımcı olan Machine Learning Studio'dan farklı olarak, veri bilimcisinin Python kullanarak şema dosyasını açıkça oluşturması gerekir.
+Veri bilimcileri Machine Learning için makine öğrenmesi modellerini geliştirir hatta dağıtırken öncelikli olarak Python kullanır.  Model için şema dosyası oluşturma görevini otomatikleştirmenize yardımcı olan Machine Learning Studio'dan (klasik) farklı olarak, Machine Learning'de veri bilimcisinin Python kullanarak şema dosyasını açıkça oluşturması gerekir.
 
-Bu şema dosyası, Machine Learning hizmeti modelleri için dağıtılan web hizmetine dahil edilmelidir. Şemayı web hizmeti için otomatik olarak oluşturmak isterseniz, dağıtılan modelin giriş betiğinde bir giriş/çıkış örneği sağlamalısınız. Lütfen, [Azure Machine Learning hizmeti belgelerine sahip Dağıtım modellerindeki Otomatik Swagger şema oluşturma alt bölümüne (İsteğe bağlı)](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) bakın. Bu bağlantı, şema oluşturma deyimlerine sahip örnek giriş betiğini içerir. 
+Bu şema dosyası, Machine Learning modelleri için dağıtılan web hizmetine dahil edilmelidir. Şemayı web hizmeti için otomatik olarak oluşturmak isterseniz, dağıtılan modelin giriş betiğinde bir giriş/çıkış örneği sağlamalısınız. Lütfen [Azure Machine Learning hizmeti belgelerine sahip Dağıtım modellerindeki Otomatik Swagger şema oluşturma alt bölümüne (İsteğe bağlı)](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation) bakın. Bu bağlantı, şema oluşturma deyimlerine sahip örnek giriş betiğini içerir. 
 
 Özellikle, giriş betiğindeki *\@input_schema* ve *\@output_schema* işlevleri, *input_sample* ve *output_sample* değişkenlerindeki giriş ve çıkış örneği biçimlerine başvurur ve dağıtım sırasında web hizmeti için bir OpenAPI (Swagger) belirtimi oluşturmak üzere bu örnekleri kullanır.
 
 Bu şema oluşturma yönergeleri, giriş betiği güncelleştirilerek, Azure Machine Learning SDK kullanan otomatik makine öğrenimi denemeleri kullanılarak oluşturulan modellere de uygulanmalıdır.
 
 > [!NOTE]
-> Azure Machine Learning hizmeti görsel arabirimi kullanılarak oluşturulan modeller şu anda şema oluşturmayı desteklemiyor ancak daha sonraki sürümlerde destekleyecek. 
+> Azure Machine Learning görsel arabirimi kullanılarak oluşturulan modeller şu anda şema oluşturmayı desteklemiyor ancak daha sonraki sürümlerde destekleyecek. 
 
 ## <a name="invoking-the-azure-ml-model-in-power-bi"></a>Power BI'da Azure ML modelini çağırma
 
@@ -84,7 +84,7 @@ Size erişim verilmiş olan herhangi bir Azure ML modelini veri akışınız iç
 
 **Düzenle** düğmesi seçildiğinde veri akışınızdaki varlıklar için Power Query Düzenleyicisi açılır.
 
-![Power Query Editor](media/service-machine-learning-integration/machine-learning-integration_06.png)
+![Power Query Düzenleyicisi](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
 Şeritte **Yapay Zeka İçgörüleri** düğmesini seçin ve ardından gezinti menüsünden _Azure Machine Learning Modelleri_ klasörünü seçin. Erişiminiz olan tüm Azure ML modelleri burada Power Query işlevleri olarak listelenir. Ayrıca, Azure ML modeli için giriş parametreleri de otomatik olarak ilgili Power Query işlevinin parametreleri olarak eşlenir.
 
@@ -106,7 +106,7 @@ Veri akışınızı kaydettikten sonra, varlık tablosundaki yeni veya güncelle
 
 Bu makalede Machine Learning'i Power BI hizmetine tümleştirme işlemine genel bakış sağlanır. Aşağıdaki makaleleri de ilginç ve yararlı bulabilirsiniz. 
 
-* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
+* [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
 * [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
 * [Power BI'da Bilişsel Hizmetler](service-cognitive-services.md)
 

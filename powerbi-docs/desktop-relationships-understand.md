@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009633"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304239"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 
@@ -73,7 +73,7 @@ Bir-çok veya Çok-çok ilişki yapılandırırken sütunlara arasında ilişki 
 
 **Bir-bir** ilişkisi her zaman iki sütunda da benzersiz değerler olduğu anlamına gelir. Bu kardinalite türü yaygın kullanılmaz ve genellikle gereksiz verilerin depolanması nedeniyle uygun olmayan bir tasarım ortaya çıkarır.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-**Çok-çok** ilişkisi, iki sütunda da yinelenen değer olabileceği anlamına gelir. Bu kardinalite türü oldukça seyrek kullanılır. Bu tür özellikle karmaşık model gereksinimlerini tasarlarken yararlı olur.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+**Çok-çok** ilişkisi, iki sütunda da yinelenen değer olabileceği anlamına gelir. Bu kardinalite türü oldukça seyrek kullanılır. Bu tür özellikle karmaşık model gereksinimlerini tasarlarken yararlı olur. Bu kardinalite türünü kullanma yönergeleri için bkz. [Çoka çok ilişkiler kılavuzu](guidance/relationships-many-to-many.md).
 
 > [!NOTE]
 > Bir-çok kardinalite türü şu an için Power BI Rapor Sunucusu için geliştirilen modellerde kullanılamaz.
@@ -87,9 +87,9 @@ Her model ilişkisiyle birlikte bir çapraz filtre yönü tanımlanması gerekir
 
 | Kardinalite türü | Çapraz filtre seçenekleri |
 | --- | --- |
-| Bir-çok (veya Çok-bir) | Tek<br>Her İkisi |
-| Bir-bir | Her İkisi |
-| Çok-çok | Tek (Tablo1 - Tablo2)<br>Tek (Tablo2 - Tablo1)<br>Her İkisi |
+| Bir-çok (veya Çok-bir) | Tek<br>Her ikisi |
+| Bir-bir | Her ikisi |
+| Çok-çok | Tek (Tablo1 - Tablo2)<br>Tek (Tablo2 - Tablo1)<br>Her ikisi |
 
 _Tek_ çapraz filtre yönü "tek yön", _Her İkisi_ ise "iki yön birden" anlamına gelir. İki yönde filtre uygulanan bir ilişki genellikle _iki yönlü_ olarak tanımlanır.
 
@@ -226,4 +226,5 @@ Aşağıdaki listede en hızlıdan en yavaşa doğru olmak üzere filtre yayma p
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Yıldız şemasını ve Power BI açısından önemini anlama](guidance/star-schema.md)
+- [Çoka çok ilişkiler kılavuzu](guidance/relationships-many-to-many.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

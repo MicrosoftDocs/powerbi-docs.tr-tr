@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010030"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220532"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -21,6 +21,20 @@ ms.locfileid: "74010030"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>Kasım 2019
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>Power BI uygulamasının yeni görünümü artık varsayılan olarak açık
+ 
+Artık uygulamayı açtığınızda yeni görünüm ve gezinti çubukları otomatik olarak açılır. Bu sayede içeriği bulmanız ve açmanız kolaylaşır. Başlangıç noktanız olarak uygulamanın [giriş sayfasını](mobile-apps-home-page.md) kullanın; en önemli içeriklerinize, ayrıca en son uyarılarınızı, bildirimlerinizi ve diğer bilgilerinizi yakından izlemenizi sağlayan bir [etkinlik akışına](mobile-apps-home-page.md#activity-feed) hızlı erişim elde edersiniz.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>En son Power BI etkinliğinizin tümünü görüntüleyin
+ 
+Etkinlik akışı Power BI içeriğinizde neler olduğunu gerçek zamanlı olarak yakından izlemenize yardımcı olur. En son bildirimlerinizin, uyarılarınızın, açıklamalarınızın, @mentions öğelerinizin ve diğer bilgilerinizin tümünü görüntülemek için uygulamanın giriş sayfasına gitmeniz ve Etkinlik sekmesini açmanız yeterlidir. [Daha fazla bilgi edinin](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>Raporlarınızda yer işaretlerini kullanma
+
+Power BI mobil uygulaması artık Power BI'da oluşturulan yer işaretlerini destekliyor. Uygulamayı açtığınızda rapor yazarı tarafından oluşturulan yer işaretlerinden ve kendi oluşturduğunuz tüm kişisel yer işaretlerden yararlanabilirsiniz. [Daha fazla bilgi edinin](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Ekim 2019
 
@@ -520,7 +534,7 @@ Resim kutucuğunda pano sahibi tarafından tanımlanmış özel bir URL varsa ku
 #### <a name="android-devices"></a>Android cihazlar
 **Önizleme: Intune Mobil Uygulama Yönetimi** Microsoft Intune Mobil Uygulama Yöneticisi’ne (MAM) yönelik Power BI desteği artık, Android cihaz kullanan Power BI Pro kullanıcıları için önizlemede. 
 
-**Sık kullanılanlar** Android cihazınızda sık kullandığınız panolarınızı etiketleyerek [sık kullanılan Power BI panolarınızın, Reporting Services mobil raporlarınızın ve KPI'lerinizin](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) tamamını tek bir yerde görebilirsiniz. 
+**Sık kullanılanlar** Android cihazınızda sık kullandığınız panolarınızı etiketleyerek [sık kullanılan Power BI panolarınızın, Reporting Services mobil raporlarınızın ve KPI'lerinizin](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) tamamını tek bir yerde görebilirsiniz. 
 
 #### <a name="ios-devices"></a>iOS cihazları
 **Bağlantılar** Artık, tıklama yoluyla kutucuklardaki ve görselleştirmelerdeki URL'leri bir tarayıcıda açabilirsiniz.

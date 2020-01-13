@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870106"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221548"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android tablet](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -62,7 +62,8 @@ Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarı
 
 1. Panoda uyarı içeren bir sayı veya ölçek kutucuğuna dokunun.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. Zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png) dokunun.  
 3. Düzenlemek istediğini uyarının adına dokunun, kaydırıcıya dokunarak e-posta uyarılarını kapatın veya çöp kutusuna dokunarak uyarıyı silin.
    
@@ -145,13 +146,15 @@ Veri kaynakları genelde her gün yenilenecek şekilde ayarlanmıştır ancak ba
 1. Power BI son uyarının gönderilmesinin üzerinden bir saat veya 24 saat (belirlediğiniz seçeneğe bağlı olarak) geçip geçmediğini kontrol eder.
    
    Veriler eşiği geçtiği sürece saatte veya 24 saatte bir uyarı gönderilir.
-2. Uyarının e-posta gönderme ayarını açtıysanız gelen kutunuzda aşağıdakine benzer bir ileti görürsünüz.
+2. Uyarının e-posta gönderme ayarını etkinleştirdiyseniz, Gelen Kutunuzda aşağıdakine benzer bir ileti görürsünüz.
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI **Bildirim merkezinize** bir ileti ekler ve ilgili kutucukta yeni uyarı simgesi ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) görüntüler.
-4. Genel gezinti düğmesine ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) dokunarak [**Bildirim merkezinizi** açın](mobile-apps-notification-center.md) ve uyarı ayrıntılarına bakın.
+3. Power BI [Bildirim merkezinize](mobile-apps-notification-center.md) bir ileti ekler; ayrıca başlık çubuğundaki zil simgesine ![zil simgesi](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) (iOS ve Android) veya genel gezinti düğmesine ![genel gezinti düğmesi](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 cihazları) sarı bir nokta ekler.
+
+
+4. Zil simgesine ![zil simgesi](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) veya genel gezinti düğmesine ![genel gezinti düğmesi](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) dokunarak[ **Bildirim merkezinizi**](mobile-apps-notification-center.md) açın ve uyarı ayrıntılarına bakın.
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > Uyarılar yalnızca yenilenen verilerde çalışır. Veriler yenilendiğinde Power BI bu veriler için bir uyarı ayarlanıp ayarlanmadığını kontrol eder. Veriler bir uyarı eşiğine ulaştığında bir uyarı tetiklenir.

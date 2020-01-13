@@ -1,19 +1,19 @@
 ---
 title: Power BI mobil uygulamasında barkod tarama
 description: Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879165"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217836"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Cihazınızla Power BI mobil uygulamasında barkod tarama
 Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
@@ -32,15 +32,13 @@ Diyelim ki bir iş arkadaşınız [Power BI Desktop raporunda bir barkod alanı 
 Cihazınızdaki Power BI uygulamasında bulunan tarayıcı ile bir ürün barkodunu taradığınızda söz konusu barkodu içeren raporu (veya rapor listesini) görürsünüz. Bu barkodla filtrelenmiş raporu açabilirsiniz.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI tarayıcısı ile barkod tarama
-1. Power BI mobil uygulamasının sol üst tarafında bulunan ana gezinti menüsünü ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) açın. 
-2. **Tarayıcı**'ya gidin ve bu seçeneği belirleyin. 
-   
+1. Gezinti çubuğunda **Diğer seçenekler**'e (...) ve sonra da **Tarayıcı**'ya dokunun.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. Kameranız etkin değilse Power BI uygulamasının kameranızı kullanmasına onay vermeniz gerekir. Bu onay bir kereliktir. 
-4. Tarayıcıyı bir üründeki barkoda doğru tutun. 
-   
-    Bu barkodla ilişkili bir rapor listesini görürsünüz.
-5. Rapor adına dokunarak söz konusu barkodla otomatik olarak filtrelenmiş raporu cihazınızda açın.
+
+2. Kameranız etkin değilse Power BI uygulamasının kameranızı kullanmasına onay vermeniz gerekir. Bu onay bir kereliktir. 
+4. Tarayıcıyı bir üründeki barkoda doğru tutun. Bu barkodla ilişkili bir rapor listesini görürsünüz.
+5. Rapor adına dokunarak söz konusu barkoda göre otomatik olarak filtrelenmiş raporu cihazınızda açın.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Bir rapordayken başka barkodlara göre filtreleme yapma
 Cihazınızda barkoda göre filtrelenmiş bir raporu incelerken, aynı raporu başka bir barkodla filtrelemek isteyebilirsiniz.

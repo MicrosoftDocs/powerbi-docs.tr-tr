@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699694"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223775"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Flow ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Flow ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
 
-[Flow'u kullanmaya hemen başlayın.](https://flow.microsoft.com/documentation/getting-started)
+[Flow'u kullanmaya hemen başlayın.](https://docs.microsoft.com/power-automate/getting-started)
 
 Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı bir e-posta gönderilmesini sağlayan bir Akış oluştururken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
 
@@ -107,7 +107,7 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
     ![Outlook bildirimini tetikleyen akış](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power Automate kullanmaya başlama](https://flow.microsoft.com/documentation/getting-started/)
+* [Power Automate kullanmaya başlama](https://docs.microsoft.com/power-automate/getting-started/)
 * [Set data alerts in Power BI service (Power BI hizmetinde veri uyarısı oluşturma)](service-set-data-alerts.md)
 * [iPhone'unuzda veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

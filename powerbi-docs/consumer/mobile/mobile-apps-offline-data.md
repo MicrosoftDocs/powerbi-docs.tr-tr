@@ -1,19 +1,19 @@
 ---
 title: Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 description: "Power BI'ı mobil tarayıcı yerine mobil uygulamada görüntülemenin avantajlarından biri hakkında bilgi edinin: Bir ağa bağlı olmasanız bile verilerinizi görebilirsiniz."
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870613"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219101"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -34,7 +34,7 @@ Varsayılan olarak Power BI, hareket halinde veya dolaşımdayken bile işle ilg
 Ayrıca, daha önce mobil uygulamadan eriştiğiniz Power BI raporlarına da salt okunur erişim elde edersiniz. Raporun tamamını görebilirsiniz ancak rapor üzerinde filtreleme, çapraz filtreleme veya sıralama yapamaz ya da dilimleyici kullanamazsınız.
 
 ## <a name="background-data-refresh"></a>Arka planda veri yenileme
-Arka planda yenileme; sık kullandığınız panolarınızın yanı sıra son iki hafta içinde görüntülediğiniz panolarınızı ve raporlarınızı Power BI hizmetindeki verilerle (veri kaynağı ile değil) güncelleştirir. Wi-Fi bağlantınız varsa arka planda yenileme, her 2 saatte bir gerçekleştirilir. 3G bağlantısı kullanmanız durumunda ise Power BI, içeriği her 24 saatte bir güncelleştirir.
+Arka planda yenileme; sık kullandığınız panolarınızın yanı sıra son iki hafta içinde görüntülediğiniz panolarınızı ve raporlarınızı Power BI hizmetindeki verilerle (veri kaynağı ile değil) güncelleştirir. Wifi bağlantınız varsa, arka planda yenileme her 2 saatte bir gerçekleştirilir. 3G bağlantısı kullanmanız durumunda ise Power BI, içeriği her 24 saatte bir güncelleştirir.
 
 Örneğin, ağ kullanımını önlemek için arka planda yenileme özelliğini devre dışı bırakabilirsiniz. Cihazınızdaki ayarları kontrol edin.
 
@@ -65,4 +65,3 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 * Bizi Twitter'da takip edin: @MSPowerBI
 * [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-

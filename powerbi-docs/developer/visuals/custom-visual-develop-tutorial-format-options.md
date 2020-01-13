@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696865"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498489"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme
 
@@ -124,10 +124,12 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
 8. **visual.ts** dosyasında,
 
-    `VisualSettings` sınıfını içeri aktarın
+    `VisualSettings`, `VisualObjectInstanceEnumeration` ve `EnumerateVisualObjectInstancesOptions` öğelerini dışarı aktarın:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     ve **Visual** sınıfına aşağıdaki özelliği ekleyin:
@@ -218,23 +220,34 @@ Dairenin rengini ve kenarlık kalınlığını yapılandırmanızı sağlayacak 
 
     *Biçimlendirilmiş ölçüm değerini daire içinde görüntüler*
 
-5. İsterseniz **author** nesnesine kendinizle ilgili bilgiler girebilirsiniz.
+5. Görsel için **supportUrl** ve **gitHubUrl**'yi doldurun.
 
-6. **pbiviz.json** dosyasını kaydedin.
+    Örnek:
 
-7. **assets** nesnesinde belgenin bir simge yolu tanımladığını göreceksiniz. Simge, **_Görsel Öğeler_** bölmesinde görüntülenen resimdir. *20x20 piksel* boyutunda bir **PNG** dosyası olmalıdır.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. Windows Gezgini’nde icon.png dosyasını kopyalayın ve assets klasöründe bulunan varsayılan dosyanın üzerine yapıştırın.
+6. **author** nesnesine ayrıntılarınızı girin.
 
-9. Visual Studio Code’un Gezgin bölmesinde assets klasörünü genişletip icon.png dosyasını seçin.
+7. **pbiviz.json** dosyasını kaydedin.
 
-10. Simgeyi gözden geçirin.
+8. **assets** nesnesinde belgenin bir simge yolu tanımladığını göreceksiniz. Simge, **_Görsel Öğeler_** bölmesinde görüntülenen resimdir. *20x20 piksel* boyutunda bir **PNG** dosyası olmalıdır.
+
+9. Windows Gezgini’nde icon.png dosyasını kopyalayın ve assets klasöründe bulunan varsayılan dosyanın üzerine yapıştırın.
+
+10. Visual Studio Code’un Gezgin bölmesinde assets klasörünü genişletip icon.png dosyasını seçin.
+
+11. Simgeyi gözden geçirin.
 
     ![Görsel Öğeler bölmesi görüntüsü](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. Visual Studio Code’da tüm dosyaların kaydedildiğinden emin olun.
+12. Visual Studio Code’da tüm dosyaların kaydedildiğinden emin olun.
 
-12. Özel görseli paketlemek için PowerShell’e aşağıdaki komutu girin.
+13. Özel görseli paketlemek için PowerShell’e aşağıdaki komutu girin.
 
     ```powershell
     pbiviz package

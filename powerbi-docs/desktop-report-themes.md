@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880006"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223520"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
 **Rapor Temaları** ile raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
@@ -23,10 +23,10 @@ ms.locfileid: "73880006"
 
 Bir özel **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. Daha sonra bu JSON dosyasını Power BI Desktop'a aktarabilir ve raporunuza uygulayabilirsiniz.
 
-Ayrıca, tema JSON dosyası aracılığıyla **Biçimlendirme** bölmesinde görülen neredeyse tüm öğeleri özelleştirebilir ve standartlaştırabilirsiniz. Amaç, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
+Ayrıca, doğrudan Power BI Desktop'ta yapılan özelleştirmeler veya tema JSON dosyası aracılığıyla **Biçimlendirme** bölmesinde görülen neredeyse tüm öğeleri özelleştirebilir ve standartlaştırabilirsiniz. Amaç, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
 
 ## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
-Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir veya özel bir temayı içeri aktarabilirsiniz.
+Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir ya da özel bir temayı oluşturabilir veya içeri aktarabilirsiniz.
 
 | Yerleşik rapor teması | Varsayılan renk dizisi    |
 |------ |---------- |
@@ -60,7 +60,7 @@ Rapor temanız rapora uygulanır ve kullanılmaya hazır duruma gelir.
 
 Özel bir Rapor Temasını içeri aktarmak için **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin. Ardından açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.
 
-![Temayı içeri aktarma](media/desktop-report-themes/report-themes-3a.png)
+![Temayı içeri aktar](media/desktop-report-themes/report-themes-3a.png)
 
 JSON tema dosyasının konumuna göz atmanızı sağlayan bir pencere açılır. Power BI Rapor Teması dosya türü JSON olduğu için Power BI Desktop JSON dosyalarını arar. Aşağıdaki görüntüde birkaç tatil tema dosyası bulunur. Mart ayı için bir tatil teması seçeceğiz.
 
@@ -70,7 +70,48 @@ Tema dosyası başarıyla yüklendiğinde, Power BI Desktop size haber verir.
 
 ![Tema başarıyla içeri aktarıldı](media/desktop-report-themes/report-themes_5.png)
 
-Bir tema dosyasını içeri aktardığımıza göre, JSON dosyasının yapısına göz atalım.
+Power BI Desktop'ta temaları özelleştirmenin iki yolu vardır. Şimdi sırayla bunları gözden geçirelim:
+
+
+## <a name="customize-report-themes-preview"></a>Rapor temalarını özelleştirme (önizleme)
+
+**Power BI Desktop**'ın Aralık 2019 sürümünden başlayarak, artık rapor temasını özelleştirmenin iki yolu vardır:
+
+* Power BI Desktop'ta temayı oluşturma ve özelleştirme (önizleme)
+* Özel Rapor Teması JSON dosyasını oluşturma ve özelleştirme
+
+Temayı doğrudan Power BI Desktop'ta özelleştirmek için önce **Dosya > Seçenekler ve ayarlar > Seçenekler**'i seçmeniz ve ardından aşağıdaki resimde gösterildiği gibi **Önizleme özellikleri** bölümünde **Geçerli temayı özelleştir**'in yanındaki kutuyu seçmeniz gerekir.
+
+![Özelleştirilmiş temaları etkinleştirme](media/desktop-report-themes/report-themes_5a.png)
+
+Önizleme özelliğinin etkinleştirilmesi için Power BI Desktop'ı yeniden başlatmanız istenebilir.
+
+Yeniden başlattıktan sonra **Giriş** şeridini ve sonra şeritten **Temayı değiştir > Geçerli temayı özelleştir**'i seçerek geçerli temayı özelleştirmeye başlayabilirsiniz. Mevcut temayı özelleştirmenin birçok yolunu gösteren bir iletişim kutusu görüntülenir.
+
+![Temayı özelleştirme](media/desktop-report-themes/report-themes_5b.png)
+
+Mevcut temalardan birini beğeniyor ve birkaç ayarlama yapmak istiyorsanız, mevcut temayı seçip ardından aşağıdaki resimde gösterildiği gibi iletişim kutusunda **Geçerli temayı özelleştir**'i kullanabilirsiniz. 
+
+![Geçerli temayı özelleştirme](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> Önceki resimde, şu anda önizleme aşamasında olan yeni şerit etkinleştirilmiş durumdadır. **Dosya > Seçenekler ve ayarlar > Seçenekler**seçerek ve **Önizleme özellikleri** bölümünde **Yeni şerit önizlemesi** seçerek yeni şerit önizlemesini etkinleştirebilirsiniz.
+
+Özelleştirilebilen tema ayarları aşağıdaki kategorilerde bulunur ve temayı özelleştirme iletişim kutusunda bunlar yansıtılır:
+
+* Tema adı (özelleştirdiğiniz temayı adlandırırsınız) ve çeşitli renk ayarları (tema renkleri, yaklaşım renkleri, farklı renkler ve diğerleri)
+* Yazı tipi ailesi, boyutu ve rengi de dahil olmak üzere metin ayarları; eksen başlıkları, renkleri, kartlar ve KPI'ler; sekme üst bilgileri
+* Arka plan, kenarlık, üst bilgi ve araç ipuçları gibi görsel öğeler
+* Duvar kağıdı ve arka plan gibi sayfa öğeleri
+* Arka plan rengi, saydamlık, yazı tipi ve simge rengi, boyutu ve filtre kartları gibi filtre bölmesi ayarları
+
+Değişikliklerinizi yaptıktan ve **Uygula ve kaydet** düğmesini seçtikten sonra temanız kaydedilir. Bundan sonra geçerli raporda kullanılabilir ve dışarı aktarılabilir. 
+
+Geçerli temayı bu şekilde özelleştirmek, temaları özelleştirmeye yönelik görsel çalışmanın hızlı ve kolay olmasını sağlayabilir. Öte yandan temaların, aşağıdaki bölümde açıklandığı gibi temanın JSON dosyasında değişiklik yapılmasını gerektiren bazı sınırlı ayarlamaları vardır.
+
+> [!TIP]
+> **Geçerli temayı özelleştir** iletişim kutusu kullanılarak görsel öğeler aracılığıyla tema öğelerinden çoğu özelleştirilebilir. Bundan sonra JSON dosyasını dışarı aktarabilir ve el ile ince ayarlamalar yapabilirsiniz (JSON dosyasının kendisinde değişiklik yaparak). Ardından ince ayarlamaların yapıldığı JSON dosyasını yeniden adlandırabilir, içeri aktarabilir ve istediğiniz tüm ayarlamalara sahip olabilirsiniz.
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Rapor Teması JSON dosyasının yapısı
  Önceki bölümde seçilen temel JSON dosyası (*St Patrick's Day.json* dosyası) bir düzenleyicide açıldığında aşağıdaki ekran görüntüsü gibi görünür:

@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862649"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218257"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap
 
@@ -67,28 +67,30 @@ Power BI hizmetinde (app.powerbi.com) panolar, bir veya daha fazla veri kümesin
 
 Verileri tanıdıktan sonra panoya dönün ve imlecinizi soru kutusuna yerleştirin. Soru-Cevap ekranı açılır.
 
-![Soru-Cevap ekranı](media/end-user-q-and-a/power-bi-screen.png) 
+![Soru-Cevap ekranı](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Soru-Cevap özelliği, yazmaya başlamadan önce sorunuzu oluşturmanıza yardımcı olacak önerilerin bulunduğu yeni bir ekran görüntüler. Temel alınan veri kümelerinde adları içeren ifade ve soruları görürsünüz ve veri kümesi sahibi tarafından oluşturulan *öne çıkan* soruları da görüntüleyebilirsiniz.
 
 Bunlardan herhangi birini seçerek soru kutusuna ekleyebilir ve belirli bir yanıtı bulmak için bunlardan faydalanabilirsiniz. 
 
-Soru-Cevap özelliği ayrıca istemler, otomatik tamamlama ve görsel ipuçları ile de soru sormanıza yardımcı olur. 
+![Soru-Cevap ekranı](media/end-user-q-and-a/power-bi-result.png) 
+
+Power BI ayrıca istemler, otomatik tamamlama ve görsel ipuçları gibi özelliklerle de soru sormanıza yardımcı olur. Power BI bu yardımı panolarda Soru-Cevap, raporlarda Soru-Cevap için ve Soru-Cevap görseli ile sağlar. Aşağıdaki [Doğal dil sorgusu yazarak bir Soru-Cevap görseli oluşturma](#create-a-qa-visual-by-typing-a-natural-language-query) bölümünde bu özellikleri ayrıntılı olarak açıklıyoruz
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>Soru-Cevap görseli
+## <a name="the-qa-visual-in-power-bi-reports"></a>Power BI raporlarında Soru-Cevap görseli
 
-Soru-Cevap görseli, doğal dil soruları sormanıza ve görsel biçiminde yanıtlar almanıza olanak tanır. Soru-Cevap görseli de diğer tüm görseller gibi davranır. Çapraz filtre/çapraz vurgu uygulanabilir ve aynı zamanda yer işaretleri ile yorumları destekler. 
+Soru-Cevap görseli, doğal dil soruları sormanıza ve görsel biçiminde yanıtlar almanıza olanak tanır. Soru-Cevap görseli de rapordaki diğer tüm görseller gibi davranır. Çapraz filtre/çapraz vurgu uygulanabilir ve aynı zamanda yer işaretleri ile yorumları destekler. 
 
 Bir Soru-Cevap görselini üst kısımdaki soru kutusundan tanıyabilirsiniz. Buraya doğal dil kullanarak sorular girebilir veya yazabilirsiniz. Soru-Cevap görseli, verileriniz hakkında sorular sormak için tekrar tekrar kullanılabilir. Rapordan ayrıldığınızda Soru-Cevap varsayılan değerine sıfırlanır. 
 
 ![Varsayılan Soru-Cevap görselinin ekran görüntüsü](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>Soru-Cevap görselini kullanma
-Soru-Cevap görselini kullanmak için önerilen sorulardan birini seçin veya kendi doğal dil sorunuzu yazın. 
+## <a name="use-qa"></a>Soru-Cevap kullanma 
+Panoda Soru-Cevap veya raporda Soru-Cevap görseli kullanmak için, önerilen sorulardan birini seçin veya kendi doğal dil sorunuzu yazın. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Önerilen bir soruyu kullanarak Soru-Cevap görseli oluşturma
 
@@ -105,26 +107,45 @@ Ancak, doğal dil sorgunuza ekleyerek hangi görsel türünü kullanacağını P
 
 Ne tür sorular soracağınızdan veya hangi terminolojiyi kullanacağınızdan emin değilseniz **Tüm önerileri göster**’i genişletin veya rapordaki diğer görsellere bakın. Bunu yaparak veri kümesinin terim ve içeriklerini yakından tanıyabilirsiniz.
 
-1. Doğal dil kullanarak Soru-Cevap alanına sorunuzu yazın. Sorunuzu yazarken, Power BI otomatik tamamlama, öneriler ve geri bildirim ile size yardımcı olur.
+1. Doğal dil kullanarak Soru-Cevap alanına sorunuzu yazın. Sorunuzu yazarken, Power BI otomatik tamamlama, görsel ipuçları ve geri bildirim ile size yardımcı olur.
 
-    - Power BI’ın tanımadığı sözcükler için kırmızı alt çizgi kullanılır. Mümkün olduğunda, Power BI bu sözcükleri tanımlamanıza yardımcı olur. Doğru tanımı görürseniz açılan listeden seçin.  
+    **Otomatik tamamlama** - Sorunuzu yazarken Power BI Soru-Cevap, doğal dil ile hızlıca üretken olmanıza yardımcı olacak ilgili ve bağlamsal önerileri gösterir. Siz yazarken anında geri bildirim ve sonuçlar alırsınız. Deneyim bir arama altyapısına yazmaya benzer.
 
-        ![Soru-Cevap soru kutusundaki kırmızı altı çizili terim](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    Bu örnekte istediğimiz öneri en sondakidir. 
 
-    - Tanımların hiçbiri doğru değilse başka bir terim deneyin veya raporun sahibinden sözcüğü eklemesini istemek için kırmızı altı çizili sözcüğü seçin.
+    ![Altı mavi çizili sözcükle Soru-Cevap](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Soru-Cevap soru kutusuna soru yazma](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Kırmızı/Mavi alt çizgiler**- Power BI Soru-Cevap, Power BI'ın hangi sözcükleri tanıdığını hangilerini tanımadığını görmenize yardımcı olmak için sözcükleri alt çizgilerle gösterir. Düz mavi alt çizgi Power BI'ın sözcüğü tanıdığına işaret eder. Aşağıdaki örnekte, Soru-Cevap’ın **mağaza** sözcüğünü tanıdığı gösterilmektedir.
 
-    - Harf girmeye devam ettikçe, Power BI soruyu anlamaması durumunda size bildirir ve yardımcı olmaya çalışır. Aşağıdaki örnekte Power BI "Şunu mu demek istediniz..." sorusunu sorar ve veri kümenizdeki terminolojiyi kullanarak sorunuzu farklı bir şekilde sormayı önerir. 
+    ![Soruyu tamamlamak için açılan öneriler listesiyle Soru-Cevap](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![Önerilen düzeltmeler sunan Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Önerilen soruların açılan listesini görüntülemek için altı mavi çizili bir sözcük seçin. 
 
-2. Power BI’ın düzeltmesini seçtikten sonra sonuçlarınız çizgi grafik olarak görüntülenir. 
+    ![Ayrıca şunları deneyebilirsiniz önerilerini içeren açılan liste](media/end-user-q-and-a/power-bi-try.png)
+
+
+    Genellikle Soru-Cevap’a bir sözcük yazdığınızda sözcük kırmızı alt çizgiyle işaretlenir. Kırmızı alt çizgi, iki olası sorundan birini gösterebilir. İlk sorun türü düşük güven kategorisine ayrılmıştır. Şüpheli veya belirsiz bir sözcük yazarsanız alanın altına kırmızı çizgi eklenir. 'Konum' sözcüğü örnek olabilir. Birden fazla alan 'Konum' sözcüğünü içerebilir. Bu nedenle sistem, hedeflediğiniz alanı seçmenizi istemek için kırmızı bir alt çizgi kullanır. Bu örnekte Power BI 'VanArsdel' için kullanmak istediğiniz alanı seçmenizi ister.
+    
+    ![Soru-Cevap soru kutusundaki kırmızı altı çizili terim](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    'Alan' sözcüğünü yazmanıza rağmen eşleştiği sütunun 'bölge' olması başka bir düşük güven örneğidir. Power BI Soru-Cevap, Bing ve Office ile tümleştirme sayesinde aynı anlama gelen sözcükleri tanır. Soru-Cevap, sözcüğe kırmızı alt çizgi ekler, böylece doğrudan eşleşme olmadığını bilirsiniz
+
+    ![Soru-Cevap, eş anlamlıları kullanarak soruyu yeniden yazar](media/end-user-q-and-a/power-bi-red.png)
+
+    Sorunun ikinci türü, Soru-Cevap’ın sözcüğü hiç tanımamasıdır. Verilerin hiçbir yerinde mevcut olmamasına rağmen 'coğrafya' sözcüğünün kullanılması bu durumun örneği olabilir. Sözcük Türkçe sözlükte yer alır ancak Soru-Cevap bu sözcüğe kırmızı alt çizgi ekler. Power BI Soru-Cevap görselleştirme oluşturamaz ve rapor tasarımcısından terimi eklemesini istemenizi önerir.
+
+    ![Tasarımcıdan coğrafya sözcüğünü eklemesini istemeniz önerisiyle Soru-Cevap](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Öneriler** - Harf girmeye devam ettikçe, Power BI soruyu anlamaması durumunda size bildirir ve yardımcı olmaya çalışır. Aşağıdaki örnekte Power BI "Şunu mu demek istediniz..." sorusunu sorar ve veri kümenizdeki terminolojiyi kullanarak sorunuzu farklı bir şekilde sormayı önerir. 
+
+    ![Önerilen düzeltmeler sunan Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Power BI’ın düzeltmesini seçtikten sonra sonuçlarınız çizgi grafik olarak görüntülenir. 
 
     ![Çizgi grafik olarak Soru-Cevap görseli sonuçları](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. Ancak, çizgi grafiği başka bir görsel türü ile değiştirebilirsiniz.  
+    Ancak, çizgi grafiği başka bir görsel türü ile değiştirebilirsiniz.  
 
     ![Soruya "sütun grafik olarak" eklenmiş Soru-Cevap görseli](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

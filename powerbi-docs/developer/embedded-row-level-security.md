@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478655"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223402"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -129,6 +129,9 @@ Tüm parçaları bir araya getirdiniz. Artık bir kullanıcı uygulamanızda otu
 Satır düzeyi güvenlik şirket içi sunucular için Analysis Services canlı bağlantılarıyla birlikte kullanılabilir. Bu bağlantı türünü kullanırken anlamanız gereken birkaç belirli kavram vardır.
 
 Kullanıcı adı özelliği için sunulan etkin kimliğin, Analysis Services sunucusunda gerekli izinlere sahip bir Windows kullanıcısı olması gerekir.
+
+>[!NOTE]
+> [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
 
 ### <a name="on-premises-data-gateway-configuration"></a>Şirket içi veri ağ geçidi yapılandırması
 

@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861405"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
@@ -60,8 +60,8 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
    * [Kutucuğu odak modunda görüntüleme ](end-user-focus.md) ![odak simgesi](./media/end-user-tiles/fullscreen-icon.jpg)  
    * [İçgörüler görüntüleme ](end-user-insights.md) ![içgörüler simgesi](./media/end-user-tiles/power-bi-insights.png)
    * [Bir yorum ekleme ve tartışma başlatma](end-user-comment.md) ![yorum simgesi](./media/end-user-tiles/comment-icons.png)
-   * [Pano kutucuğunda ayarlanan uyarıları yönetme](end-user-alerts.md)  ![uyarı simgesi](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Verileri Excel’de açma](end-user-export.md)  ![dışarı aktarma simgesi](./media/end-user-tiles/power-bi-export-icon.png)
+   * [Pano kutucuğunda ayarlanan uyarıları yönetme](end-user-alerts.md) ![uyarı simgesi](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Verileri Excel’de açma](end-user-export.md) ![dışarı aktarma simgesi](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. Eylem menüsü kapatmak için tuvalde boş bir alan seçin.

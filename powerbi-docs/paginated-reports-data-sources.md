@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: bd58f5f5f6ceaad07cbba5d25508a160b3447f88
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831263"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304328"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -28,7 +28,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 |   |
 | Azure SQL Yönetilen Örneği | Temel | Genel Uç Nokta yoluyla Azure SQL Veritabanı Uzantısı kullanılarak  |
 | Azure Analysis Services | SSO, OAuth2 |   |
-| Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri |
+| Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
 | Premium Power BI veri kümesi (XMLA) | SSO |   |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |
 

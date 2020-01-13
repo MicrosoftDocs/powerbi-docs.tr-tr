@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882891"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224183"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -164,13 +164,13 @@ Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bak
 
 ## <a name="help-and-support-settings"></a>Yardım ve destek ayarları
 
-### <a name="publish-get-help-information"></a>"Yardım alın" bilgilerini yayımlama
+### <a name="publish-get-help-information"></a>“Yardım alın” bilgilerini yayımlama
 
 Kuruluştaki kullanıcılar, Power BI yardım menüsünden iç yardıma ve destek kaynaklarına gidebilir. Özellikle, bu parametreler Öğrenme, Topluluk ve Yardım alın menü öğelerinin davranışını değiştirir.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Ayrıca lisans istekleri için URL'yi belirterek **Hesabı yükselt** düğmesinin hedef URL'sini özelleştirirsiniz. Power BI Pro lisansı olmayan kullanıcılar bu düğmeyi hem **Power BI Pro'ya Yükselt** iletişim kutusunda hem de **Kişisel depolama alanını yönet** sayfasında görür. Üstelik Power BI artık bu iletişim kutusunda veya depolama sayfasında **Pro'yu ücretsiz deneyin** düğmesini sağlamaz. Bu sayede lisans yönetim çözümü aracılığıyla Power BI kuruluşunuzda tanımlanan süreçlerde kullanıcılarınıza güvenli bir şekilde yol gösterebilir.
 
-Lisans istekleri için bir URL belirterek, Power BI Pro lisansı olmayan bir kullanıcının **Power BI Pro’ya Güncelleştir** iletişim kutusunda ve **Kişisel depolama alanını yönet** sayfasında bulabileceği **Hesabı yükselt** düğmesinin hedef URL’sini özelleştirebilirsiniz. Ayrıca, Power BI’ın kullanıcılarınızı lisans yönetimi çözümünüz aracılığıyla kuruluşunuzda tanımlanmış işleme güvenilir şekilde yönlendirdiğinden emin olmak için, Power BI artık bu iletişim kutusunda veya depolama sayfasında **Pro sürümünü ücretsiz deneyin** düğmesini sunmamaktadır.
+![Hariç tutarak etkinleştirme ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylara yönelik e-posta bildirimlerini etkinleştir
 
@@ -420,7 +420,7 @@ Kuruluştaki kullanıcılar, şablon uygulama çalışma alanları oluşturabili
 
 ### <a name="install-template-apps-listed-on-appsource"></a>AppSource’ta listelenen şablon uygulamalarını yükleme
 
-Kuruluştaki kullanıcılar **yalnızca** [AppSource](https://appsource.microsoft.com)’tan şablon uygulamalarını indirebilir ve yükleyebilir. Hangi kullanıcıların veya güvenlik gruplarının AppSource’tan şablon uygulamaları yükleyebileceğini denetleyin.
+Kuruluştaki kullanıcılar **yalnızca**[AppSource](https://appsource.microsoft.com)’tan şablon uygulamalarını indirebilir ve yükleyebilir. Hangi kullanıcıların veya güvenlik gruplarının AppSource’tan şablon uygulamaları yükleyebileceğini denetleyin.
 
 ![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
@@ -440,7 +440,7 @@ Kuruluştaki hangi kullanıcıların **[AppSource](https://appsource.microsoft.c
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU’ları yalnızca Azure’dan satın alabileceğiniz için [Azure’da ekli kapasiteleri yönetmek için](developer/azure-pbie-create-capacity.md) **Azure portalı** kullanırsınız.
+**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU’ları yalnızca Azure’dan satın alabileceğiniz için [Azure’da ekli kapasiteleri yönetmek için](developer/azure-pbie-create-capacity.md)**Azure portalı** kullanırsınız.
 
 Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Embedded nedir?](developer/azure-pbie-what-is-power-bi-embedded.md)
 

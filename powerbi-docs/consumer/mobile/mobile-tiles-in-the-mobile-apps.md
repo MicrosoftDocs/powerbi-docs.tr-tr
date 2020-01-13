@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870049"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221219"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-tiles-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-tiles-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-tiles-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-tiles-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10 cihazları](./media/mobile-tiles-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -41,10 +41,13 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
 3. Haritada **Haritayı Ortala** simgesine ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) dokunarak haritanın geçerli konumunuza göre ortalanmasını sağlayabilirsiniz.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Paylaş simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) dokunarak [bir kutucuğa not ekleyebilir ve kutucuğu başkalarıyla paylaşabilirsiniz](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. [Kutucuğa not eklemek](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için kalem simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) ve ardından [bunu başkalarıyla paylaşmak](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için paylaş simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) dokunun.
+
 5. [Kutucuklara uyarı ekleyebilirsiniz](mobile-set-data-alerts-in-the-mobile-apps.md). Değerler hedeflerin üzerine çıktığında veya altına düştüğünde Power BI sizi bilgilendirir.
+
 6. Bazen panoyu oluşturan kişi kutucuğa bağlantı ekleyebilir. Bağlantı eklenmişse odak modunda bağlantı simgesi ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) bulunur:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,7 +71,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
     Odak modunda şunları yapabilirsiniz:
    
    * Görselleştirmenin belirli bir noktasındaki değerleri görüntülemek üzere çizgi, çubuk, sütun veya kabarcık türündeki bir grafikte bulunan çubuğu hareket ettirmek için grafiğe dokunabilirsiniz.  
-   * Anlık görüntü paylaş simgesine ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) dokunarak [kutucuğa not ekleyebilir ve kutucuğu başkalarıyla paylaşabilirsiniz](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+   * [Kutucuğa not eklemek](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için Kalem simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) ve ardından [bunu başkalarıyla paylaşmak](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için Anlık görüntü paylaş simgesine ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) dokunun.
    * Rapor aç simgesine ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) dokunarak mobil uygulamada [raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
 3. Bazen panoyu oluşturan kişi kutucuğa bağlantı ekleyebilir. Bu durumda dikey üç nokta simgesine ( **...** ) dokunduğunuzda **Bağlantıyı aç** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) seçeneğini görürsünüz:
    

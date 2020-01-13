@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 22988b08209865e9f1f2c583a30aa40e48c249bc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b0a8b1f8b77ba1ee636bc92bb230b7c51e2935b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879255"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219405"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bildirim alma
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
@@ -34,27 +34,23 @@ Bildirimler, Power BI deneyiminizle ilgili bilgileri doğrudan Power BI hizmetin
    
    ![Bildirim başlığı](./media/mobile-apps-notification-center/power-bi-mobile-notification-banner.png)
    
-   iPad'de:
-   
-   ![Bildirimler](./media/mobile-apps-notification-center/power-bi-ipad-notifications.png)
-   
+
    [Power BI bildirimlerinizi nasıl alacağınızı değiştirebilirsiniz](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device).
-2. Bildirim aldıysanız, mobil cihazınızda Power BI'da oturum açtığınızda genel gezinti düğmesinde ![Bildirimler noktası](./media/mobile-apps-notification-center/power-bi-android-menu-notifications-icon.png) (Android) veya **Bildirimler** simgesinde sarı bir nokta görürsünüz. 
-   
-   ![Bildirimler noktası](./media/mobile-apps-notification-center/power-bi-windows-10-notifications.png)
-3. Bildirimler simgesini ![Bildirimler simgesi](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10) seçin.
+2. Bildirim aldıysanız, mobil cihazınızda Power BI'da oturum açtığınızda bildirim zili simgesinde ![bildirim zili](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS veya Android) veya genel gezinti düğmesinde ![Bildirimler noktası](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 cihazları) sarı bir nokta görürsünüz. 
+
+3. Bildirim merkezinde bildirimlere bakmak için, bildirim ziline ![bildirim zili](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS ve Android) veya Bildirim merkezi simgesine ![Bildirimler simgesi](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 cihazları) dokunun.
    
     Bildirimler, en yeniler üstte olacak ve okunmamış iletiler vurgulanacak şekilde görüntülenir. Bildirimler, silmediğiniz veya 100 üst sınırına ulaşmadığınız sürece 90 gün boyunca saklanır.
    
    ![iOS Bildirimler listesi](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. Bir bildirimi kapatmak için bildirimi basılı tutun ve **Kapat**'ı seçin.
+4. iOS ve Android cihazlarında bildirimi kapatmak için dokunun, tutun ve çekin. Windows 10 cihazlarında sağ tıklayın ve **Kapat**'ı seçin.
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>Mobil cihazınızda bildirimleri değiştirme veya devre dışı bırakma
 Power BI bildirimlerinizi nasıl alacağınızı değiştirebilirsiniz.
 
 1. iOS cihazınızda **Ayarlar** > **Bildirimler**'e gidin. 
    
-    Android telefonunuzda **Bildirim Ayarları**'na gidin.
+    Android telefonunda **Ayarlar** > **Bildirimler**'e gidin.
    
     Windows cihazınızda **Ayarlar** **Sistem** > **Bildirimler ve eylemler**'e gidin.
 2. Uygulamaların bulunduğu listede **Power BI**'ı seçin. 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199432"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622366"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
-iOS ve Android için Power BI Mobil uygulaması Office 365 ve Intune gibi mobil cihaz yönetimi (MDM) hizmetleri yöneticilerinin uygulamanın davranışını özelleştirmesine olanak tanıyan uygulama ayarlarını destekler.
+iOS ve Android için Power BI Mobil uygulaması Intune gibi mobil cihaz yönetimi (MDM) hizmetleri yöneticilerinin uygulamanın davranışını özelleştirmesine olanak tanıyan uygulama ayarlarını destekler.
 
 Power BI Mobil uygulaması aşağıdaki yapılandırma senaryolarını destekler:
 

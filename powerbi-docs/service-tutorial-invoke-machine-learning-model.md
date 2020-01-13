@@ -1,6 +1,6 @@
 ---
-title: "Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)"
-description: Bu öğreticide Power BI'da bir Machine Learning Studio modelini çağıracaksınız.
+title: "Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)"
+description: Bu öğreticide Power BI'da bir Machine Learning Studio (klasik) modelini çağıracaksınız.
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876958"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224240"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)
 
-Bu öğreticide, **Azure Machine Learning Studio** modelinden gelen içgörüleri Power BI ile birleştirme deneyiminde size yol göstereceğiz. Bu öğretici Power BI kullanıcısına Azure ML modeli için erişim verme, veri akışı oluşturma ve Azure ML modelinden gelen içgörüleri veri akışınıza ekleme işlemlerinde rehberlik sağlar. Ayrıca henüz bir Azure ML modeliniz yoksa model oluşturmak için hızlı başlangıç kılavuzuna başvuru içerir.
+Bu öğreticide, **Azure Machine Learning Studio (klasik)** modelinden gelen içgörüleri Power BI ile birleştirme deneyiminde size yol göstereceğiz. Bu öğretici Power BI kullanıcısına Azure ML modeli için erişim verme, veri akışı oluşturma ve Azure ML modelinden gelen içgörüleri veri akışınıza ekleme işlemlerinde rehberlik sağlar. Ayrıca henüz bir Azure ML modeliniz yoksa model oluşturmak için hızlı başlangıç kılavuzuna başvuru içerir.
 
 Öğretici sizi şu adımlardan geçirir:
 
@@ -31,15 +31,15 @@ Bu öğreticide, **Azure Machine Learning Studio** modelinden gelen içgörüler
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML modeli oluşturma ve yayımlama
 
-[İzlenecek Yol 1. Adım: Machine Learning Studio çalışma alanı oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) yönergelerini izleyerek **Machine Learning** çalışma alanını oluşturun.
+[İzlenecek Yol 1. Adım: Machine Learning Studio (klasik) çalışma alanı oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) yönergelerini izleyerek **Machine Learning** çalışma alanını oluşturun.
 
-Mevcut Azure ML modelinizle veya veri kümenizle bu adımları kullanabilirsiniz. Yayımlanmış bir modeliniz yoksa, Otomobil Fiyat Tahminine yönelik bir Azure ML modelinin ayarlandığı [Azure Machine Learning Studio'da ilk veri bilimi denemenizi oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) makalesinden yararlanarak birkaç dakika içinde bir model oluşturabilirsiniz.
+Mevcut Azure ML modelinizle veya veri kümenizle bu adımları kullanabilirsiniz. Yayımlanmış bir modeliniz yoksa, Otomobil Fiyat Tahminine yönelik bir Azure ML modelinin ayarlandığı [Azure Machine Learning Studio'da (klasik) ilk veri bilimi denemenizi oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) makalesinden yararlanarak birkaç dakika içinde bir model oluşturabilirsiniz.
 
-Azure ML modelini bir web hizmeti olarak yayımlamak için [Azure Machine Learning Studio web hizmetini dağıtma](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service) başlığı altında verilen adımları izleyin.
+Azure ML modelini bir web hizmeti olarak yayımlamak için [Azure Machine Learning Studio (klasik) web hizmetini dağıtma](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) başlığı altında verilen adımları izleyin.
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI kullanıcısına erişim verme
 
-Power BI'dan Azure ML modeline erişmek için Azure aboneliğiyle kaynak grubu üzerinde **Okuma** erişiminizin ve Machine Learning Studio modelleri için Azure Machine Learning Studio web hizmeti üzerinde **Okuma** erişiminizin olması gerekir.  Azure Machine Learning hizmet modeli için Machine Learning hizmeti çalışma alanı üzerinde **Okuma** erişiminiz olmalıdır.
+Power BI'dan Azure ML modeline erişmek için Azure aboneliğiyle kaynak grubu üzerinde **Okuma** erişiminizin ve Machine Learning Studio (klasik) modelleri için Azure Machine Learning Studio (klasik) web hizmeti üzerinde **Okuma** erişiminizin olması gerekir.  Azure Machine Learning modeli için Machine Learning çalışma alanı üzerinde **Okuma** erişiminiz olmalıdır.
 
 Aşağıdaki adımlarda, modelin yayımlandığı Azure aboneliğinin ve kaynak grubunun yöneticisi olduğunuz varsayılır.
 
@@ -59,9 +59,9 @@ Ardından Power BI kullanıcısına Azure ML modelinin dağıtıldığı belirli
 
 Önceki adımda Azure ML modeli üzerinde erişim verdiğiniz kullanıcı kimlik bilgileriyle Power BI hizmetinde oturum açın.
 
-Bu adımda Azure ML modelinizle puanlamak istediğiniz verilerinizin CSV biçiminde olduğu varsayılır.  Machine Learning Studio'da modeli oluştururken **Automobile Pricing Experiment**'i kullandıysanız, bu denemenin veri kümesi aşağıdaki bağlantıda paylaşılır:
+Bu adımda Azure ML modelinizle puanlamak istediğiniz verilerinizin CSV biçiminde olduğu varsayılır.  Machine Learning Studio'da (klasik) modeli oluştururken **Automobile Pricing Experiment**'i kullandıysanız, bu denemenin veri kümesi aşağıdaki bağlantıda paylaşılır:
 
-* [Azure Learning Studio örnek modeli](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Azure Learning Studio (klasik) örnek modeli](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>Veri akışı oluşturma
 
@@ -173,7 +173,7 @@ Bu makalede oluşturduğunuz Azure kaynaklarına artık ihtiyacınız yoksa, üc
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide Azure Machine Learning Studio'yla basit bir veri kümesi kullanıp şu adımları izleyerek basit bir deneme oluşturdunuz:
+Bu öğreticide Azure Machine Learning Studio'yla (klasik) basit bir veri kümesi kullanıp şu adımları izleyerek basit bir deneme oluşturdunuz:
 
 - Azure Machine Learning modelini oluşturma ve yayımlama
 - Power BI kullanıcısına modeli kullanması için erişim verme

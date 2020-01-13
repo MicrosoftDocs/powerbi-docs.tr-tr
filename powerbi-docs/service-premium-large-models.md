@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696773"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223723"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 
@@ -118,23 +118,4 @@ Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
 - **Multi-geo desteği**: Premium Dosyaların etkinleştirildiği veri kümeleri, [multi-geo](service-admin-premium-multi-geo.md) özelliğinin de etkin olduğu kapasitelerde hata verecektir.
 
 - **Power BI Desktop'a indirme**: Premium Dosyalarda depolanan veri kümeleri için [.pbix olarak indirme](service-export-to-pbix.md) işlemi başarısız olur.
-- **Desteklenen bölgeler**: Büyük modellerin desteklendiği bölgeler aşağıda verilmiştir.
-  - Avustralya Doğu
-  - Avustralya Güneydoğu
-  - Orta ABD
-  - Doğu Asya
-  - ABD Doğu
-  - ABD Doğu 2
-  - Doğu Japonya
-  - Batı Japonya
-  - Kore Orta
-  - Kore Güney
-  - ABD Orta Kuzey
-  - Kuzey Avrupa
-  - Orta Güney ABD
-  - Güneydoğu Asya
-  - UK Güney
-  - UK Batı
-  - Batı Avrupa
-  - Batı ABD
-  - Batı ABD 2
+- **Desteklenen bölgeler**: Büyük modeller Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için bkz. [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage).

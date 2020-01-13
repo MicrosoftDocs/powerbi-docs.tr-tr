@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875303"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304321"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
@@ -53,7 +53,7 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
   
     -   Bağlantı dizesini doğrudan **Bağlantı dizesi** metin kutusuna yazın. 
   
-    -   Bağlantı dizesini değerlendiren bir ifade oluşturmak için ifade (**fx)** düğmesini seçin. **İfade** iletişim kutusunda, ifadeyi İfade bölmesine girin. **Tamam**'ı seçin. 
+    -   Bağlantı dizesini değerlendiren bir ifade oluşturmak için ifade (**fx)** düğmesini seçin. **İfade** iletişim kutusunda, ifadeyi İfade bölmesine girin. **Tamam**’ı seçin. 
   
     -   2\. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
   
@@ -63,7 +63,7 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
   
      Bu veri kaynağı için kullanılacak kimlik bilgilerini belirtin. Veri kaynağının sahibi, desteklenen kimlik bilgilerinin türünü seçer. Daha fazla bilgi için bkz. [Rapor Veri Kaynakları için Kimlik Bilgisi ve Bağlantı Bilgilerini Belirtme](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
-5.  **Tamam**'ı seçin.  
+5.  **Tamam**’ı seçin.  
   
      Veri kaynağı, Rapor Verileri bölmesinde görünür.  
      
@@ -75,21 +75,21 @@ Power BI veri kümelerine bağlanan sayfalandırılmış raporlar, birkaç küç
 
 - Veri kümesi olarak aynı çalışma alanında .rdl (aynı sahip): Destekleniyor
 - Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor
-- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
-- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
+- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
+- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
 - Veri kümesi olarak aynı çalışma alanında .rdl (farklı kullanıcı): Destekleniyor
-- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
-- Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir.
+- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
+- Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir.
 
 ### <a name="new-experience-apps-and-workspaces"></a>Yeni deneyim uygulamaları ve çalışma alanları
 
 - Veri kümesi olarak aynı çalışma alanında .rdl: Destekleniyor
 - Veri kümesi olarak farklı çalışma alanında .rdl (aynı sahip): Destekleniyor
-- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
-- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
+- Paylaşılan .rdl: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
+- Paylaşılan uygulama: Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
 - Veri kümesi olarak aynı çalışma alanında .rdl (farklı kullanıcı): - Desteklenir
-- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
-- Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya Oluşturma izni atamanız gerekir
+- Veri kümesi olarak farklı çalışma alanında .rdl (farklı kullanıcı): Raporu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
+- Rol düzeyinde güvenlik: Raporun uygulanması için bunu veri kümesi düzeyinde görüntüleyen her kullanıcıya Okuma izni atamanız gerekir
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

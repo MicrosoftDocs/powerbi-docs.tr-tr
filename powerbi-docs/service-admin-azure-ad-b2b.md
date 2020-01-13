@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882817"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223909"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
-Power BI, işletmeler arası Azure Active Directory (Azure AD B2B) ile tümleşerek Power BI içeriklerinin kuruluşunuz dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar ve bu sırada iç verilerin de denetimini elinde bulundurur.  
+Power BI, işletmeler arası Azure Active Directory (Azure AD B2B) ile tümleşerek Power BI içeriklerinin kuruluşunuz dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar ve bu sırada iç verilerin de denetimini elinde bulundurur. Ayrıca, kuruluşunuzun dışından konuk kullanıcılara kuruluşta bulunan içeriği düzenleme ve yönetme izni verebilirsiniz.
 
-Ayrıca, kuruluşunuzun dışından konuk kullanıcılara kuruluşta bulunan içeriği düzenleme ve yönetme izni verebilirsiniz.
+Bu makalede Power BI'da Azure AD B2B'ye temel giriş bilgileri sağlanır. Daha fazla bilgi için bkz. [Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Erişimi etkinleştirme
 
@@ -44,7 +44,7 @@ Hangi kullanıcıları davet edeceğinizi biliyorsanız planlı davetleri kullan
 
 Azure portalda davet göndermek için aşağıdaki adımları izleyin.
 
-1. [Azure portalda](https://portal.azure.com) **Azure Active Directory**'yi seçin.
+1. [Azure portalda](https://portal.azure.com)**Azure Active Directory**'yi seçin.
 
 1. **Yönet** bölümünde **Kullanıcılar** > **Tüm kullanıcılar** > **Yeni konuk kullanıcı**'yı seçin.
 
@@ -88,7 +88,7 @@ Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının d
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Konuk kullanıcıya Power BI Pro lisansı atama
 
-Konuk kullanıcıya kiracınızdaki bir Power BI Pro lisansının atanması, konuk kullanıcının kiracıdaki içeriği görüntülemesine olanak sağlar.
+Konuk kullanıcıya kiracınızdaki bir Power BI Pro lisansının atanması, konuk kullanıcının kiracıdaki içeriği görüntülemesine olanak sağlar. Lisansları atama hakkında daha fazla bilgi için bkz. [Lisanslar sayfasında kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Konuk kullanıcılara Pro lisansları atamadan önce, Microsoft'la aranızdaki sözleşmenin koşullarına uyduğunuzdan emin olmak için Microsoft hesap temsilcinize ulaşın.
 
 ![Kiracınızdaki bir Pro lisansını atama ile konuk kullanıcı deneyiminin grafiği.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
@@ -98,7 +98,7 @@ Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansın
 
 ![Kendi lisansını getiren kullanıcılarla konuk kullanıcı deneyiminin diyagramı.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
-## <a name="guest-users-who-can-edit-and-manage-content"></a>İçeriği düzenleyebilen ve yönetebilen konuk kullanıcılar 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>İçeriği düzenleyebilen ve yönetebilen konuk kullanıcılar
 
 [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini kullanırken, belirtilen konuk kullanıcılar kuruluşunuzun Power BI'ına erişim elde eder. İzinleri olan tüm içeriği görebilirler. Giriş'e erişebilir, çalışma alanlarına göz atabilir, uygulamaları yükleyebilir, erişim listesinde bulundukları yeri görebilir ve çalışma alanları içeriğine katkıda bulunabilir. Yeni çalışma alanı deneyiminin kullanıldığı çalışma alanları oluşturabilir ve bu çalışma alanlarının Yöneticisi olabilir. Bazı sınırlamalar geçerlidir. Önemli Noktalar ve Sınırlamalar bölümünde bu kısıtlamalar listelenir.
  

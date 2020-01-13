@@ -9,10 +9,10 @@ ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73859247"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Öğretici: VM’de Power BI Rapor Sunucusu web portalını keşfetme
@@ -206,7 +206,7 @@ Sayfalandırılmış raporları görüntüleyip yönetebilir ve web portalından
 
     Burada, varsayılan ayarları değiştirmeden diğer parametrelerle birlikte söz konusu parametreyi değiştirebilirsiniz.
 
-1. **Sipariş** **SO48339** > **Raporu Görüntüle**’yi seçin.
+1. **Sipariş** **SO48339** > **Raporu Görüntüle**'yi seçin.
 
 4. Bunun 1/2 numaralı sayfa olduğunu görürsünüz. İkinci sayfayı görmek için sağ oku seçin. Tablo bu sayfadan devam eder.
 

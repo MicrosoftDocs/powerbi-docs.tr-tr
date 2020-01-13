@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74565675"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI ile Project Web App’e bağlanma
@@ -44,7 +44,7 @@ Power BI için [Project Web App Şablon Uygulaması](https://appsource.microsoft
 7. **Project Web App URL’si** metin kutusuna bağlanmak istediğiniz Project Web App’in (PWA) URL’sini girin.  Özel bir etki alanına sahipseniz bu URL'nin örnektekinden farklı olabileceğini göz önünde bulundurun. **PWA Site Dili** metin kutusuna, PWA site dilinize karşılık gelen numarayı yazın. İngilizce için tek basamaklı '1', Fransızca için '2', Almanca için '3', Portekizce (Brezilya) için '4', Portekizce (Portekiz) için '5' ve İspanyolca için '6' yazın. 
    
    ![Microsoft Project Online’a bağlanma](media/service-connect-to-project-online/params.png)
-8. Kimlik Doğrulama Yöntemi için **OAuth2** \> **Oturum aç** seçeneğini belirleyin. İstendiğinde Project Web App kimlik bilgilerinizi girin ve kimlik doğrulama işlemindeki diğer adımları uygulayın.
+8. Kimlik Doğrulama Yöntemi için **oAuth2** \> **Oturum Aç**'ı seçin. İstendiğinde Project Web App kimlik bilgilerinizi girin ve kimlik doğrulama işlemindeki diğer adımları uygulayın.
 
     > [!NOTE]
     > Bağlandığınız Project Web App için Portföy Görüntüleyicisi, Portföy Yöneticisi veya Yönetici izinlerine sahip olmanız gerekir.

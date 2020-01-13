@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873649"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
@@ -48,7 +48,7 @@ Power BI hesabınızda kullandığınız depolama alanı miktarını görün ve 
 1. Kendi depolama alanınızı yönetmek için gezinti bölmesinde **Çalışma Alanım**’a gidin.
    
     ![Çalışma Alanım](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Sağ üst köşedeki dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \>  **Kişisel depolama alanını yönet**'i seçin.
+2. Sağ üst köşedeki dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \> **Kişisel depolama alanını yönet**'i seçin.
    
     Üst taraftaki çubukta, depolama alanınızın ne kadarını kullandığınız gösterilir.
    
@@ -58,7 +58,7 @@ Power BI hesabınızda kullandığınız depolama alanı miktarını görün ve 
    
     **Bana ait:** Bunlar, Salesforce ve Dynamics CRM gibi hizmet veri kümeleri de dahil olmak üzere Power BI hesabınıza sizin yüklediğiniz raporlar ve veri kümeleridir.  
     **Diğerlerine ait:** Başkalarının sizinle paylaştığı raporlar ve veri kümeleridir.
-1. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)geçin.
+1. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağlı olabileceğini unutmayın. İlgili veri kümesini silerseniz bağlı raporlar ve panolar artık çalışmaz.
 
@@ -76,7 +76,7 @@ Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağl
    
     **Bize ait:** Bunlar, Salesforce ve Dynamics CRM gibi hizmet veri kümeleri de dahil olmak üzere grubun Power BI hesabına sizin yüklediğiniz veya başka birinin yüklediği raporlar ve veri kümeleridir.
     **Diğerlerine ait:** Başkalarının grubunuzla paylaştığı raporlar ve veri kümeleridir.
-3. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png)geçin.
+3. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Çalışma alanında düzenleme izinlerine sahip olan tüm üyeler çalışma alanındaki veri kümelerini ve raporları silme izinlerine de sahip olur.

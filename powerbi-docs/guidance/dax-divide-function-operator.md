@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695209"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304183"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
 
@@ -58,7 +58,7 @@ Paydanın sıfır veya BOŞLUK _döndürebilecek_ bir ifade olduğu her durumda 
 
 Paydanın sabit değer olduğu durumlarda bölme işlecini kullanmanızı öneririz. Bu durumda bölmenin başarılı olması garanti edilir ve ifadeniz gereksiz testten kaçınacağı için daha iyi bir performans gösterir.
 
-DIVIDE işlevinin alternatif değer döndürüp döndürmeyeceğini dikkatli bir şekilde düşünün. Ölçümler için, anlamlı bir sonucun hesaplanamadığı durumlarda genellikle BOŞLUK döndürülmesi daha iyi bir tasarımdır. Daha fazla bilgi için bkz. [BOŞLUK'ları değerlere dönüştürmekten kaçınma](dax-avoid-converting-blank.md).
+DIVIDE işlevinin alternatif değer döndürüp döndürmeyeceğini dikkatli bir şekilde düşünün. Ölçüler için bu genellikle BOŞLUK döndürmesinden daha iyi bir tasarımdır. Özetlemeler BOŞLUK olduğunda rapor görselleri varsayılan olarak gruplandırmaları ortadan kaldırdığından, BOŞLUK döndürmesi daha iyidir. Bu sayede görsel verilerin bulunduğu gruplara odaklanabilir. Gerektiğinde [Veri içermeyen öğeleri göster](../desktop-show-items-no-data.md) seçeneğini etkinleştirerek filtre bağlamındaki tüm grupları (değer veya BOŞLUK döndürenler) görüntüleyecek şekilde görseli yapılandırabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869125"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
@@ -23,12 +23,12 @@ Birden çok tabloyu içeri aktardığınızda, çözümleme yaparken büyük ola
 Aynı anda iki veya daha fazla tablo sorgularsanız veriler yüklendiğinde Power BI Desktop, sizin yerinize bu ilişkileri bulup oluşturmayı dener. Kardinalite, Çapraz filtre yönü ve Etkin özellikler otomatik olarak ayarlanır. Power BI Desktop, olası bir ilişki olup olmadığını belirlemek için, sorguladığınız tablolardaki sütun adlarına bakar. Böyle bir olasılık söz konusuysa bu ilişkiler otomatik olarak oluşturulur. Power BI Desktop bir eşleşme olduğundan tam olarak emin değilse ilişki otomatik olarak oluşturulmaz. İlişki oluşturmak veya ilişkileri düzenlemek için İlişkileri Yönet iletişim kutusunu kullanmaya devam edebilirsiniz.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Otomatik Algıla özelliğini kullanarak ilişki oluşturma
-**Giriş** sekmesinde **İlişkileri Yönet**\>**Otomatik Algıla**'ya tıklayın.
+**Giriş** sekmesinde **İlişkileri Yönet** \> **Otomatik Algıla**'ya tıklayın.
 
 ![](media/desktop-create-and-manage-relationships/automaticrelationship.gif)
 
 ## <a name="create-a-relationship-manually"></a>Elle ilişki oluşturma
-1. **Giriş** sekmesinde **İlişkileri Yönet**\>**Yeni**'ye tıklayın.
+1. **Giriş** sekmesinde **İlişkileri Yönet** \> **Yeni**'ye tıklayın.
 2. **İlişki Oluştur** iletişim kutusundaki birinci tablonun açılan listesinde bir tablo seçin ve ardından ilişkide kullanmak istediğiniz sütunu seçin.
 3. İkinci tablonun açılan listesinde, ilişkide olmasını istediğiniz diğer tabloyu seçin, ardından kullanmak istediğiniz diğer sütunu seçip **Tamam**'a tıklayın.
 
@@ -80,7 +80,7 @@ Belirli bir ilişkinin ne zaman etkin hale getirileceği hakkında daha fazla bi
 Power BI Desktop'ta ilişkilerin nasıl çalıştığını daha iyi anlamanız için hızlı bir öğretici uygulayalım.
 
 >[!TIP]
->Bu eğitimi kendiniz tamamlayabilirsiniz. Aşağıdaki ProjectHours tablosunu bir Excel çalışma sayfasına kopyalayın, tüm hücreleri seçin, **EKLE**\>**Tablo**'ya tıklayın. **Tablo Oluştur** iletişim kutusunda, yalnızca **Tamam**'a tıklayın. Ardından, **Tablo Adı**'na **ProjectHours** yazın. Aynı işlemleri CompanyProject tablosu için de tekrarlayın. Ardından, Power BI Desktop'ta **Veri Al**'ı kullanarak verileri içeri aktarabilirsiniz. Veri kaynağı olarak çalışma kitabı ve tablolarınızı seçin.
+>Bu eğitimi kendiniz tamamlayabilirsiniz. Aşağıdaki ProjectHours tablosunu bir Excel çalışma sayfasına kopyalayın, tüm hücreleri seçin, **EKLE** \> **Tablo**'ya tıklayın. **Tablo Oluştur** iletişim kutusunda, yalnızca **Tamam**'a tıklayın. Ardından, **Tablo Adı**'na **ProjectHours** yazın. Aynı işlemleri CompanyProject tablosu için de tekrarlayın. Ardından, Power BI Desktop'ta **Veri Al**'ı kullanarak verileri içeri aktarabilirsiniz. Veri kaynağı olarak çalışma kitabı ve tablolarınızı seçin.
 
 ProjectHours adlı birinci tablo, bir kişinin belirli bir projede çalıştığı sürenin saat cinsinden kaydedildiği bir iş kartı kaydıdır. 
 
@@ -88,17 +88,17 @@ ProjectHours adlı birinci tablo, bir kişinin belirli bir projede çalıştığ
 
 | **Ticket** | **SubmittedBy** | **Hours** | **Project** | **DateSubmit** |
 | ---:|:--- | ---:|:--- | ---:|
-| 1001 |Brewer, Alan |22 |Blue |1/1/2013 |
+| 1001 |Brewer, Alan |22 |Mavi |1/1/2013 |
 | 1002 |Brewer, Alan |26 |Red |2/1/2013 |
 | 1003 |Ito, Shu |34 |Yellow |12/4/2012 |
-| 1004 |Brewer, Alan |13 |Orange |1/2/2012 |
-| 1005 |Bowen, Eli |29 |Purple |10/1/2013 |
-| 1006 |Bento, Nuno |35 |Green |2/1/2013 |
-| 1007 |Hamilton, David |10 |Yellow |10/1/2013 |
+| 1004 |Brewer, Alan |13 |Turuncu |1/2/2012 |
+| 1005 |Bowen, Eli |29 |Purple |1/10/2013 |
+| 1006 |Bento, Nuno |35 |Yeşil |2/1/2013 |
+| 1007 |Hamilton, David |10 |Yellow |1/10/2013 |
 | 1008 |Han, Mu |28 |Orange |1/2/2012 |
 | 1009 |Ito, Shu |22 |Purple |2/1/2013 |
-| 1010 |Bowen, Eli |28 |Green |10/1/2013 |
-| 1011 |Bowen, Eli |9 |Blue |10/15/2013 |
+| 1010 |Bowen, Eli |28 |Yeşil |10/1/2013 |
+| 1011 |Bowen, Eli |9 |Mavi |10/15/2013 |
 
 CompanyProject adlı bu ikinci tablo A, B veya C olmak üzere atanmış bir önceliğe sahip projelerin listesidir. 
 
@@ -106,12 +106,12 @@ CompanyProject adlı bu ikinci tablo A, B veya C olmak üzere atanmış bir önc
 
 | **ProjName** | **Priority** |
 | --- | --- |
-| Blue |A |
+| Mavi |A |
 | Red |B |
-| Green |C |
+| Yeşil |C |
 | Yellow |C |
 | Purple |B |
-| Orange |C |
+| Turuncu |C |
 
 Her tabloda bir proje sütunu olduğuna dikkat edin. Her biri farklı adlandırılmış olsa da değerler aynı gibi görünür. Bu önemli bir noktadır ve buna birazdan geri döneceğiz.
 
@@ -184,20 +184,20 @@ Aşağıdaki CompanyProjectPriority tablosu, tüm şirket projelerinin ve proje 
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 |:--- | ---:| ---:|
-| Blue |40,000 |12/1/2012 |
+| Mavi |40,000 |12/1/2012 |
 | Red |100,000 |12/1/2012 |
-| Green |50,000 |12/1/2012 |
+| Green |50.000 |12/1/2012 |
 
 **CompanyProjectPriority**
 
 | **Project** | **Priority** |
 | --- | --- |
-| Blue |A |
+| Mavi |A |
 | Red |B |
-| Green |C |
+| Yeşil |C |
 | Yellow |C |
 | Purple |B |
-| Orange |C |
+| Turuncu |C |
 
 CompanyProjectPriority tablosundaki Project sütunu ile ProjectBudget tablosundaki ApprovedProjects sütunu arasında bir ilişki oluşturursak aşağıdaki gibi görünür:
 
@@ -208,11 +208,11 @@ Kardinalite otomatik olarak Tek - Tek (1:1) ve çapraz filtreleme yönü Her iki
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
 | Blue |A |40,000 |12/1/2012 |
-| Red |B |100,000 |12/1/2012 |
-| Green |C |50,000 |12/1/2012 |
+| Red |B |100.000 |12/1/2012 |
+| Yeşil |C |50,000 |12/1/2012 |
 | Yellow |C |<br /> |<br /> |
 | Purple |B |<br /> |<br /> |
-| Orange |C |<br /> |<br /> |
+| Turuncu |C |<br /> |<br /> |
 
 Birleştirilen tablonun Project sütununda yinelenen değer olmaması nedeniyle, iki tablomuz arasında tek - tek türünde bir ilişki bulunur. Project sütunu, her değer yalnızca bir kez kullanıldığı için benzersizdir. Bu nedenle, bu iki tablodaki satırlar herhangi bir çoğaltma olmadan doğrudan birleştirilebilir.
 
@@ -222,10 +222,10 @@ Ancak, sonraki yenilemede verilerin değişeceğini bildiğinizi varsayalım. Pr
 
 | **Approved Projects** | **BudgetAllocation** | **AllocationDate** |
 | --- | ---:| ---:|
-| Blue |40,000 |12/1/2012 |
+| Mavi |40,000 |12/1/2012 |
 | Red |100,000 |12/1/2012 |
-| Green |50,000 |12/1/2012 |
-| Blue |80,000 |6/1/2013 |
+| Green |50.000 |12/1/2012 |
+| Mavi |80,000 |6/1/2013 |
 | Red |90,000 |6/1/2013 |
 
  Başka bir deyişle, bu iki tablonun en iyi birleşimi artık şu şekildedir: 
@@ -233,12 +233,12 @@ Ancak, sonraki yenilemede verilerin değişeceğini bildiğinizi varsayalım. Pr
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
 | Blue |A |40,000 |12/1/2012 |
-| Red |B |100,000 |12/1/2012 |
-| Green |C |50,000 |12/1/2012 |
+| Red |B |100.000 |12/1/2012 |
+| Yeşil |C |50,000 |12/1/2012 |
 | Yellow |C |<br /> |<br /> |
 | Purple |B |<br /> |<br /> |
-| Orange |C |<br /> |<br /> |
-| Blue |A |80000 |6/1/2013 |
+| Turuncu |C |<br /> |<br /> |
+| Mavi |A |80000 |6/1/2013 |
 | Red |B |90000 |6/1/2013 |
 
 Bu yeni birleşik tabloda, Project sütunu yineleyen değerler içeriyor. Tablo yenilendikten sonra bu iki özgün tabloda tek - tek türünde ilişki olmaz. Bu durumda, gelecekteki güncelleştirmelerin Project sütununda yinelemelere neden olacağını bildiğimiz için, Kardinalite ayarını ProjectBudget tarafı Çok ve CompanyProject tarafı Tek olacak şekilde Çok - Tek (\*:1) olarak ayarlamamız gerekir.
@@ -290,17 +290,17 @@ Bir örneğe göz atalım. Birinci tablo ProjectTickets, ikinci tablo ise Employ
 
 | **Ticket** | **OpenedBy** | **SubmittedBy** | **Hours** | **Project** | **DateSubmit** |
 | ---:|:--- |:--- | ---:|:--- | ---:|
-| 1001 |Perham, Tom |Brewer, Alan |22 |Blue |1/1/2013 |
+| 1001 |Perham, Tom |Brewer, Alan |22 |Mavi |1/1/2013 |
 | 1002 |Roman, Daniel |Brewer, Alan |26 |Red |2/1/2013 |
 | 1003 |Roth, Daniel |Ito, Shu |34 |Yellow |12/4/2012 |
-| 1004 |Perham, Tom |Brewer, Alan |13 |Orange |1/2/2012 |
-| 1005 |Roman, Daniel |Bowen, Eli |29 |Purple |10/1/2013 |
-| 1006 |Roth, Daniel |Bento, Nuno |35 |Green |2/1/2013 |
-| 1007 |Roth, Daniel |Hamilton, David |10 |Yellow |10/1/2013 |
+| 1004 |Perham, Tom |Brewer, Alan |13 |Turuncu |1/2/2012 |
+| 1005 |Roman, Daniel |Bowen, Eli |29 |Purple |1/10/2013 |
+| 1006 |Roth, Daniel |Bento, Nuno |35 |Yeşil |2/1/2013 |
+| 1007 |Roth, Daniel |Hamilton, David |10 |Yellow |1/10/2013 |
 | 1008 |Perham, Tom |Han, Mu |28 |Orange |1/2/2012 |
 | 1009 |Roman, Daniel |Ito, Shu |22 |Purple |2/1/2013 |
-| 1010 |Roth, Daniel |Bowen, Eli |28 |Green |10/1/2013 |
-| 1011 |Perham, Tom |Bowen, Eli |9 |Blue |10/15/2013 |
+| 1010 |Roth, Daniel |Bowen, Eli |28 |Yeşil |10/1/2013 |
+| 1011 |Perham, Tom |Bowen, Eli |9 |Mavi |10/15/2013 |
 
 **EmployeeRole**
 

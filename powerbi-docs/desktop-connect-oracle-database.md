@@ -6,62 +6,62 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 11/20/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c91095cf321fed56a0cb1c3c6bd1113f380a524
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878507"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223332"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
-**Power BI Desktop**'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklü Power BI Desktop sürümüne göre değişiklik gösterir: **32 bit** sürüm veya **64 bit** sürüm.
+Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit.
 
-**Desteklenen sürümler**: Oracle 9 ve sonraki sürümler, Oracle istemci yazılımı 8.1.7 ve sonraki sürümler.
+Desteklenen Oracle sürümleri: 
+- Oracle 9 ve üstü
+- Oracle istemci yazılımı 8.1.7 ve üstü
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirleme
-Power BI Desktop’ın hangi sürümünün yüklü olduğunu belirlemek için **Dosya > Yardım > Hakkında**’yı seçip **Sürüm:** satırına bakın. Aşağıdaki resimde Power BI Desktop'ın 64 bit sürümü yüklüdür:
+Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirlemek için **Dosya** > **Yardım** > **Hakkında**'yı seçip **Sürüm** satırına bakın. Aşağıdaki resimde Power BI Desktop'ın 64 bit sürümü yüklüdür:
 
-![](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
+![Power BI Desktop sürümü](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
 ## <a name="installing-the-oracle-client"></a>Oracle istemcisini yükleme
-Power BI Desktop'ın **32 bit** sürümü için, **32 bit** Oracle istemcisini indirip yüklemek amacıyla aşağıdaki bağlantıyı kullanın:
+- Power BI Desktop'ın 32 bit sürümü için [32 bit Oracle istemcisini indirip yükleyin](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html).
 
-* [Oracle Developer Tools for Visual Studio (12.1.0.2.4) ile 32 bit Oracle Data Access Components (ODAC)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-Power BI Desktop'ın **64 bit** sürümü için, **64 bit** Oracle istemcisini indirip yüklemek üzere aşağıdaki bağlantıyı kullanın:
-
-* [Windows x64 için 64 bit ODAC 12c Sürüm 4 (12.1.0.2.4)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+- Power BI Desktop'ın 64 bit sürümü için [64 bit Oracle istemcisini indirip yükleyin](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html).
 
 ## <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına bağlanabilirsiniz. Bağlantı kurmak için aşağıdaki adımları uygulayın:
 
-1. Veri Al penceresinde **Veritabanı > Oracle Veritabanı**'nı seçin
+1. **Giriş** sekmesinde **Veri Al**'ı seçin. 
+
+2. Görüntülenen **Veri Al** penceresinde **Diğer**'i seçin (gerekirse), **Veritabanı** > **Oracle veritabanı**'nı seçin ve sonra da **Bağlan**'ı seçin.
    
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Açılan **Oracle Veritabanı** iletişim kutusuna sunucu adını girip **Bağlan**'ı seçin. SID gerekiyorsa şu biçimi kullanarak belirtebilirsiniz: *SunucuAdı/SID*, burada SID veritabanının benzersiz adıdır. *SunucuAdı/SID* biçimi işe yaramıyorsa, HizmetAdı’nın bağlanırken kullanılan diğer ad olduğu *SunucuAdı/HizmetAdı*’nı kullanmayı deneyin.
+   ![Oracle veritabanına bağlanma](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
+2. Görüntülenen **Oracle veritabanı** iletişim kutusuna **Sunucu** adını girip **Tamam**'ı seçin. SID gerekiyorsa şu biçimi kullanarak bu değeri belirtin: *SunucuAdı/SID*; burada *SID* veritabanının benzersiz adıdır. *SunucuAdı/SID* biçimi işe yaramıyorsa *SunucuAdı/HizmetAdı* biçimini kullanın. Burada *HizmetAdı* bağlanmak için kullandığınız diğer addır.
 
 
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+   ![Oracle sunucu adını girin](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
    > [!TIP]
-   > Bu adımda bağlanma ile ilgili bir sorun yaşıyorsanız Sunucu Adı alanında aşağıdaki biçimi kullanmayı deneyin: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   > Bu adımda bağlanma ile ilgili bir sorun yaşıyorsanız **Sunucu** alanında aşağıdaki biçimi kullanmayı deneyin: *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=konak_adı)(PORT=bağlantı_noktası_numarası))(CONNECT_DATA=(SERVICE_NAME=hizmet_adı)))*
    
-3. Yerel veritabanı sorgusu kullanarak veri içeri aktarmak istiyorsanız sorgunuzu **SQL Deyimi** kutusuna girebilirsiniz. Bu kutuya ulaşmak için **Oracle Veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.
+3. Yerel veritabanı sorgusu kullanarak verileri içeri aktarmak istiyorsanız sorgunuzu **SQL deyimi** kutusuna girin. Bu kutuya ulaşmak için **Oracle veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.
    
-   ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. Oracle Veritabanı iletişim kutusuna Oracle veritabanı bilgilerini (SID veya yerel veritabanı sorgusu gibi isteğe bağlı bilgiler dahil) girdikten sonra bağlanmak için **Tamam**'ı seçin.
+   ![Gelişmiş seçenekleri genişletme](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
+4. **Oracle veritabanı** iletişim kutusuna Oracle veritabanı bilgilerinizi (SID veya yerel veritabanı sorgusu gibi isteğe bağlı bilgiler dahil) girdikten sonra bağlanmak için **Tamam**'ı seçin.
 5. Oracle veritabanı için veritabanı kullanıcısı kimlik bilgileri gerekiyorsa açılan iletişim kutusuna bu bilgileri girin.
 
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hatasından dolayı Oracle veritabanlarına bağlanamayabilirsiniz. Bu sorunla karşılaşırsanız, "Nesne başvurusu ayarlanmadı" hata iletisi döndürülür. Sorunu gidermek için aşağıdakilerden birini yapın:
+Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hatasından dolayı Oracle veritabanlarına bağlanamayabilirsiniz. Bu sorunla karşılaşırsanız, şu hata iletisi döndürülür: *Nesne başvurusu ayarlanmadı*. Sorunu gidermek için aşağıdakilerden adımlardan birini uygulayın:
 
-* Power BI Desktop'ı Store yerine https://powerbi.microsoft.com/desktop 'dan indirin.
+* Power BI Desktop'ı Microsoft Store yerine [İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden indirin.
 
-* Microsoft Store'daki sürümü kullanmak istiyorsanız, yerel bilgisayarınızda oraons.dll dosyasını _12.X.X\client_X_ klasöründen _12.X.X\client_X\bin_ klasörüne kopyalayın. Burada X, sürüm ve dizin numaralarını temsil eder.
+* Microsoft Store'daki sürümü kullanmak istiyorsanız, yerel bilgisayarınızda oraons.dll dosyasını _12.X.X\client_X_ klasöründen _12.X.X\client_X\bin_ klasörüne kopyalayın; burada _X_, sürüm ve dizin numaralarını gösterir.
 
-Bir Oracle Database’e bağlanırken Power BI Gateway’de *Nesne başvurusu ayarlanmadı* hata iletisini alırsanız, [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md) makalesindeki yönergeleri izleyerek bu sorunu çözebilirsiniz.
+Bir Oracle veritabanına bağlanırken Power BI Gateway’de *Nesne başvurusu ayarlanmadı* hata iletisini görürseniz, [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md) makalesindeki yönergeleri izleyin.

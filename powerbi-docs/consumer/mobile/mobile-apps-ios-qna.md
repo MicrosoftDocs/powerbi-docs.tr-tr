@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879374"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219606"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -33,53 +33,16 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-### <a name="install-the-power-bi-for-ios-app"></a>iOS için Power BI uygulamasını yükleme
-App Store'a giderek iPad, iPhone veya iPod Touch'ınıza [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iPhone uygulamasını indirin").
-
+* **iOS için Power BI uygulamasını yükleme**: iPhone veya iPad'inize [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062).
 iOS için Power BI uygulamasını şu sürümler destekler:
-- iOS 10 veya sonraki sürümünü çalıştıran iPad.
-- iOS 10 veya sonraki sürümünü çalıştıran iPhone 5 ve üstü. 
-- iOS 10 veya sonraki sürümünü çalıştıran iPod Touch.
+    * iOS 11 veya sonraki sürümünü çalıştıran iPad.
+    * iOS 11 veya sonraki sürümünü çalıştıran iPhone 5 ve üstü.
+* **Perakende Analizi ve Fırsat Analizi Örneklerini indirme**: Bu hızlı başlangıcın ilk adımı, Power BI hizmetinde Perakende Analizi ve Fırsat Analizi örneklerini indirmektir. Çalışmaya başlamak için Power BI hesabınızda [Örneği indirmeyi öğrenin](./mobile-apps-download-samples.md). Perakende Analizi Örneğini ve Fırsat Analizi Örneğini seçtiğinizden emin olun.
 
-### <a name="download-samples"></a>Örnekleri indirme
-İlk adım, Power BI hizmetindeki Perakende Analizi ve Fırsat Analizi örneklerini indirmektir.
-
-**Perakende Analizi örneğini alın**
-
-1. Power BI hizmeti (app.powerbi.com) sayfasına gidin ve oturum açın.
-
-2. Gezinti bölmesinde **Çalışma Alanları**, **Çalışma Alanım**’ı seçin.
-
-3. Sol alt köşedeki **Veri Al** seçeneğini belirleyin.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. Veri Al sayfasında **Örnekler** simgesini seçin.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. **Perakende Analizi Örneği**’ni seçin.
- 
-    ![Perakende Analizi Örneği](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. **Bağlan**'ı seçin.  
-  
-   ![Perakende Analizi Örneği](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI, içerik paketini içeri aktarır ve geçerli çalışma alanınıza yeni bir pano, rapor ve veri kümesi ekler.
-   
-   ![Perakende Analizi Örneği](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Fırsat Analizi örneğini alın**
-
-- Perakende Analizi örneği için uyguladığınız adımları yineleyin; ancak bu kez 4. Adımda **Fırsat Analizi örneğini** seçin.
-
-    ![Perakende Analizi Örneği](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-Örnekleriniz iOS cihazınızda görüntülenmeye hazırdır.
+Önkoşulları tamamladıktan sonra Soru-Cevap sanal analistini denemeye hazırsınız.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>iPhone'unuzda veya iPad'inizde sorular sorma
-1. iPhone veya iPad cihazınızda genel gezinti düğmesine ![Genel gezinti düğmesi](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Çalışma Alanları** > **Çalışma Alanım**’a dokunun ve Perakende Analizi Örneği panosunu açın.
+1. iPhone veya iPad'inizdeki alt gezinti çubuğunda Çalışma Alanları düğmesine ![çalışma alanları düğmesi](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png)dokunun, Çalışma Alanım'a gidin ve Perakende Analizi Örneği panosunu açın.
 
 2. Sayfanın altındaki eylem menüsünde bulunan Soru-Cevap sanal analisti simgesine ![Soru-Cevap sanal analisti simgesi](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) dokunun (iPad cihazında sayfanın üstünde).
      Soru-Cevap sanal analisti, başlamanız için bazı öneriler sunar.

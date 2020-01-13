@@ -1,22 +1,22 @@
 ---
 title: Power BI mobil uygulamalarında raporları araştırma
 description: Telefonunuzdaki veya tabletinizdeki Power BI mobil uygulamalarında bulunan raporları görüntüleme ve bu raporlarla etkileşim kurma hakkında bilgi edinin. Power BI hizmetinde veya Power BI Desktop'ta oluşturduğunuz raporlarla daha sonra mobil uygulamalarda etkileşimli çalışırsınız.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869756"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220762"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android telefon](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android tablet](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 cihazları](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
@@ -96,29 +96,43 @@ Rapor alt bilgisinden, geçerli rapor sayfasında veya raporun tamamında çeşi
 ![Rapor alt bilgisi](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 Alt bilgiden şu eylemleri gerçekleştirebilirsiniz:
-- Rapor filtresini sıfırlama ve seçimlerin çapraz vurgulamasını özgün durumuna döndürme.
-- Raporda açıklamaları görüntülemek ve açıklama eklemek için konuşma bölmesini açma.
-- Rapora şu anda uygulanmış durumda olan filtreyi görüntülemek veya değiştirmek için filtre bölmesini açma.
-- Rapordaki tüm sayfaları listeleme. Sayfa adına dokunulduğunda o sayfa yüklenir ve gösterilir.
+* Rapor filtresini sıfırlama ve seçimlerin çapraz vurgulamasını özgün durumuna döndürme.
+* Raporda açıklamaları görüntülemek ve açıklama eklemek için konuşma bölmesini açma.
+* Rapora şu anda uygulanmış durumda olan filtreyi görüntülemek veya değiştirmek için filtre bölmesini açma.
+* Rapordaki tüm sayfaları listeleme. Sayfa adına dokunulduğunda o sayfa yüklenir ve gösterilir.
 Ekranınızın kenarından ortaya doğru çekerek rapor sayfaları arasında geçiş yapabilirsiniz.
-- Tüm rapor eylemlerini görüntüleme.
+* Tüm rapor eylemlerini görüntüleme.
 
 #### <a name="all-report-actions"></a>Tüm rapor eylemleri
 Rapor alt bilgisinde **Diğer seçenekler** (...) düğmesine dokunduğunuzda rapor üzerinde gerçekleştirebileceğiniz tüm eylemleri görürsünüz:
 
 
-![Tüm rapor eylemleri](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Tüm rapor eylemleri](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 Bazı eylemler belirli rapor özelliklerine bağımlı olduğundan devre dışı bırakılabilir.
 Örnek:
+
+**Yer İşaretleri**'nin var olması için raporda [yer işaretlerinin](mobile-reports-in-the-mobile-apps.md#bookmarks) ayarlanmış olması gerekir. Hem Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretleri hem de rapor oluşturucusu tarafından tanımlanan yer işaretleri gösterilir. Yer işaretlerinden biri varsayılan yer işareti olarak tanımlandıysa, rapor yüklendiğinde söz konusu görünümde açılır.
+
+Kuruluşunuzda Power BI mobil uygulamasından paylaşımı yasaklayan bir [Intune koruma ilkesi](https://docs.microsoft.com/intune/app-protection-policies) varsa **Not ekle ve paylaş** seçeneği kapalı olabilir.
+
+**Davet et** seçeneğinin etkinleştirilmesi için raporu başkalarıyla paylaşma izninizin olması gerekir. İzninizin olması için de raporun sahibi olmalısınız veya raporun sahibi size yeniden paylaşım izni vermiş olmalıdır.
 
 Rapor yazarı raporu coğrafi verilere göre kategorilere ayrılmışsa **Geçerli konuma göre filtrele** seçeneği etkinleştirilir. Daha fazla bilgi için [rapordaki coğrafi verileri tanımlama](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) konusunu okuyun.
 
 **Raporu barkoda göre filtrelemek için tara** seçeneğinin etkinleştirilmesi için raporunuzdaki veri kümesinin **Barkod** olarak etiketlenmiş olması gerekir. Daha fazla bilgi için [Power BI Desktop'ta barkodları etiketleme](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) konusunu okuyun.
 
-**Davet et** seçeneğinin etkinleştirilmesi için raporu başkalarıyla paylaşma izninizin olması gerekir. İzninizin olması için de raporun sahibi olmalısınız veya raporun sahibi size yeniden paylaşım izni vermiş olmalıdır.
+### <a name="bookmarks"></a>Yer imleri
 
-Kuruluşunuzda Power BI mobil uygulamasından paylaşımı yasaklayan bir [Intune koruma ilkesi](https://docs.microsoft.com/intune/app-protection-policies) varsa **Not ekle ve paylaş** seçeneği kapalı olabilir.
+Power BI mobil uygulaması hem rapor oluşturucusunun tanımladığı rapor yer işaretlerini hem de Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretlerini destekler. Yer işaretleri menüsünü [rapor eylemleri araç çubuğunda](mobile-reports-in-the-mobile-apps.md#all-report-actions) **Diğer seçenekler**'in (...) altında bulabilirsiniz.
+
+![yer işareti menüsü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı raporun en üstünde gösterilir.
+
+![yer işareti görünümü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)

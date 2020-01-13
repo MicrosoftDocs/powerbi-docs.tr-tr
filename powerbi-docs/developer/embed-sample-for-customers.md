@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311088"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223425"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -435,6 +435,8 @@ Daha fazla bilgi için [Tümleşik analiz kapasite planlaması teknik incelemesi
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye çalışma alanı atama
 
 Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz.
+
+Eklenen içerikle (veri kümeleri, raporlar ve panolar dahil) ilgili Power BI kaynaklarını içeren tüm çalışma alanları ayrılmış kapasitelere atanmalıdır. Örneğin eklenen rapor ve ona bağlı olan veri kümesi farklı çalışma alanlarında bulunuyorsa, her iki çalışma alanı da ayrılmış kapasitelere atanmalıdır.
 
 [Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id) kullandığınızdan emin olun.
 

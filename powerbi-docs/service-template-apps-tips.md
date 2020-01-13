@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099756"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622450"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -131,7 +131,7 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 * [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) belgelerine uyduğunuzdan emin olun.
 * Uygulamanızda bir pano varsa boş olmadığından emin olun.
 * Uygulamayı göndermeden önce uygulama bağlantısını kullanarak yükleyin; veri kümesini bağlayabildiğinizden ve uygulama deneyiminin planladığınız gibi olduğundan emin olun.
-* Şablon çalışma alanına bpix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
+* Şablon çalışma alanına pbix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
 * Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) izleyin.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 

@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871224"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları için kullanım ölçümlerini izleme
@@ -83,7 +83,7 @@ Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporları
 
 ## <a name="which-metrics-are-reported"></a>Hangi ölçümler raporda yer alır?
 
-| Ölçüm | Pano | Rapor | Açıklama |
+| Metric | Pano | Rapor | Açıklama |
 | --- | --- | --- | --- |
 | Distribution method dilimleyicisi |evet |evet |Kullanıcıların içeriğe erişme şekli. Bunun için 3 olası yöntem vardır. Kullanıcılar panoya veya rapora bir [çalışma alanına](consumer/end-user-experience.md) üye olarak, içeriğin [kendileriyle paylaşılması](service-share-dashboards.md) yoluyla veya bir içerik paketini/uygulamayı yükleyerek erişebilir.  Uygulamadan gerçekleştirilen görüntüleme işlemleri "içerik paketi" olarak değerlendirilir. |
 | Platforms dilimleyicisi |evet |evet |Panoya veya rapora Power BI hizmetinden (powerbi.com) mi yoksa mobil cihazdan mı erişim sağlandı? Mobile seçeneğine iOS, Android ve Windows uygulamalarımızın tamamı dahildir. |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876420"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304277"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop'ta Snowflake'e bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Snowflake** bilgi işlem ambarına bağlanabilir ve temel alınan verileri kullanabilirsiniz. 
@@ -42,9 +42,14 @@ Açılan **Snowflake** penceresindeki kutuya Snowflake bilgi işlem ambarınız�
 > 
 > 
 
+Microsoft hesabı seçeneğini kullanmak istiyorsanız, bu özellikten Özel Önizleme'yi birleştirme konusunda Snowflake yöneticinizin Snowflake'e ulaşmasını sağlayın.
+
+![Snowflake bağlayıcısında Microsoft hesabı kimlik doğrulaması türü.](media/desktop-connect-snowflake/connect-snowflake-6.png)
+
+
 Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya daha fazla öğe seçebilirsiniz.
 
-![](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC Bağlantı kurulamamasına neden olan 28000 Hatası.](media/desktop-connect-snowflake/connect_snowflake_5.png)
 
 Seçili tabloyu **Yüklemeyi** seçtiğinizde tablonun tamamı **Power BI Desktop**'a getirilir. Sorguyu **Düzenlemeyi** seçtiğinizde ise kullanmak istediğiniz veri kümesini filtreleyebileceğiniz ve iyileştirebileceğiniz, ardından, iyileştirilen bu veri kümesini **Power BI Desktop**'a yükleyebileceğiniz **Sorgu Düzenleyicisi** açılır.
 

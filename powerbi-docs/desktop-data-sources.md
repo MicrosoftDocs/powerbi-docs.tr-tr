@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410949"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222182"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -29,11 +29,9 @@ Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belir
 ![Veri Al düğmesi](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. 
+> Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. Ayrıca, **Power BI Desktop** için *Beta* veya *Önizleme* olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar **Power BI hizmetinde** veya diğer Microsoft hizmetlerinde kullanılamayabilir.
 
-> Ayrıca, **Power BI Desktop** için *Beta* veya *Önizleme* olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar **Power BI hizmetinde** veya diğer Microsoft hizmetlerinde kullanılamayabilir.
-
-## <a name="data-sources"></a>Veri Kaynakları
+## <a name="data-sources"></a>Veri kaynakları
 Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
 
 * Tümü
@@ -82,7 +80,7 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Vertica
 * Snowflake
 * Essbase
-* AtScale küpleri (Beta)
+* AtScale küpleri
 * BI Bağlayıcısı
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 * Power BI veri kümeleri
 * Power BI veri akışları
 * Common Data Service
-* Power Platform veri akışları (Beta)
+* Power Platform veri akışları
 
 Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -118,13 +116,14 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB
-* Azure Data Lake Storage 2. Nesil (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage 1. Nesil
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu
 * Azure Veri Gezgini (Kusto)
-* Azure Maliyet Yönetimi (Beta)
+* Azure Maliyet Yönetimi
+* Azure Time Series Insights (Beta)
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -209,7 +208,7 @@ Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmekt
 > [!NOTE]
 > Şu anda, güvenliği Azure Active Directory ile sağlanan özel veri kaynaklarına bağlanılamamaktadır.
 
-## <a name="connecting-to-a-data-source"></a>Veri Kaynaklarına Bağlanma
+## <a name="connecting-to-a-data-source"></a>Veri kaynağına bağlanma
 Bir veri kaynağına bağlanmak için **Veri Al** penceresinde söz konusu veri kaynağını seçin ve ardından **Bağlan** seçeneğini belirleyin. Aşağıdaki görüntüde, **Diğer** veri bağlantısı kategorisinde yer alan **Web** seçeneği belirlenmiştir.
 
 ![Web’e bağlanma](media/desktop-data-sources/data-sources-08.png)
@@ -236,7 +235,7 @@ Bir yazar .PBIDS dosyasını açtığında Power BI Desktop açılır ve kullan�
 
 Bu noktadan itibaren kullanıcı, görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için *Son kaynaklar*’ı yeniden ziyaret edebilir. 
 
-Şu anda .PBIDS dosyaları tek bir dosyada yalnızca tek bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır. 
+Şu anda .PBIDS dosyaları tek dosyada yalnızca bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır. 
 
 Yöneticiler, .PBIDS dosyası oluşturmak için tek bir bağlantıya yönelik gerekli girdileri belirtmelidir ve bağlantı modunu **DirectQuery** veya **İçeri Aktarma** olarak belirtebilir. Dosyada **mode** eksikse veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan DirectQuery veya İçeri Aktarma’yı seçmesi istenir. 
 

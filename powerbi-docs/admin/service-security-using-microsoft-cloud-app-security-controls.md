@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 18062c770b93bcd1295026d841f923a81c11d84f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851249"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548490"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI’da Microsoft bulut uygulaması güvenlik denetimlerini kullanma (önizleme)
 
@@ -77,10 +77,11 @@ Bu algılamaların ayarları Cloud App Security portalında yapılandırılır. 
 Power BI ile Microsoft Cloud App Security kullanılırken Power BI yöneticileri için yeni bir rol oluşturulur. [Cloud App Security portalında](https://portal.cloudappsecurity.com/) Power BI yöneticisi olarak oturum açtığınızda, Power-BI ile ilgili verilere, uyarılara, risk altındaki kullanıcılara, etkinlik günlüklerine ve diğer bilgilere erişiminiz sınırlıdır.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar 
-Power BI ile Cloud App Security kullanımı, kullanıcı oturumlarını ve etkinliklerini izleyen algılamalarla birlikte kuruluşunuzun içerik ve verilerinin güvenliğini sağlamaya yardımcı olmak için tasarlanmıştır. Power BI ile Cloud App Security kullanırken aklınızda tutmanız gereken birkaç sınırlama vardır:
+Power BI ile Cloud App Security kullanımı, kullanıcı oturumlarını ve etkinliklerini izleyen algılamalarla birlikte kuruluşunuzun içerik ve verilerinin güvenliğini sağlamaya yardımcı olmak için tasarlanmıştır. Power BI ile Cloud App Security kullanırken aklınızda tutmanız gereken bazı noktalar ve sınırlamalar vardır:
 
 * Microsoft Cloud App Security yalnızca Excel, PowerPoint ve PDF dosyalarında çalışabilir.
 * Power BI için oturum ilkelerinizde duyarlılık etiketleri özelliklerini kullanmak istiyorsanız, bir Azure Information Protection Premium P1 veya Premium P2 lisansına sahip olmanız gerekir. Microsoft Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın. Ayrıca, duyarlılık etiketlerinin Power BI varlıklarınıza uygulanmış olması gerekir.
+* Oturum denetimi her işletim sistemi üzerinde, her platforma her tarayıcı için kullanılabilir. Internet Explorer 11, Microsoft Edge (en son), Google Chrome (en son), Mozilla Firefox (en son) veya Apple Safari (en son) kullanmanızı öneririz. Power BI genel API çağrıları ve tarayıcı tabanlı olmayan diğer oturumlar, Microsoft Cloud App Security oturum denetiminin bir parçası olarak desteklenmez. [Ek ayrıntıları görüntüleyin](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
 > * Microsoft Cloud App Security üzerindeki *içerik denetleme* ilkesi şu anda bir Excel dosya ilkesi uygulanırken Power BI’da kullanılamamaktadır; bu nedenle bu ilkeyi Power BI için ayarlamayın.

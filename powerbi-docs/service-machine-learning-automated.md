@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f5fa262c01767ba934a10300e321796845d47c5f
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872116"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223800"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
 
@@ -32,7 +32,7 @@ Power BI’da AutoML, veri analistlerinin Power BI becerilerini kullanarak basit
 
 AutoML, veri akışları için **İkili Tahmin**, **Sınıflandırma** ve **Regresyon Modelleri**’nin oluşturulmasını destekler. Bunlar, denetimli makine öğrenmesi tekniklerinin türleridir. Diğer bir deyişle, diğer gözlemlerin sonuçlarını tahmin etmek için geçmiş gözlemlerin bilinen sonuçlarını öğrenirler. Bir AutoML modelinin eğitimine yönelik giriş veri kümesi, bilinen sonuçlarla **etiketlenmiş** bir kayıt kümesidir.
 
-Power BI’da AutoML, modellerinizi oluşturmak için [Azure Machine Learning hizmetinin](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) [otomatik ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) özelliğini tümleştirir. Ancak, Power BI’da AutoML kullanmak için bir Azure aboneliğinizin olması gerekmez. ML modellerini eğitme ve barındırma işlemi tamamen Power BI hizmeti tarafından yönetilir.
+Power BI’da AutoML, modellerinizi oluşturmak için [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)'in [otomatik ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) özelliğini tümleştirir. Ancak, Power BI’da AutoML kullanmak için bir Azure aboneliğinizin olması gerekmez. ML modellerini eğitme ve barındırma işlemi tamamen Power BI hizmeti tarafından yönetilir.
 
 Bir ML modeli eğitildikten sonra AutoML, ML modelinizin olası performansını açıklayan bir Power BI raporunu otomatik olarak oluşturur. AutoML, girişleriniz arasında, modeliniz tarafından döndürülen tahminleri etkileyen başlıca etkileyicileri vurgulayarak açıklanabilirliği ön plana çıkarır. Rapor ayrıca modelin önemli ölçümlerini içerir.
 
@@ -282,7 +282,7 @@ Bu makalede, Power BI hizmetinde Veri Akışları için Otomatik Makine Öğrenm
 
 - [Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma ](service-tutorial-build-machine-learning-model.md)
 - [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
-- [Öğretici: Power BI'da Machine Learning Studio modelini çağırma (Önizleme)](service-tutorial-invoke-machine-learning-model.md)
+- [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)](service-tutorial-invoke-machine-learning-model.md)
 - [Power BI'da Bilişsel Hizmetler](service-cognitive-services.md)
 - [Power BI'da Azure Machine Learning tümleştirmesi](service-machine-learning-integration.md)
 

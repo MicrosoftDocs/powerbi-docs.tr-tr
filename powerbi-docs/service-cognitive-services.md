@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3965a21ff2ab53fd46667658f7cfa21fa4a3b916
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73855592"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224137"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI'da Bilişsel Hizmetler 
 
@@ -94,7 +94,7 @@ Bu işleve giriş olarak bir resim URL'si ve base 64 alanı gerekir. Şu anda re
 
 Bu makalede Power BI hizmetiyle Bilişsel Hizmetler'i kullanmaya genel bir bakış sağlandı. Aşağıdaki makaleleri de ilginç ve yararlı bulabilirsiniz. 
 
-* [Öğretici: Power BI'da Machine Learning Studio modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
+* [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma](service-tutorial-invoke-machine-learning-model.md)
 * [Power BI'da Azure Machine Learning tümleştirmesi](service-machine-learning-integration.md)
 * [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](service-tutorial-use-cognitive-services.md)
 

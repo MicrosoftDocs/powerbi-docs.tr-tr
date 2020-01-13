@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698981"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548596"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -61,7 +61,7 @@ Yöneticiler, kuruluşları için Power BI kiracısını desteklemek üzere aşa
 | Dahili ilke, kanun ve yönetmeliklere uyumu sağlama | <ul><li>İş verilerinin sınıflandırılmasını yönetme<br><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</ul>|
 | Power BI kaynaklarını yönetme |<ul><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama<br><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama|
 | Kiracı kullanıcılarına yardım ve destek sağlama |<ul><li>Veri erişimi ve diğer sorunları giderme</ul>|
-| Diğer görevler |<ul><li>Örneğin System Center Configuration Manager kullanarak Power BI Desktop’ı dağıtma<br><li>Intune ile Power BI mobil uygulama dağıtımını yönetme<br><li>Kaynak veri güvenliği gibi veri gizliliği ve güvenliğini yönetme</ul>|
+| Diğer görevler |<ul><li>Örneğin Microsoft Endpoint Configuration Manager kullanarak Power BI Desktop’ı dağıtma<br><li>Intune ile Power BI mobil uygulama dağıtımını yönetme<br><li>Kaynak veri güvenliği gibi veri gizliliği ve güvenliğini yönetme</ul>|
 
 ## <a name="administrative-tools"></a>Yönetim araçları
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861861"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217923"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Bir rapor sayfasının görünümünü değiştirme
 
@@ -52,6 +52,26 @@ Kullanıcılar raporları çok farklı cihazlarda görüntüler ve bu cihazları
     ![Tam ekran modunda görüntülenen rapor](media/end-user-report-view/power-bi-full-screen.png)
 
 Rapordan çıktığınızda **Görünüm** ayarlarınız kaydedilmez ve varsayılana geri döner. Bu ayarları kaydetmeniz gerekiyorsa [yer işaretleri](end-user-bookmarks.md) kullanın.
+
+## <a name="use-your-browser-to-change-page-display"></a>Tarayıcınızı kullanarak sayfa görüntüsünü değiştirme
+
+Tarayıcınızdaki yakınlaştırma denetimleri kullanılabilir tuval alanını artırır ve azaltır. Yakınlaştırmanın azaltılması kullanılabilir tuval alanının genişlemesine, artırılması ise daralmasına neden olur. 
+
+![tarayıcı yakınlaştırma denetimlerini gösteren kısa video](media/end-user-report-view/power-bi-zoom.png)
+
+Tarayıcınızın tamamını yeniden boyutlandırmak, raporunuzun görüntü boyutunu değiştirmenin bir diğer yoludur. 
+
+![tarayıcıyı yeniden boyutlandırmayı gösteren kısa video](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>Görselde yakınlaştırma
+Bazen görseldeki ayrıntıları görmek zor olabilir. Görsel görüntüsünü kendiliğinden büyütebilirsiniz. Daha fazla bilgi için bkz. [Odak modu ve Tam ekran modu](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>*Odak* modundaki görsel
+
+![Odak modunda açılan bir görselin ekran görüntüsü.](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>*Tam ekran* modundaki görsel
+![Tam ekran modunda açılan bir görselin ekran görüntüsü.](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

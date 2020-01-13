@@ -2,19 +2,18 @@
 title: Power BI kullanıcıları için sözlük
 description: Power BI ile birçok yeni terim ve tanıdık terimlerin yeni kullanımları ortaya çıktı. Power BI terminolojisine alışmak için sözlüğümüzü kullanabilirsiniz.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548550"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303917"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -76,7 +75,9 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **content view (içerik görünümü)**
 
-**cross filter, cross highlight (çapraz filtre, çapraz vurgulama)**
+**cross-filter (çapraz filtre)** Görsel etkileşimlere uygulanır. Çapraz filtreleme uygun olmayan verileri kaldırır. Örneğin halka grafikte **Moderation** segmentinin seçilmesi çizgi grafiğe çapraz filtre uygular. Çizgi grafikte şimdi yalnızca Moderation segmentine uygun olan veri noktaları görüntülenir.
+
+**cross-highlight (çapraz vurgulama)** Görsel etkileşimlere uygulanır. Çapraz vurgulama tüm özgün veri noktalarını korur ama seçiminize uygun olmayan bölümü soluk görüntüler. Örneğin halka grafikte **Moderation** segmentinin seçilmesi sütun grafiğe çapraz vurgulama uygular. Sütun grafik Moderation segmentine uygun olmayan tüm verileri soluk görüntüler ve Moderation segmentine uygun olan tüm verileri vurgular.
 
 **custom visual (özel görsel)** Topluluk ve Microsoft tarafından oluşturulan görseller. Bunlar Power BI raporlarında kullanılmak üzere Office mağazasından indirilebilir.
 
@@ -214,7 +215,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**, Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
-**Power BI Desktop** *Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
+**Power BI Desktop***Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
 
 **Power BI Embedded** Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
@@ -310,6 +311,8 @@ Power BI panolarında rapor kutucukları yer alır.
 **value, values (değer, değerler)** Görselleştirilecek sayısal veriler.
 
 **visual, visualization (görsel, görselleştirme)** Bir grafik. Bazı görseller: çubuk grafik, ağaç haritası, halka grafik, harita.
+
+**Visual interaction (Görsel etkileşim)** Power BI'ın en önemli özelliklerinden biri, rapor sayfasındaki tüm görsellerin birbirine bağlı olmasıdır. Görsellerin birinde bir veri noktası seçtiğinizde sayfadaki aynı verileri içeren diğer tüm görseller de seçime göre değişir.
 
 **Visualizations pane (Görselleştirmeler bölmesi)** Power BI Desktop ile Power BI hizmeti için paylaşılan rapor tuvalinde gönderilen görselleştirme şablonlarının adı. Her yerel görselleştirme türü için simge olarak da adlandırılan küçük şablonlar içerir.  
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834736"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221954"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Rapor sayfası araç ipuçlarıyla görselleri genişletme
 
@@ -61,15 +61,15 @@ Sayfa araç ipucu ortaya çıkarılır. 98022 posta koduna ilişkin belirli özn
 
 ### <a name="add-help"></a>Yardım ekleme
 
-Görsel üst bilgileri sayfa araç ipuçlarını görsel üst bilgilerinde ortaya çıkaracak şekilde yapılandırılabilir. Zengin biçimlendirilmiş metin kutuları kullanarak sayfa araç ipucuna yardım içeriği ekleyebilirsiniz. Resimler ve şekiller eklemek de mümkündür.
+Görsel üst bilgileri sayfa araç ipuçlarını görsel üst bilgilerinde ortaya çıkaracak şekilde yapılandırılabilir. Zengin biçimlendirilmiş metin kutuları kullanarak sayfa araç ipucuna yardım belgeleri ekleyebilirsiniz. Resimler ve şekiller eklemek de mümkündür.
 
 Burada ilginç olan düğmelerin, resimlerin, metin kutularının ve şekillerin de bir görsel üst bilgisi sayfa araç ipucunu ortaya çıkarabilmesidir.
 
-Aşağıdaki örnekte rapor kullanıcısı imlecini görsel üst bilgisi simgesinin üzerine getirdiğinde neler olduğu gösterilir.
+Aşağıdaki örnekte rapor kullanıcısı imlecini [görsel üst bilgisi simgesinin](../desktop-visual-elements-for-reports.md) üzerine getirdiğinde neler olduğu gösterilir.
 
 ![Rapor kullanıcısı imlecini görsel üst bilgisi simgesinin (soru işareti simgesi) üzerine getirmiştir. Zengin biçimlendirilmiş bir araç ipucu gösterilir.](media/report-page-tooltips/suggestion-add-help.png)
 
-Sayfa araç ipucu ortaya çıkarılır. Görsel tarafından görüntülenen ölçülerin açıklandığı zengin biçimlendirilmiş bir metin sunar. Araç ipucu bir şekil (çizgi) de içerir.
+Sayfa araç ipucu ortaya çıkarılır. Zengin biçimlendirilmiş metin dört metin kutusunda ve bir şekilde (çizgi) gösterir. Sayfa araç ipucu görselde görüntülenen her kısaltmayı açıklayarak yardım sağlar.
 
 ## <a name="recommendations"></a>Öneriler
 
@@ -87,5 +87,6 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma](../desktop-tooltips.md)
 - [Power BI Desktop'taki araç ipuçlarını özelleştirme](../desktop-custom-tooltips.md)
+- [Görsel öğeler kullanarak Power BI raporlarını geliştirme](../desktop-visual-elements-for-reports.md)
 - Guy in a cube videosu: [Power BI rapor sayfası araç ipucu - Power BI Desktop'ta bir tane oluşturma](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -1,22 +1,22 @@
 ---
 title: iOS için Power BI mobil uygulaması ile çalışmaya başlama
 description: iOS uygulaması için Microsoft Power BI mobil uygulamasının, şirket içindeki ve buluttaki iş bilgilerine mobil erişim sağlayarak Power BI'ı nasıl cebinize sığdırdığını öğrenin.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870198"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220384"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
-iPhone, iPad veya iPod touch'taki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
+iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
 
 ![iPhone veya iPad üzerinde Power BI mobil uygulaması](./media/mobile-iphone-app-get-started/pbi_ipad_iphonedevices.png)
 
@@ -30,7 +30,7 @@ Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta
 [Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="download-the-app"></a>Uygulamayı indirme
-App Store'a giderek iPhone, iPad veya iPod Touch'ınıza [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
+Apple App Store'a giderek iPhone ve iPad'inize [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
 
 iOS için Power BI uygulamasını, iOS 11 veya sonraki bir sürümü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
 
@@ -41,57 +41,32 @@ Henüz kaydolmadıysanız, [powerbi.com](https://powerbi.microsoft.com/get-start
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI uygulaması ile çalışmaya başlama
 1. iOS cihazınızda Power BI uygulamasını açın.
 2. Power BI panolarınızı görüntülemek için **Power BI** seçeneğine dokunun.  
-   Reporting Services mobil raporlarınızı ve KPI'lerinizi görüntülemek içinse **SQL Server Reporting Services** seçeneğine dokunun.
+   Reporting Services mobil raporlarınızı ve KPI'lerinizi görüntülemek içinse **Rapor Sunucusu** seçeneğine dokunun.
    
    ![Power BI mobil uygulamasında oturum açma](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Uygulamadayken, bu ikisi arasında geçiş yapmak için sol üst köşedeki genel gezinti düğmesine ![Genel gezinti düğmesi](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) dokunmanız yeterlidir. 
+   Uygulamanın içinden ekranınızın sol üst köşesindeki hesap profili resmine dokunarak ikisi arasında geçiş yapın. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI ve Reporting Services örneklerini deneme
-Kaydolmadan bile Power BI ve Reporting Services örnekleriyle deneme yapabilirsiniz. Uygulamayı indirdikten sonra örnekleri görüntüleyebilir veya çalışmaya başlayabilirsiniz. Dilediğiniz zaman genel gezinti düğmesini kullanarak örneklere geri dönebilirsiniz.
+Kaydolmadan bile Power BI ve Reporting Services örneklerini görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
 
-### <a name="power-bi-samples"></a>Power BI örnekleri
-Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşime geçebilirsiniz ancak örneklerle gerçekleştiremediğiniz birkaç şey bulunur. Panolarla bağlantılı raporlar açamaz, örnekleri başkalarıyla paylaşamaz veya sık kullanılanlara ekleyemezsiniz.
+Örneklere erişmek için gezinti çubuğunda **Diğer seçenekler**'e (...) dokunun ve **Örnekler**'i seçin.
 
-1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) dokunun.
-2. Sol üst taraftaki dişli simgesine ![Dişli simgesi](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) ve ardından **Power BI örnekleri** seçeneğine dokunun.
-3. Bir rol seçin ve bu role yönelik örnek panoyu araştırın.  
-   
+Bir dizi Power BI örneğinin ardında çeşitli Rapor sunucusu örnekleri yer alır.
+
    ![Power BI mobil örnekleri](./media/mobile-iphone-app-get-started/power-bi-iphone-powerbi-samples.png)
    
    > [!NOTE]
-   > Örneklerde tüm özellikler kullanılamaz. Örneğin, panolarla bağlantılı örnek raporları görüntüleyemezsiniz. 
+   > Örneklerde tüm özellikler kullanılamaz. Örneğin panoların temelini oluşturan raporları görüntüleyemez, örnekleri başkalarıyla paylaşamaz ve bunları sık kullanılanlarınıza ekleyemezsiniz. 
    > 
-   > 
-
-### <a name="reporting-services-mobile-report-samples"></a>Reporting Services mobil rapor örnekleri
-1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](./././media/mobile-iphone-app-get-started/power-bi-iphone-global-nav-button.png) dokunun.
-2. Sağ üstteki dişli simgesine ![Dişli simgesi](././media/mobile-iphone-app-get-started/power-bi-ios-gear-icon.png) ve ardından **Reporting Services örnekleri** seçeneğine dokunun.
-3. Retail Reports veya Sales Reports klasörünü açarak ilgili KPI'leri ve mobil raporları araştırın.
-   
-   ![Power BI mobil uygulamasındaki Reporting Services örnekleri](./media/mobile-iphone-app-get-started/power-bi-reporting-services-samples.png)
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında içeriklerinizi bulma
-Panolarınız ve raporlarınız kaynaklarına bağlı olarak Power BI mobil uygulamalarında farklı konumlarda depolanır. [Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında bilgi edinin. Ayrıca, Power BI mobil uygulamalarında sahip olduğunuz tüm içeriği dilediğiniz zaman arayabilirsiniz. 
 
-![Gezinti bölmesi](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+Power BI içeriğinizi aramaya başlamak için üst bilgide büyütece dokunun.
 
-[Mobil uygulamalarda içeriklerinizi bulma](mobile-apps-quickstart-view-dashboard-report.md) hakkında daha fazla bilgi edinin.
-
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Sık kullandığınız panoları, KPI'leri ve raporları görüntüleme
-Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Power BI Rapor Sunucusu ve Reporting Services KPI'lerinin ve raporlarının yanı sıra sık kullandığınız Power BI panolarının tümünü görebilirsiniz. Power BI mobil uygulamasında bir panoyu *sık kullanılan* olarak eklediğinizde, söz konusu panoya, tarayıcınızdan eriştiğiniz Power BI hizmeti de dahil olmak üzere tüm cihazlarınızdan erişebilirsiniz. 
-
-* **Sık Kullanılanlar**'a dokunun.
-  
-   ![Gezinti bölmesinde Sık Kullanılanlar](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
-  
-   Sık kullanılanlarınızın tümünü şu sayfada görürsünüz:
-  
-   ![Sık Kullanılanlar sayfası](./media/mobile-iphone-app-get-started/power-bi-iphone-faves-report-server-number-callouts.png)
-  
-  1. Power BI hizmetindeki panolar
-  2. Power BI Rapor Sunucusu'ndaki KPI'ler
-  3. Power BI Rapor Sunucusu'ndaki Power BI raporları
+## <a name="view-your-favorite-dashboards-and-reports"></a>Sık kullandığınız panoları ve raporları görüntüleme
+Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
 
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 

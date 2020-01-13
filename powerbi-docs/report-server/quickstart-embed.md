@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 195be0766e135dcccc2124a998fb5a32e8703d5b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875009"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657225"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
@@ -25,6 +25,7 @@ Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sun
 * [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış.
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması](install-powerbi-desktop.md) yüklü.
 * [SharePoint](https://docs.microsoft.com/sharepoint/install/install) ortamı yüklü ve yapılandırılmış.
+* Internet Explorer 11 yalnızca SharePoint Online kullanılırken desteklenir.  İki senaryoda da desteklenen diğer tarayıcıları kullanabilirsiniz.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI rapor URL’si oluşturma
 

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264201"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223371"
 ---
 # <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
 
@@ -53,7 +53,7 @@ Hizmet sorumlusunu yalnızca Power BI yapıtlarınız ve kaynaklarınız [yeni P
 
 Kimlik doğrulaması için bir hizmet sorumlusu kullanmakla standart ana hesap (Power BI Pro lisansı) kullanmanın farkları vardır. Aşağıdaki tablo bazı önemli farkları vurgular.
 
-| Çağır | Ana Kullanıcı Hesabı <br> (Power BI Pro lisansı) | Hizmet Sorumlusu <br> (yalnızca uygulama belirteci) |
+| İşlev | Ana Kullanıcı Hesabı <br> (Power BI Pro lisansı) | Hizmet Sorumlusu <br> (yalnızca uygulama belirteci) |
 |------------------------------------------------------|---------------------|-------------------|
 | Power BI hizmetinde oturum açabilir  | Evet | Hayır |
 | Power BI Yönetim portalında etkindir | Hayır | Evet |
@@ -113,7 +113,7 @@ Ana hesabın geleneksel kullanımının aksine, hizmet sorumlusu (yalnızca uygu
    > [!Important]
    > Hizmet sorumlularının, tüm kuruluş için etkinleştirilmiş veya grubun parçası olarak hizmet sorumlularına sahip olan güvenlik grupları için etkinleştirilmiş tüm kiracı ayarlarına erişimi vardır. Belirli kiracı ayarlarına hizmet sorumlusu erişimini kısıtlamak için, yalnızca belirli güvenlik gruplarına erişime izin verin veya hizmet sorumluları için adanmış bir güvenlik grubu oluşturup hariç tutun.
 
-    ![Yönetim portalı](media/embed-service-principal/admin-portal.png)
+    ![Yönetici portalı](media/embed-service-principal/admin-portal.png)
 
 4. [Power BI ortamınızı](embed-sample-for-customers.md#set-up-your-power-bi-environment) ayarlayın.
 
@@ -150,7 +150,7 @@ Azure portalından hizmet sorumlusu nesne kimliğini alma adımları aşağıda 
 
    ![Yerel dizinde yönetilen uygulama](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > Yukarıdaki resimde yer alan nesne kimliği hizmet sorumlusu ile kullanılan kimlik değildir.
 
 3. Nesne Kimliğini görmek için **Özellikler**’i seçin.
@@ -174,6 +174,7 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../service-dataflows-overview.md) yönetimi desteklenmez.
 * Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
+* [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

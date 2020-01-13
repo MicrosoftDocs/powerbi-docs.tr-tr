@@ -1,19 +1,19 @@
 ---
 title: Power BI mobil uygulamalarında şirket içi raporları ve KPI'leri görüntüleme
 description: Power BI mobil uygulamaları, SQL Server Reporting Services ve Power BI Rapor Sunucusu'nda bulunan şirket içi iş bilgilerinize yönelik gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim sağlar.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879441"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220129"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında şirket içi rapor sunucusu raporlarını ve KPI'lerini görüntüleme
 
@@ -40,8 +40,9 @@ Ardından, Power BI mobil uygulamalarında beş adede kadar rapor sunucusuna ba�
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>Sunucu bağlantısı olmadan mobil uygulamalardaki örnekleri inceleme
 Reporting Services web portalına erişiminiz olmasa bile Reporting Services mobil raporlarının ve KPI'lerinin özelliklerini inceleyebilirsiniz. 
 
-1. Sol üst köşede bulunan genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) ve ardından sağ üst köşedeki dişli simgesine ![Dişli simgesi](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png)dokunun.
-2. **Reporting Services Örnekleri**'ne dokunup sayfaya göz atarak örnek KPI'ler ve mobil raporlarla etkileşime geçin.
+1. Sol üst köşedeki profil resminize dokunun ve sonra da beliren hesaplar panelinde **Ayarlar**'a dokunun.
+
+2. Açılan ayarlar sayfasında **Reporting Services Örnekleri**'ne dokunup sayfaya göz atarak örnek KPI'ler ve mobil raporlarla etkileşime geçin.
    
    ![Reporting Services örnekleri](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,18 +54,17 @@ Power BI mobil uygulamalarında şirket içi Power BI raporlarını, Reporting S
    
    ![Rapor sunucusunda oturum açma](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Power BI uygulamasında oturum açtıysanız genel gezinti düğmesine ![Genel gezinti düğmesi](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png)ve ardından, sağ üst köşedeki dişli simgesine ![Dişli simgesi](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) dokunun.
-3. **Sunucuya bağlan**'a dokunun.
+   Power BI uygulamasında zaten oturum açmış durumdaysanız, sol üst köşedeki profil resminize dokunun ve sonra da beliren hesaplar panelinde **Ayarlar**'a dokunun.
+3. Açılan ayarlar sayfasında **Sunucuya bağlan**'a dokunun.
    
     ![Sunucuya bağlan](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     Mobil uygulamanın sunucuya bir şekilde erişmesi gerekir. Bunu yapmanın birkaç yolu vardır:
+    Mobil uygulamanın sunucuya bir şekilde erişmesi gerekir. Bunu yapmanın birkaç yolu vardır:
+     * Aynı ağda olmak/VPN kullanmak en kolay yöntemdir.
+     * Kuruluş dışından bağlantı kurmak için Web Uygulaması Ara Sunucusu kullanabilirsiniz. Ayrıntılar için bkz. [OAuth kullanarak Reporting Services'e bağlanma](mobile-oauth-ssrs.md).
+     * Güvenlik duvarında bir bağlantı (bağlantı noktası) açma.
 
-    - Aynı ağda olmak/VPN kullanmak en kolay yöntemdir.
-    - Kuruluş dışından bağlantı kurmak için Web Uygulaması Ara Sunucusu kullanabilirsiniz. Ayrıntılar için bkz. [OAuth kullanarak Reporting Services'e bağlanma](mobile-oauth-ssrs.md). 
-    - Güvenlik duvarında bir bağlantı (bağlantı noktası) açma.
-
-1. Sunucu adresinin yanı sıra kullanıcı adınızı ve parolanızı girin. Sunucu adresi için şu biçimi kullanın:
+4. Sunucu adresini girin ve isterseniz sunucuya kolay bir ad verin. Sunucu adresi için şu biçimi kullanın:
    
      `https://<servername>/reports`
    
@@ -75,14 +75,14 @@ Power BI mobil uygulamalarında şirket içi Power BI raporlarını, Reporting S
    Bağlantı dizesinin önüne **http** veya **https** ifadesini ekleyin.
    
     ![Sunucuya bağlan iletişim kutusu](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (İsteğe bağlı) Dilerseniz **Advanced options** (Gelişmiş seçenekler) bölümünde sunucunuza kolay bir ad verebilirsiniz.
-6. Artık gezinti bölmesinde sunucunuzu görebilirsiniz. Bu örnekte sunucuyu "power bi report server" olarak adlandırdık.
+5. Sunucu adresini ve isteğe bağlı olarak kolay adı yazdıktan sonra **Bağlan**'a dokunun ve istendiğinde kullanıcı adınızı ve parolanızı girin.
+6. Artık Hesaplar bölmesinde sunucunuzu görürsünüz. Bu örnekte sunucu "Work server" olarak adlandırılmıştır.
    
    ![Gezinti bölmesindeki rapor sunucusu](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>iOS’ta şirket içi rapor sunucusuna bağlanma
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>iOS veya Android'de şirket içi rapor sunucusuna bağlanma
 
-Power BI’yı iOS mobil uygulamasında görüntülüyorsanız BT yöneticiniz bir uygulama yapılandırma ilkesi tanımlamış olabilir. Tanımlamışsa, rapor sunucusuna bağlanma deneyiminiz daha kolay olur ve bir rapor sunucusuna bağlandığınızda sağladığınız kadar fazla bilgi vermeniz gerekmez. 
+Power BI’yı iOS veya Android mobil uygulamasında görüntülüyorsanız BT yöneticiniz bir uygulama yapılandırma ilkesi tanımlamış olabilir. Tanımlamışsa, rapor sunucusuna bağlanma deneyiminiz daha kolay olur ve bir rapor sunucusuna bağlandığınızda sağladığınız kadar fazla bilgi vermeniz gerekmez. 
 
 1. Mobil uygulamanızın bir rapor sunucusu ile yapılandırıldığına dair bir ileti görürsünüz. **Oturum aç**’a dokunun.
 
@@ -101,7 +101,7 @@ Artık KPI’leri ve rapor sunucusunda depolanmış Power BI raporlarını gör�
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI uygulamasında Power BI raporlarını ve KPI'lerini görüntüleme
 Power BI raporları, Reporting Services mobil raporları ve KPI'ler, Reporting Services web portalındaki klasör düzeninde görüntülenir. 
 
-* Bir Power BI raporuna ![Power BI raporu simgesi](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)dokunun. Rapor yatay modda açılır ve Power BI uygulamasında raporla etkileşime geçebilirsiniz.
+* Bir Power BI raporuna ![Power BI raporu simgesi](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). Rapor yatay modda açılır ve Power BI uygulamasında raporla etkileşime geçebilirsiniz.
 
     > [!NOTE]
   > Power BI Rapor Sunucusu'nda Power BI raporlarında şu anda detaya gitme ve detaydan çıkma etkin değildir.
@@ -117,7 +117,7 @@ Power BI raporları, Reporting Services mobil raporları ve KPI'ler, Reporting S
 ## <a name="view-your-favorite-kpis-and-reports"></a>Sık kullandığınız KPI'leri ve raporları görüntüleme
 Web portalında KPI'leri ve raporları sık kullanılanlara ekleyip daha sonra bunları mobil cihazınızda tek bir klasörde, sık kullanılan Power BI panolarınızla birlikte görüntüleyebilirsiniz.
 
-* **Sık Kullanılanlar**'a dokunun.
+* Gezinti çubuğunda **Sık Kullanılanlar**'a dokunun.
   
    ![Gezinti bölmesinde Sık Kullanılanlar](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,7 +126,7 @@ Web portalında KPI'leri ve raporları sık kullanılanlara ekleyip daha sonra b
    ![Sık Kullanılanlar sayfasındaki Power BI raporları ve panoları](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Rapor sunucusu bağlantısını kesme
-1. Gezinti bölmesinin alt kısmındaki **Ayarlar**' a dokunun.
+1. Hesaplar bölmesini açın ve **Ayarlar**'a dokunun.
 2. Bağlantısını kesmek istediğiniz sunucunun adına dokunun.
 3. **Sunucuyu Kaldır**'a dokunun.
 
