@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f71bf3b7b457370fccb8b5fbae4bd7bae3b227d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3928b90d3aba8084cb5f1bf3677adb31afb01722
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75223485"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729685"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -1016,7 +1016,7 @@ Ağustos ayında yapılan **Power BI Desktop** güncelleştirmelerini aşağıda
 
 ### <a name="analytics"></a>Analiz
 
-* Değerlere göre koşullu biçimlendirme  [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[makale]](desktop-conditional-table-formatting.md#color-formatting-by-field-value)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
+* Değerlere göre koşullu biçimlendirme  [[video]](https://youtu.be/dgv5HhHxxe8?t=7m54s)  [[makale]](desktop-conditional-table-formatting.md#color-by-color-values)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#conditionalFormatting) 
 * Python tümleştirmesi  [[video]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * Soru-Cevap geliştirmeleri  [[video]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 

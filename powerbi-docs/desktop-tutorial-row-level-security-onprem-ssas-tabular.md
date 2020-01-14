@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311445"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759532"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
 
 Bu öğreticide aşağıdaki adımların üzerinden geçerken örnek bir veri kümesi kullanılarak **Analysis Services Tablolu Modeli**'nde [**satır düzeyi güvenliğin**](service-admin-rls.md) uygulanması ve bunun bir Power BI raporunda kullanılması gösterilir. 
 
