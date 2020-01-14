@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: Veri akışları oluşturma ve kullanma
               href: service-dataflows-create-use.md
+            - name: Geliştirilmiş işlem altyapısını veri akışları ile kullanma
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium ile hesaplanan varlıklar
               href: service-dataflows-computed-entities-premium.md
             - name: İş akışları ile veri kaynaklarına bağlanma
@@ -801,6 +803,8 @@
               items:
                 - name: Uygulamalarla hizmetlere bağlanma
                   href: service-connect-to-services.md
+                - name: Azure Carbon Calculator
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
