@@ -871,6 +871,8 @@
           href: service-admin-premium-workloads.md
         - name: Uygulama ile kapasiteleri izleme
           href: service-admin-premium-monitor-capacity.md
+        - name: Premium iş yükü ölçümlerini izleme
+          href: service-premium-metrics-app.md
         - name: Yönetim portalında kapasiteleri izleme
           href: service-admin-premium-monitor-portal.md
         - name: Artımlı yenilemeyi yapılandırma
