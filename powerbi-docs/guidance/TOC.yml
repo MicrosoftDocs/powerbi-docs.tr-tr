@@ -54,10 +54,12 @@
           items:
             - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
               href: report-page-tooltips.md
-            - name: Rapor sayfasını detaylandırma
+            - name: Rapor sayfası detaylandırmayı kullanma
               href: report-drillthrough.md
             - name: Power BI’daki sayfalandırılmış raporları kullanma zamanı
               href: report-paginated-or-power-bi.md
+            - name: Sayfalandırılmış raporları yazdırırken boş sayfalardan kaçınma
+              href: report-paginated-blank-page.md
             - name: SQL Server Reporting Services raporlarını Power BI’a geçirme
               href: migrate-ssrs-reports-to-power-bi.md
     - name: Teknik incelemeler
