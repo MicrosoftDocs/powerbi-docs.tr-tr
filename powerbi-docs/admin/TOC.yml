@@ -54,8 +54,6 @@
               href: service-security-using-microsoft-cloud-app-security-controls.md
         - name: Satır düzeyi güvenlik
           href: ../service-admin-rls.md
-        - name: Arşivlenmiş çalışma alanı
-          href: ../service-admin-power-bi-archived-workspace.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: ../service-admin-mobile-intune.md
     - name: Başvuru
