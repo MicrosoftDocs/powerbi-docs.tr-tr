@@ -803,10 +803,10 @@
               items:
                 - name: Uygulamalarla hizmetlere bağlanma
                   href: service-connect-to-services.md
-                - name: Azure Carbon Calculator
-                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
+                - name: Microsoft Sürdürülebilirlik Hesaplayıcısı
+                  href: service-connect-to-microsoft-sustainability-calculator.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Project Online
@@ -887,7 +887,7 @@
           href: service-admin-premium-restart.md
         - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
           href: service-premium-connect-tools.md
-- name: Power BI Sayfalandırılmış Rapor Oluşturucusu
+- name: Power BI Rapor Oluşturucusu
   items:
     - name: Genel Bakış
       items:

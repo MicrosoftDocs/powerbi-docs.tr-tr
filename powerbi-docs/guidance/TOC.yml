@@ -10,48 +10,56 @@
     - name: Kavramlar
       expanded: true
       items:
-        - name: Yıldız şeması nedir?
-          href: star-schema.md
-        - name: Veri modeli boyutunu azaltma
-          href: import-modeling-data-reduction.md
-        - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
-          href: dax-divide-function-operator.md
-        - name: VALUES yerine SELECTEDVALUE kullanma
-          href: dax-selectedvalue.md
-        - name: Sorguyu kaynağa döndürmenin önemi
-          href: power-query-folding.md
-        - name: Hata işlevlerinin uygun kullanımı
-          href: dax-error-functions.md
-        - name: Formülleri iyileştirmek için değişkenleri kullanma
-          href: dax-variables.md
-        - name: COUNT yerine COUNTROWS
-          href: dax-countrows.md
-        - name: BOŞLUKLARI değerlere dönüştürmekten kaçınma
-          href: dax-avoid-converting-blank.md
-        - name: Sütun ve ölçü başvuruları
-          href: dax-column-measure-references.md
-        - name: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
-          href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Veri akışları için en iyi uygulamalar
-          href: ../service-dataflows-best-practices.md
-        - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
-          href: directquery-model-guidance.md
-        - name: Power Query sorgularına başvurma
-          href: power-query-referenced-queries.md
-        - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
-          href: report-page-tooltips.md
-        - name: Rapor sayfasını detaylandırma
-          href: report-drillthrough.md
-        - name: Power BI Desktop’ta otomatik tarih/saat kılavuzu
-          href: auto-date-time.md
-        - name: Çoka çok ilişkiler kılavuzu
-          href: relationships-many-to-many.md
-        - name: Power Query arka plan yenilemesini devre dışı bırakma
-          href: power-query-background-refresh.md
-        - name: Power BI’daki sayfalandırılmış raporları kullanma zamanı
-          href: report-paginated-or-power-bi.md
-        - name: SQL Server Reporting Services raporlarını Power BI’a geçirme
-          href: migrate-ssrs-reports-to-power-bi.md
+        - name: Verileri dönüştürme ve şekillendirme
+          items:
+            - name: Sorguyu kaynağa döndürmenin önemi
+              href: power-query-folding.md
+            - name: Power Query sorgularına başvurma
+              href: power-query-referenced-queries.md
+            - name: Power Query arka plan yenilemesini devre dışı bırakma
+              href: power-query-background-refresh.md
+            - name: Veri akışları için en iyi uygulamalar
+              href: ../service-dataflows-best-practices.md
+        - name: Veri modelleme
+          items:
+            - name: Yıldız şeması nedir?
+              href: star-schema.md
+            - name: Veri modeli boyutunu azaltma
+              href: import-modeling-data-reduction.md
+            - name: Power BI Desktop’ta otomatik tarih/saat kılavuzu
+              href: auto-date-time.md
+            - name: Çoka çok ilişkiler kılavuzu
+              href: relationships-many-to-many.md
+            - name: Power BI Desktop’ta DirectQuery modeli kılavuzu
+              href: directquery-model-guidance.md
+        - name: DAX
+          items:
+            - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
+              href: dax-divide-function-operator.md
+            - name: Hata işlevlerinin uygun kullanımı
+              href: dax-error-functions.md
+            - name: VALUES yerine SELECTEDVALUE kullanma
+              href: dax-selectedvalue.md
+            - name: COUNT yerine COUNTROWS
+              href: dax-countrows.md
+            - name: Formülleri iyileştirmek için değişkenleri kullanma
+              href: dax-variables.md
+            - name: BOŞLUKLARI değerlere dönüştürmekten kaçınma
+              href: dax-avoid-converting-blank.md
+            - name: Sütun ve ölçü başvuruları
+              href: dax-column-measure-references.md
+            - name: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
+              href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Rapor Oluşturma
+          items:
+            - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
+              href: report-page-tooltips.md
+            - name: Rapor sayfasını detaylandırma
+              href: report-drillthrough.md
+            - name: Power BI’daki sayfalandırılmış raporları kullanma zamanı
+              href: report-paginated-or-power-bi.md
+            - name: SQL Server Reporting Services raporlarını Power BI’a geçirme
+              href: migrate-ssrs-reports-to-power-bi.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

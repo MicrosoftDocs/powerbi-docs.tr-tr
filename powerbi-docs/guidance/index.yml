@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 11/14/2019
-  ms.openlocfilehash: 2d34b41ec7ebc473c84bbfffccfa555cda817e3a
-  ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+  ms.date: 01/14/2020
+  ms.openlocfilehash: 091fbef4ce3a3cc1e5e3c0d0e4f26a25598f2556
+  ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/11/2020
-  ms.locfileid: "75885157"
+  ms.lasthandoff: 01/15/2020
+  ms.locfileid: "75953701"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -27,6 +27,18 @@ landingContent:
       url: overview.md
     - text: Teknik incelemelere genel bakış
       url: ../whitepapers.md
+- title: Verileri dönüştürme ve şekillendirme
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Sorguyu kaynağa döndürmenin önemi
+      url: power-query-folding.md
+    - text: Power Query arka plan yenilemesini devre dışı bırakma
+      url: power-query-background-refresh.md
+    - text: Power Query sorgularına başvurma
+      url: power-query-referenced-queries.md
+    - text: Veri akışları için en iyi yöntemler
+      url: ../service-dataflows-best-practices.md
 - title: Veri modelleme
   linkLists:
   - linkListType: concept
@@ -35,16 +47,10 @@ landingContent:
       url: star-schema.md
     - text: Veri azaltma teknikleri
       url: import-modeling-data-reduction.md
-    - text: Sorguyu kaynağa döndürmenin önemi
-      url: power-query-folding.md
-    - text: Power Query sorgularına başvurma
-      url: power-query-referenced-queries.md
     - text: Power BI Desktop’ta otomatik tarih/saat kılavuzu
       url: auto-date-time.md
     - text: Çoka çok ilişkiler kılavuzu
       url: relationships-many-to-many.md
-    - text: Power Query arka plan yenilemesini devre dışı bırakma
-      url: power-query-background-refresh.md
 - title: DAX
   linkLists:
   - linkListType: concept
@@ -65,13 +71,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Veri akışları
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: Veri akışları için en iyi yöntemler
-      url: ../service-dataflows-best-practices.md
-- title: Raporlama
+- title: Rapor oluşturma
   linkLists:
   - linkListType: concept
     links:
