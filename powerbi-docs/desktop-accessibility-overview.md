@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef19c638f9c456364757576e21c303103a7f4e39
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878909"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761876"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI’da erişilebilirliğe genel bakış
 Power BI ile çalışırken, raporlarınızla etkileşimde bulunan farklı kullanıcı türlerini göz önünde bulundurmanız önemlidir. Klavye veya ekran okuyucu kullanıcıları tarafından kolayca gezinilen ve anlaşılan raporlar oluşturmak ve sunmak, görsel veya fiziksel sorunları olabilecek kullanıcıların aynı bilgileri almasını sağlar.
@@ -27,9 +27,10 @@ Bu makalede Power BI ve erişilebilirlik hakkında genel bir bakış sunulmaktad
 
 Evrensel tasarım, özel bir uyarlama veya özel tasarıma gerek duymadan olabildiğince fazla kişi tarafından kullanılabilen ürünlerin tasarlanmasıdır. Power BI’da raporlar veya deneyimler oluştururken, kullanıcılarınızın ihtiyaçlarını göz önünde bulundurmanız önemlidir. Erişilebilir bir deneyim tasarlamak yalnızca işitsel, motor, bilişsel veya görsel bozuklukları olabilecek son kullanıcılarınıza fayda sağlamakla kalmaz. Kuruluşunuzdaki tüm son kullanıcılara yardımcı olabilir. Power BI, erişilebilir raporlar oluşturma ve kullanma araçları sağlar. Bu araçları, herkesin deneyimini geliştirmek için kullanmak, rapor oluşturucusu olarak size bağlıdır.
 
+
 ## <a name="accessibility-standards"></a>Erişilebilirlik standartları
 
-Power BI, aşağıdaki erişilebilirlik standartlarına bağlıdır.  Bu uyum, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur.
+Power BI, aşağıdaki erişilebilirlik standartlarına bağlıdır. Bu uyum, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur. Power BI Mobil uygulamaları, C düzeyi erişilebilirlik sertifikasına sahiptir. Bu sayede oluşturduğunuz erişilebilir raporlar veya panolar, Power BI Mobil kullanarak görüntüleyen kişiler için de erişilebilir olur. 
 
 ### <a name="wcag-21"></a>WCAG 2.1
 Web Content Accessibility (WCAG), web içeriğinin engelli kişiler tarafından erişilebilir olmasına yardımcı olur. WCAG’nin başlıca üç ilkesi vardır:

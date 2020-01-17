@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128260"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762152"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI’da, bir sayfalandırılmış rapor için URL’de rapor parametresi geçirme 
 
@@ -64,6 +64,8 @@ Bir Boole değerini geçirmek için, false için 0 ve true için 1 kullanın. Bi
 
 > [!NOTE]
 > Raporunuz, varsayılan değeri bulunan bir rapor parametresini içeriyorsa ve **İstem** özelliğinin değeri **false** ise (bu durumda **Kullanıcı İstemi** özelliği Rapor Yöneticisi’nde seçilmemiştir), URL içinde yer alan rapor parametresi için değer geçiremezsiniz. Bu, yöneticilere son kullanıcıların belirli rapor parametrelerini eklemesini veya değiştirmesini önleme seçeneğini sunar.
+
+> Power BI, 900 karakterden uzun sorgu dizelerini desteklemez.  Sayfalandırılmış raporunuzu görüntülemek için URL parametrelerini kullandığınızda bu değer aşılabilir.  Özellikle çok değerli parametreler kullanıyorsanız bu durumla karşılaşabilirsiniz.
 
 ## <a name="additional-examples"></a>Ek örnekler 
 

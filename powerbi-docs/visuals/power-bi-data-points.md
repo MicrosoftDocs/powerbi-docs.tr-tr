@@ -2,21 +2,21 @@
 title: Büyük veri kümeleri, veri noktası sınırları ve veri stratejileri
 description: Veri azaltma stratejileri ve görseller için veri sınırları
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011292"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885251"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
 
 Power BI’da bir görsel işlenirken görselleştirme hızlı ve doğru olmalıdır. Bu, her bir görsel türü için temel algoritmaların yapılandırılmış olmasını gerektirir. Power BI’daki görseller, farklı boyutlarda veri kümelerini işlemek için yeterince esnek olmalıdır. Bazı veri kümelerinin yalnızca bir avuç dolusu veri noktası varken, bazı veri kümelerininse petabaytlarca veri noktası vardır. Bu makalede, görselleştirmeleri işlemek için Power BI tarafından kullanılan stratejiler açıklanmaktadır.
 
@@ -75,7 +75,7 @@ Bkz. [Satır örnekleme nasıl çalışır?](../desktop-high-density-sampling.md
  Aynı stratejileri sütun grafik olarak kullanır. **Birleşik grafikteki** satırın, **çizgi grafiğin** kullandığı yüksek yoğunluklu algoritmayı kullanmadığına dikkat edin.
 
 ### <a name="custom-visuals"></a>Özel görseller
-En fazla 30.000 olabilir, ancak hangi stratejilerin kullanılacağını belirtmek görsel yazarlarına bağlıdır
+En fazla 30.000 olabilir, ancak hangi stratejilerin kullanılacağını belirtmek görsel yazarlarına bağlıdır. Varsayılan sınır 1.000'dir ancak görsel oluşturucu bunu değiştirerek en fazla 30.000 yapabilir.
 
 ### <a name="doughnut"></a>Halka
 - Maksimum nokta sayısı: 3.500
@@ -119,6 +119,9 @@ Yapılandırmaya bağlı olarak bir haritada şunlar bulunabilir:
 - Satırlar: Aynı anda 500 satırlık Pencere kullanılarak sanallaştırma
 - Sütunlar: İlk 100 gruplandırma sütunu 
 - Değerler: veri azaltmaya karşı birden çok değer sayılmaz
+
+### <a name="powerapps-visual"></a>PowerApps görseli
+En fazla 30.000 olabilir, ancak hangi stratejilerin kullanılacağını belirtmek görsel yazarlarına bağlıdır. Varsayılan sınır 1.000'dir ancak görsel oluşturucu bunu değiştirerek en fazla 30.000 yapabilir.
 
 ### <a name="radial-gauge"></a>Radyal ölçer
 Azaltma stratejisi yoktur

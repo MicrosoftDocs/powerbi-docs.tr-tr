@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060658"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885286"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Power BI’da ayrıştırma ağacı görselini kullanma (önizleme)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme (önizleme)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI'da ayrıştırma ağacı görseli birden çok boyutta verileri görselleştirmenize olanak tanır. Verileri otomatik olarak toplar ve herhangi bir sırada boyutlarınızda detaya gitmenizi sağlar. Aynı zamanda bir yapay zeka (AI) görselleştirmesi olduğundan, belirli ölçütler temelinde detayına gidilecek bir sonraki boyutu bulmasını isteyebilirsiniz. Bu da geçici bir inceleme yapmak ve kök neden analizi yürütmek için değerli bir araç olmasını sağlar.
@@ -30,7 +30,7 @@ Bu öğreticide iki örnek kullanılır:
 - Video oyunu satışlarını oyun türü ve yayıncı gibi çeşitli faktörlere göre çözümleyen bir satış senaryosu.
 
 
-## <a name="get-started"></a>Başlangıç
+## <a name="get-started"></a>Kullanmaya başlayın
 Görselleştirmeler bölmesinden ayrıştırma ağacı simgesini seçin.
 ![Ayrıştırma ağacı filigranı](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
@@ -131,6 +131,8 @@ Aşağıdaki örnekte ilk iki düzey kilitlenmiştir. Diğer bir deyişle rapor 
 ![Ayrıştırma ağacı kilitleme](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
+
+Ağaçta en fazla 50 düzey bulunabilir. Ağaçta tek seferde en fazla 5000 veri noktası görselleştirilebilir. İlk n noktayı göstermek için düzeyler kesilir. Bu değer şu an için her düzeyde en fazla 10 olarak belirlenmiştir. 
 
 Ayrıştırma ağacı aşağıdaki senaryolarda desteklenmez:  
 -   Şirket içi Analysis Services

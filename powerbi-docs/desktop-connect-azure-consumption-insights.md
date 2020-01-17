@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop’ta Azure Tüketim Öngörüleri verilerine bağlanma
+title: Power BI Desktop’ta Azure Consumption Insights verilerine bağlanma
 description: Power BI Desktop'ı kullanarak Azure'a kolayca bağlanın ve hem tüketim hem de kullanım ile ilgili öngörüler edinin
 author: davidiseminger
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876521"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761738"
 ---
-# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Tüketim Öngörüleri verilerine bağlanma
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Consumption Insights verilerine bağlanma
 
 Power BI Desktop'ı Azure’a bağlanmak için kullanabilir ve kuruluşunuzun Azure hizmet kullanımı hakkında ayrıntılı veriler alabilirsiniz. Bu verilerle, Azure harcamalarınızı daha iyi anlamak ve analiz etmek için özel raporlar ve ölçümler oluşturabilirsiniz.
 
@@ -171,7 +171,7 @@ Pek çok panoda, arama veya filtreleme için kullanılan ek tablolar (tarih tabl
 
     ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
-### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5 Adım: Görsellerinizi doğrulama ve alan biçimlendirmesini gereken şekilde ayarlama
+### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5\. Adım: Görsellerinizi doğrulama ve alan biçimlendirmesini gereken şekilde ayarlama
 Bu noktada özgün görselleriniz, tablolarınız ve detaylandırma özelliklerinizden çoğunun beklendiği gibi çalışması gerekir. Bununla birlikte genel görünümü tam olarak biçimlendirmek için bazı küçük ayarlamalar gerekebilir. Tüm panolarınızı ve görsellerinizi tek tek hızla inceleyerek istediğiniz gibi göründüğünden emin olun.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Kullanım verilerini almak için Azure Tüketim Öngörüleri (ACI) API'sini kullanma
@@ -201,7 +201,7 @@ Azure Portalındaki sütunların ve ayrıntıların adları API ve bağlayıcıd
 | Konum | | |Evet |
 | Sayaç Kategorisi |meterCategory |Sayaç Kategorisi |Hayır |
 | Ölçüm kimliği | | |Evet |
-| Sayaç Adı |meterName |Sayaç Adı |Hayır |
+| Ölçüm Adı |meterName |Sayaç Adı |Hayır |
 | Tarife Bölgesi |meterRegion |Tarife Bölgesi |Hayır |
 | Sayaç Alt Kategorisi |meterSubCategory |Sayaç Alt Kategorisi |Hayır |
 | MeterId |meterId |Ölçüm kimliği |Hayır |

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876317"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761192"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery ve SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanarak SAP Business Warehouse'a bağlanma
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:
 
 * İlişkisel kaynaklar üzerinden **DirectQuery**'de, alan listesinde kullanılabilir verileri mantıksal olarak tanımlayan bir dizi sorgu (**Veri Al** veya **Sorgu Düzenleyicisi** iletişim kutusunda tanımlanan şekilde) vardır. Bu durum, SAP BW gibi bir OLAP kaynağına bağlanırken söz konusu *değildir*. Bunun yerine, **Veri Al** ile SAP sunucusuna bağlanıldığında, sadece Infocube veya BEx Sorgusu seçilidir. Ardından, seçili Infocube/BEx Sorgusu'nun tüm Önemli Rakamları ve boyutları, alan listesinde kullanılabilir duruma gelir.   

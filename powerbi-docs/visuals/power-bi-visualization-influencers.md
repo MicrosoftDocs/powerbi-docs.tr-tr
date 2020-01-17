@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871013"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885322"
 ---
-# <a name="key-influencers-visualization"></a>Ana etmenler görselleştirmesi
+# <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Kategorik bir ölçümle ana etmenler görseli oluşturmayı öğrenmek için bu
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Ürün Yöneticiniz, müşterilerin bulut hizmetiniz hakkında olumsuz incelemeler yazmasına hangi faktörlerin yol açtığını bulmanızı istiyor. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx) da indirebilirsiniz. Bağlantılardan birini ve sonra açılan GitHub sayfasından **İndir**'i seçin.
+Ürün Yöneticiniz, müşterilerin bulut hizmetiniz hakkında olumsuz incelemeler yazmasına hangi faktörlerin yol açtığını bulmanızı istiyor. Takip etmek için, Power BI Desktop’ta [Customer Feedback (Müşteri Geri Bildirimi) PBIX dosyasını](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) açın. [Power BI hizmeti veya Power BI Desktop için Customer Feedback Excel dosyasını](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) da indirebilirsiniz. Bağlantılardan birini ve sonra açılan GitHub sayfasından **İndir**'i seçin.
 
 > [!NOTE]
 > Customer Feedback veri kümesinde şu makale temel alınmıştır: [Moro et al., 2014] S. Moro, P. Cortez ve P. Rita. “A Data-Driven Approach to Predict the Success of Bank Telemarketing.” *Decision Support Systems*, Elsevier, 62:22-31, Haziran 2014. 
@@ -267,6 +267,8 @@ Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde ö�
  
 Ana etmenler görselinin bazı sınırlamaları bulunur:
 
+
+
 - Doğrudan Sorgu desteklenmiyor
 - Azure Analysis Services ve SQL Server Analysis Services’e Canlı Bağlantı desteklenmiyor
 - Web'de yayımlama desteklenmiyor
@@ -357,6 +359,9 @@ Aşağıdaki örnekte, düşük puanlamanın etmeni, %14,93’ü düşük olan d
 Bu belirlemenin sebebi, görselleştirmenin etmenleri bulduğunda veri noktalarının sayısını da göz önünde bulundurmasıdır. Aşağıdaki örnekte 29.000’den fazla müşteri ve 10 kat daha az yönetici (yaklaşık 2.900) bulunur. Bunlardan yalnızca 390 tanesi düşük derecelendirme yapmıştır. Görselin yönetici derecelendirmelerinde bir desen mi bulduğunu yoksa bunun rastlantı mı olduğunu saptamak için yeterli verisi yoktur. 
 
 ![Etmenler nasıl saptanır](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Ana etmenler için veri noktası sınırları nelerdir?**
+Analiz 10.000 veri noktasından oluşan bir örnek üzerinde çalıştırılır. Bir taraftaki kabarcıklar, bulunan ana etmenlerin tamamını gösterir. Diğer taraftaki sütun grafikler ve dağılım grafikleri ise bu temel görsellerin örnekleme stratejilerini kullanır.
 
 **Kategorik çözümleme için ana etmenler nasıl hesaplanır?**
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858982"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762244"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Power BI ile hangi örnek veriler kullanılabilir?
-Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Veya bir veri kümeniz olabilir. Henüz Power BI'ın nasıl çalıştığını bilmediğiniz için veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor olabilirsiniz.
+# <a name="get-sample-data-for-power-bi"></a>Power BI için örnek verileri alma
+Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Veya bir veri kümeniz olabilir. Henüz Power BI'ın nasıl çalıştığını bilmediğiniz için veri kümenize bir şekilde zarar verebileceğinizden endişeleniyor musunuz?
 
 Paniğe kapılmayın! obviEnce ([www.obvience.com](http://www.obvience.com/)) ve Microsoft, Power BI kullanımıyla ilgili olarak kendinizi daha rahat hissedene kadar kullanabileceğiniz örnekler oluşturmuştur.  Veriler anonimleştirilmiştir ve farklı sektörleri temsil eder: finans, İK, satış ve daha fazlası. Çevrimiçi belgelerimiz, öğretici ve örneklerdeki örnekleri kullandığı için eşlik edebilirsiniz.      
 
@@ -30,7 +30,7 @@ Başlamadan önce, örneklerin kullanılmasına ilişkin bu yasal yönergeleri i
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Power BI örnek Excel çalışma kitapları için kullanım yönergeleri
 
-©2015 Microsoft Corporation. Tüm hakları saklıdır. Belgeler ve çalışma kitapları "olduğu gibi" sunulmuştur. URL ve diğer İnternet Web sitesi başvuruları dahil olmak üzere çalışma kitaplarında gösterilen bilgiler ve görünümler bildirim verilmeksizin değiştirilebilir. Kullanımlardan doğacak riskler size aittir. Bazı örnekler yalnızca gösterim amaçlı ve kurgusaldır. Gerçek bir ilişkilendirme amaçlanmamıştır veya böyle bir sonuç çıkarılmamalıdır. Burada verilen bilgilerle ilgili olarak Microsoft açık veya zımni hiçbir garanti vermez.
+©2015 Microsoft Corporation. All rights reserved. Belgeler ve çalışma kitapları "olduğu gibi" sunulmuştur. URL ve diğer İnternet Web sitesi başvuruları dahil olmak üzere çalışma kitaplarında gösterilen bilgiler ve görünümler bildirim verilmeksizin değiştirilebilir. Kullanımlardan doğacak riskler size aittir. Bazı örnekler yalnızca gösterim amaçlı ve kurgusaldır. Gerçek bir ilişkilendirme amaçlanmamıştır veya böyle bir sonuç çıkarılmamalıdır. Burada verilen bilgilerle ilgili olarak Microsoft açık veya zımni hiçbir garanti vermez.
 
 Çalışma kitapları size Microsoft ürünlerindeki herhangi bir fikri mülkiyete ilişkin yasal hak vermez. Bu çalışma kitabını, daha sonra başvurmak üzere kopyalayabilir ve dahili amaçlarınız doğrultusunda kullanabilirsiniz.
 
@@ -85,7 +85,7 @@ Bu sektör örneğinde, VanArsdel Ltd. adlı bir üretim şirketi çözümlenir.
 ### <a name="supplier-quality-sample--supplier-quality-samplemediasample-datasetspower-bi-sqpng"></a>Tedarikçi Kalitesi örneği  ![Tedarikçi Kalitesi örneği](media/sample-datasets/power-bi-sq.png)
 [Tedarikçi Kalitesi örneğine ilişkin tura katılın](sample-supplier-quality.md)
 
-Bu sektör örneğinde, genel olarak karşılaşılan tedarik zinciri zorluklarından biri olan tedarikçi kalite analizine odaklanılır. Bu analizde iki birincil ölçüm ön plandadır: toplam hata sayısı ve bu hataların neden olduğu toplam çalışmama süresi. Bu örneğin iki ana hedefi vardır: kalite açısından en iyi ve en kötü tedarikçileri belirlemek ve çalışmama süresini en aza indirmek için hataları bulma ve reddetme konusunda hangi tesislerin daha iyi bir iş çıkardığını öğrenmek.
+Bu sektör örneğinde, genel olarak karşılaşılan tedarik zinciri zorluklarından biri olan tedarikçi kalite analizine odaklanılır. Bu analizde iki ölçüm ön plandadır: toplam hata sayısı ve bu hataların neden olduğu toplam çalışmama süresi. Bu örneğin iki ana hedefi vardır: kalite açısından en iyi ve en kötü tedarikçileri belirlemek ve çalışmama süresini en aza indirmek için hataları bulma ve reddetme konusunda hangi tesislerin daha iyi bir iş çıkardığını öğrenmek.
 
 Artık neleri kullanabileceğinizi biliyorsunuz. Şimdi bu örneklerin nasıl edinileceğini öğrenelim.  
 
@@ -127,10 +127,10 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
    * [Satış ve Pazarlama Örneği](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. İndirdiğiniz dosyayı kaydedin. Dosyayı kaydettiğiniz yer önemlidir.
 
-   * ![Yerel](media/sample-datasets/power-bi-local-file2.png)  **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI’ı kullanarak dosyanızı Power BI’a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
+   * ![Yerel](media/sample-datasets/power-bi-local-file2.png) **Yerel**: Dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki diğer bir konuma kaydederseniz Power BI'ı kullanarak dosyanızı Power BI'a aktarabilirsiniz. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanızın içerdiği raporlar, Power BI sitenizdeki Raporlar bölümünde görünür.
    * ![OneDrive İş](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - İş**: OneDrive İş kullanıyorsanız ve OneDrive İş'te oturum açarken, Power BI'a bağlandığınız hesabı kullanıyorsanız, OneDrive İş Excel’deki, Power BI’daki veya bir .CSV dosyasındaki çalışmanızı veri kümeniz, raporlarınız ve panolarınız ile Power BI’da eşitlenmiş durumda tutmanın en iyi yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
    * ![OneDrive Bireysel](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş ile ilgili olarak elde ettiğiniz avantajların pek çoğundan yararlanırsınız. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel yolunu izleyerek) OneDrive'da Microsoft hesabınızla oturum açmanız gerekir. Bu genellikle, Power BI'da oturum açarken kullandığınız hesaptan farklıdır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
-   * ![SharePoint Ekip Siteleri](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint Ekip Siteleri**    Power BI dosyalarınızı SharePoint - Ekip Siteleri’ne kaydetme, OneDrive İş’e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
+   * ![SharePoint Ekip Siteleri](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint Ekip Siteleri**: Power BI dosyalarınızı SharePoint - Ekip Siteleri’ne kaydetme, OneDrive İş’e kaydetme işlemiyle oldukça benzerdir. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
 1. Power BI hizmetine (app.powerbi.com) gidin ve oturum açın.
 
    > [!TIP]

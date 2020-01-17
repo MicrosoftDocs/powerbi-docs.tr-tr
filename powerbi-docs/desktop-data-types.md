@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868530"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729725"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -51,7 +51,7 @@ Power BI Desktop üç sayı türünü destekler:
 >
 
 ### <a name="datetime-types"></a>Tarih/saat türleri
-Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü; Rapor Görünümü'nde ve modelde ise üç veri türünü destekler.   Modele yükleme sırasında hem Tarih/Saat/Saat Dilimi hem de Süre veri türleri dönüştürülür.
+Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü destekler.  Modele yükleme sırasında hem Tarih/Saat/Saat Dilimi hem de Süre veri türleri dönüştürülür. Power BI Desktop veri modeli yalnızca tarih/saat için destek sunar ancak bunlar tarih veya saat olarak ayrı şekilde biçimlendirilebilir. 
 
 **Tarih/Saat**: Hem tarih hem de saat değerini gösterir.  Aslında, Tarih/Saat değerleri de Ondalık Sayı Türü olarak saklanır.  Dolayısıyla bu iki tür arasında dönüştürme yapabilirsiniz.   Tarihlerin saat kısmı, 1/300 saniyenin (3,33 ms) tam katlarına gelen kesirli değerler olarak saklanır.  1900 ve 9999 arasındaki yıllar desteklenir.
 
@@ -59,7 +59,7 @@ Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü; Rapor G
 
 **Saat**: Yalnızca Saat (tarih kısmı olmadan) değerini gösterir.  Modele dönüştürme yapıldığında Saat değeri, ondalık basamağının solunda hiç basamak olmayan Tarih/Saat değeri ile aynıdır.
 
-**Tarih/Saat/Saat Dilimi**: UTC Tarih/Saat değerlerini gösterir.  Geçerli olarak, modele yüklendiğinde Tarih/Saat türüne dönüştürülür.
+**Tarih/Saat/Saat Dilimi**: Saat dilimi kaydırma değerine sahip UTC Tarih/Saat değerlerini gösterir.  Modele yüklendiğinde Tarih/Saat türüne dönüştürülür. Power BI modeli, saat dilimini kullanıcının konumuna veya yerel ayarına göre ayarlamaz. 09:00 değeri ABD'deki modele yüklendiğinde açıldığı veya görüntülendiği her yerde 09:00 olarak görünür. 
 
 **Süre**: Bir zaman uzunluğunu gösterir. Modele yüklendiğinde Ondalık Sayı türüne dönüştürülür.  Bir Ondalık Sayı türü olarak Tarih/Saat alanına eklendiğinde veya bu alandan çıkarıldığında doğru sonuçlar elde edilebilir.  Bunu bir Ondalık Sayı türü olarak görselleştirmelerde büyüklüğü göstermek için kolayca kullanabilirsiniz.
 

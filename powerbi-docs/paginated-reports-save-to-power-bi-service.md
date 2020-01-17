@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831209"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732096"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama
 
 Bu makalede, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlama hakkında bilgi edineceksiniz. Sayfalandırılmış raporları Çalışma Alanım’a veya Premium kapasitede olan başka bir çalışma alanına yükleyebilirsiniz. Çalışma alanı adının yanında ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) elmas simgesini arayın. 
 
-Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra [bir ağ geçidi oluşturmanız](#create-a-gateway) gerekir.
+Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra bir ağ geçidi oluşturmanız gerekir. Bu makalenin ilerleyen kısımlarındaki [Ağ geçidi oluşturma](#create-a-gateway) bölümüne bakın.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Çalışma alanını Premium kapasiteye ekleme
 
@@ -35,8 +35,33 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
    Bunu değiştirmeniz mümkün olmayabilir. Mümkün değilse, çalışma alanınızı bir Premium kapasiteye eklemek üzere size atama haklarını vermesi için Power BI Premium kapasite yöneticinize başvurun.
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>Report Builder'dan sayfalandırılmış rapor yayımlama
 
-## <a name="upload-a-paginated-report"></a>Sayfalandırılmış raporu karşıya yükleme
+1. Rapor Oluşturucusu'nda sayfalandırılmış raporunuzu oluşturun ve yerel bilgisayarınıza kaydedin.
+
+1. Report Builder'ın **Dosya** menüsünde **Farklı kaydet**'i seçin.
+
+    ![Dosya menüsü > Kaydet > Farklı kaydet](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    Henüz Power BI'da oturum açmadıysanız bu aşamada oturum açmanız veya hesap oluşturmanız gerekir. Report Builder'ın sağ üst köşesinde **Oturum aç**'ı seçip gerekli adımları tamamlayın.
+
+2. Sol taraftaki çalışma alanları listesinden adının yanında elmas simgesi ![Power BI Premium kapasite elması simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) bulunan çalışma alanlarından birini seçin. **Dosya adı** kutusuna bir ad yazıp **Kaydet**'i seçin. 
+
+    ![Premium çalışma alanı seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. Power BI hizmetini bir tarayıcıda açın ve sayfalandırılmış raporu yayımlamak istediğiniz Premium çalışma alanına göz atın. **Raporlar** sekmesinde raporunuzu görebilirsiniz.
+
+    ![Raporlar listesinde sayfalandırılmış rapor](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. Power BI hizmetinde açmak için sayfalandırılmış raporu seçin. Parametreleri varsa, raporu görüntüleyebilmeniz için bunları seçmeniz gerekir.
+
+    ![Parametreleri seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Raporunuzun veri kaynağı şirket içi ortamdaysa bu veri kaynağına erişim sağlama amacıyla [ağ geçidi oluşturma](#create-a-gateway) hakkında bilgi edinin.
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>Power BI hizmetinden sayfalandırılmış rapor yükleme
+
+İsterseniz işlemi Power BI hizmetinden başlatabilir ve sayfalandırılmış raporu karşıya yükleyebilirsiniz.
 
 1. Rapor Oluşturucusu'nda sayfalandırılmış raporunuzu oluşturun ve yerel bilgisayarınıza kaydedin.
 
@@ -62,13 +87,15 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
     ![Kimlik bilgilerini düzenle](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   Raporunuzu rapor listesinde görürsünüz.
+   **Raporlar** sekmesinde raporunuzu görebilirsiniz.
 
     ![Raporlar listesinde sayfalandırılmış rapor](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. Power BI hizmetinde açmak için seçin. Parametreleri varsa, raporu görüntüleyebilmeniz için bunları seçmeniz gerekir.
  
     ![Parametreleri seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Raporunuzun veri kaynağı şirket içi ortamdaysa bu veri kaynağına erişim sağlama amacıyla [ağ geçidi oluşturma](#create-a-gateway) hakkında bilgi edinin.
 
 ## <a name="create-a-gateway"></a>Ağ geçidi oluşturma
 
@@ -89,4 +116,5 @@ Ağ geçitleri şu anda çok değerli parametreleri desteklememektedir.
 
 - [Power BI hizmetinde sayfalandırılmış rapor görüntüleme](consumer/paginated-reports-view-power-bi-service.md)
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
+- [Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](developer/embed-paginated-reports-customers.md)
 

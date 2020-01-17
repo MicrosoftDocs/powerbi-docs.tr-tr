@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199448"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762336"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritaları (Önizleme)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritası görselleştirmeleri oluşturma (önizleme)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -196,7 +196,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 
 ### <a name="france-regions"></a>Fransa: Bölgeler
 
-| ID | ad | name-en |
+| ID | name | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -358,7 +358,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 
 ### <a name="usa-states"></a>ABD: Eyaletler
 
-| ID | ad | postal |
+| ID | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -366,7 +366,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | us-fl |Florida |FL |
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
-| us-sc |South Carolina |SC |
+| us-sc |Güney Carolina |SC |
 | us-ga |Georgia |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
@@ -374,7 +374,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
 | us-nc |North Carolina |NC |
-| us-ok |Oklahoma |OK |
+| us-ok |Oklahoma |Tamam |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |
@@ -400,14 +400,14 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |VEYA |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
-| us-sd |South Dakota |SD |
-| us-nd |North Dakota |ND |
+| us-sd |Güney Dakota |SD |
+| us-nd |Kuzey Dakota |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |

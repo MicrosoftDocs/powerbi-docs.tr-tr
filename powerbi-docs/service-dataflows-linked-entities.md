@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877250"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762198"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme
 
@@ -81,6 +81,7 @@ Bağlantılı varlıklarla çalışırken göz önünde bulundurulması gereken 
 * Bağlantılı varlıkların döngüsel bağımlılıklarına izin verilmez
 * Veri akışı [yeni bir Power BI çalışma alanı](service-create-the-new-workspaces.md) içinde bulunmalıdır
 * Bağlantılı bir varlık, verilerinin şirket içi veri kaynağından alan normal bir varlıkla birleştirilemez
+* Veri akışlarında bir sorgu (örneğin, A sorgusu), başka bir sorgunun (B sorgusu) hesaplanması için kullanıldığında B sorgusu hesaplanmış bir varlık olur. Hesaplanmış varlıklar, şirket içi kaynaklara başvuramaz.
 
 
 ## <a name="next-steps"></a>Sonraki Adımlar

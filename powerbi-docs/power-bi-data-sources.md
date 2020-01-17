@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958506"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762566"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
 Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](service-dataflows-data-sources.md).
+
+> [!NOTE]
+> Birçok Power BI Desktop veri bağlayıcısı, kimlik doğrulaması için Internet Explorer 10 (veya daha yeni bir sürümü) uygulamasına ihtiyaç duyar. 
+
 
 | Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Hayır | Hayır |
 | Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Hayır | Hayır |
+| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır |
 | Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure DevOps Server | Evet | Evet | Hayır | Evet | Evet |
 | Azure HDInsight (HDFS) | Evet | Evet | Hayır | Hayır | Hayır |
@@ -65,8 +69,8 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Google BigQuery | Evet | Evet | Hayır | Hayır | Hayır |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır |
-| IBM DB2 | Evet | Evet | Evet | Evet | Evet |
-| IBM Informix Veritabanı | Evet | Evet | Hayır | Evet | Evet |
+| IBM DB2 | Evet | Evet | Evet | Evet | Hayır |
+| IBM Informix Veritabanı | Evet | Evet | Hayır | Evet | Hayır |
 | IBM Netezza | Evet | Evet | Evet | Evet | Evet |
 | Impala | Evet | Evet | Evet | Evet | Evet |
 | Indexima | Evet | Evet | Evet | Evet | Evet |
@@ -95,7 +99,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Projectplace | Evet | Evet | Hayır | Hayır | Hayır |
-| PostgreSQL | Evet | Evet | Evet | Evet | Evet |
+| PostgreSQL | Evet | Evet | Evet | Evet | Hayır |
 | Power BI veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
 | Power BI veri kümeleri | Evet | Evet | Evet | Hayır | Hayır |
 | Power Platform veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
@@ -114,7 +118,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | SharePoint Listesi | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
 | SharePoint Online Listesi | Evet | Evet | Hayır | Evet <sup>2</sup> | Hayır |
 | Smartsheet | Evet | Evet | Hayır | Hayır | Hayır |
-| Snowflake | Evet | Evet | Evet | Evet | Evet |
+| Snowflake | Evet | Evet | Evet | Evet | Hayır |
 | Spark | Evet | Evet | Evet | Evet | Hayır |
 | SparkPost | Evet | Evet | Hayır | Hayır | Hayır |
 | SQL Server | Evet | Evet | Evet | Evet | Evet |
@@ -137,7 +141,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Zendesk | Evet | Evet | Hayır | Hayır | Hayır |
 | | | | | | | | |
 
-<sup>1</sup> [ACE OLEDB sağlayıcısı](https://www.microsoft.com/download/details.aspx?id=54920) ile desteklenir, ağ geçidiyle aynı makineye yüklenir.
+<sup>1</sup>[ACE OLEDB sağlayıcısı](https://www.microsoft.com/download/details.aspx?id=54920) ile desteklenir, ağ geçidiyle aynı makineye yüklenir.
 
 <sup>2</sup> Şirket içi sürüle aynı M işleviyle desteklenir.
 

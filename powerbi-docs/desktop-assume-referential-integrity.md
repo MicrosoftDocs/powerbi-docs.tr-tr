@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5af9c2e5979121054e51b928c58f49477c19a7d0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878818"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761830"
 ---
-# <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Power BI Desktop'ta Bilgi tutarlılığı varsay ayarları
+# <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop'taki Bilgi Tutarlılığı Varsay ayarını uygulama
 **DirectQuery** kullanarak bir veri kaynağına bağlanırken, veri kaynağınızda daha verimli sorgular çalıştırılmasını sağlamak için **Bilgi Tutarlılığı Varsay** seçeneğini kullanabilirsiniz. Bu özellik, temel alınan verilere ilişkin bazı gereksinimlere sahiptir ve yalnızca **DirectQuery** ile kullanılabilir.
 
 **Bilgi tutarlılığı varsay** ayarı, veri kaynağındaki sorguların **OUTER JOIN** yerine **INNER JOIN** deyimlerini kullanmasını sağlar ve böylece sorgu verimliliği artar.

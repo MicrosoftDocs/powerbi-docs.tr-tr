@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 87a72ba5ac69334c04e65871c81a9006e183d88d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876367"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761284"
 ---
-# <a name="data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri Görünümü
+# <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri görünümüyle çalışma
 **Veri Görünümü**, **Power BI Desktop** modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri **Sorgu Düzenleyicisi**'nde görüntülemekten farklıdır. Veri Görünümü ile verilerinizin modele yüklendikten *sonraki* halini incelersiniz.
 
 Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo veya sütundaki verileri satır düzeyinde görmek istersiniz. Bu, özellikle ölçü ve hesaplanmış sütun oluşturduğunuzda veya bir veri türü ya da veri kategorisi tanımlamanız gerektiğinde yararlıdır.

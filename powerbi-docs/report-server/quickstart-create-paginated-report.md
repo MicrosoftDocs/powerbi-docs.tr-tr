@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875045"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732050"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma
+Bu makalede Power BI Rapor Sunucusu için birkaç kolay adımda sayfalandırılmış rapor oluşturacaksınız.
+
+Power BI hizmeti için Report Builder'da sayfalandırılmış raporlar oluşturma konusunda yardım almak mı istiyorsunuz? [Power BI Sayfalandırılmış Rapor Oluşturucu](../report-builder-power-bi.md) makalesine bakın.
+
 Adından da anlaşılacağı gibi sayfalandırılmış raporlar birçok sayfayı çalıştırabilir. Bunlar, sabit bir biçimde düzenlenmiştir ve tam özelleştirme sunar. Sayfalandırılmış raporlar .rdl dosyalarıdır.
 
 Tıpkı SQL Server Reporting Services (SSRS) web portalında yaptığınız gibi, sayfalandırılmış raporları Power BI Rapor Sunucusu web portalında depolayabilir ve yönetebilirsiniz. Sayfalandırılmış raporları SQL Server Veri Araçları'ndaki (SSDT) Rapor Oluşturucusu'nu veya Rapor Tasarımcısı'nı kullanarak oluşturur ve düzenler, ardından da bu iki web portalından birinde yayımlarsınız. Böylece kuruluşunuzdaki rapor okuyucular raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -24,7 +28,7 @@ Tıpkı SQL Server Reporting Services (SSRS) web portalında yaptığınız gibi
 
 Rapor Oluşturucusu'nda veya Rapor Tasarımcısı'nda zaten sayfalandırılmış raporlar oluşturduysanız Power BI Rapor Sunucusu için sayfalandırılmış raporlar oluşturmaya hazırsınız demektir. Aksi halde, bu hızlı adımlar sayesinde işe koyulabilirsiniz.
 
-## <a name="step-1-install-and-start-report-builder"></a>1\. Adım: Rapor Oluşturucusu'nu yükleme ve başlatma
+## <a name="step-1-start-report-builder"></a>1\. Adım: Report Builder'ı başlatma
 Bir SSRS sunucusu için rapor oluşturmak üzere Rapor Oluşturucusu'nu zaten yüklemiş olabilirsiniz. Power BI Rapor Sunucusu için rapor oluşturmak üzere aynı sürümü veya Rapor Oluşturucusu'nu kullanabilirsiniz. Rapor Oluşturucu'sunu henüz yüklemediyseniz bunu kolayca yapabilirsiniz.
 
 1. Power BI Rapor Sunucusu web portalında **Yeni** > **Sayfalandırılmış Rapor** seçeneğini belirleyin.

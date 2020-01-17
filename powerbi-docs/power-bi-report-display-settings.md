@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265863"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762520"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Power BI raporlarında sayfa görüntüleme ayarları
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Power BI raporuna sayfa görüntüleme ayarlarını uygulama
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunu anlıyoruz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğiniz için, bu bazen güç olabilir. 
 
 Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme boyutu ise **16:9** şeklindedir. Farklı bir en boy oranı kullanmak veya raporunuzu farklı şekilde sığdırmak istiyorsanız şu iki araçtan faydalanabilirsiniz: ***Sayfa görünümü*** ayarları ve ***Sayfa boyutu*** ayarları.
@@ -39,7 +39,7 @@ Power BI hizmetinde, bir rapor açın ve sol üst menü çubuğundan **Görünü
 
 ![hizmet sayfası görünümü ayarları](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Sayfa görünümü ayarları, [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde bulunmaktadır. Düzenleme görünümünde, rapor sahibi bireysel rapor sayfalarına sayfa görünümü ayarları atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler. İş arkadaşlarınız Okuma görünümünde *bazı* **Sayfa görünümü** ayarlarını değiştirebilir ancak bu değişiklikler rapordan çıktıklarında kaydedilmez.
+Sayfa görünümü ayarları, [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde bulunmaktadır. Düzenleme görünümünde, rapor sahibi bireysel rapor sayfalarına sayfa görünümü ayarları atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler. İş arkadaşlarınız Okuma görünümünde *bazı***Sayfa görünümü** ayarlarını değiştirebilir ancak bu değişiklikler rapordan çıktıklarında kaydedilmez.
 
 ## <a name="page-view-settings"></a>Sayfa görünümü ayarları
 Birinci Sayfa görünümü ayarları kümesi, rapor sayfanızın tarayıcı penceresiyle ilgili görüntülenmesini denetler. Şunlardan birini seçin:
@@ -76,7 +76,7 @@ Birinci Sayfa görünümü ayarları kümesi, rapor sayfanızın tarayıcı penc
 
 [Power BI'daki raporlar](consumer/end-user-reports.md) hakkında daha fazla bilgi edinin
 
-[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

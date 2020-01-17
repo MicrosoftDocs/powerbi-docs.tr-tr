@@ -9,14 +9,14 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 712864afdea5431fa630d052271e8cb2c05e9dd2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866080"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759894"
 ---
-# <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini birleştirme
+# <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini analiz etme
 
 Birden çok veri kaynağından veriler olması yaygın bir durumdur. Örneğin, biri ürün bilgileri ve diğeri de satış bilgileri için iki veritabanınız olabilir. **Power BI Desktop** ile farklı kaynaklardan verileri birleştirerek ilgi çekici, merak uyandıran veri çözümlemeleri ve görselleştirmeler oluşturabilirsiniz. 
 
@@ -51,7 +51,7 @@ Her veri kümesini içeri aktaracak, dönüştürme ve toplama işlemleri yapaca
    
 **Power Query Editor**’da tablo önizlemesi açılır. Burada verileri temizlemek için dönüşümler uygulayabilirsiniz.
    
-![Power Query Editor](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
+![Power Query Düzenleyicisi](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_3.png)
    
 >[!NOTE]
 >**Power Query Editor**’ı, Power BI Desktop’ta **Giriş** şeridinden **Sorguları Düzenle** > **Sorguları Düzenle** öğesini seçerek veya **Rapor Görünümü** içinde herhangi bir sorgunun yanındaki **Diğer seçenekler**’e sağ tıklayıp veya seçip **Sorguyu Düzenle** seçeneğini belirleyerek de açabilirsiniz.
@@ -75,7 +75,7 @@ Ardından, örnek Northwind satış sistemi OData akışından sipariş verileri
    
    ![OData alma](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. **OData akışı** iletişim kutusunda Northwind OData akışının URL'sini (`https://services.odata.org/V3/Northwind/Northwind.svc/`) yapıştırın. **Tamam**'ı seçin.
+2. **OData akışı** iletişim kutusunda Northwind OData akışının URL'sini (`https://services.odata.org/V3/Northwind/Northwind.svc/`) yapıştırın. **Tamam**’ı seçin.
    
    ![OData akışı iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -120,7 +120,7 @@ Power Query Editor, verilerinizi zenginleştirmeniz için hesaplamalar ve özel 
 
 3. *=* öğesinden sonra gelen **Özel sütun formülü** alanına **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** parametrelerini girin. (Alan adlarını yazmak yerine **Kullanılabilir sütunlar** kaydırma kutusundan seçebilir ve **<< Ekle** seçeneğini kullanabilirsiniz.) 
 
-4. **Tamam**'ı seçin.
+4. **Tamam**’ı seçin.
    
    ![Özel Sütun iletişim kutusu](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
 

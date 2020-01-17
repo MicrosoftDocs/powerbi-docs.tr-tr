@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265448"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762106"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 **Power BI hizmetinin**, **Office 365 US Government Community** aboneliklerinin bir parçası olarak ABD Kamu müşterilerine yönelik bir sürümü bulunmaktadır. Bu makalede ele alınan **Power BI hizmeti** sürümü, ABD Kamu müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden farklıdır.
@@ -40,7 +40,7 @@ Lütfen **Power BI US Government** hizmetinin yalnızca **Pro lisansı** olarak 
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Kamuya ve genel kullanıma sunulan Azure Bulut hizmetleri arasında bağlantı 
 
-Azure birçok bulutta dağıtılmaktadır. Varsayılan olarak kiracıların, buluta özgü bir örnek için güvenlik duvarı kurallarını açmasına izin verilir ancak bulutlar arası ağlar farklıdır ve hizmetler arasında iletişim kurulabilmesi için belirli güvenlik duvarı kurallarının açılması gerekir. Power BI müşterisiyseniz ve genel bulutta erişmeniz gereken SQL örnekleriniz varsa aşağıdaki veri merkezleri için SQL'de Azure Kamu Bulutu IP alanı için belirli güvenlik duvarı kurallarını açmanız gerekir:
+Azure birden çok buluta dağıtılır. Varsayılan olarak kiracıların, buluta özgü bir örnek için güvenlik duvarı kurallarını açmasına izin verilir ancak bulutlar arası ağlar farklıdır ve hizmetler arasında iletişim kurulabilmesi için belirli güvenlik duvarı kurallarının açılması gerekir. Power BI müşterisiyseniz ve genel bulutta erişmeniz gereken SQL örnekleriniz varsa aşağıdaki veri merkezleri için SQL'de Azure Kamu Bulutu IP alanı için belirli güvenlik duvarı kurallarını açmanız gerekir:
 
 * USGov Iowa
 * USGov Virginia
@@ -50,7 +50,7 @@ Azure birçok bulutta dağıtılmaktadır. Varsayılan olarak kiracıların, bul
 Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bilgileri almak için indirilebilir [Azure Kamu hizmeti belgelerine](https://www.microsoft.com/download/details.aspx?id=57063) başvurun.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Power BI US Government hizmetine ilişkin sınırlamalar
-**Power BI hizmetinin** ticari sürümünde sunulan özelliklerden bazıları, ABD Kamu müşterilerine yönelik **Power BI hizmetinde** *sunulmamaktadır*. Power BI ekibi, söz konusu özelliklerin ABD Kamu müşterilerine de sunulması için aktif olarak çalışarak ilgili özellikler kullanılabilir olduğunda bu makaleyi güncelleştirecektir.
+**Power BI hizmetinin** ticari sürümünde sunulan özelliklerden bazıları, ABD Kamu müşterilerine yönelik **Power BI hizmetinde***sunulmamaktadır*. Power BI ekibi, söz konusu özelliklerin ABD Kamu müşterilerine de sunulması için aktif olarak çalışarak ilgili özellikler kullanılabilir olduğunda bu makaleyi güncelleştirecektir.
 
 * **SharePoint Online'da ekleme** - Power BI web bölümünü kullanarak SharePoint Online’a içerik eklemek mümkün değildir. Bununla birlikte, [*Ekleme* web bölümü](https://docs.microsoft.com/power-bi/service-embed-secure) kullanıldığında güvenli ekleme çalışır. Özel durum listesine *app.powerbigov.us*'i eklemelisiniz. Bu işlem, [SharePoint sayfalarına içerik eklemeye izin verme veya bunu kısıtlama](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) makalesinde verilen yönergeler izlenerek yapılabilir.
 * **Power BI US Government**, yalnızca **Pro** lisans olarak kullanılabilir. Bir yönetim portalında (veya kullanıcılar olarak) Power BI (Ücretsiz) lisanslarına yapılan tüm başvurular, ticari bir Power BI hizmet bulutunda çalışmaktadır.
@@ -59,6 +59,7 @@ Genel bulutta IP alanları kullanılabilir. Kamu bulutuna yönelik en güncel bi
 * **Panolar ve raporlar için kullanım ölçümleri** - Kullanım ölçümleri, raporlar ve panolar için kullanılamaz. Müşteriler, kuruluşlarındaki içeriğe ait kullanım bilgilerini almak için denetim günlüğü verilerini kullanabilir.
 * **Veri akışları** - Veri akışları kullanılamaz.
 * **Sayfalandırılmış raporlar** - Sayfalandırılmış raporlar şu anda yalnızca USGov Virginia bölgesinde kullanılabilir.  USGov Texas desteği planlanmaktadır ancak henüz mevcut değildir.
+* Kamu topluluk bulutundaki (GCC) Power BI içeriğini yalnızca bir Office 365 SKU’su kullanarak ekleyebilirsiniz. GCC High müşterileri [Office 365’i veya Azure SKU](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365)’larını kullanabilir.
 
 Hesabınıza atanmış Ücretsiz **Power BI** lisansları varsa bu lisanslar, **Power BI** hizmetinin ticari bir sürümünde çalıştırılmaktadır ve **Power BI US Government** teklifinin bir parçası değildir. Bu Ücretsiz hesaplar ile ilgili olarak aşağıdaki sorunlarla karşılaşabilirsiniz:
 
@@ -88,7 +89,7 @@ Aşağıdaki sorular (ve cevapları), hizmet ile ilgili ihtiyacınız olan bilgi
 
 **Cevap:** Evet, URL'ler farklıdır. URL'ler aşağıdaki tabloda gösterilmiştir:
 
-| Ticari sürüm URL'si | US Government sürümü URL'si | GCC High için ABD Kamu URL'si |
+| Ticari sürüm URL'si | ABD Kamu sürümü URL'si | GCC High için ABD Kamu URL'si |
 | --- | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 

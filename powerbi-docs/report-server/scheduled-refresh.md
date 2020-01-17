@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699027"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837609"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
 Power BI raporları için zamanlanmış yenileme, bir rapora ilişkin verilerin güncel kalmasını sağlar.
@@ -61,8 +61,10 @@ Analysis Services örneklerini izleme hakkında bilgi için bkz. [Monitor an Ana
 
 Analysis Services bellek ayarları hakkında bilgi için bkz. [Memory Properties (Bellek Özellikleri)](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
 
+### <a name="data-model-size-limit"></a>Veri modeli boyut sınırı
+Zamanlanan yenileme sırasında dahili Analysis Services altyapısına yüklenen veri modelinin boyutu en fazla 2.000 MB (2 GB) olabilir. Bu üst sınır yapılandırılamaz. Veri modeliniz 2 GB'ı aşarsa şu yenileme hatasını alırsınız: "Sonucun uzunluğu hedef büyük türün uzunluk sınırını (2 GB) aşıyor." Bu durumda modeli bir Analysis Services örneğinde barındırmanız ve raporda modelin canlı bağlantısını kullanmanız önerilir.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI raporlarında, [zamanlanmış yenilemeyi](configure-scheduled-refresh.md) yapılandırın.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

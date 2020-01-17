@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 16af5a6c8b5341067c458329c68da0a1a0fe14a5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311480"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761491"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için raporları iyileştirme
+# <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI raporlarını mobil uygulama için iyileştirme
 Dikey düzen oluşturarak mobil uygulamalarda rapor görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop ve Power BI hizmetinde, dikey modda en iyi deneyim için rapor görsellerini yeniden düzenleyebilir ve yeniden boyutlandırabilirsiniz.  
 
 Bunun yerine bir mobil cihazda rapor görüntüleme hakkında bilgi mi arıyorsunuz? Şu hızlı başlangıcı deneyin: [Power BI mobil uygulamalarında pano ve raporları keşfetme](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).

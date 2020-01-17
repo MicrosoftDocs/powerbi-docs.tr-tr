@@ -1,20 +1,20 @@
 ---
-title: Power BI Sayfalandırılmış Rapor Oluşturucusu’ndaki paylaşılan veri kümelerini kullanma
-description: Power BI Sayfalandırılmış Rapor Oluşturucusu’ndaki paylaşılan veri kümelerine bağlanın.
-ms.date: 07/23/2019
+title: Power BI paylaşılan veri kümesiyle sayfalandırılmış rapor oluşturma - Power BI Report Builder
+description: Power BI Report Builder'da Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturun.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791278"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691480"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki paylaşılan veri kümelerini kullanma
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturma
 
 Power BI Desktop’ta oluşturduğunuz bir veri kümesini, Power BI Rapor Oluşturucusu sayfalandırılmış raporları için veri kaynağı olarak kullanabilirsiniz. Şöyle bir senaryo düşünün: Power BI Desktop’ta bir Power BI raporu oluşturdunuz. Veri modelini tasarlamak için çok zaman harcadınız, sonra da çeşitli harika görsellerle çok güzel bir Power BI raporu oluşturdunuz. Raporunuzda birçok satır içeren bir matris bulunur, bu nedenle satırların hepsini görmek için kaydırmanız gerekir. Rapor okuyucularınız bu matristeki tüm satırları gösterecek bir rapor yazdırabilmek ister. Bir Power BI sayfalandırılmış raporu, sayfa üst bilgileriyle alt bilgileri ve tasarladığınız kusursuz bir sayfa düzenine sahip, birden çok sayfada çalışan bir tablo veya matrisi yazdırarak bunu başarabilir. Bu rapor, Power BI Desktop raporunu tamamlayıcı niteliktedir. Bunların tam olarak aynı verileri temel almasını ve tutarsızlık olmamasını istediğiniz için aynı veri kümesini kullanırsınız.
 
@@ -99,13 +99,13 @@ Power BI raporunuzdaki ve Rapor Oluşturucusu raporunuzdaki verilerin aynı olma
 
     ![Sorgu sonuçları](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. **Tamam**'ı seçin.
+1. **Tamam**’ı seçin.
 
     Sorgunuzu **Veri Kümesi Özellikleri** iletişim kutusunun **Sorgu** penceresinde görürsünüz.
 
     ![Veri kümesi özellikleri iletişim kutusu](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
-1. **Tamam**'ı seçin.
+1. **Tamam**’ı seçin.
 
     Yeni veri kümenizi artık Rapor Verileri bölmesinde alanlarının listesiyle birlikte görürsünüz.
 

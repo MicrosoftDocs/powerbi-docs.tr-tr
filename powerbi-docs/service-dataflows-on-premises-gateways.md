@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877262"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762589"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Şirket içi veri kaynakları ile veri akışlarını kullanma
 
@@ -24,7 +24,8 @@ ms.locfileid: "73877262"
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Kurumsal Ağ Geçidini veri akışları ile birlikte kullanmak üzere yapılandırma
 
-Şirket içi veri kaynağını bir veri akışında kullanmak için, veri akışını oluşturan kullanıcının yüklenmiş ve yapılandırılmış bir **Kurumsal Ağ Geçidine** sahip olması gerekir. Veri akışını oluşturan kullanıcının ağ geçidini bir veri akışında kullanabilmesi için aynı zamanda Kurumsal Ağ Geçidinin yöneticisi olması gerekir.
+Ağ geçidi kullanarak veri akışı oluşturmak isteyen kullanıcıların Kurumsal Ağ Geçidi'nin yöneticisi olması veya yöneticinin, kullanılması planlanan veri kaynağını kullanıcı ile paylaşmış olması gerekir. 
+
 
 > [!NOTE]
 > Veri akışları yalnızca Kurumsal Ağ Geçitleri kullanıldığında desteklenir.
@@ -35,7 +36,7 @@ Bir veri akışı oluştururken, aşağıdaki görüntüde gösterildiği gibi v
 
 ![Şirket içi veri kaynağı seçme](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Seçiminizi yaptıktan sonra, şirket içi verilere erişmek için kullanılacak Kurumsal Ağ Geçidine yönelik bağlantı bilgilerini sağlamanız istenir. Ağ geçidinin kendisi seçmeniz ve seçili ağ geçidine ait kimlik bilgilerini sağlamanız gerekir. Açılır listede yalnızca kullanıcının yönetici olduğu ağ geçitleri görünür.
+Seçiminizi yaptıktan sonra, şirket içi verilere erişmek için kullanılacak Kurumsal Ağ Geçidine yönelik bağlantı bilgilerini sağlamanız istenir. Ağ geçidinin kendisi seçmeniz ve seçili ağ geçidine ait kimlik bilgilerini sağlamanız gerekir.
 
 ![Bağlantı ayrıntılarını sağlama](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

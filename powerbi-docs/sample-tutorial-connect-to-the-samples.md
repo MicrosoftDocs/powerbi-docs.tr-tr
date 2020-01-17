@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873843"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762175"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Power BI hizmetindeki örneklere bağlanma
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Power BI için örnek paketleri içeri aktarma ve açma
 
 Bu öğreticide aşağıdaki işlemler hakkında bilgi edinirsiniz: 
 - Örnek içerik paketini içeri aktarın, Power BI hizmetine ekleyin ve içeriği açın. *İçerik paketleri*, veri kümesinin bir pano ve raporla birlikte sunulduğu bir örnek türüdür. 

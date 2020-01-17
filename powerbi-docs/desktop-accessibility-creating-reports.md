@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4686b15e04d3724256c76d7ba27a125cb04e86b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878972"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761991"
 ---
-# <a name="creating-accessible-reports-in-power-bi"></a>Power BI’da erişilebilir raporlar oluşturma
+# <a name="design-power-bi-reports-for-accessibility"></a>Power BI raporlarını erişilebilirlik için tasarlama
 Etkileyici raporlar tasarlayıp oluşturabilir, aynı zamanda bu raporları erişilebilirlik için tasarlayabilirsiniz. Bir rapor oluştururken, hedef kitleniz kim olursa olsun, raporlarınızı özel bir tasarıma uyarlanmasına gerek kalmadan mümkün olduğunca kullanılabilir olacak şekilde oluşturmanız gerekir.
 
 ![Yüksek karşıtlık pencere ayarları](media/desktop-accessibility/accessibility-05.png)

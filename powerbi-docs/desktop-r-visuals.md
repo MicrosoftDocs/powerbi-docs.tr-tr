@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265076"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729822"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 Power BI Desktop'la verilerinizi görselleştirmek için *R* programlama dilini kullanabilirsiniz. [R](https://mran.revolutionanalytics.com/documents/what-is-r) istatistiksel bilgi işlem ve grafiklere yönelik bir dil ve ortamdır.
@@ -128,6 +128,8 @@ R görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek R
 Power BI Desktop'ta R görsellerinin şöyle sınırlamaları vardır:
 
 * Veri boyutları: R görseli tarafından çizim için kullanılan veriler 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
+
+* Çözünürlük: Tüm R görselleri 72 DPI çözünürlükte görüntülenir.
 
 * Hesaplama süreleri: R görseli hesaplama süresi 5 dakikayı aşarsa zaman aşımı hatasına neden olur.
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879652"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759871"
 ---
-# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS Çok Boyutlu Modellerine bağlanma
+# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS çok boyutlu modellerine bağlanma
 Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
 
 Bir **SSAS MD** veritabanına bağlanmak için aşağıdaki resimde gösterildiği gibi **Veri Al &gt; Veritabanı &gt; SQL Server Analysis Services Veritabanı** yolunu izleyin:

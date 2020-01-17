@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878597"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761692"
 ---
-# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Maliyet Yönetimi’ne bağlanma
+# <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop'ta Azure Maliyet Yönetimi bağlayıcısı ile görseller ve raporlar oluşturma
 
 Azure harcamalarınızı daha iyi anlamanıza yardımcı olan güçlü, özelleştirilmiş görselleştirmeler ve raporlar oluşturmak için Power BI Desktop için Azure Maliyet Yönetimi bağlayıcısını kullanabilirsiniz. Azure Maliyet Yönetimi bağlayıcısı şu anda [Microsoft Müşteri Sözleşmesi](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) veya [Kurumsal Anlaşması](https://azure.microsoft.com/pricing/enterprise-agreement/) olan müşterileri destekler.  
 
@@ -43,7 +43,7 @@ Power BI Desktop’ta **Azure Maliyet Yönetimi bağlayıcısını** kullanmak i
 
 Bir **Microsoft Müşteri Sözleşmesi** hesabına bağlanmak için, Azure portalından **Faturalama profili kimliğinizi** alabilirsiniz:
 
-1.  [Azure portalında](https://portal.azure.com/) **Maliyet Yönetimi + Faturalandırma**’ya gidin.
+1.  [Azure portalında](https://portal.azure.com/)**Maliyet Yönetimi + Faturalandırma**’ya gidin.
 2.  Faturalama profilinizi seçin. 
 3.  Menüdeki **Ayarlar** bölümünde, kenar çubuğundan **Özellikler**’i seçin.
 4.  **Faturalama profili** bölümünde **Kimlik**’i seçin. 
@@ -59,7 +59,7 @@ Bir **Microsoft Müşteri Sözleşmesi** hesabına bağlanmak için, Azure porta
 
 Bir Kurumsal Anlaşma (EA) hesabıyla bağlantı kurmak için, Azure portalından kayıt kimliğinizi alabilirsiniz:
 
-1.  [Azure portalında](https://portal.azure.com/) **Maliyet Yönetimi + Faturalandırma**’ya gidin.
+1.  [Azure portalında](https://portal.azure.com/)**Maliyet Yönetimi + Faturalandırma**’ya gidin.
 2.  Fatura hesabınızı seçin.
 3.  **Genel Bakış** menüsünde **Faturalama hesabı kimliği**’ni kopyalayın.
 4.  **Kapsam Seçin** için **Kayıt Numarası**’nı seçin ve önceki adımdaki faturalama profili kimliğini yapıştırın. 

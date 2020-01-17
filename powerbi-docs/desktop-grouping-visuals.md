@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867487"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761146"
 ---
-# <a name="use-grouping-in-power-bi-desktop"></a>Power BI Desktop'ta gruplandırmayı kullanma
+# <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarındaki görselleri gruplandırma
 **Power BI Desktop**’ta **gruplandırma** özelliğini kullanarak raporunuzdaki düğmeleri, metin kutularını, şekilleri, görüntüleri ve oluşturduğunuz her türlü görseli gruplandırabilirsiniz. Bir rapordaki görsellerin gruplandırılması, grubu tek bir nesne gibi ele almanızı sağlar, böylece taşımayı, yeniden boyutlandırmayı ve raporunuzdaki katmanlarla çalışmayı daha kolay, daha hızlı ve daha sezgisel hale getirir.
 
 ![Gruplandırma özelliğini kullanma](media/desktop-grouping-visuals/grouping-visuals-01.png)

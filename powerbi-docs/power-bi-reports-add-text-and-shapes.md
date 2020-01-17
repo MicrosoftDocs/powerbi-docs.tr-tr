@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874432"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762474"
 ---
-# <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Power BI raporlarındaki metin kutuları ve şekiller
+# <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI raporlarına metin kutuları ve şekiller ekleme
 Power BI hizmeti ve Power BI Desktop kullanılarak, raporlara metin kutuları ve şekiller ekleyebilirsiniz. Her iki durumda da, rapor için düzenleme izinlerine sahip olmanız gerekir. Power BI hizmetinde sizinle bir rapor paylaşıldıysa, düzenleme izinlerine sahip olmazsınız. 
 
 Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/12-formatting) için Power BI Desktop kullanırken izleyin ve ardından, bunun yerine Power BI hizmetini kullanarak kendiniz denemek için aşağıdaki adımları izleyin.
@@ -65,6 +65,6 @@ Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/
 ## <a name="next-steps"></a>Sonraki adımlar
 [Metin kutularına köprü ekleme](service-add-hyperlink-to-text-box.md)
 
-[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

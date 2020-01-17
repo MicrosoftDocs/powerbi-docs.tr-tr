@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877972"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760739"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
+# <a name="create-power-bi-visuals-by-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
 **Power BI Desktop** ile verilerinizi görselleştirmek için **Python** programlama dilini kullanabilirsiniz.
 
 ## <a name="prerequisites"></a>Önkoşullar
@@ -167,6 +167,7 @@ Bu öğretici **Power BI Desktop**’ta Python ile görseller oluşturmaya başl
 **Power BI Desktop**'ta Python görsellerine ilişkin bazı sınırlamalar vardır:
 
 * Veri boyutu sınırlamaları: Python görseli tarafından çizim için kullanılan veri 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
+* Çözünürlük: Tüm Python görselleri 72 DPI çözünürlükte görüntülenir.
 * Hesaplama süresi sınırlaması: Bir Python görseli hesaplaması beş dakikadan uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
 * İlişkiler: Diğer Power BI Desktop görsellerinde olduğu gibi, aralarında tanımlanmış hiçbir ilişki bulunmayan farklı tablolardan veri alanları seçilirse hata oluşur.
 * Python görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve çapraz filtrelemenin kaynağı olamaz.

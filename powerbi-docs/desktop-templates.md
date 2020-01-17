@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879578"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760009"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Power BI Desktop’taki şablonları kullanma
+# <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop için rapor şablonu oluşturma
 
 **Power BI Desktop** ile kuruluşunuz genelinde içgörüler paylaşan etkileyici raporlar oluşturabilirsiniz. Power BI Desktop **şablonları** ile siz ve kuruluşunuzdaki diğer kullanıcıların, yeni raporun düzeni, veri modeli ve sorgular için başlangıç noktası olarak kullanabileceği, mevcut şablonu temel alan bir rapor oluşturarak çalışmanızı kolaylaştırabilirsiniz. **Power BI Desktop**’taki şablonlar hızlı bir başlangıç yapmanıza ve rapor oluşturma işlemini standart hale getirmenize yardımcı olur.
 

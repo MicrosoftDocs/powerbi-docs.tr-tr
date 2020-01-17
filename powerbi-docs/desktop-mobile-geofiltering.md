@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878103"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761008"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Mobil uygulamalar için Power BI Desktop'ta coğrafi filtreler ayarlama
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Mobil uygulamada kullanmak için Power BI Desktop'ta coğrafi filtreler ayarlama
 Power BI Desktop'ta bir sütunun [coğrafi verilerini kategorilere ayırarak](desktop-data-categorization.md) Power BI Desktop uygulamasının bir rapordaki görsellerde bulunan değerleri nasıl işlemesi gerektiğini belirleyebilirsiniz. Ayrıca siz veya iş arkadaşlarınız söz konusu raporu Power BI mobil uygulamalarında görüntülediğinizde Power BI, otomatik olarak bulunduğunuz konumlarla eşleşen coğrafi filtreler sağlar. 
 
 Örneğin, müşterilerle toplantı yapmaya giden bir satış yöneticisi olduğunuzu ve ziyaret etmeyi planladığınız müşteriyle ilgili toplam satış ve gelir rakamlarını hızlıca filtrelemek istediğinizi düşünelim. Geçerli konumunuza ait verileri eyalet, şehir veya adres kullanarak detaylandırmak istiyorsunuz. Daha sonra zaman kalırsa yakınlardaki diğer müşterileri de ziyaret etmek istiyorsunuz. [Bu müşterileri bulmak için raporu konumunuza göre filtreleyebilirsiniz](consumer/mobile/mobile-apps-geographic-filtering.md).

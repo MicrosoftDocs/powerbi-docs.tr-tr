@@ -1,5 +1,5 @@
 ---
-title: powerbi-visuals-tools 3.x'e geçiş
+title: powerbi-visuals-tools 3.x sürümüne geçiş
 description: powerbi-visuals-tools'un yeni sürümünü kullanmaya başlama
 author: zBritva
 ms.author: v-ilgali
@@ -9,108 +9,123 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1b819aeb0f59df9ee0d48d7c41807abe62efed08
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696294"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885146"
 ---
-# <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Yeni powerbi-visuals-tools 3.x.x'e geçme
+# <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>Yeni powerbi-visuals-tools 3.*x* sürümüne geçiş yapın
 
-Sürüm 3'ten başlayarak Power BI Görsel Araçları, Özel Görseller oluşturmak için Webpack'i kullanır.
-Yeni sürüm geliştiricilere görsel oluşturmaları için birçok yeni fırsat getirir:
+Sürüm 3'ten başlayarak Power BI Görsel Araçları (powerbi-visuals-tools veya `pbiviz`), özel görseller oluşturmak için webpack'i kullanır.
+Yeni sürüm, geliştiricilere görsel oluşturma aşamasında birçok iyileştirme sunmaktadır:
 
-* Varsayılan olarak TypeScript v3.x.x. TypeScript 1.5'ten başlayarak terminoloji değiştirilmiştir. [TypeScript modülleri hakkında daha fazla bilgi edinin](https://www.typescriptlang.org/docs/handbook/modules.html).
+- Varsayılan olarak TypeScript 3.*x* sürümü kullanılır. TypeScript 1.5'ten başlayarak terminoloji değiştirilmiştir. [TypeScript modülleri hakkında daha fazla bilgi edinin](https://www.typescriptlang.org/docs/handbook/modules.html).
 
-* ES6 modülleri desteklenir. Artık [externalJS](migrate-to-new-tools.md#fix-loading-external-libraries)'yi kullanmanız gerekmez, onun yerine ES6 içeri aktarmalarını kullanın.
+- ECMAScript 6 (ES6) modülleri desteklenir. [externalJS](migrate-to-new-tools.md#configure-loading-of-external-libraries) yerine ES6 içeri aktarma modüllerini kullanın.
 
-* [D3v5](https://d3js.org/)'in ve ES6 modülü tabanlı diğer kitaplıkların yeni sürümleri desteklenir.
+- Veri Temelli Belgelerin ([D3v5](https://d3js.org/)) ve ES6 modülü tabanlı diğer kitaplıkların yeni sürümleri desteklenir.
 
-* Azaltılmış paket boyutu. Webpack kullanılmayan kodu kaldırmak için [Ağaç Sallama](https://webpack.js.org/guides/tree-shaking/) özelliğini kullanır. JS'nin kodunu azaltır ve sonuç olarak görseli yüklerken daha iyi performans elde edersiniz.
+- Azaltılmış paket boyutu. Webpack, kullanılmayan kodu kaldırmak için [ağaç sallama](https://webpack.js.org/guides/tree-shaking/) özelliğini kullanır. Bu özellik JavaScript kodunu azaltır ve görsel yükleme aşamasında daha iyi bir performans sunar.
 
-* Geliştirilmiş API performansı.
+- Geliştirilmiş API performansı.
 
-* Globalize.js kitaplığı formatting-utils içine [tümleştirilmiştir](migrate-to-new-tools.md#remove-globalizejs-library).
+- Globalize.js kitaplığı FormattingUtils ile [tümleştirilmiştir](migrate-to-new-tools.md#remove-the- globalizejs-library).
 
-* Araçlar görselin kod tabanını görüntülemek için [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) kullanır.
+- Power BI Görsel Araçları, görselin kod tabanını görüntülemek için [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) kullanır.
 
-Power BI Görsel Araçları'nın yeni sürümü için tüm geçiş adımları aşağıda açıklanmıştır.
+Bu makalede Power BI Görsel Araçları'nın yeni sürümü için tüm geçiş adımları açıklanmıştır.
 
 ## <a name="backward-compatibility"></a>Geriye dönük uyumluluk
 
-Yeni araçlarda eski görsel kod tabanı için geriye dönük uyumluluk korunur ama dış kitaplıkları yüklemek için bazı ek değişiklikler gerekebilir.
+Yeni araçlarda eski görsel kod tabanı için geriye dönük uyumluluk bilgileri korunur ancak dış kitaplıkları yüklemek için bazı ek değişiklikler gerekebilir.
 
-Modül sistemlerini destekleyen kitaplıklar Webpack modülleri olarak içeri aktarılır. Diğer tüm kitaplıklar ve görsel kaynak kodu tek modülde sarmalanır.
+Modül sistemlerini destekleyen kitaplıklar, webpack modülleri olarak içeri aktarılır. Görselle ilgili diğer kitaplıklar ve kaynak kodu, bir modül halinde sarmalanır.
 
-Önceki pbiviz araçlarında kullanılan JQuery ve Lodash gibi genel değişkenler artık kullanım dışı bırakılmıştır. Diğer bir deyişle eski görsel kodu genel değişkenlere dayanıyorsa, bu durumda görsel bozulabilir.
+Eski Power BI Görsel Araçları'nda kullanılan JQuery ve Lodash gibi genel değişkenler artık kullanım dışı bırakılmıştır. Görselinizin eski kodu genel değişkenleri kullanıyorsa, görseliniz muhtemelen yeni araçlarla çalışmayacaktır.
 
-Power BI Görsel Araçları'nın önceki sürümünde `powerbi.extensibility.visual` modülü altında bir görsel sınıfı tanımlamak gerekiyordu.
+Power BI Görsel Araçları'nın önceki sürümünde `powerbi.extensibility.visual` modülü altında bir görsel sınıfı tanımlamak gerekiyordu. Araçların yeni sürümünde bunun yerine ana TypeScript (.ts) dosyasında bir görsel sınıfı tanımlamanız gerekiyor. Bu dosya genellikle `src/visual.ts` olur.
 
-## <a name="how-to-install-powerbi-visuals-tools"></a>powerbi-visuals-tools nasıl yüklenir?
+## <a name="install-powerbi-visuals-tools"></a>powerbi-visuals-tools'u yükleme
 
-Yeni araç kümesi komut yürütülerek yüklenebilir
+Yeni araçları yüklemek için şu komutu çalıştırın:
 
 ```cmd
 npm install -g powerbi-visuals-tools
 ```
 
-sampleBarChart görseli örneği ve `package.json` dosyasında ilgili [değişiklikler](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L16):
+Aşağıdaki kod, görsel projesi yeni araçlarla çalışacak şekilde güncelleştirildikten sonra [sampleBarChart görsel deposundaki](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/package.json#L15) `package.json` dosyasından alınmıştır:
 
 ```json
 {
     "name": "visual",
-    "version": "1.2.3",
+    "version": "3.0.0",
     "scripts": {
         "pbiviz": "pbiviz",
         "start": "pbiviz start",
+        "package": "pbiviz package",
         "lint": "tslint -r \"node_modules/tslint-microsoft-contrib\"  \"+(src|test)/**/*.ts\"",
         "test": "pbiviz package --resources --no-minify --no-pbiviz"
     },
     "devDependencies": {
-      "@types/d3": "5.0.0",
-      "d3": "5.5.0",
-      "powerbi-visuals-tools": "^3.1.0",
-      "tslint": "^4.4.2",
-      "tslint-microsoft-contrib": "^4.0.0"
+        "@types/d3": "5.7.2",
+        "d3": "5.12.0",
+        "powerbi-visuals-api": "^2.6.1",
+        "powerbi-visuals-tools": "^3.1.7",
+        "powerbi-visuals-utils-dataviewutils": "^2.2.1",
+        "powerbi-visuals-utils-formattingutils": "^4.4.2",
+        "powerbi-visuals-utils-interactivityutils": "^5.6.0",
+        "powerbi-visuals-utils-tooltiputils": "^2.3.1",
+        "tslint": "^5.20.0",
+        "tslint-microsoft-contrib": "^6.2.0"
     }
 }
 ```
 
-## <a name="how-to-install-power-bi-custom-visuals-api"></a>Power BI Özel Görseller API'sini yükleme
+## <a name="install-the-power-bi-custom-visuals-api"></a>Power BI Özel Görseller API'sini yükleme
 
-Yeni powerbi-visual-tools sürümü tüm API sürümlerini içermez. Bunun yerine geliştiricinin [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api) paketinin belirli bir sürümünü yüklemesi gerekir. Paketin sürümü Power BI Özel Görseller'in API sürümüyle eşleşir ve Power BI Özel Görseller API'sinin tüm tür tanımlarını sağlar.
+Yeni powerbi-visuals-tools sürümü tüm API sürümlerini içermez. Bunun yerine [powerbi-visuals-api](https://www.npmjs.com/package/powerbi-visuals-api) paketinin belirli bir sürümünü yüklemeniz gerekir. Power BI özel görsellerinizin API sürümüyle eşleşen paket sürümünü seçin. Paket, Power BI Özel Görseller API'si için tüm tür tanımlarını sağlar.
 
-`npm install --save-dev powerbi-visuals-api` komutunu yürüterek projenin bağımlılıklarına `powerbi-visuals-api` öğesini ekleyin.
-Eski API türü tanımlarının bağlantısını da kaldırmanız gerekir. Çünkü `powerbi-visuals-api` türleri Webpack tarafından otomatik olarak eklenir. Buna karşılık gelen değişiklikler `package.json` dosyasının [bu](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) satırındadır.
+Şu komutu çalıştırarak proje bağımlılıklarınıza `powerbi-visuals-api` ekleyin:
 
-## <a name="update-tsconfigjson"></a>`tsconfig.json` dosyasını güncelleştirme
+```cmd
+npm install --save-dev powerbi-visuals-api
+```
 
-Dış modülleri kullanmak için `out` seçeneğini `outDir` olarak değiştirmelisiniz.
-`"out": "./.tmp/build/visual.js",` yerine `"outDir": "./.tmp/build/",`.
+Ayrıca webpack, `powerbi-visuals-api` içindeki türleri otomatik olarak dahil ettiğinden eski API türü tanımı bağlantılarını kaldırın. [package.json](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/package.json#L14) ve [tsconfig.json](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/tsconfig.json#L14) içinde de değişiklikler yapılmıştır.
+
+## <a name="update-tsconfigjson"></a>tsconfig.json dosyasını güncelleştirme
+
+Dış modülleri kullanmak için `out` seçeneğini `outDir` olarak değiştirin. Örneğin `"out": "./.tmp/build/visual.js",` yerine `"outDir": "./.tmp/build/",` kullanın.
 
 Bu gereklidir çünkü TypeScript dosyaları JavaScript dosyalarına bağımsız olarak derlenir. İşte bu nedenle artık çıkış olarak visual.js dosyasını belirtmeniz gerekmez.
 
-Ayrıca çıkış olarak modern JavaScript kullanmak istiyorsanız `target` seçeneğini de `ES6` olarak değiştirebilirsiniz. [Bu isteğe bağlıdır](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/tsconfig.json#L6).
+Ayrıca çıkış olarak modern JavaScript kullanmak istiyorsanız `target` seçeneğini de `ES6` olarak değiştirebilirsiniz. Bu değişiklik [isteğe bağlıdır](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/tsconfig.json#L7).
 
-## <a name="update-custom-visuals-utils"></a>Özel Görseller yardımcı programlarını güncelleştirme
+## <a name="update-custom-visuals-utilities"></a>Özel görseller yardımcı programlarını güncelleştirme
 
-powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) içinden kullandıklarınız varsa onları da en son sürüme güncelleştirmelisiniz.
+[powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils) paketlerinden birini kullanıyorsanız onları da son sürüme güncelleştirmeniz gerekir. Bunu yapmak için şu komutu çalıştırın:
 
-`npm install powerbi-visuals-utils-<UTILNAME> --save` komutunu yürütün ve (örneğin `npm install powerbi-visuals-utils-dataviewutils --save` ) TypeScript'in dış modülleriyle yeni sürümü alın.
+```cmd
+npm install powerbi-visuals-utils-<UTILNAME> --save
+```
 
-MekkoChart [deposunda](https://github.com/Microsoft/powerbi-visuals-mekkochart) örnek bulabilirsiniz.
-Bu görsel tüm yardımcı programları kullanır.
+Örneğin, TypeScript'in dış modülleriyle yeni sürümü almak için şunu çalıştırın: 
 
-## <a name="remove-globalizejs-library"></a>Globalize.js kitaplığını kaldırma
+```cmd
+npm install powerbi-visuals-utils-dataviewutils --save
+```
 
-Yeni [powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) sürümü globalize.js ile birlikte gelir.
-Projeye bu kitaplığı el ile eklemeniz gerekmez.
-Tüm gerekli yerelleştirmeler son pakete otomatik olarak eklenir.
+Tüm `powerbi-visuals-utils` paketlerini kullanan bir örnek için [MekkoChart deposunu](https://github.com/Microsoft/powerbi-visuals-mekkochart) inceleyin.
 
-## <a name="fix-loading-external-libraries"></a>Dış kitaplıkların yüklenmesini düzeltme
+## <a name="remove-the-globalizejs-library"></a>Globalize.js kitaplığını kaldırma
 
-Bunun yerine `pbiviz.json` dosyasının `externalJS` dizisine kitaplıklardan sonra yeni JS dosyasını ekleyin. Örnek:
+[powerbi-visuals-utils-formattingutils@4.3](https://www.npmjs.com/package/powerbi-visuals-utils-formattingutils) bileşeninin yeni sürümü Globalize.js ile birlikte gelir. Bu nedenle bu kitaplığı projenize el ile eklemeniz gerekmez. Tüm gerekli yerelleştirmeler son pakete otomatik olarak eklenir.
+
+## <a name="configure-loading-of-external-libraries"></a>Dış kitaplıkların yüklenmesini yapılandırma
+
+Yeni JavaScript dosyalarını `pbiviz.json` öğesinin `externalJS` dizisindeki kitaplıkların arkasına ekleyin. Örnek:
 
 ```JSON
 "externalJS": [
@@ -121,23 +136,21 @@ Bunun yerine `pbiviz.json` dosyasının `externalJS` dizisine kitaplıklardan so
 ]
 ```
 
-Kaynakta kitaplıkları içeri aktarın. `lodash-es` örneği:
+Kitaplıkları kaynak kodunuza aktarın. Örneğin `lodash-es` için şu deyimi kullanın:
 
 ```JS
 import * as _ from "lodash-es";
 ```
 
-burada `_`, `lodash` kitaplığı için genel değişkendir.
+Yukarıdaki örnekte `_`, `lodash` kitaplığının genel değişkenidir.
 
-## <a name="changes-in-the-visuals-sources"></a>Görsellerin kaynaklarındaki değişiklikler
+## <a name="make-changes-in-the-sources-of-your-visuals"></a>Görsellerinizin kaynaklarında değişiklik yapma
 
-Ana değişiklik, iç modüllerin içinde dış modülleri kullanamayacağınız için iç modülleri dış modüllere dönüştürmektir.
+Yapmanız gereken temel değişiklik, iç modülleri dış modüllere dönüştürmektir. İç modüllerin içinde dış modül kullanamazsınız.
 
-Söz konusu değişiklikler Örnek Çubuk Grafiğe uygulanan değişiklikleri açıklar
+Yapılacak değişikliklerin ayrıntılı açıklaması aşağıda verilmiştir. Değişiklikler, Çubuk Grafik özel görsel kodu örneği bağlamında açıklanmıştır:
 
-Değişikliklerin ayrıntılı açıklamaları aşağıda verilmiştir:
-
-1. [Kaynak kodun](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L153) her dosyasından tüm modüllerin tanımlarını kaldırma
+1. [Kaynak kodun](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbL1-L3) tüm dosyalarındaki tüm modül tanımlarını kaldırın:
 
     ```typescript
     module powerbi.extensibility.visual {
@@ -145,13 +158,13 @@ Değişikliklerin ayrıntılı açıklamaları aşağıda verilmiştir:
     }
     ```
 
-2. [Power BI özel görsel API'si tanımlarını içeri aktarma](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L2) .
+2. [Power BI özel görsel API'si tanımlarını içeri aktarın](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR4):
 
     ```typescript
     import powerbi from "powerbi-visuals-api";
     ```
 
-3. `powerbi` iç modülünden gerekli arabirimleri veya sınıfları [içeri aktarma](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L12-L23).
+3. `powerbi` iç modülünden gerekli arabirimleri veya sınıfları [içeri aktarın](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR12-R35).
 
     ```typescript
     import PrimitiveValue = powerbi.PrimitiveValue; 
@@ -168,19 +181,19 @@ Değişikliklerin ayrıntılı açıklamaları aşağıda verilmiştir:
     import ISelectionManager = powerbi.extensibility.ISelectionManager; 
     ```
 
-4. D3.js kitaplığını [içeri aktarma](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L1)
+4. [D3.js kitaplığını içeri aktarın](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR2):
 
     ```typescript
     import * as d3 from "d3";
     ```
 
-    Veya yalnızca gereken d3 kitaplık modüllerini içeri aktarma
+    Veya yalnızca gerekli D3 kitaplık modüllerini içeri aktarın:
 
     ```typescript
     import { max, min } from "d3-array";
     ```
 
-5. Görsel projesinde tanımlanan yardımcı programları, sınıfları, arabirimleri ana kaynak dosyaya [içeri aktarma](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/src/barChart.ts#L4-L10)
+5. [Görsel projesinde tanımlanan yardımcı programları, sınıfları ve arabirimleri](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-433142f7814fee940a0ffc98dc75bfcbR38-R41) ana kaynak dosyasına aktarın:
 
     ```typescript
     import { getLocalizedString } from "./localization/localizationHelper";
@@ -192,64 +205,62 @@ Değişikliklerin ayrıntılı açıklamaları aşağıda verilmiştir:
     } from "./tooltipServiceWrapper";
     ```
 
-### <a name="import-css-styles"></a>CSS Stillerini içeri aktarma
+### <a name="import-css-styles"></a>CSS stillerini içeri aktarma
 
-Araçların yeni sürümü geliştiricilerin CSS, LESS stilini doğrudan TypeScript koduna indirmesine olanak tanır.
+Araçların yeni sürümü `CSS` ve `Less` stillerini doğrudan TypeScript koduna aktarmanızı sağlar. Daha önce kullanılan [stiller bölümü](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/471f103fcef9af93cff76cbac9c7fc67564acd4b/pbiviz.json#L21) artık derleyici tarafından yok sayılır.
 
-Dolayısıyla daha önce kullanılan [stiller bölümü](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/pbiviz.json#L22) artık derleyici tarafından yoksayılır.
-
-Stil sayfanızı kullanmak için ana ts dosyasını açın ve aşağıdaki satırı ekleyin:  
+Stil sayfanızı kullanmak için ana TypeScript (.ts) dosyasını açın ve şu satırı ekleyin:  
 
 ```typescript
 import "./../style/visual.less";
 ```  
 
-CSS, LESS stilleriniz otomatik olarak derlenir.  
+`CSS` ve `Less` stilleriniz otomatik olarak derlenir.
 
 ### <a name="externaljs-section-in-pbivizjson"></a>pbiviz.json içinde externalJS bölümü
 
-Araçlara görsel paketine yüklemek için bir `externalJS` listesi [gerekmez](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/pbiviz.json#L20). Çünkü webpack içeri aktarılan tüm kitaplıkları içerir.
+webpack, içeri aktarılan tüm kitaplıkları içerdiğinden araçlar, görsel paketine yüklenecek [`externalJS` kitaplığı listesine ihtiyaç duymaz](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/commit/72ec605ce6a311a6cc004453b07973b6ed5e61f9#diff-a1a7bbee7e7d2f9d449f4b534532bcf2R20).
 
-**pbivi.json'daki externalJS bölümü boş olmalıdır.**
+> [!NOTE]
+> `pbiviz.json` içinde `externalJS` bölümünü boş bırakın.
 
-Görsel paketini oluşturmak için tipik `npm run package` komutlarını veya geliştirme sunucusunu başlatmak için `npm run start` komutlarını çağırın.
+Görsel paketini oluşturmak için tipik `npm run package` komutunu veya geliştirme sunucusunu başlatmak için `npm run start` komutunu kullanın.
 
-## <a name="updating-d3js-library-to-version-5"></a>D3.js kitaplığını sürüm 5'e güncelleştirme
+## <a name="update-the-d3js-library-to-version-5"></a>D3.js kitaplığını sürüm 5'e güncelleştirme
 
-Yeni araçlarla D3.js kitaplığının yeni sürümünü kullanmaya başlayabilirsiniz.
+Yeni görsel araçlarıyla D3.js kitaplığının yeni sürümünü kullanmaya başlayabilirsiniz. Görsel projenizde D3'ü güncelleştirmek için şu komutları çalıştırın:
 
-Görsel projenizde D3'ü güncelleştirmek için komutları çağırma
+- Yeni D3.js'yi yüklemek için `npm install --save d3@5`.
 
-Yeni D3.js'yi yüklemek için `npm install --save d3@5`.
+- D3.js'de yeni tür tanımlarını yüklemek için `npm install --save-dev @types/d3@5`.
 
-D3.js'de yeni tür tanımlarını yüklemek için `npm install --save-dev @types/d3@5`.
+> [!IMPORTANT]
+> D3 sürüm 5 birçok yeni özelliğe sahiptir.
 
-Bazı hataya neden olan değişiklikler vardır ve yeni D3.js'yi kullanmak için kodunuzda değişiklik yapmanız gerekir.
+Kodunuzu yeni D3.js ile çalışacak şekilde değiştirin:
 
-1. `d3.Selection<T>` arabirimi `Selection<GElement extends BaseType, Datum, PElement extends BaseType, PDatum>` olarak [değişmiştir](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR157)
+- `d3.Selection<T>` arabirimi `Selection<GElement extends BaseType, Datum, PElement extends BaseType, PDatum>` olarak [değişmiştir](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR157).
 
-2. Tek bir `attr` yöntemi çağrısıyla birkaç öznitelik uygulayamazsınız. Her özniteliği `attr` yönteminin farklı bir çağrısında [geçirmeniz gerekir](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR278). `style` yöntemi için de [benzer](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR247) bir durum geçerlidir.
+- Tek bir `attr` yöntemi çağrısı kullanarak birden çok öznitelik uygulayamazsınız. Bunun yerine `attr` [için her özniteliği ayrı bir çağrıda geçirmeniz](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR278) gerekir. [`style` yöntemine de ayrı çağrılar](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/af2ff9fb0fc70bd94ea0c604d75a362411d5abeb#diff-433142f7814fee940a0ffc98dc75bfcbR247) yapın.
 
-3. D3.js v4'te yeni birleştirme yöntemi tanıtılmıştır. Bu yöntem veri birleştirme sonrasında girme ve güncelleştirme seçimlerini birleştirmek için yaygın olarak kullanılır. d3'ü düzgün kullanmak için [birleştirme yöntemini çağırın](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/83fe8d52d362dccd0034dd8e32c94080d9376b29#diff-433142f7814fee940a0ffc98dc75bfcbR272).
+- D3.js sürüm 4, yeni `merge` yöntemini kullanıma sunmuştur. Bu yöntem veri birleştirme işlemi sonrasında `enter` ve `update` seçimlerini birleştirmek için yaygın olarak kullanılır. D3 bileşenini doğru şekilde kullanmak için [`merge` yöntemini çağırın](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/83fe8d52d362dccd0034dd8e32c94080d9376b29#diff-433142f7814fee940a0ffc98dc75bfcbR272).
 
 D3.js kitaplığındaki değişiklikler hakkında [daha fazla bilgi edinin](https://github.com/d3/d3/blob/master/CHANGES.md).
 
-## <a name="babel"></a>Babel
+## <a name="install-babel-and-core-js"></a>Babel ve core-js'yi yükleme
 
-Sürüm 3.1'den başlayarak, araçlar yeni modern JS kodunu eski ES5'e derleyerek geniş bir yelpazedeki tarayıcıları desteklemek için Babel kullanır.
+Sürüm 3.1'den başlayarak, görsel araçları modern JavaScript kodunu eski ECMAScript 5'e (ES5) derleyerek geniş bir yelpazedeki tarayıcıları desteklemek için Babel kullanır.
 
-Bu seçenek varsayılan olarak etkinleştirilir ama [`@babel/polyfill`](https://babeljs.io/docs/en/babel-polyfill) paketini el ile içeri aktarmanız gerekir.
+Babel seçeneği varsayılan olarak etkinleştirilir ancak [`core-js`](https://www.npmjs.com/package/core-js) paketini el ile içeri aktarmanız gerekir. Paketi yüklemek için şu komutu çalıştırın:
 
-Paketi yüklemek için şu komutu yürütün
+```cmd
+npm install --save core-js
+```
 
-`npm install --save @babel/polyfill`
+Ardından paketi görsel kodunun başlangıç noktasında içeri aktarın. Bu genellikle "src/visual.ts" dosyasıdır.
 
-ve paketi görsel kodunun (genellikle 'src/visual.ts' dosyası) başlangıç noktasında içeri aktarın:
-
-`import "@babel/polyfill";`
+```JS
+import "core-js/stable";
+```
 
 [Belgelerde](https://babeljs.io/docs/en/) Babel hakkında daha fazla bilgi edinin.
-
-Son olarak görselin kod tabanını görüntülemek için [webpack-visualizer](https://github.com/chrisbateman/webpack-visualizer) komutunu çalıştırın.  
-
-![Görsel kodu istatistikleri](./media/webpack-stats.png)

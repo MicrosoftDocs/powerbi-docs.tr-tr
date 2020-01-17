@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879607"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760032"
 ---
-# <a name="storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modu
+# <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modunu yönetme
 
 Microsoft Power BI Desktop'ta tabloların *depolama modunu* belirtebilirsiniz. *Depolama modu*, Power BI Desktop'ta raporlara ilişkin tablo verilerinin bellek içinde önbelleğe alınıp alınmadığını denetlemenizi sağlar. 
 
