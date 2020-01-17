@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224183"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885294"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -25,7 +25,7 @@ Tam yönetici portalı, Office 365’te Genel Yönetici olan veya kendilerine Po
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Yönetici portalına ulaşma
 
-Power BI yönetici portalına erişim elde etmek için hesabınızın Office 365 veya Azure Active Directory'de **Genel Yönetici** olarak işaretlenmesi veya size Power BI hizmet yöneticisi rolünün atanması gerekir. Power BI hizmet yöneticisi rolü hakkında daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md). Power BI yönetici portalına ulaşmak için aşağıdakileri yapın.
+Power BI yönetici portalına erişebilmeniz için hesabınızın, Office 365 veya Azure Active Directory’de (Azure AD) **Genel Yönetici** olarak işaretlenmiş olması veya hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md). Power BI yönetici portalına ulaşmak için aşağıdakileri yapın.
 
 1. Power BI hizmetinin sağ üst tarafındaki ayarlar dişli simgesini seçin.
 
@@ -190,13 +190,16 @@ Yönetici portalında, hangi kullanıcıların kuruluş uygulamalarını dağıt
 
 ### <a name="share-content-with-external-users"></a>Dış kullanıcılarla içerik paylaşma
 
-Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla pano paylaşabilir. [Dış paylaşım](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization) hakkında daha fazla bilgi edinin.
+Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla panoları, raporları ve uygulamaları paylaşabilir. [Dış paylaşım](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization) hakkında daha fazla bilgi edinin.
 
 ![Dış kullanıcılar ayarı](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
 Aşağıdaki resimde bir dış kullanıcıyla paylaştığınızda görünen ileti gösterilir.
 
 ![Dış kullanıcıyla paylaşma](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+
+> [!IMPORTANT]
+> Bu seçenek, Power BI’daki kullanıcıların Power BI aracılığıyla dış kullanıcıları Azure Active Directory B2B (Azure AD B2B) konuk kullanıcıları olmaları için davet edip edemeyeceklerini denetler. Etkinleştirildiğinde, Azure AD’de Konuk Davet Eden rolüne sahip olan kullanıcılar rapor, pano ve Power BI uygulamaları paylaşırken dış e-posta adresleri ekleyebilir. Dış alıcı, kuruluşunuza bir Azure AD B2B konuk kullanıcısı olarak katılmaya davet edilir. Daha da önemlisi, bu ayar devre dışı bırakılırken kuruluşunuzda zaten Azure AD B2B konuk kullanıcıları olan dış kullanıcılar Power BI’daki kişi seçicisi kullanıcı arabiriminde görünmeye devam eder ve bu kişilere öğe, çalışma alanı ve uygulama erişimi verilebilir.
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
@@ -247,14 +250,14 @@ Aşağıdaki görüntüde **Panoları ve raporları yazdırın** ayarı etkinle�
 ![Rapor yazdırma](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
-Azure Active Directory B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
+
+Azure AD B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
 
 Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin verme seçeneği gösterilir.
 
 ![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
-> [!IMPORTANT]
-> Azure AD kiracınıza dış kullanıcı eklediğinizde (el ile veya söz konusu kullanıcıyla rapor paylaşarak) bu kullanıcı hesabı artık iç hesaplar tarafından bulunabilir duruma gelir. İç hesabın dış paylaşım izinleri olmasa bile iç kullanıcı dış kullanıcıyla başka şeyler paylaşabilir.
+Yönetici portalında, hangi kullanıcıların kuruluşa dış kullanıcıları davet etme izni olduğunu da denetlersiniz. Ayrıntılar için bu makaledeki [Dış kullanıcılarla içerik paylaşma](#export-and-sharing-settings) bölümüne bakın.
 
 ### <a name="email-subscriptions"></a>E-posta Abonelikleri
 Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](service-report-subscribe.md) hakkında daha fazla bilgi edinin.
@@ -508,7 +511,7 @@ Kuruluş deposundaki bir görseli güncelleştirmek için dişli simgesini seçi
 
 Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
 
-Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals) bağlantısını ziyaret edin
+Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals) bağlantısını ziyaret edin
 
 ## <a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
 

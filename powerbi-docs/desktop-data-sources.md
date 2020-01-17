@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75222182"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761376"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -30,6 +30,10 @@ Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belir
 
 > [!NOTE]
 > Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. Ayrıca, **Power BI Desktop** için *Beta* veya *Önizleme* olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar **Power BI hizmetinde** veya diğer Microsoft hizmetlerinde kullanılamayabilir.
+
+> [!NOTE]
+> Birçok Power BI Desktop veri bağlayıcısı, kimlik doğrulaması için Internet Explorer 10 (veya daha yeni bir sürümü) uygulamasına ihtiyaç duyar. 
+
 
 ## <a name="data-sources"></a>Veri kaynakları
 Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:

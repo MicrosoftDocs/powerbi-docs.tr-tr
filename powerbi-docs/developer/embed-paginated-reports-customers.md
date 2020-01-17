@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311442"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731271"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme (önizleme)
 
@@ -271,6 +271,12 @@ JavaScript API kullanan tam bir örnek için [Playground aracı](https://microso
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide müşterileriniz için bir uygulamaya Power BI sayfalandırılmış raporu eklemeyi öğrendiniz. Kuruluşunuz için de Power BI içeriği ekleme denemeleri yapabilirsiniz.
+Bu öğreticide müşterileriniz için bir uygulamaya Power BI sayfalandırılmış raporu eklemeyi öğrendiniz. Müşterileriniz veya kuruluşunuz için de Power BI içeriği eklemeyi deneyebilirsiniz.
+
+> [!div class="nextstepaction"]
+>[Müşterileriniz için içerik ekleme](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[Kuruluşunuz için içerik ekleme](embed-sample-for-your-organization.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

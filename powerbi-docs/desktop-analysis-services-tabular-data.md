@@ -1,6 +1,6 @@
 ---
-title: Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
-description: Power BI Desktop'taki Analysis Services Tablo verileri
+title: Power BI Desktop’taki Analysis Services tablo verilerini kullanma
+description: Power BI Desktop'taki Analysis Services tablo verileri
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523039"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762083"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop'taki Analysis Services Tablo verilerini kullanma
-Power BI Desktop uygulamasında SQL Server Analysis Services Tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem vardır: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop’taki Analysis Services tablo verilerine bağlanma
+Power BI Desktop uygulamasında SQL Server Analysis Services tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem bulunur: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
 
 Şimdi bu yöntemlere daha yakından bakalım.
 
-**Canlı bağlantı kullanarak keşfetme**: Canlı bağlantı kullandığınızda Tablo modelinizdeki veya perspektifinizdeki tablolar, sütunlar ve ölçüler gibi öğeler Power BI Desktop uygulamasının Alanlar listesinde görünür. Power BI Desktop'ın gelişmiş görselleştirme ve rapor araçlarını kullanarak Tablo modelinizi yeni ve oldukça etkileşimli şekillerde keşfedebilirsiniz.
+**Canlı bağlantı kullanarak keşfetme**: Canlı bağlantı kullandığınızda tablo modelinizdeki veya perspektifinizdeki tablolar, sütunlar ve ölçüler gibi öğeler Power BI Desktop uygulamasının Alanlar listesinde görünür. Power BI Desktop’ın gelişmiş görselleştirme ve rapor araçlarını kullanarak tablo modelinizi yeni ve oldukça etkileşimli şekillerde keşfedebilirsiniz.
 
-Canlı bağlantı sırasında Tablo modelinizdeki veriler Power BI Desktop'a aktarılmaz. Görselleştirmelerle etkileşim kurduğunuzda Power BI Desktop, Tablo modelini sorgular ve gördüğünüz sonuçları hesaplar. Son işleme zamanına göre veya Tablo Modelindeki Doğrudan Sorgu tablolarından her zaman Tablo modelindeki en güncel verilere bakıyor olursunuz. 
+Canlı bağlantı sırasında tablo modelinizdeki veriler Power BI Desktop’a aktarılmaz. Görselleştirmelerle etkileşim kurduğunuzda Power BI Desktop, tablo modelini sorgular ve gördüğünüz sonuçları hesaplar. Son işleme zamanına göre veya tablo modelindeki Doğrudan Sorgu tablolarından her zaman tablo modelindeki en güncel verilere bakıyor olursunuz. 
 
-Unutmayın, Tablo modelleri oldukça güvenlidir. Power BI Desktop'ta görünen öğeler bağlantı kurduğunuz Tablo modelindeki izinlere göre değişiklik gösterir.
+Unutmayın, tablo modelleri oldukça güvenlidir. Power BI Desktop’ta görünen öğeler bağlantı kurduğunuz tablo modelindeki izinlere göre değişiklik gösterir.
 
 Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayımlayarak paylaşabilirsiniz. Tablo modeline canlı bağlantı içeren bir Power BI Desktop dosyasını Power BI sitenizde yayımladığınızda bir yönetici tarafından şirket içi veri ağ geçidi yüklenmesi ve yapılandırılması gerekir. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi](service-gateway-onprem.md).
 
-**Öğeleri seçip Power BI Desktop'a aktarma**: Bu seçeneği kullanarak bağlandığınızda Tablo modelinizde veya perspektifinizde bulunan tablo, sütun ve ölçü gibi öğeleri seçerek bir Power BI Desktop modeline yükleyebilirsiniz. İçeriğinizi şekillendirmek için Power BI Desktop'ın gelişmiş Sorgu Düzenleyicisi'ni kullanabilirsiniz. Power BI Desktop'ın modelleme özelliklerini kullanarak verileri modelleyebilirsiniz. Power BI Desktop ile Tablo modeli arasında canlı bağlantı sağlanmaz. Ardından Power BI Desktop modelinizi çevrimdışı keşfedebilir veya Power BI sitenizde yayımlayabilirsiniz.
+**Öğeleri seçip Power BI Desktop’a aktarma**: Bu seçeneği kullanarak bağlandığınızda tablo modelinizde veya perspektifinizde bulunan tablo, sütun ve ölçü gibi öğeleri seçerek bir Power BI Desktop modeline yükleyebilirsiniz. İçeriğinizi şekillendirmek için Power BI Desktop'ın gelişmiş Sorgu Düzenleyicisi'ni kullanabilirsiniz. Power BI Desktop'ın modelleme özelliklerini kullanarak verileri modelleyebilirsiniz. Power BI Desktop ile tablo modeli arasında canlı bağlantı korunmaz. Ardından Power BI Desktop modelinizi çevrimdışı keşfedebilir veya Power BI sitenizde yayımlayabilirsiniz.
 
 ## <a name="to-connect-to-a-tabular-model"></a>Tablo modeline bağlanmak için
 1. Power BI Desktop uygulamasının **Giriş** sekmesinde **Veri Al**'a tıklayın.
@@ -43,23 +43,23 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. Bu adım seçtiğiniz bağlantı moduna göre değişiklik gösterir:
 
-* Canlı bağlantı kuruyorsanız Gezgin'de bir Tablo modeli veya perspektif seçin.
+* Canlı bağlantı kuruyorsanız Gezgin’de bir tablo modeli veya perspektif seçin.
   
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
-* Öğeleri seçip veri alma seçeneğini kullanıyorsanız Gezgin'de bir Tablo modeli veya perspektif seçin. Ardından yalnızca yüklenecek tabloları veya sütunları seçebilirsiniz. Yüklemeden önce verilerinizi şekillendirmek için Düzenle'ye tıklayarak Sorgu Düzenleyicisi'ni açın. Hazır olduğunuzda Yükle'ye tıklayarak verileri Power BI Desktop'a aktarın.
+* Öğeleri seçip veri alma seçeneğini kullanıyorsanız Gezgin’de bir tablo modeli veya perspektif seçin. Ardından yalnızca yüklenecek tabloları veya sütunları seçebilirsiniz. Yüklemeden önce verilerinizi şekillendirmek için Düzenle'ye tıklayarak Sorgu Düzenleyicisi'ni açın. Hazır olduğunuzda Yükle'ye tıklayarak verileri Power BI Desktop'a aktarın.
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Sık Sorulan Sorular
 **Soru:** Şirket içi veri ağ geçidine ihtiyacım var mı?
 
-**Cevap:** Duruma göre değişir. Power BI Desktop ile bir Tablo modeline canlı bağlantı kuruyorsanız ancak bunu Power BI sitenizde yayımlama planınız yoksa ağ geçidine ihtiyacınız yoktur. Diğer taraftan Power BI sitenizde yayımlamayı düşünüyorsanız Power BI hizmetiyle şirket içi Analysis Services sunucunuz arasında güvenli bağlantı kurulması için veri ağ geçidine ihtiyacınız vardır. Veri ağ geçidi yüklemeden önce Analysis Services sunucunuzun yöneticisiyle iletişime geçmeyi unutmayın.
+**Cevap:** Duruma göre değişir. Power BI Desktop ile bir tablo modeline canlı bağlantı kuruyorsanız ancak bunu Power BI sitenizde yayımlama planınız yoksa ağ geçidine ihtiyaç duymazsınız. Diğer taraftan Power BI sitenizde yayımlamayı düşünüyorsanız Power BI hizmetiyle şirket içi Analysis Services sunucunuz arasında güvenli bağlantı kurulması için veri ağ geçidine ihtiyacınız vardır. Veri ağ geçidi yüklemeden önce Analysis Services sunucunuzun yöneticisiyle iletişime geçmeyi unutmayın.
 
-Öğeleri seçip veri alma seçeneğini kullanıyorsanız Tablo modeli verilerini doğrudan Power BI Desktop dosyanıza aktarmış olursunuz ve ağ geçidi kullanmanız gerekmez.
+Öğeleri seçip veri alma seçeneğini kullanıyorsanız tablo modeli verilerini doğrudan Power BI Desktop dosyanıza aktarmış olursunuz ve ağ geçidi kullanmanız gerekmez.
 
-**Soru:** Power BI hizmetinden bir Tablo modeline canlı bağlantı kurmayla Power BI Desktop'tan canlı bağlantı kurma arasındaki fark nedir?
+**Soru:** Power BI hizmetinden bir tablo modeline canlı bağlantı kurmayla Power BI Desktop’tan canlı bağlantı kurma arasındaki fark nedir?
 
-**Cevap:** Power BI hizmetindeki sitenizde bulunan bir Tablo modelinden kuruluşunuzdaki şirket içi Analysis Services veritabanına canlı bağlantı kurduğunuzda, bu iki nokta arasındaki iletişimin güvenliğini sağlamak için şirket içi ağ geçidine ihtiyaç duyulur. Power BI Desktop'tan bir Tablo modeline canlı bağlantı kurduğunuzda hem Power BI Desktop hem de bağlandığınız Analysis Services sunucusu şirket içi ortamda çalıştığından ağ geçidine ihtiyaç yoktur. Ancak Power BI Desktop dosyanızı Power BI sitenizde yayımlamak için bir ağ geçidi kullanmanız gerekir.
+**Cevap:** Power BI hizmetindeki sitenizde bulunan bir tablo modelinden kuruluşunuzdaki şirket içi Analysis Services veritabanına canlı bağlantı kurduğunuzda, bu iki nokta arasındaki iletişimin güvenliğini sağlamak için şirket içi ağ geçidine ihtiyaç duyulur. Power BI Desktop’tan bir tablo modeline canlı bağlantı kurduğunuzda hem Power BI Desktop hem de bağlandığınız Analysis Services sunucusu şirket içi ortamda çalıştığından ağ geçidine ihtiyaç yoktur. Ancak Power BI Desktop dosyanızı Power BI sitenizde yayımlamak için bir ağ geçidi kullanmanız gerekir.
 
 **Soru:** Canlı bağlantı oluşturduktan sonra aynı Power BI Desktop dosyasındaki başka bir veri kaynağına bağlanabilir miyim?
 
@@ -75,7 +75,7 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
 
 **Soru:** Gezgin'de bir model ve bir perspektif görüyorum. Fark nedir?
 
-**Cevap:** Perspektif, bir Tablo modelinin belirli bir görünümüdür. Veri analiz ihtiyaçlarına göre yalnızca belirli tabloları, sütunları veya ölçüleri kapsıyor olabilir. Tablo modelinde her zaman en az bir perspektif bulunabilir ve bu modeldeki her şeyi içerebilir. Hangisini seçeceğinizden emin değilseniz yöneticinizle iletişime geçmeniz gerekir.
+**Cevap:** Perspektif, bir tablo modelinin belirli bir görünümüdür. Veri analiz ihtiyaçlarına göre yalnızca belirli tabloları, sütunları veya ölçüleri kapsıyor olabilir. Tablo modelinde her zaman en az bir perspektif bulunabilir ve bu modeldeki her şeyi içerebilir. Hangisini seçeceğinizden emin değilseniz yöneticinizle iletişime geçmeniz gerekir.
 
 **Soru:** Power BI'ın davranış şeklini değiştiren Analysis Services özellikleri var mı?
 

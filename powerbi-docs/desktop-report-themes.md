@@ -1,136 +1,145 @@
 ---
-title: Power BI Desktop'ta Rapor Temalarını Kullanma
-description: Power BI Desktop'ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin
+title: Power BI Desktop’ta rapor temalarını kullanma
+description: Power BI Desktop’ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: c111b04847cba56781b1dd77f899d456ad5f4162
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223520"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731482"
 ---
-# <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop'ta Rapor Temalarını Kullanma
-**Rapor Temaları** ile raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Bir **Rapor Teması** uyguladığınızda raporunuzdaki tüm görsellerde, seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır. Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.
+# <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
+Power BI Desktop *rapor temalarıyla* raporunuzun tamamında kurumsal renkler kullanma, simge kümelerini değiştirme veya yeni varsayılan görsel biçimlendirmeyi uygulama gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır. Bu makalenin devamında da açıklandığı gibi bazı özel durumlar uygulanır.
 
 ![Rapor temaları](media/desktop-report-themes/report-themes-1a.png)
 
-Bir özel **Rapor Teması** uygulamak için temel yapıda bir JSON dosyası gerekir. Daha sonra bu JSON dosyasını Power BI Desktop'a aktarabilir ve raporunuza uygulayabilirsiniz.
+Yerleşik rapor temaları ve özel rapor temaları olmak üzere iki tür rapor teması bulunur:
 
-Ayrıca, doğrudan Power BI Desktop'ta yapılan özelleştirmeler veya tema JSON dosyası aracılığıyla **Biçimlendirme** bölmesinde görülen neredeyse tüm öğeleri özelleştirebilir ve standartlaştırabilirsiniz. Amaç, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
+- Yerleşik rapor temaları, Power BI Desktop ile yüklenen, önceden tanımlanmış farklı türlerde renk şemaları sunar. Yerleşik rapor temaları, Power BI Desktop menüsünden doğrudan seçilir. 
 
-## <a name="how-report-themes-work"></a>Rapor Temaları nasıl kullanılır?
-Bir Power BI Desktop raporuna Rapor Teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir ya da özel bir temayı oluşturabilir veya içeri aktarabilirsiniz.
+- Özel rapor teması dosyaları, JSON dosyalarının temel yapısını tanımlar ve bunların içinde oluşturulur. Özel rapor temasını uygulamak için bunun JSON dosyası Power BI Desktop’a aktarılır ve rapora uygulanır.
+
+Ayrıca, doğrudan Power BI Desktop’ta yapılan özelleştirmeler veya rapor temasının JSON dosyası aracılığıyla **Görselleştirme** bölmesinin **Biçim** bölümünde listelenen neredeyse tüm öğeleri özelleştirebilir veya standartlaştırabilirsiniz. Amaç, raporlarınızın görünüm ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
+
+## <a name="how-report-themes-work"></a>Rapor temaları nasıl çalışır?
+Bir Power BI Desktop raporuna rapor teması uygulamak için kullanılabilir durumdaki yerleşik rapor temalarından birini seçebilir veya özel bir tema dosyası oluşturabilir ya da içeri aktarabilirsiniz.
+
+### <a name="built-in-report-themes"></a>Yerleşik rapor temaları
+
+Kullanılabilir rapor temalarından seçim yapmak için: 
+
+1. **Giriş** şeridinde **Temayı Değiştir** seçeneğini belirleyin. 
+
+   ![Rapor teması seçme](media/desktop-report-themes/report-themes-2a.png)
+
+2. Açılan menüde ekli temalardan birini seçin.
+
+   Rapor temanız rapora uygulandı.
+
+Aşağıdaki tablo, kullanılabilir yerleşik rapor temalarını gösterir.
 
 | Yerleşik rapor teması | Varsayılan renk dizisi    |
 |------ |---------- |
-| Varsayılan   | ![varsayılan](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise  | ![highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Yönetici     | ![executive](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Sınır  | ![sınır](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Yenilikçi    | ![yenilikçi](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Çiçek     | ![çiçek](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Gelgit | ![gelgit](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Sıcaklık   | ![sıcaklık](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Güneş | ![güneş](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Çeşitli     | ![çeşitli](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Fırtına     | ![fırtına](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Klasik   | ![klasik](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Şehir parkı     | ![şehir parkı](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Sınıf     | ![sınıf](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Renk körleri için   | ![renk körleri için](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Elektrik  | ![elektrik](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Yüksek karşıtlık     | ![yüksek karşıtlık](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Gün batımı    | ![gün batımı](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Alacakaranlık  | ![alacakaranlık](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+| Varsayılan   | ![Varsayılan](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+| Highrise  | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+| Yönetici     | ![Yönetici](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+| Sınır  | ![Sınır](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+| Yenilik Yapın  | ![Yenilik Yapın](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+| Çiçek     | ![Çiçek](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+| Gelgit | ![Gelgit](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+| Sıcaklık   | ![Sıcaklık](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+| Güneş | ![Güneş](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+| Çeşitli     | ![Çeşitli](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+| Fırtına     | ![Fırtına](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+| Klasik   | ![Klasik](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+| Şehir parkı     | ![Şehir parkı](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+| Sınıf     | ![Sınıf](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+| Renk körleri için   | ![Renk körleri için](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+| Elektrik  | ![Elektrik](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+| Yüksek karşıtlık     | ![Yüksek karşıtlık](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+| Gün batımı    | ![Gün batımı](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+| Alacakaranlık  | ![Alacakaranlık](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
 
-Kullanılabilir durumdaki yerleşik rapor temalarından seçim yapmak için **Giriş** şeridinden **Temayı Değiştir** düğmesini ve ardından açılan menüdeki temalardan birini seçin.
+### <a name="import-custom-report-theme-files"></a>Özel rapor teması dosyalarını içeri aktarma
 
-![Rapor teması seçme](media/desktop-report-themes/report-themes-2a.png)
+Özel rapor teması dosyasını içeri aktarmak için: 
 
-Rapor temanız rapora uygulanır ve kullanılmaya hazır duruma gelir.
+1. **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin ve açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin. 
 
-### <a name="importing-report-themes"></a>Rapor Temalarını İçeri Aktarma
+   ![Temayı içeri aktar](media/desktop-report-themes/report-themes-3a.png)
 
-Özel bir Rapor Temasını içeri aktarmak için **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin. Ardından açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.
+   JSON tema dosyasının konumuna göz atmanızı sağlayan bir pencere açılır. 
 
-![Temayı içeri aktar](media/desktop-report-themes/report-themes-3a.png)
+2. Aşağıdaki görüntüde birkaç tatil tema dosyası bulunur. Mart ayı için bir tatil teması seçeceğiz (*Aziz Patrik Günü*).
 
-JSON tema dosyasının konumuna göz atmanızı sağlayan bir pencere açılır. Power BI Rapor Teması dosya türü JSON olduğu için Power BI Desktop JSON dosyalarını arar. Aşağıdaki görüntüde birkaç tatil tema dosyası bulunur. Mart ayı için bir tatil teması seçeceğiz.
+   ![Tatil teması](media/desktop-report-themes/report-themes_4.png)
 
-![Tatil teması](media/desktop-report-themes/report-themes_4.png)
+   Tema dosyası başarıyla yüklendiğinde, Power BI Desktop işlemin başarılı olduğunu belirten bir ileti görüntüler.
 
-Tema dosyası başarıyla yüklendiğinde, Power BI Desktop size haber verir.
+   ![Tema başarıyla içeri aktarıldı](media/desktop-report-themes/report-themes_5.png)
 
-![Tema başarıyla içeri aktarıldı](media/desktop-report-themes/report-themes_5.png)
-
-Power BI Desktop'ta temaları özelleştirmenin iki yolu vardır. Şimdi sırayla bunları gözden geçirelim:
-
+Power BI Desktop’ta rapor temalarını özelleştirmenin iki yolu vardır. Şimdi sırayla bunları gözden geçirelim:
 
 ## <a name="customize-report-themes-preview"></a>Rapor temalarını özelleştirme (önizleme)
 
-**Power BI Desktop**'ın Aralık 2019 sürümünden başlayarak, artık rapor temasını özelleştirmenin iki yolu vardır:
+Power BI Desktop’ın Aralık 2019 sürümünden başlayarak, rapor temasını özelleştirmenin iki yolu vardır:
 
-* Power BI Desktop'ta temayı oluşturma ve özelleştirme (önizleme)
-* Özel Rapor Teması JSON dosyasını oluşturma ve özelleştirme
+* [Power BI Desktop’ta tema oluşturma ve özelleştirme (önizleme)](#create-and-customize-a-theme-in-power-bi-desktop-preview)
+* [Özel rapor teması JSON dosyası oluşturma ve özelleştirme](#introduction-to-report-theme-json-files)
 
-Temayı doğrudan Power BI Desktop'ta özelleştirmek için önce **Dosya > Seçenekler ve ayarlar > Seçenekler**'i seçmeniz ve ardından aşağıdaki resimde gösterildiği gibi **Önizleme özellikleri** bölümünde **Geçerli temayı özelleştir**'in yanındaki kutuyu seçmeniz gerekir.
+### <a name="create-and-customize-a-theme-in-power-bi-desktop-preview"></a>Power BI Desktop'ta temayı oluşturma ve özelleştirme (önizleme)
 
-![Özelleştirilmiş temaları etkinleştirme](media/desktop-report-themes/report-themes_5a.png)
+Power BI Desktop’ın Aralık 2019 sürümünden itibaren, bir temayı doğrudan Power BI Desktop’ta özelleştirme olanağı önizleme olarak sunuldu.
 
-Önizleme özelliğinin etkinleştirilmesi için Power BI Desktop'ı yeniden başlatmanız istenebilir.
+Bir temayı doğrudan Power BI Desktop’ta özelleştirmek için: 
 
-Yeniden başlattıktan sonra **Giriş** şeridini ve sonra şeritten **Temayı değiştir > Geçerli temayı özelleştir**'i seçerek geçerli temayı özelleştirmeye başlayabilirsiniz. Mevcut temayı özelleştirmenin birçok yolunu gösteren bir iletişim kutusu görüntülenir.
+1. **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler**’i seçin. 
 
-![Temayı özelleştirme](media/desktop-report-themes/report-themes_5b.png)
+2. **Önizleme özellikleri** bölümünde **Geçerli temayı özelleştir**’i seçip **Tamam** seçeneğini belirleyin.
 
-Mevcut temalardan birini beğeniyor ve birkaç ayarlama yapmak istiyorsanız, mevcut temayı seçip ardından aşağıdaki resimde gösterildiği gibi iletişim kutusunda **Geçerli temayı özelleştir**'i kullanabilirsiniz. 
+   ![Özelleştirilmiş temaları etkinleştirme](media/desktop-report-themes/report-themes_5a.png)
 
-![Geçerli temayı özelleştirme](media/desktop-report-themes/report-themes_5c.png)
+   Önizleme özelliğinin etkinleştirilmesi için Power BI Desktop'ı yeniden başlatmanız istenebilir. Yeniden başlattıktan sonra, uygulanmış olan temayı özelleştirmeye başlayabilirsiniz. 
 
-> [!NOTE]
-> Önceki resimde, şu anda önizleme aşamasında olan yeni şerit etkinleştirilmiş durumdadır. **Dosya > Seçenekler ve ayarlar > Seçenekler**seçerek ve **Önizleme özellikleri** bölümünde **Yeni şerit önizlemesi** seçerek yeni şerit önizlemesini etkinleştirebilirsiniz.
+3. **Giriş** şeridinde **Temayı değiştir** > **Geçerli temayı özelleştir** seçeneğini belirleyin. 
 
-Özelleştirilebilen tema ayarları aşağıdaki kategorilerde bulunur ve temayı özelleştirme iletişim kutusunda bunlar yansıtılır:
+   Geçerli temayı özelleştirmenin yollarını gösteren bir iletişim kutusu görüntülenir.
 
-* Tema adı (özelleştirdiğiniz temayı adlandırırsınız) ve çeşitli renk ayarları (tema renkleri, yaklaşım renkleri, farklı renkler ve diğerleri)
-* Yazı tipi ailesi, boyutu ve rengi de dahil olmak üzere metin ayarları; eksen başlıkları, renkleri, kartlar ve KPI'ler; sekme üst bilgileri
-* Arka plan, kenarlık, üst bilgi ve araç ipuçları gibi görsel öğeler
-* Duvar kağıdı ve arka plan gibi sayfa öğeleri
-* Arka plan rengi, saydamlık, yazı tipi ve simge rengi, boyutu ve filtre kartları gibi filtre bölmesi ayarları
+   ![Temayı özelleştirme](media/desktop-report-themes/report-themes_5b.png)
 
-Değişikliklerinizi yaptıktan ve **Uygula ve kaydet** düğmesini seçtikten sonra temanız kaydedilir. Bundan sonra geçerli raporda kullanılabilir ve dışarı aktarılabilir. 
+4. Mevcut bir temayı beğendiyseniz ve birkaç ayarlama yapmak istiyorsanız temayı seçip **Geçerli temayı özelleştir** seçeneğini belirleyin. 
 
-Geçerli temayı bu şekilde özelleştirmek, temaları özelleştirmeye yönelik görsel çalışmanın hızlı ve kolay olmasını sağlayabilir. Öte yandan temaların, aşağıdaki bölümde açıklandığı gibi temanın JSON dosyasında değişiklik yapılmasını gerektiren bazı sınırlı ayarlamaları vardır.
+   ![Geçerli temayı özelleştirme](media/desktop-report-themes/report-themes_5c.png)
+
+Özelleştirilebilen tema ayarları aşağıdaki kategorilerde bulunur ve bunlar **Temayı özelleştir** penceresine gösterilir:
+
+* **Ad ve renkler**: Tema adları ve renk seçenekleri tema renklerini, yaklaşım renklerini ve farklı renkleri içerir.
+* **Metin**: Metin ayarları yazı tipi ailesini, boyutu, rengi, eksen başlıklarını, renkleri, kartları, KPI’ları ve sekme üst bilgilerini içerir.
+* **Görseller**: Görsel öğe ayarları arka planı, kenarlığı, üst bilgiyi ve araç ipuçlarını içerir.
+* **Sayfa**: Sayfa öğesi ayarları duvar kağıdını ve arka planı içerir.
+* **Filtre bölmesi**: Filtre bölmesi ayarları arka plan rengini, saydamlığı, yazı tipini, simge rengini, boyutu ve filtre kartlarını içerir.
+
+Değişikliklerinizi yaptıktan sonra temanızı kaydetmek için **Uygula ve kaydet** seçeneğini belirleyin. Temanız artık geçerli raporunuzda kullanılabilir ve dışarı aktarılabilir. 
+
+Geçerli temanın bu şekilde özelleştirilmesi, temaları özelleştirmeye yönelik görsel çalışmanın hızlı ve kolay olmasını sağlar. Ancak, temalarda daha ince ayarlamalar yapabilirsiniz. Bu işlem, temanın [JSON dosyasının](#report-theme-json-file-format) değiştirilmesini gerektirir.
 
 > [!TIP]
-> **Geçerli temayı özelleştir** iletişim kutusu kullanılarak görsel öğeler aracılığıyla tema öğelerinden çoğu özelleştirilebilir. Bundan sonra JSON dosyasını dışarı aktarabilir ve el ile ince ayarlamalar yapabilirsiniz (JSON dosyasının kendisinde değişiklik yaparak). Ardından ince ayarlamaların yapıldığı JSON dosyasını yeniden adlandırabilir, içeri aktarabilir ve istediğiniz tüm ayarlamalara sahip olabilirsiniz.
+> **Temayı özelleştir** penceresindeki görsel öğeleri kullanarak çoğu tema öğesini özelleştirebilirsiniz. Ardından, isteğe bağlı olarak JSON dosyasını dışarı aktarabilir ve JSON dosyasındaki ayarları değiştirerek kendiniz hassas ayarlamalar yapabilirsiniz. Hassas ayarlamaların yapıldığı JSON dosyasını yeniden adlandırabilir ve daha sonra bunu içeri aktarabilirsiniz.
 
+## <a name="introduction-to-report-theme-json-files"></a>Rapor teması JSON dosyalarına giriş
+ Önceki bölümde bahsedilen temel JSON dosyasını açtığınızda (Aziz Patrik Günü.json), bu dosya aşağıdaki gibi gözükür:
 
-## <a name="structure-of-a-report-theme-json-file"></a>Rapor Teması JSON dosyasının yapısı
- Önceki bölümde seçilen temel JSON dosyası (*St Patrick's Day.json* dosyası) bir düzenleyicide açıldığında aşağıdaki ekran görüntüsü gibi görünür:
-
-![St. Patrick's Day JSON dosyası](media/desktop-report-themes/report-themes_6.png)
-
-Bu JSON dosyasında şu gerekli satırlar bulunur:
-
-* **name**: Temanın adıdır ve gerekli olan tek alandır.
-
-* **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak onaltılık renk kodlarının listesidir. Listede istediğiniz sayıda renk bulunabilir.
-
-* **background**, **foreground** ve **tableAccent**: Birkaç renk sınıfı. Renk sınıflarının ayrıntılarına bu makalenin ilerleyen bölümlerinde bakacağız, ancak renk sınıflarının raporunuzda tek seferde birçok renk ayarlamanıza olanak tanıdığını biliyoruz.
-
-Aşağıda verilen *St Patrick's Day.json* dosyasının metin içeriğini kullanarak kendi JSON dosyanızı oluşturabilirsiniz:
-
-```json
+ ```json
     {
-        "name": "St Patricks Day",
+        "name": "St Patrick's Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
         "background":"#FFFFFF",
         "foreground": "#3A6108",
@@ -138,68 +147,79 @@ Aşağıda verilen *St Patrick's Day.json* dosyasının metin içeriğini kullan
     }
 ```
 
-Yapmak istediğiniz şey raporunuzun temel renklerini ayarlamaksa, kendi kişisel JSON dosyanızı içeri aktarmaya hazırlamak için yalnızca bu dosyanın adını ve onaltılık kodlarını değiştirebilirsiniz.
+Bu rapor teması JSON dosyasında aşağıdaki satırlar bulunur:
 
-JSON dosyasında yalnızca, uygulamak istediğiniz biçimlendirmeyi tanımlarsınız. JSON dosyanızda *belirtilmeyen* her şey için Power BI varsayılan ayarları geçerli olur.
+* **name**: Rapor teması adı. Bu alan, tek gerekli alandır.
 
-JSON dosyası oluşturmanın çok sayıda avantajı vardır. Örneğin, tüm grafiklerde yazı tipi boyutunun 12 olacağını, bazı görsellerde belirli bir yazı tipi ailesinin kullanılacağını belirtebilirsiniz. Veya belirli grafik türleri için veri etiketlerini devre dışı bırakabilirsiniz.
+* **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak renklerin onaltılık kod listesi. Listede istediğiniz sayıda renk bulunabilir.
 
-Ayrıntılı bir JSON dosyası kullanarak grafik ve raporlarınızı standart hale getirip kuruluş raporlarınızın tutarlı olmasını kolaylaştıran bir tema dosyası oluşturabilirsiniz.
+* **background**, **foreground** ve **tableAccent**: Renk sınıfları. Renk sınıfları, raporunuzda istediğiniz sayıda renk ayarlamanıza olanak tanır. 
 
-Ayrıntılı JSON dosyasının biçimi hakkında daha fazla bilgi için, bu makalenin ilerleyen kısımlarında yer alan **Rapor teması JSON dosya biçimi** bölümüne bakın.
+İçeri aktaracağınız kendi özel rapor teması dosyanızı oluşturmak için bu JSON dosyasını temel alabilirsiniz. Raporunuzda yalnızca temel renkleri değiştirmek istiyorsanız, dosyanızdaki adı ve onaltılık kodları değiştirin.
 
-## <a name="how-report-theme-colors-stick-to-your-reports"></a>Rapor Teması renkleri, raporlarınıza nasıl eklenir?
-Raporunuzu **Power BI hizmetinde** yayımladığınızda Rapor Teması renkleriniz de yayımlanır.
+Rapor teması JSON dosyasında, yalnızca değiştirmek istediğiniz biçimlendirmeyi tanımlarsınız. JSON dosyasında belirtmediğiniz her şey, Power BI Desktop varsayılan ayarlarına geri döner.
 
-**Biçim** bölmesindeki **Veri renkleri** bölümünde Rapor Temanız gösterilir. Örneğin, **St. Patrick's Day** temasından çok sayıda kahverengi ve yeşil renk uyguladıktan sonra bir görsel seçebilirsiniz. Ardından **Biçim > Veri renkleri** bölümüne gittiğinizde aşağıdakileri görürsünüz:
+JSON dosyası oluşturmanın çok sayıda avantajı vardır. Örneğin, tüm grafiklerde yazı tipi boyutunun 12 olacağını, bazı görsellerde belirli bir yazı tipi ailesinin kullanılacağını veya belirli grafik türleri için veri etiketlerinin devre dışı bırakılacağını belirtebilirsiniz. JSON dosyası kullanarak grafik ve raporlarınızı standart hale getiren ve kuruluş raporlarınızın tutarlı olmasını kolaylaştıran bir tema dosyası oluşturabilirsiniz.
 
-![Görselleştirmeler](media/desktop-report-themes/report-themes_8.png)
+JSON dosyası biçimi hakkında daha fazla bilgi edinmek için bkz. [Rapor teması JSON dosya biçimi](#report-theme-json-file-format).
 
-Tüm yeşil renkleri görüyor musunuz? Bunun nedeni, bu renklerin içeri aktarıp uyguladığımız **Rapor Temasında** yer almasıdır.
+## <a name="how-report-theme-colors-stick-with-your-reports"></a>Rapor teması renkleri raporlarınıza nasıl eklenir?
+Raporunuzu Power BI hizmetinde yayımladığınızda rapor teması renkleriniz de yayımlanır. **Biçim** bölmesindeki **Veri renkleri** bölümü rapor temanızı yansıtır. 
 
-Renk paletindeki renkler de geçerli temaya göre değişir. Bu nedenle, örneğin, bir veri noktası için en üstteki satırın üçüncü rengini seçer ve daha sonra farklı temayla değiştirirseniz, tıpkı Microsoft Office’te tema değiştirirken göreceğiniz gibi, bu veri noktasının rengi yeni temanın en üst satırının üçüncü rengiyle otomatik olarak güncelleştirilir.
+Rapor temasında kullanılabilir olan renkleri görüntülemek için:
 
-### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Rapor Teması renklerinin raporlarınıza eklenmediği durumlar
-Renk seçicideki Özel renk seçeneğini kullanarak bir görseldeki belirli bir veri noktasına özel bir renk kümesi (veya tek bir renk) uyguladığınızı düşünelim. Bir Rapor Teması uyguladığınızda bu özelleştirilmiş veri noktası rengini geçersiz *kılmaz*.
+1. Bir görseli seçin. 
 
-Tema renkleri bölümünü kullanarak bir veri noktasının rengini el ile ayarlamak da isteyebilirsiniz. Yeni bir Rapor Teması uyguladığınızda bu renkler *güncelleştirilmez*. Yeni bir Rapor Teması uyguladığınızda güncelleştirilmesi için varsayılan renklere dönmek isterseniz **Varsayılana geri dön**’ü seçin veya renk seçicinin Tema renkleri paletinden **Tema renkleri** seçeneğini belirleyin.
+2. **Görselleştirme** bölmesinin **Biçim** bölümünde **Veri renkleri** seçeneğini belirleyin.
+ 
+3. Rapor temasının **Tema renkleri** bilgilerini görüntülemek için bir öğenin açılan öğesini seçin.
+
+   ![Tema renkleri](media/desktop-report-themes/report-themes_8.png)
+
+Örneğimizde, Aziz Patrik Günü rapor temasından çok sayıda kahverengi ve yeşil renk uyguladıktan sonra tema renklerini görüntüleyin. Tüm yeşil renkleri görüyor musunuz? Bunun nedeni, bu renklerin içeri aktarıp uyguladığımız rapor temasında yer almasıdır.
+
+Renk paletindeki renkler geçerli temayla ilişkilidir. Örneğin, bir veri noktası için üst satırın üçüncü rengini seçtiğinizi varsayalım. Daha sonra, farklı bir temaya geçerseniz, Microsoft Office’in temasını değiştirdiğinizde olduğu gibi o veri noktasının rengi de otomatik olarak üst satırın üçüncü rengine güncelleştirilir.
+
+### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Rapor teması renklerinin raporlarınıza eklenmediği durumlar
+Renk seçicideki **Özel renk** seçeneğini kullanarak, görseldeki belirli bir veri noktasına özel bir renk kümesi (veya tek bir renk) uyguladığınızı varsayalım. Rapor teması uygulamanız özelleştirilmiş veri noktası rengini *geçersiz kılmaz*.
+
+Veya, **tema renkleri** bölümünü kullanarak bir veri noktasının rengini kendiniz ayarlamak istediğinizi varsayalım. Yeni bir rapor teması uyguladığınızda bu renkler *güncelleştirilmez*. Yeni bir rapor teması uyguladığınızda güncelleştirilmelerini sağlamak amacıyla varsayılan renklerinize geri dönmek için **Varsayılana geri dön** seçeneğini belirleyin veya renk seçicinin **Tema renkleri** paletinden bir renk seçin.
 
 ![Varsayılana geri dön](media/desktop-report-themes/report-themes_9.png)
 
-Ayrıca Rapor Temaları birçok **Özel Görsele** de uygulanmaz.
+Çoğu özel görsel rapor temalarına uygulanmaz.
 
-## <a name="report-theme-files-you-can-use-right-now"></a>Şu anda kullanabileceğiniz Rapor Teması dosyaları
-**Rapor Temaları** ile çalışmaya başlamak mı istiyorsunuz? Aşağıda indirip **Power BI Desktop** raporunuza aktarabileceğiniz birkaç hazır Rapor Teması JSON dosyası bulunmaktadır. Bu makalede kullanılan rapora uygulanan Rapor Temasının görüntüsü de dahil edilmiştir.
+## <a name="custom-report-theme-files-you-can-use-right-now"></a>Şu anda kullanabileceğiniz özel rapor teması dosyaları
+Rapor temalarını kullanmaya başlamak mı istiyorsunuz? [Tema galerisindeki](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) özel rapor temalarına göz atın veya indirip Power BI Desktop raporunuza aktarabileceğiniz şu hazır özel rapor teması JSON dosyalarını deneyin:
 
-* **Rapor Temalarının** kullanıma sunulduğunu duyuran [blog gönderisinde](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) kullanılan [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924) adlı [tema](https://go.microsoft.com/fwlink/?linkid=843924).
+* [Dalga biçimi teması](https://community.powerbi.com/t5/Themes-Gallery/Waveform/m-p/140536). Bu rapor teması, rapor temalarının kullanıma sunulduğunu duyuran [blog gönderisinde](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) tanıtıldı. [Waveform.json dosyasını indirin](https://go.microsoft.com/fwlink/?linkid=843924).
 
-  ![waverform.json teması](media/desktop-report-themes/report-themes_10.png)
+  ![Waveform.json teması](media/desktop-report-themes/report-themes_10.png)
 
-* Varsayılan renk temasına kıyasla [görme zorluğu yaşayan kullanıcılar için okuması daha kolay olan tema](https://go.microsoft.com/fwlink/?linkid=843923). Bu tema [*ColorblindSafe-Longer.json*](https://go.microsoft.com/fwlink/?linkid=843923) olarak adlandırılmıştır.
+* [Renk körlerine uygun tema](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597).
+Bu rapor teması, görsel engelliler için okumayı kolaylaştırır. [ColorblindSafe-Longer.json dosyasını indirin](https://go.microsoft.com/fwlink/?linkid=843923).
 
-  ![ColorblindSafe-Longer.json teması.](media/desktop-report-themes/report-themes_11.png)
+  ![ColorblindSafe-Longer.json teması](media/desktop-report-themes/report-themes_11.png).
 
-* Aşağıda gösterilen [*Apothecary.json*](https://go.microsoft.com/fwlink/?linkid=843925) adlı tema da dahil olmak üzere bir zip dosyasına yerleştirilmiş [Power View teması](https://go.microsoft.com/fwlink/?linkid=843925) grubu.
+* Apothecary.json dosyasını içeren Power View temaları. [Power View temalarını zip dosyası olarak indirin](https://go.microsoft.com/fwlink/?linkid=843925).
 
   ![Apothecary.json teması](media/desktop-report-themes/report-themes_12.png)
 
-* Son olarak *Valentine's Day* teması.
+* Sevgililer Günü teması.
 
-  ![Valentine's Day teması](media/desktop-report-themes/report-themes_13.png)
+  ![Sevgililer Günü teması](media/desktop-report-themes/report-themes_13.png)
 
-Valentine's Day teması için indirme bağlantısı yerine JSON kodunu verdik:
+  Sevgililer Günü JSON dosyasına yönelik kodu aşağıda bulabilirsiniz:
 
-```json
-    {
-        "name": "Valentine's Day",
-        "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
-        "background":"#FFFFFF",
-        "foreground": "#ee7799",
-        "tableAccent": "#990011"
-    }
-```
-
-**Rapor Temaları** sizi, kuruluşunuzu ve hatta geçerli mevsimi ya da tatili Power BI Desktop raporlarınızda renkli bir şekilde yansıtabilir. 
+   ```json
+       {
+           "name": "Valentine's Day",
+           "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
+           "background":"#FFFFFF",
+           "foreground": "#ee7799",
+           "tableAccent": "#990011"
+       }
+   ```
 
 Başlangıçta kullanabileceğiniz birkaç rapor teması daha aşağıda bulunmaktadır:
 
@@ -208,8 +228,27 @@ Başlangıçta kullanabileceğiniz birkaç rapor teması daha aşağıda bulunma
 * [Autumn](https://community.powerbi.com/t5/Themes-Gallery/Autumn/m-p/140746)
 * [High contrast](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597)
 
+Rapor temaları sizi, kuruluşunuzu ve hatta geçerli mevsimi veya tatili Power BI Desktop raporlarınızda renkli bir şekilde yansıtabilir. 
+
+
+## <a name="export-report-themes-preview"></a>Rapor temalarını dışarı aktarma (önizleme)
+
+Aralık 2019’da Power BI Desktop’ın kullanıma sunulmasıyla birlikte, uygulanmış temayı dışarı aktarıp doğrudan Power BI Desktop aracılığıyla bir JSON dosyasına indirme olanağı da sağlandı. Rapor temasını dışarı aktardıktan sonra bunu kendi raporlarınızda kullanabilirsiniz. Bu seçenek, yerleşik temaların çoğunu JSON dosyası olarak dışarı aktarmanıza olanak tanır. Tek özel durum, temel temalar olan Klasik ve Varsayılan’dır (diğer temalar içeri aktarıldıklarında bunları temel alır). 
+
+Geçerli temayı Power BI Desktop’tan dışarı aktarmak için: 
+
+1. **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler**’i seçin. 
+
+2. **Önizleme özellikleri** bölümünde **Geçerli temayı özelleştir**’i seçip **Tamam** seçeneğini belirleyin.
+
+   Önizleme özelliğinin etkinleştirilmesi için Power BI Desktop'ı yeniden başlatmanız istenebilir. Yeniden başlattıktan sonra, uygulanmış olan temayı dışarı aktarmaya başlayabilirsiniz. 
+
+3.  **Giriş** şeridinde **Temayı değiştir** > **Geçerli temayı dışarı aktar** seçeneğini belirleyin. 
+
+4. **Farklı Kaydet** iletişim kutusunda JSON dosyalarının kaydedileceği dizine gidip **Kaydet** seçeneğini belirleyin.
+
 ## <a name="report-theme-json-file-format"></a>Rapor teması JSON dosya biçimi
-En temel düzeyinde, tema JSON dosyasında yalnızca bir gerekli satır vardır: **ad**. 
+En temel düzeyinde, tema JSON dosyasında yalnızca bir gerekli satır vardır: **name**. 
 
 ```json
     {
@@ -217,16 +256,15 @@ En temel düzeyinde, tema JSON dosyasında yalnızca bir gerekli satır vardır:
     }
 ```
 
-*Ad* dışındaki her şey isteğe bağlıdır. Diğer bir deyişle, tema dosyasına yalnızca özellikle istediğiniz özellikleri eklemekte ve geri kalanı için Power BI’ın varsayılan özelliklerini kullanmakta serbestsiniz. 
+**name** dışındaki her şey isteğe bağlıdır. Yani, tema dosyasına özellikle biçimlendirmek istediğiniz özellikleri ekleyebilir ve geri kalanı için Power BI’ın varsayılan özelliklerini kullanabilirsiniz. 
 
-Ad altında, veri rengiyle ilgili bazı temel özellikleri ekleyebilirsiniz. 
+**name** satırının altına, veri rengiyle ilgili aşağıdaki temel özellikleri ekleyebilirsiniz: 
 
+* **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak renklerin onaltılık kod listesi. Listede istediğiniz sayıda renk bulunabilir. Bu listedeki tüm renkler kullanıldıktan sonra, görsel daha fazla renk gerekiyorsa Power BI’ın varsayılan renk paletini kullanmaya geri döner. 
+* **good**, **neutral**, **bad**: Bu özellikler şelale grafiği ve KPI görseli tarafından kullanılan durum renklerini ayarlar.
+* **maximum**, **center**, **minimum**, **null**: Bu renkler koşullu biçimlendirme iletişim kutusundaki çeşitli gradyan renklerini ayarlar.  
 
-* **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak onaltılık renk kodlarının listesidir. Listede istediğiniz sayıda renk bulunabilir. Bu listedeki tüm renkler kullanıldıktan sonra, görsel daha fazla renk gerekiyorsa Power BI’ın varsayılan renk paletini kullanmaya geri döner. 
-* **iyi, nötr, bozuk**: Bunlar şelale grafiği ve KPI görseli tarafından kullanılan durum renklerini ayarlar.
-* **maksimum, orta, minimum, null**: Bu renkler koşullu biçimlendirme iletişim kutusundaki çeşitli gradyan renklerini ayarlar.  
-
-Bu renkleri tanımlayan temel bir tema aşağıdaki gibi görünür:
+Bu renkleri tanımlayan temel bir tema aşağıdaki gibi görünebilir:
 
 ```json
     {
@@ -253,20 +291,19 @@ Bu renkleri tanımlayan temel bir tema aşağıdaki gibi görünür:
     }
 ```
 
-Daha sonra çeşitli renk sınıfları ekleyebilirsiniz. Renk sınıfları, genel olarak aynı renge sahip benzer görsel özellikleri gruplandırarak, raporunuzun tamamında tek bir satırda birçok renk ayarlamanıza olanak sağlar. 
+Ardından, **background** ve **foreground** gibi çeşitli renk sınıfları ekleyebilirsiniz. Renk sınıfları, genel olarak aynı renge sahip benzer görsel özellikleri gruplandırarak, raporunuzun tamamında tek bir satırda birçok renk ayarlamanıza olanak sağlar. 
 
 Aşağıdaki tabloda, biçimlendirebileceğiniz altı renk sınıfını görebilirsiniz.
 
-
 |Renk sınıfı  |Neyi biçimlendirir?  |
 |---------|---------|
-|ön plan | Etiket arka plan rengi (veri noktaları dışında olduğunda) <br> Eğilim çizgisi rengi <br>  Metin kutusu varsayılan rengi <br> Tablo ve matris değerleri ve toplam yazı tipi renkleri Veri çubukları eksen rengi <br> Kart veri etiketleri <br> Ölçek açıklama balonu değeri rengi <br> KPI hedefi rengi <br>  KPI metin rengi <br> Dilimleyici öğe rengi (Odak modundayken)  <br> Dilimleyici açılan öğe yazı tipi rengi <br> Dilimleyici sayısal giriş yazı tipi rengi <br> Dilimleyici üst bilgisi yazı tipi rengi <br> Dağılım grafiği oran çizgisi rengi <br> Çizgi grafik tahmin çizgisi rengi <br> Eşleme öncü çizgisi rengi <br> Filtre bölmesi ve kart metin rengi|
-|foregroundNeutralSecondary |Etiket renkleri  <br> Gösterge etiketi rengi <br> Eksen etiketi rengi <br> Tablo ve matris üst bilgisi yazı tipi rengi <br> Ölçek hedefi ve hedef öncü çizgisi rengi <br>  KPI eğilimi ekseni rengi <br> Dilimleyici kaydırıcısı rengi <br> Dilimleyici öğe yazı tipi rengi <br> Kaydırıcı ana hat rengi <br> Çizgi grafik üzerine gelme rengi <br> Çok satırlı kart başlığı rengi <br> Şerit grafik kontur rengi <br> Şekil eşlemi kenarlık rengi <br> Düğme metni yazı tipi rengi <br> Düğme simgesi çizgi rengi <br> Düğme ana hat çizgisi rengi |
-| foregroundNeutralTertiary | gösterge soluk rengi <br> Kart kategori etiketi rengi <br> Çok satırlı kart kategorisi etiketi rengi <br> Çok satırlı kart çubuk rengi <br> Huni grafiği dönüştürme oranı kontur rengi 
-| backgroundLight | Eksen kılavuz çizgisi rengi <br> Tablo ve matris kılavuz rengi <br> Dilimleyici üst bilgisi arka plan rengi (Odak modundayken)  <br> Çok satırlı kart ana hat rengi  <br> Şekil dolgusu rengi <br> Ölçek yayı arka plan rengi <br> Uygulanan filtre kart arka planı rengi <br> |
-backgroundNeutral | Tablo ve matris kılavuz ana hat rengi <br> Şekil eşlemi varsayılan rengi <br> Şerit grafik şeridi dolgu rengi (seri eşleştirme seçeneği kapalıyken) |
-background | Etiket arka plan rengi (veri noktaları içinde olduğunda) <br> Dilimleyici açılan öğeleri arka plan rengi  <br> Halka grafik kontur rengi <br> Ağaç haritası kontur rengi <br> Birleşik harita arka plan rengi <br> Düğme dolgusu rengi <br> Filtre bölmesi ve kullanılabilir filtre kartı arka plan rengi |
-tableAccent | Mevcut olduğunda tablo ve matris kılavuzu ana hat rengini geçersiz kılar |
+|**foreground** | Etiket arka plan rengi (veri noktaları dışında olduğunda) <br> Eğilim çizgisi rengi <br>  Metin kutusu varsayılan rengi <br> Tablo ve matris değerleri ve toplam yazı tipi renkleri Veri çubukları eksen rengi <br> Kart veri etiketleri <br> Ölçek açıklama balonu değeri rengi <br> KPI hedefi rengi <br>  KPI metin rengi <br> Dilimleyici öğe rengi (odak modundayken)  <br> Dilimleyici açılan öğe yazı tipi rengi <br> Dilimleyici sayısal giriş yazı tipi rengi <br> Dilimleyici üst bilgisi yazı tipi rengi <br> Dağılım grafiği oran çizgisi rengi <br> Çizgi grafik tahmin çizgisi rengi <br> Eşleme öncü çizgisi rengi <br> Filtre bölmesi ve kart metin rengi|
+|**foregroundNeutralSecondary** |Etiket renkleri  <br> Gösterge etiketi rengi <br> Eksen etiketi rengi <br> Tablo ve matris üst bilgisi yazı tipi rengi <br> Ölçek hedefi ve hedef öncü çizgisi rengi <br>  KPI eğilimi ekseni rengi <br> Dilimleyici kaydırıcısı rengi <br> Dilimleyici öğe yazı tipi rengi <br> Kaydırıcı ana hat rengi <br> Çizgi grafik üzerine gelme rengi <br> Çok satırlı kart başlığı rengi <br> Şerit grafik kontur rengi <br> Şekil eşlemi kenarlık rengi <br> Düğme metni yazı tipi rengi <br> Düğme simgesi çizgi rengi <br> Düğme ana hat çizgisi rengi |
+| **foregroundNeutralTertiary** | gösterge soluk rengi <br> Kart kategori etiketi rengi <br> Çok satırlı kart kategorisi etiketi rengi <br> Çok satırlı kart çubuk rengi <br> Huni grafiği dönüştürme oranı kontur rengi 
+| **backgroundLight** | Eksen kılavuz çizgisi rengi <br> Tablo ve matris kılavuz rengi <br> Dilimleyici üst bilgisi arka plan rengi (odak modundayken)  <br> Çok satırlı kart ana hat rengi  <br> Şekil dolgusu rengi <br> Ölçek yayı arka plan rengi <br> Uygulanan filtre kart arka planı rengi <br> |
+**backgroundNeutral** | Tablo ve matris kılavuz ana hat rengi <br> Şekil eşlemi varsayılan rengi <br> Şerit grafik şeridi dolgu rengi (seri eşleştirme seçeneği kapalıyken) |
+**background** | Etiket arka plan rengi (veri noktaları içinde olduğunda) <br> Dilimleyici açılan öğeleri arka plan rengi  <br> Halka grafik kontur rengi <br> Ağaç haritası kontur rengi <br> Birleşik harita arka plan rengi <br> Düğme dolgusu rengi <br> Filtre bölmesi ve kullanılabilir filtre kartı arka plan rengi |
+**tableAccent** | Mevcut olduğunda tablo ve matris kılavuzu ana hat rengini geçersiz kılar |
 
 
 Renk sınıflarını ayarlayan örnek tema aşağıda verilmiştir:
@@ -284,16 +321,16 @@ Renk sınıflarını ayarlayan örnek tema aşağıda verilmiştir:
     }
 ```
 
-Daha sonra renk sınıflarına benzer olmasına karşılık yazı tipi boyutunu, rengini ve ailesini rapor genelindeki metin grupları için güncelleştirmenizi sağlamak için tasarlanmış olan metin sınıflarını JSON dosyanıza ekleyebilirsiniz. 12 metin sınıfı vardır, ancak raporunuzdaki metin biçimlendirmelerinin tümünü değiştirmek için *birincil sınıflar* olarak adlandırılan dört sınıfı ayarlamanız yeterlidir. *İkincil sınıflar* olarak kabul edilen diğer metin sınıfları ise özelliklerini ilişkili oldukları birincil sınıflardan otomatik olarak devralır veya türetir. İkincil sınıf genellikle birincil sınıfa kıyasla daha açık bir metin rengi gölgesi ya da daha büyük veya daha küçük bir metin boyutu yüzdesi türetir. 
+Daha sonra, JSON dosyanıza metin sınıfları ekleyebilirsiniz. Metin sınıfları renk sınıflarına benzese de, bunlar yazı tipi boyutunu, rengini ve ailesini rapor genelindeki metin grupları için güncelleştirmenizi sağlamak için tasarlanmıştır. 12 metin sınıfı bulunur ancak raporunuzdaki metin biçimlendirmelerinin tümünü değiştirmek için yalnızca *birincil sınıflar* olarak adlandırılan dört sınıfı ayarlamanız yeterlidir. *İkincil sınıflar* olarak kabul edilen diğer metin sınıfları ise özelliklerini ilişkili oldukları birincil sınıflardan otomatik olarak devralır veya türetir. İkincil sınıf genelde birincil sınıfa kıyasla daha açık bir metin rengi gölgesi ya da daha büyük veya daha küçük bir metin boyutu yüzdesi türetir. 
 
-*Etiket* sınıfını örnek olarak alalım. Etiket sınıfı için varsayılan biçimlendirme Segoe UI, #252423 (koyu gri renk) ve 12 puntodur ve bu sınıf tablo ile matristeki değerleri biçimlendirmek için kullanılır. Genellikle bir tablo veya matristeki toplamlar benzer bir biçimlendirmeye sahip olacaktır, ancak daha fazla öne çıkması için kalın yapıldığından kalın etiket sınıfını kullanır. Ancak, bunu hiçbir zaman JSON teması içinde belirtmeniz gerekmez. Power BI bunu sizin için otomatik olarak algılar. Daha sonra etiketlerinizin 14 punto yazı tipinde olmasını ve temanızda bunu belirtmeyi isterseniz, etiket sınıfından tüm metin biçimlendirmesini devraldığı ve sadece üstündeki yazı tipi ailesini kalın yaptığından kalın etiket sınıfını da güncelleştirmeniz gerekmez. 
+**Etiket** sınıfını örnek olarak alalım. **label** sınıfı için varsayılan biçimlendirme Segoe UI #252423 (koyu gri bir renk) ve 12 pt’dir. Tablo ve matristeki değerleri biçimlendirmek için bu sınıf kullanılır. Genelde, bir tablo veya matristeki toplamlar benzer bir biçimlendirmeye sahip olur ancak öne çıkmaları **bold label** sınıfıyla kalın yapılırlar. Ancak, tema JSON dosyasında bu sınıfı belirtmeniz gerekmez. Power BI bunu otomatik olarak yapar. Daha sonra, temanızda 14 pt yazı tipi olan etiketler belirtmeye karar verirseniz, metin biçimlendirmesini **label** sınıfından devraldığı için **bold label** sınıfını da güncelleştirmeniz gerekmez. 
 
-Tablo listesinde aşağıdakiler gösterilir:
-* Dört birincil metin sınıfı, neyi biçimlendirdiği ve varsayılan ayarları
+Aşağıdaki tabloda aşağıdaki bilgiler gösterilir:
+* Dört birincil metin sınıfının her biri, neyi biçimlendirdiği ve varsayılan ayarları
 * İkincil sınıfların her biri, neyi biçimlendirdiği ve birincil sınıfa kıyasla benzersiz olan varsayılan ayarı
 
 
-|Birincil sınıf  |İkincil Sınıflar  |JSON'daki sınıf adı  |Ayarlar  |İlişkili görsel nesneler  |
+|Birincil sınıf  |İkincil sınıflar  |JSON sınıfı adı  |Ayarlar  |İlişkili görsel nesneler  |
 |---------|---------|---------|---------|---------|
 | Açıklama Balonu   | YOK   | açıklama balonu | DIN <br> #252423 <br> 45 pt |Kart veri etiketleri <br> KPI göstergeleri|
 |Üst bilgi|YOK|üst bilgi|Segoe UI Semibold <br> #252423 <br> 12 pt |Ana etmenler üst bilgileri |
@@ -309,7 +346,7 @@ Tablo listesinde aşağıdakiler gösterilir:
 |-|Küçük ve Hafif  |smallLightLabel    |#605E5C<br>9 pt |Veri etiketleri<br>Değer ekseni etiketleri|
 
 
-Birincil sınıflardan devralındığı için tema dosyanızda ikincil sınıfları ayarlamanız gerekmezse de, devralma kurallarını beğenmiyorsanız (örneğin, bir tabloda toplamlarınız için değerlerin kalın sürümünü görmek istemiyorsanız), tıpkı birincil sınıfları biçimlendirebileceğiniz gibi tema dosyasındaki ikincil sınıfları da açıkça biçimlendirebilirsiniz.
+Birincil sınıflardan devralındığı için tema dosyanızda ikincil sınıfları ayarlamanız gerekmez. Ancak, devralma kurallarını beğenmiyorsanız (örneğin, bir tabloda toplamlarınız için değerlerin kalın sürümünü görmek istemiyorsanız), tıpkı birincil sınıfları biçimlendirebileceğiniz gibi tema dosyasındaki ikincil sınıfları da açıkça biçimlendirebilirsiniz.
 
 Yalnızca birincil metin sınıflarını ayarlayan örnek bir tema aşağıda verilmiştir: 
 
@@ -341,7 +378,7 @@ Yalnızca birincil metin sınıflarını ayarlayan örnek bir tema aşağıda ve
     }
 ```
 
-Son olarak, tüm görsel biçimlendirmeye daha ayrıntılı denetim sağlayan genişletilmiş biçimli bir JSON dosyası oluşturmak için JSON dosyasına bir **visualStyles** bölümü ekleyebilirsiniz. Biçimlendirme ayrıntılarını **visualStyles** bölümünde iç içe yerleştirirsiniz. **visualStyles** bölümünü aşağıdaki biçime benzer olacaktır:
+Son olarak, tüm görsel biçimlendirmeye daha ayrıntılı denetim sağlayan genişletilmiş biçimli bir JSON dosyası oluşturmak için JSON dosyasına bir **visualStyles** bölümü ekleyip biçimlendirme özelliklerini iç içe yerleştirebilirsiniz. **visualStyles** bölümünün bir örneği aşağıda verilmiştir:
 
     visualStyles: {
         visualName: {
@@ -353,11 +390,11 @@ Son olarak, tüm görsel biçimlendirmeye daha ayrıntılı denetim sağlayan ge
         }
     }
 
-**visualName** ve **cardName** bölümlerinde belirli bir görsel ve kart adı kullanın. Şu anda **styleName** her zaman bir yıldız işareti ("*") ile gösterilmektedir ancak gelecek bir sürümde görselleriniz için farklı stiller oluşturabilecek ve farklı adlar verebileceksiniz (tablo ve matris stili özelliğine benzer şekilde). **propertyName**, belirli bir biçimlendirme seçeneğinin adıdır, **propertyValue** ise bu biçimlendirme seçeneğini yerleştirmek istediğiniz yerdir.  
+**visualName** ve **cardName** bölümlerinde belirli bir görsel ve kart adı kullanın. Şu anda **styleName** her zaman bir yıldız işareti (*) ile gösterilir ancak gelecek bir sürümde görselleriniz için farklı stiller oluşturma ve farklı adlar verme olanağı sunulacak (tablo ve matris stili özelliğine benzer şekilde). **propertyName** biçimlendirme seçeneğinin adıdır. **propertyValue** ise bu biçimlendirme seçeneğinin değeridir.  
 
-Ayarın bir özelliğe sahip tüm görseller veya kartlar geçerli olmasını istiyorsanız, **visualName** ve **cardName** için belirli bir görsel ya da kart adı yerine yıldız işareti ("\*") kullanabilirsiniz. Hem görsel hem de kart adı için yıldız işareti ("\*") kullanırsanız, tüm görsellerdeki bütün metinlerde yazı tipi veya belirli bir yazı tipi ailesi kullanmak gibi bir ayarı raporunuzun geneline uygulamış olursunuz.
+**visualName** ve **cardName** öğelerine yönelik bu ayarın belirli bir görsel için bir özellik içeren tüm görsellere ya da kartlara uygulanmasını istiyorsanız tırnak işareti içine alınmış bir yıldız işareti kullanabilirsiniz. Hem görsel hem de kart adı için yıldız işareti kullanırsanız, tüm görsellerdeki bütün metinlerde yazı tipi veya belirli bir yazı tipi ailesi kullanma gibi bir ayar raporunuzun geneline uygulanır.
 
-Görsel stiller aracılığıyla birkaç özelliği ayarlayan bir örnek aşağıda verilmiştir. 
+Görsel stiller aracılığıyla birkaç özelliği ayarlayan bir örnek aşağıda verilmiştir: 
 
 ```json
 {  
@@ -392,23 +429,23 @@ Görsel stiller aracılığıyla birkaç özelliği ayarlayan bir örnek aşağ�
 }
 ```
 
-Bu örnekte aşağıdakiler gösterilmektedir:
+Bu örnek aşağıdaki ayarları yapar:
 
 * Her yerde sözcük kaydırmayı açma
-* Kategori ekseni olan tüm görseller için kılavuz çizgisi stilini noktalı olarak ayarlama
-* Kullanılabilir ve uygulanmış filtre kartları için bazı biçimlendirmeleri ayarlama (filtre kartlarının farklı sürümlerini ayarlamak için "$id" kullanarak biçimi not edin)
-* Dağılım grafikleri için kabarcık boyutunu -10 olarak ayarlama.
+* Kategori ekseni olan tüm görseller için kılavuz çizgisi stilini noktalı olarak ayarlar
+* Kullanılabilir ve uygulanmış filtre kartları için bazı biçimlendirmeleri ayarlar (filtre kartlarının farklı sürümlerini ayarlamak için “$id” kullanarak biçimi not edin)
+* Dağılım grafikleri için kabarcık boyutunu -10 olarak ayarlar.
 
 
 > [!NOTE]
-> Yalnızca ayarlamak istediğiniz biçimlendirme öğelerini belirtmeniz yeterlidir. JSON dosyasında belirtilmeyen biçimlendirme öğeleri için varsayılan değerler ve ayarlar geçerli olur.
+> Yalnızca ayarlamak istediğiniz biçimlendirme öğelerini belirtmeniz gerekir. JSON dosyasında yer almayan biçimlendirme öğeleri varsayılan değerlere ve ayarlara geri döner.
 > 
 > 
 
 ### <a name="json-file-element-definitions"></a>JSON dosya öğesi tanımları
-Bu bölümdeki tablolarda görsel adları (*visualName*), kart adları (*cardName*) ve JSON dosyanızı oluşturmanız için gereken sabit listeleri tanımlanmaktadır.
+Bu bölümdeki tablolarda görsel adları (**visualName**), kart adları (**cardName**) ve JSON dosyanızı oluşturmanız için gereken sabit listeleri tanımlanmaktadır.
 
-| **visualName** |
+| visualName değerleri |
 | --- |
 | areaChart |
 | barChart |
@@ -442,9 +479,9 @@ Bu bölümdeki tablolarda görsel adları (*visualName*), kart adları (*cardNam
 | treemap |
 | waterfallChart |
 
-Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki ilk değer JSON dosyası terimidir. İkinci değer ise **Power BI Desktop** kullanıcı arabiriminde görüldüğü üzere kartın adıdır.
+Aşağıdaki tabloda **cardName** değerleri tanımlanmaktadır. Her hücredeki ilk değer JSON dosyası terimidir. İkinci değer, Power BI Desktop kullanıcı arabiriminde görüldüğü gibi kartın adıdır.
 
-| **cardName** |
+| cardName değerleri |
 | --- |
 | axis: Ölçer ekseni |
 | breakdown: Çözümleme |
@@ -501,17 +538,17 @@ Aşağıdaki tabloda *cardName* değerleri tanımlanmaktadır. Her hücredeki il
 ### <a name="properties-within-each-card"></a>Her bir karttaki özellikler
 Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır. Kart adının ardından her özelliğin adı gelir. Her özellik için, biçimlendirme bölmesinin gösterilip gösterilmediğini, biçimlendirme seçeneğinin ne yaptığına ilişkin bir açıklamayı ve biçimlendirme seçeneğinin türünü görürsünüz. Bu yaklaşım, tema dosyanızda ne tür değerleri kullanabileceğinizi bilmenizi sağlar. 
 
-**dateTime** değerini kullandığınızda tarih, datetime başta olacak şekilde, tek tırnak işaretleri içinde ve ISO tarih biçiminde yazılmalıdır. Aşağıda bir örnek verilmiştir:
+**dateTime** değerini kullandığınızda tarih, datetime başta olacak şekilde, tek tırnak işaretleri içinde ve ISO tarih biçiminde yazılmalıdır. Aşağıdaki örneğe bakın:
 
     “datetime’2011-10-05T14:48:00.000Z’”
 
 Boole değerleri true veya false şeklindedir. Dizeler, "bu bir dizedir" örneğinde olduğu gibi çift tırnak işaretleri içinde olmalıdır. Sayılar tırnak içinde gösterilmez ve değerin kendisidir.
 
-Renkler, özel onaltılı kodunuzun aşağıdaki örnekte “FFFFFF” olan yere gittiği aşağıdaki biçimi kullanmalıdır.  
+Renklerde, aşağıdaki biçim kullanılır. Buradaki örnekte “FFFFFF” yerine özel onaltılık kodunuz gelir:  
 
     { "solid": { "color": "#FFFFFF" } }
 
-Açılan biçimlendirme seçenekleri için en yaygın olarak kullanılan bir numaralandırma, bölmede görülen seçeneklerden herhangi birine ayarlanabileceği anlamına gelir; örneğin gösterge konumu için "RightCenter" veya pasta veri etiketi için "Veri değeri, toplamın yüzdesi". Numaralandırma seçenekleri, özellik listesinin altında gösterilir.
+En çok, açılan biçimlendirme seçenekleri için kullanılan bir sabit listesi, bölmede görülen seçeneklerden herhangi birine ayarlanabileceği anlamına gelir. Örneğin, gösterge konumu için “RightCenter” veya pasta veri etiketi için “Veri değeri, toplamın yüzdesi”. Numaralandırma seçenekleri, özellik listesinin altında gösterilir.
 
 
 ```json

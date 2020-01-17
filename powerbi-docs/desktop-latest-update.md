@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222000"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761054"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Son Power BI Desktop güncelleştirmesindeki yenilikler
+# <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
 
 ## <a name="december-2019-update-2765678661"></a>Aralık 2019 Güncelleştirmesi (2.76.5678.661)
@@ -42,8 +42,8 @@ Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabili
 
 
 ### <a name="reporting"></a>Raporlama
-* Tema oluşturma güncelleştirmeleri (önizleme) [[video]](https://youtu.be/eCEwgZsVUOs?t=10)  [[makale]](desktop-report-themes.md#customize-report-themes-preview)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* Geçerli temayı dışarı aktarma (önizleme)   [[video]](https://youtu.be/eCEwgZsVUOs?t=242)  [[makale]](desktop-report-themes.md#customize-report-themes-preview)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* Geçerli temayı özelleştirme (önizleme) [[video]](https://youtu.be/eCEwgZsVUOs?t=10)  [[makale]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* Geçerli temayı dışarı aktarma (önizleme) [[video]](https://youtu.be/eCEwgZsVUOs?t=242)  [[makale]](desktop-report-themes.md#export-report-themes-preview)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * Tablo sütunu veya matris değerini özel bir URL olarak ayarlama [[video]](https://youtu.be/eCEwgZsVUOs?t=277)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * KPI görsel biçimlendirme ayarları [[video]](https://youtu.be/eCEwgZsVUOs?t=354)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * Yeni ayrıştırma ağacı biçimlendirmesi [[video]](https://youtu.be/eCEwgZsVUOs?t=442)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
