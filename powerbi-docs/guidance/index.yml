@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2bebde937666503739f6b0afe3ce20a8fe4baa8c
-  ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+  ms.openlocfilehash: 4f9d90caa643771ee300a9e7a62b4eb819becc82
+  ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/16/2020
-  ms.locfileid: "76039893"
+  ms.lasthandoff: 01/17/2020
+  ms.locfileid: "76161467"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -47,8 +47,10 @@ landingContent:
       url: star-schema.md
     - text: Veri azaltma teknikleri
       url: import-modeling-data-reduction.md
-    - text: Power BI Desktop’ta otomatik tarih/saat kılavuzu
+    - text: Otomatik tarih/saat kılavuzu
       url: auto-date-time.md
+    - text: DirectQuery model kılavuzu
+      url: directquery-model-guidance.md
     - text: Çoka çok ilişkiler kılavuzu
       url: relationships-many-to-many.md
 - title: DAX
@@ -81,7 +83,9 @@ landingContent:
       url: report-drillthrough.md
     - text: Power BI’daki sayfalandırılmış raporları kullanma zamanı
       url: report-paginated-or-power-bi.md
+    - text: Sayfalandırılmış raporlarda basamaklı parametreleri kullanma
+      url: paginated-report-cascading-parameter.md
     - text: Sayfalandırılmış raporları yazdırırken boş sayfalardan kaçınma
       url: report-paginated-blank-page.md
-    - text: SQL Server Reporting Services raporlarını Power BI’a geçirme
+    - text: SSRS raporlarını Power BI’a geçirme
       url: migrate-ssrs-reports-to-power-bi.md
