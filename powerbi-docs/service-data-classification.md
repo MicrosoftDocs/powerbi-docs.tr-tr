@@ -1,20 +1,20 @@
 ---
 title: Pano veri sınıflandırması
 description: Pano veri sınıflandırması ile ilgili bilgi (sınıflandırmanın Yöneticiler tarafından nasıl ayarlanması gerektiği ve pano sahipleri tarafından nasıl değiştirilebileceği de dahil olmak üzere) edinin.
-author: amandacofsky
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872760"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925731"
 ---
 # <a name="dashboard-data-classification"></a>Pano veri sınıflandırması
 Her pano farklıdır. Bağlandığınız veri kaynağına bağlı olarak, sizin ve panoyu paylaştığınız iş arkadaşlarınızın, verilerin gizlilik durumuna göre farklı önlemler alması gerekebilir. Bazı panoların hiçbir zaman şirket dışındaki kişilerle paylaşılmaması veya yazdırılmaması gerekir, bazılarının paylaşılmasında ise bir sakınca yoktur. Pano veri sınıflandırmasını kullanarak, panolarınızı görüntüleyen kişilerin, hangi güvenlik düzeyinin kullanılması gerektiğine dair farkındalığını artırabilirsiniz. Panolarınızı şirketinizin BT departmanı tarafından tanımlanan sınıflandırmalar ile etiketleyebilir ve içeriği görüntüleyen herkesin, verilerin gizliliği konusunda ortak bir bilince sahip olmasını sağlayabilirsiniz.
