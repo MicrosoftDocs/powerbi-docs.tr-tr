@@ -26,7 +26,7 @@
       items:
         - name: Pano uyarısı oluşturma
           href: end-user-alerts.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Panolar
           items:
@@ -162,7 +162,7 @@
           href: mobile/mobile-apps-offline-data.md
         - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
           href: mobile/mobile-mixed-reality-app.md
-    - name: Nasıl yapılır?
+    - name: Nasıl yapılır
       items:
         - name: Tüm mobil uygulamalar
           items:
@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Mobil uygulamalarda sık kullanılanlar
               href: mobile/mobile-apps-favorites.md
-            - name: Mobil uygulamalarda rapor etkileşimini yapılandırma (yalnızca telefon)
-              href: mobile/mobile-app-single-tap.md
+            - name: Etkileşim ayarlarını yapılandırma (yalnızca telefon)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Power BI mobil uygulamalarında bildirim alma

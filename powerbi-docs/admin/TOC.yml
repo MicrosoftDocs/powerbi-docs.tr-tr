@@ -52,6 +52,8 @@
               href: service-security-enable-data-sensitivity-labels.md
             - name: Power BI ile Microsoft Cloud App Security kullanma
               href: service-security-using-microsoft-cloud-app-security-controls.md
+            - name: Data protection metrics raporu
+              href: service-security-data-protection-metrics-report.md
         - name: Satır düzeyi güvenlik
           href: ../service-admin-rls.md
         - name: Intune ile mobil uygulamaları yapılandırma
