@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861319"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039116"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
@@ -59,7 +59,7 @@ Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 - aynı X eksenine sahip bir çizgi grafiğiniz ve sütun grafiğiniz olduğunda.
 - farklı değer aralıklarına sahip birden fazla ölçüyü karşılaştırmak istediğinizde
 - bir görselde yer alan iki ölçü arasındaki bağıntıyı göstermek istediğinizde
-- bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde.
+- bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde
 - tuval alanını tasarruflu kullanmak istediğinizde
 
 ### <a name="doughnut-charts"></a>Halka grafikler
@@ -140,6 +140,19 @@ Matris görseli basamaklı düzeni destekleyen bir tür tablo görselidir (aşa�
 
 Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
 
+### <a name="power-apps-visual"></a>Power Apps görseli
+![Power Apps görseli](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Rapor tasarımcıları bir Power App oluşturup bunu Power BI raporuna ekleyebilir. Tüketiciler Power BI raporunun içinde bu görselle etkileşimli çalışabilir. 
+
+### <a name="qa-visual"></a>Soru-Cevap görseli
+![Soru-Cevap görselleri](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>[Panolarda Soru-Cevap deneyimine](../power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
+
+Daha fazla bilgi için bkz. [Power BI’daki Soru-Cevap görselleri](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+
 ### <a name="ribbon-chart"></a>Şerit grafik
 ![Şerit grafik](media/end-user-visual-type/power-bi-ribbon.png)
 
@@ -161,7 +174,7 @@ Noktalı grafik, kabarcık grafiğine ve dağılım grafiğine benzer ancak onla
 ![noktalı grafik](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Yüksek yoğunluklu dağılım
-![yüksek yoğunluklu dağılım](media/end-user-visual-type/density-scatter.png)
+![yüksek yoğunlukta dağılım](media/end-user-visual-type/density-scatter.png)
 
 Tanımı gereği, görsellerin makul bir hızla oluşturulması ve etkileşime yanıt vermesi için yüksek yoğunluklu verilerde örnekleme yapılır. Yüksek yoğunluklu örnekleme çakışan noktaları ortadan kaldıran bir algoritma kullanır ve veri kümesindeki tüm noktaların görsele yansıtılmasını sağlar. Verilerin yalnızca temsili bir örneğini çizmez.  
 

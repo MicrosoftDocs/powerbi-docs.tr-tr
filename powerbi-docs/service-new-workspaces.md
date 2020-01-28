@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622432"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925661"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -124,6 +124,10 @@ Yeni çalışma alanı deneyimi çalışma alanları için aşağıdaki etkinlik
 | Power BI klasörüne erişim güncelleştirildi| UpdateFolderAccess |
 
 [Power BI denetimi](service-admin-auditing.md) ile ilgili daha fazla bilgi edinin.
+
+## <a name="guest-users"></a>Konuk kullanıcılar
+
+Varsayılan olarak [Azure AD B2B Konuk kullanıcıları](service-admin-azure-ad-b2b.md) çalışma alanlarına erişemez. Power BI yöneticileri [dış konuk kullanıcıların kuruluşta içeriği düzenlemesine ve yönetmesine izin verebilir](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content). Etkinleştirilen Konuk kullanıcılar izinleri olan çalışma alanlarına erişebilir.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 

@@ -1,6 +1,6 @@
 ---
 title: Sayfalandırılmış raporlardaki URL parametreleri - Power BI Rapor Oluşturucusu
-description: Bu konu başlığında, Power BI Sayfalandırılmış Rapor Oluşturucusu’nun rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır.
+description: Bu konu başlığında, Power BI Report Builder ’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/10/2019
-ms.openlocfilehash: e39864081ce4dd1ad415224454b75404e882e9ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128318"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953786"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI’da bulunan sayfalandırılmış raporlardaki URL parametreleri
 

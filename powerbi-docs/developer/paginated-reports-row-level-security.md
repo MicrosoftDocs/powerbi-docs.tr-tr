@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311502"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953781"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Eklenen sayfalandırılmış raporlarda satır düzeyinde güvenlik uygulama (önizleme)
 
@@ -32,7 +32,7 @@ Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenFor
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID özniteliğini rapor veya sorgu düzeyinde filtre olarak kullanma
 
-**UserId** özniteliğini [Power BI Sayfalandırılmış Rapor Oluşturucusu](../report-builder-power-bi.md)'nda veri kaynağı için bir *filtre* veya *sorgu* olarak kullanabilirsiniz.
+**UserId** özniteliğini [Power BI Report Builder](../report-builder-power-bi.md)'da veri kaynağı için bir *filtre* veya *sorgu* olarak kullanabilirsiniz.
 
 ### <a name="using-the-filter"></a>Filtreyi kullanma
 

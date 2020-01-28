@@ -1,6 +1,6 @@
 ---
-title: Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
-description: Power BI Sayfalandırılmış Rapor Oluşturucusu’nda sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.
+title: Power BI Report Builder’da rapor tasarlamaya yönelik ipuçları
+description: Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840361"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160547"
 ---
-# <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
-  Power BI Sayfalandırılmış Rapor Oluşturucusu’nda sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.  
+# <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI Report Builder’da rapor tasarlamaya yönelik ipuçları
+  Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.  
   
    
   
@@ -34,7 +34,7 @@ ms.locfileid: "66840361"
   
 -   Tablix hücrelerinde veya dikdörtgenlerde iç içe geçmiş öğelerle çalışırken, kapsayıcı ve içindeki öğeler için farklı arka plan renkleri ayarlayabilirsiniz. Arka plan varsayılan olarak **Renksizdir**. Belirli bir arka plan rengi olan öğeler, arka planı **Renksiz** olarak ayarlanmış öğelerin içinden görünür. Bu teknik, tablix hücrelerindeki kenarlık görünürlüğü gibi görüntü özelliklerini ayarlamaya yönelik doğru öğeyi seçmenize yardımcı olabilir.  
   
- Raporunuzu tasarlarken göz önünde bulundurulacak noktalar hakkında daha fazla bilgi edinmek için bkz. [Rapor Oluşturucusu’nda bir Rapor Planlama](report-builder-planning-report.md)).  
+ Raporunuzu tasarlarken göz önünde bulundurulacak noktalar hakkında daha fazla bilgi edinmek için bkz. [Report Builder’da bir Rapor Planlama](report-builder-planning-report.md)).  
   
 ##  <a name="NamingConventions"></a> Raporlar, veri kaynakları ve veri kümeleri için adlandırma kuralları  
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840361"
   
 -   Raporu bir .pdf dosyası halinde kaydetmeyi planlıyorsanız, rapor genişliğinin net bir değer ile ayarlanmış olması gerekir. Bu değeri belirlerken, dışarı aktarma biçiminde elde etmek istediğiniz sonuçları dikkate alın. Örneğin, rapor sayfası genişliğini tam 20,16125 cm olarak, sol ve sağ boşlukları da 1,27 cm olarak ayarlayın.  
   
--   Raporu, yazdırmayla uyumlu bir görünümde işlemek için rapor görüntüleyicisi araç çubuğundaki **Yazdırma Düzeni** ve **Sayfa Düzeni** seçeneklerini kullanın. İstenmeyen yatay sayfaları aşağıdakileri yapın:  
+-   Raporu, yazdırmayla uyumlu bir görünümde işlemek için rapor görüntüleyicisi araç çubuğundaki **Yazdırma Düzeni** ve **Sayfa Düzeni** seçeneklerini kullanın. Gereksiz boş sayfaları kaldırmaya yardımcı olmak için aşağıdakileri yapın:  
   
     1.  Veri bölgelerinin ve raporun kenarlarının arasındaki fazladan boşlukları kaldırın.  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840361"
     3.  Rapor öğelerinin nasıl işlendiğini kolayca denetlemek için **Dikdörtgenleri** kapsayıcı olarak kullanın.  
   
     4.  Sütun başlıklarında, metin kutusu özelliği WritingMode’u dikey metin kullanacak şekilde değiştirin.  
-  
- Bu davranış, rapor öğelerinin genişlik ve yükseklik özellikleri, raporun gövdesinin boyutu, sayfa yüksekliğinin ve genişliğinin tanımı, üst raporun boşluk ayarları ve sayfalandırmaya yönelik işleyiciye özel destek gibi faktörler bir araya gelerek işlenen bir sayfada hangi rapor öğelerinin birlikte sığdırılacağını belirler. 
+
+ Diğer yönergeler için bkz. [Sayfalandırılmış raporları yazdırırken boş sayfalardan kaçınma](guidance/report-paginated-blank-page.md).
+
+ Bu davranış, rapor öğelerinin genişlik ve yükseklik özellikleri, raporun gövdesinin boyutu, sayfa yüksekliğinin ve genişliğinin tanımı, üst raporun boşluk ayarları ve sayfalandırmaya yönelik işleyiciye özel destek gibi faktörler bir araya gelerek işlenen bir sayfada hangi rapor öğelerinin birlikte sığdırılacağını belirler.
  
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -961,16 +961,18 @@
       items:
         - name: Yenilikler
           href: report-server/whats-new.md
+        - name: Yöneticiye genel bakış
+          href: report-server/admin-handbook-overview.md
         - name: Değişiklik günlüğü
           href: report-server/changelog.md
         - name: Destek zaman çizelgesi
           href: report-server/support-timeline.md
+        - name: Always Encrypted desteği
+          href: report-server/always-encrypted-support.md
         - name: Donanım ve yazılım gereksinimleri
           href: report-server/system-requirements.md
         - name: Tarayıcı desteği
           href: report-server/browser-support.md
-        - name: Yöneticiye genel bakış
-          href: report-server/admin-handbook-overview.md
         - name: Rapor sunucusu temel bilgileri
           items:
             - name: Power BI raporlarında zamanlanmış yenileme

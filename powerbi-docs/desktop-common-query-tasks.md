@@ -1,25 +1,26 @@
 ---
-title: Power BI Desktop'taki genel sorgu görevleri
-description: Power BI Desktop'taki genel sorgu görevleri
+title: Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
+description: Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8921737fac842d040d014244e2ce80e9bc158b23
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761761"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040229"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
-Power BI Desktop'ın **Sorgu Düzenleyicisi** penceresinde çalışırken yararlanabileceğiniz, yaygın olarak kullanılan birkaç görev vardır. Bu belgede, söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır. 
 
-Burada gösterilen, sık kullanılan sorgu görevleri aşağıda verilmiştir:
+Power BI Desktop'ın Power Query Düzenleyicisi penceresinde yaygın olarak kullanılan birkaç görev vardır. Bu makalede söz konusu görevler gösterilmiş ve ek bilgilere yönelik bağlantılar sağlanmıştır.
+
+Yaygın olarak kullanılan ve burada gösterilen sorgu görevleri şunlardır:
 
 * Verilere bağlanma
 * Verileri şekillendirme ve birleştirme
@@ -30,196 +31,135 @@ Burada gösterilen, sık kullanılan sorgu görevleri aşağıda verilmiştir:
 
 Bu görevleri tamamlamak için birkaç veri bağlantısından yararlanacağız. Bu görevlere ilişkin adımları kendi başınıza uygulamak isterseniz ilgili verileri indirebilir veya verilere bağlanabilirsiniz.
 
-İlk veri bağlantısı bir Excel çalışma kitabına yapılmaktadır ve dosyayı [bu bağlantıdan](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx) indirebilirsiniz. Diğeri ise (başka bir Power BI Desktop yardım içeriğinde de kullanılmıştır) şu sayfadan erişilebilen bir Web kaynağıdır:
+İlk veri bağlantısı, indirebileceğiniz ve yerel olarak kaydedebileceğiniz [bir Excel çalışma kitabıdır](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). Diğeri ise, diğer Power BI Desktop makalelerinde de kullanılan bir Web kaynağıdır:
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+<https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/>
 
-Bu veri kaynaklarından her ikisine de bağlanmak için gerekli adımlar, sık kullanılan Sorgu görevlerinin başlangıcı niteliğindedir.
+Yaygın sorgu görevleri bu veri kaynaklarından her ikisine de bağlanmak için gereken adımlarla başlar.
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
-Power BI Desktop'ta verilere bağlanmak için, şeritteki **Giriş** sekmesinde bulunan **Veri Al** seçeneğini belirleyin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün alt kısmında bulunan **Diğer...** düğmesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki Veri Kaynakları](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
+Power BI Desktop’taki verilere bağlanmak için **Giriş**’i ve ardından **Veri Al**’ı seçin. Power BI Desktop, en sık kullanılan veri kaynaklarını içeren bir menü görüntüler. Power BI Desktop'ta bağlanılabilen veri kaynaklarının tam listesi için, menünün sonunda yer alan **Diğer** öğesini seçin. Daha fazla bilgi için bkz. [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md).
 
-Başlamak için **Excel** seçeneğini belirleyin, çalışma kitabına gidin ve ardından bu dosyayı seçin. Sorgu Düzenleyicisi çalışma kitabını inceler ve ardından, bulduğu verileri **Gezgin** penceresinde gösterir.
+![En Yaygın veri kaynakları menüsü, Veri Al düğmesi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
+Başlangıç olarak **Excel**’i seçin, yukarıda adı geçen Excel çalışma kitabını belirtin ve **Aç**’ı seçin. Siz tabloyu seçtikten sonra sorgu çalışma kitabını inceler ve ardından bulduğu verileri **Gezgin** iletişim kutusunda gösterir.
 
-Verileri Power BI Desktop'a yüklemeden önce, **Düzenle** seçeneğini belirleyerek ayarlayabilir veya *şekillendirebilirsiniz*. Yükleme yapmadan önce bir sorguyu düzenlemek, özellikle de bu işlemden önce küçültmek istediğiniz büyük veri kümeleriyle çalışıyorsanız kullanışlıdır. Bizim için de bu durum söz konusu olduğundan **Düzenle** seçeneğini belirliyoruz.
+![Excel veri kaynağı, Gezgin iletişim kutusu, Veri Al, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-Farklı türdeki verilere bağlanmak oldukça kolaydır. Ayrıca bir Web kaynağına da bağlanmak istiyoruz. **Veri Al \> Diğer...** seçeneğini ve ardından **Diğer \> Web** seçeneğini belirleyin.
+Verileri Power BI Desktop'a yüklemeden önce **Veri Dönüştürme**’yi seçerek verileri düzenleyebilir, ayarlayabilir ve *şekillendirebilirsiniz*. Yüklemeden önce küçültmek istediğiniz büyük veri kümeleriyle çalışırken, düzenleme özellikle yararlı olur.
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
+Farklı türlerdeki verilere bağlanmak kolaydır. Ayrıca bir Web kaynağına da bağlanmak istiyorsunuz. **Veri Al** > **Tümü**’nü seçin ve sonra da **Diğer** > **Web** > **Bağlan**’ı seçin.
 
-Web sayfasının URL'sini girebileceğiniz **Web'den** penceresi görüntülenir.
+![Web veri kaynağı, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
-![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+Web sayfasının URL'sini girebileceğiniz **Web'den** iletişim kutusu görüntülenir.
 
-**Tamam** seçeneğini belirlediğinizde Power BI Desktop, daha önce de olduğu gibi çalışma kitabını inceler ve bulduğu verileri **Gezgin** penceresinde gösterir.
+![Web’den iletişim kutusu, Web veri kaynağı, Veri Al, Power BI Desktop](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+
+**Tamam**’ı seçin. Daha önce olduğu gibi Power BI Desktop Web sayfası verilerini inceler ve **Gezgin** iletişim kutusunda önizleme seçeneklerini görüntüler. Bir tablo seçtiğinizde, verilerin önizlemesi görüntülenir.
 
 Diğer veri bağlantıları da benzer şekilde kurulur. Bir veri bağlantısını gerçekleştirmek için kimlik doğrulaması gerekiyorsa Power BI Desktop, geçerli kimlik bilgilerini girmenizi ister.
 
-Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
+Power BI Desktop'ta verilere bağlanma işleminin adım adım gösterimi için bkz. [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md).
 
 ## <a name="shape-and-combine-data"></a>Verileri şekillendirme ve birleştirme
-Verileri Sorgu Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. **[Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
-Önceki bölümde, bir Excel çalışma kitabı ve bir Web kaynağı olmak üzere iki veri kümesini bağladık. Seçilen Web sayfasındaki sorgu (Sorgu Düzenleyicisi penceresinin sol tarafındaki **Sorgular** bölmesinde listelenen mevcut sorgular bölümünden alınan) Sorgu Düzenleyicisi’ne yüklendikten sonra aşağıdaki görüntüyle karşılaşırız.
+Verileri Power Query Düzenleyicisi ile kolayca şekillendirebilir ve birleştirebilirsiniz. Bu bölümde, verileri nasıl şekillendirebileceğinize ilişkin birkaç örnek bulunur. Verileri şekillendirme ve birleştirme işlemlerinin eksiksiz bir gösterimi için bkz. [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md).
 
-![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
+Önceki bölümde iki veri kümesine bağlandınız: Excel çalışma kitabı ve Web kaynağı. Veriler Power Query Düzenleyicisi’ne yüklendikten sonra, burada gösterildiği gibi **Sorgular** bölmesindeki kullanılabilir sorgular arasından Web sayfası sorgusunu seçin:
 
-Verileri şekillendirdiğinizde, bir veri kaynağını ihtiyaçlarınızı karşılayan bir düzene ve biçime dönüştürmüş olursunuz. Bu örnekte ihtiyaç duymadığımızdan, *Header* başlıklı ilk sütunu kaldırabiliriz.
+![Sorgular bölmesi, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-**Sorgu Düzenleyicisi**'ndeki şeritte ve bağlama duyarlı sağ tıklama menülerinde birçok komuta ulaşabilirsiniz. Örneğin, *Üst bilgi* sütununa sağ tıkladığınızda görüntülenen menüyü kullanarak sütunu kaldırabilirsiniz. Ayrıca sütunu seçip şeritteki **Sütunları Kaldır** düğmesini de belirleyebilirsiniz.
+Verileri şekillendirdiğinizde, bir veri kaynağını ihtiyaçlarınızı karşılayan bir düzene ve biçime dönüştürmüş olursunuz.
 
-![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+Power Querl Düzenleyicisi'ndeki şeritte ve bağlam menülerinde birçok komuta ulaşabilirsiniz. Örneğin bir sütuna sağ tıkladığınızda bağlam menüsü sütunu kaldırmanıza olanak tanır. Ayrıca sütunu seçip şeritteki **Giriş** sekmesinde **Sütunları Kaldır** düğmesini de seçebilirsiniz.
 
-Bu sorgudaki verileri başka birçok yöntemle de şekillendirebilirsiniz; üstten veya alttan başlayarak dilediğiniz sayıda satırı kaldırabilir, sütun ekleyebilir, sütunları bölebilir, değerleri değiştirebilir ve Sorgu Düzenleyicisi’ni, verileri istediğiniz gibi alacak şekilde yönlendirmek için başka şekillendirme görevleri gerçekleştirebilirsiniz.
+![Sütunları Kaldır komutu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+
+Bu sorguda verileri birçok başka yolla da şekillendirebilirsiniz. Üstten ve alttan istediğiniz sayıda satırı kaldırabilirsiniz. Ayrıca isterseniz sütun ekleyebilir, sütunları bölebilir, değerleri değiştirebilir veya başka şekillendirme görevleri gerçekleştirebilirsiniz. Bu özelliklerle Power Query Düzenleyicisi’ni istediğiniz verileri almaya yönlendirebilirsiniz.
 
 ## <a name="group-rows"></a>Satırları gruplandırma
-Sorgu Düzenleyicisi'nde, birden çok satırda bulunan değerleri tek bir değer olacak şekilde gruplandırabilirsiniz. Bu, sunulan ürün sayısı, toplam satışlar veya öğrenci sayısı özetlenirken kullanışlı olabilir.
 
-Bu örnekte, bir eğitim kaydı veri kümesindeki satırları gruplandıracağız. Veriler bir Excel çalışma kitabından alınmış ve tam da istediğimiz sütunları elde etmek üzere Sorgu Düzenleyicisi’nde şekillendirilmiştir. Ayrıca tablo yeniden adlandırılmış ve birkaç dönüştürme işlemi daha gerçekleştirilmiştir.
+Power Query Düzenleyicisi'nde, birçok satırda bulunan değerleri tek bir değer olacak şekilde gruplandırabilirsiniz. Bu özellik sunulan ürün sayısını, toplam satışları veya öğrenci sayısını özetlerken kullanışlı olabilir.
 
-Şimdi her bir eyaletin sahip olduğu Kuruluş (okul bölgelerinin yanı sıra hizmet bölgeleri gibi diğer eğitim kuruluşları dahil) miktarını bulalım. *State Abbr* sütununu seçip şeritteki **Dönüştür** veya **Giriş** sekmesinde bulunan **Gruplandır** düğmesini seçeriz. (**Gruplandır** düğmesi her iki sekmede de yer alır.)
+Bu örnekte bir eğitim kaydı veri kümesindeki satırları gruplandıracaksınız. Veriler Excel çalışma kitabından alınmıştır. Yalnızca size gereken sütunları almak, tabloyu yeniden adlandırmak ve birkaç başka dönüştürme yapmak için Power Query Düzenleyicisi’nde şekillendirilmiştir.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+Şimdi her eyalette kaç Kurum olduğunu bulalım. (Kurumlar okul bölgeleri, bölgesel hizmet kuruluşları gibi diğer eğitim kurumları, vb. olabilir.) **Agency ID - NCES Assigned \[District\] Latest available year** sütununu ve sonra da şeritteki **Dönüştür** sekmesindeki veya **Giriş** sekmesindeki **Gruplandır** düğmesini seçin. (**Gruplandır** düğmesi her iki sekmede de sağlanır.)
 
-**Gruplandır** penceresi görüntülenir. Sorgu Düzenleyicisi satırları gruplandırdığında, **Gruplandır** işleminden elde edilen sonuçları yerleştirdiği yeni bir sütun oluşturur. **Gruplandır** işlemini aşağıda belirtilen yollarla ayarlayabilirsiniz:
+![Gruplandır iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-1. *Gruplandır*: Bu, gruplandırılacak sütundur. Sorgu Düzenleyicisi, seçilmiş sütunu belirler ancak bu pencerede, söz konusu sütunu tablodaki herhangi bir sütunla değiştirebilirsiniz.
-2. *Yeni sütun adı*: Sorgu Düzenleyicisi, gruplandırılmakta olan sütuna uyguladığı işlemi temel alarak yeni sütun için bir ad önerse de yeni sütunu dilediğiniz gibi adlandırabilirsiniz.
-3. *İşlem*: Burada, Sorgu Düzenleyicisi'nin uygulayacağı işlemi belirtirsiniz.
-4. *Gruplama ekleme* ve *Toplama ekleme*: Bu seçenekler, **Gelişmiş** seçeneği belirlendikten sonra görüntülenir. Birden çok sütunda gruplandırma işlemlerinin (**Gruplandır** eylemleri) yanı sıra birden çok toplama işlemi de yapabilirsiniz. Üstelik bunların tümünü **Gruplandır** penceresinde, tek bir işlem altında gerçekleştirebilirsiniz. Sorgu Düzenleyicisi, birden çok sütun üzerinde çalışan yeni bir sütun (bu penceredeki seçimlerinize göre) oluşturur. 
+**Gruplandır** iletişim kutusu görüntülenir. Power Query Düzenleyicisi satırları gruplandırdığında, **Gruplandır** işleminden elde edilen sonuçları yerleştirdiği yeni bir sütun oluşturur. **Gruplandır** işlemini aşağıda belirtilen yollarla ayarlayabilirsiniz:
 
-Bir **Gruplandır** işlemine daha fazla gruplanma veya toplama eklemek için **Gruplama ekleme** veya **Toplama ekleme** düğmesini seçin. **...** simgesini seçip **Sil** seçeneğini belirleyerek bir gruplamayı veya toplamayı kaldırabilirsiniz. İsterseniz nasıl bir işlem olduğunu görmek için düğmeyi deneyebilirsiniz.
-   
-   ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+1. Etiketsiz açılan liste, gruplandırılacak sütunu belirtir. Power Query Düzenleyicisi bu değer için varsayılan olarak seçili sütunu kullanır ama bunu tablodaki herhangi bir sütunla değiştirebilirsiniz.
+2. **Yeni sütun adı**: Power Query Düzenleyicisi, gruplandırılmakta olan sütuna uyguladığı işlemi temel alarak yeni sütun için bir ad önerir. Yine de yeni sütunu dilediğiniz gibi adlandırabilirsiniz.
+3. **İşlem**: Power Query Düzenleyicisi’nin uygulayacağı işlemi, örneğin **Toplam**, **Ortanca** veya **Farklı Satırların Sayımı** işlemini seçebilirsiniz. Varsayılan değer **Satırları Say** işlemidir.
+4. **Gruplama ekle** ve **Toplama ekle**: Bu düğmelerin kullanılabilir olması için **Gelişmiş** seçeneğini belirtmeniz gerekir. Bu düğmeleri kullanarak tek işlemde birden çok sütunda gruplama işlemleri (**Gruplandır** eylemleri) yapabilir ve çeşitli toplamalar oluşturabilirsiniz. Bu iletişim kutusundaki seçimlerinize bağlı olarak Power Query Düzenleyicisi birden çok sütun üzerinde çalışan yeni bir sütun oluşturur.
 
-**Tamam** seçeneğini belirlediğimizde, Sorgu Düzenleyicisi **Gruplandır** işlemini gerçekleştirir ve sonuçları döndürür. Şuna bir bakın: Bugün Ohio, Texas, Illinois ve California eyaletlerinden her birinde binin üzerinde kuruluş var!
+Bir **Gruplandır** işlemine daha fazla gruplanma veya toplama eklemek için **Gruplama ekle** veya **Toplama ekle** düğmesini seçin. Gruplama veya toplamayı kaldırmak için satırın sağındaki üç nokta simgesini ( **...** ) ve sonra da **Sil**’i seçin. Devam edin ve neler olduğunu görmek için varsayılan değerleri kullanarak **Gruplandır** işlemini deneyin.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+![Gruplandır iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Üstelik Sorgu Düzenleyicisi'ni kullanırken, kısa bir süre önce tamamlanmış adımın yanında bulunan **X** simgesini seçerek, son şekillendirme işlemini her zaman silebilirsiniz. Deneme amaçlı işlemler gerçekleştirin ve sonuçlardan memnun kalmazsanız verileriniz Sorgu Düzenleyicisi tarafından tam da istediğiniz gibi şekillendirilene kadar adımı tekrarlayın.
+**Tamam**’ı seçtiğimizde Sorgu **Gruplandır** işlemini yapar ve sonuçları döndürür. Şuna bir bakın: Bugün Ohio, Illinois, Texas ve California eyaletlerinden her birinde binin üzerinde kurum var!
+
+![Sayı sütunu, Gruplandır işlemi, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+
+Ayrıca Power Query Düzenleyicisi’yle istediğiniz zaman son şekillendirme işlemini kaldırabilirsiniz. **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar**’ın altında, son tamamlanan adımın yanındaki **X** işaretini seçmeniz yeterli olur. Bu nedenle devam edip denemeler yapabilirsiniz. Sonuçlardan memnun kalmazsanız Power Query Düzenleyicisi verilerinizi tam istediğiniz gibi şekillendirilene kadar adımı tekrarlayın.
 
 ## <a name="pivot-columns"></a>Sütunları özetleme
-Power BI Desktop ile sütunları özetleyebilir ve sütundaki her bir benzersiz değer için toplanan değerler içeren bir tablo oluşturabilirsiniz. Örneğin, her bir ürün kategorisinde kaç adet farklı ürününüz bulunduğunu bilmeniz gerekiyorsa tam da bu işinize yaracak bir tabloyu hızlıca oluşturabilirsiniz.
 
-Bir örneğe göz atalım. Aşağıdaki **Products** tablosu, yalnızca her bir benzersiz ürünü (adına göre) ve ait oldukları kategoriyi gösterecek biçimde şekillendirilmiştir. Her bir kategorideki ürün sayısını gösteren yeni bir tablo (*CategoryName* sütununu temel alan) oluşturmak için, sütunu seçin ve ardından şeritteki **Dönüştür** sekmesinde bulunan **Özet Sütun** seçeneğini belirleyin.
+Sütunları özetleyebilir ve sütundaki her benzersiz değer için toplanan değerler içeren bir tablo oluşturabilirsiniz. Örneğin, her ürün kategorisinde kaç farklı ürününüz olduğunu öğrenmek için hızla bunu gösteren bir tablo oluşturabilirsiniz.
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
+Bir örneğe göz atalım. Aşağıdaki **Products_by_Categories** tablosu, yalnızca benzersiz ürünleri (adına göre) ve ait oldukları kategoriyi gösterecek biçimde şekillendirilmiştir. Her kategorideki ürün sayısını gösteren yeni bir tablo (**CategoryName** sütununu temel alan) oluşturmak için, sütunu seçin ve ardından **Dönüştür** > **Özet Sütun**’ü seçin.
 
-Yeni sütun oluşturmak için hangi sütun değerlerinin kullanılacağını belirten (1) **Özet Sütun** penceresi görüntülenir ve **Gelişmiş seçenekler** (2) menüsünü genişletmeniz halinde, toplanan değerlere uygulanacak işlevi görebilirsiniz (3).
+![Özet Sütun komutu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
+Yeni sütunları oluşturmak için hangi sütunun değerlerinin kullanılacağını öğrenmenizi sağlayan **Özet Sütun** iletişim kutusu görüntülenir (1). (**CategoryName** sütun adının gösterilmesini istemiyorsanız, bu adı açılan listeden seçin.) **Gelişmiş seçenekler**’i (2) genişlettiğinizde, toplanan değerlere (3) uygulanacak işlevi seçebilirsiniz.
 
-**Tamam**'ı seçtiğinizde Sorgu Düzenleyicisi, **Özet Sütun** penceresinde sağlanan dönüştürme yönergeleri doğrultusunda tabloyu görüntüler.
+![Özet Sütun iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
+**Tamam**'ı seçtiğinizde Sorgu **Özet Sütun** iletişim kutusunda sağlanan dönüştürme yönergeleri doğrultusunda tabloyu görüntüler.
+
+![Özet Sütun sonucu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
 ## <a name="create-custom-columns"></a>Özel sütun oluşturma
-Sorgu Düzenleyicisi'nde, tablonuzdaki birden çok sütunda çalışan özel formüller oluşturabilir ve ardından söz konusu formüllerin sonuçlarını yeni (özel) bir sütuna yerleştirebilirsiniz. Sorgu Düzenleyicisi sayesinde özel sütunları kolayca oluşturabilirsiniz.
 
-Sorgu Düzenleyicisi’nde, şeritteki **Sütun Ekle** sekmesinden **Özel Sütun**’u seçin.
+Power Query Düzenleyicisi’nde tablonuzdaki birden çok sütun üzerinde çalışan özel formüller oluşturabilirsiniz. Ardından bu tür formüllerin sonuçlarını yeni bir (özel) sütuna yerleştirebilirsiniz. Power Query Düzenleyicisi sayesinde özel sütunları kolayca oluşturabilirsiniz.
 
-![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
+Power Query Düzenleyicisi’nde Excel çalışma kitabı verileriyle, şeritteki **Sütun Ekle** sekmesine gidin ve **Özel Sütun**’u seçin.
 
-Aşağıdaki pencere görünür. Aşağıdaki örnekte, English Language Learners (ELL) kategorisindeki toplam öğrenci yüzdesini hesaplayan, *Percent Ell* adında özel bir sütun oluşturdu.
+![Özel Sütun Ekle komutu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
+Aşağıdaki iletişim kutusu görüntülenir. Bu örnekte, English Language Learners (ELL) kategorisindeki toplam öğrenci yüzdesini hesaplayan, *Percent ELL* adında özel bir sütun oluşturun.
 
-Sorgu Düzenleyicisi'nde uygulanan diğer adımlar gibi, ihtiyacınız olan veriler yeni özel sütunda sağlanmıyorsa **Özel Eklendi** adımının yanındaki **X** işaretini seçerek, adımı **Sorgu Ayarları** bölmesinde bulunan **Uygulanan Adımlar** bölümünden silebilirsiniz.
+![Özel Sütun iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
+Aynı Power Query Düzenleyicisi’ndeki diğer uygulanan adımlarda olduğu gibi, yeni özel sütun aradığınız verileri sağlamazsa adımı silebilirsiniz. **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar**’ın altında, **Özel Eklendi** adımının yanındaki **X** işaretini seçmeniz yeterli olur.
+
+![Uygulanan adımlar, Sorgu Ayarları bölmesi, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>Formülleri sorgulama
-Sorgu Düzenleyicisi'nin oluşturduğu adımları düzenleyebilmenin yanı sıra verilerinize bağlanma ve verilerinizi şekillendirme ile ilgili tam denetime sahip olmak için özel formüller oluşturabilirsiniz. Sorgu Düzenleyicisi söz konusu veriler üzerinde her işlem gerçekleştirdiğinde, eylemle ilişkilendirilen formül **Formül Çubuğu**'nda görüntülenir. **Formül Çubuğu**'nu görüntülemek için, şeridin **Görünüm** sekmesinde bulunan **Formül Çubuğu**'nun yanındaki onay kutusunu seçin.
 
-![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
+Power Query Düzenleyicisi’nin oluşturduğu adımları düzenleyebilirsiniz. Ayrıca verilerinize bağlanmanıza ve bunları daha hassas şekillendirmenize olanak tanıyan özel formüller de oluşturabilirsiniz. Power Query Düzenleyicisi söz konusu veriler üzerinde her işlem gerçekleştirdiğinde, eylemle ilişkilendirilen formül de formül çubuğunda görüntülenir. Formül çubuğunu görüntülemek için şeridin **Görünüm** sekmesine gidin ve **Formül Çubuğu**’nu seçin.
 
-Sorgu Düzenleyicisi, her bir sorgu için uygulanan tüm adımları, görüntüleyebileceğiniz veya değiştirebileceğiniz bir metin olarak saklar. Şeridin **Görünüm** sekmesindeki **Gelişmiş Düzenleyici** seçeneğini belirlediğinizde görüntülenen **Gelişmiş Düzenleyici**'yi kullanarak herhangi bir sorgu metnini görüntüleyebilir ve değiştirebilirsiniz.
+![Formül Çubuğu seçeneği, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
+Power Query Düzenleyicisi, her sorgu için uygulanan tüm adımları, görüntüleyebileceğiniz veya değiştirebileceğiniz bir metin olarak saklar. **Gelişmiş Düzenleyici**’yi kullanarak herhangi bir sorgunun metnini görüntüleyebilir veya değiştirebilirsiniz. **Görünüm**’ü ve ardından **Gelişmiş Düzenleyici**’yi seçmeniz yeterlidir.
 
-Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla **M** olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Bilgi için bkz. [Learn about Power Query formulas (Power Query formülleri hakkında bilgi edinin)](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Yalnızca dil belirtimini görüntülemek için bkz. [Excel için Microsoft Power Query Formül Dili Belirtimi](/powerquery-m/excel-workbook).
+![Gelişmiş Düzenleyici komutu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
+Görüntülenen **USA\_StudentEnrollment** sorgusuyla ilişkili sorgu adımlarını içeren **Gelişmiş Düzenleyici**'nin görünümü aşağıda verilmiştir. Bu adımlar, sıklıkla *M* olarak da adlandırılan Power Query Formül Dili ile oluşturulmuştur. Daha fazla bilgi için bkz. [Power Query formülleri hakkında bilgi edinin](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Yalnızca dil belirtimini görüntülemek için bkz. [Power Query M dili belirtimi](/powerquery-m/power-query-m-language-specification).
 
-Power BI Desktop, kapsamlı bir formül kategorisi kümesi sunar. Daha fazla bilgi ve tüm Sorgu Düzenleyicisi formüllerine ilişkin eksiksiz bir başvuru için [Power Query Formül Kategorileri](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819) sayfasını ziyaret edin.
+![Gelişmiş Düzenleyici iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Sorgu Düzenleyicisi'ne ilişkin formül kategorileri aşağıda verilmiştir:
-
-* Sayı
-  * Sabitler
-  * Bilgi
-  * Dönüştürme ve biçimlendirme
-  * Biçim
-  * Yuvarlama
-  * İşlemler
-  * Rastgele
-  * Trigonometri
-  * Bayt
-* Metin
-  * Bilgi
-  * Metin karşılaştırmaları
-  * Ayıklama
-  * Değiştirme
-  * Üyelik
-  * Dönüşümler
-* Mantıksal
-* Tarih
-* Saat
-* DateTime
-* DateTimeZone
-* Süre
-* Kayıt
-  * Bilgi
-  * Dönüşümler
-  * Seçim
-  * Serileştirme
-* Liste
-  * Bilgi
-  * Seçim
-  * Dönüşüm
-  * Üyelik
-  * Küme işlemleri
-  * Sıralama
-  * Ortalamalar
-  * Ekleme
-  * Sayısal
-  * Oluşturucular
-* Tablo
-  * Tablo oluşturma
-  * Dönüştürmeler
-  * Bilgi
-  * Satır işlemleri
-  * Sütun işlemleri
-  * Üyelik
-* Değerler
-* Aritmetik işlemler
-* Parametre Türleri
-* Meta Veriler
-* Veri erişimi
-* URI
-* İkili biçimler
-  * Sayı okuma
-* İkili
-* Satırlar
-* İfade
-* İşlev
-* Hata
-* Karşılaştırıcı
-* Bölücü
-* Birleştirici
-* Değiştirici
-* Tür
+Power BI Desktop, kapsamlı bir formül kategorisi kümesi sunar. Daha fazla bilgi ve tüm Power Query Düzenleyicisi formüllerine ilişkin eksiksiz bir başvuru için bkz. [Power Query M işlevi başvurusu](/powerquery-m/power-query-m-function-reference) sayfasını ziyaret edin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+
+Power BI Desktop ile her şeyi yapabilirsiniz. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
-* [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
-* [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
-
+* [Power BI Desktop ile sorgulara genel bakış](desktop-query-overview.md)
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)

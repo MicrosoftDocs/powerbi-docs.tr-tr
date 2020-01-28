@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308261"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161306"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 
@@ -120,7 +120,7 @@ Boyut türündeki tablolarınız arasında çoka çok ilişkisi varsa aşağıda
 - İlişkili varlıkları depolamak üzere bir köprü oluşturma tablosu ekleyin
 - Üç tablo arasında bire çok ilişkileri oluşturun
 - Filtre yayılmasının olgu türündeki tablolara doğru devam etmesini sağlamak için **tek bir** çift yönlü ilişki yapılandırın
-- Eksik kimlik değerleri olmasının uygun olmadığı durumlarda kimlik sütunlarının **Null atanabilir** özelliğini TRUE olarak ayarlayın; kaynakta eksik değerler olduğunda veri yenileme başarısız olacaktır
+- Eksik kimlik değerleri olmasının uygun olmadığı durumlarda kimlik sütunlarının **Null atanabilir** özelliğini FALSE olarak ayarlayın; kaynakta eksik değerler olduğunda veri yenileme başarısız olacaktır
 - Köprü oluşturma tablosunu gizleyin (raporlama için gereken ek sütunlar veya ölçümler içermiyorsa)
 - Raporlamaya uygun olmayan tüm kimlik sütunlarını gizleyin (örneğin, kimlikler vekil anahtarlar olduğunda)
 - Kimlik sütununu görünür durumda bırakmak anlamlıysa, bunun ilişkinin "bir" tarafında olmasına dikkat edin; "çok" tarafı sütunu her zaman gizleyin. Bu yöntem en iyi filtre performansını sağlar.

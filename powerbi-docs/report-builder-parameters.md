@@ -1,6 +1,6 @@
 ---
-title: Power BI Rapor Oluşturucusu’nda Rapor parametreleri
-description: Bu konu başlığında, Power BI Sayfalandırılmış Rapor Oluşturucusu’nun rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır.
+title: Power BI Report Builder’da Rapor parametreleri
+description: Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanır.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128430"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160869"
 ---
-# <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda Rapor parametreleri
+# <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Report Builder’da Rapor parametreleri
 
-Bu konu başlığında, Power BI Sayfalandırılmış Rapor Oluşturucusu’nun rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır. Rapor parametreleri, rapor verilerini denetleme, ilgili raporları birbirine bağlama ve rapor sunumunu çeşitlendirme olanağı tanır. Rapor parametrelerini, Rapor Oluşturucusu’nda oluşturduğunuz sayfalandırılmış raporlarda kullanabilirsiniz.
+Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanır. Rapor parametreleri, rapor verilerini denetleme, ilgili raporları birbirine bağlama ve rapor sunumunu çeşitlendirme olanağı tanır. Rapor parametrelerini, Report Builder’da oluşturduğunuz sayfalandırılmış raporlarda kullanabilirsiniz.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Parametrelerin yaygın kullanımları
 
@@ -44,13 +44,13 @@ Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici ara
   
 1. **Parametreler bölmesi** Rapor görüntüleyici araç çubuğunda bir istem ya da her parametre için varsayılan bir değer gösterilir. Parametrelerin düzenini parametreler bölmesinde özelleştirebilirsiniz.  
   
-2. **@SalesDate parametresi** @SalesDate parametresi, **DateTime** veri türüdür. Metin kutusunun yanında Tarihi Seçin istemi görünür. Tarihi değiştirmek için metin kutusuna yeni bir tarih girin veya takvim denetimini kullanın.  
+2. **@SalesDate parametresi**@SalesDate parametresi, **DateTime** veri türüdür. Metin kutusunun yanında Tarihi Seçin istemi görünür. Tarihi değiştirmek için metin kutusuna yeni bir tarih girin veya takvim denetimini kullanın.  
   
-3. **@ShowAll parametresi** @ShowAll parametresi, **Boole** veri türüdür. **True** veya **False**’u belirtmek için radyo düğmelerini kullanın.  
+3. **@ShowAll parametresi**@ShowAll parametresi, **Boole** veri türüdür. **True** veya **False**’u belirtmek için radyo düğmelerini kullanın.  
   
 4. **Parametre Alanı tanıtıcısını Göster veya Gizle** Parametreler panosunu göstermek veya gizlemek için rapor görüntüleyici araç çubuğunda bu oka tıklayın.  
   
-5. **@CategoryQuota parametresi** @CategoryQuota parametresi **Float** veri türü olduğu için sayısal bir değer alır.  @CategoryQuota birden çok değere izin verecek şekilde ayarlanır.  
+5. **@CategoryQuota parametresi**@CategoryQuota parametresi **Float** veri türü olduğu için sayısal bir değer alır.  @CategoryQuota birden çok değere izin verecek şekilde ayarlanır.  
   
 6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle**’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
   
@@ -65,10 +65,10 @@ Rapor parametrelerini birkaç farklı yöntemle oluşturabilirsiniz.
   
  Değişkenleri içeren bir veri kümesi sorgusu veya giriş parametrelerini içeren bir veri kümesi saklı yordamı ekleyin. Her değişken veya giriş parametresi için bir veri kümesi parametresi ve her veri kümesi parametresi için bir rapor parametresi oluşturulur.  
   
-![Rapor Oluşturucusu Parametre Veri Kümesi Özellikleri](media/report-builder-parameters/report-builder-parameter-dataset.png "Rapor Oluşturucusu Parametre Veri Kümesi Özellikleri")
+![Report Builder Parametre Veri Kümesi Özellikleri](media/report-builder-parameters/report-builder-parameter-dataset.png "Report Builder Parametre Veri Kümesi Özellikleri")
 
   
- Rapor Oluşturucusu’ndan alınan bu görüntü şunları gösterir:  
+ Report Builder’dan alınan bu görüntü şunları gösterir:  
   
 1.  Rapor Verileri bölmesindeki rapor parametreleri.  
   
@@ -93,7 +93,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
   
 - Bir açılan listeden çoklu parametre değeri seçin.  
   
-- Bir açılan listeden bir parametre için değer seçin. Bu, farklı bir parametre için açılan listede kullanılabilir olan değerleri belirler. Bunlar geçişli parametrelerdir. Geçişli parametreler, binlerce değeri yönetilebilir bir sayıya indirerek parametre değerlerini başarıyla filtrelemenize olanak tanır.  
+- Bir açılan listeden bir parametre için değer seçin. Bu, farklı bir parametre için açılan listede kullanılabilir olan değerleri belirler. Bunlar geçişli parametrelerdir. Geçişli parametreler, binlerce değeri yönetilebilir bir sayıya indirerek parametre değerlerini başarıyla filtrelemenize olanak tanır. Daha fazla bilgi için bkz. [Sayfalandırılmış raporlarda basamaklı parametreleri kullanma](guidance/paginated-report-cascading-parameter.md).
   
 - Parametre için varsayılan değer oluşturulduğu için, ilk olarak parametre değeri seçme zorunluluğu olmadan raporu çalıştırın.  
   
@@ -148,5 +148,4 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Sayfalandırılmış raporlarda basamaklı parametreleri kullanma](guidance/paginated-report-cascading-parameter.md)

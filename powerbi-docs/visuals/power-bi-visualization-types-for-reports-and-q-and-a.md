@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099923"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040477"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -145,6 +145,13 @@ Daha fazla bilgi için bkz. [Power BI'daki matris görselleri](desktop-matrix-vi
 
 >[!TIP]
 >Pasta grafikleri parçaların bütünle ilişkisini gösterir. 
+
+### <a name="power-apps-visual"></a>Power Apps görseli
+![Power Apps görseli](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+Rapor tasarımcıları bir Power App oluşturup bunu görsel olarak Power BI raporuna ekleyebilir. Tüketiciler Power BI raporunun içinde bu görselle etkileşimli çalışabilir. 
+
+Daha fazla bilgi için bkz. [Raporunuza Power Apps görseli ekleme](power-bi-visualization-powerapp.md).
 
 ### <a name="qa-visual"></a>Soru-Cevap görseli
 ![Soru-Cevap görselleri](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

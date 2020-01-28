@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853530"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282028"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve daha fazlasını ekleme
 
@@ -118,15 +118,13 @@ Panonuza YouTube veya Vimeo videosu kutucuğu eklediğinizde video doğrudan pan
 Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzdaki bir kutucuğa eklemek için PubNub’ı kullanabilirsiniz. Power BI, verileri PubNub'dan almak için bir tümleştirme oluşturdu. Will, bunun nasıl çalıştığını burada açıklıyor:
    
 
-Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzdaki bir kutucuğa eklemek için PubNub’ı kullanabilirsiniz. Power BI, verileri PubNub'dan almak için bir tümleştirme oluşturdu. Will, bunun nasıl çalıştığını burada açıklıyor: 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
 1. **Kutucuk ekle** penceresinden **Özel Akış Verileri**’ni seçip  > **İleri**’yi belirleyin.
 2. **Akış veri kümesi ekle** seçeneğini belirleyin.
 3. Power BI API’sini veya PubNub’ı kullanarak **Yeni bir akış veri kümesi** oluşturun.
 4. **Veri kümesi adı**, **Abonelik anahtarı**ve **Kanal adı**alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
-5. **Sonraki** seçeneğini belirleyin.
+5. **İleri**’yi seçin.
     Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
 6. **Bağlan**'ı seçin.
     Bir akış veri kümesi oluşturdunuz.
@@ -135,7 +133,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 9. İstediğiniz görsel türünü seçin. Bir çizgi grafiği genellikle bu veriler için iyi sonuç verir.
 10. **Eksen**’i, **Gösterge**’yi, ve **Değerler**’i seçin.
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
-12. **Sonraki** seçeneğini belirleyin.
+12. **İleri**’yi seçin.
 13. İsterseniz, buna bir **Başlık** veya **Alt Başlık** verin.
 14. Bunu panonuza sabitleyin.
 
@@ -148,7 +146,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 
 4. **Veri kümesi adı**, **Abonelik anahtarı**ve **Kanal adı**alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
 
-5. **Sonraki** seçeneğini belirleyin.
+5. **İleri**’yi seçin.
 
    Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
 
@@ -166,7 +164,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
 
-12. **Sonraki** seçeneğini belirleyin.
+12. **İleri**’yi seçin.
 
 13. İsteğe bağlı olarak, buna bir **Başlık** ve **Alt Konu Başlığı** verebilirsiniz.
 

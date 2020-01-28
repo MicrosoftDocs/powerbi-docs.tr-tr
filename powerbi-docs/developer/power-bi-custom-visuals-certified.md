@@ -1,6 +1,6 @@
 ---
 title: Sertifikalı Power BI görselleri
-description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri. Sertifikalanan Power BI görselleri listesi.
+description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri, ayrıca sertifikalı Power BI görsellerinin listesi.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,73 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: c39b96122016746905ea09c0983adf50356f0c77
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/12/2019
+ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221977"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925565"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
-Sertifikalı Power BI görselleri, *Markette* bulunan ve *Microsoft Power BI ekibinin* test ettiği ve onayladığı *belirli kod* gereksinimlerini karşılayan görsellerdir. Testler görselin dış hizmetlere veya kaynaklara erişmediğini denetleyecek şekilde tasarlanmıştır.
+Sertifikalı Power BI görselleri, [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals)’ta yer alan ve Microsoft Power BI ekibinin [kod gereksinimlerini](#certification-requirements) karşılayan görsellerdir. Bu görseller test edilmiş ve dış hizmetlere veya kaynaklara erişmedikleri, güvenli kodlama desenlerine ve yönergelerine uydukları doğrulanmıştır.
 
-Sertifikalı Power BI görselleri ve [standart Power BI görselleri](power-bi-custom-visuals.md) aynı şekilde kullanılır. Bunlar [Power BI Desktop](../desktop-what-is-desktop.md)'a ve [Power BI hizmetine](../power-bi-service-overview.md) eklenebilir; [Power BI Mobil](../consumer/mobile/mobile-apps-for-mobile-devices.md) ve [Power BI Embedded](embedding.md) ile görüntülenebilir.
+Power BI görseli sertifikalandığında, daha fazla özellik sunar. Örneğin görseli [PowerPoint'e aktarabilirsiniz](../consumer/end-user-powerpoint.md) veya bir kullanıcı [rapor sayfalarına abone olduğunda](../consumer/end-user-subscribe.md) alınan e-postalarda görüntüleyebilirsiniz.
 
-Sertifikasyon işlemi isteğe bağlı bir işlemdir. Power BI görsellerini Markette sertifikalama kararı tamamen geliştiricilere aittir. Power BI görseli sertifikalandığında, daha fazla özellik sunar. Örneğin görseli [PowerPoint'e aktarabilirsiniz](../consumer/end-user-powerpoint.md) veya bir kullanıcı [rapor sayfalarına abone olduğunda](../consumer/end-user-subscribe.md) alınan e-postalarda görüntüleyebilirsiniz.
-
-Sertifikalı olmayan Power BI görsellerinin, güvenli olmayan görseller olması şart değildir. Bazı görseller sertifikalanmamıştır çünkü [sertifikasyon gereksinimlerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) biriyle veya birden çoğuyla uyumlu değildir. Örneğin, harita görselleri gibi dış hizmetlere bağlanan veya ticari kitaplıkları kullanan görseller böyledir.
-
-Bir web geliştiricisi olarak kendi Power BI görsellerinizi oluşturmakla ve  [Microsoft AppSource](https://appsource.microsoft.com)'a eklemekle ilgileniyorsanız,  [Power BI görseli oluşturma](visuals/custom-visual-develop-tutorial.md) öğreticisiyle başlayın.
+Sertifikasyon işlemi isteğe bağlıdır. Sertifikalı olmayan Power BI görsellerinin güvenli olmaması gerekmez. Bazı Power BI görselleri sertifikalı değildir çünkü bunlar [sertifikasyon gereksinimlerinin](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements) biriyle veya birden çoğuyla uyumlu değildir. Örneğin dış hizmete bağlanan bir harita Power BI görseli veya ticari kitaplıkları kullanan Power BI görseli.
 
 > [!NOTE]
-> Üçüncü taraf Power BI görsellerinin yazarı **Microsoft***değildir*. Üçüncü taraf görsellerinin işlevselliğini doğrulamak için doğrudan görselin yazarına başvurmasını öneririz.
-
-> [!IMPORTANT]
-> Microsoft kendi takdirine bağlı olarak, bir Power BI görselini [Sertifikalı Power BI görselleri](#certified-power-bi-visuals) listesinden kaldırabilir.
+> Üçüncü taraf Power BI görsellerinin yazarı Microsoft değildir. Üçüncü taraf görsellerinin işlevselliğini doğrulamak için doğrudan görselin yazarına başvurun.
 
 ## <a name="certification-requirements"></a>Sertifikasyon gereksinimleri
 
-Power BI görselinizin [sertifikalı](#get-a-power-bi-visual-certified) olmasını sağlamak için, Power BI görselinizin bu bölümde listelenen gereksinimleri karşıladığından emin olun. 
+Power BI görselinizin [sertifikalı](#get-a-power-bi-visual-certified) olmasını sağlamak için, Power BI görseliniz bu bölümde listelenen gereksinimleri karşılamalıdır. 
 
-> [!TIP]
-> Göndermeden önce kodunuzu doğrulamak için varsayılan güvenlik kuralı setiyle EsLint'i kullanmanızı öneririz.
+### <a name="general-requirements"></a>Genel gereksinimler
 
-* Microsoft Satıcı Panosu ve İş Ortağı Merkezi onaylıdır. Power BI görselinizin [Marketimizde](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) bulunması gerekir.
-* Power BI görseli *API v2.5* veya sonraki bir sürümle yazılmıştır.
-* Kod deposu Power BI ekibi tarafından gözden geçirilebilir. Örneğin kaynak kodun okunabilir bir biçimi (JavaScript veya TypeScript), GitHub aracılığıyla bize sağlanmıştır.
+Power BI görselinizin Satıcı Panosu veya İş Ortağı Merkezi tarafından onaylanması gerekir. Power BI görselinizin zaten [AppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)’ta bulunmasını öneririz. Power BI görselini AppSource’ta yayımlamayı öğrenmek için bkz. [Power BI görsellerini İş Ortağı Merkezi’nde yayımlama](office-store.md).
 
-    >[!NOTE]
-    > Kodunuzu Github'da genel paylaşıma açmanız gerekmez.
+Power BI görselinizi sertifikalanmak üzere göndermeden önce bu görselin [Power BI görsellerine ilişkin yönergelere](./guidelines-powerbi-visuals.md) uyduğunu doğrulayın.
 
-* Kod deposu gereksinimleri:
-  * Şu dosyaları içermelidir:
-    * .gitignore
-    * capabilities.json
-    * pbiviz.json
-    * package.json
-    * package-lock.json
-    * tsconfig.json
-  * *node_modules* klasörünü içermemelidir (*node_modules* klasörünü .gitingore* dosyasına ekleyin).
-  * *npm install* komutu herhangi bir hata döndürmemelidir.
-  * *npm audit* komutu yüksek veya orta düzeyde herhangi bir uyarı döndürmemelidir.
-  * *pbiviz package* komutu herhangi bir hata döndürmemelidir.
-  * Geçersiz kılma yapılandırmaları olmadan [Microsoft'tan TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib)'i içermelidir. Bu komut hiçbir lint hatası döndürmemelidir.
-   * Power BI görselinin derlenen paketinin gönderilen paketle eşleşmesi gerekir.
-* Kaynak Kodu gereksinimleri:
-   * Power BI görselinin [Olay İşleme API’sini](./visuals/event-service.md) desteklemesi gerekir.
-   * Herhangi bir rastgele/dinamik kodun çalıştırılmadığından emin olun (bad: eval(), unsafe to use of settimeout(), requestAnimationFrame(), setinterval(some function with user input), running user input/data).
-   * DOM’nin güvenli bir şekilde yönlendirildiğinden emin olun (bad: innerHTML, D3.html(<some user/data input>), kullanıcı girişini/verilerini DOM’ye eklemeden önce temizleme yapın.
-   * Herhangi bir giriş verisi için tarayıcı konsolunda javascript hataları veya özel durumları olmadığından emin olun. Kullanıcılar Power BI görselinizi farklı bir beklenmedik veri aralığıyla kullanabilir, bu yüzden görsel başarısız olmamalıdır. [Bu örnek raporu](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesi olarak kullanabilirsiniz.
+Power BI görselini gönderirken derlenen paketin gönderilen paketle tam olarak eşleştiğinden emin olun.
 
-* *Capabilities.json* dosyasındaki bir özellik değiştirilirse, mevcut kullanıcıların raporlarını bozmadığından emin olun.
+### <a name="code-repository-requirements"></a>Kod deposu gereksinimleri
 
-* Power BI görselinin, [Power BI görsellerine ilişkin yönergelerle](./guidelines-powerbi-visuals.md) uyumlu olduğundan emin olun.
-    
-* Kodunuz yalnızca genel olarak gözden geçirilebilen genel JavaScript veya TypeScript kitaplıkları gibi bileşenleri kullanabilir. Kaynak kod gözden geçirilebilir olmalı ve bilinen güvenlik açıklarını içermemelidir. Ticari bir bileşen kullanarak özel görseli doğrulayamayız.
+Kodunuzu GitHub’da herkese açık bir şekilde paylaşmanız gerekmese de, kod deposunun Power BI ekibinin gözden geçirmesine açık olması gerekir. Bunu yapmanın en iyi yolu GitHub’da kaynak kodu (JavaScript veya TypeScript) sağlamaktır.
 
-* Power BI görseli dış hizmetlere ya da kaynaklara erişmemelidir. Örneğin, Power BI'dan hizmetlere hiçbir HTTP/S veya WebSocket isteği gidemez. 
+Depoda tek bir Power BI görselinin kodu yer almalıdır. Birden çok Power BI görselinin kodunu veya ilişkisiz bir kod içeremez.
+
+Depoda **certification** adlı bir dal bulunmalıdır. Bu daldaki kaynak kodun gönderilen paketle eşleşmesi gerekir. Power BI görselinizi yeniden gönderiyorsanız, bu kod ancak sonraki gönderim işlemi sırasında güncelleştirilebilir.
+
+Power BI görseliniz özel npm paketleri veya git alt modülleri içeriyorsa, bu kodu içeren ek depolara erişim sağlamanız gerekir.
+
+### <a name="file-requirements"></a>Dosya gereksinimleri
+
+Power BI görselini yazmak için en son API sürümünü kullanın.
+
+Depo aşağıdaki dosyaları içermelidir:
+* **.gitignore** - Bu dosyaya `node_modules` ekleyin. Kod *node_modules* klasörünü içeremez.
+* **capabilities.json** - Bu dosyalardaki özelliklerde değişiklikler yapılmış olarak Power BI görselinizin daha yeni bir sürümünü gönderiyorsanız, bunun mevcut kullanıcıların raporlarını bozmadığını doğrulayın.
+* **pbiviz.json**
+* **package.json**
+* **package-lock.json**
+* **tsconfig.json**
+
+### <a name="command-requirements"></a>Komut gereksinimleri
+
+Aşağıdaki komutların hata döndürmediğinden emin olun.
+
+* `npm install`
+* `pbiviz package`
+* `npm audit` - Yüksek veya orta düzeyde hiçbir uyarı döndürmemelidir.
+* Geçersiz kılma yapılandırmaları olmadan [Microsoft'tan TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). Bu komut hiçbir lint hatası döndürmemelidir.
+
+### <a name="compiling-requirements"></a>Derleme gereksinimleri
+
+Power BI görselini yazmak için en son [powerbi-visuals-tools](https://www.npmjs.com/package/powerbi-visuals-tools) sürümünü kullanın.
+
+Power BI görselinizi `pbiviz package` ile derlemelisiniz. Kendi derleme betiklerinizi kullanıyorsanız bir `npm run package` özel derleme komutu sağlayın.
+
+
+
+### <a name="source-code-requirements"></a>Kaynak kod gereksinimleri
+
+[Power BI görselleri ek sertifikasyonu](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) ilke listesine uyduğunuzu doğrulayın. Gönderiminiz bu yönergelere uymuyorsa, İş Ortağı Merkezi’nden gelen reddetme e-postası bu bağlantıda listelenen ilke numaralarını içerir.
+
+Kodunuzun Power BI sertifikasyon ilkelerine uygun olduğundan emin olmak için aşağıda listelenen kod gereksinimlerine uyun.  
+
+**Gerekli**
+* Yalnızca genel olarak gözden geçirilebilen genel JavaScript veya TypeScript kitaplıkları gibi OSS bileşenleri kullanın.
+* Kodun [Olay İşleme API’sini](./visuals/event-service.md) desteklemesi gerekir.
+* DOM’nin güvenle işlendiğinden emin olun. Kullanıcı girişini veya kullanıcı verilerini DOM’ye eklemeden önce bu öğelerde temizleme işlemini kullanın.
+* [Örnek raporu](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesi olarak kullanın.
+
+**İzin verilmiyor**
+* Dış hizmetlere ya da kaynaklara erişim. Örneğin, Power BI'dan hizmetlere hiçbir HTTP/S veya WebSocket isteği gidemez.
+* `innerHTML` veya `D3.html(user data or user input)` kullanma.
+* Herhangi bir giriş verisi için tarayıcı konsolunda JavaScript hataları veya özel durumlar.
+* `eval()` gibi rasgele veya dinamik kod; `settimeout()`, `requestAnimationFrame()`, `setinterval(user input function)` ve kullanıcı girişi veya kullanıcı verilerinin güvenli olmayan kullanımı.
+* Küçültülmüş JavaScript dosyaları veya projeleri.
 
 ## <a name="submitting-a-power-bi-visual-for-certification"></a>Power BI görselini sertifikasyon için gönderme
 
@@ -212,6 +233,7 @@ Görseller hakkında daha fazla bilgi için bkz. [Sertifikalı görseller hakkı
 * [Microsoft'un YouTube'daki özel görsel oynatma listesi](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Power BI'daki Görselleştirmeler](../visuals/power-bi-report-visualizations.md)  
 * [Power BI'daki Özel Görselleştirmeler](power-bi-custom-visuals.md)  
-* [Microsoft AppSource’ta Power BI görselleri yayımlama](../developer/office-store.md)  
+* [Microsoft AppSource’ta Power BI görselleri yayımlama](../developer/office-store.md) 
+* Bir web geliştiricisi olarak kendi Power BI görsellerinizi oluşturmakla ve  [Microsoft AppSource](https://appsource.microsoft.com)'a eklemekle ilgileniyorsanız,  [Power BI görseli oluşturma](visuals/custom-visual-develop-tutorial.md) öğreticisiyle başlayın. 
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

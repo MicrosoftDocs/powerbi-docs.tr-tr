@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 935b453dabeaa731a218175526ddddeb980a2b92
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75692471"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161444"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
 
@@ -36,13 +36,13 @@ CALCULATE(
 
 CALCULATE işlevi, [FILTER](/dax/filter-function-dax) DAX işlevi tarafından döndürülen bir tablo ifadesini kabul eder ve **Product** tablosunun her bir satırı için filtre ifadesini değerlendirir. Bu şekilde doğru sonuca yani kırmızı renkli ürünlerin satış rakamlarına ulaşır. Ancak Boole ifadesi kullanarak bu sonucu çok daha verimli bir şekilde elde etmek mümkündür.
 
-Aşağıda tablo ifadesi yerine Boole ifadesini kullanan geliştirilmiş ölçü tanımı verilmiştir.
+Aşağıda tablo ifadesi yerine Boole ifadesini kullanan geliştirilmiş ölçü tanımı verilmiştir. [KEEPFILTERS](/dax/keepfilters-function-dax) DAX işlevi **Color** sütununa eklenmiş mevcut tüm filtrelerin korunmasını ve bunların üzerine yazılmamasını güvence altına alır.
 
 ```dax
 Red Sales =
 CALCULATE(
     [Sales],
-    'Product'[Color] = "Red"
+    KEEPFILTERS('Product'[Color] = "Red")
 )
 ```
 

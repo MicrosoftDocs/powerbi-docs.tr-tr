@@ -1,6 +1,6 @@
 ---
-title: Power BI Sayfalandırılmış Rapor Oluşturucusu
-description: Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.
+title: Power BI Report Builder
+description: Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.
 ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565283"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953910"
 ---
-# <a name="power-bi-paginated-report-builder"></a>Power BI Sayfalandırılmış Rapor Oluşturucusu
+# <a name="power-bi-report-builder"></a>Power BI Report Builder
 
- Power BI Sayfalandırılmış Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
+ Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Report Builder'da raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
 
 [Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)’yı deneyin.
 
@@ -42,7 +42,7 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
   
 -   **Çeşitli veri kaynaklarından rapor.** SQL Server ve Analysis Services'ten, Oracle, Power BI veri kümelerinden ve diğer veritabanlarından ilişkisel ve çok boyutlu veriler kullanan raporlar oluşturabilirsiniz.  
   
--   **Mevcut raporları değiştirin.** Rapor Oluşturucusu'nu kullanarak SQL Server Veri Araçları (SSDT) Rapor Tasarımcısı'nda oluşturulmuş olan raporları özelleştirebilir ve güncelleştirebilirsiniz.  
+-   **Mevcut raporları değiştirin.** Report Builder'ı kullanarak SQL Server Veri Araçları (SSDT) Rapor Tasarımcısı'nda oluşturulmuş olan raporları özelleştirebilir ve güncelleştirebilirsiniz.  
   
 -   **Verilerinizi değiştirin**. Verileri filtreleyin, gruplandırın ve sıralayın ya da formüller veya ifadeler ekleyin.  
 

@@ -1,132 +1,134 @@
 ---
-title: Power BI görsel kavramı
-description: Bu makalede görselin Power BI'yla nasıl tümleştirildiği açıklanır
-author: zBritva
-ms.author: v-ilgali
+title: Power BI görseli kavramları
+description: Makalede görsellerin Power BI’la nasıl tümleştirildiği ve kullanıcının Power BI’da görselle nasıl etkileşim kurabileceği açıklanır.
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700858"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925606"
 ---
-# <a name="power-bi-visual-concept"></a>Power BI görsel kavramı
+# <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
-Bu makalede bir kullanıcı ve görselin Power BI ile nasıl etkileşim kurduğu ve bir kullanıcının Power BI görseliyle nasıl etkileşim kurduğu anlatılır. Diyagrama hangi eylemlerin görseli doğrudan veya Power BI aracılığıyla etkilediğini (örneğin, kullanıcının yer işaretlerini seçmesi) görüyorsunuz.
+Makalede görsellerin Power BI’la nasıl tümleştirildiği ve kullanıcının Power BI’da görselle nasıl etkileşim kurabileceği açıklanır. 
 
-![Power BI görseli](./media/visual-concept.svg)
+Aşağıdaki resimde kullanıcının gerçekleştirdiği yer işareti seçme gibi yaygın görsel tabanlı eylemlerin Power BI’da nasıl işlendiği gösterilir.
 
-## <a name="the-visual-gets-update-from-power-bi"></a>Görsel Power BI'dan güncelleştirilir
+![Power BI görsel eylemi diyagramı](./media/visual-concept.svg)
 
-Görselin `update` yöntemi vardır ve bu yöntem genellikle görselin ana mantığını içerir ve grafiğin işlenmesinden veya verilerin görselleştirilmesinden sorumludur.
+## <a name="visuals-get-updates-from-power-bi"></a>Görseller Power BI’dan güncelleştirmeleri alır
 
-Güncelleştirmelerin daha çoğu `update` yönteminin çağrısına gelir.
+Görsel, Power BI’dan güncelleştirmeleri almak için `update` yöntemini çağırır. `update` yöntemi genellikle görselin ana mantığını içerir ve grafiğin işlenmesinden veya verilerin görselleştirilmesinden sorumludur.
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>Kullanıcı görselle Power BI aracılığıyla etkileşim kurar
+Görsel `update` yöntemini çağırdığında güncelleştirmeler tetiklenir.
 
-* Kullanıcı görsel özellikleri panelini açar.
+## <a name="action-and-update-patterns"></a>Eylem ve güncelleştirme düzenleri
 
-    Power BI görselin `capabilities.json` dosyasından desteklenen nesnelerle özellikleri getirir ve özelliklerin gerçek değerlerini almak için Power BI görselin `enumerateObjectInstances` yöntemini çağırır.
+Power BI görsellerinde eylemler ve izleyen güncelleştirmeler şu düzenlerden birinde gerçekleşir:
 
-    Görselin, özelliklerin gerçek değerlerini döndürmesi gerekir.
+* Kullanıcı görselle Power BI aracılığıyla etkileşim kurar.
+* Kullanıcı görselle doğrudan etkileşim kurar.
+* Görsel Power BI ile etkileşim kurar.
 
-    Daha fazla bilgi için [görsel özellikleri konusunu okuyun](capabilities.md).
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>Kullanıcı görselle Power BI aracılığıyla etkileşim kurar
 
-* Biçim panelinde [kullanıcı görselin özelliğini değiştirir](../../visuals/power-bi-visualization-customize-title-background-and-legend.md).
+* Kullanıcı görselin özellikler panelini açar.
 
-    Özelliğin değeri değiştirildikten sonra Power BI görselin `update` yöntemini çağırır ve yeni `options` nesnesini nesnelerin yeni değerleriyle update yöntemine geçirir.
+    Kullanıcı görselin özellikler panelini açtığında, Power BI görselin *capabilities.json* dosyasından desteklenen nesneleri ve özellikleri getirir. Özelliklerin gerçek değerlerini almak için Power BI görselin `enumerateObjectInstances` yöntemini çağırır. Görsel, özelliklerin gerçek değerlerini döndürür.
 
-    Daha fazla bilgi için [görselin nesneleri ve özellikleri konusunu okuyun](objects-properties.md).
+    Daha fazla bilgi için bkz. [Power BI görsellerinin becerileri ve özellikleri](capabilities.md).
+
+* Biçim panelinde kullanıcı [görselin özelliğini değiştirir](../../visuals/power-bi-visualization-customize-title-background-and-legend.md).
+
+    Kullanıcı biçim panelinde özelliğin değerini değiştirdiğinde, Power BI görselin `update` yöntemini çağırır. Power BI yeni `options` nesnesini `update` yöntemine geçirir. Nesneler yeni değerleri içerir.
+
+    Daha fazla bilgi için bkz. [Power BI görsellerinin nesneleri ve özellikleri](objects-properties.md).
 
 * Kullanıcı görseli yeniden boyutlandırır.
 
-    Kullanıcı görselin boyutunu değiştirdiğinde Power BI yeni `option` nesnesiyle `update` yöntemini çağırır. Seçeneklerde görselin yeni genişliği ve yüksekliğiyle iç içe `viewport` nesnesi vardır.
+    Kullanıcı bir görselin boyutunu değiştirdiğinde Power BI yeni `options` nesnesiyle `update` yöntemini çağırır. `options` nesnelerinde görselin yeni genişliğini ve yüksekliğini içeren iç içe `viewport` nesneleri bulunur.
 
-* Kullanıcı rapor, sayfa veya görsel düzeyi filtresi uygular.
+* Kullanıcı rapor, sayfa veya görsel düzeyinde bir filtre uygular.
 
-    Power BI verileri filtre koşullarına göre filtreler ve görsele yeni verileri vermek için görselin `update` yöntemini çağırır.
+    Power BI filtre koşulları temelinde verileri filtreler. Power BI görseli yeni verilerle güncelleştirmek için görselin `update` yöntemini çağırır.
 
-    Görsel iç içe nesnelerden birindeki yeni verilerle yeni `options` güncelleştirmesini alır. Bu görselin veri görünümü eşleme yapılandırmasına bağlıdır.
+    İç içe nesnelerden birinde yeni veriler olduğunda, görsel `options` nesnelerinin yeni güncelleştirmesini alır. Güncelleştirmenin nasıl gerçekleşeceği görselin veri görünümü eşleme yapılandırmasına bağlıdır.
 
-    Daha fazla bilgi için [veri görünümü eşlemeleri konusunu okuyun](dataview-mappings.md).
+    Daha fazla bilgi için bkz. [Power BI görsellerinde veri görünümü eşlemesini anlama](dataview-mappings.md).
 
-* Kullanıcı raporun başka bir görselindeki veri noktasını seçer.
+* Kullanıcı raporun başka bir görselinden bir veri noktası seçer.
 
-    Power BI seçilen veri noktalarını filtreler veya vurgular ve görselin `update` yöntemini çağırır.
+    Kullanıcı raporun başka bir görselinden veri noktasını seçtiğinde, Power BI seçilen veri noktalarını filtreler, vurgular ve görselin `update` yöntemini çağırır. Görsel yeni filtrelenmiş verileri veya bir dizi vurguyla aynı verileri alır.
 
-    Görsel yeni filtrelenmiş verileri veya vurgu dizileriyle birlikte aynı verileri alır.
+    Daha fazla bilgi için bkz. [Power BI görsellerinde veri noktalarını vurgulama](highlight.md).
 
-    Daha fazla bilgi için [görsellerdeki verileri vurgulama konusunu okuyun](highlight.md).
+* Kullanıcı raporun yer işaretleri panelinde bir yer işareti seçer.
 
-* Kullanıcı raporun yer işaretleri panelinde yer işaretini seçer.
+    Kullanıcı raporun yer işaretleri panelinde yer işaretini seçtiğinde iki eylemden biri gerçekleşebilir:
 
-    Burada iki eylem gerçekleştirilebilir:
+    * Power BI, `registerOnSelectionCallback` yöntemi tarafından geçirilen ve kaydedilen bir işlev çağırır. Geri arama işlevi ilgili yer işareti için seçim dizilerini alır.
 
-    1. Power BI `registerOnSelectionCallback` yöntemi tarafından kaydedilip geçirilen işlevi çağırır ve geri çağırma işlevi ilgili yer işaretinin seçim dizilerini alır.
+    * Power BI, `options` nesnesinin içinde ilgili `filter` nesnesiyle `update` yöntemini çağırır.
 
-    2. Power BI `options` içindeki ilgili filtre nesnesiyle `update` yöntemini çağırır.
+    Her iki durumda da, alınan seçimlere veya `filter` nesnesine göre görselin durumunu değiştirmesi gerekir.
 
-    Her iki durumda da görselin alınan seçimler veya filtre nesnesine göre görselleştirme durumunu değiştirmesi gerekir.
+    Yer işaretleri ve filtreler hakkında daha fazla bilgi için bkz. [Power BI görsellerinde Görsel Filtreler API’si](filter-api.md).
 
-    Yer işaretleri hakkındaki diğer ayrıntılar için [yer işaretlerini işleme konusunu okuyun](filter-api.md).
+### <a name="user-interacts-with-the-visual-directly"></a>Kullanıcı görselle doğrudan etkileşim kurar
 
-    Filtreler hakkında daha fazla bilgi için [Power BI görsellerinin diğer görsellerdeki verileri nasıl filtreleyebildiği konusunu okuyun](filter-api.md).
+* Kullanıcı faresini bir veri öğesinin üzerine getirir.
 
-### <a name="user-interacts-with-visual-directly"></a>Kullanıcı görselle doğrudan etkileşim kurar
+    Görsel, Power BI Araç İpuçları API'si aracılığıyla veri noktası hakkında daha fazla bilgi görüntüleyebilir. Kullanıcı faresini bir görsel öğesinin üzerine getirdiğinde, görsel olayı işleyebilir ve ilişkili araç çubuğu öğesi hakkındaki verileri görüntüleyebilir. Görsel standart araç ipucunu veya rapor sayfası araç ipucunu görüntüleyebilir.
 
-* Kullanıcı fareyi veri öğesinin üzerine getirir
+    Daha fazla bilgi için bkz. [Power BI görsellerinde araç çubuğu ipuçları](add-tooltips.md).
 
-    Görsel, Power BI Araç İpuçları API'si aracılığıyla veri noktası hakkında ek bilgiler görüntüleyebilir.
-    Kullanıcı fareyi görsel öğesinin üzerine getirir, görsel olayı işleyebilir ve araç ipucu öğesinde verileri görüntüleyebilir.
+* Kullanıcı görsel özelliklerini değiştirir. (Örneğin kullanıcı ağacı genişletir ve görsel bu durumu özelliklere kaydeder.)
 
-    Görsel standart araç ipucunu veya rapor sayfası ipucunu görüntüleyebilir.
+    Görsel Power BI API'si aracılığıyla özellik değerlerini kaydedebilir. Örneğin kullanıcı görselle etkileşimli çalışırken görselin özellik değerlerini kaydetmesi veya güncelleştirmesi gerekirse, görsel `presistProperties` yöntemini çağırabilir.
 
-    Daha fazla bilgi için [araç ipuçlarını ekleme](add-tooltips.md) kılavuzunu okuyun.
+* Kullanıcı URL’yi seçer.
 
-* Kullanıcı görsel özelliklerini değiştirir (örneğin, kullanıcı ağacı genişletir ve görsel durumu özelliklere kaydeder)
+    Varsayılan olarak bir görsel doğrudan URL açamaz. Bunun yerine URL’yi yeni sekmede açmak için görsel `launchUrl` yöntemini çağırabilir ve URL’yi parametre olarak geçirebilir.
 
-    Görsel Power BI API'si aracılığıyla özellik değerlerini kaydedebilir. Örneğin kullanıcı görselle etkileşim kurduğunda, görselin özellik değerlerini kaydetmesi veya güncelleştirmesi gerekebilir. Görsel bunun için `presistProperties` yöntemini çağırabilir.
+    Daha fazla bilgi için bkz. [Başlatma URL’si oluşturma](launch-url.md).
 
-* Kullanıcı URL bağlantısına tıklar.
+* Kullanıcı görsel aracılığıyla filtre uygular.
 
-    Varsayılan olarak görsel URL'yi açamaz. URL'yi yeni sekmede açmak için görselin `launchURL` yöntemini çağırması ve URL'yi parametre olarak geçirmesi gerekir.
+    Görsel, diğer görsellerdeki verileri filtrelemek için `applyJsonFilter` yöntemini çağırabilir ve koşulları geçirebilir. Temel, Gelişmiş ve Demet gibi çeşitli türlerdeki filtreler kullanılabilir.
 
-    Daha fazla bilgi için bkz. [URL API'sini başlatma](launch-url.md).
+    Daha fazla bilgi için bkz. [Power BI görsellerinde Görsel Filtreleri API’si](filter-api.md).
 
-* Kullanıcı görseli oluşturan filtreyi uygular
+* Kullanıcı görseldeki öğeleri seçer.
 
-    Görsel `applyJSONFilter` yöntemini çağırarak ve filtre koşullarını filtreye geçirerek başka bir görseldeki verileri filtreler.
+    Power BI görselindeki seçimler hakkında daha fazla bilgi için bkz. [Power BI görsel seçimlerini kullanarak etkileşim ekleme](selection-api.md).
 
-    Görsel Temel filtre, Gelişmiş filtre ve Tanımlama grubu filtresi gibi çeşitli türlerde filtre kullanabilir.
-
-    Filtreler hakkında daha fazla bilgi için [Power BI görsellerinin diğer görsellerdeki verileri nasıl filtreleyebildiği konusunu okuyun](filter-api.md).
-
-* Kullanıcı görseldeki öğeleri tıklar/seçer.
-
-    Seçimler hakkında daha fazla bilgi için [görselin nasıl etkileşim kurduğu konusunu okuyun](selection-api.md).
-
-### <a name="the-visual-interacts-with-power-bi"></a>Görsel Power BI ile etkileşim kurar
+### <a name="visual-interacts-with-power-bi"></a>Görsel Power BI ile etkileşim kurar
 
 * Görsel Power BI'dan daha fazla veri ister.
 
-    Görsel verileri parçalar halinde işleyebilir. FetchMoreData API yöntemi veri kümesinin sonraki parçası için istekte bulunur.
+    Görsel verileri parçalar halinde işler. `fetchMoreData` API’si yöntemi veri kümesinin sonraki parçası için istekte bulunur.
 
-    `fetchMoreData` hakkında daha fazla bilgi için [Power BI'dan daha fazla veri getirme konusunu okuyun](fetch-more-data.md)
+    Daha fazla bilgi için bkz. [Power BI’dan daha fazla veri getirme](fetch-more-data.md).
 
-* Olay hizmeti
+* Olay hizmeti tetiklenir.
 
-    Power BI raporları PDF'ye aktarabilir veya e-postayla gönderebilir (Yalnızca sertifikalı görseller desteklenir). Power BI'a işlemenin tamamlandığını ve PDF/e-posta ile yakalamaya hazır olduğunu bildirmek için görselin Olayları İşleme API'sini çağırması gerekir.
+    Power BI raporu PDF’ye dışarı aktarabilir veya e-postayla gönderebilir (yanızca sertifikalı görseller için geçerlidir). Power BI’ya işlemenin bittiğini ve görselin PDF olarak veya e-postayla yakalanmaya hazır olduğunu bildirmek için, görselin Olayları İşleme API’sini çağırması gerekir.
 
-    Daha fazla bilgi için [raporları Power BI'dan PDF'ye dışarı aktarma konusunu okuyun](../../consumer/end-user-pdf.md)
+    Daha fazla bilgi için bkz. [Raporları Power BI'dan PDF'ye dışarı aktarma](../../consumer/end-user-pdf.md).
 
-    [Olay Hizmeti'yle ilgili daha fazla bilgi](event-service.md) bulabilirsiniz
+    Olay hizmeti hakkında bilgi edinmek için bkz. [Power BI görsellerinde olayları işleme](event-service.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bir Web geliştiricisi olarak kendi görselleştirmelerinizi oluşturmak ve bunları AppSource'a eklemek mi istiyorsunuz? [Power BI Görseli geliştirme](./custom-visual-develop-tutorial.md) makalesini inceleyin ve [AppSource’ta Power BI görselleri yayımlamayı](../office-store.md) öğrenin.
+Görselleştirmeleri oluşturmak ve bunları Microsoft AppSource'a eklemekle mi ilgileniyorsunuz? Şu makalelere bakın:
+
+* [Power BI görseli geliştirme](./custom-visual-develop-tutorial.md)
+* [Power BI görsellerini İş Ortağı Merkezi'nde yayımlama](../office-store.md)

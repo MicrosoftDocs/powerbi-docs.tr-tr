@@ -1,6 +1,6 @@
 ---
-title: Power BI Rapor Oluşturucusu’ndaki ifadeler
-description: İfadeler Power BI Sayfalandırılmış Rapor Oluşturucusu sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır.
+title: Power BI Report Builder’daki ifadeler
+description: İfadeler Power BI Report Builder sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840637"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953853"
 ---
-# <a name="expressions-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki ifadeler
-  İfadeler Power BI Sayfalandırılmış Rapor Oluşturucusu sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır. 
+# <a name="expressions-in-power-bi-report-builder"></a>Power BI Report Builder’daki ifadeler
+  İfadeler Power BI Report Builder sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır. 
   
   Birçok rapor öğesi özelliği ifadeye ayarlanabilir. İfadeler raporunuzun içeriğini, tasarımını ve etkileşimini denetlemenize yardımcı olur. İfadeler Microsoft Visual Basic'te yazılır, rapor tanımına kaydedilir ve raporu çalıştırdığınızda rapor işlemcisi tarafından işlenir.  
   
@@ -24,7 +24,7 @@ ms.locfileid: "66840637"
   
  Siz raporu tasarlarken rapor öğeleri için birçok ifade sizin için ayarlanır. Örneğin rapor tasarım yüzeyinde veri bölmesindeki bir alanı tablo hücresine sürüklediğinizde, metin kutusu değeri alan için basit bir ifadeye ayarlanır. Aşağıdaki resimde, Rapor Verileri bölmesinde veri kümesinin ID, Name, SalesTerritory, Code ve Sales alanları görüntülenir. Tabloya üç alan eklenmiştir: [Name], [Code] ve [Sales]. Tasarım yüzeyindeki [Name] gösterimi temel `=Fields!Name.Value` ifadesini temsil eder.  
   
-![Rapor Oluşturucusu Tasarım Görünümü](media/report-builder-expressions/report-builder-data-design-preview.png)
+![Report Builder Tasarım Görünümü](media/report-builder-expressions/report-builder-data-design-preview.png)
   
  Raporun önizlemesini görüntülerken rapor işlemcisi tablo veri bölgesini veri bağlantısından gelen gerçek verilerle birleştirir ve sonuç kümesindeki her satır için tabloda bir satır görüntüler.  
   
@@ -43,11 +43,11 @@ ms.locfileid: "66840637"
   
  Aşağıdaki şekilde hem metin kutuları hem de yer tutucu metinler için tipik basit ve karmaşık ifadeler gösterilir.  
   
-![Rapor Oluşturucusu ifade varsayılan biçimi](media/report-builder-expressions/report-builder-expression-default-format.png) 
+![Report Builder ifade varsayılan biçimi](media/report-builder-expressions/report-builder-expression-default-format.png) 
   
  İfadeler için metin yerine örnek değerler görüntülemek isterseniz, metin kutusuna veya yer tutucu metne biçimlendirme uygulayın. Aşağıdaki şekilde örnek değerleri göstermeye geçen rapor tasarım yüzeyi gösterilir:  
   
-![Rapor Oluşturucusu ifade örnek biçimi](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
+![Report Builder ifade örnek biçimi](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
 ## <a name="DisplayText"></a> Basit ifadelerdeki ön ek sembollerini anlama  
@@ -72,7 +72,7 @@ Basit ifadelerde başvurunun bir alan, parametre, yerleşik koleksiyon veya Repo
 |İşleçler|İfadedeki başvuruları birleştirirken kullanabileceğiniz işleçleri açıklar. Örneğin **&** işleci dizeleri birleştirmek için kullanılır.|`="The report ran at: " & Globals!ExecutionTime & "."`|  
 |Yerleşik Koleksiyonlar|İfadeye ekleyebileceğiniz `Fields`, `Parameters` ve `Variables` gibi yerleşik koleksiyonları açıklar.|`=Fields!Sales.Value`<br /><br /> `=Parameters!Store.Value`<br /><br /> `=Variables!MyCalculation.Value`|  
 |Yerleşik Rapor ve Toplama İşlevleri|İfadeden erişebileceğiniz `Sum` veya `Previous` gibi yerleşik işlevleri açıklar.|`=Previous(Sum(Fields!Sales.Value))`|  
-|Rapor Oluşturucusu'ndaki İfadelerde Özel Kod ve Derleme Başvuruları |Bir dış derlemeden yerleşik `xref:System.Math` ve `xref:System.Convert` CLR sınıflarına, diğer CLR sınıflarına, Visual Basic çalışma zamanı kitaplık işlevlerine veya yöntemlere nasıl erişebileceğinizi açıklar.<br /><br /> Raporunuza eklenmiş olan veya derleyip hem rapor istemcisine hem de rapor sunucusuna özel derleme olarak yüklediğiniz özel koda nasıl erişebileceğinizi açıklar.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
+|Report Builder'daki İfadelerde Özel Kod ve Derleme Başvuruları |Bir dış derlemeden yerleşik `xref:System.Math` ve `xref:System.Convert` CLR sınıflarına, diğer CLR sınıflarına, Visual Basic çalışma zamanı kitaplık işlevlerine veya yöntemlere nasıl erişebileceğinizi açıklar.<br /><br /> Raporunuza eklenmiş olan veya derleyip hem rapor istemcisine hem de rapor sunucusuna özel derleme olarak yüklediğiniz özel koda nasıl erişebileceğinizi açıklar.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
 ##  <a name="Valid"></a> Doğrulama ifadeleri  
  Belirli bir rapor öğesi özelliği için ifade oluştururken, ifadeye ekleyebileceğiniz başvurular rapor öğesi özelliğinin kabul edebileceği değerlere ve özelliğin değerlendirildiği kapsama bağlıdır. Örnek:  

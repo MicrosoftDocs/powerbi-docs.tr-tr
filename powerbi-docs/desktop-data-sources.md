@@ -6,47 +6,50 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761376"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039781"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
 Power BI Desktop ile birçok farklı kaynaktaki verilere bağlanabilirsiniz. Kullanılabilir veri kaynaklarının tam listesi için bkz. [Power BI veri kaynakları](power-bi-data-sources.md).
 
-Verilere bağlanmak için **Giriş** şeridindeki **Veri Al** seçeneğini belirleyin. Düğmedeki aşağı oku veya **Veri Al** metnini seçtiğinizde, **En Yaygın** veri türlerinin yer aldığı menü görüntülenir. (Aşağıda gösterilmektedir.)
+**Giriş** şeridini kullanarak verilere bağlanırsınız. **En Yaygın** veri türleri menüsünü göstermek için **Veri Al** düğme etiketini veya aşağı oku seçin.
 
-![Power BI Desktop'ta Veri Al](media/desktop-data-sources/data-sources-01.png)
+![Power BI Desktop’ta En Yaygın veri türleri menüsü, Veri Al](media/desktop-data-sources/data-sources-01.png)
 
-**En Yaygın** menüsündeki **Diğer...** seçeneğini belirlediğinizde **Veri Al** penceresi görüntülenir. Ayrıca **Veri Al** **simgesinin bulunduğu düğmeyi** seçtiğinizde **En Yaygın** menüsünü atlayarak **Veri Al** penceresini doğrudan görüntüleyebilirsiniz.
+**Veri Al** iletişim kutusuna gitmek için **En Yaygın** veri türleri menüsünü görüntüleyin ve **Diğer**’i seçin. Ayrıca **Veri Al** simgesini seçtiğinizde **En Yaygın** menüsünü atlayarak doğrudan **Veri Al** iletişim kutusunu görüntüleyebilirsiniz.
 
-![Veri Al düğmesi](media/desktop-data-sources/data-sources-02.png)
+![Veri Al düğmesi, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI ekibi, **Power BI Desktop** ve **Power BI hizmetinde** kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık *Beta* veya *Önizleme* olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. Ayrıca, **Power BI Desktop** için *Beta* veya *Önizleme* olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar **Power BI hizmetinde** veya diğer Microsoft hizmetlerinde kullanılamayabilir.
+> Power BI ekibi, Power BI Desktop ve Power BI hizmetinde kullanıma sunulan veri kaynaklarının sayısını sürekli olarak artırmaktadır. Bu nedenle, sık sık **Beta** veya **Önizleme** olarak işaretlenmiş veri kaynaklarıyla karşılaşırsınız. Bunlar, üzerinde çalışılmakta olan veri kaynaklarının ilk sürümleridir. **Beta** veya **Önizleme** olarak işaretlenen veri kaynakları için destek ve işlevsellik sınırlıdır. Bunlar, üretim ortamlarında kullanılmamalıdır. Ayrıca, Power BI Desktop için **Beta** veya **Önizleme** olarak işaretlenen herhangi bir veri kaynağı, genel olarak kullanılabilir (GA) hale gelene kadar Power BI hizmetinde veya diğer Microsoft hizmetlerinde kullanılamayabilir.
 
 > [!NOTE]
 > Birçok Power BI Desktop veri bağlayıcısı, kimlik doğrulaması için Internet Explorer 10 (veya daha yeni bir sürümü) uygulamasına ihtiyaç duyar. 
 
 
 ## <a name="data-sources"></a>Veri kaynakları
-Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
+
+**Veri Al** iletişim kutusu veri türlerini şu kategorilerde düzenler:
 
 * Tümü
 * Dosya
 * Veritabanı
-* Power BI
+* Power Platformu
 * Azure
 * Çevrimiçi Hizmetler
 * Diğer
 
 **Tümü** kategorisi, tüm kategorilerdeki bütün veri bağlantı türlerini içerir.
+
+### <a name="file-data-sources"></a>Dosya veri kaynakları
 
 **Dosya** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
@@ -56,26 +59,28 @@ Veri türleri, aşağıdaki kategoriler halinde düzenlenmiştir:
 * JSON
 * Klasör
 * PDF
-* SharePoint Klasörü
+* SharePoint klasörü
 
 Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Dosya](media/desktop-data-sources/data-sources-03.png)
+![Dosya veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
+
+### <a name="database-data-sources"></a>Veritabanı veri kaynakları
 
 **Veritabanı** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
-* SQL Server Veritabanı
-* Access Veritabanı
-* SQL Server Analysis Services Veritabanı
-* Oracle Veritabanı
-* IBM DB2 Veritabanı
+* SQL Server veritabanı
+* Access veritabanı
+* SQL Server Analysis Services veritabanı
+* Oracle veritabanı
+* IBM DB2 veritabanı
 * IBM Informix veritabanı (Beta)
 * IBM Netezza
-* MySQL Veritabanı
-* PostgreSQL Veritabanı
-* Sybase Veritabanı
-* Teradata
-* SAP HANA Veritabanı
+* MySQL veritabanı
+* PostgreSQL veritabanı
+* Sybase veritabanı
+* Teradata veritabanı
+* SAP HANA veritabanı
 * SAP Business Warehouse Uygulama Sunucusu
 * SAP Business Warehouse İleti Sunucusu
 * Amazon Redshift
@@ -84,22 +89,25 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Vertica
 * Snowflake
 * Essbase
-* AtScale küpleri
+* AtScale küpleri (Beta)
 * BI Bağlayıcısı
+* Denodo
 * Dremio
 * Exasol
 * Indexima (Beta)
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
-* Kyligence Enterprise (Beta)
-* MarkLogic (Beta)
+* Kyligence
+* MarkLogic
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
 
 Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Veritabanları](media/desktop-data-sources/data-sources-04.png)
+![Veritabanı veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
+
+### <a name="power-platform-data-sources"></a>Power Platform veri kaynakları
 
 **Power Platform** kategorisinde aşağıdaki veri bağlantıları sağlanır:
 
@@ -110,11 +118,13 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 
 Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Power BI](media/desktop-data-sources/data-sources-05.png)
+![Power Platform veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
+
+### <a name="azure-data-sources"></a>Azure veri kaynakları
 
 **Azure** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
-* Azure SQL Veritabanı
+* Azure SQL veritabanı
 * Azure SQL Veri Ambarı
 * Azure Analysis Services veritabanı
 * Azure Blob Depolama
@@ -131,7 +141,9 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Azure](media/desktop-data-sources/data-sources-06.png)
+![Azure veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
+
+### <a name="online-services-data-sources"></a>Çevrimiçi Hizmetler veri kaynakları
 
 **Çevrimiçi Hizmetler** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
@@ -152,6 +164,7 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Data.World - Veri Kümesi Al (Beta)
 * Facebook
 * GitHub (Beta)
+* LinkedIn Satış Gezgini (Beta)
 * MailChimp (Beta)
 * Marketo (Beta)
 * Mixpanel (Beta)
@@ -160,102 +173,106 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
-* Stripe (Beta)
 * SweetIQ (Beta)
-* Planview Enterprise One - CMT (Beta)
+* Planview Enterprise One - CTM (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
 * Dynamics 365 Customer Insights (Beta)
-* Emigo Data Source (Beta)
+* Emigo Data Source
 * Entersoft Business Suite (Beta)
 * Industrial App Store
 * Intune Veri Ambarı (Beta)
 * Microsoft Graph Güvenliği (Beta)
+* Product Insights (Beta)
 * Quick Base
 * TeamDesk (Beta)
-
+* Workplace Analytics (Beta)
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Çevrimiçi Hizmetler](media/desktop-data-sources/data-sources-07.png)
+![Çevrimiçi Hizmetler veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
+
+### <a name="other-data-sources"></a>Diğer veri kaynakları
 
 **Diğer** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
 * Web
-* SharePoint Listesi
+* SharePoint listesi
 * OData Akışı
 * Active Directory
 * Microsoft Exchange
 * Hadoop Dosyası (HDFS)
 * Spark
-* R Betiği
+* R betiği
 * Python betiği
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
-* Denodo
 * Information Grid (Beta)
-* Paxata 
+* Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
+* Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* Vena (Beta)
 * Workforce Dimensions (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Veri Al > Diğer](media/desktop-data-sources/data-sources-08.png)
+![Diğer veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Şu anda, güvenliği Azure Active Directory ile sağlanan özel veri kaynaklarına bağlanılamamaktadır.
 
 ## <a name="connecting-to-a-data-source"></a>Veri kaynağına bağlanma
+
 Bir veri kaynağına bağlanmak için **Veri Al** penceresinde söz konusu veri kaynağını seçin ve ardından **Bağlan** seçeneğini belirleyin. Aşağıdaki görüntüde, **Diğer** veri bağlantısı kategorisinde yer alan **Web** seçeneği belirlenmiştir.
 
-![Web’e bağlanma](media/desktop-data-sources/data-sources-08.png)
+![Web’e bağlanma, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 Veri bağlantısının türüne özel bir bağlantı penceresi görüntülenir. Gerekli olması halinde kimlik bilgilerinizi girmeniz istenir. Aşağıdaki görüntüde, bir Web veri kaynağına bağlanmak için girilen bir URL gösterilmektedir.
 
-![Web URL'si girme](media/desktop-data-sources/datasources-fromwebbox.png)
+![Giriş URL’si, Web’den iletişim kutusu, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-URL veya kaynak bağlantı bilgilerini girdikten sonra **Tamam**'ı seçin. Power BI Desktop veri kaynağı bağlantısını gerçekleştirir ve kullanabileceğiniz veri kaynaklarını **Gezgin** penceresinde görüntüler.
+URL’yi veya kaynak bağlantısı bilgilerini girin ve **Tamam**’ı seçin. Power BI Desktop veri kaynağı bağlantısını gerçekleştirir ve kullanabileceğiniz veri kaynaklarını **Gezgin** penceresinde görüntüler.
 
-![Gezgin ekranı](media/desktop-data-sources/datasources-fromnavigatordialog.png)
+![Gezgin iletişim kutusu, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-**Gezgin** bölmesinin alt kısmındaki **Yükle** düğmesini seçerek verileri yükleyebilir veya verileri yüklemeden önce sorguyu düzenlemek isterseniz **Düzenle** düğmesini seçebilirsiniz.
+Verileri yüklemek için, **Gezgin** bölmesinin alt kısmındaki **Yükle** düğmesini seçin. Verileri yüklemeden önce Power Query Düzenleyicisi’nde sorguyu dönüştürmek veya düzenlemek için **Veri Dönüştürme** düğmesini seçin.
 
 Power BI Desktop'ta veri kaynaklarına bağlanmak için tüm yapmanız gereken bu! Sayısı sürekli artan veri kaynaklarımızdaki verilere bağlanın ve veri kaynaklarımızın bulunduğu listeyi sık sık kontrol edin. Yeni veri kaynakları eklemeye devam edeceğiz.
 
 ## <a name="using-pbids-files-to-get-data"></a>Verileri almak için PBIDS dosyalarını kullanma
 
-PBIDS dosyaları, belirli bir yapıya sahip olan ve Power BI veri kaynağı dosyası olarak tanımlanması için .PBIDS uzantısına sahip olan Power BI Desktop dosyalarıdır.
+PBIDS dosyaları, belirli bir yapısı olan ve Power BI veri kaynağı dosyası olarak tanımlanması için .PBIDS uzantısına sahip olan Power BI Desktop dosyalarıdır.
 
-Kuruluşunuzda rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştırmak için bir .PBIDS dosyası oluşturabilirsiniz. Yöneticilerin, yeni rapor yazarları için PBIDS dosyalarının kullanımını kolaylaştırmak amacıyla yaygın olarak kullanılan bağlantılar için bu dosyaları oluşturması önerilir. 
+Kuruluşunuzda rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştırmak için bir PBIDS dosyası oluşturabilirsiniz. Yeni bir rapor yazarının PBIDS dosyalarını kullanmasını kolaylaştırmak için, bir yöneticinin ortak kullanılan bağlantılarda bu dosyaları oluşturmasını öneririz.
 
-Bir yazar .PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. Gezinti iletişim kutusu görüntülenir ve kullanıcı, veri kaynağından modele yüklenecek tabloları seçmelidir. Kullanıcıların, .PBIDS dosyasında belirtilmemişse, veritabanlarını seçmesi de gerekebilir. 
+Yazar PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. **Gezinti** iletişim kutusu görüntülenir ve kullanıcının veri kaynağından modele yüklenecek tabloları seçmesi gerekir. PBIDS dosyasında belirtilmemişse, kullanıcıların veritabanlarını seçmesi de gerekebilir.
 
-Bu noktadan itibaren kullanıcı, görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için *Son kaynaklar*’ı yeniden ziyaret edebilir. 
+Bu noktadan itibaren kullanıcı görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için **Son Kaynaklar**’ı seçebilir.
 
-Şu anda .PBIDS dosyaları tek dosyada yalnızca bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır. 
+Şu anda PBIDS dosyaları tek dosyada yalnızca bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır.
 
-Yöneticiler, .PBIDS dosyası oluşturmak için tek bir bağlantıya yönelik gerekli girdileri belirtmelidir ve bağlantı modunu **DirectQuery** veya **İçeri Aktarma** olarak belirtebilir. Dosyada **mode** eksikse veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan DirectQuery veya İçeri Aktarma’yı seçmesi istenir. 
+Yönetici PBIDS dosyasını oluştururken, tek bağlantı için gerekli girişleri belirtmelidir. Ayrıca bağlantı modu olarak DirectQuery veya İçeri Aktarma’yı belirtebilir. Dosyada **mode** ayarı yoksa veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan **DirectQuery** veya **İçeri Aktarma**’yı seçmesi istenir.
 
 ### <a name="pbids-file-examples"></a>PBIDS dosyası örnekleri
 
-Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sağlanmaktadır. .PBIDS dosya türü yalnızca Power BI Desktop’ta da desteklenen veri bağlantılarını destekler. Bunun yalnızca iki istisnası vardır: Live Connect ve Boş sorgu. 
+Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sağlanmaktadır. PBIDS dosya türü yalnızca Power BI Desktop’ta da desteklenen veri bağlantılarını destekler. Bunun yalnızca iki istisnası vardır: Live Connect ve Boş Sorgu.
 
-.PBIDS dosyası, kimlik doğrulaması bilgilerini ve tablo ve şema bilgilerini *içermez*.  
+PBIDS dosyası, kimlik doğrulaması bilgilerini ve tablo ve şema bilgilerini *içermez*.  
 
-Aşağıda, .PBIDS dosyasının birkaç yaygın örneği verilmekte olup bu örnekler tamamını kapsamaz. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
+Aşağıda kod parçacıkları PBIDS dosyalarının birkaç yaygın örneğini gösterir ama bunlar eksiksiz veya kapsamlı değildir. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
 
-Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri kapsayıcı değildir ve DSR biçiminde desteklenen tüm bağlayıcıları içermez. Yöneticiler veya kuruluşlar kılavuz olarak bu örnekleri kullanarak kendi veri kaynaklarını oluşturabilir. Bu örnekler sayesinde kendi veri kaynağı dosyalarını oluşturup destekleyebilirler. 
+Bu örnekler yalnızca kolaylık sağlamak için verilmiştir; tüm örnekleri kapsamaz ve DSR biçiminde desteklenen tüm bağlayıcıları içermez. Yöneticiler veya kuruluşlar kılavuz olarak bu örnekleri kullanarak kendi veri kaynaklarını oluşturabilir. Bu örnekler sayesinde kendi veri kaynağı dosyalarını oluşturup destekleyebilirler.
 
+#### <a name="azure-as"></a>Azure AS
 
-**Azure AS**
-```
+```json
 { 
     "version": "0.1", 
     "connections": [ 
@@ -271,11 +288,9 @@ Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri 
 }
 ```
 
+#### <a name="folder"></a>Klasör
 
- 
-
-**Klasör**
-```
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -291,8 +306,9 @@ Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri 
 } 
 ```
 
-**OData**
-```
+#### <a name="odata"></a>OData
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -307,9 +323,10 @@ Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri 
   ] 
 } 
 ```
- 
-**SAP BW**
-```
+
+#### <a name="sap-bw"></a>SAP BW
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -326,9 +343,10 @@ Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri 
   ] 
 } 
 ```
- 
-**SAP Hana**
-```
+
+#### <a name="sap-hana"></a>SAP Hana
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -344,10 +362,11 @@ Bu örnekler yalnızca kolaylık sağlamak için verilmiş olup tüm örnekleri 
 } 
 ```
 
-**SharePoint Listesi**
+#### <a name="sharepoint-list"></a>SharePoint listesi
 
-URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendisini işaret etmelidir. Kullanıcılar, bu siteden bir veya daha fazla liste seçmesine olanak sağlayan bir gezgin alır. Bu listelerin her biri modelde bir tablo olur. 
-```
+URL SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendisini işaret etmelidir. Kullanıcılar, bu siteden bir veya daha fazla liste seçmesine olanak sağlayan bir gezgin alır. Bu listelerin her biri modelde bir tablo olur.
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -362,10 +381,10 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
   ] 
 } 
 ```
- 
- 
-**SQL Server**
-```
+
+#### <a name="sql-server"></a>SQL Server
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -383,10 +402,10 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
   ] 
 } 
 ```
- 
 
-**Metin dosyası**
-```
+#### <a name="text-file"></a>Metin dosyası
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -401,10 +420,10 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
   ] 
 } 
 ```
- 
 
-**Web**
-```
+#### <a name="web"></a>Web
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -419,10 +438,10 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
   ] 
 } 
 ```
- 
 
-**Veri akışı**
-```
+#### <a name="dataflow"></a>Veri akışı
+
+```json
 {
   "version": "0.1",
   "connections": [
@@ -440,12 +459,12 @@ URL, SharePoint sitesi içindeki bir listeyi değil, SharePoint sitesinin kendis
 }
 ```
 
-
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+
+Power BI Desktop ile her şeyi yapabilirsiniz. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'taki Veri Türleri](desktop-data-types.md)
-* [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)    
+* [Power BI Desktop ile sorgulara genel bakış](desktop-query-overview.md)
+* [Power BI Desktop'taki veri türleri](desktop-data-types.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevleri](desktop-common-query-tasks.md)

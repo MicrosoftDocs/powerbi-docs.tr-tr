@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2010
+ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872140"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160570"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki rapor ve panolara yönelik iletişim bilgilerini ayarlama
 Bu makalede, Power BI hizmetindeki pano veya raporlara yönelik iletişim bilgilerini ayarlamayı öğreneceksiniz.
@@ -60,6 +60,7 @@ Kişi listesi bilgileri farklı yerlerde de kullanılır. Örneğin, hata ileti�
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 * Kişi, Power BI hizmetinde oluşturulan yeni öğeler için otomatik olarak ayarlanır. Mevcut öğeler, çalışma alanının varsayılanını gösterir.
 * Kişi listesinde yer alan herhangi bir kullanıcıyı veya grubu ayarlayabilirsiniz. Ancak, bu kullanıcılara veya gruplara öğeye yönelik izinler otomatik olarak verilmez. Paylaşımı kullanın veya çalışma alanı erişimine ihtiyaç duyan kullanıcıya bunu bir rol aracılığıyla verin. 
+* Öğe düzeyi kişi listesi yayımlandığında uygulamalara gönderilmez. Yeni uygulama gezinti deneyimi bir destek URL’si sağlar. Büyük sayılardaki uygulama kullanıcılarından gelen geri bildirimleri yönetmeye yardımcı olmak için bunu yapılandırabilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

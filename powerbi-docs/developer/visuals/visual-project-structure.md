@@ -1,126 +1,179 @@
 ---
 title: Power BI görseli proje yapısı
-description: Makalede görsel projelerinin yapısı açıklanır
-author: zBritva
-ms.author: v-ilgali
+description: Bu makalede Power BI görseli projesinin klasör ve dosya yapısı açıklanır
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542105"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925530"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI görseli proje yapısı
 
-Pbiviz yeni `<visual project name>` yürütüldükten sonra araç `<visual project name>` klasöründe temel dosya ve klasör yapısını oluşturur.
+Yeni bir Power BI görseli oluşturmaya başlamanın en iyi yolu Power BI görselleri [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) aracını kullanmaktır.
 
-## <a name="visual-project-structure"></a>Görsel proje yapısı
+Yeni görsel oluşturmak için, Power BI görselinin yerleştirilmesini istediğiniz dizine gidin ve şu komutu çalıştırın:
 
-![Görsel proje yapısı](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode` - VS Code için projenin ayarlarını içerir. Çalışma alanınızı yapılandırmak için `.vscode/settings.json` dosyasını düzenleyin. [Belgelerde VS Code ayarları hakkında](https://code.visualstudio.com/docs/getstarted/settings) daha fazla bilgi edinin
+Bu komut çalıştırıldığında aşağıdaki dosyaları içeren bir Power BI görseli klasörü oluşturulur:
 
-* `assets` klasöründe yalnızca `icon.png` dosyası vardır. Araç bu dosyayı Power BI'ın Görselleştirme bölmesinde görselin simgesi olarak kullanır.
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![Görselleştirme bölmesi](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>Klasör ve dosya açıklaması
 
-* `node_modules` klasörü [Node Paket Yöneticisi tarafından yüklenen](https://docs.npmjs.com/files/folders.html) tüm paketleri içerir.
+Bu bölümde, Power BI görselleri **pbiciz** aracının oluşturduğu dizindeki klasör ve dosyaların her biri hakkında bilgi sağlanır.  
 
-* `src` klasörü görselin kaynak kodunu içerir. Varsayılan olarak araç iki dosya oluşturur:
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts` - görselin ana kaynak kodu.
+Bu klasör VS kodu proje ayarlarını içerir.
 
-  * `settings.ts` - görsel için kod ayarları. Dosyadaki sınıflar [görsel özellikleriyle çalışmayı](./objects-properties.md#properties) basitleştirir.
+Çalışma alanınızı yapılandırmak için `.vscode/settings.json` dosyasını düzenleyin.
 
-* `style` klasöründe görselin stillerini içeren `visual.less` dosyası vardır.
+Daha fazla bilgi için bkz. [Kullanıcı ve Çalışma Alanı Ayarları](https://code.visualstudio.com/docs/getstarted/settings)
 
-* `capabilities.json` dosyası görselin ana özelliklerini ve ayarlarını içerir. Görselin desteklenen özellikleri, nesneleri ve veri görünümü eşlemesini bildirmesine olanak tanır.
+### <a name="assets"></a>assets
 
-    [Belgelerde özellikler hakkında](./capabilities.md) daha fazla bilgi edinin.
+Bu klasör `icon.png` dosyasını içerir.
 
-* Npm'nin `node_modules` ağacını veya `package.json` dosyasını değiştirdiği tüm işlemler için `package-lock.json` otomatik olarak oluşturulur.
+Power BI görselleri aracı bu dosyayı Power BI görselleştirme bölmesinde yeni Power BI görselinin simgesi olarak kullanır.
 
-    [NPM'nin resmi belgelerinde `package-lock.json` hakkında](https://docs.npmjs.com/files/package-lock.json) daha fazla bilgi edinin.
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json`, proje paketini açıklar. Genellikle proje hakkındaki bilgileri, yazarlarını, projenin açıklamasını ve bağımlılıklarını içerir.
+### <a name="src"></a>src
 
-    [NPM'nin resmi belgelerinde `package.json` hakkında](https://docs.npmjs.com/files/package.json.html) daha fazla bilgi edinin.
+Bu klasör görselin kaynak kodunu içerir.
 
-* `pbiviz.json`, görsel meta verileri içerir. Görselin meta verilerini bu dosyada belirtin.
+Bu klasörde Power BI görselleri aracı şu dosyaları oluşturur:
+* `visual.ts` - Görselin ana kaynak kodu.
+* `settings.ts` - Görselin ayarlarının kodu. Dosyadaki sınıflar [görselinizin özelliklerini](./objects-properties.md#properties) tanımlamaya yönelik bir arabirim sağlar.
 
-    Dosyanın normal içeriği:
+### <a name="style"></a>style
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+Bu klasör, içinde görselin stillerinin bulunduğu `visual.less` dosyasını içerir.
 
-    burada
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name` - görselin dahili adı.
+Bu dosya görselin ana özelliklerini ve ayarlarını (veya [becerilerini](./capabilities.md)) içerir. Görselin desteklenen özellikleri, nesneleri ve [veri görünümü eşlemesini](./dataview-mappings.md) bildirmesine olanak tanır.
 
-  * `displayName` - Power BI'ın kullanıcı arabiriminde görselin adı.
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid` - görselin benzersiz kimliği.
+Bu dosya *npm*’nin `node_modules` ağacını veya `package.json` dosyasını değiştirdiği tüm işlemler için otomatik olarak oluşturulur.
 
-  * `visualClassName` - görselin ana sınıfının adı. Görseli Power BI raporunda kullanmaya başlamak için Power BI bu sınıfın örneğini oluşturur.
+Bu dosya hakkında daha fazla bilgi için resmi [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) belgelerine bakın.
 
-  * `version` - görselin sürüm numarası.
+### <a name="packagejson"></a>package.json
 
-  * `author` - Yazarın adını ve iletişim e-postasını içerir.
+Bu dosya proje paketini açıklar. Proje hakkındaki bilgileri, örneğin yazarlarını, açıklamasını ve proje bağımlılıklarını içerir.
 
-  * `assets` içinde `icon` - görselin simge dosyasının yolu.
+Bu dosya hakkında daha fazla bilgi için resmi [npm-package.json](https://docs.npmjs.com/files/package.json.html) belgelerine bakın.
 
-  * `externalJS` görselde kullanılan JS kitaplıklarının yollarını içerir.
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > Aracın en son sürümü (3.x.x veya üzeri) artık `externalJS` kullanmaz.
+Bu dosya görsel meta verilerini içerir.
 
-  * `style` stil dosyalarının yoludur.
+Meta veri girdilerinin anlatıldığı açıklamalarla örnek bir `pbiviz.json` dosyası görmek için [meta veri girdileri](#metadata-entries) bölümüne bakın.
 
-  * `capabilities`, `capabilities.json` dosyasının yoludur.
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies`, `dependencies.json` dosyasının yoludur. `dependencies.json` R tabanlı görsellerde kullanan R paketleri hakkında bilgi içerir.
+[TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) için yapılandırma dosyası.
 
-  * `stringResources`, yerelleştirmeleri içeren dosyaların yollarından oluşmuş bir dizidir.
+Bu dosya, `pbiviz.json` dosyasındaki `visualClassName` özelliğinde belirtildiği gibi görselin ana sınıfının yer aldığı **\*.ts** dosyasının yolunu içermelidir.
 
-  [Belgelerde görsellerde yerelleştirme hakkında](./localization.md) daha fazla bilgi edinin
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json`, TypeScript için yapılandırma dosyasıdır.
+Bu dosya [TSLint yapılandırmasını](https://palantir.github.io/tslint/usage/configuration/) içerir.
 
-    [Resmi belgelerde TypeScript yapılandırması hakkında](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) daha fazla bilgi edinin
+## <a name="metadata-entries"></a>Meta veri girdileri
 
-    `files` bölümündeki `tsconfig.json` dosyası, *.ts dosyasının yolunu içermelidir; burada görselin ana sınıfı `pbiviz.json` dosyasının `visualClassName` özelliğinde belirtilir.
+`pbiviz.json` dosyasından alınan aşağıdaki kod parçasındaki açıklamalar, meta veri girdilerini anlatır.
 
-* `tslint.json` dosyası TSLint yapılandırmasını içerir.
+> [!NOTE]
+> * **Pbiciz** aracının 3.x.x sürümünden `externalJS` desteklenmez.
+> * Yerelleştirme desteği için [Power BI yerel ayarını görselinize ekleyin](./localization.md).
 
-    [Resmi belgelerde TSLint yapılandırması hakkında](https://palantir.github.io/tslint/usage/configuration/) daha fazla bilgi edinin
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* Görselin, kullanıcının ve Power BI'ın birbiriyle nasıl etkileşim kurduğunu daha iyi anlamak için [görsel kavramı hakkındaki](./power-bi-visuals-concept.md) diğer belgeleri okuyun.
+* Görsel, kullanıcı ve Power BI arasındaki etkileşimleri anlamak için bkz. [Power BI görseli kavramı](./power-bi-visuals-concept.md).
 
-* [Adım adım kılavuzla](./custom-visual-develop-tutorial.md) sıfırdan kendi Power BI Görsellerinizi geliştirmeye başlayın.
+* [Adım adım kılavuzu](./custom-visual-develop-tutorial.md) kullanarak sıfırdan kendi Power BI görsellerinizi geliştirmeye başlayın.
