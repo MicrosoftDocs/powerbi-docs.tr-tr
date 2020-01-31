@@ -1,28 +1,34 @@
 ---
 title: Power BI Pro lisanslarını satın alma ve atama
-description: Kullanıcılarınızın Power BI hizmetindeki içeriğe erişebilmesi ve iş arkadaşlarıyla işbirliği yapabilmesi için Power BI Pro lisansları satın alma ve atama hakkında bilgi edinin.
+description: Kullanıcıların Power BI hizmetindeki içeriğe erişebilmesi ve diğer kullanıcılarla işbirliği yapabilmesi için Power BI Pro lisansları satın alma ve kullanıcılara atama hakkında bilgi edinin.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: quickstart
-ms.date: 12/18/2019
+ms.topic: conceptual
+ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223820"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753203"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
-Power BI Pro, kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanmış raporları ve panoları okuyup etkileşimde bulunmasına ve diğer Power BI Pro kullanıcılarıyla içerik paylaşıp işbirliği yapmasına olanak tanıyan bireysel bir kullanıcı lisansıdır. Yalnızca Power BI Pro kullanıcı lisansı olan kullanıcılar içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
+>[!IMPORTANT]
+>Power BI Pro lisansına yükseltmeye hazır mısınız? Hesabınızı ayarlamak için doğrudan [Power BI Pro’yu kullanmaya başlama](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) sayfasına gidin.
 
-## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
+Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanan raporları ve panoları okumasını ve bunlarla etkileşimli çalışmasını sağlayan bireysel bir kullanıcı lisansıdır. Bu tür bir lisansa sahip kullanıcılar içerik paylaşabilir ve diğer Power BI Pro kullanıcılarıyla işbirliği yapabilir. Yalnızca Power BI Pro kullanıcıları içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
 
-Bu makalede, Microsoft 365 yönetim merkezinde Power BI Pro kullanıcı lisansları satın alma işlemi ve daha sonra yöneticilerin bu lisansları tekil kullanıcılara atamak için sahip olduğu iki seçenek açıklanmaktadır: Microsoft 365 yönetim merkezi ve Azure portalı (bir seçenek belirleyin).
+## <a name="purchase-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma
+
+Bu makalede Microsoft 365 yönetim merkezinde Power BI Pro kullanıcı lisanslarının nasıl satın alınacağı açıklanır. Lisansları satın aldıktan sonra, Microsoft 365 yönetim merkezinde veya Azure portalında bunları kullanıcılara atayabilirsiniz.
+
+> [!NOTE]
+> 14 Ocak 2020’den başlayarak, Birleşik Devletler’deki ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi edinmek ve kuruluşunuzda self servis satın alma özelliğini etkinleştirmeyi veya devre dışı bırakmayı öğrenmek için bkz. [Self servis satın alma ile ilgili SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -34,47 +40,43 @@ Azure portalında lisansları atamak için, Power BI'ın Azure Active Directory 
 
 Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için şu adımları izleyin:
 
-1. [Microsoft 365 yönetim merkezini](https://portal.office.com/adminportal/home#/homepage) açın.
+1. [Microsoft 365 yönetim merkezinde](https://admin.microsoft.com) oturum açın.
 
-2. Gezinti bölmesinde **Faturalama**’yı ve ardından **Abonelikler**'i seçin.
+2. Gezinti menüsünde **Faturalama** > **Hizmetleri satın alın** öğesini seçin.
 
-3. **Abonelikler** sayfasının sağ üst köşesindeki **Abonelik ekle** öğesini seçin.
+3. Satın almak istediğiniz aboneliği bulmak için arama yapın veya ekranı kaydırın. **Power BI**’ı sayfanın alt kısmında, **İlginizi çekebilecek diğer kategoriler**’in altında bulacaksınız. Kuruluşunuza bağlanan Power BI aboneliklerini görüntülemek için bağlantıyı seçin.
 
-4. İstediğiniz abonelik teklifini bulun:
+4. **Power BI Pro**’yu seçin.
 
-    - **Kurumsal Paket** bölümünde **Office 365 Kurumsal E5**’i seçin.
+5. **Hizmetleri satın alın** sayfasında **Satın Al**’ı seçin.
 
-    - **Diğer Planlar** bölümünde **Power BI Pro**’yu seçin.
+6. Nasıl ödeme yapmak istediğinize bağlı olarak **Aylık ödeme** veya **Tam yıllık ödeme** seçeneğini belirleyin.
 
-5. İstediğiniz abonelik için üç noktanın ( **. . .** ) üzerine imleci getirin ve **Şimdi satın al**’ı seçin.
+7. **Kaç tane kullanıcı istiyorsunuz?** bölümüne satın alacağınız lisans sayısını girin ve işlemi tamamlamak için **Siparişi tamamla**’yı seçin.
 
-6. Faturalama tercihinize göre **Aylık ödeme** veya **Tam yıllık ödeme** seçeneğini belirleyin.
+8. Satın alma işleminizi doğrulamak için **Faturalama** > **Ürünler ve hizmetler**’e gidin ve **Power BI Pro**’yu bulun.
 
-7. **Kaç tane kullanıcı istiyorsunuz?** bölümüne istediğiniz lisans sayısını girin ve işlemi tamamlamak için **Şimdi kullanıma al**’ı seçin.
+9. Daha fazla lisans eklemek için **Ürünler ve hizmetler** sayfasında **Power BI Pro**’yu bulun ve **Lisans ekle/kaldır**’ı seçin.
 
-8. Satın alınan aboneliğin şimdi **Abonelikler** sayfasında listelendiğini doğrulayın.
-
-9. İlk satın alma sonrasında daha fazla lisans eklemek için **Abonelikler** sayfasından **Power BI Pro**’yu ve sonra **Lisans miktarını değiştir**’i seçin.
-
-### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 yönetim merkezinde lisans atama
+## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 yönetim merkezinde lisans atama
 
 Microsoft 365 yönetim merkezinde lisansları atama hakkında bilgi için bkz. [Kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users).
 
 Konuk kullanıcılar için bkz. [Lisanslar sayfasında kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Konuk kullanıcılara Pro lisansları atamadan önce, Microsoft'la aranızdaki sözleşmenin koşullarına uyduğunuzdan emin olmak için Microsoft hesap temsilcinize ulaşın.
 
-### <a name="assign-licenses-in-the-azure-portal"></a>Azure portalında lisans atama
+## <a name="assign-licenses-in-the-azure-portal"></a>Azure portalında lisans atama
 
 Bireysel kullanıcı hesaplarına Power BI Pro lisansları atamak için şu adımları izleyin:
 
-1. [Azure portalını](https://portal.azure.com/) açın.
+1. [Azure portalında](https://portal.azure.com/) oturum açın.
 
 2. **Azure Active Directory**'yi bulun ve seçin.
 
-3. **Azure Active Directory** altında **Lisanslar**’ı seçin.
+3. **Azure Active Directory** kaynağı menüsündeki **Yönet**’in altında **Lisanslar**’ı seçin.
 
-4. **Lisanslar** altında **Tüm ürünler**’i, ardından **Power BI Pro**’yu seçerek lisanslı kullanıcıların listesini görüntüleyin.
+4. **Lisanslar - Genel Bakış** kaynak menüsünden **Tüm ürünler**’i ve ardından **Power BI Pro**’yu seçerek lisanslı kullanıcıların listesini görüntüleyin.
 
-5. Bir kullanıcı hesabına Power BI Pro lisansı eklemek için **Ata**’yı seçin.
+5. Komut çubuğunda **+ Ata**’yı seçin. **Lisans ata** sayfasında bir kullanıcı seçtikten sonra **Atama seçenekleri**’ni seçerek seçili kullanıcı hesabı için Power BI Pro lisansını etkinleştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
