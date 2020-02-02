@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874191"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540602"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -57,7 +57,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | OData Akışı |Evet |Evet |Hayır |
 | ODBC |Evet |Evet |Hayır |
 | OLE DB |Evet |Evet |Hayır |
-| Oracle Veritabanı |Evet |Evet |Evet |
+| Oracle Database |Evet |Evet |Evet |
 | PostgreSQL Veritabanı |Evet |Evet |Hayır |
 | Power BI hizmeti |Hayır |Hayır |Hayır |
 | R Betiği |Evet |Hayır |Hayır |
@@ -80,7 +80,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | Azure HDInsight Spark (Beta) |Evet |Hayır |Hayır |
 | Common Data Service (Beta) |Evet |Hayır |Hayır |
 | comScore Digital Analytix (Beta) |Evet |Hayır |Hayır |
-| Customer Insights için Dynamics 365 (Beta) |Evet |Hayır |Hayır |
+| Dynamics 365 for Customer Insights (Beta) |Evet |Hayır |Hayır |
 | Dynamics 365 for Financials (Beta) |Evet |Hayır |Hayır |
 | GitHub (Beta) |Evet |Hayır |Hayır |
 | Google BigQuery (Beta) |Evet |Hayır |Hayır |
@@ -88,7 +88,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | IBM Netezza (Beta) |Evet |Hayır |Hayır |
 | Kusto (Beta) |Evet |Hayır |Hayır |
 | MailChimp (Beta) |Evet |Hayır |Hayır |
-| Microsoft Azure Tüketim Öngörüleri (Beta) |Evet |Hayır |Hayır |
+| Microsoft Azure Consumption Insights (Beta) |Evet |Hayır |Hayır |
 | Mixpanel (Beta) |Evet |Hayır |Hayır |
 | Planview Enterprise (Beta) |Evet |Hayır |Hayır |
 | Projectplace (Beta) |Evet |Hayır |Hayır |
@@ -202,12 +202,12 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 | Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
 | Oracle Database |Hayır |Hayır |Evet |Evet |Evet |
 | SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
-| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Evet** |
 | Teradata |Hayır |Hayır |Evet |Evet |Evet |
 
+**SAP HANA Tümleşik Windows Kimlik Doğrulaması ile DirectQuery'yi yalnızca bunu yayımlanmış Power BI Desktop dosyasında (.pbix) ilişkisel veritabanı olarak kullandığında destekler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Veri kaynağınıza bağlandığınıza göre, artık bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturabilirsiniz](quickstart-create-powerbi-report.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

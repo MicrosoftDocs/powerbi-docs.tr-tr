@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548490"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537405"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI’da Microsoft bulut uygulaması güvenlik denetimlerini kullanma (önizleme)
 
@@ -144,3 +144,4 @@ Aşağıdaki Azure ve güvenlik makaleleri de ilginizi çekebilir:
 * [Öne çıkan uygulamalar için Koşullu Erişim Uygulama Denetimi dağıtma](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [Oturum ilkeleri](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [Duyarlılık etiketlerine genel bakış](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Veri koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)

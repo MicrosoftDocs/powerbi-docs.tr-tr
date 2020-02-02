@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218257"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709782"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Power BI **tüketicileri** için Soru-Cevap
+# <a name="qa-for-power-bi-consumers"></a>Power BI tüketicileri için Soru-Cevap
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ Ardından **Ayarlar** > **Panolar**'ı seçin. **Soru-Cevap arama kutusunu bu pa
 **Yanıt**: Rapor veya pano sahibiyle iletişim kurma seçeneğini belirleyin. Bunu doğrudan Soru-Cevap panosu sayfasından veya Soru-Cevap görselinden yapabilirsiniz. Ya da Power BI üst bilgisinden sahibi arayabilirsiniz.  Tasarımcının Soru-Cevap sonuçlarını geliştirmek için gerçekleştirebileceği birçok işlem vardır. Örneğin tasarımcı, veri kümesindeki sütunların adını değiştirerek daha kolay anlaşılır hale getirebilir (`CustFN` yerine `CustomerFirstName`). Tasarımcı veri kümesine hakim olduğundan yararlı sorular oluşturup bunları Soru-Cevap önerilen sorularına ekleyebilir.
 
 ![İletişim bilgilerini görüntüleme](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Gizlilik
+
+Microsoft sorularınızı Power BI'ı geliştirmek için kullanabilir. Daha fazla bilgi edinmek için [Microsoft Gizlilik Bildirimi](https://go.microsoft.com/fwlink/?LinkId=521839)'ni gözden geçirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Bir Soru-Cevap görselinin rapor *tasarımcısı* tarafından nasıl oluşturulup yönetildiğini öğrenmek için bkz. [Soru-Cevap görsel türü](../visuals/power-bi-visualization-q-and-a.md).

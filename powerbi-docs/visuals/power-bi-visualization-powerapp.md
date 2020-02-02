@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 01/14/2020
+ms.date: 01/16/2020
 ms.author: mblythe
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d9549364f9129ee4ddc6e90fb973cb73c241e4a9
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: bbca812644b82f8a0b848dc16e450f880ccb596c
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76042130"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539912"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Öğretici: Power BI raporuna yeni bir Power Apps görseli ekleme
 
 Bu öğreticide, örnek Power BI raporuna eklenecek yeni bir uygulama oluşturmak için Power Apps görselini kullanacaksınız. Bu uygulama, söz konusu rapordaki diğer görsellerle etkileşimde bulunur.
 
-Power Apps aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap oluşturun](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
+Power Apps aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap oluşturun](https://web.powerapps.com/signup?redirect=marketing&email=).
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 > [!div class="checklist"]
@@ -33,12 +33,12 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 * [Google Chrome](https://www.google.com/chrome/browser/) veya [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) tarayıcı
 * [Fırsat Analizi Örneği](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)’nin yüklü olduğu bir [Power BI aboneliği](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps’te uygulama oluşturma](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch.md) ve [Power BI raporlarını düzenleme](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour) hakkında bilgi sahibi olma
+* [Power Apps’te uygulama oluşturma](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) ve [Power BI raporlarını düzenleme](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour) hakkında bilgi sahibi olma
 
 
 
 ## <a name="create-a-new-app"></a>Yeni uygulama oluşturma
-Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında dinamik bir veri bağlantısıyla PowerApps Studio başlatılır.
+Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında dinamik bir veri bağlantısıyla Power Apps Studio başlatılır.
 
 1. Fırsat Analizi örnek raporunu açın ve *Upcoming Opportunities* (Yaklaşan Fırsatlar) sayfasını seçin. 
 
@@ -49,7 +49,7 @@ Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında 
 
 2. Görselleştirmeler bölmesinden Power Apps simgesini seçin ve görseli açtığınız alana sığacak şekilde yeniden boyutlandırın.
 
-    ![PowerApps simgesinin seçili olduğu Görselleştirmeler bölmesi](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
+    ![Power Apps simgesinin seçili olduğu Görselleştirmeler bölmesi](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
 3. **Alanlar** bölmesinde **Ad**, **Ürün Kodu** ve **Satış Aşaması**’nı seçin. 
 

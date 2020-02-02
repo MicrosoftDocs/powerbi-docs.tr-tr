@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264080"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539061"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -67,8 +67,8 @@ Aşağıda özellik farklarının kısmi bir listesini bulabilirsiniz.
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | A SKU'ları-Azure kapasitesi | EM SKU'ları-O365 kapasitesi | P SKU'ları-O365 kapasitesi |
 | Power BI çalışma alanından yapıtları ekleme | Evet | Evet | Evet |
-| Katıştırılmış uygulamada Power BI raporlarını kullanma - SaaS | Hayır | Evet | Evet |
-| Katıştırılmış uygulamada Power BI raporlarını kullanma - PaaS | Evet | Evet | Evet |
+| Kuruluşunuz için ekli uygulamada Power BI raporlarını kullanma  | Hayır | Evet | Evet |
+| Müşterileriniz için ekli uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
 | Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
 | Power BI raporlarını Teams'de kullanma (mobil uygulama hariç) | Hayır | Evet | Evet |
@@ -79,7 +79,7 @@ Aşağıda özellik farklarının kısmi bir listesini bulabilirsiniz.
 
 |  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Satın alma  |Azure portalı |Office |Office |
+|Satın al  |Azure portalı |Office |Office |
 |Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br><br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br><br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
 |Faturalama |Saatlik |Aylık |Aylık |
 |Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
@@ -202,7 +202,7 @@ Power BI Embedded kapasitenize çalışma alanları atamak/çalışma alanının
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>Hangi içerik paketi verilerini ekleyebilirsiniz?
 
-İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları** *ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları** *ekleyebilirsiniz*.
+İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları***ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları***ekleyebilirsiniz*.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Satır düzeyi güvenlik (RLS) ile JavaScript filtrelerini kullanmanın ne farkı vardır?
 
