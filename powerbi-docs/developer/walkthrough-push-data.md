@@ -1,19 +1,19 @@
 ---
 title: Bir veri kümesine veri gönderme
 description: Power BI veri kümelerine veri gönderme
-author: rkarlin
-ms.author: rkarlin
-ms.reviewer: madia
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ceebf32f62395db8741eaf43cfc494652fbbbf98
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875440"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818813"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 
@@ -23,11 +23,11 @@ Başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın]
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Bir veri kümesine veri göndermeye ilişkin adımlar
 
-* 1\. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
-* 2\. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
-* 3\. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
-* 4\. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
-* 5 Adım: [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)
+* 1. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
+* 2. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
+* 3. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
+* 4. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
+* 5. Adım: [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)
 
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 

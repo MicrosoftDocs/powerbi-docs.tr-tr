@@ -6,37 +6,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ef3191d77e2aeb89ff97468bd4bfdc07b0d7afb8
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761353"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709553"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop’ta veri kategorilerini belirtme
-**Power BI Desktop**'ta bir sütun için Veri Kategorisi seçerek Power BI Desktop'ın bu değerleri görselleştirme içinde nasıl işleyeceğini belirleyebilirsiniz.
+Power BI Desktop'ta bir sütun için *veri kategorisi* seçerek Power BI Desktop'ın bu değerleri görselleştirme içinde nasıl işleyeceğini belirleyebilirsiniz.
 
-Power BI Desktop verileri içeri aktardığında verilerin kendisinin yanı sıra tablo ve sütun adları, birincil anahtar olup olmadığı gibi bilgileri de alır.  Power BI Desktop bu bilgileri kullanarak görselleştirme oluştururken iyi bir varsayılan deneyim sağlamak amacıyla bazı varsayımlarda bulunur. 
-
-İşte bir örnek: Power BI Desktop bir sütunda sayısal değer olduğunu algıladığında bu değerleri bir şekilde toplamak isteyebileceğinizi varsayarak Değerler alanına yerleştirir. Ya da tarih saat değerlerine sahip olan bir sütunu çizgi grafikte zaman hiyerarşisi ekseni olarak kullanacağınızı düşünür.
+Power BI Desktop verileri içeri aktarırken, verilerin kendileri dışında başka bilgiler de alır (örneğin tablo ve sütun adları ve verilerin birincil anahtar olup olmadığı). Power BI Desktop bu bilgileri kullanarak görselleştirme oluştururken iyi bir varsayılan deneyim sağlamak amacıyla bazı varsayımlarda bulunur.
+Örneğin bir sütunda sayısal değer bulunduğunda büyük olasılıkla bunu herhangi bir yolla toplamak istersiniz ; bu nedenle Power BI Desktop bu değeri **Görselleştirmeler** bölmesinin **Değerler** alanına yerleştirir. Öte yandan çizgi grafikte tarih-saat değerleri içeren bir sütun için, Power BI Desktop bunu büyük olasılıkla bir zaman hiyerarşisi ekseni olarak kullanacağınızı varsayar.
 
 Ancak coğrafya gibi daha zorlayıcı alanlar da vardır. Aşağıdaki tablonun bulunduğu bir Excel çalışma sayfasını düşünün:
 
 ![](media/desktop-data-categorization/datacategorizationtable.png)
 
-Power BI Desktop, GeoCode sütunundaki kodları Ülkelerin mi yoksa ABD Eyaletlerinin mi kısaltması olarak kabul etmelidir?  Böyle bir kod her ikisi de olabileceğinden kesin ayrım yapmak mümkün değildir.  Örneğin AL, Alabama veya Arnavutluk; AR, Arkansas veya Arjantin; CA ise Kaliforniya veya Kanada anlamına gelebilir. Bu fark özellikle GeoCode alanını bir haritaya yerleştirdiğimizde ortaya çıkar.  Power BI Desktop, ülkelerin vurgulanmış olduğu bir dünya haritası mı yoksa eyaletlerin vurgulanmış olduğu ABD haritası mı göstermelidir?  Bunun gibi veriler için Veri Kategorisi belirtebilirsiniz. Verileri kategorilere ayırma, Power BI Desktop'ın en iyi görselleştirmeleri sunmak için kullanabileceği verileri detaylandırır.  
+Power BI Desktop, **GeoCode** sütunundaki kodları Ülkelerin mi yoksa ABD Eyaletlerinin mi kısaltması olarak kabul etmelidir?  Böyle bir kod her ikisi de olabileceğinden kesin ayrım yapmak mümkün değildir. Örneğin AL, Alabama veya Arnavutluk; AR, Arkansas veya Arjantin; CA ise Kaliforniya veya Kanada anlamına gelebilir. Bu fark özellikle GeoCode alanını bir haritaya yerleştirdiğimizde ortaya çıkar. 
 
-**Bir Veri Kategorisi belirtmek için**
+Power BI Desktop ülkelerin vurgulandığı bir dünya resmi mi göstermelidir? Yoksa eyaletlerin vurgulandığı bir Birleşik Devletler resmi mi göstermelidir?  Bunun gibi veriler için veri kategorisi belirtebilirsiniz. Verileri kategorilere ayırma, Power BI Desktop'ın en iyi görselleştirmeleri sunmak için kullanabileceği verileri detaylandırır.  
 
-1. Rapor Görünümü veya Veri Görünümünde, **Alanlar** listesinde farklı bir kategoride sıralanmasını istediğiniz alanı seçin.
-2. Şeritteki **Modelleme** sekmesinde **Veri Kategorisi:** açılan listesine tıklayın.  Burada sütununuz için seçebileceğiniz veri kategorileri gösterilir.  Sütununuzun geçerli veri türüyle kullanılamayacak olan bazı seçenekler devre dışı bırakılmış olabilir.  Örneğin, sütun ikili değer türündeyse Power BI Desktop coğrafi veri kategorilerini seçmenize izin vermez. 
+**Veri kategorisi belirtmek için**
 
-![](media/desktop-data-categorization/datacategorization.gif)
+1. **Rapor** Görünümündeki veya **Veri** Görünümündeki **Alanlar** listesinde farklı bir kategoride sıralanmasını istediğiniz alanı seçin.
+2. Şeritteki **Modelleme** sekmesinin **Özellikler** alanında, **Veri Kategorisi**'nin yanındaki aşağı açılan oku seçin.  Bu liste sütununuz için seçebileceğiniz veri kategorilerini gösterir. Sütununuzun geçerli veri türüyle kullanılamayacak olan bazı seçenekler devre dışı bırakılmış olabilir.  Örneğin, sütun ikili değer türündeyse Power BI Desktop coğrafi veri kategorilerini seçmenize izin vermez. 
+3. İstediğiniz kategoriyi seçin.
 
-İşte bu kadar!  Normalde bir görsel oluşturan davranışlar artık otomatik olarak çalışır.  
+   ![](media/desktop-data-categorization/desktop-data-categorization.png)
 
 Ayrıca, [Power BI mobil uygulamaları için coğrafi filtreleme](desktop-mobile-geofiltering.md) hakkında da bilgi edinmek isteyebilirsiniz.
 

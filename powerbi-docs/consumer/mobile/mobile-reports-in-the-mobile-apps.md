@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220762"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538162"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -53,6 +53,13 @@ Panodan rapor almak için kutucuğun sağ üst köşesindeki **Diğer seçenekle
 ## <a name="interact-with-reports"></a>Raporlarla etkileşimli çalışma
 Uygulamada bir rapor açtıktan sonra raporla çalışmaya başlayabilirsiniz. Raporunuzla ve içindeki verilerle yapabileceğiniz birçok şey vardır. Rapor alt bilgisinde, rapor üzerinde gerçekleştirebileceğiniz eylemleri bulabilirsiniz. Raporda gösterilen verilere dokunarak ve uzun dokunarak, verileri dilimleyip analiz de edebilirsiniz.
 
+### <a name="single-tap-versus-double-tap-interaction"></a>Tek dokunma ve iki kez dokunma etkileşimi karşılaştırması
+Power BI mobil uygulamasını indirdiğinizde, tek dokunma etkileşimine ayarlanmış durumda olur. Diğer bir deyişle dilimleyici öğesini seçme, çapraz vurgulama, bir bağlantıya veya düğmeye tıklama gibi herhangi bir eylem gerçekleştirmek için görsele dokunduğunuzda, bu dokunma hem görseli seçer hem de istediğiniz eylemi gerçekleştirir.
+
+İsterseniz iki kez dokunmalı etkileşime geçebilirsiniz. İki kez dokunmalı etkileşimle, önce görsele dokunarak onu seçer ve sonra yeniden dokunarak istenen eylemi gerçekleştirirsiniz.
+
+İki kez dokunmalı etkileşime geçmek veya tek dokunmalı etkileşime dönmek için [uygulama etkileşim ayarlarına](./mobile-app-interaction-settings.md) gidin.
+
 ### <a name="using-tap-and-long-tap"></a>Dokunmayı ve uzun dokunmayı kullanma
 Dokunma hareketi fare tıklamasıyla aynı işlevi görür. Dolayısıyla bir veri noktası temelinde raporu çapraz vurgulamak istiyorsanız söz konusu veri noktasına dokunun.
 Dilimleyici değerine dokunduğunuzda değer seçilir ve raporun kalan bölümü bu değere göre dilimlenir.
@@ -63,7 +70,6 @@ Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Ken
 ![Görsel ve menü](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>Araç ipucu ve detaylandırma eylemleri
-
 Veri noktasına uzun dokunduğunuzda (dokunup beklediğinizde) bu veri noktasının temsil ettiği değerleri gösteren bir araç ipucu görüntülenir:
 
 ![Araç İpucu](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ Rapor yazarı raporu coğrafi verilere göre kategorilere ayrılmışsa **Geçer
 
 Power BI mobil uygulaması hem rapor oluşturucusunun tanımladığı rapor yer işaretlerini hem de Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretlerini destekler. Yer işaretleri menüsünü [rapor eylemleri araç çubuğunda](mobile-reports-in-the-mobile-apps.md#all-report-actions) **Diğer seçenekler**'in (...) altında bulabilirsiniz.
 
+Varsayılan yer işaretleri özel bir simgeyle gösterilir. Ayarlayabileceğiniz kişisel yer işaretleri için, değiştirmek istediğiniz yer işaretinin yanındaki **Diğer seçenekler (...)** öğesine dokunarak ve ardından **Varsayılan yap**'ı veya **Varsayılanı temizle**'yi seçerek varsayılan ayarı kaldırın veya değiştirin.
+
 ![yer işareti menüsü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı raporun en üstünde gösterilir.
@@ -133,6 +141,15 @@ Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı rapor
 ![yer işareti görünümü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+
+## <a name="configure-your-experience-with-reports"></a>Raporlarla deneyiminizi yapılandırma
+Power BI mobil uygulamasında, rapor deneyiminizi denetlemenize olanak tanıyan bir dizi ayar vardır. Şu anda yapılandırabilecekleriniz
+* **Rapor görselleriyle etkileşim**: Tek dokunmalı veya iki kez dokunmalı etkileşimi seçebilirsiniz.
+* **Veri yenileme yöntemi**: Rapor verilerini yenilemek için bir yenileme düğmenizin olmasını veya aşağı çekme eylemini kullanmayı seçebilirsiniz.
+* **Rapor alt bilgisi görünürlüğü**: Her zaman görünür durumda olan yerleşik bir alt bilgi bulunmasını veya eylemlerinize (örneğin kaydırma) bağlı olarak gizlenen ve yeniden görüntülenen dinamik bir alt bilgiyi seçebilirsiniz.
+
+Bu ayarları değiştirme hakkında bilgi edinmek için [uygulama etkileşim ayarları](./mobile-app-interaction-settings.md) konusuna bakın.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)

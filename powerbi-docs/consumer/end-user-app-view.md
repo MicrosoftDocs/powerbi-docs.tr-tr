@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851306"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537633"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -53,7 +53,8 @@ Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yaln
     ![AppSource'ta Kuruluşum altında](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. Uygulamalar içerik listenize eklemek için **Şimdi edinin**'i seçin. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Microsoft AppSource web sitesinden bir uygulama edinme (https://appsource.microsoft.com)
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Microsoft AppSource web sitesinden bir uygulama edinme 
+
 Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSource’ta, işlerinizi yürütmek için kullandığınız çoğu hizmete yönelik uygulamalar bulabilirsiniz.  Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, ve daha fazlası gibi hizmetler. Daha fazla bilgi edinmek için [Power BI ile kullandığınız hizmetlere yönelik uygulamalar](../service-connect-to-services.md) bölümünü ziyaret edin. 
 
 1. https://appsource.microsoft.com öğesini bir tarayıcıda açıp **Power BI uygulamaları**’nı seçin.
@@ -92,12 +93,36 @@ Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSour
     ![Örnek verilerle keşfedin](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Uygulamadaki panolarla ve raporlarla etkileşim kurma
 Zaman ayırıp uygulamayı oluşturan pano ve raporlardaki verileri keşfedin. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişiminiz bulunur.  Panolar ve raporlar arasındaki fark hala kafanızı mı karıştırıyor?  [Panolar hakkındaki makaleyi](end-user-dashboards.md) ve [raporlar hakkındaki makaleyi](end-user-reports.md) okuyun.  
 
+## <a name="update-an-app"></a>Uygulama güncelleştirme 
 
+Zaman zaman uygulama oluşturucuları uygulamalarının yeni sürümlerini kullanıma sunabilir. Yeni sürümü nasıl alacağınız özgün sürümü nasıl aldığınıza bağlıdır. 
+
+* Uygulamayı kuruluşunuzdan aldıysanız, yeni sürüme güncelleştirme tamamen saydam olarak gerçekleştirilir; sizin hiçbir şey yapmanız gerekmez. 
+
+* Uygulamayı AppSource'tan aldıysanız, uygulamayı bir sonraki açışınızda bir bildirim başlığı görürsünüz. Bildirimde size yeni sürümün kullanıma sunulduğu haberi iletilir. 
+
+    1. Güncelleştirmek için **Alın** düğmesini seçin.  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. Güncelleştirilmiş uygulamayı yüklemeniz istendiğinde **Yükle**'yi seçin. 
+
+        ![Güncelleştirmeyi yükleme](./media/end-user-app-view/power-bi-install.png) 
+
+    3. Zaten bu uygulamanın bir sürümü sizde yüklü olduğunuzdan, mevcut sürümün değiştirilmesini mi yoksa güncelleştirilmiş uygulamanın yeni bir çalışma alanına yüklenmesini mi istediğinize karar verir.   
+
+        ![Eski uygulama sürümünün üzerine yazma](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > Yeni bir sürüm yüklendiğinde, rapor ve panolarda yapmış olabileceğiniz değişikliklerin üzerine yazılır. Güncelleştirilmiş rapor ve panolarınızı tutmak için, yüklemeden önce bunları farklı bir adla veya farklı bir konuma kaydedebilirsiniz. 
+
+    4. Güncelleştirilmiş sürümü yükledikten sonra, güncelleştirme işlemini tamamlamak için **Uygulamayı güncelleştir**'i seçin. 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

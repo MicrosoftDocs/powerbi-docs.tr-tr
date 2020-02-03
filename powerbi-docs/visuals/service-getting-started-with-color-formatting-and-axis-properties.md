@@ -1,27 +1,27 @@
 ---
-title: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
-description: Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
+title: Rapor görselleştirmelerini biçimlendirme özelliğiyle çalışmaya başlama
+description: Rapor görselleştirmeleriyle biçimlendirme seçeneklerini kullanmaya başlama
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762267"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540648"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama
-**Power BI**'da veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca, panolarınızın ve raporlarınızın görünümünü denetlemenize olanak sağlayan x ve y eksenlerinin görünümünü de değiştirebilirsiniz.
+# <a name="getting-started-with-the-formatting-pane"></a>Biçimlendirme panosuyla çalışmaya başlama
+Rapor üzerinde düzenleme izinleriniz varsa, sayısız biçimlendirme seçeneğinden yararlanabilirsiniz. **Power BI** raporlarında veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca x ekseninin ve y ekseninin gösterimini değiştirebilirsiniz. Hatta görselleştirmelerin, şekillerin ve başlıkların yazı tipi özelliklerini bile biçimlendirebilir, bu sayede raporlarınızın görünümü üzerinde tam denetim sahibi olursunuz.
 
-Başlamak için **Çalışma Alanım** bölmesinden bir **Rapor** seçin. Ardından, üstteki menü alanından **Raporu düzenle** seçeneğini belirleyin.  
+Başlamak için, Power BI Desktop veya Power BI hizmetinde bir rapor açın. Her ikisinde de aynı biçimlendirme seçenekleri sağlanır. Power BI hizmetinde rapor açarken, menü çubuğundan **Raporu Düzenle**'yi seçtiğinizden emin olun.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![Düzenle seçeneğini gösteren menü çubuğu](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 Raporları düzenlerken bir görselleştirme seçtiğinizde, görselleştirme eklemenize veya değiştirmenize olanak sağlayan **Görsel Öğeler** bölmesi görünür. Kullanılabilir görselleştirmelerin hemen altında üç simge bulunur: **Alanlar** simgesi (üst üste iki çubuk), **Biçim** simgesi (rulo fırça) ve **Analiz** simgesi (büyüteç). Aşağıdaki görüntüde **Alanlar** simgesi seçilidir ve bu seçim, simgenin altında sarı bir çizgi ile gösterilir.
 

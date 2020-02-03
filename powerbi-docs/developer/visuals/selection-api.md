@@ -1,20 +1,20 @@
 ---
 title: Power BI görseli veri noktası seçimleri
 description: Makalede Power BI görsellerine seçim ekleme işlemi açıklanır
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696454"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818905"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
 
@@ -155,7 +155,7 @@ Görselde de aşağıdaki veri görünümü eşlemesi kullanılır:
 }
 ```
 
-Örnekte, `Manufacturer` `columns` ve `Type` `rows` olur. `rows` temelinde değerler gruplandırılarak oluşturulan bir seri vardır (`Type`).
+Örnekte, `Manufacturer``columns` ve `Type``rows` olur. `rows` temelinde değerler gruplandırılarak oluşturulan bir seri vardır (`Type`).
 
 Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gerekir.
 
@@ -338,7 +338,7 @@ public update(options: VisualUpdateOptions) {
 
 Örnekte her düğüm ve alt düğüm için `nodeWalker` yinelemeli olarak çağrı yapar.
 
-Her çağrıda `nodeWalker` `nodeSelection` nesnesi oluşturur. Ayrıca her `nodeSelection`, ilgili düğümlerin `selection` öğesini temsil eder.
+Her çağrıda `nodeWalker``nodeSelection` nesnesi oluşturur. Ayrıca her `nodeSelection`, ilgili düğümlerin `selection` öğesini temsil eder.
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>Diğer görselleri dilimlemek için veri noktalarını seçme
 
