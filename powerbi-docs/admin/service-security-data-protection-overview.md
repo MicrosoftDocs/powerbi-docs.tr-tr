@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766401"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537221"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI’da veri koruma (önizleme)
 
@@ -99,13 +99,13 @@ Aşağıdaki listede, Power BI’daki duyarlılık etiketlerinin bazı sınırla
 * Duyarlılık etiketleri yalnızca panolara, raporlara, veri kümelerine ve veri akışlarına uygulanabilir.
 * Dışarı aktarılan dosyalar üzerinde etiket ve koruma denetimlerinin uygulanması yalnızca Excel, PowerPoint ve PDF dosyaları için desteklenir. Veriler .CSV dosyalarına, Abonelik e-postasına, Ekleme görsellerine ve çıktısına aktarıldığında etiket ve koruma uygulanmaz.
 * Power BI’dan dosya aktaran kullanıcının, duyarlık etiketi ayarlarına uygun olarak bu dosyaya erişme ve dosyayı düzenleme izinleri vardır. Verileri dışarı aktaran kullanıcı, dosya üzerinde sahip izinleri almaz. 
-* Duyarlılık etiketleri şu anda [sayfalandırılmış raporlar]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) ve çalışma kitapları için kullanılamaz. 
-* Bir etiket uygulandıktan sonra Power BI bir varlığından silemezsiniz.
+* Duyarlılık etiketleri şu anda [sayfalandırılmış raporlar]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) ve çalışma kitapları için kullanılamaz.
 * Power BI varlıkları üzerindeki duyarlılık etiketleri yalnızca çalışma alanı listesinde ve veri kökeni görünümlerinde görünür; etiketler şu anda sık kullanılanlar, benimle paylaşılan, son kullanılanlar veya uygulama görünümlerinde görünmemektedir. Ancak, görünür olmasa bile, Power BI varlığına uygulanmış bir etiketin Excel, PowerPoint ve PDF dosyalarına aktarılmış veriler üzerinde her zaman kalıcı olacağını unutmayın.
 * [Microsoft 365 güvenlik merkezi](https://security.microsoft.com/) veya [Microsoft 365 uyumluluk merkezi](https://compliance.microsoft.com/) içinde yapılandırılmış *dosya Şifreleme ayarı* duyarlılık etiketi yalnızca Power BI’dan *dışarı aktarılmış* dosyalara uygulanır; Power BI *içinde* uygulanmaz.
 * [HYOK koruması](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions), Power BI’da uygulanan etiketler için desteklenmez.
 * Office uygulamalarında etiketleri görüntülemek ve uygulamak için [lisanslama gereksinimleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels) mevcuttur.
 * Duyarlılık etiketleri yalnızca genel (ortak) buluttaki kiracılar için desteklenir. Duyarlılık etiketleri diğer bulutlardaki kiracılar için desteklenmez.
+* Duyarlılık etiketleri [dış kullanıcılar (Azure Active Directory B2B konuk kullanıcıları)](../service-admin-azure-ad-b2b.md) için desteklenmez. Diğer bir deyişle dış kullanıcılar etiketleri görüntüleyemediği gibi, verileri Excel, PDF ve PPTX dosyalarına dışarı aktarmaları da engellenir. Dış kullanıcıların söz konusu dosya türlerine veri dışarı aktarmasına olanak tanımak için [etiketi kaldırın](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels).
 
 
 
@@ -116,3 +116,4 @@ Bu makalede, Power BI'da veri korumasına genel bakış sunulmuştur. Aşağıda
 * [Power BI'da veri duyarlılığı etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md)
 * [Power BI'da veri duyarlılığı etiketleri uygulama](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Veri koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)

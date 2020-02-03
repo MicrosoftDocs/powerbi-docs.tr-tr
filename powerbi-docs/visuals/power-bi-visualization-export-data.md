@@ -8,35 +8,45 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2019
+ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c2f448ff705f00bc443a6a27fa80e1b5164a901
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75757819"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539795"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
+> [!IMPORTANT]
+> Tüm veriler kullanıcılar tarafından görüntülenemez veya dışarı aktarılamaz. Rapor tasarımcılarının ve yöneticilerin pano ve rapor oluştururken kullandığı bazı korumalar vardır. Bazı veriler kısıtlı, gizli veya özeldir ve özel izinler olmadan görülemez veya dışarı aktarılamaz. 
+
+## <a name="who-can-export-data"></a>Verileri kimler dışarı aktarabilir?
+
+Veriler üzerinde izinleriniz varsa, Power BI'ın görselleştirmeyi oluşturmak için kullandığı verileri görebilir ve dışarı aktarabilirsiniz. Sıklıkla veriler gizlidir veya belirli kullanıcılarla sınırlıdır. Böyle durumlarda söz konusu verileri göremez veya dışarı aktaramazsınız. Ayrıntılar için bu belgenin sonundaki **Sınırlamalar ve önemli noktalar** bölümüne bakın. 
+
+
+## <a name="viewing-and-exporting-data"></a>Verileri görüntüleme ve dışarı aktarma
+
 Bir görselleştirmenin oluşturulması için Power BI’ın kullandığı verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilirsiniz](service-reports-show-data.md). Bu verileri bir *.xlsx* veya *.csv* dosyası olarak Excel'e de aktarabilirsiniz. Verileri dışarı aktarma seçeneği Pro veya Premium lisansına ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
-Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, *.xlsx* dosyası olarak kaydedip dosyayı Excel'de açarken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
+Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, *.xlsx* dosyası olarak kaydedip dosyayı Excel'de açarken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Bu videoda Power BI’ın eski bir sürümünün kullanıldığını unutmayın.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Power BI panosundan verileri dışarı aktarma
 
-1. Görselleştirmenin sağ üst köşesindeki üç noktayı seçin.
+1. Görselleştirmenin sağ üst köşesinde Diğer eylemler (...) öğesini seçin.
 
     ![Üç nokta düğmesine işaret eden bir okun bulunduğu görselleştirmenin ekran görüntüsü.](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-1. **Verileri dışarı aktar** simgesini seçin.
+1. **CSV'ye aktar** seçeneğini belirtin.
 
-    ![Verileri dışarı aktar seçeneği öne çıkarılmış olarak üç nokta açılan menüsünün ekran görüntüsü.](media/power-bi-visualization-export-data/pbi_export_dash.png)
+    ![Verileri dışarı aktar seçeneği öne çıkarılmış olarak üç nokta açılan menüsünün ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data.png)
 
-1. Power BI, verileri bir *.csv* dosyasına aktarır. Görselleştirmeyi filtrelediyseniz, uygulama da indirilen verileri filtreler.
+1. Power BI, verileri bir *.csv* dosyasına aktarır. Görselleştirmeyi filtrelediyseniz, .csv dışarı aktarması da filtrelenir. 
 
 1. Tarayıcınız sizi dosyayı kaydetmeye yönlendirir.  Kaydedilen *.csv* dosyasını Excel'de açın.
 
@@ -44,13 +54,17 @@ Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, *
 
 ## <a name="export-data-from-a-report"></a>Rapordaki verileri dışarı aktarma
 
-Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-procurement.md) Düzenleme görünümünde açın. Yeni bir boş rapor sayfası ekleyin. Ardından, aşağıdaki adımları uygulayarak bir toplama ve görsel düzeyi filtresi ekleyin.
+Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-procurement.md) Power BI hizmetinde Düzenleme görünümünde açın. Yeni bir boş rapor sayfası ekleyin. Ardından, aşağıdaki adımları uygulayarak bir toplama, hiyerarşi ve görsel düzeyi filtresi ekleyin.
+
+### <a name="create-a-stacked-column-chart"></a>Yığılmış sütun grafik oluşturma
 
 1. Yeni bir **Yığılmış sütun grafiği** oluşturun.
 
-1. **Alanlar** bölmesinde **Location > City** ve **Invoice > Discount Percent** seçeneklerini belirleyin.  **Discount Percent** değerini **Değer** kutusuna taşımanız gerekebilir.
+    ![Kümelenmiş sütun grafik şablonunun ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-    ![City ve Count of Discount Percent değerleri öne çıkarılarak oluşturulan görselleştirmenin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data3.png)
+1. **Alanlar** bölmesinde **Konum > City**, **Konum > Country/Region** ve **Fatura > Discount Percent**'i seçin.  **Discount Percent** değerini **Değer** kutusuna taşımanız gerekebilir.
+
+    ![City ve Count of Discount Percent değerleri öne çıkarılarak oluşturulan görselleştirmenin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-build.png)
 
 1. **Discount Percent** için **Sayı** olan toplama işlemini **Ortalama** olarak değiştirin. **Değer** kutusundaki **Discount Percent**'in (**Count of Discount Percent** olarak da görünüyor olabilir) sağında bulunan oku seçin ve ardından **Ortalama**'yı seçin.
 
@@ -58,67 +72,127 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-pro
 
 1. **City** için filtre ekleyin, tüm şehirleri seçin ve **Atlanta**'yı kaldırın.
 
-    ![GA onay kutusunun öne çıkarıldığı, Atlanta'nın temizlendiği City filtresinin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data4.png)
+    ![GA onay kutusunun öne çıkarıldığı, Atlanta'nın temizlendiği City filtresinin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-filter.png)
 
-   Artık dışarı aktarma işlemine yönelik iki seçeneği de denemeye hazırız.
+   
+1. Hiyerarşide bir düzey detaya gidin. **City** düzeyinde detaylandırmayı ve detaya gitmeyi açın. 
+
+    ![Görselde City düzeyinde detaya gitme işleminin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-drill.png)
+
+Artık dışarı aktarma işlemine yönelik iki seçeneği de denemeye hazırız.
+
+### <a name="export-summarized-data"></a>***Özetlenmiş*** verileri genişletme
+Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız **Özetlenmiş veriler** seçeneğini belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görseli oluşturmak için kullanılmakta olan verileri (sütunlar ve ölçüler) gösterir.  Görselin toplaması varsa, toplanan verileri dışarı aktarırsınız. Örneğin, dört çubuk gösteren bir çubuk grafiğiniz varsa dört Excel veri satırı elde edersiniz. Özetlenmiş verileri Power BI hizmetinde *.xlsx* ve *.csv* olarak ve Power BI Desktop'ta .csv olarak sağlanır.
 
 1. Görselleştirmenin sağ üst köşesindeki üç noktayı seçin. **Verileri dışarı aktar**'ı seçin.
 
     ![Sağ üst köşedeki üç nokta düğmesinin ve öne çıkarılan Verileri dışarı aktar seçeneğinin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    Power BI Online'da, görselleştirmeniz bir toplama işlemi içeriyorsa (*ortalama*, *toplam* veya *minimum* olarak değiştirdiğiniz **Sayı** gibi), iki seçeneğiniz vardır:
+    Power BI hizmetinde görselleştirmenizin bir toplaması olduğundan (**Sayı**'yı *ortalama* olarak değiştirdiniz), iki seçeneğiniz vardır:
 
     - **Özetlenmiş veriler**
 
     - **Temel alınan veriler**
 
-    Power BI Desktop'ta yalnızca **Özetlenmiş veriler** seçeneği bulunur. Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
+    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
 
+
+    > [!NOTE]
+    > Power BI Desktop'ta özetlenmiş verileri yalnızca .csv dosyası olarak dışarı aktarma seçeneğiniz vardır. 
+    
+    
 1. **Verileri dışarı aktar** altında **Özetlenmiş veriler**'i, ardından *.xlsx* veya *.csv*'yi ve sonra da **Dışarı Aktar**'ı seçin. Power BI, verileri dışarı aktarır.
 
     ![Özetlenmiş veriler, xlsx ve öne çıkarılan Dışarı Aktarma seçenekleriyle Verileri dışarı aktar'ın ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-    Görselleştirmelere filtre uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
-    
-    Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin görselleştirmede henüz en üst düzeyden detaya gidilmediyse, dışarı aktarılan veriler yalnızca geçerli detaylandırma düzeyinde görseli oluşturmak için kullanılan verileri değil hiyerarşideki tüm verileri içerir.
+1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
 
-    **Özetlenmiş veriler**: Bu görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız bu seçeneği belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görseli oluşturmak için seçtiğiniz verileri (sütunlar ve ölçüler) gösterir.  Görselin toplaması varsa, toplanan verileri dışarı aktarırsınız. Örneğin, dört çubuk gösteren bir çubuk grafiğiniz varsa dört veri satırı elde edersiniz. Özetlenmiş veriler *.xlsx* ve *.csv* olarak sağlanır.
+    ![Excel çıkışının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
     Bu örnekte, dışarı aktarma işlemiyle oluşturulmuş Excel dosyasında her şehir için bir satır bulunur. Filtrelediğimiz Atlanta, sonuçlarda yer almaz. Elektronik tablomuzun ilk satırında, veriler ayıklanırken Power BI’nin kullandığı filtreler gösterilir.
+    
+    - Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin City düzeyine detaya gittik ama dışarı aktarma işlemimiz Country verilerini de içerir.  
 
-    ![Dışarı aktarılan verilerin görüntülendiği .csv dosyasının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data7.png)
+    - Dışarı aktarılan verilerimiz toplanmıştır. Her City için bir toplam satırı alırız.
 
-1. Şimdi **Temel alınan veriler**'i, *.xlsx*'i ve ardından **Dışarı Aktar**'ı seçmeyi deneyin. Power BI, verileri dışarı aktarır. 
+    - Görselleştirmelere filtre uyguladığımızdan, dışarı aktarılan veriler de filtrelenmiş olur. İlk satırda **Uygulanan filtreler: City is not Atlanta, GA** ifadesini görüntülendiğine dikkat edin. 
+
+### <a name="export-underlying-data"></a>***Temel*** verileri dışarı aktar
+
+Görseldeki verileri ***ve*** veri kümesinden ek verileri görmek istiyorsanız bu seçeneği belirtin (ayrıntılar için aşağıdaki grafiğe bakın). Görselleştirmenizin toplaması varsa, **Temel alınan veriler**'in seçilmesi toplamayı kaldırır. Bu örnekte bulunan ve dışarı aktarmayla oluşturduğumuz Excel dosyasında, veri kümemizdeki her City satırı için bir satır ve söz konusu tek girdiye ilişkin indirim yüzdesi gösterilir. Power BI verileri düzleştirir, bunları toplamaz.  
+
+**Dışarı Aktar**'ı seçtiğinizde Power BI verileri bir *.xlsx* dosyası olarak dışarı aktarır ve tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+
+1. Görselleştirmenin sağ üst köşesindeki üç noktayı seçin. **Verileri dışarı aktar**'ı seçin.
+
+    ![Sağ üst köşedeki üç nokta düğmesinin ve öne çıkarılan Verileri dışarı aktar seçeneğinin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
+
+    Power BI hizmetinde görselleştirmenizin bir toplaması olduğundan (**Sayı**'yı **ortalama** olarak değiştirdiniz), iki seçeneğiniz vardır:
+
+    - **Özetlenmiş veriler**
+
+    - **Temel alınan veriler**
+
+    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
+
 
     > [!NOTE]
-    > Temel alınan verileri dışarı aktarma seçeneğinizin olup olmadığı, rapor ayarlarına bağlıdır.
-
-    Görselleştirmelere filtre uyguladıysanız, dışarı aktarılan veriler de filtrelenmiş olur. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+    > Power BI Desktop'ta yalnızca özetlenmiş verileri dışarı aktarma seçeneğiniz vardır. 
     
-    Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin görselleştirmede henüz en üst düzeyden detaya gidilmediyse, dışarı aktarılan veriler yalnızca geçerli detaylandırma düzeyinde görseli oluşturmak için kullanılan verileri değil hiyerarşideki tüm verileri içerir.
+    
+1. **Verileri dışarı aktar**'dan **Temel veriler**'i ve sonra da **Dışarı aktar**'ı seçin. Power BI, verileri dışarı aktarır.
 
-    >[!WARNING]
-    >Temel alınan verilerin dışarı aktarılması, kullanıcıların verileri tüm ayrıntılarıyla (verilerdeki tüm sütunlar) görebilmesine olanak sağlar. Power BI hizmeti yöneticileri kuruluşlarında bu özelliği devre dışı bırakamaz. Veri kümesinin sahibiyseniz özel bilgilerin bulunduğu sütunları **gizli** olarak ayarlayabilir ve böylece bu bilgilerin Desktop veya Power BI hizmetindeki **Alanlar** listesinde gösterilmemesini sağlayabilirsiniz.
+    ![Temel verilerin işaretlendiği Verileri dışarı aktar işleminin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-    **Temel alınan veriler**: Görseldeki verileri ***ve*** modelden ek verileri görmek istiyorsanız bu seçeneği belirtin (ayrıntılar için aşağıdaki grafiğe bakın). Görselleştirmenizin toplaması varsa, *Temel alınan veriler*'in seçilmesi toplamayı kaldırır. **Dışarı Aktar**'ı seçtiğinizde Power BI verileri bir *.xlsx* dosyası olarak dışarı aktarır ve tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
 
-    Bu örnekte bulunan ve dışarı aktarmayla oluşturduğumuz Excel dosyasında, veri kümemizdeki her City satırı için bir satır ve söz konusu tek girdiye ilişkin indirim yüzdesi gösterilir. Power BI verileri düzleştirir. Bunları toplamaz. Elektronik tablomuzun ilk satırında, veriler ayıklanırken Power BI’nin kullandığı filtreler gösterilir.  
+    ![Dışarı aktarılan verilerin görüntülendiği .xlsx dosyasının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-excel.png)
+    
+    - Bu ekran görüntüsünde size Excel dosyasının yalnızca küçük bir parçası gösterilir; dosyanın 100.000'den fazla satırı vardır.  
+    
+    - Görsel için yalnızca geçerli detaylandırma düzeyinde kullanılan veriler değil, hiyerarşi tarafından kullanılan tüm veriler dışarı aktarılır. Örneğin City düzeyine detaya gittik ama dışarı aktarma işlemimiz Country verilerini de içerir.  
 
-    ![Dışarı aktarılan verilerin görüntülendiği .csv dosyasının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data8.png)
+    - Görselleştirmelere filtre uyguladığımızdan, dışarı aktarılan veriler de filtrelenmiş olur. İlk satırda **Uygulanan filtreler: City is not Atlanta, GA** ifadesini görüntülendiğine dikkat edin. 
+
+## <a name="protecting-proprietary-data"></a>Özel verileri koruma
+
+Veri kümenizde tüm kullanıcılar tarafından görülmemesi gereken içerik bulunabilir. Dikkat etmezseniz, temel verilerin dışarı aktarılması kullanıcıların söz konusu görsel için tüm ayrıntılı verileri (verilerdeki her sütunu ve her satırı) görmesine yol açabilir. 
+
+Power BI yöneticileri ve tasarımcılarının özel verileri korumak için kullanabileceği çeşitli stratejiler vardır. 
+
+- Kullanıcılara [hangi *dışarı aktarma*](#set-the-export-options) seçeneklerinin sağlanacağına tasarımcılar karar verir.  
+
+- Power BI yöneticileri kuruluşlarında veri dışarı aktarma özelliğini devre dışı bırakabilir. 
+
+- Veri kümesi sahipleri satır düzeyi güvenlik (RLS) ayarlayabilir. RLS erişimi salt okuma kullanıcılarıyla kısıtlar. Ama uygulama çalışma alanını yapılandırdıysanız ve üyelerine düzenleme izinleri verdiyseniz, RLS rolleri söz konusu üyeler için geçerli olmaz. Daha fazla bilgi için bkz. [Satır düzeyi güvenlik](../service-admin-rls.md).
+
+- Rapor tasarımcıları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/api-dataset-properties.md)
+
+- Power BI yöneticileri panolara, raporlara, veri kümelerine ve veri akışlarına [duyarlılık etiketleri](../admin/service-security-data-protection-overview.md) ekleyebilir. Bu yolla verileri dışarı aktarırken şifreleme veya filigran gibi koruma ayarlarını zorlayabilirler. 
+
+- Power BI yöneticileri [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) kullanarak kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi yapabilir ve etikete özel denetimler belirleyebilir. Örneğin, kuruluşlar kullanıcıların Power BI’daki hassas içerikleri yönetilmeyen cihazlara indirmesini önleyen bir ilke yapılandırmak üzere Microsoft Cloud App Security’yi kullanabilir. 
+
 
 ## <a name="export-underlying-data-details"></a>Temel alınan veri ayrıntılarını dışarı aktarma
 
-**Temel alınan veriler**'i seçtiğinizde görecekleriniz değişebilir. Bu ayrıntıların anlaşılması için yöneticinizin veya BT bölümünüzün yardımı gerekebilir. Power BI Desktop'ta veya Power BI hizmetindeki rapor görünümünde *Alanlar* listesinde **ölçü** bir hesap makinesi simgesiyle ![gösterilen simge](media/power-bi-visualization-export-data/power-bi-calculator-icon.png) gösterilir. Power BI Desktop Ölçüleri oluşturur. Power BI hizmeti oluşturmaz.
+**Temel alınan veriler**'i seçtiğinizde görecekleriniz değişebilir. Bu ayrıntıların anlaşılması için yöneticinizin veya BT bölümünüzün yardımı gerekebilir. 
+
+
+>
+
+
 
 | Görselin içeriği | Dışarı aktarma işleminde görecekleriniz  |
 |---------------- | ---------------------------|
 | Toplamalar | *İlk* toplama ve bu toplama için tablonun tamamından gizli olmayan veriler |
 | Toplamalar | ilgili veriler - görselde toplamayı içeren veri tablosuyla *ilgili* olan başka veri tablolarından veriler kullanılıyorsa (ilişki \*:1 veya 1:1 olduğu sürece) |
-| Ölçüler | görseldeki tüm ölçüler *ve* görselde kullanılan bir ölçünün yer aldığı diğer veri tablosundaki tüm ölçüler |
-| Ölçüler | bu ölçüyü içeren tablolardaki tüm gizli olmayan veriler (ilişki \*:1 veya 1:1 olduğu sürece) |
-| Ölçüler | bir \*:1 veya 1:1 zinciri yoluyla ölçüleri içeren tabloyla ilgili olan tüm tablolardaki tüm veriler |
+| Ölçüler* | görseldeki tüm ölçüler *ve* görselde kullanılan bir ölçünün yer aldığı diğer veri tablosundaki tüm ölçüler |
+| Ölçüler* | bu ölçüyü içeren tablolardaki tüm gizli olmayan veriler (ilişki \*:1 veya 1:1 olduğu sürece) |
+| Ölçüler* | bir \*:1 veya 1:1 zinciri yoluyla ölçüleri içeren tabloyla ilgili olan tüm tablolardaki tüm veriler |
 | Yalnızca ölçüler | tüm ilgili tablolardaki tüm gizli olmayan sütunlar (ölçüyü genişletmek için) |
 | Yalnızca ölçüler | model ölçüleri için tüm yinelenen satırların özetlenmiş verileri |
+
+\* Power BI Desktop'taki veya Power BI hizmetindeki rapor görünümünde *Alanlar* listesinde **ölçü** bir hesap makinesi simgesiyle ![gösterilen simge](media/power-bi-visualization-export-data/power-bi-calculator-icon.png) gösterilir. Ölçüler Power BI Desktop'ta oluşturulabilir.
 
 ### <a name="set-the-export-options"></a>Dışarı aktarma seçeneklerini ayarlama
 

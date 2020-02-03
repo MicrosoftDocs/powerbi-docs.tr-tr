@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223871"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710177"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
 
@@ -45,7 +45,7 @@ Azure Data Lake Storage 2. Nesil hesabıyla Power BI’ı yapılandırabilmeniz 
 1. Depolama hesabı, Power BI kiracınızla aynı AAD kiracısında oluşturulmalıdır.
 2. Depolama hesabı, Power BI kiracınızla aynı bölgede oluşturulmalıdır. Power BI kiracınızın bulunduğu yeri belirlemek için [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md) makalesine bakın.
 3. Depolama hesabı için *Hiyerarşik Ad Alanı* özelliği etkinleştirilmiş olmalıdır.
-4. Power BI hizmetine, depolama hesabında bir *Okuyucu* rolü verilmelidir.
+4. Power BI hizmetine, depolama hesabı üzerinde *Okuyucu* ve *Veri Erişimi* rolleri verilmelidir.
 5. **powerbi** adlı bir Dosya sistemi oluşturulmalıdır.
 6. Power BI hizmetleri, oluşturduğunuz **powerbi** dosya sistemi için yetkilendirilmiş olmalıdır.
 
@@ -59,16 +59,13 @@ Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrın
 2. Hiyerarşik ad alanı özelliğini etkinleştirdiğinizden emin olun
 3. Çoğaltma ayarının **Read-access geo-redundant storage (RA-GRS)** olarak belirlenmesi önerilir
 
-### <a name="grant-the-power-bi-service-a-reader-role"></a>Power BI hizmetine okuyucu rolü verme
+### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI hizmeti okuyucu ve veri erişimi rollerini verme
 
-Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu rolü vermeniz gerekir. Bu yerleşik bir roldür, bu nedenle adımlar basittir. 
+Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu ve veri erişimi rolleri vermeniz gerekir. Bunların ikisi de yerleşik rollerdir, bu nedenle adımlar basittir. 
 
 [Yerleşik RBAC rolü atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) adımlarını izleyin.
 
-**Rol ataması ekle** penceresinde, Power BI hizmetine atanacak **Okuyucu** rolünü seçin. Daha sonra **Power BI Hizmeti**’ni arayıp bulup. Aşağıdaki görüntüde, Power BI hizmetine atanan **Okuyucu** rolü gösterilmektedir.
-
-![Okuyucu rolüne atanan Power BI hizmeti](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
-
+**Rol ataması ekle** penceresinde, Power BI hizmetine atanacak **Okuyucu** ve **Veri Erişimi** rollerini seçin. Daha sonra **Power BI Hizmeti**’ni arayıp bulup. 
 
 > [!NOTE]
 > Portaldan Power BI’a yayma izni için en az 30 dakika bekleyin. Portaldaki izinleri değiştirdiğinizde, bu izinlerin Power BI’a yansıtılması için 30 dakika bekleyin. 

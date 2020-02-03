@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836656"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537819"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -77,6 +77,10 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **content view (içerik görünümü)**
 
+**Sürekli değişken** - sürekli değişken en düşük ve en yüksek sınırları arasındaki herhangi bir değer olabilir; aksi takdirde bu bir ayrık değişkendir. Örnek olarak sıcaklık, ağırlık, yaş ve süre verilebilir. Sürekli değişkenler değerin küçük bir bölümünü veya parçasını içerebilir. Satılan mavi kaykayların toplam sayısı ayrık bir değişkendir çünkü bir kaykayın yarısını satamazsınız.
+
+**Bağıntı** - bağıntı bize öğelerin davranışının nasıl birbiriyle ilgili olduğunu bildirir.  Bunların artış ve düşüş desenleri benzerse, aralarında pozitif bağıntı var demektir. Öte yandan desenleri birbirinin zıddıysa, aralarında negatif bağıntı vardır. Örneğin bir TV pazarlama kampanyasını her çalıştırdığımızda kırmızı kaykay satışlarımız artıyorsa, kırmızı kaykay satışlarıyla TV kampanyası arasında pozitif bağıntı vardır.
+
 **cross-filter (çapraz filtre)** Görsel etkileşimlere uygulanır. Çapraz filtreleme uygun olmayan verileri kaldırır. Örneğin halka grafikte **Moderation** segmentinin seçilmesi çizgi grafiğe çapraz filtre uygular. Çizgi grafikte şimdi yalnızca Moderation segmentine uygun olan veri noktaları görüntülenir.
 
 **cross-highlight (çapraz vurgulama)** Görsel etkileşimlere uygulanır. Çapraz vurgulama tüm özgün veri noktalarını korur ama seçiminize uygun olmayan bölümü soluk görüntüler. Örneğin halka grafikte **Moderation** segmentinin seçilmesi sütun grafiğe çapraz vurgulama uygular. Sütun grafik Moderation segmentine uygun olmayan tüm verileri soluk görüntüler ve Moderation segmentine uygun olan tüm verileri vurgular.
@@ -93,7 +97,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 **Veri modeli, Excel Veri Modeli** Power BI içeriğinde, veri modeli tablo biçimindeki veri yapılarının eşlemesine başvurur. Veri modeli, veritabanı oluşturmak için kullanılan ilişkileri gösterir. Rapor tasarımcıları, yöneticiler ve geliştiriciler Power BI içeriğini oluşturmak için veri modelleri oluşturup bunlarla çalışır.
 
-**Veri akışı** Veri akışları, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha fazlasını tanımlayarak büyük verileri alır, dönüştürür, tümleştirir ve zenginleştirir. Eski adıyla veri havuzu.
+**Veri akışı** Veri akışları, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha fazlasını tanımlayarak büyük verileri alır, dönüştürür, tümleştirir ve zenginleştirir. Eski adı veri havuzu.
 
 **dataset (veri kümesi)** ve **veri kaynağı** karşılaştırması **Veri kümesi**, görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
 
@@ -102,8 +106,9 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 **Masaüstü** veya **Power BI Desktop** Genelde rapor tasarımcıları, yöneticiler ve geliştiriciler tarafından kullanılan Ücretsiz Power BI aracı. 
 
 
-
 **diamond (baklava)** Power BI Premium. Çalışma alanının Premium kapasitede bir çalışma alanı olduğunu belirten simgenin şekli.
+
+**Boyut** - boyutlar kategorik (metin) verilerdir. Boyut bir kişiyi, nesneyi, öğeyi, ürünü, yeri ve zamanı açıklar. Bir veri kümesinde, boyutlar *ölçümleri* kullanışlı kategoriler halinde gruplandırmanın bir yoludur. Kaykay şirketimiz için bazı boyutlar modele, renge, ülkeye veya pazarlama kampanyasına göre satışlara bakmayı (ölçü) içerebilir.   
 
 **detaydan çıkma, detaya gitme, detaylandırma** Power BI’da bir rapor veya görselin sonraki ayrıntı düzeyini keşfetme özelliğine başvurmak için detaydan çıkma ve detaya gitme işlevlerini kullanın. Bir görselin bir kısmını seçme özelliğine başvurmak ve asıl sayfada seçtiğiniz görselin kısmıyla ilişkili verilerle filtrelenmiş farklı bir rapor sayfasına gitmek için detaylandırma işlevini kullanın.
 Detaya gitme, genelde temel alınan kayıtları göstermenin bir yolu olarak kullanılır.
@@ -168,6 +173,8 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 **liste sayfası** veya **içerik listesi** Gezinti bölmesindeki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
 
 ## <a name="m"></a>M
+
+**Ölçü** - ölçü, hesaplamalar yapmak için kullanılabilen nicel (sayısal) bir alandır. Yaygın hesaplamalar toplam, ortalama ve en düşüktür. Örneğin şirketimiz kaykay üretip satıyorsa, ölçülerimiz satılan kaykay sayısı ve yıllık ortalama kar olabilir.
 
 **Mobile app (Mobil uygulama)** iOS, Android ve Windows cihazlarında Power BI çalıştırmanıza olanak sağlayan uygulamalar.
 
@@ -302,6 +309,8 @@ Rapor sayfalarına, uygulamalara ve panolara abone olabilir, anlık görüntü i
 ## <a name="t"></a>T
 **tiles (kutucuklar)**  
 Power BI panolarında rapor kutucukları yer alır.
+
+**Zaman serisi** - bir zaman serisi zamanı birbirini izleyen veri noktaları olarak görüntülemenin bir yoludur. Söz konusu veri noktaları saniye, saat, ay veya yıl gibi artımlar olabilir.  
 
 
 ## <a name="u"></a>U

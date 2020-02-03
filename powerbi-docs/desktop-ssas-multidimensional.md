@@ -1,106 +1,123 @@
 ---
-title: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
-description: Power BI Desktop'taki Analysis Services Çok Boyutlu Verileri
+title: Power BI Desktop'taki Analysis Services çok boyutlu verileri
+description: Power BI Desktop'taki SQL Server Analysis Services (SSAS) çok boyutlu verileri
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: eac1134ff12025d05cd59e86b7538cde58e3a2ee
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759871"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753179"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS çok boyutlu modellerine bağlanma
-Power BI Desktop ile genelde **SSAS MD** olarak adlandırılan **SSAS Çok Boyutlu modellerine** erişebilirsiniz.
 
-Bir **SSAS MD** veritabanına bağlanmak için aşağıdaki resimde gösterildiği gibi **Veri Al &gt; Veritabanı &gt; SQL Server Analysis Services Veritabanı** yolunu izleyin:
+Power BI Desktop ile genelde *SSAS MD* olarak adlandırılan *SSAS çok boyutlu modellerine* erişebilirsiniz.
 
-![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
+SSAS MD veritabanına bağlanmak için **Veri Al**'ı, **Veritabanı** > **SQL Server Analysis Services veritabanı**'nı ve sonra da **Bağlan**'ı seçin:
 
-Canlı bağlantı modunda **SSAS Çok Boyutlu modelleri** hem Power BI hizmetinde hem de Power BI Desktop uygulamasında desteklenir. Ayrıca **SSAS Çok boyutlu modellerini** Canlı modda kullanan raporları Power BI hizmetinde yayımlayabilir ve yükleyebilirsiniz.
+![SQL Server Analysis Services (SSAS) veritabanı, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
+
+Hem Power BI hizmeti hem de Power BI Desktop canlı bağlantı modunda SSAS çok boyutlu modellerini destekler. **SSAS Çok boyutlu modellerini** canlı modda kullanan raporları Power BI hizmetinde yayımlayabilir ve yükleyebilirsiniz.
 
 ## <a name="capabilities-and-features-of-ssas-md"></a>SSAS MD özellikleri
+
 Aşağıdaki bölümlerde Power BI ve SSAS MD bağlantılarının özellikleri anlatılmaktadır.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Çok boyutlu modellerin tablo meta verileri
-Aşağıdaki tabloda çok boyutlu nesnelerle Power BI Desktop uygulamasına döndürülen tablo meta verileri gösterilmektedir. Power BI, modele tablo meta verileri için sorgu gönderir ve döndürülen meta verilere göre tablo, matris, grafik veya dilimleyici gibi bir görselleştirme oluşturduğunuzda Analysis Services hedefinde uygun DAX sorgularını çalıştırır.
+
+Aşağıdaki tabloda çok boyutlu nesnelerle Power BI Desktop uygulamasına döndürülen tablo meta verileri gösterilmektedir. Power BI tablo meta verileri için modeli sorgular. Döndürülen meta verilere göre bir görselleştirme (tablo, matris, grafik veya dilimleyici gibi) oluşturduğunuzda Power BI Desktop SSAS hedefinde uygun DAX sorgularını çalıştırır.
 
 | BISM-Çok boyutlu nesne | Tablo Meta Verileri |
 | --- | --- |
 | Küp |Model |
 | Küp boyutu |Tablo |
-| Boyut öznitelikleri (Anahtarlar), Ad |Sütunlar |
+| Boyut öznitelikleri (anahtarlar), ad |Sütunlar |
 | Ölçü grubu |Tablo |
 | Ölçü |Ölçü |
-| Ölçüler, ilgili Ölçü Grubu olmadan |*Ölçüler* adlı tablonun içinde |
+| Ölçüler, ilgili ölçü grubu olmadan |*Ölçüler* adlı tablonun içinde |
 | Ölçü grubu -> Küp boyutu ilişkisi |İlişki |
 | Perspektif |Perspektif |
 | KPI |KPI |
-| Kullanıcı/Üst-Alt Öğe hiyerarşileri |Hiyerarşiler |
+| Kullanıcı/üst-alt öğe hiyerarşileri |Hiyerarşiler |
 
 ### <a name="measures-measure-groups-and-kpis"></a>Ölçüler, ölçü grupları ve KPI'ler
-Çok boyutlu küpteki ölçü grupları Power BI'da **Alanlar** bölmesinde yanında ∑ işareti olan tablolar şeklinde gösterilir. İlgili ölçü grubu olmayan hesaplanan ölçüler, tablo meta verilerinde *Ölçüler* adındaki özel bir tabloda gruplanır.
 
-Çok boyutlu modelde bir ölçü veya KPI kümesi tanımlayarak *Görüntüleme klasörü* içine yerleştirebilir, karmaşık modellerin basitleştirmesine yardımcı olabilirsiniz. Power BI tablo meta verilerindeki Görüntüleme klasörlerini tanır ve Görüntüleme klasörleri içindeki ölçülerle KPI'leri gösterir. Çok boyutlu veritabanlarındaki KPI'ler *Value*, *Goal*, *Status Graphic* ve *Trend Graphic* öğelerini destekler.
+Çok boyutlu küpteki ölçü grupları **Alanlar** bölmesinde yanında sigma (∑) işareti olan tablolar şeklinde gösterilir. İlişkili ölçü grubu olmayan hesaplanan ölçüler, tablo meta verilerinde *Ölçüler* adındaki özel bir tabloda gruplanır.
+
+Çok boyutlu modelde karmaşık modelleri basitleştirmeye yardımcı olmak için bir ölçü veya KPI kümesi tanımlayarak *görüntüleme klasörü* içine yerleştirebilirsiniz. Power BI tablo meta verilerindeki görüntüleme klasörlerini tanır ve görüntüleme klasörleri içindeki ölçülerle KPI'leri gösterir. Çok boyutlu veritabanlarındaki KPI'ler *Value*, *Goal*, *Status Graphic* ve *Trend Graphic* öğelerini destekler.
 
 ### <a name="dimension-attribute-type"></a>Boyut özniteliği türü
+
 Çok boyutlu modeller ayrıca boyut özniteliklerini belirli boyut öznitelik türleriyle ilişkilendirmeyi de destekler. Örneğin *City*, *State-Province*, *Country* ve *Postal Code* boyut özniteliklerinin ilişkilendirilmiş uygun coğrafya türlerine sahip olduğu bir **Geography** boyutu tablo meta verilerinde gösterilir. Power BI meta verileri tanıyarak harita görselleştirmeleri oluşturmanızı sağlar. Bu ilişkilendirmeleri Power BI'daki **Alan** bölmesinde öğenin yanında bulunan *harita* simgesinden anlayabilirsiniz.
 
-Power BI ayrıca görüntülerin URL'lerini (Tekdüzen Kaynak Konum Belirleyicisi) içeren bir alan belirttiğinizde görüntüleri oluşturabilir. Bu alanları SQL Server Veri Araçları (veya sonrasında Power BI) içinde *ImageURL* türü olarak belirtebilirsiniz. Bunu yaptığınızda tür bilgisi tablo meta verilerinde Power BI hizmetine iletilir. Power BI da bu görüntüleri URL'den alarak görsellerde görüntüleyebilir.
+Power BI ayrıca resimlerin URL'lerini (tekdüzen kaynak konum belirleyicisi) içeren bir alan belirttiğinizde resimleri oluşturabilir. Bu alanları SQL Server Veri Araçları'nda (veya Power BI'da) *ImageURL* türlerinde belirtebilirsiniz. Tür bilgisi Power BI'a tablo meta verilerinde sağlanır. Power BI da bu resimleri URL'den alarak görsellerde görüntüleyebilir.
 
 ### <a name="parent-child-hierarchies"></a>Üst-alt öğe hiyerarşileri
-Çok boyutlu modeller Üst-alt öğe hiyerarşilerini destekler ve bunlar tablo meta verilerinde *hiyerarşi* olarak gösterilir. Üst-alt öğe hiyerarşisinin her seviyesi tablo meta verilerinde gizli bir sütun olarak gösterilir. Üst-alt öğe boyutunun anahtar özniteliği tablo meta verilerinde gösterilmez.
+
+Çok boyutlu modeller üst-alt öğe hiyerarşilerini destekler ve bunlar tablo meta verilerinde *hiyerarşi* olarak gösterilir. Üst-alt öğe hiyerarşisinin her düzeyi tablo meta verilerinde gizli bir sütun olarak gösterilir. Üst-alt öğe boyutunun anahtar özniteliği tablo meta verilerinde gösterilmez.
 
 ### <a name="dimension-calculated-members"></a>Boyut hesaplanan üyeleri
-Çok boyutlu modeller çeşitli *hesaplanan üye* türlerinin oluşturulmasını destekler. En çok kullanılan iki hesaplanan üye türü şunlardır:
+
+Çok boyutlu modeller çeşitli *hesaplanan üye* türlerinin oluşturulmasını destekler. En çok kullanılan iki hesaplanan üye türü:
 
 * Öznitelik hiyerarşilerinde bulunan ve *Tümü* öğesinin alt öğeleri olmayan hesaplanan üyeler
 * Kullanıcı hiyerarşilerindeki hesaplanan üyeler
 
-Çok boyutlu modelde *öznitelik hiyerarşilerindeki hesaplanan üyeler* sütun değeri olarak gösterilir. Bu hesaplanan üye türü görüntülenirken kullanılan birkaç ek seçenek ve sınırlama vardır:
+Çok boyutlu modelde *öznitelik hiyerarşilerindeki hesaplanan üyeler* sütun değeri olarak gösterilir. Bu tür bir hesaplanan üyeyi kullanıma sunarsanız birkaç ek seçeneğiniz olur:
 
-* Boyut özniteliği isteğe bağlı *UnknownMember* parametresine sahip olabilir
-* Hesaplanan üyeleri içeren bir öznitelik, boyutun tek özniteliği olmadığı sürece boyutun anahtar özniteliği olamaz
-* Hesaplanan üyeleri içeren bir öznitelik, üst-alt öğe özniteliği olamaz
+* Boyut özniteliğinin isteğe bağlı *UnknownMember* parametresi olabilir.
 
-Kullanıcı hiyerarşilerinin hesaplanan üyeleri Power BI'da gösterilmez. Bunun yerine kullanıcı hiyerarşilerinin hesaplanan üyelerini içeren bir küpe bağlanabilirsiniz ancak önceki madde listesinde belirtilen kısıtlamaları karşılamayan hesaplanan üyeleri göremezsiniz.
+* Hesaplanan üyeleri içeren bir öznitelik, boyutun tek özniteliği olmadığı sürece boyutun anahtar özniteliği olamaz.
+
+* Hesaplanan üyeleri içeren bir öznitelik, üst-alt öğe özniteliği olamaz.
+
+Kullanıcı hiyerarşilerinin hesaplanan üyeleri Power BI'da gösterilmez. Bunun yerine kullanıcı hiyerarşilerindeki hesaplanan üyeleri içeren bir küpe bağlanabilirsiniz. Öte yandan hesaplanan üyeler önceki madde işaretli listede belirttiğimiz kısıtlamalara uymuyorsa, bu üyeleri göremezsiniz.
 
 ### <a name="security"></a>Güvenlik
-Çok boyutlu modeller *Roller* aracılığıyla boyut ve hücre düzeyi güvenlik desteği sunar. Power BI ile bir küpe bağlandığınızda kimlik doğrulamasından geçersiniz ve ilgili izinlere sahip olup olmadığınız kontrol edilir. Bir kullanıcıya *boyut güvenliği* uygulandığında ilgili boyut üyeleri Power BI'da bu kullanıcı tarafından görünmez. Ancak bir kullanıcıya *hücre güvenliği* izni tanımlandığında belirli hücrelere erişim kısıtlanır ve bu kullanıcı Power BI kullanarak küpe bağlanamaz.
 
-## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
-**SSAS MD** kullanımıyla ilgili belirli sınırlamalar mevcuttur:
+Çok boyutlu modeller *roller* aracılığıyla boyut ve hücre düzeyi güvenlik desteği sunar. Power BI ile bir küpe bağlandığınızda kimlik doğrulamasından geçersiniz ve ilgili izinlere sahip olup olmadığınız kontrol edilir. Kullanıcıya *boyut güvenliği* uygulandıysa ilgili boyut üyeleri Power BI'da bu kullanıcı tarafından görünmez. Ancak kullanıcıya *hücre güvenliği* izni tanımlandığında belirli hücrelere erişim kısıtlanır ve bu kullanıcı Power BI kullanarak küpe bağlanamaz.
 
-* Power BI Desktop SSAS MD bağlayıcısının düzgün çalışması için sunucuların SQL Server 2012 SP1 CU4 veya üzeri Analysis Services sürümüne sahip olması gerekir.
-* SQL Server 2012 ve SQL Server 2014’ün yalnızca Enterprise ve BI sürümleri Canlı bağlantıları destekler. SQL Server’ın standart sürümünde, canlı bağlantılar için SQL Server 2016 veya üzeri gereklidir.
-* *Eylemler* ve *Adlandırılmış Kümeler* Power BI için açık değildir ancak *Eylemleri* veya *Adlandırılmış kümeleri* de içeren küplere yine de bağlanabilir, görseller ve raporlar oluşturabilirsiniz.
-* Power BI’ın bir SSAS modeline ait meta verileri gösterdiği ancak modelden veri alamadığınız bir sorunla karşılaşabilirsiniz. Sisteminiz MSOLAP sağlayıcısının 32 bit sürümü yüklü olduğunda ve 64 bit sürümü mevcut olmadığında bu sorun oluşabilir. 64 bit sürümün yüklenmesi sorunu çözebilir.
-* SSAS çok boyutlu modeline canlı bağlantısı olan bir rapor yazarken 'rapro düzeyi' ölçümleri oluşturamazsınız. Sağlanan ölçüler yalnızca MD modelinde tanımlanmış olanlardır.
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop Uygulamasında Desteklenen SSAS MD Özellikleri
-Aşağıdaki SSAS MD özellikleri Power BI Desktop uygulamasında desteklenmektedir:
+SSAS MD kullanımının belirli sınırlamaları vardır:
 
-* Bu **SSAS MD** sürümünde aşağıdaki öğelerin kullanılması desteklenmektedir (bu özellikler hakkında [daha fazla bilgi](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014) edinebilirsiniz):
-  * Görüntüleme klasörleri
-  * KPI Eğilimleri
-  * Varsayılan Üyeler
-  * Boyut Öznitelikleri
-  * Boyut Hesaplanan Üyeleri (boyut birden fazla özniteliğe sahip olduğunda tek bir gerçek üye olmalıdır, tek öznitelik olmadığı sürece boyutun anahtar özniteliği olamaz ve üst-alt öğe öznitelik olamaz)
-  * Boyut Özniteliği türleri
-  * Hiyerarşiler
-  * Ölçüler (Ölçü gruplarıyla veya onlar olmadan)
-  * Değişken Olarak Ölçüler
-  * KPI'ler
-  * ImageUrls
-  * Boyut güvenliği
+* SQL Server 2014’ün yalnızca Enterprise ve BI sürümleri canlı bağlantıları destekler. SQL Server’ın Standard sürümünde, canlı bağlantılar için SQL Server 2016 veya üzeri gereklidir.
 
-## <a name="troubleshooting"></a>Sorun giderme 
-Aşağıdaki listede SQL Server Analysis Services’a (SSAS) bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır. 
+* *Eylemler* ve *adlandırılmış kümeler* Power BI'ın kullanımına sunulmaz. Görselleri ve raporları oluşturmak için yine de eylemleri veya adlandırılmış kümeleri de içeren çok boyutlu küplere bağlanabilirsiniz.
 
-* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/küpe erişimi olmadığında gerçekleşir.
+* Power BI bir SSAS modeli için meta verileri görüntülediğinde bazen modelden verileri alamazsınız. MSOLAP sağlayıcısının 32 bit sürümünü yüklediyseniz ama 64 bit sürümünü yüklemediyseniz, bu senaryo gerçekleşebilir. 64 bit sürümün yüklenmesi sorunu çözebilir.
+
+* SSAS çok boyutlu modeline canlı bağlantısı olan bir rapor yazarken *rapor düzeyi* ölçümleri oluşturamazsınız. Kullanılabilen ölçüler yalnızca MD modelinde tanımlanmış olanlardır.
+
+## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Power BI Desktop'ta desteklenen SSAS MD özellikleri
+
+SSAS MD'nin bu sürümünde aşağıdaki öğelerin kullanımı desteklenir. Bu özellikler hakkında daha fazla bilgi için bkz. [Çok boyutlu modeller için Power View'u anlama](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014).
+
+* Varsayılan üyeler
+* Boyut öznitelikleri
+* Boyut özniteliği türleri
+* Boyut hesaplanan üyeleri, bunlar:
+  * boyutun birden çok özniteliği olduğunda tek gerçek üye olmalıdır;
+  * tek öznitelik olmadığı sürece boyutun anahtar özniteliği olamaz;
+  * bir üst-alt öğe özniteliği olamaz.
+* Boyut güvenliği
+* Görüntüleme klasörleri
+* Hiyerarşiler
+* ImageUrls
+* KPI'ler
+* KPI eğilimleri
+* Ölçüler (ölçü gruplarıyla veya onlar olmadan)
+* Değişken olarak ölçüler
+
+## <a name="troubleshooting"></a>Sorun giderme
+
+Aşağıdaki listede SQL Server Analysis Services’a (SSAS) bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır.
+
+* **Hata: Model şeması yüklenemedi** - Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/küpe erişimi olmadığında oluşur.
