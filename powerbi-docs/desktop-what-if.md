@@ -1,67 +1,69 @@
 ---
-title: Değişkenleri görselleştirmek için Durum parametrelerini kullanma
-description: Power BI raporlarında değişkenlere yönelik varsayımlarda bulunmak ve değişkenleri görselleştirmek için kendi Durum değişkeninizi oluşturma
+title: Değişkenleri görselleştirmek için durum parametrelerini kullanma
+description: Power BI raporlarında değişkenlere yönelik varsayımlarda bulunmak ve değişkenleri görselleştirmek için kendi durum değişkeninizi oluşturma
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8b9f1fc618e30d93da36b28f710dbd33f8125054
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8a72bc43bcceae6e676728934ceec81c8cb27d04
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759326"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539482"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>Power BI Desktop'ta değişkenleri görselleştirmek için durum parametresi oluşturma ve kullanma
-**Power BI Desktop**'ın Ağustos 2018 sürümünden itibaren, raporlarınız için **Durum** değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.
 
-![](media/desktop-what-if/what-if_01.png)
+*Power BI Desktop*'ın Ağustos 2018 sürümünden itibaren, raporlarınız için *durum* değişkenleri oluşturabilir, değişkeni bir dilimleyici olarak kullanabilir ve raporlarınızda farklı anahtar değerlerini görselleştirip ölçebilirsiniz.
 
-**Durum** parametresi, **Power BI Desktop**'taki **Modelleme** sekmesinde bulunur. Bu seçeneği belirlediğinizde, parametreyi yapılandırabileceğiniz bir iletişim kutusu görüntülenir.
+![Yeni Parametre seçeneği](media/desktop-what-if/what-if_01.png)
+
+Power BI Desktop'ın *Modelleme* sekmesinde **durum** parametresini oluşturun. Bunu seçtiğinizde, parametreyi yapılandırabileceğiniz bir iletişim kutusu görüntülenir.
 
 ## <a name="creating-a-what-if-parameter"></a>Durum parametresi oluşturma
-**Durum** parametresi oluşturmak için, **Power BI Desktop**'taki **Modelleme** sekmesinde bulunan **Durum** düğmesini seçin. Aşağıdaki görüntüde, *Discount percentage* adlı bir parametre oluşturup veri türünü *Ondalık sayı* olarak ayarladık. *Minimum* değer sıfır, *Maksimum* değer ise 0,50'dir (yüzde elli). *Artış* olarak ise 0,05 (yüzde beş) değerini belirledik. Bu, bir raporda etkileşime geçildiğinde parametrenin ne ölçüde artış göstereceğini belirtir.
 
-![](media/desktop-what-if/what-if_02.png)
+Durum parametresi oluşturmak için Power BI Desktop'taki **Modelleme** sekmesinde **Yeni Parametre**'yi seçin. Aşağıdaki resimde *Discount percentage* adlı bir parametre oluşturup veri türünü **Ondalık sayı** olarak ayarladık. **En düşük değer** sıfırdır. **En büyük değer** 0,50'dir (yüzde 50). **Artış** olarak ise 0,05 (yüzde beş) değerini belirledik. Bu, bir raporda etkileşime geçildiğinde parametrenin ne ölçüde artış göstereceğini belirtir.
+
+![Durum parametresi değerleri](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Ondalık sayıların önüne sıfır koymayı (yalnızca ,50 yerine 0,50 kullanın) unutmayın. Aksi halde sayı doğrulanmaz ve **Tamam** düğmesi seçilemez.
+> Ondalık sayılarda değerin önüne sıfır koymayı (yalnızca ,50 yerine 0,50 kullanın) unutmayın. Aksi takdirde sayı doğrulanmaz ve **Tamam** düğmesi seçilemez.
 > 
 > 
 
-Size kolaylık sağlamak adına, **Bu sayfaya dilimleyici ekle** onay kutusu otomatik olarak, geçerli rapor sayfanıza **Durum** parametrenizi içeren bir dilimleyici ekler.
+Size kolaylık sağlamak için, **Bu sayfaya dilimleyici ekle** onay kutusu otomatik olarak, geçerli rapor sayfanıza durum parametrenizi içeren bir dilimleyici ekler.
 
-![](media/desktop-what-if/what-if_03.png)
+![Geçerli rapor sayfasında yeni dilimleyici](media/desktop-what-if/what-if_03.png)
 
-**Durum** paremetresi oluşturulduğunda bir ölçü de oluşturulur. Bu ölçüyü **Durum** parametresinin geçerli değerini görselleştirmek için kullanabilirsiniz.
+Durum parametresi oluşturulduğunda, parametre oluşturmaya ek olarak bir de ölçü oluşturulur. Bu ölçüyü durum parametresinin geçerli değerini görselleştirmek için kullanabilirsiniz.
 
-![](media/desktop-what-if/what-if_04.png)
+![Durum parametresi için oluşturulan ölçü](media/desktop-what-if/what-if_04.png)
 
-**Durum** parametresi oluşturduğunuzda, hem parametrenin hem de ölçünün modelinizin bir parçası haline geldiğini göz önünde bulundurmanızda yarar vardır. Başka bir deyişle, bunlar raporun tamamında ve diğer rapor sayfalarında kullanılabilir. Ayrıca modelin bir parçası olduklarından, rapor sayfasından dilimleyiciyi silebilir veya geri almak istemeniz durumunda **Alanlar** listesindeki **Durum** parametresini tuvale sürükleyerek (ardından görseli bir dilimleyici olarak değiştirerek) parametreyi raporunuzda kolayca tekrar kullanabilirsiniz.
+Durum parametresi oluşturduğunuzda, hem parametrenin hem de ölçünün modelinizin bir parçası haline geldiğini göz önünde bulundurmanızda yarar vardır. Başka bir deyişle, bunlar raporun tamamında ve diğer rapor sayfalarında kullanılabilir. Ayrıca bunlar modelin parçası olduğundan, rapor sayfasından dilimleyiciyi silebilirsiniz. Dilimleyiciyi geri almak isterseniz, **Alanlar** listesinde durum parametresini tutmanız, tuvale sürüklemeniz ve sonra da görseli dilimleyici olarak değiştirmeniz yeterlidir.
 
-## <a name="using-a-what-if-parameter"></a>Durum parametresi kullanma
-Şimdi de **Durum** parametresinin kullanımına yönelik bir örnek üzerinden gidelim. **Durum** parametresini bir önceki bölümde oluşturduğumuza göre, şimdi de değeri kaydırıcı ile ayarlanan yeni bir ölçü oluşturarak bu parametreyi kullanalım. Bunu gerçekleştirmek için yeni bir ölçü oluştururuz.
+## <a name="using-a-what-if-parameter"></a>Durum parametresini kullanma
 
-![](media/desktop-what-if/what-if_05.png)
+Şimdi de durum parametresinin kullanımına yönelik bir örnek üzerinden gidelim. Önceki bölümde durum parametresini oluşturduk. Şimdi değerleri dilimleyiciyle ayarlanan yeni bir ölçü oluşturarak bu parametreyi kullanıma alacağız.
 
-Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Elbette raporunuzu kullanan kişilerin **Durum** parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çelici ölçüler oluşturabilirsiniz. Örneğin, satış görevlilerinin, belirli satış hedeflerini veya yüzdelerini yakalamaları halinde alacakları tazminatı ya da daha yüksek indirimlerin satışların artmasına yönelik etkisini görmesini sağlayan bir rapor oluşturabilirsiniz.
+![Parametreyle kullanmak üzere yeni ölçü ekleme](media/desktop-what-if/what-if_05.png)
 
-Ölçü formülünü formül çubuğuna yazmamızın ve **Sales after Discount** olarak adlandırmamızın ardından formülün sonucunu görürüz:
+Yeni ölçü, indirim oranının uygulandığı toplam satış tutarı olacak. Raporunuzu kullanan kişilerin durum parametrenize ilişkin değişkeni görselleştirmesine olanak sağlayan daha karmaşık ve ilgi çekici ölçüler oluşturabilirsiniz. Örneğin, satış görevlilerinin, belirli satış hedeflerini veya yüzdelerini yakalamaları halinde alacakları tazminatı ya da daha yüksek indirimlerin satışların artmasına yönelik etkisini görmesini sağlayan bir rapor oluşturabilirsiniz.
 
-![](media/desktop-what-if/what-if_06.png)
+Ölçü formülünü formül çubuğuna girin ve formülü *Sales after Discount* olarak adlandırın.
 
-Ardından, eksende *OrderDate* bulunan ve hem *SalesAmount*'un hem de yeni oluşturulan *Sales after Discount* ölçüsünün değer olarak yer aldığı bir sütun görseli oluştururuz.
+![Sales after Discount tanımı](media/desktop-what-if/what-if_06.png)
 
-![](media/desktop-what-if/what-if_07.png)
+Ardından, eksende **OrderDate** bulunan ve hem **SalesAmount**'un hem de yeni oluşturulan **Sales after Discount** ölçüsünün değer olarak yer aldığı bir sütun görseli oluştururuz.
 
-Ardından, kaydırıcıyı hareket ettirdikçe *Sales after Discount* sütununun, indirim uygulanmış satış tutarını yansıttığını görürüz.
+![SalesAmount için görselleştirme](media/desktop-what-if/what-if_07.png)
 
-![](media/desktop-what-if/what-if_08.png)
+Ardından, kaydırıcıyı hareket ettirdikçe **Sales after Discount** sütununun, indirim uygulanmış satış tutarını yansıttığını görürüz.
 
-İşte bu kadar kolay. Rapor kullanıcılarının, raporlarınızda oluşturduğunuz farklı senaryolarla etkileşime geçmesine olanak sağlamak üzere, **Durum** parametrelerinden çok çeşitli durumlarda yararlanabilirsiniz.
+![Kaydırıcı görselleştirmeyle etkileşim kurar](media/desktop-what-if/what-if_08.png)
 
+İşte bu kadar kolay. Durum parametrelerini her tür durumda kullanabilirsiniz. Bu parametreler rapor tüketicilerinin raporlarınızda oluşturduğunuz farklı senaryolarla etkileşime geçmesine olanak tanır.

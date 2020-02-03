@@ -6,69 +6,80 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863479"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537933"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
-Power BI hizmeti panolarınız veya raporlarınızdaki içgörülere otomatik olarak bakabilir.
+Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri bulmasını isteyebilirsiniz. Bu eğilimler ve desenler *İçgörüler* olarak adlandırılan görseller biçiminde sunulur. 
+
+İçgörüler'i kullanmayı öğrenmek için bkz. [Power BI İçgörüleri](end-user-insights.md)
+
+![bir grup İçgörü](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
-Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI, ayrılan bir sürede bir veri kümesinin mümkün olduğu kadar büyük bir kısmını tarar.
+Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *tüketicileri* pano kutucuklarında İçgörüleri çalıştırabilir.
 
-Bir veri kümesi veya pano kutucuğunda öngörü çalıştırabilirsiniz.   
+## <a name="some-terminology"></a>Bazı terimler
+Power BI İçgörüleri ortaya çıkarmak için istatistiksel algoritmalar kullanır. Algoritmalar bu makalenin sonraki bölümünde listelenmiş ve açıklanmıştır. Algoritmalara gelmeden önce burada tanımıyor olabileceğiniz bazı terimlerin açıklamalarını sağladık. 
 
-## <a name="what-types-of-insights-can-we-find"></a>Hangi öngörü türlerini bulabiliriz?
-Kullandığımız bazı algoritmalar şunlardır:
+* **Ölçü** - ölçü, hesaplamalar yapmak için kullanılabilen nicel (sayısal) bir alandır. Yaygın hesaplamalar toplam, ortalama ve en düşüktür. Örneğin şirketimiz kaykay üretip satıyorsa, ölçülerimiz satılan kaykay sayısı ve yıllık ortalama kar olabilir.  
+* **Boyut** - boyutlar kategorik (metin) verilerdir. Boyut bir kişiyi, nesneyi, öğeyi, ürünü, yeri ve zamanı açıklar. Bir veri kümesinde, boyutlar *ölçümleri* kullanışlı kategoriler halinde gruplandırmanın bir yoludur. Kaykay şirketimiz için bazı boyutlar modele, renge, ülkeye veya pazarlama kampanyasına göre satışlara bakmayı (ölçü) içerebilir.   
+* **Bağıntı** - bağıntı bize öğelerin davranışının nasıl birbiriyle ilgili olduğunu bildirir.  Bunların artış ve düşüş desenleri benzerse, aralarında pozitif bağıntı var demektir. Öte yandan desenleri birbirinin zıddıysa, aralarında negatif bağıntı vardır. Örneğin bir TV pazarlama kampanyasını her çalıştırdığımızda kırmızı kaykay satışlarımız artıyorsa, kırmızı kaykay satışlarıyla TV kampanyası arasında pozitif bağıntı vardır.
+* **Zaman serisi** - bir zaman serisi zamanı birbirini izleyen veri noktaları olarak görüntülemenin bir yoludur. Söz konusu veri noktaları saniye, saat, ay veya yıl gibi artımlar olabilir.  
+* **Sürekli değişken** - sürekli değişken en düşük ve en yüksek sınırları arasındaki herhangi bir değer olabilir; aksi takdirde bu bir ayrık değişkendir. Örnek olarak sıcaklık, ağırlık, yaş ve süre verilebilir. Sürekli değişkenler değerin küçük bir bölümünü veya parçasını içerebilir. Satılan mavi kaykayların toplam sayısı ayrık bir değişkendir çünkü bir kaykayın yarısını satamazsınız.  
 
-## <a name="category-outliers-topbottom"></a>Kategori aykırı değerleri (üst/alt)
-Modeldeki bir ölçü için bir boyutun bir veya iki üyesinin, boyutun diğer üyelerinden daha büyük değerlere sahip olduğu durumları vurgular.  
+## <a name="what-types-of-insights-can-you-find"></a>Hangi içgörü türlerini bulabilirsiniz?
+Bunlar Power BI'ın kullandığı algoritmalardır. 
+
+### <a name="category-outliers-topbottom"></a>Kategori aykırı değerleri (üst/alt)
+Bir veya iki kategorinin diğer kategorilerden çok daha yüksek değerlere sahip olduğu durumları vurgular.  
 
 ![Kategori aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
-## <a name="change-points-in-a-time-series"></a>Zaman serilerindeki değişim noktaları
+### <a name="change-points-in-a-time-series"></a>Zaman serilerindeki değişim noktaları
 Verilere ilişkin bir zaman serisindeki eğilimlerde görülen önemli değişiklikleri vurgular.
 
 ![Zaman serilerindeki değişim noktaları örneği](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-## <a name="correlation"></a>Bağıntı
-Veri kümesindeki bir boyuta göre değerlendirilen birden fazla ölçü arasında bağıntı görülen durumları algılar.
+### <a name="correlation"></a>Bağıntı
+Birden çok ölçünün, veri kümesindeki bir kategori veya değer için çizildiğinde benzer bir desen veya eğilim gösterdiği durumları algılar.
 
 ![Bağıntı örneği](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
-## <a name="low-variance"></a>Düşük Varyans
+### <a name="low-variance"></a>Düşük Varyans
 Veri noktalarının ortalamaya yakın olduğu durumları algılar.
 
 ![Düşük Varyans örneği](./media/end-user-insight-types/power-bi-low-variance.png)
 
-## <a name="majority-major-factors"></a>Çoğunluk (Ana etkenler)
+### <a name="majority-major-factors"></a>Çoğunluk (Ana etkenler)
 Bir toplam değerin çoğunluğunun, başka bir boyuta göre değerlendirildiğinde tek bir etkenle ilişkilendirilebildiği durumları bulur.  
 
 ![Ana etkenler örneği](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
-## <a name="overall-trends-in-time-series"></a>Zaman serisindeki genel eğilimler
+### <a name="overall-trends-in-time-series"></a>Zaman serisindeki genel eğilimler
 Zaman serisi verilerinde görülen yukarı veya aşağı yönlü eğilimleri algılar.
 
 ![Zaman serisindeki genel eğilimler örneği](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
-## <a name="seasonality-in-time-series"></a>Zaman serisinde mevsimsellik
+### <a name="seasonality-in-time-series"></a>Zaman serisinde mevsimsellik
 Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi dönemsel düzenler bulur.
 
 ![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
-## <a name="steady-share"></a>Düzenli paylaşım
+### <a name="steady-share"></a>Düzenli paylaşım
 Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular.
 
 ![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
-## <a name="time-series-outliers"></a>Zaman serisi aykırı değerleri
+### <a name="time-series-outliers"></a>Zaman serisi aykırı değerleri
 Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğer tarih/saat değerlerinden büyük ölçüde farklılık gösteren değerler içerdiği durumları algılar.
 
 ![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)

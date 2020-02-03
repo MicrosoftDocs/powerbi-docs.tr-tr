@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622366"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538279"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
@@ -21,8 +21,9 @@ iOS ve Android için Power BI Mobil uygulaması Intune gibi mobil cihaz yönetim
 
 Power BI Mobil uygulaması aşağıdaki yapılandırma senaryolarını destekler:
 
-- Rapor Sunucusu yapılandırması (iOS ve Android)
-- Veri koruma ayarları (iOS)
+* Rapor Sunucusu yapılandırması (iOS ve Android)
+* Veri koruma ayarları (iOS ve Android)
+* Etkileşim ayarları (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Rapor sunucusu yapılandırması (iOS ve Android)
 
@@ -37,11 +38,21 @@ iOS ve Android için Power BI uygulaması yöneticilerin kayıtlı cihazlara uza
 
 ## <a name="data-protection-settings-ios"></a>Veri koruma ayarları (iOS)
 
-iOS için Power BI uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. Kullanıcıları Power BI uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz.
+iOS ve Android için Power BI uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. Kullanıcıları Power BI uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz.
 
 | Anahtar | Tür | Açıklama |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boole | Varsayılan değerdir False’tur. <br><br>Kullanıcıların cihazlarından uygulamaya erişmek için TouchID veya FaceID gibi biyometri verilerini sağlaması istenebilir. Gerektiğinde biyometri verileri kimlik doğrulamasına ek olarak kullanılır.<br><br>Uygulama koruma ilkeleri kullanılıyorsa, çift erişim istemlerini önlemek için Microsoft bu ayarın devre dışı bırakılmasını önerir. |
+
+## <a name="interaction-settings-android"></a>Etkileşim ayarları (Android)
+
+Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarının değiştirilmesi gerektiğinde karar verilirse, Android için Power BI uygulaması yöneticilere etkileşim ayarlarını yapılandırma olanağı sunar. 
+
+| Anahtar | Tür | Değerler | Açıklama |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Dize |  <nobr>tek dokunma</nobr><br><nobr>iki kez dokunma</nobr> | Görsele dokunulduğunda bir veri noktasının seçilip seçilmeyeceğini yapılandırın. |
+| ccom.microsoft.powerbi.mobile.RefreshAction | Dize |  <nobr>yenilemek için çekme</nobr><br>düğmesini seçin | Kullanıcının raporu yenileme düğmesine sahip olup olmayacağını veya çekerek yenileme özelliğini kullanıp kullanmayacağını yapılandırın. |
+| com.microsoft.powerbi.mobile.FooterAppearance | Dize |  yerleşik<br>dinamik | Rapor alt bilgisinin raporun altına yerleştirilip yerleştirilmeyeceğini veya otomatik olarak gizlenip gizlenmeyeceğini yapılandırın. |
 
 ## <a name="deploying-app-configuration-settings"></a>Uygulama yapılandırma ayarlarını dağıtma
 

@@ -7,38 +7,33 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761784"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709851"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery için çift yönlü çapraz filtrelemeyi etkinleştirme
 
-Rapor oluşturan (ve veri modelleyen) kullanıcılar, verilerin uygun görünümünü elde etmek üzere tabloları filtrelerken, filtreleme işleminin raporlara nasıl uygulanacağını belirleme konusunda bazı güçlüklerle karşılaşabilir. Bir tablonun filtre bağlamı, ilişkinin bir tarafında tutulurken diğer tarafında tutulmaz ve genellikle istenen sonuçların elde edilmesi için karmaşık DAX formülleri gerekir.
+Rapor oluşturucuları ve veri modelleyicileri verilerin uygun görünümünü oluşturmak için tabloları filtrelerken, rapora filtrelerin nasıl uygulanacağını saptama konusunda zorlanır. Daha önce tablonun filtre bağlamı ilişkinin bir tarafında korunuyor ama diğer tarafında korunmuyordu. Bu düzenleme çoğunlukla istenen sonuçları elde etmek için karmaşık DAX formülü kullanmayı gerektiriyordu.
 
-Çift yönlü çapraz filtreleme sayesinde, rapor oluşturan (ve veri modelleyen) kullanıcılar artık ilişkili tablolarla çalışırken filtrelerin nasıl uygulanacağı konusunda daha fazla denetime sahip olur. Bu özellik, söz konusu filtrelerin bir tablo ilişkisinin *her iki* tarafında da uygulanmasını sağlar. Bu işlem, filtre bağlamının, bir tablo ilişkisinin diğer tarafındaki ikinci bir ilişkili tabloya da uygulanması sağlanarak gerçekleştirilir.
+Çift yönlü çapraz filtrelemeyle, rapor oluşturucuları ve veri modelleyicileri artık ilişkili tablolarla çalışırken filtreleri nasıl uygulayabilecekleri konusunda daha fazla denetime sahip olur. Çift yönlü çapraz filtreleme sayesinde filtreleri tablo ilişkisinin *her iki* tarafına da uygulayabilirler. Filtre bağlamını tablo ilişkisinin diğer tarafındaki ikinci ilişkili tabloya yayarak filtreleri uygulayabilirsiniz.
 
-## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>İki yönlü çapraz filtreleme için ayrıntılı teknik inceleme
-Power BI Desktop'taki çift yönlü çapraz filtreleme özelliğinin açıklandığı [ayrıntılı bir teknik inceleme](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) vardır. (Ayrıca bu teknik incelemede, aynı davranışa sahip SQL Server Analysis Services 2016 da ele alınmıştır.)
+## <a name="enable-bidirectional-cross-filtering-for-directquery"></a>DirectQuery için çift yönlü çapraz filtrelemeyi etkinleştirme
 
-* [Power BI Desktop için çift yönlü çapraz filtreleme](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) konusunun ele alındığı teknik incelemeyi indirin
+Çapraz filtrelemeyi **İlişkiyi düzenle** iletişim kutusunda etkinleştirebilirsiniz. İlişkide çapraz filtrelemeyi etkinleştirmek için aşağıdaki seçenekleri yapılandırmanız gerekir:
 
-## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>DirectQuery için çift yönlü çapraz filtrelemeyi etkinleştirme
+* **Çapraz filtre yönü**'nü **Her İkisi** olarak ayarlayın.
+* **Güvenlik filtrelerini her iki yönde de uygula**'yı seçin.
 
-Çapraz filtrelemeyi etkinleştirmek için bir ilişkiye ait **İlişkiyi Düzenle** iletişim kutusunda aşağıdakilerin seçilmesi gerekir:
-
-* **Çapraz filtre yönü**, **Her ikisi de** olarak ayarlanmalıdır
-* Ayrıca, **Güvenlik filtrelerini her iki yönde de uygula** seçeneği de belirlenmelidir
-
-  ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
+  ![Power BI Desktop'ta çift yönlü filtrelemeyi yapılandırın.](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Power BI Desktop'ta çapraz filtreleme için DAX formülleri oluştururken *UserName* yerine *UserPrincipalName* parametresini (genellikle, <em>joe@contoso.com</em> gibi kullanıcı oturum açma bilgileri ile aynıdır) kullanın. Benzer şekilde, *UserName* (veya örneğin, EmployeeID) ile *UserPrincipalName* parametrelerini eşleyen bir ilişkili tablo oluşturmanız gerekebilir.
+> Power BI Desktop'ta filtreleme DAX formülleri oluştururken *UserPrincipalName* kullanın. Bu alan genellikle *UserName* yerine kullanıcının oturum açma kimliğiyle aynıdır (örneğin<em>joe@contoso.com</em>). Benzer şekilde, *UserName* veya *EmployeeID* ile *UserPrincipalName* parametrelerini eşleyen bir ilişkili tablo oluşturmanız gerekebilir.
 
-Daha fazla bilgi edinmek ve çift yönlü çapraz filtrelemenin nasıl çalıştığına ilişkin örnekler görmek için daha önce bu makalede bahsedilen [teknik incelemeye](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) göz atın.
+Daha fazla bilgi edinmek ve çift yönlü çapraz filtrelemenin nasıl çalıştığına ilişkin örnekleri görmek için [Power BI Desktop için çift yönlü çapraz filtreleme teknik incelemesini](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) gözden geçirin.
 

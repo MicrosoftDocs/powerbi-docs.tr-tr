@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220532"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538417"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -21,6 +21,27 @@ ms.locfileid: "75220532"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>Aralık 2019
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Yerleşik rapor alt bilgisi ve yenile düğmesi - raporlarla etkileşim kurmaya yönelik yeni deneyimler (Android)
+
+Android kullanıcılarımızın raporları kullanma deneyiminin en iyi düzeyde olmadığını duymuştuk; diğer bir deyişle rapor alt bilgisini kullanmak zordu ve yenilemek için çekme eylemi bazı cihazlarda fazlasıyla hassastı. Bu nedenle bu sürümde söz konusu davranışları değiştirdik:
+* **Yerleşik rapor alt bilgisi** - şimdi telefonunuzda bir raporu açtığınızda rapor alt bilgisinin rapor sayfasının en altında yerleşik olduğunu göreceksiniz. Alt bilgi, sayfada yaptığınız eylemlerden bağımsız olarak sürekli görünür olacak. Bu sayede alt bilgide sağlanan tüm seçenekleri kolayca kullanabilirsiniz.
+* **Rapor üst bilgisinde yenile düğmesi** - ayrıca rapor üst bilgisinde, raporu tam olarak istediğiniz zaman yenilemenizi kolaylaştıran bir yenileme düğmesi bulacaksınız.
+
+Önceki davranışı tercih eden kullanıcılar, mobil uygulamanın yeni, genişletilmiş [etkileşim ayarları](./mobile-app-interaction-settings.md) ile bu davranışları geri yükleyebilir.
+
+Bunun yanı sıra, BT yöneticileri tercih ettikleri MDM aracını bir uygulama yapılandırma dosyasıyla kullanarak, kullanıcıları adına [yeni varsayılan ayarları uzaktan geçersiz kılabilir](./mobile-app-configuration.md#interaction-settings-android). Bu şekilde kuruluştaki tüm kullanıcılar için aynı davranış yapılandırılabilir.
+
+> [!NOTE]
+> Yenileme düğmesi ve rapor alt bilgisini yerleşik yapma etkileşim ayarlarının şu anda Rapor Sunucusu raporları üzerinde hiçbir etkisi yoktur. Bu durum Ocak Rapor Sunucusu sürümünde değiştirilecektir!
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>Mobil uygulamanızdan varsayılan yer işaretlerini ayarlama
+Artık raporlarınız için varsayılan yer işaretlerini doğrudan Power BI mobil uygulamanızdan ayarlayabilirsiniz. Bundan sonra raporu her açtığınızda varsayılan yer işareti otomatik olarak uygulanır. [Daha fazla bilgi edinin!](./mobile-reports-in-the-mobile-apps.md#bookmarks)
+
+### <a name="filtering-by-location-on-android-tablets"></a>Android tabletlerinde konuma göre filtreleme
+Coğrafi filtreleme raporlarınızı geçerli konumunuz temelinde filtrelemenize olanak tanır. Bu özellik şimdi Android tabletleri için Power BI uygulamasında da kullanılabilir. [Daha fazla bilgi edinin!](./mobile-apps-geographic-filtering.md)
 
 ## <a name="november-2019"></a>Kasım 2019
 

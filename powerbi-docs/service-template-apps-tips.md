@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622450"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710147"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -134,6 +134,17 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 * Şablon çalışma alanına pbix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
 * Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) izleyin.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>Uygulama için indirme bağlantısı oluşturma
+
+Şablon uygulamasını AppSource'ta yayımladıktan sonra, web sitenizden aşağıdaki hedeflerden birine indirme bağlantısı oluşturmayı göz önünde bulundurun:
+* AppSource indirme sayfası - genel olarak görüntülenebilir, bağlantıyı AppSource sayfanızdan alır.
+* Power BI - Power BI kullanıcıları tarafından görüntülenebilir.
+
+Power BI'da kullanıcıyı uygulamanın indirme bağlantısına yönlendirmek için aşağıdaki kod örneğine bakın: [GitHub deposu](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+[![Uygulama İndirme bağlantısı](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
 

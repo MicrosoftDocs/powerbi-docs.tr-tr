@@ -6,18 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 294bd8017d6e6c8a1eaca836b32c7bd5d50d88e1
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c8a27e8cc261d9b29222cfc7867f5376b29067e0
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760808"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753652"
 ---
-# <a name="about-using-query-editor-in-power-bi-desktop"></a>Power BI Desktop’taki Sorgu Düzenleyicisi'ni kullanma hakkında
-**Power BI Desktop** ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
+# <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
+Power BI Desktop ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
 
 Power BI Desktop'ta üç görünüm vardır:
 
@@ -25,58 +25,63 @@ Power BI Desktop'ta üç görünüm vardır:
 * **Veri** görünümü: Raporunuzdaki verileri, veri modeli biçiminde görebilir; ölçüler ekleyebilir, yeni sütunlar oluşturabilir ve ilişkileri yönetebilirsiniz
 * **İlişkiler** görünümü: Veri modelinizde oluşturulan ilişkilerin grafik gösterimini elde edebilir ve bunları, gereken şekilde yönetebilir veya değiştirebilirsiniz.
 
-Bu görünümlere, Power BI Desktop'ın sol tarafındaki üç simgeden birini seçerek erişebilirsiniz. Aşağıdaki görüntüde Rapor görünümü seçilmiştir ve bu seçim, simgenin yan tarafındaki sarı şerit ile belirtilmiştir.  
+Bu görünümlere, Power BI Desktop'ın sol tarafındaki üç simgeden birini seçerek erişebilirsiniz. Aşağıdaki resimde **Rapor** görünümü seçilmiştir ve bu seçim, simgenin yan tarafındaki sarı şerit ile belirtilmiştir.  
 
 ![](media/desktop-query-overview/queryoverview_viewicons.png)
 
-Power BI Desktop ile birlikte sunulan **Sorgu Düzenleyicisi**'ni kullanarak bir veya daha çok veri kaynağına bağlanabilir, verileri ihtiyaçlarınızı karşılayacak biçimde şekillendirip dönüştürebilir ve ilgili modeli Power BI Desktop'a yükleyebilirsiniz.
+Power BI Desktop ayrıca Power Query Düzenleyicisi ile gelir. Power Query Düzenleyicisi'ni kullanarak bir veya daha çok veri kaynağına bağlanabilir, verileri ihtiyaçlarınızı karşılayacak biçimde şekillendirip dönüştürebilir ve ilgili modeli Power BI Desktop'a yükleyebilirsiniz.
 
-Bu belgede, **Sorgu Düzenleyicisi**'nde verilerle çalışmaya yönelik bir genel bakış sağlanmıştır. Öğrenecekleriniz elbette bunlarla sınırlı değil. Desteklenen veri türleri, verilere bağlanma, verileri şekillendirme, ilişki oluşturma ve çalışmaya başlama hakkında ayrıntılı yönergeler içeren bağlantıları bu belgenin sonunda bulabilirsiniz.
+Bu belgede, Power Query Düzenleyicisi'nde verilerle çalışmaya yönelik bir genel bakış sağlanmıştır ama öğrenecek daha birçok şey vardır. Bu belgenin sonunda desteklenen veri türleri hakkındaki ayrıntılı kılavuzların bağlantılarını bulacaksınız. Ayrıca verilere bağlanma, verileri şekillendirme, ilişki oluşturma ve çalışmaya başlama konusunda da kılavuzlar bulabilirsiniz.
 
-Öncelikle **Sorgu Düzenleyicisi**'ni tanıyalım.
+Ama öncelikle Power Query Düzenleyicisi'ni tanıyalım.
 
-## <a name="the-query-editor"></a>Sorgu Düzenleyicisi
-**Sorgu Düzenleyicisi**'ne ulaşmak için Power BI Desktop'ın **Giriş** sekmesinde **Sorguları Düzenle**'yi seçin.  
+## <a name="power-query-editor"></a>Power Query Düzenleyicisi
+Power Query Düzenleyicisi'ne ulaşmak için Power BI Desktop'ın **Giriş** sekmesinde **Sorguları Düzenle**'yi seçin.  
 
 ![](media/desktop-query-overview/queryoverview_queryview.png)
 
-Hiçbir veri bağlantısı olmadığında **Sorgu Düzenleyicisi** veri almaya hazır, boş bir bölme olarak görünür.  
+Hiçbir veri bağlantısı olmadığında Power Query Düzenleyicisi veri almaya hazır, boş bir bölme olarak görünür.  
 
 ![](media/desktop-query-overview/queryoverview_blankpane.png)
 
-Bir sorgu yüklendikten sonra **Sorgu Düzenleyicisi** daha ilgi çekici hale gelir. Aşağıdaki Web veri kaynağına bağlanırsak **Sorgu Düzenleyicisi**, verilerle ilgili bilgileri yükler ve verileri şekillendirmeye başlayabilirsiniz.
+Bir sorgu yüklendikten sonra Power Query Düzenleyicisi daha ilgi çekici hale gelir. Aşağıdaki Web veri kaynağına bağlanırsak, Power Query Düzenleyicisi verilerle ilgili bilgileri yükler ve verileri şekillendirmeye başlayabilirsiniz:
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/*](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/)
 
-Veri bağlantısı oluşturulduktan sonra **Sorgu Düzenleyicisi** aşağıdaki gibi görünür:
+Veri bağlantısı oluşturulduktan sonra Power Query Düzenleyicisi aşağıdaki gibi görünür:
 
-1. Sorgudaki verilerle etkileşim kurabilmeniz için şeritteki birçok düğmenin etkinleştirildiğini görürsünüz
-2. Sol bölmede sorgular listelenir; bu sorguları seçebilir, görüntüleyebilir ve şekillendirebilirsiniz
-3. Ortadaki bölmede, seçilen sorgudaki veriler görüntülenir ve bu veriler şekillendirilebilir
-4. Sorgunun özelliklerinin ve uygulanan adımların listelendiği **Sorgu Ayarları** penceresi görünür  
+1. Sorgudaki verilerle etkileşim kurabilmeniz için şeritteki birçok düğmenin etkinleştirildiğini görürsünüz.
+2. Sol bölmede sorgular listelenir; bu sorguları seçebilir, görüntüleyebilir ve şekillendirebilirsiniz.
+3. Ortadaki bölmede, seçilen sorgudaki veriler görüntülenir ve bu veriler şekillendirilebilir.
+4. Sorgunun özelliklerinin ve uygulanan adımların listelendiği **Sorgu Ayarları** bölmesi görünür.  
    
    ![](media/desktop-query-overview/queryoverview_withdataconnection.png)
 
-Bu dört alanın (şerit, sorgular bölmesi, veri görünümü ve Sorgu Ayarları bölmesi) her birini aşağıdaki bölümlerde ele alacağız.
+Bu dört alanın (şerit, Sorgular bölmesi, Veri görünümü ve Sorgu Ayarları bölmesi) her birini ele alacağız.
 
 ## <a name="the-query-ribbon"></a>Sorgu şeridi
-**Sorgu Düzenleyicisi**'ndeki şerit **Giriş**, **Dönüştür**, **Sütun Ekle** ve **Görünüm** olmak üzere dört sekmeden oluşur.
+Power Query Düzenleyicisi'nde şerit dört sekmeden oluşur: **Giriş**, **Dönüşüm**, **Sütun Ekle** ve **Görünüm**.
 
-**Giriş** sekmesinde, tüm sorguların ilk adımı olarak kullanılan **Veri Al** düğmesi de dahil olmak üzere sık kullanılan sorgu görevlerini bulabilirsiniz. Aşağıdaki görüntüde **Giriş** şeridi gösterilmektedir.  
+**Giriş** sekmesi yaygın sorgu görevlerini içerir.
 
 ![](media/desktop-query-overview/queryoverview_ribbon.png)
 
-Verilere bağlanmak ve sorgu oluşturma işlemine başlamak için **Veri Al** düğmesini seçin. En yaygın veri kaynaklarının listelendiği bir menü belirir.  
+Verilere bağlanmak ve sorgu oluşturma işlemine başlamak için **Yeni Kaynak** öğesini seçin. En yaygın veri kaynaklarının listelendiği bir menü belirir.  
 
-![](media/desktop-query-overview/queryoverview_getdatamenu.png)
+![](media/desktop-query-overview/query-overview-new-source-menu.png)
 
 Mevcut veri kaynakları hakkında daha fazla bilgi için bkz. **Veri Kaynakları**. Örnekler ve adımlar da dahil olmak üzere verilere bağlanma hakkında bilgi edinmek için bkz. **Verilere Bağlanma**.
 
-**Dönüştür** sekmesinde; sütun ekleme veya kaldırma, veri türlerini değiştirme, sütunları bölme ve diğer veri tabanlı görevler gibi sık kullanılan veri dönüştürme görevlerine erişebilirsiniz. Aşağıdaki görüntüde **Dönüştür** sekmesi gösterilmektedir.  
+**Dönüşüm** sekmesi yaygın veri dönüştürme görevlerine erişim sağlar, örneğin:
+
+* Sütunları ekleme veya kaldırma
+* Veri türlerini değiştirme 
+* Sütunları bölme 
+* Diğer veri temelli görevler
 
 ![](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Örnekler de dahil olmak üzere veri dönüştürme hakkında daha fazla bilgi edinmek için bkz. **Verileri Birleştirme ve Şekillendirme**.
+Örnekler de dahil olmak üzere veri dönüştürme hakkında daha fazla bilgi edinmek için bkz. [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
 
 **Sütun Ekle** sekmesinde; sütun ekleme, sütun verilerini biçimlendirme ve özel sütunlar ekleme ile ilişkili ek görevler bulunur. Aşağıdaki görüntüde **Sütun Ekle** sekmesi gösterilmektedir.  
 
@@ -88,57 +93,57 @@ Mevcut veri kaynakları hakkında daha fazla bilgi için bkz. **Veri Kaynakları
 
 Şeritte sunulan görevlerin birçoğunu, orta bölmede bir sütuna veya diğer verilere sağ tıklayarak da kullanabileceğinizi unutmayın.
 
-## <a name="the-left-pane"></a>Sol bölme
-Sol bölmede, etkin sorgu sayısının yanı sıra sorgunun adı görüntülenir. Sol bölmede bir sorguyu seçtiğinizde bu sorgunun verileri orta bölmede görüntülenir ve orta bölmede verileri ihtiyaçlarınıza göre şekillendirip dönüştürebilirsiniz. Aşağıdaki görüntüde, birden fazla sorgu içeren sol bölme gösterilmektedir.  
+## <a name="the-left-queries-pane"></a>Son bölme (Sorgular bölmesi)
+Sol bölmede veya **Sorgular** bölmesinde etkin sorguların sayısı ve sorgunun adı görüntülenir. Sol bölmede bir sorguyu seçtiğinizde bu sorgunun verileri orta bölmede görüntülenir ve orta bölmede verileri ihtiyaçlarınıza göre şekillendirip dönüştürebilirsiniz. Aşağıdaki resimde sorgu içeren sol bölme gösterilmiştir.  
 
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
-## <a name="the-center-data-pane"></a>Orta bölme (veri bölmesi)
-Orta bölmede (veya Veri bölmesinde) seçilen sorgudaki tarihler görüntülenir. Sorgu görünümündeki çalışmanın büyük kısmı burada gerçekleşir.
+## <a name="the-center-data-pane"></a>Orta bölme (Veri bölmesi)
+Orta bölmede veya **Veri** bölmesinde seçilen sorgudan veriler görüntülenir. **Sorgu** görünümündeki çalışmanın büyük kısmı bu bölmede gerçekleşir.
 
-Aşağıdaki görüntüde, daha önce kurulan Web veri bağlantısı görüntülenmektedir. **Overall score** sütunu seçilmiştir ve kullanılabilir menü öğelerinin gösterilmesi için bu sütunun başlığına sağ tıklanmıştır. Sağ tıklandığında görüntülenen menü öğelerinin birçoğunun, şerit sekmelerindeki düğmelerle aynı olduğu görülmektedir.  
+Aşağıdaki resimde daha önce kurulan Web veri bağlantısı gösterilmiştir. **Product** sütunu seçilidir ve kullanılabilir menü öğelerini görüntülemek için sütunun başlığına sağ tıklanmıştır. Sağ tıklandığında görüntülenen menü öğelerinin birçoğunun, şerit sekmelerindeki düğmelerle aynı olduğu görülmektedir.  
 
 ![](media/desktop-query-overview/queryoverview_thecenterpane.png)
 
-Sağ tıklandığında görüntülenen menü öğelerinden birini (veya şeritteki bir düğmeyi) seçtiğinizde Sorgu, ilgili adımı verilere uygular ve sorgunun parçası olarak kaydeder. Sonraki bölümde açıklandığı üzere, adımlar sıralı şekilde **Sorgu Ayarları**'nda kaydedilir.  
+Sağ tıklandığında görüntülenen menü öğelerinden birini (veya şeritteki bir düğmeyi) seçtiğinizde, sorgu ilgili adımı verilere uygular. Ayrıca adımı sorgunun bir parçası olarak kaydeder. Sonraki bölümde açıklandığı üzere, adımlar sıralı şekilde **Sorgu Ayarları**'nda kaydedilir.  
 
-## <a name="the-query-settings-pane"></a>Sorgu Ayarları bölmesi
-**Sorgu Ayarları** bölmesi, sorgu ile ilişkili tüm adımların görüntülendiği yerdir. Örneğin, aşağıdaki görüntüde; **Sorgu Ayarları** bölmesinin **Uygulanan Adımlar** bölümünde, **Overall score** sütununun türünü değiştirdiğimiz gösterilmektedir.
+## <a name="the-right-query-settings-pane"></a>Sağ bölme (Sorgu Ayarları bölmesi)
+Sağ bölme veya **Sorgu Ayarları** bölmesi, sorgu ile ilişkili tüm adımların görüntülendiği yerdir. Örneğin, aşağıdaki görüntüde; **Sorgu Ayarları** bölmesinin **Uygulanan Adımlar** bölümünde, **Overall score** sütununun türünü değiştirdiğimiz gösterilmektedir.
 
 ![](media/desktop-query-overview/queryoverview_querysettingspane.png)
 
 Sorguda uygulanan ek şekillendirme adımları, **Uygulanan Adımlar** bölümünde kaydedilir.
 
-Temel alınan verilerin *değiştirilmediğini* bilmek önemlidir. Sorgu Düzenleyicisi, veri görünümünü ayarlayıp şekillendirir ve temel alınan verilerle kurulan herhangi bir etkileşim, ilgili verilerin Sorgu Düzenleyicisi tarafından şekillendirilen ve değiştirilen hali temel alınarak gerçekleştirilir.
+Temel verilerin *değişmediğini* bilmeniz önemlidir. Bunun yerine Power Query Düzenleyicisi verilerin görünümünü ayarlar ve şekillendirir. Ayrıca temel verilerle kurulan ve Power Query Düzenleyicisi'nin söz konusu verilerin şekillendirilmiş ve değiştirilmiş görünümü temelinde gerçekleşen tüm etkileşimin görünümünü de şekillendirir ve ayarlar.
 
 **Sorgu Ayarları** bölmesinde adımları istediğiniz şekilde yeniden adlandırabilir, silebilir veya yeniden sıralayabilirsiniz. Bunun için **Uygulanan Adımlar** bölümünde adıma sağ tıklayın ve görünen menüde seçim yapın. Tüm sorgu adımları, **Uygulanan Adımlar** bölmesinde görünen sırada gerçekleştirilir.
 
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
-## <a name="the-advanced-editor"></a>Gelişmiş Düzenleyici
-Sorgu Düzenleyicisi'nin her adımda oluşturduğu kodu görmek veya kendi şekillendirme kodunuzu oluşturmak isterseniz **Gelişmiş Düzenleyici**'yi kullanabilirsiniz. Gelişmiş düzenleyiciyi başlatmak için şeritte **Görünüm**'ü ve ardından **Gelişmiş Düzenleyici**'yi seçin. Var olan sorgu kodunu gösteren bir pencere görünür.  
+## <a name="advanced-editor"></a>Gelişmiş Düzenleyici
+**Gelişmiş Düzenleyici** Power Query Düzenleyicisi'nin her adımda oluşturduğu kodu görmenizi sağlar. Ayrıca kendi şekillendirme kodunuzu oluşturmanıza da olanak tanır. Gelişmiş düzenleyiciyi başlatmak için şeritte **Görünüm**'ü ve ardından **Gelişmiş Düzenleyici**'yi seçin. Var olan sorgu kodunu gösteren bir pencere görünür.  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 **Gelişmiş Düzenleyici** penceresinde kodu doğrudan düzenleyebilirsiniz. Pencereyi kapatmak için **Bitti** veya **İptal** düğmesini seçin.  
 
 ## <a name="saving-your-work"></a>Çalışmanızı kaydetme
-Sorgunuz istediğiniz gibi olduğunda Sorgu Düzenleyicisi'nin, değişiklikleri Power BI Desktop'taki veri modelinde uygulamasını sağladıktan sonra Sorgu Düzenleyicisi'ni kapatabilirsiniz. Bunu yapmak için Sorgu Düzenleyicisi'nin **Dosya** menüsünden **Kapat & Uygula**'yı seçin.  
+Sorgunuz istediğiniz yere geldiğinde Power Query Düzenleyicisi'nin **Dosya** menüsünde **Kapat ve Uygula**'yı seçin. Bu eylemle değişiklikler uygulanır ve düzenleyici kapatılır.  
 ![](media/desktop-query-overview/queryoverview_closenload.png)
 
 Power BI Desktop, ilerleme kaydedildiğinde durumu görüntülemek için bir iletişim kutusu sunar.  
 ![](media/desktop-query-overview/queryoverview_loading.png)
 
-Sorgunuz istediğiniz gibi olduğunda veya çalışmanızın kaydedildiğinden emin olmak istediğinizde Power BI Desktop, çalışmanızı .pbix dosyası biçiminde kaydedebilir.
+Hazır olduğunuzda Power BI Desktop çalışmanızı *.pbix* dosyası biçiminde kaydedebilir.
 
-Çalışmanızı kaydetmek için aşağıdaki görüntüde gösterildiği üzere, **Dosya \> Kaydet**'i (veya **Dosya \> Farklı Kaydet**) seçin.  
+Çalışmanızı kaydetmek için, aşağıdaki resimde gösterildiği gibi **Dosya** \> **Kaydet**'i (veya **Dosya** \> **Farklı Kaydet**) seçin.  
 ![](media/desktop-query-overview/queryoverview_savework.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
-* [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
-* [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta verilere bağlanma](desktop-connect-to-data.md)
+* [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme](desktop-common-query-tasks.md)   
 

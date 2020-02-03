@@ -7,15 +7,15 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/23/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f2114d8d4be2e5f9c3b3f34589adc901a0ef4ebb
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852741"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537771"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 
@@ -30,21 +30,20 @@ Odak modu ve tam ekran modu, görsellerinizde, raporlarınızda ve panolarınız
 |Pano     |   Mümkün değil     | evet |
 |Rapor sayfası   | Mümkün değil  | evet|
 |Rapor görseli | evet    | evet |
-|Pano kutucuğu | evet    | evet |
+|Pano kutucuğu | evet    | Mümkün değil |
 |Windows 10 mobile | Mümkün değil | Evet |
 
 ## <a name="what-is-full-screen-mode"></a>Tam ekran modu nedir?
 
 ![panonun tam ekran modundan önceki ve sonraki hali](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Power BI hizmeti içeriğinizi (panolar, rapor sayfaları, kutucuklar ve görseller) menüler ve gezinti bölmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır.   
+Power BI hizmeti içeriğinizi (panolar, rapor sayfaları ve görseller) menüler ve gezinti bölmeleri dikkatinizi dağıtmadan görüntüleyebilirsiniz.  Her zaman tek bir bakışta içeriğinizin katıksız bir tam ekran görünümünü elde edersiniz. Bu bazen TV modu olarak adlandırılır.   
 
-Tam ekran modunu açmak için, odak modunda panonuzun, raporunuzun, kutucuğunuzun veya odak modundaki görselin üzerinde bulunan Power BI hizmeti menü çubuğundan **tam ekran** simgesini ![tam ekran simgesi ](media/end-user-focus/power-bi-full-screen-icon.png) seçin.  Seçtiğiniz içerik ekranın tamamını kaplar.
 Power BI mobil kullanıyorsanız [Windows 10 mobil uygulamaları için tam ekran kullanılabilir](./mobile/mobile-windows-10-app-presentation-mode.md). 
 
 Tam ekran modunun kullanım alanlarına ilişkin bazı örnekler aşağıda verilmiştir:
 
-* panolarınızı, kutucuklarınızı veya raporlarınızı bir toplantıda veya konferansta sunma
+* panonuzu, görselinizi veya raporunuzu bir toplantıda veya konferansta sunma
 * bir iş yerinde özel bir geniş ekran veya projektör aracılığıyla görüntüleme
 * küçük bir ekranda görüntüleme
 * kilitli modda gözden geçirme (bağlantılı raporu veya panoyu açmaya gerek kalmadan, ekrana dokunabilir veya fareyle kutucukların üzerine gelebilirsiniz)
@@ -53,18 +52,30 @@ Tam ekran modunun kullanım alanlarına ilişkin bazı örnekler aşağıda veri
 
 ***Odak*** modu, daha fazla ayrıntı görüntülemek için bir görseli ya da kutucuğu genişletmenize (açmanıza) olanak tanır.  Biraz kalabalık bir panonuz ya da raporunuz varken yalnızca bir görseli yakınlaştırmak isteyebilirsiniz.  Bu, odak modunun mükemmel bir kullanım şeklidir.  
 
-![panonun tam ekran modundan önceki ve sonraki hali](media/end-user-focus/power-bi-compare-dash.png)
+![pano kutucuğu odak modunun önceki ve sonraki hali](media/end-user-focus/power-bi-compare-dash.png)
 
 Odak modundayken, bir Power BI *tüketicisi* söz konusu görsel oluşturulduğunda uygulanan herhangi bir filtre ile etkileşimde bulunabilir.  Power BI hizmetinde odak modunu bir pano kutucuğu ya da rapor görseli üzerinde kullanabilirsiniz.
 
 ## <a name="working-in-full-screen-mode"></a>Tam ekran modunda çalışma
 
-Tam ekran modunda bir pano veya rapor sayfası açmak için üst gezinti çubuğundan ![tam ekran simgesi](media/end-user-focus/power-bi-full-screen-icon.png) üst gezinti bölmesinden. Tam ekran moduna geçtikten sonra farenizi veya imlecinizi hareket ettirmek bir bağlam menüsü açar. Tam ekran çok çeşitli içerikler için kullanılabildiğinden, bağlam menüsündeki seçeneklerin her biri biraz farklı ancak açıklayıcıdır.  Tanım için fare ile bir simgenin üzerine gelin.
+Tam ekran modu panolar, rapor sayfaları ve rapor görselleri için sağlanır. 
+
+- Panoyu tam ekran modunda açmak için üst gezinti çubuğundan ![tam ekran simgesi](media/end-user-focus/power-bi-full-screen-icon.png) öğesini seçin. 
+
+- Rapor sayfasını tam ekran modunda açmak için, **Görünüm** > **Tam ekran**'ı seçin.
+
+    ![Görünüm menüsünden Tam ekran'ı seçme](media/end-user-focus/power-bi-view.png)
+
+
+- Görseli tam ekran modunda görmek için önce odak modunda açın ve ardından **Görünüm** > **Tam ekran**'ı seçin.  
+
+
+Seçtiğiniz içerik ekranın tamamını kaplar.    Tam ekran moduna geçtikten sonra farenizi veya imlecinizi hareket ettirmek bir bağlam menüsü açar. Tam ekran çok çeşitli içerikler için kullanılabildiğinden, bağlam menüsündeki seçeneklerin her biri biraz farklı ancak açıklayıcıdır.  Tanım için fare ile bir simgenin üzerine gelin.
 
 Panolar için menü    
 ![Panolar için menü](media/end-user-focus/power-bi-full-screen-dash.png)    
 
-Rapor sayfaları için menü    
+Rapor sayfaları ve rapor görselleri için menü    
 ![Raporlar için menü](media/end-user-focus/power-bi-report-full-screen.png)    
 
   * ![Geri simgesi](media/end-user-focus/power-bi-back-icon.png)    
@@ -92,46 +103,36 @@ Rapor sayfaları için menü
 
 ## <a name="working-in-focus-mode"></a>Odak modunda çalışma
 
-Odak modunu açmanın iki yolu vardır: biri pano kutucukları, diğeri ise rapor görselleri içindir.
+Odak modu panolar, kutucuklar ve rapor görselleri için sağlanır. 
 
-### <a name="focus-mode-in-dashboards"></a>Panolarda odak modu
+- Pano kutucuğunu odak modunda açmak için bir pano kutucuğunun veya rapor görselinin üzerine gelin, **Diğer seçenekler**’i (...) ve **Odak modunda aç**’ı seçin.
 
-1. Power BI hizmetinde bir pano açın.
+    ![kutucuk için üç nokta menüsü](media/end-user-focus/power-bi-dashboard-focus.png).. 
 
-2. Bir pano kutucuğunun veya rapor görselinin üzerine gelin, **Diğer seçenekler**’i (...) ve **Odak modunda aç**’ı seçin.
+- Rapor görselini odak modunda açmak için, görselin üzerine gelin ve **odak modu** simgesini ![odak modu simgesi](media/end-user-focus/pbi_popout.jpg) seçin.  
 
-    ![kutucuk için üç nokta menüsü](media/end-user-focus/power-bi-dashboard-focus.png)geçin.
+   ![kutucukta gösterilen odak simgesi](media/end-user-focus/power-bi-hover-focus-icon.png)
 
-2. Kutucuk, tuvalin tamamını kaplayacak şekilde açılır. Görselle etkileşimde bulunmak için kullanabileceğiniz **Filtreler** bölmesinin hala orada olduğuna dikkat edin. **Filtreler** bölmesi daraltılabilir.
+
+
+Görsel, tuvalin tamamını kaplayacak şekilde açılır. Görselle etkileşimde bulunmak için kullanabileceğiniz **Filtreler** bölmesinin hala orada olduğuna dikkat edin. **Filtreler** bölmesi ve gezinti bölmesi daraltılabilir.
 
    ![rapor tuvalini dolduran kutucuk](media/end-user-focus/power-bi-focus-filter.png)
 
-4. [Filtreleri değiştirerek](end-user-report-filter.md) ve verilerinizde ilgi çekici buluşlar arayarak daha fazla araştırın.  
 
-5. Odak modundan ayrılmak ve panoya geri dönmek için **Odak modundan çık** (görselin sol üst köşesinde) seçeneğini belirleyin.
+   ![kutucuk rapor tuvalini doldurur ve her iki menü de daraltılır](media/end-user-focus/power-bi-menu-collapse.png)  
 
-    ![odak modundan çıkma](media/end-user-focus/power-bi-exit.png)    
+[Filtreleri değiştirerek](end-user-report-filter.md) ve verilerinizde ilgi çekici buluşlar arayarak daha fazla araştırın.  
 
+Yeni içgörüler ve sorulara yanıtlar bulmak için verilerin ayrıntılarına inin. *Tüketici* olarak yeni filtreler ekleyemez, görsellerde kullanılmakta olan alanları değiştiremezsiniz veya yeni görseller oluşturamazsınız.  Öte yandan mevcut filtrelerle etkileşim kurabilirsiniz. 
 
-## <a name="focus-mode-for-report-visuals"></a>Rapor görselleri için odak modu
+Pano kutucuğu için, yaptığınız değişiklikler kaydedilemez. Rapor görseli için, Power BI’dan çıktığınızda mevcut filtrelerde yaptığınız tüm değişiklikler kaydedilir. Power BI’ın yaptığınız değişiklikleri hatırlamasını istemiyorsanız **Varsayılana sıfırla**’yı seçin. ![varsayılana sıfırla düğmesi](media/end-user-focus/power-bi-resets.png)  
 
-1. Power BI hizmetinde bir rapor açın.  Bu örnekte Satış ve Pazarlama örneğini kullanarak göstereceğiz.
+Odak modundan ayrılmak ve panoya geri dönmek için **Odak modundan çık**'ı veya **Rapora geri dön**'ü (görselin sol üst köşesinde) seçebilirsiniz.
 
-1. Rapor açıldıktan sonra **Yılbaşından Bugüne Kategorisi** sekmesini seçin.
+![odak modundan çıkma](media/end-user-focus/power-bi-exit.png)    
 
-2. Sol alt köşedeki ağaç haritasının üzerine gelip **odak modu** simgesini ![odak modu simgesi](media/end-user-focus/pbi_popout.jpg) seçin.  
-
-   ![kutucukta gösterilen odak simgesi](media/end-user-focus/power-bi-hover-focus-icon.png)
-2. Görsel, tuvalin tamamını kaplayacak şekilde açılır.
-
-   ![odak modunda görsel](media/end-user-focus/power-bi-display-focus-new.png)
-
-3. İsteğe bağlı olarak, bu görsele uygulanan filtrelerle etkileşimde bulunmak için **Filtreler** bölmesini kullanın. Yeni içgörüler ve sorulara yanıtlar bulmak için verilerin ayrıntılarına inin. *Tüketici* olarak yeni filtreler ekleyemez, görsellerde kullanılmakta olan alanları değiştiremezsiniz veya yeni görseller oluşturamazsınız.  Ancak, Power BI’dan çıktığınızda mevcut filtrelerde yaptığınız tüm değişiklikler kaydedilir. Power BI’ın yaptığınız değişiklikleri hatırlamasını istemiyorsanız **Varsayılana sıfırla**’yı seçin. ![varsayılana sıfırla düğmesi](media/end-user-focus/power-bi-resets.png)  
-
-
-5. Odak modundan ayrılmak ve rapora geri dönmek için **Rapora geri dön** (görselin sol üst köşesinde) seçeneğini belirleyin.
-
-    ![odak modundan çıkma](media/end-user-focus/power-bi-back-to-report.png)  
+![odak modundan çıkma](media/end-user-focus/power-bi-back-to-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 

@@ -7,74 +7,76 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761600"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539200"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop'ta veri kaynaklarına bağlanma
+
 Power BI Desktop ile durmadan büyüyen veri dünyasına kolayca bağlanabilirsiniz. Power BI Desktop'ı [indirebilir](https://go.microsoft.com/fwlink/?LinkID=521662) ve yükleyebilirsiniz (henüz yapmadıysanız).
 
-Power BI Desktop'ta kullanılabilecek *çok çeşitli* veri kaynakları bulunur. Aşağıdaki görüntüde, **Dosya** şeridini seçip **Veri Al \> Diğer** seçeneğini belirleyerek verilere nasıl bağlanabileceğiniz gösterilmektedir.
+Power BI Desktop'ta kullanılabilecek *çok çeşitli* veri kaynakları bulunur. Aşağıdaki resimde, **Veri Al** > **Diğer** > **Web**'e seçerek verilere nasıl bağlanacağınız gösterilir.
 
-![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
+![Web'den veri alma](media/desktop-connect-to-data/get-data-from-the-web.png)
 
 ## <a name="example-of-connecting-to-data"></a>Verilere bağlanma örneği
+
 Bu örnekte, bir **Web** veri kaynağına bağlanacağız.
 
-Emekli olduğunuzu hayal edin: Bol bol güneş ışığının, düşük vergilerin ve yeterli sağlık hizmetlerinin bulunduğu bir yerde yaşamak istiyorsunuz. Belki de... bir veri analistisiniz ve müşterilerinize yardımcı olmak istiyorsunuz. Bu örnekte ise bir yağmurluk üreticisi olan müşterinizin satış için *çok* yağmur alan yerlere odaklanmasına yardımcı olmayı hedeflediğinizi varsayalım.
+Emekliye ayrıldığınızı hayal edin. Bol bol güneş ışığının, düşük vergilerin ve yeterli sağlık hizmetlerinin bulunduğu bir yerde yaşamak istiyorsunuz. Belki de... bir veri analistisiniz ve müşterilerinize yardımcı olmak istiyorsunuz. Bu örnekte ise bir yağmurluk üreticisi olan müşterinizin satış için *çok* yağmur alan yerlere odaklanmasına yardımcı olmayı hedeflediğinizi varsayalım.
 
 İşte size her iki senaryo için de bu konulara yönelik olarak işinize yarayacak veriler içeren bir web kaynağı:
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
-**Veri Al \> Web** seçeneğini belirleyin ve adresi yazın.
+**Veri Al** > **Diğer** > **Web**'i seçin. **Web'den** alanına adresi girin.
 
-![](media/desktop-connect-to-data/connecttodata_3.png)
+![Web kaynağı adresi girin](media/desktop-connect-to-data/connecttodata_3.png)
 
-**Tamam**'ı seçtiğinizde Power BI Desktop'ın **Sorgu** işlevi çalışmaya başlar. Power BI Desktop, web kaynağı ile bağlantı kurar ve **Gezgin** penceresi söz konusu web sayfasında bulduğu sonuçları görüntüler. Bu örnekte, bir tablonun (Tablo 0) yanı sıra genel Belge bulunur. Beklentilerimizi karşılayan tabloyu listeden seçiyoruz. **Gezgin** penceresi, bir önizleme görüntüler.
+**Tamam**'ı seçtiğinizde Power BI Desktop'ın *Sorgu* işlevi çalışmaya başlar. Power BI Desktop, web kaynağı ile bağlantı kurar ve **Gezgin** penceresi söz konusu web sayfasında bulduğu sonuçları görüntüler. Bu örnekte, bir tablonun yanı sıra genel Belgeyi de bulur. Beklentilerimizi karşılayan tabloyu listeden seçiyoruz. **Gezgin** penceresi, bir önizleme görüntüler.
 
-![](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
+![Gezgin'de verilerin önizlemesi](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
-Bu noktada, tabloyu yükleyebilir veya pencerenin alt kısmından **Düzenle**'yi seçerek tabloyu yüklemeden önce sorguyu düzenleyebiliriz.
+Bu noktada, tabloyu yüklemeden önce sorguyu düzenlemek için pencerenin alt kısmından **Veri Dönüştürme**'yi seçebilir veya doğrudan tabloyu yükleyebilirsiniz.
 
-**Düzenle**'yi seçersek tablo yüklenir ve Sorgu Düzenleyicisi başlatılır. **Sorgu Ayarları** bölmesi görüntülenir. (Aksi halde, şeritten **Görünüm**'ü seçip **Göster \> Sorgu Ayarları** seçeneğini belirleyerek **Sorgu Ayarları** bölmesini görüntüleyebilirsiniz.) Aşağıdaki gibi bir ekranla karşılaşırsınız.
+Tabloyu yüklemek ve Power Query Düzenleyicisi'ni başlatmak için **Veri Dönüştürme**'yi seçin. **Sorgu Ayarları** bölmesi görüntülenir. Görüntülenmezse, şeritten **Görünüm**'ü seçin ve sonra da **Sorgu Ayarları**'nı seçerek **Sorgu Ayarları** bölmesini görüntüleyin. Aşağıdaki gibi bir ekranla karşılaşırsınız.
 
-![](media/desktop-connect-to-data/designer_gsg_editquery.png)
+![Sorgu Ayarları ile Power Query Düzenleyicisi](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
-Metin türünde olan tüm bu puanların sayı olmasına ihtiyacımız var. Sorun değil. Bunları değiştirmek için sütun başlığına sağ tıklayıp **Türü Değiştir \> Tam Sayı** seçeneğini belirlemeniz yeterlidir. Birden fazla sütun seçmek için öncelikle bir sütun seçip **SHIFT** tuşunu basılı tutarak bitişik daha fazla sütun seçin ve ardından bir sütun başlığına sağ tıklayarak seçili tüm sütunları değiştirin. Bitişik olmayan sütunları seçmek için **CTRL** tuşunu kullanın.
+Metin türünde olan tüm bu puanların sayı olmasına ihtiyacımız var. Hiç sorun değil. Bunları değiştirmek için sütun üst bilgisine sağ tıklayıp **Türü Değiştir** > **Tamsayı**'yı seçmeniz yeterlidir. Birden fazla sütun seçmek için, öncelikle bir sütun seçip Shift tuşunu basılı tutarak bitişiğindeki diğer sütunları seçin ve ardından bir sütun başlığına sağ tıklayarak seçili tüm sütunları değiştirin. Bitişik olmayan sütunları seçmek için Ctrl tuşunu kullanın.
 
-![](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
+![Veri türünü Tamsayı olarak değiştirme](media/desktop-connect-to-data/designer_gsg_changedatatype.png)
 
-**Sorgu Ayarları**'nda bulunan **Uygulanan Adımlar**, yapılan değişiklikleri gösterir. Siz verilerde değişiklik yaptıkça Sorgu Düzenleyicisi, bu değişiklikleri **Uygulanan Adımlar** bölümünde kaydeder. Adımları gerektiği şekilde ayarlayabilir, yeniden ziyaret edebilir, yeniden düzenleyebilir veya silebilirsiniz.
+**Sorgu Ayarları**'ndaki **UYGULANAN ADIMLAR**, yapılan tüm değişiklikleri yansıtır. Siz verilerde değişiklik yaptıkça Power Query Düzenleyicisi bu değişiklikleri **UYGULANAN ADIMLAR** bölümünde kaydeder. Adımları gerektiği şekilde ayarlayabilir, yeniden ziyaret edebilir, yeniden düzenleyebilir veya silebilirsiniz.
 
-![](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
+![Uygulanan adımlar](media/desktop-connect-to-data/designer_gsg_appliedsteps_changedtype.png)
 
-Tabloda yapılan ek değişiklikler tablo yüklendikten sonra da gerçekleştirilebilir ancak şimdilik bunu yapmayacağız. İşlem tamamlandığında **Giriş** şeridinden **Kapat ve Uygula**'yı seçeriz ve Power BI Desktop, yaptığımız değişiklikleri uygulayıp Sorgu Düzenleyicisi'ni kapatır.
+Tabloda yapılan ek değişiklikler tablo yüklendikten sonra da gerçekleştirilebilir ancak şimdilik bunu yapmayacağız. İşlemi tamamladığınızda **Giriş** şeridinden **Kapat ve Uygula**'yı seçin; Power BI Desktop değişiklikleri uygular ve Power Query Düzenleyicisi'ni kapatır.
 
-![](media/desktop-connect-to-data/connecttodata_closenload.png)
+![Kapat ve Uygula](media/desktop-connect-to-data/connecttodata_closenload.png)
 
 Veri modeli yüklüyken, Power BI Desktop'taki **Rapor** görünümünde alanları tuvale sürükleyerek görselleştirmeler oluşturmaya başlayabiliriz.
 
-![](media/desktop-connect-to-data/connecttodata_dragontoreportview.png)
+![Bir değeri tuvale sürükleme](media/desktop-connect-to-data/connecttodata_dragontoreportview.png)
 
-Bunun tek veri bağlantısı bulunan basit bir model olduğunun farkındayız. Çoğu Power BI Desktop raporunda ise zengin bir veri modeli oluşturan ilişkiler ile ihtiyaçlarınızı karşılamak üzere şekillendirilmiş farklı veri kaynaklarına yönelik bağlantılar bulunur. 
+Kuşkusuz bu tek veri bağlantısı bulunan basit bir modeldir. Çoğu Power BI Desktop raporunda ise zengin bir veri modeli oluşturan ilişkiler ile ihtiyaçlarınızı karşılamak üzere şekillendirilmiş farklı veri kaynaklarına yönelik bağlantılar bulunur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'taki Veri Kaynakları](desktop-data-sources.md)
-* [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
+* [Power BI Desktop’taki Sorgu Düzenleyicisi'ni kullanma hakkında](desktop-query-overview.md)
+* [Power BI Desktop'ta veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme](desktop-common-query-tasks.md)   
 
 Bize geri bildirim sağlamak ister misiniz? Harika! Power BI Desktop’taki **Fikir Sunun** menü öğesini kullanın veya [Topluluk Geri Bildirimi](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)’ni ziyaret edin. Geri bildirimlerinizi sabırsızlıkla bekliyoruz!
 
-![](media/desktop-connect-to-data/sendfeedback.png)
+![Fikir sunun](media/desktop-connect-to-data/sendfeedback.png)
 

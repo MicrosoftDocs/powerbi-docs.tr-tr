@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866418"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709781"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma
 
@@ -58,6 +58,9 @@ Her görselin günlük bilgileri, aşağıdaki görev kategorilerini tamamlamak 
 * **Görsel görüntüleme**: Görselin ekranda çizilmesi için gereken süredir ve web görüntülerini getirme veya coğrafi kodlama için gereken süre de buna dahildir. 
 * **Diğer**: Görselin sorguları hazırlamak, diğer görsellerin tamamlanmasını beklemek veya arka planda farklı işlemler yapmak için ihtiyaç duyduğu süredir.
 
+**Süre (ms)** değerleri her işlem için *başlangıç* ve *bitiş* zaman damgası arasındaki farkı gösterir. Tuval ve görsel işlemlerinin çoğu, birden çok işlem tarafından paylaşılan tek bir Kullanıcı Arabirimi iş parçacığında sırayla yürütülür. Raporlanan süreler, diğer işlemlerin tamamlanması için kuyrukta bekleme süresini içerir. GitHub'daki [Performans Analizi örneğinde](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) ve bununla ilişkili [belgelerde](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx), görsellerin verileri nasıl kuyruğa aldığı ve nasıl işlediği konusundaki ayrıntılar sağlanır.
+
+
 ![Günlük bilgilerinin öğeleri](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 Performans Analizi'ni kullanarak ölçmek istediğiniz rapor öğeleriyle etkileşimde bulunduktan sonra **Durdur** düğmesini seçebilirsiniz. **Durdur**'u seçtikten sonra performans bilgileri analiz etmeniz için bölmede kalır.
@@ -89,3 +92,7 @@ Ayrıca yalnızca istediğiniz görselleri de yenileyebilirsiniz. Performans Ana
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
 
+Performans Analizi örneği hakkında bilgi için aşağıdaki kaynakları gözden geçirin.
+
+* [Performans Analizi örneği](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Performans Analizi örneği belgeleri](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

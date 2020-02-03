@@ -1,179 +1,168 @@
 ---
 title: Power BI Desktop'ta örnekten sütun ekleme
-description: Mevcut sütunları örnek olarak kullanıp Power BI Desktop'ta hızlıca yeni bir sütun oluşturma
+description: Mevcut sütunları örnek olarak kullanıp Power BI Desktop'ta hızla yeni bir sütun oluşturun.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d07cfda18f44a0872c8c9567aa29ac49a98622a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869433"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538582"
 ---
-# <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Power BI Desktop'ta örnekten sütun ekleme
-**Power BI Desktop**'ın Nisan 2017 sürümünden itibaren, **Sorgu Düzenleyicisi**'ni kullanarak modelinize yeni veri sütunları ekleyebilirsiniz. Bunun için yeni sütununuzda bir veya daha fazla örnek değer sağlamanız yeterlidir. Geçerli seçimi kullanarak yeni bir sütun örneği oluşturabilir veya bir tablodaki tüm (veya seçili) sütunları temel alan bir giriş sağlayabilirsiniz.
+# <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop'ta örneklerden sütun ekleme
+Power Query Düzenleyicisi'nde *örneklerden sütun ekleme* ile, yalnızca yeni sütunlar için bir veya birden fazla örnek değer sağlayarak veri modelinize yeni sütunlar ekleyebilirsiniz. Bir seçimden yeni sütun örnekleri oluşturabileceğiniz gibi, tablodaki tüm mevcut sütunları temel alarak giriş de sağlayabilirsiniz.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-Bu yaklaşım hızlı ve kolay bir şekilde yeni sütunlar oluşturmanıza yardımcı olur, ayrıca aşağıdaki durumlar için harikadır:
+*Örnekten sütun ekleme* yöntemini kullanmak hızlı ve kolay bir şekilde yeni sütunlar oluşturmanıza olanak tanır ve ayrıca aşağıdaki durumlar için harikadır:
 
-* Yeni sütununuzda hangi veri sonucunu elde etmek istediğinizi biliyorsunuz ancak hangi dönüştürme işleminin (veya dönüştürme işlemi koleksiyonunun) sizi bu sonuca götüreceğinden emin değilsiniz.
-* İhtiyacınız olan dönüştürme işlemlerini zaten biliyorsunuz ama bunları gerçekleştirmek için kullanıcı arabiriminde nereye tıklayacağınızdan veya neyi seçeceğinizden emin değilsiniz.
-* **M** dilinde *Özel Sütun* ifadesi kullanarak yapabileceğiniz dönüştürme işlemlerine hakimsiniz ancak söz konusu ifadelerden biri (veya daha fazlası) kullanıcı arabiriminde tıklanabilir veya eklenebilir değil.
+- Yeni sütununuzda hangi verileri elde etmek istediğinizi biliyorsunuz ancak hangi dönüştürme işleminin veya dönüştürme işlemi koleksiyonunun sizi bu sonuca götüreceğinden emin değilsiniz.
+- İhtiyacınız olan dönüştürme işlemlerini zaten biliyorsunuz ama bunları gerçekleştirmek için kullanıcı arabiriminde neleri seçeceğinizden emin değilsiniz.
+- *M* dilinde *Özel Sütun* ifadesi kullanarak yapabileceğiniz dönüştürme işlemlerine tümüyle hakimsiniz ama söz konusu ifadelerden biri veya daha fazlası kullanıcı arabiriminde yok.
 
-**Örneklerden sütun ekleme** özelliğini kullanmak kolay ve basittir. Sonraki birkaç bölümde, ne kadar kolay olduğunu göreceğiz.
+Örnekten sütun eklemek kolay ve sorunsuz bir işlemdir. Sonraki bölümlerde bunun ne kadar kolay olduğu gösterilmektedir.
 
-## <a name="use-query-editor-to-add-a-new-column-from-examples"></a>Örneklerden yeni sütun eklemek için Sorgu Düzenleyicisi'ni kullanma
-Bir örnekten yeni sütun oluşturmak için **Sorgu Düzenleyicisi**'ni başlatın. Bunu, **Power BI Desktop**'taki **Giriş** şeridinde bulunan **Sorguları Düzenle** seçeneğini belirleyerek yapabilirsiniz.
+## <a name="add-a-new-column-from-examples"></a>Örneklerden yeni sütun ekleme
 
-![](media/desktop-add-column-from-example/add-column-from-example_02.png)
+Wikipedia'dan örnek veriler almak için Power BI Desktop şeridinin **Giriş** sekmesinde **Veri Al** > **Web**'i seçin. 
 
-Bir web sayfasından veri almak için **Giriş** sekmesine gidin, **Veri Al > Web**’e tıklayın, ardından URL’yi görüntülenen iletişim kutusuna yapıştırın. Bu makalede bir Wikipedia makalesinin verileri kullanılmaktadır. Verileri kendiniz almak için aşağıdaki bağlantıya tıklayarak adımları izleyebilirsiniz:
+![Web'den Veri Al](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-* [**List of states and territories of the United States**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States) (Amerika Birleşik Devletleri'nin eyaletleri ve bölgeleri listesi)
+Görüntülenen iletişim kutusuna aşağıdaki URL'yi yapıştırın ve **Tamam**'ı seçin: 
 
-**Sorgu Düzenleyicisi**'ni başlatıp verileri yüklediğinizde, örneklerden sütün eklemeye başlayabilirsiniz. Yeni bir sütun eklemek için, **Sorgu Düzenleyicisi**'nde şeritteki **Sütun Ekle** sekmesini ve **Örneklerden Sütun**'u seçin. Açılan menüyü seçerseniz **Tüm Sütunlardan** (açılan menü yerine düğmeyi seçerseniz varsayılan seçenek budur) veya **Seçimden** seçeneğini belirleyebilirsiniz. Bu makalede, **Tüm Sütunlardan** seçeneğini belirleyerek ilerleyeceğiz.
+*https:\//wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States*
 
-![](media/desktop-add-column-from-example/add-column-from-example_03.png)
+**Gezgin** iletişim kutusunda **States of the United States of America** (Amerika Birleşik Devletleri'nin Eyaletleri) tablosunu ve sonra da **Veri Dönüştürme**'yi seçin. Tablo Power Query Düzenleyicisi'nde açılır.
 
-## <a name="the-add-column-from-examples-pane"></a>Örneklerden Sütun Ekle bölmesi
-Örneklerden yeni bir sütun eklemek üzere seçim yaptığınızda, yeni bir bölme görünür ve geçerli tablodaki sütunları gösterir. (Hepsini görmek için kaydırma yapmanız gerekebilir.) Ayrıca sağ tarafta da **Column1** gösterilir. Bu, **Power BI Desktop**'un örneklerinizden yola çıkarak oluşturduğu sütundur. Yeni **Column1** başlığının altında, Power BI’ın örneğinizle eşleşecek kurallar ve dönüştürmeler oluşturmak için kullandığı örnekleri girebileceğiniz boş hücreler bulunur.
+İsterseniz, Power BI Desktop'tan önceden yüklenmiş olan verileri açmak için şeridin **Giriş** sekmesinde **Sorguları Düzenle**'yi de seçebilirsiniz. Veriler Power Query Düzenleyicisi'nde açılır. 
 
-Bunun **Sorgu Ayarları** bölmesindeki bir **Uygulanan Adım** olduğuna dikkat edin. **Sorgu Düzenleyicisi** her zamanki gibi dönüştürme adımlarınızı kaydeder ve sırasıyla bunları sorguya uygular.
+![Power BI Desktop'tan Sorguları Düzenle'yi seçme](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-![](media/desktop-add-column-from-example/add-column-from-example_04.png)
+Power Query Düzenleyicisi'nde örnek veriler açıldıktan sonra şeritteki **Sütun Ekle** sekmesini ve sonra da **Örneklerden Sütun**'u seçin. Sütunu tüm mevcut sütunlardan oluşturmak için **Örneklerden Sütun** simgesinin kendisini seçebilir veya aşağı açılan oku seçerek **Tüm Sütunlardan** ile **Seçimden** arasında bir seçim yapabilirsiniz. Burada izlenen yol için **Tüm Sütunlardan** öğesini seçin.
 
-**Örneklerden Sütun Ekle** adı verilen bu bölme dört birincil alandan oluşur:
+![Örneklerden Sütun Ekle'yi seçme](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
-1. Özelliğin veya dönüştürmenin kısa bir açıklamasını içeren **Komut çubuğu**.
-2. Power BI'ın söz konusu özelliği geliştirmesine yardımcı olan **Geri Bildirim Gönder** seçeneği.
-3. Dönüştürmelerinizi işleyip sütunu eklemenizi veya iptal etmenizi sağlayan **Tamam** ve **İptal** düğmeleri.
-4. Satırlardan herhangi birine, söz konusu satırdaki diğer sütunlarla ilişkili olarak örnek değerlerinizi girebileceğiniz (Power BI'a örneklerinizi sağlamak için) yeni sütun alanı.
+## <a name="add-column-from-examples-pane"></a>Örneklerden Sütun Ekle bölmesi
+**Sütun Ekle** > **Örneklerden**'i seçtiğinizde tablonun üst kısmında **Örneklerden Sütun Ekle** bölmesi açılır. Mevcut sütunların sağ tarafında yeni **Sütun 1** görüntülenir (hepsini görmek için ekranı kaydırmanız gerekebilir). Örnek değerlerinizi **Sütun 1**'in boş hücrelerine girdiğinizde, Power BI örneklerinizle eşleşecek kurallar ve dönüştürmeler oluşturur; bunları kullanarak sütunun kalanını doldurur.
 
-![](media/desktop-add-column-from-example/add-column-from-example_05.png)
+**Örneklerden Sütun** seçeneğinin **Sorgu Ayarları** bölmesinde **Uygulanan Adım** olarak da gösterildiğine dikkat edin. Power Query Düzenleyicisi her zamanki gibi dönüştürme adımlarınızı kaydeder ve sırasıyla bunları sorguya uygular.
 
-Örneğinizi yeni sütuna yazdığınız sırada Power BI, algıladığı dönüştürmeleri temel alarak, oluşturacağı sütunun nasıl görüneceğine ilişkin bir önizleme sunar. Örneğin, tablonun ilk sütunundaki *Alabama* değerine karşılık olarak ilk satıra *Alabama* yazdınız. *Enter* tuşuna basar basmaz Power BI bu değeri temel alarak sütunu doldurur.
+![Örneklerden Sütun Ekle bölmesi](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
-Ancak, daha sonra *Massachusetts[E]* değerini içeren satıra gidip sondaki *[E]* kısmını sildiğinizi (artık istemediğiniz için) varsayalım. Power BI değişikliği algılar ve örneği kullanarak bir dönüşüm oluşturur. Orta bölmenin üst kısmındaki dönüşüm açıklamasına dikkat edin.
+Örneğinizi yeni sütuna yazdığınız sırada, Power BI oluşturduğu dönüştürmeleri temel alarak sütunun kalan bölümünün nasıl görüneceğine ilişkin bir önizleme gösterir. Örneğin, tablonun ilk sütunundaki **Alabama** değerine karşılık olarak ilk satıra *Alabama* yazdınız. Siz Enter tuşuna basar basmaz Power BI ilk sütun değerini temel alarak yeni sütunun kalan bölümünü doldurur ve sütunu **Ad ve posta kısaltması[12] - Kopya** olarak adlandırır.
 
-![](media/desktop-add-column-from-example/add-column-from-example_06.png)
+Şimdi yeni sütunun **Massachusetts[E]** satırına gidin ve dizenin **[E]** bölümün silin. Power BI değişikliği algılar ve örneği kullanarak bir dönüşüm oluşturur. Power BI, **Örneklerden Sütun Ekle** bölmesinde dönüştürmeleri açıklar ve sütunu **Sınırlandırıcıdan Önce Gelen Metin** olarak yeniden adlandırır. 
 
-Siz örnek sağlamaya devam ettiğiniz sırada, **Sorgu Düzenleyicisi** dönüştürmelere ekleme yapar. Memnun kaldığınızda, **Tamam**'ı seçip değişikliklerinizi işleyebilirsiniz.
+![Örneklerden dönüştürülen sütun](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-## <a name="see-add-column-from-examples-in-action"></a>Örneklerden Sütun Ekle'nin nasıl çalıştığını görün
-Nasıl çalıştığını görmek ister misiniz? Aşağıdaki videoda, bu örneğin önceki bölümlerinde sunulan veri kaynağından yararlanılarak, bu özelliğin nasıl kullanıldığı uygulamalı olarak gösterilmektedir. Bir göz atın ve birlikte ilerleyin!
+Siz örnek sağlamaya devam ettikçe Power Query Düzenleyicisi dönüştürmelere ekleme yapar. Memnun kaldığınızda, **Tamam**'ı seçip değişikliklerinizi kaydedin. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
+Sütun başlığına çift tıklayıp **Yeniden Adlandır**'ı seçerek yeni sütunu istediğiniz gibi yeniden adlandırabilirsiniz. 
 
-## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-**Örneklerden Sütun Ekle**'yle kullanılabilen birçok dönüştürme vardır, ancak tüm dönüştürmeler bu özelliğin kapsamında değildir. Aşağıdaki listede desteklenen tüm dönüşümler verilmiştir.
+Örnek veri kaynağını kullanarak **Örneklerden Sütun Ekle** işleminin nasıl çalıştığını görmek için bu videoyu izleyin: 
 
-* **Başvuru**
+[Power BI Desktop: Örneklerden Sütun Ekle](https://www.youtube.com/watch?v=-ykbVW9wQfw). 
+
+## <a name="list-of-supported-transformations"></a>Desteklenen dönüştürmeler listesi
+**Örneklerden Sütun Ekle** kullanılırken dönüştürmelerin hepsi değilse bile birçoğu kullanılabilir. Aşağıdaki listede desteklenen dönüştürmeler gösterilir:
+
+**Genel**
+
+- Koşullu Sütun
+
+**Başvuru**
   
-  * Belirli bir sütuna yönelik başvuru (kırpma, temizleme ve büyük/küçük harf dönüştürmeleri dahil)
+- Kırpma, temizleme ve büyük/küçük harf dönüştürmeleri gibi, belirli bir sütuna yönelik başvuru
 
-* **Metin dönüştürmeleri**
-  
-  * Birleştir (hazır dize ve tam sütun değerlerinin birleştirilmesini destekler)
-  * Değiştir
-  * Uzunluk
-  * Ayıkla   
-    * İlk Karakterler
-    * Son Karakterler
-    * Aralık
-    * Sınırlandırıcıdan Önce Gelen Metin
-    * Sınırlandırıcıdan Sonra Gelen Metin
-    * Sınırlandırıcılar Arasındaki Metin
-    * Uzunluk
+**Metin dönüştürmeleri**
 
-* Aşağıdaki desteklenen **metin dönüştürmeleri**, **Power BI Desktop**'ın Kasım 2017 sürümü itibarıyla kullanılabilir:
-    
-  * Karakterleri Kaldır
-  * Karakterleri Tut
+- Birleştir (hazır dize ve tam sütun değerlerinin birleştirilmesini destekler)
+- Değiştir
+- Uzunluk
+- Ayıkla   
+  - İlk Karakterler
+  - Son Karakterler
+  - Aralık
+  - Sınırlandırıcıdan Önce Gelen Metin
+  - Sınırlandırıcıdan Sonra Gelen Metin
+  - Sınırlandırıcılar Arasındaki Metin
+  - Uzunluk
+  - Karakterleri Kaldır
+  - Karakterleri Tut
 
 > [!NOTE]
 > Tüm *Metin* dönüştürmeleri, sütun değerinin kırpılması, temizlenmesi veya sütun değerine büyük/küçük harf dönüştürmesi uygulanması gerekebileceğini hesaba katar.
-> 
-> 
 
-* **Tarih dönüştürmeleri**
-  
-  * Gün
-  * Haftanın Günü
-  * Haftanın Günü Adı
-  * Yılın Günü
-  * Ay
-  * Ayın Adı
-  * Yılın Çeyreği
-  * Ayın Haftası
-  * Yılın Haftası
-  * Yıl
-  * Yaş
-  * Yıl Başı
-  * Yıl Sonu
-  * Ay Başı
-  * Ay Sonu
-  * Çeyrek Başı
-  * Ayın Günleri
-  * Çeyrek Sonu
-  * Hafta Başı
-  * Hafta Sonu
-  * Ayın Günü
-  * Günün Başlangıcı
-  * Gün Sonu
+**Tarih dönüştürmeleri**
 
+- Gün
+- Haftanın Günü
+- Haftanın Günü Adı
+- Yılın Günü
+- Ay
+- Ay Adı
+- Yılın Çeyreği
+- Ayın Haftası
+- Yılın Haftası
+- Yıl
+- Yaş
+- Yıl Başı
+- Yıl Sonu
+- Ay Başı
+- Ay Sonu
+- Çeyrek Başı
+- Ayın Günleri
+- Çeyrek Sonu
+- Hafta Başı
+- Hafta Sonu
+- Ayın Günü
+- Günün Başlangıcı
+- Gün Sonu
 
-* **Saat dönüştürmeleri**
-  
-  * Saat
-  * Dakika
-  * Saniye  
-  * Yerel Saat Olarak
+**Saat dönüştürmeleri**
+
+- Hour
+- Dakika
+- Second  
+- Yerel Saat Olarak
 
 > [!NOTE]
 > Tüm *Tarih* ve *Saat* dönüştürmeleri, sütun değerinin *Tarih*, *Saat* veya *Tarih/Saat* olarak dönüştürülmesi gerekebileceğini hesaba katar.
-> 
-> 
 
-* **Sayı dönüştürmeleri** 
+**Sayı dönüştürmeleri** 
 
-  * Mutlak Değer
-  * Arkkosinüs
-  * Arksinüs
-  * Arktanjant
-  * Sayıya Dönüştür
-  * Kosinüs
-  * Küp
-  * Böl
-  * Üs
-  * Faktöriyel
-  * Tam Sayı-Böl
-  * Çifttir
-  * Tektir
-  * Ln
-  * 10 Tabanında Logaritma
-  * Mod
-  * Çarp
-  * Aşağı Yuvarla
-  * Yukarı Yuvarla
-  * İşaret
-  * Sinüs
-  * Karekök
-  * Kare
-  * Çıkar
-  * Toplam
-  * Tanjant
+- Mutlak Değer
+- Arkkosinüs
+- Arksinüs
+- Arktanjant
+- Sayıya Dönüştür
+- Kosinüs
+- Küp
+- Böl
+- Üs
+- Faktöriyel
+- Tam Sayı-Böl
+- Çifttir
+- Tektir
+- Ln
+- 10 Tabanında Logaritma
+- Mod
+- Çarp
+- Aşağı Yuvarla
+- Yukarı Yuvarla
+- İşaret
+- Sinüs
+- Karekök
+- Kare
+- Çıkar
+- Toplam
+- Tanjant
+- Gruplandırma/Aralıklar
 
-* Aşağıdaki desteklenen **sayı dönüştürmeleri**, **Power BI Desktop**'ın Kasım 2017 sürümü itibarıyla kullanılabilir:
-
-  * Gruplandırma/Aralıklar
-
-* **Genel**
-  
-  * Koşullu Sütun
