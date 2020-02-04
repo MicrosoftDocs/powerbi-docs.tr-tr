@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: DirectQuery model kılavuzu
               href: directquery-model-guidance.md
+            - name: Bileşik model kılavuzu
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Rapor Oluşturma
-          items:
             - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
               href: report-page-tooltips.md
             - name: Rapor sayfası detaylandırmayı kullanma
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: SSRS raporlarını Power BI’a geçirme
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: Yönetim ve dağıtım
+          items:
+            - name: Şirket içi veri ağ geçidi boyutlandırması
+              href: gateway-onprem-sizing.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: Çalışmanızı paylaşma
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Power BI kullanımını izleme
+            - name: Klasik çalışma alanlarında kullanımı izleme
               href: service-usage-metrics.md
+            - name: Yeni çalışma alanlarında kullanımı izleme
+              href: service-modern-usage-metrics.md
         - name: Lisanslama
           items:
             - name: Power BI'a kaydolma
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
               href: service-export-to-pbix.md
-            - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
-              href: service-url-filters.md
             - name: SAP değişkenlerini düzenleme
               href: service-edit-sap-variables.md
             - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
@@ -691,8 +691,10 @@
           items:
             - name: Panoları ve raporları paylaşma
               href: service-share-dashboards.md
-            - name: Filtrelenmiş rapor paylaşma
+            - name: Rapor filtreleme ve paylaşma
               href: service-share-reports.md
+            - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
+              href: service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama
               href: service-report-subscribe.md
             - name: SharePoint Online'a rapor ekleme
