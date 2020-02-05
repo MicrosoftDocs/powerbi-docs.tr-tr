@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76538782"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamaları kullanma

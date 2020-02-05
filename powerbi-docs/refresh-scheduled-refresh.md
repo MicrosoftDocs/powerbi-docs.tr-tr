@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958414"
 ---
 # <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma

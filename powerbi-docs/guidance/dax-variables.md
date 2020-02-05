@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700720"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: Formüllerinizi geliştirmek için değişkenleri kullanma
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-EARLIER işlevi, _geçerli satır bağlamında_ **Subcategory Sales** sütun değerine başvurmak için kullanılır.
+EARLIER işlevi, _geçerli satır bağlamında_**Subcategory Sales** sütun değerine başvurmak için kullanılır.
 
-Hesaplanmış sütun tanımı EARLIER işlevi yerine bir değişken kullanılarak geliştirilebilir. **CurrentSubcategorySales** değişkeni _geçerli satır bağlamında_ **Subcategory Sales** sütun değerini depolar ve RETURN ifadesi bunu değiştirilmiş filtre bağlamı içinde kullanır.
+Hesaplanmış sütun tanımı EARLIER işlevi yerine bir değişken kullanılarak geliştirilebilir. **CurrentSubcategorySales** değişkeni _geçerli satır bağlamında_**Subcategory Sales** sütun değerini depolar ve RETURN ifadesi bunu değiştirilmiş filtre bağlamı içinde kullanır.
 
 ```dax
 Subcategory Sales Rank =

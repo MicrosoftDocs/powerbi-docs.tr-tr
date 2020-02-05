@@ -11,10 +11,10 @@ ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74907676"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler

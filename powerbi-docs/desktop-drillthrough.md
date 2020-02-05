@@ -10,10 +10,10 @@ ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74311019"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma

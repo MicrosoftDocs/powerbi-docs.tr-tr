@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
 ms.openlocfilehash: 0e1f3361abfc4f45f71edaf82a197cfa3ea8cad3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74695439"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci nesnesini kullanın. Panoları, kutucukları veya raporları ekleyebilirsiniz. Bu örnekte belirli bir çalışma alanının ilk panosunu, kutucuğunu veya raporunu nasıl alacağınız gösterilmiştir.
 
-[App Owns Data örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
+[App Owns Data örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
 #### <a name="reports"></a>Raporlar
 
@@ -243,7 +243,7 @@ JavaScript API’sini kullanarak bir ekleme belirteci oluşturabilirsiniz. Eklem
 > [!IMPORTANT]
 > Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
 
-[Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) **Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
+[Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
 **EmbedConfig** ve **TileEmbedConfig** için bir sınıf oluşturulur. **Models\EmbedConfig.cs** ve **Models\TileEmbedConfig.cs** içinde bir örnek mevcuttur.
 

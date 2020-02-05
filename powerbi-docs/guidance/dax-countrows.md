@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fd3b50e9016298db8b692d6a2f3549b770f143e8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700674"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: COUNT yerine COUNTROWS kullanma

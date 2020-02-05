@@ -11,10 +11,10 @@ ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74163760"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI hizmetinde veri uyarıları
@@ -107,7 +107,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
 1. Power BI menü çubuğundaki dişli simgesini ve **Ayarlar** öğesini seçin.
 
-    ![dişli simgesi](media/service-set-data-alerts/powerbi-gear-icon.png)geçin.
+    ![dişli simgesi](media/service-set-data-alerts/powerbi-gear-icon.png).
 
 1. **Ayarlar** bölümünden **Uyarılar**'ı seçin.
 

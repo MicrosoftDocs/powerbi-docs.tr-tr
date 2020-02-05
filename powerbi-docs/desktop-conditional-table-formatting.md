@@ -10,10 +10,10 @@ ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75730534"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme kullanma 

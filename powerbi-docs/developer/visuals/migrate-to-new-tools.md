@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: d9af0ab870732990201ab3478d71fdafa9e13439
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76818836"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>Yeni powerbi-visuals-tools 3.*x* sürümüne geçiş yapın

@@ -11,10 +11,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75223775"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI

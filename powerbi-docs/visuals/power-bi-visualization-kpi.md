@@ -7,15 +7,15 @@ featuredvideoid: xmja6EpqaO0
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 06/24/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762382"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76974999"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Ana performans göstergesi (KPI) görselleştirmeleri oluşturma
 
