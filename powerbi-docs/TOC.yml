@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: GitHub örneğine bağlanma
           href: service-tutorial-connect-to-github.md
+        - name: Excel’de Çözümleme’yi kullanma
+          href: service-tutorial-analyze-in-excel.md
         - name: Bilişsel Hizmetler'i kullanma
           href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning tümleştirmesi
