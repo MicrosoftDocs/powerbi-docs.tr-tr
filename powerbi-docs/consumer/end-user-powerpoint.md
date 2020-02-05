@@ -10,10 +10,10 @@ ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74830579"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
@@ -27,7 +27,7 @@ Power BI ile raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI ra
 * Rapora eklediğiniz filtre ve dilimleyici ayarlarını koruyabilirsiniz.
 * PowerPoint’te Power BI raporuna bağlanan bir bağlantı oluşturulur.
 
-**Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
+**Power BI raporunuzu****PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI raporunuzu PowerPoint’e aktarma
 **Power BI hizmetinde**, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş**'ten, **Uygulamalar**’dan veya gezinti bölmesindeki başka bir kapsayıcıdan bir rapor seçebilirsiniz.

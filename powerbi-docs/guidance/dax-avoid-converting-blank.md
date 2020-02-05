@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700398"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: BOŞLUKLARI değerlere dönüştürmekten kaçınma

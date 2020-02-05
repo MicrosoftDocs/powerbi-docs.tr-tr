@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265352"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
@@ -119,7 +119,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 ### <a name="september-2018"></a>Eylül 2018
 * Power BI hizmetinde [pano yorumlama](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/).
 * [Power BI Giriş ve Genel Arama](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search/)'nın genel önizlemesi.
-* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) [sorguları izleme](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) özelliği.
+* [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)[sorguları izleme](https://powerbi.microsoft.com/blog/query-metrics-available-in-power-bi-premium-capacity-metrics-app/) özelliği.
 
 ### <a name="august-2018"></a>Ağustos 2018
 * Power BI Premium için [Kapasite İzleme uygulaması](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
@@ -353,7 +353,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 * "is" için otomatik tamamlama: Sütun adı ve ardından "is" yazdığınızda Soru-Cevap size değer önerisinde bulunacak.
 
-***Mobil***
+***Cep***
 
 * KPI'ler Apple Watch cihazınızda: KPI ve kart kutucuklarınızı Power BI uygulamasını açmadan takip etme.
 
@@ -516,7 +516,7 @@ Ayrıntılar ve güncelleştirmelerin çoğunu gösteren video için [Power BI B
 **10 Aralık 2015**
 
 * Rapor sayfalarını panoya sabitleme
-* Pano kutucuklarını yenileme
+* Pano kutucuklarını yenile
 * Dilimleyicilerde görüntü kullanma
 * Rapor görselleri arasındaki etkileşimi değiştirme
   

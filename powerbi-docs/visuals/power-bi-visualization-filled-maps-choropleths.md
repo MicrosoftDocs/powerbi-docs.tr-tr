@@ -11,10 +11,10 @@ ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75757865"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI'da kartogram (koroplet harita) oluşturma ve kullanma
@@ -63,7 +63,7 @@ Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
    > 
    > 
 
-[VİDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+[VİDEO https://www.youtube.com/embed/ajTPGNpthcg]
 
 ### <a name="create-a-filled-map"></a>Kartogram oluşturma
 1. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    
@@ -130,7 +130,7 @@ Belirli durumlarda harita verileri kafa karıştırıcı olabilir.  Örneğin, b
 
 Power BI Desktop'ta veri kümesini düzenleme izniniz varsa haritalarla ilgili kafa karıştırıcı durumların ele alınmasına yardımcı olabilecek şu videoyu izleyin.
 
-[VİDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+[VİDEO https://www.youtube.com/embed/Co2z9b-s_yM]
 
 Enlem ve boylam verilerine erişiminiz yoksa ama veri kümesi üzerinde düzenleme erişiminiz varsa [veri kümenizi güncelleştirmek için bu yönergeleri izleyin](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

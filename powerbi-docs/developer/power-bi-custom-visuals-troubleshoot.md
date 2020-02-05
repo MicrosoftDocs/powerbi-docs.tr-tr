@@ -9,10 +9,10 @@ ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999779"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Power BI görselleriyle ilgili sorunları giderme
@@ -38,7 +38,7 @@ Bu simgeyi görmüyorsanız görselin Power BI ayarlarında etkinleştirildiğin
 
 Görsel projenizin kökünde, terminalinizin komut satırına `pbiviz start` komutunu girerek görsel sunucuyu çalıştırın. Sunucu çalışmıyorsa SSL sertifikaları düzgün bir şekilde yüklenmemiş olabilir.
 
-Tüm sorularınız, yorumlarınız veya sorunlarınız için Power BI görselleri destek takımına başvurmaktan çekinmeyin: *pbicvsupport@microsoft.com*  .
+Tüm sorularınız, yorumlarınız veya sorunlarınız için Power BI görselleri destek takımına başvurmaktan çekinmeyin: *pbicvsupport@microsoft.com* .
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

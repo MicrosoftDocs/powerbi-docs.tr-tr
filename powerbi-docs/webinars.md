@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
 ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75837581"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri

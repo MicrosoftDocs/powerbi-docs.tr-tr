@@ -11,10 +11,10 @@ ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74831122"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
@@ -53,7 +53,7 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 
 5. E-posta iletisinin **Konu** ve **İleti** ayrıntılarını doldurun. 
 
-5. Aboneliğiniz için **Sıklık** seçin: **Günlük**, **Saatlik**, **Haftalık**, **Aylık**, veya **Veri Yenilemesinden Sonra (Günlük)** .  Abonelik e-postasını yalnızca belirli günlerde almak için **Saatlik** veya **Haftalık** seçeneklerinden birini belirleyip bunu hangi günlerde almak istediğinizi belirtin.  Örneğin abonelik e-postasını yalnızca iş günleri almak istiyorsanız **Haftalık** seçeneğini belirtin ve **Cts** ile **Paz** kutularının işaretini kaldırın.  **Aylık** seçeneğini belirlerseniz, abonelik e-postalarını ayın hangi günlerinde almak istediğinizi belirtin.  
+5. Aboneliğiniz için **Sıklık** seçin: **Günlük**, **Saatlik**, **Haftalık**, **Aylık**, veya **Veri Yenilemesinden Sonra (Günlük)**.  Abonelik e-postasını yalnızca belirli günlerde almak için **Saatlik** veya **Haftalık** seçeneklerinden birini belirleyip bunu hangi günlerde almak istediğinizi belirtin.  Örneğin abonelik e-postasını yalnızca iş günleri almak istiyorsanız **Haftalık** seçeneğini belirtin ve **Cts** ile **Paz** kutularının işaretini kaldırın.  **Aylık** seçeneğini belirlerseniz, abonelik e-postalarını ayın hangi günlerinde almak istediğinizi belirtin.  
 
 6. **Günlük**, **Saatlik**, **Aylık** veya **Haftalık**’ı seçerseniz, abonelik için **Zamanlanan Saat**’i de seçebilirsiniz.  Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz.  Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz.  **Saatlik**’i seçerseniz aboneliğin başlamasını istediğiniz **Zamanlanan Saati** belirleyin. E-posta, bu ayardan sonraki her saat çalışır.
 

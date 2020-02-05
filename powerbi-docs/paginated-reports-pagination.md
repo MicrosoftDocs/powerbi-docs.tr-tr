@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 5c2dc39f05609da8a460ac7575498c0df6a96c55
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76160892"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarında sayfalandırma
@@ -73,17 +73,17 @@ ms.locfileid: "76160892"
   
 - **ResetPageNumber** özelliği, sayfa sonu oluştuğunda sayfa numarasının 1’e sıfırlanıp sıfırlanmayacağını gösterir. Bu özelliğin değeri True olduğunda sayfa numarası sıfırlanır.  
   
- BreakLocation özelliğini **Tablix Özellikleri**, **Dikdörtgen Özellikleri** veya **Grup Özellikleri** iletişim kutularında ayarlayabilirsiniz. Ancak Disabled, ResetPageNumber ve PageName özelliklerini Report Builder Özellikleri bölmesinde ayarlamanız gerekir. Özellikler bölmesi kategoriye göre düzenlendiyse, özellikleri **PageBreak** kategorisinde bulabilirsiniz. Gruplar için **PageBreak** kategorisi **Group** kategorisinin içinde yer alır.  
+ BreakLocation özelliğini **Tablix Özellikleri**, **Dikdörtgen Özellikleri** veya **Grup Özellikleri** iletişim kutularında ayarlayabilirsiniz. Ancak Disabled, ResetPageNumber ve PageName özelliklerini Rapor Oluşturucusu Özellikleri bölmesinde ayarlamanız gerekir. Özellikler bölmesi kategoriye göre düzenlendiyse, özellikleri **PageBreak** kategorisinde bulabilirsiniz. Gruplar için **PageBreak** kategorisi **Group** kategorisinin içinde yer alır.  
   
- Disabled ve ResetPageNumber özelliklerinin değerlerini ayarlamak için sabitlerin yanı sıra basit ve karmaşık ifadeleri de kullanabilirsiniz. Ancak, BreakLocation özelliği ile ifade kullanamazsınız. İfadeleri yazma ve kullanma hakkında daha fazla bilgi edinmek için bkz. [Power BI Report Builder’daki ifadeler](report-builder-expressions.md).  
+ Disabled ve ResetPageNumber özelliklerinin değerlerini ayarlamak için sabitlerin yanı sıra basit ve karmaşık ifadeleri de kullanabilirsiniz. Ancak, BreakLocation özelliği ile ifade kullanamazsınız. İfadeleri yazma ve kullanma hakkında daha fazla bilgi edinmek için bkz. [Power BI Rapor Oluşturucusu’ndaki ifadeler](report-builder-expressions.md).  
   
- Raporunuzda, **Globals** koleksiyonunu kullanarak mevcut sayfa adlarına veya sayfa numaralarına başvuran ifadeleri yazabilirsiniz. Daha fazla bilgi için, Report Builder ve Reporting Services belgelerindeki [Yerleşik Genel Değişkenler ve Kullanıcı Başvuruları](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) bölümüne bakın.
+ Raporunuzda, **Globals** koleksiyonunu kullanarak mevcut sayfa adlarına veya sayfa numaralarına başvuran ifadeleri yazabilirsiniz. Daha fazla bilgi için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Yerleşik Genel Değişkenler ve Kullanıcı Başvuruları](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) bölümüne bakın.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Excel çalışma sayfası sekmelerini adlandırma
 
  Bu özellikler, raporları Excel çalışma kitapları olarak dışarı aktardığınızda yararlı olur. Raporu dışarı aktarırken çalışma sayfası sekmesi için bir varsayılan ad belirtmek amacıyla InitialPage özelliğini, her çalışma sayfası için farklı adlar sağlamak amacıyla da sayfa sonlarını ve PageName özelliğini kullanın. Sayfa sonuyla tanımlanan her yeni rapor sayfası, PageName özelliğinin değeriyle adlandırılan farklı bir çalışma sayfasına aktarılır. PageName özelliği boş olmasına rağmen raporun ilk sayfa adı bulunuyorsa, Excel çalışma kitabındaki tüm çalışma sayfaları aynı adı (ilk sayfa adını) kullanır.  
   
- Raporlar Excel’e aktarıldığında bu özelliklerin nasıl çalıştığı hakkında daha fazla bilgi edinmek için, Report Builder ve Reporting Services belgelerindeki [Microsoft Excel’e Aktarma](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs?view=sql-server-2017) bölümüne bakın.  
+ Raporlar Excel’e aktarıldığında bu özelliklerin nasıl çalıştığı hakkında daha fazla bilgi edinmek için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Microsoft Excel’e Aktarma](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs?view=sql-server-2017) bölümüne bakın.  
   
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76040371"
 ---
 # <a name="use-report-page-drillthrough"></a>Rapor sayfası detaylandırmayı kullanma

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975045"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Power BI ile, Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI, hizmete bağlanmak için sizin kimlik bilgilerinizi kullanarak başlar. Verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir panoyu ve çeşitli Power BI raporlarını içeren bir Power BI *çalışma alanı* oluşturur.
@@ -55,7 +55,7 @@ Belirli hizmetlere bağlanma hakkında ayrıntılı bilgi için hizmetlerle ilgi
 **Boş kutucuklar**  
 Power BI hizmete ilk kez bağlandığında panonuzda boş kutucuklar görebilirsiniz. 2 saat sonra da panonuz boşsa bağlantı başarısız olmuş olabilir. Sorunu düzeltme önerileri içeren bir hata iletisiyle karşılaşmadıysanız destek bileti oluşturun.
 
-* Sağ üst köşedeki soru işareti simgesini ( **?** ) seçin ve ardından **Yardım al** seçeneğini belirleyin.
+* Sağ üst köşedeki soru işareti simgesini (**?**) seçin ve ardından **Yardım al** seçeneğini belirleyin.
   
     ![Yardım al simgesi](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa
 * [Uygulamaları iş arkadaşlarınıza dağıtma](service-create-distribute-apps.md)
 * [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-* Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

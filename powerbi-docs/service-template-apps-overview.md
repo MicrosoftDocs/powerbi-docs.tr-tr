@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/17/2019
 ms.author: painbar
 ms.openlocfilehash: 528c86a75e2f255ad502dbdf973a61cd9de693d4
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75224141"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
