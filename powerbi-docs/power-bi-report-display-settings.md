@@ -39,7 +39,7 @@ Power BI hizmetinde, bir rapor açın ve sol üst menü çubuğundan **Görünü
 
 ![hizmet sayfası görünümü ayarları](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Sayfa görünümü ayarları, [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde bulunmaktadır. Düzenleme görünümünde, rapor sahibi bireysel rapor sayfalarına sayfa görünümü ayarları atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler. İş arkadaşlarınız Okuma görünümünde *bazı***Sayfa görünümü** ayarlarını değiştirebilir ancak bu değişiklikler rapordan çıktıklarında kaydedilmez.
+Sayfa görünümü ayarları, [Okuma görünümü ve Düzenleme görünümü](consumer/end-user-reading-view.md)'nde bulunmaktadır. Düzenleme görünümünde, rapor sahibi bireysel rapor sayfalarına sayfa görünümü ayarları atayabilir ve bu ayarlar raporla birlikte kaydedilir. İş arkadaşlarınızdan biri söz konusu raporu Okuma görünümü'nde açtığında, rapor sayfalarını rapor sahibinin ayarlarını kullanarak görüntüler. İş arkadaşlarınız Okuma görünümünde *bazı* **Sayfa görünümü** ayarlarını değiştirebilir ancak bu değişiklikler rapordan çıktıklarında kaydedilmez.
 
 ## <a name="page-view-settings"></a>Sayfa görünümü ayarları
 Birinci Sayfa görünümü ayarları kümesi, rapor sayfanızın tarayıcı penceresiyle ilgili görüntülenmesini denetler. Şunlardan birini seçin:

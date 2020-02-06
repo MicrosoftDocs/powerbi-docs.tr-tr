@@ -222,7 +222,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**, Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
-**Power BI Desktop***Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
+**Power BI Desktop** *Desktop* olarak da anılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
 
 **Power BI Embedded** Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
