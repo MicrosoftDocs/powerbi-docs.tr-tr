@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74958460"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
@@ -44,7 +44,7 @@ Bu öğreticide aşağıdaki adımları tamamlarsınız:
 
 AdventureWorksDW örnek veritabanını kullanarak temel bir Power BI raporu oluşturmak için aşağıdaki yordamı kullanın. Power BI’da sonraki adımlarda yapılandırıp yenileyebileceğiniz bir veri kümesi elde edebilmek için raporu Power BI hizmetinde yayımlayın.
 
-1. Power BI Desktop **Giriş** sekmesinde **Veri Al** \> **SQL Server** öğesini seçin.
+1. Power BI Desktop **Giriş** sekmesinde **Veri Al** \> **SQL Server** seçeneğini belirleyin.
 
 2. **SQL Server veritabanı** iletişim kutusuna **Sunucu** ve **Veritabanı (isteğe bağlı)** adlarını girin, **Veri Bağlantısı modu**’nun **İçeri Aktarma** olduğundan emin olun ve sonra **Tamam**’ı seçin.
 
@@ -85,7 +85,7 @@ AdventureWorksDW örnek veritabanını kullanarak temel bir Power BI raporu olu�
 
 6. Raporu "AdventureWorksProducts.pbix" adıyla kaydedin.
 
-7. **Giriş** sekmesinde **Yayımla** \> **Çalışma Alanım** \> **Seç** öğesini seçin. Sizden istenmesi durumunda Power BI hizmetinde oturum açın.
+7. **Giriş** sekmesinde **Yayımla** \> **Çalışma Alanım** \> **Seç** seçeneğini belirleyin. Sizden istenmesi durumunda Power BI hizmetinde oturum açın.
 
 8. **Başarılı** ekranında **'AdventureWorksProducts.pbix' dosyasını Power BI’da aç**’ı seçin.
 

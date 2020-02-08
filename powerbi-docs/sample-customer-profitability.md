@@ -10,10 +10,10 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265544"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
@@ -111,7 +111,7 @@ Bu panodaki **Hedef ve Gerçek** ile **Yıllara Göre Gelir Büyümesi** adlı i
 
     ![Carlos için sonuçlar](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Keşfetmeye devam edin. İlgi çekici bir şeyler bulursanız sağ üst köşeden **Sabitle** ![sabitle simgesi](media/sample-customer-profitability/power-bi-excel-pin.png) öğesini seçerek [panoya sabitleyin](service-dashboard-pin-tile-from-excel.md).
+4. Keşfetmeye devam edin. İlgi çekici bir şeyler bulursanız sağ üst köşeden **Sabitle** ![sabitle simgesi](media/sample-customer-profitability/power-bi-excel-pin.png) öğesini seçerek bunu [panoya sabitleyin](service-dashboard-pin-tile-from-excel.md).
 
 5. Panoya geri dönmek için tarayıcınızın geri okunu kullanın.
 

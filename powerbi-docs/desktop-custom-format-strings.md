@@ -10,10 +10,10 @@ ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791587"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
@@ -143,7 +143,7 @@ Aşağıdaki tabloda **kullanıcı tanımlı sayı biçimleri** oluşturmak içi
 | ( **:** ) | Tarih ayırıcısı. Bazı yerel ayarlarda, saat ayırıcısını temsil etmek için başka karakterler kullanılabilir. Saat ayırıcısı, saat değerleri biçimlendirilirken saat, dakika ve saniyeleri ayırır. Biçimlendirilmiş çıktıda saat ayırıcısı olarak kullanılan gerçek karakter, sistem ayarlarınıza göre belirlenir. |
 | ( **/** ) | Tarih ayırıcısı. Bazı yerel ayarlarda, tarih ayırıcısını temsil etmek için başka karakterler kullanılabilir. Tarih ayırıcısı, tarih değerleri biçimlendirilirken gün, ay ve yılı ayırır. Biçimlendirilmiş çıktıda tarih ayırıcısı olarak kullanılan gerçek karakter, sistem ayarlarınıza göre belirlenir. |
 | ( **E- E+ e- e+** ) | Bilimsel biçim. Biçim ifadesi E-, E+, e- veya e+ sembolünün sağında en az bir basamak yer tutucusu ( **0** veya **#** ) içeriyorsa, bu sayı bilimsel biçimde gösterilir veya sayı ile üssü arasına eklenir. Sağdaki basamak yer tutucularının sayısı, üs içindeki basamak sayısını belirler. Negatif üslerin yanına eksi işareti yerleştirmek için E-veya e- kullanın. Negatif üslerin yanına eksi işareti ve pozitif üslerin yanına artı işareti yerleştirmek için E+ veya e+ kullanın. |
-| **- + $**  ( ) | Değişmez bir karakter görüntüler. Listelenenlerin dışında bir karakter görüntülemek için, önüne bir ters eğik çizgi koyun (\) veya çift tırnak işareti (&quot; &quot;) içine alın. |
+| **- + $**  ( ) | Değişmez bir karakter görüntüler. Listelenenlerin dışında bir karakter görüntülemek için karakterin önüne bir ters eğik çizgi koyun (\)) veya bunu çift tırnak işareti (&quot; &quot;) içine alın. |
 | ( * *\** ) | Biçim dizesinde bir sonraki karakteri görüntüler. Özel anlamı olan bir karakteri değişmez karakter olarak görüntülemek için önüne bir ters eğik çizgi (\)) koyun. Ters eğik çizgi gösterilmez. Ters eğik çizgi kullanmak, sonraki karakteri çift tırnak işaretleri içine almakla aynıdır. Bir ters eğik çizgiyi göstermek için iki ters eğik çizgi (\\) kullanın. Tarih biçimlendirme ve saat biçimlendirme karakterleri (a, c, d, h, m, n, p, q, s, t, w, / ve :), sayısal biçimlendirme karakterleri (#, 0, %, E, e, virgül ve nokta) ve dize biçimlendirme karakterleri (@, &amp;, \&lt;, \&gt; ve !), değişmez karakter olarak gösterilemeyen karakterlerin örneklerindendir. |
 | (&quot;ABC&quot;) | Dizeyi çift tırnak işaretleri (&quot; &quot;) içinde görüntüler. |
 

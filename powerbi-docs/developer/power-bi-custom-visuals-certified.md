@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925565"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026681"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -45,7 +45,7 @@ Kodunuzu GitHub’da herkese açık bir şekilde paylaşmanız gerekmese de, kod
 
 Depoda tek bir Power BI görselinin kodu yer almalıdır. Birden çok Power BI görselinin kodunu veya ilişkisiz bir kod içeremez.
 
-Depoda **certification** adlı bir dal bulunmalıdır. Bu daldaki kaynak kodun gönderilen paketle eşleşmesi gerekir. Power BI görselinizi yeniden gönderiyorsanız, bu kod ancak sonraki gönderim işlemi sırasında güncelleştirilebilir.
+Depoda **certification** (küçük harf gereklidir) adlı bir dalın bulunması gerekir. Bu daldaki kaynak kodun gönderilen paketle eşleşmesi gerekir. Power BI görselinizi yeniden gönderiyorsanız, bu kod ancak sonraki gönderim işlemi sırasında güncelleştirilebilir.
 
 Power BI görseliniz özel npm paketleri veya git alt modülleri içeriyorsa, bu kodu içeren ek depolara erişim sağlamanız gerekir.
 

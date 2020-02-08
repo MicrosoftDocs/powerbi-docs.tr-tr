@@ -6,32 +6,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/14/2019
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540648"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895243"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Biçimlendirme panosuyla çalışmaya başlama
-Rapor üzerinde düzenleme izinleriniz varsa, sayısız biçimlendirme seçeneğinden yararlanabilirsiniz. **Power BI** raporlarında veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca x ekseninin ve y ekseninin gösterimini değiştirebilirsiniz. Hatta görselleştirmelerin, şekillerin ve başlıkların yazı tipi özelliklerini bile biçimlendirebilir, bu sayede raporlarınızın görünümü üzerinde tam denetim sahibi olursunuz.
+Rapor üzerinde düzenleme izinleriniz varsa, sayısız biçimlendirme seçeneğinden yararlanabilirsiniz. Power BI raporlarında veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca x ekseninin ve y ekseninin gösterimini değiştirebilirsiniz. Hatta görselleştirmelerin, şekillerin ve başlıkların yazı tipi özelliklerini bile biçimlendirebilirsiniz. Power BI raporlarınızın görünümü üzerinde size tam denetim olanağı sağlar.
 
-Başlamak için, Power BI Desktop veya Power BI hizmetinde bir rapor açın. Her ikisinde de aynı biçimlendirme seçenekleri sağlanır. Power BI hizmetinde rapor açarken, menü çubuğundan **Raporu Düzenle**'yi seçtiğinizden emin olun.  
+Başlamak için, Power BI Desktop veya Power BI hizmetinde bir rapor açın. Her ikisinde de aynı biçimlendirme seçenekleri sağlanır. Power BI hizmetinde rapor açarken, menü çubuğundan **Düzenle**'yi seçtiğinizden emin olun. 
 
 ![Düzenle seçeneğini gösteren menü çubuğu](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
-Raporları düzenlerken bir görselleştirme seçtiğinizde, görselleştirme eklemenize veya değiştirmenize olanak sağlayan **Görsel Öğeler** bölmesi görünür. Kullanılabilir görselleştirmelerin hemen altında üç simge bulunur: **Alanlar** simgesi (üst üste iki çubuk), **Biçim** simgesi (rulo fırça) ve **Analiz** simgesi (büyüteç). Aşağıdaki görüntüde **Alanlar** simgesi seçilidir ve bu seçim, simgenin altında sarı bir çizgi ile gösterilir.
+Raporları düzenlerken bir görselleştirme seçtiğinizde **Görsel Öğeler** bölmesi görünür. Görselleştirmeleri değiştirmek için bu bölmeyi kullanın. **Görsel Öğeler** bölmesinin hemen altında üç simge bulunur: **Alanlar** simgesi (üst üste çubuklar), **Biçim** simgesi (rulo fırça) ve **Analiz** simgesi (büyüteç). Aşağıdaki resimde **Alanlar** simgesi seçilidir ve bu seçim, simgenin altında sarı bir çizgiyle gösterilir.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
-**Biçim**'i seçtiğinizde simgenin altındaki alanda, geçerli durumda seçili olan görselleştirme için kullanılabilir renk ve eksen özelleştirmeleri görüntülenir.  
+**Biçim**'i seçtiğinizde simgenin altındaki alanda, geçerli durumda seçili olan görselleştirme için kullanılabilir özelleştirmeler görüntülenir.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
-Her bir görselleştirme için birden çok öğeyi özelleştirebilirsiniz:
+Her görselleştirmenin birçok öğesini özelleştirebilirsiniz. Kullanılabilir seçenekler, seçtiğiniz görsele göre değişiklik gösterir. Seçeneklerden bazıları şunlardır:
 
 * Gösterge
 * X ekseni
@@ -44,6 +44,12 @@ Her bir görselleştirme için birden çok öğeyi özelleştirebilirsiniz:
 * Arka plan
 * Görünüşü kilitle
 * Kenarlık
+* Araç İpuçları
+* Görsel üst bilgileri
+* Şekiller
+* Konum    
+ve daha fazlası.
+
 
 > [!NOTE]
 >  
@@ -51,49 +57,101 @@ Her bir görselleştirme için birden çok öğeyi özelleştirebilirsiniz:
 
 Ayrıca, seçili bir görselleştirmeniz yoksa simgelerin yerinde, sayfadaki tüm görselleştirmelere filtre uygulamanıza olanak sağlayan **Filtreler** bölümü görünür.
 
-Şimdi, renklerle çalışma ve eksenlerin özelliklerini değiştirme ile ilgili iki örnek inceleyelim. Bu makaleyi okumayı bitirdiğinizde renkler, eksenler ve etiketleri istediğiniz ölçüde özelleştirebileceksiniz.
+Biçimlendirme seçeneklerini kullanmayı öğrenmenin en iyi yolu bunları denemektir. İstediğiniz zaman değişikliklerinizi geri alabilir veya varsayılan değerlere döndürebilirsiniz. İnanılmaz sayıda seçenek sağlanmakta ve sürekli yenileri eklenmektedir. Biçimlendirme seçeneklerinin hepsini tek makalede açıklamak mümkün değildir. Ama başlangıç olarak birkaç seçeneği birlikte gözden geçirelim. 
+
+1. Görselde kullanılan renkleri değiştirme   
+2. Stil uygulama    
+3. Eksen özelliklerini değiştirme    
+4. Veri etiketleri ekleme    
+
+
+
 
 ## <a name="working-with-colors"></a>Renklerle çalışma
 
-Bir grafikteki renkleri özelleştirmek için gerekli adımlara göz atalım.
+Bir görselleştirmedeki renkleri özelleştirmek için gerekli adımlara göz atalım.
 
-1. Rapor tuvalinden bir **Kümelenmiş Sütun Grafik** seçiyoruz.
-2. Daha sonra, kullanılabilir özelleştirmeleri göstermek için **Biçim** simgesini seçiyoruz.
-3. Ardından, **Veri Renkleri** özelleştirmesinin solundaki aşağı oka tıklıyoruz. Böylece, seçtiğimiz görselleştirmeye özgü seçenekleri içeren ve Veri Renklerinin nasıl özelleştirilebileceğini gösteren bir alan açılır.
-4. **Veri Renkleri**, kullanılabilir özelleştirmeleri gösterecek şekilde aşağıya doğru genişler.  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_4a.png)
+1. Etkin duruma getirmek için bir görselleştirmeyi seçin.
 
-Şimdi birkaç değişiklik yapalım. Rengin yanındaki aşağı oku seçerek, kullanılabilir olan her bir veri serisinde değişiklik yapabiliriz. **Cost of living** bölümünü sarı, **Weather** bölümünü turuncu ve **Community well-being** bölümünü yeşil yapalım. Aşağıdaki ekranda **Cost of living** rengini değiştirdiğimiz son adım gösterilmektedir.  
+2. Boya rulosu simgesini seçin ve Biçimlendirme sekmesini açın. Biçimlendirme sekmesinde, seçili görselde kullanılabilecek tüm biçimlendirme öğeleri görüntülenir.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_5a.png)
+    ![Biçimlendirme bölmesi sekmesi seçili olan grafik](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-formatting.png)
 
-Değişiklikler yandaki görüntüde gösterilmektedir. İşte size çok renkli bir grafik! Renklerle çalışırken aklınızda bulunması gereken birkaç faydalı öğeden bahsedelim. Aşağıdaki listede verilen rakamlar, alttaki ekranda bu faydalı öğelere nereden erişebileceğinizi veya bunları nereden değiştirebileceğinizi de göstermektedir.
+3. Kullanılabilir özelleştirmelerini genişletmek için **Veri Renkleri**’ni seçin.  
 
-1. Renkleri sevmediniz mi? Sorun değil, varsayılan ayarlara geri dönmek için **Varsayılana geri dön** seçeneğini belirlemeniz yeterlidir. Bunu sadece bir renk için yapabileceğiniz gibi görselleştirmenin tamamı için de yapabilirsiniz.
-2. Palette olmayan bir rengi mi uygulamak istiyorsunuz? **Özel renk** seçeneğini belirleyip renk yelpazesinden istediğiniz rengi seçin.  
-   ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_6a.png)
+    ![Biçimlendirme bölmesi açık ve Veri renkleri genişletilmiş durumdaki grafik](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-colors.png)
+
+4. **Tümünü göster** ayarını Açık konuma getirin ve sütunlar için farklı renkler seçin.
+
+    ![Bazı sütunlarına yeni renklerin uygulandığı grafik](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-change-colors.png)
+
+İşte renklerle çalışırken yararlı olabilecek birkaç ipucu. Aşağıdaki listede verilen rakamlar, alttaki ekranda bu faydalı öğelere nereden erişebileceğinizi veya bunları nereden değiştirebileceğinizi de göstermektedir.
+
+1. Rengi sevmediniz mi? Sorun değil, varsayılan ayara geri dönmek için **Varsayılana geri dön** seçeneğini belirlemeniz yeterlidir. 
+
+2. Renk değişikliklerinden herhangi birini sevmediniz mi? **Veri rengi** bölümünün alt kısmında **Varsayılana geri dön**’ü seçin; renkleriniz varsayılan ayarlarına döndürülür. 
+
+3. Palette olmayan bir rengi mi uygulamak istiyorsunuz? **Özel renk** seçeneğini belirleyip renk yelpazesinden istediğiniz rengi seçin.  
+
+   ![Renk paleti açık durumda olan Veri rengi bölümü](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
 Yaptığınız değişikliği sevmediniz mi? Zaten alışkın olduğunuz bir yöntem olan **CTRL+Z** ile değişikliğinizi geri alabilirsiniz.
+
+## <a name="applying-a-style-to-a-table"></a>Tabloya stil uygulama
+Bazı Power BI görselleştirmelerinin **Stil** seçeneği vardır. Tek tıklamayla, biçimlendirme seçeneklerinin eksiksiz bir kümesi görselleştirmenize aynı anda uygulanır. 
+
+1. Bir tablo veya matrisi seçerek etkinleştirin.   
+1. Biçimlendirme sekmesini açın ve **Stil**’i seçin.
+
+   ![Biçimlendirme sekmesinden Stil’i seçme](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style.png)
+
+
+1. Açılan listeden bir stil seçin. 
+
+   ![Kalın üst bilgi parlak satırlar stili uygulanmış olarak aynı tablo](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style-flashy.png)
+
+Stil uyguladıktan sonra bile, bu görselleştirmenin özelliklerini (rengi de dahil) biçimlendirmeye devam edebilirsiniz.
+
 
 ## <a name="changing-axis-properties"></a>Eksen özelliklerini değiştirme
 
 X ekseni ve Y eksenini değiştirmek genellikle kullanışlı bir işlemdir. Renkleri değiştirirken yaptığınız gibi bir ekseni de, aşağıdaki görüntüde gösterilen şekilde eksenin solundaki aşağı ok simgesini seçerek değiştirebilirsiniz.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
+![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
-**X Ekseni** seçeneklerini daraltmak isterseniz **X Ekseni**'nin yanındaki yukarı oku seçin.
+Aşağıdaki örnekte Y eksenini biçimlendirmek için:
+- etiketleri görselleştirmenin sağ tarafına taşıdık
 
-**X Ekseni**'nin yanındaki radyo düğmesini açıp kapatarak X ekseni etiketlerini tamamen kaldırabilirsiniz. Ayrıca, **Başlık**'ın yanındaki radyo düğmesini seçerek eksen başlıklarını etkinleştirmeyi veya devre dışı bırakmayı tercih edebilirsiniz.  
+- başlangıç değerini sıfır olarak değiştirdik.
 
-Geniş renk yelpazesinin yanı sıra Power BI raporlarına ve panolarına uygulayabileceğiniz çok daha fazla özelleştirme bulunur.
+- etiket yazı tipi rengini siyah olarak değiştirdik
 
-> [!NOTE]
->  
-> **Biçim** simgesi seçiliyken kullanılabilen bu renkler, eksenler ve ilgili özelleştirmeler Power BI Desktop'ta da kullanılabilir.
+- etiket yazı tipi boyutunu 12’ye artırdık
 
-## <a name="setting-color-from-text-values"></a>Metin değerleriyle renk ayarlama
+- Y ekseni başlığı ekledik
 
-**Power BI Desktop** uygulamasının Ağustos 2018 güncelleştirmesinden itibaren belirli bir rapor öğesinin rengini metin değeri veya onaltılık kod kullanarak ayarlayabilirsiniz. Daha fazla bilgi için lütfen [tablolarda koşullu biçimlendirme](../desktop-conditional-table-formatting.md) sayfasına bakın.
 
+    ![aynı sütun grafik ama Y ekseninde birçok biçimlendirme yapıldı](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-axis-changes.png)
+
+**X Ekseni**'nin veya **Y Ekseni**’nin yanındaki radyo düğmesini açıp kapatarak eksen etiketlerini tamamen kaldırabilirsiniz. Ayrıca, **Başlık**'ın yanındaki radyo düğmesini seçerek eksen başlıklarını etkinleştirmeyi veya devre dışı bırakmayı tercih edebilirsiniz.  
+
+
+
+## <a name="adding-data-labels"></a>Veri etiketleri ekleme    
+
+Kendiniz keşfetmeye başlamadan önce son bir biçimlendirme örneği verelim.  Alan grafiğine veri etiketleri ekleyelim. 
+
+İşte *öncesi* resmi. 
+
+![biçimlendirilmemiş alan grafiği](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
+
+
+İşte bu da *sonrası* resmi.
+
+![biçimlendirilmiş alan grafiği](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
+
+Görselleştirmeyi seçerek etkin hale getirdik ve Biçimlendirme sekmesini açtık.  **Veri etiketleri**’ni seçtik ve bunları Açık konuma getirdik. Sonra yazı tipini 12’ye büyüttük, yazı tipi ailesini Arial Black olarak değiştirdik, **Arka planı göster**’i Açık konuma getirdik, arka plan rengini %5 saydamlıkla beyaz yaptık.
+
+Bunlar mümkün olan biçimlendirme görevlerinden yalnızca birkaçıdır. Raporu Düzenleme modunda açın ve güzel, bilgilendirici görselleştirmeler oluşturmak için Biçimlendirme bölmesini keyifle keşfedin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  

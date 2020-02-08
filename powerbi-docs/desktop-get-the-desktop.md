@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222091"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888374"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -132,6 +132,8 @@ Ayrıca, *özellik = değer* söz dizimiyle belirttiğiniz aşağıdaki söz diz
 |INSTALLLOCATION     |Yüklenmesini istediğiniz dosya yolu         |
 |LANGUAGE     |Uygulamanın varsayılan dilini zorlamak için yerel ayar kodu (örneğin, en-US, de-DE, PR-BR). Dil belirtmezseniz, Power BI Desktop Windows işletim sistemi dilini görüntüler. Bu ayarı **Seçenekler** iletişim kutusunda değiştirebilirsiniz.         |
 |REG_SHOWLEADGENDIALOG     |0 değeri, Power BI Desktop’ta oturum açmadan önce görüntülenen iletişim kutusunu göstermeyi devre dışı bırakır.         |
+|DISABLE_UPDATE_NOTIFICATION     |1 değeri güncelleştirme bildirimlerini devre dışı bırakır.         |
+
 
 Örneğin, Almanca dilini kullanarak herhangi bir kullanıcı arabirimi olmadan yüklemek için Power BI Desktop'ı aşağıdaki seçenekler ve parametrelerle çalıştırabilirsiniz: 
 

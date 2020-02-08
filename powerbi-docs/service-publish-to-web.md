@@ -1,20 +1,20 @@
 ---
 title: Power BI'dan Web'de yayımlama
 description: Power BI'daki Web'de yayımla özelliği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311701"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913616"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -39,20 +39,24 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
 1. Çalışma alanınızda, düzenleme yetkisine sahip olduğunuz bir rapor açın ve **Dosya > Web'de yayımla**'yı seçin.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. Ekleme kodları oluşturmanıza izin verilmediyse Power BI yöneticinize başvurun
 
-2. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
+4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. İletişim kutusuyla birlikte bir bağlantı görüntülenir. Bu bağlantıyı e-posta yoluyla gönderebilir, iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
+5. İletişim kutusuyla birlikte bir bağlantı görüntülenir. Bu bağlantıyı e-posta yoluyla gönderebilir, iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
+6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -73,7 +77,7 @@ Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüne
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları ve püf noktaları
 
-**Web'de yayımla** ekleme kodu aşağıdaki gibi görünür:
+**Web'de yayımla** ekleme kodu aşağıdaki örnekte gösterildiği gibi görünür:
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -141,16 +145,27 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 
 ## <a name="tenant-setting"></a>Kiracı ayarı
 
-Power BI yöneticileri **Web'de yayımla** özelliğini etkinleştirebilir veya devre dışı bırakabilir. Belirli gruplara erişimi de kısıtlayabilirler ve bu ekleme kodu oluşturma becerinizi etkiler.
+**Web’de yayımla** ayarı kullanıcıların ekleme kodları oluşturabileceği seçenekler getirir.
+
+![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+**Ekleme kodlarının nasıl çalışacağını seçin** seçeneği **Yalnızca mevcut ekleme kodlarına izin ver** olarak ayarlandıysa ve **Web’de yayımla** ayarı **Etkin** durumdaysa, ekleme kodu oluşturmak için Power BI yöneticinize başvurmanız istenir.
+
+![Web'de yayımla istemi](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Power BI yöneticileri **Web'de yayımla** özelliğini etkinleştirebilir veya devre dışı bırakabilir. Belirli gruplara erişimi de kısıtlayabilirler ve bu ekleme kodu oluşturma becerinizi etkiler. **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşırsınız.
 
 |Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
 |Raporun **Dosya** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir.<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
-|Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum olarak **Devre dışı** görüntülenir|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
+|Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak aşağıdakilerden biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum olarak **Devre dışı** görüntülenir|Durum olarak aşağıdakilerden biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
 
 ## <a name="understanding-the-embed-code-status-column"></a>Ekleme kodu durum sütununu anlama
+
+>[!Note]
+>Yayımladığınız ekleme kodlarını düzenli aralıklarla gözden geçirmeli ve artık genel kullanıma sunulması gerekmeyenleri kaldırmalısınız. 
 
 **Ekleme kodlarını yönet** sayfası bir durum sütunu içerir. Varsayılan olarak ekleme kodları **Etkin** durumdadır ama aşağıda listelenen durumlarda da olabilirler.
 

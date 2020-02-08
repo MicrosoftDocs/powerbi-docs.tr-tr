@@ -1,29 +1,174 @@
 ---
 title: Power BI Rapor Sunucusu'ndaki yenilikler
-description: Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu belge, yeni sürümlerle birlikte güncelleştirilmektedir.
+description: Power BI Rapor Sunucusu'ndaki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, yeni sürümlerle birlikte güncelleştirilmektedir.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
-ms.openlocfilehash: 526a971817c50599bf77ae085f3d5ff07294b25b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/23/2020
+ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858758"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819572"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
-Power BI Rapor Sunucusu’ndaki yenilikler ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir.
+Power BI Rapor Sunucusu’ndaki ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir.
+
+[Power BI Rapor Sunucusu’nu ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ı](https://powerbi.microsoft.com/report-server/) indirin.
 
 İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
 
 * [Power BI hizmetindeki yenilikler](../service-whats-new.md)
 * [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2020"></a>Ocak 2020
+
+Diğer ayrıntılar için Power BI Rapor Sunucusu Ocak 2020 blog gönderisine bakın.
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop
+
+Bu sürüm düğmeler için koşullu biçimlendirme, veri profili iyileştirmeleri ve KPI’lerle tablo görselleri için diğer biçimlendirme ayarları gibi birçok yeni özellik getiriyor. İşte güncelleştirmelerin özetlenmiş bir listesi:
+
+**Raporlama**
+
+- Tablo sütunu veya matris değerini özel bir URL olarak ayarlama
+- KPI görsel biçimlendirme ayarları
+- Filtre bölmesi deneyimi güncelleştirmeleri
+
+**Analiz**
+
+- Koşullu biçimlendirilen düğmeler
+- İçgörüleri analiz etmek için daha fazlasını yükleme
+- Yeni DAX işlevi: Çeyrek
+
+**Veri hazırlama**
+
+- Veri profili oluşturma geliştirmeleri
+
+**Diğer**
+
+- Yeni dosya biçimi: .pbids
+- Modelleme işlemleri için performans artışları
+
+**Raporlama**
+
+*Tablo sütunu veya matris değerini özel bir URL olarak ayarlama*
+
+Tablo sütunu veya matris değerini özel bir URL olarak ayarlayabilirsiniz. Bu yeni seçeneği biçimlendirme bölmesindeki koşullu biçimlendirme kartı altında bulabilirsiniz.
+
+*KPI görsel biçimlendirme ayarları*
+
+Bu ayın sürümüyle birlikte KPI’lerin artık yeni biçimlendirme seçenekleri var:
+
+- Gösterge metin biçimlendirmesi (yazı tipi ailesi, rengi ve hizalama)
+- Eğilim ekseni saydamlığı
+- Hedef ve uzaklık metin biçimlendirmesi (etiket metni, yazı tipi ailesi, rengi ve boyutu)
+- Uzaklık metin biçimlendirmesi (etiket metni, pozitif yön, yazı tipi ailesi, rengi ve boyutu)
+- Biçimlendirmesi olan bir tarih etiketi ekleme (yazı tipi ailesi, rengi ve boyutu)
+
+Bu yeni biçimlendirme seçeneklerinin bir bölümünü koşullu olarak biçimlendirebilirsiniz:
+
+- Gösterge yazı tipi rengi
+- Hedef yazı tipi rengi ve Hedef Uzaklık yazı tipi rengi
+- İyi/kötü/nötr durum renkleri
+- Tarih yazı tipi rengi
+
+*Filtre bölmesi deneyimi güncelleştirmeleri*
+
+[Son sürümdeki](https://powerbi.microsoft.com/blog/power-bi-report-server-september-2019-feature-summary/#filterPane) yeni filtre deneyiminin genel kullanılabilirliği kapsamında, geçerli raporların yeni bölmeye geçişini düzenledik. Power BI Rapor Sunucusu’nu ilk kez açtığınızda bir filtre panosunu otomatik güncelleştirme iletişim kutusu görürsünüz. Bu güncelleştirmeler arasında, raporların yeni deneyime geçirilmesi gerektiğinde Rapor Sunucusu’nda gösterilen başlıklar da vardır.
+
+**Analiz**
+
+*Düğmeler için koşullu biçimlendirme*
+
+Bu koşullu biçimlendirme güncelleştirmelerinin tümü düğmelerle ilgilidir. Artık aşağıdaki özellikler için biçimlendirmeyi dinamik olarak ayarlayabilirsiniz:
+
+- Düğme metni yazı tipi rengi
+- Düğme metni
+- Simge çizgisi rengi
+- Ana hat rengi
+- Dolgu Rengi
+- Araç ipucu (eylem kartının altında)
+
+*İçgörüleri analiz etmek için daha fazlasını yükleme*
+
+Verilerinizdeki içgörüleri bulmak, örneğin artışı açıklamak için Analiz özelliğini çalıştırdığınızda, içgörüleri zamanında size göstermek için makine öğrenmesi modellerini yalnızca ayarlanmış bir süre çalıştırırız. Analiz edilecek çok fazla veri varsa artık ilk zaman aşımından sonra analizi çalıştırmaya devam etmeyi seçebilirsiniz.
+
+*Yeni DAX işlevi: Quarter*
+
+Bu ay yeni bir DAX işlevimiz var: Quarter. Quarter işlevi belirtilen tarihe karşılık gelen çeyreği döndürür.
+
+**Veri hazırlama**
+
+*Veri profili oluşturma geliştirmeleri*
+
+Bu ay Power Query Düzenleyicisi’ndeki Veri Profili Oluşturma özelliklerimizde bir dizi önemli geliştirme yaptık. Bunlar:
+
+- Sütun Profili bölmesi değer dağılım görselinde mevcut “Değere Göre” ölçütüne ek olarak sütun türüne göre belirtilen birden çok Gruplandırma seçeneği.
+- Metin: Metne Göre Uzunluk (karakter sayısı).
+- Sayı: İşarete (pozitif/negatif) ve Eşliğe Göre (çift/tek).
+- Tarih/TarihSaat: Yıla, Aya, Güne, Yılın Haftasına, Haftanın Gününe, AM/PM Saatine ve Günün saatine göre.
+- Diğer veri türleri için de fazlası var, örneğin Mantıksal Doğru/Yanlış.
+
+*Filtre seçenekleri*
+
+Sütun Profilleri dağılım bölmesindeki türe özgü birkaç gruplandırma ölçütünden zaten yararlanabiliyordunuz. Şimdi gruplandırma ölçütleri uygulandığında dağılım grafiğindeki değerlerin her biri için belirtme çizgileri içinden de filtre uygulayabilirsiniz. Örneğin Tarih/TarihSaat sütunu için Veri Profilleri bölmesinden belirli bir Aya denk gelen tüm değerleri dışlayabilirsiniz.
+
+**Diğer**
+
+*Yeni dosya biçimi: .pbids*
+
+Kuruluşunuzda rapor oluşturanlara yönelik “Veri Al” deneyimini kolaylaştırmak için bu ay yeni bir dosya biçimini kullanıma sunuyoruz: .pbids. Yöneticiler sık kullanılan bağlantılar için bu dosyaları oluşturmasını öneririz.
+
+Rapor oluşturucusu .pbids dosyasını açtığında Power BI Desktop kimlik doğrulaması için dosyada belirtilen veri kaynağına bağlanmanızı ister. Ardından kullanıcı modele yüklenecek tabloları seçer. Dosyada veritabanı belirtilmemişse, veritabanını da seçmesi gerekebilir. Oradan, rapor oluşturucusu görselleştirmeleri oluşturmaya başlayabilir.
+
+“Power BI Desktop’ta veri kaynakları” makalesinin [Verileri almak için .pbids dosyalarını kullanma](../desktop-data-sources.md#using-pbids-files-to-get-data) bölümünde konunun ayrıntılarını ve örneklerini bulabilirsiniz.
+
+*Modelleme işlemleri için performans artışları*
+
+Ölçüleri veya hesaplanmış alanları ekleme ve ilişkileri oluşturma gibi modelleme işlemlerine hız kazandırmak için Analysis Services altyapısında performans geliştirmesi yaptık. Göreceğiniz geliştirme miktarı modele bağlıdır ama bazı müşterilerin dosya açma ve ölçü ekleme gibi eylemlerinde 20 kat performans artışı olduğunu gördük.
+
+Bunların hepsi Power BI Rapor Sunucusu’nun Ocak 2020 sürümünde. Geri bildirimlerinizi göndermeye devam edin ve [Power BI’da görmek istediğiniz özellikler için oy vermeyi](https://ideas.powerbi.com/forums/265200-power-bi) unutmayın.
+
+### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
+
+#### <a name="export-to-excel-from-power-bi-reports"></a>Power BI raporlarından Excel’e aktarma
+
+Power BI Rapor Sunucusu’nda bir Power BI raporundan Excel’e dışarı aktarma işlemi şimdi Power BI hizmetinde bir Power BI raporundan Excel’e dışarı aktarma işlemiyle aynı şekilde çalışıyor. Doğrudan Excel .xlsx biçimine aktarabilirsiniz ve dışarı aktarma sınırı 150.000 satırdır.
+
+#### <a name="azure-sql-managed-instance-support"></a>Azure SQL Yönetilen Örneği desteği
+
+Artık Power BI Rapor Sunucusu tarafından kullanılan veritabanı kataloğunu bir VM’de veya veri merkezinizde barındırılan Azure SQL Yönetilen Örneğinde (MI) barındırabilirsiniz. Bu destek SQL MI bağlantısı için veritabanı kimlik bilgilerini kullanmakla sınırlandırılmıştır.
+
+#### <a name="power-bi-premium-dataset-support"></a>Power BI Premium veri kümesi desteği
+
+Power BI veri kümelerine bağlanmak için Microsoft Rapor Oluşturucusu’nu veya SQL Server Veri Araçları’nı (SSDT) kullanabilirsiniz. Ardından SQL Server Analysis Services bağlantısını kullanarak söz konusu raporları Power BI Rapor Sunucusu’nda yayımlayabilirsiniz. Kullanıcıların bu senaryoyu etkinleştirebilmek için depolanmış Windows kullanıcı adı ve parolası kullanması gerekir.
+
+#### <a name="alttext-alternative-text-support-for-report-elements"></a>Rapor öğeleri için AltText (alternatif metin) desteği
+
+Raporları yazarken, rapordaki her öğenin metnini belirtmek için araç ipuçlarını kullanabilirsiniz. Ekran okuyucu teknolojileri bu ipuçlarını kullanacaktır.
+
+#### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory Uygulama Ara Sunucusu desteği
+
+Azure Active Directory Uygulama Ara Sunucusu ile artık web veya mobil uygulamalar üzerinden güvenli erişime izin vermek için kendi web uygulaması ara sunucunuzu yönetmeniz gerekmez. Daha fazla bilgi için bkz. [Azure Active Directory'nin Uygulama Ara Sunucusu aracılığıyla şirket içi uygulamalarına uzaktan erişim](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+
+#### <a name="custom-headers"></a>Özel üst bilgiler
+
+Belirtilen regex desenine uyan tüm URL’ler için üst bilgi değerleri ayarlar. Kullanıcılar seçilen istek URL’lerinin üst bilgi değerlerini ayarlamak için özel üst bilgi değerini geçerli bir XML ile güncelleştirebilir. Yöneticiler XML’de istedikleri sayıda üst bilgi ekleyebilir. Ayrıntılar için **Reporting Services Sunucusu Özellikleri Gelişmiş Sayfası** makalesindeki [Özel üst bilgiler](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) bölümüne bakın.
+
+#### <a name="transparent-database-encryption"></a>Saydam Veritabanı Şifrelemesi
+
+Power BI Rapor Sunucusu artık Enterprise ve Standard sürümleri için Reporting Services Sunucusu katalog veritabanında Saydam Veritabanı Şifrelemesi’ni destekliyor.
+
+#### <a name="microsoft-report-builder-update"></a>Microsoft Rapor Oluşturucusu güncelleştirmesi
+
+Rapor Oluşturucusu’nun yeni kullanıma sunulan sürümü Reporting Services’in 2016, 2017 ve 2019 sürümleriyle tam olarak uyumludur. Ayrıca Power BI Rapor Sunucusu’nun kullanıma sunulmuş ve desteklenen tüm sürümleriyle uyumludur.
 
 ## <a name="september-2019"></a>Eylül 2019
 
@@ -80,37 +225,39 @@ Power BI Rapor Sunucusu Eylül 2019 güncelleştirmesi, çok sayıda Power BI ra
 - Veri profilinizden panoya kopyalama
 
 
-## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Mayıs 2019: Power BI Rapor Sunucusu için Power BI Desktop
+## <a name="may-2019"></a>Mayıs 2019
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop
 
 Tüm yeni özellikler hakkında ayrıntılı bilgi için [Power BI Rapor Sunucusu Mayıs 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) blog gönderisine bakın.
 
 Yayının öne çıkan bazı konuları:
 
-### <a name="performance-analyzer"></a>Performans çözümleyici 
+#### <a name="performance-analyzer"></a>Performans çözümleyici 
 
 Raporunuz beklediğinizden daha yavaş çalışıyorsa Power BI Desktop’ta Performans Analizi’ni deneyin. Bunu başlattığınızda, raporda yaptığınız her işlemle ilgili bilgileri içeren bir günlük dosyası oluşturur. [Performans Analizi](../desktop-performance-analyzer.md) hakkında daha fazla bilgi edinin.
 
-### <a name="new-modeling-view"></a>Yeni modelleme görünümü
+#### <a name="new-modeling-view"></a>Yeni modelleme görünümü
 
 Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz. Öne çıkanlar arasında birden çok diyagram düzeni ile sütun, ölçüm ve tabloların toplu olarak düzenlenmesi bulunur. [Modelleme görünümü](../desktop-modeling-view.md) hakkında daha fazla bilgi edinin.
 
-### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimi
+#### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimi
 
 Şimdi klavye gezintisini kullanarak yerleşik görsellerin birçoğunda bulunan veri noktalarına erişebilirsiniz. [Power BI raporlarında erişilebilirlik](../desktop-accessibility.md) hakkında daha fazla bilgi edinin.
 
-### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu biçimlendirme başlıkları ve web URL’si eylemleri
+#### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu biçimlendirme başlıkları ve web URL’si eylemleri
 
 Power BI raporları etkileşimlidir. Raporun geçerli durumunu yansıtmak için bir rapordaki başlıkların dinamik olması anlamlıdır. Düğme, şekil ve görüntülerinizin URL’lerini dinamik hale getirmek için ifadeye bağlı biçimlendirmenin aynısını kullanabilirsiniz. [İfade temelli başlıklar](../desktop-conditional-format-visual-titles.md) hakkında daha fazla bilgi edinin.
 
-### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketlerine göre çapraz vurgulama
+#### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketlerine göre çapraz vurgulama
 
 Bir görseldeki veri noktalarını seçerken olduğu gibi, bir sayfadaki diğer öğeleri çapraz vurgulamak için görseldeki eksen kategorisi etiketlerini seçin. [Çapraz vurgulama](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting) hakkında daha fazla bilgi edinin.
 
-### <a name="all-the-new-features"></a>Tüm yeni özellikler
+#### <a name="all-the-new-features"></a>Tüm yeni özellikler
 
 Tüm yeni özelliklerin listesi aşağıda verilmiştir:
 
-### <a name="reporting"></a>Raporlama
+#### <a name="reporting"></a>Raporlama
 
 - Çizgi grafiklerde tek noktada çapraz vurgulama 
 - Başlıklarda sözcük kaydırma 
@@ -131,24 +278,24 @@ Tüm yeni özelliklerin listesi aşağıda verilmiştir:
 - Satır veri etiketi konum denetimi
 - KPI görseli Gösterge metin boyutu denetimi
 
-### <a name="analytics"></a>Analiz
+#### <a name="analytics"></a>Analiz
 
 - Tarihleri hiyerarşi olarak gösterme özelliği artık genel kullanıma sunuldu  
 
-### <a name="modeling"></a>Modelleme
+#### <a name="modeling"></a>Modelleme
 
 - Yeni modelleme görünümü artık genel kullanıma sunuldu
 - Yeni DAX işlevleri
 - ALLSELECTED DAX işlevine güncelleştirme
 - Yeni raporlarda tablolara otomatik tarih eklemeyi devre dışı bırakma
 
-## <a name="may-2019-power-bi-report-server"></a>Mayıs 2019: Power BI Rapor Sunucusu
+### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
 
-### <a name="support-for-trusted-visuals"></a>Güvenilen görseller için destek
+#### <a name="support-for-trusted-visuals"></a>Güvenilen görseller için destek
 
 Power BI Rapor Sunucusu için Güvenilen Görsellere yönelik destek ekledik. Şu anda Mapbox ve PowerOn görsellerini destekliyoruz. ESRI, Visio ve PowerApps bu sürümde desteklenmemektedir.)
 
-### <a name="improved-security-features"></a>İyileştirilmiş güvenlik özellikleri
+#### <a name="improved-security-features"></a>İyileştirilmiş güvenlik özellikleri
 
 Yöneticilerin, engellenen mime türlerinin virgülle ayrılmış bir listesini belirtmek için kullanabileceği **RestrictedResourceMimeTypeForUpload**.
 
@@ -160,7 +307,7 @@ Power BI raporlarında bu özellikler için destek:
 
 [**Matris satır üst bilgilerini genişletme ve daraltma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Tek tek satır üst bilgilerini genişletebilme ve daraltabilme özelliği ekledik. Bu, en çok istenen görsel özelliklerden biriydi.
 
-[ **.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
+[**.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
 
 [**Akıllı hizalama kılavuzları**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Rapor sayfanızdaki her şeyi hizalamanıza yardımcı olması için, sayfanızda nesneleri taşırken PowerPoint'teki gibi akıllı hizalama kılavuzları görürsünüz. Sayfanızdaki bir nesneyi her sürüklediğinizde veya yeniden boyutlandırdığınızda akıllı kılavuzları görürsünüz. Bir nesneyi başka bir nesnenin yakınına taşıdığınızda, taşınan nesne diğeriyle hizalı bir konuma yerleştirilir.
 
@@ -176,7 +323,7 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 
 **AllowedResourceExtensionsForUpload** Rapor sunucusuna yüklenebilecek kaynakların uzantılarını ayarlayın. Yerleşik dosya türlerinin uzantılarını (&ast;.rdl ve &ast;.pbix gibi) eklemek gerekmez. Varsayılan uzantılar “&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx” uzantılarıdır. 
 
-**SupportedHyperlinkSchemes** İşlenmesine izin verilen Köprü eylemlerinde tanımlanmasına izin verilen URI şemalarının virgülle ayrılmış listesini ayarlar veya tüm köprü şemalarına izin vermek için “&ast;” kullanılır. Örneğin, “http,https” ayarlandığında “https://www. contoso.com” köprülerine izin verilir ama “mailto:bill@contoso.com” veya “javascript:window.open(‘www.contoso.com’, ‘_blank’)” köprülerine izin verilmez. Varsayılan değer “&ast;” ayarıdır.
+**SupportedHyperlinkSchemes** İşlenmesine izin verilen Köprü eylemlerinde tanımlanmasına izin verilen URI şemalarının virgülle ayrılmış listesini ayarlar veya tüm köprü şemalarına izin vermek için “&ast;” kullanılır. Örneğin, “http,https” ayarlandığında “https://www olabilir. contoso.com” köprülerine izin verilir ama “mailto:bill@contoso.com” veya “javascript:window.open(‘www.contoso.com’, ‘_blank’)” köprülerine izin verilmez. Varsayılan değer “&ast;” ayarıdır.
 
 ## <a name="august-2018"></a>Ağustos 2018
 
@@ -388,11 +535,11 @@ Power BI Rapor Sunucusu'ndaki Power BI raporları çeşitli veri kaynaklarına b
 
 ### <a name="scheduled-data-refresh-for-imported-data"></a>İçeri aktarılan veriler için zamanlanmış veri yenileme
 
-Power BI Rapor Sunucusu'nda canlı bağlantı veya DirectQuery yerine ekli bir model kullanarak Power BI raporlarındaki verileri güncel tutmak için zamanlanmış veri yenileme özelliğini kullanabilirsiniz. Ekli bir model ile verileri içeri aktarırsınız ve verilerin, özgün veri kaynağıyla bağlantısı kesilir. Verilerin güncel tutulması için güncelleştirilmesi gerekir ve bunu zamanlamış yenileme ile gerçekleştirebilirsiniz. "Power BI Rapor Sunucusu'ndaki Power BI raporları için zamanlanmış yenileme" hakkında daha fazla bilgi edinin.
+Power BI Rapor Sunucusu'nda canlı bağlantı veya DirectQuery yerine ekli bir model kullanarak Power BI raporlarındaki verileri güncel tutmak için zamanlanmış veri yenileme özelliğini kullanabilirsiniz. Ekli bir model ile verileri içeri aktarırsınız ve verilerin özgün veri kaynağıyla bağlantısı kesilir. Verilerin güncel tutulması için güncelleştirilmesi gerekir ve bunu zamanlamış yenileme ile gerçekleştirebilirsiniz. "Power BI Rapor Sunucusu'ndaki Power BI raporları için zamanlanmış yenileme" hakkında daha fazla bilgi edinin.
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>Power BI raporlarını sunucuda düzenleme
 
-Power BI raporu (.pbix) dosyalarını sunucuda açıp düzenleyebilirsiniz ancak bu durumda, karşıya yüklediğiniz özgün dosyaya dönersiniz.  Başka bir deyişle **veriler sunucu tarafından yenilenmişse dosyayı ilk açtığınızda veriler yenilenmez**. Değişiklikleri görmek için dosyayı el ile yenilemeniz gerekir.
+Power BI raporu (.pbix) dosyalarını sunucuda açıp düzenleyebilirsiniz ancak bu durumda, karşıya yüklediğiniz özgün dosyaya dönersiniz. **Veriler sunucu tarafından yenilenmişse dosyayı ilk açtığınızda veriler yenilenmez**. Değişiklikleri görmek için dosyayı el ile yenilemeniz gerekir.
 
 ### <a name="large-file-uploaddownload"></a>Büyük dosyaları karşıya yükleme/indirme
 
@@ -404,7 +551,7 @@ Paylaşılan veri kümelerine Power BI Desktop'tan OData akışı ile erişebili
 
 ### <a name="scale-out"></a>Ölçeği genişletme
 
-Bu sürüm, ölçeği genişletme desteği sunmaktadır. En iyi deneyim için yük dengeleyici kullanın ve sunucu benzeşimi oluşturun. Senaryonun henüz ölçeği genişletme için en iyi duruma getirilmediğini unutmayın. Bu nedenle, modellerin birden fazla düğümde çoğaltıldığını görebilirsiniz. Bu senaryo Ağ Yükü Dengeleyici ve kalıcı oturum desteği olmadan çalışacaktır. Ancak, bu durumda model N kez yüklendiği için düğümler arasında fazla bellek kullanımının yanı sıra model, istekler arasında yeni bir düğümle karşılaştığında akış yapılacağından bağlantılar arası performans düşüklüğü yaşanacaktır.  
+Bu sürüm, ölçeği genişletme desteği sunmaktadır. En iyi deneyim için yük dengeleyici kullanın ve sunucu benzeşimi oluşturun. Senaryo henüz ölçeği genişletme için en iyi duruma getirilmemiştir. Bu nedenle, modellerin birden fazla düğümde çoğaltıldığını görebilirsiniz. Bu senaryo Ağ Yükü Dengeleyici ve kalıcı oturum desteği olmadan çalışacaktır. Ancak, bu durumda model N kez yüklendiği için düğümler arasında fazla bellek kullanımının yanı sıra model, istekler arasında yeni bir düğümle karşılaştığında akış yapılacağından bağlantılar arası performans düşüklüğü yaşanır.  
 
 ### <a name="administrator-settings"></a>Yönetici ayarları
 
@@ -416,7 +563,7 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 * MaxFileSizeMb: Varsayılan değer şimdi 1000'dir
 * ModelCleanupCycleMinutes: Bellekteki modelleri çıkarmak için denetleme sıklığı
 * ModelExpirationMinutes: Son kullanılma zamanına bağlı olarak modelin süresinin dolması ve çıkarılması için beklenecek süre
-* ScheduleRefreshTimeoutMinutes: Modelde veri yenilemenin ne kadar sürebileceği. Bu süre varsayılan olarak iki saattir.  Kesin bir üst sınır yoktur.
+* ScheduleRefreshTimeoutMinutes: Modelde veri yenilemenin ne kadar sürebileceği. Varsayılan değeri iki saattir.  Kesin bir üst sınır yoktur.
 
 **rsreportserver.config yapılandırma dosyası**
 
@@ -434,7 +581,7 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 
 SSRS 2017 için yayımlanmış olan geliştirici API'si (REST API), Power BI Rapor Sunucusu için genişletilerek hem Excel dosyaları hem de .pbix dosyalarıyla çalışacak şekilde geliştirilmiştir. Olası kullanım senaryolarından biri sunucudaki dosyaları programlama yoluyla indirmek, yenilemek ve yeniden yayımlamaktır. Örneğin, bu, PowerPivot modellerine sahip Excel çalışma kitaplarını yenilemenin tek yoludur.
 
-Daha büyük dosyalar için yeni bir API olduğunu ve bunun, Swagger'ın Power BI Rapor Sunucusu sürümünde güncelleştirileceğini unutmayın. 
+Daha büyük dosyalar için yeni bir API vardır ve bu Swagger'ın Power BI Rapor Sunucusu sürümünde güncelleştirilecektir. 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) ve Power BI Rapor Sunucusu bellek ayak izi
 
@@ -452,7 +599,7 @@ Excel ve Power BI, sektörde benzeri olmayan bir araç portföyü sunabilir. Bu 
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Yeni tablo ve matris görselleri için destek
 
-Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini desteklemektedir. Bu görsellerle rapor oluşturmak için Power BI Desktop uygulamasının Ekim 2017 sürümünü kullanmanız gerekir. Bu sürümü Power BI Desktop (Haziran 2017) yan yana yükleyebilirsiniz. Power BI Desktop uygulamasının en güncel sürümü için [Power BI Rapor Sunucusu indirme sayfasında](https://powerbi.microsoft.com/report-server/) **Gelişmiş indirme seçenekleri**'ne tıklayın.
+Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini desteklemektedir. Bu görsellerle rapor oluşturmak için Power BI Desktop uygulamasının Ekim 2017 sürümünü kullanmanız gerekir. Bu sürümü Power BI Desktop (Haziran 2017) yan yana yükleyebilirsiniz. Power BI Desktop uygulamasının en güncel sürümü için [Power BI Rapor Sunucusu indirme sayfasında](https://powerbi.microsoft.com/report-server/)**Gelişmiş indirme seçenekleri**'ne tıklayın.
 
 ## <a name="june-2017"></a>Haziran 2017
 
@@ -471,8 +618,7 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 
 Power BI Rapor Sunucusu'ndaki yeni özelliklerden sürekli olarak haberdar olmak için bu kaynakları kontrol edin.
 
-* [Microsoft Power BI Blog (Microsoft Power BI Blogu)](https://powerbi.microsoft.com/blog/)
-* [SQL Server Reporting Services Team Blog (SQL Server Reporting Services Ekip Blogu)](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* [Microsoft Power BI blogu](https://powerbi.microsoft.com/blog/)
 * [Guy in a Cube YouTube kanalı](https://aka.ms/guyinacube)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

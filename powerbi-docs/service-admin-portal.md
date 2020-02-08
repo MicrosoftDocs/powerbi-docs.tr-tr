@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885294"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819595"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -203,11 +203,24 @@ Aşağıdaki resimde bir dış kullanıcıyla paylaştığınızda görünen ile
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
-Kuruluştaki kullanıcılar web'de rapor yayımlayabilir. [Daha fazla bilgi](service-publish-to-web.md)
+Kuruluştaki kullanıcılar web'de rapor yayımlayabilir. [Daha fazla bilgi edinin](service-publish-to-web.md). Bu işlem raporu ve içerdiği verileri web’deki herkesin kullanımına sunar.
+
+> [!NOTE]
+> Yeni web’de yayımlama ekleme kodları oluşturma işlemine Power BI yöneticisinin izin vermesi gerekir. Kuruluşların mevcut ekleme kodları olabilir; [ekleme kodları](service-admin-portal.md#embed-codes) sayfasını kullanarak şu anda yayımlanmış olan raporları gözden geçirin.
 
 Aşağıdaki resimde **Web’de yayımla** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
 
-![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Dosya menüsünde Web’de yayımla](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+**Web’de yayımla** ayarı kullanıcıların ekleme kodları oluşturabileceği seçenekler getirir.
+
+![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+**Ekleme kodlarının nasıl çalışacağını seçin** seçeneği **Yalnızca mevcut ekleme kodlarına izin ver** olarak ayarlandıysa ve **Web’de yayımla** ayarı **Etkin** durumdaysa, kullanıcıların ekleme kodu oluşturma izni almak için Power BI yöneticisine başvurmaları istenir.
+
+![Web'de yayımla istemi](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
@@ -449,7 +462,7 @@ Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için
 
 ## <a name="embed-codes"></a>Ekleme kodları
 
-Bir yönetici olarak, kiracınız için oluşturulan ekleme kodlarını görüntüleyebilirsiniz. Ayrıca kodları iptal edebilir veya silebilirsiniz. [Daha fazla bilgi](service-publish-to-web.md)
+Bir yönetici olarak, raporları genel kullanıma açmak amacıyla kiracınız için oluşturulan ekleme kodlarını görüntüleyebilirsiniz. Ayrıca kodları iptal edebilir veya silebilirsiniz. [Daha fazla bilgi](service-publish-to-web.md)
 
 ![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
 

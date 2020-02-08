@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836714"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913567"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -33,7 +33,7 @@ Sorgu dizesi parametrelerinin başka bir kullanımı da gelişmiş Power BI çö
 
 Parametreleri kullanarak boşluk veya özel karakter içerenler dahil olmak üzere raporu bir veya daha fazla değer için filtreleyebilirsiniz. Temel söz dizimi oldukça basittir; rapor URL'si ile başlayın, bir soru işareti ekleyin ve ardından filtre söz diziminizi ekleyin.
 
-URL?filter=***Tablo***/***Alan*** eq '***değer***'
+*URL*?filter=*Tablo*/*Alan* eq '*değer*'
 
 ![Filtre ile URL](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ Raporumuz Kuzey Carolina için filtrelendi, rapor sayfasında bulunan tüm görs
 
 ![Kuzey Carolina için filtrelenmiş rapor](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>Alandaki birden çok değere göre filtreleme
+
+Tek bir alanda birden çok değere göre filtrelemek için **and** işleci yerine **in** işlecini kullanın. Söz dizimi aşağıdaki gibidir:
+
+*URL*?filter=*Tablo*/*Alan* **in** ('*değer1*', '*değer2*')
+
+Aynı örneği kullanarak raporu yalnızca "NC"de (Kuzey Carolina) veya “TN”de (Tennessee) bulunan mağazaları göstermek üzere filtrelemek için URL'ye aşağıdakileri ekleyin;
+
+?filter=Store/Territory in ('NC', 'TN')
+
+Diğer yararlı işleçlerin listesi için makalenin devamındaki [İşleçler](#operators) tablosuna bakın.
+
 ## <a name="filter-on-multiple-fields"></a>Birden çok alanda filtreleme
 
 Ayrıca URL'nize ek parametreler ekleyerek birden çok alanda filtreleme yapabilirsiniz. Özgün filtre parametremize geri dönelim.
@@ -97,8 +109,6 @@ Ek alanlarda filtreleme yapmak için bir '**and**' ve yukarıdaki biçimde başk
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>İşleçler
 

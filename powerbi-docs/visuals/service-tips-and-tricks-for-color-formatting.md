@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 006288cd380a56ba57697ed285b04b38985b69db
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76895066"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
@@ -23,13 +23,15 @@ Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok fark
 
 * Raporun tamamına tema uygulama
 * Tek bir veri noktasının rengini değiştirme
+* Koşullu biçimlendirme
 * Bir grafiğin renkleri için sayısal bir değeri temel alma
 * Veri noktalarının rengi için bir alan değerini temel alma
 * Renk ölçeğinde kullanılan renkleri özelleştirme
 * Ayrılan renk ölçeklerini kullanma
+* Tablo satırlarına renk ekleme
 * Power BI'da yapılan bir işlemi geri alma
 
-Değişiklik yapmak için raporu düzenliyor olmalısınız. Raporu açın ve aşağıdaki görüntüde gösterildiği gibi menü çubuğundan **Raporu Düzenle**'yi seçin.
+Herhangi bir değişiklik yapmak için rapor üzerinde düzenleme izinlerine sahip olmanız gerekir. Power BI Desktop'ta raporu **Rapor** görünümünde açın. Power BI hizmetinde bu, aşağıdaki resimde gösterildiği gibi raporu açmak ve menü çubuğunda **Düzenle**’yi seçmek anlamına gelir.
 
 ![Düzen menüsü nerede bulunur?](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
 
@@ -55,7 +57,7 @@ Aşağıdaki görselleştirme satılan birimleri ürün segmentine göre derecel
 
 Şimdi, renkleri kullanarak bu yeni segmentin nasıl performans gösterdiğini ortaya koymak için **Convenience** segmentine dikkat çekmek istediğinizi düşünün. Uygulamanız gereken adımlar:
 
-**Veri renkleri** bölümünü genişletin ve **Tümünü göster** için kaydırıcıyı Açık konuma getirin. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Veri noktalarından istediklerinizi değiştirin.
+**Veri renkleri** kartını genişletin ve **Tümünü göster** için kaydırıcıyı Açık konuma getirin. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Artık veri noktalarından istediklerinizi değiştirebilirsiniz.
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
@@ -71,7 +73,7 @@ Görselleştirmede bir veya birkaç veri öğesi ya da veri öğelerinin tümü 
 
 ![yeşil, sarı ve mavi çubukları olan çubuk grafik](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
-Renkleri kullanarak her türlü işlemi gerçekleştirebilirsiniz. Sonraki bölümde, gradyanlara bakacağız.
+Renkleri kullanarak her türlü işlemi gerçekleştirebilirsiniz. Sonraki bölümde, koşullu biçimlendirmeyi gözden geçireceğiz.
 
 ## <a name="conditional-formatting-for-visualizations"></a>Görselleştirmeler için koşullu biçimlendirme
 Görselleştirmelerde genellikle renkleri, bir alanın sayısal değerine göre dinamik olarak ayarlama özelliğinden faydalanılır. Bunu yaptığınızda bir çubuğun boyutu için önceden kullanılan değerden farklı bir değer gösterebilir ve tek bir grafta iki değer sunabilirsiniz. Ayrıca bunu, belirli bir değerin üzerindeki (veya altındaki) veri noktalarını vurgulamak için de kullanabilirsiniz. Örneğin, kârlılığın düşük olduğu alanları vurgulamak isteyebilirsiniz.
@@ -79,7 +81,7 @@ Görselleştirmelerde genellikle renkleri, bir alanın sayısal değerine göre 
 Aşağıdaki bölümlerde, renk için bir sayısal değeri temel almaya ilişkin farklı yöntemler gösterilmiştir.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>Veri noktalarının rengi için bir değeri temel alma
-Rengin değere göre değişmesini sağlamak için, bir görselleştirmeyi seçerek etkinleştirin. Boya rulosu simgesini seçerek ve **Veri renkleri** kartını genişleterek Biçimlendirme bölmesini açın. Kartın üzerine gelin, görüntülenen üç dikey noktayı seçin ve ardından **Koşullu biçimlendirme**'yi seçin.  
+Rengin değere göre değişmesini sağlamak için, bir görselleştirmeyi seçerek etkinleştirin. Boya rulosu simgesini seçerek ve ardından **Veri renkleri** kartını açarak Biçimlendirme bölmesini açın. Kartın üzerine gelin, görüntülenen üç dikey noktayı seçin ve ardından **Koşullu biçimlendirme**'yi seçin.  
 
 ![üç dikey noktaya tıklayarak koşullu biçimlendirme seçeneğini belirtin](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
 
@@ -103,9 +105,9 @@ Değerlerin bu renklerle nasıl eşleneceğini de değiştirebilirsiniz. Aşağ�
 
 ![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-Şimdi **Minimum** ve **Maksimum** değer kutularına sayısal değerler girdiğimizde ne olduğuna bakalım. Hem **Minimum** hem de **Maksimum**için açılır kutularda **Sayı**'yı seçin, sonra da **Minimum** değerini 3.500 ve **Maksimum** değerini 6.000 olarak ayarlayın.
+Şimdi **Minimum** ve **Maksimum** değer kutularına sayısal değerler girdiğimizde ne olduğuna bakalım. Hem **Minimum** hem de **Maksimum**için açılır kutularda **Özel**'i seçin, sonra da **Minimum** değerini 3.500 ve **Maksimum** değerini 6.000 olarak ayarlayın.
 
-![Sayıları göre koşullu biçimlendirme](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-number.png)
+![Sayıları göre koşullu biçimlendirme](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
 Bu değerler ayarlandığında, grafikte **Minimum**'un altında veya **Maksimum**'un üzerindeki değerler için artık gradyan uygulanmaz. **Maksimum** değerin üzerinde bir değere sahip tüm çubuklar yeşil, **Minimum** değerin altında bir değere sahip tüm çubuklar ise kırmızı renkte gösterilir.
 
@@ -116,22 +118,36 @@ Bazı durumlarda, verilerinizde doğal olarak ayrılan bir ölçek olabilir. Ör
 
 Ayrılan renk ölçeklerini kullanmak için **Ayrılan** onay kutusunu seçin. **Ayrılan** kaydırıcısı etkinleştirildiğinde, aşağıdaki resimde gösterildiği gibi **Orta** adlı ek bir renk seçici gösterilir.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging2.png)
+![Renk ölçeği seçili durumdaki Varsayılan renk iletişim kutusu](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging-colors.png)
 
 **Ayrılan** kaydırıcısı etkinleştirildiğinde **Minimum**, **Maksimum** ve **Orta** seçenekleri için renkleri ayrı olarak ayarlayabilirsiniz. Aşağıdaki resimde **% Market Share SPLY YTD** için **Orta** değeri 0,2 olarak ayarlanmıştır, bu yüzden değeri 0,2'nin üzerinde olan çubuklar yeşil bir gradyan tonuna sahipken, 0,2'nin altında olan çubuklar kırmızı tondadır.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+![kırmızı ve yeşil çubukları olan sütun grafik](media/service-tips-and-tricks-for-color-formatting/power-bi-diverging.png)
+
+## <a name="add-color-to-table-rows"></a>Tablo satırlarına renk ekleme
+Tablolar ve matrislerde renk biçimlendirmesi için birçok seçenek sunulur. 
+
+![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+
+Tablo veya matrise renk uygulamanın en hızlı yollarından biri Biçimlendirme sekmesini açıp **Stil**’i seçmektir.  Aşağıdaki resimde biz **Kalın üst bilgi parlak satırları**’nı seçtik.
+
+![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+
+Diğer renk biçimlendirme seçenekleriyle denemeler yapın. Bu resimde, **Sütun üst bilgileri**’nin altında arka plan rengini ve **Değerler** (satırlar) için hem **Arka plan rengi**’ni hem de **Alternatif arka plan rengi**’ni değiştirdik.
+
+![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Power BI'da yapılan bir işlemi geri alma
 Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da son komutunuzu geri almanız için kolay bir yol sunar. Örneğin, bir veya bir dizi veri noktasının rengini değiştirdiniz ve görselleştirmede ortaya çıkan rengi beğenmediniz. Önceden hangi rengin seçili olduğunu hatırlamıyorsunuz ancak eski renge geri dönmek istiyorsunuz!
 
 Son eyleminizi veya son birkaç eyleminizi **geri almak** için tüm yapmanız gereken CTRL+Z tuşlarına basmaktır.
 
+Biçimlendirme kartında yaptığınız tüm değişiklikleri atmak için **Varsayılana dön**’ü seçin.
+
+![En altta Varsayılana dön seçeneğinin gösterildiği Biçimlendirme kartı](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
+
 ## <a name="feedback"></a>Geri bildirim
 Paylaşmak istediğiniz bir ipucu var mı? Bu listeye ekleyip eklemeyeceğimize karar vermemiz için lütfen ipucunuzu bizimle paylaşın.
-
->[!NOTE]
->**Biçim** simgesi seçiliyken kullanılabilen bu renk, eksen özelleştirmeleri ve ilgili özelleştirmeler Power BI Desktop'ta da kullanılabilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama](service-getting-started-with-color-formatting-and-axis-properties.md)

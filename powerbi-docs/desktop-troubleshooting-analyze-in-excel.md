@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865754"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889317"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
 
@@ -105,5 +105,4 @@ Bu sorunu gidermeye yönelik birkaç seçenek bulunmaktadır:
 
 [Add worksheet data to a Data Model using a linked table (Çalışma sayfası verilerini bağlantılı tablo kullanarak bir Veri Modeline ekleme)](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)
 
-[Differences between OLAP and non-OLAP PivotTables in Excel (Excel'deki OLAP ve OLAP dışı PivotTable'lar arasındaki farklar)](https://support.microsoft.com/kb/234700)
 

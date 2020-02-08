@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858943"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975023"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com) ) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -90,6 +90,9 @@ Hazırladığınız raporu, 2. Adımda seçtiğiniz Power BI Rapor Sunucusu'na k
 2. Artık bu raporu web portalında görüntüleyebilirsiniz.
    
     ![Raporu web portalında görüntüleme](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Raporu daha sonra düzenlemek isterseniz, masaüstünde gördüğünüz rapor verileri rapor ilk oluşturulduğunda önbelleğe alınan verileri içerir.  Raporu düzenlerken en son verileri görmek için Power BI Desktop uygulamanızdaki verileri yenilemeniz gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 ### <a name="power-bi-desktop"></a>Power BI Desktop

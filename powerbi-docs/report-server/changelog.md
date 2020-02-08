@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874285"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819549"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
+
+
+## <a name="january-2020"></a>Ocak 2020
+- **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.6.7327.3007 (Derleme 15.0.1102.759), Yayın Tarihi: 23 Ocak 2020*
+         - Özellikler
+            -  Power BI raporlarından Excel’e aktarma.
+           -  Sayfalandırılmış raporlar için Power BI Premium veri kümesi desteği.
+           -  Sayfalandırılmış rapor öğeleri için AltText (alternatif metin) desteği.
+           -  Özel üst bilgiler için destek.
+           -  Katalog olarak Azure SQL Yönetilen Örnekler için destek.
+           -  Katalog için Saydam Veritabanı Şifrelemesi.
+        - Güvenlik güncelleştirmeleri
+        - Hata düzeltmeleri
+            - Ekran okuyucuların erişilebilirliği, rapor işleme ve klavye gezintisiyle ilgili düzeltmeler.
+            - Çok baytlık Rapor başlıklarını kaydetme düzeltmesi.
+            - Rapor sunucusunun güvenilirliğini etkileyen ayrıntılı günlük için düzeltme.
+          - Mobil cihaz üzerindeki Power BI raporlarında canlı veriler sağlama düzeltmesi.
+          - Power BI raporlarını filtrelenmiş dışarı aktarma işleminde görseller arasında çapraz vurgulama uygulama düzeltmesi.
+          - Sayfalandırılmış raporlarda görünürlük için ifade kullanarak Word’e aktarırken alt bilgi yazma düzeltmesi. 
+     
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.76.5678.1521 (Ocak 2020), Yayın Tarihi: 23 Ocak 2020* (yeni derleme ve yeni sürüm)
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içeriyor (Ocak 2020)        
+
 
 ## <a name="september-2019"></a>Eylül 2019
 - **Power BI Rapor Sunucusu**

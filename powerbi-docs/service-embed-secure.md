@@ -1,20 +1,20 @@
 ---
 title: Raporu güvenli bir portala veya web sitesine ekleme
 description: Power BI ekleme özelliği, kullanıcıların raporları dahili web portallarına kolayca ve güvenli bir şekilde eklemesini sağlar.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565750"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913606"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -129,7 +129,11 @@ Alt düzey kodlu özel bir deneyim oluşturmak için istediğiniz kadar çok dü
 
 * Bazı tarayıcılarda, özellikle de InPrivate veya Incognito modları kullanıldığında oturum açtıktan sonra sayfayı yenilemeniz gerekir.
 
-* Çoklu oturum açma deneyiminden yararlanabilmek için, SharePoint Online'da Ekle seçeneğini kullanın veya [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) ekleme yöntemini kullanarak özel tümleştirme oluşturun. 
+* Desteklenmeyen tarayıcı sürümleri kullanılıyorsa sorunlarla karşılaşabilirsiniz. Power BI [aşağıdaki tarayıcı listesini](power-bi-browsers.md) destekler.
+
+* Klasik SharePoint Server desteklenmez çünkü Internet Explorer’ın 11’den önceki sürümlerini veya uyumluluk görünümü modunun etkinleştirilmesini gerektirir.
+
+* Çoklu oturum açma deneyiminden yararlanabilmek için, [SharePoint Online'da Ekle seçeneğini](service-embed-report-spo.md) kullanın veya [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) ekleme yöntemini kullanarak özel tümleştirme oluşturun. 
 
 * **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) ekleme yöntemini kullanın. 
 

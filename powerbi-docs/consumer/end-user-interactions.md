@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303860"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888512"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Görseller bir Power BI raporunda birbirini nasıl çapraz filtreler?
 Power BI'ın en önemli özelliklerinden biri, rapor sayfasındaki tüm görsellerin birbirine bağlı olmasıdır. Görsellerin birinde bir veri noktası seçtiğinizde sayfadaki aynı verileri içeren diğer tüm görseller de seçime göre değişir. 
@@ -45,7 +45,8 @@ Aşağıdaki rapor sayfalarına bakarken bu terimleri tanımlayalım. "Total cat
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-- Raporunuzun [detaya gitmeyi](end-user-drill.md) destekleyen bir görseli varsa, bir görselde detaya gidildiğinde rapor sayfasındaki diğer görseller varsayılan olarak bundan etkilenmez.     
+- Raporunuzun [detaya gitmeyi](end-user-drill.md) destekleyen bir görseli varsa, bir görselde detaya gidildiğinde rapor sayfasındaki diğer görseller varsayılan olarak bundan etkilenmez. Öte yandan rapor *tasarımcısı* bu davranışı değiştirebilir; bu nedenle detaylandırılabilir görsellerinizi denetleyip **Detaylandırma diğer görselleri filtreler** ayarının rapor *tasarımcısı* tarafından etkinleştirilip etkinleştirilmediğine bakın.
+    
 - Rapor sayfasında diğer görseller çapraz filtrelenirken ve çapraz vurgulanırken görsel düzeyinde filtreler korunur. Bu neden VisualA'nın rapor tasarımcısı tarafından uygulanan veya sizin uyguladığınız görsel düzeyinde filtreleri varsa ve visualB ile etkileşim kurmak için visualA'yı kullanıyorsanız, visualA'daki görsel düzeyinde filtreler visualB'ye uygulanır.
 
     ![Halka grafiğin Moderation segmenti seçildikten sonra rapor sayfası](media/end-user-interactions/power-bi-visual-filters.png)

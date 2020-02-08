@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699118"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
@@ -82,7 +82,7 @@ Sırayla bu yaklaşımların her birine göz atalım.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Veri göndermek için Power BI REST API'lerini kullanma
 **Power BI REST API'leri**, **gönderim** veri kümelerinde ve **akış** veri kümelerinde veri oluşturmak ve bu veri kümelerine veri göndermek için kullanılabilir. Power BI REST API'lerini kullanarak bir veri kümesi oluşturduğunuzda, *defaultMode* bayrağı, veri kümesinin gönderim veya akış olup olmadığını belirtir. *defaultMode* bayrağı ayarlanmamışsa veri kümesi, varsayılan olarak **gönderim** veri kümesi biçimindedir.
 
-*defaultMode* değeri *pushStreaming* olarak ayarlanmışsa veri kümesi, hem **gönderim** *hem de* **akış** veri kümesidir; bu nedenle iki veri kümesi türünün de sağladığı avantajlardan yararlanabilirsiniz. 
+*defaultMode* değeri *pushStreaming* olarak ayarlanırsa, veri kümesi hem **gönderim***hem de***akış** veri kümesi olur ve her iki veri kümesi türünün de sağladığı avantajları sunar. 
 
 > [!NOTE]
 > *defaultMode* bayrağı *pushStreaming* olarak ayarlanmış şekilde veri kümeleri kullanılırken, bir isteğin **akış** veri kümelerine yönelik 15 KB'lık boyut kısıtlamasını aşması ancak **gönderim** veri kümelerine yönelik 16MB'lık boyut kısıtlamasını ihlal etmemesi halinde, istek başarılı olur ve veriler gönderim veri kümesinde güncelleştirilir. Ancak, tüm akış kutucukları geçici olarak başarısız olur.
@@ -100,7 +100,7 @@ Yeni akış veri kümesini oluştururken, aşağıda gösterildiği gibi, yapıl
 
 ![](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-**Geçmiş veri çözümlemesi** devre dışıyken (varsayılan olarak devre dışıdır), bu makalede önceden de belirtildiği gibi bir **akış veri kümesi** oluşturursunuz. **Geçmiş veri çözümlemesi** *etkinken*, oluşturulan veri kümesi hem **akış veri kümesi** ve hem de **gönderim veri kümesi** haline gelir. Bu makalenin önceki kısımlarında belirtildiği gibi, bu işlem, *defaultMode* seçeneği *pushStreaming* olarak ayarlanan bir veri kümesi oluşturmak için Power BI REST API'lerinin kullanılmasıyla eşdeğerdir.
+**Geçmiş veri çözümlemesi** devre dışıyken (varsayılan olarak devre dışıdır), bu makalede önceden de belirtildiği gibi bir **akış veri kümesi** oluşturursunuz. **Geçmiş veri çözümlemesi***etkinken*, oluşturulan veri kümesi hem **akış veri kümesi** ve hem de **gönderim veri kümesi** haline gelir. Bu makalenin önceki kısımlarında belirtildiği gibi, bu işlem, *defaultMode* seçeneği *pushStreaming* olarak ayarlanan bir veri kümesi oluşturmak için Power BI REST API'lerinin kullanılmasıyla eşdeğerdir.
 
 > [!NOTE]
 > Önceki paragrafta belirtildiği üzere, Power BI hizmeti UI'si kullanılarak oluşturulan akış veri kümeleri için Azure AD kimlik doğrulaması gerekli değildir. Bu tür veri kümelerinde, veri kümesi sahibi satır anahtarı içeren bir URL alır. Bu URL, istek sahibine Azure AD OAuth taşıyıcı belirtecini kullanmadan verileri veri kümesine gönderme yetkisi verir. Ancak, Azure AD (AAD) yaklaşımının da verileri veri kümesine gönderme konusunda işe yaradığını göz önünde bulundurun.
@@ -205,7 +205,7 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
 ## <a name="questions-and-answers"></a>Sorular ve cevaplar
 Burada, Power BI'daki gerçek zamanlı akış hakkında sık sorulan bazı sorular ve cevapları bulunmaktadır.
 
-#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümelerinde filtre kullanabilir miyim? Peki ya akış veri kümelerinde?
+#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümelerinde filtre kullanabilir miyim? Peki ya akış veri kümelerindeki?
 Ne yazık ki akış veri kümelerinde filtreleme desteklenmez. Gönderim veri kümeleri için rapor oluşturabilir, raporu filtreleyebilir ve ardından filtrelenmiş görselleri bir panoya sabitleyebilirsiniz. Ancak, panoda bulunan bir görselde uygulanan filtreyi değiştirmek mümkün değildir.
 
 Bundan bağımsız olarak, canlı rapor kutucuğunu panoya sabitleyebilir, bu sayede filtreleri değiştirebilirsiniz. Ancak veri gönderildikçe canlı rapor kutucukları gerçek zamanlı olarak güncelleştirilmez; **More** (Daha fazla) menüsündeki *pano kutucuklarını yenile* seçeneğini kullanarak görseli el ile güncelleştirmeniz gerekir.

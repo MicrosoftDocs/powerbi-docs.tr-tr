@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 2485d9120b10b41d193189de383a1a92b15378d5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010967"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894741"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI raporunda görsellerin etkileşim kurma biçimini değiştirme
 Bir rapor için düzenleme izinleriniz varsa, bir rapor sayfasındaki görsellerin birbirlerini nasıl etkileyeceğini değiştirmek için **Görsel etkileşimleri** kullanabilirsiniz. 
@@ -52,7 +52,7 @@ Rapor üzerinde düzenleme izinleriniz varsa görsel etkileşim denetimlerini a�
 
         ![Görsel etkileşimler açılan menüsü](media/service-reports-visual-interactions/power-bi-service.png)
 
-3. Görselleştirme etkileşimi denetimlerini görüntülemek için **Etkileşimleri düzenle**’yi seçin. Power BI, rapor sayfasındaki diğer tüm görselleştirmelere filtreleme ve vurgulama simgeleri ekler. Şimdi seçilen görselleştirmenin rapor sayfasındaki diğer görselleştirmelerle etkileşim kurma biçimini değiştirebilirsiniz.
+3. Görselleştirme etkileşimi denetimlerini görüntülemek için **Etkileşimleri düzenle**’yi seçin. Power BI, rapor sayfasındaki diğer tüm görselleştirmelere filtreleme ve vurgulama simgeleri ekler. Ağaç haritasının çizgi grafiğe çapraz filtreleme ve sütun grafiğe de çapraz vurgulama uyguladığını görebiliriz. Şimdi seçilen görselleştirmenin rapor sayfasındaki diğer görselleştirmelerle etkileşim kurma biçimini değiştirebilirsiniz.
    
     ![Görsel etkileşimlerin açık olduğu rapor](media/service-reports-visual-interactions/power-bi-turn-on.png)
 
@@ -61,25 +61,32 @@ Rapor üzerinde düzenleme izinleriniz varsa görsel etkileşim denetimlerini a�
 Rapor sayfanızda her görselleştirmeyi teker teker seçerek görselleştirmelerinizin etkileşim kurma biçimini öğrenin.  Bir veri noktasını, çubuğu veya şekli seçin ve bunun diğer görselleştirmeler üzerindeki etkisini izleyin. Tercih ettiğiniz davranışı görmüyorsanız, etkileşimleri değiştirebilirsiniz. Bu değişiklikler raporla birlikte kaydedilir, dolayısıyla hem siz hem de rapor tüketicileriniz aynı görsel etkileşim deneyimini elde eder.
 
 
-**Seçili görselleştirmenin**, diğer görselleştirmeler üzerinde nasıl bir etkisi olması gerektiğini belirleyin.  Ayrıca, isteğe bağlı olarak, bu işlemi rapor sayfasındaki tüm görselleştirmeler için yineleyebilirsiniz.
+Başlangıç olarak görselleştirmeyi seçerek etkinleştirin.  Sayfadaki diğer tüm görselleştirmelerin şimdi etkileşim simgeleri görüntülediğine dikkat edin. Uygulanmış olan simge kalın yazı tipiyle gösterilir. Ardından **seçili görselleştirmenin** diğer görselleştirmeler üzerinde nasıl bir etkisi olmasını istediğinizi belirleyin.  Ayrıca, isteğe bağlı olarak, bu işlemi rapor sayfasındaki tüm görselleştirmeler için yineleyebilirsiniz.
+
+Seçili görselleştirme:
    
-   * Görselleştirmeyi çapraz filtrelemesi gerekiyorsa **filtre** simgesini ![filtre simgesi](media/service-reports-visual-interactions/power-bi-filter-icon.png) seçin.
-   * Görselleştirmeyi çapraz vurgulaması gerekiyorsa **vurgu** simgesini ![vurgu simgesi](media/service-reports-visual-interactions/power-bi-highlight-icon.png) seçin.
-   * Herhangi bir etkisinin olmaması gerekiyorsa **etkisi yok** simgesini ![etkisi yok simgesi](media/service-reports-visual-interactions/power-bi-no-impact.png) seçin.
+   * sayfadaki diğer görselleştirmelerden birine çapraz filtre uygulayacaksa, söz konusu görselleştirmenin sağ üst köşesindeki **filtre** simgesini seçin ![filtre simgesi](media/service-reports-visual-interactions/power-bi-filter-icon.png).
+   * sayfadaki diğer görselleştirmelerden birine çapraz vurgulama uygulayacaksa, **vurgu** simgesini seçin ![vurgu simgesi](media/service-reports-visual-interactions/power-bi-highlight-icon.png).
+   * sayfadaki diğer görselleştirmelerden hiçbirini etkilemeyecekse, **etki yok** simgesini seçin ![etki yok simgesi](media/service-reports-visual-interactions/power-bi-no-impact.png).
 
 ## <a name="change-the-interactions-of-drillable-visualizations"></a>Detaylandırılabilir görselleştirmelerin etkileşimlerini değiştirme
 [Bazı Power BI görselleştirmeleri detaylandırılabilir](consumer/end-user-drill.md). Varsayılan olarak bir görselleştirmeyi detaylandırdığınızda, bu işlem rapor sayfasındaki diğer görselleştirmeleri etkilemez. Ama bu davranış değiştirilebilir. 
-
-1. Detaylandırılabilir görseli seçip etkin duruma getirin. 
 
 > [!TIP]
 > [İnsan Kaynakları örnek PBIX dosyasını](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) kullanarak bunu kendiniz deneyin. **New hires** sekmesinde detaya gitme özelliği olan bir sütun grafik vardır.
 >
 
+1. Detaylandırılabilir görseli seçip etkin duruma getirin. 
+
+2. Detaya gitme simgesini seçerek detaya gitmeyi açın.
+
+    ![detaylandırmayı açma](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
 2. Menü çubuğunda **Biçim** > **Diğer görselleri detaylandırma filtreleri**'ni seçin.  Bundan sonra bir görselleştirmede ayrıntıya indiğinizde (ve çıktığınızda), rapor sayfasındaki diğer görselleştirmeler geçerli ayrıntıya gitme seçiminizi yansıtacak şekilde değişir. 
 
-    ![Diğer görselleri detaylandırma filtreleri](media/service-reports-visual-interactions/power-bi-drill.png)geçin.
+    ![Diğer görselleri detaylandırma filtreleri](media/service-reports-visual-interactions/power-bi-drill.png)
+
+3. Tercih ettiğiniz davranışı görmüyorsanız, etkileşimleri [yukarıda açıklandığı gibi](#change-the-interaction-behavior) değiştirebilirsiniz.
     
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)

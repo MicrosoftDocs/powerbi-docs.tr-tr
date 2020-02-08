@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860981"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888536"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
 
@@ -37,7 +37,7 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 
 
 > [!IMPORTANT]
-> Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu bir görselle yanıtlar. Soru-Cevap, tüketicilerin kendi görsellerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görseller kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
+> Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu bir görselle yanıtlar. Soru-Cevap, tüketicilerin hemen kendi görsellerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görseller kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
 
 
 
@@ -45,13 +45,13 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 |---------|---------|---------|--------|
 |[Görsele kendi kullanımınız için açıklamalar ekleyin veya iş arkadaşlarınızla görsel hakkında bir konuşma başlatın](end-user-comment.md).     |  evet       |   evet      |  hayır  |
 |[Görselin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  hayır |
-|[Görseli etkileyen filtrelerin ve dilimleyicilerin listesini görüntüleyin](end-user-report-filter.md).     |    hayır     |   evet      |  evet |
+|[Görseli etkileyen filtrelerin ve dilimleyicilerin listesini görüntüleyin](end-user-report-filter.md).     |    Odak modunda açarsanız     |   evet      |  hayır |
 |[Görseli Soru-Cevap özelliğinde açın ve keşfedin (*tasarımcı* görsel Soru-Cevap ile oluşturmuşsa)](end-user-q-and-a.md).     |   evet      |   yok      |  yok  |
 |[Soru-Cevap'ta bir görsel oluşturun (araştırma için, bu görseli kaydedemezsiniz)](end-user-q-and-a.md).     |   evet      |   Tasarımcı rapora Soru-Cevap eklediyse      |  evet  |
-|[Power BI'ın görsel verilerindeki ilgi çekici olguları veya eğilimleri aramasını isteyin](end-user-insights.md).  Otomatik olarak oluşturulan bu görseller *içgörü* olarak adlandırılır.     |    evet     |  görsel başına değil raporun tamamı için       | hayır   |
-|[*Odak* modunu kullanarak bir kerede tek bir görseli görüntüleyin](end-user-focus.md).     | evet        |   evet      | yok  |
+|[Power BI'ın görsel verilerindeki ilgi çekici olguları veya eğilimleri aramasını isteyin](end-user-insights.md).  Otomatik olarak oluşturulan bu görseller *içgörü* olarak adlandırılır.     |    evet, kutucuklar için    |  hayır       | hayır   |
+|[*Odak* modunu kullanarak bir kerede tek bir görseli görüntüleyin](end-user-focus.md).     | evet, kutucuklar için        |   evet, görseller için      | yok  |
 |[Görselin en son yenilenme zamanını bulun](end-user-fresh.md).     |  evet       |    evet     | yok  |
-|[*Tam ekran* veya *odak* modunu kullanarak tek seferde kenarlıklar veya gezinti bölmeleri olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | varsayılan olarak  |
+|[*Tam ekran* modunu kullanarak tek seferde kenarlıklar veya gezinti bölmeleri olmadan tek bir görseli görüntüleyin](end-user-focus.md).     |   evet      |  evet       | varsayılan olarak  |
 |[Yazdırın](end-user-print.md).     |  evet       |   evet      | hayır  |
 |[Görsel filtreleri ekleyip var olanları düzenleyerek görselin ayrıntılarına inin.](end-user-report-filter.md)     |    hayır     |   evet      | hayır  |
 |Ek ayrıntıları ve araç ipuçlarını görmek için bir görselin üzerine gelin.     |    evet     |   evet      | evet  |
@@ -61,7 +61,7 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 | Görsele spot ışığı ekleyin. | hayır  | evet  |  hayır |
 | [Excel'e dışarı aktarın.](end-user-export.md) | evet | evet | hayır|
 | Ayarladığınız eşiği aşan değerlerin size bildirilmesi için [uyarı oluşturun](end-user-alerts.md).  | evet  | hayır  | hayır |
-| [Sayfadaki diğer görselleri çapraz filtreleyin ve çapraz vurgulayın](end-user-report-filter.md).  | hayır      | evet  | hayır  |
+| [Sayfadaki diğer görselleri çapraz filtreleyin ve çapraz vurgulayın](end-user-report-filter.md).  | hayır      | evet  | yok |
 | [Hiyerarşisi olan görseli detaylandırın](end-user-drill.md).  | hayır  | evet   | hayır |
 
 ## <a name="next-steps"></a>Sonraki adımlar

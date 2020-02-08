@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040416"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895546"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -41,25 +41,24 @@ Bu örnekte, en sağdaki matris görselinin her satırında her satıcı/tarih b
 
 Toplamlara ve alt toplamlara baktığınızda, bu değerlerin temel alınan değerlere dayandığını unutmayın. Yalnızca görünen değerlere dayanmazlar.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Satır üst bilgilerini genişletme ve daraltma
+Satır üst bilgilerini iki yolla genişletebilirsiniz. Bunların ilki sağ tıklatma menüsüdür. Seçtiğiniz belirli bir satır üst bilgisini, düzeyin tamamını veya hiyerarşinin en alt düzeyine kadar olan her şeyi genişletme seçenekleri görürsünüz. Satır üst bilgilerini daraltmanız için de benzer seçenekler sağlanır.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+Ayrıca biçimlendirme bölmesi aracılığıyla **Satır üst bilgileri** kartının altında satır üst bilgilerine +/- düğmeleri de ekleyebilirsiniz. Varsayılan olarak simgelerin satır üst bilgisi biçimlendirmesiyle eşleşmesi gerekir ama isterseniz simgelerin renklerini ve boyutlarını ayrıca özelleştirebilirsiniz.
+
+Simgeler açılınca, Excel’deki PivotTable simgelerine benzer şekilde çalışır.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+Matrisin genişletme durumu raporunuzla birlikte kaydedilir. Matris, genişletilmiş veya daraltılmış olarak panoya sabitlenebilir. Pano kutucuğu seçildiğinde ve rapor açıldığında, genişletme durumu raporda yine değiştirilebilir. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya gitme özelliğini kullanma
 Matris görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici detaya gitme etkinliğini gerçekleştirebilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.
 
@@ -183,6 +182,16 @@ Matrisinizde veya tablonuzdaki içeriği başka uygulamalarda kullanmak isteyebi
 * Kopya başka bir matris görselleştirmesi olur, ancak yalnızca sizin kopyalanmış verilerinizi içerir.
 
     ![Görseli kopyala örneğini gösteren ekran görüntüsü](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Matris değerini özel URL olarak ayarlama
+
+Web sitesi URL'leri içeren bir sütununuz veya ölçünüz varsa koşullu biçimlendirmeyi kullanarak bu URL'leri alanlara etkin bağlantılar olarak uygulayabilirsiniz. Bu seçeneği biçimlendirme bölmesindeki **Koşullu biçimlendirme** kartı altında bulabilirsiniz.
+
+![Hangi satırların seçildiğini gösteren Filtreler kartı](media/desktop-matrix-visual/power-bi-web-url.png)
+
+**Web URL’si** ayarını Açık konuma getirin ve sütun için URL olarak kullanılacak alanı seçin. Uygulandığında, bu alanda (sütun) yer alan değerler etkin bağlantılara dönüşür. Bağlantıyı görmek için üzerine gelin ve söz konusu sayfaya atlamak için seçin. 
+
+Daha fazla bilgi için bkz. [Koşullu tablo biçimlendirme](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Matris görselleriyle gölgelendirme ve yazı tipi renkleri
 Matris görseliyle, matris içindeki hücrelerin arka planına koşullu biçimlendirme (renkler, gölgelendirme ve veri çubukları) uygulayabilir ve metin ve değerlerde koşullu biçimlendirme gerçekleştirebilirsiniz.

@@ -1,26 +1,26 @@
 ---
 title: Beyaz listeye ekleme için Power BI URL’si
-description: Bu makalede Power BI hizmetini kullanan müşteriler için erişilebilir durumda olması gereken uç noktalar anlatılmaktadır.
+description: Bu makalede Power BI’a bağlantıda güvenilir listeye alınacak URL uç noktaları ve bağlantı noktaları listelenir.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698797"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894672"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
 
 Power BI SaaS (Hizmet Olarak Yazılım) uygulaması olarak da bilinen **Power BI çevrimiçi hizmeti** için internet bağlantısı gerekir. Power BI çevrimiçi hizmetini kullanan müşterilerin aşağıdaki uç noktalara erişebiliyor olması gerekir.
 
-Power BI çevrimiçi hizmetini kullanmak için aşağıdaki tabloda **gerekli** olarak işaretlenen uç noktalara ve bağlantılı sitelerde **gerekli** olarak işaretlenen uç noktalarına erişim sahibi olmanız gerekir. Dış site bağlantısı belirli bir bölüme başvuruyorsa yalnızca bu bölümdeki uç noktalarını gözden geçirmeniz gerekir.
+Power BI çevrimiçi hizmetini kullanmak için aşağıdaki tabloda **gerekli** olarak işaretlenen uç noktalara ve bağlantılı sitelerde **gerekli** olarak işaretlenen uç noktalarına bağlanabilmeniz gerekir. Dış site bağlantısı belirli bir bölüme başvuruyorsa yalnızca bu bölümdeki uç noktalarını gözden geçirmeniz gerekir.
 
 **İsteğe bağlı** olarak işaretlenen uç noktalar, belirli işlevlerin çalışması için **izin verilenler listesine eklenebilir**.
 
@@ -46,11 +46,12 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
 | 1 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
-| 2 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
-| 3 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
-| 4 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
-| 5 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
-| 6 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
+| 2 | **Gerekli:** Arka uç API’leri | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 4 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
+| 5 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
+| 6 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
+| 7 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Yönetim
@@ -86,7 +87,7 @@ Power BI, panolarınızı ve raporlarınızı desteklemek için belirli uç nokt
 
 ## <a name="custom-visuals"></a>Özel görseller
 
-Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için belirli uç noktalarını kullanır. Aşağıdaki tabloda ve bağlantılı sitelerde belirtilen uç noktalara bağlanabilmeniz gerekir.
+Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için belirli uç noktaları kullanır. Aşağıdaki tabloda ve bağlantılı sitelerde belirtilen uç noktalara bağlanabilmeniz gerekir.
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ Power BI, özel görselleri görüntülemek ve onlara erişim sağlamak için be
 
 ## <a name="related-external-sites"></a>İlgili dış siteler
 
-Diğer ilgili siteler için Power BI bağlantıları. Bu siteler belgeleri, destek bilgilerini, yeni özellik isteklerini ve daha fazlasını içerir. Bu siteler Power BI işlevlerini etkilemez, isteğe bağlı olarak izin verilenler listesine alınabilir.
+Diğer ilgili siteler için Power BI bağlantıları. Bu siteler belgeleri, destek bilgilerini, yeni özellik isteklerini ve daha fazlasını barındırır. Beyaz liste isteğe bağlı olduğundan, bu sitelere erişim Power BI’ın işlevselliğini etkilemez.
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf83df157738621116eb9e5461876eee8faf0863
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: ed6832bd92ca2bea0d64bbaeb41569b6a8fb6ddc
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761692"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026704"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop'ta Azure Maliyet Yönetimi bağlayıcısı ile görseller ve raporlar oluşturma
 
@@ -24,7 +24,7 @@ Azure harcamalarınızı daha iyi anlamanıza yardımcı olan güçlü, özelle�
 Azure Maliyet Yönetimi bağlayıcısı, Azure’da kimlik doğrulaması için OAuth 2.0 kullanır ve bağlayıcıyı kullanacak kullanıcıları tanımlar. Bu işlemde oluşturulan belirteçler belirli bir süre için geçerlidir. Power BI sonraki oturum açma için belirteci saklar. OAuth 2.0, bu izinlerin güvenli bir şekilde işlenmesini sağlamak için arka planda devam eden işlemin standardıdır. Bağlanmak istiyorsanız, Kurumsal Anlaşmalar için [Kuruluş Yöneticisi](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) hesabını veya Microsoft Müşteri Sözleşmeleri için [Faturalama hesabı sahibini](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) kullanmanız gerekir. 
 
 > [!NOTE]
-> Bu bağlayıcı, önceden kullanılabilir olan [Azure Consumption Insights ve Azure Maliyet Yönetimi (Beta)](desktop-connect-azure-consumption-insights.md) bağlayıcılarının yerini alır. Önceki bağlayıcı ile oluşturulan raporlar, bu bağlayıcı kullanılarak yeniden oluşturulmalıdır.
+> Bu bağlayıcı, önceden kullanılabilir olan [Azure Consumption Insights ve Azure Maliyet Yönetimi (Beta)](desktop-connect-azure-consumption-insights.md) bağlayıcılarının yerini alır. Önceki bağlayıcı ile oluşturulan raporların bu bağlayıcı kullanılarak yeniden oluşturulması gerekir.
 
 ## <a name="connect-using-azure-cost-management"></a>Azure Maliyet Yönetimi’ni kullanarak bağlanma
 

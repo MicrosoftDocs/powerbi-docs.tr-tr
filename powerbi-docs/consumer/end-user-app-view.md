@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537633"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819273"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -57,7 +57,7 @@ Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yaln
 
 Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSource’ta, işlerinizi yürütmek için kullandığınız çoğu hizmete yönelik uygulamalar bulabilirsiniz.  Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, ve daha fazlası gibi hizmetler. Daha fazla bilgi edinmek için [Power BI ile kullandığınız hizmetlere yönelik uygulamalar](../service-connect-to-services.md) bölümünü ziyaret edin. 
 
-1. https://appsource.microsoft.com öğesini bir tarayıcıda açıp **Power BI uygulamaları**’nı seçin.
+1. Tarayıcıda [https://appsource.microsoft.com](https://appsource.microsoft.com) bağlantısını açın ve **Power BI uygulamaları**’nı seçin.
 
     ![Power BI uygulamaları seçili şekilde AppSource web sitesi  ](./media/end-user-apps/power-bi-appsource.png)
 

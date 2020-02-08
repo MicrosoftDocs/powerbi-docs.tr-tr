@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886125"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889248"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme
 
@@ -104,6 +104,8 @@ Ancak aşağıdaki SSRS öğeleri Power BI'a geçirilemez:
 
 [Henüz Power BI sayfalandırılmış raporları tarafından desteklenmeyen](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) özellikleri kullanan RDL raporlarınızı, [Power BI raporları](../consumer/end-user-reports.md) olarak yeniden geliştirmeyi planlayabilirsiniz. Geçirebildiğiniz RDL raporlarınızı da mümkün olması halinde modernleştirerek Power BI raporu haline getirmeniz önerilir.
 
+RDL raporlarınızın _şirket içi veri kaynaklarından_ veri alması gerekiyorsa, çoklu oturum açmayı (SSO) kullanamazlar. Şu anda söz konusu kaynaklardan tüm veri alımları, _ağ geçidi veri kaynağı kullanıcı hesabının_ güvenlik bağlamı kullanılarak yapılır. SQL Server Analysis Services’in (SSAS) kullanıcı başına satır düzeyi güvenliği (RLS) zorlaması mümkün değildir.
+
 Power BI sayfalandırılmış raporları genellikle **yazdırma** veya **PDF oluşturma** için iyileştirilmiştir. Power BI raporları, **araştırma ve etkileşim** için iyileştirilmiştir. Daha fazla bilgi için bkz. [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md).
 
 ### <a name="prepare"></a>Hazırlama
@@ -116,6 +118,8 @@ _Hazırlama_ bölümünün amacı, tüm bileşenleri hazır hale getirmektir. Bu
 1. Power BI paylaşımı hakkında bilgi edinin ve [Power BI uygulamalarını](../service-create-distribute-apps.md) yayımlayarak içeriğinizi nasıl dağıtacağınızı planlayın.
 1. SSRS paylaşılan veri kaynaklarınızın yerine [paylaşılan Power BI veri kümelerini](../service-datasets-build-permissions.md) kullanmayı değerlendirin.
 1. [Power BI Desktop](../desktop-what-is-desktop.md)'ı kullanarak mobil cihazlar için iyileştirilmiş raporlar geliştirin ve mümkünse SSRS mobil raporlarınızın ve KPI'lerin yerine [Power KPI özel görseli](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) kullanın.
+1. Raporlarınızda **UserID** yerleşik alanının kullanımını yeniden değerlendirin. Rapor verilerinin güvenliği için **UserID** alanına güveniyorsanız, sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) bu alanın Kullanıcı Asıl Adını (UPN) döndürdüğünü anlamalısınız. Dolayısıyla yerleşik alan NT hesap adını (örneğin _AW\mblythe_) döndürmek yerine _m.blythe&commat;adventureworks.com_ gibi bir ad döndürür. Veri kümesi tanımlarınızı ve bir olasılıkla kaynak verilerinizi düzeltmeniz gerekir. Düzeltilip yayımlandıktan sonra, veri izinlerinin beklendiği gibi çalıştığından emin olmak için raporlarınızı kapsamlı bir şekilde test etmenizi öneririz.
+1. Raporlarınızda **ExecutionTime** yerleşik alanının kullanımını yeniden değerlendirin. Sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) yerleşik alan _Eşgüdümlü Evrensel Saat (veya UTC)_ olarak tarih/saat değerini döndürür. Bu, rapor parametresi varsayılan değerlerini ve rapor yürütme süresi etiketlerini (normalde rapor alt bilgilerine eklenen etiketler) etkileyebilir.
 1. Rapor yazarlarınızın [Power BI Report Builder](../report-builder-power-bi.md) uygulamasını yüklediğinden ve yeni sürümlerin kuruluşunuzda kolayca dağıtılabileceğinden emin olun.
 
 ## <a name="migration-stage"></a>Geçiş aşaması

@@ -6,40 +6,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/01/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fdd43320fec2b96aa708cb5bb1a21e269a117d2a
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830609"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889225"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
+
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 > [!IMPORTANT]
-> **Bu makale rapor veya veri kümesi üzerinde düzenleme izinleri olmayan Power BI kullanıcılarına yöneliktir. Daha ayrıntılı sıralama yönergeleri için [Power BI Desktop'ta sütuna göre sıralama](../desktop-sort-by-column.md)** konusunu okuyun.
+> **Bu makale rapor veya veri kümesi üzerinde düzenleme izinleri olmayan ve Power BI’ın yalnızca çevrimiçi sürümünde (Power BI hizmeti) çalışan Power BI kullanıcılarına yöneliktir. Rapor *tasarımcısı*, *yöneticisi* veya *sahibiyseniz*, bu makale ihtiyacınız olan tüm bilgileri içermiyor olabilir. Bunun yerine lütfen [Power BI Desktop'ta sütuna göre sıralama](../desktop-sort-by-column.md)** konusunu okuyun.
 
-Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz.
+Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz. İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
 
 Pano üzerindeki görseller sıralanamaz ama Power BI raporunda görselleştirmelerin çoğunu sıralayabilirsiniz 
 
-İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
-
 ## <a name="get-started"></a>Kullanmaya başlayın
 
-Başlangıç olarak herhangi bir görseli seçin ve sonra da **Diğer eylemler** (...) öğesini seçin.  Üç sıralama seçeneği vardır: **Azalan düzende sırala**, **Artan düzende sırala** ve **Sıralama ölçütü**. 
+Başlangıç olarak herhangi bir rapor görselini seçin ve sonra da **Diğer eylemler** (...) öğesini seçin.  Üç sıralama seçeneği vardır: **Azalan düzende sırala**, **Artan düzende sırala** ve **Sıralama ölçütü**. 
     
 
 ![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/power-bi-more-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Alfabetik veya sayısal olarak sıralama
 
-Görseller, görseldeki kategorilerin adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralanabilir. Örneğin, bu grafik X ekseni mağaza **Adı** kategorisine göre alfabetik olarak sıralanmıştır.
+Görseller, görseldeki kategorilerin metin adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralanabilir. Örneğin, bu grafik X ekseni mağaza **Adı** kategorisine göre alfabetik olarak sıralanmıştır.
 
 ![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/powerbi-sort-category.png)
 
@@ -55,7 +55,7 @@ Gerekirse artan ve azalan sıralama düzenleri arasında geçiş yapın.  **Diğ
 > Her görsel sıralanamaz. Örneğin, şu görselleri sıralamak mümkün değildir: ağaç haritası, harita, kartogram, dağılım, ölçer, kart, şelale.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Sıralama düzeninde yaptığınız değişiklikleri kaydetme
-Power BI raporları, yaptığınız filtre, dilimleyici, sıralama ve diğer veri görünümü değişikliklerini korur. Bu nedenle, bir rapordan çıkıp daha sonra geri dönerseniz sıralama değişiklikleriniz kaydedilir.  Değişikliklerinizi rapor tasarımcısının ayarlarına geri döndürmek isterseniz üst menü çubuğundan **Varsayılana sıfırla**’yı seçin. 
+[Okuma görünümünde](end-user-reading-view.md) çalışıyor olsanız bile, Power BI raporları yaptığınız filtre, dilimleyici, sıralama ve diğer veri görünümü değişikliklerini korur. Bu nedenle, bir rapordan çıkıp daha sonra geri dönerseniz sıralama değişiklikleriniz kaydedilir.  Değişikliklerinizi rapor *tasarımcısının* ayarlarına geri döndürmek isterseniz üst menü çubuğundan **Varsayılana sıfırla**’yı seçin. 
 
 ![kalıcı sıralama](media/end-user-change-sort/power-bi-reset.png)
 
@@ -65,7 +65,11 @@ Ancak, **Varsayılana sıfırla** düğmesi griyse, bu durum rapor *tasarımcıs
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 ### <a name="sorting-using-other-criteria"></a>Diğer ölçütleri kullanarak sıralama
-Bazı durumlarda görselinizi farklı bir alana (görsele dahil olmayan) veya ölçüte göre sıralamak isteyebilirsiniz.  Örneğin, sıralı bir şekilde aya göre (alfabetik sırada değil) veya tek basamak yerine sayının tamamına göre (ör. 0, 1, 20, 9 değil 0, 1, 9, 20 şeklinde) sıralama yapmak isteyebilirsiniz.  Yalnızca raporu tasarlayan kişi sizin için bu değişiklikleri yapabilir. *Tasarımcının* iletişim bilgileri başlık çubuğundan rapor adı seçilerek bulunabilir.
+Bazı durumlarda görselinizi farklı bir alana (görsele dahil olmayan) veya ölçüte göre sıralamak isteyebilirsiniz.  Örneğin, sıralı bir şekilde aya göre (alfabetik sırada değil) veya tek basamak yerine sayının tamamına göre (ör. 0, 1, 20, 9 değil 0, 1, 9, 20 şeklinde) sıralama yapmak isteyebilirsiniz.  
+
+Yalnızca raporu tasarlayan kişi sizin için bu değişiklikleri yapabilir. *Tasarımcının* iletişim bilgileri başlık çubuğundan rapor adı seçilerek bulunabilir.
+
+*Tasarımcıysanız* ve içerik üzerinde düzenleme izinleriniz varsa, veri kümesini güncelleştirmeyi ve bu tür bir sıralamayı etkinleştirmeyi öğrenmek için [Power BI Desktop’ta sütuna göre sıralama](../desktop-sort-by-column.md) konusunu okuyun.
 
 ![İletişim bilgilerini gösteren açılır menü](media/end-user-change-sort/power-bi-contact.png)
 

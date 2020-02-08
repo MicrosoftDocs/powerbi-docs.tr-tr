@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831292"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889386"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -67,7 +67,7 @@ Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakıl
 | **En Fazla Ara Satır Sayısı** | DirectQuery tarafından döndürülen ara satır sayısı üst sınırı. Varsayılan değer 1000000'dur ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
 | **En Büyük Çevrimdışı Veri Kümesi Boyutu (GB)** | Bellekteki çevrimdışı veri kümesinin boyut üst sınırı. Bu, diskteki sıkıştırılmış boyuttur. Varsayılan değer SKU tarafından ayarlanır ve izin verilen değerler 0,1 ile 10 GB arasındadır. |
 | **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
-| **Sorgu Belleği Sınırı (%)** | Sorguda veya DAX ölçüsünde geçici sonuçlar için kullanılabilecek en yüksek kullanılabilir bellek yüzdesi. |
+| **Sorgu Belleği Sınırı (%)** | Çalışma yükünde MDX veya DAX sorgusu yürütmek için kullanılabilen belleğin en büyük yüzdesi. |
 | **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. |
 | **Otomatik sayfa yenileme (önizleme)** | Premium çalışma alanlarının otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
 | **Minimum yenileme aralığı** | Otomatik sayfa yenileme açıksa, sayfa yenileme aralığı için izin verilen minimum aralık. Varsayılan değer beş dakika ve izin verilen minimum değer de bir saniyedir. |
@@ -99,11 +99,17 @@ Bu ayarın yalnızca DAX sorgularını etkilediğine, [En Büyük Ara Satır Kü
 
 Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim altına almak için bu ayarı kullanın. Bazı sorgular ve hesaplamalar kapasitede çok fazla bellek kullanan ara sonuçlar verebilir. Bu durum diğer sorguların çok yavaş yürütülmesine, diğer veri kümelerinin kapasiteden çıkarılmasına ve kapasitenin diğer kullanıcılarının yetersiz bellek hataları almasına yol açabilir.
 
-Bu ayar veri yenileme ve rapor işleme için geçerlidir. Sorgu yenileme devre dışı bırakılmadıysa, veri yenileme hem veri kaynağındaki verileri yeniler hem de sorguyu yeniler. Sorgu yenileme devre dışı bırakılmadıysa bu bellek sınırı söz konusu sorgular için de geçerlidir. Veri yenileme başarılı olsa bile, başarısız olan tüm sorgular zamanlanan yenileme durumunun başarısız olarak bildirilmesine neden olur.
+Bu ayar Power BI raporları, Excel’de Çözümle raporları ve ayrıca XMLA uç noktası üzerinden bağlanabilen diğer araçlar tarafından yürütülen tüm DAX ve MDX sorgularında geçerlidir.
+
+Veri yenileme işlemlerinin de, veri kümesindeki veriler yenilendikten sonra pano kutucuklarını ve görsel önbelleklerini yenileme işlemi kapsamında DAX sorguları yürütebileceğini unutmayın. Bu tür sorgular da bu ayardan dolayı başarısız olabilir ve veri kümesindeki veriler başarıyla güncelleştirilmiş olsa bile veri yenileme işleminin başarısız durumda görünmesine yol açabilir.
 
 #### <a name="query-timeout"></a>Sorgu Zaman Aşımı
 
-Uzun süre çalışan ve kullanıcılar için raporların yavaş yüklenmesine neden olabilen sorguları daha iyi denetim altına almak için bu ayarı kullanın. Bu ayar veri yenileme ve rapor işleme için geçerlidir. Sorgu yenileme devre dışı bırakılmadıysa, veri yenileme hem veri kaynağındaki verileri yeniler hem de sorguyu yeniler. Sorgu yenileme devre dışı bırakılmadıysa bu zaman aşımı sınırı söz konusu sorgular için de geçerlidir.
+Uzun süre çalışan ve kullanıcılar için raporların yavaş yüklenmesine neden olabilen sorguları daha iyi denetim altına almak için bu ayarı kullanın.
+
+Bu ayar Power BI raporları, Excel’de Çözümle raporları ve ayrıca XMLA uç noktası üzerinden bağlanabilen diğer araçlar tarafından yürütülen tüm DAX ve MDX sorgularında geçerlidir.
+
+Veri yenileme işlemlerinin de, veri kümesindeki veriler yenilendikten sonra pano kutucuklarını ve görsel önbelleklerini yenileme işlemi kapsamında DAX sorguları yürütebileceğini unutmayın. Bu tür sorgular da bu ayardan dolayı başarısız olabilir ve veri kümesindeki veriler başarıyla güncelleştirilmiş olsa bile veri yenileme işleminin başarısız durumda görünmesine yol açabilir.
 
 Bu ayar tek bir sorgu için geçerlidir; veri kümesinin veya raporun güncelleştirilmesiyle ilişkili tüm sorguları çalıştırmak için gereken süreye uygulanmaz. Aşağıdaki örneği inceleyin:
 
@@ -144,7 +150,7 @@ Yeni işlem altyapısından yararlanmak için veri alımını ayrı veri akışl
 
 #### <a name="container-size"></a>Kapsayıcı boyutu
 
-Veri akışı yenilenirken, veri akışı iş yükü veri akışındaki her varlık için bir kapsayıcı üretir. Her kapsayıcı, **Kapsayıcı Boyutu ayarında belirtilen miktara kadar bellek alabilir. Tüm SKU'larda varsayılan değer 700 MB'tır. Aşağıdaki durumlarda bu ayarı değiştirmek isteyebilirsiniz:
+Veri akışı yenilenirken, veri akışı iş yükü veri akışındaki her varlık için bir kapsayıcı üretir. Her kapsayıcı, Kapsayıcı Boyutu ayarında belirtilen miktara kadar bellek alabilir. Tüm SKU'larda varsayılan değer 700 MB'tır. Aşağıdaki durumlarda bu ayarı değiştirmek isteyebilirsiniz:
 
 - Veri akışlarının yenilenmesi fazla uzun sürüyor veya veri akışı yenilemesi zaman aşımından dolayı başarısız oluyor.
 - Veri akışı varlıkları hesaplama adımları, örneğin birleştirme içeriyor.  

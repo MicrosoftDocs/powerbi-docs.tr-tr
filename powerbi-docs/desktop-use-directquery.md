@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759211"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889294"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 *Power BI Desktop* ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman Power BI Desktop'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: DirectQuery'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -55,9 +55,9 @@ DirectQuery özelliğini kullanmanın bazı avantajları vardır:
 
 - Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçümlerde izin verilen DAX ifadelerine sınırlamalar koyulur.
 
-- DirectQuery kullanılarak döndürülen veriler için bir milyon satırlık bir sınır söz konusudur. Bu sınır, DirectQuery ile döndürülen veri kümesini oluşturmak için kullanılan toplamaları veya hesaplamaları etkilemez. Yalnızca döndürülen satırları etkiler.
+- Premium kapasite kullanılmadığı sürece DirectQuery kullanılarak döndürülen veriler için bir milyon satırlık bir sınır söz konusudur. Bu sınır, DirectQuery ile döndürülen veri kümesini oluşturmak için kullanılan toplamaları veya hesaplamaları etkilemez. Yalnızca döndürülen satırları etkiler. Premium kapasiteler [bu gönderide](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) açıklandığı gibi en fazla satır sınırları ayarlayabilir. 
 
-    Örneğin sorgunuzda, veri kaynağını temel alan 10 milyon satırı toplayabilirsiniz. Döndürülen Power BI verileri 1 milyon satırdan azsa sorgu, bu toplamanın sonucunu DirectQuery kullanarak Power BI'a doğru bir şekilde döndürür. DirectQuery'den 1 milyondan fazla satır döndürülürse Power BI bir hata döndürür.
+    Örneğin sorgunuzda, veri kaynağını temel alan 10 milyon satırı toplayabilirsiniz. Döndürülen Power BI verileri 1 milyon satırdan azsa sorgu, bu toplamanın sonucunu DirectQuery kullanarak Power BI'a doğru bir şekilde döndürür. DirectQuery’den 1 milyonun üzerinde satır döndürülürse Power BI hata döndürür (Premium kapasitede yer almadığı ve satır sayısı yönetici tarafından ayarlanan sınırın altında kalmadığı sürece).
 
 ## <a name="important-considerations-when-using-directquery"></a>DirectQuery kullanımında dikkat edilmesi gereken önemli noktalar
 DirectQuery kullanımında aşağıdaki üç nokta göz önünde bulundurulmalıdır:
