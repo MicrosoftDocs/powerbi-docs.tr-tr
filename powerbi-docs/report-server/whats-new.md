@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819572"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026727"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -160,7 +160,7 @@ Azure Active Directory Uygulama Ara Sunucusu ile artık web veya mobil uygulamal
 
 #### <a name="custom-headers"></a>Özel üst bilgiler
 
-Belirtilen regex desenine uyan tüm URL’ler için üst bilgi değerleri ayarlar. Kullanıcılar seçilen istek URL’lerinin üst bilgi değerlerini ayarlamak için özel üst bilgi değerini geçerli bir XML ile güncelleştirebilir. Yöneticiler XML’de istedikleri sayıda üst bilgi ekleyebilir. Ayrıntılar için **Reporting Services Sunucusu Özellikleri Gelişmiş Sayfası** makalesindeki [Özel üst bilgiler](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) bölümüne bakın.
+Belirtilen regex desenine uyan tüm URL’ler için üst bilgi değerleri ayarlar. Kullanıcılar seçilen istek URL’lerinin üst bilgi değerlerini ayarlamak için özel üst bilgi değerini geçerli bir XML ile güncelleştirebilir. Yöneticiler XML’de istedikleri sayıda üst bilgi ekleyebilir. Ayrıntılar için **Reporting Services Sunucusu Özellikleri Gelişmiş Sayfası** makalesindeki [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) bölümüne bakın.
 
 #### <a name="transparent-database-encryption"></a>Saydam Veritabanı Şifrelemesi
 
@@ -307,7 +307,7 @@ Power BI raporlarında bu özellikler için destek:
 
 [**Matris satır üst bilgilerini genişletme ve daraltma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) Tek tek satır üst bilgilerini genişletebilme ve daraltabilme özelliği ekledik. Bu, en çok istenen görsel özelliklerden biriydi.
 
-[**.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
+[ **.pbix dosyaları arasında kopyalama ve yapıştırma**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) Görselin bağlam menüsünden veya standart Ctrl+C klavye kısayoluyla görselleri .pbix dosyaları arasında kopyalayabilir ve Ctrl+V ile başka bir rapora yapıştırabilirsiniz.
 
 [**Akıllı hizalama kılavuzları**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Rapor sayfanızdaki her şeyi hizalamanıza yardımcı olması için, sayfanızda nesneleri taşırken PowerPoint'teki gibi akıllı hizalama kılavuzları görürsünüz. Sayfanızdaki bir nesneyi her sürüklediğinizde veya yeniden boyutlandırdığınızda akıllı kılavuzları görürsünüz. Bir nesneyi başka bir nesnenin yakınına taşıdığınızda, taşınan nesne diğeriyle hizalı bir konuma yerleştirilir.
 
@@ -323,7 +323,7 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 
 **AllowedResourceExtensionsForUpload** Rapor sunucusuna yüklenebilecek kaynakların uzantılarını ayarlayın. Yerleşik dosya türlerinin uzantılarını (&ast;.rdl ve &ast;.pbix gibi) eklemek gerekmez. Varsayılan uzantılar “&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx” uzantılarıdır. 
 
-**SupportedHyperlinkSchemes** İşlenmesine izin verilen Köprü eylemlerinde tanımlanmasına izin verilen URI şemalarının virgülle ayrılmış listesini ayarlar veya tüm köprü şemalarına izin vermek için “&ast;” kullanılır. Örneğin, “http,https” ayarlandığında “https://www olabilir. contoso.com” köprülerine izin verilir ama “mailto:bill@contoso.com” veya “javascript:window.open(‘www.contoso.com’, ‘_blank’)” köprülerine izin verilmez. Varsayılan değer “&ast;” ayarıdır.
+**SupportedHyperlinkSchemes** İşlenmesine izin verilen Köprü eylemlerinde tanımlanmasına izin verilen URI şemalarının virgülle ayrılmış listesini ayarlar veya tüm köprü şemalarına izin vermek için “&ast;” kullanılır. Örneğin, “http,https” ayarlandığında “https://www olabilir. contoso.com” köprülerine izin verilir ama “mailto:bill@contoso.com” veya “javascript:window.open(‘ www.contoso.com’, ‘_blank’)” köprülerine izin verilmez. Varsayılan değer “&ast;” ayarıdır.
 
 ## <a name="august-2018"></a>Ağustos 2018
 
