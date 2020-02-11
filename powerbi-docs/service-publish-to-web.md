@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913616"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076711"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
-Power BI'ın **Web'de yayımla** seçeneği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz. Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştirebilir, yenileyebilir veya paylaşımdan kaldırabilirsiniz.
+Power BI'ın **Web'de yayımla** seçeneği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz. Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştirebilir, yenileyebilir veya yayımlanan görsellerinizin paylaşımını durdurabilirsiniz.
 
 > [!WARNING]
 > **Web'de yayımla** seçeneğini kullandığınızda yayımladığınız rapor veya görseller, İnternet üzerindeki herkes tarafından görüntülenebilir. Bunun için kimlik doğrulaması gerekmez ve raporlarınızda toplanan ayrıntı düzeyindeki verileri görüntülemek de dahildir. Raporu yayımlamadan önce verileri ve görselleştirmeleri herkesle paylaşmanızın uygun olduğundan emin olun. Gizli veya özel bilgileri yayımlamayın. Bu konuda şüpheleriniz varsa yayımlamadan önce kuruluşunuzun ilkelerini inceleyin.
@@ -40,9 +40,11 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. Ekleme kodları oluşturmanıza izin verilmediyse Power BI yöneticinize başvurun
+2. Ekleme kodları oluşturmanıza izin verilmediyse [Power BI yöneticinize](service-admin-role.md) başvurun
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   Kuruluşunuzda Web’de yayımla özelliğini etkinleştirebilecek birini bulmaya ilişkin yardım almak için [bu ipuçlarına bakın](#how-to-find-your-power-bi-administrator).
 
 3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
 
@@ -73,7 +75,7 @@ Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüne
 | --- | --- |
 | ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır** ayarı, raporunuzun sayfasının yükseklik ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi *dinamik* oranlara ayarladıysanız içeriğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame'e eklendiğinde *sinemaskop* etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame’in yükseklik ve genişlik ayarını uygun şekilde değiştirin. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur** ayarı, içeriğin iFrame içindeki yatay alana uydurulmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur** ayarı, içeriğin iFrame’in yatay alanını doldurmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları ve püf noktaları
 
@@ -83,7 +85,7 @@ Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüne
  
 Genişlik ve yükseklik değerlerini el ile değiştirerek, eklediğiniz sayfada nasıl görüneceğini tam olarak belirleyebilirsiniz.
 
-Daha iyi bir yerleşim sağlamak için iFrame'in yükseklik değerine 56 piksel ekleyerek alt çubuğun geçerli boyutunu hesaba katabilirsiniz. Rapor sayfanızda dinamik boyut kullanılıyorsa aşağıdaki tabloda verilen değerleri kullanarak sinemaskop etkisine maruz kalmadan düzgün bir yerleşim sağlayabilirsiniz.
+Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 piksel ekleyerek alt çubuğun geçerli boyutunu hesaba katabilirsiniz. Rapor sayfanızda dinamik boyut kullanılıyorsa aşağıdaki tabloda verilen değerleri kullanarak sinemaskop etkisine maruz kalmadan düzgün bir yerleşim sağlayabilirsiniz.
 
 | Oran | Boyut | Boyut (Genişlik x Yükseklik) |
 | --- | --- | --- |
@@ -194,6 +196,21 @@ Sorun bildirmek için gördüğünüz **Web'de yayımla** raporunun alt çubuğu
 **Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
 
 Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web'de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
+
+## <a name="how-to-find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
+
+[Web’de yayımla kiracı ayarlarını](#tenant-setting) değiştirmek için kuruluşunuzun [Power BI yöneticisiyle](service-admin-role.md) çalışmanız gerekir.
+
+Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI yöneticisi olmayabilir. [Kiracı yöneticisi devralma sürecimizi](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) izlemeniz gerekir. Power BI yöneticiniz varsa, yöneticiniz sizin için ekleme kodu oluşturmayı etkinleştirebilir.
+
+Büyük kuruluşlar genelde bir Power BI yöneticisine sahip olur. Aşağıdaki rollerden herhangi birine sahip olan kişiler Power BI yöneticisi olarak görev yapabilir:
+
+- Office 365 yöneticileri
+- Azure Active Directory yöneticileri
+- Azure Active Directory’de Power BI hizmet yöneticisi rolüne sahip olan kullanıcılar
+
+Ayarı güncelleştirmeleri için kuruluşunuzda [bu kişilerden birini](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) bulmanız gerekir.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

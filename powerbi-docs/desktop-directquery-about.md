@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837284"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076656"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -312,7 +312,7 @@ DirectQuery bağlantısı kullanarak bir rapor oluştururken aşağıdaki yöner
 
 * **Ortanca Değer:** Genellikle tüm toplamalar (`Sum` veya `Count Distinct` gibi) temel alınan kaynağa gönderilir. Ancak bu toplama işlemi, temel alınan kaynak tarafından genel olarak desteklenmediğinden bu durum ortanca için geçerli değildir. Böyle durumlarda ayrıntı verileri, temel alınan kaynaktan alınır ve döndürülen sonuçlardan ortanca hesaplanır. Bu, ortancanın az sayıda sonuç üzerinden hesaplandığında durumlarda makul bir yaklaşımdır. Ancak kardinalite yüksek olduğunda performans sorunları oluşur veya 1 milyon satır sınırı nedeniyle sorgu başarısız olur. Örneğin, **Ortanca Ülke Nüfusu** makul olabilirken **Ortanca Satış Fiyatı** olmayabilir.
 
-* **Gelişmiş metin filtreleri (* şunu içerir* ve benzeri):* * Bir metin sütununu filtrelerken, gelişmiş filtreleme özelliği sayesinde *şunu içerir* ve *ile başlar* gibi filtreler sağlanır. Bu filtreler, bazı veri kaynakları için performansın düşmesine neden olabilir. Özellikle, tam bir eşleşmenin gerekli olduğu durumlarda varsayılan *şunu içerir* filtresi kullanılmamalıdır. Sonuçlar aynı olsa da asıl verilere bağlı olarak, dizin kullanımı nedeniyle performans büyük ölçüde farklı olabilir.
+* **Gelişmiş metin filtreleri (_şunu içerir_ ve benzeri):** Gelişmiş filtreleme özelliği, bir metin sütununu filtrelerken *şunu içerir* ve *şununla başlar* gibi filtrelerin kullanılmasına olanak tanır. Bu filtreler, bazı veri kaynakları için performansın düşmesine neden olabilir. Özellikle, tam bir eşleşmenin gerekli olduğu durumlarda varsayılan *şunu içerir* filtresi kullanılmamalıdır. Sonuçlar aynı olsa da asıl verilere bağlı olarak, dizin kullanımı nedeniyle performans büyük ölçüde farklı olabilir.
 
 * **Dilimleyicilerde çoklu seçim:** Dilimleyiciler, varsayılan olarak tek bir seçim yapılmasına olanak sağlar. Kullanıcı, dilimleyicide bir dizi öğe seçebileceğinden filtrelerde çoklu seçime izin verilmesi bazı performans sorunlarına neden olabilir. Örneğin kullanıcı ilgilendiği 10 ürünü seçerse her yeni seçimde kaynağa sorgular gönderilir. Kullanıcı, sorgu tamamlanmadan önce bir sonraki öğeyi seçebilse de bu yaklaşım temel alınan kaynakta ek yüke neden olur.
 

@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894741"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036711"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI raporunda görsellerin etkileşim kurma biçimini değiştirme
 Bir rapor için düzenleme izinleriniz varsa, bir rapor sayfasındaki görsellerin birbirlerini nasıl etkileyeceğini değiştirmek için **Görsel etkileşimleri** kullanabilirsiniz. 
@@ -87,6 +87,11 @@ Seçili görselleştirme:
     ![Diğer görselleri detaylandırma filtreleri](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. Tercih ettiğiniz davranışı görmüyorsanız, etkileşimleri [yukarıda açıklandığı gibi](#change-the-interaction-behavior) değiştirebilirsiniz.
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+Farklı tablolardaki alanlarla matris oluşturup hiyerarşinin farklı düzeylerinde yer alan birden fazla öğeyi seçerek çapraz vurgulama yapmaya çalışırsanız, diğer görsellerde hata alırsınız. 
+
+![Hiyerarşinin farklı düzeylerinde filtreleme yapılırken karşılaşılan hatanın videosu](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)

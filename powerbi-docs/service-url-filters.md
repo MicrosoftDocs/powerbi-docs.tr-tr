@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913567"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076644"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -193,7 +193,7 @@ Bu uyuşmazlık panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik
 Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar vardır.
 
 * *in* işlecini kullanırken *in* ifadesinin sağındaki değerlerin parantez içinde virgülle ayrılmış değerler listesi olması gerekir.    
-* Power BI Rapor Sunucusu’nda, rapor URL’sine eklediğiniz [rapor parametrelerini geçirebilirsiniz](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md). Bu URL parametreleri doğrudan rapor işleme altyapısına geçirildiğinden ön ek almaz.
+* Power BI Rapor Sunucusu, “filtre” URL parametresini kullanarak ek filtre belirtme özelliğini de destekler.  Örneğin, Power BI Rapor Sunucusu’nda URL aşağıdaki gibi görünebilir: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) veya [PDF’ye dışarı aktar](consumer/end-user-pdf.md) özelliği ile çalışmaz.
 * [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md), URL filtrelerini desteklemez.
 * Javascript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
