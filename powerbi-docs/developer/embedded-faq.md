@@ -156,12 +156,12 @@ Kullanılabilir bölgeler (16 - Power BI ile aynı bölgeler)
 * ABD (6) - Doğu ABD, Doğu ABD 2, Orta Kuzey ABD, Orta Güney ABD, Batı ABD, Batı ABD 2
 * Avrupa (2) - Kuzey Avrupa, Batı Avrupa
 * Asya Pasifik (2) - Güneydoğu Asya, Doğu Asya
-* Brezilya (1) - Brezilya Güney
-* Japonya (1) - Japonya Doğu
-* Avustralya (1) - Avustralya Güneydoğu
+* Brezilya (1) - Güney Brezilya
+* Japonya (1) - Doğu Japonya
+* Avustralya (1) - Güneydoğu Avustralya
 * Hindistan (1) - Batı Hindistan
-* Kanada (1) - Kanada Orta
-* Birleşik Krallık (1) - UK Güney
+* Kanada (1) - Orta Kanada
+* Birleşik Krallık (1) - Güney Birleşik Krallık
 
 ### <a name="what-is-power-bi-embeddeds-authentication-model"></a>Power BI Embedded'in kimlik doğrulama modeli nedir?
 
@@ -202,7 +202,7 @@ Power BI Embedded kapasitenize çalışma alanları atamak/çalışma alanının
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>Hangi içerik paketi verilerini ekleyebilirsiniz?
 
-İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları***ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları***ekleyebilirsiniz*.
+İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları** *ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları***ekleyebilirsiniz*.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Satır düzeyi güvenlik (RLS) ile JavaScript filtrelerini kullanmanın ne farkı vardır?
 
@@ -323,7 +323,7 @@ Halihazırda **Power BI Çalışma Alanı Koleksiyonları** çözümünü kullan
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>PBI Çalışma Alanı Koleksiyonu'nu hangi bölgelerde oluşturabilirim?
 
-Avustralya Güneydoğu, Brezilya Güney, Kanada Orta, Doğu ABD 2, Doğu Japonya, ABD Orta Kuzey, Kuzey Avrupa, Orta Güney ABD, Güneydoğu Asya, UK Güney, Batı Avrupa, Batı Hindistan ve Batı ABD bölgeleri kullanılabilir.
+Güneydoğu Avustralya, Güney Brezilya, Orta Kanada, Doğu ABD 2, Doğu Japonya, ABD Orta Kuzey, Kuzey Avrupa, Orta Güney ABD, Güneydoğu Asya, Güney Birleşik Krallık, Batı Avrupa, Batı Hindistan ve Batı ABD bölgeleri kullanılabilir.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e neden geçiş yapmalıyım?
 
