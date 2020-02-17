@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: Kavramlar
           items:
+            - name: Power BI Embedded Analytics’te kapasite ve SKU’lar
+              href: embedded-capacity.md
             - name: Performans açısından en iyi yöntemleri
               href: embedded-performance-best-practices.md
             - name: Hizmet sorumlusu
