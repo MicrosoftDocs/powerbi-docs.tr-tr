@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: 'Yöneticiler: Power BI Desktop oturum açma formunu yönetme'
           href: desktop-admin-sign-in-form.md
+        - name: Power BI Desktop'ta oturum açma sorunlarını giderme
+          href: desktop-troubleshooting-sign-in.md
         - name: Erişilebilirlik
           items:
             - name: Power BI erişilebilirliği hakkında
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: Snowflake Data Warehouse
+                  href: service-connect-snowflake.md
             - name: Kurumsal içerik paketleri
               items:
                 - name: Kurumsal içerik paketlerine giriş
