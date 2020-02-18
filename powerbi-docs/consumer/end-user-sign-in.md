@@ -9,13 +9,13 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
-LocalizationGroup: Getting started
-ms.openlocfilehash: 6982ca89979fa101593cce92151e400f82e7ba0d
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+LocalizationGroup: Get started
+ms.openlocfilehash: 5f48ae801944e3f27045a038c13d394c21225468
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894695"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77153994"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI hizmetinde oturum açma
 
@@ -24,12 +24,12 @@ Power BI’da oturum açabilmeniz için önce hesabınız olması gerekir. Power
 
 ## <a name="sign-in-for-the-first-time"></a>İlk kez oturum açma
 
-### <a name="step-1-open-a-browser"></a>1. Adım: Bir tarayıcı açın
+### <a name="step-1-open-a-browser"></a>1\. Adım: Bir tarayıcı açın
 Power BI hizmeti, tarayıcı üzerinden çalışır.  Bu nedenle birinci adım olarak tercih ettiğiniz tarayıcıyı açın ve **app.powerbi.com** yazın.
 
 ![yazılı tarayıcı alanı](media/end-user-sign-in/power-bi-sign-in.png)
 
-### <a name="step-2-type-your-email-address"></a>2. Adım: E-posta adresinizi girin
+### <a name="step-2-type-your-email-address"></a>2\. Adım: E-posta adresinizi girin
 İlk kez oturum açtığınızda e-posta adresiniz istenir.  Bu e-posta adresi, Power BI’a kaydolurken kullanılan iş veya okul hesabıdır.  
 
 Gelen Kutunuzda Power BI yöneticinizden gelen e-postayı bulun. Yöneticileri çoğu geçici parolanızı içeren bir hoş geldin e-postası gönderecektir. Oturum açarken bu e-posta adresini kullanın. 
@@ -38,7 +38,7 @@ Gelen Kutunuzda Power BI yöneticinizden gelen e-postayı bulun. Yöneticileri �
 
 
  
-### <a name="step-3-create-a-new-password"></a>3. Adım: Yeni bir parola oluşturun
+### <a name="step-3-create-a-new-password"></a>3\. Adım: Yeni bir parola oluşturun
 Power BI yöneticiniz size geçici bir parola gönderdiyse, bunu **Geçerli parola** alanına girin. E-postayla herhangi bir parola almadıysanız, Power BI yöneticinize başvurun.
 
 ![oturum açma alanına yazılmış e-posta adresi](media/end-user-sign-in/power-bi-login.png)
@@ -48,7 +48,7 @@ Power BI’ın kimlik bilgilerinizi hatırlamasını istiyorsanız **Evet**’i 
 ![Power BI’ın kimlik bilgilerinizi hatırlamasını isteyip istemediğinize karar verin](media/end-user-sign-in/power-bi-stay-signed-in.png)
 
 
-### <a name="step-4-review-your-home-landing-page"></a>4. Adım: Giriş sayfanızı gözden geçirin
+### <a name="step-4-review-your-home-landing-page"></a>4\. Adım: Giriş sayfanızı gözden geçirin
 İlk ziyaretinizde Power BI, **Giriş** sayfanızı açar. **Giriş** sayfası açılmazsa gezinti bölmesinden bunu seçin. 
 
 ![Giriş sayfasının seçili olduğunu gösteren ekran görüntüsü](media/end-user-sign-in/power-bi-home-selected.png)

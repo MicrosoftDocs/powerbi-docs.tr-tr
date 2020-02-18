@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 56958d59e52065f3553a60ce49bd988b4869a646
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75691381"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77153971"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
@@ -80,4 +80,4 @@ Web geliştiricisiyseniz ve kendi görselinizi oluşturup AppSource'a eklemek is
 
 * [Power BI görselleri için yönergeleri](guidelines-powerbi-visuals.md) keşfedin.
 
-Başka bir sorunuz mu var? [Power BI Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md) sayfasını veya [Power BI Topluluğu](http://community.powerbi.com/)'nu deneyin.
+Başka bir sorunuz mu var? [Power BI Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md) sayfasını veya [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.
