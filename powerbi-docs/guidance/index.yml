@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154201"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465026"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Rapor oluşturma
+- title: Power BI raporları
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: Rapor sayfası detaylandırmayı kullanma
       url: report-drillthrough.md
-    - text: Power BI’daki sayfalandırılmış raporları kullanma zamanı
+- title: Power BI sayfalandırılmış raporlar
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Rapor sayfası detaylandırmayı kullanma
+      url: report-drillthrough.md
+    - text: Sayfalandırılmış raporları kullanma zamanı
       url: report-paginated-or-power-bi.md
-    - text: Sayfalandırılmış raporlarda basamaklı parametreleri kullanma
+    - text: Basamaklı parametreleri kullanma
       url: paginated-report-cascading-parameter.md
-    - text: Sayfalandırılmış raporları yazdırırken boş sayfalardan kaçınma
+    - text: Yazdırma sırasında boş sayfalardan kaçınma
       url: report-paginated-blank-page.md
     - text: SSRS raporlarını Power BI’a geçirme
       url: migrate-ssrs-reports-to-power-bi.md
