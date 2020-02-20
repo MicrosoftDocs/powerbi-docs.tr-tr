@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830874"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154323"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
@@ -98,22 +98,19 @@ Bir tabloyu biçimlendirmenin birçok yolu bulunur. Burada yalnızca birkaçı e
 
 ### <a name="conditional-formatting"></a>Koşullu biçimlendirme
 
-*Koşullu biçimlendirme* biçimlendirme türlerinden biridir. Power BI, **Görsel öğeler** panosunun **Değerler** kutucuğundaki alanlara koşullu biçimlendirme uygular.
+*Koşullu biçimlendirme* biçimlendirme türlerinden biridir. Power BI, **Görselleştirmeler** bölmesinin **Değerler** kutusuna eklediğiniz tüm alanlara koşullu biçimlendirme uygulayabilir.
 
-Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dahil olmak üzere hücre değerlerine göre özel hücre arka plan renkleri ve yazı tipi renkleri belirtebilirsiniz.
+![Görselleştirme bölmesi](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. **Görsel Öğeler** bölmesinde **Alanlar** simgesini ![alanlar simgesi](media/power-bi-visualization-tables/power-bi-fields-icon.png) seçin.
+Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dahil olmak üzere hücre değerlerine göre simgeler, URL’ler, hücre arka plan renkleri ve yazı tipi renkleri belirtebilirsiniz.
 
-1. **Değerler** kutusunda yer alan değerlerden biçimlendirmek istediğiniz değerin yanındaki aşağı oku seçin (veya alana sağ tıklayın).
+1. **Biçimlendirme** bölmesinde **Koşullu biçimlendirme** kartını açın.
 
-    > [!NOTE]
-    > Koşullu biçimlendirmeyi yalnızca **Alanlar** kutusunun **Değerler** alanındaki alanlar için yönetebilirsiniz.
+    ![Koşullu biçimlendirme kartı](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![Arka plan renk ölçeklerine giden yol](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Biçimlendirmek için bir alan seçin ve **Arka plan rengi** kaydıracını Açık konumuna getirin. Power BI, sütundaki değerlere göre bir gradyan uygular. Varsayılan renkleri değiştirmek için **Gelişmiş denetimler** seçeneğini belirleyin.
 
-1. **Arka plan rengi**'ni seçin.
-
-1. Açılan iletişim kutusunda rengi, **Minimum** değerini ve **Maksimum** değerini yapılandırabilirsiniz. **Ayrılan** seçeneğini seçerseniz isteğe bağlı bir **Orta** değeri de yapılandırabilirsiniz.
+    **Ayrılan** seçeneğini seçerseniz isteğe bağlı bir **Orta** değeri de yapılandırabilirsiniz.
 
     ![Arka plan renk ölçekleri ekranı](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,24 +121,24 @@ Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dah
 
     ![en sağda yani bir alan gösterir](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. **Total Sales Variance** öğesinin yanındaki aşağı oku seçip **Koşullu biçimlendirme > Veri çubukları** yolunu izleyerek veri çubuğu koşullu biçimlendirmesi ekleyin.
+1. **Veri çubukları** kaydıracını Açık konumuna getirerek veri çubuğuna koşullu biçimlendirme ekleyin.  
 
-    ![Veri çubukları seçmeye giden yol](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Veri çubuklarının Açık olarak ayarlandığı koşullu biçimlendirme kartı](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Açılan iletişim kutusunda **Pozitif çubuk** ve **Negatif çubuk** renklerini ayarlayın, **Yalnızca çubuğu göster** seçeneğini belirleyin ve istediğiniz diğer değişiklikleri yapın.
+1. Veri çubuklarını özelleştirmek için **Gelişmiş denetimler** seçeneğini belirleyin. Açılan iletişim kutusunda **Pozitif çubuk** ve **Negatif çubuk** renklerini ayarlayın, **Yalnızca çubuğu göster** seçeneğini belirleyin ve istediğiniz diğer değişiklikleri yapın.
 
     ![Yalnızca çubuğu gösterme onay işareti](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. **Tamam**'ı seçin.
+1. **Tamam**’ı seçin.
 
     Tabloda, veri çubukları sayısal değerlerin yerini alır ve bu sayede tablonun taranması kolaylaşır.
 
     ![Son sütundaki çubuklar hariç aynı tablo](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Bir görselleştirmeden koşullu biçimlendirmeyi kaldırmak istiyorsanız alana tekrar sağ tıklayın ve **Koşullu Biçimlendirmeyi Kaldır**'ı seçin.
+1. *Koşullu simgelerle* tablonuza görsel ipuçları ekleyin.  **Koşullu biçimlendirme** kartında, açılan listeden **Bu yılın satışları** seçeneğini belirleyin. **Simgeler** kaydıracını **Açık** konumuna getirin.  Simgeleri özelleştirmek için **Gelişmiş denetimler** seçeneğini belirleyin.
 
-> [!TIP]
-> Koşullu biçimlendirmeye **Biçimlendirme** bölmesinden de erişebilirsiniz. Biçimlendirmek istediğiniz değeri seçip **Renk ölçekleri** veya **Veri çubukları seçenekleri**’ni **Açık** konumuna getirerek varsayılan ayarları uygulayabilir veya **Gelişmiş denetimler**’i seçerek ayarları özelleştirebilirsiniz.
+    ![Simgelerin ekli olduğu Tablo](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Power BI tablolarındaki değerleri diğer uygulamalarda kullanmak üzere kopyalama
 
@@ -175,12 +172,13 @@ Bazen Power BI bir rapordaki veya bir panodaki sütun başlığını kısaltabil
 
 ![sütunları yeniden boyutlandırmanın yakın plan videosu](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: **Otomatik**, **Sol**, **Orta**, **Sağ**. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI'da ağaç haritaları](power-bi-visualization-treemaps.md)
+* [Power BI’daki ağaç haritalar](power-bi-visualization-treemaps.md)
 
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

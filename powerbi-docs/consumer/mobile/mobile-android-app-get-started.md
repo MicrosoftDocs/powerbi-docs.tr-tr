@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220263"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259771"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -52,11 +52,11 @@ Henüz kaydolmadıysanız [Power BI hizmeti](https://powerbi.com/) sayfasına gi
 1. Android cihazınızdaki başlangıç ekranından Android için Power BI uygulamasını açın.
    
    ![Power BI simgesi](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Power BI panolarınızı ve raporlarınızı görüntülemek için **Power BI**'a dokunun.  
-   
-   Power BI oturumunuzun açılmadığını bildiren bir ileti alırsanız bu sorunun nasıl çözüleceğiyle ilgili ayrıntılı bilgi edinmek için bkz. ["Kurumsal SSL sertifikanıza güvenilmediği için kimlik doğrulaması yapılamadı."](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)
+2. Power BI’da oturum açmak için **Power BI** sekmesine dokunun ve oturum açma ayrıntılarınızı girin.
 
-   Power BI Rapor Sunucusu ve Reporting Services raporlarınızı ve KPI'lerinizi görüntülemek için **Rapor Sunucusu**'na dokunun.
+    Power BI oturumunuzun açılmadığını bildiren bir ileti alırsanız bu sorunun nasıl çözüleceğiyle ilgili ayrıntılı bilgi edinmek için bkz. ["Kurumsal SSL sertifikanıza güvenilmediği için kimlik doğrulaması yapılamadı"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md).
+
+   Reporting Services mobil raporlarınızda ve KPI’larda oturum açmak için **Rapor sunucusu** sekmesine dokunun ve oturum açma ayrıntılarınızı girin.
    
    ![Power BI'da oturum açma](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

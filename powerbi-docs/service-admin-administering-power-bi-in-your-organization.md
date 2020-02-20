@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548596"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115274"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -80,10 +80,9 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç ara
 
 Bu makalede Power BI yöneticisinin işi ve onunla ilgili belirli roller, görevler ve araçlara ilişkin bazı hızlı içgörüler bulduğunuzu umuyoruz. Öğrendiklerinizi pekiştirmek için aşağıdaki makaleleri okumanızı öneririz.
 
-[Power BI yönetim portalını kullanma](service-admin-portal.md)
-
-[PowerShell cmdlet’lerini kullanma](/powershell/power-bi/overview)
-
-[Power BI yönetimi SSS](service-admin-faq.md)
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- [Power BI yönetim portalını kullanma](service-admin-portal.md)
+- [Kiracı yöneticisi ayarları rehberi](guidance/admin-tenant-settings.md)
+- [PowerShell cmdlet’lerini kullanma](/powershell/power-bi/overview)
+- [Power BI yönetimi SSS](service-admin-faq.md)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

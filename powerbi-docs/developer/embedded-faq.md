@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539061"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259706"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -55,37 +55,11 @@ PRO lisansına sahip ekleme belirteçleri geliştirme testlerine yöneliktir. Bu
 
 ## <a name="technical"></a>Teknik
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure’da A SKU ile Office 365’te EM SKU arasındaki fark nedir?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI tümleşik analize ilişkin kapasite ve SKU’lar hakkında nereden daha fazla bilgi edinebilirim?
 
-PowerBI.com sosyal işbirliği ve e-posta aboneliği gibi daha birçok özelliği olan kurumsal bir Hizmet olarak Yazılım (SaaS) çözümüdür. PowerBI.com, ISV'lerin tümleşik analiz çözümü içeriklerini ve kiracı düzeyi ayarlarını yönetmesine yardımcı olur.
+[Power BI tümleşik analize ilişkin kapasite ve SKU’lar](embedded-capacity.md) makalesine bakın.
 
-Power BI Embedded geliştiricilerin tümleşik analiz çözümü oluşturmak için kullanabileceği bir Hizmet olarak Platform (PaaS) API kümesidir.
-
-Aşağıda özellik farklarının kısmi bir listesini bulabilirsiniz.
-
-| Öne çıkan özelliği | Power BI Embedded | Power BI Premium Kapasitesi | Power BI Premium Kapasitesi |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | A SKU'ları-Azure kapasitesi | EM SKU'ları-O365 kapasitesi | P SKU'ları-O365 kapasitesi |
-| Power BI çalışma alanından yapıtları ekleme | Evet | Evet | Evet |
-| Kuruluşunuz için ekli uygulamada Power BI raporlarını kullanma  | Hayır | Evet | Evet |
-| Müşterileriniz için ekli uygulamada Power BI raporlarını kullanma | Evet | Evet | Evet |
-| Power BI raporlarını SharePoint'te kullanma | Hayır | Evet | Evet |
-| Power BI raporlarını Dynamics'te kullanma | Hayır | Evet | Evet |
-| Power BI raporlarını Teams'de kullanma (mobil uygulama hariç) | Hayır | Evet | Evet |
-| ÜCRETSİZ Power BI lisansıyla içeriklere Powerbi.com ve Power BI mobilden erişme | Hayır | Hayır | Evet |
-| MS Office uygulamalarına eklenmiş ÜCRETSİZ Power BI lisansıyla içeriklere erişme | Hayır | Evet | Evet |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI artık ekleme için üç SKU sunar: A SKU, EM SKU ve P SKU. Benim durumumda hangisini satın almalıyım?
-
-|  |A SKU (Power BI Embedded)  |EM SKU (Power BI Premium)  |P SKU (Power BI Premium)  |
-|---------|---------|---------|---------|
-|Satın al  |Azure portalı |Office |Office |
-|Kullanım örnekleri | Kendi uygulamanıza içerik ekleme | <li> Kendi uygulamanıza içerik ekleme <br><br><br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Kendi uygulamanıza içerik ekleme <br><br><br> <li> MS Office uygulamalarına içerik ekleme: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (mobil uygulama hariç)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> [Power BI hizmeti](https://powerbi.microsoft.com/) aracılığıyla Power BI kullanıcılarıyla içerik paylaşma  |
-|Faturalama |Saatlik |Aylık |Aylık |
-|Taahhüt  |Taahhütsüz |Yıllık  |Aylık/Yıllık |
-|Ayrım |Tam esneklik; Azure portalında veya API'ler ile kaynaklar duraklatılabilir/sürdürülebilir, ölçek artırılabilir/azaltılabilir  |SharePoint Online ve Microsoft Teams'de içerik eklemek için kullanabilirsiniz (mobil uygulama hariç) |Uygulamalarda katıştırma birleştirilebilir ve Power BI Hizmeti aynı kapasitede kullanılabilir |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturmanın önkoşulları nelerdir?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>Azure’da PBIE kapasitesi oluşturma önkoşulları nelerdir?
 
 * Kuruluş dizininizde oturum açın (Microsoft hesapları desteklenmez).
 * Power BI kiracısına sahip olmanız gerekir; diğer bir deyişle, dizininizde en az bir kullanıcının Power BI’a kaydolmuş olması gerekir. 
@@ -122,7 +96,7 @@ Kullanıcı [refreshUserPermissions API'sini](https://docs.microsoft.com/rest/ap
 
 PBI Kiracı bölgenizi bulmak için PBI portalını kullanabilirsiniz.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI Hakkında
+[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI Hakkında
 
 ![Power BI Hakkında](media/embedded-faq/about-01.png)
 ![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)
@@ -224,7 +198,7 @@ Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak e
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Uygulama kimliği ve hizmet sorumlusu nesne kimliği ne zaman kullanılır?
 
-**[Uygulama kimliği](embed-sample-for-customers.md#application-id)** , kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
+**[Uygulama kimliği](embed-sample-for-customers.md#application-id)**, kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
 
 İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id)** kullanırsınız.
 

@@ -1,19 +1,19 @@
 ---
 title: Surface Hub'da sunu modunda görüntüleme, Windows 10 - Power BI
 description: Power BI raporlarını Surface Hub'da görüntüleme ve Power BI panolarını, raporlarını ve kutucuklarını Windows 10 cihazlarda tam ekran modunda görüntüleme hakkında bilgi edinin.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/10/2018
-ms.author: mshenhav
-ms.openlocfilehash: abd7fd34cf2dbdc2f8f12a7f3c6de6228941af5a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/08/2020
+ms.author: painbar
+ms.openlocfilehash: f900a329ccbfa2a6e80883baec9694ddeaf3833a
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869540"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259903"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. 
@@ -39,12 +39,15 @@ Power BI mobil uygulamasında, **Tam ekran** simgesine dokunarak tam ekran modun
 
 Araç çubuğundan aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
-1. Önceki sayfanıza gitmek için geri simgesine ![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) dokunun. Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır ve raporunuzu veya panonuzu içeren klasöre gidebilmeniz sağlanır.
-2. Mürekkep simgesi ![mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken bir renk seçmenizi sağlar. 
-3. Sunmakta olduğunuz rapor sayfasını değiştirmek için sayfalar simgesini ![sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) kullanın.
-4. Oynat simgesi,  ![Oynat simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) eylem çubuğunu gizler ve slayt gösterisini başlatır. Bu işlem esnasında, uygulama otomatik olarak rapor sayfaları arasında geçiş yapar. 
-5. Diğer panoları aramak için Arama simgesine ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) dokunun.
-6. Sunu modundan çıkmak için araç çubuğunda üzerinde içeri doğru iki ok bulunan simgeye ![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) dokunun.
+1. Önceki sayfaya **geri gidin** ![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png). Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır. Bu, raporunuzu veya panonuzu içeren klasöre gitmenize olanak tanır.
+2. Rapor sayfanızda çizim yapmak veya buna açıklama eklemek için Surface kaleminizi kullanırken **mürekkep rengini seçin** ![mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png).
+3. Rapor sayfanızda çizim yapmak ve buna açıklama eklemek için Surface kaleminizi kullanırken oluşabilen **mürekkep izlerini silin** ![silgi simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png).  
+4. Sunumunuzdaki raporun farklı bir sayfasına **geçiş yapın** ![sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png).
+5. Eylem çubuğunu gizleyip slayt gösterisini başlatarak **slayt gösterisini oynatın** ![Oynat simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png). Bu simge kullanıldığında uygulama, rapor sayfalar arasında otomatik olarak geçiş yapar. 
+6. Power BI’daki diğer yapıtları **arayın** ![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png).
+7. Raporu **yenileyin** ![Yenileme simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png).
+8. Sunum modundan **çıkın** ![Tam ekran modundan çıkma](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png).
+8. Sunum görünümünün bir görüntüsü iş arkadaşlarınızla **paylaşın** ![Paylaş simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png). Görüntü, sunum esnasında Surface kaleminizle yaptığınız tüm ek açıklamaları içerir.
 
 Araç çubuğunu yerinden çıkarabilir ve sürükleyerek ekranın herhangi bir yerine yerleştirebilirsiniz. Büyük ekranlarda, raporunuzun belirli bir alanına odaklanmayı tercih ettiğinizde ve araçları bu alanın yanında kullanabilmek istediğinizde bu yararlı olacaktır. Parmağınızı araç çubuğunun üzerine koyup rapor tuvaline doğru çekmeniz yeterlidir.
 

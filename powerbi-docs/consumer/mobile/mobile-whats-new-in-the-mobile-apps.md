@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 01/29/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538417"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259818"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -21,6 +21,12 @@ ms.locfileid: "76538417"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="january-2020"></a>Ocak 2020
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>Sunum modunda oluşturulan ek açıklamaları paylaşma (Windows)
+
+Sunumlar esnasında oluşturduğunuz ek açıklamalar, sunumun tümleşik bir parçası olur ve tartışmanın önemli bir bileşeni haline gelir. Raporlara sunum modunda not eklediğinizde, raporun anlık görüntüsünü iş arkadaşlarınızla paylaşabilirsiniz. [Daha fazla bilgi](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>Aralık 2019
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761853"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154224"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat uygulama
 
@@ -24,6 +24,7 @@ Otomatik tarih/saat, Power BI Desktop'taki bir veri yükleme seçeneğidir. Bu s
 Bu seçenek etkinleştirildiğinde ve aşağıdaki koşulların karşılanması durumunda Power BI Desktop, her bir tarih sütunu için gizli bir otomatik tarih/saat tablosu oluşturur:
 
 - Tablo depolama modu: İçeri Aktarma
+- Sütun hesaplanmış bir sütun değil
 - Sütun veri türü: Tarih veya tarih/saat
 - Sütun, bir model ilişkisinin "çok" tarafı değil
 
@@ -44,6 +45,8 @@ Otomatik tarih/saat tablosunun satırlarını görmek mümkün olsaydı şu şek
 
 > [!NOTE]
 > Otomatik tarih/saat tabloları kalıcı olarak gizlenmiştir ve modelleyiciler dahi göremez. Tablolar **Alanlar** bölmesinde veya Model görünümü diyagramında görüntülenmez, satırları da Veri görünümünde yer almaz. Ayrıca tablo ve sütununa DAX ifadeleri ile doğrudan başvuru yapılamaz.
+>
+> Ayrıca, [Excel’de Çözümle](service-analyze-in-excel.md) ayarını kullanarak veya modele Power BI dışı rapor tasarımcılarıyla bağlanarak bunlarla çalışmak mümkün değildir.
 
 Tablo aynı zamanda bir hiyerarşi tanımlar ve görsellerde yıl, üç aylık dönem, ay ve gün düzeylerinde detaya gitme seçeneği sunar.
 
@@ -87,7 +90,7 @@ Geçerli dosya seçeneğini de istediğiniz zaman kapatıp açabilirsiniz. Bu ö
 > [!CAUTION]
 > Otomatik tarih/saat tablolarının kaldırılmasına neden olacağından geçerli dosya seçeneğini kapatırken dikkatli olun. Bu tabloları kullanacak şekilde yapılandırılmış olan rapor filtrelerini veya görselleri düzeltmeyi unutmayın.
 
-Power BI Desktop'ta _Dosya > Seçenekler ve ayarlar > Seçenekler_'i ve ardından **Genel** veya **Geçerli Dosya** sayfasını seçersiniz. İlgili seçenek, iki sayfada da **Akıllı zaman gösterimi** bölümünde yer alır.
+Power BI Desktop’ta _Dosya > Seçenekler ve ayarlar > Seçenekler_’i ve ardından **Genel** veya **Geçerli Dosya** sayfasını seçin. İlgili seçenek, iki sayfada da **Akıllı zaman gösterimi** bölümünde yer alır.
 
 ![Power BI Desktop seçeneklerini yapılandırma. GENEL gruptaki Veri Yükle sayfası seçili durumda. Akıllı Zaman Gösterimi bölümünde Yeni dosyalar için otomatik tarih/saat seçeneği işaretlenmiş.](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 
@@ -98,3 +101,4 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Power BI Desktop’ta otomatik tarih/saat kılavuzu](guidance/auto-date-time.md)
 - [Power BI Desktop'ta tarih tabloları ayarlama ve kullanma](desktop-date-tables.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

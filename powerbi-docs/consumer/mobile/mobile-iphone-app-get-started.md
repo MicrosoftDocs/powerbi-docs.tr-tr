@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220384"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259757"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -40,12 +40,12 @@ Henüz kaydolmadıysanız, [powerbi.com](https://powerbi.microsoft.com/get-start
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI uygulaması ile çalışmaya başlama
 1. iOS cihazınızda Power BI uygulamasını açın.
-2. Power BI panolarınızı görüntülemek için **Power BI** seçeneğine dokunun.  
-   Reporting Services mobil raporlarınızı ve KPI'lerinizi görüntülemek içinse **Rapor Sunucusu** seçeneğine dokunun.
+2. Power BI’da oturum açmak için **Power BI** sekmesine dokunun ve oturum açma ayrıntılarınızı girin.  
+   Reporting Services mobil raporlarınızda ve KPI’larda oturum açmak için **Rapor sunucusu** sekmesine dokunun ve oturum açma ayrıntılarınızı girin.
    
    ![Power BI mobil uygulamasında oturum açma](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Uygulamanın içinden ekranınızın sol üst köşesindeki hesap profili resmine dokunarak ikisi arasında geçiş yapın. 
+   Uygulamanın içinden, ekranınızın sol üst köşesindeki hesap profili resmine dokunarak Power BI ve rapor sunucunuz arasında geçiş yapın. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI ve Reporting Services örneklerini deneme
 Kaydolmadan bile Power BI ve Reporting Services örneklerini görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.

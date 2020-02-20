@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895546"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154442"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -136,17 +136,32 @@ Basamaklı düzen ayarlarını kolayca yapabilirsiniz. Matris görseli seçiliyk
 
 Basamaklı düzen devre dışı bırakılırsa, Power BI alt kategorileri, üst kategori altında girintilemek yerine başka bir sütunda gösterir.
 
-## <a name="subtotals-with-matrix-visuals"></a>Matris görselleri ile alt toplamlar
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Matris görselleri ile alt toplamlar ve genel toplamlar
 
-Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etkinleştirebilir veya devre dışı bırakabilirsiniz. Aşağıdaki görüntüde, satır alt toplamlarının **Açık** olarak ayarlandığını görebilirsiniz.
+Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etkinleştirebilir veya devre dışı bırakabilirsiniz. Aşağıdaki görüntüde, satır alt toplamlarının **Açık** olarak ve aşağıda gösterilecek şekilde ayarlandığını görebilirsiniz.
 
-![toplamları ve alt toplamları gösteren matris](media/desktop-matrix-visual/matrix-visual_20.png)
+![toplamları ve alt toplamları gösteren matris](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Görsel öğeler bölmesinin biçim bölümündeki **Alt toplamlar** kartını genişletin ve satır alt toplamları kaydırıcısını **Kapalı** olarak ayarlayın. Bunu yaptığınızda alt toplamlar gösterilmez.
+Power BI, **Alt toplamları** açıp etiket eklediğinizde genel toplam değeri için bir satırı ve aynı etiketi de ekler. Genel toplam değerini biçimlendirmek için **Genel toplam**’a yönelik biçimlendirme seçeneğini belirleyin. 
 
-![alt toplamların devre dışı bırakıldığı matris](media/desktop-matrix-visual/matrix-visual_21.png)
+![Genel toplam kartını gösteren matris](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Alt toplamları ve genel toplamı kapatmak istiyorsanız, görselleştirmeler bölmesinin biçimlendirme bölümünde **Alt toplamlar** kartını genişletin. Satır alt toplamları kaydıracını **Kapalı** konumuna getirin. Bunu yaptığınızda alt toplamlar gösterilmez.
+
+![alt toplamların devre dışı bırakıldığı matris](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 Aynı işlem sütun alt toplamları için de geçerlidir.
+
+## <a name="add-conditional-icons"></a>Koşullu simgeler ekleme
+*Koşullu simgeler* ile tablonuza veya matrisinize görsel ipuçları ekleyin. 
+
+Görselleştirmeler bölmesinin biçimlendirme bölümünde **Koşullu biçimlendirme** kartını genişletin. **Simgeler** kaydıracını **Açık** konumuna getirip **Gelişmiş denetimler** seçeneğini belirleyin.
+
+![Simgeler ekranının gösterildiği matris](media/desktop-matrix-visual/power-bi-icons.png)
+
+Matrisinize yönelik koşulları, simgeleri ve renkleri ayarlayıp **Tamam** seçeneğini belirleyin. Bu örnekte, düşük değerler için kırmızı bayrak, yüksek değerler için mor daire ve ortalama değerler için sarı üçgen kullandık. 
+
+![Simgelerin görüntülendiği matris](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Matris görselleri ile çapraz vurgulama
 

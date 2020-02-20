@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699118"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115297"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -35,7 +35,7 @@ Gerçek zamanlı panolarda görüntülenecek şekilde tasarlanmış üç gerçek
 ### <a name="push-dataset"></a>Gönderim veri kümesi
 Veriler, bir **gönderim veri kümesi** ile Power BI hizmetine gönderilir. Veri kümesi oluşturulduğunda Power BI hizmeti, verileri depolamak için hizmette otomatik olarak yeni bir veri kümesi oluşturur. Alınan verilerin devamlı olarak depolandığı bir temel alınan veritabanı bulunduğundan söz konusu verilerle raporlar oluşturulabilir. Söz konusu raporlar ve ilgili görseller de diğer rapor görselleri gibidir, bu; görsel oluşturmak için özel görsellerin, veri uyarılarının, sabitlenen pano kutucuklarının ve daha fazlasının dahil olduğu, Power BI'ın rapor oluşturma özelliklerinin tümünü kullanabileceğiniz anlamına gelir.
 
-Gönderim veri kümesi kullanılarak bir rapor oluşturulduğunda, içerdiği görsellerin tümü bir panoya sabitlenebilir. Bu panoda, veriler her güncelleştirildiğinde görseller de gerçek zamanlı olarak güncelleştirilir. Hizmette bulunan pano, her yeni veri alındığında kutucuk yenileme işlemi tetikler.
+Gönderim veri kümesi kullanılarak rapor oluşturulduğunda, raporun içerdiği görsellerin tümü bir panoya sabitlenebilir. Bu panoda, veriler her güncelleştirildiğinde görseller de gerçek zamanlı olarak güncelleştirilir. Hizmette bulunan pano, her yeni veri alındığında kutucuk yenileme işlemi tetikler.
 
 Gönderim veri kümesinden alınan sabitlenmiş kutucuklar hakkında göz önünde bulundurulması gereken iki önemli nokta vardır:
 
@@ -80,7 +80,7 @@ Bir veri kümesine veri göndermenin başlıca üç yolu vardır:
 Sırayla bu yaklaşımların her birine göz atalım.
 
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Veri göndermek için Power BI REST API'lerini kullanma
-**Power BI REST API'leri**, **gönderim** veri kümelerinde ve **akış** veri kümelerinde veri oluşturmak ve bu veri kümelerine veri göndermek için kullanılabilir. Power BI REST API'lerini kullanarak bir veri kümesi oluşturduğunuzda, *defaultMode* bayrağı, veri kümesinin gönderim veya akış olup olmadığını belirtir. *defaultMode* bayrağı ayarlanmamışsa veri kümesi, varsayılan olarak **gönderim** veri kümesi biçimindedir.
+**Power BI REST API’leri**, **gönderim** veri kümelerinde ve **akış** veri kümelerinde veri oluşturmak ve bu veri kümelerine veri göndermek için kullanılabilir. Power BI REST API'lerini kullanarak bir veri kümesi oluşturduğunuzda, *defaultMode* bayrağı, veri kümesinin gönderim veya akış olup olmadığını belirtir. *defaultMode* bayrağı ayarlanmamışsa veri kümesi, varsayılan olarak **gönderim** veri kümesi biçimindedir.
 
 *defaultMode* değeri *pushStreaming* olarak ayarlanırsa, veri kümesi hem **gönderim***hem de***akış** veri kümesi olur ve her iki veri kümesi türünün de sağladığı avantajları sunar. 
 

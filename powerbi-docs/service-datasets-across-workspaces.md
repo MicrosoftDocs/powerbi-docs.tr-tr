@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877187"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179232"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)
 
@@ -62,7 +62,7 @@ Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özel
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
 - Bir uygulama yayımcısı olarak, hedef kitlenizin çalışma alanının dışında bulunan veri kümelerine erişebildiğinden emin olmanız gerekir. Aksi takdirde, kullanıcılar uygulamanızla etkileşime geçerken, raporların veri kümesi erişimi olmadan açılmaması ve pano kutucuklarının kilitli olarak görünmesi gibi sorunlar yaşar. Ayrıca, bu öğenin gezintisindeki ilk öğe veri kümesine erişimi olmayan bir rapor olursa, kullanıcılar uygulamayı açamaz.
-- Raporu farklı çalışma alanında bulunan bir veri kümesinin üstünde oluşturabilmeniz için iki uçta da yeni çalışma alanı deneyimi gerekir: Rapor yeni çalışma alanı deneyiminde olmalı ve veri kümesi de yeni çalışma alanı deneyiminde olmalıdır.
+- Raporu farklı çalışma alanında bulunan bir veri kümesinin üstünde oluşturabilmeniz için iki uçta da yeni çalışma alanı deneyimi gerekir: Rapor yeni çalışma alanı deneyiminde olmalı ve veri kümesi de yeni çalışma alanı deneyiminde olmalıdır. Yeni bir çalışma alanı deneyimindeki raporları yalnızca farklı bir yeni çalışma alanı deneyimine kopyalayabilirsiniz. Bu raporlar, klasik çalışma alanlarına veya Çalışma Alanım’a kopyalanamaz. 
 - Klasik çalışma alanında veri kümesi bulma deneyimi yalnızca o çalışma alanındaki veri kümelerini gösterir.
 - Tasarım gereği, paylaşılan veri kümesini temel alan bir raporda “Web'de yayımla” özelliği çalışmaz.
 - Paylaşılan veri kümesine erişen bir çalışma alanının üyesi olan iki kişiden yalnızca biri çalışma alanındaki ilgili veri kümesini görebiliyor olabilir. Yalnızca veri kümesi üzerinde en azından Okuma izni olan kişiler paylaşılan veri kümelerini görebilir. 
