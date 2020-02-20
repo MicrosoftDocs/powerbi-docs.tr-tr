@@ -25,7 +25,7 @@ Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sun
 * [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış.
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması](install-powerbi-desktop.md) yüklü.
 * [SharePoint](https://docs.microsoft.com/sharepoint/install/install) ortamı yüklü ve yapılandırılmış.
-* Internet Explorer 11, belge modu IE11 (Edge) olarak ayarlandığında veya SharePoint Online kullanılırken desteklenir. SharePoint şirket içi ve SharePoint Online ile desteklenen diğer tarayıcıları kullanabilirsiniz.
+* Internet Explorer 11, belge modu IE11 (Microsoft Edge) olarak ayarlandığında veya SharePoint Online kullanılırken desteklenir. SharePoint şirket içi ve SharePoint Online ile desteklenen diğer tarayıcıları kullanabilirsiniz.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI rapor URL’si oluşturma
 
