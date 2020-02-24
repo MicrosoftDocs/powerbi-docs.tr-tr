@@ -8,24 +8,24 @@
           href: end-user-consumer.md
         - name: Power BI tüketicileri için temel kavramlar ve terminoloji
           href: end-user-basic-concepts.md
+        - name: Power BI hizmetinde bir tura katılın
+          href: end-user-reading-view.md
+    - name: Kullanmaya başlayın
+      items:
+        - name: Power BI kullanma yollarını öğrenin
+          href: end-user-experience.md
         - name: Açılış sayfanızı kullanarak içerik bulma
           href: end-user-home.md
+        - name: Doğal dil kullanarak soru sormayı öğrenme
+          href: end-user-q-and-a.md
+        - name: İlk kez oturum açma
+          href: end-user-sign-in.md
+        - name: Lisans türünüzü arama
+          href: end-user-license.md
         - name: '''Yeni görünüm'' bölümünde gezinme'
           href: ../service-new-look.md
         - name: 'Yeni görünüm: Eylemler nereye gitti?'
           href: ../service-new-look-where-actions.md
-    - name: Hızlı Başlangıçlar
-      items:
-        - name: Power BI kullanma yollarını öğrenin
-          href: end-user-experience.md
-        - name: Power BI ile neler yapabilirim?
-          href: end-user-reading-view.md
-        - name: İlk kez oturum açma
-          href: end-user-sign-in.md
-    - name: Öğreticiler
-      items:
-        - name: Pano uyarısı oluşturma
-          href: end-user-alerts.md
     - name: Nasıl yapılır
       items:
         - name: Panolar
@@ -40,6 +40,10 @@
               href: end-user-tiles.md
             - name: Yorum ekleme ya da bir konuşma başlatma
               href: end-user-comment.md
+            - name: Pano kutucukları için otomatik içgörüleri görüntüleme
+              href: end-user-insights.md
+            - name: Pano uyarısı oluşturma
+              href: end-user-alerts.md
         - name: Raporlar
           items:
             - name: Raporlar
@@ -78,7 +82,7 @@
               href: end-user-visual-type.md
             - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
               href: end-user-show-data.md
-            - name: Power BI'daki görselleştirmelerde detaya gitme
+            - name: Görselde detaya gitme
               href: end-user-drill.md
             - name: ArcGIS haritaları ile etkileşim kurma
               href: ../power-bi-visualizations-arcgis.md
@@ -104,8 +108,6 @@
               href: end-user-subscribe.md
             - name: Power BI'da içerik arama ve sıralama
               href: end-user-search-sort.md
-            - name: Pano kutucukları için otomatik içgörüleri görüntüleme
-              href: end-user-insights.md
             - name: Önizleme özelliklerini açma
               href: end-user-preview-features.md
             - name: Power BI hizmetinde bildirim alma
@@ -134,7 +136,7 @@
           href: end-user-faq.md
         - name: Desteklenen tarayıcılar
           href: end-user-browsers.md
-        - name: Power BI tarafından desteklenen Hızlı Öngörü türleri
+        - name: Hızlı İçgörü türleri
           href: end-user-insight-types.md
 - name: Power BI mobil uygulamaları
   items:

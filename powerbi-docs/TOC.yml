@@ -579,6 +579,8 @@
           items:
             - name: Zamanlanmış yenileme yapılandırma
               href: refresh-scheduled-refresh.md
+            - name: Artımlı yenilemeyi yapılandırma
+              href: service-premium-incremental-refresh.md
             - name: Yerel bir Power BI Desktop dosyasından veri kümesini yenileme
               href: refresh-desktop-file-local-drive.md
             - name: Buluttaki Power BI Desktop dosyasından veri kümesini yenileme
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama
               href: service-report-subscribe.md
+            - name: Microsoft Teams’e rapor ekleme
+              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online'a rapor ekleme
               href: service-embed-report-spo.md
             - name: Raporu güvenli bir portala veya web sitesine ekleme
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: Yönetim portalında kapasiteleri izleme
           href: service-admin-premium-monitor-portal.md
-        - name: Artımlı yenilemeyi yapılandırma
-          href: service-premium-incremental-refresh.md
         - name: Büyük modelleri yapılandırma (önizleme)
           href: service-premium-large-models.md
         - name: Multi-Geo özelliğini yapılandırma

@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Tüketiciler için Power BI belgeleri
+summary: Tüketici olarak, iş arkadaşlarınızdan pano ve raporlar alırsınız. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşim kurmak için Power BI’da çalışırsınız.
+metadata:
+  title: Kullanıcılar için Power BI
+  description: Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI hizmetinin özelliklerini ve yeteneklerini öğrenin; Power BI tüketicisi veya son kullanıcısı olarak bunlarla ne yapabileceğinizi görün.
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497805"
+landingContent:
+- title: Tüketiciler için Power BI hakkında
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI tüketicisi nedir?
+      url: end-user-consumer.md
+    - text: Power BI hizmetinde bir tura katılın
+      url: end-user-reading-view.md
+    - text: Kavramları ve içeriği gözden geçirin
+      url: end-user-basic-concepts.md
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Oturum aç
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: Raporlar hakkında bilgi edinin
+      url: end-user-reports.md
+    - text: Panolar hakkında bilgi edinin
+      url: end-user-dashboards.md
+    - text: Uygulamalar hakkında bilgi edinin
+      url: end-user-apps.md
+- title: İçeriği görüntüleme
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Rapor görüntüleme
+      url: end-user-report-view.md
+    - text: İçeriği daha büyük biçimde veya tek başına görüntüleme
+      url: end-user-focus.md
+    - text: Görselleştirme oluşturmak için kullanılan verileri gösterme
+      url: end-user-show-data.md
+    - text: Excel’e verileri aktarma
+      url: end-user-export.md
+- title: Etkileşim kurma ve analiz etme
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI’da gezinme
+      url: end-user-experience.md
+    - text: Bir görselde detaya gitme
+      url: end-user-drill.md
+    - text: Görsellerin sıralanma şeklini değiştirme
+      url: end-user-change-sort.md
+    - text: Rapor filtrelerini kullanma
+      url: end-user-report-filter.md
+    - text: Doğal dil kullanarak soru sorma
+      url: end-user-q-and-a.md
+- title: İşbirliği yapma ve paylaşma
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: PowerPoint’e rapor yayımlama
+      url: end-user-powerpoint.md
+    - text: Bir raporu PDF’ye dışarı aktarma
+      url: end-user-pdf.md
+    - text: İçeriğe abone olma
+      url: end-user-subscribe.md
+- title: İleri düzey konular
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Yer işaretleri oluşturma ve kullanma
+      url: end-user-bookmarks.md
+    - text: Otomatik İçgörüleri görüntüleme
+      url: end-user-insights.md
+    - text: Sayfalandırılmış rapor görüntüleme
+      url: paginated-reports-view-power-bi-service.md
+- title: Kaynaklar
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Sözlük
+      url: end-user-glossary.md
+    - text: SSS
+      url: end-user-faq.md
+    - text: İçgörü türleri
+      url: end-user-insight-types.md
+    - text: Görsel türleri
+      url: end-user-visual-type.md

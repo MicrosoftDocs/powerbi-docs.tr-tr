@@ -62,6 +62,10 @@
           items:
             - name: Sayfalandırılmış raporları kullanma zamanı
               href: report-paginated-or-power-bi.md
+            - name: Veri alma kılavuzu
+              href: report-paginated-data-retrieval.md
+            - name: Görüntü kullanım kılavuzu
+              href: report-paginated-image.md
             - name: Basamaklı parametreleri kullanma
               href: paginated-report-cascading-parameter.md
             - name: Yazdırma sırasında boş sayfalardan kaçınma
