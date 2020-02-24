@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539676"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427381"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
 
@@ -82,7 +82,7 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
 1. `LOOKUPVALUE` işlevi, Windows kullanıcı adı ile `USERNAME` işlevinin döndürdüğü adın eşleştiği sütun için değerler döndürür. Bundan sonra sorguları `LOOKUPVALUE` işlevinin döndürdüğü değerlerinin aynı veya ilişkili tablodaki değerlerle eşleştiği durumlarla sınırlayabilirsiniz. **DAX Filtresi** sütununa aşağıdaki formülü yazın:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
 1. `DimUserSecurity` tablosu için **DAX Filtresi** sütununa aşağıdaki formülü ekleyin:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Panoda daha fazla etkinlik gerçekleştirilirse SQL Profiler içinde Analysis Se
 
 Ayrıca, rapor verilerini yerleştirmek için aşağıdaki DAX sorgusunun da yürütüldüğünü görebilirsiniz.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

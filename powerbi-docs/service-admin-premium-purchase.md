@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224086"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427749"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
 Bu makalede kuruluşunuz için Power BI Premium kapasitesini satın alma adımları anlatılmaktadır. Makalede iki senaryo açıklanır:
 
-- Tipik üretim senaryolarında P SKU'larını kullanma. P SKU'ları için aylık veya yıllık taahhüt gerekir ve aylık faturalama yapılır. P SKU'larını [Microsoft 365 yönetim merkezinde](https://admmin.microsoft.com) satın alırsınız.
+- Tipik üretim senaryolarında P SKU'larını kullanma. P SKU'ları için aylık veya yıllık taahhüt gerekir ve aylık faturalama yapılır.
 
 - Test senaryolarında ve P SKU'larını satın almak için gereken izinleriniz (Microsoft 365 Genel Yöneticisi rolü veya Faturalama Yöneticisi rolü) olmadığında A SKU'larını kullanma. A SKU'ları için zaman taahhütü gerekmez ve bu saatlik olarak faturalandırılır. A SKU'larını [Azure portalında](https://portal.azure.com) satın alırsınız.
 

@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/12/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75224223"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527829"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma
 
@@ -56,7 +56,7 @@ Bu URL'yi URL alanına yapıştırın: [https://pbiaitutorials.blob.core.windows
 
 ![Veri akışı oluşturma](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-Üstteki şeritte **Tabloyu Dönüştür**'ü seçin ve sonra da **İlk satırı üst bilgi olarak kullan**'ı seçin. Veriler artık metin analizinde kullanılmaya hazırdır ve müşteri yorumları sütununda Yaklaşım Puanlaması'nı ve Anahtar İfade Ayıklama'yı kullanabiliriz.
+Veriler artık metin analizinde kullanılmaya hazırdır ve müşteri yorumları sütununda Yaklaşım Puanlaması'nı ve Anahtar İfade Ayıklama'yı kullanabiliriz.
 
 Power Query Düzenleyicisi'nde **AI İçgörüler**'i seçin
 
