@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: ec56a2d37dc73a1dfabee8e07100c57ac37eb35c
-  ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+  ms.openlocfilehash: 28fc951ecdfdf31b7319047caae2b5807aadf704
+  ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/21/2020
-  ms.locfileid: "77527557"
+  ms.lasthandoff: 02/26/2020
+  ms.locfileid: "77609748"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -25,6 +25,8 @@ landingContent:
     links:
     - text: Power BI için kılavuz
       url: overview.md
+    - text: Power BI için iyileştirme kılavuzu
+      url: power-bi-optimization.md
     - text: Teknik incelemelere genel bakış
       url: ../whitepapers.md
 - title: Verileri dönüştürme ve şekillendirme
@@ -107,3 +109,5 @@ landingContent:
       url: admin-tenant-settings.md
     - text: Şirket içi veri ağ geçidi boyutlandırması
       url: gateway-onprem-sizing.md
+    - text: Rapor performansını izleme
+      url: monitor-report-performance.md
