@@ -100,7 +100,7 @@ Yeni akış veri kümesini oluştururken, aşağıda gösterildiği gibi, yapıl
 
 ![](media/service-real-time-streaming/real-time-streaming_0c.png)
 
-**Geçmiş veri çözümlemesi** devre dışıyken (varsayılan olarak devre dışıdır), bu makalede önceden de belirtildiği gibi bir **akış veri kümesi** oluşturursunuz. **Geçmiş veri çözümlemesi***etkinken*, oluşturulan veri kümesi hem **akış veri kümesi** ve hem de **gönderim veri kümesi** haline gelir. Bu makalenin önceki kısımlarında belirtildiği gibi, bu işlem, *defaultMode* seçeneği *pushStreaming* olarak ayarlanan bir veri kümesi oluşturmak için Power BI REST API'lerinin kullanılmasıyla eşdeğerdir.
+**Geçmiş veri çözümlemesi** devre dışıyken (varsayılan olarak devre dışıdır), bu makalede önceden de belirtildiği gibi bir **akış veri kümesi** oluşturursunuz. **Geçmiş veri çözümlemesi** *etkinken*, oluşturulan veri kümesi hem **akış veri kümesi** ve hem de **gönderim veri kümesi** haline gelir. Bu makalenin önceki kısımlarında belirtildiği gibi, bu işlem, *defaultMode* seçeneği *pushStreaming* olarak ayarlanan bir veri kümesi oluşturmak için Power BI REST API'lerinin kullanılmasıyla eşdeğerdir.
 
 > [!NOTE]
 > Önceki paragrafta belirtildiği üzere, Power BI hizmeti UI'si kullanılarak oluşturulan akış veri kümeleri için Azure AD kimlik doğrulaması gerekli değildir. Bu tür veri kümelerinde, veri kümesi sahibi satır anahtarı içeren bir URL alır. Bu URL, istek sahibine Azure AD OAuth taşıyıcı belirtecini kullanmadan verileri veri kümesine gönderme yetkisi verir. Ancak, Azure AD (AAD) yaklaşımının da verileri veri kümesine gönderme konusunda işe yaradığını göz önünde bulundurun.

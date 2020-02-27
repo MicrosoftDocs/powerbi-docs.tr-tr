@@ -96,7 +96,7 @@ Kullanıcı [refreshUserPermissions API'sini](https://docs.microsoft.com/rest/ap
 
 PBI Kiracı bölgenizi bulmak için PBI portalını kullanabilirsiniz.
 
-[https://app.powerbi.com/](https://app.powerbi.com/) > ? > Power BI Hakkında
+[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI Hakkında
 
 ![Power BI Hakkında](media/embedded-faq/about-01.png)
 ![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)
@@ -176,7 +176,7 @@ Power BI Embedded kapasitenize çalışma alanları atamak/çalışma alanının
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>Hangi içerik paketi verilerini ekleyebilirsiniz?
 
-İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları** *ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları***ekleyebilirsiniz*.
+İçerik paketi veri kümelerinden oluşturulan **Panoları** ve **kutucukları** *ekleyemezsiniz*. Öte yandan, içerik paketi veri kümesinden oluşturulan **raporları** *ekleyebilirsiniz*.
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>Satır düzeyi güvenlik (RLS) ile JavaScript filtrelerini kullanmanın ne farkı vardır?
 
@@ -198,7 +198,7 @@ Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak e
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Uygulama kimliği ve hizmet sorumlusu nesne kimliği ne zaman kullanılır?
 
-**[Uygulama kimliği](embed-sample-for-customers.md#application-id)**, kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
+**[Uygulama kimliği](embed-sample-for-customers.md#application-id)** , kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
 
 İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id)** kullanırsınız.
 
