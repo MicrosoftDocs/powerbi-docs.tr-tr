@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160777"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496937"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD Kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -89,12 +89,12 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Sayfalandırılmış raporlar|Yalnızca USGov Texas ve USGov Virginia’da kullanılabilir |Kullanılabilir|Yol haritasında|
+|  |Sayfalandırılmış raporlar|Kullanılabilir|Kullanılabilir|Yol haritasında|
 |  |Şablon uygulamalar|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |Verilere bağlanma|Excel’den verileri ve raporları içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |CSV dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Power BI Desktop dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |CDS bağlantısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|  |CDS bağlantısı|Kullanılabilir|Kullanılamaz|Kullanılamaz|
 |  |Azure Data Lake Storage 2. Nesil bağlayıcısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |Veri yönetimi|Veri yönetimi ağ geçidi|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Azure SQL’de veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
@@ -103,7 +103,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |Embed web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Veri akışları ve yapay zeka işlevleri|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Veri odaklı uyarılar için Power Automate bağlantısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Teams’de Power BI sekmesi|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|  |Teams’de Power BI sekmesi|Kullanılabilir|Kullanılamaz|Kullanılamaz|
 |  |Otomatik Makine Öğrenmesi|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Bilişsel Hizmetler|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Azure ML|Kullanılamaz|Kullanılamaz|Kullanılamaz|
@@ -111,7 +111,6 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI US Government'a kaydolma](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demosu</a>
-* [Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
-* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-

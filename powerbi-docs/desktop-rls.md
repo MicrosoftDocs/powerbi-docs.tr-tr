@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop ile satır düzeyi güvenliği (RLS) anlama
+title: Power BI Desktop için satır düzeyi güvenlik (RLS) ile veri erişimini kısıtlama
 description: Power BI Desktop'ta, içeri aktarılan veri kümeleri ve DirectQuery için satır düzeyi güvenliği yapılandırma.
 author: davidiseminger
 ms.author: davidi
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/05/2019
+ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760670"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464469"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Power BI Desktop için satır düzeyi güvenlik (RLS) ile veri erişimini kısıtlama
 
@@ -24,9 +24,7 @@ Power BI Desktop ile satır düzeyi güvenliği (RLS), belirli kullanıcıların
 Artık Power BI Desktop ile Power BI'a aktarılan veri modelleri için RLS'yi yapılandırabilirsiniz. Ayrıca, [DirectQuery](desktop-use-directquery.md)'yi kullanan SQL Server gibi veri kümelerinde de RLS'yi yapılandırabilirsiniz. Önceden RLS'yi yalnızca Power BI dışındaki şirket içi Analysis Services modellerinde uygulayabiliyordunuz. Analysis Services canlı bağlantıları için Satır düzeyi güvenliği şirket içi model üzerinde yapılandırırsınız. Güvenlik seçeneği, canlı bağlantı veri kümeleri için gösterilmez.
 
 > [!IMPORTANT]
-> Power BI hizmetinde tanımladığınız roller ve kurallar varsa bu rolleri Power BI Desktop'ta yeniden oluşturmanız ve raporu hizmette yayımlamanız gerekir.
-
-[Power BI Hizmetinde RLS](service-admin-rls.md) seçenekleri hakkında bilgi edinin.
+> Power BI hizmetinde tanımladığınız roller ve kurallar varsa bu rolleri Power BI Desktop'ta yeniden oluşturmanız ve raporu hizmette yayımlamanız gerekir. [Power BI hizmetinde RLS](service-admin-rls.md) seçenekleri hakkında bilgi edinin.
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
@@ -40,4 +38,4 @@ Artık Power BI Desktop ile Power BI'a aktarılan veri modelleri için RLS'yi ya
 
 [Power BI hizmetinde satır düzeyi güvenlik (RLS)](service-admin-rls.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/).

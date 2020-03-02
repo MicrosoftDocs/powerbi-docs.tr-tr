@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954202"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427818"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Tabloya veya matrise köprü (URL) ekleme
 Bu konu başlığı altında bir tabloya köprü (URL) eklemeyi öğreneceksiniz. Veri kümesine köprü (URL) eklemek için Power BI Desktop kullanırsınız. Söz konusu köprüleri Power BI Desktop’ta veya Power BI hizmetinde rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. Ardından URL’yi veya bağlantı simgesini görüntüleyebilir ya da başka bir sütunu bağlantı metni olarak biçimlendirebilirsiniz.
@@ -34,7 +34,7 @@ Power BI Desktop'ta URL içeren bir alanı köprü olarak biçimlendirebilirsini
     > [!NOTE]
     > DirectQuery modunda sütun oluşturamazsınız.  Ancak, verileriniz zaten URL içeriyorsa bunları köprülere dönüştürebilirsiniz.
 
-2. Veri görünümünde sütunu seçin. 
+2. Veri görünümünde veya Rapor görünümünde sütunu seçin. 
 
 3. **Modelleme** sekmesinde **Veri Kategorisi** > **Web URL’si** öğesini seçin.
    
@@ -79,13 +79,20 @@ Ayrıca tablodaki başka bir alanı da köprü olarak biçimlendirebilirsiniz ve
 
 1. Köprü içeren bir alan henüz veri kümenizde mevcut değilse Power BI Desktop'ı kullanın ve bu alanı [özel sütun](desktop-common-query-tasks.md) olarak ekleyin. Bir kez daha belirtelim, DirectQuery modunda sütun oluşturamazsınız.  Ancak, verileriniz zaten URL içeriyorsa bunları köprülere dönüştürebilirsiniz.
 
-2. Rapor görünümünde, köprü metni olarak biçimlendireceğiniz sütunu içeren bir tablo veya matris oluşturun.
+2. Veri görünümünde veya Rapor görünümünde URL'yi içeren sütunu seçin. 
+
+3. **Modelleme** sekmesinde **Veri Kategorisi**'ni seçin. Sütunun **Kategorilere ayrılmamış** olarak biçimlendirildiğinden emin olun.
+
+2. Rapor görünümünde, URL sütunu ve bağlantı metni olarak biçimlendireceğiniz sütunu içeren bir tablo veya matris oluşturun.
 
 3. Tablo seçili durumdayken **Biçim** simgesini ![Boya rulosu simgesi](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) seçerek Biçimlendirme sekmesini açın.
 
-4. **Koşullu biçimlendirme**’yi genişletin; kutudaki adın köprü metni yapmak istediğiniz sütun olduğundan emin olun. **URL simgesini** bulun ve **Açık** duruma getirin.
+4. **Koşullu biçimlendirme**’yi genişletin; kutudaki adın köprü metni yapmak istediğiniz sütun olduğundan emin olun. **Web URL'si** seçeneğini bulun ve **Açık** duruma getirin.
 
     ![Koşullu biçimlendirme Web URL’si](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > **Web URL'si** seçeneği yoksa köprüleri içeren sütunun **Veri Kategorisi** açılan kutusunda **Web URL'si** olarak *biçimlendirilmediğinden* emin olun.
 
 5. **Web URL’si** iletişim kutusundaki **Şu alana göre** kutusunda URL’yi içeren alanı seçin > **Tamam**’ı seçin.
 

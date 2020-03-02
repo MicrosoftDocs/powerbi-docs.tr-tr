@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925530"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427082"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI görseli proje yapısı
 
@@ -58,7 +58,7 @@ Bu klasör VS kodu proje ayarlarını içerir.
 
 Daha fazla bilgi için bkz. [Kullanıcı ve Çalışma Alanı Ayarları](https://code.visualstudio.com/docs/getstarted/settings)
 
-### <a name="assets"></a>assets
+### <a name="assets"></a>varlıklar
 
 Bu klasör `icon.png` dosyasını içerir.
 
@@ -74,7 +74,7 @@ Bu klasörde Power BI görselleri aracı şu dosyaları oluşturur:
 * `visual.ts` - Görselin ana kaynak kodu.
 * `settings.ts` - Görselin ayarlarının kodu. Dosyadaki sınıflar [görselinizin özelliklerini](./objects-properties.md#properties) tanımlamaya yönelik bir arabirim sağlar.
 
-### <a name="style"></a>style
+### <a name="style"></a>stil
 
 Bu klasör, içinde görselin stillerinin bulunduğu `visual.less` dosyasını içerir.
 
@@ -115,7 +115,7 @@ Bu dosya [TSLint yapılandırmasını](https://palantir.github.io/tslint/usage/c
 `pbiviz.json` dosyasından alınan aşağıdaki kod parçasındaki açıklamalar, meta veri girdilerini anlatır.
 
 > [!NOTE]
-> * **Pbiciz** aracının 3.x.x sürümünden `externalJS` desteklenmez.
+> * **pbiviz** aracının 3.x.x sürümünden `externalJS` desteklenmez.
 > * Yerelleştirme desteği için [Power BI yerel ayarını görselinize ekleyin](./localization.md).
 
 ```json

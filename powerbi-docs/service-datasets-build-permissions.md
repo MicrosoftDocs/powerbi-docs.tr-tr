@@ -1,26 +1,32 @@
 ---
 title: Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
-description: Oluşturma iznini kullanarak verilere kimin erişebileceğini denetlemeyi öğrenin.
+description: Oluşturma iznini kullanarak veri erişimini denetlemeyi öğrenin.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872552"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426622"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
 
-Power BI Desktop’ta *veri modeli* oluşturucusu olarak bunları Power BI hizmetinde *veri kümeleri* olarak paylaşabilirsiniz. Ardından, rapor oluşturucuları paylaştığınız veri kümelerini kolayca keşfedip yeniden kullanabilir. Oluşturma iznini kullanarak verilere kimin erişebileceğini denetlemeyi öğrenin.
+Power BI Desktop'ta bir rapor oluşturduğunuzda bu rapordaki veriler bir *veri modelinde* depolanır. Raporlarınızı Power BI hizmetine yayımladığınızda verileri de bir *veri kümesi* olarak yayımlamış olursunuz. Bu rapor için başkalarına *Oluşturma izni* vererek paylaştığınız veri kümesini keşfetmelerini ve yeniden kullanmalarını sağlayabilirsiniz. Bu makalede Oluşturma iznini kullanarak verilere kimin erişebileceğini denetleme konusunda bilgi verilmektedir.
 
-Oluşturma izni yalnızca veri kümelerine yöneliktir. Oluşturma izni verdiğiniz kullanıcılar, raporlar, panolar, Soru-Cevap bölmesindeki sabitlenmiş kutucuklar ve Insights Discovery gibi veri kümelerinde yeni içerik oluşturabilir. Excel’de Çözümleme, XMLA ve temel verileri dışarı aktarma aracılığıyla Excel sayfaları gibi Power BI dışındaki bir veri kümesinde de yeni içerik oluşturabilirler.
+Oluşturma izni, veri kümeleri için geçerlidir. Oluşturma izni verdiğiniz kullanıcılar, raporlar, panolar, Soru-Cevap bölmesindeki sabitlenmiş kutucuklar ve Insights Discovery gibi veri kümenizde yeni içerik oluşturabilir. 
+
+Kullanıcıların verilerle Power BI *dışında* çalışabilmesi için de Oluşturma iznine sahip olması gerekir:
+
+- Temel alınan verileri dışarı aktarma.
+- [Excel'de Çözümle](service-analyze-in-excel.md) gibi araçlarla veri kümesini temel alan yeni içerik oluşturma.
+- Verilere XMLA uç noktasından erişme.
 
 ## <a name="ways-to-give-build-permission"></a>Oluşturma izni vermenin yolları
 

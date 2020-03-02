@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851273"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496534"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında pano uyarıları ayarlama
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında uyarı ayarlama
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -89,10 +91,10 @@ Uyarılarınızı yönetmenin birçok yolu vardır: Pano kutucuğunun kendisinde
 
 1. Kutucuklara ilişkin uyarıları değiştirmek veya kaldırmak için zil simgesini ![Uyarı simgesi](media/end-user-alerts/power-bi-bell-icon.png) seçerek **Uyarıları yönet** penceresini yeniden açın. İlgili kutucuk için ayarladığınız tüm uyarılar görüntülenir.
    
-    ![Uyarıları yönetme penceresi](media/end-user-alerts/power-bi-manage-alerts.png)geçin.
+    ![Uyarıları yönetme penceresi](media/end-user-alerts/power-bi-manage-alerts.png).
 2. Bir uyarıyı değiştirmek için adının sol tarafındaki oku seçin.
    
-    ![Uyarı adının yanındaki ok](media/end-user-alerts/power-bi-modify-alert.png)geçin.
+    ![Uyarı adının yanındaki ok](media/end-user-alerts/power-bi-modify-alert.png).
 3. Bir uyarıyı silmek için adının sağ tarafındaki çöp kutusunu seçin.
    
       ![seçili çöp kutusu simgesi](media/end-user-alerts/power-bi-alert-delete.png)
@@ -101,7 +103,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır: Pano kutucuğunun kendisinde
 
 1. Power BI menü çubuğundaki dişli simgesini seçin.
    
-    ![dişli simgesi](media/end-user-alerts/powerbi-gear-icon.png)geçin.
+    ![dişli simgesi](media/end-user-alerts/powerbi-gear-icon.png).
 2. **Ayarlar** bölümünden **Uyarılar**'ı seçin.
    
     ![Ayarlar penceresinin Uyarılar sekmesi](media/end-user-alerts/power-bi-alert-settings.png)
@@ -112,6 +114,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır: Pano kutucuğunun kendisinde
 * Uyarılar yalnızca ölçerlerde, KPI’lerde ve kartlarda ayarlanabilir.
 * Bir ölçer, KPI veya kart için uyarı ayarlayamıyorsanız, yardım için sistem yöneticinize başvurun. Uyarılar, bazen panolarınız veya belirli türden pano kutucukları için kapatılır veya kullanılamaz.
 * Uyarılar yalnızca yenilenen verilerde çalışır. Sabit veriler üzerinde çalışmazlar. Microsoft tarafından sağlanan örneklerin çoğu statiktir. 
+* *Tüketiciler* kendi panolarını oluşturmaz, *tasarımcılar* pano oluşturur ve tüketicilerle paylaşır. Paylaşılan içeriği almak ve görüntülemek için Power BI Pro veya Premium lisansı gerekir. Daha fazla bilgi için bkz. [Hangi lisansa sahibim?](end-user-license.md) 
 
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme

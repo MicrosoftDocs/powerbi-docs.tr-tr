@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538279"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496742"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
@@ -51,7 +51,7 @@ Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarını
 | Anahtar | Tür | Değerler | Açıklama |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Dize |  <nobr>tek dokunma</nobr><br><nobr>iki kez dokunma</nobr> | Görsele dokunulduğunda bir veri noktasının seçilip seçilmeyeceğini yapılandırın. |
-| ccom.microsoft.powerbi.mobile.RefreshAction | Dize |  <nobr>yenilemek için çekme</nobr><br>düğmesini seçin | Kullanıcının raporu yenileme düğmesine sahip olup olmayacağını veya çekerek yenileme özelliğini kullanıp kullanmayacağını yapılandırın. |
+| com.microsoft.powerbi.mobile.RefreshAction | Dize |  <nobr>yenilemek için çekme</nobr><br>düğmesini seçin | Kullanıcının raporu yenileme düğmesine sahip olup olmayacağını veya çekerek yenileme özelliğini kullanıp kullanmayacağını yapılandırın. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Dize |  yerleşik<br>dinamik | Rapor alt bilgisinin raporun altına yerleştirilip yerleştirilmeyeceğini veya otomatik olarak gizlenip gizlenmeyeceğini yapılandırın. |
 
 ## <a name="deploying-app-configuration-settings"></a>Uygulama yapılandırma ayarlarını dağıtma

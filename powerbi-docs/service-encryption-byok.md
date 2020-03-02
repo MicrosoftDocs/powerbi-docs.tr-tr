@@ -1,5 +1,5 @@
 ---
-title: Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
+title: Power BI için kendi şifreleme anahtarlarınızı getirme
 description: Power BI Premium'da kendi şifreleme anahtarlarınızı kullanmayı öğrenin.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762129"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527783"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI için kendi şifreleme anahtarlarınızı getirme (önizleme)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
 Power BI _bekleyen_ ve _işlenmekte olan_ verileri şifreler. Varsayılan olarak Power BI verilerinizi şifrelemek için Microsoft tarafından yönetilen anahtarları kullanır. Power BI Premium'da veri kümesinde içeri aktarılan ve bekleyen veriler için de kendi anahtarlarınızı kullanabilirsiniz (daha fazla bilgi için bkz. [Veri kaynağı ve depolama konusunda dikkat edilmesi gerekenler](#data-source-and-storage-considerations)). Bu yaklaşım genellikle _kendi anahtarını getir_ (KAG) olarak tanımlanır.
 
 ## <a name="why-use-byok"></a>Neden KAG kullanılmalı?
 
-KAG bulut hizmeti sağlayıcısıyla (bu durumda Microsoft) anahtar düzenlemelerini belirleyen uyumluluk gereksinimlerini karşılamayı kolaylaştırır. KAG ile bekleyen Power BI verileriniz için şifreleme anahtarlarını uygulama düzeyinde siz sağlar ve denetlersiniz. Sonuç olarak, denetim sizde olur ve hizmette çıkmaya karar verirseniz kuruluşunuzun anahtarlarını iptal edebilirsiniz. Anahtarlar iptal edildiğinde veriler hizmet tarafından okunamaz.
+KAG bulut hizmeti sağlayıcısıyla (bu durumda Microsoft) anahtar düzenlemelerini belirleyen uyumluluk gereksinimlerini karşılamayı kolaylaştırır. KAG ile bekleyen Power BI verileriniz için şifreleme anahtarlarını uygulama düzeyinde siz sağlar ve denetlersiniz. Sonuç olarak, denetim sizde olur ve hizmette çıkmaya karar verirseniz kuruluşunuzun anahtarlarını iptal edebilirsiniz. Anahtarlar iptal edildikten sonra 30 dakika içinde veriler hizmet tarafından okunamaz hale gelir.
 
 ## <a name="data-source-and-storage-considerations"></a>Veri kaynağı ve depolama konusunda dikkat edilmesi gerekenler
 
@@ -34,7 +34,12 @@ KAG kullanmak için verileri bir Power BI Desktop (PBIX) dosyasından Power BI h
 - [Akış veri kümeleri](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Büyük modeller](service-premium-large-models.md)
 
-KAG, kutucuk ve görsellerin sorgu sonuçlarından ziyade sadece PBIX dosyasıyla ilişkilendirilen veri kümesi için geçerlidir.
+KAG yalnızca veri kümeleri için geçerlidir. Gönderme veri kümeleri, Excel dosyaları ve kullanıcıların hizmete yükleyebileceği CSV dosyaları kendi anahtarınız kullanılarak şifrelenmez. Çalışma alanınızda depolanan yapıtları tanımlamak için şu PowerShell komutunu kullanın:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> Bu cmdlet için Power BI yönetim modülü v1.0.840 gerekir. Get-InstalledModule -Name MicrosoftPowerBIMgmt komutunu kullanarak sahip olduğunuz sürümü görebilirsiniz. Son sürümü yüklemek için Install-Module -Name MicrosoftPowerBIMgmt komutunu çalıştırın. Power BI cmdlet'i ve parametreleri hakkında daha fazla bilgi için bkz. [Power BI PowerShell cmdlet modülü](https://docs.microsoft.com/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault'u yapılandırma
 
@@ -183,3 +188,17 @@ Power BI kiracınızda KAG'nin yönetilmesine yardımcı olmak için ek cmdlet'l
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+* [Power BI PowerShell cmdlet modülü](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Power BI'da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme](service-url-filters.md)
+
+* [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md)
+
+* [Power BI'dan Web'de yayımlama](service-publish-to-web.md)

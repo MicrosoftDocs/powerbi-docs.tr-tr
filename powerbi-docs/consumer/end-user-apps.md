@@ -3,21 +3,22 @@ title: Power BI uygulamaları nedir?
 description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851013"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496702"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Uygulamalarınız **Uygulamalar** içerik listesinde düzenlenir. Uygulamaların
 ![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Uygulamalar özelliğini kullanmak için Power BI Pro lisansı gerekir. <!-- add link to how to figure out your license -->
+> Uygulamalar özelliğini kullanmak için Power BI Pro lisansı gerekir. [Lisans türünüzü arama](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>Uygulama ***tasarımcıları*** ve uygulama ***tüketicileri***
+## <a name="app-designers-and-app-consumers"></a>Uygulama *tasarımcıları* ve uygulama *tüketicileri*
 İş rolünüze bağlı olarak, kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için uygulama oluşturan biri (*tasarımcı*) olabilirsiniz. Alternatif olarak, başkaları tarafından oluşturulan uygulamaları alan ve indiren biri (*tüketici*) olabilirsiniz. Bu makale uygulama *tüketicileri* içindir.
 
 ## <a name="advantages-of-apps"></a>Uygulamaların avantajları

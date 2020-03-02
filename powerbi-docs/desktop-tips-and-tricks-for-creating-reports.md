@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865842"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427266"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -36,7 +36,7 @@ Power BI Desktop’ta Sorgu Düzenleyicisi'nin gezinti panelinde sorgulardan bir
 
 * Dosyalarınızı bir sorgu için veri kaynağı olarak kullandığınızda dosyanın mutlak yolu sorguda depolanır. Power BI Desktop dosyasını veya Excel çalışma kitabını paylaştığınızda ya da taşıdığınızda yollar yerine bu dosyayı veya çalışma kitabını yalnızca bir kez güncelleştirerek zaman kazanmış olursunuz.
 
-Varsayılan olarak tüm sorgular bir Excel çalışma kitabına veya veri modeline (ya da ikisine birden) yüklenir. Bazı sorgular ara adımlardır ve son kullanıcılara yönelik değildir. Bu durum genellikle yukarıda belirtildiği gibi sorgulara başvurma sırasında ortaya çıkar. Gezginde sorguya sağ tıklayıp "Yüklemeyi Etkinleştir" seçeneğini ayarlayarak sorgu yükleme davranışını denetleyebilirsiniz. *Yüklemeyi Etkinleştir* seçeneğinin yanında onay işareti olmadığında da sorgu, sorgu sekmesinde görünür ve diğer sorgularla kullanılabilir. Bu durum özelikle Birleştir, Ekle ve Başvuru dönüşümlerinde kullanışlıdır. Ancak sorgu sonuçları veri modeline yüklenmediği için sorgu rapor alan listenizi veya veri modelinizi doldurmaz. 
+Tüm sorgular varsayılan olarak veri modeline yüklenir. Bazı sorgular ara adımlardır ve son kullanıcılara yönelik değildir. Bu durum genellikle yukarıda belirtildiği gibi sorgulara başvurma sırasında ortaya çıkar. Gezginde sorguya sağ tıklayıp "Yüklemeyi Etkinleştir" seçeneğini ayarlayarak sorgu yükleme davranışını denetleyebilirsiniz. *Yüklemeyi Etkinleştir* seçeneğinin yanında onay işareti olmadığında da sorgu, sorgu sekmesinde görünür ve diğer sorgularla kullanılabilir. Bu durum özelikle Birleştir, Ekle ve Başvuru dönüşümlerinde kullanışlıdır. Ancak sorgu sonuçları veri modeline yüklenmediği için sorgu rapor alan listenizi veya veri modelinizi doldurmaz. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Dağılım grafikleri için bir nokta tanımlayıcısı gerekir
 Sıcaklıkların ve ölçülme Zamanlarının yer aldığı basit bir tabloyu ele alalım. Bu tabloyu doğrudan bir dağılım grafiğinde çizerseniz Power BI tüm değerleri tek bir noktaya toplar. Veri noktalarını ayrı bir şekilde göstermek için alan bölümündeki Ayrıntılar demetine bir alan eklemeniz gerekir. Power BI Desktop’ta bunu yapmanın kolay yolu sorgu sekmesindeki "Sütun Ekle" şeridinde "Dizin sütunu ekle" seçeneğini kullanmaktır. 

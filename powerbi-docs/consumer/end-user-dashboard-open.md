@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852597"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496282"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ Power BI *tüketicileri*, pano görüntülemeye oldukça fazla vakit harcar. Pan
 ![pano](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power BI Pro gerekir.
+Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power BI Pro veya Premium lisansı gerekir. [Hangi lisansa sahibim?](end-user-license.md) 
 
 ## <a name="open-a-dashboard"></a>Bir panoyu açma
 
@@ -33,7 +35,7 @@ Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power B
 
 |              |         |
 |------------|--------------------------------|
-|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>panoyu tanımladıktan sonra açmak kolaydır. Seçtiğinizde pano <br>Power BI tuvalinizi doldurur. |
+|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>panoyu tanımladıktan sonra açmak kolaydır. Seçtiğinizde pano, Power BI tuvalinizi doldurur. |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Panoları gezinti bölmesindeki tüm kapsayıcılarda bulabilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Panoları daha rahat kullanmak için [örnek panolarımızdan](../sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.
+* Panoları daha rahat kullanmak için [örnek panolarımızdan](../sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.    
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.

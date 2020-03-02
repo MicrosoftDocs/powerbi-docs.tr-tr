@@ -1,5 +1,5 @@
 ---
-title: Power BI Report Builder’daki rapor verileri
+title: Power BI Rapor Oluşturucusu’ndaki rapor verileri
 description: Power BI Report Builder'da rapor tasarlamanın ilk adımı temel rapor verilerini temsil eden veri kaynaklarını ve veri kümelerini oluşturmaktır.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,18 +9,18 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8f7d3b43cfc2d5a51b686598c1657ec21b44130
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954007"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527281"
 ---
-# <a name="report-data-in-power-bi-report-builder"></a>Power BI Report Builder’daki rapor verileri
+# <a name="report-data-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki rapor verileri
 
-Rapor verileri kuruluşunuzdaki çeşitli veri kaynaklarından gelebilir. Power BI Report Builder raporunu tasarlamanın ilk adımı temel rapor verilerini temsil eden veri kaynaklarını ve veri kümelerini oluşturmaktır. Her veri kaynağı veri bağlantısı bilgileri içerir. Her veri kümesi, veri kaynağından veri olarak kullanılacak alan kümesini tanımlayan bir sorgu komutu içerir. Her veri kümesinden alınan verileri görselleştirmek için tablo, matris, grafik veya harita gibi bir veri bölgesi ekleyin. Rapor işlendiğinde sorgular veri kaynağında çalıştırılır ve veri kümesine ilişkin sorgu sonuçlarını görüntülemek üzere her veri bölgesi gerektiği gibi genişletilir.  
+Rapor verileri kuruluşunuzdaki çeşitli veri kaynaklarından gelebilir. Power BI Rapor Oluşturucusu raporunu tasarlamanın ilk adımı temel rapor verilerini temsil eden veri kaynaklarını ve veri kümelerini oluşturmaktır. Her veri kaynağı veri bağlantısı bilgileri içerir. Her veri kümesi, veri kaynağından veri olarak kullanılacak alan kümesini tanımlayan bir sorgu komutu içerir. Her veri kümesinden alınan verileri görselleştirmek için tablo, matris, grafik veya harita gibi bir veri bölgesi ekleyin. Rapor işlendiğinde sorgular veri kaynağında çalıştırılır ve veri kümesine ilişkin sorgu sonuçlarını görüntülemek üzere her veri bölgesi gerektiği gibi genişletilir.  
 
-[Power BI Report Builder'da sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturmayı](paginated-reports-embedded-data-source.md) öğrenin.
+[Power BI Rapor Oluşturucusu'nda sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturmayı](paginated-reports-embedded-data-source.md) öğrenin.
 
 
 ##  <a name="BkMk_ReportDataTerms"></a> Terimleri  
@@ -60,3 +60,4 @@ Rapor verileri kuruluşunuzdaki çeşitli veri kaynaklarından gelebilir. Power 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)  
+- [Sayfalandırılmış raporlar için veri alma kılavuzu](guidance/report-paginated-data-retrieval.md)

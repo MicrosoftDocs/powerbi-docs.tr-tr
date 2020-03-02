@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851452"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496393"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ Tarih, benzersiz bir hiyerarşi türüdür.  Rapor tasarımcıları genellikle g
 Hangi Power BI görsellerinin bir hiyerarşi içerdiğinden emin değil misiniz? Görselin üzerine gelin. En üstte bu detay denetimlerinin bir bileşimini görüyorsanız görselinizin bir hiyerarşisi vardır.
 
 ![Detay simgesi ekran görüntüsü.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Detaya gitmeyi ve detaydan çıkmayı öğrenin
 
@@ -78,7 +81,7 @@ Ayrıca bir kerede bir alanda detaya gitmeyi ya da genişletmeyi seçebilirsiniz
 ### <a name="drill-down-one-field-at-a-time"></a>Aynı anda tek bir alanda detaya gitme
 
 
-1. Detaya gitme simgesini seçerek açın ![Açılmış detaya gitme açık/kapalı simgesinin ekran görüntüsü.](./media/end-user-drill/power-bi-drill-icon2.png)geçin.
+1. Detaya gitme simgesini seçerek açın ![Açılmış detaya gitme açık/kapalı simgesinin ekran görüntüsü.](./media/end-user-drill/power-bi-drill-icon2.png).
 
     Şimdi görsel öğeyi seçerek **aynı anda tek alanda** detaya gitme seçeneği sunulur. Görsel öğesi örnekleri: çubuk, kabarcık ve yaprak.
 
@@ -141,7 +144,9 @@ Aşağıdaki tabloda tüm alanlarda aynı anda bölgeden mağaza adına detaya g
 
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-Varsayılan olarak, detaylandırma özelliği bir rapordaki diğer görselleri filtrelemez. Öte yandan rapor tasarımcısı bu varsayılan davranışı değiştirebilir. Detaylandırırken, sayfadaki diğer görsellerde çapraz filtreleme veya çapraz vurgulama yapılıp yapılmadığına bakın.
+- Varsayılan olarak, detaylandırma özelliği bir rapordaki diğer görselleri filtrelemez. Öte yandan rapor tasarımcısı bu varsayılan davranışı değiştirebilir. Detaylandırırken, sayfadaki diğer görsellerde çapraz filtreleme veya çapraz vurgulama yapılıp yapılmadığına bakın.
+
+- Sizinle paylaşılan bir raporu görüntülemek için Power BI Pro veya Premium lisansına sahip olmanız gerekir. [Hangi lisansa sahibim?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

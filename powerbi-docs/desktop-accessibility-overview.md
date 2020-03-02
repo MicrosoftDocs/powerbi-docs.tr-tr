@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538624"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609857"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI’da erişilebilirliğe genel bakış
 
@@ -30,7 +30,7 @@ Evrensel tasarım, özel bir uyarlama veya özel tasarıma gerek duymadan olabil
 
 ## <a name="accessibility-standards"></a>Erişilebilirlik standartları
 
-Power BI, aşağıdaki erişilebilirlik standartlarına bağlıdır. Bu standart, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur. Power BI Mobil uygulamaları c sınıfı erişilebilirlik sertifikasına sahiptir. Erişilebilir raporlar veya panolar oluşturduğunuzda, bu içerik Power BI Mobil kullanarak görüntüleyen herkes için erişilebilir olur.
+Power BI, aşağıdaki erişilebilirlik standartlarına bağlıdır. Bu standart, Power BI deneyimlerinizin mümkün olduğunca çok kişi tarafından erişilebilir olmasını sağlamaya yardımcı olur. Erişilebilir raporlar veya panolar oluşturduğunuzda, bu içerik Power BI Mobil kullanarak görüntüleyen herkes için erişilebilir olur.
 
 ### <a name="wcag-21"></a>WCAG 2.1
 

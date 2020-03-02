@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762428"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527714"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Power BI Desktop için Facebook bağlayıcısını kullanma
 **Power BI Desktop**'taki Facebook bağlayıcısı, Facebook Graph API'yi kullanır. Bu nedenle, özellikler ve kullanılabilirlik zaman içinde değişebilir.
 
 [Power BI Desktop için Facebook Bağlayıcısı ile ilgili bir eğitime](desktop-tutorial-facebook-analytics.md) göz atabilirsiniz.
+
+> [!IMPORTANT]
+> **Facebook veri bağlayıcısı bildiriminin kullanımdan kaldırılması:** Excel’de verileri Facebook’tan içeri aktarma ve yenileme özelliği Nisan 2020’den itibaren düzgün çalışmayacaktır. Bu tarihe kadar Facebook *Al ve Dönüştür (Power Query)* bağlayıcısını kullanabilirsiniz. Bu tarihten sonra Facebook'a bağlanamayacak ve bir hata iletisiyle karşılaşacaksınız. Beklenmedik sonuçlardan kaçınmak için Facebook bağlayıcısını kullanan tüm mevcut *Al ve Dönüştür (Power Query)* sorgularını en kısa zamanda düzeltmenizi ve kaldırmanızı öneririz.
+
 
 Facebook 30 Nisan 2015 tarihinde Graph API'nin 1.0 sürümünü kullanımdan kaldırdı. Power BI, Facebook bağlayıcısı için arka planda Graph API'yi kullanır, bu da verilerinize bağlanmanıza ve bunları çözümlemenize olanak tanır.
 

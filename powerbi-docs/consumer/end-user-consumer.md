@@ -3,20 +3,21 @@ title: Power BI "Tüketicisi" nedir?
 description: Tüketiciler (son kullanıcılar veya iş kullanıcıları olarak da bilinir) için Power BI’a genel bakış.
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863796"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496258"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 İşe ilişkin kararların görüşlerden ziyade olgulara dayanarak alındığı bir veri kültüründe yaşıyorsunuz. Bu kararları almak için verilere ihtiyaç duyarsınız ve bu verileri de iş arkadaşlarınız sağlar.     
  
@@ -43,6 +44,8 @@ Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. 
 Tüketici olarak Power BI’ın tüm olanaklarına erişemezsiniz, ancak işiniz pano ve rapor oluşturmak olmadığı için bu soruna yol açmaz. Siz Power BI hizmetini analiz, izleme, keşif ve karar alma amaçları doğrultusunda kullanırsınız. 
 
 Muhtemelen "Power BI Desktop" veya yalnızca "Desktop" terimini daha önceden duymuşsunuzdur. Bu terim, pano ve rapor oluşturup dizinle paylaşan *tasarımcılar* tarafından kullanılan bağımsız bir aracı nitelemek için kullanılır.  Tüketici olarak yalnızca Power BI hizmetiyle çalışacak olsanız da başka Power BI araçları da olduğunu bilmenizde fayda vardır. 
+
+Ayrıca *paylaşılan* içerik üzerinde çalıştığınız için Power BI Pro veya Premium lisansına sahip olmanız gerekir. [Hangi lisansa sahibim?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma 

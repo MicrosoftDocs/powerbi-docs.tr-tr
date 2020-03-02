@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852252"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496613"
 ---
 # <a name="what-are-bookmarks"></a>Yer işaretleri nedir?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Yer işaretleri; filtreler, dilimleyiciler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalar. Bir yer işaretini seçtiğinizde, Power BI sizi o görünüme geri götürür. Sizin oluşturduklarınız ve rapor *tasarımcıları* tarafından oluşturulanlar olmak üzere iki tür yer işareti bulunur.
+Yer işaretleri; filtreler, dilimleyiciler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalar. Bir yer işaretini seçtiğinizde, Power BI sizi o görünüme geri götürür. Sizin oluşturduklarınız ve rapor *tasarımcıları* tarafından oluşturulanlar olmak üzere iki tür yer işareti bulunur. Tüm Power BI kullanıcıları kişisel yer işaretleri oluşturabilir. Ancak başkaları tarafından oluşturulan yer işaretlerini kullanabilmek için Power BI Pro veya Premium lisansı gerekir. [Hangi lisansa sahibim?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Power BI’da öngörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma 
 Yer işaretlerinin birçok kullanımı vardır. İlgi çekici bir içgörü keşfettiğinizi ve bunu saklamak istediğinizi düşünün. Buna daha sonra geri dönmek için bir yer işareti oluşturabilirsiniz. İşin başından ayrılmanız gerekiyor ve çalışmalarınızı korumak mı istiyorsunuz? Bir yer işareti oluşturun. Raporun varsayılan görünümüne yer işaretini ekleyebilirsiniz. Böylece, her geri döndüğünüzde ilk olarak raporun bu görünümü açılır. 
@@ -33,6 +35,9 @@ Yer İşaretleri bölmesini açmak için menü çubuğundan **Yer işaretleri** 
 
 ### <a name="report-bookmarks"></a>Rapor yer işaretleri
 Rapor *tasarımcısı* rapor yer işaretleri eklediyse, bunları **Rapor yer işaretleri** başlığının altında bulabilirsiniz. Bu rapor sayfasında B1 ve B2 şeklinde iki yer işareti bulunur. 
+
+> [!NOTE]
+> Paylaşılan raporları görüntülemek için Power BI Pro veya Premium lisansına ihtiyacınız olacaktır. 
 
 ![Rapor yer işaretlerini gösterin.](media/end-user-bookmarks/power-bi-report.png)
 

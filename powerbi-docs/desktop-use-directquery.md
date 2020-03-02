@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889294"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427243"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 *Power BI Desktop* ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman Power BI Desktop'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: DirectQuery'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -46,8 +46,6 @@ DirectQuery özelliğini kullanmanın bazı avantajları vardır:
 
 ## <a name="limitations-of-directquery"></a>DirectQuery kullanımıyla ilgili sınırlamalar
 Şu anda DirectQuery kullanımıyla ilgili bazı sınırlamalar mevcuttur:
-
-- [Bileşik modeller](desktop-composite-models.md) kullanmadığınız sürece tüm tabloların aynı veritabanından gelmesi gerekir.
 
 - **Sorgu Düzenleyicisi** sorgusunun çok karmaşık olması halinde hata oluşur. Hatayı gidermek için **Sorgu Düzenleyicisi**'nde soruna yola açan adımı silmeniz veya verilere bağlanmak için DirectQuery yerine *İçeri Aktarma* seçeneğini kullanmanız gerekir. SAP Business Warehouse gibi çok boyutlu kaynaklar için **Sorgu Düzenleyicisi** kullanılmaz.
 
@@ -94,7 +92,7 @@ Kullanılan veri kaynağı için **Şirket içi veri ağ geçidinin** (**Azure S
 
 4. Kimlik bilgilerini ekleyin. Aksi takdirde yayımlanmış bir raporu açtığınızda veya DirectQuery bağlantısıyla oluşturulmuş bir veri kümesini araştırdığınızda bir hata oluşur.
 
-**Azure SQL Veritabanı**, **Azure SQL Veri Ambarı** ve **Redshift** dışında DirectQuery kullanan veri kaynakları için bir veri bağlantısı oluşturmak isterseniz **Şirket içi veri ağ geçidi** yükleyip veri kaynağını kaydedin. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)
+**Azure SQL Veritabanı**, **Azure SQL Veri Ambarı**, **Redshift** veya **Snowflake Data Warehouse** dışında DirectQuery kullanan veri kaynakları için veri bağlantısı oluşturmak isterseniz **Şirket içi veri ağ geçidi** yükleyip veri kaynağını kaydedin. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

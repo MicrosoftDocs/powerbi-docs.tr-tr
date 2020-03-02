@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410834"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527534"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -71,9 +71,10 @@ Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha deste
 
 ![Alan listesinde simge örneği](media/star-schema/field-list-example.png)
 
-Öte yandan basit sütun düzeyi özetlemelerinde bile ölçüler oluşturmanız için iki cazip neden vardır:
+Öte yandan basit sütun düzeyi özetlemelerinde bile ölçüler oluşturmanız için üç cazip neden vardır:
 
 - Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır (PivotTables MDX sorguları gönderir).
+- Rapor yazarlarınızın MDX sorgu tasarımcısını kullanarak Power BI sayfalandırılmış raporları oluşturacağını biliyorsanız, modelin açık ölçüler içermesi gerekir. [Sunucu toplamalarını](/sql/reporting-services/report-design/report-builder-functions-aggregate-function) yalnızca MDX sorgu tasarımcısı destekler. Bu nedenle rapor yazarlarının ölçülerin Power BI tarafından değerlendirilmesine (sayfalandırılmış rapor altyapısı yerine) ihtiyaç duyması halinde MDX sorgu tasarımcısını kullanmaları gerekir.
 - Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerekiyorsa. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
 
 Bu tasarım yaklaşımının Power BI hizmetinde yazılan raporlarda ve Soru-Cevap için iyi sonuç verdiğine dikkat edin. Öte yandan Power BI Desktop canlı bağlantıları rapor yazarlarının **Alanlar** bölmesinde gizli alanları göstermesine izin verir ve sonuç olarak bu tasarım yaklaşımı aşılabilir.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758520"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558573"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmayı dener ancak tek başına başarılı olmazsa, Bing Haritalar'dan yararlanır. 
@@ -28,17 +28,17 @@ Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama içi
 Doğru coğrafi kodlamayı edinme olasılığını artırmak için aşağıdaki ipuçlarını kullanın. İlk ipucu kümesi, veri kümesine erişiminizin bulunması halinde uygulamanız içindir. İkinci ipucu dizisinde, veri kümesine erişiminizin bulunmaması halinde Power BI'da yapabilecekleriniz ele alınmıştır. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>Bing Haritalar'a hangi veriler gönderilir?
-Power BI hizmeti ve Power BI Desktop, Bing'e harita görselleştirmesini oluşturması için ihtiyaç duyduğu coğrafi verileri gönderir. Bunlar, **Konum**, **Enlem** ve **Boylam** kutularının yanı sıra **Rapor düzeyi**, **Sayfa düzeyi** veya **Görsel düzeyi** filtre demetlerindeki coğrafi alanları içerebilir. Tam olarak nelerin gönderildiği ise harita türüne göre değişir. Daha fazla bilgi edinmek için bkz. [Bing Haritalar gizliliği](https://go.microsoft.com/fwlink/?LinkID=248686).
+Power BI hizmeti ve Power BI Desktop, Bing'e harita görselleştirmesini oluşturması için ihtiyaç duyduğu coğrafi verileri gönderir. Buna görselin alan yuvasının **Konum**, **Enlem** ve **Boylam** demetlerinde yer alan veriler dahil olabilir. Tam olarak nelerin gönderildiği ise harita türüne göre değişir. Daha fazla bilgi edinmek için bkz. [Bing Haritalar gizliliği](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Haritalarda (kabarcık, dağılım ve nokta çizim haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, **Konum** (ve filtre) demetlerindeki tüm veriler Bing'e gönderilir.     
+* Haritalarda (kabarcık, dağılım ve nokta çizim haritaları), enlem ve boylam sağlandıysa Bing'e veri gönderilmez. Aksi halde, **Konum** demetindeki tüm veriler Bing'e gönderilir.     
 
 * Kartogramlar, enlem ve boylam sağlanmış olsa bile **Konum** demetinde bir alan bulunmasını gerektirir. **Konum**, **Enlem** veya **Boylam** demetlerindeki tüm veriler Bing'e gönderilir.
   
-    Aşağıdaki örnekte, coğrafi kodlama için **Vendor** alanı kullanılmaktadır, bu nedenle tüm satıcı verileri Bing'e gönderilir. **Boyut** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
+    Aşağıdaki örnekte, coğrafi kodlama için **Vendor** alanı kullanılmaktadır, bu nedenle Vendor sütunundaki değerler Bing'e gönderilir. **Boyut** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
   
     ![Bing Haritalar'a hangi veriler gönderilir?](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    Aşağıdaki ikinci örnekte, coğrafi kodlama için **Territory** alanı kullanılmaktadır, bu nedenle tüm bölge verileri Bing'e gönderilir. **Açıklama** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
+    Aşağıdaki ikinci örnekte, coğrafi kodlama için **Territory** alanı kullanılmaktadır, bu nedenle Territory sütunundaki değerler Bing'e gönderilir. **Açıklama** ve **Renk doygunluğu** demetlerindeki veriler Bing'e gönderilmez.
   
     ![Kartogramlar ve Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 

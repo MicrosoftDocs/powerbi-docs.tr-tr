@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 7b2d3975ba6bcea7b1294c1432f9278908a33ea4
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: e3a7130cf24fb4fb3f4a61c22f2a3874afc53d45
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760032"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464587"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modunu yönetme
 
-Microsoft Power BI Desktop'ta tabloların *depolama modunu* belirtebilirsiniz. *Depolama modu*, Power BI Desktop'ta raporlara ilişkin tablo verilerinin bellek içinde önbelleğe alınıp alınmadığını denetlemenizi sağlar. 
-
-![Power BI Desktop’ta depolama modu](media/desktop-storage-mode/storage-mode-01.png)
+Microsoft Power BI Desktop'ta tabloların depolama modunu belirtebilirsiniz. Depolama modu, Power BI Desktop'ta raporlara ilişkin tablo verilerinin bellek içinde önbelleğe alınıp alınmadığını denetlemenizi sağlar. 
 
 Depolama modunun ayarlanması birçok avantaj sağlar. Modelinizdeki her tablonun depolama modunu ayrı ayrı ayarlayabilirsiniz. Bu eylem aşağıdaki avantajları sunan tek bir veri kümesine sahip olmanızı sağlar:
 
@@ -36,78 +34,79 @@ Depolama modunun ayarlanması birçok avantaj sağlar. Modelinizdeki her tablonu
 
 Power BI Desktop'taki depolama modu ayarı, birbiriyle ilişkili üç özellikten biridir:
 
-* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modeller](desktop-composite-models.md).
+* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir birleşimde iki veya daha fazla veri bağlantısına izin verir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](desktop-composite-models.md).
 
-* **Çoka çok ilişkiler**: *Bileşik modeller* sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. *Çok-çok ilişkiler* tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md).
+* **Çoka çok ilişkiler**: Bileşik modeller sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. Çoka çok ilişkilerde tablolardaki benzersiz değer gereksinimleri ortadan kaldırılır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çok-çok ilişkiler](desktop-many-to-many-relationships.md).
 
-* **Depolama modu**: Artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. Depolama modu bu makalede ayrıntılı olarak açıklanmaktadır.
-
-> [!NOTE]
-> **Model** görünümünü, ilgilendiğiniz tabloyu seçerek ve sonra **Özellikler** bölmesinin **Gelişmiş** bölümündeki **Depolama modu** değerini görüntüleyerek geçerli depolama modunu görebilirsiniz.
+* **Depolama modu**: Depolama modu ile artık arka uç veri kaynaklarını sorgulaması gereken görselleri belirtebilirsiniz. Sorgu gerektirmeye görseller DirectQuery tabanlı olsa dahi içeri aktarılmaz. Bu özellik, performansı artırmanıza ve arka uç yükünü azaltmanıza yardımcı olur. Daha önce, sorguları başlatan dilimleyiciler gibi basit görseller bile arka uç kaynaklara gönderiliyordu. 
 
 ## <a name="use-the-storage-mode-property"></a>Depolama modu özelliğini kullanma
 
-Depolama modu, modelinizdeki her tablo için ayarlayabileceğiniz bir özelliktir. Depolama modunu ayarlamak veya geçerli ayarını görüntülemek için **Model** görünümünde özelliklerini görüntülemek veya ayarlamak istediğiniz tabloyu seçin, ardından **Özellikler** bölmesini seçip **Gelişmiş** bölümünü ve sonra **Depolama modu** açılır listesini genişletin.
+**Depolama modu** özelliği, modelinizdeki her bir tablo için ayrıca ayarlayabileceğiniz ve Power BI'ın tablo verilerini önbelleğe alma şeklini denetleyen bir özelliktir.
 
-![Bağlam menüsündeki Özellikler komutu](media/desktop-storage-mode/storage-mode-02.png)
+**Depolama modu** özelliğini ayarlamak veya geçerli ayarını görüntülemek için: 
 
+1. **Model** görünümünde özelliklerini görüntülemek veya ayarlamak istediğiniz tabloyu seçin. 
+2. **Özellikler** bölmesinde **Gelişmiş** bölümünü ve ardından **Depolama modu** açılan menüsünü genişletin.
 
-Depolama modu üç değerden biri olabilir:
+   ![Depolama modu özelliğini seçme](media/desktop-storage-mode/storage-mode-02.png)
 
-* **İçeri Aktarma**: Değer **İçeri Aktarma** olarak ayarlandığında içeri aktarılan tablolar önbelleğe alınır. Power BI veri kümesine gönderilen ve İçeri Aktarma tablolarından veri döndüren sorgular, yalnızca önbelleğe alınmış verilerle yanıtlanır.
+**Depolama modu** özelliği için üç farklı değer belirleyebilirsiniz:
 
-* **DirectQuery**: Bu ayarla, DirectQuery tabloları önbelleğe alınmaz. Veri Çözümleme İfadeleri (DAX) sorguları gibi Power BI veri kümesine gönderdiğiniz ve DirectQuery tablolarından veri döndüren sorgular yalnızca veri kaynağında isteğe bağlı sorgular yürütülerek yanıtlanır. Veri kaynağına gönderdiğiniz sorgular, o veri kaynağına ilişkin sorgu dilini (örneğin, SQL) kullanır.
+* **İçeri Aktarma**: Bu ayara sahip olan içeri aktarılan tablolar önbelleğe alınır. Power BI veri kümesine gönderilen ve İçeri Aktarma tablolarından veri döndüren sorgular, yalnızca önbelleğe alınmış verilerle yanıtlanır.
 
-* **İkili**: İkili tablolar, Power BI veri kümesine gönderilen sorguların bağlamına göre önbelleğe alınmış veya alınmamış gibi davranabilir. Bazı durumlarda sorguları önbelleğe alınmış verilerden yanıtlarsınız. Diğer durumlarda sorguları veri kaynağında isteğe bağlı sorgu yürüterek yanıtlarsınız.
+* **DirectQuery**: Bu ayara sahip olan tablolar önbelleğe alınmaz. DAX sorguları gibi Power BI veri kümesine gönderdiğiniz ve DirectQuery tablolarından veri döndüren sorgular yalnızca veri kaynağında isteğe bağlı sorgular yürütülerek yanıtlanır. Veri kaynağına gönderdiğiniz sorgular, o veri kaynağına ilişkin sorgu dilini (örneğin, SQL) kullanır.
 
-Bir tablonun ayarını **İçeri Aktarma** olarak değiştirme işlemi *geri alınamaz*. Bu özellik DirectQuery veya İkili olarak değiştirilemez.
+* **İkili**: Bu ayara sahip olan tablolar, Power BI veri kümesine gönderilen sorguların bağlamına göre önbelleğe alınmış veya alınmamış gibi davranabilir. Bazı durumlarda sorguları önbelleğe alınmış verilerden yanıtlarsınız. Diğer durumlarda sorguları veri kaynağında isteğe bağlı sorgu yürüterek yanıtlarsınız.
+
+Bir tablonun **Depolama modu** ayarını **İçeri Aktarma** olarak değiştirme işlemi *geri alınamaz*. Bu özellik ayarlandıktan sonra **DirectQuery** veya **İkili** olarak değiştirilemez.
 
 > [!NOTE]
-> Power BI Desktop'ta ve Power BI hizmetinde *Çift* depolama modu kullanabilirsiniz.
+> Power BI Desktop'ta ve Power BI hizmetinde **İkili** depolama modunu kullanabilirsiniz.
 
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery ve İkili tabloların kısıtlamaları
 
 İkili tablolar, DirectQuery tablolarıyla aynı işlevsel kısıtlamalara sahiptir. Bu kısıtlamalar, sınırlı M dönüştürmeleri ve hesaplanan sütunlarda kısıtlanmış DAX işlevleridir. Daha fazla bilgi için bkz. [DirectQuery kullanmanın etkileri](desktop-directquery-about.md#implications-of-using-directquery).
 
-## <a name="propagation-of-dual"></a>İkili'nin Yayılması
+## <a name="propagation-of-the-dual-setting"></a>İkili ayarının yayılması
 Tüm tabloların İçeri Aktar ve DirectQuery desteği olan tek kaynaktan geldiği aşağıdaki basit modeli düşünün.
 
 ![Depolama modu için örnek İlişki görünümü](media/desktop-storage-mode/storage-mode-04.png)
 
-Başlangıç olarak bu modeldeki tüm tabloların DirectQuery olduğunu varsayalım. **SurveyResponse** tablosunun *depolama modunu* İçeri Aktarma olarak değiştirirsek, aşağıdaki uyarı penceresi görüntülenir:
+Bu modeldeki tüm tabloların başlangıç ayarının **DirectQuery** olduğunu düşünelim. **SurveyResponse** tablosunun **Depolama modu** ayarını **İçeri Aktarma** olarak değiştirdiğinizde aşağıdaki uyarı penceresi görüntülenir:
 
 ![Depolama modu uyarı penceresi](media/desktop-storage-mode/storage-mode-05.png)
 
-Boyut tabloları (*Customer*, *Geography* ve *Date*), veri kümesindeki zayıf ilişki sayısını azaltmak ve performansı artırmak için **Çift** olarak ayarlanabilir. Zayıf ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. **Çift** tablolar, DirectQuery ya da İçeri Aktarma işlevi üstlenebildiği için bunu önlemeye yardımcı olur.
+Boyut tablolarını (**Customer**, **Geography** ve **Date**), veri kümesindeki zayıf ilişki sayısını azaltmak ve performansı artırmak için **İkili** olarak ayarlayabilirsiniz. Zayıf ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. İkili tablolar, DirectQuery veya İçeri Aktarma tabloları olarak kullanılabildiğinden bu durumdan kaçınmış olursunuz.
 
 Yayma mantığı, birçok tablo içeren modellerde yardımcı olmak için tasarlanmıştır. 50 tablo içeren bir modeliniz olduğunu ve yalnızca bazı olgu (işlem) tablolarının önbelleğe alınması gerektiğini varsayalım. Power BI Desktop'ın mantığı **İkili** olarak ayarlanması gereken en küçük boyut tablosu kümesini hesaplayabildiğinden, bunu sizin yapmanız gerekmez.
 
-Yayma mantığı **Bire Çok** ilişkilerinin yalnızca bir tarafından geçer.
+Yayma mantığı bire çok ilişkilerinin yalnızca bir tarafından geçer.
 
 ## <a name="storage-mode-usage-example"></a>Depolama modu kullanım örneği
 Şimdi önceki bölümde verilen örnekle devam edelim ve aşağıdaki depolama modu özellik ayarlarını uyguladığınızı varsayalım:
 
 | Tablo                   | Depolama modu         |
 | ----------------------- |----------------------| 
-| *Sales*                 | DirectQuery          | 
-| *SurveyResponse*        | İçeri Aktar               | 
-| *Date*                  | İkili                 | 
-| *Customer*              | İkili                 | 
-| *Geography*             | İkili                 | 
+| Satışlar                 | DirectQuery          | 
+| SurveyResponse        | İçeri Aktar               | 
+| Tarih                  | İkili                 | 
+| Müşteri              | İkili                 | 
+| Coğrafya             | İkili                 | 
 
 
-*Sales* tablosunda önemli bir veri hacmi bulunduğu varsayıldığında, bu depolama modu özelliklerinin ayarlanması aşağıdaki davranışlara neden olur.
-* Power BI Desktop boyut tablolarını (*Date*, *Customer* ve *Geography*) önbelleğe alır. Böylelikle görüntülemek üzere dilimleyici değerleri alınırken ilk raporun yükleme süreleri kısa olur.
-* Power BI Desktop, *Sales* tablosunu önbelleğe almadığı için şu sonuçlar ortaya çıkar:
+**Sales** tablosunda önemli bir veri hacmi bulunduğu varsayıldığında, bu depolama modu özelliklerinin ayarlanması aşağıdaki davranışlara neden olur:
+* Power BI Desktop boyut tablolarını (**Date**, **Customer** ve **Geography**) önbelleğe alır. Böylelikle görüntülemek üzere dilimleyici değerleri alınırken ilk raporun yükleme süreleri kısa olur.
+* Power BI Desktop, **Sales** tablosunu önbelleğe almaz. Power BI Desktop, bu tabloyu önbelleğe almadığı için şu sonuçlar ortaya çıkar:
     * Veri yenileme süreleri geliştirilir ve bellek kullanımı azaltılır.
-    * *Sales* tablosunu temel alan rapor sorguları DirectQuery modunda çalışır. Bu sorgular daha uzun sürebilir ancak önbellek kaynaklı gecikme süresi olmadığından gerçek zamana daha yakın olur.
+    * **Sales** tablosunu temel alan rapor sorguları **DirectQuery** modunda çalışır. Bu sorgular daha uzun sürebilir ancak önbellek kaynaklı gecikme süresi olmadığından gerçek zamana daha yakın olur.
 
-* *SurveyResponse* tablosunu temel alan rapor sorguları bellek içi önbellekten döndürülür ve bu nedenler bunları görece hızlı çalışması beklenir.
+* **SurveyResponse** tablosunu temel alan rapor sorguları bellek içi önbellekten döndürülür ve bu nedenle bunlar görece hızlı çalışır.
 
 ## <a name="queries-that-hit-or-miss-the-cache"></a>Önbelleğe isabet eden veya etmeyen sorgular
 
-Power BI Desktop için **SQL Profiler**'ı tanılama bağlantı noktasına bağlayarak, aşağıdaki olaylar temelinde bir izleme gerçekleştirip hangi sorguların bellek içi önbelleğe isabet ettiği veya etmediğini görebilirsiniz:
+Power BI Desktop için SQL Profiler'ı tanılama bağlantı noktasına bağlarsanız, aşağıdaki olaylar temelinde bir izleme gerçekleştirip hangi sorguların bellek içi önbelleğe isabet ettiği veya etmediğini görebilirsiniz:
 
 * Sorgu Olayları\Query Begin
 * Sorgu İşlemesi\Vertipaq SE Query Begin
@@ -115,17 +114,17 @@ Power BI Desktop için **SQL Profiler**'ı tanılama bağlantı noktasına bağl
 
 Her *Query Begin* olayı için, aynı *ActivityID* değerine sahip diğer olayları denetleyin. Örneğin, *DirectQuery Begin* olayı yoksa ama *Vertipaq SE Query Begin* olayı varsa, sorgu önbellekten yanıtlanmış demektir.
 
-**İkili** mod tablolarına başvuran sorgular mümkünse önbellekten veri döndürür, değilse DirectQuery'ye geri döner.
+İkili tablolara başvuran sorgular mümkünse önbellekten veri döndürür, değilse DirectQuery'ye geri döner.
 
-Önceki örnekten devam edersek, aşağıdaki sorgu *Date* tablosundan tek bir sütuna başvurur ve bu sütun da **İkili** modundadır. Dolayısıyla sorgunun önbelleğe isabet etmesi gerekir.
+Önceki örnekten devam edersek, aşağıdaki sorgu **Date** tablosundan tek bir sütuna başvurur ve bu sütun da **İkili** modundadır. Dolayısıyla sorgunun önbelleğe isabet etmesi gerekir:
 
 ![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-06.png)
 
-Aşağıdaki sorgu *Sales* tablosundan tek bir sütuna başvurur ve bu sütun da **DirectQuery** modundadır. Dolayısıyla, bunun önbelleği isabet *etmemesi* gerekir.
+Aşağıdaki sorgu **Sales** tablosundan tek bir sütuna başvurur ve bu sütun da **DirectQuery** modundadır. Dolayısıyla, bunun önbelleği isabet *etmemesi* gerekir:
 
 ![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-07.png)
 
-Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu önbelleğe isabet etmez. Başlangıçta *CalendarYear* değerlerini önbellekten ve *SalesAmount* değerlerini de kaynaktan alıp sonuçları birleştirmesini bekleyebilirsiniz ama bu yaklaşım kaynak sisteme SUM/GROUP BY işlemi göndermekten daha az verimli olabilir. İşlem kaynağa doğru gönderilirse, döndürülen satır sayısı çok daha az olabilir. 
+Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu önbelleğe isabet etmez. Başlangıçta **CalendarYear** değerlerini önbellekten ve **SalesAmount** değerlerini de kaynaktan alıp sonuçları birleştirmesini bekleyebilirsiniz ama bu yaklaşım kaynak sisteme SUM/GROUP BY işlemi göndermekten daha az verimli olabilir. İşlem kaynağa doğru gönderilirse, döndürülen satır sayısı çok daha az olabilir: 
 
 ![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-08.png)
 
@@ -134,23 +133,23 @@ Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu
 
 ## <a name="caches-should-be-kept-in-sync"></a>Önbellekler eşitlenmiş durumda tutulmalıdır
 
-Önceki bölümde gösterilen sorgular **İkili** tabloların bazen önbelleğe isabet ettiğini ve bazen de etmediğini gösterir. Sonuç olarak önbellek güncel değilse farklı değerler döndürülebilir. Sorgu yürütme, örneğin DirectQuery sonuçlarını önbelleğe alınmış değerlerle eşleşecek şekilde filtreleyerek veri sorunlarını maskeleme girişiminde bulunmaz. Veri akışlarınızı bilmek sizin sorumluluğunuzdadır ve buna uygun bir tasarım yapmanız gerekir. Gerekirse, kaynakta bu tür durumlarla başa çıkmak için yerleşik teknikler vardır.
+Önceki bölümde gösterilen sorgular İkili tabloların bazen önbelleğe isabet ettiğini ve bazen de etmediğini gösterir. Sonuç olarak önbellek güncel değilse farklı değerler döndürülebilir. Sorgu yürütme, örneğin DirectQuery sonuçlarını önbelleğe alınmış değerlerle eşleşecek şekilde filtreleyerek veri sorunlarını maskeleme girişiminde bulunmaz. Veri akışlarınızı bilmek sizin sorumluluğunuzdadır ve buna uygun bir tasarım yapmanız gerekir. Gerekirse, kaynakta bu tür durumlarla başa çıkmak için yerleşik teknikler vardır.
 
-*İkili* depolama modu bir performans optimizasyonudur. Yalnızca iş gereksinimlerini karşılama becerisine zarar vermeyecek yollarla kullanılmalıdır. Alternatif bir davranış için [Power BI Desktop’ta çok-çok ilişkileri](desktop-many-to-many-relationships.md) makalesinde açıklanan teknikleri kullanmayı göz önünde bulundurun.
+**İkili** depolama modu bir performans optimizasyonudur. Yalnızca iş gereksinimlerini karşılama becerisine zarar vermeyecek yollarla kullanılmalıdır. Alternatif bir davranış için [Power BI Desktop’ta çok-çok ilişkileri](desktop-many-to-many-relationships.md) sayfasında açıklanan teknikleri kullanmayı göz önünde bulundurun.
 
 ## <a name="data-view"></a>Veri görünümü
 Veri kümesindeki tablolardan en az birinin depolama modu **İçeri Aktarma** veya **İkili** olarak ayarlandıysa, **Veri görünümü** sekmesi görüntülenir.
 
 ![Power BI Desktop'taki veri görünümü](media/desktop-storage-mode/storage-mode-03.png)
 
-**Veri görünümü** içinden seçildiğinde, **İkili** ve **İçeri Aktarma** tablolarında önbelleğe alınmış veriler gösterilir. DirectQuery tablolarında veri gösterilmez ve DirectQuery tablolarının gösterilemediğini belirten bir ileti görüntülenir.
+**Veri** görünümünde İkili ve İçeri Aktarma tablolarını seçtiğinizde önbelleğe alınmış veriler gösterilir. DirectQuery tablolarında veri gösterilmez ve DirectQuery tablolarının gösterilemediğini belirten bir ileti görüntülenir.
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 Depolama modu'nun bu sürümünde ve bunun bileşik modellerle bağıntısında birkaç sınırlama vardır.
 
-Aşağıdaki Live Connect (çok boyutlu) kaynaklar bileşik modellerle kullanılamaz:
+Aşağıdaki canlı bağlantı (çok boyutlu) kaynakları bileşik modellerle kullanılamaz:
 
 * SAP HANA
 * SAP Business Warehouse

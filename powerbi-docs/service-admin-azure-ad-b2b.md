@@ -1,6 +1,6 @@
 ---
 title: Azure AD B2B ile içerikleri dış konuk kullanıcılara dağıtma
-description: Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B ) ile tümleşerek Power BI içeriklerinin kuruluş dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar.
+description: Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B) aracılığıyla dış konuk kullanıcılarla içerik paylaşma imkanı sunar.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,47 +9,48 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026658"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558605"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
-Power BI, işletmeler arası Azure Active Directory (Azure AD B2B) ile tümleşerek Power BI içeriklerinin kuruluşunuz dışındaki kullanıcılara güvenli bir şekilde dağıtılmasına olanak sağlar ve bu sırada iç verilerin de denetimini elinde bulundurur. Ayrıca, kuruluşunuzun dışından konuk kullanıcılara kuruluşta bulunan içeriği düzenleme ve yönetme izni verebilirsiniz.
+Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B) aracılığıyla dış konuk kullanıcılarla içerik paylaşma imkanı sunar.
+Kuruluşunuz Azure AD B2B'yi kullanarak dış kullanıcılarla paylaşım yapılmasını tek bir yerden etkinleştirir ve yönetir. Dış kullanıcılar varsayılan olarak yalnızca tüketim izinlerine sahiptir. Ayrıca, kuruluşunuzun dışından konuk kullanıcılara kuruluşta bulunan içeriği düzenleme ve yönetme izni verebilirsiniz.
 
 Bu makalede Power BI'da Azure AD B2B'ye temel giriş bilgileri sağlanır. Daha fazla bilgi için bkz. [Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Erişimi etkinleştirme
 
-Konuk kullanıcıları davet etmeden önce Power BI yönetim portalında [Dış kullanıcılarla içerik paylaşma](service-admin-portal.md#export-and-sharing-settings) özelliğini etkinleştirdiğinizden emin olun. Bu seçenek etkinleştirildiğinde bile kullanıcının konuk kullanıcılar davet edebilmek için Azure Active Directory’de izni olması gerekir ve bu izin Konuk Davet Eden rolü aracılığıyla verilebilir. 
+Konuk kullanıcıları davet etmeden önce Power BI yönetim portalında [Dış kullanıcılarla içerik paylaşma](service-admin-portal.md#export-and-sharing-settings) özelliğini etkinleştirdiğinizden emin olun. Bu seçenek etkinleştirildiğinde bile kullanıcının konuk kullanıcılar davet edebilmek için Azure Active Directory’de izni olması gerekir ve bu izin Konuk Davet Eden rolü aracılığıyla verilir. 
 
-[Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini de kullanabilirsiniz. Hangi konuk kullanıcının çalışma alanlarında içeriği görebileceğini ve oluşturabileceğini, ayrıca kuruluşunuzun Power BI'ına göz atabileceğini seçmenizi sağlar.
+[Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) seçeneği, konuk kullanıcılara çalışma alanlarındaki içeriği görme ve oluşturma imkanı tanımanızı sağlar ve kuruluşunuzun Power BI'ına göz atmak da buna dahildir.
 
 > [!NOTE]
-> [Dış kullanıcılarla içerik paylaşma](service-admin-portal.md#export-and-sharing-settings) ayarı, dış kullanıcıların Power BI aracılığıyla kuruluşunuza davet edilip edilmeyeceğini denetler. Daveti kabul eden dış kullanıcı kuruluşunuzda Azure AD B2B konuk kullanıcısı olur. Power BI deneyiminin her tarafındaki kişi seçicilerde bu kullanıcılar gösterilir. Ayar devre dışı bırakıldığında kuruluşunuzdaki mevcut konuk kullanıcılar erişim sahibi oldukları tüm öğelere erişmeye ve kişi seçici deneyimlerinde listelenmeye devam eder. Buna ek olarak, planlanmış davet yaklaşımıyla eklenen konuklar da kişi seçicilerde gösterilir. Konuk kullanıcıların Power BI’a erişimini engellemek için Azure AD koşullu erişim ilkesi kullanılabilir.
+> [Dış kullanıcılarla içerik paylaşma](service-admin-portal.md#export-and-sharing-settings) ayarı, Power BI'ın kuruluşunuza dış kullanıcı davet edilmesine izin verip vermeyeceğini denetler. Daveti kabul eden dış kullanıcı kuruluşunuzda Azure AD B2B konuk kullanıcısı olur. Power BI deneyiminin her tarafındaki kişi seçicilerde bu kullanıcılar gösterilir. Ayar devre dışı bırakıldığında kuruluşunuzdaki mevcut konuk kullanıcılar erişim sahibi oldukları tüm öğelere erişmeye ve kişi seçici deneyimlerinde listelenmeye devam eder. Buna ek olarak, [planlanmış davet](#planned-invites) yaklaşımıyla eklenen konuklar da kişi seçicilerde gösterilir. Konuk kullanıcıların Power BI’a erişimini engellemek için Azure AD koşullu erişim ilkesi kullanın.
 
 ## <a name="who-can-you-invite"></a>Kimleri davet edebilirsiniz?
 
-Gmail.com, outlook.com ve hotmail.com gibi kişisel hesaplar da dahil olmak üzere çoğu e-posta adresini kullanan konuk kullanıcılar davet edebilirsiniz. Azure AD B2B'de bu adresler *sosyal kimlik* olarak adlandırılır.
+Gmail.com, outlook.com ve hotmail.com gibi kişisel hesaplar da dahil olmak üzere çoğu e-posta adresini kullanan konuk kullanıcılar kuruluşunuza davet edilebilir. Azure AD B2B'de bu adresler *sosyal kimlik* olarak adlandırılır.
 
 [Power BI for US Government](service-govus-overview.md) gibi kamu bulutuyla ilişkilendirilmiş kullanıcıları davet edemezsiniz.
 
 ## <a name="invite-guest-users"></a>Konuk kullanıcı davet etme
 
-Konuk kullanıcıları kuruluşunuza davet ederken ilk seferinde davet göndermeniz yeterlidir. Kullanıcıları davet etmek için faydalanabileceğiniz iki yöntem vardır: planlı davetler ve geçici davetler.
+Konuk kullanıcıları kuruluşunuza davet ederken ilk seferinde davet göndermeniz yeterlidir. Kullanıcıları davet etmek için planlı veya geçici davetleri kullanın.
 
-Konuk kullanıcıları Power BI’da şu özellikler aracılığıyla davet edebilirsiniz:
+Geçici davetleri kullanmak için aşağıdaki özellikleri kullanın:
 * Rapor ve Pano paylaşımı
 * Uygulama erişimi listesi
 
-Henüz Azure AD’nizde konuk olarak yer almayan dış kişileri bir çalışma alanına eklemeniz gerekirse, aşağıda belirtilen planlanmış davetler yaklaşımını kullanabilirsiniz. 
+Geçici davetler, çalışma alanı erişim listeleri için desteklenmez. Bu kullanıcıları kuruluşunuza eklemek için [planlanmış davetler yaklaşımını](#planned-invites) kullanın. Dış kullanıcı kuruluşunuza bir konuk olarak dahil olduktan sonra çalışma alanı erişim listesine ekleyin.
 
 ### <a name="planned-invites"></a>Planlanmış davetler
 
-Hangi kullanıcıları davet edeceğinizi biliyorsanız planlı davetleri kullanın. Daveti Azure portal veya PowerShell aracılığıyla gönderebilirsiniz. Kişileri davet edebilmek için kiracı yöneticisi olmanız gerekir.
+Hangi kullanıcıları davet edeceğinizi biliyorsanız planlı davetleri kullanın. Azure portalı veya PowerShell aracılığıyla davet gönderebilirsiniz. Kişileri davet edebilmek için kiracı yöneticisi olmanız gerekir.
 
 Azure portalda davet göndermek için aşağıdaki adımları izleyin.
 
@@ -81,14 +82,14 @@ Konuk kullanıcı, uygulamayı kendisiyle paylaştığınızı belirten bir e-po
 
 ![Konuk kullanıcıyla paylaşılan uygulamaya ilişkin e-postanın ekran görüntüsü](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-Konuk kullanıcının, kuruluşuna ait e-posta adresi ile oturum açması gerekir. Oturum açtıktan sonra daveti kabul etmesine yönelik bir istem alır. Oturum açma işleminden sonra konuk kullanıcı için uygulama açılır. Uygulamaya dönmek için bağlantıya yer işareti ekleyebilir veya e-postayı kaydedebilir.
+Konuk kullanıcının, kuruluşuna ait e-posta adresi ile oturum açması gerekir. Oturum açtıktan sonra daveti kabul etmesine yönelik bir istem alır. Oturum açma işleminden sonra konuk kullanıcı için uygulama açılır. Kullanıcının uygulamaya dönmek için bağlantıya yer işareti eklemesi veya e-postayı kaydetmesi gerekir.
 
 
 ## <a name="licensing"></a>Lisanslama
 
 Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının düzgün lisansa sahip olması gerekir. Kullanıcının düzgün lisansı olduğundan emin olmanın üç yolu vardır: Power BI Premium'u kullanma, bir Power BI Pro lisansı atama veya konuğun Power BI Pro lisansını kullanma.
 
-[Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini kullanırken, çalışma alanlarına içerik katkısında bulunan veya başkalarıyla içerik paylaşan konuk kullanıcıların Power BI Pro lisansı olmalıdır.
+[Kuruluştaki içeriği düzenleyebilen ve yönetebilen konuk kullanıcıların](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) çalışma alanlarına içerik eklemek veya içeriği başkalarıyla paylaşmak için Power BI Pro lisansına sahip olması gerekir.
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium kullanma
 
@@ -110,23 +111,23 @@ Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansın
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>İçeriği düzenleyebilen ve yönetebilen konuk kullanıcılar
 
-[Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini kullanırken, belirtilen konuk kullanıcılar kuruluşunuzun Power BI'ına erişim elde eder. İzinleri olan tüm içeriği görebilirler. Giriş'e erişebilir, çalışma alanlarına göz atabilir, uygulamaları yükleyebilir, erişim listesinde bulundukları yeri görebilir ve çalışma alanları içeriğine katkıda bulunabilir. Yeni çalışma alanı deneyiminin kullanıldığı çalışma alanları oluşturabilir ve bu çalışma alanlarının Yöneticisi olabilir. Bazı sınırlamalar geçerlidir. Önemli Noktalar ve Sınırlamalar bölümünde bu kısıtlamalar listelenir.
+[Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini kullanırken, belirtilen konuk kullanıcılar kuruluşunuzun Power BI'ına ek erişim elde eder. İzin verilen konuklar izne sahip oldukları içeriği görebilir, Giriş'e erişebilir, çalışma alanlarına göz atabilir, uygulamaları yükleyebilir, erişim listesinde bulundukları yeri görebilir ve çalışma alanları içeriğine katkıda bulunabilir. Yeni çalışma alanı deneyiminin kullanıldığı çalışma alanları oluşturabilir ve bu çalışma alanlarının Yöneticisi olabilir. Bazı sınırlamalar geçerlidir. Önemli Noktalar ve Sınırlamalar bölümünde bu kısıtlamalar listelenir.
  
-Bu kullanıcıların Power BI'da oturum açmalarına yardımcı olmak için onlara Kiracı URL'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
+İzin verilen konukların Power BI'da oturum açmalarına yardımcı olmak için onlara Kiracı URL'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
 1. Power BI hizmetinde üst taraftaki menüden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında**'yı seçin.
 
-2. **Kiracı URL'si** öğesinin yanındaki değere bakın. Bu değer konuk kullanıcılarınızla paylaşabileceğiniz kiracı URL'sidir.
+2. **Kiracı URL'si** öğesinin yanındaki değere bakın. Kiracı URL'nizi izin verilen konuk kullanıcılarınızla paylaşın.
 
     ![Konuk kullanıcı kiracı URL'sinin gösterildiği Power BI Hakkında iletişim kutusunun ekran görüntüsü.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 
-* Varsayılan olarak, dış Azure AD B2B konukları yalnızca içeriğin tüketimiyle sınırlandırır. Dış Azure AD B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar. Öte yandan, bu kısıtlamalar [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğiyle erişim kazanan konuk kullanıcılar için geçerli değildir.
+* Varsayılan olarak, dış Azure AD B2B konukları yalnızca içeriğin tüketimiyle sınırlandırır. Dış Azure AD B2B konukları uygulamaları, panoları ve raporları görüntüleyebilmenin yanı sıra panolar ile raporlara yönelik olarak verileri dışarı aktarabilir ve e-posta abonelikleri oluşturabilir. Çalışma alanlarına erişemez veya kendi içeriklerini yayımlayamazlar. Bu kısıtlamaları kaldırmak için [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğini kullanabilirsiniz.
 
 * Konuk kullanıcıları davet etmek için bir Power BI Pro lisansı gerekir. Pro Deneme kullanıcıları Power BI’da konuk kullanıcı davet edemez.
 
-* [Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) özelliğiyle etkinleştirilen konuk kullanıcılara bazı deneyimler sağlanmaz. Raporları güncelleştirmek veya yayımlamak için, Power BI Desktop dosyalarını karşıya yüklerken Veri Al'ı kullanmak da dahil olmak üzere Power BI hizmeti web kullanıcı arabirimini kullanmaları gerekir.  Aşağıdaki deneyimler desteklenmez:
+* Bazı deneyimler [kuruluştaki içeriği düzenleyebilen ve yönetebilen konuk kullanıcılar](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) tarafından kullanılamaz. Raporları güncelleştirmek veya yayımlamak için, Power BI Desktop dosyalarını karşıya yüklerken Veri Al'ı kullanmak da dahil olmak üzere Power BI hizmeti web kullanıcı arabirimini kullanmaları gerekir.  Aşağıdaki deneyimler desteklenmez:
     * Power BI Desktop'tan Power BI hizmetine doğrudan yayımlama
     * Konuk kullanıcılar Power BI hizmetindeki hizmet veri kümelerine bağlanmak için Power BI Desktop kullanamaz
     * Office 365 Gruplarına bağlanan klasik çalışma alanları:
@@ -155,6 +156,8 @@ Bu kullanıcıların Power BI'da oturum açmalarına yardımcı olmak için onla
     * [Konuk kullanıcıların Power BI hizmetine erişmesine izin verme veya bunu engelleme](/azure/active-directory/conditional-access/overview)
     
 * Kuruluşunuzun dışıyla paylaşım, ulusal bulutlarda desteklenmez. Bunun yerine kuruluşunuzda dış kullanıcıların içeriğe erişmek için kullanabilecekleri kullanıcı hesapları oluşturun. 
+
+* Doğrudan bir konuk kullanıcıyla paylaşım yaptığınızda Power BI onlara bağlantı içeren bir e-posta gönderir. E-posta gönderilmesini önlemek için konuk kullanıcıyı bir güvenlik grubuna ekleyin ve güvenlik grubu ile paylaşım yapın.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

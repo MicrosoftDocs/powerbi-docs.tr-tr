@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016147"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527485"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Power BI Desktop’taki güncelleştirilmiş şeridi kullanma (önizleme)
 
@@ -51,7 +51,18 @@ Bu avantajlar aşağıdaki kategorilere gruplandırılabilir:
 
 * **Daraltıldığında tek satırlık bir şerit size yer kazandırır** - güncelleştirilmiş şeridin bir diğer avantajı da şeridi tek satıra daraltabilmek,bağlamınıza göre şerit öğelerini dinamik olarak görüntülemektir. 
 
-    ![Daha iyi temalar](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Daraltılmış şerit](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Gezinmek ve düğme seçmek için tuş ipuçları**: Şeritte gezinmenize yardımcı olması için **Alt + Windows Tuşu** birleşimini kullanarak tuş ipuçlarını etkinleştirebilirsiniz. Etkinleştirdikten sonra klavyenizden gösterilen tuşlara basarak gezinebilirsiniz.
+
+    ![Tuş ipuçları](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Özel biçim dizeleri**: Özel biçim dizelerini *Özellikler* bölmesine ek olarak şeritte de ayarlayabilirsiniz. Özelleştirmek istediğiniz ölçüyü veya sütunu seçtikten sonra seçiminize bağlı olarak **Ölçü araçları** veya **Sütun araçları** bağlam sekmesi açılır. İlgili sekmenin biçimlendirme bölümünde özel biçimlendirme dizenizi doğrudan açılan kutuya yazabilirsiniz.
+
+    ![Özel biçim dizeleri](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Erişilebilirlik**: Başlık çubuğu, şerit ve Dosya menüsü tamamen erişilebilir durumdadır. Şerit bölümüne gitmek için CTRL + F6 tuşlarına basın. Sonrasında **Sekme** tuşunu kullanarak üst ve alt çubuklar arasında geçiş yapabilir, ok tuşlarıyla da öğeler arasında gezinebilirsiniz.
+
 
 Bu görünür değişikliklere ek olarak, güncelleştirilmiş şerit Power BI Desktop'ta ve şeridinde gelecekte şöyle güncelleştirmeler yapmanıza da olanak tanır:
 

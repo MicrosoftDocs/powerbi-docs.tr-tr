@@ -1,18 +1,18 @@
 ---
 title: Power BI paylaşılan veri kümesiyle sayfalandırılmış rapor oluşturma - Power BI Report Builder
 description: Power BI Report Builder'da Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturun.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691480"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427864"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturma
 
@@ -27,6 +27,7 @@ Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin b
 Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız için gereken ve gerekli olmayan şeylerin bir listesi verilmiştir.
 
 - Power BI Rapor Oluşturucusu. [Power BI Rapor Oluşturucusu’nu indirin ve yükleyin](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Power BI Desktop uygulamasını indirin ve yükleyin](https://powerbi.microsoft.com/desktop/).
 - Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](service-datasets-build-permissions.md) hakkında bilgi edinin.
 - Rapor Oluşturucusu’nda sayfalandırılmış rapor oluşturmak için Power BI Pro lisansına sahip olmanız gerekmez. 
 - Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir. 
@@ -57,12 +58,26 @@ Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız 
     Aynı sayfalandırılmış rapordaki birden çok Power BI veri kümesine ve diğer veri kaynaklarına bağlanabildiğinizi unutmayın.
 
 
-## <a name="get-the-query-for-the-dataset"></a>Veri kümesi için sorguyu alma
+## <a name="get-the-dax-query-for-the-dataset"></a>Veri kümesi için DAX sorgusunu alma
 
 Power BI raporunuzdaki ve Rapor Oluşturucusu raporunuzdaki verilerin aynı olması için veri kümesine bağlanmak yeterli değildir. Aynı zamanda bu veri kümesinde oluşturulan sorguya de ihtiyacınız vardır.
 
+### <a name="video-get-the-dax-query"></a>Video: DAX sorgusunu alma
+
+Aşağıdaki videoda Chris Finlan, sayfalandırılmış raporunuz için ihtiyacınız olan DAX sorgusunu nasıl alacağınızı göstermektedir.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>DAX sorgusunu alma adımları
+
+Sorguyu almak için gerekli adımlar aşağıda verilmiştir.
+
 1. Power BI Desktop’ta Power BI raporunu (.pbix) açın.
-1. Raporunuzda, sayfalandırılmış raporunuzda olmasını istediğiniz tüm verileri içeren bir tablonuz olduğundan emin olun.
+1. Raporunuzda, sayfalandırılmış raporunuzda olmasını istediğiniz tüm verileri içeren bir tablonuz olduğundan emin olun. Tablonun şu iki gereksinimi karşılaması gerekir:
+    - Matris veya farklı bir görsel değil, düz bir tablo olması gerekir. Tablo değilse şimdi bir tabloya dönüştürün, ardından gelen Performans Analizi adımlarını izleyin ve ardından istediğiniz görsele geri dönüştürün.
+    - Sayısal alanlarınız için *önceden tanımlanmış ölçüleri* kullanmanız gerekir. Bu ölçülerin yanında bir hesap makinesi simgesi vardır. [Ölçü oluşturma](desktop-measures.md) hakkında bilgi edinin. 
+
+        ![Ölçü simgesi](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. **Görünüm** şeridinde **Performans Analizi**’ni seçin.
 
@@ -204,6 +219,7 @@ Ayarladığınız sayfa kenar boşluklarını ve rapor *gövdesinin* genişliği
 
 - Analysis Services ile Canlı Bağlantı kullanan veri kümeleri için, paylaşılan bir veri kümesi yerine temel alınan Analysis Services bağlantısını kullanarak doğrudan bağlanabilirsiniz.
 - Yükseltilen veya Sertifikalı onaylama içeren veri kümeleri kullanılabilir veri kümeleri listesinde görünür, ancak bu şekilde işaretlenmez. 
+- Power BI paylaşılan veri kümelerini temel alan sayfalandırılmış raporları "Veriler Uygulamaya Aittir" senaryosuna ekleyemezsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

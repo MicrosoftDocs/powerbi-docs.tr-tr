@@ -1,31 +1,31 @@
 ---
-title: 'Öğretici: Excel’de Çözümle’yi kullanma'
-description: Bu öğreticide Power BI Veri Kümeleri sayfasını kullanarak veri kümelerini Excel’e aktaracaksınız.
+title: "Öğretici: Power BI Excel'de Çözümle özelliğini kullanma, Excel'den başlama"
+description: Bu öğreticide Excel'den başlayacak ve Power BI Veri Kümeleri sayfasına bağlanarak veri kümelerini Excel’e aktaracaksınız.
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921497"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426553"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>Öğretici: Excel’de Çözümle’yi kullanma
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Öğretici: Power BI Excel'de Çözümle özelliğini kullanma, Excel'den başlama
 
-Kuruluşunuz verilere erişimi paylaşmak için Power BI kullanıyor. Analizinize ek bağlam sağlamak veya ilgili veri kümelerini bulup içeri aktarırken harcanan süreyi kısaltmak için Excel’de Çözümle özelliğini kullanarak PivotTable ve PivotChart’lar oluşturun.
+Kuruluşunuz verilere erişimi paylaşmak için Power BI kullanıyor. Excel'de PivotTable ve PivotChart oluşturmak için Excel'den Power BI Excel'de Çözümle özelliğini başlatın. Bu öğeler analiz süreçlerinize ek bağlam katabilir veya ilgili veri kümelerini bulmak ve içeri aktarmak için gereken süreyi azaltabilir.
 
-Veri kümesi seçmeye başlamak için 'Excel’de Çözümle'yi seçin. Verileri kullanan bir PivotTable oluşturmaya yönlendirilirsiniz.  
+Excel'de bir Power BI veri kümesiyle çalışmaya başlamak için "Excel'de Çözümle"yi seçin. Verileri kullanan bir PivotTable oluşturmaya yönlendirilirsiniz.  
 
 Veri Kümeleri sayfasına dönerek kuruluşunuz tarafından paylaşılan diğer veri kümelerini bulabilirsiniz.
 
-Bu noktada sorunla karşılaşırsanız, aşağıdaki akışın ilgili adımında Hayır’ı seçin ve bağlantılı forma geri bildiriminizi girin.  
+Bu noktada sorunla karşılaşırsanız, aşağıdaki akışın ilgili adımında **Hayır**’ı seçin ve bağlantılı forma geri bildiriminizi girin.  
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
@@ -62,7 +62,7 @@ Excel’de Çözümle iş akışını kullanırken size yol gösteren çeşitli 
 
 İlgili listeden ve ilişkili çalışma alanından veri kümenizi seçin ve sonra da Excel’de Çözümle’ye tıklayın. Power BI bir ODC dosyası oluşturur ve bu dosyayı tarayıcıdan bilgisayarınıza indirir.
 
-![Veri kümesi seçme](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-03.png)
+![Veri kümesi seç](media/service-tutorial-analyze-in-excel/tutorial-analyze-in-excel-03.png)
 
 Dosyayı Excel'de açtığınızda boş bir PivotTable ve Alanlar listesiyle birlikte, Power BI veri kümesinden tablolar, alanlar ve ölçüler belirir. Excel'de tıpkı yerel bir veri kümesiyle çalışır gibi söz konusu veritabanını çözümleyebilir, PivotTable'lar ve grafikler oluşturabilirsiniz.
 

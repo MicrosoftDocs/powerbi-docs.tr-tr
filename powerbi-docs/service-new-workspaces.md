@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925661"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426576"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -68,15 +68,16 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Diğer yöneticiler de dahil olmak üzere kişileri ekleyebilir/kaldırabilir.  | X  |   |   |   |
 | Üyeleri ve düşük izinlere sahip diğer kişileri ekleyebilir.  |  X | X  |   |   |
 | Uygulama yayımlayabilir ve güncelleştirebilir. |  X | X  |   |   |
-| Öğe veya uygulama paylaşabilir. |  X | X  |   |   |
-| Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir. |  X | X  |   |   |
+| Öğe veya uygulama paylaşabilir.<sup>1</sup> |  X | X  |   |   |
+| Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir.<sup>1</sup> |  X | X  |   |   |
 | Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
 | Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
 | Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun.<sup>1</sup> |  X | X  | X  |   |
-| Bir raporu kopyalayın.<sup>1</sup> | X | X | X |  |
-| Öğeleri açın ve öğelerle etkileşim kurun.<sup>2</sup> |  X | X  | X  | X  |
+| Bir raporu kopyalayın.<sup>2</sup> | X | X | X |  |
+| Öğeleri açın ve öğelerle etkileşim kurun.<sup>3</sup> |  X | X  | X  | X  |
 
-1. Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için ek ölçütlere uymanız gerekir:
+1. Katkıda Bulunanlar ve Görüntüleyiciler, bir çalışma alanındaki öğeleri ancak yeniden paylaşma izinleri varsa paylaşabilir.
+2. Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için ek ölçütlere uymanız gerekir:
     - Power BI Pro lisansına ihtiyacınız vardır. Ayrıntılar için sonraki kısım olan [Lisanslama](#licensing)’ya bakın.
     - Veri kümesi için Oluşturma izniniz olmalıdır. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla Oluşturma izinleri olur.
 2. Power BI Pro lisansınız olmasa bile, öğeler Premium kapasitedeki bir çalışma alanında yer alıyorsa Power BI hizmetinde öğeleri görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.

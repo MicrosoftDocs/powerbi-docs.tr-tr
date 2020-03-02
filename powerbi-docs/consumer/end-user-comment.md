@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852028"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496507"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla bir pano ya da rapor hakkında bir konuşma başlatın. **Açıklama** özelliği, *tüketicinin* diğer kişilerle işbirliği yaparak çalışma yollarından yalnızca biridir. 
 
 ![açıklamalar videosu](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> Paylaşılan raporlara açıklama eklemek dahil olmak üzere diğer kullanıcılarla işbirliği yapmak için Power BI Pro veya Premium lisansı gerekir. [Hangi lisans türüne sahibim?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Açıklamalar özelliğini kullanma
 Panonun tamamına, panodaki ayrı ayrı görsellere, rapor sayfasına, sayfalandırılmış rapora ve rapor sayfasında yer alan ayrı ayrı görsellere açıklama ekleyebilirsiniz. Genel bir açıklama veya belirli iş arkadaşlarınızı hedefleyen bir açıklama ekleyin.  
@@ -34,7 +39,7 @@ Rapora bir açıklama eklediğinizde Power BI geçerli filtre ve dilimleyici de�
 
 Bu neden önemlidir? Bir iş arkadaşınızın ekip ile paylaşmak istediği ilginç bir içgörüyü gösteren bir filtre uyguladığını varsayalım. Bu filtre seçili olmadığında açıklama anlamlı olmayabilir.
 
-Sayfalandırılmış rapor kullanıyorsanız, yalnızca raporunuz hakkında genel bir açıklama ekleyebilirsiniz.  Ayrı ayrı rapor görsellerine açıklama ekleme desteği sunulmaz.
+Sayfalandırılmış rapor kullanıyorsanız, yalnızca raporunuz hakkında genel bir açıklama ekleyebilirsiniz.  Ayrı ayrı sayfalandırılmış rapor görsellerine açıklama ekleme desteği sunulmaz.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Panoya veya rapora genel bir açıklama ekleme
 Bir panoya veya rapora açıklama ekleme işlemi benzerdir.  Bu örnekte pano seçeneğini kullanıyoruz. 

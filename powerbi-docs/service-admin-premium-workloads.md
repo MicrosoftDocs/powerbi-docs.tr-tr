@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889386"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427726"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -170,7 +170,7 @@ Sayfalandırılmış raporlar iş yükü Power BI hizmetinde standart SQL Server
 | **En Yüksek Bellek (%)** | Kapasitede sayfalandırılmış raporların kullanabileceği en yüksek kullanılabilir bellek yüzdesi. |
 |  |  |
 
-Sayfalandırılmış raporlar, bir raporu işlerken özel kodun çalıştırılmasına olanak tanır. Örneğin metin rengini içeriğe göre dinamik olarak değiştirme olabilir ve bu işlem ek bellek kullanabilir. Power BI Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. 
+Sayfalandırılmış raporlar, rapor yazarları için özel kod ekleme özelliği de dahil olmak üzere SQL Server Reporting Services (SSRS) raporlarının günümüzde kullandığı özellikleri sunar.  Yazarlar bu sayede raporları dinamik olarak değiştirebilir, kod ifadelerine göre metin renklerini değiştirme gibi eylemler gerçekleştirebilir.  Uygun yalıtımı sağlamak için sayfalandırılmış raporlar kapasiteye özgü korumalı alan içinde çalıştırılır. Aynı kapasiteyle çalıştıran raporların arasında istenmeyen etkileşimler yaşanabilir. SSRS örneğine içerik yayımlayabilecek yazarları kısıtladığınız gibi sayfalandırılmış raporlarda da benzer bir uygulama gerçekleştirmeniz önerilir. Kapasiteye içerik yayımlayan yazarların kuruluş açısından güvenilir olduğundan emin olun. Birden fazla kapasite sağlayıp her birine farklı yazarlar atayarak ortamınızın güvenlik düzeyini artırabilirsiniz. 
 
 Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gelebilir. Böyle bir durumda iş yükü Yönetici portalında bir hata durumu gösterir ve kullanıcılar rapor işleme için zaman aşımı değerlerini görürler. Bu sorunu gidermek için iş yükünü devre dışı bırakın ve sonra yeniden etkinleştirin.
 

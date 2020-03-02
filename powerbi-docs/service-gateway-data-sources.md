@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698199"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558692"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
@@ -45,11 +45,24 @@ Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçek
 
 5. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirtirsiniz. **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
 
-6. **Gelişmiş ayarlar** bölümünde, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyini](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
+6. **Gelişmiş ayarlar**'ın altında veri kaynağınız için [Çoklu Oturum Açma (SSO)](service-gateway-sso-overview.md) yapılandırmasını yapabilirsiniz. 
+
+    ![Gelişmiş ayarlar](media/service-gateway-data-sources/advanced-settings-02.png)
+
+DirectQuery tabanlı raporlar için **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** veya **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** ve Yenileme tabanlı raporlar için **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneklerini yapılandırabilirsiniz.
+
+**DirectQuery sorguları için Kerberos üzerinden SSO kullanın** seçeneğini işaretler ve bu veri kaynağını DirectQuery tabanlı bir rapor için kullanırsanız, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı kullanılır. Yenileme tabanlı rapor için **Kullanıcı adı** ve **Parola** alanlarına girdiğiniz kimlik bilgilerini kullanır.
+
+**DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğini kullanırsanız kimlik bilgisi belirtmeniz gerekmez. Bu veri kaynağı DirectQuery tabanlı bir rapor için kullanılırsa, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı kullanılır.  Yenileme tabanlı rapor için veri kümesi sahibinin güvenlik bağlamı kullanılır.
+
+> [!NOTE]
+>İçeri Aktarma Sorguları için SSO yalnızca [Kerberos kısıtlanmış temsil](service-gateway-sso-kerberos.md) kullanan SSO veri kaynaklarının listesiyle kullanılabilir.
+
+7. **Gelişmiş ayarlar** bölümünde, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyini](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
 
     ![Gelişmiş ayarlar](media/service-gateway-data-sources/advanced-settings.png)
 
-7. **Ekle**'yi seçin. İşlem başarılı olursa *Bağlantı Başarılı* ifadesini görürsünüz.
+8. **Ekle**'yi seçin. İşlem başarılı olursa *Bağlantı Başarılı* ifadesini görürsünüz.
 
     ![Bağlantı başarılı](media/service-gateway-data-sources/connection-successful.png)
 

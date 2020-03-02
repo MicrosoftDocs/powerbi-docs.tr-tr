@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538782"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427680"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamaları kullanma
 
@@ -185,6 +185,10 @@ AVERAGE işlevi toplamalardan yararlanabilir. AVERAGE, COUNT ile bölünen bir S
 Bazı durumlarda DISTINCTCOUNT işlevi de toplamaları kullanabilir. Toplama tablosundaki **CustomerKey** sütununun benzersizliğini koruyan **CustomerKey** GroupBy girişi olduğundan aşağıdaki sorgu toplamaya isabet eder. İki ile beş milyon arasındaki benzersiz değerin aşılması sorgu performansını etkileyebileceğinden bu teknik de performans eşiğine ulaşabilir. Öte yandan ayrıntı tablosunda milyarlarca satır ama sütunda iki ile beş milyon arasında benzersiz değer bulunan senaryolarda faydalı olabilir. Bu durumda DISTINCTCOUNT, önbelleğe alınmış olsa dahi milyarlarca satıra sahip bir tabloyu taramaktan daha hızlı bir performans sergileyebilir.
 
 ![DISTINCTCOUNT toplama sorgusu](media/desktop-aggregations/aggregations-code_07.jpg)
+
+DAX akıllı zaman gösterimi işlevleri toplama işlemlerini kullanır. Aşağıdaki sorgu, DATESYTD işlevi **CalendarDay** değerlerinden oluşan bir tablo oluşturduğundan ve toplama tablosu **Date** tablosundaki gruplama ölçütü sütunlarının kapsamına giren bir ayrıntı düzeyinde olduğundan toplama gerçekleştirir. Bu, toplamalarla çalışabilen CALCULATE işlevi için tablo değerli filtre örneğidir.
+
+![SUMMARIZECOLUMNS toplama sorgusu](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>GroupBy sütunlarını temel alan toplama 
 

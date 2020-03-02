@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75223741"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427703"
 ---
 # <a name="analyze-in-excel"></a>Excel’de Analiz Et
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.
@@ -25,17 +25,17 @@ Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkile
 
 * **Excel'de Çözümle**, Microsoft Excel 2010 SP1 ve sonraki sürümlerde desteklenir.
 
-* Excel PivotTable'ları, sayısal alanların sürükle ve bırak ile toplama özelliğini desteklemez. Power BI'daki veri kümenizin *önceden tanımlanmış ölçülere sahip olması gerekir*.
+* Excel PivotTable'ları, sayısal alanların sürükle ve bırak ile toplama özelliğini desteklemez. Power BI'daki veri kümenizin *önceden tanımlanmış ölçülere sahip olması gerekir*. [Ölçü oluşturma](desktop-measures.md) hakkında bilgi edinin.
 * Bazı kuruluşların Grup İlkesi kuralları, Excel'e gerekli olan **Excel'de Çözümle** güncelleştirmelerinin yüklenmesini engelleyebilir. Güncelleştirmeleri yükleyemiyorsanız yöneticinizle görüşün.
 * **Excel'de Çözümle** özelliği, veri kümesinin Power BI Premium’da olmasını veya kullanıcının Power BI Pro lisansına sahip olmasını gerektirir. Lisans türleri arasındaki işlevsellik farkları hakkında daha fazla bilgi edinmek için _Power BI fiyatlandırması_ konusunun [Power BI özelliklerinin karşılaştırması](https://powerbi.microsoft.com/pricing/) bölümüne bakın.
-* Kullanıcılar, temel alınan veri kümesi üzerinde okuma izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Kullanıcı buna; veri kümesini içeren çalışma alanının üyesi olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir uygulamaya izin vermek gibi birkaç yöntemle sahip olabilir.
+* Kullanıcılar, temel alınan veri kümesi üzerinde izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Kullanıcı bu izine; veri kümesini içeren çalışma alanında Üye rolüne sahip olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir çalışma alanında veya uygulamada veri kümesi için Oluşturma iznine sahip olmak gibi birkaç yöntemle sahip olabilir. [Veri kümeleri için oluşturma izni](service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
 * **Excel’de Çözümle** bir Power BI hizmeti özelliğidir ve Power BI Rapor Sunucusu’nda veya Power BI Embedded’da sunulmaz. 
-* **Excel’de Analiz Et** seçeneği yalnızca Microsoft Windows çalıştıran makinelerde desteklenir.
+* **Excel’de Çözümle** seçeneği yalnızca Microsoft Windows çalıştıran bilgisayarlarda desteklenir.
 
 ## <a name="how-does-it-work"></a>Nasıl çalışır?
-**Power BI**'daki bir veri kümesi veya raporla ilişkili üç nokta menüsünden (...) **Excel'de Çözümle**'yi seçtiğinizde Power BI, bir .ODC dosyası oluşturur ve bunu tarayıcınızdan bilgisayarınıza indirir.
+**Power BI**'daki bir veri kümesi veya raporla ilişkili **Diğer seçenekler** menüsünden (...) **Excel'de Çözümle**'yi seçtiğinizde Power BI, bir .ODC dosyası oluşturur ve bunu tarayıcınızdan bilgisayarınıza indirir.
 
-![](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
+![Excel’de Analiz Et](media/service-analyze-in-excel/power-bi-analyze-in-excel.png)
 
 Dosyayı Excel'de açtığınızda, boş bir **PivotTable** ve **Alanlar** listesiyle birlikte, Power BI veri kümesinden tablolar, alanlar ve ölçüler belirir. Excel'de tıpkı yerel bir veri kümesiyle çalışır gibi söz konusu veritabanını çözümleyebilir, PivotTable'lar ve grafikler oluşturabilirsiniz.
 
@@ -44,23 +44,23 @@ Dosyayı Excel'de açtığınızda, boş bir **PivotTable** ve **Alanlar** liste
 **Excel'de Çözümle**, *Analysis Services Tablolu* veya *Çok Boyutlu* veritabanlarına bağlanan ya da Power BI Desktop dosyalarından veya Veri Çözümleme İfadeleri (DAX) kullanarak oluşturulmuş model ölçülerine sahip veri modelli Excel çalışma kitaplarından gelen veri kümeleri ve raporlar için çok kullanışlıdır.
 
 ## <a name="get-started-with-analyze-in-excel"></a>Excel'de Çözümle özelliğiyle çalışmaya başlama
-Power BI'da bir rapor veya veri kümesinin yanındaki üç nokta menüsünü (rapor veya veri kümesi adının yanındaki ... simgesi) seçin ve açılan menüden **Excel'de Çözümle**'yi seçin.
+Power BI'da bir rapor veya veri kümesinin yanındaki **Diğer seçenekler** menüsünü (rapor veya veri kümesi adının yanındaki ... simgesi) seçin ve açılan menüden **Excel'de Çözümle**'yi seçin.
 
-![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
+![Excel’de Analiz Et](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Excel güncelleştirmelerini yükleme
-**Excel'de Çözümle**'yi ilk kez kullandığınızda Excel kitaplıklarına güncelleştirme yüklemeniz gerekir. Excel güncelleştirmelerini indirip çalıştırmanız istenir (böylece *SQL_AS_OLEDDB.msi* Windows yükleyici paketini yükleme işlemi başlar). Bu paket **SQL Server 2016 RC0 için Microsoft AS OLE DB Sağlayıcısı (Önizleme)**'yi yükler.
+**Excel'de Çözümle**'yi ilk kez kullandığınızda Excel kitaplıklarına güncelleştirme yüklemeniz gerekir. Excel güncelleştirmelerini indirip çalıştırmanız istenir (böylece *SQL_AS_OLEDDB.msi* Windows yükleyici paketini yükleme işlemi başlar). Bu paket **SQL Server 2016 RC0 için Microsoft AS OLE DB Sağlayıcısı (Önizleme)** 'yi yükler.
 
 > [!NOTE]
 > **Excel güncelleştirmelerini yükle** iletişim kutusunda **Bunu bir daha gösterme**'yi işaretlediğinizden emin olun. Bu güncelleştirmeyi bir kez yüklemeniz yeterlidir.
 > 
 > 
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
+![Bunu bir daha gösterme onay kutusu](media/service-analyze-in-excel/pbi_anlz_excel_dontshow.png)
 
 **Excel'de Çözümle** için Excel güncelleştirmelerini tekrar yüklemeniz gerekirse güncelleştirmeyi aşağıdaki görüntüdeki gibi Power BI'daki **İndir** simgesinden indirebilirsiniz.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
+![Güncelleştirmeleri yükle](media/service-analyze-in-excel/pbi_anlz_excel_download_again.png)
 
 ### <a name="sign-in-to-power-bi"></a>Power BI'da oturum açma
 Tarayıcınız üzerinden Power BI'da oturum açmış olsanız da ilk kez Excel'de yeni bir .ODC dosyasını açtığınız zaman Power BI hesabınızla Power BI'da oturum açmanız istenebilir. Bu, Excel ile Power BI arasındaki bağlantının kimliğini doğrular.
@@ -70,12 +70,12 @@ Bazı kullanıcıların birden fazla Power BI hesabı olabilir. Bu kullanıcıla
 
 Yeniden oturum açma fırsatı size sağlanacaktır. Bu fırsat sağlandığında, Excel'de Çözümle'nin erişmekte olduğu veri kümesine erişimi olan Power BI hesabınızla oturum açabilirsiniz. Excel'deki **Power BI** şerit sekmesinden **Profil**'i seçebilirsiniz. Bu sizin hangi hesapla oturum açmış olduğunuzu tanımlar ve oturumu kapatmanız (ve daha sonra başka bir hesapla oturum açmanız) için gerekli bağlantıyı sunar. Henüz yüklemediyseniz [Excel için Power BI yayıncısını indirebilirsiniz](https://www.microsoft.com/download/details.aspx?id=50729). Excel’de Power BI şeridi bu şekilde yüklenir.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+![Profilinizi görüntüleme](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
 
 ### <a name="enable-data-connections"></a>Veri bağlantılarını etkinleştirme
 Power BI verilerinizi Excel'de çözümlemek için .odc dosyasının adını ve yolunu doğruladıktan sonra **Etkinleştir**'i seçmeniz istenir.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
+![Veri bağlantılarını etkinleştirme](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
 > Power BI kiracılarının yöneticileri, *Power BI Yönetici Portalı*'nı kullanarak, Analysis Services (AS) veritabanlarında barındırılan şirket içi veri kümelerinde **Excel'de Çözümle** kullanımını devre dışı bırakabilir. Bu seçenek devre dışı bırakıldığında **Excel'de Çözümle** AS veritabanları için devre dışı olur ancak diğer veri kümeleri için kullanılabilir olmaya devam eder.
@@ -85,7 +85,7 @@ Power BI verilerinizi Excel'de çözümlemek için .odc dosyasının adını ve 
 ## <a name="analyze-away"></a>İstediğiniz gibi çözümleme
 Artık Excel açıldı ve boş bir PivotTable'ınız var. Power BI veri kümenizde her türlü çözümlemeyi yapmaya hazırsınız. Diğer yerel çalışma kitaplarında olduğu gibi, Excel'le Çözümle sayesinde PivotTable'lar ve grafikler oluşturabilir, başka kaynaklardan veri ekleyebilir ve benzeri birçok işlem yapabilirsiniz. Bunun yanı sıra verilerinizi bambaşka şekillerde görüntüleyebilen birbirinden farklı çalışma kitapları oluşturabilirsiniz.
 
-![](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
+![Excel'de PivotTable ve PivotChart](media/service-analyze-in-excel/pbi_anlz_excel_chart.png)
 
 > [!NOTE]
 > **Excel'de Çözümle** kullanmanın, veri kümesine erişim izni olan tüm kullanıcılara bütün ayrıntı düzeylerindeki verileri açacağını bilmek önemlidir.

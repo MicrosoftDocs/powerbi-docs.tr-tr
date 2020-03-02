@@ -1,37 +1,37 @@
 ---
-title: Power BI Premium’da artımlı yenileme
-description: Power BI Premium hizmetinde çok büyük veri kümelerini etkinleştirmeyi öğrenin.
+title: Power BI’da artımlı yenileme
+description: Power BI'da çok büyük veri kümelerini etkinleştirmeyi öğrenin.
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699303"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527648"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Power BI Premium’da artımlı yenileme
+# <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
-Artımlı yenileme, aşağıdaki avantajlarla Power BI Premium hizmetindeki çok büyük veri kümelerini etkinleştirir:
+Artımlı yenileme, aşağıdaki avantajlarla Power BI'daki çok büyük veri kümelerini etkinleştirir:
 
 > [!div class="checklist"]
 > * **Yenilemeler daha hızlıdır** - Yalnızca değişmiş olan verilerin yenilenmesi gerekir. Örneğin, on yıllık bir veri kümesinin yalnızca son beş gününü yenileyin.
 > * **Yenilemeler daha güvenilir olur** - Artık geçici kaynak sistemlerine uzun süreli bağlantıların sürdürülmesi gerekmez.
 > * **Kaynak tüketimi azaltılır** - Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
 
+> [!NOTE]
+> Artımlı yenileme artık Power BI Pro, Premium ve paylaşılan abonelikler ve veri kümelerinde kullanılabilir. 
+
 ## <a name="configure-incremental-refresh"></a>Artımlı yenilemeyi yapılandırma
 
 Artımlı yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve Power BI hizmetinde yayımlandıktan sonra uygulanır.
 
-Başlangıç olarak **Önizleme özellikleri** altında artımlı yenilemeyi etkinleştirin.
-
-![Seçenekler - önizleme özellikleri](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Power BI Desktop’ta büyük veri kümelerini filtreleme
 
@@ -72,7 +72,7 @@ Tarih sütunundaki filtre Power BI hizmetinde verileri dinamik olarak aralıklar
 
 Yenileme işlemleri için sorgu gönderildiğinde bölüm filtresinin kaynağa gönderilmesi önemlidir. Filtrelemenin gönderilmesi, veri kaynağının sorgu katlama özelliğini desteklemesi gerektiği anlamına gelir. SQL sorgularını destekleyen veri kaynaklarının çoğu sorgu katlamayı da destekler. Öte yandan düz dosyalar, bloblar, web ve OData akışları genellikle desteklemez. Filtrenin veri kaynağı arka ucu tarafından desteklenmediği durumlarda filtre gönderilemez. Böyle durumları karma altyapısı telafi eder ve filtreyi yerel olarak uygular. Bunun için veri kaynağından tam veri kümesinin alınması gerekebilir. Bu da artımlı yenilemenin çok yavaş olmasına neden olabilir ve bu durumda işlem Power BI hizmetinde veya kullanılması durumunda şirket içi veri ağ geçidinde kaynakları tüketebilir.
 
-Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğinden emin olmak için bunu doğrulamanız önerilir. Bunu kolaylaştırmak için Power BI Desktop bu doğrulamayı sizin yerinize gerçekleştirmeyi dener. Doğrulanamazsa, artımlı yenileme ilkesi tanımlanırken artımlı yenileme iletişim kutusunda bir uyarı görüntülenir. SQL, Oracle ve Teradata gibi SQL tabanlı veri kaynakları bu uyarıya güvenebilir. Diğer veri kaynakları sorguları izlemeden doğrulama yapamayabilir. Power BI Desktop onaylayamazsa aşağıdaki uyarı görüntülenir.
+Her veri kaynağı için farklı sorgu katlama düzeyleri söz konusu olduğundan filtre mantığının kaynak sorgularına dahil edildiğinden emin olmak için bunu doğrulamanız önerilir. Bunu kolaylaştırmak için Power BI Desktop bu doğrulamayı sizin yerinize gerçekleştirmeyi dener. Doğrulanamazsa, artımlı yenileme ilkesi tanımlanırken artımlı yenileme iletişim kutusunda bir uyarı görüntülenir. SQL, Oracle ve Teradata gibi SQL tabanlı veri kaynakları bu uyarıya güvenebilir. Diğer veri kaynakları sorguları izlemeden doğrulama yapamayabilir. Power BI Desktop onaylayamazsa aşağıdaki uyarı görüntülenir. Bu uyarıyı görüyorsanız ve gerekli sorgu katlama işleminin gerçekleşip gerçekleşmediğini denetlemek istiyorsanız Sorgu Tanılama özelliğini kullanabilir veya kaynak veritabanına ulaşan sorguları izleyebilirsiniz.
 
  ![Sorgu katlama](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ Artımlı yenileme iletişim kutusu görüntülenir. İletişim durumunu etkinle
 
 Üst bilgi metni aşağıdakileri açıklar:
 
-- Artımlı yenileme yalnızca Premium kapasitelerdeki çalışma alanları için desteklenir. Yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve hizmetteki yenileme işlemleri tarafından uygulanır.
+- Yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve hizmetteki yenileme işlemleri tarafından uygulanır.
 
 - Power BI hizmetinden artımlı yenileme ilkesini içeren PBIX dosyasını indiremezseniz, bu dosya Power BI Desktop’ta açılamaz. Bu gelecekte desteklenebilse de, söz konusu veri kümelerinin çok büyüyeceğini ve tipik bir masaüstü bilgisayarda indirilip açılmasının elverişsiz hale gelebileceğini unutmayın.
 
@@ -110,6 +110,13 @@ Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tar
 Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri aktarılması uzun sürebilir. Sonraki yenilemeler hızlı şekilde tamamlanabilir.
 
 ![Yenileme aralıkları](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>Geçerli tarih
+
+*Geçerli tarih*, yenileme anındaki sistem tarihini temel alır. Power BI hizmetinde veri kümesi için zamanlanmış yenilemenin etkinleştirilmiş olması durumunda geçerli tarih belirlenirken belirtilen saat dilimi dikkate alınır. Hem el ile çağrılan hem de zamanlanmış yenileme işlemleri varsa saat dilimini dikkate alır. Örneğin 20:00 PT (ABD ve Kanada) itibarıyla gerçekleşen ve saat dilimi belirtilmiş olan bir yenileme işlemi, geçerli tarihi GMT (bu durumda bir sonraki gün olacaktır) değil PT olarak kabul eder.
+
+![Saat dilimi](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > Bu aralıkların tanımı tüm ihtiyaçlarınıza yanıt verebilir; bu durumda doğrudan aşağıdaki yayımlama adımına gidebilirsiniz. Ek açılır pencereler, gelişmiş özellikler içindir.
@@ -143,10 +150,6 @@ Ayın 12. takvim gününde önceki ayın verilerinin onaylandığı bir finansal
 > Hizmetteki yenileme işlemleri, UTC saatine göre çalıştırılır. Bu, geçerlilik tarihini belirleyebilir ve tam dönemleri etkiler. Yenileme işlemi için geçerlilik tarihini geçersiz kılma özelliği eklemeyi planlıyoruz.
 
 ## <a name="publish-to-the-service"></a>Hizmette yayımlama
-
-Artımlı yenileme yalnızca Premium özellik olduğundan yayımlama iletişim kutusunda yalnızca Premium kapasitede bir çalışma alanı seçilmesine izin verilir.
-
-![Hizmette yayımlama](media/service-premium-incremental-refresh/publish.png)
 
 Şimdi modeli yenileyebilirsiniz. İlk yenilemede geçmiş verilerin içeri aktarılması uzun sürebilir. Sonraki yenilemeler artımlı yenilemeyi kullandığından çok daha hızlı olabilir.
 

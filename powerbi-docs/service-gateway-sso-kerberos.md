@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000124"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558627"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI hizmetinden şirket içi veri kaynaklarına Kerberos tabanlı SSO yapılandırma
 
@@ -246,11 +246,17 @@ SAP HANA ve SAP BW, ağ geçidi aracılığıyla bu veri kaynaklarına yönelik 
 
 ## <a name="run-a-power-bi-report"></a>Bir Power BI raporunu çalıştırma
 
-Tüm yapılandırma adımları tamamlandıktan sonra, SSO için kullanacağınız veri kaynağını yapılandırmak üzere Power BI'daki **Ağ Geçidini Yönet** sayfasını kullanın. Birden fazla ağ geçidiniz varsa, Kerberos SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Daha sonra **Gelişmiş Ayarlar** altından, **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** kutusunun işaretlendiğinden emin olun.
+Tüm yapılandırma adımları tamamlandıktan sonra, SSO için kullanacağınız veri kaynağını yapılandırmak üzere Power BI'daki **Ağ Geçidini Yönet** sayfasını kullanın. Birden fazla ağ geçidiniz varsa, Kerberos SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Ardından veri kaynağının **Gelişmiş Ayarlar** bölümünde DirectQuery tabanlı raporlar için **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** veya **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğinin ve Yenileme tabanlı raporlar için **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğinin işaretlendiğinden emin olun.
 
-![Gelişmiş ayarlar seçeneği](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Gelişmiş ayarlar seçeneği](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Power BI Desktop’tan DirectQuery tabanlı bir rapor yayımlayın. Bu rapor, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısına eşlenmiş kullanıcı için erişilebilir olan verileri kullanmalıdır. Yenileme bu şekilde çalıştığı için içeri aktarma yerine DirectQuery kullanmanız gerekir. Ağ geçidi içeri aktarma tabanlı raporları yenilediğinde, veri kaynağını oluştururken **Kullanıcı Adı** ve **Parola** alanlarına girdiğiniz kimlik bilgileri kullanılır. Farklı bir deyişle, Kerberos SSO *kullanılmaz*. Birden fazla ağ geçidiniz varsa, yayımlarken SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. Power BI hizmetinde artık raporu yenileyebilir veya yayımlanan veri kümesini temel alarak yeni bir rapor oluşturabilirsiniz.
+Power BI Desktop'tan DirectQuery tabanlı bir raporu yayımlar ve **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** veya **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğinin işaretli olduğu bir veri kaynağıyla eşlerseniz bu raporda, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı tarafından erişilebilen veriler kullanılır.
+
+Benzer şekilde Power BI Desktop'tan Yenileme tabanlı bir raporu yayımlar ve **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğinin işaretli olduğu bir veri kaynağıyla eşlerseniz kimlik bilgisi sağlamanız gerekmez. Yenileme, veri kümesi sahibinin Active Directory bağlamında yürütülür.
+
+Ancak **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğinin işaretli olmadığı bir veri kaynağıyla eşlerseniz yenileme işleminde veri kaynağını oluştururken **Kullanıcı adı** ve **Parola** alanlarına girdiğiniz kimlik bilgileri kullanılır. Farklı bir deyişle, Kerberos SSO *kullanılmaz*. 
+
+ Birden fazla ağ geçidiniz varsa, yayımlarken SSO için yapılandırdığınız ağ geçidini seçtiğinizden emin olun. 
 
 Bu yapılandırma çoğu durumda çalışır. Ancak, ortamınıza bağlı olarak Kerberos ile farklı yapılandırmalar da söz konusu olabilir. Rapor yüklenmiyorsa sorunun daha ayrıntılı bir şekilde incelenmesi için etki alanı yöneticinizle iletişime geçin. Veri kaynağınız SAP BW ise, hangi SNC kitaplığını seçtiğinize bağlı olarak [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) ve [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting) için veri kaynağına özgü yapılandırma sayfalarının sorun giderme bölümlerine bakın.
 

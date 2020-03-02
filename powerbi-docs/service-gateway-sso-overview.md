@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699211"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527603"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 
-Şirket içi veri ağ geçidinizi yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle gerçek zamanlı olarak güncelleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Ağ geçidinizi [Kerberos](service-gateway-sso-kerberos.md) kısıtlanmış temsili veya Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)) ile yapılandırma seçeneğiniz vardır. Şirket içi veri ağ geçidi, şirket içi veri kaynaklarına bağlanan [DirectQuery](desktop-directquery-about.md) kullanarak SSO’yu destekler.
+Şirket içi veri ağ geçidinizi yapılandırıp Power BI raporlarının ve panoların şirket içi verilerle gerçek zamanlı olarak güncelleştirilmesini sağlayarak sorunsuz çoklu oturum açma bağlantısından yararlanabilirsiniz. Ağ geçidinizi [Kerberos](service-gateway-sso-kerberos.md) kısıtlanmış temsili veya Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)) ile yapılandırma seçeneğiniz vardır. Şirket içi veri ağ geçidi, şirket içi veri kaynaklarına bağlanan [DirectQuery](desktop-directquery-about.md) kullanarak veya Yenileme için SSO’yu destekler. 
 
 Power BI aşağıdaki veri kaynaklarını destekler:
 
@@ -33,7 +33,9 @@ Power BI aşağıdaki veri kaynaklarını destekler:
 
 Şu anda [M uzantıları](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md) için SSO desteklenmemektedir.
 
-Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında sorguların canlı olarak yürütülmesine neden olabilir. Veri kaynağı için SSO’yu yapılandırdığınızda, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her kullanıcı temel alınan veri kaynağında izinli olduğu verileri tam olarak görür. Çoklu oturum açma yapılandırıldığında, farklı kullanıcılar arasında paylaşılan bir veri önbelleği olmaz.
+Bir kullanıcı Power BI Hizmeti'ndeki bir DirectQuery raporuyla etkileşime geçtiğinde; her bir çapraz filtreleme, dilimleme, sıralama ve rapor düzenleme işlemi, temel alınan şirket içi veri kaynağında sorguların canlı olarak yürütülmesine neden olabilir. Veri kaynağı için SSO’yu yapılandırdığınızda, sorgular, Power BI ile etkileşime geçen kullanıcının kimliği altında (web deneyimi veya Power BI mobil uygulamaları aracılığıyla) yürütülür. Bu nedenle, her kullanıcı temel alınan veri kaynağında izinli olduğu verileri tam olarak görür. 
+
+Power BI hizmetinde yenileme için ayarlanmış bir raporu da SSO kullanacak şekilde yapılandırabilirsiniz. Bu veri kaynağı için SSO'yu yapılandırdığınızda sorgular Power BI içindeki veri kümesi sahibinin kimliği altında yürütülür. Bu nedenle yenileme işlemi, veri kümesi sahibinin temel alınan veri kaynağındaki izinlerine göre gerçekleşir. SSO kullanarak yenileme şu anda yalnızca [Kerberos](service-gateway-sso-kerberos.md) kısıtlanmış temsili kullanan veri kaynakları için etkinleştirilmiştir 
 
 ## <a name="query-steps-when-running-sso"></a>SSO çalıştırırken gerçekleştirilen sorgu adımları
 

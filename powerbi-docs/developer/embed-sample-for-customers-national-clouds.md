@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 9998604bf3f0211490dee87596e2a0692072807c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259684"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427289"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -54,7 +54,7 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 * Kamu Topluluk Bulutu (GCC):
 
     > [!NOTE]
-    > Kamu Topluluk Bulutu’ndaki (GCC) Power BI içeriğini yalnızca bir Office 365 SKU’su kullanarak ekleyebilirsiniz. Diğer ulusal bulut müşterileri [Office 365’i veya Azure SKU](embedded-capacity.md)’larını kullanabilir.
+    > Kamu Topluluk Bulutu'ndaki (GCC) Power BI içeriğini yalnızca bir Office 365 SKU’su kullanarak ekleyebilirsiniz. Diğer ulusal bulut müşterileri [Office 365’i veya Azure SKU](embedded-faq.md)’larını kullanabilir.
 
 1. GCCCloud.config içeriğiyle Cloud.config dosyasının üzerine yazın.
 

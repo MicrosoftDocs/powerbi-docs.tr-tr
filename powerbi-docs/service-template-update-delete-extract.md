@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871375"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497175"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 
@@ -36,15 +36,21 @@ Power BI Desktop’ta değişiklikler yaptıysanız (1). adımdan başlayın. Po
 
    Şimdi iki sürümünüz olduğunu görürsünüz: üretimdeki sürüm ve test aşamasındaki yeni sürüm.
 
-    ![Şablon uygulamasının iki sürümü](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![Şablon uygulamasının iki sürümü](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. Uygulamanızı kiracınızın dışında test etmek amacıyla üretim öncesi aşamaya yükseltmek için, Sürüm Yönetimi bölmesine dönün ve **Test**’in yanındaki **Uygulamayı yükselt**’i seçin.
-6. Bağlantınız artık canlıdır. [Power BI Uygulama teklifi güncelleştirmesi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantıyı yeniden Bulut İş Ortağı Portalı'na (CPP) gönderin.
-7. Bulut İş Ortağı Portalı’nda teklifinizi tekrar **yayımlamanız** ve yeniden doğrulamanız gerekir.
+1. Uygulamanızı kiracınızın dışında test etmek amacıyla üretim öncesi aşamaya yükseltmek için, Sürüm Yönetimi bölmesine dönün ve **Test**’in yanındaki **Uygulamayı yükselt**’i seçin.
 
-   >[!NOTE]
-   >Uygulamanızı üretim aşamasına yükseltmek için uygulamanın Bulut İş Ortağı Portalı tarafından onaylanmasını ve uygulamayı yayımlamayı bekleyin.
+   Artık biri üretim, biri de üretim öncesi olmak üzere iki sürüme sahipsiniz.
 
+   ![Şablon uygulamasının iki sürümü, yükselt seçeneği gri renkte](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   Bağlantınız artık canlıdır. **Üretim öncesi aşamada Uygulamayı yükselt düğmesinin gri olduğuna dikkat edin**. Bunun amacı, Bulut İş Ortağı Portalı yeni uygulama sürümünü doğrulayıp onaylamadan önce geçerli uygulama sürümünün canlı üretim bağlantısının yanlışlıkla üzerine yazmasını engellemektir.
+
+1. [Power BI Uygulama teklifi güncelleştirmesi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantınızı yeniden Bulut İş Ortağı Portalı'na (CPP) gönderin. Bulut İş Ortağı Portalı’nda teklifinizi tekrar **yayımlamanız** ve doğrulatıp onaylatmanız gerekir.
+
+   Teklifiniz onaylandığında Uygulamayı yükselt düğmesi yeniden etkin olur. 
+1. Uygulamanızı üretim aşamasına yükseltin.
+   
 ### <a name="update-behavior"></a>Güncelleştirme davranışı
 
 1. Uygulamanın güncelleştirilmesi, şablon uygulaması yükleyicisinin bağlantı yapılandırmasını kaybetmeden zaten yüklü olan çalışma alanında [Şablon uygulamasını güncelleştirmesine](service-template-apps-install-distribute.md#update-a-template-app) olanak tanır.

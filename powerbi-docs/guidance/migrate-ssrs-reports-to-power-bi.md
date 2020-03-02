@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889248"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527304"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme
 
@@ -41,16 +41,16 @@ Raporlarınızı Power BI'a geçirmeye hazırlanırken yapmanız gereken ilk şe
 
 ### <a name="supported-versions"></a>Desteklenen sürümler
 
-Şirket içinde veya Azure gibi bulut sağlayıcılarda barındırılan Sanal Makineler üzerinde çalışan SSRS örneklerini geçirebilirsiniz. 
+Şirket içinde veya Azure gibi bulut sağlayıcılarda barındırılan Sanal Makineler üzerinde çalışan SSRS örneklerini geçirebilirsiniz.
 
 Aşağıdaki listede Power BI'a geçiş için desteklenen SQL Server sürümleri yer almaktadır:
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 Power BI Rapor Sunucusu'ndan da geçiş yapabilirsiniz.
 
@@ -60,11 +60,11 @@ Raporlarınızı hazırlama ve geçirme aşamalarında [RDL Migration Tool](http
 
 Araç şu görevleri otomatikleştirir:
 
-* [Desteklenmeyen veri kaynaklarını](../paginated-reports-data-sources.md) ve [desteklenmeyen rapor özelliklerini](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) denetler
-* _Paylaşılan_ kaynakları _katıştırılmış_ kaynaklara dönüştürür:
-  * Paylaşılan **veri kaynakları**, katıştırılmış veri kaynakları olur
-  * Paylaşılan **veri kümeleri**, katıştırılmış veri kümeleri olur
-* Raporları (denetimleri geçenleri), belirtilen Power BI çalışma alanında (Premium kapasitede) sayfalandırılmış raporlar olarak yayımlar.
+- [Desteklenmeyen veri kaynaklarını](../paginated-reports-data-sources.md) ve [desteklenmeyen rapor özelliklerini](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) denetler
+- _Paylaşılan_ kaynakları _katıştırılmış_ kaynaklara dönüştürür:
+  - Paylaşılan **veri kaynakları**, katıştırılmış veri kaynakları olur
+  - Paylaşılan **veri kümeleri**, katıştırılmış veri kümeleri olur
+- Raporları (denetimleri geçenleri), belirtilen Power BI çalışma alanında (Premium kapasitede) sayfalandırılmış raporlar olarak yayımlar.
 
 Mevcut raporlarınızı değiştirmez veya kaldırmaz. Araç, işlemleri tamamladıktan sonra gerçekleştirilen tüm eylemlerin (başarılı ve başarısız) yer aldığı bir özet oluşturur.
 
@@ -92,13 +92,13 @@ SSRS sunucularınızdan Power BI'a yalnızca RDL raporlar geçirilebilir. Geçir
 
 Ancak aşağıdaki SSRS öğeleri Power BI'a geçirilemez:
 
-* Paylaşılan veri kaynakları <sup>1</sup>
-* Paylaşılan veri kümeleri <sup>1</sup>
-* Görüntü dosyaları gibi kaynaklar
-* KPI'ler (SSRS 2016 veya üzeri - yalnızca Enterprise Edition)
-* Mobil raporlar (SSRS 2016 veya üzeri - yalnızca Enterprise Edition)
-* Rapor modelleri (kullanım dışı)
-* Rapor bölümleri (kullanım dışı)
+- Paylaşılan veri kaynakları <sup>1</sup>
+- Paylaşılan veri kümeleri <sup>1</sup>
+- Görüntü dosyaları gibi kaynaklar
+- KPI'ler (SSRS 2016 veya üzeri - yalnızca Enterprise Edition)
+- Mobil raporlar (SSRS 2016 veya üzeri - yalnızca Enterprise Edition)
+- Rapor modelleri (kullanım dışı)
+- Rapor bölümleri (kullanım dışı)
 
 <sup>1</sup> [RDL Migration Tool](https://github.com/microsoft/RdlMigration), desteklenen veri kaynaklarını kullanan paylaşılan veri kaynaklarını ve paylaşılan veri kümelerini otomatik olarak dönüştürür.
 
@@ -120,6 +120,7 @@ _Hazırlama_ bölümünün amacı, tüm bileşenleri hazır hale getirmektir. Bu
 1. [Power BI Desktop](../desktop-what-is-desktop.md)'ı kullanarak mobil cihazlar için iyileştirilmiş raporlar geliştirin ve mümkünse SSRS mobil raporlarınızın ve KPI'lerin yerine [Power KPI özel görseli](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) kullanın.
 1. Raporlarınızda **UserID** yerleşik alanının kullanımını yeniden değerlendirin. Rapor verilerinin güvenliği için **UserID** alanına güveniyorsanız, sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) bu alanın Kullanıcı Asıl Adını (UPN) döndürdüğünü anlamalısınız. Dolayısıyla yerleşik alan NT hesap adını (örneğin _AW\mblythe_) döndürmek yerine _m.blythe&commat;adventureworks.com_ gibi bir ad döndürür. Veri kümesi tanımlarınızı ve bir olasılıkla kaynak verilerinizi düzeltmeniz gerekir. Düzeltilip yayımlandıktan sonra, veri izinlerinin beklendiği gibi çalıştığından emin olmak için raporlarınızı kapsamlı bir şekilde test etmenizi öneririz.
 1. Raporlarınızda **ExecutionTime** yerleşik alanının kullanımını yeniden değerlendirin. Sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) yerleşik alan _Eşgüdümlü Evrensel Saat (veya UTC)_ olarak tarih/saat değerini döndürür. Bu, rapor parametresi varsayılan değerlerini ve rapor yürütme süresi etiketlerini (normalde rapor alt bilgilerine eklenen etiketler) etkileyebilir.
+1. Veri kaynağınız SQL Server (şirket içi) ise raporlarda harita görselleştirmeleri kullanılmadığından emin olun. Harita görselleştirmesi, SQL Server uzamsal veri türlerini kullanır ve bu türler ağ geçidi tarafından desteklenmez. Daha fazla bilgi için bkz. [Sayfalandırılmış raporlar için veri alma kılavuzu (SQL Server karmaşık veri türleri)](report-paginated-data-retrieval.md#sql-server-complex-data-types).
 1. Rapor yazarlarınızın [Power BI Report Builder](../report-builder-power-bi.md) uygulamasını yüklediğinden ve yeni sürümlerin kuruluşunuzda kolayca dağıtılabileceğinden emin olun.
 
 ## <a name="migration-stage"></a>Geçiş aşaması
@@ -146,8 +147,8 @@ SSRS örneğine ve Power BI çalışma alanına erişim izni olan herkes raporla
 
 Otomatik geçiş için iki seçenek vardır. Şunu kullanabilirsiniz:
 
-* RDL Migration Tool
-* SSRS ve Power BI için genel kullanıma açık API'ler
+- RDL Migration Tool
+- SSRS ve Power BI için genel kullanıma açık API'ler
 
 [RDL Migration Tool](#migration-tool) bu makalenin önceki bölümlerinde açıklanmıştır.
 
@@ -155,8 +156,8 @@ Dilerseniz genel kullanıma açık SSRS ve Power BI API'lerini kullanarak da iç
 
 API'ler hakkında daha fazla bilgi için bkz.
 
-* [Power BI Rest API Başvurusu](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API'leri](/sql/reporting-services/developer/rest-api)
+- [Power BI Rest API Başvurusu](../developer/rest-api-reference.md)
+- [SQL Server Reporting Services REST API'leri](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>Geçiş sonrası aşama
 
@@ -182,20 +183,21 @@ Geçiş sonrası aşama, sorunların giderilmesi ve performans ile ilgili duruml
 
 Anlama ve çözme adımları dahil olmak üzere bu sorunlar hakkında daha fazla bilgi için şu makalelere bakın:
 
-* [Premium kapasiteleri iyileştirme](../service-premium-capacity-optimize.md)
-* [Uygulama içinden Premium kapasiteleri izleme](../service-admin-premium-monitor-capacity.md)
+- [Premium kapasiteleri iyileştirme](../service-premium-capacity-optimize.md)
+- [Uygulama içinden Premium kapasiteleri izleme](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-* [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
-* Guy in a cube videosu: [Power BI’daki sayfalandırılmış raporlara giriş](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md)
-* [Power BI’daki sayfalandırılmış raporlar: SSS](../paginated-reports-faq.md)
-* [Power BI Premium hakkında SSS](../service-premium-faq.md)
-* [RDL Migration Tool](https://github.com/microsoft/RdlMigration)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-* Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
+- [Sayfalandırılmış raporlar için veri alma kılavuzu](report-paginated-data-retrieval.md)
+- Guy in a cube videosu: [Power BI’daki sayfalandırılmış raporlara giriş](https://www.youtube.com/watch?v=wfqn45XNK3M)
+- [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md)
+- [Power BI’daki sayfalandırılmış raporlar: SSS](../paginated-reports-faq.md)
+- [Power BI Premium hakkında SSS](../service-premium-faq.md)
+- [RDL Migration Tool](https://github.com/microsoft/RdlMigration)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
 
 Power BI iş ortakları, kuruluşunuzun geçiş sürecini başarılı bir şekilde atlatmasına yardımcı olabilir. Bir Power BI iş ortağından yardım almak için [Power BI iş ortağı portalını](https://powerbi.microsoft.com/partners/) ziyaret edin.

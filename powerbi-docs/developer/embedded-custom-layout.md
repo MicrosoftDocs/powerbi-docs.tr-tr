@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: 7776de3cf6704e51cbed85bf8c772b6391531403
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c9827970600b4a4b84e422a3761b5b9a349c9e51
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264470"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609711"
 ---
 # <a name="custom-layouts"></a>Özel düzenler
 
@@ -25,8 +25,8 @@ ms.locfileid: "74264470"
 var embedConfig = {
     ...
     settings: {
-            layoutType: models.LayoutType.Custom
-    customLayout: {...}
+            layoutType: models.LayoutType.Custom,
+            customLayout: {...}
     }
 };
 ```
@@ -61,9 +61,9 @@ enum DisplayOption {
 }
 ```
 
-- `pageSize`: Tuval alanı boyutunu (rapordaki beyaz alanı) denetlemek için sayfa boyutunu kullanın.
-- `displayOptions`: Olası değerler şunlardır: FitToWidth, FitToPage veya ActualSize. Tuvalin iframe içine sığması için nasıl ölçeklendirileceğini denetler.
-- `pagesLayout`: Her görselin düzenini denetler. Daha fazla ayrıntı için bkz. PagesLayout.
+- `pageSize` Tuval alanı boyutunu (rapordaki beyaz alanı) denetlemek için sayfa boyutunu kullanın.
+- `displayOptions` Olası değerler şunlardır: FitToWidth, FitToPage veya ActualSize. Tuvalin iframe içine sığması için nasıl ölçeklendirileceğini denetler.
+- `pagesLayout` Her görselin düzenini denetler. Daha fazla ayrıntı için bkz. PagesLayout.
 
 ## <a name="pages-layout"></a>Sayfa düzeni
 
@@ -108,9 +108,9 @@ enum VisualContainerDisplayMode {
 }
 ```
 
-- `x,y,z`: Görselin yeni konumunu tanımlar.
+- `x,y,z` Görselin yeni konumunu tanımlar.
 - `width`, yükseklik: Görselin yeni boyutunu tanımlar.
-- `displayState`: Görselin görünürlüğünü tanımlar.
+- `displayState` Görselin görünürlüğünü tanımlar.
 
 ## <a name="update-layout"></a>Düzeni güncelleştirme
 
@@ -129,12 +129,13 @@ var embedConfiguration = {
     tokenType: models.TokenType.Embed,
     accessToken: 'H4...rf',
     settings: {
-            layoutType: models.LayoutType.Custom
-        customLayout: {
-            pageSize: {
-                type: models.PageSizeType.Custom,
-                width: 1600,
-                height: 1200
+            layoutType: models.LayoutType.Custom,
+            customLayout: {
+                pageSize: {
+                    type: models.PageSizeType.Custom,
+                    width: 1600,
+                    height: 1200
+                }
             },
             displayOption: models.DisplayOption.ActualSize,
             pagesLayout: {

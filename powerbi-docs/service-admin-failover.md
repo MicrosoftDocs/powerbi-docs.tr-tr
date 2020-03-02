@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699073"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527350"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -53,7 +53,10 @@ Power BI destek sayfasına bildirim gönderilir ([https://powerbi.microsoft.com/
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI’ın yük devretmesi ne kadar sürer?
 
-Yük devretme kararı alındıktan sonra yük devretme örneğinin kullanılabilir duruma gelmesi 60 dakika kadar sürebilir.
+Yük devretme işleminin gerçekleştirilmesi gerektiği belirlendikten sonra Power BI'ın yeniden çalışmaya başlaması yaklaşık olarak 15 dakika sürer. Yük devretmenin gerekli olduğunu belirlemek için harcanan zaman bozuk senaryoya bağlı olarak değişir. 
+
+Yük devretme kararı verildikten sonra Power BI, yük devretmeyi gerçekleştirmek için Azure Depolama coğrafi çoğaltmayı kullanır. Bu tür çoğaltma işlemleri genellikle 15 dakikalık bir dönüş noktasına sahiptir ancak [Azure Depolama bu zaman dilimini bir SLA ile garanti etmez](https://docs.microsoft.com/azure/storage/common/storage-redundancy) ve bu nedenle Power BI da bir zaman dilimini garanti edemez. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Power BI örneğim ne zaman özgün bölgesine döner?
 
