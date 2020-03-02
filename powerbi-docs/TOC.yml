@@ -655,8 +655,6 @@
               href: service-export-to-pbix.md
             - name: SAP değişkenlerini düzenleme
               href: service-edit-sap-variables.md
-            - name: Hızlı ve güvenilir raporlar oluşturmaya yönelik en iyi yöntemler
-              href: power-bi-reports-performance.md
         - name: Verileriniz hakkında soru sorma
           items:
             - name: Verilerinizi keşfetmek için Soru-Cevap kullanma
