@@ -24,7 +24,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
-Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir portaldır. Genel bakış sunar ve işletmenin geçerli durumunun takip edilebileceği bir merkezdir. Raporlar, verilerinizin etkileşimli görünümleridir ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. 
+Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir portaldır. Genel bakış sunar ve işletmenin geçerli durumunun takip edilebileceği bir merkezdir. Raporlar, verilerinizin etkileşimli görünümleridir ve verilerinize dayalı farklı bulguları ve içgörüleri temsil eden görseller içerir. 
 
 ![Yatay modda rapor](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
