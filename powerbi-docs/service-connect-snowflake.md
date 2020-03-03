@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429361"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576853"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI hizmetinde Snowflake'e bağlanma
 
@@ -49,7 +49,7 @@ Power BI'ın çalışma şekli nedeniyle SSO yalnızca şirket içi veri ağ ge�
 
 * Veri modelinizde yalnızca bir Snowflake kaynağı kullanıyorsanız, şirket içi veri ağ geçidini kullanmama şartıyla SSO özelliğini kullanabilirsiniz
 * Veri modelinizde başka bir kaynağa ek olarak bir Snowflake kaynağı kullanıyorsanız, bu kaynakların hiçbirinin şirket içi veri ağ geçidini kullanmaması şartıyla SSO özelliğini kullanabilirsiniz
-* Snowflake kaynağını şirket içi veri ağ geçidi aracılığıyla kullanıyorsanız, AAD kimlik bilgilerini kullanabilirsiniz ancak SSO özelliğini kullanamazsınız. Bu durum bir sanal ağa Power BI IP aralığının tamamından değil ağ geçidi yüklü olan tek bir IP adresinden erişmeye çalıştığınız durumlarda geçerli olabilir.
+* Şirket içi veri ağ geçidi üzerinden Snowflake kaynağı kullanılan durumlar için şu anda AAD kimlik bilgileri desteklenmez. Bu durum bir sanal ağa Power BI IP aralığının tamamından değil ağ geçidi yüklü olan tek bir IP adresinden erişmeye çalıştığınız durumlarda geçerli olabilir.
 * Snowflake kaynağını ağ geçidine ihtiyaç duyan başka bir kaynakla birlikte kullanıyorsanız Snowflake'i de şirket içi veri ağ geçidinden kullanmanız gerekir ve SSO kullanamazsınız.
 
 Şirket içi veri ağ geçidini kullanma hakkında daha fazla bilgi için [Şirket içi veri ağ geçidi nedir?](https://docs.microsoft.com/power-bi/service-gateway-onprem) makalesine bakın.
