@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Rapor sayfası detaylandırmayı kullanma
               href: report-drillthrough.md
+            - name: Eksenleri yönetme ipuçları
+              href: report-design-tips-axes.md
+            - name: Grafik kılavuz çizgilerini denetleme ipuçları
+              href: report-tips-chart-gridlines.md
+            - name: Etiketlerin kullanımını iyileştirme ipuçları
+              href: report-tips-labels.md
+            - name: Göstergeleri biçimlendirme ve uygulama ipuçları
+              href: report-tips-legends.md
+            - name: Görsel renkleri iyileştirme ipuçları
+              href: report-tips-visual-colors.md
         - name: Power BI sayfalandırılmış raporlar
           items:
             - name: Sayfalandırılmış raporları kullanma zamanı
