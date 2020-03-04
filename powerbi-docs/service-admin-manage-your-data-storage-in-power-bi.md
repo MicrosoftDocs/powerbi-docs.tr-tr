@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: f5bf1b55c2e092dc755da9f391c83ce3c42661b2
+ms.sourcegitcommit: 30ed21cca2125001f2f992dc6c5f546f4956631c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709896"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77652531"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
 
@@ -28,8 +28,8 @@ Hem Çalışma Alanım hem de bir uygulamanın çalışma alanı için çalışm
 ### <a name="shared-capacity-limits"></a>Paylaşılan kapasite sınırları
 Paylaşılan kapasitedeki çalışma alanları için: 
 
-- Çalışma alanı depolaması başına 10 GB sınırı vardır.
-- Uygulama çalışma alanları için, toplam kullanım 10 GB ile kiracıdaki Pro lisansları sayısının çarpımını aşamaz.
+- Çalışma alanı depolaması başına 100 GB sınırı vardır.
+- Uygulama çalışma alanları için, toplam kullanım kiracının 10 GB’lık depolama sınırı ile kiracıdaki Pro lisansları sayısının çarpımını aşamaz.
 
 ### <a name="premium-capacity-limits"></a>Premium kapasite sınırları
 Premium kapasitedeki çalışma alanları için:

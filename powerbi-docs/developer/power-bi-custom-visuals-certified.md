@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026681"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782421"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -43,11 +43,13 @@ Power BI görselini gönderirken derlenen paketin gönderilen paketle tam olarak
 
 Kodunuzu GitHub’da herkese açık bir şekilde paylaşmanız gerekmese de, kod deposunun Power BI ekibinin gözden geçirmesine açık olması gerekir. Bunu yapmanın en iyi yolu GitHub’da kaynak kodu (JavaScript veya TypeScript) sağlamaktır.
 
-Depoda tek bir Power BI görselinin kodu yer almalıdır. Birden çok Power BI görselinin kodunu veya ilişkisiz bir kod içeremez.
-
-Depoda **certification** (küçük harf gereklidir) adlı bir dalın bulunması gerekir. Bu daldaki kaynak kodun gönderilen paketle eşleşmesi gerekir. Power BI görselinizi yeniden gönderiyorsanız, bu kod ancak sonraki gönderim işlemi sırasında güncelleştirilebilir.
+Depo aşağıdakileri içermelidir:
+* Tek bir Power BI görselinin kodu. Birden çok Power BI görselinin kodunu veya ilişkisiz bir kod içeremez.
+* **certification** (küçük harf gereklidir) adlı bir dal. Bu daldaki kaynak kodun gönderilen paketle eşleşmesi gerekir. Power BI görselinizi yeniden gönderiyorsanız, bu kod ancak sonraki gönderim işlemi sırasında güncelleştirilebilir.
 
 Power BI görseliniz özel npm paketleri veya git alt modülleri içeriyorsa, bu kodu içeren ek depolara erişim sağlamanız gerekir.
+
+Power BI görsel deposunun nasıl göründüğünü anlamak için [Power BI görselleri örnek çubuk grafiği](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi) için GitHub deposunu gözden geçirin.
 
 ### <a name="file-requirements"></a>Dosya gereksinimleri
 
@@ -113,6 +115,18 @@ Power BI sertifikasyonu istemek için:
 
 >[!NOTE]
 > Power BI görseli gönderim işleminin ortasındaysanız ve [Satıcı Panosu](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)'nu (eski yönetim aracı) kullanmanız gerekirse, [Satıcı Panosu sertifikasyon gönderim işlemi](seller-dashboard.md#seller-dashboard-certification-submission-process) yönergelerini gözden geçirin.
+
+### <a name="private-repository-submission-process"></a>Özel depo gönderim işlemi
+
+Power BI görselinizi sertifikasyona göndermek için GitHub gibi bir özel depo kullanıyorsanız bu bölümdeki yönergeleri izleyin.
+1. Doğrulama ekibi için yeni bir hesap oluşturun.
+2. Hesabınızda [iki faktörlü kimlik doğrulamasını](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa) yapılandırın.
+3. [Yeni bir kurtarma kodları kümesi oluşturun](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Power BI görselinizi gönderirken aşağıdakileri sağlayın:
+    * Deponun bağlantısı
+    * Oturum açma kimlik bilgileri (parola dahil)
+    * Kurtarma kodları
+    * Hesabımıza salt okuma izinleri ([pbicvsupport](https://github.com/pbicvsupport))
 
 ## <a name="certified-power-bi-visuals"></a>Sertifikalı Power BI görselleri
 

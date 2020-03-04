@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2020
+ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076711"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609930"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -118,7 +118,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Raporları güncelleştirme ve veri yenileme
 
-**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi yaklaşık bir saat kadar sürebilir. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
+**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi iki veya üç saat sürebilir. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
 
 ## <a name="data-refresh"></a>Veri yenileme
 

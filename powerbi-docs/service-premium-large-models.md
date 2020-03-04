@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223723"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609915"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 
-Power BI veri kümeleri, sorgu performansını iyileştirmek için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Bu sayede kullanıcılar, büyük veri kümeleriyle hızlı etkileşim kurabilirler. Büyük modeller özelliği, Power BI Premium'daki veri kümelerinin 10 GB'ın üzerine çıkmasını sağlar. Veri kümesinin boyutu ise Power BI Premium kapasitesinin boyutuyla sınırlıdır. Bu, Azure Analysis Services'ın model boyutu sınırlamalarına benzer. Power BI Premium'daki kapasite boyutları hakkında daha fazla bilgi için Kapasite düğümlerini inceleyin. Büyük modelleri tüm Premium P SKU'ları ve Embedded A SKU'ları için ayarlayabilirsiniz ancak bu modeller yalnızca [yeni çalışma alanlarıyla](service-create-the-new-workspaces.md) çalışır.
+Power BI veri kümeleri, sorgu performansını iyileştirerek büyük veri kümeleri üzerinde daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Büyük modeller özelliği, Power BI Premium'daki veri kümelerinin 10 GB'ın üzerine çıkmasını sağlar. Buna karşılık veri kümesinin boyutu Power BI Premium kapasitenin boyutuyla sınırlıdır. Bu durum Azure Analysis Services’in model boyutu sınırlamaları açısından çalışmasına benzer. Power BI Premium'daki kapasite boyutları hakkında daha fazla bilgi için Kapasite düğümlerini inceleyin. Büyük modelleri tüm Premium P SKU'ları ve Embedded A SKU'ları için ayarlayabilirsiniz ancak bu modeller yalnızca [yeni çalışma alanlarıyla](service-create-the-new-workspaces.md) çalışır.
 
 Büyük modeller, PBIX yükleme boyutunu etkilemez ve bu boyut yine 10 GB ile sınırlı olur. Bunun yerine veri kümeleri yenilendiğinde hizmette 10 GB'ı aşar. Bir veri kümesini 10 GB'ın üzerine çıkacak şekilde yapılandırmak için artımlı yenileme özelliğini kullanabilirsiniz.
 
@@ -30,7 +30,7 @@ Büyük modeller, PBIX yükleme boyutunu etkilemez ve bu boyut yine 10 GB ile s�
 
 1. Veri kümesini Power BI Premium hizmetinde yayımlayın.
 
-1. Aşağıdaki PowerShell cmdlet'lerini çalıştırarak veri kümesinde büyük modelleri etkinleştirin. Bu cmdlet'ler, Power BI'ın veri kümesini Azure Premium Dosyalar üzerinde depolamasını ve 10 GB sınırını uygulamamasını sağlar.
+1. Aşağıdaki PowerShell cmdlet'lerini çalıştırarak veri kümesinde büyük modelleri etkinleştirin. Bu cmdlet’ler Power BI’ın veri kümesini Azure Premium Dosyalar’da depolamasına ve 10 GB’lık sınırı zorunlu tutmamasına neden olur.
 
 1. Geçmiş verileri artımlı yenileme ilkesine göre yüklemek için yenileme gerçekleştirin. İlk yenileme işleminin geçmiş verileri yüklemesi uzun sürebilir. Sonraki yenileme işlemleri artımlı olacağından daha hızlı tamamlanacaktır.
 
@@ -90,7 +90,7 @@ Veri kümelerini Premium Dosyalara dönüştürme durumunu [Get-PowerBIWorkspace
 
 Power BI, bellekteki etkin olmayan veri kümelerini çıkarmak için dinamik bellek yönetimi özelliğini kullanır. Power BI, kullanıcı sorgularını karşılama amacıyla farklı veri kümelerini yükleyebilmek için kullanılmayan veri kümelerini çıkarır. Dinamik bellek yönetimi, veri kümesi boyutlarının kapasitedeki kullanılabilir bellekten çok daha büyük olmasına izin verir ancak bunun için tek bir veri kümesinin belleğe sığacak boyutta olması gerekir. Dinamik bellek yönetimi hakkında daha fazla bilgi için bkz. [Kapasiteler nasıl çalışır?](service-premium-what-is.md#how-capacities-function)
 
-Büyük modellerde çıkarmanın etkisini göz önünde bulundurmanız gerekir. Veri kümesi yükleme süreleri kısa olsa da çıkarılan büyük veri kümelerinin yeniden yüklenmesi, kullanıcılar için önemli bir gecikme süresi yaratabilir. Bu nedenle büyük modeller özelliği mevcut halinde self servis BI gereksinimlerinden çok kurumsal BI gereksinimlerine ayrılmış olan kapasiteler için önerilir. Kurumsal BI gereksinimlerine ayrılmış olan kapasitelerde veri kümesi çıkarma ve yeniden yükleme gereksinimi daha az olacaktır. Diğer yandan self servis BI ortamlarında belleğe girip çıkan çok sayıda küçük veri kümesi bulunabilir.
+Büyük modellerde çıkarmanın etkisini göz önünde bulundurmanız gerekir. Veri kümesi yükleme süreleri kısa olsa da çıkarılan büyük veri kümelerinin yeniden yüklenmesi, kullanıcılar için önemli bir gecikme süresi yaratabilir. Bu nedenle büyük modeller özelliği mevcut halinde self servis BI gereksinimleriyle karma kapasitelerden çok kurumsal BI gereksinimlerine ayrılmış olan kapasiteler için önerilir. Kurumsal BI gereksinimlerine ayrılmış olan kapasitelerde veri kümesi çıkarma ve yeniden yükleme gereksinimi daha az olacaktır. Diğer yandan self servis BI ortamlarında belleğe girip çıkan çok sayıda küçük veri kümesi bulunabilir.
 
 ## <a name="checking-dataset-size"></a>Veri kümesi boyutunu denetleme
 
@@ -110,12 +110,54 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>Geçerli özellik kısıtlamaları
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
 
-- **Kendi anahtarını getir (KAG) şifrelemesi** : Premium Dosyaların etkinleştirildiği veri kümeleri [KAG](service-encryption-byok.md) ile şifrelenmez.
+- **Kendi anahtarını getir (KAG) şifrelemesi**: Premium Dosyaların etkinleştirildiği veri kümeleri [KAG](service-encryption-byok.md) ile şifrelenmez.
 - **Multi-geo desteği**: Premium Dosyaların etkinleştirildiği veri kümeleri, [multi-geo](service-admin-premium-multi-geo.md) özelliğinin de etkin olduğu kapasitelerde hata verecektir.
 
 - **Power BI Desktop'a indirme**: Premium Dosyalarda depolanan veri kümeleri için [.pbix olarak indirme](service-export-to-pbix.md) işlemi başarısız olur.
-- **Desteklenen bölgeler**: Büyük modeller Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için bkz. [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage).
+- **Desteklenen bölgeler**: Büyük modeller Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage) konusuna bakın ve aşağıdaki bölümde verilen tabloya başvurun.
+
+
+## <a name="availability-in-regions"></a>Bölgelerdeki kullanılabilirlik
+
+Büyük modeller Power BI’ın sunulduğu tüm bölgelerde kullanılabilir olmayabilir. Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)’nı destekleyen Azure bölgelerinde kullanılabilir.
+
+Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölgeler listelenir. Aşağıdaki listede yer almayan bölgeler, büyük modeller için desteklenmez:
+
+
+|Azure bölgesi  |Azure bölgesi kısaltması  |
+|---------|---------|
+|Doğu Avustralya     | australiaeast        |
+|Güneydoğu Avustralya     | australiasoutheast        |
+|Orta ABD     | centralus        |
+|Doğu Asya     | eastasia        |
+|Doğu ABD     | eastus        |
+|Doğu ABD 2     | eastus2        |
+|Doğu Japonya     | japaneast        |
+|Batı Japonya     | japanwest        |
+|Güney Kore - Orta     | koreacentral        |
+|Güney Kore - Güney     | koreasouth        |
+|Orta Kuzey ABD     | northcentralus        |
+|Kuzey Avrupa     | northeurope        |
+|Orta Güney ABD     | southcentralus        |
+|Güneydoğu Asya     | southeastasia        |
+|Güney Birleşik Krallık     | uksouth        |
+|Batı Birleşik Krallık     | ukwest        |
+|Batı Avrupa     | westeurope        |
+|Batı ABD     | westus        |
+|Batı ABD 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Aşağıdaki bağlantılarda, büyük modellerle çalışırken yararlı olabilecek bilgiler sağlanır:
+
+* [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Power BI Premium için Multi-Geo desteğini yapılandırma](service-admin-premium-multi-geo.md)
+* [Power BI için kendi anahtarını getir şifrelemesi](service-encryption-byok.md)
+* [Kapasiteler nasıl çalışır?](service-premium-what-is.md#how-capacities-function)
+* [Artımlı yenileme](service-premium-incremental-refresh.md).

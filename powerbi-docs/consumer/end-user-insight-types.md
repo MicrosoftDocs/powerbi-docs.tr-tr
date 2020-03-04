@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537933"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576771"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -55,7 +55,7 @@ Birden çok ölçünün, veri kümesindeki bir kategori veya değer için çizil
 ![Bağıntı örneği](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>Düşük Varyans
-Veri noktalarının ortalamaya yakın olduğu durumları algılar.
+Bir boyut için veri noktalarının orta değerden uzak olmadığı, dolayısıyla "varyansın" düşük olduğu durumları algılar. "Satış" ölçünüzün ve "bölge" boyutunuzun olduğunu varsayalım. Bölge geneline baktığınızda veri noktalarıyla orta değer (veri noktalarının orta değeri) arasında çok az fark olduğunu görüyorsunuz. Tüm bölgelerdeki satışların varyansı eşiğin altında olduğunda içgörü tekikleniyor. Diğer bir deyişle tüm bölgelerde satışlar birbirine oldukça yakın olduğunda tetikleniyor.
 
 ![Düşük Varyans örneği](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +75,9 @@ Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi döne
 ![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Düzenli paylaşım
-Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular.
+Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin “kuzeydoğu bölgesi”) bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
+
+Düzenli paylaşım içgörüsü düşük varyans içgörüsüne benzer, çünkü her ikisi de zaman içinde bir değerin varyansının eksik olmasıyla ilgilidir. Öte yandan, düzenli paylaşım içgörüsü zaman içinde **genel yüzdenin** varyansının eksikliğini ölçerken, düşük varyans içgörüsü boyut genelinde mutlak ölçü değerlerinin varyansının eksikliğini ölçer.
 
 ![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

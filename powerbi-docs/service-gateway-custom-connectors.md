@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 78ac4f3280125fb522661a63f679981b3cda34e3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699486"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609872"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 
@@ -46,6 +46,7 @@ Bu seçenek etkinleştirildiğinde, özel bağlayıcılarınızı bu ağ geçidi
 
 * Oluşturduğunuz klasöre arka plan ağ geçidi hizmeti tarafından erişilebildiğinden emin olun. Genellikle kullanıcınızın Windows klasörü veya sistem klasörleri içindeki klasörler erişilebilir durumda olmayacaktır. Klasör erişilebilir değilse şirket içi veri ağ geçidi uygulaması bir ileti gösterir. Bu yönerge, şirket içi veri ağ geçidi (kişisel mod) için geçerli değildir.
 * Özel bağlayıcıların şirket içi veri ağ geçidi ile çalışabilmesi için özel bağlayıcı kodunda “TestConnection” bölümü oluşturulması gerekir. Power BI Desktop ile özel bağlayıcılar kullanıldığında bu kısım gerekli olmaz. Bu nedenle, Power BI Desktop ile çalışan ancak ağ geçidi ile çalışmayan bir bağlayıcınız olabilir. TestConnection bölümü uygulama hakkında daha fazla bilgi için lütfen [bu belgeye](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) bakın.
+* Ağ geçitleri üzerinden özel bağlayıcılar için OAuth şu anda yalnızca ağ geçidi yöneticileri için desteklenir; diğer veri kaynağı kullanıcıları için desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

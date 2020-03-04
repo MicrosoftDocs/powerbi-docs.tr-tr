@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026727"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782445"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -165,6 +165,10 @@ Belirtilen regex desenine uyan tüm URL’ler için üst bilgi değerleri ayarla
 #### <a name="transparent-database-encryption"></a>Saydam Veritabanı Şifrelemesi
 
 Power BI Rapor Sunucusu artık Enterprise ve Standard sürümleri için Reporting Services Sunucusu katalog veritabanında Saydam Veritabanı Şifrelemesi’ni destekliyor.
+
+#### <a name="power-bi-visuals-api"></a>Power BI görselleri API’si
+
+Bu sürümle gönderilen API sürümü 2.6’dır.
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft Rapor Oluşturucusu güncelleştirmesi
 
@@ -446,34 +450,34 @@ Mart 2018 yayınında, Power BI Rapor Sunucusu için en iyi duruma getirilmiş P
 
 Yeni özelliklerin uzun listesinde öne çıkan ilginç özellikler şunlardır.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Tablo ve matris için kural tabanlı koşullu biçimlendirme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[Tablo ve matris için kural tabanlı koşullu biçimlendirme](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 Tablo veya matrisinizdeki özel iş mantığına dayalı bir sütunun yazı tipi rengini veya arka planı koşullu olarak renklendirmek için kurallar oluşturun.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Sayfaları gösterme ve gizleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[Sayfaları gösterme ve gizleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 Okuyucularınızın raporunuza erişim elde etmesini istiyorsunuz, ancak sayfalardan bazıları henüz tamamlanmamış. Artık hazır oluncaya kadar bunları gizleyebilirsiniz. Alternatif olarak, sayfaları normal gezintiden gizleyebilirsiniz ve okuyucular yer işaretlerini veya detaylandırmayı kullanarak sayfaya erişebilir.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[Yer işareti ekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[Yer işareti ekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 Yer işareti demişken, raporunuzdaki verilerle bir hikaye anlatmak için yer işaretleri oluşturabilirsiniz.
 
 - [Yer işaretleri için çapraz vurgulama](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): Yer işaretleri, yer işaretini oluşturduğunuz anda rapor sayfasının çapraz vurgulanan durumunu korur ve görüntüler.
 - [Daha fazla yer işareti esnekliği](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): Yer işaretleri, raporunuzda ayarladığınız özellikleri yansıtır ve yalnızca seçtiğiniz görselleri etkiler.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Birden çok grafikte çoklu seçim noktaları](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[Birden çok grafikte çoklu seçim noktaları](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 Birden çok grafikte çoklu veri noktası seçip sayfanın tamamına çapraz filtreleme uygulayabilirsiniz.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[Raporunuzun birden çok sayfasında dilimleyicileri eşitleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[Raporunuzun birden çok sayfasında dilimleyicileri eşitleme](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 Dilimleyici, bir rapordaki bir, iki veya daha fazla sayfaya uygulanabilir.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[Hızlı ölçümler](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[Hızlı ölçümler](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 Bir tablodaki mevcut ölçümlere ve sayısal sütunlara dayalı yeni ölçümler oluşturabilirsiniz.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[Detaya gidildiğinde diğer görselleri de filtreleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[Detaya gidildiğinde diğer görselleri de filtreleme](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 Bir görselde belirtilen bir kategoride detaya gittiğinizde, sayfadaki tüm görselleri aynı kategoriye göre filtreleyebilirsiniz.
 

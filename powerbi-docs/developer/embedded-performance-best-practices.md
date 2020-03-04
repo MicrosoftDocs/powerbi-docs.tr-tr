@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864050"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199016"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
 Bu makalede uygulamanızdaki raporları, panoları ve kutucukları daha hızlı işlemeye yönelik öneriler sağlanır.
 
 > [!Note]
-> Yükleme süresinin temel olarak raporla ilgili öğelere ve görsellerin, verilerin boyutuna ve sorgu ve hesaplanan ölçülere ilişkin karmaşıklığa bağlı olduğunu unutmayın. Daha fazla bilgi için bkz. [Performans açısından en iyi Power BI yöntemleri](../power-bi-reports-performance.md).
+> Yükleme süresinin temel olarak raporla ilgili öğelere ve görsellerin, verilerin boyutuna ve sorgu ve hesaplanan ölçülere ilişkin karmaşıklığa bağlı olduğunu unutmayın. Daha fazla bilgi için bkz. [Power BI iyileştirme kılavuzu](../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Araçları ve SDK paketlerini güncelleştirme
 
@@ -106,6 +106,6 @@ Performans Analizi, rapor öğelerinizin her birinin nasıl performans gösterdi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Rapor performans açısından en iyi Power BI yöntemleri](../power-bi-reports-performance.md)
+* [Power BI iyileştirme kılavuzu](../guidance/power-bi-optimization.md)
 * [Power BI Embedded sorunlarını giderme](embedded-troubleshoot.md)
 * [Power BI Embedded SSS](embedded-faq.md)

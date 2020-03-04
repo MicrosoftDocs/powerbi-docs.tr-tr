@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: e18579d654cb2ab17ed0dbff73fba95f5f9a64ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875048"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609948"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI’da Soru-Cevap’ı iyileştirmek için en iyi yöntemler
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap bunu yapar.
@@ -197,4 +197,4 @@ Bu adım önemli olabilir. Tablo ve sütun adları kolay olsa bile Soru-Cevap ku
 
 ![Soru-Cevap Özellikler bölmesi eş anlamlılar](media/qna-modelling-pane-synonyms.png)
 
- Eş anlamlı sözcükler eklerken dikkatli olun. Aynı eş anlamlıyı birden fazla sütuna veya tabloya eklemek belirsizliğe neden olur. Soru-Cevap, belirsiz eş anlamlılar arasından seçim yapmak için mümkün olduğunda bağlamı kullanır, ancak ehr soru için yeterli bağlam yoktur. Örneğin, kullanıcınız “müşterileri say” komutunu verdiğinde, modelinizde “müşteri” eş anlamlısını içeren üç öğe varsa müşteri aradığı cevabı alamayabilir. Böyle durumlarda, farklı ifadeler için birincil eş anlamlı kullanılacağından bunun benzersiz olduğundan emin olun. Bu, belirsizlik konusunda kullanıcıyı uyarıp (örneğin, “arşivlenen müşteri kaydı sayısını göster” sorusunun farklı ifade edilmesi) sorunun farklı bir şekilde sorulması gerektiğine dair ipucu verebilir.
+ Eş anlamlı sözcükler eklerken dikkatli olun. Aynı eş anlamlıyı birden fazla sütuna veya tabloya eklemek belirsizliğe neden olur. Soru-Cevap, belirsiz eş anlamlılar arasından seçim yapmak için mümkün olduğunda bağlamı kullanır, ancak ehr soru için yeterli bağlam yoktur. Örneğin, kullanıcınız “müşterileri say” komutunu verdiğinde, modelinizde “müşteri” eş anlamlısını içeren üç öğe varsa kullanıcılar aradıkları yanıtı alamayabilir. Böyle durumlarda, farklı ifadeler için birincil eş anlamlı kullanılacağından bunun benzersiz olduğundan emin olun. Bu, belirsizlik konusunda kullanıcıyı uyarıp (örneğin, “arşivlenen müşteri kaydı sayısını göster” sorusunun farklı ifade edilmesi) sorunun farklı bir şekilde sorulması gerektiğine dair ipucu verebilir.

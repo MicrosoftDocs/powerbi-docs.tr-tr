@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154442"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576851"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -218,6 +218,10 @@ Koşullu biçimlendirme uygulamak için matris görselini seçin ve **Biçim** b
 Ayar yapmanızı sağlayan bir iletişim kutusu görüntülemek için *Gelişmiş denetimler*'i seçin. Bu örnekte **Veri çubukları**'nın iletişim kutusu gösterilir.
 
 ![Veri çubukları bölmesi](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
+* Matrisinizin hücrelerinde veya üst bilgilerinde yer alan metin verileri yeni satır karakterleri içeriyorsa, öğenin ilişkilendirilmiş biçimlendirme bölmesi kartında 'Sözcük Kaydırma' seçeneğine geçmediğiniz sürece bu karakterler yoksayılır. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

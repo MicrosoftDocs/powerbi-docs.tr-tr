@@ -1,29 +1,29 @@
 ---
 title: Power BI ile Power Automate tümleştirmesi
-description: Power BI veri uyarıları ile tetiklenen Akışlar oluşturmayı öğrenin.
+description: Power BI veri uyarıları ile tetiklenen Power Automate akışları oluşturmayı öğrenin.
 author: maggiesMSFT
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75223775"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609701"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
 
-[Power Automate](https://docs.microsoft.com/power-automate/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Flow ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started), işletme kullanıcılarının kullandığı, sayısı sürekli olarak artan uygulamalarda ve SaaS hizmetlerinde iş akışlarının otomatikleştirilmesine yönelik bir SaaS teklifidir. Power Automate ile; bildirimler almak, dosyaları eşitlemek, veri toplamak ve daha fazlasını gerçekleştirmek için, sık kullandığınız uygulamaları ve hizmetleri (Power BI dahil) tümleştirerek görevleri otomatikleştirebilirsiniz. Yinelenen görevler, iş akışı otomasyonuyla kolay hale gelir.
 
-[Flow'u kullanmaya hemen başlayın.](https://docs.microsoft.com/power-automate/getting-started)
+[Power Automate’i kullanmaya hemen başlayın.](https://docs.microsoft.com/power-automate/getting-started)
 
-Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı bir e-posta gönderilmesini sağlayan bir Akış oluştururken ona eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
+Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı bir e-posta gönderilmesini sağlayan bir Power Automate akışı oluştururken ona izleyin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -33,12 +33,12 @@ Sirui, bir Power BI uyarısı tetiklendiğinde iş arkadaşlarına ayrıntılı 
 Bu eğitimde, biri şablondan ve diğeri sıfırdan olmak üzere iki farklı akışı nasıl oluşturacağınız gösterilmektedir. Örneği takip edebilmek için, [Power BI'da bir veri uyarısı oluşturun](service-set-data-alerts.md), ücretsiz bir Slack hesabı oluşturun ve [Power Automate’e kaydolun](https://flow.microsoft.com/#home-signup) (ücretsiz!).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI'ı kullanan bir akış oluşturma (şablondan)
-Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit bir akış oluşturmak için şablon kullanacağız.
+Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit bir akış oluşturmak için şablon kullanıyoruz.
 
 1. Power Automate’te oturum açın (flow.microsoft.com).
 2. **Akışlarım**'ı seçin.
    
-   ![Akış menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
+   ![Power Automate menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
 3. **Şablondan oluştur** seçeneğini belirleyin.
    
     ![Akışlarım menü çubuğu](media/service-flow-integration/power-bi-template.png)
@@ -48,7 +48,7 @@ Bu görevde bir Power BI veri uyarısı (bildirim) tarafından tetiklenen basit 
 
 
 ### <a name="build-the-flow"></a>Akışı oluşturma
-Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat madalyasına yönelik Power BI veri uyarısı) ve bir eylem (e-posta gönderme) bulunur. Bir alan seçtiğinizde Flow, ekleyebileceğiniz dinamik içerikleri görüntüler.  Bu örnekte, kutucuk değerini ve ileti gövdesindeki kutucuk URL'sini ekledik.
+Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat madalyasına yönelik Power BI veri uyarısı) ve bir eylem (e-posta gönderme) bulunur. Bir alan seçtiğinizde Power Automate ekleyebileceğiniz dinamik içerikleri görüntüler.  Bu örnekte, kutucuk değerini ve kutucuk URL'sini ileti gövdesine ekledik.
 
 ![akış şablonu](media/service-flow-integration/power-bi-template1.png)
 
@@ -59,7 +59,7 @@ Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat mada
    
    ![E-posta gönderme ekranı](media/service-flow-integration/power-bi-flow-email.png)
 
-3. Akış, tutabileceğiniz veya değiştirebileceğiniz bir başlık ve ileti oluşturur. Power BI'da uyarı oluştururken ayarladığınız tüm değerleri kullanabilirsiniz; imleci yerleştirmeniz ve gri ile vurgulanan alanı seçmeniz yeterlidir. 
+3. Power Automate, tutabileceğiniz veya değiştirebileceğiniz bir başlık ve ileti oluşturur. Power BI'da uyarı oluştururken ayarladığınız tüm değerleri kullanabilirsiniz; imleci yerleştirmeniz ve gri ile vurgulanan alanı seçmeniz yeterlidir. 
 
    ![E-posta gönderme ekranı](media/service-flow-integration/power-bi-flow-email-default.png)
 
@@ -69,7 +69,7 @@ Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat mada
 
     Ayrıca, varsayılan e-posta gövdesini kabul edebilir veya kendinizinkini oluşturabilirsiniz. Yukarıdaki örnekte iletinin birkaç değişikliği gösterilmiştir.
 
-1. Bu işlemi tamamladığınızda, **Akış oluştur** veya **Akışı kaydet** seçeneğini belirleyin.  Akış oluşturulur ve değerlendirilir.  Flow, herhangi bir hata bulması durumunda sizi bilgilendirir.
+1. Bu işlemi tamamladığınızda, **Akış oluştur** veya **Akışı kaydet** seçeneğini belirleyin.  Akış oluşturulur ve değerlendirilir.  Power Automate herhangi bir hata bulması durumunda sizi bilgilendirir.
 2. Hata bulunması halinde bunları düzeltmek için **Akışı düzenle**'yi, aksi halde, yeni akışı çalıştırmak için **Bitti**'yi seçin.
    
    ![başarılı iletisi](media/service-flow-integration/power-bi-flow-running.png)
@@ -77,13 +77,13 @@ Bu şablonda bir tetikleyici (İrlanda'nın kazandığı her yeni Olimpiyat mada
    
    ![uyarı e-postası](media/service-flow-integration/power-bi-flow-email2.png)
 
-## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Power BI'ı kullanan bir Akış oluşturma (sıfırdan)
-Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir akışı sıfırdan oluşturacağız.
+## <a name="create-a-power-automate-that-uses-power-bi---from-scratch-blank"></a>Power BI'ı kullanan bir Power Automate akışı oluşturma - sıfırdan (boş)
+Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir akışı sıfırdan oluşturuyoruz.
 
 1. Power Automate’te oturum açın.
 2. **Akışlarım** > **Boş akış oluştur** seçeneğini belirleyin.
    
-   ![Akış üst menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
+   ![Power Automate üst menü çubuğu](media/service-flow-integration/power-bi-my-flows.png)
 3. Bir Power BI tetikleyicisi bulmak için Arama kutusunu kullanın ve **Power BI - veri temelli bir uyarı tetiklendiğinde** seçeneğini belirleyin.
 
 ### <a name="build-your-flow"></a>Akışınızı oluşturma
@@ -96,15 +96,15 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
 3. **Outlook**'u bulun ve **Create event** seçeneğini belirleyin.
    
    ![akışı oluşturma](media/service-flow-integration/power-bi-create-event.png)
-4. Etkinlik alanlarını doldurun. Bir alan seçtiğinizde Flow, ekleyebileceğiniz dinamik içerikleri görüntüler.
+4. Etkinlik alanlarını doldurun. Bir alan seçtiğinizde Power Automate ekleyebileceğiniz dinamik içerikleri görüntüler.
    
    ![akışı oluşturmaya devam etme](media/service-flow-integration/power-bi-flow-event.png)
-5. Gerekli alanları doldurduktan sonra, **Akış oluştur**'u seçin.  Flow, akışı kaydeder ve değerlendirir. Herhangi bir hatayla karşılaşılmazsa **Bitti**'yi seçerek bu akışı çalıştırın.  Yeni akış **Akışlarım** sayfanıza eklenir.
+5. Gerekli alanları doldurduktan sonra, **Akış oluştur**'u seçin.  Power Automate akışı kaydeder ve değerlendirir. Herhangi bir hatayla karşılaşılmazsa **Bitti**'yi seçerek bu akışı çalıştırın.  Yeni akış **Akışlarım** sayfanıza eklenir.
    
    ![Akışı tamamlama](media/service-flow-integration/power-bi-flow-running.png)
 6. Akış Power BI veri uyarınız ile tetiklendiğinde aşağıdakine benzer bir Outlook etkinlik bildirimi alırsınız.
    
-    ![Outlook bildirimini tetikleyen akış](media/service-flow-integration/power-bi-flow-notice.png)
+    ![Power Automate Outlook bildirimini tetikler](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power Automate kullanmaya başlama](https://docs.microsoft.com/power-automate/getting-started/)
