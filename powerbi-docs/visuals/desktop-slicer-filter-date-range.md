@@ -42,7 +42,7 @@ Ardından ayarları seçebilirsiniz.
 
 * Son
 
-* Sonraki
+* İleri
 
 * Bu
 

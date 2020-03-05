@@ -28,7 +28,7 @@ Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI 
 2. Etkin duruma getirmek için bir görselleştirmeyi seçin. Etkin görselleştirmenin etrafında tutamaçlar ve kenarlık vardır.    
 3. Görsel Öğeler bölmesinde yeni bir görselleştirme türü seçin. 
    
-   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif)geçin.
+   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
 4. (İsteğe bağlı) Görselleştirmenizi panonuza bir kutucuk olarak [sabitleyin](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme

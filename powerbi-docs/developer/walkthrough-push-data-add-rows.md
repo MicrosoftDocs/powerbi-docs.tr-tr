@@ -15,7 +15,7 @@ ms.contentlocale: tr-TR
 ms.lasthandoff: 11/21/2019
 ms.locfileid: "74265168"
 ---
-# <a name="step-5-add-rows-to-a-power-bi-table"></a>5 Adım: Bir Power BI tablosuna satır ekleme
+# <a name="step-5-add-rows-to-a-power-bi-table"></a>5\. Adım: Bir Power BI tablosuna satır ekleme
 
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 

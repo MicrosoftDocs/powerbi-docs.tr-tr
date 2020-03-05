@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871167"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260865"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.
@@ -43,7 +43,6 @@ Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.
 Daha fazla video için aşağıdaki kaynak ve içerik koleksiyonuna göz atın.
 
 * [Power BI için Destekli Öğrenme](https://powerbi.microsoft.com/guided-learning/): Küçük parçalara ayrılmış, Power BI sıralı eğitim turu
-* [Guy in a Cube kanalı](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): Power BI'daki özelliklere ve işlevlere ilişkin yepyeni videolar
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](fundamentals/power-bi-overview.md)

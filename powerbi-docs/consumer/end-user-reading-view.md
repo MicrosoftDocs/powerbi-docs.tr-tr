@@ -88,7 +88,7 @@ Power BI hizmetinin sizin için çalışmasını sağlamanın yollarından ikisi
 #### <a name="subscribe-to-a-dashboard-or-report"></a>Bir panoya (veya rapora) abone olma
 Bir panoyu izlemek için Power BI'ı açmanıza gerek yoktur.  Bunun yerine abone olabilir ve Power BI'ın belirlediğiniz aralıklarla ilgili panonun anlık görüntüsünü e-posta ile göndermesini sağlayabilirsiniz. 
 
-![Abone ol simgesini seçme](./media/end-user-reading-view/power-bi-subscribe-email.png)geçin.
+![Abone ol simgesini seçme](./media/end-user-reading-view/power-bi-subscribe-email.png).
 
  [Power BI abonelikleri](end-user-subscribe.md) hakkında daha fazla bilgi edinin
 

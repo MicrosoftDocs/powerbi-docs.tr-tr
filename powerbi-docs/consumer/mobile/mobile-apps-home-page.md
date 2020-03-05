@@ -46,7 +46,7 @@ Akıştaki güncelleştirmeler şunlardır:
 
  İncelemeye devam etmek için bir etkinlik günlüğüne dokunarak uygun konuma atlayın.
 
-Etkinlik öğeleri toplanmıştır; dolayısıyla aynı uygulama veya çalışma alanından gelen tüm veri güncelleştirmeleri birlikte gruplandırılır. Toplanmış öğeleri genişletmek ve görmek için oku ![genişletme oku](./media/mobile-apps-home-page/powerbi-mobile-app-expand-arrow.png) kullanın. En son öğe her zaman listenin en üstünde yer alır.
+Etkinlik öğeleri toplanmıştır; dolayısıyla aynı uygulama veya çalışma alanından gelen tüm veri güncelleştirmeleri birlikte gruplandırılır. En üstteki USERNAME değerini kopyalamak için ekranın sağ tarafındaki ![genişletme oku](./media/mobile-apps-home-page/powerbi-mobile-app-expand-arrow.png) kullanın. En son öğe her zaman listenin en üstünde yer alır.
 
 ## <a name="navigation-bar"></a>Gezinti çubuğu
 

@@ -39,8 +39,8 @@ Sıralama özelliği aşağıdaki parametrelerden birini gerektirir.
 
 `clauses` parametreleri iki parametre ile birkaç nesne içerebilir:
 
-- `role`: Sıralama için `DataMapping` nesnesini belirler
-- `direction`: Sıralama yönünü belirler (1 = Artan, 2 = Azalan)
+- `role` Sıralama için `DataMapping` nesnesini belirler
+- `direction` Sıralama yönünü belirler (1 = Artan, 2 = Azalan)
 
 ```json
     "sorting": {
