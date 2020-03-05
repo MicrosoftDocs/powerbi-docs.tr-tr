@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: Eşitleme dilimleyicilerini etkinleştirme
               href: visuals/enable-sync-slicers.md
+            - name: Görsellerde hata ayıklama
+              href: visuals/visuals-how-to-debug.md
             - name: Power BI görselleriyle ilgili sorunları giderme
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Başvuru
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: Yazma yardımcı programları
                   href: visuals/utils-type.md
+                - name: Araç ipucu yardımcı programları
+                  href: visuals/utils-tooltip.md
                 - name: Veri görüntüleme yardımcı programları
                   href: visuals/utils-dataview.md
         - name: Kaynaklar
@@ -156,6 +160,8 @@
           items:
             - name: Uygulamadan ekleme
               href: embed-from-apps.md
+            - name: Raporu dosyaya aktarma
+              href: export-to.md
             - name: Uygulamaları otomatik yükleme
               href: embed-auto-install-app.md
             - name: Azure Active Directory kiracısı oluşturma
@@ -257,8 +263,6 @@
           items:
             - name: Kimlik bilgilerini yapılandırma
               href: configure-credentials.md
-            - name: Kimlik bilgilerini şifreleme
-              href: encrypt-credentials.md
         - name: Başvuru
           items:
             - name: REST API'leri

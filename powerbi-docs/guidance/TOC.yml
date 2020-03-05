@@ -30,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: Otomatik tarih/saat kılavuzu
               href: auto-date-time.md
-            - name: Çoka çok ilişkiler kılavuzu
+            - name: Bire bir ilişkiler
+              href: relationships-one-to-one.md
+            - name: Çok-çok ilişkileri
               href: relationships-many-to-many.md
+            - name: Etkin ve etkin olmayan ilişki karşılaştırması
+              href: relationships-active-inactive.md
+            - name: İki yönlü ilişkiler
+              href: relationships-bidirectional-filtering.md
+            - name: İlişki sorunlarını giderme
+              href: relationships-troubleshoot.md
             - name: DirectQuery model kılavuzu
               href: directquery-model-guidance.md
             - name: Bileşik model kılavuzu
