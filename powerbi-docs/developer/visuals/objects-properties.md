@@ -136,7 +136,7 @@ Aşağıdaki kodda bir örnek gösterilmiştir:
 }
 ```
 
-*fill* ve *fillRule* özelliklerine dikkat edin. Birincisi renk seçicisi, ikincisi ise kural koşulları karşılandığında *fill özelliği* `visually` yerine geçecek gradyan için değiştirme kuralıdır.
+*fill* ve *fillRule* özelliklerine dikkat edin. Birincisi renk seçicisi, ikincisi ise kural koşulları karşılandığında *fill özelliği*`visually` yerine geçecek gradyan için değiştirme kuralıdır.
 
 *fill* özelliği ile değiştirme kuralı arasındaki bu bağlantı, *fillRule* özelliğinin `"rule"`>`"output"` bölümünde ayarlanır.
 

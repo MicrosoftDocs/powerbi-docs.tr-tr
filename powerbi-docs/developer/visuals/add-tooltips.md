@@ -211,11 +211,11 @@ Rapor sayfası araç ipuçlarını **Biçim** bölmesinde tanımlayabilirsiniz.
 
 ![Rapor sayfası araç ipucu](media/report-page-tooltip.png)
 
-* `supportedTypes`: Görsel tarafından desteklenen ve alanlarda da yansıtılan araç ipucu yapılandırması. 
-   * `default`: Veri alanı aracılığıyla "otomatik" araç ipuçları bağlamasının desteklenip desteklenmediğini belirtir. 
-   * `canvas`: Rapor sayfası araç ipuçlarının desteklenip desteklenmediğini belirtir.
+* `supportedTypes` Görsel tarafından desteklenen ve alanlarda da yansıtılan araç ipucu yapılandırması. 
+   * `default` Veri alanı aracılığıyla "otomatik" araç ipuçları bağlamasının desteklenip desteklenmediğini belirtir. 
+   * `canvas` Rapor sayfası araç ipuçlarının desteklenip desteklenmediğini belirtir.
 
-* `roles`: (İsteğe bağlı) Tanımlandıktan sonra, alanlar kutusunda seçili araç ipucu seçeneğine hangi veri rollerinin bağlı olduğunu bildirir.
+* `roles` (İsteğe bağlı) Tanımlandıktan sonra, alanlar kutusunda seçili araç ipucu seçeneğine hangi veri rollerinin bağlı olduğunu bildirir.
 
 Daha fazla bilgi için bkz. [Rapor sayfası araç ipuçları kullanım yönergeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips).
 

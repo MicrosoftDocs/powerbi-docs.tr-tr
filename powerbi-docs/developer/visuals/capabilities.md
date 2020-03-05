@@ -41,9 +41,9 @@ Verilere bağlı olabilecek alanları tanımlamak için `dataRoles` nesnesini ku
 
 * **name**: Bu veri alanının iç adı (benzersiz olmalıdır).
 * **kind**: Alanın türü:
-    * `Grouping`: Ölçü alanlarını gruplandırmak için kullanılan farklı değerler.
-    * `Measure`: Sayısal veri değerleri.
-    * `GroupingOrMeasure`: Gruplandırma veya ölçü olarak kullanılabilecek değerler.
+    * `Grouping` Ölçü alanlarını gruplandırmak için kullanılan farklı değerler.
+    * `Measure` Sayısal veri değerleri.
+    * `GroupingOrMeasure` Gruplandırma veya ölçü olarak kullanılabilecek değerler.
 * **displayName**: **Özellikler** bölmesinde kullanıcıya görüntülenen ad.
 * **description**: Alanın kısa açıklaması (isteğe bağlı).
 * **requiredTypes**: Bu veri rolü için gerekli veri türü. Eşleşmeyen değerler null olarak ayarlanır (isteğe bağlı).

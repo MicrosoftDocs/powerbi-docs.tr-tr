@@ -116,7 +116,7 @@ Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com
 
    ![Tamamlanmış ölçer grafiği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>5 Adım: Raporunuzu kaydedin
+### <a name="step-5-save-your-report"></a>5\. Adım: Raporunuzu kaydedin
 
 1. [Raporu kaydedin](../service-report-save.md).
 

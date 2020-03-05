@@ -24,7 +24,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
-Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir portaldır. Genel bakış sunar ve işletmenin geçerli durumunun takip edilebileceği bir merkezdir. Raporlar, verilerinizin etkileşimli görünümleridir ve verilerinize dayalı farklı bulguları ve içgörüleri temsil eden görseller içerir. 
+Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir portaldır. Genel bakış sunar ve işletmenin geçerli durumunun takip edilebileceği bir merkezdir. Raporlar, verilerinizin etkileşimli görünümleridir ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. 
 
 ![Yatay modda rapor](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 
@@ -45,7 +45,7 @@ Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir por
    
     Power BI panoları mobil cihazınızda Power BI hizmetindekinden biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
 
-5. Alttaki araç çubuğunda yıldız simgesine ![Sık kullanılanlar yıldız simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) dokunarak bunu sık kullanılan bir pano yapın. Mobil uygulamada bir sık kullanılan oluşturduğunuzda Power BI hizmetinde de sık kullanılan olur; aynı durum karşılıklı olarak geçerlidir.
+5. Yıldız simgesine dokunun ![Sık kullanılanlar yıldız simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) dokunarak bunu sık kullanılan bir pano yapın. Mobil uygulamada bir sık kullanılan oluşturduğunuzda Power BI hizmetinde de sık kullanılan olur; aynı durum karşılıklı olarak geçerlidir.
 
 6. Sayfayı aşağı kaydırın ve "Bu Yılın Satışları, Geçen Yılın Satışları" adlı doldurulmuş çizgi grafiğe dokunun.
 
@@ -57,7 +57,7 @@ Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir por
 
     ![Odak modunda kutucuk](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
-8. Ekranın alt kısmındaki Rapor simgesine ![Rapor simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) dokunun (Android cihazlarında bu ekranın en üstünde yer alabilir). Bu kutucukla ilgili rapor, yatay modda açılır.
+8. Sağ üst köşedeki Rapor simgesine ![Rapor simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report-icon.png) dokunun (Android cihazlarında bu ekranın en üstünde yer alabilir). Bu kutucukla ilgili rapor, yatay modda açılır.
 
     ![Yatay modda rapor](././media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-report.png)
 

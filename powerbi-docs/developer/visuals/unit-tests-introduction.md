@@ -251,23 +251,23 @@ Gerekirse bu yapılandırmayı değiştirebilirsiniz.
 
 *Karma.conf.js* dosyasındaki kod aşağıdaki değişkenleri içerir:
 
-* `recursivePathToTests`: Test kodunu bulur
+* `recursivePathToTests` Test kodunu bulur
 
-* `srcRecursivePath`: Derleme sonrasında çıkış JavaScript kodunu bulur
+* `srcRecursivePath` Derleme sonrasında çıkış JavaScript kodunu bulur
 
-* `srcCssRecursivePath`: Stillerle daha az dosya derlendikten sonra çıkış CSS’yi bulur
+* `srcCssRecursivePath` Stillerle daha az dosya derlendikten sonra çıkış CSS’yi bulur
 
-* `srcOriginalRecursivePath`: Görselinizin kaynak kodunu bulur
+* `srcOriginalRecursivePath` Görselinizin kaynak kodunu bulur
 
-* `coverageFolder`: Kapsam raporunun nerede oluşturulacağını belirler
+* `coverageFolder` Kapsam raporunun nerede oluşturulacağını belirler
 
 Yapılandırma dosyası aşağıdaki özellikleri içerir:
 
-* `singleRun: true`: Testler sürekli tümleştirme (CI) sisteminde çalıştırılır veya tek bir kez çalıştırılabilir. Testlerinizde hata ayıklaması yapmak için ayarı *false* olarak değiştirebilirsiniz. Karma tarayıcıyı çalışır durumda tuttuğundan hata ayıklaması için konsolu kullanabilirsiniz.
+* `singleRun: true` Testler sürekli tümleştirme (CI) sisteminde çalıştırılır veya tek bir kez çalıştırılabilir. Testlerinizde hata ayıklaması yapmak için ayarı *false* olarak değiştirebilirsiniz. Karma tarayıcıyı çalışır durumda tuttuğundan hata ayıklaması için konsolu kullanabilirsiniz.
 
-* `files: [...]`: Bu dizide tarayıcıya yüklenecek dosyaları belirtebilirsiniz. Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (Jasmine, test yardımcı programları) vardır. Gerekirse listeye başka dosyalar ekleyebilirsiniz.
+* `files: [...]` Bu dizide tarayıcıya yüklenecek dosyaları belirtebilirsiniz. Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (Jasmine, test yardımcı programları) vardır. Gerekirse listeye başka dosyalar ekleyebilirsiniz.
 
-* `preprocessors`: Bu bölümde birim testlerinden önce çalıştırılan eylemleri yapılandıracaksınız. Typescript’in JavaScript’e ön derlemesini yapar, kaynak eşleme dosyalarını hazırlar ve kod kapsamı raporunu oluştururlar. Testlerinizde hata ayıklaması yaparken `coverage` devre dışı bırakılabilir. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
+* `preprocessors` Bu bölümde birim testlerinden önce çalıştırılan eylemleri yapılandıracaksınız. Typescript’in JavaScript’e ön derlemesini yapar, kaynak eşleme dosyalarını hazırlar ve kod kapsamı raporunu oluştururlar. Testlerinizde hata ayıklaması yaparken `coverage` devre dışı bırakılabilir. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
 
 Tüm Karma yapılandırmalarının açıklamaları için [Karma Yapılandırma Dosyası](https://karma-runner.github.io/1.0/config/configuration-file.html) sayfasına gidin.
 
@@ -361,13 +361,13 @@ describe("BarChart", () => {
 
 * [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): Test çalışmasını açıklar. Jasmine çerçevesi bağlamında genellikle bir belirtim paketini veya grubunu açıklar.
 
-* `beforeEach`: [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan her `it` yöntemi çağrısından önce çağrılır.
+* `beforeEach` [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan her `it` yöntemi çağrısından önce çağrılır.
 
 * [`it`](https://jasmine.github.io/api/2.6/global.html#it): Tek bir belirtimi tanımlar. `it` yöntemi bir veya birden fazla `expectations` içermelidir.
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): Belirtim için bir beklenti oluşturur. Tüm beklentiler hiçbir hata olmadan geçerse belirtim başarılı olur.
 
-* `toBeInDOM`: *Eşleştirici* yöntemlerinden biri. Eşleştiriciler hakkında daha fazla bilgi için bkz. [Jasmine Ad Alanı: eşleştiriciler](https://jasmine.github.io/api/2.6/matchers.html).
+* `toBeInDOM` *Eşleştirici* yöntemlerinden biri. Eşleştiriciler hakkında daha fazla bilgi için bkz. [Jasmine Ad Alanı: eşleştiriciler](https://jasmine.github.io/api/2.6/matchers.html).
 
 Jasmine hakkında daha fazla bilgi için bkz. [Jasmine çerçevesi belgeleri](https://jasmine.github.io/) sayfası.
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540602"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237535"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
@@ -41,7 +41,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | Azure Blob Depolama Alanı |Evet |Evet |Hayır |
 | Azure Data Lake Store |Evet |Hayır |Hayır |
 | Azure HDInsight (HDFS) |Evet |Hayır |Hayır |
-| Azure HDInsight (Spark) |Evet |Evet |Hayır |
+| Azure HDInsight (Spark) |Evet |Hayır |Hayır |
 | Azure Tablo Depolama |Evet |Evet |Hayır |
 | Dynamics 365 (çevrimiçi) |Evet |Hayır |Hayır |
 | Facebook |Evet |Hayır |Hayır |
@@ -128,7 +128,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | Azure Blob Depolama Alanı |Evet |Evet |Hayır |Hayır |
 | Azure Data Lake Store |Hayır |Hayır |Hayır |Hayır |
 | Azure HDInsight (HDFS) |Hayır |Hayır |Hayır |Hayır |
-| Azure HDInsight (Spark) |Evet |Evet |Hayır |Hayır |
+| Azure HDInsight (Spark) |Hayır |Hayır |Hayır |Hayır |
 | Azure Tablo Depolama |Hayır |Evet |Hayır |Hayır |
 | Dynamics 365 (çevrimiçi) |Hayır |Hayır |Hayır |Hayır |
 | Facebook |Hayır |Hayır |Hayır |Hayır |

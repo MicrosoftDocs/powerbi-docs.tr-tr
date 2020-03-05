@@ -23,11 +23,11 @@ Başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın]
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Bir veri kümesine veri göndermeye ilişkin adımlar
 
-* 1. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
-* 2. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
-* 3. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
-* 4. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
-* 5. Adım: [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)
+* 1\. Adım: [Bir uygulamayı Azure AD'ye kaydetme](walkthrough-push-data-register-app-with-azure-ad.md)
+* 2\. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
+* 3\. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
+* 4\. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
+* 5\. Adım: [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)
 
 Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel olarak ele alınmıştır.
 

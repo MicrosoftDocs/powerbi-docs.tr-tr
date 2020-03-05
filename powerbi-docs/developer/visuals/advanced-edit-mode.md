@@ -43,8 +43,8 @@ Aşağıdaki durumlarda **Düzenle** düğmesi görüntülenir:
 
 **Düzenle**’yi seçtiğinizde görsel EditMode öğesinin `Advanced` olarak ayarlandığı bir update() çağrısı alır. *Capabilities.json* dosyasında ayarlanan değere bağlı olarak aşağıdaki eylemler gerçekleşir:
 
-* `SupportedNoAction`: Konak için başka eylem gerekmez.
-* `SupportedInFocus`: Konak görseli odak moduna geçirir.
+* `SupportedNoAction` Konak için başka eylem gerekmez.
+* `SupportedInFocus` Konak görseli odak moduna geçirir.
 
 ## <a name="exit-advanced-edit-mode"></a>Gelişmiş düzenleme modundan çıkma
 

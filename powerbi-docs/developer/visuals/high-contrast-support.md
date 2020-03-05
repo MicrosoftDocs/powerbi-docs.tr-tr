@@ -27,7 +27,7 @@ Yüksek karşıtlık desteğinin nasıl uygulandığını görüntülemek için 
 
 ### <a name="detect-that-power-bi-is-in-high-contrast-mode"></a>Power BI’ın yüksek karşıtlıklı modda olduğunu algılama
 
-`host.colorPalette.isHighContrast` `true` ise, yüksek karşıtlık modu etkindir ve görselin kendisini buna uygun şekilde çizmesi gerekir.
+`host.colorPalette.isHighContrast``true` ise, yüksek karşıtlık modu etkindir ve görselin kendisini buna uygun şekilde çizmesi gerekir.
 
 ### <a name="get-high-contrast-colors"></a>Yüksek karşıtlıklı renkler alın
 
