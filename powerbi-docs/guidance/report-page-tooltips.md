@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040342"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290625"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Rapor sayfası araç ipuçlarıyla görselleri genişletme
 
@@ -88,5 +88,5 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma](../desktop-tooltips.md)
 - [Power BI Desktop'taki araç ipuçlarını özelleştirme](../desktop-custom-tooltips.md)
 - [Görsel öğeler kullanarak Power BI raporlarını geliştirme](../desktop-visual-elements-for-reports.md)
-- Guy in a cube videosu: [Power BI rapor sayfası araç ipucu - Power BI Desktop'ta bir tane oluşturma](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

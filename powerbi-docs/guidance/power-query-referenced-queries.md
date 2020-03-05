@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002409"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290596"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query sorgularına başvurma
 
@@ -54,5 +54,5 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI’da self servis veri hazırlığı](../service-dataflows-overview.md)
 - [Power BI'da veri akışlarını oluşturma ve kullanma](../service-dataflows-create-use.md)
-- Guy in a cube videosu: [Power BI ve Excel için Power Query başvuru sorgularının ayrıntıları](https://www.youtube.com/watch?v=3uKNNZqBIkg)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

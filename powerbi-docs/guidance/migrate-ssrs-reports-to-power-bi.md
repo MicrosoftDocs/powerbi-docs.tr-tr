@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527304"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290648"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme
 
@@ -192,7 +192,6 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
 - [Sayfalandırılmış raporlar için veri alma kılavuzu](report-paginated-data-retrieval.md)
-- Guy in a cube videosu: [Power BI’daki sayfalandırılmış raporlara giriş](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md)
 - [Power BI’daki sayfalandırılmış raporlar: SSS](../paginated-reports-faq.md)
 - [Power BI Premium hakkında SSS](../service-premium-faq.md)
