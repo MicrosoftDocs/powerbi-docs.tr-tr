@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040371"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290602"
 ---
 # <a name="use-report-page-drillthrough"></a>Rapor sayfası detaylandırmayı kullanma
 
@@ -70,5 +70,5 @@ Rapor tasarımı sırasında aşağıdaki uygulamaları öneririz:
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Desktop'ta detaylandırma özelliğini kullanma](../desktop-drillthrough.md)
-- Guy in a cube videosu: [Power BI Desktop'ta detaylandırma özelliğinde detaya gitme](https://www.youtube.com/watch?v=2x9lLHDbtDk)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
