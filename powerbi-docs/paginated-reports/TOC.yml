@@ -1,0 +1,61 @@
+- name: Power BI sayfalandırılmış raporlar
+  href: index.yml
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Sayfalandırılmış raporlar nedir?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Power BI’da Rapor Oluşturucusu
+          href: report-builder-power-bi.md
+    - name: Öğreticiler
+      expanded: true
+      items:
+        - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
+          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
+          href: paginated-reports-quickstart-aw.md
+    - name: Kavramlar
+      expanded: true
+      items:
+        - name: Rapor Tasarım Görünümünde gezinme
+          href: paginated-reports-report-design-view.md
+        - name: Rapor planlama
+          href: report-builder-planning-report.md
+        - name: Rapor Oluşturucusu verileri
+          href: report-builder-data.md
+        - name: Desteklenen veri kaynakları
+          href: paginated-reports-data-sources.md
+        - name: Tasarım ipuçları
+          href: report-builder-design-tips.md
+        - name: 'Tablolar, matrisler, listeler'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parametreler
+          href: report-builder-parameters.md
+        - name: Sayfalandırılmış raporlardaki URL parametreleri
+          href: report-builder-url-parameters.md
+        - name: İfade örnekleri
+          href: report-builder-expression-examples.md
+        - name: Rapor sayfalandırması
+          href: paginated-reports-pagination.md
+        - name: Raporların önizlemesini görüntüleme
+          href: report-builder-previewing-reports.md
+        - name: Sayfalandırılmış raporlar hakkında SSS
+          href: paginated-reports-faq.md
+    - name: Nasıl yapılır
+      items:
+        - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+          href: paginated-reports-enter-data.md
+        - name: Eklenmiş veri kaynağı oluşturma
+          href: paginated-reports-embedded-data-source.md
+        - name: Eklenmiş veri kümesi oluşturma
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Power BI paylaşılan veri kümesiyle rapor oluşturma
+          href: report-builder-shared-datasets.md
+        - name: Parametreler oluşturma
+          href: paginated-reports-parameters.md
+        - name: URL’de rapor parametresi geçirme
+          href: report-builder-url-pass-parameters.md
+        - name: Sayfalandırılmış rapor yayımlama
+          href: paginated-reports-save-to-power-bi-service.md
