@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI mobil uygulamaları belgeleri
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI mobil uygulamaları belgeleri
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923920"
+landingContent:
+- title: Power BI mobil uygulamaları hakkında
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Mobil uygulamalar nedir?
+      url: mobile-apps-for-mobile-devices.md
+    - text: Mobil uygulamalardaki yenilikler
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: Mobil uygulama Giriş sayfası
+      url: mobile-apps-home-page.md
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Android için kullanmaya başlama
+      url: mobile-android-app-get-started.md
+    - text: iOS için kullanmaya başlama
+      url: mobile-iphone-app-get-started.md
+    - text: Windows 10 için kullanmaya başlama
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: Panoları ve raporları keşfetme
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: Araştır
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Verileriniz hakkında sorular sorma
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: Verileri çevrimdışı görüntüleme
+      url: mobile-apps-offline-data.md
+    - text: Pano veya raporu paylaşma
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: Veri uyarıları ayarlama
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: Şirket içi raporlar
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Şirket içi raporları ve KPI’leri görüntüleme
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: OAuth ile şirket içi raporlara bağlanma
+      url: mobile-oauth-ssrs.md

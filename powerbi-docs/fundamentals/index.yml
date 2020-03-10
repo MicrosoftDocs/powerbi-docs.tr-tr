@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI ile çalışmaya başlama belgeleri
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI ile çalışmaya başlama belgeleri
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924380"
+landingContent:
+- title: Power BI nedir?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI nedir?
+      url: ../power-bi-overview.md
+    - text: Power BI Desktop nedir?
+      url: ../desktop-what-is-desktop.md
+    - text: Power BI hizmeti nedir?
+      url: ../power-bi-service-overview.md
+    - text: Power BI Desktop ile hizmeti karşılaştırma
+      url: ../service-service-vs-desktop.md
+- title: Yenilikler
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop'taki Yenilikler
+      url: ../desktop-latest-update.md
+    - text: Hizmetteki yenilikler nelerdir?
+      url: ../service-whats-new.md
+- title: Learn ile çalışmaya başlama
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Analiz raporları oluşturma ve kullanma
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: Power BI Desktop’ta veri alma
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: Lisanslama
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI'a kaydolma
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: Lisans türüne göre özellikler
+      url: ../service-features-license-type.md
+- title: Kaynaklar
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI videoları
+      url: ../videos.md
+    - text: Power BI Desktop videoları
+      url: ../desktop-videos.md
+    - text: Web Seminerleri
+      url: ../webinars.md

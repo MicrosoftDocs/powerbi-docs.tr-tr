@@ -9,13 +9,13 @@ metadata:
   ms.topic: landing-page
   author: mihart
   ms.author: mihart
-  ms.date: 01/10/2020
-  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
-  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 3f6431f2011b4b6a75ea766d6051b02ce2abe947
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "77497805"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919327"
 landingContent:
 - title: Tüketiciler için Power BI hakkında
   linkLists:
@@ -85,8 +85,8 @@ landingContent:
       url: end-user-bookmarks.md
     - text: Otomatik İçgörüleri görüntüleme
       url: end-user-insights.md
-    - text: Sayfalandırılmış rapor görüntüleme
-      url: paginated-reports-view-power-bi-service.md
+    - text: Soru-Cevap’ı kullanmaya yönelik ipuçları
+      url: end-user-q-and-a-tips.md
 - title: Kaynaklar
   linkLists:
   - linkListType: reference

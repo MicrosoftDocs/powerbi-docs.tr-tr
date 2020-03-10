@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI’da verileri dönüştürme, şekillendirme ve modelleme - belgeler
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI’da verileri dönüştürme, şekillendirme ve modelleme - belgeler
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924541"
+landingContent:
+- title: Verileri dönüştürme ve şekillendirme
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Sorgu düzenleyicisine genel bakış
+      url: ../desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: Verileri şekillendirme ve birleştirme
+      url: ../desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: Ortak sorgu görevleri
+      url: ../desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: Dosyaları birleştirme (ikili)
+      url: ../desktop-combine-binaries.md
+- title: Verileri modelleme
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Modelleme görünümü
+      url: ../desktop-modeling-view.md
+    - text: Çok-çok ilişkileri
+      url: ../desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: İlişkiler oluşturma ve yönetme
+      url: ../desktop-create-and-manage-relationships.md
+    - text: Verileri kategorilere ayırmayı uygulama
+      url: ../desktop-data-categorization.md
+- title: Hesaplamalar
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: DAX ile ilgili temel bilgileri öğrenme
+      url: ../desktop-quickstart-learn-dax-basics.md
+    - text: Hesaplanmış sütun oluşturma
+      url: ../desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: Hesaplanan tablolar
+      url: ../desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: Hızlı ölçümleri kullanma
+      url: ../desktop-quick-measures.md
+- title: Self servis veri hazırlığı
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI’da self servis veri hazırlığı
+      url: ../desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: 'Veri akışları: Self servis veri hazırlığı'
+      url: ../service-dataflows-overview.md
+    - text: Veri akışları oluşturma ve kullanma
+      url: ../service-dataflows-create-use.md

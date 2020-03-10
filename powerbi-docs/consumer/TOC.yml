@@ -1,8 +1,9 @@
-- name: Kullanıcılar için Power BI
-  href: power-bi-consumer-landing.md
 - name: Tüketiciler için Power BI hizmeti
+  href: index.yml
+  expanded: true
   items:
     - name: Genel Bakış
+      expanded: true
       items:
         - name: Power BI tüketicisi nedir?
           href: end-user-consumer.md
@@ -11,6 +12,7 @@
         - name: Power BI hizmetinde bir tura katılın
           href: end-user-reading-view.md
     - name: Kullanmaya başlayın
+      expanded: true
       items:
         - name: Power BI kullanma yollarını öğrenin
           href: end-user-experience.md
@@ -20,7 +22,7 @@
           href: end-user-q-and-a.md
         - name: İlk kez oturum açma
           href: end-user-sign-in.md
-        - name: Lisans türünüzü arama
+        - name: Hangi Power BI lisansına sahibim?
           href: end-user-license.md
         - name: '''Yeni görünüm'' bölümünde gezinme'
           href: ../service-new-look.md
@@ -138,109 +140,3 @@
           href: end-user-browsers.md
         - name: Hızlı İçgörü türleri
           href: end-user-insight-types.md
-- name: Power BI mobil uygulamaları
-  items:
-    - name: Genel Bakış
-      items:
-        - name: Mobil uygulamalar nedir?
-          href: mobile/mobile-apps-for-mobile-devices.md
-        - name: Giriş sayfasıyla tanışın
-          href: mobile/mobile-apps-home-page.md
-    - name: Hızlı Başlangıçlar
-      items:
-        - name: Panoları ve raporları keşfedin
-          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-    - name: Öğreticiler
-      items:
-        - name: iOS mobil uygulamalarında soru sorun
-          href: mobile/tutorial-mobile-apps-ios-qna.md
-    - name: Kavramlar
-      items:
-        - name: Mobil uygulamalardaki yenilikler
-          href: mobile/mobile-whats-new-in-the-mobile-apps.md
-        - name: Mobil uygulamalar ile gerçek dünya verilerini alma
-          href: mobile/mobile-apps-data-in-real-world-context.md
-        - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
-          href: mobile/mobile-apps-offline-data.md
-        - name: Karma Gerçeklik için Power BI uygulaması (Önizleme)
-          href: mobile/mobile-mixed-reality-app.md
-    - name: Nasıl yapılır
-      items:
-        - name: Tüm mobil uygulamalar
-          items:
-            - name: Power BI mobil uygulamaları için panolar
-              href: mobile/mobile-apps-view-dashboard.md
-            - name: Mobil uygulamalarda raporlar
-              href: mobile/mobile-reports-in-the-mobile-apps.md
-            - name: Mobil uygulamalarda kutucuklarla etkileşim kurma
-              href: mobile/mobile-tiles-in-the-mobile-apps.md
-            - name: Power BI mobil uygulamalarından pano paylaşma
-              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-            - name: Mobil uygulamalarda sık kullanılanlar
-              href: mobile/mobile-apps-favorites.md
-            - name: Etkileşim ayarlarını yapılandırma (yalnızca telefon)
-              href: mobile/mobile-app-interaction-settings.md
-            - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
-              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-            - name: Power BI mobil uygulamalarında bildirim alma
-              href: mobile/mobile-apps-notification-center.md
-            - name: Belirli bir konuma yönlendirme yapan ayrıntılı bağlantı oluşturma
-              href: mobile/mobile-apps-deep-link-specific-location.md
-            - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
-              href: mobile/mobile-apps-geographic-filtering.md
-            - name: OAuth kullanarak Reporting Services'e bağlanma
-              href: mobile/mobile-oauth-ssrs.md
-        - name: iOS ve Android
-          items:
-            - name: Telefonunuz için iyileştirilmiş raporları görüntüleme
-              href: mobile/mobile-apps-view-phone-report.md
-            - name: Mobil uygulamalarda şirket içi raporları görüntüleme
-              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-            - name: Bir içeriğe dış kuruluştan erişme (B2B)
-              href: mobile/mobile-apps-b2b.md
-            - name: Telefonunuzdan bir Power BI QR kodunu tarama
-              href: mobile/mobile-apps-qr-code.md
-            - name: Mobil uygulamalarda not ekleme ve paylaşma
-              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Power BI mobil uygulamasında barkod tarama
-              href: mobile/mobile-apps-scan-barcode-iphone.md
-            - name: Mobil cihaz yönetimini kullanarak yapılandırma
-              href: mobile/mobile-app-configuration.md
-        - name: iOS
-          items:
-            - name: iOS uygulaması ile çalışmaya başlama
-              href: mobile/mobile-iphone-app-get-started.md
-            - name: 'Yüz Tanıma Kimliği, Touch ID veya Geçiş Kodu ile koruma'
-              href: mobile/mobile-ios-native-secure-access.md
-            - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
-              href: mobile/mobile-apps-ios-qna.md
-            - name: Siri Kısayolları ile Power BI mobil uygulaması tümleştirmesi
-              href: mobile/mobile-apps-iOS-siri-Shortcuts.md
-            - name: iOS cihazı arama tümleştirmesi
-              href: mobile/mobile-apps-iOS-search-integration.md
-            - name: Power BI Apple Watch uygulaması
-              href: mobile/mobile-apple-watch.md
-        - name: Android cihazlar
-          items:
-            - name: Android uygulaması ile çalışmaya başlama
-              href: mobile/mobile-android-app-get-started.md
-            - name: '"Kurumsal SSL sertifikanıza güvenilmiyor" hatalarını giderme'
-              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-            - name: '"Android System Webview''un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi'
-              href: mobile/mobile-android-error-update-android-system-webview.md
-        - name: Windows 10 cihazları için Power BI uygulaması
-          items:
-            - name: Windows 10 uygulaması ile çalışmaya başlama
-              href: mobile/mobile-windows-10-phone-app-get-started.md
-            - name: Panoyu Başlangıç ekranına sabitleme
-              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Raporlama Hizmetleri mobil raporlarını ve KPI'larını görüntüleme
-              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Power BI’yı Surface Hub’da görüntüleme
-              href: mobile/mobile-windows-10-app-presentation-mode.md
-            - name: Windows uygulamasında Çoklu Oturum Açma
-              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-    - name: Kaynaklar
-      items:
-        - name: Mobil uygulamalarda desteklenen diller
-          href: mobile/mobile-apps-supported-languages.md

@@ -1,4 +1,4 @@
-- name: Power BI yönetimi belgeleri
+- name: Power BI yönetici ve kurumsal
   href: index.yml
   expanded: true
   items:
@@ -9,8 +9,8 @@
           href: ../service-admin-administering-power-bi-in-your-organization.md
         - name: Kiracım nerede bulunur?
           href: ../service-admin-where-is-my-tenant-located.md
-        - name: Go Local German bölgelerine geçirme
-          href: service-admin-migrate-data-germany.md
+        - name: Power BI Premium nedir?
+          href: ../service-premium-what-is.md
     - name: Kavramlar
       expanded: true
       items:
@@ -20,6 +20,20 @@
           href: ../service-admin-faq.md
         - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
           href: ../service-admin-failover.md
+        - name: Go Local German bölgelerine geçirme
+          href: service-admin-migrate-data-germany.md
+        - name: Almanya'daki Cloud müşterileri için SSS
+          href: ../service-govde-faq.md
+        - name: Power BI Premium
+          items:
+            - name: Premium kapasiteleri yönetme
+              href: ../service-premium-capacity-manage.md
+            - name: Premium kapasiteleri iyileştirme
+              href: ../service-premium-capacity-optimize.md
+            - name: Premium kapasite senaryoları
+              href: ../service-premium-capacity-scenarios.md
+            - name: Power BI Premium hakkında SSS
+              href: ../service-premium-faq.md
     - name: Nasıl yapılır
       items:
         - name: Lisanslama ve kaydolma
@@ -28,6 +42,10 @@
               href: ../service-admin-licensing-organization.md
             - name: Power BI Pro satın alma
               href: ../service-admin-purchasing-power-bi-pro.md
+            - name: Power BI for US Government
+              href: ../service-govus-overview.md
+            - name: ABD Kamu kuruluşu kaydetme
+              href: ../service-govus-signup.md
             - name: Microsoft 365 Denemesine kaydolma
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Microsoft 365 iş ortağıyla Power BI ekleme
@@ -44,6 +62,8 @@
           href: ../service-admin-closing-your-account.md
         - name: Azure AD B2B hizmetini kullanma
           href: ../service-admin-azure-ad-b2b.md
+        - name: Power BI Desktop oturum açma formunu yönetme
+          href: ../desktop-admin-sign-in-form.md
         - name: Veri koruma
           items:
             - name: Veri korumaya genel bakış
@@ -58,6 +78,30 @@
           href: ../service-admin-rls.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: ../service-admin-mobile-intune.md
+        - name: Power BI Premium
+          items:
+            - name: Power BI Premium'u satın alma
+              href: ../service-admin-premium-purchase.md
+            - name: Kapasiteleri yapılandırma ve yönetme
+              href: ../service-admin-premium-manage.md
+            - name: İş yüklerini yapılandırma
+              href: ../service-admin-premium-workloads.md
+            - name: Uygulama ile kapasiteleri izleme
+              href: ../service-admin-premium-monitor-capacity.md
+            - name: Premium iş yükü ölçümlerini izleme
+              href: ../service-premium-metrics-app.md
+            - name: Yönetim portalında kapasiteleri izleme
+              href: ../service-admin-premium-monitor-portal.md
+            - name: Büyük modelleri yapılandırma (önizleme)
+              href: ../service-premium-large-models.md
+            - name: Multi-Geo özelliğini yapılandırma
+              href: ../service-admin-premium-multi-geo.md
+            - name: Kendi şifreleme anahtarlarınızı getirme
+              href: ../service-encryption-byok.md
+            - name: Premium kapasiteyi yeniden başlatma
+              href: ../service-admin-premium-restart.md
+            - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
+              href: ../service-premium-connect-tools.md
     - name: Başvuru
       items:
         - name: 'PowerShell, REST API’ler ve .NET SDK'
@@ -73,3 +117,23 @@
           href: ../service-admin-governance.md
         - name: Power BI güvenliği
           href: ../service-admin-power-bi-security.md
+        - name: Gizlilik düzeyleri
+          href: ../desktop-privacy-levels.md
+    - name: Sorun giderme
+      items:
+        - name: Oturum açamıyor musunuz?
+          href: ../power-bi-cannot-sign-in.md
+        - name: Power BI destek seçenekleri
+          href: ../service-support-options.md
+        - name: Hizmet kesintisi bildirimleri
+          href: ../service-interruption-notifications.md
+        - name: Power BI parolanızı mı unuttunuz?
+          href: ../service-admin-forgot-your-password.md
+        - name: Power BI için ek tanılama bilgileri yakalama
+          href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+        - name: Power BI için alternatif e-posta adresi
+          href: ../service-admin-alternate-email-address-for-power-bi.md
+        - name: Power BI ve Azure için aynı hesap oturumunu kullanma
+          href: ../service-admin-how-to-use-the-same-account-as-azure.md
+        - name: Office 365'e özel - bilinen sorunlar
+          href: ../service-admin-office-365-dedicated-known-issues.md

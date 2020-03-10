@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Power BI’da verilere bağlanma - belgeler
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI’da verilere bağlanma - belgeler
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924150"
+landingContent:
+- title: Power BI'daki verilere bağlanma
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Veri kaynakları
+      url: ../desktop-data-sources.md
+    - text: Power BI Desktop'taki veri görünümü
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: Web sayfasından verileri içeri aktarma
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: Ağ geçitleri
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Şirket içi veri ağ geçitleri
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: Şirket içi SQL Server verilerine bağlanma
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: Kişisel ağ geçitleri kullanma
+      url: ../service-gateway-personal-mode.md
+- title: Şablon uygulamalar
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Şablon uygulamalar nedir?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: Şablon uygulamalar oluşturma
+      url: ../service-template-apps-create.md
+    - text: Kuruluşunuzda şablon uygulamaları dağıtma
+      url: ../service-template-apps-install-distribute.md
+- title: Verileri yenile
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Veri yenileme
+      url: ../refresh-data.md
+    - text: Power BI Premium’da artımlı yenileme
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: Zamanlanmış yenileme yapılandırma
+      url: ../refresh-scheduled-refresh.md

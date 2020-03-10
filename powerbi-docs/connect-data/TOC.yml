@@ -1,0 +1,334 @@
+- name: Power BI'daki verilere bağlanma
+  href: index.yml
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Power BI’da veri kaynakları
+          href: ../service-get-data.md
+        - name: Şirket içi veri ağ geçidi nedir?
+          href: ../service-gateway-onprem.md
+    - name: Hızlı Başlangıçlar
+      expanded: true
+      items:
+        - name: Power BI Desktop'taki verilere bağlanma
+          href: ../desktop-quickstart-connect-to-data.md
+    - name: Öğreticiler
+      items:
+        - name: Birden çok veri kaynağını şekillendirme ve birleştirme
+          href: ../desktop-shape-and-combine-data.md
+        - name: Web sayfası verilerini içeri aktarma ve analiz etme
+          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+        - name: Excel’deki ve OData akışındaki satış verilerini analiz etme
+          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+        - name: Facebook verilerini analiz etme
+          href: ../desktop-tutorial-facebook-analytics.md
+        - name: Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
+          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+        - name: Power BI ile çalışmaya başlama
+          href: ../service-get-started.md
+        - name: GitHub örneğine bağlanma
+          href: ../service-tutorial-connect-to-github.md
+        - name: Excel’de Çözümleme’yi kullanma
+          href: ../service-tutorial-analyze-in-excel.md
+        - name: Bilişsel Hizmetler'i kullanma
+          href: ../service-tutorial-use-cognitive-services.md
+        - name: Machine Learning tümleştirmesi
+          href: ../service-tutorial-invoke-machine-learning-model.md
+        - name: Makine Öğrenmesi modeli oluşturma
+          href: ../service-tutorial-build-machine-learning-model.md
+        - name: Verileri SQL Server'dan yenileme
+          href: ../service-gateway-sql-tutorial.md
+    - name: Kavramlar
+      items:
+        - name: Power BI veri kaynakları
+          href: ../power-bi-data-sources.md
+        - name: Power BI veri kaynağı önkoşulları
+          href: ../desktop-data-source-prerequisites.md
+        - name: Power BI’da çok boyutlu modellerle çalışma
+          href: ../desktop-default-member-multidimensional-models.md
+        - name: Power BI'da DirectQuery kullanma hakkında
+          href: ../desktop-directquery-about.md
+        - name: Ağ geçitleri
+          items:
+            - name: Veri ağ geçidi dağıtmaya ilişkin yönergeler
+              href: ../service-gateway-deployment-guidance.md
+            - name: Şirket içi veri ağ geçidi hakkında SSS
+              href: ../service-gateway-power-bi-faq.md
+    - name: Nasıl yapılır kılavuzları
+      items:
+        - name: Veri kaynaklarına bağlanma
+          href: ../desktop-connect-to-data.md
+        - name: Verilere bağlanma
+          items:
+            - name: Veri kaynaklarına bağlanma
+              href: ../desktop-data-sources.md
+            - name: SharePoint Listesinde rapor oluşturma
+              href: ../desktop-sharepoint-online-list.md
+            - name: LinkedIn Satış Gezgini'ne bağlanma
+              href: ../desktop-connect-linkedin-sales-navigator.md
+            - name: Örnek sağlayarak web sayfası verilerini alma
+              href: ../desktop-connect-to-web-by-example.md
+            - name: Power BI hizmetindeki veri kümelerine bağlanma
+              href: ../desktop-report-lifecycle-datasets.md
+            - name: Excel çalışma kitaplarını içeri aktarma
+              href: ../desktop-import-excel-workbooks.md
+            - name: Power BI Desktop genel arabirimleri ile verilere bağlanma
+              href: ../desktop-connect-using-generic-interfaces.md
+            - name: PDF dosyalarına bağlanma
+              href: ../desktop-connect-pdf.md
+            - name: Adobe Analytics’e bağlan
+              href: ../desktop-connect-adobe-analytics.md
+            - name: Oracle veritabanlarına bağlanma
+              href: ../desktop-connect-oracle-database.md
+            - name: Python
+              items:
+                - name: Python betiklerini çalıştırma
+                  href: ../desktop-python-scripts.md
+                - name: Sorgu Düzenleyicisi'nde Python kullanma
+                  href: ../desktop-python-in-query-editor.md
+                - name: Dış Python IDE'lerini kullanma
+                  href: ../desktop-python-ide.md
+                - name: Python ile görsel oluşturma
+                  href: ../desktop-python-visuals.md
+            - name: R betiklerini çalıştırma
+              href: ../desktop-r-scripts.md
+            - name: Sorgu Düzenleyicisi'nde R kullanma
+              href: ../desktop-r-in-query-editor.md
+            - name: Dış R IDE'lerini kullanma
+              href: ../desktop-r-ide.md
+            - name: R paketleri ile görsel oluşturma
+              href: ../service-r-packages-support.md
+            - name: Verileri doğrudan Power BI Desktop'a girme
+              href: ../desktop-enter-data-directly-into-desktop.md
+            - name: Excel çalışma kitaplarına bağlanma
+              href: ../desktop-connect-excel.md
+            - name: SSAS çok boyutlu modellerine bağlanma
+              href: ../desktop-ssas-multidimensional.md
+            - name: CSV dosyalarına bağlanma
+              href: ../desktop-connect-csv.md
+            - name: Google BigQuery veritabanına bağlanma
+              href: ../desktop-connect-bigquery.md
+            - name: Impala veritabanlarına bağlanma
+              href: ../desktop-connect-impala.md
+            - name: OData akışlarına bağlanma
+              href: ../desktop-connect-odata.md
+            - name: Bir Amazon Redshift veritabanına bağlanma
+              href: ../desktop-connect-redshift.md
+            - name: Web sayfalarına bağlanma
+              href: ../desktop-connect-to-web.md
+            - name: Bir Snowflake bilgi işlem ambarına bağlanma
+              href: ../desktop-connect-snowflake.md
+            - name: Azure Maliyet Yönetimi bağlayıcısı ile görsel oluşturma
+              href: ../desktop-connect-azure-cost-management.md
+            - name: Azure Tüketim Öngörüleri verilerine bağlanma
+              href: ../desktop-connect-azure-consumption-insights.md
+            - name: SAP HANA veritabanlarına bağlanma
+              href: ../desktop-sap-hana.md
+            - name: SAP HANA için şifrelemeyi etkinleştirme
+              href: ../desktop-sap-hana-encryption.md
+            - name: Analysis Services tablosal verilerine bağlanma
+              href: ../desktop-analysis-services-tabular-data.md
+            - name: DirectQuery ile veri kaynaklarına bağlanma
+              href: ../desktop-use-directquery.md
+            - name: DirectQuery ile SAP Business Warehouse’a bağlanma
+              href: ../desktop-directquery-sap-bw.md
+            - name: DirectQuery ile SAP HANA veri kaynaklarına bağlanma
+              href: ../desktop-directquery-sap-hana.md
+            - name: Bilgi Tutarlılığı Varsay ayarını uygulama
+              href: ../desktop-assume-referential-integrity.md
+            - name: SAP BW Bağlayıcısı ile SAP BW verilerine erişme
+              href: ../desktop-sap-bw-connector.md
+            - name: OneDrive İş bağlantılarını kullanma
+              href: ../desktop-use-onedrive-business-links.md
+            - name: 'Üçüncü taraf hizmeti: Facebook bağlayıcısını kullanma'
+              href: ../service-facebook-connector.md
+            - name: 'Üçüncü taraf hizmeti: Google Analytics bağlayıcısını kullanma'
+              href: ../service-google-analytics-connector.md
+            - name: Power BI Desktop aracılığıyla Project Online verilerine bağlanma
+              href: ../desktop-project-online-connect-to-data.md
+        - name: Dosyalardan veri alma
+          items:
+            - name: Dosyalardan veri alma
+              href: ../service-get-data-from-files.md
+            - name: Excel'den büyüleyici raporlara
+              href: ../service-from-excel-to-stunning-report.md
+            - name: Excel çalışma kitabı dosyalarından veri alma
+              href: ../service-excel-workbook-files.md
+            - name: Power BI Desktop dosyalarından veri alma
+              href: ../service-desktop-files.md
+            - name: Parametreleri düzenleme
+              href: ../service-parameters.md
+            - name: Virgülle ayrılmış değer (.csv) dosyalarından veri alma
+              href: ../service-comma-separated-value-files.md
+            - name: Power BI'da gerçek zamanlı akış
+              href: ../service-real-time-streaming.md
+            - name: Excel'deki içeriği Power BI'da yayımlama
+              href: ../service-publish-from-excel.md
+            - name: Excel çalışma kitabının boyutunu azaltma
+              href: ../reduce-the-size-of-an-excel-workbook.md
+        - name: Paylaşılan veri kümelerinden veri alma
+          items:
+            - name: Veri kümelerini çalışma alanları arasında kullanma
+              href: ../service-datasets-across-workspaces.md
+            - name: Veri kümelerini paylaşma (Önizleme)
+              href: ../service-datasets-share.md
+            - name: Paylaşılan veri kümeleri için oluşturma izni
+              href: ../service-datasets-build-permissions.md
+            - name: Veri kümelerine dayalı raporlar oluşturma
+              href: ../service-datasets-discover-across-workspaces.md
+            - name: Veri kümelerine dayalı raporları kopyalama
+              href: ../service-datasets-copy-reports.md
+            - name: Veri kümelerinin kullanımını denetleme
+              href: ../service-datasets-admin-across-workspaces.md
+        - name: Veri kümelerini destekleme
+          items:
+            - name: Veri kümelerini yükseltme
+              href: ../service-datasets-promote.md
+            - name: Veri kümelerini onaylama
+              href: ../service-datasets-certify.md
+        - name: Veritabanlarından veri alma
+          items:
+            - name: Azure ve Power BI
+              href: ../service-azure-and-power-bi.md
+            - name: Power BI ve Azure çıkışı
+              href: ../service-azure-egress-power-bi.md
+            - name: DirectQuery ile Azure SQL Veri Ambarı
+              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+            - name: DirectQuery ile Azure SQL Veritabanı
+              href: ../service-azure-sql-database-with-direct-connect.md
+            - name: Power BI'da SQL Server Analysis Services canlı verileri
+              href: ../sql-server-analysis-services-tabular-data.md
+        - name: Verileri yenile
+          items:
+            - name: Power BI'da veri yenileme
+              href: ../refresh-data.md
+            - name: Zamanlanmış yenileme yapılandırma
+              href: ../refresh-scheduled-refresh.md
+            - name: Artımlı yenilemeyi yapılandırma
+              href: ../service-premium-incremental-refresh.md
+            - name: Yerel bir Power BI Desktop dosyasından veri kümesini yenileme
+              href: ../refresh-desktop-file-local-drive.md
+            - name: Buluttaki Power BI Desktop dosyasından veri kümesini yenileme
+              href: ../refresh-desktop-file-onedrive.md
+            - name: Yerel bir Excel çalışma kitabından veri kümesini yenileme
+              href: ../refresh-excel-file-local-drive.md
+            - name: Buluttaki Excel çalışma kitabından veri kümesini yenileme
+              href: ../refresh-excel-file-onedrive.md
+            - name: OneDrive’daki bir .csv dosyasında bulunan veri kümelerini yenileme
+              href: ../refresh-csv-file-onedrive.md
+            - name: Power BI Premium’da sorgu önbelleğe alma
+              href: ../power-bi-query-caching.md
+        - name: Şablon uygulamalar
+          items:
+            - name: Şablon uygulamalara genel bakış
+              href: ../service-template-apps-overview.md
+            - name: Şablon uygulamalar oluşturma
+              href: ../service-template-apps-create.md
+            - name: Şablon uygulamalar oluşturmaya ilişkin ipuçları
+              href: ../service-template-apps-tips.md
+            - name: Şablon uygulamaları yükleme ve dağıtma
+              href: ../service-template-apps-install-distribute.md
+            - name: 'Power BI şablon uygulaması güncelleştirme, silme ve ayıklama'
+              href: ../service-template-update-delete-extract.md
+            - name: Şablon uygulamaları örnekleri
+              href: ../service-template-apps-samples.md
+        - name: Sorun giderme
+          items:
+            - name: Yenileme ile ilgili sorun giderme senaryoları
+              href: ../refresh-troubleshooting-refresh-scenarios.md
+            - name: Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
+              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+            - name: Azure SQL Veritabanları için zamanlanmış yenileme ile ilgili sorunları giderme
+              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: Excel’de çözümleme sorunlarını giderme
+              href: ../desktop-troubleshooting-analyze-in-excel.md
+            - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
+              href: ../service-admin-troubleshoot-excel-workbook-data.md
+            - name: Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
+              href: ../service-refresh-xero-credentials.md
+        - name: Hizmetlere bağlanma
+          items:
+            - name: Uygulamalarla hizmetlere bağlanma
+              href: ../service-connect-to-services.md
+            - name: GitHub
+              href: ../service-connect-to-github.md
+            - name: Microsoft Sürdürülebilirlik Hesaplayıcısı
+              href: ../service-connect-to-microsoft-sustainability-calculator.md
+            - name: Office365Mon
+              href: ../service-connect-to-office365mon.md
+            - name: Project Online
+              href: ../service-connect-to-project-online.md
+            - name: QuickBooks Online
+              href: ../service-connect-to-quickbooks-online.md
+            - name: Salesforce
+              href: ../service-connect-to-salesforce.md
+            - name: Smartsheet
+              href: ../service-connect-to-smartsheet.md
+            - name: Xero
+              href: ../service-connect-to-xero.md
+            - name: Zendesk
+              href: ../service-connect-to-zendesk.md
+        - name: Ağ geçitleri
+          items:
+            - name: Şirket içi veri ağ geçidi (ayrıntılı)
+              href: ../service-gateway-onprem-indepth.md
+            - name: Şirket içi veri ağ geçidi (kişisel mod)
+              href: ../service-gateway-personal-mode.md
+            - name: Ağ geçidi veri kaynaklarını yönetme
+              items:
+                - name: Veri kaynaklarını yönetme
+                  href: ../service-gateway-data-sources.md
+                - name: Kurumsal veri kaynağınızı yönetme - Analysis Services
+                  href: ../service-gateway-enterprise-manage-ssas.md
+                - name: Kurumsal veri kaynağınızı yönetme - SAP HANA
+                  href: ../service-gateway-enterprise-manage-sap.md
+                - name: Kurumsal veri kaynağınızı yönetme - SQL
+                  href: ../service-gateway-enterprise-manage-sql.md
+                - name: Veri kaynağınızı yönetme - Oracle
+                  href: ../service-gateway-onprem-manage-oracle.md
+                - name: Kurumsal veri kaynağınızı yönetme - içeri aktarma/zamanlanmış yenileme
+                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                - name: Şirket içindeki ve buluttaki veri kaynaklarını birleştirme
+                  href: ../service-gateway-mashup-on-premises-cloud.md
+            - name: Çoklu oturum açmayı etkinleştir (SSO)
+              items:
+                - name: SSO’ya genel bakış
+                  href: ../service-gateway-sso-overview.md
+                - name: Kerberos tabanlı SSO
+                  items:
+                    - name: Kerberos tabanlı SSO’yu yapılandırma
+                      href: ../service-gateway-sso-kerberos.md
+                    - name: Veri kaynağına özgü yapılandırma
+                      items:
+                        - name: SAP HANA
+                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                        - name: SAP BW - sapcrypto.dll (Ortak Şifre Kitaplığı)
+                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                        - name: SAP BW - gx64krb5.dll
+                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                - name: SAML tabanlı SSO
+                  href: ../service-gateway-sso-saml.md
+            - name: Ağ geçidi sorunlarını giderme
+              href: ../service-gateway-onprem-tshoot.md
+            - name: Ağ geçidi sorunlarını giderme (bireysel mod)
+              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Özel bağlayıcılar kullanma
+              href: ../service-gateway-custom-connectors.md
+        - name: Sorun giderme
+          items:
+            - name: Access ve Excel .xls dosyalarını içeri aktarma sorunlarını giderme
+              href: ../desktop-access-database-errors.md
+            - name: Power BI Desktop uygulamasını açma sorunlarını giderme
+              href: ../desktop-error-launching-desktop.md
+            - name: DirectQuery modellerini geliştirme sorunlarını giderme
+              href: ../desktop-directquery-troubleshoot.md
+    - name: Başvuru
+      items:
+        - name: Power BI Desktop'taki veri türleri
+          href: ../desktop-data-types.md
+        - name: Bağlayıcı genişletilebilirliği
+          href: ../desktop-connector-extensibility.md
+        - name: Güvenilen üçüncü taraf bağlayıcılar
+          href: ../desktop-trusted-third-party-connectors.md

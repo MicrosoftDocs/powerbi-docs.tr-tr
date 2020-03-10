@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Power BI Rapor Sunucusu belgeleri
+summary: Power BI Rapor Sunucusu belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI Rapor Sunucusu belgeleri
+  description: Power BI Rapor Sunucusu belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924633"
+landingContent:
+- title: Power BI Rapor Sunucusu hakkında
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI Rapor Sunucusu nedir?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: Rapor sunucusu ile hizmeti karşılaştırma
+      url: compare-report-server-service.md
+    - text: Power BI Rapor Sunucusu'ndaki yenilikler
+      url: whats-new.md
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Bir VM’de Power BI Rapor Sunucusunu keşfedin
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: Yöneticiye genel bakış
+      url: admin-handbook-overview.md
+    - text: Geliştiriciler için genel bakış
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Desktop uygulamasını yükleme
+      url: install-powerbi-desktop.md
+    - text: Rapor Oluşturucusu’nu yükleyin
+      url: install-report-builder.md
+- title: Yöneticiler için rapor sunucusu
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Donanım ve yazılım gereksinimleri
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: Rapor sunucusu yükleme
+      url: install-report-server.md
+    - text: Rapor sunucusu ürün anahtarını bulma
+      url: find-product-key.md
+    - text: Bir rapor sunucusu yüklemesini geçirme
+      url: migrate-report-server.md
+    - text: Kerberos’u yapılandırma
+      url: configure-kerberos-powerbi-reports.md
+- title: Rapor oluşturucuları için rapor sunucusu
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI raporlarında zamanlanmış yenileme
+      url: scheduled-refresh.md
+    - text: Power BI raporu veri kaynakları
+      url: data-sources.md
+    - text: Sayfalandırılmış rapor veri kaynakları
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI raporu oluşturma
+      url: quickstart-create-powerbi-report.md
+    - text: Web portalında içeriği yönetme
+      url: getting-around.md
+    - text: Paylaşılan veri kümelerine OData akışı olarak erişme
+      url: access-dataset-odata.md
+    - text: Satır düzeyi güvenlik
+      url: row-level-security-report-server.md

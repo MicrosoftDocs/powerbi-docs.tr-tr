@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: Power BI’da raporlar ve panolar oluşturma - belgeler
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI’da raporlar ve panolar oluşturma - belgeler
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924196"
+landingContent:
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Güncelleştirilmiş şeridi kullanma
+      url: ../desktop-ribbon.md
+    - text: Erişilebilirliğe genel bakış
+      url: ../desktop-accessibility-overview.md
+    - text: Örnek verileri alma
+      url: ../sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: Örnek paketleri içeri aktarma ve açma
+      url: ../sample-tutorial-connect-to-the-samples.md
+  - linkListType: concept
+    links:
+    - text: Rapor görünümü
+      url: ../desktop-report-view.md
+- title: Görselleştirmeler
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Görselleştirmelere genel bakış
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: Görselleştirme türleri
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: Haritalar için ipuçları ve püf noktaları
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: Bir görseldeki verileri dışarı aktarma
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: Dilimleyiciler
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: Tasarım raporları
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Rapor temaları
+      url: ../desktop-report-themes.md
+    - text: Metin kutuları ve şekiller
+      url: ../power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: Koşullu tablo biçimlendirmesi
+      url: ../desktop-conditional-table-formatting.md
+    - text: Gruplandırma ve gruplamayı kullanma
+      url: ../desktop-grouping-and-binning.md
+    - text: Rapora yer işaretleri ekleme
+      url: ../desktop-bookmarks.md
+- title: Rapor etkileşimleri tasarlama
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop'taki rapor görünümü
+      url: ../desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: Soru-Cevap ile verileri keşfetme
+      url: ../power-bi-tutorial-q-and-a.md
+    - text: Raporda detaylandırmayı kullanma
+      url: ../desktop-drillthrough.md
+    - text: Rapora yer işaretleri ekleme
+      url: ../desktop-bookmarks.md
+    - text: Rapora filtre ekleme
+      url: ../power-bi-report-filter.md
+- title: Power BI sayfalandırılmış raporlar
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI sayfalandırılmış raporlar nedir?
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Power BI’da Rapor Oluşturucusu
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: İfade örnekleri
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: Tablolar, matrisler ve listeler
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: Paylaşılan veri kümesinde rapor oluşturma
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: Parametreler oluşturma
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: Panolar
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Panolara giriş
+      url: ../service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: Pano oluşturma
+      url: ../service-dashboard-create.md
+    - text: Kutucuğu bir panoya sabitleme
+      url: ../service-share-dashboards.md
+    - text: Panoya görüntü veya video ekleme
+      url: ../service-dashboard-add-widget.md

@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power BI yönetimi belgeleri
-summary: Power BI yönetimi belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+title: Power BI yönetici ve kurumsal belgeleri
+summary: Power BI yönetici ve kurumsal belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
 metadata:
-  title: Power BI yönetimi belgeleri
-  description: Power BI yönetimi belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  title: Power BI yönetici ve kurumsal belgeleri
+  description: Power BI yönetici ve kurumsal belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -11,15 +11,15 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 533b8dc4ccc800e3120f3a01c6069e224c2df27e
-  ms.sourcegitcommit: ee0ea65de52b38e5976d6eb15516b0b240fa40f9
+  ms.date: 03/03/2020
+  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/26/2019
-  ms.locfileid: "72959517"
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78919444"
 landingContent:
-- title: Yöneticiler için Power BI hakkında
+- title: Yöneticiler ve kurumlar için Power BI
   linkLists:
   - linkListType: overview
     links:
@@ -29,7 +29,7 @@ landingContent:
     links:
     - text: Office 365'teki yönetim rolü
       url: ../service-admin-role.md
-- title: Başlangıç
+- title: Kullanmaya başlayın
   linkLists:
   - linkListType: concept
     links:
@@ -46,6 +46,20 @@ landingContent:
     - text: Bir Office 365 iş ortağı ile Power BI ekleme
       url: ../service-admin-syndication-partner.md
 - title: Kiracılar
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Kiracım nerede bulunur?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Oturum açan kullanıcıları bulma
+      url: ../service-admin-access-usage.md
+    - text: Power BI uygulamasını denetleme
+      url: ../service-admin-auditing.md
+    - text: Hizmet durumunu izleme
+      url: ../service-admin-health.md
+    - text: Power BI hesabınızı kapatma
+      url: ../service-admin-closing-your-account.md
+- title: Power BI Premium
   linkLists:
   - linkListType: how-to-guide
     links:

@@ -1,0 +1,124 @@
+- name: Power BI Rapor Sunucusu
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Power BI Rapor Sunucusu nedir?
+          href: get-started.md
+        - name: Power BI Rapor Sunucusu ile hizmeti karşılaştırma
+          href: compare-report-server-service.md
+    - name: Öğreticiler
+      expanded: true
+      items:
+        - name: Bir VM’de Power BI Rapor Sunucusunu keşfedin
+          href: tutorial-explore-report-server-web-portal.md
+    - name: Kavramlar
+      expanded: true
+      items:
+        - name: Yenilikler
+          href: whats-new.md
+        - name: Yöneticiye genel bakış
+          href: admin-handbook-overview.md
+        - name: Değişiklik günlüğü
+          href: changelog.md
+        - name: Destek zaman çizelgesi
+          href: support-timeline.md
+        - name: Always Encrypted desteği
+          href: always-encrypted-support.md
+        - name: Donanım ve yazılım gereksinimleri
+          href: system-requirements.md
+        - name: Tarayıcı desteği
+          href: browser-support.md
+        - name: Rapor sunucusu temel bilgileri
+          items:
+            - name: Power BI raporlarında zamanlanmış yenileme
+              href: scheduled-refresh.md
+            - name: Power BI raporu veri kaynakları
+              href: data-sources.md
+            - name: Sayfalandırılmış rapor veri kaynakları
+              href: connect-data-sources.md
+            - name: Abonelikler
+              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: Mobil uygulamayı kullanma
+              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+            - name: Zamanlanmış yenileme ile ilgili sorunları giderme
+              href: scheduled-refresh-troubleshoot.md
+        - name: Geliştiriciler için rapor sunucusu
+          items:
+            - name: Geliştiriciler için rapor sunucusu
+              href: developer-handbook-overview.md
+            - name: Rapor Görüntüleyicisi denetimi
+              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+            - name: Uzantı geliştirme
+              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+            - name: Rapor ekleme
+              href: quickstart-embed.md
+    - name: Nasıl yapılır
+      items:
+        - name: Power BI Desktop uygulamasını yükleme
+          href: install-powerbi-desktop.md
+        - name: Rapor Oluşturucusu’nu yükleyin
+          href: install-report-builder.md
+        - name: Rapor sunucusu temel bilgileri
+          items:
+            - name: Bir rapor sunucusu için Power BI raporu oluşturma
+              href: quickstart-create-powerbi-report.md
+            - name: Rapor sunucusunda içeriği yönetme
+              href: getting-around.md
+            - name: Rapor sunucusunda satır düzeyi güvenlik (RLS)
+              href: row-level-security-report-server.md
+            - name: Bir rapor sunucusu için sayfalandırılmış rapor oluşturma
+              href: quickstart-create-paginated-report.md
+            - name: Verileri doğrudan sayfalandırılmış bir rapora girme
+              href: ../paginated-reports/paginated-reports-enter-data.md
+            - name: KPI’lerle çalışma
+              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+            - name: Paylaşılan veri kümelerine OData akışı olarak erişme
+              href: access-dataset-odata.md
+            - name: PowerShell ile veri kaynağı bağlantı dizelerini değiştirme
+              href: connect-data-source-apis.md
+            - name: Zamanlanmış yenileme yapılandırma
+              href: configure-scheduled-refresh.md
+            - name: Raporlara açıklama ekleme
+              href: add-comments.md
+        - name: Yöneticiler için rapor sunucusu
+          items:
+            - name: Rapor sunucusu yükleme
+              href: install-report-server.md
+            - name: Ürün anahtarınızı bulma
+              href: find-product-key.md
+            - name: Rapor sunucularını yükseltme
+              href: upgrade.md
+            - name: Rapor sunucularını geçirme
+              href: migrate-report-server.md
+            - name: Power BI raporlarını kullanmak için Kerberos'u yapılandırma
+              href: configure-kerberos-powerbi-reports.md
+            - name: Mobil uygulama erişimini uzaktan yapılandırma
+              href: configure-powerbi-mobile-apps-remote.md
+            - name: WAP ve AD FS’yi yapılandırma
+              href: connect-adfs-wap-report-server.md
+            - name: Azure Uygulama Ara Sunucusu ile rapor sunucusu yapılandırma
+              href: azure-application-proxy.md
+            - name: Azure AD ile uzaktan mobil erişim
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+            - name: Excel çalışma kitapları barındırma
+              href: excel-oos.md
+    - name: Başvuru
+      items:
+        - name: REST API
+          href: rest-api.md
+        - name: WMI
+          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+        - name: SOAP API'leri
+          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+        - name: URL Erişimi
+          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+        - name: Uzantılar
+          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+    - name: Kaynaklar
+      items:
+        - name: Kapasite planlamaya ilişkin teknik inceleme
+          href: capacity-planning.md
+        - name: PDF İşleme Uzantısı uyumluluğu
+          href: rendering-extension-support.md

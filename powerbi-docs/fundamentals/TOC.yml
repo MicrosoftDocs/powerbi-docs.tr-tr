@@ -1,0 +1,55 @@
+- name: Power BI ile çalışmaya başlama - belgeler
+  href: index.yml
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Power BI nedir?
+          href: ../power-bi-overview.md
+        - name: Power BI Desktop nedir?
+          href: ../desktop-what-is-desktop.md
+        - name: Power BI hizmeti nedir?
+          href: ../power-bi-service-overview.md
+        - name: Power BI Desktop ile hizmeti karşılaştırma
+          href: ../service-service-vs-desktop.md
+    - name: Kavramlar
+      items:
+        - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
+          href: ../desktop-latest-update.md
+        - name: Power BI hizmetindeki yenilikler
+          href: ../service-whats-new.md
+        - name: Power BI hizmetini anlama
+          href: ../service-basic-concepts.md
+        - name: Yardım almaya yönelik on ipucu
+          href: ../service-tips-for-finding-help.md
+        - name: Lisanslama
+          items:
+            - name: Power BI'a kaydolma
+              href: ../service-self-service-signup-for-power-bi.md
+            - name: Lisans türüne göre özellikler
+              href: ../service-features-license-type.md
+    - name: Nasıl yapılır kılavuzları
+      items:
+        - name: Power BI Desktop uygulamasını edinme
+          href: ../desktop-get-the-desktop.md
+        - name: Power BI Desktop ile çalışmaya başlama
+          href: ../desktop-getting-started.md
+    - name: Başvuru
+      items:
+        - name: Desteklenen diller ve ülkeler/bölgeler
+          href: ../supported-languages-countries-regions.md
+        - name: Desteklenen tarayıcılar
+          href: ../power-bi-browsers.md
+    - name: Kaynaklar
+      items:
+        - name: Videolar
+          href: ../videos.md
+        - name: Web Seminerleri
+          href: ../webinars.md
+        - name: Power BI Desktop videoları
+          href: ../desktop-videos.md
+        - name: Power BI Desktop güncelleştirmeleri arşivi
+          href: ../desktop-latest-update-archive.md
+        - name: Power BI Desktop Gülümseme Gönder Gizlilik Bildirimi
+          href: ../desktop-send-smile-privacy-statement.md

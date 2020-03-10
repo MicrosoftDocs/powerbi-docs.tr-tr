@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Power BI ile ürünler arasında işbirliği yapma, paylaşma ve tümleştirme - belgeler
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+metadata:
+  title: Power BI ile ürünler arasında işbirliği yapma, paylaşma ve tümleştirme - belgeler
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 4eda6f30d043ac4b1001d6f37ab0dcf6d6ec33b0
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924012"
+landingContent:
+- title: İşbirliği yapmaya ve çalışmaya başlama
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Çalışmanızı paylaşmanın yolları
+      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop ile Power BI hizmetini karşılaştırma
+      url: ../service-service-vs-desktop.md
+- title: İş arkadaşlarınızla işbirliği yapma
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Çalışma alanları arasında veri kümelerine giriş
+      url: ../service-datasets-across-workspaces.md
+    - text: Paylaşılan veri kümeleri için oluşturma izinleri
+      url: ../service-datasets-build-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: Yeni çalışma alanlarında çalışmayı düzenleme
+      url: ../service-new-workspaces.md
+- title: Çalışmanızı paylaşma
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Uygulamayı yayımlama
+      url: ../service-create-distribute-apps.md
+    - text: Kullanım ölçümlerini izleme
+      url: ../service-modern-usage-metrics.md
+  - linkListType: how-to-guide
+    links:
+    - text: Raporları ve panoları paylaşma
+      url: ../service-share-dashboards.md
+    - text: Rapor filtreleme ve paylaşma
+      url: ../service-share-reports.md
+    - text: Veri kümesini paylaşma
+      url: ../service-datasets-share.md
+- title: Diğer hizmetlerle tümleştirme
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Azure ve Power BI
+      url: ../service-azure-and-power-bi.md
+    - text: Excel’de Analiz Et
+      url: ../service-analyze-in-excel.md
+  - linkListType: how-to-guide
+    links:
+    - text: SharePoint Online'a ekle
+      url: ../service-embed-report-spo.md
