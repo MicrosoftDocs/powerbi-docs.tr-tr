@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 302fc836908754d2410d21fea48d99996ae5cd8a
+  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924196"
+  ms.lasthandoff: 03/10/2020
+  ms.locfileid: "79041413"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
@@ -116,6 +116,6 @@ landingContent:
     - text: Pano oluşturma
       url: ../service-dashboard-create.md
     - text: Kutucuğu bir panoya sabitleme
-      url: ../service-share-dashboards.md
+      url: ../service-dashboard-pin-tile-from-report.md
     - text: Panoya görüntü veya video ekleme
       url: ../service-dashboard-add-widget.md

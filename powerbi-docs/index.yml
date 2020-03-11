@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: f49dfe708430969802e6f3b75d330c3ca6ca2e62
+  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924311"
+  ms.lasthandoff: 03/10/2020
+  ms.locfileid: "79041137"
 highlightedContent:
   items:
   - title: Power BI Desktop ile çalışmaya başlama
@@ -135,10 +135,10 @@ conceptualContent:
     - url: desktop-report-themes.md
       itemType: concept
       text: Rapor temaları
-    - url: desktop-conditional-table-formatting.md
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: Sayfalandırılmış raporlar nedir?
-    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+    - url: service-dashboard-create.md
       itemType: how-to-guide
       text: Pano oluşturma
     footerLink:

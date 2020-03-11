@@ -1,4 +1,5 @@
-- name: Power BI Rapor Sunucusu
+- name: Power BI Rapor Sunucusu belgeleri
+  href: index.yml
   expanded: true
   items:
     - name: Genel Bakış
