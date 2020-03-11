@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162423"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920779"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Sayfalandırılmış raporlarda basamaklı parametreleri kullanma
 
-Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Basamaklı parametreler tasarlama senaryoları sağlar. Basamaklı parametreler, bağımlılıkları olan rapor parametreleridir. Rapor kullanıcısı parametre değeri (veya değerleri) seçtiğinde, bu başka bir parametrenin kullanılabilir değerlerini ayarlamak için kullanılır.
+Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports/paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Basamaklı parametreler tasarlama senaryoları sağlar. Basamaklı parametreler, bağımlılıkları olan rapor parametreleridir. Rapor kullanıcısı parametre değeri (veya değerleri) seçtiğinde, bu başka bir parametrenin kullanılabilir değerlerini ayarlamak için kullanılır.
 
 > [!NOTE]
 > Basamaklı parametrelere giriş bilgileri ve bunların nasıl yapılandırılacağı bu makalenin kapsamına alınmamıştır. Basamaklı parametreleri tam olarak bilmiyorsanız, önce [Rapora Basamaklı Parametreler Ekleme (Report Builder ve SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs) makalesini okumanızı öneririz.
@@ -37,9 +37,9 @@ Bu makalede gösterilen örneklerde Azure SQL Veritabanı temel alınmıştır. 
 
 - ResellerCode (tamsayı)
 - ResellerName
-- Country-Region
+- Ülke-Bölge
 - State-Province
-- City
+- Şehir
 - PostalCode
 
 **Sales** (Satışlar) adlı da bir tablo vardır. Satış siparişi kayıtlarını depolar ve **Reseller Code** sütununda **Reseller** tablosuyla arasında yabancı anahtar ilişkisi bulunur.
@@ -281,7 +281,7 @@ Aşağıdakileri yaparak veri kaynaklarını iyileştirdiğinizden emin olun:
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Report Builder’da rapor parametreleri](../report-builder-parameters.md)
+- [Power BI Report Builder’da rapor parametreleri](../paginated-reports/report-builder-parameters.md)
 - [Rapora Basamaklı Parametreler Ekleme (Report Builder ve SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530384"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920719"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Sayfalandırılmış raporlar için görüntü kullanım kılavuzu
 
-Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Görüntülerle çalışırken öneriler sunar. Rapor düzenlerindeki görüntüler genellikle şirket logosu veya resimler gibi grafik öğeleri görüntüleyebilir.
+Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports/paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Görüntülerle çalışırken öneriler sunar. Rapor düzenlerindeki görüntüler genellikle şirket logosu veya resimler gibi grafik öğeleri görüntüleyebilir.
 
 Görüntüler üç farklı konumda depolanabilir:
 
@@ -53,6 +53,6 @@ Profesyonel rapor düzenleri, bakım kolaylığı ve iyileştirilmiş rapor perf
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

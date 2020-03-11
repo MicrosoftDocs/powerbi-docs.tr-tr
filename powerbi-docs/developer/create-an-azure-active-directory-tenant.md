@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265128"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041459"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 
-[Power BI REST API'lerini](rest-api-reference.md) çağıran özel uygulama için yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
+[Power BI REST API'lerini](automation/rest-api-reference.md) çağıran özel uygulama için yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
 
 Kiracı, Azure Active Directory'de bir kuruluşu temsil eder. Kuruluşunuzun Azure, Microsoft Intune veya Office 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu ayrılmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı diğer Azure AD kiracılarından ayrıdır.
 
-Azure AD kiracısına sahip olduktan sonra bir uygulama tanımlayabilir ve [Power BI REST API'lerini](rest-api-reference.md) çağırabilmesi için uygulamanıza izin atayabilirsiniz.
+Azure AD kiracısına sahip olduktan sonra bir uygulama tanımlayabilir ve [Power BI REST API'lerini](automation/rest-api-reference.md) çağırabilmesi için uygulamanıza izin atayabilirsiniz.
 
 Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracısına sahip olabilir. Ayrıca özel olarak uygulamanız için yeni kiracı da oluşturabilirsiniz. Bu makalede yeni kiracının nasıl oluşturulduğu gösterilir.
 

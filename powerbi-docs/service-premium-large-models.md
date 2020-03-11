@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260888"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401942"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 
@@ -123,7 +123,7 @@ Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
 
 ## <a name="availability-in-regions"></a>Bölgelerdeki kullanılabilirlik
 
-Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
+Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
 
 Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölgeler listelenir. Aşağıdaki listede yer almayan bölgeler, büyük modeller için desteklenmez:
 
@@ -156,7 +156,7 @@ Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölge
 
 Aşağıdaki bağlantılarda, büyük modellerle çalışırken yararlı olabilecek bilgiler sağlanır:
 
-* [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium için Multi-Geo desteğini yapılandırma](service-admin-premium-multi-geo.md)
 * [Power BI için kendi anahtarını getir şifrelemesi](service-encryption-byok.md)
 * [Kapasiteler nasıl çalışır?](service-premium-what-is.md#how-capacities-function)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539795"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946852"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -166,7 +166,7 @@ Power BI yöneticileri ve tasarımcılarının özel verileri korumak için kull
 
 - Veri kümesi sahipleri satır düzeyi güvenlik (RLS) ayarlayabilir. RLS erişimi salt okuma kullanıcılarıyla kısıtlar. Ama uygulama çalışma alanını yapılandırdıysanız ve üyelerine düzenleme izinleri verdiyseniz, RLS rolleri söz konusu üyeler için geçerli olmaz. Daha fazla bilgi için bkz. [Satır düzeyi güvenlik](../service-admin-rls.md).
 
-- Rapor tasarımcıları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/api-dataset-properties.md)
+- Rapor tasarımcıları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/automation/api-dataset-properties.md)
 
 - Power BI yöneticileri panolara, raporlara, veri kümelerine ve veri akışlarına [duyarlılık etiketleri](../admin/service-security-data-protection-overview.md) ekleyebilir. Bu yolla verileri dışarı aktarırken şifreleme veya filigran gibi koruma ayarlarını zorlayabilirler. 
 

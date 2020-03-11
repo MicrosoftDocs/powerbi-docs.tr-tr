@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953926"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919839"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Report Builder'ı yükleme - Power BI Rapor Sunucusu
 
 Report Builder, kullanıcıların veya yöneticilerin bilgisayarına yükleyebileceği tek başına çalışan bir uygulamadır. Uygulamayı Microsoft İndirme Merkezi'nden veya Power BI Rapor Sunucusu'ndan yükleyebilirsiniz.  
 
-Power BI hizmeti için Report Builder'ı yükleme konusunda yardım almak mı istiyorsunuz? [Power BI Report Builder](../report-builder-power-bi.md) makalesine bakın.
+Power BI hizmeti için Report Builder'ı yükleme konusunda yardım almak mı istiyorsunuz? [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) makalesine bakın.
   
 Genellikle bir yönetici, Power BI Rapor Sunucusu'nu yükleyip yapılandırır, Report Builder'ın web portalından indirilmesine izin verir ve rapor sunucusunda bulunan rapor klasörlerini, izinleri ve paylaşılan veri kümelerini yönetir. Power BI Rapor Sunucusu'nu yönetme hakkında daha fazla bilgi için bkz. [Yönetici genel bakışı, Power BI Rapor Sunucusu](admin-handbook-overview.md).  
   
@@ -29,7 +29,7 @@ Genellikle bir yönetici, Power BI Rapor Sunucusu'nu yükleyip yapılandırır, 
  
 ## <a name="install-report-builder-from-a-web-portal"></a>Report Builder'ı web portalından yükleme
   
-Report Builder'ı Power BI Rapor Sunucusu web portalından yükleyebilirsiniz. Bir SSRS sunucusu için rapor oluşturmak üzere Report Builder'ı zaten yüklemiş olabilirsiniz. Power BI Rapor Sunucusu için rapor oluşturmak üzere aynı sürümü veya Report Builder'ı kullanabilirsiniz. Report Builder’ı henüz yüklemediyseniz bunu kolayca yapabilirsiniz.
+Report Builder'ı Power BI Rapor Sunucusu web portalından yükleyebilirsiniz. Bir SSRS sunucusu için rapor oluşturmak üzere Rapor Oluşturucusu'nu zaten yüklemiş olabilirsiniz. Power BI Rapor Sunucusu için rapor oluşturmak üzere aynı sürümü veya Rapor Oluşturucusu'nu kullanabilirsiniz. Rapor Oluşturucu'sunu henüz yüklemediyseniz bunu kolayca yapabilirsiniz.
 
 1. Power BI Rapor Sunucusu web portalında **Yeni** > **Sayfalandırılmış Rapor** seçeneğini belirleyin.
    
@@ -41,7 +41,7 @@ Report Builder'ı Power BI Rapor Sunucusu web portalından yükleyebilirsiniz. B
  
 5.  Rapor Builder yüklemesini tamamlamak için **Yükle**'yi seçin.  
 
-2. Report Builder yüklendikten sonra **Yeni Rapor veya Veri Kümesi**  ekranıyla açılır.
+2. Rapor Oluşturucusu yüklendikten sonra **Yeni Rapor veya Veri Kümesi**  ekranıyla açılır.
    
     ![Yeni Rapor veya Veri Kümesi ekranı](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  

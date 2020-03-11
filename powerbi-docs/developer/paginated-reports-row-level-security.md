@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953781"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920921"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Eklenen sayfalandırılmış raporlarda satır düzeyinde güvenlik uygulama (önizleme)
 
@@ -26,13 +26,13 @@ Bu özellik sayesinde verilerin bir alt kümesini görüntüleyebilir, geri kala
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>Veri kümesini filtrelemek için bir parametre yapılandırma
 
-Bir Power BI sayfalandırılmış raporuna satır düzeyi güvenlik uygulamak için **UserID** özniteliğine bir [parametre](../report-builder-parameters.md) atamanız gerekir. Bu parametre, rapor eklenmeden önce veri kümesinden çekilen verileri kısıtlar.
+Bir Power BI sayfalandırılmış raporuna satır düzeyi güvenlik uygulamak için **UserID** özniteliğine bir [parametre](../paginated-reports/report-builder-parameters.md) atamanız gerekir. Bu parametre, rapor eklenmeden önce veri kümesinden çekilen verileri kısıtlar.
 
 Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API'sini kullanarak ekleme belirtecini alabilirsiniz.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID özniteliğini rapor veya sorgu düzeyinde filtre olarak kullanma
 
-**UserId** özniteliğini [Power BI Report Builder](../report-builder-power-bi.md)'da veri kaynağı için bir *filtre* veya *sorgu* olarak kullanabilirsiniz.
+**UserId** özniteliğini [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)'da veri kaynağı için bir *filtre* veya *sorgu* olarak kullanabilirsiniz.
 
 ### <a name="using-the-filter"></a>Filtreyi kullanma
 

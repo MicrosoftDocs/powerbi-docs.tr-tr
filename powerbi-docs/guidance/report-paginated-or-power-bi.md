@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3838c0b487be7faace2e58dd706aa7d172841215
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290510"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920724"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Power BI’daki sayfalandırılmış raporları kullanma zamanı
 
-Bu makale Power BI için rapor tasarlayan rapor yazarlarına yöneliktir. [Power BI sayfalandırılmış raporlarını](../paginated-reports-report-builder-power-bi.md) hangi durumlarda tercih etmeniz gerektiğini anlamanıza yardımcı olacak öneriler sunmaktadır.
+Bu makale Power BI için rapor tasarlayan rapor yazarlarına yöneliktir. [Power BI sayfalandırılmış raporlarını](../paginated-reports/paginated-reports-report-builder-power-bi.md) hangi durumlarda tercih etmeniz gerektiğini anlamanıza yardımcı olacak öneriler sunmaktadır.
 
 > [!NOTE]
 > Power BI sayfalandırılmış raporların yayımlanması için Power BI Premium aboneliğine ihtiyaç vardır. Raporlar yalnızca [Sayfalandırılmış Raporlar iş yükünün etkinleştirilmiş olduğu](../service-admin-premium-workloads.md#paginated-reports) ayrılmış kapasite üzerindeki bir çalışma alanında işlenir.
@@ -49,7 +49,7 @@ Power BI sayfalandırılmış raporu geliştirmeyi tercih edebileceğiniz birço
 - **Hassas düzen**: Yüksek düzeyde biçimli, kusursuz düzenler tasarlayabilir, inç veya santimetre düzeyinde istediğiniz boyutu ve konumu yapılandırabilirsiniz.
 - **Dinamik düzen**: Birçok rapor özelliğini VB.NET ifadelerini kullanacak şekilde ayarlayarak yüksek oranda dinamik düzenler oluşturabilirsiniz. İfadeler birçok temel .NET Framework kitaplığına erişim sağlayabilir.
 - **İşleme özgü düzen**: İfadeler kullanarak rapor düzenini uygulanan işleme biçimine göre değiştirebilirsiniz. Örneğin raporun PDF gibi etkileşimli olmayan bir biçim kullanılarak işlenmesi durumunda görünürlüğü açma/kapatma (detaya gitmek ve detaydan çıkmak için) özelliğini devre dışı bırakılmasını sağlayabilirsiniz.
-- **Yerel sorgular**: Bunun için öncelikle bir Power BI veri kümesi geliştirmenize gerek yoktur. [Desteklenen tüm veri kaynakları](../paginated-reports-data-sources.md) için yerel sorgular yazabilirsiniz (veya saklı yordamları kullanabilirsiniz). Sorgulara parametre eklenebilir.
+- **Yerel sorgular**: Bunun için öncelikle bir Power BI veri kümesi geliştirmenize gerek yoktur. [Desteklenen tüm veri kaynakları](../paginated-reports/paginated-reports-data-sources.md) için yerel sorgular yazabilirsiniz (veya saklı yordamları kullanabilirsiniz). Sorgulara parametre eklenebilir.
 - **Grafik sorgu tasarımcıları**: Power BI Report Builder'da veri kümesi sorgularınızı yazmanıza ve test etmenize yardımcı olacak grafik sorgu tasarımcıları vardır.
 - **Statik veri kümeleri**: Bir veri kümesi tanımlayabilir ve rapor tanımınıza doğrudan veri girişi yapabilirsiniz. Bu seçenek özellikle tanıtım amaçlı kullanımlar veya kavram kanıtı sunmak için kullanışlıdır.
 - **Veri tümleştirmesi**: Farklı veri kaynaklarında veya statik veri kümelerinde yer alan verileri birleştirebilirsiniz. Bunun için VB.NET ifadelerini kullanarak özel alanlar oluşturmanız gerekir.
@@ -70,7 +70,7 @@ Power BI sayfalandırılmış raporu geliştirmeyi tercih edebileceğiniz birço
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - [SQL Server Reporting Services raporlarını Power BI’a geçirme](migrate-ssrs-reports-to-power-bi.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

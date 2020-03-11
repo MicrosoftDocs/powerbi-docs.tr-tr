@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530453"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920769"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Sayfalandırılmış raporlar için veri alma kılavuzu
 
-Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Etkili ve verimli veri alma süreçleri tasarlamanıza yardımcı olacak öneriler sağlar.
+Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports/paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Etkili ve verimli veri alma süreçleri tasarlamanıza yardımcı olacak öneriler sağlar.
 
 ## <a name="data-source-types"></a>Veri kaynağı türleri
 
@@ -101,13 +101,13 @@ Veri kümesi satırlarının farklı alt kümeleri için istekte bulunulmayacağ
 
 ## <a name="non-native-data-sources"></a>Yerel olmayan veri kaynakları
 
-[Sayfalandırılmış raporlar tarafından yerel olarak desteklenmeyen](../paginated-reports-data-sources.md) veri kaynaklarını temel alan sayfalandırılmış raporlar geliştirmeniz gerekiyorsa öncelikle bir Power BI Desktop veri modeli geliştirebilirsiniz. Bu sayede 100'den fazla [Power BI veri kaynağına](../power-bi-data-sources.md) bağlanabilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
+[Sayfalandırılmış raporlar tarafından yerel olarak desteklenmeyen](../paginated-reports/paginated-reports-data-sources.md) veri kaynaklarını temel alan sayfalandırılmış raporlar geliştirmeniz gerekiyorsa öncelikle bir Power BI Desktop veri modeli geliştirebilirsiniz. Bu sayede 100'den fazla [Power BI veri kaynağına](../power-bi-data-sources.md) bağlanabilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
 
 ## <a name="data-integration"></a>Veri tümleştirmesi
 
 Birden çok veri kaynağında bulunan verileri birleştirmeniz gerekiyorsa iki seçeneğiniz vardır:
 
-- **Rapor veri kümelerini birleştirme**: Veri kaynakları [sayfalandırılmış raporlar tarafından yerel olarak destekleniyorsa](../paginated-reports-data-sources.md), [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) veya [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder işlevlerini kullanan hesaplanan alanlar oluşturabilirsiniz.
+- **Rapor veri kümelerini birleştirme**: Veri kaynakları [sayfalandırılmış raporlar tarafından yerel olarak destekleniyorsa](../paginated-reports/paginated-reports-data-sources.md), [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) veya [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder işlevlerini kullanan hesaplanan alanlar oluşturabilirsiniz.
 - **Power BI Desktop modeli geliştirme**: Çoğu durumda Power BI Desktop'ta bir veri modeli geliştirmeniz daha verimli olacaktır. Power Query ile [desteklenen veri kaynaklarını](../power-bi-data-sources.md) temel alan sorguları birleştirebilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server karmaşık veri türleri
@@ -143,6 +143,6 @@ Bir rapor çalıştırıldığında, rapor nesnelerine bağlı olup olmadıklar�
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI sayfalandırılmış raporları için desteklenen veri kaynakları](../paginated-reports-data-sources.md)
+- [Power BI sayfalandırılmış raporları için desteklenen veri kaynakları](../paginated-reports/paginated-reports-data-sources.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

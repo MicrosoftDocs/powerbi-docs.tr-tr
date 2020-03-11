@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265352"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920956"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -41,11 +41,11 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Power BI Premium için yeni kapasite ayarları.
 * Kuruluşunuz için [özel markalama](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/).
 * Yapı izniyle özetlenen veri dışa aktarma.
-* [Sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md) için URL parametreleri desteği.
+* [Sayfalandırılmış raporlar](paginated-reports/paginated-reports-report-builder-power-bi.md) için URL parametreleri desteği.
 * Aylık e-posta abonelikleri desteği. 
 
 ### <a name="july-2019"></a>Temmuz 2019
-* [Sayfalandırılmış raporlar](paginated-reports-report-builder-power-bi.md) için premium dışı veri kümeleri desteği.
+* [Sayfalandırılmış raporlar](paginated-reports/paginated-reports-report-builder-power-bi.md) için premium dışı veri kümeleri desteği.
 * Power BI [toplamalarının](desktop-aggregations.md) genel kullanılabilirliği.
 * Başkalarına yenileme bildirimleri gönderme.
 * Power BI Premium kapasiteleri için [test aracı](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/).
@@ -57,7 +57,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Paylaşılan ve Sertifikalı veri kümelerinin](service-datasets-across-workspaces.md) genel önizlemesi.
 * [Premium Capacity Metrics uygulamasında](service-admin-premium-monitor-capacity.md) mevcut olan yapay zeka ölçümleri.
 * Power BI [şablon uygulamalarının](service-template-apps-overview.md) genel kullanılabilirliği.
-* Power BI’da [sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) genel kullanılabilirliği.
+* Power BI’da [sayfalandırılmış raporların](paginated-reports/paginated-reports-report-builder-power-bi.md) genel kullanılabilirliği.
 * Power BI Premium için Kendi Anahtarını Getir ([BYOK](service-encryption-byok.md)) genel önizlemesi.
 * [Yeni çalışma alanları deneyimi](service-new-workspaces.md) için görüntüleyici rolü.
 
@@ -71,7 +71,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Yeni çalışma alanları deneyiminin genel kullanılabilirliği.
 * Fransa ve Kore'deki yeni Power BI bölgeleri.
 * Panolar için güncelleştirilmiş Soru-Cevap deneyimi.
-* [Sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) içinde Azure Analysis Services desteği.
+* [Sayfalandırılmış raporların](paginated-reports/paginated-reports-report-builder-power-bi.md) içinde Azure Analysis Services desteği.
 * Power BI Uygulamalarında desteklenen sayfalandırılmış raporlar.
 * Sayfalandırılmış raporlar için PDF ekleriyle [E-posta abonelikleri](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/).
 * Yönetim Portalında desteklenen Power BI Premium özet ve iş yükü ölçümleri
@@ -108,12 +108,12 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="november-2018"></a>Kasım 2018
 * Power BI veri hazırlama, [veri akışları](service-dataflows-overview.md) genel önizlemesi ile sağlanıyor.
-* Power BI Premium’da [sayfalandırılmış raporların](paginated-reports-report-builder-power-bi.md) genel önizlemesi.
+* Power BI Premium’da [sayfalandırılmış raporların](paginated-reports/paginated-reports-report-builder-power-bi.md) genel önizlemesi.
 * [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) veri boyutu ve bellekteki veri kümelerinin sayısı.
 
 ### <a name="october-2018"></a>Ekim 2018
 * Power BI hizmetinde toplamalar [desktop-aggregations.md].
-* Power BI üç yeni bölgeye genişletildi: Orta Hindistan, Avustralya Doğu ve Orta ABD (Iowa). 
+* Power BI üç yeni bölgeye genişletildi: Orta Hindistan, Doğu Avustralya ve Orta ABD (Iowa). 
 * PowerPoint’a aktarma özelliği genel kullanıma sunuldu.
 
 ### <a name="september-2018"></a>Eylül 2018

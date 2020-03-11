@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041877"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920818"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Sayfalandırılmış raporları yazdırırken boş sayfalardan kaçınma
 
-Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Raporunuz sabit sayfa biçimine aktarıldığında (PDF veya Microsoft Word gibi) veya yazdırıldığında boş sayfalar içermesini önlemenize yardımcı olacak öneriler sağlar.
+Bu makale Power BI [sayfalandırılmış raporları](../paginated-reports/paginated-reports-report-builder-power-bi.md) tasarlayan rapor yazarlarına yöneliktir. Raporunuz sabit sayfa biçimine aktarıldığında (PDF veya Microsoft Word gibi) veya yazdırıldığında boş sayfalar içermesini önlemenize yardımcı olacak öneriler sağlar.
 
 ## <a name="page-setup"></a>Sayfa yapısı
 
 Rapor sayfa boyutu özellikleri sayfa yönlendirmesini, boyutlarını ve kenar boşluklarını belirler. Bu rapor özelliklerine şöyle erişebilirsiniz:
 
 - Raporun **Özellik Sayfasını** kullanarak: Rapor tuvalinin dışındaki koyu gri alana sağ tıklayın ve _Rapor Özellikleri_’ni seçin.
-- [**Özellikler** bölmesini](../paginated-reports-report-design-view.md#4-properties-pane) kullanarak: Rapor tuvalinin dışındaki koyu gri alana sağ tıklayarak rapor nesnesini seçin. **Özellikler** bölmesinin açık olmasına dikkat edin.
+- [**Özellikler** bölmesini](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) kullanarak: Rapor tuvalinin dışındaki koyu gri alana sağ tıklayarak rapor nesnesini seçin. **Özellikler** bölmesinin açık olmasına dikkat edin.
 
 Rapor **Özellik Sayfasının** **Sayfa Yapısı** sayfası, sayfa yapısı özelliklerini görüntülemek ve güncelleştirmek için kullanımı kolay bir arabirim sağlar.
 
@@ -91,7 +91,7 @@ Son olarak raporu kağıda yazdırıyorsanız yazıcıda doğru kağıdın yükl
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports-report-builder-power-bi.md)
-- [Power BI sayfalandırılmış raporlarında sayfalandırma](../paginated-reports-pagination.md)
+- [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Power BI sayfalandırılmış raporlarında sayfalandırma](../paginated-reports/paginated-reports-pagination.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
