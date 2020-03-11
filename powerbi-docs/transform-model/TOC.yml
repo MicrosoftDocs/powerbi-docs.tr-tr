@@ -19,7 +19,7 @@
     - name: Kavramlar
       expanded: true
       items:
-        - name: Model ilişkisi oluşturma
+        - name: Model ilişkilerini anlama
           href: ../desktop-relationships-understand.md
         - name: Modelleme görünümü ile çalışma
           href: ../desktop-modeling-view.md

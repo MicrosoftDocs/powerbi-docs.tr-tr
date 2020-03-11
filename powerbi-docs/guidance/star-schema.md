@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527534"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260428"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -25,7 +25,7 @@ Bu makalede yıldız şeması tasarımıyla ilgili eksiksiz bir açıklama sağl
 
 **Yıldız şeması** ilişkisel veri ambarları tarafından yaygın olarak benimsenmiş olgun bir modelleme yaklaşımıdır. Modelleyicilerin model tablolarını _boyut_ veya _olgu_ olarak sınıflandırmasını gerektirir.
 
-**Boyut tabloları** iş varlıklarını, modellediğiniz "şeyleri" açıklar. Varlıklar ürünlerden, kişilerden, yerlerden ve kavramlardan, ayrıca zamanın kendisinden oluşabilir. Yıldız şemasında bulabileceğiniz en tutarlı tablo tarih boyutu tablosudur. Boyut tablosu benzersiz tanımlayıcı işlevi gören bir anahtar sütunu (veya sütunları) ile açıklayıcı sütunlar içerir.
+**Boyut tabloları** iş varlıklarını, modellediğiniz _şeyleri_ açıklar. Varlıklar ürünlerden, kişilerden, yerlerden ve kavramlardan, ayrıca zamanın kendisinden oluşabilir. Yıldız şemasında bulabileceğiniz en tutarlı tablo tarih boyutu tablosudur. Boyut tablosu benzersiz tanımlayıcı işlevi gören bir anahtar sütunu (veya sütunları) ile açıklayıcı sütunlar içerir.
 
 Gözlemleri ve olayları depolayan **olgu tabloları** satış siparişleri, envanter bakiyeleri, döviz kurları, sıcaklıklar vb. olabilir. Olgu tablosu boyut tablolarıyla ilgili boyut anahtar sütunları ve sayısal ölçü sütunları içerir. Boyut anahtar sütunları olgu tablosunun _boyut özelliklerini_ belirlerken boyut anahtar değerleri de olgu tablosunun _ayrıntı düzeyini_ belirler. Örneğin satış hedeflerinin depolandığı, iki boyut anahtar sütunu (**Date** ve **ProductKey**) olan bir olgu tablosu tasarlandığını düşünün. Tablonun iki boyutu olduğu kolayca anlaşılabilir. Öte yandan ayrıntı düzeyi boyut anahtar değerleri dikkate alınmadan belirlenemez. Bu örnekte **Date** sütununda depolanan değerlerin her ayın ilk günü olduğunu düşünün. Bu örnekte ayrıntı düzeyi aylık ürün düzeyidir.
 
@@ -42,11 +42,11 @@ Her Power BI raporu görselinin Power BI modeline gönderilen bir sorgu oluştur
 - Boyut tabloları _filtrelemeyi_ ve _gruplandırmayı_ destekler
 - Olgu tabloları _özetlemeyi_ destekler
 
-Modelleyicilerin tablo türünü (boyut veya olgu) yapılandırmak için ayarlayacakları bir tablo özelliği yoktur ve tablo türü model ilişkileri tarafından belirlenir. Model ilişkisi iki tablo arasında bir filtre yayma yolu oluşturur ve tablo türü ilişkinin **Kardinalite** özelliğiyle belirlenir. Yaygın bir ilişki kardinalitesi "bire çok" veya bunun tersi olan "çoğa bir" ilişkidir. İlişkinin "bir" tarafı her zaman boyut türündeki tabloyken "çok" tarafı da her zaman olgu türünde tablodur.
+Modelleriyicilerin tablo türünü boyut veya olgu olarak yapılandırmak için ayarlayabilecekleri bir tablo özelliği yoktur. Aslında bu, model ilişkileri tarafından belirlenir. Model ilişkisi iki tablo arasında bir filtre yayma yolu oluşturur ve tablo türü ilişkinin **Kardinalite** özelliğiyle belirlenir. Yaygın bir ilişki kardinalitesi _bire çok_ veya bunun tersi olan _çoka bir_ ilişkidir. İlişkinin "bir" tarafı her zaman boyut türündeki tabloyken "çok" tarafı da her zaman olgu türünde tablodur. İlişkiler hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md).
 
 ![Kavramsal yıldız şeması](media/star-schema/star-schema-example2.png)
 
-İyi yapılandırılmış bir model tasarımı boyut türünde veya olgu türünde olan tablolar içermelidir. Tek tabloda bu iki türün karışmasından kaçınmalısınız. Ayrıca doğru ilişkileri olan doğru sayıda tablo sağlamak için çaba harcamanızı da öneririz. Olgu türündeki tabloların her zaman tutarlı bir dilime sahip veriler yüklemesi de önemlidir.
+İyi yapılandırılmış bir model tasarımı boyut türünde veya olgu türünde olan tablolar içermelidir. Aynı tabloda bu iki türü karıştırmaktan kaçının. Ayrıca doğru ilişkileri olan doğru sayıda tablo sağlamak için çaba harcamanızı da öneririz. Olgu türündeki tabloların her zaman tutarlı bir dilime sahip veriler yüklemesi de önemlidir.
 
 Son olarak, en uygun model tasarımını yapmanın kısmen bilim kısmen de sanat olduğunu anlamalısınız. Bazen size mantıklı geldiğinde uygun yönergelerden uzaklaşabilirsiniz.
 
@@ -73,17 +73,17 @@ Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha deste
 
 Öte yandan basit sütun düzeyi özetlemelerinde bile ölçüler oluşturmanız için üç cazip neden vardır:
 
-- Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır (PivotTables MDX sorguları gönderir).
+- Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır çünkü PivotTable’lar MDX sorguları gönderir.
 - Rapor yazarlarınızın MDX sorgu tasarımcısını kullanarak Power BI sayfalandırılmış raporları oluşturacağını biliyorsanız, modelin açık ölçüler içermesi gerekir. [Sunucu toplamalarını](/sql/reporting-services/report-design/report-builder-functions-aggregate-function) yalnızca MDX sorgu tasarımcısı destekler. Bu nedenle rapor yazarlarının ölçülerin Power BI tarafından değerlendirilmesine (sayfalandırılmış rapor altyapısı yerine) ihtiyaç duyması halinde MDX sorgu tasarımcısını kullanmaları gerekir.
 - Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerekiyorsa. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
 
-Bu tasarım yaklaşımının Power BI hizmetinde yazılan raporlarda ve Soru-Cevap için iyi sonuç verdiğine dikkat edin. Öte yandan Power BI Desktop canlı bağlantıları rapor yazarlarının **Alanlar** bölmesinde gizli alanları göstermesine izin verir ve sonuç olarak bu tasarım yaklaşımı aşılabilir.
+Bu tasarım yaklaşımı Power BI hizmetinde yazılan raporlarda ve Soru-Cevap için iyi sonuç verir. Öte yandan Power BI Desktop canlı bağlantıları rapor yazarlarının **Alanlar** bölmesinde gizli alanları göstermesine izin verir ve sonuç olarak bu tasarım yaklaşımı aşılabilir.
 
 ## <a name="surrogate-keys"></a>Vekil anahtarlar
 
 **Vekil anahtar** yıldız şeması modellemesini desteklemek için tabloya eklediğiniz benzersiz bir tanımlayıcıdır. Tanımı gereği kaynak verilerde tanımlanmaz veya depolanmaz. Yaygın olarak vekil anahtarlar ilişkisel veri ambarı boyut tablolarına eklenerek boyut tablosu satırlarının her biri için benzersiz tanımlayıcı sağlanır.
 
-Power BI modeli ilişkilerinde bir tablodaki tek bir benzersiz sütun temel alınır ve bu sütun farklı bir tablodaki tek sütuna filtreleri yayar. Modelinizde boyut türündeki bir tablo tek bir benzersiz sütun içermiyorsa, ilişkinin "bir" tarafına dönüşmesi için benzersiz tanımlayıcı eklemelisiniz. Power BI Desktop'ta [Power Query dizin sütunu](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) oluşturarak bunu kolayca başarabilirsiniz.
+Power BI modeli ilişkilerinde bir tablodaki tek bir benzersiz sütun temel alınır ve bu sütun farklı bir tablodaki tek sütuna filtreleri yayar. Modelinizde boyut türündeki bir tablo tek bir benzersiz sütun içermiyorsa, ilişkinin "bir" tarafına dönüşmesi için benzersiz tanımlayıcı eklemelisiniz. Power BI Desktop'ta [Power Query dizin sütunu](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) oluşturarak bu gereksinimi kolayca karşılayabilirsiniz.
 
 ![Power Query araç çubuğunda dizin sütunu oluşturma](media/star-schema/toolbar-index.png)
 
@@ -118,7 +118,7 @@ Yıldız şeması tasarım teorisi iki yaygın SCD türüne başvurur: Tür 1 ve
 
 ### <a name="type-1-scd"></a>Tür 1 SCD
 
-**Tür 1** **SCD** her zaman en son değerleri yansıtır ve kaynak verilerde değişiklikler algılandığında boyut tablosu verilerinin doğrudan üzerine yazılır. Bu tasarım yaklaşımı müşterinin e-posta adresi veya telefon numarası gibi tamamlayıcı değerlerin depolandığı sütunlarda yaygın olarak kullanılır. Müşterinin e-posta adresi veya telefon numarası değiştiğinde boyut tablosu müşteri satırını yeni değerlerle güncelleştirir. Müşterinin iletişim bilgileri hep böyleymiş gibi olur.
+**Tür 1** **SCD** her zaman en son değerleri yansıtır ve kaynak verilerde değişiklikler algılandığında boyut tablosu verilerinin üzerine yazılır. Bu tasarım yaklaşımı müşterinin e-posta adresi veya telefon numarası gibi tamamlayıcı değerlerin depolandığı sütunlarda yaygın olarak kullanılır. Müşterinin e-posta adresi veya telefon numarası değiştiğinde boyut tablosu müşteri satırını yeni değerlerle güncelleştirir. Müşterinin iletişim bilgileri hep böyleymiş gibi olur.
 
 Tür 1 SCD'nin sonucu, Power BI modeli boyut türündeki tablonun artımlı olmayan yenilemesiyle elde edilir. En son verilerin yüklendiğinden emin olmak için tablo verilerini yeniler.
 
@@ -166,6 +166,8 @@ Her rol için model boyut türünde tablolar oluştururken aşağıdaki iyi tasa
 - Sütun adlarının açıklayıcı olduğundan emin olun. Tüm tarih tablolarında bir **Year** (Yıl) sütunu olabilir (sütun adları kendi tabloları içinde benzersizdir) ama bu ad varsayılan olarak görsel başlıklarında pek açıklayıcı değildir. Boyut rol tablolarının her birinde sütunları yeniden adlandırmayı göz önünde bulundurun; böylelikle örneğin **Ship Date** (Sevk Tarihi) tablosunda **Ship Year** (Sevk Yılı) adlı bir yıl sütunu bulunabilir.
 - Uygun olduğunda tablo açıklamalarının rapor yazarlarına (**Alanlar** bölmesi araç ipuçları yoluyla) filtre yayılımının nasıl yapılandırıldığına ilişkin geri bildirim sağladığından emin olun. Modelde olgu türünde birçok tabloyu filtrelemek için kullanılan **Date** (Tarih) gibi genel adlı bir tablo olduğunda, bu netliği sağlamak önemlidir. Örneğin bu tablonun bayi satış siparişi sütunuyla etkin bir ilişkisi olması gibi durumlarda "Bayi satışlarını sipariş tarihine göre filtreler" gibi bir tablo açıklaması sağlamayı dikkate alın.
 
+Daha fazla bilgi için bkz. [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](relationships-active-inactive.md).
+
 ## <a name="junk-dimensions"></a>Gereksiz boyutlar
 
 **Gereksiz boyutlar**, özellikle az sayıda (belki de bir) öznitelikten oluşan çok fazla boyut olduğunda ve bu özniteliklerin de çok az değeri olduğunda yararlıdır. İyi adaylar arasında sipariş durumu sütunları veya müşteri demografisi sütunları (cinsiyet, yaş grubu vb.) sayılabilir.
@@ -182,9 +184,11 @@ Bu sorguyu bir boyut türünde tablo olarak modele yüklersiniz. Ayrıca bu sorg
 
 **Bozuk boyutlar**, olgu tablosunun filtreleme için gereken bir özniteliğine karşılık gelir. Adventure Works'te bayi satışları sipariş numarası iyi bir örnektir. Bu örnekte, yalnızca bu tek sütundan oluşan bağımsız bir tablo oluşturmak anlamlı bir model tasarımı değildir çünkü modelin depolama boyutunu artırabilir ve **Alanlar** bölmesinde dağınıklığa yol açabilir.
 
-Power BI modelinde satış sipariş numarası sütununu olgu türündeki tabloya ekleyip satış sipariş numarasına göre filtrelemeye olanak tanımak uygun olabilir. Bu daha önce belirtilen tablo türlerini karıştırmama kuralına (genel olarak, model tabloları ya boyut türünde ya da olgu türünde olmalıdır) karşı özel bir durumudur.
+Power BI modelinde satış sipariş numarası sütununu olgu türündeki tabloya ekleyip satış sipariş numarasına göre filtrelemeye olanak tanımak uygun olabilir. Bu daha önce belirtilen tablo türlerini karıştırmama kuralına (örneğin, model tabloları ya boyut türünde ya da olgu türünde olmalıdır) karşı özel bir durumudur.
 
 ![Bozuk boyut örneği](media/star-schema/degenerate-dimension.png)
+
+Daha fazla bilgi için bkz. [Birebir ilişki kılavuzu (Bozuk boyutlar)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Olgu içermeyen olgu tabloları
 
@@ -198,7 +202,7 @@ Olgu içermeyen olgu tablosunun daha cazip bir kullanımı, boyutlar arasındaki
 
 ![Olgu içermeyen olgu tablosu örneği](media/star-schema/factless-fact.png)
 
-Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablosu olmadan da başarılabilir. Öte yandan, iki boyut ilişkilendirilirken köprü oluşturma tablosunun en iyi yöntem olduğu düşünülür. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
+Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablosu olmadan da başarılabilir. Öte yandan, iki boyut ilişkilendirilirken köprü oluşturma tablosunun en iyi yöntem olduğu düşünülür. Daha fazla bilgi için bkz. [Çoka çok ilişki kılavuzu (Boyut türündeki iki tabloyu ilişkilendirme)](relationships-many-to-many.md#relate-many-to-many-dimensions).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -206,6 +210,9 @@ Yıldız şeması tasarımı ve Power BI modeli tasarımı hakkında daha fazla 
 
 - [Boyut modellemesi Vikipedi makalesi](https://go.microsoft.com/fwlink/p/?linkid=246459)
 - [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](../desktop-create-and-manage-relationships.md)
-- [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../desktop-many-to-many-relationships.md)
-- [Modelleme destekli öğrenme deneyimi](/learn/modules/model-data-power-bi/)
+- [Birebir ilişki kılavuzu](relationships-one-to-one.md)
+- [Çoka çok ilişkiler kılavuzu](relationships-many-to-many.md)
+- [Çift yönlü ilişki kılavuzu](relationships-bidirectional-filtering.md)
+- [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](relationships-active-inactive.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

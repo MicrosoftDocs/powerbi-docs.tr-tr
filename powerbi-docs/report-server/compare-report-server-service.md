@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427772"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290671"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -24,11 +24,11 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 
 | Özellikler | Power BI Rapor Sunucusu | Power BI Hizmeti | Notlar |
 |---------|---------|---------|---------|
-| Dağıtım | Şirket içi veya barındırılan bulut | Bulut | Power BI Rapor Sunucusu, Power BI Premium lisansına sahipse Azure VM’lerde (barındırılan bulur) dağıtılabilir |
+| Dağıtım | Şirket içi veya barındırılan bulut | Bulut | Power BI Rapor Sunucusu, Power BI Premium veya Yazılım Güvencesi ile SQL Server Enterprise lisansına sahipse Azure VM’lerde (barındırılan bulur) dağıtılabilir|
 | Kaynak verileri | Bulut ve/veya şirket içi | Bulut ve/veya şirket içi |  |
 | Lisans | Power BI Premium veya Yazılım Güvencesi (SA) ile SQL Server EE | Power BI Pro ve/veya Power BI Premium | |  
 | Yaşam Döngüsü | Modern yaşam döngüsü ilkesi | Tam olarak yönetilen hizmet |  |
-| Yayın döngüsü | Yılda üç kez (Ocak, Mayıs, Eylül) | Ayda bir kez | En son özellikler ve düzeltmeler ilk önce Power BI Hizmetine gelir. Çoğu temel işlevsellik, önümüzdeki birkaç yayında Power BI Rapor Sunucusuna gelecektir; bazı özellikler yalnızca Power BI hizmetine yöneliktir. |
+| Yayın döngüsü | Yılda üç kez (Ocak, Mayıs, Eylül) | Ayda bir kez | En son özellikler ve düzeltmeler ilk önce Power BI Hizmetine gelir. Hizmet için Power BI Desktop sürümlerinden gelen özellik dağıtımı, her sürümde Power BI Rapor Sunucusu’na sağlanır; diğer özelliklerden çoğu yalnızca Power BI hizmetine yöneliktir. |
 | Power BI Desktop'ta Power BI raporları oluşturma | Evet | Evet |  |
 | Tarayıcıda Power BI raporları oluşturma | Hayır | Evet |  |
 | Power BI paylaşılan veri kümelerini barındırma ve bunlara bağlanma | Hayır | Evet | [Çalışma alanları arasında veri kümelerine giriş](../service-datasets-across-workspaces.md) |

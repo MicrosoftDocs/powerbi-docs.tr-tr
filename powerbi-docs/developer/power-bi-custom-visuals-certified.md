@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782421"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260773"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -56,10 +56,14 @@ Power BI görsel deposunun nasıl göründüğünü anlamak için [Power BI gör
 Power BI görselini yazmak için en son API sürümünü kullanın.
 
 Depo aşağıdaki dosyaları içermelidir:
-* **.gitignore** - Bu dosyaya `node_modules` ekleyin. Kod *node_modules* klasörünü içeremez.
+* **.gitignore** - Bu dosyaya `node_modules`, `.tmp`, `dist` ekleyin. Kod *node_modules*, *.tmp* veya *dist* klasörleri içeremez.
 * **capabilities.json** - Bu dosyalardaki özelliklerde değişiklikler yapılmış olarak Power BI görselinizin daha yeni bir sürümünü gönderiyorsanız, bunun mevcut kullanıcıların raporlarını bozmadığını doğrulayın.
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**. Görselde aşağıdaki paket yüklü olmalıdır:
+   * ["tslint"](https://www.npmjs.com/package/tslint): "5.18.0" veya üzeri
+   * ["typescript"](https://www.npmjs.com/package/typescript): "3.0.0" veya üzeri
+   * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib): "6.2.0" veya üzeri
+   * Dosya linter çalıştırmak için komut içermelidir:  "lint": "tslint -c tslint.json -p tsconfig.json"
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Aşağıdaki komutların hata döndürmediğinden emin olun.
 * `npm install`
 * `pbiviz package`
 * `npm audit` - Yüksek veya orta düzeyde hiçbir uyarı döndürmemelidir.
-* Geçersiz kılma yapılandırmaları olmadan [Microsoft'tan TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). Bu komut hiçbir lint hatası döndürmemelidir.
+* [Gerekli yapılandırmayla](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json) [Microsoft’tan TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). Bu komut hiçbir lint hatası döndürmemelidir.
 
 ### <a name="compiling-requirements"></a>Derleme gereksinimleri
 

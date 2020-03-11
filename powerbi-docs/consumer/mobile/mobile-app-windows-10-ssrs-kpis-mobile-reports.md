@@ -45,7 +45,7 @@ Reporting Services web portalına erişiminiz olmasa bile Reporting Services mob
 KPI'ler ve mobil raporlarla etkileşim kurmak için örneklere göz atın.
 
 ## <a name="connect-to-a-reporting-services-report-server"></a>Bir Reporting Services rapor sunucusuna bağlanma
-1. Gezinti bölmesinin alt kısmındaki **Ayarlar**'a ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun.
+1. Gezinti bölmesinin alt kısmındaki **Ayarlar**'a ![Ayarlar simgesi](./././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-settings-icon.png) dokunun
 2. **Sunucuya bağlan**'a dokunun.
 3. Sunucu adresinin yanı sıra kullanıcı adınızı ve parolanızı girin. Sunucu adresi için şu biçimi kullanın:
    

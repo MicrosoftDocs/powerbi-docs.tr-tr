@@ -6,23 +6,20 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161306"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260474"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 
 Bu makale, Power BI Desktop'la çalışan veri modelleyicilerine yöneliktir. Üç farklı çoka çok modelleme senaryosu açıklanır. Ayrıca modellerinizde bunların tasarımının nasıl yapılacağına ilişkin yönergeler sağlanır.
 
-> [!NOTE]
-> Model ilişkilerine giriş konusu bu makalenin kapsamı dışındadır. İlişkileri, onların özelliklerini ve nasıl yapılandırılacağını tam olarak bilmiyorsanız, önce [Power BI Desktop'ta model ilişkileri](../desktop-relationships-understand.md) makalesini okumanızı öneririz.
->
-> Ayrıca yıldız şeması tasarımını anlamış olmanız da önemlidir. Daha fazla bilgi için bkz. [Yıldız şemasını ve Power BI için önemini anlama](star-schema.md).
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
 Aslında üç çoka çok senaryosu vardır. Şunlara ihtiyacınız olduğunda bu senaryolar gerçekleşir:
 
@@ -164,7 +161,7 @@ Görsel doğru bir sonuç göstermektedir. Öte yandan modelin kullanışlılı�
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Çoka çok olguları ilişkilendirme yönergeleri
 
-Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _zayıf ilişkilerin_ doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [İlişki değerlendirmesi](../desktop-relationships-understand.md#relationship-evaluation).
+Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _zayıf ilişkilerin_ doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../desktop-relationships-understand.md#relationship-evaluation).
 
 Olgu türündeki tabloları doğrudan ilişkilendirmek yerine [Yıldız Şeması](star-schema.md) tasarım ilkelerini benimsemenizi öneririz. Bunu, boyut türünde tablolar ekleyerek yaparsınız. Sonra boyut türündeki tablolar bire çok ilişkileri kullanılarak olgu türündeki tablolarla ilişkilendirilir. Bu tasarım yaklaşımı esnek raporlama seçenekleri getirdiğinden güçlü bir yaklaşımdır. Boyut türündeki sütunlardan herhangi birini kullanarak filtrelemenize veya gruplandırmanıza ve ilişkili olgu türündeki tabloları özetlemenize olanak tanır.
 
@@ -187,7 +184,7 @@ Zaman ayırıp yıldız şeması tasarım ilkelerinin uygulanması aşağıdaki 
 - Rapor görselleriniz boyut türündeki tabloların tüm görünür sütunlarına göre _filtrelenebilir veya gruplandırılabilir_
 - Rapor görselleriniz olgu türündeki tabloların tüm görünür sütunlarına göre _özetlenebilir_
 - **OrderLine**, **OrderDate** veya **Product** tablolarına uygulanan filtreler olgu türündeki her iki tabloya da yayılır
-- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _güçlü ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [İlişki değerlendirmesi](../desktop-relationships-understand.md#relationship-evaluation).
+- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _güçlü ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Daha yüksek dilimli olguları ilişkilendirme
 
@@ -300,4 +297,6 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
 - [Yıldız şemasını ve Power BI açısından önemini anlama](star-schema.md)
+- [İlişki sorunlarını giderme kılavuzu](relationships-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

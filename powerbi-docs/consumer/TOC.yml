@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: Rapora yer işareti ekleme
               href: end-user-bookmarks.md
+            - name: Rapora spot ışığı ekleme
+              href: end-user-spotlight.md
             - name: Power BI’daki sayfalandırılmış raporlar
               items:
                 - name: Sayfalandırılmış raporlar
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: Veri al
           items:
+            - name: Power BI’da çalışma alanları
+              href: end-user-workspaces.md
             - name: Power BI'daki uygulamalar
               href: end-user-apps.md
             - name: Uygulama yükleme ve kullanma

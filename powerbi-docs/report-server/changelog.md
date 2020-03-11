@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819549"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237972"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -24,6 +24,14 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
 
 ## <a name="january-2020"></a>Ocak 2020
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.6.7364.4075 (Derleme 15.0.1102.777), Yayın Tarihi: 2 Mart 2020*
+         - Hata Düzeltmeleri
+           -  Belirli veri kaynakları için karşıdan yükleyemeyen Power BI raporları düzeltmesi
+           -  Portaldan Power BI Rapor Sunucusu Masaüstü bağlantısı indirme konumu düzeltmesi
+           -  Excel işlemesi için DynamicImageDPI düzeltmesi
+           -  Çok kullanıcılı bazı senaryolarda yanlış iş parçacığı kültürü kullanan Oracle bağlantıları düzeltmesi
+           -  Rapor ekleme işleminde hatalara neden olan CustomHeaders varsayılan değerinin düzeltmesi
+           -  Bazı durumlarda yanlış oluşturulan SQL parametre adlarının düzeltmesi
     - *Sürüm: 1.6.7327.3007 (Derleme 15.0.1102.759), Yayın Tarihi: 23 Ocak 2020*
          - Özellikler
             -  Power BI raporlarından Excel’e aktarma.

@@ -41,9 +41,9 @@ Son ziyaret ettiğiniz öğe sayısı beşten fazlaysa Son görüntülenen ekran
 ## <a name="actions-available-from-the-recent-content-list"></a>**Son görüntülenen** içerik listesinden yapılabilen işlemler
 Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara bağlıdır. Bazı seçenekleriniz şunlar olabilir:
 * Yıldız simgesini seçerek [Panoyu, raporu veya uygulamayı sık kullanılanlara ekleyin](end-user-favorite.md) ![yıldız simgesi](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png)geçin.
+* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Raporu Excel’de açın](end-user-export.md) ![Excel’e aktar simgesi](./media/end-user-shared-with-me/power-bi-excel.png) 
-* Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md) ![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
+* Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md)![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
 * Ayrıca listeniz uzarsa [arama alanını ve sıralama özelliğini kullanarak, aradığınızı bulabilirsiniz](end-user-search-sort.md). Bir sütunun sıralanıp sıralanamayacağını öğrenmek için üzerine gelerek bir okun görünüp görünmediğine bakın. Bu örnekte, **Son erişim**’in üzerine geldiğinizde bir ok görüntülenir ve son görüntülediğiniz içerikler erişim tarihine göre sıralanabilir. 
 
     ![tüm son görüntülenen içerikleri sıralama](./media/end-user-recent/power-bi-recent-sort.png)

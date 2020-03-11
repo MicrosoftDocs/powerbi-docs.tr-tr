@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609930"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237995"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -134,6 +134,7 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 
 - Satır düzeyi güvenlik kullanan raporlar.
 - Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
+- Rapordan farklı bir çalışma alanında depolanmış, [paylaşılan veri kümesi](service-datasets-across-workspaces.md) kullanan raporlar.
 - Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
 - Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
 - "R" Görselleri şu an için raporları **Web'de yayımla** özelliği tarafından desteklenmemektedir.

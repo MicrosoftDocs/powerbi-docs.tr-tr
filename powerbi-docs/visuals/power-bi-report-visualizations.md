@@ -27,7 +27,7 @@ Doğrudan Power BI'daki Görselleştirmeler bölmesinden kullanabileceğiniz ço
 
 ![her görselleştirme türüne ait simgeleri içeren bölme](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Daha da fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [özel görselleri](../developer/visuals/custom-visual-develop-tutorial.md) bulabilir ve [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [özel görselleri](../developer/visuals/custom-visual-develop-tutorial.md) [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

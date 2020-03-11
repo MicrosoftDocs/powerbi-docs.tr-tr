@@ -7,6 +7,8 @@
       items:
         - name: Mobil uygulamalar nedir?
           href: mobile-apps-for-mobile-devices.md
+        - name: Mobil uygulamalardaki yenilikler
+          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Giriş sayfasıyla tanışın
           href: mobile-apps-home-page.md
     - name: Hızlı Başlangıçlar
@@ -22,8 +24,6 @@
     - name: Kavramlar
       expanded: true
       items:
-        - name: Mobil uygulamalardaki yenilikler
-          href: mobile-whats-new-in-the-mobile-apps.md
         - name: Mobil uygulamalar ile gerçek dünya verilerini alma
           href: mobile-apps-data-in-real-world-context.md
         - name: Mobil uygulamalarda verilerinizi çevrimdışı olarak görüntüleme
@@ -44,8 +44,6 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: Mobil uygulamalarda sık kullanılanlar
               href: mobile-apps-favorites.md
-            - name: Etkileşim ayarlarını yapılandırma (yalnızca telefon)
-              href: mobile-app-interaction-settings.md
             - name: Power BI mobil uygulamalarında veri uyarıları oluşturma
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Power BI mobil uygulamalarında bildirim alma
@@ -70,6 +68,8 @@
               href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
             - name: Power BI mobil uygulamasında barkod tarama
               href: mobile-apps-scan-barcode-iphone.md
+            - name: Etkileşim ayarlarını yapılandırma
+              href: mobile-app-interaction-settings.md
             - name: Mobil cihaz yönetimini kullanarak yapılandırma
               href: mobile-app-configuration.md
         - name: iOS
@@ -100,7 +100,7 @@
               href: mobile-windows-10-phone-app-get-started.md
             - name: Panoyu Başlangıç ekranına sabitleme
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-            - name: Raporlama Hizmetleri mobil raporlarını ve KPI'larını görüntüleme
+            - name: Şirket içi raporları ve KPI’leri görüntüleme
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
             - name: Power BI’yı Surface Hub’da görüntüleme
               href: mobile-windows-10-app-presentation-mode.md

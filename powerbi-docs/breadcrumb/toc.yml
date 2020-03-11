@@ -2,26 +2,41 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power Platformu
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: Tüketiciler
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: Geliştirici
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Power BI’da R destekli Power BI görsellerini kullanma
+            - name: Tüketiciler
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: Geliştirici
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: Destekli Öğrenme
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: Rapor Sunucusu
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: Rehber
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+            - name: Destekli Öğrenme
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: Rapor Sunucusu
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: Rehber
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: 'İşbirliği, paylaşım, tümleştirme'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: Raporlar ve panolar oluşturma
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: Verilere bağlanma
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: Kullanmaya başlayın
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: 'Verileri dönüştürme, şekillendirme ve modelleme'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

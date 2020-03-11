@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
-ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
+ms.openlocfilehash: 7be55c8b44a89ad5b317743b62e033cf34a01ef9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76309101"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290694"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri oluşturma
 
-Bu makale, Power BI Desktop'ta içeri aktarılan veri modelleyicilerine yöneliktir. Kullanımı kolay, doğru ve en uygun modeller sunmak için temel bilgiler sunan, önemli bir model tasarım konusudur.
+Bu makale, Power BI Desktop'ta içeri aktarılan veri modelleyicilerine yöneliktir. Kullanımı kolay, doğru ve en uygun modeller sunmak için temel bilgiler veren, önemli bir model tasarımı konu başlığıdır.
 
 Tablo rolleri ve ilişkileri dahil olmak üzere en uygun model tasarımı hakkında ayrıntılı bilgi için [Yıldız şemasını ve Power BI açısından önemini anlama](guidance/star-schema.md) makalesini inceleyin.
 
@@ -36,17 +36,17 @@ Basitçe ifade etmek gerekirse Power BI ilişkileri, model tablolarının sütun
 
 Bu örnekte model dört tablodan oluşmaktadır: **Kategori**, **Ürün**, **Yıl** ve **Satış**. **Kategori** tablosu **Ürün** tablosuyla, **Ürün** tablosu da **Satış** tablosuyla ilişkilendirilmiştir. **Yıl** tablosu da **Satış** tablosuyla ilişkilendirilmiştir. Tüm ilişkiler bir-çok türündedir (bu türle ilgili ayrıntılar bu makalenin ilerleyen bölümlerinde açıklanmaktadır).
 
-Power BI kart görseli gibi bir kaynak tarafından oluşturulan bir sorgu, tek bir kategoriye (**Kat-A**) ve tek bir yıla **CY2018** ait olan toplam satış miktarıyla ilgili bilgileri istemektedir. Bu nedenle **Kategori** ve **Yıl** tablolarına filtre uygulanmıştır. **Kategori** tablosundaki filtre **Ürün** tablosuna yayılarak **Kat-A** kategorisine atanmış olan iki ürünü yalıtmaktadır. Ardından **Ürün** tablosu filtreleri **Satış** tablosuna yayılarak bu ürünler için yalnızca iki satış satırını yalıtmaktadır. Bu iki satış satırı, **Kat-A** kategorisine atanmış olan ürünlerin satışlarını temsil etmektedir. Toplam miktar 14 birimdir. Ayrıca **Yıl** tablosunun filtresi, **Satış** tablosunu da filtreleyerek **Kat-A** kategorisine atanmış ve **CY2018** yılında sipariş edilmiş olan ürünlere ait tek bir satış satırı sunmaktadır. Sorgu tarafından döndürülen miktar değeri 11 birimdir. Bir tabloya birden fazla filtre uygulandığında (bu örnekteki **Satış** tablosu gibi) her zaman AND işlemi gerçekleştirilir ve tüm koşulların doğru olması gerekir.
+Büyük olasılıkla Power BI kart görseli gibi bir kaynak tarafından oluşturulan bir sorgu, tek bir kategoriye (**Kat-A**) ve tek bir yıla **CY2018** ait olan toplam satış miktarıyla ilgili bilgileri istemektedir. Bu nedenle **Kategori** ve **Yıl** tablolarına filtre uygulanmıştır. **Kategori** tablosundaki filtre **Ürün** tablosuna yayılarak **Kat-A** kategorisine atanmış olan iki ürünü yalıtmaktadır. Ardından **Ürün** tablosu filtreleri **Satış** tablosuna yayılarak bu ürünler için yalnızca iki satış satırını yalıtmaktadır. Bu iki satış satırı, **Kat-A** kategorisine atanmış olan ürünlerin satışlarını temsil etmektedir. Toplam miktar 14 birimdir. Ayrıca **Yıl** tablosunun filtresi, **Satış** tablosunu da filtreleyerek **Kat-A** kategorisine atanmış ve **CY2018** yılında sipariş edilmiş olan ürünlere ait tek bir satış satırı sunmaktadır. Sorgu tarafından döndürülen miktar değeri 11 birimdir. Bir tabloya birden fazla filtre uygulandığında (bu örnekteki **Satış** tablosu gibi) her zaman AND işlemi gerçekleştirilir ve tüm koşulların doğru olması gerekir.
 
 ### <a name="disconnected-tables"></a>Bağlantısı olmayan tablolar
 
-Bir model tablosunun başka bir model tablosuna bağlı olmaması sık görülen bir durum değildir. Geçerli bir model tasarımında bu tür tablolar, _bağlantısı olmayan tablo_ olarak açıklanabilir. Bağlantısı olmayan tablo, diğer model tablolarına filtre yayma amacıyla kullanılmaz. Bunun yerine "kullanıcı girişini" kabul etmek (muhtemelen bir dilimleyici görseliyle) ve model hesaplamalarının giriş değerini anlamlı bir şekilde kullanmasını sağlamak için kullanılır. Örneğin döviz kuru değerlerinden oluşan bir aralığa sahip olan, bağlantısı olmayan bir tablo düşünün. Tek bir kur değerine göre filtrelemek için bir filtre uygulandığında ilgili değer bir ölçüm ifadesi tarafından satış değerine dönüştürme amacıyla kullanılabilir.
+Bir model tablosunun başka bir model tablosuna bağlı olmaması sık görülen bir durum değildir. Geçerli bir model tasarımında bu tür tablolar, _bağlantısı olmayan tablo_ olarak açıklanabilir. Bağlantısı olmayan tablo, diğer model tablolarına filtre yayma amacıyla kullanılmaz. Bunun yerine "kullanıcı girişini" kabul etmek (muhtemelen bir dilimleyici görseliyle) ve model hesaplamalarının giriş değerini anlamlı bir şekilde kullanmasını sağlamak için kullanılır. Örneğin döviz kuru değerlerinden oluşan bir aralığa sahip olan, bağlantısı olmayan bir tablo düşünün. Tek kur değerine göre filtrelemek için bir filtre uygulandığı sürece ilgili değer bir ölçüm ifadesi tarafından satış değerine dönüştürme amacıyla kullanılabilir.
 
-Power BI Desktop durum parametresi, bağlantısı olmayan tablo oluşturan bir özelliktir. Daha fazla bilgi için [Power BI Desktop'ta değişkenleri görselleştirmek için durum parametresi oluşturma ve kullanma](desktop-what-if.md) makalesini inceleyin.
+Power BI Desktop durum parametresi, bağlantısı olmayan tablo oluşturan bir özelliktir. Daha fazla bilgi için [Power BI Desktop'ta değişkenleri görselleştirmek için durum parametresi oluşturma ve kullanma](desktop-what-if.md) makalesine bakın.
 
 ## <a name="relationship-properties"></a>İlişki özellikleri
 
-Model ilişkisi, bir tablo içindeki sütunlardan biriyle farklı bir tablonun sütunlarından biri arasında ilişki oluşturur. (Bu gereksinimin geçerli olmadığı özel bir durum vardır ve bu yalnızca DirectQuery modellerindeki çoklu sütun ilişkileri için geçerlidir. Daha fazla bilgi için [COMBINEVALUES](/dax/combinevalues-function-dax) DAX işlevi makalesini inceleyin.)
+Model ilişkisi, bir tablo içindeki sütunlardan biriyle farklı bir tablonun sütunlarından biri arasında ilişki oluşturur. (Bu gereksinimin geçerli olmadığı özel bir durum vardır ve bu yalnızca DirectQuery modellerindeki çoklu sütun ilişkileri için geçerlidir. Daha fazla bilgi için [COMBINEVALUES](/dax/combinevalues-function-dax) DAX işlevi makalesine bakın.)
 
 > [!NOTE]
 > Bir sütun ile _aynı tablodaki_ farklı bir sütun arasında ilişki kurmak mümkün değildir. Bu durum bazen tablonun kendine başvuru yaptığı ilişkisel veritabanı yabancı anahtar kısıtlaması tanımlama özelliğiyle karıştırılır. İlişkisel veritabanı kavramı üst-alt ilişkilerini depolamak için kullanılabilir (her çalışan kaydının bir "bağlı olduğu kişi" ile ilişkilendirildiği durumlar gibi). Bu ilişki türüne dayanan bir model hiyerarşisi oluşturma girişimi, model ilişkisi oluşturarak çözülemez. Çözüm için [Üst ve Alt işlevler](/dax/parent-and-child-functions-dax) makalesini inceleyin.
@@ -65,13 +65,13 @@ Dört seçenek ve kısaltılmış ifadeleri aşağıdaki madde işaretli listede
 - Bir-bir (1:1)
 - Çok-çok (\*:\*)
 
-Power BI Desktop'ta ilişki oluşturduğunuzda tasarımcı kardinalite türünü otomatik olarak algılayacak ve ayarlayacaktır. Tasarımcının bunu yapabilmesini sağlayan şey, modeli sorgulayarak benzersiz değerlerin bulunduğu sütunları öğrenmesidir. İçeri aktarma modelleri için iç depolama istatistiklerini kullanır, DirectQuery modelleri için de veri kaynağına profil oluşturma sorgusu gönderir. Ancak yanıldığı durumlar da olabilir. Bunun nedeni tablolara henüz veri yüklenmemiş olması veya yinelenen değer içermesini beklediğiniz sütunların o an için benzersiz değerler içeriyor olmasıdır. Her iki durumda da "bir" taraflı sütunlarda benzersiz değerlerin bulunması (veya tabloya veri satırları yüklenecek olması) durumunda kardinalite türünü güncelleştirebilirsiniz.
+Power BI Desktop'ta ilişki oluşturduğunuzda tasarımcı kardinalite türünü otomatik olarak algılayacak ve ayarlayacaktır. Tasarımcı modeli sorgulayarak benzersiz değerlerin bulunduğu sütunları öğrenir. İçeri Aktarma modelleri için iç depolama istatistiklerini kullanır, DirectQuery modelleri için de veri kaynağına profil oluşturma sorgusu gönderir. Ancak yanıldığı durumlar da olabilir. Bunun nedeni tablolara henüz veri yüklenmemiş olması veya yinelenen değer içermesini beklediğiniz sütunların o an için benzersiz değerler içeriyor olmasıdır. Her iki durumda da "bir" tarafındaki sütunlarda benzersiz değerler bulunduğu (veya tabloya henüz veri satırları yüklenmediği) sürece kardinalite türünü güncelleştirebilirsiniz.
 
 **Bir-çok** ve **Çok-çok** kardinalite seçenekleri temelde aynıdır ve aynı zamanda en yaygın kullanılan kardinalite türleridir.
 
 Bir-çok veya Çok-çok ilişki yapılandırırken sütunlara arasında ilişki kurduğunuz sıralamayla eşleşeni seçmeniz gerekir. **Ürün** tablosu ile **Satış** tablosu arasında ilişki kurmak için her birinde bulunan **Ürün Kimliği** sütununu nasıl yapılandıracağınızı düşünün. **Ürün** tablosundaki **Ürün Kimliği** sütunu benzersiz değerler içerdiğinden _Bir-çok_ kardinalite türü kullanılır. Tablolar arasındaki ilişkiyi ters yönde kuracak olursanız (**Satış** tablosundan **Ürün** tablosuna), kardinalite türü _Çok-bir olur_.
 
-**Bir-bir** ilişkisi her zaman iki sütunda da benzersiz değerler olduğu anlamına gelir. Bu kardinalite türü yaygın kullanılmaz ve genellikle gereksiz verilerin depolanması nedeniyle uygun olmayan bir tasarım ortaya çıkarır.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
+**Bir-bir** ilişkisi her zaman iki sütunda da benzersiz değerler olduğu anlamına gelir. Bu kardinalite türü yaygın kullanılmaz ve genellikle gereksiz verilerin depolanması nedeniyle uygun olmayan bir tasarım ortaya çıkarır. Bu kardinalite türünü kullanma hakkında daha fazla bilgi için bkz. [Birebir ilişki kılavuzu](guidance/relationships-one-to-one.md).
 
 **Çok-çok** ilişkisi, iki sütunda da yinelenen değer olabileceği anlamına gelir. Bu kardinalite türü oldukça seyrek kullanılır. Bu tür özellikle karmaşık model gereksinimlerini tasarlarken yararlı olur. Bu kardinalite türünü kullanma yönergeleri için bkz. [Çoka çok ilişkiler kılavuzu](guidance/relationships-many-to-many.md).
 
@@ -95,13 +95,13 @@ _Tek_ çapraz filtre yönü "tek yön", _Her İkisi_ ise "iki yön birden" anlam
 
 Bir-çok ilişkilerde çapraz filtre yönü her zaman "bir" tarafındandır ve isteğe bağlı olarak "çok" tarafına da eklenebilir (iki yönlü). Bir-bir ilişkilerde çapraz filtre yönü her zaman iki tablodan birden olur. Son olarak Çok-çok ilişkilerde çapraz filtre yönü tabloların birinden veya ikisinden birden olabilir. Kardinalite türü "bir" tarafı içerdiğinde filtreler her zaman o taraftan yayılacaktır.
 
-Çapraz filtre yönü **Her İkisi** olarak ayarlandığında, satır düzeyinde güvenlik (RLS) kurallarının uygulanması durumunda iki yönlü filtrelemeye ek bir özellik uygulanabilir. RLS hakkında daha fazla bilgi için [Power BI Desktop ile satır düzeyi güvenlik (RLS)](desktop-rls.md) makalesini inceleyin.
+Çapraz filtre yönü **Her İkisi** olarak ayarlandığı sürece ek özellik kullanılabilir. Satır düzeyi güvenlik (RLS) kuralları zorunlu tutulduğunda çift yönlü filtreleme uygulayabilir. RLS hakkında daha fazla bilgi için [Power BI Desktop ile satır düzeyi güvenlik (RLS)](desktop-rls.md) makalesine bakın.
 
 Çapraz filtrenin yönünün değiştirilmesi (filtrenin yayılmasını devre dışı bırakma dahil) işlemi bir model hesaplamasıyla da yapılabilir. Bunun için [CROSSFILTER](/dax/crossfilter-function) DAX işlevi kullanılır.
 
 İki yönlü ilişkiler, performansı olumsuz etkileyebilir. Ayrıca iki yönlü ilişki yapılandırma girişimi sonucunda belirsiz filtre yayma yolları elde edilebilir. Bu durumda Power BI Desktop, ilişki değişikliğini gerçekleştiremeyebilir ve sizi bir hata iletisiyle uyarır. Ancak Power BI Desktop bazen tablolar arasında belirsiz ilişki yolları tanımlamanıza izin verebilir. Belirsizlik algılama ve yol çözümlemesini etkileyen öncelik kuralları, bu makalenin ilerleyen bölümlerindeki [Öncelik kuralları](#precedence-rules) konu başlığında açıklanmaktadır.
 
-İki yönlü filtrelemeyi yalnızca ihtiyaç duyulması halinde kullanmanız önerilir.<!-- For guidance on bi-directional filtering, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
+İki yönlü filtrelemeyi yalnızca ihtiyaç duyulması halinde kullanmanız önerilir. Daha fazla bilgi için bkz. [Çift yönlü ilişki kılavuzu](guidance/relationships-bidirectional-filtering.md).
 
 > [!TIP]
 > Power BI Desktop model görünümünde, ilişki çizgisi üzerindeki ok uçlarına bakarak ilişkinin çapraz filtre yönünü belirleyebilirsiniz. Tek bir ok ucu, ok ucunun yönünde tek yönlü bir filtre olduğunu gösterirken çift ok ucu, iki yönlü bir ilişki olduğunu gösterir.
@@ -110,7 +110,7 @@ Bir-çok ilişkilerde çapraz filtre yönü her zaman "bir" tarafındandır ve i
 
 İki model tablosu arasında yalnızca bir etkin filtre yayma yolu olabilir. Ek ilişki yolu ekleyebilirsiniz ancak bu ilişkilerin _devre dışı_ olarak yapılandırılması gerekir. Etkin olmayan ilişkiler yalnızca model hesaplama sırasında etkin hale getirilebilir. Bunun için [USERELATIONSHIP](/dax/userelationship-function-dax) DAX işlevi kullanılır.
 
-<!--For guidance on defining inactive relationships, see the [Active vs inactive relationship guidance](guidance/relationships-active-inactive) article.-->
+Daha fazla bilgi için bkz. [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](guidance/relationships-active-inactive.md).
 
 > [!TIP]
 > Power BI Desktop model görünümünde bir ilişkinin etkin mi yoksa devre dışı mı olduğunu anlayabilirsiniz. Etkin ilişkiler düz çizgiyle gösterilirken devre dışı olan ilişkiler kesik çizgiyle gösterilir.
@@ -119,12 +119,12 @@ Bir-çok ilişkilerde çapraz filtre yönü her zaman "bir" tarafındandır ve i
 
 _Bilgi tutarlılığı varsay_ özelliği yalnızca aynı veri kaynağını temel alan iki DirectQuery depolama modu tablosu arasındaki Bir-çok ve Bir-bir ilişkileri için kullanılabilir. Bu özellik etkinleştirildiğinde, veri kaynağına gönderilen yerel sorgular iki tabloyu OUTER JOIN yerine INNER JOIN kullanarak birleştirir. Bu özelliğin etkinleştirilmesi genellikle sorgu performansını iyileştirse de bu durum veri kaynağına göre değişir.
 
-İki tablo arasında veritabanı yabancı anahtar kısıtlaması mevcut olduğunda bu özellik mutlaka etkinleştirilmelidir. Yabancı anahtar kısıtlaması olmasa da belirli bir veri bütünlüğünün mevcut olma durumuna göre bu özelliği etkinleştirebilirsiniz.
+İki tablo arasında veritabanı yabancı anahtar kısıtlaması mevcut olduğunda bu özelliği mutlaka etkinleştirin. Yabancı anahtar kısıtlaması olmasa da veri bütünlüğünün mevcut olduğundan emin olduğunuz sürece bu özelliği etkinleştirebilirsiniz.
 
 > [!IMPORTANT]
 > Veri bütünlüğünün tehlikeye girmesi durumunda iç birleşim, tablolar arasındaki eşleşmeyen satırları ortadan kaldıracaktır. Örneğin **Ürün Kimliği** sütun değerine sahip olan bir **Satış** tablosunun ilgili **Ürün** tablosunda mevcut olmadığı bir model düşünün. **Ürün** tablosundan **Satış** tablosuna doğru olan yayılan filtre, bilinmeyen ürünlerle ilgili satış satırlarını ortadan kaldıracaktır. Bunun sonucunda bildirilen satış sonuçları normalden düşük olacaktır.
 >
-> Daha fazla bilgi için [Power BI Desktop'ta Bilgi tutarlılığı varsay ayarları](desktop-assume-referential-integrity.md) makalesini inceleyin.
+> Daha fazla bilgi için [Power BI Desktop'ta Bilgi tutarlılığı varsayma ayarları](desktop-assume-referential-integrity.md) makalesine bakın.
 
 ## <a name="relevant-dax-functions"></a>İlgili DAX işlevleri
 
@@ -164,7 +164,7 @@ Aşağıdaki örnekte iki güçlü ilişki vardır ve ikisi de **S** harfiyle g�
 
 Tüm verilerin Vertipaq önbelleğinde depolandığı İçeri aktarma modellerinde, veriler yenilendiğinde her bir güçlü ilişki için bir veri yapısı oluşturulur. Veri yapıları, tüm sütunlar arası değerlerin dizinlenmiş eşleşmelerini içerir ve sorgu zamanında tabloların daha hızlı birleştirilmesini sağlamak için kullanılır.
 
-Güçlü ilişkiler, sorgu zamanında _tablonun genişletilmesini_ sağlar. Tablo genişletme işleminin sonucunda temel tablonun yerel sütunları alınıp ilişkili tablolarla genişletilerek bir sanal tablo oluşturulur. İçeri aktarma tablolarında bu işlem sorgu altyapısında, DirectQuery tablolarında ise kaynak veritabanına gönderilen yerel sorguda gerçekleştirilir ("Bilgi tutarlılığı varsay" özelliğinin etkinleştirilmemiş olması şartıyla). Ardından sorgu altyapısı genişletilen tabloya göre işlem yapar ve bu tablonun sütunlarında filtre uygulama ve gruplama işlemlerini gerçekleştirir.
+Güçlü ilişkiler, sorgu zamanında _tablonun genişletilmesini_ sağlar. Tablo genişletme işleminin sonucunda temel tablonun yerel sütunları alınıp ilişkili tablolarla genişletilerek bir sanal tablo oluşturulur. İçeri aktarma tablolarında bu işlem sorgu altyapısında, DirectQuery tablolarında ise kaynak veritabanına gönderilen yerel sorguda gerçekleştirilir (**Bilgi tutarlılığı varsay** özelliğinin etkinleştirilmemiş olması koşuluyla). Ardından sorgu altyapısı genişletilen tabloya göre işlem yapar ve bu tablonun sütunlarında filtre uygulama ve gruplama işlemlerini gerçekleştirir.
 
 > [!NOTE]
 > Hesaplama için kullanılmayanlar da dahil olmak üzere devre dışı ilişkiler de genişletilir. İki yönlü ilişkilerin tablo genişletme işlemi üzerinde bir etkisi yoktur.
@@ -221,12 +221,16 @@ Aşağıdaki listede en hızlıdan en yavaşa doğru olmak üzere filtre yayma p
 3. Ara tablo ile elde edilen ve en az bir iki yönlü ilişki içeren çok-çok model ilişkileri
 4. Adalar arası ilişkiler
 
-<!--For further information and guidance on many-to-many relationships, see the [Cross filter relationship guidance](guidance/relationships-bidirectional-filtering) article.-->
-
 ## <a name="next-steps"></a>Sonraki adımlar
 
+Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
+
 - [Yıldız şemasını ve Power BI açısından önemini anlama](guidance/star-schema.md)
+- [Birebir ilişki kılavuzu](guidance/relationships-one-to-one.md)
 - [Çoka çok ilişkiler kılavuzu](guidance/relationships-many-to-many.md)
-- Video: [Power BI İlişkilerinde Yapılması ve Yapılmaması Gerekenler](https://youtu.be/78d6mwR8GtA)
+- [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](guidance/relationships-active-inactive.md)
+- [Çift yönlü ilişki kılavuzu](guidance/relationships-bidirectional-filtering.md)
+- [İlişki sorunlarını giderme kılavuzu](guidance/relationships-troubleshoot.md)
+- Video: [Power BI İlişkilerinde Yapılması ve Yapılmaması Gerekenler](https://www.youtube.com/watch?v=78d6mwR8GtA)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

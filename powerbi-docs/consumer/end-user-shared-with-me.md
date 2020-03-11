@@ -25,7 +25,7 @@ ms.locfileid: "73861687"
 
 ![Paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından kendiniz denemek için videonun altındaki adım adım yönergeleri uygulayın. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Power BI Premium nedir?](../service-premium-what-is.md) makalesini okuyun.
+**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Power BI Premium nedir?](../service-premium-what-is.md) makalesini okuyun.
     
 
 > [!NOTE]
@@ -43,10 +43,10 @@ ms.locfileid: "73861687"
 ### <a name="actions-available-from-the-shared-with-me-container"></a>**Benimle paylaşılan** kapsayıcısından gerçekleştirilebilecek eylemler
 Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara bağlıdır. Bazı seçenekleriniz şunlar olabilir:
 * Yıldız simgesini seçerek [Panoyu veya raporu sık kullanılanlara ekleyebilirsiniz](end-user-favorite.md) ![yıldız simgesi](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png)geçin.
-* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png)geçin.
+* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png).
+* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Raporu Excel’de açın](end-user-export.md) ![Excel’e aktar simgesi](./media/end-user-shared-with-me/power-bi-excel.png) 
-* Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md) ![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
+* Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md)![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
   > EGRC sınıflandırmaları hakkında bilgi için **Sınıflandırma** düğmesini seçin veya [Pano veri sınıflandırması](../service-data-classification.md) sayfasını ziyaret edin.

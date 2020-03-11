@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 5eab21418eb1028d94ba2e50ffd6e736e6226018
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527603"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237926"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI'daki ağ geçitleri için çoklu oturum açmaya (SSO) genel bakış
 
@@ -25,8 +25,8 @@ Power BI aşağıdaki veri kaynaklarını destekler:
 * SQL Server (Kerberos)
 * SAP HANA (Kerberos ve SAML)
 * SAP BW Uygulama Sunucusu (Kerberos)
-* SAP BW İleti Sunucusu (Kerberos) - genel önizleme
-* Oracle (Kerberos) - genel önizleme
+* SAP BW İleti Sunucusu (Kerberos) 
+* Oracle (Kerberos) 
 * Teradata (Kerberos)
 * Spark (Kerberos)
 * Impala (Kerberos)
