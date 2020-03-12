@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: 4eda6f30d043ac4b1001d6f37ab0dcf6d6ec33b0
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
+  ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924012"
+  ms.lasthandoff: 03/11/2020
+  ms.locfileid: "79112780"
 landingContent:
 - title: İşbirliği yapmaya ve çalışmaya başlama
   linkLists:
@@ -25,10 +25,6 @@ landingContent:
     links:
     - text: Çalışmanızı paylaşmanın yolları
       url: ../service-how-to-collaborate-distribute-dashboards-reports.md
-  - linkListType: concept
-    links:
-    - text: Power BI Desktop ile Power BI hizmetini karşılaştırma
-      url: ../service-service-vs-desktop.md
 - title: İş arkadaşlarınızla işbirliği yapma
   linkLists:
   - linkListType: concept

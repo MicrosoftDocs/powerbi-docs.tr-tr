@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop klavye kısayolları
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: Veri kökeni
-          href: ../service-data-lineage.md
         - name: Sayfalandırılmış raporlar
           items:
             - name: Verileri doğrudan sayfalandırılmış bir rapora girme

@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: Veri kökeni
+              href: service-data-lineage.md
             - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Klasik bir çalışma alanında işbirliği yapma
