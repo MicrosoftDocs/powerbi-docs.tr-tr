@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: Düğme oluşturma
               href: ../desktop-buttons.md
+            - name: Detaylandırma düğmeleri oluşturma
+              href: ../desktop-drill-through-buttons.md
             - name: İçgörüleri kaydetmek ve paylaşmak için yer işaretleri oluşturma
               href: ../desktop-bookmarks.md
             - name: Rapor temaları ile çalışma
