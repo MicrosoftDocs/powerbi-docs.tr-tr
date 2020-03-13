@@ -46,6 +46,8 @@
           href: ../power-bi-data-sources.md
         - name: Power BI veri kaynağı önkoşulları
           href: ../desktop-data-source-prerequisites.md
+        - name: Power BI Desktop’ta gelişmiş veri kümesi meta verilerini kullanma (önizleme)
+          href: ../desktop-enhanced-dataset-metadata.md
         - name: Power BI’da çok boyutlu modellerle çalışma
           href: ../desktop-default-member-multidimensional-models.md
         - name: Power BI'da DirectQuery kullanma hakkında
