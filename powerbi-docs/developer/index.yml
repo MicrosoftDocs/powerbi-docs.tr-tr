@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 1c7d24ae1a941cb820bed8ce23a142771829dc6c
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
+  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041436"
+  ms.lasthandoff: 03/14/2020
+  ms.locfileid: "79378260"
 landingContent:
 - title: Geliştiriciler için Power BI hakkında
   linkLists:
@@ -61,7 +61,7 @@ landingContent:
     links:
     - text: Özel görseller için sertifika alma
       url: power-bi-custom-visuals-certified.md
-    - text: AppSource'ta özel görsel yayımlama
+    - text: AppSource'ta Power BI görsellerini yayımlama
       url: office-store.md
 - title: Ekli analiz
   linkLists:
