@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: R ile Power BI görselleri oluşturma
               href: ../desktop-r-visuals.md
-            - name: R tarafından sağlanan özel görselleri indirme ve kullanma
+            - name: R destekli Power BI görsellerini indirme ve kullanma
               href: ../desktop-r-powered-custom-visuals.md
             - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini uygulama
               href: ../desktop-gridlines-snap-to-grid.md

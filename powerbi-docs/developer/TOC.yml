@@ -12,7 +12,7 @@
         - name: Genel Bakış
           items:
             - name: Power BI’daki görseller
-              href: power-bi-custom-visuals.md
+              href: visuals/power-bi-custom-visuals.md
         - name: Öğreticiler
           items:
             - name: Power BI görseli geliştirme
@@ -28,11 +28,11 @@
             - name: Görsel kavramlar
               href: visuals/power-bi-visuals-concept.md
             - name: Power BI’da kuruluşlara yönelik görseller
-              href: power-bi-custom-visuals-organization.md
+              href: visuals/power-bi-custom-visuals-organization.md
             - name: Power BI görselleri için yönergeler
-              href: guidelines-powerbi-visuals.md
+              href: visuals/guidelines-powerbi-visuals.md
             - name: Görseller hakkında SSS
-              href: power-bi-custom-visuals-faq.md
+              href: visuals/power-bi-custom-visuals-faq.md
             - name: Özellikleri kullanma
               href: visuals/capabilities.md
             - name: Veri görünümü eşlemeleri
@@ -44,9 +44,9 @@
         - name: Nasıl yapılır
           items:
             - name: Power BI görseli için sertifika alın
-              href: power-bi-custom-visuals-certified.md
+              href: visuals/power-bi-custom-visuals-certified.md
             - name: AppSource'ta Power BI görsellerini yayımlama
-              href: office-store.md
+              href: visuals/office-store.md
             - name: Power BI’da R destekli Power BI görsellerini kullanma
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Görsel etkileşimler
@@ -76,7 +76,7 @@
             - name: Görsellerde hata ayıklama
               href: visuals/visuals-how-to-debug.md
             - name: Power BI görselleriyle ilgili sorunları giderme
-              href: power-bi-custom-visuals-troubleshoot.md
+              href: visuals/power-bi-custom-visuals-troubleshoot.md
         - name: Başvuru
           items:
             - name: Giriş sayfası
@@ -119,7 +119,7 @@
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Örnekler
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-            - name: Özel Görseller Git Deposu
+            - name: Power BI görselleri Git Deposu
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
             - name: SSL sertifikası oluşturma
               href: visuals/create-ssl-certificate.md
