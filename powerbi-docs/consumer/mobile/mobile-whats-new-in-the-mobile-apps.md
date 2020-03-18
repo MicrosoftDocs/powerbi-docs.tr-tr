@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259818"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041597"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -21,6 +21,29 @@ ms.locfileid: "77259818"
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
 * [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>Şubat 2020
+
+### <a name="multi-select-mode-android-and-ios"></a>Çoklu seçim modu (Android ve iOS)
+
+Rapor sayfasında birden çok veri noktasını seçebilme özelliğini ekledik. Çoklu seçim modu açıklığında, dokunduğunuz her veri noktası seçilen diğer veri noktalarına eklenir ve sayfadaki tüm görsellerde birleşik sonuçlar otomatik olarak vurgulanır. Çoklu seçim modunu açmak için [mobil uygulama ayarları](./mobile-app-interaction-settings.md) sayfasına gidin.
+
+>[!NOTE]
+>Çoklu seçim modu, Power BI Rapor Sunucusu’nun sonraki sürümünde Rapor Sunucusu’nda desteklenecektir.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>Artık iPhone’lar için mobil uygulamada rapor alt bilgisi sürekli görünür durumdadır
+
+Android telefonunuzda olduğu gibi artık iPhone’unuzda da rapor alt bilgisinin rapor sayfasının en altında yerleşik olarak gösterilmesine karar verebilirsiniz. Alt bilgi, sayfada yaptığınız eylemlerden bağımsız olarak sürekli görünür durumda olur. Bu sayede alt bilgide sağlanan tüm seçenekleri kolayca kullanabilirsiniz. Alt bilgiyi sabitlemek için **mobil uygulama ayarları** sayfasında [Yerleşik rapor alt bilgisi](./mobile-app-interaction-settings.md) anahtarını açın.
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>PBIRS raporları için destek (önizleme) (Windows)
+
+Artık Power BI Rapor Sunucusu (PBIRS) raporlarınızı Power BI uygulamasında açabilirsiniz.
+
+### <a name="quickly-access-your-recent-items-windows"></a>Son kullanılan öğelerinize hızla erişme (Windows)
+
+Son görüntülenen öğelerin listesini almak için Windows görev çubuğundaki Power BI uygulamanın simgesine sağ tıklayın. Hızlı bir geri dönüş yapmak için listeden bir öğeye tıklayın.
+
+![Görev çubuğu hızlı erişim menüsü](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>Ocak 2020
 
@@ -38,7 +61,7 @@ Android kullanıcılarımızın raporları kullanma deneyiminin en iyi düzeyde 
 
 Önceki davranışı tercih eden kullanıcılar, mobil uygulamanın yeni, genişletilmiş [etkileşim ayarları](./mobile-app-interaction-settings.md) ile bu davranışları geri yükleyebilir.
 
-Bunun yanı sıra, BT yöneticileri tercih ettikleri MDM aracını bir uygulama yapılandırma dosyasıyla kullanarak, kullanıcıları adına [yeni varsayılan ayarları uzaktan geçersiz kılabilir](./mobile-app-configuration.md#interaction-settings-android). Bu şekilde kuruluştaki tüm kullanıcılar için aynı davranış yapılandırılabilir.
+Bunun yanı sıra, BT yöneticileri tercih ettikleri MDM aracını bir uygulama yapılandırma dosyasıyla kullanarak, kullanıcıları adına [yeni varsayılan ayarları uzaktan geçersiz kılabilir](./mobile-app-configuration.md#interaction-settings-ios-and-android). Bu şekilde kuruluştaki tüm kullanıcılar için aynı davranış yapılandırılabilir.
 
 > [!NOTE]
 > Yenileme düğmesi ve rapor alt bilgisini yerleşik yapma etkileşim ayarlarının şu anda Rapor Sunucusu raporları üzerinde hiçbir etkisi yoktur. Bu durum Ocak Rapor Sunucusu sürümünde değiştirilecektir!
@@ -96,7 +119,7 @@ iOS ve Android cihazlara (bkz. [Eylül ayının "Yenilikler" girişi](#september
 
 ### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Power BI Mobil yeni görünüme giriş (önizleme) (iOS ve Android)
 
-Uygulamamızı yeniledik ve yeni deneyimler sunduk, yaygın olarak kullanılan içeriğinize hızlı erişim sağlayan bir giriş sayfası ve uygulamada gezinmek için size kolay bir yol sağlayan yeni gezinti bölmeleri ekledik. Yeni ve yenilenmiş deneyimler sayesinde, ihtiyacınız olduğunda ihtiyacınız olan şeyleri daha hızlı ve kolay bir şekilde bulabilirsiniz.
+Uygulamamızı yeniledik ve yeni deneyimleri kullanıma sunduk; yaygın olarak kullanılan içeriğinize hızlı erişim sağlayan bir giriş sayfası ve uygulamada gezinmek için size kolay bir yol sağlayan yeni gezinti bölmeleri ekledik. Yeni ve yenilenmiş deneyimler sayesinde, ihtiyacınız olduğunda ihtiyacınız olan şeyleri daha hızlı ve kolay bir şekilde bulabilirsiniz.
 Yeni görünüm önizleme aşamasında olduğundan, keyfini çıkarmak için açmanız gerekir.
 [Power BI Mobil yeni görünümü](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/) hakkında daha fazla bilgi edinin.
 
@@ -210,7 +233,7 @@ Verilerinizi tartışmak için panolara ve belirli kutucuklara doğrudan yorum e
 
 ### <a name="modern-visual-header"></a>Modern görsel üst bilgi 
 
-Yeni ‘modern görsel üst bilginin’ kullanıldığı raporlarda artık üst bilgiler için yer ayrılmaz ve bu sayede daha az boş alan bırakılarak görselleştirmelerinize daha fazla yer kalır.
+Yeni 'modern görsel üst bilgisinin' kullanıldığı raporlarda artık üst bilgiler için yer ayrılmaz ve bu sayede daha az boş alan bırakılarak görselleştirmelerinize daha fazla yer kalır.
 
 ### <a name="enhance-presentation-mode-windows"></a>Gelişmiş sunu modu (Windows)
 
@@ -264,7 +287,7 @@ Artık yalnızca Power BI Desktop'ta değil Power BI hizmetinde daha önce yayı
 
 ### <a name="dashboard-commenting-ios-and-android"></a>Pano yorumları (iOS ve Android) 
 
-Verilerinizi tartışmak için panolara ve belirli kutucuklara doğrudan yorum ekleyebilirsiniz; panoları görenler yorumlarınızı da görür. Ayrıca kuruluşunuzdaki başkalarını da bu kişilere @mentioning (değinme) yoluyla söyleşiye çekebilirsiniz. @mentioned (değindiğiniz) kişiler mobil telefonlarına iletiniz ile birlikte bir anında iletme bildirimi de alır.
+Verilerinizi tartışmak için panolara ve belirli kutucuklara doğrudan yorum ekleyebilirsiniz; panoları görenler yorumlarınızı da görür. Ayrıca kuruluşunuzdaki başkalarını da bu kişilere @mentioning (değinme) yoluyla söyleşiye çekebilirsiniz. @mentioned (bahsettiğiniz) kişiler mobil telefonlarına iletinizle birlikte bir anında iletme bildirimi de alır.
 
 Şu anda iOS ve Android cihazlarda bulunmaktadır. Windows desteği yakında gelecektir.
 
@@ -383,7 +406,7 @@ Intune mobil cihaz yönetimini kullanarak koşullu erişim desteği.
 
 #### <a name="improved-security-management"></a>Güvenlik yönetimi iyileştirildi 
 
-Kuruluşunuzun verilerini daha iyi korumak için Android cihazlarda koşullu erişim (CA) ve Microsoft Intune mobil aygıt yönetimi (MDM) için destek ekledik. Bu destek iOS’ta zaten mevcuttur.
+Kuruluşunuzun verilerini daha iyi korumak için Android cihazlarda koşullu erişim (CA) ve Microsoft Intune mobil cihaz yönetimi (MDM) için destek ekledik. Bu destek iOS’ta zaten mevcuttur.
 
 #### <a name="improved-permission-management"></a>Geliştirilmiş izin yönetimi
 
@@ -398,7 +421,7 @@ Power BI'daki bazı uygulamaları herhangi bir şekilde yüklemeniz gerekmez. Ku
 ### <a name="november-2017"></a>Kasım 2017
 #### <a name="iphone-x-optimization"></a>iPhone X için en iyi duruma getirme
 
-Uygulama düzenini iPhone X için en iyi duruma getirdik. Böylece, verilerinizi her cihazda güzelce araştırabilirsiniz.
+Uygulama düzenini iPhone X için en iyi duruma getirdik. Böylece, verilerinizi her cihazda rahatça araştırabilirsiniz.
 
 ### <a name="october-2017"></a>Ekim 2017
 #### <a name="filters-for-phone-reports-in-android"></a>Android cihazlardaki telefon raporlarına yönelik filtreler
@@ -573,7 +596,7 @@ Bulunduğunuz konuma yakın verilere odaklanmak için **haritaları ortalama**
 [Power BI mobil uygulamaları için Ekim 2016 güncelleştirmesiyle kullanıma sunulan özelliklere ilişkin özete](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-october-2016/) göz atın.
 
 #### <a name="all-devices"></a>Tüm cihazlar
-**Giriş sayfası olarak, Sık Kullanılanlar'ı görüntüleme** Sık kullanılan olarak işaretlediğiniz panolarınız varsa Sık Kullanılanlar sayfası, giriş sayfanız olur. 
+**Giriş sayfası olarak Sık Kullanılanlar'ı görüntüleme** Sık kullanılan olarak işaretlediğiniz panolarınız varsa Sık Kullanılanlar sayfası giriş sayfanız olur. 
 
 **İyileştirilmiş gezinti** Ana gezinti bölmesine yeni bir görünüm kazandırıldı. Gruplar gezinti menüsü ise gruplar kataloğuna taşındı. 
 
@@ -629,7 +652,7 @@ Power BI hizmetinde artık [panoların telefonda kullanıma yönelik görünüml
 
 **Rapor sayfaları için QR kodları** Hizmette oluşturulan bir QR kodu ile raporun tamamı yerine belirli bir sayfa ile bağlantı kurabilirsiniz.
 
-**İyileştirilmiş uyarılar** Veri temelli uyarılar artık aygıtınızın yerel ayarına göre biçimlendiriliyor.
+**İyileştirilmiş uyarılar** Veri temelli uyarılar artık cihazınızın yerel ayarına göre biçimlendiriliyor.
 
 #### <a name="ios-on-iphones-and-ipads"></a>iPhone ve iPad'lerdeki iOS
 **İyileştirilmiş güvenlik yönetimi** Belirli bir panoda sunulan iş verileri için bir risk sınıflandırması seçin.
@@ -812,7 +835,7 @@ Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik 
 
 #### <a name="android"></a>Android
 * Grup çalışma alanları desteği: Grup çalışma alanlarında iş arkadaşlarınızla işbirliği yapın. 
-* Kimliği doğrulanmamış kullanıcılar için destek:  Kullanıcıların uygulamada oturum açamadığı birkaç senaryo için, destek ekibi ile iletişim kurmaya ve geri bildirim göndermeye yönelik hızlı, kullanışlı bir yöntem geliştirdik.
+* Kimliği doğrulanmamış kullanıcılar için destek:  Kullanıcıların uygulamada oturum açamadığı birkaç senaryo için, destek ekibiyle iletişim kurmaya ve geri bildirim göndermeye yönelik hızlı, kullanışlı bir yöntem geliştirdik.
 * Rol tabanlı güvenlik yöntemi ile panolara erişim sırasında sunulan kullanıcı deneyimi iyileştirildi.          
 * Grafiklerin veri biçimlendirmesi ve tüm pano kutucuklarının hizalaması iyileştirildi. 
 
@@ -825,11 +848,10 @@ Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik 
 * Matris grafik kutucukları için dokunma deneyimine yönelik iyileştirmeler: Artık matris verilerinizde kaydırma yaparak tüm verileri kolay ve sezgisel şekilde görüntüleyebilirsiniz.
 * Grafiklerin veri biçimlendirmesi ve pano kutucuklarının hizalaması iyileştirildi. 
 * iOS 7 desteğinin kaldırılması: Power BI için en üst düzey güvenlik standartlarını korumak üzere artık iOS 7 yüklü cihazlar için destek sunmuyoruz. iOS 8 veya sonraki sürümleri gereklidir. 
-* Uygulamaya eklenen geri bildirim ve derecelendirme özellikleri: Topluluğun yol haritamız üzerindeki etkisini artırmak ve sorunlar için doğrudan uygulama üzerinden, kolayca destek sunabilmemiz için uygulamaya, geri bildirim ve derecelendirme özellikleri ekledik.
+* Uygulamaya eklenen geri bildirim ve derecelendirme özellikleri: Topluluğun yol haritamız üzerindeki etkisini artırmak ve sorunlar için doğrudan uygulama üzerinden, kolayca destek sunabilmek için uygulamaya, geri bildirim ve derecelendirme özellikleri ekledik.
 
 #### <a name="windows"></a>Windows
 * Odak modunda harita kutucuğu işleme işlemi, tüm ekran kaplanacak şekilde iyileştirildi.
 * Rol tabanlı güvenlik yöntemi ile panolara erişim sırasında sunulan kullanıcı deneyimi iyileştirildi. 
 * Yeni bir özellik sayesinde, pano kutucuklarını odak modunda incelerken panoya geri dönüp bir sonraki kutucuğu seçmenize gerek kalmadan pano kutucukları arasında gezinebilirsiniz.
 * Kararlılık ve performansa yönelik ek iyileştirmeler. 
-

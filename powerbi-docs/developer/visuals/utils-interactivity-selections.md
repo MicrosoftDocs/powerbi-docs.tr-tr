@@ -7,279 +7,284 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
-ms.date: 06/18/2019
-ms.openlocfilehash: be7a708dfcc6ebc40c62a1a9075e2cbf134363b1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.topic: how-to
+ms.date: 02/24/2020
+ms.openlocfilehash: 3614505cec185779bce3f63c6e7a565a5ef39443
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818698"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920894"
 ---
-# <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Microsoft Power BI görselleri etkileşim yardımcı programları
+# <a name="power-bi-visuals-interactivity-utils"></a>Power BI görselleri etkileşim yardımcı programları
 
-InteractivityUtils Power BI özel görsellerinde çapraz seçim ve çapraz filtrelemenin basitleştirilmesine yönelik bir işlev ve sınıf kümesidir.
+Etkileşim yardımcı programları (`InteractivityUtils`), çapraz seçimin ve çapraz filtrelemenin uygulanmasını basitleştirmek için kullanılabilen bir dizi işlev ve sınıftır.
+
+> [!NOTE]
+> Etkileşim yardımcı programlarının yeni güncelleştirmeleri yalnızca araçların en son sürümünü (3.x.x ve üzeri) destekler.
 
 ## <a name="installation"></a>Yükleme
 
-> [!NOTE]
-> powerbi-visuals-tools'un eski sürümlerini (3.x.x'ten düşük bir sürüm numarası) kullanmaya devam ediyorsanız, araçların yeni sürümünü (3.x.x) yükleyin.
+1. Paketi yüklemek için geçerli Power BI görsel projenizin dizininde aşağıdaki komutu çalıştırın.
 
-> [!IMPORTANT]
-> Etkileşim yardımcı programlarının yeni güncelleştirmeleri yalnızca araçların en son sürümünü destekler. [En son araçlarla kullanmak üzere görsel kodunuzu nasıl güncelleştireceğiniz hakkında daha fazla bilgi edinin](migrate-to-new-tools.md)
+    ```bash
+    npm install powerbi-visuals-utils-interactivityutils --save
+    ```
 
-Paketi yüklemek için geçerli özel görselinizin dizininde aşağıdaki komutu çalıştırmalısınız:
+2. Aracın 3.0 veya sonraki bir sürümünü kullanıyorsanız, bağımlılıkları çözmek için `powerbi-models` yükleyin.
 
-```bash
-npm install powerbi-visuals-utils-interactivityutils --save
-```
+    ```bash
+    npm install powerbi-models --save
+    ```
 
-Sürüm 3.0 veya üzerinde, bağımlılıkları çözmek için ```powerbi-models``` yüklemeniz de gerekir.
+3. Etkileşim yardımcı programlarını kullanmak için Power BI görselinin kaynak kodunda gerekli bileşeni içeri aktarın.
 
-```bash
-npm install powerbi-models --save
-```
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```
 
-Etkileşim yardımcı programlarını kullanmak için görselin kaynak kodunda gerekli bileşeni içeri aktarmalısınız.
+### <a name="including-the-css-files"></a>CSS dosyaları da dahil
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
-```
-
-### <a name="including-css-artifacts-to-the-custom-visual"></a>Özel görsele CSS yapıtlarını ekleme
-
-Paketi özel görsellerinizle kullanabilmeniz için şu CSS dosyasını `your.less` dosyasına aktarmanız gerekir:
+Paketi Power BI görselinizle kullanabilmeniz için şu CSS dosyasını `.less` dosyanıza aktarın.
 
 `node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css`
 
-Sonuç olarak şu dosya yapısına sahip olursunuz:
+CSS dosyasını bir `.less` dosyası olarak içeri aktarın çünkü Power BI görselleri aracı dış CSS kurallarını sarmalar.
 
 ```less
 @import (less) "node_modules/powerbi-visuals-utils-interactivityutils/lib/index.css";
 ```
 
-> [!NOTE]
-> Power BI Görsel Araçları dış CSS kurallarını sarmaladığından, .css dosyasını .less dosyası olarak eklemeniz gerekir.
+## <a name="selectabledatapoint-properties"></a>SelectableDataPoint özellikleri
 
-## <a name="usage"></a>Kullanım
+Genellikle veri noktaları seçimler ve değerler içerir. Arabirim, `SelectableDataPoint` arabirimini genişletir.
 
-### <a name="define-interface-for-data-points"></a>Veri noktaları için arabirimi tanımlama
-
-Genellikle veri noktaları seçimler ve değerler içerir. Arabirim, `SelectableDataPoint` arabirimini genişletir. `SelectableDataPoint` zaten özellikleri içerir:
+Aşağıda açıklandığı gibi `SelectableDataPoint` zaten özellikleri içerir.
 
 ```typescript
-  /** Flag for identifying that data point was selected */
+  /** Flag for identifying that a data point was selected */
   selected: boolean;
+
   /** Identity for identifying the selectable data point for selection purposes */
   identity: powerbi.extensibility.ISelectionId;
-  /**
+
+  /*
    * A specific identity for when data points exist at a finer granularity than
-   * selection is performed.  For example, if your data points should select based
-   * only on series even if they exist as category/series intersections.
+   * selection is performed.  For example, if your data points select based
+   * only on series, even if they exist as category/series intersections.
    */
+
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-Etkileşim yardımcı programlarını kullanmanın ilk adımı, etkileşim yardımcı programlarının örneğini oluşturmak ve nesneyi görselin özelliği olarak kaydetmektir
+## <a name="defining-an-interface-for-data-points"></a>Veri noktaları için arabirimi tanımlama
 
-```typescript
-export class Visual implements IVisual {
-  // ...
-  private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
-  // ...
-  constructor(options: VisualConstructorOptions) {
+1. Etkileşim yardımcı programlarının bir örneğini oluşturun ve nesneyi görselin özelliği olarak kaydedin
+
+    ```typescript
+    export class Visual implements IVisual {
       // ...
-      this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+      private interactivity: interactivityBaseService.IInteractivityService<VisualDataPoint>;
       // ...
-  }
-}
-```
+      constructor(options: VisualConstructorOptions) {
+          // ...
+          this.interactivity = interactivitySelectionService.createInteractivitySelectionService(this.host);
+          // ...
+      }
+    }
+    ```
 
-```typescript
-import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
+    ```typescript
+    import { interactivitySelectionService } from "powerbi-visuals-utils-interactivityutils";
 
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-```
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+    ```
 
-İkinci adım temel davranış sınıfını genişletmektir:
+2. Temel davranış sınıfını genişletin.
 
-> [!NOTE]
-> BaseBehavior, [etkileşim yardımcı programlarının 5.6.x sürümünde](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) kullanıma sunulmuştur. Eski sürümü kullanıyorsanız, davranış sınıfını aşağıdaki örnekten oluşturun (`BaseBehavior` sınıfı aynıdır):
+    > [!NOTE]
+    > `BaseBehavior`, [etkileşim yardımcı programlarının 5.6.x sürümünde](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0) kullanıma sunulmuştur. Daha eski bir sürüm kullanıyorsanız, davranış sınıfını aşağıdaki örnekten oluşturun.
 
-Davranış sınıfının seçenekleri için arabirimi tanımlayın:
+3. Davranış sınıfı seçenekleri için arabirimi tanımlayın.
 
-```typescript
-import { SelectableDataPoint } from "./interactivitySelectionService";
+    ```typescript
+    import { SelectableDataPoint } from "./interactivitySelectionService";
 
-import {
-    IBehaviorOptions,
-    BaseDataPoint
-} from "./interactivityBaseService";
+    import {
+        IBehaviorOptions,
+        BaseDataPoint
+    } from "./interactivityBaseService";
 
-export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
-    /** D3 selection object of main elements on the chart */
+    export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoint> extends IBehaviorOptions<SelectableDataPointType> {
+
+    /** d3 selection object of the main elements on the chart */
     elementsSelection: Selection<any, SelectableDataPoint, any, any>;
-    /** D3 selection object of some element on backgroup to hadle click of reset selection */
+
+    /** d3 selection object of some elements on backgroup, to hadle click of reset selection */
     clearCatcherSelection: d3.Selection<any, any, any, any>;
-}
-```
+    }
+    ```
 
-`visual behavior` için sınıfı tanımlayın. Sınıf `click`, `contextmenu` fare olaylarının işlenmesinden sorumludur.
-Kullanıcı veri öğelerine tıkladığında, görsel veri noktalarını seçmek için seçim işleyicisini çağırır. Kullanıcı görselin arka plan öğesine tıklarsa, seçimi temizleme işleyicisini çağırır. Sınıfın bunlara karşılık gelen şu yöntemleri vardır: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+4. `visual behavior` için sınıfı tanımlayın. İsterseniz `BaseBehavior` sınıfını genişletin.
 
-```typescript
-export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
-    /** D3 selection object of main elements on the chart */
-    protected options: BaseBehaviorOptions<SelectableDataPointType>;
-    protected selectionHandler: ISelectionHandler;
+    **`visual behavior` için sınıf tanımlama**
 
+    Sınıf `click`, `contextmenu` fare olaylarının işlenmesinden sorumludur.
+
+    Kullanıcı veri öğelerine tıkladığında, görsel veri noktalarını seçmek için seçim işleyicisini çağırır. Kullanıcı görselin arka plan öğesine tıklarsa, seçimi temizleme işleyicisini çağırır.
+
+    Sınıfın bunlara karşılık gelen şu yöntemleri vardır:
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`.
+
+    ```typescript
+    export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
+
+        /** d3 selection object of main elements in the chart */
+        protected options: BaseBehaviorOptions<SelectableDataPointType>;
+        protected selectionHandler: ISelectionHandler;
+    
+        protected bindClick() {
+          // ...
+        }
+    
+        protected bindClearCatcher() {
+          // ...
+        }
+    
+        protected bindContextMenu() {
+          // ...
+        }
+    
+        public bindEvents(
+            options: BaseBehaviorOptions<SelectableDataPointType>,
+            selectionHandler: ISelectionHandler): void {
+          // ...
+        }
+    
+        public renderSelection(hasSelection: boolean): void {
+          // ...
+        }
+    }
+    ```
+
+    **`BaseBehavior` sınıfını genişletme**
+
+    ```typescript
+    import powerbi from "powerbi-visuals-api";
+    import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
+
+    export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
+        value: powerbi.PrimitiveValue;
+    }
+
+    export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
+      // ...
+    }
+    ```
+
+5. Öğelere tıklamayı işlemek için *d3* seçim nesnesi `on` yöntemini çağırın. Bu `elementsSelection` ve `clearCatcherSelection` için de geçerlidir.
+
+    ```typescript
     protected bindClick() {
-      // ...
+      const {
+          elementsSelection
+      } = this.options;
+    
+      elementsSelection.on("click", (datum) => {
+          const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
+          mouseEvent && this.selectionHandler.handleSelection(
+              datum,
+              mouseEvent.ctrlKey);
+      });
     }
+    ```
 
-    protected bindClearCatcher() {
-      // ...
-    }
+6. `contextmenu` olayı için benzer bir işleyici ekleyerek seçim yöneticisinin `showContextMenu` yöntemini çağırın.
 
+    ```typescript
     protected bindContextMenu() {
-      // ...
+        const {
+            elementsSelection
+        } = this.options;
+    
+        elementsSelection.on("contextmenu", (datum) => {
+            const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
+            if (event) {
+                this.selectionHandler.handleContextMenu(
+                    datum,
+                    {
+                        x: event.clientX,
+                        y: event.clientY
+                    });
+                event.preventDefault();
+            }
+        });
     }
+    ```
 
-    public bindEvents(
-        options: BaseBehaviorOptions<SelectableDataPointType>,
-        selectionHandler: ISelectionHandler): void {
-      // ...
-    }
+7. İşleyicilere işlev atamak için etkileşim yardımcı programları `bindEvents` yöntemini çağırır. Aşağıdaki çağrıları `bindEvents` yöntemine ekleyin:
+    * `bindClick`
+    * `bindClearCatcher`
+    * `bindContextMenu`
 
+    ```typescript
+      public bindEvents(
+          options: BaseBehaviorOptions<SelectableDataPointType>,
+          selectionHandler: ISelectionHandler): void {
+
+          this.options = options;
+          this.selectionHandler = selectionHandler;
+
+          this.bindClick();
+          this.bindClearCatcher();
+          this.bindContextMenu();
+      }
+    ```
+
+8. Grafikte öğelerin görsel durumunu güncelleştirmek `renderSelection` yönteminin sorumluluğundadır. Burada `renderSelection` yöntemini uygulama örneği verilmiştir.
+
+    ```typescript
     public renderSelection(hasSelection: boolean): void {
-      // ...
+        this.options.elementsSelection.style("opacity", (category: any) => {
+            if (category.selected) {
+                return 0.5;
+            } else {
+                return 1;
+            }
+        });
     }
-}
-```
+    ```
 
-Öte yandan `BaseBehavior` sınıfını genişletebilirsiniz:
+9. Son adım `visual behavior` örneği oluşturmak and etkileşim yardımcı programları örneğinin `bind` yöntemini çağırmaktır.
 
-```typescript
-import powerbi from "powerbi-visuals-api";
-import { interactivitySelectionService, baseBehavior } from "powerbi-visuals-utils-interactivityutils";
-
-export interface VisualDataPoint extends interactivitySelectionService.SelectableDataPoint {
-    value: powerbi.PrimitiveValue;
-}
-
-export class Behavior extends baseBehavior.BaseBehavior<VisualDataPoint> {
-  // ...
-}
-```
-
-Öğelere tıklamayı işlemek için D3 seçin nesnesinin `on` yöntemini çağırın (elementsSelection ve clearCatcherSelection için de):
-
-```typescript
-protected bindClick() {
-  const {
-      elementsSelection
-  } = this.options;
-
-  elementsSelection.on("click", (datum) => {
-      const mouseEvent: MouseEvent = getEvent() as MouseEvent || window.event as MouseEvent;
-      mouseEvent && this.selectionHandler.handleSelection(
-          datum,
-          mouseEvent.ctrlKey);
-  });
-}
-```
-
-Seçim yöneticisinin `showContextMenu` yöntemini çağırmak üzere, `contextmenu` için benzer bir işleyici ekleyin:
-
-```typescript
-protected bindContextMenu() {
-    const {
-        elementsSelection
-    } = this.options;
-
-    elementsSelection.on("contextmenu", (datum) => {
-        const event: MouseEvent = (getEvent() as MouseEvent) || window.event as MouseEvent;
-        if (event) {
-            this.selectionHandler.handleContextMenu(
-                datum,
-                {
-                    x: event.clientX,
-                    y: event.clientY
-                });
-            event.preventDefault();
-        }
+    ```typescript
+    this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
+        behavior: this.behavior,
+        dataPoints: this.categories,
+        clearCatcherSelection: select(this.target),
+        elementsSelection: selectionMerge
     });
-}
-```
+    ```
 
-Etkileşim yardımcı programları işleyicilere işlev atamak için `bindEvents` yöntemlerini çağırır; `bindEvents` yöntemine `bindClick`, `bindClearCatcher` ve`bindContextMenu` çağrıları ekler:
+    * `selectionMerge`, tüm görsellerdeki seçilebilir öğeleri temsil eden *d3* seçim nesnesidir.
+    * `select(this.target)`, görselin ana DOM öğelerini temsil eden *d3* seçim nesnesidir.
+    * `this.categories` öğelerin olduğu veri noktalarıdır; burada arabirim `VisualDataPoint` veya `categories: VisualDataPoint[];` olur.
+    * `this.behavior`, aşağıda gösterildiği gibi görselin oluşturucusunda oluşturulan yeni bir `visual behavior` örneğidir.
 
-```typescript
-  public bindEvents(
-      options: BaseBehaviorOptions<SelectableDataPointType>,
-      selectionHandler: ISelectionHandler): void {
-
-      this.options = options;
-      this.selectionHandler = selectionHandler;
-
-      this.bindClick();
-      this.bindClearCatcher();
-      this.bindContextMenu();
-  }
-```
-
-Grafikte öğelerin görsel durumunu güncelleştirmek `renderSelection` yönteminin sorumluluğundadır.
-
-`renderSelection` yöntemini uygulama örneği:
-
-```typescript
-public renderSelection(hasSelection: boolean): void {
-    this.options.elementsSelection.style("opacity", (category: any) => {
-        if (category.selected) {
-            return 0.5;
-        } else {
-            return 1;
-        }
-    });
-}
-```
-
-Son adım `visual behavior` örneği oluşturmak and etkileşim yardımcı programları örneğinin `bind` yöntemini çağırmaktır:
-
-```typescript
-this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
-    behavior: this.behavior,
-    dataPoints: this.categories,
-    clearCatcherSelection: select(this.target),
-    elementsSelection: selectionMerge
-});
-```
-
-* `selectionMerge`, görseldeki tüm seçilebilir öğeleri temsil eden D3 seçim nesnesidir.
-
-* `select(this.target)`, görseldeki ana DOM öğelerini temsil eden D3 seçim nesnesidir.
-
-* `this.categories` öğelerin olduğu veri noktalarıdır, burada arabirim `VisualDataPoint` (veya `categories: VisualDataPoint[];`)
-
-* `this.behavior`, yeni `visual behavior` örneğidir;
-
-  görselin oluşturucusunda oluşturulmuştur:
-
-  ```typescript
-  export class Visual implements IVisual {
-    // ...
-    constructor(options: VisualConstructorOptions) {
+      ```typescript
+      export class Visual implements IVisual {
         // ...
-        this.behavior = new Behavior();
-    }
-    // ...
-  }
-  ```
-
-Artık görseliniz seçimi işlemeye hazırdır.
-
+        constructor(options: VisualConstructorOptions) {
+            // ...
+            this.behavior = new Behavior();
+        }
+        // ...
+      }
+      ```
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Yer işaretleri değiştirmede seçimlerin nasıl işlendiğini öğrenin](bookmarks-support.md#visuals-with-selection)

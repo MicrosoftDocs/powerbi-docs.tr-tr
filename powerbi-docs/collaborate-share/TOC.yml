@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama
               href: ../service-report-subscribe.md
+            - name: Giriş sayfasındaki özellik içeriği
+              href: service-featured-content.md
             - name: Microsoft Teams’e rapor ekleme
               href: ../service-embed-report-microsoft-teams.md
             - name: SharePoint Online'a rapor ekleme

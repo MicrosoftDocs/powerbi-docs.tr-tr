@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378260"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487775"
 landingContent:
 - title: Geliştiriciler için Power BI hakkında
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: Geliştiriciler neler yapabilir?
       url: what-can-you-do.md
     - text: Power BI’daki görseller
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: Ekleme nedir?
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Power BI API nedir?
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: Görseller hakkında SSS
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: Görsellere ilişkin yönergeler
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: Görsellerde gelişmiş düzenleme modu
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: Özel görseller için sertifika alma
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: AppSource'ta Power BI görsellerini yayımlama
-      url: office-store.md
+      url: visuals/office-store.md
 - title: Ekli analiz
   linkLists:
   - linkListType: tutorial
     links:
     - text: Müşteriler için içerik ekleme
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: Kuruluşunuz için içerik ekleme
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: Satır düzeyi güvenlik
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: Çok kiracılı uygulamaları yönetme
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: Ekleme hakkında SSS
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: İzinler
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Uygulamalardan ekleme
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Azure Active Directory kiracısı oluşturma
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Azure AD erişim belirteci alma
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Power BI Embedded'da Soru-Cevap işlevselliği
-      url: qanda.md
+      url: embedded/qanda.md
