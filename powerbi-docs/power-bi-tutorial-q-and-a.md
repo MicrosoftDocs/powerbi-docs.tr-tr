@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875081"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488879"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Soru-Cevap ile verilerinizi keşfetme ve görseller oluşturma
 
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Power BI'ın Soru-Cevap özelliği, verilerinizi kendi sözcüklerinizi kullanarak keşfetmenizi sağlar.  Bu makalenin ilk bölümünde, Soru-Cevap özelliğini Power BI hizmetindeki panolarda nasıl kullanacağınız gösterilmektedir. İkinci bölümde ise Power BI hizmeti veya Power BI Desktop ile rapor oluştururken Soru-Cevap ile yapabilecekleriniz anlatılmaktadır. Daha fazla arka plan bilgisine [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md) makalesinden ulaşabilirsiniz. 
 
-[Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded’da Soru-Cevap](developer/qanda.md) konuları ayrı makalelerde ele alınmıştır. 
+[Power BI mobil uygulamalarında Soru-Cevap](consumer/mobile/mobile-apps-ios-qna.md) ve [Power BI Embedded’da Soru-Cevap](developer/embedded/qanda.md) konuları ayrı makalelerde ele alınmıştır. 
 
 Soru-Cevap etkileşimli ve hatta eğlenceli bir özelliktir. Genellikle görselleştirmelerin sürdürülebilecek ilginç yollar açması nedeniyle her soru yeni bir soruyu getirir. Görselleştirme oluşturmak, görselleri ayrıntılı olarak incelemek ve bunları panolara sabitlemek için Soru-Cevap özelliğinin nasıl kullanılacağını gösteren Amanda'yı izleyin.
 

@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079129"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488281"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
 
 Bu makale, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin ikinci adımıdır.
 
-Birinci adımda [Azure AD'de bir istemci uygulamasını kaydettiniz](../register-app.md). Bu adımda bir kimlik doğrulaması erişim belirteci alırsınız. Uygulamanıza güvenli oturum açma ve yetkilendirme sağlamak için Power BI uygulamaları Azure Active Directory ile tümleştirilmiştir. Uygulamanız Azure AD'de kimlik doğrulaması yapmak ve Power BI kaynaklarına erişmek için bir belirteç kullanılır.
+Birinci adımda [Azure AD'de bir istemci uygulamasını kaydettiniz](../embedded/register-app.md). Bu adımda bir kimlik doğrulaması erişim belirteci alırsınız. Uygulamanıza güvenli oturum açma ve yetkilendirme sağlamak için Power BI uygulamaları Azure Active Directory ile tümleştirilmiştir. Uygulamanız Azure AD'de kimlik doğrulaması yapmak ve Power BI kaynaklarına erişmek için bir belirteç kullanılır.
 
 ## <a name="get-an-authentication-access-token"></a>Kimlik doğrulaması erişim belirteci alma
 
-Başlamadan önce, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin [önceki adımını](../register-app.md) tamamladığınızdan emin olun. 
+Başlamadan önce, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin [önceki adımını](../embedded/register-app.md) tamamladığınızdan emin olun. 
 
 Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
@@ -39,7 +39,7 @@ Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
 3. Bu adımlardan sonra listelenen örnek kodu Program.cs'ye ekleyin.
 
-4. "{ClientID}" terimini [serinin önceki makalesinde](../register-app.md) uygulamanızı kaydederken aldığınız **İstemci Kimliği**'yle değiştirin.
+4. "{ClientID}" terimini [serinin önceki makalesinde](../embedded/register-app.md) uygulamanızı kaydederken aldığınız **İstemci Kimliği**'yle değiştirin.
 
 5. Konsol uygulamanızı çalıştırın ve Power BI hesabınızda oturum açın. 
 

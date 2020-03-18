@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 56ebfeb8c1c52b83f5be0ca9e9db6f312986dd57
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880042"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380189"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI görsellerinde yüksek karşıtlık modu desteği
 
@@ -82,9 +82,9 @@ Power BI yerel görselleri şu yönergelere uyar:
 
 Aşağıdaki örnek çubuk grafikte, tüm çubuklar iki piksel kalın ön plan ana hattı ve arka plan dolgusu ile çizilir. Varsayılan renklerle ve birkaç yüksek karşıtlık teması ile görünme şeklini karşılaştırın:
 
-![Standart renkleri kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-standard.png)
-![*Koyu #2* renk temasını kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-dark2.png)
-![*Beyaz* renk temasını kullanan Örnek Çubuk Grafiği](./media/hc-samplebarchart-white.png)
+![Standart renkleri kullanan Örnek Çubuk Grafiği](media/high-contrast-support/hc-samplebarchart-standard.png)
+![*Koyu #2* renk temasını kullanan Örnek Çubuk Grafiği](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![*Beyaz* renk temasını kullanan Örnek Çubuk Grafiği](media/high-contrast-support/hc-samplebarchart-white.png)
 
 Sonraki bölümde `visualTransform` işlevinde yüksek karşıtlığı desteklemek için değiştirilen bir konum gösterilir. Güncelleştirme sırasında işleme kapsamında çağrılır.
 

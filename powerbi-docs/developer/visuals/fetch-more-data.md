@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6c79673e9d4b7edc95bdfe0373bb8a47d9fe587b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6d51a27bc5c0f18b7f784395dedd58813bfffbc0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880088"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380698"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI’dan daha fazla veri getirme
 

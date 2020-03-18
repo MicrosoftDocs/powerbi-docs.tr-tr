@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879949"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379585"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI görsel projeleri için birim testleri ekleme
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js` test çalışmasını Chrome tarayıcısında çalıştırır.
 
-![Chrome’da açılan Karma JavaScript](./media/karmajs-chrome.png)
+![Chrome’da açılan Karma JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Google Chrome’u yerel olarak yüklemelisiniz.
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 Verileri veri alanı demetlerine yerleştirdiğinizde, Power BI verilerinize göre kategorik bir `dataview` nesnesi oluşturur.
 
-![Veri alanı demetleri](./media/fields-buckets.png)
+![Veri alanı demetleri](media/unit-tests-introduction/fields-buckets.png)
 
 Birim testlerinde, verileri yeniden oluşturmak için Power BI temel işlevleriniz yoktur. Ama statik verilerinizi kategorik `dataview` nesnesine eşlemeniz gerekir. `TestDataViewBuilder` sınıfı bu eşlemeyi yapmanıza yardımcı olabilir.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 Görseliniz aşağıda gösterildiği gibi Chrome tarayıcısında açılır:
 
-![Chrome'da UT başlatılır](./media/karmajs-chrome-ut-runned.png)
+![Chrome'da UT başlatılır](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 Özet, kapsamın arttığını gösterir. Geçerli kod kapsamı hakkında daha fazla bilgi edinmek için `coverage\index.html` dosyasını açın.
 
-![UT kapsamı dizini](./media/code-coverage-index.png)
+![UT kapsamı dizini](media/unit-tests-introduction/code-coverage-index.png)
 
 İsterseniz `src` klasörünün kapsamına da bakabilirsiniz:
 
-![src klasörünün kapsamı](./media/code-coverage-src-folder.png)
+![src klasörünün kapsamı](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 Dosyanın kapsamında kaynak kodu görüntüleyebilirsiniz. Birim testleri sırasında belirli bir kod yürütülmezse `Coverage` yardımcı programları satırı kırmızıyla vurgulayabilir.
 
-![Visual.ts dosyasının kod kapsamı](./media/code-coverage-visual-src.png)
+![Visual.ts dosyasının kod kapsamı](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > Kod kapsamı, görselin iyi bir işlevsellik kapsamına sahip olduğunuz anlamına gelmez. Tek bir basit birim testi, `src\visual.ts` içinde yüzde 96’nın üzerinde kapsam sağlar.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Görseliniz hazır olduğunda görselinizi yayına gönderebilirsiniz. Daha fazla bilgi için bkz. [Power BI görsellerini AppSource'a yayımlama](../office-store.md).
+Görseliniz hazır olduğunda görselinizi yayına gönderebilirsiniz. Daha fazla bilgi için bkz. [Power BI görsellerini AppSource'a yayımlama](office-store.md).

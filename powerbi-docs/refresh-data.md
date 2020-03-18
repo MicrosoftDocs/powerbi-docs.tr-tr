@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039041"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488810"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -76,7 +76,7 @@ Power BI verileri içeri aktarmadığından veri yenileme işlemi çalıştırma
 Gönderme veri kümeleri, veri kaynağının resmi tanımını içermedikleri için Power BI’da bir veri yenilemesi yapmanızı gerektirmez. Verilerinizi, Azure Stream Analytics gibi harici bir hizmet veya işlem aracılığıyla veri kümesine göndererek bu veri kümelerini yenilersiniz. Bu, Power BI ile gerçek zamanlı analiz için sık kullanılan bir yaklaşımdır. Power BI, gönderme veri kümesinde kullanılan tüm kutucuklar için önbellek yenilemelerini yine de gerçekleştirir. Ayrıntılı bilgi için bkz. [Öğretici: Stream Analytics ve Power BI: Akış verilerine yönelik gerçek zamanlı bir analiz panosu](/azure/stream-analytics/stream-analytics-power-bi-dashboard).
 
 > [!NOTE]
-> Gönderme Modunun, [Power BI REST API’si sınırlamaları](developer/api-rest-api-limitations.md) bölümünde belgelendiği gibi bazı sınırlamaları bulunur.
+> Gönderme Modunun, [Power BI REST API’si sınırlamaları](developer/automation/api-rest-api-limitations.md) bölümünde belgelendiği gibi bazı sınırlamaları bulunur.
 
 ### <a name="power-bi-refresh-types"></a>Power BI yenileme türleri
 
@@ -317,7 +317,7 @@ Uyarı simgesi, mevcut veri kümesi sorunlarının belirtilmesine yardımcı olu
 
 ## <a name="automatic-page-refresh"></a>Otomatik sayfa yenileme
 
-Otomatik sayfa yenileme, bir rapor sayfası düzeyinde çalışır ve rapor yazarlarının yalnızca sayfa kullanılırken etkin olan bir sayfadaki görseller için yenileme aralığı ayarlamasına olanak sağlar. Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir. Minimum yenileme aralığı, raporun hangi tür çalışma alanında yayımlandığına ve Premium çalışma alanları ile [ekli çalışma alanları](developer/embedding.md) için kapasite yönetimi ayarlarına bağlıdır.
+Otomatik sayfa yenileme, bir rapor sayfası düzeyinde çalışır ve rapor yazarlarının yalnızca sayfa kullanılırken etkin olan bir sayfadaki görseller için yenileme aralığı ayarlamasına olanak sağlar. Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir. Minimum yenileme aralığı, raporun hangi tür çalışma alanında yayımlandığına ve Premium çalışma alanları ile [ekli çalışma alanları](developer/embedded/embedding.md) için kapasite yönetimi ayarlarına bağlıdır.
 
 [Otomatik sayfa yenileme](desktop-automatic-page-refresh.md) makalesinde otomatik sayfa yenileme hakkında daha fazla bilgi edinin.
 
