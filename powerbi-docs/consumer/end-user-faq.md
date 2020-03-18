@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852522"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040010"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
+
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 * Başka sorularınız varsa [Power BI Topluluğu'na sorun](https://community.powerbi.com/).
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
@@ -25,11 +27,18 @@ ms.locfileid: "73852522"
 
 Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekilde ile görselleştirilmesini ve analiz edilebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler ile kullanıcıların çok çeşitli bulut tabanlı ve şirket içi veriler ile bağlantı kurmasını sağlar. [Power BI](../fundamentals/power-bi-overview.md) ile ilgili daha fazla bilgi edinin.
 
+## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>*Tüketiciler* için Microsoft Power BI hizmeti nedir?
+
+Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir son kullanıcı veya *tüketici* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi olursunuz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız.  [Tüketiciler için Power BI](index.yml) hakkında daha fazla bilgi edinin.
+
+
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro ile Power BI Premium arasındaki fark nedir?
 
-Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel bir lisanstır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir.
+Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Bu tür lisanslar genelde Power BI rapor *tasarımcılarına*, geliştiricilere ve yöneticilere atanır. 
 
-Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium içeriği görüntüleyen alıcılar için kullanıcı lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar.
+Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *tüketiciler* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
+
+Daha fazla bilgi edinmek için bkz. [Ne tür bir lisansa sahibim?](end-user-license.md).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI Premium hakkında sorularım olduğunda ne yapmalıyım?
 
@@ -37,19 +46,17 @@ Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkınd
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
-Power BI Desktop kendi bilgisayarlarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri bilimcileri, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları sizin gibi Power BI hizmeti *tüketicilerine* sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
+Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri bilimcileri, rapor tasarımcıları, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları sizin gibi Power BI hizmeti *tüketicilerine* sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
 
-## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI hizmetini kullanmak için neler gerekir?
+## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>Bir *tüketici* olarak Power BI hizmetini kullanmak için neler gerekir?
 
-Yalnızca bir Web tarayıcısı ve iş e-posta adresi. Ayrıca *.gov* ve *.mil* e-posta adresiyle de kaydolabilirsiniz. Daha fazla bilgi edinmek için bkz. [ABD Kamu kuruluşunuzu Power BI hizmetine kaydetme](../service-govus-signup.md).
+Şirketiniz Power BI lisansları veya Premium kapasite hesabı satın aldıysa, tek ihtiyacınız olan bir Web tarayıcısı ve kimlik bilgileridir. Oturum açarken iş e-posta adresinizle parolanızı (Power BI yöneticiniz tarafından ayarlanır) kullanırsınız.  
+
+Ayrıca Power BI hizmetine bireysel olarak da kaydolabilirsiniz. Bkz. [Power BI self servis kayıt işlemi](../service-self-service-signup-for-power-bi.md)
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Neden iş e-posta adresimle kaydolmam gerekiyor?
 
 Power BI, tüketici e-posta hizmetleri veya telekomünikasyon sağlayıcıları tarafından sağlanan e-posta adreslerini desteklemez. [Power BI self servis kayıt işlemi](../service-self-service-signup-for-power-bi.md) hakkında daha fazla bilgi edinin.
-
-## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Power BI'da kamu, akademik ve kâr amacı gütmeyen fiyatlandırma seçenekleri var mı?
-
-Evet, doğrudan Microsoft'tan satın alınması durumunda kâr amacı gütmeyen fiyatlandırma kullanılabilir. [Microsoft Kar Amacı Gütmeyen Kuruluşlar](https://www.microsoft.com/nonprofits/power-bi) sitesinden daha fazla bilgi edinebilir ve kaydolabilirsiniz. Microsoft, kamu fiyatlarını ve akademik fiyatları MOSP/Doğrudan, EA ve Açık lisans programları ile sunar. Kamu fiyatları dağıtımda da kullanılabilir.
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI mobil cihazları destekliyor mu?
 
@@ -76,7 +83,7 @@ Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabil
 * [Power BI Blogu](https://blogs.msdn.com/b/powerbi/)
 * [Web Seminerleri](../webinars.md)
 * [YouTube Kanalımızdaki](https://www.youtube.com/user/mspowerbi) başlangıç videoları
-* [*Tüketici* olarak Power BI kullanmaya başlama](power-bi-consumer-landing.md) makalesi
+* [*Tüketici* olarak Power BI kullanmaya başlama](index.yml) makalesi
 * [Topluluğumuza katılın](https://community.powerbi.com/) ve soru sorun
 * Daha fazla öneri için bkz. [Yardım almaya yönelik 10 ipucu](../service-tips-for-finding-help.md)
 
@@ -87,16 +94,6 @@ Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabil
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI hangi bölgeleri ve dilleri destekliyor?
 
 [Power BI tarafından desteklenen bölgeler ve diller](../supported-languages-countries-regions.md) tam listesi sunulmaktadır.
-
-## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>Ülkemde Power BI Pro'yu nasıl satın alabilirim?
-
-Power BI Pro lisanslarını doğrudan satın alabilir veya [www.powerbi.com](https://www.powerbi.com) adresinden bir temsilci ile görüşebilirsiniz.
-
-Ayrıca Power BI uygulamanızla ilgili yardımcı olması için bir [Microsoft İş Ortağı](https://partner.microsoft.com/) bulabilirsiniz.
-
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI ulusal, bölgesel ve sektöre özel uyumluluk gereksinimlerini karşılıyor mu?
-
-[Microsoft Güven Merkezi](https://go.microsoft.com/fwlink/?LinkId=785324)'nde Power BI uyumluluğu hakkında daha fazla bilgi edinin.
 
 ## <a name="where-can-i-learn-more-about-security"></a>Güvenlik hakkında nereden daha fazla bilgi edinebilirim?
 

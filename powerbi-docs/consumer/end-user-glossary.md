@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537819"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040080"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -22,7 +22,9 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 ## <a name="a"></a>A
 
-**account (hesap)** Farklı türde Power BI hesapları vardır.  Power BI Pro hesabı ücretli aylık bir aboneliktir.  Power BI Ücretsiz hesabı, Power BI Premium kapasitede barındırılan içeriğin görüntülenmesine olanak sağlar.  
+**hesap** Farklı türde Power BI hesapları vardır ve bunlar *lisans* olarak da adlandırılır.  Hesaplar kullanıcı başına veya kuruluş hesapları olabilir. Kullanıcı başına hesapları *ücretsiz* veya *Pro* olarak sağlanır.  Power BI *ücretsiz* lisans kullanıcısı tek başına Power BI Desktop’ı veya bir Premium kuruluş hesabı kapsamında Power BI hizmetini kullanıyordur. Power BI kullanıcı başına *Pro* hesabı ücretli bir aylık aboneliktir. Diğer *Pro* kullanıcılarıyla işbirliğine ve içerik paylaşımına olanak tanır. 
+
+Kuruluş *Premium* (*Premium kapasite* olarak da bilinir) hesabı, kullanıcı başına lisanslarının üzerinde bir özellik katmanı daha ekler. Örneğin kuruluşları *Premium* lisansına sahip olan *ücretsiz* kullanıcı başına lisansı sahipleri, *Premium* lisansı olmayan *ücretsiz* lisans kullanıcılarına göre Power BI’da çok daha fazla şey yapabilirler. Örneğin *Premium* kuruluş hesapları olan *ücretsiz* lisans kullanıcıları, iş arkadaşlarıyla işbirliği yapabilir ve Power BI Premium kapasitede barındırılan içeriği görüntüleyebilir.  
 
 **admin portal (yönetici portalı)** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Office 365, Azure ve PowerApps, yönetim merkezini kullanır.)
 
@@ -170,6 +172,8 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 İlk örnek: gezinti bölmesi Daha sonra geçtiğinde veya dar alanlarda: gezinti bölmesi
 
+**lisans** Bkz. *hesap*.
+
 **liste sayfası** veya **içerik listesi** Gezinti bölmesindeki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
 
 ## <a name="m"></a>M
@@ -226,15 +230,17 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 **Power BI Embedded** Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
-**Power BI Premium** Kuruluşların ayrılmış donanım satın alarak BI çözümlerini öngörülebilir bir yolla ölçeklendirmelerine olanak tanıyan Power BI Pro lisansı eklentisi.
+**Power BI Premium** Kuruluşların ayrılmış donanım satın alarak BI çözümlerini öngörülebilir bir yolla ölçeklendirmelerine olanak tanıyan Power BI Pro lisansı eklentisi. Bkz. *hesap*.
 
-**Power BI Pro lisansı** Panolar oluşturma, paylaşılan veriler üzerinde işbirliği yapmaya, otomatik olarak verilerin güncelliğini korumaya, verilere erişimi denetlemeye ve yönetmeye, içeriği dağıtım için paketlemeye (Power BI uygulamaları) olanak sağlayan aylık kullanıcı lisansı.
+**Power BI Pro** Raporlar ve panolar oluşturmaya, paylaşılan veriler üzerinde işbirliği yapmaya, otomatik olarak verilerin güncelliğini korumaya, verilere erişimi denetlemeye ve yönetmeye, içeriği dağıtım için paketlemeye (Power BI uygulamaları) olanak sağlayan aylık kullanıcı başına lisansı. Bkz. *hesap*.
 
 **Power BI Rapor Sunucusu** Kuruluşların dağıtılmış, hibrit BI sistemleri (bulut ve şirket içi dağıtımların bir bileşimi) oluşturabilmesi için Power BI Premium ile birlikte tanıtılan yeni bir SSRS teklifi markası. Embedded, Power BI raporlarını depolayıp yönetmenin yerelleştirilmiş bir yolunu sağlar.
 
 **Power BI hizmeti** Çevrimiçi bir SaaS (Hizmet olarak yazılım) hizmeti. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
 
 **Premium çalışma alanı** Ayrılmış kapasitede çalışan ve müşterilere baklava şeklinde bir simgeyle gösterilen çalışma alanı.  
+
+**Pro** lisansı veya **Pro** hesabı Bkz. *hesap*.
 
 **yayımlama** Power BI hizmet raporu *tasarımcıları*, Power BI çalışma alanının içeriklerini diğerlerinin kullanımına sunmak için bunları Power BI uygulaması olarak birleştirir. Power BI Desktop raporu *tasarımcıları*, Power BI Desktop raporundan pano oluşturup bunu kolayca diğer kişilerle paylaşabilmek amacıyla raporu Power BI hizmetine .pbix biçiminde göndermeye başvurmak için yayımlama özelliğini kullanır. 
 

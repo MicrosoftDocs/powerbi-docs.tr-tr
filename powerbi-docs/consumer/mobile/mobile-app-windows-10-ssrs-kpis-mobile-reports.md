@@ -1,29 +1,28 @@
 ---
-title: Windows 10 için Power BI mobil uygulamasında SSRS mobil raporlarını ve KPI'lerini görüntüleme
+title: Power BI Windows uygulamasında şirket içi raporları ve KPI'leri görüntüleme
 description: Windows 10 için Power BI mobil uygulaması, önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar.
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 010513ec8ca908167bbc99255a6fd207ca0ccfba
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879371"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040919"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI mobil uygulamasında Reporting Services (SSRS) mobil raporlarını ve KPI'lerini görüntüleme
-Windows 10 için Power BI mobil uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows uygulamasında şirket içi raporları ve KPI'leri görüntüleme
+Windows 10 için Power BI uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 
 
 ![Reporting Services mobil raporları](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>İlk yapılacaklar
 SQL Server 2016 Enterprise Edition Mobil Rapor Yayımcısı ile [Reporting Services mobil raporları oluşturun](https://msdn.microsoft.com/library/mt652547.aspx) ve bu raporları [Reporting Services web portalında](https://msdn.microsoft.com/library/mt637133.aspx) yayımlayın. Doğrudan web portalında KPI'ler oluşturun. İstediğinizde kolayca bulabilmek için bunları klasörler halinde düzenleyin ve sık kullandıklarınızı işaretleyin. 
 
-Ardından, klasörler halinde düzenlenmiş veya sık kullanılanlar olarak bir araya getirilmiş mobil raporları ve KPI'leri Windows 10 için Power BI mobil uygulamasında görüntüleyin. 
+Ardından, klasörler halinde düzenlenmiş veya sık kullanılanlar olarak bir araya getirilmiş KPI’leri, mobil raporları ve Power BI raporlarını Windows 10 için Power BI uygulamasında görüntüleyin. 
 
 > [!NOTE]
 > Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 1 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda en iyi şekilde çalışır.
@@ -68,7 +67,7 @@ KPI'ler ve mobil raporlarla etkileşim kurmak için örneklere göz atın.
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Reporting Services KPI'lerini ve mobil raporlarını Power BI uygulamasında görüntüleme
-Reporting Services KPI'leri ve mobil raporları, Reporting Services web portalındaki klasör düzeninde görüntülenir.
+Reporting Services KPI’leri, mobil raporları ve Power BI raporları (önizleme), Reporting Services web portalındaki klasör düzeninde görüntülenir.
 
 ![Rapor klasörleri](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
@@ -80,7 +79,7 @@ Reporting Services KPI'leri ve mobil raporları, Reporting Services web portalı
     ![Reporting Services mobil raporu](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>Sık kullandığınız KPI'leri ve raporları görüntüleme
-Reporting Services web portalınızda sık kullanılan olarak işaretlediğiniz KPI'leri ve mobil raporları, Windows 10 cihazınızda kolayca ulaşabileceğiniz tek bir klasörde, sık kullanılan Power BI panolarınız ve raporlarınızla birlikte görüntüleyebilirsiniz.
+Reporting Services web portalınızda sık kullanılan olarak işaretlediğiniz KPI'leri, mobil raporları ve Power BI raporlarını Windows 10 cihazınızda kolayca ulaşabileceğiniz tek bir klasörde, sık kullanılan Power BI panolarınız ve raporlarınızla birlikte görüntüleyebilirsiniz.
 
 * **Sık Kullanılanlar**'a dokunun.
   
@@ -88,8 +87,6 @@ Reporting Services web portalınızda sık kullanılan olarak işaretlediğiniz 
   
    Web portalında sık kullanılan olarak işaretlediğiniz öğelerin tümü bu sayfada bulunur.
   
-   ![Sık Kullanılanlar sayfası](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Rapor sunucusu bağlantısını kesme
