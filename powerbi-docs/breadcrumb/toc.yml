@@ -13,6 +13,9 @@
             - name: Tüketiciler
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: Mobil
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: Geliştirici
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
