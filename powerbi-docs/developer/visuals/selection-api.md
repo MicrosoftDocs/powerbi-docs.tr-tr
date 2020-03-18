@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818905"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379731"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
 
@@ -179,11 +179,11 @@ Kullanıcı `Type` olarak `Import Car` seçtiğinde (seriye göre verileri seçt
 | Nissan | **İthal Araba** | 5485 |
 | Toyota | **İthal Araba** | 20799 |
 
-![Kategoriler ve seriler için seçimleri olan görsel](media/visual-selections-sample.png)
+![Kategoriler ve seriler için seçimleri olan görsel](media/selection-api/visual-selections-sample.png)
 
 Görsel veri sepetleri doldurulmalıdır.
 
-![Seçimler içeren görselin veri sepetleri](media/visual-selections-databuckets.png)
+![Seçimler içeren görselin veri sepetleri](media/selection-api/visual-selections-databuckets.png)
 
 Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Values` olarak `Value` vardır.
 

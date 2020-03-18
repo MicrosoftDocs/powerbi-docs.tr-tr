@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696677"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380868"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI görsellerinde veri görünümü eşlemesini anlama
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 Sonuç olarak görsel Power BI'dan tek bir değer görüntüler:
 
-![Tek değer görünümü eşleme görseli örneği](./media/visual-simple-dataview-mapping.png)
+![Tek değer görünümü eşleme görseli örneği](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>Kategorik veri eşlemesi
 
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 Görselin sonucu:
 
-![Kategorik veri görünümü eşlemesi içeren görseller](./media/categorical-data-view-mapping-visual.png)
+![Kategorik veri görünümü eşlemesi içeren görseller](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>Tablo veri eşlemesi
 
@@ -508,7 +508,7 @@ Verilen yetenekler ile:
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -557,7 +557,7 @@ Veri örneği:
 
 Veri bağlama:
 
-![Tablo veri görünümü eşlemesi veri bağlamaları](./media/table-dataview-mapping-data.png)
+![Tablo veri görünümü eşlemesi veri bağlamaları](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI verilerinizi tablo veri görünümü olarak gösterir. Verilerin sıralı olduğunu varsaymamalısınız.
 
@@ -603,7 +603,7 @@ Power BI verilerinizi tablo veri görünümü olarak gösterir. Verilerin sıral
 
 İstenen alanı ve sonra da toplamı seçerek verileri toplayabilirsiniz.  
 
-![Verileri toplama](./media/data-aggregation.png)
+![Verileri toplama](media/dataview-mappings/data-aggregation.png)
 
 Tablo veri görünümü eşlemeyi işlemek için kod örneği.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![Tablo veri görünümü eşlemesi içeren görseller](./media/table-dataview-mapping-visual.png)
+![Tablo veri görünümü eşlemesi içeren görseller](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>Matris veri eşlemesi
 
@@ -767,7 +767,7 @@ Veri kümesi:
 
 Power BI’ın temel matris görseli verileri tablo olarak işler.
 
-![Matris görseli](./media/matrix-visual-smaple.png)
+![Matris görseli](media/dataview-mappings/matrix-visual-smaple.png)
 
 Görsel veri yapısını aşağıdaki kodda açıklandığı gibi alır (burada yalnızca ilk iki tablo satırı gösterilmiştir):
 

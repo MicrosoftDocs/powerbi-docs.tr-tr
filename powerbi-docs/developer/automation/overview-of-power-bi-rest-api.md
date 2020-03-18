@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 3ff7eb4a771ed8c65d18262f61170f312049a898
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1a74d856ad46dc6843546919aa4234dc86d2be5c
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079428"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488444"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 
@@ -25,10 +25,10 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
 | **Daha fazla bilgi almak için** | **Bu bilgilere başvurun** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için raporlar, panolar ve kutucuklar ekleyin. | [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](../embed-sample-for-customers.md) |
+| Power BI kullanıcıları ve Power BI kullanıcısı olmayan kullanıcılar için raporlar, panolar ve kutucuklar ekleyin. | [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](../embedded/embed-sample-for-customers.md) |
 | Power BI nesneleri üzerinde yönetim görevleri gerçekleştirin. | [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/) |
 | Power BI panosuna anahtar veri göndermek için mevcut iş akışını genişletme. | [Bir panoya veri gönderme](walkthrough-push-data.md) |
-| Power BI'da kimlik doğrulaması yapma. | [Power BI'da kimlik doğrulaması yapma](../get-azuread-access-token.md) |
+| Power BI'da kimlik doğrulaması yapma. | [Power BI'da kimlik doğrulaması yapma](../embedded/get-azuread-access-token.md) |
 
 > [!NOTE]
 > Power BI API'lerde çalışma alanları hâlâ gruplar olarak adlandırılmaktadır. Gruplara yapılan başvurular, çalışma alanlarıyla çalıştığınızı gösterir.

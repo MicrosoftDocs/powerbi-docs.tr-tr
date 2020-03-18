@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079336"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488304"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
 
@@ -225,7 +225,7 @@ Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişki
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md)
-* [Bir uygulamayı Azure AD'ye kaydetme](../register-app.md)  
+* [Bir uygulamayı Azure AD'ye kaydetme](../embedded/register-app.md)  
 * [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
 * [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
 * [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  

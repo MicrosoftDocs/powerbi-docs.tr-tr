@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079290"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488212"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 
 Power BI API verileri Power BI veri kümesine göndermenize olanak tanır. Bu makalede bir Product tablosu içeren Sales Marketing veri kümesinin mevcut bir veri kümesine nasıl gönderileceğini göstereceğiz.
 
-Başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın](../create-an-azure-active-directory-tenant.md) olması gerekir.
+Başlamadan önce Azure Active Directory (Azure AD) ve [Power BI hesabınızın](../embedded/create-an-azure-active-directory-tenant.md) olması gerekir.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Bir veri kümesine veri göndermeye ilişkin adımlar
 
-* 1\. Adım: [Bir uygulamayı Azure AD'ye kaydetme](../register-app.md)
+* 1\. Adım: [Bir uygulamayı Azure AD'ye kaydetme](../embedded/register-app.md)
 * 2\. Adım: [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)
 * 3\. Adım: [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)
 * 4\. Adım: [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Bir Power BI tablo şeması için aşağıdaki veri türlerini kullanabilirsiniz
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI'a veri gönderme hakkında daha fazla bilgi edinin
 
-Verileri bir veri kümesine göndermeye başlamak için, sol gezinti bölmesinde [1. Adım: Bir uygulamayı Azure AD'ye kaydetme](../register-app.md) bölümüne bakın.
+Verileri bir veri kümesine göndermeye başlamak için, sol gezinti bölmesinde [1. Adım: Bir uygulamayı Azure AD'ye kaydetme](../embedded/register-app.md) bölümüne bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI'a kaydolma](../create-an-azure-active-directory-tenant.md)  
+* [Power BI'a kaydolma](../embedded/create-an-azure-active-directory-tenant.md)  
 * [Introducing JSON (JSON'a giriş)](https://json.org/)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 

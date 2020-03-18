@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496742"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205562"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
@@ -22,8 +22,8 @@ iOS ve Android için Power BI Mobil uygulaması Intune gibi mobil cihaz yönetim
 Power BI Mobil uygulaması aşağıdaki yapılandırma senaryolarını destekler:
 
 * Rapor Sunucusu yapılandırması (iOS ve Android)
-* Veri koruma ayarları (iOS ve Android)
-* Etkileşim ayarları (Android)
+* Veri koruma ayarları (iOS)
+* Etkileşim ayarları (iOS ve Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Rapor sunucusu yapılandırması (iOS ve Android)
 
@@ -33,24 +33,28 @@ iOS ve Android için Power BI uygulaması yöneticilerin kayıtlı cihazlara uza
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | Dize | Report Sunucusu URL'si.<br><br>http/https ile başlamalıdır.|
 | com.microsoft.powerbi.mobile.ServerUsername | Dize | [isteğe bağlı]<br><br>Sunucuya bağlanmak için kullanılacak kullanıcı adı.<br><br>Bir tane yoksa, uygulama kullanıcıdan bağlantı için kullanıcı adı girmesini ister.|
-| com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı]<br><br>Varsayılan değer “Rapor sunucusu” şeklindedir<br><br>Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad. |
+| com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı]<br><br>Varsayılan değer "Rapor sunucusu" şeklindedir<br><br>Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | [isteğe bağlı]<br><br>True varsayılan değerdir. True olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar. Önceden yapılandırılmış olan sunucular silinir. Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller.<br><br>False olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır. Uygulama, kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
 
 ## <a name="data-protection-settings-ios"></a>Veri koruma ayarları (iOS)
 
-iOS ve Android için Power BI uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. Kullanıcıları Power BI uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz.
+iOS için Power BI uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. Kullanıcıları Power BI uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz.
 
 | Anahtar | Tür | Açıklama |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boole | Varsayılan değerdir False’tur. <br><br>Kullanıcıların cihazlarından uygulamaya erişmek için TouchID veya FaceID gibi biyometri verilerini sağlaması istenebilir. Gerektiğinde biyometri verileri kimlik doğrulamasına ek olarak kullanılır.<br><br>Uygulama koruma ilkeleri kullanılıyorsa, çift erişim istemlerini önlemek için Microsoft bu ayarın devre dışı bırakılmasını önerir. |
 
-## <a name="interaction-settings-android"></a>Etkileşim ayarları (Android)
+## <a name="interaction-settings-ios-and-android"></a>Etkileşim ayarları (iOS ve Android)
 
-Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarının değiştirilmesi gerektiğinde karar verilirse, Android için Power BI uygulaması yöneticilere etkileşim ayarlarını yapılandırma olanağı sunar. 
+Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarının değiştirilmesi gerektiğinde karar verilirse, iOS ve Android için Power BI uygulaması yöneticilere etkileşim ayarlarını yapılandırma olanağı sunar.
+
+>[!NOTE]
+>Tüm etkileşimler şu anda tüm cihazlarda desteklenmemektedir. Cihazlarda mevcut kullanılabilirliği gösteren bir grafik için bkz. [Rapor etkileşimi ayarlarını yapılandırma](mobile-app-interaction-settings.md).
 
 | Anahtar | Tür | Değerler | Açıklama |
 |---|---|---|---|
-| com.microsoft.powerbi.mobile.ReportTapInteraction | Dize |  <nobr>tek dokunma</nobr><br><nobr>iki kez dokunma</nobr> | Görsele dokunulduğunda bir veri noktasının seçilip seçilmeyeceğini yapılandırın. |
+| com.microsoft.powerbi.mobile.ReportTapInteraction | Dize |  <nobr>tek dokunma</nobr><br><nobr>iki kez dokunma</nobr> | Bir görsele dokunulduğunda bir veri noktasının seçilip seçilmeyeceğini yapılandırın. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Boole |  <nobr>True</nobr><br><nobr>False</nobr> | Bir veri noktasına dokunmanın geçerli seçimin yerini alıp almayacağını veya geçerli seçime eklenip eklenmeyeceğini yapılandırın. |
 | com.microsoft.powerbi.mobile.RefreshAction | Dize |  <nobr>yenilemek için çekme</nobr><br>düğmesini seçin | Kullanıcının raporu yenileme düğmesine sahip olup olmayacağını veya çekerek yenileme özelliğini kullanıp kullanmayacağını yapılandırın. |
 | com.microsoft.powerbi.mobile.FooterAppearance | Dize |  yerleşik<br>dinamik | Rapor alt bilgisinin raporun altına yerleştirilip yerleştirilmeyeceğini veya otomatik olarak gizlenip gizlenmeyeceğini yapılandırın. |
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880316"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380582"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI görsellerinde gelişmiş düzenleme modu
 
@@ -39,7 +39,7 @@ Aşağıdaki durumlarda **Düzenle** düğmesi görüntülenir:
 
 *Capabilities.json* dosyasında `advancedEditModeSupport` özelliği yoksa veya `NotSupported` olarak ayarlanmışsa, **Düzenle** düğmesi görüntülenmez.
 
-![Düzenleme moduna girme](./media/edit-mode.png)
+![Düzenleme moduna girme](media/advanced-edit-mode/edit-mode.png)
 
 **Düzenle**’yi seçtiğinizde görsel EditMode öğesinin `Advanced` olarak ayarlandığı bir update() çağrısı alır. *Capabilities.json* dosyasında ayarlanan değere bağlı olarak aşağıdaki eylemler gerçekleşir:
 

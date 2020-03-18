@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222802"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133325"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 Power BI Desktop'la çalışmaya başlama kılavuzuna hoş geldiniz. Bu turda Power BI Desktop'ın nasıl çalıştığı, neler yapabileceği ve iş zekanızı artırmak için nasıl güçlü veri modelleri ve büyüleyici raporlar oluşturulabileceği gösterilir.
 
 Power BI Desktop'ın nasıl çalıştığına ve nasıl kullanılacağına hızlı bir genel bakış için, yalnızca birkaç dakika içinde bu kılavuzdaki ekranları tarayabilirsiniz. Daha iyi anlamak için her bölümü okuyabilir, adımları uygulayabilir ve kendi Power BI Desktop dosyanızı oluşturup bunu [Power BI hizmetine](https://app.powerbi.com/) gönderebilir ve başkalarıyla paylaşabilirsiniz.
 
-![Power BI Desktop raporu](media/desktop-getting-started/hero.png)
+![Power BI Desktop raporu](media/desktop-getting-started/hero-02.png)
 
 Ayrıca [Power BI Desktop ile Çalışmaya Başlama](https://www.youtube.com/watch?v=Qgam9M8I0xA) videosunu izleyebilir ve videoyla birlikte takip etmek üzere [Finansal Örnek](https://go.microsoft.com/fwlink/?LinkID=521962) adlı Excel çalışma kitabını indirebilirsiniz.
 

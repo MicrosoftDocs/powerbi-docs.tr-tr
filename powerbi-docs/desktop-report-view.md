@@ -10,11 +10,11 @@ ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: a840a549e5dee79406ddfb2a07877895ce7b6c0f
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76038961"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206804"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>Power BI Desktop'taki Rapor görünümüyle çalışma
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75925606"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378167"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
@@ -22,7 +22,7 @@ Makalede görsellerin Power BI’la nasıl tümleştirildiği ve kullanıcının
 
 Aşağıdaki resimde kullanıcının gerçekleştirdiği yer işareti seçme gibi yaygın görsel tabanlı eylemlerin Power BI’da nasıl işlendiği gösterilir.
 
-![Power BI görsel eylemi diyagramı](./media/visual-concept.svg)
+![Power BI görsel eylemi diyagramı](media/power-bi-visuals-concept/visual-concept.svg)
 
 ## <a name="visuals-get-updates-from-power-bi"></a>Görseller Power BI’dan güncelleştirmeleri alır
 
@@ -131,4 +131,4 @@ Power BI görsellerinde eylemler ve izleyen güncelleştirmeler şu düzenlerden
 Görselleştirmeleri oluşturmak ve bunları Microsoft AppSource'a eklemekle mi ilgileniyorsunuz? Şu makalelere bakın:
 
 * [Power BI görseli geliştirme](./custom-visual-develop-tutorial.md)
-* [Power BI görsellerini İş Ortağı Merkezi'nde yayımlama](../office-store.md)
+* [Power BI görsellerini İş Ortağı Merkezi'nde yayımlama](office-store.md)

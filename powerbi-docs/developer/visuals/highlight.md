@@ -6,28 +6,28 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819181"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380081"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI Görselleri’nde veri noktalarını vurgulama
 
 Varsayılan olarak, bir öğe seçildiğinde `dataView` nesnesindeki `values` dizisi yalnızca seçilen değerlere filtrelenecektir. Sayfadaki tüm diğer görsellerin yalnızca seçili verileri görüntülemesini sağlar.
 
-![Varsayılan davranış ‘dataView’ı’ vurgula](./media/highlight-dataview.png)
+![Varsayılan davranış ‘dataView’ı’ vurgula](media/highlight/highlight-dataview.png)
 
 `capabilities.json` öğenizdeki `supportsHighlight` özelliğini `true` olarak ayarlarsanız, bir `highlights` dizisi ile birlikte tam, filtrelenmemiş `values` dizisini alırsınız. `highlights` dizisi, değerler dizisiyle aynı uzunlukta olur ve seçili olmayan tüm değerler `null` olarak ayarlanır. Bu özellik etkinken, `values` dizisini `highlights` dizisiyle karşılaştırarak uygun verileri vurgulama görselin sorumluluğudur.
 
-![`dataview` vurgulamayı destekler](./media/highlight-dataview-supports.png)
+![`dataview` vurgulamayı destekler](media/highlight/highlight-dataview-supports.png)
 
 Örnekte, 1 çubuğun seçili olduğunu fark edeceksiniz. Bu, vurgular dizisindeki tek değerdir. Birden fazla seçimin ve kısmi vurguların olabileceği de göz önünde bulundurulmalıdır. Vurgulanan değerler veri görünümünde sunulacaktır.
 
-> [!Note]
+> [!NOTE]
 > Tablo veri görünümü eşlemesi vurgulama özelliğini desteklemiyor.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Kategorik veri görünümü eşlemesi ile veri noktalarını vurgulama
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 Burada `categoryValues` kategori değerleri dizisi, `measureValues` bir ölçü dizisi ve `measureHighlights`, değerlerin vurgulanmış kısımlarıdır.
 
-> [!Note]
+> [!NOTE]
 > `measureHighlights` özelliğinin değerleri, `categoryValues` özelliğinin değerlerinden daha az olabilir.
 > Bunun anlamı, değerin kısmen vurgulanmış olmasıdır.
 
@@ -271,7 +271,7 @@ div.value {
 
 Sonuç olarak, görselin aşağıdaki görünümünü elde etmeniz gerekir.
 
-![Kategorik veri görünümü eşlemesi ve vurgulama içeren görseller](./media/dev-categorical-visual-highlight-demo.gif)
+![Kategorik veri görünümü eşlemesi ve vurgulama içeren görseller](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Matris veri görünümü eşlemesi ile veri noktalarını vurgulama
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 Burada `value` özelliği, diğer görseldeki seçimi uygulamadan düğümün değerini temsil eder, vurgulama özelliği ise verilerin hangi bölümünün vurgulandığını gösterir.
 
-> [!Note]
+> [!NOTE]
 > `highlight` özelliğinin değeri, `value` özelliğinin değerinden daha az olabilir.
 > Bunun anlamı, değerin kısmen vurgulanmış olmasıdır.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 Sonuç olarak, düğmeleri ve `highlighted value/default value` değerleri olan görseli elde edersiniz
 
-![Matris veri görünümleri eşleme ve vurgulama özelliği olan görsel](./media/dev-matrix-visual-highlight-demo.gif)
+![Matris veri görünümleri eşleme ve vurgulama özelliği olan görsel](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

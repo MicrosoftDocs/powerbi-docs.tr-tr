@@ -9,11 +9,11 @@ ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853638"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207885"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -50,11 +50,11 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
 
 2. Çalışma alanından uygulama oluşturma ve yayımlama sürecini başlatmak için sağ üstteki **Uygulamayı yayımla** düğmesini seçin.
    
-     ![Uygulama yayımlama](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+     ![Uygulamayı yayımla](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. **Kurulum** alanında kullanıcıların uygulamayı bulmasını kolaylaştıracak adı ve açıklamayı girin. Bunu özelleştirmek için bir tema rengi ayarlayabilirsiniz. Destek sitesinin bağlantısını da ekleyebilirsiniz.
    
-     ![Uygulamanızı oluşturma](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+     ![Uygulamanızı derleme](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. **Gezinti** bölümünde, uygulamanın bir parçası olarak yayımlanacak içeriği seçersiniz. Ardından içeriği bölümler halinde düzenlemek için uygulama gezintisini eklersiniz. Ayrıntılar için bu makalenin [Uygulamanız için gezinti deneyimini tasarlama](#design-the-navigation-experience) bölümüne bakın.
    

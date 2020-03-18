@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: reference
 ms.date: 02/24/2020
-ms.openlocfilehash: 3614505cec185779bce3f63c6e7a565a5ef39443
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920894"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379272"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Power BI görselleri etkileşim yardımcı programları
 

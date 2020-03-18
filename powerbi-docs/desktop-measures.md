@@ -10,11 +10,11 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427404"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206896"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Power BI Desktop'ta veri analizi için ölçü oluşturma
 

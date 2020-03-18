@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885251"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381457"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
 
@@ -74,7 +74,7 @@ Bkz. [Satır örnekleme nasıl çalışır?](../desktop-high-density-sampling.md
 ### <a name="combo-chart"></a>Birleşik grafik
  Aynı stratejileri sütun grafik olarak kullanır. **Birleşik grafikteki** satırın, **çizgi grafiğin** kullandığı yüksek yoğunluklu algoritmayı kullanmadığına dikkat edin.
 
-### <a name="custom-visuals"></a>Özel görseller
+### <a name="power-bi-visuals"></a>Power BI görselleri
 En fazla 30.000 olabilir, ancak hangi stratejilerin kullanılacağını belirtmek görsel yazarlarına bağlıdır. Varsayılan sınır 1.000'dir ancak görsel oluşturucu bunu değiştirerek en fazla 30.000 yapabilir.
 
 ### <a name="doughnut"></a>Halka

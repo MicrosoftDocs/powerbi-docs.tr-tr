@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427726"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207977"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
-Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme ve yapılandırma açıklanmaktadır. Varsayılan olarak, kapasiteler yalnızca çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. **[AI (Bilişsel Hizmetler)](service-cognitive-services.md)** , **[Veri akışları](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** ve **[Sayfalandırılmış raporlar](paginated-reports-save-to-power-bi-service.md)** için de ek iş yüklerini etkinleştirebilir ve yapılandırabilirsiniz.
+Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme ve yapılandırma açıklanmaktadır. Varsayılan olarak, kapasiteler yalnızca çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. **[AI (Bilişsel Hizmetler)](service-cognitive-services.md)** , **[Veri akışları](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** ve **[Sayfalandırılmış raporlar](paginated-reports/paginated-reports-save-to-power-bi-service.md)** için de ek iş yüklerini etkinleştirebilir ve yapılandırabilirsiniz.
 
 ## <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
@@ -67,7 +67,7 @@ Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakıl
 | **En Fazla Ara Satır Sayısı** | DirectQuery tarafından döndürülen ara satır sayısı üst sınırı. Varsayılan değer 1000000'dur ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
 | **En Büyük Çevrimdışı Veri Kümesi Boyutu (GB)** | Bellekteki çevrimdışı veri kümesinin boyut üst sınırı. Bu, diskteki sıkıştırılmış boyuttur. Varsayılan değer SKU tarafından ayarlanır ve izin verilen değerler 0,1 ile 10 GB arasındadır. |
 | **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
-| **Sorgu Belleği Sınırı (%)** | Çalışma yükünde MDX veya DAX sorgusu yürütmek için kullanılabilen belleğin en büyük yüzdesi. |
+| **Sorgu Belleği Sınırı (%)** | Çalışma yükünde MDX veya DAX sorgusu yürütmek için kullanılabilen belleğin en büyük yüzdesi. Varsayılan değer 0’dır ve bu, SKU’ya özgü otomatik sorgu belleği sınırının uygulanmasına neden olur. |
 | **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. |
 | **Otomatik sayfa yenileme (önizleme)** | Premium çalışma alanlarının otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
 | **Minimum yenileme aralığı** | Otomatik sayfa yenileme açıksa, sayfa yenileme aralığı için izin verilen minimum aralık. Varsayılan değer beş dakika ve izin verilen minimum değer de bir saniyedir. |
@@ -102,6 +102,14 @@ Yoğun kaynak kullanılan veya kötü tasarlanmış raporların etkisini denetim
 Bu ayar Power BI raporları, Excel’de Çözümle raporları ve ayrıca XMLA uç noktası üzerinden bağlanabilen diğer araçlar tarafından yürütülen tüm DAX ve MDX sorgularında geçerlidir.
 
 Veri yenileme işlemlerinin de, veri kümesindeki veriler yenilendikten sonra pano kutucuklarını ve görsel önbelleklerini yenileme işlemi kapsamında DAX sorguları yürütebileceğini unutmayın. Bu tür sorgular da bu ayardan dolayı başarısız olabilir ve veri kümesindeki veriler başarıyla güncelleştirilmiş olsa bile veri yenileme işleminin başarısız durumda görünmesine yol açabilir.
+
+Varsayılan ayar 0’dır ve bu, aşağıdaki SKU’ya özgü otomatik sorgu belleği sınırının uygulanmasına neden olur.
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| Otomatik Sorgu Belleği Sınırı | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>Sorgu Zaman Aşımı
 
@@ -200,7 +208,7 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 
 [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)     
 [Veri akışları ile Power BI’da self servis veri hazırlığı](service-dataflows-overview.md)   
-[Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)   
+[Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop’ta otomatik sayfa yenileme (önizleme)](desktop-automatic-page-refresh.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

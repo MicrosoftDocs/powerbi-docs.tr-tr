@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819480"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378036"
 ---
 # <a name="formatting-utils"></a>Biçimlendirme yardımcı programları
 

@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
 ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873485"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79208000"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 

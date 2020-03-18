@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410771"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205792"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 
