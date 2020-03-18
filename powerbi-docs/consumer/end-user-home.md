@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888891"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113308"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Panolarınızı, raporlarınızı ve uygulamalarınızı bulma
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 Power BI’da, *içerik* terimi uygulamaları, panoları ve raporları belirtir. Power BI *tasarımcıları* içerikleri oluşturup sizinle ve diğer iş arkadaşlarıyla paylaşır. İçeriğiniz, Power BI hizmetinden erişilebilir ve buradan görüntülenebilir. Power BI’da çalışmaya başlamak için en iyi yer Power BI **Giriş** tuvalidir.
 
 ## <a name="explore-power-bi-home"></a>Power BI Giriş’i keşfedin
@@ -60,7 +62,7 @@ Ayrıca içerikleri [öne çıkan](end-user-featured.md) olarak etiketleyebilirs
 
 
 ### <a name="recents-and-my-apps"></a>Son kullanılanlar ve Uygulamalarım
-Sonraki bölümde, en son ziyaret ettiğiniz içerikler görüntülenir. Her kartta zaman damgası olduğunu görebilirsiniz. **Uygulamalarım** bölümünde, sizinle paylaşılan veya [AppSource’tan indirdiğiniz](end-user-apps.md) uygulamalar listelenir. En son kullanılan uygulamalar burada listelenir. Sizinle paylaşılan tüm uygulamaların listesini görüntülemek için **Tümünü göster** seçeneğini belirleyebilirsiniz.
+Sonraki bölümde, en son ziyaret ettiğiniz içerik görüntülenir. Her kartta zaman damgası olduğunu görebilirsiniz. **Uygulamalarım** bölümünde, sizinle paylaşılan veya [AppSource’tan indirdiğiniz](end-user-apps.md) uygulamalar listelenir. En son kullanılan uygulamalar burada listelenir. Sizinle paylaşılan tüm uygulamaların listesini görüntülemek için **Tümünü göster** seçeneğini belirleyebilirsiniz.
 
 ![son kullanılan uygulamalar](./media/end-user-home/power-bi-recent-apps.png)
 

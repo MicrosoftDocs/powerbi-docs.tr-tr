@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852648"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040516"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar, raporlar ve uygulamalar
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Bir içeriği *sık kullanılanlara eklediğinizde*, buna **Sık kullanılanlar** içerik listesinden ve **Power BI Giriş** > **Sık kullanılanlar ve sık ziyaret edilenler** bölümünden hızla erişebilirsiniz. Sık kullanılanlar, genellikle sık ziyaret ettiğiniz içeriklerdir. Bunlar, sarı bir yıldız ile tanımlanır.
 
    ![Sık Kullanılanlar simgesi](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Sık kullanılanlar + sık ziyaret edilenler simgesi](./media/end-user-favorite/power-bi-home.png)
-
-Power BI hizmetinde, tek bir panoyu [Öne çıkan pano](end-user-featured.md) olarak belirleyebilirsiniz.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Bir panoyu veya raporu sık kullanılanlara ekleme
 
@@ -67,7 +68,7 @@ Bir raporu artık eskisi kadar sık kullanmıyorsanız sık kullanılanlardan ç
 2. Sık kullanılanlardan çıkarmak istediğiniz içeriğin yanındaki sarı yıldızı seçin.
 
 > [!NOTE]
-> Bir panoyu, raporu veya uygulamayı da sık kullanılanlardan kaldırabilirsiniz. Yalnızca açın ve sarı simgenin seçimini kaldırın. 
+> Bir panoyu, raporu veya uygulamayı da sık kullanılanlardan kaldırabilirsiniz. Bunu açın ve sarı yıldızı seçerek yeniden beyaz yıldıza dönüşmesini sağlayın. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar

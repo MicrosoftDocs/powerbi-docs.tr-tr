@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c3ccbe6ad87a813185943845431fa1a859b09a76
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888443"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401226"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI veri kaynağı önkoşulları
 Power BI, nesneler için her veri sağlayıcısının belirli bir sürümünü destekler. Power BI ile kullanılabilen veri kaynakları hakkında daha fazla bilgi için bkz. [Veri kaynakları](desktop-data-sources.md). Aşağıdaki tabloda bu gereksinimlere yer verilmiştir.
@@ -28,7 +28,7 @@ Power BI, nesneler için her veri sağlayıcısının belirli bir sürümünü d
 | | System.Data.OracleClient (.NET Framework’te yerleşik) |.NET Framework 3.5 |9.x |Tablolar/Görünümler |.NET Framework 3.5 veya sonraki sürümlerle birlikte gelir |
 | IBM DB2 |IBM ADO.Net istemcisi (IBM veri sunucusu sürücü paketine dahil) |10.1 |9.1+ |Tablolar/Görünümler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |Tablolar/Görünümler, Skaler işlevler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
-| PostgreSQL |NPGSQL ADO.NET sağlayıcısı |2.0.12 |9.4 |Tablolar/Görünümler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
+| PostgreSQL |NPGSQL ADO.NET sağlayıcısı (Power BI Desktop ile gönderilir) |4.0.10 |9.4 |Tablolar/Görünümler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |Teradata için .NET Veri Sağlayıcısı |14 |12 |Tablolar/Görünümler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |.NET 3.5 için iAnywhere.Data.SQLAnywhere |16 |16 |Tablolar/Görünümler |[İndirme bağlantısı](https://go.microsoft.com/fwlink/?linkid=324846) |
 

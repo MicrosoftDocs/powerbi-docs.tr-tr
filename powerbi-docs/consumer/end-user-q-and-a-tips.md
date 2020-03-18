@@ -6,21 +6,24 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099011"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114297"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Soru-Cevap tarafından tanınan sözcükler ve terminoloji
 Bu sayfadaki bu anahtar sözcük listesi çok kapsamlı değildir.  Power BI'ın bir anahtar sözcüğü tanıyıp tanımadığını görmenin en iyi yolu, anahtar sözcüğü soru kutusuna yazarak deneme yapmaktır.  Sözcük veya terim gri gösteriliyorsa, Power BI onu tanımıyor demektir.
 
-Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm fiil zamanları tanınır. Örneğin “is” sözcüğü: **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did** sözcüklerini de kapsar.  "sort" sözcüğü ise **sorted** ve **sorting** sözcüklerini kapsar.  Bunun yanı sıra Power BI, bir sözcüğün tekil ve çoğul hallerini de tanır ve kapsar. 
+Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm fiil zamanları tanınır. Örneğin "is" sözcüğü: **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did** sözcüklerini de kapsar.  "sort" sözcüğü ise **sorted** ve **sorting** sözcüklerini kapsar.  Bunun yanı sıra Power BI, bir sözcüğün tekil ve çoğul hallerini de tanır ve kapsar. 
 
 > [!NOTE]
 > Soru-Cevap aynı zamanda [iPad, iPhone ve iPod touch cihazlarıyla iOS için Microsoft Power BI uygulamasında](mobile/mobile-apps-ios-qna.md) da kullanılabilir.
@@ -33,7 +36,7 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |     |         |         
 **Makaleler**     |  a, an, the              |
 |     |         |         
-|**Boş ve Boole**     |   blank, empty, null, “non” veya “non-“ ön ekli, empty string, empty text, true, t, false, f          |
+|**Boş ve Boole**     |   blank, empty, null, prefixed with "non" veya "non-" ön ekli, boş dize, boş metin, true, t, false, f          |
 |     |         |         |
 |**Karşılaştırmalar**     |   vs, versus, compared to, compared with            |
 |     |         |         |

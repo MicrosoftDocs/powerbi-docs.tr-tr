@@ -1,19 +1,19 @@
 ---
 title: Apple Watch'unuzdaki mobil uygulamada Power BI verilerini araştırma
 description: Power BI Apple Watch uygulaması
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: 31db6725c027ed09e900dac7036778004e9e3ff3
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73870724"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114521"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
 Power BI Apple Watch uygulamasıyla, Power BI panolarınızdaki KPI'leri ve kart kutucuklarını doğrudan saatinizde görüntüleyebilirsiniz. KPI'ler ve kart kutucukları küçük ekranda bir kalp atışı ölçümü sunmak üzere en iyi şekilde yerleştirilir. iPhone'dan veya doğrudan Apple Watch'tan bir panoyu yenileyebilirsiniz.

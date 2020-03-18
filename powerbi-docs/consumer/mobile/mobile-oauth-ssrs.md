@@ -1,19 +1,19 @@
 ---
 title: OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 description: SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220620"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114946"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 WAP Uygulaması'nı ekledikten sonra BackendServerAuthenticationMode ayarını IntegratedWindowsAuthentication'ı kullanabilecek şekilde yapmanız gerekir. Bunu ayarlamak için WAP Uygulaması'ndan kimlik bilgisini edinmeniz gerekir.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![Uygulama Grubu Ekleme](media/mobile-oauth-ssrs/wap-application-id.png)

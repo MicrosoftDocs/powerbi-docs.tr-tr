@@ -5,21 +5,21 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496258"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039964"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-İşe ilişkin kararların görüşlerden ziyade olgulara dayanarak alındığı bir veri kültüründe yaşıyorsunuz. Bu kararları almak için verilere ihtiyaç duyarsınız ve bu verileri de iş arkadaşlarınız sağlar.     
+İşe ilişkin kararların görüşlerden ziyade olgulara dayanarak alındığı bir veri kültüründe yaşıyorsunuz. Bu kararları almak için size veri gerekir ve bu verileri de iş arkadaşlarınız sağlar.     
  
 Size her türden rapor, elektronik tablo, grafik içeren e-posta ve hatta basılı materyaller gönderirler. Veriler biriktikçe, ihtiyacınız olan şeyi hızla bulmanız zorlaşır. Ayrıca, kullandığınız bilgilerin güncel olup olmadığından da şüphe etmeye başlarsınız.  
  
@@ -31,7 +31,7 @@ Power BI işinizi hem kolaylaştırır hem de daha etkili hale getirir. Tüm bun
 
 ![Power BI panosu](media/end-user-consumer/power-bi-consumer-examples.png)
  
-Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir pano ve raporlarda birlikte çalışırsınız.   
+Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir pano ve raporlarda çalışırsınız.   
 
 ![Power BI panosu](media/end-user-consumer/power-bi-funnel.png)
 
@@ -45,13 +45,13 @@ Tüketici olarak Power BI’ın tüm olanaklarına erişemezsiniz, ancak işiniz
 
 Muhtemelen "Power BI Desktop" veya yalnızca "Desktop" terimini daha önceden duymuşsunuzdur. Bu terim, pano ve rapor oluşturup dizinle paylaşan *tasarımcılar* tarafından kullanılan bağımsız bir aracı nitelemek için kullanılır.  Tüketici olarak yalnızca Power BI hizmetiyle çalışacak olsanız da başka Power BI araçları da olduğunu bilmenizde fayda vardır. 
 
-Ayrıca *paylaşılan* içerik üzerinde çalıştığınız için Power BI Pro veya Premium lisansına sahip olmanız gerekir. [Hangi lisansa sahibim?](end-user-license.md)
+*Paylaşılan* içerikle çalıştığınız için, **Premium** kapasitenin kullanıldığı bir kuruluşta çalışmaya ve standart **ücretsiz** lisansa ihtiyacınız vardır. [Hangi lisansa sahibim?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma 
 Filtreme, dilimleme, abone olma ve dışarı aktarma işlemleri yaparken endişelenmeyin. yaptığınız işlemler, temel alınan veri kümesini veya paylaşılan özgün içeriği (pano, raporlar ve uygulamalar) etkilemez.  
 
-Verilerinize zarar vermeniz mümkün değildir.  Power BI, herhangi bir şeyi “bozma” korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.  
+Verilerinize zarar vermeniz mümkün değildir.  Power BI, herhangi bir şeyi "bozma" korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.  
  
 Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz. Ancak bu değişiklikler yalnızca sizin içeriği nasıl göreceğinizi etkiler. Varsayılan özgün görünüme geri dönmek de bir düğmeye tıklamak kadar kolaydır.  
 

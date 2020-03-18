@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265022"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041367"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
 
@@ -37,7 +37,7 @@ Power BI ile ekleme hakkında daha fazla bilgi için bkz. [Power BI ile Ekleme](
 
 ## <a name="developing-custom-visuals"></a>Özel görseller geliştirme
 
-Power BI ile özel görselleri kullanarak size şirketinize göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Bu özel görseller genellikle geliştiriciler tarafından oluşturulur. Power BI’de yer alan çok sayıda görsel ihtiyaçlarınızı karşılamadığında oluşturulurlar.
+Power BI ile özel görselleri kullanarak size veya şirketinize göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Bu özel görseller genellikle geliştiriciler tarafından oluşturulur. Power BI’de yer alan çok sayıda görsel ihtiyaçlarınızı karşılamadığında oluşturulurlar.
 
 Özel görseller, Power BI raporlarında kullanmak üzere görsellerinizi oluşturmanızı sağlar. Özel görseller bir JavaScript üst kümesi olan TypeScript dilinde yazılır. TypeScript, bazı gelişmiş özellikleri ve ES6/ES7 işlevine erken erişimi destekler. Görsel stili, basamaklı biçim tabloları (CSS) kullanılarak işlenir. Size kolaylık sağlamak adına, iç içe geçme, değişkenler, koşullar ve döngüler ve diğer özellikler gibi bazı gelişmiş özellikleri destekleyen LESS ön derleyicisini kullanıyoruz. Bu özelliklerden hiçbirini kullanmak istemiyorsanız less dosyasında yalın CSS yazmayı da tercih edebilirsiniz.
 
@@ -53,7 +53,7 @@ Geliştiriciler ayrıca etkileşimli raporlarda ve panolarda kullanılması müm
 
 ![Veri örneği gönderme](media/what-can-you-do/powerbi-push-data.png)
 
-Power BI API ile yapabileceğiniz bazı şeyler için bkz. [Geliştiriciler Power BI API neler yapabilir](overview-of-power-bi-rest-api.md)?
+Power BI API ile yapabileceğiniz bazı şeyler için bkz. [Geliştiriciler Power BI API neler yapabilir](automation/overview-of-power-bi-rest-api.md)?
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -61,6 +61,6 @@ Power BI API ile yapabileceğiniz bazı şeyler için bkz. [Geliştiriciler Powe
 
 [Power BI özel görseli geliştirme](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[Geliştiriciler Power BI API ile neler yapabilir?](overview-of-power-bi-rest-api.md)
+[Geliştiriciler Power BI API ile neler yapabilir?](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI Geliştirici Merkezi](https://powerbi.microsoft.com/developers/)

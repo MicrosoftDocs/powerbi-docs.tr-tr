@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888649"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114025"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -34,7 +36,7 @@ Aldığınız e-postanın "rapora veya panoya git" bağlantısı içerdiğini g�
 Kendinize abonelik **oluşturmanız** için belirli bir türde lisans gerektirir. Abonelik oluşturamıyorsanız Power BI yöneticinize başvurun. **Başkalarını abone yapma** yalnızca pano veya rapor sahibi tarafından kullanılabilir. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Bir panoya veya rapor sayfasına abone olma
-Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
+Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
  
 ![Abone ol simgesini seçme](./media/end-user-subscribe/power-bi-subscribe.png).
 
@@ -63,7 +65,7 @@ Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kul
 
 3. Her şey düzgün görünüyorsa, aboneliği kaydetmek için **Kaydet ve kapat**'ı seçin. Ayarladığınız zamanlamaya göre bir e-posta ve pano veya raporun anlık görüntüsünü alırsınız. Sıklığı **Veri yenilemesinden sonra** olarak ayarlanan tüm aboneliklerde, yalnızca söz konusu günde yapılan ilk zamanlanmış yenilemeden sonra e-posta gönderilir.
    
-   ![panonun anlık görüntüsünü e-posta ile gönderme](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![panonun anlık görüntüsünü e-posta ile gönderme](media/end-user-subscribe/power-bi-email.png)
    
     Rapor sayfasını yenilediğinizde veri kümesi yenilenmez. Yalnızca veri kümesi sahibi bir veri kümesini el ile yenileyebilir. Temel alınan veri kümesinin sahibinin adını aramak için menü çubuğundan açılan listeyi seçin veya ilk abonelik e-postasını arayın.
    
@@ -73,11 +75,12 @@ Panoya ve rapora abone olma süreçleri birbirine benzerdir. Aynı düğmeyi kul
 ## <a name="manage-your-subscriptions"></a>Aboneliklerinizi yönetme
 Oluşturduğunuz abonelikleri yalnızca siz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından sol alt köşedeki **Tüm abonelikleri yönet**'i seçin (yukarıdaki ekran görüntülerine bakın). 
 
-![Çalışma Alanım içinde tüm abonelikleri görüntüleme](./media/end-user-subscribe/power-bi-manage.png)
+![Çalışma Alanım içinde tüm abonelikleri görüntüleme](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse veya aboneliğin oluşturulması için kullanılan kullanıcı hesabı silinirse abonelik sona erer.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+* Abonelik e-postalarının istenmeyen posta klasörüne gitmesini önlemek için, kişilerinize Power Platform e-posta diğer adını (PowerPlat-noreply@microsoft.com) ekleyin. Microsoft Outlook kullanıyorsanız diğer ada sağ tıklayın ve **Outlook kişilerine ekle**’yi seçin. 
 * Üzerinde 25’ten fazla sabitlenmiş kutucuk veya dört sabitlenmiş canlı rapor sayfası olan panolar, kullanıcılara gönderilen abonelik e-postalarında tam olarak işlenemeyebilir. E-postanın düzgün şekilde işlenmesini sağlamak için pano tasarımcısıyla iletişime geçip, sabitlenmiş kutucuk sayısını 25'in altına ve sabitlenmiş canlı rapor sayısını dördün altına düşürmesini istemenizi öneririz.  
 * Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa bunlar görüntülenmez.  Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa bir abonelik oluşturamazsınız.
 * E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.

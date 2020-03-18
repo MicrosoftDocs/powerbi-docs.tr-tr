@@ -7,17 +7,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d97727969ed48c50a86be032835b237d293a1d96
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861687"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114148"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Sizinle paylaşılan panoları ve raporları görüntüleme
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73861687"
 
 ![Paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Power BI Premium nedir?](../service-premium-what-is.md) makalesini okuyun.
+**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Hangi lisansa sahibim?](end-user-license.md) konusunu okuyun.
     
 
 > [!NOTE]

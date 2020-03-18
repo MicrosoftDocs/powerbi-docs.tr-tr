@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/24/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a89cb77b99356f9f282b522c2041e96210a026e9
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576771"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113158"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri bulmasını isteyebilirsiniz. Bu eğilimler ve desenler *İçgörüler* olarak adlandırılan görseller biçiminde sunulur. 
 
@@ -75,7 +77,7 @@ Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi döne
 ![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>Düzenli paylaşım
-Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin “kuzeydoğu bölgesi”) bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
+Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin "kuzeydoğu bölgesi") bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
 
 Düzenli paylaşım içgörüsü düşük varyans içgörüsüne benzer, çünkü her ikisi de zaman içinde bir değerin varyansının eksik olmasıyla ilgilidir. Öte yandan, düzenli paylaşım içgörüsü zaman içinde **genel yüzdenin** varyansının eksikliğini ölçerken, düşük varyans içgörüsü boyut genelinde mutlak ölçü değerlerinin varyansının eksikliğini ölçer.
 

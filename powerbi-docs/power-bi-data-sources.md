@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427105"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041689"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -43,7 +43,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure HDInsight (HDFS) | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure HDInsight Spark | Evet | Evet | Evet | Hayır | Hayır |
 | Azure SQL Veritabanı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
-| Azure SQL Veri Ambarı | Evet | Evet | Evet | Hayır | Hayır |
+| Azure SQL Veri Ambarı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
 | Azure Tablo Depolama | Evet | Evet | Hayır | Evet | Hayır |
 | BI Bağlayıcısı | Evet | Evet | Evet | Evet | Evet |
 | BI360 - Budgeting & Financial Reporting | Evet | Evet | Hayır | Hayır | Hayır |
@@ -134,7 +134,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Twilio | Evet | Evet | Hayır | Hayır | Hayır |
 | tyGraph | Evet | Evet | Hayır | Hayır | Hayır |
 | Vertica | Evet | Evet | Evet | Evet | Evet |
-| Web | Evet | Evet | Hayır | Evet | Evet |
+| Web | Evet | Evet | Hayır | Evet | Evet <sup>6</sup> |
 | Webtrends | Evet | Evet | Hayır | Hayır | Hayır |
 | Workforce Dimensions | Evet | Evet | Hayır | Evet | Hayır |
 | XML | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
@@ -143,13 +143,15 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 
 <sup>1</sup>[ACE OLEDB sağlayıcısı](https://www.microsoft.com/download/details.aspx?id=54920) ile desteklenir, ağ geçidiyle aynı makineye yüklenir.
 
-<sup>2</sup> Şirket içi sürüle aynı M işleviyle desteklenir.
+<sup>2</sup> Şirket içi sürümüyle aynı M işleviyle desteklenir ve Kimlik Doğrulama seçeneklerinin kısıtlanmasına neden olur (ağ geçidinin OAuth desteği yoktur).
 
 <sup>3</sup> Excel 1997-2003 dosyaları (.xls) [ACE OLEDB sağlayıcısını](https://www.microsoft.com/download/details.aspx?id=54920) gerektirir.
 
 <sup>4</sup> Teknolojinin şirket içi sürümü için gereklidir.
 
 <sup>5</sup> Yalnızca [kişisel ağ geçidiyle](service-gateway-personal-mode.md) desteklenir.
+
+<sup>6</sup> .html, .xls ve Access Veritabanları için gereklidir
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery kaynakları için çoklu oturum açma (SSO)
 

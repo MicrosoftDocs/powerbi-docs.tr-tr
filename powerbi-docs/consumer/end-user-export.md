@@ -7,21 +7,24 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537541"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040168"
 ---
 # <a name="export-data-from-a-visual"></a>Bir görseldeki verileri dışarı aktarma
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilir](end-user-show-data.md) ya da bir Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği belirli bir tür veya lisansa ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. Dışarı aktaramıyorsanız, Power BI yöneticinizle iletişime geçin. 
+Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilir](end-user-show-data.md) ya da bir Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği belirli bir tür veya lisansa ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. Dışarı aktaramıyorsanız, Power BI yöneticinizle iletişime geçin. Verileri dışarı aktarmak için Power BI Pro lisansına ihtiyacınız vardır. Bu kullanıcı başına Pro lisansı veya Premium kapasite lisansı olan bir kuruluşta kullanıcı başına Pro lisansı olabilir. Bu tür lisanslar genellikle rapor *tüketiciler* tarafından değil rapor *tasarımcıları* tarafından kullanılır. Daha fazla bilgi edinmek için bkz. [Hangi lisansa sahibim?](end-user-license.md).
+
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Bir Power BI panosunda bulunan görselden
 

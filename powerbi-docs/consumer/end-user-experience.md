@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975345"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040171"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -72,7 +72,7 @@ Sol gezinti bölmesinde **Çalışma alanları** seçeneğini belirleyerek buna 
 
 ![Çalışma Alanlarım ](./media/end-user-experience/power-bi-workspaces.png)
 
-**Çalışma Alanım**, size ait olan ve sizin oluşturduğunuz tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. Yeni içerik oluşturmak çoğu Power BI *tüketicisinin* işinin bir parçası olmadığından birçok kullanıcının **Çalışma alanım** bölümü boş gözükür.  Tanım gereği *tüketiciler*, diğer kişiler tarafından oluşturulan verileri kullanır ve iş kararları alırken bu verilerden faydalanır. İçerik oluşturuyorsanız, [*Tasarımcılara yönelik* Power BI makalelerini](../power-bi-creator-landing.md) okuyabilirsiniz.
+**Çalışma Alanım**, size ait olan ve sizin oluşturduğunuz tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. Yeni içerik oluşturmak çoğu Power BI *tüketicisinin* işinin bir parçası olmadığından birçok kullanıcının **Çalışma alanım** bölümü boş gözükür.  Tanım gereği *tüketiciler*, diğer kişiler tarafından oluşturulan verileri kullanır ve iş kararları alırken bu verilerden faydalanır. İçerik oluşturuyorsanız, [*rapor oluşturucularına* yönelik Power BI makalelerini](../index.yml) okuyabilirsiniz.
 
 **Uygulama çalışma alanları** belirli bir uygulamaya yönelik tüm içeriği içerir.  Bir *tasarımcı* uygulama oluşturduğunda, uygulamanın kullanılması için gereken tüm içeriği paket haline getirir.  *Tasarımcının* uygulamada neleri paket haline getirdiğini görmek için Satış ve Pazarlama çalışma alanını seçin. 
 

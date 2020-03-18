@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9da9465bea8512b541d3f1af3983df70d184ac26
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875647"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114977"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. Power BI veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
@@ -37,9 +37,9 @@ Power BI'ı nasıl kullandığınız bir projedeki veya ekipteki rolünüze bağ
 
 Geliştiriciyseniz, Power BI API’lerini kullanarak veri kümelerine veri gönderebilir veya pano ve raporları kendi özel uygulamalarınıza ekleyebilirsiniz. Yeni bir görsel için fikriniz mi var? Kendi başınıza oluşturun ve başkalarıyla paylaşın.  
 
-Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip olduğunuz role bağlı olarak farklı dönemlerde Power BI'ın her bileşenini kullanabilirsiniz.
+Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip olduğunuz role bağlı olarak farklı zamanlarda Power BI'ın her bileşenini kullanabilirsiniz.
 
-Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin sizin durumunuza en uygun araç olduğuna bağlı olabilir. Örneğin, bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim sürecini izlerken diğer yandan kendi ekibiniz için müşteri ilişkilerine yönelik istatistiklerle ilgili raporlar oluşturmak üzere Power BI Desktop'ı kullanabilirsiniz. Power BI'ın her bölümü kullanılabilir ve onu bu kadar esnek ve cazip yapan da budur.
+Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin sizin durumunuza en uygun araç olduğuna bağlı olabilir. Örneğin, bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim sürecini izlerken diğer yandan kendi ekibiniz için müşteri ilişkilerine yönelik istatistiklerle ilgili raporlar oluşturmak üzere Power BI Desktop'ı kullanabilirsiniz. Power BI'ın her bölümü kullanılabilir, onu bu kadar esnek ve cazip yapan da budur.
 
 Rolünüzle ilgili belgeleri keşfetme:
 - [*Tasarımcılar*](../desktop-what-is-desktop.md) için Power BI Desktop
@@ -51,7 +51,7 @@ Rolünüzle ilgili belgeleri keşfetme:
 Power BI’da ortak bir iş akışı, veri kaynaklarına bağlanarak ve Power BI Desktop’ta rapor oluşturarak başlar. Ardından bu raporu Power BI Desktop'tan Power BI hizmetine yayımlar ve paylaşırsınız. Bu sayede Power BI hizmetindeki ve mobil cihazlardaki son kullanıcılar raporu görüntüleyebilir ve raporla etkileşimli çalışabilir.
 Bu yaygın bir iş akışıdır ve üç ana Power BI öğesinin birbirini nasıl tamamladığını gösterir.
 
-Burada ayrıntılı bir [Power BI Desktop ve Power BI hizmeti karşılaştırması](../designer/service-service-vs-desktop.md) bulabilirsiniz.
+Burada ayrıntılı bir [Power BI Desktop ve Power BI hizmeti karşılaştırması](../fundamentals/service-service-vs-desktop.md) bulabilirsiniz.
 
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>Power BI rapor sunucusu ile şirket içi raporlama
 

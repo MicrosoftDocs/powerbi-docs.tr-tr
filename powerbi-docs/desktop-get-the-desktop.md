@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1d61723b08c26197d94b53188b741fd01d47a620
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888374"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401207"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -158,6 +158,7 @@ Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir 
 
     Çıkış klasöründe .msi dosyalarını içeren *AttachedContainer* adlı bir klasör bulunur.
 
+Bir yüklemenin .exe’den, .exe içinden ayıkladığınız bir .msi’ye yükseltilmesi desteklenmez.   Bu yükseltmeyi yapmak için sahip olduğunuz eski Power BI Desktop sürümünü kaldırmanız gerekir.
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Power BI Desktop'ın önceki sürümlerini kullanırken ortaya çıkan sorunlar
 

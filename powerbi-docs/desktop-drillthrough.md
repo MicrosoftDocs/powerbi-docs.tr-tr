@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74311019"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401254"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
 Power BI Desktop'ta *detaylandırma* özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Detaylandırmayı kullanmak için, diğer rapor sayfalarındaki bir veri noktasına sağ tıklayıp bunu seçer ve ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için odaklanmış sayfayı detaylandırırsınız.
@@ -33,6 +33,11 @@ Power BI Desktop'ta *detaylandırma* özelliğini kullanarak raporunuzda tedarik
     **Detaylandırma filtreleri** kutusuna bir alan eklediğinizde Power BI Desktop otomatik olarak bir *geri* düğmesi görseli oluşturur. Bu görsel yayımlanmış raporlarda düğme haline gelir. Power BI hizmetinde raporunuzu inceleyen kullanıcılar daha önce bulundukları rapor sayfasına geri dönmek için bu düğmeyi kullanır.
 
     ![Detaylandırma görüntüsü](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> Aynı raporun bir sayfasına detaylandırma yapılandırabilir ve gerçekleştirebilirsiniz, ama farklı bir raporun sayfasında detaylandırma yapamazsınız.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Geri düğmesi için kendi görüntünüzü kullanma    
  Geri düğmesi bir görüntü olduğu için istediğiniz görüntüyle değiştirebilirsiniz. Raporunuzu inceleyen kullanıcıların geldikleri sayfaya geri dönebilmesi için geri düğmesi olarak çalışmaya devam eder. 
@@ -54,13 +59,12 @@ Geri düğmesi için kendi görüntünüzü kullanmak istiyorsanız şu adımlar
 
 ## <a name="pass-all-filters-in-drillthrough"></a>Detaylandırmadaki tüm filtreleri geçirme
 
-Power BI Desktop’ın Mayıs 2018 sürümünden itibaren tüm uygulanan filtreleri, detaylandırma penceresine geçirebilirsiniz. Örneğin, söz konusu kategoriye filtrelenen görsellerin ve ürünlerin yalnızca belirli bir kategorisini seçebilir ve sonra detaylandırmayı seçebilirsiniz. Tüm bu filtreler uygulandığında detaylandırmanın nasıl göründüğünü merak edebilirsiniz.
+Uygulanan tüm filtreleri detaylandırma penceresine geçirebilirsiniz. Örneğin, söz konusu kategoriye filtrelenen görsellerin ve ürünlerin yalnızca belirli bir kategorisini seçebilir ve sonra detaylandırmayı seçebilirsiniz. Tüm bu filtreler uygulandığında detaylandırmanın nasıl göründüğünü merak edebilirsiniz.
 
 Tüm uygulanan filtreleri tutmak için **Görselleştirmeler** bölmesinin **Detaylandırma** bölümünde **Tüm filtreleri tut** seçeneğini **Açık** olarak ayarlayın. 
 
 ![Tüm filtreleri tut](media/desktop-drillthrough/drillthrough_06.png)
 
-Mayıs 2018’den önce yayımlanmış olan Power BI Desktop sürümlerinde bu davranış, bu iki durumlu düğmenin **Kapalı** olarak ayarlanmasına eşdeğerdir.
 
 Daha sonra bir görsel üzerinde detaylandırma yaptığınızda, kaynak görselde geçici filtrelerin uygulanması sonucunda hangi filtrelerin uygulandığını görebilirsiniz. **Görselleştirme** bölmesinin **Detaylandırma** bölümünde penceresinde bu geçici filtreler italik olarak gösterilir. 
 

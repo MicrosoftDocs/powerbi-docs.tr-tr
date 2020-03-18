@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851216"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114233"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ Power BI bir raporda tek bir veri kümesini temel alır. Rapor *tasarımcıları
 İçeriğinizi keşfedip filtreleme, dilimleme, abone olma ve dışarı aktarma gibi etkileşimlerde bulundukça, raporları bozamazsınız. Çalışmanız, temel alınan veri kümesini veya özgün paylaşılan içeriği etkilemez. Bu durum panolar, raporlar ve uygulamalar için geçerlidir.
 
 > [!NOTE]
-> Verilerinize zarar veremeyeceğinizi unutmayın. Power BI, herhangi bir şeyi bozmaktan endişe duymadan keşfedip denemeniz için harika bir yerdir.
+> Verilerinize zarar veremeyeceğinizi unutmayın. Power BI, bir şeyi bozma korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Değişikliklerinizi kaydedin veya varsayılan ayarlara geri dönün
 

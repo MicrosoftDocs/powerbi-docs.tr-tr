@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871897"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946836"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>İstemci uygulamaları ve araçlarıyla veri kümelerine bağlanma (Önizleme)
 
-Power BI Premium çalışma alanları ve veri kümeleri Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* bağlantıları destekler. Bağlantılar, varsayılan olarak etkinleştirilir
+Power BI Premium çalışma alanları ve veri kümeleri Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* bağlantıları destekler. Bağlantılar varsayılan olarak etkinleştirilir.
 
 > [!NOTE]
 > Bu makalenin tek amacı Power BI Premium çalışma alanları ve veri kümelerine salt okunur bağlantıyı tanıtmaktır. Programlama, belirli araç ve uygulamalar, mimari ve çalışma alanı ile veri kümesi yönetimi hakkında ayrıntılı bilgi sağlamayı *amaçlamaz*. Burada açıklanan konular Analysis Services tablosal model veritabanı mimarisi ve yönetimi hakkında üst düzey bilgi gerektirir.
@@ -104,17 +104,13 @@ Aşağıdaki veri kümeleri Power BI hizmetinde desteklenmez:
 
 Şu anda, model rolleri ve rol üyelikleri XMLA uç noktaları kullanarak bulunamaz veya görüntülenemez.
 
-## <a name="disable-connectivity"></a>Bağlantıyı devre dışı bırakma
-
-XMLA Uç noktası bağlantısı, veri kümesi iş yükü için varsayılan olarak etkindir. Bağlantıyı [İş yükü ayarlarında](service-admin-premium-workloads.md#workload-settings) devre dışı bırakabilirsiniz.
-
 ## <a name="audit-logs"></a>Denetim günlükleri 
 
 İstemci uygulamaları ve araçları bir çalışma alanına bağlandığında, XMLA uç noktaları üzerinden erişim Power BI denetim günlüklerine **GetWorkspaces** işleminin altına kaydedilir. Daha fazla bilgi edinmek için bkz. [Power BI'ı denetleme](service-admin-auditing.md).
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Analysis Services Başvuruları](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Analysis Services Başvuruları](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [SQL Server Analysis Services Tablosal Protokolü](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [Dinamik Yönetim Görünümleri (DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

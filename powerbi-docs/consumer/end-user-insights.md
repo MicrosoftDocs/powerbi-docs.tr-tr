@@ -7,24 +7,27 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863395"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113095"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 Panonuzdaki her görsel [kutucuğu](end-user-tiles.md), veri araştırma dünyasına açılan bir yoldur. Bir kutucuğu seçtiğinizde açılan raporda veya [Soru-Cevap kutusunda](end-user-q-and-a.md) bulunan veri kümesini filtreleyebilir, sıralayabilir ve ayrıntılarına inebilirsiniz. İçgörü çalıştırdığınızda Power BI veri keşfini sizin yerinize gerçekleştirir.
 
 ![üç nokta menüsü modu](./media/end-user-insights/power-bi-insight.png)
 
 Verilerinizi temel alan ilgi çekici ve etkileşimli görseller oluşturmak için içgörüler çalıştırın. Belirli bir pano kutucuğunda içgörüler çalıştırabilir ve hatta bir içgörü üzerinde içgörü çalıştırabilirsiniz!
 
-Öngörü özelliği Microsoft Research ekibiyle birlikte geliştirilen ve sayısı artmaya devam eden [gelişmiş analiz algoritmaları kümesi](end-user-insight-types.md) üzerine kurulmuştur. Bu özelliği, daha fazla kullanıcının, verilerindeki öngörülere yeni ve sezgisel yöntemlerle ulaşmasını sağlamak için kullanmaya devam edeceğiz.
+İçgörüler özelliği Microsoft Research ekibiyle birlikte geliştirilen ve sayısı artmaya devam eden [gelişmiş analiz algoritmaları kümesi](end-user-insight-types.md) üzerine kurulmuştur. Bu özelliği daha fazla kullanıcının, verilerindeki içgörülere yeni ve sezgisel yöntemlerle ulaşmasını sağlamak için kullanmaya devam edeceğiz.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Bir pano kutucuğu üzerinde öngörüler çalıştırma
 Bir pano kutucuğunda içgörü çalıştırdığınızda Power BI yalnızca o pano kutucuğunu oluşturmak için kullanılan verilerde arama yapar. 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830579"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113767"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -75,8 +77,9 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
 
-* R görselleri şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
+* R ve Python görselleri şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
 * Sertifikalanmış özel görseller desteklenir. Bir özel görseli nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı özel görseller hakkında daha fazla bilgi için bkz. [Özel görselleri sertifikalatma](../developer/power-bi-custom-visuals-certified.md). Sertifikalanmamış özel görseller desteklenmez. Bu tür görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
+* ESRI görseli desteklenmez
 * 30'dan fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
 * Kaydırma çubukları olan görseller varsayılan durumlarında dışarı aktarılır. Görsel PowerPoint'te verilerin yalnızca üst bölümünü gösterir. PowerPoint'te her slayt bir resim olduğundan kaydırma kullanılamaz. 
 * Raporu PowerPoint’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
@@ -89,6 +92,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 * Daha önce belirtildiği gibi, her rapor sayfası PowerPoint dosyasına tek bir görüntü olarak aktarılır.
 * Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
 * Dışa aktarılan PowerPoint dosyasının kapak slaydında görünen **İndirme saati**, bilgisayarınızın saat diliminde dışa aktarma işleminin saatine ayarlanır.
+* PPTX'e dışarı aktarırken, özel yazı tipleri bulunan temaların kullanıldığı raporlarda özel yazı tipleri yerine varsayılan yazı tipleri kullanılır.
 * Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde URL filtreleri dikkate alınmaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
