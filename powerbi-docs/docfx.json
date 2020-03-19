@@ -54,6 +54,10 @@
         "MTE75",
         "MTE95",
         "Blank"
+      ],
+      "search.appverid": "met150",
+      "search.app": [
+        "Capaedac-PowerBI"
       ]
     },
     "fileMetadata": {
