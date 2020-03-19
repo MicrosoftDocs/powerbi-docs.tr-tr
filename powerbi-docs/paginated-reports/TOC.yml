@@ -12,6 +12,8 @@
     - name: Öğreticiler
       expanded: true
       items:
+        - name: Çevrimiçi kurs
+          href: paginated-reports-online-course.md
         - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme

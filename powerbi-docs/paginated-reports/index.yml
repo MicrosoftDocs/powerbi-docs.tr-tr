@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 35b32cbaa5b5835b12bf83f9c14034aae715f7d6
+  ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924610"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79525856"
 landingContent:
 - title: Power BI sayfalandırılmış raporlar hakkında
   linkLists:
@@ -31,6 +31,8 @@ landingContent:
   linkLists:
   - linkListType: tutorial
     links:
+    - text: Çevrimiçi kurs
+      url: paginated-reports-online-course.md
     - text: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
       url: paginated-reports-quickstart-aw.md
   - linkListType: concept
