@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496937"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376736"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD Kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -46,7 +46,7 @@ Office 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluş
 Office 365’i dağıttıktan sonra bir Power BI aboneliği ekleyebilirsiniz. Power BI Pro Kamu hizmeti satın almak için [ABD Kamu kuruluşunuzu kaydetme](service-govus-signup.md#existing-office-government-cloud-customers) konusundaki adım adım yönergeleri izleyin. Power BI’ı kullanması gereken tüm kullanıcılara yetecek kadar lisans satın alın ve bu lisansları tek tek kullanıcı hesaplarına atayın.
 
 > [!IMPORTANT]
-> Power BI US Government, Ücretsiz lisans olarak sağlanmaz. Her kullanıcıya, Government Community Cloud’a erişmek için bir Pro lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
+> Power BI US Government, Ücretsiz lisans olarak sağlanmaz. Her kullanıcıya, Government Community Cloud’a erişmek için bir Pro lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Power BI Premium’u satın aldıysanız, kullanıcı erişimini etkinleştirmek için Pro lisansları atamanız gerekmez.  Kuruluştaki tüm kullanıcılar, rapor Premium kapasitede yayımlandığı sürece kendileriyle paylaşılan raporlara erişebilir. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
 >
 >
 

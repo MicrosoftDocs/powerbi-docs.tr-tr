@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753709"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378973"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 
@@ -195,7 +195,7 @@ Veya, **tema renkleri** bölümünü kullanarak bir veri noktasının rengini ke
 
 ![Varsayılana geri dön](media/desktop-report-themes/report-themes_9.png)
 
-Çoğu özel görsel rapor temalarına uygulanmaz.
+Çoğu Power BI görseli, rapor temalarına uygulanmaz.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>Şu anda kullanabileceğiniz özel rapor teması dosyaları
 
@@ -312,10 +312,10 @@ Aşağıdaki tabloda, biçimlendirebileceğiniz altı renk sınıfını görebil
 |---------|---------|
 | **firstLevelElements** <br> **foreground**    (kullanım dışı) | Etiket arka plan rengi (veri noktaları dışında olduğunda) <br> Eğilim çizgisi rengi <br>  Metin kutusu varsayılan rengi <br> Tablo ve matris değerleri ve toplam yazı tipi renkleri Veri çubukları eksen rengi <br> Kart veri etiketleri <br> Ölçek açıklama balonu değeri rengi <br> KPI hedefi rengi <br>  KPI metin rengi <br> Dilimleyici öğe rengi (odak modundayken)  <br> Dilimleyici açılan öğe yazı tipi rengi <br> Dilimleyici sayısal giriş yazı tipi rengi <br> Dilimleyici üst bilgisi yazı tipi rengi <br> Dağılım grafiği oran çizgisi rengi <br> Çizgi grafik tahmin çizgisi rengi <br> Eşleme öncü çizgisi rengi <br> Filtre bölmesi ve kart metin rengi|
 | **secondLevelElements** <br> **foregroundNeutralSecondary** (kullanım dışı) | "açık" [ikincil metin sınıfları](#setting-formatted-text-defaults) <br> Etiket renkleri  <br> Gösterge etiketi rengi <br> Eksen etiketi rengi <br> Tablo ve matris üst bilgisi yazı tipi rengi <br> Ölçek hedefi ve hedef öncü çizgisi rengi <br>  KPI eğilimi ekseni rengi <br> Dilimleyici kaydırıcısı rengi <br> Dilimleyici öğe yazı tipi rengi <br> Kaydırıcı ana hat rengi <br> Çizgi grafik üzerine gelme rengi <br> Çok satırlı kart başlığı rengi <br> Şerit grafik kontur rengi <br> Şekil eşlemi kenarlık rengi <br> Düğme metni yazı tipi rengi <br> Düğme simgesi çizgi rengi <br> Düğme ana hat çizgisi rengi |
-| **thirdLevelElements** <br >**backgroundLight** (kullanım dışı) | Eksen kılavuz çizgisi rengi <br> Tablo ve matris kılavuz rengi <br> Dilimleyici üst bilgisi arka plan rengi (odak modundayken)  <br> Çok satırlı kart ana hat rengi  <br> Şekil dolgusu rengi <br> Ölçek yayı arka plan rengi <br> Uygulanan filtre kart arka planı rengi <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary** (kullanım dışı) | gösterge soluk rengi <br> Kart kategori etiketi rengi <br> Çok satırlı kart kategorisi etiketi rengi <br> Çok satırlı kart çubuk rengi <br> Huni grafiği dönüştürme oranı kontur rengi
+| **thirdLevelElements** <br >**backgroundLight** (kullanım dışı) | Eksen kılavuz çizgisi rengi <br> Tablo ve matris kılavuz rengi <br> Dilimleyici üst bilgisi arka plan rengi (odak modundayken)  <br> Çok satırlı kart ana hat rengi  <br> Şekil dolgusu rengi <br> Ölçek yayı arka plan rengi <br> Uygulanan filtre kart arka planı rengi <br> Arka plan = FFFFFF olduğunda: <br> Devre dışı bırakılan düğme dolgusu rengi <br> Devre dışı bırakılan düğme ana hat çizgisi rengi <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary** (kullanım dışı) | gösterge soluk rengi <br> Kart kategori etiketi rengi <br> Çok satırlı kart kategorisi etiketi rengi <br> Çok satırlı kart çubuk rengi <br> Huni grafiği dönüştürme oranı kontur rengi <br> Devre dışı bırakılan düğme metni yazı tipi rengi <br> Devre dışı bırakılan düğme simgesi çizgi rengi <br> |
 | **background** | Etiket arka plan rengi (veri noktaları içinde olduğunda) <br> Dilimleyici açılan öğeleri arka plan rengi  <br> Halka grafik kontur rengi <br> Ağaç haritası kontur rengi <br> Birleşik harita arka plan rengi <br> Düğme dolgusu rengi <br> Filtre bölmesi ve kullanılabilir filtre kartı arka plan rengi |
-| **secondaryBackground** <br> **backgroundNeutral** (kullanım dışı) | Tablo ve matris kılavuz ana hat rengi <br> Şekil eşlemi varsayılan rengi <br> Şerit grafik şeridi dolgu rengi (seri eşleştirme seçeneği kapalıyken) |
+| **secondaryBackground** <br> **backgroundNeutral** (kullanım dışı) | Tablo ve matris kılavuz ana hat rengi <br> Şekil eşlemi varsayılan rengi <br> Şerit grafik şeridi dolgu rengi (seri eşleştirme seçeneği kapalıyken) <br> Arka plan != FFFFFF olduğunda: <br> Devre dışı bırakılan düğme dolgusu rengi <br> Devre dışı bırakılan düğme ana hat çizgisi rengi <br> |
 | **tableAccent** | Mevcut olduğunda tablo ve matris kılavuzu ana hat rengini geçersiz kılar |
 
 Renk sınıflarını ayarlayan örnek tema aşağıda verilmiştir:
@@ -464,7 +464,7 @@ Bu örnek aşağıdaki ayarları yapar:
 
 - Her yerde sözcük kaydırmayı açma
 - Kategori ekseni olan tüm görseller için kılavuz çizgisi stilini noktalı olarak ayarlar
-- Kullanılabilir ve uygulanmış filtre kartları için bazı biçimlendirmeleri ayarlar (filtre kartlarının farklı sürümlerini ayarlamak için “$id” kullanarak biçimi not edin)
+- Kullanılabilir ve uygulanmış filtre kartları için bazı biçimlendirmeleri ayarlar (filtre kartlarının farklı sürümlerini ayarlamak için "$id" kullanarak biçimi not edin)
 - Dağılım grafikleri için kabarcık boyutunu -10 olarak ayarlar.
 
 > [!NOTE]
@@ -574,7 +574,7 @@ Aşağıdaki bölümde, her bir karttaki özellikler tanımlanmıştır. Kart ad
 
 Boole değerleri true veya false şeklindedir. Dizeler, "bu bir dizedir" örneğinde olduğu gibi çift tırnak işaretleri içinde olmalıdır. Sayılar tırnak içinde gösterilmez ve değerin kendisidir.
 
-Renklerde, aşağıdaki biçim kullanılır. Buradaki örnekte “FFFFFF” yerine özel onaltılık kodunuz gelir:
+Renklerde, aşağıdaki biçim kullanılır. Buradaki örnekte "FFFFFF" yerine özel onaltılık kodunuz gelir:
 
     { "solid": { "color": "#FFFFFF" } }
 
@@ -4491,7 +4491,7 @@ Aşağıdaki bölümde, JSON dosyasında kullanabileceğiniz sabit listeleri tan
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-Özgün temalarımızdan birini, “Klasik” temasını veya bunlardan birinin üzerine içeri aktardığınız özel temayı kullanıyorsanız, tema iletişim kutusunun metin bölümü yapılandırma için kullanılamaz.
+Özgün temalarımızdan birini, "Klasik" temasını veya bunlardan birinin üzerine içeri aktardığınız özel temayı kullanıyorsanız, tema iletişim kutusunun metin bölümü yapılandırma için kullanılamaz.
 
 Bu sınırlamadan etkilenen yerleşik temalar aşağıda listelenmiştir:
 * Klasik

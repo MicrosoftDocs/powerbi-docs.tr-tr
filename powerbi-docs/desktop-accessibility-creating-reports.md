@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925685"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379111"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI raporlarını erişilebilirlik için tasarlama
 Etkileyici raporlar tasarlayıp oluşturabilir, aynı zamanda bu raporları erişilebilirlik için tasarlayabilirsiniz. Bir rapor oluştururken, hedef kitleniz kim olursa olsun, raporlarınızı özel bir tasarıma uyarlanmasına gerek kalmadan mümkün olduğunca kullanılabilir olacak şekilde oluşturmanız gerekir.
@@ -253,8 +253,8 @@ Power BI, erişilebilirlik araçları ve işlevselliği sağlamaya ek olarak, ra
 * Tüm dekoratif görüntülerin sekme sırasında gizli olarak işaretlendiğinden, böylece ekran okuyucu tarafından duyurulmayacağından emin olun.
 * Dikkati dağıtacak kadar fazla sayıda dekoratif görüntü kullanmaktan kaçının.
 
-### <a name="custom-visuals"></a>Özel görseller
-* Özel görseller için **Verileri Göster** tablosunun erişilebilir olup olmadığını denetleyin. Gösterilen bilgiler yeterli değilse başka bir görsel arayın.
+### <a name="power-bi-visuals"></a>Power BI görselleri
+* Power BI görselleri için **Verileri Göster** tablosunun erişilebilir olup olmadığını denetleyin. Gösterilen bilgiler yeterli değilse başka bir görsel arayın.
 * *Yürütme Ekseni* özel görselini kullanıyorsanız otomatik olarak yürütülmediğinden emin olun. Kullanıcının değişen değerleri başlatması/durdurması için oynat/duraklat düğmesine basması gerektiğini açıkça belirtin.
 
 ### <a name="across-visuals-on-the-page"></a>Sayfadaki görsellerin tamamında

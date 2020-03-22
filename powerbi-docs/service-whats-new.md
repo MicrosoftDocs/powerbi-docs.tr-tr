@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920956"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488856"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
-- [İş zekası Ekim 2018'deki yenilikler](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) Microsoft Business Applications Grubu'nun sürüm notları: İş uygulamalarımızdaki en son güncelleştirmeler.
+- [İş zekası Ekim 2018’deki yenilikler](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) Microsoft Business Applications Grubu’nun sürüm notları: İş uygulamalarımızdaki en son güncelleştirmeler.
 - [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 - [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
@@ -91,7 +91,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * PPT ve PDF için filtrelenmiş dışarı aktarma.
 * Yönetici Portalı’nda [Yardım ve destek ayarları](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/).
 * [Veri akışları](service-dataflows-overview.md) için veri kökeni deneyimi.
-* Yönetici Portalı’nda sertifikalı özel görseller ayarı.
+* Yönetici Portalında Sertifikalı Power BI görselleri ayarı.
 
 ### <a name="january-2019"></a>Ocak 2019
 * İç portallara veya web sitelerine [güvenli Power BI raporları ekleme](service-embed-secure.md).
@@ -126,7 +126,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Power BI [Rapor URL filtresi](service-url-filters.md) geliştirmeleri.
 
 ### <a name="july-2018"></a>Temmuz 2018
-* [Kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) için özel görseller.
+* [Kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) için Power BI görselleri desteği.
 * Power BI yöneticileri için [API'ler ve PowerShell cmdlet'leri](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/).
 * Power BI Premium için [Multi-Geo desteği](service-admin-premium-multi-geo.md).
 
@@ -153,20 +153,20 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 ### <a name="february-2018"></a>Şubat 2018
 * Son kullanıcılar için [Power BI Uygulamalarını](service-create-distribute-apps.md) otomatik olarak yükleyin.
 * Power BI Premium’da P4 ve P5 kapasiteleri
-* [Özel kuruluş görsellerinin](developer/power-bi-custom-visuals-organization.md) önizlemesi.
+* [Power BI kuruluş görsellerinin](developer/visuals/power-bi-custom-visuals-organization.md) önizlemesi.
 
 ### <a name="january-2018"></a>Ocak 2018
-*   Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
-*   Azure SQL Veritabanı ve Veri Ambarı için OAuth2 ve DirectQuery Çoklu Oturum Açma (SSO) Desteği.
-*   Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Office 365 bölgesinde depolanabilecek.
-*   SharePoint Online [Power BI raporu web bölümü](https://go.microsoft.com/fwlink/p/?LinkId=825698) genel kullanıma sunuldu.
-*   Bir kiracıdaki tüm kullanıcılar için özel görsellerin görüntülenmesini kapatmaya yönelik yönetici denetimi.
-*   Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
+*    Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
+*    Azure SQL Veritabanı ve Veri Ambarı için OAuth2 ve DirectQuery Çoklu Oturum Açma (SSO) Desteği.
+*    Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Office 365 bölgesinde depolanabilecek.
+*    SharePoint Online [Power BI raporu web bölümü](https://go.microsoft.com/fwlink/p/?LinkId=825698) genel kullanıma sunuldu.
+*    Bir kiracıdaki tüm kullanıcılar için Power BI görsellerinin görüntülenmesini kapatmaya yönelik yönetici denetimi.
+*    Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
 
 ## <a name="previous-months-2017"></a>Önceki aylar (2017)
 ### <a name="october-and-november-2017"></a>Ekim ve Kasım 2017
-*   [Power BI Uygulamaları](service-create-distribute-apps.md) ile seçmeli içerik yayımlama.
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
+*    [Power BI Uygulamaları](service-create-distribute-apps.md) ile seçmeli içerik yayımlama.
+*    [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/) ile dış kullanıcı dağıtımı.
 * Yapay zeka destekli uygulama önerileri.
 * Pano kutucuğu üzerinde UI güncelleştirmeleri.
 * Uygulamalar için e-posta abonelikleri desteği. 
@@ -183,8 +183,8 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Kullanıcı başına kullanım ölçümleri](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/) ile hedef kitlenizi tanıma.
 * Çevrimiçi hizmetler için [Power BI hizmeti](service-connect-to-services.md) uygulamalarıyla çalışmaya başlama.
 * Hem içeri aktarma hem de DirectQuery bağlantı modları üzerinden şirket içi veri ağ geçidi ile IBM Netezza’ya bağlanın.
-* [Dynamic RLS](developer/embedded-row-level-security.md) artık Power BI Embedded için destekleniyor.
-* Özel görseller API'sinin 1.7 sürümüne gelişmiş [filtreleme API'si](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) eklendi.
+* [Dynamic RLS](developer/embedded/embedded-row-level-security.md) artık Power BI Embedded için destekleniyor.
+* Power BI görselleri API’sinin 1.7 sürümüne gelişmiş [filtreleme API’si](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) eklendi.
 
 ### <a name="july-2017"></a>Temmuz 2017
 * Panolarda [e-posta aboneliği](consumer/end-user-subscribe.md) desteği.
@@ -197,7 +197,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Zamanlanmış yenilemeyi otomatikleştirme](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [raporları kopyalama ve yeniden bağlama](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [ağ geçidi bağlamalarını güncelleştirme](https://msdn.microsoft.com/library/mt784650.aspx) ve çok daha fazlası için çoklu API geliştirmeleri
 * Power BI uygulamalarında pano kutucuklarından diğer panolara ve raporlara göreli bağlantılar.
 * [Impala bağlayıcısı](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) Power BI Desktop'ta genel kullanıma açıldı.
-* Power BI'ın görsel özelliklerini [etkileşimli R özel görselleriyle](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/) genişletme.
+* Power BI’ın görsel özelliklerini [etkileşimli R Power BI görselleriyle](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/) genişletme.
 
 ### <a name="april-and-may-2017"></a>Nisan ve Mayıs 2017
 * [Pano ve rapor oluşturuculara yönelik kullanım ölçümleriyle](service-usage-metrics.md) etkinizi ölçme ve artırma.
@@ -213,7 +213,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [DAX sorguları için geliştirilmiş sorun giderme iletileri](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting).
 * [Özel önbellek yenileme zamanlamalarıyla](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/) veri kümelerinizde daha fazla denetim sahibi olma.
 * [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)'e bağlanma.
-* [Office Mağazası'ndaki Power BI özel görsellerine](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/) göz atma.
+* [Office Mağazası’ndaki Power BI görsellerine](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/) göz atma.
 * Önizleme: Verilerinizden haberdar olmak için [rapor sayfalarına abone olma](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/).
 * Çalışanlarınızın ve iş ortaklarınızın Azure AD kullanımları hakkında daha fazla bilgi almak için Azure AD İçerik Paketini kullanma.
 
@@ -225,7 +225,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 ### <a name="january-2017"></a>Ocak 2017
 * [Power BI yönetici rolünü](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole) kullanarak Power BI'ı yönetme.
 * Office 365 denetim portalındaki [Power BI denetim günlükleri](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) genel kullanıma açıldı.
-* [Geliştirici araçları ve özel görseller API'lerinin](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 sürümü yayımlandı.
+* [Geliştirici araçları ve Power BI görselleri API’lerinin](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 sürümü yayımlandı.
 * [Gerçek zamanlı akış özellik kümesi](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) genel kullanıma açıldı.
 * Tek satır kod yazmadan [Power Automate kullanarak Power BI'a veri iletme](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/).
 * Önizleme: Verilerinizden haberdar olmak için [rapor sayfalarına abone olma](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/).
@@ -506,7 +506,7 @@ Bu hafta çok sayıda güncelleştirme yapıldı, çoğu Power BI Desktop uygula
   1. SSAS Çoklu boyut desteği - Hiyerarşi desteği (Önizleme Özelliği)
   2. Stripe Bağlayıcısı
   3. Smartsheet Bağlayıcısı
-  4. “Verileri Girin”: Tablo oluşturmak için verileri yapıştırın veya girin
+  4. "Veri girme": Tablo oluşturmak için verileri yapıştırın veya girin
   5. DirectQuery Geliştirmeleri:  Tüm T-SQL ve SAP HANA veri türlerine yönelik destek sonucunda performans geliştirmeleri.
   6. DB2 Bağlayıcısı: Kullanıcı/Sistem DSN'si seçme desteği
   7. CSV Bağlayıcısı: Kaynak iletişim kutusunda Sütun Sınırlayıcı belirtme seçeneği

@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 7318ec8f7305920d107424f381ca59b8836fe8da
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114795"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435411"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?
 Power BI; iOS, Android ve Windows 10 mobil cihazlar için bir dizi mobil uygulama sunar. Mobil uygulamalarda bulut ve şirket içi verilerinize bağlanıp etkileşimde bulunabilirsiniz. 
@@ -35,7 +35,10 @@ Power BI Desktop'ta raporlar oluşturabilirsiniz. Power BI rapor hizmetinde ([ht
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPad**'deki Power BI mobil uygulaması, panoları ve raporları Power BI hizmeti için biçimlendirildikleri şekilde görüntüler. Bunun yanı sıra [Power BI Rapor Sunucusu ve Reporting Services KPI'lerinizi ve raporlarınızı](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) doğrudan iPad'inizde görüntüleyebilirsiniz. Bir panodaki veriler belirlediğiniz sınırları aşacak şekilde değiştirildiğinde bildirim almak için [Power BI mobil uygulamasında veri uyarıları oluşturabilirsiniz](mobile-set-data-alerts-in-the-mobile-apps.md). <br/>[iOS için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) ile çalışmaya başlayın. |
 | [![Android telefon](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |**Android telefon** için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı cebinize sığdırır. [Bir raporu coğrafi konumunuza göre filtreleyebilirsiniz](mobile-apps-geographic-filtering.md). [Android telefonunuzla QR kodlarını tarayabilir](mobile-apps-qr-code.md) ve doğrudan bir Power BI panosuna veya raporuna gidebilirsiniz. <br/>[Android için Power BI mobil uygulaması](mobile-android-app-get-started.md) ile çalışmaya başlayın. |
 | [![Android tablet](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Bu mobil uygulama, pek çok farklı **Android tablette** çalıştırılabilir ve iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. Android tabletteki Power BI mobil uygulaması, panoları ve raporları Power BI hizmeti için biçimlendirildikleri şekilde görüntüler. [Sık kullanılan panolarınızı ve raporlarınızı işaretleyebilir](mobile-apps-favorites.md), bu sayede hem pano ve raporlarınıza hem de sık kullandığınız Power BI Rapor Sunucusu ve Reporting Services KPI'leriniz ve raporlarınıza hızla erişim sağlayabilirsiniz. <br/>[Android için Power BI mobil uygulaması](mobile-android-app-get-started.md) ile çalışmaya başlayın. |
-| [![Windows cihazları](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Windows 10 için Power BI mobil uygulaması, Windows 10 telefonlar da dahil olmak üzere tüm Windows 10 cihazlarında çalıştırılabilir. Diğer mobil uygulamaların sağladığı çoğu özelliğin yanı sıra Windows 10 için Power BI mobil uygulaması özel işlevler de sunar. Örneğin, Power BI mobil uygulamasındaki [bir Power BI panosunu Windows 10 Başlangıç ekranına sabitleyebilirsiniz](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Ayrıca Windows 10 için Power BI mobil uygulaması ile [Power BI'ı Surface Hub sunum modunda da çalıştırabilirsiniz](mobile-windows-10-app-presentation-mode.md). <br/>[Windows 10 cihazları için Power BI mobil uygulamasını](mobile-windows-10-phone-app-get-started.md) kullanmaya başlayın. ||| 
+| [![Windows cihazları](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Windows 10 için Power BI mobil uygulaması, Windows 10 telefonlar da dahil olmak üzere tüm Windows 10 cihazlarında çalıştırılabilir. Diğer mobil uygulamaların sağladığı çoğu özelliğin yanı sıra Windows 10 için Power BI mobil uygulaması özel işlevler de sunar. Örneğin, Power BI mobil uygulamasındaki [bir Power BI panosunu Windows 10 Başlangıç ekranına sabitleyebilirsiniz](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Ayrıca Windows 10 için Power BI mobil uygulaması ile [Power BI'ı Surface Hub sunum modunda da çalıştırabilirsiniz](mobile-windows-10-app-presentation-mode.md). <br/>[Windows 10 cihazları için Power BI mobil uygulamasını](mobile-windows-10-phone-app-get-started.md) kullanmaya başlayın. |||
+
+>[!NOTE]
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için kurumsal destek
 Kuruluşlar, Android ve iOS için Power BI mobil uygulamaları da dahil olmak üzere cihazları ve uygulamaları yönetmek için Microsoft Intune'u kullanabilir.

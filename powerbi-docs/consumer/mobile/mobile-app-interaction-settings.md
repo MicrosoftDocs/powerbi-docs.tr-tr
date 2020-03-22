@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041297"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377387"
 ---
 # <a name="configure-report-interaction-settings"></a>Rapor etkileşim ayarlarını yapılandırma
 
@@ -49,7 +49,7 @@ Power BI mobil uygulamasını indirdiğinizde, tek dokunma etkileşimine ayarlan
 Veri noktasının seçimini kaldırmak için bu veri noktasına yeniden dokunun.
 
 >[!NOTE]
->Çoklu seçim Özel görsellerde desteklenmez.
+>Çoklu seçim, Power BI görsellerinde desteklenmez.
 >
 >Çoklu seçim modu, Power BI Rapor Sunucusu’nun sonraki sürümünde Rapor Sunucusu’nda desteklenecektir.
 

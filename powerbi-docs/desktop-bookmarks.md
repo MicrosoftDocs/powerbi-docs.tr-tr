@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08d222f03991bdf605f8e465ff0152d40d07d815
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761899"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378996"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop'ta içgörüleri paylaşmak ve hikayeler oluşturmak için yer işareti oluşturma
 Power BI Desktop'ta *yer işaretleriyle* filtreler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalarsınız. Daha sonra, kaydedilen yer işaretini seçerek söz konusu duruma geri dönebilirsiniz. 
@@ -198,7 +198,7 @@ Her zaman en son sürüme yükseltmeniz önerilir. Ancak Power BI Desktop sürü
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Yer işareti özelliklerinin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
-* Çoğu özel görsellerin yer işareti eklemeyle iyi çalışması gerekir. Öte yandan yer işareti eklemeyle ve özel görselle ilgili olarak sorunlarla karşılaşırsanız, bu özel görseli oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin. 
+* Çoğu Power BI görselinin yer işareti eklemeyle iyi çalışması gerekir. Öte yandan yer işareti eklemeyle ve özel görselle ilgili olarak sorunlarla karşılaşırsanız, bu özel görseli oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin. 
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Diğer bir deyişle, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyici varsayılan durumuna göre davranır.
 * Yer işareti oluşturulduktan sonra gerçekleştirdiğiniz görsel taşıma işlemleri otomatik olarak yer işaretine yansıtılır. 
 

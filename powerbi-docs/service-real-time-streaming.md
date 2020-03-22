@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115297"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381089"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -33,7 +33,7 @@ Gerçek zamanlı panolarda görüntülenecek şekilde tasarlanmış üç gerçek
 İlk olarak bu veri kümelerinin birbirlerinden nasıl ayrıldığını anlayacak, ardından da her birine nasıl veri göndereceğimize değineceğiz.
 
 ### <a name="push-dataset"></a>Gönderim veri kümesi
-Veriler, bir **gönderim veri kümesi** ile Power BI hizmetine gönderilir. Veri kümesi oluşturulduğunda Power BI hizmeti, verileri depolamak için hizmette otomatik olarak yeni bir veri kümesi oluşturur. Alınan verilerin devamlı olarak depolandığı bir temel alınan veritabanı bulunduğundan söz konusu verilerle raporlar oluşturulabilir. Söz konusu raporlar ve ilgili görseller de diğer rapor görselleri gibidir, bu; görsel oluşturmak için özel görsellerin, veri uyarılarının, sabitlenen pano kutucuklarının ve daha fazlasının dahil olduğu, Power BI'ın rapor oluşturma özelliklerinin tümünü kullanabileceğiniz anlamına gelir.
+Veriler, bir **gönderim veri kümesi** ile Power BI hizmetine gönderilir. Veri kümesi oluşturulduğunda Power BI hizmeti, verileri depolamak için hizmette otomatik olarak yeni bir veri kümesi oluşturur. Alınan verilerin devamlı olarak depolandığı bir temel alınan veritabanı bulunduğundan söz konusu verilerle raporlar oluşturulabilir. Söz konusu raporlar ve ilgili görseller de diğer rapor görselleri gibidir, bu; görsel oluşturmak için Power BI görsellerinin, veri uyarılarının, sabitlenen pano kutucuklarının ve daha fazlasının dahil olduğu, Power BI’ın rapor oluşturma özelliklerinin tümünü kullanabileceğiniz anlamına gelir.
 
 Gönderim veri kümesi kullanılarak rapor oluşturulduğunda, raporun içerdiği görsellerin tümü bir panoya sabitlenebilir. Bu panoda, veriler her güncelleştirildiğinde görseller de gerçek zamanlı olarak güncelleştirilir. Hizmette bulunan pano, her yeni veri alındığında kutucuk yenileme işlemi tetikler.
 
@@ -45,7 +45,7 @@ Gönderim veri kümesinden alınan sabitlenmiş kutucuklar hakkında göz önün
 ### <a name="streaming-dataset"></a>Akış veri kümesi
 **Akış veri kümesiyle**, yine veriler Power BI hizmetine gönderilir ama önemli bir fark vardır: Power BI verileri yalnızca geçici bir önbellekte depolar ve bunun süresi hızla dolar. Geçici önbellek, yalnızca kısa süreli bir zaman algısına sahip görsellerin (bir saatlik zaman penceresi bulunan çizgi grafiği gibi) görüntülenmesinde kullanılır.
 
-**Akış veri kümesi** kullanırken, temel alınan veritabanı *bulunmadığı* için, akıştan gelen verileri kullanarak rapor görselleri *oluşturamazsınız*. Bu nedenle, filtreleme, özel görseller ve diğer rapor işlevleri gibi rapor özelliklerinden yararlanamazsınız.
+**Akış veri kümesi** kullanırken, temel alınan veritabanı *bulunmadığı* için, akıştan gelen verileri kullanarak rapor görselleri *oluşturamazsınız*. Bu nedenle, filtreleme, Power BI görselleri ve diğer rapor işlevleri gibi rapor işlevlerinden yararlanamazsınız.
 
 Bir akış veri kümesini görselleştirmenin tek yolu kutucuk eklemek ve akış veri kümesini **özel akış verileri** veri kaynağı olarak kullanmaktır. **Akış veri kümelerini** temel alan özel akış kutucukları gerçek zamanlı verilerin hızlı bir şekilde görüntülenmesi için en iyi duruma getirilir. Verileri bir veritabanına girmek veya veritabanından okumak gerekmediğinden verilerin Power BI hizmetine gönderilmesi ve görselin güncelleştirilmesi arasında çok az bir gecikme olur.
 
@@ -54,7 +54,7 @@ Uygulamada, akış veri kümeleri ve onlara eşlik eden akış görselleri, veri
 ### <a name="pubnub-streaming-dataset"></a>PubNub akış veri kümesi
 **PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır ve Power BI hizmeti tarafından veri depolanmaz.
 
-**Akış veri kümelerinde** olduğu gibi, **PubNub akış veri kümesinde** de Power BI'da temel alınan bir veritabanı bulunmaz. Bu nedenle, akışı sağlanan verilere ilişkin rapor görselleri oluşturamaz, filtreleme ve özel görseller gibi rapor özelliklerinden yararlanamazsınız. Benzer şekilde, **PubNub akış veri kümesi**, yalnızca panoya bir kutucuk eklenip PubNub veri akışı kaynak olarak yapılandırılarak görselleştirilebilir.
+**Akış veri kümelerinde** olduğu gibi, **PubNub akış veri kümesinde** de Power BI’da temel alınan bir veritabanı bulunmaz. Bu nedenle, akışı sağlanan verilere ilişkin rapor görselleri oluşturamaz, filtreleme ve Power BI görselleri gibi rapor özelliklerinden yararlanamazsınız. Benzer şekilde, **PubNub akış veri kümesi**, yalnızca panoya bir kutucuk eklenip PubNub veri akışı kaynak olarak yapılandırılarak görselleştirilebilir.
 
 **PubNub akış veri kümesini** temel alan kutucuklar gerçek zamanlı verilerin hızlı bir şekilde gösterilmesi için en iyi duruma getirilmiştir. Power BI ile PubNub veri akışı arasında doğrudan bağlantı bulunduğundan verilerin Power BI hizmetine gönderilmesi ve görselin güncelleştirilmesi arasında çok az bir gecikme olur.
 
@@ -64,9 +64,7 @@ Aşağıdaki tabloda (veya matriste), gerçek zamanlı akış için kullanılabi
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu makaleyi](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) okuyun.
-> 
-> 
+> Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu makaleyi](developer/automation/api-rest-api-limitations.md) okuyun.
 
 ## <a name="pushing-data-to-datasets"></a>Veri kümelerine veri gönderme
 Önceki bölümde, gerçek zamanlı akış için kullanabileceğiniz gerçek zamanlı başlıca üç veri kümesi türü ve bunların nasıl değişiklik gösterdiği açıklanmıştır. Bu bölümde ise söz konusu veri kümelerine ilişkin veri oluşturma ve gönderme işlemlerinin nasıl gerçekleştirileceği anlatılmaktadır.
@@ -110,7 +108,7 @@ Yeni akış veri kümesini oluştururken, aşağıda gösterildiği gibi, yapıl
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Azure Stream Analytics'i kullanarak veri gönderme
 Power BI'ı **Azure Stream Analytics**'teki (ASA) bir çıkış olarak ekleyebilir ve ardından bu veri akışlarını Power BI hizmetinde gerçek zamanlı olarak kullanabilirsiniz. Bu bölümde, söz konusu işlemin nasıl gerçekleştirildiği ile ilgili teknik ayrıntılar açıklanmaktadır.
 
-Azure Stream Analytics, *defaultMode* seçeneği (*defaultMode* ile ilgili bilgi edinmek için bu makalenin önceki bölümlerine bakın) *pushStreaming* olarak ayarlandığında Power BI'a yönelik çıkış veri akışını oluşturmak için Power BI REST API'lerini kullanır. Böylece hem **gönderim** hem de **akış** avantajlarına sahip bir veri kümesi elde edilmiş olur. Veri kümesinin oluşturulması sırasında Azure Stream Analytics, **retentionPolicy* bayrağını da *basicFIFO* olarak ayarlar; bu ayarla birlikte, gönderim veri kümesini destekleyen veritabanı 200.000 satır depolayabilir. Bu sınır aşıldığında, satırlar ilk giren ilk çıkar (FIFO) düzeninde bırakılır.
+Azure Stream Analytics, *defaultMode* seçeneği (*defaultMode* ile ilgili bilgi edinmek için bu makalenin önceki bölümlerine bakın) *pushStreaming* olarak ayarlandığında Power BI'a yönelik çıkış veri akışını oluşturmak için Power BI REST API'lerini kullanır. Böylece hem **gönderim** hem de **akış** avantajlarına sahip bir veri kümesi elde edilmiş olur. Veri kümesinin oluşturulması sırasında Azure Stream Analytics, **retentionPolicy** bayrağını da *basicFIFO* olarak ayarlar; bu ayarla birlikte, gönderim veri kümesini destekleyen veritabanı 200.000 satır depolayabilir. Bu sınır aşıldığında, satırlar ilk giren ilk çıkar (FIFO) düzeninde bırakılır.
 
 > [!CAUTION]
 > Azure Stream Analytics sorgunuz sonucunda Power BI'a yönelik çok hızlı bir çıkış sağlanırsa (örneğin, saniyede bir veya iki kez) Azure Stream Analytics bu çıkışları tek bir istekte toplamaya başlar. Bu, istek boyutunun akış kutucuğu sınırını aşmasına neden olabilir. Bu durumda, önceki bölümlerde belirtildiği gibi, akış kutucukları işlenemez. Böyle durumlarda gerçekleştirilebilecek en iyi uygulama, Power BI'a yönelik veri çıkış hızını azaltmaktır. (Örneğin, her saniyede maksimum değer yerine 10 saniyenin üzerindeki bir maksimum değere ayarlayın.)
@@ -225,7 +223,7 @@ Veriler kalıcı olarak depolanmadığı için akış veri kümesi üzerinde mod
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümesindeki tüm değerleri nasıl temizleyebilirim? Peki ya akış veri kümelerindeki?
 Gönderim veri kümesinde Delete Rows REST API çağrısını kullanabilirsiniz. Şu anda, akış kümelerindeki verileri silmek mümkün değildir, ancak veriler, bir saatin ardından kendi kendine silinir.
 
-#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI'a yönelik olarak ayarladığım Azure Akış Analizi çıkışı Power BI'da görünmüyor. Bunun nedeni nedir?
+#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI’a yönelik olarak ayarladığım Azure Akış Analizi çıkışı Power BI’da görünmüyor. Bunun nedeni nedir?
 Sorunu gidermek için kullanabileceğiniz bir denetim listesi aşağıda verilmiştir:
 
 1. Azure Akış Analizi işini yeniden başlatma (GA akış sürümünden önce oluşturulan işler için yeniden başlatma gerekir)

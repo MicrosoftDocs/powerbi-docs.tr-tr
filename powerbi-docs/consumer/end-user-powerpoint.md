@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4194afb71dec7b50d75def0677489d3ff009917e
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113767"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377179"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
 
@@ -78,7 +78,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
 
 * R ve Python görselleri şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
-* Sertifikalanmış özel görseller desteklenir. Bir özel görseli nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı özel görseller hakkında daha fazla bilgi için bkz. [Özel görselleri sertifikalatma](../developer/power-bi-custom-visuals-certified.md). Sertifikalanmamış özel görseller desteklenmez. Bu tür görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
+* Sertifikalanmış Power BI görselleri desteklenir. Bir özel görseli nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı özel görseller hakkında daha fazla bilgi için bkz. [Özel görselleri sertifikalatma](../developer/power-bi-custom-visuals-certified.md). Sertifikalanmamış özel görseller desteklenmez. Bu tür görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
 * ESRI görseli desteklenmez
 * 30'dan fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
 * Kaydırma çubukları olan görseller varsayılan durumlarında dışarı aktarılır. Görsel PowerPoint'te verilerin yalnızca üst bölümünü gösterir. PowerPoint'te her slayt bir resim olduğundan kaydırma kullanılamaz. 

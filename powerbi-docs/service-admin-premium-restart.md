@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698475"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202034"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 
@@ -30,7 +30,9 @@ Power BI, Premium kapasite kullanıcılarını bu tür sorunlara karşı koruma 
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Yeniden başlatma işlemi güvenli mi? Verileri kaybedecek miyim?
 
-Kapasitenizdeki tüm kaydedilmiş veriler, tanımlar, raporlar ve panolar yeniden başlatma sonrasında olduğu gibi korunur. Kapasiteyi yeniden başlattığınızda, devam eden tüm zamanlanmış ve zamanlanmamış yenilemeler durdurulur. Kapasite kullanılabilir olduğunda hizmet yenileme işlemini tekrar denemeye çalışır. Kapasiteyle etkileşimli çalışan kullanıcılar kaydedilmemiş çalışmalarını kaybeder. Yeniden başlatma tamamlandıktan sonra tarayıcılarını yenilemeleri gerekir.
+Kapasitenizdeki tüm kaydedilmiş veriler, tanımlar, raporlar ve panolar yeniden başlatma sonrasında olduğu gibi korunur. Bir kapasiteyi yeniden başlattığınızda, çoğu durumda devam eden zamanlanmış ve geçici yenilemeler, yenileme altyapısı tarafından geçici olarak durdurulur. Daha sonra Power BI’da yerleşik olan yenileme yeniden deneme mantığı nedeniyle yeniden başlatılır. Kapasite kullanılabilir hale geldiğinde hizmet, etkilenen yenilemeleri yeniden deneme girişiminde bulunur. Yeniden başlatma işlemi sırasında, kullanıcı arabiriminde yenilemelerin durumu değişmeyebilir. 
+
+Yeniden başlatma işlemi sırasında, kapasiteyle etkileşimde bulunan kullanıcılar, kaydedilmemiş çalışmalarını kaybeder. Yeniden başlatma tamamlandıktan sonra kullanıcıların tarayıcılarını yenilemesi gerekir.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Kapasiteye nasıl yeniden başlatabilirim?
 
@@ -38,7 +40,7 @@ Kapasiteyi yeniden başlatmak için aşağıdaki adımları izleyin.
 
 1. Power BI yönetici portalının **Kapasite Ayarları** sekmesinde kapasitenize gidin. 
 
-1. Kapasite URL'nize **CapacityRestart** *özellik bayrağını* ekleyin: https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
+1. Kapasite URL’nize **CapacityRestart** *özellik bayrağını* ekleyin: https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true.
 
 1. **Gelişmiş Ayarlar** > **KAPASİTE YENİDEN BAŞLATMA**'nın altında **Kapasiteyi yeniden başlat**'ı seçin.
 

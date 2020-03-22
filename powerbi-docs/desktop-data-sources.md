@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427565"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207264"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -90,7 +90,8 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Snowflake
 * Essbase
 * AtScale küpleri
-* BI Bağlayıcısı Data Virtuality LDW (Beta)
+* BI Bağlayıcısı 
+* Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 
 **Azure** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
-* Azure SQL veritabanı
+* Azure SQL Veritabanı
 * Azure SQL Veri Ambarı
 * Azure Analysis Services veritabanı
+* PostgreSQL için Azure Veritabanı
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB
@@ -154,8 +156,8 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (şirket içi)
 * Microsoft Azure Consumption Insights (Beta)
-* Azure DevOps (Beta)
-* Azure DevOps Server (Beta)
+* Azure DevOps (yalnızca Panolar)
+* Azure DevOps Server (yalnızca Panolar)
 * Salesforce Nesneleri
 * Salesforce Raporları
 * Google Analytics
@@ -164,7 +166,6 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Data.World - Veri Kümesi Al (Beta)
 * GitHub (Beta)
 * LinkedIn Satış Gezgini (Beta)
-* MailChimp (Beta)
 * Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One - PRM (Beta)
@@ -178,6 +179,7 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
@@ -205,6 +207,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Microsoft Exchange
 * Hadoop Dosyası (HDFS)
 * Spark
+* Hive LLAP (Beta)
 * R betiği
 * Python betiği
 * ODBC
@@ -220,6 +223,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Siteimprove (Beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* TIBCO(R) Veri Sanallaştırması (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)

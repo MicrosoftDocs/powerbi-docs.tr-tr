@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819250"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380501"
 ---
 # <a name="add-drill-down-support"></a>Detaya gitme desteği ekleme
 
-Özel görsellerde Power BI’ın detaya gitme özelliği kullanılabilir.
+Power BI görsellerinde Power BI’ın detaya gitme özelliği kullanılabilir.
 
 [Burada](./../../consumer/end-user-drill.md) Power BI detaya gitme özelliği hakkında daha fazla bilgi edinebilirsiniz
 
@@ -207,36 +207,36 @@ Görseli test etmek için örnek verileri hazırlayın:
 
 |   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Power BI Desktop'ta Hiyerarşi oluşturun:
 
-![Yeni hiyerarşi oluşturma](./media/create-new-hierarchy.png)
+![Yeni hiyerarşi oluşturma](media/drill-down-support/create-new-hierarchy.png)
 
 Tüm kategori sütunlarını (H1, H2, H3) yeni hiyerarşiye ekleyin:
 
-![Yeni hiyerarşi oluşturma](./media/new-hierarchy.png)
+![Yeni hiyerarşi oluşturma](media/drill-down-support/new-hierarchy.png)
 
 Bu adımlardan sonra aşağıdaki görseli elde etmelisiniz:
 
-![Düğmeleri olan geliştirme görseli](./media/dev-visual-drilldown1.png)
+![Düğmeleri olan geliştirme görseli](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>Görsel öğelere bağlam menüsü ekleme
 
 Bu adımda görseldeki düğmeye bağlam menüsü ekleyeceksiniz:
 
-![Görseldeki bağlam menüsü](./media/dev-visual-drilldown-context-menu.png)
+![Görseldeki bağlam menüsü](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 Bağlam menüsünü oluşturmak için görselin özelliklerinde `host` nesnesini kaydedin ve `createSelectionManager` yöntemini çağırarak seçim yöneticisini oluşturun ve Power BI Görselleri API'sini kullanarak bir bağlam menüsü görüntüleyin.
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 Verileri görsele uygulayın:
 
-![Verileri içeren görsel](./media/dev-visual-drilldown-data.png)
+![Verileri içeren görsel](media/drill-down-support/dev-visual-drilldown-data.png)
 
 Son adımda seçimleri ve bağlam menüsü olan bir görsel elde etmelisiniz:
 
-![Detaya gitme desteği olan görsel](./media/dev-visual-drilldown-demo.gif)
+![Detaya gitme desteği olan görsel](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Matris veri görünümü eşlemesi için detaya gitme desteği ekleme
 
@@ -389,7 +389,7 @@ Görsel için aşağıdaki veri görünümü eşlemesini uygulayın:
 
 Verileri görsele uygulayın:
 
-![Verileri içeren görsel](./media/dev-matrix-visual-drilldown-data.png)
+![Verileri içeren görsel](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Matris veri görünümü eşlemelerini işlemek için gerekli arabirimleri içeri aktarın:
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 Son adımda bağlam menüsü olan bir görsel elde etmelisiniz:
 
-![Detaya gitme desteği olan görsel](./media/dev-matrix-visual-drilldown-demo.gif)
+![Detaya gitme desteği olan görsel](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

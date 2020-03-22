@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538162"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435778"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -21,6 +21,9 @@ Aşağıdakiler cihazlar için geçerlidir:
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android telefon](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android tablet](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 cihazları](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
+
+>[!NOTE]
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI raporu, verilerinizin etkileşimli bir görünümüdür ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. Power BI mobil uygulamalarında raporları görüntülemek, üç adımlı bir işlemin üçüncü adımıdır:
 
@@ -59,6 +62,14 @@ Power BI mobil uygulamasını indirdiğinizde, tek dokunma etkileşimine ayarlan
 İsterseniz iki kez dokunmalı etkileşime geçebilirsiniz. İki kez dokunmalı etkileşimle, önce görsele dokunarak onu seçer ve sonra yeniden dokunarak istenen eylemi gerçekleştirirsiniz.
 
 İki kez dokunmalı etkileşime geçmek veya tek dokunmalı etkileşime dönmek için [uygulama etkileşim ayarlarına](./mobile-app-interaction-settings.md) gidin.
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>Veri noktası seçimi için tek seçim ve çoklu seçim modu
+
+Bir raporda, bir veri noktasına dokunarak seçin. Tek seçim veya çoklu seçim modunu kullanmak isteyip istemediğinizi seçebilirsiniz. Tek seçim modunda, seçmek için bir veri noktasına dokunduğunuzda, bu seçim yaptığınız önceki seçimi değiştirir. Çoklu seçim modunda, seçmek için bir veri noktasına dokunduğunuzda seçiminiz, şu anda sahip olduğunuz herhangi bir seçime *eklenir* ve tüm seçimlerinizin birleştirilmiş sonucu raporun görsellerinde vurgulanır.
+
+Seçili bir veri noktasının seçimini kaldırmak için yeniden dokunun.
+
+Tek seçim ve çoklu seçim modu arasında geçiş yapmak için [uygulama etkileşimi ayarlarına](./mobile-app-interaction-settings.md) gidin.
 
 ### <a name="using-tap-and-long-tap"></a>Dokunmayı ve uzun dokunmayı kullanma
 Dokunma hareketi fare tıklamasıyla aynı işlevi görür. Dolayısıyla bir veri noktası temelinde raporu çapraz vurgulamak istiyorsanız söz konusu veri noktasına dokunun.

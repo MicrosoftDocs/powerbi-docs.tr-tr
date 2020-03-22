@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919782"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488833"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ Alt düzey kodlu özel bir deneyim oluşturmak için istediğiniz kadar çok dü
 
 * Klasik SharePoint Server desteklenmez çünkü Internet Explorer’ın 11’den önceki sürümlerini veya uyumluluk görünümü modunun etkinleştirilmesini gerektirir.
 
-* Çoklu oturum açma deneyiminden yararlanabilmek için, [SharePoint Online'da Ekle seçeneğini](service-embed-report-spo.md) kullanın veya [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) ekleme yöntemini kullanarak özel tümleştirme oluşturun. 
+* Çoklu oturum açma deneyiminden yararlanabilmek için, [SharePoint Online'da Ekle seçeneğini](service-embed-report-spo.md) kullanın veya [verilerin kullanıcıya ait olması](developer/embedded/embed-sample-for-your-organization.md) ekleme yöntemini kullanarak özel tümleştirme oluşturun. 
 
-* **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) ekleme yöntemini kullanın. 
+* **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embedded/embed-sample-for-your-organization.md) ekleme yöntemini kullanın. 
 
 * Kimlik doğrulaması belirtecinin ömrü AAD ayarlarınıza göre denetlenir. Kimlik doğrulama belirtecinin süresi dolduğunda, güncelleştirilmiş bir kimlik doğrulaması belirteci almak için kullanıcının tarayıcıyı yenilemesi gerekir. Varsayılan yaşam süresi bir saat olsa da bu süre kuruluşunuzda daha kısa veya daha uzun olabilir.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 8703bfa60116b7e60f1e6bec931b0f6183f7dd31
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75218736"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435732"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Hızlı başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme
 Bu hızlı başlangıçta Power BI Mobil uygulamasında hızlı bir tura katılacak, örnek pano ve raporu inceleyeceksiniz. iOS için Power BI uygulaması gösterilir ama diğer cihazlarda da kolayca takip edebilirsiniz.
@@ -23,6 +23,9 @@ Aşağıdakiler cihazlar için geçerlidir:
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Windows 10 cihazları](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
+
+>[!NOTE]
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir portaldır. Genel bakış sunar ve işletmenin geçerli durumunun takip edilebileceği bir merkezdir. Raporlar, verilerinizin etkileşimli görünümleridir ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. 
 

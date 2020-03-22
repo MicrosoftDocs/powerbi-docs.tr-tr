@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099078"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381480"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
@@ -27,7 +27,7 @@ Doğrudan Power BI'daki Görselleştirmeler bölmesinden kullanabileceğiniz ço
 
 ![her görselleştirme türüne ait simgeleri içeren bölme](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [özel görselleri](../developer/visuals/custom-visual-develop-tutorial.md) [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [Power BI görsellerini](../developer/visuals/custom-visual-develop-tutorial.md) [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +40,7 @@ Rapor sayfalarınızda [görselleştirmeler oluşturun](power-bi-report-add-visu
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Özel görselleştirme yükleme ve bunu Power BI'da kullanma
 
-Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir özel görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](../developer/visuals/custom-visual-develop-tutorial.md) kullanın ve [bunu toplulukla paylaşın](../developer/office-store.md). Özel görsel geliştirme hakkında daha fazla bilgi edinmek için, [Power BI özel görseli geliştirme](../developer/visuals/custom-visual-develop-tutorial.md) bağlantısını ziyaret edin.
+Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir özel görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](../developer/visuals/custom-visual-develop-tutorial.md) kullanın ve [bunu toplulukla paylaşın](../developer/visuals/office-store.md). Özel görsel geliştirme hakkında daha fazla bilgi edinmek için, [Power BI özel görseli geliştirme](../developer/visuals/custom-visual-develop-tutorial.md) bağlantısını ziyaret edin.
 
 ## <a name="personalize-your-visualization-pane-preview"></a>Görselleştirme bölmenizi kişiselleştirme (önizleme)
 
@@ -52,7 +52,7 @@ Bir görsel sabitlendikten sonra diğer yerleşik görsellerle birlikte canlı h
 
 ![Kişiselleştirilmiş görselleştirme bölmesi](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-Bu özellik önizleme aşamasında olduğu sürece sabitlenmiş görsellerinizi yalnızca Power BI Desktop'ta göreceksiniz. Ayrıca, bu özelliğin kullanılabilmesi için oturum açmanız gerekir.
+Bu özellik önizleme aşamasında olduğu sürece, sabitlenmiş görsellerinizi yalnızca Power BI Desktop’ta göreceksiniz. Ayrıca, bu özelliğin kullanılabilmesi için oturum açmanız gerekir.
 
 ## <a name="change-the-visualization-type"></a>Görselleştirme türünü değiştirme
 
@@ -70,4 +70,4 @@ Power BI hizmetinde görselleştirmeyi istediğiniz hale getirdikten sonra kutuc
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Özel görseller](../developer/power-bi-custom-visuals.md)
+* [Power BI görselleri](../developer/visuals/power-bi-custom-visuals.md)

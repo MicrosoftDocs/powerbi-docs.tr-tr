@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537221"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205286"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI’da veri koruma (önizleme)
 
@@ -105,9 +105,6 @@ Aşağıdaki listede, Power BI’daki duyarlılık etiketlerinin bazı sınırla
 * [HYOK koruması](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions), Power BI’da uygulanan etiketler için desteklenmez.
 * Office uygulamalarında etiketleri görüntülemek ve uygulamak için [lisanslama gereksinimleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels) mevcuttur.
 * Duyarlılık etiketleri yalnızca genel (ortak) buluttaki kiracılar için desteklenir. Duyarlılık etiketleri diğer bulutlardaki kiracılar için desteklenmez.
-* Duyarlılık etiketleri [dış kullanıcılar (Azure Active Directory B2B konuk kullanıcıları)](../service-admin-azure-ad-b2b.md) için desteklenmez. Diğer bir deyişle dış kullanıcılar etiketleri görüntüleyemediği gibi, verileri Excel, PDF ve PPTX dosyalarına dışarı aktarmaları da engellenir. Dış kullanıcıların söz konusu dosya türlerine veri dışarı aktarmasına olanak tanımak için [etiketi kaldırın](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels).
-
-
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040080"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377248"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -188,7 +188,7 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 ## <a name="n"></a>N
 
-**native (yerel)** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ama başka türleri, örneğin özel görselleri de içeri aktarabilirsiniz.
+**native (yerel)** Ürüne dahil edilmiş olan. Örneğin, Power BI bir dizi *yerel* görselleştirme türüyle birlikte gelir. Ancak Power BI görselleri gibi başka türleri de içeri aktarabilirsiniz.
 
 **gezinti bölmesi** veya **gezinti bölmesi** Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 

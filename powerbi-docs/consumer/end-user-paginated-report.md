@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113110"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377363"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar
 
@@ -36,7 +36,7 @@ Bu basit sayfalandırılmış rapor, siz **Year** parametresini seçtikten sonra
 
 ![Basit tek parametreli rapor](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-Sayfalandırılmış raporlarla karşılaştırıldığında Power BI raporları çok daha etkileşimlidir. Power BI raporları geçici raporlamaya izin verir ve özel görseller de içinde olmak üzere çok daha fazla görsel türünü destekler.
+Sayfalandırılmış raporlarla karşılaştırıldığında Power BI raporları çok daha etkileşimlidir. Power BI raporları geçici raporlamaya izin verir ve Power BI görselleri de içinde olmak üzere çok daha fazla görsel türünü destekler.
 
 ## <a name="identify-a-paginated-report"></a>Sayfalandırılmış raporu tanımlama
 

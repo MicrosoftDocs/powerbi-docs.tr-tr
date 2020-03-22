@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922494"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379364"
 ---
 # <a name="color-utils"></a>Renk yardımcı programları
 Bu makale renk yardımcı programlarını yükleme, içeri aktarma ve kullanma işlemlerinde size yardımcı olur. Bu makalede Power BI görsellerinde görselin veri noktalarına temaları ve paletleri basit bir şekilde uygulamak için renk yardımcı programlarının nasıl kullanabileceği açıklanır.
@@ -40,7 +40,7 @@ Etkileşim yardımcı programlarını kullanmak için görselin kaynak kodunda g
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-Özel görsellerinizde ColorUtils’i yüklemeyi ve kullanmayı öğrenin:
+Power BI görsellerinizde ColorUtils’i yüklemeyi ve kullanmayı öğrenin:
 
 * [Kullanım Kılavuzu] Kullanım Kılavuzunda paketin genel API’si açıklanır. Paketin her genel arabirimi için bir açıklama ve birkaç örnek bulabilirsiniz.
 

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 27ebe50030fbd06f65be5530ee2a2c0a7897f0f5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426576"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488741"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
@@ -54,7 +54,7 @@ Yeni, yükseltilmiş çalışma alanları ve mevcut klasik çalışma alanları 
 
 ## <a name="roles-in-the-new-workspaces"></a>Yeni çalışma alanlarındaki roller
 
-Yeni çalışma alanına erişim vermek için, kullanıcı gruplarını veya kişileri çalışma alanı rollerinden birine atayın: görüntüleyiciler, üyeler, katkıda bulunanlar veya yöneticiler. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birkaç kullanıcı grubunda yer alıyorsa, atandıkları rol tarafından sağlanan en yüksek izin düzeyine sahip olur.
+Yeni çalışma alanına erişim vermek için, kullanıcı gruplarını veya kişileri çalışma alanı rollerinden birine atayın: yöneticiler, üyeler, katkıda bulunanlar veya görüntüleyiciler. Kullanıcı grubundaki herkes tanımladığınız rolü alır. Bir kişi birkaç kullanıcı grubunda yer alıyorsa, atandıkları rol tarafından sağlanan en yüksek izin düzeyine sahip olur.
 
 Roller çalışma alanında kimlerin neler yapabileceğini yönetmenizi sağlar ve bu sayede ekipler işbirliği yapabilir. Yeni çalışma alanları kişilere ve kullanıcı gruplarına (güvenlik grupları, Office 365 grupları ve dağıtım listeleri) roller atamanıza olanak tanır. 
 
@@ -70,11 +70,14 @@ Dört rolün yetenekleri şunlardır: yöneticiler, üyeler, katkıda bulunanlar
 | Uygulama yayımlayabilir ve güncelleştirebilir. |  X | X  |   |   |
 | Öğe veya uygulama paylaşabilir.<sup>1</sup> |  X | X  |   |   |
 | Diğer kişilerin öğeleri yeniden paylaşmasına izin verebilir.<sup>1</sup> |  X | X  |   |   |
+| İş arkadaşlarının Giriş Sayfasında uygulamaları öne çıkarabilir |  X | X  |   |   |
+| İş arkadaşlarının Giriş Sayfasında panoları ve raporları öne çıkarabilir |  X | X  | X |   |
 | Çalışma alanında içerik oluşturabilir, düzenleyebilir ve silebilir.  |  X | X  | X  |   |
 | Çalışma alanında rapor yayımlayabilir, içeriği silebilir.  |  X | X  | X  |   |
 | Başka bir çalışma alanında, bu çalışma alanındaki bir veri kümesini temel alan rapor oluşturun.<sup>1</sup> |  X | X  | X  |   |
 | Bir raporu kopyalayın.<sup>2</sup> | X | X | X |  |
 | Öğeleri açın ve öğelerle etkileşim kurun.<sup>3</sup> |  X | X  | X  | X  |
+| Çalışma alanı veri akışlarında depolanan verileri okuma | X | X | X | X |
 
 1. Katkıda Bulunanlar ve Görüntüleyiciler, bir çalışma alanındaki öğeleri ancak yeniden paylaşma izinleri varsa paylaşabilir.
 2. Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için ek ölçütlere uymanız gerekir:

@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114164"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377202"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *özel görsellerdir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
+Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *Power BI görselleridir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
 
 Bu makale Power BI hizmetiyle paketlenen görsellere genel bir bakış sağlar.  Bunlar en sık karşılaşacağınız görsellerdir. Bu görsellerden herhangi biriyle ilgili daha ayrıntılı bilgi için [Görsel türleriyle ilgili Power BI rapor *tasarımcısı* belgelerine](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) bakın
 
 > [!NOTE]
-> Özel görseller hakkında daha fazla bilgi edinmek için bunları [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’un **Power BI görselleri** bölümünde arayın. Her görsel için bir açıklama, oluşturucu bilgileri ve ekran görüntüsü veya video bulabilirsiniz. 
+> Power BI görselleri hakkında daha fazla bilgi edinmek için bunları [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’un **Power BI görselleri** bölümünde arayın. Her görsel için bir açıklama, oluşturucu bilgileri ve ekran görüntüsü veya video bulabilirsiniz. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI’da sağlanan görsellerin listesi
 Bu görsellerin tümü Power BI panolarıyla raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](end-user-q-and-a.md). Görsellerle etkileşimli çalışmayı öğrenmek için bkz. [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)
@@ -237,7 +237,7 @@ Artış ve azalışları hızlıca görebilmeniz için sütunlar renk kodludur. 
 - şirketinizin bir yılın başındaki ve sonundaki çalışan sayısını göstermek için
 - her ay kazandığınız ve harcadığınız para tutarını ve hesabınızın değişen bakiyesini görselleştirmek için.
 
-## <a name="qna"></a>Soru-Cevap’a hangi görselin kullanılacağını bildirme
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>Soru-Cevap’a hangi görselin kullanılacağını bildirme
 Power BI Soru-Cevap’ta doğal dilde sorgular yazarken, sorgunuzda görsel türünü belirtebilirsiniz.  Örnek:
 
 

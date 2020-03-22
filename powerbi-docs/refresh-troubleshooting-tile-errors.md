@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699556"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381158"
 ---
 # <a name="troubleshooting-tile-errors"></a>Kutucuk hatalarıyla ilgili sorunları giderme
 Aşağıda kutucuklarla ilgili karşılaşabileceğiniz genel hatalar ve açıklamaları verilmiştir.
@@ -35,9 +35,10 @@ Veri kaynağı erişilebilir durumda olmadığından verilerinize erişemedik. B
 
 Veri kaynaklarıyla veri modelinin mevcut ve hesabınız için erişilebilir olduğundan emin olmak için pano sahibiyle iletişime geçin.
 
-**Özel görseller yöneticiniz tarafından devre dışı bırakıldı.**
+**Power BI görselleri yöneticiniz tarafından devre dışı bırakıldı.**
 
-Power BI yöneticiniz, kuruluşunuz veya güvenlik grubunuz için özel görsel kullanımını devre dışı bıraktı. [Microsoft marketten](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) özel görselleri kullanamazsınız veya dosyadan özel görselleri aktaramazsınız. Yalnızca önceden paketlenmiş görseller kümesini kullanabilirsiniz.
+Power BI yöneticiniz, kuruluşunuz veya güvenlik grubunuz için Power BI görsellerinin kullanımını devre dışı bıraktı.
+[Microsoft marketten](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) Power BI görsellerini kullanamazsınız veya dosyadan özel görselleri aktaramazsınız. Yalnızca önceden paketlenmiş görseller kümesini kullanabilirsiniz.
 
 
 **Veri şekilleri, veri çıkışı sağlayan en az bir grup veya hesaplama içermelidir. Lütfen pano sahibiyle iletişime geçin.**

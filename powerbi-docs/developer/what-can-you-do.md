@@ -1,6 +1,6 @@
 ---
 title: Geliştiriciler Power BI ile neler yapabilir?
-description: Power BI, geliştiriciler için çok çeşitli seçenekler sunar. Ekleme, özel görseller ve akış veri kümeleri bu seçenekler arasında yer almaktadır.
+description: Power BI, geliştiriciler için çok çeşitli seçenekler sunar. Bu seçenekler, ekleme işleminden Power BI görsellerine ve akış veri kümelerine kadar uzanır.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: overview
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: c92eea927368d885a297fd83d39f528f7dae848e
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041367"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487798"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Geliştiriciler Power BI ile neler yapabilir?
 
-Geliştiriciler, Power BI içeriğini uygulamalara eklemek için farklı seçenekler deneyebilir. Geliştirici olarak **Power BI ile ekleme**, **özel görseller** ve **Power BI’ya veri gönderme** seçeneklerini kullanabilirsiniz.
+Geliştiriciler, Power BI içeriğini uygulamalara eklemek için farklı seçenekler deneyebilir. Geliştirici olarak **Power BI ile ekleme**, **Power BI görselleri** ve **Power BI’ya veri gönderme** seçeneklerini kullanabilirsiniz.
 
 ## <a name="embedding-power-bi-content"></a>Power BI içeriğini ekleme
 
@@ -27,19 +27,19 @@ Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum ara
 
 Size uygun olan çözümü seçin:
 
-* [Embedding for your customers](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. [Embed for your customers](https://aka.ms/embedsetup/AppOwnsData) çözümünü çalıştırın.
+* [Embedding for your customers](embedded/embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. [Embed for your customers](https://aka.ms/embedsetup/AppOwnsData) çözümünü çalıştırın.
 
-* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü çalıştırın.
+* [Embedding for your organization](embedded/embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü çalıştırın.
 
 ![PBIE örneği](media/what-can-you-do/what-can-you-do-02.png)
 
-Power BI ile ekleme hakkında daha fazla bilgi için bkz. [Power BI ile Ekleme](embedding.md).
+Power BI ile ekleme hakkında daha fazla bilgi için bkz. [Power BI ile Ekleme](embedded/embedding.md).
 
-## <a name="developing-custom-visuals"></a>Özel görseller geliştirme
+## <a name="developing-power-bi-visuals"></a>Power BI görselleri geliştirme
 
-Power BI ile özel görselleri kullanarak size veya şirketinize göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Bu özel görseller genellikle geliştiriciler tarafından oluşturulur. Power BI’de yer alan çok sayıda görsel ihtiyaçlarınızı karşılamadığında oluşturulurlar.
+Power BI ile Power BI görsellerini kullanarak size veya şirketinize göre uyarlanmış benzersiz türde bir görsel oluşturabilirsiniz. Bu Power BI görselleri genellikle geliştiriciler tarafından oluşturulur. Power BI’de yer alan çok sayıda görsel ihtiyaçlarınızı karşılamadığında oluşturulurlar.
 
-Özel görseller, Power BI raporlarında kullanmak üzere görsellerinizi oluşturmanızı sağlar. Özel görseller bir JavaScript üst kümesi olan TypeScript dilinde yazılır. TypeScript, bazı gelişmiş özellikleri ve ES6/ES7 işlevine erken erişimi destekler. Görsel stili, basamaklı biçim tabloları (CSS) kullanılarak işlenir. Size kolaylık sağlamak adına, iç içe geçme, değişkenler, koşullar ve döngüler ve diğer özellikler gibi bazı gelişmiş özellikleri destekleyen LESS ön derleyicisini kullanıyoruz. Bu özelliklerden hiçbirini kullanmak istemiyorsanız less dosyasında yalın CSS yazmayı da tercih edebilirsiniz.
+Power BI görselleri, Power BI raporlarında kullanmak üzere görsellerinizi oluşturmanızı sağlar. Power BI görselleri bir JavaScript üst kümesi olan TypeScript dilinde yazılır. TypeScript, bazı gelişmiş özellikleri ve ES6/ES7 işlevine erken erişimi destekler. Görsel stili, basamaklı biçim tabloları (CSS) kullanılarak işlenir. Size kolaylık sağlamak adına, iç içe geçme, değişkenler, koşullar ve döngüler ve diğer özellikler gibi bazı gelişmiş özellikleri destekleyen LESS ön derleyicisini kullanıyoruz. Bu özelliklerden hiçbirini kullanmak istemiyorsanız less dosyasında yalın CSS yazmayı da tercih edebilirsiniz.
 
 ![CV örneği](media/what-can-you-do/powerbi-custom-visual-store.png)
 
@@ -57,7 +57,7 @@ Power BI API ile yapabileceğiniz bazı şeyler için bkz. [Geliştiriciler Powe
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI ile ekleme](embedding.md)  
+[Power BI ile ekleme](embedded/embedding.md)  
 
 [Power BI özel görseli geliştirme](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 

@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264255"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377936"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI görsellerinde hata ayıklama
 
 Bu sayfada görselinizi oluştururken hatalarını ayıklamaya yönelik bazı ipuçları gösterilir. Temel adımlar verilir ve standart ön uç uygulamalarıyla Power BI görselinin hata ayıklaması arasındaki farklar gösterilir.
-Makaleyi okuduktan sonra kesme noktalarını, özel durumları günlüğe kaydetmeyi ve Chrome ile Edge’de özel durumları yakalama işlemini kullanarak özel görsellerde hata ayıklama işlemi yapabileceksiniz.
+Makaleyi okuduktan sonra kesme noktalarını, özel durumları günlüğe kaydetmeyi ve Chrome ile Edge’de özel durumları yakalama işlemini kullanarak Power BI görsellerinde hata ayıklama işlemi yapabileceksiniz.
 
 ## <a name="using-breakpoints"></a>Kesme noktalarını kullanma
 
@@ -80,7 +80,7 @@ Ayrıca tarayıcıyı özel durumlarda kesecek şekilde ayarlayabilirsiniz. Bu a
 3. **Özel durumlarda kes** simgesine (duraklatma simgesi olan altıgen) tıklayın.
 4. **Tüm özel durumlarda kes**’i seçin.
 
-![Veri rolü alanları](./media/how-to-debug-edge.png)
+![Veri rolü alanları](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ Ayrıca tarayıcıyı özel durumlarda kesecek şekilde ayarlayabilirsiniz. Bu a
 3. **Özel durumlarda kes** simgesine (duraklatma simgesi olan dur işareti) tıklayın.
 4. **Yakalanan Özel Durumlarda Duraklat** onay kutusunu seçin.
 
-![Veri rolü alanları](./media/how-to-debug-chrome.png)
+![Veri rolü alanları](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI görselleriyle ilgili sorunları giderme](../power-bi-custom-visuals-troubleshoot.md)
-* Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI görselleri hakkında sık sorulan sorular](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin
+* [Power BI görselleriyle ilgili sorunları giderme](power-bi-custom-visuals-troubleshoot.md)
+* Daha fazla bilgi edinmek ve sorularınıza yanıt bulmak için [Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin

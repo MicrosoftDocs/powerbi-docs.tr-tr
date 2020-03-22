@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041597"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435985"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
-* [Power BI hizmetindeki yenilikler](../../service-whats-new.md)  
+* [Power BI hizmetindeki yenilikler](../../service-whats-new.md)
+
+>[!NOTE]
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>Şubat 2020
 
@@ -396,7 +399,7 @@ Bir kişi sizinle rapor paylaştığında, bu rapor **Benimle paylaşılan** say
 
 #### <a name="improved-hyperlink-support"></a>Geliştirilmiş köprü desteği
 
-Artık özel görsellerdeki bağlantılara dokunarak bunları mobil tarayıcınızda açabilirsiniz.
+Artık Power BI görsellerindeki bağlantılara dokunarak bunları mobil tarayıcınızda açabilirsiniz.
 
 #### <a name="intune-integration-android"></a>Intune tümleştirmesi (Android)
 
@@ -470,7 +473,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 #### <a name="all-devices"></a>Tüm cihazlar
 **Telefon raporları için arka plan rengi** Power BI Desktop'ta bir rapor için arka plan rengi tanımladığınızda telefon raporunda da aynı arka plan rengi görüntülenir. [Rapor sayfalarını telefonlar için en iyi duruma getirme](../../desktop-create-phone-report.md) hakkında daha fazla bilgi edinin.
 
-**Mobil cihaz dostu özel görseller geliştirin** Mobil cihazlarda düzgün görünen ve çalışan özel görseller oluşturmaya ilişkin ipuçları için bu [Geliştirici kılavuzuna](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) göz atın.
+**Mobil cihaz dostu Power BI görselleri geliştirin** Mobil cihazlarda düzgün görünen ve çalışan Power BI görselleri oluşturmaya ilişkin ipuçları için bu [Geliştirici kılavuzuna](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) göz atın.
 
 #### <a name="ios-devices"></a>iOS cihazları
 **Verilerinizle konuşma: Konuşarak soru sorma** Artık [Soru-Cevap özelliğini kullanarak verileriniz hakkında sorular sormak için](mobile-apps-ios-qna.md) yazmak yerine konuşabilirsiniz. 

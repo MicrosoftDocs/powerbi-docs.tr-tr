@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881332"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376765"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
 
@@ -23,10 +23,12 @@ Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlar
 * *Çalışma alanlarında* anlamlı raporlar ve panolar oluşturmak üzere iş arkadaşlarınızla işbirliği yapma.
 * Bu panoları ve raporları *uygulamalarda* gruplandırma ve bunları daha büyük bir grupta ya da kuruluş genelinde dağıtma.
 * İş arkadaşlarınızın kendi çalışma alanlarında kendi raporları için temel olarak kullanabilecekleri *paylaşılan veri kümeleri* oluşturma.
-* Microsoft AppSource üzerinden dış Power BI kullanıcılarına dağıtabileceğiniz bir *şablon uygulaması* oluşturma.
 * Panoları veya raporları hizmetten ya da Power BI mobil uygulamalarından birkaç kişiyle paylaşma.
+* Power BI mobil uygulamalarından not ekleme ve paylaşma.
+* Microsoft Teams’e rapor ekleme.
 * Raporları yazdırma.
 * Raporları güvenli portallara veya genel Web sitelerine *ekleme*.
+* Microsoft AppSource üzerinden dış Power BI kullanıcılarına dağıtabileceğiniz bir *şablon uygulaması* oluşturma.
 
 Hangisini seçerseniz seçin içeriğinizi paylaşmak için [Power BI Pro lisansınız](service-features-license-type.md) olmalı veya içerik [Premium kapasitede](service-premium-what-is.md) yer almalıdır. Lisans gereksinimleri, seçiminize bağlı olarak içeriğinizi görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
 
@@ -97,6 +99,10 @@ Kutucuk, rapor veya görselin bir anlık görüntüsünü paylaşırsınız ve a
 iOS ve Android mobil uygulamalarında [kutucuk, rapor ve görsellere not ekleme ve bunları paylaşma](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) hakkında daha fazla bilgi edinin.
 
 Ayrıca, Windows 10 için Power BI uygulamasında [bir kutucuk anlık görüntüsü paylaşabilirsiniz](consumer/mobile/mobile-windows-10-phone-app-get-started.md).
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams’e rapor ekleme
+
+Microsoft Teams’e Power BI raporlarınızı ve Power BI sayfalandırılmış raporlarınızı ekleyerek kuruluşunuzda veri odaklı işbirliğini artırın. Her bir rapor için ayrı Power BI sekmeleri ekleyebilir ve her bir sekmeye raporun adını veya başka bir ad verebilirsiniz. İş arkadaşlarınız, Teams’te Power BI sekmelerinde raporlarınızı görüntüleyebilir. Ayrıca Teams’te Konuşma penceresini açıp raporla ilgili yorum da yapabilir. [Microsoft Teams’e rapor ekleme](service-embed-report-microsoft-teams.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF veya başka türde bir statik dosya olarak yazdırma ya da kaydetme
 

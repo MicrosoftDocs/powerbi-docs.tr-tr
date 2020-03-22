@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610007"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378881"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI için iyileştirme kılavuzu
 
@@ -69,7 +69,7 @@ Yukarıdaki ilke, aynı şekilde rapor sayfasına eklenen görsel öğe sayısı
 
 #### <a name="evaluate-custom-visual-performance"></a>Özel görsel öğe performansını değerlendirme
 
-Her bir özel görsel öğeyi gerekli testlere tabi tutarak öğe performansının yüksek olduğundan emin olun. Hatalı bir şekilde iyileştirilmiş özel görsel öğeler, raporun tamamının performansını olumsuz yönde etkileyebilir.
+Her bir özel görsel öğeyi gerekli testlere tabi tutarak öğe performansının yüksek olduğundan emin olun. Hatalı bir şekilde iyileştirilmiş Power BI görselleri, raporun tamamının performansını olumsuz yönde etkileyebilir.
 
 ### <a name="power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlar
 

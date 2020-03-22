@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782445"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381319"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -317,7 +317,7 @@ Power BI raporlarında bu özellikler için destek:
 
 **Erişilebilirlik özellikleri** Listelenemeyecek kadar çok erişilebilirlik özelliği var: örneğin, [alan listesi bölmesi erişilebilirlik desteği](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Alan listesi bölmesi tümüyle erişilebilirdir. Yalnızca klavyenizi ve ekran okuyucuyu kullanarak bölmede gezinebilir ve bağlam menüsünü kullanarak rapor sayfanıza alanlar ekleyebilirsiniz.
 
-#### <a name="custom-visuals"></a>Özel Görseller
+#### <a name="power-bi-visuals"></a>Power BI görselleri
 
 - Bu yayınla birlikte 2.3 API sürümü kullanılmıştır.
 
@@ -381,11 +381,11 @@ Power BI Raporlarında artık Kerberos ile SAP HANA SSO Doğrudan Sorgu desteği
 >[!Note]
 >Bu senaryo yalnızca SAP HANA, Power BI'da oluşturduğunuz raporlarla ilişkisel veri kaynağı olarak kullanıldığında desteklenir.  Bu özelliği Power BI Desktop uygulamasında etkinleştirmek için DirectQuery menüsünün Seçenekler bölümünden “SAP HANA’ya bir ilişkisel kaynak olarak davranma” seçeneğini işaretleyin ve Tamam'a tıklayın.
 
-#### <a name="custom-visuals"></a>Özel Görseller
+#### <a name="power-bi-visuals"></a>Power BI görselleri
 
 - Bu yayınla birlikte 1.13.0 API sürümü kullanılmıştır.
 
-- Artık özel görseller sunucu API'sinin geçerli sürümüyle uyumlu eski bir sürüme geri dönebilir (varsa).
+- Artık Power BI görselleri sunucu API’sinin geçerli sürümüyle uyumlu eski bir sürüme geri dönebilir (varsa).
 
 ### <a name="reporting"></a>Raporlama 
 
@@ -613,7 +613,7 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 
 * Power BI Rapor Sunucusu Önizleme kullanıma sunuldu
 * Power BI raporlarını şirket içi ortamda yayımlama olanağı
-  * Özel görseller için destek
+  * Power BI görselleri desteği
   * Daha fazla veri kaynağı için **Analysis Services canlı bağlantı** desteği yakında kullanıma sunulacaktır.
   * Power BI Mobil uygulaması Power BI Rapor Sunucusu'nda barındırılan Power BI raporlarını görüntüleyecek şekilde güncelleştirildi
 * Yorumlar eklenerek raporlardaki işbirliği özellikleri geliştirildi

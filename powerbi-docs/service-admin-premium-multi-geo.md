@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698866"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488580"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
@@ -33,7 +33,7 @@ Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal ve
 
 Multi-Geo Power BI Almanya, 21Vianet tarafından sağlanan Power BI Çin veya ABD hükümeti için Power BI'da sağlanmaz.
 
-Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği](developer/embedded-multi-geo.md).
+Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği](developer/embedded/embedded-multi-geo.md).
 
 ## <a name="enable-and-configure"></a>Etkinleştirme ve yapılandırma
 
@@ -70,7 +70,7 @@ Bu öğeler kiracı için ana bölgede kalır:
 
 ## <a name="view-capacity-regions"></a>Kapasite bölgelerini görüntüleme
 
-Yönetici Portalı'nda, Power BI kiracınızın tüm kapasitelerini ve bunların şu anda bulundukları bölgeleri görüntüleyebilirsiniz.
+Yönetici Portalı’nda, Power BI kiracınızın tüm kapasitelerini ve bunların şu anda bulundukları bölgeleri görüntüleyebilirsiniz.
 
 ![Premium kapasiteleri görüntüleme](media/service-admin-premium-multi-geo/power-bi-multi-geo-premium-capacities.png) 
 
@@ -99,6 +99,6 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium nedir?](service-premium-what-is.md)
-- [Power BI Embedded kapasiteleri için Multi-Geo](developer/embedded-multi-geo.md)
+- [Power BI Embedded kapasiteleri için Multi-Geo](developer/embedded/embedded-multi-geo.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

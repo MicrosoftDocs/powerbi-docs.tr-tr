@@ -1,36 +1,38 @@
 ---
-title: Power BI Desktop'ta detaylandırma özelliğini kullanma
-description: Power BI Desktop'ta yeni bir rapor sayfasında verilerin detayına gitmek için detaylandırmanın nasıl kullanılacağını öğrenin
+title: Power BI raporlarında detaylandırmayı ayarlama
+description: Power BI raporlarında yeni bir rapor sayfasında verilerin detayına gitmek için detaylandırmanın nasıl kullanılacağını öğrenin
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401254"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201481"
 ---
-# <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop'ta detaylandırma özelliğini kullanma
-Power BI Desktop'ta *detaylandırma* özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Detaylandırmayı kullanmak için, diğer rapor sayfalarındaki bir veri noktasına sağ tıklayıp bunu seçer ve ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için odaklanmış sayfayı detaylandırırsınız.
+# <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI raporlarında detaylandırmayı ayarlama
+Power BI raporlarında *detaylandırma* özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Rapor okuyucularınız detaylandırmayı kullandığında, diğer rapor sayfalarındaki bir veri noktasına sağ tıklar ve ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için odaklanmış sayfayı detaylandırır. Tıklandığında [detaylandırma yapan bir düğme de oluşturabilirsiniz](desktop-drill-through-buttons.md).
 
-![Detaylandırmayı kullanma](media/desktop-drillthrough/drillthrough_01.png)
+Power BI Desktop’ta veya Power BI hizmetindeki raporlarınızda detaylandırmayı ayarlayabilirsiniz.
 
-## <a name="using-drillthrough"></a>Detaylandırmayı kullanma
-1. Detaylandırma özelliğini kullanmak isterseniz detaylandırma yapacağınız varlık türü için görmek istediğiniz görsellere sahip olan bir rapor sayfası oluşturun. 
+![Detaylandırmayı kullanma](media/desktop-drillthrough/power-bi-drill-through-right-click.png)
 
-    Örneğin üreticiler için detaylandırma yapmak istediğinizi düşünelim. Bu örnekte toplam satış, gönderilen toplam ürün sayısı, kategoriye göre satış rakamları, bölgeye göre satış rakamları gibi görsellere sahip bir detaylandırma sayfası oluşturabilirsiniz. Bu sayede ilgili sayfada detaylandırma gerçekleştirdiğinizde görseller seçtiğiniz üreticiye özgü hale gelir.
+## <a name="set-up-the-drill-through-destination-page"></a>Detaylandırma hedefi sayfasını ayarlama
+1. Detaylandırmayı ayarlamak isterseniz detaylandırma yapacağınız varlık türü için görmek istediğiniz görsellere sahip olan bir rapor sayfası oluşturun. 
 
-2. Ardından söz konusu detaylandırma sayfasındaki **Görsel Öğeler** bölmesinin **Alanlar** bölümünde, detaylandırmayı etkinleştirmek istediğiniz alanı **Detaylandırma filtreleri** kutusuna sürüklemeniz gerekir.
+    Örneğin, üreticiler için detaylandırma yapmak istediğinizi düşünelim. Bu örnekte toplam satış, gönderilen toplam ürün sayısı, kategoriye göre satış rakamları, bölgeye göre satış rakamları gibi görsellere sahip bir detaylandırma sayfası oluşturabilirsiniz. Bu sayede ilgili sayfada detaylandırma gerçekleştirdiğinizde görseller seçtiğiniz üreticiye özgü hale gelir.
+
+2. Ardından söz konusu detaylandırma sayfasındaki **Görsel Öğeler** bölmesinin **Alanlar** bölümünde, detaylandırmayı etkinleştirmek istediğiniz alanı **Detaylandırma filtreleri** kutusuna sürükleyin.
 
     ![Detaylandırma kutusu](media/desktop-drillthrough/drillthrough_02.png)
 
-    **Detaylandırma filtreleri** kutusuna bir alan eklediğinizde Power BI Desktop otomatik olarak bir *geri* düğmesi görseli oluşturur. Bu görsel yayımlanmış raporlarda düğme haline gelir. Power BI hizmetinde raporunuzu inceleyen kullanıcılar daha önce bulundukları rapor sayfasına geri dönmek için bu düğmeyi kullanır.
+    **Detaylandırma filtreleri** kutusuna bir alan eklediğinizde Power BI otomatik olarak bir *geri* düğmesi görseli oluşturur. Bu görsel yayımlanmış raporlarda düğme haline gelir. Power BI hizmetinde raporunuzu inceleyen kullanıcılar daha önce bulundukları rapor sayfasına geri dönmek için bu düğmeyi kullanır.
 
     ![Detaylandırma görüntüsü](media/desktop-drillthrough/drillthrough_03.png)
 
@@ -57,26 +59,25 @@ Geri düğmesi için kendi görüntünüzü kullanmak istiyorsanız şu adımlar
 
     Rapor kullanıcıları detaylandırmayı seçtiğinde, sayfa, tıkladıkları veri noktası hakkındaki bilgileri gösterecek şekilde filtrelenir. Örneğin kullanıcının bir üretici olan Contoso'yla ilgili bir veri noktasına sağ tıklayıp detaylandırma seçeneğini belirlediğini düşünelim. Açılan detaylandırma sayfası da Contoso için filtrelenmiş olur.
 
-## <a name="pass-all-filters-in-drillthrough"></a>Detaylandırmadaki tüm filtreleri geçirme
+## <a name="pass-all-filters-in-drill-through"></a>Detaylandırmadaki tüm filtreleri geçirme
 
 Uygulanan tüm filtreleri detaylandırma penceresine geçirebilirsiniz. Örneğin, söz konusu kategoriye filtrelenen görsellerin ve ürünlerin yalnızca belirli bir kategorisini seçebilir ve sonra detaylandırmayı seçebilirsiniz. Tüm bu filtreler uygulandığında detaylandırmanın nasıl göründüğünü merak edebilirsiniz.
 
-Tüm uygulanan filtreleri tutmak için **Görselleştirmeler** bölmesinin **Detaylandırma** bölümünde **Tüm filtreleri tut** seçeneğini **Açık** olarak ayarlayın. 
+Tüm uygulanan filtreleri tutmak için **Görsel Öğeler** bölmesinin **Detaylandırma** bölümünde **Tüm filtreleri tut** seçeneğini **Açık** olarak ayarlayın. 
 
 ![Tüm filtreleri tut](media/desktop-drillthrough/drillthrough_06.png)
 
-
-Daha sonra bir görsel üzerinde detaylandırma yaptığınızda, kaynak görselde geçici filtrelerin uygulanması sonucunda hangi filtrelerin uygulandığını görebilirsiniz. **Görselleştirme** bölmesinin **Detaylandırma** bölümünde penceresinde bu geçici filtreler italik olarak gösterilir. 
+Daha sonra bir görsel üzerinde detaylandırma yaptığınızda, kaynak görselde geçici filtrelerin uygulanması sonucunda hangi filtrelerin uygulandığını görebilirsiniz. **Görselleştirme** bölmesinin **Detaylandırma** bölümünde bu geçici filtreler italik olarak gösterilir. 
 
 ![İtalik geçici filtreler](media/desktop-drillthrough/drillthrough_07.png)
 
 Araç ipuçları sayfalarında bunu kullanabilirsiniz ama araç ipucu düzgün çalışıyor gibi görünmeyeceğinden bu sorunlu bir deneyim olacaktır. Bu nedenle araç ipuçlarıyla bu işlemin gerçekleştirilmesi önerilmez.
 
-## <a name="add-a-measure-to-drillthrough"></a>Detaylandırmak için bir ölçü ekleyin
+## <a name="add-a-measure-to-drill-through"></a>Detaylandırma için bir ölçü ekleme
 
 Tüm filtreleri detaylandırma penceresine geçirmeye ek olarak detaylandırma alanına bir ölçü de (veya özetlenen sayısal sütun) ekleyebilirsiniz. Detaylandırma alanını **Detaylandırma** kartına sürükleyerek uygulayabilirsiniz. 
 
-![Detaylandırmak için bir ölçü ekleyin](media/desktop-drillthrough/drillthrough_08.png)
+![Detaylandırma için bir ölçü ekleme](media/desktop-drillthrough/drillthrough_08.png)
 
 Bir ölçü veya özetlenen sayısal sütun eklediğinizde, alan bir görselin *Değer* alanında kullanılıyorsa sayfayı detaylandırabilirsiniz.
 
@@ -86,6 +87,6 @@ Raporlarınızda detaylandırma özelliğini kullanmak için yapmanız gerekenle
 
 Aşağıdaki makaleler de ilginizi çekebilir:
 
-* [Power BI Desktop'ta çapraz rapor detaylandırma özelliğini kullanma](desktop-cross-report-drill-through.md)
+* [Power BI raporlarında çapraz rapor detaylandırma özelliğini kullanma](desktop-cross-report-drill-through.md)
 * [Power BI Desktop’ta dilimleyicileri kullanma](visuals/power-bi-visualization-slicers.md)
 

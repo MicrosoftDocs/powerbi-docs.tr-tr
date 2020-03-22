@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50daa90f937a9d1c7081d9b22e3c743da950945c
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548555"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488534"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -35,9 +35,9 @@ Aşağıdaki görüntüde **Sayfa yenileme** kartı gösterilmektedir. Numaralan
 
 ![Sayfa yenileme kartı](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
 
-1.  Otomatik Sayfa Yenileme kaydırıcısı - sayfa yenilemeyi açar veya kapatır
-2.  Sayfa yenileme aralığı değeri - yenileme aralığı için sayı değeri
-3.  Sayfa yenileme aralığı birimi - sayfa yenileme için aralık birimi
+1.    Otomatik Sayfa Yenileme kaydırıcısı - sayfa yenilemeyi açar veya kapatır
+2.    Sayfa yenileme aralığı değeri - yenileme aralığı için sayı değeri
+3.    Sayfa yenileme aralığı birimi - sayfa yenileme için aralık birimi
 
 Burada sayfa yenilemeyi açabilir ve yenileme süresini seçebilirsiniz. Varsayılan değer 30 dakikadır (minimum yenileme aralığı bir saniyedir). Raporunuz, belirlediğiniz aralıkta yenilemeye başlar. 
 
@@ -62,10 +62,10 @@ Aşağıdaki görüntüde, Performans Analizi’ndeki DirectQuery sonuçları g�
 
 Bu veri kaynağıyla ilgili bazı diğer özellikleri ele alalım. 
 
-1.  Veriler iki saniyelik hızla ulaşır. 
-2.  Performans analizi, yaklaşık 4,9 saniyelik (4688 milisaniyelik) maksimum sorgu + görüntüleme süresini gösterir. 
-3.  Veri kaynağı, saniyede yaklaşık 1000 eşzamanlı sorguyu işleyecek şekilde yapılandırılmıştır. 
-4.  Yaklaşık 10 kullanıcının raporu eşzamanlı olarak görüntülemesini beklersiniz.
+1.    Veriler iki saniyelik hızla ulaşır. 
+2.    Performans analizi, yaklaşık 4,9 saniyelik (4688 milisaniyelik) maksimum sorgu + görüntüleme süresini gösterir. 
+3.    Veri kaynağı, saniyede yaklaşık 1000 eşzamanlı sorguyu işleyecek şekilde yapılandırılmıştır. 
+4.    Yaklaşık 10 kullanıcının raporu eşzamanlı olarak görüntülemesini beklersiniz.
 
 Böylece aşağıdakiler oluşur:
 
@@ -83,13 +83,13 @@ Daha sonra, kapasite yöneticisi olarak performans sorunlarını nasıl algılay
 
 Ayrıca, Power BI Desktop’ta yazılmış ve Power BI hizmetinde yayımlanmış olan raporlar için de otomatik sayfa yenilemeyi ayarlayabilirsiniz. 
 
-Power BI hizmetindeki raporlar için otomatik sayfa yenileme, Power BI Desktop’taki yapılandırmaya benzer adımlarla yapılandırılır. Power BI hizmetinde yapılandırıldığında, otomatik sayfa yenileme [eklenmiş Power BI](developer/embedding.md) içeriğini de destekler. Aşağıdaki görüntüde, Power BI hizmeti için **Page yenileme**  yapılandırması gösterilmektedir:
+Power BI hizmetindeki raporlar için otomatik sayfa yenileme, Power BI Desktop’taki yapılandırmaya benzer adımlarla yapılandırılır. Power BI hizmetinde yapılandırıldığında, otomatik sayfa yenileme [eklenmiş Power BI](developer/embedded/embedding.md) içeriğini de destekler. Aşağıdaki görüntüde, Power BI hizmeti için **Page yenileme**  yapılandırması gösterilmektedir:
 
 ![Power BI hizmetinde otomatik sayfa yenileme](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 
-1.  Otomatik Sayfa Yenileme kaydırıcısı - sayfa yenilemeyi açar veya kapatır
-2.  Sayfa yenileme aralığı değeri - yenileme aralığı için sayı değeri bir tamsayı olmalıdır
-3.  Sayfa yenileme aralığı birimi - sayfa yenileme için aralık birimi
+1.    Otomatik Sayfa Yenileme kaydırıcısı - sayfa yenilemeyi açar veya kapatır
+2.    Sayfa yenileme aralığı değeri - yenileme aralığı için sayı değeri bir tamsayı olmalıdır
+3.    Sayfa yenileme aralığı birimi - sayfa yenileme için aralık birimi
 
 ### <a name="page-refresh-intervals"></a>Sayfa yenileme aralıkları
 

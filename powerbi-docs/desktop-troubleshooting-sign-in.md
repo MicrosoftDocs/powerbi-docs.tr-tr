@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401180"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133206"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop'ta oturum açma sorunlarını giderme
 Bazı durumlarda **Power BI Desktop**’ta oturum açmaya çalıştığınızda hatalarla karşılaşabilirsiniz. Oturum açma sorununun başlıca iki nedeni vardır: **Ara Sunucu Kimlik Doğrulaması hataları** ve **HTTPS olmayan URL yeniden yönlendirme hataları**. 
@@ -75,4 +75,37 @@ Kamu bulutuna dahil müşteriler için, aşağıdaki etki alanları ara sunucu k
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 Bu klasörde birçok izleme dosyası olabilir. Hatanın tanımlanmasını kolaylaştırmak için yöneticinize yalnızca son kullanılan dosyaları gönderdiğinizden emin olun. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>Web proxy için varsayılan sistem kimlik bilgilerini kullanma
+
+Power BI Desktop tarafından yapılan web istekleri, web proxy kimlik bilgilerini kullanmaz. Proxy sunucusunu kullanan ağlarda Power BI Desktop başarıyla web istekleri yapamayabilir. 
+
+2020 Mart tarihli Power BI Desktop sürümünden itibaren sistem veya ağ yöneticileri, web proxy kimlik doğrulaması için varsayılan sistem kimlik bilgilerinin kullanılmasına izin verebilir. Yöneticiler, web proxy kimlik doğrulaması için varsayılan sistem kimlik bilgilerinin kullanılmasına olanak sağlamak amacıyla **UseDefaultCredentialsForProxy** adlı bir kayıt defteri girişi oluşturabilir ve değeri bir (1) olarak ayarlayabilir.
+
+Kayıt defteri girişi aşağıdaki konumlardan birine yerleştirilebilir:
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+Her iki konumda da kayıt defteri girişi olması gerekmez.
+
+![Varsayılan sistem kimlik bilgilerini kullanmak için kayıt defteri anahtarı](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+Kayıt defteri girişi oluşturulduktan sonra (yeniden başlatma gerekebilir), Power BI Desktop web istekleri yaptığında Internet Explorer’da tanımlanan proxy ayarları kullanılır. 
+
+Proxy veya kimlik bilgisi ayarlarında yapılan değişikliklerde olduğu gibi, bu kayıt defteri girişinin oluşturulması üzerinde de güvenlik etkileri vardır, bu nedenle yöneticilerin bu özelliği etkinleştirmeden önce Internet Explorer proxy’lerini doğru şekilde yapılandırdığından emin olması gerekir.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>Varsayılan sistem kimlik bilgilerini kullanmaya yönelik sınırlamalar ve dikkat edilecek hususlar
+
+Yöneticilerin bu özelliği etkinleştirmeden önce göz önünde bulundurması gereken bir dizi güvenlik etkisi vardır. 
+
+İstemciler için bu özellik her etkinleştirildiğinde aşağıdaki önerilere uyulması gerekir:
+
+* Yalnızca Active Directory ağına katılan proxy sunucuların istemci tarafından kullanıldığından emin olmak için, proxy sunucuda kimlik doğrulaması şeması olarak yalnızca **Anlaşma** seçeneğini kullanın. 
+* Bu özelliği kullanan istemcilerde **NTLM geri dönüşü**’nü kullanmayın.
+* Bu özellik etkinleştirildiğinde ve bu bölümde önerildiği şekilde yapılandırıldığında kullanıcılar proxy içeren bir ağ üzerinde değilse, proxy sunucuyla iletişim kurmaya çalışıp varsayılan sistem kimlik bilgilerini kullanma süreci kullanılmaz.
+
+
+[Web proxy için varsayılan sistem kimlik bilgilerini kullanma](#using-default-system-credentials-for-web-proxy)
 

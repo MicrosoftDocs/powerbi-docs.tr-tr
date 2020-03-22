@@ -1,24 +1,24 @@
 ---
 title: Power BI görselinde SVG yardımcı programlarını kullanmaya giriş
-description: Bu makalede Power BI özel görselleri için SVG işlemelerini basitleştirmek amacıyla SVG yardımcı programlarının nasıl kullanıldığı açıklanır
+description: Bu makalede Power BI özel görselleri için SVG işlemelerini kolaylaştırmak amacıyla SVG yardımcı programlarının nasıl kullanıldığı açıklanmaktadır
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 612c253e53cdaec5819387548354595c8bd94fa0
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819319"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377984"
 ---
 # <a name="svg-utils"></a>SVG yardımcı programları
 
-SVGUtils, Power BI özel görselleri için SVG işlemelerini basitleştirmeye yönelik bir dizi işlev ve sınıftır
+SVGUtils, Power BI görselleri için SVG işlemelerini kolaylaştırmaya yönelik bir dizi işlev ve sınıftır
 
 ## <a name="installation"></a>Yükleme
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496613"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205654"
 ---
 # <a name="what-are-bookmarks"></a>Yer işaretleri nedir?
 
@@ -157,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 **Yer işaretleri**’nin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
-* Çoğu özel görsellerin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve özel görselle ilgili bir sorunla karşılaşırsanız, bu özel görseli oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin. 
+* Çoğu Power BI görselinin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve Power BI görseliyle ilgili bir sorunla karşılaşırsanız, bu Power BI görselini oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin.
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.
 * Genellikle, rapor *tasarımcısı* raporu güncelleştirdiğinde veya yeniden yayımladığında yer işaretleriniz etkilenmez. Ancak, tasarımcı bir yer işareti tarafından kullanılan alanları kaldırma gibi önemli değişikleri rapora uygularsa, ilgili yer işaretini bir sonraki açışınızda hata iletisi alırsınız. 
 

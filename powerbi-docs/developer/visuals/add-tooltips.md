@@ -6,20 +6,20 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880353"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380673"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI görsellerinde araç ipuçları
 
-Görseller artık Power BI araç ipucu desteğini kullanabilir. Power BI araç ipuçları aşağıdaki etkileşimleri işler:
+Görseller artık Power BI araç ipucu desteğini kullanabilir. Power BI araç ipuçları aşağıdaki etkileşimleri işler:'''
 
-* Araç ipucunu gösterme.
+* Araç ipucunu gösterme.'''
 * Araç ipucunu gizleme.
 * Araç ipucunu taşıma.
 
@@ -27,7 +27,7 @@ Araç ipuçları, bir başlıkla, verili renkte bir değerle ve belirtilen koord
 
 Aşağıdaki resimde örnek çubuk grafikte bir araç ipucu gösterilir:
 
-![Örnek çubuk grafik araç ipuçları](./media/tooltips-in-samplebarchart.png)
+![Örnek çubuk grafik araç ipuçları](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 Önceki araç ipucu resminde tek bir çubuk kategorisi ve değeri gösterilir. Tek bir araç ipucunu birden çok değer görüntüleyecek şekilde genişletebilirsiniz.
 
@@ -209,7 +209,7 @@ Rapor sayfası araç ipuçları desteği eklemek için en çok değişikliği *c
 
 Rapor sayfası araç ipuçlarını **Biçim** bölmesinde tanımlayabilirsiniz.
 
-![Rapor sayfası araç ipucu](media/report-page-tooltip.png)
+![Rapor sayfası araç ipucu](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes` Görsel tarafından desteklenen ve alanlarda da yansıtılan araç ipucu yapılandırması. 
    * `default` Veri alanı aracılığıyla "otomatik" araç ipuçları bağlamasının desteklenip desteklenmediğini belirtir. 

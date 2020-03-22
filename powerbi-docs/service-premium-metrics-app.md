@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488695"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 
@@ -252,7 +252,7 @@ Senaryo bir’de veri kümesini yüklemek için yeterli bellek yoktur. Yetersiz 
 
 Veri kümelerini yükleme önceliği şöyledir:
 
-1. Etkileşimli sorgu
+1. Etkileşimli Sorgu
 2. İsteğe bağlı yenileme
 3. Zamanlanmış yenileme
 
@@ -262,7 +262,7 @@ Etkileşimli sorguda veri kümesini yüklemek için yeterli bellek yoksa, zamanl
 
 Senaryo bir’de tanılama için önce azaltmanın yetersiz bellekten kaynaklanıp kaynaklanmadığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1.  **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1.    **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ Ayrılmış kapasiteler için Power BI eşzamanlı olarak gerçekleşebilecek ye
 
 Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme sayısı üst sınırına ulaşılmasından mı kaynaklandığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1.  **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1.    **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -341,6 +341,6 @@ Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme s
 * [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 * [Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md)
-* [Power BI Embedded SSS](developer/embedded-faq.md)
+* [Power BI Embedded SSS](developer/embedded/embedded-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

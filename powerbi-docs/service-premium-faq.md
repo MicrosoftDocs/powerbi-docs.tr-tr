@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ff2f22620cf062dcc342323e71dc7401b5991cd7
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6b2876ca78e07cf7c3c2b778ef9c571745baa1e5
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74697049"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488672"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -73,7 +73,7 @@ Power BI Premium, Microsoft 365 yönetim merkezinden satın alınabilir. Daha fa
 **Power BI Premium, Office 365 E5 ile birlikte kullanılabilir mi?**  
 Power BI Premium, Power BI Pro eklentisi olarak mevcuttur. Office 365 E5'te Power BI Pro mevcuttur. E5 müşterileri Premium'u var olan Pro lisanslarına eklenti olarak satın alabilir.
 
-**Power BI Rapor Sunucusu nedir? Power BI'ın şirket içi ortamda kullanılabilir hale getirildiği anlamına mı geliyor?**
+**Power BI Rapor Sunucusu nedir? Power BI’ın şirket içi ortamda kullanılabilir hale getirildiği anlamına mı gelir?**
 
 Power BI Rapor Sunucusu, kuruluşun güvenlik duvarının içinde etkileşimli Power BI raporlarının ve sayfalandırılmış raporların dağıtılmasını ve paylaşılmasını sağlayan bir şirket içi sunucudur. Power BI Rapor Sunucusu'na Power BI Premium üzerinden veya Yazılım Güvencesi destekli SQL Server Enterprise Edition müşterileri için bir ayrıcalık olarak ulaşılabilir. Lisanslama hakkında bilgi için bkz. [Power BI Rapor Sunucusu'nu lisanslama](report-server/get-started.md#licensing-power-bi-report-server). Ayrıntıları için Microsoft temsilcinizle de iletişime geçin.
 
@@ -88,6 +88,6 @@ Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](
 [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 [Uzatılmış Pro Deneme Sürümünü etkinleştirme](service-extended-pro-trial.md)
-[Power BI Embedded Hakkında SSS](developer/embedded-faq.md)
+[Power BI Embedded Hakkında SSS](developer/embedded/embedded-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

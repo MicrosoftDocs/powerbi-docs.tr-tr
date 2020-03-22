@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260428"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133264"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
 Bu makale Power BI Desktop veri modelleyicilerine yöneliktir. Yıldız şeması tasarımı ve bunun performans ve kullanılabilirlik için iyileştirilmiş Power BI veri modellerinin geliştirilmesine neden uygun olduğu açıklanır.
 
-Bu makalede yıldız şeması tasarımıyla ilgili eksiksiz bir açıklama sağlamak amaçlanmamıştır. Diğer ayrıntılar için doğrudan Ralph Kimball'un **Data Warehouse Toolkit: Complete Guide to Dimensional Modeling** (2. Baskı, 2002) kitabı yayımlanmış içeriğe başvurun.
+Bu makalede yıldız şeması tasarımıyla ilgili eksiksiz bir açıklama sağlamak amaçlanmamıştır. Diğer ayrıntılar için doğrudan Ralph Kimball'un **Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling** (3. Baskı, 2013) kitabı yayımlanmış içeriğe başvurun.
 
 ## <a name="star-schema-overview"></a>Yıldız şemasına genel bakış
 

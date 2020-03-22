@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237995"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488787"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -124,9 +124,9 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Yenilenen verilerin ekleme kodlarından görünür hale gelmesi yaklaşık bir saat sürebilir. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
 
-## <a name="custom-visuals"></a>Özel görseller
+## <a name="power-bi-visuals"></a>Power BI görselleri
 
-Özel görseller **Web'de yayımla** işlevinde desteklenmektedir. **Web'de yayımla** özelliğini kullandığınızda yayımladığınız görseli paylaştığınız kullanıcıların raporu görüntülemek için özel görselleri etkinleştirmesine gerek yoktur.
+Power BI görselleri, **Web’de yayımla** işlevinde desteklenmektedir. **Web’de yayımla** özelliğini kullandığınızda yayımladığınız görseli paylaştığınız kullanıcıların raporu görüntülemek için Power BI görsellerini etkinleştirmesine gerek yoktur.
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -144,7 +144,7 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 - Çoklu oturum açma veri sorgulama modelleri.
 - Gizli veya özel bilgilerin güvenliğini sağlama.
 - [Paylaşılan ve sertifikalı veri kümeleri](service-datasets-share.md).
-- **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embed-sample-for-your-organization.md) yaklaşımını kullanın.
+- **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embedded/embed-sample-for-your-organization.md) yaklaşımını kullanın.
 
 ## <a name="tenant-setting"></a>Kiracı ayarı
 
@@ -181,7 +181,7 @@ Power BI yöneticileri **Web'de yayımla** özelliğini etkinleştirebilir veya 
 
 ## <a name="how-to-report-a-concern-with-publish-to-web-content"></a>Web'de yayımla içeriğiyle ilgili sorunları bildirme
 
-Bir web sitesine eklenmiş olan **Web'de yayımla** içeriğiyle ilgili bir sorunu bildirmek için aşağıdaki resimde gösterilen şekilde alt çubuktaki **Bayrak** simgesini kullanın. Microsoft'a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft, içeriği Power BI Hizmeti Kullanım Koşulları çerçevesinde değerlendirerek gerekli eylemi gerçekleştirecektir.
+Bir web sitesine eklenmiş olan **Web'de yayımla** içeriğiyle ilgili bir sorunu bildirmek için aşağıdaki resimde gösterilen şekilde alt çubuktaki **Bayrak** simgesini kullanın. Microsoft’a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft, içeriği Power BI Hizmeti Kullanım Koşulları çerçevesinde değerlendirerek gerekli eylemi gerçekleştirecektir.
 
 Sorun bildirmek için gördüğünüz **Web'de yayımla** raporunun alt çubuğundaki **bayrak** simgesini seçin.
 
@@ -196,7 +196,7 @@ Sorun bildirmek için gördüğünüz **Web'de yayımla** raporunun alt çubuğu
 
 **Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
 
-Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web'de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
+Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
 
 ## <a name="how-to-find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
 

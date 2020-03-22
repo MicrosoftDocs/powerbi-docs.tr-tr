@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114297"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376834"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 
@@ -67,7 +67,7 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |  |  |
 |**Üst N**     |     (düzen, sıralama): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [özel görsellerdir](../developer/power-bi-custom-visuals.md).  |
+|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [Power BI görselleridir](../developer/visuals/power-bi-custom-visuals.md).  |
 |  |  Örnek: show districts by month and sales total as bar chart (bölgeleri aya ve satış toplamına göre çubuk grafik olarak göster)               |
 |        |         |
 |**Wh (ilişki, belirtili)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

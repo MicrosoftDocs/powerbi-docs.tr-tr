@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 138173d30b9c37c04047c61dbd04cbd3101696aa
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76753203"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525649"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
@@ -28,7 +28,7 @@ Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafı
 Bu makalede Microsoft 365 yönetim merkezinde Power BI Pro kullanıcı lisanslarının nasıl satın alınacağı açıklanır. Lisansları satın aldıktan sonra, Microsoft 365 yönetim merkezinde veya Azure portalında bunları kullanıcılara atayabilirsiniz.
 
 > [!NOTE]
-> 14 Ocak 2020’den başlayarak, Birleşik Devletler’deki ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi edinmek ve kuruluşunuzda self servis satın alma özelliğini etkinleştirmeyi veya devre dışı bırakmayı öğrenmek için bkz. [Self servis satın alma ile ilgili SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> 14 Ocak 2020’den itibaren ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi edinmek ve kuruluşunuzda self servis satın alma özelliğini etkinleştirmeyi veya devre dışı bırakmayı öğrenmek için bkz. [Self servis satın alma ile ilgili SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
 
 ### <a name="prerequisites"></a>Önkoşullar
 

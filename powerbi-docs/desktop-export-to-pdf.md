@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 28116a4e2b89fe5f8fe719f8d6c0d9eca28310eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6e468ac429c26f3b1880501914816ac60f8b7858
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867689"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378743"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Power BI Desktop'taki raporları PDF olarak dışarı aktarma
 **Power BI Desktop** veya Power BI hizmetindeki raporlarınızı PDF dosyası biçiminde dışarı aktarabilir, bu PDF raporları kolayca paylaşabilir veya yazdırabilirsiniz.
@@ -34,7 +34,7 @@ Dışarı aktarma işlemi tamamlandığında PDF dosyası bilgisayarınızdaki v
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 **PDF'ye dışarı aktar** özelliği ile ilgili olarak göz önünde bulundurmanız gereken bazı önemli noktalar vardır:
 
-* Bu seçenek özel görselleri dışarı aktarır ancak rapora uygulamış olduğunuz duvar kağıtlarını *dışarı aktarmaz*.
+* Bu seçenek Power BI görsellerini dışarı aktarır ancak rapora uygulamış olabileceğiniz duvar kağıtlarını *dışarı aktarmaz*.
 
 Duvar kağıdı PDF'ye aktarılmadığından koyu renkli duvar kağıdı kullanılan raporlara özellikle dikkat etmeniz gerekir. Raporunuzda koyu renkli duvar kağıdının önünde görünmesi için açık veya beyaz renkli metin kullanıldıysa, duvar kağıdı raporun kalanıyla dışarı aktarılmayacağından PDF'ye dışarı aktarma işleminin ardından bu metnin okunması zor veya imkansız olabilir. 
 

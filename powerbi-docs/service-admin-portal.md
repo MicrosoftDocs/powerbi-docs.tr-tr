@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427887"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488718"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -277,6 +277,14 @@ Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](s
 
 ![E-posta aboneliklerini etkinleştirme](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>Öne çıkan içerik
+
+Kuruluşunuzdaki rapor yazarlarının bazılarının veya tümünün içeriklerini Power BI Giriş Sayfasının Öne Çıkanlar bölümünde öne çıkarmasına izin verin. Yeni kullanıcılar, Power BI Giriş sayfasının üst kısmında öne çıkan içerikleri görür. Öne çıkan içerik, kullanıcılar **Sık kullanılanlar**, **sık ziyaret edilenler** ve **Son Kullanılanlar** ekledikçe Giriş sayfasının aşağısına taşınır. 
+
+Önce küçük bir dizi destekleyenle başlanmasını öneririz. Tüm kuruluşun Giriş Sayfasında içeriği öne çıkarmasına izin verilmesi, tüm tanıtılan içeriğin takip edilmesini zorlaştırabilir. 
+
+Öne çıkan içeriği etkinleştirdikten sonra, Yönetici portalından da yönetebilirsiniz. Etki alanınızda öne çıkan içeriği denetleme hakkında bilgi edinmek için bu makalede [Öne çıkan içeriği yönetme](#manage-featured-content) bölümüne bakın.
+
 ## <a name="content-pack-and-app-settings"></a>İçerik paketi ve uygulama ayarları
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Kuruluşun tamamına içerik paketi ve uygulama yayımlanması devre dışı bırakıldı
@@ -312,17 +320,16 @@ Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI
 
 Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerinden yararlanabilir.
 
-## <a name="custom-visuals-settings"></a>Özel görsel ayarları
+## <a name="power-bi-visuals-settings"></a>Power BI görselleri ayarları
 
-### <a name="add-and-use-custom-visuals"></a>Özel görseller ekle ve kullan
+### <a name="add-and-use-power-bi-visuals"></a>Power BI görselleri ekleme ve kullanma
 
-Kuruluştaki kullanıcılar özel görsel öğelerle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](developer/power-bi-custom-visuals.md)
+Kuruluştaki kullanıcılar, Power BI görselleriyle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Bu ayar kuruluş geneline uygulanabilir veya belirli gruplarla sınırlandırılabilir.
 
-
-Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarlarda özel görsellerin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
+Power BI Desktop (19 Mart’tan itibaren), kuruluşta dağıtılan bilgisayarlarda Power BI görsellerinin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
 
 <table>
 <tr><th>Öznitelik</th><th>Değer</th>
@@ -335,16 +342,16 @@ Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarla
 </tr>
 </table>
 
-1 (ondalık) değeri Power BI'da özel görsel kullanımını etkinleştirir (Bu varsayılan değerdir).
+1 (ondalık) değeri Power BI’da Power BI görselleri kullanımını etkinleştirir (Bu varsayılan değerdir).
 
-0 (ondalık) değeri Power BI'da özel görsel kullanımını devre dışı bırakır.
+0 (ondalık) değeri, Power BI’da Power BI görsellerinin kullanımını devre dışı bırakır.
 
 ### <a name="allow-only-certified-visuals"></a>Yalnızca sertifikalı görsellere izin ver
 
-Kuruluş içindeki, “Özel görseller ekle ve kullan” ayarıyla özel görseller ekleme ve kullanma izni verilmiş kullanıcılar yalnızca [sertifikalı özel görselleri](https://go.microsoft.com/fwlink/?linkid=2002010) kullanabilir (sertifikalı olmayan görseller engellenir ve kullanıldıklarında bir hata iletisi görüntülenir). 
+Kuruluş içindeki, “Power BI görselleri ekle ve kullan” ayarıyla Power BI görselleri ekleme ve kullanma izni verilmiş kullanıcılar yalnızca [sertifikalı Power BI görsellerini](https://go.microsoft.com/fwlink/?linkid=2002010) kullanabilir (sertifikalı olmayan görseller engellenir ve kullanıldıklarında bir hata iletisi görüntülenir). 
 
 
-Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarlarda sertifikasız özel görsellerin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
+Power BI Desktop (19 Mart’tan itibaren), kuruluşta dağıtılan bilgisayarlarda sertifikasız Power BI görsellerinin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
 
 <table>
 <tr><th>Öznitelik</th><th>Değer</th>
@@ -357,9 +364,9 @@ Power BI Desktop (19 Mart'tan başlayarak), kuruluşta dağıtılan bilgisayarla
 </tr>
 </table>
 
-1 (ondalık) değeri Power BI'da sertifikasız özel görsel kullanımını etkinleştirir (Bu varsayılan değerdir).
+1 (ondalık) değeri Power BI’da sertifikasız Power BI görseli kullanımını etkinleştirir (Bu varsayılan değerdir).
 
-0 (ondalık) değeri Power BI'da sertifikasız özel görsel kullanımını devre dışı bırakır (Bu seçenek yalnızca [sertifikalı özel görsellerin](https://go.microsoft.com/fwlink/?linkid=2002010) kullanımını etkinleştirir).
+0 (ondalık) değeri Power BI’da sertifikasız Power BI görseli kullanımını devre dışı bırakır (Bu seçenek yalnızca [sertifikalı Power BI görsellerinin](https://go.microsoft.com/fwlink/?linkid=2002010) kullanımını etkinleştirir).
 
 ## <a name="r-visuals-settings"></a>R görseli ayarları
 
@@ -404,11 +411,11 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="embed-content-in-apps"></a>Uygulamalara içerik ekleme
 
-Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power BI panoları ve raporları ekleyebilir. Bu ayarın devre dışı bırakılması; kullanıcıların, uygulamalarına Power BI içeriği eklemek için REST API'lerini kullanabilmesini önler. [Daha fazla bilgi](developer/embedding.md)
+Kuruluştaki kullanıcılar Hizmet Olarak Yazılım (SaaS) uygulamalarına Power BI panoları ve raporları ekleyebilir. Bu ayarın devre dışı bırakılması; kullanıcıların, uygulamalarına Power BI içeriği eklemek için REST API'lerini kullanabilmesini önler. [Daha fazla bilgi](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Hizmet sorumlularının Power BI API'leri kullanmasına izin ver
 
-Azure Active Directory’ye (Azure AD) kayıtlı web uygulamaları, oturum açmış bir kullanıcı olmadan Power BI API’lerine erişmek için atanmış bir hizmet sorumlusu kullanır. Bir uygulamanın hizmet sorumlusu kimlik doğrulamasını kullanmasına izin vermek için hizmet sorumlusunun izin verilen bir güvenlik grubuna eklenmesi gerekir. [Daha fazla bilgi](developer/embed-service-principal.md)
+Azure Active Directory’ye (Azure AD) kayıtlı web uygulamaları, oturum açmış bir kullanıcı olmadan Power BI API’lerine erişmek için atanmış bir hizmet sorumlusu kullanır. Bir uygulamanın hizmet sorumlusu kimlik doğrulamasını kullanmasına izin vermek için hizmet sorumlusunun izin verilen bir güvenlik grubuna eklenmesi gerekir. [Daha fazla bilgi](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > Hizmet sorumluları tüm Power BI kiracı ayarları için izinleri kendi güvenlik grubundan devralır. İzinleri kısıtlamak için hizmet sorumlularına ayrılmış bir güvenlik grubu oluşturun ve bu grubu ilgili, etkin Power BI ayarlarının 'Belirli güvenlik grupları hariç' listesine ekleyin.
@@ -456,9 +463,9 @@ Kuruluştaki hangi kullanıcıların **[AppSource](https://appsource.microsoft.c
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU’ları yalnızca Azure’dan satın alabileceğiniz için [Azure’da ekli kapasiteleri yönetmek için](developer/azure-pbie-create-capacity.md)**Azure portalı** kullanırsınız.
+**Power BI Embedded** sekmesi, müşteriniz için satın aldığınız Power BI Embedded (A SKU) kapasitelerini görüntülemenizi sağlar. A SKU’ları yalnızca Azure’dan satın alabileceğiniz için [Azure’da ekli kapasiteleri yönetmek için](developer/embedded/azure-pbie-create-capacity.md)**Azure portalı** kullanırsınız.
 
-Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Embedded nedir?](developer/azure-pbie-what-is-power-bi-embedded.md)
+Power BI Embedded (A SKU) ayarlarını yönetme hakkında daha fazla bilgi için bkz. [Power BI Embedded nedir?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
 
 ## <a name="embed-codes"></a>Ekleme kodları
 
@@ -466,14 +473,14 @@ Bir yönetici olarak, raporları genel kullanıma açmak amacıyla kiracınız i
 
 ![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">Kuruluş görselleri</a> 
+ ## <a name=""></a><a name="organizational-visuals">Kuruluş görselleri</a> 
 
-**Kuruluş görselleri** sekmesi, kuruluşunuzda özel görseller dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](developer/power-bi-custom-visuals-organization.md)
+**Kuruluş görselleri** sekmesi, kuruluşunuzda Power BI görselleri dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
 
-Aşağıdaki görüntüde, bir kuruluş deposunda dağıtılmış olan tüm özel görseller gösterilmiştir.
+Aşağıdaki görüntüde, bir kuruluş deposunda dağıtılmış olan tüm Power BI görselleri gösterilmiştir.
 
 ![Kuruluş yöneticisi görseli](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Listeye yeni bir özel görsel eklemek için aşağıdaki adımları izleyin.
 
 1. Sağ taraftaki bölmede **Özel görsel ekle**'yi seçin.
 
-    ![Özel görsel formu](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Power BI görselleri formu](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. **Özel görsel ekle** formunu doldurun:
 
-    * **Bir .pbiviz dosyası seçin** (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API özel görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
+    * **Bir .pbiviz dosyası seçin** (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API Power BI görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
 
     Bir özel görseli karşıya yüklemeden önce görselin kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir.
 
@@ -524,9 +531,9 @@ Kuruluş deposundaki bir görseli güncelleştirmek için dişli simgesini seçi
 
 Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
 
-Daha fazla bilgi edinmek için [kurumsal özel görseller hakkında sık sorulan sorular](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals) bağlantısını ziyaret edin
+Daha fazla bilgi edinmek için [Power BI kuruluş görselleri hakkında sık sorulan sorular](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin
 
-## <a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
+## <a name=""></a><a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
 
 Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağlanan iç depolama alanında depolanır. Veri akışları ve Azure Data Lake Storage 2. Nesil (ADLS 2. Nesil) tümleştirmesi ile, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında veri akışlarınızı depolayabilirsiniz. Daha fazla bilgi için bkz. [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
@@ -542,7 +549,7 @@ Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsi
 |---------|---------|
 | Etkin | Normal bir çalışma alanı. Kullanımı veya içindekiler hakkında bir şey ifade etmez, yalnızca çalışma alanının "normal" olduğu anlamına gelir. |
 | Yalnız bırakılmış | Yönetici kullanıcısı olmayan çalışma alanı. |
-| Silindi | Silinen çalışma alanı. İstenirse çalışma alanını geri yüklemek için yeterli miktarda meta veri saklarız. |
+| Silindi | Silinen çalışma alanı. 90 güne kadar, istenirse çalışma alanını geri yüklemek için yeterli miktarda meta veri saklarız. |
 | Kaldırılıyor | Silinme aşamasında olup henüz silinmemiş çalışma alanı. Kullanıcılar kendi çalışma alanlarını silebilir, öğeleri Kaldırılıyor ve en sonunda Silindi durumuna alabilir. |
 
 ## <a name="custom-branding"></a>Özel marka
@@ -561,6 +568,17 @@ Yönetici olarak, tüm kuruluşunuz için Power BI görünümünü özelleştire
 Daha fazla bilgi için bkz. [Kuruluşunuz için özel marka oluşturma](https://aka.ms/orgBranding).
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>Öne çıkan içeriği yönetme
+
+Kiracı yöneticisi olarak, kuruluşunuz genelinde Power BI Giriş Sayfasında Öne Çıkanlar bölüme yükseltilen tüm raporları, panoları ve uygulamaları yönetebilirsiniz.
+
+- Yönetici portalında **Öne çıkan içerik** seçeneğini belirleyin.
+
+Burada, içeriği kimin ne zaman öne çıkardığına ve içeriğin tüm ilgili meta verilerine yönelik bir genel bakış görürsünüz. Bir şey şüpheli görünürse veya Öne Çıkanlar bölümünü temizlemek isterseniz, öne çıkan içeriği gerektiğinde silebilirsiniz.
+
+Öne çıkan içeriği etkinleştirme hakkında daha fazla bilgi için bu makaledeki [Öne çıkan içerik](#featured-content) bölümüne bakın.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Kuruluşunuzda Power BI'ı yönetme](service-admin-administering-power-bi-in-your-organization.md)  

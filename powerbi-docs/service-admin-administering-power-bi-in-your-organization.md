@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115274"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381296"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -59,7 +59,7 @@ Yöneticiler, kuruluşları için Power BI kiracısını desteklemek üzere aşa
 | Premium kapasiteyi yönetme |<ul><li>Premium kapasite edinme ve birlikte çalışma<br><li>Hizmet kalitesi sağlama|
 | Embedded kapasitesini yönetme |<ul><li>ISV’lerin ve geliştiricilerin Power BI özelliklerini kullanım şeklini kolaylaştırmak için Embedded kapasitesi edinme</ul>|
 | Dahili ilke, kanun ve yönetmeliklere uyumu sağlama | <ul><li>İş verilerinin sınıflandırılmasını yönetme<br><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</ul>|
-| Power BI kaynaklarını yönetme |<ul><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama<br><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama|
+| Power BI kaynaklarını yönetme |<ul><li>Çalışma alanlarını yönetme<br><li>Power BI görsellerini yayımlama<br><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama|
 | Kiracı kullanıcılarına yardım ve destek sağlama |<ul><li>Veri erişimi ve diğer sorunları giderme</ul>|
 | Diğer görevler |<ul><li>Örneğin Microsoft Endpoint Configuration Manager kullanarak Power BI Desktop’ı dağıtma<br><li>Intune ile Power BI mobil uygulama dağıtımını yönetme<br><li>Kaynak veri güvenliği gibi veri gizliliği ve güvenliğini yönetme</ul>|
 
@@ -69,7 +69,7 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç ara
 
 | **Araç** | **Tipik görevler** |
 | --- | --- |
-| Power BI Yönetim portalı |<ul><li>Premium kapasite edinme ve birlikte çalışma</li><li>Hizmet kalitesi sağlama</li><li>İş verilerinin sınıflandırılmasını yönetme</li><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</li><li>Çalışma alanlarını yönetme<br><li>Özel görseller yayımlama</li><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama</li><li>Veri erişimi ve diğer sorunları giderme</li></ul>|
+| Power BI Yönetim portalı |<ul><li>Premium kapasite edinme ve birlikte çalışma</li><li>Hizmet kalitesi sağlama</li><li>İş verilerinin sınıflandırılmasını yönetme</li><li>İçerik yayımlama ve paylaşım ilkelerini uygulamaya yardımcı olma</li><li>Çalışma alanlarını yönetme<br><li>Power BI görsellerini yayımlama</li><li>Power BI’yı diğer uygulamalara eklemek için kullanılan kodları doğrulama</li><li>Veri erişimi ve diğer sorunları giderme</li></ul>|
 | Microsoft 365 yönetim merkezi |<ul><li>Kullanıcı kaydını yönetme</li><li>Pro lisansları satın alma ve atama</li><li>Kullanıcıların Power BI’ya erişmesini engelleme</li></ul>|
 | Office 365 Güvenlik ve Uyumluluk Merkezi |<ul><li>Olayların denetimini gözden geçirme ve yönetme</li></ul>|
 | Azure portalında Azure Active Directory (AAD) |<ul><li>AAD aracılığıyla Power BI kaynaklarına koşullu erişimi yapılandırma</li><li>Power BI Embedded kapasitesi sağlama</li></ul>|
