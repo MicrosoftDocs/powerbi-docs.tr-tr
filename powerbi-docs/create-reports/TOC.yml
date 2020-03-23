@@ -11,8 +11,8 @@
     - name: Öğreticiler
       expanded: true
       items:
-        - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: 'Çevrimiçi kurs: Sayfalandırılmış raporlar'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Örnekler
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: Nasıl yapılır kılavuzları
       items:
-        - name: Veri kümelerini ve raporları yayımlama
-          href: ../desktop-upload-desktop-files.md
-        - name: Power BI raporuna görsel ekleme (1. Bölüm)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: Power BI raporuna görsel ekleme (2. Bölüm)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: 'Görsel başlıklarını, arka planlarını ve açıklamalarını özelleştirme'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Power BI'da öğeleri veri olmadan gösterme
-          href: ../desktop-show-items-no-data.md
-        - name: Otomatik tarih ve saati uygulama
-          href: ../desktop-auto-date-time.md
         - name: Power BI raporları
           items:
             - name: Otomatik sayfa yenilemeyi etkinleştirme (önizleme)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
               href: ../service-export-to-pbix.md
+            - name: Veri kümelerini ve raporları yayımlama
+              href: ../desktop-upload-desktop-files.md
         - name: Görselleştirmeler
           items:
+            - name: Power BI raporuna görsel ekleme (1. Bölüm)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: Power BI raporuna görsel ekleme (2. Bölüm)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: Power BI raporlarına görsel ekleme
               href: ../visuals/power-bi-report-visualizations.md
             - name: Power BI raporlarındaki görselleri değiştirme
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: 'Görsel başlıklarını, arka planlarını ve açıklamalarını özelleştirme'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Power BI'da öğeleri veri olmadan gösterme
+              href: ../desktop-show-items-no-data.md
             - name: Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
               href: ../visuals/power-bi-data-points.md
             - name: Görselin temel alınan verilerini görüntüleme
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Sayfalandırılmış raporlar
           items:
+            - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Verileri doğrudan sayfalandırılmış bir rapora girme
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Eklenmiş veri kaynağı oluşturma

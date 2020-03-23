@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3af0470e29b4f71cf8948bff4c1b317304533ac8
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114655"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435824"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -103,6 +103,10 @@ Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [t
 5. Uyarıyı silmek için çöp kutusu simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png) dokunun.
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows cihazlarda veri uyarıları
+
+>[!NOTE]
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows cihazlarda veri uyarısı ayarlama
 1. Panodaki sayı veya ölçek kutucuklarından birine dokunarak açın.  
 2. Uyarı eklemek için zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) dokunun.  
