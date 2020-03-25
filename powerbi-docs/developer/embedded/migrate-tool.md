@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 4b11a33bc9f3228cd2ac75741cbb1e084893ab5c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 7415750d59155f690cf0ff1ced25b31669f73710
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491261"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114578"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 

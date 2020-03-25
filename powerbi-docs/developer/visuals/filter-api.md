@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 097dea720db6314bdb1fc9f51259196e4db44032
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79380238"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114118"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI görsellerinde Görsel Filtreler API’si
 

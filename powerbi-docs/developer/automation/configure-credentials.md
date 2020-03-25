@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 02/23/2020
-ms.openlocfilehash: 1c8741736f0639cba7f8df3f9891a6fe20397d8e
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079520"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114785"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 

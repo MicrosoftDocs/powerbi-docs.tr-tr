@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 88e7e4b83f303f2b366f276b5020194f55f21f25
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 345971384fff0e0b215d2898ee1684f4a5bac486
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79380743"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114325"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI görsellerinde dilimleyicileri eşitleme
 

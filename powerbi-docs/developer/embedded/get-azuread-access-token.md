@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: 7bd184c02c0bbfd947fa9283890a4f1110177583
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492296"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114532"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 

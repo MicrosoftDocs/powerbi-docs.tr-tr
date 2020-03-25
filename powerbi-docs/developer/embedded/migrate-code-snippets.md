@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 51700ff1ab8751215ac3133913dd98387855ef1d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491514"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114496"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları
 

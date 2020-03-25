@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: d406396db64b52326bbd8ea2aa485cd3d7451294
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79380081"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114164"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI Görselleri’nde veri noktalarını vurgulama
 

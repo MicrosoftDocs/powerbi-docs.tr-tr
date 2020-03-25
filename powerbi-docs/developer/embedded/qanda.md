@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: b7a86db04c37d40cef4b2578cd5f11a53a9bce9d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491238"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114394"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
 

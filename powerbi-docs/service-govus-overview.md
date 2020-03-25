@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376736"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114900"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
 Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD Kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -95,7 +95,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |CSV dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Power BI Desktop dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |CDS bağlantısı|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|  |Azure Data Lake Storage 2. Nesil bağlayıcısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|  |Azure Data Lake Storage 2. Nesil bağlayıcısı|Kullanılabilir|Kullanılamaz|Kullanılamaz|
 |Veri yönetimi|Veri yönetimi ağ geçidi|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Azure SQL’de veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Power BI için Blob Depolama’da veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|

@@ -5,14 +5,14 @@ author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: d4c9013a112cb9e0ae10ebf252921a4ed99359a3
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491399"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114417"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 

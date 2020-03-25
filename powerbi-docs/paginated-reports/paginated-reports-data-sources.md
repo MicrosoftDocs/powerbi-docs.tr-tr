@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921919"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113750"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -27,7 +27,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | --- | --- | --- |
 | Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 |   |
 | Azure SQL Yönetilen Örneği | Temel | Genel Uç Nokta yoluyla Azure SQL Veritabanı Uzantısı kullanılarak  |
-| Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir.  Diğer ad kullanma desteklenmiyor  |
+| Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir.|
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
 | Premium Power BI veri kümesi (XMLA) | SSO |   |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |

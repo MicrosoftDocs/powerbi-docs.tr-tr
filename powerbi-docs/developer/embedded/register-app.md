@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 1170828d8e38fdd3d65e3b61acff80c3c3b0eb0d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491951"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114371"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 

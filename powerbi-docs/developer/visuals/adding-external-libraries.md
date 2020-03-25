@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 02/24/2020
-ms.openlocfilehash: 13d5f2ed62ddefb8ac99fe2c91c72fc599a15936
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 9df111e7545c43fe9b75784b1a95df4f37fd01e7
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922517"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114141"
 ---
 # <a name="adding-external-libraries"></a>Dış kitaplıklar ekleme
 
