@@ -95,7 +95,7 @@ Geliştirilmiş kullanım ölçümleri raporu aşağıdaki rapor sayfalarını i
 | Rapor performansı | Günlük performans | Tek tek her gün için hesaplanan rapor açma eylemlerinin %10’unun, %50’sinin ve %90’ının performansı. |
 | Rapor performansı | 7 günlük performans | Her tarih için son 7 gün boyunca hesaplanan rapor açma eylemlerinin %10’unun, %50’sinin ve %90’ının performansı. |
 | Rapor performansı | Tüketim yöntemi | Kullanıcıların raporu nasıl açtığı; örneğin Power BI hizmeti (powerbi.com), Power BI Embedded veya mobil cihaz yoluyla. |
-| Rapor performansı | Browsers (Tarayıcılar) | Kullanıcıların raporu açmak için kullandıkları tarayıcı; örneğin Firefox, Edge ve Chrome. |
+| Rapor performansı | Browsers (Tarayıcılar) | Kullanıcıların raporu açmak için kullandıkları tarayıcı; örneğin Firefox, Microsoft Edge ve Chrome. |
 
 ## <a name="update-usage-metrics-report-credentials"></a>Kullanım ölçümleri raporu kimlik bilgilerini güncelleştirme
 
