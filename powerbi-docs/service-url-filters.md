@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076644"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273260"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -193,11 +193,17 @@ Bu uyuşmazlık panoda filtrelenmiş ve raporda filtrelenmemiş olarak değişik
 Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar vardır.
 
 * *in* işlecini kullanırken *in* ifadesinin sağındaki değerlerin parantez içinde virgülle ayrılmış değerler listesi olması gerekir.    
-* Power BI Rapor Sunucusu, “filtre” URL parametresini kullanarak ek filtre belirtme özelliğini de destekler.  Örneğin, Power BI Rapor Sunucusu’nda URL aşağıdaki gibi görünebilir: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) veya [PDF’ye dışarı aktar](consumer/end-user-pdf.md) özelliği ile çalışmaz.
-* [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md), URL filtrelerini desteklemez.
-* Javascript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
+* Power BI Rapor Sunucusu, “filtre” URL parametresini kullanarak ek filtre belirtme özelliğini de destekler. URL’nin Power BI Rapor Sunucusu’nda nasıl gözüktüğünü şu örnekte görebilirsiniz: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Rapor URL filtrelerinin 10 ifade sınırı vardır (AND ile bağlanan 10 filtre).
+* JavaScript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
+
+URL filtreleri yalnızca bazı ekleme senaryolarında desteklenir.
+
+- [Raporu güvenli bir portala veya web sitesine ekleme](service-embed-secure.md) desteklenir.
+- Power BI Embedded’da URL filtreleri desteklenir. Ayrıntılar için bkz. [Power BI Embedded gelişmiş URL filtreleme özellikleri](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities).
+- Sorgu dizesi filtreleme özelliği [Web'de yayımla](service-publish-to-web.md) veya [PDF’ye dışarı aktar](consumer/end-user-pdf.md) özelliği ile çalışmaz.
+- [SharePoint Online'da rapor web bölümüyle ekleme](service-embed-report-spo.md), URL filtrelerini desteklemez.
+- Teams, URL belirtmeye izin vermez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

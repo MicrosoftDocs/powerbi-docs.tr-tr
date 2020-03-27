@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
-  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+  ms.openlocfilehash: 5f6e5c71f368b5b707534cde769de477bd8fa6a6
+  ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "78260704"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "80273444"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -89,7 +89,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Rapor sayfası araç ipuçlarıyla görselleri genişletme
+    - text: Rapor sayfası araç ipuçlarını kullanma
       url: report-page-tooltips.md
     - text: Rapor sayfası detaylandırmayı kullanma
       url: report-drillthrough.md
@@ -103,6 +103,10 @@ landingContent:
       url: report-tips-legends.md
     - text: Görsel renkleri iyileştirme ipuçları
       url: report-tips-visual-colors.md
+    - text: Veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları
+      url: report-tips-sort-distribute-data-plots.md
+    - text: Şekiller, görüntüler ve simgelerle çalışma ipuçları
+      url: report-tips-shapes-images-icons.md
 - title: Power BI sayfalandırılmış raporlar
   linkLists:
   - linkListType: concept

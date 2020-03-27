@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207885"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147389"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -28,6 +28,7 @@ Power BI'da resmi olarak paketlenmiş içerik oluşturabilir ve bunu geniş bir 
 - Bu kişiler uygulamanızı Microsoft AppSource’tan bulup yükleyebilir.
 - Onlara bir doğrudan bağlantı gönderebilirsiniz.
 - Power BI yöneticiniz izin verirse, uygulamayı otomatik olarak iş arkadaşlarınızın Power BI hesaplarına yükleyebilirsiniz.
+- Power BI, bir uygulamayı dağıttığınızda veya güncelleştirdiğinizde iç kullanıcılara e-posta göndermez. Bunu dış kullanıcılara dağıtırsanız bu kullanıcılar doğrudan bağlantı içeren bir e-posta iletisi alır. 
 
 Uygulamayı kendi yerleşik gezintisiyle oluşturabilirsiniz, bu sayede kullanıcılarınız içeriğinizde yollarını kolayca bulabilirler. Uygulamanın içeriğini değiştiremezler. İster Power BI hizmetinde ister mobil uygulamalardan birinde içerikle etkileşim kurarak verileri filtreleyebilir, vurgulayabilir ve sıralayabilirler. Güncelleştirmeleri otomatik olarak alırlar ve verinin ne sıklıkla yenileneceğini denetleyebilirsiniz. Ayrıca, temel alınan veri kümelerine bağlanmak ve uygulamada raporların kopyalarını oluşturmak için onlara Oluşturma izni verebilirsiniz. [Oluşturma izni](service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
 

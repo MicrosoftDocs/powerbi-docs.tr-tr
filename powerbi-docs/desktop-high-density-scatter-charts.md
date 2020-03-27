@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867435"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273375"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme
 **Power BI Desktop**’ın Eylül 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmelerle birlikte yeni bir örnekleme algoritması kullanıma sunuldu. Bu algoritma ile yüksek yoğunluklu verilerin, dağılım grafiklerindeki gösterimi iyileştirildi.
@@ -85,7 +85,8 @@ Yüksek yoğunluklu örnekleme algoritması Power BI için önemli bir iyileşti
 * **Yüksek Yoğunluklu Örnekleme** algoritması, yalnızca Power BI hizmetini temel alan modellere, içeri aktarılan modellere veya DirectQuery'ye yönelik canlı bağlantılarda kullanılabilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Diğer grafiklerdeki yüksek yoğunluklu örnekleme işlemleri hakkında daha fazla bilgi için aşağıdaki makaleye göz atın.
+
+Yüksek yoğunluklu örnekleme işlemleri hakkında daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
 * [Power BI'da yüksek yoğunluklu çizgi örnekleme](desktop-high-density-sampling.md)
-
+* [Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları](guidance/report-tips-sort-distribute-data-plots.md)

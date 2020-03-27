@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710177"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113175"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
 
@@ -42,12 +42,10 @@ Veri akışları için Azure Data Lake Storage 2. Nesil’i kullanmak için aşa
 
 Azure Data Lake Storage 2. Nesil hesabıyla Power BI’ı yapılandırabilmeniz için önce bir depolama hesabı oluşturup yapılandırmanız gerekir. Power BI için gereksinimlere göz atalım:
 
-1. Depolama hesabı, Power BI kiracınızla aynı AAD kiracısında oluşturulmalıdır.
-2. Depolama hesabı, Power BI kiracınızla aynı bölgede oluşturulmalıdır. Power BI kiracınızın bulunduğu yeri belirlemek için [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md) makalesine bakın.
-3. Depolama hesabı için *Hiyerarşik Ad Alanı* özelliği etkinleştirilmiş olmalıdır.
-4. Power BI hizmetine, depolama hesabı üzerinde *Okuyucu* ve *Veri Erişimi* rolleri verilmelidir.
-5. **powerbi** adlı bir Dosya sistemi oluşturulmalıdır.
-6. Power BI hizmetleri, oluşturduğunuz **powerbi** dosya sistemi için yetkilendirilmiş olmalıdır.
+1. ADLS depolama hesabının sahibi olmanız gerekir. Bunun kaynak düzeyinde atanması ve abonelik düzeyinden devralınmaması gerekir.
+2. Depolama hesabı, Power BI kiracınızla aynı AAD kiracısında oluşturulmalıdır.
+3. Depolama hesabı, Power BI kiracınızla aynı bölgede oluşturulmalıdır. Power BI kiracınızın bulunduğu yeri belirlemek için [Power BI kiracım nerede bulunur?](service-admin-where-is-my-tenant-located.md) makalesine bakın.
+4. Depolama hesabı için *Hiyerarşik Ad Alanı* özelliği etkinleştirilmiş olmalıdır.
 
 Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrıntılı şekilde yapılandırmak için gerekli adımlar açıklanmaktadır.
 
@@ -59,73 +57,17 @@ Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrın
 2. Hiyerarşik ad alanı özelliğini etkinleştirdiğinizden emin olun
 3. Çoğaltma ayarının **Read-access geo-redundant storage (RA-GRS)** olarak belirlenmesi önerilir
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI hizmeti okuyucu ve veri erişimi rollerini verme
+### <a name="grant-permissions-to-power-bi-services"></a>PowerBI hizmetlerine izin verme
 
 Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu ve veri erişimi rolleri vermeniz gerekir. Bunların ikisi de yerleşik rollerdir, bu nedenle adımlar basittir. 
 
 [Yerleşik RBAC rolü atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) adımlarını izleyin.
 
-**Rol ataması ekle** penceresinde, Power BI hizmetine atanacak **Okuyucu** ve **Veri Erişimi** rollerini seçin. Daha sonra **Power BI Hizmeti**’ni arayıp bulup. 
+**Rol ataması ekle** penceresinde, **Okuyucu ve Veri Erişimi** rolünü seçin. Ardından, **Power BI Hizmeti** uygulamasını arayıp bulup.
+Aynı adımları **Depolama Blobu Veri Sahibi** rolü için yineleyin ve rolü hem **Power BI Hizmeti** hem de **Power BI Premium** uygulamalarına atayın.
 
 > [!NOTE]
 > Portaldan Power BI’a yayma izni için en az 30 dakika bekleyin. Portaldaki izinleri değiştirdiğinizde, bu izinlerin Power BI’a yansıtılması için 30 dakika bekleyin. 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Power BI için bir dosya sistemi oluşturma
-
-Depolama hesabınızın Power BI’a eklenebilmesi için önce *powerbi* adlı bir dosya sistemi oluşturmanız gerekir. Azure Databricks, HDInsight, AZCopy veya Azure Depolama Gezgini kullanımı da dahil olmak üzere, böyle bir dosya sistemi oluşturmanın birçok yolu vardır. Bu bölümde, Azure Depolama Gezgini kullanılarak dosya sistemi oluşturmanın basit bir yolu gösterilmektedir.
-
-Bu adım, Azure Depolama Gezgini sürüm 1.6.2'yi veya üstünü yüklemenizi gerektirir. Windows, Macintosh veya Linux için Azure Depolama Gezgini’ni yükleme ile ilgili bkz. [Azure Depolama Gezgini](https://azure.microsoft.com/features/storage-explorer/).
-
-1. Azure Depolama Gezgini’ni başarıyla yüklemenizin ardından ilk başlatmanızda Microsoft Azure Depolama Gezgini - Bağlan penceresi gösterilir. Depolama Gezgini, depolama hesaplarına bağlanmanın birçok yolunu sağlarken, gerekli kurulum için şu anda yalnızca bir yol desteklenmektedir. 
-
-2. Sol bölmede, yukarıda oluşturduğunuz depolama hesabını bulup genişletin.
-
-3. Blob Kapsayıcıları’na tıklayın ve bağlam menüsünden Blob Kapsayıcısı Oluştur’u seçin.
-
-   ![BLOB kapsayıcılarına sağ tıklayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. Blob Kapsayıcıları klasörünün altında bir metin kutusu görüntülenir. *powerbi* adını girin 
-
-   ![“powerbi” adını girin](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. Blob kapsayıcısı oluşturma işleminiz bittiğinde Enter tuşuna basın
-
-   ![BLOB kapsayıcısı oluşturmak için Enter tuşuna basın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-Sonraki bölümde, Power BI hizmet ailesine, oluşturduğunuz dosya sistemi için tam erişim izni verirsiniz. 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>Dosya sistemine Power BI izinleri verme
-
-Dosya sistemine yönelik izin vermek için, Power BI hizmet erişimi veren Erişim Denetimi Listesi (ACL) ayarlarını uygularsınız. Bunun için ilk adım, kiracınızda Power BI hizmetleri kimliğini almaktır. Azure portalının **Kurumsal uygulamalar** bölümünde Azure Active Directory (AAD) uygulamalarınızı görüntüleyebilirsiniz.
-
-Kiracı uygulamalarınızı bulmak için şu adımları izleyin:
-
-1. [Azure portalında](https://portal.azure.com/), gezinti panelinden **Azure Active Directory**’i seçin.
-2. Azure **Active Directory** dikey penceresinde **Kurumsal uygulamalar**’ı seçin.
-3. **Uygulama Türü** açılan menüsünden **Tüm Uygulamalar**’ı ve sonra **Uygula**’yı seçin. Aşağıdaki görüntüye benzer şekilde, kiracı uygulamalarınızın bir örneği görüntülenir.
-
-    ![AAD Kurumsal uygulamaları](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. Arama çubuğuna *Power* yazın; böylece Power BI ve Power Query uygulamaları için Nesne Kimliklerinin koleksiyonu görüntülenir. Sonraki adımlarda üç değere de ihtiyacınız olacaktır.  
-
-    ![Power uygulamalarını arama](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. Aramanızın sonuçlarından hem Power BI Premium hizmeti hem de Power Query çevrimiçi için Nesne Kimliklerini seçip kopyalayın. Sonraki adımlarda bu değerleri yapıştırmaya hazır olun.
-
-6. Daha sonra, önceki bölümde oluşturduğunuz *powerbi* dosya sistemine gitmek için **Azure Depolama Gezgini**’ni kullanın. [Azure Depolama gezginini kullanarak dosya ve dizin düzeyinde izinleri ayarlama](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) makalesinin [Erişimi yönetme](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) bölümündeki yönergeleri izleyin.
-
-7. 5\. adımda toplanan iki Power BI Premium Nesne Kimliğinin her biri için, *powerbi* dosya sisteminize **Okuma**, **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
-
-   ![her ikisi için de üçünü atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. Dördüncü adımda toplanan Power Query Çevrimiçi Nesne Kimliği için, *powerbi* dosya sisteminize **Yazma**, **Yürütme** Erişimini ve Varsayılan ACL’leri atayın.
-
-   ![ardından, yazma ve yürütme erişimi atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. Ayrıca **Diğer** için, **Yürütme** Erişimini ve Varsayılan ACL’leri de atayın.
-
-    ![son olarak, diğer için yürütme erişimi atayın](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Azure Data Lake Storage 2. Nesil’inizi Power BI’a bağlama
 

@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657202"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113796"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -49,13 +49,13 @@ Etkinlik olaylarını blob deposuna veya SQL veritabanına aktarmak için Power 
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Girdi sayısı çok fazlaysa **ActivityEvents** API'si yalnızca 5.000 - 10.000 dolayında girdi ve bir devamlılık belirteci döndürür. Ardından sonraki girdi kümesini almak için devamlılık belirteciyle **ActivityEvents** API'sini yeniden çağırmanız gerekir. Tür girdileri aldığınız ve artık devamlılık belirteci almadığınız aşamaya kadar böyle devam edersiniz. Aşağıdaki örnekte devamlılık belirtecinin nasıl kullanılacağı gösterilir.
+Girdi sayısı çok fazlaysa **ActivityEvents** API'si yalnızca 5.000 - 10.000 dolayında girdi ve bir devamlılık belirteci döndürür. Sonraki girdi kümesini almak için devamlılık belirteciyle **ActivityEvents** API’sini yeniden çağırın. Tüm girdileri alana kadar ve artık devamlılık belirteci almadığınız aşamaya kadar bu şekilde devam edin. Aşağıdaki örnekte devamlılık belirtecinin nasıl kullanılacağı gösterilir.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
 ```
 
-Döndürülen girdilerin sayısından bağımsız olarak, sonuçlar devamlılık belirteci içeriyorsa kalan verileri almak için bu belirteçle API'yi yeniden çağırdığınızdan ve artık devamlılık belirteci döndürülmeyinceye kadar bunu sürdürdüğünüzden emin olun. Hiçbir olay girdisi kalmadığında bile devamlılık belirtecinin döndürüldüğü durumlar olabilir. Aşağıdaki örnekte yanıtta döndürülen devamlılık belirteciyle nasıl döngü yapıldığı gösterilir:
+Döndürülen girdilerin sayısından bağımsız olarak, sonuçlar devamlılık belirteci içeriyorsa kalan verileri almak için bu belirteci kullanarak API’yi yeniden çağırın ve devamlılık belirtecinin döndürülmediği aşamaya kadar bunu sürdürün. Hiçbir olay girdisi kalmadığında bile devamlılık belirtecinin döndürüldüğü durumlar olabilir. Aşağıdaki örnekte yanıtta döndürülen devamlılık belirteciyle nasıl döngü yapıldığı gösterilir:
 
 ```
 while(response.ContinuationToken != null)
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> Tüm etkinliklerin görünmesi 24 saate kadar beklemeniz gerekebilir. Ancak genelde tüm veriler çok daha erken sunulur.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet'i
 
-PowerShell için Power BI Yönetim cmdlet'lerini kullanarak etkinlik günlüklerini indirmek basit bir işlemdir; bunların arasında sizin için devamlılık belirtecini otomatik olarak işleyen **Get-PowerBIActivityEvent** cmdlet'i de vardır. **Get-PowerBIActivityEvent** cmdlet'i **ActivityEvents** REST API'siyle aynı kısıtlamalarla StartDateTime ve EndDateTime parametrelerini alır. Diğer bir deyişle başlangıç tarihi ile bitiş tarihi aynı tarih değerine başvurmalıdır çünkü bir kerede yalnızca bir günlük etkinlik verilerini alabilirsiniz.
+PowerShell için Power BI Yönetim cmdlet’lerini kullanarak etkinlik olaylarını indirin. **Get-PowerBIActivityEvent** cmdlet’i devamlılık belirtecini sizin için otomatik olarak işler. **Get-PowerBIActivityEvent** cmdlet'i **ActivityEvents** REST API'siyle aynı kısıtlamalarla StartDateTime ve EndDateTime parametrelerini alır. Diğer bir deyişle başlangıç tarihi ile bitiş tarihi aynı tarih değerine başvurmalıdır çünkü bir kerede yalnızca bir günlük etkinlik verilerini alabilirsiniz.
 
-Aşağıdaki betik Power BI etkinliklerinin nasıl indirileceğini gösterir. Tek tek etkinlik özelliklerine kolay erişim için komut sonuçlar JSON'dan .NET nesnelerine dönüştürür.
+Aşağıdaki betik Power BI etkinliklerinin nasıl indirileceğini gösterir. Tek tek etkinlik özelliklerine kolay erişim için komut sonuçlar JSON'dan .NET nesnelerine dönüştürür. Bu örnekler, hiçbir etkinliği kaçırmamanız için bir güne ilişkin en küçük ve en büyük zaman damgalarını gösterir.
 
 ```powershell
 Login-PowerBI
@@ -111,15 +114,15 @@ Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir
 
 - Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır.
 
-    Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için, kullanıcıyı söz konusu rol gruplarından birine üye olarak eklemelisiniz. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
+    Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için kullanıcıyı bu rol gruplarından birine üye olarak ekleyin. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 
     Microsoft 365 yönetim merkezinden Exchange yönetim merkezine erişemiyorsanız, https://outlook.office365.com/ecp adresine gidin ve kimlik bilgilerinizi kullanarak oturum açın.
 
-- Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanmanız gerekir.
+- Denetim günlüğüne erişiminiz varsa ancak genel yönetici veya Power BI hizmeti yöneticisi değilseniz Power BI Yönetim portalına erişemezsiniz. Bu durumda doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog) bağlantısını kullanın.
 
 ### <a name="access-your-audit-logs"></a>Denetim günlüklerinize erişme
 
-Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğini etkinleştirdiğinizden emin olun. Daha fazla bilgi için yönetici portalı belgelerinin [Denetim günlükleri](service-admin-portal.md#audit-logs) bölümüne bakın. Denetimi etkinleştirmeniz ile denetim verilerini görüntüleyebilmeniz arasında 48 saate kadar gecikme olabilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
+Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğini etkinleştirdiğinizden emin olun. Daha fazla bilgi için yönetici portalı belgelerinin [Denetim günlükleri](service-admin-portal.md#audit-logs) bölümüne bakın. Denetimi etkinleştirdikten sonra denetim verilerini görüntülemek için 48 saate kadar beklemeniz gerekebilir. Verileri hemen göremiyorsanız denetim günlüklerini daha sonra denetleyin. Denetim günlüklerini görüntüleme izni alma ile günlüklere erişebilme arasında da benzer bir gecikme olabilir.
 
 Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog)'nden erişebilirsiniz. Power BI yönetici portalında doğrudan bir bağlantı da mevcuttur:
 
@@ -258,7 +261,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI klasörü oluşturuldu                           | CreateFolder                                |                                          |
 | Power BI ağ geçidi oluşturma                          | CreateGateway                               |                                          |
 | Power BI grubu oluşturuldu                            | CreateGroup                                 |                                          |
-| Power BI raporu oluşturuldu                           | CreateReport                                |                                          |
+| Power BI raporu oluşturuldu                           | CreateReport <sup>1</sup>                                |                                          |
 | Veri akışı dış depolama hesabına geçirildi     | DataflowMigratedToExternalStorageAccount    | Şu anda kullanılmıyor                       |
 | Veri akışı izinleri eklendi                        | DataflowPermissionsAdded                    | Şu anda kullanılmıyor                       |
 | Veri akışı izinleri kaldırıldı                      | DataflowPermissionsRemoved                  | Şu anda kullanılmıyor                       |
@@ -294,7 +297,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI açıklaması gönderildi                           | PostComment                                 |                                          |
 | Power BI panosu yazdırıldı                        | PrintDashboard                              |                                          |
 | Power BI rapor sayfası yazdırıldı                      | PrintReport                                 |                                          |
-| Power BI raporu web'de yayımlandı                  | PublishToWebReport                          |                                          |
+| Power BI raporu web'de yayımlandı                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Veri kaynağını Power BI ağ geçidinden kaldırma         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI grup üyeleri kaldırıldı                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI kutucuğu görüntülendi                              | ViewTile                                    |                                          |
 | Power BI kullanım ölçümleri görüntülendi                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Power BI Desktop’tan hizmette yayımlama işlemi, hizmette bir CreateReport etkinliğidir.
+
+<sup>2</sup> PublishtoWebReport, [Web’de yayımla](service-publish-to-web.md) özelliğine başvurur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

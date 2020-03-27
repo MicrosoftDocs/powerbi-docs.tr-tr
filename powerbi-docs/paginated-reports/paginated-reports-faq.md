@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205263"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113634"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -68,13 +68,17 @@ Sayfalandırılmış raporları, Premium Kapasitede olmaları koşuluyla Pro lis
 
 Hata iletisi alırsınız ve iş yükü yeniden açılana kadar raporunuzu görüntüleyemezsiniz. Yine de çalışma alanından raporu silebilirsiniz.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>Sayfalandırılmış raporlar için desteklenen Premium SKU'lardan her birinin varsayılan belleği nedir?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>Sayfalandırılmış raporları destekleyen Premium SKU’lardan her birine yönelik varsayılan bellek ne kadardır?
 
 Sayfalandırılmış raporlar için her Premium SKU'daki varsayılan bellek:
 
 - **P1/A4**: %20 varsayılan; %10 en küçük
 - **P2/A5**: %20 varsayılan; %5 en küçük
 - **P3/A6**: %20 varsayılan; %2,5 en küçük
+
+Power BI kiracı yöneticileri en fazla bellek yüzdesini Yönetici portalından değiştirebilir. **Kapasite ayarları** sekmesindeki **Power BI Premium** seçeneğinde yer alan **Sayfalandırılmış Raporlar** iş yükü bölümüne bakın.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Sayfalandırılmış raporlar bölümündeki kapasite ayarları sekmesi":::
 
 ## <a name="general"></a>Genel
 
@@ -86,7 +90,7 @@ Power BI raporları, araştırma ve etkileşim için iyileştirilmiştir.  Farkl
 
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Belgelerde tercih edilen yazma aracının Power BI Rapor Oluşturucusu olduğu belirtilir. Power BI için SQL Server Veri Araçları'nda sayfalandırılmış raporlar oluşturabilir miyim?
 
-Evet, ama Power BI hizmeti bir kerede tek bir öğeyi karşıya yüklemenize izin veriyor; dolayısıyla yazarların SQL Server Veri Araçları (SSDT) ile kullandığı senaryolardan çoğu henüz desteklenmiyor. Bu SSS bölümünün devamında sağlanan [desteklenmeyen özellikler listesini](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) gözden geçirin.  
+Evet oluşturabilirsiniz ancak Power BI hizmeti bir kerede tek bir öğeyi karşıya yüklemenize izin verir. Bu nedenle, yazarların SQL Server Veri Araçları (SSDT) ile kullandığı senaryoların çoğu henüz desteklenmiyor. Bu SSS bölümünün devamında sağlanan [desteklenmeyen özellikler listesini](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) gözden geçirin.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Rapor Oluşturucusu'nun hangi sürümlerini destekliyorsunuz?
 
@@ -100,7 +104,7 @@ GitHub'daki bir proje artık içeriğin SQL Server Reporting Services’ten Powe
 
 Evet. Raporları açma ve Power BI Rapor Oluşturucusu’ndan doğrudan hizmette yayımlama desteği ekledik.
 
-### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>SSRS'deki sayfalandırılmış rapor özelliklerinden hangileri henüz Power BI'da desteklenmiyor?
+### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>SSRS’deki sayfalandırılmış rapor özelliklerinden hangileri henüz Power BI’da desteklenmiyor?
 
 Şu anda, sayfalandırılmış raporlar şu öğeleri desteklemiyor:
 
@@ -146,7 +150,7 @@ Evet, sayfalandırılmış raporlar e-posta aboneliklerini tamamen destekliyor v
 
 Evet, SSRS'de yapabildiğiniz gibi raporlarınızda kod çalıştırabilme özelliğini destekliyoruz.
 
-### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Sayfalandırılmış raporlarımı barındırdığım bir uygulamaya eklemek için Power BI Embedded'i kullanabilir miyim?
+### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Sayfalandırılmış raporlarımı barındırdığım bir uygulamaya eklemek için Power BI Embedded’i kullanabilir miyim?
 
 Güvenli Ekleme desteği dahil olmak üzere SaaS ekleme zaten kullanılabilir. PaaS ekleme için [Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embed-paginated-reports-customers.md) öğreticisine bakın.
 
@@ -160,11 +164,11 @@ Evet, sayfalandırılmış raporların hem v1 hem de v2 çalışma alanlarından
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Rapor kutucuklarını panolara sabitleme gibi Power BI'daki rapora özgü diğer özellikler, sayfalandırılmış raporlarla da çalışacak mı?
 
-Raporların hizmetteki önemli senaryoların aynılarını olabildiğince desteklemesini sağlamayı planlıyoruz.  İdeal koşullarda, bu raporları yazma aracı farklı olsa da, tüketicinin bakış açısından bunlar portaldaki listede yer alan raporlardan biri olacaktır. Nasıl oluşturuldukları önemli değil, gerçekleştirmeleri gereken işlevi gerçekleştirebilirler.  Bu özellik eşliğine iyi bir örnek olarak, planlanan açıklama desteği verilebilir. Bu özellik her rapor türünde biraz farklı çalışabilir ama her iki türde de açıklamaları kullanabileceksiniz.
+Raporların hizmetteki önemli senaryoların aynılarını olabildiğince desteklemesini sağlamayı planlıyoruz.  İdeal koşullarda, bu raporları yazmak için kullanılan araçlar farklı olsa da, tüketicinin bakış açısından bunlar portalda yer alan listedeki raporlardan biridir. Tüketici bunların nasıl oluşturulduğunu önemsemez ve yalnızca yapmaları gereken işleri gerçekleştirmeyi amaçlar.  Bu özellik eşliğine iyi bir örnek olarak, planlanan açıklama desteği verilebilir. Bu özellik her rapor türünde biraz farklı çalışsa da her ikisi için de açıklamaları kullanabilirsiniz.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için bir rapor görüntüleyicisi denetimi var mı?
 
-Hayır, şu anda bir rapor görüntüleyicisi denetimi yok.
+Hayır, şu anda bir rapor görüntüleyicisi denetimi sunulmuyor.
 
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Power BI hizmetindeki yeni Giriş deneyiminden sayfalandırılmış raporlar için arama yapılabiliyor mu?
 

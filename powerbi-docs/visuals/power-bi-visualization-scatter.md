@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311688"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273329"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 
@@ -184,8 +184,10 @@ Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullan
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme](desktop-high-density-scatter-charts.md)
+Aşağıdaki makaleler de ilginizi çekebilir:
 
+* [Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme](desktop-high-density-scatter-charts.md)
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları](../guidance/report-tips-sort-distribute-data-plots.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

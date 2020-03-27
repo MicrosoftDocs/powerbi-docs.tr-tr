@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: 'Pano, pano kutucuğu ve rapor sayfası yazdırma'
               href: end-user-print.md
+            - name: Benimle paylaşılan içeriği görüntüle
+              href: end-user-shared-with-me.md
             - name: İlgili içeriği görüntüle
               href: end-user-related.md
             - name: Son çıkan içeriği görüntüleme
               href: end-user-recent.md
-            - name: Benimle Paylaşılanlar kapsayıcısında içerik görüntüleme
-              href: end-user-shared-with-me.md
             - name: Bir rapora veya panoya abone olma
               href: end-user-subscribe.md
             - name: Power BI'da içerik arama ve sıralama

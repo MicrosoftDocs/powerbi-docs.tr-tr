@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: Premium kapasiteyi yeniden başlatma
               href: ../service-admin-premium-restart.md
-            - name: İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma
+            - name: XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
               href: ../service-premium-connect-tools.md
     - name: Başvuru
       items:

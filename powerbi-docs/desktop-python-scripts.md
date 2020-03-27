@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039054"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273352"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta Python Betikleri Çalıştırma
 
@@ -109,6 +109,14 @@ Power BI Desktop’ta Python Betiğinizi çalıştırmak için:
 Python yüklenmez veya tanımlanmazsa bir uyarı görüntülenir. Birden fazla yerel makine yüklemeniz olduğunda da uyarı görebilirsiniz. Önceki Python’ı yükleme ve Python betiğini etkinleştirme bölümlerini yeniden ziyaret edin ve gözden geçirin.
 
 ![Python’ın yüklü olmadığı uyarısı](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>Özel Python dağıtımlarını kullanma
+
+Power BI, betikleri kullanıcı tarafından sağlanan bir dizinde bulunan (ayarlar sayfası ile sağlanır) python.exe yürütülebilir dosyasını kullanarak yürütür. Ortamın hazırlanması için ek bir adımın gerçekleştirilmesini gerektiren dağıtımlar (örneğin, Conda) yürütme işleminin başarısız olduğu yerde sorunla karşılaşabilir.
+
+Bu tür sorunları yaşamamak için https://www.python.org/ adresinden edindiğiniz resmi Python dağıtımını kullanmanız önerilir.
+
+Olası bir çözüm olarak, Power BI Desktop’u özel Python ortamı isteminizden başlatabilirsiniz.
 
 ### <a name="refresh"></a>Yenile
 
