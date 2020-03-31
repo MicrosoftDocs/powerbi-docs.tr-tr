@@ -18,10 +18,8 @@
     - name: Örnekler
       expanded: true
       items:
-        - name: Power BI için örnek verileri alma
+        - name: Power BI için örnek alma
           href: ../sample-datasets.md
-        - name: Örnek paketleri içeri aktarma ve açma
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Müşteri Kârlılığı örneği
           href: ../sample-customer-profitability.md
         - name: BT Harcama Analizi örneği
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: Perakende Analizi örneği
           href: ../sample-retail-analysis.md
+        - name: Perakende Analizi örneğini araştırma
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: Satış ve Pazarlama örneği
           href: ../sample-sales-and-marketing.md
         - name: Tedarikçi Kalite Analizi örneği
