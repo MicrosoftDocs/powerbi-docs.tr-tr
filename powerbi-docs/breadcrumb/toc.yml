@@ -19,6 +19,16 @@
             - name: Geliştirici
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: Ekli analiz
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI görselleri
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: Otomasyon
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: Destekli Öğrenme
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
