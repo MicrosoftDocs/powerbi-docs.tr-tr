@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/13/2020
-ms.author: tekulkar
+ms.author: tekulka
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 9a8dd1eb7aa6b239cc542884ab3fae3679997017
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426553"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464612"
 ---
 # <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Öğretici: Power BI Excel'de Çözümle özelliğini kullanma, Excel'den başlama
 

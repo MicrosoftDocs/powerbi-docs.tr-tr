@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 815566f715bb4544fc4b002ea2c31e21e2684792
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 281d5b616b58fce4326e6d719502e443c249372a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760831"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403166"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop aracılığıyla Project Online verilerine bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
@@ -31,7 +31,7 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
    
    Project Web sitenizin adresi *https://\<kiracıadı\>.sharepoint.com/sites/pwa* gibiyse OData Akışı için girmeniz gereken adres *https://\<kiracıadı\>.sharepoint.com/sites/pwa/\_api/Projectdata* şeklinde olacaktır.
    
-   Biz bu örnekte https://contoso.sharepoint.com/sites/pwa/default.aspx seçeneğini kullanıyoruz.
+   Biz bu örnekte `https://contoso.sharepoint.com/sites/pwa/default.aspx` seçeneğini kullanıyoruz.
 5. Power BI Desktop, Office 365 hesabınızla kimlik doğrulamasından geçmenizi isteyecektir. Kuruluş hesabınızı seçip kimlik bilgilerinizi girin.
    
    ![](media/desktop-project-online-connect-to-data/image.png)

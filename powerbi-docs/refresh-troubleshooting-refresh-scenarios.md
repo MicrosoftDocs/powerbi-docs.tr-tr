@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dcf8f3ca104e4caf749070b45cd47b0ca03f0dbd
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699602"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404861"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 
@@ -79,11 +79,11 @@ Zamanlanmış yenileme arka arkaya dört kez başarısız olursa Power BI yenile
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Kaynağa erişim yasak  
 
-Bu hata, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle oluşabilir. Power BI'da oturum açıp https://app.powerbi.com?alwaysPromptForContentProviderCreds=true sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar.
+Bu hata, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle oluşabilir. Power BI'da oturum açıp `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar.
 
 ## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Parola değişikliği veya süresi dolan kimlik bilgileri nedeniyle veri yenileme hatası
 
-Veri yenileme işlemi, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle de başarısız olabilir. Power BI'da oturum açıp https://app.powerbi.com?alwaysPromptForContentProviderCreds=true sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar.
+Veri yenileme işlemi, süresi dolan önbelleğe alınmış kimlik bilgileri nedeniyle de başarısız olabilir. Power BI'da oturum açıp `https://app.powerbi.com?alwaysPromptForContentProviderCreds=true` sayfasına giderek internet tarayıcınızın önbelleğini temizleyin. Bunun yapılması, kimlik bilgilerinizi güncelleştirilmeye zorlar.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

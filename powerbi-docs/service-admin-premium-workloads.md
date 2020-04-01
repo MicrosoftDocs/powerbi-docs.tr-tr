@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/14/2020
+ms.date: 03/24/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: d468ab70f47edcd5487b548596f4aea4080cd994
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207977"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329641"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -28,7 +28,7 @@ Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| AI | YOK | YOK | %20 varsayılan; %20 en küçük | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük |
+| AI | %40 varsayılan; %40 en küçük | %20 varsayılan; %20 en küçük | %20 varsayılan; %8 en küçük | %20 varsayılan; %4 en küçük | %20 varsayılan; %2 en küçük |
 | Veri akışları | YOK |%20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük | %20 varsayılan; %2 en küçük  |
 | Sayfalandırılmış raporlar | YOK |YOK | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
 | | | | | | |
@@ -37,7 +37,7 @@ Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| AI | YOK                      | %20 varsayılan; %100 en küçük                     | %20 varsayılan; %50 en küçük                     | %20 varsayılan; %20 en küçük | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük |
+| AI | YOK  | %40 varsayılan; %40 en küçük  | %20 varsayılan; %20 en küçük | %20 varsayılan; %8 en küçük | %20 varsayılan; %4 en küçük | %20 varsayılan; %2 en küçük |
 | Veri akışları         | %40 varsayılan; %40 en küçük | %24 varsayılan; %24 en küçük | %20 varsayılan; %12 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük | %20 varsayılan; %2 en küçük   |
 | Sayfalandırılmış raporlar | YOK                      | YOK                      | YOK                     | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
 | | | | | | |

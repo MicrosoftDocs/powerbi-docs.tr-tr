@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114417"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404043"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -126,13 +126,13 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 
 **Akış**
 
-1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yapın ve alınan bağlantı dizesini kaydedin.
+1. GET `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` çağrısı yapın ve alınan bağlantı dizesini kaydedin.
 2. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 3. PBIX dosyasını kaydedin.
 4. SaaS çalışma alanına Import PBIX çağrısı yapın.
-5. \- POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections çağrısı yaparak bağlantı dizesini güncelleştirin
-6. \- GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources çağrısı yaparak GW ve veri kaynağı tanımlayıcılarını alın
-7. \- PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
+5. \- POST `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections` çağrısı yaparak bağlantı dizesini güncelleştirin
+6. \- GET `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources` çağrısı yaparak GW ve veri kaynağı tanımlayıcılarını alın
+7. \- PATCH `https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}` çağrısı yaparak kullanıcının kimlik bilgilerini güncelleştirin
 
 #### <a name="old-dataset--reports"></a>Eski veri kümeleri ve raporlar
 

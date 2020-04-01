@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 80b97757ab0ab8fefa23f4481abb2d8bc02de78d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492503"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403705"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -217,7 +217,7 @@ Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlaman�
 
 7. CustomData özelliğini uygulamanızda kullanmak için Power BI API’lerinden yararlanın.  CustomData özelliğiyle bir belirteç oluştururken kullanıcı adını bilmeniz gerekir. Kullanıcı adı, ana kullanıcının UNP’sine eşit olmalıdır. Ana kullanıcı, oluşturduğunuz rol veya rollerin üyesi olmalıdır. Hiçbir rol belirtilmezse, ana kullanıcının üye olduğu tüm roller RLS değerlendirmesi için kullanılır.
 
-    [Hizmet sorumlusuyla](embed-service-principal.md) çalışırken, ana hesap yerine bunu kullanarak yukarıdaki adımları izlemeniz gerekir. Ekleme belirteci oluştururken kullanıcı adı olarak [hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id) kullanın.
+    [Hizmet sorumlusuyla](embed-service-principal.md) çalışırken, ana hesap yerine bunu kullanarak yukarıdaki adımları izlemeniz gerekir. Ekleme belirteci oluştururken kullanıcı adı olarak [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullanın.
 
     > [!Note]
     > Uygulamanızı üretime dağıtmaya hazır olduğunuzda ana kullanıcı hesabı alanı veya seçeneği son kullanıcıya gösterilmemelidir.

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492802"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403657"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -96,7 +96,7 @@ Kullanıcı [refreshUserPermissions API'sini](https://docs.microsoft.com/rest/ap
 
 PBI Kiracı bölgenizi bulmak için PBI portalını kullanabilirsiniz.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI Hakkında
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI Hakkında
 
 ![Power BI Hakkında](media/embedded-faq/about-01.png)
 ![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak e
 
 **[Uygulama kimliği](embed-sample-for-customers.md#application-id)** , kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
 
-İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md#how-to-get-the-service-principal-object-id)** kullanırsınız.
+İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md)** kullanırsınız.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>Şirket içi veri ağ geçidini hizmet sorumlusuyla yönetebilir misiniz?
 
