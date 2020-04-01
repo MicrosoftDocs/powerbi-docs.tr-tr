@@ -20,6 +20,8 @@
       items:
         - name: Power BI için örnek alma
           href: ../sample-datasets.md
+        - name: COVID-19 ABD örneği
+          href: sample-covid-19-us.md
         - name: Müşteri Kârlılığı örneği
           href: ../sample-customer-profitability.md
         - name: BT Harcama Analizi örneği

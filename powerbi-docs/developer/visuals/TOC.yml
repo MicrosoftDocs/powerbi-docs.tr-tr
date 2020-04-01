@@ -1,0 +1,120 @@
+- name: Power BI görselleri belgeleri
+  href: index.yml
+  expanded: true
+  items:
+    - name: Genel Bakış
+      expanded: true
+      items:
+        - name: Power BI’daki görseller
+          href: power-bi-custom-visuals.md
+    - name: Öğreticiler
+      expanded: true
+      items:
+        - name: Power BI görseli geliştirme
+          href: custom-visual-develop-tutorial.md
+        - name: Biçimlendirme seçenekleri ekleme
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: Görsel projesi için birim testleri ekleme
+          href: unit-tests-introduction.md
+    - name: Kavramlar
+      items:
+        - name: Power BI görseli proje yapısı
+          href: visual-project-structure.md
+        - name: Görsel kavramlar
+          href: power-bi-visuals-concept.md
+        - name: Power BI’da kuruluşlara yönelik görseller
+          href: power-bi-custom-visuals-organization.md
+        - name: Power BI görselleri için yönergeler
+          href: guidelines-powerbi-visuals.md
+        - name: Görseller hakkında SSS
+          href: power-bi-custom-visuals-faq.md
+        - name: Özellikleri kullanma
+          href: capabilities.md
+        - name: Veri görünümü eşlemeleri
+          href: dataview-mappings.md
+        - name: Nesneler ve özellikler
+          href: objects-properties.md
+        - name: Gelişmiş Düzenleme Modu
+          href: advanced-edit-mode.md
+    - name: Nasıl yapılır
+      items:
+        - name: Power BI görseli için sertifika alın
+          href: power-bi-custom-visuals-certified.md
+        - name: AppSource'ta Power BI görsellerini yayımlama
+          href: office-store.md
+        - name: Power BI’da R destekli Power BI görsellerini kullanma
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: Görsel etkileşimler
+          href: visuals-interactions.md
+        - name: Seçimleri ekleme
+          href: selection-api.md
+        - name: Görsellere yönelik araç ipuçları ekleme
+          href: add-tooltips.md
+        - name: Analiz bölmesi ekleme
+          href: analytics-pane.md
+        - name: Görselleri filtreleme
+          href: filter-api.md
+        - name: Daha fazla veri getirme
+          href: fetch-more-data.md
+        - name: Yer işaretleri desteği ekleme
+          href: bookmarks-support.md
+        - name: Bağlam menüsünü desteği ekleme
+          href: context-menu.md
+        - name: Detaya gitme desteği ekleme
+          href: drill-down-support.md
+        - name: Görsellerde verileri vurgulama
+          href: highlight.md
+        - name: Yüksek Karşıtlıklı mod desteği ekleme
+          href: high-contrast-support.md
+        - name: Eşitleme dilimleyicilerini etkinleştirme
+          href: enable-sync-slicers.md
+        - name: Görsellerde hata ayıklama
+          href: visuals-how-to-debug.md
+        - name: Power BI görselleriyle ilgili sorunları giderme
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: Başvuru
+      items:
+        - name: Giriş sayfası
+          href: landing-page.md
+        - name: URL’yi başlatma
+          href: launch-url.md
+        - name: Yerel Depolama API’si
+          href: local-storage.md
+        - name: Olayları işleme
+          href: event-service.md
+        - name: Sıralama
+          href: sort-options.md
+        - name: Localization (Yerelleştirme)
+          href: localization.md
+        - name: Power BI Görsel yardımcı programları
+          items:
+            - name: Dış kitaplıklar ekleme
+              href: adding-external-libraries.md
+            - name: Etkileşim yardımcı programları
+              href: utils-interactivity-selections.md
+            - name: Biçimlendirme yardımcı programları
+              href: utils-formatting.md
+            - name: Veri görüntüleme yardımcı programları
+              href: utils-dataview.md
+            - name: Grafik yardımcı programları
+              href: utils-chart.md
+            - name: Renk yardımcı programları
+              href: utils-color.md
+            - name: SVG yardımcı programları
+              href: utils-svg.md
+            - name: Yazma yardımcı programları
+              href: utils-type.md
+            - name: Araç ipucu yardımcı programları
+              href: utils-tooltip.md
+            - name: Veri görüntüleme yardımcı programları
+              href: utils-dataview.md
+    - name: Kaynaklar
+      items:
+        - name: Geliştirme Merkezi
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Örnek Power BI görselleri
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI görselleri Git Deposu
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: SSL sertifikası oluşturma
+          href: create-ssl-certificate.md

@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Power BI tümleşik analiz belgeleri
+summary: 'İki tümleşik analiz çözümünü öğrenin: Power BI Embedded ve Power BI Premium kullanarak ekleme.'
+metadata:
+  title: Power BI tümleşik analiz belgeleri
+  description: 'İki tümleşik analiz çözümünü öğrenin: Power BI Embedded ve Power BI Premium kullanarak ekleme.'
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516273"
+landingContent:
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI ile ekleme nedir?
+      url: embedding.md
+    - text: Azure'da Power BI Embedded nedir?
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: Sık sorulan sorular
+      url: embedded-faq.md
+- title: Rapor veya pano ekleme
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme'
+      url: embed-sample-for-customers.md
+    - text: 'Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme'
+      url: embed-sample-for-your-organization.md
+    - text: 'Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme'
+      url: embed-paginated-reports-customers.md
+    - text: 'Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme'
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: Katıştırma kurulum aracı
+      url: https://app.powerbi.com/embedsetup
+    - text: Geliştirici örnekleri ve betikler
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: Üretim için planlama
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Kapasite ve SKU’lar
+      url: embedded-capacity.md
+    - text: Kapasite planlaması
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: Performans açısından en iyi yöntemleri
+      url: embedded-performance-best-practices.md
+    - text: Power BI izinleri
+      url: power-bi-permissions.md
+    - text: Sorular ve cevaplar
+      url: qanda.md
+    - text: Ekli uygulamanızla ilgili sorunları giderme
+      url: embedded-troubleshoot.md
+- title: Başvurular ve kaynaklar
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API'leri
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI Rest API başvurusu
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Geliştirici merkezi
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI kitaplıkları
+      url: https://www.nuget.org/profiles/powerbi
+    - text: Deneme alanı
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

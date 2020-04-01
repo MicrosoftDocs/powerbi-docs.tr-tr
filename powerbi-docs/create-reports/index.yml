@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 02/25/2020
-  ms.openlocfilehash: 302fc836908754d2410d21fea48d99996ae5cd8a
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.date: 03/30/2020
+  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
+  ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041413"
+  ms.lasthandoff: 03/31/2020
+  ms.locfileid: "80464685"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
@@ -33,10 +33,10 @@ landingContent:
     links:
     - text: Örnek paketleri içeri aktarma ve açma
       url: ../sample-tutorial-connect-to-the-samples.md
-  - linkListType: concept
+  - linkListType: sample
     links:
-    - text: Rapor görünümü
-      url: ../desktop-report-view.md
+    - text: 'COVID-19 örneği: ABD verileri'
+      url: sample-covid-19-us.md
 - title: Görselleştirmeler
   linkLists:
   - linkListType: overview

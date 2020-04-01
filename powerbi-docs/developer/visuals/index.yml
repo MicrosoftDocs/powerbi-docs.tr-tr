@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Power BI görselleri belgeleri
+summary: Kendi Power BI görsellerinizi geliştirin ve bunları kendi başınıza, kuruluşunuzla veya Power BI topluluğunun tamamıyla birlikte kullanın. Belgelerimiz, ihtiyacınız olan bilgileri sağlar.
+metadata:
+  title: Power BI görselleri belgeleri
+  description: Kendi Power BI görsellerinizi geliştirin ve bunları kendi başınıza, kuruluşunuzla veya Power BI topluluğunun tamamıyla birlikte kullanın. Belgelerimiz, ihtiyacınız olan bilgileri sağlar.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516250"
+landingContent:
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI’daki görseller
+      url: power-bi-custom-visuals.md
+    - text: Power BI görseli proje yapısı
+      url: visual-project-structure.md
+    - text: Sık sorulan sorular
+      url: power-bi-custom-visuals-faq.md
+- title: Power BI görseli geliştirme
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 'Öğretici: Power BI görseli geliştirme'
+      url: custom-visual-develop-tutorial.md
+    - text: 'Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Power BI görselleri için yönergeler
+      url: guidelines-powerbi-visuals.md
+- title: Power BI görsellerini yayımlama
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
+      url: office-store.md
+    - text: Power BI görseli için sertifika alın
+      url: power-bi-custom-visuals-certified.md
+- title: Başvurular ve kaynaklar
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Örnek Power BI görselleri
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git deposu
+      url: https://github.com/Microsoft/PowerBI-visuals

@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Power BI otomasyon belgeleri
+summary: Power BI otomasyonu ile raporlar, veri kümeleri ve çalışma alanları gibi Power BI nesneleri üzerinde yönetim görevleri gerçekleştirebilirsiniz.
+metadata:
+  title: Power BI otomasyon belgeleri
+  description: Power BI otomasyonu ile raporlar, veri kümeleri ve çalışma alanları gibi Power BI nesneleri üzerinde yönetim görevleri gerçekleştirebilirsiniz.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516411"
+landingContent:
+- title: Kullanmaya başlayın
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI API ile neler yapabileceğinizi öğrenin
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: 'Öğretici: Bir veri kümesine veri gönderme'
+      url: walkthrough-push-data.md
+    - text: 'Öğretici: Kimlik doğrulaması erişim belirteci alma'
+      url: walkthrough-push-data-get-token.md
+    - text: 'Öğretici: Veri kümesi oluşturma'
+      url: walkthrough-push-data-create-dataset.md
+    - text: Satır eklemek için veri kümesi alma
+      url: walkthrough-push-data-get-datasets.md
+    - text: Bir Power BI tablosuna satır ekleme
+      url: walkthrough-push-data-add-rows.md
+- title: Verilerle çalışma
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Power BI REST API sınırlamaları
+      url: api-rest-api-limitations.md
+    - text: Veri kümesi özellikleri
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: Kimlik bilgilerini yapılandırma
+      url: configure-credentials.md
+- title: Başvurular ve kaynaklar
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API'leri
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI Rest API başvurusu
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: Geliştirici merkezi
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI kitaplıkları
+      url: https://www.nuget.org/profiles/powerbi

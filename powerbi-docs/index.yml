@@ -12,15 +12,18 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: f49dfe708430969802e6f3b75d330c3ca6ca2e62
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.date: 03/31/2020
+  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041137"
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80487698"
 highlightedContent:
   items:
+  - title: ABD verilerini içeren bir COVID-19 raporu oluşturma
+    itemType: sample
+    url: create-reports/sample-covid-19-us.md
   - title: Power BI Desktop ile çalışmaya başlama
     itemType: get-started
     url: desktop-getting-started.md
@@ -76,15 +79,15 @@ conceptualContent:
       text: Daha fazlasını göster
   - title: Power BI’da geliştirme
     links:
-    - url: developer/what-can-you-do.md
-      itemType: overview
-      text: Geliştiricilerin yapabilecekleri
-    - url: power-bi-custom-visuals.md
-      itemType: overview
-      text: Geliştiriciler ve görseller
-    - url: developer/embedding.md
+    - url: developer/embedded/index.yml
       itemType: overview
       text: Ekli analiz
+    - url: developer/visuals/index.yml
+      itemType: overview
+      text: Power BI görselleri
+    - url: developer/automation/index.yml
+      itemType: overview
+      text: Otomasyon
     footerLink:
       url: developer/index.yml
       text: Daha fazlasını göster
