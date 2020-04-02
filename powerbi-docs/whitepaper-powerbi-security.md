@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: a13e48e413f047812d9b00fe67c2ee2b69bbc2dc
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404572"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551105"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -33,7 +33,7 @@ ms.locfileid: "80404572"
 
 **Power BI**, Microsoft’un çevrimiçi yazılım hizmeti (_SaaS_ veya Hizmet olarak Yazılım) teklifidir. Bu hizmet, kolayca ve hızla self servis İş Zekası panoları, raporları, veri kümeleri ve görselleştirmeleri oluşturmanıza olanak tanır. Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)'Nin D katmanında.
+Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](https://www.microsoft.com/trust-center/compliance/compliance-overview)'Nin D katmanında.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
@@ -83,7 +83,7 @@ Oluşturulduktan sonra, Premium kümesindeki tüm iletişimler Power BI Arka Uç
 
 Power BI hizmetinin veri depolamak ve yönetmek için kullandığı iki ana depo vardır. Kullanıcılar tarafından karşıya yüklenen veriler genelde **Azure Blob** depolama alanına gönderilirken sisteme ait meta veriler ve tüm yapıtlar **Azure SQL Veritabanı**'nda güvenlik duvarının arkasında depolanır.
 
-![Veri depolama alanı](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
+![Veri depolama](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
 
 Örneğin bir kullanıcı Power BI hizmetine Excel çalışma kitabı aktardığında, bellek içi bir Analysis Services tablolu veritabanı oluşturulur ve en fazla bir saat boyunca (veya sistemde bellek baskısı oluşana kadar) veriler bellek içinde depolanır. Veriler **Azure Blob** depolama alanına da gönderilir.
 
@@ -127,7 +127,7 @@ Microsoft özerk bölgeler için de veri merkezleri sağlar. Ulusal bulutlar iç
 
 Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler **Microsoft Online Services Koşulları**'nın [Bilgi İşlem Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) bölümünde belirtilir.
 
-## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
+## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması.
 
 Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve kullanıcının tarayıcısı ile Power BI hizmeti veya Power BI tarafından kullanılan Azure hizmeti arasında gerçekleşen yeniden yönlendirmeden oluşur. Bu dizi Power BI’da kullanıcı kimlik doğrulaması işlemini açıklar. Bir kuruluşun kullanıcı kimlik doğrulaması modellerine (oturum açma modelleri) ilişkin seçenekleri hakkında daha fazla bilgi için bkz. [Office 365 için oturum açma modelini seçme](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
@@ -172,7 +172,7 @@ Power BI hizmeti, verileri **DirectQuery** ile veya içeri aktarmayla erişilmel
 Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açıklanır. **X** işareti ilişkili veri türü kullanıldığında Power BI verilerinin varlığına işaret eder.
 
 
-|  |İçeri Aktar  |DirectQuery  |Canlı Bağlantı  |
+|  |{1&gt;İçeri Aktar&lt;1}  |DirectQuery  |Canlı Bağlantı  |
 |---------|---------|---------|---------|
 |Şema     |     X    |    X     |         |
 |Ham veriler     |    X     |         |         |
@@ -348,7 +348,7 @@ Aşağıdaki tabloda mobil cihazın platformuna göre Power BI Mobil için serti
 | **CBA Desteği** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
 | **Power BI** (hizmette oturum açın) | destekleniyor | destekleniyor | Desteklenmiyor |
-| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Destekleniyor | Desteklenmiyor |
+| **SSRS ADFS** (SSRS sunucusuna bağlanın) | Desteklenmiyor | Desteklenen | Desteklenmiyor |
 
 Power BI Mobil uygulamaları Power BI hizmetiyle etkin bir iletişim kurar. Mobil uygulamanın kullanım istatistiklerini ve benzer verileri toplamak için telemetri kullanılır. Bu telemetri kullanım ve etkinliği izlemek için kullanılan hizmetlere iletilir; telemetri verileriyle birlikte hiçbir kişisel veri gönderilmez.
 
