@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378513"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551049"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -423,18 +423,6 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 > [!NOTE]
 > Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
-
-Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
-
-* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
-* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
-* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
-* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
-
-Önceki sürümü indirmek için bağlantıları izleyin: 
-
-* [Power BI Desktop’ın Eylül 2019 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
-* [Power BI Desktop’ın Eylül 2019 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Ağustos 2019 Güncelleştirmesi (2.72.5556.801)

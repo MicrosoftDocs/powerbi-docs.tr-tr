@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: dc429e4147016df07d339468090ad50bb6f14842
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 52f840d5806c10de088838cf64187b953f36aa54
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493906"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550938"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -116,7 +116,7 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 
 * Çin için Power BI bulutu parametreleri
 
-1. [Çin için Power BI](https://github.com/Microsoft/PowerBI-Developer-Samples/blob/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) bulutu içeriğini Cloud.config dosyasının üzerine yazın.
+1. [Çin için Power BI](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) bulutu içeriğini Cloud.config dosyasının üzerine yazın.
 
 2. Web.config dosyasındaki applicationId (Yerel uygulamanın applicationId’si), workspaceId, kullanıcı (ana kullanıcınız) ve parola değerlerini güncelleştirin.
 
@@ -143,7 +143,7 @@ REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD’ye kayd
 
 * Çin için Power BI bulutu - ```https://app.powerbi.cn/apps```
 
-[Müşteriniz için ekleme örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) indirdiyseniz aldığınız **uygulama kimliğini** kullanarak örneğin, Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
+[Müşteriniz için ekleme örneğini](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) indirdiyseniz aldığınız **uygulama kimliğini** kullanarak örneğin, Azure AD kimlik doğrulamasından geçmesini sağlayabilirsiniz. Örneği yapılandırmak için *web.config* dosyasındaki **applicationId** değerini değiştirin.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2\. Adım: Azure AD'den erişim belirteci alma
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci nesnesini kullanın. Panoları, kutucukları veya raporları ekleyebilirsiniz. Bu örnekte belirli bir çalışma alanının ilk panosunu, kutucuğunu veya raporunu nasıl alacağınız gösterilmiştir.
 
-[App Owns Data örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
+[App Owns Data örneğinin](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
 #### <a name="reports"></a>Raporlar
 
@@ -243,7 +243,7 @@ JavaScript API’sini kullanarak bir ekleme belirteci oluşturabilirsiniz. Eklem
 > [!IMPORTANT]
 > Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
 
-[Kuruluşunuz için ekleme örneğinin](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
+[Kuruluşunuz için ekleme örneğinin](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
 **EmbedConfig** ve **TileEmbedConfig** için bir sınıf oluşturulur. **Models\EmbedConfig.cs** ve **Models\TileEmbedConfig.cs** içinde bir örnek mevcuttur.
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 JavaScript kullanarak web sayfanızdaki bir div öğesine pano yükleyebilirsiniz. Bu örnekte EmbedConfig/TileEmbedConfig modelinin yanı sıra pano, kutucuk veya rapor görünümleri kullanılmaktadır. JavaScript API kullanan tam bir örnek için [Microsoft Power BI Embedded Örneği](https://microsoft.github.io/PowerBI-JavaScript/demo)'ni kullanabilirsiniz.
 
-Bir uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) içinde mevcuttur.
+Bir uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) içinde mevcuttur.
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ Bir uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/Mi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* GitHub üzerindeki örnek uygulamayı gözden geçirebilirsiniz. Yukarıdaki örnekler de bu örneği temel almaktadır. Daha fazla bilgi için bkz. [Kuruluşunuz için ekleme örneği](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+* GitHub üzerindeki örnek uygulamayı gözden geçirebilirsiniz. Yukarıdaki örnekler de bu örneği temel almaktadır. Daha fazla bilgi için bkz. [Kuruluşunuz için ekleme örneği](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
 
 * JavaScript API’si hakkında daha fazla bilgi için [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) bölümüne bakın.
 

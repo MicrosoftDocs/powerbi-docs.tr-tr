@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: f357c3ee937c75afcbf2095c6cbd586f9748420e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: bfdac85b50851f840db04d2b3d8e88d434ab7b7e
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114210"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550902"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -100,8 +100,6 @@ Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki ad�
 10. **Ürün kurulumu**'nu seçin ve **Gözden geçir ve yayımla**'ya tıklayın.
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
-
-[Doğrulama ilkelerini](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals) inceleyebilirsiniz.
 
 Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboard.microsoft.com/Application/Summary/) sayfasından görüntüleyebilirsiniz.
 
