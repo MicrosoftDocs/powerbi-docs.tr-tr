@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: Sayfalandırılmış raporlar
           items:
-            - name: 'Uygulamalı laboratuvar: Sayfalandırılmış rapor oluşturma'
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: Verileri doğrudan sayfalandırılmış bir rapora girme
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: Eklenmiş veri kaynağı oluşturma
