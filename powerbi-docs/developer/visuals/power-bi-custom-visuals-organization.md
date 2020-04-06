@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383517"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464590"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
@@ -35,7 +35,7 @@ Oluşturduğunuz raporlarda Power BI kuruluş görsellerini kullanma hakkında d
 Kuruluşunuzda Power BI kuruluş görsellerini yönetme, dağıtma ve yönetme hakkında daha fazla bilgi edinmek için şu makaleye bakın: [Power BI kuruluş görsellerinin dağıtımı ve yönetimi hakkında daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=866790).
 
 > [!WARNING]
-> Özel bir görsel, güvenlik veya gizlilik riski taşıyan kod içerebilir. Bir özel görseli kuruluş deposuna dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
+> Bir dosyadan yüklenen Power BI görseli, güvenlik veya gizlilik riski taşıyan kod içerebilir. Power BI görseli dosyasını kuruluş deposuna dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
@@ -45,7 +45,9 @@ Yönetici:
 
 * Eski Power BI görselleri (yeni sürümü oluşturulan API’leri temel almayan Power BI görselleri gibi) desteklenmez
 
-* Özel bir görsel depodan silinirse, silinen görseli kullanan tüm mevcut raporlar işlenmeyi durdurur. Depodan silme işlemi geri alınamaz. Özel bir görseli geçici olarak devre dışı bırakmak için "Devre dışı bırak" özelliğini kullanın.
+* AppSource’tan veya bir dosyadan yüklenen Power BI görseli depodan silinirse silinen görseli kullanan tüm mevcut raporlar işlenmeyi durdurur. Depodan silme işlemi geri alınamaz. AppSource’tan veya bir dosyadan Power BI görseli yüklemeyi geçici olarak devre dışı bırakmak için “Devre Dışı Bırak” özelliğini kullanın.
+
+* Power BI kuruluş görselleri, Power BI Rapor Sunucusu’nda desteklenmez.
 
 Son kullanıcı:
 

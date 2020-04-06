@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881813"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551079"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
 Power BI Desktop’ta bir raporu ( *.pbix* dosyası) yerel bilgisayarınızdan Power BI hizmetine yayımlayabilirsiniz. Power BI raporları diğer yöne de gidebilir: Power BI hizmetindeki bir raporu Power BI Desktop’a indirebilirsiniz. Power BI raporunun uzantısı, her iki durumda da .pbix olur.
 
-Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bu makalenin sonraki bölümlerinde ele alınmıştır.
+Dikkat etmeniz gereken bazı sınırlamalar, bu makalenin [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümünde ele alınmıştır.
 
 ![Dosya açılan menüsü](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Power BI hizmetinden .pbix dosyası indirirken dikkat etmeniz gereken bazı öne
 * İndirilen dosyaları açarken mutlaka Power BI Desktop uygulamasının son sürümünü kullanın. İndirilen .pbix dosyaları Power BI Desktop’ın eski sürümlerinde açılmayabilir.
 * Yöneticiniz verileri indirme özelliğini devre dışı bıraktıysa bu özellik Power BI hizmetinde görüntülenmez.
 * Artımlı yenileme özelliği olan veri kümeleri .pbix dosyasına indirilemez.
+* Bir çalışma alanındaki veri kümesini temel alarak bir Power BI raporu oluşturup bu raporu farklı bir çalışma alanında yayımlarsanız siz ve kullanıcılarınız bu raporu indiremezsiniz. İndirme özelliği şu anda bu senaryoda desteklenmiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Bu özellik hakkındaki bir dakikalık **Guy in a Cube** videosunu izleyin:

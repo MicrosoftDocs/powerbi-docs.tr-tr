@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 8ee77485da03cb8e507d30d511c08aa869c3e4ba
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873872"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404677"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarik Analizi örneği: Tura katılın
 
@@ -61,7 +61,7 @@ Alternatif olarak, Tedarik Analizi örneğini bir [.pbix dosyası](https://downl
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529784) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529784) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirmek için bkz. [Excel’de Excel örneklerini bulma](sample-datasets.md#explore-excel-samples-inside-excel).
 
 
 ## <a name="spending-trends"></a>Harcama eğilimleri
@@ -80,7 +80,7 @@ Aşağıdaki bilgileri unutmayın:
 * **Total Invoice by Tier** adlı çubuk grafiğinde büyük çoğunlukla katman 1'de (ilk 10) yer alan satıcılarımızla çalıştığımızı görüyoruz. Bunu yapmak satıcı ilişkilerini daha iyi yönetmemize olanak sağlıyor.
 
 ## <a name="spending-in-mexico"></a>Meksika'da yapılan harcamalar
-Şimdi de Meksika'daki harcama alanlarını araştıralım.
+Şimdi de Meksika’daki harcama alanlarını araştıralım.
 
 1. **Total Invoice by Country/Region** haritasında **Mexico** kabarcığını seçin. **Total Invoice by Sub Category** sütun grafiğinde en fazla harcamanın **Indirect Goods & Services** alt kategorisinde yapıldığını görüyoruz.
 
@@ -104,7 +104,7 @@ Aşağıdaki bilgileri unutmayın:
 Farklı şehirleri değerlendirmek için vurgulama özelliğini kullanabiliriz.
 
 1. Panoda **Total Invoice, Discount % By Month** kutucuğunu seçin. Bu kutucuk **Procurement Analysis Sample** raporunun **Discount Analysis** sayfasını açar.
-2. **Total Invoice by City** ağaç haritasında sırayla her şehri seçerek karşılaştırma yapın. Miami'nin neredeyse tüm faturalarının Katman 1'deki satıcılara ait olduğuna dikkat edin.
+2. **Total Invoice by City** ağaç haritasında sırayla her şehri seçerek karşılaştırma yapın. Miami’nin neredeyse tüm faturalarının Katman 1’deki satıcılara ait olduğuna dikkat edin.
 
    ![Katmana göre şehir - indirim yüzdesi karşılaştırması](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 

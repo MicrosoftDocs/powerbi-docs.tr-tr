@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488810"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302469"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -92,7 +92,7 @@ Power BI yenileme işlemi, veri yenileme, OneDrive yenilemesi, sorgu önbellekle
 
 #### <a name="data-refresh"></a>Veri yenileme
 
-Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, veri kümesi ayarlarında günde 48’e kadar yenileme zamanlayabilirsiniz. Daha fazla bilgi için bu makalenin devamındaki [Zamanlanmış yenileme yapılandırma](#configure-scheduled-refresh) bölümüne göz atın.
+Power BI kullanıcıları için verilerin yenilenmesi, genellikle bir yenileme zamanlamasını temel alarak veya isteğe bağlı olarak verileri özgün veri kaynaklarından bir veri kümesine aktarmaktan ibarettir. Günlük olarak birden çok veri kümesi yenilemesi gerçekleştirebilirsiniz. Bu, temel alınan kaynak verileri sıkça değişiyorsa gerekli olabilir. Power BI, paylaşılan kapasitedeki veri kümelerini günlük sekiz yenileme ile sınırlar. Veri kümesi bir Premium kapasitede bulunuyorsa, veri kümesi ayarlarında günde 48’e kadar yenileme zamanlayabilirsiniz. Daha fazla bilgi için bu makalenin devamındaki [Zamanlanmış yenileme yapılandırma](#configure-scheduled-refresh) bölümüne göz atın. Premium kapasitede olan, okuma/yazma işlemleri için [XMLA uç noktası](service-premium-connect-tools.md) etkinleştirilmiş veri kümeleri TMSL veya PowerShell ile programlı bir şekilde yapılandırıldığında sınırsız sayıda yenileme işlemini destekler.
 
 Günlük yenilemelere ilişkin paylaşılan kapasite sınırlamasında hem zamanlanmış yenilemelerin hem de API yenilemelerinin dikkate alındığının unutulmaması önemlidir. Aşağıdaki ekran görüntüsünde gösterildiği gibi, veri kümesi menüsünde **Şimdi Yenile**’yi seçerek bir isteğe bağlı yenilemeyi de tetikleyebilirsiniz. İsteğe bağlı yenilemeler, yenileme sınırlamasına dahil değildir. Ayrıca, Premium kapasitedeki veri kümelerinin API yenileme sınırlamaları getirmediğini unutmayın. Power BI REST API kullanarak kendi yenileme çözümünüzü oluşturmak istiyorsanız bkz. [Veri Kümeleri - Veri Kümesini Yenileme](/rest/api/power-bi/datasets/refreshdataset).
 

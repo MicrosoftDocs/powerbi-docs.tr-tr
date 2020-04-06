@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: be4b51629eefe46cb1ecc528951fab9128874a6f
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873806"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404612"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI için Satış ve Pazarlama örneği: Tura katılın
 
 Satış ve Pazarlama örneği, VanArsdel Ltd adında kurgusal bir üretim şirketine yönelik bir pano ve rapor içerir. VanArsdel Pazarlama Müdürü (CMO), sektörün yanı sıra şirketin pazar payını, ürün hacmini, satışları ve duyarlılığı takip etmek amacıyla bu panoyu oluşturdu.
 
-Çok sayıda rakibi olan VanArsdel kendi sektörünün pazar lideri. CMO, pazar payını artırmak ve büyüme fırsatlarını keşfetmek istiyor. Ancak, bilinmeyen sebeplerden ötürü VanArsdel'in pazar payı, Haziran'da gerçekleşen büyük düşüşlerle küçülmeye başlıyor.
+Çok sayıda rakibi olan VanArsdel kendi sektörünün pazar lideri. CMO, pazar payını artırmak ve büyüme fırsatlarını keşfetmek istiyor. Ancak, bilinmeyen sebeplerden ötürü VanArsdel’in pazar payı, Haziran'da gerçekleşen büyük düşüşlerle küçülmeye başlıyor.
 
 ![Satış ve Pazarlama örneği için Pano](media/sample-sales-and-marketing/sales1.png)
 
@@ -59,7 +59,7 @@ Alternatif olarak, Satış ve Pazarlama örneğini bir [.pbix dosyası](https://
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529785) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529785) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirmek için bkz. [Excel’de Excel örneklerini bulma](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Panomuz bize ne anlatıyor?
 Şimdi pano turunuza başlayalım ve CMO'nun sabitlemeyi seçtiği kutucuklara göz atalım. Pazar payımız, satışlarımız ve yaklaşım ile ilgili bilgiler görüyoruz. Veriler bölgeye, zamana ve rekabete göre ayrılmış.
@@ -102,7 +102,7 @@ Panomuzda, **Birimlerin Pazar Payı ve Birimlerin Pazar Payı Rolling 12 Months 
 Satış ve Pazarlama örneği raporu dört sayfadan oluşur.
  
 ### <a name="vanarsdel---market-share-page"></a>VanArsdel - Pazar Payı sayfası
-Raporun birinci sayfası VanArsdel'in pazar payına odaklanır.
+Raporun birinci sayfası VanArsdel’in pazar payına odaklanır.
 
 1. Satış ve Pazarlama Örneği raporunun **VanArsdel - Pazar Payı** sayfasını açmak için panodan **Birimlerin Pazar Payı ve Birimlerin Pazar Payı Rolling 12 Months karşılaştırması** grafiğini seçin.
 
@@ -110,7 +110,7 @@ Raporun birinci sayfası VanArsdel'in pazar payına odaklanır.
 
 2. Raporun altında yer alan **Total Units by Month and isVanArsdel** adlı sütun grafiğine bakın. Siyah sütun, VanArsdel'i (ürünlerimizi), yeşil sütun ise rakibimizi temsil eder. Haziran 2014'te VanArsdel'in yaşadığı düşüş, rakiplerinde gözlemlenmedi.
 
-3. Sağ tarafta ortada bulunan **Segment tarafından düzenlenen Total Category Volume** adlı çubuk grafik, VanArsdel'in en iyi 2 segmentini gösterecek şekilde filtrelenmiştir. Bu filtrenin nasıl oluşturulduğuna bir göz atalım:  
+3. Sağ tarafta ortada bulunan **Segmente göre Toplam Kategori Hacmi** adlı çubuk grafik, VanArsdel’in en iyi 2 segmentini gösterecek şekilde filtrelenmiştir. Bu filtrenin nasıl oluşturulduğuna bir göz atalım:  
 
    a. **Segment tarafından düzenlenen Total Category Volume** adlı grafiği seçin.
 
@@ -120,13 +120,13 @@ Raporun birinci sayfası VanArsdel'in pazar payına odaklanır.
 
    d. Bunu genişletmek için **Segment**'i seçerek filtreyi değiştirin ve ardından **Productivity** seçeneğini işaretleyerek bu segmenti de ekleyin.  
 
-4. **Month ve isVanArsdel tarafından düzenlenen Total Units** kutucuğunda, sayfaya VanArsdel'e göre çapraz filtre uygulamak için açıklamadaki **Yes** seçeneğini belirleyin. **Segmente göre Total Category Volume** grafiğinde, **Productivity** segmentinde rekabet içinde olmadığımıza dikkat edin.
+4. **Month ve isVanArsdel tarafından düzenlenen Total Units** kutucuğunda, sayfaya VanArsdel'e göre çapraz filtre uygulamak için açıklamadaki **Yes** seçeneğini belirleyin. **Segmente göre Toplam Kategori Hacmi** grafiğinde, **Üretkenlik** segmentinde rekabet içinde olmadığımıza dikkat edin.
 
 5. Filtreyi kaldırmak için göstergede **Yes** seçeneğini tekrar belirleyin.
 
 6. **Aylık Birim Pazar Payı % ve Birim Pazar Payı R12M %** çizgi grafiğine bakın. Aylık pazar payımızı ve 12 aylık hareketli düzende pazar paylarımızı gösterir. Aylık hareketli düzendeki veriler, aylık dalgalanmaların giderilmesine yardımcı olur ve uzun vadeli eğilimleri gösterir. Her segment için pazar payındaki dalgalanmaları görmek için **Segmente göre Toplam Kategori Hacmi** çubuk grafiğinde **Convenience**’ı ve ardından **Moderation**’ı seçin. **Moderation** segmentinin pazar payında daha fazla dalgalanma gösterdiğini görebilirsiniz.
 
-Hâlâ Haziran'da pazar payında yaşanan büyük düşüşün sebebini öğrenmeye çalışıyoruz. Ardından, raporun **Yaklaşım Analizi** sayfasına göz atalım.
+Hala Haziran’da pazar payında yaşanan büyük düşüşün sebebini öğrenmeye çalışıyoruz. Ardından, raporun **Yaklaşım Analizi** sayfasına göz atalım.
 
 ### <a name="sentiment-analysis-page"></a>Yaklaşım Analizi sayfası
 Raporun üçüncü sayfası tüketici yaklaşımına odaklanır.
@@ -135,7 +135,7 @@ Raporun üçüncü sayfası tüketici yaklaşımına odaklanır.
 
 Tweetler, Facebook, bloglar ve makaleler, sayfanın sol tarafındaki iki çizgi grafiğinde gösterilen tüketici yaklaşımlarına katkıda bulunur. Sol üst köşedeki **VanArsdel - Aya göre Yaklaşım** grafiği, ürünlerimize yönelik yaklaşımın Şubat ayına kadar çoğunlukla nötr olduğunu gösteriyor. Ardından Şubat ayında ciddi bir düşüş başlamış ve Haziran'da en düşük seviyeye ulaşılmıştır. Yaklaşımdaki bu düşüşün sebebi nedir? 
 
-Dış kaynaklara bakalım. Şubat ayında birkaç makale ve blog gönderisinde, VanArsdel'in müşteri hizmetleri sektörün en kötüsü olarak değerlendirilmiştir. Basında yer alan bu kötü değerlendirmelerin müşteri yaklaşımı ve satış ile doğrudan bağıntısı olmuştur. VanArsdel, müşteri hizmetlerini geliştirmek için sıkı çalışmış, bu konuda müşterilerin ve sektörün dikkatini çekmiştir. Temmuz ayında pozitif yaklaşım artmaya başlamış ve 60'ları görerek en yüksek seviyesine ulaşmıştır. Yaklaşımdaki bu yukarı yöneliş, raporun birinci ve ikinci sayfasındaki **Aya göre Toplam Birim** grafiklerine yansıtılmıştır. Belki de bu, Haziran ayındaki pazar payı düşüşünü kısmen açıklıyor.
+Dış kaynaklara bakalım. Şubat ayında birkaç makale ve blog gönderisinde, VanArsdel’in müşteri hizmetleri sektörün en kötüsü olarak değerlendirilmiştir. Basında yer alan bu kötü değerlendirmelerin müşteri yaklaşımı ve satış ile doğrudan bağıntısı olmuştur. VanArsdel, müşteri hizmetlerini geliştirmek için sıkı çalışmış, bu konuda müşterilerin ve sektörün dikkatini çekmiştir. Temmuz ayında pozitif yaklaşım artmaya başlamış ve 60'ları görerek en yüksek seviyesine ulaşmıştır. Yaklaşımdaki bu yukarı yöneliş, raporun birinci ve ikinci sayfasındaki **Aya göre Toplam Birim** grafiklerine yansıtılmıştır. Belki de bu, Haziran ayındaki pazar payı düşüşünü kısmen açıklıyor.
 
 Yaklaşım aralığı keşfedilmesi gereken başka bir alan olabilir. Hangi bölgeler en yüksek yaklaşım aralığına sahip, yönetim bundan nasıl yararlanabilir ve bunu diğer bölgelerde nasıl çoğaltabilirler?
 
@@ -159,7 +159,7 @@ Raporun dördüncü sayfası rekabete dayalı ürün analizine odaklanır.
 Aşağıdaki bilgileri unutmayın:
 * Sol altta yer alan **Segmente göre Toplam Birim** grafiği, VanArsdel’in en güçlü iki segmenti dışında tüm kategori segmentlerini gösterir. VanArsdel için olası genişletme alanlarını belirlemek için her segmenti sırayla seçin. 
 * **Extreme** ve **Productivity** segmentlerinin diğerlerine göre daha hızlı bir şekilde büyüdüğünü görebilirsiniz. Ancak, bu segmentlerde rekabet göstermiyoruz. Bu segmentlere geçmek istiyorsak hangi segmentlerin hangi bölgelerde popüler olduğunu görmek için verilerimizden yararlanabiliriz. “Hangi bölgeler daha hızlı büyüyor?” ve "bu segmentteki en büyük rakibimiz kim olur?" gibi sorulara yanıt bulmak için daha kapsamlı bir inceleme yapabiliriz.
-* Haziran ayında pazar payımızda gözlemlenen küçülmeyi hatırlıyor musunuz? Haziran, **Productivity** segmenti için yoğun bir ay ve bu segmentte hiç faaliyet göstermiyoruz. Bu ayrıntı, Haziran ayında pazar payımızda yaşanan küçülmeye açıklama getirilmesine yardımcı olabilir.
+* Haziran ayında pazar payımızda gözlemlenen küçülmeyi hatırlıyor musunuz? Haziran, **Üretkenlik** segmenti için yoğun bir ay ve bu segmentte hiç faaliyet göstermiyoruz. Bu ayrıntı, Haziran ayında pazar payımızda yaşanan küçülmeye açıklama getirilmesine yardımcı olabilir.
 
 Görselleştirmeleri VanArsdel'e, segmente, aya ve bölgeye göre filtreleyerek VanArsdel için büyüme fırsatlarına ulaşabiliriz.
 

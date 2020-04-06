@@ -1,167 +1,191 @@
 ---
 title: Power BI ile hizmet sorumlusu
-description: Power BI içeriği eklemek üzere hizmet sorumlusunu kullanarak bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
+description: Power BI içeriği eklemek üzere hizmet sorumlusunu ve uygulama gizli dizisini kullanarak bir uygulamayı Azure Active Directory’ye kaydetmeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/12/2019
-ms.openlocfilehash: ce72abc3f3b60423344c2b28f39d9bdbfbcee7cd
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.date: 03/30/2020
+ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493515"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403554"
 ---
-# <a name="service-principal-with-power-bi"></a>Power BI ile hizmet sorumlusu
+# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
-**Hizmet sorumlusu** ile Power BI içeriğini bir uygulamaya ekleyebilir ve **yalnızca uygulama** belirteci ile Power BI'da otomasyonu kullanabilirsiniz. Hizmet sorumlusu **Power BI Embedded** kullanırken veya **Power BI görevlerini ve işlemlerini otomatikleştirirken** yararlıdır.
+Hizmet sorumlusu, bir Azure AD uygulamasının Power BI hizmet içeriğine ve API’lerine erişmesine izin vermek için kullanılan bir kimlik doğrulaması yöntemidir.
 
-Power BI Embedded ile çalışırken hizmet sorumlusu kullanmanın bazı avantajları vardır. Önemli avantajlarından biri, uygulamanızda kimlik doğrulaması yapmak için bir ana hesaba (yalnızca oturum açmak için bir kullanıcı adı ve parola olan Power BI Pro lisansı) gerek duymamanızdır. Hizmet sorumlusu uygulamanın kimliğini doğrulamak için bir uygulama kimliği ve uygulama gizli dizisi kullanır.
+Bir Azure Active Directory (Azure AD) uygulaması oluşturduğunuzda, bir [hizmet sorumlusu nesnesi](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) oluşturulur. Yalnızca *hizmet sorumlusu* olarak da bilinen hizmet sorumlusu nesnesi, Azure AD’nin uygulamanızın kimliğini doğrulamasına olanak sağlar. Kimlik doğrulandıktan sonra uygulama, Azure AD kiracı kaynaklarına erişebilir.
 
-Power BI görevlerini otomatikleştirmeye çalışırken hizmet sorumlularını her ölçekte işlemek ve yönetmek için de betik yazabilirsiniz.
+Hizmet sorumlusu, kimlik doğrulaması yapmak için Azure AD uygulamasının *Uygulama Kimliğini* ve şunlardan birini kullanır:
+* Uygulama gizli dizisi
+* Sertifika
 
-## <a name="application-and-service-principal-relationship"></a>Uygulama ve hizmet sorumlusu ilişkisi
+Bu makalede, *Uygulama Kimliği* ve *Uygulama gizli dizisi* kullanılarak hizmet sorumlusu kimlik doğrulaması açıklanmaktadır. Sertifikaya sahip bir hizmet sorumlusu kullanarak kimlik doğrulaması yapmak için bkz. [Power BI sertifika tabanlı kimlik doğrulaması]().
 
-Azure AD kiracısının güvenliğini sağlayan kaynaklara erişmek için erişim gerektiren varlık bir güvenlik sorumlusunu temsil eder. Bu eylem hem kullanıcılar (kullanıcı sorumlusu) hem de uygulamalar (hizmet sorumlusu) için geçerlidir.
+## <a name="method"></a>Yöntem
 
-Güvenlik sorumlusu Azure AD kiracısındaki kullanıcılar ve uygulamalar için erişim ilkesini ve izinleri tanımlar. Bu erişim ilkesi oturum açarken kullanıcı ve uygulamaların kimliğini doğrulama ve kaynak erişimi sırasında yetkilendirme gibi temel özellikleri etkinleştirir. Daha fazla bilgi için [Azure Active Directory’de (AAD) Uygulama ve hizmet sorumlusu](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) bölümüne bakın.
+Ekli analizlerle hizmet sorumlusunu ve uygulama kimliğini kullanmak için şu adımları izleyin:
 
-Azure portalında bir Azure AD uygulamasını kaydettiğinizde Azure AD kiracınızda iki nesne oluşturulur:
+1. [Azure AD uygulaması](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management) oluşturun.
 
-* [Uygulama nesnesi](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#application-object)
-* [Hizmet sorumlusu nesnesi](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+    1. Azure AD uygulamasının gizli dizisini oluşturun.
+    
+    2. Uygulamanın *Uygulama Kimliğini* ve *Uygulama gizli dizisini* alın.
 
-Uygulama nesnesini uygulamanızın tüm kiracılar arasında kullanılan *genel* gösterimi olarak ve hizmet sorumlusu nesnesini uygulamanızın belirli kiracılarda kullanılan *yerel* gösterimi olarak düşünün.
+    >[!NOTE]
+    >Bu adımlar, **1. Adım**’da açıklanmaktadır. Azure AD uygulaması oluşturma hakkında daha fazla bilgi için [Azure AD uygulaması oluşturma](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) makalesine göz atın.
 
-Uygulama nesnesi, buna karşılık gelen hizmet sorumlusu nesnelerini oluştururken kullanılmak üzere ortak ve varsayılan özelliklerin *türetildiği* şablon görevi görür.
+2. Bir Azure AD güvenlik grubu oluşturun.
 
-Uygulamanın kullanıldığı her kiracı için bir hizmet sorumlusu gereklidir. Bu uygulamanın oturum açıp kiracı tarafından korunan kaynaklara erişebilmesi için bir kimlik oluşturmasını sağlar. Tek kiracı uygulamasının (ana kiracısında) uygulama kaydı sırasında kullanılmak için oluşturulan ve onaylanan tek bir hizmet sorumlusu vardır.
+3. Power BI hizmeti yönetici ayarlarını etkinleştirin.
 
-## <a name="service-principal-with-power-bi-embedded"></a>Power BI Embedded ile hizmet sorumlusu
+4. Hizmet sorumlusunu çalışma alanınıza ekleyin.
 
-Hizmet sorumlusuyla, bir uygulama kimliği ve uygulama gizli dizisi kullanarak ana hesabınızın bilgilerini uygulamanızda maskeleyebilirsiniz. Kimliğini doğrulamak için artık uygulamanıza bir ana hesabı sabit kodlamanız gerekmez.
+5. İçeriğinizi ekleyin.
 
-**Power BI API’leri** ve **Power BI .NET SDK’sı** artık hizmet sorumlusunu kullanan çağrıları desteklediği için hizmet sorumlusuyla [Power BI REST API’lerini](https://docs.microsoft.com/rest/api/power-bi/) kullanabilirsiniz. Örneğin çalışma alanı oluşturma, çalışma alanlarına kullanıcı ekleme, çalışma alanlarından kullanıcı kaldırma ve çalışma alanlarına içerik aktarma gibi çalışma alanı değişiklikleri yapabilirsiniz.
+> [!IMPORTANT]
+> Hizmet sorumlusunun Power BI ile kullanımını etkinleştirdikten sonra, uygulamanın AD izinleri artık geçerli olmaz. Bundan sonra uygulamanın izinleri Power BI yönetim portalı üzerinden yönetilir.
 
-Hizmet sorumlusunu yalnızca Power BI yapıtlarınız ve kaynaklarınız [yeni Power BI çalışma alanında](../../service-create-the-new-workspaces.md) depolanıyorsa kullanabilirsiniz.
+## <a name="step-1---create-an-azure-ad-app"></a>1\. Adım: Azure AD uygulaması oluşturma
 
-## <a name="service-principal-vs-master-account"></a>Hizmet sorumlusu ve ana hesap
+Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
+* Uygulamayı [Microsoft Azure portalında](https://ms.portal.azure.com/#allservices) oluşturma.
+* Uygulamayı [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) kullanarak oluşturma.
 
-Kimlik doğrulaması için bir hizmet sorumlusu kullanmakla standart ana hesap (Power BI Pro lisansı) kullanmanın farkları vardır. Aşağıdaki tablo bazı önemli farkları vurgular.
+### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portalında Azure AD uygulaması oluşturma
 
-| İşlev | Ana Kullanıcı Hesabı <br> (Power BI Pro lisansı) | Hizmet Sorumlusu <br> (yalnızca uygulama belirteci) |
-|------------------------------------------------------|---------------------|-------------------|
-| Power BI hizmetinde oturum açabilir  | Evet | Hayır |
-| Power BI Yönetim portalında etkindir | Hayır | Evet |
-| [Çalışma alanlarıyla çalışır (v1)](../../service-create-workspaces.md) | Evet | Hayır |
-| [Yeni çalışma alanlarıyla çalışır (v2)](../../service-create-the-new-workspaces.md) | Evet | Evet |
-| Power BI Embedded ile kullanıldığında çalışma alanı yöneticisi olması gerekir | Evet | Evet |
-| Power BI REST API’lerini kullanabilir | Evet | Evet |
-| Oluşturulması için genel yönetici gerekir | Evet | Hayır |
-| Şirket içi veri ağ geçidini yükleyebilir ve yönetebilir | Evet | Hayır |
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
 
-## <a name="get-started-with-a-service-principal"></a>Hizmet sorumlusuyla çalışmaya başlama
+2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısına tıklayın.
 
-Ana hesabın geleneksel kullanımının aksine, hizmet sorumlusu (yalnızca uygulama belirteci) kullanmak için birkaç farklı parçanın ayarlanması gerekir. Hizmet sorumlusuyla (yalnızca uygulama belirteci) çalışmaya başlamak için doğru ortamı ayarlamanız gerekir.
+    ![azure uygulaması kaydı](media/embed-service-principal/azure-app-registration.png)
 
-1. Azure Active Directory’de (AAD) Power BI ile kullanılacak [bir sunucu tarafı web uygulaması kaydedin.](register-app.md) Uygulamayı kaydettikten sonra uygulama kimliği, uygulama gizli dizisi ve hizmet sorumlusu nesne kimliği elde ederek Power BI içeriğinize erişebilirsiniz. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir hizmet sorumlusu oluşturabilirsiniz.
+3. **Yeni kayıt**’a tıklayın.
 
-    Yeni bir Azure Active Directory uygulaması oluşturmak için örnek betik aşağıda verilmiştir.
+    ![yeni kayıt](media/embed-service-principal/new-registration.png)
 
-    ```powershell
-    # The app id - $app.appid
-    # The service principal object id - $sp.objectId
-    # The app key - $key.value
+4. Gereken bilgileri doldurun:
+    * **Ad**: Uygulamanız için bir ad girin
+    * **Desteklenen hesap türleri**: Desteklenen hesap türlerini seçin
+    * (İsteğe bağlı) **Yeniden Yönlendirme URI’si**: Gerekirse bir URI girin
 
-    # Sign in as a user that is allowed to create an app.
-    Connect-AzureAD
+5. **Kaydet**’e tıklayın.
 
-    # Create a new AAD web application
-    $app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+6. Kaydolduktan sonra, *Uygulama Kimliğini* **Genel Bakış** sekmesinde bulabilirsiniz. Daha sonra kullanmak için *Uygulama Kimliğini* kopyalayıp kaydedin.
 
-    # Creates a service principal
-    $sp = New-AzureADServicePrincipal -AppId $app.AppId
+    ![uygulama kimliği](media/embed-service-principal/application-id.png)
 
-    # Get the service principal key.
-    $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
-    ```
+7. **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
-   > [!Important]
-   > Hizmet sorumlusunun Power BI ile kullanımını etkinleştirdikten sonra, uygulamanın AD izinleri artık geçerli olmaz. Bundan sonra uygulamanın izinleri Power BI yönetim portalı üzerinden yönetilir.
+     ![uygulama kimliği](media/embed-service-principal/certificates-and-secrets.png)
 
-2.  **Önerilen** - [Azure Active Directory’de (AAD) bir güvenlik grubu](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) oluşturun ve oluşturduğunuz uygulamayı bu güvenlik grubuna ekleyin. [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) ile bir AAD güvenlik grubu oluşturabilirsiniz.
+8. **Yeni istemci gizli dizisine** tıklayın.
 
-    Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örnek betik aşağıda verilmiştir.
+    ![yeni istemci gizli dizisi](media/embed-service-principal/new-client-secret.png)
 
-    ```powershell
-    # Required to sign in as a tenant admin
-    Connect-AzureAD
+9. *İstemci gizli dizisi ekle* penceresinde açıklama girin, istemci gizli dizisinin süresinin ne zaman dolmasını istediğinizi belirleyin ve **Ekle**’ye tıklayın.
 
-    # Create an AAD security group
-    $group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
+10. *İstemci gizli dizisi* değerini kopyalayıp kaydedin.
 
-    # Add the service principal to the group
-    Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-    ```
+    ![istemci gizli dizi değeri](media/embed-service-principal/client-secret-value.png)
 
-3. Power BI Yöneticisi olarak hizmet sorumlusunu Power BI yönetim portalının **Geliştirici ayarları**'nda etkinleştirmeniz gerekir. Azure AD'de oluşturduğunuz güvenlik grubunu **Geliştirici ayarları**'nın Belirli bir güvenlik grubu bölümüne ekleyin. Ayrıca kuruluşun tamamı için hizmet sorumlusu erişimini de etkinleştirebilirsiniz. Bu durumda 2. adım gerekli değildir.
+    >[!NOTE]
+    >Siz bu pencereden çıktıktan sonra gizli dizi değeri gizlendiğinden, yeniden görüntüleyip kopyalayamazsınız.
 
-   > [!Important]
-   > Hizmet sorumlularının, tüm kuruluş için etkinleştirilmiş veya grubun parçası olarak hizmet sorumlularına sahip olan güvenlik grupları için etkinleştirilmiş tüm kiracı ayarlarına erişimi vardır. Belirli kiracı ayarlarına hizmet sorumlusu erişimini kısıtlamak için, yalnızca belirli güvenlik gruplarına erişime izin verin veya hizmet sorumluları için adanmış bir güvenlik grubu oluşturup hariç tutun.
+### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell kullanarak Azure AD uygulaması oluşturma
 
-    ![Yönetici portalı](media/embed-service-principal/admin-portal.png)
+Bu bölüm, [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
 
-4. [Power BI ortamınızı](embed-sample-for-customers.md#set-up-your-power-bi-environment) ayarlayın.
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
 
-5. Hizmet sorumlusunu oluşturduğunuz yeni çalışma alanına **yönetici** olarak ekleyin. Bu görevi [API’ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
 
-    ![Çalışma alanına yönetici olarak bir hizmet sorumlusu ekleme](media/embed-service-principal/add-service-principal-in-the-UI.png)
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
 
-6. Şimdi içeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine eklemeyi seçin.
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
 
-    * [Örnek uygulamayı kullanarak içeriği ekleme](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [İçeriği uygulamanızın içine ekleme](embed-sample-for-customers.md#embed-content-within-your-application)
+# Get the service principal key
+$key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
+```
 
-7. Artık [üretime geçmeye](embed-sample-for-customers.md#move-to-production) hazırsınız.
+## <a name="step-2---create-an-azure-ad-security-group"></a>2\. Adım: Azure AD güvenlik grubu oluşturma
 
-## <a name="migrate-to-service-principal"></a>Hizmet sorumlusuna geçme
+Hizmet sorumlunuz Power BI içeriklerinize ve API’lerinize erişemez. Hizmet sorumlusuna erişim vermek için Azure AD’de bir güvenlik grubu oluşturun ve oluşturduğunuz hizmet sorumlusunu bu güvenlik grubuna ekleyin.
 
-Şu anda Power BI veya Power BI Embedded ile bir ana hesap kullanıyorsanız hizmet sorumlusu kullanmaya geçebilirsiniz.
+Azure AD güvenlik grubu oluşturmanın iki yolu vardır:
+* El ile (Azure’da)
+* PowerShell'i kullanma
 
-[Hizmet sorumlusuyla çalışmaya başlama](#get-started-with-a-service-principal) bölümündeki ilk üç adımı tamamlandıktan sonra aşağıdaki bilgileri izleyin.
+### <a name="create-a-security-group-manually"></a>El ile güvenlik grubu oluşturma
 
-Power BI’da zaten [yeni çalışma alanlarını](../../service-create-the-new-workspaces.md) kullanıyorsanız Power BI yapıtlarınızla hizmet sorumlusunu çalışma alanlarına **yönetici** olarak ekleyin. Öte yandan, [geleneksel çalışma alanlarını](../../service-create-workspaces.md) kullanıyorsanız Power BI yapıtlarınızı yeni çalışma alanına kopyalayın veya taşıyın ve ardından hizmet sorumlusunu bu çalışma alanlarına **yönetici** olarak ekleyin.
+El ile Azure güvenlik grubu oluşturmak için [Temel grup oluşturma ve Azure Active Directory kullanarak üye ekleme](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) makalesindeki yönergeleri izleyin. 
 
-Power BI yapıtlarını ve kaynaklarını bir çalışma alanından diğerine taşımak için kullanıcı arabirimi özelliği yoktur; dolayısıyla bu görevi gerçekleştirmek için [API’leri](https://powerbi.microsoft.com/pt-br/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) kullanmanız gerekir. Hizmet sorumlusuyla API’leri kullanırken hizmet sorumlusu nesne kimliği gerekir.
+### <a name="create-a-security-group-using-powershell"></a>PowerShell kullanarak güvenlik grubu oluşturma
 
-### <a name="how-to-get-the-service-principal-object-id"></a>Hizmet sorumlusu nesne kimliğini alma
+Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örnek betik aşağıda verilmiştir.
 
-Yeni çalışma alanına bir hizmet sorumlusu atamak için [Power BI REST API’lerini](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) kullanırsınız. İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **hizmet sorumlusu nesne kimliğini** kullanırsınız.
+>[!NOTE]
+>Hizmet sorumlusu erişimini kuruluşun tamamı için etkinleştirmek istiyorsanız bu adımı atlayın.
 
-Azure portalından hizmet sorumlusu nesne kimliğini alma adımları aşağıda verilmiştir.
+```powershell
+# Required to sign in as a tenant admin
+Connect-AzureAD
 
-1. Azure portalında yeni Uygulama kaydı oluşturun.  
+# Create an Azure AD security group
+$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
 
-2. Ardından **Yerel dizinde yönetilen uygulama** alanının altında, oluşturduğunuz uygulamanın adını seçin.
+# Add the service principal to the group
+Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
+```
 
-   ![Yerel dizinde yönetilen uygulama](media/embed-service-principal/managed-application-in-local-directory.png)
+## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>3\. Adım: Power BI hizmeti yönetici ayarlarını etkinleştirme
 
-    > [!NOTE]
-    > Yukarıdaki resimde yer alan nesne kimliği hizmet sorumlusu ile kullanılan kimlik değildir.
+Bir Azure AD uygulamasının Power BI içeriğine ve API’lerine erişebilmesi için, bir Power BI yöneticisinin Power BI yönetici portalında hizmet sorumlusu erişimini etkinleştirmesi gerekir.
 
-3. Nesne Kimliğini görmek için **Özellikler**’i seçin.
+Azure AD’de oluşturduğunuz güvenlik grubunu **Geliştirici ayarlarının** belirli bir güvenlik grubu bölümüne ekleyin.
 
-    ![Hizmet sorumlusu nesne kimliği özellikleri](media/embed-service-principal/service-principal-object-id-properties.png)
+>[!IMPORTANT]
+>Hizmet sorumluları, etkinleştirilmiş oldukları tüm kiracı ayarlarına erişebilir. Yönetici ayarlarınıza bağlı olarak bu, belirli güvenlik gruplarını veya kuruluşun tamamını içerir.
+>
+>Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için yalnızca belirli güvenlik gruplarına erişim izni verin. Dilerseniz hizmet sorumluları için ayrılmış bir güvenlik grubu oluşturabilir ev bu grubu istediğiniz kiracı ayarlarından dışlayabilirsiniz.
 
-PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağıda verilmiştir.
+![Yönetici portalı](media/embed-service-principal/admin-portal.png)
 
-   ```powershell
-   Get-AzureADServicePrincipal -Filter "DisplayName eq '<application name>'"
-   ```
+## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>4\. Adım: Hizmet sorumlusunu çalışma alanınıza yönetici olarak ekleme
+
+Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama erişim yapıtlarınızı etkinleştirmek için, hizmet sorumlusu varlığını çalışma alanınıza üye veya yönetici olarak ekleyin.
+
+>[!NOTE]
+>Bu bölümde, kullanıcı arabirimi yönergeleri sağlanır. Ayrıca, [Gruplar - grup kullanıcı API’si eklemeyi](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) kullanarak çalışma alanına bir hizmet sorumlusu ekleyebilirsiniz.
+
+1. Erişimini etkinleştirmek istediğiniz çalışma alanına gidin ve **Daha fazla** menüsünden **Çalışma alanı erişimini** seçin.
+
+    ![Çalışma alanı ayarları](media/embed-service-principal/workspace-access.png)
+
+2. Hizmet sorumlusunu çalışma alanına **Yönetici** veya **Üye** olarak ekleyin.
+
+    ![Çalışma alanı yöneticisi](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
+## <a name="step-5---embed-your-content"></a>5\. Adım: İçeriğinizi ekleme
+
+İçeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine ekleyebilirsiniz.
+
+* [Örnek uygulamayı kullanarak içeriği ekleme](embed-sample-for-customers.md#embed-content-using-the-sample-application)
+* [İçeriği uygulamanızın içine ekleme](embed-sample-for-customers.md#embed-content-within-your-application)
+
+İçeriğinizi ekledikten sonra [üretime taşımaya](embed-sample-for-customers.md#move-to-production) hazırsınızdır.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
@@ -178,7 +202,8 @@ PowerShell ile hizmet sorumlusu nesne kimliğini almak için örnek betik aşağ
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Uygulamayı kaydetme](register-app.md)
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
-* [Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
 * [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+* [Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme]()

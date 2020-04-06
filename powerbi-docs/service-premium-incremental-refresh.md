@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527648"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361805"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -136,7 +136,7 @@ On günlük artımlı yenileme, beş yılın tam yenilemesini yapmaktan çok dah
 >
 > Duyarlılığı, yenileme sıklığı gereksinimleriniz için kabul edilebilir bir düzeye indirin.
 >
-> Daha sonraki bir tarihte veri değişikliği algılaması için özel sorguların tanımına olanak sağlamayı planlıyoruz. Bu, sütun değerinin olduğu gibi kalıcı duruma getirilmesini önlemek için kullanılabilir.
+> XMLA uç noktasını kullanarak veri değişikliklerini algılamak için özel bir sorgu tanımlayın ve sütun değerinin olduğu gibi kalıcı hale getirilmesini önleyin. Daha fazla bilgi için veri değişikliklerini algılamaya yönelik aşağıdaki özel sorgulara göz atın.
 
 #### <a name="only-refresh-complete-periods"></a>Yalnızca tam dönemleri yenileme
 
@@ -155,7 +155,7 @@ Ayın 12. takvim gününde önceki ayın verilerinin onaylandığı bir finansal
 
 ## <a name="query-timeouts"></a>Sorgu zaman aşımları
 
-[Yenileme sorunlarını giderme](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) makalesinde, Power BI hizmetindeki yenileme işlemlerinin zaman aşımına tabi olduğu açıklanmaktadır. Sorgular, veri kaynağı için varsayılan zaman aşımıyla da sınırlanabilir. Çoğu ilişkisel kaynak, M ifadesindeki zaman aşımlarının geçersiz kılınmasına olanak sağlar. Örneğin, aşağıdaki ifadede zaman aşımını 2 saate ayarlamak için [SQL Server veri erişimi işlevi](https://msdn.microsoft.com/query-bi/m/sql-database) kullanılır. İlke aralıkları tarafından tanımlanan her dönem, komut zaman aşımı ayarını gözlemleyerek bir sorgu gönderir.
+[Yenileme sorunlarını giderme](refresh-troubleshooting-refresh-scenarios.md) makalesinde, Power BI hizmetindeki yenileme işlemlerinin zaman aşımına tabi olduğu açıklanmaktadır. Sorgular, veri kaynağı için varsayılan zaman aşımıyla da sınırlanabilir. Çoğu ilişkisel kaynak, M ifadesindeki zaman aşımlarının geçersiz kılınmasına olanak sağlar. Örneğin, aşağıdaki ifadede zaman aşımını 2 saate ayarlamak için [SQL Server veri erişimi işlevi](https://docs.microsoft.com/powerquery-m/sql-database) kullanılır. İlke aralıkları tarafından tanımlanan her dönem, komut zaman aşımı ayarını gözlemleyerek bir sorgu gönderir.
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>Sınırlamalar
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>Artımlı yenileme için XMLA uç noktası avantajları
 
-Şu anda [bileşik modeller](desktop-composite-models.md) için yalnızca SQL Server, Azure SQL Veritabanı, SQL Veri Ambarı, Oracle, ve Teradata veri kaynaklarında artımlı yenileme desteklenmektedir.
+Premium kapasitedeki veri kümeleri için [XMLA uç noktası](service-premium-connect-tools.md), artımlı yenilemeye yönelik önemli avantajlar sağlayabilen okuma/yazma işlemleri için etkinleştirilebilir. XMLA uç noktası üzerinden yapılan yenileme işlemleri [günlük 48 yenileme işlemiyle](refresh-data.md#data-refresh) sınırlı değildir ve [zamanlanan yenileme zaman aşımı](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) uygulanmaz. Bu sayede bu işlemler artımlı yenileme senaryolarında yararlı olabilir.
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>SQL Server Management Studio (SSMS) ile yenileme yönetimi
+
+Okuma/yazma özelliği etkin XMLA uç noktası sayesinde SSMS, artımlı yenileme ilkelerinin uygulanması sonucu oluşan bölümleri görüntüleyip yönetmek için kullanılabilir.
+
+![SSMS’de bölümler](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>Geçmiş bölümleri yenileme
+
+Bu işlem, tüm geçmiş verileri yenilemek zorunda kalmadan geriye dönük güncelleştirmek yapmak için artımlı aralıkta bulunmayan belirli bir geçmiş bölümü yenilemeye olanak sağlar.
+
+#### <a name="override-incremental-refresh-behavior"></a>Artımlı yenileme davranışını geçersiz kılma
+
+SSMS sayesinde [Tablosal Model Betik Dili (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) ve [Tablosal Nesne Modeli (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) kullanarak artımlı yenilemeleri çağırma konusunda daha fazla denetime sahip olursunuz. Örneğin SSMS’deki Nesne Gezgini’nde bir tabloya sağ tıklayıp **Tabloyu İşle** menü seçeneğini belirleyin. Ardından bir TMSL yenileme komutu oluşturmak için **Betik** düğmesine tıklayın.
+
+![Tabloyu İşle iletişim kutusundaki Betik düğmesi](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+Aşağıdaki parametreler, varsayılan artımlı yenileme davranışını geçersiz kılmak için TMSL yenileme komutuna eklenebilir.
+
+- **applyRefreshPolicy**: Bir tabloda artımlı yenileme ilkesi tanımlanmışsa applyRefreshPolicy, ilkenin uygulanıp uygulanmadığını belirler. İlke uygulanmamışsa, eksiksiz bir işleme işlemi bölüm tanımlarını değiştirmeden bırakır ve tablodaki tüm bölümler tamamen yenilenmiş olur. True varsayılan değerdir.
+
+- **effectiveDate**: Artımlı yenileme ilkesi uygulanmaktaysa geçmiş aralık ve artımlı aralık için sıralı pencere aralıklarını belirlemek amacıyla geçerli tarihi bilmesi gerekir. effectiveDate parametresi geçerli tarihi geçersiz kılmanıza olanak verir. Bu parametre, verilerin artımlı bir şekilde geçmişteki veya gelecekteki bir tarihe kadar yenilendiği (örneğin, gelecek bütçeler) test, tanıtım ve işletme senaryoları için yararlıdır. Varsayılan değer [geçerli tarihtir](#current-date).
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>Veri değişikliklerini algılamak için özel sorgular
+
+Algılanan veri değişiklikleri davranışını geçersiz kılmak için TMSL ve/veya TOM kullanabilirsiniz. Bu yalnızca bellek içi önbellekteki son güncelleştirilen sütunun kalıcı önlemek amacıyla değil, aynı zamanda yalnızca yenilenmesi gereken bölümleri işaretlemek üzere yapılandırma/yönerge tablosunun ETL işlemleri tarafından hazırlandığı senaryoların etkinleştirilmesi için de kullanılabilir. Bu işlem, veri güncelleştirmelerinin ne kadar süre önce yapıldığı fark etmeksizin, yalnızca gerekli aralıkların yenilendiği daha verimli bir artımlı yenileme işlemi oluşmasını sağlar.
+
+pollingExpression parametresinin basit bir M ifadesi veya başka bir M sorgusunun adı olması amaçlanmıştır. Skaler bir değer döndürmelidir ve her bölüm için yürütülür. Döndürülen değer, bir artımlı yenilemenin son kez gerçekleştiği zamandan farklıysa bölüm, tam işleme için işaretlenir.
+
+Aşağıdaki örnek geriye dönük değişikliklere yönelik geçmiş aralığındaki 120 ayın tümünü ele alır. 10 yıl yerine 120 ay belirterek yapılan veri sıkıştırma işlemi çok verimli olmayabilir, ancak geriye dönük değişiklik için tek bir ayın yeterli olacağı durumlarda çok daha maliyetli olabilecek tam bir geçmiş yılı yenileme işleminin önüne geçer.
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>Yalnızca meta veri dağıtımı
+
+Power BI Desktop’taki bir PBIX dosyasının yeni sürümünü Power BI hizmetindeki bir çalışma alanına yayımladığınızda, aynı ada sahip başka bir veri kümesi varsa mevcut veri kümesini değiştirmeniz istenir.
+
+![Veri kümesini değiştirin istemi](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+Özellikle artımlı yenilemenin olduğu gibi bazı durumlarda veri kümesini değiştirmek istemeyebilirsiniz. Power BI Desktop’taki veri kümesi, hizmettekinden çok daha küçük olabilir. Hizmetteki veri kümesine artımlı yenileme ilkesi uygulandıysa veri kümesinde, küme değiştirildiğinde kaybedilebilecek birkaç yıllık geçmiş veri bulunuyor olabilir. Tüm geçmiş verilerin yenilenmesi saatler sürebilir ve kullanıcılar için sistem kapalı kalma süresine yol açabilir.
+
+Bunun yerine, yalnızca meta veri dağıtımı gerçekleştirmek daha iyi bir seçenektir. Bu işlem, geçmiş verileri kaybetmeden yeni nesnelerin dağıtılmasına olanak verir. Örneğin, birkaç ölçü eklediyseniz verileri yenilemek zorunda kalmadan yalnızca yeni ölçüleri dağıtıp bolca zaman kazanabilirsiniz.
+
+Okuma/yazma için yapılandırıldığında XMLA uç noktası, bu işlemi gerçekleştiren araçlarla uyumluluk sağlar. Örneğin ALM Araç Seti, Power BI veri kümelerine yönelik bir şema ayrıştırma aracıdır ve yalnızca meta verilerin dağıtılması için kullanılabilir.
+
+ALM Araç Seti’nin en son sürümünü [Analysis Services Git deposundan](https://github.com/microsoft/Analysis-Services/releases) indirip yükleyebilirsiniz. Desteklenebilirlik hakkında belge bağlantılarına ve bilgilere Yardım şeridinden ulaşabilirsiniz. Yalnızca meta veri dağıtımı gerçekleştirmek için bir karşılaştırma yapın. Ardından, çalışan Power BI Desktop örneğini kaynak olarak, hizmetteki mevcut veri kümesini de hedef olarak seçin. Görüntülenen farkları değerlendirin ve artımlı yenileme bölümleri içeren tablonun güncelleştirmesini atlayın veya Seçenekler iletişim kutusunu kullanarak tablo güncelleştirmelerine yönelik parçaları koruyun. Hedef modelin bütünlüğünü sağlamak için seçimi doğrulayın, ardından güncelleştirin.
+
+![ALM Araç Seti](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>Ayrıca bkz.
+
+[XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
+[Yenileme ile ilgili sorun giderme senaryoları](refresh-troubleshooting-refresh-scenarios.md)   

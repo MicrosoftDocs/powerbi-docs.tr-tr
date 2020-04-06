@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201413"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464640"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Gelişmiş veri kümesi meta verilerini kullanma (önizleme)
 
@@ -24,6 +24,8 @@ Power BI Desktop, rapor oluşturduğunda, ilgili PBIX ve PBIT dosyalarında da v
 
 
 **Gelişmiş veri kümesi meta verileri** özelliği stratejik ve temel niteliktedir; gelecekteki Power BI işlevleri bunun meta verileri temelinde oluşturulur. Gelişmiş veri kümesi meta verilerinden yararlanan bazı ek özellikler arasında, Power BI veri kümelerinin yönetimi için [XMLA okuma/yazma](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite) ve yeni nesil özelliklerden yararlanmak için Analysis Services iş yüklerinden Power BI’a geçiş yer alır.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>Gelişmiş veri kümesi meta verilerini etkinleştirme
 
@@ -36,6 +38,9 @@ Power BI Desktop’ı yeniden başlatmanız istenir.
 ![Yeniden başlatma istemi](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 Önizleme özelliği etkinleştirildikten sonra Power BI Desktop, önceki meta veri biçimini kullanan PBIX ve PBIT dosyalarını yükseltmeye çalışır. 
+
+> [!IMPORTANT]
+> **Gelişmiş veri kümesi meta verileri** özelliğinin etkinleştirilmesi, raporlara geri alınamayan bir yükseltme uygulanmasıyla sonuçlanır. **Gelişmiş veri kümesi meta verileri** etkinleştirildikten sonra, Power BI Desktop ile yüklenen veya oluşturulan Power BI raporları, geri alınamayacak şekilde gelişmiş veri kümesi meta verileri biçimine dönüştürülür.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

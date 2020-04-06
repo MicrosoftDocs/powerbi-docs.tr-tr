@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381181"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329654"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
-Power BI Premium, kuruluşunuzda Power BI hizmetinin çalıştırılması için ayrılmış ve iyileştirilmiş kaynaklar sağlar. Örnek:
+Kuruluşunuz için ayrılmış ve gelişmiş kaynakları edinmek için Power BI Premium kullanabilirsiniz. Böylece kuruluşunuzdaki kullanıcılar, Power BI hizmetini daha iyi performans ve daha yüksek yanıtlama hızıyla kullanabilir. Örneğin, siz ve kuruluşunuz bir Power BI Premium aboneliğiyle şunlara erişim elde edersiniz:
 
 > [!div class="checklist"]
 > * Daha büyük ölçek ve performans
@@ -29,13 +29,16 @@ Power BI Premium, kuruluşunuzda Power BI hizmetinin çalıştırılması için 
 > * Bölgeye göre veri yerleşimi desteği (Multi-Geo)
 > * Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
 
+
+![Yönetici portalı](media/service-premium-what-is/premium-admin-portal.png) 
+
 Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır. Power BI Pro ve Power BI Premium hakkında daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 
 Power BI Premium iki SKU (Stok Saklama Birimi) ailesinde sağlanan kiracı düzeyi bir Office 365 aboneliğidir:
 
-- **P** SKU'ları (P1-P3) eklemeye ve kurumsal özelliklere yöneliktir, aylık veya yıllık taahhüt gerektirir, aylık faturalanır ve şirket içinde Power BI Rapor Sunucusu'nu yüklemek için bir lisans içerir.
+- **P** SKU’ları (P1-P5) eklemeye ve kurumsal özelliklere yöneliktir, aylık veya yıllık taahhüt gerektirir, aylık faturalanır ve şirket içinde Power BI Rapor Sunucusu’nu yüklemek için bir lisans içerir.
 
 - **EM** SKU'ları (EM1-EM3) _kurumsal_ eklemeye yöneliktir, yıllık taahhüt gerektirir, aylık faturalanır. EM1 ve EM2 SKU'ları yalnızca toplu lisans planlarıyla sağlanır. Bunları doğrudan satın alamazsınız.
 
@@ -81,6 +84,8 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -229,13 +234,14 @@ Daha fazla bilgi edinmek için bkz. [Power BI lisansı](service-admin-licensing-
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium’da Analysis Services (Önizleme)
 
-Yakından bakıldığında Power BI veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertipaq altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Şu anda Power BI Premium veri kümeleri **XMLA uç noktaları** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. 
+Yakından bakıldığında Power BI Premium çalışma alanlarına ve veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertipaq altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
 
-SQL Server Management Studio ve SQL Server Profiler gibi Microsoft araçları ile DAX Studio ve veri görselleştirme uygulamaları gibi üçüncü taraf uygulamaları XMLA, DAX, MDX, DMV ve Trace olaylarını kullanarak Premium veri kümelerine bağlanabilir ve bunları sorgulayabilir. 
+Salt okunur erişim sayesinde, SQL Server Management Studio (SSMS) ve SQL Server Profiler gibi Microsoft araçları ile DAX Studio ve veri görselleştirme uygulamaları gibi üçüncü taraf uygulamaları XMLA, DAX, MDX, DMV ve Trace olaylarını kullanarak Premium veri kümelerine bağlanabilir ve bunları sorgulayabilir. Okuma/yazma erişimi sayesinde, Analysis Services projeleri uzantısına veya açık kaynaklı Tablosal Düzenleyici’ne sahip Visual Studio gibi kurumsal modelleme araçları, tablosal modelleri Premium çalışma alanlarına veri kümesi olarak dağıtabilir. Son olarak, SSMS gibi araçlar sayesinde yöneticiler, betik meta veri değişikliklerinde ve gelişmiş veri yenileme senaryolarında Tablosal Model Betik Dilini (TMSL) kullanabilir. 
+
+Daha fazla bilgi için bkz. [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md).
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-Daha fazla bilgi için bkz. [İstemci uygulaması ve araçlarıyla veri kümelerine bağlanma](service-premium-connect-tools.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

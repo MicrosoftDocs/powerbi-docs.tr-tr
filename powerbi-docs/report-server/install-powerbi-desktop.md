@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381135"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404194"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 
@@ -62,7 +62,7 @@ Power BI Rapor Sunucusu’nda Power BI raporunu düzenlediğinizde veya web port
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-Power BI mobil uygulamalarında ve Power BI hizmetinde yer alan Power BI Rapor Sunucusu Power BI raporları (https://app.powerbi.com), birkaç farklı özellik dışında hemen hemen aynı görevi görür.
+Power BI mobil uygulamalarında ve Power BI hizmetinde yer alan Power BI Rapor Sunucusu’ndaki Power BI raporları (`https://app.powerbi.com`), birkaç farklı özellik dışında hemen hemen aynı görevi görür.
 
 ### <a name="selecting-a-language"></a>Dil seçme
 

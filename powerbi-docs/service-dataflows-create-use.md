@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040436"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404748"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI'da veri akışlarını oluşturma ve kullanma
 
@@ -32,7 +32,7 @@ Veri akışını kullanmanın başlıca üç adımı vardır:
 2. Veri akışınıza getirmek istediğiniz verilerin yenileme sıklığını zamanlama
 3. Power BI Desktop kullanıp veri akışınızdan yararlanarak veri kümesini oluşturma 
 
-Aşağıdaki bölümlerde, bu adımlardan her birini gözden geçirecek ve her adımı tamamlamak için sağlanan araçları tanıyacağız. Başlayalım.
+Aşağıdaki bölümlerde, bu adımlardan her birini gözden geçirecek ve her adımı tamamlamak için sağlanan araçları tanıyacağız. Haydi başlayalım.
 
 ## <a name="creating-a-dataflow"></a>Veri akışı oluşturma
 Veri akışı oluşturmak için, tarayıcıda Power BI hizmetini başlatın ve ardından aşağıdaki ekranda gösterildiği gibi sol taraftaki gezinti bölmesinden **çalışma alanını** (veri akışları Power BI hizmetindeki *my-workspace* içinde kullanılamaz) seçin. İçinde yeni veri akışı oluşturmak üzere yeni bir çalışma alanı da oluşturabilirsiniz. 
@@ -75,7 +75,7 @@ Sorgu Düzenleyicisi'nin her adımda oluşturduğu kodu görmek veya kendi şeki
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>Veri akışları ve Ortak Veri Modeli (CDM)
 
-Veri akışı varlıkları, iş verilerinizi Ortak Veri Modeli'yle (Microsoft'un standartlaştırılmış şeması) kolayca eşlemenizi, bunu Microsoft ve üçüncü taraf verileriyle zenginleştirmenizi, makine öğrenmesine basitleştirilmiş erişim elde etmenizi sağlayan yeni araçlar içerir. İş verilerinize zeka ve eyleme dönüştürülebilir içgörüler getirmek için bu yeni özelliklerden yararlanılabilir. Sorguları Düzenleme adımındaki tüm dönüştürmeleri tamamladıktan sonra, veri kaynağı tablolarınızdaki sütunları Ortak Veri Modeli'yle de tanımlanan standart varlık alanlarına eşleyebilirsiniz. Standart varlıkların ortak veri modeliyle tanımlanan, bilinen bir şeması vardır.
+Veri akışı varlıkları, iş verilerinizi Common Data Model ile (Microsoft’un standartlaştırılmış şeması) kolayca eşlemenizi, bunu Microsoft ve üçüncü taraf verileriyle zenginleştirmenizi, makine öğrenmesine basitleştirilmiş erişim elde etmenizi sağlayan yeni araçlar içerir. İş verilerinize zeka ve eyleme dönüştürülebilir içgörüler getirmek için bu yeni özelliklerden yararlanılabilir. Sorguları Düzenleme adımındaki tüm dönüştürmeleri tamamladıktan sonra, veri kaynağı tablolarınızdaki sütunları Common Data Model ile de tanımlanan standart varlık alanlarına eşleyebilirsiniz. Standart varlıkların ortak veri modeliyle tanımlanan, bilinen bir şeması vardır.
 
 [Ortak Veri Modeli nedir?](https://docs.microsoft.com/powerapps/common-data-model/overview) makalesinde, bu yaklaşım hakkında ve Ortak Veri Modeli hakkında daha fazla bilgi bulabilirsiniz.
 
@@ -92,7 +92,7 @@ Ortak Veri Modeli standart varlığını korumak için, eşlenmeyen tüm standar
 
 Eşlemenin sonucunda özel alanlar içeren bir standart varlık elde etmeyi güvence altına almak için, eşlenmeyen tüm kaynak sütunlar olduğu gibi kalır.
 
-Seçimlerinizi tamamladıktan sonra, varlığınız ile onun veri ayarları kaydedilmeye hazır olduğunda menüden **Kaydet**'i seçebilirsiniz. **Varlık ekle** düğmesini seçerek birden çok varlık oluşturabileceğinizi ve oluşturduğunuz sorgularla varlıkları geliştirmek için varlıkları düzenleyebileceğinizi unutmayın.
+Seçimlerinizi tamamladıktan sonra, varlığınız ile onun veri ayarları kaydedilmeye hazır olduğunda menüden **Kaydet**’i seçebilirsiniz. **Varlık ekle** düğmesini seçerek birden çok varlık oluşturabileceğinizi ve oluşturduğunuz sorgularla varlıkları geliştirmek için varlıkları düzenleyebileceğinizi unutmayın.
 
 ![Varlık eşlemesini kaydetme](media/service-dataflows-create-use/dataflows-create-use_09.png)
 
@@ -150,9 +150,9 @@ Bazı durumlarda veri akışlarının veri kaynaklarına bağlanırken sorunlarl
 
 * **Salesforce bağlayıcısı** - Veri akışlarıyla Salesforce için deneme hesabı kullanıldığında, bağlantı hatası oluşur ve hiçbir bilgi sağlanmaz. Bu sorunu çözmek için, test ederken üretim Salesforce hesabı veya geliştirici hesabı kullanın.
 
-* **SharePoint bağlayıcısı** - Alt klasör veya belge eklemeden SharePoint sitesinin kök adresini sağladığınızdan emin olun. Örneğin, şuna benzer bir bağlantı kullanın: https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **SharePoint bağlayıcısı** - Alt klasör veya belge eklemeden SharePoint sitesinin kök adresini sağladığınızdan emin olun. Örneğin, şuna benzer bir bağlantı kullanın: `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **JSON Dosya bağlayıcısı**: Şu anda bir JSON dosyasına yalnızca temel kimlik doğrulaması kullanarak bağlanabilirsiniz.  Bir JSON dosyasına URL içinden kimlik bilgileri sağlayarak bağlanma işlemi (ör. https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg... ) şu anda **desteklenmiyor**.  
+* **JSON Dosya bağlayıcısı**: Şu anda bir JSON dosyasına yalnızca temel kimlik doğrulaması kullanarak bağlanabilirsiniz.  Bir JSON dosyasına URL içinden kimlik bilgileri sağlayarak bağlanma işlemi (ör. `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`. ) şu anda **desteklenmiyor**.  
 
 * **Azure SQL Veri Ambarı**: Veri akışları şu anda Azure SQL Veri Ambarı için Azure Active Directory (AAD) kimlik doğrulamasını desteklemiyor. Bu senaryoda Temel kimlik doğrulaması kullanın.
 

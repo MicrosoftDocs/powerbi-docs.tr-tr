@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872707"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404754"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -24,6 +24,7 @@ Power BI’da, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında depola
 
 Aşağıdaki listede açıklandığı gibi CDM klasörlerinden veri akışları oluşturmak için birkaç gereksinim vardır:
 
+* Bir yöneticinin, ADLS 2. Nesil depolama hesabını kullanmadan önce Power BI’a bağlaması gerekir. ADLS 2. Nesil hesabını Power BI’a bağlamayı öğrenmek için [Azure Data Lake Storage 2. Nesil’i veri akışı depolaması için bağlama](service-dataflows-connect-azure-data-lake-storage-gen2.md) makalesine göz atın.
 * CDM klasörlerinden veri akışları oluşturma *yalnızca*[yeni çalışma alanı deneyiminde](service-create-the-new-workspaces.md) mevcuttur. 
 * Power BI’a CDM klasörü eklemek için klasörü ekleyen kullanıcının [CDM klasörü ve dosyaları için yetkilendirmeye](https://go.microsoft.com/fwlink/?linkid=2029121) sahip olması gerekir.
 * CDM klasöründeki tüm dosyaları ve klasörleri Power BI’a eklemek için, size bu dosya ve klasörler üzerinde okuma ve yürütme izinleri verilmesi gerekir.
@@ -73,11 +74,11 @@ Aşağıdaki listede açıklandığı gibi, dikkate alınacak bazı ek unsurlar 
 
 **Power BI Desktop** müşterileri, veri akışının sahibi olmadığı veya veri akışının CDM klasörüne yönelik açıkça yetkilendirilmediği sürece, Azure Data Lake Storage 2. Nesil hesabında depolanan veri akışlarına erişemez. Aşağıdaki durumu dikkate alın:
 
-1.  Ayşe yeni bir çalışma alanı oluşturuyor ve CDM klasöründen veri akışları depolanacak şekilde bu çalışma alanını yapılandırıyor.
-2.  Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu veri akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
-3.  Berk, veri gölünde veri akışının CDM klasörüne yetkili bir kullanıcı olarak eklenmediğinden bir hata alır.
+1.    Ayşe yeni bir çalışma alanı oluşturuyor ve CDM klasöründen veri akışları depolanacak şekilde bu çalışma alanını yapılandırıyor.
+2.    Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu veri akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
+3.    Berk, veri gölünde veri akışının CDM klasörüne yetkili bir kullanıcı olarak eklenmediğinden bir hata alır.
 
-    ![Veri akışını kullanma girişimi sırasında hata oluştu](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![Veri akışını kullanma girişimi sırasında hata oluştu](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](https://go.microsoft.com/fwlink/?linkid=2029121) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
 

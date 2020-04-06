@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5208c72016a148f86a119bdddd2bbd1f69d3456b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 0804650149f98d7f63315025ffe3f8a1771ac2ef
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381043"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302739"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -96,7 +96,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 * Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir.  Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
 * Güvenlik bağlamınızı kullanarak aboneliği diğer kişilere göndermenize olanak tanıyan sayfalandırılmış raporları kullanmadıkça, diğerlerine abone olurken canlı bağlantı veri kümelerini kullanan raporlar/panolar için e-posta aboneliği şu anda desteklenmemektedir.
-* E-posta abonelikleri çoğu [Power BI görselini](developer/visuals/power-bi-custom-visuals.md) desteklemez.  Power BI görsellerindeki tek istisna, [sertifikalı](developer/visuals/power-bi-custom-visuals-certified.md) olanlardır.  
+* E-posta abonelikleri için, yalnızca varsayılan ve [sertifikalı Power BI görselleri](developer/visuals/power-bi-custom-visuals.md) desteklenir.  
 * E-posta abonelikleri şu anda R tarafından desteklenen Power BI görsellerini desteklememektedir.  
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez.  Sayfalandırılmış Raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     

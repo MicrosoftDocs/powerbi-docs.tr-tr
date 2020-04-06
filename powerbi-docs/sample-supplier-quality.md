@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858418"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404648"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Tedarikçi Kalite Analizi Örneği: Tura katılın
 
@@ -62,7 +62,7 @@ Alternatif olarak, Tedarikçi Kalite Analizi örneğini bir [.pbix dosyası](htt
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529779) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529779) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirmek için bkz. [Excel’de Excel örneklerini bulma](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="downtime-caused-by-defective-materials"></a>Hatalı malzemelerin neden olduğu çalışmama süresi
 Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi satıcıların sorumlu olduğunu bulalım.  
@@ -109,7 +109,7 @@ Hatalı malzemelerin neden olduğu çalışmama süresini çözümleyip hangi sa
     ![Etki seçin](media/sample-supplier-quality/supplier7.png)  
 
     Kabarcık grafiğinde **Lojistik**’in en sorunlu kategori olduğuna dikkat edin. Bu, toplam hata miktarı, hata raporu ve çalışmama süresi bakımından en büyük miktardır. Bu kategoriyi biraz daha araştıralım.  
-3. Kabarcık grafiğinde **Lojistik** kabarcığını seçin ve Springfield ve Naperville, IL seçeneklerini belirleyin. Naperville, Springfield'in çok sayıdaki etkisiyle karşılaştırıldığında, yüksek reddetme sayısına ve birkaç etkiye sahip olduğundan hatalı tedarikleri yönetme konusunda çok daha iyi bir iş çıkarıyor.  
+3. Kabarcık grafiğinde **Lojistik** kabarcığını seçin ve Springfield ve Naperville, IL seçeneklerini belirleyin. Naperville, Springfield’in çok sayıdaki etkisiyle karşılaştırıldığında, yüksek reddetme sayısına ve birkaç etkiye sahip olduğundan hatalı tedarikleri yönetme konusunda çok daha iyi bir iş çıkarıyor.  
 
    ![Lojistik’i seçin](media/sample-supplier-quality/supplier8.png)  
 4. Panoya geri dönmek için üst gezinti bölmesinde **Supplier Quality Analysis Sample**'ı (Tedarikçi Kalite Analizi Örneği) seçin.
@@ -163,7 +163,7 @@ Toplam hata miktarıyla ilgili başka bir pano kutucuğuna bakalım.
 
    ![Soru-Cevap sorusu: Çizgi grafiği olarak ay ve yıla göre dakika cinsinden toplam çalışmama süresi](media/sample-supplier-quality/supplier15.png)
 
-   Haziran ve Ekim'de meydana gelen dakika cinsinden çalışmama süresi dışında, hata sayısındaki dik yükseliş, çalışmama süresinin önemli ölçüde artmasına neden olmadı. Bu sonuç, hataların iyi yönetildiğini gösterir.  
+   Haziran ve Ekim’de meydana gelen dakika cinsinden çalışmama süresi dışında, hata sayısındaki dik yükseliş, çalışmama süresinin önemli ölçüde artmasına neden olmadı. Bu sonuç, hataların iyi yönetildiğini gösterir.  
 3. Bu grafiği panonuza sabitlemek için yukarıdaki soru kutusunda raptiye simgesini ![Raptiye simgesi](media/sample-supplier-quality/pin.png) seçin.  
 4. Aykırı ayları keşfetmek için *total downtime minutes in October by plant* (tesise göre Ekim'deki dakika cinsinden toplam çalışmama süresi) gibi sorular sorarak Ekim ayındaki malzeme türü, tesis konumu, kategori vb. temelinde çalışmama süresi dakika sayısını kontrol edin. 
 5. Panoya geri dönmek için sol üst köşedeki **Soru-Cevap’tan Çık** seçeneğini belirleyin.

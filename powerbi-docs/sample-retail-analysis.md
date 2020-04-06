@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207494"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404724"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 
-Perakende Analizi örneği içerik paketinde birden çok mağaza ve bölgede satılan öğelerin perakende satış verilerini analiz eden bir pano, rapor ve veri kümesi vardır. Ölçümler bu yılın performansını geçen yılın satış, birim sayısı, brüt kar, varyans ve yeni mağaza analizi rakamlarıyla karşılaştırmaktadır. 
+Perakende Analizi örneği içerik paketinde birden çok mağaza ve bölgede satılan öğelerin perakende satış verilerini analiz eden bir pano, rapor ve veri kümesi vardır. Ölçümler bu yılın performansını geçen yılın satış, birim sayısı, brüt kar, varyans ve yeni mağaza analizi rakamlarıyla karşılaştırır. 
 
 ![Perakende Analizi örneği panosu](media/sample-retail-analysis/retail1.png)
 
@@ -57,7 +57,7 @@ Alternatif olarak, Perakende Analizi örneğini bir [.pbix dosyası](https://dow
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529778) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529778) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirmek için bkz. [Excel’de Excel örneklerini bulma](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Panodan başlayın ve raporu açın
 
@@ -131,12 +131,12 @@ Biraz daha ayrıntıya inelim.
 
    ![Allan Guinot'ı seçin](media/sample-retail-analysis/retail13.png)
 
-   Allan'ın bölgesinin Mart ve Haziran aylarında geçen yıla göre daha iyi bir performans gösterdiğine dikkat edin.
+   Allan’ın bölgesinin Mart ve Haziran aylarında geçen yıla göre daha iyi bir performans gösterdiğine dikkat edin.
 2. **Allan Guinot** seçili durumdayken kabarcık grafiğinde **Womens-10** kabarcığını seçin.
 
    ![Allan Guinot ve Womens-10 seçili](media/sample-retail-analysis/power-bi-allan.png)
 
-   Womens-10 kategorisinde Allan'ın bölgesinin geçen yılın hacmine ulaşamadığına dikkat edin.
+   Womens-10 kategorisinde Allan’ın bölgesinin geçen yılın hacmine ulaşamadığına dikkat edin.
 3. Diğer bölge yöneticilerini ve kategorileri inceleyin. Başka hangi içgörülere ulaşabiliyorsunuz?
 4. Hazır olduğunuzda panoya geri dönün.
 

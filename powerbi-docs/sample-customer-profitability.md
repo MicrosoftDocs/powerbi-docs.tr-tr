@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205309"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404160"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI için Müşteri Kârlılığı Örneği: Tura katılın
 
@@ -56,7 +56,7 @@ Alternatif olarak, Müşteri Karlılığı örneğini bir [.pbix](https://downlo
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Bu örneğe ilişkin Excel çalışma kitabını edinme
 
-Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529781) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirme ayrıntıları için bkz. [Excel'in içinden Excel örneklerini gözden geçirme](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself).
+Bu örnekte kullanılan veri kaynağını görüntülemek isterseniz, [Excel çalışma kitabı](https://go.microsoft.com/fwlink/?LinkId=529781) olarak da bulabilirsiniz. Çalışma kitabı, görüntüleyebileceğiniz ve değiştirebileceğiniz Power View sayfaları içerir. Ham verileri görmek için Veri Çözümlemesi eklentilerini etkinleştirip **Power Pivot > Yönet**'i seçin. Power View ve Power Pivot eklentilerini etkinleştirmek için bkz. [Excel’de Excel örneklerini bulma](sample-datasets.md#explore-excel-samples-inside-excel).
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Panomuz bize ne anlatıyor?
 
@@ -87,7 +87,7 @@ Panonun sağ tarafındaki kutucuklar ise bir ekip puan kartı sağlar. CFO'nun, 
 Yöneticiye özgü pano kutucuklarını analiz ederek aşağıdaki gözlemleri yapabiliriz:
 
 - Carlos dışındaki tüm yöneticiler, satış hedeflerini zaten aştı. Öte yandan en fazla gerçek satışı Carlos yapmıştır.
-- Brüt kâr yüzdesi en düşük yönetici Annelie ancak onun da Mart ayından bu yana istikrarlı bir artış yakaladığını görüyoruz.
+- Brüt kar yüzdesi en düşük yönetici Annelie ancak onun da Mart ayından bu yana istikrarlı bir artış yakaladığını görüyoruz.
 - Diğer taraftan, Valery'nin brüt kâr yüzdesinde önemli ölçüde bir düşüş görülüyor.
 - Andrew istikrarsız bir yıl geçirmiş.
 
@@ -133,25 +133,25 @@ Müşteri Kârlılığı örnek panosundaki kutucuklarının birçoğu, temel al
 ### <a name="team-scorecard-page"></a>Team Scorecard sayfası
 ![Team scorecard rapor sayfası](media/sample-customer-profitability/customer2.png)
 
-Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi öngörüler elde edebileceğimize bakalım: 
+Ekip üyelerinden ikisine ayrıntılı olarak göz atıp ne gibi içgörüler elde edebileceğimize bakalım: 
 
 1. Rapor sayfasını yalnızca Andrew ile ilgili veriler görüntülenecek şekilde filtrelemek için soldaki **Executive** (Yönetici) dilimleyicisinden Andrew'un adını seçin:
 
-   * Hızlı bir KPI için Andrew’un **Revenue Status (Total Year)** değerine bakın; yeşil renkte olması iyi performans gösterdiği anlamına geliyor.
+   * Hızlı bir KPI için Andrew’un **Revenue Status (Total Year)** değerine bakın; yeşil renkte olması iyi performans gösterdiği anlamına gelir.
    * **Revenue % Variance to Budget by Month and Executive** grafiğinde, Şubat'ta yaşanan düşüş dışında Andrew'un iyi performans sergilediği gösteriliyor. Andrew’ın en baskın olduğu bölge doğu bölgesidir. Andrew’ın burada 49 müşterisi var ve toplam yedi üründen beşiyle ilgileniyor. Andrew’ın brüt kâr yüzdesi en yüksek veya en düşük yüzde değil.
    * **RevenueTY and Revenue % Var to Budget by Month** grafiği kararlı düzgün bir kâr gösteriyor. Öte yandan, bölge ağaç haritasında **Central** karesini seçip filtrelerseniz Andrew'un yalnızca Mart ayında ve Indiana'da gelir elde ettiğini fark edeceksiniz. Amaçlanan eğilim bu muydu yoksa bu incelenmesi gereken bir durum mu?
 
-2. Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için **Executive** (Yönetici) dilimleyicisinde Valery'nin adını seçin. 
+2. Şimdi Valery'ye geçelim. Rapor sayfasını yalnızca Valery ile ilgili veriler görüntülenecek şekilde filtrelemek için **Executive** (Yönetici) dilimleyicisinde Valery’nin adını seçin. 
 
    ![Valery'nin verileri](media/sample-customer-profitability/customer3.png)
 
    * **Revenue Status (Total Year)** KPI'sinin kırmızı olduğuna dikkat edin. Bu öğenin kesinlikle biraz daha incelenmesi gerekiyor.
    * Valery’nin gelir varyansına baktığımızda da endişe verici bir tabloyla karşılaşıyoruz. Valery, belirlenen gelir marjlarını karşılamıyor.
    * Valery'nin yalnızca dokuz müşterisi var, iki ürünle ilgileniyor ve neredeyse yalnızca kuzey bölgesindeki müşterilerle çalışıyor. Ölçümlerinde görülen büyük dalgalanmalar tek bir bölgeyle çalışıyor olması ile açıklanabilir.
-   * Ağaç haritasında **North** karesini seçerseniz Valery'nin kuzey bölgesindeki brüt kârının toplam marjıyla tutarlı olduğu görülüyor.
+   * Ağaç haritasında **North** karesini seçerseniz Valery’nin kuzey bölgesindeki brüt karının toplam marjıyla tutarlı olduğu görülüyor.
    * Diğer tüm **Total Revenue by Region** (Bölgeye Göre Toplam Kar) karelerinin seçilmesi ilginç bir durum ortaya koyuyor: Brüt Kar oranı %23 ile %79 arasında değişiyor. Valery’nin Kuzey bölgesi dışındaki tüm bölgelerde gelir rakamları son derece mevsimsel.
 
-3. Valery'nin düşük performansının altında yatan nedenleri bulmak için araştırmaya devam edin. Bölgelere, diğer departmanlara ve rapordaki bir sonraki sayfaya bakın: **Sektör Marjı Analizi**.
+3. Valery’nin düşük performansının altında yatan nedenleri bulmak için araştırmaya devam edin. Bölgelere, diğer departmanlara ve rapordaki bir sonraki sayfaya bakın: **Sektör Marjı Analizi**.
 
 ### <a name="industry-margin-analysis"></a>Sektör Marjı Analizi
 Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tamamına ilişkin brüt kârı, segmentlere göre ayrılmış şekilde görüyoruz. CFO, eğilimler ve kârlılık ile ilgili çıkarımlar yapmasına yardımcı olması için şirket ve departman ölçümlerini sektör ölçümleriyle karşılaştırmak üzere bu sayfayı kullanır. **Gross Margin % by Month and Executive** (Aya ve Yöneticiye Göre Brüt Kar Yüzdesi) grafiği ekibe özgü bir grafik olduğundan bu sayfada neden bulunduğunu merak etmiş olabilirsiniz. Bu grafik ile sayfayı departman yöneticisine göre filtreleyebiliyoruz.  
@@ -167,13 +167,13 @@ Bu rapor sayfasında verilerin farklı bir dilimi sunulur. Burada sektörün tam
    * Federal segmentine ve Gladius ürününe daha fazla odaklanmış olup yalnızca az sayıda sektör segmentine yönelmiş olması dışında, Annelie'nin grafiğinde de benzer bir durumla karşılaşıyoruz.
    * Carlos'un Services segmentine net bir şekilde yöneldiğini ve iyi bir kâr yüzdesi yakaladığını görüyoruz. Carlos da High Tech segmenti için varyans yüzdesini büyük oranda iyileştirmiş yeni bir sektör olan Industrial segmentinde bütçeye kıyasla olağanüstü bir başarı göstermiş.
    * Tina az sayıda segment ile çalışıyor ve en yüksek brüt kâr yüzdesine sahip ancak balonlarının genel olarak küçük boyutta olması, Tina’nın şirketin nihai kâr-zarar dengesi üzerindeki etkisinin minimum düzeyde olduğunu gösteriyor.
-   * Tek bir üründen sorumlu olan Valery, yalnızca beş sektör segmentinde çalışıyor. Valery’nin sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kâr-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör segmentleri onun bu olumsuz performansını nasıl etkiliyor?
+   * Tek bir üründen sorumlu olan Valery, yalnızca beş sektör segmentinde çalışıyor. Valery’nin sektör etkisi mevsimsel ancak balon boyutu her zaman büyük ve bu da şirketin nihai kar-zarar dengesi üzerinde çok büyük bir etkiye sahip olduğunu gösteriyor. Sektör segmentleri onun bu olumsuz performansını nasıl etkiliyor?
 
 ### <a name="executive-scorecard"></a>Yönetim Puan Kartı
 Bu sayfanın özel bir sayfa boyutu biçimi vardır.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Soru-Cevap ile sorular sorarak verilerle ilgili ayrıntılara ulaşma
-Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir elde ettiğini belirlememize yardımcı olabilir. Soru-Cevap'ı kullanalım.
+Bizim analizimiz için bu özellik, Valery'nin en çok hangi sektörden gelir elde ettiğini belirlememize yardımcı olabilir. Soru-Cevap’ı kullanalım.
 
 1. **Raporu düzenle**'yi seçerek raporu Düzenleme görünümünde açın. Düzenleme görünümü ancak raporun sahibi olduğunuzda kullanılabilir. Bu görünüm bazen *oluşturucu* modu olarak da adlandırılır. Bunun yerine bu rapor yalnızca sizinle paylaşıldıysa raporu Düzenleme görünümünde açamazsınız.
 

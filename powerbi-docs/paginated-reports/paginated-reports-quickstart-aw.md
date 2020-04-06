@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207241"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404878"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
 
@@ -286,7 +286,7 @@ Raporu Power BI hizmetinde yayımlamadan önce bir biçimlendirme geliştirmesi 
 
 Bu sayfalandırılmış raporu oluşturduğunuza göre, artık raporu Power BI hizmetine yükleyebilirsiniz.
 
-1. Power BI hizmetinde (gezinti bölmesindeki https://app.powerbi.com) ) **Çalışma alanları** > **Çalışma alanı oluştur**'u seçin.
+1. Gezinti bölmesindeki Power BI hizmetinde (`https://app.powerbi.com`) **Çalışma alanları** > **Çalışma alanı oluştur**’u seçin.
 
 2. Çalışma alanınızı **Azure AW** olarak adlandırın (veya başka bir benzersiz ad kullanın). Şimdilik tek üye sizsiniz. 
 

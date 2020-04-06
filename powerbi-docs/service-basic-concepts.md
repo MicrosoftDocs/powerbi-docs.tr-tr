@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207931"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404082"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
 Bu makalenin amacı Power BI hizmetinde yolunuzu bulmanızı sağlamaktır: farklı öğeler nelerdir, birlikte nasıl çalışırlar ve bunlarla nasıl çalışabilirsiniz? Zaten [Power BI hizmetine kaydolduysanız](service-self-service-signup-for-power-bi.md) ve [veri eklediyseniz](service-get-data.md) bu makaleden daha iyi yararlanabilirsiniz. Bir tasarımcı olarak, normal iş akışınız genellikle Power BI Desktop'ta raporlar oluşturmakla başlar. Ardından bunları Power BI hizmetine yayımlarsınız ve burada raporlarda değişiklik yapmaya devam edebilirsiniz. Ayrıca Power BI hizmetinde raporlarınızı temel alan panolar da oluşturabilirsiniz. 
 
-Bu makale için, henüz kendi raporlarınız yoksa [Power BI örnek içerik paketini](sample-datasets.md#the-power-bi-samples-as-content-packs) yüklemeyi deneyin.
+Bu makale için, henüz kendi raporlarınız yoksa [Power BI örneklerinden](sample-datasets.md) birini yüklemeyi deneyin.
 
 ![Tarayıcıda Power BI hizmeti Giriş ekranı](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -165,9 +165,9 @@ Bir çalışma alanını açtığınızda ilişkilendirilmiş panolar, **Panolar
 ## <a name="workbooks"></a>Çalışma kitapları
 Çalışma kitapları özel bir veri kümesi türüdür. Yukarıdaki **Veri kümeleri** bölümünü okuduysanız, çalışma kitapları hakkında da bilmeniz gereken hemen her şeyi biliyorsunuzdur. Ancak Excel çalışma kitaplarının Power BI'da neden bazen **Veri kümesi**, bazen de **Çalışma kitabı** olarak sınıflandırıldığını merak ediyor olabilirsiniz.
 
-Excel dosyalarını **Veri al** komutuyla kullandığınızda dosyada *İçeri Aktar* veya *Bağlan* seçeneklerine sahip olursunuz. Bağlan'ı seçtiğinizde çalışma kitabınız, Power BI'da tıpkı Excel Online'daki gibi görünecektir. Ancak, Excel Online'dan farklı olarak çalışma sayfalarınızdaki öğeleri doğrudan panolarınıza sabitlemenize yardımcı olacak harika özellikler edineceksiniz.
+Excel dosyalarını **Veri al** komutuyla kullandığınızda dosyada *İçeri Aktar* veya *Bağlan* seçeneklerine sahip olursunuz. Bağlan'ı seçtiğinizde çalışma kitabınız, Power BI'da tıpkı Excel Online'daki gibi görünecektir. Ancak, Excel Online’dan farklı olarak çalışma sayfalarınızdaki öğeleri doğrudan panolarınıza sabitlemenize yardımcı olacak harika özellikler edineceksiniz.
 
-Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak, bazı değişiklikler yapmanız gerekirse Düzenle'ye tıklayıp çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel'de açmayı tercih edebilirsiniz. Yaptığınız değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
+Çalışma kitabınızı Power BI’da düzenleyemezsiniz. Ancak, bazı değişiklikler yapmanız gerekirse Düzenle'ye tıklayıp çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel'de açmayı tercih edebilirsiniz. Yaptığınız değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
 
 ### <a name="dig-deeper"></a>Derinlemesine
 * [Excel çalışma kitabı dosyalarından veri alma](service-excel-workbook-files.md)
