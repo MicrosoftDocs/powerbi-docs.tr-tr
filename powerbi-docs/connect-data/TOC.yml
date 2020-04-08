@@ -254,8 +254,14 @@
           items:
             - name: Uygulamalarla hizmetlere bağlanma
               href: ../service-connect-to-services.md
+            - name: COVID-19 ABD İzleme Raporu
+              href: service-connect-to-covid-19-tracking.md
+            - name: Kriz İletişimi Durum Raporu
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: Hastane Acil Durum Yanıtı Karar Desteği Panosu
+              href: service-connect-to-health-emergency-response.md
             - name: Microsoft Sürdürülebilirlik Hesaplayıcısı
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
