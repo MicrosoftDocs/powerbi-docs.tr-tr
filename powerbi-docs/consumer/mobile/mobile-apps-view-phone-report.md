@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 1db56c2844d217bf6bff633609893e5a97a6dae5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114890"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802152"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -39,10 +39,11 @@ Telefon için en iyi duruma getirilmiş raporlarda diğer tüm Power BI rapor ö
 ## <a name="filter-the-report-page-on-a-phone"></a>Telefonda rapor sayfasını filtreleme
 Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, söz konusu raporu bir telefonda görüntülerken bu filtreleri kullanabilirsiniz. Rapor, web üzerindeki raporda filtrelenen değerlerle filtrelenmiş şekilde telefonunuzda açılır. Sayfada etkin filtreler olduğunu belirten bir ileti görürsünüz. Telefonunuzdaki filtreleri değiştirebilirsiniz.
 
-1. Sayfanın en altında bulunan filtre simgesine ![Telefon filtre simgesi](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) dokunun. 
+1. Sayfanın en altında bulunan filtre simgesine ![Telefon filtre simgesi](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) dokunun.
+
 2. İlgilendiğiniz sonuçları görmek için temel veya gelişmiş filtreleme kullanın.
    
-    ![Phone BI telefon raporunda gelişmiş filtreleme](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
+    ![Phone BI telefon raporunda gelişmiş filtreleme](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.png)
 
 ## <a name="cross-highlight-visuals"></a>Görsellerde çapraz vurgulama
 Dikey görünümde görsellere çapraz vurgulama uygulama, Power BI hizmetinde olduğu gibi gerçekleştirilir ve telefonlarda yatay görünümde çalışır: Bir görseldeki verileri seçtiğinizde, aynı sayfada yer alan diğer görsellerin ilgili verilerini vurgular.

@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923023"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621540"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Rapor Oluşturucusu
 
  Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
-
-[Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)’yı deneyin.
 
 Videolardan öğrenmeyi mi tercih ediyorsunuz? Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki Power BI sayfalandırılmış raporlar video serisine göz atın.
 
@@ -30,13 +28,13 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
 
 ![Power BI hizmetinde sayfalandırılmış rapor](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> Rapor oluşturmaya hızlı başlangıç yapın  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> Rapor oluşturmaya hızlı başlangıç yapın  
  
 -   **Tablo, Matris veya Grafik sihirbazıyla başlayın**. Veri kaynağı bağlantısı oluşturun, alanları sürükleyip bırakarak bir veri kümesi sorgusu oluşturun, bir düzen ve stil seçin ve raporunuzu özelleştirin.  
   
 -   **Harita sihirbazı ile başlayıp** coğrafi veya geometrik bir arka plana göre toplu verileri gösteren raporlar oluşturun. Harita verileri bir Transact-SQL sorgusundaki uzamsal veriler ya da bir Environmental Systems Research Institute, Inc. (ESRI) şekil dosyaları olabilir. Ayrıca bir Microsoft Bing harita parçası arka planı da ekleyebilirsiniz.  
 
-##  <a name="DesignRept"></a> Raporunuzu tasarlama  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> Raporunuzu tasarlama  
   
 -   **Tablo, matris, grafik ve serbest biçimli rapor düzenleri olan sayfalandırılmış raporlar oluşturun.** Sütun tabanlı veriler için tablo raporları, özetlenmiş veriler için matris raporları (çapraz veya PivotTable raporları), grafik verileri için grafik raporları ve diğer her şey için serbest biçimli raporları oluşturun. Dinamik Web tabanlı uygulamalar için raporlara listeler, grafikler ve denetimlerle birlikte başka raporlar ve çizelgeler de eklenebilir.  
   
@@ -52,7 +50,7 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
   
 -   **Resimler ekleyin veya bunlara başvurun**, ayrıca dış içerik de dahil olmak üzere diğer kaynakları ekleyin ya da başvurun.  
   
-##  <a name="ManageRpt"></a> Raporunuzu yönetme  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Raporunuzu yönetme  
   
 -   **Raporunuzun tanımını** bilgisayarınıza veya rapor sunucusuna kaydedin; burada tanımı yönetebilir ve diğer kişilerle paylaşabilirsiniz.  
   
@@ -63,5 +61,4 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
-- [Uygulamalı laboratuvar: Microsoft Power BI sayfalandırılmış raporu oluşturma](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki [Power BI sayfalandırılmış raporlar video serisini](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) izleyin
