@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: Mobil uygulamalarda şirket içi raporları görüntüleme
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Yüz Tanıma Kimliği, Touch ID, Geçiş Kodu veya Parmak İzi Kimliği ile koruma'
+              href: mobile-native-secure-access.md
             - name: Bir içeriğe dış kuruluştan erişme (B2B)
               href: mobile-apps-b2b.md
             - name: Telefonunuzdan bir Power BI QR kodunu tarama
@@ -76,8 +78,6 @@
           items:
             - name: iOS uygulaması ile çalışmaya başlama
               href: mobile-iphone-app-get-started.md
-            - name: 'Yüz Tanıma Kimliği, Touch ID veya Geçiş Kodu ile koruma'
-              href: mobile-ios-native-secure-access.md
             - name: iOS mobil uygulamalarında soru-cevap sanal çözümleyicisi
               href: mobile-apps-ios-qna.md
             - name: Siri Kısayolları ile Power BI mobil uygulaması tümleştirmesi
@@ -90,6 +90,10 @@
           items:
             - name: Android uygulaması ile çalışmaya başlama
               href: mobile-android-app-get-started.md
+            - name: Android uygulama kısayollarını kullanma
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Google Search ile içerik bulma ve erişme
+              href: mobile-app-find-access-google-search.md
             - name: '"Kurumsal SSL sertifikanıza güvenilmiyor" hatalarını giderme'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: '"Android System Webview''un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi'
