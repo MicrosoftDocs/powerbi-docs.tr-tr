@@ -49,15 +49,15 @@
           items:
             - name: Rapor görünümü ile çalışma
               href: ../desktop-report-view.md
-            - name: Power BI raporlarındaki filtre türleri
+            - name: Raporlardaki filtre türleri
               href: ../power-bi-report-filter-types.md
             - name: Raporlarda filtreleme ve vurgulama
               href: ../power-bi-reports-filters-and-highlighting.md
             - name: Yüksek yoğunluklu çizgi örnekleme
               href: ../desktop-high-density-sampling.md
-            - name: Power BI Soru-Cevap görselleri hakkında
+            - name: Soru-Cevap görselleri hakkında
               href: ../visuals/power-bi-visualization-q-and-a.md
-            - name: Power BI erişilebilirliği hakkında
+            - name: Erişilebilirlik hakkında
               href: ../desktop-accessibility-overview.md
             - name: Doğal dil Soru-Cevap
               items:
@@ -125,7 +125,7 @@
               href: ../desktop-bookmarks.md
             - name: Rapor temaları ile çalışma
               href: ../desktop-report-themes.md
-            - name: Power BI raporlarındaki filtrelerle çalışma
+            - name: Raporlardaki filtrelerle çalışma
               href: ../power-bi-report-filter.md
             - name: Detaylandırma özelliğini kullanma
               href: ../desktop-drillthrough.md
@@ -139,7 +139,7 @@
               href: ../desktop-r-powered-custom-visuals.md
             - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini uygulama
               href: ../desktop-gridlines-snap-to-grid.md
-            - name: Power BI raporlarına sayfa görüntüleme ayarlarını uygulama
+            - name: Raporlara sayfa görüntüleme ayarlarını uygulama
               href: ../power-bi-report-display-settings.md
             - name: Örnekten sütun ekleme
               href: ../desktop-add-column-from-example.md
@@ -147,12 +147,16 @@
               href: ../desktop-add-custom-column.md
             - name: Satır içi hiyerarşi etiketlerini kullanma
               href: ../desktop-inline-hierarchy-labels.md
-            - name: Sayısal aralık dilimleyiciyi kullanma
+            - name: Dilimleyiciler
+              href: ../visuals/power-bi-visualization-slicers.md
+            - name: Sayısal aralık dilimleyicileri
               href: ../desktop-slicer-numeric-range.md
-            - name: Göreli tarih dilimleyiciyi ve filtreyi kullanma
-              href: ../desktop-slicer-filter-date-range.md
+            - name: Göreli tarih dilimleyicileri ve filtreleri
+              href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
               href: ../power-bi-slicer-filter-responsive.md
+            - name: Dilimleyiciye birden çok alan ekleme
+              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Satır düzeyi güvenlik ile veri erişimini kısıtlama
               href: ../desktop-rls.md
             - name: Araç ipuçlarını özelleştirme
@@ -205,17 +209,17 @@
               href: ../desktop-upload-desktop-files.md
         - name: Görselleştirmeler
           items:
-            - name: Power BI raporuna görsel ekleme (1. Bölüm)
+            - name: Rapora görsel ekleme (1. bölüm)
               href: ../visuals/power-bi-report-add-visualizations-i.md
-            - name: Power BI raporuna görsel ekleme (2. Bölüm)
+            - name: Rapora görsel ekleme (2. bölüm)
               href: ../visuals/power-bi-report-add-visualizations-ii.md
-            - name: Power BI raporlarına görsel ekleme
+            - name: Raporlara görsel ekleme
               href: ../visuals/power-bi-report-visualizations.md
-            - name: Power BI raporlarındaki görselleri değiştirme
+            - name: Raporlardaki görselleri değiştirme
               href: ../visuals/power-bi-report-change-visualization-type.md
             - name: 'Görsel başlıklarını, arka planlarını ve açıklamalarını özelleştirme'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-            - name: Power BI'da öğeleri veri olmadan gösterme
+            - name: Veri içermeyen öğeleri göster
               href: ../desktop-show-items-no-data.md
             - name: Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
               href: ../visuals/power-bi-data-points.md
@@ -233,7 +237,7 @@
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
               href: ../service-reports-visual-interactions.md
-            - name: Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
+            - name: Harita görselleştirmeleri için ipuçları ve püf noktaları
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: X ekseni ve Y ekseni özelliklerini özelleştirme
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
@@ -241,47 +245,45 @@
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: ArcGIS Maps for Power BI görselleri oluşturma
               href: ../visuals/power-bi-visualization-arcgis.md
-            - name: Basit alan grafikleri oluşturma ve kullanma
+            - name: Basit alan grafikleri
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Kart görselleri (büyük sayı kutucukları) oluşturma
               href: ../visuals/power-bi-visualization-card.md
-            - name: Birleşik haritalar oluşturma ve kullanma
+            - name: Birleşik haritalar
               href: ../visuals/power-bi-visualization-combo-chart.md
-            - name: Ayrıştırma ağacı görsellerini oluşturma ve kullanma (önizleme)
+            - name: Ayrıştırma ağacı görselleri (önizleme)
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Halka grafik oluşturma ve kullanma
+            - name: Halka grafikler
               href: ../visuals/power-bi-visualization-doughnut-charts.md
-            - name: Kartogram oluşturma ve kullanma (koroplet haritalar)
+            - name: Kartogramlar (koropletler)
               href: ../visuals/power-bi-visualization-filled-maps-choropleths.md
-            - name: Huni grafiği oluşturma ve kullanma
+            - name: Huni grafikler
               href: ../visuals/power-bi-visualization-funnel-charts.md
-            - name: Ana etmen görsellerini oluşturma ve kullanma
+            - name: Ana etmenler görselleri
               href: ../visuals/power-bi-visualization-influencers.md
-            - name: KPI görselleri oluşturma ve kullanma
+            - name: KPI görselleri
               href: ../visuals/power-bi-visualization-kpi.md
-            - name: Matris görselleri oluşturma ve kullanma
+            - name: Matris görselleri
               href: ../visuals/desktop-matrix-visual.md
-            - name: Power Apps görselleri oluşturma ve kullanma
+            - name: Power Apps görselleri
               href: ../visuals/power-bi-visualization-powerapp.md
-            - name: R görselleri oluşturma ve kullanma
+            - name: R görselleri
               href: ../visuals/service-r-visuals.md
-            - name: Radyal ölçer grafiği oluşturma ve kullanma
+            - name: Radyal ölçer grafikleri
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
-            - name: Şerit grafik oluşturma ve kullanma
+            - name: Şerit grafikler
               href: ../visuals/desktop-ribbon-charts.md
-            - name: Dağılım ve kabarcık grafikleri ile noktalı grafik oluşturma ve kullanma
+            - name: Dağılım ve kabarcık grafikleriyle noktalı grafikler
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Yüksek yoğunluklu dağılım grafiklerini kullanma
               href: ../visuals/desktop-high-density-scatter-charts.md
-            - name: Şekil Haritası görseli oluşturma ve kullanma (önizleme)
+            - name: Şekil Haritası görselleri (önizleme)
               href: ../visuals/desktop-shape-map.md
-            - name: Dilimleyici oluşturma ve kullanma
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Power BI rapor ve panolarında tablo oluşturma ve kullanma
+            - name: Raporlardaki ve panolardaki tablolar
               href: ../visuals/power-bi-visualization-tables.md
-            - name: Ağaç haritası oluşturma ve kullanma
+            - name: Ağaç haritaları
               href: ../visuals/power-bi-visualization-treemaps.md
-            - name: Şelale grafik oluşturma ve kullanma
+            - name: Şelale grafikler
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Doğal dil Soru-Cevap
           items:
@@ -301,17 +303,17 @@
               href: ../service-q-and-a-create-featured-questions.md
             - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
               href: ../service-q-and-a-direct-query.md
-            - name: Power BI'daki Hızlı Öngörüler
+            - name: Hızlı İçgörüler
               href: ../service-insights.md
             - name: Hızlı İçgörüler için verileri iyileştirme
               href: ../service-insights-optimize.md
         - name: Erişilebilirlik
           items:
-            - name: Erişilebilir Power BI raporları tasarlama
+            - name: Erişilebilir raporlar tasarlama
               href: ../desktop-accessibility-creating-reports.md
-            - name: Erişilebilirlik araçlarıyla Power BI raporları oluşturma
+            - name: Erişilebilirlik araçlarıyla rapor oluşturma
               href: ../desktop-accessibility-creating-tools.md
-            - name: Erişilebilirlik özellikleriyle Power BI raporlarını kullanma
+            - name: Erişilebilirlik özellikleriyle raporları kullanma
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop klavye kısayolları
               href: ../desktop-accessibility-keyboard-shortcuts.md
@@ -351,7 +353,7 @@
               href: ../service-dashboard-pin-tile-from-q-and-a.md
             - name: Rapor sayfasının tamamını panoya sabitleme
               href: ../service-dashboard-pin-live-tile-from-report.md
-            - name: Power BI hizmetindeki veri uyarıları
+            - name: Hizmette veri uyarıları
               href: ../service-set-data-alerts.md
             - name: 'Panoya resim, metin kutusu, video veya kod ekleme'
               href: ../service-dashboard-add-widget.md
@@ -369,9 +371,9 @@
               href: ../service-dashboard-themes.md
         - name: Diğer görevler
           items:
-            - name: Power BI'daki içerikleri yeniden adlandırma
+            - name: İçeriği yeniden adlandırma
               href: ../service-rename.md
             - name: Öğelerin ilgili kişilerini ayarlama
               href: ../service-item-contact.md
-            - name: Power BI'da neredeyse her şeyi silme
+            - name: Neredeyse her şeyi silme
               href: ../service-delete.md
