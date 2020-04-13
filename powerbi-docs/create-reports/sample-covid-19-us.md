@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472072"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979788"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 
-Power BI ekibi, ABD eyalet ve yerel hükümetlerinin COVID-19 hakkında etkileşimli bir rapor yayımlayıp özelleştirmesine olanak veren bir COVID-19 izleme örneği oluşturdu. Hükümetler Power BI Desktop kullanarak COVID-19 verilerini analiz edip görselleştirebilir ve bu sayede topluluklarının şehir, ilçe, eyalet ve ulusal düzeyde bilgilendirebilirler. Ardından Power BI - Web’de Yayımlama özelliğini kullanarak vatandaşları bilgilendirmek amacıyla raporu herkese açık bir şekilde paylaşabilirler. Bu makalede, Power BI etkileşimli görselleştirmeleri herkese ait hikayeniz, blogunuz veya web sitenizde kullanmaya yönelik üç farklı seçenek sunulmaktadır.
+Power BI ekibi, ABD eyalet ve yerel hükümetlerinin COVID-19 hakkında etkileşimli bir rapor yayımlayıp özelleştirmesine olanak veren bir COVID-19 izleme örneği oluşturdu. Hükümetler Power BI Desktop kullanarak COVID-19 verilerini analiz edip görselleştirebilir ve bu sayede topluluklarının şehir, ilçe, eyalet ve ulusal düzeyde bilgilendirebilirler. Ardından Power BI - Web’de Yayımlama özelliğini kullanarak vatandaşları bilgilendirmek amacıyla raporu herkese açık bir şekilde paylaşabilirler. Bu makalede, Power BI etkileşimli görselleştirmeleri herkese ait hikayeniz, blogunuz veya web sitenizde kullanmaya yönelik farklı seçenekler sunulmaktadır.
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="ABD verilerini içeren COVID-19 örneği":::
 
@@ -45,10 +45,10 @@ Microsoft örnek raporu yayımladı ve web’de yayımlamaya yönelik bir ekleme
 Sitenize etkileşimli grafikleri dahil etmek için, şu ekleme kodunu kopyalayıp grafiğin web sayfanızda görüntülenmesini istediğiniz yere yapıştırın.  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width) yararlı olur.
+Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width) yararlı olur.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>2\. Seçenek: Örnek Power BI dosyasını özelleştirme
 
@@ -104,9 +104,9 @@ Adımları izlerken şu seçenekleri belirleyin:
 1. Veri Kaynağı Kimlik Bilgileri Kimlik Doğrulaması Yöntemi: Anonim
 2. Bu veri kaynağına ilişkin gizlilik düzeyi ayarı: Genel
 
-Yenileme ayarınızı test etmek için, [Veri kümesi öğesindeki Şimdi Yenile seçeneğini](../refresh-data.md#data-refresh) belirleyin.
+Yenileme ayarınızı test etmek için, veri kümesi öğesindeki [Şimdi yenile](../refresh-data.md#data-refresh) seçeneğini belirleyin.
 
-Yenileme verileri, zamanlama her çalıştığında yüklenir. Temel alınan verilerin USAFacts tarafından sağlandığını ve zamanlamanızı yenilediğiniz sıklıkta güncelleştirilmeyebileceğini unutmayın. Sağlanan verilerin en son ne zaman güncelleştirildiğini öğrenmek için [USAFacts web sitesine](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) göz atın. 
+Yenileme verileri, zamanlama her çalıştığında yüklenir. Temel alınan veriler USAFacts tarafından sağlanır ve zamanlamanızı yenilediğiniz sıklıkta güncelleştirilmeyebilir. Sağlanan verilerin en son ne zaman güncelleştirildiğini öğrenmek için [USAFacts web sitesine](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) göz atın. 
 
 Özelleştirilmiş raporu web sitenizde yayımlamak istiyorsanız zamanlanmış yenilemenizi USAFacts veri güncelleştirmeleriyle aynı sıklıkta olacak şekilde yapılandırmak en iyisidir. USAFacts, verilerini her gün farklı zamanlarda yenileyeceğinden her gün birkaç yenileme yapılandırmanız gerekebilir. 
 
@@ -147,6 +147,11 @@ Ayrıca, bu rapordaki verileri başka bir kaynaktan alınan verilerle de birleş
     
 Daha sonra Power BI Desktop kullanarak verileri görselleştirebilirsiniz. Son olarak, **2. Seçenek**’teki adımları kullanın: Raporu yayımlayıp özel bir ekleme kodu oluşturmak için [raporunuzu Power BI hizmetinde yayımlayın](#publish-your-report-to-the-power-bi-service). 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>4\. Seçenek: COVID-19 ABD İzleme şablon uygulamasını kullanma
+
+Power BI ekibi, hemen kullanmaya başlamanız için COVID-19 ABD İzleme *şablon uygulamasını* oluşturdu. Şablon uygulamaları belirli bir veri kaynağına ait raporlar, panolar ve veri kümelerinden oluşan paketlerdir. Bunları AppSource’tan indirip ihtiyaçlarınıza uygun şekilde kullanıp değiştirebilir ve iş arkadaşlarınıza dağıtabilirsiniz. 
+
+Bu COVID-19 ABD İzleme şablon uygulaması, COVID-19 ölçümlerinin bulunduğu önceden oluşturulmuş bir rapor içerir. Bu raporu olduğu gibi kullanabilir, doğrudan Power BI hizmetinde kişiselleştirebilir veya dilerseniz başka veri kaynakları eklemek için indirebilirsiniz. [COVID-19 ABD İzleme şablon uygulamasını](../connect-data/service-connect-to-covid-19-tracking.md) indirme ve hemen kullanmaya başlama hakkında bilgi edinin.
 
 ## <a name="about-the-data-source-for-this-report"></a>Bu raporun veri kaynağı hakkında
 Bu etkileşimli raporda, ABD Hastalık Kontrol ve Korunma Merkezleri’nden (Centers for Disease Control and Prevention, CDC) ve eyalet/yerel hükümet düzeyinde genel sağlık kurumlarından alınan veriler toplanmıştır. İlçe düzeyinde veriler, başvurulan eyalet ve yerel sağlık kurumları tarafından onaylanmıştır (bağlantı).
@@ -157,9 +162,9 @@ Veriler, USAFacts tarafından sağlanır. Veriler sıkça güncelleştirildiğin
 
 Bu rapor ve veriler “olduğu gibi”, “tüm hatalarıyla birlikte” ve herhangi bir garanti sunulmadan sağlanmaktadır. Microsoft hiçbir açık garanti sunmaz ve satılabilirlik, belirli bir amaca uygunluk ve hak ihlali bulunmaması dahil olmak üzere tüm zımni garantileri açık bir şekilde reddeder.
 
-USAFacts verileri bir Creative Commons lisansı kapsamında sunulur. Bu verileri kullanmak için USAFacts’i veri sağlayıcısı olarak tanımlayın ve USAFacts’e geri bağlantı oluşturun. Atıf adımlarının tamamı için USAFacts sayfasının **#MadewithUSAFacts**, [Coronavirus in the United States: Mapping the COVID-19 outbreak in the states and counties](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/).
+USAFacts verileri bir Creative Commons lisansı kapsamında sunulur. Bu verileri kullanmak için USAFacts’i veri sağlayıcısı olarak tanımlayın ve USAFacts’e geri bağlantı oluşturun. Atıf adımlarının tamamı için USAFacts sayfasının **#MadewithUSAFacts** bölümünde [Amerika Birleşik Devletleri’nde Koronavirüs: Eyalet ve ilçelerde COVID-19 salgınını eşleme](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)’ye göz atın.
 
-Johns Hopkins University data is copyright 2020 Johns Hopkins University, all rights reserved (Amerika Birleşik Devletleri’nde Koronavirüs: Eyalet ve ilçelerde COVID-19 salgınını eşleme. John Hopkins Üniversitesi verileri, Telif Hakkı 2020 Johns Hopkins Üniversitesi, tüm hakları saklıdır.) bölümüne bakın. Bu veriler, yalnızca eğitim ve akademik araştırma amacıyla herkese açık bir şekilde sunulmuştur. Toplama örneğinde gösterilen verilerin [Kullanım Koşulları](https://github.com/CSSEGISandData/COVID-19/blob/master/README.md)’nın tamamına buradan ulaşabilirsiniz. Daha fazla bilgi için [Johns Hopkins Üniversitesi web sitesini](https://coronavirus.jhu.edu/map-faq.html) ziyaret edin.
+Johns Hopkins Üniversitesi verilerinin telif hakkı 2020 John Hopkins Üniversitesine aittir ve tüm hakları saklıdır. Bu veriler, yalnızca eğitim ve akademik araştırma amacıyla herkese açık bir şekilde sunulmuştur. Toplama örneğinde gösterilen verilerin [Kullanım Koşulları](https://github.com/CSSEGISandData/COVID-19/blob/master/README.md)’nın tamamına buradan ulaşabilirsiniz. Daha fazla bilgi için [Johns Hopkins Üniversitesi web sitesini](https://coronavirus.jhu.edu/map-faq.html) ziyaret edin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

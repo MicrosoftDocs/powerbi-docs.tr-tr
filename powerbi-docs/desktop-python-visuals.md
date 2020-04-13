@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609838"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979880"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
 
@@ -155,9 +155,9 @@ Betik için **Çalıştır** düğmesini seçtiğinizde aşağıdaki çubuk çiz
 > **Python betiklerinin güvenliği:** Python görselleri, güvenlik veya gizlilik riskleri taşıyan kodlar içerebilecek Python betiklerinden oluşturulur. Bir Python görselini ilk kez görüntülemeye veya Python görseliyle ilk kez etkileşim kurmaya çalışan kullanıcılar bir güvenlik uyarısı iletisiyle karşılaşır. Python görsellerini yalnızca, yazara ve kaynağa güvenmeniz halinde veya ilgili Python betiğini gözden geçirip anladıktan sonra etkinleştirin.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Matprolib, Pandas ve Python ile çizim yapma hakkında daha fazla bilgi
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Matplotlib, Pandas ve Python ile çizim yapma hakkında daha fazla bilgi
 
-Bu öğretici Power BI Desktop’ta Python ile görseller oluşturmaya başlamanıza yardımcı olmak için tasarlanmıştır. Python, Pandas ve Matprolib kitaplığını kullanarak görsel raporlar oluşturmaya yönelik çok sayıda seçeneğine ve özelliğe yalnızca yüzeysel olarak değinilmiştir. Araştırırsanız çok daha fazla bilgi bulabilirsiniz ve başlangıç yapmanız için burada birkaç bağlantı verilmiştir.
+Bu öğretici Power BI Desktop’ta Python ile görseller oluşturmaya başlamanıza yardımcı olmak için tasarlanmıştır. Python, Pandas ve Matplotlib kitaplığını kullanarak görsel raporlar oluşturmaya yönelik çok sayıda seçeneğine ve özelliğe yalnızca yüzeysel olarak değinilmiştir. Araştırırsanız çok daha fazla bilgi bulabilirsiniz ve başlangıç yapmanız için burada birkaç bağlantı verilmiştir.
 
 - [Matplotlib](https://matplotlib.org/) web sitesindeki belgeler. 
 - [Matplotlib Öğreticisi: Python ile Matplotlib Kullanımı için Temel Kılavuz](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
@@ -177,6 +177,7 @@ Power BI Desktop'ta Python görsellerine ilişkin bazı sınırlamalar vardır:
 - Python görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve çapraz filtrelemenin kaynağı olamaz.
 - Python görselleri diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için Python görselindeki öğelere tıklayamazsınız.
 - Yalnızca varsayılan Python görüntüleme cihazında çizilen çizimler tuval üzerinde doğru şekilde görüntülenir. Farklı bir Python görüntüleme cihazını açıkça kullanmaktan kaçının.
+- Python görselleri, giriş sütunlarının yeniden adlandırılmasını desteklemez. Betik yürütme sırasında sütunlara özgün adlarıyla başvurulur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

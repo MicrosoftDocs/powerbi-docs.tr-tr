@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75217836"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802061"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Cihazınızla Power BI mobil uygulamasında barkod tarama
 Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
@@ -21,9 +21,9 @@ Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş
 
 Aşağıdakiler cihazlar için geçerlidir:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
-|:--- |:--- |
-| iPhone | Android (Telefon, Tablet) | 
+| ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad'ler](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android telefon](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
+|:--- |:--- |:--- |:--- |
+|iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |
 
 Diyelim ki bir iş arkadaşınız [Power BI Desktop raporunda bir barkod alanı etiketledi](../../desktop-mobile-barcodes.md) ve raporu sizinle paylaştı. 
 
@@ -55,18 +55,18 @@ Her iki durumda da simgeye dokunarak, kayan bir tarayıcı içeren küçük men�
 ## <a name="issues-with-scanning-a-barcode"></a>Barkod taramada karşılaşılan sorunlar
 Bir üründeki barkodu tararken aşağıdaki gibi iletilerle karşılaşabilirsiniz:
 
-### <a name="couldnt-filter-report"></a>"Rapor filtrelenemedi..."
+### <a name="couldnt-filter-report"></a>“Rapor filtrelenemedi...”
 Filtrelemeyi seçtiğiniz rapor, bu barkod değerini içermeyen bir veri modelini temel alıyor. Örneğin, "maden suyu" ürünü raporda yer almıyor.  
 
 ### <a name="allsome-of-the-visuals-in-the-report-dont-contain-any-value"></a>Rapordaki görselleştirmelerden hiçbiri/bazıları değer içermiyor
 Taradığınız barkod değeri modelinizde bulunuyor ancak raporunuzdaki görselleştirmelerden hiçbiri/bazıları bu değeri içermiyor ve bu nedenle, filtreleme işlemi boş bir durum döndürüyor. Başka rapor sayfalarına göz atmayı deneyin veya Power BI Desktop'ta raporlarınızı bu değeri içerecek şekilde düzenleyin 
 
-### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>"Barkodlarla filtrelenebilecek herhangi bir raporunuzun olmadığı görülüyor."
+### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“Barkodlarla filtrelenebilecek herhangi bir raporunuzun olmadığı görülüyor.”
 Bu, etkin barkodu bulunan herhangi bir raporunuz olmadığı anlamına gelir. Barkod tarayıcısıyla yalnızca **Barkod** olarak işaretlenmiş bir sütuna sahip olan raporlar filtrelenebilir.  
 
 Rapor sahibinin (veya sizin) Power BI Desktop'ta bir sütunu **Barkod** olarak etiketlediğinden emin olun. [Power BI Desktop'ta bir barkod alanı etiketleme](../../desktop-mobile-barcodes.md) hakkında daha fazla bilgi edinin
 
-### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>"Rapor filtrelenemedi - Bu barkodun, rapor verilerinde mevcut olmadığı görülüyor."
+### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“Rapor filtrelenemedi - Bu barkodun, rapor verilerinde mevcut olmadığı görülüyor.”
 Filtrelemeyi seçtiğiniz rapor bu barkod değerini içermeyen bir veri modelini temel alıyor. Örneğin, "maden suyu" ürünü raporda yer almıyor. Farklı bir ürünü tarayabilir, farklı bir rapor seçebilir (birden fazla rapor mevcutsa) veya raporu filtrelenmemiş olarak görüntüleyebilirsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar

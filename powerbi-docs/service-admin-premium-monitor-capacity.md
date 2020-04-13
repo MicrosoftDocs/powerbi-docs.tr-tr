@@ -7,20 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a61288c9792d562e9a5efecd43d879d6df6d1782
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698889"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813087"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Kapasiteleri Yönetim portalında veya **Power BI Premium Kapasite Ölçümleri** uygulamasıyla izleyebilirsiniz. Bu makalede Premium Kapasite Ölçümleri uygulamasının kullanımı açıklanır. Uygulama kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Son yedi günün ortalama kullanım ölçümlerine üst düzey bir genel bakış için Yönetim portalını kullanabilirsiniz. Portalı izleme hakkında daha fazla bilgi edinmek için bkz. [Yönetim portalında Premium kapasiteleri izleme](service-admin-premium-monitor-portal.md).
 
 Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir.
+
+> [!IMPORTANT]
+> Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Bu, aşırı yüklenmiş kapasitelerde sorun gidermeye yönelik basitleştirilmiş bir yöntemdir. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -60,7 +63,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="top"></a>Üst
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | Sürüm | Uygulama sürümü. | 
 | Kapasiteler | Yöneticisi olduğunuz kapasitelerin sayısı. | 
@@ -69,7 +72,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="system-summary"></a>Sistem Özeti
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | CPU En Yüksek Kullanım Kapasitesi | Son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini en çok aştığı kapasite. |
 | CPU En Yüksek Kullanım Sayısı | Belirtilen kapasite için son yedi gün içinde CPU kullanımının eşik değerlerin %80'ini aşma sayısı. | 
@@ -79,7 +82,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="dataset-summary"></a>Veri Kümesi Özeti
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | Veri kümeleri | Kapasitelerinizdeki tüm çalışma alanlarında yer alan veri kümelerinin toplam sayısı.|
 | Veri Kümelerinin Ortalama Boyutu (MB) | Kapasitelerinizdeki tüm çalışma alanlarında yer alan veri kümelerinin ortalama boyutu.|  
@@ -106,7 +109,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="dataflow-summary"></a>Veri Akışı Özeti
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | Veri akışları |  Kapasitelerinizdeki tüm çalışma alanlarında yer alan veri akışlarının toplam sayısı.|
 | Toplam Yenileme Sayısı | Son yedi gün içinde gerçekleştirilen toplam yenileme sayısı.|  
@@ -120,7 +123,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="paginated-report-summary"></a>Sayfalandırılmış Rapor Özeti
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | Sayfalandırılmış Raporlar |  Kapasitelerinizdeki tüm çalışma alanlarında yer alan sayfalandırılmış raporların toplam sayısı. |
 | Toplam Görünüm Sayısı | Tüm raporların kullanıcılarınız tarafından toplamda kaç kez görüntülendiğini gösteren sayı. | 
@@ -134,7 +137,7 @@ Panoda aşağıdaki ölçümler bulunur:
 
 #### <a name="ai-summary"></a>AI Özeti
 
-| Ölçüm | Açıklama |
+| Metric | Açıklama |
 | --- | --- |
 | AI İşlevi Yürütme | Son yedi günde gerçekleştirilen toplam yürütme sayısı. |
 | AI İşlevi Yürütme Güvenilirliği (%) | Başarılı yürütme sayısının son yedi günde gerçekleştirilen toplam başarılı yürütme sayısına bölünmesiyle elde edilen sonuç. |

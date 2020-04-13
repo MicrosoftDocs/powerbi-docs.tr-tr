@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/19/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488695"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813064"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 
@@ -27,6 +27,9 @@ ms.locfileid: "79488695"
 ![Power BI Premium Metrics uygulaması](media/service-premium-metrics-app/premium-metrics-app-00.png)
 
 Aşağıdaki bölümlerde giriş sayfası ve üç ölçüm raporu sayfası ayrıntılarıyla açıklanır. 
+
+> [!IMPORTANT]
+> Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="premium-capacity-health-center"></a>Premium kapasite durumu merkezi
 

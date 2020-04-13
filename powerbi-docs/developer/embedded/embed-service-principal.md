@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403554"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751642"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
-Hizmet sorumlusu, bir Azure AD uygulamasının Power BI hizmet içeriğine ve API’lerine erişmesine izin vermek için kullanılan bir kimlik doğrulaması yöntemidir.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Bir Azure Active Directory (Azure AD) uygulaması oluşturduğunuzda, bir [hizmet sorumlusu nesnesi](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) oluşturulur. Yalnızca *hizmet sorumlusu* olarak da bilinen hizmet sorumlusu nesnesi, Azure AD’nin uygulamanızın kimliğini doğrulamasına olanak sağlar. Kimlik doğrulandıktan sonra uygulama, Azure AD kiracı kaynaklarına erişebilir.
-
-Hizmet sorumlusu, kimlik doğrulaması yapmak için Azure AD uygulamasının *Uygulama Kimliğini* ve şunlardan birini kullanır:
-* Uygulama gizli dizisi
-* Sertifika
-
-Bu makalede, *Uygulama Kimliği* ve *Uygulama gizli dizisi* kullanılarak hizmet sorumlusu kimlik doğrulaması açıklanmaktadır. Sertifikaya sahip bir hizmet sorumlusu kullanarak kimlik doğrulaması yapmak için bkz. [Power BI sertifika tabanlı kimlik doğrulaması]().
+Bu makalede, *Uygulama Kimliği* ve *Uygulama gizli dizisi* kullanılarak hizmet sorumlusu kimlik doğrulaması açıklanmaktadır.
 
 ## <a name="method"></a>Yöntem
 
@@ -55,12 +49,12 @@ Ekli analizlerle hizmet sorumlusunu ve uygulama kimliğini kullanmak için şu a
 ## <a name="step-1---create-an-azure-ad-app"></a>1\. Adım: Azure AD uygulaması oluşturma
 
 Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
-* Uygulamayı [Microsoft Azure portalında](https://ms.portal.azure.com/#allservices) oluşturma.
+* Uygulamayı [Microsoft Azure portalında](https://portal.azure.com/#allservices) oluşturma.
 * Uygulamayı [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) kullanarak oluşturma.
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portalında Azure AD uygulaması oluşturma
 
-1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
+1. [Microsoft Azure](https://portal.azure.com/#allservices)’da oturum açın.
 
 2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısına tıklayın.
 
@@ -72,7 +66,7 @@ Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 
 4. Gereken bilgileri doldurun:
     * **Ad**: Uygulamanız için bir ad girin
-    * **Desteklenen hesap türleri**: Desteklenen hesap türlerini seçin
+    * **Desteklenen hesap türleri** - İhtiyacınız olan Azure AD hesabını seçin
     * (İsteğe bağlı) **Yeniden Yönlendirme URI’si**: Gerekirse bir URI girin
 
 5. **Kaydet**’e tıklayın.
@@ -205,5 +199,3 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 * [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 
 * [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme]()

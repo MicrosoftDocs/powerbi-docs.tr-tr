@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381112"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979811"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -29,7 +29,7 @@ Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucu
            -  Belirli veri kaynakları için karşıdan yükleyemeyen Power BI raporları düzeltmesi
            -  Portaldan Power BI Rapor Sunucusu Masaüstü bağlantısı indirme konumu düzeltmesi
            -  Excel işlemesi için DynamicImageDPI düzeltmesi
-           -  Çok kullanıcılı bazı senaryolarda yanlış iş parçacığı kültürü kullanan Oracle bağlantıları düzeltmesi
+           -  Çok kullanıcılı bazı senaryolarda yanlış iş parçacığı kültürü kullanan Oracle bağlantıları düzeltmesi (daha fazla bilgi için bkz. [UseInstalledUICulture belgeleri] (https://docs.microsoft.com/power-bi/report-server/connect-data-sources) ))
            -  Rapor ekleme işleminde hatalara neden olan CustomHeaders varsayılan değerinin düzeltmesi
            -  Bazı durumlarda yanlış oluşturulan SQL parametre adlarının düzeltmesi
     - *Sürüm: 1.6.7327.3007 (Derleme 15.0.1102.759), Yayın Tarihi: 23 Ocak 2020*

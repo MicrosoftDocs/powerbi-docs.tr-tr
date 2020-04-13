@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9bbb289c3fc87587d78de40d375ee71e20c16032
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79493561"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621642"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -172,7 +172,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Kurumsal kiracınızla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Konukla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/report-owner-tenant-id* . Burada *report-owner-tenant-id* yerine rapor sahibinin kiracı kimliğini ekleyin.
+Konukla eklemek için şu URL'yi kullanın - `https://login.microsoftonline.com/report-owner-tenant-id` - Burada *report-owner-tenant-id* yerine rapor sahibinin kiracı kimliğini ekleyin.
 
 ### <a name="run-the-application"></a>Uygulamayı çalıştırma
 

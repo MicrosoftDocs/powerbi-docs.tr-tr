@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 729a50e251a9c2ae083375e187ff133022f3ce91
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114877"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979903"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 Power BI Desktop'la verilerinizi görselleştirmek için *R* programlama dilini kullanabilirsiniz. [R](https://mran.revolutionanalytics.com/documents/what-is-r) istatistiksel bilgi işlem ve grafiklere yönelik bir dil ve ortamdır.
@@ -142,6 +142,8 @@ Power BI Desktop'ta R görsellerinin şöyle sınırlamaları vardır:
 * Vurgulamalar: R görselleri diğer görselleri vurgulama işleminize yanıt verir ancak diğer öğelere çapraz filtre uygulamak için R görselindeki öğeleri seçemezsiniz.
 
 * Görüntü bağdaştırıcıları: Yalnızca varsayılan R görüntüleme cihazında çizilen çizimler tuval üzerinde doğru şekilde görüntülenir. Farklı bir R görüntüleme cihazını açıkça kullanmaktan kaçının.
+
+* Sütunları yeniden adlandırma: R görselleri, giriş sütunlarının yeniden adlandırılmasını desteklemez. Betik yürütme sırasında sütunlara özgün adlarıyla başvurulur.
 
 * RRO yüklemeleri: Bu sürümde Power BI Desktop'ın 32 bit sürümü RRO yüklemelerini otomatik olarak belirlemez; **Seçenekler ve ayarlar** > **Seçenekler** > **R Betiği Oluşturma** bölümünde R yükleme dizininin yolunu el ile sağlamanız gerekir.
 

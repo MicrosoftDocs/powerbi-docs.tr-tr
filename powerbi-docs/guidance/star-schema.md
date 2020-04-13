@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133264"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751609"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -75,7 +75,7 @@ Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha deste
 
 - Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır çünkü PivotTable’lar MDX sorguları gönderir.
 - Rapor yazarlarınızın MDX sorgu tasarımcısını kullanarak Power BI sayfalandırılmış raporları oluşturacağını biliyorsanız, modelin açık ölçüler içermesi gerekir. [Sunucu toplamalarını](/sql/reporting-services/report-design/report-builder-functions-aggregate-function) yalnızca MDX sorgu tasarımcısı destekler. Bu nedenle rapor yazarlarının ölçülerin Power BI tarafından değerlendirilmesine (sayfalandırılmış rapor altyapısı yerine) ihtiyaç duyması halinde MDX sorgu tasarımcısını kullanmaları gerekir.
-- Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerekiyorsa. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
+- Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerektiğinde. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
 
 Bu tasarım yaklaşımı Power BI hizmetinde yazılan raporlarda ve Soru-Cevap için iyi sonuç verir. Öte yandan Power BI Desktop canlı bağlantıları rapor yazarlarının **Alanlar** bölmesinde gizli alanları göstermesine izin verir ve sonuç olarak bu tasarım yaklaşımı aşılabilir.
 
@@ -188,7 +188,7 @@ Power BI modelinde satış sipariş numarası sütununu olgu türündeki tabloya
 
 ![Bozuk boyut örneği](media/star-schema/degenerate-dimension.png)
 
-Daha fazla bilgi için bkz. [Birebir ilişki kılavuzu (Bozuk boyutlar)](relationships-one-to-one.md#degenerate-dimensions).
+Ancak Adventure Work kurumsal bayiler satış masasında sipariş numarası _ve_ sipariş sıra numarası sütunları varsa ve bunlara filtreleme için ihtiyaç duyuluyorsa bozuk boyut tablosu iyi bir tasarım olabilir. Daha fazla bilgi için bkz. [Birebir ilişki kılavuzu (Bozuk boyutlar)](relationships-one-to-one.md#degenerate-dimensions).
 
 ## <a name="factless-fact-tables"></a>Olgu içermeyen olgu tabloları
 
@@ -196,7 +196,7 @@ Daha fazla bilgi için bkz. [Birebir ilişki kılavuzu (Bozuk boyutlar)](relatio
 
 Olgu içermeyen olgu tablosu boyut anahtarları tarafından tanımlanan gözlemleri depolayabilir. Örneğin belirli bir tarih ve saatte belirli bir müşteri web sitenizde oturum açmıştır. Kaç müşterinin ne zaman oturum açtığıyla ilgili bir analiz yapmak için olgu içermeyen olgu tablosunun satırlarını sayan bir ölçü tanımlayabilirsiniz.
 
-Olgu içermeyen olgu tablosunun daha cazip bir kullanımı, boyutlar arasındaki ilişkileri depolamaktır ve bu da çoklu boyut ilişkilerini tanımlamayı önerdiğimiz Power BI modeli tasarım yaklaşımıdır. Çoklu boyut ilişkisi tasarımında olgu içermeyen olgu tablosuna bir _köprü oluşturma tablosu_ denir.
+Olgu içermeyen olgu tablosunun daha cazip bir kullanımı, boyutlar arasındaki ilişkileri depolamaktır ve bu da çoklu boyut ilişkilerini tanımlamayı önerdiğimiz Power BI modeli tasarım yaklaşımıdır. [Çoklu boyut ilişkisi tasarımında](relationships-many-to-many.md#relate-many-to-many-dimensions) olgu içermeyen olgu tablosuna bir _köprü oluşturma tablosu_ denir.
 
 Örneğin, satış elemanlarının bir _veya birden çok_ satış bölgesine atanabildiğini düşünün. Köprü oluşturma tablosu, iki sütundan oluşan bir olgu içermeyen olgu tablosu olarak tasarlanabilir: satış elemanı anahtarı ve bölge anahtarı. Yinelenen değerler her iki sütunda da depolanabilir.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114854"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979834"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI'da R görselleri oluşturma ve kullanma
 R görselleri şu anda yalnızca **Power BI Desktop**'ta oluşturulabilir ve ardından Power BI hizmetinde yayımlanabilir. R görselleri oluşturma hakkında daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../desktop-r-visuals.md).
@@ -93,7 +93,8 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
 * R görselleri; veri güncelleştirmeleri, filtre uygulama ve vurgulama işlemleri ardından yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve araç ipuçlarını desteklemez.
 * R görselleri diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için R görselindeki öğelere tıklayamazsınız.
 * R görselleri şu anda *Saat* veri türü için desteklenmemektedir. Bunun yerine lütfen Tarih/Saat veri türünü kullanın.
-* R Görselleri **Web'de yayımla** özelliği kullanılırken görüntülenmez.
+* R görselleri **Web’de yayımla** özelliği kullanılırken görüntülenmez.
+* R görselleri, giriş sütunlarının yeniden adlandırılmasını desteklemez. Betik yürütme sırasında sütunlara özgün adlarıyla başvurulur.
 * R görselleri şu anda pano ve rapor yazdırma özelliğiyle yazdırılamaz
 * R görselleri şu anda Analysis Services'in DirectQuery modunda desteklenmemektedir
 * R görsellerinin metin etiketlerini grafik öğelerine dönüştürebilme özelliği vardır. Power BI hizmetinde bunu yapabilmek için aşağıdaki ek adımlar gerekir:

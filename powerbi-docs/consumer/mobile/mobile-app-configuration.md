@@ -2,18 +2,17 @@
 title: Power BI uygulama yapılandırma ayarları
 description: MDM aracını kullanarak Power BI'ın davranışını özelleştirme
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205562"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802038"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
@@ -22,7 +21,7 @@ iOS ve Android için Power BI Mobil uygulaması Intune gibi mobil cihaz yönetim
 Power BI Mobil uygulaması aşağıdaki yapılandırma senaryolarını destekler:
 
 * Rapor Sunucusu yapılandırması (iOS ve Android)
-* Veri koruma ayarları (iOS)
+* Veri koruma ayarları (iOS ve Android)
 * Etkileşim ayarları (iOS ve Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Rapor sunucusu yapılandırması (iOS ve Android)
@@ -36,13 +35,16 @@ iOS ve Android için Power BI uygulaması yöneticilerin kayıtlı cihazlara uza
 | com.microsoft.powerbi.mobile.ServerDisplayName | Dize | [isteğe bağlı]<br><br>Varsayılan değer "Rapor sunucusu" şeklindedir<br><br>Sunucuyu temsil etmek üzere uygulamada kullanılan kolay ad. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boole | [isteğe bağlı]<br><br>True varsayılan değerdir. True olarak ayarlanırsa mobil cihazda zaten mevcut olan tüm Rapor Sunucusu tanımlarını geçersiz kılar. Önceden yapılandırılmış olan sunucular silinir. Geçersiz Kılma ayarının True olarak belirlenmesi de kullanıcının bu yapılandırmayı kaldırmasını engeller.<br><br>False olarak ayarlandığında mevcut tüm ayarlar tutulurken gönderilen değerler eklenir. Mobil uygulamada aynı sunucu URL’si zaten yapılandırılmışsa, uygulama bu yapılandırmayı olduğu gibi bırakır. Uygulama, kullanıcıdan aynı sunucu için yeniden kimlik doğrulamasını istemez. |
 
-## <a name="data-protection-settings-ios"></a>Veri koruma ayarları (iOS)
+## <a name="data-protection-settings-ios-and-android"></a>Veri koruma ayarları (iOS ve Android)
 
-iOS için Power BI uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. Kullanıcıları Power BI uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz.
+iOS ve Android için Power BI mobil uygulaması yöneticilere güvenlik ve gizlilik ayarları için varsayılan yapılandırmayı özelleştirme olanağı sağlar. iOS için, kullanıcıları Power BI mobil uygulamasına erişirken Face ID, Touch ID veya geçiş kodu sağlamaya zorlayabilirsiniz. Android için, kullanıcıları biyometrik kimlik doğrulaması (Parmak İzi Kimliği) kullanmaya zorlayabilirsiniz.
 
 | Anahtar | Tür | Açıklama |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boole | Varsayılan değerdir False’tur. <br><br>Kullanıcıların cihazlarından uygulamaya erişmek için TouchID veya FaceID gibi biyometri verilerini sağlaması istenebilir. Gerektiğinde biyometri verileri kimlik doğrulamasına ek olarak kullanılır.<br><br>Uygulama koruma ilkeleri kullanılıyorsa, çift erişim istemlerini önlemek için Microsoft bu ayarın devre dışı bırakılmasını önerir. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boole | Varsayılan değerdir False’tur. <br><br>Kullanıcıların cihazlarından uygulamaya erişmek için TouchID veya FaceID (iOS) ya da Parmak İzi Kimliği (Android) gibi biyometri verilerini sağlaması istenebilir. Gerektiğinde biyometri verileri kimlik doğrulamasına ek olarak kullanılır.<br><br>Uygulama koruma ilkeleri kullanılıyorsa, çift erişim istemlerini önlemek için Microsoft bu ayarın devre dışı bırakılmasını önerir. |
+
+>[!NOTE]
+>Veri koruma ayarları yalnızca biyometrik kimlik doğrulamasını destekleyen Android cihazlarında uygulanır.
 
 ## <a name="interaction-settings-ios-and-android"></a>Etkileşim ayarları (iOS ve Android)
 

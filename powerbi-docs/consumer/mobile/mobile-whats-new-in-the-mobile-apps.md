@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435985"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802107"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,20 @@ ms.locfileid: "79435985"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>Mart 2020
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>İçeriğinizi başlatmak için kısayolları ve Google Search’ü kullanma (Android)
+Hem kısayolları hem de Google Search’ü Power BI uygulamasıyla tümleştirerek verilerinizi bulup başlatmayı kolaylaştırdık. Doğrudan cihazınızın giriş ekranından en sık kullandığınız raporlara ve panolara kolay erişim için kısayollar oluşturun. Power BI içeriğinizi hızla arayıp açmak için de Google Search’ten yararlanın. [Android uygulama kısayolları](mobile-app-quick-access-shortcuts.md) ve [Google Search](mobile-app-find-access-google-search.md) hakkında daha fazla bilgi edinin!
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>Cihaz korumayı kullanarak gelişmiş güvenlik (önizleme) (Android)
+Power BI uygulamanızın güvenliğini sağlamak ve ihtiyacınız olan gizliliği elde etmek için cihazınızın yerleşik koruma özelliklerini kullanın. Power BI uygulamasına erişim için biyometrik kimlik doğrulamasını (Parmak İzi Kimliği) zorunlu kılmak verilerinizin özel kalmasını ve yalnızca sizin tarafınızdan görülmesini sağlar. [Yerel güvenli erişim hakkında bilgi edinin](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>Tarama iPad’de kullanıma sunuldu
+Doğrudan iPad’inizden raporlarınızı filtrelemek için barkodları tarayabilir ve raporları hızla açmak için QR kodlarını kullanabilirsiniz.  
+
+### <a name="updated-filtering-experience"></a>Güncelleştirilmiş filtreleme deneyimi
+Power BI uygulamasındaki filtrelerin yeni işlevleri ve yeni bir tasarımı var. Bunlar arasında rapor görsellerini etkileyen uygulanmış filtrelerin iyileştirilmiş görünümü ve filtreleri kilitleme, hatta gizleme özeliği yer alır. Bu değişiklikler, Power BI hizmetindeki filtrelemeyle daha iyi uyumluluk sağlar.
 
 ## <a name="february-2020"></a>Şubat 2020
 
