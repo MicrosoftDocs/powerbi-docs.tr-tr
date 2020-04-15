@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/25/2020
+ms.date: 03/27/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 42417f272f1331c2ca5144978bb92ca189a13f93
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 4615bae84ddeb3d3e0b3c471a6b9d6bcf7eda406
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302387"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267308"
 ---
 # <a name="types-of-power-bi-licenses"></a>Power BI lisanslarının türleri
 

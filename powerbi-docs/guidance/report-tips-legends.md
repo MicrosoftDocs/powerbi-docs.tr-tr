@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3724a9e66d5e8baa31bc312699e623e2d00eeeeb
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78238179"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006101"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI raporlarında göstergeleri biçimlendirme ve uygulamaya yönelik ipuçları
 
@@ -22,7 +22,7 @@ Bu makale Power BI raporları tasarlayan rapor yazarlarının göstergeleri biç
 
 Power BI raporlarınızdaki göstergeleri biçimlendirmeye ve uygulamaya yönelik en etkili altı ipucunun gösterildiği videoyu izleyin.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r9XnHmuWkZQ" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/r9XnHmuWkZQ]
 
 ## <a name="tips"></a>İpuçları
 

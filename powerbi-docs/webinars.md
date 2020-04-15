@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
-ms.author: v-tatero
-ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.author: kfollis
+ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381342"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267561"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 

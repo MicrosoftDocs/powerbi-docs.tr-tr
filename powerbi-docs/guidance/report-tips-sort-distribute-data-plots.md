@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6488a274600083f3100efcf6b81a0b6116c0e059
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: f497060c4e36c648bd2b3ef23ae8914d303adfa6
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273558"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006538"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları
 
@@ -22,7 +22,7 @@ Bu makale, veri çizimi görsellerini kullanarak Power BI raporları tasarlayan 
 
 Power BI raporlarında veri çizimlerini sıralamaya ve dağıtmaya yönelik en faydalı dokuz ipucunu gösteren videoyu izleyin.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BnhA4qa-9Jk" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/BnhA4qa-9Jk]
 
 ## <a name="tips"></a>İpuçları
 

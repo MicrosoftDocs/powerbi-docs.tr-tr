@@ -96,7 +96,7 @@ Kullanıcı [refreshUserPermissions API'sini](https://docs.microsoft.com/rest/ap
 
 PBI Kiracı bölgenizi bulmak için PBI portalını kullanabilirsiniz.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI Hakkında
+`https://app.powerbi.com/` > ? > Power BI Hakkında
 
 ![Power BI Hakkında](media/embedded-faq/about-01.png)
 ![Kiracı bölgesi](media/embedded-faq/tenant-location-01.png)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 04/08/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0250dda93a37ef495566f3e62c5d0c1588ee7ed6
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 3587118d6ee844f611d69666e163f64e4d499475
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114070"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267331"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI ile verileri görüntüleme
 
