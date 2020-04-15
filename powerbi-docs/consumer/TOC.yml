@@ -18,12 +18,14 @@
           href: end-user-experience.md
         - name: Açılış sayfanızı kullanarak içerik bulma
           href: end-user-home.md
-        - name: Doğal dil kullanarak soru sormayı öğrenme
-          href: end-user-q-and-a.md
+        - name: Tüketicilerin kullanabileceği özelliklerin listesi
+          href: end-user-features.md
         - name: İlk kez oturum açma
           href: end-user-sign-in.md
         - name: Hangi Power BI lisansına sahibim?
           href: end-user-license.md
+        - name: Doğal dil kullanarak soru sormayı öğrenme
+          href: end-user-q-and-a.md
         - name: '''Yeni görünüm'' bölümünde gezinme'
           href: ../service-new-look.md
         - name: 'Yeni görünüm: Eylemler nereye gitti?'
@@ -60,6 +62,8 @@
               href: end-user-report-filter.md
             - name: Rapor görsellerinin birbirlerini karşılıklı nasıl filtrelediğini öğrenin
               href: end-user-interactions.md
+            - name: Rapor dilimleyicileriyle etkileşim kurma
+              href: end-user-slicer.md
             - name: Bir raporu PDF’ye dışarı aktarma
               href: end-user-pdf.md
             - name: Bir raporu PowerPoint’e dışarı aktarma

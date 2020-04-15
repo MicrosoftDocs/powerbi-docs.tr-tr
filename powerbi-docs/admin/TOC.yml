@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: Satır düzeyi güvenlik
           href: ../service-admin-rls.md
+        - name: Veri kümesi ve veri akışı sertifikası ayarlama
+          href: service-admin-setup-certification.md
         - name: Intune ile mobil uygulamaları yapılandırma
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium

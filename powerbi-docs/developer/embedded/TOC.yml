@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: Raporu dosyaya aktarma
           href: export-to.md
+        - name: Sayfalandırılmış raporu dosyaya aktarma
+          href: export-paginated-report.md
         - name: Uygulamaları otomatik yükleme
           href: embed-auto-install-app.md
         - name: Azure Active Directory kiracısı oluşturma

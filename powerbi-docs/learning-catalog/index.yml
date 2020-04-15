@@ -1,0 +1,132 @@
+### YamlMime:Landing
+title: Power BI Öğrenme kataloğu
+summary: Power BI’a yönelik tüm eğitim seçeneklerini bulun
+metadata:
+  title: Power BI öğrenme kataloğu
+  description: Kuruluşunuzdaki rollere uygun Power BI eğitim seçeneklerini bulun.
+  ms.service: powerbi
+  ms.topic: landing-page
+  author: loreleishannonmsft
+  ms.author: v-lshann
+  ms.date: 04/08/2020
+  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
+  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.translationtype: HT
+  ms.contentlocale: tr-TR
+  ms.lasthandoff: 04/13/2020
+  ms.locfileid: "81269053"
+landingContent:
+- title: İş kararlarını veren kişiler
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: İş Kararlarını ve Teknik Kararları Veren Kişilere Yönelik Öğrenme Kataloğu
+      url: learning-catalog-bdm.md#
+- title: Tüketiciler
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Tüketicilere Yönelik Öğrenme Kataloğu
+      url: learning-catalog-consumer.md#
+- title: Rapor oluşturucuları
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Rapor Oluşturucularına Yönelik Öğrenme Kataloğu
+      url: learning-catalog-report-creator.md#
+    - text: Kullanmaya başlayın
+      url: learning-catalog-report-creator.md#get-started
+    - text: Panolar
+      url: learning-catalog-report-creator.md#dashboards
+    - text: Rapor tasarımı
+      url: learning-catalog-report-creator.md#report-design
+    - text: Görselleştirme
+      url: learning-catalog-report-creator.md#visualization
+    - text: Tümleştirme
+      url: learning-catalog-report-creator.md#integration
+- title: Veri analistleri
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Veri Analistlerine Yönelik Öğrenme Kataloğu
+      url: learning-catalog-data-analyst.md#
+    - text: Kullanmaya başlayın
+      url: learning-catalog-data-analyst.md#get-started
+    - text: En iyi yöntemler
+      url: learning-catalog-data-analyst.md#best-practices
+    - text: Örnek olay İncelemeleri
+      url: learning-catalog-data-analyst.md#case-studies
+    - text: Panolar
+      url: learning-catalog-data-analyst.md#dashboards
+    - text: Görselleştirmeler
+      url: learning-catalog-data-analyst.md#visualizations
+    - text: İdare ve dağıtım
+      url: learning-catalog-data-analyst.md#governance-deployment
+    - text: Tümleştirme
+      url: learning-catalog-data-analyst.md#integration
+    - text: Güvenlik
+      url: learning-catalog-data-analyst.md#security
+- title: Yöneticiler
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Yöneticilere Yönelik Öğrenme Kataloğu
+      url: learning-catalog-administrator.md
+    - text: Kullanmaya başlayın
+      url: learning-catalog-administrator.md#get-started
+    - text: Dağıt
+      url: learning-catalog-administrator.md#deploy
+- title: Geliştiriciler
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Geliştirici Öğrenme Kataloğu
+      url: learning-catalog-developer.md
+    - text: Kullanmaya başlayın
+      url: learning-catalog-developer.md#get-started
+    - text: Ekleme
+      url: learning-catalog-developer.md#embedded
+    - text: DAX
+      url: learning-catalog-developer.md#dax
+    - text: Geliştirme
+      url: learning-catalog-developer.md#development
+- title: İş ortağı ön satış rolleri
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: İş Ortağı Ön Satışlarına Yönelik Öğrenme Kataloğu
+      url: learning-catalog-presales.md#
+- title: İşlevsel danışmanlar
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: İşlevsel Uygulama Danışmanı Öğrenme Kataloğu
+      url: learning-catalog-functional-consultant.md
+    - text: Kullanmaya başlayın
+      url: learning-catalog-functional-consultant.md#get-started
+    - text: En iyi yöntemler
+      url: learning-catalog-functional-consultant.md#best-practices
+    - text: Örnek olay İncelemeleri
+      url: learning-catalog-functional-consultant.md#case-studies
+    - text: Panolar
+      url: learning-catalog-functional-consultant.md#dashboards
+    - text: İdare ve dağıtım
+      url: learning-catalog-functional-consultant.md#governance-deployment
+    - text: Tümleştirme
+      url: learning-catalog-functional-consultant.md#integration
+    - text: Güvenlik
+      url: learning-catalog-functional-consultant.md#security
+    - text: Görselleştirmeler
+      url: learning-catalog-functional-consultant.md#visualizations
+- title: Çözüm mimarları
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Çözüm Mimarlarına Yönelik Öğrenme Kataloğu
+      url: learning-catalog-solution-architect.md
+    - text: Kullanmaya başlayın
+      url: learning-catalog-solution-architect.md#get-started
+    - text: Örnek olay İncelemeleri
+      url: learning-catalog-solution-architect.md#case-studies
+    - text: Performans
+      url: learning-catalog-solution-architect.md#performance

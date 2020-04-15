@@ -1,0 +1,21 @@
+- name: Öğrenme Kataloğu
+  href: index.yml
+  items:
+    - name: İş kararlarını veren kişiler
+      href: learning-catalog-bdm.md
+    - name: Tüketiciler
+      href: learning-catalog-consumer.md
+    - name: Rapor oluşturucuları
+      href: learning-catalog-report-creator.md
+    - name: Veri analistleri
+      href: learning-catalog-data-analyst.md
+    - name: Yöneticiler
+      href: learning-catalog-administrator.md
+    - name: Geliştiriciler
+      href: learning-catalog-developer.md
+    - name: İş ortağı ön satış rolleri
+      href: learning-catalog-presales.md
+    - name: İşlevsel danışmanlar
+      href: learning-catalog-functional-consultant.md
+    - name: Çözüm mimarları
+      href: learning-catalog-solution-architect.md

@@ -81,6 +81,8 @@
           items:
             - name: Veri akışları oluşturma ve kullanma
               href: ../service-dataflows-create-use.md
+            - name: Veri akışlarını yükseltme veya onaylama
+              href: service-dataflows-promote-certify.md
             - name: Geliştirilmiş işlem altyapısını veri akışları ile kullanma
               href: ../service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium ile hesaplanan varlıklar
