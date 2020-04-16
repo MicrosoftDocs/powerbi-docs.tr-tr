@@ -29,9 +29,12 @@
                 - name: Otomasyon
                   tocHref: /power-bi/developer/automation/
                   topicHref: /power-bi/developer/automation/
-            - name: Destekli Öğrenme
+            - name: Kılavuzlu öğrenme
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
+            - name: Öğrenme kataloğu
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
             - name: Rapor Sunucusu
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index

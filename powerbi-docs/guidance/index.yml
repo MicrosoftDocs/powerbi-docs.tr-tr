@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 5f6e5c71f368b5b707534cde769de477bd8fa6a6
-  ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+  ms.openlocfilehash: a4466f3ce963891d03ca48dc99767eec6670872f
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/26/2020
-  ms.locfileid: "80273444"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439768"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -89,6 +89,8 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
+    - text: Raporları modellerden ayırma
+      url: report-separate-from-model.md
     - text: Rapor sayfası araç ipuçlarını kullanma
       url: report-page-tooltips.md
     - text: Rapor sayfası detaylandırmayı kullanma

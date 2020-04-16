@@ -12,7 +12,5 @@
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
 - name: Verileri keşfetme
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
-- name: Yayımlayın ve paylaşın
+- name: Yayımlama ve kaydetme
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
-- name: DAX'a giriş
-  href: introductiontodax.yml?tutorial-step=1

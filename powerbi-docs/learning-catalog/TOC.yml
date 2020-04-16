@@ -1,4 +1,4 @@
-- name: Öğrenme Kataloğu
+- name: Öğrenme kataloğu
   href: index.yml
   items:
     - name: İş kararlarını veren kişiler
@@ -19,3 +19,5 @@
       href: learning-catalog-functional-consultant.md
     - name: Çözüm mimarları
       href: learning-catalog-solution-architect.md
+    - name: DAX'a giriş
+      href: ../guided-learning/introductiontodax.yml?tutorial-step=1

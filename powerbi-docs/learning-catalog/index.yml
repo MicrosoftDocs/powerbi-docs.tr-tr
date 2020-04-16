@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Power BI Öğrenme kataloğu
-summary: Power BI’a yönelik tüm eğitim seçeneklerini bulun
+summary: Power BI için eğitim seçeneklerini bulma
 metadata:
   title: Power BI öğrenme kataloğu
   description: Kuruluşunuzdaki rollere uygun Power BI eğitim seçeneklerini bulun.
@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
-  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 04/13/2020
-  ms.locfileid: "81269053"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439308"
 landingContent:
 - title: İş kararlarını veren kişiler
   linkLists:

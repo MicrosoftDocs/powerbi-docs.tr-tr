@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 04/01/2020
-  ms.locfileid: "80487698"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439409"
 highlightedContent:
   items:
   - title: ABD verilerini içeren bir COVID-19 raporu oluşturma
@@ -217,19 +217,19 @@ conceptualContent:
     footerLink:
       url: guidance/index.yml
       text: Daha fazlasını göster
-  - title: Öğrenin
+  - title: Öğrenme kataloğu
     links:
-    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+    - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
-      text: Power BI’ın sizin için yapabileceklerini keşfedin
-    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      text: İş kararlarını veren kişiler
+    - url: guided-learning/introductiontodax.yml?tutorial-step=1
       itemType: learn
-      text: Verileri çözümleme
-    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      text: DAX kullanmaya başlama
+    - url: learning-catalog/learning-catalog-solution-architect.md
       itemType: learn
-      text: Oluşturmaya başlayın
+      text: Çözüm mimarları
     footerLink:
-      url: guided-learning/index.yml
+      url: learning-catalog/index.yml
       text: Daha fazlasını göster
 additionalContent:
   sections:

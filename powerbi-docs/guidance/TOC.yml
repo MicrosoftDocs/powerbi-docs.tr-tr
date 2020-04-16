@@ -64,6 +64,8 @@
               href: dax-avoid-avoid-filter-as-filter-argument.md
         - name: Power BI raporları
           items:
+            - name: Raporları modellerden ayırma
+              href: report-separate-from-model.md
             - name: Rapor sayfası araç ipuçlarıyla görselleri genişletme
               href: report-page-tooltips.md
             - name: Rapor sayfası detaylandırmayı kullanma

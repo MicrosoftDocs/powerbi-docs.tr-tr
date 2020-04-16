@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924380"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439607"
 landingContent:
 - title: Power BI nedir?
   linkLists:
@@ -45,8 +45,8 @@ landingContent:
     links:
     - text: Analiz raporları oluşturma ve kullanma
       url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
-    - text: Power BI Desktop’ta veri alma
-      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+    - text: Power BI Desktop ile verileri alma
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
 - title: Lisanslama
   linkLists:
   - linkListType: concept

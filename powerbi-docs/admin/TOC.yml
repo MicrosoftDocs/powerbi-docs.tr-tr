@@ -16,14 +16,24 @@
       items:
         - name: Microsoft 365'teki yönetim rolü
           href: ../service-admin-role.md
+        - name: Kuruluşunuz için lisanslama
+          href: ../service-admin-licensing-organization.md
+        - name: Power BI for US Government
+          items:
+            - name: Power BI for US Government
+              href: ../service-govus-overview.md
+            - name: ABD Kamu kuruluşu kaydetme
+              href: ../service-govus-signup.md
+        - name: Bölgesel bulutlarda Power BI
+          items:
+            - name: Go Local German bölgelerine geçirme
+              href: service-admin-migrate-data-germany.md
+            - name: Almanya'daki Cloud müşterileri için SSS
+              href: ../service-govde-faq.md
         - name: Sık sorulan sorular (SSS)
           href: ../service-admin-faq.md
         - name: Yüksek kullanılabilirlik ve yük devretme hakkında SSS
           href: ../service-admin-failover.md
-        - name: Go Local German bölgelerine geçirme
-          href: service-admin-migrate-data-germany.md
-        - name: Almanya'daki Cloud müşterileri için SSS
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: Premium kapasiteleri yönetme
@@ -38,14 +48,14 @@
       items:
         - name: Lisanslama ve kaydolma
           items:
-            - name: Kuruluşunuz için lisanslama
-              href: ../service-admin-licensing-organization.md
+            - name: Kuruluşunuz için Power BI edinin
+              href: service-admin-org-subscription.md
             - name: Power BI Pro satın alma
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Power BI for US Government
-              href: ../service-govus-overview.md
-            - name: ABD Kamu kuruluşu kaydetme
-              href: ../service-govus-signup.md
+            - name: Self servis kaydolma özelliğini devre dışı bırakma
+              href: service-admin-disable-self-service.md
+            - name: Kullanıcıları lisanslarını görüntüleme ve yönetme
+              href: service-admin-manage-licenses.md
             - name: Microsoft 365 Denemesine kaydolma
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Microsoft 365 iş ortağıyla Power BI ekleme
