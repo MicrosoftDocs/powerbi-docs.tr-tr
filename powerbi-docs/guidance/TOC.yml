@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: Rapor performansını izleme
               href: monitor-report-performance.md
+            - name: Rapor performansı sorunlarını çözme
+              href: report-performance-troubleshoot.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
