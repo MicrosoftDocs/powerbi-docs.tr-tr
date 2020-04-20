@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
-ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
+ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80147389"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006397"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -43,25 +43,26 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
 
 1. Çalışma alanı liste görünümünde, hangi panoların ve raporların **uygulamaya eklenmesini** istediğinize karar verin.
 
-     ![Yayımlamak için pano seçme](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![Yayımlamak için pano seçme](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
-     İlgili panosu olan bir raporu eklememeyi seçerseniz raporun yanında bir uyarı görürsünüz. Yine de uygulamayı yayımlayabilirsiniz ama ilişkili panoda söz konusu raporun kutucukları bulunmayacaktır.
+    İlgili panosu olan bir raporu eklememeyi seçerseniz raporun yanında bir uyarı görürsünüz. Yine de uygulamayı yayımlayabilirsiniz ama ilişkili panoda söz konusu raporun kutucukları bulunmayacaktır.
 
-     ![İlişkili pano uyarısı](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
+    ![İlişkili pano uyarısı](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
 2. Çalışma alanından uygulama oluşturma ve yayımlama sürecini başlatmak için sağ üstteki **Uygulamayı yayımla** düğmesini seçin.
    
-     ![Uygulamayı yayımla](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
+    ![Uygulamayı yayımla](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
 3. **Kurulum** alanında kullanıcıların uygulamayı bulmasını kolaylaştıracak adı ve açıklamayı girin. Bunu özelleştirmek için bir tema rengi ayarlayabilirsiniz. Destek sitesinin bağlantısını da ekleyebilirsiniz.
    
-     ![Uygulamanızı derleme](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
+    ![Uygulamanızı derleme](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
 4. **Gezinti** bölümünde, uygulamanın bir parçası olarak yayımlanacak içeriği seçersiniz. Ardından içeriği bölümler halinde düzenlemek için uygulama gezintisini eklersiniz. Ayrıntılar için bu makalenin [Uygulamanız için gezinti deneyimini tasarlama](#design-the-navigation-experience) bölümüne bakın.
    
-     ![Uygulama gezintisi](media/service-create-distribute-apps/power-bi-apps-navigation.png)
+    ![Uygulama gezintisi](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. **İzinler** bölümünde uygulamaya kimlerin erişebileceğine ve uygulamada neler yapabileceklerine karar verin. 
+
     - [Klasik çalışma alanlarında](service-create-workspaces.md): kuruluşunuzdaki herkes, belirli kişiler veya Azure Active Directory (AAD) güvenlik grupları.
     - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, AAD güvenlik grupları ile dağıtım listeleri ve Office 365 Grupları. Tüm çalışma alanı kullanıcılarına çalışma alanı için otomatik olarak uygulamaya erişim verilir.
     - Derleme iznini vererek, uygulama kullanıcılarının uygulamanın temel veri kümelerine bağlanmasına izin verebilirsiniz. Kullanıcılar paylaşılan veri kümelerini ararken bu veri kümelerini görürler. Bu makaledeki [kullanıcıların uygulama veri kümelerine bağlanmasına izin verme](#allow-users-to-connect-to-datasets) bölümünü okuyun.
@@ -73,24 +74,24 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
 
 6. Power BI yöneticiniz Power BI Yönetim Portalında sizi için bu ayarı etkinleştirdiyse uygulamayı alıcılar için otomatik olarak yükleyebilirsiniz. Bu makalede [uygulamayı otomatik olarak yükleme](#automatically-install-apps-for-end-users) konusundaki diğer bilgileri okuyun.
 
-     ![Uygulama izinleri](media/service-create-distribute-apps/power-bi-apps-permissions.png)
+    ![Uygulama izinleri](media/service-create-distribute-apps/power-bi-apps-permissions.png)
 
 7. **Uygulamayı yayımlayın**'ı seçtiğinizde, uygulamanın yayımlamaya hazır olduğunu doğrulayan bir ileti göreceksiniz. **Bu uygulamayı paylaşın** iletişim kutusunda, bu uygulamanın doğrudan bağlantısı olan URL'yi kopyalayabilirsiniz.
    
-     ![Uygulama sonu](media/service-create-distribute-apps/power-bi-apps-success.png)
+    ![Uygulama sonu](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Uygulamayı paylaştığınız kişilere bu doğrudan bağlantıyı gönderebilirsiniz veya uygulamanızı, **daha fazla uygulama indirmek ve keşfetmek üzere AppSource'taki Uygulamalar** sekmesine giderek kendileri indirebilir. [İş kullanıcıları için uygulama deneyimiyle](consumer/end-user-apps.md) ilgili daha fazla bilgi edinin.
+Uygulamayı paylaştığınız kişilere bu doğrudan bağlantıyı gönderebilirsiniz veya **daha fazla uygulama indirmek ve keşfetmek üzere AppSource'taki Uygulamalar** sekmesine giderek uygulamanızı kendileri indirebilir. [İş kullanıcıları için uygulama deneyimiyle](consumer/end-user-apps.md) ilgili daha fazla bilgi edinin.
 
 ## <a name="change-your-published-app"></a>Yayımlanmış uygulamanızı değiştirme
 Uygulamanızı yayımladıktan sonra değiştirmek veya güncelleştirmek isteyebilirsiniz. Yeni çalışma alanının yöneticisi veya üyesiyseniz uygulamayı güncelleştirmek kolaydır. 
 
 1. Uygulamaya karşılık gelen çalışma alanını açın. 
    
-     ![Çalışma alanını açma](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
+    ![Çalışma alanını açma](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Panolarda veya raporlarda istediğiniz değişiklikleri yapın.
  
-     Çalışma alanı sizin hazırlama alanınızdır. Dolayısıyla değişiklikleriniz, uygulamayı tekrar yayımlamadığınız sürece geçerlilik kazanmaz. Böylece yayımlanmış uygulamaları etkilemeden değişiklik yapabilirsiniz.  
+    Çalışma alanı sizin hazırlama alanınızdır. Dolayısıyla değişiklikleriniz, uygulamayı tekrar yayımlamadığınız sürece geçerlilik kazanmaz. Böylece yayımlanmış uygulamaları etkilemeden değişiklik yapabilirsiniz.  
  
     > [!IMPORTANT]
     > Bir raporu kaldırır ve uygulamayı güncelleştirirseniz, raporu uygulamaya yeniden ekleseniz bile uygulama tüketicileriniz yer işaretleri ve açıklamalar gibi tüm özelleştirmeleri kaybeder.  
@@ -111,6 +112,7 @@ Seçenek kapalıyken, **Uygulama açılış sayfası** için pano veya rapor gib
 ![Uygulama gezintisi](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 Aşağıdakileri yaparak uygulama gezintisini daha da özelleştirebilirsiniz:
+
 * Yukarı / Aşağı okları kullanarak öğeleri yeniden sıralama. 
 * **Rapor ayrıntıları**, **Pano ayrıntıları** ve **Çalışma kitabı ayrıntıları**'ndaki öğeleri yeniden adlandırma.
 * Bazı öğeleri gezintiden gizleme.
@@ -121,16 +123,20 @@ Aşağıdakileri yaparak uygulama gezintisini daha da özelleştirebilirsiniz:
 
 ### <a name="considerations-for-using-the-new-navigation-builder-option"></a>Yeni gezinti oluşturucu seçeneğini kullanırken dikkat edilecek noktalar
 Yeni gezinti oluşturucuyu kullanırken genel olarak aklınızda tutmanız gerekenler şunlardır:
-* Rapor sayfaları uygulama gezinti alanında genişletilebilir bir bölüm olarak gösterilir
+
+* Rapor sayfaları uygulama gezinti alanında genişletilebilir bir bölüm olarak gösterilir. Raporun tek görünür sayfası olduğunda, yalnızca rapor adı gösterilir. Gezintide rapor adına tıklandığında raporun ilk sayfası açılır. 
+
+    > [!NOTE]
+    > Raporunuzun tek görünür sayfası olabilir çünkü kalan sayfalara düğmeler veya detaylandırma eylemleriyle gezinti ayarlamış olabilirsiniz.
+
 * Yeni gezinti oluşturucuyu kapatır ve sonra uygulamanızı yayımlar veya güncelleştirirseniz, yaptığınız özelleştirmeleri kaybedersiniz. Örneğin bölümler, sıralama, bağlantılar ve gezinti öğeleri için özel adların tümü kaybedilir.
+* Uygulama oluşturucuyu kullanmama seçeneği sağlanır.
 
 Uygulamanızın gezintisine bağlantı eklediğinizde ve İçerik alanı seçeneğini kullandığınızda:
 * Bağlantının eklenebildiğinden emin olun. Bazı hizmetler Power BI gibi üçüncü taraf sitelerine içeriğinin eklenmesini engeller.
 * Raporlar ve panolar gibi Power BI hizmeti içeriğinin başka çalışma alanlarına eklenmesi desteklenmez. 
 * Power BI Rapor Sunucusu içeriğini bir şirket içi dağıtımdan yerel ekleme URL'si içeriği aracılığıyla ekleyin. URL'yi almak için [Power BI Rapor Sunucusu URL'sini oluşturma](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) altında verilen adımları kullanın. Normal kimlik doğrulama kurallarının geçerli olduğunu, dolayısıyla içeriği görüntülemek için şirket içi sunucuya VPN bağlantısı gerektiğini aklınızda bulundurun. 
 * Eklenen içeriğin Power BI'da olmadığını belirtmek için bu içeriğin en üstünde bir güvenlik uyarısı gösterilir.
-
-
 
 ## <a name="automatically-install-apps-for-end-users"></a>Son kullanıcılar için uygulamaları otomatik olarak yükleme
 Bir yönetici size gereken izinleri verirse uygulamaları otomatik olarak yükleyebilir ve son kullanıcılara *gönderebilirsiniz*. Bu gönderme işlevselliği doğru kişilere veya gruplara doğru uygulamaları dağıtmayı kolaylaştırır. Uygulamanız son kullanıcılarınızın Uygulamalar içerik listesinde otomatik olarak görüntülenir. Uygulamayı Microsoft AppSource'tan bulmaları veya yükleme bağlantısını izlemeleri gerekmez. Power BI yönetim portalı makalesinde yöneticilerin [uygulamaları son kullanıcılara göndermeyi](service-admin-portal.md#push-apps-to-end-users) nasıl etkinleştirdiğini bulabilirsiniz.
@@ -181,22 +187,28 @@ Bir çalışma alanının herhangi bir üyesi uygulamayı yayımdan kaldırabili
 
 * Bir çalışma alanında sağ üst köşedeki üç nokta ( **...** ) simgesini ve **Uygulamayı yayımdan kaldır**’ı seçin.
   
-     ![Uygulamayı yayımdan kaldırma](media/service-create-distribute-apps/power-bi-app-unpublish.png)
+    ![Uygulamayı yayımdan kaldırma](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
 Bu eylem uygulamayı yayımladığınız herkesten uygulamayı kaldırır ve bu kullanıcılar artık uygulamaya erişemez. Bu işlem çalışma alanını veya içeriklerini silmez.
 
 ## <a name="view-your-published-app"></a>Yayımlanmış uygulamanızı görüntüleme
 
-Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI gezinti bölmesi yerine sizin oluşturduğunuz gezintiyi görür. Uygulama gezintisi sizin tanımladığınız bölümlerde raporları ve panoları listeler. Ayrıca, yalnızca rapor adını değil her rapordaki tek tek sayfaları da listeler.
+Uygulamanızın tüketicileri uygulamayı açtığında standart Power BI gezinti bölmesi yerine sizin oluşturduğunuz gezintiyi görür. Uygulama gezintisi sizin tanımladığınız bölümlerde raporları ve panoları listeler. Ayrıca, yalnızca rapor adını değil her rapordaki tek tek sayfaları da listeler. Menü çubuğundaki okları kullanarak sol gezintiyi genişletebilir ve daraltabilirsiniz.
 
 ![Gezintisi gösterilen uygulama](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+Tam ekran modunda köşedeki seçeneği belirterek gezintiyi gösterebilir veya gizleyebilirsiniz.
+
+![Tam ekran gezinti](media/service-create-distribute-apps/full-screen-app-show-navigation.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
 
+* İzinler sayfası, diğer çalışma alanlarındaki veri kümelerinin iznini değiştirmez. Söz konusu veri kümelerine bağımsız olarak erişim vermeniz gerektiğini anımsatan bir uyarı görürsünüz. Tüm uygulama kullanıcılarınıza veri kümelerine erişim vermenin sorun yaratmayacağından emin olmak için, uygulamanızı derlemeye başlamadan önce söz konusu veri kümelerinin sahipleriyle iletişim kurmak iyi bir yöntemdir. 
 * Uygulama erişim listesinde en fazla 100 kullanıcı veya grup olabilir. Öte yandan, 100’den fazla kullanıcıya uygulama için erişim izni verebilirsiniz. Bunu yapmak için, istenen tüm kullanıcıları içeren bir veya daha fazla kullanıcı grubu kullanın.
 * Yeni çalışma alanı deneyimi için, uygulama erişim listesine eklenen kullanıcının uygulamaya çalışma alanı üzerinden erişimi zaten varsa, bu kullanıcı uygulama erişim listesinde gösterilmez.  
-
+* Power BI hizmetinde yeni görünümü kullanmak için, öğe bilgi kartında destek sitesi URL’si gösterilir. [Power BI’da 'yeni görünüm'](service-new-look.md) hakkında daha fazla bilgi edinin.
+* Uygulamaların, kullanıcılara paylaşım iznini kullanarak uygulamayı ve uygulamanın temel veri kümelerini paylaşma olanağı tanıyan bir seçeneği vardır. Yeni uygulamalarda bu seçenek varsayılan olarak kapalıdır. Mevcut uygulamalarınızda bu seçeneği kapatmanızı ve temel veri kümeleri üzerindeki izni güncelleştirmenizi öneririz. Mevcut veri kümelerinde seçeneğin etkinleştirilmiş olmasının nedeni uygulamaların başlangıçta bu davranışa sahip olan içerik paketlerinin yerini alacak şekilde tasarlanmış olmasıdır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Çalışma alanı oluşturma](service-create-workspaces.md)

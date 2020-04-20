@@ -9,16 +9,16 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 4df77ee94ee72e2104b7964f1835b446bde6b676
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621480"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267607"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları
 
-**Bir Gündeki Power BI Sayfalandırılmış Raporları** çevrimiçi kursu, sizin gibi rapor yazarlarını, Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgiyle donatır. İstek üzerine ücretsiz sunulan neredeyse 4 saat 20 dakikalık görüntülenebilir içerikten oluşur.
+**Bir Gündeki Power BI Sayfalandırılmış Raporları** çevrimiçi kursu, sizin gibi rapor yazarlarını, Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgiyle donatır. İstek üzerine ücretsiz sunulan neredeyse 4 saat 20 dakikalık görüntülenebilir içerikten oluşur. Ayrıca indirebileceğiniz ve sekiz uygulamalı laboratuvarı tamamlamak için kullanabileceğiniz bir de [kendi kendine çalışma seti](#self-study-kit) vardır.
 
 Kurs özellikle şunları hedefler:
 
@@ -39,7 +39,7 @@ Kursu tamamladıktan sonra aşağıdakilerin nasıl yapılacağını öğrenmiş
 
 Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DN1t5p9aui0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0]
 
 ## <a name="course-outline"></a>Kurs ana hattı
 
@@ -79,9 +79,32 @@ Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
   - Video 23: [Ek İçerik: Sayfalandırılmış Raporlamanın Evrimi](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 24: [Ek İçerik: Giriş Engelini Azaltma](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
-## <a name="additional-content"></a>Ek içerik
+## <a name="self-study-kit"></a>Kendi kendine çalışma seti
 
-Yakında PowerPoint sunusunu ve uygulamalı laboratuvarları kendi kendine çalışma seti olarak yayımlayacağız. İndirme bağlantılarını bulmak için daha sonra bu makaleye geri dönün.
+Sunu içeriğinden ve sekiz uygulamalı laboratuvardan oluşan kendi kendine çalışma setini indirebilir ve ayarlayabilirsiniz:
+
+1. Kendi kendine çalışma setini (.zip) yerel olarak bilgisayarınıza indirmek için [bu bağlantıyı](https://aka.ms/priad-ilt-student) kullanın.
+1. Dosya özelliklerini açın, "engellemeyi kaldır" öğesini işaretleyin (Windows dosyaya güvenilmez olabilir bayrağı ekleyebilir).
+1. Dosya içeriğini dosya sisteminizdeki bir klasöre ayıklayın. Kolayca bulunabilecek bir klasör oluşturmanızı öneririz; örneğin klasöre **Eğitim** adı verebilirsiniz. Laboratuvar belgeleri bu konuma **&lt;CourseFolder&gt;** olarak başvurur.
+
+Ayıklandıktan sonra **PowerBIPRIAD** klasörünüz olur ve bu klasörün içinde aşağıdaki klasörleri bulabilirsiniz:
+
+- **Lab01A** (ve diğer tüm laboratuvar klasörleri). Laboratuvar klasörleri, varlıklar ve çözüm dosyaları içerebilen laboratuvar belgesinden ve laboratuvar kaynaklarından oluşur.
+- **MySolution**: Bu klasörde çözüm dosyalarınız depolanır. Laboratuvar yönergeleri sizi bu klasörü kullanmaya yönlendirir.
+- **Presentation**: Bu klasör kursun PDF belgesi olarak sağlanan sunu dosyasını içerir.
+
+### <a name="getting-started"></a>Kullanmaya başlama
+
+Önce çevrimiçi kursu izlemenizi öneririz. Daha sonra **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** dosyasını açarak sunu teorisine yeniden başvurabilirsiniz. Sunuda, teorinin ne zaman uygulamaya geçirileceğini belirten sekiz laboratuvar slaydı yer alır. Ayrıca ilgili içeriği bulmanıza yardımcı olmak için birçok kaynak bağlantısı da içerir.
+
+İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak, veri kümesini karşıya yüklemek ve ardından [Power BI Report Builder](report-builder-power-bi.md)’ı yüklemek için size yol gösterir.
+
+> [!NOTE]
+> Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../service-self-service-signup-for-power-bi.md).
+>
+> Çalışma alanına Power BI Desktop dosyası yayımlamak için Power BI’da oturum açmanız gerekir. Yayınlama sonucunda rapor veri kaynağı olarak kullanılan bir veri kümesi elde edilir. Veri kümesini rapor veri kaynağı olarak kullanmak için Power BI Pro lisansına veya Power BI Premium aboneliğine ihtiyacınız yoktur.
+>
+> Öte yandan bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa, bunun yerine rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

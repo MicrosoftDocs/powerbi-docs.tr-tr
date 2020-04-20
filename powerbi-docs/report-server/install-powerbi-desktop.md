@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404194"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122250"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 
@@ -96,6 +96,10 @@ Power BI Rapor Sunucusu, Power BI mobil uygulamalarında şu özellikleri destek
 ### <a name="custom-security"></a>Özel Güvenlik
 
 Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop, özel güvenlik desteği sunmaz. Power BI Rapor Sunucunuzun özel güvenlik uzantısıyla yapılandırılmış olması halinde Power BI Desktop'tan (Power BI Rapor Sunucusu için iyileştirilmiş) Power BI Rapor Sunucusu örneğine Power BI raporu kaydedemezsiniz. Rapor dosyasını Power BI Desktop'tan .pbix biçiminde kaydetmeniz ve Power BI Rapor Sunucusu portalına yüklemeniz gerekir.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Raporları farklı bir etki alanındaki Power BI Rapor Sunucusu’na kaydetme
+
+Power BI raporunu Power BI Rapor Sunucusu’na kaydederken Windows kimlik bilgileriniz kullanılır. Windows kimlik bilgilerinizle doğrudan farklı bir etki alanındaki rapor sunucusuna kaydetme işlemi desteklenmez. Bunun yerine web tarayıcısı kullanarak rapor sunucusunu görüntüleyebilir ve dosyayı makinenizden el ile karşıya yükleyebilirsiniz.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Önceki Power BI Rapor Sunucusu sürümleri için Power BI Desktop
 

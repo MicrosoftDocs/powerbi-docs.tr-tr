@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/10/2020
+ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076656"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006722"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -98,7 +98,7 @@ Aşağıdaki tabloda, DirectQuery ile bağlanmanın özellikle faydalı olabilec
 
 | Sınırlama | Açıklama |
 | --- | --- |
-| Verilerin sıklıkla değişmesi ve gerçek zamanlıya yakın raporlamanın gerekli olması |İçeri aktarılan verilere sahip modeller en fazla saatte bir kez yenilenebilir. Veriler sürekli değişiyorsa ve raporlarda son verilerin gösterilmesi gerekiyorsa zamanlanmış yenileme ile İçeri Aktarma seçeneğinin kullanılması bu ihtiyaçları karşılamayabilir. Power BI'a doğrudan veri akışı da yapabilirsiniz. Ancak bu durum için desteklenen veri hacimlerine yönelik sınırlamalar mevcuttur. <br/> <br/> Bunun aksine, DirectQuery kullanıldığında bir raporun veya panonun açılmasının ya da yenilenmesinin ardından her zaman kaynaktaki en son veriler gösterilir. Buna ek olarak, pano kutucukları daha sık şekilde (her 15 dakikada bir) güncelleştirilebilir. |
+| Verilerin sıklıkla değişmesi ve gerçek zamanlıya yakın raporlamanın gerekli olması |İçeri aktarılan verilerin bulunduğu modeller en fazla saatte bir yenilenebilir (Power BI Pro veya Power BI Premium abonelikleriyle daha sık yenilenebilir). Veriler sürekli değişiyorsa ve raporlarda son verilerin gösterilmesi gerekiyorsa zamanlanmış yenileme ile İçeri Aktarma seçeneğinin kullanılması bu ihtiyaçları karşılamayabilir. Power BI'a doğrudan veri akışı da yapabilirsiniz. Ancak bu durum için desteklenen veri hacimlerine yönelik sınırlamalar mevcuttur. <br/> <br/> Bunun aksine, DirectQuery kullanıldığında bir raporun veya panonun açılmasının ya da yenilenmesinin ardından her zaman kaynaktaki en son veriler gösterilir. Buna ek olarak, pano kutucukları daha sık şekilde (her 15 dakikada bir) güncelleştirilebilir. |
 | Verilerin çok büyük olması |Veriler çok büyükse tümünün içeri aktarılması uygun olmaz. Bunun aksine, sorgulama işlemi yerinde gerçekleştiğinden DirectQuery için büyük bir veri aktarımı gerekmez. <br/> <br/> Ancak [DirectQuery kullanmanın etkileri](#implications-of-using-directquery) bölümünde anlatıldığı üzere büyük veriler, temel alınan kaynakta sorgulama performansının çok yavaş olacağı anlamına da gelebilir. Verilerin tüm ayrıntılarıyla içeri aktarılması her zaman gerekli değildir. Bunun yerine, veriler içeri aktarma sırasında önceden toplanabilir. *Sorgu Düzenleyicisi*, içeri aktarma sırasında önceden toplama yapmayı kolaylaştırır. Uç durumlar söz konusu olduğunda, her bir görsel için tam olarak gerekli olan toplama verileri içeri aktarılabilir. Büyük veriler için en kolay yaklaşım DirectQuery olsa da, temel alınan kaynağın çok yavaş olduğu durumlarda toplama verilerinin içeri aktarılması da tercih edilebilir. |
 | Temel alınan kaynakta güvenlik kurallarının tanımlanmış olması |Veriler içeri aktarıldığında Power BI, Power BI Desktop'tan geçerli kullanıcı kimlik bilgilerini veya Power BI hizmetinden zamanlanmış yenileme yapılandırmasında tanımlanan kimlik bilgilerini kullanarak veri kaynağına bağlanır. Böyle bir rapor yayımlanırken ve paylaşılırken raporun yalnızca söz konusu verileri görme izni olan kullanıcılarla paylaşıldığına veya veri kümesinin parçası olarak satır düzeyi güvenlik tanımlandığına dikkat edilmesi gerekir. <br/> <br/> DirectQuery her zaman, temel alınan kaynağı sorguladığından bu yapılandırma ideal olarak temel alınan kaynaktaki güvenliğin uygulanmasını sağlar. Ancak, Power BI temel alınan kaynağa her zaman içeri aktarma için kullanılan kimlik bilgileriyle bağlanır. <br/> <br/> Power BI, rapor kullanıcısının kimliğinin temel alınan kaynaktan geçmesine izin verene kadar DirectQuery, veri kaynağı güvenliği açısından hiçbir avantaj sunmaz. |
 | Veri hakimiyeti kısıtlamalarının geçerli olması |Bazı kuruluşların veri hakimiyeti ilkeleri bulunur, böylece veriler kuruluş dışına çıkamaz. İçeri aktarma tabanlı bir çözüm sorunlara neden olabilir. Bunun aksine, DirectQuery ile bu veriler temel alınan kaynakta kalır. <br/> <br/> Ancak, DirectQuery ile dahi zamanlanmış kutucuk yenilemesi nedeniyle görsel düzeydeki bazı veri önbellekleri Power BI hizmetinde tutulur. |

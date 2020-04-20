@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa44f0c8c11cb26ecfc7763ec127ca8a8505536a
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979926"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267492"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -24,23 +24,13 @@ Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme v
 
 Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için iyileştirilmiştir ve bunlarla sınırlıdır. Premium kapasiteler ayrıca kapasitenizin kaynaklarını kullanabilen ek iş yüklerini de destekler. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. Belirtilen en yüksek değere kadar bellek, AI ve veri akışları için dinamik olarak ayrılır ancak sayfalandırılmış raporlar için statik olarak ayrılır.
 
-### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>Hizmet olarak yazılım (SaaS) senaryoları için Microsoft Office SKU'ları
-
-|                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| AI | %40 varsayılan; %40 en küçük | %20 varsayılan; %20 en küçük | %20 varsayılan; %8 en küçük | %20 varsayılan; %4 en küçük | %20 varsayılan; %2 en küçük |
-| Veri akışları | YOK |%20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük | %20 varsayılan; %2 en küçük  |
-| Sayfalandırılmış raporlar | YOK |YOK | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
-| | | | | | |
-
-### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>Hizmet olarak platform (PaaS) senaryoları için Microsoft Azure SKU'ları
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| AI | YOK  | %40 varsayılan; %40 en küçük  | %20 varsayılan; %20 en küçük | %20 varsayılan; %8 en küçük | %20 varsayılan; %4 en küçük | %20 varsayılan; %2 en küçük |
-| Veri akışları         | %40 varsayılan; %40 en küçük | %24 varsayılan; %24 en küçük | %20 varsayılan; %12 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük | %20 varsayılan; %2 en küçük   |
-| Sayfalandırılmış raporlar | YOK                      | YOK                      | YOK                     | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük | %20 varsayılan; %2,5 en küçük |
-| | | | | | |
+|                   | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
+|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| AI                | Desteklenmeyen               | %40 varsayılan; %40 en küçük  | %20 varsayılan; %20 en küçük  | %20 varsayılan; %8 en küçük  | %20 varsayılan; %4 en küçük  | %20 varsayılan; %2 en küçük   |
+| Veri kümeleri          | %100 varsayılan; %67 en küçük | %100 varsayılan; %40 en küçük | %100 varsayılan; %20 en küçük | %100 varsayılan; %8 en küçük | %100 varsayılan; %4 en küçük | %100 varsayılan; %2 en küçük  |
+| Veri akışları         | %40 varsayılan; %40 en küçük  | %24 varsayılan; %24 en küçük  | %20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük  | %20 varsayılan; %2 en küçük   |
+| Sayfalandırılmış raporlar | Desteklenmeyen               | Desteklenmeyen               | Desteklenmeyen               | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %2,5 en küçük |
+|                   |                           |                           |                           |                          |                          |                           |
 
 ## <a name="workload-settings"></a>İş yükü ayarları
 
@@ -85,7 +75,14 @@ Bu ayarın yalnızca DirectQuery sorgularını etkilediğine, [En Büyük Sonuç
 
 Rapor oluşturucularının kapasiteyi olumsuz etkileyebilecek büyük veri kümeleri yayımlamasını önlemek için bu ayarı kullanın. Veri kümesi belleğe yüklenene kadar Power BI'ın gerçek bellek içi boyutu belirleyemeyeceğini unutmayın. Çevrimdışı boyutu daha küçük olan bir veri kümesinin bellekte çevrimdışı boyutu daha büyük olandan daha fazla yer kaplaması mümkündür.
 
-Bu ayarda belirttiğiniz boyuttan daha büyük bir veri kümeniz varsa, kullanıcı erişmeye çalıştığında veri kümesi yüklenemeyecektir.
+Bu ayarda belirttiğiniz boyuttan daha büyük bir veri kümeniz varsa, kullanıcı erişmeye çalıştığında veri kümesi yüklenemeyecektir. Ayrıca veri kümeleri iş yükü için yapılandırılmış En Fazla Bellek’ten büyük olan veri kümeleri de yüklenemeyebilir.
+
+Sistemin performansını korumak için, yapılandırılan değerden bağımsız olarak en büyük çevrimdışı veri kümesi boyutuna ek SKU’ya özgü bir sabit tavan uygulanır. Bu sabit tavan, büyük veri boyutları için iyileştirilmiş Power BI veri kümelerine uygulanmaz. Daha fazla bilgi için bkz. [Power BI Premium'da büyük modeller](service-premium-large-models.md).
+
+|                                           | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|-------------------------------------------|----------|----------|----------|---------|---------|---------|
+| En Yüksek Çevrimdışı Veri Kümesi Boyutu için sabit tavan | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
+|                                           |          |          |          |         |         |         |
 
 #### <a name="max-result-row-set-count"></a>En Büyük Sonuç Satır Kümesi Sayısı
 
@@ -110,6 +107,7 @@ Varsayılan ayar 0’dır ve bu, aşağıdaki SKU’ya özgü otomatik sorgu bel
 | Otomatik Sorgu Belleği Sınırı | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
+Sistemin performansını korumak için, kullanıcı tarafından yapılandırılan sorgu belleği sınırından bağımsız olarak, Power BI raporları tarafından yürütülen tüm sorgularda 10 GB’lık bir sabit tavan zorunlu tutulur. Bu sabit tavan Analysis Services protokolünü (XMLA) kullanan araçların gönderdiği sorgulara uygulanmaz. Bellek çok fazla bellek kullanıyorsa kullanıcıların sorguyu ve hesaplamalarını basitleştirmeyi göz önünde bulundurması gerekir.
 
 #### <a name="query-timeout"></a>Sorgu Zaman Aşımı
 
@@ -132,8 +130,8 @@ Power BI raporlarının, kapasitede her sorgu için daha küçük bir zaman aş�
 
 Etkinleştirildiğinde otomatik sayfa yenileme, Premium kapasitenizdeki kullanıcıların, DirectQuery kaynakları için tanımlı bir aralıkta raporlarındaki sayfaları yenilemesine olanak sağlar. Kapasite yöneticisi olarak şunları yapabilirsiniz:
 
-1.  Otomatik sayfa yenilemeyi açma ve kapatma
-2.  Minimum yenileme aralığı tanımlama
+- Otomatik sayfa yenilemeyi açma ve kapatma
+- Minimum yenileme aralığı tanımlama
 
 Aşağıdaki görüntüde, otomatik yenileme aralığı ayarının konumu gösterilmektedir:
 

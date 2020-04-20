@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377248"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267239"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -36,8 +36,7 @@ Kuruluş *Premium* (*Premium kapasite* olarak da bilinir) hesabı, kullanıcı b
 
 **annotate (not ekleme)** iOS ve Android cihazları için Power BI mobil uygulamasında kutucukların, raporların veya görsellerin bir anlık kopyasına satırlar, metinler veya damgalar ekleme.
 
-**app, apps (uygulama, uygulamalar)** 
-
+**uygulama, uygulamalar** Panoları, raporları ve veri kümelerini içeren paket. Ayrıca içerik tüketimine yönelik mobil uygulamalar için de kullanılır, örneğin iOS için Power BI uygulaması.
 
 İndirilecek panolara, raporlara, veri kümelerine ve uygulamalara göz atıp bunları keşfedebileceğiniz **AppSource** Merkezi çevrimiçi deposu.
 

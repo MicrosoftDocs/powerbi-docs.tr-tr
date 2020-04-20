@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208069"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267354"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI hizmetindeki veri kümesi modları
 
@@ -77,18 +77,9 @@ DirectQuery modellerinin çeşitli avantajları vardır:
 - [Otomatik sayfa yenileme](desktop-automatic-page-refresh.md) özelliği kullanılarak gerçek zamanlı raporlar geliştirilebilir
 - DirectQuery modellerini temel alan pano kutucukları 15 dakikada bir kadar sıklıkta otomatik olarak güncelleştirilebilir
 
-Öte yandan DirectQuery modellerinin birçok dezavantajı ve sınırlaması da vardır:
+Öte yandan DirectQuery modellerinin bazı sınırlamaları vardır:
 
-- Modelin desteklenen tek bir veri kaynağına dayanması gerekir. İşte bu nedenle tüm veri tümleştirmelerinin veri kaynağında önceden yapılması gerekir. Desteklenen veri kaynakları ilişkisel ve analitik sistemlerdir; ayrıca birçok popüler veri deposu desteklenir.
-
-    > [!TIP]
-    > Birçok Microsoft veri kaynağı desteklenir. Desteklenen Microsoft veri kaynakları SQL Server, Azure Data Bricks, Azure HDInsight Spark (Beta), Azure SQL Veritabanı ve Azure SQL Veri Ambarı'dır. Daha fazla bilgi için [Power BI'da Direct Query tarafından desteklenen veri kaynakları](desktop-directquery-data-sources.md) makalesine bakın.
-
-- Performans yavaş olabilir ve Power BI hizmetini olumsuz etkileme olasılığı vardır. Bu sorun bazı sorguların Power BI hizmeti için yoğun CPU kullanmasından kaynaklanabilir. Bunun nedeni veri kaynağının Power BI tarafından gönderilen sorgular için iyileştirilmiş olmaması da olabilir.
-- Power Query sorguları katlanabilir olmalıdır. Bu gereksinim Power Query mantığının aşırı karmaşık olamayacağı anlamına gelir. Üstelik mantığın, veri kaynağı tarafından anlaşılabilen yerel sorgulara dönüştürülebilecek M ifadeleri ve işlevlerinin kullanımıyla sınırlanması gerekir.
-- DAX formülleri yalnızca veri kaynağı tarafından anlaşılabilen yerel sorgulara dönüştürülebilecek işlevlerin kullanımıyla sınırlanmıştır. Ayrıca hesaplanan tablolar veya DAX Akıllı Zaman Gösterimi işlevleri desteklenmez.
-- Bir milyon satırdan fazlasının alınmasını gerektiren model sorguları başarısız olur
-- Birden çok görseli olan raporlar ve panolar, özellikle de veri kaynağı geçici olduğunda tutarsız sonuçlar görüntüleyebilir
+- DAX formülleri yalnızca veri kaynağı tarafından anlaşılabilen yerel sorgulara dönüştürülebilecek işlevlerin kullanımıyla sınırlanmıştır. Hesaplanan tablolar desteklenmez.
 - Soru-Cevap ve Hızlı İçgörüler özellikleri desteklenmez
 
 Power BI hizmeti kaynağı açısından DirectQuery modelleri şunları gerektirir:

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877598"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006515"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI’da yeniden boyutlandırabileceğiniz, yanıt veren bir dilimleyici oluşturma
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 Hızlı yanıt veren dilimleyiciler, yeniden boyutlandırılarak raporunuzdaki herhangi bir alana sığdırılabilir. Hızlı yanıt veren dilimleyicileri yatay, kare veya dikey gibi farklı boyut ve şekillerde yeniden boyutlandırabilirsiniz ve siz bunları yaptığınız sırada dilimleyicideki değerler kendi kendine yeniden düzenlenir. Power BI Desktop’ta ve Power BI hizmetinde yatay dilimleyicilerin ve tarih/aralık dilimleyicilerinin hızlı yanıt vermesini sağlayabilirsiniz. Tarih/aralık dilimleyicileri, bunları parmak ucunuzla daha kolay değiştirebilmeniz için geliştirilmiş dokunma alanlarına da sahiptir. Hızlı yanıt veren dilimleyicileri istediğiniz kadar büyük veya küçük bir boyuta getirebilirsiniz. Ayrıca bunlar, hem Power BI hizmetinde hem de Power BI mobil uygulamalarında otomatik olarak raporlara uyacak şekilde yeniden boyutlandırılır. 
 

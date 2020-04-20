@@ -1,31 +1,35 @@
 ---
 title: Power BI'da dilimleyiciler
 description: Power BI dilimleyicisi, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265356"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006814"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini, ancak aynı zamanda bölge yöneticilerinin her biri ve farklı zaman aralıkları için performansı vurgulayabilmesini istediğinizi varsayalım. Ayrı raporlar veya karşılaştırmalı grafikler oluşturabilirsiniz. Bunun yerine dilimleyicileri de kullanabilirsiniz. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir. 
-
-Bu öğreticide, liste ve tarih aralığı dilimleyicilerini oluşturma, biçimlendirme ve kullanma işlemlerinde size yol göstermek üzere ücretsiz [Perakende Analizi Örneği](../sample-retail-analysis.md) kullanılır. Dilimleyicileri biçimlendirme ve kullanma yöntemlerini keşfetmekten keyif alacağınızı umuyoruz. 
+Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini, ancak aynı zamanda bölge yöneticilerinin her biri ve farklı zaman aralıkları için performansı vurgulayabilmesini istediğinizi varsayalım. Ayrı raporlar veya karşılaştırmalı grafikler oluşturabilirsiniz. Bunun yerine *dilimleyicileri* de kullanabilirsiniz. Dilimleyici, rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir. 
 
 ![Dilimleyici animasyonu](media/power-bi-visualization-slicers/slicer2.gif)
+
+Bu makalede ücretsiz [Perakende Analizi Örneği](../sample-retail-analysis.md)’ni kullanarak temel dilimleyici oluşturma ve bunu biçimlendirme işleminde size yol gösterilir. Ayrıca dilimleyiciden hangi görsellerin etkileneceğini denetleme ve diğer sayfalardaki dilimleyicilerle eşitleme işlemleri de açıklanır. Burada belirli türlerdeki dilimleyicileri oluşturmanın açıklandığı bazı başka makaleler verilmiştir:
+
+- [Sayısal aralık dilimleyicileri](../desktop-slicer-numeric-range.md).
+- [Göreli tarih dilimleyicileri](desktop-slicer-filter-date-range.md).
+- Yanıt veren, [yeniden boyutlandırılabilir dilimleyiciler](../power-bi-slicer-filter-responsive.md).
+- Birden çok alanı olan [hiyerarşi dilimleyicileri](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md).
 
 ## <a name="when-to-use-a-slicer"></a>Dilimleyici ne zaman kullanılır?
 Aşağıdakileri yapmak istediğinizde dilimleyicileri kullanmanız oldukça faydalı olacaktır:
@@ -40,16 +44,13 @@ Power BI dilimleyicileri şunları desteklemez:
 - Giriş alanları
 - Detaya gitme
 
+## <a name="create-a-slicer"></a>Dilimleyici oluşturma
 
-## <a name="create-slicers"></a>Dilimleyici oluşturma
+Bu dilimleyici verileri bölge (District) yöneticisine göre filtreler. Bu yordamı izlemek istiyorsanız [Perakende Analizi Örneği PBIX dosyasını](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) indirin.
 
-**Verileri bölge yöneticisine göre filtrelemek için yeni bir dilimleyici oluşturma**
-
-1. [Perakende Analizi örneği PBIX dosyasını](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) indirin.
-
-1. Power BI Desktop menü çubuğundan **Dosya** > **Aç**’ı seçin.
+1. Power BI Desktop’ı açın ve menü çubuğundan **Dosya** > **Aç**’ı seçin.
    
-1. **Perakende Analizi örneği PBIX.pbix** dosyasına gidin ve **Aç**'ı seçin.
+1. **Perakende Analizi Örneği PBIX.pbix** dosyasına gidin ve **Aç**'ı seçin.
 
 1. Sol bölmede **Rapor** simgesini ![Rapor simgesi](media/power-bi-visualization-kpi/power-bi-report-view.png) seçerek dosyayı rapor görünümünde açın.
 
@@ -73,36 +74,6 @@ Power BI dilimleyicileri şunları desteklemez:
 
    >[!TIP]
    >Dilimleyici listesi öğeleri varsayılan olarak artan düzende sıralanır. Sıralamayı tersine çevirerek öğeleri azalan düzene göre sıralamak için dilimleyicinin sağ üst köşesindeki üç noktayı ( **...** ) seçip **Azalan düzende sırala** seçeneğini belirleyin.
-
-**Verileri tarih aralığına göre filtrelemek için yeni bir dilimleyici oluşturma**
-
-1. Raporun **Genel bakış** sayfasını seçin. Rapor tuvalinde hiçbir şey seçili değilken, **Alanlar** bölmesinde **Mağaza** >  **OpenDate**’i seçin.
-
-    Bu eylem, yeni bir görselleştirme oluşturmak için **Görselleştirmeler** bölmesindeki **Değerler** kutusunu doldurur.
-
-1. Yeni görselleştirmeyi bir dilimleyiciye dönüştürmek için raporda yeni görselleştirme seçiliyken **Görselleştirmeler** bölmesindeki **Dilimleyici** simgesini seçin. Bu **OpenDate** dilimleyicisi, tarih aralığı doldurulmuş bir kaydırıcı denetimidir.
-    
-    ![OpenDate görselleştirmesi oluşturma](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. Dilimleyiciye yer açmak için dilimleyiciyi ve tuvalin üzerindeki diğer öğeleri yeniden boyutlandırıp sürükleyin. Kaydırıcı, dilimleyici boyutu ile birlikte yeniden boyutlandırılır, ancak dilimleyiciyi çok küçük boyutlandırmanız durumunda kaybolur ve tarihler kesilir. 
-
-1. Kaydırıcı ile farklı tarih aralıkları seçin veya daha kesin bir seçim için bir tarih girmek üzere tarih alanını seçin ya da takvimi açın. Sayfadaki diğer görselleştirmelere etkilerini not edin.
-    
-    >[!NOTE]
-    >Sayısal ve/veya tarih/saat veri türleri varsayılan olarak aralık kaydırıcı dilimleyicileri üretir. Şubat 2018 Power BI güncelleştirmesinden itibaren, tamsayı veri türü aralık kaydırıcıları artık ondalık basamakları göstermek yerine tam sayı değerlerine uymaktadır. 
-
-1. Dilimleyici türünü değiştirmek için, dilimleyici seçiliyken dilimleyicinin sağ üst alanına gelin, görüntülenen karat simgesini seçin ve **Liste** ya da **Önce** gibi seçeneklerden birini belirleyin. Dilimleyici görünümünün ve seçim seçeneklerinin nasıl değiştiğine dikkat edin. 
- 
-    ![Dilimleyicinin yeni aralığı](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-Tarih ve sayısal aralık dilimleyicileri oluşturma hakkında daha fazla bilgi için aşağıdaki videoyu izleyin ve [Power BI Desktop’ta sayısal aralık dilimleyiciyi kullanma](../desktop-slicer-numeric-range.md) makalesine bakın.
-   > [!NOTE]
-   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Hangi sayfa görsellerinin dilimleyicilerden etkilendiğini denetleme
 Varsayılan olarak, rapor sayfalarındaki dilimleyiciler, birbirleri de dahil olmak üzere o sayfadaki diğer tüm görselleştirmeleri etkiler. Yeni oluşturduğunuz liste ve tarih kaydırıcılarında değerleri seçerken diğer görselleştirmelere etkilerini not edin. Filtrelenen veriler her iki dilimleyicide seçilen değerlerin bir kesişimidir. 
@@ -208,7 +179,7 @@ Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz
 
 ### <a name="title-options"></a>Başlık seçenekleri
 **Başlık** varsayılan olarak **Açık**’tır. Bu seçim, veri alanı adını dilimleyicinin üst kısmında gösterir. 
-- Bu öğretici için başlık metnini şu şekilde biçimlendirin: 
+- Bu makale için başlık metnini şu şekilde biçimlendirin: 
    - **Yazı tipi rengi**: kırmızı
    - **Metin boyutu**: **14 pt**
    - **Hizalama**: **Orta**
@@ -216,7 +187,7 @@ Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz
 
 
 ### <a name="items-options-list-slicers-only"></a>Öğeler seçenekleri (yalnızca liste dilimleyicileri)
-1. Bu öğretici için **Öğeler** seçeneklerini şu şekilde biçimlendirin:
+1. Bu makale için **Öğeler** seçeneklerini şu şekilde biçimlendirin:
     - **Yazı tipi rengi**: siyah
     - **Arka plan**: açık kırmızı
     - **Metin boyutu**: **10 pt**

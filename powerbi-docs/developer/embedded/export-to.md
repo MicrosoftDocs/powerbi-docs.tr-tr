@@ -7,36 +7,36 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273306"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267515"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
 `exportToFile` API’si, REST çağrısı kullanarak Power BI raporunu dışarı aktarmaya olanak tanır. Şu dosya biçimleri desteklenir:
-* **PPTX** (PowerPoint)
-* **PDF**
-* **PNG**
-    * PNG dosyasına aktarırken, birden çok sayfalı bir rapor zip dosyasında sıkıştırılır
-    * PNG zip dosyası içindeki her dosya bir rapor sayfasını temsil eder
+* **.pptx** (PowerPoint)
+* **.pdf**
+* **.png**
+    * .png dosyasına aktarırken, birden çok sayfalı bir rapor zip dosyasında sıkıştırılır
+    * .zip dosyası içindeki her dosya bir rapor sayfasını temsil eder
     * Sayfa adları, [Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API’lerinin dönüş değerleriyle aynı olur
 
 ## <a name="usage-examples"></a>Kullanım örnekleri
 
 Dışarı aktarma özelliği çeşitli yollarla kullanabilirsiniz. Aşağıda birkaç örnek verilmiştir:
 
-* **Yazdırmaya gönder düğmesi** - Uygulamanızda tıklandığında dışarı aktarma işi başlatan bir düğme oluşturun. İş görüntülenen raporu PDF veya PPTX olarak dışarı aktarabilir ve tamamlandığında kullanıcı dosyayı bir indirme olarak alabilir. Yer işaretlerini kullanarak, yapılandırılmış filtreler, dilimleyiciler ve ek ayarlar da dahil olmak üzere raporu belirli bir durumda dışarı aktarabilirsiniz. API zaman uyumsuz olduğundan dosyanın kullanılabilir duruma gelmesi biraz zaman alabilir.
+* **Yazdırmaya gönder düğmesi** - Uygulamanızda tıklandığında dışarı aktarma işi başlatan bir düğme oluşturun. İş görüntülenen raporu .pdf veya .pptx olarak dışarı aktarabilir ve tamamlandığında kullanıcı dosyayı bir indirme olarak alabilir. Yer işaretlerini kullanarak, yapılandırılmış filtreler, dilimleyiciler ve ek ayarlar da dahil olmak üzere raporu belirli bir durumda dışarı aktarabilirsiniz. API zaman uyumsuz olduğundan dosyanın kullanılabilir duruma gelmesi biraz zaman alabilir.
 
-* **E-posta eki** - Önceden ayarlanmış aralıklarla PDF raporunun eklendiği otomatik bir e-posta gönderin. Yöneticilere haftalık rapor gönderme işlemini otomatikleştirmek isterseniz bu senaryo yararlı olabilir.
+* **E-posta eki** - Önceden ayarlanmış aralıklarla .pdf raporunun eklendiği otomatik bir e-posta gönderin. Yöneticilere haftalık rapor gönderme işlemini otomatikleştirmek isterseniz bu senaryo yararlı olabilir.
 
 ## <a name="using-the-api"></a>API'yi kullanma
 
 API’yi kullanmadan önce aşağıdaki [yönetici kiracı ayarlarının](../../service-admin-portal.md#tenant-settings) etkinleştirildiğini doğrulayın:
 * **Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktarma** - Varsayılan olarak etkindir.
-* **Raporları resim dosyaları olarak dışarı aktarma** - Yalnızca PNG için gereklidir ve varsayılan olarak devre dışı bırakılır.
+* **Raporları resim dosyaları olarak dışarı aktarma** - Yalnızca *.png* için gereklidir ve varsayılan olarak devre dışı bırakılır.
 
 API zaman uyumsuzdur. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
 
@@ -73,9 +73,9 @@ RLS kullanarak dışarı aktarmak için aşağıdaki izinlere sahip olmalısın�
 
 ### <a name="data-protection"></a>Veri koruma
 
-PDF ve PPTX biçimleri [duyarlılık etiketlerini](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) destekler. Duyarlılık etiketi olan bir raporu PDF veya PPTX biçimine aktarıyorsanız, dışarı aktarılan dosya raporu duyarlılık etiketiyle görüntüler.
+.pdf ve .pptx biçimleri [duyarlılık etiketlerini](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) destekler. Duyarlılık etiketi olan bir raporu .pdf veya .pptx biçimine aktarıyorsanız, dışarı aktarılan dosya raporu duyarlılık etiketiyle görüntüler.
 
-Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak PDF veya PPTX dosyasına aktarılamaz.
+Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak .pdf veya .pptx dosyasına aktarılamaz.
 
 ### <a name="localization"></a>Localization (Yerelleştirme)
 
@@ -102,8 +102,8 @@ Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU�
 * Dışarı aktardığınız raporun veri kümesi Premium veya Embedded kapasitede bulunmalıdır.
 * Genel önizleme için bir saatte dışarı aktarılan Power BI rapor sayfalarının sayısı 50 ile sınırlandırılmıştır.
 * Dışarı aktarılan raporların dosya boyutu 250 MB’ı aşamaz.
-* PNG’ye aktarırken duyarlılık etiketleri desteklenmez.
-* Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak PDF veya PPTX dosyasına aktarılamaz.
+* .png’ye aktarırken duyarlılık etiketleri desteklenmez.
+* Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak .pdf veya .pptx dosyasına aktarılamaz.
 * Dışarı aktara eklenebilecek sayfa sayısı 30’dur. Raporda daha fazla sayfa varsa API hata döndürür ve dışarı aktarma işi iptal edilir.
 * [Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
 * Aşağıdaki Power BI görselleri desteklenmez. Bu görselleri içeren bir rapor dışarı aktarıldığında, raporda bu görsellerin bulunduğu bölümler işlenmez ve bir hata simgesi görüntülenir.
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Müşterileriniz ve kuruluşunuz için nasıl içerik ekleyeceğinizi gözden geçirin:
+
+> [!div class="nextstepaction"]
+>[Sayfalandırılmış raporu dosyaya aktarma](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[Müşterileriniz için ekleme](embed-sample-for-customers.md)
