@@ -23,6 +23,8 @@
           items:
             - name: Yeni çalışma alanları oluşturma
               href: ../service-create-the-new-workspaces.md
+            - name: Çalışma alanlarının yeni görünümünü kullanmaya başlama
+              href: service-workspaces-new-look.md
             - name: Klasik çalışma alanları yükseltme
               href: ../designer/service-upgrade-workspaces.md
             - name: Çalışma alanı oluşturma
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Excel için Power BI Publisher
-              href: ../publisher-for-excel.md
         - name: Power BI’ı Genişletme
           items:
             - name: Excel’de Analiz Et
