@@ -18,7 +18,7 @@ ms.locfileid: "80113727"
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI görsellerinde hata ayıklama
 
 Bu sayfada görselinizi oluştururken hatalarını ayıklamaya yönelik bazı ipuçları gösterilir. Temel adımlar verilir ve standart ön uç uygulamalarıyla Power BI görselinin hata ayıklaması arasındaki farklar gösterilir.
-Makaleyi okuduktan sonra kesme noktalarını, özel durumları günlüğe kaydetmeyi ve Chrome ile Edge’de özel durumları yakalama işlemini kullanarak Power BI görsellerinde hata ayıklama işlemi yapabileceksiniz.
+Makaleyi okuduktan sonra kesme noktalarını, özel durumları günlüğe kaydetmeyi ve Chrome ile Microsoft Edge’de özel durumları yakalama işlemini kullanarak Power BI görsellerinde hata ayıklama işlemi yapabileceksiniz.
 
 ## <a name="using-breakpoints"></a>Kesme noktalarını kullanma
 
