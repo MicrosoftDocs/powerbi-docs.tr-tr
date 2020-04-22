@@ -1,5 +1,5 @@
 ---
-title: Veri kümesi etki analizi (önizleme)
+title: Veri kümesi etki analizi
 description: Veri kümelerinde değişiklik yapmanın aşağı akış etkisini görselleştirin ve analiz edin.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268041"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525342"
 ---
-# <a name="dataset-impact-analysis-preview"></a>Veri kümesi etki analizi (önizleme)
+# <a name="dataset-impact-analysis"></a>Veri kümesi etki analizi
 
 Veri kümesinde değişiklikler yaparken veya yapmayı düşünürken, bu değişikliklerin söz konusu veri kümesine bağımlı olan aşağı akış raporlarını ve panolarını nasıl etkileyeceğini değerlendirebilmek önemlidir. **Veri kümesi etki analizi** bu değerlendirmeyi yaparken size yardımcı olabilecek bilgiler sağlar.
 * Yaptığınız değişiklikten kaç çalışma alanının, raporun ve panonun etkilenebileceğini gösterir ve daha fazla araştırma yapabilmeniz için etkilenen raporlarla panoların bulunduğu çalışma alanlarına kolayca gitmenizi sağlar.

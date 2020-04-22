@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113634"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766275"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -88,6 +88,8 @@ Sayfalandırılmış raporlar, üst düzeyde biçimlendirilmiş, yazdırma veya 
 
 Power BI raporları, araştırma ve etkileşim için iyileştirilmiştir.  Farklı satış elemanlarının aynı rapordaki verileri kendi bölgelerine/sektörlerine/müşterilerine göre ayırmak ve sayılardaki değişimi görmek istedikleri bir satış raporu için Power BI raporu çok uygun olabilir.
 
+Daha fazla bilgi için bkz. [Power BI’daki sayfalandırılmış raporları kullanma zamanı](../guidance/report-paginated-or-power-bi.md).
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>Belgelerde tercih edilen yazma aracının Power BI Rapor Oluşturucusu olduğu belirtilir. Power BI için SQL Server Veri Araçları'nda sayfalandırılmış raporlar oluşturabilir miyim?
 
 Evet oluşturabilirsiniz ancak Power BI hizmeti bir kerede tek bir öğeyi karşıya yüklemenize izin verir. Bu nedenle, yazarların SQL Server Veri Araçları (SSDT) ile kullandığı senaryoların çoğu henüz desteklenmiyor. Bu SSS bölümünün devamında sağlanan [desteklenmeyen özellikler listesini](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) gözden geçirin.  
@@ -110,10 +112,8 @@ Evet. Raporları açma ve Power BI Rapor Oluşturucusu’ndan doğrudan hizmette
 
 - Paylaşılan veri kaynakları
 - Paylaşılan veri kümeleri
-- Alt raporlar
 - Detaylandırma ve tıklayarak diğer raporlara ulaşma
 - Bağlantılı raporlar
-- Bing harita katmanları
 - Özel yazı tipleri
 
 Geçiş/sıralama dışında Power BI hizmetinde desteklenmeyen bir özelliğe sahip bir dosyayı karşıya yüklemeyi denerseniz, hata iletisi alırsınız.

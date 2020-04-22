@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: a9ee6c367c9b513b1d84133670d646448c9f6a13
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 9469127ea28b0370edebd4c044bd929ff22c488f
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113727"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675708"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI görsellerinde hata ayıklama
 
@@ -46,9 +46,7 @@ Power BI görselinizde özel durumları günlüğe kaydetmek için aşağıdaki 
 
 ```typescript
 export function logExceptions(): MethodDecorator {
-     return function (target: Object, propertyKey: string, descriptor: TypedPropertyDescriptor<Function>)
-    : TypedPropertyDescriptor<Function> {
-            
+    return function (target: Object, propertyKey: string, descriptor: TypedPropertyDescriptor<any>): TypedPropertyDescriptor<any> {
         return {
             value: function () {
                 try {

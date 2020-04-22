@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813018"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637701"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Yönetim portalında kapasiteleri izleme
 
@@ -24,8 +24,9 @@ Yönetim portalının **Kapasite ayarları** alanındaki **Sistem durumu** sekme
 
 Daha kapsamlı ölçümlere ihtiyacınız varsa [Power BI Premium Kapasite Ölçümleri](service-admin-premium-monitor-capacity.md) uygulamasını kullanın. Bu uygulama detaya gitme ve filtreleme özelliklerine ek olarak kapasite performansını etkileyen neredeyse tüm etmenler için en ayrıntılı ölçümleri sunar. Daha fazla bilgi edinmek için bkz. [Uygulama ile Premium kapasiteleri izleme](service-admin-premium-monitor-capacity.md).
 
-> [!IMPORTANT]
-> Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
+
+
+
 
 ## <a name="system-metrics"></a>Sistem Ölçümleri
 

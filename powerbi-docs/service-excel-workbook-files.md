@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877061"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637908"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -63,7 +63,7 @@ Excel çalışma kitaplarınızın Power BI için hazır olmasını nasıl sağl
 
 ![](media/service-excel-workbook-files/excel_import_connect.png)
 
-### <a name="import-excel-data-into-power-bi"></a>Excel verilerini Power BI'a aktarma
+### <a name="import-excel-data-into-power-bi"></a>Excel verilerini Power BI'ya aktarma
 **İçeri aktar** seçeneğini belirlediğinizde tablo ve/veya veri modellerindeki desteklenen tüm veriler Power BI'da yeni bir veri kümesine aktarılır. Power View sayfalarınız varsa bunlar Power BI'da rapor olarak yeniden oluşturulur.
 
 Çalışma kitabınızı düzenlemeye devam edebilirsiniz. Değişiklikleriniz kaydedildikten sonra, genellikle yaklaşık bir saat içinde Power BI'daki veri kümesi ile eşitlenir. Daha hızlı bir sonuç elde etmek istiyorsanız Yayımla'ya tekrar tıklayabilir ve değişikliklerinizin anında dışarı aktarılmasını sağlayabilirsiniz. Raporlarınızda ve panolarınızda bulunan tüm görselleştirmeler de güncelleştirilir.
@@ -124,8 +124,6 @@ Geçerli sürümde İçeri Aktar özelliği seçildiğinde, Power BI yalnızca b
 **Yenileme zamanlama**: Excel çalışma kitabı dosyanız dış veri kaynaklarına bağlanıyorsa veya dosyayı bir yerel sürücüden içeri aktardıysanız veri kümenizin ya da raporunuzun her zaman güncel olduğundan emin olmak için zamanlanmış yenileme ayarlayabilirsiniz. Çoğu durumda, zamanlanmış yenileme ayarlamak oldukça kolaydır ancak bu makalede ayrıntılara yer vermek amaçlanmamıştır. Daha fazla bilgi edinmek için bkz. [Power BI'da veri yenileme](refresh-data.md).
 
 [Excel 2016'daki içeriği Power BI'da yayımlama](service-publish-from-excel.md)
-
-[Excel için Power BI Publisher](publisher-for-excel.md)
 
 [Power BI'da veri yenileme](refresh-data.md)
 

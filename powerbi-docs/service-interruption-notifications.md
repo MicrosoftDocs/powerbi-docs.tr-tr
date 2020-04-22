@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.author: kfollis
-ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812994"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637762"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -32,26 +32,8 @@ Raporları açma, veri kümesi yenileme veya sorgu yürütme gibi işlemlerde _u
 > [!NOTE]
 > Bu özellik, şu anda yalnızca Power BI Premium’daki ayrılmış kapasiteler için sunulmaktadır. Paylaşılan veya ekli kapasite için sunulmamaktadır.
 
-## <a name="capacity-and-reliability-notifications"></a>Kapasite ve güvenilirlik bildirimleri
-
-Power BI Premium kapasitesi, güvenilirliği etkileme ihtimali olan genişletilmiş yüksek düzeyde kaynak kullanımı süreleriyle karşılaştığında bir bildirim e-postası gönderilir. Bu tür etkilerin örnekleri arasında rapor açma, veri kümesi yenileme ve sorgu yürütmeleri gibi işlemlerde uzun gecikmelere yer alır. 
-
-Bildirim e-postası, aşağıdakiler gibi yüksek kaynak kullanımının nedenleri hakkında bilgi sağlar:
-
-* İlgili veri kümesinin veri kümesi kimliği
-* İşlem türü
-* Yüksek kaynak kullanımıyla ilişkili CPU süresi
-
-Power BI Premium kapasitesinde aşırı yükleme algılandığında da Power BI e-posta bildirimi gönderir. E-postada aşırı yüklemenin olası nedeni, geçtiğimiz 10 dakikada yükü oluşturan işlemler ve her işlemin oluşturduğu yük miktarı açıklanır. 
-
-Birden çok Premium kapasiteye sahipseniz e-postada aşırı yüklenme süresi boyunca bu kapasitelerin hepsine ilişkin bilgiler yer alır. Böylece yoğun kaynağa sahip öğeler içeren çalışma alanlarınızı daha az yüke sahip kapasitelere taşımayı düşünebilirsiniz.
-
-Aşırı yüklenme e-posta bildirimleri, yalnızca bir aşırı yüklenme eşiği tetiklendiğinde gönderilir. Premium kapasitedeki yük miktarı, aşırı yük düzeyinin altına indiğinde ikinci bir e-posta bildirimi gönderilmez.
-
-Aşağıdaki resimde bir bildirim e-postası örneği gösterilir:
 
 
-![aşırı yüklenmiş kapasite bildirimi e-postası](media/service-interruption-notifications/refresh-notification-email-2.png)
 
 
 ## <a name="enable-notifications"></a>Bildirimleri etkinleştirme
