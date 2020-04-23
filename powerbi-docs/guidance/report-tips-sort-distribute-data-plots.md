@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f497060c4e36c648bd2b3ef23ae8914d303adfa6
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006538"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065951"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları
 
@@ -42,7 +42,7 @@ Power BI raporlarında veri çizimlerini sıralamaya ve dağıtmaya yönelik en 
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine videosu: [Power BI’daki veri çizimlerini Sıralamaya ve Dağıtmaya Yönelik En İyi 9 İpucu](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

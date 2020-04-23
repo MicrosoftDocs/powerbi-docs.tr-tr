@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006561"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065582"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI raporlarında yer alan analizleri şekil, görüntü ve simgelerle geliştirmeye yönelik ipuçları
 
@@ -37,7 +37,7 @@ Kısaca, Power BI raporlarında yer alan analizleri şekil, görüntü ve simgel
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine videosu: [Power BI’da Analizleri Resimli Yazılarla Geliştirmeye yönelik En Faydalı 4 İpucu](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

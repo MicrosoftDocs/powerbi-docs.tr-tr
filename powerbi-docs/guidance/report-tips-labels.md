@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 54364162b48b591e0f8eccdeb05e07f02656632a
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 98bb0e31a8cc92f5969f62f8b2a9e03637790fc3
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006584"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065559"
 ---
 # <a name="tips-to-optimize-the-use-of-labels-in-power-bi-reports"></a>Power BI raporlarında etiket kullanımını iyileştirmeye yönelik ipuçları
 
@@ -37,7 +37,7 @@ Power BI raporlarında etiket kullanımını iyileştirmeye yönelik en etkili d
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine videosu: [Power BI Raporlarında Etiket Kullanımını İyileştirmeye Yönelik En Etkili 4 ipucu](https://www.youtube.com/watch?v=ywx5xUN5VQM)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
