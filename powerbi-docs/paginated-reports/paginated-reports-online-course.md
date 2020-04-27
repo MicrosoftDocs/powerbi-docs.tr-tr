@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267607"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675634"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları
 
@@ -83,7 +83,7 @@ Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
 
 Sunu içeriğinden ve sekiz uygulamalı laboratuvardan oluşan kendi kendine çalışma setini indirebilir ve ayarlayabilirsiniz:
 
-1. Kendi kendine çalışma setini (.zip) yerel olarak bilgisayarınıza indirmek için [bu bağlantıyı](https://aka.ms/priad-ilt-student) kullanın.
+1. Kendi kendine çalışma setini (.zip) yerel olarak bilgisayarınıza indirmek için [bu bağlantıyı](https://aka.ms/priad-student) kullanın.
 1. Dosya özelliklerini açın, "engellemeyi kaldır" öğesini işaretleyin (Windows dosyaya güvenilmez olabilir bayrağı ekleyebilir).
 1. Dosya içeriğini dosya sisteminizdeki bir klasöre ayıklayın. Kolayca bulunabilecek bir klasör oluşturmanızı öneririz; örneğin klasöre **Eğitim** adı verebilirsiniz. Laboratuvar belgeleri bu konuma **&lt;CourseFolder&gt;** olarak başvurur.
 
@@ -105,6 +105,10 @@ Ayıklandıktan sonra **PowerBIPRIAD** klasörünüz olur ve bu klasörün için
 > Çalışma alanına Power BI Desktop dosyası yayımlamak için Power BI’da oturum açmanız gerekir. Yayınlama sonucunda rapor veri kaynağı olarak kullanılan bir veri kümesi elde edilir. Veri kümesini rapor veri kaynağı olarak kullanmak için Power BI Pro lisansına veya Power BI Premium aboneliğine ihtiyacınız yoktur.
 >
 > Öte yandan bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa, bunun yerine rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanır.
+
+## <a name="instructor-kit"></a>Eğitmen seti
+
+Eğitmen setini (.zip) yerel olarak PC’nize indirmek için [bu bağlantıyı](https://aka.ms/priad-instructor) kullanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

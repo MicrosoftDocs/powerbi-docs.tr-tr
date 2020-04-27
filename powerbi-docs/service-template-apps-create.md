@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436031"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066360"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -23,7 +23,7 @@ Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması ol
 
 Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI kiracı yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
 
-## <a name="prerequisites"></a>Önkoşullar
+## <a name="prerequisites"></a>Ön koşullar
 
 Şablon uygulaması oluşturmak için şunları gerekir:  
 
@@ -50,7 +50,7 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
     ![Şablon uygulaması geliştirin](media/service-template-apps-create/power-bi-template-app-develop.png)
 
-5. **Kaydet**'i seçin.
+5. **Kaydet**’i seçin.
 >[!NOTE]
 >Şablon uygulamalarını tanıtmak için Power BI yöneticinizin izinleri gerekir.
 
@@ -152,7 +152,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     Yükleme başarılı olduğunda yeni uygulamanın hazır olduğuna ilişkin bir bildirim görürsünüz.
 
-6. **Uygulamaya git**’i seçin.
+6. **Uygulamaya gidin**'i seçin.
 7. **Yeni uygulamanızı kullanmaya başlayın** penceresinde uygulamanızı aynı müşterilerinizin göreceği gibi görürsünüz.
 
     ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-create/power-bi-template-app-get-started.png)
@@ -166,7 +166,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     Bu seçeneği görmüyorsanız, Power BI yöneticinize başvurun ve size yönetim portalında [şablon uygulaması geliştirme izinleri](service-admin-portal.md#template-apps-settings) vermesini isteyin.
 11. Seçiminizi onaylamak için **Yükselt**’i seçin.
-12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni bir Bulut İş Ortağı Portalı teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. Bulut İş Ortağı Portalı'na yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource'ta yayımlandığına ilişkin bildirimi aldıktan sonra bu paketi Power BI'da üretime yükseltebilirsiniz.
+12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni İş ortağı merkezi teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. İş ortağı merkezine yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource'ta yayımlandığına ilişkin bildirimi aldıktan sonra bu paketi Power BI'da üretime yükseltebilirsiniz.
 13. Uygulamanız üretime veya AppSource yoluyla paylaşıma hazır olduğunda, **Sürüm Yönetimi** bölmesine dönün ve **Ön üretim**’in yanındaki **Uygulamayı yükselt**’i seçin.
 14. Seçiminizi onaylamak için **Yükselt**’i seçin.
 
@@ -174,10 +174,10 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     ![Üretim ortamında uygulama](media/service-template-apps-create/power-bi-template-app-production.png)
 
-Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Müşterilerinizin şablon uygulamanızla nasıl etkileşim kurduğunu görmek için bkz. [Kuruluşunuzda şablon uygulamalarını yükleme, özelleştirme ve dağıtma](service-template-apps-install-distribute.md).
 
-Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).

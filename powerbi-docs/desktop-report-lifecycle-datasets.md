@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 278aa4c28db97c348e683b759e8a7f9415f19c3e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 1312e56edfb17c57334af263b9f38c3dd97c1894
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79206850"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525441"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 
@@ -91,7 +91,7 @@ Yayımlanmış raporla bağlantı kurmak ve yayımlanmış veri kümesini temel 
 
 Oturum açmadıysanız Power BI oturum açmanızı ister. Oturum açıldıktan sonra Power BI hangi çalışma alanlarına üye olduğunuzu gösterir. Power BI hizmeti canlı bağlantısı kurmak istediğiniz veri kümesinin yer aldığı çalışma alanını seçebilirsiniz.
 
-Listedeki veri kümelerinin tümü, herhangi bir çalışma alanında Derleme iznine sahip olduğunuz paylaşılan veri kümeleridir. Belirli bir veri kümesi için arama yapabilir ve adını, sahibini, bulunduğu çalışma alanını ve en son ne zaman yenilendiğini görebilirsiniz. Ayrıca listenin en üstünde sertifikalı veya tanıtılan veri kümeleri için **ONAY** da görürsünüz.
+Listedeki veri kümelerinin tümü, herhangi bir çalışma alanında Derleme iznine sahip olduğunuz paylaşılan veri kümeleridir. Belirli bir veri kümesi için arama yapabilir ve adını, sahibini, bulunduğu çalışma alanını ve en son ne zaman yenilendiğini görebilirsiniz. Ayrıca listenin en üstünde sertifikalı veya tanıtılan veri kümeleri için **ONAY** seçeneğini de görürsünüz.
 
 ![Kullanılabilir veri kümelerinin listesi](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

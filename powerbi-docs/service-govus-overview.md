@@ -1,38 +1,37 @@
 ---
-title: Power BI US Government müşterileri - Genel Bakış
-description: ABD Kamu (US Government) müşterileri Office 365 kamu planına bir Power BI Pro aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
+title: ABD kamu müşterileri için Power BI - Genel Bakış
+description: ABD Kamu müşterileri Microsoft 365 kamu planlarına bir Power BI Pro aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404799"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436357"
 ---
-# <a name="power-bi-for-us-government-customers"></a>Power BI US Government müşterileri
-Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD Kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
+# <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
+Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
 
 ## <a name="add-power-bi-to-your-office-365-government-plan"></a>Office 365 Kamu planınıza Power BI ekleme
 
-Power BI US Government aboneliğini alabilmek ve kullanıcılara lisans atayabilmek için önce bir Office 365 Kamu planına kaydolmalısınız. Kuruluşunuzun zaten Office 365 Kamu planı varsa, [Power BI Pro Kamu aboneliği satın alma](#purchase-a-power-bi-pro-government-subscription) konusuna atlayın.
+Power BI ABD kamu aboneliğini alabilmek ve kullanıcılara lisans atayabilmek için önce bir Office 365 Kamu planına kaydolmalısınız. Kuruluşunuzun zaten Office 365 Kamu planı varsa, [Power BI Pro kamu aboneliği satın alma](#purchase-a-power-bi-pro-government-subscription) konusuna atlayın.
 
 ### <a name="enroll-in-office-365-government-plan"></a>Office 365 Kamu planına kaydolma
 
 Yeni bir müşteriyseniz kamu planına kaydolmadan önce kuruluşunuzun uygunluğunu doğrulamanız gerekir.  Başlangıç olarak [Office 365 Kamu uygunluk doğrulama formunu](https://www.microsoft.com/microsoft-365/government/eligibility-validation) tamamlayın. Kuruluşunuza doğru planı seçtiğinizden emin olmak için [Office 365 ABD Kamu hizmet açıklamalarına](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) başvurun.
 
 > [!NOTE]
-> Power BI’ı zaten ticari bir ortama dağıttıysanız ve ABD Kamu bulutuna geçmek istiyorsanız, Office 365 Kamu planınıza yeni bir Power BI Pro aboneliği eklemeniz gerekir. Ardından ticari verileri ABD Kamu için Power BI service hizmetine çoğaltın, kullanıcı hesaplarından ticari lisans atamalarını kaldırın ve ardından kullanıcı hesaplarına Power BI Pro Kamu lisansı atayın.
+> Power BI’ı zaten ticari bir ortama dağıttıysanız ve ABD kamu bulutuna geçmek istiyorsanız, Office 365 Kamu planınıza yeni bir Power BI Pro aboneliği eklemeniz gerekir. Ardından ticari verileri ABD kamu için Power BI hizmetine çoğaltın, kullanıcı hesaplarından ticari lisans atamalarını kaldırın ve sonra kullanıcı hesaplarına Power BI Pro kamu lisansı atayın.
 >
 >
-
-### <a name="government-cloud-instances"></a>Kamu bulutu örnekleri
+## <a name="government-cloud-instances"></a>Kamu bulutu örnekleri
 Office 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluşlarına farklı ortamlar sağlar. Her ortamın neler sağladığına ilişkin belirli ayrıntılar için bağlantılı hizmet açıklamalarına bakın.
 
 * Federal yönetim, eyalet yönetimi ve yerel yönetim için tasarlanan [Office 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).
@@ -41,26 +40,26 @@ Office 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluş
 
 * [Office 365 DoD ortamı](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır. 
 
-### <a name="purchase-a-power-bi-pro-government-subscription"></a>Power BI Pro Kamu aboneliği satın alma
-
-Office 365’i dağıttıktan sonra bir Power BI aboneliği ekleyebilirsiniz. Power BI Pro Kamu hizmeti satın almak için [ABD Kamu kuruluşunuzu kaydetme](service-govus-signup.md#existing-office-government-cloud-customers) konusundaki adım adım yönergeleri izleyin. Power BI’ı kullanması gereken tüm kullanıcılara yetecek kadar lisans satın alın ve bu lisansları tek tek kullanıcı hesaplarına atayın.
-
-> [!IMPORTANT]
-> Power BI US Government, Ücretsiz lisans olarak sağlanmaz. Her kullanıcıya, Government Community Cloud’a erişmek için bir Pro lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Power BI Premium’u satın aldıysanız, kullanıcı erişimini etkinleştirmek için Pro lisansları atamanız gerekmez.  Kuruluştaki tüm kullanıcılar, rapor Premium kapasitede yayımlandığı sürece kendileriyle paylaşılan raporlara erişebilir. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
->
->
-
-## <a name="connect-to-power-bi-for-us-government"></a>Power BI US Government sürümüne bağlanma
+## <a name="connect-to-power-bi-for-us-government"></a>ABD kamu için Power BI’a bağlanma
 
 Power BI US Government sürümüne bağlanmak içir ticari kullanıcılardan farklı bir URL kullanırsınız. Power BI’da oturum açmak için aşağıdaki URL’leri kullanın:
 
-| Ticari sürüm URL'si | ABD Kamu sürümü URL'si | GCC High için ABD Kamu URL'si |
-| --- | --- | --- |
-| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| Ticari sürüm  | GCC  | GCC High | DoD |
+| --- | --- | --- | --- |
+| [https://app.powerbi.com/](https://app.powerbi.com) |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) | [https://app.mil.powerbigov.us](https://app.mil.powerbigov.us) |
 
 Hesabınız birden çok buluta sağlanmış olabilir. Böyle bir durumda Power BI Desktop’ı kullanırken oturum açma sırasında hangi buluta bağlanacağınızı seçebilirsiniz.
 
-## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Kamuya ve genel kullanıma sunulan Azure Bulut hizmetleri arasında bağlantı
+## <a name="purchase-a-power-bi-pro-government-subscription"></a>Power BI Pro Kamu aboneliği satın alma
+
+Office 365’i dağıttıktan sonra bir Power BI aboneliği ekleyebilirsiniz. Power BI Pro kamu hizmetini satın almak için [ABD kamu kuruluşunuzu kaydetme](service-govus-signup.md) konusundaki adım adım yönergeleri izleyin. Power BI’ı kullanması gereken tüm kullanıcılara yetecek kadar lisans satın alın ve bu lisansları tek tek kullanıcı hesaplarına atayın.
+
+> [!IMPORTANT]
+> Power BI ABD kamu, Ücretsiz lisans olarak sağlanmaz. Her kullanıcıya, Government Community Cloud’a erişmek için bir Pro lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Power BI Premium’u satın aldıysanız, kullanıcı erişimini etkinleştirmek için Pro lisansları atamanız gerekmez.  Kuruluştaki tüm kullanıcılar, rapor Premium kapasitede yayımlandığı sürece kendileriyle paylaşılan raporlara erişebilir. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](service-features-license-type.md).
+>
+>
+
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Kamuya ve genel kullanıma sunulan Azure Cloud hizmetleri arasındaki bağlantı
 
 Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bir örneğin bağlantısını açarken güvenlik duvarı kurallarını etkinleştirebilirsiniz ama bulutlar arası ağ farklıdır.  Genel buluttaki hizmetlerle Government Community Cloud’daki hizmetler arasında iletişim kurmak için belirli güvenlik duvarı kurallarını yapılandırmanız gerekir. Örneğin Power BI’ın kamu bulut dağıtımından SQL’in genel bulut örneklerine erişmek istiyorsanız, SQL’de bir güvenlik duvarı kuralına ihtiyacınız vardır. Aşağıdaki veri merkezlerinde Azure Kamu Bulutu’na bağlantılara izin vermek için SQL’de belirli güvenlik duvarı kurallarını yapılandırın:
 
@@ -69,7 +68,7 @@ Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bi
 * USGov Texas
 * USGov Arizona
 
-Genel bulutta IP alanları kullanılabilir. ABD Kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin. 
+Genel bulutta IP alanları kullanılabilir. ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin. 
 
 SQL’de güvenlik duvarlarını ayarlamak için [IP güvenlik duvarı kurallarını oluşturma ve yönetme](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) başlığı altında verilen adımları izleyin.
 
@@ -110,7 +109,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI US Government'a kaydolma](service-govus-signup.md)
+* [ABD kamu için Power BI'a kaydolma](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demosu</a>

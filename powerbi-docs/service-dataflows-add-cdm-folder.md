@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404754"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439354"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -30,6 +30,12 @@ Aşağıdaki listede açıklandığı gibi CDM klasörlerinden veri akışları 
 * CDM klasöründeki tüm dosyaları ve klasörleri Power BI’a eklemek için, size bu dosya ve klasörler üzerinde okuma ve yürütme izinleri verilmesi gerekir.
 
 Aşağıdaki bölümlerde bir CDM klasöründen veri akışı oluşturma işlemi açıklanmaktadır.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>Veri akışı oluşturmak üzere CDM klasörleri için kullanıcıları yetkilendirme
+
+CDM klasöründen bir veri akışı oluşturmak için şu izinlerin eklenmesi gerekir:
+* Power BI aracılığıyla CDM klasörüne erişecek kullanıcının, depolama hesabının **Depolama Blobu Veri Sahibi** rolünün altında listelenmesi gerekir.
+* Power BI aracılığıyla CDM klasörüne erişecek kullanıcının hem CDM klasörünün kendisinde hem de içindeki tüm dosya veya klasörlerde **Okuma Erişimi** ve **Yürütme Erişimi** ACL’lerine sahip olmalıdır. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM klasöründen veri akışı oluşturma
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610030"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525549"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI’da rapor performansını izleme
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610030"
 Aşağıdaki durumlarda performansın izlenmesi yararlı olur:
 
 - İçeri Aktarma veri modeliniz yavaş yenileniyor.
-- DirectQuery veya LiveConnection raporlarınız yavaş çalışıyor.
+- DirectQuery veya Canlı Bağlantı raporlarınız yavaş çalışıyor.
 - Model hesaplamalarınız yavaş çalışıyor.
 
 Yavaş sorgular veya rapor görselleri, devam eden iyileştirme çalışmalarının odak noktası olmalıdır.
@@ -85,6 +85,7 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Sorgu Tanılamaları](/power-query/QueryDiagnostics)
 - [Performans Analizi](../desktop-performance-analyzer.md)
+- [Power BI’da rapor performansı sorunlarını giderme](report-performance-troubleshoot.md)
 - [Power BI Premium Ölçümler uygulaması](../service-premium-metrics-app.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

@@ -1,5 +1,5 @@
 ---
-title: Ücretsiz lisans kullanıcıları için özellik kullanılabilirliği
+title: Ücretsiz lisanslara sahip kullanıcılar için özellik kullanılabilirliği
 description: Tüketicilerin ve ücretsiz lisans kullanıcılarının kullanabildiği özellikleri gösteren açıklama ve grafik.
 author: mihart
 ms.reviewer: ''
@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 60ac58c2d1cb815ca322abf6806d9e866f719660
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268018"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82065789"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-other-free-users"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
+# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -27,40 +27,47 @@ Tasarımcıların içerik paylaşmasının birçok farklı yolu vardır. Ama bu 
 
 ![Power BI gezinti bölmesi](media/end-user-features/power-bi-share.png)
 
-[Önceki makalede](end-user-license.md) Power BI lisanslarının farklı türleri (ücretsiz ve Pro) açıklanmış ve hangi lisansı ve aboneliği kullandığınızı nasıl bulacağınız öğretilmiştir. Bu makalede lisansınıza ve aboneliğinize göre size hangi Power BI özelliklerinin sağlandığı listelenir.   
+[Önceki makalede](end-user-license.md), Power BI hizmetinde panolar, raporlar ve uygulamalar (içerik) ile neler yapabileceğinizin üç şeye bağlı olduğunu öğrendiniz: lisanslarınız, rollerinizle izinleriniz ve içeriğin depolandığı yer.
+
+Bu makalede, Power BI hizmetindeki hangi özelliklerin sizin gibi *tüketicilerin* kullanımına sunulduğu listelenmektedir. Tanım gereği, *tüketiciler* Power BI hizmetinde (Power BI Desktop değil) çalışmak için ücretsiz bir lisans kullanır ve Premium kapasiteye sahip kuruluşların üyeleridir.
 
 <art>
 
 ## <a name="quick-review-of-terminology"></a>Terminolojiyi hızla gözden geçirme
-Listeye gelmeden önce bazı Power BI kavramlarını gözden geçirelim. Bu hızlı bir gözden geçirme olacaktır. Daha fazla ayrıntıya ihtiyacınız varsa [Tüketiciler için lisanslar ve abonelikler](end-user-license.md) veya [Power BI temel kavramları](end-user-basic-concepts.md) konusunu ziyaret edin.
+Listeye gelmeden önce bazı Power BI kavramlarını gözden geçirelim. Bu hızlı bir gözden geçirme olacaktır. Daha fazla ayrıntıya ihtiyacınız varsa [Tüketiciler için lisanslar](end-user-license.md) veya [Power BI temel kavramları](end-user-basic-concepts.md) konusunu ziyaret edin.
 
 ### <a name="workspaces-and-roles"></a>Çalışma alanları ve roller
-İki tür çalışma alanı vardır: **Çalışma alanım** ve uygulama çalışma alanları. **Çalışma alanım** sayfasına yalnızca siz erişebilirsiniz. İşbirliği yapmak ve paylaşmak için içerik tasarımcısının bir uygulama çalışma alanı kullanması gerekir. 
+İki tür çalışma alanı vardır: **Çalışma alanım** ve uygulama çalışma alanları. **Çalışma alanım** sayfanıza yalnızca siz erişebilirsiniz. İşbirliği yapmak ve paylaşmak için Pro lisanslarına sahip içerik *tasarımcılarının* bir uygulama çalışma alanı kullanması gerekir. 
 
-Çalışma alanı *rolleri* Power BI tasarımcıları tarafından çalışma alanında kimlerin neler yapabileceğini yönetmek için kullanılır. *Tüketicilere* **Görüntüleyici** rolü atanır. 
+Uygulama çalışma alanları içinde *roller*, ilgili çalışma alanında kimlerin hangi işlemleri yapabileceğini yönetmek için tasarımcılar tarafından atanır. *Tüketicilere* **Görüntüleyici** rolü atanır. 
 
-### <a name="premium-capacity-subscription"></a>Premium kapasite aboneliği
-Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıcıları *Premium kapasiteye* çalışma alanları atayabilir. Premium kapasite içindeki çalışma alanı Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşabilecekleri ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro lisansları olması gerekmez. Söz konusu çalışma alanları içinde ücretsiz lisans kullanıcılarının yükseltilmiş izinleri olur (aşağıdaki listeye bakın). 
+### <a name="premium-capacity"></a>Premium kapasite
+Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıcıları *ayrılmış kapasiteye* çalışma alanları atayabilir. Ayrılmış kapasitedeki çalışma alanı, Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşım ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro lisansları olması gerekmez. Söz konusu çalışma alanları içinde ücretsiz lisans kullanıcılarının yükseltilmiş izinleri olur (aşağıdaki listeye bakın). 
 
 ### <a name="licenses"></a>Lisanslar 
-Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. Bazı özellikler Pro lisansına sahip kullanıcılara ayrılmıştır.
+Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. *Tüketiciler* ücretsiz lisanslara sahiptir.
 
-- **Ücretsiz lisans** - normal olarak kuruluş içindeki *tüketicilere* atanır. Ayrıca Power BI’a birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../service-self-service-signup-for-power-bi.md) denemek isteyen herkes için bu lisans kullanılır.  
-- **Pro lisansı** - normal olarak kuruluş içindeki tasarımcılara, analistlere ve geliştiricilere atanır.   
-- **Ücretsiz lisans + Premium kapasite** - ücretsiz lisans kullanıcılarının (*tüketiciler*) Pro kullanıcıları tarafından Premium kapasitede oluşturulan ve paylaşılan içeriği görüntülemesine ve bu içerikle etkileşim kurmasına olanak tanır. Bu yolla Pro kullanıcıları çalışma alanı içinde veya **Benimle paylaşlıan** özelliğini kullanarak ücretsiz lisans kullanıcılarıyla işbirliği yapabilir.
+- **Ücretsiz lisans** - genellikle kuruluş içindeki *tüketicilere* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
 
-Premium kapasite aboneliği olan bir kuruluşun üyesi olmak ücretsiz lisans kullanıcılarına süper güçler kazandırır. Pro lisansına sahip iş arkadaşları içerik paylaşmak için Premium kapasite çalışma alanlarını kullandığı sürece, ücretsiz lisans kullanıcıları bu içeriği görüntüleyebilir ve Pro iş arkadaşlarıyla işbirliği yapabilir.  **Bu yolla ücretsiz lisans kullanıcısı iş kararları vermek için gereken içeriği alma ve paylaşma becerisine sahip bir Power BI *tüketicisine* dönüşür.** 
+    ![Ücretsiz lisans kullanıcısı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
+
+    Premium kapasitesi olan bir kuruluşun üyesi olmak ücretsiz lisans kullanıcılarına süper güçler kazandırır. Pro lisansına sahip iş arkadaşları içerik paylaşmak için Premium kapasite çalışma alanlarını kullandığı sürece, ücretsiz lisans kullanıcıları bu içeriği görüntüleyebilir ve Pro iş arkadaşlarıyla işbirliği yapabilir.  **Bu yolla ücretsiz lisans kullanıcısı iş kararları vermek için gereken içeriği alma ve paylaşma becerisine sahip bir Power BI *tüketicisine* dönüşür.** 
+ 
+    ![Ücretsiz lisans kullanıcısı gösteren ekran](media/end-user-features/power-bi-free-user.png)
+
+
+   
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>*Tüketicilere* ve ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
-Aşağıdaki çizelgede, Premium aboneliği olan bir kuruluşta *tüketicinin* hangi görevleri gerçekleştirilebileceği tanımlanmıştır.    
+Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etkileşime giren bir *tüketici* tarafından hangi görevlerin gerçekleştirilebileceğini tanımlar.    
 
-İlk sütun **Çalışma alanım**’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı çalışma alanlarında iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım**’dan paylaşamaz. 
+İlk sütun **Çalışma alanım**’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı Power BI hizmetinde iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım**’dan paylaşamaz. 
 
 İkinci sütun *tüketiciyi* temsil eder.  Tüketici:
 
 - ücretsiz kullanıcı lisansına sahiptir
 - Premium kapasite aboneliği olan bir kuruluşun üyesidir
-- Pro kullanıcılarının Premium kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
+- Pro kullanıcılarının ayrılmış kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
 - söz konusu uygulama çalışma alanlarında kendisine atanmış **Görüntüleyici** rolüne sahiptir. 
 
 ### <a name="legend"></a>Gösterge
@@ -72,12 +79,12 @@ Aşağıdaki çizelgede, Premium aboneliği olan bir kuruluşta *tüketicinin* h
 
 ### <a name="feature-list"></a>Özellik listesi
 
-|Özellikler   | Senaryo 1: Premium kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | Senaryo 2: Premium kapasitede depolanan içerik üzerinde **Görüntüleyici** izinleri olan Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *tüketicisidir*. |
+|Özellikler   | Senaryo 1: Ayrılmış kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | Senaryo 2: Ayrılmış kapasitede depolanan içerik üzerinde **Görüntüleyici** izinleri olan Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *tüketicisidir*. |
 |---|---|---|
 |**Uygulamalar** 
 |Otomatik olarak yüklenir | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*| 
-|Açma | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
-|Sık kullanılanlara ekleme | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
+|Aç | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
+|Sık kullanılanlara ekle | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
  |Düzenleme, güncelleştirme, yeniden paylaşma, yeniden yayımlama |![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png)   |
  |Yeni uygulama oluşturma |![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png)   |
  |Appsource: indirme ve açma | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) | 
@@ -91,12 +98,12 @@ Aşağıdaki çizelgede, Premium aboneliği olan bir kuruluşta *tüketicinin* h
 |İş arkadaşlarının panolarını alma, görüntüleme ve etkileşim kurma | ![turuncu x](media/end-user-features/orange-x.png) |  ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
 | Kutucuklara uyarı ekleme  |  ![yeşil myw](media/end-user-features/green-mwo.png) |  ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
 | Başkalarından gelen açıklamaları görüntüleme ve yanıtlama; kendi açıklamalarınızı ekleme  |  ![turuncu x](media/end-user-features/orange-x.png) |  ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*  | 
-| Bir kopyasını kaydetme | ![yeşil myw](media/end-user-features/green-mwo.png) |![turuncu x](media/end-user-features/orange-x.png) | 
+| Bir kopyasını kaydet | ![yeşil myw](media/end-user-features/green-mwo.png) |![turuncu x](media/end-user-features/orange-x.png) | 
 |Görseli resim olarak kopyalama |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
 |Oluşturma, düzenleme, güncelleştirme, silme | ![yeşil myw](media/end-user-features/green-mwo.png) |![turuncu x](media/end-user-features/orange-x.png) | 
 |Kutucuğu Excel’e aktarma |![yeşil myw](media/end-user-features/green-mwo.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
-|Sık kullanılanlara ekleme |![yeşil myw](media/end-user-features/green-mwo.png)| ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
-|Öne çıkarma |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
+|Sık kullanılanlara ekle |![yeşil myw](media/end-user-features/green-mwo.png)| ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
+|Özellik |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)|
 |Tam ekran ve odak modları |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) |
 |Genel arama |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)* |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)* |
 |Kutucuklarla ilgili içgörüler |![yeşil myw](media/end-user-features/green-mwo.png)     | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*|
@@ -105,8 +112,8 @@ Aşağıdaki çizelgede, Premium aboneliği olan bir kuruluşta *tüketicinin* h
 |Soru-Ceva:sorulan soruları gözden geçirme | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) |  
 |Performans denetçisi |![yeşil myw](media/end-user-features/green-mwo.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) |
 |Soru-Cevap veya raporlardan kutucukları sabitleme | ![yeşil myw](media/end-user-features/green-mwo.png) |![turuncu x](media/end-user-features/orange-x.png) | 
-|Yazdırma |![yeşil myw](media/end-user-features/green-mwo.png)* |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)* |
-|Yenileme | ![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) | 
+|Yazdır |![yeşil myw](media/end-user-features/green-mwo.png)* |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)* |
+|Yenile | ![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) | 
 |Yeniden paylaşma | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) | 
 |Kendinizin abone olmasını sağlama |![yeşil myw](media/end-user-features/green-mwo.png)* |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*  |
 |Başkalarının abone olmasını sağlama | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) | 
@@ -122,10 +129,10 @@ Aşağıdaki çizelgede, Premium aboneliği olan bir kuruluşta *tüketicinin* h
 | Başkalarının oluşturduğu yer işaretlerini görüntüleme ve kendi yer işaretlerinizi ekleme  | ![turuncu x](media/end-user-features/orange-x.png)|![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 | Başkalarından gelen açıklamaları görüntüleme ve yanıtlama; yeni açıklamalar ekleme  | ![turuncu x](media/end-user-features/orange-x.png)|![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 |Görüntüleme boyutlarını değiştirme   | ![yeşil myw](media/end-user-features/green-mwo.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
-| Bir kopyasını kaydetme |![turuncu x](media/end-user-features/orange-x.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*  
+| Bir kopyasını kaydet |![turuncu x](media/end-user-features/orange-x.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*  
 |Görseli resim olarak kopyalama* |
 | Rapor görsellerini çapraz vurgulama ve çapraz filtreleme   |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
-|  Detaylandırma   |![yeşil myw](media/end-user-features/green-mwo.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
+|  Drill   |![yeşil myw](media/end-user-features/green-mwo.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 | Detaylandırma |![yeşil myw](media/end-user-features/green-mwo.png)* |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)* |
 |  Ekleme (web’de yayımlama, genel) | ![yeşil myw](media/end-user-features/green-mwo.png)* |![turuncu x](media/end-user-features/orange-x.png) |  
 |  Rapor görsellerinden özetlenmiş verileri dışarı aktarma*  |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) |

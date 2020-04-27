@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376696"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066337"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 
 Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makale Power BI şablon uygulaması programına genel bir bakış sağlar.
 
-Şablon uygulamaları geçerli hizmet içerik paketlerinin yerini almıştır. Bir Power BI iş ortağı olarak, müşterileriniz için kullanıma hazır bir içerik kümesi oluşturur ve bunu kendiniz yayımlarsınız.  
+Bir Power BI iş ortağı olarak, müşterileriniz için kullanıma hazır bir içerik kümesi oluşturur ve bunu kendiniz yayımlarsınız.  
 
 Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına olanak sağlayan şablon uygulamaları oluşturursunuz. Etki alanı uzmanları olarak, işletme kullanıcıları tarafından kolayca tüketilebilecek şekilde verilerin kilidini açabilirler.  
 
-Şablon uygulamalarınızı Bulut İş Ortağı Portalı’na gönderirsiniz. Ardından uygulamalar [Power BI Uygulamaları marketinde](https://app.powerbi.com/getdata/services) ve [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)'ta genel kullanıma sunulur. Burada genel şablon uygulaması oluşturma deneyimine üst düzey bir bakış sağlanır.
+İş ortağı merkezine bir şablon uygulaması gönderirsiniz. Ardından uygulamalar [Power BI Uygulamaları marketinde](https://app.powerbi.com/getdata/services) ve [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)'ta genel kullanıma sunulur. Burada genel şablon uygulaması oluşturma deneyimine üst düzey bir bakış sağlanır.
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI Uygulamaları marketi
 
@@ -34,11 +34,11 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 | [![Microsoft Project web uygulaması](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Microsoft 365 Kullanım Analizi web uygulaması](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Dynamic 365 Business Central - Satış web uygulaması](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro Müşteri Memnuniyeti web uygulaması](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
 |  |
 
-## <a name="process"></a>İşlem
+## <a name="process"></a>İşleme
 Şablon uygulaması geliştirmek ve göndermek için kullanılan genel süreç birkaç aşamadan oluşur. Bazı aşamalar aynı anda birden çok etkinlik içerebilir.
 
 
-| Aşama | Power BI Desktop |  |Power BI hizmeti  |  |Bulut İş Ortağı Portalı  |
+| Aşama | Power BI Desktop |  |Power BI hizmeti  |  |İş Ortağı Merkezi  |
 |---|--------|--|---------|---------|---------|
 | **Bir** | Bir .pbix dosyasında veri modeli ve rapor oluşturma |  | Çalışma alanı oluşturma. .pbix dosyasını içeri aktarma. Tamamlayıcı bir pano oluşturma  |  | İş ortağı olarak kaydetme |
 | **İki** |  |  | Test paketi oluşturma ve kuruluş içinde doğrulamayı çalıştırma        |  | |
@@ -49,7 +49,7 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 
 Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI yönetim portalı, Şablon uygulaması ayarları. 
 
-Şablon uygulamasını Power BI hizmetine ve AppSource’a yayımlamak için, [Bulut Marketi Yayımcısı olma](https://docs.microsoft.com/azure/marketplace/become-publisher) gereksinimlerini karşılamanız gerekir.
+Şablon uygulamasını Power BI hizmetinde ve AppSource’ta yayımlamak için, [İş Ortağı Merkezi Yayımcısı olma](https://docs.microsoft.com/azure/marketplace/become-publisher) gereksinimlerini karşılamanız gerekir.
  
 ## <a name="high-level-steps"></a>Üst düzey adımlar
 
@@ -67,7 +67,7 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 
 6. Test uygulamasını üretim öncesi aşamaya yükselterek uygulamayı AppSource’ta doğrulamaya gönderin ve kendi kiracınızın dışında test edin. 
 
-7. İçeriği yayımlanmak üzere Bulut İş Ortağı Platformu’na gönderin. 
+7. İçeriği yayımlanması için [İş ortağı merkezine](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) gönderin. 
 
 8. Teklifinizi AppSource’ta "Canlı Yayına" geçirin ve Power BI’da üretime taşıyın.
 
@@ -75,11 +75,11 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 
 ## <a name="requirements"></a>Gereksinimler
 
-Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings). 
+Şablon uygulaması oluşturmak için, bu uygulamayı oluşturma izinleriniz olmalıdır. Ayrıntılar için bkz. Power BI [yönetim portalı, Şablon uygulaması ayarları](service-admin-portal.md#template-apps-settings).
 
-Şablon uygulamasını Power BI hizmetine ve AppSource’a yayımlamak için, [Bulut Marketi Yayımcısı olma](https://docs.microsoft.com/azure/marketplace/become-publisher) gereksinimlerini karşılamanız gerekir.
+Şablon uygulamasını Power BI hizmetinde ve AppSource’ta yayımlamak için, [İş Ortağı Merkezi Yayımcısı olma](https://docs.microsoft.com/azure/marketplace/become-publisher) gereksinimlerini karşılamanız gerekir.
  > [!NOTE] 
- > Şablon uygulamaları gönderimleri [Bulut İş Ortağı Portalı](https://cloudpartner.azure.com)’nda yönetilir. Oturum açmak için aynı Microsoft Developer Center kayıt hesabını kullanın. AppSource teklifleriniz için yalnızca bir tane Microsoft hesabınızın olması gerekir. Hesaplar, ayrı hizmetlere veya tekliflere özel olmamalıdır.
+ > Şablon uygulamaları gönderimleri [İş Ortağı Merkezi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)’nde yönetilir. Oturum açmak için aynı Microsoft Developer Center kayıt hesabını kullanın. AppSource teklifleriniz için yalnızca bir tane Microsoft hesabınızın olması gerekir. Hesaplar, ayrı hizmetlere veya tekliflere özel olmamalıdır.
 
 ## <a name="tips"></a>İpuçları 
 
@@ -93,7 +93,7 @@ Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları]
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
 
-| Öne çıkan özelliği | Bilinen Sınırlama |
+| Özellik | Bilinen Sınırlama |
 |---------|---------|
 |İçerik:  Veri kümeleri   | Tam olarak bir veri kümesi bulunmalıdır. Yalnızca Power BI Desktop’ta oluşturulan veri kümelerine (.pbix dosyaları) izin verilir. <br>Desteklenmez: Diğer şablon uygulamalarından veri kümeleri, çalışma alanları arası veri kümeleri, sayfalandırılmış raporlar (.rdl dosyaları), Excel çalışma kitapları |
 |İçerik: Panolar | Gerçek zamanlı kutucuklara izin verilmez (diğer bir deyişle, veri kümelerini gönderme veya akış sağlama desteği yok) |

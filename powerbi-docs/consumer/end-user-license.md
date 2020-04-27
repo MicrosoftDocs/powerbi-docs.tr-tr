@@ -7,126 +7,135 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/27/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4615bae84ddeb3d3e0b3c471a6b9d6bcf7eda406
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267308"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066089"
 ---
-# <a name="types-of-power-bi-licenses"></a>Power BI lisanslarının türleri
+# <a name="using-the-power-bi-service-as-a-consumer"></a>Power BI hizmetini *tüketici* olarak kullanma
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-*Tüketici* olarak Power BI hizmetini iş kararları alma amacıyla raporları ve panoları keşfetmek için kullanırsınız. Power BI’ı bir süredir kullanıyor veya *tasarımcı* iş arkadaşlarınızla sohbetini yapıyorsanız bazı özelliklerin yalnızca belirli lisans veya abonelik türleriyle çalıştığının farkında olabilirsiniz. 
+[*Tüketici*](end-user-consumer.md) olarak Power BI hizmetini veri destekli iş kararları almak amacıyla raporları ve panoları keşfetmek için kullanırsınız. Power BI’ı bir süredir kullanıyor veya *tasarımcı* iş arkadaşlarınızla sohbetini yapıyorsanız, bazı özelliklerin yalnızca belirli lisans, abonelik veya izin türleriyle çalıştığını keşfetmiş olabilirsiniz. 
 
-Bu makalede, kullanıcı lisansları ve kuruluş abonelikleri arasındaki farklar ve bunların birlikte nasıl çalıştıkları açıklanmaktadır: ücretsiz, Pro, Premium ve Premium kapasite. Ayrıca hangi lisans ve abonelik bileşimini kullandığınızı bulmayı da öğreneceksiniz.  
-
-![lisansların nasıl bağlandığını gösteren diyagram](media/end-user-license/power-bi-venn.png)
-
-İlk olarak kullanıcı başına abonelikler ve kuruluş abonelikleri olmak üzere iki lisans kategorisini inceleyeceğiz. Başlangıç noktamız her bir abonelikle sağlanan varsayılan özellikler olacaktır. Ardından Power BI yöneticinizin ve içerik sahiplerinin rolleri ve izinleri kullanarak varsayılan lisans ve abonelik özelliklerini nasıl değiştirebileceğinizi de gözden geçireceğiz. 
-
-Örneğin lisansınız izin verse bile yöneticiniz verileri dışarı aktarma, Soru-Cevap doğal dil sorgularını kullanma veya web’de yayımlama gibi işleri yapma becerinizi sınırlayabilir. Ayrıca rapor *tasarımcısı* çalışma alanına içerik atadığında size de bir [çalışma alanı](end-user-workspaces.md) rolü atayabilir. Roller, söz konusu çalışma alanında neleri yapabileceğinizi ve neleri yapamayacağınızı belirler. *Tasarımcı* izin ayarlarını kullanarak lisansınızın sınırlarını daha ayrıntılı ayarlayabilir. Diğer bir deyişle...bu karmaşık bir durumdur. Neyse ki bu makalede karışıklığın tamamı değilse bile büyük çoğunluğu açıklanacaktır.
-
-## <a name="per-user-licenses"></a>Kullanıcı başına lisanslar
-İlk lisans türü, **kullanıcı başına** lisansdır. Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. Bazı özellikler Pro lisansına sahip kullanıcılara ayrılmıştır.  
-
-- **Power BI Pro lisansı (Premium abonelik olmadan)** kullanıcının içerik oluşturup paylaşarak Pro lisansına sahip olan diğer kullanıcılarla işbirliği yapmasını sağlar. Yalnızca Pro lisansına sahip olan kullanıcılar raporları yayımlayabilir, panolara ve raporlara abone olabilir ve çalışma alanlarında iş arkadaşlarıyla işbirliği yapabilir. 
-
-    ![pro lisansına sahip kullanıcıların resmi](media/end-user-license/power-bi-pro.jpg)
-
-    Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanan raporları ve panoları okumasını ve bunlarla etkileşimli çalışmasını sağlayan bireysel bir kullanıcı lisansıdır. Bu tür bir lisansa sahip kullanıcılar içerik paylaşabilir ve diğer Power BI Pro kullanıcılarıyla işbirliği yapabilir. Yalnızca Power BI Pro kullanıcıları içerik yayımlayabilir, diğer kullanıcılarla içerik paylaşabilir veya diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Bunun tek istisnası [Power BI Premium kapasitede](#understanding-premium-and-premium-capacity) barındırılan içeriktir. (Daha fazla bilgi için aşağıdaki [Power BI Premium kapasite](#understanding-premium-and-premium-capacity) bölümüne bakın.) Pro lisansları genellikle rapor *tasarımcıları*, geliştiriciler tarafından kullanılır. 
+Power BI hizmetinde neler yapabileceğiniz üç şeye bağlıdır:
+-    kullandığınız lisansın ve aboneliğin türü
+-    içeriğin depolandığı yer
+-    size atanan roller ve izinler
 
 
-- **Tek başına Power BI ücretsiz lisansı (Premium abonelik olmadan)** da önemli avantajlar sunar, ancak Power BI’ı kullanmaya yeni başlayan veya kendileri için içerik oluşturan kullanıcılara yöneliktir. Bkz. [Power BI hizmetine bireysel olarak kaydolma](../service-self-service-signup-for-power-bi.md).   
+![pro lisansına sahip kullanıcıların resmi](media/end-user-license/power-bi-questions-small.png)
 
-    Ücretsiz tek başına kullanıcı lisansı, Power BI'ı kullanmayı öğrenmek amacıyla Microsoft örneklerini kullanan kişiler için idealdir. Ücretsiz tek başına lisansına sahip olan kullanıcılar, başkaları tarafından paylaşılan içeriği görüntüleyemez ve kendi içeriklerini diğer Power BI kullanıcılarıyla paylaşamaz. 
+Bu makalede, her bir lisans türünün özellikleri ve *içeriğin depolandığı yerin* *bununla neler yapabileceğinizi* nasıl etkileyebileceği açıklanmaktadır. Ayrıca, lisansınızın ve aboneliğinizin nasıl aranacağını ve içeriğinizin nerede depolandığını öğreneceksiniz. Roller ve izinler hakkında daha fazla bilgi için bkz. [çalışma alanı rolleri](end-user-workspaces.md).
 
-    ![tek başına lisansı kullanıcılarının resmi](media/end-user-license/power-bi-free-license.jpg)
+## <a name="licenses"></a>Lisanslar
 
-    Ücretsiz bir tek başına lisansa sahip tüm müşteriler, [ücretsiz Power BI Pro lisans deneme sürümüne](../service-self-service-signup-for-power-bi.md) yükseltebilir. Deneme sürümü, Power BI Pro kullanıcısının sahip olduğu tüm gücün ve işlevselliği sağlar.
+Her Power BI hizmeti kullanıcısı bir *ücretsiz* lisans veya *Pro* lisansı kullanır. Power BI *tüketicisiyseniz*, büyük olasılıkla yöneticiniz tarafından yönetilen ücretsiz bir lisans kullanıyorsunuz demektir. 
 
-    ![Pro deneme sürümüne davet](media/end-user-license/power-bi-pro-trial.png)
+Aynı anda birden fazla lisansa sahip olmak mümkündür.  Hizmet her zaman şu anda sahip olduğunuz en iyi lisansa eşit bir deneyim sunar. 
 
-- **Premium abonelik ile Power BI ücretsiz lisansı**: Bir kuruluşun Premium aboneliği olduğunda, yöneticiler ve Pro kullanıcıları *Premium kapasiteye* çalışma alanları atayabilir ve bu çalışma alanları için kullanıcılara ücretsiz erişim izni verebilir. Premium kapasite içindeki çalışma alanı Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşabilecekleri ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro hesapları olması gerekmez. Ücretsiz kullanıcılar bu çalışma alanlarında yükseltilmiş izinlere sahiptir. İşbirliği ve paylaşım yapabilir, verileri dışarı aktarabillir, abone olabilir, filtrelerle etkileşim kurabilir ve çok daha fazlasını gerçekleştirebilirler. 
+## <a name="power-bi-premium-capacity"></a>Power BI Premium kapasitesi
 
-Buraya kadar her şey net mi?  Tamam. **Premium kapasiteye** daha yakından bakalım.
+Premium, içeriğin depolanması için farklı bir yol sağlayan bir kurumsal aboneliktir: ayrılmış kapasitede. Premium ile kuruluşunuzun içindeki veya dışındaki herkes tek tek Power BI Pro lisansı satın almadan Power BI içeriğinizi görüntüleyebilir. 
 
-## <a name="understanding-premium-and-premium-capacity"></a>Premium’u ve Premium kapasiteyi anlama
-Premium bir **kuruluş** aboneliğidir. Bunu, kuruluş içindeki tüm Power BI **kullanıcı başına** lisanslarının üzerine eklenen özellikler ve işlevlerden oluşan bir katman olarak düşünebilirsiniz. 
+Premium ayrıca içeriği görüntüleyen alıcılarda Pro lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar. İçerik tasarımcıları için Pro lisansları gerekir. Tasarımcılar veri kaynaklarına bağlanır, verileri modeller ve çalışma alanı uygulamaları olarak paketlenen raporlar ve panolar oluşturur. Pro lisansı olmayan kullanıcı Görüntüleyici rolüne sahip olduğu sürece Power BI Premium kapasitesindeki çalışma alanına yine de erişebilir.
 
-Kuruluş Premium lisansı satın aldığında, yönetici genellikle içerik oluşturacak ve paylaşacak olan çalışanlara Pro lisansları atar. Yönetici ayrıca bu içeriği tüketecek olan herkese ücretsiz lisans atar. Pro kullanıcıları [uygulama çalışma alanları](end-user-workspaces.md) oluşturur ve bu çalışma alanlarına içerik (panolar, raporlar, uygulamalar) ekler. Ücretsiz kullanıcıların bu çalışma alanlarında işbirliği yapmasına olanak sağlamak için yönetici veya Pro kullanıcı, çalışma alanlarını *Premium kapasiteye* kaydeder. 
+Bu çalışma alanları içinde, tasarımcılar iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirleyen **Görüntüleyici**, **Katkıda bulunan**, **Üye** ve **Yönetici** gibi roller atayabilir. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
 
-Bir kuruluş Premium lisansı satın aldığında, Power BI hizmetinde yalnızca kendisine ayrılmış bir kapasite sahibi olur. Bunlar, diğer kuruluşlarla paylaşılmaz. Kapasite tamamen Microsoft tarafından yönetilen adanmış donanımlarla desteklenir. Kuruluşlar ayrılmış kapasitelerini kapsamlı olarak uygulamayı seçebilir veya bu kapasiteyi belirli çalışma alanlarına ayırabilir. Kuruluşlar tüm çalışma alanlarını veya bir kısmını kapasitede tutabilir. Bir çalışma alanının Premium kapasitede olup olmadığını elmas simgesinden ayırt edebilirsiniz ![elmas simgesi](media/end-user-license/power-bi-diamond.png).  Premium kapasite içindeki çalışma alanı Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşabilecekleri ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro hesapları olması gerekmez. 
+Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../service-premium-what-is.md).
 
-Yine de Premium kapasitede içerik tasarımcıları için Pro lisansları gerekir. Tasarımcılar uygulama çalışma alanları oluşturma, veri kaynaklarına bağlanma ve verileri modellemenin yanı sıra, paketlenip uygulama olarak paylaşılan veya doğrudan paylaşılan raporlar ve panolar oluşturur. Pro lisansı olmayan kullanıcılar, çalışma alanı Premium *kapasitede* yer aldığı ve çalışma alanı sahibi onlara izin verdiği sürece Power BI Premium’daki uygulama çalışma alanına erişebilir.
 
-Aşağıdaki diyagramın sol tarafında, uygulama çalışma alanlarında içerik oluşturan ve paylaşan Pro kullanıcıları gösterilir. 
+## <a name="find-out-which-licenses-you-have"></a>Sahip olduğunuz lisansları öğrenme
 
-- **Çalışma Alanı A**, Premium aboneliği olmayan bir kuruluşta oluşturulmuştur. 
+Size atanan lisansları görmek için [Microsoft **Hesabım** sayfanızı](https://portal.office.com/account) ziyaret edin.  **Abonelikler** sekmesini seçin.
 
-- **Çalışma Alanı B**, Premium aboneliği olan bir kuruluşta oluşturulmuş ancak bu çalışma alanı Premium kapasiteye kaydedilmemiştir. Çalışma alanı adının yanında baklava simgesi yoktur.
 
-- **Çalışma Alanı C**, Premium aboneliği olan bir kuruluşta oluşturulmuş ve Premium kapasiteye kaydedilmiştir. Bu çalışma alanının baklama simgesi vardır.  
+Bu ilk kullanıcı olan Pradtanna, Power BI Pro lisansı içeren Office 365 E5 aboneliğine sahiptir.
 
-![pro lisansına sahip kullanıcıların resmi](media/end-user-license/power-bi-sharing-scenarios.jpg)
+![Office portalı Abonelikler sekmesi](media/end-user-license/power-bi-license-office.png)
 
-Power BI Pro *tasarımcısı* bu üç çalışma alanından herhangi birinde diğer Pro kullanıcılarıyla içerik paylaşıp işbirliği yapabilir. Yalnız bunun için tasarımcının çalışma alanını tüm kuruluşla paylaşması veya Pro kullanıcılarına çalışma alanı rolleri ataması gerekir. 
+İkinci kullanıcı olan Zalan ise ücretsiz Power BI lisansına sahiptir. 
 
-Power BI Pro kullanıcısı ücretsiz lisans kullanıcılarıyla paylaşmak ve işbirliği yapmak için yalnızca Çalışma Alanı C adlı çalışma alanını kullanabilir. Ücretsiz lisans kullanıcılarının çalışma alanına erişebilmesi için çalışma alanının Premium kapasiteye atanmış olması gerekir. Çalışma alanı içinde tasarımcı işbirliği yaptığı kullanıcılara roller atar: *Yönetici*, *Üye*, *Katkıda Bulunan* veya *Görüntüleyici*. Çalışma alanı içinde yapabileceğiniz eylemler rolünüz tarafından belirlenir. Power BI *tüketicilerine* genellikle *Görüntüleyici* rolü atanır. Daha fazla bilgi edinmek için bkz. [Power BI tüketicileri için çalışma alanları](end-user-workspaces.md).
+![Office portalı Abonelikler sekmesi](media/end-user-license/power-bi-license-free.png)
 
-## <a name="find-out-which-license-and-subscription-you-have"></a>Hangi lisans ve aboneliğe sahip olduğunuzu öğrenme
-Power BI lisans ve abonelik bilgilerinizi bulmanın birkaç yolu vardır. 
+## <a name="find-out-if-you-have-access-to-premium-capacity"></a>Premium kapasiteye erişiminiz olup olmadığını öğrenin
 
-İlk olarak sahip olduğunuz **kullanıcı** lisansının türünü belirleyin.
+Ardından, Premium kapasiteye sahip bir kuruluşun parçası olup olmadığınızı kontrol edin. Yukarıdaki kullanıcılardan herhangi biri (Pro veya ücretsiz), Premium kapasiteye sahip olan bir kuruluşa bağlı olabilir.  İkinci kullanıcı olan Zalan'ı denetleyelim.  
 
-- Microsoft Office'in bazı sürümleri Power BI Pro lisansı sunar.  Office sürümünüzün Power BI hizmetini içerip içermediğini görmek için [Office portalını](https://portal.office.com/account) ziyaret edin ve **Abonelikler**'i seçin.
-
-    Bu ilk kullanıcı olan Pradtanna, Power BI Pro lisansı içeren Office 365 E5 aboneliğine sahiptir.
-
-    ![Office portalı Abonelikler sekmesi](media/end-user-license/power-bi-license-office.png)
-
-    İkinci kullanıcı olan Zalan ise ücretsiz Power BI lisansına sahiptir. 
-
-    ![Office portalı Abonelikler sekmesi](media/end-user-license/power-bi-license-free.png)
-
-Ardından hesabınızın Premium aboneliğin bir parçası olup olmadığını denetleyin. Yukarıdaki kullanıcılardan herhangi biri (Pro veya ücretsiz), Premium lisansına sahip olan bir kuruluşa bağlı olabilir.  İkinci kullanıcı olan Zalan'ı denetleyelim.  
+Zalan’ın kuruluşunun, kullanılabilir depolama alanı miktarına bakarak Premium kapasiteye sahip olup olmadığını belirleyebiliriz. 
 
 - Power BI hizmetinde **Çalışma alanım**'ı ve ardından sağ üst köşedeki dişli simgesini seçin. **Kişisel depolama alanını yönet**'i seçin.
 
     ![Dişli/Ayarlar menüsü](media/end-user-license/power-bi-license-personal.png)
 
-    **Kullanıcı Başına** lisansları (Pro veya ücretsiz), bulutta Power BI raporlarını veya Excel çalışma kitaplarını barındırmak için kullanılabilecek 10 GB depolama alanı sunar. Sahip olduğunuz alanın 10 GB'ın üzerinde olması, Premium lisansına sahip bir kuruluş hesabının üyesi olduğunuzu gösterir.
+    10 GB'ın üzerinde olduğunu görürseniz, Premium aboneliğine sahip bir kuruluşun üyesisiniz demektir. Aşağıdaki görüntüde, Zalan’ın kuruluşunun en fazla 100 GB depolama alanına sahip olduğu gösterilmektedir.  
 
-    ![100 GB alan gösteren Kişisel depolama alanını yönet penceresi](media/end-user-license/power-bi-free-capacity.png)
+    ![100 GB alan gösteren depolama alanını yönetme](media/end-user-license/power-bi-free-capacity.png)
 
-    Office portalı sayfasında Zalan’ın kullanıcı lisansının Power BI (ücretsiz) olduğunu hatırlayın. Ancak kuruluşu Premium abonelik satın aldığı için Zalan, Power BI hizmetinde 10 GB depolama alanıyla sınırlı değildir; 100 GB kullanabilir. Premium lisansına sahip bir kuruluştaki bir *tüketici* olarak, *tasarımcı* çalışma alanını Premium kapasiteye eklediği sürece Zalan paylaşılan içeriği görüntüleme, iş arkadaşlarıyla işbirliği yapma ve uygulamalarla çalışma gibi işlemleri yapabilir. İzinlerinin kapsamı, Power BI yöneticisi ve içerik tasarımcısı tarafından belirlenir. Bir Pro kullanıcısının Zalan ile zaten bir çalışma alanı paylaştığına dikkat edin. Baklava simgesi sayesinde çalışma alanının Premium kapasitede depolandığını anlıyor. 
+Bir Pro kullanıcısının Zalan ile zaten bir çalışma alanı paylaştığına dikkat edin. Baklava simgesi, bu çalışma alanının Premium kapasitede depolandığını gösterir. 
+
+## <a name="identify-content-hosted-in-premium-capacity"></a>Premium kapasitede barındırılan içeriği belirleme
+
+Kuruluşunuzun Premium kapasiteye sahip olup olmadığını bulmanın bir diğer yolu da, baklava simgesine sahip uygulamaları ve uygulama çalışma alanlarını aramaktır. Baklava simgesi, içeriğin Premium kapasitede depolandığını gösterir. 
+
+Aşağıdaki görüntüde, uygulamaların üçü Premium kapasitede depolanır.
+
+![Uygulamalar ekranı](media/end-user-license/power-bi-premium.png)
+
+    
+Bir *tüketici* olarak, *tasarımcı* çalışma alanını ayrılmış Premium kapasiteye eklediği sürece, **bu çalışma alanı içinde** paylaşılan içeriği görüntüleme, iş arkadaşlarıyla işbirliği yapma ve uygulama panolarıyla ve raporlarıyla çalışma gibi işlemleri yapabilirsiniz. İzinlerinin kapsamı, Power BI yöneticiniz ve içerik tasarımcısı tarafından belirlenir. 
 
    
-## <a name="understanding-workspace-roles"></a>Çalışma alanı rollerini anlama
-Şimdiye kadar kullanıcı başına lisansları, Premium abonelikleri, uygulama çalışma alanlarını ve Premium kapasiteyi gözden geçirdik. Şimdi de çalışma alanı *rollerine* bakalım.
 
-Bu Power BI *tüketicilerine* yönelik bir makale olduğundan şöyle bir senaryomuz var:
+## <a name="putting-it-all-together"></a>Hepsini bir araya getirme
 
--  Power BI Premium aboneliğine sahip bir kuruluşta *ücretsiz* lisansı olan bir kullanıcısınız. 
-- Power BI Pro kullanıcısı bir pano ve rapor koleksiyonu oluşturdu, ardından bu koleksiyonu tüm kuruluşunuzla *uygulama* olarak paylaştı.  
-- Uygulamalar *çalışma alanları* içinde ve bu çalışma alanı da Premium kapasitede yer alıyor.    
-- Bu uygulama çalışma alanının bir panosu ve iki raporu var.
-- Pro kullanıcısı bize **Görüntüleyici** rolü atadı.
+Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapasitede çalışarak içerik oluşturacak ve paylaşacak olan çalışanlara Pro lisansları atar. Yönetici ayrıca bu içeriği tüketecek olan herkese ücretsiz lisans atar. Pro kullanıcıları [uygulama çalışma alanları](end-user-workspaces.md) oluşturur ve bu çalışma alanlarına içerik (panolar, raporlar, uygulamalar) ekler. Ücretsiz kullanıcıların bu çalışma alanlarında işbirliği yapmasına olanak sağlamak için yönetici veya Pro kullanıcı, çalışma alanlarını *ayrılmış kapasiteye* atar.    
+<br>
 
-### <a name="the-viewer-role"></a>Görüntüleyici rolü
-Roller Power BI *tasarımcılarının* çalışma alanında kimlerin neler yapabileceğini yönetmesini sağlar ve bu sayede ekipler işbirliği yapabilir. Bu rollerden biri de **Görüntüleyici** rolüdür. 
+|Lisans türü  |paylaşılan kapasite  |ayrılmış kapasite  |
+|---------|---------|---------|
+|**Ücretsiz**     |  Kendiniz için içerik oluşturduğunuz ve bu içerikle etkileşime girdiğiniz kişisel bir korumalı alan olarak kullanım için. Bu, Power BI hizmetini denemeniz için harika bir yoldur. Başka birisinden içerik tüketmez veya içeriğinizi başkalarıyla paylaşamazsınız <sup>1</sup>     |   Ayrılmış kapasiteye atanan ve sizinle paylaşılan içerikle etkileşime girin. Ücretsiz ve Pro kullanıcıları, ücretsiz kullanıcıların Pro hesaplarına sahip olması gerekmeden işbirliği yapabilir.      |
+|**Pro**     |  İçerik oluşturup paylaşarak diğer Pro kullanıcılarıyla işbirliği yapın.        |  İçerik oluşturup paylaşarak ücretsiz ve Pro kullanıcılarıyla işbirliği yapın.       |
 
-Çalışma alanı Power BI Premium kapasitesinde olduğunda, Görüntüleyici rolüne sahip kullanıcılar Power BI Pro lisansları olmasa bile çalışma alanına erişebilir. Görüntüleyici rolü temel verilere erişemediğinden veya bu verileri dışarı aktaramadığından panolar, raporlar ve uygulamalarla etkileşim kurmak güvenli bir yoldur.
 
-> [!TIP]
-> Diğer roller (Yönetici, Üye ve Katkıda Bulunan) hakkında bilgi edinmek için bkz. [Yeni çalışma alanı oluşturma](../service-new-workspaces.md).
+<sup>1</sup> Bkz. [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting). 
+
+Aşağıdaki diyagramın sol tarafında, uygulama çalışma alanlarında içerik oluşturan ve paylaşan Pro kullanıcıları gösterilir. 
+
+- **Çalışma Alanı A**, Premium kapasitesi olmayan bir kuruluşta oluşturulmuştur. 
+
+- **Çalışma Alanı B**, Premium aboneliği olan bir kuruluşta oluşturulmuş ve ayrılmış kapasiteye kaydedilmiştir. Bu çalışma alanının baklava simgesi vardır.  
+
+    ![üç çalışma alanının görüntüsü](media/end-user-license/power-bi-dedicated.jpg)
+
+Power BI Pro *tasarımcısı* bu üç çalışma alanından herhangi birinde diğer Pro kullanıcılarıyla içerik paylaşıp işbirliği yapabilir. Ancak, Power BI Pro kullanıcısının ücretsiz kullanıcılarla paylaşım ve işbirliği yapabileceği tek yol, Premium ayrılmış kapasitede olan Çalışma Alanı B’yi kullanmaktır.  Çalışma alanı içinde tasarımcı işbirliği yaptığı kullanıcılara roller atar. Çalışma alanı içinde yapabileceğiniz eylemler rolünüz tarafından belirlenir. Power BI *tüketicilerine* genellikle *Görüntüleyici* rolü atanır. Roller hakkında daha fazla bilgi edinmek için bkz. [Power BI tüketicileri için çalışma alanları](end-user-workspaces.md).
+
+
+
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+- Birden fazla Power BI lisansına sahip olmak mümkündür. Power BI hizmeti her zaman şu anda sahip olduğunuz en iyi lisansa eşit olan deneyimi sunar. Örneğin, hem Pro hem de ücretsiz lisansa sahipseniz, Power BI hizmeti Pro lisansını kullanır.
+
+- İçerik (panolar, raporlar, uygulamalar) paylaşmak ve oluşturmak istiyorsanız, bir Power BI *tüketicisi* yerine *tasarımcı* olabilirsiniz. Bir Pro kullanıcı lisansına geçiş yapmayı düşünün. Bir Pro özelliğini her kullanma girişiminizde Power BI hizmetinde görünen yükseltme iletişim kutusunu seçerek Power BI Pro’nun 60 günlük ücretsiz bireysel deneme sürümüne kaydolabilirsiniz.
+
+    ![Pro deneme sürümü bağlantısına sahip iletişim kutusu](media/end-user-license/power-bi-trial.png)
+
+  60 günlük deneme süresi sona erdiğinde, lisansınız Power BI ücretsiz lisansına geri döner. Bu gerçekleştikten sonra, artık Power BI Pro lisansı gerektiren özelliklere erişemezsiniz. Bir Pro lisansına devam etmek istiyorsanız, Power BI Pro lisansı satın alma hakkında yöneticinize başvurun. Bir yöneticiniz yoksa, [Power BI fiyatlandırma sayfasını](https://powerbi.microsoft.com/pricing/) ziyaret edin.     
+
+
+- Ücretsiz lisansa kaydolduysanız, bu lisansın süresi dolmaz. Bu nedenle bir Pro denemesine yükseltirseniz veya kuruluşunuz size bir Pro lisansı sağlarsa ve sonra deneme süreniz biterse veya kuruluşunuz Pro lisansınızı kaldırırsa, siz veya bir yönetici lisansı iptal etmediği sürece yine de ücretsiz lisansa sahip olmanız gerekir. 
+
+- <sup>1</sup> Power BI hizmeti için ücretsiz bir kullanıcı lisansı, keşfeden veya lisansı **Çalışma alanım** ile kişisel veri analizi ve görselleştirmeler amacıyla kullanan kişiler için mükemmeldir. Ücretsiz bir kullanıcı, iş arkadaşlarıyla işbirliği yapmak için Power BI kullanmıyor. Ücretsiz lisansa sahip olan kullanıcılar, başkaları tarafından paylaşılan içeriği görüntüleyemez ve kendi içeriklerini diğer Power BI kullanıcılarıyla paylaşamaz. 
+
+    ![tek başına lisansı kullanıcılarının resmi](media/end-user-license/power-bi-free-license.jpg)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Bir Power BI *tüketicisi* miyim?](end-user-consumer.md)    
-[Çalışma alanları hakkında bilgi edinin](end-user-workspaces.md)    
-<!--[View Power BI features by license type](end-user-features.md) -->
-
+- [Bir Power BI *tüketicisi* miyim?](end-user-consumer.md)    
+- [Çalışma alanları hakkında bilgi edinin](end-user-workspaces.md)    
+- [Lisans türüne göre Power BI tüketici özelliklerini görüntüleme](end-user-features.md)

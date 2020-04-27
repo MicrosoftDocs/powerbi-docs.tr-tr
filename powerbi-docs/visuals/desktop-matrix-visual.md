@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576851"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637864"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -57,7 +57,8 @@ Matrisin genişletme durumu raporunuzla birlikte kaydedilir. Matris, genişletil
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Çok boyutlu bir Analysis Services modelini temel alarak rapor oluşturuyorsanız, modelin Varsayılan Üye özelliğini kullanması durumunda genişletme/daraltma için dikkat edilmesi gereken bazı özel unsurlar vardır. Daha fazla bilgi edinmek için bkz. [Power BI’da çok boyutlu modellerle çalışma](../desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya gitme özelliğini kullanma
 Matris görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici detaya gitme etkinliğini gerçekleştirebilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.

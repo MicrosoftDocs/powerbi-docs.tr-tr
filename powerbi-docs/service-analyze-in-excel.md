@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427703"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675676"
 ---
 # <a name="analyze-in-excel"></a>Excel’de Analiz Et
 Bazen Power BI'daki bir veri kümenizi görüntülemek ve veri kümesiyle etkileşim kurmak için Excel kullanmak isteyebilirsiniz. **Excel'de Çözümle** sayesinde tam olarak bunu yapabilirsiniz. Power BI'da bulunan veri kümesindeyken Excel'in PivotTable, grafik ve dilimleyici özelliklerine erişebilirsiniz.
@@ -68,9 +68,7 @@ Tarayıcınız üzerinden Power BI'da oturum açmış olsanız da ilk kez Excel'
 ### <a name="users-with-multiple-power-bi-accounts"></a>Birden çok Power BI hesabı olan kullanıcılar
 Bazı kullanıcıların birden fazla Power BI hesabı olabilir. Bu kullanıcılar, bir hesaplarıyla Power BI'da oturum açmışken, Excel'de Çözümle'de kullanılan veri kümesine erişimin diğer hesaplarında olduğu durumlar yaşayabilir. Bu durumlarda, bir **Yasak** hatası ya da Excel'de Çözümle'de kullanılmakta olan bir veri kümesine erişim sağlamaya çalışırken oturum açma hatası alabilirsiniz.
 
-Yeniden oturum açma fırsatı size sağlanacaktır. Bu fırsat sağlandığında, Excel'de Çözümle'nin erişmekte olduğu veri kümesine erişimi olan Power BI hesabınızla oturum açabilirsiniz. Excel'deki **Power BI** şerit sekmesinden **Profil**'i seçebilirsiniz. Bu sizin hangi hesapla oturum açmış olduğunuzu tanımlar ve oturumu kapatmanız (ve daha sonra başka bir hesapla oturum açmanız) için gerekli bağlantıyı sunar. Henüz yüklemediyseniz [Excel için Power BI yayıncısını indirebilirsiniz](https://www.microsoft.com/download/details.aspx?id=50729). Excel’de Power BI şeridi bu şekilde yüklenir.
-
-![Profilinizi görüntüleme](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+Yeniden oturum açma fırsatı size sağlanacaktır. Bu fırsat sağlandığında, Excel'de Çözümle'nin erişmekte olduğu veri kümesine erişimi olan Power BI hesabınızla oturum açabilirsiniz. Ayrıca Excel'deki üst şeritte, şu anda oturum açtığınız hesabı belirleyen adınızı da seçebilirsiniz. Oturumu kapatın ve farklı bir hesap ile oturum açın.
 
 ### <a name="enable-data-connections"></a>Veri bağlantılarını etkinleştirme
 Power BI verilerinizi Excel'de çözümlemek için .odc dosyasının adını ve yolunu doğruladıktan sonra **Etkinleştir**'i seçmeniz istenir.

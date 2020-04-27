@@ -6,33 +6,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: eefae2b230bf087635b79ed4645a9297b7194edd
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 410058cad59fdf134b54b45754ef06c0d382c4ef
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525649"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439952"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
 >[!IMPORTANT]
->Power BI Pro lisansına yükseltmeye hazır mısınız? Hesabınızı ayarlamak için doğrudan [Power BI Pro’yu kullanmaya başlama](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) sayfasına gidin.
+>Bu makale yöneticiler içindir. Power BI Pro lisansına yükseltmeye hazır mısınız? Hesabınızı ayarlamak için doğrudan [Power BI Pro’yu kullanmaya başlama](https://go.microsoft.com/fwlink/?LinkId=2106428&clcid=0x409&cmpid=pbidocs-purchasing-power-bi-pro) sayfasına gidin.
 
-Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanan raporları ve panoları okumasını ve bunlarla etkileşimli çalışmasını sağlayan bireysel bir kullanıcı lisansıdır. Bu tür bir lisansa sahip kullanıcılar içerik paylaşabilir ve diğer Power BI Pro kullanıcılarıyla işbirliği yapabilir. Yalnızca Power BI Pro kullanıcıları içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
+Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafından yayımlanan raporları ve panoları okumasını ve bunlarla etkileşimli çalışmasını sağlayan bireysel bir kullanıcı lisansıdır. Bu tür bir lisansa sahip kullanıcılar içerik paylaşabilir ve diğer Power BI Pro kullanıcılarıyla işbirliği yapabilir. Yalnızca Power BI Pro kullanıcıları içerik yayımlayabilir veya diğer kullanıcılarla içerik paylaşabilir ya da içerik bir Power BI Premium kapasitesinde barındırılmadığı sürece diğer kullanıcılar tarafından oluşturulan içeriği tüketebilir. Kullanılabilir lisans ve abonelik türleri hakkında daha fazla bilgi için bkz. [Kuruluşunuzda Power BI lisanslama](service-admin-licensing-organization.md).
 
 ## <a name="purchase-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma
 
 Bu makalede Microsoft 365 yönetim merkezinde Power BI Pro kullanıcı lisanslarının nasıl satın alınacağı açıklanır. Lisansları satın aldıktan sonra, Microsoft 365 yönetim merkezinde veya Azure portalında bunları kullanıcılara atayabilirsiniz.
 
 > [!NOTE]
-> 14 Ocak 2020’den itibaren ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi edinmek ve kuruluşunuzda self servis satın alma özelliğini etkinleştirmeyi veya devre dışı bırakmayı öğrenmek için bkz. [Self servis satın alma ile ilgili SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq).
+> 14 Ocak 2020’den itibaren ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi için bkz. [Self servis satın alma hakkında SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Self servis satın alma özelliklerini etkinleştirmek veya devre dışı bırakmak için, bkz. [Self servis kaydolma ve satın alma özelliklerini etkinleştirme veya devre dışı bırakma](admin/service-admin-disable-self-service.md).
 
 ### <a name="prerequisites"></a>Önkoşullar
 
-Microsoft 365 yönetim merkezinde lisans satın alıp atamak için Microsoft 365’te **[Genel yönetici veya Faturalama yöneticisi](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** rolünün üyesi olmanız gerekir.
+Microsoft 365 yönetim merkezinde lisans satın alıp atamak için Microsoft 365’te [genel yönetici veya Faturalama yöneticisi](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) rolünün bir üyesi olmanız gerekir.
 
 Azure portalında lisansları atamak için, Power BI'ın Azure Active Directory aramalarında kullandığı Azure aboneliğinin sahibi olmanız gerekir.
 
@@ -80,10 +80,10 @@ Bireysel kullanıcı hesaplarına Power BI Pro lisansları atamak için şu adı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Lisansları atadıktan sonra Power BI Pro hakkında daha fazla bilgi edinebilirsiniz.
+- [Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md)
 
-[Kuruluşunuzda Power BI lisansları](service-admin-licensing-organization.md)
+ - [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md)
 
-[Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md)
+ - [Power BI’a bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

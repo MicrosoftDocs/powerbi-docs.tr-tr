@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881382"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637835"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
-Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Daha basit olan yeni görünüm diğer Microsoft ürünlerine yönelik bilgilerinizi temel alır. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
+Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Daha basit olan yeni görünüm diğer Microsoft ürünlerine yönelik bilgilerinizi temel alır. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. 
+
+**Power BI Desktop**’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](desktop-ribbon.md) bölümüne bakın.
+
+İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
 
 ![Değişikliklere yeni genel bakış](media/service-new-look/power-bi-new-look-changes.png)
 
-Belirli bir eylemi mi arıyorsunuz? [‘Yeni görünüm’: Eylemler nereye gitti?](service-new-look-where-actions.md) bölümüne bakın
+Belirli bir eylemi mi arıyorsunuz? [‘Yeni görünüm’: Eylemler nereye gitti?](service-new-look-where-actions.md) bölümüne bakın.
 
 ## <a name="quick-tour-of-the-changes"></a>Değişikliklerin hızlı turu
 
@@ -87,4 +91,6 @@ Yazma deneyimini Desktop’taki deneyime benzer şekilde bıraktık. Yeni görü
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Tüketiciler için Power BI](consumer/end-user-consumer.md)
+- [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](desktop-ribbon.md)
+- [Çalışma alanının ‘yeni görünümünü’ kabul etme](collaborate-share/service-workspaces-new-look.md)
+- [Tüketiciler için Power BI](consumer/end-user-consumer.md)

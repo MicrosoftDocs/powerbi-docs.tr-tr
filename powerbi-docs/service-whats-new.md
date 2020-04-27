@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488856"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439860"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -29,11 +29,41 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>Nisan 2020
+* Power BI hizmetindeki çalışma alanlarının 'yeni görünüm' genel önizlemesi.
+* [Power BI uygulamalar](service-create-distribute-apps.md) için özel gezinti tasarlama özelliğinin genel kullanılabilirliği.
+
+## <a name="previous-months-2020"></a>Önceki aylar (2020)
+### <a name="march-2020"></a>Mart 2020
+* Power BI REST API’lerini kullanarak raporları PDF, PPTX ve PNG dosyalarına aktarın.
+* Power BI hizmetinde yeni ve geliştirilmiş genel arama deneyimi.
+* [Multi-Geo Premium kapasitelerine](service-admin-premium-multi-geo.md) yönelik performans geliştirmeleri.
+* Power BI Premium’da [XMLA uç noktalarını okuma/yazma](service-premium-connect-tools.md) özelliğinin genel önizlemesi.
+
+### <a name="february-2020"></a>Şubat 2020
+* Power BI Giriş sayfasında panoları, raporları ve uygulamaları öne çıkarma olanağı.
+* Microsoft Teams’e rapor eklemeyi sağlayan yeni [Power BI sekmesi](service-embed-report-microsoft-teams.md).
+* Power BI Pro kullanıcıları desteğine sahip [artımlı yenileme](service-premium-incremental-refresh.md) özelliğinin genel kullanılabilirliği.
+* Dış e-posta adresleri için e-posta abonelikleri desteği.
+* Power BI Premium için [Kendi Anahtarını Getir (BYOK)](service-encryption-byok.md) özelliğinin genel kullanılabilirliği.
+
+### <a name="january-2020"></a>Ocak 2020
+* Power BI çalışma alanı deneyimi için yeni ve geliştirilmiş [kullanım ölçümleri](service-usage-metrics.md).
+
+## <a name="2019"></a>2019
+### <a name="december-2019"></a>Aralık 2019
+* Power BI hizmeti yöneticilerinin kiracılarındaki kullanıcı ve yönetici etkinliklerini izlemesini sağlayan yeni etkinlik günlüğü API’si.
+
+### <a name="november-2019"></a>Kasım 2019
+* [Power BI Premium'daki büyük modeller] genel önizlemesi (service-premium-large-models.md].
+* Power BI’da Microsoft bulut uygulaması güvenlik denetimlerini kullanma özelliğinin genel önizlemesi.
+
 ### <a name="october-2019"></a>Ekim 2019
 * Power BI veri kümelerini yenilemek için yeni Power Automate eylemi.
 * Power BI hizmetinde raporlar ve panolar için [Kişi listesi](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/).
+* [Otomatik Makine Öğrenmesi] özelliğinin genel kullanılabilirliği (service-machine-learning-automated
+* Power BI veri kökeni görünümünün genel önizlemesi.
 
-## <a name="previous-months-2019"></a>Önceki aylar (2019)
 ### <a name="september-2019"></a>Eylül 2019
 * [Şablon uygulamaları](service-template-apps-overview.md) için bağlantı yapılandırması güncelleştirmeleri.
 

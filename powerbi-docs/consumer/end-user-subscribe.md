@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bfec81aaa47f210855c4db4c8c97ab259b685110
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302446"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525457"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -33,7 +33,7 @@ Aldığınız e-postanın "rapora veya panoya git" bağlantısı içerdiğini g�
 
 
 ## <a name="requirements"></a>Gereksinimler
-Kendinize abonelik **oluşturmanız** için belirli bir [lisans](end-user-license.md) türü gerekir. Abonelik oluşturamıyorsanız Power BI yöneticinize başvurun. **Başkalarını abone yapma** yalnızca pano veya rapor sahibi tarafından kullanılabilir. Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntılar için bkz.  [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md) . 
+Kendinize abonelik **oluşturmanız** için belirli bir [lisans](end-user-license.md) türü gerekir. Abonelik oluşturamıyorsanız Power BI yöneticinize başvurun. **Başkalarını abone yapma** yalnızca pano veya rapor sahibi tarafından kullanılabilir. Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Bir panoya veya rapor sayfasına abone olma
 Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
@@ -55,9 +55,9 @@ Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullan
 
     c. İsterseniz bir konu ekleyin ve e-posta iletisinin ayrıntılarını doldurun. 
 
-    d. Aboneliğiniz için **Sıklık** seçin.  Günlük, Haftalık veya Veri yenilemesinden sonra (Günlük) seçeneğini belirtebilirsiniz.  Abonelik e-postasını yalnızca belirli günlerde almak için, **Haftalık** seçin ve hangi günler almak istediğinizi belirtin.  Örneğin, abonelik e-postasını yalnızca iş günleri almak istiyorsanız, sıklık olarak **Haftalık** seçin ve Cts ile Paz kutularının işaretini kaldırın.   **Aylık** seçeneğini belirlerseniz abonelik e-postalarını ayın hangi günlerinde almak istediğinizi belirtin.   
+    d. Aboneliğiniz için **Sıklık** seçin.  Günlük, Haftalık veya Veri yenilemesinden sonra (Günlük) seçeneğini belirtebilirsiniz.  Abonelik e-postasını yalnızca belirli günlerde almak için, **Haftalık** seçin ve hangi günler almak istediğinizi belirtin.  Örneğin, abonelik e-postasını yalnızca iş günleri almak istiyorsanız, sıklık olarak **Haftalık** seçin ve Cts ile Paz kutularının işaretini kaldırın. **Aylık** seçeneğini belirlerseniz, abonelik e-postalarını ayın hangi günlerinde almak istediğinizi belirtin.   
 
-    e. Günlük, Saatlik, Aylık veya Haftalık’ı seçerseniz abonelik için Zamanlanan Saat’i de seçebilirsiniz. Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz. Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz. Saatlik’i seçerseniz aboneliğin başlamasını istediğiniz Zamanlanan Saati belirleyin. E-posta, bu ayardan sonraki her saat çalışır.  
+    e. Günlük, Saatlik, Aylık veya Haftalık’ı seçerseniz, abonelik için Zamanlanan Saat’i de seçebilirsiniz. Bir saat ya da 15, 30 veya 45 dakika geçince çalıştırabilirsiniz. Sabah (AM) veya öğleden sonra/akşam (PM) ayarını seçin. Saat dilimini de belirtebilirsiniz. Saatlik’i seçerseniz aboneliğin başlamasını istediğiniz Zamanlanan Saat’i belirtin. E-posta, bu ayardan sonraki her saat çalışır.  
 
     f. Tarih alanlarına tarih girerek başlangıç ve bitiş tarihlerini zamanlayın. Varsayılan olarak, aboneliğinizin başlangıç zamanı bu aboneliği oluşturduğunuz tarih ve bitiş zamanı da bir yıl sonrası olur. Bu tarihi, aboneliğiniz bitmeden önce gelecekte istediğiniz herhangi bir tarihle değiştirebilirsiniz (en fazla 9999 yıl). Abonelik bitiş tarihine ulaşıldığında, siz yeniden etkinleştirene kadar abonelik durdurulur.  Zamanlanan bitiş tarihinden önce, süreyi uzatmayı isteyip istemediğinizi soran bildirimler alırsınız.     
 
@@ -73,7 +73,7 @@ Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullan
 
 
 ## <a name="manage-your-subscriptions"></a>Aboneliklerinizi yönetme
-Oluşturduğunuz abonelikleri yalnızca siz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından sol alt köşedeki **Tüm abonelikleri yönet**'i seçin (yukarıdaki ekran görüntülerine bakın). Görüntülenen abonelikler o sırada etkin olan çalışma alanına bağlıdır. Tüm çalışma alanlarındaki aboneliklerinizi aynı anda görmek için  **Çalışma Alanım** ’ın etkin olduğundan emin olun. Çalışma alanlarının anlaşılması konusunda yardım almak için bkz.  [Power BI'daki çalışma alanları](end-user-workspaces.md). 
+Oluşturduğunuz abonelikleri yalnızca siz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından sol alt köşedeki **Tüm abonelikleri yönet**'i seçin (yukarıdaki ekran görüntülerine bakın). Görüntülenen abonelikler o sırada etkin olan çalışma alanına bağlıdır. Tüm çalışma alanları için aboneliklerinizi aynı anda görmek için **Çalışma Alanım**'ın etkin olduğundan emin olun. Çalışma alanlarının anlaşılması konusunda yardım almak için bkz. [Power BI'daki Çalışma Alanları](end-user-workspaces.md). 
 
 ![Çalışma Alanım içinde tüm abonelikleri görüntüleme](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 

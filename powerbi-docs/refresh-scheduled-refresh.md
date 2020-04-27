@@ -1,20 +1,20 @@
 ---
 title: Zamanlanmış yenileme yapılandırma
 description: Burada, bir ağ geçidi seçme ve zamanlanmış yenileme özelliklerini ayarlama adımları ele alınır.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958414"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675688"
 ---
 # <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 
@@ -32,17 +32,17 @@ Bu makalede [Şirket içi veri ağ geçidi (kişisel mod)](service-gateway-perso
 
 ## <a name="gateway-connection"></a>Ağ geçidi bağlantısı
 
-Karşılaşacağınız seçenekler, çevrimiçi ve kullanılabilir durumda olan ağ geçidinizin türüne (kişisel veya şirket içi) göre değişir.
+Burada gördüğünüz seçenekler, çevrimiçi ve kullanılabilir durumda olan ağ geçidinizin kişisel veya kurumsal olmasına göre değişir.
 
-Kullanılabilir bir ağ geçidi yoksa **Ağ geçidi bağlantısı**'nın devre dışı olduğunu görürsünüz. Kişisel ağ geçidinin nasıl yükleneceğini gösteren bir iletiyle de karşılaşırsınız.
+Kullanılabilir bir ağ geçidi yoksa **Ağ geçidi bağlantısı**'nın devre dışı olduğunu görürsünüz. Kişisel ağ geçidinin nasıl yükleneceğini gösteren bir ileti de görürsünüz.
 
 ![Ağ geçidi yapılandırılmamış](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-Yapılandırılmış bir kişisel ağ geçidiniz varsa çevrimiçi olması halinde bu ağ geçidini seçebilirsiniz. Kullanılamıyorsa ağ geçidi çevrimdışı olarak görünür.
+Yapılandırılmış bir kişisel ağ geçidiniz varsa, çevrimiçi olması halinde bu ağ geçidini seçebilirsiniz. Kullanılabilir değilse çevrimdışı olduğunu gösterir.
 
 ![Ağ geçidi bağlantısı](media/refresh-scheduled-refresh/gateway-connection.png)
 
-Erişim iznine sahip olmanız durumunda ilgili kurumsal ağ geçidini de seçebilirsiniz. Yalnızca hesabınızın belirli bir ağ geçidi için yapılandırılmış veri kaynağına ilişkin **Kullanıcılar** sekmesinde bulunması halinde bir kurumsal ağ geçidi seçeneği sunulur.
+Erişim iznine sahip olmanız durumunda ilgili kurumsal ağ geçidini de seçebilirsiniz. Yalnızca hesabınızın belirli bir ağ geçidi için yapılandırılmış veri kaynağının **Kullanıcılar** sekmesinde listelenmesi halinde bir kurumsal ağ geçidinin kullanılabilir olduğunu görürsünüz.
 
 ## <a name="data-source-credentials"></a>Veri kaynağı kimlik bilgileri
 
@@ -55,9 +55,9 @@ Verileri yenilemek için kişisel ağ geçidi kullanıyorsanız arka uç veri ka
 Yalnızca söz konusu veri kümesinde yenileme özelliğini ilk kez kullanırken veri kaynağında oturum açmanız gerekir. Girdiğiniz kimlik bilgileri veri kümesinde tutulur.
 
 > [!NOTE]
-> Belirli kimlik doğrulama yöntemleri ile bir veri kaynağında oturum açarken kullandığınız parolanın değişmesi veya süresinin dolması halinde, söz konusu parolayı veri kaynağına ilişkin **Veri kaynağı kimlik bilgileri** bölümünde de değiştirmeniz gerekir.
+> Bazı kimlik doğrulaması yöntemleri için, bir veri kaynağında oturum açarken kullandığınız parolanın süresinin dolması veya değişmesi halinde, söz konusu parolayı **Veri kaynağı kimlik bilgileri** bölümündeki veri kaynağı için de değiştirmeniz gerekir.
 
-Olası sorunlar genellikle ya ağ geçidinin Windows'da oturum açamayıp hizmeti başlatamaması nedeniyle çevrimdışı olmasından ya da Power BI'ın güncelleştirilmiş verileri sorgulamak üzere veri kaynaklarında oturum açamamasından meydana gelir. Yenileme başarısız olursa veri kümesinin ayarlarını kontrol edin. Ağ geçidi hizmeti çevrimdışıysa **Durum** bölümünde bir hatayla karşılaşırsınız. Power BI'ın veri kaynaklarında oturum açamaması halinde ise hatayla karşılaşacağınız bölüm Veri Kaynağı Kimlik Bilgileri'dir.
+Olası sorunlar genellikle ya ağ geçidinin Windows'da oturum açamayıp hizmeti başlatamaması nedeniyle çevrimdışı olmasından ya da Power BI'ın güncelleştirilmiş verileri sorgulamak üzere veri kaynaklarında oturum açamamasından meydana gelir. Yenileme başarısız olursa, veri kümesinin ayarlarını kontrol edin. Ağ geçidi hizmeti çevrimdışıysa, **Durum** bölümünde bir hatayla karşılaşırsınız. Power BI'ın veri kaynaklarında oturum açamaması halinde ise hatayla karşılaşacağınız bölüm Veri Kaynağı Kimlik Bilgileri'dir.
 
 ### <a name="on-premises-data-gateway"></a>Şirket içi veri ağ geçidi
 
@@ -82,7 +82,11 @@ Ayarları yapılandırmak için **Verilerinizi güncel tutun** kaydırıcısın�
 > [!NOTE]
 > İki ay etkin olunmaması durumunda veri kümenizdeki zamanlanmış yenileme duraklatılır. Veri kümesinde bir kullanıcı tarafından ziyaret edilen herhangi bir pano veya rapor bulunmuyorsa veri kümesinin etkin olmadığı varsayılır. Bu sırada veri kümesi sahibine zamanlanmış yenilemenin duraklatıldığını belirten bir e-posta gönderilir. Veri kümesinin yenileme zamanlaması **devre dışı** olarak görüntülenir. Zamanlanmış yenilemeyi sürdürmek için, veri kümesi üzerinde oluşturulmuş herhangi bir panoyu veya raporu yeniden ziyaret etmeniz yeterlidir.
 
-## <a name="whats-supported"></a>Hangi veri kaynakları desteklenir?
+## <a name="whats-supported"></a>Neler desteklenir?
+
+
+> [!NOTE]
+> Zamanlanan yenileme de, art arda dört hatadan sonra otomatik olarak devre dışı bırakılır.
 
 Zamanlanmış yenileme için farklı ağ geçitlerinde desteklenen çeşitli veri kümeleri vardır. Kullanabileceğiniz veri kümelerine ilişkin fikir edinmek için aşağıya göz atabilirsiniz.
 
@@ -91,7 +95,7 @@ Zamanlanmış yenileme için farklı ağ geçitlerinde desteklenen çeşitli ver
 **Power BI Desktop**
 
 * Power BI Desktop'taki **Veri Al** ve Sorgu Düzenleyicisi bölümlerinde gösterilen tüm çevrimiçi veri kaynakları.
-* Hadoop dosyası (HDFS) ve Microsoft Exchange dışında, Power BI Desktop'taki **Veri Al** ve Sorgu Düzenleyicisi bölümlerinde gösterilen tüm şirket içi veri kaynakları.
+* Hadoop Dosyası (HDFS) ve Microsoft Exchange dışında, Power BI Desktop'taki **Veri Al** ve Sorgu Düzenleyicisi bölümlerinde gösterilen tüm şirket içi veri kaynakları.
 
 **Excel**
 

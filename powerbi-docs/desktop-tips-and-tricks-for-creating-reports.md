@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427266"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066251"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -148,10 +148,10 @@ Artık CustomerIncidents ve WorkItems arasında ilişki kurmak için kullanabile
 Sorgu Düzenleyicisi, verileri şekillendirip temizleyerek görselleştirmeye veya modellemeye uygun hale getiren oldukça güçlü bir araçtır. Bilmeniz gereken birkaç desen vardır.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>Bir sonuç hesaplandıktan sonra geçici sütunlar silinebilir
-Power BI Desktop’ta genelde birden fazla sütundaki verileri yeni bir sütuna dönüştüren hesaplamalar oluşturmanız gerekir. Bu durum karmaşık olabilir. Bu sorunu çözmenin yollarından biri, işlemi adımlara ayırmaktır. Başlangıç sütunlarını çoğaltarak başlayın. Ardından geçici sütunları oluşturun. Daha sonra nihai sonuç için bir sütun oluşturun. Son olarak geçici sütunları silerek son veri kümesinin karmaşık olmamasını sağlayabilirsiniz. Buna olanak sağlayan sorgu sekmesindeki adımların sırayla çalıştırılmasıdır. 
+Power BI Desktop’ta genelde birden fazla sütundaki verileri yeni bir sütuna dönüştüren hesaplamalar oluşturmanız gerekir. Bu durum karmaşık olabilir. Bu sorunu çözmenin yollarından biri, işlemi adımlara ayırmaktır. Başlangıç sütunlarını çoğaltarak başlayın. Ardından geçici sütunları oluşturun. Daha sonra nihai sonuç için sütunu oluşturun. Son olarak geçici sütunları silerek son veri kümesinin karmaşık olmamasını sağlayabilirsiniz. Buna olanak sağlayan sorgu sekmesindeki adımların sırayla çalıştırılmasıdır. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>Yineleme veya Başvurma adımlarından sonra sorguları özgün sorguyla birleştirme
-Bazen bir veri kümesi için özet istatistikleri hesaplamanız gerekebilir. Bunu yapmanın en kolay yolu, sorguyu sorgu sekmesinden yinelemek veya başvuru yapmaktır. Ardından **Gruplandır** ile özet istatistiklerini hesaplayabilirsiniz. Özet istatistikleri, verileri normalleştirmenizi sağlayarak karşılaştırmaya uyguna hale getirmenize imkan tanır. Bu durum özellikle tek değerleri bütünle karşılaştırma açısından kullanışlıdır. Bunu yapmak için özgün sorguya gidip birleştirme seçeneğini belirleyin. Ardından özet istatistikleri sorgusundaki verileri uygun tanımlayıcılara göre birleştirin. Artık verilerinizi analiz etmek üzere normalleştirmeye hazırsınız.
+Bazen bir veri kümesi için özet istatistikleri hesaplamanız gerekebilir. Bunu yapmanın en kolay yolu, sorguyu sorgu sekmesinden yinelemek veya başvuru yapmaktır. Ardından **Gruplandır** ile özet istatistiklerini hesaplayabilirsiniz. Özet istatistikleri, özgün verilerdeki verileri normalleştirmenizi sağlayarak karşılaştırmaya uygun hale getirmenize imkan tanır. Bu durum özellikle tek değerleri bütünle karşılaştırma açısından kullanışlıdır. Bunu yapmak için özgün sorguya gidip birleştirme seçeneğini belirleyin. Ardından özet istatistikleri sorgusundaki verileri uygun tanımlayıcılara göre birleştirin. Artık verilerinizi analiz etmek üzere normalleştirmeye hazırsınız.
 
 ## <a name="using-dax-for-the-first-time"></a>İlk kez DAX kullanma
 DAX, Power BI Desktop'taki hesaplama formülü dilidir. BI analizi için en iyi duruma getirilmiştir. Yalnızca SQL gibi bir sorgu dili kullandıysanız biraz farklı gelebilir. DAX öğrenmek için faydalanabileceğiniz birçok çevrimiçi ve çevrimdışı kaynak mevcuttur. 
@@ -161,3 +161,64 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir. BI analizi için en iyi 
 [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX Resource Center (DAX Kaynak Merkezi)](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI hizmeti *ve* Power BI Desktop
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI'da görsel olarak etkileyici raporlar (ve panolar) oluşturma" başlıklı makaleyi okuyun ve/veya videoyu izleyin
+Topluluk üyesi Miguel Myers, hem Veri Bilimcisi hem de Grafik Tasarımcısı olarak görev yapmaktadır.
+
+![Power BI raporu](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [Blogu okuyun](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [Web seminerini izleyin](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>Hedef kitlenizi değerlendirin
+Okuyucuların karar almasına yardımcı olacak ana ölçümler neler? Rapor nasıl kullanılır? Tasarım sırasında yapılacak seçimleri etkileyebilecek öğrenilen veya kültürel varsayımlar neler? Hedef kitlenizin başarılı olmasını sağlayacak bilgiler hangileri?
+
+Rapor nerede görüntülenecek? Büyük bir monitörde görüntülenecek panolara daha fazla içerik ekleyebilirsiniz. Okuyucular panoyu tablette görüntüleyecekse daha az sayıda görselleştirme daha okunabilir olacaktır.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Bir hikaye anlatın ve tek bir ekranla sınırlı tutun
+Her rapor sayfası tek bakışta bir olay anlatmalıdır. Sayfalarınızda kaydırma çubuğu kullanılmasını önleyebilir misiniz? Rapor çok karışık veya çok yoğun mu?  Kolay okunup yorumlanacak temel bilgiler dışındakileri kaldırın.
+
+### <a name="make-the-most-important-information-biggest"></a>En önemli bilgiler için en büyük boyutları kullanın
+Rapor sayfanızdaki tüm metinler ve görselleştirmeler aynı boyutta olursa kullanıcılarınız önemli olan bilgilere odaklanma konusunda sorun yaşayabilir. Örneğin, kart görselleştirmeleri, önemli sayıları belirgin bir şekilde görüntülemenin iyi bir yoludur:  
+![Kart görselleştirmesi](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>Ancak bağlam sunduğunuzdan emin olun  
+
+Görselleştirmelerinize bağlam eklemek için metin kutuları ve araç ipuçları gibi özellikleri kullanın.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>En önemli bilgileri üst köşeye yerleştirin
+Çoğu kişi içeriği yukarıdan aşağıya doğru okuduğu için en yüksek ayrıntıya sahip olan öğeyi en üste yerleştirin ve hedef kitlenizin okuma yönüne göre (soldan sağa, sağdan sola) verileri ayrıntılandırın.
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Verilere uygun görselleştirmeleri kullanın ve okunaklı olacak şekilde biçimlendirin.
+Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak için kullanmaktan sakının.  Görselleştirmelerin bir resim çizmesi ve hem "okunması" hem de yorumlanması kolay olmalıdır.  Bazı veriler ve görselleştirmeler için basit bir grafik yeterli olacaktır. Ancak bazı veriler için daha karmaşık görselleştirmeler gerekebilir. Okuyucuya yardımcı olmak için başlıklara, etiketlere ve diğer özelleştirmelere yer vermeyi unutmayın.  
+
+* 3B grafikler ve sıfırdan başlamayan grafikler gibi gerçeği çarpıtan grafikleri kullanırken dikkat edin. İnsan beyninin dairesel şekilleri yorumlamakta daha fazla zorlandığını unutmayın. Pasta grafikleri, halka grafikler, ölçekler ve diğer dairesel grafik türleri güzel görünebilir ancak bunların yerine kullanabileceğiniz farklı bir görsel olabilir mi?    
+* Eksenlerdeki grafik ölçekleri, grafik boyut sıralamaları ve grafiklerdeki boyut değerlerinde kullanılan renkler konusunda tutarlı olun.    
+* Nicel verileri doğru şekilde kodladığınızdan emin olun. Sayıları gösterirken üç veya dört rakamı geçmeyin. Ölçüleri ondalık ayırıcının sol tarafında bir veya iki rakam olacak şekilde görüntüleyin ve bin veya milyon değerlerini kısaltın (3.400.000 yerine 3,4 milyon gibi).    
+* Duyarlık ve süre düzeylerini karıştırmaktan kaçının. Zaman dilimlerinin iyi anlaşıldığından emin olun.  Yılın belirli bir ayındaki verileri gösteren filtrelenmiş grafiklerin yanına önceki ayın verilerini içeren bir grafik yerleştirmeyin.    
+* Ayrıca, çizgi veya çubuk grafik gibi büyük ve küçük ölçümleri aynı ölçekte karıştırmamaya dikkat edin.  Örneğin, bir ölçeğin milyon, diğerinin ise bin seviyesinde olmaması gerekir.  Bu büyüklükteki bir ölçekte bin seviyesindeki ölçüde gözlemlenen farkları algılamak zor olacaktır.  Karıştırmanız gerekiyorsa, açılır kutu gibi ikinci bir eksen kullanımına izin veren bir görselleştirme seçin.    
+* Gerekli olmayan veri etiketleriyle grafiklerinizi karmaşık hale getirmekten kaçının. Çubuk grafiklerdeki değerler, ***yeterince genişse***, genellikle gerçek sayı görüntülenmeden de anlaşılabilir.   
+* [Grafiklerin sıralanma şekline](consumer/end-user-change-sort.md) dikkat edin. En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın. Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
+* Pasta grafikleri, sekizden az kategori bulunuyorsa idealdir. Yan yana göremediğiniz için pasta grafiğindeki değerleri karşılaştırmak çubuk grafiklerdeki ve sütun grafiklerindeki değerlere kıyasla daha zordur. Pasta grafikleri, parçaları karşılaştırmak yerine parçalarla bütün arasındaki ilişkiyi görmek için kullanılabilir. Ölçek grafikleri, bir hedef bağlamında geçerli durumu görüntülemek için idealdir.    
+
+Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>Pano Tasarımındaki En İyi Uygulamalar hakkında daha fazla bilgi edinin
+Favori kitaplarımızdan bazıları:
+
+* *Verilerle Hikaye Anlatma*, Cole Nussbaumer Knafic
+* *Veri noktaları*, Nathan Yau
+* *Gerçek Sanat*, Alberto Cairo
+* *Now You See It* (Şimdi Görüyorsunuz), Stephen Few  
+* *Envisioning Information* (Bilgileri Görselleştirme), Edward Tufte  
+* *Gelişmiş Sunumlar*, Andrew Abela   
+
+## <a name="next-steps"></a>Sonraki adımlar
+* [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
+* [Power BI'daki raporlar](consumer/end-user-reports.md)
+
+Başka sorunuz mu var? [Power BI Topluluğu'nu deneyin](https://community.powerbi.com/)
+
+

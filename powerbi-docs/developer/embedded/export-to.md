@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267515"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525480"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -106,6 +106,7 @@ Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU�
 * Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak .pdf veya .pptx dosyasına aktarılamaz.
 * Dışarı aktara eklenebilecek sayfa sayısı 30’dur. Raporda daha fazla sayfa varsa API hata döndürür ve dışarı aktarma işi iptal edilir.
 * [Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
+* Bağımsız bulutlar desteklenmiyor.
 * Aşağıdaki Power BI görselleri desteklenmez. Bu görselleri içeren bir rapor dışarı aktarıldığında, raporda bu görsellerin bulunduğu bölümler işlenmez ve bir hata simgesi görüntülenir.
     * Sertifikasız Power BI görselleri
     * R görselleri
