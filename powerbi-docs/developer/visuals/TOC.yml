@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Power BI görselleri için yönergeler
           href: guidelines-powerbi-visuals.md
+        - name: Performans ipuçları
+          href: performance-tips.md
         - name: Görseller hakkında SSS
           href: power-bi-custom-visuals-faq.md
         - name: Özellikleri kullanma
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: Görsellerde hata ayıklama
           href: visuals-how-to-debug.md
+        - name: Mobil geliştirme
+          href: mobile-development.md
         - name: Power BI görselleriyle ilgili sorunları giderme
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Başvuru
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: Yazma yardımcı programları
               href: utils-type.md
+            - name: Test yardımcı programları
+              href: utils-test.md
             - name: Araç ipucu yardımcı programları
               href: utils-tooltip.md
             - name: Veri görüntüleme yardımcı programları
