@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 09/16/2019
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: e1f770ac43207666966d3844e1e3728020849346
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cb9ae846f1033c6e7bcbecae28c039dd985adec0
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699786"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255824"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 

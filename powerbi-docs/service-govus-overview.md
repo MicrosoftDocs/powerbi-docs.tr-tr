@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436357"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256152"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 Bu makale Office 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -88,7 +88,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Sayfalandırılmış raporlar|Kullanılabilir|Kullanılabilir|Yol haritasında|
+|  |Sayfalandırılmış raporlar|Kullanılabilir|Yol haritasında|Yol haritasında|
 |  |Şablon uygulamalar|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |Verilere bağlanma|Excel’den verileri ve raporları içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |CSV dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
