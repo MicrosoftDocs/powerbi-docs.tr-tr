@@ -2,20 +2,20 @@
 title: ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 description: ABD eyalet ve yerel hükümetlerinin verilerini içeren örnek raporu indirip COVID-19 pandemisine uygun şekilde değiştirin.
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979788"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584934"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 
@@ -48,7 +48,7 @@ Sitenize etkileşimli grafikleri dahil etmek için, şu ekleme kodunu kopyalayı
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width) yararlı olur.
+Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](../service-publish-to-web.md#tips-for-iframe-height-and-width) yararlı olur.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>2\. Seçenek: Örnek Power BI dosyasını özelleştirme
 
@@ -112,7 +112,7 @@ Yenileme verileri, zamanlama her çalıştığında yüklenir. Temel alınan ver
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Web’de yayımlama ekleme kodu oluşturma 
 
-Özelleştirilmiş raporunuzu kendi web sitenize eklemek için [Kendi web’de yayımlama ekleme kodunuzu oluşturmaya](../service-publish-to-web.md#how-to-use-publish-to-web) yönelik yönergeleri izleyin.
+Özelleştirilmiş raporunuzu kendi web sitenize eklemek için [Kendi web’de yayımlama ekleme kodunuzu oluşturmaya](../service-publish-to-web.md#create-embed-codes-with-publish-to-web) yönelik yönergeleri izleyin.
 
 Ekleme kodunuzu yayımladıktan sonra, web sitenize eklemek için onay iletişim penceresindeki iFrame’i kullanırsınız.
 
