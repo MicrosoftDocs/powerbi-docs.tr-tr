@@ -1,23 +1,23 @@
 ---
-title: SharePoint Online'da rapor web bölümüyle ekleme
+title: SharePoint Online’da rapor web bölümü ekleme
 description: Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221724"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585210"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online'da rapor web bölümüyle ekleme
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online’da rapor web bölümü ekleme
 
 Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
 
@@ -38,9 +38,9 @@ Raporunuzu SharePoint Online’a eklemek için rapor URL’sini alıp bunu Share
 
 1. Raporu Power BI’da görüntüleyin.
 
-2. **Dosya** açılan menüsünü seçin ve **SharePoint Online’a Ekle**’yi belirleyin.
+2. **Diğer seçenekler (...)** açılır menüsünde **Ekle** > **SharePoint Online**’ı seçin.
 
-    ![Dosya menüsü](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![Diğer seçenekler menüsü, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. İletişim kutusundan rapor URL’sini kopyalayın.
 

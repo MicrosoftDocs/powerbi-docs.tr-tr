@@ -1,21 +1,22 @@
 ---
 title: Power BI web seminerleri
 description: Power BI web seminerleri
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267561"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120103"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
+[//]: # "Tatevik Tatero, Chauncy Freels ile çalışan ve bu web semineri listesini korumaya yardımcı olan bir satıcıdır"
 
 Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı oturumlarımızı izleyin.
 
@@ -89,7 +90,7 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Sağlayan: Olaf Hubel ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**Tek Kelimeyle Etkileyici – Daha İyi Görselleştirme Tasarımı için İpuçları**
+**Tek Kelimeyle Etkileyici—Daha İyi Görselleştirme Tasarımı için İpuçları**
 <br>Sağlayan: Miranda Li
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -164,10 +165,6 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Satış ve Hizmetler için Uygulamalı Zeka**
-<br>Sağlayan: Ed Bobrin, Avanade
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
 **Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability (Üreticiler: Sektörünüz dijital bir dönüşümden geçiyor - Kârlılığı en üst seviyeye çıkarmak için analizlerden yararlanarak liderliğinizi koruyun)**
 <br>Sağlayan: Jon Thompson, Blue Margin ve Jim Pastor, Elgin Fastener Group
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
@@ -210,14 +207,14 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>Sağlayan: Ted Pattison
 <br>[Hemen izleyin](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>İleri Düzey Konular ###
+### <a name="advanced-topics"></a>İleri Düzey Konular
 
 **Excel ve Power BI ile Gelişmiş Analiz**
 <br>Nagasaikiran Kambhampati ve Miguel Martinez tarafından hazırlandı
 <br>[İzlemek için kaydolun](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Takip etmek için Gelişmiş Analiz Başlangıç Setini indirin](https://aka.ms/pbiaawebinar)
 
-**[Power BI benimseme çerçevesi web semineri serisi](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+**Power BI benimseme çerçevesi web semineri serisi**
 <br>Manu Kanwarpal ve Paul Henwood tarafından hazırlandı
 <br>[Hemen kaydolun ve izleyin - Bölüm 1 - Adoption: Adopt a data-driven culture (Benimseme: Veri odaklı kültürü benimseme)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[Hemen kaydolun ve izleyin - Bölüm 2 - Governance: Govern your Power BI usage (Yönetim: Power BI kullanımınızı yönetme)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ Kayıtlı oturumları istediğiniz zaman izleyin
 <br>[Hemen kaydolun ve izleyin - Bölüm 4 - Security: Keeping your data secure with Power BI (Güvenlik: Power BI ile verilerinizin güvenliğini koruma)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[Hemen kaydolun ve izleyin - Bölüm 5 - Rollout: Successfully rolling out Power BI (Dağıtım: Power BI'ı başarılı bir şekilde dağıtma)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**Office 365 Finans Uzmanları Web Semineri Serisi**
-<br>Hazırlayan: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky ve Miguel Martinez
-<br>Office 365’i kullanarak günlük işlerinizde daha fazlasını başarmak için ipuçları, püf noktaları ve en iyi yöntemler hakkında bilgi edinin.
-<br>[Hemen kaydolun ve izleyin](https://aka.ms/Office365FinanceProsPBI)
-
 **Tam Yığın Power BI Jedi Olun – Star Wars verileri ile Power BI’ın en gelişmiş özelliklerine ilişkin kılavuz**
 <br>Gil Raviv tarafından hazırlandı
 <br>[Hemen izleyin](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Kuruluşunuzu Daha Güvenli Hale Getirecek Başarılı bir Veri Yönetimi Stratejisi Uygulama)**
-<br>Sağlayan: Ajay Anandan
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**Accelerating modern BI adoption with Power BI Premium (Power BI Premium ile modern BI'ı daha hızlı benimseme)**
-<br>Sağlayan: Sirui Sun ve Miguel Martinez
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**What's new and exciting in Power BI Report Server (Power BI Rapor Sunucusu'ndaki Heyecan Verici Yenilikler)**
-<br>Sağlayan: Riccardo Muti, Chris Finlan ve Chinmay Joshi
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**How Microsoft does Power BI (Microsoft, Power BI'ı nasıl kullanıyor?)**
-<br>Sağlayan: Kirkland Barrett
-<br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>Ayrıca bkz.
 
 - [Power BI teknik incelemeleri](whitepapers.md)
-
-- [Microsoft Data Insights Zirvesi 2017 isteğe bağlı oturumları](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Power BI nedir?](fundamentals/power-bi-overview.md)
 

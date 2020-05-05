@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114509"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585440"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -203,30 +203,28 @@ Aşağıdaki resimde bir dış kullanıcıyla paylaştığınızda görünen ile
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
-Kuruluştaki kullanıcılar web'de rapor yayımlayabilir. [Daha fazla bilgi edinin](service-publish-to-web.md). Bu işlem raporu ve içerdiği verileri web’deki herkesin kullanımına sunar.
+**Web’de yayımla** ayarı bir Power BI kiracısının yöneticisi olarak, raporları web’de yayımlamak için ekleme kodu oluşturabilecek kullanıcıları seçmenizi sağlar. Bu işlev, raporu ve verilerini web’deki herkesin kullanımına sunar. [Web’de yayımlama](service-publish-to-web.md) hakkında daha fazla bilgi edinin.
 
 > [!NOTE]
-> Yeni web’de yayımlama ekleme kodları oluşturma işlemine Power BI yöneticisinin izin vermesi gerekir. Kuruluşların mevcut ekleme kodları olabilir; [ekleme kodları](service-admin-portal.md#embed-codes) sayfasını kullanarak şu anda yayımlanmış olan raporları gözden geçirin.
+> Yeni web’de yayımlama ekleme kodları oluşturma işlemine yalnızca Power BI yöneticileri izin verebilir. Kuruluşların mevcut ekleme kodları olabilir. Yayımlanmış raporları gözden geçirmek için yönetici portalının [Ekleme kodları](service-admin-portal.md#embed-codes) bölümüne göz atın.
 
-Aşağıdaki resimde **Web’de yayımla** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
+Aşağıdaki resimde, **Web’de yayımla** ayarı etkinleştirildiğinde raporun **Diğer seçenekler (...)** menüsü gösterilir.
 
-![Dosya menüsünde Web’de yayımla](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Diğer seçenekler menüsündeki Web’de yayımla seçeneği](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-**Web’de yayımla** ayarı kullanıcıların ekleme kodları oluşturabileceği seçenekler getirir.
+Yönetici portalındaki **Web’de yayımla** ayarı, kullanıcıların ekleme kodları oluşturabileceği seçenekler sunar.
 
 ![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-**Ekleme kodlarının nasıl çalışacağını seçin** seçeneği **Yalnızca mevcut ekleme kodlarına izin ver** olarak ayarlandıysa ve **Web’de yayımla** ayarı **Etkin** durumdaysa, kullanıcıların ekleme kodu oluşturma izni almak için Power BI yöneticisine başvurmaları istenir.
+Yöneticiler **Web’de yayımlama** ayarını **Etkin**, **Ekleme kodlarının nasıl çalışacağını seçme** ayarını ise **Yalnızca mevcut ekleme kodlarına izin ver** olarak belirleyebilir. Bu durumda kullanıcılar ekleme kodları oluşturabilir, ancak izin vermesi için Power BI yöneticisine ulaşmaları gerekir.
 
 ![Web'de yayımla istemi](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
 |Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
-|Rapora ilişkin **Dosya** menüsündeki **Web'de yayımla** seçeneği.|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
+|Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
 |Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum **Devre dışı** görünür|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|

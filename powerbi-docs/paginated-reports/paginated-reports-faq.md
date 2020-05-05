@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766275"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584998"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -173,6 +173,11 @@ Hayır, şu anda bir rapor görüntüleyicisi denetimi sunulmuyor.
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Power BI hizmetindeki yeni Giriş deneyiminden sayfalandırılmış raporlar için arama yapılabiliyor mu?
 
 Evet, artık Giriş'ten sayfalandırılmış raporlar için arama yapabilirsiniz.  Bu raporları yeni Giriş deneyiminin diğer bölümlerinde de görebilirsiniz.
+
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+Sayfalandırılmış raporlarda DateTime alanlarıyla çalışırken aklınızda bulunması gereken bir şeyi burada bulabilirsiniz.
+
+- Şu anda DateTime parametreleriyle ilgili bazı genelleştirme sınırlamaları vardır. Power BI hizmetindeki tüm DateTime parametreleri, Power BI Report Builder’da DateTime’ı nasıl tasarladığınız fark etmeksizin ABD biçiminde (AA/GG/YYYY) getirilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

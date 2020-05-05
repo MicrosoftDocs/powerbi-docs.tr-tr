@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75729725"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584755"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -35,6 +35,8 @@ Power BI Desktop'ta bir sütunun veri türünü Sorgu Düzenleyicisi'nde, Veri G
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 Sorgu Düzenleyicisi'ndeki Veri Türü açılan listesinde, şu anda Veri veya Rapor Görünümü'nde yer almayan iki veri türü bulunur: **Tarih/Saat/Saat Dilimi** ve **Süre**. Modele bu veri türlerini içeren bir sütun yüklendiğinde ve söz konusu model Veri veya Rapor görünümü'nde görüntülendiğinde; Tarih/Saat/Saat Dilimi veri türündeki sütunlar Tarih/Saat veri türüne, Süre veri türündeki sütunlar ise Ondalık Sayı veri türüne dönüştürülür.
+
+**İkili** veri türü şu anda Sorgu Düzenleyicisi’nin dışında desteklenmiyor. Sorgu Düzenleyicisi’nin içinde, Power BI modeline yüklemeden önce diğer veri türlerine dönüştürürseniz ikili dosyaları yüklerken bu veri türünü kullanabilirsiniz. Bu, eski nedenlerden dolayı Veri Görünümü ve Rapor Görünümü menülerinde yer alır, ancak Power BI modeline ikili sütunları yüklemeyi denerseniz hatalarla karşılaşabilirsiniz.  
 
 ### <a name="number-types"></a>Sayı türleri
 Power BI Desktop üç sayı türünü destekler:
@@ -72,6 +74,16 @@ Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü destekle
 ### <a name="blanksnulls-type"></a>Boş/null değer türü
 **Boş**: DAX'ta, SQL'deki null değerleri temsil eden ve bunların yerini alan veri türü. [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) işlevini kullanarak boş değer oluşturabilir ve [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) mantıksal işlevi ile boş değer olup olmadığını test edebilirsiniz.
 
+### <a name="binary-data-type"></a>İkili veri türü
+
+İkili veri türü, ikili biçime sahip tüm diğer verileri göstermek için kullanılabilir. Sorgu Düzenleyicisi’nin içinde, Power BI modeline yüklemeden önce diğer veri türlerine dönüştürürseniz ikili dosyaları yüklerken bu veri türünü kullanabilirsiniz. İkili sütunlar Power BI veri modelinde desteklenmez. Bu, eski nedenlerden dolayı Veri Görünümü ve Rapor Görünümü menülerinde yer alır, ancak Power BI modeline ikili sütunları yüklemeyi denerseniz hatalarla karşılaşabilirsiniz.
+
+
+> [!NOTE]
+>  Bir sorgunun çıkış adımlarında ikili bir sütun varsa ağ geçidi üzerinden verileri yenileme girişimi hatalara neden olabilir. Sorgularınızdaki son adım olarak tüm ikili sütunları açıkça kaldırmanızı öneririz.    
+> 
+>
+
 ### <a name="table-data-type"></a>Tablo veri türü
 DAX, birçok işlevde (toplama ve akıllı zaman gösterimi hesaplamaları gibi) tablo veri türünü kullanır. Bazı işlevler bir tabloya başvurulmasını gerektirirken bazı işlevler, diğer işlevler için giriş olarak kullanılabilecek bir tablo döndürür. Giriş olarak tablo gerektiren bazı işlevlerde tablo döndüren bir ifade belirtebilirsiniz. Bazı işlevlerde ise temel tablolara başvuru yapılması gerekir. Belirli işlevlerin gereksinimleri hakkında bilgi için bkz. [DAX Function Reference (DAX İşlev Başvurusu)](https://msdn.microsoft.com/library/ee634396.aspx).
 
@@ -95,10 +107,10 @@ Dönüştürme işleminin türü işleç tarafından belirlenir. İşleç, isten
 
 **Toplama (+)**
 
-| İşleç (+) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| İşleç (+) | TAMSAYI | CURRENCY | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
-| TAMSAYI |TAMSAYI |PARA BİRİMİ |GERÇEK SAYI |Tarih/saat |
-| PARA BİRİMİ |PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |Tarih/saat |
+| TAMSAYI |TAMSAYI |CURRENCY |GERÇEK SAYI |Tarih/saat |
+| CURRENCY |CURRENCY |PARA BİRİMİ |GERÇEK SAYI |Tarih/saat |
 | GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |Tarih/saat |
 | Tarih/saat |Tarih/saat |Tarih/saat |Tarih/saat |Tarih/saat |
 
@@ -108,10 +120,10 @@ Dönüştürme işleminin türü işleç tarafından belirlenir. İşleç, isten
 
 Aşağıdaki tabloda satır başlığı, çıkarılan sayıyı (sol taraf) sütun başlığı ise çıkan sayıyı (sağ taraf) temsil etmektedir.
 
-| İşleç (-) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| İşleç (-) | TAMSAYI | CURRENCY | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
-| TAMSAYI |TAMSAYI |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
-| PARA BİRİMİ |PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
+| TAMSAYI |TAMSAYI |CURRENCY |GERÇEK SAYI |GERÇEK SAYI |
+| CURRENCY |CURRENCY |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
 | GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |
 | Tarih/saat |Tarih/saat |Tarih/saat |Tarih/saat |Tarih/saat |
 
@@ -124,11 +136,11 @@ Aşağıdaki tabloda satır başlığı, çıkarılan sayıyı (sol taraf) sütu
 
 **Çarpma (*)**
 
-| İşleç (\*) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| İşleç (\*) | TAMSAYI | CURRENCY | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
-| TAMSAYI |TAMSAYI |PARA BİRİMİ |GERÇEK SAYI |TAMSAYI |
-| PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |PARA BİRİMİ |PARA BİRİMİ |
-| GERÇEK SAYI |GERÇEK SAYI |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
+| TAMSAYI |TAMSAYI |CURRENCY |GERÇEK SAYI |TAMSAYI |
+| CURRENCY |PARA BİRİMİ |GERÇEK SAYI |CURRENCY |PARA BİRİMİ |
+| GERÇEK SAYI |GERÇEK SAYI |CURRENCY |GERÇEK SAYI |GERÇEK SAYI |
 
 Örneğin, bir tam sayı ile gerçek sayı bir çarpma işleminde birlikte kullanıldığında her iki sayı da gerçek sayıya dönüştürülür ve bir GERÇEK SAYI değeri döndürülür.
 
@@ -136,10 +148,10 @@ Aşağıdaki tabloda satır başlığı, çıkarılan sayıyı (sol taraf) sütu
 
 Aşağıdaki tabloda satır başlığı, payı; sütun başlığı ise paydayı temsil eder.
 
-| İşleç (/) (Satır/Sütun) | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| İşleç (/) (Satır/Sütun) | TAMSAYI | CURRENCY | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
-| TAMSAYI |GERÇEK SAYI |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
-| PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |PARA BİRİMİ |GERÇEK SAYI |
+| TAMSAYI |GERÇEK SAYI |CURRENCY |GERÇEK SAYI |GERÇEK SAYI |
+| CURRENCY |PARA BİRİMİ |GERÇEK SAYI |CURRENCY |GERÇEK SAYI |
 | GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |
 | Tarih/saat |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |
 
@@ -158,10 +170,10 @@ Aşağıdaki DAX ifadelerinde bu davranış görülmektedir:
 
 Sayısal türler veya tarih/saat türleri için dönüştürme işlemleri, aşağıdaki tabloda açıklanan şekilde örtük olarak gerçekleştirilir:
 
-| Karşılaştırma İşleci | TAMSAYI | PARA BİRİMİ | GERÇEK SAYI | Tarih/saat |
+| Karşılaştırma İşleci | TAMSAYI | CURRENCY | GERÇEK SAYI | Tarih/saat |
 | --- | --- | --- | --- | --- |
-| TAMSAYI |TAMSAYI |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
-| PARA BİRİMİ |PARA BİRİMİ |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
+| TAMSAYI |TAMSAYI |CURRENCY |GERÇEK SAYI |GERÇEK SAYI |
+| CURRENCY |CURRENCY |PARA BİRİMİ |GERÇEK SAYI |GERÇEK SAYI |
 | GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |
 | Tarih/saat |GERÇEK SAYI |GERÇEK SAYI |GERÇEK SAYI |Tarih/Saat |
 

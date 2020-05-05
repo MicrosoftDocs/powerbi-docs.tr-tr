@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42455033a0853cc9a962d3167ed8a69a0f42c4e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496922"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120287"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -28,6 +28,11 @@ ms.locfileid: "77496922"
 Yeni bir uygulama almanın birkaç yolu vardır. Rapor tasarımcısı olan bir iş arkadaşınız uygulamayı Power BI hesabınıza otomatik olarak yükleyebilir veya size uygulamanın doğrudan bağlantısını gönderebilir. AppSource’a giderek şirketinizin hem içindeki hem de dışındaki uygulama tasarımcılarının sunduğu uygulamalar arayabilirsiniz. 
 
 Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama tasarımcısı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
+
+## <a name="apps-and-licenses"></a>Uygulamalar ve lisanslar
+Uygulamaları her Power BI kullanıcısı görüntüleyemez veya bunlarla etkileşim kuramaz. 
+- Ücretsiz lisansınız varsa sizinle paylaşılan ve Premium kapasitedeki bir çalışma alanında depolanan uygulamaları açabilirsiniz.
+- Pro lisansınız varsa sizinle paylaşılan uygulamaları açabilirsiniz.
 
 ## <a name="install-an-app-from-a-direct-link"></a>Doğrudan bağlantı ile uygulama yükleme
 Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama tasarımcısından e-posta ile bir doğrudan bağlantı almaktır.  
@@ -45,7 +50,10 @@ Mobil cihazınızda e-postadaki bağlantıyı seçtiğiniz zaman, uygulama otoma
 ![Mobil cihazda uygulama içerik listesi](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Uygulamayı Microsoft AppSource'tan alma
-Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yalnızca erişiminiz olan uygulamalar (yani uygulama yazarının size veya herkese izin verdiği uygulamalar) görüntülenir.
+Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yalnızca erişiminiz olan uygulamalar (yani uygulama yazarının size veya herkese izin verdiği uygulamalar) görüntülenir. 
+
+> [!NOTE]
+> Ücretsiz kullanıcı lisansı kullanıyorsanız uygulamaları indirebilir ancak Power BI Pro hesabına yükseltene veya uygulama Premium kapasitede depolanana kadar görüntüleyemezsiniz. Daha fazla bilgi için bkz. [tüketici lisansları](end-user-license.md).
 
 1. **Uygulamalar**  > **Uygulama edinin** seçeneğini belirleyin. 
    
@@ -79,7 +87,12 @@ Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSour
 
 5. Uygulama yüklendikten sonra, Power BI hizmeti yükleme başarılı iletisi gösterir. Uygulamayı açmak için **Uygulamaya git** seçeneğini belirleyin. Tasarımcının uygulamayı nasıl oluşturduğuna bağlı olarak uygulama panosu veya uygulama raporu görüntülenir.
 
+
+
     ![Uygulama başarıyla yüklendi ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > Ücretsiz kullanıcı lisansı kullanıyorsanız uygulamaları indirebilir ancak Power BI Pro hesabına yükseltene kadar görüntüleyemezsiniz. 
 
     **Uygulamalar**’ı ve ardından **Satış ve Pazarlama**’yı seçerek, uygulamayı uygulama içerikleri listenizden doğrudan da açabilirsiniz.
 
@@ -122,9 +135,7 @@ Zaman zaman uygulama oluşturucuları uygulamalarının yeni sürümlerini kulla
     > [!NOTE] 
     > Yeni bir sürüm yüklendiğinde, rapor ve panolarda yapmış olabileceğiniz değişikliklerin üzerine yazılır. Güncelleştirilmiş rapor ve panolarınızı tutmak için, yüklemeden önce bunları farklı bir adla veya farklı bir konuma kaydedebilirsiniz. 
 
-    4. Güncelleştirilmiş sürümü yükledikten sonra, güncelleştirme işlemini tamamlamak için **Uygulamayı güncelleştir**'i seçin. 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
+    4. Güncelleştirilmiş sürümü yükledikten sonra, güncelleştirme işlemini tamamlamak için **Uygulamayı güncelleştir**’i seçin. 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/24/2020
+ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79039964"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120257"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
 
@@ -45,7 +45,7 @@ Tüketici olarak Power BI’ın tüm olanaklarına erişemezsiniz, ancak işiniz
 
 Muhtemelen "Power BI Desktop" veya yalnızca "Desktop" terimini daha önceden duymuşsunuzdur. Bu terim, pano ve rapor oluşturup dizinle paylaşan *tasarımcılar* tarafından kullanılan bağımsız bir aracı nitelemek için kullanılır.  Tüketici olarak yalnızca Power BI hizmetiyle çalışacak olsanız da başka Power BI araçları da olduğunu bilmenizde fayda vardır. 
 
-*Paylaşılan* içerikle çalıştığınız için, **Premium** kapasitenin kullanıldığı bir kuruluşta çalışmaya ve standart **ücretsiz** lisansa ihtiyacınız vardır. [Hangi lisansa sahibim?](end-user-license.md)
+*Paylaşılan* içerikle çalıştığınızdan ve **Premium** kapasitenin kullanıldığı bir kuruluşta çalıştığınız için standart **ücretsiz** bir lisans yeterlidir. [Hangi lisansa sahibim?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma 

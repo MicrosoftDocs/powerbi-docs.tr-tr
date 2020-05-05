@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869367"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584809"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop klavye kısayolları
 
@@ -56,6 +56,7 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Çoklu seçim | **Ctrl + Enter** veya **Ctrl + ara çubuğu** |
 | Sağ tıklama | <ul><li>Windows klavyesi: **Windows bağlam tuşu + F10**. Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: **Shift + F10**</li></ul> |
 | Seçimi temizle | **Ctrl + Shift + C** |
+| Araç ipucunu göster veya gizle | **Ctrl + H** |
 
 ## <a name="table-and-matrix-navigation"></a>Tablo ve matris gezintisi
 | Bu eylemi gerçekleştirmek için          | Buna basın                |
@@ -71,7 +72,7 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Tek bir tabloyu genişlet | **Sağ ok tuşu** |
 | Tüm tabloları daralt | **Alt + Shift + 1** |
 | Tüm tabloları genişlet | **Alt + Shift + 9** |
-| Bağlam menüsünü açma | <ul><li>Windows klavyesi: **Windows bağlam tuşu + F10**.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: **Shift + F10**</li></ul> |
+| Bağlam menüsünü aç | <ul><li>Windows klavyesi: **Windows bağlam tuşu + F10**.  Windows bağlam tuşu, Sol Alt tuşuyla Sol Ok tuşunun arasındadır</li><li>Başka klavye: **Shift + F10**</li></ul> |
 
 ## <a name="slicer"></a>Dilimleyici
 | Bu eylemi gerçekleştirmek için         | Buna basın                |

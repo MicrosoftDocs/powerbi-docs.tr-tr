@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223332"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149612"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
 Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit.
@@ -22,6 +22,10 @@ Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'
 Desteklenen Oracle sürümleri: 
 - Oracle 9 ve üstü
 - Oracle istemci yazılımı 8.1.7 ve üstü
+
+> [!NOTE]
+> Power BI Rapor Sunucusu için bir Oracle veritabanı yapılandırıyorsanız [Oracle Bağlantı Türü](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) makalesindeki bilgilere göz atın. 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirleme
 Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirlemek için **Dosya** > **Yardım** > **Hakkında**'yı seçip **Sürüm** satırına bakın. Aşağıdaki resimde Power BI Desktop'ın 64 bit sürümü yüklüdür:
@@ -65,3 +69,5 @@ Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hata
 * Microsoft Store'daki sürümü kullanmak istiyorsanız, yerel bilgisayarınızda oraons.dll dosyasını _12.X.X\client_X_ klasöründen _12.X.X\client_X\bin_ klasörüne kopyalayın; burada _X_, sürüm ve dizin numaralarını gösterir.
 
 Bir Oracle veritabanına bağlanırken Power BI Gateway’de *Nesne başvurusu ayarlanmadı* hata iletisini görürseniz, [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md) makalesindeki yönergeleri izleyin.
+
+Power BI Rapor Sunucusu kullanıyorsanız [Oracle Bağlantı Türü](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) makalesindeki kılavuza göz atın.

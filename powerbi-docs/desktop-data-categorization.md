@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709553"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584826"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop’ta veri kategorilerini belirtme
 Power BI Desktop'ta bir sütun için *veri kategorisi* seçerek Power BI Desktop'ın bu değerleri görselleştirme içinde nasıl işleyeceğini belirleyebilirsiniz.
@@ -33,7 +33,7 @@ Power BI Desktop ülkelerin vurgulandığı bir dünya resmi mi göstermelidir? 
 **Veri kategorisi belirtmek için**
 
 1. **Rapor** Görünümündeki veya **Veri** Görünümündeki **Alanlar** listesinde farklı bir kategoride sıralanmasını istediğiniz alanı seçin.
-2. Şeritteki **Modelleme** sekmesinin **Özellikler** alanında, **Veri Kategorisi**'nin yanındaki aşağı açılan oku seçin.  Bu liste sütununuz için seçebileceğiniz veri kategorilerini gösterir. Sütununuzun geçerli veri türüyle kullanılamayacak olan bazı seçenekler devre dışı bırakılmış olabilir.  Örneğin, sütun ikili değer türündeyse Power BI Desktop coğrafi veri kategorilerini seçmenize izin vermez. 
+2. Şeritteki **Modelleme** sekmesinin **Özellikler** alanında, **Veri Kategorisi**'nin yanındaki aşağı açılan oku seçin.  Bu liste sütununuz için seçebileceğiniz veri kategorilerini gösterir. Sütununuzun geçerli veri türüyle kullanılamayacak olan bazı seçenekler devre dışı bırakılmış olabilir.  Örneğin, sütun tarih veya saat değer türündeyse Power BI Desktop coğrafi veri kategorilerini seçmenize izin vermez. 
 3. İstediğiniz kategoriyi seçin.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

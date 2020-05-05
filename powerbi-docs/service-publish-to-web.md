@@ -1,6 +1,6 @@
 ---
 title: Power BI'dan Web'de yayımlama
-description: Power BI'daki Web'de yayımla özelliği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz.
+description: Power BI’daki Web’de yayımlama özelliği sayesinde etkileşimli Power BI içeriğini blog gönderilerine, web sitelerine, e-postalara veya sosyal medyaya kolayca ekleyebilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,24 +9,24 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 1a3d4c264e343382422cbe2a881b5fcedaa19e13
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488787"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585274"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
-Power BI'ın **Web'de yayımla** seçeneği sayesinde etkileşimli Power BI görselleştirmelerini blog gönderileri, web siteleri, e-postalar veya sosyal medya üzerinden dilediğiniz cihazda görüntülemek üzere çevrimiçi ortamlara ekleyebilirsiniz. Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştirebilir, yenileyebilir veya yayımlanan görsellerinizin paylaşımını durdurabilirsiniz.
+Power BI’daki **Web’de yayımlama** seçeneği sayesinde etkileşimli Power BI içeriğini blog gönderilerine, web sitelerine, e-postalara veya sosyal medyaya kolayca ekleyebilirsiniz. Ayrıca yayımladığınız görselleri kolayca düzenleyebilir, güncelleştirebilir, yenileyebilir veya yayımlanan görsellerinizin paylaşımını durdurabilirsiniz.
 
 > [!WARNING]
-> **Web'de yayımla** seçeneğini kullandığınızda yayımladığınız rapor veya görseller, İnternet üzerindeki herkes tarafından görüntülenebilir. Bunun için kimlik doğrulaması gerekmez ve raporlarınızda toplanan ayrıntı düzeyindeki verileri görüntülemek de dahildir. Raporu yayımlamadan önce verileri ve görselleştirmeleri herkesle paylaşmanızın uygun olduğundan emin olun. Gizli veya özel bilgileri yayımlamayın. Bu konuda şüpheleriniz varsa yayımlamadan önce kuruluşunuzun ilkelerini inceleyin.
+> **Web'de yayımla** seçeneğini kullandığınızda yayımladığınız rapor veya görseller, İnternet üzerindeki herkes tarafından görüntülenebilir. Görüntülemek için kimlik doğrulaması gerekmez. Raporlarınızda toplanan ayrıntı düzeyindeki verilerin görüntülenmesini içerir. Raporu yayımlamadan önce verileri ve görselleştirmeleri herkesle paylaşmanızın uygun olduğundan emin olun. Gizli veya özel bilgileri yayımlamayın. Bu konuda şüpheleriniz varsa yayımlamadan önce kuruluşunuzun ilkelerini inceleyin.
 
 >[!Note]
->İçeriğinizi dahili bir portala veya web sitesine güvenle eklemek için [Ekle](service-embed-secure.md) veya [SharePoint Online'da Ekle](service-embed-report-spo.md) seçeneğini kullanın. Bu seçenekler, kullanıcılarınız dahili verilerinizi görüntülerken tüm izinlerin ve güvenliğin zorunlu tutulmasını sağlar.
+>İçeriğinizi bir iç portal veya web sitesine güvenli bir şekilde ekleyebilirsiniz. [Ekle](service-embed-secure.md) veya [SharePoint Online’a ekle](service-embed-report-spo.md) seçeneğini kullanın. Bu seçenekler, kullanıcılarınız iç verilerinizi görüntülediğinde tüm izinlerin ve veri güvenliğinin zorunlu tutulmasını sağlar.
 
-## <a name="how-to-use-publish-to-web"></a>Web'de yayımla özelliğini kullanma
+## <a name="create-embed-codes-with-publish-to-web"></a>Web’de yayımlama ile ekleme kodları oluşturma
 
 **Web'de yayımla** özelliğini, kişisel veya grup çalışma alanlarında düzenleyebildiğiniz raporlarda kullanabilirsiniz.  Sizinle paylaşılan raporlarda veya verileri korumak için satır düzeyi güvenliğe dayanan raporlarda kullanılamaz. **Web'de yayımla** özelliğinin desteklenmediği tüm durumların listesi için aşağıdaki [**Sınırlamalar**](#limitations) bölümüne bakın. **Web'de yayımla** özelliğini kullanmadan önce bu makalenin üst kısmındaki **Uyarı** bölümünü inceleyin.
 
@@ -36,36 +36,36 @@ Aşağıdaki kısa video bu özelliğin nasıl çalıştığını gösterir. Aş
 
 Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağını açıklamaktadır.
 
-1. Çalışma alanınızda, düzenleme yetkisine sahip olduğunuz bir rapor açın ve **Dosya > Web'de yayımla**'yı seçin.
+1. Düzenleyebileceğiniz bir çalışma alanında bir rapor açın ve **Diğer seçenekler (...)**   > **Ekle** > **Web’de yayımla (genel)** seçeneğini belirleyin.
 
-   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   ![Diğer seçeneklerde Web’de yayımla seçeneği](media/service-publish-to-web/power-bi-more-options-publish-web.png)
    
-2. Ekleme kodları oluşturmanıza izin verilmediyse [Power BI yöneticinize](service-admin-role.md) başvurun
+2. Power BI yöneticiniz ekleme kodları oluşturmanıza izin vermediyse kendisiyle iletişime geçmeniz gerekebilir.
 
-   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   ![Power BI yöneticinize başvurun](media/service-publish-to-web/publish_to_web_admin_prompt.png)
    
-   Kuruluşunuzda Web’de yayımla özelliğini etkinleştirebilecek birini bulmaya ilişkin yardım almak için [bu ipuçlarına bakın](#how-to-find-your-power-bi-administrator).
+   Kuruluşunuzda Web’de yayımlama özelliğini etkinleştirebilecek kişiyi bulmanıza yardımcı olması için bu makalenin devamındaki [Power BI yöneticinizi bulma](#find-your-power-bi-administrator) bölümüne bakın.
 
 3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
 
-   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
+   ![Genel bir web sitesine eklemeyi gözden geçirme](media/service-publish-to-web/publish_to_web2_ga.png)
 
 4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
 
-   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
+   ![Uyarıyı gözden geçirme](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. İletişim kutusuyla birlikte bir bağlantı görüntülenir. Bu bağlantıyı e-posta yoluyla gönderebilir, iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
+5. İletişim kutusuyla birlikte bir bağlantı görüntülenir. Bağlantıyı e-postada göndermek üzere seçin veya HTML’yi kopyalayın. Bu bağlantıyı iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
 
-   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
+   ![Başarılı: bir bağlantı ve HTML](media/service-publish-to-web/publish_to_web4.png)
 
 6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
 
-   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
+   ![Kod ekleme iletişim kutusu](media/service-publish-to-web/publish_to_web5.png)
 
    Her rapor için yalnızca bir ekleme kodu oluşturabilirsiniz.
 
 
-## <a name="tips-and-tricks-for-view-modes"></a>Görüntüleme modlarına ilişkin ipuçları ve püf noktaları
+### <a name="tips-for-view-modes"></a>Görünüm modları için ipuçları
 
 İçeriği bir blog gönderisine eklediğinizde genelde belirli bir ekran boyutuna sığdırmanız gerekir.  iFrame etiketinde yükseklik ve genişliği gerektiği şekilde ayarlayabilirsiniz. Ancak raporunuzun sağlanan iFrame alanına sığdığından emin olmalısınız, bu nedenle raporu düzenlerken uygun Görünüm Modunu da ayarlamanız gerekir.
 
@@ -77,7 +77,7 @@ Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüne
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur** ayarı, içeriğin iFrame’in yatay alanını doldurmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
 
-## <a name="tips-and-tricks-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları ve püf noktaları
+### <a name="tips-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları
 
 **Web'de yayımla** ekleme kodu aşağıdaki örnekte gösterildiği gibi görünür:
 
@@ -87,7 +87,7 @@ Genişlik ve yükseklik değerlerini el ile değiştirerek, eklediğiniz sayfada
 
 Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 piksel ekleyerek alt çubuğun geçerli boyutunu hesaba katabilirsiniz. Rapor sayfanızda dinamik boyut kullanılıyorsa aşağıdaki tabloda verilen değerleri kullanarak sinemaskop etkisine maruz kalmadan düzgün bir yerleşim sağlayabilirsiniz.
 
-| Oran | Boyut | Boyut (Genişlik x Yükseklik) |
+| Oran | Boyut | Boyut (genişlik x yükseklik) |
 | --- | --- | --- |
 | 16:9 |Küçük |640 x 416 piksel |
 | 16:9 |Orta |800 x 506 piksel |
@@ -102,7 +102,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet**'i seçin.
 
-   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
+   ![Ekleme kodlarını yönet](media/service-publish-to-web/publish_to_web8.png)
 
 2. Ekleme kodlarınız görüntülenir.
 
@@ -120,7 +120,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 **Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi iki veya üç saat sürebilir. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
 
-## <a name="data-refresh"></a>Veri yenileme
+### <a name="data-refresh"></a>Veri yenileme
 
 Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Yenilenen verilerin ekleme kodlarından görünür hale gelmesi yaklaşık bir saat sürebilir. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
 
@@ -128,47 +128,10 @@ Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak
 
 Power BI görselleri, **Web’de yayımla** işlevinde desteklenmektedir. **Web’de yayımla** özelliğini kullandığınızda yayımladığınız görseli paylaştığınız kullanıcıların raporu görüntülemek için Power BI görsellerini etkinleştirmesine gerek yoktur.
 
-## <a name="limitations"></a>Sınırlamalar
-
-**Web’de yayımla** özelliği Power BI hizmetindeki veri kaynaklarının ve raporların çoğu için desteklenir ama aşağıdaki öğeler şu anda **Web’de yayımla** işlevinde desteklenmez ve kullanılamaz:
-
-- Satır düzeyi güvenlik kullanan raporlar.
-- Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
-- Rapordan farklı bir çalışma alanında depolanmış, [paylaşılan veri kümesi](service-datasets-across-workspaces.md) kullanan raporlar.
-- Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
-- Düzenleme yetkisine sahip bir üye olmadığınız gruplardaki raporlar.
-- "R" Görselleri şu an için raporları **Web'de yayımla** özelliği tarafından desteklenmemektedir.
-- Web’de yayımlanan bir rapordaki görsellerden Verileri dışarı aktarma.
-- ArcGIS Maps for Power BI görselleri.
-- Rapor düzeyi DAX ölçüleri içeren raporlar.
-- Çoklu oturum açma veri sorgulama modelleri.
-- Gizli veya özel bilgilerin güvenliğini sağlama.
-- [Paylaşılan ve sertifikalı veri kümeleri](service-datasets-share.md).
-- **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embedded/embed-sample-for-your-organization.md) yaklaşımını kullanın.
-
-## <a name="tenant-setting"></a>Kiracı ayarı
-
-**Web’de yayımla** ayarı kullanıcıların ekleme kodları oluşturabileceği seçenekler getirir.
-
-![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
-
-**Ekleme kodlarının nasıl çalışacağını seçin** seçeneği **Yalnızca mevcut ekleme kodlarına izin ver** olarak ayarlandıysa ve **Web’de yayımla** ayarı **Etkin** durumdaysa, ekleme kodu oluşturmak için Power BI yöneticinize başvurmanız istenir.
-
-![Web'de yayımla istemi](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
-Power BI yöneticileri **Web'de yayımla** özelliğini etkinleştirebilir veya devre dışı bırakabilir. Belirli gruplara erişimi de kısıtlayabilirler ve bu ekleme kodu oluşturma becerinizi etkiler. **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşırsınız.
-
-|Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
-|---------|---------|---------|---------|
-|Raporun **Dosya** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
-|**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir.<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
-|Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak aşağıdakilerden biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum olarak **Devre dışı** görüntülenir|Durum olarak aşağıdakilerden biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
-|Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
-
 ## <a name="understanding-the-embed-code-status-column"></a>Ekleme kodu durum sütununu anlama
 
 >[!Note]
->Yayımladığınız ekleme kodlarını düzenli aralıklarla gözden geçirmeli ve artık genel kullanıma sunulması gerekmeyenleri kaldırmalısınız. 
+>Sık yayımladığınız ekleme kodlarını gözden geçirin. Artık genel kullanıma açık olması gerekmeyen tüm kodları kaldırın.
 
 **Ekleme kodlarını yönet** sayfası bir durum sütunu içerir. Varsayılan olarak ekleme kodları **Etkin** durumdadır ama aşağıda listelenen durumlarda da olabilirler.
 
@@ -177,32 +140,32 @@ Power BI yöneticileri **Web'de yayımla** özelliğini etkinleştirebilir veya 
 | **Etkin** |Rapor İnternet kullanıcıları tarafından görüntülenebilir ve raporla etkileşim kurulabilir. |
 | **Engellendi** |Rapor içeriği [Power BI Hizmet Kullanım Koşulları](https://powerbi.microsoft.com/terms-of-service)'nı ihlal ediyor. Microsoft tarafından engellendi. İçeriğin bir hata sonucu engellendiğini düşünüyorsanız desteğe başvurun. |
 | **Desteklenmiyor** |Raporun veri kümesi satır düzeyi güvenlik veya desteklenmeyen başka bir yapılandırma kullanıyor. Listenin tamamı için [**Sınırlamalar**](#limitations) bölümüne bakın. |
-| **İhlal edildi** |Ekleme kodu, tanımlanmış kiracı ilkesi kapsamının dışındadır. Bu durum genellikle, bir ekleme kodu oluşturulduktan sonra kiracıdaki **Web'de yayımla** ayarının, ekleme koduna sahip kullanıcı dışlanacak şekilde değiştirilmesiyle ortaya çıkar. Kiracı ayarı devre dışıysa veya kullanıcının artık ekleme kodu oluşturmasına izin verilmiyorsa mevcut ekleme kodları **İhlal edildi** durumunda görüntülenir. |
+| **İhlal edildi** |Ekleme kodu, tanımlanmış kiracı ilkesi kapsamının dışındadır. Bu durum genellikle, bir ekleme kodu oluşturulduktan sonra kiracıdaki **Web'de yayımla** ayarının, ekleme koduna sahip kullanıcı dışlanacak şekilde değiştirilmesiyle ortaya çıkar. Kiracı ayarı devre dışıysa veya kullanıcının artık ekleme kodu oluşturmasına izin verilmiyorsa mevcut ekleme kodları **İhlal edildi** durumunda görüntülenir. Ayrıntılar için bu makaledeki [Power BI yöneticinizi bulma](#find-your-power-bi-administrator) bölümüne bakın. |
 
-## <a name="how-to-report-a-concern-with-publish-to-web-content"></a>Web'de yayımla içeriğiyle ilgili sorunları bildirme
+## <a name="report-a-concern-with-publish-to-web-content"></a>Web’de yayımla içeriğiyle ilgili sorunları bildirme
 
-Bir web sitesine eklenmiş olan **Web'de yayımla** içeriğiyle ilgili bir sorunu bildirmek için aşağıdaki resimde gösterilen şekilde alt çubuktaki **Bayrak** simgesini kullanın. Microsoft’a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft, içeriği Power BI Hizmeti Kullanım Koşulları çerçevesinde değerlendirerek gerekli eylemi gerçekleştirecektir.
-
-Sorun bildirmek için gördüğünüz **Web'de yayımla** raporunun alt çubuğundaki **bayrak** simgesini seçin.
+Bir web sitesine eklenmiş olan **Web'de yayımla** içeriğiyle ilgili bir sorunu bildirmek için **Web’de yayımlama** raporunun alt çubuğundaki **Bayrak** simgesini kullanın.
 
 ![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
-## <a name="licensing-and-pricing"></a>Lisanslama ve Fiyatlandırma
+Microsoft’a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft, içeriği [Power BI Hizmeti Kullanım Koşulları](https://powerbi.microsoft.com/terms-of-service) çerçevesinde değerlendirerek gerekli eylemi gerçekleştirecektir.
+
+## <a name="licensing"></a>Lisanslama
 
 **Web'de yayımla** özelliğini kullanabilmek için Microsoft Power BI kullanıcısı olmanız gerekir. Raporunuzu görüntüleyen kişilerin Power BI kullanıcısı olması gerekmez.
 
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>Nasıl çalışır? (teknik bilgiler)
 
-**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
+**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu önbelleğe alma işlemi, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
 
-Önbellek uzun ömürlü olduğundan rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
+Önbellek uzun ömürlüdür. Rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Bu nedenle, çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir.
 
-## <a name="how-to-find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
+## <a name="find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
 
-[Web’de yayımla kiracı ayarlarını](#tenant-setting) değiştirmek için kuruluşunuzun [Power BI yöneticisiyle](service-admin-role.md) çalışmanız gerekir.
+Power BI yönetici portalı, web’de yayımlayabilecek kişileri denetlemenizi sağlayan ayarlara sahiptir. Yönetici portalında [Web’de yayımla kiracı ayarlarını](service-admin-role.md) değiştirmek için kuruluşunuzun [Power BI yöneticisiyle](service-admin-portal.md#publish-to-web) çalışın.
 
-Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI yöneticisi olmayabilir. [Kiracı yöneticisi devralma sürecimizi](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) izlemeniz gerekir. Power BI yöneticiniz varsa, yöneticiniz sizin için ekleme kodu oluşturmayı etkinleştirebilir.
+Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI yöneticisi olmayabilir. [Kiracı yöneticisi devralma sürecimizi](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) izleyin. Power BI yöneticiniz varsa, yöneticiniz sizin için ekleme kodu oluşturmayı etkinleştirebilir.
 
 Büyük kuruluşlar genelde bir Power BI yöneticisine sahip olur. Aşağıdaki rollerden herhangi birine sahip olan kişiler Power BI yöneticisi olarak görev yapabilir:
 
@@ -210,8 +173,25 @@ Büyük kuruluşlar genelde bir Power BI yöneticisine sahip olur. Aşağıdaki 
 - Azure Active Directory yöneticileri
 - Azure Active Directory’de Power BI hizmet yöneticisi rolüne sahip olan kullanıcılar
 
-Ayarı güncelleştirmeleri için kuruluşunuzda [bu kişilerden birini](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) bulmanız gerekir.
+Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) ve yönetici portalındaki [Web’de yayımla kiracı ayarlarını](service-admin-portal.md#publish-to-web) güncelleştirmelerini istemeniz gerekir.
 
+## <a name="limitations"></a>Sınırlamalar
+
+**Web’de yayımlama**, Power BI hizmetindeki çok sayıda veri kaynağı ve rapor için desteklenir. Ancak, şu rapor türleri şu anda desteklenmez veya **Web’de yayımlamak** için kullanılamaz:
+
+- Satır düzeyi güvenlik kullanan raporlar.
+- Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
+- Rapordan farklı bir çalışma alanında depolanmış, [paylaşılan veri kümesi](service-datasets-across-workspaces.md) kullanan raporlar.
+- [Paylaşılan ve sertifikalı veri kümeleri](service-datasets-share.md).
+- Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
+- Düzenleme yetkisine sahip bir üye olmadığınız çalışma alanındaki raporlar.
+- “R” görselleri şu an için raporları **Web'de yayımla** özelliği tarafından desteklenmiyor.
+- Web’de yayımlanan bir rapordaki görsellerden verileri dışarı aktarma.
+- ArcGIS Maps for Power BI görselleri.
+- Rapor düzeyi DAX ölçüleri içeren raporlar.
+- Çoklu oturum açma veri sorgulama modelleri.
+- Gizli veya özel bilgilerin güvenliğini sağlama.
+- **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](developer/embedded/embed-sample-for-your-organization.md) yaklaşımını kullanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

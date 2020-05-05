@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006814"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585073"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 
@@ -131,6 +131,11 @@ Geçerli raporun **Bölgenin Aylık Satışları** sayfasında **Bölge Yönetic
     >[!NOTE]
     >Bir dilimleyiciyi bir sayfa ile eşitlemenize karşın o sayfada görünür hale getirmezseniz, diğer sayfalarda yapılan dilimleyici seçimleri sayfadaki verileri filtrelemeye devam eder.
  
+## <a name="filtering-slicers"></a>Dilimleyicileri filtreleme
+Dilimleyicide görüntülenen değerlerin listesini azaltmak için dilimleyicilere görsel düzeyde filtreler uygulayabilirsiniz. Örneğin, bir liste dilimleyicisindeki boş değerleri veya bir aralık dilimleyicisindeki belirli tarihleri filtreleyebilirsiniz. Bunu yaptığınızda yalnızca *dilimleyicide gösterilen değerler* etkilenir, seçim yaptığınızda *dilimleyicinin diğer görsellere uyguladığı filtreler* etkilenmez. Örneğin, bir aralık dilimleyicisine yalnızca belirli tarihleri göstermesi için bir filtre uyguladığınızı varsayalım. Dilimleyicideki seçim, yalnızca bu aralıktaki ilk ve son tarihleri gösterir, ancak diğer görsellerinizde diğer tarihleri görmeye devam edersiniz. Dilimleyicideki seçili aralığı değiştirdiğinizde, diğer görsellerin güncelleştirildiğini görürsünüz. Dilimleyiciyi temizlediğinizde tüm tarihler yeniden gösterilir.
+
+Görsel düzeyde filtreler hakkında daha fazla bilgi için bkz. [Filtre türleri](../power-bi-report-filter-types.md).
+
 ## <a name="format-slicers"></a>Biçim dilimleyiciler
 Dilimleyici türüne bağlı olarak farklı biçimlendirme seçenekleri mevcuttur. **Yatay** yönü, **Duyarlı** düzeni ve **Öğe** renklendirmeyi kullanarak standart liste öğeleri yerine düğme ya da kutucuklar oluşturabilir ve dilimleyici öğelerini farklı ekran boyutları ve düzenlerine göre yeniden boyutlandırabilirsiniz.  
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464640"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584677"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Gelişmiş veri kümesi meta verilerini kullanma (önizleme)
 
@@ -46,6 +46,7 @@ Power BI Desktop’ı yeniden başlatmanız istenir.
 
 Önizleme sürümünde, önizleme özelliği etkinleştirildiğinde aşağıdaki sınırlamalar geçerli olur.
 
+### <a name="unsupported-features-and-connectors"></a>Desteklenmeyen özellikler ve bağlayıcılar
 Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri kümesi aşağıdaki özelliklerden veya bağlayıcılardan herhangi birini içeriyorsa yükseltme başarısız olur. Bu tür bir hata oluşursa, kullanıcı deneyimi üzerinde anında bir etki oluşmamalıdır ve Power BI Desktop önceki meta veri biçimini kullanmaya devam eder.
 
 * Python betikleri
@@ -67,6 +68,8 @@ Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri küm
 
 Ayrıca, **gelişmiş veri kümesi meta verilerini** kullanmak için başarıyla yükseltilmiş olan PBIX ve PBIT dosyaları, geçerli sürümde yukarıdaki özellikleri veya bağlayıcıları *kullanamaz*.
 
+### <a name="lineage-view"></a>Köken görünümü
+Yeni meta veri biçimini kullanan veri kümeleri, şu anda Power BI hizmetindeki veri kökeni görünümde yer alan veri akışları bağlantılarını göstermiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

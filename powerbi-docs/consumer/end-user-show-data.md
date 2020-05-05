@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3587118d6ee844f611d69666e163f64e4d499475
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 7367c94a0eca86291d3f520cc947fceda06d659a
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267331"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585297"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI ile verileri görüntüleme
 
@@ -22,22 +22,22 @@ ms.locfileid: "81267331"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI görseli, temel alınan veri kümelerindeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI hizmeti bir raporda görsel oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. Power BI, **Verileri Göster**’i seçtiğinizde verileri görselin altında (veya yanında) gösterir.
+Power BI görseli, temel alınan veri kümelerindeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI hizmeti bir raporda görsel oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. Power BI, **Tablo olarak göster**’i seçtiğinizde verileri görselin altında (veya yanında) gösterir.
 
 Bir panoda, temel alınan verileri görmek için [Excel’e Aktar](end-user-export.md)’ı kullanın
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>Bir rapor görseli oluşturmak için kullanılan verileri görüntüleme
 1. Power BI hizmetinde [bir raporu açın](end-user-report-open.md) ve görsel seçin.  
-2. Görselin ardındaki verileri görüntülemek için **Diğer seçenekler**’i (...) ve **Verileri göster**’i seçin.
+2. Görselin ardındaki verileri görüntülemek için **Diğer seçenekler**’i (...) ve **Tablo olarak göster**’i seçin.
    
-   ![Verileri göster’i seçin](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
+   ![açılan listeden Tablo olarak göster’i seçme](./media/end-user-show-data/power-bi-show-data-vertical.png)
 3. Veriler varsayılan olarak görselin altında gösterilir.
    
-   ![görsel ve veri dikey görüntüsü](./media/end-user-show-data/power-bi-show-data-new.png)
+   ![görsel ve veri dikey görüntüsü](./media/end-user-show-data/power-bi-show-data-table.png)
 
 4. Yönü değiştirmek için, görselleştirmenin sağ üst köşesinde dikey düzeni ![düzen simgesi](media/end-user-show-data/power-bi-vertical-icon-new.png) seçin.
    
-   ![görsel ve veri yatay görüntüsü](./media/end-user-show-data/power-bi-show-data-rotate.png)
+   ![görsel ve veri yatay görüntüsü](./media/end-user-show-data/power-bi-horizontal.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görseller](../visuals/power-bi-report-visualizations.md)    

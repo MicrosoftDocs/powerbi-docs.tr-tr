@@ -1,38 +1,62 @@
 ---
-title: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
-description: Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
+title: Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
+description: Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
-ms.author: kfollis
+ms.date: 04/24/2020
+ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: aab3c01abc970261164c5cc225d89db09ce63d12
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698452"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256188"
 ---
-# <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Yeni bir Office 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
+# <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
+Bu makalede, bir iş veya okul e-posta adresiniz yoksa Power BI’a kaydolmaya yönelik alternatif bir yol açıklanmaktadır. 
 
-Bu makalede Power BI'a kaydolmanın alternatif yollarından biri olan Office 365 deneme sürümü kullanımı hakkında bilgi verilmektedir. Power BI'a iş e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](service-self-service-signup-for-power-bi.md#supported-email-addresses) olduğundan emin olun. Kayıt işlemi başarılı olmazsa önce bir Office 365 deneme sürümüne kaydolup ardından Power BI'a kaydolmayı deneyebilirsiniz. Office 365 deneme sürümünün süresi dolsa bile Power BI'ı kullanmaya devam edebilirsiniz.
+Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](service-self-service-signup-for-power-bi.md#supported-email-addresses) olduğundan emin olun. Bu işe yaramazsa Microsoft 365 deneme sürümüne kaydolup bir iş hesabı oluşturun. Daha sonra, Power BI hizmetine kaydolmak için bu yeni iş hesabını kullanın. Microsoft 365 deneme sürümünün süresi dolsa bile Power BI’ı kullanmaya devam edebilirsiniz.
 
-1. [Office 365 web sitesine](https://go.microsoft.com/fwlink/p/?LinkID=403802) giderek bir Office 365 deneme sürümüne kaydolun.
+> [!NOTE]
+> Office 365’in adı yakın zamanda Microsoft 365 olarak değiştirildi. Tüm makalelerimiz güncelleştirilene kadar bu üründen Office 365 olarak bahsedildiğini görebilirsiniz.
 
-1. Kayıt işlemini tanımlamanızın ardından, you@yourcompany.onmicrosoft.com gibi görünen yeni bir oturum açma adı edinirsiniz. Bu bilgilerle Power BI'da oturum açabilirsiniz.
+1. [Microsoft 365 web sitesinden](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans) Microsoft 365 deneme sürümüne kaydolun.
 
-1. [Bu bağlantıyı kullanarak](https://app.powerbi.com/signupredirect?pbi_source=web) Power BI'a kaydolun. İstenirse, önceki adımda Office 365 için seçtiğiniz oturum açma adını ve parolayı kullanarak oturum açın.
+    ![karşılama sayfası](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-now.png)
 
-1. İşte bu kadar! İşlem tamamlandığında yeniden Power BI'a yönlendirilirsiniz. Yeni hesapla oturum açma sırasında sorun yaşıyorsanız gizli bir tarayıcı oturumu kullanmayı deneyin.
+    ![Yeni bir hesaba kaydolmayı seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-existing.png)
+
+    ![iş veya okul hesabı oluşturun](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-email.png)
+
+    ![Yeni bir hesaba kaydolmayı seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-no-email.png)
+
+    ![iletişim bilgilerinizi girin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-welcome-you.png)
+
+    
+
+1. you@yourcompany.onmicrosoft.com gibi görünen yeni iş oturum açma adınızı oluşturun. Bu bilgilerle Power BI'da oturum açabilirsiniz.
+
+    ![iş adresi oluşturun](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-address.png)
+
+    ![kodu metin mesajıyla alın](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-robot.png)    
+
+1. Yeni kiracınız oluşturulurken beklemeniz gerekebilir. 
+
+Hepsi bu!  Artık Power BI’a kaydolmak için kullanabileceğiniz bir e-posta adresiniz var. [Power BI hizmetine bireysel olarak kaydolma](service-self-service-signup-for-power-bi.md) sayfasına gidin
+
+
+
+
 
 ## <a name="important-considerations"></a>Önemli noktalar
+Yeni hesapla oturum açma sırasında sorun yaşıyorsanız gizli bir tarayıcı oturumu kullanmayı deneyin.    
 
-Oturum açma yöntemini kullanarak yeni bir kuruluş kiracısı oluşturursunuz ve bu kiracının yöneticisi olarak atanırsınız. Daha fazla bilgi için bkz. [Power BI yönetimi nedir?](service-admin-administering-power-bi-in-your-organization.md). Kiracınıza yeni kullanıcılar ekleyebilir ve ardından söz konusu kullanıcılarla [Office 365 yönetim belgelerinde](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) açıklandığı gibi paylaşımda bulunabilirsiniz.
+Oturum açma yöntemini kullanarak yeni bir kuruluş kiracısı oluşturursunuz ve bu kiracının yöneticisi olarak atanırsınız. Daha fazla bilgi için bkz. [Power BI yönetimi nedir?](service-admin-administering-power-bi-in-your-organization.md). Kiracınıza yeni kullanıcılar ekleyebilir ve ardından söz konusu kullanıcılarla [Microsoft 365 yönetim belgelerinde](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) açıklandığı gibi paylaşımda bulunabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

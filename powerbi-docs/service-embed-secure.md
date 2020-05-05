@@ -7,26 +7,28 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488833"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585051"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
 Power BI raporları için güvenli **Ekleme** özelliğiyle, raporları dahili web portallarına kolayca ve güvenli bir şekilde ekleyebilirsiniz. Bu portallar **bulut tabanlı** olabilir veya **şirket içinde barındırılabilir** (SharePoint 2019 gibi). Eklenen raporlarda [satır düzeyi güvenlik (RLS)](service-admin-rls.md) aracılığıyla tüm öğe izinlerine ve veri güvenliğine uyulur. Bunlar, URL veya iFrame kabul eden bir portala kodsuz ekleme sağlar. 
 
-**Ekle** seçeneği [URL Filtrelerini](service-url-filters.md) ve URL ayarlarını da destekler. Bu seçenek, portalları yalnızca temel HTML ve JavaScript bilgisi gerektiren düşük kodlu bir yaklaşım kullanarak tümleştirmenize olanak tanır.
+**Ekle** seçeneği [URL filtrelerini](service-url-filters.md) ve URL ayarlarını da destekler. Bu seçenek, portalları yalnızca temel HTML ve JavaScript bilgisi gerektiren düşük kodlu bir yaklaşım kullanarak tümleştirmenize olanak tanır.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI raporlarını portallara **ekleme**
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI raporlarını portallara ekleme
 
-1. Power BI hizmetinde raporlara yönelik yeni **Ekle** seçeneği **Dosya** menüsünde sağlanır.
+1. Power BI hizmetinde bir raporu açın.
 
-    ![Güvenli Ekle seçeneği açılan menüsü](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. **Diğer seçenekler (...)** menüsünde **Ekle** >  **Web sitesi veya portal**’ı seçin.
+
+    ![Web sitesi veya portal seçeneği](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. Raporu güvenle eklemek için kullanabileceğiniz bir bağlantı ve iFrame sağlayan iletişim kutusunu açmak için **Ekle** seçeneğini belirtin.
 
