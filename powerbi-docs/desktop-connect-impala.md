@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: edac9f4eb0269e1d6ae359db6e8060b64697658c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878533"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Impala veritabanına bağlanma
@@ -26,7 +26,7 @@ Bir **Impala** veritabanına bağlanmak için aşağıdaki adımları izleyin:
 
 2. Soldaki kategorilerden **Veritabanı**'nı seçin. Açılan sayfada **Impala**'yı göreceksiniz.
 
-    ![Veri Al](media/desktop-connect-impala/connect_impala_2.png)
+    ![Verileri Al](media/desktop-connect-impala/connect_impala_2.png)
 
 3. Açılan **Impala** penceresindeki kutuya Impala sunucunuzun adını yazın veya yapıştırın. Ardından **Tamam**'ı seçin. **İçeri aktar** seçeneğini belirleyerek verileri doğrudan Power BI'a aktarabilir veya **DirectQuery**'yi kullanabilirsiniz. [DirectQuery'yi kullanma](desktop-use-directquery.md) hakkında daha fazla bilgi edinin.
 

@@ -11,10 +11,10 @@ ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
 ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066089"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>Power BI hizmetini *tüketici* olarak kullanma

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 934827311e089e34e56fbcffe4d4c58a056df4ad
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761715"
 ---
 # <a name="administrators-manage-the-power-bi-desktop-sign-in-form"></a>Yöneticiler: Power BI Desktop oturum açma formunu yönetme

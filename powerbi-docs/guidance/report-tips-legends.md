@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82066119"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI raporlarında göstergeleri biçimlendirme ve uygulamaya yönelik ipuçları

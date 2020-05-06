@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757888"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Basit alan grafikleri oluşturma ve kullanma
@@ -41,7 +41,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
-1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+1. Select ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
 
 ## <a name="create-a-basic-area-chart"></a>Basit alan grafiği oluşturma
@@ -57,7 +57,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
    ![alan grafiği simgesi](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **Eksen** kutusuna eklemek üzere **Time \> FiscalMonth** alanını seçin.   
+   c.  **Eksen\> kutusuna eklemek üzere** Time  **FiscalMonth** alanını seçin.   
    ![alan grafiği eksen değerleri](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Grafiği aya göre görüntülemek için, üç nokta (görselin sağ üst köşesinde) simgesini seçin ve **Sıralama Ölçütü: Month** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.

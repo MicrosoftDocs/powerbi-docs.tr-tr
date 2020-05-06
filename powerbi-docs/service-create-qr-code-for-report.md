@@ -1,6 +1,6 @@
 ---
 title: Power BI Mobil uygulamalarında kullanmak üzere bir rapor için QR kodu oluşturma
-description: Power BI'daki QR kodları kullanılarak gerçek dünyadaki her şey, Power BI Mobil uygulamasındaki ilgili BI bilgilerine, arama gerekmeden doğrudan bağlanabilir.
+description: Power BI'daki QR kodları ile, gerçek dünyadaki her şey Power BI Mobil uygulamasındaki ilgili BI bilgilerine arama gerekmeden doğrudan bağlanılabilir.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853381"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir rapor için QR kodu oluşturma
@@ -50,5 +50,5 @@ Power BI, QR kodunu, JPG dosyası olarak yazdırılmaya hazır bir şekilde olu�
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [Mobil cihazınızdan Power BI QR kodu tarama](consumer/mobile/mobile-apps-qr-code.md)
 * [Bir kutucuk için QR kodu oluşturma](service-create-qr-code-for-tile.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

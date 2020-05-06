@@ -9,10 +9,10 @@ ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120257"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti

@@ -10,10 +10,10 @@ ms.date: 04/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
 ms.openlocfilehash: 801b5cf5400bbe1cc0487eef596ea3d1cdc5fb1e
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120217"
 ---
 # <a name="collaborate-in-workspaces"></a>Çalışma alanında işbirliği yapma

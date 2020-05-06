@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
 ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82196641"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma

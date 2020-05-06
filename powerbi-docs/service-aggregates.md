@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
 ms.openlocfilehash: bc172f3f5c25a0f0c3773befe5bd846f95a9a2e0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698360"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
@@ -96,7 +96,7 @@ Bir alanı toplamak için kullanılabilen seçeneklerden bazıları şunlardır:
 
 Örneğin, aşağıdaki veriler kullanıldığında,
 
-| Ülke | Miktar |
+| Ülke | Tutar |
 |:--- |:--- |
 | Amerika Birleşik Devletleri |100 |
 | Birleşik Krallık |150 |
@@ -152,7 +152,7 @@ Sayısal olmayan bir alanı da toplayabilirsiniz. Örneğin, bir ürün adı ala
 
 S:  **Özetleme** seçeneğini neden görmüyorum?
 
-C:  Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop-measures.md)’ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Power BI’ın kullandığı toplama işlemini değiştiremezsiniz. Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. **Alanlar** listesinde hesap makinesi sembolüyle *hesaplanan ölçüler* gösterilir.
+Y:  Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](desktop-measures.md)’ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Power BI’ın kullandığı toplama işlemini değiştiremezsiniz. Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. **Alanlar** listesinde hesap makinesi sembolüyle *hesaplanan ölçüler* gösterilir.
 
 S:  Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
 
@@ -181,7 +181,7 @@ Y:  Veri kümesi sahipleri her alan için varsayılan özetlemeyi ayarlayabilir.
 
 S:  Ben bir veri kümesi sahibiyim ve bir alanın hiçbir zaman toplanmamasını sağlamak istiyorum.
 
-C:  Power BI Desktop'taki **Modelleme** sekmesinde, **Veri türü**'nü **Metin** olarak ayarlayın.
+Y:  Power BI Desktop'taki **Modelleme** sekmesinde, **Veri türü**'nü **Metin** olarak ayarlayın.
 
 S:  Açılan listede **Özetleme** seçeneğini görmüyorum.
 

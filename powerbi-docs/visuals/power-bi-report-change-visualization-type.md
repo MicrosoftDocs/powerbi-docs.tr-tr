@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871039"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Bir Power BI raporundaki görselleştirmenin türünü değiştirme
@@ -28,7 +28,7 @@ Verilerinizi en iyi şekilde gösteren görselleştirmeyi bulmak için Power BI 
 2. Etkin duruma getirmek için bir görselleştirmeyi seçin. Etkin görselleştirmenin etrafında tutamaçlar ve kenarlık vardır.    
 3. Görsel Öğeler bölmesinde yeni bir görselleştirme türü seçin. 
    
-   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
+   ![sütun grafiğinin çizgi grafiğe dönüştürülmesini gösteren video](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif)dokunun.
 4. (İsteğe bağlı) Görselleştirmenizi panonuza bir kutucuk olarak [sabitleyin](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme

@@ -10,10 +10,10 @@ ms.date: 04/27/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: a2c711376a3665cfa56c25384e8351890eee7198
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255910"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Power BI hizmetine bireysel olarak kaydolma

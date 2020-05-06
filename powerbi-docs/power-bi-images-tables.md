@@ -11,10 +11,10 @@ ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874476"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Bir tablo, matris veya dilimleyicideki görüntüleri raporda görüntüleme
@@ -35,7 +35,7 @@ Raporlara görüntüler eklemek, raporlarınızı geliştirmenin iyi bir yoludur
 
     ![Görüntülerle birlikte dilimleyici](media/power-bi-images-tables/power-bi-url-images-slicer.png)
 
-## <a name="considerations"></a>Önemli noktalar
+## <a name="considerations"></a>Dikkat edilmesi gereken noktalar
 
 - Görüntünün şu dosya biçimlerinden birinde olması gerekir: .bmp, .jpg, .jpeg, .gif, .png veya .svg
 - URL'nin SharePoint gibi oturum açma gerektiren bir site üzerinde değil, anonim olarak erişilebilir olması gerekir. Ancak, görüntüler SharePoint veya OneDrive üzerinde barındırılıyorsa, doğrudan bunları işaret eden bir ekleme kodu alabilirsiniz. 
@@ -45,7 +45,7 @@ Raporlara görüntüler eklemek, raporlarınızı geliştirmenin iyi bir yoludur
 
 [Sayfa düzeni ve biçimlendirme](/learn/modules/visuals-in-power-bi/12-formatting)
 
-[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

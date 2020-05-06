@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
 ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/28/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82196572"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Yüksek performanslı Power BI görseli oluşturma

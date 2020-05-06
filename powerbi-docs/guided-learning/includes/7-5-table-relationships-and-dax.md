@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800198"
 ---
 Power BI, tamamen farklı veri kaynaklarından gelen tablolar da dahil olmak üzere birden çok tablo arasında ilişkiler oluşturmanızı sağlar. Power BI Desktop'ın **İlişkiler** görünümünde herhangi bir veri modeli için bu ilişkileri görebilirsiniz.

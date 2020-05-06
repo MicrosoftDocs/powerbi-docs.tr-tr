@@ -10,10 +10,10 @@ ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: c3f0b536695f5ed126ddc82c9e1891d317ef953f
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81447453"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI kullanıcıları lisanslarını görüntüleme ve yönetme

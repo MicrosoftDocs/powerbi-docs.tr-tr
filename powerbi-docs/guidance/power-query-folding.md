@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75622155"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta sorguyu kaynağa döndürme kılavuzu

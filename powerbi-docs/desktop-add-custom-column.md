@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878868"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
@@ -49,7 +49,7 @@ Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu
 
 - **Yeni sütun adı** kutusunda özel sütununuzun ilk adı. Bu sütunu yeniden adlandırabilirsiniz.
 
-- **Özel sütun formülü** kutusunda [PowerQuery M formülü sorguları](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). Bu sorguları, yeni özel sütununuzun tanımlandığı formülü oluşturarak oluşturursunuz. 
+- [Özel sütun formülü](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) kutusunda **PowerQuery M formülü sorguları**. Bu sorguları, yeni özel sütununuzun tanımlandığı formülü oluşturarak oluşturursunuz. 
 
    ![Özel Sütun Ekle sayfası](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -67,7 +67,7 @@ Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu
 
    ![Özel Sütun Ekle sayfasındaki hata](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. **Tamam**'ı seçin. 
+3. **Tamam**’ı seçin. 
 
    Power BI Desktop, özel sütununuzu modele ekler ve **Özel Eklendi** adımını **Sorgu Ayarları**’nda sorgunuzun **Uygulanan Adımlar** listesine ekler.
 
@@ -79,7 +79,7 @@ Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>Özel sütunlar için Gelişmiş Düzenleyici'yi kullanma
 
-Sorgunuzu oluşturduktan sonra, sorgunuzun herhangi bir adımını değiştirmek için **Gelişmiş Düzenleyici**’yi de kullanabilirsiniz. Bunu yapmak için şu adımları uygulayın:
+Sorgunuzu oluşturduktan sonra, sorgunuzun herhangi bir adımını değiştirmek için **Gelişmiş Düzenleyici**’yi de kullanabilirsiniz. Bunu yapmak için aşağıdaki adımları izleyin:
 
 1. **Sorgu Düzenleyicisi** penceresinde şeritteki **Görünüm** sekmesini seçin. 
 
