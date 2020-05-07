@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: gepopell
 LocalizationGroup: Connect to data
 ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761421"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI’da bağlayıcı genişletilebilirliği

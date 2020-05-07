@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d0f258af383327fb25c8f0e896677bbd19eca6c4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877424"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
@@ -30,11 +30,11 @@ Will bize Excel çalışma kitaplarındaki verileri içeri aktarmak ve bu verile
 ## <a name="connect-your-excel-workbook-from-onedrive-for-business-to-power-bi"></a>OneDrive İş'teki Excel çalışma kitabınızı Power BI'a bağlama
 **Bağlan**'ı seçtiğinizde çalışma kitabınız, Power BI'da tıpkı Excel Online'da göründüğü gibi görünecektir. Ancak, Excel Online'dan farklı olarak çalışma sayfalarınızdaki öğeleri doğrudan panolarınıza sabitlemenize yardımcı olacak harika özellikler edineceksiniz.
 
-Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak bazı değişiklikler yapmanız gerekirse çalışma alanınızın **Çalışma Kitapları** sekmesinden kalem simgesini seçip çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel programında açmayı seçebilirsiniz. Yaptığınız tüm değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
+Çalışma kitabınızı Power BI'da düzenleyemezsiniz. Ancak bazı değişiklikler yapmanız gerekirse çalışma alanınızın **Çalışma Kitapları** sekmesinden kalem simgesini seçip çalışma kitabınızı Excel Online'da düzenlemeyi veya bilgisayarınızdaki Excel programında açmayı seçebilirsiniz. Yaptığınız değişiklikler OneDrive'daki çalışma kitabına kaydedilir.
 
 1. Çalışma kitabınızı OneDrive İş hesabınıza yükleyin.
 
-2. Power BI’de **Veri Al > Dosyalar > OneDrive - İş**’i seçip Excel dosyasını kaydettiğiniz konuma giderek [söz konusu çalışma kitabına bağlanın](service-excel-workbook-files.md). Dosyayı ve **Bağlan > Bağlan** öğesini seçin.
+2. Power BI’de [Veri Al > Dosyalar > OneDrive - İş](service-excel-workbook-files.md)’i seçip Excel dosyasını kaydettiğiniz konuma giderek **söz konusu çalışma kitabına bağlanın**. Dosyayı ve **Bağlan > Bağlan** öğesini seçin.
 
     ![OneDrive İş iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
@@ -54,13 +54,13 @@ Yeni bir [pano kutucuğu](consumer/end-user-tiles.md) eklemenin yollarından bir
    
     ![Excel çalışma kitabında hücreleri seçme](media/service-dashboard-pin-tile-from-excel/pbi_selectrange.png)
 2. Raptiye ![raptiye simgesi](media/service-dashboard-pin-tile-from-excel/pbi_pintile_small.png) simgesini seçin. 
-3. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. 
+3. Kutucuğu var olan bir panoya veya yeni bir panoya sabitleyin. 
    
-   * Var olan pano: Açılan listeden panonun adını seçin.
-   * Yeni pano: Yeni panonun adını yazın.
+   * Var olan pano: Açılan listeden pano adını seçin.
+   * Yeni pano: Yeni panonun adını girin.
    
      ![Panoya sabitle iletişim kutusu](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
-4. **Sabitle**'yi seçin. Sağ üst köşeye yakın bir noktada çıkan Başarılı iletisi, aralığın bir kutucuk olarak panonuza eklendiğini bildirir. 
+4. **Raptiye** düğmesini seçin. Sağ üst köşeye yakın bir noktada çıkan Başarılı iletisi, aralığın bir kutucuk olarak panonuza eklendiğini bildirir. 
    
     ![Panoya sabitlendi iletişim kutusu](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. **Panoya git**'i seçin. Burada, sabitlenmiş görselleştirmeyi [yeniden adlandırabilir, yeniden boyutlandırabilir, bağlantılı hale getirebilir ve taşıyabilirsiniz](service-dashboard-edit-tile.md). Varsayılan olarak, sabitlenen kutucuk seçildiğinde çalışma kitabı Power BI'da açılır.
@@ -80,7 +80,7 @@ Bir çalışma kitabı kutucuğu seçildiğinde bağlantılı çalışma kitabı
  ![video](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Desteklenmeyen özellikler: Power BI, çalışma kitabı kutucuklarını almak için Excel Hizmetleri'ni kullanır. Bu nedenle, Excel'in bazı özellikleri Excel Hizmetleri REST API'sinde desteklenmediğinden söz konusu özellikler Power BI'daki kutucuklarda görülmez. Örnek: Mini grafikler, simge kümesi koşullu biçimlendirme özelliği ve zaman dilimleyicileri. Desteklenmeyen özelliklerin tam listesi için bkz. [Unsupported Features in Excel Services REST API (Excel Hizmetler REST API'sinde Desteklenmeyen Özellikler)](https://msdn.microsoft.com/library/office/ff394477.aspx)
+Desteklenmeyen özellikler: Power BI, çalışma kitabı kutucuklarını almak için Excel Hizmetleri'ni kullanır. Bu nedenle, Excel'in bazı özellikleri Excel Hizmetleri REST API'sinde desteklenmediğinden söz konusu özellikler Power BI'daki kutucuklarda görülmez. Örneğin, mini grafikler, simge kümesi koşullu biçimlendirme özelliği ve zaman dilimleyicileri. Desteklenmeyen özelliklerin tam listesi için bkz. [Unsupported Features in Excel Services REST API (Excel Hizmetler REST API'sinde Desteklenmeyen Özellikler)](https://msdn.microsoft.com/library/office/ff394477.aspx)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Excel çalışma kitabıyla bağlantılı bir panoyu paylaşma](service-share-dashboard-that-links-to-excel-onedrive.md)

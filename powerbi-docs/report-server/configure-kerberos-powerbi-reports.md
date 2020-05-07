@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874233"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
@@ -60,7 +60,7 @@ Rapor sunucusu kimlik doğrulaması türünü, Kerberos kısıtlanmış temsil y
 
 rsreportserver.config dosyasında **Authentication/AuthenticationTypes** bölümünü bulun.
 
-RSWindowsNegotiate öğesinin mevcut olduğundan ve kimlik doğrulaması türleri arasında ilk sırada olduğundan emin olun. Liste aşağıdakine benzer olmalıdır.
+RSWindowsNegotiate öğesinin mevcut olduğundan ve kimlik doğrulaması türleri arasında ilk sırada olduğundan emin olun. URL'nin aşağıdakine benzer şekilde görünmesi gerekir.
 
 ```xml
 <AuthenticationTypes>
@@ -194,16 +194,16 @@ Protokol geçişi ile kısıtlanmış temsili yapılandıracağız. Kısıtlanm�
 6. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
 7. Analysis Services hizmetine ilişkin hizmet hesabını girin ve **Tamam**'ı seçin.
 8. Oluşturduğunuz SPN'yi seçin. `MSOLAPSvc.3` ile başlayacaktır. Hem FQDN hem de NetBIOS SPN'lerini eklediyseniz ikisi de seçilir. Yalnızca birini görebilirsiniz.
-9. **Tamam**'ı seçin.  SPN'nin listede görünmesi gerekir.
+9. **Tamam**’ı seçin.  SPN'nin listede görünmesi gerekir.
 10. İsterseniz **Genişletilmiş**'i seçerek hem FQDN hem de NetBIOS SPN'sini listede görebilirsiniz.
 11. **Ekle**'yi tekrar seçin. Şimdi SQL Browser SPN'sini ekleyeceksiniz.
 12. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
 13. SQL Browser hizmetinin bulunduğu makinenin Makine adını girin ve **Tamam**'ı seçin.
 14. Oluşturduğunuz SPN'yi seçin. `MSOLAPDisco.3` ile başlayacaktır. Hem FQDN hem de NetBIOS SPN'lerini eklediyseniz ikisi de seçilir. Yalnızca birini görebilirsiniz.
-15. **Tamam**'ı seçin. **Genişletilmiş**'i işaretlediyseniz iletişim kutusu aşağıdakine benzer olacaktır.
+15. **Tamam**’ı seçin. **Genişletilmiş**'i işaretlediyseniz iletişim kutusu aşağıdakine benzer olacaktır.
     
     ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. **Tamam**'ı seçin.
+16. **Tamam**’ı seçin.
 17. Power BI Rapor Sunucusu'nu yeniden başlatın.
 
 ## <a name="running-a-power-bi-report"></a>Power BI raporu çalıştırma

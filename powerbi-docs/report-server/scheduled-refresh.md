@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837609"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu zamanlanmış yenilemesi
@@ -24,7 +24,7 @@ Zamanlanmış yenileme, katıştırılmış modele sahip Power BI raporlarına �
 
 Zamanlanmış yenileme, raporun yönetim bölümünden yapılandırılır. Zamanlanmış yenileme yapılandırması hakkında daha fazla bilgi için bkz. [How to configure Power BI report scheduled refresh (Power BI raporlarına ilişkin zamanlanmış yenilemeyi yapılandırma)](configure-scheduled-refresh.md).
 
-## <a name="how-this-works"></a>Nasıl çalışır?
+## <a name="how-this-works"></a>Nasıl çalışır
 Power BI raporlarınız için zamanlanmış yenileme özelliğini kullanırken birçok bileşenden faydalanırsınız.
 
 * SQL Server Agent, zamanlanmış olaylar oluşturmak için zamanlayıcı görevi görür.

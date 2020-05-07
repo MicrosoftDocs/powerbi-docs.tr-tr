@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/16/2020
 ms.openlocfilehash: 0b57ec084477955086b3d1bb0acd0a3139d325c6
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160616"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
@@ -47,7 +47,7 @@ Power BI Premium’u satın aldıysanız Power BI yönetici portalının **Premi
 
 ![Premium ayarları](../report-server/media/install-report-server/pbirs-product-key.png "Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı")
 
-**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
+**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayabilir ve yükleme sırasında kullanabilirsiniz.
 
 ![Ürün anahtarı](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Power BI Rapor Sunucusu ürün anahtarı")
 
@@ -68,7 +68,7 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
     ![Power BI Rapor Sunucusu'nu yükleme](media/install-report-server/pbireportserver-install.png)
 3. Yüklenecek sürümü belirleyip **İleri**'yi seçin.
 
-    ![Sürüm seçme](media/install-report-server/pbireportserver-choose-edition.png)
+    ![Sürüm seçin](media/install-report-server/pbireportserver-choose-edition.png)
 
     Değerlendirme veya Geliştirici sürümünü seçin.
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
 ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853400"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
@@ -72,7 +72,7 @@ Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini i
 2. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporu Düzenleme görünümünde açın.
 
     ![Okuma görünümünde rapor](media/service-dashboard-create/power-bi-reading-view.png)
-3. Kullanılabilir seçenekleri görüntülemek için bir görselleştirmenin üzerine gelin. Panoya görselleştirme eklemek için raptiye simgesini seçin ![Raptiye simgesi](media/service-dashboard-create/power-bi-pin-icon.png)geçin.
+3. Kullanılabilir seçenekleri görüntülemek için bir görselleştirmenin üzerine gelin. Panoya görselleştirme eklemek için raptiye simgesini seçin ![Raptiye simgesi](media/service-dashboard-create/power-bi-pin-icon.png).
 
     ![Kutucuğun üzerine gelin](media/service-dashboard-create/power-bi-hover.png)
 4. Yeni bir pano oluşturduğumuz için **Yeni pano** seçeneğini belirtin ve buna bir ad verin.

@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160823"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI hizmet yöneticisi rollerini anlama

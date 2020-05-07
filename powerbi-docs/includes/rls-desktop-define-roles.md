@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464443"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop'ta rol ve kural tanımlama
@@ -30,7 +30,7 @@ Güvenlik rollerini tanımlamak için şu adımları izleyin.
    ![Rolleri yönet penceresi](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olduğunu unutmayın. Power BI hizmetinde ve Power BI Rapor Sunucusu'nda, kullanıcının Kullanıcı Asıl Adı (UPN) biçimindedir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde (*kullanıcıadı\@contoso.com*) döndüren *userprincipalname()* işlevini kullanabilirsiniz.
+   > Bu ifadede *username()* parametresini kullanabilirsiniz. *username()* parametresinin Power BI Desktop'ta *ETKİALANI\kullanıcıadı* biçiminde olduğunu unutmayın. Power BI hizmetinde ve Power BI Rapor Sunucusu'nda, kullanıcının Kullanıcı Asıl Adı (UPN) biçimindedir. Alternatif olarak kullanıcıyı her zaman kullanıcı asıl adı biçiminde (*kullanıcıadı*contoso.com *) döndüren \@userprincipalname()* işlevini kullanabilirsiniz.
    > 
    > 
 
@@ -43,7 +43,7 @@ Güvenlik rollerini tanımlamak için şu adımları izleyin.
    >
    >
    
-8. **Kaydet**'i seçin.
+8. **Kaydet**’i seçin.
 
 Power BI Desktop'ta kullanıcıları bir role atayamazsınız. Onları Power BI hizmetinde atarsınız. *username()* veya *userprincipalname()* DAX işlevlerini kullanarak ve ilişkileri doğru şekilde yapılandırarak Power BI Desktop'ta dinamik güvenliği etkinleştirebilirsiniz. 
 

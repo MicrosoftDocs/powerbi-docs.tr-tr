@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33fc0faf92d1730c1d08f91eabc276cdafadfffb
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761123"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Dağıtımların değişkenlik gösterdiği yerleri keşfetmek için Power BI Desktop'ta içgörüler uygulama (önizleme)
@@ -66,14 +66,14 @@ Burada *farklı* ifadesiyle neyin kastedildiğini öğrenmek istiyor olabilirsin
 
 |Ülke  |Satışlar (Milyon USD)|
 |---------|----------|
-|Amerika Birleşik Devletleri      |15        |
+|ABD      |15        |
 |Kanada   |5         |
 
 Ardından belirli bir ürün kategorisi ( *"Yol Bisikleti"* ) için satış dağılımı şu şekilde olabilir:
 
 |Ülke  |Satışlar (Milyon USD)|
 |---------|----------|
-|Amerika Birleşik Devletleri      |3        |
+|ABD      |3        |
 |Kanada   |1         |
 
 Rakamlar bu tabloların hepsinde farklı olsa da ABD ile Kanada arasındaki göreli değerler aynıdır (genel ve Yol Bisikletleri için %75 ve %25). Bu nedenle bu değerler farklı olarak kabul edilmez. Algoritma, bunun gibi basit eklenebilir ölçüler için *göreli* değerlerdeki farkları inceler.  
@@ -82,14 +82,14 @@ Diğer taraftan Kar/Maliyet şeklinde hesaplanan marj gibi bir ölçüm için AB
 
 |Ülke  |Marjlar (%)|
 |---------|----------|
-|Amerika Birleşik Devletleri      |15        |
+|ABD      |15        |
 |Kanada   |5         |
 
 Ardından belirli bir ürün kategorisi ( *"Yol Bisikleti"* ) için satış dağılımı şu şekilde olabilir:
 
 |Ülke  |Marjlar (%)|
 |---------|----------|
-|Amerika Birleşik Devletleri      |3        |
+|ABD      |3        |
 |Kanada   |1         |
 
 Bu tür ölçümlerin doğası dikkate alındığında bu *durumun* ilgi çekici bir farka sahip olduğu kabul edilir. Algoritma, bu marj örneğindeki gibi eklenebilir olmayan ölçüler için mutlak değerin dışındaki farkları inceler.
@@ -144,7 +144,7 @@ Ayrıca aşağıdaki model türleri ve veri kaynakları da öngörüler için de
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   

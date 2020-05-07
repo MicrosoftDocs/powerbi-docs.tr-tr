@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161444"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: FILTER’ı bir filtre bağımsız değişkeni olarak kullanmaktan kaçınma

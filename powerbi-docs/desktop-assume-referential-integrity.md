@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4d478396f88a1443c0d23d64199d84f0b615b1da
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761830"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop'taki Bilgi Tutarlılığı Varsay ayarını uygulama
@@ -37,7 +37,7 @@ Aşağıdaki örnekte, **Bilgi tutarlılığı varsay**'ın veri bağlantıları
 1. **Orders** tablosunu ve **Products** tablosunu gösteren aşağıdaki görüntüde **Orders[ProductID]** ve **Products[ProductID]** arasında bilgi tutarlılığı olduğuna dikkat edin. **Orders** tablosundaki **[ProductID]** sütunu hiçbir zaman *Null* değildir ve tüm değerler **Products** tablosunda da görünür. Bu nedenle, daha verimli sorgular elde etmek için **Bilgi tutarlılığı varsay** ayarlanmalıdır. (Bu ayar kullanıldığında, görsellerde gösterilen değerler değişmez.)
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Sonraki görüntüde **Orders[DepotID]** ve **Depots[DepotID]** arasında hiçbir bilgi tutarlılığı olmadığına dikkat edin. Bunun nedeni, bazı *Orders* değerleri için **DepotID** değerinin *Null* olmasıdır. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.
+2. Sonraki görüntüde **Orders[DepotID]** ve **Depots[DepotID]** arasında hiçbir bilgi tutarlılığı olmadığına dikkat edin. Bunun nedeni, bazı **Orders** değerleri için *DepotID* değerinin *Null* olmasıdır. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Son olarak, aşağıdaki tablolarda **Orders[CustomerID]** ve **Customers[CustID]** arasında hiçbir bilgi tutarlılığı yoktur. **CustomerID**, *Customers* tablosunda bulunmayan bazı değerler (bu örnekte *CustX*) içerir. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.

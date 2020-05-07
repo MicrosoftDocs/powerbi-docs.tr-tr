@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872535"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
@@ -28,7 +28,7 @@ Panoları kaldırabilirsiniz. Bir panoyu kaldırdığınızda bağlı olduğu ve
 
 ### <a name="to-delete-a-dashboard"></a>Bir panoyu silmek için
 1. Çalışma alanınızda **Panolar** sekmesini seçin.
-2. Silmek istediğiniz panoyu bulun ve Sil simgesini ![sil simgesi](media/service-delete/power-bi-delete-icon.png)geçin.
+2. Silmek istediğiniz panoyu bulun ve Sil simgesini ![sil simgesi](media/service-delete/power-bi-delete-icon.png).
 
     ![video](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ Endişelenmeyin, bir raporu sildiğinizde raporun temel aldığı veri kümesi s
 
 ### <a name="to-delete-a-report"></a>Bir raporu silmek için
 1. Çalışma alanınızda **Raporlar** sekmesini seçin.
-2. Silmek istediğiniz raporu bulup Sil simgesini   ![sil simgesi](media/service-delete/power-bi-delete-icon.png)geçin.   
+2. Silmek istediğiniz raporu bulup Sil simgesini   ![sil simgesi](media/service-delete/power-bi-delete-icon.png).   
 
     ![çalışma alanının raporlar sekmesi](media/service-delete/power-bi-delete-reportnew.png)
 3. Silme işlemini onaylayın.
@@ -56,7 +56,7 @@ OneDrive İş hesabında kayıtlı çalışma kitaplarının Power BI'dan silinm
 
 ### <a name="to-delete-a-workbook"></a>Bir çalışma kitabını silmek için
 1. Çalışma alanınızda **Çalışma Kitapları** sekmesini seçin.
-2. Silmek istediğiniz çalışma kitabını bulun ve Sil ![sil simgesi](media/service-delete/power-bi-delete-report2.png) simgesini seçin.
+2. Silmek istediğiniz çalışma kitabını bulun ve Sil ![sil simgesi](media/service-delete/power-bi-delete-report2.png) simge.
 
     ![Çalışma kitapları sekmesi](media/service-delete/power-bi-delete-workbooknew.png)
 3. Silme işlemini onaylayın.

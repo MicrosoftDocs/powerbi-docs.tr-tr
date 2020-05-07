@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: de9186eb352f4df9b8de0e7cc7499d0da1be34c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873896"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Power BI için Financial Sample çalışma kitabını indirme

@@ -11,17 +11,17 @@ ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762451"
 ---
 # <a name="create-and-use-funnel-charts"></a>Huni grafiği oluşturma ve kullanma
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Huni grafik, birbirine bağlı sıralı aşamalara sahip doğrusal süreçleri görselleştirmenize yardımcı olur. Örneğin, şu aşamalarda müşterileri izleyen bir satış hunisi: Müşteri Adayı \> Nitelikli Müşteri Adayı \> Olası Müşteri \> Sözleşme \> Kapanış.  Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
+Huni grafik, birbirine bağlı sıralı aşamalara sahip doğrusal süreçleri görselleştirmenize yardımcı olur. Örneğin bir satış hunisi, müşterileri şu aşamalarda takip eder: Aday Müşteri \> Nitelikli Aday Müşteri \> Potansiyel Müşteri \> Sözleşme \> Sonuçlandırma.  Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
 
 Huninin her aşaması, toplamın belirli bir yüzdesini temsil eder. Bu nedenle çoğu durumda huni grafik bir huniye benzer. İlk aşama en büyüktür ve sonraki her aşama da bir öncekinden küçüktür.  Armut şeklindeki huni de kullanışlıdır. Süreçte bir sorun olduğunu belirtebilir.  Ancak genellikle ilk aşama olan "giriş" aşaması en büyük olandır.
 
@@ -60,7 +60,7 @@ Bu öğreticide [Fırsat Analizi örneği PBIX dosyası](https://download.micros
 
 1. **Fırsat Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
-1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+1. Select ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
 
 ## <a name="create-a-basic-funnel-chart"></a>Basit bir huni grafik oluşturma
@@ -89,7 +89,7 @@ Artık satış aşamalarındaki fırsat sayılarını gösteren bir huni grafik 
      
      ![Teklif çubuğunun ayrıntıları](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [Raporu kaydedin](../service-report-save.md).
+6. [Raporu kaydetme](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
 Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).
@@ -103,6 +103,6 @@ Hunideki bir çubuğun vurgulanması rapor sayfasındaki diğer görselleştirme
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI’daki ölçerler](power-bi-visualization-radial-gauge-charts.md)
+[Power BI'da ölçerler](power-bi-visualization-radial-gauge-charts.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -10,10 +10,10 @@ ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761192"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanarak SAP Business Warehouse'a bağlanma
@@ -31,19 +31,19 @@ Ayrıca, SAP BW'nun Power BI'da desteklenmeyen birçok özelliğinin olduğunu, 
 ## <a name="additional-modeling-restrictions"></a>Modellemeye İlişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca modelleme kısıtlamaları aşağıdaki gibidir:
 
-* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışı bırakılmıştır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
+* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışıdır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
 * **Ölçüler için ek sınırlamalar:** Ölçülerde kullanılan DAX ifadelerinde, SAP BW tarafından sunulan destek düzeyini yansıtan ek sınırlamalar söz konusudur.
 * **İlişki tanımlama desteklenmez:** İlişkiler dış SAP kaynağında belirlidir ve modelde bunlara ek olarak yeni ilişkiler tanımlanamaz.
 * **Veri Görünümü yoktur:** **Veri Görünümü** normalde tabloda ayrıntı düzeyindeki verileri gösterir. SAP BW gibi OLAP kaynakların yapısı gereği bu görünüm, SAP BW üzerinde kullanılamaz.
-* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görünen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
-* **DAX'taki ek sınırlamalar:** Ölçü tanımlarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
+* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görülebilen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
+* **DAX'taki ek sınırlamalar:** Ölçü tanımlamalarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
 
 ## <a name="additional-visualization-restrictions"></a>Görselleştirmelere ilişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca ek görselleştirme kısıtlamaları aşağıdaki gibidir:
 
-* **Sütunlarda toplama yoktur:** Görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
+* **Sütunlarda toplama yoktur:** Bir görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
 * **Ölçü filtreleme devre dışıdır:** SAP BW tarafından sunulan desteği yansıtması için ölçü filtreleme devre dışı bırakılmıştır.
-* **Çoklu seçim ve ekleme/dışlama:** Görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
+* **Çoklu seçim ve ekle/dışla:** Bir görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW özellikleri için destek
 Aşağıdaki tabloda, tam olarak desteklenmeyen veya Power BI kullanıldığında davranışı farklılık gösterecek olan tüm SAP BW özellikleri listelenmiştir.   

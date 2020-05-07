@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584755"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841676"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -79,10 +79,11 @@ Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü destekle
 İkili veri türü, ikili biçime sahip tüm diğer verileri göstermek için kullanılabilir. Sorgu Düzenleyicisi’nin içinde, Power BI modeline yüklemeden önce diğer veri türlerine dönüştürürseniz ikili dosyaları yüklerken bu veri türünü kullanabilirsiniz. İkili sütunlar Power BI veri modelinde desteklenmez. Bu, eski nedenlerden dolayı Veri Görünümü ve Rapor Görünümü menülerinde yer alır, ancak Power BI modeline ikili sütunları yüklemeyi denerseniz hatalarla karşılaşabilirsiniz.
 
 
+
+
 > [!NOTE]
 >  Bir sorgunun çıkış adımlarında ikili bir sütun varsa ağ geçidi üzerinden verileri yenileme girişimi hatalara neden olabilir. Sorgularınızdaki son adım olarak tüm ikili sütunları açıkça kaldırmanızı öneririz.    
 > 
->
 
 ### <a name="table-data-type"></a>Tablo veri türü
 DAX, birçok işlevde (toplama ve akıllı zaman gösterimi hesaplamaları gibi) tablo veri türünü kullanır. Bazı işlevler bir tabloya başvurulmasını gerektirirken bazı işlevler, diğer işlevler için giriş olarak kullanılabilecek bir tablo döndürür. Giriş olarak tablo gerektiren bazı işlevlerde tablo döndüren bir ifade belirtebilirsiniz. Bazı işlevlerde ise temel tablolara başvuru yapılması gerekir. Belirli işlevlerin gereksinimleri hakkında bilgi için bkz. [DAX Function Reference (DAX İşlev Başvurusu)](https://msdn.microsoft.com/library/ee634396.aspx).

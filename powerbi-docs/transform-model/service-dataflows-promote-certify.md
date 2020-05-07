@@ -9,10 +9,10 @@ ms.date: 03/17/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 7634711e8d26c4f265752427c5086e0901b210d5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268892"
 ---
 # <a name="promote-or-certify-dataflows-preview"></a>Veri akışlarını yükseltme veya onaylama (önizleme)

@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874455"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Power BI Soru-Cevap özelliğiyle görsel oluşturma
@@ -48,7 +48,7 @@ Soru-Cevap özelliğini kullanarak bu çizgi grafiği nasıl oluşturabiliriz?
    
    ![Soru-Cevap tarafından doldurulmuş alan grafiği](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. Grafiği panonuza sabitlemek için raptiye simgesini seçin ![Raptiye simgesi](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) dokunun.
+4. Grafiği panonuza sabitlemek için raptiye simgesini seçin ![raptiye](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) dokunun.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>Rapor düzenleyicisinde görsel oluşturma
 

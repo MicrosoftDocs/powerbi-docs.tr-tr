@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038552"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive veya SharePoint Online'da depolanan veri kümelerini yenileme
@@ -33,7 +33,7 @@ Power BI Desktop dosyanızı OneDrive veya SharePoint Online'dan içeri aktardı
 
 Veri kümesini yenilediğinizde Power BI güncelleştirilmiş verileri sorgulamak için OneDrive veya SharePoint Online'daki dosyaya bağlanmaz. Veri kümesindeki bilgileri kullanarak, güncelleştirilmiş verileri sorgulamak için doğrudan veri kaynaklarına bağlanır. Ardından söz konusu verileri veri kümesine yükler. Veri kümesindeki bu yenilenmiş veriler, OneDrive veya SharePoint Online'daki dosyayla geri eşitlenmez.
 
-## <a name="whats-supported"></a>Hangi veri kümeleri desteklenir?
+## <a name="whats-supported"></a>Desteklenenler
 Power BI'da **Yenile** ve **Yenilemeyi Zamanla** işlemleri, aşağıdaki veri kaynaklarından birine bağlanmak ve bunlardan veri yüklemek için **Veri Al** veya **Sorgu Düzenleyicisi** seçeneğini kullandığınız durumlarda bir yerel sürücüden içeri aktarılan Power BI Desktop dosyalarından oluşturulmuş veri kümeleri için desteklenir.
 
 > [!NOTE]
@@ -74,10 +74,10 @@ OneDrive'da bulunan Power BI Desktop dosyasında değişikliklerinizi kaydettiğ
 
 **Yenileme hatası bildirim e-postası almak istiyorum** seçeneğinin işaretlenmiş olduğundan emin olun. Bir zamanlanmış yenilemenin başarısız olup olmadığını hemen öğrenmenizde yarar vardır.
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="troubleshooting"></a>Sorun Giderme
 Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Ağ geçidiyle bağlandığınızda veri yenileme sorunlarıyla karşılaşırsınız. Araçlar ve bilinen sorunlara yönelik sorun giderme makalelerine göz atın.
 
-[Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)
+[Şirket içi veri ağ geçidi sorunlarını giderme](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
