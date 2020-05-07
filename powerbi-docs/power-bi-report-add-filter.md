@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875163"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
@@ -29,7 +29,7 @@ Bu makalede Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi, ra
 Power BI, el ile ve otomatik filtreden detaylandırma ve geçişe kadar farklı türlerde çok çeşitli filtreler sunar. [Farklı türlerde filtreler](power-bi-report-filter-types.md) hakkında bilgi edinin.
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Düzenleme görünümündeki ve Okuma görünümündeki filtrelerin karşılaştırması
-Raporlarla etkileşimli çalışmak için kullanabileceğiniz iki görünüm vardır: Okuma görünümü ve Düzenleme görünümü. Kullanabileceğiniz filtreleme özellikleri hangi görünümde olduğunuza bağlıdır. Ayrıntılar için bkz. [Power BI raporlarındaki filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md).
+Raporlarla etkileşim kurmak için kullanabileceğiniz iki görünüm vardır: Okuma görünümü ve Düzenleme görünümü. Kullanabileceğiniz filtreleme özellikleri hangi görünümde olduğunuza bağlıdır. Ayrıntılar için bkz. [Power BI raporlarındaki filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md).
 
 Bu makalede rapor **Düzenleme görünümünde** nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma görünümündeki filtreler hakkında daha fazla bilgi için [rapor Okuma görünümünde filtrelerle etkileşim kurma](consumer/end-user-report-filter.md) başlıklı makaleye bakın.
 

@@ -10,10 +10,10 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a655c55520d76bfaeb51318d09244ea663ccc192
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872645"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium’da hesaplanan varlıkları kullanma
@@ -58,7 +58,7 @@ Hesaplanan varlıklarla ne tür dönüşümler gerçekleştirilebilir? Depolama 
 
 ![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
-Sonra, zenginleştirilmiş **Hesap** tablosunu hesaplamak için *Account* varlığını *ServiceCallsAggregated* varlığı ile birleştirmek istersiniz.
+Sonra, zenginleştirilmiş *Hesap* tablosunu hesaplamak için *Account* varlığını **ServiceCallsAggregated** varlığı ile birleştirmek istersiniz.
 
 ![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
@@ -88,7 +88,7 @@ Bu makalede, Power BI hizmetinde kullanılabilen hesaplanan varlıklar ve veri a
 * [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 * [Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)](service-dataflows-configure-workspace-storage-settings.md)
 * [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md)
-* [Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [Veri akışı depolaması için Azure Data Lake Storage 2. Nesil'i bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 * [Power BI Desktop'ta sorgulara genel bakış](desktop-query-overview.md)

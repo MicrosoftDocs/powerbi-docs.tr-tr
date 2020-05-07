@@ -10,10 +10,10 @@ ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
-ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74178240"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
@@ -29,7 +29,7 @@ Power BI sorularına cevap bulmak isteyen uzmanlar genellikle İnternet'te arama
 Power BI belgeleri ve eğitimleri, Power BI ekibi tarafından sürekli olarak güncelleştirilmekte ve geliştirilmektedir. Web semineri kayıtları, teknik incelemeler, destekli öğrenme ve tüm yeni özelliklere ilişkin blog gönderisi bağlantıları da dahil olmak üzere çok faydalı içerikler bulabilirsiniz.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 En son haberler için Power BI blogunu okuyun
-Power BI ekibi, düzenli olarak yayımladıkları [Power BI blog gönderilerinde](https://powerbi.microsoft.com/blog/) tüm yeni özellikleri açıklamaktadır. Power BI Desktop'tan Power BI mobil uygulamalarına kadar tüm konulardaki yeniliklerden haberdar olun. Yenilikleri görmek için sık sık dönüp bakmayı alışkanlık haline getirin: Her hafta birkaç dakika ayırıp blogları tarayın. Aylar önce öğrendiğiniz küçücük bir bilginin ne zaman işinize yarayacağını asla bilemezsiniz.
+Power BI ekibi, düzenli olarak yayımladıkları [Power BI blog gönderilerinde](https://powerbi.microsoft.com/blog/) tüm yeni özellikleri açıklamaktadır. Power BI Desktop'tan Power BI mobil uygulamalarına kadar tüm konulardaki yeniliklerden haberdar olun. Yenilikleri görmek için blogları sık sık kontrol etme alışkanlığı edinin: Her hafta blogları incelemek için birkaç dakikanızı ayırın. Aylar önce öğrendiğiniz küçücük bir bilginin ne zaman işinize yarayacağını asla bilemezsiniz.
 
 ## <a name="4-try-twitter"></a>4 Twitter kullanmayı deneyin
 Birçok Power BI müşterisi ve uzmanı Twitter'ı aktif olarak kullanıyor. Sorunuzu bir tweet ile sorun. Tweet'inizin sorularınızı cevaplayabilecek kişiler tarafından görülebilmesi için #powerbi ve #powerbihelp hashtag'lerini kullanın.

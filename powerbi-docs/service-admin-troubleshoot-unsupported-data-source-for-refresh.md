@@ -11,10 +11,10 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791986"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Yenileme için desteklenmeyen veri kaynaklarıyla ilgili sorunları giderme
@@ -40,8 +40,8 @@ Hangi veri kaynağının kullanıldığından emin değilseniz Power BI Desktop'
 ## <a name="next-steps"></a>Sonraki adımlar
 [Veri Yenileme](refresh-data.md)  
 [Power BI Gateway - Personal](service-gateway-personal-mode.md)  
-[On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)  
-[Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)  
+[Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
+[Şirket içi veri ağ geçidi sorunlarını giderme](service-gateway-onprem-tshoot.md)  
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

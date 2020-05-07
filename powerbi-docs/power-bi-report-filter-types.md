@@ -10,10 +10,10 @@ ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c96b4ebae574a3b6a6fa54c5f5dc99b5bc948a90
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874416"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI raporlarındaki filtre türleri
@@ -76,17 +76,17 @@ Geçiş filtreleri Soru-Cevap aracılığıyla oluşturulan görsel düzeyi filt
 
 Bu tabloda yazarların farklı filtre türleriyle neler yapabilecekleri karşılaştırılır.
 
-| Filtre türü | Düzenle | Temizle | Sil | Gizle | Kilitle | Sırala | Yeniden Adlandır |
+| Filtre türü | Düzenle | Temizle | Sil | Gizle | Kilitle | Sırala | Yeniden adlandır |
 |----|----|----|----|----|----|----|----|
-| El ile çalıştırılan filtreler | Y | Y | Y | Y | Y | Y | Y |
-| Otomatik filtreler | Y | Y | N | Y | Y | Y | Y |
-| Ekleme/Dışlama filtreleri | N | N | Y | Y | Y | Y | N |
-| Detaya gitme filtreleri | Y | Y | N | N | N | N | N |
+| El ile çalıştırılan filtreler | E | E | E | E | E | E | E |
+| Otomatik filtreler | E | E | N | E | E | E | E |
+| Ekleme/Dışlama filtreleri | N | N | E | E | E | E | N |
+| Detaya gitme filtreleri | E | E | N | N | N | N | N |
 | Çapraz Detaylandırma filtreleri | N | N | N | N | N | N | N |
-| Detaylandırma filtreleri (detaylandırma işlemini çağırır) | Y | Y | Y | Y | Y | N | N |
-| Detaylandırma filtreleri (Geçici) | Y | Y | Y | N | N | N | N |
-| URL filtreleri - geçici | Y | Y | Y | N | N | N | N |
-| Geçiş filtreleri | N | N | Y | Y | N | Y | N |
+| Detaylandırma filtreleri (detaylandırma işlemini çağırır) | E | E | E | E | E | N | N |
+| Detaylandırma filtreleri (Geçici) | E | E | E | N | N | N | N |
+| URL filtreleri - geçici | E | E | E | N | N | N | N |
+| Geçiş filtreleri | N | N | E | E | N | E | N |
 
 
 

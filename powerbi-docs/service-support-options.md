@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696545"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro ve Power BI Premium destek seçenekleri
@@ -23,9 +23,9 @@ Bu makalede, Power BI Pro ve Power BI Premium müşterileri için kullanılabile
 | --- | --- | --- | --- | --- | --- |
 | **Topluluk desteği**: Kullanıcıların, Power BI uzmanları ve Microsoft çalışanlarından oluşan küresel topluluğun sağladığı cevaplar ile eşler arası destek, rehberlik ve en iyi yöntemleri alabileceği web forumları. | X |   |   | Yok, etkileşim en iyi çaba temelinde sağlanır. | [Power BI Topluluğu](https://community.powerbi.com) |
 | **Power BI Pro son kullanıcı desteği**: Power BI’da içerik oluşturan ve kullanan son kullanıcılar için temel teknik destek. | X |   |   | Bir iş günü. | [Power BI Destek Sitesi](https://support.powerbi.com)  |
-| **Power BI Premium yönetici desteği**: Power BI Premium kapasitelerini dağıtan ve işleten yöneticiler için teknik destek. | X |   |   | Durumun önem derecesine bağlı olarak bir iş günü veya bir saat.\* | [Power BI Destek Sitesi](https://support.powerbi.com)<br>VEYA<br>[Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal)<br>VEYA<br> Telefon |
-| **Power BI yönetici desteği**: Kuruluşlarında Power BI dağıtımlarından sorumlu yöneticiler için teknik destek ve faturalama desteği.  Bu seçeneği kullanmak için bir Azure Active Directory Şirket Yöneticisi, Office 365 Genel Yöneticisi, Office 365 Hizmet Yöneticisi veya bir Power BI Hizmet Yöneticisi olmanız gerekir. | X | X |   | Durumun önem derecesine bağlı olarak bir iş günü veya bir saat.\* | [Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal)<br>VEYA<br> Telefon |
-| **Microsoft Premier desteği**: Hesap yönetimi ile yerinde destek seçeneğine ve eğitim ve veri modeli performansını özelleştirme gibi proaktif hizmetlere yönelik destek sağlayan kurumsal düzeyde yaklaşım. | X | X | X | Çeşitli, teklife ve durumun önem derecesine bağlıdır.\* | Teknik Hesap Yöneticisi <br>VEYA<br> [Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal) |
+| **Power BI Premium yönetici desteği**: Power BI Premium kapasitelerini dağıtan ve işleten yöneticiler için teknik destek. | X |   |   | Durumun önem derecesine bağlı olarak bir iş günü veya bir saat.\* | [Power BI Destek Sitesi](https://support.powerbi.com)<br>OR<br>[Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal)<br>OR<br> Telefon |
+| **Power BI yönetici desteği**: Kuruluşlarında Power BI dağıtımlarından sorumlu yöneticiler için teknik destek ve faturalama desteği.  Bu seçeneği kullanmak için bir Azure Active Directory Şirket Yöneticisi, Office 365 Genel Yöneticisi, Office 365 Hizmet Yöneticisi veya bir Power BI Hizmet Yöneticisi olmanız gerekir. | X | X |   | Durumun önem derecesine bağlı olarak bir iş günü veya bir saat.\* | [Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal)<br>OR<br> Telefon |
+| **Microsoft Premier desteği**: Hesap yönetimi ile yerinde destek seçeneğine ve eğitim ve veri modeli performansını özelleştirme gibi proaktif hizmetlere yönelik destek sağlayan kurumsal düzeyde yaklaşım. | X | X | X | Çeşitli, teklife ve durumun önem derecesine bağlıdır.\* | Teknik Hesap Yöneticisi <br>OR<br> [Microsoft 365 yönetim merkezi](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* Bir saatlik SLA yalnızca _Önem derecesi A olan durumlar_ aracılığıyla kullanılabilir. Bu önem derecesine sahip durumlar, mevcut üretim raporlamasında iş kesintisinin yarattığı anında ve doğrudan iş etkisini gerekçelendirmeyi gerektirir.

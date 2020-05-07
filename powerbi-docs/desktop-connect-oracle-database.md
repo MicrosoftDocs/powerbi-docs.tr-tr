@@ -10,10 +10,10 @@ ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
-ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82149612"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma

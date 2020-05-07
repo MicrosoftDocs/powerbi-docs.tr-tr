@@ -11,10 +11,10 @@ ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758118"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
