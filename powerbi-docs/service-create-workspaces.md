@@ -10,10 +10,10 @@ ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207724"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma

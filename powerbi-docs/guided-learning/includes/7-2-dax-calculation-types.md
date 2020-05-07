@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800197"
 ---
 DAX kullanarak oluşturabileceğiniz iki temel hesaplama vardır:

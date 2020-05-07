@@ -10,10 +10,10 @@ author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
 ms.openlocfilehash: 1452c77fc6386f3f4d4a4f949fd2c74e1919b0c0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488764"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure kullanıcıları için Power BI 

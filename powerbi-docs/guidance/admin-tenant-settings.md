@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
 ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79487821"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Kiracı yöneticisi ayarları rehberi
@@ -29,7 +29,7 @@ Makalede, Power BI deneyimini geliştirmeye yardımcı olan veya kuruluşunuzu r
 
 [Microsoft Teams](/microsoftteams) veya farklı bir işbirliği platformunu kullanarak Power BI ile ilgili iç siteler oluşturmanızı öneririz. Bu siteler, eğitim belgelerini depolamak, tartışma düzenlemek, lisans isteğinde bulunmak veya yardım isteklerine yanıt vermek için kullanılabilir.
 
-Bunu yapacaksanız, _tüm kuruluş için_ **“Yardım Alın” bilgilerini yayımla** ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Şunlar için URL ayarlayabilirsiniz:
+Bunu yapacaksanız, **tüm kuruluş için** _“Yardım Alın” bilgilerini yayımla_ ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Şunlar için URL ayarlayabilirsiniz:
 
 - Eğitim belgeleriniz
 - Tartışma forumunuz
@@ -49,7 +49,7 @@ Bu URL’ler, Power BI yardım menüsünde bağlantı olarak kullanıma sunulur.
 
 Kiracınız hizmet kesintisinden veya olaydan etkileniyorsa e-posta yoluyla bildirim alabilirsiniz. Böylece, olaylara proaktif olarak yanıt verebilirsiniz.
 
-**Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder** ayarını etkinleştirmenizi öneririz. Bu ayar **Yardım ve destek ayarları** grubunda bulunur. Bir veya daha fazla _Posta etkin_ güvenlik grubu atayın.
+**Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder** ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Bir veya daha fazla _Posta etkin_ güvenlik grubu atayın.
 
 ![“Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder” ayarı gösterilir.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
@@ -90,7 +90,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara dış kul
 
 [Web’de yayımla](../service-publish-to-web.md) özelliği, genel raporların Web’de yayımlanmasına olanak tanır. Uygun şekilde kullanılmazsa, gizli bilgilerin Web’de canlı olarak kullanılabilir hale gelme riski vardır.
 
-**Web’de yayımla** ayarı, tüm kuruluş için varsayılan olarak etkindir. Ancak, yönetici olmayan kullanıcıların ekleme kodu oluşturma özellikleri kısıtlanır. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Web’de yayımla** ayarı, tüm kuruluş için varsayılan olarak etkindir. Ancak, yönetici olmayan kullanıcıların ekleme kodu oluşturma özellikleri kısıtlanır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Bu özellik etkinse, bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -100,11 +100,11 @@ Ayrıca, ekleme kodlarınızın nasıl çalışacağını belirleme seçeneği d
 
 [Web’de yayımla ekleme kodlarını](https://app.powerbi.com/admin-portal/embedCodes) düzenli olarak gözden geçirmenizi de öneririz. Özel veya gizli bilgilerin yayımlanması durumunda, buna sebep olan kodları kaldırın.
 
-### <a name="export-data"></a>Verileri dışarı aktar
+### <a name="export-data"></a>Verileri dışarı aktarma
 
 Kullanıcıların pano kutucuklarından veya rapor görsellerinden verileri dışarı aktarmalarını kısıtlayabilirsiniz.
 
-**Verileri dışarı aktar** ayarı tüm kuruluş için varsayılan olarak etkindir. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Verileri dışarı aktar** ayarı tüm kuruluş için varsayılan olarak etkindir. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -120,7 +120,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yay
 
 Dış kullanıcılar Power BI içeriğini düzenleyebilir ve yönetebilir. Daha fazla bilgi için bkz. [Azure AD B2B ile Power BI içeriğini dış konuk kullanıcılara dağıtma](../service-admin-azure-ad-b2b.md).
 
-**Dış konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver** ayarı tüm kuruluş için varsayılan olarak devre dışıdır. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Dış konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver** ayarı tüm kuruluş için varsayılan olarak devre dışıdır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Dış kullanıcılara içerik düzenleme ve yönetme yetkisi vermeniz gerekiyorsa, bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -143,5 +143,5 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI yönetimi nedir?](../service-admin-administering-power-bi-in-your-organization.md)
 - [Yönetim portalında Power BI’ı yönetme](../service-admin-portal.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

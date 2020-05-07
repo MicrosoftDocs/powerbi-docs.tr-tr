@@ -7,18 +7,18 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1e2fbe3288e5dbb759a56ad1c299db2e277408b2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380767"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Power BI Görseline bağlam menüsü ekleme
 
-Power BI'ın görselinizde bir bağlam menüsü görüntülemesini sağlamak için `selectionId` parametreleri ve bir konumla (`{x:, y:}` nesnesi olarak) `selectionManager.showContextMenu()` kullanabilirsiniz.
+Power BI'ın görselinizde bir bağlam menüsü görüntülemesini sağlamak için `selectionManager.showContextMenu()` parametreleri ve bir konumla (`selectionId` nesnesi olarak) `{x:, y:}` kullanabilirsiniz.
 
 > [!IMPORTANT]
 > `selectionManager.showContextMenu()`, Görseller API 2.2.0’da tanıtılmıştır.

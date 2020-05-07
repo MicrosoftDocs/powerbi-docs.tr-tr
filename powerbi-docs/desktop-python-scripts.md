@@ -10,17 +10,17 @@ ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273352"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta Python Betikleri Çalıştırma
 
 Power BI Desktop'ta Python betiklerini doğrudan çalıştırabilir ve elde edilen veri kümelerini bir Power BI Desktop veri modeline aktarabilirsiniz.
 
-## <a name="install-python"></a>Python'ı Yükleme
+## <a name="install-python"></a>Python'ı yükleme
 
 Power BI Desktop'ta Python betikleri çalıştırabilmek için yerel makinenize Python yüklemeniz gerekir. Python’ı [Python web sitesinden](https://www.python.org/) indirebilirsiniz. Geçerli Python betik sürümü, yükleme yolunda Unicode karakterlerini ve boşlukları destekler.
 
@@ -104,7 +104,7 @@ Power BI Desktop’ta Python Betiğinizi çalıştırmak için:
 
    ![Yüklenip kullanılacak verilerin gösterildiği Gezgin](media/desktop-python-scripts/python-scripts-5.png) 
 
-### <a name="troubleshooting"></a>Sorun giderme
+### <a name="troubleshooting"></a>Sorun Giderme
 
 Python yüklenmez veya tanımlanmazsa bir uyarı görüntülenir. Birden fazla yerel makine yüklemeniz olduğunda da uyarı görebilirsiniz. Önceki Python’ı yükleme ve Python betiğini etkinleştirme bölümlerini yeniden ziyaret edin ve gözden geçirin.
 

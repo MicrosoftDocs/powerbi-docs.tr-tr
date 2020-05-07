@@ -9,17 +9,17 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114118"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI görsellerinde Görsel Filtreler API’si
 
 Görsel Filtreler API’si Power BI görsellerindeki verileri filtrelemenize olanak tanır. Diğer seçimlerden en önemli farkı, diğer görsel tarafından desteklenmesine rağmen diğer görsellerin herhangi bir şekilde filtrelenmesidir.
 
-Görselde filtrelemeyi etkinleştirmek için, görsel *capabilities.json* kodunun `general` bölümünde `filter` nesnesini içermelidir.
+Görselde filtrelemeyi etkinleştirmek için, görsel `filter`capabilities.json`general` kodunun *bölümünde* nesnesini içermelidir.
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 Filtre API’si, Görseller API 1.7.0’da tanıtılmıştır.
 
-Gelişmiş Filtre API’si ayrıca `table` ve `column` adıyla `target` gerektirir. Ama Gelişmiş Filtre API’sinin işleçleri *And* ve *Or*’dur. 
+Gelişmiş Filtre API’si ayrıca `target` ve `table` adıyla `column` gerektirir. Ama Gelişmiş Filtre API’sinin işleçleri *And* ve *Or*’dur. 
 
 Bunun yanı sıra filtrede arabirimle birlikte değerler yerine koşullar kullanılır:
 

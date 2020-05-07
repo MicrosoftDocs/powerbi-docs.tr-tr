@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114496"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonundan içerik geçirmek için kod parçacıkları
 
 Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Belirli rapor türleriyle ilişkili akışlar için bkz. [Power BI çalışma alanı koleksiyon içeriğini Power BI Embedded’e geçirme](migrate-from-powerbi-embedded.md#content-migration).
 
@@ -231,10 +231,10 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir ç
 
 [Power BI Embedded geçiş aracı](migrate-tool.md)  
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-your-organization.md)  
 [Power BI Premium nedir?](../../service-premium-what-is.md)  
-[JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
+[JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  

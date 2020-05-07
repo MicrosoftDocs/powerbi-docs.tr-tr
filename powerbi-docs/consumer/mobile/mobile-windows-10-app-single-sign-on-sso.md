@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435939"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI mobil Windows uygulamasında Çoklu Oturum Açma
@@ -24,7 +24,7 @@ Power BI Windows uygulaması, Azure Active Directory’de tümleşik olduğundan
 SSO yalnızca Windows Azure Active Directory tarafından yönetilen Windows cihazlar için etkinleştirilir.
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi ](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>SSO ile oturum açma
 
@@ -37,5 +37,5 @@ Power BI’da oturum açmak için geçerli Windows etkin oturum kimlik bilgileri
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Windows 10 için Power BI mobil uygulamasını kullanmaya başlama](mobile-windows-10-phone-app-get-started.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

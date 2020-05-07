@@ -10,10 +10,10 @@ ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: cf1d67318fc86b1044e38e6f4f5f56c9473c39a1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74265484"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI'da canlı bağlantılar için Soru-Cevap özelliğini etkinleştirme
@@ -60,9 +60,9 @@ Bu özelliğin bazı sınırlamaları vardır:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)  
+- [Şirket içi veri ağ geçidi](service-gateway-onprem.md)  
 - [Veri kaynağınızı yönetme - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)  
+- [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
 - [Power BI Soru-Cevap Özelliğine Genel Bakış](consumer/end-user-q-and-a.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

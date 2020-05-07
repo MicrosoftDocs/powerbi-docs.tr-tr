@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496275"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
@@ -46,7 +46,7 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Öne çıkan içerik ayarları":::
 
-4. **Kaydet**'i seçin.
+4. **Kaydet**’i seçin.
 
     Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
@@ -60,5 +60,5 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 * [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Yönetici portalında öne çıkan içeriği yönetme](../service-admin-portal.md#manage-featured-content)
-* Sorularınız mı var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

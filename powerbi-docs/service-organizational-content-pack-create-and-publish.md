@@ -10,10 +10,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872000"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Öğretici: Power BI kurumsal içerik paketi oluşturma ve yayımlama
