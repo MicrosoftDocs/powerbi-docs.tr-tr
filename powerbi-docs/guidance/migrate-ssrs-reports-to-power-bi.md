@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
 ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525626"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme

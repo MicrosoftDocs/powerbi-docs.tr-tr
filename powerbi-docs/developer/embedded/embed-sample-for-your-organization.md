@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
 ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621642"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme

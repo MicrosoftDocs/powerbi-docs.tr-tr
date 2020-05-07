@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
 ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802084"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad'ler](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android telefon](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -78,5 +78,5 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 * [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../service-create-qr-code-for-tile.md)
 * [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../service-create-qr-code-for-report.md)
 * Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

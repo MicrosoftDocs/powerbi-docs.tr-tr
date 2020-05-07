@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75223654"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
