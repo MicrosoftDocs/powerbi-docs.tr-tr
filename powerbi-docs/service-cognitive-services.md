@@ -10,10 +10,10 @@ ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: cf927e94726f33e8d88c25c6d09f6f0ca2226e05
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75224137"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI'da Bilişsel Hizmetler 

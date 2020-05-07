@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73800200"
 ---
 DAX ile verilerinizi şekillendirmek, biçimlendirmek veya başka şekilde analiz etmek için kullanabileceğiniz birçok işlev vardır. Bu işlevler bir dizi kategoride gruplandırılabilir:
@@ -53,7 +53,7 @@ Bu işlevlerle benzersiz değerler, boş olmayan değerler ve tablo satırları 
 DAX'taki **mantıksal** işlev koleksiyonu şunları içerir:
 
 * AND
-* OR
+* VEYA
 * NOT
 * IF
 * IFERROR
@@ -73,7 +73,7 @@ DAX'taki **Bilgi** işlevleri şunları içerir:
 
 Bu işlevlerden belirli durumlarda faydalanabileceğiniz gibi, veri türünü sağlamaları için bu işlevlere bağlı kalmak yerine sütunlarınızın veri türlerini önceden bilmekte de yarar vardır.
 
-DAX'ta hem değerleri *toplamak* hem de *karşılaştırmak* için **MAX** ve **MIN** işlevleri kullanılır.
+DAX'ta hem değerleri **toplamak** hem de **karşılaştırmak** için *MAX* ve *MIN* işlevleri kullanılır.
 
 ## <a name="text-functions"></a>Metin işlevleri
 DAX'taki **metin** işlevleri şunları içerir:

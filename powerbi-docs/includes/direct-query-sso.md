@@ -8,10 +8,10 @@ ms.topic: include
 ms.date: 04/28/2020
 ms.author: davidi
 ms.openlocfilehash: d56988986cfd994bb21c9bc25d024903719472cf
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82255832"
 ---
 ## <a name="single-sign-on"></a>Çoklu oturum açma

@@ -10,17 +10,17 @@ ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 5b13fdc1f65fe2650ea0fb4fee1be20611ac3e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877308"
 ---
-# <a name="dataflows-and-azure-data-lake-integration-preview"></a>Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
+# <a name="dataflows-and-azure-data-lake-integration-preview"></a>Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
 
 Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağlanan iç depolama alanında depolanır. Veri akışları ve Azure Data Lake Storage 2. Nesil (ADLS 2. Nesil) tümleştirmesi ile, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında veri akışlarınızı depolayabilirsiniz. 
 
-![Azure depolamada veri akışları](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
+![Azure Depolama’da veri akışları](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>CDM klasörleri ile veri akışları arasındaki ilişki
 
@@ -39,7 +39,7 @@ Veri akışları, tanımlarını ve verilerini CDM klasörlerinde aşağıdaki b
 
 Aşağıdaki diyagramda, Power BI veri akışı tarafından oluşturulan, üç varlık içeren örnek bir CDM klasörü gösterilmektedir:
 
-![Azure depolamada veri akışları](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
+![Azure Depolama’da veri akışları](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
 
 Önceki görüntüde yer alan model.json veya meta veri dosyası, CDM klasörü boyunca varlık veri dosyalarına işaretçiler sağlar.
 
@@ -78,7 +78,7 @@ Veri akışları, CDM ve Azure Data Lake Storage 2. Nesil hakkında daha fazla b
 
 * [Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)](service-dataflows-configure-workspace-storage-settings.md)
 * [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md)
-* [Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [Veri akışı depolaması için Azure Data Lake Storage 2. Nesil'i bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 

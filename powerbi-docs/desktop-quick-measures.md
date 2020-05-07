@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415356"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Yaygın hesaplamalar için hızlı ölçüler özelliğini kullanma
@@ -60,7 +60,7 @@ Hesaplamalarıyla birlikte beş hızlı ölçü hesaplama türü şunlardır:
   * Kategori toplamı (filtreler uygulandı)
   * Kategori toplamı (filtreler uygulanmadı)
 * **Matematiksel işlemler**
-  * Toplama
+  * Ekleme
   * Çıkarma
   * Çarpma
   * Bölme

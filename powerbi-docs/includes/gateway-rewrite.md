@@ -8,10 +8,10 @@ ms.topic: include
 ms.date: 07/15/2019
 ms.author: arthii
 ms.openlocfilehash: 66af436832c8a0948b62b6fc73ffd87222d0444b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697416"
 ---
 > [!NOTE]

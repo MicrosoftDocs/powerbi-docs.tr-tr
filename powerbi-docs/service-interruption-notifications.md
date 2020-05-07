@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: kfollis
 ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637762"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri

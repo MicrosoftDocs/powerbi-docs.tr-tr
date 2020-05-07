@@ -10,10 +10,10 @@ ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872318"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Öğretici: Power BI hizmeti ile çalışmaya başlama
@@ -179,7 +179,7 @@ Pano geniştir. Pano alanını daha iyi kullanmak için kutucukları yeniden dü
 
     ![Yeniden düzenlenmiş pano](media/service-get-started/power-bi-service-rearranged-dashboard.png)
 
-## <a name="step-5-interact-with-tiles"></a>5 Adım: Kutucuklarla etkileşim kurma
+## <a name="step-5-interact-with-tiles"></a>5\. Adım: Kutucuklarla etkileşim kurma
 
 Kendi panolarınızı ve raporlarınızı oluşturmaya başlamadan önce, görmeniz gereken son bir etkileşim aşağıda verilmiştir. Farklı kutucukları seçmek farklı sonuçlar sunar. 
 

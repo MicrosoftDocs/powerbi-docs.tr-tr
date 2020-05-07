@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958460"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Şirket içi SQL Server veritabanından verileri yenileme
@@ -114,9 +114,9 @@ Power BI Desktop’ta doğrudan SQL Server veritabanınıza bağlandınız ancak
 
 5. **Ağ Geçitleri** yönetim sayfasındaki **Veri Kaynağı Ayarları** sekmesinde, aşağıdaki bilgileri girip doğrulayın ve **Ekle**’yi seçin.
 
-    | Seçenek | Değer |
+    | Seçenek | Value |
     | --- | --- |
-    | Veri Kaynağı Adı | AdventureWorksProducts |
+    | Data Source Name | AdventureWorksProducts |
     | Veri Kaynağı Türü | SQL Server |
     | Sunucu | SQL Server örneğinizin adı, örneğin SQLServer01 (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır). |
     | Veritabanı | SQL Server veritabanınızın adı, örneğin AdventureWorksDW (Power BI Desktop’ta belirttiğiniz adla aynı olmalıdır). |

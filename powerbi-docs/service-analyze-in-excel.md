@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
 ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675676"
 ---
 # <a name="analyze-in-excel"></a>Excel’de Analiz Et

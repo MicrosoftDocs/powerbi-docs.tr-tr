@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925872"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma
 
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Android telefon](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
 |:--- |:--- |

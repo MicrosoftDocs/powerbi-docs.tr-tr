@@ -10,10 +10,10 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: ee32d10ffeb22160b054661ca91c46890a877fa3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871456"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>OneDrive'daki bir Excel dosyasıyla bağlantılı bir Power BI panosunu paylaşma
@@ -46,7 +46,7 @@ OneDrive İş'teki bir Excel çalışma kitabıyla bağlantılı bir panoyu payl
     ![Bir içerik paketindeki Excel çalışma kitabı](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. **Go to OneDrive for Business to set workbook permissions** (Çalışma kitabı izinlerini ayarlamak üzere OneDrive İş'e gidin) seçeneğini belirleyin.
 4. OneDrive'da, gerektiği şekilde [izinleri değiştirin](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
-5. **Yayımla** seçeneğini belirleyin.
+5. **Yayımla**’yı seçin.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Power BI çalışma alanınızdan pano paylaşma
 Power BI çalışma alanından pano paylaşma, dosyaların özel OneDrive İş'iniz yerine bir Office 365 çalışma alanı sitesinde bulunması dışında, kendi çalışma alanınızdan pano paylaşmayla benzerlik gösterir. Çalışma alanınız dışındaki kişilerle panoyu paylaşmadan önce Excel çalışma kitabına yönelik izinleri değiştirin.

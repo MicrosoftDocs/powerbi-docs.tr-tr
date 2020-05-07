@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698521"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
@@ -55,7 +55,7 @@ iOS için uygulama URL'sini iTunes'dan almamız gerekir.
 
 [Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
-## <a name="step-2-create-a-mobile-application-management-policy"></a>2\. Adım: Mobil uygulama yönetim ilkesi oluşturma
+## <a name="step-2-create-a-mobile-application-management-policy"></a>2\. Adım: Mobil uygulama yönetim ilkeleri oluşturma
 
 Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu tutabilirsiniz. Intune portalında bir ilke oluşturabilirsiniz.
 
@@ -91,11 +91,11 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 1. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
 
-1. Uygulamayı **Herhangi bir** (varsayılan), **iPad** veya **iPhone** seçeneklerinden birini belirleyerek yayımlamayı tercih edebilirsiniz. Varsayılan olarak, **Herhangi bir** seçeneği belirlenmiştir ve her iki cihaz türü için de kullanılabilir. Power BI uygulamasının URL'si iPhone ve iPad için aynıdır. **Sonraki** seçeneğini belirleyin.
+1. Uygulamayı **Herhangi bir** (varsayılan), **iPad** veya **iPhone** seçeneklerinden birini belirleyerek yayımlamayı tercih edebilirsiniz. Varsayılan olarak, **Herhangi bir** seçeneği belirlenmiştir ve her iki cihaz türü için de kullanılabilir. Power BI uygulamasının URL'si iPhone ve iPad için aynıdır. **İleri**'yi seçin.
 
-1. **Karşıya Yükle**'yi seçin.
+1. **Karşıya Yükle**’yi seçin.
 
-1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
+1. Uygulama listede yoksa sayfayı yenileyin: **Genel bakış**'a gidin ve yeniden **Uygulamalar**'ı seçin.
 
     ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -109,9 +109,9 @@ Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir u
 
 1. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
 
-1. **Karşıya Yükle**'yi seçin.
+1. **Karşıya Yükle**’yi seçin.
 
-1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
+1. Uygulama listede yoksa sayfayı yenileyin: **Genel bakış**'a gidin ve yeniden **Uygulamalar**'ı seçin.
 
     ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-android2.png)
 
@@ -131,13 +131,13 @@ Uygulamayı ekledikten sonra, son kullanıcılarınızın kullanabilmesi için d
 
     ![Dağıtım eylemi](media/service-admin-mobile-intune/intune-deploy-ios2.png)
 
-1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Mevcut tek iOS ilkesi olması halinde, oluşturduğunuz ilke varsayılan olarak kullanılır. **Sonraki** seçeneğini belirleyin.
+1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Mevcut tek iOS ilkesi olması halinde, oluşturduğunuz ilke varsayılan olarak kullanılır. **İleri**'yi seçin.
 
     ![Mobil uygulama yönetimi](media/service-admin-mobile-intune/intune-deploy-ios3.png)
 
 1. Kuruluşunuza yönelik bir ilke varsa **VPN Profili** ekranında bunu seçebilirsiniz. Varsayılan olarak **Yok** seçeneği belirlenir. **İleri**'yi seçin.
 
-1. **Mobil Uygulama Yapılandırması** ekranında, bir **Uygulama Yapılandırma İlkesi** (oluşturduysanız) seçebilirsiniz. Varsayılan olarak **Yok** seçeneği belirlenir. Bu gerekli değildir. **Son**'u seçin.
+1. **Mobil Uygulama Yapılandırması** ekranında, bir **Uygulama Yapılandırma İlkesi** (oluşturduysanız) seçebilirsiniz. Varsayılan olarak **Yok** seçeneği belirlenir. Bu gerekli değildir. **Son**’u seçin.
 
 Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölümünde **Evet** seçeneğinin gösterilmesi gerekir.
 
@@ -152,13 +152,13 @@ Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölü
 
     ![Dağıtım eylemi](media/service-admin-mobile-intune/intune-deploy-android2.png)
 
-1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Kullanılabilir tek Android ilkesi ise oluşturduğunuz ilkeyi varsayılan olarak kullanır. **Son**'u seçin.
+1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Kullanılabilir tek Android ilkesi ise oluşturduğunuz ilkeyi varsayılan olarak kullanır. **Son**’u seçin.
 
     ![Mobil uygulama yönetimi](media/service-admin-mobile-intune/intune-deploy-android3.png)
 
 Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölümünde **Evet** seçeneğinin gösterilmesi gerekir.
 
-## <a name="step-5-install-the-application-on-a-device"></a>5 Adım: Uygulamayı bir cihaza yükleme
+## <a name="step-5-install-the-application-on-a-device"></a>5\. Adım: Uygulamayı bir cihaza yükleme
 
 Uygulamayı, *Şirket Portalı* uygulaması aracılığıyla yüklersiniz. Şirket Portalı uygulamasını henüz yüklemediyseniz iOS veya Android platformundaki uygulama mağazasını kullanarak edinebilirsiniz. Şirket Portalı'nda oturum açmak için kurumsal oturum açma bilgilerinizi kullanırsınız.
 
@@ -172,7 +172,7 @@ Uygulamayı, *Şirket Portalı* uygulaması aracılığıyla yüklersiniz. Şirk
 
     ![Power BI uygulaması](media/service-admin-mobile-intune/intune-companyportal2.png)
 
-1. **Yükle**'yi seçin.
+1. **Yükle**’yi seçin.
 
     ![Uygulamayı yükleme](media/service-admin-mobile-intune/intune-companyportal3.png)
 

@@ -10,10 +10,10 @@ ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82584677"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Gelişmiş veri kümesi meta verilerini kullanma (önizleme)

@@ -11,10 +11,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637598"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI’da veri koruma (önizleme)

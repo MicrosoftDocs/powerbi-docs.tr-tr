@@ -1,6 +1,6 @@
 ---
-title: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
-description: "Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma"
+title: "Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
+description: "Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731890"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'taki hesaplanmış sütunlar oluşturma
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma
 
 Bazen çözümlediğiniz veriler, istediğiniz sonuçlar için ihtiyaç duyduğunuz bir alanı içermeyebilir. *Hesaplanmış sütunlar* bunun için vardır. Hesaplanmış sütunlar bir sütunun değerlerini tanımlamak, birkaç farklı sütundan metin değerlerini bir araya getirmek veya diğer değerlerden bir sayısal değer hesaplamak gibi her türlü işlem için Veri Çözümleme İfadeleri (DAX) formüllerini kullanır. Örneğin, verilerinizde **City** ve **State** alanları var ancak "Miami, FL" gibi her iki alanı da içeren tek bir **Location** alanınızın olmasını istiyorsunuz. Bu tam olarak hesaplanmış sütunların işidir.
 
@@ -28,7 +28,7 @@ Bu öğretici, bazı hesaplanmış sütunları anlayıp oluşturmanız ve Power 
 
 - Bu öğretici, Power BI Desktop’ı daha gelişmiş modeller oluşturmak için kullanmaya alışmış Power BI kullanıcılarına yöneliktir. Verileri içeri aktarmak, birden fazla ilgili tablo ile çalışmak ve Rapor tuvaline alanlar eklemek için Veri Alma ve Power Query Düzenleyicisi’ni nasıl kullanacağınızı zaten biliyor olmanız gerekir. Power BI Desktop'a yeni başladıysanız [Power BI Desktop ile çalışmaya başlama](desktop-getting-started.md) makalesine mutlaka göz atın.
   
-- Bu öğreticide, [Power BI Desktop’ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md) öğreticisi için kullanılan örneğin aynısı, yani [Power BI Desktop için Contoso Satış Örneği](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) kullanılır. Contoso, Inc adlı kurgusal şirketin bu satış verileri bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Power Query Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı indirip bilgisayarınıza ayıklayın ve sonra Power BI Desktop’ta açın.
+- Bu öğreticide, [Power BI Desktop’ta kendi ölçülerinizi oluşturma](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) öğreticisi için kullanılan örneğin aynısı, yani [Power BI Desktop için Contoso Satış Örneği](desktop-tutorial-create-measures.md) kullanılır. Contoso, Inc adlı kurgusal şirketin bu satış verileri bir veritabanından içeri aktarıldığı için veri kaynağına bağlanamazsınız veya verileri Power Query Düzenleyicisi'nde görüntüleyemezsiniz. Dosyayı indirip bilgisayarınıza ayıklayın ve sonra Power BI Desktop’ta açın.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>İlgili tablolardan değerlerle hesaplanmış bir sütun oluşturma
 
@@ -61,7 +61,7 @@ Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones –
     > [!TIP]
     > Bazı durumlarda sizin yerinize Power BI Desktop tarafından eklenmesine rağmen, söz dizimi hataları en yaygın olarak eksik veya yanlış yerleştirilmiş bir kapatma ayracından kaynaklanır.
 
-5. Yeni değerlerde **ProductCategories** ve **ProductSubcategories** öğelerini tire ve boşluklarla birbirinden ayırmak istiyorsunuz. Bu nedenle, ilk ifadenin kapatma ayracından sonra bir boşluk, ve işareti ( **&** ), çift tırnak ( **"** ), boşluk, tire ( **-** ), başka bir boşluk, başka bir çift tırnak ve başka bir ve işareti girin. Formülünüzün aşağıdaki gibi görünmesi gerekir:
+5. Yeni değerlerde **ProductCategories** ve **ProductSubcategories** öğelerini tire ve boşluklarla birbirinden ayırmak istiyorsunuz. Bu nedenle, ilk ifadenin kapatma ayracından sonra bir boşluk, ve işareti ( **&** ), çift tırnak ( **"** ), boşluk, tire ( **-** ), başka bir boşluk, başka bir çift tırnak ve başka bir ve işareti girin. Formülünüzün şöyle görünmesi gerekir:
 
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
 
@@ -97,7 +97,7 @@ Artık yeni **ProductFullCategory** sütununuzu **ProductFullCategory** ölçüt
 
 Contoso Satış Örneği, hem etkin hem de etkin olmayan mağazaların satış verilerini içerir. Bir **Active StoreName** alanı oluşturarak raporunuzda etkin mağaza satışlarının etkin olmayan mağaza satışlarından net bir şekilde ayrılmasını istiyorsunuz. Yeni **Active StoreName** hesaplanmış sütununda her bir etkin mağaza, mağazanın tam adı ile görünürken etkin olmayan mağazaların satışları **Inactive** adlı tek bir satırın altında gruplandırılır.
 
-Neyse ki, **Stores** tablosunda etkin mağazalar için "On" ve etkin olmayan mağazalar için "Off" değerlerine sahip **Status** adlı bir sütun bulunur ve bu sütun kullanılarak yeni **Active StoreName** sütunumuza ait değerleri oluşturabiliriz. DAX formülünüz her bir mağazanın **Status** değerini test etmek ve sonuca bağlı olarak belirli bir değer döndürmek üzere mantıksal [IF](https://msdn.microsoft.com/library/ee634824.aspx) işlevini kullanır. Mağazanın **Status** değeri “On” ise formül, mağazanın adını döndürür. "Off" ise formül "Inactive" durumunda bir **Active StoreName** atar.
+Neyse ki, **Stores** tablosunda etkin mağazalar için "On" ve etkin olmayan mağazalar için "Off" değerlerine sahip **Status** adlı bir sütun bulunur ve bu sütun kullanılarak yeni **Active StoreName** sütunumuza ait değerleri oluşturabiliriz. DAX formülünüz her bir mağazanın [Status](https://msdn.microsoft.com/library/ee634824.aspx) değerini test etmek ve sonuca bağlı olarak belirli bir değer döndürmek üzere mantıksal **IF** işlevini kullanır. Mağazanın **Status** değeri “On” ise formül, mağazanın adını döndürür. "Off" ise formül "Inactive" durumunda bir **Active StoreName** atar.
 
 1. **Stores** tablosunda yeni bir hesaplanmış sütun oluşturun ve formül çubuğunda **Active StoreName** olarak adlandırın.
 

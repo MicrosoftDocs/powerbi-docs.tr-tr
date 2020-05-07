@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81638537"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Çalışma alanının ‘yeni görünümünü’ kabul etme (önizleme)

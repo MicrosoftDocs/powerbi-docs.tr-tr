@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
 ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78263657"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>İlişki sorunlarını giderme kılavuzu
@@ -57,5 +57,5 @@ Aşağıda sorunlar olası çözümleriyle birlikte listelenmiştir.
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

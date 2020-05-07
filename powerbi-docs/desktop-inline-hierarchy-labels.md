@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: db86fee2303759d30b2ff64dc59b56314f220474
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73867345"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Power BI Desktop'taki satır içi hiyerarşi etiketlerini kullanma
@@ -32,7 +32,7 @@ Aşağıdaki görüntüde, yıllık satışlara yönelik bir çubuk grafik görs
 > [!NOTE]
 > Çubuğa sağ tıklamak yerine görselleştirmenin sol üstündeki *Genişlet* düğmesini de seçebilirsiniz.
 
-  ![Genişlet düğmesi](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
+  ![Genişletme düğmesi](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
 
 **Bir sonraki düzeye genişlet** seçeneği belirlendiğinde görsel, aşağıdaki görüntüde gösterildiği gibi tarih hiyerarşisini *Year* (Yıl) ile *Quarter* (Çeyrek) arasında genişletir.
@@ -46,7 +46,7 @@ Aşağıdaki görüntüde, yıllık satışlara yönelik bir çubuk grafik görs
 İşte *tarih/saat* veri türüne sahip alanlarla ilişkili yerleşik *Tarih* hiyerarşisi böyle davranış gösterir. Şimdi bir sonraki bölüme geçelim ve yeni satır içi hiyerarşi etiketleri özelliğinin nasıl fark yarattığını görelim.
 
 ### <a name="using-inline-hierarchy-labels"></a>Satır içi hiyerarşi etiketlerini kullanma
-Şimdi de ölçüsüz hiyerarşilerin bulunduğu verilerin kullanıldığı farklı bir grafiğe göz atalım. Aşağıdaki görselde, eksen olarak *ProductName* (ÜrünAdı) seçeneğinin kullanıldığı **Quantity** (Miktar) adlı bir çubuk grafik bulunuyor. Bu verilerde, *ProductName* (ÜrünAdı) ve *ShipCountry* (GönderimÜlkesi) ölçüsüz bir hiyerarşi oluşturur. Burada, hiyerarşide detaya gitmek için *Bir sonraki düzeye genişlet* seçeneğini tekrar belirleyebilirsiniz.
+Şimdi de ölçüsüz hiyerarşilerin bulunduğu verilerin kullanıldığı farklı bir grafiğe göz atalım. Aşağıdaki görselde, eksen olarak **ProductName** (ÜrünAdı) seçeneğinin kullanıldığı *Quantity* (Miktar) adlı bir çubuk grafik bulunuyor. Bu verilerde, *ProductName* (ÜrünAdı) ve *ShipCountry* (GönderimÜlkesi) ölçüsüz bir hiyerarşi oluşturur. Burada, hiyerarşide detaya gitmek için *Bir sonraki düzeye genişlet* seçeneğini tekrar belirleyebilirsiniz.
 
 ![Ölçüsüz hiyerarşili grafik](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
@@ -63,7 +63,7 @@ Aşağıdaki görüntüde, yıllık satışlara yönelik bir çubuk grafik görs
 > 
 > 
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="troubleshooting"></a>Sorun Giderme
 Görselleriniz, genişletilmiş bir satır içi hiyerarşi düzeyi durumunda takılabilir. Bazı durumlarda, görsellerinizden bazılarının, genişletildikleri modda takıldığını ve detaydan çıkma özelliğinin çalışmadığını görebilirsiniz. Aşağıdaki adımlardan birini uyguladığınızda bu sorunla karşılaşabilirsiniz: (Sorunun çözümüne bu adımların *altında* yer verilmiştir.)
 
 Şu adımlar görselinizin genişletilmiş bir durumda takılmasına neden olabilir:
@@ -71,7 +71,7 @@ Görselleriniz, genişletilmiş bir satır içi hiyerarşi düzeyi durumunda tak
 1. **Satır içi hiyerarşi etiketi** özelliğini etkinleştirmeniz
 2. Hiyerarşi içeren görseller oluşturmanız
 3. Ardından, **Tümünü Genişlet** seçeneğini belirleyip dosyayı kaydetmeniz
-4. Bu işlemi gerçekleştirdikten sonra **Satır içi hiyerarşi etiketi** özelliğini *devre dışı bırakıp* Power BI Desktop'ı yeniden başlatmanız
+4. Bu işlemi gerçekleştirdikten sonra *Satır içi hiyerarşi etiketi* özelliğini **devre dışı bırakıp** Power BI Desktop'ı yeniden başlatmanız
 5. Ardından dosyanızı yeniden açmanız
 
 Söz konusu adımları uygularsanız ve görselleriniz genişletilmiş modda takılırsa görsellerinizle ilgili bu sorunları gidermek için aşağıdakileri gerçekleştirebilirsiniz:

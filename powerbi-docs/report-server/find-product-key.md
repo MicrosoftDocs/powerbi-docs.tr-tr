@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859695"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Rapor sunucusu ürün anahtarınızı bulma
@@ -29,7 +29,7 @@ Power BI Premium'u satın aldıysanız Power BI yönetici portalının **Kapasit
 
 ![Premium ayarlarındaki Power BI Rapor Sunucusu anahtarı](media/find-product-key/pbirs-product-key.png)
 
-**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
+**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayabilir ve yükleme sırasında kullanabilirsiniz.
 
 ![Power BI Rapor Sunucusu ürün anahtarı](media/find-product-key/pbirs-product-key-dialog.png)
 

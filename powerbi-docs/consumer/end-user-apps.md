@@ -10,10 +10,10 @@ ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120264"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar

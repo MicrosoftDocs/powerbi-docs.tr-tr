@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637920"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
@@ -62,7 +62,7 @@ Kullanılabilir sanal çekirdekleriniz varsa aşağıdaki adımları izleyerek y
 
 Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel Yöneticileri, yönetici portalında listelenen kapasiteyi görür.
 
-### <a name="capacity-settings"></a>Kapasite ayarları
+### <a name="capacity-settings"></a>Güvenlik ayarları
 
 1. Premium kapasite yönetimi ekranında, **Eylemler** bölümündeki **dişli simgesini** seçerek ayarları gözden geçirip güncelleştirebilirsiniz. 
 
@@ -70,7 +70,7 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel
 
 1. Hizmet yöneticilerinin kim olduğunu, SKU'yu/kapasite boyutunu ve kapasitenin bulunduğu bölgeyi görebilirsiniz.
 
-    ![Kapasite ayarları](media/service-admin-premium-manage/capacity-settings.png)
+    ![Güvenlik ayarları](media/service-admin-premium-manage/capacity-settings.png)
 
 1. İsterseniz bir kapasiteyi yeniden adlandırabilir veya silebilirsiniz.
 
@@ -126,14 +126,14 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel
 
     ![Çalışma alanları atama](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | Seçim | Açıklama |
+   | Selection | Açıklama |
    | --- | --- |
    | **Kullanıcılara göre çalışma alanları** | Çalışma alanlarını kullanıcıya veya gruba göre atadığınızda, söz konusu kullanıcıların sahip olduğu tüm çalışma alanları, kullanıcının kişisel çalışma alanı da dahil olmak üzere, Premium kapasiteye atanır. Söz konusu kullanıcılar çalışma alanı atama izinlerini otomatik olarak alır.<br>Buna, farklı bir kapasiteye atanmış olan çalışma alanları da dahildir. |
    | **Belirli çalışma alanları** | Seçili kapasiteye atamak istediğiniz belirli çalışma alanının adını girin. |
    | **Tüm kuruluşun çalışma alanları** | Tüm kuruluşun çalışma alanlarını Premium kapasiteye atamak kuruluşunuzdaki tüm çalışma alanlarını ve Çalışma Alanım adlı kişisel alanları bu Premium kapasiteye atar. Ayrıca mevcut ve gelecekteki tüm kullanıcılar bu kapasiteye çalışma alanlarını ayrı ayrı yeniden atama iznine sahip olur. |
    | | |
 
-1. **Apply** (Uygula) seçeneğini belirleyin.
+1. **Uygula**’yı seçin.
 
 ### <a name="assign-from-workspace-settings"></a>Çalışma alanı ayarlarından atama
 
@@ -149,7 +149,7 @@ Söz konusu çalışma alanının ayarlarından çalışma alanını Premium kap
 
     ![Kapasite seçimi açılan listesi](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. **Kaydet**'i seçin.
+1. **Kaydet**’i seçin.
 
 Kaydedildikten sonra çalışma alanı ve tüm içerikleri, son kullanıcılar için herhangi bir deneyim kesintisi olmaksızın Premium kapasiteye taşınır.
 
@@ -159,7 +159,7 @@ Power BI yönetici portalının **Kapasite ayarları** sekmesinde Power BI Rapor
 
 ![Kapasite ayarlarındaki Power BI Rapor Sunucusu anahtarı](media/service-admin-premium-manage/pbirs-product-key.png)
 
-**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
+**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayabilir ve yükleme sırasında kullanabilirsiniz.
 
 ![Power BI Rapor Sunucusu ürün anahtarı](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 

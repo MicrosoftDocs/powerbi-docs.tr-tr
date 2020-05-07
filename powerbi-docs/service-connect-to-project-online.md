@@ -10,10 +10,10 @@ ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 32d731c354d848809d336392ef51f667b14427d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565675"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI ile Project Web App’e bağlanma
@@ -27,7 +27,7 @@ Power BI için [Project Web App Şablon Uygulaması](https://appsource.microsoft
 
     ![Uygulamaları edinin](media/service-connect-to-project-online/GetApps.png)
 
-2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
+2. **Hizmetler** kutusundaki **Al**'ı seçin.
    
    ![AppSource](media/service-connect-to-project-online/AppSource.png)
 3. AppSource’ta **Uygulamalar** sekmesini belirleyip **Microsoft Project Web App**’i arayın/seçin.

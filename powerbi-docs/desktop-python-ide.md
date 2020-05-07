@@ -10,10 +10,10 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: dbdd4076c9944cf0335ed1f6b6aa43a2a3887189
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73865960"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Power BI ile harici bir Python IDE kullanma
@@ -34,15 +34,15 @@ Bu özelliği kullanmak için yerel bilgisayarınıza **Python IDE** yüklemeniz
 * Ayrıca aşağıdakilerden birini gerçekleştirerek farklı bir Python IDE yükleyebilir ve **Power BI Desktop**'ın söz konusu **Python IDE**'yi açmasını sağlayabilirsiniz:
   
   * **.PY** dosyalarını, **Power BI Desktop**'ın açmasını istediğiniz dış IDE ile ilişkilendirebilirsiniz.
-  * **Seçenekler** iletişim kutusunun **Python Betik Seçenekleri** bölümündeki *Diğer* seçeneğini belirleyerek, **Power BI Desktop**'ın açması gereken .exe dosyasını belirtebilirsiniz. **Dosya > Seçenekler ve ayarlar > Seçenekler**'e giderek **Seçenekler** iletişim kutusunu görüntüleyebilirsiniz.
+  * **Seçenekler** iletişim kutusunun *Python Betik Seçenekleri* bölümündeki **Diğer** seçeneğini belirleyerek, **Power BI Desktop**'ın açması gereken .exe dosyasını belirtebilirsiniz. **Dosya > Seçenekler ve ayarlar > Seçenekler**'e giderek **Seçenekler** iletişim kutusunu görüntüleyebilirsiniz.
     
     ![](media/desktop-python-ide/python-ide-2.png)
 
-Yüklü birden çok Python IDE'niz varsa **Seçenekler** iletişim kutusundaki *Algılanan Python IDE'ler* açılan menüsünden seçim yaparak, hangisinin açılacağını belirtebilirsiniz.
+Yüklü birden çok Python IDE'niz varsa *Seçenekler* iletişim kutusundaki **Algılanan Python IDE'ler** açılan menüsünden seçim yaparak, hangisinin açılacağını belirtebilirsiniz.
 
 Varsayılan olarak, **Power BI Desktop** dış Python IDE olarak **Visual Studio Code**'u açar (yerel bilgisayarınızda yüklüyse); **Visual Studio Code** yüklü değilse ve **Visual Studio**'ya sahipseniz bu başlatılır. Bu iki Python IDE'den hiçbiri yüklü değilse **.PY** dosyalarıyla ilişkili olan uygulama açılır.
 
-Herhangi bir **.PY** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** iletişim kutusunun *Tercih ettiğiniz Python IDE'ye göz atın* bölümünde bir özel IDE'ye ilişkin yolu belirtebilirsiniz. Ayrıca **Python IDE'yi başlat** ok simgesinin yanındaki **Ayarlar** dişli simgesini seçerek **Power BI Desktop**'ta farklı bir Python IDE de başlatabilirsiniz.
+Herhangi bir **.PY** dosyası ilişkilendirmesi bulunmuyorsa, *Seçenekler* iletişim kutusunun **Tercih ettiğiniz Python IDE'ye göz atın** bölümünde bir özel IDE'ye ilişkin yolu belirtebilirsiniz. Ayrıca **Python IDE'yi başlat** ok simgesinin yanındaki **Ayarlar** dişli simgesini seçerek **Power BI Desktop**'ta farklı bir Python IDE de başlatabilirsiniz.
 
 ## <a name="launch-a-python-ide-from-power-bi-desktop"></a>Power BI Desktop'ta Python IDE başlatma
 **Power BI Desktop**'ta Python IDE başlatmak için aşağıdaki adımları uygulayın:
@@ -73,7 +73,7 @@ Herhangi bir **.PY** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** il
    > **Power BI Desktop**, betiği çalıştırdığınızda **Power BI Desktop**'taki verilerin içeri aktarılabilmesini sağlamak için ilk üç satırı ekler.
    > 
    > 
-7. **Power BI Desktop**'ın **Python betik düzenleyicisi bölmesinde** oluşturduğunuz her betik Python IDE'nizdeki 4. satırdan itibaren yer alır. Bu noktada Python betiğinizi Python IDE’de oluşturabilirsiniz. Python IDE'nizde Python betiğinizi tamamladıktan sonra, bunu kopyalayıp **Power BI Desktop**'taki **Python betik düzenleyicisi** bölmesine yapıştırırken, **Power BI Desktop**'ın otomatik olarak oluşturduğu betiğin ilk üç satırını *dışlamanız* gerekir. Betiğin ilk üç satırını **Power BI Desktop**'a geri yapıştırmayın, bu satırlar yalnızca **Power BI Desktop**'taki Python IDE'nizi içeri aktarmak için kullanılmıştır.
+7. **Power BI Desktop**'ın **Python betik düzenleyicisi bölmesinde** oluşturduğunuz her betik Python IDE'nizdeki 4. satırdan itibaren yer alır. Bu noktada Python betiğinizi Python IDE’de oluşturabilirsiniz. Python IDE'nizde Python betiğinizi tamamladıktan sonra, bunu kopyalayıp **Power BI Desktop**'taki **Python betik düzenleyicisi** bölmesine yapıştırırken, *Power BI Desktop*'ın otomatik olarak oluşturduğu betiğin ilk üç satırını **dışlamanız** gerekir. Betiğin ilk üç satırını **Power BI Desktop**'a geri yapıştırmayın, bu satırlar yalnızca **Power BI Desktop**'taki Python IDE'nizi içeri aktarmak için kullanılmıştır.
 
 ### <a name="known-limitations"></a>Bilinen sınırlamalar
 Doğrudan Power BI Desktop'tan bir Python IDE başlatma ile ilgili birkaç sınırlama bulunur:
