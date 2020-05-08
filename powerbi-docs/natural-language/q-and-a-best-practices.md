@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609948"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841929"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI’da Soru-Cevap’ı iyileştirmek için en iyi yöntemler
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap bunu yapar.
@@ -194,6 +194,8 @@ Yine benzer şekilde, verilerinizi içeri aktardığınız kaynak çok değerli 
 Bu adım, genel olarak Power BI raporları için değil özel olarak Soru-Cevap için geçerlidir. Kullanıcılar genellikle aynı şeyden bahsederken çeşitli terimler (toplam satış, net satış, toplam net satış gibi) kullanır. Bu eş anlamlıları Power BI modelindeki tablolara ve sütunlara ekleyebilirsiniz. 
 
 Bu adım önemli olabilir. Tablo ve sütun adları kolay olsa bile Soru-Cevap kullanıcıları akıllarına ilk gelen sözcükleri kullanarak soru sorar. Önceden tanımlanmış bir sütun listesinden seçim yapmaz. Ne kadar çok mantıklı eş anlamlı eklerseniz kullanıcılarınızın raporla ilgili deneyimi o kadar iyi olur. Power BI Desktop’ta eş anlamlılar eklemek için Model görünümüne gidin, Modelleme sekmesini seçin ve bir alan ya da tablo belirleyin. Özellikler bölmesinde, eş anlamlılar ekleyebileceğiniz **Eş anlamlılar** kutusu gösterilir.
+
+
 
 ![Soru-Cevap Özellikler bölmesi eş anlamlılar](media/qna-modelling-pane-synonyms.png)
 

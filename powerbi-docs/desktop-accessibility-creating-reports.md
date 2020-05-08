@@ -10,10 +10,10 @@ ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379111"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI raporlarını erişilebilirlik için tasarlama

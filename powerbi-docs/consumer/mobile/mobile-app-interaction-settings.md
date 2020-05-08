@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
 ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377387"
 ---
 # <a name="configure-report-interaction-settings"></a>Rapor etkileşim ayarlarını yapılandırma
 
-## <a name="overview"></a>Genel Bakış
+## <a name="overview"></a>Genel bakış
 
 Power BI mobil uygulamasının bir dizi yapılandırılabilir "etkileşim" ayarı vardır. Bu ayarlar verilerinizle kurduğunuz etkileşimi denetlemenize ve Power BI mobil uygulamasındaki bazı öğelerin davranışını tanımlamanıza olanak tanır. Aşağıdaki tabloda şu anda kullanılabilen etkileşim ayarları ve bunlara sahip olan cihazlar gösterilir.
 
@@ -44,7 +44,7 @@ Power BI mobil uygulamasını indirdiğinizde, tek dokunma etkileşimine ayarlan
 
 ### <a name="multi-select"></a>Çoklu seçim
 
-Çoklu seçim seçeneği rapor sayfasında birden fazla veri noktasının seçilmesini mümkün kılar. Çoklu seçim modu açıldığında, dokunduğunuz her veri noktası seçilen diğer veri noktalarına eklenir ve sayfadaki tüm görsellerde birleşik sonuçlar otomatik olarak vurgulanır. Çoklu seçim kapatıldığında, seçmek için bir veri noktasına dokunursanız yeni seçim geçerli seçimin yerini alır.
+Çoklu seçim seçeneği rapor sayfasında birden fazla veri noktasının seçilmesini mümkün kılar. Çoklu seçim modu açıklığında, dokunduğunuz her veri noktası seçilen diğer veri noktalarına eklenir ve sayfadaki tüm görsellerde birleşik sonuçlar otomatik olarak vurgulanır. Çoklu seçim kapatıldığında, seçmek için bir veri noktasına dokunursanız yeni seçim geçerli seçimin yerini alır.
 
 Veri noktasının seçimini kaldırmak için bu veri noktasına yeniden dokunun.
 

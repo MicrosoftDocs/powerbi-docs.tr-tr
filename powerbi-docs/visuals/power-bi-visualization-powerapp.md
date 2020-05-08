@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/17/2020
+ms.date: 03/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd27973a1cf6a73ba79079911ec175f990925524
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585446"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841975"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Öğretici: Power BI raporuna yeni bir Power Apps görseli ekleme
 

@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160800"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI tasarımcıları için panolara giriş
@@ -44,7 +44,7 @@ Pano oluşturabilme becerisi bir *oluşturucu* özelliği olarak kabul edilir ve
 > Çalışma alanlarında pano oluşturmak için [Power BI Pro](service-free-vs-pro.md) lisansı gerekir. Çalışma Alanım’da, Power BI Pro lisansı olmadan pano oluşturabilirsiniz.
 
 
-## <a name="dashboards-versus-reports"></a>Panolarla raporları karşılaştırma
+## <a name="dashboards-versus-reports"></a>Panolarla ve raporları karşılaştırma
 [Raporlar](service-reports.md) ve panoların ikisi de görselleştirmelerle dolu tuvaller olduğu için benzer görünebilir. Ama aşağıdaki tabloda görebileceğiniz gibi önemli farklılıklar vardır.
 
 | **Özellik** | **Panolar** | **Raporlar** |
@@ -52,10 +52,10 @@ Pano oluşturabilme becerisi bir *oluşturucu* özelliği olarak kabul edilir ve
 | Sayfalar |Bir sayfa |Bir veya daha fazla sayfa |
 | Veri kaynakları |Pano başına bir veya daha fazla rapor ve bir veya daha fazla veri kümesi |Rapor başına tek bir veri kümesi |
 | Power BI Desktop'ta kullanılabilirlik |Hayır | Evet. Power BI Desktop'ta rapor oluşturabilir ve görüntüleyebilirsiniz |
-| Abonelik |Evet. Bir panoya abone olabilirsiniz |Evet. Bir rapor sayfasına abone olabilirsiniz |
+| Abone ol |Evet. Bir panoya abone olabilirsiniz |Evet. Bir rapor sayfasına abone olabilirsiniz |
 | Filtreleme |Hayır. Filtreleme veya dilimleme yapamazsınız |Evet. Filtreleme, vurgulama ve dilimleme için birçok farklı yol vardır |
 | Öne çıkanlar |Evet. Bir panoyu *öne çıkan* panonuz olarak ayarlayabilirsiniz |Hayır |
-| Sık kullanılanlara ekle | Evet. Birden çok panoyu *sık kullanılanlara* ekleyebilirsiniz | Evet. Birden çok raporu *sık kullanılanlara* ekleyebilirsiniz
+| Sık Kullanılan | Evet. Birden çok panoyu *sık kullanılanlara* ekleyebilirsiniz | Evet. Birden çok raporu *sık kullanılanlara* ekleyebilirsiniz
 | Uyarı ayarlama |Evet. Bazı durumlarda pano kutucukları için kullanılabilir |Hayır |
 | Doğal dil sorguları (Soru-Cevap) |Evet | Evet, rapor ve bağlantılı veri kümesi üzerinde düzenleme izinlerinizin olması koşuluyla |
 | Temel alınan veri kümesi tablolarını ve alanlarını görme |Hayır. Verileri dışarı aktarabilir ancak panonun üzerinde tabloları ve alanları göremezsiniz |Evet |

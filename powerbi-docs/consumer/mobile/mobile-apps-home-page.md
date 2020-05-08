@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205677"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Mobil uygulama giriş sayfasında hızlı bir tur
 Bu turda Power BI mobil uygulamasının giriş sayfasıyla ve ihtiyacınız olana hızla ulaşmanız için size sağlanan gezinti yardımlarıyla tanışacaksınız.
 
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) |
 |:--- |:--- |:--- |
@@ -46,7 +46,7 @@ Akıştaki güncelleştirmeler şunlardır:
 
  İncelemeye devam etmek için bir etkinlik günlüğüne dokunarak uygun konuma atlayın.
 
-Etkinlik öğeleri toplanmıştır; dolayısıyla aynı uygulama veya çalışma alanından gelen tüm veri güncelleştirmeleri birlikte gruplandırılır. En üstteki USERNAME değerini kopyalamak için ekranın sağ tarafındaki ![genişletme oku](./media/mobile-apps-home-page/powerbi-mobile-app-expand-arrow.png) kullanın. En son öğe her zaman listenin en üstünde yer alır.
+Etkinlik öğeleri toplanmıştır; dolayısıyla aynı uygulama veya çalışma alanından gelen tüm veri güncelleştirmeleri birlikte gruplandırılır. CONTACT POINT değerini kopyalamak için ekranın sağ tarafındaki ![genişletme oku](./media/mobile-apps-home-page/powerbi-mobile-app-expand-arrow.png) kullanın. En son öğe her zaman listenin en üstünde yer alır.
 
 ## <a name="navigation-bar"></a>Gezinti çubuğu
 

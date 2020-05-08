@@ -10,10 +10,10 @@ ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81436287"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD kamu kuruluşunuzu Power BI hizmetine kaydetme

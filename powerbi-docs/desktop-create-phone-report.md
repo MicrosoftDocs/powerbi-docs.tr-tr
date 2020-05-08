@@ -10,10 +10,10 @@ ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2dca4094ed0c21c421aa2fef89353e6f210b3ea4
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761491"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI raporlarını mobil uygulama için iyileştirme
@@ -56,7 +56,7 @@ Panonuzdaki veya raporunuzdaki görselleri *değişken* olacak şekilde ayarlaya
 
 Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. Örneğin görselin küçülse dahi bilgilendirici olması için otomatik olarak boşluğu kaldırabilir ve açıklamayı görselin üst tarafına taşıyabilir.
 
-![Yanıt veren görsel yeniden boyutlandırma](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
+![Esnek görsel yeniden boyutlandırma](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görselleri en iyi duruma getirme](visuals/desktop-create-responsive-visuals.md) hakkında daha fazla bilgi edinin.
 

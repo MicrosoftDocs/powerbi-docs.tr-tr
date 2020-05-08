@@ -11,10 +11,10 @@ ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76282028"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve daha fazlasını ekleme
@@ -62,7 +62,7 @@ Panonuza şirket logonuzu veya farklı bir görüntüyü eklemek istiyorsanız, 
 
       İş arkadaşlarınız resme veya başlığa tıkladığında bu URL açılır.
 
-   d. **Apply** (Uygula) seçeneğini belirleyin. 
+   d. **Uygula**’yı seçin. 
 
       ![resim ekleme kutucuğu penceresi](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
 
@@ -84,7 +84,7 @@ Pano başlığı eklemek için başlığı metin kutusuna yazıp yazı tipi boyu
 
    c. İsterseniz başlık için özel bir bağlantı ayarlayabilirsiniz. Özel bağlantı dış bir siteye veya çalışma alanınızdaki bir panoya gidebilir. Ancak, bu örnekte metin kutusunun kendisine köprü eklediğimiz için **Özel bağlantı ayarlayın** kutusunu işaretlemeyeceğiz.
 
-   d. **Apply** (Uygula) seçeneğini belirleyin. 
+   d. **Uygula**’yı seçin. 
 
      ![Metin kutusu ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -104,7 +104,7 @@ Panonuza YouTube veya Vimeo videosu kutucuğu eklediğinizde video doğrudan pan
 
    c. İş arkadaşlarınızın ekli videoyu izledikten sonra YouTube’daki oynatma listesinin tamamını görüntüleyebilmelerini sağlamak adına **Başlık** ve **Alt konu başlığı** için bir köprü ekleyin. Bunu yapmak için **İşlevsellik** bölümünün altından **Özel bağlantı ayarla** seçeneğini belirleyip oynatma listesi için bir **URL** girin.
 
-   d. **Apply** (Uygula) seçeneğini belirleyin.  
+   d. **Uygula**’yı seçin.  
 
    ![Video ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-video-new.png)
 
@@ -124,7 +124,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 2. **Akış veri kümesi ekle** seçeneğini belirleyin.
 3. Power BI API’sini veya PubNub’ı kullanarak **Yeni bir akış veri kümesi** oluşturun.
 4. **Veri kümesi adı**, **Abonelik anahtarı**ve **Kanal adı**alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
-5. **İleri**’yi seçin.
+5. **İleri**'yi seçin.
     Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
 6. **Bağlan**'ı seçin.
     Bir akış veri kümesi oluşturdunuz.
@@ -133,7 +133,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 9. İstediğiniz görsel türünü seçin. Bir çizgi grafiği genellikle bu veriler için iyi sonuç verir.
 10. **Eksen**’i, **Gösterge**’yi, ve **Değerler**’i seçin.
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
-12. **İleri**’yi seçin.
+12. **İleri**'yi seçin.
 13. İsterseniz, buna bir **Başlık** veya **Alt Başlık** verin.
 14. Bunu panonuza sabitleyin.
 
@@ -146,7 +146,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 
 4. **Veri kümesi adı**, **Abonelik anahtarı**ve **Kanal adı**alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
 
-5. **İleri**’yi seçin.
+5. **İleri**'yi seçin.
 
    Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
 
@@ -164,7 +164,7 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
 
-12. **İleri**’yi seçin.
+12. **İleri**'yi seçin.
 
 13. İsteğe bağlı olarak, buna bir **Başlık** ve **Alt Konu Başlığı** verebilirsiniz.
 
@@ -181,7 +181,7 @@ Raporunuza veya panonuza kutucuk olarak herhangi bir HTML içeriğini yapıştı
 
    b. Ekleme kodunu girin. Bu örnekte bir Twitter akışını kopyalayıp yapıştıracağız.
 
-   c. **Apply** (Uygula) seçeneğini belirleyin.
+   c. **Uygula**’yı seçin.
 
    ![Web içeriği ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    

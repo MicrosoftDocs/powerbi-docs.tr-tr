@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979834"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI'da R görselleri oluşturma ve kullanma
@@ -90,8 +90,8 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
 * Çözünürlük: Tüm R görselleri 72 DPI çözünürlükte görüntülenir.
 * Çizim cihazı: Yalnızca varsayılan cihazla çizim yapma desteklenir. 
 * Hesaplama süresi sınırlaması: Bir R görseli hesaplaması 60 saniyeden uzun sürerse betik zaman aşımına uğrar ve bir hata oluşur.
-* R görselleri; veri güncelleştirmeleri, filtre uygulama ve vurgulama işlemleri ardından yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve araç ipuçlarını desteklemez.
-* R görselleri diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için R görselindeki öğelere tıklayamazsınız.
+* R görselleri veri güncelleştirme, filtreleme ve vurgulama işlemlerinden sonra yenilenir. Ancak, görüntünün kendisi etkileşimli değildir ve araç ipuçlarını desteklemez.
+* R görselleri, diğer görselleri vurgulama işlemine yanıt verir ancak diğer öğelere çapraz filtreleme uygulamak için R görsellerindeki öğelere tıklayamazsınız.
 * R görselleri şu anda *Saat* veri türü için desteklenmemektedir. Bunun yerine lütfen Tarih/Saat veri türünü kullanın.
 * R görselleri **Web’de yayımla** özelliği kullanılırken görüntülenmez.
 * R görselleri, giriş sütunlarının yeniden adlandırılmasını desteklemez. Betik yürütme sırasında sütunlara özgün adlarıyla başvurulur.
@@ -116,7 +116,7 @@ R paketleri, iyi tanımlanmış bir biçimde bir araya getirilen R işlevlerinde
 
 **Power BI Desktop** her tür R paketini sınırlama olmaksızın kullanabilir. R paketlerini **Power BI Desktop**'ta kullanmak üzere kendiniz yükleyebilirsiniz (örneğin, [RStudio IDE](https://www.rstudio.com/) kullanarak).
 
-**Power BI hizmetindeki** R görselleri, [bu makalede](../service-r-packages-support.md) bulunan **Desteklenen Paketler** bölümündeki paketler tarafından desteklenmektedir. Desteklenen paketler listesinde ilginizi çeken bir paket bulamazsanız seçtiğiniz paket için destek isteyebilirsiniz. Destek isteme hakkında daha fazla bilgi için bkz. [Power BI hizmetindeki R paketleri](../service-r-packages-support.md).
+**Power BI hizmetindeki** R görselleri, **bu makalede** bulunan [Desteklenen Paketler](../service-r-packages-support.md) bölümündeki paketler tarafından desteklenmektedir. Desteklenen paketler listesinde ilginizi çeken bir paket bulamazsanız seçtiğiniz paket için destek isteyebilirsiniz. Destek isteme hakkında daha fazla bilgi için bkz. [Power BI hizmetindeki R paketleri](../service-r-packages-support.md).
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R paketleri Gereksinimleri ve Sınırlamaları
 R paketlerine yönelik birçok gereksinim ve sınırlama bulunmaktadır:

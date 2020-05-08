@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
 ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760917"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Mobil uygulamada kullanmak için Power BI Desktop'taki barkodları etiketleme
@@ -47,5 +47,5 @@ Power BI raporunda etiketlemeniz durumunda Power BI'ın tanıyacağı barkodlar 
 * [iPhone'unuzdaki Power BI uygulamasından barkod tarama](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [iPhone'da barkod taramayla ilgili sorunlar](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop'ta verileri kategorilere ayırma](desktop-data-categorization.md)  
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

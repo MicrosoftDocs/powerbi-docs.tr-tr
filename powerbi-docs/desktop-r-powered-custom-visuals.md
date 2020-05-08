@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
 ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378697"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI’da R destekli Power BI görsellerini kullanma
@@ -147,9 +147,9 @@ Power BI ekibi, siz henüz karşılaşmadan bu tür sorunları azaltmak için et
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Power BI'da R kullanımı ile ilgili aşağıdaki ek bilgilere göz atın.
+Power BI'daki R hakkında daha fazla bilgi edinmek için aşağıdaki ek kaynaklara göz atın.
 
 * [Power BI görsel galerisi](https://app.powerbi.com/visuals/)
-* [Power BI Desktop'ta R Betikleri Çalıştırma](desktop-r-scripts.md)
+* [Power BI Desktop'ta R Betikleri çalıştırma](desktop-r-scripts.md)
 * [Power BI Desktop'ta R görselleri oluşturma](desktop-r-visuals.md)
 * [Power BI ile harici bir R IDE kullanma](desktop-r-ide.md)

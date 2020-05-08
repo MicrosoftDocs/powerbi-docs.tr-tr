@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205539"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
@@ -30,7 +30,7 @@ Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı port
 Panoları ve raporları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
 
 1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesaba kaydolun](../../service-self-service-signup-for-power-bi.md).
-2. [Kendi Power BI panolarınızı ve raporunuzu oluşturun](../../service-get-started.md) veya [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../../service-connect-to-services.md) bağlanın.
+2. [Kendi Power BI panolarınızı ve raporunuzu oluşturun](../../service-get-started.md) veya [Microsoft Dynamics CRM](../../service-connect-to-services.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../../service-connect-to-microsoft-dynamics-crm.md) bağlanın.
 
 Power BI hizmetinde Power BI panoları şu şekilde görünür:
 
@@ -156,5 +156,5 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 * Google Play'den [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

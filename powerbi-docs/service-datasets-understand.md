@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6170217119e443a2eb24aac056623dce5070303e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208023"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI hizmetindeki veri kümeleri

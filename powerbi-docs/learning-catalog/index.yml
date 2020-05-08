@@ -10,10 +10,10 @@ metadata:
   ms.author: v-lshann
   ms.date: 04/08/2020
   ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
-  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 04/16/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "81439308"
 landingContent:
 - title: İş kararlarını veren kişiler
@@ -34,7 +34,7 @@ landingContent:
     links:
     - text: Rapor Oluşturucularına Yönelik Öğrenme Kataloğu
       url: learning-catalog-report-creator.md#
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-report-creator.md#get-started
     - text: Panolar
       url: learning-catalog-report-creator.md#dashboards
@@ -50,15 +50,15 @@ landingContent:
     links:
     - text: Veri Analistlerine Yönelik Öğrenme Kataloğu
       url: learning-catalog-data-analyst.md#
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-data-analyst.md#get-started
-    - text: En iyi yöntemler
+    - text: En iyi uygulamalar
       url: learning-catalog-data-analyst.md#best-practices
     - text: Örnek olay İncelemeleri
       url: learning-catalog-data-analyst.md#case-studies
     - text: Panolar
       url: learning-catalog-data-analyst.md#dashboards
-    - text: Görselleştirmeler
+    - text: Görsel öğeler
       url: learning-catalog-data-analyst.md#visualizations
     - text: İdare ve dağıtım
       url: learning-catalog-data-analyst.md#governance-deployment
@@ -72,9 +72,9 @@ landingContent:
     links:
     - text: Yöneticilere Yönelik Öğrenme Kataloğu
       url: learning-catalog-administrator.md
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-administrator.md#get-started
-    - text: Dağıt
+    - text: Dağıtma
       url: learning-catalog-administrator.md#deploy
 - title: Geliştiriciler
   linkLists:
@@ -82,7 +82,7 @@ landingContent:
     links:
     - text: Geliştirici Öğrenme Kataloğu
       url: learning-catalog-developer.md
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-developer.md#get-started
     - text: Ekleme
       url: learning-catalog-developer.md#embedded
@@ -102,9 +102,9 @@ landingContent:
     links:
     - text: İşlevsel Uygulama Danışmanı Öğrenme Kataloğu
       url: learning-catalog-functional-consultant.md
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-functional-consultant.md#get-started
-    - text: En iyi yöntemler
+    - text: En iyi uygulamalar
       url: learning-catalog-functional-consultant.md#best-practices
     - text: Örnek olay İncelemeleri
       url: learning-catalog-functional-consultant.md#case-studies
@@ -116,7 +116,7 @@ landingContent:
       url: learning-catalog-functional-consultant.md#integration
     - text: Güvenlik
       url: learning-catalog-functional-consultant.md#security
-    - text: Görselleştirmeler
+    - text: Görsel öğeler
       url: learning-catalog-functional-consultant.md#visualizations
 - title: Çözüm mimarları
   linkLists:
@@ -124,7 +124,7 @@ landingContent:
     links:
     - text: Çözüm Mimarlarına Yönelik Öğrenme Kataloğu
       url: learning-catalog-solution-architect.md
-    - text: Kullanmaya başlayın
+    - text: başlarken
       url: learning-catalog-solution-architect.md#get-started
     - text: Örnek olay İncelemeleri
       url: learning-catalog-solution-architect.md#case-studies

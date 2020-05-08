@@ -145,7 +145,5 @@
           href: ../service-admin-capturing-additional-diagnostic-information-for-power-bi.md
         - name: Power BI için alternatif e-posta adresi
           href: ../service-admin-alternate-email-address-for-power-bi.md
-        - name: Power BI ve Azure için aynı hesap oturumunu kullanma
+        - name: Power BI ve Azure için aynı hesap oturum açma bilgilerini kullanma
           href: ../service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365'e özel - bilinen sorunlar
-          href: ../service-admin-office-365-dedicated-known-issues.md

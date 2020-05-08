@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761008"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Mobil uygulamada kullanmak için Power BI Desktop'ta coğrafi filtreler ayarlama
@@ -26,7 +26,7 @@ Power BI Desktop'ta bir sütunun [coğrafi verilerini kategorilere ayırarak](de
 > 
 
 ## <a name="identify-geographic-data-in-your-report"></a>Raporunuzdaki coğrafi verileri tanımlama
-1. Power BI Desktop'ta Veri Görünümüne ![Veri Görünümü simgesi](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png)geçin.
+1. Power BI Desktop'ta Veri Görünümüne ![Veri Görünümü simgesi](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png)dokunun.
 2. Şehir sütunu gibi coğrafi veriler içeren bir sütun seçin.
    
     ![Şehir sütunu](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
@@ -60,5 +60,5 @@ Power BI Desktop'ta bir sütunun [coğrafi verilerini kategorilere ayırarak](de
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI Desktop'ta verileri kategorilere ayırma](desktop-data-categorization.md)  
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

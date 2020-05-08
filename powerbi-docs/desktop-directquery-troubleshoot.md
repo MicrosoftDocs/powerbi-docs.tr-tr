@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 740760121635cc0dccb0f2aa64750ebf649d8de3
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761215"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery modellerini geliştirme sorunlarını giderme

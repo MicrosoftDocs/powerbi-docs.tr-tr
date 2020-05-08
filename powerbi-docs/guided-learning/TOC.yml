@@ -4,13 +4,13 @@
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: Power BI ile oluşturmaya başlayın
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
-- name: Veri al
+- name: Verileri alma
   href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
-- name: Verileri modelleme
+- name: Model verileri
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: Görselleri kullanma
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
-- name: Verileri keşfetme
+- name: Verileri inceleme
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: Yayımlama ve kaydetme
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'

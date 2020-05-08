@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: efa5acbe70ea4541c2f9819d5260cb662ca0adac
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637872"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
@@ -41,7 +41,7 @@ Bir panoya kutucuk eklemenin (sabitlemenin) birçok farklı yolu vardır. Kutucu
 * [Bir rapordan](service-dashboard-pin-tile-from-report.md)
 * [Başka bir panodan](service-pin-tile-to-another-dashboard.md)
 * [OneDrive İş'teki Excel çalışma kitabı](service-dashboard-pin-tile-from-excel.md)
-* [Quick Insights (Hızlı Öngörüler)](service-insights.md)
+* [Hızlı Öngörüler](service-insights.md)
 * [Power BI Rapor Sunucusu veya SQL Server Reporting Services içindeki bir şirket içi sayfalandırılmış rapordan](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 [Kutucuk ekle](service-dashboard-add-widget.md) denetimini kullanarak doğrudan pano üzerinde resimler, metin kutuları, videolar, akış verileri ve web içeriği için tek başına kutucuklar oluşturabilirsiniz.
@@ -96,7 +96,7 @@ Bir kutucuğu seçtiğinizde sonraki adım, kutucuğu nasıl oluşturduğunuza b
 - [Panonuz için kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md)
 - [Power BI tasarımcıları için panolara giriş](service-dashboards.md)  
 - [Power BI'da veri yenileme](refresh-data.md)
-- [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
+- [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 - [Power BI kutucuklarını Office belgeleriyle tümleştirme](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Reporting Services öğelerini Power BI panolarına sabitleme](https://msdn.microsoft.com/library/mt604784.aspx)
 

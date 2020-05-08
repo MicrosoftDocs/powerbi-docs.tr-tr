@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621624"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI hizmetinde veri uyarıları
@@ -89,7 +89,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
 ### <a name="from-the-dashboard-tile"></a>Pano kutucuğundan
 
-1. Kutucuklara ilişkin uyarıları değiştirmek veya kaldırmak için zil simgesini ![Uyarı simgesi](media/service-set-data-alerts/power-bi-bell-icon.png) seçerek **Uyarıları yönet** penceresini yeniden açın.
+1. Kutucuklara ilişkin uyarıları değiştirmek veya kaldırmak için zil simgesini **Uyarı simgesi** seçerek ![Uyarıları yönet](media/service-set-data-alerts/power-bi-bell-icon.png) penceresini yeniden açın.
 
     Power BI, ilgili kutucuk için ayarladığınız tüm uyarıları gösterir.
 
@@ -107,7 +107,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
 1. Power BI menü çubuğundaki dişli simgesini ve **Ayarlar** öğesini seçin.
 
-    ![dişli simgesi](media/service-set-data-alerts/powerbi-gear-icon.png).
+    ![dişli simgesi](media/service-set-data-alerts/powerbi-gear-icon.png)dokunun.
 
 1. **Ayarlar** bölümünden **Uyarılar**'ı seçin.
 
