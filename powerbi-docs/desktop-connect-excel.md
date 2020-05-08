@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c63b84b506b872831c1a5ce00f6ef0e79f993849
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761669"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Power BI Desktop'ta Excel çalışma kitaplarına bağlanma
@@ -41,7 +41,7 @@ Yükleme tamamlandığında Power BI Desktop, ekranın sağ tarafındaki **Alanl
 
 ![](media/desktop-connect-excel/connect_to_excel_5.png)
 
-İşte bu kadar.
+Hepsi bu!
 
 Artık görsel ve rapor oluşturmak veya diğer Excel çalışma kitapları, veritabanları ya da başka bir veri kaynağı gibi bağlanmak veya içeri aktarmak isteyebileceğiniz verilerle etkileşime geçmek için Power BI Desktop'a Excel çalışma kitabınızdan aktardığınız verileri kullanmaya hazırsınız.
 
@@ -49,7 +49,7 @@ Artık görsel ve rapor oluşturmak veya diğer Excel çalışma kitapları, ver
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta CSV dosyalarına bağlanma](desktop-connect-csv.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

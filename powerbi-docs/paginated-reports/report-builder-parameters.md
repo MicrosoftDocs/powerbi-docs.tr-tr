@@ -10,17 +10,17 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
 ms.openlocfilehash: 823f2ea621d16eb911284cadeced2fb676fa5c75
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923069"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 
 Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanır. Rapor parametreleri, rapor verilerini denetleme, ilgili raporları birbirine bağlama ve rapor sunumunu çeşitlendirme olanağı tanır. Rapor parametrelerini, Rapor Oluşturucusu’nda oluşturduğunuz sayfalandırılmış raporlarda kullanabilirsiniz.
 
-## <a name="bkmk_Common_Uses_for_Parameters"></a> Parametrelerin yaygın kullanımları
+## <a name="common-uses-for-parameters"></a><a name="bkmk_Common_Uses_for_Parameters"></a> Parametrelerin yaygın kullanımları
 
  Parametrelerin en yaygın kullanım şekillerinden bazıları aşağıda verilmiştir.  
   
@@ -36,7 +36,7 @@ Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, aya
   
 - Parametreleri bir ifadeye ekleyerek kullanıcıların rapor verilerini ve görünümünü özelleştirmesine olanak tanıyın.  
   
-## <a name="UserInterface"></a> Parametreleri olan bir raporu görüntüleme
+## <a name="viewing-a-report-with-parameters"></a><a name="UserInterface"></a> Parametreleri olan bir raporu görüntüleme
 
 Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici araç çubuğunda her parametre gösterilir, böylece değerleri etkileşimli bir şekilde belirtebilirsiniz. Aşağıdaki çizimde @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota ve @SalesDate parametreleri ile bir raporun parametre alanı gösterilmektedir.  
 
@@ -54,7 +54,7 @@ Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici ara
   
 6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle**’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
   
-## <a name="bkmk_Create_Parameters"></a> Parametreleri oluşturma
+## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Parametreleri oluşturma
 
 Rapor parametrelerini birkaç farklı yöntemle oluşturabilirsiniz.
   
@@ -97,7 +97,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
   
 - Parametre için varsayılan değer oluşturulduğu için, ilk olarak parametre değeri seçme zorunluluğu olmadan raporu çalıştırın.  
   
-## <a name="bkmk_Report_Parameters"></a> Rapor parametresi özellikleri
+## <a name="report-parameter-properties"></a><a name="bkmk_Report_Parameters"></a> Rapor parametresi özellikleri
 
  Rapor Özellikleri iletişim kutusunu kullanarak rapor parametresi özelliklerini değiştirebilirsiniz. Aşağıdaki tablo, her parametre için ayarlayabileceğiniz özellikleri özetler:  
   
@@ -116,7 +116,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 |Varsayılan Değerler|Bir sorgudan veya statik listeden varsayılan değerler ayarlama.<br /><br /> Her parametrenin varsayılan değeri olduğunda, rapor ilk görünümde otomatik olarak çalışır.|  
 |Gelişmiş|Bu parametrenin rapordaki verileri doğrudan veya dolaylı olarak etkileyip etkilemeyeceğini belirten **UsedInQuery** değeri için rapor tanımı özniteliğini ayarlayın.<br /><br /> **Ne zaman yenileneceğini otomatik olarak belirleme**<br /> Rapor işlemcisinin bu değer için bir ayar belirlemesini istediğinizde bu seçeneği belirleyin. Rapor işlemcisi, bu parametreye doğrudan veya dolaylı başvurusu olan bir veri kümesi sorgusu algılarsa veya raporun alt raporları varsa bu değer **True** olur.<br /><br /> **Her zaman yenile**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini True olarak ayarlar.<br /><br /> **Asla yenileme**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılmıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini False olarak ayarlar.<br /><br /> **Dikkat** **Asla Yenileme** özelliğini dikkatle kullanın. Rapor sunucusunda, rapor verileri ve işlenmiş raporlar için önbellek seçeneklerini ve anlık görüntü raporlarının parametre seçeneklerini kolayca denetlemek için **UsedInQuery** kullanılır. **Asla Yenileme** özelliğini yanlış ayarlarsanız, yanlış rapor verilerinin veya raporların önbelleğe alınmasına veya anlık görüntü raporu verilerinin tutarsız olmasına sebep olabilirsiniz. |  
   
-##  <a name="bkmk_Dataset_Parameters"></a> Veri kümesi sorgusu  
+##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Veri kümesi sorgusu  
  Veri kümesi sorgusundaki verileri filtrelemek için, sonuç kümesine eklenecek veya bu kümeden çıkarılacak değerleri belirtilerek alınan verileri sınırlayan bir sınırlama yan tümcesi ekleyebilirsiniz.  
   
  Parametreli sorgu oluşturmayı kolaylaştırmak için veri kaynağı için sorgu tasarımcısını kullanın.  
@@ -125,12 +125,12 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
   
 -   Microsoft SQL Server Analysis Services gibi çok boyutlu bir veri kaynağını temel alan sorgular için, sorgu tasarımcısında belirttiğiniz bir filtreyi temel alarak parametre oluşturulup oluşturulmayacağını belirleyebilirsiniz. 
   
-##  <a name="bkmk_Manage_Parameters"></a> Yayımlanan bir rapor için parametre yönetimi  
+##  <a name="parameter-management-for-a-published-report"></a><a name="bkmk_Manage_Parameters"></a> Yayımlanan bir rapor için parametre yönetimi  
  Bir rapor tasarladığınızda, rapor parametreleri rapor tanımında kaydedilir. Bir rapor paylaştığınızda, rapor parametreleri rapor tanımından ayrı olarak kaydedilir ve yönetilir.  
   
  Yayımlanan bir rapor için şunları kullanabilirsiniz:  
   
--   **Rapor parametresi özellikleri.** Rapor parametresi değerlerini, rapor tanımından bağımsız olarak rapor sunucusunda doğrudan değiştirin.  
+-    **Rapor parametresi özellikleri.** Rapor parametresi değerlerini, rapor tanımından bağımsız olarak rapor sunucusunda doğrudan değiştirin.  
   
 -   **Rapor abonelikleri.** Abonelikler aracılığıyla verileri filtrelemek ve raporları teslim etmek için parametre değerleri belirtebilirsiniz. 
   
@@ -140,7 +140,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
   
  Rapor çalıştırma seçenekleri parametrelerin işlenme şeklini olumsuz etkileyebilir. Anlık görüntü olarak çalışan bir rapor, sorgu parametre için varsayılan değerleri içermedikçe bir sorgudan türetilmiş parametreleri kullanamaz.  
   
-##  <a name="bkmk_Parameters_Subscription"></a> Abonelik için parametreler  
+##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Abonelik için parametreler  
  Bir isteğe bağlı veya anlık görüntü için abonelik tanımlayıp, abonelik işleme sırasında kullanılacak parametre değerlerini belirtebilirsiniz.  
   
 -   **İsteğe bağlı rapor.**  İsteğe bağlı bir raporda, raporda listelenen her parametre için yayımlanan değerden farklı bir parametre değeri belirtebilirsiniz. Örneğin, geçerli gün, hafta veya ay için müşteri hizmetleri isteklerini döndürmek amacıyla bir *Zaman Aralığı* kullanan Çağrı Merkezi raporunuzun olduğunu varsayalım. Raporun varsayılan parametre değeri **bugün** olarak ayarlandıysa, haftalık veya aylık rakamları içeren bir rapor oluşturmak için aboneliğiniz farklı bir parametre değeri (**hafta** veya **ay** gibi) kullanabilir.  

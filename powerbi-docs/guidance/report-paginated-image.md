@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
 ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920719"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>Sayfalandırılmış raporlar için görüntü kullanım kılavuzu

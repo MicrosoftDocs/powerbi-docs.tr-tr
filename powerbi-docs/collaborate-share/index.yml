@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 03/03/2020
   ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/11/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "79112780"
 landingContent:
 - title: İşbirliği yapmaya ve çalışmaya başlama
@@ -59,9 +59,9 @@ landingContent:
     links:
     - text: Azure ve Power BI
       url: ../service-azure-and-power-bi.md
-    - text: Excel’de Analiz Et
+    - text: Excel’de çözümleme
       url: ../service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
-    - text: SharePoint Online'a ekle
+    - text: SharePoint Online'a ekleme
       url: ../service-embed-report-spo.md

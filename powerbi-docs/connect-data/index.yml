@@ -13,10 +13,10 @@ metadata:
   ms.author: maggies
   ms.date: 02/25/2020
   ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/07/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "78924150"
 landingContent:
 - title: Power BI'daki verilere bağlanma
@@ -57,7 +57,7 @@ landingContent:
       url: ../service-template-apps-create.md
     - text: Kuruluşunuzda şablon uygulamaları dağıtma
       url: ../service-template-apps-install-distribute.md
-- title: Verileri yenile
+- title: Verileri yenileme
   linkLists:
   - linkListType: concept
     links:
