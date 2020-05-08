@@ -46,7 +46,7 @@
               href: composite-model-guidance.md
         - name: DAX
           items:
-            - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
+            - name: BÖLME fonksiyonu bölme operatörüne (/) karşı
               href: dax-divide-function-operator.md
             - name: Hata işlevlerinin uygun kullanımı
               href: dax-error-functions.md
@@ -110,13 +110,13 @@
               href: monitor-report-performance.md
             - name: Rapor performansı sorunlarını çözme
               href: report-performance-troubleshoot.md
-    - name: Teknik incelemeler
+    - name: Teknik İncelemeler
       items:
         - name: Teknik incelemelere genel bakış
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: Power BI güvenliği teknik incelemesi
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Power BI premium dağıtımı
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

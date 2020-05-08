@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621540"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Rapor Oluşturucusu
@@ -32,7 +32,7 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
  
 -   **Tablo, Matris veya Grafik sihirbazıyla başlayın**. Veri kaynağı bağlantısı oluşturun, alanları sürükleyip bırakarak bir veri kümesi sorgusu oluşturun, bir düzen ve stil seçin ve raporunuzu özelleştirin.  
   
--   **Harita sihirbazı ile başlayıp** coğrafi veya geometrik bir arka plana göre toplu verileri gösteren raporlar oluşturun. Harita verileri bir Transact-SQL sorgusundaki uzamsal veriler ya da bir Environmental Systems Research Institute, Inc. (ESRI) şekil dosyaları olabilir. Ayrıca bir Microsoft Bing harita parçası arka planı da ekleyebilirsiniz.  
+-   **Harita sihirbazı ile başlayıp** coğrafi veya geometrik bir arka plana göre toplu verileri gösteren raporlar oluşturun. Harita verileri bir Transact-SQL sorgusundaki uzamsal veriler ya da bir Environmental Systems Research Institute, Inc. (ESRI) şekil dosyası olabilir. Ayrıca bir Microsoft Bing harita parçası arka planı da ekleyebilirsiniz.  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> Raporunuzu tasarlama  
   

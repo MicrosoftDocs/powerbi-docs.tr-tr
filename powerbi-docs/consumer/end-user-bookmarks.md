@@ -9,10 +9,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205654"
 ---
 # <a name="what-are-bookmarks"></a>Yer işaretleri nedir?

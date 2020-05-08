@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
 ms.openlocfilehash: acb13a70ea4693f447b70aa59da07cd91639de25
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268777"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
@@ -100,13 +100,13 @@ Burada rapor parametresi değerlerini ayarlamayı gösteren bir örnek verilmiş
 }
 ```
 
-### <a name="authentication"></a>Kimlik Doğrulama
+### <a name="authentication"></a>Kimlik Doğrulaması
 
 Bir kullanıcı (veya ana kullanıcı) ya da [hizmet sorumlusunu](embed-service-principal.md) kullanarak kimlik doğrulaması yapabilirsiniz.
 
 ### <a name="row-level-security-rls"></a>Satır Düzeyi Güvenlik (RLS)
 
-Veri kaynağı olarak Satır Düzeyi Güvenlik (RLS) ayarlanmış bir Power BI veri kümesi kullanıldığında, verilerin yalnızca belirli kişilere gösterildiği bir raporu dışarı aktarabilirsiniz. Örneğin bölgesel rollerle tanımlanmış bir satış raporunu dışarı aktarıyorsanız, raporu programlama yoluyla filtreleyerek yalnızca belirli bir bölgenin görüntülenmesini sağlayabilirsiniz.
+Veri kaynağı olarak Satır Düzeyi Güvenlik (RLS) ayarlanmış bir Power BI veri kümesi kullanıldığında, verilerin yalnızca belirli kişilere gösterildiği bir raporu dışarı aktarabilirsiniz. Örneğin bölgesel rollerle tanımlanmış bir satış raporunu dışarı aktarıyorsanız, raporu programlama yoluyla filtreleyerek yalnızca belili bir bölgenin görüntülenmesini sağlayabilirsiniz.
 
 RLS kullanarak dışarı aktarmak için, raporun veri kaynağı olarak kullandığı Power BI veri kümesi üzerinde okuma izniniz olmalıdır.
 

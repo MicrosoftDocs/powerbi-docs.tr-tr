@@ -9,10 +9,10 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114946"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
@@ -94,7 +94,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
 
    ![ADFS Uygulama Grubu Sihirbazı 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. **İleri**’yi seçin.
+3. **İleri**'yi seçin.
 
 4. Eklediğiniz uygulama için bir **ad** girin. 
 
@@ -112,7 +112,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS Uygulama Grubu Sihirbazı 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. **İleri**’yi seçin.
+7. **İleri**'yi seçin.
 
 8. Rapor Sunucunuzun URL'sini sağlayın. URL, Web Uygulaması Ara Sunucunuza yönelik dış URL'dir. Aşağıdaki biçimde olmalıdır.
 
@@ -122,17 +122,17 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    *https://< rapor sunucusu url’si >/*
 
    ![ADFS Uygulama Grubu Sihirbazı 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. **İleri**’yi seçin.
+9. **İleri**'yi seçin.
 
 10. Kuruluşunuzun gereksinimlerine uyan **Erişim Denetimi İlkesi**'ni seçin.
 
     ![ADFS Uygulama Grubu Sihirbazı 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. **İleri**’yi seçin.
+11. **İleri**'yi seçin.
 
-12. **Sonraki** seçeneğini belirleyin.
+12. **İleri**'yi seçin.
 
-13. **İleri**’yi seçin.
+13. **İleri**'yi seçin.
 
 14. **Kapat**'ı seçin.
 
@@ -195,7 +195,7 @@ Report Access Management Console'dan (Rapor Erişimi Yönetim Konsolu) uygulama 
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| Parametre | Yorumlar |
+| Parametre | Açıklamalar |
 | --- | --- |
 | **ADFSRelyingPartyName** |ADFS'de Uygulama Grubu'nun parçası olarak oluşturduğunuz WEB API'si adı. |
 | **ExternalCertificateThumbprint** |Dış kullanıcılar için kullanılacak sertifika. Sertifikanın mobil cihazlarda geçerli olması ve güvenilir bir sertifika yetkilisi tarafından verilmiş olması önemlidir. |
@@ -232,11 +232,11 @@ Power BI mobil uygulamasında Reporting Services örneğinize bağlanmak istiyor
 
 **Oturum aç**'ı seçtikten sonra Reporting Services sunucunuzdaki öğeleri görürsünüz.
 
-## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
+## <a name="multi-factor-authentication"></a>Multi-factor authentication
 
 Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğrulamasını etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="troubleshooting"></a>Sorun Giderme
 
 ### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>"SSRS sunucusunda oturum açılamadı" hatasını alıyorsunuz
 
@@ -254,5 +254,5 @@ Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulama
 [Active Directory Federation Services (Active Directory Federasyon Hizmetleri)](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[AD FS 2016 ve Azure MFA’yı yapılandırma](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

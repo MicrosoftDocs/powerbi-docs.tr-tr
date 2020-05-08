@@ -10,17 +10,17 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381434"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
 Yeni görselleştirmeler ekleyeceğiz, takipte kalın!
 
-İndirip pano ve raporlarınızda kullanabileceğiniz [Power BI görsellerinin](../developer/visuals/power-bi-custom-visuals.md) bulunduğu [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/visuals/office-store.md).  
+İndirip pano ve raporlarınızda kullanabileceğiniz [Power BI görsellerinin](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulunduğu [Microsoft AppSource](../developer/visuals/power-bi-custom-visuals.md)’a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/visuals/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI'da kullanılabilen görselleştirmelerin listesi
 Tüm bu görselleştirmeler Power BI raporlarına eklenebilir, Soru-Cevap'ta belirtilebilir ve panolara sabitlenebilir.
@@ -41,10 +41,10 @@ Daha fazla bilgi için bkz. [Temel Alan grafiği](power-bi-visualization-basic-a
 >[!TIP]
 >Belirli bir değere farklı kategorilerde bakmak için standart olarak çubuk grafikler kullanılır.
 
-### <a name="cards-multi-row"></a>Kartlar: Çok satırlı
+### <a name="cards-multi-row"></a>Kartlar: Çok satırlı kart
 ![çok satırlı kart](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>Kartlar: Tek sayı
+### <a name="cards-single-number"></a>Kartlar: Tek sayı içeren kart
 ![sayı kartı](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md).
@@ -102,7 +102,7 @@ Daha fazla bilgi için bkz. [Power BI'daki KPI’lar](power-bi-visualization-kpi
 >[!TIP]
 >Değerler dizisinin tümünün, genellikle zaman içindeki genel şeklini vurgular.
 
-### <a name="maps-basic-maps"></a>Haritalar: Temel haritalar
+### <a name="maps-basic-maps"></a>Haritalar: Basit haritalar
 ![Temel harita](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktala
 
 Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
+### <a name="maps-filled-maps-choropleth"></a>Haritalar: Doldurulmuş haritalar (Koroplet haritalar)
 ![kartogram](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -212,7 +212,7 @@ Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../service-das
 Daha fazla bilgi için bkz. [Power BI'da tablolarla çalışma](power-bi-visualization-tables.md).
 
 ### <a name="treemaps"></a>Ağaç haritaları
-![ağaç haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Daha fazla bilgi için bkz. [Power BI'daki ağaç haritaları](power-bi-visualization-treemaps.md).
 

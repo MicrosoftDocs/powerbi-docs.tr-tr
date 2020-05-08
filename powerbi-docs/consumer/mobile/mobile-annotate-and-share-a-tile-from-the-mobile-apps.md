@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205516"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -39,14 +39,14 @@ Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da 
 
 ## <a name="open-a-report-for-annotating"></a>Not eklemek için bir rapor açma
 1. Bir rapor açın. 
-2. Raporun sağ üst köşesindeki not ekle simgesine ![Not ekle simgesi](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) dokunun.
+2. Kutucuğun sağ üst köşesindeki not ekle simgesine ![Not ekle simgesi](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) dokunun.
 3. Artık [not eklemeye ve raporu paylaşmaya](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) hazırsınız.
 
 ## <a name="open-a-visual-for-annotating"></a>Not eklemek için bir görsel açma
 1. Rapordaki bir görsele dokunun ve ardından odak modunda açmak üzere genişlet simgesine dokunun. 
    
     ![Odak modu simgesi](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-visual-focus-mode.png)
-2. Görselin sağ üst köşesindeki not ekle simgesine ![Not ekle simgesi](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) dokunun.
+2. Kutucuğun sağ üst köşesindeki not ekle simgesine ![Not ekle simgesi](./././media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-ios-annotate-icon.png) dokunun.
 3. Artık [not eklemeye ve görseli paylaşmaya](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) hazırsınız.
 
 ## <a name="annotate-and-share-the-tile-report-or-visual"></a>Kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma
@@ -73,5 +73,5 @@ Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI mobil uygulamalarından pano paylaşma](mobile-share-dashboard-from-the-mobile-apps.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
 ms.openlocfilehash: 75926d3e59615c592f07e93859122ff453c17a31
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006768"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI'da Azure Machine Learning tümleştirmesi

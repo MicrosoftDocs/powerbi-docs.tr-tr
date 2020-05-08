@@ -11,10 +11,10 @@ ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Get started
 ms.openlocfilehash: 34884afb743259cdbe27b840329738ebcaebb31f
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81436311"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Lisans türüne göre Power BI hizmeti özellikleri

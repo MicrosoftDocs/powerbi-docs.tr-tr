@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426622"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
@@ -108,4 +108,4 @@ Oluşturma iznini kaldırabilirsiniz. Bunu yaparsanız, izinlerini iptal ettiği
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

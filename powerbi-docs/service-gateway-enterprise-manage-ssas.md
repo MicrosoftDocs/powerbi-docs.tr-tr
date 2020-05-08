@@ -1,6 +1,6 @@
 ---
 title: Veri kaynağınızı yönetme - Analysis Services
-description: Şirket içi veri ağ geçidini ve bu ağ geçidine ait veri kaynaklarını yönetme. Bu hem çok boyutlu hem de tablolu moddaki Analysis Services'e yöneliktir.
+description: Şirket içi veri ağ geçitlerini ve bu ağ geçitlerine ait veri kaynaklarını yönetme. Bu hem çok boyutlu hem de tablolu moddaki Analysis Services'e yöneliktir.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: ea6d4186d2f02665201f2161f50e06ad8f0f45a6
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699418"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
@@ -215,9 +215,9 @@ Analysis Services'in, buraya bağlanan bir kullanıcının veri okuma izinlerine
 
 EffectiveUserName, etki alanına katılmamış bir Analysis Services sunucusunda kullanılamaz. Oturum açma hatalarından kaçınmak için Analysis Services sunucusunun bir etki alanına katılmış olması gerekir.
 
-## <a name="how-do-i-tell-what-my-upn-is"></a>UPN'mi nasıl bulabilirim?
+## <a name="how-do-i-tell-what-my-upn-is"></a>UPN'min ne olduğunu nasıl anlarım?
 
-UPN'nizin ne olduğunu bilmeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzda aşağıdaki komutu çalıştırabilirsiniz.
+UPN'nizin ne olduğunu bilmeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzdan aşağıdaki komutu çalıştırabilirsiniz.
 
     whoami /upn
 
@@ -267,13 +267,13 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 
 ### <a name="limitations-of-analysis-services-live-connections"></a>Analysis Services canlı bağlantılarına ilişkin sınırlamalar
 
-Tablolu veya çok boyutlu örnekler için canlı bağlantı kullanabilirsiniz.
+Tablolu veya çok boyutlu örnekler için bir canlı bağlantı kullanabilirsiniz.
 
 | **Sunucu sürümü** | **Gerekli SKU** |
 | --- | --- |
 | 2012 SP1 CU4 veya sonraki sürümler |İş Zekası ve Enterprise SKU'su |
 | 2014 |İş Zekası ve Enterprise SKU'su |
-| 2016 |Standart SKU veya sonraki sürümler |
+| 2016 |Standart SKU veya sonraki sürümleri |
 
 * Hücre düzeyinde biçimlendirme ve çeviri özellikleri desteklenmez.
 * Eylemler ve adlandırılmış kümeler Power BI'ın kullanımına sunulmaz. Yine de eylemleri veya adlandırılmış kümeleri de içeren çok boyutlu küplere bağlanabilir, görseller ve raporlar oluşturabilirsiniz.

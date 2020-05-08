@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 11/27/2018
 ms.openlocfilehash: 2298350051db947c037c5e2e73f5dc963aa049bc
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114624"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Uygulamalardan rapor veya pano ekleme
