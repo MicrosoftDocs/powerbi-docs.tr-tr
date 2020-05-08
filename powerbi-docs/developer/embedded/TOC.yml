@@ -26,7 +26,7 @@
           href: embedded-capacity.md
         - name: Kapasite planlaması
           href: embedded-capacity-planning.md
-        - name: Performans açısından en iyi yöntemleri
+        - name: Performans için en iyi yöntemler
           href: embedded-performance-best-practices.md
         - name: Hizmet sorumlusu
           href: embed-service-principal.md
@@ -54,15 +54,15 @@
           href: embed-auto-install-app.md
         - name: Azure Active Directory kiracısı oluşturma
           href: create-an-azure-active-directory-tenant.md
-        - name: Uygulamaları kaydetme
+        - name: Bir uygulamayı kaydetme
           href: register-app.md
         - name: Azure AD erişim belirteci alma
           href: get-azuread-access-token.md
         - name: Dinamik bağlama kullanarak rapor bağlama
           href: embed-dynamic-binding.md
-        - name: Ekleme Hakkında Soru-Cevap
+        - name: Soru-Cevap ekleme
           href: qanda.md
-        - name: Ekli uygulamanızla ilgili sorunları giderme
+        - name: Ekli uygulamanızın sorunlarını giderme
           href: embedded-troubleshoot.md
         - name: Azure'da kapasiteleri yönetme
           items:
@@ -76,17 +76,17 @@
               href: azure-pbie-pause-start.md
         - name: Çalışma Alanı Koleksiyonlarından geçiş yapma
           items:
-            - name: Power BI Çalışma Alanı Koleksiyonlarından geçiş yapma
+            - name: Power BI Çalışma Alanı Koleksiyonları’ndan geçiş yapma
               href: migrate-from-powerbi-embedded.md
             - name: Geçiş aracı
               href: migrate-tool.md
-            - name: Geçiş kodu parçacıkları
+            - name: Geçiş kod parçacıkları
               href: migrate-code-snippets.md
     - name: Başvuru
       items:
         - name: API'ler
           items:
-            - name: Azure Kaynak Yönetimi REST API'leri
+            - name: Azure Kaynak Yönetimi API’leri
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI REST API'leri
               href: 'https://msdn.microsoft.com/library/mt147898.aspx'
@@ -102,7 +102,7 @@
           href: 'https://aka.ms/embedsetup'
         - name: JavaScript Playground Örneği
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Power BI JavaScript wiki
+        - name: Power BI JavaScript wiki'si
           href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
         - name: Geliştirici örnekleri ve betikler
           href: 'https://go.microsoft.com/fwlink/?linkid=851293'

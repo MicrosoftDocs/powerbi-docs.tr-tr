@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 358a61c13418bd29a9e83ed7029e8b90f9a5988e
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161581"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta R betikleri çalıştırın
@@ -67,7 +67,7 @@ Power BI Desktop'ta bir R betiğini yenileyebilirsiniz. Bir R betiğini yeniledi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Power BI'da R kullanımı ile ilgili aşağıdaki ek bilgilere göz atın.
+Power BI'daki R hakkında daha fazla bilgi edinmek için aşağıdaki ek kaynaklara göz atın.
 
 * [R programlama dilini kullanarak Power BI görselleri oluşturma](desktop-r-visuals.md)
 * [Power BI ile harici bir R IDE kullanma](desktop-r-ide.md)

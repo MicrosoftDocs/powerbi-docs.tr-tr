@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558605"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841078"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
 Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B) aracılığıyla dış konuk kullanıcılarla içerik paylaşma imkanı sunar.
 Kuruluşunuz Azure AD B2B'yi kullanarak dış kullanıcılarla paylaşım yapılmasını tek bir yerden etkinleştirir ve yönetir. Dış kullanıcılar varsayılan olarak yalnızca tüketim izinlerine sahiptir. Ayrıca, kuruluşunuzun dışından konuk kullanıcılara kuruluşta bulunan içeriği düzenleme ve yönetme izni verebilirsiniz.
 
-Bu makalede Power BI'da Azure AD B2B'ye temel giriş bilgileri sağlanır. Daha fazla bilgi için bkz. [Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma](whitepaper-azure-b2b-power-bi.md).
+Bu makalede Power BI'da Azure AD B2B'ye temel giriş bilgileri sağlanır. Daha fazla bilgi için bkz. [Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma](guidance/whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Erişimi etkinleştirme
 

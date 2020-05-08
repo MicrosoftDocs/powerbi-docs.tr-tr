@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920724"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Power BI’daki sayfalandırılmış raporları kullanma zamanı

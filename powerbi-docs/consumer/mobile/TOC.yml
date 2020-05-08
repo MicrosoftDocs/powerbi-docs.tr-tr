@@ -52,7 +52,7 @@
               href: mobile-apps-deep-link-specific-location.md
             - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
               href: mobile-apps-geographic-filtering.md
-            - name: OAuth kullanarak Reporting Services'e bağlanma
+            - name: OAuth seçeneğini kullanarak Reporting Services'e bağlanma
               href: mobile-oauth-ssrs.md
         - name: iOS ve Android
           items:

@@ -8,10 +8,10 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404043"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
@@ -25,7 +25,7 @@ Power BI Embedded ile tek bir API yüzeyi, içeriğinizi eklerken kullanabilece�
 Geçerli Power BI Çalışma Alanı Koleksiyonu sınırlı bir süre için kullanılabilir olmaya devam edecektir. Kurumsal Anlaşma kapsamındaki müşteriler mevcut sözleşmelerinin süresi dolana kadar erişim sahibi olacak, Power BI Çalışma Alanı Koleksiyonu hizmetini Doğrudan ya da Bulut Çözümü Sağlayıcısı kanallarından satın almış müşteriler ise Power BI Embedded’in Genel Kullanılabilirlik sürümünden bir yıl süreyle erişim sağlamaya devam edebilecektir.  Bu makalede Power BI Çalışma Alanı Koleksiyonu hizmetinden yeni Power BI Embedded deneyimine geçiş ve uygulamanızda oluşabilecek değişiklikler hakkında bilgilere yer verilmiştir.
 
 > [!IMPORTANT]
-> Geçiş Power BI Embedded hizmetine bağlı olsa da **ekleme belirteci** kullandığınız zaman uygulamanızın kullanıcıları açısından Power BI bağımlılığı söz konusu değildir. Kullanıcıların uygulamanıza eklenmiş içeriği görüntülemek için Power BI'a kaydolması gerekmez. Power BI Embedded harici kullanıcılara hizmet sunmak için bu ekleme yaklaşımını kullanabilirsiniz.
+> Geçiş Power BI Embedded hizmetine bağlı olsa da **ekleme belirteci** kullandığınız zaman uygulamanızın kullanıcıları açısından Power BI bağımlılığı söz konusu değildir. Müşterilerinizin uygulamanıza eklenmiş içeriği görüntülemek için Power BI'a kaydolması gerekmez. Power BI Embedded harici kullanıcılara hizmet sunmak için bu ekleme yaklaşımını kullanabilirsiniz.
 
 ![Akış ekleme](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
@@ -79,7 +79,7 @@ Uygulamayı Azure AD'ye kaydetmeniz ve belirli izinleri vermeniz gerekir.
 
 ### <a name="register-an-application"></a>Uygulamaları kaydetme
 
-REST API çağrıları gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Buna Power BI kayıt sayfasına ek olarak Azure portalına giderek ek yapılandırma adımları gerçekleştirme dahildir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
+REST API çağrılarını gerçekleştirmek için uygulamanızı Azure AD'ye kaydetmeniz gerekir. Buna Power BI kayıt sayfasına ek olarak Azure portalına giderek ek yapılandırma adımları gerçekleştirme dahildir. Daha fazla bilgi için bkz. [Bir Azure AD uygulamasını Power BI içeriği eklemek üzere kaydetme](register-app.md).
 
 Uygulamayı kaydetmek için uygulamanın **ana** hesabını kullanmanız gerekir.
 
@@ -118,7 +118,7 @@ Birden fazla rapor türü vardır ve her birinin geçiş akışı diğerlerinden
 
 **Akış**
 
-1. PaaS çalışma alanından PBIX API çağrısı yapın.
+1. PaaS çalışma alanından Download PBIX API çağrısı yapın.
 2. PBIX dosyasını kaydedin.
 3. SaaS çalışma alanına Import PBIX çağrısı yapın.
 
@@ -201,7 +201,7 @@ Azure'da biraz temizlik yapmanız gerekir.
 [Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları](migrate-code-snippets.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-your-organization.md)  
 [Power BI Premium nedir?](../../service-premium-what-is.md)  
-[JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
+[JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Çalışma Alanı Koleksiyonu analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper)  

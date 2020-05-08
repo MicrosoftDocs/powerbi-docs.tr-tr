@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
 ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267354"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI hizmetindeki veri kümesi modları

@@ -10,10 +10,10 @@ ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 62159b9dec4f82cfad3eecbc13b1d3a2c3b68f17
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404861"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları

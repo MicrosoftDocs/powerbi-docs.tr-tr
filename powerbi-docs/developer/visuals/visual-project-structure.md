@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550754"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI görseli proje yapısı
@@ -102,7 +102,7 @@ Meta veri girdilerinin anlatıldığı açıklamalarla örnek bir `pbiviz.json` 
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) için yapılandırma dosyası.
 
-Bu dosya, `pbiviz.json` dosyasındaki `visualClassName` özelliğinde belirtildiği gibi görselin ana sınıfının yer aldığı **\*.ts** dosyasının yolunu içermelidir.
+Bu dosya, **dosyasındaki \* özelliğinde belirtildiği gibi görselin ana sınıfının yer aldığı**`visualClassName`.ts`pbiviz.json` dosyasının yolunu içermelidir.
 
 ### <a name="tslintjson"></a>tslint.json
 

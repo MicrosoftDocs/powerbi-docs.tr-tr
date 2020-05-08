@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753249"
 ---
 # <a name="work-with-model-view-in-power-bi-desktop"></a>Power BI Desktop'ta Model görünümüyle çalışma
