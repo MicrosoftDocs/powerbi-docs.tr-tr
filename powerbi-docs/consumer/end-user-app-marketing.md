@@ -10,10 +10,10 @@ ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496859"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI hizmetinde örnek Satış ve Pazarlama uygulamasını yükleme ve kullanma

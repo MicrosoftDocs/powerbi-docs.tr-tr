@@ -10,10 +10,10 @@ ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 7452879e47cd4b058fcdb3e08f0ded35a85da1aa
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761077"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta çoka çok ilişkilerini uygulama

@@ -10,10 +10,10 @@ ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 7ed0920f66c178c23e6c4db22ff6acd998619522
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160570"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki rapor ve panolara yönelik iletişim bilgilerini ayarlama

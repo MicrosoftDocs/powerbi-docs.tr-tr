@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79112485"
 ---
 # <a name="data-protection-metrics-report-preview"></a>Veri koruma ölçümleri raporu (önizleme)

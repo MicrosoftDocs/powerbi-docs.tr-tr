@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041689"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
@@ -36,7 +36,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Hayır | Hayır |
-| Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
+| Azure Data Lake Storage Gen1 | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır |
 | Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure DevOps Server | Evet | Evet | Hayır | Evet | Evet |
@@ -51,7 +51,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Data.World - Veri Kümesi Al | Evet | Evet | Hayır | Hayır | Hayır |
 | Denodo | Evet | Evet | Evet | Evet | Evet |
 | Dremio | Evet | Evet | Evet | Evet | Evet |
-| Dynamics 365 (çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır |
+| Dynamics 365 (Çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Business Central | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Business Central (şirket içi) | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Customer Insights | Evet | Evet | Hayır | Hayır | Hayır |
@@ -84,7 +84,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | MailChimp | Evet | Evet | Hayır | Hayır | Hayır |
 | Marketo | Evet | Evet | Hayır | Hayır | Hayır |
 | MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet |
-| Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır |
+| Microsoft Azure Tüketim Öngörüleri | Evet | Evet | Hayır | Hayır | Hayır |
 | Microsoft Exchange | Evet | Evet | Hayır | Evet | Hayır |
 | Microsoft Exchange Online | Evet | Evet | Hayır | Hayır | Hayır |
 | Microsoft Graph Güvenliği | Evet | Evet | Hayır | Evet | Hayır |

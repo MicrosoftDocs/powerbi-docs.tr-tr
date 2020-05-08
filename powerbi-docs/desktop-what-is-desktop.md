@@ -10,10 +10,10 @@ ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: bd95dfcc5d621b5ae4988e187d7cc6d9478feb58
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731190"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?

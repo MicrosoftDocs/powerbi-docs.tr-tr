@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
 ms.openlocfilehash: fa9ecd66d30839e169252065f7f736189b71b6ce
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889492"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta Bileşik model kılavuzu

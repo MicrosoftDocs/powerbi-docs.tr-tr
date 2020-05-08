@@ -9,10 +9,10 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78919839"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Report Builder'ı yükleme - Power BI Rapor Sunucusu
@@ -25,7 +25,7 @@ Genellikle bir yönetici, Power BI Rapor Sunucusu'nu yükleyip yapılandırır, 
   
 ## <a name="system-requirements"></a>Sistem Gereksinimleri
   
- Microsoft İndirme Merkezi'ndeki [Report Builder indirme sayfasının](https://go.microsoft.com/fwlink/?LinkID=734968) **Sistem gereksinimleri** bölümünü inceleyin.
+ Microsoft İndirme Merkezi'ndeki **Report Builder indirme sayfasının** [Sistem gereksinimleri](https://go.microsoft.com/fwlink/?LinkID=734968) bölümünü inceleyin.
  
 ## <a name="install-report-builder-from-a-web-portal"></a>Report Builder'ı web portalından yükleme
   
@@ -46,7 +46,7 @@ Report Builder'ı Power BI Rapor Sunucusu web portalından yükleyebilirsiniz. B
     ![Yeni Rapor veya Veri Kümesi ekranı](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> Report Builder'ı İndirme Merkezi'nden yükleme  
+##  <a name="install-report-builder-from-the-download-center"></a><a name="download"></a> Report Builder'ı İndirme Merkezi'nden yükleme  
   
 1.  [Microsoft İndirme Merkezi'ndeki Report Builder sayfasında](https://go.microsoft.com/fwlink/?LinkID=734968) **İndir**'i seçin.  
   

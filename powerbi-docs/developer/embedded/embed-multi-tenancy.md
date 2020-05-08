@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
 ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79494964"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
@@ -104,7 +104,7 @@ Power BI Embedded birden çok coğrafi konumda dağıtımı destekler (önizleme
 
 ### <a name="cost"></a>Maliyet
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her *ana* kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer [Power BI Pro lisansı](../../service-admin-licensing-organization.md) gerekir.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her [ana](../../service-admin-licensing-organization.md) kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer *Power BI Pro lisansı* gerekir.
 
 Canlı ortamın ve kullanımın simülasyonunu yaparak ve kapasitede yük testi çalıştırarak kapasitenizde beklenen yükü test etmenizi ve ölçmenizi öneririz. Azure kapasitesinde veya [Premium kapasite ölçüm uygulamasında](../../service-admin-premium-monitor-capacity.md) sağlanan çeşitli Ölçümlerle yükü ve performansı ölçebilirsiniz.
 
@@ -120,7 +120,7 @@ SaaS uygulamalarında kullanıcılara raporları düzenleme ve oluşturma özell
 
 Power BI çalışma alanı tabanlı yalıtımla, SaaS uygulaması tek bir Power BI kiracısından birden çok kiracıyı destekler. Çalışma alanı tabanlı yalıtım, farklı kiracıların kullandığı tüm Power BI içeriğini kapsar. Kiracı ayrımı, birden çok çalışma alanı oluşturularak Power BI çalışma alanı düzeyinde yapılır. Her çalışma alanı, o kiracı için uygun veri kümelerini, raporları ve panoları içerir. Ayrıca, her çalışma alanı yalnızca söz konusu kiracının verilerine bağlıdır. Ek yalıtıma ihtiyacınız olursa, her çalışma alanı ve onun içeriği için bir *ana* kullanıcı veya hizmet sorumlusu oluşturabilirsiniz.
 
-![Çalışma Alanı](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
+![Çalışma alanı](media/embed-multi-tenancy/multi-tenant-saas-workspace.png)
 
 ### <a name="data-architecture"></a>Veri mimarisi
 
@@ -131,7 +131,7 @@ Kiracının verilerini yönetmek için iki ana yaklaşım vardır.
 
 SaaS uygulaması depolama alanında her kiracı için ayrı veritabanı bulunduruluyorsa, doğal seçim Power BI'da tek kiracılı veri kümeleri kullanmak ve her veri kümesi için eşleşen veritabanına işaret eden bir bağlantı dizesi sağlamaktır.
 
-SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)'yi kullanabilirsiniz.
+SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)'yi kullanabilirsiniz.
 
 ### <a name="data-isolation"></a>Veri yalıtımı
 
