@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525672"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritası görselleştirmeleri oluşturma (önizleme)
@@ -113,9 +113,9 @@ Yeni bir sütun girmek için yeni bir sütun adı yazıp (sağdaki boş sütuna)
 
 Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki **Bölge anahtarları**'nı kullanın.
 
-### <a name="australia-states"></a>Avustralya: Eyaletler
+### <a name="australia-states"></a>Avustralya: eyaletler
 
-| ID | abbr | iso | name | postal |
+| ID | abbr | iso | ad | postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Western Australia |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,9 +126,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>Avusturya: Eyaletler
+### <a name="austria-states"></a>Avusturya: eyaletler
 
-| ID | iso | name | name-en | postal |
+| ID | iso | ad | name-en | postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -140,7 +140,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brezilya: Eyaletler
+### <a name="brazil-states"></a>Brezilya: eyaletler
 
 | ID |
 | --- |
@@ -176,9 +176,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | Litigated Zone 3 |
 | Litigated Zone 4 |
 
-### <a name="canada-provinces"></a>Kanada: Bölgeler
+### <a name="canada-provinces"></a>Kanada: bölgeler
 
-| ID | iso | name | postal |
+| ID | iso | ad | postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Northwest Territories |NT |
@@ -186,7 +186,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | ca-sk |CA-SK |Saskatchewan |SK |
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Prince Edward Island |PE |
-| ca-on |CA-ON |Ontario |ON |
+| ca-on |CA-ON |Ontario |AÇIK |
 | ca-ns |CA-NS |Nova Scotia |NS |
 | ca-nl |CA-NL |Newfoundland and Labrador |NL |
 | ca-nb |CA-NB |New Brunswick |NB |
@@ -194,9 +194,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | ca-bc |CA-BC |British Columbia |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Fransa: Bölgeler
+### <a name="france-regions"></a>Fransa: bölgeler
 
-| ID | name | name-en |
+| ID | ad | name-en |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -216,9 +216,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>Almanya: Eyaletler
+### <a name="germany-states"></a>Almanya: eyaletler
 
-| ID | iso | name | name-en | postal |
+| ID | iso | ad | name-en | postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlin |BE |
 | de-th |DE-TH |Thüringen |Thuringia |TH |
@@ -237,7 +237,7 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | de-by |DE-BY |Bayern |Bavaria |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Wurttemberg |BW |
 
-### <a name="ireland-counties"></a>İrlanda: İlçeler
+### <a name="ireland-counties"></a>İrlanda: yerel idare bölgeleri
 
 | ID |
 | --- |
@@ -268,9 +268,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>İtalya: Bölgeler
+### <a name="italy-regions"></a>İtalya: bölgeler
 
-| ID | iso | name | name-en | postal |
+| ID | iso | ad | name-en | postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Aosta Valley |VD |
@@ -293,9 +293,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Meksika: Eyaletler
+### <a name="mexico-states"></a>Meksika: eyaletler
 
-| ID | abreviatura | iso | name | name-en | postal |
+| ID | abreviatura | iso | ad | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatan |YU |
@@ -330,9 +330,9 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | mx-bcn |B.C. |MX-BCN |Baja California |Baja California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Hollanda: Bölgeler
+### <a name="netherlands-provinces"></a>Hollanda: bölgeler
 
-| ID | iso | name | name-en |
+| ID | iso | ad | name-en |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |South Holland |
 | nl-ze |NL-ZE |Zeeland |Zeeland |
@@ -349,16 +349,16 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 
 ### <a name="uk-countries"></a>Birleşik Krallık: Ülkeler
 
-| ID | iso | name |
+| ID | iso | ad |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galler |
 | gb-sct |GB-SCT |Scotland |
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>ABD: Eyaletler
+### <a name="usa-states"></a>ABD: eyaletler
 
-| ID | name | postal |
+| ID | ad | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -366,15 +366,15 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | us-fl |Florida |FL |
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
-| us-sc |Güney Carolina |SC |
-| us-ga |Georgia |GA |
+| us-sc |South Carolina |SC |
+| us-ga |Gürcistan |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
 | us-nc |North Carolina |NC |
-| us-ok |Oklahoma |Tamam |
+| us-ok |Oklahoma |OK |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
 | us-va |Virginia |VA |
@@ -400,14 +400,14 @@ Bu Önizleme sürümünde **Şekil eşlemesi**'ni test etmek için aşağıdaki 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |VEYA |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
 | us-sd |Güney Dakota |SD |
-| us-nd |Kuzey Dakota |ND |
+| us-nd |North Dakota |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |

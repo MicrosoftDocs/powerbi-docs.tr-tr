@@ -11,10 +11,10 @@ ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
 ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207471"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
@@ -37,7 +37,7 @@ Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçek
 
 3. **Veri Kaynağı Türü**’nü seçin.
 
-    ![SQL Server’ı seçin](media/service-gateway-data-sources/select-sql-server.png)
+    ![SQL Server'ı seçin](media/service-gateway-data-sources/select-sql-server.png)
 
 4. Veri kaynağı bilgilerini girin. Bu örnekte **Sunucu**, **Veritabanı** ve diğer bilgiler gereklidir. 
 
@@ -138,7 +138,7 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 * [Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)
 * [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)
 * [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)
-* [Veri kaynağınızı yönetme - İçeri aktarma/zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
+* [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Veri ağ geçidi dağıtmaya ilişkin yönergeler](service-gateway-deployment-guidance.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.

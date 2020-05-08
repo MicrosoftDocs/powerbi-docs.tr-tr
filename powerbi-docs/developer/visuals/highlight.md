@@ -9,19 +9,19 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114164"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI Görselleri’nde veri noktalarını vurgulama
 
-Varsayılan olarak, bir öğe seçildiğinde `dataView` nesnesindeki `values` dizisi yalnızca seçilen değerlere filtrelenecektir. Sayfadaki tüm diğer görsellerin yalnızca seçili verileri görüntülemesini sağlar.
+Varsayılan olarak, bir öğe seçildiğinde `values` nesnesindeki `dataView` dizisi yalnızca seçilen değerlere filtrelenecektir. Sayfadaki tüm diğer görsellerin yalnızca seçili verileri görüntülemesini sağlar.
 
 ![Varsayılan davranış ‘dataView’ı’ vurgula](media/highlight/highlight-dataview.png)
 
-`capabilities.json` öğenizdeki `supportsHighlight` özelliğini `true` olarak ayarlarsanız, bir `highlights` dizisi ile birlikte tam, filtrelenmemiş `values` dizisini alırsınız. `highlights` dizisi, değerler dizisiyle aynı uzunlukta olur ve seçili olmayan tüm değerler `null` olarak ayarlanır. Bu özellik etkinken, `values` dizisini `highlights` dizisiyle karşılaştırarak uygun verileri vurgulama görselin sorumluluğudur.
+`supportsHighlight` öğenizdeki `capabilities.json` özelliğini `true` olarak ayarlarsanız, bir `values` dizisi ile birlikte tam, filtrelenmemiş `highlights` dizisini alırsınız. `highlights` dizisi, değerler dizisiyle aynı uzunlukta olur ve seçili olmayan tüm değerler `null` olarak ayarlanır. Bu özellik etkinken, `values` dizisini `highlights` dizisiyle karşılaştırarak uygun verileri vurgulama görselin sorumluluğudur.
 
 ![`dataview` vurgulamayı destekler](media/highlight/highlight-dataview-supports.png)
 
@@ -32,7 +32,7 @@ Varsayılan olarak, bir öğe seçildiğinde `dataView` nesnesindeki `values` di
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Kategorik veri görünümü eşlemesi ile veri noktalarını vurgulama
 
-Kategorik veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresi ile birlikte `capabilities.json` içerir. Örnek:
+Kategorik veri görünümü eşlemesine sahip görseller `capabilities.json` parametresi ile birlikte `"supportsHighlight": true` içerir. Örnek:
 
 ```json
 {
@@ -275,7 +275,7 @@ Sonuç olarak, görselin aşağıdaki görünümünü elde etmeniz gerekir.
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Matris veri görünümü eşlemesi ile veri noktalarını vurgulama
 
-Matris veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresiyle birlikte `capabilities.json` içerir. Örnek:
+Matris veri görünümü eşlemesine sahip görseller `capabilities.json` parametresiyle birlikte `"supportsHighlight": true` içerir. Örnek:
 
 ```json
 {

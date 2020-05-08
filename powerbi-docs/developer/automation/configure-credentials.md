@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/23/2020
 ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114785"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
@@ -135,7 +135,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 ## <a name="credential-types"></a>Kimlik bilgisi türleri
 
-[Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak **kurumsal şirket içi ağ geçidinin** altında [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
+[Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) kullanarak [kurumsal şirket içi ağ geçidinin](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) altında **Create Datasource** veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
 
 >[!NOTE]
 >.NET SDK v3, aşağıda listelenen .NET SDK v2 örneklerini de çalıştırır.
@@ -218,7 +218,7 @@ var credentials = "{\"credentialData\":\"\"}";
 
 ---
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="troubleshooting"></a>Sorun Giderme
 
 ### <a name="no-gateway-and-data-source-id-found-when-calling-get-data-sources"></a>Get Datasources çağrısı yapılırken hiçbir ağ geçidi ve veri kaynağı kimliği bulunamadı
 

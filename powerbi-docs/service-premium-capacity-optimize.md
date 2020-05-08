@@ -11,10 +11,10 @@ ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207701"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium kapasiteleri iyileştirme

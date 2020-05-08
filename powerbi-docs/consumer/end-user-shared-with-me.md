@@ -10,10 +10,10 @@ ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80302486"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Sizinle paylaşılan panoları ve raporları görüntüleme
@@ -44,8 +44,8 @@ ms.locfileid: "80302486"
 ### <a name="actions-available-from-the-shared-with-me-container"></a>**Benimle paylaşılan** kapsayıcısından gerçekleştirilebilecek eylemler
 Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara bağlıdır. Bazı seçenekleriniz şunlar olabilir:
 * Yıldız simgesini seçerek [Panoyu veya raporu sık kullanılanlara ekleyebilirsiniz](end-user-favorite.md) ![yıldız simgesi](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png).
-* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png)dokunun.
+* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png)dokunun.
 * [Raporu Excel’de açın](end-user-export.md) ![Excel’e aktar simgesi](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md)![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
   

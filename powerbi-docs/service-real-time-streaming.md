@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381089"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
@@ -43,7 +43,7 @@ Gönderim veri kümesinden alınan sabitlenmiş kutucuklar hakkında göz önün
 * Bir panoya görsel sabitledikten sonra, doğal dilde gönderim veri kümesi hakkında soru sormak için **Soru-Cevap**'ı kullanabilirsiniz. **Soru-Cevap** sorgusu yaptığınızda, elde edilen görseli panoya tekrar sabitleyebilirsiniz, böylece bu pano *da* gerçek zamanlı olarak güncelleştirilir.
 
 ### <a name="streaming-dataset"></a>Akış veri kümesi
-**Akış veri kümesiyle**, yine veriler Power BI hizmetine gönderilir ama önemli bir fark vardır: Power BI verileri yalnızca geçici bir önbellekte depolar ve bunun süresi hızla dolar. Geçici önbellek, yalnızca kısa süreli bir zaman algısına sahip görsellerin (bir saatlik zaman penceresi bulunan çizgi grafiği gibi) görüntülenmesinde kullanılır.
+Bir **akış veri kümesi** kullanıldığında, veriler Power BI hizmetine de gönderilir ancak arada önemli bir fark vardır: Power BI, verileri yalnızca kısa süre içinde süresi dolan geçici bir önbellekte depolar. Geçici önbellek, yalnızca kısa süreli bir zaman algısına sahip görsellerin (bir saatlik zaman penceresi bulunan çizgi grafiği gibi) görüntülenmesinde kullanılır.
 
 **Akış veri kümesi** kullanırken, temel alınan veritabanı *bulunmadığı* için, akıştan gelen verileri kullanarak rapor görselleri *oluşturamazsınız*. Bu nedenle, filtreleme, Power BI görselleri ve diğer rapor işlevleri gibi rapor işlevlerinden yararlanamazsınız.
 
@@ -64,7 +64,7 @@ Aşağıdaki tabloda (veya matriste), gerçek zamanlı akış için kullanılabi
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu makaleyi](developer/automation/api-rest-api-limitations.md) okuyun.
+> Gönderilebilecek veri miktarına yönelik [Gönderme](developer/automation/api-rest-api-limitations.md) sınırlarıyla ilgili bilgi için **bu makaleyi** okuyun.
 
 ## <a name="pushing-data-to-datasets"></a>Veri kümelerine veri gönderme
 Önceki bölümde, gerçek zamanlı akış için kullanabileceğiniz gerçek zamanlı başlıca üç veri kümesi türü ve bunların nasıl değişiklik gösterdiği açıklanmıştır. Bu bölümde ise söz konusu veri kümelerine ilişkin veri oluşturma ve gönderme işlemlerinin nasıl gerçekleştirileceği anlatılmaktadır.
@@ -156,7 +156,7 @@ Sonraki bölümlerde sırayla her iki seçenek de incelenmektedir.
 
 Power BI'ın bu veri akışı yoluyla gönderilen verileri depolamasını istiyorsanız *Geçmiş veri çözümlemesi*'ni etkinleştirin; böylece, toplanan veri akışı üzerinde raporlama ve analiz işlemleri gerçekleştirebilirsiniz. Ayrıca [API hakkında daha fazla bilgi edinebilirsiniz](https://docs.microsoft.com/rest/api/power-bi/).
 
-Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API URL uç noktası edinirsiniz. Böylece uygulamanız, oluşturduğunuz Power BI **akış verileri** veri kümesine verilerinizi göndermek üzere *POST* isteklerini kullanarak bu uç noktayı çağırabilir.
+Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API URL uç noktası edinirsiniz. Böylece uygulamanız, oluşturduğunuz Power BI *akış verileri* veri kümesine verilerinizi göndermek üzere **POST** isteklerini kullanarak bu uç noktayı çağırabilir.
 
 *POST* istekleri yaparken, istek gövdesinin, Power BI kullanıcı arabiriminde sağlanan örnek JSON ile eşleştiğinden emin olmanız gerekir. Örneğin, JSON nesnelerinizi bir dizi halinde kaydırın.
 
@@ -175,7 +175,7 @@ Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API U
 ## <a name="example-of-using-real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış kullanma örneği
 İşte Power BI'da gerçek zamanlı akışın nasıl çalıştığına yönelik kısa bir örnek. Gerçek zamanlı akışın sizin için önemini kavramak üzere bu örnekle birlikte ilerleyebilirsiniz.
 
-Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kullanılmaktadır. Adımlar şunlardır:
+Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kullanılmaktadır. Adımlar aşağıdaki gibidir:
 
 1. **Power BI hizmeti**'nde bir pano seçin (veya yeni pano oluşturun) ve **Kutucuk ekle** > **Özel Akış Verileri** seçeneğini belirleyip **İleri** düğmesini seçin.
    
@@ -203,10 +203,10 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
 ## <a name="questions-and-answers"></a>Sorular ve cevaplar
 Burada, Power BI'daki gerçek zamanlı akış hakkında sık sorulan bazı sorular ve cevapları bulunmaktadır.
 
-#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümelerinde filtre kullanabilir miyim? Peki ya akış veri kümelerindeki?
+#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümelerinde filtre kullanabilir miyim? Peki ya akış veri kümelerinde?
 Ne yazık ki akış veri kümelerinde filtreleme desteklenmez. Gönderim veri kümeleri için rapor oluşturabilir, raporu filtreleyebilir ve ardından filtrelenmiş görselleri bir panoya sabitleyebilirsiniz. Ancak, panoda bulunan bir görselde uygulanan filtreyi değiştirmek mümkün değildir.
 
-Bundan bağımsız olarak, canlı rapor kutucuğunu panoya sabitleyebilir, bu sayede filtreleri değiştirebilirsiniz. Ancak veri gönderildikçe canlı rapor kutucukları gerçek zamanlı olarak güncelleştirilmez; **More** (Daha fazla) menüsündeki *pano kutucuklarını yenile* seçeneğini kullanarak görseli el ile güncelleştirmeniz gerekir.
+Bundan bağımsız olarak, canlı rapor kutucuğunu panoya sabitleyebilir, bu sayede filtreleri değiştirebilirsiniz. Ancak veri gönderildikçe canlı rapor kutucukları gerçek zamanlı olarak güncelleştirilmez; *More* (Daha fazla) menüsündeki **pano kutucuklarını yenile** seçeneğini kullanarak görseli el ile güncelleştirmeniz gerekir.
 
 Milisaniyelik duyarlılığa sahip *Tarih/Saat* alanları içeren gönderim veri kümelerine filtre uygulanırken, *denklik* işleçleri desteklenmez. Ancak, büyüktür (>) veya küçüktür (<) gibi işleçler düzgün şekilde çalışır.
 
@@ -220,7 +220,7 @@ Ne yazık ki şu anda böyle bir özellik sunulmamaktadır.
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Önceki soruyu göz önünde bulundurduğumuzda, gerçek zamanlı veri kümeleri üzerinde nasıl modelleme yapabilirim?
 Veriler kalıcı olarak depolanmadığı için akış veri kümesi üzerinde modelleme yapmak mümkün değildir. Bir gönderim veri kümesine ölçü ve ilişki eklemek için veri kümesini/tablo REST API'lerini güncelleştirme özelliğini kullanabilirsiniz. 
 
-#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümesindeki tüm değerleri nasıl temizleyebilirim? Peki ya akış veri kümelerindeki?
+#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>Gönderim veri kümesindeki tüm değerleri nasıl temizleyebilirim? Peki ya akış veri kümelerinde?
 Gönderim veri kümesinde Delete Rows REST API çağrısını kullanabilirsiniz. Şu anda, akış kümelerindeki verileri silmek mümkün değildir, ancak veriler, bir saatin ardından kendi kendine silinir.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI’a yönelik olarak ayarladığım Azure Akış Analizi çıkışı Power BI’da görünmüyor. Bunun nedeni nedir?

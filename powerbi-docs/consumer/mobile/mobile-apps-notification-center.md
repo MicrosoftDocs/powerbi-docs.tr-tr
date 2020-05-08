@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435594"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bildirim alma
-Aşağıdakiler cihazlar için geçerlidir:
+Aşağıdakiler için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi ](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Bildirimler, Power BI deneyiminizle ilgili bilgileri doğrudan Power BI hizmetine veya mobil cihazınıza iletiyor. Bildirimler'i açtığınızda, [oluşturduğunuz uyarılar](mobile-set-data-alerts-in-the-mobile-apps.md), sizinle paylaşılan yeni panolar, grup çalışma alanınızda yapılan değişiklikler, Power BI etkinlikleri ve toplantılarıyla ilgili bilgiler ve daha fazlası hakkında sıralı bir ileti akışıyla karşılaşırsınız.
 
@@ -41,7 +41,7 @@ Bildirimler, Power BI deneyiminizle ilgili bilgileri doğrudan Power BI hizmetin
    [Power BI bildirimlerinizi nasıl alacağınızı değiştirebilirsiniz](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device).
 2. Bildirim aldıysanız, mobil cihazınızda Power BI'da oturum açtığınızda bildirim zili simgesinde ![bildirim zili](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS veya Android) veya genel gezinti düğmesinde ![Bildirimler noktası](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 cihazları) sarı bir nokta görürsünüz. 
 
-3. Bildirim merkezinde bildirimlere bakmak için, bildirim ziline ![bildirim zili](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS ve Android) veya Bildirim merkezi simgesine ![Bildirimler simgesi](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 cihazları) dokunun.
+3. Bildirim merkezinde bildirimlere bakmak için, bildirim ziline ![bildirim zili](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS ve Android) veya Bildirim merkezi simgesine ![Bildirimler simgesi](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 cihazları) sarı bir nokta görürsünüz.
    
     Bildirimler, en yeniler üstte olacak ve okunmamış iletiler vurgulanacak şekilde görüntülenir. Bildirimler, silmediğiniz veya 100 üst sınırına ulaşmadığınız sürece 90 gün boyunca saklanır.
    
@@ -74,6 +74,6 @@ Power BI bildirimlerinizi nasıl alacağınızı değiştirebilirsiniz.
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki veri uyarıları](../../service-set-data-alerts.md)
 * [iPhone uygulamasında (iOS için Power BI) veri uyarıları oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 için Power BI mobil uygulamasında veri uyarıları oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](mobile-set-data-alerts-in-the-mobile-apps.md)
 * Mobil cihazlar için [Power BI uygulamalarının son sürümünü indirme](https://powerbi.microsoft.com/mobile/)
 

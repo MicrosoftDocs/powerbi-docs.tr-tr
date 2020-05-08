@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376765"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
@@ -42,7 +42,7 @@ Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgele
 
 Çalışma alanları, iş arkadaşlarınızın sahip olacağı izinleri belirleyen roller sağlar. Bu rolleri kullanarak çalışma alanının tamamını kimin yönetebileceğini veya içeriğini düzenleyebileceğini ve dağıtabileceğini belirleyebilirsiniz.
 
-![Çalışma alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![Çalışma Alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 Doğal olarak içeriği kendi Çalışma Alanım içine yerleştirebilir ve oradan paylaşabilirsiniz. Ama çalışma alanları işbirliği açısından Çalışma Alanım'dan daha iyidir çünkü içerik üzerinde ortak sahipliğe olanak sağlar. Siz ve tüm ekibiniz kolayca güncelleştirmeler yapabilir ve diğer kişilere erişim verebilir. Çalışma Alanım en iyi şekilde tek tek kişiler tarafından özel veya kişisel içerik için kullanılır.
 

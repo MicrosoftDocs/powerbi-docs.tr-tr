@@ -10,19 +10,19 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885232"
 ---
-# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma
+# <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Hızlı Başlangıç: Power BI Desktop’ta verilere bağlanma
 
 Bu hızlı başlangıçta, veri modelleri derleme ve raporlar oluşturma işleminin ilk adımı olarak Power BI Desktop kullanarak verilere bağlanacaksınız.
 
 ![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
-Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
+PowerApps’e kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -66,7 +66,7 @@ Seçimlerinizi yaptıktan sonra, verileri Power BI Desktop’a aktarmak için **
 
 Tabloları yükledikten sonra **Alanlar** bölmesi size verileri gösterir. Bir tablo adının yanındaki oku seçerek tabloyu genişletebilirsiniz. Aşağıdaki görüntüde *mali bilgiler* tablosu genişletilerek her bir alanı gösterilmiştir.
 
-![Veri Al](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
+![Verileri Al](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
 İşte bu kadar! Power BI Desktop’taki verilere bağlandınız, verileri yüklediniz ve artık bu tablolardaki tüm kullanılabilir alanları görebilirsiniz.
 

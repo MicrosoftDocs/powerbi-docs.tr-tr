@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 7739967443a8c6dc75cdaa3fbd0e472dcc090b9a
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488557"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI tüketicileri için Soru-Cevap

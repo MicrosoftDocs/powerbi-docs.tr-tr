@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113704"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
@@ -81,7 +81,7 @@ Bu nesnenin veri görünümü eşlemelerinin farklı türleri için `selections`
 
 Şimdi örnek veri kümesi için seçimlerin kategorik veri görünümünde nasıl temsil edildiğini gözden geçirelim:
 
-| Üretici | Tür | Değer |
+| Üretici | Tür | Value |
 | - | - | - |
 | Chrysler | Yerli Araba | 28883 |
 | Chrysler | Yerli Kamyon | 117131 |
@@ -159,18 +159,18 @@ Görselde de aşağıdaki veri görünümü eşlemesi kullanılır:
 
 Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gerekir.
 
-Örneğin kullanıcı `Manufacturer` olarak `Chrysler` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
+Örneğin kullanıcı `Chrysler` olarak `Manufacturer` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
 
-| Üretici | Tür | Değer |
+| Üretici | Tür | Value |
 | - | - | - |
 | **Chrysler** | Yerli Araba | 28883 |
 | **Chrysler** | Yerli Kamyon | 117131 |
 | **Chrysler** | İthal Araba | 0 |
 | **Chrysler** | İthal Kamyon | 6362 |
 
-Kullanıcı `Type` olarak `Import Car` seçtiğinde (seriye göre verileri seçtiğinde) diğer görseller aşağıdaki verileri göstermelidir:
+Kullanıcı `Import Car` olarak `Type` seçtiğinde (seriye göre verileri seçtiğinde) diğer görseller aşağıdaki verileri göstermelidir:
 
-| Üretici | Tür | Değer |
+| Üretici | Tür | Value |
 | - | - | - |
 | Chrysler | **İthal Araba** | 0 |
 | Ford | **İthal Araba** | 0 |
@@ -185,7 +185,7 @@ Görsel veri sepetleri doldurulmalıdır.
 
 ![Seçimler içeren görselin veri sepetleri](media/selection-api/visual-selections-databuckets.png)
 
-Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Values` olarak `Value` vardır.
+Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Value` olarak `Values` vardır.
 
 > [!NOTE]
 > Seriler için `Values` gereklidir çünkü veri görünümü eşlemesine göre görsel `Values` öğelerinin `Rows` verilerine göre gruplandırılmasını bekler.
@@ -229,7 +229,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-Örnek kodda tüm kategorileri yinelediğimizi görebilirsiniz. Her yinelemede, seçim oluşturucusunun `withCategory` yöntemini çağırarak her kategoriye bir sonraki seçimi oluşturmak için `createSelectionIdBuilder` çağrısı yaparız. `createSelectionId` yöntemi, oluşturulan `selection` nesnesini döndürmek için son yöntem olarak kullanılır.
+Örnek kodda tüm kategorileri yinelediğimizi görebilirsiniz. Her yinelemede, seçim oluşturucusunun `createSelectionIdBuilder` yöntemini çağırarak her kategoriye bir sonraki seçimi oluşturmak için `withCategory` çağrısı yaparız. `createSelectionId` yöntemi, oluşturulan `selection` nesnesini döndürmek için son yöntem olarak kullanılır.
 
 `withCategory` yönteminde `category` sütununu geçiririz; örnekte bu `Manufacturer` öğesi ve kategori öğesinin dizinidir.
 

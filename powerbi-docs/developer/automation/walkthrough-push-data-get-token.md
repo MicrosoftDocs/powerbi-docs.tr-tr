@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488281"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
@@ -23,7 +23,7 @@ Birinci adımda [Azure AD'de bir istemci uygulamasını kaydettiniz](../embedded
 
 ## <a name="get-an-authentication-access-token"></a>Kimlik doğrulaması erişim belirteci alma
 
-Başlamadan önce, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin [önceki adımını](../embedded/register-app.md) tamamladığınızdan emin olun. 
+Başlamadan önce, [Power BI veri kümelerine veri gönderme](../embedded/register-app.md) serisinin [önceki adımını](walkthrough-push-data.md) tamamladığınızdan emin olun. 
 
 Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
@@ -39,7 +39,7 @@ Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
 3. Bu adımlardan sonra listelenen örnek kodu Program.cs'ye ekleyin.
 
-4. "{ClientID}" terimini [serinin önceki makalesinde](../embedded/register-app.md) uygulamanızı kaydederken aldığınız **İstemci Kimliği**'yle değiştirin.
+4. "{ClientID}" terimini **serinin önceki makalesinde** uygulamanızı kaydederken aldığınız [İstemci Kimliği](../embedded/register-app.md)'yle değiştirin.
 
 5. Konsol uygulamanızı çalıştırın ve Power BI hesabınızda oturum açın. 
 

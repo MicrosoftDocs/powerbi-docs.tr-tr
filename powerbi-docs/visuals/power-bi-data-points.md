@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381457"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama

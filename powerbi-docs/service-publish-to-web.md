@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1a3d4c264e343382422cbe2a881b5fcedaa19e13
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82585274"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama

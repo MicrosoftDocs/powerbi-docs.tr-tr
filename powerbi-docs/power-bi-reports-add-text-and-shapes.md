@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273214"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI raporlarına metin kutuları ve şekiller ekleme
@@ -33,7 +33,7 @@ Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/
    ![Metin kutusu seçme](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 3. Metin kutusuna metninizi yazın ve isteğe bağlı olarak biçim yazı tipini, rengini ve metin hizalamasını biçimlendirin. 
    
-   ![Metni girme](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+   ![Metin girin](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
 4. Metin kutusunu yerleştirmek için üst kısımdaki gri alanı seçip sürükleyin. Metin kutusunu yeniden boyutlandırmak için ana hat tutamaçlarından herhangi birini seçip sürükleyin. 
    
    ![Metin kutusu konumlandırma](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
@@ -44,7 +44,7 @@ Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/
 
 6. Metin kutusunu kapatmak için rapor tuvalindeki herhangi bir boş alanı seçin. 
 
-7. Bu görselleştirmenin panonuzda da gösterilmesi için raptiye simgesini  ![Raptiye simgesi](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) metin kutusunu bir panoya sabitlemek için. 
+7. Bu görselleştirmenin panonuzda da gösterilmesi için raptiye simgesini  ![raptiye](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) metin kutusunu bir panoya sabitlemek için. 
 
 ## <a name="add-a-shape-to-a-report"></a>Rapora şekil ekleme
 1. İmlecinizi rapor tuvalinin herhangi bir yerine yerleştirip **Şekiller** seçeneğini belirleyin.
@@ -67,6 +67,6 @@ Will'i [rapora statik görüntüler eklemek](/learn/modules/visuals-in-power-bi/
 Aşağıdaki makaleler de ilginizi çekebilir:
 
 * [Metin kutularına köprü ekleme](service-add-hyperlink-to-text-box.md)
-* [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
+* [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 * [Power BI raporlarında analizleri şekil, görüntü ve simgelerle geliştirmeye yönelik ipuçları](guidance/report-tips-shapes-images-icons.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

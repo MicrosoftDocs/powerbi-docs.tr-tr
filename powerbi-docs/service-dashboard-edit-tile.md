@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207609"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
@@ -65,7 +65,7 @@ Birlikte ilerlemek için Power BI hizmetini (Power BI Desktop'ı değil) açın 
 
    ![kutucuğun üzerine gelme](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. "Başarılı" iletisi göründüğünde **Panoya git**'i seçin. Değişikliklerinizi kaydetmeniz istenecek. **Kaydet**'i seçin.
+6. "Başarılı" iletisi göründüğünde **Panoya git**'i seçin. Değişikliklerinizi kaydetmeniz istenecek. **Kaydet**’i seçin.
 
 - - -
 <a name="move"></a>
@@ -117,7 +117,7 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 
     ![İşlev iletişim kutusu](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. **Apply** (Uygula) seçeneğini belirleyin.
+3. **Uygula**’yı seçin.
 
 4. Kutucukta yeni başlık görüntülenir.  Kutucuğu seçtiğinizde Power BI, Human Resources Sample panosunu açar. 
 
@@ -130,7 +130,7 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 2. Bu kutucuğun bir kopyasını mevcut bir panoya mı yoksa yeni bir panoya mı sabitlemek istediğinize karar verin. 
    
    ![Panoya sabitle iletişim kutusu](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. **Sabitle**'yi seçin.
+3. **Raptiye** düğmesini seçin.
 
 <a name="delete"></a>
 
@@ -145,7 +145,7 @@ Varsayılan olarak, bir kutucuğu seçtiğinizde genellikle kutucuğun oluşturu
 
 [Power BI'daki panolar](consumer/end-user-dashboards.md)
 
-[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

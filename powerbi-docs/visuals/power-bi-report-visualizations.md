@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bd8053123d8a5c2fa0c4362cb2a534021208ba36
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381480"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
@@ -27,7 +27,7 @@ Doğrudan Power BI'daki Görselleştirmeler bölmesinden kullanabileceğiniz ço
 
 ![her görselleştirme türüne ait simgeleri içeren bölme](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [Power BI görsellerini](../developer/visuals/custom-visual-develop-tutorial.md) [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [Power BI görsellerini](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [indirebilirsiniz](../developer/visuals/custom-visual-develop-tutorial.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

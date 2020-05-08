@@ -11,13 +11,13 @@ ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.openlocfilehash: f04621fdfe7e6055d84fa4d2672c874837ff5ea4
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495286"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded nedir?
+# <a name="what-is-power-bi-embedded-in-azure"></a>Azure’da Power BI Embedded nedir?
 
 Power BI Embedded, ISV’lerin ve geliştiricilerin tümleşik analiz ile Power BI özelliklerini kullanım şeklini kolaylaştırmak için tasarlanmıştır. Power BI Embedded, uygulamalarınıza hızla etkileyici görseller, raporlar ve panolar eklemenize yardımcı olarak Power BI özelliklerini daha basit hale getirir. Bu durum, Microsoft Azure üzerinde oluşturulan uygulamaların Machine Learning ve IoT gibi hizmetleri kullanma şekline benzer. ISV'ler, uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin bağlam içinde hızlı ve bilgiye dayalı kararlar vermesini sağlar.
 
@@ -39,7 +39,7 @@ Power BI Premium kullanan Power BI içeriğinin eklenmiş olduğu bir uygulaman�
 
 Power BI Embedded, zamanınızı en iyi yaptığınız şeye yani harika uygulamalar oluşturmaya ayırmanızı sağlar. Sahip olduğunuz araçları ve becerileri kullanarak Power BI Embedded ile yönetim ve geliştirme gerçekleştirebilirsiniz.
 
-* [**Azure portalı**](https://portal.azure.com/): Tüm Azure hizmetlerini yönetebileceğiniz web tabanlı bir uygulamadır
+* [**Azure portal**](https://portal.azure.com/): Tüm Azure hizmetlerini yönetebileceğiniz web tabanlı platformdur
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): Windows, macOS ve Linux için uzantı destekli ücretsiz, indirilebilir, açık kaynak kod düzenleyicisidir
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): Görsel analize sahip zengin ve etkileşimli raporlar oluşturmanızı sağlayan ve ücretsiz olarak indirilebilen araçtır
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 6aef2c06cc62668ea7dea9fe404e294d1a5faa93
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74700490"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX: VALUES yerine SELECTEDVALUE kullanma

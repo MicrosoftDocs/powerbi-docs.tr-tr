@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495815"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded için tanılama günlüğüne kaydetme
@@ -43,7 +43,7 @@ Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
     * **Altyapı**: Aşağıda [listelenen altyapı olaylarını](#whats-logged) günlüğe kaydetmek için bu seçeneği belirleyin.
     * **Tüm Ölçümler**: [Ölçümler](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics) içinde ayrıntılı veri depolamak için bu seçeneği belirleyin. Bir depolama hesabına arşivleme yapıyorsanız tanılama günlüklerinin saklama süresini belirleyebilirsiniz. Saklama süresinin sonunda günlükler otomatik olarak silinir.
 
-3. **Kaydet**'i seçin.
+3. **Kaydet**’i seçin.
 
     Tanılama günlüklerinizin kaydedilme şeklini değiştirmek için bu sayfaya dönerek ayarları düzenleyebilirsiniz.
 
@@ -85,7 +85,7 @@ Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
 
 Bu parametreleri bir arada kullanarak birden fazla çıkış seçeneği oluşturabilirsiniz.
 
-### <a name="rest-api"></a>REST API
+### <a name="rest-api"></a>REST API'si
 
 [Azure İzleyici REST API'sini kullanarak tanılama ayarlarını değiştirmeyi](https://docs.microsoft.com/rest/api/monitor/) öğrenin. 
 
@@ -131,7 +131,7 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 | ProgressTotal | 0 | İlerleme toplamı. |
 | IntegerData | 0 | Tamsayı verileri. |
 | Önem | 0 | Bir özel durumun önem derecesi. |
-| Başarı | 1 | 1 = başarılı. 0 = başarısız (örneğin 1 değeri izin denetimi işleminin başarılı olduğunu belirtirken 0, bu denetimin başarısız olduğunu gösterir). |
+| Başarılı | 1 | 1 = başarılı. 0 = başarısız (örneğin 1 değeri izin denetimi işleminin başarılı olduğunu belirtirken 0, bu denetimin başarısız olduğunu gösterir). |
 | Hata | 0 | Belirli bir olayın hata numarası. |
 | ConnectionID | 3 | Benzersiz bağlantı kimliği. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Kullanıcının deyiminin çalıştırıldığı veri kümesinin kimliği. |
@@ -152,7 +152,7 @@ Altyapı kategorisi, kaynağa aşağıdaki olayları günlüğe kaydetmesini bil
 
 Günlükler genelde ayarların tamamlanmasından sonraki birkaç saat içinde kullanılabilir. Depolama hesabınızdaki günlükleri istediğiniz şekilde yönetebilirsiniz:
 
-* Günlüklerinize erişimi kısıtlayarak güvenliklerini sağlamak için standart Azure erişim denetimi yöntemlerini kullanabilirsiniz.
+* Günlüklerinize erişebilecek kişileri kısıtlayarak güvenliklerini sağlamak için standart Azure erişim denetimi yöntemlerini kullanın.
 * Depolama hesabınızda tutmak istemediğiniz günlükleri silebilirsiniz.
 * Eski günlüklerin depolama hesabınızdan silinmesini sağlamak için saklama süresi belirlemeyi unutmayın.
 
