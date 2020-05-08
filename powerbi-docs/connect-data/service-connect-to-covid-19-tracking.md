@@ -9,10 +9,10 @@ ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752683"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>COVID-19 ABD izleme raporuna bağlanma

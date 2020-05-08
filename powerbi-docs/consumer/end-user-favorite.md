@@ -11,10 +11,10 @@ ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040516"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar, raporlar ve uygulamalar

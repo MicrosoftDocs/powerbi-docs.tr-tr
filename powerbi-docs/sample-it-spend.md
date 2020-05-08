@@ -1,6 +1,6 @@
 ---
-title: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
-description: 'Power BI için BT Harcama Analizi örneği: Tura katılın'
+title: 'Power BI için IT Spend Analysis örneği: Tura katılın'
+description: 'Power BI için IT Spend Analysis örneği: Tura katılın'
 author: maggiesMSFT
 ms.reviewer: amac
 ms.service: powerbi
@@ -10,13 +10,13 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 00effa1838327a9463671cf9be2f5764be71deb4
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404692"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için BT Harcama Analizi örneği: Tura katılın
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için IT Spend Analysis örneği: Tura katılın
 
 BT Harcama Analizi örneği içerik paketinde pano, rapor ve veri kümesi bulunur; bir BT departmanının planlanan maliyetleriyle gerçek maliyetleri karşılaştırmalı olarak çözümlenir. Bu karşılaştırma şirketin yıl için ne kadar iyi planlama yaptığını anlamamıza yardımcı olur ve plana göre büyük sapmalar görülen alanları araştırmamıza olanak tanır. Bu örnekteki şirket yıllık bir planlama döngüsünden geçer ve ardından finansal yılda BT'ye yapılan harcamalardaki değişiklikleri çözümlemelerine yardımcı olması için üç ayda bir yeni en yeni tahmin (LE) oluşturur.
 
