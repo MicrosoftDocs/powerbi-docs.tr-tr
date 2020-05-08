@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975045"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
@@ -29,7 +29,7 @@ Uygulamayı yükledikten sonra, panoyu ve raporları uygulamada ve Power BI hizm
 
 ![Power BI mobil uygulamasında Google Analytics uygulaması](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Kullanmaya başlayın
+## <a name="get-started"></a>başlarken
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>Panoyu ve raporları düzenleme
@@ -51,11 +51,11 @@ Ayrıca, Google Analytics gibi [Power BI Desktop’taki birçok hizmete bağlana
 
 Belirli hizmetlere bağlanma hakkında ayrıntılı bilgi için hizmetlerle ilgili yardım sayfalarına bakın.
 
-## <a name="troubleshooting"></a>Sorun giderme
+## <a name="troubleshooting"></a>Sorun Giderme
 **Boş kutucuklar**  
 Power BI hizmete ilk kez bağlandığında panonuzda boş kutucuklar görebilirsiniz. 2 saat sonra da panonuz boşsa bağlantı başarısız olmuş olabilir. Sorunu düzeltme önerileri içeren bir hata iletisiyle karşılaşmadıysanız destek bileti oluşturun.
 
-* Sağ üst köşedeki soru işareti simgesini (**?**) seçin ve ardından **Yardım al** seçeneğini belirleyin.
+* Sağ üst köşedeki soru işareti simgesini ( **?** ) seçin ve ardından **Yardım al** seçeneğini belirleyin.
   
     ![Yardım al simgesi](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -70,5 +70,5 @@ Kendiniz dağıtmak üzere şablon uygulamaları oluşturmak ilginizi çekiyorsa
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Uygulamaları iş arkadaşlarınıza dağıtma](service-create-distribute-apps.md)
 * [Power BI'da yeni çalışma alanları oluşturma](service-create-the-new-workspaces.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79040125"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
@@ -55,7 +55,7 @@ Uygulama ekranı hem tasarımcının adını hem de uygulamanın son güncelleş
     ![Biri seçili 2 uygulama](media/end-user-fresh/power-bi-app.png)
 
 
-### <a name="shared-with-me"></a>Benimle paylaşılan
+### <a name="shared-with-me"></a>Benimle paylaşılıyor mu?
 **Benimle paylaşılan** ekranı size içerik sahibinin adını ve içeriğin sizinle son paylaşıldığı tarihi gösterir.
 
 ![Değiştirme tarihi ve Sahip’in gösterildiği Benimle paylaşılan ekranı](media/end-user-fresh/power-bi-share.png) 

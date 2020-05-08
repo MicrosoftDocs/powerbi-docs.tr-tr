@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77154155"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat kılavuzu

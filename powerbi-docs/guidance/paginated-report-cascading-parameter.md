@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920779"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Sayfalandırılmış raporlarda basamaklı parametreleri kullanma

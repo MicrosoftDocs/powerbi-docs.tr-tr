@@ -10,10 +10,10 @@ ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/12/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79133325"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama

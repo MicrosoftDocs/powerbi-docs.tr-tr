@@ -11,10 +11,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427381"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama

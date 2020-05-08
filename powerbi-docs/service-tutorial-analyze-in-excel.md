@@ -11,10 +11,10 @@ ms.date: 02/13/2020
 ms.author: tekulka
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9a8dd1eb7aa6b239cc542884ab3fae3679997017
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464612"
 ---
 # <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Öğretici: Power BI Excel'de Çözümle özelliğini kullanma, Excel'den başlama

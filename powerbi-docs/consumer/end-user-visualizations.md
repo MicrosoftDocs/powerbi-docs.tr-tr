@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113850"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
@@ -43,7 +43,7 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 
 
 
-|Görev  |Panoda  |Raporda  | Soru-Cevap özelliğinde
+|Task  |Panoda  |Raporda  | Soru-Cevap özelliğinde
 |---------|---------|---------|--------|
 |[Görsele kendi kullanımınız için açıklamalar ekleyin veya iş arkadaşlarınızla görsel hakkında bir konuşma başlatın](end-user-comment.md).     |  evet       |   evet      |  hayır  |
 |[Görselin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  hayır |

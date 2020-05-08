@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.openlocfilehash: 3ca950f5562998a1591d94ee690b76fee4f3d98f
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78922379"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma

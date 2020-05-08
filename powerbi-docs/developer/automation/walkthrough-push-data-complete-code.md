@@ -9,15 +9,15 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488304"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
 
-Bu makale, [veri kümelerine veri göndermeye](walkthrough-push-data.md) ilişkin adım adım kılavuzun bir parçasıdır.
+Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
 **Bir veri kümesine veri gönderme** makalesindeki 2. Adım ila 5. Adım arasındaki adımları uyguladıktan sonra tam kaynak kodunuzun aşağıdakine benzer olması gerekir.
 

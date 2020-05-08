@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 86728adbad8a96875fc21bb9fe5c5267a2ce6651
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206367"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Görsel öğeler kullanarak Power BI raporlarını geliştirme
@@ -60,7 +60,7 @@ Sayfa arka planınızı %50'den yüksek bir saydamlığa ayarladığınızda, ra
 Noktalı kenarlığın *yalnızca* raporunuz düzenlenirken gösterildiğini ve yayımlanan raporunuz kişiler tarafından görüntülenirken, örneğin *Power BI hizmetinde* görüntülenirken bu kenarlığın **gösterilmediğini** anımsamak önemlidir.
 
 > [!NOTE]
-> Duvar kağıdı olarak koyu renkli arka planlar kullanıyor ve metin rengini çok açık veya beyaz olarak ayarlıyorsanız **PDF'ye dışarı aktar** özelliği duvar kağıdını dışarı aktarmayacağından beyaz yazı tiplerinin oluşturulan PDF dosyasında görünmeyebileceğini unutmayın. **PDF'ye dışarı aktar** özelliği hakkında daha fazla bilgi için bkz. [PDF'ye dışarı aktarma](desktop-export-to-pdf.md).
+> Duvar kağıdı olarak koyu renkli arka planlar kullanıyor ve metin rengini çok açık veya beyaz olarak ayarlıyorsanız **PDF'ye dışarı aktar** özelliği duvar kağıdını dışarı aktarmayacağından beyaz yazı tiplerinin oluşturulan PDF dosyasında görünmeyebileceğini unutmayın. [PDF'ye dışarı aktar](desktop-export-to-pdf.md) özelliği hakkında daha fazla bilgi için bkz. **PDF'ye dışarı aktarma**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Power BI raporlarında geliştirilmiş görsel üst bilgiler kullanma
@@ -102,7 +102,7 @@ Yeni görsel üst bilgi, tüm yeni raporlarda varsayılan davranıştır. Mevcut
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   

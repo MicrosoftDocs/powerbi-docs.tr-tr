@@ -9,10 +9,10 @@ ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921183"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
@@ -20,7 +20,7 @@ ms.locfileid: "78921183"
   
    
   
-##  <a name="DesigningReports"></a> Raporları tasarlama  
+##  <a name="designing-reports"></a><a name="DesigningReports"></a> Raporları tasarlama  
   
 -   İyi tasarlanmış bir rapor, eyleme dönüşen bilgiler aktarır. Raporun yanıtlamak istediği soruları belirleyin. Raporu tasarlarken bu soruları aklınızda tutun.  
   
@@ -36,7 +36,7 @@ ms.locfileid: "78921183"
   
  Raporunuzu tasarlarken göz önünde bulundurulacak noktalar hakkında daha fazla bilgi edinmek için bkz. [Rapor Oluşturucusu’nda bir Rapor Planlama](report-builder-planning-report.md)).  
   
-##  <a name="NamingConventions"></a> Raporlar, veri kaynakları ve veri kümeleri için adlandırma kuralları  
+##  <a name="naming-conventions-for-reports-data-sources-and-datasets"></a><a name="NamingConventions"></a> Raporlar, veri kaynakları ve veri kümeleri için adlandırma kuralları  
   
 -   Verilerin kaynağını belgelendiren veri kaynakları ve veri kümeleri için adlandırma kurallarını kullanın.  
   
@@ -44,7 +44,7 @@ ms.locfileid: "78921183"
   
     2.  **Veri kümeleri.** Hangi veri kaynağının temel alındığını belirten bir ad kullanın.  
   
-##  <a name="Data"></a> Verilerle çalışma  
+##  <a name="working-with-data"></a><a name="Data"></a> Verilerle çalışma  
   
 -   İlk adım olarak, çalışırken kullanmak istediğiniz tüm verilerin Rapor Verileri bölmesinde görünmesini sağlayın. Raporla yanıtlanması amaçlanan soruları geliştirdikçe, rapor veri kümelerindeki verileri nasıl sadece ihtiyaç duyulan şeylerle sınırlandırabileceğinizi düşünün.  
   
@@ -54,7 +54,7 @@ ms.locfileid: "78921183"
   
 -   Gereksinimlerinize bağlı olarak, rapor verisi kaynaklarını, veri kümesi sorgusu komut metnini ve parametre değerlerinin adlarını ve konumlarını raporda görüntüleyebilirsiniz. Yeni kullanıcıların çoğu, verilerin nereden geldiğini merak eder. Rapordaki dağınıklığı azaltmak için, bu tür bilgiler ile metin kutularını koşullu olarak gizleyebilir ve kullanıcıların bunu görmek isteyip istemediklerini seçmelerine olanak tanıyabilirsiniz. Bu bilgileri raporun son sayfasına eklemeyi deneyin. Metin kutusu görünürlüğünü, kullanıcının değiştirebileceği bir parametreye göre ayarlayın.  
   
-##  <a name="DesignSurface"></a> Rapor tasarım yüzeyi ile etkileşim kurma  
+##  <a name="interacting-with-the-report-design-surface"></a><a name="DesignSurface"></a> Rapor tasarım yüzeyi ile etkileşim kurma  
  Rapor tasarım yüzeyi WYSIWIG değildir. Tasarım yüzeyine rapor öğelerini yerleştirdiğinizde, bunların göreli konumları öğelerin işlenmiş rapor sayfasında nasıl görüneceğini etkiler. Boşluk korunur.  
   
 -   Öğeleri rapor tasarım yüzeyinde hizalayıp düzenlemek için dayama çizgilerini ve düzen düğmelerini kullanın. Örneğin, seçilen öğelerin üstlerini ve kenarlarını hizalayabilirsiniz. Bir öğeyi, farklı bir öğenin boyutuyla aynı olacak şekilde yeniden boyutlandırabilir veya öğeler arasındaki aralığı ayarlayabilirsiniz.  
@@ -77,7 +77,7 @@ ms.locfileid: "78921183"
   
 -   Rapor Verileri bölmesindeki alanları Gruplandırma bölmesine sürüklemek istediğinizde bunları tasarım yüzeyindeki diğer rapor öğelerinin üzerinden sürüklemeyin. Bunu yaparsanız diğer öğeler seçilir ve tablix veri bölgesinin seçimi kaldırılır. Alanı Rapor Verileri bölmesine ve ardından Gruplandırma panosuna sürükleyin.  
   
-###  <a name="Selecting"></a> Öğeleri seçme  
+###  <a name="selecting-items"></a><a name="Selecting"></a> Öğeleri seçme  
  Rapor tasarım yüzeyinde olmasını istediğiniz nesneyi kolayca seçmek için ESC tuşunu, sağ tıklama bağlam menüsünü, Özellikler bölmesini ve Gruplandırma bölmesini kullanın.  
   
 -   -   Tasarım yüzeyinde aynı alanı kaplayan rapor öğeleri yığının arasında geçiş yapmak için ESC’ye basın.  
@@ -89,31 +89,31 @@ ms.locfileid: "78921183"
     -   Bir tablix veri bölgesinde satır ve sütun gruplarıyla çalışmak için Gruplandırma bölmesinden grubu seçin.  
 
   
-##  <a name="ReportItems"></a> Belirli türden rapor öğeleriyle çalışma  
+##  <a name="working-with-specific-types-of-report-items"></a><a name="ReportItems"></a> Belirli türden rapor öğeleriyle çalışma  
   
-###  <a name="Parameters"></a> Parametrelerle çalışma  
+###  <a name="working-with-parameters"></a><a name="Parameters"></a> Parametrelerle çalışma  
   
 -   Rapor parametrelerinin birincil amacı, veri kaynağındaki verileri filtreleyip yalnızca raporun amacı için gerekli olanları almaktır.  
   
 -   Rapor parametreleri için, etkileşim olanağı tanıma ve bir kullanıcının istediği sonuçları almasına yardımcı olma arasındaki dengeyi bulun. Örneğin, popüler olduğunu bildiğiniz değerlere bir parametre için varsayılan değerleri ayarlayabilirsiniz.  
   
-###  <a name="Text"></a> Metin ile çalışma  
+###  <a name="working-with-text"></a><a name="Text"></a> Metin ile çalışma  
   
 -   Çok satırlı bir öğeyi bir metin kutusuna yapıştırdığınızda bu metin, bir metin çalıştırması olarak eklenir. Her metin çalıştırması sadece birim olarak biçimlendirilebilir. Her satırı bağımsız olarak biçimlendirmek için, ihtiyacınız oldukça metin çalıştırmasında RETURN tuşuna basarak yeni bir satır ekleyin. Ardından, metin kutusundaki her bağımsız metin satırına biçimlendirme ve stil uygulayabilirsiniz.  
   
 -   Bir metin kutusunda veya metin kutusundaki yer tutucuda biçim özellikleri ve eylemleri ayarlayabilirsiniz. Yalnızca bir satırlık metin varsa, özelliklerin metinden ziyade metin kutusunda ayarlanması daha verimli olur.  
   
-###  <a name="Expressions"></a> İfadelerle çalışma  
+###  <a name="working-with-expressions"></a><a name="Expressions"></a> İfadelerle çalışma  
   
 -   Basit ve karmaşık ifade biçimlerini anlayın. Basit ifade biçimlerini doğrudan metin kutularına, Özellikler bölmesindeki özelliklere, iletişim kutusundaki ifade kabul eden konumlara yazabilirsiniz.
   
 -   Bir ifade oluşturduğunuzda, bu ifade her parçanın bağımsız olarak oluşturulmasına ve değerinin doğrulanmasına yardımcı olur. Ardından, tüm parçaları son bir ifadede birleştirebilirsiniz. Bir matris hücresine metin kutusu ekleyip ifadenin her parçasını görüntülemek ve metin kutusunda koşullu görünürlük ayarlamak kullanışlı bir tekniktir. Metin kutusu gizliyken kenarlık stilini ve rengini denetlemek için ilk olarak metin kutusunu bir dikdörtgene yerleştirin ve ardından dikdörtgenin kenarlık stilini ve rengini matris ile eşleşecek şekilde ayarlayın.  
   
-###  <a name="Indicators"></a> Göstergeler ile çalışma  
+###  <a name="working-with-indicators"></a><a name="Indicators"></a> Göstergeler ile çalışma  
   
 -   Varsayılan olarak, bir gösterge en az üç durum gösterir. Bir rapora gösterge ekledikten sonra, durumları ekleyerek veya kaldırarak bunu yapılandırabilirsiniz. Kullanıcılarınızın bunu daha kolay görüntülemesi için, renk ve şekil yönünden farklılık gösteren bir gösterge seçin.  
   
-##  <a name="Rendering"></a> Rapor sayfasındaki rapor öğelerinin işlenmesini denetleme  
+##  <a name="controlling-the-rendering-of-report-items-on-the-report-page"></a><a name="Rendering"></a> Rapor sayfasındaki rapor öğelerinin işlenmesini denetleme  
   
 -   Rapor tasarımı yüzeyindeki rapor öğeleri, ilişkili veri kümesinin, ifadenin, alt raporun veya metnin içeriklerinin sığabilmesi için büyür.  
   

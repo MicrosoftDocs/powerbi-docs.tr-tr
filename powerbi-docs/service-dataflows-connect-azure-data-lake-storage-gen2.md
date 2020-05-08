@@ -10,10 +10,10 @@ ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113175"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama

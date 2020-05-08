@@ -10,15 +10,15 @@ ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576853"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI hizmetinde Snowflake'e bağlanma
 
-## <a name="introduction"></a>Tanıtım
+## <a name="introduction"></a>Giriş
 
 Power BI hizmetinde Snowflake'e bağlanmanın diğer bağlayıcılardan tek farkı, AAD için sunulan ek özelliktir (SSO seçeneği). Tümleştirmenin farklı bölümlerinde Snowflake, Power BI ve Azure için farklı yönetici rollerine ihtiyaç duyulur. SSO kullanmadan da AAD kimlik doğrulamasını etkinleştirebilirsiniz. Temel kimlik doğrulaması, hizmetteki diğer bağlayıcılara benzer şekilde çalışır.
 
@@ -66,7 +66,7 @@ Bu işlem tamamlandıktan sonra diğer kullanıcıların aynı Snowflake veri k�
 
 SSO'yu etkinleştirmezseniz raporu yenileyen kullanıcılar, diğer çoğu Power BI raporunda olduğu gibi oturum açmış olan kullanıcının kimlik bilgilerini kullanır.
 
-### <a name="troubleshooting"></a>Sorun giderme
+### <a name="troubleshooting"></a>Sorun Giderme
 
 Tümleştirme konusunda herhangi bir sorunla karşılaşırsanız lütfen Snowflake [sorun giderme kılavuzunu](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting) inceleyin.
 

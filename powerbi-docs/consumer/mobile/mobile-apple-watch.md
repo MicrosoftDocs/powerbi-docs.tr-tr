@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: e2014f359d4085ab0dcb85135f7436c9e403eaab
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114521"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
@@ -31,7 +31,7 @@ Power BI Apple Watch uygulaması iki bölümden oluşur.
 * **Dizin ekranı**, eşitlenmiş panodan tüm KPI'lere ve kart kutucuklarına yönelik hızlı bir genel bakış sağlar.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
-* **Odak kutucuğu**: Dizin ekranında belirli bir kutucuğun kapsamlı görünümü için kutucuğa tıklayın.
+* **Odak kutucuğu**: Dizin ekranında belirli bir kutucuğa ait kapsamlı bir görünüm için bir kutucuğa tıklayın.
   
   ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
@@ -86,6 +86,6 @@ Apple Watch kadranındaki alanın küçüklüğü nedeniyle Power BI Apple Watch
 Geri bildiriminiz, gelecekte neleri kullanıma sunacağımıza karar verme konusunda bize yardımcı olacaktır. Bu nedenle lütfen Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri belirtmeyi unutmayın. 
 
 * [Power BI iPhone mobil uygulamasını](https://go.microsoft.com/fwlink/?LinkId=522062) indirin
-* [Twitter'da @MSPowerBI sayfasını](https://twitter.com/MSPowerBI) takip edin
-* [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
+* [Twitter'da @MSPowerBI hesabını takip edin](https://twitter.com/MSPowerBI)
+* [Power BI Topluluğu](https://community.powerbi.com/)'ndaki sohbetlere katılın
 

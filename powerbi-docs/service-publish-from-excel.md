@@ -10,10 +10,10 @@ ms.date: 03/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80329607"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel’deki içeriği Power BI’da yayımlama
@@ -91,6 +91,6 @@ Seçeneklerden birini belirlediğinizde Excel, geçerli hesabınızı kullanarak
 ![Power BI’a gitme](media/service-publish-from-excel/pbi_gotopbi.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Power BI'daki Excel verileri](service-excel-workbook-files.md)  
+[Excel data in Power BI (Power BI'daki Excel verileri)](service-excel-workbook-files.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

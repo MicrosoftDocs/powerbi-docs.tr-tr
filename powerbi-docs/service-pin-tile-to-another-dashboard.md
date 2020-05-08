@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881232"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Panolardaki kutucukları başka panolara sabitleme
@@ -28,13 +28,13 @@ Yeni [pano kutucuğu](consumer/end-user-tiles.md) eklemenin bir yolu da kutucuğ
 3. Sabitlemek istediğiniz kutucuğun üzerine gelip **Diğer seçenekler**’i (...) ve **Kutucuğu sabitle**’yi seçin.  
    
    ![üç nokta menüsü](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
-4. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin. 
+4. Kutucuğu var olan bir panoya veya yeni bir panoya sabitleyin. 
    
    * **Var olan pano**: Açılan listeden panonun adını seçin.
    * **Yeni pano**: Yeni panonun adını girin.
    
    ![Panoya Sabitle iletişim kutusu](media/service-pin-tile-to-another-dashboard/pbi_pintoanotherdash.png)
-5. **Sabitle**'yi seçin.
+5. **Raptiye** düğmesini seçin.
    Sağ üst köşenin yakınında görüntülenen Başarılı iletisi, görselleştirmenin bir kutucuk olarak seçili panoya eklendiğini bildirir.
    
    ![Panoya sabitlendi penceresi](media/service-pin-tile-to-another-dashboard/power-bi-pin-success.png)

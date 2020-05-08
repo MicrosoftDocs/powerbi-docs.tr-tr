@@ -10,10 +10,10 @@ ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ac15a732f3d388fd5dafa61d33eec1d82022da54
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464289"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop’taki Analysis Services tablo verilerine bağlanma

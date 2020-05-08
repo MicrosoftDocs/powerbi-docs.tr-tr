@@ -10,10 +10,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114233"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
@@ -51,7 +51,7 @@ Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez. Kaydedebilirsiniz
 
 ![Varsayılana dön simgesinin ekran görüntüsü.](./media/end-user-reports/power-bi-reset.png)
 
-## <a name="dashboards-versus-reports"></a>Panolarla raporları karşılaştırma
+## <a name="dashboards-versus-reports"></a>Panolarla ve raporları karşılaştırma
 
 [Panolar](end-user-dashboards.md) da görsellerle dolu tuvaller olduklarından genellikle raporlarla karıştırılır. Ancak bazı önemli farklılıklar bulunur.  
 
@@ -61,7 +61,7 @@ Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez. Kaydedebilirsiniz
 | Veri kaynakları |Pano başına bir veya daha fazla rapor ve bir veya daha fazla veri kümesi |Rapor başına tek bir veri kümesi |
 | Filtreleme |Filtreleme veya dilimleme yapamazsınız |Filtreleme, vurgulama ve dilimleme için birçok farklı yol vardır |
 | Uyarı ayarlama |Pano belirli koşulları karşıladığında size e-posta gönderilmesini için uyarılar oluşturabilirsiniz |Hayır |
-| Öne çıkan özelliği |Bir panoyu öne çıkan panonuz olarak ayarlayabilirsiniz |Öne çıkan bir rapor oluşturamazsınız |
+| Özellik |Bir panoyu öne çıkan panonuz olarak ayarlayabilirsiniz |Öne çıkan bir rapor oluşturamazsınız |
 | Temel alınan veri kümesi tablolarını ve alanlarını görme |Hayır. Verileri dışarı aktarabilir ancak veri kümesi tablolarını ve alanları panonun kendisinde göremezsiniz |Evet. Veri kümesi tablolarını, alanlarını ve görme iznine sahip olduğunuz değerleri görebilirsiniz |
 | Özelleştirme |Hayır  |İlgili içerikleri filtreleyebilir, dışarı aktarabilir, görüntüleyebilir, yer işaretleri ekleyebilir, QR kodları oluşturabilir, Excel’de analiz edebilir ve daha birçok işlem yapabilirsiniz |
 

@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114138"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI tüketicileri için gezinti: genel arama
@@ -27,7 +27,7 @@ ms.locfileid: "79114138"
 Power BI hizmetini yeni kullanmaya başladığınızda yalnızca birkaç parça içeriğiniz (panolar, raporlar, uygulamalar) olur. Ama siz uygulama indirdikçe ve iş arkadaşlarınız sizinle içerik paylaştıkça çok fazla içerikle karşılaşabilirsiniz. Bu durumda, arama ve sıralama özellikleri son derece yararlı olur.
 
 ## <a name="searching-for-content"></a>İçeriği arama
- Arama özelliğini Power BI hizmetinin neredeyse her kısmında kullanabilirsiniz. Arama kutusunu veya arama simgesini bulmanız yeterlidir ![büyüteç simgesi](./media/end-user-search-sort/power-bi-search-icon.png).
+ Arama özelliğini Power BI hizmetinin neredeyse her kısmında kullanabilirsiniz. Arama kutusunu veya arama simgesini bulmanız yeterlidir ![büyüteç simgesi](./media/end-user-search-sort/power-bi-search-icon.png)dokunun.
 
  Arama alanına pano, rapor, çalışma kitabı uygulama veya sahip adının tamamını veya bir bölümünü yazın. Power BI tüm içeriğinizi arar. 
 
