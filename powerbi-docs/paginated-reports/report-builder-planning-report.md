@@ -9,10 +9,10 @@ ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923000"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor planlama

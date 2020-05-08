@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256805"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Örnekleri Power BI hizmetinde Çalışma alanım'a indirme
@@ -28,7 +28,7 @@ Verileri indirebilmek için bir Power BI hizmeti hesabınız olmalıdır. Power 
 
 2. Gezinti bölmesinin sol alt köşesinde **Veri al**'ı seçin. Gezinti bölmesi gizliyse ve Veri al bağlantısını göremiyorsanız, bölmeyi görüntülemek için göster/gizle gezinti bölmesi simgesine ![Genel gezinti düğmesi](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png) tıklayın.  
    
-    ![Veri Al](./media/mobile-apps-download-samples/power-bi-get-data.png)
+    ![Verileri Al](./media/mobile-apps-download-samples/power-bi-get-data.png)
 
 3. Veri Al sayfasında **Örnekler** bağlantısını seçin.
    
@@ -46,4 +46,4 @@ Artık örnekleri mobil cihazınızda görüntülenmeye hazırsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Hızlı Başlangıç](mobile-apps-quickstart-view-dashboard-report.md)
-* Sorularınız mı var? [Power BI Topluluğu'nun Mobil uygulamalar bölümüne](https://go.microsoft.com/fwlink/?linkid=839277) göz atın
+* Sorular? [Power BI Topluluğu'nun Mobil uygulamalar bölümüne](https://go.microsoft.com/fwlink/?linkid=839277) göz atın

@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d92d7a3095ff2f252a09834becf90d5efc1811a0
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113072"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
@@ -47,6 +47,6 @@ Amanda’nın bildirimleri incelemesini, yönetmesini ve bunlara yanıt vermesin
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki veri uyarıları](end-user-alerts.md)
 * [iPhone uygulamasında (iOS için Power BI) veri uyarıları oluşturma](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Windows 10 için Power BI mobil uygulamasında veri uyarıları ayarlama](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

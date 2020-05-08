@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404019"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
@@ -84,7 +84,7 @@ Uygulamanızı kaydetmek için kullanabileceğiniz diğer seçenek Azure portal�
 
 4. Sol taraftaki gezinti bölmesinde **Tüm hizmetler**'e gidin, **Uygulama Kayıtları**'nı ve sonra **Yeni kayıt**'ı seçin.
 
-5. Talimatları izleyerek yeni bir uygulama oluşturun.
+5. Komut istemlerini izleyin ve yeni bir uygulama oluşturun.
 
    Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Azure Active Directory’ye uygulama kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 

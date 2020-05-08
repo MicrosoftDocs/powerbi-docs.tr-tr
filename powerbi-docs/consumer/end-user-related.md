@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114369"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
@@ -52,7 +52,7 @@ Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz.  Örneğin, 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Bir veri kümesinin ilişkili içeriğini görüntüleme
-**İlişkili içerik** bölmesini açmak için en azından bir veri kümesini *görüntüleme* izinleriniz olmalıdır. Bu örnekte [Tedarik Analizi örneğini](../sample-procurement.md) kullanıyoruz.
+*İlişkili içerik* bölmesini açmak için en azından bir veri kümesini **görüntüleme** izinleriniz olmalıdır. Bu örnekte [Tedarik Analizi örneğini](../sample-procurement.md) kullanıyoruz.
 
 Gezinti bölmesinden **Çalışma Alanları** başlığını bulun ve listeden bir çalışma alanı seçin. Bir çalışma alanında içeriğiniz varsa sağdaki tuvalde görüntülenir. 
 
