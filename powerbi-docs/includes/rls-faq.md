@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: cd0696b44e285119193059304c89cfa04c755771
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "71409391"
 ---
 ## <a name="faq"></a>SSS

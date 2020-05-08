@@ -69,7 +69,7 @@
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Power BI’ı Genişletme
           items:
-            - name: Excel’de Analiz Et
+            - name: Excel’de çözümleme
               href: ../service-analyze-in-excel.md
             - name: Excel’de çözümleme sorunlarını giderme
               href: ../desktop-troubleshooting-analyze-in-excel.md

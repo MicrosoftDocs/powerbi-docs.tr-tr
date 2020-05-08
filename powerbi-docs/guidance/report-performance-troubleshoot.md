@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: v-pemyer
 ms.openlocfilehash: a5230a39706ce5d6941c00386160fe10114442e1
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81528003"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Power BI’da rapor performansı sorunlarını giderme

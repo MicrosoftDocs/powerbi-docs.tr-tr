@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893442"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Görselleştirme başlıklarını, arka planlarını ve göstergelerini özelleştirme
@@ -49,7 +49,7 @@ Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende An
 
 1. **Başlık** kaydırıcısını **Açık** konumuna getirin.
 
-1. Başlığı değiştirmek için, **Başlık metni** alanına *Store count by month opened* yazın.
+1. Başlığı değiştirmek için, *Başlık metni* alanına **Store count by month opened** yazın.
 
     ![Başlık metninin girildiği Biçim bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
@@ -112,7 +112,7 @@ Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Arka plan** öze
 
 1. **Başlık** seçeneğini **Açık** olarak ayarlayarak bir gösterge başlığı ekleyin.
 
-1. **Gösterge adı** alanına *Yönetici* yazın.
+1. *Gösterge adı* alanına **Yönetici** yazın.
 
 1. **Renk** değerini siyah olarak değiştirin.
 
@@ -133,7 +133,7 @@ Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir**'i seç
 
 Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçeneklerinin bir listesi aşağıda verilmiştir:
 
-| Görselleştirme | Başlık | Arka Plan | Gösterge |
+| Görselleştirme | Başlık | Arka plan | Açıklama |
 |:--- |:--- |:--- |:--- |
 | Alan | evet | evet |evet |
 | Çubuk | evet | evet |evet |
@@ -147,7 +147,7 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 | Ölçer | evet | evet | yok |
 | Ana Etmen | evet | evet | yok |
 | KPI | evet | evet | yok |
-| Çizgi | evet | evet | evet |
+| Satır | evet | evet | evet |
 | Harita | evet | evet | evet |
 | Matris | evet | evet | yok |
 | Pasta | evet | evet | evet |
@@ -155,7 +155,7 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 | Dağılım | evet | evet | evet |
 | Şekil | evet | evet | evet |
 | Dilimleyici | evet | evet | yok |
-| Tablo | evet | evet | yok |
+| Table | evet | evet | yok |
 | Metin Kutusu | hayır | evet | yok |
 | Treemap | evet | evet | evet |
 | Şelale | evet | evet | evet |

@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 0e3f742e0ad9d3b9bf81c9dd95e9193413a70d6a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76540230"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini analiz etme
@@ -157,7 +157,7 @@ Bu sütunları seçin ve Excel verileriyle yaptığınız gibi **Diğer Sütunla
 
 1. Her sütun üst bilgisine çift tıklayın ya da basılı tutun veya sütun üst bilgisine sağ tıklayıp açılır menüden **Yeniden Adlandır**’ı seçin.
 
-1. Her adın **Order_Details.** ön ekini silin.
+1. Her bir adın **Order_Details.** ön ekini silin.
 
 Son olarak, **LineTotal** sütununa erişimi kolaylaştırmak için sütunu sola sürükleyip **ShipCountry** sütununun hemen sağına bırakın.
 

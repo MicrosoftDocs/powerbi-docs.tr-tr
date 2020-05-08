@@ -14,7 +14,7 @@
       items:
         - name: Kendi ölçülerinizi oluşturma
           href: ../desktop-tutorial-create-measures.md
-        - name: Hesaplanmış sütun oluşturma
+        - name: Hesaplanan sütunlar oluşturma
           href: ../desktop-tutorial-create-calculated-columns.md
     - name: Kavramlar
       expanded: true
@@ -55,7 +55,7 @@
               href: ../desktop-combine-binaries.md
             - name: Yapay Zeka İçgörüleri'ni kullanma (önizleme)
               href: ../desktop-ai-insights.md
-        - name: Verilerinizi modelleme
+        - name: Veri modeli oluşturma
           items:
             - name: Yaygın hesaplamalar için hızlı ölçüler özelliğini oluşturma
               href: ../desktop-quick-measures.md
@@ -67,7 +67,7 @@
               href: ../desktop-mobile-barcodes.md
             - name: Mobil uygulama için Power BI’da coğrafi filtreler ayarlama
               href: ../desktop-mobile-geofiltering.md
-            - name: Hesaplanmış sütun oluşturma
+            - name: Hesaplanan sütunlar oluşturma
               href: ../desktop-calculated-columns.md
             - name: Hesaplanmış tablo oluşturma
               href: ../desktop-calculated-tables.md
@@ -99,11 +99,11 @@
               href: ../service-dataflows-developer-resources.md
             - name: Power BI Desktop’taki veri akışlarına bağlanma
               href: ../desktop-connect-dataflows.md
-            - name: Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
+            - name: Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
               href: ../service-dataflows-azure-data-lake-integration.md
             - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
               href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
+            - name: Çalışma alanının veri akışı ayarlarını yapılandırma (Önizleme)
               href: ../service-dataflows-configure-workspace-storage-settings.md
             - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
               href: ../service-dataflows-add-cdm-folder.md

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/05/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78290596"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query sorgularına başvurma

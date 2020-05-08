@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
 ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921459"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki rapor verileri
@@ -23,7 +23,7 @@ Rapor verileri kuruluşunuzdaki çeşitli veri kaynaklarından gelebilir. Power 
 [Power BI Rapor Oluşturucusu'nda sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturmayı](paginated-reports-embedded-data-source.md) öğrenin.
 
 
-##  <a name="BkMk_ReportDataTerms"></a> Terimleri  
+##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> Terimleri  
   
 - **Veri bağlantısı.** *Veri kaynağı* olarak da bilinir. Veri bağlantısı bir ad ve bağlantı türüne bağımlı olan bağlantı özellikleri içerir. Tasarımı gereği veri bağlantısı kimlik bilgilerini içermez. Dış veri kaynağından hangi verilerin alınacağını veri bağlantısı belirtmez. Bunu yapmak için veri kümesini oluştururken siz bir sorgu belirtirsiniz.  
   
@@ -33,7 +33,7 @@ Rapor verileri kuruluşunuzdaki çeşitli veri kaynaklarından gelebilir. Power 
   
 - **Kimlik bilgileri.** Kimlik bilgileri dış verilere erişmenize izin verilmesi için sağlanması gereken kimlik doğrulama bilgileridir.  
   
-##  <a name="BkMk_ReportDataTips"></a> Rapor verilerini belirtme ipuçları
+##  <a name="tips-for-specifying-report-data"></a><a name="BkMk_ReportDataTips"></a> Rapor verilerini belirtme ipuçları
 
  Rapor verileri stratejinizi tasarlamak için aşağıdaki bilgilerden yararlanın.  
   

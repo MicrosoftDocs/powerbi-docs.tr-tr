@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539200"
 ---
 # <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop'ta veri kaynaklarına bağlanma
@@ -39,13 +39,13 @@ Emekliye ayrıldığınızı hayal edin. Bol bol güneş ışığının, düşü
 
 ![Web kaynağı adresi girin](media/desktop-connect-to-data/connecttodata_3.png)
 
-**Tamam**'ı seçtiğinizde Power BI Desktop'ın *Sorgu* işlevi çalışmaya başlar. Power BI Desktop, web kaynağı ile bağlantı kurar ve **Gezgin** penceresi söz konusu web sayfasında bulduğu sonuçları görüntüler. Bu örnekte, bir tablonun yanı sıra genel Belgeyi de bulur. Beklentilerimizi karşılayan tabloyu listeden seçiyoruz. **Gezgin** penceresi, bir önizleme görüntüler.
+**Tamam**'ı seçtiğinizde, Power BI Desktop'ın *Sorgu* işlevi çalışmaya başlar. Power BI Desktop, web kaynağı ile bağlantı kurar ve **Gezgin** penceresi söz konusu web sayfasında bulduğu sonuçları görüntüler. Bu örnekte, bir tablonun yanı sıra genel Belgeyi de bulur. Beklentilerimizi karşılayan tabloyu listeden seçiyoruz. **Gezgin** penceresi, bir önizleme görüntüler.
 
 ![Gezgin'de verilerin önizlemesi](media/desktop-connect-to-data/datasources_fromnavigatordialog.png)
 
 Bu noktada, tabloyu yüklemeden önce sorguyu düzenlemek için pencerenin alt kısmından **Veri Dönüştürme**'yi seçebilir veya doğrudan tabloyu yükleyebilirsiniz.
 
-Tabloyu yüklemek ve Power Query Düzenleyicisi'ni başlatmak için **Veri Dönüştürme**'yi seçin. **Sorgu Ayarları** bölmesi görüntülenir. Görüntülenmezse, şeritten **Görünüm**'ü seçin ve sonra da **Sorgu Ayarları**'nı seçerek **Sorgu Ayarları** bölmesini görüntüleyin. Aşağıdaki gibi bir ekranla karşılaşırsınız.
+Tabloyu yüklemek ve Power Query Düzenleyicisi'ni başlatmak için **Veri Dönüştürme**'yi seçin. **Sorgu Ayarları** bölmesi görüntülenir. Görüntülenmezse, şeritten **Görünüm**'ü seçin ve sonra da **Sorgu Ayarları**'nı seçerek **Sorgu Ayarları** bölmesini görüntüleyin. Aşağıdaki şekilde görünür.
 
 ![Sorgu Ayarları ile Power Query Düzenleyicisi](media/desktop-connect-to-data/designer_gsg_editquery.png)
 
@@ -68,7 +68,7 @@ Veri modeli yüklüyken, Power BI Desktop'taki **Rapor** görünümünde alanlar
 Kuşkusuz bu tek veri bağlantısı bulunan basit bir modeldir. Çoğu Power BI Desktop raporunda ise zengin bir veri modeli oluşturan ilişkiler ile ihtiyaçlarınızı karşılamak üzere şekillendirilmiş farklı veri kaynaklarına yönelik bağlantılar bulunur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+Power BI Desktop ile yapabileceğiniz çok şey var. Özellikleri hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop’taki Sorgu Düzenleyicisi'ni kullanma hakkında](desktop-query-overview.md)
@@ -78,5 +78,5 @@ Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha 
 
 Bize geri bildirim sağlamak ister misiniz? Harika! Power BI Desktop’taki **Fikir Sunun** menü öğesini kullanın veya [Topluluk Geri Bildirimi](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)’ni ziyaret edin. Geri bildirimlerinizi sabırsızlıkla bekliyoruz!
 
-![Fikir sunun](media/desktop-connect-to-data/sendfeedback.png)
+![Fikir sunma](media/desktop-connect-to-data/sendfeedback.png)
 

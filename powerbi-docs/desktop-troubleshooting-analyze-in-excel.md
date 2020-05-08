@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889317"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
@@ -95,9 +95,9 @@ Bu sorunu gidermeye yönelik birkaç seçenek bulunmaktadır:
 Ölçüleriniz Power BI hizmetindeki modelde tanımlandıktan sonra Excel PivotTable'larının **Değerler** alanında kullanılabilir duruma gelir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Excel'de Çözümle](service-analyze-in-excel.md)
+[Excel’de çözümleme](service-analyze-in-excel.md)
 
-[Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md)
+[Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma](desktop-tutorial-create-measures.md)
 
 [PowerPivot'ta Ölçüler](https://msdn.microsoft.com/library/gg399077.aspx)
 

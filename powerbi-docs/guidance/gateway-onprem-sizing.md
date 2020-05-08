@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829064"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Şirket içi veri ağ geçidi boyutlandırması

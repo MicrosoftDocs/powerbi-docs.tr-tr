@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
 ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80647661"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
-Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki biri için başvuru noktası oluşturur.
+Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusundaki çeşitli iş yüklerine ilişkin çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunmak amaçlanmaktadır. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki biri için başvuru noktası oluşturur.
 
 ## <a name="executive-summary"></a>Yürütmeye ilişkin özet
 Power BI Rapor Sunucusu'nda, her biri çeşitli web portalı işlemlerinin gerçekleştirilmesinin yanı sıra farklı türlerde raporların işlenmesini içerecek şekilde, iki farklı türde iş yükü yürüttük. 
@@ -62,7 +62,7 @@ Tüm testler, uçtan uca bir işlem (rapor işleme, yeni bir veri kaynağı olu�
 > Araç Microsoft tarafından resmi olarak desteklenmez, ancak ürün ekibi projeye katkıda bulunur ve diğer katkıda bulunanlar tarafından oluşturulan sorunları yanıtlar.
 
 ### <a name="workloads"></a>İş Yükleri
-Testte kullanılan 2 iş yükü profili vardır: Power BI Report Heavy ve Paginated Report Heavy. Aşağıdaki tabloda, Rapor Sunucusu'na yönelik olarak yürütülen dağıtım istekleri açıklanmıştır.
+Test sırasında 2 iş yükü profili kullanılmıştır: Power BI Report Heavy ve Paginated Report Heavy. Aşağıdaki tabloda, Rapor Sunucusu'na yönelik olarak yürütülen dağıtım istekleri açıklanmıştır.
 
 | Etkinlik | Power BI Report Heavy, Gerçekleşme sıklığı | Paginated Report Heavy, Gerçekleşme sıklığı |
 | --- | --- | --- |
