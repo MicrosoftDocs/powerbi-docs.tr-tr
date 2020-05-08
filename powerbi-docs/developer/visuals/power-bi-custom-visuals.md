@@ -11,10 +11,10 @@ ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550876"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller

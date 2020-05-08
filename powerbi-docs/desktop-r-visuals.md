@@ -10,10 +10,10 @@ ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 061a2a99ad4cc812aac0d66ec4993001187179a0
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979903"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma

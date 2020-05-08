@@ -8,10 +8,10 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
 ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525480"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)

@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439837"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI’da düğmeleri kullanma
@@ -71,7 +71,7 @@ Düğme eylemleri seçenekleri şunlardır:
 - **Sayfa gezintisi**, kullanıcıyı yine yer işaretlerini kullanmadan rapor içinde farklı bir sayfaya götürür. Ayrıntılar için bu makaledeki [Sayfa gezintisi oluşturma](#create-page-navigation) bölümüne bakın.
 - **Soru-Cevap** seçeneği bir **Soru-Cevap Gezgini** penceresi açar. 
 
-Belirli düğmelerin, otomatik olarak seçili varsayılan bir eylemi vardır. Örneğin, **Soru- Cevap** düğmesi türü, otomatik olarak varsayılan eylem olacak şekilde **Soru- Cevap**’ı seçer. [Bu blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) göz atarak **Soru-Cevap Gezgini** hakkında daha fazla bilgi edinebilirsiniz.
+Belirli düğmelerin, otomatik olarak seçili varsayılan bir eylemi vardır. Örneğin, **Soru- Cevap** düğmesi türü, otomatik olarak varsayılan eylem olacak şekilde **Soru- Cevap**’ı seçer. **Bu blog gönderisine** göz atarak [Soru-Cevap Gezgini](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) hakkında daha fazla bilgi edinebilirsiniz.
 
 Kullanmak istediğiniz düğme üzerinde *CTRL+CLICK* tuşlarını kullanarak raporunuz için oluşturduğunuz düğmeleri deneyebilir veya test edebilirsiniz. 
 

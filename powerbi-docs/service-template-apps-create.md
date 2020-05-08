@@ -1,19 +1,19 @@
 ---
 title: Power BI’da şablon uygulamaları oluşturma
 description: Power BI’da tüm Power BI müşterilerine dağıtabileceğiniz şablon uygulamaları oluşturma.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 09/15/2019
-ms.author: tebercov
-ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 5de7268dfa792a85d813e98280f00c87e5e98447
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066360"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781651"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -23,7 +23,7 @@ Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması ol
 
 Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI kiracı yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
 
-## <a name="prerequisites"></a>Ön koşullar
+## <a name="prerequisites"></a>Önkoşullar
 
 Şablon uygulaması oluşturmak için şunları gerekir:  
 
@@ -50,7 +50,7 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
     ![Şablon uygulaması geliştirin](media/service-template-apps-create/power-bi-template-app-develop.png)
 
-5. **Kaydet**’i seçin.
+5. **Kaydet**'i seçin.
 >[!NOTE]
 >Şablon uygulamalarını tanıtmak için Power BI yöneticinizin izinleri gerekir.
 
@@ -152,7 +152,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     Yükleme başarılı olduğunda yeni uygulamanın hazır olduğuna ilişkin bir bildirim görürsünüz.
 
-6. **Uygulamaya gidin**'i seçin.
+6. **Uygulamaya git**’i seçin.
 7. **Yeni uygulamanızı kullanmaya başlayın** penceresinde uygulamanızı aynı müşterilerinizin göreceği gibi görürsünüz.
 
     ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-create/power-bi-template-app-get-started.png)

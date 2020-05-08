@@ -10,10 +10,10 @@ ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439860"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler

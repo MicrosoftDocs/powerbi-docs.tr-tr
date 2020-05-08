@@ -13,7 +13,7 @@
             - name: Tüketiciler
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
-            - name: Mobil
+            - name: Cep telefonu
               tocHref: /power-bi/consumer/mobile/
               topicHref: /power-bi/consumer/mobile/index
             - name: Geliştirici
@@ -50,7 +50,7 @@
             - name: Verilere bağlanma
               tocHref: /power-bi/connect-data/
               topicHref: /power-bi/connect-data/index
-            - name: Kullanmaya başlayın
+            - name: başlarken
               tocHref: /power-bi/fundamentals/
               topicHref: /power-bi/fundamentals/index
             - name: 'Verileri dönüştürme, şekillendirme ve modelleme'

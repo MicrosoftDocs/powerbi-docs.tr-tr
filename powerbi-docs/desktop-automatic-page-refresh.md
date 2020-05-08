@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 95ccee8e2c711c272d6114339161cbf1d1c883a9
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488534"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841699"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -212,7 +212,7 @@ Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 
 * [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)
 * [Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma](desktop-performance-analyzer.md)
-* [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](whitepaper-powerbi-premium-deployment.md)
+* [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
