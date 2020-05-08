@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496393"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
@@ -81,7 +81,7 @@ Ayrıca bir kerede bir alanda detaya gitmeyi ya da genişletmeyi seçebilirsiniz
 ### <a name="drill-down-one-field-at-a-time"></a>Aynı anda tek bir alanda detaya gitme
 
 
-1. Detaya gitme simgesini seçerek açın ![Açılmış detaya gitme açık/kapalı simgesinin ekran görüntüsü.](./media/end-user-drill/power-bi-drill-icon2.png).
+1. Detaya gitme simgesini seçerek açın ![Açılmış detaya gitme açık/kapalı simgesinin ekran görüntüsü.](./media/end-user-drill/power-bi-drill-icon2.png)dokunun.
 
     Şimdi görsel öğeyi seçerek **aynı anda tek alanda** detaya gitme seçeneği sunulur. Görsel öğesi örnekleri: çubuk, kabarcık ve yaprak.
 
