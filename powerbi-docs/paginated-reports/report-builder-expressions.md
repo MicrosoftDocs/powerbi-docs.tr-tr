@@ -9,10 +9,10 @@ ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921137"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki ifadeler
@@ -30,7 +30,7 @@ ms.locfileid: "78921137"
   
  İfadeleri el ile girmek için tasarım yüzeyinde bir öğe seçin, sonra kısayol menülerini ve iletişim kutularını kullanarak öğenin özelliklerini ayarlayın. ***(fx)*** düğmesini veya açılan listede `<Expression>` değerini gördüğünüzde, ifade için özellik ayarlayabileceğinizi anlarsınız. 
   
-##  <a name="Types"></a> Basit ve karmaşık ifadeleri anlama  
+##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Basit ve karmaşık ifadeleri anlama  
  İfadeler eşittir işaretiyle (=) başlar ve Microsoft Visual Basic'te yazılır. İfadelerde sabitlerin, işleçlerin, yerleşik değerlere (alanlar, koleksiyonlar ve işlevler) ve dış veya özel kodlara başvuruların bir bileşimi bulunabilir.  
   
  İfadeleri kullanarak birçok rapor öğesi özelliğinin değerini ayarlayabilirsiniz. En yaygın özellikler metin kutularının ve yer tutucu metinlerin değerleridir. Genellikle, metin kutusu tek bir ifade içeriyorsa bu ifade metin kutusu özelliğinin değeridir. Metin kutusu birden çok ifade içeriyorsa, her ifade metin kutusundaki yer tutucu metnin değeridir.  
@@ -50,7 +50,7 @@ ms.locfileid: "78921137"
 ![Rapor Oluşturucusu ifade örnek biçimi](media/report-builder-expressions/report-builder-expression-sample-values-format.png)  
 
 
-## <a name="DisplayText"></a> Basit ifadelerdeki ön ek sembollerini anlama  
+## <a name="understanding-prefix-symbols-in-simple-expressions"></a><a name="DisplayText"></a> Basit ifadelerdeki ön ek sembollerini anlama  
 
 Basit ifadelerde başvurunun bir alan, parametre, yerleşik koleksiyon veya ReportItems koleksiyonu olduğunu belirtmek için semboller kullanılır. Aşağıdaki tabloda görüntü ve ifade metni örnekleri gösterilir:  
   
@@ -61,7 +61,7 @@ Basit ifadelerde başvurunun bir alan, parametre, yerleşik koleksiyon veya Repo
 |Yerleşik alanlar|`[&ReportName]`|`=Globals!ReportName.Value`|  
 |Görüntü metninde kullanılan değişmez karakterler|`\[Sales\]`|`[Sales]`|  
   
-##  <a name="References"></a> Karmaşık ifadeler yazma  
+##  <a name="writing-complex-expressions"></a><a name="References"></a> Karmaşık ifadeler yazma  
  İfadelerde yerleşik koleksiyonlardaki işlevlere, işleçlere, sabitlere, alanlara, parametrelere, öğelere ve eklenmiş özel kodlara veya özel derlemelere başvurular bulunabilir.  
   
  Aşağıdaki tabloda ifadeye ekleyebileceğiniz başvuru türleri listelenir:  
@@ -74,7 +74,7 @@ Basit ifadelerde başvurunun bir alan, parametre, yerleşik koleksiyon veya Repo
 |Yerleşik Rapor ve Toplama İşlevleri|İfadeden erişebileceğiniz `Sum` veya `Previous` gibi yerleşik işlevleri açıklar.|`=Previous(Sum(Fields!Sales.Value))`|  
 |Rapor Oluşturucusu'ndaki İfadelerde Özel Kod ve Derleme Başvuruları |Bir dış derlemeden yerleşik `xref:System.Math` ve `xref:System.Convert` CLR sınıflarına, diğer CLR sınıflarına, Visual Basic çalışma zamanı kitaplık işlevlerine veya yöntemlere nasıl erişebileceğinizi açıklar.<br /><br /> Raporunuza eklenmiş olan veya derleyip hem rapor istemcisine hem de rapor sunucusuna özel derleme olarak yüklediğiniz özel koda nasıl erişebileceğinizi açıklar.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
-##  <a name="Valid"></a> Doğrulama ifadeleri  
+##  <a name="validating-expressions"></a><a name="Valid"></a> Doğrulama ifadeleri  
  Belirli bir rapor öğesi özelliği için ifade oluştururken, ifadeye ekleyebileceğiniz başvurular rapor öğesi özelliğinin kabul edebileceği değerlere ve özelliğin değerlendirildiği kapsama bağlıdır. Örnek:  
   
 -   Varsayılan olarak, [Sum] ifadesi ifadenin değerlendirildiği sırada kapsam içinde kalan verilerin toplamını hesaplar. Tablo hücresi için kapsam, satır ve sütun grubu üyeliklerine bağlıdır. 

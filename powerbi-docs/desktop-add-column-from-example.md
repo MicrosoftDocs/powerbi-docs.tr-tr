@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b10bbaa4158e6c5392cb6ed937c54bdbb5d555d2
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76538582"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop'ta örneklerden sütun ekleme

@@ -9,10 +9,10 @@ ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921505"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu'ndaki tablolar, matrisler ve listeler
@@ -28,7 +28,7 @@ ms.locfileid: "78921505"
 
 ![Rapor Oluşturucusu tablo, matris ve liste](media/report-builder-tables-matrices-lists/report-builder-table-matrix-list.png)
   
-##  <a name="Table"></a> Tablolar  
+##  <a name="tables"></a><a name="Table"></a> Tablolar  
  Ayrıntılı verileri görüntülemek, verileri satır gruplarında düzenlemek veya her ikisini de yapmak için tabloyu kullanın. Tablo şablonu bir tablo başlık satırı ve veriler için ayrıntı satırı olan üç sütundan oluşur. Aşağıdaki şekilde tasarım yüzeyinde seçilmiş ilk tablo şablonu gösterilir:  
 
 ![Tasarım yüzeyinde seçilmiş Rapor Oluşturucusu tablo şablonu](media/report-builder-tables-matrices-lists/report-builder-new-table.png)
@@ -37,7 +37,7 @@ ms.locfileid: "78921505"
   
  Başlangıçta ayrıntı verilerini veya gruplandırılmış verileri gizleyebilir ve kullanıcının ne kadar veri gösterileceğini etkileşimli olarak seçebilmesi için detaya gitme düğmeleri ekleyebilirsiniz.  
   
-##  <a name="Matrix"></a> Matrisler  
+##  <a name="matrixes"></a><a name="Matrix"></a> Matrisler  
  Toplam veri özetlerini PivotTable veya çapraz tabloya benzer biçimde satırlar ve sütunlar halinde gruplandırılmış olarak görüntülemek için matris kullanın. Gruplardaki satır ve sütunları sayısı, her satır ve sütun grubundaki benzersiz değerlerin sayısına göre belirlenir. Aşağıdaki şekilde tasarım yüzeyinde seçilmiş ilk matris şablonu gösterilir:  
 
 ![Rapor Oluşturucusu Araç Çubuğundan eklenmiş yeni matris, seçili](media/report-builder-tables-matrices-lists/report-builder-new-matrix.png)
@@ -48,24 +48,24 @@ ms.locfileid: "78921505"
   
  Başlangıçta ayrıntı verilerini gizleyen detaya gitme düğmeleri de ekleyebilirsiniz; kullanıcı iki durumlu düğmelere tıklayarak ihtiyacına göre daha çok veya daha az ayrıntı görüntüleyebilir.  
   
-##  <a name="List"></a> Listeler  
+##  <a name="lists"></a><a name="List"></a> Listeler  
  Serbest biçimli bir düzen oluşturmak için liste kullanın. Kılavuz düzeniyle sınırlı değilsiniz ama listenin içine serbestçe alanları yerleştirebilirsiniz. Birçok veri kümesi alanı görüntülemek için veya gruplandırılmış verilerde yan yana birden çok veri bölgesi görüntülemeye yönelik bir kapsayıcı olarak listeyi kullanabilirsiniz. Örneğin bir çalışan veya hasta kaydında yapabileceğiniz gibi liste için bir grup tanımlayabilir; tablo, grafik ve resim ekleyebilir; her grup değeri için değerleri tablo ve grafik biçiminde görüntüleyebilirsiniz.  
 
 ![Rapor Oluşturucusu Araç Çubuğundan eklenmiş yeni liste, seçili](media/report-builder-tables-matrices-lists/report-builder-new-list.png)
   
-##  <a name="PreparingData"></a> Verileri hazırlama  
+##  <a name="preparing-data"></a><a name="PreparingData"></a> Verileri hazırlama  
  Tablo, matris ve liste veri bölgelerinde bir veri kümesinden veriler görüntülenir. Verileri, veri kümesinin verilerini alan sorguda ya da tablo, matris veya listedeki özellikleri ayarlamak yoluyla hazırlayabilirsiniz.  
   
  Rapor veri kümelerini alırken kullandığınız Transact-SQL gibi sorgu dilleri, verilerin yalnızca bir alt kümesini içerecek şekilde filtreler uygulayarak, null veya boş değerleri raporun daha okunabilir olmasını sağlayan sabitlerle değiştirerek, verileri sıralayarak ve gruplandırarak verileri hazırlayabilir.  
   
  Verileri raporun tablo, matris veya liste veri bölgesinde hazırlamayı seçerseniz, veri bölgesinde veya veri bölgesi içindeki hücrelerde özellikleri ayarlarsınız. Verileri filtrelemek veya sıralamak isterseniz, veri bölgesinde özellikleri ayarlayın. Örneğin verileri sıralamak için sıralama ölçütü olarak kullanılacak sütunları ve sıralama yönünü belirtirsiniz. Alana alternatif bir değer sağlamak isterseniz, alanı görüntüleyen hücre metninin değerlerini ayarlarsınız. Örneğin, alan boş veya null olduğunda Boşluk görüntülemek için değeri ayarlamak üzere bir ifade kullanırsınız.  
   
-##  <a name="BuildingConfiguringTableMatrixList"></a> Tablo, matris veya listeyi oluşturma ve yapılandırma  
+##  <a name="building-and-configuring-a-table-matrix-or-list"></a><a name="BuildingConfiguringTableMatrixList"></a> Tablo, matris veya listeyi oluşturma ve yapılandırma  
  Raporunuza tablolar veya matrisler eklerken Tablo ve Matris Sihirbazı'nı kullanabilir veya bunları Rapor Oluşturucusu'nun sağladığı şablonlardan el ile oluşturabilirsiniz. Listeler liste şablonundan el ile oluşturulur.  
   
  Sihirbaz, tablo veya matrisi hızla oluşturmanız ve yapılandırmanız için size yol gösterir. Sihirbazı tamamladıktan sonra veya tablix veri bölgelerini sıfırdan oluşturuyorsanız, bunları daha fazla yapılandırabilir ve ayarlayabilirsiniz. Veri bölgelerindeki sağ tıklatma menülerinden ulaşılan iletişim kutularıyla sayfa sonları, üst bilgilerle alt bilgilerin tekrarlanabilirliği ve görünürlüğü, görüntü seçenekleri, filtreler ve sıralama için en sık kullanılan özellikler kolayca ayarlanabilir. Ama tablix veri bölgesi daha birçok ek seçenek sağlar; bunları yalnızca Rapor Oluşturucusu'nun Özellikler bölmesinde ayarlayabilirsiniz. Örneğin tablo, matris veya listenin veri kümesi boş olduğunda bir ileti görüntülenmesini istiyorsanız, Özellikler bölmesindeki NoRowsMessage tablix özelliğinde ileti metnini belirtirsiniz.  
   
-##  <a name="ChangingBetweenTablixTemplates"></a> Tablix şablonlarını değiştirme  
+##  <a name="changing-between-tablix-templates"></a><a name="ChangingBetweenTablixTemplates"></a> Tablix şablonlarını değiştirme  
  İlk tablix şablonu seçiminizle sınırlı değilsiniz. Gruplar, toplamlar ve etiketleri eklerken tablix tasarımınızı değiştirmek isteyebilirsiniz. Örneğin bir tabloyla başlayıp sonra ayrıntılar satırını silebilir ve sütun grupları ekleyebilirsiniz.  
   
  Herhangi bir tablix özelliği ekleyerek tabloyu, matrisi veya listeyi geliştirmeye devam edebilirsiniz. Tablix özellikleri satırlarda ve sütunlarda ayrıntı verilerini ve gruplandırılmış veriler için toplamları görüntülemeyi içerir. İç içe gruplar, bağımsız bitişik gruplar veya özyinelemeli gruplar oluşturabilirsiniz. Gruplandırılmış verileri filtreleyebilir, sıralayabilir ve grup tanımına birden çok grup ifadesi ekleyerek grupları kolayca birleştirebilirsiniz  

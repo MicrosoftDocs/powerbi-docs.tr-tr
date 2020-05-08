@@ -11,10 +11,10 @@ ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77576823"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar

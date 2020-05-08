@@ -11,10 +11,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
 ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496507"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme

@@ -10,10 +10,10 @@ ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78237857"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI ve Office 365'te çalışma alanınızı yönetme
@@ -71,7 +71,7 @@ Ayrıca, bir çalışma alanının farklı yönlerini doğrudan Office 365 için
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>Görüntü ekleme ve diğer çalışma alanı özelliklerini ayarlama
 
-Uygulamanızı, çalışma alanından dağıttığınızda burada eklediğiniz resim, uygulamanın resmi olur. **Yeni çalışma alanları oluşturma** makalesinin [Office 365 çalışma alanınıza görüntü ekleme](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) bölümüne bakın.
+Uygulamanızı, çalışma alanından dağıttığınızda burada eklediğiniz resim, uygulamanın resmi olur. [Yeni çalışma alanları oluşturma](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) makalesinin **Office 365 çalışma alanınıza görüntü ekleme** bölümüne bakın.
 
 1. Çalışma alanınızın Office 365 için Outlook görünümünde **Hakkında** sekmesine gidip **Düzenle**’yi seçin.
 

@@ -11,10 +11,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496534"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında uyarı ayarlama

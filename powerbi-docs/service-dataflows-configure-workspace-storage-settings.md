@@ -10,13 +10,13 @@ ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 516d3a682b669400a015aaec101c7e79c14dbb44
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76889363"
 ---
-# <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
+# <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanının veri akışı ayarlarını yapılandırma (Önizleme)
 
 Power BI ve veri akışları ile, bir çalışma alanının veri akışı tanım dosyasını ve veri dosyalarını Azure Data Lake Storage 2. Nesil hesabınızda depolayabilirsiniz. Çalışma alanı yöneticileri, Power BI’ı bunu yapacak şekilde yapılandırabilir ve bu makalede, gerekli adımlar için size yol gösterilmektedir. 
 
@@ -117,7 +117,7 @@ Veri akışları, CDM ve Azure Data Lake Storage 2. Nesil hakkında daha fazla b
 
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 * [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md)
-* [Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
+* [Veri akışı depolaması için Azure Data Lake Storage 2. Nesil'i bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 

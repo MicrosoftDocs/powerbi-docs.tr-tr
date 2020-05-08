@@ -10,17 +10,17 @@ ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
 ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76537244"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI'da veri duyarlılığı etiketlerini etkinleştirme (önizleme)
 
 Power BI’da [Microsoft Information Protection veri duyarlılığı etiketleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) etkinleştirildiğinde aşağıdaki durumlar geçerli olur:
 
-* Bir kuruluştaki belirli kullanıcılar ve güvenlik grupları, duyarlılık etiketlerini sınıflandırıp Power BI panolarına, raporlarına, veri kümelerine ve veri akışlarına (bundan böyle *varlıklar* olarak anılacak) [uygulayabilir](../designer/service-security-apply-data-sensitivity-labels.md).
+* Bir kuruluştaki belirli kullanıcılar ve güvenlik grupları, duyarlılık etiketlerini sınıflandırıp Power BI panolarına, raporlarına, veri kümelerine ve veri akışlarına (bundan böyle [varlıklar](../designer/service-security-apply-data-sensitivity-labels.md) olarak anılacak) *uygulayabilir*.
 * Kuruluşun tüm üyeleri bu etiketleri görebilir.
 
 Veri duyarlılığı etiketleri, Power BI yazarları ile tüketicilerini veri duyarlılığı konusunda bilgilendirirken sınıflandırmanın ne anlama geldiği ve bir sınıflandırmaya giren verilerin nasıl ele alınması gerektiği hakkında bilgiler sağlayarak veri korumayı destekler.
