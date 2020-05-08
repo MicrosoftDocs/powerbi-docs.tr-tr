@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
 ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525295"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop’ta raporları modellerden ayırma

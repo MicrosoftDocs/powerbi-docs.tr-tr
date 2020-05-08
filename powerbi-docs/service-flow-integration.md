@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609701"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
@@ -107,7 +107,7 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
     ![Power Automate Outlook bildirimini tetikler](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power Automate kullanmaya başlama](https://docs.microsoft.com/power-automate/getting-started/)
+* [Power Automate’i kullanmaya başlama](https://docs.microsoft.com/power-automate/getting-started/)
 * [Set data alerts in Power BI service (Power BI hizmetinde veri uyarısı oluşturma)](service-set-data-alerts.md)
 * [iPhone'unuzda veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Windows 10 için Power BI mobil uygulamasında veri uyarısı oluşturma](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

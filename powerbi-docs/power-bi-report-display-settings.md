@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762520"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Power BI raporuna sayfa görüntüleme ayarlarını uygulama

@@ -9,10 +9,10 @@ ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921160"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
@@ -37,7 +37,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 ## <a name="functions"></a>İşlevler  
  Bir raporda bulunan ifadelerin çoğu işlev içerir. Bu işlevleri kullanarak verileri biçimlendirebilir, mantık uygulayabilir ve raporun meta verilerine erişebilirsiniz. Microsoft Visual Basic çalışma zamanı kitaplığındaki işlevlerin yanı sıra `xref:System.Convert` ve `xref:System.Math` ad alanlarındaki işlevleri de kullanan ifadeler yazabilirsiniz. Özel kodda işlevlere başvurular ekleyebilirsiniz. `xref:System.Text.RegularExpressions` dahil olmak üzere Microsoft .NET Framework sınıflarını da kullanabilirsiniz.  
   
-##  <a name="VisualBasicFunctions"></a> Visual Basic işlevleri  
+##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic işlevleri  
  Metin kutularında görüntülenen veya parametreler, özellikler veya raporun diğer alanları için kullanılan verileri denetlemek için Visual Basic işlevlerini kullanabilirsiniz. Bu bölüm, bu işlevlerin bazılarını gösteren örnekleri sunar. Daha fazla bilgi için MSDN’de bulunan [Visual Basic Çalışma Zamanı Kitaplığı Üyeleri](https://go.microsoft.com/fwlink/?LinkId=198941) bölümüne göz atın.  
   
  .NET Framework birçok özel biçim seçeneği sunar (örneğin, belirli tarih biçimlerine yönelik seçenekler). Daha fazla bilgi için bkz. [Biçimlendirme Türleri](/dotnet/standard/base-types/formatting-types).  
@@ -56,7 +56,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     = Round(1.3*5)/5  
     ```  
   
-###  <a name="DateFunctions"></a> Tarih işlevleri  
+###  <a name="date-functions"></a><a name="DateFunctions"></a> Tarih işlevleri  
   
 -   **Today** işlevi geçerli tarihi sağlar. Bu ifade, tarihin raporda gösterilmesini sağlamak için bir metin kutusunda veya verileri, geçerli tarihi temel alarak filtrelemek için bir parametrede kullanılabilir.  
   
@@ -161,7 +161,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 |Bir Yıl Önce|`=DateSerial(Year(Parameters!TodaysDate.Value)-1,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
 |İki Yıl Önce|`=DateSerial(Year(Parameters!TodaysDate.Value)-2,Month(Parameters!TodaysDate.Value),Day(Parameters!TodaysDate.Value))`|  
   
-###  <a name="StringFunctions"></a> Dize işlevleri  
+###  <a name="string-functions"></a><a name="StringFunctions"></a> Dize işlevleri  
   
 -   Birleştirme işleçlerini ve Visual Basic sabitlerini kullanarak birden çok alanı birleştirin. Aşağıdaki ifade, aynı metin kutusunda bulunan fakat farklı satırlarda olan iki alanı döndürür:  
   
@@ -227,7 +227,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =Join(LookupSet(Fields!ContactID.Value, Fields!PersonID.Value, Fields!PhoneNumber.Value, "PhoneList"),",")  
     ```  
   
-###  <a name="ConversionFunctions"></a> Dönüştürme işlevleri  
+###  <a name="conversion-functions"></a><a name="ConversionFunctions"></a> Dönüştürme işlevleri  
  Bir alanı bir veri türünden farklı bir veri türüne dönüştürmek için Visual Basic işlevlerini kullanabilirsiniz. Bir alanın varsayılan veri türünü, hesaplamalar veya metin birleştirmesi için gerekli veri türüne dönüştürmek için dönüştürme işlevleri kullanılabilir.  
   
 -   Aşağıdaki ifade, bir filtre ifadesi için Değer alanındaki bir Transact-SQL para veri türüyle karşılaştırılması amacıyla 500 sabitini Ondalık türüne dönüştürür.  
@@ -242,7 +242,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =CStr(Parameters!MySelection.Count)  
     ```  
   
-###  <a name="DecisionFunctions"></a> Karar işlevleri  
+###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Karar işlevleri  
   
 -   **Iif** işlevi, ifadenin doğru olup olmadığına bağlı olarak iki değerden birini döndürür. Aşağıdaki ifade, `LineTotal` değeri 100’ü aşarsa **True** Boole değerini döndürmek için **Iif** işlevini kullanır. Aksi halde **False** döndürülür:  
   
@@ -297,10 +297,10 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
     ```  
   
-##  <a name="ReportFunctions"></a> Rapor işlevleri  
+##  <a name="report-functions"></a><a name="ReportFunctions"></a> Rapor işlevleri  
  Bir ifadede, rapordaki verileri denetleyen ek rapor işlevlerine yönelik başvuru ekleyebilirsiniz. Bu bölüm, bu işlevlerin ikisine yönelik örnekleri sunar. 
   
-###  <a name="Sum"></a> Sum  
+###  <a name="sum"></a><a name="Sum"></a> Sum  
   
 -   **Sum** işlevi, bir grup veya veri bölgesindeki değerlerin toplamını alabilir. Bu işlev bir grubun üst bilgisinde veya alt bilgisinde kullanışlı olabilir. Aşağıdaki ifade, Order grubundaki veya veri bölgesindeki verilerin toplamını gösterir:  
   
@@ -314,7 +314,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =Sum(IIF(Fields!State.Value = "Finished", 1, 0))  
     ```  
   
-###  <a name="RowNumber"></a> RowNumber  
+###  <a name="rownumber"></a><a name="RowNumber"></a> RowNumber  
   
 -   **RowNumber** işlevi, veri bölgesindeki bir metin kutusunda kullanıldığında ifadenin göründüğü her metin kutusu örneği için satır numarasını görüntüler. Bu işlev, bir tablodaki satırları numaralandırmak için kullanışlı olabilir. Bu, satır numaralarını temel alarak sayfa sonu sağlama gibi daha karmaşık görevler için de kullanışlı olabilir. Daha fazla bilgi için bu konu başlığındaki [Sayfa Sonları](#PageBreaks) bölümüne göz atın.  
   
@@ -324,10 +324,10 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =RowNumber(Nothing)  
     ```  
   
-##  <a name="AppearanceofReportData"></a> Rapor verilerinin görünümü  
+##  <a name="appearance-of-report-data"></a><a name="AppearanceofReportData"></a> Rapor verilerinin görünümü  
  Verilerin raporda nasıl göründüğünü denetlemek için ifadeleri kullanabilirsiniz. Örneğin, iki alanın değerlerini tek bir metin kutusunda görüntüleyebilirsiniz. Bunun yanı sıra, rapor hakkında verileri görüntüleyip sayfa sonlarının rapora eklenme şeklini de değiştirebilirsiniz.  
   
-###  <a name="PageHeadersandFooters"></a> Sayfa üst bilgileri ve alt bilgileri  
+###  <a name="page-headers-and-footers"></a><a name="PageHeadersandFooters"></a> Sayfa üst bilgileri ve alt bilgileri  
  Rapor tasarlarken, raporun adını ve sayfa numarasını raporun alt bilgisinde görüntülemek isteyebilirsiniz. Bunu yapmak için aşağıdaki ifadeleri kullanabilirsiniz:  
   
 -   Aşağıdaki ifade, raporun adını ve çalıştırılma zamanını sağlar. Bu, raporun alt bilgisindeki veya raporun gövdesindeki bir metin kutusuna yerleştirilebilir. Zaman, .NET Framework kısa tarih biçimlendirme dizesi ile biçimlendirilir:  
@@ -367,7 +367,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 > [!NOTE]  
 >  Sayfa üst bilgisindeki veya alt bilgisindeki her ifade başına yalnızca bir rapor öğesine başvurabilirsiniz. Ayrıca, sayfa üst bilgi veya alt bilgi ifadelerinde metin kutusu adına başvurabilirsiniz ancak metin kutusundaki gerçek veri ifadelerine başvuramazsınız.  
   
-###  <a name="PageBreaks"></a> Sayfa sonları  
+###  <a name="page-breaks"></a><a name="PageBreaks"></a> Sayfa sonları  
  Bazı raporlarda, grup veya rapor öğelerinin yerine veya bunlara ek olarak, belirtilen sayıda satırın sonuna bir sayfa sonu eklemek isteyebilirsiniz. Bunu yapmak için, istediğiniz grupları veya ayrıntı kayıtlarını içeren grubu oluşturun, gruba bir sayfa sonu ekleyin ve belirtilen satır sayısı kadar grup ifadesi ekleyin.  
   
 -   Aşağıdaki ifade bir grup ifadesine eklendiğinde 25 satırlık her kümeye bir sayı atar. Grup için bir sayfa sonu tanımlandığında, bu ifade her 25 satırda bir sayfa sonu oluşturulmasını sağlar.  
@@ -382,10 +382,10 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =Ceiling(RowNumber(Nothing)/Parameters!RowsPerPage.Value)  
     ```  
   
-##  <a name="Properties"></a> Özellikler  
+##  <a name="properties"></a><a name="Properties"></a> Özellikler  
  İfadeler, yalnızca metin kutularında verileri görüntülemek için kullanılmaz. Özelliklerin rapor öğelerine nasıl uygulandığını değiştirmek için de kullanılabilirler. Bir rapor öğesi için stil bilgisini veya bunun görünürlüğünü değiştirebilirsiniz.  
   
-###  <a name="Formatting"></a> Biçimlendirme  
+###  <a name="formatting"></a><a name="Formatting"></a> Biçimlendirme  
   
 -   Aşağıdaki ifade bir metin kutusunun Color özelliğinde kullanıldığında, `Profit` alanının değerine bağlı olarak metnin rengini değiştirir:  
   
@@ -415,7 +415,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 ### <a name="chart-colors"></a>Grafik renkleri  
  Bir Şekil grafiğinin renklerini belirtmek için, renklerin veri noktası değerlerine eşlenme sırasını denetlemek amacıyla özel kod kullanabilirsiniz. Bu, aynı kategori grubuna sahip olan birden çok grafik için tutarlı renkleri kullanmanıza yardımcı olur. 
   
-###  <a name="Visibility"></a> Görünürlük  
+###  <a name="visibility"></a><a name="Visibility"></a> Görünürlük  
  Rapor öğesinin görünürlük özelliklerini kullanarak bir rapordaki öğeleri gösterebilir veya gizleyebilirsiniz. Tablo gibi bir veri bölgesinde, ifadedeki değeri temel alarak başlangıçta ayrıntı satırlarını gizleyebilirsiniz.  
   
 -   Aşağıdaki ifade bir gruptaki ayrıntı satırlarının başlangıç görünürlüğü için kullanıldığında `PctQuota` alanında yüzde 90’ı geçen tüm satışlar için ayrıntı satırlarını gösterir:  
@@ -436,7 +436,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(Fields!Column_1.IsMissing, true, false)  
     ```  
   
-###  <a name="Hyperlinks"></a> URL'ler  
+###  <a name="urls"></a><a name="Hyperlinks"></a> URL'ler  
  Rapor verilerini kullanarak URL’leri özelleştirebilir ve URL’lerin bir metin kutusu için bir eylem olarak eklenip eklenmediğini koşullu olarak denetleyebilirsiniz.  
   
 -   Aşağıdaki ifade, bir metin kutusunda eylem olarak kullanıldığında, bir URL parametresi olarak `EmployeeID` veri kümesi alanını belirten özelleştirilmiş bir URL oluşturur.  
@@ -451,10 +451,10 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
-##  <a name="ReportData"></a> Rapor verileri  
+##  <a name="report-data"></a><a name="ReportData"></a> Rapor verileri  
  Raporda kullanılan verileri denetlemek için ifadeler kullanılabilir. Parametrelere ve diğer rapor bilgilerine başvurabilirsiniz. Rapora yönelik verileri almak için kullanılan sorguyu bile değiştirebilirsiniz.  
   
-###  <a name="Parameters"></a> Parametreler  
+###  <a name="parameters"></a><a name="Parameters"></a> Parametreler  
  Parametre için varsayılan değeri değiştirmek amacıyla ifadeleri bir parametrede kullanabilirsiniz. Örneğin, raporu çalıştırmak için kullanılan kullanıcı kimliğini temel alarak verileri belirli bir kullanıcının erişebileceği şekilde filtrelemek için bir parametre kullanabilirsiniz.  
   
 -   Aşağıdaki ifade, bir parametre için varsayılan değer olarak kullanıldığında raporu çalıştıran kişinin kullanıcı kimliğini toplar:  
@@ -475,7 +475,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =Fields(Parameters!ParameterField.Value).Value  
     ```  
   
-##  <a name="CustomCode"></a> Özel kod  
+##  <a name="custom-code"></a><a name="CustomCode"></a> Özel kod  
  Bir raporda katıştırılmış özel kod kullanabilirsiniz. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Özel toplama için grup değişkenlerini kullanma  

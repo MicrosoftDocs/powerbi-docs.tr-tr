@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78260727"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda sayfalandırılmış rapor veri kaynakları

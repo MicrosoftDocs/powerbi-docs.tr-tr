@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 82005eb448164b863811ab78a8f76ed954da60a2
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114549"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>"Android System Webview'un güncelleştirilmesi gerekiyor" hatasının düzeltilmesi
@@ -30,5 +30,5 @@ Görünüşe göre Chrome uygulamanızı yükseltmeniz gerekiyor.
 ## <a name="next-steps"></a>Sonraki adımlar
 * Android uygulama mağazasından [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867).
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

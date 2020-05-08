@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761169"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Görsellerdeki dalgalanmaları açıklamak için Power BI Desktop'ta içgörüleri uygulama (önizleme)
@@ -131,7 +131,7 @@ Ayrıca aşağıdaki model türleri ve veri kaynakları da öngörüler için de
 
 * [Power BI Desktop nedir?](desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](desktop-query-overview.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](desktop-connect-to-data.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](desktop-common-query-tasks.md)   
