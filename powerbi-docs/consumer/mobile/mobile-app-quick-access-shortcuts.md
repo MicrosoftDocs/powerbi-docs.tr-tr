@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802790"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Power BI Android uygulamasında Android uygulama kısayollarını kullanma
