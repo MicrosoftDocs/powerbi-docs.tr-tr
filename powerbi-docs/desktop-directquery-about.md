@@ -10,10 +10,10 @@ ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0f2d6bae607383eb8934b3f395add540c6754690
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006722"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında

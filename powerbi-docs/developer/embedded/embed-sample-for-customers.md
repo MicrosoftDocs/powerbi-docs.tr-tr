@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
 ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403821"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme

@@ -10,10 +10,10 @@ ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75925731"
 ---
 # <a name="dashboard-data-classification"></a>Pano veri sınıflandırması
@@ -62,7 +62,7 @@ Veri sınıflandırma, kuruluşunuzun genel yöneticisi tarafından ayarlanır. 
 1. Ayarlar dişli simgesini ve ardından **Yönetici portalı**'nı seçin.
    
     ![](media/service-data-classification/admin_portal_in_settings.png)
-2. **Kiracı ayarları** sekmesindeki **Panolar ve raporlar için veri sınıflandırma** ayarını *Açık* olarak değiştirin.
+2. **Kiracı ayarları** sekmesindeki *Panolar ve raporlar için veri sınıflandırma* ayarını **Açık** olarak değiştirin.
    
     ![](media/service-data-classification/data_classification_switch_location.png)
 

@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006515"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI’da yeniden boyutlandırabileceğiniz, yanıt veren bir dilimleyici oluşturma
@@ -28,7 +28,7 @@ Hızlı yanıt veren dilimleyiciler, yeniden boyutlandırılarak raporunuzdaki h
 
 Dinamik dilimleyici oluşturmanın ilk adımı basit bir dilimleyici oluşturmaktır. 
 
-1. **Görsel Öğeler** bölmesinde **Dilimleyici** simgesini ![Dilimleyici simgesi](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) seçin.
+1. **Görsel Öğeler** bölmesinde ![Dilimleyici](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) simgesini **Dilimleyici simgesi** seçin.
 2. Filtre uygulamak istediğiniz alanı **Alan** seçeneğine sürükleyin.
 
     ![Dilimleyiciye alan ekleme](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)

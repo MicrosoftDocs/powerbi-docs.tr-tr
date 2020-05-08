@@ -10,10 +10,10 @@ ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273283"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar

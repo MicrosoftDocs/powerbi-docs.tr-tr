@@ -14,17 +14,17 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487800"
 highlightedContent:
   items:
   - title: Power BI ile tümleşik analiz
     itemType: overview
     url: embedded/embedding.md
-  - title: Azure'da Power BI Embedded nedir?
+  - title: Azure’da Power BI Embedded nedir?
     itemType: overview
     url: embedded/azure-pbie-what-is-power-bi-embedded.md
   - title: Power BI’daki görseller
@@ -42,13 +42,13 @@ conceptualContent:
       text: Power BI ile tümleşik analiz
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
-      text: Azure'da Power BI Embedded nedir?
+      text: Azure’da Power BI Embedded nedir?
     - url: embedded/embedded-capacity.md
       itemType: concept
       text: Kapasite ve SKU’lar
     footerLink:
       url: embedded/index.yml
-      text: Daha fazlasını göster
+      text: Daha fazla göster
   - title: Power BI görselleri
     links:
     - url: visuals/power-bi-custom-visuals.md
@@ -62,7 +62,7 @@ conceptualContent:
       text: Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
     footerLink:
       url: visuals/index.yml
-      text: Daha fazlasını göster
+      text: Daha fazla göster
   - title: Otomasyon
     links:
     - url: automation/overview-of-power-bi-rest-api.md
@@ -76,7 +76,7 @@ conceptualContent:
       text: Kimlik bilgilerini yapılandırma
     footerLink:
       url: automation/index.yml
-      text: Daha fazlasını göster
+      text: Daha fazla göster
 additionalContent:
   sections:
   - title: İlgili araçlar

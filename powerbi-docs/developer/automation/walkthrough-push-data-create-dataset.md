@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
 ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80403630"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3\. Adım: Power BI'da veri kümesi oluşturma
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
-Bir veri kümesine veri gönderme kılavuzunun [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) başlıklı **2. Adım**'ında, **Azure AD**'de kimlik doğrulaması gerçekleştirmek için bir belirteç alırsınız. Bu adımda, [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırmak için belirteci kullanırsınız.
+Bir veri kümesine veri gönderme kılavuzunun **Kimlik doğrulaması erişim belirteci alma** başlıklı [2. Adım](walkthrough-push-data-get-token.md)'ında, **Azure AD**'de kimlik doğrulaması gerçekleştirmek için bir belirteç alırsınız. Bu adımda, [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırmak için belirteci kullanırsınız.
 
 Bir REST kaynağına çağrı yapmak için, kaynağın yerini belirleyen bir URL kullanır ve Power BI hizmeti kaynağına, veri kümesini tanımlayan bir JavaScript Nesne Gösterimi (JSON) dizesi gönderirsiniz. Power BI hizmetinin kullanmak istediğiniz bölümü bir REST kaynağı tarafından tanımlanır. Veri kümesine veri gönderme işlemi için hedef kaynak bir **Veri Kümesidir**. Bir veri kümesini tanımlayan URL `https://api.PowerBI.com/v1.0/myorg/datasets`. Bir grup içindeki verileri gönderiyorsanız URL `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`.
 
@@ -233,7 +233,7 @@ namespace walkthrough_push_data
 [PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

@@ -62,7 +62,7 @@
             - name: Doğal dil Soru-Cevap
               items:
                 - name: Soru-Cevap’a giriş
-                  href: ../natural-language/q-and-a-tooling-intro.md
+                  href: ../natural-language/q-and-a-intro.md
                 - name: Soru-Cevap araçlarına giriş
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Soru-Cevap araçları gelişmiş
@@ -99,6 +99,14 @@
               href: ../paginated-reports/report-builder-previewing-reports.md
             - name: Sayfalandırılmış raporlar hakkında SSS
               href: ../paginated-reports/paginated-reports-faq.md
+        - name: Dağıtım işlem hatları
+          items:
+            - name: Dağıtım işlem hatlarına giriş
+              href: deployment-pipelines-overview.md
+            - name: Dağıtım işlemini anlama
+              href: deployment-pipelines-process.md
+            - name: En iyi yöntemler
+              href: deployment-pipelines-best-practices.md
     - name: Nasıl yapılır kılavuzları
       items:
         - name: Power BI raporları
@@ -121,22 +129,20 @@
               href: ../desktop-buttons.md
             - name: Detaylandırma düğmeleri oluşturma
               href: ../desktop-drill-through-buttons.md
+            - name: Detaylandırma özelliğini kullanma
+              href: ../desktop-drillthrough.md
+            - name: Raporlar arası detaylandırma özelliğini kullanma
+              href: ../desktop-cross-report-drill-through.md
             - name: İçgörüleri kaydetmek ve paylaşmak için yer işaretleri oluşturma
               href: ../desktop-bookmarks.md
             - name: Rapor temaları ile çalışma
               href: ../desktop-report-themes.md
             - name: Raporlardaki filtrelerle çalışma
               href: ../power-bi-report-filter.md
-            - name: Detaylandırma özelliğini kullanma
-              href: ../desktop-drillthrough.md
-            - name: Raporlar arası detaylandırma özelliğini kullanma
-              href: ../desktop-cross-report-drill-through.md
+            - name: Rapora filtre ekleme
+              href: ../power-bi-report-add-filter.md
             - name: Gruplandırma ve gruplamayı uygulama
               href: ../desktop-grouping-and-binning.md
-            - name: R ile Power BI görselleri oluşturma
-              href: ../desktop-r-visuals.md
-            - name: R destekli Power BI görsellerini indirme ve kullanma
-              href: ../desktop-r-powered-custom-visuals.md
             - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini uygulama
               href: ../desktop-gridlines-snap-to-grid.md
             - name: Raporlara sayfa görüntüleme ayarlarını uygulama
@@ -153,6 +159,8 @@
               href: ../desktop-slicer-numeric-range.md
             - name: Göreli tarih dilimleyicileri ve filtreleri
               href: ../visuals/desktop-slicer-filter-date-range.md
+            - name: Göreli saat dilimleyicileri ve filtreleri
+              href: slicer-filter-relative-time.md
             - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
               href: ../power-bi-slicer-filter-responsive.md
             - name: Dilimleyiciye birden çok alan ekleme
@@ -189,8 +197,6 @@
               href: ../desktop-templates.md
             - name: Bir veri kümesinden rapor oluşturma
               href: ../service-report-create-new.md
-            - name: Rapora filtre ekleme
-              href: ../power-bi-report-add-filter.md
             - name: Raporu kaydetme
               href: ../service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
@@ -201,6 +207,8 @@
               href: ../service-aggregates.md
             - name: Rapor için QR kodu oluşturma
               href: ../service-create-qr-code-for-report.md
+            - name: Tüketicilerin görselleri özelleştirmesine izin verme (Önizleme)
+              href: power-bi-personalize-visuals.md
             - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
               href: ../service-export-to-pbix.md
             - name: Veri kümelerini ve raporları yayımlama
@@ -267,6 +275,10 @@
               href: ../visuals/power-bi-visualization-powerapp.md
             - name: R görselleri
               href: ../visuals/service-r-visuals.md
+            - name: R ile Power BI görselleri oluşturma
+              href: ../desktop-r-visuals.md
+            - name: R destekli Power BI görsellerini indirme ve kullanma
+              href: ../desktop-r-powered-custom-visuals.md
             - name: Radyal ölçer grafikleri
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Şerit grafikler
@@ -371,6 +383,12 @@
               href: ../service-data-classification.md
             - name: Pano temaları
               href: ../service-dashboard-themes.md
+        - name: Dağıtım işlem hatları
+          items:
+            - name: Kullanmaya başlayın
+              href: deployment-pipelines-get-started.md
+            - name: Sorun giderme
+              href: deployment-pipelines-troubleshooting.md
         - name: Diğer görevler
           items:
             - name: İçeriği yeniden adlandırma

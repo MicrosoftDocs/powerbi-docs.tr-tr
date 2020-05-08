@@ -10,10 +10,10 @@ ms.date: 04/24/2020
 ms.author: mihart
 LocalizationGroup: Administration
 ms.openlocfilehash: 667c20c0e904ca9a91aed3c0566f722e54336a9f
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82256188"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma

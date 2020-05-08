@@ -10,10 +10,10 @@ ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
 ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979880"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma

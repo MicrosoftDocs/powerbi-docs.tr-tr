@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 05/01/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 40bbec8a6a28def6cde9128b51c8919fd4f493de
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 7f1815adeb83e68ea42d68b084752068c210e484
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120376"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781375"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 

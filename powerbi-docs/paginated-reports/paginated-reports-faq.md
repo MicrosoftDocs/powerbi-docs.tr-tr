@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
 ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82584998"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 

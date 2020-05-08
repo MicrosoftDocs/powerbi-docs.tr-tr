@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267857"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Veri kümesi ve veri akışı onaylamasını ayarlama (önizleme)
@@ -35,7 +35,7 @@ Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *o
    ![Veri kümesi ve veri akışı sertifikası ayarlama](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. İki durumlu düğmeyi **Etkinleştirildi** olarak ayarlayın.
-1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL [veri akışı onay ayarları iletişim kutusunun](../service-datasets-promote.md#request-dataset-certification) onaylama bölümünde **Daha fazla bilgi edinin** bağlantısına dönüşür. 
+1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL **veri akışı onay ayarları iletişim kutusunun** onaylama bölümünde [Daha fazla bilgi edinin](../service-datasets-promote.md#request-dataset-certification) bağlantısına dönüşür. 
 1. Veri kümelerini ve veri akışlarını onaylama yetkisi olacak kullanıcıları ve grupları belirtin. Bu yetkili onaylayıcılar [veri kümesi](../service-datasets-promote.md#request-dataset-certification) veya [veri akışı](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) onay ayarları iletişim kutusunun onaylama bölümündeki Onaylama düğmesini kullanabilir.
 1. **Uygula**'ya tıklayın.
 
@@ -44,4 +44,4 @@ Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *o
 * [Veri kümelerini onaylama](../service-datasets-certify.md)
 * [Veri akışlarını yükseltme](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Veri akışlarını onaylama](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

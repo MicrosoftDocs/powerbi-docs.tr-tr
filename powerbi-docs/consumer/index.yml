@@ -2,7 +2,7 @@
 title: Tüketiciler için Power BI belgeleri
 summary: Tüketici olarak, iş arkadaşlarınızdan pano ve raporlar alırsınız. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşim kurmak için Power BI’da çalışırsınız.
 metadata:
-  title: Kullanıcılar için Power BI
+  title: Tüketiciler için Power BI
   description: Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI hizmetinin özelliklerini ve yeteneklerini öğrenin; Power BI tüketicisi veya son kullanıcısı olarak bunlarla ne yapabileceğinizi görün.
   ms.service: powerbi
   ms.subservice: powerbi-consumer
@@ -11,10 +11,10 @@ metadata:
   ms.author: mihart
   ms.date: 03/22/2020
   ms.openlocfilehash: 46a4e6af0f1f843b5b6e9ad22f845f073a48e804
-  ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 03/26/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80302314"
 landingContent:
 - title: Tüketiciler için Power BI hakkında
@@ -27,7 +27,7 @@ landingContent:
       url: end-user-reading-view.md
     - text: Kavramları ve içeriği gözden geçirin
       url: end-user-basic-concepts.md
-- title: Kullanmaya başlayın
+- title: başlarken
   linkLists:
   - linkListType: get-started
     links:
@@ -71,7 +71,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Benimle paylaşılan
+    - text: Benimle paylaşılıyor mu?
       url: end-user-shared-with-me.md
     - text: PowerPoint’e rapor yayımlama
       url: end-user-powerpoint.md
