@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 04/23/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 951a05247a02e379c56c45176edb622e683af413
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 401cc419401756c9576ce6efc25a34b7aa667024
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207747"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781594"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
-Bu makale, Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen dilleri ve ülkeleri/bölgeleri listeler.
+Bu makale Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen dilleri ve ülkeleri/bölgeleri kapsar.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Power BI'ın kullanılabildiği ülkeler ve bölgeler
 Power BI'ın kullanılabildiği ülkelerin ve bölgelerin bir listesi için [uluslararası kullanılabilirlik listesine](https://products.office.com/business/international-availability) göz atın. 
@@ -72,7 +72,7 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Vietnamca - Tiếng Việt
 
 ### <a name="whats-translated"></a>Neler çevrilir?
-Power BI, menüleri, düğmeleri, iletileri ve deneyimin diğer öğelerini dilinize çevirir. Otomatik olarak oluşturulan başlıklar, filtreler ve araç ipuçları gibi rapor içerikleri çevrilir ancak verileriniz otomatik olarak çevrilmez. İbranice gibi sağdan sola düzende yazılan bir dili kullanıyorsanız raporların içindeki görsellerin yerleşimi değişmez.
+Power BI, menüleri, düğmeleri, iletileri ve deneyimin diğer öğelerini dilinize çevirir. Örneğin Power BI otomatik olarak oluşturulan başlıklar, filtreler ve araç ipuçları gibi rapor içeriğini çevirir. Öte yandan verileriniz otomatik olarak çevrilmez. İbranice gibi sağdan sola düzende yazılan bir dili kullanıyorsanız raporların içindeki görsellerin yerleşimi değişmez.
 
 Şu anda birkaç özellik yalnızca İngilizce dilinde kullanıma sunulmaktadır:
 
@@ -118,7 +118,7 @@ Power BI, bilgisayarınızdaki dil tercihlerine göre dilinizi algılar. Bu terc
 Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak indirebilir veya Microsoft Store’dan yükleyebilirsiniz.
 
 * Power BI Desktop’ı Windows Mağazası’ndan yükleyecekseniz tüm diller yüklenir ve varsayılan olarak Windows işletim sisteminizdeki varsayılan dile karşılık gelen dil gösterilir.
-* Power BI Desktop’ı tek başına yükleyici olarak indirdiğinizde, yükleyiciyi çalıştırırken varsayılan dili seçip daha sonraki bir tarihte değiştirebilirsiniz.
+* Power BI Desktop’ı tek başına yükleyici olarak indirdiğinizde, yükleyiciyi çalıştırırken varsayılan dili seçerseniz. Sonraki bir tarihte bu dili değiştirebilirsiniz.
 * Belirli bir rapor için [veriler içeri aktarılırken kullanılacak bir yerel ayar](#choose-the-locale-for-importing-data-into-power-bi-desktop) da seçebilirsiniz.
 
 > [!NOTE]
@@ -126,11 +126,12 @@ Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop için dil seçme 
 1. Power BI Desktop’ı [Microsoft Store](https://aka.ms/pbidesktopstore)’dan veya [tek başına yükleyici](https://aka.ms/pbiSingleInstaller) olarak yükleyin.
-2. Dili değiştirmek için bilgisayarınızda **Windows Ayarları** ifadesini arayın. 
-3. **Zaman ve dil**'i seçin.
+2. Dili değiştirmek için Windows menüsünde **Ayarlar**’ı seçin
+
+3. **Windows Ayarları**’nda **Zaman ve dil**’i seçin.
    
      ![Windows ayarları iletişim kutusu](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. **Bölge ve dil**'i seçin, bir dil belirleyin ve ardından **Varsayılan olarak ayarla**'yı seçin.
+4. **Dil**’i seçin ve bir dil belirtin. Gerekirse **Microsoft Store’da Windows görüntüleme dili ekle**’yi seçin.
    
      ![Windows dil ayarları iletişim kutusu](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
@@ -143,8 +144,30 @@ Varsayılan ayarı geçersiz kılıp Power BI Desktop’ı Windows dilinizden fa
 
 Power BI Desktop’ın dil desteği Uygulama Dili açılan listesinde gösterilen dillerle sınırlıdır.
 
+### <a name="verify-power-bi-desktop-default-number-and-date-formatting"></a>Power BI Desktop varsayılan sayı ve tarih biçimini doğrulama
+
+Power BI Desktop varsayılan sayı ve tarih biçimlendirmesini Windows Bölge ayarlarından alır. Gerekirse bu ayarları denetleyebilir veya değiştirebilirsiniz.
+
+1. Windows menüsünde **Ayarlar**’ı seçin
+
+2. **Windows Ayarları**’nda **Zaman ve dil**’i seçin.
+   
+     ![Windows ayarları iletişim kutusu](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
+
+3. **Bölge** > **Ek tarih, saat ve bölgesel ayarlar**’ı seçin.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Ek tarih, saat ve bölgesel ayarlar":::
+
+4. **Saat ve Bölge** bölümünde **Tarih, saat veya sayı biçimlerini değiştir**’i seçin.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="Saat ve bölge ayarları":::
+
+5. **Windows görüntüleme dilini eşleştir**’in seçili olduğundan emin olun veya gerekirse bunu değiştirin.
+
+    :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="Windows görüntüleme dilini eşleştir":::
+
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop'a veri aktarılırken kullanılacak yerel ayarı seçme
-Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş olmanız fark etmeksizin belirli bir rapor için Power BI Desktop sürümünüzdekinden farklı bir yerel ayar seçebilirsiniz. Yerel ayar, veri kaynağınızdan aktarılan verilerin yorumlanma biçimini değiştirir. Örneğin, "3/4/2017" tarihi 3 Nisan veya 4 Mart olarak yorumlanabilir. 
+Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş olmanız fark etmeksizin belirli bir rapor için Power BI Desktop sürümünüzdekinden farklı bir yerel ayar seçebilirsiniz. Yerel ayar Power BI’ın veri kaynağınızdan içeri aktarılan verileri yorumlama şeklini değiştirir. Örneğin "3/4/2017" tarihi 3 Nisan olarak mı yoksa 4 Mart olarak mı yorumlanacak?
 
 1. Power BI Desktop'ta **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler** bölümüne gidin.
 2. **Geçerli dosya** bölümünde **Bölgesel Ayarlar**'ı seçin.
@@ -158,7 +181,7 @@ Power BI Desktop'ı indirerek veya Windows Mağazası'ndan yükleyerek edinmiş 
 Power BI Desktop uygulamasının dilini ayarlamanın yanı sıra model dilini de ayarlayabilirsiniz. Model dili temelde iki öğeyi etkiler:
 
 - Dizeleri karşılaştırma ve sıralama yöntemi. Örneğin, Türkçe iki farklı i harfine sahip olduğu için veritabanınızın harmanlama özelliğine göre sıralama sırasında bu iki harf farklı sıralarda yer alabilir. 
-- Power BI Desktop uygulamasının tarih alanlarından gizli tarih tablosu oluştururken kullandığı dil. Örneğin alanların adı Month/Monat/Mois/Ay vs. olabilir.
+- Power BI Desktop uygulamasının tarih alanlarından gizli tarih tablosu oluştururken kullandığı dil. Örneğin alanların adı Month/Monat/Mois/Ay gibi olabilir.
 
 > [!NOTE]
 > Power BI modeli şu anda büyük/küçük harfe duyarlı (veya kana duyarlı) olmayan bir yerel ayar kullandığı için “ABC” ile “abc” eşdeğer kabul edilir. Veri kümesine ilk olarak “ABC” yüklenirse, yalnızca büyük harf bakımından farklılık gösteren “Abc” gibi diğer dizeler ayrı bir değer olarak yüklenmez.

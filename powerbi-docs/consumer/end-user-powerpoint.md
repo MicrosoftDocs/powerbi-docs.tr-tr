@@ -3,18 +3,19 @@ title: Raporları Power BI'dan PowerPoint'e aktarma
 description: Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğrenin.
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f9e0288c91f65d10329aaac29df8eb6e7a81f297
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377179"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841146"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Raporları Power BI'dan PowerPoint'e aktarma
 
@@ -22,7 +23,9 @@ ms.locfileid: "79377179"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI ile raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. PowerPoint’e aktardığınızda aşağıdakiler gerçekleşir:
+![Power BI logosunu ve PowerPoint logosunu gösteren resim](media/end-user-powerpoint/logos.png)
+
+Power BI hizmetiyle (app.powerbi.com) raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. PowerPoint’e aktardığınızda aşağıdakiler gerçekleşir:
 
 * Power BI raporundaki her sayfa, PowerPoint’te tek bir slayt olur.
 * Power BI raporundaki her sayfa, PowerPoint’te yüksek çözünürlüklü tek bir görüntü olarak dışarı aktarılır.
@@ -30,6 +33,10 @@ Power BI ile raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI ra
 * PowerPoint’te Power BI raporuna bağlanan bir bağlantı oluşturulur.
 
 **Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
+
+Ayrıca belirli görselleri Power BI hizmetinden kopyalayabilir ve PowerPoint’e yapıştırabilirsiniz. **Resim olarak kopyala** simgesini seçerek görseli panonuza kopyalayın. Ardından PowerPoint’i açın ve görseli yapıştırın.
+
+![Resim olarak kopyala simgesini seçme](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI raporunuzu PowerPoint’e aktarma
 **Power BI hizmetinde**, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş**'ten, **Uygulamalar**’dan veya gezinti bölmesindeki başka bir kapsayıcıdan bir rapor seçebilirsiniz.
@@ -77,12 +84,13 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
 
-* R ve Python görselleri şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
+
+* Raporu PowerPoint’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
 * Sertifikalanmış Power BI görselleri desteklenir. Bir özel görseli nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı özel görseller hakkında daha fazla bilgi için bkz. [Özel görselleri sertifikalatma](../developer/power-bi-custom-visuals-certified.md). Sertifikalanmamış özel görseller desteklenmez. Bu tür görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
-* ESRI görseli desteklenmez
+* Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde URL filtreleri dikkate alınmaz.
+* [ESRI ArcGIS görseli](../visuals/power-bi-visualizations-arcgis.md) desteklenmiyor
 * 30'dan fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
 * Kaydırma çubukları olan görseller varsayılan durumlarında dışarı aktarılır. Görsel PowerPoint'te verilerin yalnızca üst bölümünü gösterir. PowerPoint'te her slayt bir resim olduğundan kaydırma kullanılamaz. 
-* Raporu PowerPoint’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
 * Power BI hizmetinde **PowerPoint’e Aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla kiracı yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için kiracı yöneticinizle iletişime geçin.
 * Arka plan görüntüleri grafiğin sınırlayıcı alanına göre kırpılır. Raporu PowerPoint’e aktarmadan önce arka plan görüntülerini kaldırmanızı öneririz.
 * PowerPoint sayfaları, Power BI raporundaki özgün sayfa büyüklüklerinden veya boyutlarından bağımsız olarak her zaman standart 9:16 boyutunda oluşturulur.
@@ -93,7 +101,10 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 * Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
 * Dışa aktarılan PowerPoint dosyasının kapak slaydında görünen **İndirme saati**, bilgisayarınızın saat diliminde dışa aktarma işleminin saatine ayarlanır.
 * PPTX'e dışarı aktarırken, özel yazı tipleri bulunan temaların kullanıldığı raporlarda özel yazı tipleri yerine varsayılan yazı tipleri kullanılır.
-* Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde URL filtreleri dikkate alınmaz.
+* R ve Python kullanılarak oluşturulmuş olan görseller şu anda desteklenmemektedir. Bu türdeki tüm görseller, görselin desteklenmediğini belirten bir hata iletisi ile birlikte PowerPoint’e boş bir görüntü olarak aktarılır.
+
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
+[Görselleri statik resim olarak kopyalama](../power-bi-visualization-copy-paste.md)    
 [Rapor yazdırma](end-user-print.md)

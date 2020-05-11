@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302536"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613706"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
 
@@ -231,7 +231,20 @@ Veri kaynaklarına bağlanılıp veriler sorgulanırken Power BI Desktop, satır
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Canlı bağlanma modunda Power BI Desktop
 
-Power BI Desktop bir Power BI Premium veri kümesine, Azure Analysis Services veya SQL Server Analysis Services’a dağıtılan bir model veritabanıymış gibi bağlanabilir. Bu durumda Power BI Desktop, XMLA uç noktasını kullanır. Ancak bunun yerine, Power BI Desktop kullanıcılarının Power BI veri kümeleri için özel olarak oluşturulan Canlı bağlanma özelliğini kullanması önerilir. Veri kümelerinin onay cümlelerini gösteren Canlı bağlanmayı kullanarak iyileştirilmiş bir bulma deneyimi elde edersiniz. Kullanıcıların da çalışma alanı URL’lerinin kaydını tutması gerekmez, veri kümesinin adını yazmaları yeterli olur. Daha fazla bilgi için bkz. [Power BI hizmetindeki veri kümelerine Power BI Desktop’tan bağlanma](desktop-report-lifecycle-datasets.md).
+Power BI Desktop canlı bağlantı kullanarak bir Power BI Premium veri kümesine bağlanabilir. Canlı bağlantı kullanıldığında verilerin yerel olarak çoğaltılması gerekmez ve bu da kullanıcılar açısından anlamsal modellerin kullanımını kolaylaştırır. Kullanıcılar iki yolla bağlanabilir:
+
+**Power BI veri kümeleri**’ni ve sonra da rapor oluşturmak için bir veri kümesini seçerek. Kullanıcıların veri kümelerine canlı bağlantı kurması için **önerilen** yöntem budur. Bu yöntem veri kümelerinin onay düzeyini gösteren gelmiş bir bulma deneyimi sağlar. Kullanıcıların çalışma alanı URL’lerini bulması ve bunların kaydını tutması gerekmez. Kullanıcıların veri kümesini bulmak için veri kümesi adını yazması veya aradıkları veri kümesini bulana kadar listeyi kaydırması yeterli olur.
+
+![Veri kümesine canlı bağlantı kurma](media/service-premium-connect-tools/dataset-live-connect.png)
+
+Kullanıcıların bağlanmak için kullanabilecekleri diğer yol **Veri Al** > **Analysis Services**’i seçmek, URL olarak bir Power BI Premium çalışma alanı adı belirtmek, **Canlı bağlan**’ı seçmek ve sonra da Gezgin’de bir veri kümesi belirtmektir. Bu durumda Power BI Desktop veri kümesine canlı bağlanmak için bir Analysis Services veri modeliymiş gibi XMLA uç noktasını kullanır. 
+
+![Analysis Services veri kümesine canlı bağlanma](media/service-premium-connect-tools/as-live-connect.png)
+
+Analysis Services veri modellerine canlı bağlantılı raporları olan ve Power BI premium veri kümelerine geçmek isteyen kuruluşların **Verileri dönüştür** > **Veri kaynağı ayarları**’nda sunucu adı URL’sini değiştirmeleri yeterli olur.
+
+> [!NOTE]
+> XMLA okuma-yazma genel önizlemesi sırasında Power BI Desktop’la **Veri Al** > **Analysis Services**’i kullanıp **Canlı bağlan** seçeneğini belirterek Power BI Premium veri kümesine bağlanırken, raporu Power BI hizmetinde yayımlamak henüz desteklenmiyor.
 
 ## <a name="audit-logs"></a>Denetim günlükleri
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273260"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781490"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -156,7 +156,9 @@ V3 ile V4 arasında başka farklılıklar da vardır. OData V3'te Dates desteği
 
 ## <a name="special-characters-in-url-filters"></a>URL filtrelerindeki özel karakterler
 
-Özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X ( **_x**) ile başlayan, ardından dört haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode dört karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
+### <a name="special-characters-in-table-and-column-names"></a>Tablo ve sütun adlarındaki özel karakterler
+
+Tablo ve sütun adlarında özel karakter ve boşluk kullanımı için gerçekleştirilmesi gereken ek biçimlendirme adımları vardır. Sorgunuz; boşluklar, tireler veya ASCII olmayan başka karakterler içerdiğinde, o özel karakterlere önek olarak bir alt çizgi ve bir X ( **_x**) ile başlayan, ardından dört haneli **Unicode** ve başka bir alt çizgi ile devam eden bir *kaçış kodu* verin. Unicode dört karakterden kısaysa sıfırlarla ile tamamlamanız gerekir. Aşağıda bazı örnekler verilmiştir.
 
 |Tanımlayıcı  |Unicode  | Power BI için kodlama  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![özel karakterler içeren tablo görse
 
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="special-characters-in-values"></a>Değerlerdeki özel karakterler
+
+URL filtreleri zaten alan değerlerinde tek tırnak işareti (') dışında tüm özel karakterleri destekler. Kaçış uygulamanız gereken tek karakter budur. Tek tırnak karakterini aramak için iki tane tek tırnak işareti ('') kullanın. 
+
+Örnek:
+
+- `?filter=Table/Name eq 'O''Brien'` şöyle olur: 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="Ad O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'` şöyle olur:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee'nin Zirvesi":::
+
+- `in` işleci şu kaçışı da destekler: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` şöyle olur:
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee'nin Zirvesi veya O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX kullanarak birden fazla değerde filtreleme
 

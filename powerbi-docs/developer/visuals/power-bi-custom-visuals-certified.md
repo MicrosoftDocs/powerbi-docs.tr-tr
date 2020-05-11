@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113912"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613546"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -82,8 +82,6 @@ Power BI görselini yazmak için en son [powerbi-visuals-tools](https://www.npmj
 
 Power BI görselinizi `pbiviz package` ile derlemelisiniz. Kendi derleme betiklerinizi kullanıyorsanız bir `npm run package` özel derleme komutu sağlayın.
 
-
-
 ### <a name="source-code-requirements"></a>Kaynak kod gereksinimleri
 
 [Power BI görselleri ek sertifikasyonu](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) ilke listesine uyduğunuzu doğrulayın. Gönderiminiz bu yönergelere uymuyorsa, İş Ortağı Merkezi’nden gelen reddetme e-postası bu bağlantıda listelenen ilke numaralarını içerir.
@@ -150,6 +148,25 @@ Power BI görseli sertifikalı olunca, sertifikalı olduğunu göstermek için b
     ![Power BI arabirimi sertifikalı Power BI görseli](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * *Power BI Sertifikalı* filtre seçeneğini kullanarak yalnızca sertifikalı Power BI görsellerinin görüntülenmesini sağlayabilirsiniz.
+
+## <a name="publication-timeline"></a>Yayımlama zaman çizelgesi
+
+AppSource’un dağıtımı biraz zaman alan bir işlemdir. Bu işlem tamamlandıktan sonra Power BI görseliniz AppSource’dan indirilebilir.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>Kullanıcılar görselimi ne zaman indirebilecek?
+
+* Power BI görselini ilk kez gönderdiyseniz, siz AppSource’dan bir e-posta aldıktan birkaç saat sonra kullanıcılar görseli indirebilir.
+
+* Mevcut Power BI görseline güncelleştirme gönderdiyseniz, kullanıcılar gönderiminizi izleyen ay içinde bunu indirebilir.
+
+    >[!NOTE]
+    > AppSource’daki *sürüm* alanı Power BI’ınızın AppSource tarafından onaylandığı gün ile güncelleştirilir. Bu, yaklaşık olarak görselinizi göndermenizden bir hafta sonrasına denk gelir. Kullanıcılar güncelleştirilmiş görseli indirebilir ama güncelleştirilmiş özellikler geçerlilik kazanmaz. Görselinizin yeni özellikleri yaklaşık bir ay sonra kullanıcının raporlarını etkileyecektir. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>Power BI görselim ne zaman bir sertifikasyon rozeti görüntüleyecek?
+
+* Power BI görselini ilk kez gönderdiyseniz, AppSource’dan onay e-postası alındıktan sonraki gün içinde sertifikasyon rozeti görüntülenir.
+
+* Mevcut Power BI görseli için sertifikasyon istiyorsanız, sertifikasyon rozeti gönderiminizi izleyen bir ay içinde görünecektir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

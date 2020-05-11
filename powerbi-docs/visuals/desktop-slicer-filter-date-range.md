@@ -1,30 +1,32 @@
 ---
 title: Power BI’da göreli tarih dilimleyicisi veya filtre kullanma
 description: Power BI’da göreli tarih aralıklarını kısıtlama amacıyla dilimleyicileri veya filtreleri kullanmayı öğrenin
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006807"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866530"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI’da göreli tarih dilimleyicisi ve filtre kullanma
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI’da göreli tarih dilimleyicisi ve filtresi oluşturma
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 **Göreli tarih dilimleyici** veya **göreli tarih filtresi** ile veri modelinizdeki tarih sütunlarına zamana bağlı filtre uygulayabilirsiniz. Örneğin, **göreli tarih dilimleyiciyi** kullanarak yalnızca son 30 gün içinde (veya ay, takvim ayları ve benzeri) gerçekleşen satışlara ait verileri gösterebilirsiniz. Verileri yenilediğinizde de göreli zaman dönemi otomatik olarak ilgili göreli tarih kısıtlamasını uygular.
 
-![Göreli tarih dilimleyicisini işaret eden okun bulunduğu bir raporun ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
+![Göreli tarih dilimleyicisini işaret eden bir okun bulunduğu raporun ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>Göreli tarih aralığı dilimleyicisini kullanma
+Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
+
+## <a name="create-the-relative-date-range-slicer"></a>Göreli tarih aralığı dilimleyicisi oluşturma
 
 Göreli tarih dilimleyiciyi diğer dilimleyiciler gibi kullanabilirsiniz. Raporunuz için bir **dilimleyici** görseli oluşturup **Alan** değeri olarak bir tarih değeri seçin. Aşağıdaki görüntüde *OrderDate* alanını seçtik.
 
@@ -42,9 +44,9 @@ Ardından ayarları seçebilirsiniz.
 
 ![İlk ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Last
+* Son
 
-* Sonraki
+* İleri
 
 * Bu
 
@@ -70,7 +72,7 @@ Ardından ayarları seçebilirsiniz.
 
 * Yıl (Takvim)
 
-Listeden **Ay**'ı seçip ortadaki ayara *2* değerini girerseniz şu olur:
+Listeden **Ay**'ı seçip ortadaki ayara *2* girerseniz şu olur:
 
 * bugün 20 Temmuz ise
 
@@ -80,7 +82,7 @@ Listeden **Ay**'ı seçip ortadaki ayara *2* değerini girerseniz şu olur:
 
 Buna karşılık *Ay (Takvim)* seçeneğini belirlerseniz kısıtlanan görseller 1 Mayıs-30 Haziran arasındaki (son iki tam takvim ayı) verileri gösterir.
 
-## <a name="using-the-relative-date-range-filter"></a>Göreli tarih aralığı filtresini kullanma
+## <a name="create-the-relative-date-range-filter"></a>Göreli tarih aralığı filtresi oluşturma
 
 Raporunuzun bir sayfası veya tamamı için göreli tarih aralığı filtresi de oluşturabilirsiniz. Bunun için **Alan** bölmesindeki **Sayfa düzeyi filtreleri** veya **Rapor düzeyi filtreleri** bölmesine bir tarih alanı sürükleyin:
 
@@ -106,4 +108,5 @@ Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI Desktop’ta gruplandırma ve gruplama özelliklerini kullanma](../desktop-grouping-and-binning.md) hakkında bilgi edinin.
+- [Power BI’da göreli tarih dilimleyicisini ve filtresini kullanma](desktop-slicer-filter-date-range.md)
+- [Power BI'da dilimleyiciler](power-bi-visualization-slicers.md)

@@ -1,19 +1,19 @@
 ---
 title: Power BI Soru-Cevap'taki soru ve terimleri anlamak için Soru-Cevap Öğretimi
 description: Verilerinizi araştırmak için Power BI Soru-Cevap kullanma
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
+ms.date: 04/21/2020
+ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e5b870201943b93bfdaec2881005785c2f3c470b
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874919"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865830"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI Soru-Cevap'taki soru ve terimleri anlamak için Soru-Cevap Öğretimi
 
@@ -26,7 +26,7 @@ Soru-Cevap ayarının **Soru-Cevap Öğretimi** bölümünde, Soru-Cevap’ı ta
 
 1. Power BI Desktop’ta **Modelleme** şeridindeki **Soru-Cevap Ayarı** > **Soru-Cevap Öğretimi**’ni seçin.
 
-    ![Soru-Cevap Öğretimi eşanlamlısı kırmızı](media/qna-tooling-teach-synonym-red.png)
+    ![Soru-Cevap Öğretimi eşanlamlısı kırmızı](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
 2. Soru-Cevap’ın tanımadığı terimle başlayan bir cümle yazın ve **Gönder**'i seçin.
 
@@ -36,7 +36,7 @@ Soru-Cevap ayarının **Soru-Cevap Öğretimi** bölümünde, Soru-Cevap’ı ta
     
 3. **Soru-Cevap’ın anlamadığı terimleri tanımlayın** altında bir tanım belirtin.
 
-    ![Soru-Cevap Öğretimi eşanlamlısı önizlemesi](media/qna-tooling-teach-fixpreview.png)
+    ![Soru-Cevap Öğretimi eşanlamlısı önizlemesi](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
 4. Güncelleştirilmiş görselin önizlemesini görmek için **Kaydet**'i seçin.
 
@@ -57,11 +57,11 @@ Verilerle çalışırken, genellikle alternatif adlarla başvurulabilen alan adl
 
 Soru-Cevap, tanınmayan bir sözcük isim olduğunda Microsoft Office’ten edindiği bilgiyi kullanarak otomatik olarak algılar. Soru-Cevap bir isim algılarsa sizi aşağıdaki şekilde uyarır:
 
-- <your term>  **sözcüğünün anlamı** 
+- <your term> **sözcüğünün anlamı** 
 
 Bu kutuyu, verilerinizdeki terimle doldurun.
 
-![Soru-Cevap Öğretimi eşanlamlısı sorma](media/qna-tooling-synonym-prompt.png)
+![Soru-Cevap Öğretimi eşanlamlısı sorma](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Veri modelindeki bir alan dışında bir seçenek belirtirseniz istenmeyen sonuçlar alabilirsiniz.
 
@@ -69,21 +69,30 @@ Veri modelindeki bir alan dışında bir seçenek belirtirseniz istenmeyen sonu�
 
 Bazen, temel alınan verilerde koşul görevi gören terimleri tanımlamak isteyebilirsiniz. 'Başarılı Yayımcılar' buna örnek olabilir. 'Başarılı', yalnızca X ürün yayımlamış yayımcıları seçen bir koşul olabilir. Soru-Cevap, farklı bir soru göstererek sıfatları algılamaya çalışır:
 
-- <field name> **şunu yapmış:**  
+- <field name> **şunu yapmış**  
 
 Kutuyu koşulla doldurursunuz.
 
-![Soru-Cevap Öğretimi eşanlamlısı sorma](media/qna-tooling-adjectives.png)
+![Soru-Cevap Öğretimi eşanlamlısı sorma](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Tanımlayabileceğiniz bazı örnek koşullar şunlardır:
 
-- 'ABD' olan 'Ülke'
-- 'ABD' olmayan 'Ülke'
-- 'Ağırlık' > 2000
-- 'Ağırlık' = 2000
-- 'Ağırlık' < 2000
+- ABD olan Ülke
+- ABD olmayan Ülke
+- Ürünler > 100
+- 100’den büyük olan Ürünler
+- Ürünler = 100
+- 100’e eşit Ürünler
+- Ürünler < 100
+- 100’den küçük olan Ürünler
 
-Araç içinde yalnızca tek bir koşul tanımlayabilirsiniz. Daha karmaşık koşullar tanımlamak için DAX kullanarak hesaplanmış bir sütun oluşturun ve ardından bu hesaplanan sütun için tek bir koşul oluşturmak üzere araç bölmesini kullanın. Ölçüler desteklenmez. Onun yerine hesaplanmış sütunları kullanın.
+Bu örneklerde 'Ürünler' bir sütun adı veya ölçü olabilir. 
+
+Ayrıca Soru-Cevap ifadesinde de toplama belirtebilirsiniz. Örneğin ‘popüler ürünler’ en az 100 birimi satılan ürünlerse ‘satılan birim toplamı > 100’ olan ürünleri popüler olarak tanımlayabilirsiniz.  
+
+:::image type="content" source="media/q-and-a-tooling-teach-q-and-a/power-bi-qna-popular-products.png" alt-text="'Popüler ürünler'i tanımlama":::
+
+Araç içinde yalnızca tek bir koşul tanımlayabilirsiniz. Daha karmaşık koşullar tanımlamak için DAX kullanarak hesaplanmış bir sütun veya ölçü oluşturun ve ardından bu sütun veya ölçü için tek bir koşul oluşturmak üzere araç bölmesini kullanın.
 
 ## <a name="manage-terms"></a>Terimleri yönetme
 
@@ -93,10 +102,8 @@ Tanımları sağladıktan sonra, yaptığınız tüm düzeltmeleri görmek ve d�
 
 2. Artık istemediğiniz terimleri silin. Şu anda koşulları düzenleyemezsiniz. Bir terimi yeniden tanımlamak için terimi silin ve tanımlayın.
 
-    ![Soru-Cevap ile terimleri yönetme](media/qna-manage-terms.png)
+    ![Soru-Cevap ile terimleri yönetme](media/q-and-a-tooling-teach-q-and-a/qna-manage-terms.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Doğal dil altyapısını iyileştirmeye yönelik birkaç en iyi yöntem vardır. Daha fazla bilgi için aşağıdaki makaleyi inceleyin:
-
-* [Soru-Cevap ile En İyi Yöntemler](q-and-a-best-practices.md)
+Doğal dil altyapısını iyileştirmeye yönelik birkaç en iyi yöntem vardır. Daha fazla bilgi için bkz. [Soru-Cevap ile ilgili en iyi yöntemler](q-and-a-best-practices.md).

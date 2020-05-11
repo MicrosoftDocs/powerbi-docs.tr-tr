@@ -1,18 +1,18 @@
 ---
 title: Power BI Soru-Cevap eğitimi için Soru-Cevap araçlarına giriş (önizleme)
 description: Power BI Soru-Cevap araçlarına giriş
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
-ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/17/2020
+ms.author: maggies
+ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874949"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866086"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Soru-Cevap eğitimi için Soru-Cevap araçlarına giriş (önizleme)
 
@@ -36,29 +36,44 @@ Soru-Cevap araçları yalnızca Power BI Desktop’ta kullanılabilir ve şu and
 1. Power BI Desktop’ı açın ve Soru-Cevap’ı kullanarak bir görsel oluşturun. 
 2. Görselin köşesinden dişli simgesini seçin. 
 
-    ![Soru-Cevap görseli dişli simgesi](media/qna-visual-gear.png)
+    ![Soru-Cevap görseli dişli simgesi](media/q-and-a-tooling-intro/qna-visual-gear.png)
 
     Başlarken sayfası açılır.  
 
-    ![Soru-Cevap Kullanmaya başlama](media/qna-tooling-dialog.png)
+    ![Soru-Cevap Kullanmaya başlama](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
 ### <a name="review-questions"></a>Soruları gözden geçirin
 
 Kiracınız için Power BI hizmetinde kullanılmakta olan veri kümelerinin bir listesini görmek için **Soruları inceleyin**’i seçin. **Soruları inceleyin** sayfası ayrıca veri kümesi sahibini, çalışma alanını ve son yenileme tarihini gösterir. Buradan bir veri kümesi seçerek kullanıcıların sorduğu soruları görebilirsiniz. Veriler tanınmayan sözcükleri de gösterir. Burada gösterilen tüm veriler son 28 güne aittir.
 
-![Soru-Cevap sorularını inceleme](media/qna-tooling-review-questions.png)
+![Soru-Cevap sorularını inceleme](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>Soru-Cevap’a öğretin
 
 **Soru-Cevap Öğretimi** bölümünü kullanarak Soru-Cevap’ı sözcükleri tanıması için eğitebilirsiniz. Başlamak için, Soru-Cevap’ın tanımadığı bir veya daha fazla sözcüğü içeren bir soru yazın. Soru-Cevap ilgili terimin tanımını sorar. Sözcüğün temsil ettiği anlama karşılık gelen bir filtre veya alan adı girin. Bundan sonra Soru-Cevap özgün soruyu yeniden yorumlar. Sonuçlardan memnunsanız girişinizi kaydedebilirsiniz. Daha fazla bilgi edinmek için bkz. [Soru-Cevap Öğretimi](q-and-a-tooling-teach-q-and-a.md)
 
-![Soru-Cevap öğretimi eşanlamlı önizlemesi](media/qna-tooling-teach-fixpreview.png)
+![Soru-Cevap öğretimi eşanlamlı önizlemesi](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
 ### <a name="manage-terms"></a>Terimleri yönetme
 
 Soru-Cevap Öğretimi bölümünde kaydettiğiniz her şey burada gösterilir, böylece tanımladığınız terimleri inceleyebilir veya silebilirsiniz. Şu anda mevcut bir tanımı düzenlemeniz mümkün değildir; bu yüzden bir terimi tanımlamak için silip yeniden oluşturmanız gerekir.
 
-![Soru-Cevap ile Terimleri yönetme](media/qna-manage-terms.png)
+![Soru-Cevap ile Terimleri yönetme](media/q-and-a-tooling-intro/qna-manage-terms.png)
+
+### <a name="suggest-questions"></a>Soru önerme
+
+Herhangi bir kurulum yapmadan Soru-Cevap başlangıç olarak çeşitli sorular önerecektir. Bu sorular, veri modeliniz temelinde otomatik olarak oluşturulur. **Soru öner** bölümünde otomatik olarak oluşturulan soruların üzerine kendi sorularınızı yazabilirsiniz. 
+
+Başlangıç olarak eklemek istediğiniz soruyu metin kutusuna yazın. Önizleme bölümünde, Soru-Cevap görselinde sonucun nasıl görüneceğini görürsünüz. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-suggest-questions.png" alt-text="Soru-Cevap soruları önerme":::
+ 
+Bu soruyu **Önerilen sorularınız**’a eklemek için **Ekle**’yi seçin. Girilen her soru bu listenin sonuna eklenir. Sorular, Soru-Cevap görselinde listedekiyle aynı sırada gösterilir. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Önerilen soruları kaydetme":::
+ 
+Öneriler sorular listenizin Soru-Cevap görselinde gösterilmesi için **Kaydet**’i seçtiğinizden emin olun. 
+
 
 ## <a name="other-qa-settings"></a>Diğer Soru-Cevap ayarları
 
@@ -70,7 +85,7 @@ Power BI Desktop **Modelleme** sekmesinde Soru-Cevap deneyimini geliştirmeye y�
 
 2. Bir alan veya tablo seçerek **Özellikler** bölmesini görüntüleyin.  Bu bölme, tuvalin sağ tarafında gösterilir ve birkaç Soru-Cevap eylemini listeler. Seçeneklerden biri **Eş anlamlılar**’dır. **Eş anlamlılar** kutusunda, seçtiğiniz tablo veya alan için hızlıca alternatifler tanımlayabilirsiniz. Ayrıca, Araçlar iletişim kutusunun **Soru-Cevap Öğretimi** bölümünde eş anlamlıları tanımlayabilirsiniz ancak bir tablodaki çok sayıda alan için eş anlamlıları genellikle burada daha hızlı tanımlarsınız.
 
-    ![Soru-Cevap Modelleme bölmesi eş anlamlılar](media/qna-modelling-pane-synonyms.png)
+    ![Soru-Cevap Modelleme bölmesi eş anlamlılar](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
 
 3. Tek bir alana ait birden çok eş anlamlı tanımlamak için, bir sonraki eş anlamlıyı göstermek üzere virgül kullanın.
 
@@ -100,6 +115,4 @@ Power BI’da, Soru-Cevap içindeki doğal dil altyapısını, temel alınan do�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Doğal dil altyapısını iyileştirmeye yönelik birkaç en iyi yöntem vardır. Daha fazla bilgi için aşağıdaki makaleyi inceleyin:
-
-* [Soru-Cevap ile En İyi Yöntemler](q-and-a-best-practices.md)
+Doğal dil altyapısını iyileştirmeye yönelik birkaç en iyi yöntem vardır. Daha fazla bilgi için bkz. [Soru-Cevap ile ilgili en iyi yöntemler](q-and-a-best-practices.md).

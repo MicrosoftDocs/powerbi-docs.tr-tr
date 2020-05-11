@@ -4,16 +4,16 @@ description: Power BI’da şablon uygulamalarını kuruluşunuzda yükleme, öz
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436123"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781718"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma
 
@@ -65,9 +65,9 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 
 1. **Bağlan**’a tıklayın.
     
-    Böylece veri kaynağını, örnek verilerden kendi veri kaynağınıza değiştireceğiniz bir veya bir dizi iletişim kutusu açılır. Bu genellikle veri kümesi parametrelerinin ve veri kaynağı kimlik bilgilerinin yeniden tanımlanması anlamına gelir. Bkz. [Bilinen sınırlamalar](service-template-apps-tips.md#known-limitations).
+    Böylece veri kaynağını, örnek verilerden kendi veri kaynağınıza değiştireceğiniz bir veya bir dizi iletişim kutusu açılır. Bu genellikle veri kümesi parametrelerinin ve veri kaynağı kimlik bilgilerinin yeniden tanımlanması anlamına gelir. Bkz. [Bilinen sınırlamalar](service-template-apps-overview.md#known-limitations).
     
-    Aşağıdaki örnekte verilere bağlanma işlemi, iki iletişim kutusunu kapsar.
+    Aşağıdaki örnekte verilere bağlanma işleminde iki iletişim kutusu vardır.
 
    ![Verilere bağlanma iletişim kutuları](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
@@ -95,16 +95,20 @@ Verilere bağlantı ve veri yenile işleminden sonra tarayıcıyı yenilemenizin
 
 Zaman zaman şablon uygulaması oluşturucuları, şablon uygulamalarının yeni gelişmiş sürümlerini, AppSource, doğrudan bağlantı veya her ikisi aracılığıyla yayınlar.
 
-Uygulamayı ilk olarak AppSource’tan indirdiyseniz, şablon uygulamasının yeni bir sürümü kullanılabilir hale geldiğinde, Power BI hizmetinde bir güncelleştirme başlığı görüntülenerek yeni bir uygulama sürümünün kullanılabilir olduğunu size bildirir.
+Uygulamayı başlangıçta AppSource’dan indirdiyseniz, şablon uygulamasının yeni sürümü kullanıma sunulduğunda iki yolla bildirim alırsınız:
+* Power BI hizmetinde yeni uygulama sürümünün kullanılabilir olduğunu bildiren bir güncelleştirme başlığı görüntülenir.
+  ![Şablon uygulaması güncelleştirme bildirimi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Power BI'ın bildirim bölmesinde bir bildirim alırsınız.
 
-  ![Şablon uygulaması güncelleştirme bildirimi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![Şablon uygulaması güncelleştirme bildirimi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Uygulamayı ilk olarak AppSource yerine doğrudan bağlantı aracılığıyla aldıysanız, yeni bir sürüm kullanılabilir olduğunda bunu bilmeniz için tek yol, şablon uygulaması oluşturucusuyla iletişim kurmaktır.
 
-  Güncelleştirmeyi yüklemek için bildirim başlığında **Edinin** seçeneğine tıklayın veya AppSource’ta uygulamayı tekrar bulup **Hemen edinin** seçeneğini belirleyin. Şablon uygulaması oluşturucusundan güncelleştirme için bir doğrudan bağlantı aldıysanız bu bağlantıya tıklamanız yeterlidir.
+  Güncelleştirmeyi yüklemek için bildirim başlığında veya bildirim merkezinde **Edinin** seçeneğine tıklayın veya AppSource’da uygulamayı tekrar bulup **Hemen edinin** seçeneğini belirleyin. Şablon uygulaması oluşturucusundan güncelleştirme için bir doğrudan bağlantı aldıysanız bu bağlantıya tıklamanız yeterlidir.
   
-  Sizden geçerli sürümün üzerine mi yazmak yoksa yeni sürümü yeni bir çalışma alanına mı yüklemek istediğiniz sorulur. Varsayılan olarak "üzerine yaz" seçilidir.
+  Geçerli sürümün üzerine mi yazmak yoksa yeni sürümü yeni bir çalışma alanına mı yüklemek istediğiniz sorulur. Varsayılan olarak "üzerine yaz" seçilidir.
 
   ![Şablon uygulamasını güncelleştirme](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
 
