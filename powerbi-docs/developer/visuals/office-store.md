@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621453"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613569"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -101,9 +101,11 @@ Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki ad�
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
 
-[Doğrulama ilkelerini](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
+* [Doğrulama ilkelerini](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
 
-Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboard.microsoft.com/Application/Summary/) sayfasından görüntüleyebilirsiniz.
+* Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboard.microsoft.com/Application/Summary/) sayfasından görüntüleyebilirsiniz.
+
+* Power BI görselinizin ne zaman AppSource’dan indirilmeye hazır olacağını anlamak için Power BI görselleri [yayımlama zaman çizelgesini](power-bi-custom-visuals-certified.md#publication-timeline) gözden geçirin.
 
 ## <a name="certify-your-visual"></a>Görselinizi onaylatma
 

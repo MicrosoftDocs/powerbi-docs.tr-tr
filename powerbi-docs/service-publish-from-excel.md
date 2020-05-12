@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329607"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866806"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel’deki içeriği Power BI’da yayımlama
 Excel 2016 veya üzeri bir sürümü kullanarak Excel çalışma kitaplarınızı, çalışma kitabı verilerine dayalı olarak son derece etkileşimli raporlar ve panolar oluşturabileceğiniz [Power BI](https://powerbi.microsoft.com) çalışma alanınızda doğrudan yayımlayabilirsiniz. Daha sonra öngörülerinizi, kuruluşunuzdaki diğer kişilerle paylaşabilirsiniz.
@@ -42,7 +42,7 @@ Excel, yerel Excel dosyalarının yayımlanmasını destekler. Dosyaların OneDr
 > Office 365 aboneliğiyle yerel dosyaları, yalnızca Excel 2016 (veya üzeri bir sürüm) kullanıyorsanız yayımlayabilirsiniz. Excel 2016 tek başına yüklemeleri, yalnızca çalışma kitabı OneDrive İş veya SharePoint Online’a kaydedildiğinde Power BI’a yayımlayabilir.
 > 
 
-**Yayımla**'yı seçtiğinizde, yayımlamak istediğiniz çalışma alanını seçebilirsiniz. Çalışma alanı aşağıdaki resimde gösterildiği gibi, erişiminiz olan kişisel çalışma alanınız veya bir grup çalışma alanı olabilir.
+**Yayımla**'yı seçtiğinizde, yayımlamak istediğiniz çalışma alanını seçebilirsiniz. Excel dosyanız OneDrive İş’te duruyorsa yalnızca *Çalışma Alanım* alanınıza yayımlayabilirsiniz. Excel dosyanız yerel sürücüde duruyorsa *Çalışma Alanım*’a veya erişiminiz olan bir paylaşılan çalışma alanına yayımlayabilirsiniz.
 
 ![Power BI'da yayımla](media/service-publish-from-excel/pbi_choose_workspace.png)
 
@@ -91,6 +91,6 @@ Seçeneklerden birini belirlediğinizde Excel, geçerli hesabınızı kullanarak
 ![Power BI’a gitme](media/service-publish-from-excel/pbi_gotopbi.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Excel data in Power BI (Power BI'daki Excel verileri)](service-excel-workbook-files.md)  
+[Power BI'daki Excel verileri](service-excel-workbook-files.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

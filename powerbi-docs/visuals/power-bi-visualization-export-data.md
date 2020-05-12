@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585386"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781743"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -265,6 +265,8 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
   1. **Dış veri al** > **Metinden** seçeneğini belirleyin.
   
   1. Dosyanın depolandığı yerel klasöre gidin ve *.csv*'yi seçin.
+
+- *.csv* dosyasına aktarılırken bazı karakterlerin başına **'** kaçış karakteri eklenir.
 
 - Power BI yöneticileri verilerin dışarı aktarılmasını devre dışı bırakabilir.
 

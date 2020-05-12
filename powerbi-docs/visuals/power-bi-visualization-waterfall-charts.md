@@ -8,29 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/5/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74907676"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866507"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Şelale grafikleri, Power BI değer ekleyip çıkardıkça değişen toplamı gösterir. Bunlar, bir başlangıç değerinin (net gelir gibi) bir dizi pozitif ve negatif değişiklikten nasıl etkilendiğini anlamak için faydalıdır.
 
 Artış ve azalmaları hızla fark edebilmeniz için sütunlar renk kodludur. Başlangıç değeri ve son değer sütunları genellikle [yatay eksende başlar](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "yatay eksende başlat") ve ara değerler de yüzen sütunlar olarak görünür. Bu stil nedeniyle şelale grafikler köprü grafikleri olarak da adlandırılır.
-
-   > [!NOTE]
-   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-waterfall-chart"></a>Şelale grafikler ne zaman kullanılır?
 
@@ -58,6 +53,8 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
 
 ## <a name="create-a-waterfall-chart"></a>Bir şelale grafik oluşturma
 

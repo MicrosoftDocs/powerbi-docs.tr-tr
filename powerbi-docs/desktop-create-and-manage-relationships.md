@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76709924"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866346"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, analiz yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve otomatik algılama özelliği sizin yerinize bunları yapar. Öte yandan bazen ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -271,7 +271,7 @@ Tek yönlü çapraz filtreleme ile, proje saatlerini özetleyen bir rapor oluşt
 
  ![Çapraz filtreleme yönü](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-Filtre belirtimi akışı, **CompanyProject**'ten **CompanyEmployee**'ye doğru gerçekleşir (aşağıdaki resimde gösterildiği gibi) ama **CompanyEmployee**'ye doğru gerçekleşmez. 
+Filtre belirtimi akışı, **CompanyProject**'ten **ProjectHours**'a doğru gerçekleşir (aşağıdaki resimde gösterildiği gibi) ama **CompanyEmployee**'ye doğru gerçekleşmez. 
 
  ![Çapraz filtreleme örneği](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

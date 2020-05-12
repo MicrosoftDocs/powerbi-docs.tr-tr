@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436077"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865472"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI'da kartogram (koroplet harita) oluşturma ve kullanma
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Bu eğitimde [Satış ve Pazarlama örneği PBIX dosyası](https://download.micr
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
-
-## <a name="create-a-basic-filled-map"></a>Temel bir kartogram oluşturma
-Bu videoda Kim, temel bir harita oluşturup bunu kartograma dönüştürüyor.
-   > [!NOTE]
-   > Bu videoda Power BI Desktop’ın önceki bir sürümü kullanılmaktadır.
-   > 
-   > 
-
-> [VİDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
 
 ### <a name="create-a-filled-map"></a>Kartogram oluşturma
 1. Alanlar bölmesinde, **Geo** \> **State** alanını seçin.    

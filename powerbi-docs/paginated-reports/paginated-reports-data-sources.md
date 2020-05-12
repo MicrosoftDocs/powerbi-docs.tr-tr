@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255768"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692884"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -25,7 +25,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 
 | Veri Kaynağı | Kimlik Doğrulama | Notlar |
 | --- | --- | --- |
-| Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 |   |
+| Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 | Azure SQL DB ile Kurumsal Ağ Geçidi kullanabilirsiniz. Bununla birlikte söz konusu senaryolarda kimlik doğrulaması için SSO veya oAuth2 kullanamazsınız.   |
 | Azure SQL Yönetilen Örneği | Temel | Ortak veya Özel Uç Nokta aracılığıyla (Özel Uç Nokta’nın Kurumsal Ağ Geçidi üzerinden yönlendirilmesi gerekir)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir.|
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |

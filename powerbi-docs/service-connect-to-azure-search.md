@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873120"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI ile Azure Search'e bağlanma
@@ -30,7 +30,7 @@ Power BI için [Azure Search içerik paketine](https://app.powerbi.com/getdata/s
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. **Azure Search** \> **Al**'ı seçin.
+3. **Azure Search** \> **Al**’ı seçin.
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. Azure Search analizinizin depolandığı tablo depolama hesabının adını girin.
@@ -59,5 +59,5 @@ Depolama hesabı adının, tam erişim anahtarıyla birlikte doğru şekilde sa�
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](fundamentals/power-bi-overview.md)
 
-[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 

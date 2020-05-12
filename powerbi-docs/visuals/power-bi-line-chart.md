@@ -2,27 +2,35 @@
 title: Power BI'da çizgi grafikler
 description: Power BI'da çizgi grafikler
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871070"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867036"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI'da çizgi grafikler
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 Çizgi grafik noktalarla gösterilen ve düz çizgilerle bağlanan bir dizi veri noktasıdır. Çizgi grafiğin bir veya birden çok çizgisi olabilir. Çizgi grafiklerin X ve Y eksenleri vardır. 
 
 ![basit çizgi grafik](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>Çizgi grafik oluşturma
 Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde gösteren bir çizgi grafik oluşturmak üzere Satış ve Pazarlama Örneği kullanılmaktadır. Konuyu takip etmek için appsource.com'dan örnek uygulamayı alın.
+
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
 
 1. Boş bir rapor sayfasında başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
 

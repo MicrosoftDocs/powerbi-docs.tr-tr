@@ -7,17 +7,19 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.author: mihart
+ms.date: 04/22/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79436100"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867013"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI'da birleşik haritalar oluşturma ve kullanma
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -33,6 +35,9 @@ Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 * iki ölçü arasındaki bağıntıyı tek bir görselleştirmede sunmak istediğinizde.
 * bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde.
 * tuval alanını tasarruflu bir şekilde kullanmak istediğinizde.
+
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
 
 ### <a name="prerequisites"></a>Önkoşullar
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.

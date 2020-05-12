@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206965"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866737"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri görünümüyle çalışma
 
 *Veri görünümü*, *Power BI Desktop* modelinizdeki verileri incelemenize, araştırmanıza ve anlamanıza yardımcı olur. Tabloları, sütunları ve verileri *Power Query Düzenleyicisi*'nde görüntülemekten farklıdır. Veri görünümüyle verilerinizin modele yüklendikten *sonraki* halini incelersiniz.
+
+> [!NOTE]
+> Veri görünümü verileri modele yüklendikten sonra gösterdiği için, tüm veri kaynakları DirectQuery’ye dayalı olduğunda Veri görünümü simgesi görünmez. 
 
 Bazen verilerinizi modellerken rapor tuvalinde görsel oluşturmadan bir tablo veya sütundaki verileri görmek istersiniz. Satır düzeyine kadar görmek isteyebilirsiniz. Bu, özellikle ölçü ve hesaplanmış sütun oluşturduğunuzda veya bir veri türü ya da veri kategorisi tanımlamanız gerektiğinde yararlıdır.
 
@@ -48,3 +51,14 @@ Değerleri tek tek filtreleyebilir veya sütundaki verileri temel alarak gelişm
 
 > [!NOTE]
 > Power BI modeli geçerli kullanıcı arabiriminizden farklı bir kültürde oluşturulduğunda arama kutusu metin alanları dışındaki Veri görünümü kullanıcı arabirimi bölümlerinde görünmez. Örneğin bu durum İngilizce-ABD dilinde oluşturulmuş modeli İspanyolca görüntülediğinizde geçerli olabilir.
+
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Power BI Desktop ile her şeyi yapabilirsiniz. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+
+* [Power BI Desktop nedir?](desktop-what-is-desktop.md)
+* [Power BI Desktop ile sorgulara genel bakış](desktop-query-overview.md)
+* [Power BI Desktop'taki veri türleri](desktop-data-types.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevleri](desktop-common-query-tasks.md)

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435778"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841745"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -45,7 +45,7 @@ Power BI mobil uygulamalarında raporlar için iki simge vardır:
 * ![Telefon raporu simgesi](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) en az bir sayfası telefon için iyileştirilmiş olan raporun dikey yönlendirmede görüntüleneceğini belirtir.
 
 > [!NOTE]
-> Rapor sayfası telefon düzeninde olsa bile telefonunuzu yatay tuttuğunuzda her zaman yatay düzen elde edersiniz.
+> Rapor sayfası mobil cihaz düzeninde olsa bile telefonunuzu yatay tuttuğunuzda her zaman yatay düzen elde edersiniz.
 
 Panodan rapor almak için kutucuğun sağ üst köşesindeki **Diğer seçenekler**’e (...) ve sonra **Raporu aç**’a dokunun:
   

@@ -1,5 +1,5 @@
 ---
-title: Power BI’da matris görselini kullanma
+title: Power BI’da matris görseli oluşturma
 description: Matris görselinin Power BI’da basamaklı düzenlere ve ayrıntılı vurgulamaya nasıl olanak sağladığını öğrenin.
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637864"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866599"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ Matris görseli tabloya benzer.  Tablo iki boyutu destekler ve verileri düzdür
 
 Matrisle ilişkili birçok özellik vardır ve bu özellikler, makalenin ilerleyen bölümlerinde ele alınacaktır.
 
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI tarafından toplamların nasıl hesaplandığını anlama
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010880"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841055"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI hizmetinde SAP değişkenlerini düzenleme
 
-Rapor yazarları DirectQuery ile SAP Business Warehouse veya SAP HANA'yı kullanırken artık son kullanıcıların Premium ve paylaşılan çalışma alanları için **Power BI Hizmeti**'nde SAP değişkenlerini düzenlemesine izin verebilir. Bu özelliğin Çalışma Alanım sayfasının Benimle paylaşılan sekmesindeki raporlar için ÇALIŞMADIĞINI unutmayın. 
+Rapor yazarları DirectQuery ile SAP Business Warehouse veya SAP HANA'yı kullanırken artık son kullanıcıların Premium ve paylaşılan çalışma alanları için **Power BI Hizmeti**'nde SAP değişkenlerini düzenlemesine izin verebilir. Bu özelliğin Çalışma Alanım sayfasının Benimle paylaşılan sekmesindeki ve V1 Çalışma Alanlarından oluşturulan Uygulamalardaki raporlar için ÇALIŞMADIĞINI unutmayın. 
 
 ![Değişkenleri düzenle iletişim kutusu](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

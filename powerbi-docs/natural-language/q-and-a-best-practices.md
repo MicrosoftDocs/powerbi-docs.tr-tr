@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841929"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866874"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI’da Soru-Cevap’ı iyileştirmek için en iyi yöntemler
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap bunu yapar.
@@ -195,8 +195,10 @@ Bu adım, genel olarak Power BI raporları için değil özel olarak Soru-Cevap 
 
 Bu adım önemli olabilir. Tablo ve sütun adları kolay olsa bile Soru-Cevap kullanıcıları akıllarına ilk gelen sözcükleri kullanarak soru sorar. Önceden tanımlanmış bir sütun listesinden seçim yapmaz. Ne kadar çok mantıklı eş anlamlı eklerseniz kullanıcılarınızın raporla ilgili deneyimi o kadar iyi olur. Power BI Desktop’ta eş anlamlılar eklemek için Model görünümüne gidin, Modelleme sekmesini seçin ve bir alan ya da tablo belirleyin. Özellikler bölmesinde, eş anlamlılar ekleyebileceğiniz **Eş anlamlılar** kutusu gösterilir.
 
-
-
-![Soru-Cevap Özellikler bölmesi eş anlamlılar](media/qna-modelling-pane-synonyms.png)
+![Soru-Cevap Özellikler bölmesi eş anlamlılar](media/q-and-a-best-practices/qna-modelling-pane-synonyms.png)
 
  Eş anlamlı sözcükler eklerken dikkatli olun. Aynı eş anlamlıyı birden fazla sütuna veya tabloya eklemek belirsizliğe neden olur. Soru-Cevap, belirsiz eş anlamlılar arasından seçim yapmak için mümkün olduğunda bağlamı kullanır, ancak ehr soru için yeterli bağlam yoktur. Örneğin, kullanıcınız “müşterileri say” komutunu verdiğinde, modelinizde “müşteri” eş anlamlısını içeren üç öğe varsa kullanıcılar aradıkları yanıtı alamayabilir. Böyle durumlarda, farklı ifadeler için birincil eş anlamlı kullanılacağından bunun benzersiz olduğundan emin olun. Bu, belirsizlik konusunda kullanıcıyı uyarıp (örneğin, “arşivlenen müşteri kaydı sayısını göster” sorusunun farklı ifade edilmesi) sorunun farklı bir şekilde sorulması gerektiğine dair ipucu verebilir.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI Soru-Cevap’a giriş](q-and-a-intro.md)

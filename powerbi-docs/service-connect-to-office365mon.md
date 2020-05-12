@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548585"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI ile Office365Mon'a bağlanma
@@ -31,10 +31,10 @@ Power BI için [Office365Mon şablon uygulamasına](https://msit.powerbi.com/gro
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
    ![](media/service-connect-to-office365mon/pbi_getservices.png) 
-3. **Office365Mon** \> **Al** seçeneğini belirleyin.
+3. **Office365Mon** \> **Al**’ı seçin.
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. Kimlik Doğrulama Yöntemi için **OAuth2** \> **Oturum aç** seçeneğini belirleyin.
+4. Kimlik Doğrulama Yöntemi için **oAuth2** \> **Oturum Aç**'ı seçin.
    
    İstendiğinde Office365Mon yönetici kimlik bilgilerinizi girin ve kimlik doğrulama işlemini gerçekleştirin.
    
@@ -53,7 +53,7 @@ Power BI için [Office365Mon şablon uygulamasına](https://msit.powerbi.com/gro
 * Veri kümeniz günlük olarak yenilenecek şekilde zamanlanır ancak yenileme zamanlamasında değişiklik yapabilir veya **Şimdi Yenile** seçeneğini kullanarak istediğinizde veri kümenizi kendiniz de yenileyebilirsiniz.
 
 ## <a name="troubleshooting"></a>Sorun giderme
-Oturum açmak için Office365Mon abonelik kimlik bilgilerinizi kullandıktan sonra bir **"oturum açma başarısız oldu"** hatası alırsanız kullandığınız hesabın Office365Mon verilerini hesabınızdan alma izinleri yok demektir. Bir yönetici hesabı olduğunu doğrulayın ve yeniden deneyin.
+Oturum açmak için Office365Mon abonelik kimlik bilgilerinizi kullandıktan sonra bir **"oturum açma başarısız oldu"** hatası alırsanız kullandığınız hesabın Office365Mon verilerini hesabınızdan alma izinleri yok demektir. Bir yönetici hesabı kullandığınızı doğrulayın ve yeniden deneyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](fundamentals/power-bi-overview.md)

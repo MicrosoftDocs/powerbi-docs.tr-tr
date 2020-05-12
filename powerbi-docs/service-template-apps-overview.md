@@ -4,16 +4,16 @@ description: Bu makale Power BI şablon uygulaması programına genel bir bakı�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066337"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781329"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 
@@ -34,7 +34,7 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 | [![Microsoft Project web uygulaması](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Microsoft 365 Kullanım Analizi web uygulaması](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Dynamic 365 Business Central - Satış web uygulaması](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro Müşteri Memnuniyeti web uygulaması](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
 |  |
 
-## <a name="process"></a>İşleme
+## <a name="process"></a>İşlem
 Şablon uygulaması geliştirmek ve göndermek için kullanılan genel süreç birkaç aşamadan oluşur. Bazı aşamalar aynı anda birden çok etkinlik içerebilir.
 
 
@@ -93,7 +93,7 @@ Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları]
 
 ## <a name="known-limitations"></a>Bilinen sınırlamalar
 
-| Özellik | Bilinen Sınırlama |
+| Öne çıkan özelliği | Bilinen Sınırlama |
 |---------|---------|
 |İçerik:  Veri kümeleri   | Tam olarak bir veri kümesi bulunmalıdır. Yalnızca Power BI Desktop’ta oluşturulan veri kümelerine (.pbix dosyaları) izin verilir. <br>Desteklenmez: Diğer şablon uygulamalarından veri kümeleri, çalışma alanları arası veri kümeleri, sayfalandırılmış raporlar (.rdl dosyaları), Excel çalışma kitapları |
 |İçerik: Panolar | Gerçek zamanlı kutucuklara izin verilmez (diğer bir deyişle, veri kümelerini gönderme veya akış sağlama desteği yok) |
@@ -103,6 +103,7 @@ Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları]
 | Veri kümesi: çalışma alanları arası | Çalışma alanları arası veri kümelerine izin verilmez  |
 | Sorgu parametreleri | Desteklenmez: "Any" veya "Binary" türündeki parametreler veri kümesi için yenileme işlemini engeller |
 | Power BI görselleri | Yalnızca genel kullanıma açık Power BI görselleri desteklenir. [Power BI kuruluş görselleri](developer/visuals/power-bi-custom-visuals-organization.md) desteklenmez |
+| Bağımsız bulutlar | Şablon uygulamaları bağımsız bulutlarda kullanılamaz |
 
 ## <a name="support"></a>Destek
 Geliştirme sırasında destek almak için [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support) adresine gidin. Bu siteyi etkin bir şekilde izliyor ve yönetiyoruz. Müşteri olayları hızla ilgili ekibe aktarılmaktadır.

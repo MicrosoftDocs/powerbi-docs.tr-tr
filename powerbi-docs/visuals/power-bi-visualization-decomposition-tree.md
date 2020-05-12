@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885286"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865580"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme (önizleme)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI'da ayrıştırma ağacı görseli birden çok boyutta verileri görselleştirmenize olanak tanır. Verileri otomatik olarak toplar ve herhangi bir sırada boyutlarınızda detaya gitmenizi sağlar. Aynı zamanda bir yapay zeka (AI) görselleştirmesi olduğundan, belirli ölçütler temelinde detayına gidilecek bir sonraki boyutu bulmasını isteyebilirsiniz. Bu da geçici bir inceleme yapmak ve kök neden analizi yürütmek için değerli bir araç olmasını sağlar.
@@ -29,6 +32,8 @@ Bu öğreticide iki örnek kullanılır:
 - Şirketin sipariş açığı olan (tükenen sipariş) ürün yüzdesini analiz eden bir tedarik zinciri senaryosu.  
 - Video oyunu satışlarını oyun türü ve yayıncı gibi çeşitli faktörlere göre çözümleyen bir satış senaryosu.
 
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
 
 ## <a name="get-started"></a>Kullanmaya başlayın
 Görselleştirmeler bölmesinden ayrıştırma ağacı simgesini seçin.

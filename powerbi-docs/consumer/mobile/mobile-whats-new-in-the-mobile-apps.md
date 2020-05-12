@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802107"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841722"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,14 @@ ms.locfileid: "80802107"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>Nisan 2020
+
+### <a name="sharing-from-workspaces-is-now-available"></a>Çalışma alanlarından paylaşım özelliği kullanıma sunuldu
+Çalışma alanlarından rapor ve pano paylaşma özelliğini ekledik. Çalışma alanı sahibi izin veriyorsa içeriğinizi, tıpkı Power BI hizmetinde olduğu gibi "Çalışma alanım"dan ve diğer çalışma alanlarından paylaşabilirsiniz. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>Panolar şimdi tam ekran modunu destekliyor (iOS ve Android)
+Şimdi panolarınızı tam ekran modunda görüntüleyebilir ve pano içeriğinizi görüntülemek için daha fazla alan kazanabilirsiniz. 
 
 ## <a name="march-2020"></a>Mart 2020
 
@@ -871,4 +879,4 @@ Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik 
 * Odak modunda harita kutucuğu işleme işlemi, tüm ekran kaplanacak şekilde iyileştirildi.
 * Rol tabanlı güvenlik yöntemi ile panolara erişim sırasında sunulan kullanıcı deneyimi iyileştirildi. 
 * Yeni bir özellik sayesinde, pano kutucuklarını odak modunda incelerken panoya geri dönüp bir sonraki kutucuğu seçmenize gerek kalmadan pano kutucukları arasında gezinebilirsiniz.
-* Kararlılık ve performansa yönelik ek iyileştirmeler. 
+* Kararlılık ve performansa yönelik ek iyileştirmeler.

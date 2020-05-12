@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881111"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
@@ -47,7 +47,7 @@ Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır. 
 
 - [Tüketiciler için Soru-Cevap](consumer/end-user-q-and-a.md)  
 - [Panolarda ve raporlarda Soru-Cevap kullanma](power-bi-tutorial-q-and-a.md)  
-- [Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)  
+- [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

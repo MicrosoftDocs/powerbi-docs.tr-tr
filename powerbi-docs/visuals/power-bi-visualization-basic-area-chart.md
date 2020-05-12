@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/11/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75757888"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866986"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Basit alan grafikleri oluşturma ve kullanma
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -25,6 +27,9 @@ Basit alan grafiği (katmanlı alan grafiği olarak da bilinir) çizgi grafiğin
 Alan grafikleri, zaman içindeki değişimin büyüklüğünü vurgular ve bir eğilime ilişkin toplam değere dikkat çekmek için kullanılabilir. Örneğin, zaman içindeki kârı gösteren veriler, bir alan grafiğinde toplam kârı vurgulayacak şekilde gösterilebilir.
 
 ![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
 
 ## <a name="when-to-use-a-basic-area-chart"></a>Basit alan grafikleri ne zaman kullanılır?
 Basit alan grafikleri aşağıdaki durumlarda harika bir seçimdir:
@@ -41,7 +46,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
-1. Select ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
 
 ## <a name="create-a-basic-area-chart"></a>Basit alan grafiği oluşturma
@@ -57,7 +62,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
    ![alan grafiği simgesi](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **Eksen\> kutusuna eklemek üzere** Time  **FiscalMonth** alanını seçin.   
+   c.  **Eksen** kutusuna eklemek üzere **Time \> FiscalMonth** alanını seçin.   
    ![alan grafiği eksen değerleri](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Grafiği aya göre görüntülemek için, üç nokta (görselin sağ üst köşesinde) simgesini seçin ve **Sıralama Ölçütü: Month** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.

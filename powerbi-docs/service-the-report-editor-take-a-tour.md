@@ -11,10 +11,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871352"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu

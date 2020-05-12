@@ -1,5 +1,5 @@
 ---
-title: Yöneticiler öğrenme kataloğu
+title: Katalogları öğrenen yöneticiler
 description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
 author: loreleishannonmsft
 ms.prod: powerbi
@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: b5a3abd76cd8dd09c89ac62831b3389091ae3bd3
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268547"
 ---
-# <a name="administrators-learning-catalog"></a>Yöneticiler öğrenme kataloğu
+# <a name="administrators-learning-catalog"></a>Katalogları öğrenen yöneticiler
 
 Sistemlerin ve verilerin akışının gün boyunca sürdürülmesi ve bunların sürekli olarak sağlanıp güvenli halde tutulması mı gerekiyor?
 

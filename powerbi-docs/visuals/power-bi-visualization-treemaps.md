@@ -3,21 +3,22 @@ title: Power BI'da ağaç haritaları
 description: Power BI'da ağaç haritaları
 author: mihart
 ms.reviewer: ''
-featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b70e9611b22f1df20d39cdbd338fd5b6bfe1b43d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880733"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866898"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI'da ağaç haritaları
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -39,14 +40,6 @@ Yukarıdaki **Urban** dalında çok sayıda **VanArsdel** giysisi satılmış. D
 
 Her yaprak düğümünün boyutunu ve gölgelendirmesini karşılaştırarak, diğer giysi kategorilerinde satılan öğe sayısı ile karşılaştırma yapabilirsiniz; dikdörtgenler ne kadar büyük ve koyu olursa değer o kadar yüksek olur.
 
-Önce, ağaç haritası oluşturma işleminin gösterildiği bir videoyu izlemek ister misiniz? Bu videoda 2:10'a atlayarak Amanda'nın ağaç haritası oluşturmasını izleyin.
-
-   > [!NOTE]
-   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-treemap"></a>Ağaç haritası ne zaman kullanılır?
 
@@ -75,6 +68,10 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 1. **Perakende Analizi örneği PBIX dosyasını** rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
+
 
 
 **Perakende Analizi Örneği** veri kümesini aldıktan sonra başlayabilirsiniz.

@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 1dfb75595de939f99bf269d67bf9c29a2f0db249
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871624"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Power BI hizmetinde ve Power BI Desktop'ta rapor kaydetme
@@ -38,7 +38,7 @@ Bir Power BI raporunda değişiklik yaptıktan sonra raporu kaydedebilir, yeni b
 ### <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki raporlar](consumer/end-user-reports.md) hakkında daha fazla bilgi edinin
 
-[Power BI hizmetinde tasarımcılar için temel kavramlar](service-basic-concepts.md)
+[Power BI hizmetinde tasarımcılara yönelik temel kavramlar](service-basic-concepts.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

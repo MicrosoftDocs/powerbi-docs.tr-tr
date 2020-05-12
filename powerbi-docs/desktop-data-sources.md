@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207264"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866829"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -139,7 +139,7 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * HDInsight Etkileşimli Sorgu
 * Azure Veri Gezgini (Kusto)
 * Azure Maliyet Yönetimi
-* Azure Time Series Insights (Beta)
+
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -191,6 +191,9 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Quick Base
 * TeamDesk (Beta)
 * Workplace Analytics (Beta)
+* Power BI için Projectplace (Beta)
+* Webtrends Analytics (Beta)
+* Zoho Creator (Beta)
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -213,6 +216,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
+* Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
 * Jamf Pro (Beta)
@@ -220,13 +224,15 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
-* Siteimprove (Beta)
+* Siteimprove
 * SurveyMonkey (Beta)
-* Tenforce (Smart)List (Beta)
 * TIBCO(R) Veri Sanallaştırması (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
+* Tenforce (Smart)List
+* Shortcuts Business Insights (Beta)
+* Vessel Insight (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.

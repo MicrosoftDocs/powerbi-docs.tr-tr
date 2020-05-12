@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802152"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841791"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -131,7 +131,7 @@ Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../desktop-create-phone-report.md)
+* [Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../desktop-create-phone-report.md)
 * [Power BI'da bir panonun telefon görünümünü oluşturma](../../service-create-dashboard-mobile-phone-view.md)
 * [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../../visuals/desktop-create-responsive-visuals.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 3eb8aafca2257bff12d3b248d4f3c1d43708e563
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435411"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841768"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?
 Power BI; iOS, Android ve Windows 10 mobil cihazlar için bir dizi mobil uygulama sunar. Mobil uygulamalarda bulut ve şirket içi verilerinize bağlanıp etkileşimde bulunabilirsiniz. 
@@ -31,7 +31,7 @@ Power BI Desktop'ta raporlar oluşturabilirsiniz. Power BI rapor hizmetinde ([ht
 
 | **Cihaz** | **Öne Çıkanlar** |
 | --- | --- |
-| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhone** cihazlar her yere gidiyor. [iPhone için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) da öyle. Power BI [raporlarınızı özel bir telefon düzeni görünümünde](mobile-apps-view-phone-report.md) görüntülemenin yanı sıra [Power BI'ı Apple Watch'unuza ekleyebilir](mobile-apple-watch.md) ve [Soru-Cevap sanal analisti ile sorular sorabilirsiniz](mobile-apps-ios-qna.md). <br/>[iOS için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) ile çalışmaya başlayın. |
+| [![iPhone](./media/mobile-apps-for-mobile-devices/iphone-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPhone** cihazlar her yere gidiyor. [iPhone için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) da öyle. Power BI [raporlarınızı özel bir mobil cihaz düzeni görünümünde](mobile-apps-view-phone-report.md) görüntülemenin yanı sıra [Power BI'ı Apple Watch'unuza ekleyebilir](mobile-apple-watch.md) ve [Soru-Cevap sanal analisti ile sorular sorabilirsiniz](mobile-apps-ios-qna.md). <br/>[iOS için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) ile çalışmaya başlayın. |
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPad**'deki Power BI mobil uygulaması, panoları ve raporları Power BI hizmeti için biçimlendirildikleri şekilde görüntüler. Bunun yanı sıra [Power BI Rapor Sunucusu ve Reporting Services KPI'lerinizi ve raporlarınızı](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) doğrudan iPad'inizde görüntüleyebilirsiniz. Bir panodaki veriler belirlediğiniz sınırları aşacak şekilde değiştirildiğinde bildirim almak için [Power BI mobil uygulamasında veri uyarıları oluşturabilirsiniz](mobile-set-data-alerts-in-the-mobile-apps.md). <br/>[iOS için Power BI mobil uygulaması](mobile-iphone-app-get-started.md) ile çalışmaya başlayın. |
 | [![Android telefon](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |**Android telefon** için Power BI mobil uygulaması, iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişimle Power BI'ı cebinize sığdırır. [Bir raporu coğrafi konumunuza göre filtreleyebilirsiniz](mobile-apps-geographic-filtering.md). [Android telefonunuzla QR kodlarını tarayabilir](mobile-apps-qr-code.md) ve doğrudan bir Power BI panosuna veya raporuna gidebilirsiniz. <br/>[Android için Power BI mobil uygulaması](mobile-android-app-get-started.md) ile çalışmaya başlayın. |
 | [![Android tablet](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |Bu mobil uygulama, pek çok farklı **Android tablette** çalıştırılabilir ve iş bilgilerinize yönelik güncel ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. Android tabletteki Power BI mobil uygulaması, panoları ve raporları Power BI hizmeti için biçimlendirildikleri şekilde görüntüler. [Sık kullanılan panolarınızı ve raporlarınızı işaretleyebilir](mobile-apps-favorites.md), bu sayede hem pano ve raporlarınıza hem de sık kullandığınız Power BI Rapor Sunucusu ve Reporting Services KPI'leriniz ve raporlarınıza hızla erişim sağlayabilirsiniz. <br/>[Android için Power BI mobil uygulaması](mobile-android-app-get-started.md) ile çalışmaya başlayın. |

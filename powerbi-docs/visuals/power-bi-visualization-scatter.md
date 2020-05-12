@@ -3,32 +3,27 @@ title: Power BI’daki dağılım, kabarcık ve noktalı çizim grafikleri
 description: Power BI’daki dağılım grafiği, noktalı çizim grafikleri ve kabarcık grafikleri
 author: mihart
 ms.reviewer: amac
-featuredvideoid: PVcfPoVE3Ys
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/21/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80273329"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866921"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Dağılım grafiğinde her zaman iki değer ekseni bulunur: biri yatay eksende bir sayısal veri kümesini, diğeri ise dikey eksen üzerinde bir sayısal değer kümesini gösterir. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Power BI bu veri noktalarını yatay eksende eşit olarak veya eşit olmayacak şekilde dağıtılabilir. Bu, grafiğin temsil ettiği verilere bağlıdır.
-
-Will'in bir dağılım grafiği oluşturduğu bu videoyu izleyip aşağıdaki adımları kullanarak kendiniz bir dağılım grafiği oluşturun.
-   > [!NOTE]
-   > Bu videoda Power BI Desktop’ın eski bir sürümü kullanılmaktadır.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 Veri noktalarının sayısını en fazla 10.000 olarak ayarlayabilirsiniz.  
 
@@ -87,6 +82,8 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
 
 ## <a name="create-a-scatter-chart"></a>Dağılım grafiği oluşturma
 

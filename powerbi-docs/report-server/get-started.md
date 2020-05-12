@@ -4,17 +4,17 @@ description: SQL Server Reporting Services (SSRS) ve Power BI hizmetinin geri ka
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/22/2019
+ms.date: 04/29/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 26593f4869d6b8d2c1c206a8bedd3c0d214581b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73859553"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613614"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
@@ -23,7 +23,7 @@ Power BI Rapor Sunucusu, içinde rapor ve KPI’ları görüntüleyip yönettiğ
 ![Power BI Rapor Sunucusu web portalı](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Rapor Sunucusunu karşılaştırma 
-Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI hizmeti gibi Power BI Rapor Sunucusu da Power BI raporlarını (.PBIX), Excel dosyalarını ve sayfalandırılmış raporları (.RDL) barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir. Power BI Rapor Sunucusu'nun özellikleri Reporting Services’in bir üst kümesidir: Reporting Services'de yapabileceğiniz her şeyi ve Power BI raporları desteğiyle birlikte daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
+Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI hizmeti gibi Power BI Rapor Sunucusu da Power BI raporlarını (.pbix), Excel dosyalarını ve sayfalandırılmış raporları (.rdl) barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir. Power BI Rapor Sunucusu'nun özellikleri Reporting Services’in bir üst kümesidir: Reporting Services'de yapabileceğiniz her şeyi ve Power BI raporları desteğiyle birlikte daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Rapor Sunucusunu lisanslama
 Power BI Rapor Sunucusu iki farklı lisansla sağlanır: [Power BI Premium](../service-premium-what-is.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
@@ -41,7 +41,7 @@ Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görü
 [Power BI Rapor Sunucusu web portalı](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode) hakkında daha fazla bilgi.
 
 ## <a name="power-bi-reports"></a>Power BI raporları
-Rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümü ile Power BI raporları (.PBIX) oluşturabilirsiniz. Sonra bu raporları kendi ortamınızdaki web portalında yayımlayıp görüntüleyebilirsiniz.
+Rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümü ile Power BI raporları (.pbix) oluşturabilirsiniz. Sonra bu raporları kendi ortamınızdaki web portalında yayımlayabilir ve görüntüleyebilirsiniz.
 
 ![Power BI Rapor Sunucusundaki Power BI raporları](media/get-started/powerbi-reports.png)
 
@@ -50,11 +50,11 @@ Power BI raporları, bir veri modelinden edinilen farklı bulguları ve öngör�
 [Microsoft Power BI Desktop'ı yükleme](install-powerbi-desktop.md) hakkındaki yazıyı okuyun.
 
 ## <a name="paginated-reports"></a>Sayfalandırılmış raporlar
-Sayfalandırılmış raporlar (.RDL), görseller içeren ve içindeki tabloların tüm verileri göstermek üzere yatay ve dikey yönde genişlediği, gerektiğinde sayfalara yayıldığı belge stili raporlardır. Bu raporlar, PDF ve Word dosyaları gibi yazdırma işlemi için en iyi duruma getirilmiş sabit düzenli, kusursuz kalitede belgeler oluşturmak için idealdir. 
+Sayfalandırılmış raporlar (.rdl), görseller içeren ve içindeki tabloların tüm verileri göstermek üzere yatay ve dikey yönde genişlediği, gerektiğinde sayfalara yayıldığı belge stili raporlardır. Bu raporlar, PDF ve Word dosyaları gibi yazdırma işlemi için en iyi duruma getirilmiş sabit düzenli, kusursuz kalitede belgeler oluşturmak için idealdir. 
 
 ![Power BI Rapor Sunucusundaki sayfalandırılmış raporlar](media/get-started/paginated-reports.png)
 
-[SQL Server Veri Araçları'nda (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) [Rapor Oluşturucusu](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)'nu veya Rapor Tasarımcısı'nı kullanarak sayfalandırılmış raporlar oluşturabilirsiniz.
+[SQL Server Veri Araçları'nda (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)[Rapor Oluşturucusu](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)'nu veya Rapor Tasarımcısı'nı kullanarak sayfalandırılmış raporlar oluşturabilirsiniz.
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services mobil raporları
 Mobil raporlar şirket içi verilere bağlanır ve farklı cihazlara ve cihazları nasıl tuttuğunuza göre uyum sağlayan farklı yöntemlere uyum sağlayan esnek bir düzene sahiptir. Bu raporları SQL Server Mobil Rapor Yayımcısı ile oluşturabilirsiniz.

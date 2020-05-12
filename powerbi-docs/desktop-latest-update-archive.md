@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26b49e1b94db0d6c46639118e3e7cc3218bb4e1e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6c1cf92db936f980a505516ee525a532714c8325
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80551049"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866691"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -32,6 +32,103 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
+
+
+## <a name="march-2020-update-2795768562"></a>Mart 2020 Güncelleştirmesi (2.79.5768.562)
+
+Mart Power BI Desktop’ımızı sizinle paylaştığımız için kendimizi şanslı hissettik. 
+
+[İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 çalıştırıyorsanız, [Microsoft Store](https://aka.ms/pbidesktopstore)'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> Eylül 2019 yayınından itibaren Power BI Desktop desteklenen tüm dilleri içeren tek bir .exe dosyası olarak yayınlanmaktadır. .msi sürümü artık yayınlanmamaktadır.
+
+
+Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki bağlantılar şöyle yorumlanır:
+
+* \[blog\]: Çoğu özellik, aylık güncelleştirme blog gönderisinin bir bölümünde açıklanır.
+* \[video\]: Bazı özelliklerde, özelliği açıklayan ve yeni bir tarayıcı sekmesinde çalınan bir video alıntısı bulunur.
+* \[makale\]: Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir makale bulunur.
+* Kalan özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı gerektirmez.
+
+[Power BI Desktop aylık güncelleştirme videosunun](#power-bi-desktop-monthly-update-video) tamamını da izleyebilirsiniz.
+
+Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+
+
+### <a name="reporting"></a>Raporlama
+* Düğmeler için yeni eylem türleri [[video]](https://youtu.be/DMjvJGGB_LQ?t=45)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_action_types) 
+* Tablolar için çok sütunlu sıralama [[video]](https://youtu.be/DMjvJGGB_LQ?t=414) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Multi-column_sort) 
+* Çizgi grafik için çift eksen [[video]](https://youtu.be/DMjvJGGB_LQ?t=504)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Dual_axis) 
+* Filtre bölmesi araması [[video]](https://youtu.be/DMjvJGGB_LQ?t=553)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Filter_pane_search) 
+* Ayrıştırma ağacı görseli üzerindeki güncelleştirmeler [[video]](https://youtu.be/DMjvJGGB_LQ?t=688)  [[makale]](visuals/power-bi-visualization-decomposition-tree.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_decomp_tree) 
+* Yeni şerit artık varsayılan olarak etkin [[video]](https://youtu.be/DMjvJGGB_LQ?t=785)  [[makale]](desktop-ribbon.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_ribbon) 
+
+
+
+
+### <a name="modeling"></a>Modelleme
+* Yeni DAX işlevi: COALESCE [[video]](https://youtu.be/DMjvJGGB_LQ?t=830)  [[makale]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+) 
+
+### <a name="visuals"></a>Görseller
+* ArcGIS Haritaları üzerindeki güncelleştirmeler [[video]](https://youtu.be/DMjvJGGB_LQ?t=1043)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Updates_to_ArcGIS) 
+* Yeni Power BI görselleri [[video]](https://youtu.be/DMjvJGGB_LQ?t=1025)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Waterfall_chart
+)
+
+
+### <a name="template-apps"></a>Şablon uygulamalar
+* Data Maru tarafından Azure DevOps panosu [[video]](https://youtu.be/DMjvJGGB_LQ?t=1116)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Azure_DevOps_dashboard) 
+* Encamina tarafından TeamsPower [[video]](https://youtu.be/DMjvJGGB_LQ?t=1135)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_TeamsPower)
+
+
+### <a name="data-preparation"></a>Veri hazırlama
+* Sorgu tanılamaları genel kullanıma sunuldu [[video]](https://youtu.be/DMjvJGGB_LQ?t=1144)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Query_diagnostics) 
+
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+* Hive LLAP bağlayıcısı (önizleme) [[video]](https://youtu.be/DMjvJGGB_LQ?t=1165)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Hive_LLAP_connector) 
+* Cognite bağlayıcısı (önizleme) [[video]](https://youtu.be/DMjvJGGB_LQ?t=1165)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Cognite) 
+
+
+### <a name="other-features"></a>Diğer özellikler
+* Gelişmiş veri kümesi meta verileri (önizleme) [[video]](https://youtu.be/DMjvJGGB_LQ?t=1184)  [[makale]](desktop-enhanced-dataset-metadata.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Enhanced_dataset_metadata) 
+* Web proxy için varsayılan sistem kimlik bilgilerini kullanma [[video]](https://youtu.be/DMjvJGGB_LQ?t=1239)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_Using_default_system) 
+* Günlük bir eğitimde yeni eğitmen eşliğinde yönetici [[video]](https://youtu.be/DMjvJGGB_LQ?t=1247)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_administrator) 
+
+
+Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/).
+
+[Power BI hizmetindeki yenilikleri](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikleri](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) gözden geçirin.
+
+> [!NOTE]
+> [Power BI Desktop'ta kullanılabilir veri kaynaklarına](desktop-data-sources.md) bakın. Listemiz sürekli büyüyor, bu nedenle sık sık gözden geçirin.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
+
+> [!VIDEO https://www.youtube.com/embed/DMjvJGGB_LQ]
+
+Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
+
+* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
+* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
+* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
+* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
+
+Önceki sürümü indirmek için bağlantıları izleyin: 
+
+* [Power BI Desktop'ın Mart 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03.exe)
+* [Power BI Desktop'ın Mart 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03_x64.exe)
+
+
+
+
+
+
+
+
 
 
 ## <a name="february-2020-update-2785740642"></a>Şubat 2020 Güncelleştirmesi (2.78.5740.642)
@@ -91,7 +188,7 @@ Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI
 > [Power BI Desktop'ta kullanılabilir veri kaynaklarına](desktop-data-sources.md) bakın. Listemiz sürekli büyüyor, bu nedenle sık sık gözden geçirin.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
 
 > [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
@@ -173,7 +270,7 @@ Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI
 > [Power BI Desktop'ta kullanılabilir veri kaynaklarına](desktop-data-sources.md) bakın. Listemiz sürekli büyüyor, bu nedenle sık sık gözden geçirin.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
 
 > [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
@@ -249,7 +346,7 @@ Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI
 [Power BI hizmetindeki yenilikleri](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikleri](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) gözden geçirin.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
 
 > [!VIDEO https://www.youtube.com/embed/kVli3Vm_kDo]
@@ -344,19 +441,6 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 > [!NOTE]
 > Ayrıca [Power BI hizmetindeki yenilikler](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikler](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) hakkında daha fazla bilgi edinebilirsiniz.
-
-Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
-
-* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
-* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
-* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
-* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
-
-Önceki sürümü indirmek için bağlantıları izleyin: 
-
-* [Power BI Desktop'ın Ekim 2019 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10.exe)
-* [Power BI Desktop'ın Ekim 2019 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-10_x64.exe)
-
 
 
 
