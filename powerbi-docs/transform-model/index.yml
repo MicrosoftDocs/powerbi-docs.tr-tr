@@ -12,70 +12,70 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: 738bc26097120b0075f3ca1ffb0787f241aec982
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d8d30cc860146e904c788dcd374d580d5a3fcf0b
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78924541"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83279124"
 landingContent:
 - title: Verileri dönüştürme ve şekillendirme
   linkLists:
   - linkListType: overview
     links:
     - text: Sorgu düzenleyicisine genel bakış
-      url: ../desktop-query-overview.md
+      url: desktop-query-overview.md
   - linkListType: tutorial
     links:
     - text: Verileri şekillendirme ve birleştirme
-      url: ../desktop-shape-and-combine-data.md
+      url: ../connect-data/desktop-shape-and-combine-data.md
   - linkListType: concept
     links:
     - text: Ortak sorgu görevleri
-      url: ../desktop-common-query-tasks.md
+      url: desktop-common-query-tasks.md
   - linkListType: how-to-guide
     links:
     - text: Dosyaları birleştirme (ikili)
-      url: ../desktop-combine-binaries.md
+      url: desktop-combine-binaries.md
 - title: Verileri modelleme
   linkLists:
   - linkListType: concept
     links:
     - text: Modelleme görünümü
-      url: ../desktop-modeling-view.md
+      url: desktop-modeling-view.md
     - text: Çok-çok ilişkileri
-      url: ../desktop-many-to-many-relationships.md
+      url: desktop-many-to-many-relationships.md
   - linkListType: how-to-guide
     links:
     - text: İlişkiler oluşturma ve yönetme
-      url: ../desktop-create-and-manage-relationships.md
+      url: desktop-create-and-manage-relationships.md
     - text: Verileri kategorilere ayırmayı uygulama
-      url: ../desktop-data-categorization.md
+      url: desktop-data-categorization.md
 - title: Hesaplamalar
   linkLists:
   - linkListType: tutorial
     links:
     - text: DAX ile ilgili temel bilgileri öğrenme
-      url: ../desktop-quickstart-learn-dax-basics.md
+      url: desktop-quickstart-learn-dax-basics.md
     - text: Hesaplanmış sütun oluşturma
-      url: ../desktop-tutorial-create-calculated-columns.md
+      url: desktop-tutorial-create-calculated-columns.md
   - linkListType: concept
     links:
     - text: Hesaplanan tablolar
-      url: ../desktop-calculated-tables.md
+      url: desktop-calculated-tables.md
   - linkListType: how-to-guide
     links:
     - text: Hızlı ölçümleri kullanma
-      url: ../desktop-quick-measures.md
+      url: desktop-quick-measures.md
 - title: Self servis veri hazırlığı
   linkLists:
   - linkListType: overview
     links:
     - text: Power BI’da self servis veri hazırlığı
-      url: ../desktop-quickstart-connect-to-data.md
+      url: ../connect-data/desktop-quickstart-connect-to-data.md
   - linkListType: concept
     links:
     - text: 'Veri akışları: Self servis veri hazırlığı'
-      url: ../service-dataflows-overview.md
+      url: service-dataflows-overview.md
     - text: Veri akışları oluşturma ve kullanma
-      url: ../service-dataflows-create-use.md
+      url: service-dataflows-create-use.md

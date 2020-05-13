@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
-  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "82841591"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83273351"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -40,7 +40,7 @@ landingContent:
     - text: Power Query sorgularına başvurma
       url: power-query-referenced-queries.md
     - text: Veri akışları için en iyi yöntemler
-      url: ../service-dataflows-best-practices.md
+      url: ../transform-model/service-dataflows-best-practices.md
 - title: Veri modelleme
   linkLists:
   - linkListType: concept

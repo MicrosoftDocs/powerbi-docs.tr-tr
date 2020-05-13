@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464685"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275996"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
   - linkListType: get-started
     links:
     - text: Güncelleştirilmiş şeridi kullanma
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: Erişilebilirliğe genel bakış
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: Örnek verileri alma
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: Örnek paketleri içeri aktarma ve açma
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: 'COVID-19 örneği: ABD verileri'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: Rapor temaları
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: Metin kutuları ve şekiller
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: Koşullu tablo biçimlendirmesi
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: Gruplandırma ve gruplamayı kullanma
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: Rapora yer işaretleri ekleme
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: Rapor etkileşimleri tasarlama
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop'taki rapor görünümü
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Soru-Cevap ile verileri keşfetme
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: Raporda detaylandırmayı kullanma
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: Rapora yer işaretleri ekleme
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: Rapora filtre ekleme
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Power BI sayfalandırılmış raporlar
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: Panolara giriş
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: Pano oluşturma
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: Kutucuğu bir panoya sabitleme
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: Panoya görüntü veya video ekleme
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

@@ -21,7 +21,7 @@
             - name: Power Query arka plan yenilemesini devre dışı bırakma
               href: power-query-background-refresh.md
             - name: Veri akışları için en iyi uygulamalar
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: Veri modelleme
           items:
             - name: Yıldız şeması nedir?
@@ -46,7 +46,7 @@
               href: composite-model-guidance.md
         - name: DAX
           items:
-            - name: BÖLME fonksiyonu bölme operatörüne (/) karşı
+            - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
               href: dax-divide-function-operator.md
             - name: Hata işlevlerinin uygun kullanımı
               href: dax-error-functions.md
@@ -110,7 +110,7 @@
               href: monitor-report-performance.md
             - name: Rapor performansı sorunlarını çözme
               href: report-performance-troubleshoot.md
-    - name: Teknik İncelemeler
+    - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
           href: whitepapers.md

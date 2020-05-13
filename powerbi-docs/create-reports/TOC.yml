@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: Rapor düzenleyicisi turu
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: Sayfalandırılmış raporlar nedir?
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: Öğreticiler
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: Power BI için örnek alma
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: COVID-19 ABD örneği
           href: sample-covid-19-us.md
         - name: Müşteri Kârlılığı örneği
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: BT Harcama Analizi örneği
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: İnsan Kaynakları örneği
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: Fırsat Analizi örneği
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: Tedarik Analizi örneği
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: Perakende Analizi örneği
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: Perakende Analizi örneğini araştırma
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: Satış ve Pazarlama örneği
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: Tedarikçi Kalite Analizi örneği
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: Financial Sample çalışma kitabını indirme
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: Kavramlar
       expanded: true
       items:
         - name: Power BI raporları
           items:
             - name: Rapor görünümü ile çalışma
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: Raporlardaki filtre türleri
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: Raporlarda filtreleme ve vurgulama
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: Yüksek yoğunluklu çizgi örnekleme
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: Soru-Cevap görselleri hakkında
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Erişilebilirlik hakkında
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: Doğal dil Soru-Cevap
               items:
                 - name: Soru-Cevap’a giriş
@@ -112,107 +112,107 @@
         - name: Power BI raporları
           items:
             - name: Otomatik sayfa yenilemeyi etkinleştirme (önizleme)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: Performans Analizi ile rapor öğelerini inceleme
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: Raporlara görsel öğe ekleme
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: Görsellerinizi iyileştirmek için rapor araç ipuçları ekleme
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: Raporları PDF dosyaları halinde dışarı aktarma
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: Görsellerdeki dalgalanmaları açıklamak için içgörüleri uygulama (önizleme)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: Dağıtımların nasıl farklılık gösterdiğini saptamak için içgörüleri kullanma (önizleme)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: Düğme oluşturma
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: Detaylandırma düğmeleri oluşturma
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: Detaylandırma özelliğini kullanma
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: Raporlar arası detaylandırma özelliğini kullanma
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: İçgörüleri kaydetmek ve paylaşmak için yer işaretleri oluşturma
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: Rapor temaları ile çalışma
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: Raporlardaki filtrelerle çalışma
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: Rapora filtre ekleme
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: Gruplandırma ve gruplamayı uygulama
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini uygulama
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: Raporlara sayfa görüntüleme ayarlarını uygulama
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: Örnekten sütun ekleme
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: Özel sütun ekleme
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: Satır içi hiyerarşi etiketlerini kullanma
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: Dilimleyiciler
               href: ../visuals/power-bi-visualization-slicers.md
             - name: Sayısal aralık dilimleyicileri
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: Göreli tarih dilimleyicileri ve filtreleri
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: Göreli saat dilimleyicileri ve filtreleri
               href: slicer-filter-relative-time.md
             - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: Dilimleyiciye birden çok alan ekleme
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Satır düzeyi güvenlik ile veri erişimini kısıtlama
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: Araç ipuçlarını özelleştirme
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: Raporlara metin kutusu ve şekil ekleme
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: Metin kutularına köprü ekleme
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: Tabloya köprü ekleme
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: 'Resimleri tablo, matris veya dilimleyicide görüntüleme'
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: Özel biçim dizelerini görüntüleme
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: Koşullu tablo biçimlendirmesi uygulama
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: 'Dinamik, ifade tabanlı başlıklar oluşturma'
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: Sütuna göre sıralama
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: Mobil uygulamalar için raporları iyileştirme
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: Verileri Görüntüle ve Kayıtları Görüntüle seçeneklerini uygulama
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: Rapor oluşturmaya ilişkin ipuçları ve püf noktaları
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: Rapordaki görselleri gruplama
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: Rapor şablonları oluşturma
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: Bir veri kümesinden rapor oluşturma
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: Raporu kaydetme
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: Excel’de Analiz Et
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: Hizmetteki kümelerle çalışma
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: Rapor için QR kodu oluşturma
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: Tüketicilerin görselleri özelleştirmesine izin verme (Önizleme)
               href: power-bi-personalize-visuals.md
             - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: Veri kümelerini ve raporları yayımlama
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: Görselleştirmeler
           items:
             - name: Rapora görsel ekleme (1. bölüm)
@@ -226,7 +226,7 @@
             - name: 'Görsel başlıklarını, arka planlarını ve açıklamalarını özelleştirme'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: Veri içermeyen öğeleri göster
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
               href: ../visuals/power-bi-data-points.md
             - name: Görselin temel alınan verilerini görüntüleme
@@ -242,7 +242,7 @@
             - name: 'Raporlardaki görselleri taşıma, yeniden boyutlandırma ve çıkarma'
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: Bir rapordaki görsellerin etkileşim kurma biçimini değiştirme
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: Harita görselleştirmeleri için ipuçları ve püf noktaları
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: X ekseni ve Y ekseni özelliklerini özelleştirme
@@ -276,9 +276,9 @@
             - name: R görselleri
               href: ../visuals/service-r-visuals.md
             - name: R ile Power BI görselleri oluşturma
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: R destekli Power BI görsellerini indirme ve kullanma
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: Radyal ölçer grafikleri
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: Şerit grafikler
@@ -304,29 +304,29 @@
             - name: Soru-Cevap en iyi yöntemler
               href: ../natural-language/q-and-a-best-practices.md
             - name: Verilerinizi keşfetmek için Soru-Cevap kullanma
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: Soru-Cevap özelliğiyle görsel oluşturma
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Soru-Cevap özelliğiyle Excel verilerinin düzgün çalışmasını sağlama
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: Soru-Cevap için öne çıkan sorular oluşturma
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: Canlı bağlantılarla Soru-Cevap özelliğini kullanma
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: Hızlı İçgörüler
-              href: ../service-insights.md
+              href: service-insights.md
             - name: Hızlı İçgörüler için verileri iyileştirme
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: Erişilebilirlik
           items:
             - name: Erişilebilir raporlar tasarlama
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: Erişilebilirlik araçlarıyla rapor oluşturma
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: Erişilebilirlik özellikleriyle raporları kullanma
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop klavye kısayolları
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: Sayfalandırılmış raporlar
           items:
             - name: Verileri doğrudan sayfalandırılmış bir rapora girme
@@ -350,39 +350,39 @@
         - name: Panolar
           items:
             - name: Panolara giriş
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: Pano kutucukları
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: Rapordan pano oluşturma
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: Panonuzun kopyasını oluşturma
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: Rapordan kutucukları panolara sabitleme
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: Bir panodaki kutucukları diğer panoya sabitleme
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: Excel'den kutucukları panolara sabitleme
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: Soru-Cevap'tan kutucukları panolara sabitleme
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: Rapor sayfasının tamamını panoya sabitleme
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: Hizmette veri uyarıları
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: 'Panoya resim, metin kutusu, video veya kod ekleme'
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: Kutucukları düzenleme
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: Harika bir pano oluşturmaya yönelik ipuçları
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: Panoyu telefonlar için iyileştirme
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: Bir kutucuk için QR kodu oluşturma
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: Pano veri sınıflandırması
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: Pano temaları
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: Dağıtım işlem hatları
           items:
             - name: Kullanmaya başlayın
@@ -392,8 +392,8 @@
         - name: Diğer görevler
           items:
             - name: İçeriği yeniden adlandırma
-              href: ../service-rename.md
+              href: service-rename.md
             - name: Öğelerin ilgili kişilerini ayarlama
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: Neredeyse her şeyi silme
-              href: ../service-delete.md
+              href: service-delete.md

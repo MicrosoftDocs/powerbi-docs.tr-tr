@@ -6,114 +6,114 @@
       expanded: true
       items:
         - name: Sorgu Düzenleyicisi’ne genel bakış
-          href: ../desktop-query-overview.md
+          href: desktop-query-overview.md
         - name: Veri akışları ile self servis veri hazırlığı
-          href: ../service-dataflows-overview.md
+          href: service-dataflows-overview.md
     - name: Öğreticiler
       expanded: true
       items:
         - name: Kendi ölçülerinizi oluşturma
-          href: ../desktop-tutorial-create-measures.md
-        - name: Hesaplanan sütunlar oluşturma
-          href: ../desktop-tutorial-create-calculated-columns.md
+          href: desktop-tutorial-create-measures.md
+        - name: Hesaplanmış sütun oluşturma
+          href: desktop-tutorial-create-calculated-columns.md
     - name: Kavramlar
       expanded: true
       items:
         - name: Model ilişkilerini anlama
-          href: ../desktop-relationships-understand.md
+          href: desktop-relationships-understand.md
         - name: Modelleme görünümü ile çalışma
-          href: ../desktop-modeling-view.md
+          href: desktop-modeling-view.md
         - name: Toplamaları yönet
-          href: ../desktop-aggregations.md
+          href: desktop-aggregations.md
         - name: Bileşik modelleri kullanma
-          href: ../desktop-composite-models.md
+          href: desktop-composite-models.md
         - name: Çoka çok ilişkileri kullanma
-          href: ../desktop-many-to-many-relationships.md
+          href: desktop-many-to-many-relationships.md
         - name: Depolama modunu yönetme
-          href: ../desktop-storage-mode.md
+          href: desktop-storage-mode.md
         - name: Çift yönlü çapraz filtrelemeyi etkinleştirme
-          href: ../desktop-bidirectional-filtering.md
+          href: desktop-bidirectional-filtering.md
         - name: Power BI’da çok boyutlu modellerle çalışma
-          href: ../desktop-default-member-multidimensional-models.md
+          href: ../connect-data/desktop-default-member-multidimensional-models.md
     - name: Nasıl yapılır kılavuzları
       items:
         - name: Ortak sorgu görevlerini gerçekleştirme
-          href: ../desktop-common-query-tasks.md
+          href: desktop-common-query-tasks.md
         - name: İlişkiler oluşturma ve yönetme
-          href: ../desktop-create-and-manage-relationships.md
+          href: desktop-create-and-manage-relationships.md
         - name: Analiz bölmesini kullanma
-          href: ../desktop-analytics-pane.md
+          href: desktop-analytics-pane.md
         - name: Veri görünümü ile çalışma
-          href: ../desktop-data-view.md
+          href: ../connect-data/desktop-data-view.md
         - name: DAX ile ilgili temel bilgileri uygulama
-          href: ../desktop-quickstart-learn-dax-basics.md
+          href: desktop-quickstart-learn-dax-basics.md
         - name: İlişki görünümü ile çalışma
-          href: ../desktop-relationship-view.md
+          href: desktop-relationship-view.md
         - name: Verileri dönüştürme ve şekillendirme
           items:
             - name: Dosyaları birleştirme (ikili)
-              href: ../desktop-combine-binaries.md
+              href: desktop-combine-binaries.md
             - name: Yapay Zeka İçgörüleri'ni kullanma (önizleme)
-              href: ../desktop-ai-insights.md
-        - name: Veri modeli oluşturma
+              href: desktop-ai-insights.md
+        - name: Verilerinizi modelleme
           items:
             - name: Yaygın hesaplamalar için hızlı ölçüler özelliğini oluşturma
-              href: ../desktop-quick-measures.md
+              href: desktop-quick-measures.md
             - name: Değişkenleri görselleştirmek için durum parametrelerini oluşturma ve kullanma
-              href: ../desktop-what-if.md
+              href: desktop-what-if.md
             - name: Power BI Desktop’ta veri kategorilerini belirtme
-              href: ../desktop-data-categorization.md
+              href: desktop-data-categorization.md
             - name: Mobil uygulama için Power BI’da barkod alanlarını etiketleme
-              href: ../desktop-mobile-barcodes.md
+              href: desktop-mobile-barcodes.md
             - name: Mobil uygulama için Power BI’da coğrafi filtreler ayarlama
-              href: ../desktop-mobile-geofiltering.md
-            - name: Hesaplanan sütunlar oluşturma
-              href: ../desktop-calculated-columns.md
+              href: desktop-mobile-geofiltering.md
+            - name: Hesaplanmış sütun oluşturma
+              href: desktop-calculated-columns.md
             - name: Hesaplanmış tablo oluşturma
-              href: ../desktop-calculated-tables.md
+              href: desktop-calculated-tables.md
             - name: Veri analizi için ölçü oluşturma
-              href: ../desktop-measures.md
+              href: desktop-measures.md
             - name: KPI'leri içeri aktarma ve görüntüleme
-              href: ../desktop-import-and-display-kpis.md
+              href: desktop-import-and-display-kpis.md
             - name: Otomatik tarih ve saati uygulama
-              href: ../desktop-auto-date-time.md
+              href: desktop-auto-date-time.md
         - name: Self servis veri hazırlığı
           items:
             - name: Veri akışları oluşturma ve kullanma
-              href: ../service-dataflows-create-use.md
+              href: service-dataflows-create-use.md
             - name: Veri akışlarını yükseltme veya onaylama
               href: service-dataflows-promote-certify.md
             - name: Geliştirilmiş işlem altyapısını veri akışları ile kullanma
-              href: ../service-dataflows-enhanced-compute-engine.md
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Power BI Premium ile hesaplanan varlıklar
-              href: ../service-dataflows-computed-entities-premium.md
+              href: service-dataflows-computed-entities-premium.md
             - name: İş akışları ile veri kaynaklarına bağlanma
-              href: ../service-dataflows-data-sources.md
+              href: service-dataflows-data-sources.md
             - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
-              href: ../service-dataflows-on-premises-gateways.md
+              href: service-dataflows-on-premises-gateways.md
             - name: Veri akışları arasındaki varlıkları ilişkilendirme
-              href: ../service-dataflows-linked-entities.md
+              href: service-dataflows-linked-entities.md
             - name: Veri akışları ile artımlı yenilemeyi kullanma
-              href: ../service-dataflows-incremental-refresh.md
+              href: service-dataflows-incremental-refresh.md
             - name: Veri akışları için geliştirici kaynakları
-              href: ../service-dataflows-developer-resources.md
+              href: service-dataflows-developer-resources.md
             - name: Power BI Desktop’taki veri akışlarına bağlanma
-              href: ../desktop-connect-dataflows.md
-            - name: Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
-              href: ../service-dataflows-azure-data-lake-integration.md
+              href: desktop-connect-dataflows.md
+            - name: Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
+              href: service-dataflows-azure-data-lake-integration.md
             - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
-              href: ../service-dataflows-connect-azure-data-lake-storage-gen2.md
-            - name: Çalışma alanının veri akışı ayarlarını yapılandırma (Önizleme)
-              href: ../service-dataflows-configure-workspace-storage-settings.md
+              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+            - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
+              href: service-dataflows-configure-workspace-storage-settings.md
             - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
-              href: ../service-dataflows-add-cdm-folder.md
+              href: service-dataflows-add-cdm-folder.md
             - name: Power BI’da Machine Learning’i tümleştirme
-              href: ../service-machine-learning-integration.md
+              href: service-machine-learning-integration.md
             - name: Power BI’da Bilişsel Hizmetler’i kullanma
-              href: ../service-cognitive-services.md
+              href: service-cognitive-services.md
             - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
-              href: ../service-machine-learning-automated.md
+              href: service-machine-learning-automated.md
     - name: Başvuru
       items:
         - name: Formül düzenleyicisi kısayolları
-          href: ../desktop-formula-editor.md
+          href: desktop-formula-editor.md

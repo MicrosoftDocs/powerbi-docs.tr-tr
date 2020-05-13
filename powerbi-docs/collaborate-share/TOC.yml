@@ -6,88 +6,88 @@
       expanded: true
       items:
         - name: Çalışmanızı paylaşmanın yolları
-          href: ../service-how-to-collaborate-distribute-dashboards-reports.md
+          href: service-how-to-collaborate-distribute-dashboards-reports.md
     - name: Kavramlar
       expanded: true
       items:
         - name: Çalışma alanında işleri düzenleme
-          href: ../service-new-workspaces.md
+          href: service-new-workspaces.md
         - name: Klasik çalışma alanlarında kullanımı izleme
-          href: ../service-usage-metrics.md
+          href: service-usage-metrics.md
         - name: Yeni çalışma alanlarında kullanımı izleme
-          href: ../service-modern-usage-metrics.md
+          href: service-modern-usage-metrics.md
     - name: Nasıl yapılır kılavuzları
       expanded: true
       items:
         - name: Power BI'da işbirliği
           items:
             - name: Yeni çalışma alanları oluşturma
-              href: ../service-create-the-new-workspaces.md
+              href: service-create-the-new-workspaces.md
             - name: Çalışma alanlarının yeni görünümünü kullanmaya başlama
               href: service-workspaces-new-look.md
             - name: Klasik çalışma alanları yükseltme
-              href: ../designer/service-upgrade-workspaces.md
+              href: ../collaborate-share/service-upgrade-workspaces.md
             - name: Çalışma alanı oluşturma
-              href: ../service-create-workspaces.md
+              href: service-create-workspaces.md
             - name: Çalışma alanlarındaki uygulamaları yayımlama
-              href: ../service-create-distribute-apps.md
+              href: service-create-distribute-apps.md
             - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
-              href: ../service-admin-manage-your-data-storage-in-power-bi.md
+              href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
             - name: Veri kökeni
               href: service-data-lineage.md
             - name: Veri kümesi etki analizi
               href: service-dataset-impact-analysis.md
             - name: Veri duyarlılık etiketleri uygulama
-              href: ../designer/service-security-apply-data-sensitivity-labels.md
+              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
             - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
-              href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
+              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Klasik bir çalışma alanında işbirliği yapma
-              href: ../service-collaborate-power-bi-workspace.md
+              href: service-collaborate-power-bi-workspace.md
             - name: Power BI ve Office 365'teki grubunuzu yönetme
-              href: ../service-manage-app-workspace-in-power-bi-and-office-365.md
+              href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Çalışmanızı yayımlama ve paylaşma
           items:
             - name: Panoları ve raporları paylaşma
-              href: ../service-share-dashboards.md
+              href: service-share-dashboards.md
             - name: Rapor filtreleme ve paylaşma
-              href: ../service-share-reports.md
+              href: service-share-reports.md
             - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
-              href: ../service-url-filters.md
+              href: service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama
-              href: ../service-report-subscribe.md
+              href: service-report-subscribe.md
             - name: Giriş sayfasındaki özellik içeriği
               href: service-featured-content.md
             - name: Microsoft Teams’e rapor ekleme
-              href: ../service-embed-report-microsoft-teams.md
+              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online'a rapor ekleme
-              href: ../service-embed-report-spo.md
+              href: service-embed-report-spo.md
             - name: Raporu güvenli bir portala veya web sitesine ekleme
-              href: ../service-embed-secure.md
+              href: service-embed-secure.md
             - name: Power BI'dan web'de yayımlama
-              href: ../service-publish-to-web.md
+              href: service-publish-to-web.md
             - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
-              href: ../service-share-dashboard-that-links-to-excel-onedrive.md
+              href: service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Power BI’ı Genişletme
           items:
             - name: Excel’de Analiz Et
-              href: ../service-analyze-in-excel.md
+              href: service-analyze-in-excel.md
             - name: Excel’de çözümleme sorunlarını giderme
-              href: ../desktop-troubleshooting-analyze-in-excel.md
+              href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
-              href: ../service-admin-troubleshoot-excel-workbook-data.md
+              href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate ve Power BI
-              href: ../service-flow-integration.md
+              href: service-flow-integration.md
             - name: Üçüncü taraf uygulamaları kullanma
-              href: ../service-power-bi-get-started-third-party-apps.md
+              href: service-power-bi-get-started-third-party-apps.md
         - name: Kurumsal içerik paketleri
           items:
             - name: Kurumsal içerik paketlerine giriş
-              href: ../service-organizational-content-pack-introduction.md
+              href: service-organizational-content-pack-introduction.md
             - name: İçerik paketi oluşturma ve yayımlama
-              href: ../service-organizational-content-pack-create-and-publish.md
+              href: service-organizational-content-pack-create-and-publish.md
             - name: 'İçerik paketlerini kopyalama, yenileme ve bunlara erişme'
-              href: ../service-organizational-content-pack-copy-refresh-access.md
+              href: service-organizational-content-pack-copy-refresh-access.md
             - name: 'İçerik paketlerini yönetme, güncelleştirme ve silme'
-              href: ../service-organizational-content-pack-manage-update-delete.md
+              href: service-organizational-content-pack-manage-update-delete.md
             - name: İçerik paketi bağlantısını kesme
-              href: ../service-organizational-content-pack-disconnect.md
+              href: service-organizational-content-pack-disconnect.md

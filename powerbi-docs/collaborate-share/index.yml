@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79112780"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275191"
 landingContent:
 - title: İşbirliği yapmaya ve çalışmaya başlama
   linkLists:
   - linkListType: overview
     links:
     - text: Çalışmanızı paylaşmanın yolları
-      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
 - title: İş arkadaşlarınızla işbirliği yapma
   linkLists:
   - linkListType: concept
     links:
     - text: Çalışma alanları arasında veri kümelerine giriş
-      url: ../service-datasets-across-workspaces.md
+      url: ../connect-data/service-datasets-across-workspaces.md
     - text: Paylaşılan veri kümeleri için oluşturma izinleri
-      url: ../service-datasets-build-permissions.md
+      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: Yeni çalışma alanlarında çalışmayı düzenleme
-      url: ../service-new-workspaces.md
+      url: service-new-workspaces.md
 - title: Çalışmanızı paylaşma
   linkLists:
   - linkListType: concept
     links:
     - text: Uygulamayı yayımlama
-      url: ../service-create-distribute-apps.md
+      url: service-create-distribute-apps.md
     - text: Kullanım ölçümlerini izleme
-      url: ../service-modern-usage-metrics.md
+      url: service-modern-usage-metrics.md
   - linkListType: how-to-guide
     links:
     - text: Raporları ve panoları paylaşma
-      url: ../service-share-dashboards.md
+      url: service-share-dashboards.md
     - text: Rapor filtreleme ve paylaşma
-      url: ../service-share-reports.md
+      url: service-share-reports.md
     - text: Veri kümesini paylaşma
-      url: ../service-datasets-share.md
+      url: ../connect-data/service-datasets-share.md
 - title: Diğer hizmetlerle tümleştirme
   linkLists:
   - linkListType: concept
     links:
     - text: Azure ve Power BI
-      url: ../service-azure-and-power-bi.md
-    - text: Excel’de çözümleme
-      url: ../service-analyze-in-excel.md
+      url: ../connect-data/service-azure-and-power-bi.md
+    - text: Excel’de Analiz Et
+      url: service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
-    - text: SharePoint Online'a ekleme
-      url: ../service-embed-report-spo.md
+    - text: SharePoint Online'a ekle
+      url: service-embed-report-spo.md

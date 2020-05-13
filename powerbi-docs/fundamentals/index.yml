@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439607"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348793"
 landingContent:
 - title: Power BI nedir?
   linkLists:
   - linkListType: overview
     links:
     - text: Power BI nedir?
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Power BI Desktop nedir?
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: Power BI hizmeti nedir?
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Power BI Desktop ile hizmeti karşılaştırma
-      url: ../service-service-vs-desktop.md
+      url: service-service-vs-desktop.md
 - title: Yenilikler
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop'taki Yenilikler
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: Hizmetteki yenilikler nelerdir?
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: Learn ile çalışmaya başlama
   linkLists:
   - linkListType: learn
@@ -52,16 +52,16 @@ landingContent:
   - linkListType: concept
     links:
     - text: Power BI'a kaydolma
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: Lisans türüne göre özellikler
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: Kaynaklar
   linkLists:
   - linkListType: reference
     links:
     - text: Power BI videoları
-      url: ../videos.md
+      url: videos.md
     - text: Power BI Desktop videoları
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: Web Seminerleri
-      url: ../webinars.md
+      url: webinars.md
