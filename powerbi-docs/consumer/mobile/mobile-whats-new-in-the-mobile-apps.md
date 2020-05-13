@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841722"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349276"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
 * [Mobil uygulamalar için Power BI ekip blogu](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Power BI Desktop'taki yenilikler](../../desktop-latest-update.md)  
-* [Power BI hizmetindeki yenilikler](../../service-whats-new.md)
+* [Power BI Desktop'taki yenilikler](../../fundamentals/desktop-latest-update.md)  
+* [Power BI hizmetindeki yenilikler](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 
 ### <a name="june-2107"></a>Haziran 2107
 #### <a name="all-devices"></a>Tüm cihazlar
-**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../../service-create-distribute-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
+**Uygulamaları sık kullanılanlara ekleme** Mevcut sürümde panoları sık kullanılanlara ekleyebiliyorsunuz. Kısa bir süre önce [Power BI, uygulamalar özelliğini de kullanıma sundu](../../collaborate-share/service-create-distribute-apps.md) ve artık uygulamaları da sık kullanılanlara ekleyebilirsiniz. 
 
 ### <a name="may-2017"></a>Mayıs 2017
 #### <a name="all-devices"></a>Tüm cihazlar
@@ -493,7 +493,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 [Nisan 2017 güncelleştirmesi ile kullanıma sunulan mobil uygulama özelliklerine ilişkin özete](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/) göz atın
 
 #### <a name="all-devices"></a>Tüm cihazlar
-**Telefon raporları için arka plan rengi** Power BI Desktop'ta bir rapor için arka plan rengi tanımladığınızda telefon raporunda da aynı arka plan rengi görüntülenir. [Rapor sayfalarını telefonlar için en iyi duruma getirme](../../desktop-create-phone-report.md) hakkında daha fazla bilgi edinin.
+**Telefon raporları için arka plan rengi** Power BI Desktop'ta bir rapor için arka plan rengi tanımladığınızda telefon raporunda da aynı arka plan rengi görüntülenir. [Rapor sayfalarını telefonlar için en iyi duruma getirme](../../create-reports/desktop-create-phone-report.md) hakkında daha fazla bilgi edinin.
 
 **Mobil cihaz dostu Power BI görselleri geliştirin** Mobil cihazlarda düzgün görünen ve çalışan Power BI görselleri oluşturmaya ilişkin ipuçları için bu [Geliştirici kılavuzuna](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) göz atın.
 
@@ -553,7 +553,7 @@ Bu menü, iOS işletim sistemi ve Android tabletler için ilk kez kullanıma sun
 #### <a name="all-devices"></a>Tüm cihazlar
 **Tablo ve matrislerde 100'den fazla satır yükleme** Artık, panonuzda veya raporunuzda çok büyük bir tablo ya da matris olması halinde kutucukta olabildiğince fazla sayıda veri gösteriyoruz. Odak modunda aşağı kaydırma hareketiyle diğer satırları yükleyebileceksiniz.
 
-**Telefon raporu - genel kullanım** Power BI telefon raporları artık genel kullanıma sunuldu. Power BI Desktop'ta, mobil cihaz kullanıcıları için, mevcut bir raporun dikey görünümünü özelleştirebilirsiniz. [Power BI Desktop'ta telefon raporları yazma](../../desktop-create-phone-report.md) ve [telefonlarda rapor deneyimi](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
+**Telefon raporu - genel kullanım** Power BI telefon raporları artık genel kullanıma sunuldu. Power BI Desktop'ta, mobil cihaz kullanıcıları için, mevcut bir raporun dikey görünümünü özelleştirebilirsiniz. [Power BI Desktop'ta telefon raporları yazma](../../create-reports/desktop-create-phone-report.md) ve [telefonlarda rapor deneyimi](mobile-apps-view-phone-report.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="ios"></a>iOS
 **Active Directory Federasyon Hizmetleri (AD FS) Önizlemesini kullanarak SSRS Kimlik Doğrulaması** Artık kuruluş hesabınız ile mobil cihazınızı kullanarak şirket içi SQL Server Reporting Services sunucularında oturum açabilirsiniz. [SSRS sunucularına bağlanmak için OAuth yöntemini kullanma](mobile-oauth-ssrs.md) hakkında daha fazla bilgi edinin.
@@ -644,7 +644,7 @@ Bulunduğunuz konuma yakın verilere odaklanmak için **haritaları ortalama**
 #### <a name="all-phones"></a>Tüm telefonlar
 **Sık Kullanılanlar** Sık kullandığınız panoları tüm Power BI mobil uygulamalarında görüntülemenin yanı sıra, iOS işletim sistemi yüklü cihazlar ve Windows 10 cihazlarındaki Power BI mobil uygulamalarında sık kullanılanlar listesini yönetebilirsiniz. [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 
-**Pano verilerini sınıflandırma** Pano sahiplerinin, panoları için atamış oldukları veri sınıflandırmalarını görebilirsiniz. [Panoları sınıflandırma](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
+**Pano verilerini sınıflandırma** Pano sahiplerinin, panoları için atamış oldukları veri sınıflandırmalarını görebilirsiniz. [Panoları sınıflandırma](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 
 **Veri temelli uyarılar** Verileriniz KPI, ölçek ve kart kutucukları için önceden belirlenmiş yollarla değiştirildiğinde bir uyarı alırsınız. Aşağıdakiler hakkında daha fazla bilgi edinin:
 
@@ -659,14 +659,14 @@ Bulunduğunuz konuma yakın verilere odaklanmak için **haritaları ortalama**
 
 **Intune MAM desteği** Microsoft Intune mobil uygulama yönetimi (MAM) özelliklerine yönelik destek kullanıma sunuldu.
 
-[Power BI mobil uygulamalarındaki Microsoft Intune](../../service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin.
+[Power BI mobil uygulamalarındaki Microsoft Intune](../../admin/service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="windows-10-devices"></a>Windows 10 cihazları
 **Tam ekran ve sunu modları** Windows 10 cihazlarında raporları Surface Hub sunu modunda açabilirsiniz. Ayrıca panoları, raporları ve kutucukları tam ekran modunda görüntüleyebilirsiniz.
 
 ### <a name="july-2016"></a>Temmuz 2016
 #### <a name="all-phones"></a>Tüm telefonlar
-Power BI hizmetinde artık [panoların telefonda kullanıma yönelik görünümlerini](../../service-create-dashboard-mobile-phone-view.md) dikey modda oluşturabilirsiniz. 
+Power BI hizmetinde artık [panoların telefonda kullanıma yönelik görünümlerini](../../create-reports/service-create-dashboard-mobile-phone-view.md) dikey modda oluşturabilirsiniz. 
 
 #### <a name="android-phones"></a>Android telefonlar
 **Sık Kullanılanlar sekmesi** Sık kullandığınız tüm panolarınıza tek bir konumdan erişebilirsiniz.
@@ -795,7 +795,7 @@ Ocak ayında yapılan iyileştirmelerin tümü, Aralık 2015'te kullanıma sunul
 
 **R kutucukları ve web pencere öğeleri** Mobil cihazınızdaki panolarda bu yeni kutucuk türlerini görüntüleyin.
 
-**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../../service-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
+**Bing panoları** Power BI hizmetinde artık [Bing arama sonuçları ile panolar](../../connect-data/service-connect-to-services.md) oluşturup bunları mobil cihazınızda görüntüleyebilirsiniz.
 
 **Panolara kutucuk olarak sabitlenen rapor sayfaları** Rapor sayfalarının tamamını Power BI hizmetindeki panolara sabitleyebilir ve rapor sayfalarını iPhone'unuzda veya Android telefonunuzda Power BI uygulamasında görüntüleyebilirsiniz.
 
@@ -805,41 +805,42 @@ Power BI ekibi, 2015 yılını birkaç önemli özellik ve güncelleştirme ile 
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>iOS'te SQL Server 2016 Reporting Services mobil raporları
 Artık SQL Server mobil raporlarınızı iOS cihazlarınızdaki (hem iPad hem de iPhone) Power BI uygulamasında görüntüleyebilirsiniz. Daha fazla bilgi edinin:
 
-* [SQL 16 SSRS on Power BI app for iOS (iOS için Power BI uygulamasında SQL 16 SSRS)](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) blog gönderisi
+* [SQL 16 SSRS on Power BI app for iOS (iOS için Power BI uygulamasında SQL 16 SSRS)](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+) blog gönderisi
 * [iPhone ve iPad uygulamalarında SQL Server mobil raporları ve KPI'leri](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) konulu belgeye göz atın
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Windows 10 telefonları için Power BI uygulaması
 Windows 10 telefonları için yeni Power BI uygulaması, dokunma deneyimi ve mobil verimlilik için iyileştirildi. Panoları ve raporları inceleyebilir, verileri görüntülemeleri için iş arkadaşlarınızı davet edebilir ve ekibinizle etkileşim kurmak için öngörüleri e-posta aracılığıyla paylaşabilirsiniz. Ayrıca artık [Power BI panolarını Windows telefonunuzun Başlangıç ekranına sabitleyebilirsiniz](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 
-* [Windows 10 telefonları için Power BI uygulaması ile ilgili blog gönderisini](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx) okuyun.
+* [Windows 10 telefonları için Power BI uygulaması ile ilgili blog gönderisini](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/) okuyun.
 * [Windows 10 telefonları için Power BI uygulaması ile çalışmaya başlayın](mobile-windows-10-phone-app-get-started.md).
 
 #### <a name="other-additions"></a>Diğer yenilikler
-Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Aralık ayında yapılan güncelleştirmelere ilişkin blog gönderisine](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx) göz atın.
+Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Aralık ayında yapılan güncelleştirmelere ilişkin blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/) göz atın.
 
 * İş arkadaşlarınız sizinle bir pano paylaştığında bildirim alırsınız. (iOS)
 * Panolarınızda sabitlenen rapor sayfalarının tamamını görüntüleyebilirsiniz. (iOS ve Android)
-* Android telefonunuzda [QR kodlarını tarayarak](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx) ilgili kutucuklara doğrudan gidebilirsiniz.
+* Android telefonunuzda [QR kodlarını tarayarak](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/) ilgili kutucuklara doğrudan gidebilirsiniz.
 
 ### <a name="november-2015"></a>Kasım 2015
-[Power BI mobil uygulamaları için Kasım 2015 güncelleştirmesine ilişkin blog gönderisine](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx) göz atın.
+[Power BI mobil uygulamaları için Kasım 2015 güncelleştirmesine ilişkin blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/) göz atın.
 
 #### <a name="all-power-bi-mobile-apps"></a>Tüm Power BI mobil uygulamaları
 * Yeni bir karşılama deneyimi.
 * İyileştirilmiş grafik veri kapasitesi.
 
 #### <a name="ios-and-android-mobile-apps"></a>iOS ve Android mobil uygulamaları
-* Kuruluşlar artık [iOS ve Android işletim sistemlerine yönelik Power BI mobil uygulamalarını Microsoft Intune ile yapılandırarak](../../service-admin-mobile-intune.md) cihazları ve uygulamaları yönetebilir.
+* Kuruluşlar artık [iOS ve Android işletim sistemlerine yönelik Power BI mobil uygulamalarını Microsoft Intune ile yapılandırarak](../../admin/service-admin-mobile-intune.md) cihazları ve uygulamaları yönetebilir.
 
 #### <a name="iphone-mobile-app"></a>iPhone mobil uygulaması
 * Doğrudan iPhone'unuzdan [panolara resim kutucukları ekleyin](mobile-iphone-app-get-started.md).
-* [Power BI hizmetinde QR kodları oluşturup](../../service-create-qr-code-for-tile.md) iPhone'unuzda bu kodları tarayarak Power BI uygulamasında belirli bir kutucuğu açabilirsiniz.
+* [Power BI hizmetinde QR kodları oluşturup](../../create-reports/service-create-qr-code-for-tile.md) iPhone'unuzda bu kodları tarayarak Power BI uygulamasında belirli bir kutucuğu açabilirsiniz.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>Windows cihazları için Power BI uygulaması
-* [Kutucuklardan belirli URL'lere doğrudan bağlanın](../../service-dashboard-edit-tile.md#hyperlink).
+* [Kutucuklardan belirli URL'lere doğrudan bağlanın](../../create-reports/service-dashboard-edit-tile.md#hyperlink).
 
 ### <a name="october-2015"></a>Ekim 2015
-[Power BI mobil uygulamaları için Ekim ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx) göz atın.
+[Power BI mobil uygulamaları için Ekim ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/) göz atın.
 
 #### <a name="all-power-bi-mobile-apps"></a>Tüm Power BI mobil uygulamaları
 * Yüzde temelli Y ekseni içeren çizgi grafikler artık, görsel aralığı, gerçek verilerinize göre hesaplıyor. Graf, varsayılan bir değer yerine artık grafikteki en düşük veri noktasından başlıyor.
@@ -851,12 +852,12 @@ Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Aralık ayınd
 * Gruplarınızda oluşturulan en yeni panolarla her zaman en güncel bilgilere sahip olun. Ekip üyeleriniz gruplarınızdan birine yeni pano eklediğinde iPhone'unuza bildirim gönderilir.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* Artık panoları yatay modda görüntülemek için telefonunuzu çevirmeniz yeterli. [iPhone uygulamasındaki yatay mod](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx) hakkında daha fazla bilgi edinin.
+* Artık panoları yatay modda görüntülemek için telefonunuzu çevirmeniz yeterli. [iPhone uygulamasındaki yatay mod](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/) hakkında daha fazla bilgi edinin.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>Eylül 2015
-Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik Power BI mobil uygulamalarında iyileştirmeler yapıldı. [Power BI mobil uygulamaları için Eylül ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx) göz atın.
+Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik Power BI mobil uygulamalarında iyileştirmeler yapıldı. [Power BI mobil uygulamaları için Eylül ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/) göz atın.
 
 #### <a name="android"></a>Android
 * Grup çalışma alanları desteği: Grup çalışma alanlarında iş arkadaşlarınızla işbirliği yapın. 

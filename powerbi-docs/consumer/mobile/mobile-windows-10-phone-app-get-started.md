@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435962"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349368"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, Power BI’ı tabletinize veya telefonunuza getirir. İş bilgilerinize güncel, dokunmatik özellikli mobil erişim elde edersiniz. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyip etkileşime geçin.
 
 ![Windows canlı kutucuğu](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-Verilerinizi kullanarak [Power BI hizmetinde pano ve rapor oluşturabilirsiniz](../../service-get-started.md). 
+Verilerinizi kullanarak [Power BI hizmetinde pano ve rapor oluşturabilirsiniz](../../fundamentals/service-get-started.md). 
 
 Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve raporlarınızla etkileşim kurabilir, verileri araştırabilir ve paylaşabilirsiniz.
 
@@ -38,7 +38,7 @@ Ardından Windows 10 için Power BI mobil uygulamasını kullanarak pano ve rapo
 Henüz kaydolmadıysanız [Power BI hizmetine](https://powerbi.com/) gidin. Panolar ve raporlar oluşturup depolamak için kendi hesabınıza kaydolun ve verilerinizi bir araya getirin. Ardından, nerede olursanız olun Windows 10 cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
 
 1. Power BI hizmetinde bir Power BI hesabı oluşturmak için [Kaydol](https://go.microsoft.com/fwlink/?LinkID=513879) seçeneğine dokunun.
-2. [Kendi panolarınızı ve raporlarınızı oluşturmaya](../../service-get-started.md) başlayın.
+2. [Kendi panolarınızı ve raporlarınızı oluşturmaya](../../fundamentals/service-get-started.md) başlayın.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI uygulaması ile çalışmaya başlama
 1. Windows 10 cihazınızın Başlangıç ekranında Power BI uygulamasını açın.
@@ -110,7 +110,7 @@ Mobil uygulamalardaki Sık Kullanılanlar sayfasında, Reporting Services KPI'le
 Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panolar ve raporların yanı sıra Reporting Services mobil raporları ve Reporting Services web portalındaki raporlar ve KPI'ler ile gerçekleştirebileceğiniz diğer işlemlerden bazıları aşağıda verilmiştir.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları
-* [Uygulamalarınızı](../../service-create-distribute-apps.md) görüntüleme.
+* [Uygulamalarınızı](../../collaborate-share/service-create-distribute-apps.md) görüntüleme.
 * [Panolarınızı](mobile-apps-view-dashboard.md) görüntüleme.
 * [Power BI kutucuklarını ve panolarını sabitleyerek](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) cihazınızın Başlangıç ekranında canlı kutucuk olarak kullanma.
 * [Kutucukları paylaşma](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panol
 * Windows Mağazası'ndan [Power BI uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

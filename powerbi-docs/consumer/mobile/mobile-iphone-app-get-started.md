@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77426645"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349414"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -22,7 +22,7 @@ iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunuc
 
 Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
-* [Raporlarınızı Power BI hizmetinde yayımlayın](../../service-get-started.md) ve panolar oluşturun.
+* [Raporlarınızı Power BI hizmetinde yayımlayın](../../fundamentals/service-get-started.md) ve panolar oluşturun.
 * [Raporlarınızı Power BI Rapor Sunucusu’nda yayımlayarak şirket içinde paylaşın](../../report-server/quickstart-create-powerbi-report.md).
 
 Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
@@ -79,11 +79,9 @@ Microsoft Intune, kuruluşların; bir erişim PIN'i gerektirme, verilerin uygula
 > iOS cihazınızda Power BI mobil uygulamasını kullanıyorsanız ve kuruluşunuzda Microsoft Intune MAM yapılandırıldıysa arka planda veri yenileme devre dışıdır. Uygulamaya bir sonraki girişinizde Power BI, web üzerindeki Power BI hizmetinden verileri yeniler.
 > 
 
-[Microsoft Intune ile Power BI mobil uygulamalarını yapılandırma](../../service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
+[Microsoft Intune ile Power BI mobil uygulamalarını yapılandırma](../../admin/service-admin-mobile-intune.md) hakkında daha fazla bilgi edinin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-

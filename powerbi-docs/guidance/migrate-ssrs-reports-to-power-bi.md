@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525626"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348195"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme
 
@@ -37,7 +37,7 @@ Geçiş işlemine başlamadan önce ortamınızın belirli önkoşulları karş�
 
 ### <a name="preparing-for-migration"></a>Geçiş için hazırlanma
 
-Raporlarınızı Power BI'a geçirmeye hazırlanırken yapmanız gereken ilk şey, kuruluşunuzun [Power BI Premium](../service-premium-what-is.md) aboneliği olduğundan emin olmaktır. Power BI sayfalandırılmış raporlarınızı barındırmak ve çalıştırmak için bu aboneliğe sahip olmanız gerekir.
+Raporlarınızı Power BI'a geçirmeye hazırlanırken yapmanız gereken ilk şey, kuruluşunuzun [Power BI Premium](../admin/service-premium-what-is.md) aboneliği olduğundan emin olmaktır. Power BI sayfalandırılmış raporlarınızı barındırmak ve çalıştırmak için bu aboneliğe sahip olmanız gerekir.
 
 ### <a name="supported-versions"></a>Desteklenen sürümler
 
@@ -112,12 +112,12 @@ Power BI sayfalandırılmış raporları genellikle **yazdırma** veya **PDF olu
 
 _Hazırlama_ bölümünün amacı, tüm bileşenleri hazır hale getirmektir. Bu bölümde Power BI ortamı ayarlanır, raporlarınızın güvenliğini sağlama ve onları yayımlama konusunda planlama yapılır ve geçirilemeyecek olan SSRS öğelerinin yeniden geliştirilmesiyle ilgili fikirler üretilir.
 
-1. Power BI Premium kapasitenizde [Sayfalandırılmış Raporlar iş yükünün](../service-admin-premium-workloads.md#paginated-reports) etkinleştirilmiş durumda ve yeterli belleğe sahip olduğundan emin olun.
-1. Rapor [veri kaynaklarınızın](../paginated-reports/paginated-reports-data-sources.md) desteklendiğini doğrulayın ve şirket içi veri kaynaklarına bağlanmak için bir [Power BI Ağ Geçidi](../service-gateway-onprem.md) ayarlayın.
-1. [Power BI çalışma alanları ve çalışma alanı rolleri](../service-new-workspaces.md) sayfasını inceleyerek Power BI güvenliği hakkında bilgi edinin ve [SSRS klasörlerinizi ve izinlerinizi nasıl yeniden oluşturabileceğinizi](/sql/reporting-services/security/secure-folders) planlayın.
-1. Power BI paylaşımı hakkında bilgi edinin ve [Power BI uygulamalarını](../service-create-distribute-apps.md) yayımlayarak içeriğinizi nasıl dağıtacağınızı planlayın.
-1. SSRS paylaşılan veri kaynaklarınızın yerine [paylaşılan Power BI veri kümelerini](../service-datasets-build-permissions.md) kullanmayı değerlendirin.
-1. [Power BI Desktop](../desktop-what-is-desktop.md)'ı kullanarak mobil cihazlar için iyileştirilmiş raporlar geliştirin ve mümkünse SSRS mobil raporlarınızın ve KPI'lerin yerine [Power KPI özel görseli](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) kullanın.
+1. Power BI Premium kapasitenizde [Sayfalandırılmış Raporlar iş yükünün](../admin/service-admin-premium-workloads.md#paginated-reports) etkinleştirilmiş durumda ve yeterli belleğe sahip olduğundan emin olun.
+1. Rapor [veri kaynaklarınızın](../paginated-reports/paginated-reports-data-sources.md) desteklendiğini doğrulayın ve şirket içi veri kaynaklarına bağlanmak için bir [Power BI Ağ Geçidi](../connect-data/service-gateway-onprem.md) ayarlayın.
+1. [Power BI çalışma alanları ve çalışma alanı rolleri](../collaborate-share/service-new-workspaces.md) sayfasını inceleyerek Power BI güvenliği hakkında bilgi edinin ve [SSRS klasörlerinizi ve izinlerinizi nasıl yeniden oluşturabileceğinizi](/sql/reporting-services/security/secure-folders) planlayın.
+1. Power BI paylaşımı hakkında bilgi edinin ve [Power BI uygulamalarını](../collaborate-share/service-create-distribute-apps.md) yayımlayarak içeriğinizi nasıl dağıtacağınızı planlayın.
+1. SSRS paylaşılan veri kaynaklarınızın yerine [paylaşılan Power BI veri kümelerini](../connect-data/service-datasets-build-permissions.md) kullanmayı değerlendirin.
+1. [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md)'ı kullanarak mobil cihazlar için iyileştirilmiş raporlar geliştirin ve mümkünse SSRS mobil raporlarınızın ve KPI'lerin yerine [Power KPI özel görseli](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) kullanın.
 1. Raporlarınızda **UserID** yerleşik alanının kullanımını yeniden değerlendirin. Rapor verilerinin güvenliği için **UserID** alanına güveniyorsanız, sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) bu alanın Kullanıcı Asıl Adını (UPN) döndürdüğünü anlamalısınız. Dolayısıyla yerleşik alan NT hesap adını (örneğin _AW\mblythe_) döndürmek yerine _m.blythe&commat;adventureworks.com_ gibi bir ad döndürür. Veri kümesi tanımlarınızı ve bir olasılıkla kaynak verilerinizi düzeltmeniz gerekir. Düzeltilip yayımlandıktan sonra, veri izinlerinin beklendiği gibi çalıştığından emin olmak için raporlarınızı kapsamlı bir şekilde test etmenizi öneririz.
 1. Raporlarınızda **ExecutionTime** yerleşik alanının kullanımını yeniden değerlendirin. Sayfalandırılmış raporlarda (Power BI hizmetinde barındırıldığında) yerleşik alan _Eşgüdümlü Evrensel Saat (veya UTC)_ olarak tarih/saat değerini döndürür. Bu, rapor parametresi varsayılan değerlerini ve rapor yürütme süresi etiketlerini (normalde rapor alt bilgilerine eklenen etiketler) etkileyebilir.
 1. Veri kaynağınız SQL Server (şirket içi) ise raporlarda harita görselleştirmeleri kullanılmadığından emin olun. Harita görselleştirmesi, SQL Server uzamsal veri türlerini kullanır ve bu türler ağ geçidi tarafından desteklenmez. Daha fazla bilgi için bkz. [Sayfalandırılmış raporlar için veri alma kılavuzu (SQL Server karmaşık veri türleri)](report-paginated-data-retrieval.md#sql-server-complex-data-types).
@@ -171,9 +171,9 @@ Raporlar Power BI'a geçirildikten sonra veri kaynaklarının doğru şekilde ay
 
 Mümkün olan en iyi rapor kullanıcısı deneyimini sunmak için aşağıdaki eylemleri mutlaka tamamlamanız önerilir:
 
-1. Raporları [Power BI tarafından desteklenen tarayıcıların](../power-bi-browsers.md) hepsinde test ederek raporun düzgün şekilde işlendiğini onaylayın.
+1. Raporları [Power BI tarafından desteklenen tarayıcıların](../fundamentals/power-bi-browsers.md) hepsinde test ederek raporun düzgün şekilde işlendiğini onaylayın.
 1. Testler yaparak SSRS ve Power BI ortamlarındaki rapor işleme sürelerini karşılaştırın. Power BI raporlarının kabul edilebilir bir süre içinde işlenip işlenmediğini denetleyin.
-1. Power BI raporları yetersiz bellek nedeniyle işlenemiyorsa [Power BI Premium kapasitesine ek kaynak](../service-admin-premium-workloads.md#paginated-reports) ayırın.
+1. Power BI raporları yetersiz bellek nedeniyle işlenemiyorsa [Power BI Premium kapasitesine ek kaynak](../admin/service-admin-premium-workloads.md#paginated-reports) ayırın.
 1. İşlenmesi uzun süren raporların, Power BI tarafından rapor kullanıcılarına [rapor eki bulunan e-posta abonelikleri](../consumer/paginated-reports-subscriptions.md) şeklinde gönderilmesini sağlayabilirsiniz.
 1. Power BI veri kümelerini temel alan Power BI raporları için model tasarımlarını gözden geçerek tam olarak iyileştirilmiş olduklarından emin olun.
 
@@ -183,8 +183,8 @@ Geçiş sonrası aşama, sorunların giderilmesi ve performans ile ilgili duruml
 
 Anlama ve çözme adımları dahil olmak üzere bu sorunlar hakkında daha fazla bilgi için şu makalelere bakın:
 
-- [Premium kapasiteleri iyileştirme](../service-premium-capacity-optimize.md)
-- [Uygulama içinden Premium kapasiteleri izleme](../service-admin-premium-monitor-capacity.md)
+- [Premium kapasiteleri iyileştirme](../admin/service-premium-capacity-optimize.md)
+- [Uygulama içinden Premium kapasiteleri izleme](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -195,7 +195,7 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md)
 - [Power BI’daki sayfalandırılmış raporlar: SSS](../paginated-reports/paginated-reports-faq.md)
 - [Çevrimiçi kurs: Bir Gündeki Sayfalandırılmış Raporlar](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI Premium hakkında SSS](../service-premium-faq.md)
+- [Power BI Premium hakkında SSS](../admin/service-premium-faq.md)
 - [RDL Migration Tool](https://github.com/microsoft/RdlMigration)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

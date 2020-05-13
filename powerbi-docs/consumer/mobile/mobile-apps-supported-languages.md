@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6c8957526f3aaf63d6dda80d5e5d84db1eb22df4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113186"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349391"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında desteklenen diller
 Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
@@ -58,7 +58,6 @@ Power BI mobil uygulamaları şu anda aşağıdaki dilleri desteklemektedir:
 * Bildirimler yalnızca İngilizce dilinde sunulur. Örneğin, bir kullanıcı sizinle bir pano paylaştığında bildirimi İngilizce dilinde alırsınız. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI için desteklenen diller ve ülkeler/bölgeler](../../supported-languages-countries-regions.md)
+* [Power BI için desteklenen diller ve ülkeler/bölgeler](../../fundamentals/supported-languages-countries-regions.md)
 * Sorular? [Power BI Topluluğu](https://community.powerbi.com/)'na sorun.
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin.
-

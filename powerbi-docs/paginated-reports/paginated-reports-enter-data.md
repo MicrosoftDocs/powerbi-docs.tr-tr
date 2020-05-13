@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922103"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348678"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme - Power BI
 
@@ -22,7 +22,7 @@ Bu makalede, SQL Server 2016 Rapor Oluşturucusu'nun yeni sürümünde sağlanan
 ## <a name="prerequisites"></a>Önkoşullar
 
 - Verileri doğrudan sayfalandırılmış rapora girmek için, [Microsoft İndirme Merkezi'nden Rapor Oluşturucusu](https://www.microsoft.com/download/details.aspx?id=53613)'nun yeni sürümünü yükleyin. 
-- Sayfalandırılmış raporunuzu Power BI hizmetine kaydetmek için, [Power BI Pro hesabınız](../service-self-service-signup-for-power-bi.md) ve [Power BI Premium kapasitesindeki](../service-premium-what-is.md) bir çalışma alanına yazma erişiminiz olmalıdır.
+- Sayfalandırılmış raporunuzu Power BI hizmetine kaydetmek için, [Power BI Pro hesabınız](../fundamentals/service-self-service-signup-for-power-bi.md) ve [Power BI Premium kapasitesindeki](../admin/service-premium-what-is.md) bir çalışma alanına yazma erişiminiz olmalıdır.
 - Sayfalandırılmış raporunuzu bir rapor sunucusuna kaydetmek için, [RsReportServer.config dosyasını düzenleme](#upload-the-paginated-report-to-a-report-server) izinleriniz olmalıdır.
 
 ## <a name="get-started"></a>başlarken

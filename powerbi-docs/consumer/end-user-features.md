@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065789"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348425"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065789"
 
 *Tüketici* olarak Power BI hizmetini iş kararları alma amacıyla raporları ve panoları keşfetmek için kullanırsınız. Bu raporlar ve panolar Power BI *Pro* lisansına sahip *tasarımcılar* tarafından oluşturulmuştur. Pro kullanıcıları iş arkadaşlarıyla içerik paylaşabilir ve iş arkadaşlarının bu içerikle neler yapabileceğini ve neler yapamayacağını kontrol edebilir. Bazen tasarımcılar size bağlantılar göndererek içerik paylaşır, bazen de içerik otomatik olarak yüklenir ve Power BI’da **Uygulamalar** veya **Benimle paylaşılan** alanında görüntülenir.
 
-Tasarımcıların içerik paylaşmasının birçok farklı yolu vardır. Ama bu makale Power BI *tüketicilerine* yönelik olduğundan, yalnızca tüketicilerin içeriği nasıl alacağı ve içerikle nasıl etkileşim kuracağı açıklanmaktadır. İçerik paylaşmanın diğer yolları hakkında daha fazla bilgi için bkz. [Power BI’da çalışmanızı paylaşmanın yolları](../service-how-to-collaborate-distribute-dashboards-reports.md).
+Tasarımcıların içerik paylaşmasının birçok farklı yolu vardır. Ama bu makale Power BI *tüketicilerine* yönelik olduğundan, yalnızca tüketicilerin içeriği nasıl alacağı ve içerikle nasıl etkileşim kuracağı açıklanmaktadır. İçerik paylaşmanın diğer yolları hakkında daha fazla bilgi için bkz. [Power BI’da çalışmanızı paylaşmanın yolları](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Power BI gezinti bölmesi](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıc
 ### <a name="licenses"></a>Lisanslar 
 Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. *Tüketiciler* ücretsiz lisanslara sahiptir.
 
-- **Ücretsiz lisans** - genellikle kuruluş içindeki *tüketicilere* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
+- **Ücretsiz lisans** - genellikle kuruluş içindeki *tüketicilere* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
 
     ![Ücretsiz lisans kullanıcısı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
 

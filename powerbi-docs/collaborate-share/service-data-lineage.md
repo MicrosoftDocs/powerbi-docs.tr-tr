@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525411"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348218"
 ---
 # <a name="data-lineage"></a>Veri kökeni
 Modern iş zekası (BI) projelerinde verilerin veri kaynağından hedefine akışını anlamak güç olabilir. Birden çok veri kaynağına, yapıta ve bağımlılığa yayılan gelişmiş analiz projeleri oluşturduğunuzda bu güçlük daha da artar. "Bu verileri değiştirirsem ne olur?" veya "Bu rapor neden güncel değil?" gibi soruları yanıtlamak kolay olmayabilir. Bunu anlamak için bir uzman takımı veya derin bir araştırma gerekebilir. Veri kökeni görünümünü, bu soruları yanıtlamanıza yardımcı olmak için tasarladık.
@@ -88,9 +88,9 @@ Köken görünümü etkileşimli bir tuvaldir. Hem tuvalde gezinmek hem de yakı
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-- Köken görünümü Internet Explorer'da kullanılamaz. Ayrıntılar için bkz. [Power BI için desteklenen tarayıcılar](../power-bi-browsers.md).
+- Köken görünümü Internet Explorer'da kullanılamaz. Ayrıntılar için bkz. [Power BI için desteklenen tarayıcılar](../fundamentals/power-bi-browsers.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Çalışma alanları arasında veri kümelerine giriş (önizleme)](../service-datasets-across-workspaces.md)
+* [Çalışma alanları arasında veri kümelerine giriş (önizleme)](../connect-data/service-datasets-across-workspaces.md)
 * [Veri kümesi etki analizi](service-dataset-impact-analysis.md)

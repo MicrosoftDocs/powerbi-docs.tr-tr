@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381319"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348172"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -23,8 +23,8 @@ Power BI Rapor Sunucusu’ndaki ve Power BI Rapor Sunucusu için iyileştirilmi�
 
 İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
 
-* [Power BI hizmetindeki yenilikler](../service-whats-new.md)
-* [Power BI Desktop'taki yenilikler](../desktop-latest-update.md)
+* [Power BI hizmetindeki yenilikler](../fundamentals/service-whats-new.md)
+* [Power BI Desktop'taki yenilikler](../fundamentals/desktop-latest-update.md)
 * [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>Ocak 2020
@@ -128,7 +128,7 @@ Kuruluşunuzda rapor oluşturanlara yönelik “Veri Al” deneyimini kolaylaşt
 
 Rapor oluşturucusu .pbids dosyasını açtığında Power BI Desktop kimlik doğrulaması için dosyada belirtilen veri kaynağına bağlanmanızı ister. Ardından kullanıcı modele yüklenecek tabloları seçer. Dosyada veritabanı belirtilmemişse, veritabanını da seçmesi gerekebilir. Oradan, rapor oluşturucusu görselleştirmeleri oluşturmaya başlayabilir.
 
-“Power BI Desktop’ta veri kaynakları” makalesinin [Verileri almak için .pbids dosyalarını kullanma](../desktop-data-sources.md#using-pbids-files-to-get-data) bölümünde konunun ayrıntılarını ve örneklerini bulabilirsiniz.
+“Power BI Desktop’ta veri kaynakları” makalesinin [Verileri almak için .pbids dosyalarını kullanma](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data) bölümünde konunun ayrıntılarını ve örneklerini bulabilirsiniz.
 
 *Modelleme işlemleri için performans artışları*
 
@@ -239,11 +239,11 @@ Yayının öne çıkan bazı konuları:
 
 #### <a name="performance-analyzer"></a>Performans çözümleyici 
 
-Raporunuz beklediğinizden daha yavaş çalışıyorsa Power BI Desktop’ta Performans Analizi’ni deneyin. Bunu başlattığınızda, raporda yaptığınız her işlemle ilgili bilgileri içeren bir günlük dosyası oluşturur. [Performans Analizi](../desktop-performance-analyzer.md) hakkında daha fazla bilgi edinin.
+Raporunuz beklediğinizden daha yavaş çalışıyorsa Power BI Desktop’ta Performans Analizi’ni deneyin. Bunu başlattığınızda, raporda yaptığınız her işlemle ilgili bilgileri içeren bir günlük dosyası oluşturur. [Performans Analizi](../create-reports/desktop-performance-analyzer.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="new-modeling-view"></a>Yeni modelleme görünümü
 
-Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz. Öne çıkanlar arasında birden çok diyagram düzeni ile sütun, ölçüm ve tabloların toplu olarak düzenlenmesi bulunur. [Modelleme görünümü](../desktop-modeling-view.md) hakkında daha fazla bilgi edinin.
+Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren karmaşık veri kümelerini görüntüleyebilir ve bunlarla çalışabilirsiniz. Öne çıkanlar arasında birden çok diyagram düzeni ile sütun, ölçüm ve tabloların toplu olarak düzenlenmesi bulunur. [Modelleme görünümü](../transform-model/desktop-modeling-view.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimi
 
@@ -251,11 +251,11 @@ Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren k
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu biçimlendirme başlıkları ve web URL’si eylemleri
 
-Power BI raporları etkileşimlidir. Raporun geçerli durumunu yansıtmak için bir rapordaki başlıkların dinamik olması anlamlıdır. Düğme, şekil ve görüntülerinizin URL’lerini dinamik hale getirmek için ifadeye bağlı biçimlendirmenin aynısını kullanabilirsiniz. [İfade temelli başlıklar](../desktop-conditional-format-visual-titles.md) hakkında daha fazla bilgi edinin.
+Power BI raporları etkileşimlidir. Raporun geçerli durumunu yansıtmak için bir rapordaki başlıkların dinamik olması anlamlıdır. Düğme, şekil ve görüntülerinizin URL’lerini dinamik hale getirmek için ifadeye bağlı biçimlendirmenin aynısını kullanabilirsiniz. [İfade temelli başlıklar](../create-reports/desktop-conditional-format-visual-titles.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="cross-highlight-by-axis-labels"></a>Eksen etiketlerine göre çapraz vurgulama
 
-Bir görseldeki veri noktalarını seçerken olduğu gibi, bir sayfadaki diğer öğeleri çapraz vurgulamak için görseldeki eksen kategorisi etiketlerini seçin. [Çapraz vurgulama](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting) hakkında daha fazla bilgi edinin.
+Bir görseldeki veri noktalarını seçerken olduğu gibi, bir sayfadaki diğer öğeleri çapraz vurgulamak için görseldeki eksen kategorisi etiketlerini seçin. [Çapraz vurgulama](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting) hakkında daha fazla bilgi edinin.
 
 #### <a name="all-the-new-features"></a>Tüm yeni özellikler
 

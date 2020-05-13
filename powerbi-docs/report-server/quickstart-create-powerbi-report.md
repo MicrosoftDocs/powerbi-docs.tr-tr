@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975023"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349483"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com) ) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -79,7 +79,7 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 2. Sayılacak alanı **Değerler** kutusuna sürükleyin. Söz konusu alan sayısal değilse Power BI Desktop bu alanı, otomatik olarak alanın *sayımına* dönüştürür.
 3. Alanı **Grup** kutusundaki gruba sürükleyin.
 
-[Power BI raporu tasarlama](../desktop-report-view.md) hakkında daha fazla bilgi edinin.
+[Power BI raporu tasarlama](../create-reports/desktop-report-view.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>4\. Adım: Raporunuzu rapor sunucusuna kaydetme
 Hazırladığınız raporu, 2. Adımda seçtiğiniz Power BI Rapor Sunucusu'na kaydedebilirsiniz.
@@ -98,7 +98,7 @@ Hazırladığınız raporu, 2. Adımda seçtiğiniz Power BI Rapor Sunucusu'na k
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Power BI Desktop'ta rapor oluşturmak için faydalanabileceğiniz birçok harika kaynak vardır. Bu bağlantıyı iyi bir başlangıç noktasıdır.
 
-* [Power BI Desktop ile çalışmaya başlama](../desktop-getting-started.md)
+* [Power BI Desktop ile çalışmaya başlama](../fundamentals/desktop-getting-started.md)
 * Destekli öğrenim: [Power BI Desktop’ı keşfetme](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu

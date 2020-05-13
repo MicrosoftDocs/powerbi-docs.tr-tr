@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675634"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349184"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları
 
@@ -100,11 +100,11 @@ Ayıklandıktan sonra **PowerBIPRIAD** klasörünüz olur ve bu klasörün için
 İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak, veri kümesini karşıya yüklemek ve ardından [Power BI Report Builder](report-builder-power-bi.md)’ı yüklemek için size yol gösterir.
 
 > [!NOTE]
-> Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../service-self-service-signup-for-power-bi.md).
+> Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Çalışma alanına Power BI Desktop dosyası yayımlamak için Power BI’da oturum açmanız gerekir. Yayınlama sonucunda rapor veri kaynağı olarak kullanılan bir veri kümesi elde edilir. Veri kümesini rapor veri kaynağı olarak kullanmak için Power BI Pro lisansına veya Power BI Premium aboneliğine ihtiyacınız yoktur.
 >
-> Öte yandan bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa, bunun yerine rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanır.
+> Öte yandan bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../admin/service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa, bunun yerine rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanır.
 
 ## <a name="instructor-kit"></a>Eğitmen seti
 

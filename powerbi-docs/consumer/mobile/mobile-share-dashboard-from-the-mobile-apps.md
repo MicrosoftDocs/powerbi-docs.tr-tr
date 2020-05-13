@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c757534ba0d93fb5eb04f10ee7b8792c8c9e4af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31d3ee405f77acaa47bb158ddde97778a8af9ff0
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435801"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349345"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
 Aşağıdakiler için geçerlidir:
@@ -25,7 +25,7 @@ Aşağıdakiler için geçerlidir:
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi ](https://go.microsoft.com/fwlink/?linkid=2121400)
 
-[Power BI Pro lisansı](../../service-features-license-type.md) ile Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Kuruluşunuzun içindeki veya dışındaki, kurumsal posta hesabına sahip olan ya da olmayan herhangi biriyle paylaşabilirsiniz. Power BI Pro lisansı olmasına sahip olmaları veya içeriğin [Premium kapasitede](../../service-premium-what-is.md) olması gerekmez.
+[Power BI Pro lisansı](../../fundamentals/service-features-license-type.md) ile Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Kuruluşunuzun içindeki veya dışındaki, kurumsal posta hesabına sahip olan ya da olmayan herhangi biriyle paylaşabilirsiniz. Power BI Pro lisansı olmasına sahip olmaları veya içeriğin [Premium kapasitede](../../admin/service-premium-what-is.md) olması gerekmez.
 
 iOS ve Android cihazlarda Power BI mobil uygulamalarından [kutucuklara, raporlara veya görselleştirmelere not ekleyip anlık görüntülerini](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) istediğiniz kişiyle paylaşabilirsiniz. 
 
@@ -42,7 +42,7 @@ iOS ve Android cihazlarda Power BI mobil uygulamalarından [kutucuklara, raporla
    * Power BI mobil uygulamasında gezinti çubuğundaki **Diğer seçenekler** (...) öğesine dokunun ve ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'ı seçin.
    * Power BI hizmetinde sol taraftaki gezinti bölmesinde ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'a tıklayın.
    
-   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../service-share-dashboards.md) sayfasını inceleyin.
+   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../collaborate-share/service-share-dashboards.md) sayfasını inceleyin.
 
 ### <a name="unshare-from-your-iphone-or-ipad"></a>iPhone veya iPad'inizden paylaşımı kaldırma
 Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
@@ -67,7 +67,7 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    * Power BI mobil uygulamasında gezinti çubuğundaki **Diğer seçenekler** (...) öğesine dokunun ve ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'ı seçin.
    * Power BI hizmetinde sol taraftaki gezinti bölmesinde ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'a tıklayın.
    
-   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../service-share-dashboards.md) sayfasını inceleyin.
+   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../collaborate-share/service-share-dashboards.md) sayfasını inceleyin.
 
 
 ### <a name="unshare-from-your-android-device"></a>Android cihazınızdan bir paylaşımı kaldırma
@@ -97,10 +97,9 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
    * Power BI mobil uygulamasında gezinti çubuğundaki **Diğer seçenekler** (...) öğesine dokunun ve ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'ı seçin.
    * Power BI hizmetinde sol taraftaki gezinti bölmesinde ![Benimle paylaşılan](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Benimle paylaşılan**'a tıklayın.
    
-   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../service-share-dashboards.md) sayfasını inceleyin.
+   [İş arkadaşlarınızla paylaşımda bulunma hakkında notlar](../../collaborate-share/service-share-dashboards.md) sayfasını inceleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Mobil uygulamalarda kutucuklara, raporlara veya görsellere not ekleme ve bunların anlık görüntülerini paylaşma](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
-* [Power BI’da pano veya rapor paylaşma](../../service-share-dashboards.md)
+* [Power BI’da pano veya rapor paylaşma](../../collaborate-share/service-share-dashboards.md)
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

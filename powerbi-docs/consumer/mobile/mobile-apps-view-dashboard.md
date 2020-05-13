@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205539"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349460"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
 Aşağıdakiler için geçerlidir:
@@ -29,8 +29,8 @@ Panolar, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı port
 
 Panoları ve raporları mobil cihazınızda görüntüleyebilmek için bir Web tarayıcısı ile oluşturmanız veya bir Web tarayıcısındaki panolarla bağlantı kurmanız gerekir. 
 
-1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesaba kaydolun](../../service-self-service-signup-for-power-bi.md).
-2. [Kendi Power BI panolarınızı ve raporunuzu oluşturun](../../service-get-started.md) veya [Microsoft Dynamics CRM](../../service-connect-to-services.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../../service-connect-to-microsoft-dynamics-crm.md) bağlanın.
+1. Power BI hizmetine ([https://www.powerbi.com](https://www.powerbi.com)) gidin ve [bir hesaba kaydolun](../../fundamentals/service-self-service-signup-for-power-bi.md).
+2. [Kendi Power BI panolarınızı ve raporunuzu oluşturun](../../fundamentals/service-get-started.md) veya [Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md) gibi çeşitli hizmetler için mevcut [Power BI uygulamalarına](../../connect-data/service-connect-to-services.md) bağlanın.
 
 Power BI hizmetinde Power BI panoları şu şekilde görünür:
 
@@ -45,14 +45,14 @@ Power BI hizmetinde Power BI panoları şu şekilde görünür:
     ![Panoya dokunun](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
    
    Power BI panoları iPhone'unuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı boyuttadır ve yukarıdan aşağıya doğru alt alta dizilmiştir.
    
     ![Dikey pano görünümü](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../service-create-dashboard-mobile-phone-view.md). 
+   > Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../create-reports/service-create-dashboard-mobile-phone-view.md). 
    > 
    > 
    
@@ -85,7 +85,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 3. Çalışma alanınızdaki panoları paylaşabilirsiniz. Pano kutucuğunun sağ alt köşesindeki üç nokta ( **...** ) simgesine tıklayıp **Diğerlerini Davet Et**'e dokunun.
    
    ![Davet et simgesi](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
 
     Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
 
-    Pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
+    Pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 
     Power BI panoları Android telefonunuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
 
     ![Dikey pano görünümü](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../service-create-dashboard-mobile-phone-view.md). 
+    Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../create-reports/service-create-dashboard-mobile-phone-view.md). 
 
 1. Pano adının yanındaki **Diğer seçenekler** (...) düğmesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
@@ -132,7 +132,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 3. Pano adının yanındaki **Diğer seçenekler** (...) düğmesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
    ![Üç nokta menüsü](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 
 ![Pano telefon görünümü](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-[Bir panonun telefon görünümünü oluşturma](../../service-create-dashboard-mobile-phone-view.md) hakkında daha fazla bilgi alın.
+[Bir panonun telefon görünümünü oluşturma](../../create-reports/service-create-dashboard-mobile-phone-view.md) hakkında daha fazla bilgi alın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Google Play'den [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

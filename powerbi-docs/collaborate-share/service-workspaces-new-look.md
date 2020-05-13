@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e74a59d3ff4a5568352c647ec9f384ad8c3a09b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81638537"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347942"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Çalışma alanının ‘yeni görünümünü’ kabul etme (önizleme)
 
-Çalışma alanlarının yeni görünümü, Power BI hizmetinin [yeni görünümüyle](../service-new-look.md) örtüşüyor. Power BI hizmetini (app.powerbi.com) kullanan herkes kabul edebilir. Siyah üst bilgi çubuğunda **Yeni görünüm**’ü açtığınızda, raporlar ve çalışma alanlarının yeni görünümünü kabul edersiniz. Hem klasik hem de yeni tüm çalışma alanları yeni görünümden yararlanabilir.
+Çalışma alanlarının yeni görünümü, Power BI hizmetinin [yeni görünümüyle](../consumer/service-new-look.md) örtüşüyor. Power BI hizmetini (app.powerbi.com) kullanan herkes kabul edebilir. Siyah üst bilgi çubuğunda **Yeni görünüm**’ü açtığınızda, raporlar ve çalışma alanlarının yeni görünümünü kabul edersiniz. Hem klasik hem de yeni tüm çalışma alanları yeni görünümden yararlanabilir.
 
-**Power BI Desktop**’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../desktop-ribbon.md) bölümüne bakın.
+**Power BI Desktop**’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) bölümüne bakın.
 
 ## <a name="features-of-the-new-look"></a>Yeni görünümün özellikleri
 
@@ -50,7 +50,6 @@ Eski görünüme dönmeniz gerekirse, bunu **kapalı** ![Yeni görünüm açık]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../desktop-ribbon.md)
-- [Power BI hizmetinin ‘yeni görünümü’](../service-new-look.md)
+- [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md)
+- [Power BI hizmetinin ‘yeni görünümü’](../consumer/service-new-look.md)
 - Sorularınız mı var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

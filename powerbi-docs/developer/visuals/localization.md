@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379932"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349299"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI'da Power BI görselleri için yerel ayar ekleme
 
 Görseller, içeriklerini uygun dilde yerelleştirmek için Power BI yerel ayarını alabilir.
 
-[Power BI için desteklenen diller ve ülkeler/bölgeler](./../../supported-languages-countries-regions.md) hakkında daha fazla bilgi edinin
+[Power BI için desteklenen diller ve ülkeler/bölgeler](./../../fundamentals/supported-languages-countries-regions.md) hakkında daha fazla bilgi edinin
 
 Örnek olarak Örnek Çubuk Grafik görselinde yerel ayarı alma gösterilebilir.
 
