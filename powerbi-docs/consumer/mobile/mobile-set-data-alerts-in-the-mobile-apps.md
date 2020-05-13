@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435824"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279561"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -29,7 +29,7 @@ Power BI Pro lisansınız varsa veya paylaşılan pano Premium kapasitedeyse kut
 > [!WARNING]
 > Veri tabanlı uyarı bildirimleri, verileriniz hakkında bilgi verir. Cihazınız çalınırsa, Power BI hizmetine giderek veri tabanlı uyarı kurallarının tümünü kapatmanızı öneririz. 
 > 
-> [Power BI hizmetindeki veri uyarılarını yönetme](../../service-set-data-alerts.md) hakkında daha fazla bilgi edinin.
+> [Power BI hizmetindeki veri uyarılarını yönetme](../../create-reports/service-set-data-alerts.md) hakkında daha fazla bilgi edinin.
 > 
 > 
 
@@ -58,7 +58,7 @@ Power BI Pro lisansınız varsa veya paylaşılan pano Premium kapasitedeyse kut
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone veya iPad'de uyarıları yönetme
-Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../service-set-data-alerts.md).
+Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir sayı veya ölçek kutucuğuna dokunun.  
    
@@ -92,7 +92,7 @@ Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarı
 8. **Kaydet**'e dokunun.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Android cihazlarda uyarıları yönetme
-Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../service-set-data-alerts.md).
+Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir kart veya ölçer kutucuğuna dokunun.  
 2. Koyu renkli zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png) dokunun.  
@@ -131,7 +131,7 @@ Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [t
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Windows cihazlarda uyarıları yönetme
-Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../service-set-data-alerts.md).
+Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir kart veya ölçer kutucuğuna dokunun.  
 2. Zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png) dokunun.  
@@ -172,7 +172,6 @@ Veri kaynakları genelde her gün yenilenecek şekilde ayarlanmıştır ancak ba
 * Uyarılar akış verisi içeren kutucuklarda çalışmaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI hizmetindeki uyarılarınızı yönetme](../../service-set-data-alerts.md)
+* [Power BI hizmetindeki uyarılarınızı yönetme](../../create-reports/service-set-data-alerts.md)
 * [Power BI Mobil Bildirim Merkezi](mobile-apps-notification-center.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

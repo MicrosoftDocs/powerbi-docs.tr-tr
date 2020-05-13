@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f289bf319bf29de8f8765d55bf3400048420af5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76829064"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279538"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Şirket içi veri ağ geçidi boyutlandırması
 
-Bu makale [şirket içi veri ağ geçidini](../service-gateway-onprem.md) yüklemesi ve yönetmesi gereken Power BI yöneticilerine yöneliktir.
+Bu makale [şirket içi veri ağ geçidini](../connect-data/service-gateway-onprem.md) yüklemesi ve yönetmesi gereken Power BI yöneticilerine yöneliktir.
 
 Power BI’ın doğrudan İnternet üzerinden erişilemeyen verilere erişmesi gereken her durumda ağ geçidi gereklidir. Şirket içinde bir sunucuya veya VM’de barındırılan Hizmet Olarak Altyapıya (IaaS) yüklenebilir.
 
@@ -39,8 +39,8 @@ _Önbelleğe alınan veriler_ iş yükü kaynak verileri Power BI veri kümeleri
 
 _Canlı Bağlantı ve DirectQuery_ iş yükü çoğunlukla geçiş modunda çalışır. Power BI hizmeti sorguları gönderir ve ağ geçidi de sorgu sonuçlarıyla yanıt verir. Genel olarak sorgu sonuçları küçük boyutludur.
 
-- Canlı Bağlantı hakkında daha fazla bilgi için bkz. [Power BI hizmetinde veri kümeleri (Harici olarak barındırılan modeller)](../service-datasets-understand.md#external-hosted-models).
-- DirectQuery hakkında daha fazla bilgi için bkz. [Power BI hizmetindeki veri kümesi modları (DirectQuery modu)](../service-dataset-modes-understand.md#directquery-mode).
+- Canlı Bağlantı hakkında daha fazla bilgi için bkz. [Power BI hizmetinde veri kümeleri (Harici olarak barındırılan modeller)](../connect-data/service-datasets-understand.md#external-hosted-models).
+- DirectQuery hakkında daha fazla bilgi için bkz. [Power BI hizmetindeki veri kümesi modları (DirectQuery modu)](../connect-data/service-dataset-modes-understand.md#directquery-mode).
 
 Bu iş yüküne, sorguları ve sorgu sonuçlarını yönlendirmek için CPU kaynakları gerekir. Çoğu durumda Önbellek verileri iş yüküne gerekenden (özellikle de verileri önbelleğe almak için dönüştürmek gerekli olduğunda) çok daha az CPU talebi söz konusudur.
 
@@ -62,13 +62,13 @@ Ağ geçidi makinenizin doğru boyutu aşağıdaki değişkenlere bağlı olarak
   - Eş zamanlı rapor kullanıcılarının sayısı
   - Rapor sayfalarındaki görsellerin sayısı (her görsel en az bir sorgu gönderir)
   - Power BI panosu sorgu önbelleği güncelleştirmelerinin sıklığı
-  - [Otomatik sayfa yenileme](../desktop-automatic-page-refresh.md) özelliği kullanan gerçek zamanlı raporların sayısı
-  - Veri kümelerinin [Satır Düzeyi Güvenlik (RLS)](../desktop-rls.md) zorunluluğu olup olmadığı
+  - [Otomatik sayfa yenileme](../create-reports/desktop-automatic-page-refresh.md) özelliği kullanan gerçek zamanlı raporların sayısı
+  - Veri kümelerinin [Satır Düzeyi Güvenlik (RLS)](../create-reports/desktop-rls.md) zorunluluğu olup olmadığı
 
 Genel olarak Canlı Bağlantı ve DirectQuery iş yüklerine yeterli bir miktarda CPU gerekirken, Önbellek verileri iş yüklerine daha fazla CPU ve bellek gerekir. Her iki iş yükü de Power BI hizmetiyle iyi bir bağlantıya ve veri kaynaklarına bağımlıdır.
 
 > [!NOTE]
-> Power BI kapasiteleri model yenileme paralelliğine, ayrıca Canlı Bağlantı ve DirectQuery aktarım hızına sınırlar getirir. Ağ geçitlerinizi Power BI hizmetinin desteklediğinden daha fazlasını sağlamak için boyutlandırmak anlamlı olmaz. Sınırlar Premium SKU’suna (ve eşdeğer boyutlu A SKU’suna) göre değişir. Daha fazla bilgi için bkz. [Power BI Premium nedir? (Kapasite düğümleri)](../service-premium-what-is.md#capacity-nodes).
+> Power BI kapasiteleri model yenileme paralelliğine, ayrıca Canlı Bağlantı ve DirectQuery aktarım hızına sınırlar getirir. Ağ geçitlerinizi Power BI hizmetinin desteklediğinden daha fazlasını sağlamak için boyutlandırmak anlamlı olmaz. Sınırlar Premium SKU’suna (ve eşdeğer boyutlu A SKU’suna) göre değişir. Daha fazla bilgi için bkz. [Power BI Premium nedir? (Kapasite düğümleri)](../admin/service-premium-what-is.md#capacity-nodes).
 
 ## <a name="recommendations"></a>Öneriler
 
@@ -84,9 +84,9 @@ Power BI hizmetiyle ağ geçidiniz ve ağ geçidinizle veri kaynakları arasınd
 
 - Güvenilirlik, yüksek hızlar ve düşük, tutarlı gecikme süreleri sağlamaya çalışın
 - Ağ geçidi ile veri kaynaklarınız arasındaki makine atlamalarını ortadan kaldırın veya azaltın
-- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [İzin verilenler listesine eklemek için Power BI URL’leri](../power-bi-whitelist-urls.md).
+- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [İzin verilenler listesine eklemek için Power BI URL’leri](../admin/power-bi-whitelist-urls.md).
 - Power BI ile özel ve yönetilen bağlantılar kurmak için [Azure ExpressRoute](/azure/expressroute/expressroute-introduction)’u yapılandırın
-- Azure VM’lerindeki veri kaynakları için, VM’lerin [Power BI hizmetiyle aynı konumda yer aldığından](../service-admin-where-is-my-tenant-located.md) emin olun
+- Azure VM’lerindeki veri kaynakları için, VM’lerin [Power BI hizmetiyle aynı konumda yer aldığından](../admin/service-admin-where-is-my-tenant-located.md) emin olun
 - Dinamik RLS içeren SQL Server Analysis Services’e (SSAS) yönelik Canlı Bağlantı iş yükleri için, ağ geçidi makinesiyle şirket içi Active Directory arasında iyi bir bağlantı bulunduğundan emin olun
 
 ### <a name="clustering"></a>Kümeleniyor
@@ -105,17 +105,17 @@ Veri kümesi tasarımı ve bunun ayarları ağ geçidi iş yüklerini etkileyebi
 İçeri Aktarma veri kümeleri için:
 
 - Daha seyrek veri yenilemesi yapılandırma
-- Aktarılacak veri miktarını en aza indirmek için [artımlı yenilemeyi](../service-premium-incremental-refresh.md) yapılandırma
+- Aktarılacak veri miktarını en aza indirmek için [artımlı yenilemeyi](../admin/service-premium-incremental-refresh.md) yapılandırma
 - Mümkün olduğunca [sorguyu kaynağa iletmenin](power-query-folding.md) gerçekleştirildiğinden emin olma
-- Özellikle büyük hacimli olan veya düşük gecikme süreli yanıtlar için gereken veriler söz konusu olduğunda, tasarımı DirectQuery modeline veya [Bileşik](../service-dataset-modes-understand.md#composite-mode) modele dönüştürme
+- Özellikle büyük hacimli olan veya düşük gecikme süreli yanıtlar için gereken veriler söz konusu olduğunda, tasarımı DirectQuery modeline veya [Bileşik](../connect-data/service-dataset-modes-understand.md#composite-mode) modele dönüştürme
 
 DirectQuery veri kümeleri için:
 
 - Veri kaynaklarını, modeli ve rapor tasarımlarını iyileştirin. Daha fazla bilgi için bkz. [Power BI Desktop’ta DirectQuery modeli kılavuzu](directquery-model-guidance.md)
-- Üst düzey sonuçları yakalayıp DirectQuery isteklerinin sayısını azaltmak için [toplamalar](../desktop-aggregations.md) oluşturun
-- Rapor tasarımlarında ve kapasite ayarlarında [Otomatik sayfa yenileme](../desktop-automatic-page-refresh.md) aralıklarını kısıtlayın
+- Üst düzey sonuçları yakalayıp DirectQuery isteklerinin sayısını azaltmak için [toplamalar](../transform-model/desktop-aggregations.md) oluşturun
+- Rapor tasarımlarında ve kapasite ayarlarında [Otomatik sayfa yenileme](../create-reports/desktop-automatic-page-refresh.md) aralıklarını kısıtlayın
 - Özellikle dinamik RLS zorunlu tutulduğunda pano önbelleği güncelleştirme sıklığını kısıtlayın
-- Özellikle daha küçük hacimli verilerde veya geçici olmayan verilerde, tasarımı bir İçeri Aktarma modeline veya [Bileşik](../service-dataset-modes-understand.md#composite-mode) modele dönüştürün
+- Özellikle daha küçük hacimli verilerde veya geçici olmayan verilerde, tasarımı bir İçeri Aktarma modeline veya [Bileşik](../connect-data/service-dataset-modes-understand.md#composite-mode) modele dönüştürün
 
 Canlı Bağlantı veri kümeleri için:
 
@@ -125,10 +125,10 @@ Canlı Bağlantı veri kümeleri için:
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI için bir veri ağ geçidi dağıtmaya yönelik rehberlik](../service-gateway-deployment-guidance.md)
+- [Power BI için bir veri ağ geçidi dağıtmaya yönelik rehberlik](../connect-data/service-gateway-deployment-guidance.md)
 - [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](/data-integration/gateway/service-gateway-proxy)
 - [Şirket içi veri ağ geçidi performansını izleme ve en iyi duruma getirme](/data-integration/gateway/service-gateway-performance)
-- [Ağ geçidiyle ilgili sorunları giderme - Power BI](../service-gateway-onprem-tshoot.md)
+- [Ağ geçidiyle ilgili sorunları giderme - Power BI](../connect-data/service-gateway-onprem-tshoot.md)
 - [Şirket içi veri ağ geçidi sorunlarını giderme](/data-integration/gateway/service-gateway-tshoot)
 - [Sorguyu kaynağa iletmenin önemi](power-query-folding.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

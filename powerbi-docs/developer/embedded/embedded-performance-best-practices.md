@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492618"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279400"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
@@ -59,7 +59,7 @@ Aynı iframe’e birden fazla rapor eklerken her rapor için yeni bir iframe olu
 
 Power BI Premium kapasitesi veya Power BI Embedded kapasitesi ile kuruluşlar bir veri kümesiyle ilişkili raporları hızlandırmak için sorguları önbelleğe alma özelliğinden yararlanabilir.
 
-[Power BI’da sorgu önbelleğe alma hakkında daha fazla bilgi edinin](../../power-bi-query-caching.md).
+[Power BI’da sorgu önbelleğe alma hakkında daha fazla bilgi edinin](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>Önceden yükleme
 
@@ -99,7 +99,7 @@ Gömülü performansı ölçmek için iki olayı kullanabilirsiniz:
 Rapor öğelerinin performansını incelemek için Power BI Desktop'ta Performans Analizi'ni kullanabilirsiniz.
 Performans Analizi, rapor öğelerinizin her birinin nasıl performans gösterdiğini ölçen günlükleri görüp kaydetmenize izin verir.
 
-[Performans Analizi hakkında daha fazla bilgi edinin](../../desktop-performance-analyzer.md).
+[Performans Analizi hakkında daha fazla bilgi edinin](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > Her zaman ekli rapor performansını powerbi.com üzerindeki performansla karşılaştırmayı unutmayın. Bunun yapılması, performans sorunlarınızın kaynağını anlamanıza yardımcı olur

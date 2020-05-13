@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841745"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279515"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -27,7 +27,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 
 Power BI raporu, verilerinizin etkileşimli bir görünümüdür ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. Power BI mobil uygulamalarında raporları görüntülemek, üç adımlı bir işlemin üçüncü adımıdır:
 
-1. [Power BI Desktop'ta rapor oluşturun](../../desktop-report-view.md). Power BI Desktop'ta [bir raporu telefonlar için en iyi duruma getirebilirsiniz](mobile-apps-view-phone-report.md).
+1. [Power BI Desktop'ta rapor oluşturun](../../create-reports/desktop-report-view.md). Power BI Desktop'ta [bir raporu telefonlar için en iyi duruma getirebilirsiniz](mobile-apps-view-phone-report.md).
 2. Oluşturduğunuz raporları Power BI hizmetinde [(https://powerbi.com)](https://powerbi.com) veya [Power BI Rapor Sunucusu](../../report-server/get-started.md)'nda yayımlayın.  
 3. Power BI mobil uygulamalarını kullanarak raporlarla etkileşim kurun.
 
@@ -100,7 +100,7 @@ Rapor yazarları veriler içinde hiyerarşiler ve rapor sayfaları arasında ili
 Görselin belirli bir bölümüne dokunup sonra da *detaylandırma* seçeneğine dokunduğunuzda Power BI sizi raporun dokunduğunuz değere göre filtrelenmiş farklı bir sayfasına götürür. Raporun yazarı, her biri sizi farklı sayfaya götüren bir veya daha fazla detaylandırma seçeneği tanımlayabilir. Bu durumda, hangi seçenekle detaylandırmak istediğinizi seçebilirsiniz. Geri düğmesini kullanarak bir önceki sayfaya dönebilirsiniz.
 
 
-Daha fazla bilgi için [Power BI Desktop’ta detaylandırma ekleme](../../desktop-drillthrough.md) konusunu okuyun.
+Daha fazla bilgi için [Power BI Desktop’ta detaylandırma ekleme](../../create-reports/desktop-drillthrough.md) konusunu okuyun.
    
    > [!IMPORTANT]
    > Power BI mobil uygulamalarında matris ve tablo görsellerinin detaylandırma eylemleri sütun veya satır üst bilgileri aracılığıyla değil yalnızca hücre değerleri aracılığıyla etkinleştirilir.
@@ -164,6 +164,5 @@ Bu ayarları değiştirme hakkında bilgi edinmek için [uygulama etkileşim aya
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme ve raporlarla etkileşim kurma](mobile-apps-view-phone-report.md)
-* [Telefonlar için en iyi duruma getirilmiş bir rapor sürümü oluşturma](../../desktop-create-phone-report.md)
+* [Telefonlar için en iyi duruma getirilmiş bir rapor sürümü oluşturma](../../create-reports/desktop-create-phone-report.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

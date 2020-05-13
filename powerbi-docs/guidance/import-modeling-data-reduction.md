@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205792"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279492"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 
@@ -23,8 +23,8 @@ Bu makale İçeri Aktarma modelleri geliştiren Power BI Desktop veri modelleyic
 
 VertiPaq depolama motoruyla elde edilen verimliliklere karşın, modellerinize yüklenecek olan verileri en aza indirmek için çaba harcamanız önemlidir. Bu durum özellikle büyük modeller veya zamanla çok büyümesini beklediğiniz modeller için geçerlidir. Dört dikkat çekici nedeni vardır:
 
-- Büyük model boyutları kapasiteniz tarafından desteklenmiyor olabilir. Paylaşılan kapasite boyutu en çok 1 GB olan modelleri barındırabilirken, Premium kapasiteler boyutu 13 GB'a kadar olan modelleri barındırabilir. Daha fazla bilgi için [Büyük veri kümeleri için Power BI Premium desteği](../service-premium-large-datasets.md) makalesini okuyun.
-- Daha küçük model boyutları kapasite kaynakları, özellikle de bellek için çekişmeyi azaltır. Bu sayede daha fazla model daha uzun süreler için eşzamanlı olarak yüklenebildiğinden sonuçta daha düşük çıkarma ücretleri elde edilir. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../service-premium-capacity-manage.md).
+- Büyük model boyutları kapasiteniz tarafından desteklenmiyor olabilir. Paylaşılan kapasite boyutu en çok 1 GB olan modelleri barındırabilirken, Premium kapasiteler boyutu 13 GB'a kadar olan modelleri barındırabilir. Daha fazla bilgi için [Büyük veri kümeleri için Power BI Premium desteği](../admin/service-premium-what-is.md) makalesini okuyun.
+- Daha küçük model boyutları kapasite kaynakları, özellikle de bellek için çekişmeyi azaltır. Bu sayede daha fazla model daha uzun süreler için eşzamanlı olarak yüklenebildiğinden sonuçta daha düşük çıkarma ücretleri elde edilir. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../admin/service-premium-capacity-manage.md).
 - Daha küçük modeller daha hızlı veri yinelemesi sağladığından düşük gecikme süreli raporlama, daha yüksek veri kümesi yenileme işleme hızı ve kaynak sistemle kapasite kaynakları üzerinde daha az baskı sonucu verir.
 - Tablo satır sayısının daha az olması daha hızlı hesaplama değerlendirmeleri sonucu verebildiğinden bir bütün olarak sorgu performansını artırabilir.
 
@@ -88,7 +88,7 @@ Diğer sorgularla veri tümleştirmesini desteklemesi hedeflenen Power Query sor
 
 ## <a name="disable-auto-datetime"></a>Otomatik tarih/saati devre dışı bırakma
 
-Power BI Desktop'ta _Otomatik tarih/saat_ olarak adlandırılan bir seçenek mevcuttur. Bu seçenek etkinleştirildiğinde takvim süreleri için filtreleme, gruplama ve detaylandırma yapılandırma aşamalarında rapor yazarlarına destek olma amacıyla tarih sütunları için gizli bir otomatik tarih/saat tablosu oluşturur. Gizli tablolar gerçekte hesaplanmış tablolardır ve modelin boyutunu artıracaktır. Bu seçeneği kullanma hakkında bilgi edinmek için [Power BI Desktop'ta otomatik tarih/saat kılavuzu](../desktop-auto-date-time.md) makalesine bakın.
+Power BI Desktop'ta _Otomatik tarih/saat_ olarak adlandırılan bir seçenek mevcuttur. Bu seçenek etkinleştirildiğinde takvim süreleri için filtreleme, gruplama ve detaylandırma yapılandırma aşamalarında rapor yazarlarına destek olma amacıyla tarih sütunları için gizli bir otomatik tarih/saat tablosu oluşturur. Gizli tablolar gerçekte hesaplanmış tablolardır ve modelin boyutunu artıracaktır. Bu seçeneği kullanma hakkında bilgi edinmek için [Power BI Desktop'ta otomatik tarih/saat kılavuzu](../transform-model/desktop-auto-date-time.md) makalesine bakın.
 
 ## <a name="switch-to-mixed-mode"></a>Karma moda geçiş
 
@@ -96,12 +96,13 @@ Power BI Desktop'ta Karma mod tasarımı bir Bileşik bir model oluşturur. Teme
 
 Model boyutunu küçültmeye yönelik etkili bir teknik daha büyük olgu türündeki tabloların Depolama Modu özelliğini DirectQuery olarak ayarlamaktır. Bu tasarım yaklaşımının daha önce açıklanan [Gruplandırma ve özetleme](#group-by-and-summarize) tekniğiyle birlikte iyi çalışacağını göz önünde bulundurun. Örneğin, özetlenmiş satış verileri yüksek performanslı "özet" raporu elde etmek için kullanılabilir. Bir detaylandırma sayfasında belirli (ve dar) bir filtre bağlamı için ayrıntılı satışlar ve bağlam içi tüm satış siparişleri görüntülenebilir. Bu örnekte detaylandırma sayfasında satış siparişi verilerini almaya yönelik bir DirectQuery tablosuna dayalı görseller bulunabilir.
 
-Bununla birlikte Bileşik modellerle ilgili birçok güvenlik ve performans etkisi söz konusudur. Daha fazla bilgi için [Power BI Desktop'ta bileşik modelleri kullanma](../desktop-composite-models.md) makalesini okuyun.
+Bununla birlikte Bileşik modellerle ilgili birçok güvenlik ve performans etkisi söz konusudur. Daha fazla bilgi için [Power BI Desktop'ta bileşik modelleri kullanma](../transform-model/desktop-composite-models.md) makalesini okuyun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Power BI İçeri Aktarma modeli tasarımı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
-- [Power BI Desktop’ta bileşik modeller kullanma](../desktop-composite-models.md)
-- [Power BI Desktop’ta depolama Modu](../desktop-storage-mode.md)
+- [Power BI Desktop’ta bileşik modeller kullanma](../transform-model/desktop-composite-models.md)
+- [Power BI Desktop’ta depolama Modu](../transform-model/desktop-storage-mode.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
