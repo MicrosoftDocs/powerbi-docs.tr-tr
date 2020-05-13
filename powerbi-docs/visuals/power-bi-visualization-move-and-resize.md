@@ -6,21 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 12/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eeb02715fa205d7fb9f6a3107998feb3d87a9d7b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880787"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83271971"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Raporlardaki görselleştirmeleri taşıma ve yeniden boyutlandırma
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Rapor tasarımcıları ve rapor sahipleri görselleştirmeleri taşıma ve yeniden boyutlandırma yetkisine sahiptir. Power BI hizmetinde (app.powerbi.com) çalışıyorsanız, raporu [Düzenleme görünümünde](../service-interact-with-a-report-in-editing-view.md) açmanız gerekir. 
+Rapor tasarımcıları ve rapor sahipleri görselleştirmeleri taşıma ve yeniden boyutlandırma yetkisine sahiptir. Power BI hizmetinde (app.powerbi.com) çalışıyorsanız, raporu [Düzenleme görünümünde](../create-reports/service-interact-with-a-report-in-editing-view.md) açmanız gerekir. 
 
 ## <a name="open-the-report"></a>Raporu açma
 Power BI Desktop'ta en az bir görselleştirme içeren bir rapor açın veya [yeni bir görselleştirme oluşturun](power-bi-report-add-visualizations-i.md). 
@@ -37,8 +39,9 @@ Power BI Desktop'ta en az bir görselleştirme içeren bir rapor açın veya [ye
   ![Odak modu simgesi](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Panodaki görselleştirmeyi yeniden boyutlandırma](../service-dashboard-edit-tile.md)  
+[Panodaki görselleştirmeyi yeniden boyutlandırma](../create-reports/service-dashboard-edit-tile.md)  
 
 [Odak modu](../consumer/end-user-focus.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+

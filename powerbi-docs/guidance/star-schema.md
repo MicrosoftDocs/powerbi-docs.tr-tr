@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751609"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273466"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -42,7 +42,7 @@ Her Power BI raporu görselinin Power BI modeline gönderilen bir sorgu oluştur
 - Boyut tabloları _filtrelemeyi_ ve _gruplandırmayı_ destekler
 - Olgu tabloları _özetlemeyi_ destekler
 
-Modelleriyicilerin tablo türünü boyut veya olgu olarak yapılandırmak için ayarlayabilecekleri bir tablo özelliği yoktur. Aslında bu, model ilişkileri tarafından belirlenir. Model ilişkisi iki tablo arasında bir filtre yayma yolu oluşturur ve tablo türü ilişkinin **Kardinalite** özelliğiyle belirlenir. Yaygın bir ilişki kardinalitesi _bire çok_ veya bunun tersi olan _çoka bir_ ilişkidir. İlişkinin "bir" tarafı her zaman boyut türündeki tabloyken "çok" tarafı da her zaman olgu türünde tablodur. İlişkiler hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md).
+Modelleriyicilerin tablo türünü boyut veya olgu olarak yapılandırmak için ayarlayabilecekleri bir tablo özelliği yoktur. Aslında bu, model ilişkileri tarafından belirlenir. Model ilişkisi iki tablo arasında bir filtre yayma yolu oluşturur ve tablo türü ilişkinin **Kardinalite** özelliğiyle belirlenir. Yaygın bir ilişki kardinalitesi _bire çok_ veya bunun tersi olan _çoka bir_ ilişkidir. İlişkinin "bir" tarafı her zaman boyut türündeki tabloyken "çok" tarafı da her zaman olgu türünde tablodur. İlişkiler hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri](../transform-model/desktop-relationships-understand.md).
 
 ![Kavramsal yıldız şeması](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Bu çoklu tasarım yaklaşımı iyi belgelenmiştir ve köprü oluşturma tablos
 Yıldız şeması tasarımı ve Power BI modeli tasarımı hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
 - [Boyut modellemesi Vikipedi makalesi](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme](../transform-model/desktop-create-and-manage-relationships.md)
 - [Birebir ilişki kılavuzu](relationships-one-to-one.md)
 - [Çoka çok ilişkiler kılavuzu](relationships-many-to-many.md)
 - [Çift yönlü ilişki kılavuzu](relationships-bidirectional-filtering.md)
 - [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](relationships-active-inactive.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+
+

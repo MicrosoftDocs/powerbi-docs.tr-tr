@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866921"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276847"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 
@@ -177,13 +177,13 @@ Verilerinizde bu bilgiler yoksa X ve Y değerlerinizden her noktada benzersiz ve
 
 ![Ayrıntılar kutusuna TempTime eklenmiş ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullanarak veri kümenize bir Dizin Sütunu ekleyin](../desktop-add-custom-column.md). Ardından bu sütunu görselleştirmenizin **Ayrıntılar** bölümüne ekleyin.
+Yeni bir alan oluşturmak için [Power BI Desktop Sorgu Düzenleyicisi'ni kullanarak veri kümenize bir Dizin Sütunu ekleyin](../create-reports/desktop-add-custom-column.md). Ardından bu sütunu görselleştirmenizin **Ayrıntılar** bölümüne ekleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Aşağıdaki makaleler de ilginizi çekebilir:
 
-* [Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme](desktop-high-density-scatter-charts.md)
+* [Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme](../create-reports/desktop-high-density-scatter-charts.md)
 * [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları](../guidance/report-tips-sort-distribute-data-plots.md)
 

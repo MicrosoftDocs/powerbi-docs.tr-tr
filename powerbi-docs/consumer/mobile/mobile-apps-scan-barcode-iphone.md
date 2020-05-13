@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802061"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276180"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Cihazınızla Power BI mobil uygulamasında barkod tarama
 Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
@@ -25,7 +25,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 |:--- |:--- |:--- |:--- |
 |iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |
 
-Diyelim ki bir iş arkadaşınız [Power BI Desktop raporunda bir barkod alanı etiketledi](../../desktop-mobile-barcodes.md) ve raporu sizinle paylaştı. 
+Diyelim ki bir iş arkadaşınız [Power BI Desktop raporunda bir barkod alanı etiketledi](../../transform-model/desktop-mobile-barcodes.md) ve raporu sizinle paylaştı. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
@@ -64,13 +64,12 @@ Taradığınız barkod değeri modelinizde bulunuyor ancak raporunuzdaki görsel
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“Barkodlarla filtrelenebilecek herhangi bir raporunuzun olmadığı görülüyor.”
 Bu, etkin barkodu bulunan herhangi bir raporunuz olmadığı anlamına gelir. Barkod tarayıcısıyla yalnızca **Barkod** olarak işaretlenmiş bir sütuna sahip olan raporlar filtrelenebilir.  
 
-Rapor sahibinin (veya sizin) Power BI Desktop'ta bir sütunu **Barkod** olarak etiketlediğinden emin olun. [Power BI Desktop'ta bir barkod alanı etiketleme](../../desktop-mobile-barcodes.md) hakkında daha fazla bilgi edinin
+Rapor sahibinin (veya sizin) Power BI Desktop'ta bir sütunu **Barkod** olarak etiketlediğinden emin olun. [Power BI Desktop'ta bir barkod alanı etiketleme](../../transform-model/desktop-mobile-barcodes.md) hakkında daha fazla bilgi edinin
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“Rapor filtrelenemedi - Bu barkodun, rapor verilerinde mevcut olmadığı görülüyor.”
 Filtrelemeyi seçtiğiniz rapor bu barkod değerini içermeyen bir veri modelini temel alıyor. Örneğin, "maden suyu" ürünü raporda yer almıyor. Farklı bir ürünü tarayabilir, farklı bir rapor seçebilir (birden fazla rapor mevcutsa) veya raporu filtrelenmemiş olarak görüntüleyebilirsiniz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI Desktop'ta bir barkod alanı etiketleme](../../desktop-mobile-barcodes.md)
+* [Power BI Desktop'ta bir barkod alanı etiketleme](../../transform-model/desktop-mobile-barcodes.md)
 * [Power BI'daki pano kutucukları](../end-user-tiles.md)
 * [Power BI'daki panolar](../end-user-dashboards.md)
-

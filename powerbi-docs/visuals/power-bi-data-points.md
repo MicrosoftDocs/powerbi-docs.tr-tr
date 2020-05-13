@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381457"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274179"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Power BI’da bir görsel işlenirken görselleştirme hızlı ve doğru olmalıdır. Bu, her bir görsel türü için temel algoritmaların yapılandırılmış olmasını gerektirir. Power BI’daki görseller, farklı boyutlarda veri kümelerini işlemek için yeterince esnek olmalıdır. Bazı veri kümelerinin yalnızca bir avuç dolusu veri noktası varken, bazı veri kümelerininse petabaytlarca veri noktası vardır. Bu makalede, görselleştirmeleri işlemek için Power BI tarafından kullanılan stratejiler açıklanmaktadır.
 
@@ -57,7 +59,7 @@ Sunucu aşağıda ayrıntıları verilen özelliklere sahip olduğunda dinamik s
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları
 
 ### <a name="area-chart"></a>Alan grafiği
-Bkz. [Satır örnekleme nasıl çalışır?](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Bkz. [Satır örnekleme nasıl çalışır?](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="barcolumn-chart"></a>Çubuk/sütun grafik
 - Kategorik moddayken
@@ -97,10 +99,10 @@ Kartogram, istatistikleri veya dinamik sınırları kullanabilir. Power BI, azal
 - Son 3.500
 
 ### <a name="line-chart"></a>Çizgi grafik
-Bkz. [Satır örnekleme nasıl çalışır?](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
+Bkz. [Satır örnekleme nasıl çalışır?](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works)
 
 ### <a name="line-chart-high-density"></a>Çizgi grafik, yüksek yoğunluklu
-Bkz. [Yüksek yoğunluklu örnekleme](../desktop-high-density-sampling.md)
+Bkz. [Yüksek yoğunluklu örnekleme](../create-reports/desktop-high-density-sampling.md)
 
 ### <a name="map"></a>Harita 
 - Maksimum nokta sayısı: 3.500
@@ -109,9 +111,9 @@ Yapılandırmaya bağlı olarak bir haritada şunlar bulunabilir:
 - Konum: İlk 3.500
 - Konum, Boyut: İlk 3.500
 - Konum, Enlem ve Boylam toplamları (+/-Boyut): İlk 3.500
-- Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](desktop-high-density-scatter-charts.md)
+- Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](../create-reports/desktop-high-density-scatter-charts.md)
 - Enlem, Boylam, Boyut: İlk 3.500
-- Gösterge, Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](desktop-high-density-scatter-charts.md)
+- Gösterge, Enlem, Boylam: bkz. [Yüksek yoğunluklu dağılım](../create-reports/desktop-high-density-scatter-charts.md)
 - Gösterge, Enlem, Boylam, Boyut: İlk 233 gösterge, İlk 15 enlem ve boylam (istatistikleri veya dinamik sınırları kullanabilir)
 - Toplamalar olarak Konum, Gösterge, Enlem ve Boylam (+/-Boyut): İlk 233 konum, İlk 15 gösterge (istatistikleri veya dinamik sınırları kullanabilir)
 

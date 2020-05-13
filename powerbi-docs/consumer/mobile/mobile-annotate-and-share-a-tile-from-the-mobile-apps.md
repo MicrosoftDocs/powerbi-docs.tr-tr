@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 5d1a014b32bcb3ce90938659e2b6478518e8aefc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 31a899001b5a821a38a3de01db0357c26f2e58dc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205516"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149195"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında kutucuklara, raporlara veya görsellere not ekleme ve bunları paylaşma
 Aşağıdakiler için geçerlidir:
@@ -28,7 +28,7 @@ Artık kutucuklara, raporlara veya görsellere not ekleyebilir ve anlık görün
 
 *Not içeren rapor*
 
-Kutucuk, rapor ya da görsele ait anlık görüntü içeren e-posta ayrıca Power BI hizmetindeki ([https://powerbi.com](https://powerbi.com)) gerçek nesneye yönelik bağlantıyı da içerir. Siz ve karşı taraf Power BI Pro lisansına sahipseniz ya da içerik [Premium kapasite](../../service-premium-what-is.md) kapsamındaysa ve bu öğeyi paylaştıysanız alıcılarınız bu bağlantıya tıklayarak doğrudan bu kutucuğa, rapora ya da görsele gidebilir. 
+Kutucuk, rapor ya da görsele ait anlık görüntü içeren e-posta ayrıca Power BI hizmetindeki ([https://powerbi.com](https://powerbi.com)) gerçek nesneye yönelik bağlantıyı da içerir. Siz ve karşı taraf Power BI Pro lisansına sahipseniz ya da içerik [Premium kapasite](../../admin/service-premium-what-is.md) kapsamındaysa ve bu öğeyi paylaştıysanız alıcılarınız bu bağlantıya tıklayarak doğrudan bu kutucuğa, rapora ya da görsele gidebilir. 
 
 Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md) ancak not ekleyemezsiniz.
 
@@ -74,4 +74,3 @@ Ayrıca, [Windows 10 cihazları için Power BI mobil uygulamasından kutucuk da 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI mobil uygulamalarından pano paylaşma](mobile-share-dashboard-from-the-mobile-apps.md)
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

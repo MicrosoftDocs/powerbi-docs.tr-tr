@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866986"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277169"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Basit alan grafikleri oluşturma ve kullanma
 
@@ -68,7 +68,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
    d.  Grafiği aya göre görüntülemek için, üç nokta (görselin sağ üst köşesinde) simgesini seçin ve **Sıralama Ölçütü: Month** seçeneğini belirleyin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin.
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
-Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).
+Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../create-reports/power-bi-report-add-filter.md).
 
 Grafiğinizdeki belirli bir alanı vurgulamak için ilgili alanı veya üst kenarlığını seçin.  Diğer görselleştirme türlerinin aksine, sayfada başka görselleştirmeler varken basit alan grafiklerini vurguladığınızda rapor sayfasındaki diğer görselleştirmeler için çapraz filtre uygulanmaz. Ancak alan grafikleri, rapor sayfasındaki diğer görselleştirmeler tarafından tetiklenen çapraz filtrelemelerden etkilenir. 
 
@@ -78,7 +78,7 @@ Grafiğinizdeki belirli bir alanı vurgulamak için ilgili alanı veya üst kena
 
     ![Filtre örnekleri](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](../service-reports-visual-interactions.md)
+Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](../create-reports/service-reports-visual-interactions.md)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme   
@@ -87,4 +87,6 @@ Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](../serv
 
 ## <a name="next-step"></a>Sonraki adım
 [Power BI'daki raporlar](power-bi-visualization-card.md)  
+
+
 

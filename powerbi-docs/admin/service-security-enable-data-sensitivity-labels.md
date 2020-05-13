@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131909"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI'da veri duyarlılığı etiketlerini etkinleştirme (önizleme)
 
 Power BI’da [Microsoft Information Protection veri duyarlılığı etiketleri](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) etkinleştirildiğinde aşağıdaki durumlar geçerli olur:
 
-* Bir kuruluştaki belirli kullanıcılar ve güvenlik grupları, duyarlılık etiketlerini sınıflandırıp Power BI panolarına, raporlarına, veri kümelerine ve veri akışlarına (bundan böyle [varlıklar](../designer/service-security-apply-data-sensitivity-labels.md) olarak anılacak) *uygulayabilir*.
+* Bir kuruluştaki belirli kullanıcılar ve güvenlik grupları, duyarlılık etiketlerini sınıflandırıp Power BI panolarına, raporlarına, veri kümelerine ve veri akışlarına (bundan böyle [varlıklar](../collaborate-share/service-security-apply-data-sensitivity-labels.md) olarak anılacak) *uygulayabilir*.
 * Kuruluşun tüm üyeleri bu etiketleri görebilir.
 
 Veri duyarlılığı etiketleri, Power BI yazarları ile tüketicilerini veri duyarlılığı konusunda bilgilendirirken sınıflandırmanın ne anlama geldiği ve bir sınıflandırmaya giren verilerin nasıl ele alınması gerektiği hakkında bilgiler sağlayarak veri korumayı destekler.
@@ -71,6 +71,6 @@ Power BI, Microsoft Information Protection duyarlılık etiketlerini kullanır. 
 Bu makalede, Power BI'da veri duyarlılığı etiketlerini etkinleştirme işlemi açıklanmıştır. Aşağıdaki makalelerde Power BI’da veri koruma hakkında daha fazla bilgi verilmektedir. 
 
 * [Power BI’da veri korumasına genel bakış](service-security-data-protection-overview.md)
-* [Power BI'da veri duyarlılığı etiketleri uygulama](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI'da veri duyarlılığı etiketleri uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Veri koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)

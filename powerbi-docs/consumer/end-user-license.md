@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066089"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129492"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>Power BI hizmetini *tüketici* olarak kullanma
 
@@ -47,7 +47,7 @@ Premium ayrıca içeriği görüntüleyen alıcılarda Pro lisansı gerektirmede
 
 Bu çalışma alanları içinde, tasarımcılar iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirleyen **Görüntüleyici**, **Katkıda bulunan**, **Üye** ve **Yönetici** gibi roller atayabilir. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
 
-Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../service-premium-what-is.md).
+Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../admin/service-premium-what-is.md).
 
 
 ## <a name="find-out-which-licenses-you-have"></a>Sahip olduğunuz lisansları öğrenme

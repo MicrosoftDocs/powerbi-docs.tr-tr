@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834644"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141264"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma 
 
@@ -39,7 +39,6 @@ Abonelikleri ayarlarken ne sıklıkta e-posta almak istediğinizi seçersiniz: g
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma](../service-report-subscribe.md)
+[Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma](../collaborate-share/service-report-subscribe.md)
 
 [Power BI hizmetinde sayfalandırılmış raporlar](end-user-paginated-report.md)
-

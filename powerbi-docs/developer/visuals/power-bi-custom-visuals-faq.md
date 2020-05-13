@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383310"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131303"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI görselleri hakkında SSS
 
@@ -24,7 +24,7 @@ Yönetici portalı, kuruluşunuz için Power BI görsellerinin yönetilmesine ol
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>Yöneticiler Power BI kuruluş görsellerini nasıl yönetebilir?
 
-Yöneticiler, Yönetim portalının *Kuruluş görselleri* sekmesinden [kuruluştaki tüm Power BI kuruluş görsellerini görebilir ve yönetebilir](../../service-admin-portal.md#organizational-visuals). Yönetim işlemleri Power BI görsellerini ekleme, devre dışı bırakma, etkinleştirme ve silmeden oluşur.
+Yöneticiler, Yönetim portalının *Kuruluş görselleri* sekmesinden [kuruluştaki tüm Power BI kuruluş görsellerini görebilir ve yönetebilir](../../admin/service-admin-portal.md#organizational-visuals). Yönetim işlemleri Power BI görsellerini ekleme, devre dışı bırakma, etkinleştirme ve silmeden oluşur.
 
 Kuruluştaki kullanıcılar Power BI görsellerini kolayca bulabilir ve bunları Power BI Desktop'tan veya Power BI hizmetinden doğrudan raporlarına aktarabilir.
 

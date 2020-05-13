@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ae47c6ea0c7b9bf629f55701ba4242a195dc164d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81267857"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274409"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Veri kümesi ve veri akışı onaylamasını ayarlama (önizleme)
 
@@ -24,7 +24,7 @@ Power BI kiracı yöneticisi olarak kuruluşunuzda onaylama işlemini ayarlamak 
 * Veri kümelerini ve veri akışlarını onaylama yetkisi olacak grupların ve kullanıcıların listesini tanımlarsınız.
 * Veri kümeleri için, kuruluşun veri kümesi onaylama ilkesinin (varsa) URL’sini sağlarsınız.
 
-Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *onay* sürecinin bir parçasıdır. Daha fazla bilgi için [veri kümesi onayı](../service-datasets-promote.md) ve [veri akışı onayı](../transform-model/service-dataflows-promote-certify.md) konularına bakın.
+Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *onay* sürecinin bir parçasıdır. Daha fazla bilgi için [veri kümesi onayı](../connect-data/service-datasets-promote.md) ve [veri akışı onayı](../transform-model/service-dataflows-promote-certify.md) konularına bakın.
 
 
 ## <a name="set-up-certification"></a>Onaylamayı ayarlama
@@ -35,13 +35,13 @@ Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *o
    ![Veri kümesi ve veri akışı sertifikası ayarlama](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. İki durumlu düğmeyi **Etkinleştirildi** olarak ayarlayın.
-1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL **veri akışı onay ayarları iletişim kutusunun** onaylama bölümünde [Daha fazla bilgi edinin](../service-datasets-promote.md#request-dataset-certification) bağlantısına dönüşür. 
-1. Veri kümelerini ve veri akışlarını onaylama yetkisi olacak kullanıcıları ve grupları belirtin. Bu yetkili onaylayıcılar [veri kümesi](../service-datasets-promote.md#request-dataset-certification) veya [veri akışı](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) onay ayarları iletişim kutusunun onaylama bölümündeki Onaylama düğmesini kullanabilir.
+1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL **veri akışı onay ayarları iletişim kutusunun** onaylama bölümünde [Daha fazla bilgi edinin](../connect-data/service-datasets-promote.md#request-dataset-certification) bağlantısına dönüşür. 
+1. Veri kümelerini ve veri akışlarını onaylama yetkisi olacak kullanıcıları ve grupları belirtin. Bu yetkili onaylayıcılar [veri kümesi](../connect-data/service-datasets-promote.md#request-dataset-certification) veya [veri akışı](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) onay ayarları iletişim kutusunun onaylama bölümündeki Onaylama düğmesini kullanabilir.
 1. **Uygula**'ya tıklayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Veri kümelerini tanıtma](../service-datasets-promote.md)
-* [Veri kümelerini onaylama](../service-datasets-certify.md)
+* [Veri kümelerini tanıtma](../connect-data/service-datasets-promote.md)
+* [Veri kümelerini onaylama](../connect-data/service-datasets-certify.md)
 * [Veri akışlarını yükseltme](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Veri akışlarını onaylama](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

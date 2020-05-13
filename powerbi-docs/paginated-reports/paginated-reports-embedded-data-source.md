@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921781"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276916"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
@@ -27,11 +27,11 @@ Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleş
 - Oracle 
 - Teradata 
 
-Aşağıdaki veri kaynakları için [SQL Server Analysis Services bağlantısı](../service-premium-connect-tools.md) seçeneğini kullanın:
+Aşağıdaki veri kaynakları için [SQL Server Analysis Services bağlantısı](../admin/service-premium-connect-tools.md) seçeneğini kullanın:
 
 - Power BI Premium veri kümeleri
 
-Sayfalandırılmış raporlar, [Power BI ağ geçidi](../service-gateway-onprem.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
+Sayfalandırılmış raporlar, [Power BI ağ geçidi](../connect-data/service-gateway-onprem.md) üzerinden şirket içi veri kaynaklarına bağlanır. Raporu Power BI hizmetinde yayımladıktan sonra ağ geçidini ayarlayabilirsiniz.
 
 Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Verileri](report-builder-data.md).
 
@@ -93,3 +93,4 @@ Power BI veri kümelerine bağlanan sayfalandırılmış raporlar, birkaç küç
 
 - [Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma](paginated-reports-create-embedded-dataset.md)
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
+

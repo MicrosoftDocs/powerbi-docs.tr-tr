@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550964"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277031"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -21,7 +21,7 @@ Pano, kutucuk, rapor ve veri kümelerindeki verilere kullanıcı erişimini kıs
 
 Tipik bir ISV senaryosunda olduğu gibi, Power BI harici kullanıcılar (verilerin sahibinin uygulama olduğu) için ekleme yapıyorsanız bu makale tam size göre! Kullanıcı ve rolü hesaba katmak için ekleme belirtecini yapılandırın.
 
-Kuruluşunuzun içindeki Power BI kullanıcıları için ekleme yapıyorsanız (verilerin sahibi kullanıcı), RLS doğrudan Power BI hizmetinde olduğu gibi çalışır. Uygulamanızda yapmanız gereken başka işlem yoktur. Daha fazla bilgi için bkz. [Power BI ile Satır Düzeyi Güvenlik (RLS)](../../service-admin-rls.md).
+Kuruluşunuzun içindeki Power BI kullanıcıları için ekleme yapıyorsanız (verilerin sahibi kullanıcı), RLS doğrudan Power BI hizmetinde olduğu gibi çalışır. Uygulamanızda yapmanız gereken başka işlem yoktur. Daha fazla bilgi için bkz. [Power BI ile Satır Düzeyi Güvenlik (RLS)](../../admin/service-admin-rls.md).
 
 ![Satır Düzeyi Güvenlik ile ilgili öğeler.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ RLS’den faydalanmak için üç ana kavramı anlamak önemlidir: Kullanıcılar
 
 **Kullanıcılar** – Yapıtı (pano, kutucuk, rapor veya veri kümesi) görüntüleyen son kullanıcılar. Power BI Embedded'da kullanıcılar bir ekleme belirteci içindeki kullanıcı adı özelliği ile tanımlanır.
 
-**Roller**: Kullanıcılar rollere aittir. Rol, kural kapsayıcısıdır ve *Satış Yöneticisi* veya *Satış Temsilcisi* gibi adlar verilebilir. Rolleri Power BI Desktop uygulamasından oluşturabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../../desktop-rls.md).
+**Roller**: Kullanıcılar rollere aittir. Rol, kural kapsayıcısıdır ve *Satış Yöneticisi* veya *Satış Temsilcisi* gibi adlar verilebilir. Rolleri Power BI Desktop uygulamasından oluşturabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../../create-reports/desktop-rls.md).
 
 **Kurallar**: Roller kurallara sahiptir ve bu kurallar, verilere uygulanacak gerçek filtrelerdir. Kurallar, "Country = USA" kadar basit veya çok daha dinamik bir şey olabilir.
 Bu makalenin kalan bölümünde RLS yazma ve sonra bunu eklenmiş bir uygulama içinde kullanma için bir örnek verilmektedir. Örneğimizde [Retail Analysis Sample](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX dosyası kullanılmıştır.
@@ -135,7 +135,7 @@ Kullanıcı adı özelliği için sunulan etkin kimliğin, Analysis Services sun
 
 ### <a name="on-premises-data-gateway-configuration"></a>Şirket içi veri ağ geçidi yapılandırması
 
-Analysis Services canlı bağlantılarıyla çalışılırken bir [Şirket içi veri ağ geçidi](../../service-gateway-onprem.md) kullanılır. Listelenmiş bir kimlikle ekleme belirteci oluştururken ana hesabın ağ geçidinin yöneticisi olarak listelenmesi gerekir. Ana hesap listede yoksa, verilerin özelliğine satır düzeyi güvenlik uygulanmaz. Ağ geçidinde yönetici olmayan bir kullanıcı, rolleri sağlayabilir ancak etkin kimlik için kendi kullanıcı adını belirtmesi gerekir.
+Analysis Services canlı bağlantılarıyla çalışılırken bir [Şirket içi veri ağ geçidi](../../connect-data/service-gateway-onprem.md) kullanılır. Listelenmiş bir kimlikle ekleme belirteci oluştururken ana hesabın ağ geçidinin yöneticisi olarak listelenmesi gerekir. Ana hesap listede yoksa, verilerin özelliğine satır düzeyi güvenlik uygulanmaz. Ağ geçidinde yönetici olmayan bir kullanıcı, rolleri sağlayabilir ancak etkin kimlik için kendi kullanıcı adını belirtmesi gerekir.
 
 ### <a name="use-of-roles"></a>Rollerin kullanımı
 
@@ -235,9 +235,9 @@ Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlaman�
 
 Raporda verilerinizi filtrelemeye karar verirseniz **satır düzeyi güvenliği (RLS)** veya **JavaScript filtrelerini** kullanabilirsiniz.
 
-[Satır düzeyi güvenlik](../../service-admin-rls.md) veri modeli düzeyinde verileri filtreleyen bir özelliktir. Arka uç veri kaynağınız RLS ayarlarınızı denetler. Veri modelinize bağlı olarak ekleme belirteci oluşturma özelliği oturum için kullanıcı adını ve diğer rolleri ayarlar. Bu, istemci tarafı kod tarafından geçersiz kılınamaz, kaldırılamaz veya denetlenemez. Güvenli kabul edilmesinin nedeni budur. Verileri güvenli bir şekilde filtrelemek için RLS kullanmanızı öneririz. Aşağıdaki seçeneklerden birini kullanarak verilerinizi RLS ile filtreleyebilirsiniz.
+[Satır düzeyi güvenlik](../../admin/service-admin-rls.md) veri modeli düzeyinde verileri filtreleyen bir özelliktir. Arka uç veri kaynağınız RLS ayarlarınızı denetler. Veri modelinize bağlı olarak ekleme belirteci oluşturma özelliği oturum için kullanıcı adını ve diğer rolleri ayarlar. Bu, istemci tarafı kod tarafından geçersiz kılınamaz, kaldırılamaz veya denetlenemez. Güvenli kabul edilmesinin nedeni budur. Verileri güvenli bir şekilde filtrelemek için RLS kullanmanızı öneririz. Aşağıdaki seçeneklerden birini kullanarak verilerinizi RLS ile filtreleyebilirsiniz.
 
-* [Rolleri Power BI raporunda yapılandırma](../../desktop-rls.md).
+* [Rolleri Power BI raporunda yapılandırma](../../create-reports/desktop-rls.md).
 * Rolleri veri kaynağı düzeyinde yapılandırma (yalnızca canlı Analysis Services bağlantısı).
 * `EffectiveIdentity` kullanarak bir [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) ile programlı olarak. Ekleme belirteci kullanıldığında asıl filtre belirli bir oturum için ekleme belirtecinden geçer.
 

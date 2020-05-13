@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802084"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276088"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
 Aşağıdakiler için geçerlidir:
@@ -24,7 +24,7 @@ Aşağıdakiler için geçerlidir:
 
 Power BI'daki QR kodları, gerçek dünyadaki herhangi bir öğeyi, gezinti veya arama gerektirmeden doğrudan ilgili BI bilgilerine bağlayabilir.
 
-Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power BI hizmetinde bir QR kodu oluşturdu](../../service-create-qr-code-for-tile.md), bu panoyu ya da raporu sizinle paylaştı ve QR kodunu da bir e-posta ya da belirli bir öğe gibi anahtar bir konuma yerleştirdi. 
+Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power BI hizmetinde bir QR kodu oluşturdu](../../create-reports/service-create-qr-code-for-tile.md), bu panoyu ya da raporu sizinle paylaştı ve QR kodunu da bir e-posta ya da belirli bir öğe gibi anahtar bir konuma yerleştirdi. 
 
 İster Power BI uygulamasındaki tarayıcıyı ister telefonunuzda yüklü bulunan herhangi bir tarayıcıyı kullanarak doğrudan telefonunuz üzerinden ilgili kutucuk ya da rapora anında erişim için QR kodunu taratabilirsiniz. 
 
@@ -75,8 +75,7 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)
-* [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../service-create-qr-code-for-tile.md)
-* [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../service-create-qr-code-for-report.md)
+* [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-tile.md)
+* [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-report.md)
 * Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

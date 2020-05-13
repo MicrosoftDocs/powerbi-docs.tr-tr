@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404878"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145220"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
 
@@ -43,7 +43,7 @@ Sayfalandırılmış rapor oluşturmanın önkoşulları şunlardır:
 Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşullar şunlardır:
 
 - [Power BI Pro lisansına](../service-admin-power-bi-pro-in-your-organization.md) ihtiyacınız vardır.
-- Hizmette [Power BI Premium kapasitesinde](../service-premium-what-is.md) bir çalışma alanınız olmalıdır. Çalışma alanı adının yanında ![Premium elmas simgesi](media/paginated-reports-quickstart-aw/premium-diamond.png) bulunur.
+- Hizmette [Power BI Premium kapasitesinde](../admin/service-premium-what-is.md) bir çalışma alanınız olmalıdır. Çalışma alanı adının yanında ![Premium elmas simgesi](media/paginated-reports-quickstart-aw/premium-diamond.png) bulunur.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Sihirbazla matris oluşturma
   
@@ -329,4 +329,3 @@ Bu sayfalandırılmış raporu oluşturduğunuza göre, artık raporu Power BI h
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
-

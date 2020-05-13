@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120287"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275536"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -65,7 +65,7 @@ Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yaln
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Microsoft AppSource web sitesinden bir uygulama edinme 
 
-Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSource’ta, işlerinizi yürütmek için kullandığınız çoğu hizmete yönelik uygulamalar bulabilirsiniz.  Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, ve daha fazlası gibi hizmetler. Daha fazla bilgi edinmek için [Power BI ile kullandığınız hizmetlere yönelik uygulamalar](../service-connect-to-services.md) bölümünü ziyaret edin. 
+Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSource’ta, işlerinizi yürütmek için kullandığınız çoğu hizmete yönelik uygulamalar bulabilirsiniz.  Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, ve daha fazlası gibi hizmetler. Daha fazla bilgi edinmek için [Power BI ile kullandığınız hizmetlere yönelik uygulamalar](../connect-data/service-connect-to-services.md) bölümünü ziyaret edin. 
 
 1. Tarayıcıda [https://appsource.microsoft.com](https://appsource.microsoft.com) bağlantısını açın ve **Power BI uygulamaları**’nı seçin.
 
@@ -142,3 +142,4 @@ Zaman zaman uygulama oluşturucuları uygulamalarının yeni sürümlerini kulla
 * [Uygulamalara genel bakışa dönme](end-user-apps.md)
 * [Power BI raporu görüntüleme](end-user-report-open.md)
 * [İçeriğin sizinle paylaşılmasını sağlayan diğer yöntemler](end-user-shared-with-me.md)
+

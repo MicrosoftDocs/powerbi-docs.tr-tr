@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ae73f2e32d34c3e1b37991358545997c4b4bb961
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865472"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272914"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI'da kartogram (koroplet harita) oluşturma ve kullanma
 
@@ -92,12 +92,12 @@ Bu eğitimde [Satış ve Pazarlama örneği PBIX dosyası](https://download.micr
 7. Kartogram yeşil ve kırmızı ile gölgelendirilir; kırmızı daha düşük yaklaşım sayılarını, yeşil ise daha yüksek ve daha pozitif yaklaşımı temsil eder.  Ek ayrıntıları görüntülemek için bir alanı araç ipucu kutusuna sürükleyin.  Burada **SalesFact** > **Yaklaşım aralığı** ekledik. Idaho (ID) eyaletinin vurgulanması yaklaşım aralığının 6 gibi düşük bir değerde olduğunu gösterir.
    ![Idaho araç ipuçlarını gösteren kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
-10. [Raporu kaydedin](../service-report-save.md).
+10. [Raporu kaydedin](../create-reports/service-report-save.md).
 
 Power BI, kartogramınızın görünümü üzerinde büyük ölçüde denetim elde etmenizi sağlar. İstediğiniz görünümü elde edinceye kadar bu veri rengi denetimleri üzerinde deneme yapın. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
-Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).
+Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../create-reports/power-bi-report-add-filter.md).
 
 Bir kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu tam tersi için de geçerlidir.
 
@@ -136,3 +136,5 @@ Harita görselleştirmeleri hakkında daha fazla yardım için bkz. [Harita gör
 [Şekil haritası](desktop-shape-map.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d4145e1fdfdd6c1e9409dc305a5767eec8ace53
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404043"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148537"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -200,7 +200,7 @@ Azure'da biraz temizlik yapmanız gerekir.
 [Power BI Çalışma Alanı Koleksiyonu geçiş aracı](migrate-tool.md)  
 [Power BI Çalışma Alanı Koleksiyonu hizmetinden içerik geçişi için kod parçacıkları](migrate-code-snippets.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-your-organization.md)  
-[Power BI Premium nedir?](../../service-premium-what-is.md)  
+[Power BI Premium nedir?](../../admin/service-premium-what-is.md)  
 [JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

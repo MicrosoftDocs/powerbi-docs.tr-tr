@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525342"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274869"
 ---
 # <a name="dataset-impact-analysis"></a>Veri kümesi etki analizi
 
@@ -54,7 +54,7 @@ Kullanım ölçümleri son 30 güne ilişkindir (geçerli gün hariç tutulur). 
 
 ## <a name="notify-contacts"></a>Kişilere bildirme
 
-Veri kümesinde değişiklik yaptıysanız veya yapmayı düşünüyorsanız, ilgili kullanıcılarla iletişim kurup onları bilgilendirmek isteyebilirsiniz. Kişilere bildirimde bulunduğunuzda, etkilenen tüm çalışma alanlarının [kişi listelerine](../service-create-the-new-workspaces.md#workspace-contact-list) e-posta gönderilir. Adınız e-postada görüntülendiğinden kişiler sizi bulabilir ve yeni bir e-posta yazışmasında yanıtlayabilir. 
+Veri kümesinde değişiklik yaptıysanız veya yapmayı düşünüyorsanız, ilgili kullanıcılarla iletişim kurup onları bilgilendirmek isteyebilirsiniz. Kişilere bildirimde bulunduğunuzda, etkilenen tüm çalışma alanlarının [kişi listelerine](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) e-posta gönderilir. Adınız e-postada görüntülendiğinden kişiler sizi bulabilir ve yeni bir e-posta yazışmasında yanıtlayabilir. 
 
 1. Etki analizi yan bölmesinde **Kişilere bildir**’e tıklayın. Kişilere bildir iletişim kutusu görüntülenir.
 
@@ -89,5 +89,6 @@ Power BI Desktop’ta bir veri kümesinde değişiklik yaptığınızda ve ardı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Çalışma alanları arasında veri kümelerine giriş (önizleme)](../service-datasets-across-workspaces.md)
+* [Çalışma alanları arasında veri kümelerine giriş (önizleme)](../connect-data/service-datasets-across-workspaces.md)
 * [Veri kökeni](service-data-lineage.md)
+

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276571"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Görselleştirmenin temel alınan verilerini görüntüleme
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Verileri göster
 Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. **Verileri Göster**'i seçtiğinizde, Power BI ilgili verileri görselleştirmenin altında (veya yanında) görüntüler.
@@ -24,7 +26,7 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 İsterseniz görselleştirmeyi oluşturmak için kullanılan verileri .xlsx veya .csv biçiminde dışarı aktarıp Excel'de görüntüleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md).
 
 > [!NOTE]
-> *Verileri Göster* ve *Verileri Dışarı Aktar* seçenekleri hem Power BI hizmetinde hem de Power BI Desktop uygulamasında kullanılabilir. Ancak Power BI Desktop uygulaması ek bir ayrıntı katmanı daha sunar. [*Kayıtları Göster* seçeneği veri kümesindeki satırları görüntüler](../desktop-see-data-see-records.md).
+> *Verileri Göster* ve *Verileri Dışarı Aktar* seçenekleri hem Power BI hizmetinde hem de Power BI Desktop uygulamasında kullanılabilir. Ancak Power BI Desktop uygulaması ek bir ayrıntı katmanı daha sunar. [*Kayıtları Göster* seçeneği veri kümesindeki satırları görüntüler](../create-reports/desktop-see-data-see-records.md).
 > 
 > 
 
@@ -75,4 +77,5 @@ Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin te
 [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md)    
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+
 

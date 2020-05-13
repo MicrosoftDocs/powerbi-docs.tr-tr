@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867036"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274202"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI'da çizgi grafikler
 
@@ -32,7 +32,7 @@ Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde g�
 > [!NOTE]
 > Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.
 
-1. Boş bir rapor sayfasında başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
+1. Boş bir rapor sayfasında başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../create-reports/service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
 
 2. Alanlar bölmesinden **SalesFact** \> **Total units**'i, sonra da **Date** > **Month** alanını seçin.  Power BI rapor tuvalinizde bir sütun grafik oluşturur.
 
@@ -74,7 +74,7 @@ Peki hem toplam satıları hem de toplam birimleri aynı grafikte görmek isters
    ![çok aykırı değerler](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
-Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../power-bi-report-add-filter.md).
+Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../create-reports/power-bi-report-add-filter.md).
 
 Çizgi grafikte bir veri noktası vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve tam tersi de geçerlidir. Konuyu takip etmek için **Market Share** sekmesini açın.  
 
@@ -86,7 +86,7 @@ Bu örnekte şunlara işaret eden veri noktasını seçtik: July 2014, %Units Ma
 
 Sütun grafiğin nasıl çapraz vurgulandığını ve ölçerin çapraz filtrelendiğini gözlemleyin.
 
-Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](../service-reports-visual-interactions.md)
+Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetmek için bkz. [Power BI raporlarındaki görselleştirme etkileşimleri](../create-reports/service-reports-visual-interactions.md)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 * Bir çizgi grafikte çift Y ekseni olamaz.  Bunun yerine birleşik harita kullanmanız gerekir.
@@ -95,5 +95,8 @@ Grafiklerin birbirini çapraz vurgulamasını ve çapraz filtrelemesini yönetme
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

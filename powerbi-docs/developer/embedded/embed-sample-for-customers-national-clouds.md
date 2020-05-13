@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3277bba0a4351f17d671adf9a70aae4adb7ddbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d30dfaa36bc55e8da769d4eaf0f7c2d1b9be0724
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525388"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145209"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -38,7 +38,7 @@ Farklı ulusal bulutlar şunlardır:
 
 ![Katıştırılmış pano](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, devlet veya ülke türüne bağlı olarak kendiniz için uygun ulusal bulutu seçebilirsiniz. [ABD kamu Power BI hesabına](../../service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](https://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
+Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gerekir. Ayarlanmış bir hesabınız yoksa, devlet veya ülke türüne bağlı olarak kendiniz için uygun ulusal bulutu seçebilirsiniz. [ABD kamu Power BI hesabına](../../admin/service-govus-signup.md), [Almanya için Power BI bulutu hesabına](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) veya [Çin için Power BI bulutu hesabına](https://www.21vbluecloud.com/powerbi/) kaybolabilirsiniz.
 
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](embed-sample-for-your-organization.md).

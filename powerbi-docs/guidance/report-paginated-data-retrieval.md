@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377662"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275099"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Sayfalandırılmış raporlar için veri alma kılavuzu
 
@@ -101,14 +101,14 @@ Veri kümesi satırlarının farklı alt kümeleri için istekte bulunulmayacağ
 
 ## <a name="non-native-data-sources"></a>Yerel olmayan veri kaynakları
 
-[Sayfalandırılmış raporlar tarafından yerel olarak desteklenmeyen](../paginated-reports/paginated-reports-data-sources.md) veri kaynaklarını temel alan sayfalandırılmış raporlar geliştirmeniz gerekiyorsa öncelikle bir Power BI Desktop veri modeli geliştirebilirsiniz. Bu sayede 100'den fazla [Power BI veri kaynağına](../power-bi-data-sources.md) bağlanabilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
+[Sayfalandırılmış raporlar tarafından yerel olarak desteklenmeyen](../paginated-reports/paginated-reports-data-sources.md) veri kaynaklarını temel alan sayfalandırılmış raporlar geliştirmeniz gerekiyorsa öncelikle bir Power BI Desktop veri modeli geliştirebilirsiniz. Bu sayede 100'den fazla [Power BI veri kaynağına](../connect-data/power-bi-data-sources.md) bağlanabilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
 
 ## <a name="data-integration"></a>Veri tümleştirmesi
 
 Birden çok veri kaynağında bulunan verileri birleştirmeniz gerekiyorsa iki seçeneğiniz vardır:
 
 - **Rapor veri kümelerini birleştirme**: Veri kaynakları [sayfalandırılmış raporlar tarafından yerel olarak destekleniyorsa](../paginated-reports/paginated-reports-data-sources.md), [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) veya [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) Report Builder işlevlerini kullanan hesaplanan alanlar oluşturabilirsiniz.
-- **Power BI Desktop modeli geliştirme**: Çoğu durumda Power BI Desktop'ta bir veri modeli geliştirmeniz daha verimli olacaktır. Power Query ile [desteklenen veri kaynaklarını](../power-bi-data-sources.md) temel alan sorguları birleştirebilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
+- **Power BI Desktop modeli geliştirme**: Çoğu durumda Power BI Desktop'ta bir veri modeli geliştirmeniz daha verimli olacaktır. Power Query ile [desteklenen veri kaynaklarını](../connect-data/power-bi-data-sources.md) temel alan sorguları birleştirebilirsiniz. Power BI hizmeti yayımlandıktan sonra Power BI veri kümesine bağlanan bir sayfalandırılmış rapor geliştirebilirsiniz.
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server karmaşık veri türleri
 

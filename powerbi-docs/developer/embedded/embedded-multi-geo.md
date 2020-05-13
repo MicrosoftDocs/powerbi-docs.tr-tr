@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114670"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149248"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded için Multi-Geo desteği
 
 **Power BI Embedded için Multi-Geo desteği**, uygulamalarına analiz özelliklerini ekleme amacıyla Power BI Embedded hizmetini kullanarak uygulama derleyen ISV'lerin ve kuruluşların artık verilerini dünya üzerindeki farklı bölgelere dağıtabileceği anlamına gelir.
 
-Artık **Power BI Embedded** kullanan müşteriler **Power BI Premium'un Multi-Geo kullanımı konusunda** desteklediği özelliklerden ve sınırlamalara tabi olarak **Multi-Geo** seçeneklerini kullanan bir [A kapasite](../../service-admin-premium-Multi-Geo.md) ayarlayabilir.
+Artık **Power BI Embedded** kullanan müşteriler **Power BI Premium'un Multi-Geo kullanımı konusunda** desteklediği özelliklerden ve sınırlamalara tabi olarak **Multi-Geo** seçeneklerini kullanan bir [A kapasite](../../admin/service-admin-premium-Multi-Geo.md) ayarlayabilir.
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Multi-Geo ile yeni Power BI Embedded Kapasitesi kaynağı oluşturma
 
@@ -89,6 +89,6 @@ Aşağıdaki bağlantıları kullanarak Power BI Embedded kapasiteleri ve tüm k
 
 * [Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md)
 
-* [Power BI Premium kapasitelerinde Multi-Geo](../../service-admin-premium-multi-geo.md)
+* [Power BI Premium kapasitelerinde Multi-Geo](../../admin/service-admin-premium-multi-geo.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

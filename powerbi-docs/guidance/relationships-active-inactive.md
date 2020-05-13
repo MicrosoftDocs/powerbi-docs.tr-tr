@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263680"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273236"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu
 
@@ -114,7 +114,7 @@ Model tasarımı aşağıdaki rapor tasarımını destekler.
 
 Rapor sayfası 2019 Q4 çeyreğine göre filtrelenir. Tablo görseli aya göre gruplandırılır ve çeşitli satış istatistiklerini görüntüler. **Orders** ve **Orders Shipped** ölçüleri farklı sonuçlar üretir. Bunların ikisi de aynı özetleme mantığını (**Sales** tablosunun satırlarını sayma) ama farklı **Date** tablosu filtre yaymasını kullanır.
 
-Çeyrek dilimleyicisinin BOŞ öğe içerdiğine dikkat edin. Bu dilimleyici öğesi, [tablo genişletme](../desktop-relationships-understand.md#strong-relationships) işleminin sonucu olarak görüntülenir. **Sales** tablosundaki her satırın bir sipariş tarihi olmasına karşın bazı satırların gönderme tarihi BOŞTUR çünkü bu siparişler henüz gönderilmemiştir. Tablo genişletme işleminde etkin olmayan ilişkiler de dikkate alınır ve dolayısıyla ilişkinin çok tarafındaki BOŞLUKLAR veya veri bütünlüğü sorunları nedeniyle BOŞLUKLAR görülebilir.
+Çeyrek dilimleyicisinin BOŞ öğe içerdiğine dikkat edin. Bu dilimleyici öğesi, [tablo genişletme](../transform-model/desktop-relationships-understand.md#strong-relationships) işleminin sonucu olarak görüntülenir. **Sales** tablosundaki her satırın bir sipariş tarihi olmasına karşın bazı satırların gönderme tarihi BOŞTUR çünkü bu siparişler henüz gönderilmemiştir. Tablo genişletme işleminde etkin olmayan ilişkiler de dikkate alınır ve dolayısıyla ilişkinin çok tarafındaki BOŞLUKLAR veya veri bütünlüğü sorunları nedeniyle BOŞLUKLAR görülebilir.
 
 ## <a name="recommendations"></a>Öneriler
 
@@ -129,7 +129,7 @@ Bununla birlikte belirli koşullarda rol yapan boyut türündeki bir tablo için
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
+- [Power BI Desktop’ta model ilişkileri](../transform-model/desktop-relationships-understand.md)
 - [Yıldız şemasını ve Power BI açısından önemini anlama](star-schema.md)
 - [İlişki sorunlarını giderme kılavuzu](relationships-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496275"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142303"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 
@@ -24,9 +24,9 @@ Panoları, raporları ve uygulamaları öne çıkarabilirsiniz; böylece bu öğ
 
 ## <a name="who-can-feature-content"></a>İçeriği kimler öne çıkarabilir?
 
-Kiracınızda içeriği öne çıkarma yeteneğinin etkinleştirilmesi, Power BI kiracı yöneticinize bağlıdır. Yönetici, içeriği kimlerin öne çıkarabileceğini de seçer. Ayrıntılar için [yönetici portalı](../service-admin-portal.md#featured-content) makalesine bakın.
+Kiracınızda içeriği öne çıkarma yeteneğinin etkinleştirilmesi, Power BI kiracı yöneticinize bağlıdır. Yönetici, içeriği kimlerin öne çıkarabileceğini de seçer. Ayrıntılar için [yönetici portalı](../admin/service-admin-portal.md#featured-content) makalesine bakın.
 
-Kuruluşunuzda bu sorumluluğa sahip bir grupsanız Power BI Pro lisansına sahip olmanız gerekir. Panoları ve raporları öne çıkarmak için çalışma alanında Yönetici, Üye veya Katkıda Bulunan rolüne sahip olmanız gerekir. Uygulamanın kendisini öne çıkarmak için, çalışma alanında Yönetici veya Üye rolüne sahip olmanız gerekir. Ayrıntılar için [Yeni çalışma alanlarındaki roller](../service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
+Kuruluşunuzda bu sorumluluğa sahip bir grupsanız Power BI Pro lisansına sahip olmanız gerekir. Panoları ve raporları öne çıkarmak için çalışma alanında Yönetici, Üye veya Katkıda Bulunan rolüne sahip olmanız gerekir. Uygulamanın kendisini öne çıkarmak için, çalışma alanında Yönetici veya Üye rolüne sahip olmanız gerekir. Ayrıntılar için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
 
 ## <a name="who-sees-featured-content"></a>Öne çıkan içeriği kimler görür?
 
@@ -58,7 +58,6 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Yönetici portalında öne çıkan içeriği yönetme](../service-admin-portal.md#manage-featured-content)
+* [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Yönetici portalında öne çıkan içeriği yönetme](../admin/service-admin-portal.md#manage-featured-content)
 * Sorular? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

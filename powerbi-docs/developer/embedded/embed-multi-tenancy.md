@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 435f643ba155bc9d6c67d1131d946769e3d61730
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79494964"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276019"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -40,7 +40,7 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 **Power BI kiracısı**: Tek bir AAD kiracısıyla ilişkilendirilmiş bir dizi Power BI kaynağı.
 
-**[Power BI çalışma alanı](../../service-create-workspaces.md)** : Power BI'daki içerik için bir kapsayıcı.
+**[Power BI çalışma alanı](../../collaborate-share/service-create-workspaces.md)** : Power BI'daki içerik için bir kapsayıcı.
 
 **Power BI yapıtları**: Power BI çalışma alanlarında panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli Power BI yapıtları vardır.
 
@@ -52,11 +52,11 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 **AAD Uygulama kullanıcısı (hizmet sorumlusu)** : Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Bir AAD web uygulaması olması gerekir. Power BI'da kimlik doğrulaması yapmak için *ana* kullanıcının yerine geçebilir.
 
-**Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../../service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
+**Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../../admin/service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
 
-**[Power BI Pro lisansı](../../service-admin-purchasing-power-bi-pro.md)** : Çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
+**[Power BI Pro lisansı](../../admin/service-admin-purchasing-power-bi-pro.md)** : Çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
 
-**[Veri bağlantısı modları](../../desktop-directquery-about.md)** : Farklı modlarda yapılabilecek veri kaynaklarını Power BI'a bağlama işlemi:
+**[Veri bağlantısı modları](../../connect-data/desktop-directquery-about.md)** : Farklı modlarda yapılabilecek veri kaynaklarını Power BI'a bağlama işlemi:
 
    * İçeri aktarma: verileri almanın en yaygın yoludur.
    * DirectQuery: verilere doğrudan kendi kaynak depolarında bağlanma.
@@ -104,9 +104,9 @@ Power BI Embedded birden çok coğrafi konumda dağıtımı destekler (önizleme
 
 ### <a name="cost"></a>Maliyet
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her [ana](../../service-admin-licensing-organization.md) kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer *Power BI Pro lisansı* gerekir.
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)'in, **Power BI Premium** gibi kaynak tabanlı bir satın alma modelidir. Sabit bir bilgi işlem gücü ve belleğe sahip bir veya birden çok kapasite satın alırsınız. **Power BI Embedded** ile çalışırken ana maliyet kalemi bu kapasitedir. Kapasiteyi kullanan kullanıcı sayısı için bir sınır yoktur. Tek sınır, kapasitenin performansıdır. Her [ana](../../admin/service-admin-licensing-organization.md) kullanıcı için veya Power BI portalına erişmesi gereken belirli kullanıcılar için birer *Power BI Pro lisansı* gerekir.
 
-Canlı ortamın ve kullanımın simülasyonunu yaparak ve kapasitede yük testi çalıştırarak kapasitenizde beklenen yükü test etmenizi ve ölçmenizi öneririz. Azure kapasitesinde veya [Premium kapasite ölçüm uygulamasında](../../service-admin-premium-monitor-capacity.md) sağlanan çeşitli Ölçümlerle yükü ve performansı ölçebilirsiniz.
+Canlı ortamın ve kullanımın simülasyonunu yaparak ve kapasitede yük testi çalıştırarak kapasitenizde beklenen yükü test etmenizi ve ölçmenizi öneririz. Azure kapasitesinde veya [Premium kapasite ölçüm uygulamasında](../../admin/service-admin-premium-monitor-capacity.md) sağlanan çeşitli Ölçümlerle yükü ve performansı ölçebilirsiniz.
 
 ### <a name="content-customization-and-authoring"></a>İçerik özelleştirme ve yazma
 
@@ -131,7 +131,7 @@ Kiracının verilerini yönetmek için iki ana yaklaşım vardır.
 
 SaaS uygulaması depolama alanında her kiracı için ayrı veritabanı bulunduruluyorsa, doğal seçim Power BI'da tek kiracılı veri kümeleri kullanmak ve her veri kümesi için eşleşen veritabanına işaret eden bir bağlantı dizesi sağlamaktır.
 
-SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)'yi kullanabilirsiniz.
+SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../transform-model/desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)'yi kullanabilirsiniz.
 
 ### <a name="data-isolation"></a>Veri yalıtımı
 
@@ -193,7 +193,7 @@ Satır düzeyi güvenlik tabanlı yalıtımda, veri ayrımı veri kümesinde [sa
 
 ### <a name="scalability"></a>Ölçeklenebilirlik
 
-Satır düzeyi güvenlik tabanlı yalıtımda, verilerin şu anda 10 GB olan veri kümesi boyut sınırını aşmaması gerekir. [Artımlı yenilemenin](../../service-premium-incremental-refresh.md) kullanılmaya başlanmasıyla ve Power BI veri kümeleri için bir XMLA uç noktasının yakında kullanıma sunulmasıyla, veri kümesi boyut sınırının önemli ölçüde artması beklenmektedir. Bununla birlikte, verilerin yine de kapasitenin belleğine sığması ve veri yenileme işlemlerinin çalıştırılması için yeterli bellek kalması gerekir. Büyük ölçekli dağıtımlarda, belleğin geçerli kapasitenin sınırlarını aşmasından dolayı kullanıcıların sorun yaşamasını önlemek için büyük bir kapasite gerekir. Ölçekle başa çıkmanın alternatif yolları arasında [toplamaları](../../desktop-aggregations.md) kullanmak ya da verilerin tümünü Power BI kapasitesinde önbelleğe almak yerine DirectQuery veya Canlı bağlantı ile veri kaynağına doğrudan bağlanmak sayılabilir.
+Satır düzeyi güvenlik tabanlı yalıtımda, verilerin şu anda 10 GB olan veri kümesi boyut sınırını aşmaması gerekir. [Artımlı yenilemenin](../../admin/service-premium-incremental-refresh.md) kullanılmaya başlanmasıyla ve Power BI veri kümeleri için bir XMLA uç noktasının yakında kullanıma sunulmasıyla, veri kümesi boyut sınırının önemli ölçüde artması beklenmektedir. Bununla birlikte, verilerin yine de kapasitenin belleğine sığması ve veri yenileme işlemlerinin çalıştırılması için yeterli bellek kalması gerekir. Büyük ölçekli dağıtımlarda, belleğin geçerli kapasitenin sınırlarını aşmasından dolayı kullanıcıların sorun yaşamasını önlemek için büyük bir kapasite gerekir. Ölçekle başa çıkmanın alternatif yolları arasında [toplamaları](../../transform-model/desktop-aggregations.md) kullanmak ya da verilerin tümünü Power BI kapasitesinde önbelleğe almak yerine DirectQuery veya Canlı bağlantı ile veri kaynağına doğrudan bağlanmak sayılabilir.
 
 ### <a name="automation--operational-complexity"></a>Otomasyon ve operasyonel karmaşıklık
 
@@ -244,17 +244,17 @@ Son kullanıcılar raporları düzenler veya oluştururken üretimdeki çok kira
 
 **Power BI Kapasitesi ile ilgili önemli noktalar ve sınırlamalar:**
 
-* Her kapasite, yalnızca [satın alınan SKU](../../service-premium-what-is.md)'ya göre kendisine ayrılmış belleği ve sanal çekirdekleri kullanabilir.
-* Her SKU için önerilen veri kümesi boyutu için, [Premium büyük veri kümeleri](../../service-premium-what-is.md#large-datasets) konusuna bakın.
+* Her kapasite, yalnızca [satın alınan SKU](../../admin/service-premium-what-is.md)'ya göre kendisine ayrılmış belleği ve sanal çekirdekleri kullanabilir.
+* Her SKU için önerilen veri kümesi boyutu için, [Premium büyük veri kümeleri](../../admin/service-premium-what-is.md#large-datasets) konusuna bakın.
 * Ayrılmış bir kapasitede veri kümesi boyutu üst sınır 10 GB'tır.
 * *İçeri aktarma modundaki* bir veri kümesi için zamanlanmış yenileme sayısı günde 48 yenilemedir.
 * *İçeri aktarma modundaki* bir veri kümesi için zamanlanmış iki yenileme arasındaki süre 30 dakikadır.
-* Kapasitede aynı anda çalıştırılabilecek yenilemelerin sayısı için, [kaynak yönetimi ve iyileştirme](../../service-premium-what-is.md#capacity-nodes) konusuna bakın.
+* Kapasitede aynı anda çalıştırılabilecek yenilemelerin sayısı için, [kaynak yönetimi ve iyileştirme](../../admin/service-premium-what-is.md#capacity-nodes) konusuna bakın.
 * Kapasiteyi ortalama ölçeklendirme süresi 1-2 dakika arasındadır. Bu süre boyunca kapasite kullanılamaz. [Kullanım dışı kalma süresinden kaçınmak](https://powerbi.microsoft.com/blog/power-bi-developer-community-november-update-2018/#scale-script) için ölçek genişletme yaklaşımının kullanılmasını öneririz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI ile tümleşik analiz](embedding.md)
 * [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)
-* [Power BI Premium](../../service-premium-what-is.md)
+* [Power BI Premium](../../admin/service-premium-what-is.md)
 * [Satır düzeyi güvenlik](embedded-row-level-security.md)

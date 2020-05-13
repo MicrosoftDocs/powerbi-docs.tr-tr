@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585073"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276341"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 
@@ -24,11 +24,11 @@ Rapor okuyucularınızın genel satış ölçümlerine bakabilmesini, ancak ayn�
 
 ![Dilimleyici animasyonu](media/power-bi-visualization-slicers/slicer2.gif)
 
-Bu makalede ücretsiz [Perakende Analizi Örneği](../sample-retail-analysis.md)’ni kullanarak temel dilimleyici oluşturma ve bunu biçimlendirme işleminde size yol gösterilir. Ayrıca dilimleyiciden hangi görsellerin etkileneceğini denetleme ve diğer sayfalardaki dilimleyicilerle eşitleme işlemleri de açıklanır. Burada belirli türlerdeki dilimleyicileri oluşturmanın açıklandığı bazı başka makaleler verilmiştir:
+Bu makalede ücretsiz [Perakende Analizi Örneği](../create-reports/sample-retail-analysis.md)’ni kullanarak temel dilimleyici oluşturma ve bunu biçimlendirme işleminde size yol gösterilir. Ayrıca dilimleyiciden hangi görsellerin etkileneceğini denetleme ve diğer sayfalardaki dilimleyicilerle eşitleme işlemleri de açıklanır. Burada belirli türlerdeki dilimleyicileri oluşturmanın açıklandığı bazı başka makaleler verilmiştir:
 
-- [Sayısal aralık dilimleyicileri](../desktop-slicer-numeric-range.md).
+- [Sayısal aralık dilimleyicileri](../create-reports/desktop-slicer-numeric-range.md).
 - [Göreli tarih dilimleyicileri](desktop-slicer-filter-date-range.md).
-- Yanıt veren, [yeniden boyutlandırılabilir dilimleyiciler](../power-bi-slicer-filter-responsive.md).
+- Yanıt veren, [yeniden boyutlandırılabilir dilimleyiciler](../create-reports/power-bi-slicer-filter-responsive.md).
 - Birden çok alanı olan [hiyerarşi dilimleyicileri](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md).
 
 ## <a name="when-to-use-a-slicer"></a>Dilimleyici ne zaman kullanılır?
@@ -92,7 +92,7 @@ Bazı sayfa görselleştirmelerini diğerlerinden etkilenmemesi amacıyla hariç
 
    Şimdi dilimleyicilerde ad ve tarih aralıklarını seçtiğinizde, **MaliAy ve Bölge Yöneticisine Göre Toplam Satış Varyansı** grafiği değişmez.
 
-Etkileşimleri düzenleme hakkında daha fazla bilgi için bkz. [Bir Power BI raporundaki görsellerin etkileşim şekillerini değiştirme](../service-reports-visual-interactions.md).
+Etkileşimleri düzenleme hakkında daha fazla bilgi için bkz. [Bir Power BI raporundaki görsellerin etkileşim şekillerini değiştirme](../create-reports/service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Diğer sayfalardaki dilimleyicileri eşitleme ve kullanma
 Şubat 2018 tarihinde yapılan Power BI güncelleştirmesinden itibaren bir dilimleyiciyi eşitleyebilir ve bir rapordaki tüm sayfalarda kullanabilirsiniz. 
@@ -134,7 +134,7 @@ Geçerli raporun **Bölgenin Aylık Satışları** sayfasında **Bölge Yönetic
 ## <a name="filtering-slicers"></a>Dilimleyicileri filtreleme
 Dilimleyicide görüntülenen değerlerin listesini azaltmak için dilimleyicilere görsel düzeyde filtreler uygulayabilirsiniz. Örneğin, bir liste dilimleyicisindeki boş değerleri veya bir aralık dilimleyicisindeki belirli tarihleri filtreleyebilirsiniz. Bunu yaptığınızda yalnızca *dilimleyicide gösterilen değerler* etkilenir, seçim yaptığınızda *dilimleyicinin diğer görsellere uyguladığı filtreler* etkilenmez. Örneğin, bir aralık dilimleyicisine yalnızca belirli tarihleri göstermesi için bir filtre uyguladığınızı varsayalım. Dilimleyicideki seçim, yalnızca bu aralıktaki ilk ve son tarihleri gösterir, ancak diğer görsellerinizde diğer tarihleri görmeye devam edersiniz. Dilimleyicideki seçili aralığı değiştirdiğinizde, diğer görsellerin güncelleştirildiğini görürsünüz. Dilimleyiciyi temizlediğinizde tüm tarihler yeniden gösterilir.
 
-Görsel düzeyde filtreler hakkında daha fazla bilgi için bkz. [Filtre türleri](../power-bi-report-filter-types.md).
+Görsel düzeyde filtreler hakkında daha fazla bilgi için bkz. [Filtre türleri](../create-reports/power-bi-report-filter-types.md).
 
 ## <a name="format-slicers"></a>Biçim dilimleyiciler
 Dilimleyici türüne bağlı olarak farklı biçimlendirme seçenekleri mevcuttur. **Yatay** yönü, **Duyarlı** düzeni ve **Öğe** renklendirmeyi kullanarak standart liste öğeleri yerine düğme ya da kutucuklar oluşturabilir ve dilimleyici öğelerini farklı ekran boyutları ve düzenlerine göre yeniden boyutlandırabilirsiniz.  
@@ -169,7 +169,7 @@ Dilimleyici türüne bağlı olarak farklı biçimlendirme seçenekleri mevcuttu
 
     ![Yatay seçenekler](media/power-bi-visualization-slicers/6-buttons.png)
 
-Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz. [Power BI’da yeniden boyutlandırabileceğiniz duyarlı bir dilimleyici oluşturma](../power-bi-slicer-filter-responsive.md).
+Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz. [Power BI’da yeniden boyutlandırabileceğiniz duyarlı bir dilimleyici oluşturma](../create-reports/power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Seçim denetimi seçenekleri (yalnızca liste dilimleyiciler)
 1. **Seçim denetimleri** altında, dilimleyiciye **Tümünü Seç** öğesi eklemek için **“Tümünü seç”i göster** seçeneğini **Açık** duruma getirin. 
@@ -222,4 +222,3 @@ Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 - [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Power BI’da tablolar](power-bi-visualization-tables.md)
-

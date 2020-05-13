@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fef6bc5c396ccaf89ff4cd0e5a449cb9d01ce75b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752269"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275513"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Kriz İletişimi Durum Raporu’na Bağlanma
 
@@ -89,20 +89,20 @@ Kriz İletişimi örneğini yüklerken [“CI_Employee Status” SharePoint list
 
 ## <a name="schedule-report-refresh"></a>Rapor yenilemeyi zamanlama
 
-Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlaması belirleyin](../refresh-scheduled-refresh.md).
+Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlaması belirleyin](../connect-data/refresh-scheduled-refresh.md).
 
 1. Üst başlık çubuğunda **Power BI**’ı seçin.
 
    ![Power BI içerik haritası](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 
-1. Sol gezinti bölmesinde, **Çalışma Alanları** bölümünde Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu çalışma alanını bulup [Zamanlanan yenileme yapılandırma](../refresh-scheduled-refresh.md) makalesinde açıklanan yönergeleri izleyin.
+1. Sol gezinti bölmesinde, **Çalışma Alanları** bölümünde Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu çalışma alanını bulup [Zamanlanan yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md) makalesinde açıklanan yönergeleri izleyin.
 
 ## <a name="customize-and-share"></a>Özelleştirin ve paylaşın
 
-Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](../create-reports/sample-covid-19-us.md#disclaimers) gözden geçirdiğinizden emin olun.
+Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](../create-reports/sample-covid-19-us.md#disclaimers) gözden geçirdiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-* [Power BI şablon uygulamaları nedir?](../service-template-apps-overview.md)
-* [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../service-template-apps-install-distribute.md)
+* [Power BI şablon uygulamaları nedir?](../connect-data/service-template-apps-overview.md)
+* [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../connect-data/service-template-apps-install-distribute.md)

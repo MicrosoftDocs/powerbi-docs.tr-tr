@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923207"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276640"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturma
 
@@ -20,14 +20,14 @@ Power BI Desktop’ta oluşturduğunuz bir veri kümesini, Power BI Rapor Oluşt
 
 ![Power BI Desktop’tan Rapor Oluşturucusu sayfalandırılmış raporuna](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin bu çalışma alanının bir üyesi olmanız gerekmez. Veri kümesi için [Oluşturma izninizin](../service-datasets-build-permissions.md) olması yeterlidir. Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir.
+Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin bu çalışma alanının bir üyesi olmanız gerekmez. Veri kümesi için [Oluşturma izninizin](../connect-data/service-datasets-build-permissions.md) olması yeterlidir. Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir.
 
 ## <a name="what-you-need"></a>Gerekenler
 
 Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız için gereken ve gerekli olmayan şeylerin bir listesi verilmiştir.
 
 - Power BI Rapor Oluşturucusu. [Power BI Rapor Oluşturucusu’nu indirin ve yükleyin](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](../service-datasets-build-permissions.md) hakkında bilgi edinin.
+- Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](../connect-data/service-datasets-build-permissions.md) hakkında bilgi edinin.
 - Rapor Oluşturucusu’nda sayfalandırılmış rapor oluşturmak için Power BI Pro lisansına sahip olmanız gerekmez. 
 - Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir. 
 - İsteğe bağlı: Bu makaleyi izlemek isterseniz, Power BI Desktop [Perakende Analizi Örneği .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) dosyasını indirin, bu dosyayı Power BI Desktop’ta açın ve çok sayıda sütun içeren bir tablo ekleyin. **Biçim** bölmesinde **Toplamlar** seçeneğini kapatın. Ardından Power BI hizmetindeki bir çalışma alanında yayımlayın.
@@ -74,7 +74,7 @@ Sorguyu almak için gerekli adımlar aşağıda verilmiştir.
 1. Power BI Desktop’ta Power BI raporunu (.pbix) açın.
 1. Raporunuzda, sayfalandırılmış raporunuzda olmasını istediğiniz tüm verileri içeren bir tablonuz olduğundan emin olun. Tablonun şu iki gereksinimi karşılaması gerekir:
     - Matris veya farklı bir görsel değil, düz bir tablo olması gerekir. Tablo değilse şimdi bir tabloya dönüştürün, ardından gelen Performans Analizi adımlarını izleyin ve ardından istediğiniz görsele geri dönüştürün.
-    - Sayısal alanlarınız için *önceden tanımlanmış ölçüleri* kullanmanız gerekir. Bu ölçülerin yanında bir hesap makinesi simgesi vardır. [Ölçü oluşturma](../desktop-measures.md) hakkında bilgi edinin. 
+    - Sayısal alanlarınız için *önceden tanımlanmış ölçüleri* kullanmanız gerekir. Bu ölçülerin yanında bir hesap makinesi simgesi vardır. [Ölçü oluşturma](../transform-model/desktop-measures.md) hakkında bilgi edinin. 
 
         ![Ölçü simgesi](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

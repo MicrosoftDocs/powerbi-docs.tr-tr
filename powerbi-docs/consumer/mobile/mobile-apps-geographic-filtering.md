@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435341"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276226"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bir raporu coğrafi konuma göre filtreleme
 Aşağıdakiler için geçerlidir:
@@ -39,17 +39,16 @@ Bir Power BI raporunu mobil cihazınızda görüntülediğinizde sağ üst köş
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>Rapor üzerinde neden konum etiketleri görmüyorum?
 Konum etiketlerini görebilmeniz için aşağıdaki koşulların yerine getirilmesi gerekir. 
 
-* Raporu Power BI Desktop’ta oluşturan kişi [coğrafi veriyi](../../desktop-mobile-geofiltering.md) Şehir, Eyalet ya da Ülke/Bölge olarak en az bir sütun için sınıflandırmış olmalıdır.
+* Raporu Power BI Desktop’ta oluşturan kişi [coğrafi veriyi](../../transform-model/desktop-mobile-geofiltering.md) Şehir, Eyalet ya da Ülke/Bölge olarak en az bir sütun için sınıflandırmış olmalıdır.
 * Şu anda bu sütunda veri içeren konumlardan birinde olmanız gerekir.
 * Şu mobil cihazlardan birini kullanmanız gerekir:
   * iOS (iPad, iPhone, iPod).
   * Android (telefon, tablet).
   * Windows 10 telefon (kişisel bilgisayarlar ve tabletler gibi diğer Windows 10 cihazları coğrafi filtrelemeyi desteklemez).
 
-Power BI Desktop'ta [coğrafi filtrelemeyi ayarlama](../../desktop-mobile-geofiltering.md) hakkında daha fazla bilgi edinin.
+Power BI Desktop'ta [coğrafi filtrelemeyi ayarlama](../../transform-model/desktop-mobile-geofiltering.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="next-steps"></a>Sonraki adımlar
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)
-* [Power BI Desktop'ta verileri kategorilere ayırma](../../desktop-data-categorization.md) 
+* [Power BI Desktop'ta verileri kategorilere ayırma](../../transform-model/desktop-data-categorization.md) 
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

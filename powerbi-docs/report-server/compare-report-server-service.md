@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381066"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275950"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -31,26 +31,26 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Yayın döngüsü | Yılda üç kez (Ocak, Mayıs, Eylül) | Ayda bir kez | En son özellikler ve düzeltmeler ilk önce Power BI Hizmetine gelir. Hizmet için Power BI Desktop sürümlerinden gelen özellik dağıtımı, her sürümde Power BI Rapor Sunucusu’na sağlanır; diğer özelliklerden çoğu yalnızca Power BI hizmetine yöneliktir. |
 | Power BI Desktop'ta Power BI raporları oluşturma | Evet | Evet |  |
 | Tarayıcıda Power BI raporları oluşturma | Hayır | Evet |  |
-| Power BI paylaşılan veri kümelerini barındırma ve bunlara bağlanma | Hayır | Evet | [Çalışma alanları arasında veri kümelerine giriş](../service-datasets-across-workspaces.md) |
+| Power BI paylaşılan veri kümelerini barındırma ve bunlara bağlanma | Hayır | Evet | [Çalışma alanları arasında veri kümelerine giriş](../connect-data/service-datasets-across-workspaces.md) |
 | Ağ geçidi gerekli | Hayır | Şirket içi veri kaynakları için evet |  |
-| Gerçek zamanlı akış | Hayır | Evet | [Power BI'da gerçek zamanlı akış](../service-real-time-streaming.md) |
+| Gerçek zamanlı akış | Hayır | Evet | [Power BI'da gerçek zamanlı akış](../connect-data/service-real-time-streaming.md) |
 | Panolar | Hayır | Evet | [Power BI hizmetindeki panolar](../consumer/end-user-dashboards.md) |
-| Uygulamaları kullanarak rapor grupları dağıtma | Hayır | Evet | [Panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama](../service-create-distribute-apps.md) |
-| İçerik paketleri | Hayır | Evet | [Kurumsal içerik paketleri: Giriş](../service-organizational-content-pack-introduction.md) |
-| Salesforce gibi hizmetlere bağlanma | Evet | Evet | Power BI hizmetindeki içerik paketleriyle [kullandığınız hizmetlere bağlanma](../service-connect-to-services.md). Power BI Rapor Sunucusu'nda hizmetlere bağlanmak için sertifikalı bağlayıcıları kullanabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları](data-sources.md). |
-| Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../power-bi-tutorial-q-and-a.md) 
+| Uygulamaları kullanarak rapor grupları dağıtma | Hayır | Evet | [Panolar ve raporlar içeren uygulamalar oluşturma ve yayımlama](../collaborate-share/service-create-distribute-apps.md) |
+| İçerik paketleri | Hayır | Evet | [Kurumsal içerik paketleri: Giriş](../collaborate-share/service-organizational-content-pack-introduction.md) |
+| Salesforce gibi hizmetlere bağlanma | Evet | Evet | Power BI hizmetindeki içerik paketleriyle [kullandığınız hizmetlere bağlanma](../connect-data/service-connect-to-services.md). Power BI Rapor Sunucusu'nda hizmetlere bağlanmak için sertifikalı bağlayıcıları kullanabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları](data-sources.md). |
+| Soru-Cevap | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Soru-Cevap özelliği](../create-reports/power-bi-tutorial-q-and-a.md) 
 | Hızlı içgörüler | Hayır | Evet | [Power BI ile otomatik olarak veri içgörüleri oluşturma](../consumer/end-user-insights.md) |
-| Excel’de çözümleme | Hayır | Evet | [Excel’de çözümleme](../service-analyze-in-excel.md) 
+| Excel’de çözümleme | Hayır | Evet | [Excel’de çözümleme](../collaborate-share/service-analyze-in-excel.md) 
 | Sayfalandırılmış raporlar | Evet | Evet | [Power BI hizmetinde sayfalandırılmış raporlar şu anda](../paginated-reports/paginated-reports-report-builder-power-bi.md) Premium kapasitede önizleme aşamasındadır |
 | Power BI mobil uygulamaları | Evet | Evet | [Power BI mobil uygulamalarına genel bakış](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS haritaları | Hayır | Evet | [Power BI hizmetinde ve Power BI Desktop'ta Esri tarafından sunulan ArcGIS haritaları](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI raporları için e-posta abonelikleri | Hayır | Evet | [Kendinizi veya başkalarını](../service-report-subscribe.md) Power BI hizmetinde bir rapora veya panoya abone yapma |
+| Power BI raporları için e-posta abonelikleri | Hayır | Evet | [Kendinizi veya başkalarını](../collaborate-share/service-report-subscribe.md) Power BI hizmetinde bir rapora veya panoya abone yapma |
 | Sayfalandırılmış raporlar için e-posta abonelikleri | Evet | Evet | [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services’da e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
-| Veri uyarıları | Hayır | Evet | Power BI hizmetinde [veri uyarıları](../service-set-data-alerts.md)
-| Satır düzeyi güvenlik (RLS) | Evet | Evet | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir <br><br>[Power BI hizmetinde](../service-admin-rls.md) satır düzeyi güvenlik <br><br>[Power BI Rapor Sunucusu](row-level-security-report-server.md)'nda satır düzeyi güvenlik |
+| Veri uyarıları | Hayır | Evet | Power BI hizmetinde [veri uyarıları](../create-reports/service-set-data-alerts.md)
+| Satır düzeyi güvenlik (RLS) | Evet | Evet | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir <br><br>[Power BI hizmetinde](../admin/service-admin-rls.md) satır düzeyi güvenlik <br><br>[Power BI Rapor Sunucusu](row-level-security-report-server.md)'nda satır düzeyi güvenlik |
 | Tam ekran modu | Hayır | Evet | Power BI hizmetinde [tam ekran modu](../consumer/end-user-focus.md) |
-| Gelişmiş Office 365 işbirliği | Hayır | Evet | Office 365 ile [bir çalışma alanında işbirliği yapma](../service-collaborate-power-bi-workspace.md) |
-| R görselleri | Hayır | Evet | Power BI Desktop'ta [R görselleri oluşturma](../desktop-r-visuals.md) ve bunları Power BI hizmetine yayımlama. R görseli içeren Power BI raporlarını Power BI Rapor Sunucusu'na kaydedemezsiniz.  |
+| Gelişmiş Office 365 işbirliği | Hayır | Evet | Office 365 ile [bir çalışma alanında işbirliği yapma](../collaborate-share/service-collaborate-power-bi-workspace.md) |
+| R görselleri | Hayır | Evet | Power BI Desktop'ta [R görselleri oluşturma](../create-reports/desktop-r-visuals.md) ve bunları Power BI hizmetine yayımlama. R görseli içeren Power BI raporlarını Power BI Rapor Sunucusu'na kaydedemezsiniz.  |
 | Önizleme özellikleri | Hayır | Evet | [Power BI hizmetinin önizleme özelliklerini kullanma](../consumer/end-user-preview-features.md) |
 | Power BI görselleri | Evet | Evet | [Power BI görselleri](../developer/visuals/power-bi-custom-visuals.md) |
 | Bileşik modeller | Hayır | Evet |
@@ -59,3 +59,9 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)
+
+
+
+
+
+

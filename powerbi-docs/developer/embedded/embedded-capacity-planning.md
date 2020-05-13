@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79493262"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145124"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI tümleşik analizinde kapasite planlaması
 
@@ -51,7 +51,7 @@ Burada planlama aracını nasıl kullanabileceğinizi gösteren bazı örnekler 
 
 Test çalıştırıldıktan sonra ölçümler uygulamasında yük testinin etkilerini görmek için aşağıdaki yönergeleri izleyin. Testin yük oluşturmaya başlamasıyla bu yükün ölçümlerde görünür duruma gelmesi arasında 15 dakika kadar bir bekleme süresi olmasını bekleyebilirsiniz.
 
-1. **Ölçümler uygulaması** giriş sayfanızın [Veri Kümeleri](../../service-admin-premium-monitor-capacity.md) sekmesini genişletin.
+1. **Ölçümler uygulaması** giriş sayfanızın [Veri Kümeleri](../../admin/service-admin-premium-monitor-capacity.md) sekmesini genişletin.
 2. **Şimdi yenile**’ye tıklayarak isteğe bağlı bir yenileme başlatın. Yöneticiler bunu yapabilmelidir.
 
     ![Power BI premium kapasite ölçümleri](media/embedded-capacity-planning/embedded-capacity-planning.png)

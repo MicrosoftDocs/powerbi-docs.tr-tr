@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920724"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127803"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Power BI’daki sayfalandırılmış raporları kullanma zamanı
 
 Bu makale Power BI için rapor tasarlayan rapor yazarlarına yöneliktir. [Power BI sayfalandırılmış raporlarını](../paginated-reports/paginated-reports-report-builder-power-bi.md) hangi durumlarda tercih etmeniz gerektiğini anlamanıza yardımcı olacak öneriler sunmaktadır.
 
 > [!NOTE]
-> Power BI sayfalandırılmış raporların yayımlanması için Power BI Premium aboneliğine ihtiyaç vardır. Raporlar yalnızca [Sayfalandırılmış Raporlar iş yükünün etkinleştirilmiş olduğu](../service-admin-premium-workloads.md#paginated-reports) ayrılmış kapasite üzerindeki bir çalışma alanında işlenir.
+> Power BI sayfalandırılmış raporların yayımlanması için Power BI Premium aboneliğine ihtiyaç vardır. Raporlar yalnızca [Sayfalandırılmış Raporlar iş yükünün etkinleştirilmiş olduğu](../admin/service-admin-premium-workloads.md#paginated-reports) ayrılmış kapasite üzerindeki bir çalışma alanında işlenir.
 
 Power BI sayfalandırılmış raporları **yazdırma** veya **PDF oluşturma** için iyileştirilmiştir. Bu raporlar ayrıca üst düzeyde biçimlendirilmiş mükemmel rapor düzenleri sunar. Bu nedenle sayfalandırılmış raporlar, satış faturaları gibi operasyonel raporlar için idealdir.
 
@@ -36,7 +36,7 @@ Aşağıdaki durumlarda Power BI sayfalandırılmış raporlarını kullanmanız
 
 Elinizde SQL Server Reporting Services (SSRS) [Rapor Tanım Dili (RDL)](/sql/reporting-services/reports/report-definition-language-ssrs) raporları varsa bunları [Power BI raporları](../consumer/end-user-reports.md) olarak yeniden geliştirebilir veya sayfalandırılmış raporlar olarak Power BI'a geçirebilirsiniz. Daha fazla bilgi için bkz. [SQL Server Reporting Services raporlarını Power BI’a geçirme](migrate-ssrs-reports-to-power-bi.md).
 
-Bir Power BI çalışma alanında yayımlanan sayfalandırılmış raporlar, Power BI raporlarıyla birlikte kullanılabilir. Bu raporlar [Power BI uygulamaları](../service-create-distribute-apps.md) kullanılarak kolayca dağıtılabilir.
+Bir Power BI çalışma alanında yayımlanan sayfalandırılmış raporlar, Power BI raporlarıyla birlikte kullanılabilir. Bu raporlar [Power BI uygulamaları](../collaborate-share/service-create-distribute-apps.md) kullanılarak kolayca dağıtılabilir.
 
 SSRS raporlarını geçirmek yerine sıfırdan geliştirmeniz önerilir. Bu durum özellikle analitik deneyimler sunmaya yönelik raporlar için geçerlidir. Bu gibi durumlarda Power BI raporları genellikle daha iyi bir rapor kullanıcısı deneyimi sunacaktır.
 

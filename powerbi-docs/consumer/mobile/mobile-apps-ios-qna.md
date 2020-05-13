@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114845"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276203"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -102,7 +102,7 @@ Bir veri kümesi ile ilgili olarak siz ve müşterilerinizin Soru-Cevap sanal an
 * iOS mobil uygulamanızdaki Soru-Cevap sanal analisti veya Power BI hizmetindeki [Soru-Cevap özelliği ile soru sormaya ilişkin bu ipuçlarını](../end-user-q-and-a-tips.md) uygulayın.
 
 ### <a name="how-to-enhance-the-dataset"></a>Veri kümesini geliştirme
-* Power BI Desktop veya Power BI hizmetindeki veri kümesini, [verilerinizin Soru-Cevap özelliği ve Soru-Cevap sanal analisti ile düzgün çalışabileceği şekilde](../../service-prepare-data-for-q-and-a.md) geliştirin.
+* Power BI Desktop veya Power BI hizmetindeki veri kümesini, [verilerinizin Soru-Cevap özelliği ve Soru-Cevap sanal analisti ile düzgün çalışabileceği şekilde](../../create-reports/service-prepare-data-for-q-and-a.md) geliştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Q&A in the Power BI service (Power BI hizmetindeki Soru-Cevap özelliği)](../end-user-q-and-a.md)

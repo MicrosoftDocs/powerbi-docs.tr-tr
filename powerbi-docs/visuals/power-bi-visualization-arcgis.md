@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865702"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277330"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop’ta ArcGIS haritaları oluşturma
 
@@ -73,7 +73,7 @@ Bu öğreticide Power BI Desktop ve PBIX [Perakende Analizi örneği](https://do
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>ArcGIS Maps for Power BI harita görselleştirmesi oluşturma
 
-Will’in birkaç farklı görselleştirme oluşturduğu videoyu izledikten sonra [Perakende Analizi örneği .PBIX dosyasını](../sample-datasets.md) kullanarak kendiniz denemek için aşağıdaki adımları uygulayın.
+Will’in birkaç farklı görselleştirme oluşturduğu videoyu izledikten sonra [Perakende Analizi örneği .PBIX dosyasını](../create-reports/sample-datasets.md) kullanarak kendiniz denemek için aşağıdaki adımları uygulayın.
     
 
    > [!NOTE]
@@ -368,4 +368,5 @@ Henüz bağlanamazsınız. [Bu fikri oylayın](https://ideas.powerbi.com/forums/
 [ArcGIS Maps for Power BI'ın kullanıma sunulduğunu duyuran blog gönderisi](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
 

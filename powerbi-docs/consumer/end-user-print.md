@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114310"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145379"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
 
@@ -116,7 +116,6 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 * Y: Varsayılan görünümde panoya veya rapora dönün, görseli Odak modunda ve sonra da Tam ekran modunda yeniden açın. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[İş arkadaşlarınızla ve diğer kişilerle pano ve rapor paylaşma](../service-share-dashboards.md)
+[İş arkadaşlarınızla ve diğer kişilerle pano ve rapor paylaşma](../collaborate-share/service-share-dashboards.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

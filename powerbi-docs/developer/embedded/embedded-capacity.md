@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492848"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148639"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
@@ -38,7 +38,7 @@ Power BI Embedded kullanan uygulamalar, kullanıcılara Power BI Embedded kapasi
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
-[Power BI Premium](../../service-premium-what-is.md), kuruluşunu, iş ortaklarını, müşterilerini ve sağlayıcılarını tek bir görünümde sunan eksiksiz bir BI çözümü isteyen kuruluşlar için tasarlanmıştır.
+[Power BI Premium](../../admin/service-premium-what-is.md), kuruluşunu, iş ortaklarını, müşterilerini ve sağlayıcılarını tek bir görünümde sunan eksiksiz bir BI çözümü isteyen kuruluşlar için tasarlanmıştır.
 
 Power BI Premium, kullanıcıların mobil uygulamalar ve şirket içinde geliştirilen uygulamalar aracılığıyla veya Power BI portalında (Power BI hizmeti) içerik tüketmesine olanak tanıyan bir SaaS ürünüdür. Bu, Power BI Premium ile hem iç hem de dış müşterilere yönelik bir çözüm sunulmasına olanak tanır.
 
@@ -46,21 +46,21 @@ Power BI Premium, kullanıcıların mobil uygulamalar ve şirket içinde gelişt
 
 Her kapasite çeşitli SKU’ları içerir. Her SKU, bellek ve işlem gücü için farklı kaynak katmanları sunar. İhtiyaç duyduğunuz SKU türü, dağıtmak istediğiniz çözüm türüne bağlıdır.
 
-Her katman için hangi iş yüklerinin desteklendiğini öğrenmek üzere [Premium kapasitedeki iş yüklerini yapılandırma](../../service-admin-premium-workloads.md) makalesine bakın
+Her katman için hangi iş yüklerinin desteklendiğini öğrenmek üzere [Premium kapasitedeki iş yüklerini yapılandırma](../../admin/service-admin-premium-workloads.md) makalesine bakın
 
 Kapasitenizi planlayıp test etmek için şu bağlantıları kullanın:
 * [Kapasite planlaması](embedded-capacity-planning.md)
-* [Test yaklaşımları](../../service-premium-capacity-optimize.md#testing-approaches)
+* [Test yaklaşımları](../../admin/service-premium-capacity-optimize.md#testing-approaches)
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded SKU’ları
 
-Power BI Embedded, bir [*a* SKU’su](../../service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) ile sunulur.
+Power BI Embedded, bir [*a* SKU’su](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) ile sunulur.
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU’ları
 
 Power BI Premium, *P* ve *EM* olmak üzere iki SKU sunar.
-* [*P* ve *EM* SKU’ları arasındaki farkları öğrenin](../../service-premium-what-is.md#subscriptions-and-licensing)
-* [Premium SKU satın alın](../../service-admin-premium-purchase.md)
+* [*P* ve *EM* SKU’ları arasındaki farkları öğrenin](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [Premium SKU satın alın](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>Hangi SKU’yu kullanmam gerekir?
 

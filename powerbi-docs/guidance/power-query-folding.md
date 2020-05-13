@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622155"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149188"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta sorguyu kaynağa döndürme kılavuzu
 
@@ -52,5 +52,5 @@ Aşağıdaki madde işaretli listede belirli yönergeler verilmektedir.
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - Power Query [Sorguyu kaynağa döndürme](/power-query/power-query-folding) kavramı makalesi
-- [Power BI Premium’da artımlı yenileme](../service-premium-incremental-refresh.md)
+- [Power BI Premium’da artımlı yenileme](../admin/service-premium-incremental-refresh.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

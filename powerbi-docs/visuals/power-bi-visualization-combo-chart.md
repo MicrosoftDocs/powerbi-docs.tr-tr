@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867013"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277192"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI'da birleşik haritalar oluşturma ve kullanma
 
@@ -121,16 +121,19 @@ Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmu
 
 Bu noktada aşağıdakileri yapmak isteyebilirsiniz:
 
-* [Birleşik haritayı pano kutucuğu olarak ekleme](../service-dashboard-tiles.md).
-* [Raporu kaydedin](../service-report-save.md).
+* [Birleşik haritayı pano kutucuğu olarak ekleme](../create-reports/service-dashboard-tiles.md).
+* [Raporu kaydedin](../create-reports/service-report-save.md).
 * [Raporu engelli kişiler için daha kolay erişilebilir hale getirin](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Çapraz vurgulama ve çapraz filtreleme
 
-Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../service-reports-visual-interactions.md) yararlanın.
+Birleşik haritalarda bir sütun veya satır vurgulandığında, rapor sayfasındaki diğer görselleştirmeler için çapraz vurgu ve çapraz filtre uygulanır ve bu, tam tersi için de geçerlidir. Bu varsayılan davranışı değiştirmek için [görsel etkileşimlerinden](../create-reports/service-reports-visual-interactions.md) yararlanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI'daki halka grafikler](power-bi-visualization-doughnut-charts.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

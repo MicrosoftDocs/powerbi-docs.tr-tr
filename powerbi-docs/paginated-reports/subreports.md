@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615715"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272822"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarındaki alt raporlar
 
@@ -74,7 +74,7 @@ Artık her iki raporu da aynı Premium çalışma alanına kaydettiğinize göre
   
  Alt raporu, raporun ana gövdesine veya bir veri bölgesine yerleştirebilirsiniz. Alt raporu bir veri bölgesine yerleştirirseniz, alt rapor veri bölgesindeki grubun veya satırın her örneğinde yinelenir. Gruptan veya satırdan bir değeri alt rapora geçirebilirsiniz. Alt rapor değeri özelliğinde, alt rapor parametresine geçirmek istediğiniz değeri içeren alan için bir alan ifadesi kullanın.  
   
- Parametreler ve alt raporlarla çalışma hakkında daha fazla bilgi için, SQL Server Reporting Services belgelerinin [Alt rapor ve parametreler ekleme](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md) bölümüne bakın.  
+ Parametreler ve alt raporlarla çalışma hakkında daha fazla bilgi için, SQL Server Reporting Services belgelerinin [Alt rapor ve parametreler ekleme](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) bölümüne bakın.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Report Builder’da sayfalandırılmış raporları önizleme
 

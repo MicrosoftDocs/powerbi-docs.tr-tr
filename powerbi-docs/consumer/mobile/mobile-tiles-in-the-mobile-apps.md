@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435916"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273098"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -52,7 +52,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    Bağlantılar diğer Power BI panolarına veya dış URL'lere yönlendirebilir. [Bağlantıya dokunarak](../../service-dashboard-edit-tile.md#hyperlink) Power BI uygulamasının içinde açabilirsiniz. Bağlantı dış siteyse Power BI bağlantıya izin vermenizi ister.
+    Bağlantılar diğer Power BI panolarına veya dış URL'lere yönlendirebilir. [Bağlantıya dokunarak](../../create-reports/service-dashboard-edit-tile.md#hyperlink) Power BI uygulamasının içinde açabilirsiniz. Bağlantı dış siteyse Power BI bağlantıya izin vermenizi ister.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    Bağlantılar diğer Power BI panolarına veya dış URL'lere yönlendirebilir. [Bağlantıya dokunarak](../../service-dashboard-edit-tile.md#hyperlink) Power BI uygulamasının içinde açabilirsiniz. Bağlantı dış siteyse Power BI bağlantıya izin vermenizi ister.
+    Bağlantılar diğer Power BI panolarına veya dış URL'lere yönlendirebilir. [Bağlantıya dokunarak](../../create-reports/service-dashboard-edit-tile.md#hyperlink) Power BI uygulamasının içinde açabilirsiniz. Bağlantı dış siteyse Power BI bağlantıya izin vermenizi ister.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     **Rapor Aç**'a ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) dokunarak [bağlantılı raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
    
-    Mevcut olması halinde [bağlantıyı açabilirsiniz](../../service-dashboard-edit-tile.md#hyperlink). Bağlantılar Power BI panolarına veya dış URL'lere yönlendirebilir.
+    Mevcut olması halinde [bağlantıyı açabilirsiniz](../../create-reports/service-dashboard-edit-tile.md#hyperlink). Bağlantılar Power BI panolarına veya dış URL'lere yönlendirebilir.
 3. **Kutucuğu Genişlet**'e ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) dokunabilirsiniz. Kutucuk verilerini daha kolay görüntülemenizi ve araştırmanızı sağlayan odak modu açılır. Bu modda şunları yapabilirsiniz:
    
    Bir pasta grafiğini döndürerek dilimin değerinin pastanın en üstünde gösterilmesini sağlayabilirsiniz.  
@@ -130,4 +130,3 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

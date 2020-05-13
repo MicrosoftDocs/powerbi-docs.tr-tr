@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751642"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275973"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -183,14 +183,14 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-* Hizmet sorumlusu yalnızca [yeni çalışma alanlarıyla](../../service-create-the-new-workspaces.md) çalışır.
+* Hizmet sorumlusu yalnızca [yeni çalışma alanlarıyla](../../collaborate-share/service-create-the-new-workspaces.md) çalışır.
 * Hizmet sorumlusu kullanırken **Çalışma Alanım** desteklenmez.
 * Üretime geçilirken adanmış kapasite gerekir.
 * Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.
 * Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
 * Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
-* [Veri akışları](../../service-dataflows-overview.md) yönetimi desteklenmez.
+* [Veri akışları](../../transform-model/service-dataflows-overview.md) yönetimi desteklenmez.
 * Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
 * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
 

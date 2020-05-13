@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841791"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273535"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -48,7 +48,7 @@ Telefon için en iyi duruma getirilmiş bir raporda tanımlı filtreler varsa, s
 ## <a name="cross-highlight-visuals"></a>Görsellerde çapraz vurgulama
 Dikey görünümde görsellere çapraz vurgulama uygulama, Power BI hizmetinde olduğu gibi gerçekleştirilir ve telefonlarda yatay görünümde çalışır: Bir görseldeki verileri seçtiğinizde, aynı sayfada yer alan diğer görsellerin ilgili verilerini vurgular.
 
-[Power BI'da filtreleme ve vurgulama](../../power-bi-reports-filters-and-highlighting.md) hakkında daha fazla bilgi edinin.
+[Power BI'da filtreleme ve vurgulama](../../create-reports/power-bi-reports-filters-and-highlighting.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="select-visuals"></a>Görsel seçme
 Telefon raporlarında bir görsel seçtiğinizde ilgili görsele telefon raporunda vurgulama ve odaklama uygulanır, tuval hareketleri engellenir.
@@ -131,8 +131,7 @@ Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../desktop-create-phone-report.md)
-* [Power BI'da bir panonun telefon görünümünü oluşturma](../../service-create-dashboard-mobile-phone-view.md)
+* [Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../create-reports/desktop-create-phone-report.md)
+* [Power BI'da bir panonun telefon görünümünü oluşturma](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../../visuals/desktop-create-responsive-visuals.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

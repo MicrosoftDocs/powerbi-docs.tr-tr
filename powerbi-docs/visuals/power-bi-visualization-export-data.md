@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781743"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273029"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -54,7 +54,7 @@ Will raporundaki görselleştirmelerden birindeki verileri dışarı aktarıp, *
 
 ## <a name="export-data-from-a-report"></a>Rapordaki verileri dışarı aktarma
 
-Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../sample-procurement.md) Power BI hizmetinde Düzenleme görünümünde açın. Yeni bir boş rapor sayfası ekleyin. Ardından, aşağıdaki adımları uygulayarak bir toplama, hiyerarşi ve görsel düzeyi filtresi ekleyin.
+Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../create-reports/sample-procurement.md) Power BI hizmetinde Düzenleme görünümünde açın. Yeni bir boş rapor sayfası ekleyin. Ardından, aşağıdaki adımları uygulayarak bir toplama, hiyerarşi ve görsel düzeyi filtresi ekleyin.
 
 ### <a name="create-a-stacked-column-chart"></a>Yığılmış sütun grafik oluşturma
 
@@ -94,7 +94,7 @@ Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız **Öze
 
     - **Temel alınan veriler**
 
-    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
+    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Görseldeki verileri ***ve*** veri kümesinden ek verileri görmek istiyorsanız
 
     - **Temel alınan veriler**
 
-    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../service-aggregates.md).
+    Toplama işlemlerini anlama konusunda yardım için bkz. [Power BI'da toplama işlemleri](../create-reports/service-aggregates.md).
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI yöneticileri ve tasarımcılarının özel verileri korumak için kull
 
 - Power BI yöneticileri kuruluşlarında veri dışarı aktarma özelliğini devre dışı bırakabilir. 
 
-- Veri kümesi sahipleri satır düzeyi güvenlik (RLS) ayarlayabilir. RLS erişimi salt okuma kullanıcılarıyla kısıtlar. Ama uygulama çalışma alanını yapılandırdıysanız ve üyelerine düzenleme izinleri verdiyseniz, RLS rolleri söz konusu üyeler için geçerli olmaz. Daha fazla bilgi için bkz. [Satır düzeyi güvenlik](../service-admin-rls.md).
+- Veri kümesi sahipleri satır düzeyi güvenlik (RLS) ayarlayabilir. RLS erişimi salt okuma kullanıcılarıyla kısıtlar. Ama uygulama çalışma alanını yapılandırdıysanız ve üyelerine düzenleme izinleri verdiyseniz, RLS rolleri söz konusu üyeler için geçerli olmaz. Daha fazla bilgi için bkz. [Satır düzeyi güvenlik](../admin/service-admin-rls.md).
 
 - Rapor tasarımcıları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/automation/api-dataset-properties.md)
 
