@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464590"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278825"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
@@ -42,8 +42,6 @@ Kuruluşunuzda Power BI kuruluş görsellerini yönetme, dağıtma ve yönetme h
 Bilmeniz gereken birçok önemli nokta ve sınırlama vardır.
 
 Yönetici:
-
-* Eski Power BI görselleri (yeni sürümü oluşturulan API’leri temel almayan Power BI görselleri gibi) desteklenmez
 
 * AppSource’tan veya bir dosyadan yüklenen Power BI görseli depodan silinirse silinen görseli kullanan tüm mevcut raporlar işlenmeyi durdurur. Depodan silme işlemi geri alınamaz. AppSource’tan veya bir dosyadan Power BI görseli yüklemeyi geçici olarak devre dışı bırakmak için “Devre Dışı Bırak” özelliğini kullanın.
 
