@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498749"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279630"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Sütun ve ölçü başvuruları
 
@@ -43,7 +43,7 @@ Her zaman tüm sütun başvurularını kullanmanızı öneririz. Bunun nedenleri
 
 ## <a name="measures"></a>Ölçüler
 
-Ölçü, model düzeyinde bir nesnedir. Bu nedenle ölçü adları model içinde benzersiz olmalıdır. Öte yandan rapor yazarları **Alanlar** bölmesinde tek bir model tablosuyla ilişkilendirilmiş her ölçüyü görebilir. Bu ilişki biçimsel nedenlerle ayarlanır ve ölçü için **Ana Tablo** özelliğini ayarlayarak ilişkiyi yapılandırabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop'ta ölçüler (Ölçülerinizi düzenleme)](../desktop-measures.md#organizing-your-measures).
+Ölçü, model düzeyinde bir nesnedir. Bu nedenle ölçü adları model içinde benzersiz olmalıdır. Öte yandan rapor yazarları **Alanlar** bölmesinde tek bir model tablosuyla ilişkilendirilmiş her ölçüyü görebilir. Bu ilişki biçimsel nedenlerle ayarlanır ve ölçü için **Ana Tablo** özelliğini ayarlayarak ilişkiyi yapılandırabilirsiniz. Daha fazla bilgi için bkz. [Power BI Desktop'ta ölçüler (Ölçülerinizi düzenleme)](../transform-model/desktop-measures.md#organizing-your-measures).
 
 İfadelerinizde tam ölçüleri kullanmanız mümkündür. DAX IntelliSense öneride bile bulunur. Öte yandan bu gerekli değildir ve önerilen bir uygulama da değildir. Ölçünün ana tablosunu değiştirirseniz, buna yönelik tam ölçü başvurusunu kullanan tüm ifadeler bozulur. Bundan sonra bozulan her formülü düzenleyip ölçü başvurusunu kaldırmanız (veya güncelleştirmeniz) gerekir.
 
@@ -68,3 +68,4 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+

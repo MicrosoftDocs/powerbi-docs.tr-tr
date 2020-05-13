@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487821"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279768"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Kiracı yöneticisi ayarları rehberi
 
@@ -21,7 +21,7 @@ Bu makalenin hedef kitlesi, kuruluşlarındaki Power BI ortamını ayarlamadan v
 
 Makalede, Power BI deneyimini geliştirmeye yardımcı olan veya kuruluşunuzu risk altında bırakabilecek belirli kiracı ayarlarına yönelik rehberlik sunulur. Kiracınızı kuruluşunuzun ilke ve süreçleriyle uyumlu olacak şekilde yapılandırmanızı öneririz.
 
-[Kiracı ayarları](../service-admin-portal.md#tenant-settings) [Yönetici portalından](https://app.powerbi.com/admin-portal/tenantSettings) yönetilir ve bir [Power BI hizmet yöneticisi](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi) tarafından yapılandırılabilir. Çoğu kiracı ayarı, özellikleri sınırlı sayıda kullanıcıyla kısıtlayabilir. Bu nedenle, ihtiyaç duyacağınız güvenlik gruplarını planlamak için ilk olarak ayarları öğrenmeniz önerilir. Aynı güvenlik grubunu birden fazla ayara uygulayabileceğinizi fark edebilirsiniz.
+[Kiracı ayarları](../admin/service-admin-portal.md#tenant-settings) [Yönetici portalından](https://app.powerbi.com/admin-portal/tenantSettings) yönetilir ve bir [Power BI hizmet yöneticisi](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi) tarafından yapılandırılabilir. Çoğu kiracı ayarı, özellikleri sınırlı sayıda kullanıcıyla kısıtlayabilir. Bu nedenle, ihtiyaç duyacağınız güvenlik gruplarını planlamak için ilk olarak ayarları öğrenmeniz önerilir. Aynı güvenlik grubunu birden fazla ayara uygulayabileceğinizi fark edebilirsiniz.
 
 ## <a name="improve-power-bi-experience"></a>Power BI deneyimini geliştirme
 
@@ -88,7 +88,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara dış kul
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
-[Web’de yayımla](../service-publish-to-web.md) özelliği, genel raporların Web’de yayımlanmasına olanak tanır. Uygun şekilde kullanılmazsa, gizli bilgilerin Web’de canlı olarak kullanılabilir hale gelme riski vardır.
+[Web’de yayımla](../collaborate-share/service-publish-to-web.md) özelliği, genel raporların Web’de yayımlanmasına olanak tanır. Uygun şekilde kullanılmazsa, gizli bilgilerin Web’de canlı olarak kullanılabilir hale gelme riski vardır.
 
 **Web’de yayımla** ayarı, tüm kuruluş için varsayılan olarak etkindir. Ancak, yönetici olmayan kullanıcıların ekleme kodu oluşturma özellikleri kısıtlanır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
@@ -109,7 +109,7 @@ Kullanıcıların pano kutucuklarından veya rapor görsellerinden verileri dı�
 Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
 > [!IMPORTANT]
-> Bu ayarın devre dışı bırakılması, [Excel’de Çözümle](../service-analyze-in-excel.md) ve Power BI hizmeti [canlı bağlantı](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) özelliklerinin kullanımını da kısıtlar.
+> Bu ayarın devre dışı bırakılması, [Excel’de Çözümle](../collaborate-share/service-analyze-in-excel.md) ve Power BI hizmeti [canlı bağlantı](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) özelliklerinin kullanımını da kısıtlar.
 
 ![“Verileri dışarı aktar” ayarı gösterilir.](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yay
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
 
-Dış kullanıcılar Power BI içeriğini düzenleyebilir ve yönetebilir. Daha fazla bilgi için bkz. [Azure AD B2B ile Power BI içeriğini dış konuk kullanıcılara dağıtma](../service-admin-azure-ad-b2b.md).
+Dış kullanıcılar Power BI içeriğini düzenleyebilir ve yönetebilir. Daha fazla bilgi için bkz. [Azure AD B2B ile Power BI içeriğini dış konuk kullanıcılara dağıtma](../admin/service-admin-azure-ad-b2b.md).
 
 **Dış konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver** ayarı tüm kuruluş için varsayılan olarak devre dışıdır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
@@ -141,7 +141,8 @@ Dış kullanıcılara içerik düzenleme ve yönetme yetkisi vermeniz gerekiyors
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI yönetimi nedir?](../service-admin-administering-power-bi-in-your-organization.md)
-- [Yönetim portalında Power BI’ı yönetme](../service-admin-portal.md)
+- [Power BI yönetimi nedir?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [Yönetim portalında Power BI’ı yönetme](../admin/service-admin-portal.md)
 - Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
+

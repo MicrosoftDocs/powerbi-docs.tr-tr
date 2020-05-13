@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700398"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279653"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: BOŞLUKLARI değerlere dönüştürmekten kaçınma
 
@@ -66,7 +66,7 @@ Tablo görselinde şimdi yalnızca geçerli filtre bağlamında satış yapmış
 ![Aynı tablo görseli artık dört veri satırı görüntüler. Her satır, bir satış değeri bulunan ve Profit Margin değeri sıfırdan farklı olan bir müşteri içindir.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> Gerektiğinde [Veri İçermeyen Öğeleri Göster](../desktop-show-items-no-data.md) seçeneğini etkinleştirerek filtre bağlamındaki tüm gruplandırmaları (değer veya BOŞLUK döndürenler) görüntüleyecek şekilde görseli yapılandırabilirsiniz.
+> Gerektiğinde [Veri İçermeyen Öğeleri Göster](../create-reports/desktop-show-items-no-data.md) seçeneğini etkinleştirerek filtre bağlamındaki tüm gruplandırmaları (değer veya BOŞLUK döndürenler) görüntüleyecek şekilde görseli yapılandırabilirsiniz.
 
 ## <a name="recommendation"></a>Öneri
 
@@ -80,3 +80,4 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+

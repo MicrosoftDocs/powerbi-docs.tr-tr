@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496469"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279791"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496469"
 
 
 > [!IMPORTANT]
-> **Bu makale rapor veya veri kümesi üzerinde düzenleme izinleri olmayan ve Power BI’ın yalnızca çevrimiçi sürümünde (Power BI hizmeti) çalışan Power BI kullanıcılarına yöneliktir. Rapor *tasarımcısı*, *yöneticisi* veya *sahibiyseniz*, bu makale ihtiyacınız olan tüm bilgileri içermiyor olabilir. Bunun yerine lütfen [Power BI Desktop'ta sütuna göre sıralama](../desktop-sort-by-column.md)** konusunu okuyun.
+> **Bu makale rapor veya veri kümesi üzerinde düzenleme izinleri olmayan ve Power BI’ın yalnızca çevrimiçi sürümünde (Power BI hizmeti) çalışan Power BI kullanıcılarına yöneliktir. Rapor *tasarımcısı*, *yöneticisi* veya *sahibiyseniz*, bu makale ihtiyacınız olan tüm bilgileri içermiyor olabilir. Bunun yerine lütfen [Power BI Desktop'ta sütuna göre sıralama](../create-reports/desktop-sort-by-column.md)** konusunu okuyun.
 
 Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz. İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
 
@@ -69,7 +69,7 @@ Yalnızca raporu tasarlayan kişi sizin için bu değişiklikleri yapabilir. *Ta
 
 ![İletişim bilgilerini gösteren açılır menü](media/end-user-change-sort/power-bi-contact.png)
 
-*Tasarımcıysanız* ve içerik üzerinde düzenleme izinleriniz varsa, veri kümesini güncelleştirmeyi ve bu tür bir sıralamayı etkinleştirmeyi öğrenmek için [Power BI Desktop’ta sütuna göre sıralama](../desktop-sort-by-column.md) konusunu okuyun.
+*Tasarımcıysanız* ve içerik üzerinde düzenleme izinleriniz varsa, veri kümesini güncelleştirmeyi ve bu tür bir sıralamayı etkinleştirmeyi öğrenmek için [Power BI Desktop’ta sütuna göre sıralama](../create-reports/desktop-sort-by-column.md) konusunu okuyun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](end-user-visualizations.md) hakkında daha fazla bilgi.

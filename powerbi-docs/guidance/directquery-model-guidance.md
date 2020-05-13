@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223654"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279607"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 
 Bu makale, Power BI Desktop veya Power BI hizmeti kullanılarak geliştirilen Power BI DirectQuery modellerini geliştiren veri modelleyicilerini hedeflemektedir. DirectQuery kulanım örneklerini, sınırlamalarını ve yönergelerini açıklar. Bu kılavuz özellikle DirectQuery’nin modelinize uygun olup olmadığını belirlemenize yardımcı olmak ve DirectQuery modellerine göre raporlarınızın performansını iyileştirmek için tasarlanmıştır. Bu makale Power BI hizmetinde veya Power BI Rapor Sunucusu’nda barındırılan DirectQuery modelleri için geçerlidir.
 
-Bu makalede DirectQuery tasarımıyla ilgili eksiksiz bir açıklama sağlamak amaçlanmamıştır. Tanıtım bilgisi için [Power BI Desktop’taki DirectQuery modelleri](../desktop-directquery-about.md) makalesine bakın. Daha ayrıntılı bir tartışma için doğrudan [SQL Server 2016 Analysis Services’te DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) teknik incelemesine başvurun. Teknik incelemenin SQL Server Analysis Services'te DirectQuery kullanımını açıkladığını unutmayın. Ancak içeriğin çoğu, Power BI DirectQuery modelleri için de geçerlidir.
+Bu makalede DirectQuery tasarımıyla ilgili eksiksiz bir açıklama sağlamak amaçlanmamıştır. Tanıtım bilgisi için [Power BI Desktop’taki DirectQuery modelleri](../connect-data/desktop-directquery-about.md) makalesine bakın. Daha ayrıntılı bir tartışma için doğrudan [SQL Server 2016 Analysis Services’te DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) teknik incelemesine başvurun. Teknik incelemenin SQL Server Analysis Services'te DirectQuery kullanımını açıkladığını unutmayın. Ancak içeriğin çoğu, Power BI DirectQuery modelleri için de geçerlidir.
 
-Bu makale Bileşik modelleri doğrudan kapsamaz. Bir Bileşik model en az bir ve muhtemelen daha fazla DirectQuery kaynağından oluşur. Bu makalede açıklanan yönergeler, kısmen de olsa Bileşik model tasarımı için de geçerlidir. Ancak, İçeri Aktarma tablolarını DirectQuery tablolarıyla birleştirmenin sonuçları bu makalenin kapsamında değildir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](../desktop-composite-models.md).
+Bu makale Bileşik modelleri doğrudan kapsamaz. Bir Bileşik model en az bir ve muhtemelen daha fazla DirectQuery kaynağından oluşur. Bu makalede açıklanan yönergeler, kısmen de olsa Bileşik model tasarımı için de geçerlidir. Ancak, İçeri Aktarma tablolarını DirectQuery tablolarıyla birleştirmenin sonuçları bu makalenin kapsamında değildir. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](../transform-model/desktop-composite-models.md).
 
 DirectQuery modellerinin Power BI ortamında (Power BI hizmeti veya Power BI Rapor Sunucusu) ve ayrıca temel alınan veri kaynaklarında farklı bir iş yükü oluşturduğunu anlamak önemlidir. DirectQuery'nin uygun tasarım yaklaşımı olduğunu belirlerseniz, projede doğru kişileri kullanmanızı öneririz. Genellikle, başarılı bir DirectQuery modeli dağıtımının bir grup BT uzmanından oluşan bir ekibin birlikte çalışmasının sonucu olduğunu görüyoruz. Ekip genellikle model geliştiricilerden ve kaynak veritabanı yöneticilerinden oluşur. Ayrıca veri mimarlarını, veri ambarı ve ETL geliştiricilerini de içerebilir. Genellikle, iyi performans sonuçları elde etmek için iyileştirmelerin doğrudan veri kaynağına uygulanması gerekir.
 
 ## <a name="design-in-power-bi-desktop"></a>Power BI Desktop'ta tasarım
 
-Hem Azure SQL Veri Ambarı hem de Azure HDInsight Spark veri kaynakları, Power BI Desktop kullanılmasına gerek kalmadan doğrudan bağlanabilir. Bu bağlantı, Power BI hizmetinde "Veri Alarak" ve Veritabanları kutucuğu seçilerek yapılır. Daha fazla bilgi bkz. [DirectQuery ile Azure SQL Veri Ambarı](../service-azure-sql-data-warehouse-with-direct-connect.md).
+Hem Azure SQL Veri Ambarı hem de Azure HDInsight Spark veri kaynakları, Power BI Desktop kullanılmasına gerek kalmadan doğrudan bağlanabilir. Bu bağlantı, Power BI hizmetinde "Veri Alarak" ve Veritabanları kutucuğu seçilerek yapılır. Daha fazla bilgi bkz. [DirectQuery ile Azure SQL Veri Ambarı](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md).
 
 Doğrudan bağlantı kullanışlı olsa da bu yaklaşımı kullanmanızı önermiyoruz. Bunun başlıca nedeni, temel alınan veri kaynağı şemasının değişmesi durumunda model yapısını yenilemenin mümkün olmamasıdır.
 
@@ -77,8 +77,8 @@ Bir DirectQuery modeli, aşağıdaki madde işaretli listede açıklandığı gi
     Bu yönergenin bir istisnası vardır ve [COMBINEVALUES](/dax/combinevalues-function-dax) DAX işlevinin kullanımıyla ilgilidir. Bu işlevin amacı, çok sütunlu model ilişkilerini desteklemektir. İlişkinin kullandığı bir ifade oluşturmak yerine, çok sütunlu bir SQL birleşim koşulu oluşturur.
 - **"Benzersiz Tanıtıcı" sütunlarında ilişkiler kullanmayın:** Power BI, benzersiz tanıtıcı (GUID) veri türünü yerel olarak desteklemez. Bu türdeki sütunlar arasında bir ilişki tanımlarken Power BI, tür dönüştürme içeren bir birleşim ile kaynak sorgu oluşturur. Bu sorgu zamanı veri dönüştürme işlemi genellikle düşük performansa neden olur. Bu durum iyileştirilene kadar tek geçici çözüm, temel alınan veritabanında alternatif bir veri türündeki sütunların gerçekleştirilmesidir.
 - **İlişkilerin tek taraflı sütununu gizleyin:** Bir ilişkinin tek taraflı sütununun gizlenmesi gerekir. (Bu, genellikle boyut türü tablolarının birincil anahtar sütunudur.) Gizlendiğinde, **Alanlar** bölmesinde gösterilmez ve bu nedenle bir görseli yapılandırmak için kullanılamaz. Çok taraflı sütun ise raporları sütun değerlerine göre gruplamak veya filtrelemek için yararlıysa görünebilir. Örneğin, **Sales** ve **Product** tabloları arasında ilişki bulunan bir modeli düşünün. İlişki sütunları ürün SKU'su (Stok Tutma Birimi) değerlerini içerir. Ürün SKU'sunun görsellere eklenmesi gerekiyorsa yalnızca **Sales** tablosunda görünür olması gerekir. Bu sütun bir görselde filtrelemek veya gruplandırmak için kullanıldığında Power BI, **Sales** ve **Product** tablolarını birleştirmesi gerekmeyen bir sorgu oluşturur.
-- **Bütünlüğü sağlamak için ilişkileri ayarlayın:** DirectQuery ilişkilerinin **Bilgi Tutarlılığı Varsay** özelliği, Power BI’ın dış birleşim yerine iç birleşim kullanarak kaynak sorgular oluşturup oluşturmayacağını belirler. Bu genellikle sorgu performansını iyileştirse de ilişkisel veritabanı kaynağının ayrıntılarına bağlıdır. Daha fazla bilgi için bkz. [Power BI Desktop'ta Bilgi tutarlılığı varsay ayarları](../desktop-assume-referential-integrity.md).
-- **İki yönlü ilişki filtrelemesi kullanmaktan kaçının:** İki yönlü ilişki filtrelemesinin kullanılması iyi performans göstermeyen sorgu deyimlerine yol açabilir. Bu ilişki özelliğini yalnızca gerektiğinde kullanın. Genellikle bir köprü oluşturma tablosunda çoka çok ilişkiler uygularken bu durum geçerlidir. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../desktop-many-to-many-relationships.md).
+- **Bütünlüğü sağlamak için ilişkileri ayarlayın:** DirectQuery ilişkilerinin **Bilgi Tutarlılığı Varsay** özelliği, Power BI’ın dış birleşim yerine iç birleşim kullanarak kaynak sorgular oluşturup oluşturmayacağını belirler. Bu genellikle sorgu performansını iyileştirse de ilişkisel veritabanı kaynağının ayrıntılarına bağlıdır. Daha fazla bilgi için bkz. [Power BI Desktop'ta Bilgi tutarlılığı varsay ayarları](../connect-data/desktop-assume-referential-integrity.md).
+- **İki yönlü ilişki filtrelemesi kullanmaktan kaçının:** İki yönlü ilişki filtrelemesinin kullanılması iyi performans göstermeyen sorgu deyimlerine yol açabilir. Bu ilişki özelliğini yalnızca gerektiğinde kullanın. Genellikle bir köprü oluşturma tablosunda çoka çok ilişkiler uygularken bu durum geçerlidir. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../transform-model/desktop-many-to-many-relationships.md).
 - **Paralel sorguları sınırlama:** Her temel veri kaynağı için DirectQuery'nin açtığı en fazla bağlantı sayısını ayarlayabilirsiniz. Bu ayar, eşzamanlı olarak veri kaynağına gönderilen sorguların sayısını denetler.
 
     ![Power BI Desktop penceresi açıktır ve Geçerli Dosya DirectQuery sayfası seçilidir. Veri kaynağı başına en fazla bağlantı özelliği vurgulanır.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ Yukarıdaki iyileştirme teknikleri listesine ek olarak, aşağıdaki raporlama 
 
 ## <a name="convert-to-a-composite-model"></a>Kompozit Modele dönüştürme
 
-İçeri Aktarma ve DirectQuery modellerinin avantajları, model tablolarının depolama modu yapılandırılarak tek bir modelde birleştirilebilir. Tablo depolama modu İçeri Aktarma, DirectQuery veya İkili olarak bilinen her iki seçeneğin karması olabilir. Model farklı depolama modları içerdiğinde Bileşik model olarak adlandırılır. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](../desktop-composite-models.md).
+İçeri Aktarma ve DirectQuery modellerinin avantajları, model tablolarının depolama modu yapılandırılarak tek bir modelde birleştirilebilir. Tablo depolama modu İçeri Aktarma, DirectQuery veya İkili olarak bilinen her iki seçeneğin karması olabilir. Model farklı depolama modları içerdiğinde Bileşik model olarak adlandırılır. Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](../transform-model/desktop-composite-models.md).
 
-Bir DirectQuery modelini Bileşik modele dönüştürerek elde edilebilen birçok işlev ve performans geliştirmesi vardır. Bileşik bir model birden fazla DirectQuery kaynağını tümleştirebilir ve ayrıca toplamaları içerebilir. Toplama tabloları, tablonun özetlenen bir gösterimini içeri aktarmak için DirectQuery tablolarına eklenebilir. Görseller daha yüksek düzeyde toplamaları sorguladığında çarpıcı performans geliştirmeleri elde edilebilir. Daha fazla bilgi için bkz. [Power BI Desktop'taki Toplamalar](../desktop-aggregations.md).
+Bir DirectQuery modelini Bileşik modele dönüştürerek elde edilebilen birçok işlev ve performans geliştirmesi vardır. Bileşik bir model birden fazla DirectQuery kaynağını tümleştirebilir ve ayrıca toplamaları içerebilir. Toplama tabloları, tablonun özetlenen bir gösterimini içeri aktarmak için DirectQuery tablolarına eklenebilir. Görseller daha yüksek düzeyde toplamaları sorguladığında çarpıcı performans geliştirmeleri elde edilebilir. Daha fazla bilgi için bkz. [Power BI Desktop'taki Toplamalar](../transform-model/desktop-aggregations.md).
 
 ## <a name="educate-users"></a>Kullanıcıları eğitme
 
@@ -137,7 +137,7 @@ Geçici veri kaynaklarıyla ilgili rapor sunarken, rapor kullanıcılarını Yen
 
 DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta DirectQuery modelleri](../desktop-directquery-about.md)
-- [Power BI Desktop'ta DirectQuery'yi kullanma](../desktop-use-directquery.md)
-- [Power BI Desktop’ta DirectQuery modeli sorunlarını giderme](../desktop-directquery-troubleshoot.md)
+- [Power BI Desktop’ta DirectQuery modelleri](../connect-data/desktop-directquery-about.md)
+- [Power BI Desktop'ta DirectQuery'yi kullanma](../connect-data/desktop-use-directquery.md)
+- [Power BI Desktop’ta DirectQuery modeli sorunlarını giderme](../connect-data/desktop-directquery-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
