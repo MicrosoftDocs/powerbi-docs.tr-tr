@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220129"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278871"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında şirket içi rapor sunucusu raporlarını ve KPI'lerini görüntüleme
 
@@ -107,7 +107,7 @@ Power BI raporları, Reporting Services mobil raporları ve KPI'ler, Reporting S
   > Power BI Rapor Sunucusu'nda Power BI raporlarında şu anda detaya gitme ve detaydan çıkma etkin değildir.
   
     ![Power BI raporu](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* Rapor sahipleri Power BI Desktop'ta, [bir raporu Power BI mobil uygulamaları için en iyi duruma getirebilir](../../desktop-create-phone-report.md). En iyi duruma getirilmiş raporlar cep telefonunuzda özel bir simge, ![En iyi duruma getirilmiş Power BI raporu simgesi](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) ve düzenle gösterilir.
+* Rapor sahipleri Power BI Desktop'ta, [bir raporu Power BI mobil uygulamaları için en iyi duruma getirebilir](../../create-reports/desktop-create-phone-report.md). En iyi duruma getirilmiş raporlar cep telefonunuzda özel bir simge, ![En iyi duruma getirilmiş Power BI raporu simgesi](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) ve düzenle gösterilir.
   
     ![Mobil uygulamalar için en iyi duruma getirilmiş Power BI raporu](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * Odak modunda görmek için bir KPI'ye dokunun.
@@ -133,4 +133,3 @@ Web portalında KPI'leri ve raporları sık kullanılanlara ekleyip daha sonra b
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)  
 * Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

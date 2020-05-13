@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a1d0abc065380a30b1868710bea31d0bf1fa89f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066162"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278112"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Power BI raporlarında eksenleri yönetmeye yönelik ipuçları
 
@@ -41,7 +41,8 @@ Power BI raporlarında eksenleri etkili bir şekilde yönetmeye yönelik en yara
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine videosu: [Power BI’da Eksenleri Etkili Bir Şekilde Yönetmeye Yönelik En Yararlı 8 İpucu](https://www.youtube.com/watch?v=3t9W7Xvpzo0)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
+

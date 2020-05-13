@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114447"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277675"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Power BI Filtreler bölmesine ilişkin tura katılın
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114447"
 
 Bu makale Power BI hizmetindeki Rapor **Filtreleri** bölmesine bir bakış sunmaktadır. Verilerinizde yeni içgörüler keşfetmek için filtreleri kullanın.
 
-Power BI'da verilere filtre uygulamanın birçok farklı yolu vardır. Filtreler hakkında daha fazla bilgi için bkz. [Power BI raporlarında filtreler ve vurgulama](../power-bi-reports-filters-and-highlighting.md).
+Power BI'da verilere filtre uygulamanın birçok farklı yolu vardır. Filtreler hakkında daha fazla bilgi için bkz. [Power BI raporlarında filtreler ve vurgulama](../create-reports/power-bi-reports-filters-and-highlighting.md).
 
 ![Filtreler seçeneğini işaret eden bir okla birlikte tarayıcıdaki raporun ekran görüntüsü.](media/end-user-report-filter/power-bi-report.png)
 

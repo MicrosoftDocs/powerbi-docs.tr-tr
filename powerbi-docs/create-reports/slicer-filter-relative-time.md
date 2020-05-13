@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867611"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279216"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI’da göreli saat dilimleyicisi ve filtresi kullanma
 
@@ -24,7 +24,7 @@ Yeni ortaya çıkan hızlı yenileme senaryolarında, daha kısa bir zaman aral�
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Göreli saat örneği":::
 
-Bu özelliği [otomatik sayfa yenileme](../desktop-automatic-page-refresh.md) özelliğiyle birlikte kullanmak zorunda değilsiniz. Bununla birlikte birçok göreli saat senaryosu otomatik sayfa yenileme özelliğiyle birlikte iyi sonuç verir.  
+Bu özelliği [otomatik sayfa yenileme](../create-reports/desktop-automatic-page-refresh.md) özelliğiyle birlikte kullanmak zorunda değilsiniz. Bununla birlikte birçok göreli saat senaryosu otomatik sayfa yenileme özelliğiyle birlikte iyi sonuç verir.  
 
 > [!NOTE]
 > Sayfa veya rapor düzeyinde göreli saat filtresi veya dilimleyicisi uyguladığınızda söz konusu sayfa veya rapordaki tüm görseller paylaşılan *sabit saat noktası* kullanılarak tam olarak aynı zaman aralığına filtrelenir. Görsellerin yürütme zamanları biraz farklı olabileceğinden, bu paylaşılan sabit saat noktası görsellerin sayfanız veya raporunuz genelinde eşitlenmesini sağlar. Bu makalede [sabit zaman](#understanding-anchor-time) hakkında daha fazla bilgi edinebilirsiniz.
@@ -107,4 +107,3 @@ Göreli saat dilimleyicisi ve filtresi için geçerli sınırlamalar ve önemli 
 
 - [Power BI’da göreli tarih dilimleyicisini ve filtresini kullanma](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI'da dilimleyiciler](../visuals/power-bi-visualization-slicers.md)
-

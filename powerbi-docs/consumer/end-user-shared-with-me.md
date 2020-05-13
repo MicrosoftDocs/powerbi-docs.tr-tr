@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e54fbf7c521d057b6cc9fe1dde6c66358a9c349d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80302486"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277537"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Sizinle paylaşılan panoları ve raporları görüntüleme
 
@@ -26,7 +26,7 @@ ms.locfileid: "80302486"
 
 ![Paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Power BI Premium nedir?](../service-premium-what-is.md) makalesini okuyun.
+**Benimle paylaşılan** içerik listesini açıklamanın yanı sıra listede gezinmeyi ve listeyi filtrelemeyi gösterirken Amanda'ya eşlik edin. Ardından, videonun altında yer alan adım adım yönergeleri izleyerek bu işlemi kendiniz deneyin. Sizinle paylaşılan panoları görüntülemek için Power BI Pro lisansına sahip olmanız gerekir. Ayrıntılar için [Power BI Premium nedir?](../admin/service-premium-what-is.md) makalesini okuyun.
     
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara
 * Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md)![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > EGRC sınıflandırmaları hakkında bilgi için **Sınıflandırma** düğmesini seçin veya [Pano veri sınıflandırması](../service-data-classification.md) sayfasını ziyaret edin.
+  > EGRC sınıflandırmaları hakkında bilgi için **Sınıflandırma** düğmesini seçin veya [Pano veri sınıflandırması](../create-reports/service-data-classification.md) sayfasını ziyaret edin.
   > 
 
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525549"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279032"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI’da rapor performansını izleme
 
-[Power BI Premium Ölçümler uygulamasını](../service-premium-metrics-app.md) kullanarak Power BI Desktop’ta rapor performansını izleyin, nerede performans sorunlarını olduğunu ve rapor performansını nasıl geliştirebileceğinizi öğrenin.
+[Power BI Premium Ölçümler uygulamasını](../admin/service-premium-metrics-app.md) kullanarak Power BI Desktop’ta rapor performansını izleyin, nerede performans sorunlarını olduğunu ve rapor performansını nasıl geliştirebileceğinizi öğrenin.
 
 Aşağıdaki durumlarda performansın izlenmesi yararlı olur:
 
@@ -39,7 +39,7 @@ Sorguları önizlerken veya uygularken Power Query’nin neler yaptığını sap
 
 ## <a name="use-performance-analyzer"></a>Performans Analizi'ni kullanma
 
-Görsel öğelerinizden her birinin, örneğin görsellerin ve DAX formüllerinin nasıl performans gösterdiğini anlamak için Power BI Desktop'ta [Performans Analizi](../desktop-performance-analyzer.md)’ni kullanın. Özellikle performans sorunlarına sorgunun mu yoksa görseli işleme işleminin mi yol açtığını belirleme açısından yararlıdır.
+Görsel öğelerinizden her birinin, örneğin görsellerin ve DAX formüllerinin nasıl performans gösterdiğini anlamak için Power BI Desktop'ta [Performans Analizi](../create-reports/desktop-performance-analyzer.md)’ni kullanın. Özellikle performans sorunlarına sorgunun mu yoksa görseli işleme işleminin mi yol açtığını belirleme açısından yararlıdır.
 
 ## <a name="use-sql-server-profiler"></a>SQL Server Profiler’ı kullanma
 
@@ -77,15 +77,15 @@ SQL Server Profiler’ı kullanmanın bir avantajı da, SQL Server (ilişkisel) 
 
 ## <a name="monitor-premium-metrics"></a>Premium ölçümlerini izleme
 
-Power BI Premium kapasitelerde, Power BI Premium aboneliğinizin durumunu ve kapasitesini izlemek için **Power BI Premium Ölçümler uygulamasını** kullanın. Daha fazla bilgi için bkz. [Power BI Premium Ölçümler uygulaması](../service-premium-metrics-app.md).
+Power BI Premium kapasitelerde, Power BI Premium aboneliğinizin durumunu ve kapasitesini izlemek için **Power BI Premium Ölçümler uygulamasını** kullanın. Daha fazla bilgi için bkz. [Power BI Premium Ölçümler uygulaması](../admin/service-premium-metrics-app.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Sorgu Tanılamaları](/power-query/QueryDiagnostics)
-- [Performans Analizi](../desktop-performance-analyzer.md)
+- [Performans Analizi](../create-reports/desktop-performance-analyzer.md)
 - [Power BI’da rapor performansı sorunlarını giderme](report-performance-troubleshoot.md)
-- [Power BI Premium Ölçümler uygulaması](../service-premium-metrics-app.md)
+- [Power BI Premium Ölçümler uygulaması](../admin/service-premium-metrics-app.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

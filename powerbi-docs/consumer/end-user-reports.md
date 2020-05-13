@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114233"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277468"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 
@@ -76,7 +76,7 @@ Buna karşılık başkalarından rapor alan bir *kullanıcı* da olabilirsiniz. 
 
 * Raporları ve rapor araçlarını nerede bulacağınızı öğrenmek için [Power BI hizmeti turu](end-user-basic-concepts.md) ile başlayın.
 * [Bir raporu açmayı](end-user-report-open.md) ve [tüketicilerin kullanabileceği tüm etkileşimleri](end-user-reading-view.md) öğrenin.
-* Raporları daha rahat kullanmak için [örneklerimizden](../sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
+* Raporları daha rahat kullanmak için [örneklerimizden](../create-reports/sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
 * Raporun hangi veri kümesini kullandığını ve hangi panoların rapordaki görselleri (*sabitlemeler*) gösterdiğini görmek için bkz. [Power BI hizmetinde ilişkili içeriği görüntüleme](end-user-related.md).
 
 > [!TIP]
@@ -86,3 +86,4 @@ Buna karşılık başkalarından rapor alan bir *kullanıcı* da olabilirsiniz. 
 
 [Raporu açma ve görüntüleme](end-user-report-open.md)    
 [Power BI hizmetindeki panolar](end-user-dashboards.md)
+

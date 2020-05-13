@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525295"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277445"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop’ta raporları modellerden ayırma
 
 Yeni bir Power BI Desktop çözümü oluştururken yapmanız gereken ilk görevlerden biri "veri al"dır. Veri alma işlemi, tamamen farklı iki sonuç oluşmasına neden olabilir. Şunlara yol açabilir:
 
-- Bir Power BI veri kümesi veya uzaktan barındırılan Analysis Services modeli olabilecek, zaten yayımlanmış bir modele [Canlı Bağlantı](../desktop-report-lifecycle-datasets.md) oluşturun.
+- Bir Power BI veri kümesi veya uzaktan barındırılan Analysis Services modeli olabilecek, zaten yayımlanmış bir modele [Canlı Bağlantı](../connect-data/desktop-report-lifecycle-datasets.md) oluşturun.
 - Bir İçeri aktarma, DirectQuery veya Bileşik model olabilecek yeni bir modelin geliştirme sürecini başlatın.
 
 Bu makale ikinci senaryoyu ele alır. Bir raporun ve modelin tek bir Power BI Desktop dosyasında birleştirilmesi gerekip gerekmediği hakkında rehberlik sağlar.
@@ -67,7 +67,7 @@ Her iki seçenek de ilgili raporları ve panoları hızlıca tanımlamanızı sa
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma](../desktop-report-lifecycle-datasets.md)
+- [Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Power BI hizmetinde ilgili içeriği görüntüleme](../consumer/end-user-related.md)
 - [Veri kökeni](../collaborate-share/service-data-lineage.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

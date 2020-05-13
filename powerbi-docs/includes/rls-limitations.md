@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 912b0213c328c623e7881f7f30fe7d67f6d889b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77464419"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274661"
 ---
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -17,7 +17,7 @@ Bulut modellerindeki satır düzeyi güvenlik hakkındaki geçerli sınırlamala
 
 * Power BI hizmetinde tanımlanmış olduğunuz roller ve kurallar varsa bunları Power BI Desktop'ta tekrar oluşturmanız gerekir.
 
-* RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümeleri için etkinleştirmek isterseniz öncelikle dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Daha fazla bilgi](../desktop-import-excel-workbooks.md).
+* RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümeleri için etkinleştirmek isterseniz öncelikle dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Daha fazla bilgi](../connect-data/desktop-import-excel-workbooks.md).
 
 * Yalnızca İçeri Aktarma ve DirectQuery bağlantıları desteklenir. Analysis Services canlı bağlantıları şirket içi modelde işlenir.
 
@@ -32,3 +32,4 @@ Bilinen sorunların biri, önceden yayımlanmış olan bir raporu Power BI Deskt
 1. Anna bir hata alır.
 
 **Geçici çözüm:** Bu sorun giderilene kadar Power BI Desktop dosyasını Power BI hizmetinden yayımlayın. Bu işlemi, **Veri Al** > **Dosyalar** adımlarını izleyerek yapabilirsiniz.
+

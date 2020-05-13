@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692884"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279170"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -38,7 +38,7 @@ Azure SQL Veritabanı veri kaynakları için, [Azure SQL Veritabanı Kimlik Doğ
 
 ## <a name="other-data-sources"></a>Diğer veri kaynakları
 
-Yukarıdaki yerel olarak desteklenen veri kaynaklarına ek olarak, aşağıdaki veri kaynaklarına da [Power BI veri ağ geçidi](../service-gateway-onprem.md) yoluyla erişilebilir:
+Yukarıdaki yerel olarak desteklenen veri kaynaklarına ek olarak, aşağıdaki veri kaynaklarına da [Power BI veri ağ geçidi](../connect-data/service-gateway-onprem.md) yoluyla erişilebilir:
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ SSO ve OAuth2'nin doğru çalışması için veri kaynağının bağlantılı ol
 [Power BI hizmetinde sayfalandırılmış rapor görüntüleme](../consumer/paginated-reports-view-power-bi-service.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+

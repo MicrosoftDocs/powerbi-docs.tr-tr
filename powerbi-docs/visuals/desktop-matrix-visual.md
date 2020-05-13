@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866599"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279193"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -62,7 +62,7 @@ Matrisin genişletme durumu raporunuzla birlikte kaydedilir. Matris, genişletil
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Çok boyutlu bir Analysis Services modelini temel alarak rapor oluşturuyorsanız, modelin Varsayılan Üye özelliğini kullanması durumunda genişletme/daraltma için dikkat edilmesi gereken bazı özel unsurlar vardır. Daha fazla bilgi edinmek için bkz. [Power BI’da çok boyutlu modellerle çalışma](../desktop-default-member-multidimensional-models.md)
+> Çok boyutlu bir Analysis Services modelini temel alarak rapor oluşturuyorsanız, modelin Varsayılan Üye özelliğini kullanması durumunda genişletme/daraltma için dikkat edilmesi gereken bazı özel unsurlar vardır. Daha fazla bilgi edinmek için bkz. [Power BI’da çok boyutlu modellerle çalışma](../connect-data/desktop-default-member-multidimensional-models.md)
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Matris görseliyle detaya gitme özelliğini kullanma
 Matris görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici detaya gitme etkinliğini gerçekleştirebilirsiniz. Detaya gitme özelliği satırlar, sütunlar ve hatta tek tek bölümler ve hücreler için kullanılabilir. Şimdi bunlardan her birinin nasıl çalıştığına göz atalım.
@@ -211,7 +211,7 @@ Web sitesi URL'leri içeren bir sütununuz veya ölçünüz varsa koşullu biçi
 
 **Web URL’si** ayarını Açık konuma getirin ve sütun için URL olarak kullanılacak alanı seçin. Uygulandığında, bu alanda (sütun) yer alan değerler etkin bağlantılara dönüşür. Bağlantıyı görmek için üzerine gelin ve söz konusu sayfaya atlamak için seçin. 
 
-Daha fazla bilgi için bkz. [Koşullu tablo biçimlendirme](../desktop-conditional-table-formatting.md)
+Daha fazla bilgi için bkz. [Koşullu tablo biçimlendirme](../create-reports/desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Matris görselleriyle gölgelendirme ve yazı tipi renkleri
 Matris görseliyle, matris içindeki hücrelerin arka planına koşullu biçimlendirme (renkler, gölgelendirme ve veri çubukları) uygulayabilir ve metin ve değerlerde koşullu biçimlendirme gerçekleştirebilirsiniz.
@@ -233,3 +233,5 @@ Ayar yapmanızı sağlayan bir iletişim kutusu görüntülemek için *Gelişmi�
 [Power BI için Power Apps görseli](power-bi-visualization-powerapp.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

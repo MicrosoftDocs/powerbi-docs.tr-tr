@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85cecc300ac3586c3702e8a7fa5e5c4a4dc6a65c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066119"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278963"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI raporlarında göstergeleri biçimlendirme ve uygulamaya yönelik ipuçları
 
@@ -39,7 +39,8 @@ Power BI raporlarında göstergeleri biçimlendirme ve uygulamaya yönelik en et
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../desktop-tips-and-tricks-for-creating-reports.md)
+- [Etkileyici raporlar oluşturmaya ilişkin ipuçları](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine videosu: [Power BI’da Gösterge Biçimlendirme ve Uygulamaya Yönelik En Etkili 6 İpucu](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
+

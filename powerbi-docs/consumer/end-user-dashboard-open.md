@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496282"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277928"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 
@@ -49,10 +49,10 @@ Panoları gezinti bölmesindeki tüm kapsayıcılarda bulabilirsiniz.
 - **Son görüntülenen** - kısa süre önce bir panoyu ziyaret ettiyseniz
 - **Uygulamalar** - çoğu uygulama hem pano hem de rapor içerir
 - **Benimle paylaşılan** - iş arkadaşlarınız [sizinle bir pano paylaştıysa](end-user-shared-with-me.md)
-- **Çalışma alanım** - [Power BI örneklerinden](../sample-datasets.md) birini indirdiyseniz
+- **Çalışma alanım** - [Power BI örneklerinden](../create-reports/sample-datasets.md) birini indirdiyseniz
 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* Panoları daha rahat kullanmak için [örnek panolarımızdan](../sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.    
+* Panoları daha rahat kullanmak için [örnek panolarımızdan](../create-reports/sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.    
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.

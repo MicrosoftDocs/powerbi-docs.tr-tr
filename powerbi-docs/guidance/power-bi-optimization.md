@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378881"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278619"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI için iyileştirme kılavuzu
 
@@ -26,7 +26,7 @@ Bu makalede geliştiricilerin ve yöneticilerin iyileştirilmiş Power BI çöz�
 
 ## <a name="optimizing-the-data-model"></a>Veri modelini iyileştirme
 
-Veri modeli görselleştirme deneyiminin tamamını destekler. Veri modelleri dışarıda veya içeride barındırılır ve Power BI’da bunlara _veri kümeleri_ denir. Seçeneklerinizi anlamanız ve çözümünüze uygun veri kümesi türünü seçmeniz önemlidir. Üç veri kümesi modu vardır: İçeri Aktarma, DirectQuery ve Bileşik. Daha fazla bilgi için bkz. [Power BI hizmetinde veri kümeleri](../service-datasets-understand.md) ve [Power BI hizmetinde veri kümesi modları](../service-dataset-modes-understand.md).
+Veri modeli görselleştirme deneyiminin tamamını destekler. Veri modelleri dışarıda veya içeride barındırılır ve Power BI’da bunlara _veri kümeleri_ denir. Seçeneklerinizi anlamanız ve çözümünüze uygun veri kümesi türünü seçmeniz önemlidir. Üç veri kümesi modu vardır: İçeri Aktarma, DirectQuery ve Bileşik. Daha fazla bilgi için bkz. [Power BI hizmetinde veri kümeleri](../connect-data/service-datasets-understand.md) ve [Power BI hizmetinde veri kümesi modları](../connect-data/service-dataset-modes-understand.md).
 
 Belirli bir veri kümesi moduyla ilgili kılavuz için bkz:
 
@@ -40,7 +40,7 @@ Power BI görselleştirmeleri panolar, Power BI raporları veya Power BI sayfala
 
 ### <a name="dashboards"></a>Panolar
 
-Power BI’ın, canlı rapor kutucukları ve akış kutucukları hariç pano kutucuklarınız için bir önbellek tuttuğunu anlamanız önemlidir. Daha fazla bilgi için bkz. [Power BI’da veri yenileme (Kutucuk yenileme)](../refresh-data.md#tile-refresh). Veri kümeniz dinamik [satır düzeyi güvenliği (RLS)](../service-admin-rls.md) zorunlu tutuyorsa, kutucuklar kullanıcı başına önbelleğe alındığından bunun performans üzerindeki etkilerini anladığınızdan emin olun.
+Power BI’ın, canlı rapor kutucukları ve akış kutucukları hariç pano kutucuklarınız için bir önbellek tuttuğunu anlamanız önemlidir. Daha fazla bilgi için bkz. [Power BI’da veri yenileme (Kutucuk yenileme)](../connect-data/refresh-data.md#tile-refresh). Veri kümeniz dinamik [satır düzeyi güvenliği (RLS)](../admin/service-admin-rls.md) zorunlu tutuyorsa, kutucuklar kullanıcı başına önbelleğe alındığından bunun performans üzerindeki etkilerini anladığınızdan emin olun.
 
 Canlı rapor kutucuklarını panoya sabitlediğinizde bunlar sorgu önbelleğinden kullanıma sunulmaz. Bunun yerine raporlarla aynı şekilde davranırlar ve arka uç çekirdeklerinde anında sorgular çalıştırırlar.
 
@@ -75,7 +75,7 @@ Her bir özel görsel öğeyi gerekli testlere tabi tutarak öğe performansın�
 
 Power BI sayfalandırılmış rapor tasarımları, raporun veri alma işlemine en iyi yöntem tasarımı uygulanarak iyileştirilebilir. Daha fazla bilgi için bkz. [Sayfalandırılmış raporlar için veri alma kılavuzu](report-paginated-data-retrieval.md).
 
-Ayrıca kapasitenizde [sayfalandırılmış rapor iş yüküne](../service-admin-premium-workloads.md#paginated-reports) ayrılmış yeterli bellek bulunduğundan emin olun.
+Ayrıca kapasitenizde [sayfalandırılmış rapor iş yüküne](../admin/service-admin-premium-workloads.md#paginated-reports) ayrılmış yeterli bellek bulunduğundan emin olun.
 
 ## <a name="optimizing-the-environment"></a>Ortamı iyileştirme
 
@@ -83,11 +83,11 @@ Kapasite ayarlarını yapılandırarak, veri ağ geçitlerini boyutlandırarak v
 
 ### <a name="capacity-settings"></a>Kapasite ayarları
 
-Power BI Premium (P SKU’ları) veya Power BI Embedded (A SKU’ları, A4-A6) ile sağlanan ayrılmış kapasiteleri kullanırken kapasite ayarlarını yönetebilirsiniz. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../service-premium-capacity-manage.md). Kapasitenizi nasıl iyileştireceğinize ilişkin yönergeler için bkz. [Premium kapasiteleri iyileştirme](../service-premium-capacity-optimize.md).
+Power BI Premium (P SKU’ları) veya Power BI Embedded (A SKU’ları, A4-A6) ile sağlanan ayrılmış kapasiteleri kullanırken kapasite ayarlarını yönetebilirsiniz. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../admin/service-premium-capacity-manage.md). Kapasitenizi nasıl iyileştireceğinize ilişkin yönergeler için bkz. [Premium kapasiteleri iyileştirme](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Ağ geçidini boyutlandırma
 
-Power BI’ın doğrudan İnternet üzerinden erişilemeyen verilere erişmesi gereken her durumda ağ geçidi gereklidir. [Şirket içi veri ağ geçidini](../service-gateway-onprem.md) şirket içindeki sunucuya veya VM’de barındırılan Hizmet Olarak Altyapı’ya (IaaS) yükleyebilirsiniz.
+Power BI’ın doğrudan İnternet üzerinden erişilemeyen verilere erişmesi gereken her durumda ağ geçidi gereklidir. [Şirket içi veri ağ geçidini](../connect-data/service-gateway-onprem.md) şirket içindeki sunucuya veya VM’de barındırılan Hizmet Olarak Altyapı’ya (IaaS) yükleyebilirsiniz.
 
 Ağ geçidi iş yüklerini ve boyutlandırma önerilerini anlamak için bkz. [Şirket içi veri ağ geçidini boyutlandırma](gateway-onprem-sizing.md).
 
@@ -96,7 +96,7 @@ Ağ geçidi iş yüklerini ve boyutlandırma önerilerini anlamak için bkz. [Ş
 Ağ gecikmesi, isteklerin Power BI hizmete ulaşması ve yanıtların teslim edilmesi için gereken süreyi artırarak rapor performansını etkileyebilir. Power BI'da kiracılar belirli bir bölgeye atanır.
 
 > [!TIP]
-> Kiracınızın bulunduğu yeri belirlemek için bkz. [Power BI kiracım nerede bulunur?](../service-admin-where-is-my-tenant-located.md)
+> Kiracınızın bulunduğu yeri belirlemek için bkz. [Power BI kiracım nerede bulunur?](../admin/service-admin-where-is-my-tenant-located.md)
 
 Kiracıdaki kullanıcıların Power BI hizmetine erişirken gerçekleştirdiği istekler her zaman bu bölgeye yönlendirilir. İstekler Power BI hizmetine ulaştığında, hizmet yine ağ gecikmesine yol açabilecek ek istekler (örneğin, temel veri kaynağına veya veri ağ geçidine) gönderebilir.
 
@@ -115,3 +115,7 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - Teknik İnceleme: [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://go.microsoft.com/fwlink/?linkid=2057861)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+
+
+
+

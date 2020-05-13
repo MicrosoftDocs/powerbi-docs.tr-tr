@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613569"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148326"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -27,7 +27,7 @@ Power BI görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi 
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI görselinizi göndermek için hazırlanma
 
-Power BI görselini AppSource'a göndermeden önce [Power BI görselleriyle ilgili yönergeler](guidelines-powerbi-visuals.md) konusunu okuduğunuzdan ve [özel görselinizi test ettiğinizden](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) emin olun.
+Power BI görselini AppSource'a göndermeden önce [Power BI görselleriyle ilgili yönergeler](guidelines-powerbi-visuals.md) konusunu okuduğunuzdan ve [özel görselinizi test ettiğinizden](./submission-testing.md) emin olun.
 
 Power BI görselinizi göndermeye hazır olduğunuzda görselinizin aşağıda listelenen tüm gereksinimleri karşıladığını doğrulayın.
 
@@ -99,9 +99,10 @@ Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki ad�
 
 10. **Ürün kurulumu**'nu seçin ve **Gözden geçir ve yayımla**'ya tıklayın.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
 
-* [Doğrulama ilkelerini](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
+[Doğrulama ilkelerini](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
 
 * Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboard.microsoft.com/Application/Summary/) sayfasından görüntüleyebilirsiniz.
 

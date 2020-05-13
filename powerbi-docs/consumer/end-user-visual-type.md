@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377202"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279446"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 
@@ -152,7 +152,7 @@ Rapor tasarımcıları bir Power App oluşturup bunu Power BI raporuna ekleyebil
 ![Soru-Cevap görselleri](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->[Panolarda Soru-Cevap deneyimine](../power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
+>[Panolarda Soru-Cevap deneyimine](../create-reports/power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
 
 Daha fazla bilgi için bkz. [Power BI’daki Soru-Cevap görselleri](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
@@ -248,3 +248,4 @@ Power BI Soru-Cevap’ta doğal dilde sorgular yazarken, sorgunuzda görsel tür
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)    
 [Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

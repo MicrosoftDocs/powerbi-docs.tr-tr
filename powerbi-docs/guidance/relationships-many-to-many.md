@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260474"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278342"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 
@@ -161,7 +161,7 @@ Görsel doğru bir sonuç göstermektedir. Öte yandan modelin kullanışlılı�
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Çoka çok olguları ilişkilendirme yönergeleri
 
-Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _zayıf ilişkilerin_ doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../desktop-relationships-understand.md#relationship-evaluation).
+Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _zayıf ilişkilerin_ doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Olgu türündeki tabloları doğrudan ilişkilendirmek yerine [Yıldız Şeması](star-schema.md) tasarım ilkelerini benimsemenizi öneririz. Bunu, boyut türünde tablolar ekleyerek yaparsınız. Sonra boyut türündeki tablolar bire çok ilişkileri kullanılarak olgu türündeki tablolarla ilişkilendirilir. Bu tasarım yaklaşımı esnek raporlama seçenekleri getirdiğinden güçlü bir yaklaşımdır. Boyut türündeki sütunlardan herhangi birini kullanarak filtrelemenize veya gruplandırmanıza ve ilişkili olgu türündeki tabloları özetlemenize olanak tanır.
 
@@ -184,7 +184,7 @@ Zaman ayırıp yıldız şeması tasarım ilkelerinin uygulanması aşağıdaki 
 - Rapor görselleriniz boyut türündeki tabloların tüm görünür sütunlarına göre _filtrelenebilir veya gruplandırılabilir_
 - Rapor görselleriniz olgu türündeki tabloların tüm görünür sütunlarına göre _özetlenebilir_
 - **OrderLine**, **OrderDate** veya **Product** tablolarına uygulanan filtreler olgu türündeki her iki tabloya da yayılır
-- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _güçlü ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../desktop-relationships-understand.md#relationship-evaluation).
+- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _güçlü ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Daha yüksek dilimli olguları ilişkilendirme
 
@@ -209,7 +209,7 @@ Bu çoka çok senaryosu, bu makalede daha önce açıklanan diğer iki senaryoda
 
 Öte yandan ay veya tarih düzeyi filtrelerinin anlamlı bir sonuç verdiğinden emin olmak için özen gösterilmelidir. Özel bir hesaplama mantığı olmadan, rapor görselleri hedef tarihleri her yılın ilk günü olarak raporlayabilir. Diğer tüm günler (ve Ocak dışındaki tüm aylar) hedef miktarı BOŞLUK olarak özetler.
 
-Aşağıdaki matris görselinde, rapor kullanıcısı yıldan o yılın aylarına detaya gittiğinde neler olduğu gösterilir. Görsel **TargetQuantity** sütunu özetlemektedir. (Matris satırları için [Veri içermeyen öğeleri göster](../desktop-show-items-no-data.md) seçeneği etkinleştirilmiştir.)
+Aşağıdaki matris görselinde, rapor kullanıcısı yıldan o yılın aylarına detaya gittiğinde neler olduğu gösterilir. Görsel **TargetQuantity** sütunu özetlemektedir. (Matris satırları için [Veri içermeyen öğeleri göster](../create-reports/desktop-show-items-no-data.md) seçeneği etkinleştirilmiştir.)
 
 ![Matris görselinde 2020 yılı hedef miktarının 270 olduğu ortaya konur. 2020'nin aylarını ortaya koymak amacıyla genişletildiğinde Ocak ayı 270 ve ay düzeyindeki diğer tüm hedef miktarlar BOŞ olur.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ Boyut türünde bir tabloyu olgu türünde bir tabloyla ilişkilendirmeniz gerek
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
+- [Power BI Desktop’ta model ilişkileri](../transform-model/desktop-relationships-understand.md)
 - [Yıldız şemasını ve Power BI açısından önemini anlama](star-schema.md)
 - [İlişki sorunlarını giderme kılavuzu](relationships-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

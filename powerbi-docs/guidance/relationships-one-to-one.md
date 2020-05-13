@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263818"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278273"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Birebir ilişki kılavuzu
 
@@ -99,7 +99,7 @@ Satır verileri model tabloları arasına yayıldığında birebir model ilişki
 - Hiyerarşi düzeylerinin _aynı tablodaki_ sütunları temel alması gerektiğinden hiyerarşi oluşturma becerisini sınırlandırır
 - Tablolar arasında tamamlanmış bir eşleşme olmadığından beklenmeyen sonuçlar doğurur
 
-Belirli öneriler birebir ilişkinin _ada içi_ mi yoksa _adalar arası_ mı olduğuna göre değişiklik gösterir. İlişkinin değerlendirmesi hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../desktop-relationships-understand.md#relationship-evaluation).
+Belirli öneriler birebir ilişkinin _ada içi_ mi yoksa _adalar arası_ mı olduğuna göre değişiklik gösterir. İlişkinin değerlendirmesi hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ### <a name="intra-island-one-to-one-relationship"></a>Ada içi birebir ilişki
 
@@ -107,7 +107,7 @@ Tablolar arasında birebir _ada içi_ ilişki olduğunda verileri tek bir model 
 
 Aşağıdaki adımlarda birebir ilişkili verileri birleştirme ve modelleme yöntemi gösterilir:
 
-1. **Sorguları birleştirme**: [İki sorguyu birleştirirken](../desktop-shape-and-combine-data.md#combine-queries), her sorgudaki verilerin bütünlüğünü göz önünde bulundurun. Bir sorgu eksiksiz bir satır kümesi (ana liste gibi) içeriyorsa, diğer sorguyu onunla birleştirin. Varsayılan birleştirme türü olan _sol dış birleştirmeyi_ kullanmak için birleştirme dönüştürmesini yapılandırın. Bu birleştirme türü ilk sorgunun tüm satırlarının tutulmasını ve bunların ikinci sorgudaki eşleşen satırlarla tamamlanmasını güvence altına alır. İkinci sorgunun tüm gerekli sütunlarını ilk sorguya genişletin.
+1. **Sorguları birleştirme**: [İki sorguyu birleştirirken](../connect-data/desktop-shape-and-combine-data.md#combine-queries), her sorgudaki verilerin bütünlüğünü göz önünde bulundurun. Bir sorgu eksiksiz bir satır kümesi (ana liste gibi) içeriyorsa, diğer sorguyu onunla birleştirin. Varsayılan birleştirme türü olan _sol dış birleştirmeyi_ kullanmak için birleştirme dönüştürmesini yapılandırın. Bu birleştirme türü ilk sorgunun tüm satırlarının tutulmasını ve bunların ikinci sorgudaki eşleşen satırlarla tamamlanmasını güvence altına alır. İkinci sorgunun tüm gerekli sütunlarını ilk sorguya genişletin.
 2. **Sorgu yüklemeyi devre dışı bırak**: İkinci sorgunun [yüklemesini devre dışı bıraktığınızdan](import-modeling-data-reduction.md#disable-power-query-query-load) emin olun. Bu şekilde ikinci sorgu sonucunu bir model tablosu olarak yüklemez. Bu yapılandırma veri modeli depolama boyutunu azaltır ve **Alanlar** bölmesinde kalabalığı önlemeye yardımcı olur.
 
     Bizim örneğimizde, rapor yazarları artık **Alanlar** bölmesinde **Product** adlı tek bir tablo bulurlar. Bu tablo ürünle ilişkili alanları içerir.
@@ -131,11 +131,11 @@ Bizim örneğimizde rapor yazarları **Category** alanını **Marketing** görü
 
 ![Alanlar bölmesinde Category alanı Marketing adlı bir görüntü klasörü içinde yer alır.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Yine de modelinizde birebir ada içi ilişkiler tanımlamaya karar verirseniz, mümkünse ilişkili tablolarda eşleşen satırların bulunduğundan emin olun. Birebir ada içi ilişkisi [güçlü bir ilişki](../desktop-relationships-understand.md#strong-relationships) olarak değerlendirildiğinden, rapor görsellerinizde veri bütünlüğü sorunları BOŞLUKLAR olarak kendini gösterebilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
+Yine de modelinizde birebir ada içi ilişkiler tanımlamaya karar verirseniz, mümkünse ilişkili tablolarda eşleşen satırların bulunduğundan emin olun. Birebir ada içi ilişkisi [güçlü bir ilişki](../transform-model/desktop-relationships-understand.md#strong-relationships) olarak değerlendirildiğinden, rapor görsellerinizde veri bütünlüğü sorunları BOŞLUKLAR olarak kendini gösterebilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Adalar arası birebir ilişki
 
-Tablolar arasında birebir _adalar arası_ ilişki bulunduğunda, veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [zayıf bir ilişki](../desktop-relationships-understand.md#weak-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
+Tablolar arasında birebir _adalar arası_ ilişki bulunduğunda, veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [zayıf bir ilişki](../transform-model/desktop-relationships-understand.md#weak-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
 
 Şimdi her iki tablodaki alanlar bir tablo görseline eklendiğinde ve tablolar arasında zayıf ilişki olduğunda neler olduğuna bakalım.
 
@@ -147,7 +147,7 @@ Tablo yalnızca iki satır görüntüler. Product SKU CL-02 eksiktir çünkü **
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
+- [Power BI Desktop’ta model ilişkileri](../transform-model/desktop-relationships-understand.md)
 - [Yıldız şemasını ve Power BI açısından önemini anlama](star-schema.md)
 - [İlişki sorunlarını giderme kılavuzu](relationships-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

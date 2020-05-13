@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290602"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278089"
 ---
 # <a name="use-report-page-drillthrough"></a>Rapor sayfası detaylandırmayı kullanma
 
-Bu makale Power BI raporları tasarlayan rapor yazarlarına yöneliktir. [Rapor sayfasını detaylandırmayı](../desktop-drillthrough.md) oluşturma işlemiyle ilgili öneriler sağlar.
+Bu makale Power BI raporları tasarlayan rapor yazarlarına yöneliktir. [Rapor sayfasını detaylandırmayı](../create-reports/desktop-drillthrough.md) oluşturma işlemiyle ilgili öneriler sağlar.
 
 Raporunuzu tasarlarken rapor kullanıcılarının aşağıdaki akışı başarabileceği bir tasarım yapmanızı öneririz:
 
@@ -58,8 +58,8 @@ Rapor tasarımı sırasında aşağıdaki uygulamaları öneririz:
 - **Detaylandırma filtreleri:** Detaylandırma sayfasını tasarlarken gerçekçi bir sonuç önizlemesi elde edebilmek için detaylandırma filtrelerini ayarlayın. Raporu yayımlamadan önce bu filtreleri kaldırmayı unutmayın.
 - **Ek özellikler:** Detaylandırma sayfası herhangi bir rapor sayfası gibidir. Hatta dilimleyiciler ve filtreler gibi etkileşimli özelliklerle bu sayfayı geliştirebilirsiniz.
 - **Boşluklar:** Detaylandırma filtreleri uygulandığında BOŞLUK görüntüleyebilen veya hata oluşturabilen görseller eklemekten kaçının.
-- **Sayfa görünürlüğü:** Detaylandırma sayfalarını gizlemeyi göz önünde bulundurun. Detaylandırma sayfasını görünür tutmaya karar verirseniz, kullanıcıların daha önce ayarlanmış detaylandırma filtrelerini temizlemesini sağlayacak bir düğme eklediğinizden emin olun. Düğmeye bir [yer işareti](../desktop-bookmarks.md) atayın. Yer işareti tüm filtreleri kaldıracak şekilde yapılandırılmalıdır.
-- **Geri düğmesi:** Bir detaylandırma filtresi atadığınızda otomatik olarak geri [düğmesi](../desktop-buttons.md) eklenir. Bunu alıkoymak iyi bir yaklaşımdır. Bu şekilde rapor kullanıcılarınız kaynak sayfaya kolayca dönebilir.
+- **Sayfa görünürlüğü:** Detaylandırma sayfalarını gizlemeyi göz önünde bulundurun. Detaylandırma sayfasını görünür tutmaya karar verirseniz, kullanıcıların daha önce ayarlanmış detaylandırma filtrelerini temizlemesini sağlayacak bir düğme eklediğinizden emin olun. Düğmeye bir [yer işareti](../create-reports/desktop-bookmarks.md) atayın. Yer işareti tüm filtreleri kaldıracak şekilde yapılandırılmalıdır.
+- **Geri düğmesi:** Bir detaylandırma filtresi atadığınızda otomatik olarak geri [düğmesi](../create-reports/desktop-buttons.md) eklenir. Bunu alıkoymak iyi bir yaklaşımdır. Bu şekilde rapor kullanıcılarınız kaynak sayfaya kolayca dönebilir.
 - **Bulma:** Görsel üst bilgisi simge metni ayarlayarak veya bir metin kutusuna yönergeler ekleyerek detaylandırma sayfasıyla ilgili farkındalığı artırmaya yardımcı olun. Ayrıca [bu blog gönderisinde](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/) açıklandığı gibi bir katman tasarlayabilirsiniz.
 
 > [!TIP]
@@ -69,6 +69,6 @@ Rapor tasarımı sırasında aşağıdaki uygulamaları öneririz:
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop'ta detaylandırma özelliğini kullanma](../desktop-drillthrough.md)
+- [Power BI Desktop'ta detaylandırma özelliğini kullanma](../create-reports/desktop-drillthrough.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

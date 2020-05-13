@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584934"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277905"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 
@@ -48,7 +48,7 @@ Sitenize etkileşimli grafikleri dahil etmek için, şu ekleme kodunu kopyalayı
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](../service-publish-to-web.md#tips-for-iframe-height-and-width) yararlı olur.
+Ekleme kodu, tüm HTML sayfalarına ekleyebileceğiniz bir HTML iFrame öğesidir. Sağlanan iFrame’in genişliğini ve yüksekliğini web sitenize sığacak şekilde ayarlayın. Örnek rapor 16:9 bölümler halinde yazılır, bu boyutu uygun bir seçim yapın. Doğru şekilde uygulandığında, grafikler ek gri kenarlıklar olmadan görünür. Bu değişiklikleri yaparken [iFrame boyutlandırmasına yönelik ipuçlarını ve püf noktalarını gözden geçirmeniz](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width) yararlı olur.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>2\. Seçenek: Örnek Power BI dosyasını özelleştirme
 
@@ -93,18 +93,18 @@ USAFacts verileri, atıf gerektiren bir Creative Commons License kapsamında sun
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Raporunuzu Power BI hizmetinde yayımlama
 
-Raporunuzu dilediğiniz şekilde özelleştirdikten sonra, [raporunuzu Power BI hizmetinde yayımlamak için burada özetlenen adımları izleyin](../desktop-upload-desktop-files.md).
+Raporunuzu dilediğiniz şekilde özelleştirdikten sonra, [raporunuzu Power BI hizmetinde yayımlamak için burada özetlenen adımları izleyin](../create-reports/desktop-upload-desktop-files.md).
 
 ### <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 
-Rapordaki verileri güncel tutmak için, raporunuzu yayımladıktan sonra [zamanlanmış yenileme yapılandırabilirsiniz](../refresh-scheduled-refresh.md).
+Rapordaki verileri güncel tutmak için, raporunuzu yayımladıktan sonra [zamanlanmış yenileme yapılandırabilirsiniz](../connect-data/refresh-scheduled-refresh.md).
 
 Adımları izlerken şu seçenekleri belirleyin:
 
 1. Veri Kaynağı Kimlik Bilgileri Kimlik Doğrulaması Yöntemi: Anonim
 2. Bu veri kaynağına ilişkin gizlilik düzeyi ayarı: Genel
 
-Yenileme ayarınızı test etmek için, veri kümesi öğesindeki [Şimdi yenile](../refresh-data.md#data-refresh) seçeneğini belirleyin.
+Yenileme ayarınızı test etmek için, veri kümesi öğesindeki [Şimdi yenile](../connect-data/refresh-data.md#data-refresh) seçeneğini belirleyin.
 
 Yenileme verileri, zamanlama her çalıştığında yüklenir. Temel alınan veriler USAFacts tarafından sağlanır ve zamanlamanızı yenilediğiniz sıklıkta güncelleştirilmeyebilir. Sağlanan verilerin en son ne zaman güncelleştirildiğini öğrenmek için [USAFacts web sitesine](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/) göz atın. 
 
@@ -112,7 +112,7 @@ Yenileme verileri, zamanlama her çalıştığında yüklenir. Temel alınan ver
 
 ### <a name="create-a-publish-to-web-embed-code"></a>Web’de yayımlama ekleme kodu oluşturma 
 
-Özelleştirilmiş raporunuzu kendi web sitenize eklemek için [Kendi web’de yayımlama ekleme kodunuzu oluşturmaya](../service-publish-to-web.md#create-embed-codes-with-publish-to-web) yönelik yönergeleri izleyin.
+Özelleştirilmiş raporunuzu kendi web sitenize eklemek için [Kendi web’de yayımlama ekleme kodunuzu oluşturmaya](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web) yönelik yönergeleri izleyin.
 
 Ekleme kodunuzu yayımladıktan sonra, web sitenize eklemek için onay iletişim penceresindeki iFrame’i kullanırsınız.
 
@@ -143,7 +143,7 @@ Ayrıca, bu rapordaki verileri başka bir kaynaktan alınan verilerle de birleş
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="Web’den veri yükleme":::
 
-    [Power BI Desktop’tan web sayfalarına bağlanma](../desktop-connect-to-web.md) adlı bu makalede web’den veri yükleme hakkında daha fazla bilgi sağlanır.
+    [Power BI Desktop’tan web sayfalarına bağlanma](../connect-data/desktop-connect-to-web.md) adlı bu makalede web’den veri yükleme hakkında daha fazla bilgi sağlanır.
     
 Daha sonra Power BI Desktop kullanarak verileri görselleştirebilirsiniz. Son olarak, **2. Seçenek**’teki adımları kullanın: Raporu yayımlayıp özel bir ekleme kodu oluşturmak için [raporunuzu Power BI hizmetinde yayımlayın](#publish-your-report-to-the-power-bi-service). 
 
@@ -168,4 +168,8 @@ Johns Hopkins Üniversitesi verilerinin telif hakkı 2020 John Hopkins Üniversi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI için örnek alma](../sample-datasets.md)
+[Power BI için örnek alma](../create-reports/sample-datasets.md)
+
+
+
+

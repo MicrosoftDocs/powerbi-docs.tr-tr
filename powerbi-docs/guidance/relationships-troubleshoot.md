@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e2854d82d858bb1963b691d32d561c7b3bbfc11a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ccff80391ed0625aac063af3bf7a86b83cd7e85
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263657"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278135"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>İlişki sorunlarını giderme kılavuzu
 
@@ -44,18 +44,18 @@ Aşağıda sorunlar olası çözümleriyle birlikte listelenmiştir.
 
 |Sorun|Olası nedenler|
 |---------|---------|
-|Görsel hiç sonuç görüntülemiyor|- Model henüz verilerle doldurulmamış<br />- Filtre bağlamı içinde hiç veri yok<br />- Satır düzeyi güvenlik zorunlu tutulmuş<br />- İlişkiler tablolar arasında yayılmıyor; _yukarıdaki denetim listesini izleyin_<br />- Satır düzeyi güvenlik zorunlu tutulmuş ama yayma işlemi için çift yönlü ilişki etkinleştirilmemiş; bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../desktop-rls.md)|
+|Görsel hiç sonuç görüntülemiyor|- Model henüz verilerle doldurulmamış<br />- Filtre bağlamı içinde hiç veri yok<br />- Satır düzeyi güvenlik zorunlu tutulmuş<br />- İlişkiler tablolar arasında yayılmıyor; _yukarıdaki denetim listesini izleyin_<br />- Satır düzeyi güvenlik zorunlu tutulmuş ama yayma işlemi için çift yönlü ilişki etkinleştirilmemiş; bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../create-reports/desktop-rls.md)|
 |Görselde her gruplandırma için aynı değer görüntüleniyor |- İlişki yok<br />- İlişkiler tablolar arasında yayılmıyor; _yukarıdaki denetim listesini izleyin_|
 |Görselde sonuçlar gösteriliyor ama bunlar doğru değil|- Görsel yanlış yapılandırılmış<br />- Ölçü mantığı yanlış<br />- Model verilerinin yenilenmesi gerekiyor<br />- Kaynak veriler yanlış<br />- İlişki sütunları yanlış ilişkilendirilmiş (örneğin **ProductID** sütunu **CustomerID** ile eşlenmiş)<br />- Bu iki DirectQuery tablosu arasındaki bir ilişki ve ilişkinin "bir" tarafındaki sütun yinelenen değerler içeriyor|
-|BOŞ gruplandırmalar veya dilimleyici/filtre öğeleri görüntüleniyor ve kaynak sütunlar BOŞLUK içermiyor|- Bu güçlü bir ilişki ve "çok" tarafındaki sütun "bir" tarafındaki sütunda depolanmamış değerler içeriyor; bkz. [Power BI Desktop’ta model ilişkileri (Güçlü ilişkiler)](../desktop-relationships-understand.md#strong-relationships)<br />- Bu güçlü bir birebir ilişki ve ilişkili sütunlar BOŞLUKLAR içeriyor; bkz. [Power BI Desktop’ta model ilişkileri (Güçlü ilişkiler)](../desktop-relationships-understand.md#strong-relationships)<br />- Etkin olmayan bir ilişki ve "çok" tarafındaki sütun BOŞLUKLAR içeriyor veya "bir" tarafından depolanmamış değerleri var|
-|Görselde eksik veriler var|- Yanlış/beklenmeyen filtreler uygulanmış<br />- Satır düzeyi güvenlik zorunlu tutulmuş<br />- Bu zayıf bir ilişki ve ilişkili sütunlarda BOŞLUKLAR veya veri bütünlüğü sorunları var; bkz. [Power BI Desktop’ta model ilişkileri (Zayıf ilişkiler)](../desktop-relationships-understand.md#weak-relationships)<br />- Bu iki DirectQuery tablosu arasındaki bir ilişki, [bilgi tutarlılığı varsayımıyla](../desktop-relationships-understand.md#assume-referential-integrity) yapılandırılmış ama veri bütünlüğü sorunları var (ilişkili sütunlarda eşleşmeyen değerler)|
-|Satır düzeyi güvenlik doğru zorlanmıyor|- İlişkiler tablolar arasında yayılmıyor; _yukarıdaki denetim listesini izleyin_<br />- Satır düzeyi güvenlik zorunlu tutulmuş ama yayma işlemi için çift yönlü ilişki etkinleştirilmemiş; bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../desktop-rls.md)|
+|BOŞ gruplandırmalar veya dilimleyici/filtre öğeleri görüntüleniyor ve kaynak sütunlar BOŞLUK içermiyor|- Bu güçlü bir ilişki ve "çok" tarafındaki sütun "bir" tarafındaki sütunda depolanmamış değerler içeriyor; bkz. [Power BI Desktop’ta model ilişkileri (Güçlü ilişkiler)](../transform-model/desktop-relationships-understand.md#strong-relationships)<br />- Bu güçlü bir birebir ilişki ve ilişkili sütunlar BOŞLUKLAR içeriyor; bkz. [Power BI Desktop’ta model ilişkileri (Güçlü ilişkiler)](../transform-model/desktop-relationships-understand.md#strong-relationships)<br />- Etkin olmayan bir ilişki ve "çok" tarafındaki sütun BOŞLUKLAR içeriyor veya "bir" tarafından depolanmamış değerleri var|
+|Görselde eksik veriler var|- Yanlış/beklenmeyen filtreler uygulanmış<br />- Satır düzeyi güvenlik zorunlu tutulmuş<br />- Bu zayıf bir ilişki ve ilişkili sütunlarda BOŞLUKLAR veya veri bütünlüğü sorunları var; bkz. [Power BI Desktop’ta model ilişkileri (Zayıf ilişkiler)](../transform-model/desktop-relationships-understand.md#weak-relationships)<br />- Bu iki DirectQuery tablosu arasındaki bir ilişki, [bilgi tutarlılığı varsayımıyla](../transform-model/desktop-relationships-understand.md#assume-referential-integrity) yapılandırılmış ama veri bütünlüğü sorunları var (ilişkili sütunlarda eşleşmeyen değerler)|
+|Satır düzeyi güvenlik doğru zorlanmıyor|- İlişkiler tablolar arasında yayılmıyor; _yukarıdaki denetim listesini izleyin_<br />- Satır düzeyi güvenlik zorunlu tutulmuş ama yayma işlemi için çift yönlü ilişki etkinleştirilmemiş; bkz. [Power BI Desktop ile satır düzeyi güvenlik (RLS)](../create-reports/desktop-rls.md)|
 |||
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta model ilişkileri](../desktop-relationships-understand.md)
+- [Power BI Desktop’ta model ilişkileri](../transform-model/desktop-relationships-understand.md)
 - Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

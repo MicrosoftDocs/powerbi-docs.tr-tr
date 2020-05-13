@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377754"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277859"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Rapor sayfası araç ipuçlarıyla görselleri genişletme
 
-Bu makale Power BI raporları tasarlayan rapor yazarlarına yöneliktir. [Rapor sayfası araç ipuçları](../desktop-tooltips.md) oluşturma işlemiyle ilgili öneriler sağlar.
+Bu makale Power BI raporları tasarlayan rapor yazarlarına yöneliktir. [Rapor sayfası araç ipuçları](../create-reports/desktop-tooltips.md) oluşturma işlemiyle ilgili öneriler sağlar.
 
 ## <a name="suggestions"></a>Öneriler
 
@@ -29,7 +29,7 @@ Rapor sayfası araç ipuçları, rapor kullanıcılarınızın deneyimini geliş
 > [!NOTE]
 > Rapor görselinin bir sayfa araç ipucunu görüntüleyebilmesi için araç ipucu sayfa filtrelerinin görselin tasarımıyla uyumlu olması gerekir. Örneğin _ürüne_ göre gruplandıran bir görsel _ürüne_ göre filtreleyen araç ipucu sayfasıyla uyumludur.
 >
-> Sayfa araç ipuçları etkileşimli çalışmayı desteklemez. Rapor kullanıcılarınızın etkileşim kurmasını istiyorsanız bunun yerine [detaylandırma sayfası](../desktop-drillthrough.md) oluşturun.
+> Sayfa araç ipuçları etkileşimli çalışmayı desteklemez. Rapor kullanıcılarınızın etkileşim kurmasını istiyorsanız bunun yerine [detaylandırma sayfası](../create-reports/desktop-drillthrough.md) oluşturun.
 >
 > Power BI görselleri, sayfa araç ipuçlarını desteklemez.
 
@@ -65,7 +65,7 @@ Görsel üst bilgileri sayfa araç ipuçlarını görsel üst bilgilerinde ortay
 
 Burada ilginç olan düğmelerin, resimlerin, metin kutularının ve şekillerin de bir görsel üst bilgisi sayfa araç ipucunu ortaya çıkarabilmesidir.
 
-Aşağıdaki örnekte rapor kullanıcısı imlecini [görsel üst bilgisi simgesinin](../desktop-visual-elements-for-reports.md) üzerine getirdiğinde neler olduğu gösterilir.
+Aşağıdaki örnekte rapor kullanıcısı imlecini [görsel üst bilgisi simgesinin](../create-reports/desktop-visual-elements-for-reports.md) üzerine getirdiğinde neler olduğu gösterilir.
 
 ![Rapor kullanıcısı imlecini görsel üst bilgisi simgesinin (soru işareti simgesi) üzerine getirmiştir. Zengin biçimlendirilmiş bir araç ipucu gösterilir.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ Rapor tasarımı sırasında aşağıdaki uygulamaları öneririz:
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma](../desktop-tooltips.md)
-- [Power BI Desktop'taki araç ipuçlarını özelleştirme](../desktop-custom-tooltips.md)
-- [Görsel öğeler kullanarak Power BI raporlarını geliştirme](../desktop-visual-elements-for-reports.md)
+- [Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma](../create-reports/desktop-tooltips.md)
+- [Power BI Desktop'taki araç ipuçlarını özelleştirme](../create-reports/desktop-custom-tooltips.md)
+- [Görsel öğeler kullanarak Power BI raporlarını geliştirme](../create-reports/desktop-visual-elements-for-reports.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290596"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278687"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query sorgularına başvurma
 
@@ -42,7 +42,7 @@ Veri modeli yenilendiğinde genellikle Power Query'nin **Query1** sonucunu aldı
 
 Genel olarak sorgulara başvururken sorgular arasında mantığın yinelenmesinden kaçınmanızı öneririz. Bununla birlikte, bu makalede açıklandığı gibi bu tasarım yaklaşımı veri yenilemelerinin yavaşlamasına katkıda bulunabilir ve veri kaynaklarına fazla yük getirebilir.
 
-Bunun yerine [veri akışı](../service-dataflows-overview.md) oluşturmanızı öneririz. Veri akışının kullanılması veri yenileme süresini geliştirebilir ve veri kaynaklarınız üzerindeki etkiyi azaltabilir.
+Bunun yerine [veri akışı](../transform-model/service-dataflows-overview.md) oluşturmanızı öneririz. Veri akışının kullanılması veri yenileme süresini geliştirebilir ve veri kaynaklarınız üzerindeki etkiyi azaltabilir.
 
 Veri akışını, kaynak verileri ve dönüştürmeleri kapsülleyecek şekilde tasarlayabilirsiniz. Veri akışı Power BI hizmetinde kalıcı bir veri deposu olduğundan, veri alma işlemi hızlı olur. Dolayısıyla sorgulara başvurular veri akışı için birden çok istekle sonuçlansa bile veri yenileme süreleri gelişebilir.
 
@@ -52,7 +52,7 @@ Veri akışını, kaynak verileri ve dönüştürmeleri kapsülleyecek şekilde 
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-- [Power BI’da self servis veri hazırlığı](../service-dataflows-overview.md)
-- [Power BI'da veri akışlarını oluşturma ve kullanma](../service-dataflows-create-use.md)
+- [Power BI’da self servis veri hazırlığı](../transform-model/service-dataflows-overview.md)
+- [Power BI'da veri akışlarını oluşturma ve kullanma](../transform-model/service-dataflows-create-use.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

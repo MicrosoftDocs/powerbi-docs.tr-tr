@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114340"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277629"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 
@@ -99,14 +99,14 @@ Raporlar panodan açılabilir. Çoğu pano [kutucuğu](end-user-tiles.md), rapor
     ![Okuma görünümü’nde açık rapor](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> Tüm kutucuklar rapor açmaz. [Soru-Cevap ile oluşturulan](end-user-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk** ekle pencere öğesi kullanılarak oluşturulan](../service-dashboard-add-widget.md) bir kutucuğu seçerseniz farklı işlemler (video oynatılması, web sitesi açılması gibi) gerçekleşebilir.  
+> Tüm kutucuklar rapor açmaz. [Soru-Cevap ile oluşturulan](end-user-q-and-a.md) bir kutucuğu seçerseniz Soru-Cevap ekranı açılır. [Panodaki **Kutucuk** ekle pencere öğesi kullanılarak oluşturulan](../create-reports/service-dashboard-add-widget.md) bir kutucuğu seçerseniz farklı işlemler (video oynatılması, web sitesi açılması gibi) gerçekleşebilir.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Raporları açmak için kullanabileceğiniz yöntemler bunlarla sınırlı değildir
 Power BI hizmetinde gezinme konusunda daha yetkin hale geldikçe sizin için en uygun iş akışlarını keşfedeceksiniz. Raporlara erişmek için kullanabileceğiniz diğer yöntemlerden bazıları aşağıda verilmiştir:
 - Gezinti bölmesinde bulunan [Sık Kullanılanlar](end-user-favorite.md) ve [Son Görüntülenen](end-user-recent.md) seçeneklerinden    
 - [İlişkilileri görüntüle](end-user-related.md) seçeneğini kullanma    
-- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../service-share-reports.md) veya [uyarı ayarladığınızda](end-user-alerts.md) aldığınız e-postadan    
+- Bir kullanıcı [sizinle paylaşımda bulunduğunda](../collaborate-share/service-share-reports.md) veya [uyarı ayarladığınızda](end-user-alerts.md) aldığınız e-postadan    
 - [Bildirim merkezinizi](end-user-notification-center.md) kullanma    
 - Bir çalışma alanından
 - ve daha fazlası

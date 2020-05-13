@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859194"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277997"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda satır düzeyi güvenlik (RLS)
 
@@ -33,7 +33,7 @@ Varsayılan olarak, ilişkilerin tek yönlü veya çift yönlü olarak ayarlanm�
 
 Kullanıcı adı veya oturum açma kimliğine dayalı [dinamik satır düzeyi güvenlik](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) uyguladığınızda bu kutuyu işaretleyin. 
 
-Daha fazla bilgi edinmek için [Power BI Desktop'ta DirectQuery'yi kullanarak çift yönlü çapraz filtreleme](../desktop-bidirectional-filtering.md) makalesine ve [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) başlıklı teknik incelemeye bakın.
+Daha fazla bilgi edinmek için [Power BI Desktop'ta DirectQuery'yi kullanarak çift yönlü çapraz filtreleme](../transform-model/desktop-bidirectional-filtering.md) makalesine ve [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) başlıklı teknik incelemeye bakın.
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ Burada, Power BI modellerindeki satır düzeyi güvenlikle ilgili geçerli sın�
 
 username() DAX işlevinin kullanıldığı raporları olan kullanıcılar, tümleşik güvenlikle DirectQuery'nin kullanıldığı durumlar DIŞINDA Kullanıcı Asıl Adının (UPN) döndürülmesine neden olan yeni davranışı fark edeceklerdir.  Bu senaryoda RLS'ye uyulmadığından, senaryodaki davranış da değişmez.
 
-RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümelerinde etkinleştirmek için, önce dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Excel dosyalarını dönüştürme](../desktop-import-excel-workbooks.md) hakkında daha fazla bilgi edinin.
+RLS özelliğini yalnızca Power BI Desktop ile oluşturulan veri kümelerinde tanımlayabilirsiniz. RLS özelliğini Excel ile oluşturulmuş olan veri kümelerinde etkinleştirmek için, önce dosyalarınızı Power BI Desktop (PBIX) biçimine dönüştürmeniz gerekir. [Excel dosyalarını dönüştürme](../connect-data/desktop-import-excel-workbooks.md) hakkında daha fazla bilgi edinin.
 
 Yalnızca depolanmış kimlik bilgilerinin kullanıldığı Ayıklama, Dönüştürme, Yükleme (ETL) ve DirectQuery bağlantıları desteklenir. Analysis Services'e yönelik canlı bağlantılar ve tümleşik kimlik doğrulamasının kullanıldığı DirectQuery bağlantıları temel veri kaynağında işlenir. 
 
@@ -122,3 +122,4 @@ Evet. Power BI Rapor Sunucusu'nda zaten mevcut rolleriniz tanımlanmış ve üye
 [Yönetici el kitabı](admin-handbook-overview.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+

@@ -2,22 +2,25 @@
 title: Haritalar için ipuçları (Bing Haritalar tümleştirmesi dahil)
 description: 'Power BI Harita görselleştirmeleri, görseller, konumlar, boylam, eylem ve bunların Bing Haritalar ile nasıl birlikte çalıştığına ilişkin İpuçları ve Püf Noktaları. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525925"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277836"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI, haritalar oluşturabilmenizi sağlamak üzere varsayılan harita koordinatları sunmak (coğrafi kodlama adı verilen bir işlem) için Bing Haritalar ile tümleştirilir. Birlikte çalışarak, doğru konumu belirlemek için algoritmalar kullanırlar ancak bazen yalnızca en iyi tahmin sunulabilir. Power BI harita görselleştirmeleri oluşturmayı dener ancak tek başına başarılı olmazsa, Bing Haritalar'dan yararlanır. 
 
 Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama için kullandığı URL'lere erişim izni verilecek şekilde güncelleştirmesi gerekebilir.  Bu URL'ler şunlardır:
@@ -47,7 +50,7 @@ Harita görselleştirmesinin oluşturulması için kullanılan veri kümesine er
 
 **1. Power BI Desktop'taki coğrafi alanları kategorilere ayırma**
 
-Power BI Desktop'ı kullanırken, veri alanlarında *Veri Kategorisi*'ni belirleyerek alanların coğrafi olarak doğru bir şekilde kodlanmasını sağlayabilirsiniz. Veri görünümünde istediğiniz sütunu seçin. Şeritte **Modelleme** sekmesini seçin ve **Veri Kategorisi**'ni **Adres**, **Şehir**, **Kıta**, **Ülke/Bölge**, **İlçe**, **Posta Kodu**, **Eyalet** veya **İl** olarak ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](../desktop-data-categorization.md). SQL Server Analysis Services'e canlı olarak bağlanıyorsanız verileri kategorilere ayırma işlemini [SQL Server Veri Araçları'nı (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) kullanarak Power BI'ın dışında gerçekleştirmeniz gerekir.
+Power BI Desktop'ı kullanırken, veri alanlarında *Veri Kategorisi*'ni belirleyerek alanların coğrafi olarak doğru bir şekilde kodlanmasını sağlayabilirsiniz. Veri görünümünde istediğiniz sütunu seçin. Şeritte **Modelleme** sekmesini seçin ve **Veri Kategorisi**'ni **Adres**, **Şehir**, **Kıta**, **Ülke/Bölge**, **İlçe**, **Posta Kodu**, **Eyalet** veya **İl** olarak ayarlayın. Bu veri kategorileri, Bing'in verileri doğru bir şekilde kodlamasına yardımcı olur. Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta verileri kategorilere ayırma](../transform-model/desktop-data-categorization.md). SQL Server Analysis Services'e canlı olarak bağlanıyorsanız verileri kategorilere ayırma işlemini [SQL Server Veri Araçları'nı (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) kullanarak Power BI'ın dışında gerçekleştirmeniz gerekir.
 
 **2. Birden fazla konum sütunu kullanın.**     
  Bazen, harita oluşturma için veri kategorilerinin belirlenmesi Bing'in amacınızı doğru bir şekilde tahmin etmesi için yeterli olmaz. Konum birden çok ülkede veya bölgede mevcut olduğundan bazı gösterimler anlaşılır değildir. Örneğin, ***Southampton***, İngiltere'nin yanı sıra Pennsylvania ve New York'ta da bulunur.
@@ -94,4 +97,5 @@ Coğrafi hiyerarşilerle ayrıntılandırma yaparken, her bir ayrıntılandırma
 [Power BI görselleştirmeleri](power-bi-report-visualizations.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+
 

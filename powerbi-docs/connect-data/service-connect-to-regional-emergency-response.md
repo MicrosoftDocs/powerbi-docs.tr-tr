@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149682"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279239"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Bölgesel Acil Durum Müdahale Panosu’na bağlanma
 Bölgesel Acil Durum Müdahale Panosu, [Microsoft Power Platform Bölgesel Acil Durum Müdahale Panosu çözümünün](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview) raporlama bileşenidir. Bölgesel kuruluş yöneticileri, etkili kararlar almalarına yardımcı olan önemli verileri ve ölçümleri hızla görüntülemelerini sağlayan Power BI kiracılarındaki panoyu görüntüleyebilir.
@@ -82,21 +82,21 @@ Bölgesel Acil Durum Müdahale çözümünü yüklerken [Common Data Service ort
 
 ## <a name="schedule-report-refresh"></a>Rapor yenilemeyi zamanlama
 
-Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlaması belirleyin](../refresh-scheduled-refresh.md).
+Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlaması belirleyin](../connect-data/refresh-scheduled-refresh.md).
 
 1. Üst başlık çubuğunda **Power BI**’ı seçin.
 
    ![Power BI içerik haritası](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. Sol gezinti bölmesinde, **Çalışma Alanları** bölümünde Bölgesel Acil Durum Müdahale Panosu çalışma alanını bulup [Zamanlanan yenileme yapılandırma](../refresh-scheduled-refresh.md) makalesinde açıklanan yönergeleri izleyin.
+1. Sol gezinti bölmesinde, **Çalışma Alanları** bölümünde Bölgesel Acil Durum Müdahale Panosu çalışma alanını bulup [Zamanlanan yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md) makalesinde açıklanan yönergeleri izleyin.
 
 ## <a name="customize-and-share"></a>Özelleştirin ve paylaşın
 
-Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) gözden geçirdiğinizden emin olun.
+Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) gözden geçirdiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Bölgesel Acil Durum Müdahale Panosu’nu anlama](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-* [Power BI şablon uygulamaları nedir?](../service-template-apps-overview.md)
-* [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../service-template-apps-install-distribute.md)
+* [Power BI şablon uygulamaları nedir?](../connect-data/service-template-apps-overview.md)
+* [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../connect-data/service-template-apps-install-distribute.md)
