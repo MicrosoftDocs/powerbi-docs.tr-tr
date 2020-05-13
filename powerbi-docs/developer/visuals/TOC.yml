@@ -12,6 +12,10 @@
       items:
         - name: Power BI görseli geliştirme
           href: custom-visual-develop-tutorial.md
+        - name: React Tabanlı Görseller Oluşturma
+          href: create-react-visual.md
+        - name: Çubuk grafik oluşturma
+          href: create-bar-chart.md
         - name: Biçimlendirme seçenekleri ekleme
           href: custom-visual-develop-tutorial-format-options.md
         - name: Görsel projesi için birim testleri ekleme
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: Gelişmiş Düzenleme Modu
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus özelliği
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: Nasıl yapılır
       items:
         - name: Power BI görseli için sertifika alın
           href: power-bi-custom-visuals-certified.md
         - name: AppSource'ta Power BI görsellerini yayımlama
           href: office-store.md
+        - name: Power BI görselinizi test etme
+          href: submission-testing.md
         - name: Power BI’da R destekli Power BI görsellerini kullanma
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: Görsel etkileşimler
           href: visuals-interactions.md
         - name: Seçimleri ekleme
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: Detaya gitme desteği ekleme
           href: drill-down-support.md
+        - name: Görselinize renkler ekleme
+          href: add-colors-power-bi-visual.md
         - name: Görsellerde verileri vurgulama
           href: highlight.md
         - name: Yüksek Karşıtlıklı mod desteği ekleme
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: Başvuru
       items:
+        - name: Değişiklik günlüğü
+          href: changelog.md
         - name: Giriş sayfası
           href: landing-page.md
         - name: URL’yi başlatma
           href: launch-url.md
+        - name: Görsel API
+          href: visual-api.md
         - name: Yerel Depolama API’si
           href: local-storage.md
         - name: Olayları işleme
@@ -119,8 +135,8 @@
         - name: Geliştirme Merkezi
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Örnek Power BI görselleri
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI görselleri Git Deposu
+          href: samples.md
+        - name: Özel Görseller Git Deposu
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: SSL sertifikası oluşturma
           href: create-ssl-certificate.md
