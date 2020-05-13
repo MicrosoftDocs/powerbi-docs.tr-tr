@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487758"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349621"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. Power BI veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
@@ -42,9 +42,9 @@ Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip
 Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin sizin durumunuza en uygun araç olduğuna bağlı olabilir. Örneğin, bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim sürecini izlerken diğer yandan kendi ekibiniz için müşteri ilişkilerine yönelik istatistiklerle ilgili raporlar oluşturmak üzere Power BI Desktop'ı kullanabilirsiniz. Power BI'ın her bölümü kullanılabilir, onu bu kadar esnek ve cazip yapan da budur.
 
 Rolünüzle ilgili belgeleri keşfetme:
-- [*Tasarımcılar*](../desktop-what-is-desktop.md) için Power BI Desktop
+- [*Tasarımcılar*](desktop-what-is-desktop.md) için Power BI Desktop
 - [*Tüketiciler*](../consumer/end-user-consumer.md) için Power BI
-- [*Yöneticileri*](../service-admin-administering-power-bi-in-your-organization.md) için Power BI
+- [*Yöneticileri*](../admin/service-admin-administering-power-bi-in-your-organization.md) için Power BI
 - *Geliştiriciler* için Power BI
     * [Power BI ile tümleşik analiz](../developer/embedded/embedding.md)
     * [Azure'da Power BI Embedded nedir?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 - [Hızlı başlangıç: Power BI hizmetini öğrenme](../service-the-new-power-bi-experience.md)   
-- [Öğretici: Power BI hizmeti ile çalışmaya başlama](../service-get-started.md)
-- [Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma](../desktop-quickstart-connect-to-data.md)
+- [Öğretici: Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
+- [Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma](../connect-data/desktop-quickstart-connect-to-data.md)

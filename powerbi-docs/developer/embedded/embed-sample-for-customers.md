@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403821"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349851"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -31,7 +31,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 Başlamak için şunlara sahip olmalısınız:
 
-* [Power BI Pro hesabı](../../service-self-service-signup-for-power-bi.md) (Power BI Pro hesabınızda oturum açmak için bir kullanıcı adıyla paroladan oluşan ana hesap) veya [hizmet sorumlusu (yalnızca uygulama belirteci)](embed-service-principal.md).
+* [Power BI Pro hesabı](../../fundamentals/service-self-service-signup-for-power-bi.md) (Power BI Pro hesabınızda oturum açmak için bir kullanıcı adıyla paroladan oluşan ana hesap) veya [hizmet sorumlusu (yalnızca uygulama belirteci)](embed-service-principal.md).
 * [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
 
 **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
@@ -58,7 +58,7 @@ Ana hesap kullanarak devam ediyorsanız, **Yerel** uygulama kaydetme işlemini k
 
 ### <a name="create-a-workspace"></a>Çalışma alanı oluşturma
 
-Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../service-create-workspaces.md) veya [yeni çalışma alanları](../../service-create-the-new-workspaces.md). *Ana* hesap kullanıyorsanız, hangi tür çalışma alanı kullandığınız önemli değildir. Ama uygulamanızda oturum açarken *[hizmet sorumlusu](embed-service-principal.md)* kullanıyorsanız, yeni çalışma alanlarını kullanmanız gerekir. Her iki senaryoda da, hem *ana* hesap hem de *hizmet sorumlusu* uygulamaya katılan çalışma alanlarında yönetici olmalıdır.
+Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../collaborate-share/service-create-workspaces.md) veya [yeni çalışma alanları](../../collaborate-share/service-create-the-new-workspaces.md). *Ana* hesap kullanıyorsanız, hangi tür çalışma alanı kullandığınız önemli değildir. Ama uygulamanızda oturum açarken *[hizmet sorumlusu](embed-service-principal.md)* kullanıyorsanız, yeni çalışma alanlarını kullanmanız gerekir. Her iki senaryoda da, hem *ana* hesap hem de *hizmet sorumlusu* uygulamaya katılan çalışma alanlarında yönetici olmalıdır.
 
 ### <a name="create-and-publish-your-reports"></a>Raporlarınızı oluşturma ve yayımlama
 
@@ -409,7 +409,7 @@ Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanm�
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
 Adanmış kapasite oluşturduğunuzda, müşteriniz için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. İki tür kapasiteden birini seçebilirsiniz:
-* **Power BI Premium** - *EM* ve *P* şeklinde iki SKU ailesinde kullanılabilen kiracı düzeyindeki bir Office 356 aboneliği. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../service-premium-what-is.md)
+* **Power BI Premium** - *EM* ve *P* şeklinde iki SKU ailesinde kullanılabilen kiracı düzeyindeki bir Office 356 aboneliği. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) ayrılmış kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 > [!NOTE]
 > A SKU’larla, ÜCRETSİZ Power BI lisansını kullanarak Power BI içeriğine erişemezsiniz.

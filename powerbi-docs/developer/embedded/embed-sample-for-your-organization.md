@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621642"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349805"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -31,7 +31,7 @@ Bu öğreticide, aşağıdaki görevleri öğreneceksiniz:
 
 Başlamak için şunlara sahip olmalısınız:
 
-* [Power BI Pro hesabı](../../service-self-service-signup-for-power-bi.md).
+* [Power BI Pro hesabı](../../fundamentals/service-self-service-signup-for-power-bi.md).
 * [Microsoft Azure](https://azure.microsoft.com/) aboneliği.
 * [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
 * Sayfalandırılmış raporları eklemek için en az P1 kapasitesine ihtiyacınız vardır. Bkz. [Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ Azure'da oluşturduğunuz uygulamanızı açın, *Kimlik Doğrulaması* bölüm�
 
 ### <a name="create-a-workspace"></a>Çalışma alanı oluşturma
 
-Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../service-create-workspaces.md) veya [yeni çalışma alanları](../../service-create-the-new-workspaces.md).
+Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../collaborate-share/service-create-workspaces.md) veya [yeni çalışma alanları](../../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI raporlarınızı oluşturma ve yayımlama
 
@@ -381,9 +381,9 @@ Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanm�
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Adanmış kapasite oluşturduğunuzda, çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
 
-Aşağıdaki tabloda, [Microsoft Office 365](../../service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
+Aşağıdaki tabloda, [Microsoft Office 365](../../admin/service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 
 | Kapasite düğümü | Toplam sanal çekirdek<br/>(arka uç + ön uç) | Arka uç sanal çekirdekleri | Ön uç sanal çekirdekleri | DirectQuery/canlı bağlantı sınırları |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış ka
 
 ## <a name="admin-settings"></a>Yönetici ayarları
 
-Genel yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST API’lerini kullanma seçeneğini etkinleştirebilir veya devre dışı bırakabilir. Power BI yöneticileri, kuruluşun tamamı veya yalnızca belirli güvenlik grupları için bu ayarı yapabilir. Varsayılan olarak kuruluşun tamamı için etkindir. [Power BI yönetici portalında](../../service-admin-portal.md) bu değişiklikleri yapabilirsiniz.
+Genel yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST API’lerini kullanma seçeneğini etkinleştirebilir veya devre dışı bırakabilir. Power BI yöneticileri, kuruluşun tamamı veya yalnızca belirli güvenlik grupları için bu ayarı yapabilir. Varsayılan olarak kuruluşun tamamı için etkindir. [Power BI yönetici portalında](../../admin/service-admin-portal.md) bu değişiklikleri yapabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
