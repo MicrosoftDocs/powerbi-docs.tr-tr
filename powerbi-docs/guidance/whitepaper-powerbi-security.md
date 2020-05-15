@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279101"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407528"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -263,7 +263,7 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
     &ensp;&ensp;a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
 
-    &ensp;&ensp;b. Power BI raporları söz konusu olduğunda, gösterilen görsellerin verileri Azure SQL Veritabanında şifrelenmiş olarak önbelleğe alınır.
+    &ensp;&ensp;b. Power BI raporlarında, gösterilen raporların görsellerinin verileri aşağıdaki bölümde açıklanan görsel veri önbelleğinde önbelleğe alınır ve depolanır.
  
 
 4. Özgün Power BI Desktop (.pbix) veya Excel (.xlsx) dosyaları Power BI’da yayımlanır
@@ -272,11 +272,20 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Panolar ve Pano Kutucukları
 
-1. Önbellek: Panodaki görsellere gereken veriler genellikle Azure SQL Veritabanında önbelleğe alınır ve şifrelenmiş olarak depolanır. Excel veya SQL Server Reporting Services’in (SSRS) sabitlenmiş görselleri gibi diğer kutucuklar Azure Blob’da resim olarak depolanır ve onlar da şifrelenir.
+1. Önbellekler: panodaki görsellerin gerek duyduğu veriler genellikle önbelleğe alınır ve aşağıdaki bölümde açıklanan görsel veri önbelleğinde depolanır. Excel veya SQL Server Reporting Services’in (SSRS) sabitlenmiş görselleri gibi diğer kutucuklar Azure Blob’da resim olarak depolanır ve onlar da şifrelenir.
 
 2. Statik veriler: arka plan görüntüleri ve Azure Blob depolama alanında depolanan, şifrelenen Power BI görseller gibi yapıtlar içerir.
 
-Microsoft, kullanılan şifreleme yöntemi ne olursa olsun anahtar şifrelemeyi müşteriler adına bir gizli dizi deposunda veya Azure Key Vault’ta yönetir.
+Microsoft, kullanılan şifreleme yönteminden bağımsız olarak, müşterilerin adına anahtar şifrelemesini yönetir.
+
+#### <a name="visual-data-cache"></a>Görsel veri önbelleği
+
+Görsel veriler, veri kümesinin Power BI Premium kapasitede barındırılmasına bağlı olarak farklı konumlarda önbelleğe alınır. Bir kapasitede barındırılmayan veri kümelerinde görsel veriler önbelleğe alınır ve bir Azure SQL veritabanında şifrelenir. Bir kapasitede barındırılan veri kümelerinde, görsel veriler aşağıdaki konumlardan herhangi birinde önbelleğe alınabilir:
+
+* Azure Blob Depolama
+* Azure Premium dosyaları
+* Power BI Premium kapasitesi düğümü
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>Geçici Olmayan Cihazlarda Geçici Olarak Depolanan Veriler
 
