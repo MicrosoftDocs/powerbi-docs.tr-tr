@@ -25,7 +25,7 @@ Bu makalede Power BI görsellerinin API v2.5.0 ile özelliklerini **Analiz** bö
 
 ## <a name="manage-the-analytics-pane"></a>Analiz bölmesini yönetme
 
-Aynı [**Biçim** bölmesindeki özellikleri yönettiğiniz gibi](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), görselin **capabilities.json** dosyasında bir nesne tanımlayarak *Analiz* bölmesini de yönetebilirsiniz.
+Aynı [**Biçim** bölmesindeki özellikleri yönettiğiniz gibi](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), görselin *capabilities.json* dosyasında bir nesne tanımlayarak **Analiz** bölmesini de yönetebilirsiniz.
 
 **Analiz** bölmesinin farklılıkları şunlardır:
 

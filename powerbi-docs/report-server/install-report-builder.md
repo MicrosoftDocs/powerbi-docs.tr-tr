@@ -25,7 +25,7 @@ Genellikle bir yönetici, Power BI Rapor Sunucusu'nu yükleyip yapılandırır, 
   
 ## <a name="system-requirements"></a>Sistem Gereksinimleri
   
- Microsoft İndirme Merkezi'ndeki **Report Builder indirme sayfasının** [Sistem gereksinimleri](https://go.microsoft.com/fwlink/?LinkID=734968) bölümünü inceleyin.
+ Microsoft İndirme Merkezi'ndeki [Report Builder indirme sayfasının](https://go.microsoft.com/fwlink/?LinkID=734968)**Sistem gereksinimleri** bölümünü inceleyin.
  
 ## <a name="install-report-builder-from-a-web-portal"></a>Report Builder'ı web portalından yükleme
   

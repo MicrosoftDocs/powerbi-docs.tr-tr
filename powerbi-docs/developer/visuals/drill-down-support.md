@@ -150,7 +150,7 @@ export class Visual implements IVisual {
 }
 ```
 
-`update` öğelerini oluşturmak için görselin `button` yöntemini güncelleştirin:
+`button` öğelerini oluşturmak için görselin `update` yöntemini güncelleştirin:
 
 ```typescript
 export class Visual implements IVisual {

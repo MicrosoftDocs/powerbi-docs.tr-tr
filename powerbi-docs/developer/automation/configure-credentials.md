@@ -135,7 +135,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 ## <a name="credential-types"></a>Kimlik bilgisi türleri
 
-[Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) kullanarak [kurumsal şirket içi ağ geçidinin](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) altında **Create Datasource** veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
+[Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak **kurumsal şirket içi ağ geçidinin** altında [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
 
 >[!NOTE]
 >.NET SDK v3, aşağıda listelenen .NET SDK v2 örneklerini de çalıştırır.

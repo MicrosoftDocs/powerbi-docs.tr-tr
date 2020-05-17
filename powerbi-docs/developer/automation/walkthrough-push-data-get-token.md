@@ -23,7 +23,7 @@ Birinci adımda [Azure AD'de bir istemci uygulamasını kaydettiniz](../embedded
 
 ## <a name="get-an-authentication-access-token"></a>Kimlik doğrulaması erişim belirteci alma
 
-Başlamadan önce, [Power BI veri kümelerine veri gönderme](../embedded/register-app.md) serisinin [önceki adımını](walkthrough-push-data.md) tamamladığınızdan emin olun. 
+Başlamadan önce, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin [önceki adımını](../embedded/register-app.md) tamamladığınızdan emin olun. 
 
 Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
@@ -39,7 +39,7 @@ Bu yordam için Visual Studio 2015 veya üzeri gerekir.
 
 3. Bu adımlardan sonra listelenen örnek kodu Program.cs'ye ekleyin.
 
-4. "{ClientID}" terimini **serinin önceki makalesinde** uygulamanızı kaydederken aldığınız [İstemci Kimliği](../embedded/register-app.md)'yle değiştirin.
+4. "{ClientID}" terimini [serinin önceki makalesinde](../embedded/register-app.md) uygulamanızı kaydederken aldığınız **İstemci Kimliği**'yle değiştirin.
 
 5. Konsol uygulamanızı çalıştırın ve Power BI hesabınızda oturum açın. 
 

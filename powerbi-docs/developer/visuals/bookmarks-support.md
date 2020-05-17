@@ -29,7 +29,7 @@ Görseliniz diğer görsellerle etkileşimde bulunuyorsa, veri noktalarını se�
 
 1. Gereken [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) yardımcı programının 3.0.0 veya sonraki bir sürümünü yükleyin veya programı bu sürüme güncelleştirin. Durum seçimi veya filtresiyle işlemek üzere ek sınıflar içerir. Filtre görselleri ve `InteractivityService` kullanan tüm görseller için gereklidir.
 
-2. Bir `registerOnSelectCallback` örneğinde `SelectionManager` kullanmak için görsel API’sini sürüm 1.11.0’a yükseltin. `SelectionManager` yerine düz `InteractivityService` kullanan, filtre olmayan görseller için gereklidir.
+2. Bir `SelectionManager` örneğinde `registerOnSelectCallback` kullanmak için görsel API’sini sürüm 1.11.0’a yükseltin. `InteractivityService` yerine düz `SelectionManager` kullanan, filtre olmayan görseller için gereklidir.
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Power BI görsellerinin rapor yer işaretlerinde Power BI ile etkileşimde bulunma şekli
 
@@ -51,7 +51,7 @@ Görseliniz [Seçim](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tu
 
 * Görsel henüz [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)’i kullanmadıysa `FilterManager.restoreSelectionIds` yöntemini kullanabilirsiniz.
 
-* Görsel seçimleri yönetmek için zaten [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)’i kullanıyorsa, `applySelectionFromFilter` örneğinde `InteractivityService` yöntemini kullanmalısınız.
+* Görsel seçimleri yönetmek için zaten [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)’i kullanıyorsa, `InteractivityService` örneğinde `applySelectionFromFilter` yöntemini kullanmalısınız.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback kullanma
 
@@ -187,7 +187,7 @@ Daha fazla bilgi için bkz. [Zaman Çizelgesi Dilimleyici deposu](https://github
 
 `filterState` özelliği, filtreleme bölümünün bir özelliğini yapar. Görsel, yer işaretlerinde çeşitli değerleri depolayabilir.
 
-Özellik değerini filtre durumu olarak kaydetmek için `"filterState": true`capabilities.json*dosyasında nesne özelliğini* olarak işaretleyin.
+Özellik değerini filtre durumu olarak kaydetmek için *capabilities.json* dosyasında nesne özelliğini `"filterState": true` olarak işaretleyin.
 
 Örneğin Zaman Çizelgesi Dilimleyici `Granularity` özellik değerlerini bir filtrede depolar. Siz yer işaretlerini değiştirdikçe geçerli ayrıntı düzeyinin değişmesini sağlar.
 

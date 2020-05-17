@@ -159,7 +159,7 @@ Görselde de aşağıdaki veri görünümü eşlemesi kullanılır:
 
 Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gerekir.
 
-Örneğin kullanıcı `Chrysler` olarak `Manufacturer` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
+Örneğin kullanıcı `Manufacturer` olarak `Chrysler` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
 
 | Üretici | Tür | Value |
 | - | - | - |
@@ -168,7 +168,7 @@ Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gereki
 | **Chrysler** | İthal Araba | 0 |
 | **Chrysler** | İthal Kamyon | 6362 |
 
-Kullanıcı `Import Car` olarak `Type` seçtiğinde (seriye göre verileri seçtiğinde) diğer görseller aşağıdaki verileri göstermelidir:
+Kullanıcı `Type` olarak `Import Car` seçtiğinde (seriye göre verileri seçtiğinde) diğer görseller aşağıdaki verileri göstermelidir:
 
 | Üretici | Tür | Value |
 | - | - | - |
@@ -185,7 +185,7 @@ Görsel veri sepetleri doldurulmalıdır.
 
 ![Seçimler içeren görselin veri sepetleri](media/selection-api/visual-selections-databuckets.png)
 
-Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Value` olarak `Values` vardır.
+Kategori (sütunlar) olarak `Manufacturer`, seri (satırlar) olarak `Type` as series (rows) ve seriler için `Values` olarak `Value` vardır.
 
 > [!NOTE]
 > Seriler için `Values` gereklidir çünkü veri görünümü eşlemesine göre görsel `Values` öğelerinin `Rows` verilerine göre gruplandırılmasını bekler.
@@ -229,7 +229,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 }
 ```
 
-Örnek kodda tüm kategorileri yinelediğimizi görebilirsiniz. Her yinelemede, seçim oluşturucusunun `createSelectionIdBuilder` yöntemini çağırarak her kategoriye bir sonraki seçimi oluşturmak için `withCategory` çağrısı yaparız. `createSelectionId` yöntemi, oluşturulan `selection` nesnesini döndürmek için son yöntem olarak kullanılır.
+Örnek kodda tüm kategorileri yinelediğimizi görebilirsiniz. Her yinelemede, seçim oluşturucusunun `withCategory` yöntemini çağırarak her kategoriye bir sonraki seçimi oluşturmak için `createSelectionIdBuilder` çağrısı yaparız. `createSelectionId` yöntemi, oluşturulan `selection` nesnesini döndürmek için son yöntem olarak kullanılır.
 
 `withCategory` yönteminde `category` sütununu geçiririz; örnekte bu `Manufacturer` öğesi ve kategori öğesinin dizinidir.
 

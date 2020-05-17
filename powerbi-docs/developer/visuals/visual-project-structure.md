@@ -102,7 +102,7 @@ Meta veri girdilerinin anlatıldığı açıklamalarla örnek bir `pbiviz.json` 
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) için yapılandırma dosyası.
 
-Bu dosya, **dosyasındaki \* özelliğinde belirtildiği gibi görselin ana sınıfının yer aldığı**`visualClassName`.ts`pbiviz.json` dosyasının yolunu içermelidir.
+Bu dosya, `pbiviz.json` dosyasındaki `visualClassName` özelliğinde belirtildiği gibi görselin ana sınıfının yer aldığı **\*.ts** dosyasının yolunu içermelidir.
 
 ### <a name="tslintjson"></a>tslint.json
 

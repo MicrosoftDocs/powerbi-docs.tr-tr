@@ -73,7 +73,7 @@ DAX'taki **Bilgi** işlevleri şunları içerir:
 
 Bu işlevlerden belirli durumlarda faydalanabileceğiniz gibi, veri türünü sağlamaları için bu işlevlere bağlı kalmak yerine sütunlarınızın veri türlerini önceden bilmekte de yarar vardır.
 
-DAX'ta hem değerleri **toplamak** hem de **karşılaştırmak** için *MAX* ve *MIN* işlevleri kullanılır.
+DAX'ta hem değerleri *toplamak* hem de *karşılaştırmak* için **MAX** ve **MIN** işlevleri kullanılır.
 
 ## <a name="text-functions"></a>Metin işlevleri
 DAX'taki **metin** işlevleri şunları içerir:

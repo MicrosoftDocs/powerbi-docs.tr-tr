@@ -54,7 +54,7 @@ Power BI görsellerinde eylemler ve izleyen güncelleştirmeler şu düzenlerden
 
 * Kullanıcı görseli yeniden boyutlandırır.
 
-    Kullanıcı bir görselin boyutunu değiştirdiğinde Power BI yeni `update` nesnesiyle `options` yöntemini çağırır. `options` nesnelerinde görselin yeni genişliğini ve yüksekliğini içeren iç içe `viewport` nesneleri bulunur.
+    Kullanıcı bir görselin boyutunu değiştirdiğinde Power BI yeni `options` nesnesiyle `update` yöntemini çağırır. `options` nesnelerinde görselin yeni genişliğini ve yüksekliğini içeren iç içe `viewport` nesneleri bulunur.
 
 * Kullanıcı rapor, sayfa veya görsel düzeyinde bir filtre uygular.
 
@@ -76,7 +76,7 @@ Power BI görsellerinde eylemler ve izleyen güncelleştirmeler şu düzenlerden
 
     * Power BI, `registerOnSelectionCallback` yöntemi tarafından geçirilen ve kaydedilen bir işlev çağırır. Geri arama işlevi ilgili yer işareti için seçim dizilerini alır.
 
-    * Power BI, `update` nesnesinin içinde ilgili `filter` nesnesiyle `options` yöntemini çağırır.
+    * Power BI, `options` nesnesinin içinde ilgili `filter` nesnesiyle `update` yöntemini çağırır.
 
     Her iki durumda da, alınan seçimlere veya `filter` nesnesine göre görselin durumunu değiştirmesi gerekir.
 
