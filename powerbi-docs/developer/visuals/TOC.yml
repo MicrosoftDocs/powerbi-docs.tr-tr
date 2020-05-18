@@ -44,7 +44,7 @@
           href: advanced-edit-mode.md
         - name: supportsKeyboardFocus özelliği
           href: supportskeyboardfocus-feature.md
-        - name: supportsMultiVisualSelection-feature.md
+        - name: supportsMultiVisualSelection özelliği
           href: supportsmultivisualselection-feature.md
     - name: Nasıl yapılır
       items:

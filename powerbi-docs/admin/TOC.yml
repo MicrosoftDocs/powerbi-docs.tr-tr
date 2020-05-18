@@ -112,8 +112,10 @@
               href: service-encryption-byok.md
             - name: Premium kapasiteyi yeniden başlatma
               href: service-admin-premium-restart.md
-            - name: XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
+            - name: XMLA uç noktasıyla veri kümesi bağlantısı
               href: service-premium-connect-tools.md
+            - name: Hizmet sorumlularıyla otomasyon
+              href: service-premium-service-principal.md
     - name: Başvuru
       items:
         - name: 'PowerShell, REST API’ler ve .NET SDK'

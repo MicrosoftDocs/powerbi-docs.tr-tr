@@ -339,6 +339,8 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: Parametreler oluşturma
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: Rapor görünümlerini ayarlama
+              href: ../paginated-reports/page-view.md
             - name: Alt raporlar
               href: ../paginated-reports/subreports.md
             - name: Alt raporlarda sorun çözme
