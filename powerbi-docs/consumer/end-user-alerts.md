@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496534"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382773"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında uyarı ayarlama
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Panolarınızdaki veriler belirlediğiniz sınırları aşacak veya sınırların altında kalacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. Uyarılar, ölçerlerde, KPI’lerde ve kartlarda çalışır. Bu özellik hala geliştirilmektedir. Bu nedenle, [aşağıdaki İpuçları ve sorun giderme](#tips-and-troubleshooting) bölümüne bakın.
+Panolarınızdaki veriler belirlediğiniz sınırları aşacak veya sınırların altında kalacak şekilde değiştiğinde bunu size bildirecek uyarılar ayarlayın. Uyarılar yalnızca rapor görsellerinden sabitlenmiş olan kutucuklarda ve yalnızca ölçekler, KPI'ler ve kartlar için ayarlanabilir. 
+
+*Tüketiciler*, **Çalışma alanım** sayfasında oluşturdukları panolarda bulunan kutucuklara uyarı ekleyebilir. *Tüketiciler* ayrıca [Premium kapasitede](end-user-license.md) kendileriyle paylaşılmış olan panolarda bulunan kutucuklara da uyarı ekleyebilir. Power BI Pro lisansınız varsa başka bir çalışma alanındaki kutucuklar için de uyarılar ayarlayabilirsiniz.
+Bu özellik hala geliştirilmektedir. Bu nedenle, [aşağıdaki İpuçları ve sorun giderme](#tips-and-troubleshooting) bölümüne bakın.
 
 ![kutucuk, kart, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ Bu öğretici aşağıdakileri ele almaktadır.
 
 Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-Bu örnek, Satış ve Pazarlama örnek uygulamasındaki bir pano kartı kutucuğunu kullanır. Bu uygulama [Microsoft AppSource](https://appsource.microsoft.com)’ta kullanılabilir. Uygulamayı edinme hakkında yardım almak için bkz. [Power BI ile uygulamaları yükleyip kullanma](end-user-app-view.md).
+Bu örnek, Satış ve Pazarlama örnek uygulamasındaki bir pano kartı kutucuğunu kullanır. Bu uygulama [Microsoft AppSource](https://appsource.microsoft.com)’ta kullanılabilir. Uygulamayı edinme hakkında yardım almak için bkz. [Satış ve Pazarlama uygulamasını yükleyip kullanma](end-user-app-marketing.md).
 
 1. Panodaki bir ölçek, KPI veya kart kutucuğunda üç nokta simgesini seçin.
    
    ![kart kutucuğu](media/end-user-alerts/power-bi-cards.png)
-2. Zil simgesini ![Uyarı simgesi](media/end-user-alerts/power-bi-bell-icon.png) veya **Uyarıları yönet**'i seçerek **Toplam mağaza sayısı** için bir veya daha fazla uyarı ekleyin.
+2. Zil simgesini ![Uyarı simgesi](media/end-user-alerts/power-bi-bell-icon.png) veya **Uyarıları yönet**'i seçerek **% Birim pazar payı** için bir veya daha fazla uyarı ekleyin.
 
    ![üç noktaların seçili olduğu kart kutucuğu](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -111,10 +114,10 @@ Uyarılarınızı yönetmenin birçok yolu vardır: Pano kutucuğunun kendisinde
 
 ## <a name="tips-and-troubleshooting"></a>İpuçları ve sorun giderme 
 
-* Uyarılar yalnızca ölçerlerde, KPI’lerde ve kartlarda ayarlanabilir.
-* Bir ölçer, KPI veya kart için uyarı ayarlayamıyorsanız, yardım için sistem yöneticinize başvurun. Uyarılar, bazen panolarınız veya belirli türden pano kutucukları için kapatılır veya kullanılamaz.
+* Bir ölçer, KPI veya kart için uyarı ayarlayamıyorsanız, yardım için kiracı yöneticinize başvurun. Uyarılar, bazen panolarınız veya belirli türden pano kutucukları için kapatılır veya kullanılamaz.
 * Uyarılar yalnızca yenilenen verilerde çalışır. Sabit veriler üzerinde çalışmazlar. Microsoft tarafından sağlanan örneklerin çoğu statiktir. 
-* *Tüketiciler* kendi panolarını oluşturmaz, *tasarımcılar* pano oluşturur ve tüketicilerle paylaşır. Paylaşılan içeriği almak ve görüntülemek için Power BI Pro veya Premium lisansı gerekir. Daha fazla bilgi için bkz. [Hangi lisansa sahibim?](end-user-license.md) 
+* Paylaşılan içeriği almak ve görüntülemek için Power BI Pro veya Premium lisansı gerekir. Daha fazla bilgi için bkz. [Hangi lisansa sahibim?](end-user-license.md)
+* Bir rapordan panoya sabitlenmiş olan akış veri kümelerinden oluşturulan görseller üzerinde uyarılar ayarlanabilir. **Kutucuk ekle** > **Özel akış verileri** kullanılarak doğrudan pano üzerinde oluşturulan akış kutucukları üzerinde uyarılar ayarlanamaz.
 
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403763"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276065"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme (önizleme)
 
@@ -34,14 +34,14 @@ Başlamak için şunlara sahip olmalısınız:
 * Bir [hizmet sorumlusu (yalnızca uygulama belirteci)](embed-service-principal.md)
 * Bir [Microsoft Azure](https://azure.microsoft.com/) aboneliği
 * Kendi [Azure Active Directory kiracısı](create-an-azure-active-directory-tenant.md) kurulumunuz
-* En az bir A4 veya P1 [kapasitesi](#create-a-dedicated-capacity), [sayfalandırılmış raporlar](../../service-admin-premium-workloads.md#paginated-reports) iş yükü etkinleştirilmiş
+* En az bir A4 veya P1 [kapasitesi](#create-a-dedicated-capacity), [sayfalandırılmış raporlar](../../admin/service-admin-premium-workloads.md#paginated-reports) iş yükü etkinleştirilmiş
 
 Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
 
 > [!IMPORTANT]
 > * Bir **hizmet sorumlusu** kullanmalısınız. Ana kullanıcı desteklenmiyor.
 > * Çoklu oturum açma (SSO) gerektiren veri kaynakları desteklenmez.
-> * Power BI veri kümesi, [veri kaynağı](../../service-get-data.md)olarak desteklenmez.
+> * Power BI veri kümesi, [veri kaynağı](../../connect-data/service-get-data.md)olarak desteklenmez.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 
@@ -49,12 +49,12 @@ Sayfalandırılmış raporları eklemek için bir çalışma alanını ayrılmı
 
 ### <a name="create-an-app-workspace"></a>Uygulama çalışma alanı oluştur
 
-Uygulamanızda oturum açmak için [hizmet sorumlusu](embed-service-principal.md) kullandığınız için [yeni çalışma alanlarını](../../service-create-the-new-workspaces.md) kullanmanız gerekir. *Hizmet sorumlusu* olarak ayrıca uygulamanızda kullanılan uygulama çalışma alanlarının yöneticisi veya üyesi olmanız gerekir.
+Uygulamanızda oturum açmak için [hizmet sorumlusu](embed-service-principal.md) kullandığınız için [yeni çalışma alanlarını](../../collaborate-share/service-create-the-new-workspaces.md) kullanmanız gerekir. *Hizmet sorumlusu* olarak ayrıca uygulamanızda kullanılan uygulama çalışma alanlarının yöneticisi veya üyesi olmanız gerekir.
 
 ### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
 
 Ekleyeceğiniz sayfalandırılmış raporu içeri aktarmadan veya yüklemeden önce, raporu içeren çalışma alanına en az bir A4 veya P1 kapasitesi atanmış olmalıdır. İki tür kapasiteden birini seçebilirsiniz:
-* **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../service-premium-what-is.md)
+* **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) ayrılmış kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
 Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) tablosuna bakın.
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
 
-JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API'sini kullanın.
+JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Raporlar GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API'sini kullanın.
 
 Ekleme belirteci oluşturma örneği, [örnek uygulamanın](https://github.com/Microsoft/PowerBI-Developer-Samples) *Services\EmbedService.cs* dosyasında sağlanmıştır.
 

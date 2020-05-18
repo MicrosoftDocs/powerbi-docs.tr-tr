@@ -1,20 +1,23 @@
 ---
 title: Power BI Soru-Cevap görselini kullanma
 description: Power BI Soru-Cevap görselini ayarlama
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762290"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148358"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Soru-Cevap görselleştirmelerine giriş
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -43,12 +46,14 @@ Soru-Cevap görseli dört temel bileşenden oluşur;
    
 2. **Satış ve Pazarlama örneği PBIX dosyası** kopyanızı bulun
 
-1. Dosyayı rapor görünümünde açma ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png)dokunun.
+1. Dosyayı rapor görünümünde açma ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
+1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
+Soru-Cevap görseli oluştururken bir hata görürseniz, veri kaynağı yapılandırmasının desteklenip desteklenmediğini öğrenmek için [sınırlamalar](../natural-language/q-and-a-limitations.md) bölümüne göz atın.    
 
-Soru-Cevap görseli oluştururken bir hata görürseniz, veri kaynağı yapılandırmasının desteklenip desteklenmediğini öğrenmek için [sınırlamalar](../natural-language/q-and-a-limitations.md) bölümüne göz atın.
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir. Bkz. [Raporları paylaşma](../collaborate-share/service-share-reports.md).
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Önerilen bir soruyu kullanarak Soru-Cevap görseli oluşturma
 Bu alıştırmada, Soru-Cevap görselimizi oluşturmak için önerilen sorulardan birini seçeceğiz. 
@@ -122,7 +127,7 @@ Soru-Cevap görselini, soru alanını ve önerilerin görüntülenme şeklini bi
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>Soru-Cevap görselini standart bir görsele dönüştürme
 Renk körlerine uygun sütun grafik görselimizi biraz biçimlendirdik: bir başlık ve kenarlık ekledik. Şimdi, raporumuzda standart bir görsele dönüştürmeye ve ayrıca bir panoya sabitlemeye hazırız.
 
-![Bu Soru-Cevap sonucunu standart bir görsele dönüştürmek](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png) için simgeyi **dişli simgesi** seçin.
+**Bu Soru-Cevap sonucunu standart bir görsele dönüştürmek** için simgeyi ![dişli simgesi](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png) seçin.
 
 ![Standart görsel simgesini işaret eden okla Soru-Cevap görseli](media/power-bi-visualization-q-and-a/power-bi-visual-convert.png)
 
@@ -148,7 +153,7 @@ Soru-Cevap görseli, veri kümenizin alanlarındaki tanınmayan yaygın sözcük
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Doğal dili tümleştirebilmeniz için kullanabileceğiniz çeşitli yollar vardır. Daha fazla bilgi için aşağıdaki makalelere bakın:
+Doğal dili tümleştirebilmeniz için kullanabileceğiniz çeşitli yollar vardır. Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 
 * [Soru-Cevap Araçları](../natural-language/q-and-a-tooling-intro.md)
-* [Soru-Cevap ile En İyi Yöntemler](../natural-language/q-and-a-best-practices.md)
+* [Soru-Cevap En İyi Yöntemler](../natural-language/q-and-a-best-practices.md)

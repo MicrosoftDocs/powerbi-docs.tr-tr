@@ -7,20 +7,20 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381434"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276824"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
 Yeni görselleştirmeler ekleyeceğiz, takipte kalın!
 
-İndirip pano ve raporlarınızda kullanabileceğiniz [Power BI görsellerinin](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulunduğu [Microsoft AppSource](../developer/visuals/power-bi-custom-visuals.md)’a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/visuals/office-store.md).  
+İndirip pano ve raporlarınızda kullanabileceğiniz [Power BI görsellerinin](../developer/visuals/power-bi-custom-visuals.md) bulunduğu [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’a göz atın. Buradaki listeye sürekli olarak yeni özel görseller eklenmektedir. Yaratıcılığınızı konuşturmak mı istiyorsunuz? [Kendi görsellerinizi oluşturmayı ve topluluk sitesine eklemeyi öğrenin](../developer/visuals/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI'da kullanılabilen görselleştirmelerin listesi
 Tüm bu görselleştirmeler Power BI raporlarına eklenebilir, Soru-Cevap'ta belirtilebilir ve panolara sabitlenebilir.
@@ -41,10 +41,10 @@ Daha fazla bilgi için bkz. [Temel Alan grafiği](power-bi-visualization-basic-a
 >[!TIP]
 >Belirli bir değere farklı kategorilerde bakmak için standart olarak çubuk grafikler kullanılır.
 
-### <a name="cards-multi-row"></a>Kartlar: Çok satırlı kart
+### <a name="cards-multi-row"></a>Kartlar: Çok satırlı
 ![çok satırlı kart](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
-### <a name="cards-single-number"></a>Kartlar: Tek sayı içeren kart
+### <a name="cards-single-number"></a>Kartlar: Tek sayı
 ![sayı kartı](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
 
 Daha fazla bilgi için bkz. [Kart (büyük sayı kutucuğu) oluşturma](power-bi-visualization-card.md).
@@ -102,7 +102,7 @@ Daha fazla bilgi için bkz. [Power BI'daki KPI’lar](power-bi-visualization-kpi
 >[!TIP]
 >Değerler dizisinin tümünün, genellikle zaman içindeki genel şeklini vurgular.
 
-### <a name="maps-basic-maps"></a>Haritalar: Basit haritalar
+### <a name="maps-basic-maps"></a>Haritalar: Temel haritalar
 ![Temel harita](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
 
 >[!TIP]
@@ -115,7 +115,7 @@ Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktala
 
 Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-arcgis.md).
 
-### <a name="maps-filled-maps-choropleth"></a>Haritalar: Doldurulmuş haritalar (Koroplet haritalar)
+### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
 ![kartogram](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ Daha fazla bilgi için bkz. [Raporunuza Power Apps görseli ekleme](power-bi-vis
 ![Soru-Cevap görselleri](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->[Panolarda Soru-Cevap deneyimine](../power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
+>[Panolarda Soru-Cevap deneyimine](../create-reports/power-bi-tutorial-q-and-a.md) benzer şekilde Soru-Cevap görselleri de doğal dili kullanarak verilerinizle ilgili sorular sormanıza olanak tanır. 
 
 Daha fazla bilgi için bkz. [Power BI’daki Soru-Cevap görselleri](power-bi-visualization-q-and-a.md).
 
@@ -191,7 +191,7 @@ Daha fazla bilgi için bkz. [Power BI'daki dağılım grafikleri](power-bi-visua
 >[!TIP]
 >Bir görsel üzerindeki çok fazla veri noktası o görseli çıkmaza sokabilir, bu nedenle görselleştirmenin doğruluğunu sağlamak için karmaşık bir örnekleme algoritması kullanılır.
 
-Daha fazla bilgi için bkz. [Power BI'daki Yüksek Yoğunluklu Dağılım Grafikleri](desktop-high-density-scatter-charts.md).
+Daha fazla bilgi için bkz. [Power BI'daki Yüksek Yoğunluklu Dağılım Grafikleri](../create-reports/desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Dilimleyiciler
 ![dilimleyici](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,7 +201,7 @@ Daha fazla bilgi için bkz. [Power BI'daki dilimleyiciler](power-bi-visualizatio
 ### <a name="standalone-images"></a>Tek başına resimler
 ![tek başına resim görseli](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../service-dashboard-add-widget.md).
+Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../create-reports/service-dashboard-add-widget.md).
 
 ### <a name="tables"></a>Tablolar
 ![tablo görseli](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
@@ -212,7 +212,7 @@ Daha fazla bilgi için bkz. [Panoya resim pencere öğesi ekleme](../service-das
 Daha fazla bilgi için bkz. [Power BI'da tablolarla çalışma](power-bi-visualization-tables.md).
 
 ### <a name="treemaps"></a>Ağaç haritaları
-![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![ağaç haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 Daha fazla bilgi için bkz. [Power BI'daki ağaç haritaları](power-bi-visualization-treemaps.md).
 
@@ -232,8 +232,11 @@ Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken s
 
 "***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
 
+Panonuzda Soru-Cevap alanı yoksa bu özellik kiracı yöneticiniz tarafından devre dışı bırakılmış olabilir. 
+
 ![Belirtilen görselleştirme türünü gösteren Soru-Cevap soru kutusu](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](power-bi-report-visualizations.md)    
 [Doğru görsel başvuruları ile ilgili sqlbi.com sayfası](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

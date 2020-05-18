@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758118"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944832"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ Bu düzeyde karmaşık olan görselleştirmelerde eksen başlıklarının eklenm
 
 1. Başlıkları biçimlendirin. Bu örnekte başlıklardan birini kısalttık ve ikisinin birden yazı tipi boyutunu küçülttük. 
     - Yazı tipi boyutu: **9**
-    - İlk Y ekseninin (sütun grafiği) **Eksen başlığı** kısaltıldı: Önceki yılın ve bu yılın satışları
+    - İlk Y ekseninin (sütun grafiği) **Eksen başlığı** kısaltıldı: Önceki yılın ve bu yılın satışları. 
+    
+     ![Tam başlıkları görüntülenen birleşik haritanın ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![Tam başlıkları görüntülenen birleşik haritanın ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-Daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md) ve [Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme](power-bi-visualization-customize-title-background-and-legend.md). Yeni başlık biçimlendirme seçenekleri çok yakında kullanıma sunulacak. 
+    Daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md) ve [Görselleştirme başlıklarını, açıklamaları ve arka planları özelleştirme](power-bi-visualization-customize-title-background-and-legend.md). 
+    
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

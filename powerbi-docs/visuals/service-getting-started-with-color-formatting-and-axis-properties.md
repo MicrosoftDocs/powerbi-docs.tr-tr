@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895243"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276594"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Biçimlendirme panosuyla çalışmaya başlama
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Rapor üzerinde düzenleme izinleriniz varsa, sayısız biçimlendirme seçeneğinden yararlanabilirsiniz. Power BI raporlarında veri serilerinin ve veri noktalarının rengini ve hatta görselleştirmelerin arka planını değiştirebilirsiniz. Ayrıca x ekseninin ve y ekseninin gösterimini değiştirebilirsiniz. Hatta görselleştirmelerin, şekillerin ve başlıkların yazı tipi özelliklerini bile biçimlendirebilirsiniz. Power BI raporlarınızın görünümü üzerinde size tam denetim olanağı sağlar.
 
 Başlamak için, Power BI Desktop veya Power BI hizmetinde bir rapor açın. Her ikisinde de aynı biçimlendirme seçenekleri sağlanır. Power BI hizmetinde rapor açarken, menü çubuğundan **Düzenle**'yi seçtiğinizden emin olun. 
@@ -154,8 +157,10 @@ Görselleştirmeyi seçerek etkin hale getirdik ve Biçimlendirme sekmesini açt
 Bunlar mümkün olan biçimlendirme görevlerinden yalnızca birkaçıdır. Raporu Düzenleme modunda açın ve güzel, bilgilendirici görselleştirmeler oluşturmak için Biçimlendirme bölmesini keyifle keşfedin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Daha fazla bilgi için aşağıdaki makaleyi inceleyin:  
+Daha fazla bilgi için aşağıdaki makaleyi inceleyin: 
+
+* [Raporları paylaşma](../collaborate-share/service-share-reports.md)
 
 * [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](service-tips-and-tricks-for-color-formatting.md)  
-* [Tablolarda koşullu biçimlendirme](../desktop-conditional-table-formatting.md)
+* [Tablolarda koşullu biçimlendirme](../create-reports/desktop-conditional-table-formatting.md)
 

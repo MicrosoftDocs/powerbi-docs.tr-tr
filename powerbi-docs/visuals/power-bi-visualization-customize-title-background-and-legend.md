@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893442"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277146"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Görselleştirme başlıklarını, arka planlarını ve göstergelerini özelleştirme
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını özelleştirme ve tema ekleme işlemleri gösterilir.
 
@@ -30,12 +33,15 @@ Tüm görselleştirmeler özelleştirilemez. Ayrıntılar için görselleştirme
 
 - Perakende Analizi Örneği raporu
 
+> [!NOTE]
+> Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir. Bkz. [Raporları paylaşma](../collaborate-share/service-share-reports.md).
+
 ## <a name="customize-visualization-titles-in-reports"></a>Raporlardaki görselleştirme başlıklarını özelleştirme
 
-Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende Analizi Örneği](../sample-datasets.md) raporunu açın.
+Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende Analizi Örneği](../create-reports/sample-datasets.md) raporunu açın.
 
 > [!NOTE]
-> Panolara sabitlediğiniz görselleştirmeler birer pano kutucuğu haline gelir. Kutucukları da [yeni başlıklar, alt başlıklar ve köprülerle özelleştirebilir veya yeniden boyutlandırabilirsiniz](../service-dashboard-edit-tile.md).
+> Panolara sabitlediğiniz görselleştirmeler birer pano kutucuğu haline gelir. Kutucukları da [yeni başlıklar, alt başlıklar ve köprülerle özelleştirebilir veya yeniden boyutlandırabilirsiniz](../create-reports/service-dashboard-edit-tile.md).
 
 1. **Perakende Analizi Örneğinin** **Yeni Depolar** sayfasına gidin.
 
@@ -49,7 +55,7 @@ Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende An
 
 1. **Başlık** kaydırıcısını **Açık** konumuna getirin.
 
-1. Başlığı değiştirmek için, *Başlık metni* alanına **Store count by month opened** yazın.
+1. Başlığı değiştirmek için, **Başlık metni** alanına *Store count by month opened* yazın.
 
     ![Başlık metninin girildiği Biçim bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
@@ -112,7 +118,7 @@ Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Arka plan** öze
 
 1. **Başlık** seçeneğini **Açık** olarak ayarlayarak bir gösterge başlığı ekleyin.
 
-1. *Gösterge adı* alanına **Yönetici** yazın.
+1. **Gösterge adı** alanına *Yönetici* yazın.
 
 1. **Renk** değerini siyah olarak değiştirin.
 
@@ -133,7 +139,7 @@ Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir**'i seç
 
 Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçeneklerinin bir listesi aşağıda verilmiştir:
 
-| Görselleştirme | Başlık | Arka plan | Açıklama |
+| Görselleştirme | Başlık | Arka Plan | Gösterge |
 |:--- |:--- |:--- |:--- |
 | Alan | evet | evet |evet |
 | Çubuk | evet | evet |evet |
@@ -147,7 +153,7 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 | Ölçer | evet | evet | yok |
 | Ana Etmen | evet | evet | yok |
 | KPI | evet | evet | yok |
-| Satır | evet | evet | evet |
+| Çizgi | evet | evet | evet |
 | Harita | evet | evet | evet |
 | Matris | evet | evet | yok |
 | Pasta | evet | evet | evet |
@@ -155,7 +161,7 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 | Dağılım | evet | evet | evet |
 | Şekil | evet | evet | evet |
 | Dilimleyici | evet | evet | yok |
-| Table | evet | evet | yok |
+| Tablo | evet | evet | yok |
 | Metin Kutusu | hayır | evet | yok |
 | Treemap | evet | evet | evet |
 | Şelale | evet | evet | evet |
@@ -167,3 +173,5 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 - [Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+
+
