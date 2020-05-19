@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: 57fd08720d908ac67e383b91239e44373b1e586f
-  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+  ms.openlocfilehash: 1c5195e94752f0eead4b123d6a4055696e0f7d31
+  ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83348770"
+  ms.lasthandoff: 05/19/2020
+  ms.locfileid: "83565960"
 highlightedContent:
   items:
   - title: ABD verilerini içeren bir COVID-19 raporu oluşturma
@@ -43,7 +43,7 @@ conceptualContent:
     - url: fundamentals/desktop-what-is-desktop.md
       itemType: overview
       text: Power BI Desktop nedir?
-    - url: fundamentals/power-bi-service-overview.md
+    - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI hizmeti nedir?
     footerLink:

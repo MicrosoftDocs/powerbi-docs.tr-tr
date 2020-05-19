@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: 'Çevrimiçi kurs: Sayfalandırılmış raporlar'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: Örnekler
