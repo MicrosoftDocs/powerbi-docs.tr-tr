@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277169"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563850"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Basit alan grafikleri oluşturma ve kullanma
 
@@ -82,11 +82,8 @@ Daha fazla bilgi edinmek için bkz. [Raporlardaki görsel etkileşimler](../crea
 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme   
-* [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](../desktop-accessibility.md)
+* [Raporu engelli kişiler için daha kolay erişilebilir hale getirme](../create-reports/desktop-accessibility-overview.md)
 * Basit alan grafikleri, katmanlı alanlardaki kapatma nedeniyle değer karşılaştırmaları için kullanışlı değildir. Power BI, alanlardaki çakışmaları göstermek için saydamlıktan yararlanır. Ancak, bu özellik yalnızca iki veya üç farklı alanda düzgün bir şekilde çalışır. Eğilimi üçten fazla ölçüyle karşılaştırmak için çizgi grafikleri kullanmayı deneyin. Hacmi üçten fazla ölçüyle karşılaştırmak için ise ağaç haritası kullanmayı deneyin.
 
 ## <a name="next-step"></a>Sonraki adım
 [Power BI'daki raporlar](power-bi-visualization-card.md)  
-
-
-

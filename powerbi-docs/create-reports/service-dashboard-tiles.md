@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348931"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561674"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 
@@ -23,7 +23,7 @@ Kutucuklar, verilerinizin panoya sabitlenmiş anlık görüntüleridir. Bir rapo
 
 ![Power BI panosu](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Mobil cihazlarda pano oluşturamazsınız ancak bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz]../consumer/mobile/mobile-apps-view-dashboard.md).
+Panolar ve pano kutucukları Power BI Desktop'ın değil, Power BI hizmetinin sunduğu özelliklerdir. Mobil cihazlarda pano oluşturamazsınız ama bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 Kutucukları sabitlemenin yanı sıra, [Kutucuk ekle](service-dashboard-add-widget.md) denetimini kullanarak doğrudan pano üzerinde tek başına kutucuklar oluşturabilirsiniz. Ayrı kutucuklar arasında metin kutuları, resimler, videolar, akış verileri ve web içeriği bulunur.
 
@@ -98,6 +98,6 @@ Bir kutucuğu seçtiğinizde sonraki adım, kutucuğu nasıl oluşturduğunuza b
 - [Power BI'da veri yenileme](../connect-data/refresh-data.md)
 - [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](../fundamentals/service-basic-concepts.md)
 - [Power BI kutucuklarını Office belgeleriyle tümleştirme](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Reporting Services öğelerini Power BI panolarına sabitleme](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Reporting Services öğelerini Power BI panolarına sabitleme](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).

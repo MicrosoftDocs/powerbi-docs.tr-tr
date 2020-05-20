@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377167"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562024"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI hizmeti müşterilerine yönelik temel kavramlar
 
@@ -116,7 +116,7 @@ Power BI'da karşılaşacağınız görsellerin bazıları şunlardır: şelale,
 
    ![Sekiz örnek görselin ekran görüntüsü.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Bkz. [Power BI'da bulunan görselleştirmelerin tam listesi](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Bkz. [Power BI'da bulunan görselleştirmelerin tam listesi](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 *Power BI görselleri* olarak adlandırılan görselleştirmeler topluluktan da sağlanabilir. Raporda tanımadığınız bir görsel varsa bu muhtemelen özel bir görseldir. Özel görseli yorumlama konusunda yardıma ihtiyacınız varsa rapor veya pano *tasarımcısının* adını bulun ve kendisiyle iletişime geçin.
 

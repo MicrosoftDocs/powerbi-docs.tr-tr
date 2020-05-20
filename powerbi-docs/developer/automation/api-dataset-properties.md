@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079681"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561513"
 ---
 # <a name="dataset-properties"></a>Veri kümesi özellikleri
 
@@ -46,8 +46,8 @@ isHidden     | Boole        | Doğru olduğunda, tablo istemci araçlarından gi
 Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
 ad     |  Dize        | Sütunun kullanıcı tanımlı adı.        |  False       | True       
-dataType     |  Dize       |  Desteklenen [EDM veri türleri](https://msdn.microsoft.com/library/ee382832.aspx) ve kısıtlamalar. Bkz. [Veri türü kısıtlamaları](#data-type-restrictions).      |  False       | True        
-formatString     | Dize        | Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
+dataType     |  Dize       |  Desteklenen [EDM veri türleri](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) ve kısıtlamalar. Bkz. [Veri türü kısıtlamaları](#data-type-restrictions).      |  False       | True        
+formatString     | Dize        | Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | False        
 sortByColumn    | Dize        |   Geçerli sütunu sıralamak için kullanılacak, aynı tablodaki bir sütunun dize adı.     | False        | False       
 dataCategory     | Dize        |  Bu sütun içindeki verileri açıklayan, veri kategorisi için kullanılacak dize değeri. Bazı yaygın değerler şunlardır: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
 isHidden    |  Boole       |  Sütunun görünümden gizlenip gizlenmeyeceğini belirten özellik. Varsayılan değer false’tur.       | False        | False        
@@ -59,7 +59,7 @@ Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
 ad     | Dize        |  Ölçünün kullanıcı tanımlı adı.       |  False       | True        
 ifade     | Dize        | Geçerli bir DAX ifadesi.        | False        |  True       
-formatString     | Dize        |  Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
+formatString     | Dize        |  Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | False        
 isHidden     | Dize        |  Doğru olduğunda, tablo istemci araçlarından gizlenir.       |  False       | False       
 
 ## <a name="relationship"></a>İlişki

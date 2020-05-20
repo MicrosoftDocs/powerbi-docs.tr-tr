@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 45395fbb9d815580132ea254812fddec4cec4ba5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 555d203cfa8bd00e745c0dcff5de7f7e8d48f06c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275306"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563196"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
 
@@ -84,7 +84,7 @@ Hata almaya devam ediyorsanız erişim izni olan hesabınızla Power BI'da oturu
 Şirket içi Analysis Services verilerine bağlantısı bulunan bir veri kümesine erişmeye çalışıyorsanız hata iletisiyle karşılaşabilirsiniz. **Excel'de Çözümle** özelliği, bir bağlantı dizesiyle şirket içi **Analysis Services**'deki veri kümelerine ve raporlara bağlanmayı desteklememektedir. Bunun için bilgisayarınızın **Analysis Services** sunucusuyla aynı etki alanında olması ve hesabınızın söz konusu **Analysis Services** sunucusuna erişimi olması gerekir.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>PivotTable Değerleri alanına (ölçü yok) herhangi bir öğenin sürüklenememesi
-**Excel'de Çözümle** özelliği bir dış OLAP modeline bağlandığında (bu, Excel'in Power BI'a bağlanma yöntemidir) tüm hesaplamalar sunucu üzerinde yapıldığından *PivotTable* [için **ölçülerin** dış modelde tanımlanması gerekir](https://support.microsoft.com/kb/234700). Bu, bir yerel veri kaynağı ile çalışılması durumundan (Excel'deki tablolarla veya **Power BI Desktop**'ta ya da **Power BI hizmetinde** veri kümeleriyle çalışmak gibi) farklıdır. Böyle bir durumda, tablo modeli yerel olarak kullanılabilir ve dinamik olarak oluşturulup veri modelinde depolanmayan [örtük ölçülerden yararlanabilirsiniz](https://msdn.microsoft.com/library/gg399077.aspx). Bu tür durumlarda Excel'deki davranış, **Power BI Desktop** veya **Power BI hizmetinde** görülenden farklıdır: Veriler, Power BI'da ölçü olarak işlenebilen ancak Excel'de değer (ölçü) olarak kullanılamayan sütunlar içerebilir.
+**Excel'de Çözümle** özelliği bir dış OLAP modeline bağlandığında (bu, Excel'in Power BI'a bağlanma yöntemidir) tüm hesaplamalar sunucu üzerinde yapıldığından *PivotTable* [için **ölçülerin** dış modelde tanımlanması gerekir](https://support.microsoft.com/kb/234700). Bu, bir yerel veri kaynağı ile çalışılması durumundan (Excel'deki tablolarla veya **Power BI Desktop**'ta ya da **Power BI hizmetinde** veri kümeleriyle çalışmak gibi) farklıdır. Böyle bir durumda, tablo modeli yerel olarak kullanılabilir ve dinamik olarak oluşturulup veri modelinde depolanmayan [örtük ölçülerden yararlanabilirsiniz](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4). Bu tür durumlarda Excel'deki davranış, **Power BI Desktop** veya **Power BI hizmetinde** görülenden farklıdır: Veriler, Power BI'da ölçü olarak işlenebilen ancak Excel'de değer (ölçü) olarak kullanılamayan sütunlar içerebilir.
 
 Bu sorunu gidermeye yönelik birkaç seçenek bulunmaktadır:
 
@@ -99,7 +99,7 @@ Bu sorunu gidermeye yönelik birkaç seçenek bulunmaktadır:
 
 [Eğitim: Power BI Desktop'ta kendi ölçülerinizi oluşturma](../transform-model/desktop-tutorial-create-measures.md)
 
-[PowerPivot'ta Ölçüler](https://msdn.microsoft.com/library/gg399077.aspx)
+[PowerPivot'ta Ölçüler](https://support.microsoft.com/en-us/office/measures-in-power-pivot-86484821-a324-4da3-803b-82fd2e5033f4)
 
 [Create a Measure in PowerPivot (PowerPivot'ta bir Ölçü oluşturma)](https://support.office.com/article/Create-a-Measure-in-Power-Pivot-d3cc1495-b4e5-48e7-ba98-163022a71198)
 

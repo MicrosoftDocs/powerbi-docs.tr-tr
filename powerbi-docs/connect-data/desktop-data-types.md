@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293180"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561582"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -72,7 +72,7 @@ Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü destekle
 **True/False**: True veya False olan bir Boole değeri.
 
 ### <a name="blanksnulls-type"></a>Boş/null değer türü
-**Boş**: DAX'ta, SQL'deki null değerleri temsil eden ve bunların yerini alan veri türü. [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) işlevini kullanarak boş değer oluşturabilir ve [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) mantıksal işlevi ile boş değer olup olmadığını test edebilirsiniz.
+**Boş**: DAX'ta, SQL'deki null değerleri temsil eden ve bunların yerini alan veri türü. [BLANK](/dax/blank-function-dax) işlevini kullanarak boş değer oluşturabilir ve [ISBLANK](/dax/isblank-function-dax) mantıksal işlevi ile boş değer olup olmadığını test edebilirsiniz.
 
 ### <a name="binary-data-type"></a>İkili veri türü
 
@@ -86,7 +86,7 @@ Power BI Desktop, Sorgu Görünümü'nde beş Tarih/Saat veri türünü destekle
 > 
 
 ### <a name="table-data-type"></a>Tablo veri türü
-DAX, birçok işlevde (toplama ve akıllı zaman gösterimi hesaplamaları gibi) tablo veri türünü kullanır. Bazı işlevler bir tabloya başvurulmasını gerektirirken bazı işlevler, diğer işlevler için giriş olarak kullanılabilecek bir tablo döndürür. Giriş olarak tablo gerektiren bazı işlevlerde tablo döndüren bir ifade belirtebilirsiniz. Bazı işlevlerde ise temel tablolara başvuru yapılması gerekir. Belirli işlevlerin gereksinimleri hakkında bilgi için bkz. [DAX Function Reference (DAX İşlev Başvurusu)](https://msdn.microsoft.com/library/ee634396.aspx).
+DAX, birçok işlevde (toplama ve akıllı zaman gösterimi hesaplamaları gibi) tablo veri türünü kullanır. Bazı işlevler bir tabloya başvurulmasını gerektirirken bazı işlevler, diğer işlevler için giriş olarak kullanılabilecek bir tablo döndürür. Giriş olarak tablo gerektiren bazı işlevlerde tablo döndüren bir ifade belirtebilirsiniz. Bazı işlevlerde ise temel tablolara başvuru yapılması gerekir. Belirli işlevlerin gereksinimleri hakkında bilgi için bkz. [DAX Function Reference (DAX İşlev Başvurusu)](/dax/dax-function-reference).
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX formüllerinde örtük ve açık olarak gerçekleştirilen veri türü dönüştürme işlemleri
 Her DAX işlevinin, giriş ve çıkış olarak kullanılan veri türlerine ilişkin belirli gereksinimleri vardır. Örneğin, bazı işlevlerde belirli bağımsız değişkenler için tam sayı gerekirken diğerleri için tarih gerekli olabilir. Aynı şekilde, bazı işlevler için metin veya tabloların kullanılması gerekebilir.
@@ -197,4 +197,3 @@ Toplama veya birleştirme gibi işlemlerde boş değerlerin nasıl işleneceği,
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Hata |
 | BLANK AND BLANK |BLANK |Hata |
-

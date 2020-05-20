@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: a29dcd8c89d064678e558d5ebfee7ccb3cc8a8e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330118"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438097"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -66,7 +66,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Klasör | Evet | Evet | Hayır | Evet | Evet |
 | GitHub | Evet | Evet | Hayır | Hayır | Hayır |
 | Google Analytics | Evet | Evet | Hayır | Hayır | Hayır |
-| Google BigQuery | Evet | Evet | Hayır | Hayır | Hayır |
+| Google BigQuery | Evet | Evet | Yes | Hayır | Hayır |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır |
 | IBM DB2 | Evet | Evet | Evet | Evet | Hayır |

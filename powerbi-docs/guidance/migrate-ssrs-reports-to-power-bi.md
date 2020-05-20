@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348195"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561605"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services raporlarını Power BI’a geçirme
 
@@ -194,7 +194,7 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Sayfalandırılmış raporlar için veri alma kılavuzu](report-paginated-data-retrieval.md)
 - [Power BI’daki sayfalandırılmış raporları kullanma zamanı](report-paginated-or-power-bi.md)
 - [Power BI’daki sayfalandırılmış raporlar: SSS](../paginated-reports/paginated-reports-faq.md)
-- [Çevrimiçi kurs: Bir Gündeki Sayfalandırılmış Raporlar](../paginated-reports/paginated-reports-online-course.md)
+- [Çevrimiçi kurs: Bir Gündeki Sayfalandırılmış Raporlar](../learning-catalog/paginated-reports-online-course.md)
 - [Power BI Premium hakkında SSS](../admin/service-premium-faq.md)
 - [RDL Migration Tool](https://github.com/microsoft/RdlMigration)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
