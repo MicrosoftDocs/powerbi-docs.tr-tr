@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: Zamanlanmış yenileme yapılandırma
               href: refresh-scheduled-refresh.md
+            - name: Yenileme merkezi
+              href: refresh-center.md
             - name: Artımlı yenilemeyi yapılandırma
               href: ../admin/service-premium-incremental-refresh.md
             - name: Yerel bir Power BI Desktop dosyasından veri kümesini yenileme
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Power BI Premium Kapasite Ölçümleri
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: Project Online
               href: service-connect-to-project-online.md
             - name: QuickBooks Online

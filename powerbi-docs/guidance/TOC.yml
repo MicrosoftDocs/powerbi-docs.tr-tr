@@ -110,6 +110,8 @@
               href: monitor-report-performance.md
             - name: Rapor performansı sorunlarını çözme
               href: report-performance-troubleshoot.md
+            - name: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
+              href: ../create-reports/deployment-pipelines-best-practices.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış
