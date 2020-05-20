@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348862"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564564"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI tasarımcıları için panolara giriş
 
@@ -22,7 +22,7 @@ Power BI *panosu*, görselleştirmeler kullanarak bir hikaye anlatan ve genellik
 
 ![Pano](media/service-dashboards/power-bi-dashboard2.png)
 
-Panolar yalnızca Power BI hizmetinin bir özelliğidir. Power BI Desktop'ta kullanılamazlar. Mobil cihazlarda pano oluşturamasanız da bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz]../consumer/mobile/mobile-apps-view-dashboard.md).
+Panolar yalnızca Power BI hizmetinin bir özelliğidir. Power BI Desktop'ta kullanılamazlar. Mobil cihazlarda pano oluşturamasanız da bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz](../consumer/mobile/mobile-apps-view-dashboard.md).
 
 ## <a name="dashboard-basics"></a>Pano temel bilgileri 
 

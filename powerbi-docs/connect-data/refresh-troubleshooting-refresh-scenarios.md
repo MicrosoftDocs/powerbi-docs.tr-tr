@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 583d33a1d28fa926bdea41988d651f12de5a8e92
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a490951808271cb845c1ec558344bcf5fdc6c145
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309142"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564958"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 
@@ -33,7 +33,7 @@ Bu makaleye bir e-posta bildiriminden geliyorsanız ve bundan böyle yenileme so
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>Web bağlayıcısı kullanılarak gerçekleştirilen yenileme işlemi düzgün bir şekilde gerçekleştirilmiyor
 
-[**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) işlevini kullanan bir Web bağlayıcısı betiğiniz varsa ve veri kümenizi veya raporunuzu 18 Kasım 2016'dan sonra güncelleştirdiyseniz yenileme işleminin düzgün çalışması için ağ geçidi kullanmanız gerekir.
+[**Web.Page**](/powerquery-m/web-page) işlevini kullanan bir Web bağlayıcısı betiğiniz varsa ve veri kümenizi veya raporunuzu 18 Kasım 2016'dan sonra güncelleştirdiyseniz yenileme işleminin düzgün çalışması için ağ geçidi kullanmanız gerekir.
 
 ## <a name="unsupported-data-source-for-refresh"></a>Yenileme için desteklenmeyen veri kaynakları
 

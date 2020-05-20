@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348172"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565158"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -247,7 +247,7 @@ Power BI Desktop’taki yeni Modelleme görünümü ile, birçok tablo içeren k
 
 #### <a name="accessible-visual-interaction"></a>Erişilebilir görsel etkileşimi
 
-Şimdi klavye gezintisini kullanarak yerleşik görsellerin birçoğunda bulunan veri noktalarına erişebilirsiniz. [Power BI raporlarında erişilebilirlik](../desktop-accessibility.md) hakkında daha fazla bilgi edinin.
+Şimdi klavye gezintisini kullanarak yerleşik görsellerin birçoğunda bulunan veri noktalarına erişebilirsiniz. [Power BI raporlarında erişilebilirlik](../create-reports/desktop-accessibility-overview.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>Koşullu biçimlendirme başlıkları ve web URL’si eylemleri
 

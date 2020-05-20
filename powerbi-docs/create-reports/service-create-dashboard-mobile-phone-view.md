@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314869"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565822"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Panoyu cep telefonları için en uygun duruma getirme - Power BI 
 Telefon kullanırken dikey modda panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlardaki dikey moda özel olarak, panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz. Bir telefon görünümü oluştursanız bile, telefonu yan çevirdiğinizde panoyu hizmette görüntülendiği şekilde görürsünüz.
@@ -57,5 +57,5 @@ Panoları bir mobil cihazda görüntüleme hakkında bilgi mi arıyorsunuz? Bunu
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI telefon uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](desktop-create-phone-report.md)
-* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../visuals/desktop-create-responsive-visuals.md)
+* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../visuals/power-bi-report-visualizations.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

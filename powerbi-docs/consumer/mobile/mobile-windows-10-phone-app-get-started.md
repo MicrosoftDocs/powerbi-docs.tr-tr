@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349368"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565707"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, Power BI’ı tabletinize veya telefonunuza getirir. İş bilgilerinize güncel, dokunmatik özellikli mobil erişim elde edersiniz. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyip etkileşime geçin.
@@ -118,8 +118,8 @@ Windows 10 cihazlar için Power BI uygulamasını kullanarak Power BI'daki panol
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services mobil raporları ve KPI'leri
 * Windows 10 cihazlar için Power BI uygulamasında [Reporting Services mobil raporlarını ve KPI'lerini görüntüleme](mobile-app-windows-10-ssrs-kpis-mobile-reports.md).
-* [Reporting Services web portalında KPI'ler](https://msdn.microsoft.com/library/mt683632.aspx) oluşturma.
-* [SQL Server Mobil Rapor Yayımcısı ile kendi mobil raporlarınızı oluşturma](https://msdn.microsoft.com/library/mt652547.aspx) ve bu raporları Reporting Services web portalında yayımlama.
+* [Reporting Services web portalında KPI'ler](/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
+* [SQL Server Mobil Rapor Yayımcısı ile kendi mobil raporlarınızı oluşturma](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) ve bu raporları Reporting Services web portalında yayımlama.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * Windows Mağazası'ndan [Power BI uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkID=526478)  

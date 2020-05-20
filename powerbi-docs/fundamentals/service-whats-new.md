@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361210"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566075"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -224,7 +224,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="june-2017"></a>Haziran 2017
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/) genel kullanıma açıldı.
-* [Zamanlanmış yenilemeyi otomatikleştirme](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [raporları kopyalama ve yeniden bağlama](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [ağ geçidi bağlamalarını güncelleştirme](https://msdn.microsoft.com/library/mt784650.aspx) ve çok daha fazlası için çoklu API geliştirmeleri
+* [Zamanlanmış yenilemeyi otomatikleştirme](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [raporları kopyalama ve yeniden bağlama](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [ağ geçidi bağlamalarını güncelleştirme](/rest/api/power-bi/) ve çok daha fazlası için çoklu API geliştirmeleri
 * Power BI uygulamalarında pano kutucuklarından diğer panolara ve raporlara göreli bağlantılar.
 * [Impala bağlayıcısı](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala) Power BI Desktop'ta genel kullanıma açıldı.
 * Power BI’ın görsel özelliklerini [etkileşimli R Power BI görselleriyle](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/) genişletme.

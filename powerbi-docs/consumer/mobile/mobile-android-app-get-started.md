@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 105cef5b9df49d076491057d73f6929d46216a8b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347229"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564872"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -27,7 +27,7 @@ Power BI Desktop'ta Power BI raporları oluşturur ve bunları yayımlarsınız:
 
 Daha sonra Android için Power BI uygulamasında, şirket içinde veya bulutta olmaları fark etmeksizin panolarınızla ve raporlarınızla etkileşime geçin.
 
-[Power BI mobil uygulamalarındaki yenilikleri](../../mobile-whats-new-in-the-mobile-apps.md) öğrenin.
+[Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -40,7 +40,7 @@ Power BI, Android 5.0 veya sonraki işletim sistemlerini çalıştıran birkaç 
 **Uygulamayı açtığınızda çalışmaya başlayın**    
 Kaydolmanıza veya oturum açmanıza gerek kalmadan, Android cihazınızdaki Power BI uygulaması ile neler yapabileceğinize ilişkin hızlı bir genel bakış edinmek için oturum açma sayfalarına göz atabilirsiniz. Örnekleri görüntülemek ve incelemek için **Atla**'ya dokunun ve uygulamayı bizzat deneyin. Panoların bulunduğu giriş sayfasından dilediğiniz zaman [örneklere geri dönebilirsiniz](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples).
 
-[Power BI mobil uygulamalarındaki yenilikleri](../../mobile-whats-new-in-the-mobile-apps.md) öğrenin.
+[Power BI mobil uygulamalarındaki yenilikleri](mobile-whats-new-in-the-mobile-apps.md) öğrenin.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Web üzerinde Power BI hizmetine kaydolma
 Henüz kaydolmadıysanız [Power BI hizmeti](https://powerbi.com/) sayfasına gidin. Kendi hesabınızla panolar ve raporlar oluşturup bunları saklamanın yanı sıra verilerinizi bir araya getirmek için hizmete kaydolun. Ardından, nerede olursanız olun Android cihazınızdan panolarınızı görebilmek için Power BI'da oturum açın.
@@ -101,14 +101,14 @@ Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yan
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI panoları ve raporları
 * [Uygulamalarınızı](../../collaborate-share/service-create-distribute-apps.md) görüntüleme.
-* [Panolarınızı](../../mobile-apps-view-dashboard.md) görüntüleme.
-* [Panolarınızdaki kutucukları](../../mobile-tiles-in-the-mobile-apps.md) araştırma.
-* [Power BI raporlarını](../../mobile-reports-in-the-mobile-apps.md) açma.
+* [Panolarınızı](mobile-apps-view-dashboard.md) görüntüleme.
+* [Panolarınızdaki kutucukları](mobile-tiles-in-the-mobile-apps.md) araştırma.
+* [Power BI raporlarını](mobile-reports-in-the-mobile-apps.md) açma.
 * [Uygulamalarınızı](../../collaborate-share/service-create-distribute-apps.md) görüntüleme.
 * [Kutucuklara not ekleme ve kutucukları paylaşma](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
-* [Panoları](../../mobile-share-dashboard-from-the-mobile-apps.md) paylaşma.
-* Android telefonunuzla [bir Power BI QR kodu tarayarak](../../mobile-apps-qr-code.md) ilişkili pano kutucuklarını veya raporları açma. 
-* İş arkadaşlarınızın sizinle paylaştığı panolar gibi, [Power BI hesabınızdaki güncelleştirmelere yönelik bildirimleri](../../mobile-apps-notification-center.md) görüntüleme.
+* [Panoları](mobile-share-dashboard-from-the-mobile-apps.md) paylaşma.
+* Android telefonunuzla [bir Power BI QR kodu tarayarak](mobile-apps-qr-code.md) ilişkili pano kutucuklarını veya raporları açma. 
+* İş arkadaşlarınızın sizinle paylaştığı panolar gibi, [Power BI hesabınızdaki güncelleştirmelere yönelik bildirimleri](mobile-apps-notification-center.md) görüntüleme.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI Rapor Sunucusu ve Reporting Services web portallarındaki raporlar ve KPI'ler
 * Android cihazlardaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).

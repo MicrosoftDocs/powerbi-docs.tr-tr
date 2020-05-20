@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: c125f1cdd30a717ae7f4cdb93cbf8ea5ed858e79
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865196"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564735"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Ana performans göstergesi (KPI) görselleştirmeleri oluşturma
 
@@ -23,7 +23,7 @@ ms.locfileid: "82865196"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI’ler hakkında daha fazla bilgi için bkz. [PowerPivot’da Ana Performans Göstergeleri (KPI’ler)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
+Ana Performans Göstergesi (KPI), ölçülebilen bir hedefe yönelik ilerlemeyi gösteren bir görsel ipucudur. KPI’ler hakkında daha fazla bilgi için bkz. [PowerPivot’da Ana Performans Göstergeleri (KPI’ler)](https://support.office.com/en-us/article/Key-Performance-Indicators-KPIs-in-Power-Pivot-E653EDEF-8A21-40E4-9ECE-83A6C8C306AA).
 
 
 ## <a name="when-to-use-a-kpi"></a>KPI'ler ne zaman kullanılır?

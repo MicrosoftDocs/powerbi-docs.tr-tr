@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349253"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565845"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma
 
@@ -46,7 +46,7 @@ Satış Raporunuzda ürün kategorilerini ve alt kategorilerini "Cell phones –
 
 2. Varsayılan olarak, yeni bir hesaplanmış sütunun adı **Sütun** olur. Sütunu yeniden adlandırmazsanız ek olarak oluşturulacak sütunlar **Sütun 2**, **Sütun 3** ve benzeri şekilde adlandırılır. Sütununuzun daha iyi ayırt edilebilir olmasını istiyorsunuz. Bu nedenle, **Sütun** adı formül çubuğunda zaten vurgulandığı için **ProductFullCategory** yazarak yeniden adlandırın ve sonra bir eşittir ( **=** ) işareti girin.
 
-3. Yeni sütununuzdaki değerlerin **ProductCategory** alanındaki adla başlamasını istiyorsunuz. Bu sütun farklı ancak ilişkili bir tabloda olduğundan, sütuna [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) işlevini kullanarak ulaşabilirsiniz.
+3. Yeni sütununuzdaki değerlerin **ProductCategory** alanındaki adla başlamasını istiyorsunuz. Bu sütun farklı ancak ilişkili bir tabloda olduğundan, sütuna [RELATED](/dax/related-function-dax) işlevini kullanarak ulaşabilirsiniz.
 
    Eşittir işaretinden sonra **r** yazın. Bir açılır öneri listesinde, R harfiyle başlayan tüm DAX işlevleri gösterilir. Bir işlev seçildiğinde, etkisinin açıklaması gösterilir. Siz yazdıkça, öneri listesi ihtiyaç duyduğunuz işleve yaklaşacak şekilde ölçeklendirilir. **RELATED** öğesini seçin ve sonra **Enter** tuşuna basın.
 
@@ -97,7 +97,7 @@ Artık yeni **ProductFullCategory** sütununuzu **ProductFullCategory** ölçüt
 
 Contoso Satış Örneği, hem etkin hem de etkin olmayan mağazaların satış verilerini içerir. Bir **Active StoreName** alanı oluşturarak raporunuzda etkin mağaza satışlarının etkin olmayan mağaza satışlarından net bir şekilde ayrılmasını istiyorsunuz. Yeni **Active StoreName** hesaplanmış sütununda her bir etkin mağaza, mağazanın tam adı ile görünürken etkin olmayan mağazaların satışları **Inactive** adlı tek bir satırın altında gruplandırılır.
 
-Neyse ki, **Stores** tablosunda etkin mağazalar için "On" ve etkin olmayan mağazalar için "Off" değerlerine sahip **Status** adlı bir sütun bulunur ve bu sütun kullanılarak yeni **Active StoreName** sütunumuza ait değerleri oluşturabiliriz. DAX formülünüz her bir mağazanın [Status](https://msdn.microsoft.com/library/ee634824.aspx) değerini test etmek ve sonuca bağlı olarak belirli bir değer döndürmek üzere mantıksal **IF** işlevini kullanır. Mağazanın **Status** değeri “On” ise formül, mağazanın adını döndürür. "Off" ise formül "Inactive" durumunda bir **Active StoreName** atar.
+Neyse ki, **Stores** tablosunda etkin mağazalar için "On" ve etkin olmayan mağazalar için "Off" değerlerine sahip **Status** adlı bir sütun bulunur ve bu sütun kullanılarak yeni **Active StoreName** sütunumuza ait değerleri oluşturabiliriz. DAX formülünüz her bir mağazanın [Status](/dax/if-function-dax) değerini test etmek ve sonuca bağlı olarak belirli bir değer döndürmek üzere mantıksal **IF** işlevini kullanır. Mağazanın **Status** değeri “On” ise formül, mağazanın adını döndürür. "Off" ise formül "Inactive" durumunda bir **Active StoreName** atar.
 
 1. **Stores** tablosunda yeni bir hesaplanmış sütun oluşturun ve formül çubuğunda **Active StoreName** olarak adlandırın.
 
@@ -133,4 +133,4 @@ Hesaplanmış sütunlar verilerinizi zenginleştirerek daha kolay içgörüler s
 
 DAX formüllerine ilişkin derinlemesine bilgi edinmek ve daha gelişmiş formüllerle hesaplamış sütunlar oluşturmak istiyorsanız bkz. [Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler](desktop-quickstart-learn-dax-basics.md). Bu makale söz dizimi ve işlevler gibi DAX temel kavramlarını ele alır ve bağlama ilişkin daha kapsamlı bilgi sunar.
 
-Sık kullanılanlar listenize [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'nu eklediğinizden emin olun. Burada DAX söz dizimi, işleçleri ve 200'ü aşkın DAX işleviyle ilgili ayrıntılı bilgi bulabilirsiniz.
+Sık kullanılanlar listenize [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)'nu eklediğinizden emin olun. Burada DAX söz dizimi, işleçleri ve 200'ü aşkın DAX işleviyle ilgili ayrıntılı bilgi bulabilirsiniz.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348379"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565753"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -31,7 +31,7 @@ Power BI hizmetiyle (app.powerbi.com) raporunuzu Microsoft PowerPoint’te yayı
 
 **Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
 
-Ayrıca isterseniz Power BI hizmetindeki görselleri tek tek kopyalayıp PowerPoint'e (veya yapıştırmayı destekleyen herhangi bir programa) yapıştırabilirsiniz. **Resim olarak kopyala** simgesini seçerek görseli panonuza kopyalayın. Ardından PowerPoint’i açın ve görseli yapıştırın. Daha fazla bilgi için bkz. [Görselleri statik resim olarak kopyalama](../power-bi-visualization-copy-paste.md).
+Ayrıca isterseniz Power BI hizmetindeki görselleri tek tek kopyalayıp PowerPoint'e (veya yapıştırmayı destekleyen herhangi bir programa) yapıştırabilirsiniz. **Resim olarak kopyala** simgesini seçerek görseli panonuza kopyalayın. Ardından PowerPoint’i açın ve görseli yapıştırın. Daha fazla bilgi için bkz. [Görselleri statik resim olarak kopyalama](../visuals/power-bi-visualization-copy-paste.md).
 
 ![Resim olarak kopyala simgesini seçme](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
  
 
-* Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde [URL filtreleri](../service-url-filters.md) dikkate alınmaz.
+* Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde [URL filtreleri](../collaborate-share/service-url-filters.md) dikkate alınmaz.
 
 * PowerPoint'e aktarma sırasında raporda kullanılan özel yazı tipleri, varsayılan yazı tipiyle değiştirilir.
 
 * Aşağıdaki görsel türleri desteklenmez ve PowerPoint'e aktarılmaz:
-   - [Sertifikalanmamış özel görseller](../developer/power-bi-custom-visuals-certified.md) desteklenmez. 
+   - [Sertifikalanmamış özel görseller](../developer/visuals/power-bi-custom-visuals-certified.md) desteklenmez. 
    - [ESRI ArcGIS görseli](../visuals/power-bi-visualizations-arcgis.md) desteklenmiyor
    - R ve Python görselleri desteklenmez.
    - Arka plan görüntüleri grafiğin sınırlayıcı alanına göre kırpılır. Raporu PowerPoint’e aktarmadan önce arka plan görüntülerini kaldırmanızı öneririz.
@@ -109,5 +109,5 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Görselleri statik resim olarak kopyalama](../power-bi-visualization-copy-paste.md)    
+[Görselleri statik resim olarak kopyalama](../visuals/power-bi-visualization-copy-paste.md)    
 [Rapor yazdırma](end-user-print.md)

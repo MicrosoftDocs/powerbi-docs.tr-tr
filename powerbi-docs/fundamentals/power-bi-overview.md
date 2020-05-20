@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349621"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564461"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. Power BI veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
@@ -70,6 +70,6 @@ Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız 
 [Power BI Rapor Sunucusu](../report-server/get-started.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-- [Hızlı başlangıç: Power BI hizmetini öğrenme](../service-the-new-power-bi-experience.md)   
+- [Hızlı başlangıç: Power BI hizmetini öğrenme](../consumer/end-user-experience.md)   
 - [Öğretici: Power BI hizmeti ile çalışmaya başlama](service-get-started.md)
 - [Hızlı başlangıç: Power BI Desktop'taki verilere bağlanma](../connect-data/desktop-quickstart-connect-to-data.md)

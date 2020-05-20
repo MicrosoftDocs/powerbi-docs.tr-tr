@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308958"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565358"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 
@@ -54,9 +54,9 @@ Tüm bilgileri doldurduktan sonra **Ekle**'yi seçin. Şirket içi bir Analysis 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-Bir kullanıcının Analysis Services'e bağlı bir raporla kurduğu her etkileşimde etkin kullanıcı adı ağ geçidine ve ardından şirket içi Analysis Services sunucunuza geçirilir. Power BI'da oturum açarken kullandığınız e-posta adresi etkin kullanıcı olarak Analysis Services'e geçirilir. Bu adres [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth) bağlantı özelliğine geçirilir. 
+Bir kullanıcının Analysis Services'e bağlı bir raporla kurduğu her etkileşimde etkin kullanıcı adı ağ geçidine ve ardından şirket içi Analysis Services sunucunuza geçirilir. Power BI'da oturum açarken kullandığınız e-posta adresi etkin kullanıcı olarak Analysis Services'e geçirilir. Bu adres [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth) bağlantı özelliğine geçirilir. 
 
-E-posta adresinin, yerel Active Directory etki alanında tanımlı bir kullanıcı asıl adı (UPN) ile eşleşmesi gerekir. UPN, Active Directory hesabının bir özelliğidir. Windows hesabının bir Analysis Services rolünde yer alması gerekir. Active Directory'de eşleşme bulunamazsa oturum açma işlemi başarılı olmaz. Active Directory ve kullanıcı adlandırması hakkında daha fazla bilgi edinmek için bkz. [Kullanıcı adlandırma öznitelikleri](https://msdn.microsoft.com/library/ms677605.aspx).
+E-posta adresinin, yerel Active Directory etki alanında tanımlı bir kullanıcı asıl adı (UPN) ile eşleşmesi gerekir. UPN, Active Directory hesabının bir özelliğidir. Windows hesabının bir Analysis Services rolünde yer alması gerekir. Active Directory'de eşleşme bulunamazsa oturum açma işlemi başarılı olmaz. Active Directory ve kullanıcı adlandırması hakkında daha fazla bilgi edinmek için bkz. [Kullanıcı adlandırma öznitelikleri](/windows/win32/ad/naming-properties).
 
 Ayrıca [Power BI oturum açma adınızı yerel dizin UPN'si ile eşleyebilirsiniz](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources).
 
@@ -203,7 +203,7 @@ Kullanıcının model verilerini sorgulayabilme ve görüntüleyebilme becerisi 
 - Windows kullanıcı hesaplarının üye olduğu roller.
 - Yapılandırıldıysa, dinamik satır düzeyi güvenlik.
 
-Modellerde rol ve dinamik satır düzeyi güvenlik uygulaması, bu makalede ele alınmamıştır. Daha fazla bilgi edinmek için MSDN'deki [Roller (SSAS Tablosu)](https://msdn.microsoft.com/library/hh213165.aspx) ve [Güvenlik Rolleri (Analysis Services - Çok boyutlu veriler)](https://msdn.microsoft.com/library/ms174840.aspx) konularını gözden geçirin. Tablolu model güvenliğini en ayrıntılı şekilde kavramak için [Tablolu BI Anlam Modelinin Güvenliğini Sağlama teknik incelemesini](https://msdn.microsoft.com/library/jj127437.aspx) indirin ve okuyun.
+Modellerde rol ve dinamik satır düzeyi güvenlik uygulaması, bu makalede ele alınmamıştır. Daha fazla bilgi edinmek için MSDN'deki [Roller (SSAS Tablosu)](/analysis-services/tabular-models/roles-ssas-tabular) ve [Güvenlik Rolleri (Analysis Services - Çok boyutlu veriler)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data) konularını gözden geçirin. Tablolu model güvenliğini en ayrıntılı şekilde kavramak için [Tablolu BI Anlam Modelinin Güvenliğini Sağlama teknik incelemesini](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) indirin ve okuyun.
 
 ## <a name="what-about-azure-ad"></a>Azure AD için ne söylenebilir?
 

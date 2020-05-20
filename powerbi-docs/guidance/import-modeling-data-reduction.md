@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279492"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565983"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 
@@ -105,4 +105,3 @@ Power BI İçeri Aktarma modeli tasarımı hakkında daha fazla bilgi için aşa
 - [Power BI Desktop’ta bileşik modeller kullanma](../transform-model/desktop-composite-models.md)
 - [Power BI Desktop’ta depolama Modu](../transform-model/desktop-storage-mode.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

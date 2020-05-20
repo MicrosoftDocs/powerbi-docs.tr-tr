@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297987"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564758"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI raporlarını mobil uygulama için iyileştirme
 Dikey düzen oluşturarak mobil uygulamalarda rapor görüntüleme deneyimini geliştirebilirsiniz. Power BI Desktop ve Power BI hizmetinde, dikey modda en iyi deneyim için rapor görsellerini yeniden düzenleyebilir ve yeniden boyutlandırabilirsiniz.  
@@ -58,7 +58,7 @@ Power BI, veri görüntüleme önceliğini görsel boyutuna göre değiştirir. 
 
 ![Esnek görsel yeniden boyutlandırma](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görselleri en iyi duruma getirme](../visuals/desktop-create-responsive-visuals.md) hakkında daha fazla bilgi edinin.
+Her bir görsel için esneklik seçeneğini açıp kapatabilirsiniz. [Görselleri en iyi duruma getirme](../visuals/power-bi-report-visualizations.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Telefon rapor düzenlerini oluştururken dikkat edilecek noktalar
 * Çok sayfalı raporlarda tüm sayfaları veya yalnızca birkaç tanesini en iyi duruma getirebilirsiniz. 
@@ -108,5 +108,5 @@ Raporu okuyanlar sayfayı yatay modda görmek için telefonlarını veya tabletl
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da bir panonun telefon görünümünü oluşturma](service-create-dashboard-mobile-phone-view.md).
 * [View Power BI reports optimized for your phone (Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme)](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../visuals/desktop-create-responsive-visuals.md).
+* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../visuals/power-bi-report-visualizations.md).
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/).

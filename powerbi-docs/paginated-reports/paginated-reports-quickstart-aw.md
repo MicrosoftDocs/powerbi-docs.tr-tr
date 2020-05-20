@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145220"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565661"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
 
@@ -42,7 +42,7 @@ Sayfalandırılmış rapor oluşturmanın önkoşulları şunlardır:
 
 Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşullar şunlardır:
 
-- [Power BI Pro lisansına](../service-admin-power-bi-pro-in-your-organization.md) ihtiyacınız vardır.
+- [Power BI Pro lisansına](../admin/service-admin-licensing-organization.md) ihtiyacınız vardır.
 - Hizmette [Power BI Premium kapasitesinde](../admin/service-premium-what-is.md) bir çalışma alanınız olmalıdır. Çalışma alanı adının yanında ![Premium elmas simgesi](media/paginated-reports-quickstart-aw/premium-diamond.png) bulunur.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Sihirbazla matris oluşturma

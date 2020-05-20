@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313397"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565868"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>DAX kullanımıyla ilgili temel bilgileri Power BI Desktop’ta kullanma
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmaktadır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi inceleyeceğiz ve öğrendiklerinizi sınamaya yönelik bilgi kontrolü gerçekleştireceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.
@@ -66,7 +66,7 @@ Bu ölçü, bir rapora eklendiğinde, dahil ettiğimiz diğer alanların her bir
 
 Kendinize "Bu ölçü, raporuma yalnızca SalesAmount alanını ekleyerek gerçekleştirdiğim işlemle aynı sonucu vermiyor mu?" sorusunu soruyor olabilirsiniz. Bu doğru olabilir. Ancak, SalesAmount alanındaki değerleri toplayan kendi ölçünüzü oluşturmak için geçerli bir nedeniniz var: Bunu diğer formüllerde bağımsız değişken olarak kullanabiliriz. Bunlar şu anda biraz kafa karıştırıcı görünebilir ancak DAX formül becerileriniz arttıkça bu ölçü, formüllerinizin ve modelinizin daha verimli olmasını sağlayacaktır. Aslında, daha sonra Total Sales ölçüsünün başka formüllerde bir bağımsız değişken olarak karşımıza çıkacağını göreceksiniz.
 
-Bu formüle ilişkin birkaç noktanın daha üzerinde duralım. Özellikle belirtmek gerekirse, [SUM](https://msdn.microsoft.com/library/ee634387.aspx) işlevini tanıttık. İşlevler; sayılar, tarihler, saatler, metinler ve daha fazlasıyla karmaşık hesaplamalar ve işlemeler gerçekleştirmeyi kolaylaştıran, önceden yazılmış formüllerdir. İlerleyen bölümlerde işlevler hakkında daha fazla bilgi edineceksiniz.
+Bu formüle ilişkin birkaç noktanın daha üzerinde duralım. Özellikle belirtmek gerekirse, [SUM](/dax/sum-function-dax) işlevini tanıttık. İşlevler; sayılar, tarihler, saatler, metinler ve daha fazlasıyla karmaşık hesaplamalar ve işlemeler gerçekleştirmeyi kolaylaştıran, önceden yazılmış formüllerdir. İlerleyen bölümlerde işlevler hakkında daha fazla bilgi edineceksiniz.
 
 Ayrıca sütun adı olan [SalesAmount] ifadesinin, sütunun ait olduğu Sales tablosundan sonra geldiğine de dikkat edin. Sütun adının tablo adını izlediği bu ad, tam sütun adı olarak bilinir. Aynı tabloda başvurulan sütunlar, tablo adının formülde yer almasını gerektirmez. Tablo adının formüle eklenmesi, daha kısa ve okunması daha kolay olan birçok sütuna başvuran uzun formüller oluşturabilir. Ancak, aynı tabloda olsalar bile ölçü formüllerinize tablo adını eklemek iyi bir uygulamadır.
 
@@ -121,7 +121,7 @@ Başardınız! DAX kullanarak karmaşık bir ölçü oluşturdunuz ve bu hiç de
 
 DAX formüllerinin birkaç önemli yönüyle tanıştınız: 
 
-- Bu formül iki işlev içeriyordu. Akıllı zaman gösterimi işlevi olan [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) işlevi, bir filtre işlevi olan [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) işlevine geçirilen bir bağımsız değişken olarak iç içe geçirilmiştir. 
+- Bu formül iki işlev içeriyordu. Akıllı zaman gösterimi işlevi olan [PREVIOUSQUARTER](/dax/previousquarter-function-dax) işlevi, bir filtre işlevi olan [CALCULATE](/dax/calculate-function-dax) işlevine geçirilen bir bağımsız değişken olarak iç içe geçirilmiştir. 
 
    DAX formülleri, iç içe geçmiş en fazla 64 işlev içerebilir. Bir formülün bu kadar çok iç içe geçmiş işlev içermesi pek olası değildir. Aslında böyle bir formülün oluşturulup ayıklanması zor olurdu ve formül büyük olasılıkla pek hızlı da çalışmazdı.
 
@@ -142,7 +142,7 @@ Yanıtlara bu makalenin sonunda ulaşabilirsiniz.
 ### <a name="functions"></a>İşlevler
 İşlevler, bağımsız değişken olarak adlandırılan belirli değerleri özel bir sırada veya yapıda kullanarak hesaplamalar gerçekleştiren, önceden tanımlanmış formüllerdir. Diğer işlevler, farklı bir formül, ifade, sütun başvurular, sayılar, metinler, TRUE veya FALSE gibi mantıksal değerler ya da sabitler birer bağımsız değişken olabilir.
 
-DAX şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.com/library/ee634786.aspx), [Akıllı Zaman Gösterimi](https://msdn.microsoft.com/library/ee634763.aspx),[Bilgi](https://msdn.microsoft.com/library/ee634552.aspx), [Mantıksal](https://msdn.microsoft.com/library/ee634365.aspx),[Matematiksel](https://msdn.microsoft.com/library/ee634241.aspx), [İstatistiksel](https://msdn.microsoft.com/library/ee634822.aspx), [Metin](https://msdn.microsoft.com/library/ee634938.aspx), [Üst/Alt Öğe](https://msdn.microsoft.com/library/mt150102.aspx) ve [Diğer](https://msdn.microsoft.com/library/mt150101.aspx) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
+DAX şu işlev kategorilerini içerir: [Tarih ve Saat](/dax/date-and-time-functions-dax), [Akıllı Zaman Gösterimi](/dax/time-intelligence-functions-dax),[Bilgi](/dax/information-functions-dax), [Mantıksal](/dax/logical-functions-dax),[Matematiksel](/dax/math-and-trig-functions-dax), [İstatistiksel](/dax/statistical-functions-dax), [Metin](/dax/text-functions-dax), [Üst/Alt Öğe](/dax/parent-and-child-functions-dax) ve [Diğer](/dax/other-functions-dax) işlevler. Excel formüllerindeki işlevlere aşinaysanız DAX'taki işlevlerin çoğu tanıdık gelecektir ancak DAX işlevleri, aşağıdaki yönlerden benzersizdir:
 
 * Bir DAX işlevi, her zaman sütunun veya tablonun tamamına başvurur. Bir tablo veya sütundaki belirli değerleri kullanmak istiyorsanız formüle filtre ekleyebilirsiniz.
 * Hesaplamaları satır bazında özelleştirmeniz gerekiyorsa DAX, bağlama göre değişiklik gösteren hesaplamalar gerçekleştirmek için geçerli satır değerini veya ilgili bir değeri bağımsız değişken türü olarak kullanmanıza olanak sağlayan işlevler sunar. İlerleyen bölümlerde bağlam hakkında daha fazla bilgi edineceksiniz.
@@ -150,7 +150,7 @@ DAX şu işlev kategorilerini içerir: [Tarih ve Saat](https://msdn.microsoft.co
 * DAX, pek çok akıllı zaman gösterimi işlevi içerir. Bu işlevler, tarih aralıklarını tanımlamanıza veya seçmenize ve bunlara bağlı olarak dinamik hesaplamalar gerçekleştirmenize olanak sağlar. Örneğin, paralel dönemler için toplamları karşılaştırabilirsiniz.
 * Excel, popüler bir işlev olan DÜŞEYARA işlevini içerir. DAX işlevleri, Excel'deki DÜŞEYARA işlevinde olduğu gibi başvuru olarak bir hücreyi veya hücre aralığını almaz. DAX işlevleri, başvuru olarak bir sütunu veya tabloyu alır. Power BI Desktop'ta ilişkisel bir veri modeli ile çalıştığınızı unutmayın. Başka bir tablodaki değerlere bakmak kolaydır ve çoğu durumda formül oluşturmanız bile gerekmez.
   
-  Gördüğünüz gibi DAX'taki işlevler, etkili formüller oluşturmanıza yardımcı olabilir. Aslında yalnızca işlevler ile ilgili temel bilgilere değindik. DAX becerileriniz geliştikçe çok çeşitli işlevleri kullanarak formüller oluşturabileceksiniz. DAX işlevlerinin her biri hakkında daha fazla bilgi edinmek için kullanabileceğiniz en iyi yerlerden biri de [DAX İşlev Başvurusu](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)'dur.
+  Gördüğünüz gibi DAX'taki işlevler, etkili formüller oluşturmanıza yardımcı olabilir. Aslında yalnızca işlevler ile ilgili temel bilgilere değindik. DAX becerileriniz geliştikçe çok çeşitli işlevleri kullanarak formüller oluşturabileceksiniz. DAX işlevlerinin her biri hakkında daha fazla bilgi edinmek için kullanabileceğiniz en iyi yerlerden biri de [DAX İşlev Başvurusu](/dax/)'dur.
 
 ### <a name="functions-quickquiz"></a>İşlevlere ilişkin Hızlı Test
 1. Bir işlev her zaman neye başvurur?
@@ -210,7 +210,7 @@ Hayal edebileceğiniz gibi, bir formülde filtre bağlamını tanımlayarak çok
 Yanıtlara bu makalenin sonunda ulaşabilirsiniz.
 
 ## <a name="summary"></a>Özet
-DAX'taki en önemli kavramları temel düzeyde öğrendiğinize göre kendi kendinize ölçüler için DAX formülleri oluşturmaya başlayabilirsiniz. DAX'ı öğrenmek gerçekten de biraz karmaşık olabilir ancak kullanabileceğiniz pek çok kaynak mevcuttur. Bu makaleyi okuyup kendi formüllerinizin birkaçıyla deneme yaptıktan sonra işinizle ilgili sorunları çözmenize yardımcı olabilecek diğer DAX kavram ve formülleri hakkında daha fazla bilgi edinebilirsiniz. Yararlanabileceğiniz birçok DAX kaynağından en önemlisi, [Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)'dur.
+DAX'taki en önemli kavramları temel düzeyde öğrendiğinize göre kendi kendinize ölçüler için DAX formülleri oluşturmaya başlayabilirsiniz. DAX'ı öğrenmek gerçekten de biraz karmaşık olabilir ancak kullanabileceğiniz pek çok kaynak mevcuttur. Bu makaleyi okuyup kendi formüllerinizin birkaçıyla deneme yaptıktan sonra işinizle ilgili sorunları çözmenize yardımcı olabilecek diğer DAX kavram ve formülleri hakkında daha fazla bilgi edinebilirsiniz. Yararlanabileceğiniz birçok DAX kaynağından en önemlisi, [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)'dur.
 
 DAX, Power Pivot ve Analysis Services Tablolu modelleri gibi diğer Microsoft BI araçlarında yıllardır kullanıldığı için ulaşabileceğiniz pek çok harika bilgi vardır. Hem Microsoft hem de önde gelen BI uzmanları tarafından sunulan kitaplarda, teknik incelemelerde ve bloglarda daha fazla bilgiye ulaşabilirsiniz. [TechNet'teki DAX Resource Center Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) de başlangıç için harika bir kaynaktır.
 
@@ -224,11 +224,10 @@ Söz dizimi:
 
 1. Bir tablo ve sütun.
 2. Evet. Bir formül, en fazla 64 iç içe geçmiş işlev içerebilir.
-3. [Metin işlevleri](https://msdn.microsoft.com/library/ee634938.aspx).
+3. [Metin işlevleri](/dax/text-functions-dax).
 
 Bağlam:
 
 1. Satır bağlamı ve filtre bağlamı.
 2. Bir hesaplamada tek bir değeri belirleyen bir veya daha fazla filtre.
 3. Geçerli satır.
-

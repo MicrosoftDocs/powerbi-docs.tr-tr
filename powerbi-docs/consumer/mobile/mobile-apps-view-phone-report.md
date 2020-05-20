@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273535"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565135"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -60,7 +60,7 @@ Telefon raporları da bir odak modu sunar: Tek bir görselin daha büyük görü
 
 * Telefon raporunda görselin sağ üst köşesindeki üç nokta ( **...** ) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
   
-    ![Odak moduna genişlet](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Odak moduna genişlet](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 Odak modunda yaptığınız değişiklikler rapor tuvaline, rapor tuvalinde yaptıklarınız da odak moduna uygulanır. Örneğin, görseldeki bir değeri vurgulayıp raporun tamamına geri dönerseniz, rapor görselde vurguladığınız değere göre filtrelenmiş halde görüntülenir.
 
@@ -72,7 +72,7 @@ Bazı eylemler ekran boyutu kısıtlamaları nedeniyle yalnızca odak modunda ge
   
     Bir görseldeki tüm araştırma düzeyini silmek için üç nokta simgesine ( **...** ) dokunup **Geri döndür**'ü seçin.
   
-    ![Geri döndür](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Geri döndür](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     Geri döndürme işlemi, tüm görsellerdeki araştırma işlemlerini silmek için rapor düzeyinde veya seçili görseldeki araştırma işlemini silmek için görsel düzeyinde kullanılabilir.   
 
@@ -86,14 +86,14 @@ Birkaç farklı türde detaya gitme bulunur:
 2. Araç ipucu görünür. Hiyerarşi tanımlıysa, araç ipucu alt bilgisinde detaya gitme ve detaydan çıkma seçenekleri gösterilir.
 3. Detaya gitmek için aşağı oka dokunun
 
-    ![Detaya git seçeneğine dokunun](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Detaya git seçeneğine dokunun](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. Detaydan çıkmak için yukarı oka dokunun.
 
 ### <a name="drill-to-next-level"></a>Sonraki düzeyde detaya gitme
 1. Telefondaki raporda sağ üst köşedeki üç nokta ( **...** ) simgesine dokunduktan sonra **Odak moduna genişlet**'i seçin.
    
-    ![Odak moduna genişlet](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![Odak moduna genişlet](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     Bu örnekte çubuklar, eyalet değerlerini göstermektedir.
 2. Sol alt köşedeki araştır simgesine ![Araştır simgesi](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) dokunun.
@@ -111,7 +111,7 @@ Birkaç farklı türde detaya gitme bulunur:
     ![Alt düzeye genişletilmiş durumda](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. Özgün düzeye dönmek için üç nokta simgesine ( **...** ) tekrar dokunup **Geri döndür**'ü seçin.
    
-    ![Geri döndür](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![Geri döndür](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Bir değerden detaylandırma
 Detaylandırma, bir rapor sayfasındaki değerleri diğer rapor sayfalarına bağlar. Bir veri noktasından farklı bir rapor sayfasına detaylandırma yaptığınızda, detaylandırılan sayfayı filtrelemek için veri noktası değerleri kullanılır veya sayfa, seçilen verilerin bağlamında olur.
@@ -121,11 +121,11 @@ Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https
 2. Araç ipucu görünür. Detaylandırma tanımlıysa, araç ipucu alt bilgisinde detaylandırma oku gösterilir.
 3. Detaylandırmak için oka dokunun
 
-    ![Detaylandır seçeneğine dokunun](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Detaylandır seçeneğine dokunun](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. Detaylandıracağınız rapor sayfasını seçin
 
-    ![Rapor sayfasını seç](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Rapor sayfasını seç](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. Uygulama üst bilgisinde bulunan Geri düğmesini kullanarak başladığınız sayfaya geri dönün.
 
@@ -133,5 +133,5 @@ Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI mobil uygulamaları için en iyi duruma getirilmiş raporlar oluşturma](../../create-reports/desktop-create-phone-report.md)
 * [Power BI'da bir panonun telefon görünümünü oluşturma](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../../visuals/desktop-create-responsive-visuals.md)
+* [Tüm boyutlar için en iyi duruma getirilmiş esnek görseller oluşturma](../../visuals/power-bi-report-visualizations.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
