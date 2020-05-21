@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2019
+ms.date: 05/19/2020
 ms.author: maggies
-ms.openlocfilehash: 8b103902f7a151dcbfee9fa6ff54830129a65c14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 98b5323efa8b6c6c0e1d6f1dbab640fe5f4cae4c
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279078"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693978"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
@@ -21,7 +21,7 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 
 | Teknik inceleme | Açıklama | Tarih |
 | --- | --- | --- |
-| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://go.microsoft.com/fwlink/?linkid=2057861) |Bu, iyi performans gösteren ve güvenli bir Power BI kuruluş dağıtımına yönelik önemli noktaları açıklayan bir teknik incelemedir. | Temmuz 2018 |
+| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://aka.ms/PBIEnterpriseDeploymentWP) |Bu teknik teknik incelemeye, iyi performanslı ve güvenli bir Kurumsal Power BI dağıtımı için önemli noktalar ve en iyi uygulamalar açıklanmaktadır. | Mayıs 2020 |
 | [Power BI ve Veri Akışları](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Bu teknik incelemede veri akışları teknik ayrıntılarıyla açıklanmakta ve veri akışı özellikleri ile işlevlerinin ardındaki yetenekler ve girişimler açıklanmaktadır. | Kasım 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
 | [Power BI Premium Planlama ve Dağıtım](whitepaper-powerbi-premium-deployment.md)| Bu makalede, düzgün bir şekilde tanımlanmış iş yükleri için Premium kapasitenin planlanması ve dağıtımı ile ilgili rehberlik ve en iyi uygulamalar sunulmaktadır.| Mart 2019 |
@@ -38,4 +38,4 @@ Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Başka sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

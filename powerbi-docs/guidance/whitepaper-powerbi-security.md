@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407528"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565289"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407528"
 
 **Power BI** , Microsoft 'un sunduğu ve kolayca self servis iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (_SaaS_veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda [Office 365 uyumluluk çerçevesi](https://www.microsoft.com/trust-center/compliance/compliance-overview)'Nin D katmanında.
+Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/compliance/compliance-overview)'nde uyumluluk hakkında daha fazla bilgi edinin.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
@@ -87,13 +87,13 @@ Power BI hizmetinin veri depolamak ve yönetmek için kullandığı iki ana depo
 
 Örneğin bir kullanıcı Power BI hizmetine Excel çalışma kitabı aktardığında, bellek içi bir Analysis Services tablolu veritabanı oluşturulur ve en fazla bir saat boyunca (veya sistemde bellek baskısı oluşana kadar) veriler bellek içinde depolanır. Veriler **Azure Blob** depolama alanına da gönderilir.
 
-Kullanıcının Power BI aboneliği hakkındaki meta veriler (panolar, raporlar, son veri kaynakları, çalışma alanları, kurumsal bilgiler, kiracı bilgileri ve sistem hakkında diğer meta verileri gibi), **Azure SQL Veritabanı**’nda depolanır ve güncelleştirilir. Azure SQL Veritabanı’nda depolanan tüm bilgiler [Azure SQL’in Saydam Veri Şifreleme](https://msdn.microsoft.com/library/dn948096.aspx) (TDE) teknolojisi kullanılarak şifrelenir. Azure Blob depolama alanında depolanan tüm veriler de şifrelenir. **Veri Depolama ve Taşıma** bölümünde veri yükleme, depolama ve taşıma işlemi hakkında daha fazla bilgi verilmiştir.
+Kullanıcının Power BI aboneliği hakkındaki meta veriler (panolar, raporlar, son veri kaynakları, çalışma alanları, kurumsal bilgiler, kiracı bilgileri ve sistem hakkında diğer meta verileri gibi), **Azure SQL Veritabanı**’nda depolanır ve güncelleştirilir. Azure SQL Veritabanı’nda depolanan tüm bilgiler [Azure SQL’in Saydam Veri Şifreleme](/azure/sql-database/transparent-data-encryption-azure-sql) (TDE) teknolojisi kullanılarak şifrelenir. Azure Blob depolama alanında depolanan tüm veriler de şifrelenir. **Veri Depolama ve Taşıma** bölümünde veri yükleme, depolama ve taşıma işlemi hakkında daha fazla bilgi verilmiştir.
 
 ## <a name="tenant-creation"></a>Kiracı Oluşturma
 
 Kiracı; kuruluşunuzun Azure, Microsoft Intune, Power BI veya Office 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı benzersizdir ve diğer Azure AD kiracılarından ayrıdır.
 
-Kiracı, bir şirket içindeki kullanıcıları ve bunlarla ilgili bilgileri (parolalarını, kullanıcı profili verilerini, izinlerini vb.) barındırır. Ayrıca bir kuruluşa ve kuruluşun güvenliğine ilişkin grupları, uygulamaları ve diğer bilgileri de içerir. Daha fazla bilgi için bkz. [Azure AD kiracısı nedir?](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant).
+Kiracı, bir şirket içindeki kullanıcıları ve bunlarla ilgili bilgileri (parolalarını, kullanıcı profili verilerini, izinlerini vb.) barındırır. Ayrıca bir kuruluşa ve kuruluşun güvenliğine ilişkin grupları, uygulamaları ve diğer bilgileri de içerir. Daha fazla bilgi için bkz. [Azure AD kiracısı nedir?](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
 Power BI kiracısı, ülkeye (veya bölgeye) en yakın kabul edilen veri merkezinde oluşturulur ve Office 365 veya Power BI hizmeti ilk sağlandığında verilen ve Azure Active Directory’de kiracı için sunulan bilgileri belirtir. Power BI kiracısı bugün söz konusu veri merkezi konumundan taşınmaz.
 
@@ -172,7 +172,7 @@ Power BI hizmeti, verileri **DirectQuery** ile veya içeri aktarmayla erişilmel
 Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açıklanır. **X** işareti ilişkili veri türü kullanıldığında Power BI verilerinin varlığına işaret eder.
 
 
-|  |İçeri Aktarma  |DirectQuery  |Canlı Bağlantı  |
+|  |İçeri Aktar  |DirectQuery  |Canlı Bağlantı  |
 |---------|---------|---------|---------|
 |Şema     |     X    |    X     |         |
 |Ham veriler     |    X     |         |         |
@@ -198,7 +198,7 @@ CEK’yi şifrelemek için kullanılan Anahtar Şifreleme Anahtarı (KEK) önced
 
 Kurtarma anahtarını temel alan ağ geçidi şifreleme anahtarları hiçbir zaman şirket içi altyapının dışına çıkmaz. Power BI şifrelenmiş şirket içi kimlik bilgilerinin değerlerine erişemez ve bu kimlik bilgilerine müdahale edemez; web istemcileri kimlik bilgilerini iletişim kurdukları belirli ağ geçidiyle ilişkili bir ortak anahtar kullanarak şifreler.
 
-Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlarını [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx) yöntemlerini kullanarak şifreler. [Always Encrypted veritabanı özelliği](https://msdn.microsoft.com/library/mt163865.aspx) hakkında daha fazla bilgi edinebilirsiniz.
+Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlarını [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) yöntemlerini kullanarak şifreler. [Always Encrypted veritabanı özelliği](/sql/relational-databases/security/encryption/always-encrypted-database-engine) hakkında daha fazla bilgi edinebilirsiniz.
 
 #### <a name="datasets"></a>Veri kümeleri
 
@@ -381,7 +381,7 @@ Aşağıda, Power BI için yaygın olarak kullanılan sorular ve yanıtlar veril
 
 **Kullanıcılar Power BI'ı kullanırken nasıl bağlantı kurabilir ve veri kaynaklarına erişebilir?**
 
-* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcılar bir e-posta adresi kullanarak Power BI oturum açtığında; bir Kullanıcı bir veri kaynağına bağlanmaya çalıştığında, Power BI Power BI oturum açma e-posta adresini kimlik bilgileri olarak geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) ile eşleştirilir. Power BI oturum açmak için iş tabanlı e-posta adreslerini kullanan kuruluşlarda (gibi iş kaynaklarında oturum açmak için kullandıkları e-posta _david@contoso.com_ ), eşleme sorunsuz bir şekilde gerçekleşebilir; iş tabanlı e-posta adresleri kullanmayan kuruluşlar (gibi _david@contoso.onmicrosoft.com_ ), oturum açma kimlik bilgileriyle Power BI şirket içi kaynaklara erişime izin vermek için Dizin eşlemesi oluşturulmalıdır.
+* **Power BI kimlik bilgileri ve etki alanı kimlik bilgileri:** Kullanıcılar bir e-posta adresi kullanarak Power BI oturum açtığında; bir Kullanıcı bir veri kaynağına bağlanmaya çalıştığında, Power BI Power BI oturum açma e-posta adresini kimlik bilgileri olarak geçirir. Etki alanına bağlı kaynaklar için (şirket içi veya bulut tabanlı), erişime izin vermeye yetecek kimlik bilgilerinin mevcut olup olmadığını saptamak için oturum açma e-postası dizin hizmeti tarafından bir _Kullanıcı Asıl Adı_ ([UPN](/windows/win32/secauthn/user-name-formats)) ile eşleştirilir. Power BI oturum açmak için iş tabanlı e-posta adreslerini kullanan kuruluşlarda (gibi iş kaynaklarında oturum açmak için kullandıkları e-posta _david@contoso.com_ ), eşleme sorunsuz bir şekilde gerçekleşebilir; iş tabanlı e-posta adresleri kullanmayan kuruluşlar (gibi _david@contoso.onmicrosoft.com_ ), oturum açma kimlik bilgileriyle Power BI şirket içi kaynaklara erişime izin vermek için Dizin eşlemesi oluşturulmalıdır.
 
 * **SQL Server Analysis Services ve Power BI:** Şirket içi SQL Server Analysis Services kullanan kuruluşlar için Power BI, Power BI şirket içi veri ağ geçidini (önceki bölümlerde başvurulduğu gibi bir **ağ geçidi**) sunmaktadır.  Power BI şirket içi veri ağ geçidi, veri kaynaklarında rol düzeyi güvenliği (RLS) zorunlu tutabilir. RLS hakkında daha fazla bilgi için, bu belgenin başlarındaki **Veri Kaynaklarına Yönelik Kullanıcı Kimlik Doğrulaması** bölümüne bakın. Ağ geçitleri hakkında daha fazla bilgi için bkz. Şirket [içi veri ağ geçidi](../connect-data/service-gateway-onprem.md).
 
@@ -487,9 +487,9 @@ Power BI'la ilgili daha fazla bilgi için aşağıdaki kaynaklara bakabilirsiniz
 
 - [Power BI’da Gruplar](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop kullanmaya başlama](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI REST API - Genel Bakış](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Power BI API başvurusu](https://msdn.microsoft.com/library/mt147898.aspx)
-- [Şirket içi veri ağ geçidi](../connect-data/service-gateway-onprem.md)
+- [Power BI REST API - Genel Bakış](/rest/api/power-bi/)
+- [Power BI API başvurusu](/rest/api/power-bi/)
+- [On-premises data gateway (Şirket içi veri ağ geçidi)](../connect-data/service-gateway-onprem.md)
 - [Power BI Ulusal Bulutlar](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI’dan şirket içi veri kaynaklarına SSO için Kerberos kullanma](../connect-data/service-gateway-sso-overview.md)

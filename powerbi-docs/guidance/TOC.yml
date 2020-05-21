@@ -118,7 +118,9 @@
           href: whitepapers.md
         - name: Power BI güvenliği teknik incelemesi
           href: whitepaper-powerbi-security.md
-        - name: Power BI premium dağıtımı
+        - name: Power BI kuruluş dağıtımı teknik incelemesi
+          href: whitepaper-powerbi-enterprise-deployment.md
+        - name: Power BI Premium dağıtımı
           href: whitepaper-powerbi-premium-deployment.md
         - name: Distribute Power BI externally using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dışa yönelik dağıtma)
           href: whitepaper-azure-b2b-power-bi.md

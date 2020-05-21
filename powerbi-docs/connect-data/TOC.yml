@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: Zamanlanmış yenileme yapılandırma
               href: refresh-scheduled-refresh.md
-            - name: Yenileme merkezi
-              href: refresh-center.md
+            - name: Özetleri yenile
+              href: refresh-summaries.md
             - name: Artımlı yenilemeyi yapılandırma
               href: ../admin/service-premium-incremental-refresh.md
             - name: Yerel bir Power BI Desktop dosyasından veri kümesini yenileme

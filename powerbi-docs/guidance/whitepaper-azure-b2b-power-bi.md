@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843653"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565449"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -415,7 +415,7 @@ Artık bu kullanıcı kendileriyle paylaşılan uygulamayı açtığında yalnı
 
 Diğer bir ilginç konu, dinamik satır düzeyi güvenliği 'nin (RLS) Azure AD B2B ile nasıl çalıştığını görtir.
 
-Kısacası, dinamik satır düzeyi güvenliği, Power BI bağlanan kişinin kullanıcı adına göre modeldeki verileri filtreleyerek işe yarar. Kullanıcı grupları için birden çok rol eklemek yerine, modeldeki kullanıcıları tanımlarsınız. Burada ayrıntılı olarak açıklanmaktadır. Kasper da Jong, [Power BI Desktop dinamik güvenlik konusu sayfası](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)ve [Bu teknik](https://msdn.microsoft.com/library/jj127437.aspx) incelemede, satır düzeyindeki güvenliğin tüm özellikleri hakkında ayrıntılı bir yazma işlemi sunar.
+Kısacası, dinamik satır düzeyi güvenliği, Power BI bağlanan kişinin kullanıcı adına göre modeldeki verileri filtreleyerek işe yarar. Kullanıcı grupları için birden çok rol eklemek yerine, modeldeki kullanıcıları tanımlarsınız. Burada ayrıntılı olarak açıklanmaktadır. Kasper da Jong, [Power BI Desktop dinamik güvenlik konusu sayfası](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)ve [Bu teknik](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) incelemede, satır düzeyindeki güvenliğin tüm özellikleri hakkında ayrıntılı bir yazma işlemi sunar.
 
 Küçük bir örneğe bakalım-contoso Sales ile gruplar hakkında basit bir rapora sahiptir:
 
@@ -504,7 +504,7 @@ Dış konuk kullanıcıların kuruluş kiracı ayarında içerik düzenlemesine 
 
 - Power BI Desktop'tan Power BI hizmetine doğrudan yayımlama
 - Konuk kullanıcılar Power BI hizmetindeki hizmet veri kümelerine bağlanmak için Power BI Desktop kullanamaz
-- Office 365 gruplarına bağlı olan klasik çalışma alanları: Konuk Kullanıcı, bu çalışma alanları için yönetici oluşturamaz veya bu alanları kullanamaz. Bunlara üye olabilirler.
+- Microsoft 365 gruplarına bağlı olan klasik çalışma alanları: Konuk Kullanıcı, bu çalışma alanları için yönetici oluşturamaz veya bunları kullanamaz. Bunlara üye olabilirler.
 - Çalışma alanı erişim listeleri için geçici davet gönderme desteklenmez
 - Konuk kullanıcılarda Excel için Power BI Publisher desteklenmez
 - Konuk kullanıcılar Power BI Gateway yükleyemez ve bunu kuruluşunuza bağlayamaz
