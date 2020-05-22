@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565289"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792905"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -91,11 +91,11 @@ Kullanıcının Power BI aboneliği hakkındaki meta veriler (panolar, raporlar,
 
 ## <a name="tenant-creation"></a>Kiracı Oluşturma
 
-Kiracı; kuruluşunuzun Azure, Microsoft Intune, Power BI veya Office 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı benzersizdir ve diğer Azure AD kiracılarından ayrıdır.
+Kiracı, bir kuruluşun Azure, Microsoft Intune, Power BI veya Microsoft 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı benzersizdir ve diğer Azure AD kiracılarından ayrıdır.
 
 Kiracı, bir şirket içindeki kullanıcıları ve bunlarla ilgili bilgileri (parolalarını, kullanıcı profili verilerini, izinlerini vb.) barındırır. Ayrıca bir kuruluşa ve kuruluşun güvenliğine ilişkin grupları, uygulamaları ve diğer bilgileri de içerir. Daha fazla bilgi için bkz. [Azure AD kiracısı nedir?](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
-Power BI kiracısı, ülkeye (veya bölgeye) en yakın kabul edilen veri merkezinde oluşturulur ve Office 365 veya Power BI hizmeti ilk sağlandığında verilen ve Azure Active Directory’de kiracı için sunulan bilgileri belirtir. Power BI kiracısı bugün söz konusu veri merkezi konumundan taşınmaz.
+Veri merkezinde, Microsoft 365 veya Power BI hizmeti başlangıçta sağlandığı zaman sağlanan Azure Active Directory kiracı için sağlanan ülke (veya bölgeye) ve durum bilgilerine en yakın bir Power BI kiracı oluşturulur. Power BI kiracısı bugün söz konusu veri merkezi konumundan taşınmaz.
 
 ### <a name="multiple-geographies-multi-geo"></a>Birden Çok Coğrafi Bölge (Multi-Geo)
 
@@ -129,7 +129,7 @@ Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fa
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 
-Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve kullanıcının tarayıcısı ile Power BI hizmeti veya Power BI tarafından kullanılan Azure hizmeti arasında gerçekleşen yeniden yönlendirmeden oluşur. Bu dizi Power BI’da kullanıcı kimlik doğrulaması işlemini açıklar. Bir kuruluşun kullanıcı kimlik doğrulaması modellerine (oturum açma modelleri) ilişkin seçenekleri hakkında daha fazla bilgi için bkz. [Office 365 için oturum açma modelini seçme](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
+Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve kullanıcının tarayıcısı ile Power BI hizmeti veya Power BI tarafından kullanılan Azure hizmeti arasında gerçekleşen yeniden yönlendirmeden oluşur. Bu dizi Power BI’da kullanıcı kimlik doğrulaması işlemini açıklar. Kuruluşun kullanıcı kimlik doğrulama modelleriyle ilgili seçenekler (oturum açma modelleri) hakkında daha fazla bilgi için bkz. [Microsoft 365 için oturum açma modeli seçme](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Kimlik Doğrulaması Dizisi
 
@@ -245,9 +245,9 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
 1. Meta veriler (rapor tanımı)
 
-   a. Raporlar Office 365 için Excel raporları veya Power BI raporları olabilir. Aşağıdakiler, raporun türüne göre meta veriler için geçerlidir:
+   a. Raporlar, Microsoft 365 raporları veya Power BI raporları için Excel olabilir. Aşağıdakiler, raporun türüne göre meta veriler için geçerlidir:
         
-    &ensp;&ensp;a. Excel rapor meta verileri SQL Azure şifreli olarak depolanır. Meta veriler de Office 365 ' de depolanır.
+    &ensp;&ensp;a. Excel rapor meta verileri SQL Azure şifreli olarak depolanır. Meta veriler de Microsoft 365 depolanır.
 
     &ensp;&ensp;b. Power BI raporlar, Azure SQL veritabanı 'nda şifreli olarak depolanır.
 
@@ -255,13 +255,13 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
    Statik veriler, arka plan görüntüleri ve Power BI görselleri gibi yapıtları içerir.
 
-    &ensp;&ensp;a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey depolanmaz.
+    &ensp;&ensp;a. Microsoft 365 için Excel ile oluşturulan raporlarda hiçbir şey depolanmaz.
 
     &ensp;&ensp;b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
 
 3. Caches
 
-    &ensp;&ensp;a. Office 365 için Excel ile oluşturulan raporlar söz konusu olduğunda hiçbir şey önbelleğe alınmaz.
+    &ensp;&ensp;a. Microsoft 365 için Excel ile oluşturulan raporlarda hiçbir şey önbelleğe alınmaz.
 
     &ensp;&ensp;b. Power BI raporlarında, gösterilen raporların görsellerinin verileri aşağıdaki bölümde açıklanan görsel veri önbelleğinde önbelleğe alınır ve depolanır.
  
