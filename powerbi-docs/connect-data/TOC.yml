@@ -174,7 +174,7 @@
           items:
             - name: Veri kümelerini çalışma alanları arasında kullanma
               href: service-datasets-across-workspaces.md
-            - name: Veri kümelerini paylaşma (Önizleme)
+            - name: Veri kümelerini paylaşma
               href: service-datasets-share.md
             - name: Paylaşılan veri kümeleri için oluşturma izni
               href: service-datasets-build-permissions.md

@@ -43,7 +43,7 @@
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Klasik bir çalışma alanında işbirliği yapma
               href: service-collaborate-power-bi-workspace.md
-            - name: Power BI ve Office 365'teki grubunuzu yönetme
+            - name: Power BI ve Microsoft 365’teki grubunuzu yönetme
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
         - name: Çalışmanızı yayımlama ve paylaşma
           items:
@@ -71,9 +71,11 @@
           items:
             - name: Excel’de Analiz Et
               href: service-analyze-in-excel.md
+            - name: Excel’de öne çıkan Power BI tabloları
+              href: service-excel-featured-tables.md
             - name: Excel’de çözümleme sorunlarını giderme
               href: desktop-troubleshooting-analyze-in-excel.md
-            - name: 'Hata: Excel çalışma kitabınızda herhangi bir veri bulamadık'
+            - name: 'Hata: Excel çalışma kitabınızda veri bulamadık'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate ve Power BI
               href: service-flow-integration.md
