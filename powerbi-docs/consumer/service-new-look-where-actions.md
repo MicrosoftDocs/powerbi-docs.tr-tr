@@ -4,17 +4,17 @@ description: Power BI hizmetinin (app.powerbi.com) görünümü yenilendi ve ço
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f8a771fec64d7206ac544269108f8ba14842e03
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 779c480cd029f6f2bb4ef7d52d49115ff348eb11
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361808"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813865"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Yeni görünüm: Eylemler nereye gitti?
 
