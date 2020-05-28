@@ -1,22 +1,22 @@
 ---
-title: Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
+title: Paylaşılan veri kümeleri için oluşturma izni
 description: Oluşturma iznini kullanarak veri erişimini denetlemeyi öğrenin.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af2e4c865609846d8fcfc792eee4f483afef2160
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285360"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793002"
 ---
-# <a name="build-permission-for-shared-datasets-preview"></a>Paylaşılan veri kümeleri için Oluşturma izni (önizleme)
+# <a name="build-permission-for-shared-datasets"></a>Paylaşılan veri kümeleri için oluşturma izni
 
 Power BI Desktop'ta bir rapor oluşturduğunuzda bu rapordaki veriler bir *veri modelinde* depolanır. Raporlarınızı Power BI hizmetine yayımladığınızda verileri de bir *veri kümesi* olarak yayımlamış olursunuz. Bu rapor için başkalarına *Oluşturma izni* vererek paylaştığınız veri kümesini keşfetmelerini ve yeniden kullanmalarını sağlayabilirsiniz. Bu makalede Oluşturma iznini kullanarak verilere kimin erişebileceğini denetleme konusunda bilgi verilmektedir.
 
@@ -107,5 +107,5 @@ Oluşturma iznini kaldırabilirsiniz. Bunu yaparsanız, izinlerini iptal ettiği
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- [Veri kümelerini çalışma alanları arasında kullanma](service-datasets-across-workspaces.md)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
