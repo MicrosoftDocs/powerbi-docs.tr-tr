@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348149"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693840"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -50,7 +50,7 @@ Power BI raporları için güvenli **Ekleme** özelliğiyle, raporları dahili w
 
 **Ekle** seçeneği, kullanıcılara raporu görüntüleme iznini otomatik olarak vermez. Görüntüleme izinleri Power BI hizmetinde ayarlanır.
 
-Power BI hizmetinde, ekli raporları erişim gerektiren kullanıcılarla paylaşabilirsiniz. Office 365 Grubu kullanıyorsanız, kullanıcıyı çalışma alanı üyesi olarak listeleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI ve Office 365'te çalışma alanınızı yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Power BI hizmetinde, ekli raporları erişim gerektiren kullanıcılarla paylaşabilirsiniz. Microsoft 365 Grubu kullanıyorsanız, kullanıcıyı çalışma alanı üyesi olarak listeleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI ve Microsoft 365'te çalışma alanınızı yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Lisanslama
 

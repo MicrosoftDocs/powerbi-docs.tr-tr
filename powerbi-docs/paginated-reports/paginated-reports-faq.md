@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584998"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565638"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -41,7 +41,7 @@ Kapasite yöneticisi, sayfalandırılmış raporlar iş yükünü kapasite yöne
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>Kiracımda sayfalandırılmış raporların kullanımını nasıl izleyebilirim?
 
-Office 365 denetim günlüklerinde bu rapor türünün kullanımı aşağıdaki olaylar altında ayrıntılarıyla verilir: 
+Denetim günlüklerinde bu rapor türünün kullanımı aşağıdaki olaylar altında ayrıntılarıyla verilir:
 
 - Power BI Raporunu görüntüleme
 - Power BI raporunu silme
@@ -152,7 +152,7 @@ Evet, SSRS'de yapabildiğiniz gibi raporlarınızda kod çalıştırabilme özel
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Sayfalandırılmış raporlarımı barındırdığım bir uygulamaya eklemek için Power BI Embedded’i kullanabilir miyim?
 
-Güvenli Ekleme desteği dahil olmak üzere SaaS ekleme zaten kullanılabilir. PaaS ekleme için [Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embed-paginated-reports-customers.md) öğreticisine bakın.
+Güvenli Ekleme desteği dahil olmak üzere SaaS ekleme zaten kullanılabilir. PaaS ekleme için [Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embedded/embed-paginated-reports-customers.md) öğreticisine bakın.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Bir Power BI raporundan sayfalandırılmış rapora detaylandırma yapabilir miyim?
 

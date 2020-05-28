@@ -4,17 +4,17 @@ description: SQL Server Reporting Services (SSRS) ve Power BI hizmetinin geri ka
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 04/29/2020
+ms.date: 05/14/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141100"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438304"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
@@ -26,7 +26,7 @@ Power BI Rapor Sunucusu, içinde rapor ve KPI’ları görüntüleyip yönettiğ
 Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI hizmeti gibi Power BI Rapor Sunucusu da Power BI raporlarını (.pbix), Excel dosyalarını ve sayfalandırılmış raporları (.rdl) barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir. Power BI Rapor Sunucusu'nun özellikleri Reporting Services’in bir üst kümesidir: Reporting Services'de yapabileceğiniz her şeyi ve Power BI raporları desteğiyle birlikte daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Rapor Sunucusunu lisanslama
-Power BI Rapor Sunucusu iki farklı lisansla sağlanır: [Power BI Premium](../admin/service-premium-what-is.md) ve Yazılım Güvencesi ile [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
+Power BI Rapor Sunucusu iki farklı lisansla sağlanır: [Power BI Premium](../admin/service-premium-what-is.md) ve Yazılım Güvencesi ile SQL Server Enterprise Edition. Ayrıntılar için bkz. [Microsoft Toplu Lisanslama](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True). Bir Power BI Premium lisansı ile bir karma dağıtım bulut ve şirket içi karışımı oluşturabilirsiniz.  
 
 > [!NOTE]
 > Power BI Premium için Power BI Rapor Sunucusu yalnızca P SKU’ları ile birlikte sunulur. EM SKU’larına dahil değildir.

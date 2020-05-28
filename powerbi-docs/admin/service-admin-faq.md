@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344423"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563763"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI yönetimi - sık sorulan sorular (SSS)
 
@@ -81,7 +81,7 @@ Kuruluşunuzdaki kullanıcılar için geçerli olabilecek üç senaryo vardır:
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>Kullanıcıların, var olan Microsoft 365 kiracıma katılmalarını nasıl önleyebilirim?
 
-Bir Microsoft 365 Genel yöneticisi olarak, kullanıcıların Microsoft 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Erişimi engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcıları kuruluşlarının yöneticisiyle iletişim kurmaya yönlendiren bir ileti görüntülenir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar aracılığıyla) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
+Genel yönetici olarak, kullanıcıların Microsoft 365 kiracınıza katılmasını önlemek için uygulayabileceğiniz yöntemler vardır. Erişimi engellerseniz kullanıcıların kaydolma denemeleri başarısızlıkla sonuçlanır ve kullanıcıları kuruluşlarının yöneticisiyle iletişim kurmaya yönlendiren bir ileti görüntülenir. Otomatik lisans dağıtımını (örneğin, Eğitim için Office 365'te Öğrencilere, Fakültelere ve Eğitim Personeline yönelik planlar aracılığıyla) devre dışı bıraktıysanız bu işlemi tekrarlamanıza gerek yoktur.
 
 Yönetilen bir kiracıya yeni kullanıcıların katılmasını önlemek için aşağıdaki PowerShell komutunu kullanın. ([PowerShell hakkında daha fazla bilgi edinin][1].)
 
@@ -184,7 +184,7 @@ Bir kullanıcı Azure AD kullanan bir bulut hizmetine kendi kendine kaydolduğun
 Hiçbir işlem yapmamanız durumunda hizmet, her bir kullanıcı e-postası etki alanı ve alt etki alanı için bir kiracı oluşturur. E-posta adresi uzantılarından bağımsız olarak tüm kullanıcıların aynı kiracıda olmasını istiyorsanız: Önceden bir hedef kiracı oluşturun veya var olan bir kiracıyı kullanın. Daha sonra, kiracıyla birleştirmek istediğiniz tüm mevcut etki alanlarını ve alt etki alanlarını ekleyin. E-postaları bu etki alanları ve alt etki alanları ile sona eren tüm kullanıcılar kaydolduklarında otomatik olarak hedef kiracıya eklenir.
 
 > [!IMPORTANT]
-> Kullanıcıları oluşturduktan sonra, bunları kiracılar arasında taşımak için kullanılabilecek desteklenen herhangi bir otomatik sistem yoktur. Tek bir Microsoft 365 kiracısına etki alanı ekleme hakkında bilgi edinmek için bkz. [Office 365'e etki alanı ve kullanıcı ekleme](/office365/admin/setup/add-domain/).
+> Kullanıcıları oluşturduktan sonra, bunları kiracılar arasında taşımak için kullanılabilecek desteklenen herhangi bir otomatik sistem yoktur. Tek bir Microsoft 365 kiracısına etki alanı ekleme hakkında bilgi edinmek için bkz. [Microsoft 365'e etki alanı ve kullanıcı ekleme](/office365/admin/setup/add-domain/).
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>Kayıtlı kullanıcıların Power BI lisansını nasıl kaldırabilirim?
 
@@ -259,9 +259,9 @@ Microsoft, Power BI’ı Office 365 temel alarak oluşturmuştur. Microsoft 365'
 [Power BI Premium nedir?](service-premium-what-is.md)  
 [Power BI Premium'u satın alma](service-admin-premium-purchase.md)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
-[Power BI ve Office 365'teki grubunuzu yönetme](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Office 365 kullanıcı hesabı yönetimi](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Office 365 grup yönetimi](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[Power BI ve Microsoft 365’teki grubunuzu yönetme](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[İş veya okul hesabını yönetme](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Microsoft 365 grup yönetimi](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

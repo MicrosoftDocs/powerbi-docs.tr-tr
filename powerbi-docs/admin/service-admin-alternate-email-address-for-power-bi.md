@@ -9,37 +9,37 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129442"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564035"
 ---
 # <a name="use-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
 
 Power BI'a kaydolurken bir e-posta adresi belirtirsiniz. Power BI, hizmet etkinlikleriyle ilgili güncelleştirmeleri göndermek için varsayılan olarak bu adresi kullanır. Örneğin size gönderilen paylaşım davetiyeleri bu adrese yönlendirilir.
 
-Bazı durumlarda bu e-postaların kayıt sırasında kullandığınızdan farklı bir e-posta adresine teslim edilmesini isteyebilirsiniz. Bu makalede Office 365 ve PowerShell'de alternatif e-posta adresi belirtme adımları anlatılmaktadır. Makalede ayrıca Azure Active Directory'nin (Azure AD) bir e-posta adresini nasıl çözümlediği açıklanmaktadır.
+Bazı durumlarda bu e-postaların kayıt sırasında kullandığınızdan farklı bir e-posta adresine teslim edilmesini isteyebilirsiniz. Bu makalede Microsoft 365 ve PowerShell'de alternatif e-posta adresi belirtme adımları anlatılmaktadır. Makalede ayrıca Azure Active Directory'nin (Azure AD) bir e-posta adresini nasıl çözümlediği açıklanmaktadır.
 
 > [!NOTE]
 > Alternatif bir e-posta adresi belirtmek, Power BI'ın hizmet güncelleştirmeleri, bültenler ve diğer tanıtım amaçlı yazışmalar için kullandığı e-posta adresini etkilemez. Bu yazışmalar her zaman Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.
 
-## <a name="use-office-365"></a>Office 365'i kullanma
+## <a name="use-microsoft-365"></a>Microsoft 365’i kullanma
 
-Office 365'te alternatif adres belirtmek için aşağıdaki adımları izleyin.
+Microsoft 365'te alternatif adres belirtmek için aşağıdaki adımları izleyin.
 
-1. [Office 365 kişisel bilgiler sayfasını](https://portal.office.com/account/#personalinfo) açın. Uygulamada sorulursa, Power BI için kullandığınız e-posta adresini ve parolayı kullanarak oturum açın.
+1. Hesabınızın [kişisel bilgiler](https://portal.office.com/account/#personalinfo) sayfasını açın. Uygulamada sorulursa, Power BI için kullandığınız e-posta adresini ve parolayı kullanarak oturum açın.
 
 1. Soldaki menüden **Kişisel bilgiler**'i seçin.
 
 1. **Kişi ayrıntıları** bölümünde **Düzenle**'yi seçin.
 
-    Bilgilerinizi düzenleyemiyorsanız e-posta adresiniz Office 365 yöneticiniz tarafından yönetiliyor demektir. E-posta adresinizi güncelleştirmek için yöneticinize başvurun.
+    Bilgilerinizi düzenleyemiyorsanız e-posta adresiniz yöneticiniz tarafından yönetiliyor demektir. E-posta adresinizi güncelleştirmek için yöneticinize başvurun.
 
     ![Kişi ayrıntıları](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
-1. **Alternatif e-posta** alanına Office 365’in Power BI güncelleştirmeleri için kullanılmasını istediğiniz e-posta adresini girin.
+1. **Alternatif e-posta** alanına Microsoft 365’in Power BI güncelleştirmeleri için kullanılmasını istediğiniz e-posta adresini girin.
 
 ## <a name="use-powershell"></a>PowerShell'i kullanma
 

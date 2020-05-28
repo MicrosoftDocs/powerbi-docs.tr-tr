@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
-ms.openlocfilehash: 0a0964f82c80017b53feb668cca8399b18a72cfc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268524"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564059"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>İşlevsel Uygulama Danışmanı öğrenme kataloğu
 
@@ -82,7 +82,7 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 | [Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel dünyanın en popüler programlarından biridir. Milyonlarca kişi ve işletme basit veri girişi ve muhasebeden gelişmiş istatistik ve veri analizine kadar her şey için bu programı kullanır. Öte yandan birçok kişi Excel’in işlevlerini ciddi düzeyde genişletmek, ayrıca bir yandan zaman kazanıp diğer yandan da verimliliği artırmak için bunu başka bir Microsoft programıyla eşleştirebileceğinin farkında değildir: Power BI. Excel ve Power BI’ı birlikte kullanmanın size ve işletmenize avantaj sağlayabileceğini gösteren beş ayrı nedeni inceleyeceğiz. Sonuna geldiğinizde, kuruluşunuzun verilerinizi analiz etme, yorumlama ve bunlardan yararlanma becerisini hemen ortaya koymak için gereken tüm bilgilere sahip olacaksınız. | Web Semineri |   |
 | [Elektronik Tablonun ötesinde](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)  | Tüm Excel kullanıcılarına ve Analistlere sesleniyoruz: daha akıllı çalışın, daha fazla değer ortaya koyun ve önemli konulara odaklanın. İnsanların kullanmak isteyeceği güzel raporlar hazırlamayı, verileri iş arkadaşlarınızın açıklamaya gerek kalmadan anlayabileceği bir şekilde görsel olarak paylaşmayı ve bilgilerden anlam çıkarması gereken herkesin (nerede olurlarsa olsunlar) içgörülere erişebilmesini sağlamayı öğrenin. Bu çevrimiçi oturumda Microsoft Power BI’ı çalışırken izleyin.  | Web Semineri |   |
 | [Power BI ve Visio ile doğru içgörüleri alma](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | Güçlü görsel içgörüler oluşturmak üzere Power BI panoları ile Microsoft Visio diyagramlarını birleştirme hakkında bilgi edinmek için bu web seminerinde bize katılın. Visio ve Power BI yüksek oranda görsel ve doğal olarak tamamlayıcı özelliktedir. Visio’yu kullanarak birbirine bağlı iş akışları ve gerçek dünya düzenleri gibi örnekleyici diyagramlar oluşturabilirsiniz. Power BI, temel performans göstergelerini ölçmek ve hedefleri izlemek amacıyla grafik ve haritaları kullanarak sezgisel panolar oluşturmanıza yardımcı olur.| Web Semineri |   |
-| [Power BI, Excel ve Office 365: Kurumsal Verilerinizi En İyi Duruma Getirme](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | Bol bol tanıtım içeren bu oturumda iş analizlerinizi ve içgörülerinizi artırmak için Power BI’da Microsoft Excel’in benzersiz gücünü kullanmayı öğrenin.  | Web Semineri |   |
+| [Power BI, Excel ve Microsoft 365: Kurumsal Verilerinizi En İyi Duruma Getirme](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)  | Bol bol tanıtım içeren bu oturumda iş analizlerinizi ve içgörülerinizi artırmak için Power BI’da Microsoft Excel’in benzersiz gücünü kullanmayı öğrenin.  | Web Semineri |   |
 | [Power BI’ı Dynamics 365 Finance and Operations ile Kullanma](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations-OnDemand.html)   | Azure Data Lake kullanılarak Power BI raporlama çözümlerinin Dynamics 365 Finance and Operations içine nasıl eklenebileceğini ve buradan nasıl yönetilebileceğini öğrenmek için bu web seminerine kaydolun. Power BI kullanarak hizmet kesintilerine yol açmadan eyleme dönüştürülebilir içgörüleri hızla teslim etmeyi ve analitik çözümleri kuruluşla paylaşmayı öğrenin.  | Web Semineri |   |
 ## <a name="security"></a>Güvenlik<a name="security"></a>
 | İçerik   | Açıklama  | Biçim   | Uzunluk   |
