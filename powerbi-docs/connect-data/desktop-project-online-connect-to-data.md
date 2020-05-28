@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291938"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563064"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop aracılığıyla Project Online verilerine bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
@@ -23,8 +23,8 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
 ## <a name="step-1-download-power-bi-desktop"></a>1\. Adım: Power BI Desktop'ı indirme
 1. [Power BI Desktop'ı indirip](https://go.microsoft.com/fwlink/?LinkID=521662) yükleyiciyi çalıştırarak **Power BI Desktop** uygulamasını bilgisayarınıza yükleyin.
 
-## <a name="step-2-connect-to-project-online-with-odata"></a>2\. Adım: OData ile Project Online'a bağlanma
-1. **Power BI Desktop**’ı açın.
+## <a name="step-2-connect-to-project-online-with-odata"></a>2\. Adım: OData ile Project Online’a bağlanma
+1. **Power BI Desktop**'ı açın.
 2. *Hoş Geldiniz* ekranında **Veri Al**'ı seçin.
 3. **OData akışı**'nı ve ardından **Bağlan**'ı seçin.
 4. URL kutusuna OData akışınızın adresini girip Tamam'a tıklayın.
@@ -35,7 +35,7 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop, Office 365 hesabınızla kimlik doğrulamasından geçmenizi isteyecektir. Kuruluş hesabınızı seçip kimlik bilgilerinizi girin.
+5. Power BI Desktop iş veya okul hesabınızla kimliğinizi doğrulamanızı ister. Kuruluş hesabınızı seçip kimlik bilgilerinizi girin.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

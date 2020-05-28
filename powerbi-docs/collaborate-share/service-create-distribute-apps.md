@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348287"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693576"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -64,7 +64,7 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
 5. **İzinler** bölümünde uygulamaya kimlerin erişebileceğine ve uygulamada neler yapabileceklerine karar verin. 
 
     - [Klasik çalışma alanlarında](service-create-workspaces.md): kuruluşunuzdaki herkes, belirli kişiler veya Azure Active Directory (Azure AD) güvenlik grupları.
-    - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, Azure AD güvenlik grupları ile dağıtım listeleri ve Office 365 Grupları. Tüm çalışma alanı kullanıcılarına çalışma alanı için otomatik olarak uygulamaya erişim verilir.
+    - [Yeni deneyimin çalışma alanlarında](service-create-the-new-workspaces.md): belirli kişiler, Azure AD güvenlik grupları ile dağıtım listeleri ve Microsoft 365 Grupları. Tüm çalışma alanı kullanıcılarına çalışma alanı için otomatik olarak uygulamaya erişim verilir.
     - Derleme iznini vererek, uygulama kullanıcılarının uygulamanın temel veri kümelerine bağlanmasına izin verebilirsiniz. Kullanıcılar paylaşılan veri kümelerini ararken bu veri kümelerini görürler. Bu makaledeki [kullanıcıların uygulama veri kümelerine bağlanmasına izin verme](#allow-users-to-connect-to-datasets) bölümünü okuyun.
     - Derleme izni olan kullanıcılar aynı zamanda bu uygulamadan başka bir çalışma alanına rapor kopyalama iznine de sahip olabilir. Bu makaledeki [kullanıcıların uygulamadaki raporları kopyalamasına izin verme](#allow-users-to-copy-reports) bölümünü okuyun.
     

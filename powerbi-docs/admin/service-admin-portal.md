@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275605"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564484"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
 Yönetici portalı kuruluşunuz için bir Power BI *kiracısını* yönetmenize olanak sağlar. Portal; kullanım ölçümleri, Microsoft 365 yönetim merkezine erişim ve ayarlar gibi öğeleri içerir.
 
-Tam yönetici portalı, Office 365’te Genel Yönetici olan veya kendilerine Power BI hizmeti yöneticisi rolü atanmış tüm kullanıcılar için erişilebilir durumdadır. Bu rollerden birinde değilseniz portalda yalnızca **Kapasite ayarlarını** görürsünüz. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md).
+Yönetici portalının tamamı, genel yönetici olan veya kendilerine Power BI hizmeti yöneticisi rolü atanmış tüm kullanıcılar için erişilebilir durumdadır. Bu rollerden birinde değilseniz portalda yalnızca **Kapasite ayarlarını** görürsünüz. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Yönetici portalına ulaşma
 
-Power BI yönetici portalına erişebilmeniz için hesabınızın, Office 365 veya Azure Active Directory’de (Azure AD) **Genel Yönetici** olarak işaretlenmiş olması veya hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md). Power BI yönetici portalına ulaşmak için aşağıdakileri yapın.
+Power BI yönetici portalına erişebilmeniz için hesabınızın, Microsoft 365 veya Azure Active Directory’de (Azure AD) **Genel Yönetici** olarak işaretlenmiş olması veya hesabınıza Power BI hizmet yöneticisi rolünün atanmış olması gerekir. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md). Power BI yönetici portalına ulaşmak için aşağıdakileri yapın.
 
 1. Power BI hizmetinin sağ üst tarafındaki ayarlar dişli simgesini seçin.
 
@@ -85,7 +85,7 @@ Bu bilgilerle kişilerin kuruluşunuzdaki Power BI’ı nasıl kullandığına i
 
 ## <a name="control-usage-metrics"></a>Kullanım ölçümlerini denetleme
 
-Kullanım ölçümleri raporları, Power BI veya Office 365 yöneticileri tarafından etkinleştirilip devre dışı bırakılabilecek bir özelliktir. Yöneticiler, hangi kullanıcıların kullanım ölçümlerine erişebileceği konusunda ayrıntılı bir denetime sahiptir. Bunlar kuruluştaki tüm kullanıcılar için varsayılan olarak **Açık**'tır.
+Kullanım ölçümleri raporları, Power BI veya Microsoft 365 yöneticileri tarafından etkinleştirilip devre dışı bırakılabilecek bir özelliktir. Yöneticiler, hangi kullanıcıların kullanım ölçümlerine erişebileceği konusunda ayrıntılı bir denetime sahiptir. Bunlar kuruluştaki tüm kullanıcılar için varsayılan olarak **Açık**'tır.
 
 Yöneticiler içerik oluşturucuların kullanım ölçümlerinde kullanıcı başına verileri görüp göremeyeceğini de belirleyebilir. 
 
@@ -189,10 +189,10 @@ Yönetici portalının **Kiracı ayarları** bölümünde çalışma alanların�
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
 
-Office 365 Gruplarını temel alan klasik çalışma alanlarında yönetim yine Office 365 yönetim portalında ve Azure Active Directory'de gerçekleşir.
+Microsoft 365 Gruplarını temel alan klasik çalışma alanlarında yönetim yine yönetim portalında ve Azure Active Directory'de gerçekleşir.
 
 > [!NOTE]
-> **Çalışma alanları oluşturma (yeni çalışma alanı deneyimi)** ayarının varsayılan değeri yalnızca Office 365 Grupları oluşturabilen kullanıcılara yeni Power BI çalışma alanları oluşturma izni verilmesidir. Power BI yönetim portalında uygun kullanıcıların bu öğeleri oluşturabilmesini sağlayacak bir değer ayarlamaya dikkat edin.
+> **Çalışma alanları oluşturma (yeni çalışma alanı deneyimi)** ayarının varsayılan değeri yalnızca Microsoft 365 Grupları oluşturabilen kullanıcılara yeni Power BI çalışma alanları oluşturma izni verilmesidir. Power BI yönetim portalında uygun kullanıcıların bu öğeleri oluşturabilmesini sağlayacak bir değer ayarlamaya dikkat edin.
 
 **Çalışma alanlarının listesi**
 
@@ -334,7 +334,7 @@ Aşağıdaki görüntüde içerik paketi oluşturma sırasında **Tüm kuruluşu
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>Şablon uygulamalar kurumsal içerik paketleri oluşturma
 
-Kuruluştaki kullanıcılar Power BI Desktop’taki bir veri kaynağı üzerinde oluşturulan veri kümelerini kullanan şablon uygulamaları ve kurumsal içerik paketleri oluşturabilir. [Şablon uygulamaları](../template-content-pack-authoring.md) hakkında daha fazla bilgi edinin.
+Kuruluştaki kullanıcılar Power BI Desktop’taki bir veri kaynağı üzerinde oluşturulan veri kümelerini kullanan şablon uygulamaları ve kurumsal içerik paketleri oluşturabilir. [Şablon uygulamaları](../connect-data/service-template-apps-create.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="push-apps-to-end-users"></a>Son kullanıcılara uygulama gönderme
 
@@ -625,7 +625,3 @@ Burada, içeriği kimin ne zaman öne çıkardığına ve içeriğin tüm ilgili
 [Kuruluşunuzda Power BI'ı denetleme](service-admin-auditing.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-
-
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275421"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564398"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 
@@ -45,9 +45,9 @@ Yukarıdaki **Arka Uç** kümesi resminde yer alan kesik çizgi, kullanıcılar 
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 
-Power BI, oturum açan kullanıcıların kimliğini doğrulamak için Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) hizmetini; kullanıcının, kimlik doğrulaması gerektiren kaynaklara erişmeye çalışması halinde ise Power BI oturum açma kimlik bilgilerini kullanır. Power BI hizmetinde, Power BI hesabını oluşturmak için kullandığı e-posta adresiyle oturum açan kullanıcılar için Power BI, ilgili e-posta adresini *etkin kullanıcı adı* olarak kullanır ve kullanıcı verilere bağlanmaya çalıştığında kaynaklara bu bilgiyi iletir. Ardından *etkin kullanıcı adı* bir *Kullanıcı Asıl Adı* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) ile eşlenerek ilişkili Windows etki alanı hesabı çözümlenir ve kimlik doğrulaması bu hesaba uygulanır.
+Power BI, oturum açan kullanıcıların kimliğini doğrulamak için Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) hizmetini; kullanıcının, kimlik doğrulaması gerektiren kaynaklara erişmeye çalışması halinde ise Power BI oturum açma kimlik bilgilerini kullanır. Power BI hizmetinde, Power BI hesabını oluşturmak için kullandığı e-posta adresiyle oturum açan kullanıcılar için Power BI, ilgili e-posta adresini *etkin kullanıcı adı* olarak kullanır ve kullanıcı verilere bağlanmaya çalıştığında kaynaklara bu bilgiyi iletir. Ardından *etkin kullanıcı adı* bir [*Kullanıcı Asıl Adı* (UPN)](/windows/win32/secauthn/user-name-formats) ile eşlenerek ilişkili Windows etki alanı hesabı çözümlenir ve kimlik doğrulaması bu hesaba uygulanır.
 
-Power BI oturumu açmak için iş e-postalarını kullanan kuruluşlarda (<em>david@contoso.com</em> gibi) *etkin kullanıcı adı* doğrudan UPN ile eşlenir. Power BI oturumu açmak için iş e-postalarını kullanmayan kuruluşlarda (<em>david@contoso.onmicrosoft.com</em> gibi) AAD ve şirket içi kimlik bilgileri arasında eşleme yapılabilmesi için [dizin eşitleme](https://technet.microsoft.com/library/jj573653.aspx) hizmetinin düzgün çalışması gerekir.
+Power BI oturumu açmak için iş e-postalarını kullanan kuruluşlarda (<em>david@contoso.com</em> gibi) *etkin kullanıcı adı* doğrudan UPN ile eşlenir. Power BI oturumu açmak için iş e-postalarını kullanmayan kuruluşlarda (<em>david@contoso.onmicrosoft.com</em> gibi) AAD ve şirket içi kimlik bilgileri arasında eşleme yapılabilmesi için [dizin eşitleme](/azure/active-directory-domain-services/synchronization) hizmetinin düzgün çalışması gerekir.
 
 Power BI için platform güvenliği aynı zamanda çok kiracılı ortam güvenliğini, ağ güvenliğini ve AAD tabanlı ek güvenlik önlemleri ekleme olanağını da kapsar.
 
@@ -68,4 +68,3 @@ Bu zorlama kayıt defteri anahtarlarının ayarlanmasıyla sağlanabilir. Zorlam
 **Power BI Desktop**, bu makalelerde anlatılan kayıt defteri anahtarı ayarlarını dikkate alır ve bu kayıt defteri ayarları mevcut olduğunda yalnızca izin verilen TLS sürümü kullanılarak oluşturulan bağlantılara izin verilir.
 
 Bu kayıt defteri anahtarlarını oluşturma hakkında daha fazla bilgi için [TLS Kayıt Defteri Ayarları](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) makalesini inceleyin.
-

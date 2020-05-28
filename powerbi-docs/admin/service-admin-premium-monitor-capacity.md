@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137651"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564374"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Kapasiteleri Yönetim portalında veya **Power BI Premium Kapasite Ölçümleri** uygulamasıyla izleyebilirsiniz. Bu makalede Premium Kapasite Ölçümleri uygulamasının kullanımı açıklanır. Uygulama kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Son yedi günün ortalama kullanım ölçümlerine üst düzey bir genel bakış için Yönetim portalını kullanabilirsiniz. Portalı izleme hakkında daha fazla bilgi edinmek için bkz. [Yönetim portalında Premium kapasiteleri izleme](service-admin-premium-monitor-portal.md).
 
-Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Uygulamanın önceki bir sürümünü zaten yüklediyseniz, en iyisi bunu uygulamalarınızdan silmek ve sonra CTRL+F5 tuşlarına basarak yenilemektir.
+Uygulama yeni özellikler ve işlevsellikle düzenli olarak güncelleştirilir. En son sürümü çalıştırdığınızdan emin olun. Yeni sürüm kullanıma sunulduğunda [bildirim](../connect-data/service-template-apps-install-distribute.md#update-a-template-app) alırsınız.
 
 > [!IMPORTANT]
 > Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Bu, aşırı yüklenmiş kapasitelerde sorun gidermeye yönelik basitleştirilmiş bir yöntemdir. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
-Doğrudan [Premium Kapasite Ölçümleri uygulamasına](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) gidebilir veya Power BI'daki diğer uygulamalar gibi yükleyebilirsiniz.
-
-1. Power BI'da **Uygulamalar**'a tıklayın.
-
-    ![Uygulamalar bölümüne gidin](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. Sağ taraftaki **Uygulama edinin**'e tıklayın.
-3. **Uygulamalar** kategorisinde **Power BI Premium Capacity Metrics uygulamasını** arayın.
-4. Uygulamayı yüklemek için abone olun.
-
-Sabırlı olun. Ölçümleri yüklemek ve yenilemek birkaç dakika sürer. Uygulama boş ölçümler gösteriyorsa, F5 tuşuna basarak tarayıcınızı yenileyin.
+Uygulamayı yüklemeyi ve verilere bağlanmayı öğrenmek için [Power BI Premium Kapasite Ölçümlerine Bağlanma](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md) bölümüne gidin. Alternatif olarak [doğrudan uygulamaya gidin](https://go.microsoft.com/fwlink/?linkid=2114036).
 
 ## <a name="get-app-refresh-history"></a>Uygulama yenileme geçmişini alma
 
-Premium Kapasite Ölçümleri uygulamanızın en son ne zaman yenilendiğine bakmak için, **Ayarlar** > **Veri Kümeleri** > **Power BI Premium Kapasite Ölçümleri** > **Yenileme Geçmişi**'ne tıklayın. 
+Premium Kapasite Ölçümleri uygulamasının en son ne zaman yenilendiğini denetlemek için:
 
-![Ayarlar'da yenileme geçmişi](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. Uygulamayla birlikte yüklenen çalışma alanına gidin.
 
-Son yenileme gösterilir; zamanlanmış ve isteğe bağlı yenilemeleri görmek için **Yenileme geçmişi**'ne tıklayın.
+   ![Uygulama çalışma alanına gidin](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![Son yenileme](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. Veri kümesi satırında **Yenilemeyi zamanla** düğmesine tıklayın.
+
+   ![Yenilemeyi zamanla düğmesi](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   Son yenileme gösterilir. Zamanlanmış ve isteğe bağlı yenilemeleri görmek için **Yenileme geçmişi**'ne tıklayın.
+
+   ![Son yenileme](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>Uygulama ile kapasiteleri izleme
 
