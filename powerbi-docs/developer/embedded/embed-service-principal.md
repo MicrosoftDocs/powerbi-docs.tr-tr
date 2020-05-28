@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275973"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121202"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -188,7 +188,6 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 * Üretime geçilirken adanmış kapasite gerekir.
 * Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.
 * Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
-* Hizmet sorumlusunu kullanarak şirket içi veri ağ geçidini yükleyemez veya yönetemezsiniz.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../../transform-model/service-dataflows-overview.md) yönetimi desteklenmez.
 * Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
