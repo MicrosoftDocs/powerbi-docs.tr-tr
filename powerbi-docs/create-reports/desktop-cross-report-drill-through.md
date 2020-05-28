@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0c9f9c0f24ad40fadb7d0bd61cd6a6ce7d318e74
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178ad340a9a3ccd9d6427dc6bad03b6d8d08ce90
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297849"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694055"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Power BI’da çapraz rapor detaylandırma özelliğini kullanma
 
@@ -31,7 +31,7 @@ Detaylandırma eylemi *hedef raporda* *hedef sayfayı* açar.
 Bu makalede Power BI raporları için çapraz rapor detaylandırma özelliğini nasıl ayarlayacağınız ve kullanacağınız gösterilir.
 
 > [!NOTE]
-> Çapraz rapor detaylandırma özelliğini [Çalışma Alanım](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) içinde bireysel olarak paylaşılan **Benimle paylaşılan** raporlarda kullanamazsınız. Çapraz rapor detaylandırma özelliğini kullanmak için, raporlara paylaşıldıkları çalışma alanında erişmeniz gerekir.
+> Çapraz rapor detaylandırma özelliğini bireysel olarak paylaşılan [Benimle paylaşılan raporlarda](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) kullanamazsınız. Çapraz rapor detaylandırma özelliğini kullanmak için, üyesi olduğunuz çalışma alanlarındaki raporlara erişmeniz gerekir.
 
 ## <a name="enable-cross-report-drillthrough"></a>Çapraz rapor detaylandırmayı etkinleştirme
 

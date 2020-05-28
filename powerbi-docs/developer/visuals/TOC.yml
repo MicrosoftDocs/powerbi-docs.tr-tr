@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: AppSource'ta Power BI görsellerini yayımlama
           href: office-store.md
+        - name: R destekli görseller oluşturma
+          href: create-r-based-power-bi-desktop.md
         - name: Power BI görselinizi test etme
           href: submission-testing.md
         - name: Power BI’da R destekli Power BI görsellerini kullanma
