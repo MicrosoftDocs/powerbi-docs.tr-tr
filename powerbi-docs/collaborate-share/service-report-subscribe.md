@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273650"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438235"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -105,12 +105,13 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 
 ### <a name="general"></a>Genel
 
-- E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
-- Abonelik e-postalarının istenmeyen posta klasörüne gitmesini önlemek için, kişilerinize Power BI e-posta diğer adını ([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com)) ekleyin. Microsoft Outlook kullanıyorsanız diğer ada sağ tıklayın ve **Outlook kişilerine ekle**’yi seçin.
+- Aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandığında abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışırız. Bununla birlikte talebin yoğun olduğu bazı durumlarda Power BI’ın aynı anda gönderebildiği aboneliklerin sayısına bağlı olarak daha uzun bir gecikmeyle karşılaşabilirsiniz. Müşterilerin çoğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır. Kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bu kadar uzun bir gecikmeyle karşılaşırsanız, önce e-posta sağlayıcınızın `no-reply-powerbi@microsoft.com` adresini izin verilenler listesine eklediğinden emin olun.  Eklemişse, yardım için Power BI desteğine başvurun.
 - Kendiniz dışındaki kullanıcıları abone yaparken, sayfalandırılmış raporlar haricinde canlı bağlantı veri kümeleri kullanan raporlara ve panolara yönelik e-posta abonelikleri şu anda desteklenmiyor. Güvenlik bağlamınızı kullanarak diğer kullanıcıları sayfalandırılmış raporlara abone yapabilirsiniz. [Sayfalandırılmış raporlara abone olma](../consumer/paginated-reports-subscriptions.md) hakkında daha fazla bilgi edinin.
 - Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır. Ancak bir panoya veya rapora abonelik eklerseniz bu abonelik ziyaret edilmese bile duraklatılmaz.
 - Abonelik e-postalarını almıyorsanız Kullanıcı Asıl Adınızın (UPN) e-posta alabildiğinden emin olun.
 - Panonuz veya raporunuz Premium kapasitedeyse iş arkadaşlarını her seferinde bir e-posta adresi girerek abone yapmak yerine abonelikler için grup e-postası diğer adını kullanabilirsiniz. Diğer adlar için geçerli Active Directory temel alınır.
+- İçeriğiniz Premium kapasitede değilse yalnızca Power BI Pro kullanıcıları e-posta aboneliklerini alabilir. 
+- Abonelikler şu anda yer işaretlerini desteklememektedir.
 
 ### <a name="dashboards"></a>Panolar
 
@@ -118,7 +119,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - E-posta aboneliklerinin, alıcılarına teslim edilmesi nadiren beş dakikadan uzun sürebilir. Bu durumda, veri yenilemenizin çalıştırılmasını ve zamanında teslimden emin olunması için e-posta aboneliklerinin farklı zamanlarda e-postayla gönderilmesini öneririz. Sorun devam ederse, Power BI desteğiyle iletişime geçin.
 - Pano e-posta abonelikleri için, satır düzeyi güvenlik (RLS) uygulanan kutucuklar varsa, bu kutucuklar görüntülenmez.
 - Pano abonelikleri için belirli kutucuk türleri henüz desteklenmiyor. Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.
-- Bir panoyu kiracınız dışındaki bir iş arkadaşıyla paylaşıyorsanız, pano Premium çalışma alanında veya uygulamada *yer almadığı* sürece bu iş arkadaşı için bir de abonelik oluşturamazsınız. Bu nedenle, siz aaron@contoso.com kişisiyseniz anyone@fabrikam.com kişisiyle paylaşım yapabilirsiniz, ancak henüz anyone@fabrikam.com kişisini abone yapamazsınız ve bu kişi paylaşılan içeriğe abone olamaz.
+- Bir panoyu kiracınız dışındaki bir iş arkadaşıyla paylaşıyorsanız, pano Premium çalışma alanında veya uygulamada *yer almadığı* sürece bu iş arkadaşı için bir de abonelik oluşturamazsınız. Bu nedenle, siz `aaron@contoso.com` kişisiyseniz `anyone@fabrikam.com` kişisiyle paylaşım yapabilirsiniz, ancak henüz `anyone@fabrikam.com` kişisini abone yapamazsınız ve bu kişi paylaşılan içeriğe abone olamaz.
 
 ### <a name="reports"></a>Raporlar
 

@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4995671fe5a3a4af0e74ce97d3227f73f005dc3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348540"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564085"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
 [Power BI'da bir çalışma alanı oluşturduktan](../collaborate-share/service-create-distribute-apps.md) sonra Power BI çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz. Bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 
 
 > [!NOTE]
-> Yeni çalışma alanı deneyimi, Power BI çalışma alanlarıyla Office 365 grupları arasındaki ilişkileri değiştiriyor. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Office 365 grubu oluşturmazsınız. [Yeni çalışma alanları oluşturma](../collaborate-share/service-create-the-new-workspaces.md) hakkında bilgi edinin
+> Yeni çalışma alanı deneyimi, Power BI çalışma alanlarıyla Microsoft 365 grupları arasındaki ilişkileri değiştiriyor. Yeni çalışma alanlarından birini her oluşturduğunuzda otomatik olarak bir Microsoft 365 grubu oluşturmazsınız. [Yeni çalışma alanları oluşturma](../collaborate-share/service-create-the-new-workspaces.md) hakkında bilgi edinin
 
 Çalışma alanınıza dosya eklemek iki adımlı bir işlemdir: 
 
@@ -34,10 +34,10 @@ ms.locfileid: "83348540"
 1. Power BI hizmetinde Çalışma Alanı'nın yanındaki oku ve ardından çalışma alanı adınızın yanındaki üç nokta ( **…** ) simgesini seçin. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
-2. Office 365'te çalışma alanınız için OneDrive İş'i açmak üzere **Dosyalar**'ı seçin.
+2. Microsoft 365'te çalışma alanınız için OneDrive İş'i açmak üzere **Dosyalar**'ı seçin.
    
    > [!NOTE]
-   > Çalışma alanı menüsünde **Dosyalar**'ı görmüyorsanız çalışma alanınız için OneDrive İş'i açmak üzere **Üyeler**'i seçin. Burada, **Dosyalar** seçeneğini belirleyin. Office 365, uygulamanızın grup çalışma alanı dosyaları için bir OneDrive depolama konumu ayarlar. Bu işlem biraz zaman alabilir. 
+   > Çalışma alanı menüsünde **Dosyalar**'ı görmüyorsanız çalışma alanınız için OneDrive İş'i açmak üzere **Üyeler**'i seçin. Burada, **Dosyalar** seçeneğini belirleyin. Microsoft 365, uygulamanızın grup çalışma alanı dosyaları için bir OneDrive depolama konumu ayarlar. Bu işlem biraz zaman alabilir.
    > 
    > 
 3. Buradan çalışma alanınız için OneDrive İş'e dosyalarınızı yükleyebilirsiniz. **Karşıya Yükle**'yi seçip dosyalarınıza gidin.

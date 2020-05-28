@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129069"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564627"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
-Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Power BI'la kullanıcı etkinliğini izlemek için iki seçeneğiniz vardır: [Power BI etkinlik günlüğü](#use-the-activity-log) ve [birleşik Office 365 denetim günlüğü](#use-the-audit-log). Bu günlüklerin her ikisi de [Power BI denetim verilerinin](#operations-available-in-the-audit-and-activity-logs) eksiksiz kopyasını içerir ama aşağıdaki tabloda özetlendiği gibi bazı önemli farklılıklar vardır.
+Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunları kimin yaptığını bilmek kuruluşunuzun mevzuata uygunluk ve kayıt yönetimi gibi gereksinimleri karşılamasına yardımcı olması konusunda kritik öneme sahip olabilir. Power BI'la kullanıcı etkinliğini izlemek için iki seçeneğiniz vardır: [Power BI etkinlik günlüğü](#use-the-activity-log) ve [birleşik denetim günlüğü](#use-the-audit-log). Bu günlüklerin her ikisi de [Power BI denetim verilerinin](#operations-available-in-the-audit-and-activity-logs) eksiksiz kopyasını içerir ama aşağıdaki tabloda özetlendiği gibi bazı önemli farklılıklar vardır.
 
-| **Birleşik Office 365 denetim günlüğü** | **Power BI etkinlik günlüğü** |
+| **Birleşik denetim günlüğü** | **Power BI etkinlik günlüğü** |
 | --- | --- |
 | Power BI denetim olaylarına ek olarak SharePoint Online, Exchange Online, Dynamics 365 ve diğer hizmetlerden olayları içerir. | Yalnızca Power BI denetim olaylarını içerir. |
 | Yalnızca genel yöneticiler ve denetçiler gibi Yalnızca Görüntülenebilir Denetim Günlükleri ve Denetim Günlükleri izinleri olan kullanıcılar erişebilir. | Genel yöneticilerin ve Power BI hizmeti yöneticilerinin erişimi vardır. |
-| Genel yöneticiler ve denetçiler Office 365 Güvenlik ve Uyumluluk Merkezi'ni, Microsoft 365 Güvenlik Merkezi'ni ve Microsoft 365 Uyumluluk Merkezi'ni kullanarak birleşik denetim günlüğünde arama yapabilir. | Henüz etkinlik günlüğünde arama yapmaya yönelik kullanıcı arabirimi yoktur. |
+| Genel yöneticiler ve denetçiler Microsoft 365 Güvenlik Merkezi'ni ve Microsoft 365 Uyumluluk Merkezi'ni kullanarak birleşik denetim günlüğünde arama yapabilir. | Henüz etkinlik günlüğünde arama yapmaya yönelik kullanıcı arabirimi yoktur. |
 | Genel yöneticiler ve denetçiler Office 365 Yönetim API'lerini ve cmdlet'leri kullanarak denetim günlüğü girdilerini indirebilir. | Genel yöneticiler ve Power BI hizmeti yöneticileri Power BI REST API'sini ve yönetim cmdlet'ini kullanarak etkinlik günlüğü girdilerini indirebilir. |
 | Denetim verilerini 90 gün süreyle tutar | Etkinlik verilerini 30 gün süreyle tutar (genel önizleme). |
 | Kiracı farklı bir Azure bölgesine taşınsa bile denetim verilerini korur. | Kiracı farklı bir Azure bölgesine taşındığında etkinlik verilerini korumaz. |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>Denetim günlüğünü kullanma
 
-Göreviniz Power BI ve Office 365'te kullanıcı etkinliklerini izlemekse, Office 365 Güvenlik ve Uyumluluk Merkezi'deki denetim özelliğiyle çalışır veya PowerShell'i kullanırsınız. Denetim, Power BI'ı desteklemek için otomatik olarak sağlanan Exchange Online'ın işlevselliğine dayanır.
+Göreviniz Power BI ve Microsoft 365'te kullanıcı etkinliklerini izlemekse, Office 365 Güvenlik ve Uyumluluk Merkezi'deki denetim özelliğiyle çalışır veya PowerShell'i kullanırsınız. Denetim, Power BI'ı desteklemek için otomatik olarak sağlanan Exchange Online'ın işlevselliğine dayanır.
 
 Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri kümesine ve etkinlik türüne göre filtreleyebilirsiniz. İsterseniz etkinlikleri csv (virgülle ayrılmış değer) dosyası halinde indirerek çevrimdışı analiz gerçekleştirebilirsiniz.
 
@@ -184,7 +184,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 
 #### <a name="view-the-details-for-an-event"></a>Olay ayrıntılarını görüntüleme
 
-Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Office 365 hizmetine bağlı olarak özellikler gösterilir.
+Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Microsoft 365 hizmetine bağlı olarak özellikler gösterilir.
 
 Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 

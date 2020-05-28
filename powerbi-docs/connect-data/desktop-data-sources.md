@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb1b96f46761bf0c724abb8e36de8bb93634fdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347666"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693615"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -99,6 +99,7 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence
+* Linkar PICK Style / MultiValue Databases (Beta)
 * MarkLogic
 
 > [!NOTE]
@@ -139,6 +140,7 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * HDInsight Etkileşimli Sorgu
 * Azure Veri Gezgini (Kusto)
 * Azure Maliyet Yönetimi
+* Azure Time Series Insights (Beta)
 
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -187,12 +189,13 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Industrial App Store
 * Intune Veri Ambarı (Beta)
 * Microsoft Graph Güvenliği (Beta)
-* Product Insights (Beta)
+* Power BI için Projectplace (Beta)
+* Product Insights (beta)
 * Quick Base
 * TeamDesk (Beta)
-* Workplace Analytics (Beta)
-* Power BI için Projectplace (Beta)
 * Webtrends Analytics (Beta)
+* Witivio (Beta)
+* Workplace Analytics (Beta)
 * Zoho Creator (Beta)
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -215,7 +218,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
-* BI360 - Budgeting & Financial Reporting (Beta)
+* Solver
 * Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
@@ -224,15 +227,14 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
+* Shortcuts Business Insights (Beta)
 * Siteimprove
 * SurveyMonkey (Beta)
+* Tenforce (Smart)List
 * TIBCO(R) Veri Sanallaştırması (Beta)
 * Vena (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
-* Tenforce (Smart)List
-* Shortcuts Business Insights (Beta)
-* Vessel Insight (Beta)
 * Boş Sorgu
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.

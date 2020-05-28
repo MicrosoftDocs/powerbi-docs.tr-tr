@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360934"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566052"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 [//]: # "Tatevik Tatero, Chauncy Freels ile çalışan ve bu web semineri listesini korumaya yardımcı olan bir satıcıdır"
@@ -22,13 +22,20 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-Henüz zamanlanmış web semineri yok. Gelecek diğer olaylar için çok yakında tekrar denetleyin.
+**Analytics ile BI arasında ne fark vardır?**
+<br>Nate Findley ve Charles Feddersen, Microsoft
+<br>[3 Haziran 2020'de (10:00 – 11:00 PDT) izlemek için kaydolun]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
+
+**Microsoft Power BI’ın Toplam Ekonomik Etkisini İnceleme**
+<br>Megan Tomlin, Microsoft ve Jonathan Lipsitz, Forrester Consulting
+<br>[Hemen izleyin]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**
 <br>Gayle Sheppard ve John Macintyre
@@ -86,7 +93,7 @@ Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
 <br>Hazırlayan: Nimrod Shalit
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel ve Office 365: Kurumsal Verilerinizi En İyi Duruma Getirme**
+**Power BI, Excel ve Microsoft 365: Kurumsal Verilerinizi En İyi Duruma Getirme**
 <br>Sağlayan: Olaf Hubel ve Miguel Martinez
 <br>[Hemen kaydolun ve izleyin](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

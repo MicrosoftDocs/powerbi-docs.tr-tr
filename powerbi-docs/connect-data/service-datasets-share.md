@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284808"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565472"
 ---
 # <a name="share-a-dataset-preview"></a>Veri kümesi paylaşma (önizleme)
 
@@ -24,7 +24,7 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 
 1. Power BI Desktop’taki bir veri modelinde .pbix dosyası oluşturarak başlayın. Bu veri kümesini diğerlerinin rapor oluşturması için sunmayı planlıyorsanız .pbix dosyasında rapor tasarlamasanız da olur.
 
-    .pbix dosyasını bir Office 365 grubuna kaydetmek en iyi yöntemlerden biridir.
+    .pbix dosyasını bir Microsoft 365 grubuna kaydetmek en iyi yöntemlerden biridir.
 
 1. .pbix dosyasını Power BI hizmetindeki bir [yeni deneyim çalışma alanında](../collaborate-share/service-create-the-new-workspaces.md) yayımlayın.
     
@@ -54,4 +54,4 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
-- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129671"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692735"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
 [//]: # "suparnap, miwehnia bu listeyi korumaya yönelik ilgili kişilerdir"
@@ -34,11 +34,11 @@ Joker karakterler (*) kök etki alanı altındaki tüm düzeyleri temsil eder ve
 
 ## <a name="authentication"></a>Kimlik Doğrulama
 
-Power BI, Office 365 kimlik doğrulama ve kimlik bölümündeki gerekli uç noktaları kullanır. Power BI'ı kullanmak için aşağıdaki bağlantıdan ulaşabileceğiniz sitede yer alan uç noktalara bağlanabiliyor olmanız gerekir.
+Power BI, Microsoft 365 kimlik doğrulaması ve kimlik bölümlerindeki gerekli uç noktaları kullanır. Power BI'ı kullanmak için aşağıdaki bağlantıdan ulaşabileceğiniz sitede yer alan uç noktalara bağlanabiliyor olmanız gerekir.
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Kimlik doğrulaması ve kimlik | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın.  | YOK |
+| 1 | **Gerekli:** Kimlik doğrulaması ve kimlik | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın  | YOK |
 
 ## <a name="general-site-usage"></a>Genel site kullanımı
 
@@ -48,12 +48,12 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 | --- | --- | --- | --- |
 | 1 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
 | 2 | **Gerekli:** Arka uç API’leri | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **Gerekli:** Office 365 tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
-| 4 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
-| 5 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
-| 6 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
-| 7 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
-| 8 | **İsteğe bağlı:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 3 | **Gerekli:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 4 | **Gerekli:** Microsoft 365 tümleştirmesi | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
+| 5 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
+| 7 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
+| 8 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Yönetim
@@ -62,7 +62,7 @@ Power BI'da yönetim işlevleri gerçekleştirmek için aşağıda bağlantısı
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Kullanıcıları yönetmek ve denetim günlüklerini görüntülemek için | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 1 | **Gerekli:** Kullanıcıları yönetmek ve denetim günlüklerini görüntülemek için | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
 | | | |
 
 ## <a name="getting-data"></a>Veri alma
@@ -84,7 +84,7 @@ Power BI, panolarınızı ve raporlarınızı desteklemek için belirli uç nokt
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Excel tümleştirmesi | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) için Office 365 belgelerine bakın. | YOK |
+| 1 | **Gerekli:** Excel tümleştirmesi | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
 | | | |
 
 ## <a name="power-bi-visuals"></a>Power BI görselleri
@@ -96,7 +96,7 @@ Power BI, Power BI görsellerini görüntülemek ve onlara erişim sağlamak iç
 | 1 | **Gerekli:** Market arabiriminden veya dosyadan özel görsel içeri aktarma | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **İsteğe bağlı:** Bing Haritalar | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **İsteğe bağlı:** PowerApps | PowerApps sistem gereksinimleri sitesinin [Gerekli hizmetler bölümüne](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) bakın | YOK |
-| 4 | **İsteğe bağlı:** Visio | [Office Online ve ortak URL'ler](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) için Office 365 belgelerine bakın. | YOK |
+| 4 | **İsteğe bağlı:** Visio | [Microsoft 365 Ortak ve Office Online URL'leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile [SharePoint Online ve OneDrive İş](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) ile ilgili belgelere bakın. | YOK |
 | | | |
 
 ## <a name="related-external-sites"></a>İlgili dış siteler

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143847"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693895"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Power BI sekmesinden Microsoft Teams’e rapor ekleme
 
@@ -28,11 +28,12 @@ Güncelleştirilmiş Microsoft Teams için Power BI sekmesi sayesinde etkileşim
 - Kullanıcılarınızın bir Power BI Pro lisansına sahip olması veya raporun Power BI lisansına sahip bir [Power BI Premium kapasite (EM veya P SKU)](../admin/service-premium-what-is.md) içinde yer alması.
 - Microsoft Teams’te Power BI sekmesinin bulunması.
 - Kullanıcıların, raporu kullanmak üzere Power BI lisansını etkinleştirmek için Power BI hizmetinde oturum açmış olması.
-- Kullanıcıların, raporu görüntüleme iznine sahip olması.
+- Power BI sekmesi olan Microsoft Teams’e rapor eklemek için, raporu barındıran çalışma alanında en azından Görüntüleyici rolünüz olmalıdır. Farklı roller hakkında bilgi edinmek için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
+- Raporu Microsoft Teams’in Power BI sekmesinde görmek için kullanıcıların rapor görüntüleme izni olmalıdır.
 
 Ayrıca, **bağlantı önizlemelerinin** çalışması şunlara bağlıdır:
 - Kullanıcıların, Microsoft Teams için Power BI sekmesini kullanma gereksinimlerini karşılaması.
-- Kullanıcıların Power BI Bot hizmetinde oturum açmış olması. 
+- Kullanıcıların Power BI hizmetinde oturum açmış olması. 
 
 
 ## <a name="embed-your-report"></a>Raporunuzu ekleme
@@ -90,12 +91,12 @@ Power BI hizmetindeki içeriğin bağlantı önizlemesini almak için bu adımla
 
 ## <a name="grant-access-to-reports"></a>Raporlara erişim verme
 
-Bir raporu Microsoft Teams’e eklediğinizde veya bir öğeye bağlantı gönderdiğinizde, kullanıcılara raporu görüntüleme izni otomatik olarak verilmez. [Kullanıcıların raporu Power BI’da görüntülemesine izin vermeniz](service-share-dashboards.md) gerekir. Bu işlemi kolaylaştırmak isterseniz ekibiniz için bir Office 365 Grubu kullanabilirsiniz. 
+Bir raporu Microsoft Teams’e eklediğinizde veya bir öğeye bağlantı gönderdiğinizde, kullanıcılara raporu görüntüleme izni otomatik olarak verilmez. [Kullanıcıların raporu Power BI’da görüntülemesine izin vermeniz](service-share-dashboards.md) gerekir. Bu işlemi kolaylaştırmak isterseniz ekibiniz için bir Microsoft 365 Grubu kullanabilirsiniz.
 
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Ekibinizdeki herkesin raporlara erişmesini sağlamak için raporları Power BI’da tek bir çalışma alanına yerleştirip ekibinizin Office 365 Grubuna bu çalışma alanına erişim izni verebilirsiniz.
+Ekibinizdeki herkesin raporlara erişmesini sağlamak için raporları Power BI’da tek bir çalışma alanına yerleştirip ekibinizin Microsoft 365 Grubuna bu çalışma alanına erişim izni verebilirsiniz.
 
 ## <a name="link-previews"></a>Bağlantı önizlemeleri 
 
@@ -123,7 +124,7 @@ Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor için otomatik
 - Power BI, Microsoft Teams ile aynı yerelleştirilmiş dilleri desteklemez. Bu nedenle, eklenen rapordaki yerelleştirme doğru olmayabilir.
 - Power BI panoları, Microsoft Teams için Power BI sekmesine eklenemez.
 - Power BI lisansı veya raporu görme izni olmayan kullanıcılar “İçerik kullanılamıyor” iletisiyle karşılaşır.
-- Internet Explorer 10 kullanıyorsanız sorunlarla karşılaşabilirsiniz. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- Internet Explorer 10 kullanıyorsanız sorunlarla karşılaşabilirsiniz. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Microsoft Teams için Power BI sekmesinde [URL filtreleri](service-url-filters.md) desteklenmez.
 - Yeni Power BI sekmesi ulusal bulutlarda kullanılamaz. Power BI uygulamalarındaki yeni çalışma alanı deneyimini veya raporları desteklemeyen eski bir sürüm kullanılabilir. 
 - Sekmeyi kaydettikten sonra, sekme ayarlarından sekme adı değiştirilemez. Değiştirmek için yeniden adlandırma seçeneğini kullanın.

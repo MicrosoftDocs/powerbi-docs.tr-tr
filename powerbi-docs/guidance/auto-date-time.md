@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a143a9b158d8a00fc129953a601f9e4c8f19875f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279722"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566006"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat kılavuzu
 
@@ -34,7 +34,10 @@ Aşağıdaki madde işaretli listede _Otomatik tarih/saat_ seçeneğiyle ilgili 
     Bu nedenle filtrelerin ve gruplandırmaların **Yıl** sütununda yapılması önemlidir. Hiyerarşi kullanılarak detaya gidildiğinde, **Yıl** düzeyi bilinçli olarak kaldırılmadığı sürece yıl filtrelenir. Yıla göre filtre veya gruplandırma yoksa, örneğin aya göre yapılan bir gruplandırma söz konusu ay için tüm yılların değerlerini özetler.
 - **Tek tablo tarih filtrelemesi:** Her tarih sütunu kendi (gizli) otomatik tarih/saat tablosunu oluşturduğundan, tek tabloya bir zaman filtresi uygulayıp bunun birden çok model tablosuna yayılmasını sağlamak mümkün değildir. Satış ve satış bütçesi gibi birden çok konuda raporlama yaparken (olgu türünde tablolar), bu şekilde filtreleme yaygın bir modelleme gereksinimidir. Otomatik tarih/saat seçeneğini kullanan rapor yazarının farklı tarih sütunlarından her birine filtreleri uygulaması gerekir.
 - **Model boyutu:** Gizli bir otomatik tarih/saat tablosu oluşturan her tarih sütunu için, sonuçta model boyutu artar ve ayrıca veri yenileme süresi uzar.
-- **Diğer raporlama araçları:** [Excel’de Çözümle](../collaborate-share/service-analyze-in-excel.md) ayarını kullanarak veya modele Power BI dışı rapor tasarımcılarıyla bağlanarak otomatik tarih/saat tablolarıyla çalışmak mümkün değildir.
+- **Diğer raporlama araçları:** Aşağıdaki durumlarda otomatik tarih/saat tablolarıyla çalışmak mümkün değildir:
+  - [Excel’de Çözümleme](../collaborate-share/service-analyze-in-excel.md) kullanılırken
+  - Power BI sayfalandırılmış raporu Analysis Services sorgu tasarımcıları kullanılırken.
+  - Power BI dışındaki rapor tasarımcıları kullanılarak modele bağlanılırken.
 
 ## <a name="recommendations"></a>Öneriler
 
