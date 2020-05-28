@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129548"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438051"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -36,17 +36,17 @@ Power BI yönetimiyle ilgili olarak aşağıdaki tabloda ele alınan birkaç rol
 
 | **Yönetici türü** | **Yönetim kapsamı** | **Power BI kapsamı** |
 | --- | --- | --- |
-| Office 365 Genel Yöneticisi | Office 365 | Bir Power BI kiracısını ve diğer hizmetleri tüm yönleriyle yönetebilir. |
-| Office 365 Faturalama Yöneticisi | Office 365 | Office 365 abonelikleri aracılığıyla Power BI lisansları edinebilir. |
+| Genel Yönetici | Microsoft 365 | Bir Power BI kiracısını ve diğer hizmetleri tüm yönleriyle yönetebilir. |
+| Faturalama Yöneticisi | Microsoft 365 | Office 365 abonelikleri aracılığıyla Power BI lisansları edinebilir. |
 | Power BI Hizmet Yöneticisi | Power BI kiracısı | Bir Power BI kiracısı ve yönetim özellikleri (lisanslama hariç) üzerinde tam denetime sahiptir. |
 | Power BI Premium Kapasite Yöneticisi | Tek bir Premium kapasite | Premium kapasite ve yönetim özellikleri üzerinde tam denetime sahiptir. |
 | Power BI Embedded Kapasite Yöneticisi | Tek bir Embedded kapasitesi | Eklenmiş kapasite ve yönetim özellikleri üzerinde tam denetime sahiptir. |
 
-Office 365 veya Azure Active Directory’deki Genel Yöneticiler, Power BI'da yönetici haklarına sahiptir. Bir Office 365 Genel Yöneticisi, diğer kullanıcıları Power BI Hizmet Yöneticisi rolüne atayarak yalnızca Power BI özellikleri üzerinde yönetim hakları verebilir.
+Microsoft 365 veya Azure Active Directory’deki Genel Yöneticiler, Power BI'da yönetici haklarına sahiptir. Genel Yönetici, diğer kullanıcıları Power BI Hizmet Yöneticisi rolüne atayarak yalnızca Power BI özellikleri üzerinde yönetim hakları verebilir.
 
 Power BI Hizmet Yöneticileri işlevsellik, güvenlik ve izlemeyle ilgili kiracı düzeyinde çeşitli ayarlar içeren Power BI yönetim portalına erişebilir. Hizmet Yöneticileri bir Power BI kiracısının tüm kaynaklarına tam erişime sahiptir. Çoğu durumda, Hizmet Yöneticileri sorunları belirler ve sonra düzeltici eylemlerde bulunmak üzere kaynak sahipleri ile birlikte takip eder.
 
-Power BI Hizmet Yöneticisi rolü, kullanıcılara lisans atama veya günlükleri Office 365'te görüntüleme yeteneği vermez. Bu nedenle, Power BI'yı yönetme görevi şu anda yalnızca Power BI Hizmet Yöneticisi rolünün üyeleri olan kullanıcılar tarafından gerçekleştirilemez.
+Power BI Hizmet Yöneticisi rolü, kullanıcılara lisans atama veya günlükleri Microsoft 365'te görüntüleme yeteneği vermez. Bu nedenle, Power BI'yı yönetme görevi şu anda yalnızca Power BI Hizmet Yöneticisi rolünün üyeleri olan kullanıcılar tarafından gerçekleştirilemez.
 
 ## <a name="administrative-tasks"></a>Yönetimsel görevler
 

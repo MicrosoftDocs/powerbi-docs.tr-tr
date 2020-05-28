@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3f0d60bb780b980d3840072568e30d6b4e09da34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349023"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561800"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki rapor ve panolara yönelik iletişim bilgilerini ayarlama
 Bu makalede, Power BI hizmetindeki pano veya raporlara yönelik iletişim bilgilerini ayarlamayı öğreneceksiniz.
@@ -24,11 +24,11 @@ Bu makalede, Power BI hizmetindeki pano veya raporlara yönelik iletişim bilgil
 
 Bir öğenin kişilerine birden fazla kullanıcıyı veya grubu ekleyebilirsiniz. Kişilere şunlar dahildir:
 * Bir kişi
-* Office 365 Grubu
+* Microsoft 365 Grubu
 * E-posta etkin bir güvenlik grubu
 * Dağıtım listesi
 
-Varsayılan olarak, yeni bir raporu veya panoyu oluşturan kişi bunlara ilişkin kişi olur. Bir değer ayarlarsanız, varsayılan değer geçersiz kılınır. Tüm kişileri ve grupları kişi listesinden kaldırabilirsiniz. Bunu yaptığınızda, klasik çalışma alanları için çalışma alanına yönelik Office 365 Grubu gösterilir. Yeni çalışma alanı deneyimi çalışma alanları için, [çalışma alanı kişi listesi](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) kullanılır. Çalışma alanı kişi listesi ayarlanmamışsa, çalışma alanı yöneticileri gösterilir.
+Varsayılan olarak, yeni bir raporu veya panoyu oluşturan kişi bunlara ilişkin kişi olur. Bir değer ayarlarsanız, varsayılan değer geçersiz kılınır. Tüm kişileri ve grupları kişi listesinden kaldırabilirsiniz. Bunu yaptığınızda, klasik çalışma alanları için çalışma alanına yönelik Microsoft 365 Grubu gösterilir. Yeni çalışma alanı deneyimi çalışma alanları için, [çalışma alanı kişi listesi](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) kullanılır. Çalışma alanı kişi listesi ayarlanmamışsa, çalışma alanı yöneticileri gösterilir.
 
 Kişi bilgileri, öğeyi görüntüleyen kişiye gösterilir. 
 

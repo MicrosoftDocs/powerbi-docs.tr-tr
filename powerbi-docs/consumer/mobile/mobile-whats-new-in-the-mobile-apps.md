@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349276"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565312"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -274,7 +274,7 @@ Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulam
 
 ### <a name="shared-credentials-now-in-android"></a>Paylaşılan kimlik bilgileri (artık Android'de)
 
-Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Office 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
+Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Microsoft 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
 
 ### <a name="in-app-urls-now-in-android"></a>Uygulama içi URL'ler (artık Android'de) 
 
@@ -294,7 +294,7 @@ Sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Power 
 
 ### <a name="shared-credentials-ios"></a>Paylaşılan kimlik bilgileri (iOS)
 
-Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Office 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
+Mobil uygulamanızdan Power BI'da oturum açmak hiç bu kadar kolay olmamıştı. Paylaşılan kimlik bilgileriyle, Power BI hizmetinde kimliğinizi doğrulamak için cihaz üzerinde diğer Microsoft 365 uygulaması kimlik bilgilerini kullanarak oturum açma işlemini basitleştirdik.
 
 ### <a name="in-app-urls-ios"></a>Uygulama içi URL'ler (iOS) 
 

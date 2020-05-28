@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143670"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693886"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online’da rapor web bölümü ekleme
 
@@ -79,7 +79,7 @@ Bir raporu SharePoint Online'a eklediğinizde kullanıcılara raporu görüntül
 > [!IMPORTANT]
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
-Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, SharePoint Online ekip sitenizi oluşturmak için bir Office 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklemedir. Daha fazla bilgi için bkz. [Bir çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Power BI’da rapor erişimi sağlamanın iki yöntemi bulunur. İlk yöntem, SharePoint Online ekip sitenizi oluşturmak için bir Microsoft 365 Grubu kullanıyorsanız kullanıcıyı, **Power BI hizmetindeki çalışma alanının** ve **SharePoint sayfasının** bir üyesi olarak eklemedir. Daha fazla bilgi için bkz. [Bir çalışma alanını yönetme](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 İkinci yöntem de bir uygulamaya rapor ekleyip bunu kullanıcılarla doğrudan paylaşmadır:  
 
@@ -157,7 +157,7 @@ SharePoint’te rapor görüntüleyen kullanıcıların bir **Power BI Pro lisan
 
 * Power BI, SharePoint Online ile aynı yerelleştirilmiş dilleri desteklemez. Bu nedenle, eklenen rapordaki yerelleştirme doğru olmayabilir.
 
-* Internet Explorer 10 kullanıyorsanız sorunlarla karşılaşabilirsiniz. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Internet Explorer 10 kullanıyorsanız sorunlarla karşılaşabilirsiniz. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * Power BI web bölümü [ulusal bulutlar](https://powerbi.microsoft.com/clouds/) için kullanılamaz.
 

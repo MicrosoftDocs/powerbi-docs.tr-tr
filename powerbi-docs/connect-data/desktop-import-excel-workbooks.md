@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292076"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561754"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop'a Excel çalışma kitabı aktarma
 Power BI Desktop’ı kullanarak, Power Query sorguları, Power Pivot modelleri ve Power View çalışma sayfaları içeren Excel çalışma kitaplarını, Power BI Desktop’a kolayca aktarabilirsiniz. Power BI Desktop, Excel çalışma kitabına göre otomatik olarak raporlar ve görselleştirmeler oluşturur. İçeri aktarma işlemini gerçekleştirdikten sonra Power BI Desktop ile hem var olan özellikler hem de her bir Power BI Desktop aylık güncelleştirmesi ile sunulan yeni özellikler sayesinde bu raporları geliştirmeye ve iyileştirmeye devam edebilirsiniz.
@@ -30,7 +30,7 @@ Power BI Desktop’ı kullanarak, Power Query sorguları, Power Pivot modelleri 
    Şu anda çalışma kitabı boyutu veya içindeki nesne sayısı ile ilgili herhangi bir sınırlama yoktur ancak Power BI Desktop'ın daha büyük çalışma kitaplarını çözümlemesi ve içeri aktarması daha uzun zaman alır.
 
    > [!NOTE]
-   > Paylaşılan OneDrive İş klasörlerindeki veya Office 365 grup klasörlerindeki Excel dosyalarını yüklemek veya aktarmak için Excel dosyasının URL'sini kullanın ve bu URL'yi Power BI Desktop'taki Web veri kaynağına girin. OneDrive İş URL'sini doğru şekilde biçimlendirmek için uygulamanız gereken birkaç adım vardır. Daha fazla bilgi ve doğru adım dizisi için bkz. [Power BI Desktop'ta OneDrive İş bağlantılarını kullanma](desktop-use-onedrive-business-links.md).
+   > Paylaşılan OneDrive İş klasörlerindeki veya Microsoft 365 grup klasörlerindeki Excel dosyalarını yüklemek veya aktarmak için Excel dosyasının URL'sini kullanın ve bu URL'yi Power BI Desktop'taki Web veri kaynağına girin. OneDrive İş URL'sini doğru şekilde biçimlendirmek için uygulamanız gereken birkaç adım vardır. Daha fazla bilgi ve doğru adım dizisi için bkz. [Power BI Desktop'ta OneDrive İş bağlantılarını kullanma](desktop-use-onedrive-business-links.md).
    > 
    > 
 

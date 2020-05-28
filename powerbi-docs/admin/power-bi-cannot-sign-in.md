@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129971"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438028"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI'da oturum açma sorunlarını giderme
 
@@ -26,7 +26,7 @@ Bu makalede yöneticilerin Power BI oturum açma sorunlarıyla ilgili olarak des
 
 İlk olarak, [Power BI destek sayfası](https://powerbi.microsoft.com/support/) üzerinden bir destek bileti oluşturmayı deneyin.
 
-Power BI destek sayfasına gidemiyorsanız, [Office 365 destek sayfası](https://support.office.com/home/contact) üzerinden bir bilet oluşturmayı deneyin.
+Power BI destek sayfasına gidemiyorsanız, [Office Desteği](https://support.office.com/home/contact) üzerinden bir bilet oluşturmayı deneyin.
 
 Bu sayfalardan birini kullanarak bilet oluşturamıyorsanız desteğe telefonla ulaşmayı deneyin:
 
@@ -34,7 +34,7 @@ Bu sayfalardan birini kullanarak bilet oluşturamıyorsanız desteğe telefonla 
 * Avrupa, Orta Doğu ve Asya'daki (EMEA) müşteriler için: +44-844-800-2400
 * Hindistan'daki müşteriler için: +1-800-419-5666
 
-Yardım almak üzere Microsoft desteğine başvurmak için bir diğer seçenek [Microsoft Premier destek](https://support.microsoft.com/premier) satın almaktır. Kuruluşunuzun Microsoft Premier destek satın aldığını biliyorsanız ve yine de herhangi bir Power BI veya Office 365 kanalından servis talebi oluşturamıyorsanız, Premier desteğe telefonla ulaşabilirsiniz:
+Yardım almak üzere Microsoft desteğine başvurmak için bir diğer seçenek [Microsoft Premier destek](https://support.microsoft.com/premier) satın almaktır. Kuruluşunuzun Microsoft Premier destek satın aldığını biliyorsanız ve yine de herhangi bir Power BI kanalından veya Office Desteği’nden servis talebi oluşturamıyorsanız, Premier desteğe telefonla ulaşabilirsiniz:
 
 * Birleşik Devletler'deki (ABD) ve Amerika kıtasının kalan bölümündeki müşteriler için: +1-800-936-3100
 * Avrupa, Orta Doğu ve Asya'daki (EMEA) müşteriler için: +44-844-800-8338

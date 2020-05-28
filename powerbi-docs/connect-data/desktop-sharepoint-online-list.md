@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4fd350ae5d4a916e6753f7cd66e1fca52137efd5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2657580a27eb1be42c96ffad5881555df168d459
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83288672"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83562139"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint Listesinde rapor oluşturma
 
@@ -44,7 +44,7 @@ Bu beş dakikalık öğretici videoyu izleyin veya adım adım yönergeler için
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth1.png" alt="choose Microsoft account" width="500"/>
 
-7. **Oturum Aç**’ı seçin ve Microsoft Office 365’te oturum açmak için kullandığınız kullanıcı adını ve parolayı girin.
+7. **Oturum Aç**’ı seçin ve Microsoft 365’te oturum açmak için kullandığınız kullanıcı adını ve parolayı girin.
 
     <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-auth2.png" alt="sign in" width="500"/>
 

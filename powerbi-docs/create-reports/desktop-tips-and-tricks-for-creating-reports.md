@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349115"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564587"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -112,7 +112,7 @@ Bir örneğe göz atalım:
 
 Aşağıdaki şemalara sahip olan etkin müşteri destek taleplerini içeren veri kümelerini ve iş öğelerini içeren başka bir veri kümesini yükleyecek olursak:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX, Power BI Desktop'taki hesaplama formülü dilidir. BI analizi için en iyi 
 
 [Power BI Desktop’ta DAX Kullanımıyla İlgili Temel Bilgileri öğrenme](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[Veri Çözümleme İfadeleri (DAX) Başvurusu](https://msdn.microsoft.com/library/gg413422.aspx)
+[Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
 
 [DAX Resource Center (DAX Kaynak Merkezi)](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

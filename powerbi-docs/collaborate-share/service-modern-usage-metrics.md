@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdb6ee8f50eaf70c9180e2c5a01cefef1143aa0d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142735"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693859"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
 
@@ -132,7 +132,7 @@ Kullanım Ölçümleri Raporu veri kümesini devralmak ve kimlik bilgilerini gü
 
 ## <a name="disable-usage-metrics-reports"></a>Kullanım ölçümleri raporunu devre dışı bırakma
 
-Kullanım ölçümleri raporları, Power BI veya Office 365 yöneticileri tarafından etkinleştirilip devre dışı bırakılabilecek bir özelliktir. Yöneticiler kullanım ölçümlerine erişim sahibi olan kullanıcılar üzerinde ayrıntılı denetime sahiptir. Varsayılan olarak bu özellik, kuruluştaki tüm kullanıcılar için Etkin durumdadır. Bu ayarlarla ilgili ayrıntılar için Yönetim portalı makalesinde [Kullanım ölçümlerini denetleme](../admin/service-admin-portal.md#control-usage-metrics) konusuna bakın.
+Kullanım ölçümleri raporları, Power BI veya Microsoft 365 yöneticisinin açıp kapatabildiği bir özelliktir. Yöneticiler kullanım ölçümlerine erişim sahibi olan kullanıcılar üzerinde ayrıntılı denetime sahiptir. Varsayılan olarak bu özellik, kuruluştaki tüm kullanıcılar için Etkin durumdadır. Bu ayarlarla ilgili ayrıntılar için Yönetim portalı makalesinde [Kullanım ölçümlerini denetleme](../admin/service-admin-portal.md#control-usage-metrics) konusuna bakın.
 
 > [!NOTE]
 > Yalnızca Power BI kiracısının yöneticileri Yönetim portalını ve düzenleme ayarlarını görebilir.

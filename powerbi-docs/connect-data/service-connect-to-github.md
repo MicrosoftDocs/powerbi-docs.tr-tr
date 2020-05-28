@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337731"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693397"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI ile GitHub'a bağlanma
 Bu makalede, verileri GitHub hesabınızdan Power BI şablon uygulamasıyla çekme işlemi adım adım açıklanmaktadır. Şablon uygulaması, GitHub verilerinizi araştırmanıza olanak tanımak için pano, rapor kümesi ve veri kümesi içeren bir çalışma alanı oluşturur. Power BI için GitHub uygulaması; yapılan katkılar, sorunlar, çekme istekleri ve etkin kullanıcılar ile ilgili veriler içeren bir GitHub deposuna (depo olarak da bilinir) ilişkin içgörüler gösterir.
+
+![GitHub şablon uygulaması](media/service-connect-to-github/service-github-app-report.png)
 
 Şablon uygulamasını yükledikten sonra panoyu ve raporu değiştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza bir uygulama olarak dağıtabilirsiniz.
 
@@ -27,55 +29,69 @@ Ayrıca [GitHub öğreticisini](service-tutorial-connect-to-github.md) de deneye
 >[!NOTE]
 >Bu şablon uygulaması, depoya erişim için bir GitHub hesabı gerektirir. Aşağıda, gereksinimlerle ilgili daha ayrıntılı bilgi verilmiştir.
 >
->Bu şablon uygulaması GitHub Enterprise desteği sunmaz. 
+>Bu şablon uygulaması GitHub Enterprise desteği sunmaz.
 
-## <a name="how-to-connect"></a>Bağlanma
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. **GitHub** \> **Şimdi edinin**’i seçin.
-4. **Bu Power BI uygulaması yüklensin mi?** iletişim kutusunda **Yükle**’yi seçin.
-4. **Uygulamalar** bölmesinde **GitHub** kutucuğunu seçin.
+## <a name="install-the-app"></a>Uygulamayı yükleme
 
-    ![Power BI GitHub kutucuğu](media/service-connect-to-github/power-bi-github-tile.png)
+1. Uygulamaya ulaşmak için aşağıdaki bağlantıya tıklayın: [GitHub şablon uygulaması](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. **Yeni uygulamanızı kullanmaya başlayın** alanında **Bağlan** seçeneğini belirleyin.
+1. Uygulamanın AppSource sayfasında [**ŞİMDİ EDİNİN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)’i seçin.
 
-    ![Yeni uygulamanızı kullanmaya başlayın](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![AppSource’da GitHub şablon uygulaması](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. Depo adını ve sahibini girin. [Bu parametreleri bulmaya](#FindingParams) ilişkin ayrıntılı bilgi için aşağıya bakın.
-   
-    ![Power BI GitHub depo adı](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. **Yükle**'yi seçin. 
 
-5. GitHub kimlik bilgilerinizi girin (tarayıcınızda önceden oturum açtıysanız bu adımı atlayabilirsiniz). 
-6. **Kimlik Doğrulama Yöntemi** alanında **oAuth2** \> **Oturum Aç**'ı seçin. 
-7. GitHub kimlik doğrulaması ekranlarındaki yönergeleri uygulayın. Power BI için GitHub şablon uygulamasına, GitHub verilerine erişim izni verin.
-   
-   ![Power BI GitHub yetkilendirmesi](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI GitHub’a ve verilerinize bağlanır.  Veriler, günde bir kez yenilenir. Power BI verileri içeri aktardıktan sonra yeni GitHub çalışma alanınızın içeriklerini görürsünüz.
+    ![GitHub şablon uygulamasını yükleme](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>Uygulamanızı değiştirme ve dağıtma
+    Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
 
-GitHub şablon uygulamasını yüklediniz. Yani GitHub çalışma alanını da oluşturmuş oldunuz. Çalışma alanında, raporu ve panoyu değiştirebilir ve sonra kuruluşunuzdaki iş arkadaşlarınıza bir *uygulama* olarak dağıtabilirsiniz. 
+   ![Uygulamalar sayfasında GitHub uygulaması](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. Gezinti bölmesinde çalışma alanı adının yanındaki oku seçin. Çalışma alanının bir pano ve rapor içerdiğini görürsünüz.
+## <a name="connect-to-data-sources"></a>Veri kaynaklarına bağlanma
 
-    ![Gezinti bölmesindeki uygulama](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeyi seçin.
 
-8. Yeni [GitHub panosunu](https://powerbi.microsoft.com/integrations/github) seçin.    
-    ![Power BI’da GitHub panosu](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. Karşılama ekranında **Uygulamayı keşfet**’i seçin.
 
-3. Yeni GitHub çalışma alanınızın tüm içeriğini görüntülemek için gezinti bölmesinde **Çalışma alanları** > **GitHub**’ı seçin.
- 
-   ![Gezinti bölmesinde GitHub çalışma alanı](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![Şablon uygulaması karşılama ekranı](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    Bu görünüm çalışma alanı için içerik listesidir. Sağ üst köşede, **Uygulamayı güncelleştir** seçeneğini görürsünüz. Uygulamanızı iş arkadaşlarınıza dağıtmaya hazır olduğunuzda, buradan başlayacaksınız. 
+   Uygulama, örnek verileri göstererek açılır.
 
-    ![GitHub içerik listesi](media/service-connect-to-github/power-bi-github-content-list.png)
+1. Sayfanın üst kısmındaki başlıkta yer alan **Verilerinize bağlanın** seçeneğini belirleyin.
 
-2. Çalışma alanındaki diğer öğeleri görmek için **Raporlar**’ı ve **Veri kümeleri**’ni seçin.
+   ![GitHub uygulaması verilerinize bağlanma](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    İş arkadaşlarınıza [uygulama dağıtma](../collaborate-share/service-create-distribute-apps.md) hakkında bilgi edinin.
+1. Görüntülenen iletişim kutusunda depo adını ve deponun sahibini girin. [Bu parametreleri bulmaya](#FindingParams) ilişkin ayrıntılı bilgi için aşağıya bakın. İşiniz bittiğinde **İleri**’ye tıklayın.
+
+   ![Power BI GitHub depo adı](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. Karşınıza çıkan sonraki iletişim kutusunda kimlik doğrulaması yönteminin **OAuth2** olarak ayarlandığından emin olun. Gizlilik ayarında bir şey yapmanız gerekmez. Hazır olduğunuzda **Oturum aç**’a tıklayın.
+
+   ![Power BI GitHub kimlik doğrulama yöntemi](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. GitHub kimlik bilgilerinizi girin ve GitHub kimlik doğrulama işlemini izleyin (tarayıcınızda önceden oturum açtıysanız bu adımı atlayabilirsiniz).
+
+   ![Power BI GitHub kimlik doğrulama işlemi](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+Oturum açtıktan sonra rapor veri kaynaklarına bağlanıp güncel verilerle doldurulur. Bu sırada, etkinlik izleyicisi açılır.
+
+![Power BI GitHub uygulama yenileme devam ediyor](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+Oturum açma işlemi sırasında bu ayarı devre dışı bırakmadığınız sürece, rapor verileriniz günde bir kere otomatik olarak yenilenir. Dilerseniz, rapor verilerinizi güncel tutmak için [kendi yenileme zamanlamanızı da ayarlayabilirsiniz](./refresh-scheduled-refresh.md).
+
+## <a name="customize-and-share"></a>Özelleştirin ve paylaşın
+
+Uygulamanızı özelleştirmek ve paylaşmak için sayfanın sağ üst köşesindeki kalem simgesini seçin.
+
+![Uygulamayı düzenleme](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+Çalışma alanındaki yapıtları düzenlemeyle ilgili bilgi için bkz.
+* [Power BI’da rapor düzenleyicisi turu](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](../fundamentals/service-basic-concepts.md)
+
+Çalışma alanındaki yapıtlara istediğiniz değişiklikleri yapmanızın ardından uygulamayı yayımlamaya ve paylaşmaya hazır olursunuz. Bunun nasıl yapılacağını öğrenmek için bkz. [Uygulamanızı yayımlama](../collaborate-share/service-create-distribute-apps.md#publish-your-app).
 
 ## <a name="whats-included-in-the-app"></a>Uygulamaya dahil olan özellikler
 Aşağıdaki verilere Power BI ile GitHub'dan erişilebilir:     
