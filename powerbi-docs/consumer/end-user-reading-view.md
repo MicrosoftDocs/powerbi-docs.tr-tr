@@ -7,17 +7,18 @@ author: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
+ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ef25e98bb87b52cf7f0bd30c118b7e2fa5509991
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206045"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813819"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
 

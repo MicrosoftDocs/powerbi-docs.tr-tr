@@ -4,17 +4,17 @@ description: Power BI dilimleyicisi, rapordaki diğer görselleştirmelerde gös
 author: v-thepet
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6ae8efdeb6004d700cd10fee447499a33c88e642
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a4bd02e21d6985dfe3684f9f209e7f43a45c6271
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268248"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812922"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI hizmetindeki dilimleyiciler
 

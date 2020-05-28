@@ -6,16 +6,16 @@ ms.author: mihart
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 65a6ab132cccc56d96f5ac22fef5d80f59f96ca9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b117bb1825e4b50e64b2af5212ed5b3a28bf6e6f
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277560"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812255"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
