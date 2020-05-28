@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274869"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120336"
 ---
 # <a name="dataset-impact-analysis"></a>Veri kümesi etki analizi
 
@@ -54,7 +54,7 @@ Kullanım ölçümleri son 30 güne ilişkindir (geçerli gün hariç tutulur). 
 
 ## <a name="notify-contacts"></a>Kişilere bildirme
 
-Veri kümesinde değişiklik yaptıysanız veya yapmayı düşünüyorsanız, ilgili kullanıcılarla iletişim kurup onları bilgilendirmek isteyebilirsiniz. Kişilere bildirimde bulunduğunuzda, etkilenen tüm çalışma alanlarının [kişi listelerine](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list) e-posta gönderilir. Adınız e-postada görüntülendiğinden kişiler sizi bulabilir ve yeni bir e-posta yazışmasında yanıtlayabilir. 
+Veri kümesinde değişiklik yaptıysanız veya yapmayı düşünüyorsanız, ilgili kullanıcılarla iletişim kurup onları bilgilendirmek isteyebilirsiniz. Kişilere bildirimde bulunduğunuzda, etkilenen tüm çalışma alanlarının [kişi listelerine](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list) e-posta gönderilir. Adınız e-postada görüntülendiğinden kişiler sizi bulabilir ve yeni bir e-posta yazışmasında yanıtlayabilir. 
 
 1. Etki analizi yan bölmesinde **Kişilere bildir**’e tıklayın. Kişilere bildir iletişim kutusu görüntülenir.
 
