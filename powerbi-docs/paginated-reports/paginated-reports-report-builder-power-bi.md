@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144741"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565518"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -76,7 +76,7 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
 
 - Rapor sayfalarını veya görselleri Power BI panolarına sabitleme. Bir Power BI Rapor Sunucusu veya Reporting Services rapor sunucusunda şirket içi sayfalandırılmış bir rapordan Power BI panosuna görselleştirmeleri yine sabitleyebilirsiniz. Daha fazla bilgi için bkz. [Reporting Services öğelerini Power BI panolarına sabitleme](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
 - Belge Haritaları.
-- Alt raporlar ve detaylandırma raporları.  Ancak, detaylandırma senaryolarını gerçekleştirmek için sayfalandırılmış raporlarla birlikte URL parametrelerini kullanmayı düşünebilirsiniz.
+- Detaylandırma raporları.  Detaylandırma senaryoları için sayfalandırılmış raporlarla birlikte URL parametrelerini kullanmayı düşünebilirsiniz.
 - Paylaşılan veri kaynakları ve paylaşılan veri kümeleri.
 
  
@@ -85,4 +85,4 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
 - [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
 - [Verileri doğrudan sayfalandırılmış bir rapora girme](paginated-reports-enter-data.md)
-- [Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embed-paginated-reports-customers.md)
+- [Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embedded/embed-paginated-reports-customers.md)

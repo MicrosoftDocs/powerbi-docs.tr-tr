@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136411"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438212"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI hizmet yöneticisi rollerini anlama
 
-Power BI kiracısını yönetmek için şu rollerden birinde olmalısınız: Power BI yöneticisi, Power Platform yöneticisi veya Microsoft 365 genel yöneticisi. Microsoft 365 kullanıcı yöneticileri, Microsoft 365 yönetim merkezinde veya bir PowerShell betiği kullanarak kullanıcıları Power BI yöneticisi veya Power Platform yöneticisi rolüne atayabilir. Daha fazla bilgi için bkz. [Office 365 PowerShell ile kullanıcı hesaplarına rol atama](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
+Power BI kiracısını yönetmek için şu rollerden birinde olmalısınız: Power BI yöneticisi, Power Platform yöneticisi veya Microsoft 365 genel yöneticisi. Microsoft 365 kullanıcı yöneticileri, Microsoft 365 yönetim merkezinde veya bir PowerShell betiği kullanarak kullanıcıları Power BI yöneticisi veya Power Platform yöneticisi rolüne atayabilir. Daha fazla bilgi için bkz. [PowerShell ile kullanıcı hesaplarına rol atama](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell).
 
 Power BI yöneticisi ve Power Platform yöneticisi rollerindeki kullanıcılar, Power BI kiracısı ve yönetim özellikleri (lisanslama hariç) üzerinde tam denetime sahiptir. Rol atandığında kullanıcı [Power BI yönetici portalına](service-admin-portal.md) erişebilir. Burada, kiracı genelinde kullanım ölçümlerine erişebilir ve Power BI özelliklerinin kiracı genelindeki kullanımını kontrol edebilirler. Bu yönetici rolleri Power BI yönetim portalına erişmesi gereken kullanıcılara tam Microsoft 365 yönetim erişimi vermeden portal erişimi vermek için idealdir.
 

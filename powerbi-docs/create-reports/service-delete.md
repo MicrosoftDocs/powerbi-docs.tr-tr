@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304565"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565684"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI'daki neredeyse tüm nesneleri silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi ve çalışma alanını silmeyle ilgili bilgiler sunulmaktadır.
@@ -82,7 +82,7 @@ Veri kümesi bir veya daha fazla [kurumsal içerik paketinin](../collaborate-sha
 
 ## <a name="delete-a-workspace"></a>Çalışma alanı silme
 > [!WARNING]
-> Bir çalışma alanı oluşturduğunuzda bir Office 365 grubu oluşturmuş olursunuz. Bir çalışma alanını sildiğinizde de oluşturduğunuz Office 365 grubunu silmiş olursunuz. Başka bir deyişle, söz konusu grup SharePoint ve Microsoft Teams gibi diğer O365 ürünlerinden de silinir.
+> Bir çalışma alanı oluşturduğunuzda bir Microsoft 365 grubu oluşturmuş olursunuz. Bir çalışma alanını sildiğinizde de oluşturduğunuz Microsoft 365 grubunu silmiş olursunuz. Başka bir deyişle, söz konusu grup SharePoint ve Microsoft Teams gibi diğer Microsoft 365 ürünlerinden de silinir.
 >
 >
 

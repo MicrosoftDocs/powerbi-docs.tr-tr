@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138324"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564421"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
 
@@ -24,11 +24,11 @@ Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve iz
 
 ![Power BI kapasite ayarları ekranı](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*Kapasite*, Power BI Premium ve Power BI Embedded tekliflerinin merkezindedir. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Ayrılmış kapasiteye sahip olmak kuruluşunuzdaki kullanıcılar için kullanıcı başına lisans satın almak zorunda kalmadan onlara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](../service-premium.md).
+*Kapasite*, Power BI Premium ve Power BI Embedded tekliflerinin merkezindedir. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Ayrılmış kapasiteye sahip olmak kuruluşunuzdaki kullanıcılar için kullanıcı başına lisans satın almak zorunda kalmadan onlara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
 
 ## <a name="manage-capacity"></a>Kapasiteyi yönetme
 
-Office 365'te kapasite düğümü satın aldıktan sonra kapasite ayarlarını Power BI yönetici portalından yaparsınız. Power BI Premium kapasitelerini portalın **Kapasite ayarları** bölümünden yönetirsiniz.
+Microsoft 365'te kapasite düğümü satın aldıktan sonra kapasite ayarlarını Power BI yönetici portalından yaparsınız. Power BI Premium kapasitelerini portalın **Kapasite ayarları** bölümünden yönetirsiniz.
 
 ![Yönetici portalındaki kapasite ayarları](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -60,7 +60,7 @@ Kullanılabilir sanal çekirdekleriniz varsa aşağıdaki adımları izleyerek y
 
     ![Yeni kapasitesi ayarlama](media/service-admin-premium-manage/set-up-capacity.png)
 
-Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel Yöneticileri, yönetici portalında listelenen kapasiteyi görür.
+Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve genel yöneticiler, yönetici portalında listelenen kapasiteyi görür.
 
 ### <a name="capacity-settings"></a>Kapasite ayarları
 
@@ -81,7 +81,7 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel
 
 ### <a name="change-capacity-size"></a>Kapasite boyutunu değiştir
 
-Power BI yöneticileri ve Office 365 Genel Yöneticileri, Power BI Premium kapasitelerini değiştirebilir. Power BI yöneticisi veya Office 365 Genel Yöneticisi olmayan kapasite yöneticileri bu seçeneğe sahip olmaz.
+Power BI yöneticileri ve genel yöneticiler, Power BI Premium kapasitelerini değiştirebilir. Power BI yöneticisi veya genel yönetici olmayan kapasite yöneticileri bu seçeneğe sahip olmaz.
 
 1. **Kapasite boyutunu değiştir**'i seçin.
 
@@ -118,7 +118,7 @@ Kapasiteye çalışma alanı atamak için yönetici portalını ve bir çalışm
 
 ### <a name="assign-from-the-admin-portal"></a>Yönetici portalından atama
 
-Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve Office 365 Genel Yöneticileri, yönetici portalının premium kapasite yönetimi bölümünde toplu olarak çalışma alanları atayabilir. Bir kapasiteyi yönetirken, çalışma alanları atamanızı sağlayan **Çalışma Alanları** bölümünü görürsünüz.
+Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve genel yöneticiler, yönetici portalının premium kapasite yönetimi bölümünde toplu olarak çalışma alanları atayabilir. Bir kapasiteyi yönetirken, çalışma alanları atamanızı sağlayan **Çalışma Alanları** bölümünü görürsünüz.
 
 ![Kapasite yönetiminin çalışma alanı atama alanı](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 

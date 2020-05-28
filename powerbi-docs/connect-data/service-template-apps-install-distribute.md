@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347459"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692960"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma
 
@@ -59,11 +59,19 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
 
-1. **Uygulamaya git**’i seçin. **Yeni uygulamanızı kullanmaya başlayın** penceresi görüntülenir.
+1. **Uygulamaya git**’i seçin.
 
-   ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. **Yeni uygulamanızı kullanmaya başlayın** penceresinde **Keşfet**’i seçin.
 
-1. **Bağlan**’a tıklayın.
+   ![Şablon uygulaması karşılama ekranı](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   Uygulama, örnek verileri göstererek açılır.
+
+1. Sayfanın üst kısmındaki başlıkta yer alan **Verilerinize bağlanın** seçeneğini belirleyin.
+
+   ![GitHub uygulaması verilerinize bağlanma](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     Böylece veri kaynağını, örnek verilerden kendi veri kaynağınıza değiştireceğiniz bir veya bir dizi iletişim kutusu açılır. Bu genellikle veri kümesi parametrelerinin ve veri kaynağı kimlik bilgilerinin yeniden tanımlanması anlamına gelir. Bkz. [Bilinen sınırlamalar](service-template-apps-overview.md#known-limitations).
     
@@ -71,19 +79,20 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 
    ![Verilere bağlanma iletişim kutuları](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    Bağlantı iletişim kutularını doldurma işlemini tamamlamanızın ardından bağlantı işlemi başlar. Bir başlık size örnek verileri görüntülemekte olduğunuzu bildirir.
+    Bağlantı iletişim kutularını doldurma işlemini tamamlamanızın ardından bağlantı işlemi başlar. Bir başlıkta verilerin yenilenmekte olduğu ve bu arada örnek verilerin görüntülendiği size bildirilir.
 
     ![Örnek verileri görüntüleme](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    Verilerin bağlanma ve güncelleştirme işleminin tamamlanmasını bekleyin. Bu işlemin tamamlandığından haberdar olmak için veri kümesi satırında (yeni görünüm) veya sekmede (eski görünüm) yer alan ilerleme durumu göstergesini izleyin.
-
-   Bağlantı ve veri yenileme işlemi tamamlandığında tarayıcınızı yenileyin; başlık şimdi uygulama üzerinde yaptığınız değişiklikleri uygulamak için uygulamayı güncelleştirmeniz ve paylaşmanız gerektiğini size bildirir.
-
-    ![Uygulama özelleştirme ve paylaşma](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   Oturum açma işlemi sırasında bu ayarı devre dışı bırakmadığınız sürece, rapor verileriniz günde bir kere otomatik olarak yenilenir. Dilerseniz, rapor verilerinizi güncel tutmak için [kendi yenileme zamanlamanızı da ayarlayabilirsiniz](./refresh-scheduled-refresh.md).
 
 ## <a name="customize-and-share-the-app"></a>Uygulamayı özelleştirme ve paylaşma
 
-Verilere bağlantı ve veri yenile işleminden sonra tarayıcıyı yenilemenizin ardından uygulamayla ilişkili çalışma alanını görürsünüz. Bu noktada, herhangi bir çalışma alanında olduğu gibi burada da yapıtları düzenleyebilirsiniz. Öte yandan, değiştirdiğiniz öğeleri farklı adlarla kaydetmediğiniz sürece, uygulamayı yeni bir sürümle güncelleştirdiğinizde yaptığınız değişikliklerin üzerine yazılacağını unutmayın. [Üzerine yazma ile ilgili ayrıntılara bakın](#overwrite-behavior).
+Verilerinize bağlandıktan ve veri yenileme tamamlandıktan sonra, uygulamanın içerdiği tüm raporları ve panoları özelleştirebilir, ayrıca uygulamayı iş arkadaşlarınızla paylaşabilirsiniz. Öte yandan değiştirdiğiniz öğeleri farklı adlarla kaydetmediğiniz sürece, uygulamayı yeni bir sürümle güncelleştirdiğinizde yaptığınız değişikliklerin üzerine yazılacağını unutmayın. [Üzerine yazma ile ilgili ayrıntılara bakın](#overwrite-behavior).
+
+Uygulamanızı özelleştirmek ve paylaşmak için sayfanın sağ üst köşesindeki kalem simgesini seçin.
+
+![Uygulamayı düzenleme](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 Çalışma alanındaki yapıtları düzenlemeyle ilgili bilgi için bkz.
 * [Power BI’da rapor düzenleyicisi turu](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Uygulamayı başlangıçta AppSource’dan indirdiyseniz, şablon uygulamasını
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma](../collaborate-share/service-create-workspaces.md)
+[Power BI'da çalışma arkadaşlarınızla çalışma alanları oluşturma](../collaborate-share/service-create-the-new-workspaces.md)

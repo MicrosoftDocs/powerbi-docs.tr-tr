@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144315"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693938"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
@@ -22,30 +22,30 @@ Power BI'da, çalışma arkadaşlarınızla işbirliği yaparak pano koleksiyonl
 
 **Biliyor muydunuz?** Power BI, artık varsayılan olan yeni bir çalışma alanı deneyimi sunmaktadır. Yeni çalışma alanlarıyla ilgili ayrıntılar için [Yeni çalışma alanlarında çalışmayı düzenleme](service-new-workspaces.md) konusunu okuyun. Klasik çalışma alanınızı geçirmeye hazır mısınız? Ayrıntılar için bkz. [Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme](service-upgrade-workspaces.md).
 
-Klasik bir çalışma alanı oluşturduğunuzda, temel, ilişkili bir Office 365 grubu oluşturmuş olursunuz. Çalışma alanı yönetiminin tamamı Office 365'tedir. Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekleyebilirsiniz. Çalışma alanında, hep birlikte daha geniş bir kitleye dağıtmayı planladığınız panolar, raporlar ve diğer makaleler üzerinde işbirliği yapabilirsiniz. Bir çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır. 
+Klasik bir çalışma alanı oluşturduğunuzda, temel, ilişkili bir Microsoft 365 grubu oluşturmuş olursunuz. Çalışma alanı yönetiminin tamamı Microsoft 365'tedir. Bu çalışma alanlarına iş arkadaşlarınızı üye veya yönetici olarak ekleyebilirsiniz. Çalışma alanında, hep birlikte daha geniş bir kitleye dağıtmayı planladığınız panolar, raporlar ve diğer makaleler üzerinde işbirliği yapabilirsiniz. Bir çalışma alanına eklediğiniz herkesin Power BI Pro lisansına ihtiyacı vardır.
 
 ## <a name="video-apps-and-workspaces"></a>Video: Uygulamalar ve çalışma alanları
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Office 365 grubu temelinde klasik çalışma alanı oluşturma
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Microsoft 365 grubu temelinde klasik çalışma alanı oluşturma
 
-Bir çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Office 365 grubu üzerinde oluşturulur.
+Bir çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Microsoft 365 grubu üzerinde oluşturulur.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-Çalışma alanını ilk oluşturduğunuzda, Office 365'e yayılması için yaklaşık bir saat beklemeniz gerekebilir. 
+Çalışma alanını ilk oluşturduğunuzda, Microsoft 365'e yayılması için yaklaşık bir saat beklemeniz gerekebilir.
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 çalışma alanınıza görüntü ekleme (isteğe bağlı)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 çalışma alanınıza görüntü ekleme (isteğe bağlı)
 Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini içeren küçük ve renkli bir daire oluşturur. Ancak, bunu bir görüntüyle özelleştirmek isteyebilirsiniz. Bir görüntü eklemek için Exchange Online lisansı gerekir.
 
 1. **Çalışma Alanları**'nı, çalışma alanı adının yanındaki **Diğer seçenekler**'i (...), sonra da **Üyeler**’i seçin. 
    
      ![Çalışma Alanı Üyelerini seçme](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    Çalışma alanı için Office 365 Outlook hesabı yeni bir tarayıcı penceresinde açılır.
+    Çalışma alanı için Microsoft 365 Outlook hesabı yeni bir tarayıcı penceresinde açılır.
 2. **Düzenleme** kalemini seçin.
    
-     ![Office 365 kalem simgesi](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365 kalem simgesi](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. Kamera görüntüsünü seçin ve kullanmak istediğiniz görüntüyü bulun.
    
      ![Kamera görüntüsünü seçin](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini iç
 
 4. **Tamam**'ı, sonra da **Kaydet**'i seçin.
    
-    Görüntü, Office 365 Outlook penceresindeki renkli dairenin yerine geçer. 
+    Görüntü, Microsoft 365 Outlook penceresindeki renkli dairenin yerine geçer.
    
      ![Özelleştirilmiş görüntü](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

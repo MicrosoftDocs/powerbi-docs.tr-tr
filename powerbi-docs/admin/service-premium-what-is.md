@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274386"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438258"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -59,6 +59,7 @@ Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin 
 * Excel çalışma kitapları (veriler önce Power BI Desktop'a içeri aktarılmadıysa)
 * [Gönderme veri kümeleri](/rest/api/power-bi/pushdatasets)
 * [Akış veri kümeleri](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [Soru-Cevap](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için ek **çalışma alanları** oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de çalışma alanları Premium kapasitelere atanabilir.
 
@@ -68,7 +69,7 @@ Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin 
 
 İşleme, arka uç ile ön üç arasında eşit olarak bölünmüş belirli sayıda sanal çekirdekle gerçekleştirilir.
 
-**Arka uç sanal çekirdekleri** temel Power BI işlevselliğinden sorumludur: sorgu işleme, önbellek yönetimi, R hizmetlerini çalıştırma, veri yenileme, doğal dil işleme (Soru-Cevap), raporlar ile resimlerin sunucu tarafında işlenmesi. Arka uç sanal çekirdeklerine sabit bir miktar bellek atanır ve bu bellek öncelikli olarak etkin veri kümeleri olarak da bilinen modelleri barındırmak için kullanılır.
+**Arka uç sanal çekirdekleri** temel Power BI işlevselliğinden sorumludur: sorgu işleme, önbellek yönetimi, R hizmetlerini çalıştırma, veri yenileme, raporlar ile resimlerin sunucu tarafında işlenmesi. Arka uç sanal çekirdeklerine sabit bir miktar bellek atanır ve bu bellek öncelikli olarak etkin veri kümeleri olarak da bilinen modelleri barındırmak için kullanılır.
 
 **Ön uç sanal çekirdekleri** web hizmetinden, pano ve rapor belge yönetiminden, erişim hakları yönetiminden, zamanlamadan, API'lerden, karşıya yüklemelerden ve indirmelerden, kısacası kullanıcı deneyimiyle ilgili her şeyden sorumludur.
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365'te Power BI hizmet durumunu izleme
+title: Microsoft 365'te Power BI hizmet durumunu izleme
 description: Microsoft 365 yönetim merkezinde mevcut ve geçmiş hizmet durumunu görüntüleme hakkında bilgi edinin.
 author: kfollis
 ms.reviewer: ''
@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9d0ed841da3f398b8e0a8dc0a35ed040ccf3cab6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139723"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563703"
 ---
-# <a name="track-power-bi-service-health-in-office-365"></a>Office 365'te Power BI hizmet durumunu izleme
+# <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365'te Power BI hizmet durumunu izleme
 
 Microsoft 365 yönetim merkezi, Power BI yöneticileri için önemli araçlar sağlar. Araçlar, hizmet durumu hakkında güncel ve geçmiş bilgileri içerir. Hizmet durumu bilgisine erişmek için aşağıdaki rollerden birinde olmalısınız:
 
 * Power BI Hizmet Yöneticisi
 
-* Office 365 Genel Yöneticisi
+* Genel Yönetici
 
 Rolleri hakkında daha fazla bilgi için bkz. [Power BI ile ilgili yönetici rolleri](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
