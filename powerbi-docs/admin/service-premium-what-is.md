@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438258"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812462"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -50,7 +50,7 @@ Azure Power BI Embedded büyük ölçüde bu makalenin kapsamı dışında kalı
 
 ### <a name="purchasing"></a>Satın alma
 
-Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tarafından satın alınır. Özel olarak yalnızca Office 365 Genel yöneticileri veya Faturalama Yöneticileri SKU satın alabilir. Satın alındığında, kiracı kapasitelere atamak üzere alışverişe karşılık gelen sayıda sanal çekirdek alır; bu *sanal çekirdek havuzu* olarak bilinir. Örneğin, P3 SKU satın almak kiracıya 32 sanal çekirdek sağlar. Daha fazla bilgi edinmek için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md).
+Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tarafından satın alınır. Özel olarak yalnızca Genel yöneticiler veya Faturalama Yöneticileri SKU satın alabilir. Satın alındığında, kiracı kapasitelere atamak üzere alışverişe karşılık gelen sayıda sanal çekirdek alır; bu *sanal çekirdek havuzu* olarak bilinir. Örneğin, P3 SKU satın almak kiracıya 32 sanal çekirdek sağlar. Daha fazla bilgi edinmek için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md).
 
 ## <a name="dedicated-capacities"></a>Ayrılmış kapasiteler
 
@@ -127,13 +127,13 @@ Bölüm notları:
 
 ### <a name="regional-support"></a>Bölgesel destek
 
-Office 365 Genel yöneticileri ve Power BI hizmeti yöneticileri yeni kapasite oluştururken, kapasiteye atanan çalışma alanlarının tutulacağı bir bölge belirtebilir. Bu işlem **Multi-Geo** olarak adlandırılır. Multi-Geo ile, kuruluşlar içeriği belirli bir bölgedeki veri merkezlerine dağıtarak veri yerleşimi gereksinimlerini karşılayabilir. Bu bölge Office 365 Aboneliğinin tutulduğunu bölgeden farklı olabilir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
+Genel yöneticiler ve Power BI hizmeti yöneticileri yeni kapasite oluştururken, kapasiteye atanan çalışma alanlarının tutulacağı bir bölge belirtebilir. Bu işlem **Multi-Geo** olarak adlandırılır. Multi-Geo ile, kuruluşlar içeriği belirli bir bölgedeki veri merkezlerine dağıtarak veri yerleşimi gereksinimlerini karşılayabilir. Bu bölge Office 365 Aboneliğinin tutulduğunu bölgeden farklı olabilir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Kapasite yönetimi
 
 Premium kapasitelerin yönetimi kapasite oluşturma veya silmeyi, yönetici atamayı, çalışma alanı atamayı, iş yüklerini yönetmeyi, izlemeyi ve kapasite performansını iyileştirmek amacıyla ayarlamalar yapmayı içerir. 
 
-Office 365 Genel yöneticileri ve Power BI hizmeti yöneticileri kullanılabilir sanal çekirdeklerden Premium kapasite oluşturabilir veya mevcut Premium kapasitelerde değişiklik yapabilir. Kapasite oluşturulurken kapasite boyutu ile coğrafi bölgesi belirtilir ve kapasiteye en az bir kapasite yöneticisi atanır. 
+Genel yöneticiler ve Power BI hizmeti yöneticileri kullanılabilir sanal çekirdeklerden Premium kapasite oluşturabilir veya mevcut Premium kapasitelerde değişiklik yapabilir. Kapasite oluşturulurken kapasite boyutu ile coğrafi bölgesi belirtilir ve kapasiteye en az bir kapasite yöneticisi atanır. 
 
 Kapasiteleri oluşturma işleminde yönetim görevlerinin çoğu [Yönetim portalında](service-admin-portal.md) tamamlanır.
 

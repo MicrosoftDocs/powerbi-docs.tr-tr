@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: ebdd84dd4de054df08ac79dc2d28f7862cbb284b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 8426b9461b55ae6c29d5adc71f8073ec48731855
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564911"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794056"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI hizmeti için sözlük
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -22,9 +22,7 @@ Bu sözlük bir topluluk çalışmasıdır.  Burada bir sözcüğü bulamadını
 
 ## <a name="a"></a>A
 
-**hesap** Farklı türde Power BI hesapları vardır ve bunlar *lisans* veya *abonelik* olarak da adlandırılır.  Hesaplar kullanıcı başına veya kuruluş hesapları olabilir. Kullanıcı başına hesapları *ücretsiz* veya *Pro* olarak sağlanır.  Power BI *ücretsiz* kullanıcısı tek başına Power BI Desktop’ı veya tek başına Power BI hizmetini ya da Premium kuruluş aboneliğine sahip bir kuruluştaki Power BI hizmetini kullanıyordur. Power BI kullanıcı başına *Pro* hesabı ücretli bir aylık aboneliktir. Diğer *Pro* kullanıcılarıyla işbirliğine ve içerik paylaşımına olanak tanır. 
-
-Kuruluş *Premium* (*Premium kapasite* olarak da bilinir) aboneliği, kullanıcı başına lisanslarının üzerinde bir özellik katmanı daha ekler. Örneğin kuruluşları *Premium* aboneliğe sahip olan *ücretsiz* kullanıcı başına lisansı sahipleri, *Premium* aboneliği olmayan *ücretsiz* kullanıcılarına göre Power BI’da çok daha fazla şey yapabilirler. Örneğin *Premium* kuruluş hesapları olan *ücretsiz* lisans kullanıcıları, iş arkadaşlarıyla işbirliği yapabilir ve Power BI Premium kapasitede barındırılan içeriği görüntüleyebilir. 
+**account (hesap)** Power BI’da oturum açmak için iş veya okul hesabınızı kullanın. Yöneticiler, Azure Active Directory’deki iş veya okul hesaplarını yönetir. Erişim düzeyiniz bu hesapla ilişkili Power BI lisansı ve içeriğin depolandığı kapasite türü tarafından belirlenir. Aşağıdaki **license (lisans)** ve **Premium** bölümlerine göz atın. 
 
 **admin portal (yönetici portalı)** Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Microsoft 365, Azure ve PowerApps, yönetim merkezini kullanır.)
 
@@ -171,7 +169,11 @@ Power BI hizmetinin sol kenarı boyunca sıralanmış denetimler.
 
 İlk örnek: gezinti bölmesi Daha sonra geçtiğinde veya dar alanlarda: gezinti bölmesi
 
-**lisans** Bkz. *hesap*.
+**license (lisans)** Erişim düzeyiniz hesabınızla ilişkili Power BI lisansı ve içeriğin depolandığı kapasite türü tarafından belirlenir. Örneğin, Power BI Pro lisansına sahip bir kullanıcı, paylaşılan kapasitede yalnızca Pro lisansı atanmış kullanıcılarla işbirliği yapabilir. Paylaşılan kapasitede ücretsiz lisans yalnızca kullanıcının bireysel çalışma alanına erişim olanağı verir. Ancak içerik Premium kapasitede olduğunda, Pro lisansa sahip kullanıcılar ücretsiz lisans atanmış kullanıcılarla bu içeriği paylaşabilir. 
+
+Ücretsiz veya Pro bir lisans kullanıcıya atanır. Lisans, nasıl edinildiğine bağlı olarak ücretli veya ücretsiz olabilir. Hesaplar kullanıcı başına veya kuruluş hesapları olabilir. Kullanıcı başına hesapları *ücretsiz* veya *Pro* olarak sağlanır.  Power BI *ücretsiz* kullanıcısı tek başına Power BI Desktop’ı veya tek başına Power BI hizmetini ya da Premium kuruluş aboneliğine sahip bir kuruluştaki Power BI hizmetini kullanıyordur. Power BI kullanıcı başına *Pro* hesabı ücretli bir aylık aboneliktir. Diğer *Pro* kullanıcılarıyla işbirliğine ve içerik paylaşımına olanak tanır. 
+
+Kuruluş *Premium* (*Premium kapasite* olarak da bilinir) aboneliği, kullanıcı başına lisanslarının üzerinde bir özellik katmanı daha ekler. Örneğin kuruluşları *Premium* aboneliğe sahip olan *ücretsiz* kullanıcı başına lisansı sahipleri, *Premium* aboneliği olmayan *ücretsiz* kullanıcılarına göre Power BI’da çok daha fazla şey yapabilirler. Örneğin *Premium* kuruluş hesapları olan *ücretsiz* lisans kullanıcıları, iş arkadaşlarıyla işbirliği yapabilir ve Power BI Premium kapasitede barındırılan içeriği görüntüleyebilir. 
 
 **liste sayfası** veya **içerik listesi** Gezinti bölmesindeki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
 

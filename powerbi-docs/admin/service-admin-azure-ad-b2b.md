@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564524"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812290"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -153,7 +153,7 @@ Konuk kullanıcı zaten kendi kiracısında atanmış bir Power BI Pro lisansın
 * Dış konuk kullanıcıların kuruluşunuz genelinde yapabileceklerini sınırlayabilen Active Directory Ayarları vardır. Bunlar Power BI ortamınıza da uygulanır. Aşağıdaki belgelerde bu ayarlar açıklanır:
     * [Dış İşbirliği Ayarlarını Yönetme](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [Belirli kuruluşlardan B2B kullanıcılarına gönderilen davetlere izin verme veya engelleme](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [Konuk kullanıcıların Power BI hizmetine erişmesine izin verme veya bunu engelleme](/azure/active-directory/conditional-access/overview)
+    * [Erişime izin vermek veya erişimi engellemek için Koşullu Erişim kullanma](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
     
 * Kuruluşunuzun dışıyla paylaşım, ulusal bulutlarda desteklenmez. Bunun yerine kuruluşunuzda dış kullanıcıların içeriğe erişmek için kullanabilecekleri kullanıcı hesapları oluşturun. 
 

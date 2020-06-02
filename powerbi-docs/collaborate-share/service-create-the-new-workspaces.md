@@ -6,32 +6,35 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/07/2020
+ms.date: 05/26/2020
 ms.author: maggies
+ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693751"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120583"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma
 
-Power BI yeni bir çalışma alanı deneyimi sunuyor. Çalışma alanları hala çalışma arkadaşlarınızla işbirliği yaparak pano, rapor ve sayfalandırılmış rapor koleksiyonları oluşturabildiğiniz yerlerdir. Sonra, bu koleksiyonları bir *uygulamanın* içinde paketleyebilir ve kuruluşunuzun tamamına veya belirli kişi veya gruplara dağıtabilirsiniz.
+Bu makalede, *klasik* çalışma alanı yerine *yeni bir çalışma alanının* nasıl oluşturulacağı açıklanmaktadır. İki tür çalışma alanı da iş arkadaşlarınızla işbirliği yaptığınız yerlerdir. Bu çalışma alanlarında pano, rapor ve sayfalandırılmış rapor koleksiyonları oluşturursunuz. Dilerseniz bu koleksiyonu bir *uygulamaya* paketleyip daha geniş bir kitleye dağıtabilirsiniz.
 
-Farkı aşağıda anlatılmıştır. Yeni çalışma alanlarında şunları yapabilirsiniz:
+Yeni çalışma alanları ile eski çalışma alanları arasındaki farklar aşağıda açıklanmaktadır. Yeni çalışma alanlarında şunları yapabilirsiniz:
 
-- Çalışma alanı rollerini kullanıcı gruplarına atayabilirsiniz: güvenlik grupları, dağıtım listeleri, Microsoft 365 grupları ve bireyler.
+- Çalışma alanı rollerini kullanıcı gruplarına ve bireylere atama.
 - Microsoft 365 grubu oluşturmadan Power BI'da bir çalışma alanı oluşturabilirsiniz.
-- Çalışma alanında daha esnek bir izin yönetimi için daha ayrıntılı çalışma alanı rolleri kullanabilirsiniz.
+- Daha esnek bir izin yönetimi için daha ayrıntılı çalışma alanı rolleri kullanma.
+
+:::image type="content" source="media/service-create-the-new-workspaces/power-bi-workspace-sales-marketing.png" alt-text="Satış ve Pazarlama örnek çalışma alanı":::
+
+Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-workspaces.md) makalesine bakın.
 
 Klasik çalışma alanınızı geçirmeye hazır mısınız? Ayrıntılar için bkz. [Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme](service-upgrade-workspaces.md).
 
 > [!NOTE]
 > Çalışma alanındaki içeriğe göz atan Power BI Pro kullanıcılarında satır düzeyi güvenliği (RLS) zorunlu tutmak için kullanıcılara Görüntüleyici Rolü atayın.
-
-Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-workspaces.md) makalesine bakın.
 
 ## <a name="create-one-of-the-new-workspaces"></a>Yeni çalışma alanlarından birini oluşturma
 
@@ -43,21 +46,19 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
    
      ![Yeni çalışma alanı deneyimi](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **Klasik sürüme geri al**’ı seçerseniz, [Microsoft 365 grubunu temel alan bir çalışma alanı](service-create-workspaces.md) oluşturursunuz. 
+     **Klasik sürüme geri al**’ı seçerseniz Microsoft 365 grubunu temel alan bir [klasik çalışma alanı](service-create-workspaces.md) oluşturursunuz.
 
-2. Çalışma alanına bir ad verin. Ad kullanılamıyorsa, düzenleyerek benzersiz bir ad haline getirin.
+2. Çalışma alanına benzersiz bir ad verin. Ad kullanılamıyorsa, düzenleyerek benzersiz bir ad haline getirin.
    
-     Çalışma alanının uygulaması, çalışma alanıyla aynı ada ve simgeye sahip olacaktır.
+     Çalışma alanından oluşturduğunuz uygulama, çalışma alanıyla aynı ada ve simgeye sahip olacaktır.
    
 1. Aşağıda, çalışma alanınız için ayarlayabileceğiniz bazı isteğe bağlı öğeler verilmiştir:
 
     Bir **Çalışma alanı görüntüsü** yükleyin. Dosyalar .png veya .jpg biçiminde olabilir. Dosya boyutu 45 KB'tan küçük olmalıdır.
     
-    [Bir **Kişi listesi**](#workspace-contact-list) ekleyin. Varsayılan olarak, çalışma alanı yöneticileri kişiler arasındadır. 
+    [Bir **Kişi listesi**](#create-a-contact-list) ekleyin. Varsayılan olarak, çalışma alanı yöneticileri kişiler arasındadır. 
     
-    [URL’yi değil mevcut Microsoft 365 Grubunun adını yazarak bir **Çalışma Alanı OneDrive**](#workspace-onedrive) belirtin. Artık bu çalışma alanı, o Microsoft 365 grubunun dosya depolama konumunu kullanabilir.
-
-    ![OneDrive konumu belirtme](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
+    [Microsoft 365 grubu dosya depolama konumu kullanmak için bir **OneDrive Çalışma Alanı**](#set-a-workspace-onedrive) belirtin. 
 
     Çalışma alanını bir **Ayrılmış kapasiteye** atamak için **Premium** sekmesinde **Ayrılmış kapasite**'yi seçin.
      
@@ -67,9 +68,9 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
 
     Power BI çalışma alanını oluşturur ve açar. Üyesi olduğunuz çalışma alanlarının listesinde bunu görürsünüz. 
 
-## <a name="workspace-contact-list"></a>Çalışma alanı kişi listesi
+## <a name="create-a-contact-list"></a>Kişi listesi oluşturma
 
-Çalışma alanında oluşan sorunlar hakkında hangi kullanıcıların bildirim alacağını belirtebilirsiniz. Varsayılan olarak, çalışma alanı yöneticisi olarak belirtilen tüm kullanıcı veya gruplar bildirim alır. Bu kişileri *kişi listesine* ekleyerek listeyi özelleştirebilirsiniz. Kullanıcıların çalışma alanıyla ilgili yardım alabilmesi için kişi listesinde yer alan kullanıcılar veya gruplar kullanıcı arabiriminde listelenir.
+Çalışma alanında oluşan sorunlar hakkında hangi kullanıcıların bildirim alacağını belirtebilirsiniz. Varsayılan olarak, çalışma alanı yöneticisi olarak belirtilen tüm kullanıcı veya gruplar bildirim alır, ancak *kişi listesine* başkalarını da ekleyebilirsiniz. Kullanıcıların çalışma alanıyla ilgili yardım alabilmesi için kişi listesinde yer alan kullanıcılar veya gruplar kullanıcı arabiriminde listelenir.
 
 1. Yeni **Kişi listesi** ayarına iki şekilde erişebilirsiniz:
 
@@ -85,11 +86,11 @@ Daha fazla arka plan bilgisi için [yeni çalışma alanları](service-new-works
 
 3. **Kaydet**'i seçin.
 
-## <a name="workspace-onedrive"></a>OneDrive Çalışma Alanı
+## <a name="set-a-workspace-onedrive"></a>OneDrive çalışma alanı ayarlama
 
-OneDrive Çalışma Alanı özelliği, SharePoint Belge Kitaplığı dosya depolama alanının çalışma alanı kullanıcıları tarafından kullanılabildiği bir Microsoft 365 Grubu yapılandırmanızı sağlar. Grubu önce Power BI dışında oluşturacaksınız.
+OneDrive Çalışma Alanı özelliği, SharePoint Belge Kitaplığı dosya depolama alanının çalışma alanı kullanıcıları tarafından kullanılabildiği bir Microsoft 365 grubu yapılandırmanızı sağlar. Grubu önce Power BI dışında oluşturacaksınız. 
 
-Power BI, Microsoft 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şekilde yapılandırılmış kullanıcı veya grupların izinlerini eşitlemez. En iyi yöntem, bu ayarda dosya depolama alanını yapılandırdığınız aynı Microsoft 365 Grubuna [çalışma alanı erişim izni](#give-access-to-your-workspace) vermektir. Ardından Microsoft 365 grubunun üyeliğini yöneterek çalışma alanı erişimini yönetin.
+Power BI, Microsoft 365 grubu üyeliğiyle çalışma alanı erişimi olacak şekilde yapılandırılmış kullanıcı veya grupların izinlerini eşitlemez. En iyi yöntem, bu ayarda dosya depolama alanını yapılandırdığınız aynı Microsoft 365 Grubuna [çalışma alanı erişim izni](#give-access-to-your-workspace) vermektir. Ardından Microsoft 365 grubunun üyeliğini yöneterek çalışma alanı erişimini yönetin. 
 
 1. Yeni **Çalışma Alanı OneDrive** ayarına iki şekilde erişebilirsiniz:
 
@@ -99,7 +100,7 @@ Power BI, Microsoft 365 Grubu üyeliğiyle çalışma alanı erişimi olacak şe
 
     ![Çalışma alanı ayarları](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **Gelişmiş** > **Workspace OneDrive** altında, daha önce oluşturduğunuz Microsoft 365 grubunun adını yazın. Power BI, grup için otomatik olarak OneDrive'ı seçer.
+2. **Gelişmiş** > **Workspace OneDrive** altında, daha önce oluşturduğunuz Microsoft 365 grubunun adını yazın. URL’yi değil, yalnızca adı yazın. Power BI, grup için otomatik olarak OneDrive'ı seçer.
 
     ![OneDrive konumu belirtme](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -117,19 +118,21 @@ OneDrive konumunuzu yapılandırdıktan sonra, bunu tıpkı Power BI hizmetindek
 
     ![Çalışma alanı dosyalarının konumu - veri alma](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
 
-### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Yeni çalışma alanlarında üçüncü taraf hizmetlere bağlanma
+### <a name="connect-to-apps-in-new-workspaces"></a>Yeni çalışma alanlarındaki uygulamalara bağlanma
 
-Yeni çalışma alanları deneyiminde, uygulamalara *odaklanmak* için bir değişiklik yapıyoruz. Üçüncü taraf hizmetlerine yönelik uygulamalar, kullanıcıların kullandıkları Microsoft Dynamics CRM, Salesforce veya Google Analytics gibi hizmetlerden veri almasını kolaylaştırır.
+Yeni çalışma alanı deneyimlerinde içerik paketleri yerine *uygulamalar* oluşturulup kullanılır. Uygulamalar, üçüncü taraf hizmetlere ve kurumsal verilere bağlanan pano, rapor ve veri kümesi koleksiyonlarıdır. Uygulamalar, Microsoft Dynamics CRM, Salesforce ve Google Analytics gibi hizmetlerden veri almayı kolaylaştırır.
 
-Yeni çalışma alanı deneyimiyle, kurumsal içerik paketleri oluşturamaz veya kullanamazsınız. Bunun yerine, üçüncü taraf hizmetlere bağlanmak için sağlanan uygulamaları kullanabilir veya şirket içindeki ekiplerinizden şu anda kullandığınız tüm içerik paketleri için uygulamalar sağlamalarını isteyebilirsiniz. 
+Yeni çalışma alanı deneyimiyle, kurumsal içerik paketleri oluşturamaz veya kullanamazsınız. İç ekiplerinizin, kullanmakta olduğunuz içerik paketlerine yönelik uygulamalar sağlamasını isteyin. 
 
 ## <a name="give-access-to-your-workspace"></a>Çalışma alanınıza erişim izni verme
 
-1. Çalışma alanı içerik listesinde, yönetici olduğunuz için **Erişim** adlı yeni bir eylem görürsünüz.
+Bir çalışma alanında yönetici rolüne sahip herkes başkalarına çalışma alanı erişimi verebilir.
+
+1. Yönetici olduğunuzdan, çalışma alanı içerik listesi sayfasında **Erişim**’i görürsünüz.
 
     ![Çalışma alanları içerik listesi](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. Bu çalışma alanlarına güvenlik gruplarını, dağıtım listelerini, Microsoft 365 gruplarını veya kişileri izleyici, üye, katkıda bulunan veya yönetici olarak ekleyin. Farklı rollerin açıklamaları için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
+1. Bu çalışma alanlarına güvenlik gruplarını, dağıtım listelerini, Microsoft 365 gruplarını veya kişileri yönetici, üye, katkıda bulunan ya da görüntüleyici olarak ekleyin. Farklı rollerin açıklamaları için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
 
     ![Çalışma alanlarına üye, yönetici, katkıda bulunan ekleme](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 
@@ -138,9 +141,9 @@ Yeni çalışma alanı deneyimiyle, kurumsal içerik paketleri oluşturamaz veya
 
 ## <a name="distribute-an-app"></a>Uygulamayı dağıtma
 
-Kuruluşunuzda büyük bir hedef kitleye resmi içerik dağıtmak istiyorsanız, çalışma alanınızdan bir uygulama yayımlayabilirsiniz.  İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçer ve ardından bunu bir *uygulama* olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz.
+Kuruluşunuzda büyük bir hedef kitleye resmi içerik dağıtmak istiyorsanız, çalışma alanınızdan bir *uygulama* yayımlayabilirsiniz.  İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçip bunu bir uygulama olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz.
 
-[Yeni çalışma alanlarından uygulama yayımlama](service-create-distribute-apps.md) hakkında bilgi edinin
+[Yeni çalışma alanlarından uygulama yayımlama](service-create-distribute-apps.md) hakkında bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da yeni çalışma alanlarında çalışmayı düzenleme deneyimi](service-new-workspaces.md) makalesini okuyun

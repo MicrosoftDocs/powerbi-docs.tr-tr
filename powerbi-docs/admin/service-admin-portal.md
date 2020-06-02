@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564484"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733612"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -356,6 +356,16 @@ Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI için genel aramayı kullanma (Önizleme)
 
 Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerinden yararlanabilir.
+
+## <a name="featured-tables-settings"></a>Öne çıkan tablo ayarları
+
+**Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** kiracı ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Öne çıkan tablolara yönelik tüm bağlantılar":::
+
+**Verileri dışarı aktar** kiracı ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
+
+[Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="power-bi-visuals-settings"></a>Power BI görselleri ayarları
 

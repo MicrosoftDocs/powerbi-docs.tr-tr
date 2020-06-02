@@ -1,22 +1,22 @@
 ---
-title: Veri kümesi paylaşma (önizleme)
+title: Veri kümesini paylaşma
 description: Veri kümesi sahibi olarak diğer kişilerin kullanabilmesi için veri kümelerinizi oluşturup paylaşabilirsiniz. Bunları nasıl paylaşacağınızı öğrenin.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565472"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794082"
 ---
-# <a name="share-a-dataset-preview"></a>Veri kümesi paylaşma (önizleme)
+# <a name="share-a-dataset"></a>Veri kümesini paylaşma
 
 Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde dağıtabileceğiniz *veri kümeleri* oluşturuyorsunuz. Böylece, diğer rapor oluşturucuları veri kümelerinizi kendi raporlarının temeli olarak kullanabilir. Bu makalede veri kümelerinizi paylaşmayı öğreneceksiniz. Paylaşılan veri kümelerinize erişim vermeyi ve bu erişimi kaldırmayı öğrenmek için [Oluşturma izni](service-datasets-build-permissions.md) bölümüne bakın.
 
@@ -26,7 +26,7 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 
     .pbix dosyasını bir Microsoft 365 grubuna kaydetmek en iyi yöntemlerden biridir.
 
-1. .pbix dosyasını Power BI hizmetindeki bir [yeni deneyim çalışma alanında](../collaborate-share/service-create-the-new-workspaces.md) yayımlayın.
+1. .pbix dosyasını Power BI hizmetindeki [yeni bir çalışma alanı deneyiminde](../collaborate-share/service-create-the-new-workspaces.md) yayımlayın.
     
     Bu çalışma alanının diğer üyeleri, zaten bu veri kümesini temel alarak diğer çalışma alanlarında rapor oluşturabiliyor.
 
@@ -53,5 +53,5 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
+- [Veri kümelerini çalışma alanları arasında kullanma](service-datasets-across-workspaces.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

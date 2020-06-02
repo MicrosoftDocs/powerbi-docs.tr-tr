@@ -9,21 +9,18 @@ ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
 LocalizationGroup: Administration
-ms.openlocfilehash: 9db228253e0e88105108a1b3a5eaf725c73e0abb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563565"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812232"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
 Bu makalede, bir iş veya okul e-posta adresiniz yoksa Power BI’a kaydolmaya yönelik alternatif bir yol açıklanmaktadır.
 
 Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses) olduğundan emin olun. Bu işe yaramazsa Microsoft 365 deneme sürümüne kaydolup bir iş hesabı oluşturun. Daha sonra, Power BI hizmetine kaydolmak için bu yeni iş hesabını kullanın. Microsoft 365 deneme sürümünün süresi dolsa bile Power BI’ı kullanmaya devam edebilirsiniz.
-
-> [!NOTE]
-> Office 365’in adı yakın zamanda Microsoft 365 olarak değiştirildi. Tüm makalelerimiz güncelleştirilene kadar bu üründen Office 365 olarak bahsedildiğini görebilirsiniz.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office’in Microsoft 365 denemesine kaydolma
 [Microsoft 365 web sitesinden](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) Microsoft 365 deneme sürümüne kaydolun. Henüz bir hesabınız yoksa Microsoft hesap oluşturma adımlarında size yol gösterir. Ticari e-posta hesapları (Hotmail ve Gmail gibi) Microsoft 365’le kullanılamadığından, kullanılabilen yeni bir hesap oluşturursunuz.  E-posta hesabı şuna benzer olacaktır: *zalan@onmicrosoft.com* .
@@ -42,7 +39,7 @@ Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncel
 
     ![iş veya okul hesabı oluşturun](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-enter-info.png)
 
-3. Yeni e-posta adresinizi ve parolanızı oluşturun. you@yourcompany.onmicrosoft.com benzeri bir oturum açma adı oluşturun. Bu yeni Office 365 hesabınızla ve Power BI’la kullanacağınız oturum açma bilgileridir.
+3. Yeni e-posta adresinizi ve parolanızı oluşturun. you@yourcompany.onmicrosoft.com benzeri bir oturum açma adı oluşturun. Bu, yeni iş veya okul hesabınızla ve Power BI’la kullanacağınız oturum açma bilgileridir.
 
     ![Yeni bir hesaba kaydolmayı seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 

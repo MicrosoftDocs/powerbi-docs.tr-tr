@@ -4,26 +4,39 @@ description: SQL Server Reporting Services’de uzun süredir rapor biçimi olan
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565518"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733428"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
-SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Bu raporlar yazdırılabilir veya paylaşılabilir. "Sayfalandırılmış" olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğiniz için bazı durumlarda "piksel düzeyinde hassas" olarak anılırlar. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. Rapor Oluşturucusu, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. 
+*Sayfalandırılmış raporlar*, yazdırılmak veya paylaşılmak üzere tasarlanmıştır. *Sayfalandırılmış* olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğinizden, bunlar *piksel düzeyinde hassas* olarak da anılırlar. Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. Sayfalandırılmış raporlar, SQL Server Reporting Services’ta uzun süredir standart rapor biçimi olan RDL rapor teknolojisini temel alır. 
 
-Sayfalandırılmış raporlar birçok sayfadan oluşabilir. Örneğin bu raporun 563 sayfası vardır. Her biri tam olarak her fatura için bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde düzenlenmiştir.
+Sayfalandırılmış raporlar genellikle çok sayıda sayfadan oluşur. Örneğin bu raporun 563 sayfası vardır. Her biri tam olarak her fatura için bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde düzenlenmiştir.
 
 ![Sayfalandırılmış](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından `https://app.powerbi.com` Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](../admin/service-admin-premium-workloads.md#paginated-reports) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Power BI raporlarını ve sayfalandırılmış raporları karşılaştırma
+
+Sayfalandırılmış raporların en büyük avantajlarından biri, ne kadar uzun olduğu fark etmeksizin tüm verileri bir tabloda yazdırabilme özelliğidir. Power BI raporuna bir tablo yerleştirdiğinizi düşünün. Tablodaki bazı satırları sayfada görürsünüz, gerisini görmek için ise kaydırma çubuğunu kullanırsınız. Bu sayfayı yazdırır veya PDF’ye dışarı aktarırsanız yalnızca sayfada gördüğünüz satırlar yazdırılır. 
+
+Şimdi aynı tabloyu sayfalandırılmış bir rapora yerleştirdiğinizi varsayalım. Bu raporu yazdırdığınızda veya PDF’ye dışarı aktardığınızda, sayfalandırılmış rapor bu tablodaki her satırı yazdırmak için gereken sayıda sayfayı içerir. 
+
+Aşağıdaki videoda, Microsoft En Değerli Profesyonel - Veri Platformu Yöneticisi Peter Myers ve Baş Program Yöneticisi Chris Finlan benzer bir tablonun iki rapor biçiminde yazdırılmasını gösteriyor. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+Bu video, [Bir Günlük Kursla Power BI Sayfalandırılmış Raporları](../learning-catalog/paginated-reports-online-course.md) adlı, sekiz modülden oluşan video temelli kursun bir parçasıdır. Bu kurs, sizin gibi rapor yazarlarını Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgilerle donatmak üzere tasarlanmıştır.
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu'nda rapor oluşturma
 

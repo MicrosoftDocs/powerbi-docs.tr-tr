@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 27f71da8a8396de30254c1a02307aa48281db5a8
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407582"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793615"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Kullanıcıların rapordaki görselleri kişiselleştirmesine olanak tanıma
 
@@ -91,7 +91,7 @@ Görseli seçin > **Görselleştirmeler** bölmesinde **Biçim**’i seçin > **
 
 - Bu özellik web’de yayımlama gibi ekleme senaryolarında desteklenmez.
 - Kullanıcının incelemeleri otomatik olarak kalıcı olmaz. Değişikliklerinizi yakalamak için görünümünüzü kişisel bir yer işareti olarak kaydetmeniz gerekir.
-- Power BI mobil uygulamalarını kullanırken görselleri değiştiremezsiniz. Bununla birlikte Power BI hizmetindeyken kişisel yer işaretine kaydettiğiniz tüm görsel değişiklikleri mobil uygulamalarda dikkate alınır.
+- Bu özellik, iOS ve Android tabletler için Power BI mobil uygulamalarında ve Power BI Windows uygulamasında desteklenir; telefonlar için Power BI mobil uygulamalarında desteklenmez. Bununla birlikte, Power BI hizmetindeyken kişisel yer işaretine kayıtlı bir görselde yapılan değişiklikler, tüm Power BI mobil uygulamalarında dikkate alınır.
 
 Ayrıca ilgilendiğimiz bazı bilinen sorunlar da vardır:
 

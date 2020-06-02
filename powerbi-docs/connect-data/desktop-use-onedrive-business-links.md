@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564141"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120010"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 Pek çok kullanıcının OneDrive İş'te depolanan Excel çalışma kitapları bulunur, bunlar Power BI Desktop'ta kullanmak için harika bir seçimdir. Power BI Desktop ile rapor ve görsel oluşturmak için OneDrive İş'te kayıtlı Excel dosyalarına ilişkin çevrimiçi bağlantıları kullanabilirsiniz. Bir OneDrive İş grup hesabını veya bireysel OneDrive İş hesabınızı kullanabilirsiniz.
@@ -26,11 +26,10 @@ OneDrive İş'ten çevrimiçi bir bağlantı almak için uygulamanız gereken be
    
    > [!NOTE]
    > Tarayıcı arabiriminiz tamamen aşağıdaki gibi görünmeyebilir. OneDrive İş tarayıcı arabiriminizdeki dosyalar için **Excel'de Aç**'ı seçmenin pek çok yolu vardır. Dosyayı Excel'de açmanıza olanak sağlayan tüm seçenekleri kullanabilirsiniz.
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. Excel'de **Dosya** > **Bilgi**'yi ve sonra da **Çalışma Kitabını Koru**'nun üst kısmında **Yolu kopyala**'yı seçin.
+
+2. Excel’de **Dosya** > **Bilgi**’yi seçin ve sonra aşağıda gösterildiği gibi **Yolu kopyala** düğmesini seçin.
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

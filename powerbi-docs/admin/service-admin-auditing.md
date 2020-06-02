@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564627"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812439"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -26,7 +26,7 @@ Power BI kiracınızdaki öğeler üzerinde gerçekleştirilen eylemleri ve bunl
 | Power BI denetim olaylarına ek olarak SharePoint Online, Exchange Online, Dynamics 365 ve diğer hizmetlerden olayları içerir. | Yalnızca Power BI denetim olaylarını içerir. |
 | Yalnızca genel yöneticiler ve denetçiler gibi Yalnızca Görüntülenebilir Denetim Günlükleri ve Denetim Günlükleri izinleri olan kullanıcılar erişebilir. | Genel yöneticilerin ve Power BI hizmeti yöneticilerinin erişimi vardır. |
 | Genel yöneticiler ve denetçiler Microsoft 365 Güvenlik Merkezi'ni ve Microsoft 365 Uyumluluk Merkezi'ni kullanarak birleşik denetim günlüğünde arama yapabilir. | Henüz etkinlik günlüğünde arama yapmaya yönelik kullanıcı arabirimi yoktur. |
-| Genel yöneticiler ve denetçiler Office 365 Yönetim API'lerini ve cmdlet'leri kullanarak denetim günlüğü girdilerini indirebilir. | Genel yöneticiler ve Power BI hizmeti yöneticileri Power BI REST API'sini ve yönetim cmdlet'ini kullanarak etkinlik günlüğü girdilerini indirebilir. |
+| Genel yöneticiler ve denetçiler Microsoft 365 Yönetim API’lerini ve cmdlet’leri kullanarak denetim günlüğü girişlerini indirebilir. | Genel yöneticiler ve Power BI hizmeti yöneticileri Power BI REST API'sini ve yönetim cmdlet'ini kullanarak etkinlik günlüğü girdilerini indirebilir. |
 | Denetim verilerini 90 gün süreyle tutar | Etkinlik verilerini 30 gün süreyle tutar (genel önizleme). |
 | Kiracı farklı bir Azure bölgesine taşınsa bile denetim verilerini korur. | Kiracı farklı bir Azure bölgesine taşındığında etkinlik verilerini korumaz. |
 
@@ -239,6 +239,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 
 | Kolay ad                                     | İşlem adı                              | Notlar                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Excel’de öne çıkan Power BI tablolarına erişildi | AnalyzedByExternalApplication |    |
 | Power BI ağ geçidine veri kaynağı eklendi             | AddDatasourceToGateway                      |                                          |
 | Power BI klasörüne erişim eklendi                      | AddFolderAccess                             | Şu anda kullanılmıyor                       |
 | Power BI grup üyeleri eklendi                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI panosu yazdırıldı                        | PrintDashboard                              |                                          |
 | Power BI rapor sayfası yazdırıldı                      | PrintReport                                 |                                          |
 | Power BI raporu web'de yayımlandı                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| Yayımlanmış veya güncelleştirilmiş öne çıkan tablolar | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Veri kaynağını Power BI ağ geçidinden kaldırma         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI grup üyeleri kaldırıldı                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 <sup>1</sup> Power BI Desktop’tan hizmette yayımlama işlemi, hizmette bir CreateReport etkinliğidir.
 
 <sup>2</sup> PublishtoWebReport, [Web’de yayımla](../collaborate-share/service-publish-to-web.md) özelliğine başvurur.
+
+<sup>3</sup> UpdateFeaturedTables, [Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) anlamına gelir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
