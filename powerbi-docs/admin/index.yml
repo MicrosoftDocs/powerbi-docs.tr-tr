@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Power BI yönetici ve kurumsal belgeleri
-summary: Power BI yönetici ve kurumsal belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+summary: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
 metadata:
   title: Power BI yönetici ve kurumsal belgeleri
-  description: Power BI yönetici ve kurumsal belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
+  description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-service
@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 2256fbfed7410aea069638a773b83156096ab855
-  ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
+  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/16/2020
-  ms.locfileid: "83438004"
+  ms.lasthandoff: 06/02/2020
+  ms.locfileid: "84272483"
 landingContent:
 - title: Yöneticiler ve kurumlar için Power BI
   linkLists:
@@ -45,7 +45,7 @@ landingContent:
       url: service-admin-purchasing-power-bi-pro.md
     - text: Microsoft 365 Denemesine kaydolma
       url: service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-    - text: Bir Office 365 iş ortağı ile Power BI ekleme
+    - text: Microsoft 365 iş ortağıyla Power BI ekleme
       url: service-admin-syndication-partner.md
 - title: Kuruluşunuzu yönetme
   linkLists:
