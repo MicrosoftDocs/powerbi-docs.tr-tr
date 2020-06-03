@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a1922dabc267249dc4ae419f295d2c05e30d5fd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: faa4c567af6cf27ea852f17a2ba3a11e4f651dc3
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83146239"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733543"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 
-Bu makalede klasik bir çalışma alanını yeni çalışma alanı deneyimine yükseltme veya *geçirme* işlemleri açıklanır. Tüm klasik çalışma alanlarını yükseltebilirsiniz. Yeni çalışma alanlarında daha ayrıntılı çalışma alanı rolleri olduğundan, içeriğe erişimi daha iyi yönetebilirsiniz. Ayrıca yükseltilen çalışma alanlarını daha büyük bir esneklikle yönetebilirsiniz çünkü özgün Office 365 gruplarıyla aralarında daha gevşek bir bağlantı vardır. [Yeni çalışma alanı deneyimi](service-new-workspaces.md) hakkında bilgi edinin. 
+Bu makalede klasik bir çalışma alanını yeni çalışma alanı deneyimine yükseltme veya *geçirme* işlemleri açıklanır. Tüm klasik çalışma alanlarını yükseltebilirsiniz. Yeni çalışma alanlarında daha ayrıntılı çalışma alanı rolleri olduğundan, içeriğe erişimi daha iyi yönetebilirsiniz. Ayrıca yükseltilen çalışma alanlarını daha büyük bir esneklikle yönetebilirsiniz çünkü özgün Microsoft 365 gruplarıyla aralarında daha gevşek bir bağlantı vardır. [Yeni çalışma alanı deneyimi](service-new-workspaces.md) hakkında bilgi edinin.
 
 >[!NOTE]
 >Çalışma alanı yükseltmesi Genel Önizleme olarak kullanıma sunuldu. 
@@ -36,7 +36,7 @@ Yükseltmeniz uygulandıktan *sonra* birkaç şey yapmalısınız. Yükseltme *�
 
 ## <a name="upgrade-a-classic-workspace"></a>Klasik çalışma alanını yükseltme
 
-Her çalışma alanı yöneticisi çalışma alanını yükseltebilir. Klasik çalışma alanlarında, çalışma alanının yöneticisi olmak için temel Office 365 grubunun Sahibi olmanız gerekir. Çalışma alanını yükseltmek için aşağıdaki adımları izleyin.
+Her çalışma alanı yöneticisi çalışma alanını yükseltebilir. Klasik çalışma alanlarında, çalışma alanının yöneticisi olmak için temel Microsoft 365 grubunun Sahibi olmanız gerekir. Çalışma alanını yükseltmek için aşağıdaki adımları izleyin.
 
 1. Çalışma alanı içerik listesinde **Diğer seçenekler** ( **...** ) > **Bu çalışma alanını düzenle**'yi seçin.
 
@@ -64,7 +64,7 @@ Yükseltmeyi az sayıda kullanıcının etkin olarak çalışma alanını görü
 
 - Çalışma alanınızın URL'leri ve kimlikleri, çalışma alanındaki içerik ve çalışma alanından yayımlanmış uygulama değişmez. Çalışma alanınıza yüklenmiş olan içerik paketlerinin içeriği ayrı işlenir. Ayrıntılar için bu makalenin [Yükseltme sırasında içerik paketleri](#content-packs-during-upgrade) bölümüne bakın.
 - Yeni çalışma alanı deneyiminde içerik paketleri desteklenmez. Yükseltme sırasında bunların nasıl işlendiğini öğrenmek için [yayımlanmış içerik paketleri](#published-content-packs) veya [yüklenmiş içerik paketleri](#installed-content-packs) ile ilgili bölümleri okuyun. Çalışma alanınıza yüklenmiş veya yayımlanmış içerik paketlerini yükseltme yapmadan önce silmenizi öneririz.
-- Klasik çalışma alanınızın Office 365 grubu Power BI'daki çalışma alanı yükseltmesinden etkilenmez. Office 365 tarafından yönetilen Teams, SharePoint siteleri, posta kutuları veya diğer kaynaklar değişmez. Power BI çalışma alanınızı yükselttikten sonra bunlar olduğu gibi kalır. Office 365 grubu daha önce olduğu gibi var olmaya devam eder.
+- Klasik çalışma alanınızın Microsoft 365 grubu Power BI'daki çalışma alanı yükseltmesinden etkilenmez. Microsoft 365 tarafından yönetilen Teams, SharePoint siteleri, posta kutuları veya diğer kaynaklar değişmez. Power BI çalışma alanınızı yükselttikten sonra bunlar olduğu gibi kalır. Microsoft 365 grubu daha önce olduğu gibi var olmaya devam eder.
 - Yükseltmeden sonra çalışma alanınızın güvenliği sağlama yönteminde değişiklikler olur. Ayrıntılar için [yükseltmeden sonra çalışma alanı izinleri](#permissions-after-upgrade) bölümüne bakın.
 - İhtiyacınız olabileceği düşünülerek **klasik çalışma alanına dönme** seçeneği sağlanmıştır. Öte yandan bu seçenek çalışma alanının yükseltme öncesi durumunu tüm yönleriyle geri yüklemez. Yalnızca yeni çalışma alanı deneyiminde çalışan özellikleri kullanmaya başladıysanız geri dönemezsiniz. Geri dönme seçeneği, yükseltmeyi izleyen 30 gün içinde kullanılabilir.
 
@@ -74,26 +74,26 @@ Yükseltmeden sonraki izinleri gözden geçirmek için çalışma alanı içerik
 
 ![Menü çubuğunda Erişim](media/service-upgrade-workspaces/power-bi-workspace-access-menu-bar.png)
 
-Yükseltilen çalışma alanında tüm Office 365 gruplarının Sahipleri tek tek Yönetici rolüne eklenir. Office 365 grubunun kendisini bir çalışma alanı rolüne eklenir. Hangi role ekleneceği klasik çalışma alanının *salt okuma* veya *okuma-yazma* olarak ayarlanmasına bağlıdır:
+Yükseltilen çalışma alanında tüm Microsoft 365 gruplarının Sahipleri tek tek Yönetici rolüne eklenir. Microsoft 365 grubunun kendisini bir çalışma alanı rolüne eklenir. Hangi role ekleneceği klasik çalışma alanının *salt okuma* veya *okuma-yazma* olarak ayarlanmasına bağlıdır:
 
-- Çalışma alanı **Üyeler Power BI içeriğini düzenlenebilir** olarak ayarlandıysa, yükseltmeden sonra Office 365 grubu çalışma alanı listesine **Üye** rolüyle eklenir.
-- Çalışma alanı **Üyeler Power BI içeriğini yalnızca okuyabilir** olarak ayarlandıysa, yükseltmeden sonra Office 365 grubu çalışma alanı listesine **Görüntüleyen** rolüyle eklenir.
+- Çalışma alanı **Üyeler Power BI içeriğini düzenlenebilir** olarak ayarlandıysa, yükseltmeden sonra Microsoft 365 grubu çalışma alanı listesine **Üye** rolüyle eklenir.
+- Çalışma alanı **Üyeler Power BI içeriğini yalnızca okuyabilir** olarak ayarlandıysa, yükseltmeden sonra Microsoft 365 grubu çalışma alanı listesine **Görüntüleyen** rolüyle eklenir.
 
-Office 365 grubuna çalışma alanında bir rol verildiğinden, yükseltmeden sonra Office 365 grubuna eklenen tüm kullanıcılar çalışma alanında bu role sahip olur. Bununla birlikte yükseltmeden sonra Office 365 grubuna yeni Sahipler eklerseniz, bunların çalışma alanında Yönetici rolü olmaz.
+Microsoft 365 grubuna çalışma alanında bir rol verildiğinden, yükseltmeden sonra Microsoft 365 grubuna eklenen tüm kullanıcılar çalışma alanında bu role sahip olur. Bununla birlikte yükseltmeden sonra Microsoft 365 grubuna yeni Sahipler eklerseniz, bunların çalışma alanında Yönetici rolü olmaz.
 
 
 ### <a name="differences-in-roles-before-and-after-upgrade"></a>Yükseltmeden önceki ve sonraki roller arasındaki farklar
 
-Çalışma alanı rolleri klasik çalışma alanlarıyla yeni çalışma alanlarında birbirinden farklıdır. Yeni çalışma alanı deneyimi Office 365 gruplarına, güvenlik gruplarına veya dağıtım listelerine çalışma alanı rolleri vermenize olanak tanır.
+Çalışma alanı rolleri klasik çalışma alanlarıyla yeni çalışma alanlarında birbirinden farklıdır. Yeni çalışma alanı deneyimi Microsoft 365 gruplarına, güvenlik gruplarına veya dağıtım listelerine çalışma alanı rolleri vermenize olanak tanır.
 
 - **Üyeler** tek tek öğeleri paylaşabilir ve Üye, Katkıda Bulunan veya Görüntüleyen rolleri aracılığıyla çalışma alanının tamamına erişim verebilir
 - **Görüntüleyenler** içeriği yalnızca görüntüleyebilir ve Oluşturma izni olmadığı sürece temel verileri dışarı aktaramaz veya herhangi bir çalışma alanı veri kümesi için Excel'de analiz edemez.
 
 Paylaşım veya uygulama izni aracılığıyla çalışma alanındaki öğelere erişimi olan kullanıcıların bu erişimi devam eder. Çalışma alanına erişimi olan herkesin çalışma alanından yayımlanan uygulamaya da erişimi vardır. Bu kullanıcılar uygulama erişim listesinde yer almaz.
 
-Yeni Katkıda Bulunan rolünü kullanmayı değerlendirmenizi öneririz. Yükseltmeden sonra Erişim bölmesinde Office 365 grubunu Katkıda Bulunan rolünü alacak şekilde değiştirebilirsiniz.
+Yeni Katkıda Bulunan rolünü kullanmayı değerlendirmenizi öneririz. Yükseltmeden sonra Erişim bölmesinde Microsoft 365 grubunu Katkıda Bulunan rolünü alacak şekilde değiştirebilirsiniz.
 
-Yükseltmeden sonra, erişimi tek tek kullanıcılara rol atamalarıyla yönetmek yerine çalışma alanı yöneticileri için güvenlik veya Office 365 grubu ya da dağıtım listesi oluşturmayı göz önünde bulundurabilirsiniz.
+Yükseltmeden sonra, erişimi tek tek kullanıcılara rol atamalarıyla yönetmek yerine çalışma alanı yöneticileri için güvenlik veya Microsoft 365 grubu ya da dağıtım listesi oluşturmayı göz önünde bulundurabilirsiniz.
 
 [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) hakkında daha fazla bilgi edinin.
 
@@ -105,7 +105,7 @@ Yönetici, Üye veya Katkıda Bulunan çalışma alanı rollerindeki kullanıcı
 
 ## <a name="other-new-workspace-features"></a>Diğer yeni çalışma alanı özellikleri
 
-Yeni çalışma alanı deneyimi, klasik çalışma alanlarında bulunmayan özelliklere sahiptir. Farklılıklardan biri, çalışma alanı yöneticileri veya sahiplerinden farklı bir kişi listesi ayarlayabilmektir. Benzerliklerden biri de hala Office 365 grubu SharePoint belge kitaplığına bağlı olmasıdır. 
+Yeni çalışma alanı deneyimi, klasik çalışma alanlarında bulunmayan özelliklere sahiptir. Farklılıklardan biri, çalışma alanı yöneticileri veya sahiplerinden farklı bir kişi listesi ayarlayabilmektir. Benzerliklerden biri de hala Microsoft 365 grubu SharePoint belge kitaplığına bağlı olmasıdır.
 
 ### <a name="modify-the-contact-list"></a>Kişi listesinde değişiklik yapma
 
@@ -113,13 +113,13 @@ Yeni çalışma alanı deneyimi, klasik çalışma alanlarında bulunmayan özel
 
     ![Çalışma alanı ayarları](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
-2. **Gelişmiş**'in altında, çalışma alanı **Kişi listesi** çalışma alanının yükseltildiği Office 365 grubu olacak şekilde yapılandırılır. Kişi listesine daha fazla kullanıcı veya grup ekleyebilir veya bunu çalışma alanı yöneticilerine geçirebilirsiniz.
+2. **Gelişmiş**'in altında, çalışma alanı **Kişi listesi** çalışma alanının yükseltildiği Microsoft 365 grubu olacak şekilde yapılandırılır. Kişi listesine daha fazla kullanıcı veya grup ekleyebilir veya bunu çalışma alanı yöneticilerine geçirebilirsiniz.
 
     ![Kişi listesi](media/service-upgrade-workspaces/power-bi-contact-list-workspace.png)
 
 ### <a name="the-workspace-onedrive"></a>OneDrive çalışma alanı 
 
-Yükseltmeden sonra **OneDrive** çalışma alanı Office 365 grubu SharePoint belge kitaplığına bağlanır. Bu belge kitaplığı **Veri Al > Dosyalar** deneyiminde **OneDrive** seçeneği olarak gösterilir. Office 365 grubunda yer almadığı sürece tüm çalışma alanı kullanıcılarının bu belge kitaplığı üzerinde izni olmayacağını bilmelisiniz.
+Yükseltmeden sonra **OneDrive** çalışma alanı Microsoft 365 grubu SharePoint belge kitaplığına bağlanır. Bu belge kitaplığı **Veri Al > Dosyalar** deneyiminde **OneDrive** seçeneği olarak gösterilir. Microsoft 365 grubunda yer almadığı sürece tüm çalışma alanı kullanıcılarının bu belge kitaplığı üzerinde izni olmayacağını bilmelisiniz.
 
 ## <a name="content-packs-during-upgrade"></a>Yükseltme sırasında içerik paketleri
 
@@ -142,9 +142,9 @@ Yeni çalışma alanı deneyimi içerik paketlerini desteklemez. Bunun yerine ç
 
 ## <a name="go-back-to-a-classic-workspace"></a>Klasik çalışma alanına geri dönme
 
-Yükseltme deneyiminin bir parçası olarak size yükseltmeyi izleyen 30 gün içinde klasik çalışma alanına dönme seçeneği sağlanır. Bu özellik çalışma alanı içeriğinin özgün Office 365 grubuyla ilişkilendirmesini geri yükler. Kuruluşunuzun yeni çalışma alanı deneyimini kullanırken önemli sorunlarla karşılaşması durumunda bu seçenek kullanılabilir. Ancak sınırlamaları vardır. Önce bu makalenin [Klasik çalışma alanına geri dönerken dikkate alınacak noktalar](#considerations-for-switching-back-to-classic) bölümünü okuyun.
+Yükseltme deneyiminin bir parçası olarak size yükseltmeyi izleyen 30 gün içinde klasik çalışma alanına dönme seçeneği sağlanır. Bu özellik çalışma alanı içeriğinin özgün Microsoft 365 grubuyla ilişkilendirmesini geri yükler. Kuruluşunuzun yeni çalışma alanı deneyimini kullanırken önemli sorunlarla karşılaşması durumunda bu seçenek kullanılabilir. Ancak sınırlamaları vardır. Önce bu makalenin [Klasik çalışma alanına geri dönerken dikkate alınacak noktalar](#considerations-for-switching-back-to-classic) bölümünü okuyun.
 
-Geri dönmek için, çalışma alanının yükseltilmeden önce ilişkilendirilmiş olduğu Office 365 grubunun Sahibi olmanız gerekir. Şu adımları izleyin.
+Geri dönmek için, çalışma alanının yükseltilmeden önce ilişkilendirilmiş olduğu Microsoft 365 grubunun Sahibi olmanız gerekir. Şu adımları izleyin.
 
 1. Çalışma alanı içerik listesinde **Diğer seçenekler** ( **...** ) > **Çalışma alanı ayarları**'nı seçin.
 
@@ -166,7 +166,7 @@ Geri dönmek için, çalışma alanının yükseltilmeden önce ilişkilendirilm
 
 Çalışma alanınızla ilgili olarak aşağıdaki ifadelerden biri doğruysa geri dönemezsiniz:
 
-- Office 365 grubu silindi.
+- Microsoft 365 grubu silindi.
 - Yükseltme yapmanızın üzerinden 30 günden fazla geçti.
 - Çalışma alanındaki veri kümeleri, başka çalışma alanlarındaki raporlar veya panolar tarafından kullanıldı. Bu nasıl olur? Yükseltmeden önce çalışma alanından bir içerik paketi yayımladığınızı ve birinin bu içerik paketini başka bir çalışma alanına yüklediğini düşünün. Yükseltmeden hemen sonra, veri kümeleri o içerik paketinde raporlar ve panolar tarafından kullanıldı.
 - Çalışma alanı bir uygulama yaşam döngüsü yönetimi işlem hattının parçası.
@@ -176,17 +176,17 @@ Geri dönmek için, çalışma alanının yükseltilmeden önce ilişkilendirilm
 
 Klasik çalışma alanına dönün, özgün çalışma alanının eksiksiz bir kopyasını geri yüklemezsiniz. Aşağıdaki değişiklikler olur:
 
-- Çalışma alanının izinleri yükseltilmiş çalışma alanının başlangıçta bağlandığı Office 365 grubu tarafından ayarlanır.
-  - Office 365 grubunun tüm yöneticileri klasik çalışma alanının yöneticisi olur.
-  - Office 365 grubunun tüm üyeleri klasik çalışma alanının üyesi olur. Klasik çalışma alanı **Üyeler Power BI içeriğini yalnızca okuyabilir** olarak ayarlandıysa, bu ayar geri yüklenir.
-  - Yükseltme tamamlandıktan sonra çalışma alanına eklenen tüm kullanıcılar veya kullanıcı grupları (Office 365 grubu dışında) çalışma alanına erişimi kaybeder. Erişim vermek için onları Office 365 grubuna ekleyin. Office 365 gruplarının üyelikte güvenlik ve dağıtım gruplarının iç içe yerleştirilmesine izin vermediğine dikkat edin.
+- Çalışma alanının izinleri yükseltilmiş çalışma alanının başlangıçta bağlandığı Microsoft 365 grubu tarafından ayarlanır.
+  - Microsoft 365 grubunun tüm yöneticileri klasik çalışma alanının yöneticisi olur.
+  - Microsoft 365 grubunun tüm üyeleri klasik çalışma alanının üyesi olur. Klasik çalışma alanı **Üyeler Power BI içeriğini yalnızca okuyabilir** olarak ayarlandıysa, bu ayar geri yüklenir.
+  - Yükseltme tamamlandıktan sonra çalışma alanına eklenen tüm kullanıcılar veya kullanıcı grupları (Microsoft 365 grubu dışında) çalışma alanına erişimi kaybeder. Erişim vermek için onları Microsoft 365 grubuna ekleyin. Microsoft 365 gruplarının üyelikte güvenlik ve dağıtım gruplarının iç içe yerleştirilmesine izin vermediğine dikkat edin.
   - Çalışma alanı için uygulamaya erişim alan kullanıcıların uygulama erişimi devam eder.
   - Paylaşım aracılığıyla çalışma alanındaki öğelere erişim alan kullanıcıların erişimi devam eder.
 - Yükseltme öncesinde klasik çalışma alanından yayımlanan içerik paketleri geri yüklenmez.
 - Yükseltme öncesinde klasik çalışma alanına yüklenen içerik paketleri geri yüklenmez.
 - Yükseltmeden sonra çalışma alanında kullanıcılar tarafından oluşturulan abonelikler kaldırılır. Yükseltmeden önce var olan abonelikler beklendiği gibi çalışmaya devam eder.
 - Veri uyarıları saklanmaz. Bunlar kaldırılır.
-- Yükseltmeden sonra çalışma alanını yeniden adlandırdıysanız, çalışma alanının adı Office 365 grubunun adıyla eşleşecek şekilde geri yüklenir.
+- Yükseltmeden sonra çalışma alanını yeniden adlandırdıysanız, çalışma alanının adı Microsoft 365 grubunun adıyla eşleşecek şekilde geri yüklenir.
 - Yenilemeler gibi devam eden işlemler çalışma alanı yükseltmesinden etkilenmez.
 
 
@@ -195,9 +195,9 @@ Klasik çalışma alanına dönün, özgün çalışma alanının eksiksiz bir k
 Bazı kuruluşlar çalışma alanlarının çoğunu veya tümünü yeni çalışma alanı deneyimine taşımak ister. Çalışma alanı yükseltme araçları, çalışma alanı yöneticilerinin yükseltme yapabilmesine odaklanır. Böyle bir işlemi yönetmek isteyen kuruluşlar aşağıdaki adımları uygulayabilir.
 
 1. Power BI yönetim portalında çalışma alanı listesi ve buna karşılık gelen API, Power BI'da tüm çalışma alanlarının listesini sağlar. Klasik çalışma alanları listede Grup türünde gösterilir.
-2. Çalışma alanlarını yükseltmeleri için tek tek Office 365 grubu sahipleriyle veya Office 365 Yöneticinizle birlikte çalışın. Çalışma alanını yükseltmek istiyorsanız grubun Sahibi olmanız gerekir.
+2. Çalışma alanlarını yükseltmeleri için tek tek grup sahipleriyle veya Microsoft 365 yöneticinizle birlikte çalışın. Çalışma alanını yükseltmek istiyorsanız grubun Sahibi olmanız gerekir.
 
-Çalışma alanı yükseltme özelliği toplu veya programlı yükseltme için araç sağlamaz. Bunlara ek olarak, kuruluşunuzda yeni oluşturulan Office 365 grupları Power BI'da gösterilmeye devam eder. 
+Çalışma alanı yükseltme özelliği toplu veya programlı yükseltme için araç sağlamaz. Bunlara ek olarak, kuruluşunuzda yeni oluşturulan Microsoft 365 grupları Power BI'da gösterilmeye devam eder.
    
    
 ## <a name="known-issues"></a>Bilinen sorunlar
