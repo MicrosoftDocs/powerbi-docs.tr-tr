@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: Görsel projesi için birim testleri ekleme
           href: unit-tests-introduction.md
+        - name: R betiğinden R görseline bir huni çizimi derleme
+          href: funnel-plot-from-r.md
     - name: Kavramlar
       items:
         - name: Power BI görseli proje yapısı

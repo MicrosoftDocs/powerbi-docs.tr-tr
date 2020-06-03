@@ -1,22 +1,22 @@
 ---
-title: Veri kümelerini onaylama (Önizleme) - Power BI
+title: Veri kümelerini onaylama - Power BI
 description: Kurumsal kullanıcılara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmeyi öğrenin.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a6d03521cd3962dcf9549d99076d8606b1142976
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285015"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792933"
 ---
-# <a name="certify-datasets-preview"></a>Veri kümelerini onaylama (Önizleme)
+# <a name="certify-datasets---power-bi"></a>Veri kümelerini onaylama - Power BI
 
 Kuruluşunuz, kritik bilgiler için yetkili kaynak olan veri kümelerini onaylayabilir. Bu veri kümeleri, rapor tasarımcıları bir rapor oluşturmaya ve güvenilir ver aramaya başladığında belirgin olarak öne çıkar. Onaylama, yalnızca en değerli veri kümelerinin onaylandığı yüksek oranda seçmeli bir süreç olabilir. Power BI kiracı yöneticileri, veri kümelerini kimin onaylayabileceğini sıkı bir şekilde denetleyebilmek için yeni bir ayara sahiptir. Bu nedenle yöneticiler, veri kümesi onayının kuruluş genelinde kullanılmak için tasarlanmış gerçekten güvenilir ve yetkili veri kümeleriyle sonuçlanmasını sağlayabilir.
 

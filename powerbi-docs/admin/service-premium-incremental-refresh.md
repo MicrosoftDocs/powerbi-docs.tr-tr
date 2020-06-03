@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 73aade0ee10fe47ff669ccd6bd8c8ab0482f1f78
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274501"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121014"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -172,13 +172,9 @@ Premium kapasitedeki veri kümeleri için [XMLA uç noktası](service-premium-co
 
 ### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>SQL Server Management Studio (SSMS) ile yenileme yönetimi
 
-Okuma/yazma özelliği etkin XMLA uç noktası sayesinde SSMS, artımlı yenileme ilkelerinin uygulanması sonucu oluşan bölümleri görüntüleyip yönetmek için kullanılabilir.
+Okuma/yazma özelliği etkin XMLA uç noktası sayesinde SSMS, artımlı yenileme ilkelerinin uygulanması sonucu oluşan bölümleri görüntüleyip yönetmek için kullanılabilir. Bu işlem, tüm geçmiş verileri yenilemek zorunda kalmadan geriye dönük güncelleştirmek yapmak için artımlı aralıkta bulunmayan belirli bir geçmiş bölümü yenilemeye olanak sağlar. Ayrıca geçmiş bölümleri toplu olarak artımlı ekleme/yenileme yoluyla çok büyük veri kümelerinin geçmiş verilerini yüklemek için SSMS’yi de kullanabilirsiniz.
 
 ![SSMS’de bölümler](media/service-premium-incremental-refresh/ssms-partitions.png)
-
-#### <a name="refresh-historical-partitions"></a>Geçmiş bölümleri yenileme
-
-Bu işlem, tüm geçmiş verileri yenilemek zorunda kalmadan geriye dönük güncelleştirmek yapmak için artımlı aralıkta bulunmayan belirli bir geçmiş bölümü yenilemeye olanak sağlar.
 
 #### <a name="override-incremental-refresh-behavior"></a>Artımlı yenileme davranışını geçersiz kılma
 
@@ -251,4 +247,4 @@ ALM Araç Seti’nin en son sürümünü [Analysis Services Git deposundan](http
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
-[Yenileme ile ilgili sorun giderme senaryoları](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[Yenileme senaryolarının sorunlarını giderme](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   

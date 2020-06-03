@@ -1,22 +1,22 @@
 ---
-title: Farklı çalışma alanlarını temel alarak raporlar oluşturma (Önizleme) - Power BI
-description: Bir veri kümesini kuruluşunuzdaki kullanıcılarla nasıl paylaşabileceğinizi öğrenin. Veri kümenizi temel alarak kendi çalışma alanlarında rapor oluşturabilirler.
+title: Farklı çalışma alanlarını temel alarak raporlar oluşturma - Power BI
+description: Kuruluş genelindeki kullanıcılarla veri kümesi paylaşmayı öğrenin. Kendi çalışma alanlarında sizin veri kümelerinizi temel alan raporlar oluşturabilirler.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284739"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793020"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma (Önizleme)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma
 
 Diğer çalışma alanlarındaki veri kümelerini temel alarak kendi çalışma alanınızda nasıl rapor oluşturabileceğinizi öğrenin. Mevcut bir veri kümesinin üzerinde rapor oluşturmak için Çalışma Alanım bölümünüzdeki veya [yeni bir çalışma alanı deneyimindeki](../collaborate-share/service-create-the-new-workspaces.md) Power BI Desktop veya Power BI hizmetinden başlayabilirsiniz.
 
@@ -61,5 +61,5 @@ Böylece, çalışma alanının üyeleri hangi raporların ve panoların çalı�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Çalışma alanları genelinde veri kümeleri kullanma (Önizleme)](service-datasets-across-workspaces.md)
+- [Veri kümelerini çalışma alanları arasında kullanma](service-datasets-across-workspaces.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

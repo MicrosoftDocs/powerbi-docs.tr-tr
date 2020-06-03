@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136042"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793275"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
@@ -34,7 +34,7 @@ Kiracınızın bulunduğu bölgeyi bulmak için aşağıdaki adımları izleyin.
 
 ## <a name="how-the-data-region-is-selected"></a>Veri bölgesi nasıl seçilir?
 
-Veri bölgesi, kiracınızı oluştururken seçtiğiniz ülkeye göre belirlenir. Bu bilgi paylaşıldığından seçim hem Office 365 hem de Power BI kayıtları için geçerlidir. Yeni bir kiracı oluşturuyorsanız kaydolma işlemleri sırasında listeden uygun ülkeyi seçin.
+Veri bölgesi, kiracınızı oluştururken seçtiğiniz ülkeye göre belirlenir. Bu bilgi paylaşıldığından seçim hem Microsoft 365 hem de Power BI kayıtları için geçerlidir. Yeni bir kiracı oluşturuyorsanız kaydolma işlemleri sırasında listeden uygun ülkeyi seçin.
 
 ![Ülke seçimi](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

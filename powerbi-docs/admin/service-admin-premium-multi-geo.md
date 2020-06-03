@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274616"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119987"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
@@ -43,7 +43,7 @@ Yeni kapasiteler için, açılan listeden varsayılan bölgenin dışında bir b
 
 Siz kapasiteyi oluşturduktan sonra kapasite o bölgede kalır ve oluşturulan tüm çalışma alanlarının içeriği o bölgede depolanır. Çalışma alanı ayarları ekranındaki açılan liste aracılığıyla çalışma alanlarını bir bölgeden diğerine geçirebilirsiniz.
 
-![Çalışma alanını düzenleme: Kullanılabilir bir kapasite seçin. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
+![Çalışma alanını düzenle: Kullanılabilir bir kapasite seçin. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
 Değişikliği onaylamanız için bu iletiyi görürsünüz.
 
@@ -67,6 +67,8 @@ Bu öğeler kiracı için ana bölgede kalır:
 - Ağ geçidi sorguları veya zamanlanmış yenileme işleri için hizmet veri yolları
 - İzinler
 - Veri kümesi kimlik bilgileri
+
+
 
 ## <a name="view-capacity-regions"></a>Kapasite bölgelerini görüntüleme
 
@@ -93,6 +95,7 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 - Veri aktarımını başlatmadan önce bölgeler arasında başlattığınız her taşıma işleminin tüm kurumsal ve resmi uyumluluk gereksinimlerini karşıladığını onaylayın.
 - Uzak bölgede depolanan ve önbelleğe alınan bir sorgu, o bölgede bekletilir. Öte yandan, taşınan diğer veriler birden çok coğrafya arasında ileri ve geri gidebilir.
 - Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca son kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
+- İçeri aktarılan veri modelleri için sorgu metni ve sorgu sonucu trafiği giriş bölgesi üzerinden aktarılmaz. Rapor meta verileri yine uzak bölgeden gelir ve bazı DNS yönlendirme durumları trafiği bölgenin dışına taşıyabilir. 
 
 - [Veri akışları](../transform-model/service-dataflows-overview.md) özelliği şu anda Multi-Geo’da desteklenmiyor.
 
@@ -101,5 +104,5 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 - [Power BI Premium nedir?](service-premium-what-is.md)
 - [Power BI Embedded kapasiteleri için Multi-Geo](../developer/embedded/embedded-multi-geo.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Başka sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

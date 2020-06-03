@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349015"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121112"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI Soru-Cevap için öne çıkan sorular oluşturma
 Bir veri kümeniz varsa kendi öne çıkan sorularınızı bu veri kümesine ekleyebilirsiniz. Power BI Soru-Cevap, bu veri kümesine göre raporlar kullanan iş arkadaşlarınıza bu soruları gösterir.  Öne çıkan sorular, iş arkadaşlarınıza bir veri kümesi ile ilgili sorabilecekleri soru türleri hakkında fikirler verir. Ne tür öne çıkan sorular ekleyeceğiniz size bağlıdır; sık kullanılan sorular, ilgi çekici sonuçlar görüntüleyen sorular veya uygun şekilde ifade etmesi zor olabilecek sorular sorabilirsiniz.
@@ -39,8 +39,8 @@ Bu makalede [Perakende Analizi örneği](sample-datasets.md) kullanılacaktır. 
    ![Öne çıkan Soru-Cevap Soruları bölmesi](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Power BI Retail Analysis Sample panosuna geri gidin ve imlecinizi Soru-Cevap soru kutusuna yerleştirin.   
    ![Öne çıkan sorunun bulunduğu Soru-Cevap kutusu](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
-7. Yeni eklenen **Sales by territory as a map** (Harita olarak bölgeye göre satışlar) öne çıkan sorusunun ilk sırada olduğunu görürsünüz. Bu soruyu seçin.  
-8. Cevap bir doldurulmuş harita görselleştirmesi olarak görüntülenir.  
+7. Yeni eklenen **Sales by territory as a map** (Harita olarak bölgeye göre satışlar) öne çıkan sorusunun ilk sırada olduğunu görürsünüz. Kalem simgesini seçin.  
+8. Power BI yanıtı oluşturur ve kartogram görselleştirmesi olarak görüntüler.  
    ![Soru-Cevap öne çıkan sorusu cevaplandı: harita görselleştirmesi](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar

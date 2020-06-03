@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564998"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793691"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564998"
 
 Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekilde ile görselleştirilmesini ve analiz edilebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler ile kullanıcıların çok çeşitli bulut tabanlı ve şirket içi veriler ile bağlantı kurmasını sağlar. [Power BI](../fundamentals/power-bi-overview.md) ile ilgili daha fazla bilgi edinin.
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>*Tüketiciler* için Microsoft Power BI hizmeti nedir?
+## <a name="what-is-a-power-bi-consumers"></a>Power BI *tüketicisi* nedir?
 
 Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir son kullanıcı veya *tüketici* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi olursunuz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız.  [Tüketiciler için Power BI](index.yml) hakkında daha fazla bilgi edinin.
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro ile Power BI Premium arasındaki fark nedir?
 
-Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. Bu tür lisanslar genelde Power BI rapor *tasarımcılarına*, geliştiricilere ve yöneticilere atanır. 
+Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
 
 Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *tüketiciler* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
 

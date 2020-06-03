@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 004c62c6f99460a9f54a7b055dffe2c8b1adb340
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131983"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120970"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI’da Microsoft bulut uygulaması güvenlik denetimlerini kullanma (önizleme)
 
@@ -34,7 +34,7 @@ Power BI ile Microsoft Cloud App Security’yi kullanmak için, bazıları Power
 Kiracınızda Microsoft Cloud App Security’yi kullanmak için aşağıdaki lisanslardan birine sahip olmanız gerekir:
 * MCAS: EMS E5 ve M365 E5 paketlerinin bir parçası olarak tüm desteklenen uygulamalar için OCAS özellikleri sağlar.
 * CAS-D: Yalnızca MCAS Bulmayı sağlar.
-* OCAS: Yalnızca Office E5 Suite'in bir parçası olarak Office 365 için MCAS özellikleri sağlar.
+* OCAS: Yalnızca Office 365 E5 paketinin bir parçası olarak Office 365 için MCAS özellikleri sağlar.
 * İsteğe bağlı: Başlıca Microsoft Cloud App Security özelliklerinden faydalanmak için AAD P1 ve AIP P1.
 
 Aşağıdaki bölümlerde Power BI’da Microsoft Cloud App Security kullanma adımları açıklanır.

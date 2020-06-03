@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563299"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120570"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -184,7 +184,7 @@ Rapordaki kullanıcı etkileşimlerinin her biri, görsellerin yenilenmesine ned
 
 Aynı şekilde, yeni bir raporu düzenlemek için görselin son halini oluşturmaya yönelik her adımda sorguların gönderilmesi gerekir.
 
-Sonuçlar bir noktaya kadar önbelleğe alınır. Aynı sonuçların kısa süre önce elde edilmiş olması durumunda görsel anında yenilenir. Satır düzeyi güvenlik tanımlanmamışsa bu önbellekler kullanıcılarla paylaşılmaz.
+Sonuçlar bir noktaya kadar önbelleğe alınır. Aynı sonuçların kısa süre önce elde edilmiş olması durumunda görsel anında yenilenir. Satır düzeyi güvenlik tanımlanmışsa bu önbellekler kullanıcılarla paylaşılmaz.
 
 #### <a name="dashboard-refresh"></a>Pano Yenileme
 
@@ -359,13 +359,13 @@ Bazı DirectQuery kaynakları için bu günlük, temel alınan veri kaynağına 
 
 Geçerli kullanıcı için izleme dosyası *AppData* klasöründe bulunur:
 
-*\<Kullanıcı>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
+*\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces*
 
 Bu klasöre gitmek için Power BI Desktop'ta **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler**'e gidip **Tanılama**'yı seçin. Aşağıdaki iletişim kutusu görüntülenir:
 
 ![İzlemeler klasörünü açma bağlantısı](media/desktop-directquery-about/directquery-about_06.png)
 
-**Tanılama Seçenekleri** bölümündeki **Açık kilitlenme bilgi dökümü/izlemeler klasörü**'nü seçtiğinizde aşağıdaki klasör açılır: *\<Kullanıcı>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
+**Tanılama Seçenekleri** bölümündeki **Açık kilitlenme bilgi dökümü/izlemeler klasörü**'nü seçtiğinizde şu klasör açılır: *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
 
 Bu klasörün üst klasörüne gidildiğinde *AnalysisServicesWorkspaces* klasörünü içeren klasör görüntülenir. Bu klasör, açık olan her bir Power BI Desktop örneği için bir çalışma alanı klasörü içerir. Bu klasörler, *AnalysisServicesWorkspace2058279583* örneğinde olduğu gibi bir tamsayı son ekiyle adlandırılır.
 
@@ -381,7 +381,7 @@ SQL Server Management Studio'yu indirip yükledikten sonra SQL Server Profiler'�
 
 1. SQL Server Profiler'da **Dosya** > **Aç** > **İzleme dosyası**'nı seçin.
 
-1. Şu anda açık olan Power BI oturumu için izleme dosyasının yolunu girin. Örnek: *C:\Kullanıcılar\<kullanıcı>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
+1. Şu anda açık olan Power BI oturumu için izleme dosyasının yolunu girin. Örnek: *C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data*.
 
 1. *FlightRecorderCurrent.trc* dosyasını açın.
 

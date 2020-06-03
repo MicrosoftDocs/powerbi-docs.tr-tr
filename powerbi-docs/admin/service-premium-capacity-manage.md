@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134771"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120986"
 ---
 # <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 
@@ -23,7 +23,7 @@ Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve iz
 
 ## <a name="creating-and-managing-capacities"></a>Kapasite oluşturma ve yönetme
 
-Power BI Yönetim portalının **Kapasite Ayarları** sayfasında, satın alınan sanal çekirdek sayısı ve kullanılabilir Premium kapasiteler gösterilmektedir. Office 365 Genel yöneticileri veya Power BI hizmeti yöneticileri bu sayfayı kullanarak kullanılabilir sanal çekirdeklerden Premium kapasiteler oluşturabilir ya da mevcut Premium kapasitelerde değişiklik yapabilir.
+Power BI Yönetim portalının **Kapasite Ayarları** sayfasında, satın alınan sanal çekirdek sayısı ve kullanılabilir Premium kapasiteler gösterilmektedir. Sayfa Genel yöneticilerin veya Power BI hizmet yöneticilerinin kullanılabilir sanal çekirdeklerden Premium kapasiteler oluşturmasına veya mevcut Premium kapasiteleri değiştirmesine izin verir.
 
 Premium kapasite oluştururken, yöneticilerin şunları tanımlaması gerekir:
 
@@ -47,7 +47,7 @@ Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtla
 
 Premium kapasite, çoklu coğrafi bölge olarak bilinen Power BI kiracısının giriş bölgesi dışında bir bölgeye atanabilir. Çoklu coğrafi bölge, Power BI içeriklerinizin tanımlanmış coğrafi bölgelerde hangi veri merkezlerinde bulunacağı konusunda yönetim denetimi sağlar. Çoklu coğrafi dağıtımın mantığı genellikle performans ve ölçek yerine kurumsal veya idari uyumdur. Raporları ve panoları yükleme işlemi yine de meta veriler için ana bölgeye istekler göndermeyi içerir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
 
-Power BI hizmet yöneticileri ve Office 365 Genel Yöneticileri, Premium kapasiteleri değiştirebilirler. Özellikle şunları yapabilirler:
+Power BI hizmet yöneticileri ve Genel Yöneticiler Premium kapasiteleri değiştirebilir. Özellikle şunları yapabilirler:
 
 - Kaynakların ölçeğini artırmak veya azaltmak için kapasite boyutunu değiştirme.
 - Kapasite Yöneticileri ekleme veya kaldırma.
@@ -67,7 +67,7 @@ Premium kapasitenin silinmesi mümkün değildir ve çalışma alanları ile iç
 
 Çalışma alanları, Power BI yönetim portalındaki veya bir çalışma alanı için **Çalışma Alanı** bölmesindeki bir Premium kapasiteye atanabilir.
 
-Kapasite Yöneticilerinin yanı sıra Office 365 Genel Yöneticileri veya Power BI hizmeti yöneticileri, Power BI Yönetim portalında çalışma alanlarını toplu olarak atayabilir. Toplu atama şunlara uygulanabilir:
+Genel Yöneticilerle Power BI hizmet yöneticilerine ek olarak Kapasite Yöneticileri de Power BI Yönetim portalında çalışma alanlarını toplu olarak atayabilir. Toplu atama şunlara uygulanabilir:
 
 - **Kullanıcılara göre çalışma alanları** - Kişisel çalışma alanları dahil olmak üzere bu kullanıcıların sahip olduğu tüm çalışma alanları Premium kapasiteye atanır. Buna, farklı bir Premium kapasiteye zaten atanmış olan çalışma alanlarının yeniden atanması dahildir. Ayrıca, kullanıcılara çalışma alanı atama izinleri de atanır.
 

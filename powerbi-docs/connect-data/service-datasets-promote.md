@@ -1,27 +1,27 @@
 ---
-title: Veri kümenizi yükseltme (önizleme) - Power BI
+title: Veri kümenizi yükseltme - Power BI
 description: Kurumsal kullanıcılara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmek üzere veri kümenizi yükseltmeyi öğrenin.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3e17b31aa75e1778e92408787a248db810d4d08d
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284762"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792992"
 ---
-# <a name="promote-your-dataset-preview"></a>Veri kümenizi yükseltme (Önizleme)
+# <a name="promote-your-dataset---power-bi"></a>Veri kümenizi yükseltme - Power BI
 
 Power BI rapor oluşturucularınızın artık pek çok farklı veri kümesine erişimi olabileceği için, kuruluşların bu oluşturuculara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmesi gereklidir. Power BI, veri kümelerini *onaylamak* için iki yol sunar:
 
 - **Yükseltme**: Veri kümesi sahibi olarak, yaygın kullanım için hazır olduklarında kendi veri kümelerinizi yükseltebilirsiniz. Yazma izni olan tüm çalışma alanı üyeleri veri kümesini yükseltebilir. Veri kümesini kimlerin yükseltebileceği konusunda hiçbir kısıtlama yoktur. Yükseltme, kuruluş içindeki veri kümelerinin işbirliğine dayalı yayılmasını destekler. Bu makale, veri kümenizi yükseltme hakkındadır.
-- **Onaylama**: Yükseltilen bir veri kümesinin onaylanmasını isteyebilirsiniz. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Ayrıntılar için bkz. [Veri kümelerini onaylama (Önizleme)](service-datasets-certify.md).
+- **Onaylama**: Yükseltilen bir veri kümesinin onaylanmasını isteyebilirsiniz. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Ayrıntılar için bkz. [Veri kümelerini onaylama](service-datasets-certify.md).
 
 ## <a name="promote-a-dataset"></a>Bir veri kümesini yükseltme
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132054"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733244"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI’da veri koruma (önizleme)
 
@@ -23,7 +23,7 @@ Modern kuruluşlar, hassas verilerini işleme ve koruma hakkında katı iş düz
 
 Power BI için veri koruma ile aşağıdakileri yapabilirsiniz:
 
-* Office 365’te dosyaları sınıflandırmak ve korumak için kullanılan taksonomiyi kullanarak, Power BI hizmetindeki içeriği (panolar, raporlar, veri kümesi ve veri akışları) sınıflandırmak ve etiketlemek için Microsoft’un duyarlılık etiketlerini kullanın. 
+* Microsoft 365’te dosyaları sınıflandırmak ve korumak için kullanılan taksonomiyi kullanarak, Power BI hizmetindeki içeriği (panolar, raporlar, veri kümesi ve veri akışları) sınıflandırmak ve etiketlemek için Microsoft’un duyarlılık etiketlerini kullanın.
 
 * İçeriğin duyarlılık etiketini ve korumasını (Excel, PowerPoint ve PDF) uygulayarak, Power BI hizmetinden dosyalara veri aktarırken şifreleme veya filigranlar gibi koruma ayarlarını uygulayın. 
 
@@ -35,7 +35,7 @@ Power BI için veri koruma ile aşağıdakileri yapabilirsiniz:
 
 Duyarlılık etiketleri [Microsoft 365 güvenlik merkezi](https://security.microsoft.com/) ya da [Microsoft 365 uyumluluk merkezi](https://compliance.microsoft.com/) içinde oluşturulur ve yönetilir.
 
-Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandırma > Duyarlılık etiketleri**'ne gidin. Bu duyarlılık etiketleri Azure Information Protection, Office uygulamaları ve Office 365 hizmetleri gibi birden çok Microsoft hizmeti tarafından kullanılabilir.
+Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandırma** > **Duyarlılık etiketleri**'ne gidin. Bu duyarlılık etiketleri Azure Information Protection, Office uygulamaları ve Microsoft 365 hizmetleri gibi birden çok Microsoft hizmeti tarafından kullanılabilir.
 
 > [!IMPORTANT]
 > Duyarlılık etiketlerinin Power BI’da kullanılabilmesi için Azure Information Protection müşterilerinin daha önce listelenen hizmetlerden birine etiketleri geçirmesi gerekir. Buna ek olarak, duyarlılık etiketleri yalnızca genel bulutlarda desteklenir ve bağımsız bulutlar gibi bulutlar içindeki kiracılar için desteklenmez.

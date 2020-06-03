@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324736"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119929"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop raporlarındaki görselleri gruplandırma
 **Power BI Desktop**’ta **gruplandırma** özelliğini kullanarak raporunuzdaki düğmeleri, metin kutularını, şekilleri, görüntüleri ve oluşturduğunuz her türlü görseli gruplandırabilirsiniz. Bir rapordaki görsellerin gruplandırılması, grubu tek bir nesne gibi ele almanızı sağlar, böylece taşımayı, yeniden boyutlandırmayı ve raporunuzdaki katmanlarla çalışmayı daha kolay, daha hızlı ve daha sezgisel hale getirir.
@@ -33,6 +33,8 @@ Gruplar **Seçim** bölmesinde görüntülenir. Raporunuz için gereken sayıda 
 ![grupları iç içe yerleştirme](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
 **Seçim** bölmesinde, görselleri bir gruba eklemek, gruptan çıkarmak, bir grubu iç içe yerleştirmek veya iç içe yerleştirilmiş gruptan tek bir görsel çıkarmak için tek tek sürükleyip bırakabilirsiniz. Ayarlamak istediğiniz görseli sürükleyip istediğiniz yere yerleştirmeniz yeterlidir. Çakışma varsa, görsellerin katmanları *Katman sırası* listesindeki sıralarına göre belirlenir.
+
+Grup kolayca yeniden adlandırılabilir: **Seçim** bölmesinde grup adına çift tıklamanız ve ardından grubunuzun yeni adını yazmanız yeterli olur.
 
 ![grupları sürükleyip bırakma](media/desktop-grouping-visuals/grouping-visuals-04.png)
 

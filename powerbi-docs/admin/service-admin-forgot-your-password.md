@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139820"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812163"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI parolanızı mı unuttunuz?
 
@@ -22,7 +22,7 @@ Parolanızı unuttuysanız aşağıdaki bağlantıyı kullanarak parola sıfırl
 
 <https://passwordreset.microsoftonline.com>
 
-Hesabınızın parola sıfırlama için ayarlanmadığı söylenirse Office 365 yöneticinize başvurun. Ücretsiz deneme sürümünü kullanıyorsanız yönetici, kuruluşunuzdan ilk kayıt olan kişidir.
+Hesabınızın parola sıfırlama için ayarlanmadığı söylenirse yöneticinize başvurun. Ücretsiz deneme sürümünü kullanıyorsanız yönetici, kuruluşunuzdan ilk kayıt olan kişidir.
 
 Hesabınıza erişme sorunları yaşamaya devam ediyorsanız parolanızın sıfırlanması için destek ekibiyle iletişime geçmeyi deneyebilirsiniz.
 

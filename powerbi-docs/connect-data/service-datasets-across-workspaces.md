@@ -1,22 +1,22 @@
 ---
-title: Çalışma alanları arasında veri kümelerine giriş (Önizleme)
+title: Çalışma alanları arasında veri kümelerine giriş
 description: Kuruluş genelindeki kullanıcılarla veri kümesi paylaşmayı öğrenin. Kendi çalışma alanlarında sizin veri kümelerinizi temel alan raporlar oluşturabilirler.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285475"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793622"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>Çalışma alanları arasında veri kümelerine giriş (Önizleme)
+# <a name="intro-to-datasets-across-workspaces"></a>Çalışma alanları arasında veri kümelerine giriş
 
 İş zekası, işbirliğine dayalı bir etkinliktir. 'Tek doğru bilgi kaynağı' olabilecek standartlaştırılmış veri kümeleri oluşturmak önemlidir. Ardından bu standartlaştırılmış veri kümelerini keşfetmek ve yeniden kullanmak kritik önem taşır. Kuruluşunuzdaki uzman veri modelleyicileri iyileştirilmiş veri kümeleri oluşturup paylaştığında, rapor oluşturanlar doğru raporlar hazırlamak için bu veri kümelerinden yola çıkabilirler. Bu sayede kuruluşunuzun aldığı kararlar tutarlı verilere dayanır ve sağlıklı bir veri kültürü olur.
 
@@ -33,9 +33,9 @@ Farklı çalışma alanlarındaki veri kümelerini temel alan raporlar oluşturm
 - Power BI Desktop'ta, veri kümeleri yeni deneyimin çalışma alanlarında bulunduğu sürece Live Connect raporlarını farklı çalışma alanlarına yayımlayabilirsiniz.
 - Raporları çalışma alanları arasında kopyalarken hedef çalışma alanının yeni deneyimin çalışma alanı olması gerekir.
 
-## <a name="discover-datasets-preview"></a>Veri kümelerini keşfetme (Önizleme)
+## <a name="discover-datasets"></a>Veri kümelerini keşfetme
 
-Mevcut veri kümesinin üzerinde rapor oluştururken ilk adım Power BI hizmetinde veya Power BI Desktop’ta veri kümesine bağlanmaktır. [Farklı çalışma alanlarındaki veri kümelerini keşfetme (Önizleme)](service-datasets-discover-across-workspaces.md) konusunu okuyun
+Mevcut veri kümesinin üzerinde rapor oluştururken ilk adım Power BI hizmetinde veya Power BI Desktop’ta veri kümesine bağlanmaktır. [Farklı çalışma alanlarındaki veri kümelerini keşfetme](service-datasets-discover-across-workspaces.md) konusunu okuyun
 
 ## <a name="copy-a-report"></a>Rapor kopyalama
 
