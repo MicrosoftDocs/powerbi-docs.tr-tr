@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347436"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793399"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Gelişmiş veri kümesi meta verilerini kullanma (önizleme)
 
@@ -42,6 +42,23 @@ Power BI Desktop’ı yeniden başlatmanız istenir.
 > [!IMPORTANT]
 > **Gelişmiş veri kümesi meta verileri** özelliğinin etkinleştirilmesi, raporlara geri alınamayan bir yükseltme uygulanmasıyla sonuçlanır. **Gelişmiş veri kümesi meta verileri** etkinleştirildikten sonra, Power BI Desktop ile yüklenen veya oluşturulan Power BI raporları, geri alınamayacak şekilde gelişmiş veri kümesi meta verileri biçimine dönüştürülür.
 
+## <a name="report-backup-files"></a>Rapor yedekleme dosyaları
+
+Raporun **gelişmiş veri kümesi meta verileri** özelliğini kullanacak şekilde güncelleştirilmesi geri alınamaz. Öte yandan güncelleştirme sırasında raporun özgün (güncelleştirme öncesi) biçiminin bir sürümünü kaydetmek için rapor yedekleme dosyası oluşturulur. Yedekleme dosyası 30 gün sonra kaldırılır. 
+
+Yedek rapor dosyasını bulmak için aşağıdakileri yapın:
+
+1. Şu konuma gidin: ```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```. Power BI Desktop’ın Microsoft Store sürümünü kullanıyorsanız şu konumu kullanın: ```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. Orada raporun, özgün dosyanın adını ve zaman damgasını taşıyan bir kopyasını bulun.
+
+3. Bu dosyayı saklamak için, tercih ettiğiniz bir konuma kopyalayın.
+
+4. Söz konusu özgün dosyayı açmayı veya kullanmayı seçerseniz, Power BI Desktop’ta **Gelişmiş meta veri biçimi** önizleme özelliğinin devre dışı bırakıldığından emin olun. 
+
+Yedekleme dosyası rapor yükseltildiğinde oluşturulur, bu nedenle yükseltme sonrası yapılan değişiklikler yedeklemeye dahil edilmez. **Gelişmiş meta veri biçimi** özelliği etkinleştirildikten sonra oluşturulan yeni raporların yedekleme dosyası yoktur.
+
+
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
 Önizleme sürümünde, önizleme özelliği etkinleştirildiğinde aşağıdaki sınırlamalar geçerli olur.
@@ -49,6 +66,7 @@ Power BI Desktop’ı yeniden başlatmanız istenir.
 ### <a name="unsupported-features-and-connectors"></a>Desteklenmeyen özellikler ve bağlayıcılar
 Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri kümesi aşağıdaki özelliklerden veya bağlayıcılardan herhangi birini içeriyorsa yükseltme başarısız olur. Bu tür bir hata oluşursa, kullanıcı deneyimi üzerinde anında bir etki oluşmamalıdır ve Power BI Desktop önceki meta veri biçimini kullanmaya devam eder.
 
+* Tüm özel bağlayıcılar
 * Python betikleri
 * Özel bağlayıcılar
 * Azure DevOps Server
@@ -66,7 +84,16 @@ Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri küm
 * Sütun adlarında “\\n” gibi belirli karakter birleşimlerini içeren M ifadeleri
 * **Gelişmiş veri kümesi meta verileri** özelliği etkin durumdayken veri kümeleri kullanıldığında Çoklu Oturum Açma (SSO) veri kaynakları, Power BI hizmetinde ayarlanamaz
 
+Bu listelenen bağlayıcıları kullanan raporlar yeni biçime yükseltilmez. Zaten yükseltilmiş olan veya bu yeni özellik etkinleştirildikten sonra oluşturulmuş olan raporlar, listedeki desteklenmeyen özelliklerin veya bağlayıcıların eklenmesini desteklemez. 
+
+Dinamik veri kaynakları olan sorgular desteklenmez. Dinamik veri kaynakları olan raporlar yeni biçime yükseltilmez ve zaten yükseltilmiş olan veya özellik etkinleştirildikten sonra yeni oluşturulmuş olan raporlar dinamik veri kaynaklarının eklenmesini desteklemez. Sorgunun dinamik veri kaynağının olması, kaynağın bir parametreye, işlev girişine veya geçici işleve bağlı olarak değişmesi anlamına gelir. 
+
+Yukarı akış adımlarında veya dallarında hatalar olan sorgular desteklenmez. 
+
 Ayrıca, **gelişmiş veri kümesi meta verilerini** kullanmak için başarıyla yükseltilmiş olan PBIX ve PBIT dosyaları, geçerli sürümde yukarıdaki özellikleri veya bağlayıcıları *kullanamaz*.
+
+
+
 
 ### <a name="lineage-view"></a>Köken görünümü
 Yeni meta veri biçimini kullanan veri kümeleri, şu anda Power BI hizmetindeki veri kökeni görünümde yer alan veri akışları bağlantılarını göstermiyor.

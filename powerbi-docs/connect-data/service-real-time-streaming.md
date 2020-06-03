@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327956"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793435"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
@@ -52,7 +52,7 @@ Bir akış veri kümesini görselleştirmenin tek yolu kutucuk eklemek ve akış
 Uygulamada, akış veri kümeleri ve onlara eşlik eden akış görselleri, veri gönderme ve görselleştirme arasındaki gecikmenin en aza indirilmesinin yüksek düzeyde önemli olduğu durumlarda tercih edilecek en iyi seçenektir. Ayrıca en iyi uygulama olarak, verilerin başka bir toplama işlemi yapılmadan, olduğu gibi görselleştirilebileceği bir şekilde gönderilmesini sağlayabilirsiniz. Olduğu gibi kullanılmaya hazır verilere örnek olarak sıcaklıklar ve önceden hesaplanmış ortalamalar verilebilir.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub akış veri kümesi
-**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır ve Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca beyaz listeye eklenen giden trafiğe izin veriyorsanız PubNub trafiğini de beyaz listeye eklemeniz gerekir. Ayrıntılı bilgi için lütfen [PubNub için giden trafiği beyaz listeye ekleme](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) makalesindeki yönergeleri inceleyin.
+**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır ve Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca izin verilenler listesine eklenen giden trafiğe izin veriyorsanız PubNub trafiğini de izin verilenler listesine eklemeniz gerekir. Ayrıntılı bilgi için lütfen [PubNub için giden trafiği beyaz listeye ekleme](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) makalesindeki yönergeleri inceleyin.
 
 **Akış veri kümelerinde** olduğu gibi, **PubNub akış veri kümesinde** de Power BI’da temel alınan bir veritabanı bulunmaz. Bu nedenle, akışı sağlanan verilere ilişkin rapor görselleri oluşturamaz, filtreleme ve Power BI görselleri gibi rapor özelliklerinden yararlanamazsınız. Benzer şekilde, **PubNub akış veri kümesi**, yalnızca panoya bir kutucuk eklenip PubNub veri akışı kaynak olarak yapılandırılarak görselleştirilebilir.
 
@@ -215,7 +215,7 @@ Akış veri kümeleri, en son verileri görüntülemek için tasarlanmıştır. 
 Şemada bir zaman damgasına sahip olduğunuzu varsayarsak, gönderim veri kümelerinde son N filtresi içeren bir rapor görseli oluşturmayı da deneyebilirsiniz.
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>Power BI Desktop'ta gönderim veya akış veri kümelerine bağlanabilir miyim?
-Ne yazık ki şu anda böyle bir özellik sunulmamaktadır.
+Gönderim ve karma veri kümeleri Power BI Desktop’ta canlı olarak bağlanabilir ama diğer akış veri kümeleri Power BI Desktop’ta bağlanamaz.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Önceki soruyu göz önünde bulundurduğumuzda, gerçek zamanlı veri kümeleri üzerinde nasıl modelleme yapabilirim?
 Veriler kalıcı olarak depolanmadığı için akış veri kümesi üzerinde modelleme yapmak mümkün değildir. Bir gönderim veri kümesine ölçü ve ilişki eklemek için veri kümesini/tablo REST API'lerini güncelleştirme özelliğini kullanabilirsiniz. 

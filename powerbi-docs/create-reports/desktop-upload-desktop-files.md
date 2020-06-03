@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333499"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733496"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop'tan veri kümesi ve rapor yayımlama
 Power BI Desktop dosyasını Power BI hizmetine yayımladığınızda, modeldeki verileri Power BI çalışma alanınızda yayımlarsınız. Aynı durum **Rapor** görünümünde oluşturduğunuz raporlar için de geçerlidir. Çalışma Alanı gezgininizde tüm raporları ve aynı adda yeni bir veri kümesi görürsünüz.
@@ -49,5 +49,9 @@ Bu basit bir işlem olsa da bilmeniz gereken bazı noktalar vardır:
 * Bir sütunu veya ölçüyü yeniden adlandırırsanız ya da silerseniz Power BI'da bu alanı içeren tüm görselleştirmeler bozulabilir. 
 * Power BI mevcut sütunlardaki bazı biçim değişikliklerini yok sayar. Örneğin, bir sütunun biçimini %0,25 yerine %25 olarak değiştirdiğinizde.
 * Power BI'daki mevcut veri kümeniz için yapılandırılmış bir yenileme zamanlamanız olduğunu düşünün. Dosyanıza yeni veri kaynakları ekleyip ardından yeniden yayımladığınızda, zamanlanmış sonraki yenilemeden önce bunlarda oturum açmanız gerekir.
-* Bir yenileme zamanlaması tanımlanmışsa ve Power BI Desktop’tan yayımlanan bir veri kümesi yeniden yayımlanırsa, yeniden yayımlama işlemi yapıldığında bir veri kümesi yenilemesi başlatılır. 
+* Bir yenileme zamanlaması tanımlanmışsa ve Power BI Desktop’tan yayımlanan bir veri kümesi yeniden yayımlanırsa, yeniden yayımlama işlemi yapıldığında bir veri kümesi yenilemesi başlatılır.
+* Veri kümesinde değişiklik yaptığınızda ve ardından bunu yeniden yayımladığınızda, değişiklikten kaç çalışma alanı, rapor ve panonun etkilenmiş olabileceği bir iletiyle size gösterilir ve şu anda yayımlanmış durumda olan veri kümesinin yerine değiştirdiğiniz veri kümesinin konmasını istediğinizi onaylamanız istenir. Ayrıca iletide Power BI hizmetindeki tüm veri kümesi etki analizinin bağlantısı sağlanır. Burada daha fazla bilgi görebilir ve yaptığınız değişikliğin risklerini azaltacak önlemler alabilirsiniz.
 
+   ![Veri kümesini yeniden yayımlamanın etkisiyle ilgili uyarı](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [Veri kümesi etki analizi hakkında daha fazla bilgi edinin](../collaborate-share/service-dataset-impact-analysis.md).

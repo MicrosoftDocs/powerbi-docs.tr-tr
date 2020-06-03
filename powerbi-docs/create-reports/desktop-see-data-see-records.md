@@ -1,30 +1,30 @@
 ---
-title: Power BI Desktop görsellerinde veri ve kayıtlara bakma
-description: Power BI Desktop'ın Verileri Görüntüle ve Kayıtları Görüntüle özelliklerini kullanarak detaya gitme
+title: Power BI Desktop görsellerinde görsel tablosu ve kayıtlar
+description: Detaya gitmek için Power BI Desktop’ın Görsel tablosu ve Veri noktası tablosu özelliklerini kullanın
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334373"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793879"
 ---
-# <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Power BI Desktop görsellerinde Verileri Görüntüle ve Kayıtları Görüntüle özelliklerini kullanma
+# <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop’ta Görsel tablosu ve Veri noktası tablosu özelliklerini kullanma
 **Power BI Desktop**'ta bir görselleştirmenin detayına gidebilir ve seçilen görsel için temel alınan verilerin metinsel temsilini veya tek tek veri öğelerini görebilirsiniz. Bu özellikler bazen *geçişli tıklama*, *detaylandırma* veya *ayrıntıları görüntüleme* olarak adlandırılır.
 
-Seçili görselleştirmeler tarafından kullanılan değerlerin metinsel bir sürümünü görüntülemek için **Verileri Görüntüle** ya da seçili bir kayıt veya veri noktasına ait tüm verileri görüntülemek için **Kayıtları Görüntüle** seçeneklerini kullanabilirsiniz. 
+Görseldeki verileri bir tablo olarak görüntülemek için **Görsel tablosu** özelliğini veya tek bir veri noktasını hesaplamak için kullanılan verilerin tablosunu görüntülemek için **Veri noktası tablosu** özelliğini kullanabilirsiniz. 
 
-![Verileri Görüntüle ve Kayıtları Görüntüle](media/desktop-see-data-see-records/see-data-record.png)
+![Görsel tablosu ve Veri noktası tablosu](media/desktop-see-data-see-records/see-data-record.png)
 
 >[!IMPORTANT]
->**Verileri Görüntüle** ve **Kayıtları Görüntüle** seçenekleri yalnızca aşağıdaki görselleştirme türlerini destekler:
+>**Görsel tablosu** ve **Veri noktası tablosu** yalnızca aşağıdaki görselleştirme türlerini destekler:
 >  - Çubuk Grafik
 >  - Sütun grafiği
 >  - Halka grafik
@@ -34,57 +34,56 @@ Seçili görselleştirmeler tarafından kullanılan değerlerin metinsel bir sü
 >  - Pasta grafiği
 >  - Treemap
 
-## <a name="use-see-data-in-power-bi-desktop"></a>Power BI Desktop'ta Verileri Görüntüle özelliğini kullanma
+## <a name="use-visual-table-in-power-bi-desktop"></a>Power BI Desktop’ta Görsel tablosunu kullanma
 
-**Verileri Görüntüle**, bir görselleştirmede temel alınan verileri gösterir. **Verileri Görüntüle** seçeneği, bir görselleştirme seçildiğinde şeridin **Görsel Araçlar** bölümündeki **Veri/Detay** sekmesinde görünür.
+**Görsel tablosu** bir görselleştirmede temel alınan verileri gösterir. **Görsel tablosu** seçeneği, bir görsel seçildiğinde şeridin **Veri/Detay** sekmesinin **Göster** bölümünde görünür.
 
-![Şeritte Verileri Görüntüle seçeneği](media/desktop-see-data-see-records/see-data1.png)
+![Şeritte Görsel tablosu](media/desktop-see-data-see-records/visual-table-01.png)
 
-Bir görselleştirmeye sağ tıkladıktan sonra görüntülenen menüden **Verileri Göster**’i seçerek veya bir görselleştirmenin sağ üst köşesindeki **Diğer seçenekler** (...) ve sonra **Verileri Göster**’i seçerek de verileri görebilirsiniz.
+Bir görselleştirmeye sağ tıkladıktan sonra görüntülenen menüden **Verileri Göster**’i seçerek veya bir görselleştirmenin sağ üst köşesindeki **Diğer seçenekler** (...) ve sonra **Tablo olarak göster**’i seçerek de verileri görebilirsiniz.
 
-![Verileri Göster sağ tıklama menüsü](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Verileri Göster Diğer Seçenekler](media/desktop-see-data-see-records/see-data3.png)
+![Verileri Göster sağ tıklama menüsü](media/desktop-see-data-see-records/visual-table-02.png)&nbsp;&nbsp;![Verileri Göster Diğer Seçenekler](media/desktop-see-data-see-records/visual-table-03.png)
 
 > [!NOTE]
 > Sağ tıklama menüsünün kullanılabilmesi için görseldeki bir veri noktasının üzerine gelmeniz gerekir.
 
-**Verileri Görüntüle** veya **Verileri Göster**’i seçtiğinizde Power BI Desktop tuvalinde verilerin hem görsel hem de metinsel gösterimi görüntülenir. *Yatay görünümde* görsel öğe tuvalin üst yarısında, veriler ise tuvalin alt yarısında görüntülenir. 
+**Görsel tablosu**’nu veya **Veri noktası tablosu**’nu seçtiğinizde Power BI Desktop tuvalinde verilerin hem görsel hem de metin gösterimi görüntülenir. *Yatay görünümde* görsel öğe tuvalin üst yarısında, veriler ise tuvalin alt yarısında görüntülenir. 
 
-![yatay görünüm](media/desktop-see-data-see-records/see-data4a.png)
+![yatay görünüm](media/desktop-see-data-see-records/visual-table-04.png)
 
 Tuvalin sağ üst köşesindeki simgeyi seçerek yatay görünüm ile *dikey görünüm* arasında geçiş yapabilirsiniz.
 
-![dikey görünüm geçiş](media/desktop-see-data-see-records/see-data4.png)
+![dikey görünüm geçiş](media/desktop-see-data-see-records/visual-table-05.png)
 
 Rapora geri dönmek için tuvalin sol üst köşesindeki **< Rapora Geri Dön** öğesini seçin.
 
-![Rapora Geri Dön](media/desktop-see-data-see-records/see-data5.png)
+![Rapora Geri Dön](media/desktop-see-data-see-records/visual-table-06.png)
 
-## <a name="use-see-records-in-power-bi-desktop"></a>Power BI Desktop'ta Kayıtları Görüntüle özelliğini kullanma
+## <a name="use-data-point-table-in-power-bi-desktop"></a>Power BI Desktop’ta Veri noktası tablosunu kullanma
 
-Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin temel aldığı verilerin de detayına gidebilirsiniz. **Kayıtları Görüntüle** özelliğini kullanmak için bir görselleştirme seçin, ardından şeridin **Görsel Araçlar** bölümündeki **Veri/Detay** sekmesinde bulunan **Kayıtları Görüntüle**’yi seçin ve ardından görselleştirme üzerinde bir veri noktası ya da satır seçin. 
+Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin temel aldığı verilerin de detayına gidebilirsiniz. **Veri noktası tablosu** özelliğini kullanmak için bir görselleştirme seçin, ardından şeridin **Veri/Detay** sekmesindeki **Görsel Araçlar** bölümünde bulunan **Veri noktası tablosu**’nu seçin ve ardından görselleştirme üzerinde bir veri noktası ya da satır seçin. 
 
-![Şeritte Kayıtları Görüntüle seçeneği](media/desktop-see-data-see-records/see-record1.png)
+![Şeritte Veri noktası tablosu](media/desktop-see-data-see-records/visual-table-07.png)
 
 > [!NOTE]
-> Şeritteki **Kayıtları Görüntüle** düğmesi devre dışı ve gri renkteyse, seçili görselleştirmenin **Kayıtları Görüntüle** özelliğini desteklemediği anlamına gelir.
+> Şeritteki **Veri noktası tablosu** düğmesinin devre dışı ve gri renkte olması, seçili görselleştirmenin **Veri noktası tablosu** özelliğini desteklemediği anlamına gelir.
 
-Ayrıca bir veri öğesine sağ tıklayarak görüntülenen menüden **Kayıtları Görüntüle**’yi seçebilirsiniz.
+Ayrıca bir veri öğesine sağ tıklayarak görüntülenen menüden **Veri noktası tablosu**’nu seçebilirsiniz.
 
-![Sağ tıklama ile Kayıtları Görüntüle seçeneği](media/desktop-see-data-see-records/see-record2.png)
+![Sağ tıklamayla Veri noktası tablosu](media/desktop-see-data-see-records/visual-table-08.png)
 
-Bir veri öğesi için **Kayıtları Görüntüle**’yi seçtiğinizde Power BI Desktop tuvali seçili öğeyle ilişkili tüm verileri gösterir. 
+Bir veri öğesi için **Veri noktası tablosu**’nu seçtiğinizde Power BI Desktop tuvali seçili öğeyle ilişkili tüm verileri gösterir. 
 
-![](media/desktop-see-data-see-records/see-record3.png)
+![](media/desktop-see-data-see-records/visual-table-09.png)
 
 Rapora geri dönmek için tuvalin sol üst köşesindeki **< Rapora Geri Dön** öğesini seçin.
 
-![](media/desktop-see-data-see-records/see-record4.png)
 
 > [!NOTE]
->**Kayıtları Görüntüle** özelliği aşağıdaki sınırlamalara sahiptir:
-> - **Kayıtları Görüntüle** görünümünde verileri değiştiremez ve rapora geri kaydedemezsiniz.
-> - Görselinizde hesaplanmış ölçü kullanılıyorsa **Kayıtları Görüntüle** özelliğinden yararlanamazsınız.
-> - Canlı bir çok boyutlu (MD) modele bağlıyken **Kayıtları Görüntüle** özelliğini kullanamazsınız.
+>**Veri noktası tablosu** özelliği aşağıdaki sınırlamalara sahiptir:
+> - **Veri noktası tablosu** görünümünde verileri değiştiremez ve rapora geri kaydedemezsiniz.
+> - Görselinizde hesaplanmış ölçü kullanılıyorsa **Veri noktası tablosu** özelliğinden yararlanamazsınız.
+> - Canlı bir çok boyutlu (MD) modele bağlıyken **Veri noktası tablosu** özelliğini kullanamazsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Power BI Desktop**'ta çok çeşitli rapor biçimlendirme ve veri yönetim özellikleri bulunur. Bazı örnekler için aşağıdaki kaynaklara bakın:

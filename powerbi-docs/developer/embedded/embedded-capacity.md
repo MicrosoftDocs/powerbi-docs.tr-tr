@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148639"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813635"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
@@ -64,74 +64,22 @@ Power BI Premium, *P* ve *EM* olmak üzere iki SKU sunar.
 
 ### <a name="which-sku-should-i-use"></a>Hangi SKU’yu kullanmam gerekir?
 
-Bu tablo, özelliklerin özetini, gereken kapasiteyi ve her birinin gerektirdiği belirli SKU’yu sunar. 
+Aşağıdaki tablo özelliklerin özetini, gereken kapasiteyi ve her birinin gerektirdiği belirli SKU’yu sunar.
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>Özellik</b></p></td>
-<td style="text-align: center">
-<p><b>Power BI Embedded</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI Premium</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>Ne tüketilir?</em><p></td>
-<td><p><em>Bunu ne tüketir?</em><p></td>
-<td style="text-align: center"><p><em>A SKU’ları</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>EM SKU’ları</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>P SKU’ları</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Power BI çalışma alanından yapıtları ekleme</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Power BI raporları</td>
-<td>Kuruluşunuza yönelik ekli uygulama</br>(veriler kullanıcıya aittir)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Müşterilerinize yönelik ekli uygulama</br>(veriler uygulamaya aittir)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI içeriği<br>(ücretsiz Power BI lisansı içerir)</td>
-<td>Power BI hizmeti</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI Mobil</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>MS Office uygulamaları</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+Bu tabloda özel bir uygulama, ekli analiz kullanılarak oluşturulan bir web uygulamasına başvurur. Geliştirici olarak özel web uygulamasına eklediğinizde (JavaScript veya .NET SDK’larını ya da REST API’leri kullanarak), UX’i denetleme ve özelleştirme olanağınız vardır. Power BI hizmeti ve Power BI Mobil gibi diğer ekleme seçeneklerini kullandığınızda bu olanak sağlanmaz.
+
+
+|         |         |         |
+|---------|---------|---------|
+|**Senaryo**</br><p></p>|**Azure**</br>(A SKU’su)|**Office**</br>(P ve EM SKU’ları)|
+|[Müşterileriniz için ekleme](embed-sample-for-customers.md)</br>(veriler uygulamaya aittir)     |✔        |✔        |
+|[Kuruluşunuz için ekleme](embed-sample-for-your-organization.md)</br>(veriler kullanıcıya aittir)     |✖        |✔         |
+|Microsoft 365 uygulamaları</br>(eski adı Office 365 uygulamaları)<ul><li>[Teams’de ekleme](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint’te ekleme](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[Güvenli URL ekleme](../../collaborate-share/service-embed-secure.md)</br>(Power BI hizmetinden ekleme)     |✖        |✔        |
+
+>[!NOTE]
+>* Power BI uygulama çalışma alanına içerik yayımlamak için [Power BI Pro lisansı](../../admin/service-admin-purchasing-power-bi-pro.md) gerekir.
+>* Ücretsiz Power BI kullanıcılarının Power BI hizmetinde Power BI uygulamalarını ve paylaşılan içeriği kullanmasına yalnızca **P SKU’su** izin verir.
 
 ### <a name="capacity-considerations"></a>Kapasiteye ilişkin önemli noktalar
 
@@ -147,33 +95,33 @@ Aşağıdaki tablo, kapasite başına ödeme ve kullanıma ilişkin önemli nokt
 </tr>
 <tr>
 <td><p><strong>Teklif</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Faturalandırma</strong></td>
-<td style="text-align: center;">Saatlik</td>
-<td style="text-align: center;">Aylık</td>
-<td style="text-align: center;">Aylık</td>
+<td style="text-align: center">Saatlik</td>
+<td style="text-align: center">Aylık</td>
+<td style="text-align: center">Aylık</td>
 </tr>
 <tr>
 <td><p><strong>Taahhüt</strong></td>
-<td style="text-align: center;">Yok</td>
-<td style="text-align: center;">Yıllık</td>
-<td style="text-align: center;">Aylık veya yıllık</td>
+<td style="text-align: center">Yok</td>
+<td style="text-align: center">Yıllık</td>
+<td style="text-align: center">Aylık veya yıllık</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>Kullanım</strong></td>
-<td style="text-align: center;">Azure kaynaklarında şunlar yapılabilir:</br>- <a href="azure-pbie-scale-capacity.md">Ölçeği büyütme veya küçültme</a></br>- <a href="azure-pbie-pause-start.md">Duraklatma ve sürdürme</a>
-</td>
-<td style="text-align: center;">Uygulamalara ve</br> Microsoft uygulamalarına ekleme</td>
-<td style="text-align: center;">Uygulamalara ve</br> Power BI hizmetine ekleme</td>
+<td style="text-align: center">Azure kaynaklarında şunlar yapılabilir:<li><a href="azure-pbie-scale-capacity.md">Ölçeği büyütme veya küçültme</a></li><li><a href="azure-pbie-pause-start.md">Duraklatma ve sürdürme</a>
+</td></li>
+<td style="text-align: center">Uygulamalara ve</br> Microsoft uygulamalarına ekleme</td>
+<td style="text-align: center">Uygulamalara ve</br> Power BI hizmetine ekleme</td>
 </tr>
 </tbody>
 </table>

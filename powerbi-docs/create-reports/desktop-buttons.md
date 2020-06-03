@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/21/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f92ce45cd739072dcb7056eb0be6696b4cab32e4
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83298562"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813524"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI’da düğmeleri kullanma
 Power BI’daki **düğmeler**, uygulamalar gibi davranan raporlar oluşturmanızı, böylece kullanıcıların Power BI içeriklerinin üzerine gelip tıklayıp etkileşime gireceği ilgi çekici bir ortam elde etmenizi sağlar. **Power BI Desktop**’ta ve **Power BI hizmetinde** raporlara düğmeler ekleyebilirsiniz. Power BI hizmetinde raporlarınızı paylaştığınızda, bu raporlar kullanıcılarınız için uygulamaya benzer bir deneyim sağlar.
@@ -56,7 +56,6 @@ Düğmenin her durumda nasıl göründüğünü belirlemek için, bu kartlardan 
 
 ![Power BI raporundaki bir düğmenin üç durumu](media/desktop-buttons/power-bi-button-format.png)
 
-
 ## <a name="select-the-action-for-a-button"></a>Düğme için eylem belirleyin
 
 Bir kullanıcı Power BI’da bir düğmeyi seçtiğinde gerçekleşecek olan eylemi belirleyebilirsiniz. Düğme eylemleri seçeneklerine, **Görselleştirmeler** bölmesindeki **Eylem** kartından erişebilirsiniz.
@@ -67,31 +66,81 @@ Düğme eylemleri seçenekleri şunlardır:
 
 - **Geri** seçeneği, kullanıcıyı raporun önceki sayfasına döndürür. Bu, detaylandırma sayfaları için kullanışlıdır.
 - **Yer işareti** seçeneğini, geçerli rapor için tanımlı bir yer işaretiyle ilişkili rapor sayfasını sunar. [Power BI’da yer işaretleri](desktop-bookmarks.md) hakkında daha fazla bilgi edinin. 
-- **Detaylandırma (önizleme)** , kullanıcının yer işaretlerini kullanmadan sayfayı seçimine göre filtrelenmiş şekilde detaylandırmasını sağlar. [Raporlardaki detaylandırma düğmeleri](desktop-drill-through-buttons.md) hakkında daha fazla bilgi edinin.
+- **Detaylandırma**, kullanıcının yer işaretlerini kullanmadan sayfayı seçimine göre filtrelenmiş şekilde detaylandırmasını sağlar. [Raporlardaki detaylandırma düğmeleri](desktop-drill-through-buttons.md) hakkında daha fazla bilgi edinin.
 - **Sayfa gezintisi**, kullanıcıyı yine yer işaretlerini kullanmadan rapor içinde farklı bir sayfaya götürür. Ayrıntılar için bu makaledeki [Sayfa gezintisi oluşturma](#create-page-navigation) bölümüne bakın.
 - **Soru-Cevap** seçeneği bir **Soru-Cevap Gezgini** penceresi açar. 
 
-Belirli düğmelerin, otomatik olarak seçili varsayılan bir eylemi vardır. Örneğin, **Soru- Cevap** düğmesi türü, otomatik olarak varsayılan eylem olacak şekilde **Soru- Cevap**’ı seçer. **Bu blog gönderisine** göz atarak [Soru-Cevap Gezgini](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) hakkında daha fazla bilgi edinebilirsiniz.
+Belirli düğmelerin, otomatik olarak seçili varsayılan bir eylemi vardır. Örneğin, **Soru- Cevap** düğmesi türü, otomatik olarak varsayılan eylem olacak şekilde **Soru- Cevap**’ı seçer. [Bu blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer) göz atarak **Soru-Cevap Gezgini** hakkında daha fazla bilgi edinebilirsiniz.
 
 Kullanmak istediğiniz düğme üzerinde *CTRL+CLICK* tuşlarını kullanarak raporunuz için oluşturduğunuz düğmeleri deneyebilir veya test edebilirsiniz. 
 
-### <a name="create-page-navigation"></a>Sayfa gezintisi oluşturma
+## <a name="create-page-navigation"></a>Sayfa gezintisi oluşturma
 
-**Sayfa gezintisi** türünde **Eylem** ile, hiç yer işareti kaydetmek veya yönetmek zorunda kalmadan gezinti deneyiminin tamamını hızlıca oluşturabilirsiniz.
+**Sayfa gezintisi** türünde **Eylem** ile, hiç yer işareti kaydetmek veya yönetmek zorunda kalmadan gezinti deneyiminin tamamını oluşturabilirsiniz.
 
 Sayfa gezintisi düğmesi ayarlamak için, eylem türü olarak **Sayfa gezintisi** seçili bir düğme oluşturun ve **Hedef** sayfasını seçin.
 
 ![Sayfa gezintisi eylemi](media/desktop-buttons/power-bi-page-navigation.png)
 
-Hızlıca bir özel gezinti bölmesi oluşturabilirsiniz. Gezinti bölmenizde hangi sayfaların gösterileceğini değiştirmek istiyorsanız, yer işaretlerini düzenlemek ve yönetmek zorunda kalmaktan çekinirsiniz.
+Özel bir gezinti bölmesi oluşturabilir ve gezinti düğmelerini buraya ekleyebilirsiniz. Gezinti bölmenizde hangi sayfaların gösterileceğini değiştirmek istiyorsanız, yer işaretlerini düzenlemek ve yönetmek zorunda kalmaktan çekinirsiniz.
 
 ![Gezinti sayfası oluşturma](media/desktop-buttons/power-bi-build-navigation-pane.png)
 
 Ayrıca, diğer düğme türleri gibi araç ipucunu da koşullu olarak biçimlendirebilirsiniz.
+
+## <a name="set-the-navigation-destination-conditionally"></a>Gezinti hedefini koşullu olarak ayarlama
+
+Gezinti hedefini seçimin çıkışına göre ayarlamak için koşullu biçimlendirmeyi kullanabilirsiniz. Örneğin kullanıcının seçimine göre farklı sayfalara gitmek için tek bir düğme bulundurarak rapor tuvalinizde yer kazanmak isteyebilirsiniz.
+
+:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Git düğmesiyle gezinme":::
+ 
+Yukarıda gösterilen örneği oluşturmak için, başlangıç olarak gezinti hedeflerinin adlarını içeren tek sütunlu bir tablo oluşturun:
+
+:::image type="content" source="media/desktop-buttons/button-create-table.png" alt-text="Tablo oluşturma":::
+
+Power BI, detaylandırma hedefini ayarlamak için tam dize eşleşmesi kullandığından girilen değerlerin detaylandırma sayfa adlarıyla tam olarak uyumlu olduğunu iki kez kontrol edin.
+
+Tabloyu oluşturduktan sonra tek seçimlik dilimleyici olarak sayfaya ekleyin:
+
+:::image type="content" source="media/desktop-buttons/button-navigate-slicer.png" alt-text="Gezinti dilimleyici":::
+
+Sonra sayfa gezintisi düğmesini oluşturun ve hedef için koşullu biçimlendirme seçeneğini belirtin:
+
+:::image type="content" source="media/desktop-buttons/button-set-page-nav-destination.png" alt-text="Sayfa gezintisi düğmesi":::
+ 
+Oluşturduğunuz sütunun adını seçin. Şimdiki örnekte bu, **Bir hedef seçin** sütunudur:
+
+:::image type="content" source="media/desktop-buttons/button-select-destination.png" alt-text="Bir hedef seçin":::
+
+Artık düğme, kullanıcının seçimine bağlı olarak farklı sayfalara gidilmesini sağlayabilir.
+
+:::image type="content" source="media/desktop-buttons/button-navigate-go.png" alt-text="Git düğmesiyle gezinme":::
+ 
+### <a name="shapes-and-images-for-navigation"></a>Gezinti için şekiller ve resimler
+
+Sayfa gezintisi eylemi yalnızca düğmeler değil şekiller ve resimler için de desteklenir. Burada yerleşik şekillerden birinin kullanıldığı bir örnek verilmiştir:
+
+:::image type="content" source="media/desktop-buttons/button-navigation-arrow.png" alt-text="Gezinti için ok kullanma":::
+ 
+Burada resim kullanma örneği verilmiştir:
+
+:::image type="content" source="media/desktop-buttons/button-navigation-image.png" alt-text="Gezinti için resim kullanma":::
+ 
+## <a name="buttons-support-fill-images"></a>Düğmeler dolgu resimlerini destekler
+
+Düğmeler dolgu resimlerini destekler. Düğmenizin genel görünümünü şu yerleşik düğme durumlarıyla birleştirilen dolgu resimleriyle özelleştirebilirsiniz: varsayılan, üzerine gelindiğinde, basıldığında ve devre dışı (detaylandırma için).
+
+:::image type="content" source="media/desktop-drill-through-buttons/drill-through-fill-images.png" alt-text="Detaylandırma düğmesi dolgu resimleri":::
+
+**Dolgu** öğesini **Açık** olarak ayarlayın ve ardından farklı durumların resimlerini oluşturun.
+
+:::image type="content" source="media/desktop-drill-through-buttons/drill-through-fill-state-settings.png" alt-text="Dolgu resmi ayarları":::
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Düğmelere benzeyen veya düğmelerle etkileşim kuran özellikler hakkında daha fazla bilgi için aşağıdaki makalelere göz atın:
 
 * [Power BI raporlarında detaylandırmayı kullanma](desktop-drillthrough.md)
 * [Power BI’da içgörü paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](desktop-bookmarks.md)
+* [Detaylandırma düğmesi oluşturma](desktop-drill-through-buttons.md)
 

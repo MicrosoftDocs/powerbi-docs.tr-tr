@@ -1,6 +1,6 @@
 ---
 title: Power BI, O365 iş ortağı aboneliğine eklenemiyor
-description: Power BI, bir Office 365 dağıtım iş ortağına eklenemiyor. Dağıtılmış model, Office 365 tarafından kullanılan bir satın alma modeli.
+description: Power BI, bir Microsoft 365 dağıtım iş ortağına eklenemiyor. Dağıtılmış model, Microsoft 365 tarafından kullanılan bir satın alma modeli.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344952"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812347"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Power BI, Office 365 iş ortağı aboneliğine eklenemiyor
 
-Office 365 şirketlere, Office 365'i kendi çözümleriyle paketlenmiş ve tümleştirilmiş biçimde yeniden satma olanağı sunar ve son kullanıcılara satın alma, fatura ve destek için tek bir irtibat noktası sağlar.
+Microsoft 365 şirketlere, Microsoft 365'i kendi çözümleriyle paketlenmiş ve tümleştirilmiş biçimde yeniden satma olanağı sunar ve son kullanıcılara satın alma, fatura ve destek için tek bir irtibat noktası sağlar.
 
 Office 365 aboneliğinizin yanında Power BI'ı da edinmek istiyorsanız iş ortağınızla iletişime geçmenizi öneririz. İş ortağınız şu an için Power BI'ı sunmuyorsa farklı seçeneklere başvurabilirsiniz.
 
@@ -52,13 +52,13 @@ Power BI için ücretsiz denemeye kaydolabilirsiniz. Deneme süresinin sonunda P
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Özel abonelikleri etkinleştirme
 
-Özel abonelikler olarak da bilinen bireysel kaydolma işlemleri varsayılan olarak devre dışıdır. Bu durumda kaydolmaya çalıştığınızda şu iletiyle karşılaşırsınız: *Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış*.
+Özel abonelikler olarak da bilinen bireysel kaydolma işlemleri varsayılan olarak devre dışıdır. Bu durumda, kaydolmayı denediğinizde aşağıdaki iletiyi görürsünüz: *Microsoft Power BI için kayıt işlemi, BT departmanınız tarafından devre dışı bırakılmış*.
 
 ![Üzgünüz görüntüsü](media/service-admin-syndication-partner/sorry.png)
 
 Özel abonelikleri etkinleştirmek için, iş ortağınızla iletişime geçip bu seçeneği kullanımınıza sunmasını isteyebilirsiniz. Kiracınızda yöneticiyseniz ve Azure Active Directory PowerShell komutlarını kullanmayı biliyorsanız özel abonelikleri kendiniz de etkinleştirebilirsiniz. [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2/)
 
-1. Office 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki betiğin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
+1. Microsoft 365 kimlik bilgilerinizi kullanıp Azure Active Directory'de oturum açın. Aşağıdaki betiğin ilk satırında sizden kimlik bilgileriniz istenir. İkinci satırda Azure Active Directory ile bağlantı kurulur.
 
     ```powershell
     $msolcred = get-credential

@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b117bb1825e4b50e64b2af5212ed5b3a28bf6e6f
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 6e6974df9ea6ddfc2402ed4d58e2a994355d0f0b
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812255"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120233"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
@@ -29,7 +29,7 @@ Doğrudan Power BI'daki Görselleştirmeler bölmesinden kullanabileceğiniz ço
 
 ![her görselleştirme türüne ait simgeleri içeren bölme](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Çok daha fazla seçenek için [Microsoft AppSource topluluk sitesini](https://appsource.microsoft.com) ziyaret edip Microsoft ve topluluk tarafından sağlanan [Power BI görsellerini](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [indirebilirsiniz](../developer/visuals/custom-visual-develop-tutorial.md).
+[Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com) daha fazla Power BI görseli sağlanır. AppSource’da, Microsoft ve topluluk tarafından sağlanan [Power BI görsellerine](../developer/visuals/custom-visual-develop-tutorial.md) göz atabilir ve bunları [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 
 Power BI'da yeniyseniz veya bilgilerinizi tazelemek istiyorsanız Power BI görselleştirmeleri ile ilgili temel bilgileri edinmek için aşağıdaki bağlantıları kullanın.  Alternatif olarak, daha da fazla faydalı bilgiye ulaşmak için İçindekiler (bu makalenin sol tarafında) başlıklı bölümümüzü kullanabilirsiniz.
 
@@ -37,21 +37,37 @@ Power BI'da yeniyseniz veya bilgilerinizi tazelemek istiyorsanız Power BI görs
 
 Rapor sayfalarınızda [görselleştirmeler oluşturun](power-bi-report-add-visualizations-i.md). [Kullanılabilir görselleştirmelere ve görselleştirmelere ilişkin mevcut eğitimlere](power-bi-visualization-types-for-reports-and-q-and-a.md) göz atın. 
 
-## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Özel görselleştirme yükleme ve bunu Power BI'da kullanma
+## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Dosyadan veya AppSource’dan görselleştirmeyi karşıya yükleme
 
-Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir özel görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](../developer/visuals/custom-visual-develop-tutorial.md) kullanın ve [bunu toplulukla paylaşın](../developer/visuals/office-store.md). Özel görsel geliştirme hakkında daha fazla bilgi edinmek için, [Power BI özel görseli geliştirme](../developer/visuals/custom-visual-develop-tutorial.md) bağlantısını ziyaret edin.
+Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](../developer/visuals/custom-visual-develop-tutorial.md) kullanın ve [bunu toplulukla paylaşın](../developer/visuals/office-store.md). Power BI görseli geliştirme hakkında daha fazla bilgi edinmek için, [Power BI görseli geliştirme](../developer/visuals/custom-visual-develop-tutorial.md) bağlantısını ziyaret edin.
 
-## <a name="personalize-your-visualization-pane-preview"></a>Görselleştirme bölmenizi kişiselleştirme (önizleme)
+## <a name="personalize-your-visualization-pane"></a>Görselleştirme bölmenizi kişiselleştirme
 
-Birden çok raporda aynı özel görseli kullandığınızı fark ederseniz, özel görselleştirmenizi görselleştirme bölmenize sabitleyebilirsiniz. Görselleştirmeyi sabitlemek için görsele sağ tıklayarak bölmeye sabitleyin.
+Görselleştirme bölmesini Power BI görselleri ekleyerek veya kaldırarak kişiselleştirebilirsiniz. Görselleştirme bölmesinden varsayılan görselleri kaldırdıysanız, görseli varsayılan ayarlarına geri yükleyebilir ve tüm varsayılan görselleri geri getirebilirsiniz.
+
+### <a name="add-a-visual-to-the-visualization-pane"></a>Görselleştirme bölmesine görsel ekleme
+
+Birden çok raporda aynı görseli kullandığınızı fark ederseniz, bu görseli görselleştirme bölmenize ekleyebilirsiniz. Görsel ekleme özelliği AppSource görselleri, kuruluş görselleri ve dosyalardan eklenen görseller için geçerlidir. Görsel eklemek için, görsele sağ tıklayın.
 
 ![Görselleştirme bölmesine sabitleme](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-Bir görsel sabitlendikten sonra diğer yerleşik görsellerle birlikte canlı hale gelir. Bu görsel artık oturum açmış hesabınıza bağlıdır; böylece, oturum açtığınız varsayılarak, oluşturduğunuz tüm yeni raporlara bu görsel otomatik olarak dahil edilir. Bunun yapılması, belirli bir görseli her bir rapora eklemeye gerek olmadan standart hale getirmeyi son derece kolaylaştırır.
+Bir görsel sabitlendikten sonra diğer varsayılan görsellerle birlikte canlı hale gelir. Bu görsel artık oturum açmış hesabınıza bağlıdır; böylece, oturum açtığınız varsayılarak, oluşturduğunuz tüm yeni raporlara bu görsel otomatik olarak dahil edilir. Düzenli olarak kullandığınız belirli bir görseli artık tek tek her rapora eklemeniz gerekmez.
 
 ![Kişiselleştirilmiş görselleştirme bölmesi](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
-Bu özellik önizleme aşamasında olduğu sürece, sabitlenmiş görsellerinizi yalnızca Power BI Desktop’ta göreceksiniz. Ayrıca, bu özelliğin kullanılabilmesi için oturum açmanız gerekir.
+### <a name="remove-a-visual-from-the-visualization-pane"></a>Görselleştirme bölmesinden görsel kaldırma
+
+Görseli düzenli olarak kullanmayı bıraktıysanız, görsele sağ tıklayabilir ve görselleştirme bölmesinden kaldırabilirsiniz. Görselleştirme bölmesinden her türlü görsel (varsayılan, dosya, kuruluş ve AppSource görselleri gibi) kaldırılabilir.
+
+![Görselleştirme bölmesinde sabitlenenleri kaldırma](media/power-bi-report-visualizations/unpin-visual.png)
+
+### <a name="restore-the-visualization-pane"></a>Görselleştirme bölmesini geri yükleme
+
+Görselleştirme bölmesini geri yükleme yalnızca varsayılan görseller için geçerlidir. Görselleştirme bölmesine eklenmiş olan görseller bundan etkilenmez ve görselleştirme bölmesinde kullanılabilir durumda kalır. AppSource veya dosya görsellerini görselleştirme bölmesinden kaldırmak istiyorsanız, bunu el ile yapmalısınız.
+
+Görselleştirme bölmesini varsayılan durumuna geri yüklemek için diğer seçeneklere tıklayın ve **Varsayılan görselleri geri yükle**’yi seçin.
+
+![Görselleştirme bölmesini varsayılan durumuna geri yükleme](media/power-bi-report-visualizations/restore-default.png)
 
 ## <a name="change-the-visualization-type"></a>Görselleştirme türünü değiştirme
 
@@ -59,12 +75,12 @@ Verilerinize en çok hangisinin uyduğunu görmek için [görselleştirme türü
 
 ## <a name="pin-the-visualization"></a>Görselleştirmeyi sabitleme
 
-Power BI hizmetinde görselleştirmeyi istediğiniz hale getirdikten sonra kutucuk olarak [bir panoya sabitleyebilirsiniz](../create-reports/service-dashboard-pin-tile-from-report.md). Sabitledikten sonra, raporda kullanılan görselleştirmeyi değiştirmeniz halinde panodaki kutucuk değişmez. Görselleştirme bir çizgi grafik ise raporda Halka grafik olarak değiştirmiş olsanız bile çizgi grafik olarak kalır.
+Power BI hizmetinde görselleştirmeyi istediğiniz hale getirdikten sonra kutucuk olarak [bir panoya sabitleyebilirsiniz](../create-reports/service-dashboard-pin-tile-from-report.md). Raporda kullanılmakta olan görselleştirmeyi sabitledikten sonra değiştirirseniz panodaki kutucuk değişmez. Bu bir çizgi grafiğiyse, siz raporda Halka Grafik olarak değiştirseniz bile çizgi grafiği olarak kalır.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 - Veri kaynağına ve alan sayısına (ölçüler veya sütunlar) bağlı olarak, görsel yavaş yüklenebilir.  Hem okunabilirlik hem de performans nedeniyle görsellerin toplam 10-20 toplam alanla sınırlanması önerilir. 
 
-- Görseller için üst sınır 100 alandır (ölçü veya sütun). Görseliniz yüklenemezse alanların sayısını azaltın.   
+- Görseller için üst sınır 100 alandır (ölçü veya sütun). Görseliniz yüklenemezse alanların sayısını azaltın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

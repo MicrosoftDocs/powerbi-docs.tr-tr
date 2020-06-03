@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566075"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813359"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -174,7 +174,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="april-2018"></a>Nisan 2018
 * [Power BI veri koruması teknik incelemesi](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* Office 365 kiracısı için Power BI Service [denetim günlükleri](../admin/service-admin-auditing.md) varsayılan olarak açıktır.
+* Kuruluş için Power BI Service [denetim günlükleri](../admin/service-admin-auditing.md) varsayılan olarak açıktır.
 
 ### <a name="march-2018"></a>Mart 2018
 * Power BI hizmetindeki [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/).
@@ -188,7 +188,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 ### <a name="january-2018"></a>Ocak 2018
 *    Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
 *    Azure SQL Veritabanı ve Veri Ambarı için OAuth2 ve DirectQuery Çoklu Oturum Açma (SSO) Desteği.
-*    Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Office 365 bölgesinde depolanabilecek.
+*    Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Microsoft 365 bölgesinde depolanabilecek.
 *    SharePoint Online [Power BI raporu web bölümü](https://go.microsoft.com/fwlink/p/?LinkId=825698) genel kullanıma sunuldu.
 *    Bir kiracıdaki tüm kullanıcılar için Power BI görsellerinin görüntülenmesini kapatmaya yönelik yönetici denetimi.
 *    Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
@@ -254,7 +254,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="january-2017"></a>Ocak 2017
 * [Power BI yönetici rolünü](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole) kullanarak Power BI'ı yönetme.
-* Office 365 denetim portalındaki [Power BI denetim günlükleri](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) genel kullanıma açıldı.
+* Denetim portalındaki [Power BI denetim günlükleri](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) genel kullanıma açıldı.
 * [Geliştirici araçları ve Power BI görselleri API’lerinin](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/) 1.4 sürümü yayımlandı.
 * [Gerçek zamanlı akış özellik kümesi](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) genel kullanıma açıldı.
 * Tek satır kod yazmadan [Power Automate kullanarak Power BI'a veri iletme](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/).
@@ -277,7 +277,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Power BI ile yeni Microsoft Teams arasındaki tümleştirmeden](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) faydalanma.
 * R ayrıntılarına girmeden Power BI'da [R görselleri](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/) tasarlama.
 * Önizleme: [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/) sayesinde BI uzmanları bulutta veya şirket içi ortamdaki verileri temel alan BI anlam modelleri oluşturabilir ve bu sayede işletme kullanıcılarına verilerini daha kolay görüntüleme olanağı sunabilir.
-* Yeni [Power BI Hizmet Yöneticisi Rolü](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/), diğer Office 365 yönetici erişimlerini değil, Power BI Yönetici Portalı'na erişim sağlaması gereken kullanıcılara atanabilir.
+* Yeni [Power BI Hizmet Yöneticisi Rolü](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/), Power BI Yönetici Portalı'na erişmesi ama başka yönetim erişimine sahip olmaması gereken kullanıcılara atanabilir.
 * [Power BI ile MYOB Advanced verilerinizi](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/) keşfetme.
 * Yönetici olmayan kullanıcıların [Power BI denetim günlüğünü](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/) görüntüleme olanağı
 * [Metin sütunlarını Araç İpuçları olarak](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/) görüntüleme.
@@ -693,7 +693,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 **4 Ağustos 2015**
 
 * Power BI, [Circuit ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) kullanıcılarına artık, Circuit ID bulut iletişim hizmetlerinin tümünü takip edip izleyerek işleriyle ilgili doğru kararlar alma becerisi sunuyor. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen [Power BI için Circuit ID içerik paketi yardım sayfasına](../connect-data/service-connect-to-services.md) bakın.
-* Bugün Pano Paylaş özelliğini daha kullanışlı hale getirmek için bir geliştirme yayımladık.  Kuruluşunuz e-posta için Office 365 kullanıyorsa Outlook'ta e-posta gönderir gibi [bir e-posta dağıtım grubuyla paylaşımda bulunabilirsiniz](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/).  Dağıtım grubunun adresini yazıp Paylaş'a tıklamanız yeterlidir.  Dağıtım grubunun tüm üyelerine panoyu görüntülemelerini sağlayacak bir davetiye gönderilir.
+* Bugün Pano Paylaş özelliğini daha kullanışlı hale getirmek için bir geliştirme yayımladık.  Kuruluşunuz e-posta için Microsoft 365 kullanıyorsa Outlook'ta e-posta gönderir gibi [bir e-posta dağıtım grubuyla paylaşımda bulunabilirsiniz](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/).  Dağıtım grubunun adresini yazıp Paylaş'a tıklamanız yeterlidir.  Dağıtım grubunun tüm üyelerine panoyu görüntülemelerini sağlayacak bir davetiye gönderilir.
 
 **28 Temmuz 2015**
 
@@ -703,7 +703,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 
 * Power BI'ın "genel kullanım" (GA) sürümünü duyurmaktan mutluluk duyuyoruz. [Power BI Pro](service-self-service-signup-for-power-bi.md)'ya bugün kaydolun. GA sürümüyle birlikte sunduğumuz heyecan verici yeni özellikler:
 * Yeni görselleştirme ve rapor oluşturma deneyimi: Yeni rapor tuvali daha fazla görselleştirme seçeneğinin yanı sıra başlık, açıklama, eksen, renk, arka plan ve diğer öğelerin biçimlendirmesi konusunda denetim sunuyor.
-* [Power BI grupları](../collaborate-share/service-create-distribute-apps.md): Office 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
+* [Power BI grupları](../collaborate-share/service-create-distribute-apps.md): Microsoft 365 gruplarını temel alan bu özellik, güçlü bir işbirliği deneyimi sunuyor.
 * [Kurumsal içerik paketleri](../collaborate-share/service-organizational-content-pack-introduction.md): Power BI, pano ve rapor oluşturmayı çok kolay hale getiriyor. Kullanıcılar artık bu içeriği kurumsal içerik galerisine yayımlama hakkına da sahip.
 * [Excel dosyalarının tamamını alma](../connect-data/service-excel-workbook-files.md): Artık OneDrive İş üzerinde depolanan herhangi bir Excel çalışma kitabını Power BI'a alarak Excel Online'daki gibi çalışma kitabının tamamını görüntüleyebilirsiniz.
 * [CSV dosyalarını alma](../connect-data/service-get-data-from-files.md): Excel veya Power BI Desktop dosyası gibi virgülle ayrılmış değerler (CSV) metin dosyası da Power BI panolarınızda ve raporlarınızda veri kümesi olarak kullanılabilir.
@@ -714,7 +714,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 
 * Acumatica Cloud ERP, sağlam ve esnek bir platform üzerinde Finans, Dağıtım, CRM ve Proje Muhasebesi gibi tam tümleşik iş yönetim uygulamaları paketi sunmaktadır. Power BI [Acumatica içerik paketi](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/) sayesinde fırsat verilerinize hızla bağlanarak öngörü sahibi olabilirsiniz. Bu içerik; keşfedilecek hazır bir pano, raporlar ve veri kümesinin yanı sıra tarihe göre toplam kazanılan fırsat sayısı gibi ayrıntılar sunmaktadır. Daha fazla bilgi için [buraya](../connect-data/service-connect-to-services.md) bakabilirsiniz. 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/) artık tamamen yönetilebilen bir Spark hizmeti sunuyor. Bu özellik, yinelemeli makine öğrenimi ve etkileşimli veri analizi gibi senaryoları mümkün kılıyor. Power BI, Spark on HDInsight verilerine doğrudan bağlanmanızı sağlayarak basit ve canlı veri keşfetme olanağı sunuyor. Daha fazla bilgi için [yardım belgemizi](../connect-data/power-bi-data-sources.md) inceleyin.
-* [Office 365 gezinti ve uygulama başlatıcı tümleştirmesi](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Artık tek tıkla tüm Office 365 uygulamalarınıza gidebilirsiniz.
+* [Microsoft 365 gezinti ve uygulama başlatıcı tümleştirmesi](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). Artık tek tıkla tüm Microsoft 365 uygulamalarınıza gidebilirsiniz.
 * Kullanıcıların bir kutucuğa tıkladığında gideceği [özel bir URL belirtme](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url). Artık kullanıcılarınızın tam olarak hangi sayfaya gideceğini denetleyebilirsiniz: belirli bir rapor, başka bir pano, SSRS raporu veya dış web sitesi. 
 * Power BI'da kullandığınız [depolama alanını görme ve yönetme](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage)
 * [Soru-Cevap'ta görüntülenen görseli ve alanları yapılandırma](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)

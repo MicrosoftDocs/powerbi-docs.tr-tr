@@ -1,37 +1,32 @@
 ---
-title: Power BI Desktop’taki güncelleştirilmiş şeridi kullanma (önizleme)
+title: Power BI Desktop’taki güncelleştirilmiş şeridi kullanma
 description: Power BI Desktop'ta yeni şeritle menüler ve komutlarda kolayca gezinin
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/20/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c406782d8e27cf57a60504c2cf05a5079e3580ce
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349207"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793969"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop’taki güncelleştirilmiş şeridi kullanma
 
-Mart 2020 güncelleştirmesiyle, Power BI Desktop görünümünü Microsoft Office gibi diğer Microsoft ürünleriyle daha uyumlu hale getirmek için şeridini düzeltiyor. Güncelleştirilmiş şerit, Kasım 2019’dan itibaren aylık güncelleştirmelerde bir önizleme özelliği olarak görüntülenir ve Mart 2020 güncelleştirmesinden itibaren yeni şerit varsayılan deneyimdir.
+Power BI Desktop görünümünü Microsoft Office gibi diğer Microsoft ürünleriyle daha uyumlu hale getirmek için şeridini düzeltti.
 
 ![Power BI Desktop'ta yeni şerit](media/desktop-ribbon/desktop-ribbon-02.png)
 
 ## <a name="how-to-enable-the-updated-ribbon"></a>Güncelleştirilmiş şeridi etkinleştirme
 
-Mart 2020 güncelleştirmesinden itibaren, güncelleştirilmiş şerit varsayılan olarak etkin olur. Bundan önceki (Kasım 2019 güncelleştirmesinden itibaren) Power BI Desktop sürümlerinde, Power BI’daki güncelleştirilmiş şerit bir önizleme özelliği olup etkinleştirilmelidir. Önceki güncelleştirmelerde bunu etkinleştirmek için **Dosya > Seçenekler ve ayarlar > Seçenekler**’i ve ardından sol sütundan **Önizleme özellikleri**’ni seçin. Sağ bölmede bir **Güncelleştirilmiş şerit** seçimi vardır. Önizleme özelliğini etkinleştirmek için **Güncelleştirilmiş şerit**'in yanındaki kutuyu işaretleyin. Önizleme özelliğinin geçerlilik kazanması için Power BI Desktop'ı yeniden başlatmanız gerekir.
+Güncelleştirilmiş şerit Power BI Desktop’ın Mayıs 2020 sürümünden başlayarak genel kullanıma sunuldu. Mart 2020 güncelleştirmesinden itibaren, güncelleştirilmiş şerit varsayılan olarak etkin olur. 
 
-![Power BI Desktop için güncelleştirilmiş şerit seçeneği](media/desktop-ribbon/desktop-ribbon-01.png)
-
-> [!NOTE]
-> Mart 2020’den itibaren yeni şerit varsayılan deneyim olduğundan, Mart 2020’den itibaren Power BI Desktop sürümlerinde güncelleştirilmiş şeridin etkinleştirilmesi gerekmez.
-
-## <a name="features-of-the-new-ribbon"></a>Yeni şeridin özellikleri
+## <a name="features-of-the-updated-ribbon"></a>Güncelleştirilmiş şeridin özellikleri
 
 Şeridi güncelleştirmenin avantajlarında hem Power BI Desktop'ta hem de diğer Microsoft ürünlerinde deneyimi kolay ve tanıdık hale getirmek amaçlanmıştır. 
 
@@ -75,7 +70,7 @@ Bu görünür değişikliklere ek olarak, güncelleştirilmiş şerit Power BI D
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
-* [Power BI Desktop'taki veri kaynakları](../connect-data/desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](../connect-data/desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](../connect-data/desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](../connect-data/desktop-enter-data-directly-into-desktop.md)   

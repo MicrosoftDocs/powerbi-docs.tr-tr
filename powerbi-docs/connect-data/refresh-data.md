@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 50d0cb1d31a6ec20db69c1b06aaf64f3eed727a2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310016"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121039"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -107,10 +107,12 @@ Veri kümelerinizi ve raporlarınızı bir Power BI Desktop dosyasını, Excel �
 
 Power BI’ın, veri kaynağındaki verileri bir veri kümesine aktardığı veri kümesi yenileme işleminin aksine, OneDrive yenilemesi esnasında veri kümeleri ve raporlar kendi kaynak dosyalarıyla eşitlenir. Power BI, OneDrive veya SharePoint Online’daki bir dosyaya bağlı veri kümesinin eşitleme gerektirip gerektirmediğini varsayılan olarak yaklaşık saatte bir denetler.
 
-> [!IMPORTANT]
-> OneDrive’da dosya yönetimini nasıl yapacağınız konusunda dikkatli olun. Veri kaynağı olarak bir OneDrive dosyası ayarladığınızda, Power BI yenileme işlemi gerçekleştirdiğinde dosyanın öğe kimliğine başvurur ve bu da bazı senaryolarda sorunlara yol açabilir. Ana dosyanızın _A_, bu dosyanın üretim kopyasının _B_ olduğu ve OneDrive’ı B dosyasını yenileyecek şekilde yapılandırdığınız bir senaryo düşünün. A dosyasını B dosyası üzerine _kopyalarsanız_ bu işlem eski B dosyasını silip farklı bir öğe kimliğiyle yeni bir B dosyası oluşturur, bu da OneDrive’ın yenileme işlemini bozar. Bunun yerine B dosyasını karşıya yükleyip değiştirebilirsiniz. Bu işlem aynı öğe kimliğini korur.
+Power BI, OneDrive’daki öğe kimliği temelinde yenileme yapar, dolayısıyla değiştirme yerine güncelleştirmeyi tercih ederken dikkatli olun. Veri kaynağı olarak bir OneDrive dosyası ayarladığınızda, Power BI yenileme işlemi gerçekleştirdiğinde dosyanın öğe kimliğine başvurur. Şu senaryoyu düşünün: Ana dosyanız _A_, bu dosyanın üretim kopyası _B_ olsun ve OneDrive’ı B dosyasını yenileyecek şekilde yapılandırdınız. A dosyasını B dosyası üzerine _kopyalarsanız_ bu işlem eski B dosyasını silip farklı bir öğe kimliğiyle yeni bir B dosyası oluşturur, bu da OneDrive’ın yenileme işlemini bozar. Bu durumu önlemek için aynı öğe kimliğini koruyan B dosyasını karşıya yükleyebilir ve diğerinin yerine koyabilirsiniz.
 
-Dosyayı sürükleyip bırakarak başka bir konuma taşıyabilirsiniz. Bu durumda PBI dosya kimliğini biliyor olduğundan yenileme işlemi devam eder. Ancak, bu dosyayı başka bir konuma kopyalarsanız dosyanın yeni bir örneği ve yeni bir dosya kimliği oluşturulur. Dolayısıyla, Power BI dosya başvurunuz artık geçerli olmaz ve yenileme işlemi başarısız olur.
+Dosyayı sürükleyip bırakarak başka bir konuma taşıyabilirsiniz. Bu durumda Power BI dosya kimliğini biliyor olduğundan yenileme işlemi devam eder. Ancak, bu dosyayı başka bir konuma kopyalarsanız dosyanın yeni bir örneği ve yeni bir dosya kimliği oluşturulur. Dolayısıyla, Power BI dosya başvurunuz artık geçerli olmaz ve yenileme işlemi başarısız olur.
+
+> [!NOTE]
+> Yerel makinenizde eşitleme işlemi tamamlandıktan ve Power BI hizmetinde *Şimdi yenile*’yi kullandıktan sonra bile, Power BI’ın veri kümesini yenilemesi 10 dakika kadar sürebilir.
 
 Geçmiş eşitleme döngülerini incelemek için yenileme geçmişindeki OneDrive sekmesini denetleyin. Aşağıdaki ekran görüntüsü örnek bir veri kümesinin tamamlanan eşitleme döngüsünü gösterir.
 
