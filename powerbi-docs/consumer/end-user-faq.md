@@ -8,13 +8,14 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b1dd04c84487b1da50c261043e7ccece397998b7
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793691"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160192"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 

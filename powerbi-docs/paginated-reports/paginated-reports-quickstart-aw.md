@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "83565661"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme

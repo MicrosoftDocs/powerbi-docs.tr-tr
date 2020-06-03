@@ -9,10 +9,10 @@ ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "83564461"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?

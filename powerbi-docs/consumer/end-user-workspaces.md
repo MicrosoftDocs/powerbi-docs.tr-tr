@@ -8,13 +8,14 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: a255ae90bd9ba429937582b0d11ccfb8944aecc4
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: a6b67ee29e6756d240f9b5decb7efe02a627a475
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121148"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84160238"
 ---
 # <a name="collaborate-in-workspaces"></a>Çalışma alanında işbirliği yapma
 

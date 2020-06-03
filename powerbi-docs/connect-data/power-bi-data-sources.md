@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/10/2020
+ms.date: 06/01/2020
 ms.author: kfollis
-ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438097"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273403"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -31,7 +31,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Amazon Redshift | Evet | Evet | Evet | Evet | Hayır |
 | appFigures | Evet | Evet | Hayır | Hayır | Hayır |
 | AtScale küpleri | Evet | Evet | Evet | Evet | Hayır |
-| Azure Analysis Services | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
+| Azure Analysis Services | Evet | Evet | Evet | Hayır | Hayır |
 | Azure Blob Depolama Alanı | Evet | Evet | Hayır | Evet | Hayır |
 | Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |

@@ -11,10 +11,10 @@ ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
 ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "83277905"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği

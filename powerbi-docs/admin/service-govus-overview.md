@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792900"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159709"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 Bu makale Microsoft 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -97,7 +98,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |Veri yönetimi|Veri yönetimi ağ geçidi|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Azure SQL Veritabanı'nda veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Power BI için Blob Depolama’da veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|Ürünler arası tümleştirme|Power BI web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|Ürünler arası tümleştirme|Power BI web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılabilir|Kullanılamaz|Kullanılamaz|
 |  |Embed web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Veri akışları ve yapay zeka işlevleri|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Veri odaklı uyarılar için Power Automate bağlantısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|

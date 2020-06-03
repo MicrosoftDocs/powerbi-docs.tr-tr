@@ -8,13 +8,14 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/19/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120264"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160169"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 
