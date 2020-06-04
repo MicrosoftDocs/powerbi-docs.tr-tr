@@ -19,7 +19,7 @@ ms.locfileid: "83149248"
 
 **Power BI Embedded için Multi-Geo desteği**, uygulamalarına analiz özelliklerini ekleme amacıyla Power BI Embedded hizmetini kullanarak uygulama derleyen ISV'lerin ve kuruluşların artık verilerini dünya üzerindeki farklı bölgelere dağıtabileceği anlamına gelir.
 
-Artık **Power BI Embedded** kullanan müşteriler **Power BI Premium'un Multi-Geo kullanımı konusunda** desteklediği özelliklerden ve sınırlamalara tabi olarak **Multi-Geo** seçeneklerini kullanan bir [A kapasite](../../admin/service-admin-premium-Multi-Geo.md) ayarlayabilir.
+Artık **Power BI Embedded** kullanan müşteriler [Power BI Premium'un Multi-Geo kullanımı konusunda](../../admin/service-admin-premium-Multi-Geo.md) desteklediği özelliklerden ve sınırlamalara tabi olarak **Multi-Geo** seçeneklerini kullanan bir **A kapasite** ayarlayabilir.
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>Multi-Geo ile yeni Power BI Embedded Kapasitesi kaynağı oluşturma
 

@@ -7,23 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565730"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316098"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
 Mobil raporları veya KPI’leri görüntülemek için, OAuth kullanarak Power BI Rapor Sunucusu ve Reporting Services’e bağlanabilirsiniz. Power BI Rapor Sunucusu ve SQL Server Reporting Services 2016 veya sonraki bir sürüme bağlanmak için ortamınızı Power BI mobil uygulaması ile OAuth kimlik doğrulamasını destekleyecek şekilde yapılandırmayı öğrenin.
-
-Adam’ın OAuth kullanarak Power BI Mobil’i SSRS’ye bağlamasını izleyin:
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
 
 > [!NOTE]
 > WAP kullanarak Power BI Rapor Sunucusu'nda barındırılan Power BI Raporlarını görüntüleme işlemi artık iOS ve Android uygulamalarında desteklenmektedir.
@@ -94,7 +88,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
 
    ![ADFS Uygulama Grubu Sihirbazı 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. **İleri**'yi seçin.
+3. **İleri**’yi seçin.
 
 4. Eklediğiniz uygulama için bir **ad** girin. 
 
@@ -112,7 +106,7 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    urn:ietf:wg:oauth:2.0:oob
 
    ![ADFS Uygulama Grubu Sihirbazı 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. **İleri**'yi seçin.
+7. **İleri**’yi seçin.
 
 8. Rapor Sunucunuzun URL'sini sağlayın. URL, Web Uygulaması Ara Sunucunuza yönelik dış URL'dir. Aşağıdaki biçimde olmalıdır.
 
@@ -122,17 +116,17 @@ Uygulama grubunu, aşağıdaki adımları uygulayarak oluşturabilirsiniz.
    *https://< rapor sunucusu url’si >/*
 
    ![ADFS Uygulama Grubu Sihirbazı 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. **İleri**'yi seçin.
+9. **İleri**’yi seçin.
 
 10. Kuruluşunuzun gereksinimlerine uyan **Erişim Denetimi İlkesi**'ni seçin.
 
     ![ADFS Uygulama Grubu Sihirbazı 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. **İleri**'yi seçin.
+11. **İleri**’yi seçin.
 
-12. **İleri**'yi seçin.
+12. **Sonraki** seçeneğini belirleyin.
 
-13. **İleri**'yi seçin.
+13. **İleri**’yi seçin.
 
 14. **Kapat**'ı seçin.
 
@@ -195,7 +189,7 @@ Report Access Management Console'dan (Rapor Erişimi Yönetim Konsolu) uygulama 
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| Parametre | Açıklamalar |
+| Parametre | Yorumlar |
 | --- | --- |
 | **ADFSRelyingPartyName** |ADFS'de Uygulama Grubu'nun parçası olarak oluşturduğunuz WEB API'si adı. |
 | **ExternalCertificateThumbprint** |Dış kullanıcılar için kullanılacak sertifika. Sertifikanın mobil cihazlarda geçerli olması ve güvenilir bir sertifika yetkilisi tarafından verilmiş olması önemlidir. |
@@ -232,11 +226,11 @@ Power BI mobil uygulamasında Reporting Services örneğinize bağlanmak istiyor
 
 **Oturum aç**'ı seçtikten sonra Reporting Services sunucunuzdaki öğeleri görürsünüz.
 
-## <a name="multi-factor-authentication"></a>Multi-factor authentication
+## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 
 Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğrulamasını etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
-## <a name="troubleshooting"></a>Sorun Giderme
+## <a name="troubleshooting"></a>Sorun giderme
 
 ### <a name="you-receive-the-error-failed-to-login-to-ssrs-server"></a>"SSRS sunucusunda oturum açılamadı" hatasını alıyorsunuz
 
@@ -254,5 +248,5 @@ Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulama
 [Active Directory Federation Services (Active Directory Federasyon Hizmetleri)](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 ve Azure MFA’yı yapılandırma](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

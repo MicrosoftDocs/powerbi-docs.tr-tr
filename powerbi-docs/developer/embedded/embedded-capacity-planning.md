@@ -27,7 +27,7 @@ Kapasitenizi planlarken dikkate alınacak noktalardan bazıları şunlardır:
 * Veri yenileme hızları
 * Tahmin edilmesi zor olan ek kullanım desenleri.
 
-Bu makale Power BI tümleşik analizi kapasitelerinde ([A](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), *EM* veya *P* SKU’ları) otomatik yük testi yapmak için oluşturulan *Power BI Ayrılmış Kapasite Yük Değerlendirmesi Aracı*’nı kullanarak Power BI tümleşik analizi kapasite planlamasını kolaylaştırmak için tasarlanmıştır.
+Bu makale Power BI tümleşik analizi kapasitelerinde (*A*, *EM* veya *P* SKU’ları) otomatik yük testi yapmak için oluşturulan [Power BI Ayrılmış Kapasite Yük Değerlendirmesi Aracı](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)’nı kullanarak Power BI tümleşik analizi kapasite planlamasını kolaylaştırmak için tasarlanmıştır.
 
 ## <a name="planning-tool"></a>Planlama aracı
 
@@ -51,7 +51,7 @@ Burada planlama aracını nasıl kullanabileceğinizi gösteren bazı örnekler 
 
 Test çalıştırıldıktan sonra ölçümler uygulamasında yük testinin etkilerini görmek için aşağıdaki yönergeleri izleyin. Testin yük oluşturmaya başlamasıyla bu yükün ölçümlerde görünür duruma gelmesi arasında 15 dakika kadar bir bekleme süresi olmasını bekleyebilirsiniz.
 
-1. **Ölçümler uygulaması** giriş sayfanızın [Veri Kümeleri](../../admin/service-admin-premium-monitor-capacity.md) sekmesini genişletin.
+1. [Ölçümler uygulaması](../../admin/service-admin-premium-monitor-capacity.md) giriş sayfanızın **Veri Kümeleri** sekmesini genişletin.
 2. **Şimdi yenile**’ye tıklayarak isteğe bağlı bir yenileme başlatın. Yöneticiler bunu yapabilmelidir.
 
     ![Power BI premium kapasite ölçümleri](media/embedded-capacity-planning/embedded-capacity-planning.png)

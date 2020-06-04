@@ -43,7 +43,7 @@ Güvenlik rollerini tanımlamak için şu adımları izleyin.
    >
    >
    
-8. **Kaydet**’i seçin.
+8. **Kaydet**'i seçin.
 
 Power BI Desktop'ta kullanıcıları bir role atayamazsınız. Onları Power BI hizmetinde atarsınız. *username()* veya *userprincipalname()* DAX işlevlerini kullanarak ve ilişkileri doğru şekilde yapılandırarak Power BI Desktop'ta dinamik güvenliği etkinleştirebilirsiniz. 
 

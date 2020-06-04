@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5d0ca90bc352e88f08e18d2bd2a9e4fd9860cbc5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144728"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273012"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -106,7 +106,6 @@ Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU�
 * Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-principal.md) kullanılarak .pdf veya .pptx dosyasına aktarılamaz.
 * Dışarı aktara eklenebilecek sayfa sayısı 30’dur. Raporda daha fazla sayfa varsa API hata döndürür ve dışarı aktarma işi iptal edilir.
 * [Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
-* Bağımsız bulutlar desteklenmiyor.
 * Aşağıdaki Power BI görselleri desteklenmez. Bu görselleri içeren bir rapor dışarı aktarıldığında, raporda bu görsellerin bulunduğu bölümler işlenmez ve bir hata simgesi görüntülenir.
     * Sertifikasız Power BI görselleri
     * R görselleri
@@ -144,14 +143,17 @@ private async Task<string> PostExportRequest(
         },
         // Note that page names differ from the page display names.
         // To get the page names use the GetPages API.
-        Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        Pages = pageNames?.Select(pn => new ExportReportPage(pageName = pn)).ToList(),
     };
     var exportRequest = new ExportReportRequest
     {
         Format = format,
         PowerBIReportConfiguration = powerBIReportExportConfiguration,
     };
+
+    // The 'Client' object is an instance of the Power BI .NET SDK
     var export = await Client.Reports.ExportToFileInGroupAsync(groupId, reportId, exportRequest);
+
     // Save the export ID, you'll need it for polling and getting the exported file
     return export.Id;
 }
@@ -179,8 +181,11 @@ private async Task<Export> PollExportRequest(
             // Error handling for timeout and cancellations 
             return null;
         }
+
+        // The 'Client' object is an instance of the Power BI .NET SDK
         var httpMessage = await Client.Reports.GetExportToFileStatusInGroupWithHttpMessagesAsync(groupId, reportId, exportId);
         exportStatus = httpMessage.Body;
+
         // You can track the export progress using the PercentComplete that's part of the response
         SomeTextBox.Text = string.Format("{0} (Percent Complete : {1}%)", exportStatus.Status.ToString(), exportStatus.PercentComplete);
         if (exportStatus.Status == ExportState.Running || exportStatus.Status == ExportState.NotStarted)
@@ -210,6 +215,7 @@ private async Task<ExportedFile> GetExportedFile(
 {
     if (export.Status == ExportState.Succeeded)
     {
+        // The 'Client' object is an instance of the Power BI .NET SDK
         var fileStream = await Client.Reports.GetFileOfExportToFileAsync(groupId, reportId, export.Id);
         return new ExportedFile
         {

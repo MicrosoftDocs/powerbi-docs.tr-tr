@@ -38,8 +38,6 @@
           href: azure-pbie-diag-logs.md
         - name: Ekleme hakkında SSS
           href: embedded-faq.md
-        - name: Power BI izinleri
-          href: power-bi-permissions.md
     - name: Nasıl yapılır
       items:
         - name: Sertifika ile hizmet sorumlusu kullanarak ekleme

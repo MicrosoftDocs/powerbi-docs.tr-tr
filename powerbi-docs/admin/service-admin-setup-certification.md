@@ -35,7 +35,7 @@ Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *o
    ![Veri kümesi ve veri akışı sertifikası ayarlama](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. İki durumlu düğmeyi **Etkinleştirildi** olarak ayarlayın.
-1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL **veri akışı onay ayarları iletişim kutusunun** onaylama bölümünde [Daha fazla bilgi edinin](../connect-data/service-datasets-promote.md#request-dataset-certification) bağlantısına dönüşür. 
+1. Veri kümesi onaylama işlemi için, kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayabilirsiniz. Bu URL [veri akışı onay ayarları iletişim kutusunun](../connect-data/service-datasets-promote.md#request-dataset-certification) onaylama bölümünde **Daha fazla bilgi edinin** bağlantısına dönüşür. 
 1. Veri kümelerini ve veri akışlarını onaylama yetkisi olacak kullanıcıları ve grupları belirtin. Bu yetkili onaylayıcılar [veri kümesi](../connect-data/service-datasets-promote.md#request-dataset-certification) veya [veri akışı](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) onay ayarları iletişim kutusunun onaylama bölümündeki Onaylama düğmesini kullanabilir.
 1. **Uygula**'ya tıklayın.
 
@@ -44,4 +44,4 @@ Veri kümesi ve veri akışı onaylama işlemi, veri kümesi ve veri akışı *o
 * [Veri kümelerini onaylama](../connect-data/service-datasets-certify.md)
 * [Veri akışlarını yükseltme](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [Veri akışlarını onaylama](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

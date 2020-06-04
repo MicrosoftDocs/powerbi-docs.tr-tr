@@ -52,7 +52,7 @@ Burada ilişkili içerik üzerinde doğrudan işlem yapabilirsiniz.  Örneğin, 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>Bir veri kümesinin ilişkili içeriğini görüntüleme
-*İlişkili içerik* bölmesini açmak için en azından bir veri kümesini **görüntüleme** izinleriniz olmalıdır. Bu örnekte [Tedarik Analizi örneğini](../create-reports/sample-procurement.md) kullanıyoruz.
+**İlişkili içerik** bölmesini açmak için en azından bir veri kümesini *görüntüleme* izinleriniz olmalıdır. Bu örnekte [Tedarik Analizi örneğini](../create-reports/sample-procurement.md) kullanıyoruz.
 
 Gezinti bölmesinden **Çalışma Alanları** başlığını bulun ve listeden bir çalışma alanı seçin. Bir çalışma alanında içeriğiniz varsa sağdaki tuvalde görüntülenir. 
 

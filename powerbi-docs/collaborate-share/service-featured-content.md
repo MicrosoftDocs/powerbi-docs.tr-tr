@@ -46,7 +46,7 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Öne çıkan içerik ayarları":::
 
-4. **Kaydet**’i seçin.
+4. **Kaydet**'i seçin.
 
     Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
@@ -60,4 +60,4 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 * [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Yönetici portalında öne çıkan içeriği yönetme](../admin/service-admin-portal.md#manage-featured-content)
-* Sorular? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692735"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315937"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
 [//]: # "suparnap, miwehnia bu listeyi korumaya yönelik ilgili kişilerdir"
@@ -46,14 +46,15 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |
-| 1 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
-| 2 | **Gerekli:** Arka uç API’leri | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **Gerekli:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
-| 4 | **Gerekli:** Microsoft 365 tümleştirmesi | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
-| 5 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
-| 6 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
-| 7 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
-| 8 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
+| 1 | **Gerekli:** Arka uç API’leri | api.powerbi.com | TCP 443 |
+| 2 | **Gerekli:** Arka uç API’leri | *.analysis.windows.net | TCP 443 |
+| 3 | **Gerekli:** Arka uç API’leri | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **Gerekli:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
+| 5 | **Gerekli:** Microsoft 365 tümleştirmesi | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
+| 6 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
+| 7 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
+| 8 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
+| 9 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Yönetim

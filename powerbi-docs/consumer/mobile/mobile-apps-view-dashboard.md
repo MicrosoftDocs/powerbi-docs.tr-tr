@@ -16,7 +16,7 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83349460"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
@@ -156,4 +156,4 @@ Panonun sahibi sizseniz *Power BI hizmetinde* dikey modda telefonlara özel bir 
 * Google Play'den [Android uygulamasını indirme](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI Android uygulamasıyla çalışmaya başlama](mobile-android-app-get-started.md)  
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

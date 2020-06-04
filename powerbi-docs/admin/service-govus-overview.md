@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159709"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336556"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 Bu makale Microsoft 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
@@ -83,12 +83,12 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |Paylaşım ve erişim denetimi için Active Directory gruplarını kullanma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Office 365 Güvenlik ve Uyumluluk yönetim merkezi üzerinden denetim|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Dış kullanıcı paylaşımı|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Raporlar ve panolar için kullanım ölçümleri|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|  |Raporlar ve panolar için kullanım ölçümleri|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |GCC ile ticari bulut arasında Azure B2B|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Sayfalandırılmış raporlar|Kullanılabilir|Yol haritasında|Yol haritasında|
+|  |Sayfalandırılmış raporlar|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Şablon uygulamalar|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |Verilere bağlanma|Excel’den verileri ve raporları içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |CSV dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|

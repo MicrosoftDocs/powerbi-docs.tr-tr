@@ -44,8 +44,8 @@ ms.locfileid: "83277537"
 ### <a name="actions-available-from-the-shared-with-me-container"></a>**Benimle paylaşılan** kapsayıcısından gerçekleştirilebilecek eylemler
 Yapabileceğiniz işlemler, içerik *tasarımcısı* tarafından atanan ayarlara bağlıdır. Bazı seçenekleriniz şunlar olabilir:
 * Yıldız simgesini seçerek [Panoyu veya raporu sık kullanılanlara ekleyebilirsiniz](end-user-favorite.md) ![yıldız simgesi](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png)dokunun.
-* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png)dokunun.
+* Pano veya raporu kaldırma  ![çöp kutusu simgesi](./media/end-user-shared-with-me/power-bi-delete-icon.png).
+* Bazı panolar ve raporlar yeniden paylaşılabilir  ![paylaş simgesi](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Raporu Excel’de açın](end-user-export.md) ![Excel’e aktar simgesi](./media/end-user-shared-with-me/power-bi-excel.png) 
 * Power BI’ın verilerde bulduğu [içgörüleri görüntüleyin](end-user-insights.md)![içgörüler simgesi](./media/end-user-shared-with-me/power-bi-insights.png).
   

@@ -16,14 +16,14 @@ ms.lasthandoff: 05/13/2020
 ms.locfileid: "83349345"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-share-dashboard-from-the-mobile-apps/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-share-dashboard-from-the-mobile-apps/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-share-dashboard-from-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-share-dashboard-from-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi ](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 [Power BI Pro lisansı](../../fundamentals/service-features-license-type.md) ile Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edebilirsiniz. Kuruluşunuzun içindeki veya dışındaki, kurumsal posta hesabına sahip olan ya da olmayan herhangi biriyle paylaşabilirsiniz. Power BI Pro lisansı olmasına sahip olmaları veya içeriğin [Premium kapasitede](../../admin/service-premium-what-is.md) olması gerekmez.
 
@@ -102,4 +102,4 @@ Bir paylaşımı kaldırabilmek için bu paylaşımın sahibi olmanız gerekir.
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Mobil uygulamalarda kutucuklara, raporlara veya görsellere not ekleme ve bunların anlık görüntülerini paylaşma](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [Power BI’da pano veya rapor paylaşma](../../collaborate-share/service-share-dashboards.md)
-* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
