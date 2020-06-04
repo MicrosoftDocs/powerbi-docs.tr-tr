@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121089"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336809"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI'a yönelik teknik incelemeler
 
 Teknik incelemeler, Power BI ile ilgili konuları daha ayrıntılı bir şekilde araştırmanıza olanak sağlar. Power BI için sunulan teknik incelemelerin listesini aşağıda bulabilirsiniz.
 
-| Teknik inceleme | Açıklama | Tarih |
+| Teknik inceleme | Description | Tarih |
 | --- | --- | --- |
-| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://aka.ms/PBIEnterpriseDeploymentWP) |Bu teknik teknik incelemeye, iyi performanslı ve güvenli bir Kurumsal Power BI dağıtımı için önemli noktalar ve en iyi uygulamalar açıklanmaktadır. | Mayıs 2020 |
+| [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama)](https://aka.ms/PBIEnterpriseDeploymentWP) |Bu teknik teknik incelemeye, iyi performanslı ve güvenli bir Kurumsal Power BI dağıtımı için önemli noktalar ve en iyi uygulamalar açıklanmaktadır. | Haziran 2020 |
 | [Power BI ve Veri Akışları](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Bu teknik incelemede veri akışları teknik ayrıntılarıyla açıklanmakta ve veri akışı özellikleri ile işlevlerinin ardındaki yetenekler ve girişimler açıklanmaktadır. | Kasım 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Hem ilk olarak kullanıma sunulduğu haliyle hem de nasıl gelişim göstereceğine yönelik olarak Power BI Premium'u açıklar. | Ekim 2017 |
 | [Power BI Premium Planlama ve Dağıtım](whitepaper-powerbi-premium-deployment.md)| Bu teknik incelemeyi içeren içerik genel kılavuza eklenmiştir. İyi tanımlanmış iş yükleri için Premium kapasiteyi planlamak ve dağıtmak için rehberlik ve en iyi uygulamalar bağlantısına bakın.| Mart 2019 |
