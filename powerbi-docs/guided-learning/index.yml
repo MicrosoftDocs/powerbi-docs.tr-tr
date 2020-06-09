@@ -6,12 +6,12 @@ metadata:
   ms.service: powerbi
   ms.author: davidiseminger
   ms.date: 09/20/2019
-  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: e358b7b78b4c87b500e6d749bee39fcdc9b2fd02
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "74178341"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532615"
 title: Microsoft Power BI Destekli Öğrenme
 summary: Sıralı olarak sunulan bu kursların yardımıyla öğrenme sürecinizi başlatın ve Microsoft Power BI'ın kapsamlı ve güçlü özelliklerini anlayın.
 landingContent:
@@ -29,7 +29,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
     - text: Pano ve rapor bulma ve bunları görüntüleme - 7 dk
       url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
-- title: Power BI ile veri analizi
+- title: Power BI ile verileri çözümleme
   linkLists:
   - linkListType: learn
     links:
@@ -83,7 +83,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
     - text: Veri modellerini iyileştirme - 8 dk
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
-    - text: Hesaplanmış ölçü oluşturma - 15 dk
+    - text: Ölçü oluşturma - 15 dk
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
     - text: Hesaplanmış tablo oluşturma - 4 dk
       url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
