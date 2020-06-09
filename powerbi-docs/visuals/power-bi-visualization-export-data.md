@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813612"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337039"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -154,24 +154,26 @@ Görseldeki verileri ***ve*** veri kümesinden ek verileri görmek istiyorsanız
 
     - Görselleştirmelere filtre uyguladığımızdan, dışarı aktarılan veriler de filtrelenmiş olur. İlk satırda **Uygulanan filtreler: City is not Atlanta, GA** ifadesini görüntülendiğine dikkat edin. 
 
-## <a name="protecting-proprietary-data"></a>Özel verileri koruma
+## <a name="customize-the-export-data-user-experience"></a>Verileri dışarı aktarma kullanıcı deneyimini özelleştirme
 
-Veri kümenizde tüm kullanıcılar tarafından görülmemesi gereken içerik bulunabilir. Dikkat etmezseniz, temel verilerin dışarı aktarılması kullanıcıların söz konusu görsel için tüm ayrıntılı verileri (verilerdeki her sütunu ve her satırı) görmesine yol açabilir. 
+[Satır düzeyi güvenlik (RLS)(../admin/service-admin-rls.md), erişimlerini kısıtlamadığı sürece, bir rapora erişim izni verilen kullanıcılara **temeldeki veri kümesinin tamamına erişim izni verilmiş olur**. Rapor yazarları ve Power BI yöneticileri, kullanıcı deneyimini özelleştirmek için aşağıda açıklanan özellikleri kullanabilir.
 
-Power BI yöneticileri ve tasarımcılarının özel verileri korumak için kullanabileceği çeşitli stratejiler vardır. 
+- Kullanıcılara [hangi *dışarı aktarma*](#set-the-export-options) seçeneklerinin sağlanacağına rapor yazarları karar verir.  
 
-- Kullanıcılara [hangi *dışarı aktarma*](#set-the-export-options) seçeneklerinin sağlanacağına tasarımcılar karar verir.  
-
-- Power BI yöneticileri kuruluşlarında veri dışarı aktarma özelliğini devre dışı bırakabilir. 
+- Power BI yöneticileri, kuruluşlarındaki bazı dışarı aktarma seçeneklerini veya tümünü kapatabilir.  
 
 - Veri kümesi sahipleri satır düzeyi güvenlik (RLS) ayarlayabilir. RLS erişimi salt okuma kullanıcılarıyla kısıtlar. Ama uygulama çalışma alanını yapılandırdıysanız ve üyelerine düzenleme izinleri verdiyseniz, RLS rolleri söz konusu üyeler için geçerli olmaz. Daha fazla bilgi için bkz. [Satır düzeyi güvenlik](../admin/service-admin-rls.md).
 
-- Rapor tasarımcıları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/automation/api-dataset-properties.md)
+- Rapor yazarları sütunları gizleyerek bunların **Alanlar** listesinde gösterilmemesini sağlayabilir. Daha fazla bilgi için bkz. [Veri kümesi özellikleri](../developer/automation/api-dataset-properties.md)
 
-- Power BI yöneticileri panolara, raporlara, veri kümelerine ve veri akışlarına [duyarlılık etiketleri](../admin/service-security-data-protection-overview.md) ekleyebilir. Bu yolla verileri dışarı aktarırken şifreleme veya filigran gibi koruma ayarlarını zorlayabilirler. 
 
-- Power BI yöneticileri [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) kullanarak kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi yapabilir ve etikete özel denetimler belirleyebilir. Örneğin, kuruluşlar kullanıcıların Power BI’daki hassas içerikleri yönetilmeyen cihazlara indirmesini önleyen bir ilke yapılandırmak üzere Microsoft Cloud App Security’yi kullanabilir. 
+**Bu özelleştirilmiş kullanıcı deneyimi, veri kullanıcılarının veri kümesinde erişebileceği öğeleri kısıtlamaz. Her bir kullanıcının kimlik bilgilerinin erişebilecekleri verileri belirlemesini sağlamak için veri kümesinde [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) kullanın.**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>Power BI’ın dışına aktarılırken verileri koruma
+
+- Rapor yazarları, raporlara [duyarlılık etiketleri](../admin/service-security-data-protection-overview.md) uygulayabilir.  Bu etiketler, rapor verilerine erişebilecek kişileri ve verilerin Excel, PowerPoint ve PDF’ye nasıl dışarı aktarılacağını belirler. Bazı duyarlılık etiketlerinde, veriler dışarı aktarıldığında uygulanan koruma ayarları (ör. izinler, şifreleme) yer alır. Duyarlılık etiketinde koruma ayarları yer alıyorsa verileri Excel, PowerPoint ve PDF’ye dışarı aktardığınızda bu ayarlar uygulanır. Yalnızca geçerli izinlere sahip olan kişiler rapor verilerini dışarı aktarabilir, görüntüleyebilir, kaydedebilir ve paylaşabilir. 
+
+- Güvenlik ve Power BI yöneticileri [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) kullanarak kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi yapabilir ve etikete özel denetimler belirleyebilir. Örneğin, kuruluşlar kullanıcıların Power BI’daki hassas içerikleri yönetilmeyen cihazlara indirmesini önleyen bir ilke yapılandırmak üzere Microsoft Cloud App Security’yi kullanabilir.
 
 ## <a name="export-underlying-data-details"></a>Temel alınan veri ayrıntılarını dışarı aktarma
 

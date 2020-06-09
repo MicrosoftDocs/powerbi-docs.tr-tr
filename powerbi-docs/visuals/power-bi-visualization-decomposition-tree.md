@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865580"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337062"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme (önizleme)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ Bu öğreticide iki örnek kullanılır:
 - Şirketin sipariş açığı olan (tükenen sipariş) ürün yüzdesini analiz eden bir tedarik zinciri senaryosu.  
 - Video oyunu satışlarını oyun türü ve yayıncı gibi çeşitli faktörlere göre çözümleyen bir satış senaryosu.
 
+Tedarik zinciri senaryosunda kullanılan pbix dosyasını burada bulabilirsiniz: [Tedarik Zinciri Örneği.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+
 > [!NOTE]
 > Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.    
 
@@ -39,17 +42,21 @@ Bu öğreticide iki örnek kullanılır:
 Görselleştirmeler bölmesinden ayrıştırma ağacı simgesini seçin.
 ![Ayrıştırma ağacı filigranı](media/power-bi-visualization-decomposition-tree/tree-watermark.png)
 
-Görselleştirme için iki tür giriş gerekir.
+Görselleştirme için iki tür giriş gerekir:
 
-**Analiz** – analiz etmek istediğiniz ölçüm. Bu bir ölçüm veya toplam değer olabilir.  
-**Açıklama Ölçütü** – detayına gitmek istediğiniz bir veya birden fazla boyut.
+ - **Analiz** – analiz etmek istediğiniz ölçüm. Bu bir ölçüm veya toplam değer olabilir.  
+ - **Açıklama Ölçütü** – detayına gitmek istediğiniz bir veya birden fazla boyut.
 
-Ölçünüzü bir alana sürüklediğinizde görsel toplam ölçüyü gösterecek şekilde güncelleştirilir. Aşağıdaki örnekte sipariş açığı olan ürünlerin ortalama yüzdesini (%5,07) görselleştiriyoruz ![Ayrıştırma ağacı kök düğümü](media/power-bi-visualization-decomposition-tree/tree-root.png)
+Ölçünüzü bir alana sürüklediğinizde görsel toplam ölçüyü gösterecek şekilde güncelleştirilir. Aşağıdaki örnekte sipariş açığı olan ürünlerin ortalama yüzdesini (%5,07) görselleştiriyoruz.
+
+![Ayrıştırma ağacı kök düğümü](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 Sonraki adım detayına gitmek istediğiniz bir veya birden fazla boyutu getirmektir. Bu alanları **Açıklama ölçütü** demetine ekleyin. Kök düğümünüzün yanında bir artı işareti gösterildiğine dikkat edin. Bu + işaretinin seçilmesi hangi alanda detaya gitmek istediğinizi seçmenize olanak tanır (alanlarda istediğiniz sırada detaya gidebilirsiniz).
+
 ![Ayrıştırma ağacı menüsü](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **Forecast bias** (Tahmin sapması) öğesinin seçilmesi, ağacın genişlemesine ve ölçünün sütundaki değerlere göre ayrılmasına neden olur. Bu işlem detaya gidilecek başka bir düğüm seçilerek tekrarlanabilir.
+
 ![Ayrıştırma ağacı genişletmesi](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 Son düzeyden bir düğüm seçildiğinde verilere çapraz filtre uygulanır. Önceki düzeyden bir düğüm seçildiğinde yol değişir.
@@ -72,10 +79,12 @@ Verilerde bundan sonra nereye bakacağınızı anlamak için “AI Bölmeleri”
 
 Tercihlerinize bağlı olarak analiz iki yönde de çalışabilir. Varsayılan davranış şöyledir:
 
-**Yüksek Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en yüksek değerini elde etmek için hangisinde detaya gidileceğini saptar.  
-**Düşük Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en düşük değerini elde etmek için hangisinde detaya gidileceğini saptar.  
+ - **Yüksek Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en yüksek değerini elde etmek için hangisinde detaya gidileceğini saptar.  
+ - **Düşük Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en düşük değerini elde etmek için hangisinde detaya gidileceğini saptar.  
 
-Sipariş açığı örneğinde **Yüksek Değer** seçildiğinde sonuç aşağıdaki gibi olur: ![Ayrıştırma ağacı AI bölmesi](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+Sipariş açığı örneğinde **Yüksek Değer** seçildiğinde sonuç aşağıdaki gibi olur:
+
+![Ayrıştırma ağacı AI bölmesi](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 **Product Type** öğesinin yanında, bunun ‘AI bölmesi’ olduğunu gösteren bir ampul görüntülenir. Ayrıca ağaç, **Patient Monitoring** (Hasta İzleme) düğümünü öneren bir noktalı çizgi de sağlar çünkü bu düğüm en yüksek sipariş açığı değerini verir (%9,2). 
 
@@ -83,7 +92,9 @@ Araç ipucunu görmek için ampulün üzerine gelin. Bu örnekte araç ipucu ş�
 
 Görseli yapılandırarak **Mutlak** AI bölmeleri yerine **Göreli** AI bölmelerini bulabilirsiniz. 
 
-Göreli modda öne çıkan yüksek değerlere bakılır (sütundaki diğer verilerle karşılaştırıldığında). Bunu göstermek için bir örneğe göz atalım: ![Ayrıştırma ağacı mutlak bölmesi](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+Göreli modda öne çıkan yüksek değerlere bakılır (sütundaki diğer verilerle karşılaştırıldığında). Bunu göstermek için bir örneğe göz atalım:
+
+![Ayrıştırma ağacı mutlak bölmesi](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 Yukarıdaki ekran görüntüsünde video oyunlarının Kuzey Amerika satışlarına bakıyoruz. Ağacı önce **Publisher Name** (Yayıncı Adı) öğesine göre bölüyor ve sonra da Nintendo'da detaya gidiyoruz. **High Value** (Yüksek Değer) seçildiğinde **Platform is Nintendo** genişletmesi elde ediliyor. Nintendo (yayıncı) yalnızca Nintendo konsolları için oyun geliştirdiğinden, tek bir değer var ve kuşkusuz en yüksek değer de bu.
 
@@ -111,9 +122,13 @@ Ağaçta hiçbir AI bölmesi kullanmamayı tercih ederseniz, bunları **Analiz b
 
 ## <a name="tree-interactions-with-ai-splits"></a>AI bölmeleriyle ağaç etkileşimleri
 
-Birbirini izleyen birden çok AI düzeyiniz olabilir. Ayrıca farklı türlerdeki AI düzeylerini karma kullanabilirsiniz (Yüksek Değerden (High Value) Düşük Değere (Low Value) ve sonra yine Yüksek Değere gitme): ![Ayrıştırma ağacı birden çok AI yolu](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+Birbirini izleyen birden çok AI düzeyiniz olabilir. Ayrıca farklı türlerdeki AI düzeylerini karma kullanabilirsiniz (Yüksek Değerden (High Value) Düşük Değere (Low Value) ve sonra yine Yüksek Değere gitme):
 
-Ağaçta farklı bir düğüm seçerseniz AI Bölmeleri sıfırdan yeniden hesaplanır. Aşağıdaki örnekte **Forecast Bias** düzeyinde seçilen düğümü değiştirdik. İzleyen düzeyler doğru Yüksek ve Düşük Değerleri ortaya koyacak şekilde değişir ![Ayrıştırma ağacı AI etkileşimleri](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![Ayrıştırma ağacı birden çok AI yolu](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+Ağaçta farklı bir düğüm seçerseniz AI Bölmeleri sıfırdan yeniden hesaplanır. Aşağıdaki örnekte **Forecast Bias** düzeyinde seçilen düğümü değiştirdik. İzleyen düzeyler doğru Yüksek ve Düşük Değerleri ortaya koyacak şekilde değişir.
+
+![Ayrıştırma ağacı AI etkileşimleri](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 Ayrıştırma ağacına başka bir görselle çapraz filtreleme uyguladığınızda da AI düzeyleri yeniden hesaplanır. Aşağıdaki örnekte, Plant #0477'de sipariş açığı yüzdemizin en yüksek düzeyde olduğunu görebiliriz.
 
@@ -144,15 +159,11 @@ Ayrıştırma ağacı aşağıdaki senaryolarda desteklenmez:
 
 AI bölmeleri aşağıdaki senaryolarda desteklenmez:  
 -   Azure Analysis Services
--   Doğrudan Sorgu
 -   Power BI Rapor Sunucusu
 -   Web'de yayımla
 -   'Analiz'de karmaşık ölçüler ve uzantı şemalarından ölçüler
 
-Diğer önizleme sınırlamaları:
-- Power BI Mobil  
-- Panoya sabitleme
-- Verileri Göster işlevselliği
+Diğer sınırlamalar:
 - Soru-Cevap içinde destek
 
 ## <a name="next-steps"></a>Sonraki adımlar

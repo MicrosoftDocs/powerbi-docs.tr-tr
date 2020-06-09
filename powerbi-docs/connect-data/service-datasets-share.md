@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4082647338adcca8518cc4d9c3a3b88cc3e04f4f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6e45113662117d5c6c793211644c4895f666a40
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794082"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273357"
 ---
 # <a name="share-a-dataset"></a>Veri kümesini paylaşma
 
@@ -28,7 +28,7 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 
 1. .pbix dosyasını Power BI hizmetindeki [yeni bir çalışma alanı deneyiminde](../collaborate-share/service-create-the-new-workspaces.md) yayımlayın.
     
-    Bu çalışma alanının diğer üyeleri, zaten bu veri kümesini temel alarak diğer çalışma alanlarında rapor oluşturabiliyor.
+    Bu çalışma alanının diğer üyeleri, zaten bu veri kümesini temel alarak diğer çalışma alanlarında rapor oluşturabiliyor. Veri kümesine erişmeleri amacıyla daha fazla kullanıcıya erişim vermek için çalışma alanındaki veri kümesinde İzinleri Yönet seçeneğini kullanın. 
 
 1. Ayrıca, bu çalışma alanından [bir uygulama yayımlayabilirsiniz](../collaborate-share/service-create-distribute-apps.md). Bunu yaptığınızda, kimlerin izinleri olduğunu ve neler yapabileceklerini **İzinler** sayfasından siz belirlersiniz.
 
@@ -50,6 +50,11 @@ Power BI Desktop’ta *veri modeli* oluşturucusu olarak Power BI hizmetinde da�
 1. **İlgili içerik** iletişim kutusu tüm ilgili öğeleri gösterir. Bu çalışma alanı ve **Diğer çalışma alanlarındaki** ilgili öğeleri bu listede görürsünüz.
  
     ![İlgili içerik iletişim kutusu](media/service-datasets-build-permissions/power-bi-dataset-related-workspaces.png)
+
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+Veri kümelerini paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
+
+* İzinleri yöneterek, rapor veya panoları paylaşarak ya da uygulama yayımlayarak bir veri kümesi paylaştığınızda, [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) tarafından erişimleri sınırlanmadığı sürece tüm veri kümesine erişim vermiş olursunuz. Rapor yazarları, raporları görüntüleyip bunlarla etkileşim kurarken sütunları gizleme, görsellerdeki eylemleri sınırlandırma ve diğerleri gibi kullanıcı deneyimini özelleştiren özellikleri kullanabilir. Bu özelleştirilmiş kullanıcı deneyimi, veri kullanıcılarının veri kümesinde erişebileceği öğeleri kısıtlamaz. Her bir kullanıcının kimlik bilgilerinin erişebilecekleri verileri belirlemesini sağlamak için veri kümesinde [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) kullanın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

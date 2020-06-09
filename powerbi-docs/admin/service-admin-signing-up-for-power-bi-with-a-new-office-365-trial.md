@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812232"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159870"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
-Bu makalede, bir iş veya okul e-posta adresiniz yoksa Power BI’a kaydolmaya yönelik alternatif bir yol açıklanmaktadır.
+Bu makalede, bir iş veya okul e-posta adresiniz yoksa Power BI hizmetine kaydolmaya yönelik alternatif bir yol açıklanmaktadır.
 
 Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncelikle bunun [Power BI ile kullanılabilecek bir e-posta adresi](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses) olduğundan emin olun. Bu işe yaramazsa Microsoft 365 deneme sürümüne kaydolup bir iş hesabı oluşturun. Daha sonra, Power BI hizmetine kaydolmak için bu yeni iş hesabını kullanın. Microsoft 365 deneme sürümünün süresi dolsa bile Power BI’ı kullanmaya devam edebilirsiniz.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office’in Microsoft 365 denemesine kaydolma
+
 [Microsoft 365 web sitesinden](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) Microsoft 365 deneme sürümüne kaydolun. Henüz bir hesabınız yoksa Microsoft hesap oluşturma adımlarında size yol gösterir. Ticari e-posta hesapları (Hotmail ve Gmail gibi) Microsoft 365’le kullanılamadığından, kullanılabilen yeni bir hesap oluşturursunuz.  E-posta hesabı şuna benzer olacaktır: *zalan@onmicrosoft.com* .
 
 ![Ücretsiz deneyin'i seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

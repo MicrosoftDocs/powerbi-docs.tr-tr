@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279768"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273911"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Kiracı yöneticisi ayarları rehberi
 
@@ -29,7 +29,7 @@ Makalede, Power BI deneyimini geliştirmeye yardımcı olan veya kuruluşunuzu r
 
 [Microsoft Teams](/microsoftteams) veya farklı bir işbirliği platformunu kullanarak Power BI ile ilgili iç siteler oluşturmanızı öneririz. Bu siteler, eğitim belgelerini depolamak, tartışma düzenlemek, lisans isteğinde bulunmak veya yardım isteklerine yanıt vermek için kullanılabilir.
 
-Bunu yapacaksanız, **tüm kuruluş için** _“Yardım Alın” bilgilerini yayımla_ ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Şunlar için URL ayarlayabilirsiniz:
+Bunu yapacaksanız, _tüm kuruluş için_ **“Yardım Alın” bilgilerini yayımla** ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Şunlar için URL ayarlayabilirsiniz:
 
 - Eğitim belgeleriniz
 - Tartışma forumunuz
@@ -44,12 +44,12 @@ Bu URL’ler, Power BI yardım menüsünde bağlantı olarak kullanıma sunulur.
 ![“‘Yardım alın’ bilgilerini yayımla” ayarı gösterilir.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Riski yönetin
-
+Riskleri yönetme ayarları, Power BI kiracınızda idare ilkeleri oluşturmanıza yardımcı olabilir. Ancak, idare ayarlarının bir güvenlik ölçümü olmadığını unutmayın. Örneğin, **Verileri dışarı aktar** ayarını devre dışı bırakmak, özelliği Power BI kullanıcı arabiriminden kaldırır ve bu şekilde Power BI kullanıcılarının kuruluşunuzun idare ilkeleriyle uyumlu bir şekilde çalışmasına yardımcı olur, ancak belirli kullanıcıların diğer seçenekleri kullanarak dışarı veri aktarmalarını önlemez. Güvenlik açısından, bir veri kümesine ilişkin okuma iznine sahip bir Power BI kullanıcısı bu veri kümesini sorgulama iznine sahiptir ve Power BI kullanıcı arabiriminde kullanılabilir özelliklerden bağımsız olarak sonuçları kalıcı hale getirebilir.
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder
 
 Kiracınız hizmet kesintisinden veya olaydan etkileniyorsa e-posta yoluyla bildirim alabilirsiniz. Böylece, olaylara proaktif olarak yanıt verebilirsiniz.
 
-**Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder** ayarını etkinleştirmenizi öneririz. Bu ayar, **Yardım ve destek ayarları** grubunda bulunur. Bir veya daha fazla _Posta etkin_ güvenlik grubu atayın.
+**Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder** ayarını etkinleştirmenizi öneririz. Bu ayar **Yardım ve destek ayarları** grubunda bulunur. Bir veya daha fazla _Posta etkin_ güvenlik grubu atayın.
 
 ![“Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder” ayarı gösterilir.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
@@ -90,7 +90,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara dış kul
 
 [Web’de yayımla](../collaborate-share/service-publish-to-web.md) özelliği, genel raporların Web’de yayımlanmasına olanak tanır. Uygun şekilde kullanılmazsa, gizli bilgilerin Web’de canlı olarak kullanılabilir hale gelme riski vardır.
 
-**Web’de yayımla** ayarı, tüm kuruluş için varsayılan olarak etkindir. Ancak, yönetici olmayan kullanıcıların ekleme kodu oluşturma özellikleri kısıtlanır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Web’de yayımla** ayarı, tüm kuruluş için varsayılan olarak etkindir. Ancak, yönetici olmayan kullanıcıların ekleme kodu oluşturma özellikleri kısıtlanır. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Bu özellik etkinse, bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -100,11 +100,11 @@ Ayrıca, ekleme kodlarınızın nasıl çalışacağını belirleme seçeneği d
 
 [Web’de yayımla ekleme kodlarını](https://app.powerbi.com/admin-portal/embedCodes) düzenli olarak gözden geçirmenizi de öneririz. Özel veya gizli bilgilerin yayımlanması durumunda, buna sebep olan kodları kaldırın.
 
-### <a name="export-data"></a>Verileri dışarı aktarma
+### <a name="export-data"></a>Verileri dışarı aktar
 
 Kullanıcıların pano kutucuklarından veya rapor görsellerinden verileri dışarı aktarmalarını kısıtlayabilirsiniz.
 
-**Verileri dışarı aktar** ayarı tüm kuruluş için varsayılan olarak etkindir. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Verileri dışarı aktar** ayarı tüm kuruluş için varsayılan olarak etkindir. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -120,7 +120,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yay
 
 Dış kullanıcılar Power BI içeriğini düzenleyebilir ve yönetebilir. Daha fazla bilgi için bkz. [Azure AD B2B ile Power BI içeriğini dış konuk kullanıcılara dağıtma](../admin/service-admin-azure-ad-b2b.md).
 
-**Dış konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver** ayarı tüm kuruluş için varsayılan olarak devre dışıdır. Bu ayar, **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
+**Dış konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver** ayarı tüm kuruluş için varsayılan olarak devre dışıdır. **Dışarı aktarma ve paylaşım ayarları** grubunda bulunur.
 
 Dış kullanıcılara içerik düzenleme ve yönetme yetkisi vermeniz gerekiyorsa, bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
@@ -143,6 +143,6 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI yönetimi nedir?](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [Yönetim portalında Power BI’ı yönetme](../admin/service-admin-portal.md)
-- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
 

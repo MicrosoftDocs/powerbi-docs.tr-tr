@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733496"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273472"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop'tan veri kümesi ve rapor yayımlama
 Power BI Desktop dosyasını Power BI hizmetine yayımladığınızda, modeldeki verileri Power BI çalışma alanınızda yayımlarsınız. Aynı durum **Rapor** görünümünde oluşturduğunuz raporlar için de geçerlidir. Çalışma Alanı gezgininizde tüm raporları ve aynı adda yeni bir veri kümesi görürsünüz.
@@ -23,13 +23,12 @@ Power BI Desktop'tan yayımlamak ile Power BI Desktop dosyasına bağlanmak ve b
 
 > [!NOTE]
 > Power BI'da raporda yaptığınız hiçbir değişiklik özgün Power BI Desktop dosyasına geri kaydedilmez. Bu değişiklikler raporlardaki görselleştirmeleri eklemeyi, silmeye veya değiştirmeyi içerir.
-> 
-> 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Bir Power BI Desktop veri kümesini ve raporları yayımlamak için
 1. Power BI Desktop'ta **Dosya** \> **Yayımla** \> **Power BI'da Yayımla**'yı seçin veya şeritten **Yayımla**'yı seçin.  
 
    ![Yayımla düğmesi](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
+
 
 2. Power BI'da oturum açın.
 3. Hedefi seçin.
@@ -55,3 +54,7 @@ Bu basit bir işlem olsa da bilmeniz gereken bazı noktalar vardır:
    ![Veri kümesini yeniden yayımlamanın etkisiyle ilgili uyarı](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
 
    [Veri kümesi etki analizi hakkında daha fazla bilgi edinin](../collaborate-share/service-dataset-impact-analysis.md).
+
+> [!NOTE]
+> Power BI raporlarındaki bazı veri bağlantılarında, Power BI hizmetine içeri aktarılan veri kümesindeki veriler yerine, verilere yönelik bağlantılar yer alabilir. Örneğin DirectQuery bağlantıları verilerin kendisi içeri aktarıldığında değil, güncelleştirmeler veya etkileşimler oluştuğunda verilere bağlanır. Raporunuzdaki bağlı veri kaynakları şirket içindeyse bunlara Power BI’dan erişmek için bir ağ geçidine ihtiyacınız olabilir. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](../connect-data/service-gateway-onprem.md).
+> 

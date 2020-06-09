@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692866"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336786"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI’da bulunan sayfalandırılmış raporlardaki URL parametreleri
 
@@ -163,6 +163,8 @@ XML:
 - rdl:Encoding=string
 - rdl:FileExtension=string
 - rdl:Schema=true/false
+
+**Köprüyü aynı tarayıcı penceresine açma** Power BI’ın bu köprüyü aynı tarayıcı penceresinde açmasını sağlamak için raporunuzdaki köprü URL’sine “rdl:targetSameWindow=true” ekleyebilirsiniz. Rapora köprüler ekleme hakkında daha fazla bilgi için SQL Server Reporting Services belgelerindeki [URL’ye köprü ekleme](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) sayfasına bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

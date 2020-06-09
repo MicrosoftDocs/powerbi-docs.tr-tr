@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a0000d2e0da3613bb74e8d3d0aed2dd7fa3e3dcc
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83326047"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160284"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, analiz yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve otomatik algılama özelliği sizin yerinize bunları yapar. Öte yandan bazen ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -59,7 +59,7 @@ Daha fazla bilgi için [bu blog gönderisine](https://blogs.technet.microsoft.co
 ### <a name="cardinality"></a>Kardinalite
 **Kardinalite** seçeneğinin ayarı aşağıdakilerden biri olabilir:
 
-**Çok-bir (\*:1)** : Çoğa bir ilişki en yaygın, varsayılan ilişki türüdür. Bir tablodaki sütunda bir değerin birden çok örneği olabileceği ve genellikle arama tablosu olarak bilinen diğer ilişkili tabloda bir değerin yalnızca bir örneği olduğu anlamına gelir.
+**Çok-bir (\*:1)** : Çoğa bir ilişki en yaygın, varsayılan ilişki türüdür. Verilen tablodaki sütunda bir değerin birden çok örneği olabileceği ve genellikle arama tablosu olarak bilinen diğer ilişkili tabloda bir değerin yalnızca bir örneği olduğu anlamına gelir.
 
 **Tek-tek (1:1)** : Tek-tek ilişkide bir tablodaki sütunda belirli bir değerin yalnızca bir örneği vardır ve diğer ilişkili tabloda belirli bir değerin yalnızca bir örneği vardır.
 

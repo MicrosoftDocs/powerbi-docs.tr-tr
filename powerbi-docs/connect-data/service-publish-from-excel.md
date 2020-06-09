@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305623"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272782"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel’deki içeriği Power BI’da yayımlama
 Excel 2016 veya üzeri bir sürümü kullanarak Excel çalışma kitaplarınızı, çalışma kitabı verilerine dayalı olarak son derece etkileşimli raporlar ve panolar oluşturabileceğiniz [Power BI](https://powerbi.microsoft.com) çalışma alanınızda doğrudan yayımlayabilirsiniz. Daha sonra öngörülerinizi, kuruluşunuzdaki diğer kişilerle paylaşabilirsiniz.
@@ -39,7 +39,7 @@ Excel çalışma kitabınızı yayımlamak için Excel’de **Dosya** > **Yayım
 Excel, yerel Excel dosyalarının yayımlanmasını destekler. Dosyaların OneDrive İş'e veya SharePoint Online'a kaydedilmesi gerekmez.
 
 > [!IMPORTANT]
-> Office 365 aboneliğiyle yerel dosyaları, yalnızca Excel 2016 (veya üzeri bir sürüm) kullanıyorsanız yayımlayabilirsiniz. Excel 2016 tek başına yüklemeleri, yalnızca çalışma kitabı OneDrive İş veya SharePoint Online’a kaydedildiğinde Power BI’a yayımlayabilir.
+> Microsoft 365 aboneliğiyle yerel dosyaları, yalnızca Excel 2016 (veya üzeri bir sürüm) kullanıyorsanız yayımlayabilirsiniz. Excel 2016 tek başına yüklemeleri, yalnızca çalışma kitabı OneDrive İş veya SharePoint Online’a kaydedildiğinde Power BI’a yayımlayabilir.
 > 
 
 **Yayımla**'yı seçtiğinizde, yayımlamak istediğiniz çalışma alanını seçebilirsiniz. Excel dosyanız OneDrive İş’te duruyorsa yalnızca *Çalışma Alanım* alanınıza yayımlayabilirsiniz. Excel dosyanız yerel sürücüde duruyorsa *Çalışma Alanım*’a veya erişiminiz olan bir paylaşılan çalışma alanına yayımlayabilirsiniz.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348103"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272966"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI'da çalışmanızı paylaşmanın yolları
 
@@ -42,7 +42,7 @@ Birlikte çalışan ekiplerin hızla işbirliği yapabilmesi için aynı belgele
 
 Çalışma alanları, iş arkadaşlarınızın sahip olacağı izinleri belirleyen roller sağlar. Bu rolleri kullanarak çalışma alanının tamamını kimin yönetebileceğini veya içeriğini düzenleyebileceğini ve dağıtabileceğini belirleyebilirsiniz.
 
-![Çalışma Alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
+![Çalışma alanları](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 Doğal olarak içeriği kendi Çalışma Alanım içine yerleştirebilir ve oradan paylaşabilirsiniz. Ama çalışma alanları işbirliği açısından Çalışma Alanım'dan daha iyidir çünkü içerik üzerinde ortak sahipliğe olanak sağlar. Siz ve tüm ekibiniz kolayca güncelleştirmeler yapabilir ve diğer kişilere erişim verebilir. Çalışma Alanım en iyi şekilde tek tek kişiler tarafından özel veya kişisel içerik için kullanılır.
 
@@ -82,7 +82,7 @@ Kabul etmek gerekir ki bazı kişiler raporlarında kaliteli, iyi tasarlanmış 
 
 ![Rapor paylaşma](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-İçeriğinizi paylaşmak için hem sizin hem de paylaşımda bulunduğunuz kişilerin bir Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitedeki](../admin/service-premium-what-is.md) bir çalışma alanında olması gerekir. Panoyu veya raporu paylaştığınızda, alıcılar bu panoyu veya raporu görüntüleyebilir ve bunlarla etkileşimli çalışabilir ancak üzerlerinde düzenleme yapamaz. Bağlantılı veri kümesinde satır düzeyi güvenlik (RLS) uygulanmadığı sürece panoda ve raporlarda sizinle aynı verileri görürler. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla paylaşabilir. 
+İçeriğinizi paylaşmak için hem sizin hem de paylaşımda bulunduğunuz kişilerin bir Power BI Pro lisansına sahip olması veya içeriğin [Premium kapasitedeki](../admin/service-premium-what-is.md) bir çalışma alanında olması gerekir. Panoyu veya raporu paylaştığınızda, alıcılar bu panoyu veya raporu görüntüleyebilir ve bunlarla etkileşimli çalışabilir ancak üzerlerinde düzenleme yapamaz. [Satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) uygulanmadığı sürece, sizin pano veya raporlarda gördüğünüz verilerin aynısını görürler ve temeldeki veri kümesinde yer alan tüm verilere erişim elde ederler. Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla paylaşabilir. 
 
 Kuruluşunuz dışındaki kişilerle de paylaşımda bulunabilirsiniz. Bu kişiler de panoyu veya raporu görüntüleyebilir, bununla etkileşimli çalışabilir ancak paylaşamaz. 
 

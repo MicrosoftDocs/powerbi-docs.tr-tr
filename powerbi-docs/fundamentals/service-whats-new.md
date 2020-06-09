@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813359"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273081"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -646,7 +646,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 * Bu haftanın hizmet güncelleştirmesi sayesinde yeni bir rapor oluştururken birden fazla sayfa boyutu arasından seçim yapabilir veya sayfa boyutunu kendiniz tanımlayabilirsiniz. Rapordaki sayfaların boyutu ve en boy oranı buradan kontrol edilir.
 * Görüntüler ve kabarcık grafikleri için daha fazla görsel biçimlendirme desteği ekledik. Görüntünün bozulmasını önlemek için yeniden boyutlandırma sırasında en boy oranını sabit tutabilirsiniz ve dağılım grafiği kabarcıkları dolu ya da boş olacak şekilde yapılandırılabilir.
 * Power BI, paylaşım davetlerini alternatif e-posta adreslerine de gönderir. Sizinle bir pano paylaşıldığında davet bağlantısını hem özgün e-posta adresinize hem de alternatif e-posta adresinize (yapılandırdıysanız) göndereceğiz.
-* Power BI, Dedicated on Multitenant (DonMT) O365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Kiracı yöneticisi sizseniz [buradaki](https://go.microsoft.com/fwlink/?LinkId=627174) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
+* Power BI, Dedicated on Multitenant (DonMT) Microsoft 365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Kiracı yöneticisi sizseniz [buradaki](https://go.microsoft.com/fwlink/?LinkId=627174) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
 * Azure Denetim Günlükleri, Azure aboneliğinizdeki işlem günlüklerini görüntülemenizi ve denetlemenizi sağlar. Power BI Azure Denetim Günlükleri içerik paketi, bu günlüklerde yer alan bilgileri kolayca çözümlemenize ve görselleştirmenize yardımcı olabilir. İçerik paketi verilerinize bağlanıp hazır panoları ve raporları kullanarak öngörüleri keşfetmenizi sağar. Daha fazla bilgi için [blog sayfamızı](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) ve [çevrimiçi belgeleri](../connect-data/service-connect-to-services.md) inceleyin.
 
 [Daha fazla bilgi için blog sayfamıza bakın](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

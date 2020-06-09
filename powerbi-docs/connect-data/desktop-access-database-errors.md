@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d0dcc80c358fa4c6f0768d515c399a3f381bfe7
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301345"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273380"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop'ta Access ve Excel .xls dosyalarını içeri aktarma sorunlarını giderme
 
@@ -30,7 +30,7 @@ Power BI Desktop hata iletisi Access Veritabanı Altyapısı'nın yüklenmediği
 
 ## <a name="situation-2-the-access-database-engine-bit-version-32-bit-or-64-bit-is-different-from-your-power-bi-desktop-bit-version"></a>2\. Durum: Access Veritabanı Altyapısı bit sürümünün (32 bit veya 64 bit) Power BI Desktop bit sürümünüzden farklı olması
 
-Bu durum genellikle Microsoft Office'in yüklenen sürümü 32 bit, yüklenen Power BI Desktop sürümü ise 64 bit olduğunda oluşur. Tersi de olabilir ve her iki durumda da bit sürümü uyumsuzluğu oluşur. Office 365 aboneliği kullanıyorsanız farklı bir sorun ve çözüm için [Durum 3](#situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription)’e bakın. Aşağıdaki çözümlerden herhangi biri bit sürümü uyuşmazlığından kaynaklanan bu hatayı giderebilir:
+Bu durum genellikle Microsoft Office'in yüklenen sürümü 32 bit, yüklenen Power BI Desktop sürümü ise 64 bit olduğunda oluşur. Tersi de olabilir ve her iki durumda da bit sürümü uyumsuzluğu oluşur. Microsoft 365 aboneliği kullanıyorsanız farklı bir sorun ve çözüm için [Durum 3](#situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription)’e bakın. Aşağıdaki çözümlerden herhangi biri bit sürümü uyuşmazlığından kaynaklanan bu hatayı giderebilir:
 
 ### <a name="solution-1"></a>Çözüm 1
 
@@ -79,9 +79,9 @@ Access Veritabanı Altyapısının her iki bit sürümünü de yüklemek için a
    
        c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
 
-## <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>3\. Durum: Bir Office 365 aboneliğiyle Access veya .XLS dosyaları kullanılırken sorun yaşanması
+## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>3\. Durum: Bir Microsoft 365 aboneliğiyle Access veya .XLS dosyaları kullanılırken sorun yaşanması
 
-Bir Office 365 aboneliği (**Office 2013** veya **Office 2016**) kullanıyorsanız Access Veritabanı Altyapısı sağlayıcısı *yalnızca* Microsoft Office işlemlerinin erişebildiği sanal bir kayıt defteri konumuna kayıtlıdır. Sonuç olarak, Mashup Altyapısı (Office 365 Excel ve Power BI Desktop dışındaki çalıştırma işlemlerinden sorumludur ve bir Office işlemi değildir), Access Veritabanı Altyapısı sağlayıcısını kullanamaz.
+Bir Microsoft 365 aboneliği (**Office 2013** veya **Office 2016**) kullanıyorsanız Access Veritabanı Altyapısı sağlayıcısı *yalnızca* Microsoft Office işlemlerinin erişebildiği sanal bir kayıt defteri konumuna kayıtlıdır. Sonuç olarak, Mashup Altyapısı (Office 365 Excel ve Power BI Desktop dışındaki çalıştırma işlemlerinden sorumludur ve bir Office işlemi değildir), Access Veritabanı Altyapısı sağlayıcısını kullanamaz.
 
 Bu durumu ortadan kaldırmak için Power BI Desktop yüklemenizin bit sürümüyle (bit sürümleri hakkında daha fazla bilgi için önceki bölümlere göz atın) eşleşen [Access Veritabanı Altyapısı yeniden dağıtılabilir paketini indirip yükleyin](https://www.microsoft.com/download/details.aspx?id=13255). Bit sürümleri hakkında daha fazla bilgi için bu makalenin önceki bölümlerine bakın.
 

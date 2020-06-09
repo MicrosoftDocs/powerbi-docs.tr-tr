@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922609"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159847"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Power BI Rapor Sunucusu’nu Azure Uygulama Ara Sunucusu’yla yapılandırma
 
@@ -166,7 +166,10 @@ Biz ortamımız için dış URL’yi `https://pbirsazureapp-umacontoso2410.msapp
 
 ![Varsayılan bağlayıcı grubu](media/azure-application-proxy/report-server-application-proxy-1.png)
 
-**Ek Ayarlar** bölümünde hiçbir değişiklik yapmadık. Varsayılan seçeneklerle çalışacak şekilde yapılandırıldı:
+**Ek Ayarlar** bölümünde hiçbir değişiklik yapmadık. Varsayılan seçeneklerle çalışacak şekilde yapılandırıldı.
+
+> [!IMPORTANT]
+> Uygulama ara sunucusu yapılandırıldığında, **Arka Uç Uygulama Zaman Aşımı** özelliğinin **Varsayılan** (85 saniye) olarak ayarlandığını unutmayın. Yürütülmesi 85 saniyeden uzun süren raporlarınız varsa bu ayarı, mümkün olan en yüksek zaman aşımı değeri olan **Uzun** (180 saniye) olarak ayarlayın. **Uzun** değeri için yapılandırıldıklarında, tüm raporların 180 saniye içinde tamamlanması gerekir, aksi takdirde zaman aşımına uğrayıp hata verirler.
 
 ![Ek ayarlar](media/azure-application-proxy/report-server-application-proxy-1.png)
 

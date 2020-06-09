@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276065"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337131"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme (önizleme)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
 **Azure’da Power BI Embedded** veya **Office’te Power BI Embedded** ile verilerin sahibi uygulamadır örneğini kullanarak sayfalandırılmış raporları bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi uygulamadır** örneği, eklenmiş analiz platformu olarak Power BI’ı kullanan bir uygulamanız olması durumunda kullanılır. Bir **ISV** veya **geliştirici** olarak, tamamen tümleşik ve etkileşimli bir uygulamada sayfalandırılmış raporlar görüntüleyen Power BI içeriği oluşturabilirsiniz. Üstelik kullanıcıların Power BI lisansı olması gerekmez. Bu öğreticide, müşterileriniz için Power BI JavaScript API’siyle birlikte Power BI .NET SDK’sını kullanıp sayfalandırılmış bir raporu uygulama ile tümleştirme işlemi gösterilir.
 
@@ -40,7 +40,7 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 > [!IMPORTANT]
 > * Bir **hizmet sorumlusu** kullanmalısınız. Ana kullanıcı desteklenmiyor.
-> * Çoklu oturum açma (SSO) gerektiren veri kaynakları desteklenmez.
+> * Çoklu oturum açma (SSO) gerektiren veri kaynakları desteklenmez. Desteklenen veri kümelerinin ve bunlara ilişkin kimlik doğrulaması yöntemlerinin listesini görmek için bkz. [Power BI sayfalandırılmış raporları için desteklenen veri kaynakları](../../paginated-reports/paginated-reports-data-sources.md). 
 > * Power BI veri kümesi, [veri kaynağı](../../connect-data/service-get-data.md)olarak desteklenmez.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama

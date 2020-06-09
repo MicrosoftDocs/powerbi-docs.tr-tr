@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291432"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336855"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop'ta Python Betikleri Çalıştırma
 
 Power BI Desktop'ta Python betiklerini doğrudan çalıştırabilir ve elde edilen veri kümelerini bir Power BI Desktop veri modeline aktarabilirsiniz.
 
-## <a name="install-python"></a>Python'ı yükleme
+## <a name="install-python"></a>Python'ı Yükleme
 
 Power BI Desktop'ta Python betikleri çalıştırabilmek için yerel makinenize Python yüklemeniz gerekir. Python’ı [Python web sitesinden](https://www.python.org/) indirebilirsiniz. Geçerli Python betik sürümü, yükleme yolunda Unicode karakterlerini ve boşlukları destekler.
 
@@ -104,7 +104,7 @@ Power BI Desktop’ta Python Betiğinizi çalıştırmak için:
 
    ![Yüklenip kullanılacak verilerin gösterildiği Gezgin](media/desktop-python-scripts/python-scripts-5.png) 
 
-### <a name="troubleshooting"></a>Sorun Giderme
+### <a name="troubleshooting"></a>Sorun giderme
 
 Python yüklenmez veya tanımlanmazsa bir uyarı görüntülenir. Birden fazla yerel makine yüklemeniz olduğunda da uyarı görebilirsiniz. Önceki Python’ı yükleme ve Python betiğini etkinleştirme bölümlerini yeniden ziyaret edin ve gözden geçirin.
 
@@ -121,6 +121,10 @@ Olası bir çözüm olarak, Power BI Desktop’u özel Python ortamı isteminizd
 ### <a name="refresh"></a>Yenile
 
 Power BI Desktop'ta bir Python betiğini yenileyebilirsiniz. Yenilemek için **Giriş** şeridine gidin ve **Yenile**’yi seçin. Python betiğini yenilediğinizde Power BI Desktop Python betiğini yeniden çalıştırır.
+
+## <a name="known-limitations"></a>Bilinen Sınırlamalar
+
+Şu anda, **Gelişmiş Meta Veriler (Önizleme)** özelliği etkin bir şekilde oluşturulan raporlarda Python betikleri kullanılamıyor. Mevcut raporlar çalışmaya devam edecektir. Daha fazla bilgi için [Gelişmiş veri kümesi meta verilerini kullanma (önizleme)](desktop-enhanced-dataset-metadata.md) sayfasına göz atın. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

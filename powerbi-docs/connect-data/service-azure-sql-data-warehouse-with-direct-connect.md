@@ -8,18 +8,18 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 04/28/2020
+ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 166f5abb2e773ebdbdce552b4dd2fff99b3142f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302288"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336992"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 
-DirectQuery ile Azure SQL Veri Ambarı, Azure SQL Veri Ambarı'ndaki hazır verilerinizi ve ölçümlerinizi temel alan dinamik raporlar oluşturmanızı sağlar. DirectQuery ile, siz verileri keşfederken sorgular Azure SQL Veri Ambarı'nıza gerçek zamanlı olarak geri gönderilir. Gerçek zamanlı sorgular, SQL Veri Ambarı’nın ölçeğiyle birleştirildiğinde kullanıcıların terabaytlarca veriden birkaç dakika içinde dinamik rapor oluşturmasını sağlar. Ayrıca, **Power BI'da aç** düğmesi sayesinde kullanıcılar el ile bilgi girmek zorunda kalmadan Power BI'ı doğrudan SQL Veri Ambarı hizmetlerine bağlayabilir.
+DirectQuery ile Azure SQL Veri Ambarı, Azure SQL Veri Ambarı'ndaki hazır verilerinizi ve ölçümlerinizi temel alan dinamik raporlar oluşturmanızı sağlar. DirectQuery ile, siz verileri keşfederken sorgular Azure SQL Veri Ambarı'nıza gerçek zamanlı olarak geri gönderilir. Gerçek zamanlı sorgular, SQL Veri Ambarı’nın ölçeğiyle birleştirildiğinde kullanıcıların terabaytlarca veriden birkaç dakika içinde dinamik rapor oluşturmasını sağlar. Ayrıca **Panolar ve raporlar oluşturun** bağlantısı, kullanıcıların SQL Veri Ambarları’nı kullanarak Power BI raporları oluşturmalarına olanak verir.
 
 SQL Veri Ambarı bağlayıcısını kullanırken:
 
@@ -28,65 +28,49 @@ SQL Veri Ambarı bağlayıcısını kullanırken:
 * Sütun seçme veya filtre ekleme gibi her işlem, veri ambarına doğrudan sorgu gönderir
 * Kutucuklar yaklaşık olarak 15 dakikada bir yenilenecek şekilde ayarlanmıştır ve yenileme işleminin zamanlanması gerekmez.  Yenileme özelliği, bağlantı kurulduktan sonra Gelişmiş ayarlar’da ayarlanabilir.
 * DirectQuery veri kümeleri için Soru-Cevap özelliği kullanılamaz
-* şema değişiklikleri otomatik olarak alınmaz
+* Şema değişiklikleri otomatik olarak alınmaz
 
-Bu kısıtlamalar ve notlar, biz deneyimleri iyileştirmeye devam ettikçe değişebilir. Bağlanma adımları aşağıda ayrıntılı şekilde verilmiştir.
+Bu kısıtlamalar ve notlar, biz deneyimi iyileştirmeye devam ettikçe değişebilir. Bağlanma adımları aşağıda ayrıntılı şekilde verilmiştir.
 
-## <a name="using-the-open-in-power-bi-button"></a>"Power BI'da aç" düğmesini kullanma
+## <a name="build-dashboards-and-reports-in-power-bi"></a>Power BI’da panolar ve raporlar oluşturma
 
 > [!Important]
-> Azure SQL Veri Ambarı ile bağlantımızı geliştirdik.  Azure SQL Veri Ambarı veri kaynağınıza en iyi bağlanma deneyimi için Power BI Desktop kullanın.  Modelinizi ve raporunuzu oluşturduktan sonra, bunu Power BI hizmetine yayımlayabilirsiniz.  Power BI hizmetindeki Azure SQL Veri Ambarı doğrudan bağlayıcısı artık kullanım dışı bırakılmıştır.
+> Azure SQL Veri Ambarı ile bağlantımızı geliştirdik. Azure SQL Veri Ambarı veri kaynağınıza en iyi bağlanma deneyimi için Power BI Desktop kullanın. Modelinizi ve raporunuzu oluşturduktan sonra, bunu Power BI hizmetine yayımlayabilirsiniz. Power BI hizmetindeki Azure SQL Veri Ambarı’na yönelik önceki doğrudan bağlayıcı artık kullanılamıyor.
 
-SQL Veri Ambarı’nızla Power BI arasında veri alışverişi yapmanın en kolay yolu Azure portaldaki **Power BI’da aç** düğmesidir. Bu düğme, sorunsuz bir şekilde Power BI'da yeni panolar oluşturmaya başlamanızı sağlar.
+SQL Veri Ambarınız ve Power BI arasında veri alışverişi yapmanın en kolay yolu, Power BI Desktop’ta raporlar oluşturmaktır. Azure portalındaki **Panolar ve raporlar oluşturun** düğmesini kullanabilirsiniz.
 
-1. Başlamak için Azure portaldaki SQL Veri Ambarı örneğinize gidin. SQL Veri Ambarı'nın şu anda yalnızca Azure portalda bulunduğunu unutmayın.
+1. Kullanmaya başlamak için Power BI Desktop’ı indirip yükleyin. İndirme ve yükleme hakkında bilgi almak için [Power BI Desktop’ı edinin](../fundamentals/desktop-get-the-desktop.md) makalesine bakın veya doğrudan sonraki adıma geçin.
 
-2. **Power BI'da aç** düğmesine tıklayın
+2. Power BI Desktop’ı indirmek için **Panolar ve raporlar oluşturun** bağlantısına da tıklayabilirsiniz.
 
-    ![Power BI’da aç](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
+    ![Power BI’da aç](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-01.png)
 
-3. Oturumunuzu doğrudan açamazsak veya Power BI hesabınız yoksa oturum açmanız gerekir.
 
-4. SQL Veri Ambarı bağlantı sayfası açılır ve SQL Veri Ambarı bilgileriniz önceden doldurulmuş şekilde gelir. Bağlantı oluşturmak için kimlik bilgilerinizi girip Bağlan'ı seçin.
+## <a name="connecting-through-power-bi-desktop"></a>Power BI Desktop aracılığıyla bağlanma
 
-## <a name="connecting-through-power-bi"></a>Power BI aracılığıyla bağlanma
+Power BI Desktop’taki **Veri Al** düğmesini kullanarak bir SQL Veri Ambarı’na bağlanabilirsiniz. 
 
-SQL Veri Ambarı, Power BI Veri Al sayfasında da bulunmaktadır. 
+1. **Giriş** menüsünden **Veri Al**’ı seçin.  
 
-1. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.  
+    ![Veri al düğmesi](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-    ![Veri al düğmesi](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+2. Tüm kullanılabilir veri kaynaklarını görmek için **Daha fazla...** seçeneğini belirleyin. Görüntülenen pencerede soldaki bölmeden **Azure**’ı, sağdaki bölmede yer alan kullanılabilir bağlayıcılar listesinden **Azure SQL Veri Ambarı**’nı seçin.
 
-2. **Veritabanları**'ndan **Al**'ı seçin.
+    ![Azure veri kaynakları](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 
-    ![Veritabanları](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
+3. Görüntülenen pencerede sunucunuzu ve isteğe bağlı olarak bağlanmak istediğiniz veritabanını girin. Veri bağlantısı modunuzu da seçebilirsiniz: İçeri aktarma veya DirectQuery. Azure SQL Veri Ambarınızdaki bilgilere gerçek zamanlı bir şekilde erişmek için DirectQuery’yi kullanın.
 
-3. **SQL Data Warehouse** \> **Bağlan**’ı seçin.
+    ![Doğrudan bağlantı ile Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-04.png)
 
-    ![Doğrudan bağlantı ile Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+4. Azure SQL Veri Ambarı bağlantısına yönelik gelişmiş seçenekler için, bağlantınıza ilişkin ek seçenekleri görüntülemek üzere **Gelişmiş seçeneklerin** yanındaki aşağı oku seçin.
 
-4. Bağlanmak için gerekli bilgileri girin. Aşağıdaki **Parametreler Bulma** bölümünde, bu verilerin Azure portalınızda bulunabileceği yer gösterilmektedir.
+    ![Sunucu adı](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-05.png)
 
-    ![Sunucu adı](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
-
-    ![Gelişmiş sunucu adı](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
-
-    ![Kullanıcı adı](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
-
-   > [!NOTE]
-   > Kullanıcı adı, Azure SQL Veri Ambarı örneğinizde tanımlanmış bir kullanıcıdır.
-
-5. Yıldız işaretiyle belirtilen yeni kutucuğu veya yeni oluşturulan veri kümesini seçerek veri kümesini detaylandırabilirsiniz. Bu veri kümesinin adı veritabanınızın adıyla aynı olur.
-
-    ![Veri kümesi 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
-
-6. Tüm tabloları ve sütunları keşfedebilirsiniz. Bir sütunu seçtiğinizde kaynağa sorgu gönderilerek görseliniz dinamik olarak oluşturulur. Filtreler de sorgulara çevrilip veri ambarınıza geri gönderilir. Bu görseller yeni bir rapora kaydedilerek panonuza sabitlenebilir.
-
-    ![Araştır 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+Sonraki bölümde, bağlantınıza yönelik parametre değerlerini nasıl bulacağınız açıklanmaktadır. 
 
 ## <a name="finding-parameter-values"></a>Parametre Değerlerini Bulma
 
-Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL Veri Ambarı'nın şu anda yalnızca Azure portalda bulunduğunu unutmayın.
+Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL Veri Ambarı’nın şu anda yalnızca Azure portalında bulunduğunu unutmayın.
 
 ![Azure portalı](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -97,6 +81,7 @@ Tam sunucu adınız ve veritabanınızın adı Azure portalda bulunabilir. SQL V
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
+* [Power BI'da DirectQuery kullanma hakkında](desktop-directquery-about.md)
 * [Power BI nedir?](../fundamentals/power-bi-overview.md)  
 * [Power BI için veri alma](service-get-data.md)  
 * [Azure SQL Veri Ambarı](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)

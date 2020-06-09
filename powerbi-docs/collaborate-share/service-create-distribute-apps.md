@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693576"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336832"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -209,6 +209,7 @@ Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
 * Yeni çalışma alanı deneyimi için, uygulama erişim listesine eklenen kullanıcının uygulamaya çalışma alanı üzerinden erişimi zaten varsa, bu kullanıcı uygulama erişim listesinde gösterilmez.  
 * Power BI hizmetinde yeni görünümü kullanmak için, öğe bilgi kartında destek sitesi URL’si gösterilir. [Power BI’da 'yeni görünüm'](../consumer/service-new-look.md) hakkında daha fazla bilgi edinin.
 * Uygulamaların, kullanıcılara paylaşım iznini kullanarak uygulamayı ve uygulamanın temel veri kümelerini paylaşma olanağı tanıyan bir seçeneği vardır. Yeni uygulamalarda bu seçenek varsayılan olarak kapalıdır. Mevcut uygulamalarınızda bu seçeneği kapatmanızı ve temel veri kümeleri üzerindeki izni güncelleştirmenizi öneririz. Mevcut veri kümelerinde seçeneğin etkinleştirilmiş olmasının nedeni uygulamaların başlangıçta bu davranışa sahip olan içerik paketlerinin yerini alacak şekilde tasarlanmış olmasıdır.
+* Uygulamalarda en fazla 200 pano bulunabilir. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Çalışma alanı oluşturma](service-create-workspaces.md)

@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812439"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272690"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -133,9 +133,9 @@ Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Mer
 
 1. **Denetim günlükleri**'ni seçin.
 
-1. **O365 Yönetim Merkezi'ne git** seçeneğini belirleyin.
+1. **Microsoft 365 Yönetim Merkezi’ne gidin**’i seçin.
 
-   ![Denetim günlükleri seçeneği ve Microsoft O365 Yönetim Merkezine Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Denetim günlükleri seçeneği ve Microsoft 365 Yönetim Merkezi’ne Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>Yalnızca Power BI etkinliklerinde arama yapma
 

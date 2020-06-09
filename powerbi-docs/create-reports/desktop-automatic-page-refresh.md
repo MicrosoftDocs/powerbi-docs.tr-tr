@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299712"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337108"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop’ta otomatik sayfa yenileme (önizleme)
 
@@ -25,7 +25,7 @@ Power BI’daki otomatik sayfa yenileme (APR) özelliği, etkin rapor sayfanız�
 
 ## <a name="using-automatic-page-refresh"></a>Otomatik sayfa yenilemeyi kullanma
 
-Bu önizleme sürümü için Power BI Desktop’ta otomatik sayfa yenileme özelliğini etkinleştirmeniz gerekir. **Dosya > Seçenekler ve ayarlar**’a gidin, ardından **Seçenekler**’i seçin ve sol bölmeden **Önizleme özellikleri**’ni seçin. *Otomatik sayfa yenileme*’nin yanındaki onay kutusunu seçerek özelliği etkinleştirin. Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir.
+Bu önizleme sürümü için Power BI Desktop’ta otomatik sayfa yenileme özelliğini etkinleştirmeniz gerekir. **Dosya > Seçenekler ve ayarlar**’a gidin, ardından **Seçenekler**’i seçin ve sol bölmeden **Önizleme özellikleri**’ni seçin. *Otomatik sayfa yenileme*’nin yanındaki onay kutusunu seçerek özelliği etkinleştirin. Otomatik sayfa yenileme *yalnızca* DirectQuery veri kaynakları için kullanılabilir.
 
 Otomatik sayfa yenilemeyi kullanmak için, yenilemeyi etkinleştirmek istediğiniz rapor sayfasını seçin. **Görsel Öğeler** bölmesinde **Biçimlendirme** simgesini (boya rulosu) seçin ve bölmenin alt kısmından **Sayfa yenileme**’yi bulun. 
 
@@ -121,15 +121,15 @@ Burada, iki çalışma alanı senaryosu için bazı ayrıntılara yer verilmişt
 
  1. *Özellik açık/kapalı*: Kapasite yöneticiniz özelliği devre dışı bırakmaya karar verdiyse, yayımlanmış raporunuzda herhangi bir sayfa yenileme türü ayarlayamazsınız.
 
- 2. *Minimum yenileme aralığı*: Özellik etkinleştirilirken, kapasite yöneticinizin bir minimum yenileme aralığı ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar.
+ 2. *Minimum yenileme aralığı*: Özellik etkinleştirilirken, kapasite yöneticinizin bir minimum yenileme aralığı ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı *geçersiz kılar*. Bu geçersiz kılma işlemi, aşağıdaki tabloda *Kapasite yönetimini geçersiz kılma* olarak adlandırılmıştır. 
 
-Aşağıdaki tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](../connect-data/service-dataset-modes-understand.md) ilişkin sınırlar açıklanmaktadır
+Aşağıdaki tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](../connect-data/service-dataset-modes-understand.md) ilişkin sınırlar açıklanmaktadır:
 
 | Depolama Modu | Ayrılmış Kapasite | Paylaşılan Kapasite |
 | --- | --- | --- |
 | Doğrudan Sorgu | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 1 saniye <br>**Kapasite yönetimini geçersiz kılma** – Evet. | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 30 dakika <br>**Kapasite yönetimini geçersiz kılma** – Hayır. |
 | İçeri Aktar | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. |
-| Karma Mod (DQ + diğerleri) | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 1 saniye <br>**Kapasite yönetimini geçersiz kılma** – Evet. | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 30 dakika <br>**Kapasite yönetimini geçersiz kılma** – Hayır. |
+| Karma Mod (DirectQuery ve diğer veri kaynakları) | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 1 saniye <br>**Kapasite yönetimini geçersiz kılma** – Evet. | **Destekleniyor** – Evet. <br>**Minimum yenileme aralığı** – 30 dakika <br>**Kapasite yönetimini geçersiz kılma** – Hayır. |
 | Live connect AS | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. |
 | Live connect PBI | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. | **Destekleniyor** – Hayır. <br>**Minimum yenileme aralığı** – Yok. <br>**Kapasite yönetimini geçersiz kılma** – Yok. |
 
@@ -186,7 +186,7 @@ Bu bölümde, şunlara yönelik yaygın sorular ve yanıtları sağlanmaktadır
     * Kapasite yöneticisi kullanıcı arabiriminde yapılan otomatik sayfa yenileme ayarı değişikliklerinin raporlara yayılması 5 dakika sürer.
     * Otomatik sayfa yenileme özelliğini hem kapasite için açmanız, hem de bir raporun bunu görmek istediğiniz sayfaları için açmanız gerekir.
 
-3. Raporum karma modda çalışıyor (DQ + İçeri Aktarma). Tüm görseller yenilenmiyor.
+3. Raporum karma modda çalışıyor. (Karma mod, raporun hem DirectQuery bağlantısına hem de İçeri aktarma veri kaynağına sahip olduğu anlamına gelir.) Tüm görseller yenilenmiyor.
 
     * Görselleriniz İçeri Aktarma tablolarına başvuruyorsa bu beklenen bir durumdur. İçeri Aktarma için otomatik sayfa yenileme desteklenmez.
     * Bu bölümdeki 1. soruya bakın.
@@ -211,6 +211,7 @@ Bu bölümde, şunlara yönelik yaygın sorular ve yanıtları sağlanmaktadır
 Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 
 * [Power BI'da DirectQuery kullanma](../connect-data/desktop-directquery-about.md)
+* [Power BI Desktop’ta bileşik modeller kullanma](../transform-model/desktop-composite-models.md)
 * [Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma](desktop-performance-analyzer.md)
 * [Power BI Premium Kapasitelerini Dağıtma ve Yönetme](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop'ta Veri Kaynakları](../connect-data/desktop-data-sources.md)

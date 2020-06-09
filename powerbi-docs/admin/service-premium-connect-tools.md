@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382750"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219553"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
 
@@ -98,11 +98,14 @@ Ayrılmış kapasiteye atanan çalışma alanlarının `powerbi://api.powerbi.co
 
 Aynı kiracıdaki (B2B olmayan) UPN’ye sahip kullanıcılar, kiracı adını `myorg` ile değiştirebilir. Örneğin  `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`.
 
+B2B kullanıcılarının kiracı adında kuruluş UPN’lerini belirtmeleri gerekir. Örneğin  `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`.
+
 ### <a name="to-get-the-workspace-connection-url"></a>Çalışma alanı bağlantı URL’sini almak için:
 
 Çalışma alanında **Ayarlar** > **Premium** > **Çalışma Alanı Bağlantısı** adımlarını izleyip **Kopyala**’ya tıklayın.
 
 ![Çalışma alanı bağlantı dizesi](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
+
 
 ## <a name="connection-requirements"></a>Bağlantı gereksinimleri
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI ile hizmet sorumlusu
-description: Power BI içeriği eklemek üzere hizmet sorumlusunu ve uygulama gizli dizisini kullanarak bir uygulamayı Azure Active Directory’ye kaydetmeyi öğrenin.
+title: Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
+description: Azure Active Directory uygulama hizmet sorumlusu ve uygulama gizli dizisi kullanarak ekli analizin kimliğini doğrulamayı öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121202"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315873"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 Bu makalede, *Uygulama Kimliği* ve *Uygulama gizli dizisi* kullanılarak hizmet sorumlusu kimlik doğrulaması açıklanmaktadır.
+
+>[!NOTE]
+>Arka uç hizmetlerinizin güvenliğini, gizli diziler yerine sertifikaları kullanarak sağlamanızı öneririz.
+>* [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Yöntem
 
@@ -54,30 +59,12 @@ Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portalında Azure AD uygulaması oluşturma
 
-1. [Microsoft Azure](https://portal.azure.com/#allservices)’da oturum açın.
-
-2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısına tıklayın.
-
-    ![azure uygulaması kaydı](media/embed-service-principal/azure-app-registration.png)
-
-3. **Yeni kayıt**’a tıklayın.
-
-    ![yeni kayıt](media/embed-service-principal/new-registration.png)
-
-4. Gereken bilgileri doldurun:
-    * **Ad**: Uygulamanız için bir ad girin
-    * **Desteklenen hesap türleri** - İhtiyacınız olan Azure AD hesabını seçin
-    * (İsteğe bağlı) **Yeniden Yönlendirme URI’si**: Gerekirse bir URI girin
-
-5. **Kaydet**’e tıklayın.
-
-6. Kaydolduktan sonra, *Uygulama Kimliğini* **Genel Bakış** sekmesinde bulabilirsiniz. Daha sonra kullanmak için *Uygulama Kimliğini* kopyalayıp kaydedin.
-
-    ![uygulama kimliği](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
      ![uygulama kimliği](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. **Yeni istemci gizli dizisine** tıklayın.
 
@@ -157,7 +144,7 @@ Azure AD’de oluşturduğunuz güvenlik grubunu **Geliştirici ayarlarının** 
 
 ![Yönetici portalı](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>4\. Adım: Hizmet sorumlusunu çalışma alanınıza yönetici olarak ekleme
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>4\. Adım: Hizmet sorumlusunu çalışma alanınıza ekleme
 
 Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama erişim yapıtlarınızı etkinleştirmek için, hizmet sorumlusu varlığını çalışma alanınıza üye veya yönetici olarak ekleyin.
 
@@ -181,20 +168,21 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 
 İçeriğinizi ekledikten sonra [üretime taşımaya](embed-sample-for-customers.md#move-to-production) hazırsınızdır.
 
-## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
-
-* Hizmet sorumlusu yalnızca [yeni çalışma alanlarıyla](../../collaborate-share/service-create-the-new-workspaces.md) çalışır.
-* Hizmet sorumlusu kullanırken **Çalışma Alanım** desteklenmez.
-* Üretime geçilirken adanmış kapasite gerekir.
-* Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.
-* Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
-* [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
-* [Veri akışları](../../transform-model/service-dataflows-overview.md) yönetimi desteklenmez.
-* Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
-* [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[Uygulamayı kaydetme](register-app.md)
 
-* [Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme](embed-service-principal-certificate.md)

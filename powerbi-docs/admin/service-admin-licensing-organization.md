@@ -1,6 +1,6 @@
 ---
-title: Kuruluşunuzda Power BI lisansları
-description: Power BI’daki kullanılabilir farklı lisans türlerine ve yöneticilerin kuruluşları için lisans satın alıp yönetme şekline genel bakış.
+title: Kuruluşunuzdaki kullanıcılar için Power BI lisansları
+description: Power BI’daki kullanılabilir farklı kullanıcı lisans türlerine ve yöneticilerin kuruluşlarındaki kullanıcılar için lisans satın alıp yönetme şekline genel bakış.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563500"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160008"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>Kuruluşunuzda Power BI lisansları
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
 Kullanıcının Power BI hizmetinde yapabilecekleri sahip olduğu kullanıcı başına lisansın türüne göre değişir. Lisansı tarafından sağlanan erişim düzeyi, erişilen çalışma alanının Power BI Premium kapasitesine atanıp atanmadığına bağlıdır. Power BI hizmetinin tüm kullanıcıları bir lisansa sahip olmalıdır.
 

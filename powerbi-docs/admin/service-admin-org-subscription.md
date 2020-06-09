@@ -1,5 +1,5 @@
 ---
-title: Kuruluşunuz için Power BI aboneliği alma
+title: Kuruluşunuz için Power BI hizmet aboneliği alma
 description: Bir Power BI hizmeti aboneliğine yönetici olarak kaydolma ve lisansları toplu satın alma.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438186"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160054"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>Kuruluşunuz için Power BI aboneliği alma
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Kuruluşunuz için Power BI hizmet aboneliği alma
 
-Yöneticiler Power BI’a Microsoft 365 yönetim merkezinin **Hizmet satın al** sayfasından kaydolabilir. Bir yönetici Power BI'a kaydolduğunda, erişimi olması gereken kullanıcılara lisans atayabilir.
+Yöneticiler Power BI hizmetine Microsoft 365 yönetim merkezinin **Hizmet satın al** sayfasından kaydolabilir. Bir yönetici Power BI'a kaydolduğunda, erişimi olması gereken kullanıcılara lisans atayabilir.
 
 Kuruluşunuzdaki kullanıcılar Power BI web sitesi aracılığıyla Power BI'a kaydolabilir. Kuruluşunuzdaki bir kullanıcı Power BI'a kaydolduğunda, ona otomatik olarak bir Power BI lisansı atanır. Self servis özelliklerini devre dışı bırakmak istiyorsanız, [Self servis kaydolma ve satın alma özelliklerini etkinleştirme veya devre dışı bırakma](service-admin-disable-self-service.md) bölümündeki adımları izleyin.
 

@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006469"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272667"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
+
+
+## <a name="may-2020"></a>Mayıs 2020
+- **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.8.7450.37410 (Derleme 15.0.1103.227), Yayın Tarihi: 27 Mayıs 2020*
+         - Özellikler
+            -  Özelleştirilebilir katalog bağlantı havuzu boyutu için destek eklendi. (Daha fazla bilgi için bkz. [MaxCatalogConnectionPoolSizePerProcess ayarı](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service).)
+            -  Yenileme işlemi sırasında rapor görüntüleme davranışı iyileştirildi.
+        - Güvenlik güncelleştirmeleri
+        - Hata düzeltmeleri
+            - Klasör ve rapor adlarındaki tek tırnak işaretleriyle ilgili iki sorun düzeltildi.
+            - Belirli tarayıcılarla yatay kaydırmaya ve Kayıtları Gör özelliğine ilişkin bir sorun düzeltildi.
+            - Temeldeki modelde şema hatalarına sebep olabilen, rapor açıkken zamanlanan yenileme işlemiyle ilgili bir sorun düzeltildi.
+            - PDF dışarı aktarmasının alternatif metninin çok baytlı karakterler için doğru bir şekilde kodlanmamasıyla ilgili bir sorun düzeltildi.
+            - LoadReport’u yürüten özel uygulamaların hatalı bir şekilde TrustedHeader hatası almasıyla ilgili bir sorun düzeltildi.
+            - Zamanlanan yenilemenin ağır yükünün başarısız yenilemelere neden olmasıyla ilgili bir sorun düzeltildi.
+            - Rapor adı klasör adıyla eşleştiğinde raporların yanlış konuma kaydedilmesiyle ilgili bir sorun düzeltildi.
+            - Belge Haritası’ndaki sekme sorunları düzeltildi.
+            - DAX sorguları kullandıklarında veri temelli aboneliklerin başarısız olmasıyla ilgili bir sorun düzeltildi.
+            - URL erişimi sırasında FindString’in eşleşmelerin yerini bulamamasıyla ilgili bir sorun düzeltildi.
+            - Raporlar taşındığında ekli veri kaynaklarını bozan bir sorun düzeltildi.
+            - Zamanlanan yenilemenin belirli veri kaynakları için başarısız olmasına neden olan bir sorun düzeltildi.
+            - Geçersiz isteklere yönelik fırsatları azaltmak için rapor zamanlamaya doğrulama aşaması eklendi.
+
+
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+    - *Sürüm: 2.81.5831.941 (Mayıs 2020), Yayınlama tarihi: 27 Temmuz 2020* (yeni derleme ve yeni sürüm)
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Mayıs 2020)        
+
 
 
 ## <a name="january-2020"></a>Ocak 2020

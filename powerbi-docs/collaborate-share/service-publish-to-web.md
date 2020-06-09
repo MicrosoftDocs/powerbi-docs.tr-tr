@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273903"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272989"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -169,8 +169,7 @@ Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI y�
 
 Büyük kuruluşlar genelde bir Power BI yöneticisine sahip olur. Aşağıdaki rollerden herhangi birine sahip olan kişiler Power BI yöneticisi olarak görev yapabilir:
 
-- Office 365 yöneticileri
-- Azure Active Directory yöneticileri
+- Genel yöneticiler
 - Azure Active Directory’de Power BI hizmet yöneticisi rolüne sahip olan kullanıcılar
 
 Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) ve yönetici portalındaki [Web’de yayımla kiracı ayarlarını](../admin/service-admin-portal.md#publish-to-web) güncelleştirmelerini istemeniz gerekir.

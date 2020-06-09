@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e8c45145695d61bcd7173e2202db98ec306c4b4d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404019"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336878"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 
@@ -54,7 +54,7 @@ Power BI Uygulama Kayıt Aracı'nı kullanarak uygulamanızı kaydetmek için a�
 
 5. Uygulama türü olarak **Sunucu tarafı web uygulamasını** seçtiyseniz **Giriş Sayfası URL'si** ve **Yeniden yönlendirme URL'si** için birer değer girerek devam edin. **Yeniden yönlendirme URL'si** geçerli herhangi bir URL’yle çalışır ve oluşturduğunuz uygulamaya karşılık gelmelidir. **Yerel**’i seçtiyseniz 6. adımdan devam edin.
 
-6. Uygulamanıza gereken Power BI API’lerini seçin. Power BI erişim izinleri hakkında daha fazla bilgi için bkz. [Power BI İzinleri](power-bi-permissions.md). Ardından **Kaydet**’i seçin.
+6. Uygulamanıza gereken Power BI API’lerini seçin. Power BI erişim izinleri hakkında daha fazla bilgi için bkz. [Microsoft kimlik platformu uç noktasında izinler ve onay](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Ardından **Kaydet**’i seçin.
 
     ![Kaydedilecek API’leri seçin](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -84,7 +84,7 @@ Uygulamanızı kaydetmek için kullanabileceğiniz diğer seçenek Azure portal�
 
 4. Sol taraftaki gezinti bölmesinde **Tüm hizmetler**'e gidin, **Uygulama Kayıtları**'nı ve sonra **Yeni kayıt**'ı seçin.
 
-5. Komut istemlerini izleyin ve yeni bir uygulama oluşturun.
+5. Talimatları izleyerek yeni bir uygulama oluşturun.
 
    Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Azure Active Directory’ye uygulama kaydetme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438235"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315960"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -71,6 +71,10 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 1. (İsteğe bağlı) Power BI’daki içeriğe götüren bir bağlantı eklenip eklenmeyeceğini ve kullanıcılara abone yaptığınız içeriğe erişim verilip verilmeyeceğini seçin.  Bağlantı eklemeyi seçerseniz en iyi deneyimi elde etmek için tüm kullanıcıların rapora erişimi olduğundan emin olun.
 2. **Kaydet ve kapat**’ı seçin. Abone olan kişiler seçtiğiniz sıklıkta ve saatlerde e-postayla pano veya rapor sayfasının anlık görüntüsünü alır. Toplamda rapor veya pano başına en fazla 24 abonelik oluşturabilirsiniz ve her abonelik için benzersiz alıcılar, saatler ve sıklıklar sağlayabilirsiniz. Panonuz veya raporunuz için **Veri Yenilemesinden Sonra** olarak ayarlanan tüm abonelikler, yine de yalnızca zamanlanmış ilk yenilemeden sonra e-posta gönderir.
 
+    > [!NOTE]
+    > Kaydedip kapattıktan sonra aboneliği düzenlerseniz önceli seçimleriniz fark etmeksizin, abone olduğunuz içerik için kullanıcılara erişim verme seçimi etkinleştirilir.
+    >
+
     > [!TIP]
     > Abonelikten e-postayı hemen mi yoksa isteğe bağlı olarak herhangi bir zamanda mı göndermek istiyorsunuz? Göndermek istediğiniz panonun veya raporun abonelikleri için **Şimdi Çalıştır**’ı seçin. Bu abonelik için herkese e-posta gönderildiğine ilişkin bir bildirim görürsünüz. Bu eylemi uygularsanız, Rapor veya pano başına günde 24 zamanlanmış abonelik çalıştırması sınırınızda bu hesaba katılmaz. Temel alınan veri kümesi için bir veri yenilemesi TETİKLEMEZ.
     >
@@ -112,6 +116,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - Panonuz veya raporunuz Premium kapasitedeyse iş arkadaşlarını her seferinde bir e-posta adresi girerek abone yapmak yerine abonelikler için grup e-postası diğer adını kullanabilirsiniz. Diğer adlar için geçerli Active Directory temel alınır.
 - İçeriğiniz Premium kapasitede değilse yalnızca Power BI Pro kullanıcıları e-posta aboneliklerini alabilir. 
 - Abonelikler şu anda yer işaretlerini desteklememektedir.
+- Mevcut bir aboneliği düzenlediğinizde, rapora/panoya erişim verme seçeneği her zaman etkin görünür.  Bu seçeneği temizleyip aboneliği kaydederseniz durum da kaydedilir. Ancak, raporu yeniden düzenlerseniz bu seçenek varsayılan olarak işaretlenir.
 
 ### <a name="dashboards"></a>Panolar
 

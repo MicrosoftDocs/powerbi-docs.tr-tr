@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348885"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219484"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI'da canlı bağlantılar için Soru-Cevap özelliğini etkinleştirme
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Şirket içi veri ağ geçidi nedir?  Canlı bağlantı nedir?
-Power BI'daki veri kümelerini Power BI'a aktarılabilir veya bunlarla canlı bağlantı kurabilirsiniz. Canlı bağlantı veri kümeleri genellikle "şirket içi" olarak anılır. Canlı bağlantılar bir [ağ geçidi](../connect-data/service-gateway-onprem.md) kullanılarak yönetilir, canlı sorgular kullanılarak veriler ve sorgular gönderilip alınır.
+
+Veri kümelerini Power BI’a içeri aktarabilirsiniz veya bu veri kümelerine *canlı bağlantı* oluşturabilirsiniz. Canlı bağlantı veri kümeleri genellikle şirket içindedir. Durum böyleyse bir [ağ geçidi](../connect-data/service-gateway-onprem.md) kullanarak canlı bağlantıları yönetebilirsiniz. Veriler ve sorgular, canlı sorgular kullanılarak gönderilip alınır.
+
+> [!NOTE]
+> Canlı bağlantılar, ağ geçidi gerektirmeyen Azure Analysis Services veri kümelerini de destekler.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Şirket içi veri ağ geçidi veri kümeleri için Soru-Cevap
 Bir ağ geçidi üzerinden eriştiğiniz veri kümeleriyle Soru-Cevap özelliğini kullanmak istiyorsanız önce bunları etkinleştirmeniz gerekir.
@@ -60,9 +63,9 @@ Bu özelliğin bazı sınırlamaları vardır:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Şirket içi veri ağ geçidi](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (Şirket içi veri ağ geçidi)](../connect-data/service-gateway-onprem.md)  
 - [Veri kaynağınızı yönetme - Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
-- [Power BI hizmetinde tasarımcılar için temel kavramlar](../fundamentals/service-basic-concepts.md)  
+- [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](../fundamentals/service-basic-concepts.md)  
 - [Power BI Soru-Cevap Özelliğine Genel Bakış](../consumer/end-user-q-and-a.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

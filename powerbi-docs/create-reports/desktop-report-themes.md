@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335707"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273223"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 
 Power BI Desktop *rapor temalarıyla* raporunuzun tamamında kurumsal renkler kullanma, simge kümelerini değiştirme veya yeni varsayılan görsel biçimlendirmeyi uygulama gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde varsayılan değerler olarak seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır. Bu makalenin devamında da açıklandığı gibi bazı özel durumlar uygulanır.
 
-![Rapor temaları](media/desktop-report-themes/report-themes-1a.png)
+Rapor temaları, **Görünüm** şeridine gidip şeridin **Temalar** bölümündeki açılan ok düğmesini seçtikten sonra dilediğiniz temayı belirleyerek seçilebilir. Kullanılabilir temalar, Microsoft PowerPoint gibi diğer Microsoft ürünlerinde görülen temalara benzer.
 
-Yerleşik rapor temaları ve özel rapor temaları olmak üzere iki tür rapor teması bulunur:
+![Rapor temaları](media/desktop-report-themes/report-themes-01.png)
 
-- Yerleşik rapor temaları, Power BI Desktop ile yüklenen, önceden tanımlanmış farklı türlerde renk şemaları sunar. Yerleşik rapor temaları, Power BI Desktop menüsünden doğrudan seçilir.
+Yerleşik rapor temaları ve özel rapor temaları olmak üzere iki tür rapor teması bulunur.
 
-- Özel rapor teması dosyaları, JSON dosyalarının temel yapısını tanımlar ve bunların içinde oluşturulur. Özel rapor temasını uygulamak için bunun JSON dosyası Power BI Desktop’a aktarılır ve rapora uygulanır.
+- **Yerleşik** rapor temaları, Power BI Desktop ile yüklenen, önceden tanımlanmış farklı türlerde renk şemaları sunar. Yerleşik rapor temaları, Power BI Desktop menüsünden doğrudan seçilir.
 
-  Ayrıca mevcut rapor temasını Power BI Desktop’ın içinden [**Temayı özelleştir** iletişim kutusunu](#create-and-customize-a-theme-in-power-bi-desktop) kullanarak da özelleştirebilirsiniz.
+- **Özel** rapor temaları, geçerli bir temayı değiştirip özel bir tema olarak kaydederek veya bir JSON dosyası kullanıp kendi özelleştirilmiş temanızı oluşturarak yapılır. JSON dosyası, bu makalenin sonraki kısımlarında açıklandığı gibi, bir rapor temasının pek çok yönü üzerinde ayrıntılı denetim sağlar. 
 
-Ayrıca, doğrudan Power BI Desktop’ta yapılan özelleştirmeler veya rapor temasının JSON dosyası aracılığıyla **Görselleştirme** bölmesinin **Biçim** bölümünde listelenen neredeyse tüm öğeleri özelleştirebilir veya standartlaştırabilirsiniz. Amaç, raporlarınızın varsayılan görünümünü ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
+Rapor temalarının nasıl çalıştığını konuştuktan sonra özelleştirilmiş rapor temaları oluşturma konusuna geçiş yapalım.
+
 
 ## <a name="how-report-themes-work"></a>Rapor temaları nasıl çalışır?
 
-Power BI Desktop raporuna bir rapor teması uygulamak için, [kullanılabilir durumdaki yerleşik rapor temalarından](#built-in-report-themes) birini seçebilir, [özel tema JSON dosyasını içeri aktarabilir](#import-custom-report-theme-files) veya[ **Temayı özelleştir** iletişim kutusunu kullanabilirsiniz](#create-and-customize-a-theme-in-power-bi-desktop).
+Bir Power BI Desktop raporuna rapor teması uygulamak için aşağıdaki seçeneklerden birini belirleyebilirsiniz:
 
-Hangi varsayılan değerlerin özelleştirilebileceği konusunda ayrıntılı bilgi için aşağıdaki [rapor teması JSON biçimi](#report-theme-json-file-format) bölümünü gözden geçirin.
+* Power BI Desktop’ta yerleşik olan [kullanılabilir yerleşik rapor temaları](#built-in-report-themes) arasından seçim yapma
+* **Temaları özelleştir** iletişim kutusunu kullanarak tema özelleştirme
+* [Özel bir tema JSON dosyasını içeri aktarın](#import-custom-report-theme-files).
+
+Bu seçeneklerin her birine sırayla göz atacağız.
 
 ### <a name="built-in-report-themes"></a>Yerleşik rapor temaları
 
 Kullanılabilir rapor temalarından seçim yapmak için:
 
-1. **Giriş** şeridinde **Temayı Değiştir** seçeneğini belirleyin.
+1. **Görünüm** şeridindeki **Temalar** açılır ok düğmesi **Tema Değiştir**’i seçin.
 
-   ![Rapor teması seçme](media/desktop-report-themes/report-themes-2a.png)
+   ![Rapor teması seçme](media/desktop-report-themes/report-themes-02.png)
 
-2. Açılan menüde ekli temalardan birini seçin.
+2. Karşınıza çıkan açılır menüdeki temalar arasından seçim yapın.
+
+   ![Rapor teması seçme](media/desktop-report-themes/report-themes-03.png)
 
    Rapor temanız rapora uygulandı.
 
-Aşağıdaki tablo, kullanılabilir yerleşik rapor temalarını gösterir.
+    Aşağıdaki tablo, kullanılabilir yerleşik rapor temalarını gösterir.
+    
+    | Yerleşik rapor teması | Varsayılan renk dizisi |
+    |------ |---------- |
+    | Varsayılan | ![Varsayılan](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | Yönetici | ![Yönetici](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Sınır| ![Sınır](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | Yenilik Yapın | ![Yenilik Yapın](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Çiçek | ![Çiçek](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Gelgit| ![Gelgit](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | Sıcaklık | ![Sıcaklık](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Güneş| ![Güneş](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Çeşitli | ![Çeşitli](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Fırtına | ![Fırtına](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Klasik | ![Klasik](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | Şehir parkı | ![Şehir parkı](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | Sınıf | ![Sınıf](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | Renk körleri için | ![Renk körleri için](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | Elektrik | ![Elektrik](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | Yüksek karşıtlık | ![Yüksek karşıtlık](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | Gün batımı | ![Gün batımı](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | Alacakaranlık | ![Alacakaranlık](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. Temalar açılır menüsünden **Tema galerisini** seçerek Power BI Topluluğu’ndaki üyelerin oluşturduğu tema koleksiyonlarına da göz atabilirsiniz.
 
-| Yerleşik rapor teması | Varsayılan renk dizisi |
-|------ |---------- |
-| Varsayılan | ![Varsayılan](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| Yönetici | ![Yönetici](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Sınır| ![Sınır](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| Yenilik Yapın | ![Yenilik Yapın](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Çiçek | ![Çiçek](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Gelgit| ![Gelgit](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| Sıcaklık | ![Sıcaklık](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Güneş| ![Güneş](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Çeşitli | ![Çeşitli](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Fırtına | ![Fırtına](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Klasik | ![Klasik](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| Şehir parkı | ![Şehir parkı](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| Sınıf | ![Sınıf](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| Renk körleri için | ![Renk körleri için](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| Elektrik | ![Elektrik](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| Yüksek karşıtlık | ![Yüksek karşıtlık](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| Gün batımı | ![Gün batımı](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| Alacakaranlık | ![Alacakaranlık](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![Tema galerisi](media/desktop-report-themes/report-themes-04.png)
+
+    Beğendiğiniz bir temayı galeriden seçebilir ve ilişkili JSON dosyasını indirebilirsiniz. 
+
+    İndirilen dosyayı yüklemek için **Temalar** açılır menüsünden **Temalara göz at**’ı seçip JSON dosyasını indirdiğiniz konuma gidin ve temayı Power BI Desktop’a yeni tema olarak içeri aktarmak üzere seçin.
+
+    İşlem başarıyla tamamlandığında Power BI, içeri aktarmanın başarılı olduğunu söyleyen bir iletişim kutusu görüntüler.
+
+   ![Temayı içeri aktarma başarılı](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>Rapor temalarını özelleştirme
 
-Power BI Desktop’ın Aralık 2019 sürümünden başlayarak, rapor temasını özelleştirmenin iki yolu vardır:
+Ayrıca, doğrudan Power BI Desktop’ta yapılan özelleştirmeler veya rapor temasının JSON dosyası aracılığıyla **Görselleştirme** bölmesinin **Biçim** bölümünde listelenen neredeyse tüm öğeleri özelleştirebilir veya standartlaştırabilirsiniz. Amaç, raporlarınızın varsayılan görünümünü ve yapısını en küçük ayrıntılarına kadar tamamen denetleyebilmenizi sağlamaktır.
+
+Rapor temalarını aşağıdaki iki yöntemle özelleştirebilirsiniz:
 
 - [Power BI Desktop’ta tema oluşturma ve özelleştirme](#create-and-customize-a-theme-in-power-bi-desktop)
 - [Özel rapor teması JSON dosyası oluşturma ve özelleştirme](#introduction-to-report-theme-json-files)
 
+Aşağıdaki bölümlerde, bu yaklaşımların her birine sırayla göz atalım.
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Power BI Desktop’ta tema oluşturma ve özelleştirme
 
-Bir temayı doğrudan Power BI Desktop’ta özelleştirmek için:
+Bir temayı doğrudan Power BI Desktop’ta özelleştirmek için beğendiğinize yakın bir tema seçip birkaç değişiklik yapabilirsiniz. İlk olarak, beğendiğinize yakın olan temayı seçin (veya herhangi bir temayla başlayıp buradan özelleştirin) ve şu adımları izleyin:
 
-1. **Giriş** şeridinde **Temayı değiştir** > **Geçerli temayı özelleştir** seçeneğini belirleyin.
+1. **Görünüm** şeridinden **Temalar** açılır düğmesini ve sonra **Geçerli temayı özelleştir**’i seçin.
 
-   Şu anda rapora uygulanmış olan rapor temasını özelleştirmenin yollarını görüntüleyen bir iletişim kutusu gösterilir.
+   ![Temayı özelleştirme](media/desktop-report-themes/report-themes-06.png)
 
-   ![Temayı özelleştirme](media/desktop-report-themes/report-themes_5b.png)
+2. Geçerli temada her türlü değişikliği yapabileceğiniz bir iletişim kutusu açılır ve sonra ayarlarınızı yeni bir tema olarak kaydedebilirsiniz.
 
-2. Mevcut bir temayı beğendiyseniz ve birkaç ayarlama yapmak istiyorsanız temayı seçip (veya içeri aktarıp) **Geçerli temayı özelleştir** seçeneğini belirleyin.
-
-   ![Geçerli temayı özelleştirme](media/desktop-report-themes/report-themes_5c.png)
+   ![Geçerli temayı özelleştirme](media/desktop-report-themes/report-themes-07.png)
 
 Özelleştirilebilen tema ayarları aşağıdaki kategorilerde bulunur ve bunlar **Temayı özelleştir** penceresine gösterilir:
 
@@ -113,11 +134,11 @@ Geçerli temanın bu şekilde özelleştirilmesi, temaları özelleştirmeyi hı
 
 ### <a name="import-custom-report-theme-files"></a>Özel rapor teması dosyalarını içeri aktarma
 
-Özel rapor teması dosyasını içeri aktarmak için:
+Aşağıdaki adımları izleyerek özel bir rapor teması dosyasını da içeri aktarabilirsiniz:
 
-1. **Giriş** şeridindeki **Temayı Değiştir** düğmesini seçin ve açılan menüden **Temayı İçeri Aktar** seçeneğini belirleyin.
+1. **Görünüm** şeridini seçin ve sonra **Temalar** açılır düğmesinden **Temalara göz at**’ı seçin.
 
-   ![Temayı içeri aktar](media/desktop-report-themes/report-themes-3a.png)
+   ![Temayı içeri aktar](media/desktop-report-themes/report-themes-08.png)
 
    JSON tema dosyasının konumuna göz atmanızı sağlayan bir pencere açılır.
 
@@ -127,7 +148,7 @@ Geçerli temanın bu şekilde özelleştirilmesi, temaları özelleştirmeyi hı
 
    Tema dosyası başarıyla yüklendiğinde, Power BI Desktop işlemin başarılı olduğunu belirten bir ileti görüntüler.
 
-   ![Tema başarıyla içeri aktarıldı](media/desktop-report-themes/report-themes_5.png)
+   ![Temayı içeri aktarma başarılı](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>Rapor teması JSON dosyalarına giriş
 
@@ -172,7 +193,7 @@ Rapor temasında kullanılabilir olan renkleri görüntülemek için:
 
 3. Rapor temasının **Tema renkleri** bilgilerini görüntülemek için bir öğenin açılan öğesini seçin.
 
-   ![Tema renkleri](media/desktop-report-themes/report-themes_8.png)
+   ![Tema renkleri](media/desktop-report-themes/report-themes-09.png)
 
 Örneğimizde, Aziz Patrik Günü rapor temasından çok sayıda kahverengi ve yeşil renk uyguladıktan sonra tema renklerini görüntüleyin. Tüm yeşil renkleri görüyor musunuz? Bunun nedeni, bu renklerin içeri aktarıp uyguladığımız rapor temasında yer almasıdır.
 
@@ -184,7 +205,7 @@ Renk seçicideki **Özel renk** seçeneğini kullanarak, görseldeki belirli bir
 
 Veya, **tema renkleri** bölümünü kullanarak bir veri noktasının rengini kendiniz ayarlamak istediğinizi varsayalım. Yeni bir rapor teması uyguladığınızda bu renkler *güncelleştirilmez*. Yeni bir rapor teması uyguladığınızda güncelleştirilmelerini sağlamak amacıyla varsayılan renklerinize geri dönmek için **Varsayılana geri dön** seçeneğini belirleyin veya renk seçicinin **Tema renkleri** paletinden bir renk seçin.
 
-![Varsayılana geri dön](media/desktop-report-themes/report-themes_9.png)
+![Varsayılana geri dön](media/desktop-report-themes/report-themes-10.png)
 
 Çoğu Power BI görseli, rapor temalarına uygulanmaz.
 
@@ -230,9 +251,9 @@ Başlangıçta kullanabileceğiniz birkaç rapor teması daha aşağıda bulunma
 
 Rapor temaları sizi, kuruluşunuzu ve hatta geçerli mevsimi veya tatili Power BI Desktop raporlarınızda renkli bir şekilde yansıtabilir.
 
-## <a name="export-report-themes-preview"></a>Rapor temalarını dışarı aktarma (önizleme)
+## <a name="export-report-themes"></a>Rapor temalarını dışarı aktarma
 
-Aralık 2019’da Power BI Desktop’ın kullanıma sunulmasıyla birlikte, uygulanmış temayı dışarı aktarıp doğrudan Power BI Desktop aracılığıyla bir JSON dosyasına indirme olanağı da sağlandı. Rapor temasını dışarı aktardıktan sonra bunu diğer raporlarda kullanabilirsiniz. Bu seçenek, yerleşik temaların çoğunu JSON dosyası olarak dışarı aktarmanıza olanak tanır. Tek özel durum, temel temalar olan Klasik ve Varsayılan’dır (diğer temalar içeri aktarıldıklarında bunları temel alır).
+Uygulanmış olan geçerli rapor temasını doğrudan Power BI Desktop’tan bir JSON dosyasına dışarı aktarabilirsiniz. Rapor temasını dışarı aktardıktan sonra bunu diğer raporlarda kullanabilirsiniz. Bu seçenek, yerleşik temaların çoğunu JSON dosyası olarak dışarı aktarmanıza olanak tanır. Tek özel durum, temel temalar olan Klasik ve Varsayılan’dır (diğer temalar içeri aktarıldıklarında bunları temel alır).
 
 Geçerli temayı Power BI Desktop’tan dışarı aktarmak için:
 

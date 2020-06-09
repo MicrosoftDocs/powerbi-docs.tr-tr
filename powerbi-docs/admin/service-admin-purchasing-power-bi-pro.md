@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: cce546b489e0f49ff87af22f4955af1922f628e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fc0bfea05449b3169e7a5f73a4c096d28579b35c
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344975"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159686"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
@@ -38,6 +39,9 @@ Azure portalında lisansları atamak için, Power BI'ın Azure Active Directory 
 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Microsoft 365’te lisans satın alma
 
+> [!NOTE]
+> Lisansları genellikle Kurumsal Anlaşma gibi bir toplu lisans sözleşmesi aracılığıyla satın alıyorsanız ve kredi kartı veya banka hesabıyla satın almak yerine fatura gönderilmesini istiyorsanız siparişi farklı şekilde göndermeniz gerekir. Lisans ekleyip kaldırmak için Microsoft Kurumsal Bayiniz ile çalışın veya Toplu Lisanslama Hizmeti Merkezi’ni ziyaret edin. Daha fazla bilgi için bkz. [Abonelik lisanslarını yönetme](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+
 Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için şu adımları izleyin:
 
 1. [Microsoft 365 yönetim merkezinde](https://admin.microsoft.com) oturum açın.
@@ -57,6 +61,7 @@ Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için ş
 8. Satın alma işleminizi doğrulamak için **Faturalama** > **Ürünler ve hizmetler**’e gidin ve **Power BI Pro**’yu bulun.
 
 9. Daha fazla lisans eklemek için **Ürünler ve hizmetler** sayfasında **Power BI Pro**’yu bulun ve **Lisans ekle/kaldır**’ı seçin.
+
 
 ## <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Microsoft 365 yönetim merkezinde lisans atama
 
