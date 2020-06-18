@@ -1,6 +1,5 @@
 {
-  "build": {
-    "markdownEngineName": "markdig",
+    "build": {    
     "content": [
       {
         "files": [
@@ -43,7 +42,7 @@
         "v-thepet"
       ],
       "searchScope": [
-        "Power-BI"
+        "Power BI"
       ],
       "titleSuffix": "Power BI",
       "feedback_system": "GitHub",
@@ -61,13 +60,14 @@
       ]
     },
     "fileMetadata": {
-      "featureFlags": {
-        "**/*.md": [
-          "show_binary_rating"
-        ]
-      }
+          "featureFlags": {
+              "**/*.md": [
+                 "show_binary_rating"
+              ]
+          }
     },
     "template": [],
-    "dest": "powerbi-docs"
+    "dest": "powerbi-docs",
+    "markdownEngineName": "markdig"
   }
 }
