@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: Veri modeli boyutunu azaltma
               href: import-modeling-data-reduction.md
+            - name: Tarih tabloları oluşturma
+              href: model-date-tables.md
             - name: Otomatik tarih/saat kılavuzu
               href: auto-date-time.md
             - name: Bire bir ilişkiler
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: Bileşik model kılavuzu
               href: composite-model-guidance.md
+            - name: Satır düzeyi güvenlik (RLS) kılavuzu
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: DIVIDE işleviyle bölme işlecini (/) karşılaştırma

@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: Görsel kişiselleştirme
               href: end-user-personalize-visuals.md
+            - name: Görsellerdeki dalgalanmaları analiz etme
+              href: end-user-analyze-visuals.md
             - name: Power BI’daki sayfalandırılmış raporlar
               items:
                 - name: Sayfalandırılmış raporlar
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
               href: end-user-show-data.md
+            - name: Görseli kopyalayıp başka bir yere yapıştırma
+              href: end-user-copy-paste.md
             - name: Görselde detaya gitme
               href: end-user-drill.md
             - name: ArcGIS haritaları ile etkileşim kurma

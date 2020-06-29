@@ -18,6 +18,8 @@
           href: embed-sample-for-your-organization.md
         - name: Müşteriler için sayfalandırılmış raporlar ekleme
           href: embed-paginated-reports-customers.md
+        - name: Kuruluşunuz için sayfalandırılmış raporlar ekleme
+          href: embed-paginated-reports-organization.md
         - name: Ulusal bulutlar için içerik ekleme
           href: embed-sample-for-customers-national-clouds.md
     - name: Kavramlar

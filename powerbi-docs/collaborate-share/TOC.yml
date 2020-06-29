@@ -49,8 +49,12 @@
           items:
             - name: Panoları ve raporları paylaşma
               href: service-share-dashboards.md
+            - name: Bir rapora veya panoya erişim isteme
+              href: service-request-access.md
             - name: Rapor filtreleme ve paylaşma
               href: service-share-reports.md
+            - name: Raporları veya panolar paylaşma sorunlarını giderme
+              href: service-troubleshoot-sharing.md
             - name: URL’de sorgu dizesi parametreleri kullanarak rapor filtreleme
               href: service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama

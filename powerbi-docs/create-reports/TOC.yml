@@ -47,6 +47,8 @@
       items:
         - name: Power BI raporları
           items:
+            - name: Power BI modern şerit
+              href: desktop-ribbon.md
             - name: Rapor görünümü ile çalışma
               href: desktop-report-view.md
             - name: Raporlardaki filtre türleri

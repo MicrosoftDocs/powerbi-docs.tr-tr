@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 8ca7d8b2d4582b309d06363d0c6b87383e1b2550
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.openlocfilehash: adb776b24dd356b70d4438ea74a49f58f6905a56
+  ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83273351"
+  ms.lasthandoff: 06/19/2020
+  ms.locfileid: "85094773"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -49,8 +49,6 @@ landingContent:
       url: star-schema.md
     - text: Veri azaltma teknikleri
       url: import-modeling-data-reduction.md
-    - text: Otomatik tarih/saat kılavuzu
-      url: auto-date-time.md
     - text: Bire bir ilişkiler
       url: relationships-one-to-one.md
     - text: Çok-çok ilişkileri
@@ -65,6 +63,8 @@ landingContent:
       url: directquery-model-guidance.md
     - text: Bileşik model kılavuzu
       url: composite-model-guidance.md
+    - text: Satır düzeyi güvenlik (RLS) kılavuzu
+      url: rls-guidance.md
 - title: DAX
   linkLists:
   - linkListType: concept

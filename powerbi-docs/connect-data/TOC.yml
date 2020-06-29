@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Bir Snowflake bilgi işlem ambarına bağlanma
               href: desktop-connect-snowflake.md
+            - name: Power BI hizmetinde Snowflake’e bağlanma
+              href: service-connect-snowflake.md
             - name: Azure Maliyet Yönetimi bağlayıcısı ile görsel oluşturma
               href: desktop-connect-azure-cost-management.md
             - name: Azure Tüketim Öngörüleri verilerine bağlanma

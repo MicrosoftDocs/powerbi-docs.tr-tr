@@ -52,7 +52,7 @@
               href: mobile-apps-deep-link-specific-location.md
             - name: Power BI mobil uygulamalarında bir raporu konuma göre filtreleme
               href: mobile-apps-geographic-filtering.md
-            - name: OAuth seçeneğini kullanarak Reporting Services'e bağlanma
+            - name: OAuth kullanarak Reporting Services'e bağlanma
               href: mobile-oauth-ssrs.md
         - name: iOS ve Android
           items:
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS cihazı arama tümleştirmesi
               href: mobile-apps-iOS-search-integration.md
+            - name: Koyu mod
+              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch uygulaması
               href: mobile-apple-watch.md
         - name: Android cihazlar
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: Şirket içi raporları ve KPI’leri görüntüleme
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Power BI’yı Surface Hub’da görüntüleme
+            - name: Surface Hub ve Windows 10 cihazlarında sunu modu
               href: mobile-windows-10-app-presentation-mode.md
             - name: Windows uygulamasında Çoklu Oturum Açma
               href: mobile-windows-10-app-single-sign-on-sso.md

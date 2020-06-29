@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: ABD Kamu kuruluşu kaydetme
               href: service-govus-signup.md
-        - name: Bölgesel bulutlarda Power BI
+        - name: Ulusal bulutlarda Power BI
           items:
             - name: Go Local German bölgelerine geçirme
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: Hizmet sorumlularıyla otomasyon
               href: service-premium-service-principal.md
+            - name: XMLA uç nokta bağlantı sorunlarını giderme
+              href: troubleshoot-xmla-endpoint.md
     - name: Başvuru
       items:
         - name: 'PowerShell, REST API’ler ve .NET SDK'
