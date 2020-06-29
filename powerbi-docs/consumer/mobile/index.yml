@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/11/2020
-  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 2d15b3e6bf3ab2c097353ecf7647c244db8cdcdc
+  ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78923920"
+  ms.lasthandoff: 06/11/2020
+  ms.locfileid: "84681894"
 landingContent:
 - title: Power BI mobil uygulamaları hakkında
   linkLists:
@@ -29,7 +29,7 @@ landingContent:
       url: mobile-whats-new-in-the-mobile-apps.md
     - text: Mobil uygulama Giriş sayfası
       url: mobile-apps-home-page.md
-- title: başlarken
+- title: Kullanmaya başlayın
   linkLists:
   - linkListType: get-started
     links:
@@ -43,7 +43,7 @@ landingContent:
     links:
     - text: Panoları ve raporları keşfetme
       url: mobile-apps-quickstart-view-dashboard-report.md
-- title: Araştırın
+- title: Araştır
   linkLists:
   - linkListType: tutorial
     links:
@@ -55,8 +55,8 @@ landingContent:
       url: mobile-apps-offline-data.md
     - text: Pano veya raporu paylaşma
       url: mobile-share-dashboard-from-the-mobile-apps.md
-    - text: Veri uyarıları ayarlama
-      url: mobile-set-data-alerts-in-the-mobile-apps.md
+    - text: Mobil uygulamalar için raporları iyileştirme
+      url: ../../create-reports/desktop-create-phone-report.md
 - title: Şirket içi raporlar
   linkLists:
   - linkListType: how-to-guide
