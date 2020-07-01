@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561674"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219686"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 961020bc1e4296274e9929f663b30bcea60e12b9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040516"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220690"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI hizmetindeki sık kullanılan panolar, raporlar ve uygulamalar
 

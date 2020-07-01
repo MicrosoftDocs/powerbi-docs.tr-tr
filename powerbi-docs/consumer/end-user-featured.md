@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/19/2020
+ms.topic: how-to
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c91bcf3552f77edfeb9373604416c09015e5e062
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065628"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220529"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 

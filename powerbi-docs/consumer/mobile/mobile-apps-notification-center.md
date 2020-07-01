@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e317b9205878ca9a22a652a7ffb1f4718ab63efc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c12a2eb919dcef3b9decde9a15f799d78dc18e6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276111"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220483"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bildirim alma
 Aşağıdakiler cihazlar için geçerlidir:

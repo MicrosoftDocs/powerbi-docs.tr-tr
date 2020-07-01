@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279561"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220069"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler cihazlar için geçerlidir:

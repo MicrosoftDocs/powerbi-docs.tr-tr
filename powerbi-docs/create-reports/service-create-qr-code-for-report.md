@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 52fb546df2c5e0523b218d00755ec273cac85f25
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 544a4e476d730a6bccc02f476903005ca19a5cca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314800"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219356"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Mobil uygulamalarda kullanmak üzere Power BI'daki bir rapor için QR kodu oluşturma
 Power BI'daki QR kodları ile gerçek dünyadaki her şey, ilgili BI bilgilerine, gezinti ve arama gerekmeden doğrudan bağlanabilir.

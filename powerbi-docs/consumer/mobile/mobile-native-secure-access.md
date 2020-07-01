@@ -4,15 +4,15 @@ description: Power BI verilerinize erişebilmeniz için ek kimlik bilgileri iste
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802813"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220023"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Power BI uygulamasını Face ID, Touch ID, geçiş kodu veya biyometrik verilerle koruma 
 

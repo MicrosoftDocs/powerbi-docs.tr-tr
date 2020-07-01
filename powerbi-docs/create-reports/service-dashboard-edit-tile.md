@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 287efccb4e8c11e310d1ac9f30449d7527983362
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fd6117e3f5de4e8e82535c2594eec53d71117301
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349506"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219379"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 

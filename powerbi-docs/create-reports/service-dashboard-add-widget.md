@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f98fb7a9d5a01c70eb8cef2a8d5befdbe919d796
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314547"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219485"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve daha fazlasını ekleme
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
-ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
+ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "82944832"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219793"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
 

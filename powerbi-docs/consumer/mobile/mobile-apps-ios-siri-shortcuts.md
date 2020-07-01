@@ -6,15 +6,15 @@ manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: e5df11f6321481e95718ddda39dca300079277a1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a0bafb505412db8d2126ba86df3c256d1b7d1c7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76538003"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85220253"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Power BI Mobil iOS Uygulamasında Siri Kısayollarını kullanma
 

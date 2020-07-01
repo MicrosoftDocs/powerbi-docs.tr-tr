@@ -4,15 +4,15 @@ description: Power BI mobil uygulamasındaki bir Power BI panosunu Windows 10 Ba
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: 2377505586aea70b8bedd62f22e7716ce870749e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82255750"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219862"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI mobil uygulamasındaki bir panoyu Windows 10 Başlangıç ekranına sabitleme
 Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows Başlangıç ekranına sabitleyebilirsiniz. Başlangıç ekranında bulunan kutucuğa tıkladığınızda pano Windows 10 için Power BI mobil uygulamasında açılır.
