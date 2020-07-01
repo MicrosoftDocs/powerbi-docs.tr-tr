@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8ef72f25509fe41c983e7385095fdad5985f5de
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: a872c0ada80a7168ebc6bb545de1ad474c4561b7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793524"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226370"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel’de Power BI öne çıkan tablolarına erişme (önizleme)
 

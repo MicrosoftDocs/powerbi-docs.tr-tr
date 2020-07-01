@@ -7,15 +7,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 6448fd85f281024aaaf03973496eaa0c4350c13b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693886"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226261"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online’da rapor web bölümü ekleme
 

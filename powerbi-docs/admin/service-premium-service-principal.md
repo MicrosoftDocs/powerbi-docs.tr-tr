@@ -6,15 +6,15 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120944"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227211"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 

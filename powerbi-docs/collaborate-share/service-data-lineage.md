@@ -4,16 +4,17 @@ description: Modern iş zekası (BI) projelerinde verilerin veri kaynağından h
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
-ms.date: 02/27/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348218"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226424"
 ---
 # <a name="data-lineage"></a>Veri kökeni
 Modern iş zekası (BI) projelerinde verilerin veri kaynağından hedefine akışını anlamak güç olabilir. Birden çok veri kaynağına, yapıta ve bağımlılığa yayılan gelişmiş analiz projeleri oluşturduğunuzda bu güçlük daha da artar. "Bu verileri değiştirirsem ne olur?" veya "Bu rapor neden güncel değil?" gibi soruları yanıtlamak kolay olmayabilir. Bunu anlamak için bir uzman takımı veya derin bir araştırma gerekebilir. Veri kökeni görünümünü, bu soruları yanıtlamanıza yardımcı olmak için tasarladık.

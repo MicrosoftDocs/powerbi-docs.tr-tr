@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159870"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227681"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 

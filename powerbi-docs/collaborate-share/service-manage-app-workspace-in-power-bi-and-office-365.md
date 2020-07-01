@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693796"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226008"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI ve Microsoft 365'te çalışma alanınızı yönetme
 

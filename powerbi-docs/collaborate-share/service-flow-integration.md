@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9e8f90465ab7b5b9545460de8d763061bf9bcf94
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 85d3ab05359094fbc0bd05b0fdb70fb73e4acec8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275030"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226186"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate ve Power BI
 

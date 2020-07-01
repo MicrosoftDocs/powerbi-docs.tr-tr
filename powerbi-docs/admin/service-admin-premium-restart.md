@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fcf9dccef980413374e80fdecd028eb2a8bdc1e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74014048e7c0d53cb4b2273463752ab7ef3a528
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274547"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227912"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 

@@ -3,17 +3,17 @@ title: Veri kümesi ve veri akışı onaylamasını ayarlama (önizleme)
 description: Kuruluşunuzda veri kümesi ve veri akışı onaylama işlemini ayarlamayı öğrenin.
 author: paulinbar
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 03/22/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: ae47c6ea0c7b9bf629f55701ba4242a195dc164d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274409"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227535"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Veri kümesi ve veri akışı onaylamasını ayarlama (önizleme)
 

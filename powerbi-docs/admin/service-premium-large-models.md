@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 93d24ca00ee33733a461bb553dd7e344a1a8b6f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274340"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227260"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 

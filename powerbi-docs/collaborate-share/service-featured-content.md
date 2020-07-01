@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83142303"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226048"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 

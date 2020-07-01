@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 941e67984405392a76a7302d297479bbeccb7842
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fee1c7d0ff71b683a9f74b416e51e4515f6295ca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137158"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228035"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Yönetim portalında kapasiteleri izleme
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 606f45cee844812b68bbbe774665b6a4c09cd09b
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 74063dc581cce3d63395be5f99e0232a9e7a69a2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733451"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225896"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Kurumsal içerik paketleri: Kopyalama, yenileme ve erişim kazanma
 

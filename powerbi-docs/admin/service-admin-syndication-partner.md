@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159777"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227572"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Microsoft 365 iş ortağı aboneliğine Power BI’ı ekleme
 

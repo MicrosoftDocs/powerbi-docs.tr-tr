@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f29c06423d9e743b18e7c926e9eee170794752ac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134744"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227719"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 

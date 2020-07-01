@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 9bb424e2e7f9e8bd32769813958d14a808339aa8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733520"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225925"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Öğretici: Power BI kurumsal içerik paketi oluşturma ve yayımlama
 

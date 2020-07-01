@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e6e18677d3ad9f9f0cf29db03b6e489416354411
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120663"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226822"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
 
