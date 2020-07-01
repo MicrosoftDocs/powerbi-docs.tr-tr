@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a5dba001247518c0d2c0329fcb0e90573934d30d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564421"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228253"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
 

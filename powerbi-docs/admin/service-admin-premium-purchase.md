@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd2966ddab5abfda92deb7f5ef2d2b76204adcd5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: af2af9ebe223917b78e2633c465e4ded8f2cb0bf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138070"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228160"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 

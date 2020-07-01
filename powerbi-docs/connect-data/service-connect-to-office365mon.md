@@ -5,16 +5,16 @@ author: paulinbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0ea51e76e9637c78b4f8e18f8a38b35e29f00eee
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337455"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229900"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI ile Office365Mon'a bağlanma
 Office 365 ile ilgili hizmet kesintilerinizi ve sistem durumuna ilişkin performans verilerinizi Power BI ve Office365Mon şablon uygulamasıyla kolayca analiz edebilirsiniz. Power BI, hizmet kesintileri ve sistem durumu araştırmalarının yer aldığı verilerinizi alır ve ardından kullanıma hazır bir pano ve bu verilere dayalı raporlar oluşturur.

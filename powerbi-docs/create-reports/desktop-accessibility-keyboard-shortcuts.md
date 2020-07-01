@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bf3f25adb916e158ee879cb96ab43655c72903d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310292"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229129"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop klavye kısayolları
 

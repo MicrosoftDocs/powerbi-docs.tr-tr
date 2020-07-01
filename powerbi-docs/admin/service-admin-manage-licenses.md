@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 16cd210955ff358bd6bf64346b4e3169648bab8d
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160031"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228452"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI kullanıcıları lisanslarını görüntüleme ve yönetme
 

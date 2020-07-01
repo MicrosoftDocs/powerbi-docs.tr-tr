@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a8504bcd8045b248968b30b24dd4ff5b3af4cab4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564374"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228119"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Uygulama ile Premium kapasiteleri izleme
 

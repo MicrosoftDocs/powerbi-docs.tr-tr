@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329083"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229034"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
 

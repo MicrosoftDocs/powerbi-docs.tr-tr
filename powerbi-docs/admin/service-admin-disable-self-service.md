@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 751db634ceb9e7d6349b35f7348b09e0c0d648ed
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 216be5b7a72d32e78933c7b6ceb879ccfbb4dd92
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160077"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228481"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Self servis kaydolma ve satın alma işlemlerini etkinleştirme veya devre dışı bırakma
 

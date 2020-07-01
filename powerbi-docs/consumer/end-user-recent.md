@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f59d83823ee14648cb8c3d3fe740074d057d3425
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9956dac9a2e3b51ef18bc6c3912dee74bd58ebb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114360"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229409"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
 

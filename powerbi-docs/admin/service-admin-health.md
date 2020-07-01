@@ -5,16 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3498b893d7916c37d21e66908cbea4e6a919f978
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563703"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228524"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365'te Power BI hizmet durumunu izleme
 

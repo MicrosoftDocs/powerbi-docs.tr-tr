@@ -5,16 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c7d1c9a29c95cb039c90fd339f6e6a38de111916
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b97e26d7e8bc814452491b6363d375e9d9da9982
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563686"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228604"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 

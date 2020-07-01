@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 88a37ab244f5dfa519bdcf454220b8a7d16cd860
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277468"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229449"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 

@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160054"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228215"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Kuruluşunuz için Power BI hizmet aboneliği alma
 

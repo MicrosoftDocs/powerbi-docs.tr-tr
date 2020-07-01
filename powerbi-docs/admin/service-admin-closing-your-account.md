@@ -5,16 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e3a4d49a0b4997073488834ea785cbacb28fda2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5a84d46743522a9070c4cd9b16f7a540e3c103df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128836"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85228628"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI hesabınızı kapatma
 
