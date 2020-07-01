@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 891795eec35fbead6d66370d59db511917d4eb26
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79376834"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235445"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 

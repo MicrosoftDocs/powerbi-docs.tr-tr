@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2caa96aceef90ad1d25a521cbf4a3f699a2a64e0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76042452"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236191"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Web Uygulaması Ara Sunucusu’nu ve Active Directory Federasyon Hizmetleri’ni Kullanma - Power BI Rapor Sunucusu
 

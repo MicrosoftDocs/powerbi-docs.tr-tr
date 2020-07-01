@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cba1a79f0089fd17b69d6babf93c8a5d4b08bd6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276341"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234812"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 

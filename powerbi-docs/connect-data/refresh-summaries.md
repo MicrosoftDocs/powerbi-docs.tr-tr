@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 854b3500fa985a464130e505a889bb9981cd4151
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694401"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236005"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI için yenileme özetleri
 

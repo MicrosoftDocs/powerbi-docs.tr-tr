@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d87f06ce9da57c278478e78b2bbb47bcbbaf758b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 177d04f370e5aea0525882abe6900d6bee012c5a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83341733"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235555"
 ---
 # <a name="template-apps-samples"></a>Şablon uygulamaları örnekleri
 

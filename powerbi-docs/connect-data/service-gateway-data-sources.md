@@ -5,17 +5,17 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: cdc03dd88451e614b32642a151903b62ef3ea049
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329888"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236632"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 

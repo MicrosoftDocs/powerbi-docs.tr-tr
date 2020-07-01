@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e399eb8229cc02d0c8abf589849c2d43577dafb7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040231"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235289"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 

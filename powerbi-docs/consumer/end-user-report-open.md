@@ -5,15 +5,15 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0750ac3546242cffa9858168bb8ff376d3aad8e9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277629"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235982"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 

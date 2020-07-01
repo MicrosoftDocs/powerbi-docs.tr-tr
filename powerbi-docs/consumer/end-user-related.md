@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0930b9b38694ddbb054449951ccb41e9148a8b2c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347344"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234954"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
 

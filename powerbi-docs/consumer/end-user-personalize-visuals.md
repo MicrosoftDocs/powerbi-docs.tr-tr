@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9599d9b96b98feed4a8751c6bd028ca8b3f77ed3
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: c13e06670eb357bfb955cf503dcb5ec81aadd952
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793578"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236465"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Rapordaki görselleri kişiselleştirme
 

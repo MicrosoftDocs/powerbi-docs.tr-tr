@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8dd2a4313f3b78eac7bd0b9863d5403c31adc08
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73925872"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236137"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma
 

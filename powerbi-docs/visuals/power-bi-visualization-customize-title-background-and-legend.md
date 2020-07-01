@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8ef9aec1bf01120c8c7e765fe3c59c23da40ceab
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277146"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235863"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Görselleştirme başlıklarını, arka planlarını ve göstergelerini özelleştirme
 

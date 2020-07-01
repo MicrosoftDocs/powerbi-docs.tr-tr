@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc9d5dd80d29fe09c58354f2f7cda1b252019f32
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e86aeaf8f7254e2b28b266135ccc4a0005e927b6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312362"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236671"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
 ![](media/service-excel-workbook-files/excel_icon.png)

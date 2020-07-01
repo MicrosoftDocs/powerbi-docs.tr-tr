@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120074"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236690"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop dosyalarından veri alma
 ![](media/service-desktop-files/pbid_file_icon.png)

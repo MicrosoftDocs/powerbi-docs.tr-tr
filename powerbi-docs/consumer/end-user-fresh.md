@@ -5,16 +5,16 @@ author: mihart
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040125"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235007"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
 

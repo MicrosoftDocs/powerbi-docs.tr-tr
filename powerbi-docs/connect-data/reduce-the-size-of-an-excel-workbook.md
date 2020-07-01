@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327243"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234789"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
 Power BI'a boyutu 1 GB'ın altındaki herhangi bir Excel çalışma kitabını yükleyebilirsiniz. Bir Excel çalışma kitabı iki bölümden oluşabilir: Veri Modeli ve raporun geri kalanını oluşturan temel çalışma sayfası içeriği. Aşağıdaki boyut sınırlarına uygunsa, raporu **OneDrive İş**'e kaydedebilir, Excel Online'da görüntüleyebilir veya Power BI'dan rapora bağlanabilirsiniz:

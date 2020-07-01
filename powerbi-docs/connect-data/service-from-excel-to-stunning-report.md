@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9758f706b90f74c7c7f9d1feff2b00516e6c324c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc9f8fd66360377e7ed166bf5cfa5c8ddec2c4d6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347505"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236713"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Power BI hizmetinde Excel çalışma kitabından muhteşem raporlar elde etme
 Yöneticiniz gün bitimine kadar, son kampanyaya ilişkin izlenimlerinizle birlikte güncel satış rakamlarınızın yer aldığı bir rapor sunmanızı istiyor. Ancak, güncel verileriniz çeşitli üçüncü taraf sistemlerde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.

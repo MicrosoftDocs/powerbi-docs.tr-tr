@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1e47b6fb3b402c14e9973dd2ad69b574ad6a2e54
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145379"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236383"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
 

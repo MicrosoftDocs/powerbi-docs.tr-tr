@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c3846ba2e9a9fe083b6a3833237ffbc26b04842a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323632"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235805"
 ---
 # <a name="configure-scheduled-refresh"></a>Zamanlanmış yenileme yapılandırma
 

@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565335"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236202"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Ağ geçidiyle ilgili sorunları giderme - Power BI
 
@@ -54,7 +54,7 @@ Bu hata farklı nedenlerden kaynaklanıyor olabilir. Söz konusu veri kaynağın
 
 Daha fazla bilgi için **Olay Günlükleri** > **Uygulama ve Hizmet Günlükleri** > **Şirket içi veri ağ geçidi hizmeti** bölümüne de göz atabilirsiniz.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Hata: \<Sunucuya\> bağlanmaya çalışırken bir hata ile karşılaştık. Ayrıntılar: "Veri ağ geçidi hizmetine eriştik ancak ağ geçidi, şirket içinde veri kaynağına erişemiyor."
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Hata: \<server\> öğesine bağlanmaya çalışırken bir hatayla karşılaştık. Ayrıntılar: "Veri ağ geçidi hizmetine eriştik ancak ağ geçidi, şirket içinde veri kaynağına erişemiyor."
 
 Belirtilen veri kaynağına bağlanamadığınızı gösterir. Söz konusu veri kaynağı için sağlanan bilgileri doğruladığınızdan emin olun.
 

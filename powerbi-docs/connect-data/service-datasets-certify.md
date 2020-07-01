@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a6d03521cd3962dcf9549d99076d8606b1142976
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: d480eb8d950b3ed0e454d3cbafdfc5a3655dcfba
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792933"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236821"
 ---
 # <a name="certify-datasets---power-bi"></a>Veri kümelerini onaylama - Power BI
 

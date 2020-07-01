@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d92d7a3095ff2f252a09834becf90d5efc1811a0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fd6de43a05f6964a767758b6091c09043f9a0f34
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113072"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236439"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 

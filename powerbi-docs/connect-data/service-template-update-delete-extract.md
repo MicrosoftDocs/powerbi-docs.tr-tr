@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 26587969263dc403dbc86c1ba4290f75f1ad1c41
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332487"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235623"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0283a2922c4c7dae907fe8aad4d72c9940c46697
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83328163"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235726"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI hizmetinde R paketlerini kullanarak görsel oluşturma
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -86,7 +86,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |bayesmix|0.7-4|https://cran.r-project.org/web/packages/bayesmix/index.html|
 |bayesplot|1.5.0|https://cran.r-project.org/web/packages/bayesplot/index.html|
 |bayesQR|2.3|https://cran.r-project.org/web/packages/bayesQR/index.html|
-|bayesSurv|3.2|https://cran.r-project.org/web/packages/bayesSurv/index.html|
+|bayesSurv|3,2|https://cran.r-project.org/web/packages/bayesSurv/index.html|
 |Bayesthresh|2.0.1|https://cran.r-project.org/web/packages/Bayesthresh/index.html|
 |BayesTree|0.3-1.4|https://cran.r-project.org/web/packages/BayesTree/index.html|
 |BayesValidate|0,0|https://cran.r-project.org/web/packages/BayesValidate/index.html|
@@ -95,7 +95,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |bbemkr|2.0|https://cran.r-project.org/web/packages/bbemkr/index.html|
 |BCBCSF|1.0-1|https://cran.r-project.org/web/packages/BCBCSF/index.html|
 |BCE|2.1|https://cran.r-project.org/web/packages/BCE/index.html|
-|bclust|1.5|https://cran.r-project.org/web/packages/bclust/index.html|
+|bclust|1,5|https://cran.r-project.org/web/packages/bclust/index.html|
 |bcp|4.0.0|https://cran.r-project.org/web/packages/bcp/index.html|
 |BDgraph|2.45|https://cran.r-project.org/web/packages/BDgraph/index.html|
 |beanplot|1.2|https://cran.r-project.org/web/packages/beanplot/index.html|
@@ -123,15 +123,15 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |bnlearn|4.3|https://cran.r-project.org/web/packages/bnlearn/index.html|
 |boa|1.1.8-2|https://cran.r-project.org/web/packages/boa/index.html|
 |bomrang|0.1.4|https://cran.r-project.org/web/packages/bomrang/index.html|
-|boot|1.3-20|https://cran.r-project.org/web/packages/boot/index.html|
-|bootstrap|2017.2|https://cran.r-project.org/web/packages/bootstrap/index.html|
+|başlatma|1.3-20|https://cran.r-project.org/web/packages/boot/index.html|
+|Önyükleme|2017.2|https://cran.r-project.org/web/packages/bootstrap/index.html|
 |Boruta|5.3.0|https://cran.r-project.org/web/packages/Boruta/index.html|
 |bqtl|1.0-32|https://cran.r-project.org/web/packages/bqtl/index.html|
 |BradleyTerry2|1.0-8|https://cran.r-project.org/web/packages/BradleyTerry2/index.html|
 |brew|1.0-6|https://cran.r-project.org/web/packages/brew/index.html|
 |brglm|0.6.1|https://cran.r-project.org/web/packages/brglm/index.html|
 |broom|0.4.4|https://cran.r-project.org/web/packages/broom/index.html|
-|bspec|1.5|https://cran.r-project.org/web/packages/bspec/index.html|
+|bspec|1,5|https://cran.r-project.org/web/packages/bspec/index.html|
 |bspmma|0.1-1|https://cran.r-project.org/web/packages/bspmma/index.html|
 |bupaR|0.4.0|https://cran.r-project.org/web/packages/bupaR/index.html|
 |BVS|4.12.1|https://cran.r-project.org/web/packages/BVS/index.html|
@@ -189,7 +189,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |ctv|0.8-4|https://cran.r-project.org/web/packages/ctv/index.html|
 |cubature|1.3-11|https://cran.r-project.org/web/packages/cubature/index.html|
 |Cubist|0.2.1|https://cran.r-project.org/web/packages/Cubist/index.html|
-|curl|3.2|https://cran.r-project.org/web/packages/curl/index.html|
+|curl|3,2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
 |d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
@@ -198,7 +198,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
 |veri kümeleri|3.4.4|NA|
-|tarih|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0,8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -230,12 +230,12 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |doParallel|1.0.12|https://cran.r-project.org/web/packages/doParallel/index.html|
 |doSNOW|1.0.16|https://cran.r-project.org/web/packages/doSNOW/index.html|
 |dotCall64|0.9-5.2|https://cran.r-project.org/web/packages/dotCall64/index.html|
-|downloader|0.4|https://cran.r-project.org/web/packages/downloader/index.html|
+|downloader|0,4|https://cran.r-project.org/web/packages/downloader/index.html|
 |dplyr|0.8.0.1|https://cran.r-project.org/web/packages/dplyr/index.html|
 |DPpackage|1.1-7.4|https://cran.r-project.org/web/packages/DPpackage/index.html|
 |DRR|0.0.3|https://cran.r-project.org/web/packages/DRR/index.html|
 |dse|2015.12-1|https://cran.r-project.org/web/packages/dse/index.html|
-|DT|0.4|https://cran.r-project.org/web/packages/DT/index.html|
+|DT|0,4|https://cran.r-project.org/web/packages/DT/index.html|
 |dtt|0.1-2|https://cran.r-project.org/web/packages/dtt/index.html|
 |dtw|1.18-1|https://cran.r-project.org/web/packages/dtw/index.html|
 |dygraphs|1.1.1.4|https://cran.r-project.org/web/packages/dygraphs/index.html|
@@ -250,7 +250,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |ellipse|0.4.1|https://cran.r-project.org/web/packages/ellipse/index.html|
 |ellipsis|0.1.0|https://cran.r-project.org/web/packages/ellipsis/index.html|
 |emmeans|1.1.2|https://cran.r-project.org/web/packages/emmeans/index.html|
-|emulator|1.2-15|https://cran.r-project.org/web/packages/emulator/index.html|
+|öykünücü|1.2-15|https://cran.r-project.org/web/packages/emulator/index.html|
 |energy|1.7-2|https://cran.r-project.org/web/packages/energy/index.html|
 |english|1.2-3|https://cran.r-project.org/web/packages/english/index.html|
 |ensembleBMA|5.1.5|https://cran.r-project.org/web/packages/ensembleBMA/index.html|
@@ -258,7 +258,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |estimability|1.3|https://cran.r-project.org/web/packages/estimability/index.html|
 |eulerr|5.1.0|https://cran.r-project.org/web/packages/eulerr/index.html|
 |EvalEst|2015.4-2|https://cran.r-project.org/web/packages/EvalEst/index.html|
-|evaluate|0.10.1|https://cran.r-project.org/web/packages/evaluate/index.html|
+|değerlendir|0.10.1|https://cran.r-project.org/web/packages/evaluate/index.html|
 |evd|2.3-2|https://cran.r-project.org/web/packages/evd/index.html|
 |evdbayes|1.1-1|https://cran.r-project.org/web/packages/evdbayes/index.html|
 |eventdataR|0.2.0|https://cran.r-project.org/web/packages/eventdataR/index.html|
@@ -297,10 +297,10 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |fontquiver|0.2.1|https://cran.r-project.org/web/packages/fontquiver/index.html|
 |forcats|0.3.0|https://cran.r-project.org/web/packages/forcats/index.html|
 |foreach|1.4.4|https://cran.r-project.org/web/packages/foreach/index.html|
-|forecast|8.7|https://cran.r-project.org/web/packages/forecast/index.html|
+|tahmin|8.7|https://cran.r-project.org/web/packages/forecast/index.html|
 |forecastHybrid|2.1.11|https://cran.r-project.org/web/packages/forecastHybrid/index.html|
 |foreign|0.8-69|https://cran.r-project.org/web/packages/foreign/index.html|
-|formatR|1.5|https://cran.r-project.org/web/packages/formatR/index.html|
+|formatR|1,5|https://cran.r-project.org/web/packages/formatR/index.html|
 |formattable|0.2.0.1|https://cran.r-project.org/web/packages/formattable/index.html|
 |Formül|1.2-2|https://cran.r-project.org/web/packages/Formula/index.html|
 |fpc|2.1-11|https://cran.r-project.org/web/packages/fpc/index.html|
@@ -401,7 +401,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |hexbin|1.27.2|https://cran.r-project.org/web/packages/hexbin/index.html|
 |hflights|0.1|https://cran.r-project.org/web/packages/hflights/index.html|
 |HH|3.1-34|https://cran.r-project.org/web/packages/HH/index.html|
-|HI|0.4|https://cran.r-project.org/web/packages/HI/index.html|
+|HI|0,4|https://cran.r-project.org/web/packages/HI/index.html|
 |highcharter|0.5.0|https://cran.r-project.org/web/packages/highcharter/index.html|
 |highr|0.6|https://cran.r-project.org/web/packages/highr/index.html|
 |HistData|0.8-2|https://cran.r-project.org/web/packages/HistData/index.html|
@@ -434,7 +434,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |janitor|1.0.0|https://cran.r-project.org/web/packages/janitor/index.html|
 |jpeg|0.1-8|https://cran.r-project.org/web/packages/jpeg/index.html|
 |jqr|1.0.0|https://cran.r-project.org/web/packages/jqr/index.html|
-|jsonlite|1.5|https://cran.r-project.org/web/packages/jsonlite/index.html|
+|jsonlite|1,5|https://cran.r-project.org/web/packages/jsonlite/index.html|
 |jsonvalidate|1.0.0|https://cran.r-project.org/web/packages/jsonvalidate/index.html|
 |jtools|0.9.4|https://cran.r-project.org/web/packages/jtools/index.html|
 |kableExtra|0.7.0|https://cran.r-project.org/web/packages/kableExtra/index.html|
@@ -487,7 +487,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |lubridate|1.7.2|https://cran.r-project.org/web/packages/lubridate/index.html|
 |magic|1.5-8|https://cran.r-project.org/web/packages/magic/index.html|
 |magick|1.8|https://cran.r-project.org/web/packages/magick/index.html|
-|magrittr|1.5|https://cran.r-project.org/web/packages/magrittr/index.html|
+|magrittr|1,5|https://cran.r-project.org/web/packages/magrittr/index.html|
 |manipulateWidget|0.9.0|https://cran.r-project.org/web/packages/manipulateWidget/index.html|
 |MAPA|2.0.4|https://cran.r-project.org/web/packages/MAPA/index.html|
 |mapdata|2.3.0|https://cran.r-project.org/web/packages/mapdata/index.html|
@@ -559,7 +559,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |NbClust|3.0|https://cran.r-project.org/web/packages/NbClust/index.html|
 |ncvreg|3.9-1|https://cran.r-project.org/web/packages/ncvreg/index.html|
 |network|1.13.0|https://cran.r-project.org/web/packages/network/index.html|
-|networkD3|0.4|https://cran.r-project.org/web/packages/networkD3/index.html|
+|networkD3|0,4|https://cran.r-project.org/web/packages/networkD3/index.html|
 |neuralnet|1.33|https://cran.r-project.org/web/packages/neuralnet/index.html|
 |ngram|3.0.4|https://cran.r-project.org/web/packages/ngram/index.html|
 |nlme|3.1-131.1|https://cran.r-project.org/web/packages/nlme/index.html|
@@ -582,7 +582,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |pacbpred|0.92.2|https://cran.r-project.org/web/packages/pacbpred/index.html|
 |padr|0.4.0|https://cran.r-project.org/web/packages/padr/index.html|
 |parallel|3.4.4|NA|
-|partitions|1.9-19|https://cran.r-project.org/web/packages/partitions/index.html|
+|bölümler|1.9-19|https://cran.r-project.org/web/packages/partitions/index.html|
 |party|1.2-4|https://cran.r-project.org/web/packages/party/index.html|
 |partykit|1.2-0|https://cran.r-project.org/web/packages/partykit/index.html|
 |PAWL|0,5|https://cran.r-project.org/web/packages/PAWL/index.html|
@@ -689,7 +689,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |RcppEigen|0.3.3.4.0|https://cran.r-project.org/web/packages/RcppEigen/index.html|
 |RcppExamples|0.1.8|https://cran.r-project.org/web/packages/RcppExamples/index.html|
 |RcppParallel|4.4.0|https://cran.r-project.org/web/packages/RcppParallel/index.html|
-|RcppProgress|0.4|https://cran.r-project.org/web/packages/RcppProgress/index.html|
+|RcppProgress|0,4|https://cran.r-project.org/web/packages/RcppProgress/index.html|
 |RcppRoll|0.2.2|https://cran.r-project.org/web/packages/RcppRoll/index.html|
 |RCurl|1.95-4.10|https://cran.r-project.org/web/packages/RCurl/index.html|
 |readbitmap|0.1-4|https://cran.r-project.org/web/packages/readbitmap/index.html|
@@ -702,7 +702,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |relimp|1.0-5|https://cran.r-project.org/web/packages/relimp/index.html|
 |rematch|1.0.1|https://cran.r-project.org/web/packages/rematch/index.html|
 |Renext|3.1-0|https://cran.r-project.org/web/packages/Renext/index.html|
-|raporlar|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
+|reports|0.1.4|https://cran.r-project.org/web/packages/reports/index.html|
 |reprex|0.1.2|https://cran.r-project.org/web/packages/reprex/index.html|
 |reshape|0.8.7|https://cran.r-project.org/web/packages/reshape/index.html|
 |reshape2|1.4.3|https://cran.r-project.org/web/packages/reshape2/index.html|
@@ -731,7 +731,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |rlist|0.4.6.1|https://cran.r-project.org/web/packages/rlist/index.html|
 |rmapshaper|0.3.0|https://cran.r-project.org/web/packages/rmapshaper/index.html|
 |rmarkdown|1.9|https://cran.r-project.org/web/packages/rmarkdown/index.html|
-|Rmisc|1.5|https://cran.r-project.org/web/packages/Rmisc/index.html|
+|Rmisc|1,5|https://cran.r-project.org/web/packages/Rmisc/index.html|
 |Rmpfr|0.7-0|https://cran.r-project.org/web/packages/Rmpfr/index.html|
 |rms|5.1-2|https://cran.r-project.org/web/packages/rms/index.html|
 |RMySQL|0.10.14|https://cran.r-project.org/web/packages/RMySQL/index.html|
@@ -808,7 +808,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |sm|2.2-5.4|https://cran.r-project.org/web/packages/sm/index.html|
 |smooth|2.4.1|https://cran.r-project.org/web/packages/smooth/index.html|
 |smoothSurv|2.0|https://cran.r-project.org/web/packages/smoothSurv/index.html|
-|sna|2,4|https://cran.r-project.org/web/packages/sna/index.html|
+|sna|2.4|https://cran.r-project.org/web/packages/sna/index.html|
 |snakecase|0.9.1|https://cran.r-project.org/web/packages/snakecase/index.html|
 |kar beyaz|0.4-2|https://cran.r-project.org/web/packages/snow/index.html|
 |SnowballC|0.5.1|https://cran.r-project.org/web/packages/SnowballC/index.html|
@@ -870,7 +870,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |tcltk|3.4.4|NA|
 |tcltk2|1.2-11|https://cran.r-project.org/web/packages/tcltk2/index.html|
 |TeachingDemos|2,10|https://cran.r-project.org/web/packages/TeachingDemos/index.html|
-|tensor|1.5|https://cran.r-project.org/web/packages/tensor/index.html|
+|tensor|1,5|https://cran.r-project.org/web/packages/tensor/index.html|
 |tensorA|0.36|https://cran.r-project.org/web/packages/tensorA/index.html|
 |testthat|2.0.0|https://cran.r-project.org/web/packages/testthat/index.html|
 |text2vec|0.5.1|https://cran.r-project.org/web/packages/text2vec/index.html|
@@ -897,17 +897,17 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |timelineS|0.1.1|https://cran.r-project.org/web/packages/timelineS/index.html|
 |timeSeries|3042.102|https://cran.r-project.org/web/packages/timeSeries/index.html|
 |timetk|0.1.0|https://cran.r-project.org/web/packages/timetk/index.html|
-|timevis|0.4|https://cran.r-project.org/web/packages/timevis/index.html|
+|timevis|0,4|https://cran.r-project.org/web/packages/timevis/index.html|
 |tm|0.7-3|https://cran.r-project.org/web/packages/tm/index.html|
 |tmap|1.11-1|https://cran.r-project.org/web/packages/tmap/index.html|
 |tmaptools|1.2-3|https://cran.r-project.org/web/packages/tmaptools/index.html|
 |TMB|1.7.13|https://cran.r-project.org/web/packages/TMB/index.html|
 |tokenizers|0.2.1|https://cran.r-project.org/web/packages/tokenizers/index.html|
-|tools|3.4.4|NA|
+|araçlar|3.4.4|NA|
 |topicmodels|0.2-7|https://cran.r-project.org/web/packages/topicmodels/index.html|
 |TraMineR|2.0-8|https://cran.r-project.org/web/packages/TraMineR/index.html|
 |translations|3.4.4|NA|
-|tree|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
+|ağaç|1.0-39|https://cran.r-project.org/web/packages/tree/index.html|
 |ağaç haritası|2.4-2|https://cran.r-project.org/web/packages/treemap/index.html|
 |trelliscopejs|0.1.18|https://cran.r-project.org/web/packages/trelliscopejs/index.html|
 |trimcluster|0.1-2|https://cran.r-project.org/web/packages/trimcluster/index.html|

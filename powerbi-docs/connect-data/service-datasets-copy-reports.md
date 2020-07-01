@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793098"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236798"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Diğer çalışma alanlarından raporları kopyalama
 

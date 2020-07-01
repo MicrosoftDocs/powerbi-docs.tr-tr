@@ -4,16 +4,16 @@ description: Salesforce, Microsoft Dynamics CRM ve Google Analytics gibi, işlet
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7465d2f94fcddd37e20b1c1e5a2679810d1a135c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325173"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236243"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Power BI ile, Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI, hizmete bağlanmak için sizin kimlik bilgilerinizi kullanarak başlar. Verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir panoyu ve çeşitli Power BI raporlarını içeren bir Power BI *çalışma alanı* oluşturur.

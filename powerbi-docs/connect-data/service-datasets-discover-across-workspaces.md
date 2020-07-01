@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 0104d88ab926d649b7b2629e0e3427188c771948
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793020"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236788"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma
 

@@ -5,16 +5,16 @@ author: SarinaJoan
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3559b330cef803b5bc9bf2c3d22313ba59acf4cc
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327749"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235742"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Yenilemenin başarısız olması halinde Xero içerik paketi kimlik bilgilerinizi yenileme
 Xero Power BI içerik paketini kullanıyorsanız yeni bir Power BI hizmet olayı nedeniyle, içerik paketinin günlük olarak yenilenmesi ile ilgili bazı sorunlar yaşamış olabilirsiniz.

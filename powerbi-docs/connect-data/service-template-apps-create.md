@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: a99ecc89679aa83f9da9a271c5e55d12a7df3dd4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7e321bd524dcb4915273627aec6cf487126e5e1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348494"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235677"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 

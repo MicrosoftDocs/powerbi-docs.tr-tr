@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b98e99191363c6a33aa4ee99adff2ab72f48641
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344837"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234825"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Tabloya veya matrise köprü (URL) ekleme
 Bu konu başlığı altında bir tabloya köprü (URL) eklemeyi öğreneceksiniz. Veri kümesine köprü (URL) eklemek için Power BI Desktop kullanırsınız. Söz konusu köprüleri Power BI Desktop’ta veya Power BI hizmetinde rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. Ardından URL’yi veya bağlantı simgesini görüntüleyebilir ya da başka bir sütunu bağlantı metni olarak biçimlendirebilirsiniz.
@@ -92,7 +92,7 @@ Ayrıca tablodaki başka bir alanı da köprü olarak biçimlendirebilirsiniz ve
     ![Koşullu biçimlendirme Web URL’si](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > **Web URL'si** seçeneği yoksa köprüleri içeren sütunun *Veri Kategorisi* açılan kutusunda **Web URL'si** olarak **biçimlendirilmediğinden** emin olun.
+    > **Web URL'si** seçeneği yoksa köprüleri içeren sütunun **Veri Kategorisi** açılan kutusunda **Web URL'si** olarak *biçimlendirilmediğinden* emin olun.
 
 5. **Web URL’si** iletişim kutusundaki **Şu alana göre** kutusunda URL’yi içeren alanı seçin > **Tamam**’ı seçin.
 

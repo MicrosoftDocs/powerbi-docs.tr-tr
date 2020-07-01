@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 3c508578b6438b0edfc3b4c9dfb7b724418894dd
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307992"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235660"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 

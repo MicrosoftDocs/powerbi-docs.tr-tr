@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d9581a617241afbe668d8e1810c0c3f60a0835c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496507"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236054"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
 
