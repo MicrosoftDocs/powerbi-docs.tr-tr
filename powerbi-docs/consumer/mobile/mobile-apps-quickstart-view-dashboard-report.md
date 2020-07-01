@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435732"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685340"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Hızlı başlangıç: Power BI mobil uygulamalarında pano ve raporları keşfetme
 Bu hızlı başlangıçta Power BI Mobil uygulamasında hızlı bir tura katılacak, örnek pano ve raporu inceleyeceksiniz. iOS için Power BI uygulaması gösterilir ama diğer cihazlarda da kolayca takip edebilirsiniz.
@@ -47,8 +47,6 @@ Pano, şirketinizin yaşam döngüsünün ve işlemlerinin yer aldığı bir por
     ![Çalışma Alanım'da panolar](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     Power BI panoları mobil cihazınızda Power BI hizmetindekinden biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
-
-5. Yıldız simgesine dokunun ![Sık kullanılanlar yıldız simgesi](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) dokunarak bunu sık kullanılan bir pano yapın. Mobil uygulamada bir sık kullanılan oluşturduğunuzda Power BI hizmetinde de sık kullanılan olur; aynı durum karşılıklı olarak geçerlidir.
 
 6. Sayfayı aşağı kaydırın ve "Bu Yılın Satışları, Geçen Yılın Satışları" adlı doldurulmuş çizgi grafiğe dokunun.
 

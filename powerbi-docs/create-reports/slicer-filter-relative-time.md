@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279216"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218551"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI’da göreli saat dilimleyicisi ve filtresi kullanma
 

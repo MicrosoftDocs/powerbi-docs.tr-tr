@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 04/22/2020
+ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b3f23b85d048a4ca4232152e5d2252c522a036ac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 76c97f9fd98cc40893422645a51ae71b0973881f
+ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120257"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85094798"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
 

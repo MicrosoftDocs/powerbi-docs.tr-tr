@@ -1,17 +1,17 @@
 ---
 title: İşlevsel Uygulama Danışmanı öğrenme kataloğu
 description: Power Apps’e yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 8d7642dfbac40b3a31190bc02835a4132ee12e11
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: e4514cae5f083ace75c9703999a177da033a844d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564059"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532339"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>İşlevsel Uygulama Danışmanı öğrenme kataloğu
 

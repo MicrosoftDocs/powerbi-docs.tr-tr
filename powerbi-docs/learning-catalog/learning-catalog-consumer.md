@@ -1,17 +1,17 @@
 ---
 title: Tüketiciler öğrenme kataloğu
 description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: ba29698354116a02da3ff392347e0713cdf1e8a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268432"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532753"
 ---
 # <a name="consumers-learning-catalog"></a>Tüketiciler öğrenme kataloğu
 

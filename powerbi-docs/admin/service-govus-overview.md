@@ -10,14 +10,15 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336556"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427127"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
+
 Bu makale Microsoft 365 Kamu planı kapsamında Power BI dağıtımı yapan ABD kamu müşterilerine yöneliktir. Kamu planları ABD uyumluluk ve güvenlik standartlarına uyması gereken kuruluşların benzersiz gereksinimlerine yönelik tasarlanmıştır. ABD kamu müşterileri için tasarlanmış Power BI hizmeti, Power BI hizmetinin ticari sürümünden farklıdır. Bu özellik farklılıkları ve beceriler aşağıdaki bölümlerde açıklanmıştır.
 
 ## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>Microsoft 365 Kamu planınıza Power BI ekleme
@@ -33,13 +34,14 @@ Yeni bir müşteriyseniz Microsoft 365 Kamu planına kaydolmadan önce kuruluşu
 >
 >
 ## <a name="government-cloud-instances"></a>Kamu bulutu örnekleri
+
 Microsoft 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluşlarına farklı ortamlar sağlar. Ortamlar hakkında daha fazla bilgi için şu sayfalara bakın:
 
 * Federal yönetim, eyalet yönetimi ve yerel yönetim için tasarlanan [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).
 
 * [Microsoft 365 Government Community Cloud (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) federal kurumlar, savunma sektörü, havacılık sektörü ve denetimli sınıflandırılmamış bilgiler bulunduran diğer kuruluşlar için tasarlanmıştır. Bu ortam ulusal güvenlik kuruluşlarına ve Uluslararası Silah Trafiği Yönetmeliği (ITAR) verilerinin veya Savunma Federal İktisap Yönetmeliği Ekleri (DFARS) gereksinimlerinin söz konusu olduğu şirketlere uygundur.
 
-* [Microsoft 365 DoD ortamı](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır. 
+* [Microsoft 365 DoD ortamı](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır.
 
 ## <a name="connect-to-power-bi-for-us-government"></a>ABD kamu için Power BI’a bağlanma
 
@@ -68,7 +70,7 @@ Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bi
 * USGov Texas
 * USGov Arizona
 
-Genel bulutta IP alanları kullanılabilir. ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin. 
+Genel bulutta IP alanları kullanılabilir. ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin.
 
 SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik duvarı kurallarını oluşturma ve yönetme](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
@@ -84,7 +86,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |Office 365 Güvenlik ve Uyumluluk yönetim merkezi üzerinden denetim|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Dış kullanıcı paylaşımı|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Raporlar ve panolar için kullanım ölçümleri|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |GCC ile ticari bulut arasında Azure B2B|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+|  |GCC ile ticari bulut arasında Azure B2B|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
@@ -112,4 +114,4 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 * [ABD kamu için Power BI'a kaydolma](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demosu</a>
+* [Power BI US Government Demosu](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75222115"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739357"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 
@@ -645,7 +645,7 @@ Bir sonraki öğreticide özel görsele biçimlendirme seçenekleri eklemeyi ö�
 
 ## <a name="debugging"></a>Hata ayıklama
 
-Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/) giderek göz atabilirsiniz.
+Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals) giderek göz atabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

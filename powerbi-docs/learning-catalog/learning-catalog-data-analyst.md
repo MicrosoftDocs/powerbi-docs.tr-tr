@@ -1,17 +1,17 @@
 ---
 title: Veri analisti öğrenme kataloğu
 description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565776"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532201"
 ---
 # <a name="data-analyst-learning-catalog"></a>Veri Analisti öğrenme kataloğu
 
@@ -55,6 +55,11 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 | [Power BI Verilerinizden Görsel Oluşturun: Temel Grafik Türleri ve Kullanma Yöntemleri](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | Grafik türü görsel analizin en temel yapı taşlarından biridir. Grafikleri doğru kullandığımızda doğru desenleri ve netliği oluşturabilir ve kullanıcılarımıza doğru yanıtları sağlayabiliriz.  | Web Semineri |             |
 | [Yeni Power BI ve data.world bağlayıcısı ile genel veya özel veri kümelerini görselleştirme](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | Microsoft, data.world ile işbirliği yaparak data.world veri kümelerini Power BI Desktop'ta içeri aktarmanıza imkan tanıyan yeni bir veri bağlayıcısı yayınladı. data.world ile birlikte veri tutkunlarına verileri daha kolay toplama, yönetme, keşfetme, görselleştirme ve içgörüleri başkalarıyla paylaşma konusunda yardımcı olmaktan dolayı heyecanlıyız.  | Web Semineri |             |
 | [Power BI panonuzda gerçek zamanlı görselleştirmeleri kullanarak eyleme dönüştürülebilir içgörüler elde etme](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | Power BI panonuzda gerçek dünyanın görselleştirmelerinin nasıl kullanılacağını adım adım gösteren Charles Sterling ve Shakun Grover’a katılın.  Microsoft Visio verilerin görsel olarak bağlamını belirlemek ve süreç akışlarını göstermek için harika bir tuval sunuyor. İçgörüleri ve eylemleri ortaya çıkarmak için, Power BI için bu yeni Visio görselini kullanarak Visio’nun güçlü görselleştirme özelliklerini  doğrudan Power BI panolarında canlandırabilirsiniz.                              | Web Semineri | 34 dk 19 sn |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| İçerik | Açıklama | Biçim  | Uzunluk      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Power BI için Pratik DAX, Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark yeni kitabıyla birlikte Power BI’da Pratik DAX için bazı en iyi yöntemlerde size yol gösterecek   | YouTube videosu | 59 dk 41 sn |
+| [Yaratıcı DAX çözümleri, Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX dilinin bir sütunda SUM işleviyle toplama yapmaktan veya tablodaki satırları saymaktan çok daha becerikli olduğunu biliyor muydunuz? DAX, çevredeki en güçlü veritabanlarından birine sahiptir. Uygulanabilir olduğunu düşünmemiş olabileceğiniz bazı alışılmadık ve yaratıcı senaryoları inceleyen Charles Sterling ve Philip Seamark’a katılın. | Web Semineri       | 58 dk 12 sn |
 ## <a name="governance-and-deployment"></a>İdare ve Dağıtım<a name="governance-deployment"></a>
 | İçerik  | Açıklama   | Biçim  | Uzunluk |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

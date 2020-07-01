@@ -5,21 +5,21 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 110bfa0795bfe47d152fbf1778728bab6c0e0c4a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfa97a6cd8aed51f7c85b215307fd9fd3ac6e729
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323402"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219057"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümünde bir raporla etkileşim kurma
 Power BI hizmetinde ve Power BI Desktop’ta raporlar oluşturup düzenleyebilirsiniz. Power BI hizmetinde, **Düzenleme görünümünde** raporlar oluşturup düzenlersiniz. Ayrıca Power BI Desktop’ta da [Rapor görünümünde](desktop-report-view.md) raporlar oluşturup düzenlersiniz. Bu makalede, Power BI hizmetindeki Düzenleme görünümü ele alınmıştır. 
 
-Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor [kullanıcıları](../consumer/end-user-reading-view.md) için *Okuma görünümü*, rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa yine rapor oluşturmaya devam edebilirsiniz, ancak [paylaşamazsınız](../collaborate-share/service-share-reports.md).    
+Power BI hizmetinde raporlarla etkileşim kurmaya yönelik iki farklı mod vardır: Rapor *kullanıcıları* için [Okuma görünümü](../consumer/end-user-reading-view.md), rapor sahipleri ve rapor oluşturucuları için ise Düzenleme görünümü.  Raporları paylaşmanın yanı sıra başkaları tarafından oluşturulan raporları düzenlemek için bir Power BI Pro lisansı gereklidir. Pro lisansınız yoksa yine rapor oluşturmaya devam edebilirsiniz, ancak [paylaşamazsınız](../collaborate-share/service-share-reports.md).    
 
 Rapor Düzenleme görünümü'nde, hem raporda gezinme hem de rapor tasarlama için kullanabileceğiniz birçok seçenek mevcuttur. Tüm [Okuma görünümü](../consumer/end-user-reading-view.md) işlevlerinin yanı sıra birçok ek özellikten faydalanabilirsiniz. Düzenleme görünümü yalnızca raporu oluşturan veya [çalışma alanının üyesi ya da yöneticisi olarak raporun ortak sahiplerinden biri olan](../collaborate-share/service-create-distribute-apps.md) iş arkadaşlarınız tarafından kullanılabilir.
 

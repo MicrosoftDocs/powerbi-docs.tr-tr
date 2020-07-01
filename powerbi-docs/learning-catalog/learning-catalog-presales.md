@@ -1,17 +1,17 @@
 ---
 title: İş Ortağı Ön Satışları öğrenme kataloğu
 description: Power Apps’e yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 04a6589b4adb769caf2a7901d112db7c054a5764
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: 071e7f477898aa49f8324f8f57edf02210a016b7
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268409"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532247"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>İş Ortağı Ön Satışları öğrenme kataloğu
 

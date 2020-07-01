@@ -5,17 +5,18 @@ author: mihart
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-consumer
+Ms.custom: css_fy20Q4
 ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: f88040120bc21225d6637d12e992f774ba71761d
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 8a0815d6cde7f027841cda214f29322bd2b1db61
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84160307"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973511"
 ---
 # <a name="licenses-and-subscriptions-for-consumers"></a>*Tüketicilere* yönelik lisanslar ve abonelikler
 
