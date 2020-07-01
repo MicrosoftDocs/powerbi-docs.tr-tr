@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 3896d5d4698f815b5bce53dd80639ff6de975257
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006216"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239951"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI görsellerinde araç ipuçları
 

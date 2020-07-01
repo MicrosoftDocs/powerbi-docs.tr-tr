@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564165"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354881"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 
@@ -151,7 +151,7 @@ Burada Power BI hizmetinde oluşturulacak çalışma alanları için kullanılac
 
 **Download** (İndir) sekmesinde rapor listesini ve ilgili meta verileri göreceksiniz. Geçerli dışarı aktarma durumunu ve önceki dışarı aktarmanın sonucunu da görebilirsiniz.
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![indirin](media/migrate-tool/migrate-tool-download-tab.png)
 
 İki seçenek sunulur.
 

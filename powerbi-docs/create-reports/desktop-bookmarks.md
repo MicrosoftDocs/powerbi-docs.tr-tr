@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 98fcfba1996f8732e903a7c1d3fa3db9c71c1c82
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83298700"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239299"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop'ta içgörüleri paylaşmak ve hikayeler oluşturmak için yer işareti oluşturma
 Power BI Desktop'ta *yer işaretleriyle* filtreler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalarsınız. Daha sonra, kaydedilen yer işaretini seçerek söz konusu duruma geri dönebilirsiniz. 

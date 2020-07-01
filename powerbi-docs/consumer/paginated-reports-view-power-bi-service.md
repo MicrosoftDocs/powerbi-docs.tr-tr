@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: f47083c55bfaa3bc72340202ba82ada2df80fbae
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5d3a281b3ab584fb46094db13c005056e167f942
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834621"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240175"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor görüntüleme
 

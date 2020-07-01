@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47c23b256b86d33a9276bd59439a202ebbf0486f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322620"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240012"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI veri akışları ile artımlı yenilemeyi kullanma
 

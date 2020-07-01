@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ebaedf880ed88f8b729d1f9a628ce71cbd3b3b52
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488281"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354973"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
 
@@ -71,7 +71,7 @@ Bu kodu Program {...}'e ekleyin.
 
 ```csharp
        #region Get an authentication access token
-       private static string GetToken()
+       private static async Task<string> GetToken()
        {
            // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
            // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -99,7 +99,7 @@ Bu kodu Program {...}'e ekleyin.
            // AcquireToken will acquire an Azure access token
            // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
            AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-           string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
+           authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
 
            Console.WriteLine(token);
            Console.ReadLine();
@@ -136,7 +136,7 @@ namespace walkthrough_push_data
         }
 
         #region Get an authentication access token
-        private static string GetToken()
+        private static async Task<string> GetToken()
         {
             // TODO: Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612
             // and add using Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -164,7 +164,7 @@ namespace walkthrough_push_data
             // AcquireToken will acquire an Azure access token
             // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
             AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-            string token = authContext.AcquireToken(resourceUri, clientID, new Uri(redirectUri)).AccessToken;
+            authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
 
             Console.WriteLine(token);
             Console.ReadLine();

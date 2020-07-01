@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c86467d821a93853a82920c5b85eab60578c42e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311695"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240105"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI veri akışları için veri kaynaklarına bağlanma
 

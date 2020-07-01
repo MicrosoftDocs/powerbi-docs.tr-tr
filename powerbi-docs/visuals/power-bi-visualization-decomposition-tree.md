@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337062"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239830"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme
 

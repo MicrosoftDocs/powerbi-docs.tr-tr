@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f69d55e6c4f0916ac2c0c5083e062b248c4c36de
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859695"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239414"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Rapor sunucusu ürün anahtarınızı bulma
 Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.

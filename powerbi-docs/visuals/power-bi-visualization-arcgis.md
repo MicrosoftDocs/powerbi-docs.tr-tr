@@ -6,16 +6,16 @@ ms.reviewer: willt
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbdf9ea9d0bd93efef16d6924d2b78865a566111
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: c7a959085ad2099588b182d94567d36281408343
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812554"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240345"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop’ta ArcGIS haritaları oluşturma
 

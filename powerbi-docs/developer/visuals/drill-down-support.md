@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380501"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240102"
 ---
 # <a name="add-drill-down-support"></a>Detaya gitme desteği ekleme
 

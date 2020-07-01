@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a51c7f4b305fb8aab4112de3b5426d12b0e21b50
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 14ba601460a5ed025e24ff34539cf2f9bff93507
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349138"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240359"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Görsel öğeler kullanarak Power BI raporlarını geliştirme
 

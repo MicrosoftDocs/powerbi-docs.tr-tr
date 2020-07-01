@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: f003a62fb8e2b3495dee8dac7b553a2ff72bd6b1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315914"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240001"
 ---
 # <a name="the-enhanced-compute-engine"></a>Geliştirilmiş işlem altyapısı
 

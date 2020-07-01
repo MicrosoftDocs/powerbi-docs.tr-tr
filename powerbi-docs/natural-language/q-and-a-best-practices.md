@@ -4,15 +4,15 @@ description: Power BI Soru-Cevap’ı iyileştirme ve daha iyi çalışmasını 
 author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: b5865219d84c8fa388f297824550fd715f0c2923
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866874"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240426"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI’da Soru-Cevap’ı iyileştirmek için en iyi yöntemler
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap bunu yapar.

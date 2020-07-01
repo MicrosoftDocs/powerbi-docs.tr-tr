@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114532"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355065"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 
@@ -177,6 +177,8 @@ Bu yaklaşım için [yalnızca uygulama](embed-service-principal.md) belirteci o
 #### <a name="embedservicecs"></a>EmbedService.cs
 
 ```csharp
+var AuthorityURL  = "https://login.microsoftonline.com/common/"
+var ResourceURL  = "https://analysis.windows.net/powerbi/api"
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
        AuthenticationResult authenticationResult = null;
        if (AuthenticationType.Equals("MasterUser"))

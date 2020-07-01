@@ -4,15 +4,15 @@ description: Power BI Report Builder'da Power BI paylaşılan veri kümesini tem
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276640"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239784"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturma
 
@@ -26,7 +26,7 @@ Veri kümesinin Premium kapasitedeki bir çalışma alanında olması ve sizin b
 
 Power BI Rapor Oluşturucusu’ndaki bir paylaşılan veri kümesi kullanmanız için gereken ve gerekli olmayan şeylerin bir listesi verilmiştir.
 
-- Power BI Rapor Oluşturucusu. [Power BI Rapor Oluşturucusu’nu indirin ve yükleyin](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Rapor Oluşturucusu. [Power BI Rapor Oluşturucusu’nu indirin ve yükleyin](https://aka.ms/pbireportbuilder).
 - Bir Power BI veri kümesine erişmek istiyorsanız, veri kümesi için Oluşturma izninizin olması gerekir. [Oluşturma izni](../connect-data/service-datasets-build-permissions.md) hakkında bilgi edinin.
 - Rapor Oluşturucusu’nda sayfalandırılmış rapor oluşturmak için Power BI Pro lisansına sahip olmanız gerekmez. 
 - Sayfalandırılmış raporunuzu yayımlamak için Power BI Pro lisansına sahip olmanız gerekir. Ayrıca, Premium kapasitedeki bir çalışma alanı için en az bir Katkıda Bulunan rolünüzün olması gerekir. 

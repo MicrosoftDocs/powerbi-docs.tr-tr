@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1c580d403ef33f1c61d5fcd0707d78b4b331da5d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331498"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239855"
 ---
 # <a name="work-with-model-view-in-power-bi-desktop"></a>Power BI Desktop'ta Model görünümüyle çalışma
 

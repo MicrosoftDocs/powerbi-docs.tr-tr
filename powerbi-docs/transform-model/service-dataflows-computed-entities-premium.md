@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c79002cfc133be4c474aa992baa57f285ace182
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0b43864078e52381aa92e6e16366ba4fdf5fea29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313972"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239754"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium’da hesaplanan varlıkları kullanma
 
@@ -58,7 +58,7 @@ Hesaplanan varlıklarla ne tür dönüşümler gerçekleştirilebilir? Depolama 
 
 ![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
-Sonra, zenginleştirilmiş *Hesap* tablosunu hesaplamak için *Account* varlığını **ServiceCallsAggregated** varlığı ile birleştirmek istersiniz.
+Sonra, zenginleştirilmiş **Hesap** tablosunu hesaplamak için *Account* varlığını *ServiceCallsAggregated* varlığı ile birleştirmek istersiniz.
 
 ![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 

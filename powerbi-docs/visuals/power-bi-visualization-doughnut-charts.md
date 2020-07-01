@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e2c108a5d05c7095526a813d33bed718f68f4c4
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f76fe26f8b7d4f9e9c0cbe1ffe22c71d815a9307
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865357"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239731"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Power BI'da halka grafik oluşturma ve kullanma
 
