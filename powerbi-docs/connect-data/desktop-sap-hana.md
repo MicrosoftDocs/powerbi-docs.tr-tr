@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9b205a0ae9b58acf054a9afe43196e77ee404c84
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289132"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222788"
 ---
 # <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA veritabanlarına bağlanma
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2657580a27eb1be42c96ffad5881555df168d459
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83562139"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222674"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint Listesinde rapor oluşturma
 

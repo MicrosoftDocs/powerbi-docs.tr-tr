@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6da3dd980b180398cf75c8e01f81501ec5d62ed6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83127478"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221638"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI'da şerit grafikleri oluşturma
 

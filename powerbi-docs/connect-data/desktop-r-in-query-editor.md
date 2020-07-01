@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0b63e6f2a1158c413b1ce3084b8273e050de3995
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e45f8b84fd0c6b0d2c38b8849a12743d4d8e109e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83290167"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223150"
 ---
 # <a name="use-r-in-power-query-editor"></a>Power Sorgu Düzenleyicisi’nde R kullanma
 
