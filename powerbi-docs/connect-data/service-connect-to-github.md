@@ -4,16 +4,16 @@ description: Power BI için GitHub
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 56e0c3c6dde3a745448092ad118275ed847506fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693397"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230223"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI ile GitHub'a bağlanma
 Bu makalede, verileri GitHub hesabınızdan Power BI şablon uygulamasıyla çekme işlemi adım adım açıklanmaktadır. Şablon uygulaması, GitHub verilerinizi araştırmanıza olanak tanımak için pano, rapor kümesi ve veri kümesi içeren bir çalışma alanı oluşturur. Power BI için GitHub uygulaması; yapılan katkılar, sorunlar, çekme istekleri ve etkin kullanıcılar ile ilgili veriler içeren bir GitHub deposuna (depo olarak da bilinir) ilişkin içgörüler gösterir.

@@ -4,15 +4,15 @@ description: Windows 10 için Power BI mobil uygulaması, önemli şirket içi i
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 28353ec6d0b2f8a1f83544d63526748c621cb858
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a56fecdadc8eddba3fa755497a4ebc978496b7a1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694105"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231353"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows uygulamasında şirket içi raporları ve KPI'leri görüntüleme
 Windows 10 için Power BI uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 

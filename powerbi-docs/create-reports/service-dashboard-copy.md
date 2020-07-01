@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab629c15f1e1e998c3870b95993cdf7348cb15ff
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4bb8a650ad4000f1ac582c54f32dee184a492184
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314409"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231025"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir panonun kopyasını oluşturma
 ![pano](media/service-dashboard-copy/power-bi-dashboard.png)

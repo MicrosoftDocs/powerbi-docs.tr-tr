@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b060252a9f6d77d42136b38fa7fa980d0784ed46
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83283704"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231467"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib (sapcrypto.dll) kullanarak SSO için SAP BW’de Kerberos çoklu oturum açma kullanma
 

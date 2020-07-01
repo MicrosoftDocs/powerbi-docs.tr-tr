@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 93177ac56bc2d8ecfe4b85f4ab66daef6bf0f0f3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a21bccb78df5ba84d3e9a7dc07d9d392c74c0153
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320389"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231950"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>Power BI Desktop'taki araç ipuçlarını özelleştirme
 

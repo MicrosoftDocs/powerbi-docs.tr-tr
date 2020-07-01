@@ -3,19 +3,19 @@ title: DirectQuery ile Azure SQL Veritabanı
 description: DirectQuery ile Azure SQL Veritabanı
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aa4f07e32d66e7f9bdb2da7d210b2cc8c178b172
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ffdb18927d5b92ecd10eb4b9e3a3b8fcd921dea2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316052"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230573"
 ---
 # <a name="azure-sql-database-with-directquery"></a>DirectQuery ile Azure SQL Veritabanı
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273223"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232249"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 

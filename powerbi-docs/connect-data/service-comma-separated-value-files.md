@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83300356"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230487"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
 ![](media/service-comma-separated-value-files/csv_icon.png)

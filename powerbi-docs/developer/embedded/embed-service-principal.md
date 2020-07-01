@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315873"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231226"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 

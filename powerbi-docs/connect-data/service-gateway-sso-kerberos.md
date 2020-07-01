@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9f9b86b0fdb8870edafc4a28ab6bc6e72900e32d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302012"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231533"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI hizmetinden şirket içi veri kaynaklarına Kerberos tabanlı SSO yapılandırma
 

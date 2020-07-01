@@ -5,15 +5,15 @@ author: rien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: f5010362ef16d8433e2e4004bca5d7af74b3f762
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813704"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85232298"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Soru-Cevap görselleştirmelerine giriş
 

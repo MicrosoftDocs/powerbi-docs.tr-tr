@@ -4,16 +4,16 @@ description: Power BI çalışma alanınız için OneDrive'da Excel, CSV ve Powe
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62d0282af47b0d57a0b9ac307b422191b440b45c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564085"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230372"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
 [Power BI'da bir çalışma alanı oluşturduktan](../collaborate-share/service-create-distribute-apps.md) sonra Power BI çalışma alanınız için OneDrive İş'te Excel, CSV ve Power BI Desktop dosyalarınızı depolayabilirsiniz. OneDrive'da depoladığınız dosyaları güncelleştirmeye devam edebilirsiniz. Bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır. 

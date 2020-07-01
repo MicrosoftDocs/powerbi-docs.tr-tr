@@ -6,15 +6,15 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 686e722ba46d8d52483df34fe543b0a2f3a8ff83
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348586"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230885"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 

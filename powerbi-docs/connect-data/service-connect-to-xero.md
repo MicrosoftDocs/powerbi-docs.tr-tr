@@ -4,16 +4,16 @@ description: Power BI için Xero
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: adb2f66b043b09ecb584870cf96f4c491960d59b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8ac9081e1cf7d6ec4ca53863c8111e56ae3ad68e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348448"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231712"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI ile Xero'ya bağlanma
 Xero, özellikle küçük ölçekli işletmeler için tasarlanmış kullanımı kolay bir çevrimiçi muhasebe yazılımıdır. Bu Power BI şablon uygulamasıyla, Xero finansal bilgilerinizi temel alan ilgi çekici görselleştirmeler oluşturun. Varsayılan panonuz nakit pozisyonu, geliri ve giderleri, kâr zarar eğilimi, borçlu günleri ve yatırım getirisi gibi çok sayıda küçük işletme ölçümleri içerir.

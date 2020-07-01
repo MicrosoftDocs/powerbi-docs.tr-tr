@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: bf675997af1836041d29022d3fdc1f0d4a316574
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316857"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231847"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 
