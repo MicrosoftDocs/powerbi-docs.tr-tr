@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/13/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03ce7f2a8ccd2c453521d28d172ffb25c1bb28bf
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81440340"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233294"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Rapor görselleştirmesini kopyalayıp yapıştırma
 

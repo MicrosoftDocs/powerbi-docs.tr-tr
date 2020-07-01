@@ -6,16 +6,16 @@ manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273449"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233226"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Öğretici: Power BI raporuna yeni bir Power Apps görseli ekleme
 
@@ -105,7 +105,7 @@ Uygulamadaki fırsat sayısının, raporun sol üst köşesindeki sayıyla eşle
 Fırsat Analizi Örneğini artık kullanmak istemiyorsanız pano, rapor ve veri kümesini silebilirsiniz.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-Sorun giderme bilgileri için bkz. [Power BI için Power Apps görseli](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual)
+Sorun giderme bilgileri için bkz. [Power BI için Power Apps görseli](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Soru-Cevap görseli](power-bi-visualization-types-for-reports-and-q-and-a.md)    

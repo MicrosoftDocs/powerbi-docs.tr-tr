@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/18/2020
 ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5717d543d5c70bbbe7c25ed3e55778639d777170
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 52cba9c331014f8e02ae6265adaa7b23daa2b402
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866553"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233575"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop'ta Şekil Haritası görselleştirmeleri oluşturma (önizleme)
 
