@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237361"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782805"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI'da R görselleri oluşturma ve kullanma
 
@@ -104,15 +104,19 @@ Power BI hizmetindeki R görselleri için bazı sınırlamalar söz konusudur:
   
   * R betiğinin başına şu satırı ekleyin:
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * Çince, Japonca ve Korece yazı tiplerinin Power BI hizmetinde düzgün çalışması için şu ek adımların tümünü izlemeniz gerekir:
   
   * İlk olarak, *showtext* R paketini ve tüm bağımlılıklarını yükleyin. Bunu, şu betiği çalıştırarak da yapabilirsiniz:
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * Ardından, R betiğinin başına şu satırı ekleyin:
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>R paketlerine genel bakış
 R paketleri, iyi tanımlanmış bir biçimde bir araya getirilen R işlevlerinden, verilerden ve derlenmiş kodlardan oluşan koleksiyonlardır. R yüklendiğinde, standart bir paket kümesi ile birlikte gelir. Diğer paketleri ise ayrı olarak indirebilir ve yükleyebilirsiniz. Yükleme işleminin ardından kullanılabilmesi için R paketleri oturuma yüklenmelidir. Ücretsiz R paketlerinin birincil kaynağı, açılımı [Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html) olan CRAN'dir.

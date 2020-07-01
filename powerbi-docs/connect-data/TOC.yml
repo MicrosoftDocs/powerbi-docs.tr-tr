@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: Python ile görsel oluşturma
                   href: desktop-python-visuals.md
+                - name: Hangi Phyton paketlerinin desteklendiğini öğrenin
+                  href: service-python-packages-support.md
             - name: R betiklerini çalıştırma
               href: desktop-r-scripts.md
             - name: Sorgu Düzenleyicisi'nde R kullanma

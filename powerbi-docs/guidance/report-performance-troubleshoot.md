@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 04/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dd3be575946502a886bbf2b89e2a1844f4046ea7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c7ba0ce8e41281e89e2bb31f9bc6db751b95dad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276962"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485979"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Power BI’da rapor performansı sorunlarını giderme
 

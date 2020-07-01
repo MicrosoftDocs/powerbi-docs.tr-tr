@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565449"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782797"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -71,7 +71,7 @@ Bazı kuruluşlar dış kullanıcılar eklendiğinde daha fazla denetim gerektir
 
 
 
-1. BT Yöneticisi ile işlem yıldızı, Konuk kullanıcıyı el ile veya Azure Active Directory tarafından verilen API aracılığıyla davet ediyor.
+1. İşlem, Konuk kullanıcıyı el ile veya Azure Active Directory tarafından belirtilen API aracılığıyla davet eden bir BT Yöneticisi ile başlar
 2. Kullanıcı kuruluşa daveti kabul eder.
 3. Kullanıcı daveti kabul ettiğinde, Power BI bir kullanıcı harici kullanıcıyla veya içinde bulundukları bir güvenlik grubuyla bir raporu ya da panoyu paylaşabilir. Power BI normal paylaşımda olduğu gibi, dış kullanıcı da öğenin bağlantısını içeren bir e-posta alır.
 4. Dış Kullanıcı bağlantıya eriştiğinde, dizinindeki kimlik doğrulaması contoso 'nun Azure AD 'ye geçirilir ve Power BI içeriğine erişim sağlamak için kullanılır.
