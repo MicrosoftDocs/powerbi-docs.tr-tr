@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2960bb75e408011cbdf6b05117ac7f6073517f9b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315950"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238138"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Bir rapordaki metin kutusuna köprü ekleme
 Power BI Desktop veya Power BI hizmetindeki bir rapora metin kutusu ekleyebilirsiniz. Bir rapordaki metin kutusunu panoya sabitleyebilir veya doğrudan panoya bir tane ekleyebilirsiniz. Metin kutusu nerede olursa olsun, bir köprü ekleyebilirsiniz. Bu makale, bir rapordaki metin kutusuna köprü eklemeyi gösterir. 

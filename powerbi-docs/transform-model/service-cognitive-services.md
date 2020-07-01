@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: fd6fda46bce2ec11db1697566db27e696d835f87
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f352828ddbbc0d1e648498440c7c10d69b56da23
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335868"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238948"
 ---
 # <a name="cognitive-services-in-power-bi"></a>Power BI'da Bilişsel Hizmetler 
 

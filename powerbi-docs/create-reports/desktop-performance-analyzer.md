@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fd172cc41dce432e7e8f2c7f9b9f3ff67caaef4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 58cf8d2339663e4c02fda732fd4abd9c4c498576
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348264"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239112"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma
 

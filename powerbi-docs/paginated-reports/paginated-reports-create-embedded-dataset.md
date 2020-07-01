@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/5/2018
-ms.openlocfilehash: 3ca950f5562998a1591d94ee690b76fee4f3d98f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c61a89923e4451aaa0b3324d25fa7888021acbd6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922379"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238271"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Sayfalandırılmış rapor için Power BI hizmetinde tümleşik veri kümesi oluşturma
 

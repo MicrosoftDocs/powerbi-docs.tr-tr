@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/16/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 42d34868f89b854880ab69e567d5466348de2ad1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9dc436fea9c53e631fb038d3603983fe104fb999
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329681"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237089"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Veri kaynağınızı yönetme - SAP HANA
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9f017a4e93e76d91949b3cc3e12ef0c652664a91
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281450"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239176"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI raporlarında detaylandırmayı ayarlama
 Power BI raporlarında *detaylandırma* özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Rapor okuyucularınız detaylandırmayı kullandığında, diğer rapor sayfalarındaki bir veri noktasına sağ tıklar ve ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için odaklanmış sayfayı detaylandırır. Tıklandığında [detaylandırma yapan bir düğme de oluşturabilirsiniz](desktop-drill-through-buttons.md).

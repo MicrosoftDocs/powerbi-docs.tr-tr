@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/07/2020
-ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0c71a2e6c7c21dc7dc447de804e7f771cebb5369
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78919839"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239276"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>Report Builder'ı yükleme - Power BI Rapor Sunucusu
 

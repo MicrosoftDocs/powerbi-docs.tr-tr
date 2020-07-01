@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794010"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237736"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI’da veri akışları ile DirectQuery kullanma (önizleme)
 

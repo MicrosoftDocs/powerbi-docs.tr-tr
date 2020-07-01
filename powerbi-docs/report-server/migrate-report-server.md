@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/17/2019
-ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 898e2bc688e9d3e819511288484f07511c809fb8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73858890"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238032"
 ---
 # <a name="migrate-a-report-server-installation"></a>Rapor sunucusu yüklemesini geçirme
 

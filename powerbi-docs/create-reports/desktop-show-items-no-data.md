@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 469eb873dd490e5f9e23c6f42755db07d73ad1c9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 89c4c9919ac5b47a1e3c20c786b239be44c4308b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334396"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238566"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI'da öğeleri veri olmadan gösterme
 

@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: b1a0548a8c82eb30ccd004268d7ef064e1c0545a
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: a6de32e93b79b45d700ad5de1607f580dff836cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121188"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239260"
 ---
 # <a name="create-a-drill-through-button-in-power-bi"></a>Power BI’da detaylandırma düğmesi oluşturma
 

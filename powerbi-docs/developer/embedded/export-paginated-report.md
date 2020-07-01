@@ -3,16 +3,16 @@ title: Power BI raporlarını dışarı aktarma API’si
 description: Eklenmiş bir Power BI sayfalandırılmış raporunu dışarı aktarmayı öğrenin
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: acb13a70ea4693f447b70aa59da07cd91639de25
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ed3193e586dc05fe92d9c429584080ac80d86a17
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268777"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237169"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
 

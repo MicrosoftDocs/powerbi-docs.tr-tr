@@ -5,16 +5,16 @@ author: v-thepet
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a4bd02e21d6985dfe3684f9f209e7f43a45c6271
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: d38d58e2087778be40b0200d0cf6dc181996b4e3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812922"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238693"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI hizmetindeki dilimleyiciler
 

@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: a6b67ee29e6756d240f9b5decb7efe02a627a475
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84160238"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237300"
 ---
 # <a name="collaborate-in-workspaces"></a>Çalışma alanında işbirliği yapma
 

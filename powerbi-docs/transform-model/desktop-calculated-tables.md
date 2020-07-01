@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 22dc752a07c1633e0c42ceb25a8fcbf2a6314f4d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338881"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237893"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop'ta hesaplanan tablo oluşturma
 Tablo oluşturmak için çoğu zaman modelinize dışarıdaki veri kaynaklarından veri aktarırsınız. Ancak *hesaplanan tablolar* sayesinde modele önceden yüklediğini verileri kullanarak yeni tablolar ekleyebilirsiniz. Bir veri kaynağından yeni tablonuzun sütunlarına değer sorgulamak ve yüklemek yerine tablonun değerlerini tanımlayan bir [Veri Çözümleme İfadeleri (DAX)](/dax/index) formülü oluşturursunuz.

@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5696807957d6facc62a92923dcfc888bcab2154b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73873950"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237988"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 20b597507a3619b60ef1db058d0ff3c8fd63b867
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276686"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237782"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 

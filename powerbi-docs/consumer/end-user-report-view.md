@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 11f181285415039ee4455280c55bbd6a3539fe5e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1274f281c25c89776fc601caf762ad1aea5fe7f3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114257"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238845"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Bir rapor sayfasının görünümünü değiştirme
 

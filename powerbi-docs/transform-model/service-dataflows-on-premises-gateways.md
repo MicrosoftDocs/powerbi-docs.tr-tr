@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1008cf34cd09d8039107794e10dcef845ec35110
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322436"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237766"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Şirket içi veri kaynakları ile veri akışlarını kullanma
 

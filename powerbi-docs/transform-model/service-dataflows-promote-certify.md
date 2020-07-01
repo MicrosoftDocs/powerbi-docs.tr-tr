@@ -3,17 +3,17 @@ title: Veri akışlarını yükseltme veya onaylama (önizleme)
 description: Veri akışlarını yükseltme veya onaylamayı öğrenin.
 author: paulinbar
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 03/17/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7634711e8d26c4f265752427c5086e0901b210d5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 473d1375ed35e638a94f82970b29809d35482584
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268892"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237691"
 ---
 # <a name="promote-or-certify-dataflows-preview"></a>Veri akışlarını yükseltme veya onaylama (önizleme)
 

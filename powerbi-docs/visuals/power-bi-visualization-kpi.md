@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c125f1cdd30a717ae7f4cdb93cbf8ea5ed858e79
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 87e63358e2590bff1ebab6ce7816b558e72ac3e0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564735"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237657"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Ana performans göstergesi (KPI) görselleştirmeleri oluşturma
 

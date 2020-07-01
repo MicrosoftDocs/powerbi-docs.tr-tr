@@ -3,16 +3,16 @@ title: Dinamik bağlama kullanarak bir raporu veri kümesine bağlama
 description: Dinamik bağlama kullanarak rapor eklemeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: 26823061a6c0b92b1a6159a75e26f79232bf3ebc
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407607"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236852"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
 

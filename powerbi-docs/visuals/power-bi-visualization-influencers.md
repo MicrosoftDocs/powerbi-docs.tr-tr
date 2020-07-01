@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
+ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 36254e61bbb19e3dd64d920406ba78d1ee8b11ec
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: d5010097eff980bff59bea049684e381ed948514
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813773"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237847"
 ---
 # <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 

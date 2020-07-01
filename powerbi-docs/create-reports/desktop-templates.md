@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 878e82e2a65ef71a257a1ee6a28237dade564a78
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349161"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238517"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop için rapor şablonu oluşturma
 

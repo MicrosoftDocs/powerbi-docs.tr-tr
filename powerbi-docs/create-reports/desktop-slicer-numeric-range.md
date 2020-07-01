@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 39ad54b755cfa416f2baf658e74ee506a73c9322
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 91dfc9da235e9d5c8a763b3d6cba2abc11b77f6f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334350"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238593"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>Power BI’da sayısal aralık dilimleyiciyi kullanma
 

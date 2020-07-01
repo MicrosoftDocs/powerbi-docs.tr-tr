@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c898c31e87c4532b3e99c8d4ee88f34d18e2fa34
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865495"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237507"
 ---
 # <a name="create-card-visualizations"></a>Kart görselleştirmeleri oluşturma
 

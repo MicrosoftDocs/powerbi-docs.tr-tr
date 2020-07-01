@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 84f6a9d152151c6d6f44bcbad9e0a4d54fc0c293
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: d602c97384f42bdd35f12052f67b15a0ca7bae38
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793002"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236887"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Paylaşılan veri kümeleri için oluşturma izni
 
