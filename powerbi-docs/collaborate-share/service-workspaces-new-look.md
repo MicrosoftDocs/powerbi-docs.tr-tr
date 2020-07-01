@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53a4ae78fa996c1e48ed0c16e0caf15e4f687697
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 44644c23cbfd61aeb07f7688352ac905bde75a0f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347942"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225185"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>Çalışma alanının ‘yeni görünümünü’ kabul etme (önizleme)
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c5e1c290df42af24db3edbc2534270bfd165a0b0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6a0170d40413cd2833f7e31bb3bc7c5704a1f5cc
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347597"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224043"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop genel arabirimlerini kullanarak verilere bağlanma 
 

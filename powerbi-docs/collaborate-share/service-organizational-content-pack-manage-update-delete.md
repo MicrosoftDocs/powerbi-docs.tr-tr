@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f628b4d2163a52582e2089671c5394be2ddcc740
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273742"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225703"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]

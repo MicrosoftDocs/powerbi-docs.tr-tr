@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2a1fa08d01cfb05398e82cfc521d4a532ecd13ec
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83294215"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224049"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Örnek sağlayarak web sayfası verilerini alma
 

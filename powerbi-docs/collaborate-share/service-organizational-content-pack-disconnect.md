@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 81406726bacac4d2a59f513473d04a8c083c90bd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348034"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225792"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407510"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224883"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Consumption Insights verilerine bağlanma
 

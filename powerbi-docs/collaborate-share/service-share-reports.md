@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272920"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225329"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Power BI raporunu filtreleme ve paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Yalnızca belirli bir şehre, satış temsilcisine veya yıla ait verileri gösteren bir rapor istiyor olabilirsiniz. Bu makalede raporun nasıl filtrelendiği ve filtrelenmiş rapor sürümünün nasıl paylaşıldığı açıklanır. Filtrelenmiş raporu paylaşmanın bir diğer yolu da [rapor URL’sine sorgu parametreleri eklemektir](service-url-filters.md). Her iki durumda da alıcılar URL’yi ilk kez açtığında rapor filtrelenir. Rapordaki filtre seçimlerini temizleyebilirler.

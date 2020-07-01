@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: faa4c567af6cf27ea852f17a2ba3a11e4f651dc3
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733543"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225269"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 

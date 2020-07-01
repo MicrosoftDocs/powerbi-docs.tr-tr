@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f84fcc4b32468ab8ffddbb593ae97ea8fb20442a
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693615"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223924"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 

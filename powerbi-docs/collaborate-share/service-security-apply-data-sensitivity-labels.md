@@ -3,17 +3,17 @@ title: Power BI'da duyarlılık etiketleri uygulama
 description: Power BI'da veri duyarlılığı etiketlerini uygulama hakkında bilgi edinin
 author: paulinbar
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/23/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7eb2d6e2a9a60db4a06b08ba0b6470f3dbd64abc
-ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
+ms.openlocfilehash: c193c6b3397d8e47bed40cb65e5fc60e4fec9323
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "84229307"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225304"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi"></a>Power BI'da veri duyarlılığı etiketleri uygulama
 

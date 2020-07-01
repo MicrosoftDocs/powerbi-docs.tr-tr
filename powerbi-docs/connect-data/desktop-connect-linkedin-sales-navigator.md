@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d6716c575418f8ef33a82b4c4a1f32647494c47
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b87e176338552f0a90c4789d35f531fd7b12d44a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348701"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224760"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop'ta LinkedIn Satış Gezgini’ne bağlanma
 
