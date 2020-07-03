@@ -26,8 +26,6 @@
           href: desktop-tutorial-facebook-analytics.md
         - name: Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
-        - name: Power BI ile çalışmaya başlama
-          href: ../fundamentals/service-get-started.md
         - name: GitHub örneğine bağlanma
           href: service-tutorial-connect-to-github.md
         - name: Excel’de Çözümleme’yi kullanma

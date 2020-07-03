@@ -13,6 +13,10 @@
           href: power-bi-service-overview.md
         - name: Power BI Desktop ile hizmeti karşılaştırma
           href: service-service-vs-desktop.md
+    - name: Öğreticiler
+      items:
+        - name: Power BI hizmeti ile çalışmaya başlama
+          href: service-get-started.md
     - name: Kavramlar
       items:
         - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
