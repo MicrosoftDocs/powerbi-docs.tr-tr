@@ -118,6 +118,14 @@
               href: report-performance-troubleshoot.md
             - name: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Üstün Başarı Merkezi (COE)
+      items:
+        - name: Microsoft’un BI dönüşümü
+          href: center-of-excellence-microsoft-business-intelligence-transformation.md
+        - name: COE oluşturma
+          href: center-of-excellence-establish.md
+        - name: COE’de BI çözüm mimarisi
+          href: center-of-excellence-business-intelligence-solution-architecture.md
     - name: Teknik incelemeler
       items:
         - name: Teknik incelemelere genel bakış

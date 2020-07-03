@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: adb776b24dd356b70d4438ea74a49f58f6905a56
-  ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
+  ms.openlocfilehash: 92a6892c2b7b59807eb0b6ccc707ce533cd5ff55
+  ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 06/19/2020
-  ms.locfileid: "85094773"
+  ms.lasthandoff: 07/03/2020
+  ms.locfileid: "85939593"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -137,3 +137,13 @@ landingContent:
       url: monitor-report-performance.md
     - text: Rapor performansı sorunlarını çözme
       url: report-performance-troubleshoot.md
+- title: Üstün Başarı Merkezi (COE)
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Microsoft’un BI dönüşümü
+      url: center-of-excellence-microsoft-business-intelligence-transformation.md
+    - text: COE oluşturma
+      url: center-of-excellence-establish.md
+    - text: COE’de BI çözüm mimarisi
+      url: center-of-excellence-business-intelligence-solution-architecture.md
