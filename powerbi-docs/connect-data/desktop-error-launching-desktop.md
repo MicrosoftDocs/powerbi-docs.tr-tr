@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292099"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485450"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop uygulamasını açma sorunlarını giderme
 
@@ -36,7 +36,7 @@ Artık gerekmiyorsa Power BI Şirket içi veri ağ geçidi hizmetini kaldırabil
 
 Bunun yerine Power BI Desktop uygulamasını yönetici olarak başlatabilir, bu yolla başarıyla açılmasını sağlayabilirsiniz. Daha önce açıklandığı gibi, yine de Power BI şirket içi veri ağ geçidinin en son sürümünü yüklemeniz önerilir.
 
-Power BI Desktop çok işlemli bir mimari olarak tasarlanmıştır ve bu işlemlerden bazıları Windows adlandırılmış kanallarını kullanarak iletişim kurar. Bu adlandırılmış kanalları engelleyen başka işlemler de olabilir. Virüsten koruma yazılımının ya da güvenlik duvarlarının kanalları engellediği veya trafiği belirli bir bağlantı noktasına yeniden yönlendirdiği durumlar gibi, güvenlik nedeniyle böyle bir engel oluşuyor olabilir. Power BI Desktop’ı yönetici ayrıcalığıyla açmak bu sorunu çözülebilir. Yönetici ayrıcalığıyla açamıyorsanız, adlandırılmış kanalların düzgün iletişim kurmasını engelleyen güvenlik kurallarını saptamak için yöneticinize danışın. Ardından Power BI Desktop’ı ve ilgili alt işlemlerini izin verilenler listesine ekleyin.
+Power BI Desktop çok işlemli bir mimari olarak tasarlanmıştır ve bu işlemlerden bazıları Windows adlandırılmış kanallarını kullanarak iletişim kurar. Bu adlandırılmış kanalları engelleyen başka işlemler de olabilir. Virüsten koruma yazılımının ya da güvenlik duvarlarının kanalları engellediği veya trafiği belirli bir bağlantı noktasına yeniden yönlendirdiği durumlar gibi, güvenlik nedeniyle böyle bir engel oluşuyor olabilir. Power BI Desktop’ı yönetici ayrıcalığıyla açmak bu sorunu çözülebilir. Yönetici ayrıcalığıyla açamıyorsanız, adlandırılmış kanalların düzgün iletişim kurmasını engelleyen güvenlik kurallarını saptamak için yöneticinize danışın. Daha sonra, Power BI Desktop’ı ve ilgili alt işlemlerini izin verilenler listesine ekleyin.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>SQL Server'a bağlanma sorunlarını giderme
 

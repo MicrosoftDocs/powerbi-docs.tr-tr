@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.openlocfilehash: 344ce3b83bbb9922e0359e04e65c01a1a088bcb3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135426"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485496"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -67,7 +67,7 @@ Power BI kiracı yöneticisi, yönetici portalından bildirimleri etkinleştirir
     ![Hizmet bildirimlerini etkinleştirme](media/service-interruption-notifications/enable-notifications.png)
 
 > [!NOTE]
-> Power BI şu hesaptan bildirim gönderir: no-reply-powerbi@microsoft.com. Bildirimlerin istenmeyen veya önemsiz posta klasörlerine düşmemesi için bu hesabın beyaz listede bulunduğundan emin olun.
+> Power BI şu hesaptan bildirim gönderir: no-reply-powerbi@microsoft.com. Bildirimlerin gereksiz e-posta klasörüne düşmemesi için, bu hesabın güvenli gönderen listenize eklendiğinden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

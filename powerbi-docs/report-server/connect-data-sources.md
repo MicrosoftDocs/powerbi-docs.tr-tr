@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 7cb5772e6ccdc1e4036d70f65a3a28210a4f6df1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260727"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485404"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda sayfalandırılmış rapor veri kaynakları
 Power BI Rapor Sunucusu’ndaki Reporting Services sayfalandırılmış raporları, SQL Server Reporting Services’tekilerle aynı veri kaynaklarını destekler. [Reporting Services tarafından desteklenen veri kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) listesine bakın.
@@ -25,7 +25,7 @@ Oracle veri kaynaklarına bağlanmak için Power BI Rapor Sunucusu NLS’den ba�
 Varsayılan olarak rapor sunucusu ODP.NET’i yüklerken ilk istemcinin UI kültürünü kullanır.  Sonuç olarak, hizmet yeniden başlatılana kadar rapor sunucusundan Oracle’a yapılan sonraki tüm bağlantılar bu ilk UI kültüründe olacaktır.  Bu yaklaşım, UI kültürü biçimlendirmesindeki uyuşmazlıklardan dolayı rapor işlenirken sorunlara neden olabilir.
 
 Power BI Rapor Sunucusu’nda daha iyi bir deneyim sağlamak için UseInstalledUICulture adlı bir yapılandırma ayarını kullanıma sunduk. UseInstalledUICulture True olarak ayarlandığında, rapor sunucusu ODP.NET’i ilk istemcinin kültürü yerine her zaman sunucunu UI Kültüründe yükler.
-Bu ayar Şubat Hizmet Sürümünden başlayarak Power BI Rapor Sunucusu’nda kullanıma sunulmuştur
+Bu ayar Mart 2020 Hizmet Sürümünden başlayarak Power BI Rapor Sunucusu’nda kullanıma sunulmuştur.
 
 Özelliği etkinleştirmek için ORACLE uzantı girdisi rsreportserver.config dosyasını aşağıda gösterildiği gibi değiştirin.
 ```xml

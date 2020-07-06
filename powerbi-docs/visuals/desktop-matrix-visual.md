@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/10/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279193"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354720"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -49,17 +49,17 @@ Toplamlara ve alt toplamlara baktığınızda, bu değerlerin temel alınan değ
 ## <a name="expanding-and-collapsing-row-headers"></a>Satır üst bilgilerini genişletme ve daraltma
 Satır üst bilgilerini iki yolla genişletebilirsiniz. Bunların ilki sağ tıklatma menüsüdür. Seçtiğiniz belirli bir satır üst bilgisini, düzeyin tamamını veya hiyerarşinin en alt düzeyine kadar olan her şeyi genişletme seçenekleri görürsünüz. Satır üst bilgilerini daraltmanız için de benzer seçenekler sağlanır.
 
-![](media/desktop-matrix-visual/power-bi-expand1.png)
+![Genişlet ve Seçimi gösteren menü](media/desktop-matrix-visual/power-bi-expand1.png)
 
 Ayrıca biçimlendirme bölmesi aracılığıyla **Satır üst bilgileri** kartının altında satır üst bilgilerine +/- düğmeleri de ekleyebilirsiniz. Varsayılan olarak simgelerin satır üst bilgisi biçimlendirmesiyle eşleşmesi gerekir ama isterseniz simgelerin renklerini ve boyutlarını ayrıca özelleştirebilirsiniz.
 
 Simgeler açılınca, Excel’deki PivotTable simgelerine benzer şekilde çalışır.
 
-![](media/desktop-matrix-visual/power-bi-expand2.png)
+![açık simgeleri gösteren matris](media/desktop-matrix-visual/power-bi-expand2.png)
 
 Matrisin genişletme durumu raporunuzla birlikte kaydedilir. Matris, genişletilmiş veya daraltılmış olarak panoya sabitlenebilir. Pano kutucuğu seçildiğinde ve rapor açıldığında, genişletme durumu raporda yine değiştirilebilir. 
 
-![](media/desktop-matrix-visual/power-bi-expand3.png)
+![genişletme durumunu gösteren matris](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
 > Çok boyutlu bir Analysis Services modelini temel alarak rapor oluşturuyorsanız, modelin Varsayılan Üye özelliğini kullanması durumunda genişletme/daraltma için dikkat edilmesi gereken bazı özel unsurlar vardır. Daha fazla bilgi edinmek için bkz. [Power BI’da çok boyutlu modellerle çalışma](../connect-data/desktop-default-member-multidimensional-models.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566006"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393623"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat kılavuzu
 
@@ -26,7 +26,7 @@ _Otomatik tarih/saat_ seçeneği kullanışlı, hızlı ve kullanımı kolay bir
 
 Aşağıdaki madde işaretli listede _Otomatik tarih/saat_ seçeneğiyle ilgili olarak dikkate alınacak noktalar ve olası sınırlamalar açıklanır.
 
-- **Tümüne uygulanır veya hiçbirine uygulanmaz:** _Otomatik tarih/saat_ seçeneği etkinleştirildiğinde, ilişkinin &quot;çok&quot; tarafında yer almayan İçeri Aktarma tablolarındaki tüm tarih sütunlarına (hesaplanmış sütunlar hariç) uygulanır. Tek tek sütunlar için seçmeli olarak etkinleştirilemez veya devre dışı bırakılamaz.
+- **Tümüne uygulanır veya hiçbirine uygulanmaz:** _Otomatik tarih/saat_ seçeneği etkinleştirildiğinde, ilişkinin &quot;çok&quot; tarafında yer almayan İçeri Aktarma tablolarındaki tüm tarih sütunlarına uygulanır. Tek tek sütunlar için seçmeli olarak etkinleştirilemez veya devre dışı bırakılamaz.
 - **Yalnızca takvim zaman aralıkları:** Yıl ve çeyrek sütunları takvim zaman aralıklarıyla ilgilidir. Diğer bir deyişle yıl 1 Ocak'ta başlar ve 31 Aralık'ta biter. Yılın başlangıç (veya tamamlanma) tarihini özelleştirme olanağı sağlanmaz.
 - **Özelleştirme:** Zaman aralıklarını açıklamak için kullanılan değerleri özelleştirmek mümkün değildir. Ayrıca diğer zaman aralıklarını, örneğin haftaları açıklamak üzere başka sütunlar eklemek de mümkün değildir.
 - **Yıl filtreleme:** **Çeyrek**, **Ay** ve **Gün** sütunu değerleri yıl değerini içermez. Örneğin **Ay** sütununda yalnızca ay adları bulunur (Ocak, Şubat vb.). Değerler tam olarak açıklayıcı değildir ve bazı rapor tasarımlarında yıl filtresi bağlamı iletilmeyebilir.
@@ -51,6 +51,7 @@ _Otomatik tarih/saat_ seçeneği projelerinize uygun değilse, Genel _Otomatik t
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
+- [Power BI Desktop’ta tarih tabloları oluşturma](model-date-tables.md)
 - [Power BI Desktop’ta otomatik tarih/saat](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop'ta tarih tabloları ayarlama ve kullanma](../transform-model/desktop-date-tables.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

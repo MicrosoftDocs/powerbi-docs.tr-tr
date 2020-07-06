@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126308"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739242"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -215,7 +215,7 @@ Power BI Rapor Sunucusu artık Enterprise ve Standard sürümleri için Reportin
 
 #### <a name="power-bi-visuals-api"></a>Power BI görselleri API’si
 
-Bu sürümle gönderilen API sürümü 2.6’dır.
+Bu sürümle gönderilen API sürümü 2.6.0’dır.
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft Rapor Oluşturucusu güncelleştirmesi
 
@@ -366,7 +366,7 @@ Power BI raporlarında bu özellikler için destek:
 
 #### <a name="power-bi-visuals"></a>Power BI görselleri
 
-- Bu yayınla birlikte 2.3 API sürümü kullanılmıştır.
+- Bu sürümle gönderilen API sürümü 2.3.0’dır.
 
 ### <a name="administrator-settings"></a>Yönetici ayarları
 

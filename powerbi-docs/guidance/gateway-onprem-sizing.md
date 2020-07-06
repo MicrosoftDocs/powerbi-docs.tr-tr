@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279538"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485956"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Şirket içi veri ağ geçidi boyutlandırması
 
@@ -84,7 +84,7 @@ Power BI hizmetiyle ağ geçidiniz ve ağ geçidinizle veri kaynakları arasınd
 
 - Güvenilirlik, yüksek hızlar ve düşük, tutarlı gecikme süreleri sağlamaya çalışın
 - Ağ geçidi ile veri kaynaklarınız arasındaki makine atlamalarını ortadan kaldırın veya azaltın
-- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [İzin verilenler listesine eklemek için Power BI URL’leri](../admin/power-bi-whitelist-urls.md).
+- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [Power BI URL’lerini izin verilenler listenize ekleme](../admin/power-bi-whitelist-urls.md).
 - Power BI ile özel ve yönetilen bağlantılar kurmak için [Azure ExpressRoute](/azure/expressroute/expressroute-introduction)’u yapılandırın
 - Azure VM’lerindeki veri kaynakları için, VM’lerin [Power BI hizmetiyle aynı konumda yer aldığından](../admin/service-admin-where-is-my-tenant-located.md) emin olun
 - Dinamik RLS içeren SQL Server Analysis Services’e (SSAS) yönelik Canlı Bağlantı iş yükleri için, ağ geçidi makinesiyle şirket içi Active Directory arasında iyi bir bağlantı bulunduğundan emin olun

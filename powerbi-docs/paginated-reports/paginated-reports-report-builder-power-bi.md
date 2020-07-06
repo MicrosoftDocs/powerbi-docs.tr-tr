@@ -1,6 +1,6 @@
 ---
 title: Power BI Premium’da sayfalandırılmış raporlar nelerdir?
-description: SQL Server Reporting Services’de uzun süredir rapor biçimi olan sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Bu raporlar yazdırılabilir veya paylaşılabilir. Rapor düzenini tam olarak denetleyebilirsiniz. Örneğin, tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler.
+description: Sayfalandırılmış raporlar artık Power BI hizmetinde kullanılabilir. Bunlar, SQL Server Reporting Services’daki uzun süredir standart rapor biçimi olarak kullanılıyordu. Bu raporlar yazdırılabilir veya paylaşılabilir. Rapor düzenini tam olarak denetleyebilirsiniz. Örneğin, tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733428"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393806"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -95,7 +95,8 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
  
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://aka.ms/pbireportbuilder)
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
+- [Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları](../learning-catalog/paginated-reports-online-course.md)
 - [Verileri doğrudan sayfalandırılmış bir rapora girme](paginated-reports-enter-data.md)
 - [Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embedded/embed-paginated-reports-customers.md)

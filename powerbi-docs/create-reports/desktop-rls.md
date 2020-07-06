@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334327"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238647"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Power BI Desktop için satır düzeyi güvenlik (RLS) ile veri erişimini kısıtlama
 
@@ -36,6 +36,9 @@ Artık Power BI Desktop ile Power BI'a aktarılan veri modelleri için RLS'yi ya
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI hizmetinde satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md)  
+Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/).
+- [Power BI ile satır düzeyinde güvenlik (RLS)](../admin/service-admin-rls.md)
+- [Power BI Desktop’ta satır düzeyi güvenlik (RLS) kılavuzu](../guidance/rls-guidance.md)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

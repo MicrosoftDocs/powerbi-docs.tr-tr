@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276364"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354904"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 
@@ -70,7 +70,7 @@ Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com
 
 1. **Alanlar** bölmesinden, **Gross Sales** seçeneğini belirleyin.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![Brüt Satışlar seçili ve genişletilmiş finansal tablolar](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. Toplama işlemini **Ortalama** olarak değiştirin.
 

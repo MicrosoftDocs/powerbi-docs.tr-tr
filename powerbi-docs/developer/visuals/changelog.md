@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141070"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739196"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI görselleri API’si değişiklik günlüğü
 Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen sürümlerin kararlı sürümler olduğu kabul edilir ve bu sürümler değişmeyecektir.
 
-## <a name="api-v26"></a>API v2.6
+## <a name="api-v320"></a>API v3.2.0
+  * **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** ’ı destekler
+
+## <a name="api-v260"></a>API v2.6.0
   * Güncelleştirme seçeneğine **isInFocus**, görsel konak için de **switchFocusModeState** yöntemi ekler
   * **subtotals** özelleştirmesini destekler
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * **[Analiz Bölmesi](./analytics-pane.md)** desteği sunar
   * `SelectionIdBuilder` **withMatrixNode** ve **withTable** yöntemlerini destekler
   * `DataRepetitionSelector` arabirimini desteklemez, yerini `data.CustomVisualOpaqueIdentity` arabirimine bırakmıştır
 
-## <a name="api-v23"></a>API v2.3
+## <a name="api-v230"></a>API v2.3.0
   * **[Giriş Sayfası API'si](./landing-page.md)**
   * **[Yerel Depolama API’si](./local-storage.md)**
   * **[Tanımlama grubu filtresi API’si (çok sütunlu filtre)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[Olayları İşleme API'si](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * **[JSON Filtresini DataView’dan geri yükleme](./filter-api.md#restore-the-json-filter-from-the-data-view)** desteği sunar
   * **[ContextMenu API'si](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * Performans iyileştirmeleri:
     * Daha kısa yükleme süreleri
     * Daha küçük bellek ayak izi
@@ -58,32 +61,32 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
    ```
 * `proto` özelliği artık dataView içinde gizli meta veriler/veriler depolamaz. Bu güncelleştirme sonucunda özelliklere `proto` aracılığıyla erişen görseller bozulabilir.
 
-## <a name="api-v113"></a>API v1.13
+## <a name="api-v1130"></a>API v1.13.0
 * **[Dilimleyicileri Eşitleme](./enable-sync-slicers.md)** desteği sunar. Bu özelliğin PBI geçerli kod durumu nedeniyle yalnızca tek alanlı dilimleyicileri desteklediğini unutmayın. [Daha fazla bilgi edinin](/power-bi/desktop-slicers).
 * Erişilebilirlik: [Yüksek karşıtlık desteği](./high-contrast-support.md) 
 * Erişilebilirlik: Klavye Odağı bayrağına izin ver
 
-## <a name="api-v112"></a>API v1.12
+## <a name="api-v1120"></a>API v1.12.0
 * Temaları destekler
 * **[fetchMoreData](./fetch-more-data.md)** desteği sunar. **Daha Fazla Veri Getirme API'sinin** 30 bin veri noktası sabit sınırını aşabildiğini unutmayın.
 * **[Tuval Araç İpuçları API'si](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **[Filtre Yöneticisi API'si](./filter-api.md)**
 * **[Yer işaretlerini](./bookmarks-support.md)** destekler 
 
-## <a name="api-v110"></a>API v1.10
+## <a name="api-v1100"></a>API v1.10.0
 * `ILocalizationManager` ekler
 * **Kimlik Doğrulama API'si**
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **[launchUrl API'si](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * Özellikler şemasında yeni **fillRule** (gradyan) türünü destekler
 * Nesne özellikleri için özellikler şemasında **rule** özelliğini destekler
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * **[RESJSON](./localization.md#resource-file)** desteği sunar
 
 ## <a name="api-v162"></a>API v1.6.2

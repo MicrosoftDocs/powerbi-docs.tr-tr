@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: f64fcd86d54c20e1318d38c2a73e9bca2174558a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302679"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485657"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Şirket içi veri ağ geçidi hakkında SSS - Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "83302679"
 
 ## <a name="analysis-services-in-power-bi"></a>Power BI’da Analysis Services
 
-**Soru:** Analysis Services'e yönelik özel etkin kullanıcı adı eşlemeleri oluşturmak için msdmpump.dll kullanabilir miyim? 
+**Soru:** Analysis Services’a yönelik özel etkin kullanıcı adı eşlemeleri oluşturmak için msmdpump.dll kullanabilir miyim? 
 
 **Cevap:** Hayır. Bu kullanım şu anda desteklenmiyor.
 

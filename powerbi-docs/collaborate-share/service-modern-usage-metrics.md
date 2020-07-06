@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84316075"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299630"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
 
@@ -257,6 +257,7 @@ Geliştirilmiş kullanım ölçümleri raporuyla bu raporun öncülünü karşı
 - İç içe gruplar kullanıldığında kullanıcı maskeleme beklendiği gibi çalışmaz. Kuruluşunuz Power BI yönetici portalı kiracı ayarlarında İçerik oluşturucuları için kullanım ölçümlerinde kullanıcıya özgü veriler ayarını devre dışı bıraktıysa yalnızca en üst düzeydeki üyeler maskelenir. Alt grupların üyeleri hala görünür durumdadır.
 - Kullanım Ölçümleri Raporu veri kümesini başlatmak birkaç dakika sürebilir ve sonuçta boş bir kullanım ölçümleri raporu gösterilebilir, çünkü Power BI kullanıcı arabirimi yenileme işleminin bitmesini beklemez. Yenileme işleminin başarılı olduğunu doğrulamak için Kullanım Ölçümleri Raporu veri kümesi ayarlarında yenileme geçmişini denetleyin.
 - Kullanım Ölçümleri Raporu veri kümesini başlatma işlemi, yenileme sırasında karşılaşılan zaman aşımından dolayı başarısız olabilir. Bu sorunu çözmek için aşağıdaki Sorun Giderme bölümüne bakın.
+- Kullanım ölçümleri raporu için paylaşım devre dışı bırakıldı. Kullanıcılara rapora okuma erişimi vermek için öncelikle çalışma alanı erişimi vermeniz gerekir.
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 

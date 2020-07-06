@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325840"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393761"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 
@@ -74,7 +74,10 @@ Kendi **tarih tablonuzu** belirttiğinizde, veri türünün düzgün ayarlandı�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Aşağıdaki makaleler de ilginizi çekebilir:
+Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop’ta otomatik tarih/saat](desktop-auto-date-time.md)
+* [Power BI Desktop’ta tarih tabloları oluşturma](../guidance/model-date-tables.md)
 * [Power BI Desktop'taki veri türleri](../connect-data/desktop-data-types.md)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

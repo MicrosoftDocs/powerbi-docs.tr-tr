@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563064"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223330"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop aracılığıyla Project Online verilerine bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
@@ -29,7 +29,7 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
 3. **OData akışı**'nı ve ardından **Bağlan**'ı seçin.
 4. URL kutusuna OData akışınızın adresini girip Tamam'a tıklayın.
    
-   Project Web sitenizin adresi *https://\<kiracıadı\>.sharepoint.com/sites/pwa* gibiyse OData Akışı için girmeniz gereken adres *https://\<kiracıadı\>.sharepoint.com/sites/pwa/\_api/Projectdata* şeklinde olacaktır.
+   Project Web sitenizin adresi *https://\<tenantname\>.sharepoint.com/sites/pwa* gibiyse OData Akışı için girmeniz gereken adres *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata* şeklinde olacaktır.
    
    Biz bu örnekte şu seçeneği kullanıyoruz:
 

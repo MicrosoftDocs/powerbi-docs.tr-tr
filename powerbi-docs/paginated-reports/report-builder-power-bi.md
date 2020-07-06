@@ -1,7 +1,7 @@
 ---
 title: Power BI Rapor Oluşturucusu
 description: Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621540"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782764"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Rapor Oluşturucusu
 
- Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
+ Power BI Rapor Oluşturucusu, Power BI hizmetinde yayımlayabileceğiniz sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
+ 
+Yazmaya başlamaya hazır mısınız? Microsoft İndirme Merkezi’nden [Power BI Rapor Oluşturucusu’nu yükleyin](https://aka.ms/pbireportbuilder).
 
 Videolardan öğrenmeyi mi tercih ediyorsunuz? Power BI Baş Program Yöneticisi Chris Finlan’ın YouTube'daki Power BI sayfalandırılmış raporlar video serisine göz atın.
 
@@ -32,7 +34,7 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
  
 -   **Tablo, Matris veya Grafik sihirbazıyla başlayın**. Veri kaynağı bağlantısı oluşturun, alanları sürükleyip bırakarak bir veri kümesi sorgusu oluşturun, bir düzen ve stil seçin ve raporunuzu özelleştirin.  
   
--   **Harita sihirbazı ile başlayıp** coğrafi veya geometrik bir arka plana göre toplu verileri gösteren raporlar oluşturun. Harita verileri bir Transact-SQL sorgusundaki uzamsal veriler ya da bir Environmental Systems Research Institute, Inc. (ESRI) şekil dosyası olabilir. Ayrıca bir Microsoft Bing harita parçası arka planı da ekleyebilirsiniz.  
+-   **Harita sihirbazı ile başlayıp** coğrafi veya geometrik bir arka plana göre toplu verileri gösteren raporlar oluşturun. Harita verileri bir Transact-SQL sorgusundaki uzamsal veriler ya da bir Environmental Systems Research Institute, Inc. (ESRI) şekil dosyaları olabilir. Ayrıca bir Microsoft Bing harita parçası arka planı da ekleyebilirsiniz.  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> Raporunuzu tasarlama  
   

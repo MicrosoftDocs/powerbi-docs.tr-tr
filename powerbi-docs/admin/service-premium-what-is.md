@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272759"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754180"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -85,12 +85,10 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> Daha küçük SKU'ları (örneğin iki P1 SKU'su) birleştirmek yerine tek bir büyük SKU (örneğin tek P2 SKU'su) kullanmak tercih edilebilir. Örneğin P2 ile daha büyük modeller kullanabilir ve daha iyi bir paralellik elde edebilirsiniz.
+>[!NOTE]
+>Daha küçük SKU'ları (örneğin iki P1 SKU'su) birleştirmek yerine tek bir büyük SKU (örneğin tek P2 SKU'su) kullanmak tercih edilebilir. Örneğin P2 ile daha büyük modeller kullanabilir ve daha iyi bir paralellik elde edebilirsiniz.
 
 ### <a name="capacity-workloads"></a>Kapasite iş yükleri
 
@@ -179,17 +177,17 @@ SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI D
 
 ### <a name="size-considerations"></a>Boyutla ilgili dikkat edilmesi gerekenler
 
-Büyük veri kümelerinin kaynak kullanımı yoğun olabilir. 1 GB'ın üzerindeki veri kümeleri için en az P1 SKU kullanmalısınız. Büyük veri kümelerini A3 düzeyine kadar olan A SKU'larını kullanan çalışma alanlarında yayımlama işlemi başarılı sonuç verebilse de bu veri kümelerini yenileme işlemi yapılamaz.
+Büyük veri kümelerinin kaynak kullanımı yoğun olabilir. 1 GB’ın üzerindeki veri kümeleri için en az P1 veya A4 SKU kullanmalısınız. Büyük veri kümelerini A3 düzeyine kadar olan A SKU'larını kullanan çalışma alanlarında yayımlama işlemi başarılı sonuç verebilse de bu veri kümelerini yenileme işlemi yapılamaz.
 
 Aşağıdaki tabloda, .pbix dosyasını karşıya yüklemek veya Power BI hizmetinde yayımlamak için önerilen SKU'lar gösterilmektedir:
 
    |SKU  |.pbix dosyasının boyutu   |
    |---------|---------|
-   |P1    | 3 GB’tan küçük        |
-   |P2    | 6 GB’tan küçük        |
-   |P3, P4, P5    | 10 GB'a kadar   |
+   |P1/A4    | 3 GB’tan küçük        |
+   |P2/A5    | 6 GB’tan küçük        |
+   |P3/A6, P4, P5    | 10 GB'a kadar   |
 
-Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir. A ve EM SKU'larında büyük veri kümelerinin yayımlanması durumunda, paylaşılan kapasitedeki model boyutu sınırlamasına özgü olmayan hatalar döndürülebilir. A ve EM SKU'larında veri kümelerinin yenilenmesi muhtemelen zaman aşımı hatalarına neden olacaktır.
+Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir.
 
 Bir veri kümesinde [büyük modelleri](service-premium-large-models.md) etkinleştirirseniz, .pbix dosya boyutu sınırlamaları dosyaları karşıya yükleme veya yayımlama işlemleri için geçerli olmaya devam eder. Ancak, artımlı yenileme ve büyük modellerin birleştirilmesiyle, veri kümeleri bu sınırlamalardan çok daha fazla büyüyebilir. Büyük modellerle veri kümesi boyutu yalnızca Power BI Premium kapasitesi boyutuyla sınırlıdır.
 
@@ -211,7 +209,7 @@ Daha fazla bilgi edinmek için bkz. [Power BI Premium’da artımlı yenileme](s
 
 ## <a name="paginated-reports"></a>Sayfalandırılmış raporlar
 
-P1-P3 ve A4_A6 SKU'larında desteklenen sayfalandırılmış raporlarda, SQL Server Reporting Services'teki Rapor Tanımlama Dili (RDL) teknolojisi temel alınır. RDL teknolojisine dayansa da, şirket içinde yükleyebileceğiniz indirilebilir bir raporlama platformu olan ve Power BI Premium'da da sağlanan Power BI Rapor Sunucusu ile aynı değildir. Sayfalandırılmış raporlar yazdırılabilen ve paylaşılabilen bir sayfaya sığacak şekilde biçimlendirilir. Tablo birden fazla sayfaya yayılsa bile veriler bir tabloda gösterilir. Kullanıcılar ücretsiz [**Power BI Rapor Oluşturucusu**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows Desktop uygulamasını kullanarak sayfalandırılmış raporlar yazar ve bunları hizmette yayımlar.
+P1-P3 ve A4_A6 SKU'larında desteklenen sayfalandırılmış raporlarda, SQL Server Reporting Services'teki Rapor Tanımlama Dili (RDL) teknolojisi temel alınır. RDL teknolojisine dayansa da, şirket içinde yükleyebileceğiniz indirilebilir bir raporlama platformu olan ve Power BI Premium'da da sağlanan Power BI Rapor Sunucusu ile aynı değildir. Sayfalandırılmış raporlar yazdırılabilen ve paylaşılabilen bir sayfaya sığacak şekilde biçimlendirilir. Tablo birden fazla sayfaya yayılsa bile veriler bir tabloda gösterilir. Kullanıcılar ücretsiz [**Power BI Rapor Oluşturucusu**](https://aka.ms/pbireportbuilder) Windows Desktop uygulamasını kullanarak sayfalandırılmış raporlar yazar ve bunları hizmette yayımlar.
 
 Power BI Premium'da Sayfalandırılmış raporlar, Yönetim portalı kullanılarak bir kapasite için etkinleştirilmesi gereken bir iş yüküdür. Kapasite yöneticileri bunu etkinleştirebilir ve ardından kapasitenin genel bellek kaynaklarının bir yüzdesi olarak bellek miktarını belirtebilir. Diğer iş yükü türlerinden farklı olarak Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin olup olmadığına bakılmaksızın, bu alan için belirtilen en büyük bellek kullanılır. Varsayılan değer %20'dir. 
 

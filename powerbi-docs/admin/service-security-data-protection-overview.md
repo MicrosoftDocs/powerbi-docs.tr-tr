@@ -4,17 +4,17 @@ description: Veri korumanın Power BI’da nasıl çalıştığını öğrenin
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315684"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393669"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI’da veri koruma
 
@@ -37,7 +37,7 @@ Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandır
 > Kuruluşunuzda Azure Information Protection duyarlılık etiketleri kullanılıyorsa bunları Power BI’da kullanılabilmeleri için önceden listelenen hizmetlerden birine [geçirmeniz](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) gerekir.
 
 > [!NOTE]
-> Duyarlılık etiketleri yalnızca genel bulutlardaki kiracılarda desteklenir, bağımsız bulutlar gibi bulutlar içindeki kiracılar için desteklenmez.
+> Duyarlılık etiketleri yalnızca genel bulutlardaki kiracılarda desteklenir, ulusal bulutlar gibi bulutlar içindeki kiracılar için desteklenmez.
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Duyarlılık etiketlerinin Power BI’daki işleyişi
 

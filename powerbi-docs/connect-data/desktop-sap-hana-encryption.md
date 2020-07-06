@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289224"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222878"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA için şifrelemeyi etkinleştirme
 
@@ -38,7 +38,7 @@ HANA sunucunuzun, şifreleme sağlayıcısı olarak OpenSSL kullanacak şekilde 
 
 HANA sunucusu için bir X509 sertifika imzalama isteği oluşturun.
 
-1. SSH kullanarak, HANA sunucusunun, \<sid\>adm olarak çalıştığı Linux makinesine bağlanın.
+1. SSH kullanarak, HANA sunucusunun \<sid\>adm olarak çalıştığı Linux makinesine bağlanın.
 
 1. _/__usr/sap/\<sid\>/home_ ana dizinine gidin.
 

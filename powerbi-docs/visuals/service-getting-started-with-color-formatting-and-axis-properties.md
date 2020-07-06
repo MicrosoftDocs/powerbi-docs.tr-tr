@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276594"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354605"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Biçimlendirme panosuyla çalışmaya başlama
 
@@ -28,11 +28,11 @@ Başlamak için, Power BI Desktop veya Power BI hizmetinde bir rapor açın. Her
 
 Raporları düzenlerken bir görselleştirme seçtiğinizde **Görsel Öğeler** bölmesi görünür. Görselleştirmeleri değiştirmek için bu bölmeyi kullanın. **Görsel Öğeler** bölmesinin hemen altında üç simge bulunur: **Alanlar** simgesi (üst üste çubuklar), **Biçim** simgesi (rulo fırça) ve **Analiz** simgesi (büyüteç). Aşağıdaki resimde **Alanlar** simgesi seçilidir ve bu seçim, simgenin altında sarı bir çizgiyle gösterilir.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![Alanlar simgesinin seçili olduğu Görselleştirmeler bölmesi](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 **Biçim**'i seçtiğinizde simgenin altındaki alanda, geçerli durumda seçili olan görselleştirme için kullanılabilir özelleştirmeler görüntülenir.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![Biçim simgesinin seçili olduğu Görselleştirmeler bölmesi](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 Her görselleştirmenin birçok öğesini özelleştirebilirsiniz. Kullanılabilir seçenekler, seçtiğiniz görsele göre değişiklik gösterir. Seçeneklerden bazıları şunlardır:
 
@@ -119,7 +119,7 @@ Stil uyguladıktan sonra bile, bu görselleştirmenin özelliklerini (rengi de d
 ## <a name="changing-axis-properties"></a>Eksen özelliklerini değiştirme
 
 X ekseni ve Y eksenini değiştirmek genellikle kullanışlı bir işlemdir. Renkleri değiştirirken yaptığınız gibi bir ekseni de, aşağıdaki görüntüde gösterilen şekilde eksenin solundaki aşağı ok simgesini seçerek değiştirebilirsiniz.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Ok işaretiyle Y eksen kartını gösteren Biçim bölmesi](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 Aşağıdaki örnekte Y eksenini biçimlendirmek için:
 - etiketleri görselleştirmenin sağ tarafına taşıdık

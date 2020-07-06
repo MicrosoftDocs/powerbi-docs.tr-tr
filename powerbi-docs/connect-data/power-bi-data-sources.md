@@ -1,19 +1,19 @@
 ---
 title: Power BI veri kaynakları
 description: Bu makalede, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın desteklediği veri kaynakları listelenir.
-author: kfollis
+author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2020
-ms.author: kfollis
-ms.openlocfilehash: 7fcd5b5f7a6365aac597186618ce2b18fcc44d7f
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.date: 06/10/2020
+ms.author: davidi
+ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
+ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273403"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84681871"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -36,7 +36,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Hayır | Hayır |
-| Azure Data Lake Storage Gen1 | Evet | Evet | Hayır | Hayır | Hayır |
+| Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır |
 | Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure DevOps Server | Evet | Evet | Hayır | Evet | Evet |
@@ -51,7 +51,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Data.World - Veri Kümesi Al | Evet | Evet | Hayır | Hayır | Hayır |
 | Denodo | Evet | Evet | Evet | Evet | Evet |
 | Dremio | Evet | Evet | Evet | Evet | Evet |
-| Dynamics 365 (Çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır |
+| Dynamics 365 (çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Business Central | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Business Central (şirket içi) | Evet | Evet | Hayır | Hayır | Hayır |
 | Dynamics 365 Customer Insights | Evet | Evet | Hayır | Hayır | Hayır |
@@ -66,7 +66,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Klasör | Evet | Evet | Hayır | Evet | Evet |
 | GitHub | Evet | Evet | Hayır | Hayır | Hayır |
 | Google Analytics | Evet | Evet | Hayır | Hayır | Hayır |
-| Google BigQuery | Evet | Evet | Yes | Hayır | Hayır |
+| Google BigQuery | Evet | Evet | Evet | Hayır | Hayır |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır |
 | IBM DB2 | Evet | Evet | Evet | Evet | Hayır |
@@ -84,13 +84,13 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | MailChimp | Evet | Evet | Hayır | Hayır | Hayır |
 | Marketo | Evet | Evet | Hayır | Hayır | Hayır |
 | MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet |
-| Microsoft Azure Tüketim Öngörüleri | Evet | Evet | Hayır | Hayır | Hayır |
+| Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır |
 | Microsoft Exchange | Evet | Evet | Hayır | Evet | Hayır |
 | Microsoft Exchange Online | Evet | Evet | Hayır | Hayır | Hayır |
 | Microsoft Graph Güvenliği | Evet | Evet | Hayır | Evet | Hayır |
 | Mixpanel | Evet | Evet | Hayır | Hayır | Hayır |
 | MySQL | Evet | Evet | Hayır | Evet | Evet |
-| OData | Evet | Evet | Hayır | Evet | Hayır |
+| OData | Evet | Evet <sup>7</sup> | Hayır | Evet | Hayır |
 | ODBC | Evet | Evet | Hayır | Evet | Evet |
 | OleDb | Evet | Evet | Hayır | Evet | Evet |
 | Oracle | Evet | Evet | Evet | Evet | Evet |
@@ -152,6 +152,8 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 <sup>5</sup> Yalnızca [kişisel ağ geçidiyle](service-gateway-personal-mode.md) desteklenir.
 
 <sup>6</sup> .html, .xls ve Access Veritabanları için gereklidir
+
+<sup>7</sup> Power BI hizmeti, kimlik doğrulaması gerektiren OData akışlarını desteklemez.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery kaynakları için çoklu oturum açma (SSO)
 

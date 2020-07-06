@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149248"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238772"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded için Multi-Geo desteği
 
@@ -80,6 +80,8 @@ Multi-Geo kapasite yönetimi özelliklerini API aracılığıyla sunmak için va
 * Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
 
 * Multi-Geo genel olarak daha iyi bir performans sonucu vermez. Raporları ve panoları yükleme işlemi yine de meta veriler için ana bölgeye istekler göndermeyi içerir.
+
+* Müşterileriniz için içerik ekleme senaryolarından birinde, sorgu metni ve sorgu sonucu ana kiracı üzerinden aktarılmaya devam eder.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

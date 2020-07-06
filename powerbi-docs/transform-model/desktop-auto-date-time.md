@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349529"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393830"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat uygulama
 
@@ -24,7 +24,6 @@ Otomatik tarih/saat, Power BI Desktop'taki bir veri yükleme seçeneğidir. Bu s
 Bu seçenek etkinleştirildiğinde ve aşağıdaki koşulların karşılanması durumunda Power BI Desktop, her bir tarih sütunu için gizli bir otomatik tarih/saat tablosu oluşturur:
 
 - Tablo depolama modu: İçeri Aktarma
-- Sütun hesaplanmış bir sütun değil
 - Sütun veri türü: Tarih veya tarih/saat
 - Sütun, bir model ilişkisinin "çok" tarafı değil
 
@@ -99,6 +98,7 @@ Power BI Desktop’ta _Dosya > Seçenekler ve ayarlar > Seçenekler_’i ve ard�
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power BI Desktop’ta otomatik tarih/saat kılavuzu](../guidance/auto-date-time.md)
+- [Power BI Desktop’ta tarih tabloları oluşturma](../guidance/model-date-tables.md)
 - [Power BI Desktop'ta tarih tabloları ayarlama ve kullanma](desktop-date-tables.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

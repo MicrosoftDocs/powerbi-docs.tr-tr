@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113704"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238044"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
 
@@ -81,7 +81,7 @@ Bu nesnenin veri görünümü eşlemelerinin farklı türleri için `selections`
 
 Şimdi örnek veri kümesi için seçimlerin kategorik veri görünümünde nasıl temsil edildiğini gözden geçirelim:
 
-| Üretici | Tür | Value |
+| Üretici | Tür | Değer |
 | - | - | - |
 | Chrysler | Yerli Araba | 28883 |
 | Chrysler | Yerli Kamyon | 117131 |
@@ -161,7 +161,7 @@ Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gereki
 
 Örneğin kullanıcı `Manufacturer` olarak `Chrysler` seçtiğinde diğer görseller aşağıdaki verileri göstermelidir:
 
-| Üretici | Tür | Value |
+| Üretici | Tür | Değer |
 | - | - | - |
 | **Chrysler** | Yerli Araba | 28883 |
 | **Chrysler** | Yerli Kamyon | 117131 |
@@ -170,7 +170,7 @@ Görselin de `Manufacturer` ve `Type` temelinde verileri dilimleyebilmesi gereki
 
 Kullanıcı `Type` olarak `Import Car` seçtiğinde (seriye göre verileri seçtiğinde) diğer görseller aşağıdaki verileri göstermelidir:
 
-| Üretici | Tür | Value |
+| Üretici | Tür | Değer |
 | - | - | - |
 | Chrysler | **İthal Araba** | 0 |
 | Ford | **İthal Araba** | 0 |

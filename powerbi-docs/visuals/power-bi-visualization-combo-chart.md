@@ -7,15 +7,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563916"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354789"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI'da birleşik haritalar oluşturma ve kullanma
 
@@ -78,7 +78,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
     ![birleşik harita dönüştürme örneği](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. **Alanlar** bölmesinden **Sales** \> **Last Year Sales** alanını **Çizgi Değerleri** demetine sürükleyin.
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![Son Yılın Satışları’nı gösteren çizgi değerleri](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    Birleşik haritanız aşağıdaki gibi görünmelidir:
 

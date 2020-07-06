@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274662"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227872"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
 
@@ -102,7 +102,10 @@ Power BI Desktop raporunuzu Power BI hizmetindeki bir çalışma alanında yayı
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Row-level security (RLS) with Power BI Desktop (Power BI Desktop ile satır düzeyi güvenlik (RLS))](../create-reports/desktop-rls.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
+- [Power BI Desktop için satır düzeyi güvenlik (RLS) ile veri erişimini kısıtlama](../create-reports/desktop-rls.md)
+- [Power BI Desktop’ta satır düzeyi güvenlik (RLS) kılavuzu](../guidance/rls-guidance.md)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

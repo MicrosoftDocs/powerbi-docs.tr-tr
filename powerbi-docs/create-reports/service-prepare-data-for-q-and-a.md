@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323241"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218712"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI'daki Soru-Cevap özelliğiyle Excel verilerinin düzgün çalışmasını sağlama
 Veri modelleri veya Power BI ile kullanılacak Excel çalışma kitapları oluşturuyorsanız bu makaleyi okumaya devam edin.
@@ -40,7 +40,7 @@ Aşağıda, çalışma kitabınızda Soru-Cevap'tan en iyi şekilde yararlanman�
 
 * Çalışma kitabınızda Power Pivot veri modeli bulunuyorsa daha da fazla iyileştirme yapabilirsiniz. Doğal dil uzmanlarından oluşan şirket içi ekibimizin kaleme aldığı [Demystifying Power BI Q&A part 2 (Power BI Soru-Cevap'ın gizemini çözme - 2. kısım)](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/) başlıklı blogdan daha fazla bilgi edinebilirsiniz.
 
-* Veri kümesini Power BI Desktop'ta açın, yeni sütunlar ve hesaplanmış ölçüler oluşturun, benzersiz değerler elde etmek için alanları birleştirin, verileri türe göre (ör. tarihler, dizeler, coğrafya, görüntüler, URL'ler) sınıflandırın ve daha pek çok işlem gerçekleştirin.
+* Veri kümesini Power BI Desktop'ta açın, yeni sütunlar ve ölçüler oluşturun, benzersiz değerler elde etmek için alanları birleştirin, verileri türe göre (ör. tarihler, dizeler, coğrafya, görüntüler, URL'ler) sınıflandırın ve daha pek çok işlem gerçekleştirin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

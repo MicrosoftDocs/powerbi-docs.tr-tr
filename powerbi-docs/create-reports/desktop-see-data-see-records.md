@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793879"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238625"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop’ta Görsel tablosu ve Veri noktası tablosu özelliklerini kullanma
 **Power BI Desktop**'ta bir görselleştirmenin detayına gidebilir ve seçilen görsel için temel alınan verilerin metinsel temsilini veya tek tek veri öğelerini görebilirsiniz. Bu özellikler bazen *geçişli tıklama*, *detaylandırma* veya *ayrıntıları görüntüleme* olarak adlandırılır.
@@ -82,7 +82,7 @@ Rapora geri dönmek için tuvalin sol üst köşesindeki **< Rapora Geri Dön** 
 > [!NOTE]
 >**Veri noktası tablosu** özelliği aşağıdaki sınırlamalara sahiptir:
 > - **Veri noktası tablosu** görünümünde verileri değiştiremez ve rapora geri kaydedemezsiniz.
-> - Görselinizde hesaplanmış ölçü kullanılıyorsa **Veri noktası tablosu** özelliğinden yararlanamazsınız.
+> - Görselinizdeki bir (çok boyutlu) ölçüm grubunda hesaplanmış ölçü kullanılıyorsa **Veri noktası tablosu** özelliğinden yararlanamazsınız.
 > - Canlı bir çok boyutlu (MD) modele bağlıyken **Veri noktası tablosu** özelliğini kullanamazsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar

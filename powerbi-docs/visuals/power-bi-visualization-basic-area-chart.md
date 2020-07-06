@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563850"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354812"
 ---
 # <a name="create-and-use-basic-area-charts"></a>Basit alan grafikleri oluşturma ve kullanma
 
@@ -26,7 +26,7 @@ Basit alan grafiği (katmanlı alan grafiği olarak da bilinir) çizgi grafiğin
 
 Alan grafikleri, zaman içindeki değişimin büyüklüğünü vurgular ve bir eğilime ilişkin toplam değere dikkat çekmek için kullanılabilir. Örneğin, zaman içindeki kârı gösteren veriler, bir alan grafiğinde toplam kârı vurgulayacak şekilde gösterilebilir.
 
-![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
+![basit alan grafiği](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 > [!NOTE]
 > Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir.

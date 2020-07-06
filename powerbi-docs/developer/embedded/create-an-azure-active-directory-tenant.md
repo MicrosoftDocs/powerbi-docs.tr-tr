@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794106"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354950"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 
@@ -60,29 +60,29 @@ Dizini oluşturduğunuza göre şimdi de en az iki kullanıcı oluşturalım. Bi
 
 1. Azure portalında Azure Active Directory bölmesinde olduğunuzdan emin olun.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Azure AD açılır öğesi](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     Değilseniz sol taraftaki hizmet gezintisinden Azure Active Directory simgesini seçin.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Azure AD simgesi](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. **Yönet** bölümünde **Kullanıcılar**'ı seçin.
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Azure AD kullanıcıları ve grupları](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. **Tüm kullanıcılar**'ı ve ardından **+ Yeni kullanıcı**'yı seçin.
 
 4. Kiracınızın Genel Yöneticisi için **Ad** ve **Kullanıcı adı** sağlayın. **Dizin rolü**'nü **Genel yönetici** olarak değiştirin. İsterseniz geçici parolayı da gösterebilirsiniz. İşiniz bittiğinde **Oluştur**'u seçin.
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Azure AD genel yöneticisi](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. Normal kiracı kullanıcı için de aynı işlemi yapın. Bu hesabı ana ekleme hesabınız olarak kullanabilirsiniz. Bu kez **Dizin rolü**'nü **Kullanıcı** olarak bırakın. Parolayı not alın ve **İleri**'yi seçin.
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Azure AD kullanıcısı](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. 5\. adımda oluşturduğunuz kullanıcı hesabıyla Power BI'a kaydolun. [Powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Cloud collaboration and sharing** (Power BI - Bulutta işbirliği ve paylaşım) bölümünün altındaki **Try free** (Ücretsiz deneyin) öğesini seçin.
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![kiracı oluşturma](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     Kaydolduktan sonra Power BI Pro sürümünü 60 gün boyunca denemek isteyip istemediğiniz sorulur. Bunu kabul edip Pro kullanıcısı olabilir ve [bir ekli çözüm geliştirmeye başlama](embed-sample-for-customers.md) seçeneğinden yararlanabilirsiniz.
 

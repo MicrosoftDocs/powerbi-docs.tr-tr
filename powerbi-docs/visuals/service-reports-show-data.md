@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276571"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239388"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Görselleştirmenin temel alınan verilerini görüntüleme
 
@@ -70,7 +70,7 @@ Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin te
 
 - Şeritteki **Kayıtları görüntüle** düğmesinin devre dışı ve gri renkte olması, seçili görselleştirmenin Kayıtları Görüntüle özelliğini desteklemediği anlamına gelir.
 - Kayıtları Görüntüle görünümünde verileri değiştiremez ve rapora geri kaydedemezsiniz.
-- Görselinizde hesaplanmış ölçü kullanılıyorsa Kayıtları Görüntüle özelliğinden yararlanamazsınız.
+- Görselinizdeki çok boyutlu bir modelde hesaplanmış ölçü kullanılıyorsa Kayıtları Görüntüle özelliğinden yararlanamazsınız.
 - Canlı bir çok boyutlu (MD) modele bağlıyken Kayıtları Görüntüle özelliğini kullanamazsınız.  
 
 ## <a name="next-steps"></a>Sonraki adımlar

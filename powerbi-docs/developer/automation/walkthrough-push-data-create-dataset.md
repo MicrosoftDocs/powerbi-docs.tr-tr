@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403630"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354996"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3\. Adım: Power BI'da veri kümesi oluşturma
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
@@ -26,7 +26,7 @@ Bir Power BI REST işleminin kimliğini doğrulamak için, [Kimlik doğrulaması
 
 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırdığınızda, yeni bir veri kümesi oluşturulur. 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![veri kümesi oluşturma](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 Power BI'da veri kümesi oluşturma işlemi aşağıda açıklanmıştır.
 
@@ -233,7 +233,7 @@ namespace walkthrough_push_data
 [PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-* [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

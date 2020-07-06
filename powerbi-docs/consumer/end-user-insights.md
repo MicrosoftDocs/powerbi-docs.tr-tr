@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377303"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354513"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 
@@ -61,9 +61,11 @@ Açık bir içgörünüz olduğunda keşfetmeye devam edin.
 Raporunuza geri dönmek için sol üst köşedeki **Odak modundan çık**’ı seçin.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-- **İçgörüleri görüntüle** tüm pano kutucuğu türleriyle çalışmaz. Örneğin, Power BI görselleriyle kullanılamaz.<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **İçgörüleri görüntüle** tüm pano kutucuğu türleriyle çalışmaz. Örneğin, Power BI özel görselleriyle kullanılamaz.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Analiz özelliğini kullanarak](end-user-analyze-visuals.md)   rapor görsellerinde içgörüleri çalıştırma  
 [Kullanılabilir Hızlı Öngörü türleri](end-user-insight-types.md) hakkında daha fazla bilgi edinin
 

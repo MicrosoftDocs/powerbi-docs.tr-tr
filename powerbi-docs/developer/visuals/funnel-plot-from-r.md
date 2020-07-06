@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317064"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354490"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -89,13 +89,13 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
    Bölümleri güncelleştirmeniz gerekir: Ad, tür, araç ipucu ve her giriş alanına yönelik en fazla sütun sayısını tanımlayan `dataRoles` ve `dataViewMappings`.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![önce ve sonra](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    Daha fazla bilgi için bkz. [capabilities](./capabilities.md).
 
 1. *script.r* dosyasını, giriş veri çerçeveleri olarak `dataset` yerine `Population`, `Number` ve `Tooltips` değerlerini destekleyecek şekilde düzenleyin veya [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r) dosyasını indirin.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![betik](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > R betiğindeki değişiklikleri izlemek için açıklama bloklarını arayın: 
@@ -125,7 +125,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
    [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) dosyasını indirin, daha fazla bilgi için bkz. [nesne özellikleri](./objects-properties.md)
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![özellikler](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. *src/settings.ts* dosyasını [bu settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) dosyasını yansıtacak şekilde düzenleyin. Bu dosya TypeScript dilinde yazılmıştır.  
 
@@ -133,7 +133,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
    - Özellik değerini tutmak için yeni arabirimi bildirme
    - Üye özelliğini ve varsayılan değerleri tanımlama
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![ayarlar](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. *script.r* dosyasını [bu script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) dosyasını yansıtacak şekilde düzenleyin. Bu, kullanıcı parametresi başına `if.exists` çağrı ekleyerek kullanıcı arabirimindeki parametrelere yönelik destek ekler.
 
@@ -150,7 +150,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![betiğin öncesi ve sonrası](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Bizim yaptığımız gibi, parametreleri kullanıcı arabiriminde kullanıma sunmamaya karar verebilirsiniz.  
 

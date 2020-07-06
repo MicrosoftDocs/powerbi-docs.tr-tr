@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323885"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231085"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway’de sorun giderme (kişisel mod)
 
@@ -47,7 +47,7 @@ Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir. E
 ## <a name="schedule-refresh"></a>Yenileme zamanlama
 **Hata: Bulutta depolanan kimlik bilgileri eksik.**
 
-Zamanlanan bir yenilemeniz varsa ve ağ geçidini (kişisel mod) kaldırıp yeniden yüklediyseniz \<veri kümesine\> yönelik ayarlarda bu hatayla karşılaşabilirsiniz. Bir ağ geçidini (kişisel mod) kaldırdığınızda, yenileme için yapılandırılan veri kümesine yönelik veri kaynağı kimlik bilgileri Power BI hizmetinden kaldırılır.
+Zamanlanan bir yenilemeniz varsa ve ağ geçidini (kişisel mod) kaldırıp yeniden yüklediyseniz \<dataset\> veri kümesine yönelik ayarlarda bu hatayla karşılaşabilirsiniz. Bir ağ geçidini (kişisel mod) kaldırdığınızda, yenileme için yapılandırılan veri kümesine yönelik veri kaynağı kimlik bilgileri Power BI hizmetinden kaldırılır.
 
 **Çözüm:** Power BI'da bir veri kümesinin yenileme ayarlarına gidin. **Veri Kaynaklarını Yönet** bölümünde, hata veren veri kaynakları için **Kimlik bilgilerini düzenle**’yi seçin. Ardından, veri kaynağında yeniden oturum açın.
 

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114118"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237416"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI görsellerinde Görsel Filtreler API’si
 
@@ -261,7 +261,7 @@ SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team
 
 ## <a name="restore-the-json-filter-from-the-data-view"></a>JSON filtresini veri görünümünden geri yükleme
 
-API’nin 2.2 sürümünden başlayarak, aşağıdaki kodda gösterildiği gibi JSON filtresini *VisualUpdateOptions* öğesinden geri yükleyebilirsiniz:
+API’nin 2.2.0 sürümünden başlayarak, aşağıdaki kodda gösterildiği gibi JSON filtresini *VisualUpdateOptions* öğesinden geri yükleyebilirsiniz:
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
