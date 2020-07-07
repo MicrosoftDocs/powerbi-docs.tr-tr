@@ -6,14 +6,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
-ms.translationtype: HT
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565312"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782596"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +23,20 @@ ms.locfileid: "83565312"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>Haziran 2020
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>Yer işaretlerinizi slayt gösterilerinde gösterme (Windows)
+Artık verilerinizdeki belirli içgörüleri vurgulamak için, sununun bir parçası olarak otomatik olarak rapor ve kişisel yer işaretlerini slayt gösterilerinize ekleyebilirsiniz.
+[İnceleyin!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
+
+## <a name="may-2020"></a>Mayıs 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Power BI Mobil’e koyu mod ekledik (iOS)
+iOS13 için Power BI mobil uygulamasındaki yeni koyu modu deneyin. Koyu modda, içeriğinizi görmenizi kolaylaştırmak amacıyla ekran parlaklığı azaltmış şekilde koyu renkli arka planda açık renkli metin görürsünüz. Uygulama görünüm ayarlarından temalar arasında geçiş yapabilirsiniz. [Daha fazla bilgi](mobile-apps-dark-mode.md)
+
+![Power BI mobil uygulamalarında koyu mod](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>Sunu modunda yer işaretlerini uygulama (Windows)
+Artık sunu modunda bir rapor sunarken, rapor sayfalarına hem kişisel hem de rapor yer işaretlerini uygulayarak verilerinize ilişkin bilgiler verebilirsiniz. [İnceleyin!](mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="april-2020"></a>Nisan 2020
 

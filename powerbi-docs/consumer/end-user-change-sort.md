@@ -6,19 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
-ms.translationtype: HT
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236012"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782488"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +25,7 @@ ms.locfileid: "85236012"
 
 Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz. İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
 
-Pano üzerindeki görseller sıralanamaz ama Power BI raporunda görselleştirmelerin çoğunu sıralayabilirsiniz 
+Panodaki görseller sıralanamaz. Ancak bir Power BI raporundaki çoğu görselleştirmeyi tek seferde bazen bir, bazen iki alana göre sınıflandırabilirsiniz. Belirli görsel türlerinde sıralama kullanılamaz: ağaç haritaları, ölçüler, haritalar vb. 
 
 ## <a name="get-started"></a>Kullanmaya başlayın
 
@@ -51,6 +50,19 @@ Gerekirse artan ve azalan sıralama düzenleri arasında geçiş yapın.  **Diğ
 
 > [!NOTE]
 > Her görsel sıralanamaz. Örneğin, şu görselleri sıralamak mümkün değildir: ağaç haritası, harita, kartogram, dağılım, ölçer, kart, şelale.
+
+## <a name="sorting-by-multiple-columns"></a>Birden fazla sütuna göre sıralama
+Bu tablodaki veriler **Müşterilerin sayısına** göre sıralanmıştır.  Bunu, *Sayı* sözcüğünün altındaki küçük oktan anlıyoruz. Ok aşağıyı işaret ediyor, bu da sütunun *azalan* düzende sıralandığı anlamına geliyor.
+
+![sıralama için kullanılan ilk sütunu gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+Sıralama düzenine daha fazla sütun eklemek için Shift tuşunu basılı tutarak, sonraki sıralama düzenine eklemek istediğiniz sütun üst bilgisine tıklayın. Örneğin **Müşteri sayısına** tıklayıp daha sonra Shift tuşunu basılı tutarak **Toplam gelir**’e tıklarsanız tablo ilk önce müşterilere, daha sonra gelire göre sıralanır. Kırmızı ana hat, sıralama düzeninin değiştiği alanları gösterir.
+
+![sıralama için kullanılan ikinci sütunu gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-second.png)
+
+Aynı sütunda Shift tuşunu basılı tutarak ikinci kez tıklarsanız bu, ilgili sütunun sıralama yönünü değiştirir. Dahası, Shift tuşunu basılı tutup daha önce sıralama düzenine eklediğiniz bir sütuna tıklarsanız bu, sütunu sıralama düzenine geri taşır.
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Sıralama düzeninde yaptığınız değişiklikleri kaydetme
 [Okuma görünümünde](end-user-reading-view.md) çalışıyor olsanız bile, Power BI raporları yaptığınız filtre, dilimleyici, sıralama ve diğer veri görünümü değişikliklerini korur. Bu nedenle, bir rapordan çıkıp daha sonra geri dönerseniz sıralama değişiklikleriniz kaydedilir.  Değişikliklerinizi rapor *tasarımcısının* ayarlarına geri döndürmek isterseniz üst menü çubuğundan **Varsayılana sıfırla**’yı seçin. 

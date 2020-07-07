@@ -9,15 +9,14 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: e1358cb8cbe37e0b44cd6a60069ad9ec707d12d8
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287545"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485519"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop'ta oturum açma sorunlarını giderme
-Bazı durumlarda **Power BI Desktop**’ta oturum açmaya çalıştığınızda hatalarla karşılaşabilirsiniz. Oturum açma sorununun iki birincil nedeni vardır: **Ara Sunucu Kimlik Doğrulaması hataları** ve **HTTPS olmayan URL yeniden yönlendirme hataları**. 
+Bazı durumlarda **Power BI Desktop**’ta oturum açmaya çalıştığınızda hatalarla karşılaşabilirsiniz. Oturum açma sorununun başlıca iki nedeni vardır: **Ara Sunucu Kimlik Doğrulaması hataları** ve **HTTPS olmayan URL yeniden yönlendirme hataları**. 
 
 Oturum açma sorununuza hangisinin neden olduğunu belirlemek adına, ilk adım yöneticinize başvurmak ve sorunun nedenini belirleyebilmesi için tanılama bilgilerini sağlamaktır. Yöneticiler, oturum açarken yaşadığınız sorunları izleyerek aşağıdaki hatalardan hangisinin sizin için geçerli olduğunu belirleyebilir. 
 
@@ -43,7 +42,7 @@ Ağınız bir ara sunucu kimlik doğrulaması sunucusu kullanıyorsa, yöneticin
 * api.powerbi.com
 * *.analysis.windows.net ad alanında bulunan etki alanları
 
-Kamu bulutuna dahil müşteriler için, aşağıdaki etki alanları ara sunucu kimlik doğrulaması sunucusunda izin verilenler listesine eklenerek bu sorun giderilebilir:
+Kamu bulutuna dahil müşteriler için, aşağıdaki etki alanları ara sunucu kimlik doğrulaması sunucusundaki izin verilenler listesine eklenerek bu sorun giderilebilir:
 
 * app.powerbigov.us
 * api.powerbigov.us
@@ -55,7 +54,7 @@ Kamu bulutuna dahil müşteriler için, aşağıdaki etki alanları ara sunucu k
 
 *Power BI Desktop* izleme dosyalarında bulunan aşağıdaki özel durumlar şu hatayla ilişkilidir:
 
-* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: HTTPS olmayan URL yeniden yönlendirmesi web görünümünde desteklenmiyor*
+* *Microsoft.IdentityModel.Clients.ActiveDirectory.AdalServiceException: Web görünümünde HTTPS olmayan url yeniden yönlendirmesi desteklenmiyor*
 * *ErrorCode: non_https_redirect_failed*
 
 *ErrorCode: non_https_redirect_failed* hatası oluşursa, bunun nedeni, yeniden yönlendirme zincirindeki en az bir yeniden yönlendirme sayfası ya da sağlayıcısının HTTPS korumalı bir uç noktası olmaması veya en az bir yeniden yönlendirmeye ait sertifika verenin cihazın güvenilen kökleri arasında bulunmamasıdır. Oturum açma yeniden yönlendirme zincirindeki tüm sağlayıcıların bir HTTPS URL'si kullanması gerekir. Bu sorunu gidermek için, yöneticinize başvurun ve kimlik doğrulama siteleri için güvenli URL’lerin kullanılmasını isteyin. 
@@ -70,7 +69,7 @@ Kamu bulutuna dahil müşteriler için, aşağıdaki etki alanları ara sunucu k
 
 2. Ardından hatayı yeniden oluşturan adımları izleyin. Bu gerçekleşirse, **Power BI Desktop** yerel bilgisayarda tutulan izleme günlüğüne olaylar ekler.
 
-3. Yerel bilgisayarınızdaki İzlemeler klasörüne gidin. Önceki resimde **Kilitlenme bilgi dökümü/izlemeler klasörü** olarak gösterilen bu klasörü, izlemeyi etkinleştirdiğiniz *Tanılama* seçeneğindeki bağlantıyı seçerek bulabilirsiniz. Genellikle bu yerel bilgisayarda şu konumda bulunur:
+3. Yerel bilgisayarınızdaki İzlemeler klasörüne gidin. Önceki resimde *Kilitlenme bilgi dökümü/izlemeler klasörü* olarak gösterilen bu klasörü, izlemeyi etkinleştirdiğiniz **Tanılama** seçeneğindeki bağlantıyı seçerek bulabilirsiniz. Genellikle bu yerel bilgisayarda şu konumda bulunur:
 
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 

@@ -5,22 +5,23 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
-ms.date: 11/01/2017
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81439975"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236083"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI raporlarında zamanlanmış yenilemeyi yapılandırma
-Power BI raporunuzdaki verilerin yenilenmesi için zamanlanmış yenileme planı oluşturmanız gerekir. Bu işlem Power BI raporunun *Yönet* bölümünden gerçekleştirilir.
+Power BI Rapor Sunucusu’ndaki Power BI raporunuzda yer alan verileri yenilemek için zamanlanmış bir yenileme planı oluşturmanız gerekir. Bu planı rapor sunucusunda bir Power BI raporunun *Yönet* alanından oluşturursunuz.
 
 ![Power BI raporunda başarılı zamanlanmış yenileme](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Veri kaynağı kimlik bilgilerini yapılandırma
+Zamanlanmış bir yenileme planı oluşturmak için gerekli izinlere sahip olmanız gerekir. İzinler, rapor sunucusunun rol tanımlarında açıklanmıştır. Ayrıntılar için SQL Server Reporting Services’daki [Rol tanımları - önceden tanımlanan roller](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)’e göz atın.
+
 Zamanlanmış veri yenileme planı oluşturmadan önce Power BI raporunuzda kullanılan **tüm veri kaynaklarının** kimlik bilgilerini ayarlamanız gerekir.
 
 1. Web portalında Power BI raporuna sağ tıklayıp **Yönet**'i seçin.

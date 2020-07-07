@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c43b0710c15fcc77a08aa789a92d840d2425f5ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315960"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485680"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -109,7 +108,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 
 ### <a name="general"></a>Genel
 
-- Aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandığında abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışırız. Bununla birlikte talebin yoğun olduğu bazı durumlarda Power BI’ın aynı anda gönderebildiği aboneliklerin sayısına bağlı olarak daha uzun bir gecikmeyle karşılaşabilirsiniz. Müşterilerin çoğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır. Kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bu kadar uzun bir gecikmeyle karşılaşırsanız, önce e-posta sağlayıcınızın `no-reply-powerbi@microsoft.com` adresini izin verilenler listesine eklediğinden emin olun.  Eklemişse, yardım için Power BI desteğine başvurun.
+- Aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandığında abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışırız. Bununla birlikte talebin yoğun olduğu bazı durumlarda Power BI’ın aynı anda gönderebildiği aboneliklerin sayısına bağlı olarak daha uzun bir gecikmeyle karşılaşabilirsiniz. Müşterilerin çoğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır. Kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bu kadar uzun bir gecikmeyle karşılaşırsanız önce e-posta sağlayıcınızın `no-reply-powerbi@microsoft.com` adresini izin verilenler listesine eklediğinden ve bu adresin engellenmediğinden emin olun.  E-posta engellenmemişse yardım için Power BI desteğine ulaşın.
 - Kendiniz dışındaki kullanıcıları abone yaparken, sayfalandırılmış raporlar haricinde canlı bağlantı veri kümeleri kullanan raporlara ve panolara yönelik e-posta abonelikleri şu anda desteklenmiyor. Güvenlik bağlamınızı kullanarak diğer kullanıcıları sayfalandırılmış raporlara abone yapabilirsiniz. [Sayfalandırılmış raporlara abone olma](../consumer/paginated-reports-subscriptions.md) hakkında daha fazla bilgi edinin.
 - Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır. Ancak bir panoya veya rapora abonelik eklerseniz bu abonelik ziyaret edilmese bile duraklatılmaz.
 - Abonelik e-postalarını almıyorsanız Kullanıcı Asıl Adınızın (UPN) e-posta alabildiğinden emin olun.
@@ -134,6 +133,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - E-posta abonelikleri çoğu [özel görselleri](../developer/power-bi-custom-visuals.md) desteklemez. Bu konudaki tek istisna, [sertifikalı](../developer/power-bi-custom-visuals-certified.md) özel görsellerdir.
 - E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.
 - E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez. Sayfalandırılmış raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.
+- Analysis Services’a canlı bağlantı içeren bir raporunuz olduğunu ve veri yenilemeden sonra çalıştırılmaya ayarlanmış bir aboneliğe sahip olduğunuzu varsayalım. Power BI hizmeti şirket içi modelinizde ilk kez değişiklik algıladığında, Analysis Services örneğini yokladığında çalışacaktır.  Power BI, aboneliğin gönderileceği zamanı belirlemek için Analysis Services veri modelini değişiklik olup olmadığını görmek için her saat kontrol eder.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

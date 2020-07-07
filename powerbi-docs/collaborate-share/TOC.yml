@@ -38,7 +38,7 @@
             - name: Veri kümesi etki analizi
               href: service-dataset-impact-analysis.md
             - name: Veri duyarlılık etiketleri uygulama
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Klasik bir çalışma alanında işbirliği yapma

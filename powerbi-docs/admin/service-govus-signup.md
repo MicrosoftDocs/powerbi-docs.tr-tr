@@ -10,12 +10,11 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159571"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485473"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD kamu kuruluşunuzu Power BI hizmetine kaydetme
 
@@ -32,7 +31,7 @@ ABD kamu kuruluşlarına yönelik Power BI hizmeti hakkında daha fazla bilgi i�
 
 ABD kamu kuruluşunuz, kamu bulutu topluluğunda yeni veya abonelik sahibi olabilir. Aşağıdaki bölümlerde, Microsoft 365 Kamu planları ve Power BI sürecindeki durumunuzu temel alan kaydolma adımları ayrıntılı olarak ele alınmıştır. Adımlar, geçerli kaydınıza bağlı olarak farklılık gösterir.
 
-Power BI ABD kamuya kaydolduktan sonra, bu makalede açıklanan [*beyaz listeye ekleme* sürecini](#additional-signup-information) başlatmak için hesap ekibinizle birlikte çalışın. Bu adım, kuruluşunuzun Government Community Cloud’da tam olarak etkinleştirilmesi için gereklidir.
+Power BI ABD kamuya kaydolduktan sonra, bu makalede açıklanan [izin verilenler listesine ekleme](#additional-signup-information) sürecini başlatmak için hesap ekibinizle birlikte çalışın. Bu adım, kuruluşunuzun Government Community Cloud’da tam olarak etkinleştirilmesi için gereklidir.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>Yeni bir Microsoft 365 Kamu planına kaydolma
 
@@ -69,9 +68,9 @@ Kuruluşunuzun zaten Microsoft 365 Kamu planı varsa, Power BI aboneliği ekleme
 
 ## <a name="additional-signup-information"></a>Ek kayıt bilgileri
 
-ABD kamu Power BI hizmetlerini kullanabilmek istiyorsanız önce kuruluşunuz için *beyaz listeye ekleme* işlemini başlatmak üzere Microsoft hesabı ekibiniz ile birlikte çalışmanız gerekir. Beyaz listeye ekleme, Power BI mühendislik ekibinin ticari bulut ortamındaki müşterileri güvenli Government Community Cloud’a taşımak için kullandığı bir işlemdir. Bu adım, ABD kamu bulutundaki kullanılabilir özelliklerin beklenen şekilde çalışmasını sağlar. 
+ABD kamu Power BI hizmetlerini kullanabilmek istiyorsanız önce kuruluşunuz için izin verilenler listesine ekleme işlemini başlatmak üzere Microsoft hesabı ekibiniz ile birlikte çalışmanız gerekir. İzin verilenler listesine ekleme, Power BI mühendislik ekibinin ticari bulut ortamındaki müşterileri güvenli Government Community Cloud’a taşımak için kullandığı bir işlemdir. Bu adım, ABD kamu bulutundaki kullanılabilir özelliklerin beklenen şekilde çalışmasını sağlar. 
 
-Beyaz listeye ekleme işlemini başlatmak istiyorsanız, yardım için Microsoft hesabı ekibinize başvurun. Beyaz listeye ekleme işlemini yalnızca yöneticiler isteyebilir. İşlem yaklaşık üç hafta sürer. Power BI mühendislik ekibi bu süreçte kiracınızın ABD kamu bulutunda düzgün şekilde çalışmasını sağlamak için gerekli değişiklikleri gerçekleştirir.
+İzin verilenler listesine ekleme işlemini başlatmak istiyorsanız yardım için Microsoft hesabı ekibinize başvurun. İzin verilenler listesine ekleme isteğini yalnızca yöneticiler yapabilir. İşlem yaklaşık üç hafta sürer. Power BI mühendislik ekibi bu süreçte kiracınızın ABD kamu bulutunda düzgün şekilde çalışmasını sağlamak için gerekli değişiklikleri gerçekleştirir.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

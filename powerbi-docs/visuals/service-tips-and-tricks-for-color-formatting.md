@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276617"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354628"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 
@@ -62,11 +61,11 @@ Aşağıdaki görselleştirme satılan birimleri ürün segmentine göre derecel
 
 **Veri renkleri** kartını genişletin ve **Tümünü göster** için kaydırıcıyı Açık konuma getirin. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Artık veri noktalarından istediklerinizi değiştirebilirsiniz.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Tümünü göster ayarı Açık olan Biçim bölmesi](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 **Convenience** veri noktasını turuncu olarak ayarlayın. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![bir turuncu sütun içeren sütun grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 Seçtiğinizde, **Convenience** veri noktası turuncunun güzel bir tonunda vurgulanır ve belirgin bir şekilde öne çıkar.
 
@@ -96,7 +95,7 @@ Rengin değere göre değişmesini sağlamak için, bir görselleştirmeyi seçe
 
 Görselin rengini biçimlendirirken görselin parçası olmayan bir alanı da kullanabilirsiniz. Aşağıdaki resimde **%Market Share SPLY YTD** alanı kullanılıyor. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![birden çok mavi tonu içeren sütun grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 Sizin de görebileceğiniz gibi, hem **Productivity** hem de **Extreme** için daha fazla birim satmış olsak da (sütunları daha yüksektir), **Moderation** segmentinin **%Market Share SPLY YTD** değeri daha büyüktür (sütununun renk doygunluğu daha fazladır).
@@ -106,7 +105,7 @@ Değerlerin bu renklerle nasıl eşleneceğini de değiştirebilirsiniz. Aşağ�
 
 İlk görüntüde, grafikteki çubukların, çubukta gösterilen gradyanı nasıl yansıttığına dikkat edin; en yüksek değer yeşil, en düşük değer ise turuncudur. Ayrıca, bu değerler arasındaki her çubuk renk yelpazesinde bulunan, yeşil ve turuncu arasındaki tonlarla renklendirilmiştir.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![yeşil ile turuncu arasındaki renk gradyanını gösteren sütun grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 Şimdi **Minimum** ve **Maksimum** değer kutularına sayısal değerler girdiğimizde ne olduğuna bakalım. Hem **Minimum** hem de **Maksimum**için açılır kutularda **Özel**'i seçin, sonra da **Minimum** değerini 3.500 ve **Maksimum** değerini 6.000 olarak ayarlayın.
 

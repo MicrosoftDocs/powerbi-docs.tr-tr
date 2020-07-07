@@ -5,17 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/03/2019
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 469f217426f4c66c6d1d0d72192efbda8391689c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315306"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238112"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 
@@ -152,13 +151,13 @@ Sayısal olmayan bir alanı da toplayabilirsiniz. Örneğin, bir ürün adı ala
 
 S:  **Özetleme** seçeneğini neden görmüyorum?
 
-Y:  Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](../transform-model/desktop-measures.md)’ta oluşturulan bir hesaplanmış ya da gelişmiş ölçüdür. Her hesaplanmış ölçünün kendi sabit kodlanmış formülü vardır. Power BI’ın kullandığı toplama işlemini değiştiremezsiniz. Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. **Alanlar** listesinde hesap makinesi sembolüyle *hesaplanan ölçüler* gösterilir.
+Y:  Seçtiğiniz alan büyük olasılıkla, Excel veya [Power BI Desktop](../transform-model/desktop-measures.md)’ta oluşturulan bir hesaplanmış ölçü ya da çok boyutlu modeldir. Her ölçünün kendi sabit kodlanmış formülü vardır. Power BI’ın kullandığı toplama işlemini değiştiremezsiniz. Örneğin, toplama işlemi toplam ise yalnızca toplam olarak kalabilir. **Alanlar** listesinde hesap makinesi sembolüyle *ölçüler* gösterilir.
 
 S:  Alanım **sayısal** olmasına rağmen neden yalnızca **Sayı** ve **Ayrı sayım** seçeneklerini görüyorum?
 
 C1:  Bu, büyük olasılıkla veri sahibinin alanı bir sayı olarak *sınıflandırmamasından* kaynaklanır. Örneğin veri kümesinde **yıl** alanı varsa, veri kümesi sahibi değeri metin kategorisine ayırmış olabilir. Daha büyük olasılıkla Power BI **yıl** alanını sayacaktır (örneğin 1974’te doğan kişilerin sayısı). Power BI’ın bunun toplamını veya ortalamasını alması daha düşük bir olasılıktır. Veri kümesinin sahibi sizseniz veri kümesini Power BI Desktop'ta açabilir ve **Modelleme** sekmesini kullanarak veri türünü değiştirebilirsiniz.
 
-C2: Alanda hesap makinesi simgesinin olması bunun *hesaplanan ölçüm* olduğu anlamına gelir. Her hesaplanan ölçümün yalnızca veri kümesi sahibi tarafından değiştirilebilen kendi sabit kodlanmış bir formülü vardır. Power BI’ın kullandığı hesaplama, ortalama veya toplam gibi basit bir toplama olabilir. Öte yandan "üst kategoriye katkıda bulunma yüzdesi" ya da "yılın başlangıcından itibaren değişen toplam" gibi daha karmaşık bir işlem de olabilir. Power BI sonuçları toplamayacak veya ortalamalarını almayacaktır. Bunun yerine her veri noktası için yeniden hesaplama yapacaktır (sabit kodlanmış formülü kullanarak).
+C2: Alanda hesap makinesi simgesinin olması bunun *ölçü* olduğu anlamına gelir. Her ölçünün yalnızca veri kümesi sahibi tarafından değiştirilebilen kendi formülü vardır. Power BI’ın kullandığı hesaplama, ortalama veya toplam gibi basit bir toplama olabilir. Öte yandan "üst kategoriye katkıda bulunma yüzdesi" ya da "yılın başlangıcından itibaren değişen toplam" gibi daha karmaşık bir işlem de olabilir. Power BI sonuçları toplamayacak veya ortalamalarını almayacaktır. Bunun yerine her veri noktası için yeniden hesaplama yapacaktır (sabit kodlanmış formülü kullanarak).
 
 C3:  Alanı yalnızca kategorik değerlere izin veren bir *demete* de yerleştirmiş olabilirsiniz.  Bu durumda, yalnızca sayı ve ayrı sayım seçeneklerine sahip olursunuz.
 

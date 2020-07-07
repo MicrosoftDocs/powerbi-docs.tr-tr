@@ -6,16 +6,15 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114138"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782555"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI tüketicileri için gezinti: genel arama
 
@@ -27,7 +26,7 @@ ms.locfileid: "79114138"
 Power BI hizmetini yeni kullanmaya başladığınızda yalnızca birkaç parça içeriğiniz (panolar, raporlar, uygulamalar) olur. Ama siz uygulama indirdikçe ve iş arkadaşlarınız sizinle içerik paylaştıkça çok fazla içerikle karşılaşabilirsiniz. Bu durumda, arama ve sıralama özellikleri son derece yararlı olur.
 
 ## <a name="searching-for-content"></a>İçeriği arama
- Arama özelliğini Power BI hizmetinin neredeyse her kısmında kullanabilirsiniz. Arama kutusunu veya arama simgesini bulmanız yeterlidir ![büyüteç simgesi](./media/end-user-search-sort/power-bi-search-icon.png)dokunun.
+ Arama özelliğini Power BI hizmetinin neredeyse her kısmında kullanabilirsiniz. Arama kutusunu veya arama simgesini bulmanız yeterlidir ![büyüteç simgesi](./media/end-user-search-sort/power-bi-search-icon.png).
 
  Arama alanına pano, rapor, çalışma kitabı uygulama veya sahip adının tamamını veya bir bölümünü yazın. Power BI tüm içeriğinizi arar. 
 
@@ -39,11 +38,11 @@ Power BI hizmetini yeni kullanmaya başladığınızda yalnızca birkaç parça 
 
 ## <a name="sorting-content-lists"></a>İçerik listelerini sıralama
 
-Yalnızca birkaç parça içeriğiniz varsa sıralama gerekli olmayabilir.  Ama uzun pano ve rapor listeleriniz olduğunda, sıralama ihtiyacınız olanı bulmanıza yardımcı olacaktır. Örneğin bu **Benimle paylaşılan** içeri listesinde 63 öğe vardır. 
+Yalnızca birkaç parça içeriğiniz varsa sıralama gerekli olmayabilir.  Ama uzun pano ve rapor listeleriniz olduğunda, sıralama ihtiyacınız olanı bulmanıza yardımcı olacaktır. Örneğin bu **Benimle paylaşılan** içeri listesinde 257 öğe vardır. 
 
-![benimle paylaşılan içerik listesi](./media/end-user-search-sort/power-bi-long-lists.png)
+![benimle paylaşılan içerik listesi](./media/end-user-search-sort/power-bi-all-shared.png)
 
-Şu anda, bu içerik listesi tarihe göre en yeniden en eskiye doğru sıralanmıştır. Sıralama ölçütünü değiştirmek için **Tarih (En Yeni)** öğesinin sağındaki oku seçin.
+Şu anda bu içerik listesi ada göre alfabetik sırada, A’dan Z’ye sıralanmıştır. Sıralama ölçütünü değiştirmek için **Ad (A-Z)** öğesinin yanındaki oku seçin.
 
 ![Sıralama açılan menüsü](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -60,5 +59,7 @@ Her sütun sıralanamaz. Sıralanabilen sütunları bulmak için sütun başlı�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Raporlardaki görselleri sıralama](end-user-change-sort.md)
+
+[Görsellerdeki verileri sıralama](end-user-change-sort.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

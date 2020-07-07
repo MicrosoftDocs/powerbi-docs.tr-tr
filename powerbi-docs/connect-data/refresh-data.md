@@ -5,16 +5,15 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/27/2020
+ms.topic: how-to
+ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 9bc8f7c100acc3805fbe6ab949e3584cb5fd26e1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121039"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219747"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 
@@ -112,7 +111,7 @@ Power BI, OneDrive’daki öğe kimliği temelinde yenileme yapar, dolayısıyla
 Dosyayı sürükleyip bırakarak başka bir konuma taşıyabilirsiniz. Bu durumda Power BI dosya kimliğini biliyor olduğundan yenileme işlemi devam eder. Ancak, bu dosyayı başka bir konuma kopyalarsanız dosyanın yeni bir örneği ve yeni bir dosya kimliği oluşturulur. Dolayısıyla, Power BI dosya başvurunuz artık geçerli olmaz ve yenileme işlemi başarısız olur.
 
 > [!NOTE]
-> Yerel makinenizde eşitleme işlemi tamamlandıktan ve Power BI hizmetinde *Şimdi yenile*’yi kullandıktan sonra bile, Power BI’ın veri kümesini yenilemesi 10 dakika kadar sürebilir.
+> Yerel makinenizde eşitleme işlemi tamamlandıktan ve Power BI hizmetinde *Şimdi yenile*’yi kullandıktan sonra bile, Power BI’ın veri kümesini yenilemesi 60 dakika kadar sürebilir.
 
 Geçmiş eşitleme döngülerini incelemek için yenileme geçmişindeki OneDrive sekmesini denetleyin. Aşağıdaki ekran görüntüsü örnek bir veri kümesinin tamamlanan eşitleme döngüsünü gösterir.
 
@@ -202,14 +201,15 @@ Kurumsal veri ağ geçidinin aksine, kişisel ağ geçidine veri kaynağı tanı
 
 ![Ağ geçidi için veri kaynağı kimlik bilgilerini yapılandırma](media/refresh-data/configure-data-source-credentials-gateway.png)
 
-> [!NOTE]
-> Kişisel veri ağ geçidi DirectQuery/LiveConnect modundaki veri kümelerini desteklemez. Veri kümesi ayarları sayfası bunu yüklemenizi isteyebilir, ancak kişisel ağ geçidiniz varsa ağ geçidi bağlantısını yapılandıramazsınız. Bu tür veri kümelerini destekleyecek bir kurumsal veri ağ geçidiniz bulunduğundan emin olun.
 
 ### <a name="accessing-cloud-data-sources"></a>Bulut veri kaynaklarına erişim
 
 Power BI ve kaynak arasında doğrudan ağ bağlantısı oluşturulabilirse, Azure SQL DB gibi bulut veri kaynaklarını kullanan veri kümeleri bir veri ağ geçidine gerek duymaz. Buna uygun olarak, veri kümesi ayarlarındaki **Veri kaynağı kimlik bilgileri** bölümünü kullanarak bu veri kaynaklarının yapılandırmasını yönetebilirsiniz. Aşağıdaki ekran görüntüsünde gösterildiği gibi, ağ geçidi bağlantısı yapılandırmanız gerekmez.
 
 ![Ağ geçidi olmadan veri kaynağı kimlik bilgilerini yapılandırma](media/refresh-data/configure-data-source-credentials.png)
+
+> [!NOTE]
+> Her kullanıcının veri kaynağı başına, sahip oldukları tüm veri kümeleri genelinde ve veri kümelerinin bulunduğu çalışma alanlarına bakılmaksızın yalnızca bir kimlik bilgileri kümesi olabilir. 
 
 ### <a name="accessing-on-premises-and-cloud-sources-in-the-same-source-query"></a>Şirket içi kaynaklara ve bulut kaynaklarına aynı kaynak sorgusunda erişme
 

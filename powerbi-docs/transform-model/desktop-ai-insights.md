@@ -1,22 +1,21 @@
 ---
-title: Power BI Desktop’ta Yapay Zeka İçgörüleri’ne bağlanma (önizleme)
+title: Power BI Desktop’ta Yapay Zeka İçgörüleri’ne bağlanma
 description: Power BI Desktop'ta Yapay Zeka İçgörüleri'ne kolayca bağlanın ve buradaki verileri kullanın
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311741"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237978"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Power BI Desktop’taki Yapay Zeka İçgörüleri’ni kullanma (önizleme)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop’ta Yapay Zeka İçgörüleri’ni kullanma
 
 Power BI'da Yapay Zeka İçgörüleri'ni kullanarak, veri hazırlama çalışmalarınızı geliştiren önceden eğitilmiş makine öğrenmesi modelleri koleksiyon erişim elde edebilirsiniz. Yapay Zeka İçgörüleri'ne **Power Query düzenleyicisinde** erişilir ve ilişkili özellikleriyle işlevlerine **Power Query düzenleyicisinin** **Giriş** ve **Sütun Ekle** sekmeleri aracılığıyla erişilir. 
 
@@ -26,7 +25,10 @@ Bu makalede her ikisi de Azure Bilişsel Hizmetler'den olan Metin Analizi ve Gö
 
 ## <a name="how-to-enable-ai-insights"></a>Yapay Zeka İçgörüleri'ni etkinleştirme
 
-Power BI'da yapay zeka içgörüleri bir önizleme özelliğidir ve etkinleştirilmesi gerekir. Etkinleştirmek için **Dosya > Seçenekler ve ayarlar > Seçenekler**'i ve ardından sol sütundan **Önizleme özellikleri**'ni seçin. Sağ bölmede bir **Yapay Zeka İçgörüleri işlev tarayıcısı** seçimi vardır. Önizleme özelliğini etkinleştirmek için **Yapay Zeka İçgörüleri işlev tarayıcısı**'nın yanındaki kutuyu işaretleyin. Önizleme özelliğinin geçerlilik kazanması için Power BI Desktop'ı yeniden başlatmanız gerekir.
+Yapay Zeka İçgörüleri, Power BI Desktop’ın Haziran 2020 sürümü kapsamında genel kullanıma sunuldu. Power BI Desktop’ın önceki sürümlerinde, Power BI’daki Yapay Zeka İçgörüleri’nin **Dosya > Seçenekler ve ayarlar > Seçenekler**’i ve sonra soldaki sütundan **Önizleme özellikleri**’ni seçerek etkinleştirilmesi gerekir. Sağ bölmede bir **Yapay Zeka İçgörüleri işlev tarayıcısı** seçimi vardır. Önizleme özelliğini etkinleştirmek için **Yapay Zeka İçgörüleri işlev tarayıcısı**'nın yanındaki kutuyu işaretleyin. Önizleme özelliğinin geçerlilik kazanması için Power BI Desktop'ı yeniden başlatmanız gerekir.
+
+> [!NOTE]
+> Yapay Zeka İçgörüleri, Haziran 2020 sürümünden itibaren Power BI Desktop’ın tüm sürümlerinde genel kullanıma sunuldu ve bu sürümlerde önizleme özelliği olarak etkinleştirilmesi gerekmiyor.
 
 ![Power BI Desktop için Yapay Zeka İçgörüleri seçeneği](media/desktop-ai-insights/ai-insights-01.png)
 

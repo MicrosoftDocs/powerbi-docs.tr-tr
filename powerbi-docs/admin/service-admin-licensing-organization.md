@@ -6,16 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/14/2020
+ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160008"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85484944"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
@@ -39,6 +38,8 @@ Bu roller kuruluşu yönetir. Power BI hizmeti yöneticisi rolleri hakkında dah
 
 ## <a name="get-power-bi-for-your-organization"></a>Kuruluşunuz için Power BI edinin
 
+Fiyatlandırma hakkında daha fazla bilgi için bkz. [Fiyatlandırma ve Ürün Karşılaştırması](https://powerbi.microsoft.com/pricing/).
+
 Genel yönetici veya faturalama yöneticisi, Power BI hizmetine kaydolabilir ve kuruluşlarındaki kullanıcılar için lisans satın alabilir. Satın almaya hazır değilseniz, Power BI Pro deneme sürümünü seçin. Bir ay boyunca kullanmak için 25 lisans alırsınız. Kaydolma hakkında adım adım yönergeler için bkz. [Kuruluşunuz için Power BI aboneliği alma](service-admin-org-subscription.md).
 
 ## <a name="about-self-service-sign-up"></a>Self servise kaydolma hakkında
@@ -46,6 +47,16 @@ Genel yönetici veya faturalama yöneticisi, Power BI hizmetine kaydolabilir ve 
 Bireysel kullanıcılar iş veya okul hesaplarıyla kaydolarak kendi Power BI lisanslarını alabilir. Ücretsiz bir lisansla, kullanıcılar Çalışma Alanım'ı kullanarak kişisel veri analizi ve görselleştirme için Power BI’ı keşfedebilir, ancak diğer kullanıcılarla paylaşamaz. İçerik paylaşmak için bir Power BI Pro lisansı gerekir. Kuruluş ticari bulut kullanıyorsa, kullanıcılar lisans türlerini Pro'ya yükseltebilir veya doğrudan Pro'ya kaydolabilir. Pro’yu doğrudan satın almak veya Pro’ya yükseltmek, eğitim kuruluşları ya da Azure Kamu, Azure Germany veya Azure China 21Vianet bulutlarına dağıtılan kuruluşlar için mümkün değildir.
 
 Kuruluşunuzdaki kullanıcıların self servis kaydolma özelliğini kullanmasını istemiyorsanız, özelliği nasıl kapatacağınızı öğrenmek için bkz. [Self servis kaydolma özelliğini etkinleştirme veya devre dışı bırakma](service-admin-disable-self-service.md).
+
+Self servis kaydolma özelliğini kapatmak, kullanıcıların veri görselleştirmeleri ve analizi için Power BI’ı keşfetmelerini engeller. Tek kaydolmayı engellediyseniz kuruluşunuz için Power BI (ücretsiz) lisansları alıp bunları kullanıcılara atamanız faydalı olabilir. Tüm mevcut kullanıcılara bir Power BI (ücretsiz) lisansı atamak için şu adımları izleyin:
+
+1. Genel yönetici veya faturalama yöneticisi kimlik bilgilerini kullanarak [Microsoft 365 yönetim merkezinde](https://admin.microsoft.com) oturum açın.
+1. Sol kenar çubuğu menüsünde **Faturalama** > **Hizmetleri satın alın** öğesini seçin.
+1. Power BI (ücretsiz) teklifini bulmak için arayın veya kaydırın. Teklifi ve sonra **Şimdi al**’ı seçin.
+1. Tüm kullanıcılarınızı kapsayacak lisans sayısını girin.
+1. **Lisansı olmayan tüm kullanıcılara otomatik olarak ata**’yı seçin ve kullanıma alın.
+
+  ![Otomatik atanan ücretsiz Power BI aboneliği](media/service-admin-licensing-organization/m365-auto-assign.png) 
 
 Kuruluşunuzda hangi kullanıcıların zaten bir lisansa sahip olabileceğini görmek istiyorsanız, bunun nasıl yapılacağını öğrenmek için bkz. [Kullanıcı lisanslarını görüntüleme ve yönetme](service-admin-manage-licenses.md).
 

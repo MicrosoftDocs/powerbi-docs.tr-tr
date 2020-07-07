@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 04/18/2020
+ms.topic: how-to
+ms.date: 05/26/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 8040822453050b06f29ee8c6799e26d1d0a6dbea
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275536"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238454"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -25,88 +25,58 @@ ms.locfileid: "83275536"
 [Uygulamalar hakkında temel bilgileri](end-user-apps.md) öğrendiğinize göre, şimdi uygulamaları açmayı ve uygulamalarla etkileşim kurmayı öğrenelim. 
 
 ## <a name="ways-to-get-a-new-app"></a>Yeni bir uygulama alma yolları
-Yeni bir uygulama almanın birkaç yolu vardır. Rapor tasarımcısı olan bir iş arkadaşınız uygulamayı Power BI hesabınıza otomatik olarak yükleyebilir veya size uygulamanın doğrudan bağlantısını gönderebilir. AppSource’a giderek şirketinizin hem içindeki hem de dışındaki uygulama tasarımcılarının sunduğu uygulamalar arayabilirsiniz. 
+Yeni bir uygulama almanın birkaç yolu vardır:
+* Power BI’daki Power BI Uygulama marketinden alabilirsiniz.
+* Uygulama oluşturucusundan aldığınız doğrudan uygulama bağlantısını kullanabilirsiniz. 
+* Kuruluşunuzdaki bir rapor tasarımcısı, uygulamayı otomatik olarak Power BI hesabınıza yükleyebilir.
 
-Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama tasarımcısı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
+Power BI mobil uygulamanızda doğrudan bağlantı ile uygulama yükleyebilirsiniz. Uygulama tasarımcısı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
 
 ## <a name="apps-and-licenses"></a>Uygulamalar ve lisanslar
 Uygulamaları her Power BI kullanıcısı görüntüleyemez veya bunlarla etkileşim kuramaz. 
 - Ücretsiz lisansınız varsa sizinle paylaşılan ve Premium kapasitedeki bir çalışma alanında depolanan uygulamaları açabilirsiniz.
 - Pro lisansınız varsa sizinle paylaşılan uygulamaları açabilirsiniz.
 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Uygulamayı Power BI Uygulamaları marketinden alma
+
+Power BI Uygulamaları marketinden uygulamaları bulup yükleyebilirsiniz. Uygulamalar marketinden hem kuruluş uygulamalarını hem de şablon uygulamalarını alabilirsiniz.
+
+1. Henüz yapmadıysanız [Power BI hizmetinde oturum açın](./end-user-sign-in.md). 
+
+1. Power BI’da oturum açtıktan sonra **Uygulamaları > Uygulamaları al**’ı seçin. 
+
+    ![Uygulamaları edinin  ](./media/end-user-app-view/power-bi-get-apps.png)
+
+1. Power BI Uygulamaları marketi açılır.
+
+   ![Power BI Uygulamaları marketi](./media/end-user-app-view/power-bi-app-marketplace.png)
+
+   Kullanabileceğiniz üç sekme mevcuttur:
+   * **Tüm uygulamalar** - Kullanımınıza sunulmuş şablon uygulamalarına ve tüm kuruluş uygulamalarına göz atın. Şablon uygulamaları, kutucuklarının sağ üst köşesindeki alışveriş çantası simgesiyle ayırt edilir.
+   * **Kuruluş uygulamaları** - Sizinle paylaşılan kuruluş uygulamalarına göz atın. 
+   * **Şablon uygulamaları** - AppSource’da barındırılan şablon uygulamalarına göz atın.
+
+   Alternatif olarak, uygulamaların filtrelenmiş bir seçimini almak için arama kutusunu kullanabilirsiniz. Uygulamanın veya finans, analiz, pazarlama gibi bir kategori adının bir kısmını yazmak, aradığınız öğeyi bulmanızı kolaylaştırır. 
+
+   Arama kutusu, açık olan sekmenize karşı duyarlıdır. Yalnızca seçili türdeki uygulamalar döndürülür. **Tüm uygulamalar** sekmesi açıksa hem kuruluş hem de şablon uygulamaları döndürülür. Bir kuruluş ve şablon uygulaması aynı ada sahipse bu kafa karıştırıcı olabilir. Şablon uygulaması kutucuklarının sağ üst köşesinde alışveriş çantası simgesi olduğunu unutmayın.
+
+İstediğiniz uygulamayı bulduğunuzda yüklemek için **Şimdi al**’a tıklayın.
+* Kuruluş uygulaması yüklüyorsanız uygulama listenize hemen eklenir.
+* Şablon uygulaması yüklüyorsanız AppSource’daki şablon uygulaması teklifine yönlendirilirsiniz. Power BI Uygulamaları marketinden örnek bir şablon uygulaması indirip yüklemeye ilişkin [bir örneğe](end-user-app-marketing.md) göz atın. 
+
+   > [!NOTE]
+   > Ücretsiz kullanıcı lisansı kullanıyorsanız uygulamaları indirebilir ancak Power BI Pro hesabına yükseltene veya uygulama Premium kapasitede depolanana kadar görüntüleyemezsiniz. Daha fazla bilgi için bkz. [tüketici lisansları](end-user-license.md).
+
 ## <a name="install-an-app-from-a-direct-link"></a>Doğrudan bağlantı ile uygulama yükleme
-Yeni bir uygulamayı yüklemenizin en kolay yolu, uygulama tasarımcısından e-posta ile bir doğrudan bağlantı almaktır.  
+Ayrıca, uygulama tasarımcısının e-posta ile gönderdiği doğrudan bağlantıyı kullanarak da bir kuruluş uygulaması yükleyebilirsiniz.  
 
 **Bilgisayarınızda** 
 
 E-postadaki bağlantıyı seçtiğiniz zaman, Power BI hizmeti ([https://powerbi.com](https://powerbi.com)) uygulamayı tarayıcınızda açar. 
 
-![Power BI hizmetinde uygulama giriş sayfası](./media/end-user-app-view/power-bi-app-from-link.png)
-
 **iOS veya Android mobil cihazınızda** 
 
 Mobil cihazınızda e-postadaki bağlantıyı seçtiğiniz zaman, uygulama otomatik olarak yüklenir ve mobil uygulamada açılır. Önce oturum açmanız gerekebilir. 
-
-![Mobil cihazda uygulama içerik listesi](./media/end-user-app-view/power-bi-ios.png)
-
-## <a name="get-the-app-from-microsoft-appsource"></a>Uygulamayı Microsoft AppSource'tan alma
-Uygulamaları Microsoft AppSource’tan da bulabilir ve yükleyebilirsiniz. Yalnızca erişiminiz olan uygulamalar (yani uygulama yazarının size veya herkese izin verdiği uygulamalar) görüntülenir. 
-
-> [!NOTE]
-> Ücretsiz kullanıcı lisansı kullanıyorsanız uygulamaları indirebilir ancak Power BI Pro hesabına yükseltene veya uygulama Premium kapasitede depolanana kadar görüntüleyemezsiniz. Daha fazla bilgi için bkz. [tüketici lisansları](end-user-license.md).
-
-1. **Uygulamalar**  > **Uygulama edinin** seçeneğini belirleyin. 
-   
-    ![Uygulama edinin simgesi](./media/end-user-app-view/power-bi-get-app2.png)    
-2. AppSource'ta **Kuruluşum** altında, sonuçları daraltmak ve aradığınız uygulamayı bulmak için arama yapabilirsiniz.
-   
-    ![AppSource'ta Kuruluşum altında](./media/end-user-app-view/power-bi-opportunity-app.png)
-3. Uygulamalar içerik listenize eklemek için **Şimdi edinin**'i seçin. 
-
-## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Microsoft AppSource web sitesinden bir uygulama edinme 
-
-Bu örnekte, Microsoft’un örnek uygulamalarının birini açacağız. AppSource’ta, işlerinizi yürütmek için kullandığınız çoğu hizmete yönelik uygulamalar bulabilirsiniz.  Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo, ve daha fazlası gibi hizmetler. Daha fazla bilgi edinmek için [Power BI ile kullandığınız hizmetlere yönelik uygulamalar](../connect-data/service-connect-to-services.md) bölümünü ziyaret edin. 
-
-1. Tarayıcıda [https://appsource.microsoft.com](https://appsource.microsoft.com) bağlantısını açın ve **Power BI uygulamaları**’nı seçin.
-
-    ![Power BI uygulamaları seçili şekilde AppSource web sitesi  ](./media/end-user-apps/power-bi-appsource.png)
-
-
-2. AppSource’ta şu anda kullanılabilir olan tüm Power BI uygulamalarının listesini görüntülemek için **Tümünü gör** seçeneğini belirleyin. Kaydırın veya **Microsoft Örneği - Satış ve Pazarlama** adlı uygulamayı arayın.
-
-    ![Power BI Satış ve Pazarlama uygulaması vurgulanmış şekilde AppSource web sitesi  ](./media/end-user-apps/power-bi-appsource-samples.png)
-
-3. **Hemen edinin**’e tıklayıp kullanım koşullarını kabul edin.
-
-    ![AppSource sitesi kullanım koşulları ](./media/end-user-apps/power-bi-permission.png)
-
-
-4. Bu uygulamayı yüklemek istediğinizi onaylayın.
-
-    ![Bu uygulama yüklensin mi?  ](./media/end-user-apps/power-bi-app-install.png)
-
-5. Uygulama yüklendikten sonra, Power BI hizmeti yükleme başarılı iletisi gösterir. Uygulamayı açmak için **Uygulamaya git** seçeneğini belirleyin. Tasarımcının uygulamayı nasıl oluşturduğuna bağlı olarak uygulama panosu veya uygulama raporu görüntülenir.
-
-
-
-    ![Uygulama başarıyla yüklendi ](./media/end-user-apps/power-bi-app-ready.png)
-
-    > [!NOTE]
-    > Ücretsiz kullanıcı lisansı kullanıyorsanız uygulamaları indirebilir ancak Power BI Pro hesabına yükseltene kadar görüntüleyemezsiniz. 
-
-    **Uygulamalar**’ı ve ardından **Satış ve Pazarlama**’yı seçerek, uygulamayı uygulama içerikleri listenizden doğrudan da açabilirsiniz.
-
-    ![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps.png)
-
-
-6. Yeni uygulamanızı keşfetmek mi yoksa özelleştirip paylaşmak mı istediğinizi belirtin. Microsoft örnek uygulamasını seçtiğimiz için keşfetme ile başlayalım. 
-
-    ![Örnek verilerle keşfedin](./media/end-user-apps/power-bi-explore.png)
-
-7.  Yeni uygulamanız bir pano ile açılır. Uygulama *tasarımcısı*, uygulamayı bir raporu açacak şekilde ayarlamış olabilir.  
-
-    ![Örnek verilerle keşfedin](./media/end-user-apps/power-bi-new-app.png)
-
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Uygulamadaki panolarla ve raporlarla etkileşim kurma
 Zaman ayırıp uygulamayı oluşturan pano ve raporlardaki verileri keşfedin. Filtreleme, vurgulama, sıralama ve detaya gitme gibi tüm standart Power BI etkileşimlerine erişiminiz bulunur.  Panolar ve raporlar arasındaki fark hala kafanızı mı karıştırıyor?  [Panolar hakkındaki makaleyi](end-user-dashboards.md) ve [raporlar hakkındaki makaleyi](end-user-reports.md) okuyun.  
@@ -130,7 +100,6 @@ Zaman zaman uygulama oluşturucuları uygulamalarının yeni sürümlerini kulla
     3. Zaten bu uygulamanın bir sürümü sizde yüklü olduğunuzdan, mevcut sürümün değiştirilmesini mi yoksa güncelleştirilmiş uygulamanın yeni bir çalışma alanına yüklenmesini mi istediğinize karar verir.   
 
         ![Eski uygulama sürümünün üzerine yazma](./media/end-user-app-view/power-bi-already-installed.png) 
-
 
     > [!NOTE] 
     > Yeni bir sürüm yüklendiğinde, rapor ve panolarda yapmış olabileceğiniz değişikliklerin üzerine yazılır. Güncelleştirilmiş rapor ve panolarınızı tutmak için, yüklemeden önce bunları farklı bir adla veya farklı bir konuma kaydedebilirsiniz. 

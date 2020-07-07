@@ -5,27 +5,28 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279446"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393853"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz. Bu görsel türlerinden bazıları Power BI ile paketlenir ve bazıları da *Power BI görselleridir*. Özel görseller Power BI’ın dışında ve rapor *tasarımcılarının* bunları Power BI raporlarına ve panolarına ekleyebileceği şekilde oluşturulur. 
+Görseller (*grafikler* ve *görselleştirmeler* olarak da bilinir), verilerinizin temsili resimleridir. Bazı yaygın örnekler arasında sütun grafikleri, haritalar, dağılım grafikleri ve radyal ölçerler yer alır. Görselleri raporlarda, panolarda ve Soru-Cevap’ta bulabilirsiniz.
 
-Bu makale Power BI hizmetiyle paketlenen görsellere genel bir bakış sağlar.  Bunlar en sık karşılaşacağınız görsellerdir. Bu görsellerden herhangi biriyle ilgili daha ayrıntılı bilgi için [Görsel türleriyle ilgili Power BI rapor *tasarımcısı* belgelerine](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) bakın
+Bu sayfada açıklanan görseller, Power BI ile birlikte sunulanlardır. Bunlar en sık karşılaşacağınız görsel türleridir. Bu sayfa, bu önceden paketlenmiş görsellere ilişkin hızlı bir genel bakış sağlar. Bu görsellerden herhangi biriyle ilgili daha ayrıntılı bilgi için [Görsel türleriyle ilgili Power BI rapor *tasarımcısı* belgelerine](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) bakın.
 
-> [!NOTE]
-> Power BI görselleri hakkında daha fazla bilgi edinmek için bunları [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’un **Power BI görselleri** bölümünde arayın. Her görsel için bir açıklama, oluşturucu bilgileri ve ekran görüntüsü veya video bulabilirsiniz. 
+Power BI’a otomatik olarak dahil edilmeyen görseller, *özel görseller* olarak adlandırılır. Özel görseller Microsoft AppSource gibi dış web sitelerinden veya kuruluşunuzun mağazası gibi iç kaynaklardan Power BI’a içeri aktarılabilir. Özel görselleri içeri aktarmak için raporda düzenleme izinlerine sahip olmanız gerekir. Bu ek görseller hakkında daha fazla bilgi edinmek için [Power BI’daki Görseller](../developer/visuals/power-bi-custom-visuals.md) sayfasını ziyaret edin.
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI’da sağlanan görsellerin listesi
 Bu görsellerin tümü Power BI panolarıyla raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](end-user-q-and-a.md). Görsellerle etkileşimli çalışmayı öğrenmek için bkz. [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)
@@ -64,6 +65,12 @@ Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 - bir görselde yer alan iki ölçü arasındaki bağıntıyı göstermek istediğinizde
 - bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde
 - tuval alanını tasarruflu kullanmak istediğinizde
+
+
+### <a name="decomposition-tree"></a>Ayrıştırma ağacı
+![ayrıştırma ağacı](media/end-user-visual-type/power-bi-decomposition.png)
+
+Ayrıştırma ağacı görseli, birden çok boyuttaki verileri görselleştirmenize olanak tanır. Verileri otomatik olarak toplar ve herhangi bir sırada boyutlarınızda detaya gitmenizi sağlar. Aynı zamanda bir yapay zeka (AI) görselleştirmesi olduğundan, belirli ölçütler temelinde detayına gidilecek bir sonraki boyutu bulmasını isteyebilirsiniz. Bu da geçici bir inceleme yapmak ve kök neden analizi yürütmek için değerli bir araç olmasını sağlar.
 
 ### <a name="doughnut-charts"></a>Halka grafikler
 ![halka grafik](media/end-user-visual-type/donut-small.png)
@@ -210,7 +217,7 @@ Tablolar şunlar için harika seçimdir:
 - verileri tablo biçiminde görüntülemek için
 - sayısal verileri kategorilere göre ayrılmış şekilde görüntülemek için
 
-### <a name="treemaps"></a>Ağaç haritaları
+### <a name="tree-maps"></a>Ağaç haritalar
 ![ağaç haritası grafiği](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
 Ağaç haritaları, renkli dikdörtgenlerden oluşan grafiklerdir ve boyutlar değerleri temsil eder.  Bu grafikler hiyerarşik (ana dikdörtgenlerde iç içe geçmiş dikdörtgenler halinde) olabilir. Her dikdörtgenin içindeki alan, ölçülmekte olan değere bağlıdır. Ayrıca dikdörtgenler, sol üstten (en büyük) sağ alta (en küçük) doğru boyutlarına göre düzenlenir.
@@ -241,7 +248,7 @@ Artış ve azalışları hızlıca görebilmeniz için sütunlar renk kodludur. 
 Power BI Soru-Cevap’ta doğal dilde sorgular yazarken, sorgunuzda görsel türünü belirtebilirsiniz.  Örnek:
 
 
-"***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
+“***ağaç haritası olarak eyalete göre satışlar***”
 
 ![soru-cevap oturumu](media/end-user-visual-type/qa-treemap.png)
 

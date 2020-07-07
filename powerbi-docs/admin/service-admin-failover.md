@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128550"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782331"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -38,7 +37,7 @@ Tüm Power BI hizmeti bileşenleri yedekleme örneklerini düzenli olarak eşitl
 
 [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)’nde açıklanan durumlar dışında yedekleme örnekleri kuruluşunuzun Power BI’a kaydı sırasında seçtiğiniz coğrafi bölgenin (geo) içinde yer alır. Coğrafi bölge çeşitli bölgeler içerebilir ve Microsoft verilerin dayanıklılığı için onları belirli bir coğrafi bölge içindeki bölgelerden herhangi birine çoğaltabilir. Microsoft, müşteri verilerini coğrafi bölgenin dışına çoğaltmaz veya taşımaz. Power BI’ın sunduğu coğrafi bölgeler ve bu coğrafi bölgelerin kapsadığı bölgelerin eşlemesi için bkz. [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Microsoft yük devretmeye nasıl karar verir?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft yük devretmeye nasıl karar verir?
 
 Yük devretmenin gerekli olabileceğini gösteren iki farklı sistem vardır:
 
@@ -57,6 +56,9 @@ Yük devretme işleminin gerçekleştirilmesi gerektiği belirlendikten sonra Po
 
 Yük devretme kararı verildikten sonra Power BI, yük devretmeyi gerçekleştirmek için Azure Depolama coğrafi çoğaltmayı kullanır. Bu tür çoğaltma işlemleri genellikle 15 dakikalık bir dönüş noktasına sahiptir ancak [Azure Depolama bu zaman dilimini bir SLA ile garanti etmez](https://docs.microsoft.com/azure/storage/common/storage-redundancy) ve bu nedenle Power BI da bir zaman dilimini garanti edemez. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Premium kapasitem kullanılamaz duruma gelirse çalışma alanlarıma ve raporlarıma ne olur? 
+
+Premium kapasite kullanılamaz hale gelirse çalışma alanları ve raporları, bunlara önceden erişimi olan tüm Power BI Pro lisanslı kullanıcılar tarafından erişilebilir ve görünür durumda kalır.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>Power BI örneğim ne zaman özgün bölgesine döner?
 

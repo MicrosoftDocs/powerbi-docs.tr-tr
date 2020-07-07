@@ -1,6 +1,6 @@
 ---
-title: Bir Günlük Kursla Power BI Sayfalandırılmış Raporları
-description: Bu çevrimiçi kurs, sizin gibi rapor yazarlarını Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgilerle donatmayı hedefler.
+title: Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
+description: Bu video tabanlı kurs, sizin gibi rapor yazarlarını Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgilerle donatmayı hedefler.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,14 +9,13 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
-ms.translationtype: HT
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693221"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427461"
 ---
-# <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Günlük Kursla Power BI Sayfalandırılmış Raporları
+# <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 
 **Bir Günde Power BI Sayfalandırılmış Raporları** video temelli kursu, sizin gibi rapor yazarlarını, Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgiyle donatır. İstek üzerine ücretsiz sunulan neredeyse 4 saat 20 dakikalık görüntülenebilir içerikten oluşur. Ayrıca indirebileceğiniz ve sekiz uygulamalı laboratuvarı tamamlamak için kullanabileceğiniz bir de [kendi kendine çalışma seti](#self-study-kit) vardır.
 
@@ -93,11 +92,11 @@ Ayıklandıktan sonra **PowerBIPRIAD** klasörünüz olur ve bu klasörün için
 - **MySolution**: Bu klasörde çözüm dosyalarınız depolanır. Laboratuvar yönergeleri sizi bu klasörü kullanmaya yönlendirir.
 - **Presentation**: Bu klasör kursun PDF belgesi olarak sağlanan sunu dosyasını içerir.
 
-### <a name="getting-started-with-the-kit"></a>Setle çalışmaya başlama
+### <a name="get-started-with-the-kit"></a>Setle çalışmaya başlama
 
 Önce çevrimiçi kursun izlenmesini öneririz. Daha sonra **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** dosyasını açarak sunu teorisine yeniden başvurabilirsiniz. Sunuda, teorinin ne zaman uygulamaya geçirileceğini belirten sekiz laboratuvar slaydı yer alır. Ayrıca ilgili içeriği bulmanıza yardımcı olmak için birçok kaynak bağlantısı da içerir.
 
-İlk laboratuvarı başlatmaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak, veri kümesini karşıya yüklemek ve ardından [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)’ı yüklemek için size yol gösterir.
+İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak, veri kümesini karşıya yüklemek ve ardından [Power BI Report Builder](https://aka.ms/pbireportbuilder)’ı yüklemek için size yol gösterir.
 
 > [!NOTE]
 > Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md).

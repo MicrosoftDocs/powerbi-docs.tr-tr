@@ -5,17 +5,16 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
-ms.translationtype: HT
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160169"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236556"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 
@@ -43,15 +42,17 @@ Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığ�
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Yeni bir uygulama alma
-Uygulamaları birkaç farklı yolla alabilirsiniz. Bazı yollar aşağıda listelenmiştir.  Bir uygulamayı edinme ve keşfetmeye yönelik ayrıntılı, adım adım ilerleyen yönergeler için bkz. [Bir uygulamayı açma ve uygulamayla etkileşim kurma](end-user-app-view.md).
+Yeni bir uygulama almanın en iyi yolu [Power BI Uygulamaları marketidir](https://app.powerbi.com/groups/me/getapps/apps).
 
-- Uygulamanın tasarımcısı uygulamayı Power BI hesabınızda otomatik olarak yükleyebilir ve Power BI hizmetini bir sonraki açışınızda yeni uygulamayı **Uygulamalar** içerik listenizde görebilirsiniz. 
-- Uygulama tasarımcısı, uygulamanın doğrudan bağlantısını size e-posta olarak gönderebilir. Bağlantıyı seçmek, uygulamayı Power BI hizmetinde açar.
-- Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz.
-- [AppSource](https://appsource.microsoft.com)’ta uygulama araması yapabilirsiniz. AppSource şirketinizin içindeki ve dışındaki rapor tasarımcıları tarafından yayımlanan uygulamaları içerir. Örneğin, AppSource’ta Google Analytics, GitHub veya Microsoft Dynamics gibi zaten kullandığınız bir hizmet için uygulamalar bulabilirsiniz. Power BI’ı öğrenmek amacıyla kullanabileceğiniz örnekler olan uygulamaları da bulabilirsiniz.  
+![Power BI Uygulamaları marketi](./media/end-user-apps/power-bi-app-marketplace.png)
 
+Uygulamaları almanın farklı birkaç yolu daha vardır. Bu yollardan bazıları aşağıda listelenmiştir. Bir uygulamayı edinme ve keşfetmeye yönelik ayrıntılı, adım adım ilerleyen yönergeler için bkz. [Bir uygulamayı açma ve uygulamayla etkileşim kurma](end-user-app-view.md).
 
-## <a name="next-step"></a>Sonraki adım
+* Uygulamanın tasarımcısı uygulamayı Power BI hesabınızda otomatik olarak yükleyebilir ve Power BI hizmetini bir sonraki açışınızda yeni uygulamayı **Uygulamalar** içerik listenizde görebilirsiniz. 
+* Uygulama tasarımcısı, uygulamanın doğrudan bağlantısını size e-posta olarak gönderebilir. Bağlantıyı seçmek, uygulamayı Power BI hizmetinde açar.
+* Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz. 
+
+## <a name="next-steps"></a>Sonraki adımlar
 * [Uygulama açma ve uygulamayla etkileşim kurma](end-user-app-view.md)
 * [İçerik paylaşmanın diğer yolları](end-user-shared-with-me.md)
 

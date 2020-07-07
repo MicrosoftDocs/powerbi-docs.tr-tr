@@ -6,16 +6,15 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348908"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354329"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Raporlardan Power BI panolarına kutucuk sabitleme
 
@@ -57,6 +56,11 @@ Aşağıdaki videoda Amanda, bir Power BI raporundan görseller ve resimler sabi
 Diğer bir seçenek de bir rapor sayfasının tamamını panoya sabitlemektir ve bu bir kerede birden çok görselleştirmeyi sabitlemenin kolay bir yoludur. Sayfanın tamamını sabitlediğinizde kutucuklar *canlı* olur. Başka bir deyişle kutucuklarla panoda etkileşim kurabilirsiniz. Rapor düzenleyicisinde herhangi bir görselleştirme üzerinde yaptığınız değişiklikler (filtre ekleme veya grafikte kullanılan alanları değiştirme gibi) pano kutucuğu için de geçerli olur.  
 
 Daha fazla bilgi için bkz. [Rapor sayfasının tamamını sabitleme](service-dashboard-pin-live-tile-from-report.md).
+
+> [!NOTE]
+> Bazı biçimlendirme seçenekleri, bir panoya sabitlendiğinde görsellere uygulanmaz. Sabitlenmiş kutucukta kenarlık, gölge ve arka plan ayarları yoksayılır. Kart görselleri için, değerde kullanılan metin “DIN” yazı tipi ailesi kullanılarak her zaman panolarda gösterilir. 
+> 
+>
 
 ## <a name="next-steps"></a>Sonraki adımlar
 - [Panoların Power BI hizmeti tüketicileri için anlamı](../consumer/end-user-dashboards.md)

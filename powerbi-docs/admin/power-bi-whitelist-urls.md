@@ -1,36 +1,35 @@
 ---
-title: Beyaz listeye ekleme için Power BI URL’si
-description: Bu makalede Power BI’a bağlantıda güvenilir listeye alınacak URL uç noktaları ve bağlantı noktaları listelenir.
+title: İzin verilenler listesine Power BI URL’lerini ekleme
+description: Bu makalede, Power BI’a bağlanmak için izin verilenler listenize eklenecek URL uç noktaları ve bağlantı noktaları listelenir.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
-ms.translationtype: HT
+ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315937"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485082"
 ---
-# <a name="power-bi-urls-for-whitelisting"></a>Beyaz listeye ekleme için Power BI URL’si
-[//]: # "suparnap, miwehnia bu listeyi korumaya yönelik ilgili kişilerdir"
+# <a name="add-power-bi-urls-to-your-allow-list"></a>Power BI URL’lerini izin verilenler listenize ekleme
+[//]: # "suparnap, miwehnia ve natham bu listeyi korumaya yönelik ilgili kişilerdir"
 
-Power BI SaaS (Hizmet Olarak Yazılım) uygulaması olarak da bilinen **Power BI çevrimiçi hizmeti** için internet bağlantısı gerekir. Power BI çevrimiçi hizmetini kullanan müşterilerin aşağıdaki uç noktalara erişebiliyor olması gerekir.
+Power BI hizmeti için internet bağlantısı gerekir. Bu makaledeki tablolarda listelenen uç noktaların, Power BI hizmetini kullanan müşteriler tarafından ulaşılabilir olması gerekir.
 
-Power BI çevrimiçi hizmetini kullanmak için aşağıdaki tabloda **gerekli** olarak işaretlenen uç noktalara ve bağlantılı sitelerde **gerekli** olarak işaretlenen uç noktalarına bağlanabilmeniz gerekir. Dış site bağlantısı belirli bir bölüme başvuruyorsa yalnızca bu bölümdeki uç noktalarını gözden geçirmeniz gerekir.
+Power BI hizmetini kullanmak için aşağıdaki tabloda **gerekli** olarak işaretlenen uç noktalara ve bağlantılı sitelerde **gerekli** olarak işaretlenen uç noktalarına bağlanabilmeniz gerekir. Dış site bağlantısı belirli bir bölüme başvuruyorsa yalnızca bu bölümdeki uç noktalarını gözden geçirmeniz gerekir.
 
-**İsteğe bağlı** olarak işaretlenen uç noktalar, belirli işlevlerin çalışması için **izin verilenler listesine eklenebilir**.
+**İsteğe bağlı** olarak işaretlenen uç noktalar, belirli işlevlerin çalışması için izin verilenler listesine eklenebilir.
 
-Power BI çevrimiçi hizmetlerinin listelenen uç noktaları için yalnızca 443 numaralı TCP bağlantı noktasının açılması gerekir.
+Power BI hizmetlerinin listelenen uç noktaları için yalnızca 443 numaralı TCP bağlantı noktasının açılması gerekir.
 
-Joker karakterler (*) kök etki alanı altındaki tüm düzeyleri temsil eder ve bilgi bulunmayan alanlar Yok ifadesiyle belirtilmiştir. **Hedefler** sütununda FQDN/etki alanları ve uç noktalarıyla ilgili daha fazla bilginin bulunduğu dış sitelerin bağlantıları yer almaktadır.
+Joker karakterler (*) kök etki alanı altındaki tüm düzeyleri temsil eder ve bilgi bulunmayan alanlar Yok ifadesiyle belirtilmiştir. **Hedefler** sütununda uç noktalarla ilgili daha fazla bilginin bulunduğu dış sitelerin etki alanları ve bağlantıları listelenmektedir.
 
 >[!Important]
->Aşağıdaki tabloda yer alan bilgiler **ABD Kamu bulutu**, **Almanya bulutu** veya **Çin bulutu** için geçerli değildir.
+>Aşağıdaki tablolarda yer alan bilgiler Power BI Germany, 21Vianet tarafından işletilen Power BI China veya Power BI for US Government için geçerli değildir. Bulut hizmetleri arasında bağlantı hakkında daha fazla bilgi için [Kamuya özgü ve genel Azure bulut hizmetleri arasında bağlantı kurma](service-govus-overview.md#connect-government-and-global-azure-cloud-services) makalesini okuyun.
 
 ## <a name="authentication"></a>Kimlik Doğrulama
 
@@ -51,7 +50,7 @@ Genel Power BI kullanımı için aşağıdaki tabloda ve bağlantılı sitelerde
 | 3 | **Gerekli:** Arka uç API’leri | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **Gerekli:** Content Delivery Network (CDN) | content.powerapps.com | TCP 443 |
 | 5 | **Gerekli:** Microsoft 365 tümleştirmesi | [Microsoft 365 Ortak ve Office Online URL’leri](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ile ilgili belgelere bakın | YOK |
-| 6 | **Gerekli:** Portal | app.powerbi.com | TCP 443 |
+| 6 | **Gerekli:** Portal | *.powerbi.com | TCP 443 |
 | 7 | **Gerekli:** Hizmet telemetrisi | dc.services.visualstudio.com | TCP 443 |
 | 8 | **İsteğe bağlı:** Bilgilendirme iletileri | dynmsg.modpim.com | TCP 443 |
 | 9 | **İsteğe bağlı:** NPS anketleri | nps.onyx.azure.net | TCP 443 |
@@ -102,7 +101,7 @@ Power BI, Power BI görsellerini görüntülemek ve onlara erişim sağlamak iç
 
 ## <a name="related-external-sites"></a>İlgili dış siteler
 
-Diğer ilgili siteler için Power BI bağlantıları. Bu siteler belgeleri, destek bilgilerini, yeni özellik isteklerini ve daha fazlasını barındırır. Beyaz liste isteğe bağlı olduğundan, bu sitelere erişim Power BI’ın işlevselliğini etkilemez.
+Diğer ilgili siteler için Power BI bağlantıları. Bu siteler belgeleri, destek bilgilerini, yeni özellik isteklerini ve daha fazlasını barındırır. İzin verilenler listesine ekleme isteğe bağlı olduğundan, bu sitelere erişim Power BI’ın işlevselliğini etkilemez.
 
 | Satır | Amaç | Hedefler | Bağlantı noktaları |
 | --- | --- | --- | --- |

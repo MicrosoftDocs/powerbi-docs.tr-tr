@@ -1,72 +1,87 @@
 ---
 title: Power BI ile Snowflake'e bağlanma
-description: Power BI için SSO ile Snowflake
+description: SSO kimlik doğrulamasını kullanarak Power BI için Snowflake’e bağlanmayı öğrenin.
 author: cpopell
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/20/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83300333"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485792"
 ---
-#  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI hizmetinde Snowflake'e bağlanma
+# <a name="connect-to-snowflake-in-power-bi-service"></a>Power BI hizmetinde Snowflake’e bağlanma
 
-## <a name="introduction"></a>Giriş
+## <a name="introduction"></a>Tanıtım
 
-Power BI hizmetinde Snowflake'e bağlanmanın diğer bağlayıcılardan tek farkı, AAD için sunulan ek özelliktir (SSO seçeneği). Tümleştirmenin farklı bölümlerinde Snowflake, Power BI ve Azure için farklı yönetici rollerine ihtiyaç duyulur. SSO kullanmadan da AAD kimlik doğrulamasını etkinleştirebilirsiniz. Temel kimlik doğrulaması, hizmetteki diğer bağlayıcılara benzer şekilde çalışır.
+Power BI hizmetinde Snowflake’e bağlanmak, diğer bağlayıcılardan bağlanmaktan yalnızca tek bir yönüyle farklıdır. Snowflake, SSO seçeneğiyle birlikte Azure Active Directory’ye (AAD) yönelik ek bir özelliğe sahiptir. Tümleştirmenin bölümlerinde Snowflake, Power BI ve Azure için farklı yönetici rollerine ihtiyaç duyulur. SSO kullanmadan da AAD kimlik doğrulamasını etkinleştirebilirsiniz. Temel kimlik doğrulaması, hizmetteki diğer bağlayıcılara benzer şekilde çalışır.
 
-AAD tümleştirmesini yapılandırmak ve isteğe bağlı SSO özelliğini etkinleştirmek istiyorsanız:
-* Snowflake yöneticisiyseniz lütfen Snowflake belgelerindeki [Snowflake için Power BI SSO - Kullanmaya Başlama](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html) makalesini okuyun.
-* (SSO) Power BI yöneticisiyseniz "Power BI Hizmeti yapılandırması - Yönetim Portalı" bölümünü inceleyin
-* (SSO) Power BI veri kümesi oluşturucusuysanız "Power BI Hizmeti yapılandırması - Veri kümesini etkinleştirme" bölümünü inceleyin
+AAD tümleştirmesini yapılandırmak ve SSO’yu isteğe bağlı olarak etkinleştirmek için bu makaledeki adımları izleyin:
+
+* Snowflake yöneticisiyseniz Snowflake belgelerindeki [Snowflake için Power BI SSO - Kullanmaya Başlama](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html) makalesini okuyun.
+* Power BI yöneticisiyseniz SSO’yu etkinleştirmeyi öğrenmek için [Power BI Hizmet yapılandırması - Yönetici Portalı](service-connect-snowflake.md#admin-portal) makalesine başvurun.
+* Power BI veri kümesi oluşturucusuysanız SSO’yu etkinleştirmeyi öğrenmek için [Power BI Hizmet yapılandırması - AAD ile veri kümesi yapılandırma](service-connect-snowflake.md#configuring-a-dataset-with-aad) makalesine başvurun.
 
 ## <a name="power-bi-service-configuration"></a>Power BI Hizmeti yapılandırması
 
-### <a name="admin-portal"></a>Yönetim Portalı
+### <a name="admin-portal"></a>Yönetici portalı
 
-SSO özelliğini etkinleştirmek istiyorsanız kiracı yöneticisinin Yönetim Portalına giderek Power BI AAD kimlik bilgilerinin Snowflake'e gönderilmesini onaylaması gerekir.
+SSO’yu etkinleştirmek için bir genel yöneticinin Power BI Yönetim portalındaki ayarı açması gerekir. Bu ayar, tüm kuruluşta kimlik doğrulaması için AAD kimlik bilgilerinin Snowflake’e gönderilmesini onaylar. SSO’yu etkinleştirmek için bu adımları izleyin:
 
-![Snowflake SSO için kiracı yöneticisi ayarı](media/service-connect-snowflake/snowflakessotenant.png)
+1. Genel yönetici kimlik bilgilerini kullanarak [Power BI’da oturum açın](https://app.powerbi.com).
+1. Sayfa üst bilgisi menüsünde **Ayarlar**’ı ve sonra **Yönetim portalı**’nı seçin.
+1. **Kiracı ayarları**’nı seçin ve sonra **Tümleştirme ayarları**’nı bulmak için kaydırın.
 
-"Yönetim Portalınıza" gidin, "Kiracı Ayarları" kenar çubuğu öğesini seçin, sayfanın "Tümleştirme Ayarları" bölümüne kaydırın ve "Snowflake SSO" seçeneğini bulun.
+   ![Snowflake SSO için kiracı yöneticisi ayarı](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
-Yukarıda belirtildiği gibi AAD belirtecinizin Snowflake sunucularına gönderilmesini onaylamak için bu özelliği el ile etkinleştirmeniz gerekir. Etkinleştirmek için "Devre dışı" düğmesine tıklayın, Uygula'ya basın ve ayarların geçerli hale gelmesini bekleyin. Hizmetin yapılandırmayı yayması bir saate kadar sürebilir.
+4. **Snowflake SSO**’yu genişletin, ayarı **Etkin** olarak değiştirin ve **Uygula**’yı seçin.
 
-Bu işlem tamamlandıktan sonra raporları SSO ile kullanabilirsiniz.
+Bu adım, AAD belirtecinizi Snowflake sunucularına göndermeyi onaylamak açısından gereklidir. Etkinleştirildikten sonra ayarın etkili olması bir saat kadar sürebilir.
+
+SSO etkinleştirildikten sonra, raporları SSO ile kullanabilirsiniz.
 
 ### <a name="configuring-a-dataset-with-aad"></a>AAD ile veri kümesi yapılandırma
 
-Snowflake bağlayıcısını temel alan bir rapor, Power BI web hizmetinde web üzerinde yayımlandıktan sonra, veri kümesi oluşturucusunun uygun çalışma alanına gitmesi, "Veri kümeleri"ni ve ardından "Ayarlar"ı seçmesi gerekir (ilgili veri kümesinin yanında bulunan ve ek eylemlerin yer aldığı "..." menüsünün altında).
+Snowflake bağlayıcısını temel alan bir rapor Power BI hizmetinde yayımlandıktan sonra, veri kümesi oluşturucusunun SSO kullanması için ayarları uygun çalışma alanı için güncelleştirmesi gerekir.
 
-Power BI'ın çalışma şekli nedeniyle SSO yalnızca şirket içi veri ağ geçidi aracılığıyla çalıştırılan veri kaynağı olmadığında çalışır.
+Power BI’ın çalışma şekli nedeniyle SSO yalnızca şirket içi veri ağ geçidi aracılığıyla çalıştırılan veri kaynakları olmadığında çalışır. Sınırlamalar aşağıda listelenmiştir:
 
-* Veri modelinizde yalnızca bir Snowflake kaynağı kullanıyorsanız, şirket içi veri ağ geçidini kullanmama şartıyla SSO özelliğini kullanabilirsiniz
-* Veri modelinizde başka bir kaynağa ek olarak bir Snowflake kaynağı kullanıyorsanız, bu kaynakların hiçbirinin şirket içi veri ağ geçidini kullanmaması şartıyla SSO özelliğini kullanabilirsiniz
+* Veri modelinizde yalnızca bir Snowflake kaynağı kullanıyorsanız şirket içi veri ağ geçidini kullanmama şartıyla SSO özelliğini kullanabilirsiniz.
+* Veri modelinizde Snowflake kaynağı ve başka bir kaynak kullanıyorsanız bu kaynakların hiçbirinin şirket içi veri ağ geçidini kullanmaması şartıyla SSO özelliğini kullanabilirsiniz.
 * Şirket içi veri ağ geçidi üzerinden Snowflake kaynağı kullanılan durumlar için şu anda AAD kimlik bilgileri desteklenmez. Bu durum bir sanal ağa Power BI IP aralığının tamamından değil ağ geçidi yüklü olan tek bir IP adresinden erişmeye çalıştığınız durumlarda geçerli olabilir.
-* Snowflake kaynağını ağ geçidine ihtiyaç duyan başka bir kaynakla birlikte kullanıyorsanız Snowflake'i de şirket içi veri ağ geçidinden kullanmanız gerekir ve SSO kullanamazsınız.
+* Snowflake kaynağı ile ağ geçidine ihtiyaç duyan başka bir kaynak kullanıyorsanız Snowflake’i şirket içi veri ağ geçidi üzerinden de kullanmanız gerekir. Bu durumda SSO kullanamazsınız.
 
-Şirket içi veri ağ geçidini kullanma hakkında daha fazla bilgi için [Şirket içi veri ağ geçidi nedir?](https://docs.microsoft.com/power-bi/service-gateway-onprem) makalesine bakın.
+Şirket içi veri ağ geçidini kullanma hakkında daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)
 
 Ağ geçidi kullanmıyorsanız yapmanız gereken başka işlem yoktur. Şirket içi veri ağ geçidinizde Snowflake kimlik bilgileri yapılandırıldıysa ancak modelinizde yalnızca o veri kaynağını kullanıyorsanız, Veri kümesi ayarları sayfasındaki düğmeye tıklayarak ağ geçidini o veri modeli için kapatabilirsiniz.
 
-![Ağ geçidini kapatmayı sağlayan veri kümesi ayarı](media/service-connect-snowflake/snowflake_gateway_toggle_off.png)
+![Ağ geçidini kapatmayı sağlayan veri kümesi ayarı](media/service-connect-snowflake/snowflake-gateway-toggle-off.png)
 
-Veri kümesi oluşturucusunun "Veri kaynağı kimlik bilgileri"ni seçerek oturum açması gerekir. Veri kümesinin Snowflake'te oturum açması için Temel kimlik bilgileri veya OAuth2 (AAD) kimlik bilgileri kullanılabilir. AAD'yi kullanmayı seçerseniz veri kümesinde SSO kullanımı etkinleştirilebilir. Bu ilk kullanıcı Snowflake'te veri kümesi için oturum açtığında diğer kullanıcıların verileri almak için kullanılan Oauth2 kimlik bilgilerinin bulunacağı seçeneği belirlemesi gerekir. Bu durumda AAD SSO etkinleştirilir. İlk kullanıcının Temel kimlik doğrulaması veya OAuth2 (AAD) ile oturum açma durumundan bağımsız olarak SSO için AAD kimlik bilgileri gönderilir. 
+Veri kümesinde SSO’yu açmak için şu adımları izleyin:
 
-![Snowflake SSO için veri kümesi ayarı](media/service-connect-snowflake/snowflakessocredui.png)
+1. Veri kümesi oluşturucu kimlik bilgilerini kullanarak [Power BI’da oturum açın](https://app.powerbi.com).
+1. Uygun çalışma alanını seçin ve sonra veri kümesinin adının yanında bulunan Diğer seçenekler menüsünden **Ayarlar**’ı seçin.
+  ![Üzerine gelindiğinde Diğer seçenekler menüsü görüntülenir](media/service-connect-snowflake/dataset-settings-2.png)
+1. **Veri kaynağı kimlik bilgilerini** seçip oturum açın. Veri kümesinin Snowflake'te oturum açması için Temel veya OAuth2 (AAD) kimlik bilgileri kullanılabilir. AAD kullanıyorsanız bir sonraki adımda SSO’yu etkinleştirebilirsiniz.
+1. **DirectQuery ile bu veri kaynağına erişirken son kullanıcılar kendi OAuth2 kimlik bilgilerini kullanır** seçeneğini belirleyin. Bu ayar, AAD SSO’yu etkinleştirir. İlk kullanıcının Temel kimlik doğrulaması veya OAuth2 (AAD) ile oturum açma durumundan bağımsız olarak SSO için AAD kimlik bilgileri gönderilir.
 
-Bu işlem tamamlandıktan sonra diğer kullanıcıların aynı Snowflake veri kümesindeki verilere bağlanmak için otomatik olarak AAD kimlik doğrulamalarını kullanmaları gerekir.
+    ![Snowflake SSO için veri kümesi ayarı](media/service-connect-snowflake/snowflake-sso-cred-ui.png)
+
+Bu adımlar tamamlandıktan sonra diğer kullanıcıların aynı Snowflake veri kümesindeki verilere bağlanmak için otomatik olarak AAD kimlik doğrulamalarını kullanmaları gerekir.
 
 SSO'yu etkinleştirmezseniz raporu yenileyen kullanıcılar, diğer çoğu Power BI raporunda olduğu gibi oturum açmış olan kullanıcının kimlik bilgilerini kullanır.
 
-### <a name="troubleshooting"></a>Sorun Giderme
+### <a name="troubleshooting"></a>Sorun giderme
 
-Tümleştirme konusunda herhangi bir sorunla karşılaşırsanız lütfen Snowflake [sorun giderme kılavuzunu](https://docs.snowflake.net/manuals/LIMITEDACCESS/oauth-powerbi.html#troubleshooting) inceleyin.
+Tümleştirme konusunda herhangi bir sorunla karşılaşırsanız Snowflake [sorun giderme kılavuzunu](https://docs.snowflake.com/en/user-guide/oauth-powerbi.html#troubleshooting) inceleyin.
 
+## <a name="next-steps"></a>Sonraki adımlar
+
+* [Power BI hizmeti için veri kaynakları](service-get-data.md)
+* [Power BI Desktop’tan Power BI hizmetindeki veri kümelerine bağlanma](desktop-report-lifecycle-datasets.md)
+* [Bir Snowflake bilgi işlem ambarına bağlanma](desktop-connect-snowflake.md)

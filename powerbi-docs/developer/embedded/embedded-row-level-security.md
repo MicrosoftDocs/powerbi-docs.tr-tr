@@ -1,6 +1,6 @@
 ---
 title: Power BI katıştırılmış içeriğiyle satır düzeyi güvenliği kullanma
-description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin.
+description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,11 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
+ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277031"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84795151"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -88,16 +87,19 @@ API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin �
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz.
 
-Örneğin [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) örneğini değiştirebilirsiniz. *Services\EmbedService.cs satır 76 ve 77* şuradan güncelleştirilebilir:
+Örneğin *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Müşterileriniz için ekleme > **PowerBIEmbedded_AppOwnsData*** örneğini değiştirebilirsiniz.
+
+**Değişiklikten önce**
 
 ```csharp
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+// Generate Embed Token with effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view", identities: new List<EffectiveIdentity> { rls });
 
-var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
+// Generate Embed Token for reports without effective identities.
+generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
 ```
 
-to
+**Değişiklikten sonra**
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -144,6 +146,9 @@ Roller bir katıştırma belirteci içinde kimlikle birlikte sağlanabilir. Rol 
 ### <a name="using-the-customdata-feature"></a>CustomData özelliğini kullanma
 
 CustomData özelliği yalnızca **Azure Analysis Services** içinde bulunan modeller için ve yalnızca **Canlı bağlan** modunda çalışır. Kullanıcıların ve rollerin aksine CustomData özelliği bir .pbix dosyasının içinde ayarlanamaz. CustomData özelliğiyle bir belirteç oluştururken kullanıcı adını bilmeniz gerekir.
+
+>[!NOTE]
+>CustomData kullanıcı adı en fazla 256 karakter uzunluğunda olabilir.
 
 CustomData özelliği, veri kaynağınız olarak **Azure Analysis Services** kullandığınızda uygulamanızdaki Power BI verilerini görüntülerken (uygulamanızda Azure Analysis Services’e bağlı Power BI verilerini görüntülerken) Satır filtresi eklemenize olanak tanır.
 

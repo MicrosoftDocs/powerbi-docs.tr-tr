@@ -7,13 +7,12 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/31/2020
-ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.date: 06/30/2020
+ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272667"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782729"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -21,9 +20,15 @@ Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğeler
 
 Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
 
-
 ## <a name="may-2020"></a>Mayıs 2020
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.8.7485.35104 (Derleme 15.0.1103.234), Yayın Tarihi: 30 Haziran 2020*
+        - Hata düzeltmeleri
+            - Ölçeği genişletme senaryolarındaki, karşıya yüklendikten sonra raporların düzenlemeleri sunucuda hemen yansıtmamasıyla ilgili bir sorun düzeltildi.
+    - *Sürüm: 1.8.7468.41510 (Derleme 15.0.1103.232), Yayın Tarihi: 15 Haziran 2020*
+        - Hata düzeltmeleri
+            - Karşıya yüklendikten sonra raporların düzenlemeleri sunucuda hemen yansıtmamasıyla ilgili bir sorun düzeltildi.
+            - Sorguları birleştirmek için benzer eşleşme kullanıldığında yenilemenin başarısız olmasıyla ilgili bir sorun düzeltildi.
     - *Sürüm: 1.8.7450.37410 (Derleme 15.0.1103.227), Yayın Tarihi: 27 Mayıs 2020*
          - Özellikler
             -  Özelleştirilebilir katalog bağlantı havuzu boyutu için destek eklendi. (Daha fazla bilgi için bkz. [MaxCatalogConnectionPoolSizePerProcess ayarı](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service).)

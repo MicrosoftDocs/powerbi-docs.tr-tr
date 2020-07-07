@@ -4,15 +4,14 @@ description: Sık görüntülenen içeriğe doğrudan kısayollar ve Google Sear
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802790"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229398"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Power BI Android uygulamasında Android uygulama kısayollarını kullanma
 
@@ -33,7 +32,7 @@ Android için Power BI, uygulamada gezinmek zorunda kalmadan ihtiyaç duyduğunu
 
 Bir rapor veya panoya kısayollar oluşturabilirsiniz.
 
-1. Eylemler menüsünde **Daha fazla seçenek...** öğesine tıklayıp **Kısayol ekle**’yi seçin.
+1. Bir rapordaki Eylemler menüsünde **Daha fazla seçenek...** öğesine dokunup **Kısayol ekle**’yi seçin. Bir panodaki Eylemler menüsünde **Kısayol ekle**’ye dokunun.
 
    ![Eylem menüsünde kısayol ekle seçeneği](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +43,6 @@ Bir rapor veya panoya kısayollar oluşturabilirsiniz.
    Bu iki deneyim aşağıda gösterilmiştir.
 
    ![Başlıktaki kısayol ekle seçeneği](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. Öğenizin adıyla bir **Kısayol ekle** iletişim kutusu açılır. Dilerseniz adı düzenleyebilirsiniz. İşiniz bittiğinde, **Ekle**’ye dokunun.
 
@@ -60,7 +58,7 @@ Bir rapor veya panoya kısayollar oluşturabilirsiniz.
 
 ## <a name="edit-the-shortcut-name"></a>Kısayol adını düzenleme
 
-Kısayolun adını düzenlemek için eylemler menüsünden **Daha fazla seçenek...** öğesini seçip **Kısayol adını düzenle** seçeneğini belirleyin
+Kısayolun adını düzenlemek için rapordaki eylemler menüsünden **Daha fazla seçenek...** öğesine dokunup **Kısayol adını düzenle** seçeneğini belirleyin. Panodaki **Kısayol ekle**’ye dokunun. **Kısayol adını düzenle** iletişim kutusu görüntülenir.
 
  ![Kısayol adını düzenle](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

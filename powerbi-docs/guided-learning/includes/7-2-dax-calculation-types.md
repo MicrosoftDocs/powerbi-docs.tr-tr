@@ -1,17 +1,16 @@
 ---
-ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: 0296512b59baf828dd284088e0109af819aee261
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73800197"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84562084"
 ---
 DAX kullanarak oluşturabileceğiniz iki temel hesaplama vardır:
 
 * **hesaplanmış sütunlar**
-* **hesaplanmış ölçüler**
+* **ölçüler**
 
-Bunlardan birinin oluşturulmasına ilişkin ayrıntılara girmeden önce, tablolar ve sütunlar için **hesaplanmış sütunlar** veya **hesaplanmış ölçüler** oluştururken kullanacağınız DAX söz dizimi hakkında yeterli düzeyde bilgi sahibi olmanız faydalı olacaktır.
+Bunlardan birinin oluşturulmasına ilişkin ayrıntılara girmeden önce, tablolar ve sütunlar için **hesaplanmış sütunlar** veya **ölçüler** oluştururken kullanacağınız DAX söz dizimi hakkında yeterli düzeyde bilgi sahibi olmanız faydalı olacaktır.
 
 ## <a name="dax-table-and-column-name-syntax"></a>DAX tablo ve sütun adı söz dizimi
 İster yeni bir sütun ister ölçü oluşturuyor olun DAX'taki tablo adlarının genel biçimini bilmeniz önemlidir:
@@ -51,8 +50,8 @@ Hesaplanmış bir sütun için gerekli öğeler şunlardır:
 
 Hesaplanmış sütun formülünüzde bir tabloya veya sütuna başvuruyorsanız tabloda bir satırı belirtmeniz gerekmez; Power BI her hesaplama için geçerli satıra ilişkin sütunu hesaplar.
 
-## <a name="creating-calculated-measures"></a>Hesaplanmış ölçü oluşturma
-Yüzde veya oran hesaplıyorsanız ya da karmaşık toplamalar gerçekleştirmeniz gerekiyorsa **hesaplanmış ölçü** kullanın. DAX formülü kullanarak ölçü oluşturmak için **Modelleme** sekmesinden **Yeni Ölçü** düğmesini seçin. Tekrar belirtmek gerekirse, **Formül Çubuğu**'nu gösterdiğinden ve DAX formülünüzü yazmayı kolaylaştırdığından Power BI Desktop'ın **Veri** görünümünde olmak en iyisidir.
+## <a name="creating-measures"></a>Ölçü oluşturma
+Yüzde veya oran hesaplıyorsanız ya da karmaşık toplamalar gerçekleştirmeniz gerekiyorsa **ölçü** kullanın. DAX formülü kullanarak ölçü oluşturmak için **Modelleme** sekmesinden **Yeni Ölçü** düğmesini seçin. Tekrar belirtmek gerekirse, **Formül Çubuğu**'nu gösterdiğinden ve DAX formülünüzü yazmayı kolaylaştırdığından Power BI Desktop'ın **Veri** görünümünde olmak en iyisidir.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_4.png)
 
@@ -60,7 +59,7 @@ Yüzde veya oran hesaplıyorsanız ya da karmaşık toplamalar gerçekleştirmen
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_5.png)
 
-Hesaplanmış ölçüler ve hesaplanmış sütunlar için gerekli öğeler aynıdır:
+Ölçüler ve hesaplanmış sütunlar için gerekli öğeler aynıdır:
 
 * yeni bir ölçü adı
 * en az bir işlev veya ifade

@@ -1,17 +1,16 @@
 ---
 title: Geliştirici öğrenme kataloğu
 description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 6262b7ba0f3d01db6f9f5ff24f411de6ec4f35cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268616"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532638"
 ---
 # <a name="developer-learning-catalog"></a>Geliştirici öğrenme kataloğu
 
@@ -27,17 +26,13 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 ## <a name="embedded"></a>Ekleme<a name="embedded"></a>
 | İçerik | Açıklama | Biçim  | Uzunluk      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+|[Çevrimiçi kurs: Bir Gündeki Power BI Geliştiricisi](developer-online-course.md)|Sizi geliştirici olarak Power BI içeriği eklemek için gereken teknik bilgiyle donatan video tabanlı bir kurs. Videoları, 1 numaralı videodan başlayıp 20 numaralı videoyla bitirerek kaydedilme sırasıyla izlemenizi öneririz.|YouTube oynatma listesi ve kendi kendine çalışma seti|3 sa 20 dk|
 | [Çok Kiracılı Dağıtımlar için Power BI Embedded Analiz Yönetiminin En İyi Uygulamaları](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded, kendi uygulamalarınız içinde Power BI’ı kendi markanızla sunmanıza olanak tanıyan güçlü bir hizmettir. Bu web seminerini izleyin ve Power BI Embedded dağıtımlarını yönetmeyi öğrenin.   | Web Semineri       |                |
 | [20 dakika içinde Power BI Embedded hakkında bilgi edinin](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Bu web semineri, Power BI Embedded hakkında giriş bilgileri vermek için sunulmaktadır. Bu web seminerinin sonunda kullanıcılar Power BI Embedded’in ne olduğunu, ürünü kullanmaya başlamak için uygulanacak adımları ve yardım/kaynaklar için nereye gidileceğini öğrenecektir. | Web Semineri       |                |
 | [Power BI Embedded ile geliştirme, Ted Pattison – Nisan 2018 Güncelleştirmesi](https://www.youtube.com/watch?v=swnGlrRy588)  | Geliştiricilere yönelik bu web seminerinde Power BI Embedded platformundaki son gelişmeleri ve ISV’lerle kurumsal geliştiricilerin bunlardan nasıl yararlanabileceğini açıklayacak. | YouTube videosu | 59 dk 49 sn  |
 | [Power BI Embedded Sürüm 2 – Hikayenin Tamamı](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | Web semineri 10 Ağustos 2017’de Kritik Yol Eğitimi Power BI MVP’si Ted Pattison tarafından sunulmuştu. Bu web semineri Power BI Premium aracılığıyla sağlanan yeni Power BI Embedded özelliklerini kullanarak nasıl uygulama geliştirileceği konusunu kapsıyor.  | Web Semineri       | 1 sa 7 dk 23 sn |
 | [Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Azure’da Power BI Embedded veya Office’te Power BI Embedded ile verilerin sahibi uygulamadır örneğini kullanarak raporları, panoları veya kutucukları bir uygulamaya ekleyebilirsiniz.  | Belgeler |                |
 | [20 dakika içinde Power BI Embedded hakkında bilgi edinin](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Bu web semineri, Power BI Embedded hakkında giriş bilgileri vermek için sunulmaktadır. Bu web seminerinin sonunda kullanıcılar Power BI Embedded’in ne olduğunu, ürünü kullanmaya başlamak için uygulanacak adımları ve yardım/kaynaklar için nereye gidileceğini öğrenecektir. | Web Semineri       |                |
-## <a name="dax"></a>DAX<a name="dax"></a>
-| İçerik | Açıklama | Biçim  | Uzunluk      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-| [Power BI için Pratik DAX, Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark yeni kitabıyla birlikte Power BI’da Pratik DAX için bazı en iyi yöntemlerde size yol gösterecek   | YouTube videosu | 59 dk 41 sn |
-| [Yaratıcı DAX çözümleri, Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX dilinin bir sütunda SUM işleviyle toplama yapmaktan veya tablodaki satırları saymaktan çok daha becerikli olduğunu biliyor muydunuz? DAX, çevredeki en güçlü veritabanlarından birine sahiptir. Uygulanabilir olduğunu düşünmemiş olabileceğiniz bazı alışılmadık ve yaratıcı senaryoları inceleyen Charles Sterling ve Philip Seamark’a katılın. | Web Semineri       | 58 dk 12 sn |
 ## <a name="development"></a>Geliştirme<a name="development"></a>
 | İçerik | Açıklama | Biçim  | Uzunluk      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

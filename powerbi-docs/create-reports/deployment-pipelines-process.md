@@ -6,13 +6,12 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148613"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782566"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Dağıtım sürecini anlama (önizleme)
 
@@ -60,7 +59,7 @@ Hedef aşamada [öğe özellikleri kopyalanmadan](deployment-pipelines-process.m
 
 Hedef veri kümesindeki veriler, mümkün olduğunda korunur. Veri kümesinde değişiklik yoksa veriler dağıtım öncesindeki haliyle korunur.
 
-Tablo veya hesaplanmış ölçümler ekleme gibi küçük değişiklikler olduğunda Power BI özgün verileri korur, yenileme işlemi yalnızca gerekli öğeleri yenilemek üzere iyileştirilir. Yeni şema değişikliklerinde veya veri kaynağı bağlantısındaki değişikliklerde, tam yenileme gereklidir.
+Tablo veya ölçüler ekleme gibi küçük değişiklikler olduğunda Power BI özgün verileri korur, yenileme işlemi yalnızca gerekli öğeleri yenilemek üzere iyileştirilir. Yeni şema değişikliklerinde veya veri kaynağı bağlantısındaki değişikliklerde, tam yenileme gereklidir.
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>Mevcut bir çalışma alanına sahip olan bir aşamaya dağıtım gereksinimleri
 
@@ -152,11 +151,11 @@ Dağıtım sırasında şu veri kümesi özellikleri de kopyalanmaz:
 
 Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece her uygulama güncelleştirmesini son kullanıcının bakış açısıyla test edebilirsiniz. Dağıtım işlem hattı, bu süreci kolayca yönetmenizi sağlar. Çalışma alanı kartındaki yayımla veya görüntüle düğmesini kullanarak uygulamayı yayımlayın veya belirli bir işlem hattı aşamasında görüntüleyin.
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![uygulama yayımlama](media/deployment-pipelines-process/publish.png "Uygulamayı yayımla")](media/deployment-pipelines-process/publish.png#lightbox)
 
 Üretim aşamasında, sol alt köşedeki ana eylem düğmesi Power BI’da uygulama güncelleştirme sayfasını açar, böylece tüm içerik güncelleştirmeleri uygulama kullanıcılarının kullanımına sunulur.
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![uygulama güncelleştirme](media/deployment-pipelines-process/update-app.png "Uygulamayı güncelleştir")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >Dağıtım işlemi, uygulama içeriğinin veya ayarlarının güncelleştirilmesini içermez. İçerikte ve ayarlarda değişiklikler uygulamak için, uygulamayı gerekli işlem hattı aşamasında kendiniz güncelleştirmeniz gerekir.
@@ -236,13 +235,23 @@ Bu bölümde, dağıtım işlem hatlarındaki sınırlamaların çoğu listeleni
 
 * Raporlar ve panolar gibi Power BI [duyarlılık etiketlerine](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) sahip olan Power BI öğeleri dağıtılamaz.
 
-* [Artımlı yineleme](../admin/service-premium-incremental-refresh.md) ile yapılandırılan veri kümeleri dağıtılamaz.
+* Tek bir dağıtımda en fazla 300 Power BI öğesi dağıtılabilir.
 
 * Çalışma alanı sınırlamalarının listesi için bkz. [çalışma alanı atama sınırlamaları](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 
-* Veri kümesi kuralı sınırlamaları listesi için bkz. [veri kümesi kuralı sınırlamaları](deployment-pipelines-get-started.md#dataset-rule-limitations).
-
 * Desteklenmeyen öğelerin listesi için bkz. [desteklenmeyen öğeler](#unsupported-items).
+
+### <a name="dataset-limitations"></a>Veri kümesi sınırlamaları
+
+* [Artımlı yineleme](../admin/service-premium-incremental-refresh.md) ile yapılandırılan veri kümeleri dağıtılamaz.
+
+* Gerçek zamanlı veri bağlantısı kullanan veri kümeleri dağıtılamaz.
+
+* Hedef veri kümesi dağıtım sırasında bir [canlı bağlantı](../connect-data/desktop-report-lifecycle-datasets.md)kullanıyorsa kaynak veri kümesinin de bu bağlantı modunu kullanması gerekir.
+
+* Dağıtımdan sonra, bir veri kümesinin indirilmesi (dağıtıldığı aşamadan) desteklenmez.
+
+* Veri kümesi kuralı sınırlamaları listesi için bkz. [veri kümesi kuralı sınırlamaları](deployment-pipelines-get-started.md#dataset-rule-limitations).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

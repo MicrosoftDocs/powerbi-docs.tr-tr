@@ -5,17 +5,16 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
-ms.translationtype: HT
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120583"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354444"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI'da yeni çalışma alanları oluşturma
 
@@ -144,6 +143,20 @@ Bir çalışma alanında yönetici rolüne sahip herkes başkalarına çalışma
 Kuruluşunuzda büyük bir hedef kitleye resmi içerik dağıtmak istiyorsanız, çalışma alanınızdan bir *uygulama* yayımlayabilirsiniz.  İçerik hazır olduğunda, yayımlamak istediğiniz panoları ve raporları seçip bunu bir uygulama olarak yayımlarsınız. Her çalışma alanından bir uygulama oluşturabilirsiniz.
 
 [Yeni çalışma alanlarından uygulama yayımlama](service-create-distribute-apps.md) hakkında bilgi edinin.
+
+## <a name="security-settings"></a>Güvenlik ayarları
+
+**Katkıda bulunanların bu çalışma alanı için uygulamayı güncelleştirmesine izin ver** ayarı, çalışma alanı Yöneticilerinin Katkıda Bulunan rolüne sahip kullanıcılara çalışma alanı için uygulamayı güncelleştirme özelliği devretmesini sağlar. Varsayılan olarak yalnızca çalışma alanı Yöneticileri ve Üyeleri çalışma alanı için uygulamayı yayımlayıp güncelleştirebilir. 
+
+Etkinleştirildiğinde, Katkıda Bulunanlar şunları yapabilir:
+* Ad, simge, açıklama, destek sitesi ve renk gibi uygulama meta verilerini güncelleştirme
+* Raporları veya veri kümelerini ekleme gibi, uygulamaya dahil edilen öğeleri ekleyip kaldırma
+* Uygulama gezintisini veya uygulama açıldığında görünen varsayılan öğeyi değiştirme
+
+Ancak Katkıda Bulunanlar şunları yapamaz:
+* Uygulamayı ilk kez yayımlama
+* Uygulama iznine sahip olan kişileri değiştirme
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da yeni çalışma alanlarında çalışmayı düzenleme deneyimi](service-new-workspaces.md) makalesini okuyun

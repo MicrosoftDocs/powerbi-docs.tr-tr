@@ -5,17 +5,16 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272690"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782402"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -244,8 +243,9 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI klasörüne erişim eklendi                      | AddFolderAccess                             | Şu anda kullanılmıyor                       |
 | Power BI grup üyeleri eklendi                      | AddGroupMembers                             |                                          |
 | Yönetici, veri akışı depolama hesabını kiracıya ekledi | AdminAttachedDataflowStorageAccountToTenant | Şu anda kullanılmıyor                       |
-| Power BI veri kümesi çözümleme                         | AnalyzedByExternalApplication               |                                          |
-| Power BI raporu analiz edildi                          | AnalyzeInExcel                              | Kullanıcılar hizmetle etkileşim kurduğunda oluşturulur. `*.odc` dosyasının indirilmesi bir denetim olayı oluşturmaz                                         |
+| Power BI veri kümesi çözümleme                         | AnalyzedByExternalApplication               | Kullanıcılar hizmetle etkileşim kurduğunda oluşturulur                                         |
+| Power BI raporu analiz edildi                          | AnalyzeInExcel                              |                                          |
+| Dağıtım işlem hattına çalışma alanı atanır                          | AssignWorkspaceToPipeline                              |                                          |
 | Ekli veri akışı depolama hesabı                 | AttachedDataflowStorageAccount              |                                          |
 | Ağ geçidine bağlanmış Power BI veri kümesi                | BindToGateway                               |                                          |
 | Veri akışı yenileme iptal edildi                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +254,9 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI veri kümesi bağlantıları değiştirildi              | SetAllConnections                           |                                          |
 | Power BI ağ geçidi yöneticilerinin değiştirilmesi                   | ChangeGatewayAdministrators                 |                                          |
 | Değiştirilen Power BI ağ geçidi veri kaynağı kullanıcıları        | ChangeGatewayDatasourceUsers                |                                          |
+| Özel kuruluş görselleri oluşturulur                          | InsertOrganizationalGalleryItem                                |                                          |
 | Kurumsal Power BI içerik paketi oluşturuldu      | CreateOrgApp                                |                                          |
+| Dağıtım işlem hattı oluşturulur      | CreateAlmPipeline                                |                                          |
 | Power BI uygulaması oluşturuldu                              | CreateApp                                   |                                          |
 | Power BI panosu oluşturuldu                        | CreateDashboard                             |                                          |
 | Power BI veri akışı oluşturuldu                         | CreateDataflow                              |                                          |
@@ -264,9 +266,13 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI ağ geçidi oluşturma                          | CreateGateway                               |                                          |
 | Power BI grubu oluşturuldu                            | CreateGroup                                 |                                          |
 | Power BI raporu oluşturuldu                           | CreateReport <sup>1</sup>                                |                                          |
+| Özel görsel Azure AD erişim belirteci istedi                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| Özel görsel Office Web Uygulamaları erişim belirteci istedi                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Veri akışı dış depolama hesabına geçirildi     | DataflowMigratedToExternalStorageAccount    | Şu anda kullanılmıyor                       |
 | Veri akışı izinleri eklendi                        | DataflowPermissionsAdded                    | Şu anda kullanılmıyor                       |
 | Veri akışı izinleri kaldırıldı                      | DataflowPermissionsRemoved                  | Şu anda kullanılmıyor                       |
+| Özel kuruluş görseli silinir     | DeleteOrganizationalGalleryItem                                |                                          |
+| Dağıtım işlem hattı silinir      | DeleteAlmPipeline                                |                                          |
 | Kurumsal Power BI içerik paketi silindi      | DeleteOrgApp                                |                                          |
 | Power BI açıklaması silindi                          | DeleteComment                               |                                          |
 | Power BI panosu silindi                        | DeleteDashboard                             | Şu anda kullanılmıyor                       |
@@ -278,6 +284,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI ağ geçidi silme                          | DeleteGateway                               |                                          |
 | Power BI grubu silindi                            | DeleteGroup                                 |                                          |
 | Power BI raporu silindi                           | DeleteReport                                |                                          |
+| Bir işlem hattı aşamasına dağıtılır                           | DeployAlmPipeline                                |                                          |
 | Power BI veri kümesi veri kaynakları keşfedildi          | GetDatasources                              |                                          |
 | Power BI raporu indirme                        | DownloadReport                              |                                          |
 | Veri akışı özellikleri düzenlendi                        | EditDataflowProperties                      |                                          |
@@ -302,6 +309,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI raporu web'de yayımlandı                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Yayımlanmış veya güncelleştirilmiş öne çıkan tablolar | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| Dağıtım işlem hattından bir çalışma alanı kaldırılır         | UnassignWorkspaceFromPipeline                 |                                          |
 | Veri kaynağını Power BI ağ geçidinden kaldırma         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI grup üyeleri kaldırıldı                    | DeleteGroupMembers                          |                                          |
 | Çalışma alanı kapasiteden kaldırıldı                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +329,12 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI veri akışı devralındı                     | TookOverDataflow                             |                                          |
 | Power BI uygulaması yayımdan kaldırıldı                          | UnpublishApp                                |                                          |
 | Kapasite kaynağı idare ayarları güncelleştirildi      | UpdateCapacityResourceGovernanceSettings    | Şu anda Microsoft 365 yönetim merkezinde değil |
+| Özel kuruluş görseli güncelleştirilir                     | UpdateOrganizationalGalleryItem                   |                                          |
 | Kapasite yöneticisi güncelleştirildi                            | UpdateCapacityAdmins                        |                                          |
 | Kapasitenin görünen adı güncelleştirildi                     | UpdateCapacityDisplayName                   |                                          |
 | Veri akışı depolama alanı atama izinleri güncelleştirildi   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| Dağıtım işlem hattı erişimi güncelleştirilir   | UpdateAlmPipelineAccess |                                          |
+| Dağıtım işlem hattı yapılandırması güncelleştirilir   | SetConfigurationAlmPipeline |                                          |
 | Kuruluşun Power BI ayarları güncelleştirildi          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI uygulaması güncelleştirildi                              | UpdateApp                                   |                                          |
 | Power BI veri akışı güncelleştirildi                         | UpdateDataflow                              |                                          |

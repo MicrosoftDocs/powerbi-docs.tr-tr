@@ -7,15 +7,14 @@ ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: dfb307a53ac4fd75188965618a08bb4bdee5689b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: e82dde5022bf0ad28d37e0ed9a8ac9553fbbd75d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794190"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485910"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -93,7 +92,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
 * E-posta boyutu sınırları nedeniyle, çok büyük resimler içeren panolarda veya raporlarda abonelikler başarısız olabilir.    
 * Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır.  Ancak bir panoya veya rapora abonelik eklerseniz, bu abonelik ziyaret edilmese bile duraklatılmaz.
-* Unutmayın; aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandıktan sonra abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışıyoruz ama talebin yoğun olduğu zamanlarda aynı anda gönderilebilen abonelik sayısından dolayı daha uzun bir gecikmeyle karşılaşabilirsiniz.  Müşterilerin çoğunluğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır ama kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bu kadar uzun bir gecikmeyle karşılaşan müşteriler, önce no-reply-powerbi@microsoft.com adresinin e-posta sağlayıcıları tarafından izin verilenler listesine eklediğinden emin olmalıdır.  Eklenmişse, yardım için Power BI desteğine başvurmaları gerekir.
+* Unutmayın; aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandıktan sonra abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışıyoruz ama talebin yoğun olduğu zamanlarda aynı anda gönderilebilen abonelik sayısından dolayı daha uzun bir gecikmeyle karşılaşabilirsiniz.  Müşterilerin çoğunluğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır ama kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bir müşteri bu uzunlukta bir gecikme yaşarsa ilk önce no-reply-powerbi@microsoft.com adresinin güvenli gönderenler listesinde olduğundan ve e-posta sağlayıcınız tarafından engellenmediğinden emin olmaları gerekir.  E-posta engellenmemişse yardım için Power BI desteğine ulaşmaları gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

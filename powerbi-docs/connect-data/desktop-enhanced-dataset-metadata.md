@@ -6,15 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/21/2020
+ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
-ms.translationtype: HT
+ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793399"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739265"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>Gelişmiş veri kümesi meta verilerini kullanma (önizleme)
 
@@ -64,11 +63,13 @@ Yedekleme dosyası rapor yükseltildiğinde oluşturulur, bu nedenle yükseltme 
 Önizleme sürümünde, önizleme özelliği etkinleştirildiğinde aşağıdaki sınırlamalar geçerli olur.
 
 ### <a name="unsupported-features-and-connectors"></a>Desteklenmeyen özellikler ve bağlayıcılar
+
+Aşağıdaki sınırlamalar geçerlidir:
+
 Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri kümesi aşağıdaki özelliklerden veya bağlayıcılardan herhangi birini içeriyorsa yükseltme başarısız olur. Bu tür bir hata oluşursa, kullanıcı deneyimi üzerinde anında bir etki oluşmamalıdır ve Power BI Desktop önceki meta veri biçimini kullanmaya devam eder.
 
-* Tüm özel bağlayıcılar
+* Tüm özel bağlayıcılar (Mayıs 2020 sürüm sınırlaması)
 * Python betikleri
-* Özel bağlayıcılar
 * Azure DevOps Server
 * BI Bağlayıcısı
 * Denodo
@@ -84,16 +85,15 @@ Yükseltilmemiş mevcut bir PBIX ve PBIT dosyası açıldıktan sonra, veri küm
 * Sütun adlarında “\\n” gibi belirli karakter birleşimlerini içeren M ifadeleri
 * **Gelişmiş veri kümesi meta verileri** özelliği etkin durumdayken veri kümeleri kullanıldığında Çoklu Oturum Açma (SSO) veri kaynakları, Power BI hizmetinde ayarlanamaz
 
-Bu listelenen bağlayıcıları kullanan raporlar yeni biçime yükseltilmez. Zaten yükseltilmiş olan veya bu yeni özellik etkinleştirildikten sonra oluşturulmuş olan raporlar, listedeki desteklenmeyen özelliklerin veya bağlayıcıların eklenmesini desteklemez. 
+Power BI Desktop’ın **Haziran 2020** (veya üzeri) sürümünü kullanıyorsanız tüm özel ve yerleşik bağlayıcılar hem Power BI Desktop hem de Power BI hizmetinde *desteklenir*. Haziran 2020 veya üzeri sürüm kullanılırken yayımlama süreci sırasında ağ geçidi sorunlarla karşılaşırsa veri kümesi başarılı bir şekilde yayımlanır, ancak kullanıcıların verilerin yenilenmesi için raporu yeniden yayımlaması gerekir. **Veri kaynağı ayarları** iletişim kutusu, yayımlama sürecinde oluşan sorunların tek göstergesidir.
+
+Bu desteklenmeyen bağlayıcıları veya özellikleri kullanan raporlar yeni biçime yükseltilmez. Zaten yükseltilmiş olan veya bu yeni özellik etkinleştirildikten sonra oluşturulmuş olan raporlar, listedeki desteklenmeyen özelliklerin veya bağlayıcıların eklenmesini desteklemez. 
 
 Dinamik veri kaynakları olan sorgular desteklenmez. Dinamik veri kaynakları olan raporlar yeni biçime yükseltilmez ve zaten yükseltilmiş olan veya özellik etkinleştirildikten sonra yeni oluşturulmuş olan raporlar dinamik veri kaynaklarının eklenmesini desteklemez. Sorgunun dinamik veri kaynağının olması, kaynağın bir parametreye, işlev girişine veya geçici işleve bağlı olarak değişmesi anlamına gelir. 
 
 Yukarı akış adımlarında veya dallarında hatalar olan sorgular desteklenmez. 
 
-Ayrıca, **gelişmiş veri kümesi meta verilerini** kullanmak için başarıyla yükseltilmiş olan PBIX ve PBIT dosyaları, geçerli sürümde yukarıdaki özellikleri veya bağlayıcıları *kullanamaz*.
-
-
-
+Ayrıca, **gelişmiş veri kümesi meta verilerini** kullanmak için başarıyla yükseltilmiş olan PBIX ve PBIT dosyaları, yukarıdaki özellikleri (veya desteklenmeyen bağlayıcıları) *kullanamaz*.
 
 ### <a name="lineage-view"></a>Köken görünümü
 Yeni meta veri biçimini kullanan veri kümeleri, şu anda Power BI hizmetindeki veri kökeni görünümde yer alan veri akışları bağlantılarını göstermiyor.

@@ -8,14 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: 8d3068453ea2d166b0b55fbba45d8452431de319
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79491744"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427863"
 ---
-# <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Eklenen sayfalandırılmış raporlarda satır düzeyinde güvenlik uygulama (önizleme)
+# <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>Eklenen sayfalandırılmış raporlarda satır düzeyinde güvenlik uygulama
 
 Eklediğiniz sayfalandırılmış raporda görüntülenecek verileri denetleyebilirsiniz. Bu sayede görüntülenen bilgileri kullanıcıya göre biçimlendirebilirsiniz. Örneğin küresel satış sonuçlarını içeren bir Power BI sayfalandırılmış raporunuz varsa bunu yalnızca belirli bir bölgeye ait satış sonuçlarını gösterecek şekilde ekleyebilirsiniz.
 
@@ -28,7 +27,7 @@ Bu özellik sayesinde verilerin bir alt kümesini görüntüleyebilir, geri kala
 
 Bir Power BI sayfalandırılmış raporuna satır düzeyi güvenlik uygulamak için **UserID** özniteliğine bir [parametre](../../paginated-reports/report-builder-parameters.md) atamanız gerekir. Bu parametre, rapor eklenmeden önce veri kümesinden çekilen verileri kısıtlar.
 
-Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API'sini kullanarak ekleme belirtecini alabilirsiniz.
+Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API’sini kullanarak ekleme belirtecini alabilirsiniz.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>UserID özniteliğini rapor veya sorgu düzeyinde filtre olarak kullanma
 
@@ -78,7 +77,7 @@ Parametreyi **UserID** özniteliğine atadıktan sonra [Reports GenerateTokenFor
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>Ekleme belirtecini kullanarak yapılandırılan parametreyi geçirme
 
-Müşterileriniz için bir sayfalandırılmış rapor eklerken, ekleme belirtecini almak için [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API'si kullanılır. Bu belirteç, sayfalandırılmış rapordan alınan verilerin bir bölümünü filtrelemek için de kullanılabilir.
+Müşterileriniz için bir sayfalandırılmış rapor eklerken, ekleme belirtecini almak için [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API’si kullanılır. Bu belirteç, sayfalandırılmış rapordan alınan verilerin bir bölümünü filtrelemek için de kullanılabilir.
 
 Verilerin yalnızca bir bölümünü kullanıma sunmak için `username` alanına görüntülenmesini istediğiniz bilgileri atayın. Örneğin renk parametresine sahip olan bir sayfalandırılmış raporda `username` alanına *yeşil* yazmanız durumunda ekleme belirteci eklenen verileri yalnızca renk sütununda *yeşil* değerine sahip olan verileri görüntüleyecek şekilde kısıtlar.
 

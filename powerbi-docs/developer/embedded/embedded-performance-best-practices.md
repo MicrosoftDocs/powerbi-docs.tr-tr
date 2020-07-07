@@ -8,19 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279400"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299584"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
 Bu makalede uygulamanızdaki raporları, panoları ve kutucukları daha hızlı işlemeye yönelik öneriler sağlanır.
 
 > [!Note]
-> Yükleme süresinin temel olarak raporla ilgili öğelere ve görsellerin, verilerin boyutuna ve sorgu ve hesaplanan ölçülere ilişkin karmaşıklığa bağlı olduğunu unutmayın. Daha fazla bilgi için bkz. [Power BI iyileştirme kılavuzu](../../guidance/power-bi-optimization.md).
+> Yükleme süresinin temel olarak raporla ilgili öğelere ve görsellerin hem verilerin boyutuna hem de sorgu ve ölçülere ilişkin karmaşıklığa bağlı olduğunu unutmayın. Daha fazla bilgi için bkz. [Power BI iyileştirme kılavuzu](../../guidance/power-bi-optimization.md).
 
 ## <a name="update-tools-and-sdk-packages"></a>Araçları ve SDK paketlerini güncelleştirme
 
@@ -53,7 +52,7 @@ Aynı filtre, yer işareti ve dilimleyicilerle rapor eklerseniz, performansı ar
 Aynı iframe’e birden fazla rapor eklerken her rapor için yeni bir iframe oluşturmayın. Bunun yerine, yeni raporu eklemek için farklı bir yapılandırmaya sahip olan `powerbi.embed(element, config)` kullanın.
 
 > [!NOTE]
-> 'Uygulama verilerin sahibidir' senaryosu için raporlar arasında geçiş yapmak, yeni bir ekleme belirteci oluşturma gerekliliği nedeniyle çok etkili olmayabilir.
+> Müşterileriniz için içerik eklerken raporlar arasında geçiş yapma işlemi (“uygulama verilere sahiptir” senaryosu olarak da bilinir), tüm raporlara ve veri kümelerine yönelik izinler içeren ekli bir belirtecin kullanılmasını gerektirir. Daha fazla bilgi için bkz. [belirteç API’si oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Sorgu önbelleğe alma
 
@@ -63,7 +62,7 @@ Power BI Premium kapasitesi veya Power BI Embedded kapasitesi ile kuruluşlar bi
 
 ## <a name="preload"></a>Önceden yükleme
 
-Son kullanıcı performansını iyileştirmek için `powerbi.preload()` kullanın. `powerbi.preload()` yöntemi, daha sonra raporu ekleme amacıyla kullanılacak javascript kodlarını, css dosyalarını ve diğer yapıtları indirir.
+Son kullanıcı performansını iyileştirmek için `powerbi.preload()` kullanın. `powerbi.preload()` yöntemi, daha sonra raporu ekleme amacıyla kullanılacak JavaScript kodlarını, css dosyalarını ve diğer yapıtları indirir.
 
 Raporu hemen eklemiyorsanız `powerbi.preload()` çağrısı yapın. Örneğin, Power BI Embedded içeriği giriş sayfasında görünmezse, içeriği eklemek için kullanılan yapıtları indirmek ve önbelleğe almak için `powerbi.preload()` kullanın.
 

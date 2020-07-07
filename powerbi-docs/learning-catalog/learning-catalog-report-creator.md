@@ -1,17 +1,16 @@
 ---
 title: Rapor oluşturucusu öğrenme kataloğu
 description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268823"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532293"
 ---
 # <a name="report-creator-learning-catalog"></a>Rapor Oluşturucusu Öğrenme Kataloğu
 
@@ -39,6 +38,7 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 ## <a name="report-design"></a>Rapor Tasarımı<a name="report-design"></a>
 | İçerik | Açıklama  | Biçim | Uzunluk   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları](paginated-reports-online-course.md)|Sizin gibi rapor yazarlarını Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgilerle donatmayı hedefleyen video tabanlı bir kurs. Videoları, 1 numaralı videodan başlayıp 24 numaralı videoyla bitirerek kaydedilme sırasıyla izlemenizi öneririz.|YouTube oynatma listesi ve kendi kendine çalışma seti|4 sa 20 dk|
 | [Power BI ile Verilerinizin Hikayesini Anlatma, Tristan Malherbe](https://www.youtube.com/watch?v=egk0suekwHo)  | Power BI ile Verilerinizin Hikayesini Anlatma, Tristan Malherbe  | YouTube videosu | 59 dk 54 sn    |
 | [PowerBI.Tips sahiplerinden Power Püf Noktaları, İpuçları ve Araçları](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | PowerBI.Tips’in sahiplerinden Power Püf Noktaları, İpuçları ve Araçları Bu çok özel kullanıcı grubunun toplantısında PowerBI.Tips’in sahipleri ve Power BI MVP’leri Seth Bauer ile Mike Carlo son 18 ay içinde http://PowerBI.Tips ‘de yayımladıkları Power Püf Noktaları, İpuçları ve Araçları ile ilgili çok çeşitli bilgileri sizinle paylaşacaklar. Tanıtımda sorgu düzenleyicisine veri türleri ekleyen ve en son Power BI düzen tekliflerini (ve en son düzenleri “Cool Blue” turunu) içeren tema oluşturucularının tanıtımı da yapılacak.  | Web Semineri       | 1 sa 7 dk 4 sn |
 | [9/11/18 Web Semineri: Yeni araçlar ve yeni şablonlar, ayrıca Renk değişikliklerini gösteren adım adım yönergeler](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | Charles Sterling ile PowerBI.Tips’in yaratıcıları ve Microsoft MVP’leri Seth Bauer ve Mike Carlo’ya katılın; son 6 ay içinde https://PowerBI.Tips ‘de yayımladıkları Power Püf Noktaları, İpuçları ve Araçları ile ilgili sürekli artan çeşitlilikteki bilgileri sizinle paylaşacaklar. En son tema oluşturucularının, ipuçları ve püf noktalarının, ayrıca en son Power BI Düzenlerinin tanıtımı yapılacak.  | Web Semineri       | 53 dk 34 sn    |

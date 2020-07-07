@@ -6,15 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
-ms.translationtype: HT
+ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272989"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225662"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -118,11 +117,11 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Raporları güncelleştirme ve veri yenileme
 
-**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. Bununla birlikte ilk eylemden sonra raporlar veya görsellerdeki güncelleştirmelerin kullanıcılarınıza gösterilmesi iki veya üç saat sürebilir. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
+**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. İlk kez oluşturulduktan sonra raporlara veya görsellere yapılan güncelleştirmelerin kullanıcılar tarafından görülmesi iki saati bulabilir. Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
 
 ### <a name="data-refresh"></a>Veri yenileme
 
-Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Yenilenen verilerin ekleme kodlarından görünür hale gelmesi yaklaşık bir saat sürebilir. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
+Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Yenilenen verilerin ekleme kodlarından görünür hale gelmesi iki saate kadar sürebilir. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
 
 ## <a name="power-bi-visuals"></a>Power BI görselleri
 
@@ -159,7 +158,7 @@ Microsoft’a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft
 
 **Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu önbelleğe alma işlemi, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
 
-Önbellek uzun ömürlüdür. Rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması yaklaşık bir saat sürebilir. Her öğe ve veri değeri bağımsız bir şekilde önbelleğe alındığından veri güncelleştirmesi gerçekleştiğinde kullanıcıya güncel ve eski değerler bir arada gösterilebilir. Bu nedenle, çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir. Verileriniz yenilenecekse yenileme sayısını en aza indirin ve yenileme işlemlerini yoğun olmayan saatlerde gerçekleştirin.
+Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması iki saate kadar sürebilir. Her öğe ve veri değeri bağımsız bir şekilde önbelleğe alındığından veri güncelleştirmesi gerçekleştiğinde kullanıcıya güncel ve eski değerler bir arada gösterilebilir. Bu nedenle, çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir. Verileriniz yenilenecekse yenileme sayısını en aza indirin ve yenileme işlemlerini yoğun olmayan saatlerde gerçekleştirin. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz.
 
 ## <a name="find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
 

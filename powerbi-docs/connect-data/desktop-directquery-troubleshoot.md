@@ -5,15 +5,14 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
-ms.translationtype: HT
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292513"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485565"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery modellerini geliştirme sorunlarını giderme
 
@@ -42,13 +41,13 @@ Bazı DirectQuery kaynakları için bu günlük, temel alınan veri kaynağına 
 - Teradata
 - SAP HANA
 
-Geçerli kullanıcı için izleme dosyası **AppData** klasöründe bulunur: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+İzleme dosyası, geçerli kullanıcının **AppData** klasöründe bulunabilir: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 Bu klasöre kolayca ulaşmak için: Power BI Desktop'ta _Dosya > Seçenekler ve ayalar > Seçenekler_'i ve ardından **Tanılama** sayfasını seçin. Aşağıdaki iletişim kutusu penceresi görünür:
 
 ![Power BI Desktop penceresi açıktır ve Genel Tanılama sayfası seçilidir. Tanılama Seçenekleri bölümünün iki özelliği vardır: İzlemeyi etkinleştirme ve Coğrafi kodlama önbelleğini atlama. İzlemeyi etkinleştir seçeneği etkindir. Kilitlenme Bilgi Dökümü blümünde Şimdi Etkinleştir düğmesi ve kilitlenme dölümü/izleme klasörünü açma bağlantısı bulunur.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Kilitlenme Dökümü Koleksiyonu altındaki **Kilitlenme dökümü/izleme klasörü** bağlantısını seçtiğinizde aşağıdaki klasör açılır: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Kilitlenme Bilgi Dökümü bölümündeki **Açık kilitlenme bilgi dökümü/izlemeler klasörünü** seçtiğinizde şu klasör açılır: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Bu klasörün üst klasörüne gidildiğinde _AnalysisServicesWorkspaces_ klasörünü içeren klasör görüntülenir. Bu klasör, açık olan her bir Power BI Desktop örneği için bir çalışma alanı alt klasörü içerir. Bu alt klasörler, _AnalysisServicesWorkspace2058279583_ örneğinde olduğu gibi bir tamsayı sonekiyle adlandırılır.
 

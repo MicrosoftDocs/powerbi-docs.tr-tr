@@ -6,18 +6,21 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
-ms.translationtype: HT
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114785"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355019"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 
-Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu adımları izleyin.
+Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu makaledeki adımları izleyin.
+
+>[!NOTE]
+>* Çağıran kullanıcının bir veri kümesi sahibi veya ağ geçidi yöneticisi olması gerekir. Bir [hizmet sorumlusu](../embedded/embed-service-principal-certificate.md) da kullanabilirsiniz. Örneğin, hizmet sorumlusu veri kümesi sahibi olabilir.
+>* Bulut veri kaynakları ve bunlara karşılık gelen kimlik bilgileri kullanıcı düzeyinde yönetilir.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Veri kaynakları için kimlik bilgisi akışını güncelleştirme
 
@@ -218,7 +221,7 @@ var credentials = "{\"credentialData\":\"\"}";
 
 ---
 
-## <a name="troubleshooting"></a>Sorun Giderme
+## <a name="troubleshooting"></a>Sorun giderme
 
 ### <a name="no-gateway-and-data-source-id-found-when-calling-get-data-sources"></a>Get Datasources çağrısı yapılırken hiçbir ağ geçidi ve veri kaynağı kimliği bulunamadı
 
