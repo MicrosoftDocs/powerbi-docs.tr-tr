@@ -7,11 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782566"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034302"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Dağıtım sürecini anlama (önizleme)
 
@@ -233,7 +234,7 @@ Bu bölümde, dağıtım işlem hatlarındaki sınırlamaların çoğu listeleni
 
 * Çalışma alanının bir  [premium kapasitede](../admin/service-premium-what-is.md) bulunması gerekir.
 
-* Raporlar ve panolar gibi Power BI [duyarlılık etiketlerine](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi) sahip olan Power BI öğeleri dağıtılamaz.
+* Raporlar ve panolar gibi Power BI [duyarlılık etiketlerine](../admin/service-security-sensitivity-label-overview.md) sahip olan Power BI öğeleri dağıtılamaz.
 
 * Tek bir dağıtımda en fazla 300 Power BI öğesi dağıtılabilir.
 
