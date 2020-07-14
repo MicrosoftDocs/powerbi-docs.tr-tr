@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8f5e39d320ca0135665977e740fd1dedecb988b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224847"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034371"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop'taki Bilgi Tutarlılığı Varsay ayarını uygulama
 **DirectQuery** kullanarak bir veri kaynağına bağlanırken, veri kaynağınızda daha verimli sorgular çalıştırılmasını sağlamak için **Bilgi Tutarlılığı Varsay** seçeneğini kullanabilirsiniz. Bu özellik, temel alınan verilere ilişkin bazı gereksinimlere sahiptir ve yalnızca **DirectQuery** ile kullanılabilir.
 
 **Bilgi tutarlılığı varsay** ayarı, veri kaynağındaki sorguların **OUTER JOIN** yerine **INNER JOIN** deyimlerini kullanmasını sağlar ve böylece sorgu verimliliği artar.
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![Bilgi tutarlılığı varsay'ı seçmeyi sağlayan İlişkiyi Düzenle iletişim kutusunun ekran görüntüsü.](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 ## <a name="requirements-for-using-assume-referential-integrity"></a>Bilgi tutarlılığı varsay ayarını kullanmaya ilişkin gereksinimler
 Bu gelişmiş bir ayardır ve yalnızca, verilere **DirectQuery** kullanılarak bağlanıldığında etkinleştirilir. **Bilgi tutarlılığı varsay** ayarının düzgün çalışabilmesi için aşağıdaki gereksinimler söz konusudur:
@@ -36,18 +36,18 @@ Aşağıdaki örnekte, **Bilgi tutarlılığı varsay**'ın veri bağlantıları
 
 1. **Orders** tablosunu ve **Products** tablosunu gösteren aşağıdaki görüntüde **Orders[ProductID]** ve **Products[ProductID]** arasında bilgi tutarlılığı olduğuna dikkat edin. **Orders** tablosundaki **[ProductID]** sütunu hiçbir zaman *Null* değildir ve tüm değerler **Products** tablosunda da görünür. Bu nedenle, daha verimli sorgular elde etmek için **Bilgi tutarlılığı varsay** ayarlanmalıdır. (Bu ayar kullanıldığında, görsellerde gösterilen değerler değişmez.)
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Sonraki görüntüde **Orders[DepotID]** ve **Depots[DepotID]** arasında hiçbir bilgi tutarlılığı olmadığına dikkat edin. Bunun nedeni, bazı **Orders** değerleri için *DepotID* değerinin *Null* olmasıdır. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.
+   ![Siparişler tablosunun ve Ürünler tablosunun ekran görüntüsü.](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
+2. Sonraki görüntüde **Orders[DepotID]** ve **Depots[DepotID]** arasında hiçbir bilgi tutarlılığı olmadığına dikkat edin. Bunun nedeni, bazı *Orders* değerleri için **DepotID** değerinin *Null* olmasıdır. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Siparişler tablosunun ve Ürünler tablosunun ekran görüntüsü.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Son olarak, aşağıdaki tablolarda **Orders[CustomerID]** ve **Customers[CustID]** arasında hiçbir bilgi tutarlılığı yoktur. **CustomerID**, *Customers* tablosunda bulunmayan bazı değerler (bu örnekte *CustX*) içerir. Bu nedenle, **Bilgi Tutarlılığı Varsay** ayarı *belirlenmemelidir*.
    
-   ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
+   ![Siparişler tablosunun ve Müşteriler tablosunun ekran görüntüsü.](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
 ## <a name="setting-assume-referential-integrity"></a>Bilgi tutarlılığı varsay ayarı
 Bu özelliği etkinleştirmek için aşağıdaki görüntüde gösterildiği üzere **Bilgi tutarlılığı varsay**'ın yanındaki onay kutusunu seçin.
 
-![](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
+![Bilgi tutarlılığı varsay'ı seçmenizi sağlayan İlişkiyi Düzenle iletişim kutusunun ekran görüntüsü.](media/desktop-assume-referential-integrity/assume-referential-integrity_1.png)
 
 Bu ayar seçili olduğunda, verilerde *Null* değer veya eşleşmeyen satır olmadığı doğrulanır. *Ancak*, çok yüksek sayıda değer içeren durumlarda doğrulamadan sonra bilgi tutarlılığı sorunları olmayacağı garanti edilemez.
 

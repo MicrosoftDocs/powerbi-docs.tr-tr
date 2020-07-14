@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 31a39d32e61ff82dcc9e451fbf1119938e5bb2e2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fb67243b14fc5a89de0efc6f8248aa2b37fb2bbf
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344883"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034095"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
 
-![](media/service-govde-faq/govde-faq_01.png)
+![Microsoft Power BI Almanya giriş sayfasının ekran görüntüsü.](media/service-govde-faq/govde-faq_01.png)
 
 ## <a name="questions-and-answers"></a>Sorular ve cevaplar
 

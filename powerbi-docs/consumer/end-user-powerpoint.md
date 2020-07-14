@@ -7,19 +7,19 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d1120b15974d0e747dc60cf2c56dff1135c9d29c
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
+ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782524"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "85837051"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 
 Power BI hizmetiyle (app.powerbi.com) raporunuzu Microsoft PowerPoint’te yayımlayabilir ve Power BI raporunuzu temel alan bir slayt destesini kolayca oluşturabilirsiniz. PowerPoint’e aktardığınızda aşağıdakiler gerçekleşir:
@@ -40,7 +40,7 @@ Ayrıca isterseniz Power BI hizmetindeki görselleri tek tek kopyalayıp PowerPo
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-PowerPoint’e aktarmak istediğiniz rapor tuvalde görüntülendiğinde menü çubuğundan **Dışarı Aktar** > **PowerPoint** seçeneğini belirleyin.
+PowerPoint’e aktarmak istediğiniz rapor tuvalde görüntülendiğinde menü çubuğundan **Dosya** > **PowerPoint'e aktar**'ı seçin.
 
 ![Menü çubuğundan Dışarı Aktar’ı seçme](media/end-user-powerpoint/power-bi-export.png)
 
@@ -86,6 +86,10 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
  
+
+* **Dışarı aktar** seçeneğini görmüyorsanız "Yeni görünümü" açtığınızdan ve bir raporu (panoyu değil) görüntülediğinizden emin olun.
+
+    ![Yeni Görünüm iki durumlu düğmesinin ekran görüntüsü](media/end-user-powerpoint/power-bi-new-look.png)
 
 * Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde [URL filtreleri](../collaborate-share/service-url-filters.md) dikkate alınmaz.
 

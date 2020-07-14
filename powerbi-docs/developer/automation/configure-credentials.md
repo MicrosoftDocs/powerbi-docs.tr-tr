@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355019"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034072"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 
@@ -48,13 +49,16 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
     ---
 
-2. Ağ geçidi ortak anahtarını almak için [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
+    >[!NOTE]
+    >Bulut veri kaynaklarını kullanıyorsanız bu bölümde yer alan sonraki adımları izlemeyin. 1\. adımda aldığınız ağ geçidi ve veri kaynağı kimliklerini kullanıp [Veri Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaparak kimlik bilgilerini belirleyin. 
+
+3. Ağ geçidi ortak anahtarını almak için [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. Kimlik bilgilerini şifreleyin.
+4. Kimlik bilgilerini şifreleyin.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -72,7 +76,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
     ---  
 
-4. Şifrelenmiş kimlik bilgileriyle kimlik bilgisi ayrıntılarını derleyin.
+5. Şifrelenmiş kimlik bilgileriyle kimlik bilgisi ayrıntılarını derleyin.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -100,7 +104,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
     ---
 
-5. Kimlik bilgilerini ayarlamak için [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
+6. Kimlik bilgilerini ayarlamak için [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

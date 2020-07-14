@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 07/02/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcf774af00fe65c5f9708f85f6270cda8405896f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222565"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939500"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 *Power BI Desktop* ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman Power BI Desktop'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: DirectQuery'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -53,7 +53,7 @@ DirectQuery özelliğini kullanmanın bazı avantajları vardır:
 
 - Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçümlerde izin verilen DAX ifadelerine sınırlamalar koyulur.
 
-- Premium kapasite kullanılmadığı sürece DirectQuery kullanılarak döndürülen veriler için bir milyon satırlık bir sınır söz konusudur. Bu sınır, DirectQuery ile döndürülen veri kümesini oluşturmak için kullanılan toplamaları veya hesaplamaları etkilemez. Yalnızca döndürülen satırları etkiler. Premium kapasiteler [bu gönderide](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) açıklandığı gibi en fazla satır sınırları ayarlayabilir. 
+- Bulut kaynakları için bir milyon satırlık bir limit vardır ve şirket içi kaynaklar satır başına yaklaşık 4 MB tanımlanmış yük (özel sıkıştırma algoritmasına göre) veya görselin tamamı için 16 MB veri boyutu ile sınırlıdır. Premium kapasiteyi kullandığınızda belirli limitler artırılabilir. Bu sınır, DirectQuery ile döndürülen veri kümesini oluşturmak için kullanılan toplamaları veya hesaplamaları etkilemez. Yalnızca döndürülen satırları etkiler. Premium kapasiteler [bu gönderide](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/) açıklandığı gibi en fazla satır sınırları ayarlayabilir. 
 
     Örneğin sorgunuzda, veri kaynağını temel alan 10 milyon satırı toplayabilirsiniz. Döndürülen Power BI verileri 1 milyon satırdan azsa sorgu, bu toplamanın sonucunu DirectQuery kullanarak Power BI'a doğru bir şekilde döndürür. DirectQuery’den 1 milyonun üzerinde satır döndürülürse Power BI hata döndürür (Premium kapasitede yer almadığı ve satır sayısı yönetici tarafından ayarlanan sınırın altında kalmadığı sürece).
 

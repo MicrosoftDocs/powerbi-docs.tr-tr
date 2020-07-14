@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130265"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033796"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.
 
 **Dosya > Seçenekler ve ayarlar > Seçenekler** yoluna gidildiğinde ve ardından **Geçerli Dosya > Gizlilik**'e ulaşıldığında görüntülenebilen **Gizlilik Düzeyleri** ayarı, Power BI Desktop'ın verileri birleştirirken Gizlilik Düzeyi ayarınızı kullanıp kullanmadığını belirler. Bu iletişim kutusunda, Gizlilik Düzeyleri hakkındaki bir Power BI Desktop belgesine (bu makale) yönelik bir bağlantı bulunur.
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![Seçenekler iletişim kutusunun ekran görüntüsü.](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>Gizlilik düzeyi yapılandırma
 Gizlilik düzeyi ayarlarını kullanarak, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtebilirsiniz.
@@ -37,7 +37,7 @@ Her bir veri kaynağına ilişkin **Gizlilik** ayarları iletişim kutusuna **Do
 
 Bir veri kaynağı gizlilik düzeyi yapılandırmak için, veri kaynağını seçin ve **Düzenle** seçeneğini belirleyin. Aşağıdaki görüntüde gösterildiği gibi, alt kısmındaki açılan menüden uygun gizlilik düzeyini seçebileceğiniz **Veri Kaynağı Ayarları** iletişim kutusu görüntülenir.
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![Veri Kaynağı Ayarları iletişim kutusunun ekran görüntüsü.](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > Yüksek düzeyde gizli veya hassas veriler içeren veri kaynaklarını **Gizli** olarak yapılandırmanız gerekir.

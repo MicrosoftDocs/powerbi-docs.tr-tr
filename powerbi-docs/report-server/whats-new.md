@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739242"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034049"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -28,9 +28,11 @@ Power BI Rapor Sunucusu’ndaki ve Power BI Rapor Sunucusu için iyileştirilmi�
 
 ## <a name="may-2020"></a>Mayıs 2020
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop
+
 Bu güncelleştirmenin öne çıkan kısımları arasında hiyerarşik dilimleyici, ayrıştırma ağacı görselleri ve sorgu tanılamaları yer alır. Aşağıda yeni ve güncelleştirilmiş özelliklerin tamamı listelenmiştir. Ayrıntılar için bkz. [Power BI Rapor Sunucusu Mayıs 2020 blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
-### <a name="reporting"></a>Raporlama
+#### <a name="reporting"></a>Raporlama
 
 - Hiyerarşik dilimleyici
 - Düğmeler için yeni eylem türleri:
@@ -51,7 +53,7 @@ Bu güncelleştirmenin öne çıkan kısımları arasında hiyerarşik dilimleyi
     - Yeni filtre bölmesi deneyimi
     - Filtre bölmesi araması
     
-### <a name="modeling"></a>Modelleme
+#### <a name="modeling"></a>Modelleme
 
 - Yeni DAX işlevleri:
 
@@ -61,18 +63,24 @@ Bu güncelleştirmenin öne çıkan kısımları arasında hiyerarşik dilimleyi
 
 - Standart DAX ayırıcıları
 
-### <a name="visualizations"></a>Görselleştirmeler
+#### <a name="visualizations"></a>Görselleştirmeler
 
 - Yeni görselleştirme simgeleri
 - Görsel gölge katmanları
 
-### <a name="data-preparation"></a>Veri Hazırlama
+#### <a name="data-preparation"></a>Veri Hazırlama
 
 - Sorgu tanılamaları
 
-### <a name="other"></a>Diğer
+#### <a name="other"></a>Diğer
 
 - Web proxy için varsayılan sistem kimlik bilgilerini kullanma
+
+### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
+
+#### <a name="power-bi-visuals-api"></a>Power BI görselleri API’si
+
+Bu sürümle gönderilen API sürümü 3.2’dir.
 
 ## <a name="january-2020"></a>Ocak 2020
 

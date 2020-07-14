@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564398"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034172"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 
@@ -28,11 +28,11 @@ Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümes
 
 **WFE** kümesi Power BI için ilk bağlantı ve kimlik doğrulaması işlemlerini yönetir. Bu küme, AAD hizmetini kullanarak istemcilerin kimliklerini doğrular ve Power BI hizmetiyle kurulacak sonraki istemci bağlantıları için belirteçler sağlar. Ayrıca Power BI, hem kimlik doğrulaması hem de statik içeriğin ve dosyaların indirilmesi için bağlantı kurmaya çalışan istemcinin DNS kaydına göre kullanıcı trafiğini en yakın veri merkezine yönlendirmek amacıyla **Azure Traffic Manager** (ATM) hizmetini kullanır. Power BI, statik içeriği ve dosyaları coğrafi yerel ayara göre kullanıcılara verimli bir şekilde dağıtmak için **Azure Content Delivery Network** (CDN) hizmetini kullanır.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
+![Web Ön Uç kümesi için Power BI mimarisini gösteren diyagram.](media/service-admin-power-bi-security/pbi_security_v2_wfe.png)
 
 **Arka Uç** kümesi, kimlik doğrulamasından geçen istemcilerin, Power BI hizmetiyle nasıl etkileşim kuracağını belirler. **Arka Uç** kümesi; görselleştirmeleri, kullanıcı panolarını, veri kümelerini, raporları, veri depolama alanlarını, veri bağlantılarını, veri yenileme özelliklerini ve Power BI hizmetiyle etkileşim kurarken kullanılan diğer öğeleri yönetir. **Ağ Geçidi Rolü** kullanıcı istekleriyle Power BI hizmeti arasında bir ağ geçidi işlevi görür. Kullanıcılar **Ağ Geçidi Rolü** haricindeki bir rolle doğrudan etkileşim kurmaz. **Ağ Geçidi Rolü**, **Azure API Management** tarafından yönetilir.
 
-![](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
+![Web Arka Uç kümesi için Power BI mimarisini gösteren diyagram.](media/service-admin-power-bi-security/pbi_security_v2_backend_updated.png)
 
 > [!IMPORTANT]
 > Yalnızca **Azure API Management** (APIM) ve **Ağ Geçidi** (GW) rollerinin İnternet üzerinden herkesin erişimine açık olduğu unutulmamalıdır. Bu hizmetler kimlik doğrulaması, yetkilendirme, DDoS koruması, Azaltma, Yük Dengeleme, Yönlendirme gibi özellikler sunar.

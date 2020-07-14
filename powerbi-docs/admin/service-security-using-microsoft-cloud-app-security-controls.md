@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: b41d15329b7ce617803056d2d2b912a0afb7850c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227090"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034233"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI’da Microsoft Cloud App Security denetimlerini kullanma
 
@@ -59,7 +59,7 @@ Cloud App Security, Power BI için iki ayrılmış iki yerleşik algılamaya sah
 
 Duyarlılık etiketleri, kuruluşunuzdaki kullanıcıların kuruluşunuzun dışındaki iş ortaklarıyla işbirliği yapabilmesi yaparken gizli içerik ve veriler konusunda dikkatli ve bilinçli olmaya devam etmesi için gizli içerikleri sınıflandırmanızı sağlar ve korumaya yardımcı olur. 
 
-Power BI için duyarlılık etiketlerini kullanma işlemiyle ilgili ayrıntılı bilgiler veren [Power BI’da duyarlılık etiketleri](../collaborate-share/service-security-apply-data-sensitivity-labels.md) makalesini okuyun. [Duyarlılık etiketlerini temel alan bir Power BI ilkesi örneği](#example) için aşağıya bakın.
+Power BI için duyarlılık etiketlerini kullanma işlemiyle ilgili ayrıntılı bilgiler veren [Power BI’da duyarlılık etiketleri](service-security-sensitivity-label-overview.md) makalesini okuyun. [Duyarlılık etiketlerini temel alan bir Power BI ilkesi örneği](#example) için aşağıya bakın.
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Power BI için yerleşik Cloud App Security algılamaları
 
@@ -133,9 +133,9 @@ Görüntülenen pencerede oturum ilkesini oluşturun. Numaralandırılmış adı
 ## <a name="next-steps"></a>Sonraki adımlar
 Bu makalede Cloud App Security’nin Power BI için veri ve içerik korumalarını nasıl sağlayabileceği açıklanmıştır. Power BI için Veri Koruma ve onu etkinleştiren Azure hizmetleri için destekleyici içerikleri açıklayan aşağıdaki makaleler de ilginizi çekebilir.
 
-* [Power BI’da veri korumasına genel bakış](service-security-data-protection-overview.md)
-* [Power BI'da veri duyarlılığı etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md)
-* [Power BI'da veri duyarlılığı etiketleri uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI'daki duyarlılık etiketlerine genel bakış](service-security-sensitivity-label-overview.md)
+* [Power BI’da duyarlılık etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md)
+* [Power BI'da duyarlılık etiketlerini uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 Aşağıdaki Azure ve güvenlik makaleleri de ilginizi çekebilir:
 

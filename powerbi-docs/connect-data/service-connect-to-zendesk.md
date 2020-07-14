@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231631"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034463"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI ile Zendesk'e bağlanma
 
@@ -28,6 +28,9 @@ Bu makalede, verileri Zendesk hesabınızdan Power BI şablon uygulamasıyla çe
 
 >[!NOTE]
 >Bağlanmak için bir Zendesk yönetici hesabına sahip olmanız gerekir. Aşağıda, [gereksinimler](#system-requirements) ile ilgili daha ayrıntılı bilgi verilmiştir.
+
+>[!WARNING]
+>15 Ekim 2019'dan önce Zendesk Support Search API'si büyük sorguların sayfalandırmasıyla toplam 200.000 sonucun alınmasına izin veriyordu. Arama kullanımını amaçlanan kapsamıyla uygun hale getirmek için Zendesk artık döndürülen maksimum sonuç sayısını 1.000 toplam sonuçla ve sayfa başına maksimum 100 sonuçla sınırlandırmıştır. Ancak geçerli Power BI Zendesk bağlayıcısı bu yeni sınırları aşabilen ve bunun sonucunda yanıltıcı olabilecek sonuçlar veren API çağrıları oluşturmaya devam etmektedir.
 
 ## <a name="how-to-connect"></a>Bağlanma
 

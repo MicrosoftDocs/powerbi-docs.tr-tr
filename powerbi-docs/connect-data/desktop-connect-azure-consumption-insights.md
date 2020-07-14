@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224883"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034440"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Consumption Insights verilerine bağlanma
 
@@ -42,25 +42,25 @@ Bu bölümde Azure Kurumsal Bağlayıcısı'nı kullanarak gereken verileri nas�
 
 1. **Bağlan**'ı seçin.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Microsoft Azure Consumption Insights iletişim kutusunun ekran görüntüsü. Bağlan'ı seçin.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    Görüntülenen iletişim kutusuna **Azure Kayıt Numaranızı** girin.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Azure Kayıt Numarası'nı girme adımının ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * Kayıt numaranızı, [Azure Enterprise Portal](https://ea.azure.com)'da aşağıdaki görüntüde gösterilen konuma giderek bulabilirsiniz:
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Azure Enterprise Portal'ın kayıt numarasını alma bölümünün ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    Bu bağlayıcı sürümü yalnızca https://ea.azure.com sayfasından gelen kurumsal kayıtları destekler. Çin'e ait kayıtlar şu anda desteklenmemektedir.
 
    Bağlanmak için *Erişim anahtarınızı* girin.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![Microsoft Azure Consumption Insights'a bağlanmak için Erişim anahtarını girme iletişim kutusunun ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * Kayıt için Erişim anahtarınızı [Azure Enterprise Portal](https://ea.azure.com)'da bulabilirsiniz.
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![Azure Enterprise Portal'ın Kayıt Erişim Anahtarlarını gösteren bölümünün ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 *Erişim anahtarınızı* girip **Bağlan**'ı seçtiğinizde bir **Gezgin** penceresi açılır ve kullanılabilir dokuz tabloyu gösterir:
 
@@ -78,7 +78,7 @@ Bu bölümde Azure Kurumsal Bağlayıcısı'nı kullanarak gereken verileri nas�
 
 Önizlemeyi görmek için herhangi bir tablonun yanındaki onay kutusunu seçebilirsiniz. Tablo adlarının yanlarında bulunan kutuları işaretleyerek bir veya birden fazla tablo seçebilir ve ardından **Yükle** seçeneğini belirleyebilirsiniz.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![Kullanılabilir tüm tabloları gösteren Gezgin iletişim kutusunun ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *Summary* ve *PriceSheet* tabloları yalnızca kayıt düzeyindeki API Anahtarı için kullanılabilir. Ayrıca, *UsageDetails* ve *PriceSheets* tabloları, varsayılan olarak geçerli aya ilişkin verileri içerir. *Summaries* ve *Marketplace* tabloları, geçerli ay ile sınırlı değildir.
@@ -87,11 +87,11 @@ Bu bölümde Azure Kurumsal Bağlayıcısı'nı kullanarak gereken verileri nas�
 
 **Yükle**'yi seçtiğinizde veriler, **Power BI Desktop**'a yüklenir.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![Veriler yüklendiğinde görüntülenen iletişim kutusunun ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 Belirlediğiniz veriler yüklendikten sonra, seçtiğiniz tabloları ve alanları **Alanlar** bölmesinde görebilirsiniz.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![Gezgin penceresinden bir tablo yüklendikten sonra alanlar bölmesinin ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Azure Tüketim Öngörüleri'ni kullanma
 **Azure Consumption Insights** bağlayıcısını kullanabilmek için Azure portalının Kurumsal özelliklerine erişirsiniz.
@@ -116,7 +116,7 @@ Alternatif olarak **Sorgu Düzenleyicisi**'nde:
 
 Aşağıdaki resimde, görüntülenen bir örnek koleksiyonu gösterilir.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![Örnek koleksiyonun ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Raporlarla çalışırken ve sorgu oluştururken şunları yapabilirsiniz:
 
@@ -148,7 +148,7 @@ Aşağıdaki adımlarda **Azure Consumption Insights** bağlayıcısına nasıl 
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![Gelişmiş Düzenleyici'de sorgu oluşturma iletişim kutusunun ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 *enrollmentNumber* değerini kendi kayıt numaranızla değiştirmelisiniz. Numaranızı [Azure Enterprise Portal](https://ea.azure.com)'dan alabilirsiniz. *numberOfMonth* parametresi, güncel tarihten itibaren kaç ay öncesine ait verileri almak istediğinizi belirtir. Geçerli ay için sıfır (0) değerini kullanın.
 
@@ -160,7 +160,7 @@ Bu adımda, oluşturduğunuz özel sütunları veya ölçüleri yeni ayrıntıla
 1. Not Defteri'ni (veya başka bir metin düzenleyiciyi) açın.
 2. Taşımak istediğiniz ölçüyü seçin ve *Formül* alanındaki metni kopyalayıp Not Defteri'ne yerleştirin.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![Sütunların ve ölçülerin formül alanını gösteren ekran görüntüsü.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. İlk ayrıntılar tablosunu *Query1* olarak yeniden adlandırın.
 4. Yeni tablo ölçüleri ve özel sütunlar oluşturmak için tabloya sağ tıklayın ve **Yeni Ölçü**'yü seçin. Ardından depolanmış ölçülerinizi ve sütunlarınızı hepsi bitene kadar kesin ve yapıştırın.
 
@@ -169,7 +169,7 @@ Pek çok panoda, arama veya filtreleme için kullanılan ek tablolar (tarih tabl
 
 - **Power BI Desktop**'taki **Modelleme** sekmesinde **İlişkileri Yönet**'i seçtiğinizde, söz konusu modeldeki ilişkileri yönetmenize olanak sağlayan bir pencere açılır. Tablolarınızı gereken şekilde yeniden bağlantılı hale getirin.
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![İlişki oluştur iletişim kutusunun ekran görüntüsü. İlişkileri Yönet'i seçin.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5\. Adım: Görsellerinizi doğrulama ve alan biçimlendirmesini gereken şekilde ayarlama
 Bu noktada özgün görselleriniz, tablolarınız ve detaylandırma özelliklerinizden çoğunun beklendiği gibi çalışması gerekir. Bununla birlikte genel görünümü tam olarak biçimlendirmek için bazı küçük ayarlamalar gerekebilir. Tüm panolarınızı ve görsellerinizi tek tek hızla inceleyerek istediğiniz gibi göründüğünden emin olun.

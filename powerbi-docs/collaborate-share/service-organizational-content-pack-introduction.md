@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ace3b89051ee5f7b082979f2739cef71ceb05440
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225750"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034486"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI'da kurumsal içerik paketlerine giriş
 > [!NOTE]
@@ -23,7 +23,7 @@ ms.locfileid: "85225750"
 
 Raporları ekibinize düzenli olarak dağıtmak için e-postaları mı kullanırsınız? Onun yerine şunu deneyin: Panolarınızı, raporlarınızı, Excel çalışma kitaplarınızı ve veri kümelerinizi paketleyip bunları *kurumsal içerik paketi* olarak ekibinize yayımlayın. Ekibiniz, oluşturduğunuz içerik paketlerini kolaylıkla bulabilir &#151; paketlerin tümü AppSource'ta bulunur. Power BI'ın parçası olduklarından etkileşimli veri araştırma, yeni görseller, Soru-Cevap, diğer veri kaynaklarıyla tümleştirme, veri yenileme ve daha fazlası dahil olmak üzere tüm Power BI özelliklerinden yararlanırlar.
 
-![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
+![Kurumsal içerik paketlerini gösteren bir panonun ekran görüntüsü.](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 İçerik paketi oluşturma işlemi, pano paylaşmaktan veya bir çalışma alanında bunlara yönelik işbirliği yapmaktan farklıdır. Kendi durumunuz için en iyi seçeneği belirlemek üzere [Panolar ve raporlar üzerinde nasıl işbirliği yapabilir ve bunları nasıl paylaşabilirim?](service-how-to-collaborate-distribute-dashboards-reports.md) makalesini okuyun. 
 

@@ -6,14 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393554"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939455"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -97,7 +98,7 @@ Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının d
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Konuk kullanıcıya Power BI Pro lisansı atama
 
-Konuk kullanıcıya kuruluşunuzdaki bir Power BI Pro lisansının atanması, konuk kullanıcının kendisiyle paylaşılan içeriği görüntülemesine olanak sağlar. Lisansları atama hakkında daha fazla bilgi için bkz. [Lisanslar sayfasında kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Konuk kullanıcılara Pro lisansları atamadan önce, Microsoft'la aranızdaki sözleşmenin koşullarına uyduğunuzdan emin olmak için Microsoft hesap temsilcinize ulaşın.
+Konuk kullanıcıya kuruluşunuzdaki bir Power BI Pro lisansının atanması, konuk kullanıcının kendisiyle paylaşılan içeriği görüntülemesine olanak sağlar. Lisansları atama hakkında daha fazla bilgi için bkz. [Lisanslar sayfasında kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Konuk kullanıcılara Pro lisansları atamadan önce, Microsoft'la aranızdaki lisans sözleşmesinin koşullarına uyduğunuzdan emin olmak için [Ürün Koşulları sitesine](https://www.microsoft.com/licensing/terms) bakın.
 
 ![Kiracınızdaki bir Pro lisansını atama ile konuk kullanıcı deneyiminin grafiği.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

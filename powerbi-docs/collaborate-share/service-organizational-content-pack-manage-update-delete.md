@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225703"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034417"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Kurumsal içerik paketlerini yönetme, güncelleştirme ve silme
 > [!NOTE]
@@ -40,12 +40,12 @@ Bir içerik paketine eklediğiniz panoda değişiklik yapıp kaydettiğinizde Po
 
 1. İletideki **İçerik Paketlerini Görüntüle** seçeneğini belirleyin.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. Alternatif olarak, sağ üst köşedeki dişli simgesini ![](media/service-organizational-content-pack-manage-update-delete/cog.png) seçip **İçerik Paketini Görüntüle** seçeneğini de belirleyebilirsiniz.
+   ![İçerik Paketlerini Görüntüle seçeneğini belirlemeye yönelik ileti iletişim kutusunun ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. Alternatif olarak, sağ üst köşedeki dişli simgesini ![Dişli simgesinin ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/cog.png) ve ardından **İçerik Paketini Görüntüle**'yi seçebilirsiniz.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![Sağ üst köşedeki dişli simgesinin ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   Uyarı simgesine ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png) dikkat edin.  Bu, içerik paketini bir şekilde değiştirdiğinizi ve içerik paketinin, yayımladığınız haliyle artık eşleşmediğini bildirme amacı taşır.
+   Uyarı simgesine dikkat edin ![Uyarı simgesinin ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  Bu, içerik paketini bir şekilde değiştirdiğinizi ve içerik paketinin, yayımladığınız haliyle artık eşleşmediğini bildirme amacı taşır.
 3. **Düzenle**'yi seçin.  
 4. **İçerik Paketini Güncelleştir** penceresinde tüm gerekli değişiklikleri yapın ve **Güncelleştir** seçeneğini belirleyin. **Başarılı** iletisi görüntülenir.
    
@@ -55,7 +55,7 @@ Bir içerik paketine eklediğiniz panoda değişiklik yapıp kaydettiğinizde Po
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Hedef kitleyi güncelleştirme: genişletme veya erişimi kısıtlama
 İçerik paketi oluşturucularının gerçekleştirebileceği diğer bir değiştirme işlemi de içerik paketine erişimi genişletmek ve kısıtlamaktır.  Bir içerik paketini geniş bir hedef kitleye yönelik olarak yayımlamış ancak daha sonra erişimi daha küçük bir grupla kısıtlamaya karar vermiş olabilirsiniz.  
 
-1. Dişli simgesini ![](media/service-organizational-content-pack-manage-update-delete/cog.png) seçin ve **İçerik Paketlerini Görüntüle** seçeneğini belirleyin.
+1. Dişli simgesini ![Dişli simgesinin ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/cog.png) ve ardından **İçerik Paketlerini Görüntüle**'yi seçin.
 2. **Düzenle**'yi seçin. 
 3. **İçerik Paketini Güncelleştir** penceresinde tüm gerekli değişiklikleri yapın ve **Güncelleştir** seçeneğini belirleyin. Örneğin, **Belirli Gruplar** alanındaki özgün dağıtım grubunu silin ve farklı (daha az sayıda üyesi olan) bir dağıtım grubu ile değiştirin.
    
@@ -77,7 +77,7 @@ AppSource'ta yalnızca oluşturucusu olduğunuz içerik paketlerini silebilirsin
 > 
 > 
 
-1. AppSource'taki bir içerik paketini silmek için, içerik paketini oluşturduğunuz çalışma alanına gidin, dişli simgesini ![](media/service-organizational-content-pack-manage-update-delete/cog.png) seçin ve **İçerik Paketlerini Görüntüle** seçeneğini belirleyin.
+1. AppSource'taki bir içerik paketini silmek için, içerik paketini oluşturduğunuz çalışma alanına gidin, dişli simgesini ![Dişli simgesinin ekran görüntüsü.](media/service-organizational-content-pack-manage-update-delete/cog.png) ve ardından **İçerik Paketlerini Görüntüle**'yi seçin.
 2. **Sil \> Sil** seçeneğini belirleyin. 
    
    * İçerik paketini özelleştirmemiş grup üyeleri için, söz konusu içerik paketiyle ilişkili raporlar ve pano otomatik olarak kaldırılır. Bunlar artık kullanılamaz ve içerik paketi, gezinti bölmesinde görünmez.

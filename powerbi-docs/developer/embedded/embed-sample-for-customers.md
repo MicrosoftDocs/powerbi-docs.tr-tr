@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337085"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092251"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -428,9 +428,12 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İ
 
 ### <a name="development-testing"></a>Geliştirme testi
 
-Pro lisanslarına sahip ekleme belirteçlerinin kullanılması, geliştirme testlerine yöneliktir. Bu nedenle, bir Power BI ana hesabının veya hizmet sorumlusunun oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Adanmış kapasite için üretim ortamında ekleme yapmak gerekir. Adanmış kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) bölümüne gidin. Kullanım miktarı ana hesabı temel alır.
+Geliştirme testi için Pro lisansıyla ekleme deneme belirteçlerini kullanabilirsiniz. Üretim ortamında ekleme yapmak için ayrılmış kapasite kullanın.
 
-Daha fazla bilgi için [Tümleşik analiz kapasite planlaması teknik incelemesi](https://aka.ms/pbiewhitepaper).
+Bir Power BI hizmet sorumlusunun veya ana hesabının oluşturabileceği ekleme deneme belirteci sayısı sınırlıdır. Geçerli ekleme kullanım yüzdenizi kontrol etmek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API'sini kullanın. Hizmet sorumlusu veya ana hesap başına kullanım miktarı görüntülenir.
+
+Test sırasında ekleme belirteçleriniz tükenirse Power BI Embedded veya Premium [kapasitesi](embedded-capacity.md) satın almanız gerekir. Ayrılmış kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye çalışma alanı atama
 

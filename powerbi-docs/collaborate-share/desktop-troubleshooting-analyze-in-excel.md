@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226822"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034394"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel'de Çözümle özelliği ile ilgili sorunları giderme
 
@@ -45,22 +45,22 @@ Excel kitaplıkları, Windows sürümünüzle bit düzeyi bakımından eşleşme
 
 En son Excel kitaplıklarını indirmek için Power BI'ı açın ve Power BI hizmetinin sağ üst köşesindeki **aşağı ok** simgesine tıklayarak **Excel'de Çözümle güncelleştirmeleri** seçeneğini belirleyin.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![Sağ üst köşede bulunan ve Excel'de Çözümle güncelleştirmeleri'ni seçmeyi sağlayan aşağı ok menü seçeneğinin ekran görüntüsü.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 Açılan iletişim kutusunda **İndir (önizleme)** seçeneğini belirleyin.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![İndirme veya önizleme düğmesini seçmeyi sağlayan Excel'de Çözümle güncelleştirmeleri iletişim kutusunun ekran görüntüsü.](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Excel kitaplıklarının güncelleştirilmesi gerekip gerekmediğini belirleme
 Önceki bölümde verilen bağlantılardan Excel OLE DB sağlayıcısı kitaplıklarının en son sürümünü indirebilirsiniz. Uygun OLE DB sağlayıcısı kitaplığını indirip yüklemeyi başlatmanızın ardından, yüklü sürümünüze yönelik denetimler gerçekleştirilir.
 
 Excel OLE DB sağlayıcısı istemci kitaplıklarınız güncelse aşağıdaki gibi bir iletişim kutusu açılır:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![Excel OLE DB sağlayıcısı istemci kitaplığının yeni bir sürümü varsa güncelleştirmek isteyip istemediğinizi soran iletişim kutusunun ekran görüntüsü.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 Alternatif olarak, yüklemekte olduğunuz yeni sürüm, bilgisayarınızda yüklü olan sürümden daha yeniyse aşağıdaki iletişim kutusu görüntülenir:
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Excel OLE DB sağlayıcısı istemci kitaplıklarının yüklenmesi sırasında yükseltme yapmayı onaylamanızı sağlayan iletişim kutusunun ekran görüntüsü.](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 Yükseltme yapmanızı isteyen iletişim kutusunu görürseniz bilgisayarınıza OLE DB sağlayıcısının en yeni sürümünün yüklenmesini sağlamak için, yükleme işlemine devam etmeniz gerekir.
 
@@ -95,7 +95,7 @@ Bu sorunu gidermeye yönelik birkaç seçenek bulunmaktadır:
 Ölçüleriniz Power BI hizmetindeki modelde tanımlandıktan sonra Excel PivotTable'larının **Değerler** alanında kullanılabilir duruma gelir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Excel’de çözümleme](service-analyze-in-excel.md)
+[Excel'de Çözümle](service-analyze-in-excel.md)
 
 [Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma](../transform-model/desktop-tutorial-create-measures.md)
 

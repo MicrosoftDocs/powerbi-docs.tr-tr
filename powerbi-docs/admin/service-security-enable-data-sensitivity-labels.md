@@ -1,32 +1,32 @@
 ---
-title: Power BI'da veri duyarlılığı etiketlerini etkinleştirme
-description: Power BI'da veri duyarlılığı etiketlerini etkinleştirme hakkında bilgi edinin
+title: Power BI’da duyarlılık etiketlerini etkinleştirme
+description: Power BI'da duyarlılık etiketlerini etkinleştirme hakkında bilgi edinin
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 07/06/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: c6c1c20e88e6da96ed0c7239ee26f63220c28a00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227061"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034348"
 ---
-# <a name="enable-data-sensitivity-labels-in-power-bi"></a>Power BI'da veri duyarlılığı etiketlerini etkinleştirme
+# <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini etkinleştirme
 
-[Microsoft Information Protection veri duyarlılığı etiketlerinin](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) Power BI’da kullanılabilmesi için kiracıda etkinleştirilmeleri gerekir. Bu makalede, Power BI kiracı yöneticilerinin bunu nasıl yapılacağı gösterilmektedir. Power BI’da duyarlılık etiketlerine ilişkin genel bakış için bkz. [Power BI’da veri koruması](service-security-data-protection-overview.md). Power BI’da duyarlılık etiketlerini uygulama hakkında bilgi için bkz. [Duyarlılık etiketleri uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md) 
+[Microsoft Information Protection duyarlılık etiketlerinin](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) Power BI’da kullanılabilmesi için kiracıda etkinleştirilmeleri gerekir. Bu makalede, Power BI kiracı yöneticilerinin bunu nasıl yapılacağı gösterilmektedir. Power BI’daki duyarlılık etiketleri hakkında genel bakış için bkz. [Power BI'daki duyarlılık etiketleri](service-security-sensitivity-label-overview.md). Power BI’da duyarlılık etiketlerini uygulama hakkında bilgi için bkz. [Duyarlılık etiketleri uygulama](./service-security-apply-data-sensitivity-labels.md) 
 
 Duyarlılık etiketleri etkinleştirildiğinde:
 
-* Kuruluştaki belirli kullanıcılar ve güvenlik grupları Power BI rapor, pano, veri kümesi ve veri akışlarına [duyarlılık etiketleri uygulayabilir](../collaborate-share/service-security-apply-data-sensitivity-labels.md) ve bu etiketleri sınıflandırabilir.
+* Kuruluştaki belirli kullanıcılar ve güvenlik grupları Power BI rapor, pano, veri kümesi ve veri akışlarına [duyarlılık etiketleri uygulayabilir](./service-security-apply-data-sensitivity-labels.md) ve bu etiketleri sınıflandırabilir.
 * Kuruluşun tüm üyeleri bu etiketleri görebilir.
 
-Veri duyarlılığı etiketlerinin etkinleştirilmesi için Azure Information Protection lisansı gerekir. Ayrıntılar için bkz. [Lisanslama](service-security-data-protection-overview.md#licensing).
+Duyarlılık etiketlerinin etkinleştirilmesi için Azure Information Protection lisansı gerekir. Ayrıntılar için bkz. [Lisanslama](service-security-sensitivity-label-overview.md#licensing).
 
-## <a name="enable-data-sensitivity-labels"></a>Veri duyarlılığı etiketlerini etkinleştirme
+## <a name="enable-sensitivity-labels"></a>Duyarlılık etiketlerini etkinleştirme
 
 Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın ve **Bilgi koruma** bölümünü bulun.
 
@@ -52,33 +52,19 @@ Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın
 
 Power BI, Microsoft Information Protection duyarlılık etiketlerini kullanır. Bu nedenle, duyarlılık etiketlerini etkinleştirmeye çalışırken bir hata iletisiyle karşılaşırsanız bunun nedeni aşağıdakilerden biri olabilir:
 
-* Azure Information Protection [lisansınız](service-security-data-protection-overview.md#licensing) yoktur.
+* Azure Information Protection [lisansınız](service-security-sensitivity-label-overview.md#licensing) yoktur.
 * Duyarlılık etiketleri, Power BI tarafından desteklenen Microsoft Information Protection sürümüne geçirilmemiştir. [Duyarlılık etiketlerini geçirme](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) hakkında daha fazla bilgi edinin.
 * Kuruluşta hiçbir Microsoft Information Protection duyarlılık etiketi tanımlanmamıştır. Etiketin kullanılabilir olması için etiketin yayımlanmış bir ilkenin parçası olması gerektiğini unutmayın. [Duyarlılık etiketleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) veya [Microsoft güvenlik ve uyumluluk merkezini](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) ziyaret ederek etiketleri tanımlama ve kuruluşunuz için ilkeler yayımlama hakkında bilgi edinin.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-Aşağıdaki listede, Power BI’daki duyarlılık etiketlerinin bazı sınırlamaları verilmiştir:
-
-**Genel**
-* Duyarlılık etiketleri yalnızca panolara, raporlara, veri kümelerine ve veri akışlarına uygulanabilir. Bunlar, şu anda [sayfalandırılmış raporlar](../paginated-reports/report-builder-power-bi.md) ve çalışma kitapları için kullanılamaz.
-* Power BI varlıklarındaki duyarlılık etiketleri çalışma alanı listesi, veri kökeni, sık kullanılanlar, son kullanılanlar ve uygulama görünümlerinde görünür durumdadır. Etiketler şu anda “benimle paylaşılan” görünümünde görünür değildir. Ancak, görünür olmasa bile, Power BI varlığına uygulanmış bir etiketin Excel, PowerPoint ve PDF dosyalarına aktarılmış veriler üzerinde her zaman kalıcı olacağını unutmayın.
-* Duyarlılık etiketleri yalnızca genel (ortak) buluttaki kiracılar için desteklenir. Duyarlılık etiketleri diğer bulutlardaki kiracılar için desteklenmez.
-* Veri duyarlılık etiketleri şablon uygulamaları için desteklenmez. Şablon uygulama oluşturucu tarafından ayarlanan duyarlılık etiketleri, uygulama ayıklandığında ve yüklendiğinde kaldırılır ve yüklü bir şablon uygulamada uygulama tüketicisi tarafından yapıtlara eklenen duyarlılık etiketleri, uygulama güncelleştirildiğinde kaybolur (sıfırlanır).
-* Power BI [İletme](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [kullanıcı tanımlı](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) ve [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) koruma türlerinin duyarlılık etiketlerini desteklemez. İletme ve kullanıcı tanımlı koruma türleri [Microsoft 365 güvenlik merkezinde](https://security.microsoft.com/) ve [Microsoft 365 uyumluluk merkezinde](https://compliance.microsoft.com/) tanımlanan etiketleri ifade eder.
-* Kullanıcıların Power BI’da üst etiketler uygulamaları önerilmez. İçeriğe bir üst etiket uygulandıysa bu içerikten bir dosyaya (Excel, PowerPoint ve PDF) veri aktarma işlemi başarısız olur. Bkz. [Alt etiketler (gruplandırma etiketleri)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
-
-**Dışarı Aktarma**
-* Etiket ve koruma denetimleri yalnızca veriler Excel, PowerPoint ve PDF dosyalarına aktarıldığında zorlanır. Veriler .csv veya .pbix dosyalarına, Excel’de Analiz Et’e veya başka bir dışarı aktarma yoluna aktarıldığında etiket ve koruma zorlanmaz.
-* Dışarı aktarılan bir dosyaya duyarlılık etiketi ve koruma uygulandığında, dosyaya içerik işaretlemesi eklenmez. Ancak, etiket içerik işaretlemelerini uygulayacak şekilde yapılandırıldıysa dosya Office masaüstü uygulamalarında açıldığında içerik işaretlemeleri Azure Information Protection birleşik etiketleme istemcisi tarafından otomatik olarak uygulanır. Masaüstü uygulamaları, mobil uygulamalar ve web uygulamaları için yerleşik etiketleme kullandığınızda içerik işaretlemeleri otomatik olarak uygulanmaz. Diğer ayrıntılar için bkz. [Office uygulamaları içerik işaretlemesini ve şifrelemeyi ne zaman uygular?](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption).
-* Power BI’dan dosya aktaran kullanıcının, duyarlık etiketi ayarlarına uygun olarak bu dosyaya erişme ve dosyayı düzenleme izinleri vardır. Verileri dışarı aktaran kullanıcı, dosya üzerinde sahip izinleri almaz.
-* Veriler bir dosyaya dışarı aktarıldığında etiket uygulanamıyorsa dışarı aktarma işlemi başarısız olur. Dışarı aktarma işleminin etiket uygulanamadığından başarısız olup olmadığını denetlemek için başlık çubuğunun ortasındaki rapor veya pano adına tıklayın ve açılan bilgi menüsünde “Duyarlılık etiketi yüklenemiyor” yazıp yazmadığına bakın. Bu, uygulanan etiket güvenlik yöneticisi tarafından yayımdan kaldırıldıysa veya silindiyse ya da geçici bir sistem sorununun sonucu olarak oluşur.
+Power BI'daki duyarlılık etiketi sınırlamaları için bkz. [Power BI'daki duyarlılık etiketleri](service-security-sensitivity-label-overview.md#limitations).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu makalede, Power BI'da veri duyarlılığı etiketlerini etkinleştirme işlemi açıklanmıştır. Aşağıdaki makalelerde Power BI’da veri koruma hakkında daha fazla bilgi verilmektedir. 
+Bu makalede, Power BI'da duyarlılık etiketlerini etkinleştirme işlemi açıklanmıştır. Aşağıdaki makalelerde Power BI’da veri koruma hakkında daha fazla bilgi verilmektedir. 
 
-* [Power BI’da veri korumasına genel bakış](service-security-data-protection-overview.md)
-* [Power BI'da veri duyarlılığı etiketleri uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI'daki duyarlılık etiketlerine genel bakış](service-security-sensitivity-label-overview.md)
+* [Power BI'da duyarlılık etiketlerini uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](service-security-using-microsoft-cloud-app-security-controls.md)
-* [Veri koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)
+* [Koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)

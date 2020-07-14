@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
+ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393830"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85943062"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat uygulama
 

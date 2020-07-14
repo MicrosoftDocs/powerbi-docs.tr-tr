@@ -5,20 +5,20 @@ author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 139c9cb31ecbb6853228c0d362b61d5a74debac5
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867795"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939650"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI Soru-Cevap’a giriş
 
 Bazen verilerinizden yanıt almanın en hızlı yolu, doğal dil kullanarak verileriniz üzerinde arama yapmaktır. Power BI'ın Soru-Cevap özelliği, verilerinizi doğal dil kullanarak kendi sözcüklerinizle keşfetmenizi sağlar. Soru-Cevap etkileşimli ve hatta eğlenceli bir özelliktir. Genellikle görselleştirmelerin sürdürülebilecek ilginç yollar açması nedeniyle her soru yeni bir soruyu getirir. Soruyu sormak yalnızca bir başlangıçtır. Sorunuzu daraltarak veya genişleterek, yeni bilgiler keşfederek, ayrıntılara yoğunlaşarak veya daha geniş bir görünüm elde etmek için uzaklaştırarak verilerinizde yolculuğa çıkın. Bu deneyim, bellek içi depolama tarafından desteklenen etkileşimli ve hızlı bir deneyimdir. 
 
-Power BI Soru-Cevap ücretsizdir ve tüm kullanıcılara açıktır. Power BI Desktop’ta rapor tasarımcıları, verileri araştırmak ve görselleştirmeler oluşturmak için Soru-Cevap kullanabilir. Power BI hizmetinde herkes, verilerini Soru-Cevap kullanarak araştırabilir. Bir panoyu veya raporu düzenleme izniniz varsa, Soru-Cevap sonuçlarınızı sabitleyebilirsiniz.
+Power BI Soru-Cevap ücretsizdir ve tüm kullanıcılara açıktır. Power BI Desktop’ta rapor tasarımcıları, verileri araştırmak ve görselleştirmeler oluşturmak için Soru-Cevap kullanabilir. Power BI hizmetinde herkes, verilerini Soru-Cevap kullanarak araştırabilir. iOS için Soru-Cevap sanal yardımcısı, Android cihazlarda ise Soru-Cevap görseli ile Soru-Cevap özelliği mobil uygulamalarımızda da desteklenir. Bir panoyu veya raporu düzenleme izniniz varsa, Soru-Cevap sonuçlarınızı sabitleyebilirsiniz.
 
 ## <a name="how-to-use-qa"></a>Soru-Cevap nasıl kullanılır?
 

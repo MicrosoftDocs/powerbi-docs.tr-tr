@@ -8,22 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148428"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034256"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi ](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI'ı mobil tarayıcı yerine mobil uygulamada görüntülemenin avantajlarından biri de ağ bağlantınız bulunmasa bile verilerinizi görebilmenizdir. 
 
@@ -35,6 +35,9 @@ Varsayılan olarak Power BI, hareket halinde veya dolaşımdayken bile işle ilg
 Çevrimdışıyken, daha önce mobil uygulamadan eriştiğiniz panolara erişebilir ve bunlarla etkileşim kurabilirsiniz.
 
 Ayrıca, daha önce mobil uygulamadan eriştiğiniz Power BI raporlarına da salt okunur erişim elde edersiniz. Raporun tamamını görebilirsiniz ancak rapor üzerinde filtreleme, çapraz filtreleme veya sıralama yapamaz ya da dilimleyici kullanamazsınız.
+
+>[!NOTE]
+> DirectQuery tabanlı raporlar önbelleğe alınmaz ve çevrimdışı kullanılamaz.
 
 ## <a name="background-data-refresh"></a>Arka planda veri yenileme
 Arka planda yenileme; sık kullandığınız panolarınızın yanı sıra son iki hafta içinde görüntülediğiniz panolarınızı ve raporlarınızı Power BI hizmetindeki verilerle (veri kaynağı ile değil) güncelleştirir. Wifi bağlantınız varsa, arka planda yenileme her 2 saatte bir gerçekleştirilir. 3G bağlantısı kullanmanız durumunda ise Power BI, içeriği her 24 saatte bir güncelleştirir.
@@ -66,5 +69,5 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 
 * [Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)
 * Bizi Twitter'da takip edin: @MSPowerBI
-* [Power BI Topluluğu](https://community.powerbi.com/)'ndaki sohbetlere katılın
+* [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
