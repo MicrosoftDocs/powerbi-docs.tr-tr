@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226206"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301011"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -122,8 +122,6 @@ Alt düzey kodlu özel bir deneyim oluşturmak için istediğiniz kadar çok dü
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
 * Sayfalandırılmış raporlar güvenli ekleme senaryolarında desteklenir ve URL parametrelerine sahip sayfalandırılmış raporlar da desteklenir. [Sayfalandırılmış rapor için bir URL’deki rapor parametrelerini geçirme](../paginated-reports/report-builder-url-pass-parameters.md) hakkında daha fazla bilgi edinin.
-
-* Azure işletmeler arası (B2B) ile dışarıdan konuk kullanıcıları desteklemez.
 
 * Güvenli ekleme özelliği Power BI hizmetinde yayımlanmış olan raporlarda çalışır.
 
