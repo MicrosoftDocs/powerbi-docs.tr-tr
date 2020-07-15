@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225662"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216549"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -28,10 +29,6 @@ Power BI’daki **Web’de yayımlama** seçeneği sayesinde etkileşimli Power 
 ## <a name="create-embed-codes-with-publish-to-web"></a>Web’de yayımlama ile ekleme kodları oluşturma
 
 **Web'de yayımla** özelliğini, kişisel veya grup çalışma alanlarında düzenleyebildiğiniz raporlarda kullanabilirsiniz.  Sizinle paylaşılan raporlarda veya verileri korumak için satır düzeyi güvenliğe dayanan raporlarda kullanılamaz. **Web'de yayımla** özelliğinin desteklenmediği tüm durumların listesi için aşağıdaki [**Sınırlamalar**](#limitations) bölümüne bakın. **Web'de yayımla** özelliğini kullanmadan önce bu makalenin üst kısmındaki **Uyarı** bölümünü inceleyin.
-
-Aşağıdaki kısa video bu özelliğin nasıl çalıştığını gösterir. Aşağıdaki adımları izleyerek kendiniz de deneyin.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağını açıklamaktadır.
 

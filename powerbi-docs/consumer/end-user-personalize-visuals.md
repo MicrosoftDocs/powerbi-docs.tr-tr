@@ -2,19 +2,19 @@
 title: Rapordaki görselleri kişiselleştirme
 description: Raporu düzenlemeden kendi rapor görünümünüzü oluşturun.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13e06670eb357bfb955cf503dcb5ec81aadd952
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34c4ff3dbeabafbdae9c286e03443abed52af2f
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236465"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263771"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Rapordaki görselleri kişiselleştirme
 

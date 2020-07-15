@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 07/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9ad30c7fc8319ece258b82c2fcfe7f94fc63200b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: acd13719aa6ff90f0f7fe297bf6bbc1674a5da22
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231652"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216015"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI tüketicileri için Soru-Cevap
 

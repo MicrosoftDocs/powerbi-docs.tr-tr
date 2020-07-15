@@ -2,19 +2,19 @@
 title: Power BI panosunu görüntüleme
 description: Panolar Power BI hizmetinin başlıca özelliklerinden biridir; panoya açmayı ve görüntülemeyi öğrenin.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a76d6095ca05e3a9d600718d9bad074ddec66178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235952"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216200"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 
