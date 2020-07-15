@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: ebaedf880ed88f8b729d1f9a628ce71cbd3b3b52
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: cb50e887b7821ed23a928c6eb28d0c8bb3a28cb1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354973"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213849"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
 
@@ -99,7 +99,7 @@ Bu kodu Program {...}'e ekleyin.
            // AcquireToken will acquire an Azure access token
            // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
            AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-           authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
+           var token = authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
 
            Console.WriteLine(token);
            Console.ReadLine();
@@ -164,7 +164,7 @@ namespace walkthrough_push_data
             // AcquireToken will acquire an Azure access token
             // Call AcquireToken to get an Azure token from Azure Active Directory token issuance endpoint
             AuthenticationContext authContext = new AuthenticationContext(authorityUri);
-            authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
+            var token = authContext.AcquireTokenAsync(resourceUri, clientID, new Uri(redirectUri)).Result.AccessToken;
 
             Console.WriteLine(token);
             Console.ReadLine();
