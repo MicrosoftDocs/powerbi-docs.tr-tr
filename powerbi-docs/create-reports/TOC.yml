@@ -47,6 +47,8 @@
       items:
         - name: Power BI raporları
           items:
+            - name: Power BI Desktop ve dış araçlar
+              href: desktop-external-tools.md
             - name: Power BI modern şerit
               href: desktop-ribbon.md
             - name: Rapor görünümü ile çalışma
@@ -107,7 +109,7 @@
               href: deployment-pipelines-overview.md
             - name: Dağıtım işlemini anlama
               href: deployment-pipelines-process.md
-            - name: En iyi yöntemler
+            - name: En iyi uygulamalar
               href: deployment-pipelines-best-practices.md
     - name: Nasıl yapılır kılavuzları
       items:
@@ -203,7 +205,7 @@
               href: service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
               href: service-interact-with-a-report-in-editing-view.md
-            - name: Excel’de Analiz Et
+            - name: Excel’de çözümleme
               href: ../collaborate-share/service-analyze-in-excel.md
             - name: Hizmetteki kümelerle çalışma
               href: service-aggregates.md
@@ -215,7 +217,7 @@
               href: service-export-to-pbix.md
             - name: Veri kümelerini ve raporları yayımlama
               href: desktop-upload-desktop-files.md
-        - name: Görselleştirmeler
+        - name: Görsel öğeler
           items:
             - name: Rapora görsel ekleme (1. bölüm)
               href: ../visuals/power-bi-report-add-visualizations-i.md
@@ -389,7 +391,7 @@
               href: service-dashboard-themes.md
         - name: Dağıtım işlem hatları
           items:
-            - name: Kullanmaya başlayın
+            - name: başlarken
               href: deployment-pipelines-get-started.md
             - name: Sorun giderme
               href: deployment-pipelines-troubleshooting.md
