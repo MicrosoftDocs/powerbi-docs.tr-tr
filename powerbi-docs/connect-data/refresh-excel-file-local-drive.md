@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220897"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216339"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Refresh a dataset created from an Excel workbook on a local drive (Yerel sürücüdeki bir Excel çalışma kitabından oluşturulan veri kümelerini yenileme)
-## <a name="whats-supported"></a>Desteklenenler
+## <a name="whats-supported"></a>Hangi veri kümeleri desteklenir?
 Power BI'da Şimdi Yenile ve Yenilemeyi Zamanla işlemleri, Power Query (Excel 2016'da Veri Al ve Dönüştür) veya Power Pivot'un şu veri kaynaklarından birine bağlanmak veya Excel veri modeline veri yüklemek için kullanıldığı yerel bir sürücüden içeri aktarılan Excel çalışma kitaplarından oluşturulmuş veri kümeleri için desteklenir:  
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
@@ -47,13 +47,13 @@ Bir veri kaynağına bağlanmak için Power Query (Excel 2016'da Veri Al ve Dön
 > 
 
 **Gezgin**'de, **Hedefe Yükle…** seçeneğine tıklayın.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+    ![Şuraya Yükle seçimini gösteren, Gezgin’deki Şuraya Yükle seçeneğinin ekran görüntüsü.](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
 Alternatif olarak, Gezgin'de **Düzenle**'ye tıklayıp Sorgu Düzenleyicisi'ni açabilirsiniz. Burada **Kapat ve Hedefe Yükle...** seçeneğine tıklayabilirsiniz.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+    ![Kapat ve Şuraya Yükle seçimini gösteren, Gezgin’deki Giriş sekmesinin ekran görüntüsü.](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
 Ardından, **Hedefe Yükle** seçeneğinde, **Bu verileri Veri Modeline ekle**'yi seçtiğinizden emin olun.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+    ![Bu verileri Veri Modeline ekle kutusunun işaretli olduğunu gösteren Şuraya Yükle iletişim kutusunun ekran görüntüsü.](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>Power Pivot'ta Dış Veri Alma özelliğini kullanırsam ne olur?
 Hiç sorun değil. Şirket içi veya çevrimiçi veri kaynaklarına bağlanmak veya bu kaynaklardaki verileri sorgulamak için Power Pivot'u her kullandığınızda, veriler otomatik olarak veri modeline yüklenir.
@@ -66,15 +66,15 @@ Yenileme zamanlamasını ayarlama ile ilgili daha fazla bilgi için bkz. [Yenile
 ## <a name="when-things-go-wrong"></a>Bir şeyler ters gittiğinde
 Bir şeyler ters gittiğinde, sorun genellikle Power BI'ın veri kaynaklarında oturum açamamasından veya veri kümesi bir şirket içi veri kaynağına bağlandığında ağ geçidinin çevrimdışı olmasından kaynaklanır. Power BI'ın veri kaynaklarında oturum açabildiğinden emin olun. Bir veri kaynağında oturum açmak için kullandığınız parola değişirse veya Power BI'ın bir veri kaynağındaki oturumu kapanırsa, Veri Kaynağı Kimlik Bilgilerini kullanarak veri kaynaklarınızda yeniden oturum açmayı deneyin.
 
-**Yenileme hatası bildirim e-postası almak istiyorum** seçeneğinin işaretlenmiş olduğundan emin olun. Bir zamanlanmış yenilemenin başarısız olup olmadığını hemen öğrenmenizde yarar vardır.
+**Yenileme hatası bildirim e-postası almak istiyorum** seçeneğinin işaretlenmiş olduğundan emin olun. Bir zamanlanmış yenileme işleminin başarısız olup olmadığını hemen bilmek istersiniz.
 
 >[!IMPORTANT]
 >Yenileme işlemi, Power Pivot'a bağlı ve Power Pivot'tan sorgulanan OData akışları için desteklenmemektedir. Veri kaynağı olarak bir OData akışı kullanırken Power Query kullanın.
 
-## <a name="troubleshooting"></a>Sorun Giderme
+## <a name="troubleshooting"></a>Sorun giderme
 Bazen verileri yenileme işlemi beklendiği gibi gitmeyebilir. Bu, genellikle ağ geçidiyle bağlantılı bir sorundan kaynaklanır. Araçlar ve bilinen sorunlara yönelik sorun giderme makalelerine göz atın.
 
-[Şirket içi veri ağ geçidi sorunlarını giderme](service-gateway-onprem-tshoot.md)
+[Şirket içi veri ağ geçidiyle ilgili sorunları giderme](service-gateway-onprem-tshoot.md)
 
 [Power BI Gateway - Personal ile ilgili sorunları giderme](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

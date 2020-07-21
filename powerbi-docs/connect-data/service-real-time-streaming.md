@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2679e9fa21b193fa4c19384c2bd7d22660cf657a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0472baffa765f1a1e7d39e365e40a1f596472a16
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235792"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264386"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği ile gerçek zamanlı olarak veri akışı gerçekleştirebilir ve panoları güncelleştirebilirsiniz. Power BI'da oluşturulabilen tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyecek ve güncelleştirecek şekilde de oluşturulabilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve zamana duyarlı verilerin toplanıp aktarılabileceği başka herhangi bir kaynak olabilir.
 
-![Gerçek zamanlı ortam algılayıcılarının sonuçlarını gösteren ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
+![Gerçek zamanlı verilerin sonuçlarını gösteren Ortam algılayıcıları panosunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Bu makalede, Power BI'da nasıl gerçek zamanlı akış veri kümesi ayarlayacağınız gösterilmektedir. Ancak bu konuya değinmeden önce, kutucuklarda (ve panolarda) görüntülenecek şekilde tasarlanmış gerçek zamanlı veri kümesi türlerini ve bu veri kümelerinin nasıl farklılık gösterdiğini anlamakta yarar vardır.
 
@@ -61,7 +61,7 @@ Uygulamada, akış veri kümeleri ve onlara eşlik eden akış görselleri, veri
 ### <a name="streaming-dataset-matrix"></a>Akış veri kümesi matrisi
 Aşağıdaki tabloda (veya matriste), gerçek zamanlı akış için kullanılabilen üç veri kümesi türü açıklanmış ve her birine ilişkin özellikler ile sınırlamalar listelenmiştir.
 
-![](media/service-real-time-streaming/real-time-streaming_11.png)
+![Akış veri kümesi matrisini gösteren bir tablonun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
 > Gönderilebilecek veri miktarına yönelik **Gönderme** sınırlarıyla ilgili bilgi için [bu makaleyi](../developer/automation/api-rest-api-limitations.md) okuyun.
@@ -92,11 +92,11 @@ REST API'lere yönelik tüm istekler **Azure AD OAuth** kullanılarak güvence a
 ### <a name="using-the-streaming-dataset-ui-to-push-data"></a>Akış Veri Kümesi UI'sini kullanarak veri gönderme
 Aşağıdaki görüntüde gösterildiği şekilde Power BI hizmetinde **API** yaklaşımını seçerek bir veri kümesi oluşturabilirsiniz.
 
-![](media/service-real-time-streaming/real-time-streaming_0b.png)
+![API Seçimini gösteren Yeni akış veri kümesi seçimlerinin ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_0b.png)
 
 Yeni akış veri kümesini oluştururken, aşağıda gösterildiği gibi, yapılan işlem üzerinde önemli bir etkisi olan **Geçmiş veri çözümlemesi** seçeneğini etkinleştirmeyi tercih edebilirsiniz.
 
-![](media/service-real-time-streaming/real-time-streaming_0c.png)
+![Geçmiş veri analizinin etkin olduğunu gösteren Yeni akış veri kümesinin ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_0c.png)
 
 **Geçmiş veri çözümlemesi** devre dışıyken (varsayılan olarak devre dışıdır), bu makalede önceden de belirtildiği gibi bir **akış veri kümesi** oluşturursunuz. **Geçmiş veri çözümlemesi** *etkinken*, oluşturulan veri kümesi hem **akış veri kümesi** ve hem de **gönderim veri kümesi** haline gelir. Bu makalenin önceki kısımlarında belirtildiği gibi, bu işlem, *defaultMode* seçeneği *pushStreaming* olarak ayarlanan bir veri kümesi oluşturmak için Power BI REST API'lerinin kullanılmasıyla eşdeğerdir.
 
@@ -125,19 +125,19 @@ Gerçek zamanlı akışa başlamak için akış verilerinin Power BI'da kullanı
 
 Her iki seçenekte de **Akış verilerini** Power BI'da ayarlamanız gerekir. Bunu gerçekleştirmek için, panonuzda (mevcut veya yeni bir pano) **Kutucuk ekle**'yi ve ardından **Özel akış verileri**'ni seçin.
 
-![](media/service-real-time-streaming/real-time-streaming_1.png)
+![Kutucuk ekle bölümündeki Özel akış verileri seçimini gösteren panonun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_1.png)
 
 Henüz akış verilerini ayarlamadıysanız endişelenmenize gerek yok. Başlamak için **verileri yönet**'i seçin.
 
-![](media/service-real-time-streaming/real-time-streaming_2.png)
+![Özel akış veri kutucuğu ekleme bölümündeki veri bağlantısını yönet seçeneğini gösteren panonun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_2.png)
 
 Bu sayfada, önceden oluşturduğunuz bir akış veri kümesinin bulunması halinde akış veri kümenizin uç noktasını metin kutusuna girebilirsiniz. Henüz yoksa bir akış veri kümesi oluşturmak için kullanabileceğiniz seçenekleri görmek üzere sağ üst köşede bulunan artı simgesini ( **+** ) seçin.
 
-![](media/service-real-time-streaming/real-time-streaming_3.png)
+![Akış veri kümenizdeki uç noktanın nasıl girileceğini ve artı simgesine bakan bir işaretçiyi gösteren panonun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_3.png)
 
 **+** simgesine tıkladığınızda, iki seçenek görürsünüz:
 
-![](media/service-real-time-streaming/real-time-streaming_4a.png)
+![API ve PubNub seçeneklerini gösteren Yeni akış veri kümesi seçimlerinin ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_4a.png)
 
 Bir sonraki bölümde bu seçenekler anlatılmakta ve akış veri kaynağından bir akış **kutucuğu** veya **veri kümesi** oluşturma konusunda ayrıntılı bilgiler verilmektedir. Daha sonra bu bilgileri rapor oluştururken kullanabilirsiniz.
 
@@ -152,7 +152,7 @@ Sonraki bölümlerde sırayla her iki seçenek de incelenmektedir.
 ### <a name="using-the-power-bi-rest-api"></a>POWER BI REST API'sini kullanma
 **Power BI REST API** - Son zamanlarda Power BI REST API'de yapılan iyileştirmeler, gerçek zamanlı akışı, geliştiriciler için daha kolay hale getirmek üzere tasarlanmıştır. **Yeni akış veri kümesi** penceresinde **API** seçeneğini belirlediğinizde, Power BI'ın uç noktanıza bağlanmasını ve bunu kullanmasını sağlamaya yönelik girişlerle karşılaşırsınız:
 
-![](media/service-real-time-streaming/real-time-streaming_5.png)
+![Bağlantı için Power BI REST API girişlerini gösteren Yeni akış veri kümesi iletişim kutusunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_5.png)
 
 Power BI'ın bu veri akışı yoluyla gönderilen verileri depolamasını istiyorsanız *Geçmiş veri çözümlemesi*'ni etkinleştirin; böylece, toplanan veri akışı üzerinde raporlama ve analiz işlemleri gerçekleştirebilirsiniz. Ayrıca [API hakkında daha fazla bilgi edinebilirsiniz](https://docs.microsoft.com/rest/api/power-bi/).
 
@@ -163,7 +163,7 @@ Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API U
 ### <a name="using-pubnub"></a>PubNub'ı kullanma
 **PubNub** akışının Power BI ile tümleştirilmesi sonucunda, düşük gecikmeli **PubNub** veri akışlarınızı kullanabilir (veya yenilerini oluşturabilir) ve Power BI'da bunlardan faydalanabilirsiniz. **PubNub**'ı ve ardından **Sonraki** seçeneğini belirlediğinizde, aşağıdaki pencereyi görürsünüz:
 
-![](media/service-real-time-streaming/real-time-streaming_7.png)
+![Bağlantı için PubNub girişlerini gösteren Yeni akış veri kümesi iletişim kutusunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_7.png)
 
 > [!WARNING]
 > PubNub kanalları, PubNub Access Manager (PAM) kimlik doğrulaması anahtarı kullanılarak güvence altına alınabilir. Bu anahtar, panoya erişimi olan tüm kullanıcılar ile paylaşılır. [PubNub erişim denetimi hakkında daha fazla bilgi edinebilirsiniz](https://www.pubnub.com/docs/web-javascript/pam-security).
@@ -179,7 +179,7 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
 
 1. **Power BI hizmeti**'nde bir pano seçin (veya yeni pano oluşturun) ve **Kutucuk ekle** > **Özel Akış Verileri** seçeneğini belirleyip **İleri** düğmesini seçin.
    
-   ![](media/service-real-time-streaming/real-time-streaming_1.png)
+   ![Kutucuk ekle seçeneğiyle Özel akış veri seçimini gösteren panonun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_1.png)
 2. Henüz bir akış veri kaynağınız yoksa, **verileri yönet** bağlantısını seçin (**İleri** düğmesinin hemen üzerinde bulunur), ardından pencerenin sağ üst tarafında bulunan bağlantıdan **+ Akış veri kümesi ekle** seçeneğini belirleyin. **PubNub**'ı seçin ve ardından **Sonraki** seçeneğini belirleyin.
 3. Veri kümenize bir ad verdikten sonra pencereye aşağıdaki değerleri yapıştırın ve **Sonraki** seçeneğini belirleyin:
    
@@ -190,13 +190,13 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
    
        pubnub-sensor-network
    
-   ![](media/service-real-time-streaming/real-time-streaming_8.png)
+   ![Veri kümesi adının nasıl oluşturulacağını ve Alt anahtar ile Kanal adı alanlarındaki girişleri gösteren Yeni akış veri kümesi iletişim kutusunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. Aşağıdaki pencerede, yalnızca varsayılanları seçin (otomatik olarak doldurulur) ve ardından **Oluştur** seçeneğini belirleyin.
    
-   ![](media/service-real-time-streaming/real-time-streaming_9.png)
+   ![Akış alanlarındaki Veri kümesi adı ve Değerler bölümlerindeki varsayılanları gösteren Yeni akış veri kümesi iletişim kutusunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Power BI çalışma alanınızda yeni bir pano oluşturun ve ardından bir kutucuk ekleyin. (İhtiyaç duyarsanız gerekli adımlar için yukarıya bakın.) Artık bir kutucuk oluşturup **Özel Akış Verileri**'ni seçtiğinizde, birlikte çalışacağınız bir akış veri kümesine sahip olursunuz. Gerçekleştirebileceğiniz işlemlere göz atabilirsiniz. Çizgi grafiklere *sayı* alanları ekler ve ardından başka kutucuklar oluşturursanız aşağıdakine benzer gerçek zamanlı bir pano elde edebilirsiniz:
    
-   ![Gerçek zamanlı ortam algılayıcılarının sonuçlarını gösteren ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
+   ![Gerçek zamanlı sonuçları gösteren Ortam algılayıcıları panosunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Örnek veri kümesiyle gerçekleştirebileceğiniz işlemleri deneyin. Daha sonra kendi veri kümelerinizi oluşturun ve Power BI'a canlı veri akışı yapın.
 

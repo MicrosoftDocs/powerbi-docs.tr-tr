@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: a93b3def115aaadbc33f6d0985aeea424558f248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73860222"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86213827"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Yönetici genel bakışı, Power BI Rapor Sunucusu
 Bu makalede Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz şirket içi bir konum olan Power BI Rapor Sunucusu'na yönelik yönetici genel bakışı sunulmaktadır. Bu makale, daha fazla bilgi içeren bağlantılarla birlikte Power BI Rapor Sunucunuzu planlama, dağıtma ve yönetme kavramlarını açıklamaktadır.
 
-![](media/admin-handbook-overview/admin-handbook.png)
-
+![Oturum açma seçeneklerini gösteren Power BI Rapor Sunucusu’nun ekran görüntüsü.](media/admin-handbook-overview/admin-handbook.png)
+ 
 ## <a name="installing-and-migration"></a>Yükleme ve geçiş
 Power BI Rapor Sunucusu'nu kullanmaya başlamak için yüklemeniz gerekir. Bu görevi nasıl gerçekleştireceğinizi açıklayan makaleler mevcuttur.
 

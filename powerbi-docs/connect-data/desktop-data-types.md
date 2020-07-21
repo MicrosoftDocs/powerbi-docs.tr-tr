@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561582"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216457"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop'taki veri türleri
 Bu makalede, Power BI Desktop ve Veri Çözümleme İfadeleri (DAX) tarafından desteklenen veri türleri açıklanmaktadır. 
@@ -28,11 +28,11 @@ Power BI Desktop'ta bir sütunun veri türünü Sorgu Düzenleyicisi'nde, Veri G
 
 **Sorgu Düzenleyicisi'ndeki veri türleri**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![Sorgu Düzenleyicisi’nde görüntülenen Veri türü şeridinin ekran görüntüsü.](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **Veri Görünümü veya Rapor Görünümü'ndeki veri türleri**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![Veri Görünümü’nde görüntülenen Veri türü şeridinin ekran görüntüsü.](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 Sorgu Düzenleyicisi'ndeki Veri Türü açılan listesinde, şu anda Veri veya Rapor Görünümü'nde yer almayan iki veri türü bulunur: **Tarih/Saat/Saat Dilimi** ve **Süre**. Modele bu veri türlerini içeren bir sütun yüklendiğinde ve söz konusu model Veri veya Rapor görünümü'nde görüntülendiğinde; Tarih/Saat/Saat Dilimi veri türündeki sütunlar Tarih/Saat veri türüne, Süre veri türündeki sütunlar ise Ondalık Sayı veri türüne dönüştürülür.
 

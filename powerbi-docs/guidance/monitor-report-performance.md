@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279032"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216601"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI’da rapor performansını izleme
 
@@ -35,7 +35,7 @@ Sorguları önizlerken veya uygularken Power Query’nin neler yaptığını sap
 > [!NOTE]
 > Sorgu Tanılamaları şu anda bir önizleme özelliğidir ve bu nedenle özelliği _Seçenekler ve Ayarlar_’da etkinleştirmeniz gerekir. Etkinleştirildikten sonra komutları Power Query Düzenleyicisi penceresindeki **Araçlar** şerit sekmesinde kullanılabilir.
 
-![Resimde Power Query Düzenleyicisi Araçlar şerit sekmesi gösterilir. Şeritte Tanılama Adımı komutu, Tanılamayı Başlat komutu ve Tanılamayı Durdur komutu görüntülenir.](media/monitor-report-performance/power-query-diagnotics.png)
+![Tanılama Adımı komutunu, Tanılamayı Başlat komutunu ve Tanılamayı Durdur komutunu gösteren Power Query Düzenleyici Araçları şerit sekmesinin ekran görüntüsü.](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>Performans Analizi'ni kullanma
 

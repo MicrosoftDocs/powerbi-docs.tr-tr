@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565592"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216533"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -50,7 +50,8 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Satır düzeyi güvenlik (RLS) | Evet | Evet | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir <br><br>[Power BI hizmetinde](../admin/service-admin-rls.md) satır düzeyi güvenlik <br><br>[Power BI Rapor Sunucusu](row-level-security-report-server.md)'nda satır düzeyi güvenlik |
 | Tam ekran modu | Hayır | Evet | Power BI hizmetinde [tam ekran modu](../consumer/end-user-focus.md) |
 | Gelişmiş Microsoft 365 işbirliği | Hayır | Evet | Microsoft 365 ile [bir çalışma alanında işbirliği yapma](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R görselleri | Hayır | Evet | Power BI Desktop'ta [R görselleri oluşturma](../create-reports/desktop-r-visuals.md) ve bunları Power BI hizmetine yayımlama. R görseli içeren Power BI raporlarını Power BI Rapor Sunucusu'na kaydedemezsiniz.  |
+| R betikleri ve görselleri | Hayır | Evet | Power BI Desktop’ta [R görselleri oluşturup](../create-reports/desktop-r-visuals.md) R betikleri çalıştırın ve bunları Power BI hizmetine yayımlayın. R betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz.  |
+| Python betikleri ve görselleri | Hayır | Evet | Power BI Desktop’ta [Python görselleri ve betikleri oluşturup](../connect-data/desktop-python-scripts.md) bunları Power BI hizmetine yayımlayın. Python betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz. |
 | Önizleme özellikleri | Hayır | Evet | [Power BI hizmetinin önizleme özelliklerini kullanma](../consumer/end-user-preview-features.md) |
 | Power BI görselleri | Evet | Evet | [Power BI görselleri](../developer/visuals/power-bi-custom-visuals.md) |
 | Bileşik modeller | Hayır | Evet |

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: de20bc743c582d42d81f2d4c2544e3acf5f1b99c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234513"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264927"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -49,40 +49,40 @@ iOS için Power BI uygulamasını şu sürümler destekler:
 3. **show** yazın, açılan öneri listesinden **sales** seçeneğine ve ardından **Gönder** simgesine ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
     ![Show sales](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Anahtar sözcüklerden **by** sözcüğünü seçin, açılan öneri listesinden **item** seçeneğine ve ardından **Gönder** simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+4. Anahtar sözcüklerden **by** sözcüğünü seçin, açılan öneri listesinden **item** seçeneğine ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
     ![Sales by item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Anahtar sözcüklerden **as** sözcüğünü seçin, sütun grafik simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) ve ardından **Gönder** simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+5. Anahtar sözcüklerden **as** sözcüğünü seçin, sütun grafik simgesine ![Grafik simgesi](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 6. Çıkan grafiğe uzun basın ve **Genişlet** seçeneğini belirleyin.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
+    ![Genişlet seçeneğine bakan işaretçiyi gösteren sütun grafiğinin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
     Grafik, uygulamada odak modunda açılır.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
+    ![Grafiğin odak modunu gösteren sütun grafiğinin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Soru-Cevap sanal analisti sohbet penceresine geri dönmek için sol üst köşedeki oka dokunun.
 8. Ardından, metni silmek ve baştan başlamak için metin kutusunun sağındaki X işaretine dokunun.
-9. Yeni bir soru sorun: Anahtar sözcüklerden **top** sözcüğüne ve ardından **sale by avg $/unit ly** > **Gönder** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) seçeneğine dokunun.
+9. Yeni bir soru sorun: Anahtar sözcüklerden **top** sözcüğüne ve ardından **sale by avg $/unit ly** > **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. Anahtar sözcüklerden **by** sözcüğünü seçin, yukarıda çıkan öneri listesindeki **time** seçeneğine ve ardından **Gönder** simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+    ![Birim başına ortalama miktara göre en yüksek satışı gösteren bir sorunun ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
+10. Anahtar sözcüklerden **by** sözcüğünü seçin, yukarıda çıkan öneri listesindeki **time** seçeneğine ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
-     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **as** yazın, öneri listesindeki çizgi grafik simgesini ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) seçin ve **Gönder** simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+     ![Zaman içinde birim başına ortalama miktara göre en yüksek satışı gösteren bir grafiğin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
+11. **as** yazın, öneri listesindeki çizgi grafik simgesini ![Grafik simgesi](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) seçin ve **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
+    ![Sütundan çizgi grafiğine bakan bir işaretçiyi gösteren sütun ve çizgi grafiğinin ekran görüntüsü](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 
 ## <a name="try-saying-your-questions"></a>Sorularınızı sesli olarak sorma
 Artık Power BI mobil uygulamasında yazmak yerine konuşarak verileriniz hakkında sorular sorabilirsiniz.
 
 1. Sayfanın altındaki eylem menüsünde bulunan Soru-Cevap sanal analisti simgesine ![Soru-Cevap sanal analisti simgesi](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) dokunun (iPad cihazında sayfanın üstünde).
-2. Mikrofon simgesine ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png) dokunun.
+2. Mikrofon simgesine dokunun ![Mikrofon simgesi](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-icon.png).
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
+    ![Mikrofonun etkin olduğunu gösteren bir sorunun ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Mikrofon simgesi etkin olduğunda konuşmaya başlayın. Örneğin, "average unit price by time" dedikten sonra **Gönder** simgesine ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+1. Mikrofon simgesi etkin olduğunda konuşmaya başlayın. Örneğin, "average unit price by time" dedikten sonra **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
+    ![Konuşmanın tamamlandığını gösteren bir sorunun ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 
 ### <a name="questions-about-privacy-when-using-speech-to-text"></a>Konuşmayı metne dönüştürme özelliği konusunda gizlilik ile ilgili sorularınız mı var?
 Apple iOS Geliştirici Kılavuzlarındaki [What's New in iOS (iOS'teki Yenilikler)](https://go.microsoft.com/fwlink/?linkid=845624) başlığı altında bulunan Speech Recognition (Konuşma Tanıma) bölümüne bakın.
@@ -91,7 +91,7 @@ Apple iOS Geliştirici Kılavuzlarındaki [What's New in iOS (iOS'teki Yenilikle
 * Yardıma mı ihtiyacınız var? "Hi" veya "Help" diyerek yeni bir soruya başlama ile ilgili yardım alabilirsiniz.
 * Sonuçlar ile ilgili geri bildirim sağlamak mı istiyorsunuz? Bir grafiğe veya başka bir sonuca uzun basarak gülen veya üzgün yüze dokunun.
 
-    ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
+    ![İşaretçiden gülen yüze geri bildirim gösteren bir sütun grafiğinin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-feedback.png)
 
     Geri bildiriminiz anonimdir ve sorulara verilen cevapları iyileştirmemize yardımcı olur.
 

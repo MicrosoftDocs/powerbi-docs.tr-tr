@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/02/2020
+ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee3919be08cfb2af2ad0e82e9f0f35b5d13147c6
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943197"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162402"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Öğretici: Power BI hizmetinde içerik oluşturmaya başlama
 Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
@@ -224,4 +224,7 @@ Pano alanını daha iyi kullanmak için kutucukları yeniden düzenleyebiliriz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Daha fazla görselleştirme kutucuğu ekleyip [kutucukları yeniden adlandırma, yeniden boyutlandırma, bağlantılı hale getirme ve yeniden konumlandırma](../create-reports/service-dashboard-edit-tile.md) yoluyla panoları iyileştirin.
+Power BI için şu Microsoft Learn içerik koleksiyonlarını keşfedin:
+
+- [Power BI’ı öğrenme](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Power BI veri analisti olma](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

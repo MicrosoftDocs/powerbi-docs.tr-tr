@@ -9,18 +9,18 @@ ms.topic: overview
 ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bd95dfcc5d621b5ae4988e187d7cc6d9478feb58
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361532"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216931"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
 *Power BI Desktop*, yerel bilgisayarınıza yükleyebileceğiniz ücretsiz bir uygulamadır ve verilerinize bağlanmayı, verileri dönüştürmeyi ve verilerinizi görselleştirmeyi sağlar. Power BI Desktop sayesinde çok sayıda farklı veri kaynağına bağlanıp bu kaynakları bir veri modelinde birleştirebilirsiniz (bu süreç çoğunlukla *modelleme* olarak adlandırılır). Bu veri modeli görseller ve kuruluşunuzdaki diğer kişilerle rapor olarak paylaşabileceğiniz görsel koleksiyonları oluşturmanızı sağlar. İş zekası projelerinde çalışan çoğu kullanıcı, raporlar oluşturmak için Power BI Desktop kullanır ve sonra raporlarını başkalarıyla paylaşmak için *Power BI hizmetini* kullanır.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Örnek verileri gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 Power BI Desktop’ın en yaygın kullanım şekilleri aşağıda verilmiştir:
 
@@ -39,7 +39,7 @@ Power BI Desktop’ta, tuvalin sol tarafından seçebileceğiniz üç görünüm
 
 Aşağıdaki görüntüde, tuvalin sol tarafında gösterildiği gibi üç görünüm gösterilmektedir:
 
-![Power BI Desktop görünümleri](media/desktop-what-is-desktop/what-is-desktop-07.png)
+![Üç Görünüm panelini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop-07.png)
  
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
@@ -51,11 +51,11 @@ Verilere bağlanmak için:
 
    Power BI Desktop’ın bağlanabildiği çok sayıda kategoriyi içeren **Veri Al** penceresi açılır.
 
-   ![Power BI Desktop'ta Veri Al](media/desktop-what-is-desktop/what-is-desktop_02.png)
+   ![Veri Al iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_02.png)
 
 2. Bir veri türü seçtiğinizde, Power BI Desktop’ın sizin adınıza veri kaynağına bağlanması için gereken URL ve kimlik bilgileri gibi bilgiler istenir.
 
-   ![Power BI Desktop'ta bir SQL Server veritabanına bağlanma](media/desktop-what-is-desktop/what-is-desktop_03.png)
+   ![SQL Server Veritabanı iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_03.png)
 
 3. Bir veya daha fazla veri kaynağına bağlandıktan sonra verileri sizin için yararlı olacak şekilde dönüştürmek isteyebilirsiniz.
 
@@ -69,13 +69,13 @@ Power Query Düzenleyicisi'ni başlatmak için:
 
    **Power Query Düzenleyicisi** penceresi görüntülenir.
 
-   ![Power BI Desktop’ta Power Query Düzenleyicisi](media/desktop-getting-started/designer_gsg_editquery.png)
+   ![Power Query Düzenleyicisi penceresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Verileri dönüştürürken uyguladığınız her adım (bir tabloyu yeniden adlandırma, bir veri türünü dönüştürme veya sütunları silme gibi) Power Query Düzenleyicisi tarafından kaydedilir. Bu sorgu veri kaynağına her bağlandığında, verilerin her zaman belirttiğiniz gibi şekillendirilmesi için o adımlar uygulanır.
 
 Aşağıdaki görüntüde, şekillendirilmiş ve bir modele dönüştürülmüş sorgunun **Power Query Düzenleyicisi** penceresi gösterilmektedir.
 
- ![Power Query Düzenleyicisi penceresi](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+ ![Şekillendirilmiş bir sorgu için Power Query Düzenleyicisi penceresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
 
 Verileriniz istediğiniz gibi olana kadar görseller oluşturabilirsiniz. 
 
@@ -83,13 +83,13 @@ Verileriniz istediğiniz gibi olana kadar görseller oluşturabilirsiniz.
 
 Bir veri modeli elde ettikten sonra *alanları* rapor tuvalinin üzerine sürükleyerek *görseller* oluşturabilirsiniz. Görsel, modelinizdeki verilerin grafiksel bir açıklamasıdır. Power BI Desktop'ta seçebileceğiniz farklı türde görseller vardır. Aşağıdaki görsel basit bir sütun grafiğini göstermektedir. 
 
-![Power BI Desktop'ta görsel](media/desktop-what-is-desktop/what-is-desktop_04.png)
+![Örnek bir çubuk grafiğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
 Görsel oluşturmak veya değiştirmek için: 
 
 - **Görselleştirmeler** bölmesinde görsel simgesini seçin. 
 
-   ![Power BI Desktop'taki Görselleştirmeler bölmesi](media/desktop-what-is-desktop/what-is-desktop_05.png)
+   ![Görselleştirmeler bölmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_05.png)
 
    Rapor tuvalinde seçili bir görseliniz varsa, seçili görsel seçtiğiniz türle değiştirilir. 
 
@@ -98,13 +98,13 @@ Görsel oluşturmak veya değiştirmek için:
 
 ## <a name="create-reports"></a>Rapor oluşturma
 
-Çoğunlukla, Power BI Desktop’ta modelinizi oluşturmak için kullandığınız verilerin çeşitli yönlerini gösteren bir görsel koleksiyonu oluşturmak istersiniz. Tek bir Power BI Desktop dosyasındaki bir görsel koleksiyonu *rapor* olarak adlandırılır. Tıpkı bir Excel dosyasında bir veya daha fazla çalışma sayfası olabileceği gibi bir raporda bir veya daha fazla sayfa olabilir. 
+Çoğunlukla, Power BI Desktop’ta modelinizi oluşturmak için kullandığınız verilerin çeşitli yönlerini gösteren bir görsel koleksiyonu oluşturmak istersiniz. Tek bir Power BI Desktop dosyasındaki bir görsel koleksiyonu *rapor* olarak adlandırılır. Tıpkı bir Excel dosyasında bir veya daha fazla çalışma sayfası olabileceği gibi bir raporda bir veya daha fazla sayfa olabilir.
 
 Power BI Desktop ile, birden fazla kaynaktan verileri kullanarak kuruluşunuzdaki diğer kullanıcılarla paylaşabileceğiniz tek bir rapor halinde karmaşık ve görsel açıdan zengin raporlar oluşturabilirsiniz.
 
 Aşağıdaki görüntüde bir Power BI Desktop raporunun **Genel Bakış** adlı birinci sayfasını görebilirsiniz (sekmeyi görüntünün altında görebilirsiniz). 
 
-![Örnek Power BI Desktop raporu](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Genel Bakış sekmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 ## <a name="share-reports"></a>Rapor paylaşma
 
@@ -114,7 +114,7 @@ Power BI Desktop raporunu yayımlamak için:
 
 1. **Giriş** şeridinde **Yayımla**'yı seçin.
 
-   ![Power BI Desktop'tan rapor yayımlama](media/desktop-what-is-desktop/what-is-desktop_06.png)
+   ![Yayımla düğmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-what-is-desktop/what-is-desktop_06.png)
 
    Power BI Desktop, Power BI hesabınızı kullanarak sizi Power BI hizmetine bağlar. 
 

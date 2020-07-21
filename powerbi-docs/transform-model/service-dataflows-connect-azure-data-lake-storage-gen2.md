@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354766"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385964"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
 
@@ -46,6 +46,7 @@ Azure Data Lake Storage 2. Nesil hesabıyla Power BI’ı yapılandırabilmeniz 
 2. Depolama hesabı, Power BI kiracınızla aynı AAD kiracısında oluşturulmalıdır.
 3. Depolama hesabı, Power BI kiracınızla aynı bölgede oluşturulmalıdır. Power BI kiracınızın bulunduğu yeri belirlemek için [Power BI kiracım nerede bulunur?](../admin/service-admin-where-is-my-tenant-located.md) makalesine bakın.
 4. Depolama hesabı için *Hiyerarşik Ad Alanı* özelliği etkinleştirilmiş olmalıdır.
+5. Depolama hesabı geçerli kullanıcı tarafından oluşturulmadıysa lütfen geçerli kullanıcıya [Depolama Blob Verileri Sahibi](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) ve [sahip](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) izinlerinin atandığından emin olun. (Sahip, veri düzeyinde izne sahip olmadığından Blob Veri sahibi rolü gereklidir.)
 
 Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrıntılı şekilde yapılandırmak için gerekli adımlar açıklanmaktadır.
 

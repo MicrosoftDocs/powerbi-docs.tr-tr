@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278687"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214883"
 ---
 # <a name="referencing-power-query-queries"></a>Power Query sorgularına başvurma
 
@@ -23,13 +23,13 @@ Bunun anlamını netleştirelim: _Sorgu ikinci bir sorguya başvurduğunda, ikin
 
 Çeşitli sorguları düşünün: **Query1** veri kaynağı olarak bir web hizmetini kullanır ve yükü devre dışı bırakılır. **Query2**, **Query3** ve **Query4**'ün hepsi **Query1**'e başvurur ve çıkışları veri modeline yüklenir.
 
-![Önceki paragrafta açıklanan sorguların gösterildiği Sorgu Bağımlılıkları görünümü.](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![Önceki paragrafta açıklanan sorguların görüntülendiği Sorgu Bağımlılıkları görünümünü gösteren diyagram.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 Veri modeli yenilendiğinde genellikle Power Query'nin **Query1** sonucunu aldığı ve bunun başvurulan sorgular tarafından yeniden kullanıldığı varsayılır. Bu yanlış bir varsayımdır. Aslında Power Query **Query2**, **Query3** ve **Query4**'ü ayrı ayrı yürütür.
 
 **Query2**'nin içinde **Query1** adımlarının eklendiğini düşünebilirsiniz. **Query3** ve **Query4** için de aynı durum geçerlidir. Aşağıdaki diyagramda sorguların nasıl yürütüldüğü daha net gösterilmiştir.
 
-![Sorgu Bağımlılıkları görünümünün Query 2, Query 3 ve Query 4'ün gösterildiği değiştirilmiş sürümü. Üç sorgunun içine de Query 1 eklenmiştir.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Sorgu Bağımlılıkları görünümünün Query 2, Query 3 ve Query 4’ü görüntülediği değiştirilmiş sürümünü gösteren diyagram.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **Query1** üç kez yürütülür. Birden çok yürütme, veri yenilemenin yavaşlaması sonucunu verir ve veri kaynağını olumsuz etkiler.
 

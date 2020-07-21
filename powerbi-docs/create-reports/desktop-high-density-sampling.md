@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a41af59873aa8e0504e7ee808a2e87dba1af1121
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324644"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262879"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI'da yüksek yoğunluklu çizgi örnekleme
 **Power BI Desktop**'ın Haziran 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmeler itibarıyla, yüksek yoğunluklu verileri örnekleyen görselleri geliştiren yeni bir örnekleme algoritması kullanıma sunulmuştur. Örneğin, perakende mağazalarınızın satış sonuçlarından oluşan ve her mağazanın yılda on binden fazla satış makbuzuna sahip olduğu bir çizgi grafik oluşturabilirsiniz. Bu tür satış bilgilerini içeren bir çizgi grafik, her mağaza için alınan verileri (satışların zamana göre nasıl değiştiğini göstermek için ilgili verilerin anlamlı bir temsilini seçin) örnekler ve temel alınan verileri temsil eden çok serili bir çizgi grafik oluşturur. Bu, yüksek yoğunluklu verileri görselleştirmede sık kullanılan bir yöntemdir. Power BI Desktop, ayrıntıları bu makalede açıklanan yüksek yoğunluklu veri örnekleme özelliğini geliştirmiştir.
 
-![](media/desktop-high-density-sampling/high-density-sampling_01.png)
+![Yüksek yoğunluklu örnekleme verilerini gösteren çizgi grafiklerinin ekran görüntüsü.](media/desktop-high-density-sampling/high-density-sampling_01.png)
 
 > [!NOTE]
 > Bu makalede tanımlanan **Yüksek Yoğunluklu Örnekleme** algoritması, hem **Power BI Desktop** hem de **Power BI hizmeti** ile kullanılabilir.
@@ -77,7 +77,7 @@ Araç ipuçlarıyla ilgili olarak bu durum sıklıkla gerçekleşir. Belirli bir
 ## <a name="how-to-turn-on-high-density-line-sampling"></a>Yüksek yoğunluklu çizgi örnekleme nasıl etkinleştirilir?
 Varsayılan olarak, yeni algoritma **açık** ayarındadır. Bu ayarı değiştirmek için **Biçimlendirme** bölmesindeki **Genel** kartının alt kısmında bulunan **Yüksek Yoğunluklu Örnekleme** kaydırıcısını kullanabilirsiniz. Devre dışı bırakmak için kaydırıcıyı **Kapalı** duruma getirin.
 
-![](media/desktop-high-density-sampling/high-density-sampling_02.png)
+![İşaretçilerin Biçimlendirme, Genel ve Yüksek Yoğunluklu Örnekleme’yi gösterdiği, yüksek yoğunluklu çizgi örneklemesinin ekran görüntüsü.](media/desktop-high-density-sampling/high-density-sampling_02.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 Yüksek yoğunluklu çizgi örnekleme için yeni algoritma, Power BI için önemli bir gelişmedir. Bununla birlikte, yüksek yoğunluklu değerler ve verilerle çalışırken göz önünde bulundurmanız gereken bazı önemli noktalar vardır.

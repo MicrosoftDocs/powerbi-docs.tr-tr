@@ -9,23 +9,23 @@ ms.topic: how-to
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f121d4fb4e60fc29ef887d27c148aa3063dcee82
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223682"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216383"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanarak SAP HANA veri kaynaklarına bağlanma
 **DirectQuery** kullanarak **SAP HANA** veri kaynaklarına doğrudan bağlanabilirsiniz. SAP HANA’ya bağlanmak için kullanabileceğiniz iki seçenek vardır:
 
-* **SAP HANA’ya çok boyutlu bir kaynak olarak davran (varsayılan):** Bu durumdaki davranış, Power BI SAP Business Warehouse veya Analysis Services gibi diğer çok boyutlu kaynaklara bağlanmaya benzer. Bu ayar kullanılarak SAP HANA’ya bağlanılırken tek bir analiz veya hesaplama görünümü seçilir ve bu görünümün tüm ölçüleri, hiyerarşileri ve öznitelikleri alan listesinde sunulur. Görseller oluşturulurken toplu veriler her zaman SAP HANA’dan alınır. Bu, önerilen yaklaşımdır ve SAP HANA üzerinden yeni DirectQuery raporları için varsayılandır.
+* **SAP HANA’ya çok boyutlu bir kaynak olarak davranma (varsayılan):**  Bu durumdaki davranış, Power BI SAP Business Warehouse veya Analysis Services gibi diğer çok boyutlu kaynaklara bağlanmaya benzer. Bu ayar kullanılarak SAP HANA’ya bağlanılırken tek bir analiz veya hesaplama görünümü seçilir ve bu görünümün tüm ölçüleri, hiyerarşileri ve öznitelikleri alan listesinde sunulur. Görseller oluşturulurken toplu veriler her zaman SAP HANA’dan alınır. Bu, önerilen yaklaşımdır ve SAP HANA üzerinden yeni DirectQuery raporları için varsayılandır.
 
-* **SAP HANA’ya bir ilişkisel kaynak olarak davran:** Bu durumda Power BI, SAP HANA’yı ilişkisel bir kaynak olarak kabul eder. Bu özellik, daha fazla esneklik sunar. Ölçümlerin beklendiği gibi toplandığından emin olmak ve performans sorunlarından kaçınmak için bu yaklaşımda dikkatli olunması gerekir.
+* **SAP HANA’ya bir ilişkisel kaynak olarak davranma:** Bu durumda, Power BI SAP HANA’yı ilişkisel bir kaynak olarak kabul eder. Bu özellik, daha fazla esneklik sunar. Ölçümlerin beklendiği gibi toplandığından emin olmak ve performans sorunlarından kaçınmak için bu yaklaşımda dikkatli olunması gerekir.
 
 Bağlantı yaklaşımı genel bir araç seçeneği tarafından belirlenir ve bu seçenek, aşağıdaki resimde gösterildiği gibi **Dosya > Seçenekler ve ayarlar** seçilip **Seçenekler > DirectQuery** seçildikten sonra **SAP HANA’ya bir ilişkisel kaynak olarak davran** seçeneği belirlenerek ayarlanır. 
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
+![DirectQuery seçeneklerini gösteren Seçenekler iletişim kutusunun ekran görüntüsü.](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
 SAP HANA’ya bir ilişkisel kaynak olarak davranma seçeneği, SAP HANA üzerinden DirectQuery kullanılarak oluşturulan tüm *yeni* raporlar için kullanılan yaklaşımı belirler. Bunun, geçerli rapordaki hiçbir mevcut SAP HANA bağlantısı üzerinde ya da diğer açık raporlardaki bağlantılar üzerinde etkisi yoktur. Bu nedenle, o sırada seçenek işaretli değilse **Veri Al** kullanılarak SAP HANA’ya yeni bir bağlantı eklendiğinde bu bağlantının SAP HANA’yı çok boyutlu bir kaynak olarak kabul etmesi sağlanır. Ancak, aynı zamanda SAP HANA’ya bağlanan farklı bir rapor açılırsa, bu rapor *raporun oluşturulması sırasında* ayarlanan seçeneğe uygun olarak davranmaya devam eder. Diğer bir deyişle, SAP HANA’ya bağlanan ve Şubat 2018’den oluşturulmuş tüm raporlar SAP HANA’ya ilişkisel bir kaynak olarak davranmaya devam edecektir. 
 
@@ -63,17 +63,17 @@ SAP HANA’dan her zaman doğru toplama verilerinin alınabilmesini sağlama ger
 
 DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak olarak davranma) geçerli olan birincil ek modelleme kısıtlamaları şunlardır: 
 
-* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışıdır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
-* **Ölçüler için ek sınırlamalar:** Ölçülerde kullanılabilen DAX ifadelerinde, SAP HANA tarafından sunulan destek düzeyini yansıtan ek sınırlamalar söz konusudur.
-* **İlişki tanımlama desteği yoktur:** Bir raporun içinde yalnızca tek bir görünüm sorgulanabilir ve bu nedenle ilişki tanımlama desteklenmez.
+* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışı bırakılmıştır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
+* **Ölçüler için ek sınırlamalar:** Ölçülerde kullanılan DAX ifadelerinde, SAP HANA tarafından sunulan destek düzeyini yansıtan ek sınırlamalar söz konusudur.
+* **İlişki tanımlama desteklenmez:** Bir raporun içinde tek bir görünüm sorgulanabilir ve bu nedenle ilişki tanımlama desteklenmez.
 * **Veri Görünümü yoktur:** **Veri Görünümü** normalde tabloda ayrıntı düzeyindeki verileri gösterir. SAP HANA gibi OLAP kaynakların yapısı gereği bu görünüm, SAP HANA üzerinden kullanılamaz.
-* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görülebilen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir (ancak yeniden adlandırmak mümkündür).
-* **DAX'taki ek sınırlamalar:** Ölçü tanımlamalarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinden toplama işlevini kullanmak mümkün değildir.
+* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görünen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir (ancak yeniden adlandırmak mümkündür).
+* **DAX'taki ek sınırlamalar:** Ölçü tanımlarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinden toplama işlevini kullanmak mümkün değildir.
 
 ### <a name="additional-visualization-restrictions"></a>Görselleştirmelere ilişkin ek kısıtlamalar
 
 DirectQuery kullanılarak SAP HANA’ya bağlanılırken (çok boyutlu kaynak olarak davranma) görsellerde kısıtlamalar söz konusudur: 
-* **Sütunlarda toplama yoktur:** Bir görseldeki sütun için toplamayı değiştirmek mümkün değildir ve toplama her zaman *Özetleme* şeklindedir.
+* **Sütunlarda toplama yoktur:** Görseldeki sütun için toplamayı değiştirmek mümkün değildir ve her zaman *Özetleme* şeklindedir.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA’ya bir ilişkisel kaynak olarak davranma 
 
@@ -84,7 +84,7 @@ SAP HANA’ya ilişkisel bir kaynak olarak bağlanma seçilirken bazı ek esnekl
 
 **Veri Al** veya **Soru Düzenleyicisi**'nde tanımlanan sorgu ile bir toplama işlemi gerçekleştirirken SQL Server gibi bir ilişkisel kaynağın davranışını açıklayarak işe başlamakta fayda vardır. Sonraki örnekte, **Sorgu Düzenleyicisi**'nde tanımlanan bir sorgu, *ProductID*'ye göre ortalama fiyat sonucunu döndürmektedir.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
+![Ürün Kimliğine göre ortalama fiyatı döndüren, Sorgu Düzenleyicisi’nde tanımlı bir sorguyu gösteren ekran görüntüsü.](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
 
 Veri Power BI'a aktarılıyorsa (DirectQuery kullanmak yerine) aşağıdaki sonuç elde edilir:
 
@@ -110,9 +110,9 @@ Tüm bu dikkat gerektiren noktalar ve davranışlar, SAP HANA üzerinden DirectQ
 
 * **Veri Al** veya **Sorgu Düzenleyicisi**’nde, gerekli verileri almak için yalnızca gerekli sütunlar dahil edilmelidir. Bu durumda, sonuç bir sorgu olacaktır ve bu sorgu, SAP HANA’ya gönderilebilecek makul bir sorgu olmalıdır. Örneğin, sonraki görsellerde gerekli olabileceği düşünülerek düzinelerce sütun seçilirse DirectQuery için bile basit bir görselde, alt seçimde kullanılan toplama sorgusunun düzinelerce sorgu içereceği ve bu durumda genellikle düşük bir performans göstereceği anlamına gelir.
   
-Bir örneğe göz atalım. Aşağıdaki örnekte gösterildiği gibi, **Veri Al** iletişim kutusunda **OrderQuantity** ölçüsüyle birlikte beş sütun (**CalendarQuarter**, **Color**, **LastName**, **ProductLine**, *SalesOrderNumber*) seçilmesi, daha sonra Min OrderQuantity’yi içeren basit bir görsel oluşturulduğunda SAP HANA’ya aşağıdaki SQL sorgusunun gönderilmesine neden olur. Gölgeli öğe alt seçimdir ve **Veri Al** / **Sorgu Düzenleyicisi**'nden yapılan sorguyu içerir. Bu alt seçim yüksek bir kardinalite sonucu verirse elde edilen SAP HANA performansı büyük olasılıkla düşük olacaktır.  
+Bir örneğe göz atalım. Aşağıdaki örnekte gösterildiği gibi, **Veri Al** iletişim kutusunda *OrderQuantity* ölçüsüyle birlikte beş sütun (**CalendarQuarter**, **Color**, **LastName**, **ProductLine**, **SalesOrderNumber**) seçilmesi, daha sonra Min OrderQuantity’yi içeren basit bir görsel oluşturulduğunda SAP HANA’ya aşağıdaki SQL sorgusunun gönderilmesine neden olur. Gölgeli öğe alt seçimdir ve **Veri Al** / **Sorgu Düzenleyicisi**'nden yapılan sorguyu içerir. Bu alt seçim yüksek bir kardinalite sonucu verirse elde edilen SAP HANA performansı büyük olasılıkla düşük olacaktır.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
+![SAP HANA’ya gönderilen SQL sorgusunu gösteren bir sorgu örneğinin ekran görüntüsü.](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
    
 Bu davranış nedeniyle, **Veri Al** veya **Sorgu Düzenleyicisi**’nde seçilen öğelerin gerekli öğelerle sınırlı tutulması önerilir. Bu durumda yine SAP HANA için makul bir sorgu elde edilecektir.  
@@ -148,4 +148,4 @@ DirectQuery hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 * [Power BI'da DirectQuery](desktop-directquery-about.md)
 * [DirectQuery tarafından desteklenen veri kaynakları](power-bi-data-sources.md)
 * [DirectQuery ve SAP BW](desktop-directquery-sap-bw.md)
-* [Şirket içi veri ağ geçidi](service-gateway-onprem.md)
+* [On-premises data gateway (Şirket içi veri ağ geçidi)](service-gateway-onprem.md)

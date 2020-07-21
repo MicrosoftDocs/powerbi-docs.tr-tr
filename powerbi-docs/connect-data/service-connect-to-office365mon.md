@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229900"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216242"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI ile Office365Mon'a bağlanma
 Office 365 ile ilgili hizmet kesintilerinizi ve sistem durumuna ilişkin performans verilerinizi Power BI ve Office365Mon şablon uygulamasıyla kolayca analiz edebilirsiniz. Power BI, hizmet kesintileri ve sistem durumu araştırmalarının yer aldığı verilerinizi alır ve ardından kullanıma hazır bir pano ve bu verilere dayalı raporlar oluşturur.
@@ -27,23 +27,23 @@ Power BI için [Office365Mon şablon uygulamasına](https://msit.powerbi.com/gro
 ## <a name="how-to-connect"></a>Bağlanma
 1. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![Gezinti bölmesinde görüntülenen Veri Al düğmesinin ekran görüntüsü.](media/service-connect-to-office365mon/pbi_getdata.png)
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![Al düğmesini gösteren Hizmetler iletişim kutusunun ekran görüntüsü.](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. **Office365Mon** \> **Al**’ı seçin.
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![Al bağlantısını gösteren Office365Mon iletişim kutusunun ekran görüntüsü.](media/service-connect-to-office365mon/o365mon.png)
 4. Kimlik Doğrulama Yöntemi için **oAuth2** \> **Oturum Aç**'ı seçin.
    
    İstendiğinde Office365Mon yönetici kimlik bilgilerinizi girin ve kimlik doğrulama işlemini gerçekleştirin.
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![Kimlik Doğrulama Yöntemi alanında OAuth2’yi gösteren Office365Mon’a Bağlan iletişim kutusunun ekran görüntüsü.](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![Kimlik bilgilerini isteyen Office365Mon oturum açma ekranının görüntüsü.](media/service-connect-to-office365mon/creds2.png)
 5. Veriler Power BI tarafından içeri aktarıldıktan sonra gezinti bölmesinde yeni bir pano, rapor ve veri kümesi görürsünüz. Yeni öğeler sarı bir yıldız işaretiyle \* gösterilir, Office365Mon girişini seçin.
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![Pano, rapor ve veri kümelerini gösteren, Power BI’daki gezinti bölmesinin ekran görüntüsü.](media/service-connect-to-office365mon/dashboard4.png)
 
 **Sırada ne var?**
 

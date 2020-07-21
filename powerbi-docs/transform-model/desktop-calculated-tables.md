@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237893"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214301"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop'ta hesaplanan tablo oluşturma
 Tablo oluşturmak için çoğu zaman modelinize dışarıdaki veri kaynaklarından veri aktarırsınız. Ancak *hesaplanan tablolar* sayesinde modele önceden yüklediğini verileri kullanarak yeni tablolar ekleyebilirsiniz. Bir veri kaynağından yeni tablonuzun sütunlarına değer sorgulamak ve yüklemek yerine tablonun değerlerini tanımlayan bir [Veri Çözümleme İfadeleri (DAX)](/dax/index) formülü oluşturursunuz.
@@ -31,11 +31,11 @@ Hesaplanan tablo oluşturmak için Power BI Desktop'ta Rapor Görünümü veya V
 
 **Northwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Kuzeybatı Çalışanlarının tablosal verilerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **Southwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Güneybatı Çalışanlarının tablosal verilerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-calculated-tables/calctables_swempl.png)
 
 Power BI Desktop'ın Rapor Görünümü veya Veri Görünümü düzeninde, **Modelleme** sekmesinin **Hesaplamalar** grubunda **Yeni Tablo**'yu seçin. Yeni hesaplanan tablonuzu anında görebileceğiniz için bu işlemi Veri Görünümü düzeninde yapmak daha kolaydır.
 

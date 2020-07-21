@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75623073"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214924"
 ---
 # <a name="disable-power-query-background-refresh"></a>Power Query arka plan yenilemesini devre dışı bırakma
 
@@ -28,19 +28,19 @@ Varsayılan olarak Power Query verileri içeri aktardığında ayrıca her sorgu
 
 Power BI Desktop dosyasını önizleme önbelleğinin _arka planda_ güncelleştirileceği şekilde ayarlayarak yenilemeyi hızlandırabilirsiniz. Power BI Desktop'ta _Dosya > Seçenekler ve ayarlar > Seçenekler_'i ve sonra da _Veri Yükleme_ sayfasını seçerek bunu etkinleştirirsiniz. Ardından **Veri önizlemesinin arka plana indirilmesine izin verme** seçeneğini açabilirsiniz. Bu seçeneğin yalnızca geçerli dosya için ayarlanabileceğine dikkat edin.
 
-![Power BI Desktop arka plan verileri seçenekleri](media/power-query-background-refresh/power-query-options-background-data.png)
+![Arka plan veri seçeneklerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/power-query-background-refresh/power-query-options-background-data.png)
 
 Arka planda yenileme etkinleştirildiğinde, sonuçta önizleme verilerinin süresi dolabilir. Böyle bir durumda Power Query Düzenleyicisi size aşağıdaki uyarıyı bildirir:
 
-![Power Query Düzenleyicisi'nin eski önizleme verileri hakkındaki uyarısı](media/power-query-background-refresh/power-query-preview-data-old.png)
+![Power Query Düzenleyicisi’nin eski önizleme verileri hakkındaki uyarısını gösteren Power BI Desktop’ın ekran görüntüsü.](media/power-query-background-refresh/power-query-preview-data-old.png)
 
 Önizleme önbelleğini güncelleştirmek her zaman mümkündür. **Önizlemeyi Yenile** komutu kullanarak bunu tek sorgu için veya tüm sorgular için güncelleştirebilirsiniz. Bunu Power Query Düzenleyicisi penceresinin **Giriş** şeridinde bulabilirsiniz.
 
-![Önizleme verilerini yenilemeye yönelik Power Query Düzenleyicisi komutları](media/power-query-background-refresh/power-query-refresh-preview-data.png)
+![Önizleme verilerini yenilemeye yönelik Power Query Düzenleyicisi komutlarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Power Query Belgeleri](/power-query/)
-- Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

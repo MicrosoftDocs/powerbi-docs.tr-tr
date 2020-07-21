@@ -10,11 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782402"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161733"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -144,7 +145,7 @@ Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle
 
 2. **Power BI etkinlikleri**'ni seçin.
 
-   ![Power BI etkinliklerinin öne çıkarıldığı Denetim günlüğü araması ekran görüntüsü.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Power BI etkinliklerinin vurgulandığı Denetim günlüğü aramasının ekran görüntüsü.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Dışındaki herhangi bir alanı seçerek seçim kutusunu kapatın.
 
@@ -156,13 +157,13 @@ Aramalarınız yalnızca Power BI etkinliklerini döndürür.
 
 Seçilen tarih aralığı 90 günden fazlaysa bir hata alırsınız. 90 gün olan maksimum tarih aralığını kullanıyorsanız **Başlangıç tarihi** için içinde bulunduğunuz saati seçin. Bunu yapmamanız halinde başlangıç tarihinin bitiş tarihinden daha erken olduğunu belirten bir hata alırsınız. Denetimi son 90 gün içinde etkinleştirdiyseniz tarih aralığının başlangıç tarihi, denetimin etkinleştirildiği tarihten önceki bir gün olamaz.
 
-![Başlangıç Tarihi ve Bitiş Tarihi seçenekleri öne çıkarılan Denetim günlüğü araması ekran görüntüsü.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Başlangıç Tarihi ve Bitiş Tarihi seçeneklerinin vurgulandığı Denetim günlüğü aramasının ekran görüntüsü.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Denetim günlüklerinde kullanıcılara göre arama yapma
 
 Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli kullanıcılara göre arama yapabilirsiniz. **Kullanıcılar** alanına bir veya daha fazla kullanıcı adı girin. Kullanıcı adı bir e-posta adresine benzer. Bu, kullanıcıların Power BI’da oturum açtığı hesaptır. Kuruluşunuzdaki tüm kullanıcılara (ve hizmet hesaplarına) ait girişleri döndürmek için bu kutuyu boş bırakın.
 
-![Kullanıcılara göre arama](media/service-admin-auditing/search-audit-log-by-user.png)
+![Kullanıcıların vurgulandığı Denetim günlüğü aramasının ekran görüntüsü.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 
@@ -197,7 +198,7 @@ Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için
 
 1. **Yüklenen sonuçları kaydet**'i veya **Tüm sonuçları indir**'i seçin.
 
-    ![Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
+    ![Tüm sonuçları indir seçeneğinin vurgulandığı, Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Denetim günlüklerinde arama yapmak için PowerShell'i kullanma
 

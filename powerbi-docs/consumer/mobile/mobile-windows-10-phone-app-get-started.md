@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240412"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263305"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, Power BI’ı tabletinize veya telefonunuza getirir. İş bilgilerinize güncel, dokunmatik özellikli mobil erişim elde edersiniz. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyip etkileşime geçin.
@@ -67,12 +67,12 @@ Power BI pano örneklerini görüntüleyebilir ve bunlarla etkileşimde bulunabi
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services mobil rapor örnekleri
 1. Sol üst köşede bulunan genel gezinti düğmesine ![genel gezinti düğmesi](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) dokunun.
-2. **Ayarlar** simgesine ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) dokunun, **Sunucuya bağlan** seçeneğine sağ tıklayın veya bu seçeneği basılı tutun, ardından **Örnekleri görüntüle**'ye dokunun.
+2. **Ayarlar** simgesine ![Ayarlar simgesi](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png) dokunun, **Sunucuya bağlan** seçeneğine sağ tıklayın veya bu seçeneği basılı tutun, ardından **Örnekleri görüntüle**'ye dokunun.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![Bir sunucuya bağlanmak için ayarlardaki işaretçi simgesini gösteren Ayarlar ekranının görüntüsü.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Retail Reports veya Sales Reports klasörünü açarak ilgili KPI'leri ve mobil raporları keşfedin.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![KPI’ı ve mobil raporları gösteren bir raporun ekran görüntüsü.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>Pano, rapor ve uygulama arama
 Her zaman uygulamanın en üstünde yer alan arama kutusunu kullanarak panolarınızı, raporlarınızı ve uygulamalarınızı hızlıca bulabilirsiniz.

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: bd671e32167837a5b8b96388bb2687616e6cada5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228570"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214255"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
 
@@ -48,40 +48,38 @@ Veri depolama alanınızda kendi veri kümelerinizin ve Excel raporlarınızın 
 
 Paylaştığınız panoların boyutları, bu panolara sabitlenmiş öğelere göre değişir. Örneğin, iki farklı veri kümesine ait olan iki rapordaki öğeleri sabitlerseniz dosya boyutu iki veri kümesini de içerecektir.
 
-<a name="manage"/>
-
 ## <a name="manage-items-you-own"></a>Size ait olan öğeleri yönetme
 
 Power BI hesabınızda kullandığınız depolama alanı miktarını görün ve hesabınızı yönetin.
 
 1. Kendi depolama alanınızı yönetmek için gezinti bölmesinde **Çalışma Alanım** sayfasına gidin.
    
-    ![Çalışma Alanım](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+    ![Çalışma Alanımın vurgulandığı gezinti bölmesinin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. Sağ üst köşedeki dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \> **Kişisel depolama alanını yönet**'i seçin.
+2. Sağ üst köşedeki dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından **Kişisel depolama alanını yönet**’i seçin.
    
     Üst taraftaki çubukta, depolama alanınızın ne kadarını kullandığınız gösterilir.
    
-    ![Depolama sınırını yönetme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Kullanılan depolama alanı miktarını gösteren Depolama sınırını yönetme seçeneğinin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     Veri kümeleri ve raporlar iki sekmeye ayrılmıştır:
    
     **Bana ait:** Bunlar, Salesforce ve Dynamics CRM gibi hizmet veri kümeleri de dahil olmak üzere Power BI hesabınıza sizin yüklediğiniz raporlar ve veri kümeleridir.  
 
     **Diğerlerine ait:** Başkalarının sizinle paylaştığı raporlar ve veri kümeleridir.
-1. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+1. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![Çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağlı olabileceğini unutmayın. İlgili veri kümesini silerseniz bağlı raporlar ve panolar artık çalışmaz.
 
 ## <a name="manage-your-workspace"></a>Çalışma alanınızı yönetme
-1. **Çalışma Alanları**’nın \> yanındaki oku ve ardından çalışma alanının adını seçin.
+1. **Çalışma Alanları**’nın yanındaki oku ve ardından çalışma alanının adını seçin.
    
-    ![Çalışma alanı seçme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Sağ üst köşedeki dişli simgesini ![dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından \> **Grup depolama alanını yönet**’i seçin.
+    ![Satış Grubu çalışma alanını gösteren Çalışma Alanı seçiminin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Sağ üst köşedeki ![Dişli simgesini](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) ve ardından **Grup depolama alanını yönet**’i seçin.
    
     Üst taraftaki çubukta, grup depolama alanınızın ne kadarının kullanıldığı gösterilir.
    
-    ![Çalışma alanı depolama alanlarını yönetme](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Satış Grubu’nun depolama alanı sınırı dahilinde kullanılan miktarı gösteren Depolama alanını yönetme seçeneğinin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Veri kümeleri ve raporlar iki sekmeye ayrılmıştır:
    
@@ -89,7 +87,7 @@ Size veya başkalarına ait bazı rapor veya panoların bir veri kümesine bağl
 
     **Diğerlerine ait:** Başkalarının grubunuzla paylaştığı raporlar ve veri kümeleridir.
 
-3. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. Bir veri kümesini veya raporu silmek için çöp kutusu simgesini seçin ![Çöp kutusu simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Size veya gruptaki diğer kullanıcılara ait bazı rapor veya panoların bir veri kümesine bağlı olabileceğini unutmayın. İlgili veri kümesini silerseniz bağlı raporlar ve panolar artık çalışmaz.
@@ -102,17 +100,17 @@ Power BI'a aktarılan her veri kümesi için 1 GB'lık bir sınır söz konusudu
 ## <a name="what-happens-when-you-reach-a-limit"></a>Sınıra ulaştığınızda ne olur?
 Herhangi bir alandaki kapasite sınırına ulaştığınızda hizmet içinde uyarılar görürsünüz. 
 
-Dişli simgesini ![dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)seçtiğinizde, veri kapasitesi sınırınızı aştığınızı belirten bir kırmızı çubuk görürsünüz.
+Dişli simgesini ![Dişli simgesi](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)seçtiğinizde, veri kapasitesi sınırınızı aştığınızı belirten bir kırmızı çubuk görürsünüz.
 
-![Depolama sınırına ulaşıldı](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Sınıra ulaşıldığını gösteren depolama kapasitesinin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 Bu sınır, **Kişisel depolama alanını yönet** bölümünde de belirtilir.
 
- ![Kişisel depolama alanını yönet, depolama sınırına ulaşıldı](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Jane’in sınırına ulaşıldığını gösteren kişisel depolama kapasitesinin ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
- Sınırlardan birine ulaşılmasına neden olacak bir eylem gerçekleştirmeye çalıştığınızda sınırı aştığınızı belirten bir ileti görürsünüz. Depoladığınız veri miktarını azaltmak ve sınır sorununu ortadan kaldırmak için depolama alanınızı [yönetebilirsiniz](#manage).
+ Sınırlardan birine ulaşılmasına neden olacak bir eylem gerçekleştirmeye çalıştığınızda sınırı aştığınızı belirten bir ileti görürsünüz. Depoladığınız veri miktarını azaltmak ve sınır sorununu ortadan kaldırmak için depolama alanınızı [yönetebilirsiniz](#manage-items-you-own).
 
- ![Depolama sınırınızın üzerinde](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Sınırlara ulaşıldığını gösteren, depolama sınırınızın üzerinde iletişim kutusunun ekran görüntüsü.](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ## <a name="next-steps"></a>Sonraki adımlar
 

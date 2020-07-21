@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273911"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216724"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Kiracı yöneticisi ayarları rehberi
 
@@ -41,7 +41,7 @@ Bu URL’ler, Power BI yardım menüsünde bağlantı olarak kullanıma sunulur.
 > [!NOTE]
 > **Lisanslama istekleri** URL’sinin sağlanması, bireysel kullanıcıların 60 günlük ücretsiz Power BI Pro deneme sürümüne kaydolmasını engeller. Bunun yerine, kullanıcılar Power BI Ücretsiz veya Pro için lisans alma bilgilerini içeren iç sitenize yönlendirilir.
 
-![“‘Yardım alın’ bilgilerini yayımla” ayarı gösterilir.](media/admin-tenant-settings/publish-get-help-information.png)
+![Yardım ve Destek ayarlarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>Riski yönetin
 Riskleri yönetme ayarları, Power BI kiracınızda idare ilkeleri oluşturmanıza yardımcı olabilir. Ancak, idare ayarlarının bir güvenlik ölçümü olmadığını unutmayın. Örneğin, **Verileri dışarı aktar** ayarını devre dışı bırakmak, özelliği Power BI kullanıcı arabiriminden kaldırır ve bu şekilde Power BI kullanıcılarının kuruluşunuzun idare ilkeleriyle uyumlu bir şekilde çalışmasına yardımcı olur, ancak belirli kullanıcıların diğer seçenekleri kullanarak dışarı veri aktarmalarını önlemez. Güvenlik açısından, bir veri kümesine ilişkin okuma iznine sahip bir Power BI kullanıcısı bu veri kümesini sorgulama iznine sahiptir ve Power BI kullanıcı arabiriminde kullanılabilir özelliklerden bağımsız olarak sonuçları kalıcı hale getirebilir.
@@ -51,7 +51,7 @@ Kiracınız hizmet kesintisinden veya olaydan etkileniyorsa e-posta yoluyla bild
 
 **Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder** ayarını etkinleştirmenizi öneririz. Bu ayar **Yardım ve destek ayarları** grubunda bulunur. Bir veya daha fazla _Posta etkin_ güvenlik grubu atayın.
 
-![“Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder” ayarı gösterilir.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
+![“Hizmet kesintileri veya olaylar için e-posta bildirimleri gönder” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/receive-email-notifications-for-service-outages-or-incidents.png)
 
 ### <a name="information-protection"></a>Bilgi koruması
 
@@ -74,7 +74,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara çalışm
 
 Çalışma alanı oluşturma hakları olmayan kullanıcılara yeni bir çalışma alanı istemeyi öğreten yönergeleri belgelerinize eklemeyi unutmayın.
 
-![“Çalışma alanları oluştur” ayarı gösterilir.](media/admin-tenant-settings/create-workspaces.png)
+![“Çalışma alanı oluştur” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/create-workspaces.png)
 
 ### <a name="share-content-with-external-users"></a>Dış kullanıcılarla içerik paylaşma
 
@@ -84,7 +84,7 @@ Kullanıcılar, raporları ve panoları kuruluşunuzun dışındaki kişilerle p
 
 Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara dış kullanıcılarla içerik paylaşma izni atanabilir veya _izin reddedilebilir_.
 
-![“Dış kullanıcılarla içerik paylaş” ayarı gösterilir.](media/admin-tenant-settings/share-content-with-external-users.png)
+![“Dış kullanıcılarla içerik paylaşma” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/share-content-with-external-users.png)
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
@@ -96,7 +96,7 @@ Bu özellik etkinse, bir veya daha fazla güvenlik grubu atamanızı öneririz. 
 
 Ayrıca, ekleme kodlarınızın nasıl çalışacağını belirleme seçeneği de bulunur. Varsayılan olarak, **Yalnızca mevcut kodlara izin ver** olarak ayarlanır. Bu ayar, kullanıcılardan ekleme kodu oluşturmak için Power BI yöneticisine ulaşmalarının isteneceğini belirtir.
 
-![“Web’de yayımla” ayarı gösterilir.](media/admin-tenant-settings/publish-to-web.png)
+![“Web’de yayımlama” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/publish-to-web.png)
 
 [Web’de yayımla ekleme kodlarını](https://app.powerbi.com/admin-portal/embedCodes) düzenli olarak gözden geçirmenizi de öneririz. Özel veya gizli bilgilerin yayımlanması durumunda, buna sebep olan kodları kaldırın.
 
@@ -111,7 +111,7 @@ Bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yay
 > [!IMPORTANT]
 > Bu ayarın devre dışı bırakılması, [Excel’de Çözümle](../collaborate-share/service-analyze-in-excel.md) ve Power BI hizmeti [canlı bağlantı](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) özelliklerinin kullanımını da kısıtlar.
 
-![“Verileri dışarı aktar” ayarı gösterilir.](media/admin-tenant-settings/export-data.png)
+![“Verileri dışarı aktarma” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/export-data.png)
 
 > [!NOTE]
 > Kullanıcılar, diğer kullanıcıların verileri dışarı aktarmasına izin verirse, [veri koruması](../admin/service-security-data-protection-overview.md) uygulayarak koruma katmanı ekleyebilirsiniz. Bu yapılandırıldığında, duyarlılık etiketleri ile yetkisiz kullanıcıların içeriği dışarı aktarması engellenir.
@@ -124,7 +124,7 @@ Dış kullanıcılar Power BI içeriğini düzenleyebilir ve yönetebilir. Daha 
 
 Dış kullanıcılara içerik düzenleme ve yönetme yetkisi vermeniz gerekiyorsa, bir veya daha fazla güvenlik grubu atamanızı öneririz. Bu gruplara rapor yayımlama izni verilebilir _veya izin reddedilebilir_.
 
-![“Dış konuk kullanıcılara kuruluşta içerik düzenleme ve yönetme izni ver” ayarı gösterilir.](media/admin-tenant-settings/allow-external-guest-users.png)
+![“Dış konuk kullanıcıların kuruluştaki içeriği düzenleyip yönetmesine izin verme” ayarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/allow-external-guest-users.png)
 
 ### <a name="developer-settings"></a>Geliştirici ayarları
 
@@ -135,7 +135,7 @@ Dış kullanıcılara içerik düzenleme ve yönetme yetkisi vermeniz gerekiyors
 
 İçerik eklemek için geliştirici API’lerini kullanma amacınız yoksa, bunları devre dışı bırakmanızı öneririz. Ya da bu işlemi gerçekleştirecek belirli güvenlik grupları yapılandırabilirsiniz.
 
-![Geliştirici ayarları gösterilir.](media/admin-tenant-settings/developer-settings.png)
+![Geliştirici ayarlarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/developer-settings.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -145,4 +145,3 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Yönetim portalında Power BI’ı yönetme](../admin/service-admin-portal.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)
-

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224122"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214805"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop'ta bir Snowflake bilgi işlem ambarına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Snowflake** bilgi işlem ambarına bağlanabilir ve temel alınan verileri kullanabilirsiniz. 
@@ -22,15 +22,15 @@ Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI D
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Bir Snowflake bilgi işlem ambarına bağlanma
 Bir **Snowflake** bilgi işlem ambarına bağlanmak için Power BI Desktop'ın **Giriş** şeridindeki **Veri Al**'ı seçin. Soldaki kategorilerden **Veritabanı**'nı seçtiğinizde **Snowflake**'i görebilirsiniz.
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![Snowflake veritabanı seçimini gösteren Veri Al iletişim kutusunun ekran görüntüsü.](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 Açılan **Snowflake** penceresindeki kutuya Snowflake bilgi işlem ambarınızın adını girin veya yapıştırın ve **Tamam**'ı seçin. Ayrıca, **İçeri aktar** seçeneğini belirleyerek verileri doğrudan Power BI'a aktarmayı tercih edebilir veya **DirectQuery**'yi kullanabilirsiniz. [DirectQuery'yi kullanma](desktop-use-directquery.md) hakkında daha fazla bilgi edinebilirsiniz. AAD SSO'nun yalnızca DirectQuery desteğine sahip olduğunu lütfen unutmayın.
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![Radyoyu içeri aktar düğmesinin seçili olduğunu gösteren Snowflake iletişim kutusunun ekran görüntüsü.](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 İstendiğinde kullanıcı adınızı ve parolanızı girin.
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![Kullanıcı Adı ve Parola alanlarını gösteren Snowflake kimlik bilgileri isteminin ekran görüntüsü.](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > Belirli bir **Snowflake** sunucusu için kullanıcı adı ve parolanızı girdiğinizde Power BI Desktop, sonraki bağlantı denemelerinde de aynı kimlik bilgilerini kullanır. **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'na giderek bu kimlik bilgilerini değiştirebilirsiniz.

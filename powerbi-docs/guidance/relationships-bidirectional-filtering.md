@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273213"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215152"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Çift yönlü ilişki kılavuzu
 
@@ -40,7 +40,7 @@ Aşağıdaki iki özel model ilişkisi türünün oluşturulmasında çift yönl
 
 Çift yönlü ilişkiler öğeleri verilerin bulunduğu yerle sınırlayan dilimleyiciler sağlayabilir. (Excel PivotTable’larını ve dilimleyicilerini biliyorsanız, verilerin kaynağı bir Power BI veri kümesi veya Analysis Services modeli olduğunda varsayılan davranış budur.) Bunun anlamını açıklarken yardımcı olması için önce aşağıdaki model diyagramını düşünün.
 
-![Model diyagramı üç tablo içerir. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
+![Üç tablo içeren bir modeli gösteren diyagram. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
 
 İlk tablo **Customer** adlı tablodur ve üç sütunu vardır: **Country-Region**, **Customer** ve **CustomerCode**. İkinci tablo **Product** adlı tablodur ve üç sütunu vardır: **Color**, **Product** ve **SKU**. Üçüncü tablo **Sales** adlı tablodur ve dört sütunu vardır: **CustomerCode**, **OrderDate**, **Quantity** ve **SKU**. **Customer** ve **Product** tabloları boyut türünde tablolardır ve ikisinin de **Sales** tablosuyla birebir ilişkisi vardır. Her ilişki tek yönde filtreler.
 
@@ -49,7 +49,7 @@ Aşağıdaki iki özel model ilişkisi türünün oluşturulmasında çift yönl
 > [!NOTE]
 > Power BI Desktop model diyagramında tablo satırlarını görüntülemek mümkün değildir. Bu makalede açıklamayı net örneklerle desteklemek için yapılmıştır.
 
-![Model diyagramı şimdi tablo satırlarını ortaya koyar. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
+![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
 
 Üç tablonun satır ayrıntıları aşağıdaki madde işaretli listede açıklanır:
 
@@ -67,17 +67,17 @@ Aşağıdaki iki özel model ilişkisi türünün oluşturulmasında çift yönl
 
 Şimdi aşağıdaki rapor sayfasına bakın.
 
-![Rapor sayfasında üç görsel vardır. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
+![Üç görsel içeren rapor sayfasını gösteren diyagram. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
 
 Sayfa iki dilimleyiciden ve bir kart görselinden oluşur. İlk dilimleyici **Country-Region** içindir ve iki öğesi vardır: Australia ve United States. Şu anda Australia’ya göre dilimlemektedir. İkinci dilimleyici **Product** içindir ve üç öğesi vardır: Hat, Jeans ve T-shirt. Hiçbir öğe seçili değildir (diğer bir deyişle _hiçbir ürün_ filtrelenmemiştir). Kart görselinde 30 miktarı görüntülenir.
 
 Rapor kullanıcıları Australia’ya göre dilimlediğinde, **Product** dilimleyicisini verilerin Australia satışlarıyla _ilişkili_ olduğu öğeleri görüntüleyecek şekilde sınırlamak istersiniz. Dilimleyici öğelerini "verilerle birlikte" göstermenin anlamı budur. Bu davranışı elde etmek için **Product** ile **Sales** tabloları arasında her iki yönde filtreleme uygulayan ilişkiyi yapılandırabilirsiniz.
 
-![Model diyagramında Product ile Sales tabloları arasındaki ilişkinin artık çift yönlü olduğu gösterilir.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
+![Product ile Sales tabloları arasındaki ilişkinin çift yönlü olduğu bir modeli gösteren diyagram.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
 
 Şimdi **Product** dilimleyicisinde tek öğe listelenir: T-shirt. Bu öğe Avustralyalı (Australia) müşterilere satılan tek ürünü temsil eder.
 
-![Rapor sayfasında üç görsel vardır. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Üç görsel içeren rapor sayfasını gösteren diyagram. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 Önce bu tasarımın rapor kullanıcılarınıza uygun olup olmadığını dikkatle irdelemenizi öneririz. Bazı rapor kullanıcıları bu deneyimi kafa karıştırıcı bulabilir. Diğer dilimleyicilerle etkileşim kurduklarında dilimleyici öğelerinin neden dinamik olarak göründüğünü veya kaybolduğunu anlamayabilirler.
 
@@ -93,7 +93,7 @@ Total Quantity = SUM(Sales[Quantity])
 
 **Product** dilimleyicisi öğelerini "verilerle birlikte" göstermek için yalnızca "boş değil" koşulu uygulanarak **Total Quantity** ölçüsüne göre filtrelenmesi gerekir.
 
-![Product dilimleyicisinin Filtreler bölmesinde şimdi "Total Quantity is not blank" filtresi uygulanır.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
+![Product dilimleyicisinin Filtreler bölmesinde “Total Quantity is not blank” filtresinin uygulandığını gösteren diyagram.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
 
 ## <a name="dimension-to-dimension-analysis"></a>Boyutlar arası analiz
 
@@ -128,7 +128,7 @@ CALCULATE(
 
 Aşağıdaki tablo görseli satılan her ürünün istatistiklerini ortaya koyar. **Quantity** sütunu yalnızca miktar değerlerinin toplamıdır. **Different Countries Sold** sütunu, ürün satın almış olan tüm müşterilerin ülke-bölge değerlerinin ayrı ayrı sayımını temsil eder.
 
-![Bir tablo görselinde iki ürün listelenir. "Different Countries Sold" sütununda Jeans ürünü 1 ve T-shirt ürünü 2’dir.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
+![Tablo görselinde iki ürünün listelendiğini gösteren diyagram. "Different Countries Sold" sütununda Jeans ürünü 1 ve T-shirt ürünü 2’dir.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -141,4 +141,3 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [İlişki sorunlarını giderme kılavuzu](relationships-troubleshoot.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
-

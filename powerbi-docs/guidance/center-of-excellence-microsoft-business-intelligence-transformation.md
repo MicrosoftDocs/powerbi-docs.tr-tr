@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940370"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162379"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft’un BI dönüşümü
 
 Bu makale, BT uzmanlarına ve BT yöneticilerine yöneliktir. Verilerimizi varlık olarak kullanmamızı sağlayan iş zekası stratejimiz ve vizyonumuz hakkında bilgi edineceksiniz. Ayrıca Power BI ile iş konusunda karar almak için gerekli olan veri kültürünü sağlama konusunda başarıya nasıl ulaştığımızı öğreneceksiniz.
 
-Önce bazı arka plan bilgileri: Günümüzde yaşanan hızlı veri artışı, tüketicileri ve işletmeleri etkilemektedir. Yüksek veri yoğunluğunun yaşandığı bu ortamda başarılı olmak için çok miktarda veriyi kısa ve öz içgörülere dönüştürebilen analistlere ve yöneticilere ihtiyaç vardır. Microsoft'un iş zekası araçlarında yaşanan gelişmeler, Microsoft'un da kendi verilerini keşfetme ve şirketi etkileyecek doğru içgörülere ulaşma şeklini kökünden değiştirmiştir.
+Önce bazı arka plan bilgileri: Günümüzde yaşanan hızlı veri artışı, tüketicileri ve işletmeleri etkilemektedir. Yüksek veri yoğunluğunun yaşandığı bu ortamda başarılı olmak için çok miktarda veriyi kısa ve öz içgörülere dönüştürebilen analistlere ve yöneticilere ihtiyaç vardır. Microsoft’un iş zekası araçlarında yaşanan gelişmeler, Microsoft’un da kendi verilerini keşfetme ve şirketi etkileyecek doğru içgörülere ulaşma şeklini değiştirmiştir.
 
 Peki şirketinizin verilerle çalışma şeklini tamamen değiştirmek için siz neler yapabilirsiniz? Bunu anlamanıza yardımcı olmak için Microsoft'un iş zekası dönüşüm yolculuğuna bir göz atalım.
 

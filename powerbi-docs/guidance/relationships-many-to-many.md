@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532431"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216695"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 
@@ -35,20 +35,20 @@ Bu varlıkların modellenmesi basit bir işlemdir. Boyut türündeki bir tabloda
 
 Burada üç tablonun basitleştirilmiş bir model diyagramı verilmiştir.
 
-![Model diyagramı üç tablo içerir. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![Üç tablo içeren bir modeli gösteren diyagram. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 İlk tablo **Account** adlı tablodur ve iki sütun içerir: **AccountID** ve **Account**. İkinci tablo **AccountCustomer** adlı tablodur ve iki sütun içerir: **AccountID** ve **CustomerID**. Üçüncü tablo **Customer** adlı tablodur ve iki sütun içerir: **CustomerID** ve **Customer**. Tablolardan hiçbiri arasında ilişki yoktur.
 
 Tabloları ilişkilendirmek için iki tane bire çok ilişkisi eklenir. Burada ilişkili tabloların güncelleştirilmiş bir model diyagramı bulunur. **Transaction** adlı olgu türündeki tablo eklenmiştir. Hesap işlemlerini kaydeder. Köprü oluşturma tablosu ve tüm kimlik sütunları gizlenmiştir.
 
-![Model diyagramı şimdi dört tablo içerir. Tüm tabloları ilişkilendirmek için bire çok ilişkileri eklenmiştir.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![Modelin dört tablo içerdiğini gösteren diyagram. Tüm tabloları ilişkilendirmek için bire çok ilişkileri eklenmiştir.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 İlişki filtresi yayma işleminin çalışmasını açıklamaya yardımcı olmak için, model diyagramı tablo satırlarını ortaya koymak için değiştirilmiştir.
 
 > [!NOTE]
 > Power BI Desktop model diyagramında tablo satırlarını görüntülemek mümkün değildir. Bu makalede açıklamayı net örneklerle desteklemek için yapılmıştır.
 
-![Model diyagramı şimdi tablo satırlarını ortaya koyar. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 Dört tablonun satır ayrıntıları aşağıdaki madde işaretli listede açıklanır:
 
@@ -71,7 +71,7 @@ Model sorgulandığında neler olduğuna bakalım.
 
 Aşağıda **Transaction** tablosundaki **Amount** sütununu özetleyen iki görsel vardır. İlk görsel hesaba göre gruplandırır ve **Amount** sütunlarının toplamı _hesap bakiyesini_ temsil eder. İkinci görsel müşteriye göre gruplandırır ve **Amount** sütunlarının toplamı _müşteri bakiyesini_ temsil eder.
 
-![İki rapor görseli yan yana gösterilir. Görseller aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![Yan yana duran iki rapor görselini gösteren diyagram. Görseller aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 İlk görsel **Account Balance** başlığına sahiptir ve iki sütunu vardır: **Account** ve **Amount**. Aşağıdaki sonucu görüntüler:
 
@@ -91,9 +91,9 @@ Tablo satırlarına **Account Balance** görseline hızlı bir bakış her hesap
 
 İlişki filtresi yönlerini **Customer** tablosundan **Transaction** tablosuna kadar izleyin. **Account** ile **AccountCustomer** tablosu arasındaki ilişkinin yanlış yönde yayıldığı açıkça anlaşılabilir. Bu ilişkinin filtre yönü **Her İkisi** olarak ayarlanmalıdır.
 
-![Model diyagramı güncelleştirilmiştir. Account ile AccountCustomer tablosu arasındaki ilişkide tek bir değişiklik yapılmıştır. Artık her iki yönde de filtre uygular.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![Modelin güncelleştirildiğini gösteren diyagram. Artık her iki yönde de filtre uygular.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![Aynı iki rapor görseli yan yana gösterilir. İlk görsel değişmemiştir. İkinci görsel farklı bir sonuç ortaya koyar ve bu durum aşağıdaki paragraflarda açıklanır.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![Aynı iki rapor görselini yan yana gösteren diyagram. İlk görsel değişmemiş, ancak ikincisi değişmiştir.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 Beklendiği gibi **Account Balance** görselinde hiçbir değişiklik yoktur.
 
@@ -131,13 +131,13 @@ Boyut türündeki tablolarınız arasında çoka çok ilişkisi varsa aşağıda
 
 Şimdi iki olgu türünde tablo içeren bir örneği gözden geçirelim: **Order** ve **Fulfillment**. **Order** tablosu sipariş satırı başına bir satır içerir ve **Fulfillment** tablosu da sipariş satırı başına sıfır veya daha fazla satır içerebilir. **Order** tablosundaki satırlar satış siparişlerini temsil eder. **Fulfillment** tablosundaki satırlar gönderilen sipariş öğelerini temsil eder. Çoka çok ilişki iki **OrderID** sütununu ilişkilendirir; filtre yayılması yalnızca **Order** tablosundan gerçekleşir (**Order** tablosu **Fulfillment** tablosunu filtreler).
 
-![Model diyagramı iki tablo içerir: Order ve Fulfillment. Çoka çok ilişki iki OrderID sütununu ilişkilendirir ve Order tablosundan Fulfillment tablosuna doğru filtreleme uygulanır.](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![İki tablo içeren bir modeli gösteren diyagram: Order ve Fulfillment.](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 Her iki tabloda da yinelenen **OrderID** değerlerinin depolanmasını desteklemek için ilişki kardinalitesi çoka çok olarak ayarlanır. **Order** tablosunda yinelenen **OrderID** değerleri bulunabilir çünkü bir siparişin birden çok satırı olabilir. **Fulfillment** tablosunda yinelenen **OrderID** değerleri bulunabilir çünkü siparişlerin birden çok satırı olabilir ve sipariş satırları birçok gönderimle karşılanabilir.
 
 Şimdi tablo satırlarını gözden geçirelim. **Fulfillment** tablosunda sipariş satırlarının birden çok gönderimle karşılanabileceğine dikkat edin. (Bir sipariş satırının eksik olması, siparişin henüz karşılanmadığını gösterir.)
 
-![Model diyagramı şimdi tablo satırlarını ortaya koyar. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 İki tablonun satır ayrıntıları aşağıdaki madde işaretli listede açıklanır:
 
@@ -155,7 +155,7 @@ Her iki tabloda da yinelenen **OrderID** değerlerinin depolanmasını desteklem
 
 Model sorgulandığında neler olduğuna bakalım. Burada **Order** tablosunun **OrderID** sütununa göre sipariş ve karşılama miktarlarının karşılaştırıldığı bir tablo görseli verilmiştir.
 
-![Tablo görselinin üç sütunu vardır: OrderID, OrderQuantity ve FulfillmentQuantity. Her sipariş için bir satır olmak üzere üç satır vardır. OrderID 2 ve 3 henüz tamamen karşılanmamıştır.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![Üç sütunlu bir tablo görselini gösteren diyagram: OrderID, OrderQuantity ve FulfillmentQuantity.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 Görsel doğru bir sonuç göstermektedir. Öte yandan modelin kullanışlılığı sınırlıdır çünkü yalnızca **Order** tablosunun **OrderID** sütununa göre filtreleyebilir veya gruplandırabilirsiniz.
 
@@ -167,7 +167,7 @@ Olgu türündeki tabloları doğrudan ilişkilendirmek yerine [Yıldız Şeması
 
 Şimdi daha iyi bir çözüm düşünelim.
 
-![Model diyagramı altı tablo içerir: OrderLine, OrderDate, Order, Fulfillment, Product ve FulfillmentDate. Tüm tablolar ilişkilidir. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![Bir modelin altı tablo içerdiğini gösteren diyagram: OrderLine, OrderDate, Order, Fulfillment, Product ve FulfillmentDate.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 Aşağıdaki tasarım değişikliklerine dikkat edin:
 
@@ -192,11 +192,11 @@ Bu çoka çok senaryosu, bu makalede daha önce açıklanan diğer iki senaryoda
 
 Şimdi dört tablo içeren bir örneği gözden geçirelim: **Date**, **Sales**, **Product** ve **Target**. **Date** ve **Product** boyut türünde tablolardır; bunlardan her biri bire çok ilişkisi kullanılarak olgu türündeki **Sales** tablosuyla ilişkilendirilir. Şimdi kadar iyi bir yıldız şeması tasarımını temsil eder. Öte yandan **Target** tablosu henüz diğer tablolarla ilişkilendirilmemiştir.
 
-![Model diyagramı dört tablo içerir: Date, Sales, Product ve Target. Target tablosu başka hiçbir tabloyla ilişkili değildir. Tasarım aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/sales-targets-model-example.png)
+![Bir modelin dört tablo içerdiğini gösteren diyagram: Date, Sales, Product ve Target.](media/relationships-many-to-many/sales-targets-model-example.png)
 
 **Target** tablosu üç sütun içerir: **Category**, **TargetQuantity** ve **TargetYear**. Tablo satırları yıl ve ürün kategorisinin ayrıntılarını ortaya koyar. Diğer bir deyişle hedefler (satış performansını ölçmek için kullanılır) her yıl her ürün kategorisi için ayarlanır.
 
-![Target tablosunun üç sütunu vardır: TargetYear, Category ve TargetQuantity. Altı satırda, üç kategori için 2019 ve 2020 hedefleri kaydedilir.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![Target tablosunun üç sütunu olduğunu gösteren diyagram: TargetYear, Category ve TargetQuantity.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 **Target** tablosunda veriler, boyut türündeki tablolardan daha üst düzeyde depolandığından, bire çok ilişkisi oluşturulamaz. Bu, ilişkilerden yalnızca biri için geçerlidir. Şimdi **Target** tablosunun boyut türündeki tablolarla nasıl ilişkilendirilebileceğini gözden geçirelim.
 
@@ -211,7 +211,7 @@ Bu çoka çok senaryosu, bu makalede daha önce açıklanan diğer iki senaryoda
 
 Aşağıdaki matris görselinde, rapor kullanıcısı yıldan o yılın aylarına detaya gittiğinde neler olduğu gösterilir. Görsel **TargetQuantity** sütunu özetlemektedir. (Matris satırları için [Veri içermeyen öğeleri göster](../create-reports/desktop-show-items-no-data.md) seçeneği etkinleştirilmiştir.)
 
-![Matris görselinde 2020 yılı hedef miktarının 270 olduğu ortaya konur. 2020'nin aylarını ortaya koymak amacıyla genişletildiğinde Ocak ayı 270 ve ay düzeyindeki diğer tüm hedef miktarlar BOŞ olur.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![2020 yılının hedef miktarının 270 olduğunu ortaya çıkaran matris görselini gösteren diyagram.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 Bu davranışı önlemek için ölçüleri kullanarak olgu verilerinizin özetlemesini denetlemenizi öneririz. Özetlemeyi denetlemenin yollarından biri düşük düzeyli zaman aralıkları sorgulandığında BOŞLUK döndürmektir. Gelişmiş DAX ile tanımlanan bir diğer yol da düşük düzeyli zaman aralıkları arasında değerleri paylaştırmaktır.
 
@@ -228,7 +228,7 @@ IF(
 
 Aşağıdaki matris görseli şimdi **Target Quantity** ölçüsünü kullanır. Tüm aylık hedef miktarlarının BOŞ olduğunu gösterir.
 
-![Matris görselinde 2020 yılı hedef miktarının 270 olduğu ortaya konur. 2020'nin aylarını ortaya koymak amacıyla genişletildiğinde, ay düzeyinde her hedef miktar BOŞ olur.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![2020 yılının hedef miktarının 270 olduğunu ortaya çıkaran matris görselini gösteren diyagram.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Daha yüksek dilimi ilişkilendirme (tarih dışı)
 
@@ -236,21 +236,21 @@ Boyut türündeki tablonun tarih dışı bir sütununu olgu türündeki tabloyla
 
 **Category** sütunları (hem **Product** hem de **Target** tablosundan) yinelenen değerler içerir. Dolayısıyla bire çok ilişkisinin "bir" tarafı yoktur. Bu örnekte bir çoka çok ilişkisi oluşturmanız gerekir. İlişki filtreleri tek yönde, boyut türündeki tablodan olgu türündeki tabloya yaymalıdır.
 
-![Model diyagramının bir parçasında Target ve Product tabloları gösterilir. Çoka çok ilişkisi iki tabloyu ilişkilendirir. Filtre yönü Product tablosundan Target tablosuna doğrudur.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![Target ve Ürün tablolarının modelini gösteren diyagram. Çoka çok ilişkisi iki tabloyu ilişkilendirir.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 Şimdi tablo satırlarını gözden geçirelim.
 
-![Model diyagramı iki tablo içerir: Target ve Product. Çoka çok ilişkisi iki Category sütununu ilişkilendirir. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![İki tablo içeren bir modeli gösteren diyagram: Target ve Product. Çoka çok ilişkisi iki Category sütununu ilişkilendirir.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 **Target** tablosunda dört satır vardır: her hedef yıl (2019 ve 2020) için iki satır ve iki kategori (Clothing ve Accessories). **Product** tablosunda üç ürün vardır. Ürünlerden ikisi giysi (Clothing) kategorisine ve biri de aksesuar (Accessories) kategorisine aittir. Giysilerden birinin rengi yeşil diğer ikisinin mavidir.
 
 **Product** tablosundaki **Category** sütununa göre yapılan bir tablo görsel gruplandırması aşağıdaki sonucu verir.
 
-![Bir tablo görselinin iki sütunu vardır: Category ve TargetQuantity. Accessories 60, Clothing 40 ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![İki sütunlu bir tablo görselini gösteren diyagram: Category ve TargetQuantity. Accessories 60, Clothing 40 ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 Bu görsel doğru sonucu üretir. Şimdi hedef miktarı gruplandırmak için **Product** tablosunun **Color** sütunu kullanıldığında ne olduğuna bakalım.
 
-![Bir tablo görselinin iki sütunu vardır: Color ve TargetQuantity. Blue 100, Green 40 ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![İki sütunlu bir tablo görselini gösteren diyagram: Color ve TargetQuantity. Blue 100, Green 40 ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 Görsel verilerin hatalı bir gösterimini üretir. Orada neler oluyor?
 
@@ -272,11 +272,11 @@ IF(
 
 Aşağıdaki tablo görseli şimdi **Target Quantity** ölçüsünü kullanır. Tüm renk hedefi miktarlarının BOŞ olduğunu gösterir.
 
-![Bir tablo görselinin iki sütunu vardır: Color ve TargetQuantity. Blue BOŞ, Green BOŞ ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![İki sütunlu bir tablo görselini gösteren diyagram: Color ve TargetQuantity. Blue BOŞ, Green BOŞ ve toplam da 100'dür.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 Son model tasarımı aşağıdakine benzer.
 
-![Model diyagramı Date ve Target tablolarının arasında bire çok ilişkisi olduğunu gösteriyor. Product ve Target tablolarının arasında çoka çok ilişkisi vardır ve Product tablosundan Target tablosuna filtreleme yapılmıştır.](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![Aralarında bire çok ilişkisi bulunan Date ve Target tablolarına sahip bir modeli gösteren diyagram.](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>Daha yüksek dilimli olgular kılavuzu
 

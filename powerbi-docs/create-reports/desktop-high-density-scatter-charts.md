@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4166c734dd89acdc50967aee90b6a268546a383a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338559"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262917"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI dağılım grafiklerinde yüksek yoğunluklu örnekleme
 **Power BI Desktop**’ın Eylül 2017 sürümü ve **Power BI hizmetine** yönelik güncelleştirmelerle birlikte yeni bir örnekleme algoritması kullanıma sunuldu. Bu algoritma ile yüksek yoğunluklu verilerin, dağılım grafiklerindeki gösterimi iyileştirildi.
 
 Örneğin, kuruluşunuzun satış etkinliklerine ilişkin bir dağılım grafiği oluşturabilirsiniz. Bu grafikte, her mağaza için yıl başına on binlerce veri noktası bulunur. Bu tür bilgilerin yer aldığı bir dağılım grafiği, mevcut verileri temel alıp satış verilerinin zaman içinde nasıl şekillendiğini göstermek üzere söz konusu verilerin anlamlı bir gösterimini seçerek verileri örnekler ve temel alınan verilerin görüntülendiği bir dağılım grafiği oluşturur. Bu, yüksek yoğunluklu dağılım grafiklerinde sık kullanılan bir yöntemdir. Power BI, ayrıntıları bu makalede açıklanan yüksek yoğunluklu veri örnekleme özelliğini geliştirmiştir.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
+![Yüksek yoğunluklu örnekleme verilerini gösteren bir dağılım grafiğinin ekran görüntüsü.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
 > Bu makalede açıklanan **Yüksek Yoğunluklu Örnekleme** algoritması hem **Power BI Desktop** hem de **Power BI hizmeti** için dağılım grafiklerinde kullanılabilir.
@@ -59,17 +59,17 @@ Ayrıca, çizilemeyen veri noktaları (örneğin, null değerler veya metin değ
 
 * **Ayrıntılar** altındaki bir değere sağ tıkladıktan sonra menüden **Veri içermeyen öğeleri göster** seçeneğini belirlerseniz dağılım grafiğinde özgün algoritmaya geçiş yapılır.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![Veri içermeyen öğeleri göster seçili Ayrıntılar bölmesini gösteren Görselleştirmeler menüsünün ekran görüntüsü.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * **Yürütme** eksenine herhangi bir değer girilirse dağılım grafiğinde özgün algoritmaya geçiş yapılır.
 * Bir dağılım grafiğinde hem X hem de Y ekseni yoksa grafikte özgün algoritmaya geçiş yapılır.
 * **Analiz** bölmesinde bir **Oran satırı** kullanılırsa grafikte özgün algoritmaya geçiş yapılır.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![Analiz bölmesi ve Oran çizgisine bakan bir işaretçiyi gösteren Görselleştirmeler menüsünün ekran görüntüsü.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Dağılım grafikleri için yüksek yoğunluklu örnekleme algoritmasını etkinleştirme
 **Yüksek Yoğunluklu Örnekleme**’yi etkinleştirmek için bir dağılım grafiği seçin, **Biçimlendirme** bölmesine gidin, **Genel** kartını genişletin ve bu kartın altındaki **Yüksek Yoğunluklu Örnekleme** kaydırıcısını **Açık** durumuna kaydırın.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![Biçimlendirme bölmesi, Genel kartı ve Yüksek Yoğunluklu Örnekleme geçiş kaydırıcısına bakan bir işaretçiyi gösteren Görselleştirmeler menüsünün ekran görüntüsü.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
 > Kaydırıcı etkinleştirildikten sonra Power BI, mümkün olan her durumda **Yüksek Yoğunluklu Örnekleme** algoritmasını kullanmaya çalışır. Algoritma kullanılamadığında (örneğin, *Yürütme* eksenine bir değer girerseniz), kaydırıcı **Açık** durumda kalır ancak grafikte standart algoritmaya geçiş yapılır. Daha sonra, *Yürütme* eksenine girmiş olduğunuz değerleri kaldırırsanız (veya yüksek yoğunluklu örnekleme algoritmasının kullanılabileceği koşullar oluşursa) söz konusu özellik etkin durumda olduğundan grafikte otomatik olarak yüksek yoğunluklu örnekleme kullanılır.

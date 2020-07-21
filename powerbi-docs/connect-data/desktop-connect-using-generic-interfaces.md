@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6a0170d40413cd2833f7e31bb3bc7c5704a1f5cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 106b2e4f9b829190cff8269342c3239429b41f24
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224043"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214742"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop genel arabirimlerini kullanarak verilere bağlanma 
 
-**Veri Al** penceresinde gösterildiği gibi, **Access veritabanlarından** **Zendesk** kaynaklarına kadar çeşitlilik gösteren yerleşik veri bağlayıcılarını kullanarak **Power BI Desktop**'ta çok sayıda veri kaynağına bağlanabilirsiniz. Ayrıca, *Power BI Desktop*’ta yerleşik olarak bulunan genel arabirimleri (**ODBC** veya **REST API’leri** gibi) kullanarak çok çeşitli **başka** veri kaynaklarına da bağlanabilir, bu sayede bağlantı seçeneklerinizi daha da genişletebilirsiniz.
+**Veri Al** penceresinde gösterildiği gibi, **Access veritabanlarından** **Zendesk** kaynaklarına kadar çeşitlilik gösteren yerleşik veri bağlayıcılarını kullanarak **Power BI Desktop**'ta çok sayıda veri kaynağına bağlanabilirsiniz. Ayrıca, **Power BI Desktop**’ta yerleşik olarak bulunan genel arabirimleri (**ODBC** veya **REST API’leri** gibi) kullanarak çok çeşitli *başka* veri kaynaklarına da bağlanabilir, bu sayede bağlantı seçeneklerinizi daha da genişletebilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
+![ODBC seçimini gösteren Veri Al iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop veri arabirimleri
 **Power BI Desktop**, belirli bir veri kaynağına bağlanmak için oluşturulmuş, sürekli büyüyen bir veri bağlayıcısı koleksiyonuna sahiptir. Örneğin, **SharePoint Listesi** veri bağlayıcısı, bağlantı sırasında, **SharePoint Listeleri** için tasarlanmış belirli alanlar ve destekleyici bilgiler sağlar ve bu durum, **Veri Al > Diğer...** (önceki görüntüde verilen) seçeneğini belirlediğinizde açılan penceredeki diğer veri kaynakları için de geçerlidir.
@@ -42,7 +42,7 @@ Söz konusu genel arabirimler tarafından erişilebilen veri kaynaklarına ait l
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC aracılığıyla erişilebilir veri kaynakları
 **Power BI Desktop**'taki **ODBC** bağlayıcısı, yalnızca bir **Veri Kaynağı Adı (DSN)** veya *bağlantı dizesi* belirterek herhangi bir üçüncü taraf ODBC sürücüsünden veri içeri aktarmanıza olanak sağlar. Bir seçenek olarak, ODBC sürücüsüne yönelik olarak yürütmek için bir SQL deyimi de belirtebilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
+![DSN ve Gelişmiş seçeneklerini gösteren ODBC bağlayıcısı iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
 
 Aşağıdaki listede, **Power BI Desktop**'ın, genel **ODBC** arabirimini kullanarak bağlanabileceği veri kaynaklarına yönelik birkaç örnek verilmiştir.
 
@@ -62,7 +62,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **ODBC** arabirimini kulla
 ## <a name="data-sources-accessible-through-ole-db"></a>OLE DB aracılığıyla erişilebilir veri kaynakları
 **Power BI Desktop**'taki **OLE DB** bağlayıcısı, bir *bağlantı dizesi* belirterek herhangi bir üçüncü taraf OLE DB sürücüsündeki verileri içeri aktarmanıza olanak sağlar. Bir seçenek olarak, OLE DB sürücüsüne yönelik olarak yürütmek için bir SQL deyimi de belirtebilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
+![Bağlantı dizesi ve Gelişmiş seçeneklerini gösteren OLEDB bağlayıcı iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
 
 Aşağıdaki listede, **Power BI Desktop**'ın, genel **OLE DB** arabirimini kullanarak bağlanabileceği veri kaynaklarına yönelik birkaç örnek verilmiştir.
 
@@ -74,7 +74,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **OLE DB** arabirimini kul
 ## <a name="data-sources-accessible-through-odata"></a>OData aracılığıyla erişilebilir veri kaynakları
 **Power BI Desktop**'taki **OData** bağlayıcısı, **OData** URL'sini yazarak veya kopyalayarak herhangi bir **OData** URL'sindeki verileri içeri aktarmanıza olanak sağlar. Bu bağlantıları **OData Akışı** penceresindeki metin kutularına yazarak veya kopyalayarak birden çok URL parçası ekleyebilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
+![URL parçaları ve önizleme alanlarını gösteren OData Akışı iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
 
 Aşağıdaki listede, **Power BI Desktop**'ın, genel **OData** arabirimini kullanarak bağlanabileceği veri kaynaklarına yönelik birkaç örnek verilmiştir.
 
@@ -85,18 +85,18 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **OData** arabirimini kull
 ## <a name="data-sources-accessible-through-rest-apis"></a>REST API'leri aracılığıyla erişilebilir veri kaynakları
 **REST API**'lerini kullanarak veri kaynaklarına bağlanabilir ve böylece **REST**'i destekleyen çeşitli veri kaynaklarındaki verileri kullanabilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
+![Veri kaynaklarını gösteren Sorgu iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
 
 Aşağıdaki listede, **Power BI Desktop**'ın, genel **REST API'leri** arabirimini kullanarak bağlanabileceği veri kaynaklarına yönelik birkaç örnek verilmiştir.
 
 | Power BI Desktop genel bağlayıcısı | Dış veri kaynağı | Daha fazla bilgi için bağlantı |
 | --- | --- | --- |
-| REST API'ler |Couchbase DB |[Couchbase REST API'si bilgileri](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| REST API'leri |Couchbase DB |[Couchbase REST API'si bilgileri](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>R Betiği aracılığıyla erişilebilir veri kaynakları
 **R betiklerini** kullanarak veri kaynaklarına erişebilir ve bu verileri **Power BI Desktop**'ta kullanabilirsiniz.
 
-![](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
+![Yürütme betiğini gösteren R Betiği iletişim kutusunun ekran görüntüsü.](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
 
 Aşağıdaki listede, **Power BI Desktop**'ın, genel **R betikleri** arabirimini kullanarak bağlanabileceği veri kaynaklarına yönelik birkaç örnek verilmiştir.
 
@@ -110,7 +110,7 @@ Aşağıdaki listede, **Power BI Desktop**'ın, genel **R betikleri** arabirimin
 **Power BI Desktop**’ı kullanarak çok çeşitli türlerdeki veri kaynaklarına bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

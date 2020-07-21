@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279653"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215453"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: BOŞLUKLARI değerlere dönüştürmekten kaçınma
 
@@ -47,7 +47,7 @@ Ayrıca çok fazla gruplandırma genellikle rapor kullanıcılarınızı bunalt�
 
 Müşteriye göre gruplandırılmış bir tablo görseline **Profit Margin** ölçüsü eklendiğinde neler olduğuna bakalım.
 
-![Tablo görselinin üç sütunu vardır: Customer, Sales ve Profit Margin. Tabloda yaklaşık 10 veri satırı görüntülenir, ama dikey kaydırma çubuğu görüntülenebilecek çok daha fazla satır olduğuna işaret eder. Sales sütununda hiçbir değer görüntülenmez. Profit Margin sütununda yalnızca sıfır görüntülenir.](media/dax-avoid-converting-blank/table-visual-poor.png)
+![Müşteri başına bir satır içeren, verilerin tablo görselini gösteren Power BI Desktop’ın ekran görüntüsü. Satış değerleri BLANK, Kar Marjı değerleri ise sent başına sıfırdır. ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 Tablo görseli kullanıcıyı bunaltacak kadar çok satır görüntüler. (Modelde aslında 18.484 müşteri vardır ve tablo da hepsini görüntülemeye çalışır.) Görünümdeki müşterilerin hiçbir satış yapamadığına dikkat edin. Yine de, **Profit Margin** ölçüsü her zaman bir değer döndürdüğünden bunlar görüntülenmektedir.
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 Tablo görselinde şimdi yalnızca geçerli filtre bağlamında satış yapmış olan müşteriler görüntülenir. Geliştirilmiş ölçü sonuçta rapor kullanıcılarınız için daha verimli ve pratik bir deneyim sağlar.
 
-![Aynı tablo görseli artık dört veri satırı görüntüler. Her satır, bir satış değeri bulunan ve Profit Margin değeri sıfırdan farklı olan bir müşteri içindir.](media/dax-avoid-converting-blank/table-visual-good.png)
+![İçeriği filtrelemiş, verilerin tablo görselini gösteren Power BI Desktop’ın ekran görüntüsü.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > Gerektiğinde [Veri İçermeyen Öğeleri Göster](../create-reports/desktop-show-items-no-data.md) seçeneğini etkinleştirerek filtre bağlamındaki tüm gruplandırmaları (değer veya BOŞLUK döndürenler) görüntüleyecek şekilde görseli yapılandırabilirsiniz.
@@ -80,4 +80,3 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

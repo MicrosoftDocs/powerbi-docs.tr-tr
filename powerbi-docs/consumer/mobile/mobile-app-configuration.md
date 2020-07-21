@@ -5,14 +5,14 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 04/05/2020
+ms.date: 07/14/2020
 ms.author: painbar
-ms.openlocfilehash: 62d95c09761a22f514bb55b5eadd82a6214fdbeb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9b6efd07aad3d2058e49f81ae21095b618123ee
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235133"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385941"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 
@@ -22,6 +22,7 @@ Power BI Mobil uygulaması aşağıdaki yapılandırma senaryolarını destekler
 
 * Rapor Sunucusu yapılandırması (iOS ve Android)
 * Veri koruma ayarları (iOS ve Android)
+* Çoklu oturum açmayı devre dışı bırakma (iOS ve Android)
 * Etkileşim ayarları (iOS ve Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Rapor sunucusu yapılandırması (iOS ve Android)
@@ -46,6 +47,19 @@ iOS ve Android için Power BI mobil uygulaması yöneticilere güvenlik ve gizli
 >[!NOTE]
 >Veri koruma ayarları yalnızca biyometrik kimlik doğrulamasını destekleyen Android cihazlarında uygulanır.
 
+## <a name="disable-single-sign-on-ios-and-android"></a>Çoklu oturum açmayı devre dışı bırakma (iOS ve Android)
+
+Power BI mobil uygulaması, kullanıcının kullanıcı adı ve parola sağlaması gereken sayıyı en düşük düzeye indirerek varsayılan olarak tek bir kullanıcı için kolay çoklu oturum açma deneyimi sağlar. Bu çoklu oturum açma davranışı, cihazın kullanıcının kişisel cihazı olduğu ve bu cihaz ile içindeki uygulamaları tek bir kullanıcının kullandığı varsayımına dayanır.
+
+Yöneticiler, uygulamayı çoklu oturumu devre dışı bırakıp oturum açtığı sırada açıkça kullanıcının parolasını soracak şekilde uzaktan yapılandırmak için uygulama yapılandırma dosyasındaki **DisableSingleSignOn** ayarını açabilir.
+
+Bu, yalnızca uzak yapılandırma aracılığıyla yapılandırılan salt yönetici bir ayardır. Son kullanıcı bu ayarı değiştiremez.
+
+| Anahtar | Tür | Açıklama |
+|---|---|---|
+| com.microsoft.powerbi.mobile.DisableSingleSignOn | Boole | Varsayılan değerdir False’tur.<br><br>Kullanıcı oturumunu kapattıktan sonra uygulama mevcut kimlik bilgilerini yeniden kullanmaz, ancak sonraki kullanıcıdan kimliğini doğrulayıp Power BI hizmetine bağlanması için bir parola sağlamasını ister.
+ |
+
 ## <a name="interaction-settings-ios-and-android"></a>Etkileşim ayarları (iOS ve Android)
 
 Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarının değiştirilmesi gerektiğinde karar verilirse, iOS ve Android için Power BI uygulaması yöneticilere etkileşim ayarlarını yapılandırma olanağı sunar.
@@ -58,7 +72,7 @@ Kuruluştaki kullanıcı grupları arasında varsayılan etkileşim ayarlarını
 | com.microsoft.powerbi.mobile.ReportTapInteraction | Dize |  <nobr>tek dokunma</nobr><br><nobr>iki kez dokunma</nobr> | Bir görsele dokunulduğunda bir veri noktasının seçilip seçilmeyeceğini yapılandırın. |
 | com.microsoft.powerbi.mobile.EnableMultiSelect | Boole |  <nobr>True</nobr><br><nobr>False</nobr> | Bir veri noktasına dokunmanın geçerli seçimin yerini alıp almayacağını veya geçerli seçime eklenip eklenmeyeceğini yapılandırın. |
 | com.microsoft.powerbi.mobile.RefreshAction | Dize |  <nobr>yenilemek için çekme</nobr><br>düğmesini seçin | Kullanıcının raporu yenileme düğmesine sahip olup olmayacağını veya çekerek yenileme özelliğini kullanıp kullanmayacağını yapılandırın. |
-| com.microsoft.powerbi.mobile.FooterAppearance | Dize |  yerleşik<br>dynamic | Rapor alt bilgisinin raporun altına yerleştirilip yerleştirilmeyeceğini veya otomatik olarak gizlenip gizlenmeyeceğini yapılandırın. |
+| com.microsoft.powerbi.mobile.FooterAppearance | Dize |  yerleşik<br>dinamik | Rapor alt bilgisinin raporun altına yerleştirilip yerleştirilmeyeceğini veya otomatik olarak gizlenip gizlenmeyeceğini yapılandırın. |
 
 ## <a name="deploying-app-configuration-settings"></a>Uygulama yapılandırma ayarlarını dağıtma
 

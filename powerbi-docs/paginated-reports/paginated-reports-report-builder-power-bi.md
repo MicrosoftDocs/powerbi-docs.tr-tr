@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 0f07c27cf9c69c07ae7b05c0cbf2573605647252
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393806"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264838"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
@@ -24,7 +24,7 @@ Sayfalandırılmış raporlar genellikle çok sayıda sayfadan oluşur. Örneği
 
 ![Sayfalandırılmış](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından `https://app.powerbi.com` Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](../admin/service-admin-premium-workloads.md#paginated-reports) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
+Rapor Oluşturucusu'nda raporunuzun önizlemesini görebilir, ardından app.powerbi.com sayfasında Power BI hizmetinde yayımlayabilirsiniz. Hizmette bir rapor yayımlamak için Power BI Pro lisansı gereklidir. Sayfalandırılmış raporları Çalışma Alanım bölümünüzde veya Power BI Premium kapasitesi içindeki çalışma alanlarında yayımlayıp paylaşabilirsiniz. Ayrıca, sayfalandırılmış raporların Power BI yönetici portalının [Premium kapasiteler bölümünde](../admin/service-admin-premium-workloads.md#paginated-reports) bir Power BI yöneticisi tarafından etkinleştirilmesi gerekir. 
 
 ## <a name="compare-power-bi-reports-and-paginated-reports"></a>Power BI raporlarını ve sayfalandırılmış raporları karşılaştırma
 

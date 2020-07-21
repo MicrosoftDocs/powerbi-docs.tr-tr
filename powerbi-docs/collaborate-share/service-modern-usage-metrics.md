@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ee5536f2c4026ceb019c5f89b6045afd44b35529
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299630"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162055"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
 
@@ -82,7 +82,7 @@ Geliştirilmiş kullanım ölçümleri raporu aşağıdaki rapor sayfalarını i
 | Kullanım bildirme | Benzersiz görüntüleyiciler | Görüntüleyici, zaman aralığı içinde raporu en az bir kez açmış olan kişidir (AAD kullanıcı hesabı temelinde). |
 | Kullanım bildirme | Görünüm eğilimi | Görünüm eğilimi zaman içindeki görünüm sayısı değişikliklerini yansıtır. Seçilen zaman aralığının ilk yarısını ikinci yarısıyla karşılaştırır. |
 | Kullanım bildirme | Tarih dilimleyici | Rapor kullanım sayfasında zaman aralığını değiştirebilir, örneğin haftalık veya iki haftalık eğilimleri hesaplayabilirsiniz. Rapor kullanımı sayfasının sol alt köşesinde, seçili rapor için kullanım verilerinin sağlandığı en erken ve en geç tarihi belirleyebilirsiniz. |
-| Kullanım bildirme | Derece | Sınıflandırma, kuruluştaki diğer tüm raporlarla karşılaştırıldığında, görünüm sayısı temelinde raporun popülerliğini gösterir.   |
+| Kullanım bildirme | Derece | Sınıflandırma, kuruluştaki diğer tüm raporlarla karşılaştırıldığında, görünüm sayısı temelinde raporun popülerliğini gösterir. Derece olan 1, raporun kuruluştaki tüm raporlarda en çok görüntülenme sayısına sahip olduğu anlamına gelir.   |
 | Kullanım bildirme | Günlük rapor görünümü sayısı | Günlük toplam görünüm sayısı. |
 | Kullanım bildirme | Günlük rapor görüntüleyici sayısı | Raporu görüntüleyen farklı kullanıcıların toplam sayısı (AAD kullanıcı hesabına göre). |
 | Kullanım bildirme | Dağıtım yöntemi | Kullanıcıların rapora nasıl eriştiği; örneğin çalışma alanının üyeleri olarak, raporun onlarla paylaşılması yoluyla veya uygulamayı yükleyerek. |
@@ -258,6 +258,8 @@ Geliştirilmiş kullanım ölçümleri raporuyla bu raporun öncülünü karşı
 - Kullanım Ölçümleri Raporu veri kümesini başlatmak birkaç dakika sürebilir ve sonuçta boş bir kullanım ölçümleri raporu gösterilebilir, çünkü Power BI kullanıcı arabirimi yenileme işleminin bitmesini beklemez. Yenileme işleminin başarılı olduğunu doğrulamak için Kullanım Ölçümleri Raporu veri kümesi ayarlarında yenileme geçmişini denetleyin.
 - Kullanım Ölçümleri Raporu veri kümesini başlatma işlemi, yenileme sırasında karşılaşılan zaman aşımından dolayı başarısız olabilir. Bu sorunu çözmek için aşağıdaki Sorun Giderme bölümüne bakın.
 - Kullanım ölçümleri raporu için paylaşım devre dışı bırakıldı. Kullanıcılara rapora okuma erişimi vermek için öncelikle çalışma alanı erişimi vermeniz gerekir.
+- Bazı senaryolarda performans verilerinin eksik olduğunu fark edebilirsiniz. Bu durum, kullanıcı açtığı bir rapor ile, raporun yüklenmesi tamamlanmadan etkileşim kurduğunda veya rapor yüklenirken bir sorun oluştuğunda ortaya çıkabilir.
+- Performansı verileri, Power BI’a veri gönderen istemciyi/cihazı kullanır. Ağ gecikme süresi, reklam engelleyiciler, güvenlik duvarları ve kuruluşunuz tarafından ayarlanan ağ kurallarına bağlı olarak performans verileri asla Power BI’a ulaşamayabilir. Bu nedenle, performans verileri yalnızca bir örnek sunabilir ve tüm kullanıcıları içeremez veya gösteremez. 
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 
@@ -309,7 +311,7 @@ Platform, görüntüleyicinin raporu açmak için kullandığı teknolojiyi gös
 
 **S:** Rapor sınıflandırması nasıl çalışır?
 
-**Y:** Sınıflandırma, kuruluştaki diğer tüm raporlarla karşılaştırıldığında, görünüm sayısı temelinde raporun popülerliğini gösterir.
+**Y:** Sınıflandırma, kuruluştaki diğer tüm raporlarla karşılaştırıldığında, görünüm sayısı temelinde raporun popülerliğini gösterir. Derece olan 1, raporun kuruluştaki tüm raporlarda en çok görüntülenme sayısına sahip olduğu anlamına gelir.
 
 **S:** "Adsız Kullanıcılar" kimdir?
 

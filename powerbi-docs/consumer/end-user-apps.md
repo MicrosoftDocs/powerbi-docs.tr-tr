@@ -6,15 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/19/2020
+ms.date: 07/01/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 22e044f11b62d3375eabd97545070caaa0bbcfd7
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236556"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162030"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 
@@ -27,10 +28,10 @@ ms.locfileid: "85236556"
 
 Uygulamalarınız **Uygulamalar** içerik listesinde düzenlenir. Uygulamalarınızı görüntülemek için **Uygulamalar**’ı seçmeniz yeterlidir. Uygulamanın sahibini ve son güncelleştirme tarihini görmek için imlecinizi bir uygulamanın üzerine getirin. 
 
-![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps.png)
+![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps-red.png)
 
 
-Uygulamaların özelliğinin kullanılması için bir Power BI Pro lisansı veya uygulamanın Premium kapasitede depolanması gerekir. Lisanslar ve Premium kapasite hakkında daha fazla bilgi edinmek için bkz. [Tüketici lisansları](end-user-license.md).
+Uygulamaların özelliğinin kullanılması için bir Power BI Pro lisansı veya uygulamanın Premium kapasitede depolanması ve sizinle paylaşılması gerekir. Lisanslar ve Premium kapasite hakkında daha fazla bilgi edinmek için bkz. [Tüketici lisansları](end-user-license.md).
 
 ## <a name="app-designers-and-app-consumers"></a>Uygulama *tasarımcıları* ve uygulama *tüketicileri*
 İş rolünüze bağlı olarak, kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için uygulama oluşturan biri (*tasarımcı*) olabilirsiniz. Alternatif olarak, başkaları tarafından oluşturulan uygulamaları alan ve indiren biri (*tüketici*) olabilirsiniz. Bu makale uygulama *tüketicileri* içindir.
@@ -42,7 +43,14 @@ Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığ�
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Yeni bir uygulama alma
-Yeni bir uygulama almanın en iyi yolu [Power BI Uygulamaları marketidir](https://app.powerbi.com/groups/me/getapps/apps).
+Yeni bir uygulama almanın birkaç farklı yolu vardır. Uygulamaları arayabilir, bulabilir ve yükleyebilirsiniz, uygulama oluşturucuları da sizinle uygulamalar paylaşabilir. 
+
+### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>Power BI Uygulamaları marketinden uygulamaları bulup yükleme
+Uygulamaları bulmanın bir yolu, Power BI Uygulamaları ekranından **Uygulamayı al**’ı seçmektir. 
+
+![Uygulamaları al simgesini gösteren Uygulamalar ekranının ekran görüntüsü](./media/end-user-apps/power-bi-get-apps-icon.png)
+
+Yükleyeceğiniz uygulamayı bulana kadar Power BI Uygulamaları marketindeki uygulamalar listesine göz atın. Yalnızca şirketinizdeki kişiler tarafından kullanılabilen **Kuruluş uygulamalarını** veya tüm Power BI kullanıcılarının yükleyebilmesi için Microsoft ve topluluk tarafından yayımlanan **Şablon uygulamalarını** seçin. 
 
 ![Power BI Uygulamaları marketi](./media/end-user-apps/power-bi-app-marketplace.png)
 
@@ -50,7 +58,7 @@ Uygulamaları almanın farklı birkaç yolu daha vardır. Bu yollardan bazılar�
 
 * Uygulamanın tasarımcısı uygulamayı Power BI hesabınızda otomatik olarak yükleyebilir ve Power BI hizmetini bir sonraki açışınızda yeni uygulamayı **Uygulamalar** içerik listenizde görebilirsiniz. 
 * Uygulama tasarımcısı, uygulamanın doğrudan bağlantısını size e-posta olarak gönderebilir. Bağlantıyı seçmek, uygulamayı Power BI hizmetinde açar.
-* Mobil cihazınızdaki Power BI'da, uygulamaları AppSource'tan değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz. 
+* Mobil cihazınızdaki Power BI'da, uygulamaları Uygulamalar marketinden değil, yalnızca bir doğrudan bağlantı ile yükleyebilirsiniz. Uygulama yazarı uygulamayı otomatik olarak yüklerse uygulamalar listenizde bu uygulamayı görürsünüz. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Uygulama açma ve uygulamayla etkileşim kurma](end-user-app-view.md)

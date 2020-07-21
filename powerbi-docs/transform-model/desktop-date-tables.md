@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393761"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215317"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 
@@ -22,19 +22,19 @@ Arka planda çalışan **Power BI Desktop**, tarihleri temsil eden otomatik olar
 
 Bu otomatik davranış hakkında daha fazla bilgi için [Power BI Desktop'ta otomatik tarih/saat](desktop-auto-date-time.md) makalesini okuyun.
 
-Çoğu veri analisti kendi tarih tablolarını oluşturmayı tercih eder ve bunda bir sakınca yoktur. **Power BI Desktop**’ta modelinizin **tarih tablosu** olarak kullanmasını istediğiniz tabloyu belirtebilir ve ardından bu tablonun tarih verilerini kullanan tarihle ilgili görseller, tablolar, hızlı ölçümler, vb. oluşturabilirsiniz. Kendi tarih tablonuzu belirtiyorsanız modelinizde oluşturulan tarih hiyerarşileri sizin denetiminizdedir ve bunları modelinizin veri tablosunu kullanan **hızlı ölçümlerde** ve diğer işlemlerde kullanırsınız. 
+Çoğu veri analisti kendi tarih tablolarını oluşturmayı tercih eder ve bunda bir sakınca yoktur. **Power BI Desktop**’ta modelinizin **tarih tablosu** olarak kullanmasını istediğiniz tabloyu belirtebilir ve ardından bu tablonun tarih verilerini kullanan tarihle ilgili görseller, tablolar, hızlı ölçümler, vb. oluşturabilirsiniz. Kendi tarih tablonuzu belirtiyorsanız modelinizde oluşturulan tarih hiyerarşileri sizin denetiminizdedir ve bunları modelinizin veri tablosunu kullanan **hızlı ölçümlerde** ve diğer işlemlerde kullanırsınız.
 
-![](media/desktop-date-tables/date-tables_01.png)
+![“Tarih tablosu olarak işaretle” iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_01.png)
 
 ## <a name="setting-your-own-date-table"></a>Kendi tarih tablonuzu ayarlama
 
 **Tarih tablosu** ayarlamak için **Alanlar** bölmesinde tarih tablosu olarak kullanmak istediğiniz tabloyu seçin, sonra tabloya sağ tıklayıp aşağıdaki resimde gösterildiği gibi açılan menüden **Tarih tablosu olarak işaretle > Tarih tablosu olarak işaretle**’yi seçin.
 
-![](media/desktop-date-tables/date-tables_02.png)
+![Alanlar bölmesinde “Tarih tablosu olarak işaretle” filtre seçeneklerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_02.png)
 
 Ayrıca, tabloyu seçip burada gösterildiği gibi **Modelleme** şeridinden **Tarih Tablosu Olarak İşaretle**’yi de seçebilirsiniz.
 
-![](media/desktop-date-tables/date-tables_02b.png)
+![“Tarih tablosu olarak işaretle” düğmesini ve seçenekler filtresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_02b.png)
 
 Kendi **tarih tablonuzu** belirttiğinizde, Power BI Desktop tarafından bu sütun ve sütundaki veriler üzerinde verilere ilişkin aşağıdaki doğrulamalar gerçekleştirilir:
 
@@ -51,7 +51,7 @@ Kendi tarih tablonuzu oluşturmanız için ikisi de makul olan iki olası senary
 
 Bir tarih tablosu belirttiğinizde, bu tablodaki hangi sütunun tarih sütunu olduğunu seçebilirsiniz. Hangi sütunun kullanılacağını **Alanlar** bölmesinde tabloyu seçip tabloya sağ tıkladıktan sonra **Tarih tablosu olarak işaretle > Tarih tablosu ayarları**’nı seçerek belirtebilirsiniz. Aşağıdaki pencere görünür ve buradaki açılan kutudan tarih olarak kullanılacak sütunu seçebilirsiniz.
 
-![](media/desktop-date-tables/date-tables_03.png)
+![Önemli bir notun yer aldığı “Tarih tablosu olarak işaretle” iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_03.png)
 
 Kendi tarih tablonuzu belirttiğinizde, **Power BI Desktop**’ın normalde modelinizde yerleşik olarak sunacağı hiyerarşilerin sizin adınıza otomatik olarak oluşturulmadığına dikkat edin. Daha sonra tarih tablonuzun seçimini kaldırırsanız (ve artık el ile ayarlanmış bir tablonuz olmazsa) Power BI Desktop tablodaki tarih sütunları için sizin adınıza otomatik olarak oluşturulan yerleşik veri tablolarını yeniden oluşturur.
 
@@ -63,11 +63,11 @@ Kendi **tarih tablonuzu** belirttiğinizde, veri türünün düzgün ayarlandı�
 
 1. **Alanlar** bölmesinden **tarih tablonuzu** seçin, gerekirse genişletin ve sonra tarih olarak kullanılacak sütunu seçin.
    
-    ![](media/desktop-date-tables/date-tables_04.png) 
+    ![Alanlar bölmesindeki Tarih filtresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_04.png) 
 
 2. **modelleme** sekmesinde, **Veri türü:** seçeneğini belirleyin ve kullanılabilir veri türlerini göstermek için açılan oka tıklayın.
 
-    ![](media/desktop-date-tables/date-tables_05.png)
+    ![Veri Türü filtresinin seçili olduğu Modelleme sekmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-date-tables/date-tables_05.png)
 
 3. Sütununuz için veri türünü belirtin. 
 

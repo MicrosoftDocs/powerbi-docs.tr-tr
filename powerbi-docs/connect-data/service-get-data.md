@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320090"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264410"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI hizmeti için veri kaynakları
 Veriler Power BI'ın temelini oluşturur. Verileri araştırdığınızı düşünelim. Grafikler ve panolar oluşturarak veya **Soru-Cevap** ile sorular sorarak bunu yapabilirsiniz. Gördüğünüz görselleştirmeler ve yanıtların temel verileri bir veri kümesinden alınır. Peki bu veri kümelerinin kaynağı nedir? İşte bunlar bir veri kaynağından gelir.
@@ -23,14 +23,14 @@ Bu makalede, Power BI hizmetinden bağlanabileceğiniz veri kaynağı türlerini
 
 Sayfanın sol alt köşesindeki **Veri Al**'ı seçerek Power BI'daki tüm veri kaynaklarından veri alabilirsiniz.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Power BI hizmeti ekranının sol alt kısmında gösterilen Veri Al’ın ekran görüntüsü.](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 **Veri Al**'ı seçtikten sonra erişmek istediğiniz verileri seçebilirsiniz
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![Erişmek istediğiniz verileri belirleme seçeneklerini gösteren Veri Al seçeneklerinin ekran görüntüsü.](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>İçerik bul
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![İş ortağı logolarını gösteren İçerik bul bölümünün ekran görüntüsü.](media/service-get-data/pbi-getdata-discovercontent.png)
 
 **İçerik bul** bölümünde ihtiyacınız olan tüm veriler ve raporlar önceden sizin için hazırlanmıştır. Power BI'da iki tür içerik paketi vardır: Kurumsal ve Hizmetler. 
 
@@ -43,7 +43,7 @@ Sayfanın sol alt köşesindeki **Veri Al**'ı seçerek Power BI'daki tüm veri 
 **Yeni içerik oluştur** bölümünde kendiniz içerik oluşturabilmeniz ve içeri aktarabilmeniz için seçenekler bulunur. Power BI'da kendi içeriğinizi oluşturmanın veya içeri aktarmanın iki yolu vardır: Dosyalar ve Veritabanları. 
 
 ### <a name="files"></a>Dosyalar
-![](media/service-get-data/pbi_getdata_files.png)
+![Excel, Power BI Desktop, ve CSV simgesi](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*) - Excel’de, bir çalışma kitabı farklı veri türleri içeriyor olabilir. Örneğin çalışma sayfalarına sizin girdiğiniz verileri içerebilir. Ayrıca Power Query'yi kullanarak sorguladığınız ve dış veri kaynaklarından yüklediğiniz verileri de içerebilir. Power Query, Excel 2016'da veya Power Pivot'ta **Al ve Dönüştür** seçeneğiyle sağlanır. Verileri çalışma sayfalarındaki tablolardan veya bir veri modelinden içeri aktarabilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI için dosyalardan veri alma](service-get-data-from-files.md).
 
@@ -56,7 +56,7 @@ XML Tablosu ( *.xml*) veya metin ( *.txt*) dosyaları gibi diğer dosya türleri
 Dosyalarınızın nerede depolandığı da önemli bir fark yaratır. OneDrive İş, Power BI için en yüksek düzeyde esneklik ve tümleştirme olanağı sunar. Dosyalarınızı yerel sürücünüzde de tutabilirsiniz. Ama verilerinizi yenilemeniz gerekirse fazladan birkaç adım uygulamanız gerekir. Daha fazla bilgi için aşağıdaki makale bağlantılarını inceleyin.
 
 ### <a name="databases"></a>Veritabanları
-![](media/service-get-data/pbi_getdata_databases.png)
+![Bulut logolarındaki veritabanlarını gösteren, veritabanlarının ekran görüntüsü.](media/service-get-data/pbi_getdata_databases.png)
 
 **Buluttaki Veritabanları**: Power BI hizmetinden şunlara canlı bağlanabilirsiniz:
 

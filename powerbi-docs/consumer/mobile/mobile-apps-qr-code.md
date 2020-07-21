@@ -8,15 +8,15 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ce5c57173cb5676a78bb3b77b1baaf2409062cc1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220437"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264846"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
-Aşağıdakiler için geçerlidir:
+Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad'ler](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android telefon](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android tablet](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
@@ -37,16 +37,16 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 1. Gezinti çubuğunda **Diğer seçenekler**'e (...) ve sonra da **Tarayıcı**'ya dokunun.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![Tarayıcı seçimini gösteren, Gezinti bölmesindeki Diğer seçeneklerin ekran görüntüsü.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. Kameranız etkin değilse Power BI uygulamasının kameranızı kullanmasına onay vermeniz gerekir. Bu onay bir kereliktir. 
  
 3. Tarayıcıyı Power BI QR koduna doğrultun. 
    
-    ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
+    ![Tarayıcının bir Power BI QR kodunu işaret ettiğini gösteren haber yazdırmasının ekran görüntüsü.](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
 4. Kutucuk ya da rapor, genişletilmiş gerçeklik modundaki arka plan üzerinde görünür.
    
-    ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
+    ![Haber yazdırmasının üzerine geldiğini gösteren bir raporun ekran görüntüsü.](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
 
 5. Odak modunda açmak için rapora veya kutucuğa dokunun ya da tarayıcıya geri dönün.
 
@@ -58,16 +58,16 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 
 1. Gezinti çubuğunda **Diğer seçenekler**'e (...) ve sonra da **Tarayıcı**'ya dokunun.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![Tarayıcı seçimini gösteren, Gezinti bölmesindeki Diğer seçeneklerin ekran görüntüsü.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. Kameranız etkin değilse Power BI uygulamasının kameranızı kullanmasına onay vermeniz gerekir. Bu onay bir kereliktir. 
 
 3. Tarayıcıyı Power BI QR koduna doğrultun. 
    
-    ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
+    ![Tarayıcının bir Power BI QR kodunu işaret ettiğini gösteren QR tarayıcısının ekran görüntüsü.](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
 4. Kutucuk veya rapor Power BI'da otomatik olarak açılır.
    
-    ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
+    ![Aya ve satış aşamasına göre sütun grafiğini gösteren Fırsat Sayısı raporunun ekran görüntüsü.](media/mobile-apps-qr-code/power-bi-android-tile.png)
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android cihazınızda bir dış tarayıcıyla QR kodu tarama
 1. Android cihazınızda yüklü bulunan herhangi bir tarayıcıyı kullanarak, kutucuğa ya da rapora doğrudan erişim sağlamak üzere tarayıcıyı ilgili Power BI QR koduna doğrultun. 
@@ -78,4 +78,4 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 * [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-tile.md)
 * [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-report.md)
 * Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
-* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

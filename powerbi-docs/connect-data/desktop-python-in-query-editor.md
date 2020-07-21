@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5fb76d5f4e32c1ff7f9d68757e071f1bc69a7ddf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223309"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215491"
 ---
 # <a name="use-python-in-query-editor"></a>Sorgu Düzenleyicisi'nde Python kullanma
 İstatistik uzmanları, veri bilimciler ve veri analistleri tarafından yaygın olarak kullanılan bir programlama dili olan **Python**, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanılabilir. Python programlama dilinin **Sorgu Düzenleyicisi** ile bu şekilde tümleştirilmesi, Python kullanarak veri temizlemenin yanı sıra veri kümelerinde eksik verilerin tamamlanması, tahminler ve kümeleme gibi gelişmiş veri şekillendirme ve analiz işlemleri gerçekleştirmenize olanak sağlar. **Python** güçlü bir dildir ve bu dili veri modelinizi hazırlamanın yanı sıra raporlar oluşturmak için **Sorgu Düzenleyicisi**'nde kullanabilirsiniz.
@@ -27,19 +27,19 @@ ms.locfileid: "85223309"
 
 1. Öncelikle verilerinizi **Power BI Desktop**'a yükleyin. Bu örnekte, *EuStockMarkets_NA.csv* dosyasını yükleyin ve **Power BI Desktop**’taki **Giriş** şeridinden **Veri Al > CSV** seçeneğini belirleyin.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
+   ![CSV seçimini gösteren, Power BI Desktop’taki Veri Al şeridinin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-1.png)
 2. Dosyayı seçip **Aç** seçeneğini belirlediğinizde, CSV, **CSV dosyası** iletişim kutusunda görüntülenir.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
+   ![Seçili CSV’yi gösteren CSV dosyası iletişim kutusunun ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-2.png)
 3. Veriler yüklendikten sonra CSV, Power BI Desktop'taki **Alanlar** bölmesinde yer alır.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
+   ![Yüklenmiş verileri gösteren Alanlar bölmesinin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-3.png)
 4. **Power BI Desktop**'taki **Giriş** sekmesinde bulunan **Sorguları Düzenle** seçeneğini belirleyerek **Sorgu Düzenleyicisi**'ni açın.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
+   ![Sorguları Düzenle seçimini gösteren, Power BI Desktop’taki Sorgu Düzenleyicisi’nin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-4.png)
 5. **Dönüştür** sekmesinde, **Python Betiğini Çalıştır** seçeneğini belirleyerek **Python Betiğini Çalıştır** düzenleyicisini görüntüleyin. (Bir sonraki adımda gösterilmiştir.) Tıpkı aşağıdaki görüntüde göremediğiniz diğer satırlar gibi, 15 ve 20 numaralı satırlar için eksik veri sorununun gözlemlendiğine dikkat edin. Söz konusu satırların Python tarafından nasıl doldurulabildiği (veya doldurulacağı) aşağıdaki adımlarda gösterilmiştir.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
+   ![Veri satırlarını gösteren Dönüştür sekmesinin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. Bu örnek için aşağıdaki betik kodunu gireceğiz:
    
     ```python
@@ -55,13 +55,13 @@ ms.locfileid: "85223309"
    
    **Python Betiğini Çalıştır** iletişim kutusuna yerleştirilen kod aşağıdaki gibi görünür:
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
+   ![Betik kodunu gösteren Python betiğini çalıştır iletişim kutusunun ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-5b.png)
 7. **Tamam**’ı seçmemizin ardından **Sorgu Düzenleyicisi**, veri gizliliği ile ilgili bir uyarı görüntüler.
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
+   ![Veri gizliliği hakkında uyarı gösteren Sorgu Düzenleyicisi bölmesinin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-6.png)
 8. Python betiklerinin Power BI hizmetinde düzgün bir şekilde çalışabilmesi için, tüm veri kaynaklarının *genel* olarak ayarlanması gerekir. Gizlilik ayarları ve etkileri hakkında daha fazla bilgi için bkz. [Gizlilik Düzeyleri](../admin/desktop-privacy-levels.md).
    
-   ![](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
+   ![Genel olarak ayarlandığını gösteren Gizlilik düzeyleri iletişim kutusunun ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-7.png)
    
    **Alanlar** bölmesinde *completedValues* adlı yeni bir sütunla karşılaşırız. 15 ve 18 numaralı satırlar gibi birkaç eksik veri öğesinin bulunduğuna dikkat edin. Bu sorunun Python tarafından nasıl giderildiğini bir sonraki bölümde görebilirsiniz.
    
@@ -71,7 +71,7 @@ Yalnızca beş Python betiği satırı sayesinde **Sorgu Düzenleyicisi**, eksik
 ## <a name="creating-visuals-from-python-script-data"></a>Python betiği verilerinden görseller oluşturma
 Artık Python betik kodunun *pandas* kitaplığını kullanarak eksik değerleri aşağıdaki görüntüde gösterildiği gibi nasıl tamamladığını görmek için bir görsel oluşturabiliriz:
 
-![](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
+![Özgün verileri ve Pandas kitaplığındaki eksik değerlerin tamamlanmış halini gösteren görselin ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-8.png)
 
 Söz konusu görsel ve **Power BI Desktop**’ı kullanarak oluşturmak isteyebileceğimiz diğer görseller tamamlandıktan sonra, içerdiği Python betikleriyle birlikte **Power BI Desktop** dosyasını (.pbix dosyası olarak kaydedilen) kaydedebilir ve Power BI hizmetinde kullanabilirsiniz.
 
@@ -80,7 +80,7 @@ Söz konusu görsel ve **Power BI Desktop**’ı kullanarak oluşturmak isteyebi
 
 .pbix dosyasını Power BI hizmetine yüklemenizin ardından, veri yenilemeye (hizmette) ve görsellerin hizmette güncelleştirilmesine (görsellerin güncelleştirilmesi için verilerin Python'a erişmesi gerekir) olanak sağlamak için uygulamanız gereken birkaç adım daha kalır. Bu adımlar aşağıda verilmiştir:
 
-* **Veri kümesi için zamanlanmış yenilemeyi etkinleştirme**: Python betiklerinizi içeren veri kümenizin bulunduğu çalışma kitabı için zamanlanmış yenilemeyi etkinleştirmek için, [Personal Gateway](refresh-scheduled-refresh.md) ile ilgili bilgiler de sunan **Zamanlanmış yenileme yapılandırma** makalesine bakın.
+* **Veri kümesi için zamanlanmış yenilemeyi etkinleştirme**: Python betiklerinizi içeren veri kümenizin bulunduğu çalışma kitabı için zamanlanmış yenilemeyi etkinleştirmek için, **Personal Gateway** ile ilgili bilgiler de sunan [Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md) makalesine bakın.
 * **Personal Gateway'i yükleme**: Dosyanın bulunduğu ve Python'ın yüklü olduğu konuma bir **Personal Gateway** yüklenmesi gerekir; Power BI hizmetinin söz konusu çalışma kitabına erişmesi ve güncelleştirilen görselleri yeniden işlemesi gerekir. [Personal Gateway yükleme ve yapılandırma](service-gateway-personal-mode.md) hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="limitations"></a>Sınırlamalar
@@ -88,11 +88,11 @@ Python betikleri içeren ve **Sorgu Düzenleyicisi**'nde oluşturulmuş sorgular
 
 * Tüm Python veri kaynağı ayarlarının *Genel* olarak belirlenmesi ve **Sorgu Düzenleyicisi**'nde oluşturulmuş tüm diğer adımların da genel olarak ayarlanması gerekir. Veri kaynağı ayarlarına ulaşmak için, **Power BI Desktop**'ta **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları** seçeneğini belirleyin.
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
+  ![Veri kaynağı ayarları seçimini gösteren, Power BI Desktop’taki Dosya menüsünün ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
   **Veri Kaynağı Ayarları** iletişim kutusunda, veri kaynaklarını seçin ve ardından **İzinleri Düzenle...** seçeneğini belirleyip **Gizlilik Düzeyi** ayarının *Genel* olarak seçildiğinden emin olun.
   
-  ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
+  ![Gizlilik Düzeyi’nin Genel olarak ayarlandığını gösteren Veri kaynağı ayarları iletişim kutusunun ekran görüntüsü.](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * Python görselleriniz veya veri kümeniz için zamanlanmış yenilemeyi etkinleştirmek üzere, **Zamanlanmış yenileme** özelliğini etkinleştirmeniz ve çalışma kitabı ile Python yüklemesinin bulunduğu bilgisayara **Personal Gateway** yüklemeniz gerekir. Her iki konuya yönelik daha fazla bilgi için, bu makaledeki, daha fazla bilgi edinmeye yönelik bağlantıların sunulduğu önceki bölüme bakın.
 * İç içe yerleştirilmiş tablolar (tabloların tablosu) şu anda desteklenmemektedir 
 

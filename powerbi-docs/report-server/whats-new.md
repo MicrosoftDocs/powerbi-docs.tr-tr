@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034049"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214372"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
-Power BI Rapor Sunucusu’ndaki ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir.
+Power BI Rapor Sunucusu’ndaki ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki yenilikler hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir. Power BI Rapor Sunucusu’ndaki yenilikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü](changelog.md).
 
 [Power BI Rapor Sunucusu’nu ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ı](https://powerbi.microsoft.com/report-server/) indirin.
-
-İlgili Power BI "Yenilikleri" hakkında bilgi için bkz.:
-
-- [Power BI hizmetindeki yenilikler](../fundamentals/service-whats-new.md)
-- [Power BI Desktop'taki yenilikler](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>Mayıs 2020
 

@@ -9,30 +9,30 @@ ms.topic: how-to
 ms.date: 08/10/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4179244dde8f5ebf2cc78bb84c4141e3bb3a6364
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d8c7a8532122487bdf3bcd718eb4089cb7c67008
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238358"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262807"
 ---
 # <a name="dashboard-data-classification"></a>Pano veri sınıflandırması
 Her pano farklıdır. Bağlandığınız veri kaynağına bağlı olarak, sizin ve panoyu paylaştığınız iş arkadaşlarınızın, verilerin gizlilik durumuna göre farklı önlemler alması gerekebilir. Bazı panoların hiçbir zaman şirket dışındaki kişilerle paylaşılmaması veya yazdırılmaması gerekir, bazılarının paylaşılmasında ise bir sakınca yoktur. Pano veri sınıflandırmasını kullanarak, panolarınızı görüntüleyen kişilerin, hangi güvenlik düzeyinin kullanılması gerektiğine dair farkındalığını artırabilirsiniz. Panolarınızı şirketinizin BT departmanı tarafından tanımlanan sınıflandırmalar ile etiketleyebilir ve içeriği görüntüleyen herkesin, verilerin gizliliği konusunda ortak bir bilince sahip olmasını sağlayabilirsiniz.
 
-![](media/service-data-classification/dashboard_tagged_as_hbi.png)
+![Bir örnekteki veri sınıflandırmasını gösteren panonun ekran görüntüsü.](media/service-data-classification/dashboard_tagged_as_hbi.png)
 
 ## <a name="data-classification-tags"></a>Veri sınıflandırma etiketleri
 Pano adının yanında görünen veri sınıflandırma etiketleri, panoyu görüntüleyen kişilerin, pano ve içerdiği veriler için uygulanması gereken güvenlik düzeyinin bilincinde olmasına olanak sağlar.
 
-![](media/service-data-classification/tag_next_to_title.png)
+![Pano adının yanında bir veri sınıflandırması etiketi gösteren panonun ekran görüntüsü.](media/service-data-classification/tag_next_to_title.png)
 
 Ayrıca söz konusu etiketler, Sık Kullanılanlar listenizdeki pano kutucuğunun yanında da görünür.
 
-![](media/service-data-classification/tag_on_dashboard_tile.png)
+![Sık Kullanılanlar listenizdeki pano kutucuğunun yanında bir veri sınıflandırması etiketi gösteren Sık Kullanılanlar listesinin ekran görüntüsü.](media/service-data-classification/tag_on_dashboard_tile.png)
 
 Etiketin üzerine geldiğinizde sınıflandırmanın tam adını görürsünüz.
 
-![](media/service-data-classification/tag_tooltip.png)
+![Etiketin üzerine geldiğinizde sınıflandırmanın tam adını gösteren HBI etiketinin ekran görüntüsü. ](media/service-data-classification/tag_tooltip.png)
 
 Yöneticiler, ek bilgi sağlamak amacıyla etiket için bir URL de ayarlayabilir.
 
@@ -48,10 +48,10 @@ Sınıflandırma türünü değiştirmek için aşağıdaki adımları uygulayı
 
 1. Pano adının yanındaki **üç nokta** simgesini seçip **Ayarlar** seçeneğini belirleyerek pano ayarlarına gidin.
    
-    ![](media/service-data-classification/dashboard_settings.png)
+    ![Ayarlar seçimini gösteren panonun ekran görüntüsü.](media/service-data-classification/dashboard_settings.png)
 2. Pano ayarları bölümünde panonuzun geçerli sınıflandırmasını görebilir ve açılan listeyi kullanarak sınıflandırma türünü değiştirebilirsiniz.
    
-    ![](media/service-data-classification/classification_setting_dropdown.png)
+    ![Geçerli bir sınıflandırmayı ve Veri sınıflandırması açılır menü seçimini gösteren pano ayarlarının ekran görüntüsü.](media/service-data-classification/classification_setting_dropdown.png)
 3. Değiştirme işlemini tamamladıktan sonra **Uygula** düğmesini seçin.
 
 Değişiklik uygulandıktan sonra, panoyu paylaştığınız kişiler panoyu yeniden yüklediğinde güncelleştirmeyi görür.
@@ -61,14 +61,14 @@ Veri sınıflandırma, kuruluşunuzun genel yöneticisi tarafından ayarlanır. 
 
 1. Ayarlar dişli simgesini ve ardından **Yönetici portalı**'nı seçin.
    
-    ![](media/service-data-classification/admin_portal_in_settings.png)
+    ![Yönetim Portalı seçimini gösteren Ayarlar dişlisinin ekran görüntüsü.](media/service-data-classification/admin_portal_in_settings.png)
 2. **Kiracı ayarları** sekmesindeki **Panolar ve raporlar için veri sınıflandırma** ayarını *Açık* olarak değiştirin.
    
-    ![](media/service-data-classification/data_classification_switch_location.png)
+    ![Kiracı ayarlarını ve hem panolar hem de raporlar için Veri sınıflandırması seçimini gösteren Yönetim Portalının ekran görüntüsü.](media/service-data-classification/data_classification_switch_location.png)
 
 Sınıflandırma etkinleştirildikten sonra, kuruluşunuz için çeşitli sınıflandırmalar oluşturabileceğiniz bir form açılır.
 
-![](media/service-data-classification/blank_classification_form.png)
+![Kuruluşunuzdaki çeşitli sınıflandırmalara yönelik alan girişlerini gösteren formun ekran görüntüsü.](media/service-data-classification/blank_classification_form.png)
 
 Her sınıflandırmanın panoda görünecek bir **adı** ve **kısaltması** vardır. **Etiketi göster**'i seçerek her sınıflandırma için kısaltma etiketinin panoda görünüp görünmeyeceğini belirleyebilirsiniz. Sınıflandırma türünün panoda gösterilmemesini tercih etmeniz durumunda pano sahibi yine de pano ayarlarını denetleyerek sınıflandırma türünü görebilir. Ayrıca dilerseniz kuruluşunuzun sınıflandırma yönergeleri ve kullanım gereksinimleri ile ilgili daha fazla bilgi içeren bir **URL** de ekleyebilirsiniz.  
 
@@ -76,7 +76,7 @@ Son olarak, varsayılan sınıflandırma türünün hangisi olacağına karar ve
 
 Forma sınıflandırma türlerini girdikten sonra değişiklikleri kaydetmek için **Uygula** düğmesini seçin.
 
-![](media/service-data-classification/filled_in_classification_form.png)
+![Uygulanacak sınıflandırma türleriyle doldurulmuş girişleri gösteren formun ekran görüntüsü.](media/service-data-classification/filled_in_classification_form.png)
 
 Bu noktada, tüm panolara varsayılan sınıflandırma atanır. Pano sahipleri artık sınıflandırma türünü içerikleri için uygun olan tür ile güncelleştirebilir. Daha sonra buraya geri dönerek sınıflandırma türü ekleyip kaldırabilir veya varsayılan sınıflandırma türünü değiştirebilirsiniz.  
 

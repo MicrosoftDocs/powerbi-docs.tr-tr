@@ -6,17 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238327"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385987"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
+      
 Power BI Desktop’ta bir raporu ( *.pbix* dosyası) yerel bilgisayarınızdan Power BI hizmetine yayımlayabilirsiniz. Power BI raporları diğer yöne de gidebilir: Power BI hizmetindeki bir raporu Power BI Desktop’a indirebilirsiniz. Power BI raporunun uzantısı, her iki durumda da .pbix olur.
 
 Dikkat etmeniz gereken bazı sınırlamalar, bu makalenin [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümünde ele alınmıştır.
@@ -46,6 +47,7 @@ Yalnızca 23 Kasım 2016'dan sonra [Power BI Desktop ile oluşturulmuş](/learn/
     ![Power BI Desktop rapor düzenleyicisi](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
+
 Power BI hizmetinden .pbix dosyası indirirken dikkat etmeniz gereken bazı önemli noktalar ve sınırlamalar vardır.
 
 * Dosyayı indirebilmek için raporu düzenleme iznine sahip olmanız gerekir.
@@ -55,9 +57,12 @@ Power BI hizmetinden .pbix dosyası indirirken dikkat etmeniz gereken bazı öne
 * İndirilen dosyaları açarken mutlaka Power BI Desktop uygulamasının son sürümünü kullanın. İndirilen .pbix dosyaları Power BI Desktop’ın eski sürümlerinde açılmayabilir.
 * Yöneticiniz verileri indirme özelliğini devre dışı bıraktıysa bu özellik Power BI hizmetinde görüntülenmez.
 * Artımlı yenileme özelliği olan veri kümeleri .pbix dosyasına indirilemez.
+* [Büyük modeller](../admin/service-premium-large-models.md) için etkinleştirilmiş veri kümeleri .pbix dosyasına indirilemez.
+* [XMLA uç noktasını](../admin/service-premium-connect-tools.md) kullanarak değiştirilen veri kümeleri .pbix dosyasına indirilemez.
 * Bir çalışma alanındaki veri kümesini temel alarak bir Power BI raporu oluşturup bu raporu farklı bir çalışma alanında yayımlarsanız siz ve kullanıcılarınız bu raporu indiremezsiniz. İndirme özelliği şu anda bu senaryoda desteklenmiyor.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
 Bu özellik hakkındaki bir dakikalık **Guy in a Cube** videosunu izleyin:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

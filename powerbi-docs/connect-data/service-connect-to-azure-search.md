@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9e19216f9e080d73cf0965ad430dcc4839bdc617
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348563"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216301"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI ile Azure Search'e bağlanma
 Azure Search Trafik Analizi, Azure Search hizmetinize ilişkin trafiği izleyip anlamanıza olanak sağlar. Power BI için Azure Search içerik paketi, son 30 güne ait Arama ve Dizin Oluşturma verilerinin yanı sıra Hizmet İstatistikleri ve Gecikme Süreleri de dahil olmak üzere Search verilerinize ilişkin ayrıntılı öngörüler sağlar. Daha ayrıntılı bilgiye [Azure blog gönderisinden](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/) ulaşabilirsiniz.
@@ -26,22 +26,22 @@ Power BI için [Azure Search içerik paketine](https://app.powerbi.com/getdata/s
 ## <a name="how-to-connect"></a>Bağlanma
 1. Gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
-   ![](media/service-connect-to-azure-search/pbi_getdata.png) 
+   ![Gezgin bölmesindeki düğmeyi gösteren Power BI Desktop’taki Veri Al’ın ekran görüntüsü.](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
-   ![](media/service-connect-to-azure-search/pbi_getservices.png) 
+   ![Al düğmesini gösteren Hizmetler iletişim kutusunun ekran görüntüsü.](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. **Azure Search** \> **Al**’ı seçin.
    
-   ![](media/service-connect-to-azure-search/azuresearch.png)
+   ![Al bağlantısını gösteren, Azure Services iletişim kutusunun ekran görüntüsü.](media/service-connect-to-azure-search/azuresearch.png)
 4. Azure Search analizinizin depolandığı tablo depolama hesabının adını girin.
    
-   ![](media/service-connect-to-azure-search/params.png)
+   ![Azure depolama hesap adı alanını gösteren, Azure Search’e Bağlan iletişim kutusunun ekran görüntüsü.](media/service-connect-to-azure-search/params.png)
 5. Kimlik Doğrulama Yöntemi olarak **Anahtar** seçeneğini belirleyin ve depolama hesabı anahtarınızı girin. **Oturum Aç**'a tıklayın ve yükleme işlemine başlayın.
    
-   ![](media/service-connect-to-azure-search/creds.png)
+   ![Anahtarın Kimlik doğrulama yöntemi alanına girildiğini gösteren, Azure Search’e Bağlan iletişim kutusunun ekran görüntüsü.](media/service-connect-to-azure-search/creds.png)
 6. Yükleme işlemi tamamlandığında gezinti bölmesinde yeni bir pano, rapor ve model görünür. İçeri aktarılan verilerinizi görüntülemek için panoyu seçin.
    
-    ![](media/service-connect-to-azure-search/dashboard2.png)
+    ![Pano, rapor ve modeli gösteren gezinti bölmesinin ekran görüntüsü.](media/service-connect-to-azure-search/dashboard2.png)
 
 **Sırada ne var?**
 

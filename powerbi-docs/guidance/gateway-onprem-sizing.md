@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485956"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214209"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Şirket içi veri ağ geçidi boyutlandırması
 
@@ -33,7 +33,7 @@ _Önbelleğe alınan veriler_ iş yükü kaynak verileri Power BI veri kümeleri
 1. **Verileri alma ve dönüştürme**: Veriler alınır ve gerektiğinde dönüştürülür. Mümkünse, Power Query mashup altyapısı dönüştürme adımlarını veri kaynağına gönderir; bu işlem _[sorguyu kaynağa iletme](power-query-folding.md)_ olarak bilinir. Mümkün değilse, dönüştürmelerin ağ geçidi tarafından yapılması gerekir. Bu durumda ağ geçidi daha fazla CPU ve bellek kaynağı tüketir.
 1. **Aktarma**: Veriler Power BI hizmetine aktarılır; özellikle büyük hacimli veriler söz konusu olduğunda güvenilir ve hızlı bir İnternet bağlantısı önemlidir
 
-![Şirket içi kaynaklarına, yani ilişkisel veritabanına, Excel çalışma kitabına ve CSV dosyalarına bağlanan şirket içi veri ağ geçidinin gösterildiği bir diyagram. Ağ geçidi verileri alır ve dönüştürür.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![Şirket içi kaynaklara bağlanan şirket içi veri ağ geçidini gösteren Önbellek Verileri’nin diyagramı.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>Canlı Bağlantı ve DirectQuery iş yükleri
 
@@ -46,7 +46,7 @@ Bu iş yüküne, sorguları ve sorgu sonuçlarını yönlendirmek için CPU kayn
 
 Rapor kullanıcılarının hızlı yanıt alabildiği deneyimler sağlamak için güvenilir, hızlı ve tutarlı bir bağlantı önemlidir.
 
-![Şu şirket içi kaynaklarına bağlanan şirket içi veri ağ geçidinin gösterildiği bir diyagram: Analysis Services tablo veritabanı ve ilişkisel. Ağ geçidi asıl olarak geçiş modunda çalışır.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![Şirket içi kaynaklara bağlanan şirket içi veri ağ geçidini gösteren Canlı Bağlantı ve DirectQuery diyagramı.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>Boyutlandırma işleminde dikkat edilmesi gerekenler
 

@@ -10,11 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484944"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161485"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
@@ -56,7 +57,7 @@ Self servis kaydolma özelliğini kapatmak, kullanıcıların veri görselleşti
 1. Tüm kullanıcılarınızı kapsayacak lisans sayısını girin.
 1. **Lisansı olmayan tüm kullanıcılara otomatik olarak ata**’yı seçin ve kullanıma alın.
 
-  ![Otomatik atanan ücretsiz Power BI aboneliği](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![Self servis kaydolmayı gösteren, Power BI ücretsiz otomatik atanmış aboneliğin ekran görüntüsü.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 Kuruluşunuzda hangi kullanıcıların zaten bir lisansa sahip olabileceğini görmek istiyorsanız, bunun nasıl yapılacağını öğrenmek için bkz. [Kullanıcı lisanslarını görüntüleme ve yönetme](service-admin-manage-licenses.md).
 

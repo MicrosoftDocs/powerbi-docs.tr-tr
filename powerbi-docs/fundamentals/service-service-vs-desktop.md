@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349230"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214027"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop ile Power BI hizmetini karşılaştırma
 
 Power BI Desktop ile Power BI hizmetinin karşılaştırıldığı Venn diyagramında, ortadaki alan bu ikisinin nasıl kesiştiğini gösterir. Bazı görevleri hem Power BI Desktop'ta hem de hizmette gerçekleştirebilirsiniz. Venn diyagramının iki yanında, uygulamanın ve hizmetin benzersiz özellikleri gösterilir.  
 
-![Power BI Desktop ile hizmetin Venn diyagramı](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Power BI Desktop ve Power BI hizmeti arasındaki ilişkiyi gösteren Venn diyagramı.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop**, yerel bilgisayarınıza ücretsiz olarak yüklediğiniz eksiksiz bir veri analizi ve rapor oluşturma aracıdır. Çok sayıda farklı veri kaynağına bağlanıp bu kaynakları bir veri modelinde (çoğunlukla modelleme olarak adlandırılır) birleştirebileceğiniz Sorgu Düzenleyicisi’ni içerir. Daha sonra bu veri modelini temel alan bir rapor tasarlayacaksınız. [Power BI Desktop ile çalışmaya başlama kılavuzu](desktop-getting-started.md) bu işlemde size yol gösterir.
 
@@ -33,7 +33,7 @@ Power BI Desktop ile Power BI hizmetinin karşılaştırıldığı Venn diyagram
 
 Hem uygulamada hem de hizmette *raporları* oluşturabilir ve düzenleyebilirsiniz. Bir rapor, görseller ve görsel koleksiyonları içeren bir veya birden çok sayfadan oluşabilir. Gezintiyi geliştirmek için raporlarınıza yer işaretleri, düğmeler, filtreler ve detaylandırma ekleyin.
 
-![Power BI Desktop'ta veya hizmette bir raporu düzenleme](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![Numaralandırılmış seçimler içeren Power BI Desktop ve Power BI hizmetinin ekran görüntüleri.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Power BI Desktop'taki ve hizmetteki rapor düzenleyicileri birbirine benzer. Bunlar üç bölümden oluşur:  
 

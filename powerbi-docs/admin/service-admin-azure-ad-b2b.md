@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939455"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161388"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -62,7 +62,7 @@ Azure portalda davet göndermek için aşağıdaki adımları izleyin.
 
 1. **E-posta adresini** girin ve **kişisel ileti** ekleyin.
 
-    ![Azure AD Portalı Yeni Konuk Kullanıcı iletişim kutusunun ekran görüntüsü.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![E-posta ve ileti alanlarının vurgulandığı Yeni Konuk Kullanıcı iletişim kutusunun ekran görüntüsü.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. **Davet et** seçeneğini belirleyin.
 
@@ -70,17 +70,17 @@ Birden fazla konuk kullanıcıyı davet etmek için PowerShell’i kullanın vey
 
 Kullanıcının, aldığı e-posta davetindeki **Get Started** (Başlayın) seçeneğini belirlemesi gerekir. Konuk kullanıcı, bu işlemden sonra kuruluşa eklenir.
 
-![Konuk kullanıcı e-posta davetinin ekran görüntüsü.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![Kullanmaya Başlama seçeneğinin vurgulandığı Konuk kullanıcı e-posta davetinin ekran görüntüsü.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>Geçici davetler
 
 Dilediğiniz zaman dış kullanıcıyı davet etmek için, onu paylaşım kullanıcı özellik aracılığıyla panonuza veya raporunuza ya da erişim sayfası aracılığıyla uygulamanıza ekleyin. Bir uygulamayı kullanması için bir dış kullanıcıyı davet ederken ne yapılacağına ilişkin bir örnek burada verilmiştir.
 
-![Power BI'da Uygulama erişim listesine eklenen Dış kullanıcının ekran görüntüsü.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Power BI’daki Uygulama erişim listesine eklenen bir dış kullanıcının ekran görüntüsü.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 Konuk kullanıcı, uygulamayı kendisiyle paylaştığınızı belirten bir e-posta alır.
 
-![Konuk kullanıcıyla paylaşılan uygulamaya ilişkin e-postanın ekran görüntüsü](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![Uygulama paylaşıldığında konuk kullanıcının aldığı e-postanın ekran görüntüsü.](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 Konuk kullanıcının, kuruluşuna ait e-posta adresi ile oturum açması gerekir. Oturum açtıktan sonra daveti kabul etmesine yönelik bir istem alır. Oturum açma işleminden sonra konuk kullanıcı için uygulama açılır. Kullanıcının uygulamaya dönmek için bağlantıya yer işareti eklemesi veya e-postayı kaydetmesi gerekir.
 
@@ -100,7 +100,7 @@ Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının d
 
 Konuk kullanıcıya kuruluşunuzdaki bir Power BI Pro lisansının atanması, konuk kullanıcının kendisiyle paylaşılan içeriği görüntülemesine olanak sağlar. Lisansları atama hakkında daha fazla bilgi için bkz. [Lisanslar sayfasında kullanıcılara lisans atama](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Konuk kullanıcılara Pro lisansları atamadan önce, Microsoft'la aranızdaki lisans sözleşmesinin koşullarına uyduğunuzdan emin olmak için [Ürün Koşulları sitesine](https://www.microsoft.com/licensing/terms) bakın.
 
-![Kiracınızdaki bir Pro lisansını atama ile konuk kullanıcı deneyiminin grafiği.](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![Kiracınızdaki bir Pro lisansını atama ile konuk kullanıcı deneyiminin diyagramı.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>Konuk kullanıcının kendi Power BI Pro lisansına sahip olması
 
@@ -118,7 +118,7 @@ Konuk kullanıcının, kendi kuruluşları aracılığıyla zaten onlara atanmı
 
 2. **Kiracı URL'si** öğesinin yanındaki değere bakın. Kiracı URL'nizi izin verilen konuk kullanıcılarınızla paylaşın.
 
-    ![Konuk kullanıcı kiracı URL'sinin gösterildiği Power BI Hakkında iletişim kutusunun ekran görüntüsü.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![Konuk kullanıcı Kiracı URL’sinin vurgulandığı Power BI Hakkında iletişim kutusunun ekran görüntüsü.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Önemli Noktalar ve Sınırlamalar
 

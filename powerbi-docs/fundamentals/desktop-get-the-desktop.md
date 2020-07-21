@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232498"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215113"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -35,13 +35,13 @@ Microsoft Store'dan Power BI Desktop'ın en son sürümüne birkaç yolla erişi
 
     - [Power BI hizmetinde](https://docs.microsoft.com/power-bi/service-get-started), sağ üst köşedeki **İndir** simgesini seçin ve sonra da **Power BI Desktop**'ı seçin.
 
-      ![Power BI hizmetinden Power BI Desktop'ı indirme](media/desktop-get-the-desktop/getpbid_downloads.png)
+      ![Power BI Desktop’ı indirme seçeneğini gösteren Microsoft Store’un ekran görüntüsü.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
    - [Power BI Desktop ürün sayfasına](https://powerbi.microsoft.com/desktop/) gidin ve **Ücretsiz İndir**'i seçin.
   
 2. Microsoft Store'un **Power BI Desktop** sayfasına geldikten sonra **Yükle**'yi seçin.
 
-     ![Microsoft Store’dan Power BI Desktop'ı edinin](media/desktop-get-the-desktop/getpbid_04.png)
+     ![Power BI Desktop’ı yükleme seçeneğini gösteren Microsoft Store’un ekran görüntüsü.](media/desktop-get-the-desktop/getpbid_04.png)
 
 Power BI Desktop’ı Microsoft Store’dan edinmenin bazı avantajları vardır:
 
@@ -66,7 +66,7 @@ Power BI Desktop'ı Microsoft Store'dan yüklediğinizde aşağıdaki önemli no
   
   İndirme Merkezi'nden Power BI Desktop yürütülebilir dosyasını indirmek için [İndirme Merkezi sayfasından](https://www.microsoft.com/download/details.aspx?id=58494) **İndir**'i seçin. Ardından indirmek üzere 32 bit veya 64 bit yükleme dosyasını belirtin.
 
-  ![Power BI Desktop yükleme dosyasını belirtme](media/desktop-get-the-desktop/download-desktop-exe.png)
+  ![64 bit Power BI Desktop indirme onay kutusunu gösteren İndirme Merkezi’nin ekran görüntüsü.](media/desktop-get-the-desktop/download-desktop-exe.png)
 
 ### <a name="install-power-bi-desktop-after-downloading-it"></a>İndirdikten sonra Power BI Desktop'ı yükleyin
 İndirmeyi bitirdiğinizde yükleme dosyasını çalışmanız istenir.
@@ -75,7 +75,7 @@ Haziran 2019 sürümünden başlayarak, Power BI Desktop desteklenen tüm diller
 
 Yükleme paketini başlattıktan sonra Power BI Desktop bir uygulama olarak yüklenir ve masaüstünüzde çalışır.
 
-![Power BI Desktop kurulumunu çalıştırma](media/desktop-get-the-desktop/designer_gsg_install.png)
+![Kurulum sihirbazını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
 > Power BI Desktop’ın indirilen (MSI) sürümünü (kullanımdan kaldırıldı) ve Microsoft Store sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir. Power BI Desktop'ı Microsoft Store'dan indirmeden önce bilgisayardan el ile kaldırın.
@@ -84,7 +84,7 @@ Yükleme paketini başlattıktan sonra Power BI Desktop bir uygulama olarak yük
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop'ı kullanma
 Power BI Desktop'ı başlattığınızda hoş geldiniz ekranı görüntülenir.
 
-![Power BI Desktop Hoş Geldiniz ekranı](media/desktop-get-the-desktop/getpbid_05.png)
+![Karşılama ekranını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/getpbid_05.png)
 
 Power BI Desktop'ı ilk kez kullanıyorsanız (yani yükleme bir yükseltme değilse), devam etmeden önce bir form doldurmanız veya Power BI hizmetinde oturum açmanız istenir.
 
@@ -141,7 +141,7 @@ Ayrıca, *özellik = değer* söz dizimiyle belirttiğiniz aşağıdaki söz diz
 
 ### <a name="installing-power-bi-desktop-on-remote-machines"></a>Uzak makinelere Power BI Desktop yükleme
 
-Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir araçla Power BI Desktop dağıtıyorsanız, .msi dosyasını Power BI Desktop installer .exe dosyasından ayıklayabilirsiniz. WiX Toolset gibi bir üçüncü taraf aracını kullanın.
+Kullanıcılarınıza Windows Installer dosyası (.msi dosyası) gerektiren bir araçla Power BI Desktop dağıtıyorsanız, .msi dosyasını Power BI Desktop installer.exe dosyasından ayıklayabilirsiniz. WiX Toolset gibi bir üçüncü taraf aracını kullanın.
 
 > [!NOTE]
 > Üçüncü taraf ürün olarak WiX Toolset seçenekleri bildirimde bulunulmadan değişebilir. En güncel bilgiler için belgelerini gözden geçirin ve yardım almak için kullanıcı posta listesine başvurun.

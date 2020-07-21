@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427555"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216672"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -162,7 +162,7 @@ Evet, sayfalandırılmış raporlarınızla URL parametrelerini birlikte kullana
 
 Evet, sayfalandırılmış raporların hem v1 hem de v2 çalışma alanlarından gelen uygulamalarla dağıtılması destekleniyor. 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Rapor kutucuklarını panolara sabitleme gibi Power BI'daki rapora özgü diğer özellikler, sayfalandırılmış raporlarla da çalışacak mı?
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>Rapor kutucuklarını panolara sabitleme gibi Power BI’daki rapora özgü diğer özellikler, sayfalandırılmış raporlarla da çalışacak mı?
 
 Raporların hizmetteki önemli senaryoların aynılarını olabildiğince desteklemesini sağlamayı planlıyoruz.  İdeal koşullarda, bu raporları yazmak için kullanılan araçlar farklı olsa da, tüketicinin bakış açısından bunlar portalda yer alan listedeki raporlardan biridir. Tüketici bunların nasıl oluşturulduğunu önemsemez ve yalnızca yapmaları gereken işleri gerçekleştirmeyi amaçlar.  Bu özellik eşliğine iyi bir örnek olarak, planlanan açıklama desteği verilebilir. Bu özellik her rapor türünde biraz farklı çalışsa da her ikisi için de açıklamaları kullanabilirsiniz.
 

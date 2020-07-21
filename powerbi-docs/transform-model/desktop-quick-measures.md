@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237147"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214165"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Yaygın hesaplamalar için hızlı ölçüler özelliğini kullanma
 Yaygın ve güçlü hesaplamaları hızla ve kolayca yapabilmek için *hızlı ölçüleri* kullanabilirsiniz. Hızlı ölçü arka planda bir dizi Veri Çözümleme İfadeleri (DAX) komutu çalıştırır, sonra da raporunuzda kullanabilmeniz için sonuçları size sunar. DAX formülü yazmanız gerekmez; iletişim kutusunda sağladığınız giriş temelinde bu sizin yerinize yazılır. Kullanılabilen çok sayıda hesaplama kategorisi ve her hesaplamayı gereksinimlerinize uyacak şekilde değiştirmenin çeşitli yöntemleri vardır. Belki de en iyisi hızlı ölçü tarafından yürütülen DAX’ı görebilmeniz ve kendi DAX bilginizi hemen kullanmaya başlayabilmeniz veya genişletebilmenizdir.
@@ -60,7 +60,7 @@ Hesaplamalarıyla birlikte beş hızlı ölçü hesaplama türü şunlardır:
   * Kategori toplamı (filtreler uygulandı)
   * Kategori toplamı (filtreler uygulanmadı)
 * **Matematiksel işlemler**
-  * Ekleme
+  * Toplama
   * Çıkarma
   * Çarpma
   * Bölme
@@ -90,7 +90,7 @@ Matris görseli seçili durumdayken **Değerler** kutusunda yer alan **TotalSale
 
 **Average Unit Price** öğesini **Alanlar** bölmesinden **Taban değer** alanına sürükleyin. **Kategori** alanındaki **Kategori**'yi olduğu gibi bırakın ve **Tamam**'ı seçin. 
 
-![](media/desktop-quick-measures/quick-measures_06.png)
+![Alanlar bölmesindeki Filtreler seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-quick-measures/quick-measures_06.png)
 
 **Tamam**'ı seçtiğinizde bazı ilginç şeyler olur.
 

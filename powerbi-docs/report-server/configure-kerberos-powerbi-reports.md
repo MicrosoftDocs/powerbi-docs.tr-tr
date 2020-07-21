@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236107"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216518"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Rapor sunucunuz doğru şekilde yapılandırılmamışsa aşağıdaki hatayla ka
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 Teknik ayrıntılar bölümünde aşağıdaki iletiyi görürsünüz.
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Analysis Services sunucusuna bağlanmaya ilişkin sorunlarla ilgili hata iletisini gösteren Power BI Raporları’nın ekran görüntüsü.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Kerberos kısıtlanmış temsil yapılandırmasını gerçekleştirme
 Kerberos kısıtlanmış temsil yapılandırmasının çalışması için yapılandırılması gereken birden fazla ayar vardır. Hizmet hesaplarındaki Hizmet Asıl Adları (SPN) ve temsilci ayarları bunlara dahildir.
 
@@ -60,7 +60,7 @@ Rapor sunucusu kimlik doğrulaması türünü, Kerberos kısıtlanmış temsil y
 
 rsreportserver.config dosyasında **Authentication/AuthenticationTypes** bölümünü bulun.
 
-RSWindowsNegotiate öğesinin mevcut olduğundan ve kimlik doğrulaması türleri arasında ilk sırada olduğundan emin olun. URL'nin aşağıdakine benzer şekilde görünmesi gerekir.
+RSWindowsNegotiate öğesinin mevcut olduğundan ve kimlik doğrulaması türleri arasında ilk sırada olduğundan emin olun. Liste aşağıdakine benzer olmalıdır.
 
 ```xml
 <AuthenticationTypes>
@@ -200,16 +200,16 @@ Protokol geçişi ile kısıtlanmış temsili yapılandıracağız. Kısıtlanm�
 12. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.
 13. SQL Browser hizmetinin bulunduğu makinenin Makine adını girin ve **Tamam**'ı seçin.
 14. Oluşturduğunuz SPN'yi seçin. `MSOLAPDisco.3` ile başlayacaktır. Hem FQDN hem de NetBIOS SPN'lerini eklediyseniz ikisi de seçilir. Yalnızca birini görebilirsiniz.
-15. **Tamam**’ı seçin. **Genişletilmiş**'i işaretlediyseniz iletişim kutusu aşağıdakine benzer olacaktır.
+15. **Tamam**'ı seçin. **Genişletilmiş**'i işaretlediyseniz iletişim kutusu aşağıdakine benzer olacaktır.
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. **Tamam**’ı seçin.
+    ![Özellikler penceresinin Temsil sekmesini gösteren Power BI Raporları’nın ekran görüntüsü.](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+16. **Tamam**'ı seçin.
 17. Power BI Rapor Sunucusu'nu yeniden başlatın.
 
 ## <a name="running-a-power-bi-report"></a>Power BI raporu çalıştırma
 Yukarıdaki yapılandırma tamamlandıktan sonra raporunuzun doğru şekilde görüntülenmesi gerekir. 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![Örnek Pano görünümünü gösteren Power BI Raporları’nın ekran görüntüsü.](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 Bu yapılandırma Kerberos kullanılan çoğu durumda çalışır ancak ortamınıza bağlı olarak farklı yapılandırmalara ihtiyaç duyulabilir. Rapor yine de yüklenmiyorsa etki alanı yöneticinizle iletişime geçerek daha ayrıntılı bir araştırma yapabilir veya destek ekibine başvurabilirsiniz.
 

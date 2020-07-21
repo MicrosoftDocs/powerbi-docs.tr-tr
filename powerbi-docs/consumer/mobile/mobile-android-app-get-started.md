@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: a12f4d81e2cae913ddddd26ca3bd9c820ad716ca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233038"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263006"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -80,7 +80,7 @@ Bir dizi Power BI örneğinin ardında çeşitli Rapor sunucusu örnekleri yer a
 Power BI içeriğinizi aramaya başlamak için üst bilgide büyütece dokunun.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>Sık kullandığınız panoları ve raporları görüntüleme
-Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
+Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![Sık Kullanılanlar simgesi](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
 
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 

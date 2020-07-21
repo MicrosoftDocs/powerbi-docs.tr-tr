@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88aa1335433dba38e5f18ca7463077543db2c923
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20271b1e165fea894404a77bf19bbcc735703907
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222445"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214561"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop'ta OneDrive İş bağlantılarını kullanma
 Pek çok kullanıcının OneDrive İş'te depolanan Excel çalışma kitapları bulunur, bunlar Power BI Desktop'ta kullanmak için harika bir seçimdir. Power BI Desktop ile rapor ve görsel oluşturmak için OneDrive İş'te kayıtlı Excel dosyalarına ilişkin çevrimiçi bağlantıları kullanabilirsiniz. Bir OneDrive İş grup hesabını veya bireysel OneDrive İş hesabınızı kullanabilirsiniz.
@@ -27,30 +27,28 @@ OneDrive İş'ten çevrimiçi bir bağlantı almak için uygulamanız gereken be
    > [!NOTE]
    > Tarayıcı arabiriminiz tamamen aşağıdaki gibi görünmeyebilir. OneDrive İş tarayıcı arabiriminizdeki dosyalar için **Excel'de Aç**'ı seçmenin pek çok yolu vardır. Dosyayı Excel'de açmanıza olanak sağlayan tüm seçenekleri kullanabilirsiniz.
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
+   ![Excel’de Aç seçimini gösteren OneDrive’ın tarayıcıdaki ekran görüntüsü.](media/desktop-use-onedrive-business-links/odb-links_02.png)
 
 2. Excel’de **Dosya** > **Bilgi**’yi seçin ve sonra aşağıda gösterildiği gibi **Yolu kopyala** düğmesini seçin.
    
-   ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
+   ![Kopyalama yolu düğme seçimini gösteren Bilgi menüsünün ekran görüntüsü.](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>Power BI Desktop'ta bağlantıyı kullanma
 Power BI Desktop'ta, panoya kopyaladığınız bağlantıyı kullanabilirsiniz. Aşağıdaki adımları uygulayın:
 
 1. Power BI Desktop’ta **Veri Al** > **Web**’i seçin.
    
-   ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
+   ![Web seçimini gösteren, Power BI Desktop’taki Veri Al şeridinin ekran görüntüsü.](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
 2. **Temel** seçeneği seçili durumdayken, bağlantıyı **Web'den** iletişim kutusuna yapıştırın.
 3. Bağlantının sonundaki *?web=1* dizesini kaldırarak Power BI Desktop'ın dosyanıza düzgün bir şekilde gidebilmesini sağlayın ve sonra da **Tamam**'ı seçin.
    
-    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
+    ![URL alanından dize kaldırmayı gösteren Web’den iletişim kutusunun ekran görüntüsü.](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
 4. Power BI Desktop kimlik bilgilerini girmenizi isterse **Windows** (şirket içi SharePoint siteleri için) ya da **Kuruluş Hesabı** (Microsoft 365 veya OneDrive İş siteleri için) seçeneğini belirleyin.
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
+   ![Windows veya Kuruluş hesabı seçimini gösteren Power BI Desktop kimlik bilgileri isteminin ekran görüntüsü.](media/desktop-use-onedrive-business-links/odb-links_06.png)
 
    Excel çalışma kitabında bulunan tablolardan, sayfalardan ve aralıklardan oluşan listeden seçim yapmanıza olanak sağlayan **Gezgin** iletişim kutusu görüntülenir. Burada, OneDrive İş dosyasını aynı diğer Excel dosyaları gibi kullanabilirsiniz. Raporlar oluşturabilir ve başka herhangi bir veri kaynağıyla yapabileceğiniz gibi bunu veri kümelerinde kullanabilirsiniz.
 
 > [!NOTE]
 > OneDrive İş dosyasını, söz konusu dosya için **Hizmeti Yenile** özelliği etkinleştirilmiş şekilde Power BI hizmetinde bir veri kaynağı olarak kullanmak için, yenileme ayarlarınızı yapılandırırken **Kimlik doğrulama yöntemi** olarak **OAuth2**'yi seçtiğinizden emin olun. Aksi takdirde, bağlanma veya yenileme işlemi gerçekleştirmeye çalıştığınızda bir hata (örneğin *Veri kaynağı kimlik bilgileri güncelleştirilemedi*) ile karşılaşabilirsiniz. Kimlik doğrulama yöntemi olarak **OAuth2** seçeneği belirlenerek bu kimlik bilgileri hatası önlenebilir.
-> 
-> 
-
+>

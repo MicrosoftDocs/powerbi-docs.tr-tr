@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273236"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215117"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu
 
@@ -29,7 +29,7 @@ Hava yolları uçuşlarının zamanlamaya uyma performansını (OTP) analiz etme
 
 Burada iki tablonun kısmi bir model diyagramı verilmiştir.
 
-![Model diyagramı iki tablo içerir: Flight ve Airport. İlişki tasarımı aşağıdaki paragrafta açıklanmıştır.](media/relationships-active-inactive/flight-model-1.png)
+![İki tablo içeren bir modeli gösteren diyagram: Flight ve Airport. İlişki tasarımı aşağıdaki paragrafta açıklanmıştır.](media/relationships-active-inactive/flight-model-1.png)
 
 **Flight** ile **Airport** tabloları arasında iki model ilişkisi vardır. **Flight** tablosundaki **DepartureAirport** ve **ArrivalAirport** sütunları **Airport** tablosunun **Airport** sütunuyla ilişkilendirilir. Yıldız şema tasarımında **Airport** tablosu [rol yapan boyut](star-schema.md#role-playing-dimensions) olarak açıklanır. Bu modelde, iki rol _kalkış havaalanı_ ve _varış havaalanı_ rolleridir.
 
@@ -39,13 +39,13 @@ Bu model tasarımı verilerin bildirilme şekline sıkı sınırlamalar getirir.
 
 İşte geliştirilmiş bir model tasarımı.
 
-![Model diyagramı şimdi dört tablo içerir: Date, Flight, Departure Airport ve Arrival Airport. İlişki tasarımı aşağıdaki paragrafta açıklanmıştır.](media/relationships-active-inactive/flight-model-2.png)
+![Dört tablo içeren bir modeli gösteren diyagram: Date, Flight, Departure Airport ve Arrival Airport.](media/relationships-active-inactive/flight-model-2.png)
 
 Şimdi modelin iki havaalanı tablosu vardır: **Departure Airport** ve **Arrival Airport**. Bu tablolarla **Flight** tablosu arasındaki model ilişkileri etkin ilişkilerdir. Ayrıca **Departure Airport** ve **Arrival Airport** tablolarındaki sütun adlarının başına _Departure_ veya _Arrival_ sözcüğünün eklendiğine de dikkat edin.
 
 Geliştirilmiş model tasarımı aşağıdaki rapor tasarımını destekler.
 
-![Rapor sayfasında iki dilimleyici ve bir tablo görseli vardır. Dilimleyiciler Month ve Departure Airport’tur. Tablo görselinde Arrival Airport değerleri ve çeşitli istatistikler listelenir.](media/relationships-active-inactive/flight-report-design.png)
+![İki dilimleyici ve bir tablo görselinin bulunduğu rapor sayfasını gösteren diyagram. Dilimleyiciler Month ve Departure Airport’tur.](media/relationships-active-inactive/flight-report-design.png)
 
 Rapor sayfası kalkış havaalanı olarak Melbourne’e göre filtrelenir ve tablo görseli varış havaalanlarına göre gruplandırılır.
 
@@ -86,7 +86,7 @@ Belirli durumlarda etkin olmayan ilişkiler özel raporlama gereksinimlerini kar
 
 Burada iki tablonun kısmi bir model diyagramı verilmiştir.
 
-![Model diyagramı iki tablo içerir: Sales ve Date. Sales tablosunda altı ölçü vardır. İlişki tasarımı aşağıdaki paragrafta açıklanmıştır.](media/relationships-active-inactive/sales-model.png)
+![İki tablo içeren bir modeli gösteren diyagram: Sales ve Date. Sales tablosunda altı ölçü vardır.](media/relationships-active-inactive/sales-model.png)
 
 **Sales** ile **Date** tabloları arasında iki model ilişkisi vardır. **Sales** tablosundaki **OrderDate** ve **ShipDate** sütunları **Date** tablosunun **Date** sütunuyla ilişkilidir. Bu modelde **Date** tablosuna yönelik iki rol _sipariş tarihi_ ve _gönderme tarihi_ rolleridir. Bu, **OrderDate** sütunuyla etkin ilişkidir.
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 Model tasarımı aşağıdaki rapor tasarımını destekler.
 
-![Rapor sayfasında bir dilimleyici ve bir tablo görseli vardır. Dilimleyici Quarter’dır (Çeyrek) ve tablo görselinde aylık satış istatistikleri listelenir.](media/relationships-active-inactive/sales-report-design.png)
+![Bir dilimleyici ve bir tablo görselinin bulunduğu rapor sayfasını gösteren diyagram. Dilimleyici Quarter’dır (Çeyrek) ve tablo görselinde aylık satış istatistikleri listelenir.](media/relationships-active-inactive/sales-report-design.png)
 
 Rapor sayfası 2019 Q4 çeyreğine göre filtrelenir. Tablo görseli aya göre gruplandırılır ve çeşitli satış istatistiklerini görüntüler. **Orders** ve **Orders Shipped** ölçüleri farklı sonuçlar üretir. Bunların ikisi de aynı özetleme mantığını (**Sales** tablosunun satırlarını sayma) ama farklı **Date** tablosu filtre yaymasını kullanır.
 

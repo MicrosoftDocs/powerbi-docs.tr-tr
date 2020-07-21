@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 88b5c6c377588003a02f571c29ef8baef5540ae3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9265cc94aceb53b1b088f2393ca607c83f94b978
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220230"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264794"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Cihazınızla Power BI mobil uygulamasında barkod tarama
 Gerçek dünyada barkodlar tarayarak Power BI mobil uygulamasında filtrelenmiş BI bilgilerine doğrudan ulaşın.
@@ -27,14 +27,14 @@ Aşağıdakiler cihazlar için geçerlidir:
 
 Diyelim ki bir iş arkadaşınız [Power BI Desktop raporunda bir barkod alanı etiketledi](../../transform-model/desktop-mobile-barcodes.md) ve raporu sizinle paylaştı. 
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+![Renkli bir içeceğin barkodu üzerindeki tarayıcıyı gösteren bir ürün barkod taramasının ekran görüntüsü.](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 Cihazınızdaki Power BI uygulamasında bulunan tarayıcı ile bir ürün barkodunu taradığınızda söz konusu barkodu içeren raporu (veya rapor listesini) görürsünüz. Bu barkodla filtrelenmiş raporu açabilirsiniz.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI tarayıcısı ile barkod tarama
 1. Gezinti çubuğunda **Diğer seçenekler**'e (...) ve sonra da **Tarayıcı**'ya dokunun.
 
-    ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
+    ![Tarayıcı seçimini gösteren, Gezinti bölmesindeki Diğer seçeneklerin ekran görüntüsü.](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
 2. Kameranız etkin değilse Power BI uygulamasının kameranızı kullanmasına onay vermeniz gerekir. Bu onay bir kereliktir. 
 4. Tarayıcıyı bir üründeki barkoda doğru tutun. Bu barkodla ilişkili bir rapor listesini görürsünüz.
@@ -43,8 +43,8 @@ Cihazınızdaki Power BI uygulamasında bulunan tarayıcı ile bir ürün barkod
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Bir rapordayken başka barkodlara göre filtreleme yapma
 Cihazınızda barkoda göre filtrelenmiş bir raporu incelerken, aynı raporu başka bir barkodla filtrelemek isteyebilirsiniz.
 
-* Barkod simgesinde bir filtre ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png) bulunuyorsa bu filtre etkindir ve rapor zaten bir barkodla filtrelenmiştir. 
-* Simgede bir filtre ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png) bulunmuyorsa filtre etkin değildir ve rapor bir barkodla filtrelenmemiştir. 
+* Barkod simgesinde bir filtre bulunuyorsa ![Filtrelenmiş simgesi](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png)bu filtre etkindir ve rapor zaten bir barkodla filtrelenmiştir. 
+* Simgede bir filtre bulunmuyorsa ![Filtrelenmemiş simgesi](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png)etkin değildir ve rapor bir barkodla filtrelenmemiştir. 
 
 Her iki durumda da simgeye dokunarak, kayan bir tarayıcı içeren küçük menüyü açın.
 

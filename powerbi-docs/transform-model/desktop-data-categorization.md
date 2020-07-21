@@ -9,22 +9,22 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 723869023824f7841eaaa895ab551b719a69c0e2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 414f58338a53ce9ff24f193acd3cee0da2c30658
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236300"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215335"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop’ta veri kategorilerini belirtme
 Power BI Desktop'ta bir sütun için *veri kategorisi* seçerek Power BI Desktop'ın bu değerleri görselleştirme içinde nasıl işleyeceğini belirleyebilirsiniz.
 
 Power BI Desktop verileri içeri aktarırken, verilerin kendileri dışında başka bilgiler de alır (örneğin tablo ve sütun adları ve verilerin birincil anahtar olup olmadığı). Power BI Desktop bu bilgileri kullanarak görselleştirme oluştururken iyi bir varsayılan deneyim sağlamak amacıyla bazı varsayımlarda bulunur.
-Örneğin bir sütunda sayısal değer bulunduğunda büyük olasılıkla bunu herhangi bir yolla toplamak istersiniz ; bu nedenle Power BI Desktop bu değeri **Görselleştirmeler** bölmesinin **Değerler** alanına yerleştirir. Öte yandan çizgi grafikte tarih-saat değerleri içeren bir sütun için, Power BI Desktop bunu büyük olasılıkla bir zaman hiyerarşisi ekseni olarak kullanacağınızı varsayar.
+Örneğin bir sütunda sayısal değer bulunduğunda büyük olasılıkla bunu herhangi bir yolla toplamak istersiniz, bu nedenle Power BI Desktop bu değeri **Görselleştirmeler** bölmesinin **Değerler** alanına yerleştirir. Öte yandan çizgi grafikte tarih-saat değerleri içeren bir sütun için, Power BI Desktop bunu büyük olasılıkla bir zaman hiyerarşisi ekseni olarak kullanacağınızı varsayar.
 
 Ancak coğrafya gibi daha zorlayıcı alanlar da vardır. Aşağıdaki tablonun bulunduğu bir Excel çalışma sayfasını düşünün:
 
-![](media/desktop-data-categorization/datacategorizationtable.png)
+![Power BI Desktop’a içeri aktarılacak tablosal verileri gösteren Excel’in ekran görüntüsü.](media/desktop-data-categorization/datacategorizationtable.png)
 
 Power BI Desktop, **GeoCode** sütunundaki kodları Ülkelerin mi yoksa ABD Eyaletlerinin mi kısaltması olarak kabul etmelidir?  Böyle bir kod her ikisi de olabileceğinden kesin ayrım yapmak mümkün değildir. Örneğin AL, Alabama veya Arnavutluk; AR, Arkansas veya Arjantin; CA ise Kaliforniya veya Kanada anlamına gelebilir. Bu fark özellikle GeoCode alanını bir haritaya yerleştirdiğimizde ortaya çıkar. 
 
@@ -36,7 +36,6 @@ Power BI Desktop ülkelerin vurgulandığı bir dünya resmi mi göstermelidir? 
 2. Şeritteki **Modelleme** sekmesinin **Özellikler** alanında, **Veri Kategorisi**'nin yanındaki aşağı açılan oku seçin.  Bu liste sütununuz için seçebileceğiniz veri kategorilerini gösterir. Sütununuzun geçerli veri türüyle kullanılamayacak olan bazı seçenekler devre dışı bırakılmış olabilir.  Örneğin, sütun tarih veya saat değer türündeyse Power BI Desktop coğrafi veri kategorilerini seçmenize izin vermez. 
 3. İstediğiniz kategoriyi seçin.
 
-   ![](media/desktop-data-categorization/desktop-data-categorization.png)
+   ![Veri Kategorisi filtresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-data-categorization/desktop-data-categorization.png)
 
 Ayrıca, [Power BI mobil uygulamaları için coğrafi filtreleme](desktop-mobile-geofiltering.md) hakkında da bilgi edinmek isteyebilirsiniz.
-

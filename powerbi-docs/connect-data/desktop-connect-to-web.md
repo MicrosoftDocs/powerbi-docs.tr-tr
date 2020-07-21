@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223992"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214705"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>Power BI Desktop'tan Web sayfalarına bağlanma
 
@@ -23,21 +23,21 @@ Power BI Desktop'ta bir Web sayfasına bağlanıp verilerini içeri aktararak g�
 
 Power BI Desktop'ta **Giriş** şeridinden **Veri Al > Web**'i seçin.
 
-![](media/desktop-connect-to-web/connect-to-web_1.png)
+![Web seçimini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-connect-to-web/connect-to-web_1.png)
 
 Verilerini içeri aktarmak istediğiniz Web sayfasının URL'sini girmenizi isteyen bir iletişim kutusu açılır.
 
-![](media/desktop-connect-to-web/connect-to-web_2.png)
+![URL alanını gösteren Web iletişim kutusunun ekran görüntüsü.](media/desktop-connect-to-web/connect-to-web_2.png)
 
 URL'yi yazdıktan (veya yapıştırdıktan) sonra **Tamam**'ı seçin. Power BI Desktop belirttiğiniz sayfaya bağlanır ve sayfadaki verileri **Gezgin** penceresinde görüntüler. Kullanılabilir veri öğelerinden birini (sayfanın tamamını içeren bir tablo gibi) seçtiğinizde **Gezgin** penceresinin sağ tarafında, seçtiğiniz verilerin önizlemesi görüntülenir.
 
-![](media/desktop-connect-to-web/connect-to-web_3.png)
+![Seçili tablolardaki verilerin önizlemesini gösteren Gezgin iletişim kutusunun ekran görüntüsü.](media/desktop-connect-to-web/connect-to-web_3.png)
 
 **Düzenle** düğmesini seçerek **Sorgu Düzenleyicisi**'ni başlatabilir, burada, Power BI Desktop'a aktarmadan önce Web sayfasındaki verileri şekillendirebilir ve dönüştürebilirsiniz. Dilerseniz **Yükle** düğmesini seçerek, sol bölmede seçtiğiniz tüm veri öğelerini içeri aktarabilirsiniz.
 
 **Yükle**'yi seçtiğinizde Power BI Desktop seçilen öğeleri içeri aktarır ve Power BI Desktop'ta Raporlar Görünümü'nün sağ tarafında bulunan **Alanlar** bölmesinde kullanılabilir hale getirilir.
 
-![](media/desktop-connect-to-web/connect-to-web_4.png)
+![Seçili tabloların listesini gösteren Alanlar bölmesinin ekran görüntüsü.](media/desktop-connect-to-web/connect-to-web_4.png)
 
 Web sayfalarına bağlanmak ve verilerini Power BI Desktop'a aktarmak için yapmanız gerekenler bu kadardır.
 

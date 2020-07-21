@@ -6,72 +6,122 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 01/03/2020
+ms.date: 07/10/2020
 ms.author: maggies
-ms.openlocfilehash: 4a5abadbe89a19df0b66438c1ffb0013e1bb8d8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f362303a79acb3468d6523eb24383ca0f3d49609
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239639"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264588"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Rapor Oluşturucusu'nda verileri doğrudan sayfalandırılmış bir rapora girme - Power BI
 
-Bu makalede, SQL Server 2016 Rapor Oluşturucusu'nun yeni sürümünde sağlanan ve verileri doğrudan RDL raporuna eklenmiş bir veri kümesi olarak girmenize olanak tanıyan özelliği öğreneceksiniz.  Bu özellik, Power BI Desktop'a benzer. Verileri doğrudan raporunuzdaki veri kümesine yazabilir veya Microsoft Excel gibi başka bir programdan yapıştırabilirsiniz. Verileri girerek veri kümesini oluşturduktan sonra, bunu aynı oluşturduğunuz diğer eklenmiş veri kümeleri gibi kullanabilirsiniz. Ayrıca, birden çok tablo ekleyebilir ve bir tabloyu diğeri için filtre olarak kullanabilirsiniz. Bu özellik rapor parametreleri gibi raporunuzda kullanmanız gerekebilecek küçük, statik veri kümelerinde özellikle kullanışlıdır.
+Bu makalede, Microsoft Power BI Rapor Oluşturucusu’nun yeni sürümünde sağlanan ve verileri doğrudan RDL raporuna eklenmiş bir veri kümesi olarak girmenize olanak tanıyan özelliği öğreneceksiniz.  Bu özellik, Power BI Desktop'a benzer. Verileri doğrudan raporunuzdaki veri kümesine yazabilir veya Microsoft Excel gibi başka bir programdan yapıştırabilirsiniz. Verileri girerek veri kümesini oluşturduktan sonra, bunu aynı oluşturduğunuz diğer eklenmiş veri kümeleri gibi kullanabilirsiniz. Ayrıca, birden çok tablo ekleyebilir ve bir tabloyu diğeri için filtre olarak kullanabilirsiniz. Bu özellik rapor parametreleri gibi raporunuzda kullanmanız gerekebilecek küçük, statik veri kümelerinde özellikle kullanışlıdır.
  
 ## <a name="prerequisites"></a>Önkoşullar
 
-- Verileri doğrudan sayfalandırılmış rapora girmek için, [Microsoft İndirme Merkezi'nden Rapor Oluşturucusu](https://www.microsoft.com/download/details.aspx?id=53613)'nun yeni sürümünü yükleyin. 
+- Verileri doğrudan bir sayfalandırılmış rapora girmek için [Power BI Rapor Oluşturucusu’nu indirip yükleyin](https://aka.ms/pbireportbuilder). 
 - Sayfalandırılmış raporunuzu Power BI hizmetine kaydetmek için, [Power BI Pro hesabınız](../fundamentals/service-self-service-signup-for-power-bi.md) ve [Power BI Premium kapasitesindeki](../admin/service-premium-what-is.md) bir çalışma alanına yazma erişiminiz olmalıdır.
 - Sayfalandırılmış raporunuzu bir rapor sunucusuna kaydetmek için, [RsReportServer.config dosyasını düzenleme](#upload-the-paginated-report-to-a-report-server) izinleriniz olmalıdır.
 
-## <a name="get-started"></a>Kullanmaya başlayın
+## <a name="create-a-data-source-and-dataset"></a>Veri kaynağı ve veri kümesi oluşturma
 
 Rapor Oluşturucusu'nu indirip yükledikten sonra, raporunuza eklenmiş bir veri kaynağı ve veri kümesi yerleştirmek için kullandığınız iş akışının aynısını izlersiniz. Aşağıdaki yordamda, **Veri Kaynakları**'nın altında yeni bir seçenek görürsünüz: **Verileri Girin**.  Bu veri kaynağını raporda tek bir kez ayarlamanız yeterlidir. Bundan sonra, girilen verilerden (ayrı veri kümeleri olarak) hepsi bu tek veri kaynağını kullanan birden çok tablo oluşturabilirsiniz.
 
 1. **Rapor Verileri** bölmesinde **Yeni** > **Veri Kümesi**’ni seçin.
 
-    ![Rapor Oluşturucusu Yeni Veri Kümesi](media/paginated-reports-enter-data/paginated-new-dataset.png)
+    ![Rapor Oluşturucusu Yeni Veri Kümesi’nin ekran görüntüsü.](media/paginated-reports-enter-data/paginated-new-dataset.png)
 
 1. **Veri Kümesi Özellikleri** iletişim kutusunda **Raporumda katıştırılmış veri kümesini kullan**'ı seçin.
 
 1. **Veri kaynağı**'nın yanında **Yeni**'yi seçin.
 
-    ![Yeni eklenmiş veri kaynağı](media/paginated-reports-enter-data/paginated-new-data-source.png)
+    ![Yeni eklenmiş veri kaynağının ekran görüntüsü.](media/paginated-reports-enter-data/paginated-new-data-source.png)
 
 1. **Veri Kaynağı Özellikleri** iletişim kutusunda **Raporumda katıştırılmış bağlantıyı kullan**'ı seçin.
 2. **Bağlantı türünü seçin** kutusunda **VERİ GİR** > **Tamam**'ı seçin.
 
-    ![VERİ GİR veri kaynağı](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
+    ![ENTER DATA adlı veri kaynağının ekran görüntüsü.](media/paginated-reports-enter-data/paginated-data-source-properties-enter-data.png)
 
 1. **Veri Kümesi Özellikleri** iletişim kutusuna dönüp **Sorgu Tasarımcısı**'nı seçin.
 2. **Sorgu Tasarımcısı** bölmesinde, sağ tıklayıp verilerinizi tabloya yapıştırın.
 
-    ![Sorgu Tasarımcısı'nda verileri girme](media/paginated-reports-enter-data/paginated-enter-data.png)
+    ![Sorgu Tasarımcısı’nda Verileri girme seçeneğinin ekran görüntüsü.](media/paginated-reports-enter-data/paginated-enter-data.png)
 
 1. Sütun adlarını ayarlamak için, her **NewColumn** öğesine çift tıklayın ve sütun adını yazın.
 
-    ![Sütun adlarını ayarlama](media/paginated-reports-enter-data/paginated-column-name.png)
+    ![Sütun adlarını ayarlama seçeneğinin ekran görüntüsü.](media/paginated-reports-enter-data/paginated-column-name.png)
 
 1. İlk satır özgün verilerden sütun başlıklarını içeriyorsa, sağ tıklayın ve bunları silin.
     
 9. Varsayılan olarak, her sütunun veri türü Dize'dir. Veri türünü değiştirmek için, sütun başlığına sağ tıklayın > **Türü Değiştir**'e tıklayın ve bunu Tarih veya Kayan gibi farklı bir veri türüne ayarlayın.
 
-    ![Veri türünü değiştirme](media/paginated-reports-enter-data/paginated-data-type.png)
+    ![Veri türünü değiştirme seçeneğinin ekran görüntüsü.](media/paginated-reports-enter-data/paginated-data-type.png)
 
 1. Tabloyu oluşturmayı bitirdiğinizde **Tamam**'ı seçin.  
 
     Oluşturulan sorgu bir XML veri kaynağıyla görebileceğiniz sorguyla aynıdır. Arka planda, güvenli veri sağlayıcısı olarak XML kullanıyoruz.  Bu senaryoya da olanak tanımak için bunun amacını yeniden belirledik.
 
-    ![XML veri yapısı](media/paginated-reports-enter-data/paginated-xml-data.png)
+    ![XML veri yapısının ekran görüntüsü.](media/paginated-reports-enter-data/paginated-xml-data.png)
 
 12. **Veri Kümesi Özellikleri** iletişim kutusunda **Tamam**'ı seçin.
 
 13. Veri kaynağınızı ve veri kümenizi **Rapor Verileri** bölmesinde görürsünüz.
 
-    ![Rapor Verileri bölmesinde veri kümesi](media/paginated-reports-enter-data/paginated-report-data-pane.png)
+    ![Rapor Verileri bölmesindeki Veri Kümesi’nin ekran görüntüsü.](media/paginated-reports-enter-data/paginated-report-data-pane.png)
 
 Raporunuzdaki veri görselleştirmeleri için, veri kümenizi temel olarak kullanabilirsiniz. Ayrıca bir veri kümesi daha ekleyebilir ve bunun için aynı veri kaynağını kullanabilirsiniz.
+
+## <a name="design-the-report"></a>Raporu tasarlama
+
+Artık bir veri kaynağına ve veri kümesine sahip olduğunuza göre raporunuzu oluşturabilirsiniz. Aşağıdaki yordam, önceki bölümdeki verileri temel alan basit bir rapor oluşturur.
+
+1. **Ekle** menüsündeki **Tablo** > **Tablo Sihirbazı** seçeneğini belirleyin.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-table-wizard.png" alt-text="Tablo Sihirbazı seçeneğini belirleme işleminin ekran görüntüsü.":::
+
+1. Yeni oluşturduğunuz veri kümesini ve ardından **İleri**’yi seçin.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-choose-dataset.png" alt-text="Veri kümesi seçme iletişim kutusunun ekran görüntüsü.":::
+
+2.  Alanları düzenle sayfasında gruplandırma ölçütü olarak kullanmak istediğiniz alanları **Kullanılabilir alanlar** kutusundan **Satır grupları** kutusuna sürükleyin. Bu örnekte:
+
+    - CountryRegion
+    - SalesYear
+
+3.  Toplamak istediğiniz alanları **Kullanılabilir alanlar** kutusundan **Değerler** kutusuna sürükleyin. Bu örnekte:
+
+    - SalesAmount
+
+    Varsayılan olarak, Rapor Oluşturucusu **Değerler** kutusundaki alanları toplar, ancak başka bir toplama da seçebilirsiniz.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-select-aggregation.png" alt-text="Arasından seçim yapabileceğiniz farklı toplamaların ekran görüntüsü.":::
+ 
+1. **İleri**’yi seçin.
+4.  **Düzeni seçin** sayfasında, tüm varsayılan ayarları koruyun ama **Grupları genişlet/daralt**'ı temizleyin. Genel olarak, grupları genişletip daraltmak harika bir yöntemdir, ancak biz şu anda tüm verileri görmek istiyoruz.
+
+5.  **Sonraki** > **Son** seçeneğini belirleyin. Tablo tasarım yüzeyinde görüntülenir.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-design-view-matrix.png" alt-text="Tasarım görünümündeki raporun ekran görüntüsü.":::
+
+### <a name="run-the-report"></a>Raporu çalıştırma
+
+Gerçek değerleri görmek ve raporun önizlemesini görüntülemek için raporu çalıştırın.
+
+1. **Giriş** şeridinde **Çalıştır**’ı seçin.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-run-report.png" alt-text="Giriş şeridinde Çalıştır seçeneğini belirleme işleminin ekran görüntüsü.":::
+
+    Artık değerleri görürsünüz. Matrisin Tasarım görünümünde gördüğünüzden daha fazla satır vardır!  Sayfayı biçimlendirebilir veya yerel bilgisayarınıza kaydetmeden ya da hizmete yayımlamadan önce varsayılan ayarları kullanmaya karar verebilirsiniz.
+
+1. Raporunuzun yazdırıldığında nasıl görüneceğini görmek için **Yazdırma Düzeni**’ni seçin.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-select-print.png" alt-text="Yazdırma Düzeni seçeneğini belirleme işleminin ekran görüntüsü.":::
+
+    Artık yazdırılmış bir sayfada nasıl görüneceğini görebilirsiniz.
+
+    :::image type="content" source="media/paginated-reports-enter-data/paginated-print-layout.png" alt-text="Raporun yazdırma görünümündeki ekran görüntüsü.":::
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporu karşıya yükleme
 
@@ -91,7 +141,7 @@ Sayfalandırılmış raporunuzu Power BI Rapor Sunucusu'na, SQL Server Reporting
 
 Dosyayı düzenledikten sonra, yapılandırma dosyasındaki veri sağlayıcıları listesi şöyle görünmelidir:
 
-![RsReportServer yapılandırma dosyası](media/paginated-reports-enter-data/paginated-rsreportserver-config-file.png)
+![RsReportServer yapılandırma dosyasının ekran görüntüsü.](media/paginated-reports-enter-data/paginated-rsreportserver-config-file.png)
 
 İşte bu kadar. Artık bu yeni işlevselliği kullanan raporları rapor sunucunuzda yayımlayabilirsiniz.
 

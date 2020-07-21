@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220000"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264792"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -66,7 +66,7 @@ Bir dizi Power BI örneğinin ardında çeşitli Rapor sunucusu örnekleri yer a
 Power BI içeriğinizi aramaya başlamak için üst bilgide büyütece dokunun.
 
 ## <a name="view-your-favorite-dashboards-and-reports"></a>Sık kullandığınız panoları ve raporları görüntüleme
-Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
+Sık Kullanılanlar sayfanızı görüntülemek için gezinti çubuğunda **Sık Kullanılanlar** (![Sık Kullanılanlar simgesi](./media/mobile-iphone-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) öğesine dokunun. 
 
 [Power BI mobil uygulamalarındaki sık kullanılanlar](mobile-apps-favorites.md) hakkında daha fazla bilgi edinin.
 

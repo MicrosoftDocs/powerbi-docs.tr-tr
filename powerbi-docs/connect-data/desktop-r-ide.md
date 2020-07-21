@@ -10,17 +10,17 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3b7afbe1a94520238899bc984596c9c4cfddd847
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 58e23ecca37b9019ed007c60fe7aaa7e6b4d4515
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223097"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216424"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Power BI ile harici bir R IDE kullanma
 **Power BI Desktop** ile dış R IDE'nizi (Tümleşik Geliştirme Ortamı) kullanarak R betikleri oluşturabilir ve geliştirebilir, ardından da söz konusu betikleri Power BI'da kullanabilirsiniz.
 
-![](media/desktop-r-ide/r-ide_1a.png)
+![Algılanan R IDE alanına R Studio yazıldığını gösteren Seçenekler iletişim kutusunun ekran görüntüsü.](media/desktop-r-ide/r-ide_1a.png)
 
 ## <a name="enable-an-external-r-ide"></a>Dış R IDE'leri etkinleştirme
 Önceki sürümlerde, R betikleri oluşturmak ve çalıştırmak için **Power BI Desktop**'taki R betik düzenleyicisini kullanmanız gerekiyordu. Bu sürümle birlikte, dış R IDE'nizi **Power BI Desktop**'ta başlatabilir ve verilerinizin otomatik olarak R IDE'ye aktarılmasını ve burada görüntülenmesini sağlayabilirsiniz. Burada, betiği söz konusu R IDE'de değiştirebilir ve ardından **Power BI Desktop**'a yapıştırarak Power BI görselleri ve raporları oluşturabilirsiniz.
@@ -37,7 +37,7 @@ Bu özelliği kullanmak için yerel bilgisayarınıza **R IDE** yüklemeniz gere
   * **.R** dosyalarını, **Power BI Desktop**'ın açmasını istediğiniz dış IDE ile ilişkilendirebilirsiniz.
   * **Seçenekler** iletişim kutusunun **R Betik Seçenekleri** bölümündeki *Diğer* seçeneğini belirleyerek, **Power BI Desktop**'ın açması gereken .exe dosyasını belirtebilirsiniz. **Dosya > Seçenekler ve ayarlar > Seçenekler**'e giderek **Seçenekler** iletişim kutusunu görüntüleyebilirsiniz.
     
-    ![](media/desktop-r-ide/r-ide_1b.png)
+    ![Tercih edilen R IDE’nin girilmesi için, Algılanan R IDE alanına Diğer yazıldığını gösteren Seçenekler iletişim kutusunun ekran görüntüsü.](media/desktop-r-ide/r-ide_1b.png)
 
 Yüklü birden çok R IDE'niz varsa **Seçenekler** iletişim kutusundaki *Algılanan R IDE'ler* açılan menüsünden seçim yaparak, hangisinin açılacağını belirtebilirsiniz.
 
@@ -51,13 +51,13 @@ Herhangi bir **.R** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** ile
 1. **Power BI Desktop**'a veri yükleyin.
 2. **Alanlar** bölmesinden birlikte çalışmak istediğiniz alanlar seçin. Henüz betik görsellerini etkinleştirmediyseniz bunu gerçekleştirmeniz istenir.
    
-   ![](media/desktop-r-ide/r-ide_3.png)
+   ![Betik görsellerini etkinleştirmenizi isteyen, Betik görsellerini etkinleştir iletişim kutusunun ekran görüntüsü.](media/desktop-r-ide/r-ide_3.png)
 3. Betik görselleri etkinleştirildiğinde, **Görsel Öğeler** bölmesinden bir R görseli seçebilir ve betiğinizin sonuçlarını görüntülemeye hazır, boş bir R görselinin oluşturulmasını sağlayabilirsiniz. **R betik düzenleyicisi** bölmesi de görüntülenir.
    
-   ![](media/desktop-r-ide/r-ide_4.png)
+   ![Boş bir R görseli gösteren Görselleştirme bölmesinin ekran görüntüsü.](media/desktop-r-ide/r-ide_4.png)
 4. Artık R betiğinizde kullanmak istediğiniz alanları seçebilirsiniz. Bir alan seçtiğinizde, **R betik düzenleyicisi** alanı otomatik olarak, seçtiğiniz alanı veya alanları temel alan betik kodları oluşturur. R betiğinizi doğrudan **R betik düzenleyicisi** bölmesinde oluşturabilir (veya buraya yapıştırabilir) ya da bölmeyi boş bırakabilirsiniz.
    
-   ![](media/desktop-r-ide/r-ide_5.png)
+   ![R betik düzenleyicisinde betikler içeren boş bir R görseli gösteren Görselleştirme bölmesinin ekran görüntüsü.](media/desktop-r-ide/r-ide_5.png)
    
    > [!NOTE]
    > R görselleri için varsayılan toplama işlemi *özetleme*'dir.
@@ -65,10 +65,10 @@ Herhangi bir **.R** dosyası ilişkilendirmesi bulunmuyorsa, **Seçenekler** ile
    > 
 5. Şimdi R IDE'nizi doğrudan **Power BI Desktop**'tan başlatabilirsiniz. Aşağıda gösterildiği gibi, **R betik düzenleyicisi** başlık çubuğunun sağ tarafında bulunan **R IDE'yi başlat** düğmesini seçin.
    
-   ![](media/desktop-r-ide/r-ide_6.png)
+   ![R IDE düğmesinden nasıl başlatılacağını gösteren, R IDE bölmesinin ekran görüntüsü.](media/desktop-r-ide/r-ide_6.png)
 6. Aşağıdaki görüntüde gösterildiği gibi, belirttiğiniz R IDE Power BI Desktop tarafından açılır. (Bu görüntüde, **RStudio** varsayılan R IDE'dir.)
    
-   ![](media/desktop-r-ide/r-ide_7.png)
+   ![Power BI Desktop’ta R IDE’nin R Studio’da başlatıldığını gösteren ekran görüntüsü.](media/desktop-r-ide/r-ide_7.png)
    
    > [!NOTE]
    > **Power BI Desktop**, betiği çalıştırdığınızda **Power BI Desktop**'taki verilerin içeri aktarılabilmesini sağlamak için ilk üç satırı ekler.

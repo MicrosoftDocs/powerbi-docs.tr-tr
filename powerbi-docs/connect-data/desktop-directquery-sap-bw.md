@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 644966663ea9d53b34861f1b33b2cab8f5fcee31
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7cc8a159139cc53a0e243134b31305dff95812d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223672"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216441"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanarak SAP Business Warehouse'a bağlanma
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:
@@ -31,19 +31,19 @@ Ayrıca, SAP BW'nun Power BI'da desteklenmeyen birçok özelliğinin olduğunu, 
 ## <a name="additional-modeling-restrictions"></a>Modellemeye İlişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca modelleme kısıtlamaları aşağıdaki gibidir:
 
-* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışıdır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
+* **Hesaplanmış sütunlar desteklenmez:** Hesaplanmış sütun oluşturma özelliği devre dışı bırakılmıştır. Bu, hesaplanmış sütunlar oluşturan Gruplandırma ve Kümeleme özelliklerinin de kullanılamadığı anlamına gelir.
 * **Ölçüler için ek sınırlamalar:** Ölçülerde kullanılan DAX ifadelerinde, SAP BW tarafından sunulan destek düzeyini yansıtan ek sınırlamalar söz konusudur.
 * **İlişki tanımlama desteklenmez:** İlişkiler dış SAP kaynağında belirlidir ve modelde bunlara ek olarak yeni ilişkiler tanımlanamaz.
 * **Veri Görünümü yoktur:** **Veri Görünümü** normalde tabloda ayrıntı düzeyindeki verileri gösterir. SAP BW gibi OLAP kaynakların yapısı gereği bu görünüm, SAP BW üzerinde kullanılamaz.
-* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görülebilen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
-* **DAX'taki ek sınırlamalar:** Ölçü tanımlamalarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
+* **Sütun ve ölçü ayrıntıları sabittir:** Alan listesinde görünen sütunlar ve ölçüler listesi, temel alınan kaynak tarafından sabitlenmiştir ve değiştirilemez. Örneğin, bir sütunu silmek ya da veri türünü değiştirmek mümkün değildir. (Ancak yeniden adlandırmak mümkündür.)
+* **DAX'taki ek sınırlamalar:** Ölçü tanımlarında kullanılabilecek DAX'ta, kaynaktaki sınırlamaları yansıtan ek sınırlamalar söz konusudur. Örneğin, bir tablo üzerinde toplama işlevini kullanmak mümkün değildir.
 
 ## <a name="additional-visualization-restrictions"></a>Görselleştirmelere ilişkin Ek Kısıtlamalar
 Power BI'da DirectQuery kullanarak SAP BW'ya bağlanmanın ek olarak getireceği başlıca ek görselleştirme kısıtlamaları aşağıdaki gibidir:
 
-* **Sütunlarda toplama yoktur:** Bir görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
+* **Sütunlarda toplama yoktur:** Görseldeki sütun için toplamayı değiştirmek mümkün değildir; her zaman *Özetleme* şeklindedir.
 * **Ölçü filtreleme devre dışıdır:** SAP BW tarafından sunulan desteği yansıtması için ölçü filtreleme devre dışı bırakılmıştır.
-* **Çoklu seçim ve ekle/dışla:** Bir görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
+* **Çoklu seçim ve ekleme/dışlama:** Görseldeki veri noktalarında çoklu seçim yapma özelliği, noktalar birden fazla sütundaki değerleri temsil ediyorsa devre dışıdır. Örneğin, Ülke'ye göre Satışlar'ı gösteren ve Açıklama'da Kategori olan bir çubuk grafiğinde, (ABD, Bisiklet) ve (Fransa, Giyim)'i temsil eden noktayı seçmek mümkün değildir. Benzer şekilde, (ABD, Bisiklet) noktasını seçip görselden dışlamak da mümkün olmaz. Her iki sınırlama da SAP BW tarafından sunulan desteği yansıtmak için uygulanmaktadır.
 
 ## <a name="support-for-sap-bw-features"></a>SAP BW özellikleri için destek
 Aşağıdaki tabloda, tam olarak desteklenmeyen veya Power BI kullanıldığında davranışı farklılık gösterecek olan tüm SAP BW özellikleri listelenmiştir.   
@@ -56,7 +56,7 @@ Aşağıdaki tabloda, tam olarak desteklenmeyen veya Power BI kullanıldığınd
 | Ölçü birimleri |Ölçü birimleri (örneğin 230 KG) Power BI'da yansıtılmaz. |
 | Anahtar veya metin (kısa, orta, uzun) |CostCenter gibi bir SAP BW karakteristiği için alan listesi tek bir Cost Center sütunu gösterecektir.  Bu sütun kullanıldığında varsayılan metin görüntülenir.  Gizli alanları göstererek benzersiz ad sütununu (SAP BW tarafından atanmış bir benzersiz adı döndürür ve benzersizliğin temelidir) görmek de mümkündür.<br/> <br/>  Anahtar ve diğer metin alanları kullanılamaz. |
 | Bir karakteristiğin birden çok hiyerarşisi |**SAP**'de, bir karakteristik birden çok hiyerarşiye sahip olabilir. BEx Analyzer gibi araçlarda bir karakteristik sorguya eklendiğinde kullanıcı, kullanmak istediği hiyerarşiyi seçebilir. <br/> <br/> **Power BI**'da birbirinden farklı hiyerarşiler, alan listesinde aynı boyutta olan farklı hiyerarşiler olarak görünebilir.  Ancak, aynı boyutta olan iki farklı hiyerarşiyi aynı anda seçmek, SAP tarafından boş veri döndürülmesine neden olur. |
-| Düzensiz hiyerarşiler için yapılan işlem |![](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
+| Düzensiz hiyerarşiler için yapılan işlem |![Düzensiz hiyerarşiler için yapılan işlemi gösteren, düzensiz içeriğin ekran görüntüsü.](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
 | Ölçeklendirme çarpanı/işareti tersine çevirme |SAP'de, bir önemli rakam için biçimlendirme seçeneği olarak bir ölçeklendirme çarpanı (örneğin, 1000) tanımlanabilir. Diğer bir deyişle, görüntülenen her şey bu çarpana göre ölçeklendirilir. <br/> <br/> Benzer şekilde, işareti tersine çevirecek bir özellik ayarı da vardır. Böyle bir önemli rakamın Power BI'da (bir görselde veya bir hesaplamanın parçası olarak) kullanılması, ölçeklendirilmemiş rakamın kullanılmasına (ve işaretin tersine çevrilmemesine) neden olur. Temel alınan ölçeklendirme çarpanı kullanılamaz. Power BI görsellerinde, eksende gösterilen ölçek birimleri (K,M,B) görsel biçimlendirmenin bir parçası olarak denetlenebilir. |
 | Düzeylerin dinamik olarak belirdiği/kaybolduğu hiyerarşiler |SAP BW'ya bağlanma işleminin başında, bir hiyerarşinin düzey bilgileri alınır ve alan listesinde bir alan kümesi oluşur. Bu önbelleğe alınır ve düzey kümesi değişirse Yenile çağrılana kadar alan kümesi değişmez. <br/> <br/> Bu yalnızca **Power BI Desktop**'ta mümkündür. Düzey değişikliklerini yansıtacak olan Yenile, Yayımla'dan sonra Power BI hizmetinde çağrılamaz. |
 | Varsayılan filtre |Bir BEx sorgusu Varsayılan Filtreler içerebilir ve bunlar, SAP BEx Analyzer tarafından otomatik olarak uygulanır. Bunlar açıkça sunulmaz. Bu nedenle, Power BI'da eşdeğer bir kullanım, aynı filtreleri varsayılan olarak uygulamaz. |

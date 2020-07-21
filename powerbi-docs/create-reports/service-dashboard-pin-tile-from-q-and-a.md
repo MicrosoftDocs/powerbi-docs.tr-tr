@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219195"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263067"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
 ## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
@@ -32,7 +32,7 @@ Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sor
    ![soru yazma](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    yazdığınızda soru kutusunda öneriler görüntülenir.
-4. Grafiği panonuza kutucuk olarak eklemek için tuvalin sağ üst kısmında bulunan raptiye ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) simgesini seçin. Sizinle paylaşılmış olan panolara herhangi bir görselleştirme sabitleyemezsiniz.
+4. Grafiği panonuza kutucuk olarak eklemek için ![Raptiye simgesi](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) tuvalin sağ üst kısmındaki raptiyeyi seçin. Sizinle paylaşılmış olan panolara herhangi bir görselleştirme sabitleyemezsiniz.
 
 5. Kutucuğu, mevcut bir panoya veya yeni bir panoya sabitleyin.
 

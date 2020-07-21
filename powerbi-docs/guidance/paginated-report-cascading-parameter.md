@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920779"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214084"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Sayfalandırılmış raporlarda basamaklı parametreleri kullanma
 
@@ -60,7 +60,7 @@ Bayiler gibi büyük miktarlardaki kullanılabilir öğeleri sınırlandırmanı
 
 Bu örnekte rapor kullanıcısı beş rapor parametresiyle etkileşimli çalışır. Country-Region, State-Province, City ve Postal Code değerlerini seçmesi gerekir. Ardından son bir parametre söz konusu coğrafi konumda bulunan bayileri listeler.
 
-![Resimde beş rapor parametresi gösterilmektedir: Country-Region, State-Province, City, Postal Code ve Reseller. İlk dördünün değerleri ayarlanmış ve Reseller (Bayi) listesi yalnızca dört öğe içerecek şekilde filtrelenmiştir.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![İlgili sütunlara göre filtrelemeyi gösteren Power BI sayfalandırılmış rapor parametrelerinin ekran görüntüsü.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 
@@ -134,7 +134,7 @@ Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 
 Bu örnekte rapor kullanıcısı bayi adının ilk harfini seçmek için bir rapor parametresiyle etkileşimli çalışır. Sonra ikinci bir parametre adı seçili harfle başlayan bayileri listeler.
 
-![Resimde iki rapor parametresi gösterilmektedir: Group ve Reseller. İlk parametre değeri A harfine ayarlanmıştır ve Reseller listesi bu harfle başlayan birçok öğeyi gösterecek şekilde filtrelenmiştir.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![Gruplandırma sütununa göre filtrelemeyi gösteren Power BI sayfalandırılmış rapor parametrelerinin ekran görüntüsü.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 
@@ -196,7 +196,7 @@ GO
 
 Bu örnekte rapor kullanıcısı arama düzeni girmek için bir rapor parametresiyle etkileşimli çalışır. Sonra ikinci bir parametre adı bu düzeni içeren bayileri listeler.
 
-![Resimde iki rapor parametresi gösterilmektedir: Search ve Reseller. İlk parametre değeri “red” metnine ayarlanmıştır ve Reseller listesi bu metni içeren birkaç öğeyi gösterecek şekilde filtrelenmiştir.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![Arama desenine göre filtrelemeyi gösteren Power BI sayfalandırılmış rapor parametrelerinin ekran görüntüsü.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 
@@ -242,7 +242,7 @@ Bu senaryoda kullanılabilir değerleri sınırlandırmak için olgu verilerini 
 
 Bu örnekte rapor kullanıcısı üç rapor parametresiyle etkileşimli çalışır. İlk ikisi satış siparişi tarihlerinin tarih aralığını ayarlar. Sonra üçüncü parametre, söz konusu tarih aralığında siparişlerin oluşturulmuş olduğu bayileri listeler.
 
-![Resimde üç rapor parametresi gösterilmektedir: Start Order Date, End Order Date ve Reseller. İki tarih parametresi Ocak 2020 için ayarlanmış ve Reseller listesi bu ay içinde sipariş veren birçok bayi öğesini temsil edecek şekilde filtrelenmiştir.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![Üç rapor parametresini gösteren Power BI sayfalandırılmış rapor parametrelerinin ekran görüntüsü: Start Order Date, End Order Date ve Reseller.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 

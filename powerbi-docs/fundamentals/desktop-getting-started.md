@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 409771c8786fb704fbf2a882353e8e3f20ec2437
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222196"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215598"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 Power BI Desktop'la çalışmaya başlama kılavuzuna hoş geldiniz. Bu turda Power BI Desktop'ın nasıl çalıştığı, neler yapabileceği ve iş zekanızı artırmak için nasıl güçlü veri modelleri ve büyüleyici raporlar oluşturulabileceği gösterilir.
 
 Power BI Desktop'ın nasıl çalıştığına ve nasıl kullanılacağına hızlı bir genel bakış için, yalnızca birkaç dakika içinde bu kılavuzdaki ekranları tarayabilirsiniz. Daha iyi anlamak için her bölümü okuyabilir, adımları uygulayabilir ve kendi Power BI Desktop dosyanızı oluşturup bunu [Power BI hizmetine](https://app.powerbi.com/) gönderebilir ve başkalarıyla paylaşabilirsiniz.
 
-![Power BI Desktop raporu](media/desktop-getting-started/hero-02.png)
+![Örnek bir çalışma öğesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/hero-02.png)
 
 Ayrıca [Power BI Desktop ile Çalışmaya Başlama](https://www.youtube.com/watch?v=Qgam9M8I0xA) videosunu izleyebilir ve videoyla birlikte takip etmek üzere [Finansal Örnek](https://go.microsoft.com/fwlink/?LinkID=521962) adlı Excel çalışma kitabını indirebilirsiniz.
 
@@ -45,7 +45,7 @@ Power BI Desktop'ı indirmek için [Power BI Desktop indirme sayfasına](https:/
 
 Power BI Desktop uygulamasını Power BI hizmetinden de indirebilirsiniz. Üst menü çubuğunda **İndir** simgesini seçin ve ardından **Power BI Desktop**'ı seçin.
 
-![Power BI hizmetinden Power BI Desktop'ı indirme](media/desktop-getting-started/gsg_download.png)
+![Power BI Desktop’ı indirme seçeneğini gösteren Power BI hizmetinin ekran görüntüsü.](media/desktop-getting-started/gsg_download.png)
 
 Microsoft Store sayfasında **Al**'ı seçin ve yönergeleri izleyerek bilgisayarınıza Power BI Desktop'ı yükleyin. Windows **Başlat** menüsünden veya Windows görev çubuğundaki simgeden Power BI Desktop'ı başlatın.
 
@@ -53,32 +53,32 @@ Power BI Desktop ilk kez başlatıldığında **Hoş Geldiniz** ekranını gör�
 
 **Hoş Geldiniz** ekranında **Verileri alabilir**, **Son kaynaklara** bakabilir, son raporları açabilir, **Diğer raporları açabilir** veya diğer bağlantıları seçebilirsiniz. Ayrıca başlangıçta her zaman **Hoş Geldiniz** ekranının gösterilip gösterilmeyeceğini de seçebilirsiniz. **Hoş Geldiniz** ekranını kapatmak için kapat simgesini seçin.
 
-![Power BI Desktop Hoş Geldiniz ekranı](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
+![Karşılama ekranını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
 Power BI Desktop'ın sol tarafında üç Power BI Desktop görünümünün simgeleri vardır: yukarıdan aşağıya **Rapor**, **Veri** ve **İlişkiler**. Geçerli görünüm sol taraftaki sarı çubukla gösterilir ve simgelerden herhangi birini seçerek görünümleri değiştirebilirsiniz. 
 
-![Üç Power BI Desktop görünümünün simgeleri](media/desktop-getting-started/designer_gsg_viewtypes.png)
+![Rapor, Veri ve İlişkiler simgelerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
 Varsayılan görünüm **Rapor** görünümüdür. 
 
-![Power BI Desktop Rapor görünümü](media/desktop-getting-started/designer_gsg_blankreport.png)
+![Varsayılan görünümü gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_blankreport.png)
 
 Power BI Desktop, ayrı pencerede açılan **Power Query Düzenleyicisi**'ni de içerir. **Power Query Düzenleyicisi**'nde sorgular oluşturup verileri dönüştürebilir, ardından daraltılmış veri modelini Power BI Desktop'a yükleyerek raporlar oluşturabilirsiniz.
 
 ## <a name="connect-to-data"></a>Verilere bağlanma
 Power BI Desktop yüklendikten sonra, durmadan büyüyen veri dünyasına bağlanmaya hazırsınız. Kullanılabilir birçok veri kaynağı türünü görmek için Power BI Desktop **Giriş** sekmesinde **Veri Al** > **Diğer**'i seçin ve **Veri Al** penceresindeki **Tüm** veri kaynakları listesinde gezinin. Bu hızlı turda birkaç farklı **Web** veri kaynağına bağlanırsınız.
 
-![Veri Al penceresinde Web veri kaynağını seçin ](media/desktop-getting-started/getdataweb.png)
+![Veri Al aracını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/getdataweb.png)
 
 Güneş gözlüğü satan bir perakendeci için veri analisti olarak çalıştığınızı düşünün. Müşterinizin güneş gözlüğü satışlarını en çok güneş alan yerlere hedeflemesine yardımcı olmak istiyorsunuz. Bankrate.com [Best and worst states for retirement](https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/) (Emeklilik için en iyi ve en kötü eyaletler) sayfasında bu konuyla ilgili ilginç veriler bulunur.
 
 Bir web veri kaynağına bağlanmak için Power BI Desktop **Giriş** sekmesinde **Veri Al** > **Web**'i seçin. 
 
-![Web veri kaynağını seçin](media/desktop-getting-started/gsg_syw_2.png)
+![Veri Al aracının Web seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_syw_2.png)
 
 **Web'den** iletişim kutusunda *https:\//www.bankrate.com/retirement/best-and-worst-states-for-retirement/* adresini **URL** alanına yapıştırın ve **Tamam**'ı seçin. 
 
-![Web adresini Web'den iletişim kutusuna yapıştırın](media/desktop-getting-started/gettingstarted_8.png)
+![Web’den iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gettingstarted_8.png)
 
 İstenirse, anonim erişimi kullanmak için **Web İçeriğine Eriş** ekranında **Bağlan**'ı seçin. 
 
@@ -86,11 +86,11 @@ Power BI Desktop'ın sorgu işlevselliği çalışmaya başlar ve web kaynağıy
 
 Bu noktada **Yükle**'yi seçerek tabloyu yükleyebilir veya **Veri dönüştürme**'yi seçerek yüklemeden önce tabloda değişiklikler yapabilirsiniz.
 
-![Web sayfasından tablo önizlemesi](media/desktop-getting-started/datasources_fromnavigatordialog.png)
+![İçeri aktarılan verilerin tablo görünümünü gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/datasources_fromnavigatordialog.png)
 
 **Veri dönüştürme**'yi seçtiğinizde tablonun temsili bir görünümüyle Power Query Düzenleyicisi başlatılır. **Sorgu Ayarları** bölmesi sağ taraftadır veya istediğiniz zaman Power Query Düzenleyicisi'nin **Görünüm** sekmesinde **Sorgu Ayarları**'nı seçerek bu bölmeyi gösterebilirsiniz. 
 
-![Sorgu Ayarları ile Power Query Düzenleyicisi](media/desktop-getting-started/designer_gsg_editquery.png)
+![Sorgu Ayarları ile Power Query Düzenleyicisi’ni gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Verilere bağlanma hakkında daha fazla bilgi için bkz. [Power BI Desktop'taki verilere bağlanma](../connect-data/desktop-connect-to-data.md).
 
@@ -104,11 +104,11 @@ Veri kaynağına bağlandığınıza göre, verileri ihtiyaçlarımızı karşı
 
 **Sorgu Ayarları**'ndaki **Uygulanan Adımlar**'da zaten birkaç adım bulunduğuna dikkat edin. Etkisini görmek için Power Query Düzenleyicisi'nde her adımı seçebilirsiniz. İlk olarak bir web kaynağı belirttiniz ve ardından **Gezgin** penceresinde tablonun önizlemesine baktınız. Üçüncü adım olan **Değiştirilen tür** adımında Power BI dışarı aktarırken tamsayı verilerini tanıdı ve özgün web **Metin** *veri türünü* otomatik **Tamsayı**'ya dönüştürdü. 
 
-![Üç Uygulanan Adımın bulunduğu Sorgu Ayarları bölmesi](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
+![Üç tane Uygulanan Adımı gösteren, Sorgu Ayarları ile Power Query Düzenleyicisi’ni gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_appliedsteps_changedtype.png)
 
 Veri türünü değiştirmeniz gerekiyorsa değiştirilecek sütunu veya sütunları seçin. Birkaç bitişik sütunu seçmek için **Shift** tuşunu veya bitişik olmayan birkaç sütunu seçmek için **Ctrl** tuşunu basılı tutun. Sütun başlığına sağ tıklayın, **Türü Değiştir**'i seçin ve ardından menüden yeni bir veri türü seçin veya **Giriş** sekmesinin **Dönüştür** grubunda yer alan **Veri Türü**'nün yanındaki listeyi açın ve yeni bir veri türü seçin.
 
-![Veri türünü değiştirme](media/desktop-getting-started/designer_gsg_changedatatype.png)
+![Veri türünü değiştirme seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_changedatatype.png)
 
 > [!NOTE]
 > Power BI Desktop'ta Power Query Düzenleyicisi, kullanılabilir görevler için şeridi veya sağ tıklama menülerini kullanır. Şeridin **Giriş** veya **Dönüştür** sekmesinde seçebileceğiniz görevlerin çoğu bir öğeye sağ tıklayıp görüntülenen menüden seçerek de kullanılabilir.
@@ -117,11 +117,11 @@ Veri türünü değiştirmeniz gerekiyorsa değiştirilecek sütunu veya sütunl
 
 Örneğin, güneş gözlüğü satışlarında en fazla hava durumu sınıflandırmasıyla ilgilendiğiniz için tabloyu **Overall rank** (Genel sınıflandırma) sütunu yerine **Weather** (Hava durumu) sütununa göre sıralamaya karar verdiniz. **Weather** başlığının yanındaki oka tıklayarak listeyi açın ve **Artan düzende sırala**'yı seçin. Şimdi veriler hava durumu sınıflandırmasına göre sıralanmış olarak gösterilir ve **Uygulanan Adımlar**'da **Sıralanan Satırlar** adımı gösterilir. 
 
-![Satırları artan düzende sıralama](media/desktop-getting-started/shapecombine-changetype-b.png)
+![Uygulanan Adımlardaki Sıralanan Satırları gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine-changetype-b.png)
 
 Hava durumunun en kötü olduğu eyaletlerde güneş gözlüğü satışlarıyla pek ilgilenmiyorsunuz, bu nedenle bunları tablodan kaldırmaya karar verdiniz. **Giriş** sekmesinin **Satırları Azalt** grubunda **Satırları Kaldır** > **Alt Satırları Kaldır**'ı seçin. **Alt Satırları Kaldır** iletişim kutusunda *10* girin ve ardından **Tamam**'ı seçin. 
 
-![Alt Satırları Kaldır](media/desktop-getting-started/pbi_gsg_getdata3.png)
+![Alt Satırları Kaldır iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gsg_getdata3.png)
 
 En kötü 10 hava durumu satırı tablodan kaldırılır ve **Uygulanan Adımlar**'da **Alt Satırlar Kaldırıldı** adımı gösterilir.
 
@@ -129,23 +129,23 @@ Tabloda ihtiyacınız olandan daha fazla bilgi bulunduğuna ve **Affordability**
 
 Ardından **Giriş** sekmesinin **Sütunları Yönet** grubunda **Sütunları Kaldır**'ı seçin. Ayrıca sütun başlıklarından birine sağ tıklayıp menüden **Sütunları Kaldır**'ı da seçebilirsiniz. Seçilen sütunlar kaldırılır ve **Uygulanan Adımlar**'da **Kaldırılan Sütunlar** adımı görüntülenir.
 
-![Sütunları Kaldır](media/desktop-getting-started/pbi_gsg_getdata3a.png)
+![Uygulanan Adımlara eklenen Sütunları Kaldır seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gsg_getdata3a.png)
 
 Bir kez daha düşünüldüğünde **Affordability** (Uygun Fiyat) güneş gözlüğü satışlarına uygun olabilir. Bu sütunu geri almak istiyorsunuz. **Uygulanan Adımlar** bölmesinin son adımını, adımın yanındaki **X** silme simgesini seçerek kolayca geri alabilirsiniz. Şimdi yalnızca silmek istediğiniz sütunları seçerek adımı yineleyebilirsiniz. Daha fazla esneklik elde etmek için her sütunu ayrı bir adımda silebilirsiniz. 
 
 **Uygulanan Adımlar** bölmesindeki herhangi bir adıma sağ tıklayabilir ve adımı silmeyi, yeniden adlandırmayı, sırada yukarı veya aşağı taşımayı ya da onu izleyen adımları eklemeyi veya silmeyi seçebilirsiniz. Ara adımlar için, bir değişikliğin sonraki adımları etkileyebileceği ve sorgunuzu kesebileceği durumlarda Power BI Desktop sizi uyarır.  
 
-![Uygulanan Adımlar'ı değiştirme](media/desktop-getting-started/designer_gsg_install.png)
+![Uygulanan Adımları değiştirme seçeneklerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_install.png)
 
 Örneğin artık tabloyu **Weather** (Hava Durumu) değerine göre sıralamak istemeseydiniz **Sıralanan Satırlar** adımını silebilirdiniz. Power BI Desktop bu adımı silmenin sorgunuzun kesilmesine neden olabileceği konusunda sizi uyarır. Hava durumuna göre sıraladıktan sonra en alttaki 10 satırı kaldırdınız; dolayısıyla sıralamayı kaldırırsanız farklı satırlar kaldırılır. **Sıralanan Satırlar** adımını seçmeniz ve bu noktaya yeni bir ara adım eklemek istemeniz durumunda da uyarı alırsınız.  
 
-![Adımı silme uyarısı](media/desktop-getting-started/deletestepwarning.png)
+![Adımı Sil iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/deletestepwarning.png)
 
 Son olarak emeklilikle ilgili olan tablo başlığını güneş gözlüğü satışlarıyla ilgili bir başlıkla değiştirirsiniz. **Sorgu Ayarları** bölmesindeki **Özellikler**'in altında eski başlığı *Best states for sunglass sales* (Güneş gözlüğü satışları için en iyi eyaletler) başlığıyla değiştirin.
 
 Şekillendirilmiş verileriniz için tamamlanan sorgu aşağıdakine benzer:
 
-![Tamamlanan sorgu](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
+![Şekillendirilmiş veriler için tamamlanan sorguyu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_querysettingsfinished.png)
 
 Verileri şekillendirme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md).
 
@@ -156,7 +156,7 @@ Eyaletlerin çeşitli durumları hakkındaki veriler ilgi çekicidir ve ek çöz
 
 Eyalet kısaltması verilerini Power Query Düzenleyicisi'nde içeri aktarmak için şeritteki **Giriş** sekmesinin **Yeni Sorgu** grubunda **Yeni Kaynak** > **Web**'i seçin. 
 
-![Yeni kaynak](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
+![Power Query Düzenleyicisi’nin Yeni Kaynaktan Web’i seçtiğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
 **Web'den** iletişim kutusunda eyalet kısaltmaları sitesinin URL'sini girin: *https:\//en.wikipedia.org/wiki/List_of_U.S._state_abbreviations*.
 
@@ -168,7 +168,7 @@ Eyalet kısaltması verilerini Power Query Düzenleyicisi'nde içeri aktarmak i�
 
 **Veya**'yı seçin ve ikinci **eşittir** alanının yanındaki **State ("Commonwealth")** öğesini seçin. **Tamam**’ı seçin. 
 
-![Satırları filtreleme](media/desktop-getting-started/filterrows.png)
+![Power Query Düzenleyicisi’nin Satırları Filtreleme sorgu kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/filterrows.png)
 
 **Federal district** ve **island** gibi fazladan değerler kaldırıldığından artık 50 eyaletten ve onların iki harfli kısaltmalarından oluşan bir listeniz vardır. Sütun başlıklarına sağ tıklayıp **Yeniden Adlandır**'ı seçerek sütunları daha anlamlı olacak şekilde, örneğin **State name** (Eyalet adı), **Status** (Durum) ve **Abbreviation** (Kısaltma) gibi yeniden adlandırabilirsiniz.
 
@@ -176,7 +176,7 @@ Tüm adımların **Sorgu Ayarları** bölmesindeki **Uygulanan Adımlar**'ın al
 
 Şekillendirilmiş tablonuz şimdi şöyle görünür:
 
-![Şekillendirilmiş Eyalet kodları tablosu](media/desktop-getting-started/statecodes.png)
+![Sorgu Ayarları bölmesinde Uygulanan Adımları içeren Power Query Düzenleyicisi’ni gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/statecodes.png)
 
 *Sorgu Ayarları*'nın **Özellikler** alanında tabloyu **State codes** (Eyalet kodları) olarak yeniden adlandırın. 
 
@@ -190,35 +190,35 @@ Bu örnekte *States codes* sorgusunu **Best states for sunglasses** sorgusuyla *
 
 **Gizlilik düzeyleri** iletişim kutusunu alırsanız **Bu dosya için gizlilik düzeyleri denetimlerini yoksayın** seçeneğini belirtin ve **Kaydet**'i seçin. **Tamam**’ı seçin. 
 
-![Sorguları birleştirme](media/desktop-getting-started/shapecombine_merge.png)
+![Sorguları Birleştirme penceresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_merge.png)
 
 **Best states for sunglass sales** tablosunun sağ tarafında **State codes** adlı yeni bir sütun görüntülenir. Güneş gözlüğü satış sorgusuna yönelik en iyi eyaletlerle birleştirdiğiniz eyalet kodu sorgusunu içerir. Birleştirilmiş tablodaki sütunların tümü **State codes** sütununda toplanır. Birleştirilmiş tabloyu *genişletebilir* ve yalnızca istediğiniz sütunları ekleyebilirsiniz. 
 
-![Birleştirilmiş sorgu sütunu](media/desktop-getting-started/mergedquery.png)
+![Durum Kodları sütununu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/mergedquery.png)
 
 Birleştirilen tabloyu genişletmek ve hangi sütunların ekleneceğini belirlemek için sütun başlığındaki **Genişlet** simgesini seçin. **Genişlet** iletişim kutusunda yalnızca **Abbreviation** sütununu seçin. **Ön ek olarak orijinal sütun adını kullan**'ın seçimini kaldırın ve ardından **Tamam**'ı seçin. 
 
-![Birleştirilmiş tablodan genişletilmiş sütunu seçme](media/desktop-getting-started/shapecombine_mergeexpand.png)
+![Durum Kodları Kısaltmaları sütununu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_mergeexpand.png)
 
 > [!NOTE]
-> **State codes** tablosunun nasıl görüntüleneceği konusunda denemeler yapabilirsiniz. Bazı denemeler yapın ve sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**'dan bu adımı silmeniz yeterlidir. Bu işlem, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabileceğiniz bir serbest tekrarlamadır.
+> **State codes** tablosunun nasıl görüntüleneceği konusunda denemeler yapabilirsiniz. Bazı denemeler yapın. Sonuçları beğenmezseniz **Sorgu Düzenleyicisi** bölmesindeki **Uygulanan Adımlar**’dan bu adımı silmeniz yeterlidir. Bu işlem, genişletme işlemi istediğiniz gibi görünene dek dilediğiniz kadar tekrarlayabileceğiniz bir serbest tekrarlamadır.
 
 Şekillendirme ve birleştirme veri adımlarının daha ayrıntılı açıklaması için bkz. [Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md).
 
 Her biri ihtiyaçlarımıza göre şekillendirilmiş iki veri kaynağının birleştirildiği tek bir sorgu tablosu elde etmiş oldunuz. Bu sorgu, eyaletlerdeki demografik bilgiler, sağlık düzeyleri veya eğlence fırsatları gibi ilgi çekici diğer birçok veri bağlantısı için temel oluşturabilir.
 
-![Şekillendirilmiş ve birleştirilmiş sorgular](media/desktop-getting-started/mergedcolumn.png)
+![Şekillendirilmiş ve birleştirilmiş sorgular ile Power Query Düzenleyicisi’ni gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/mergedcolumn.png)
 
 Şimdilik Power BI Desktop'ta birkaç ilgi çekici rapor hazırlamaya yetecek veriniz vardır. Bu bir kilometre taşı olduğundan, değişiklikleri **Power Query Düzenleyicisi**'nde uygulayın ve şeridin **Giriş** sekmesindeki **Kapat ve Uygula**'yı seçerek bunları Power BI Desktop'a yükleyin. Power BI Desktop'ta çalışırken sorguyu Power Query Düzenleyicisi'nde açık tutmak için yalnızca **Uygula**'yı da seçebilirsiniz. 
 
-![Kapatma ve değişiklikleri uygulama](media/desktop-getting-started/shapecombine_closeandapply.png)
+![Kapat ve Değişiklikleri Uygula seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_closeandapply.png)
 
 Tablo Power BI Desktop'a yüklendikten sonra tabloda başka değişiklikler yapabilir ve yaptığınız değişikliklerin uygulanması için modeli yeniden yükleyebilirsiniz. Power BI Desktop'ta **Power Query Düzenleyicisi**'ni yeniden açmak için Power BI Desktop şeridindeki **Giriş** sekmesinde **Sorguları Düzenle**'yi seçin. 
 
 ## <a name="build-reports"></a>Rapor oluşturma
 Power BI Desktop **Rapor** görünümünde görselleştirmeler ve raporlar oluşturabilirsiniz. **Rapor** görünümünün altı ana alanı vardır:
 
-![Power BI Desktop Rapor görünümü](media/desktop-getting-started/designer_gsg_reportview.png)
+![Rapor görünümünü gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_reportview.png)
 
 1. Raporlar ve görselleştirmelerle ilişkili sık kullanılan görevleri görüntüleyen üstteki şerit.
 2. Görselleştirmelerin oluşturulduğu ve düzenlendiği ortadaki tuval alanı
@@ -229,17 +229,17 @@ Power BI Desktop **Rapor** görünümünde görselleştirmeler ve raporlar oluş
 
 Bölmelerin üst kısmındaki okları seçerek **Filtreler**, **Görselleştirmeler** ve **Alanlar** bölmelerini genişletebilir ve daraltabilirsiniz. Bölmelerin daraltılması, tuvalde güzel görselleştirmeler oluşturmak için daha fazla alan sağlar. 
 
-![Bölmeleri genişletme veya daraltma](media/desktop-getting-started/designer_gsg_collapsepanes.png)
+![Alanlar bölmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_collapsepanes.png)
 
 Basit bir görselleştirme oluşturmak için alan listesinden herhangi bir alanı seçin veya bu alanı **Alanlar** listesinden tuvale sürükleyin. Örneğin **Best states for sunglass sales** içindeki **State** alanını tuvale sürükleyin ve neler olduğuna bakın.
 
-![Harita görselleştirmesi oluşturmak için State alanını sürükleyin](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
+![Harita görselleştirmesi oluşturmak için State alanını sürüklemeyi gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_reportfirstdrag.png)
 
 Şuna bir bakın! Power BI Desktop, **State** alanında coğrafi konum verilerinin bulunduğunu ve otomatik olarak harita tabanlı bir görselleştirme oluşturulduğunu belirledi. Görselleştirme veri modelinizdeki 40 eyaletin veri noktalarını gösteriyor. 
 
 **Görselleştirmeler** bölmesinde görselleştirme hakkında bilgiler gösterilir ve bunu değiştirmenize olanak tanınır. 
 
-![Görselleştirme bölmesi](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
+![Görselleştirme bölmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_visualizationtypes.png)
 
 1. Simgeler, oluşturulan görselleştirmenin türünü gösterir. Farklı bir simge seçerek seçilen görselleştirmenin türünü değiştirebilir veya şu anda seçili görselleştirmenin olmadığı bir simge seçerek yeni görselleştirme oluşturabilirsiniz. 
 2. **Görselleştirme** bölmesinin **Alanlar** seçeneği bölmede veri alanlarını **Gösterge**'ye ve diğer alan kutularına sürüklemenizi sağlar. 
@@ -251,43 +251,43 @@ Harita görselleştirmenizin yalnızca ilk 10 hava durumuna sahip eyaletleri gö
 
 **Weather** alanını **Alanlar** bölmesinden **Değere göre** alanına sürükleyin ve ardından **Filtre uygula**'yı seçin. 
 
-![İlk 10 Hava Durumu filtresi](media/desktop-getting-started/gsg_share5.png)
+![Hava filtresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_share5.png)
 
 Şimdi harita görselleştirmesinde yalnızca ilk 10 hava durumuna sahip eyaletleri görürsünüz. 
 
 **Görselleştirme** bölmesinde **Biçim** simgesini seçerek, **Başlık**'ı seçerek ve *Başlık metni*'nin altına **Top 10 weather states** yazarak görselleştirmenizin başlığını değiştirin. 
 
-![Başlığı değiştirme](media/desktop-getting-started/designer_gsg_report1.png)
+![Görselleştirme bölmesindeki Başlığı Değiştir alanını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_report1.png)
 
 İlk 10 hava durumuna sahip eyaletlerin ve bunların 1 ile 10 arasında derecesinin gösterildiği görselleştirmeyi eklemek için tuvalin boş bir alanını seçin ve sonra da **Görselleştirme** bölmesinde **Sütun grafiği** simgesini seçin. **Alanlar** bölmesinde **State** ve **Weather** seçin. Sütun grafiğinde sorgunuzdaki 40 eyalet, en yüksek sayısal dereceden en düşüğe veya en kötü hava durumundan en iyi hava durumuna doğru derecelendirilmiş olarak gösterilir. 
 
-![Sütun grafiği görselleştirmesi](media/desktop-getting-started/gsg_share7.png)
+![Sütun grafiği görselleştirmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_share7.png)
 
 Derecelendirmenin sırasını önce 1 gösterilecek şekilde değiştirmek için, görselleştirmenin sağ üst kısmındaki **Diğer seçenekler** üç noktasını seçin ve menüden **Artan düzende sırala**'yı seçin. 
 
-![Artan düzende sırala](media/desktop-getting-started/shapecombine_mergequeries.png)
+![Artan Sıralama seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_mergequeries.png)
 
 Tabloyu ilk 10 eyaletle sınırlandırmak için harita görselleştirmesinde uyguladığınız alt 10 filtresinin aynısını uygulayın. 
 
-Harita görselleştirmesinde yaptığınız gibi görselleştirmenin başlığını değiştirin. Ayrıca **Görselleştirme** bölmesinin **Biçim** bölümünde **Weather** olan **Y ekseni** > **Eksen başlığı** değerini daha anlaşılır olması için *Weather ranking* olarak değiştirin. Ardından **Y ekseni** seçicisini **Kapalı** olarak ayarlayın ve **Veri etiketleri** değerini **Açık** olarak ayarlayın. 
+Harita görselleştirmesinde yaptığınız gibi görselleştirmenin başlığını değiştirin. Ayrıca **Görselleştirme** bölmesinin **Biçim** bölümünde **Weather** olan **Y ekseni** > **Eksen başlığı** değerini daha anlaşılır olması için *Weather ranking* olarak değiştirin. Ardından **Y ekseni** seçicisini **Kapalı** olarak ayarlayın ve **Veri etiketleri** değerini **Açık** olarak ayarlayın.
 
-Şimdi ilk 10 hava durumuna sahip eyalet derecelendirme sırasıyla ve sayısal derecelendirmeleriyle gösterilir. 
+Şimdi ilk 10 hava durumuna sahip eyalet derecelendirme sırasıyla ve sayısal derecelendirmeleriyle gösterilir.
 
-![Tamamlanmış sütun grafik](media/desktop-getting-started/shapecombine_changetype.png)
+![Tamamlanan sütun grafiğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/shapecombine_changetype.png)
 
 **Affordability** ve **Overall ranking** alanları için benzer veya farklı görselleştirmeler yapabilir veya birkaç alanı tek görselleştirmede birleştirebilirsiniz. Çeşitli ilgi çekici raporlar ve görselleştirmeler oluşturabilirsiniz. Bu **Tablo** ve **Çizgi ve kümelenmiş sütun grafiği** görselleştirmelerinde ilk 10 hava durumuna sahip eyaletler, bunların uygun fiyat ve genel derecelendirmeleriyle birlikte gösterilir:
 
-![Tablo ile Çizgi ve kümelenmiş sütun görselleştirmeleri](media/desktop-getting-started/designer_gsg_report2costofliving.png)
+![Tablo, Satır ve Kümelenmiş Sütun görselleştirmelerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/designer_gsg_report2costofliving.png)
 
 Farklı görselleştirmeleri farklı rapor sayfalarında gösterebilirsiniz. Yeni sayfa eklemek için sayfalar çubuğunda bulunan mevcut sayfaların yanındaki **+** simgesini seçin veya şeridin **Giriş** sekmesinde **Ekle** > **Yeni Sayfa**'yı seçin. Sayfayı yeniden adlandırmak için sayfalar çubuğunda sayfa adına çift tıklayın veya sağ tıklayın ve **Sayfayı Yeniden Adlandır**'ı seçin ve yeni adı yazın. Raporun farklı bir sayfasına gitmek için, sayfalar çubuğunda sayfayı seçin. 
 
-![Sayfalar çubuğu](media/desktop-getting-started/pages.png)
+![Sayfalar çubuğunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pages.png)
 
 **Giriş** sekmesinin **Ekle** grubunda rapor sayfalarınıza metin kutuları, resimler ve düğmeler ekleyebilirsiniz. Görselleştirmelerin biçimlendirme seçeneklerini ayarlamak için, görselleştirmeyi seçin ve sonra da **Görselleştirmeler** bölmesinde **Biçim** simgesini seçin. Sayfa boyutlarını, arka planları ve diğer sayfa bilgilerini yapılandırmak için, görselleştirme seçmeden **Biçim** simgesini seçin.
 
 Sayfalarınızı ve görselleştirmelerinizi oluşturmayı bitirdiğinizde **Dosya** > **Kaydet**'i seçin ve raporunuzu kaydedin. 
 
-![Tamamlanmış Power BI Desktop rapor sayfası](media/desktop-getting-started/finished-report.png)
+![Tamamlanan rapor sayfasını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/finished-report.png)
 
 Raporlar hakkında daha fazla bilgi için bkz. [Power BI Desktop'taki Rapor Görünümü](../create-reports/desktop-report-view.md).
 
@@ -296,35 +296,35 @@ Artık Power BI Desktop raporunuz olduğuna göre bu raporu diğer kişilerle pa
 
 Power BI Desktop'tan **Power BI** hizmetine yayımlamak için, şeridin **Giriş** sekmesinde **Yayımla**'yı seçin.
 
-![Yayımla’yı seçin](media/desktop-getting-started/gsg_syw_1.png)
+![Yayımlama seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_syw_1.png)
 
 Power BI'da oturum açmanız veya hedef seçmeniz istenebilir.
 
 Yayımlama işlemi tamamlandıktan sonra aşağıdaki iletişim kutusuyla karşılaşırsınız.
 
-![Power BI Yayımlama başarılı](media/desktop-getting-started/gsg_syw_3.png)
+![Yayımlama Başarılı iletisini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_syw_3.png)
 
 Raporu Power BI'da açma bağlantısını seçtiğinizde, raporunuz Power BI sitenizde **Çalışma alanım** > **Raporlar**'ın altında açılır. 
 
 Çalışmanızı paylaşmanın başka bir yolu da **Power BI** hizmetinin içinden yüklemektir. Power BI'ı tarayıcıda açmak için *https:\//app.powerbi.com* adresine gidin. Power BI **Giriş** sayfanızın sol alt kısmındaki **Veri al**'ı seçerek Power BI Desktop raporunuzu yükleme işlemini başlatın.
 
-![Power BI Giriş sayfasında Veri al'ı seçin](media/desktop-getting-started/pbi_gsg_getdata1.png)
+![Veri Al seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gsg_getdata1.png)
 
 Sonraki sayfada **Dosyalar** bölümünden **Al**'ı seçin.
 
-![Dosya alma](media/desktop-getting-started/pbi_gsg_getdata2.png)
+![Veri Al ekranını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gsg_getdata2.png)
 
 Sonraki sayfada **Yerel Dosya**'yı seçin. Power BI Desktop *.pbix* dosyanıza göz atın, bu dosyayı seçin ve sonra da **Aç**'ı seçin. 
 
 Dosya içeri aktarıldıktan sonra dosyanın Power BI hizmetinin sol bölmesindeki **Çalışma alanım** > **Raporlar**'ın altında listelendiğini görebilirsiniz.
 
-![Power BI'a içeri aktarılan Power BI Desktop dosyası](media/desktop-getting-started/pbi_gsg_getdata4.png)
+![Power BI’a içeri aktarılan dosyayı gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/pbi_gsg_getdata4.png)
 
 Dosyayı seçtiğinizde raporun ilk sayfası görüntülenir. Raporun sol tarafındaki sekmelerden farklı sayfalar seçebilirsiniz. 
 
 Rapor tuvalinin üst kısmındaki **Diğer seçenekler** > **Düzenle**'yi seçerek **Power BI** hizmetindeki bir raporda değişiklik yapabilirsiniz. Değişikliklerinizi kaydetmek için **Kopyasını kaydet**’i seçin.
 
-![Raporu düzenleme ve Kopyasını kaydetme](media/desktop-getting-started/gsg_share4.png)
+![Düzenle ve Kaydet seçeneklerini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_share4.png)
 
 **Power BI** hizmetinde raporunuzu kullanarak birçok ilgi çekici görsel oluşturabilir ve bu görselleri *panolara* sabitleyebilirsiniz. **Power BI** hizmetindeki panolar hakkında daha fazla bilgi için bkz. [Harika bir pano oluşturmaya yönelik ipuçları](../create-reports/service-dashboards-design-tips.md). Pano oluşturma, paylaşma ve değiştirme hakkında daha fazla bilgi için bkz. [Bir panoyu paylaşma](../collaborate-share/service-share-dashboards.md).
 
@@ -332,7 +332,7 @@ Rapor veya panoyu paylaşmak için, açık rapor veya pano sayfasının üst kı
 
 Raporunuzu veya panonuzu başkalarıyla paylaşmak üzere e-posta göndermek veya bağlantı almak için **Raporu paylaş** veya **Panoyu paylaş** ekranını tamamlayın. 
 
-![Raporu paylaş](media/desktop-getting-started/gsg_share6.png)
+![Raporu Paylaş ekranını gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/gsg_share6.png)
 
 Power BI Desktop'ı ve Power BI hizmetini kullanarak verilerle ilgili birçok ilgi çekici derleme ve görselleştirme oluşturabilirsiniz. 
 

@@ -7,18 +7,19 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/30/2020
-ms.openlocfilehash: 0339dd4a8fa7b429db01715060bfd146db115e46
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.date: 07/08/2020
+ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782729"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162287"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
 Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğelerin yanı sıra yayımlanan her bir derlemeye ilişkin hata düzeltmeleri yer alır.
 
-Yeni özellikler ile ilgili ayrıntı bilgiler için bkz. [Power BI Rapor Sunucusu'ndaki yenilikler](whats-new.md). 
+Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’ndaki yenilikler](whats-new.md). 
 
 ## <a name="may-2020"></a>Mayıs 2020
 - **Power BI Rapor Sunucusu**

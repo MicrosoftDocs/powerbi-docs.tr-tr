@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228452"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161365"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI kullanıcıları lisanslarını görüntüleme ve yönetme
 
@@ -35,7 +35,7 @@ Kuruluşunuzun hangi Power BI aboneliklerini olduğunu görmek için aşağıdak
 
 Etkin Power BI abonelikleriniz, sahip olduğunuz diğer aboneliklerle birlikte listelenir. Burada gösterildiği gibi Power BI (ücretsiz) için beklenmeyen bir abonelik görebilirsiniz.
 
-  ![Kullanıcı tarafından etkinleştirilen ücretsiz Power BI aboneliği](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![Ücretsiz bir aboneliği gösteren Power BI aboneliğinin ekran görüntüsü.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 Kullanıcılar self servis kaydolma özelliğinden yararlanıyorsa, bu tür bir abonelik sizin için oluşturulur. Daha fazla bilgi edinmek için bkz. [Kuruluşunuzda Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 

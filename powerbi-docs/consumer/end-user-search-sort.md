@@ -7,14 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782555"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215741"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI tüketicileri için gezinti: genel arama
 
@@ -28,7 +29,7 @@ Power BI hizmetini yeni kullanmaya başladığınızda yalnızca birkaç parça 
 ## <a name="searching-for-content"></a>İçeriği arama
  Arama özelliğini Power BI hizmetinin neredeyse her kısmında kullanabilirsiniz. Arama kutusunu veya arama simgesini bulmanız yeterlidir ![büyüteç simgesi](./media/end-user-search-sort/power-bi-search-icon.png).
 
- Arama alanına pano, rapor, çalışma kitabı uygulama veya sahip adının tamamını veya bir bölümünü yazın. Power BI tüm içeriğinizi arar. 
+ Arama alanına pano, rapor, çalışma kitabı, çalışma alanı, uygulama veya sahip adının tamamını veya bir bölümünü yazın. Power BI tüm içeriğinizi arar. 
 
  ![rapor arama](./media/end-user-search-sort/power-bi-search-field.png) 
 

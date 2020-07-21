@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d4d01c7c8b57dda6667ffcd744a7d914ff936b09
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231048"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264706"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Panoyu cep telefonları için en uygun duruma getirme - Power BI 
 Telefon kullanırken dikey modda panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlardaki dikey moda özel olarak, panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz. Bir telefon görünümü oluştursanız bile, telefonu yan çevirdiğinizde panoyu hizmette görüntülendiği şekilde görürsünüz.
@@ -30,25 +30,25 @@ Panoları bir mobil cihazda görüntüleme hakkında bilgi mi arıyorsunuz? Bunu
 1. Power BI hizmetinde bir panoyu açın.
 2. Sağ üst köşedeki **Web görünümü**'nün yanında bulunan oku ve ardından **Telefon görünümü**'nü seçin.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
+    ![Telefon görünümüne bakan işaretçiyi gösteren Web görünümü açılır menüsünün ekran görüntüsü.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-dashboard.png)
 
     Pano sahibi değilseniz bu seçeneği görmezsiniz.
 
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
+    ![Telefon görünümüne sığdırmak için kutucukların sabitlemesini kaldırma, bunları yeniden boyutlandırma ve yeniden düzenleme gibi görünümü düzenleme seçeneklerini gösteren telefon panosunun ekran görüntüsü.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-canvas.png)
 
     Telefona yönelik pano düzenleme görünümü açılır. Burada, kutucukları telefon görünümüne uyacak şekilde, yeniden boyutlandırabilir, yeniden düzenleyebilir ve kaldırabilirsiniz. Panonun web sürümü değişmez.
 
 
 1. Bir kutucuğu sürüklemek, yeniden boyutlandırmak veya kaldırmak için bu kutucuğu seçin. Siz bir kutucuğu sürüklerken diğer kutucukların ortada olmadığını fark edeceksiniz.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
+    ![Sürükleme, yeniden boyutlandırma veya sabitlemeyi kaldırma kutucuk seçimini gösteren telefon kutucuklarının ekran görüntüsü.](media/service-create-dashboard-mobile-phone-view/power-bi-unpin-tile-phone-dashboard.png)
    
     Kaldırılan kutucuklar Sabitlenmemiş kutucuklar bölmesine gider ve siz onları tekrar eklemediğiniz sürece burada kalır.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
+    ![Sabitlemesi kaldırılmış kutucuklar bölmesindeki kutucukları gösteren telefon panosunun ekran görüntüsü.](media/service-create-dashboard-mobile-phone-view/power-bi-mobile-edit-phone-view-post-edit.png)
 2. Fikrinizi değiştirirseniz, kutucukları eski boyutlarına ve sıralarına geri almak için **Kutucukları sıfırla** seçeneğini belirleyin.
    
-    ![](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
+    ![Kutucukları sıfırlamaya yönelik işaretçiyi gösteren Sabitlemesi kaldırılmış kutucuklar bölmesinin ekran görüntüsü.](media/service-create-dashboard-mobile-phone-view/power-bi-service-phone-view-reset-tiles.png)
    
     Power BI hizmetinde Telefon görünümünü düzenle ekranının açılması bile telefondaki kutucukların boyutlarının ve şekillerinin az oranda değişmesi için yeterlidir. Bu nedenle panoyu tam olarak, Telefon görünümünü düzenle ekranında açılmadan önceki durumuna getirmek için **Kutucukları sıfırla** seçeneğini belirleyin.
 3. Telefona yönelik pano düzeninden memnunsanız sağ üst köşedeki **Telefon görünümü**'nün yanındaki oku seçin ve ardından **Web görünümü** seçeneğini belirleyin.

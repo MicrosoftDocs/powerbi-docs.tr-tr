@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 396c760a97911a35d7fdc0c608fc35de1cf6586d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565983"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216834"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 
@@ -84,7 +84,7 @@ Power Query'de özel sütunlar oluşturmanın tercih edilmesi gerekir. Kaynak bi
 
 Diğer sorgularla veri tümleştirmesini desteklemesi hedeflenen Power Query sorguları modele yüklenmemelidir. Sorgunun modele yüklenmesini önlemek için bu örneklerde sorgu yüklemesinin devre dışı bırakıldığından emin olun.
 
-![Power Query sorgusu için yükü devre dışı bırakma](media/import-modeling-data-reduction/power-query-disable-query-load.png)
+![“Yüklemeyi etkinleştir” seçeneğini gösteren, Power Query’nin ekran görüntüsü.](media/import-modeling-data-reduction/power-query-disable-query-load.png)
 
 ## <a name="disable-auto-datetime"></a>Otomatik tarih/saati devre dışı bırakma
 

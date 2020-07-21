@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564461"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216750"
 ---
 # <a name="what-is-power-bi"></a>Power BI nedir?
 **Power BI**, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli öngörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verileriniz bir Excel elektronik tablosu veya bulut tabanlı ve şirket içi hibrit veri ambarları koleksiyonu olabilir. Power BI veri kaynaklarınıza kolayca bağlanmanızı, önemli noktaları görselleştirmenizi ve keşfetmenizi, bunu herkesle veya istediğiniz kişilerle paylaşmanızı sağlar.
@@ -24,7 +24,7 @@ Power BI şunlardan oluşur:
 - **Power BI hizmeti** adlı bir çevrimiçi SaaS (*Hizmet olarak Yazılım*). 
 - Windows, iOS ve Android cihazlar için Power BI **mobil uygulamaları**.
 
-![Power BI Desktop, hizmet, mobil](media/power-bi-overview/power-bi-overview-blocks.png)
+![Power BI Desktop, Power BI hizmeti ve Power BI Mobil tümleştirmelerini gösteren diyagram.](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Bu üç bileşen (Power BI Desktop, hizmet ve mobil uygulamalar) ihtiyaçlarınıza veya sahip olduğunuz role uygun iş içgörüleri oluşturmanıza, paylaşmanıza ve kullanmanıza olanak sağlamak için tasarlanmıştır.
 
@@ -63,7 +63,7 @@ Ancak buluta taşınmaya hazır değilseniz ve raporlarınızı bir kurumsal gü
 
 Power BI Rapor Sunucusu'nun sunduğu, kullanıma hazır çok sayıda araç ve hizmeti kullanarak Power BI raporları, mobil raporlar ve sayfalandırılmış raporlar oluşturabilir, bunları dağıtabilir ve yönetebilirsiniz.
 
-![şirket içi diyagramı](media/power-bi-overview/power-bi-report-server2.png)
+![Power BI Desktop, Power BI hizmeti ve Power BI Mobil tümleştirmelerini gösteren diyagram.](media/power-bi-overview/power-bi-report-server2.png)
 
 Power BI Rapor Sunucusu, güvenlik duvarınızın arkasında dağıttığınız ve sonra raporlarınızı bir web tarayıcısında, mobil cihazda veya e-posta olarak görüntülemeyi içeren farklı yöntemlerle doğru kullanıcılara ilettiğiniz bir çözümdür. Power BI Rapor Sunucusu bulutta Power BI ile uyumlu olduğundan, hazır olduğunuzda buluta taşıyabilirsiniz. 
 

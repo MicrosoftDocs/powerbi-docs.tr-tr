@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782596"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86386010"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -23,6 +24,13 @@ ms.locfileid: "85782596"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>Temmuz 2020
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>Windows için Power BI mobil uygulaması artık kurumsal markalamayı destekliyor
+Kuruluşunuzun marka temasıyla eşleşmesi için yöneticinin Power BI’da yaptığı değişiklikler artık Power BI mobil uygulamasında da görünecek. Bu tür değişiklikler arasında üst gezinti çubuğu, kuruluş logonuz ve banner resmi için yeni renk şeması içerebilir.  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>Uzaktan yapılandırma aracılığıyla çoklu oturum açmayı devre dışı bırakma (iOS ve Android)
+BT yöneticileri, çok kullanıcılı cihazlar üzerindeki güvenlik ve izinlerin uyumluluğunu geliştirerek Power BI mobil uygulamasında çoklu oturum açmayı artık uzaktan devre dışı bırakabilir. [Daha fazla bilgi edinin!](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>Haziran 2020
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>Yer işaretlerinizi slayt gösterilerinde gösterme (Windows)
@@ -859,15 +867,15 @@ Daha ayrıntılı bilgi için [Power BI mobil uygulamaları için Aralık ayınd
 * Yüzde temelli Y ekseni içeren çizgi grafikler artık, görsel aralığı, gerçek verilerinize göre hesaplıyor. Graf, varsayılan bir değer yerine artık grafikteki en düşük veri noktasından başlıyor.
 * Artık çizgi grafiklere, sütun grafiklerine ve çubuk grafiklere veri etiketleri ekleyebilirsiniz. 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![Veri etiketleriyle aya göre VTB yüzdesini gösteren çizgi grafiğinin ekran görüntüsü. ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * Gruplarınızda oluşturulan en yeni panolarla her zaman en güncel bilgilere sahip olun. Ekip üyeleriniz gruplarınızdan birine yeni pano eklediğinde iPhone'unuza bildirim gönderilir.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![Bir iPhone’da bildirim gösteren panonun ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * Artık panoları yatay modda görüntülemek için telefonunuzu çevirmeniz yeterli. [iPhone uygulamasındaki yatay mod](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/) hakkında daha fazla bilgi edinin.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![iPhone’da yatay modu gösteren panonun ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>Eylül 2015
 Android, iOS (hem iPhone hem de iPad) ve Windows işletim sistemlerine yönelik Power BI mobil uygulamalarında iyileştirmeler yapıldı. [Power BI mobil uygulamaları için Eylül ortasında yayımlanan güncelleştirmelere ilişkin blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/) göz atın.

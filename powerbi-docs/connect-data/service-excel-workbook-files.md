@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e86aeaf8f7254e2b28b266135ccc4a0005e927b6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236671"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264426"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel çalışma kitabı dosyalarından veri alma
-![](media/service-excel-workbook-files/excel_icon.png)
+![Excel simgesi](media/service-excel-workbook-files/excel_icon.png)
 
 Microsoft Excel, dünya çapında en yaygın olarak kullanılan iş uygulamalarından biridir. Ayrıca, verilerin Power BI'a alınması için de en sık kullanılan yöntemlerinden biridir.
 
@@ -61,7 +61,7 @@ Excel çalışma kitaplarınızın Power BI için hazır olmasını nasıl sağl
 ## <a name="one-excel-workbook--two-ways-to-use-it"></a>Bir Excel çalışma kitabını kullanmaya ilişkin iki yöntem
 Çalışma kitabı dosyalarınızı **OneDrive**'a kaydediyorsanız Power BI'da verilerinizi araştırmak için izleyebileceğiniz iki yol vardır
 
-![](media/service-excel-workbook-files/excel_import_connect.png)
+![Excel Verilerini İçeri Aktarma veya Bunlara Bağlanma seçeneğini gösteren OneDrive İş’in ekran görüntüsü.](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>Excel verilerini Power BI'ya aktarma
 **İçeri aktar** seçeneğini belirlediğinizde tablo ve/veya veri modellerindeki desteklenen tüm veriler Power BI'da yeni bir veri kümesine aktarılır. Power View sayfalarınız varsa bunlar Power BI'da rapor olarak yeniden oluşturulur.
@@ -84,31 +84,31 @@ Excel 2016'da, Yayımla > Karşıya Yükle seçeneğini de kullanabilirsiniz. Bu
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Power BI'daki içeriği bir Excel çalışma kitabına aktarma veya bağlama
 1. Power BI'daki gezinti bölmesinde **Veri Al**'a tıklayın.
    
-   ![](media/service-excel-workbook-files/excel_get_data_button.png)
+   ![Düğmesinin gezinti bölmesinde gösterildiği Veri Al’ın ekran görüntüsü.](media/service-excel-workbook-files/excel_get_data_button.png)
 2. Dosyalar'da, **Al**'a tıklayın.
    
-   ![](media/service-excel-workbook-files/excel_files_get.png)
+   ![Al düğmesini gösteren, Dosyalar iletişim kutusunun ekran görüntüsü.](media/service-excel-workbook-files/excel_files_get.png)
 3. Dosyanızı bulun.
    
-   ![](media/service-excel-workbook-files/excel_find_your_file.png)
+   ![Yerel Dosya, OneDrive İş, OneDrive Bireysel ve SharePoint kutucuklarını gösteren, dosyanızı bulmaya yönelik dört kutucuğun ekran görüntüsü.](media/service-excel-workbook-files/excel_find_your_file.png)
 4. Çalışma kitabı dosyanız OneDrive veya SharePoint - Ekip Siteleri'ndeyse **İçeri aktar** veya **Bağlan** seçeneğini belirleyin.
 
 ## <a name="local-excel-workbooks"></a>Yerel Excel çalışma kitapları
 Yerel bir Excel dosyası kullanıp bu dosyayı da Power BI'a yükleyebilirsiniz. Önceki menüden **Yerel Dosya**'yı seçin ve Excel çalışma kitaplarınızın kaydedildiği konuma gidin.
 
-![](media/service-excel-workbook-files/excel_import_6.png)
+![Excel çalışma kitaplarını seçmek için nasıl gezinileceğini gösteren Yerel Dosya kutucuğunun ekran görüntüsü.](media/service-excel-workbook-files/excel_import_6.png)
 
 Seçimi yaptıktan sonra dosyanızı Power BI'a Yükleme seçeneğini belirleyin.
 
-![](media/service-excel-workbook-files/excel_import_7.png)
+![Excel dosyanızı Power BI’a yükleme seçimini gösteren Yerel Dosya iletişim kutusunun ekran görüntüsü.](media/service-excel-workbook-files/excel_import_7.png)
 
 Çalışma kitabınız karşıya yüklendikten sonra çalışma kitabının hazır olduğunu belirten bir bildirim alırsınız.
 
-![](media/service-excel-workbook-files/excel_import_8.png)
+![Çalışma kitabınızın hazır olduğunu gösteren bildirimin ekran görüntüsü.](media/service-excel-workbook-files/excel_import_8.png)
 
 Hazır olduğunda çalışma kitabınızı Power BI'ın **Raporlar** bölümünde bulabilirsiniz.
 
-![](media/service-excel-workbook-files/excel_import_9.png)
+![Excel verilerini içeren seçili raporu gösteren Raporlar bölümünün ekran görüntüsü.](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Excel 2016'daki içeriği Power BI sitenizde yayımlama
 Excel 2016'daki **Power BI'da Yayımla** özelliğinin kullanılması, dosyanızın içeri aktarılması veya dosyanıza bağlanılması için Power BI'da kullanılan **Veri Al** seçeneği ile aynı işlevi görür. Ayrıntıları burada ele almayacak olsak da daha fazla bilgi için [Excel 2016'daki içeriği Power BI'da yayımlama](service-publish-from-excel.md) makalesini inceleyebilirsiniz.

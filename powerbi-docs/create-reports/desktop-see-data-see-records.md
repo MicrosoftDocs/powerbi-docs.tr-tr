@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238625"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264729"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop’ta Görsel tablosu ve Veri noktası tablosu özelliklerini kullanma
 **Power BI Desktop**'ta bir görselleştirmenin detayına gidebilir ve seçilen görsel için temel alınan verilerin metinsel temsilini veya tek tek veri öğelerini görebilirsiniz. Bu özellikler bazen *geçişli tıklama*, *detaylandırma* veya *ayrıntıları görüntüleme* olarak adlandırılır.
@@ -74,7 +74,7 @@ Ayrıca bir veri öğesine sağ tıklayarak görüntülenen menüden **Veri nokt
 
 Bir veri öğesi için **Veri noktası tablosu**’nu seçtiğinizde Power BI Desktop tuvali seçili öğeyle ilişkili tüm verileri gösterir. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![Veri noktası tablosunu seçtiğinizde seçili öğeyle ilgili tüm ilişkili verileri gösteren tuvalin ekran görüntüsü.](media/desktop-see-data-see-records/visual-table-09.png)
 
 Rapora geri dönmek için tuvalin sol üst köşesindeki **< Rapora Geri Dön** öğesini seçin.
 

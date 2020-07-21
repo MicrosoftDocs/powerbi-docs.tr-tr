@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236690"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263023"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop dosyalarından veri alma
-![](media/service-desktop-files/pbid_file_icon.png)
+![Power BI Desktop dosya simgesi](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop**, iş zekasını ve raporlamayı kolay hale getirir. Farklı birçok veri kaynağına bağlanmaktan tutun da verileri sorgulamaya ve dönüştürmeye, verilerinizi modellemeye ve hem etkileyici hem de dinamik raporlar oluşturmaya kadar birçok işlem için, iş zekası görevleri **Power BI Desktop** ile sezgisel ve hızlı hale gelir. **Power BI Desktop**'a aşina değilseniz [Power BI Desktop ile çalışmaya başlama](../fundamentals/desktop-getting-started.md) başlıklı makaleye göz atın.
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236690"
 
 1. Power BI'daki gezinti bölmesinde ** Veri Al** seçeneğini tıklayın.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![Düğmesinin gezinti bölmesinde gösterildiği Veri Al’ın ekran görüntüsü.](media/service-desktop-files/pbid_get_data_button.png)
 2. **Dosyalar**'da, **Al**'a tıklayın.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![Al düğmesini gösteren, Dosyalar iletişim kutusunun ekran görüntüsü.](media/service-desktop-files/pbid_files_get.png)
 3. Dosyanızı bulun. Power BI Desktop dosyalarında .PBIX uzantısı bulunur.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![Yerel Dosya, OneDrive İş, OneDrive Bireysel ve SharePoint kutucuklarını gösteren, dosyanızı bulmaya yönelik dört kutucuğun ekran görüntüsü.](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop'taki bir dosyayı Power BI sitenizde yayımlama
 Power BI Desktop'taki Yayımla'yı kullanmak, başlangıçta yerel bir sürücüdeki dosyanızı içeri aktarmak için Power BI'da Veri Al'ı kullanmaya veya bu dosyayla OneDrive üzerinden bağlanmaya benzer. Öte yandan farklılıkları da vardır: Yerel sürücüden karşıya yüklerseniz, verilerin çevrimiçi ve yerel kopyalarının karşılıklı olarak güncel kaldığından emin olmak için verileri sık sık yenilemek istersiniz. 
@@ -53,12 +53,12 @@ Bu, işlemin ana hatlarıyla açıklandığı bir nasıl yapılır makalesidir, 
 
 1. Power BI Desktop'ta, **Dosya** > **Yayımla** > **Power BI'da yayımla** seçeneğine veya şeritteki **Yayımla** seçeneğine tıklayın.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Power BI Desktop’tan Yayımlama işlemini gösteren, şeritteki Yayımla seçeneğinin ekran görüntüsü.](media/service-desktop-files/pbid_publish.png)
 2. Power BI'da oturum açın. Bu, yalnızca ilk seferde gerçekleştireceğiniz bir işlemdir.
    
-   Bu işlemin ardından, Power BI sitenizde raporunuzu açmanızı sağlayan bir bağlantı edinirsiniz.
+   Bu işlemin ardından Power BI sitenizde raporunuzu açmak üzere bir bağlantı gönderilir.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![Raporunuzu açma bağlantısıyla başarılı bir şekilde oturum açtığınızı gösteren Oturum Açma onay iletişim kutusunun ekran görüntüsü.](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Verilerinizi araştırma**: Dosyanızdaki verileri ve raporları Power BI'a aktardığınıza göre artık araştırmaya başlayabilirsiniz. Dosyanızda raporlar yer alıyorsa bunlar gezinti bölmesindeki **Raporlar** bölümünde görünür. Dosyanızda yalnızca veriler bulunuyorsa yeni raporlar oluşturabilirsiniz; yeni veri kümesine sağ tıklayıp **Araştır**'a tıklamanız yeterli.

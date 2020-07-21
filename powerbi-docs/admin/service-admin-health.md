@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228524"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161181"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365'te Power BI hizmet durumunu izleme
 
@@ -38,7 +38,7 @@ Rolleri hakkında daha fazla bilgi için bkz. [Power BI ile ilgili yönetici rol
 
 1. Daha fazla bilgi için bir öğenin **Ayrıntıları göster** seçeneğini belirleyin. Aşağıdaki ekran görüntüsünde son durum güncelleştirmeleri dahil ek ayrıntıları görebilirsiniz.
 
-    ![Öneri ayrıntılarının ekran görüntüsü.](media/service-admin-health/advisory-details.png)
+    ![Ek bilgiler gösteren Danışman ayrıntılarının ekran görüntüsü.](media/service-admin-health/advisory-details.png)
 
     Daha fazla bilgi görmek için aşağı kaydırın, işiniz bittiğinde ise bölmeyi kapatın.
 

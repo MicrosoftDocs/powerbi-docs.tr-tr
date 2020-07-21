@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229504"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216194"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI ile Salesforce'a bağlanma
 Power BI ile Salesforce.com hesabınıza kolayca bağlanabilirsiniz. Bu bağlantıyla Salesforce verilerinizi alabilirsiniz ve panoyla raporlar otomatik olarak sağlanır.
@@ -24,37 +24,37 @@ Power BI ile [Salesforce tümleştirmesi](https://powerbi.microsoft.com/integrat
 ## <a name="how-to-connect"></a>Bağlanma
 1. Power BI gezinti bölmesinin alt kısmında bulunan **Veri Al**'ı seçin.
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![Gezinti bölmesinde görüntülenen Veri Al düğmesinin ekran görüntüsü.](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **Hizmetler** kutusundaki **Al** seçeneğini belirleyin.
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![Al düğmesini gösteren Hizmetler iletişim kutusunun ekran görüntüsü.](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. **Analytics for Salesforce**'u ve **Al**'ı seçin.  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![Hemen al bağlantısını gösteren Salesforce için Analiz iletişim kutusunun ekran görüntüsü.](media/service-connect-to-salesforce/salesforce.png)
 4. **Oturum Aç**'ı seçerek oturum açma akışını başlatın.
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![Oturum aç düğmesini gösteren Salesforce’a Bağlan iletişim kutusunun ekran görüntüsü.](media/service-connect-to-salesforce/dialog.png)
 5. İstendiğinde Salesforce kimlik bilgilerinizi girin. **İzin Ver**'i seçin ve Power BI'ın temel Salesforce bilgilerinizle verilerinize erişmesini sağlayın.
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Power BI’ın bilgilerinize erişim izni istediğini gösteren Salesforce kimlik bilgilerinin ekran görüntüsü.](media/service-connect-to-salesforce/sf_authorize.png)
 6. Açılan menüdeki seçenekleri kullanarak Power BI'a aktarmak istediğiniz verileri yapılandırın:
    
    * **Pano**
      
      Belirli bir kişiyi (**Satış Yöneticisi** gibi) temel alan önceden tanımlı panolardan birini seçin. Bu panolar belirli bir Salesforce standart veri kümesini alır; özel alanlar dahil edilmez.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![Bir kişiyi temel alarak önceden tanımlı bir panoyu belirleme seçeneğini gösteren Salesforce panosunun ekran görüntüsü.](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **Raporlar**
      
      Salesforce hesabınızdan bir veya daha fazla özel rapor seçin. Bu raporlar Salesforce hizmetindeki görünümlerinizle eşleşir ve özel alan veya nesne verilerini içerebilir.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![Özel raporlar listesini gösteren Salesforce raporlarının ekran görüntüsü.](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      Herhangi bir rapor görmüyorsanız Salesforce hesabınızda ekleyebilir veya oluşturabilir ve tekrar bağlanmayı deneyebilirsiniz.
 
 7. İçeri aktarma işlemini başlatmak için **Bağlan**'ı seçin. İçeri aktarma sırasında içeri aktarma işleminin devam ettiğini gösteren bir bildirim görürsünüz. İçeri aktarma işlemi tamamlandığında gezinti bölmesinde Salesforce verilerinizden oluşturulan bir pano, rapor ve veri kümesi görürsünüz.
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![Panoyu, raporu ve veri kümelerini gösteren Satıcı Yöneticisi panosunun ekran görüntüsü.](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 Panoyu, verilerinizi istediğiniz gibi görüntüleyecek şekilde değiştirebilirsiniz. Soru-Cevap ile sorular sorabilir veya [bir kutucuk seçip](../consumer/end-user-tiles.md) bağlantılı raporu açabilir ve [panodaki kutucukları düzenleyebilir veya kaldırabilirsiniz](../create-reports/service-dashboard-edit-tile.md).
 

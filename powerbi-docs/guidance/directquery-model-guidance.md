@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279607"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214530"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 
@@ -54,9 +54,9 @@ Bir DirectQuery modeli, aşağıdaki madde işaretli listede açıklandığı gi
 
 - **Karmaşık Power Query sorgularından kaçının:** Power Query sorgularının herhangi bir dönüştürme uygulaması gereksinimi ortadan kaldırılarak verimli bir model tasarımı elde edilebilir. Diğer bir deyişle, her sorgu tek bir ilişkisel veritabanı kaynak tablosu veya görünümüne eşlenir. **Yerel Sorguyu Görüntüle** seçeneğini belirleyerek, Power Query uygulanmış bir adım için gerçek SQL sorgu bildiriminin bir temsiline ait önizlemeyi görebilirsiniz.
 
-    ![Sorgu Düzenleyicisi uygulanmış adımlarda beş adım gösterilir. "Yeniden Adlandırılan Sütunlar" adlı son adıma sağ tıklandığın bağlam menüsü açılır. "Yerel Sorguyu Görüntüle" seçeneği etkinleştirilir ve vurgulanır.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![Uygulanan Adımlar bölümündeki “Yerel Sorguyu Görüntüle” seçeneğini gösteren Power BI Desktop’ın ekran görüntüsü.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![Yerel Sorgu penceresinde, kaynak tabloları birleştiren bir T-SQL sorgusu görüntülenir.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![Yerel Sorgu penceresini gösteren Power BI Desktop’ın ekran görüntüsü. Bir sorgu deyimi iki kaynak tabloyu birleştirir.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **Hesaplanmış sütun ve veri türü değişikliklerinin kullanımını inceleyin:** DirectQuery modelleri, veri türlerini dönüştürmek için hesaplamalar ve Power Query adımları eklemeyi destekler. Ancak, mümkün olduğunda, ilişkisel veritabanı kaynağında dönüştürme sonuçları gerçekleştirilerek genellikle daha iyi performans elde edilir.
 - **Power Query göreli tarih filtrelemesi kullanmayın:** Bir Power Query sorgusunda göreli tarih filtrelemesi tanımlanabilir. Örneğin, son bir yılda (bugünün tarihine göre) oluşturulan satış siparişlerini getirmek için. Bu filtre türü aşağıdaki gibi verimsiz bir sorguya dönüşür:
@@ -81,7 +81,7 @@ Bir DirectQuery modeli, aşağıdaki madde işaretli listede açıklandığı gi
 - **İki yönlü ilişki filtrelemesi kullanmaktan kaçının:** İki yönlü ilişki filtrelemesinin kullanılması iyi performans göstermeyen sorgu deyimlerine yol açabilir. Bu ilişki özelliğini yalnızca gerektiğinde kullanın. Genellikle bir köprü oluşturma tablosunda çoka çok ilişkiler uygularken bu durum geçerlidir. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoğa çok kardinalitesine sahip ilişkiler](../transform-model/desktop-many-to-many-relationships.md).
 - **Paralel sorguları sınırlama:** Her temel veri kaynağı için DirectQuery'nin açtığı en fazla bağlantı sayısını ayarlayabilirsiniz. Bu ayar, eşzamanlı olarak veri kaynağına gönderilen sorguların sayısını denetler.
 
-    ![Power BI Desktop penceresi açıktır ve Geçerli Dosya DirectQuery sayfası seçilidir. Veri kaynağı başına en fazla bağlantı özelliği vurgulanır.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![Doğrudan Sorgu Seçenekleri penceresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     Ayar yalnızca modelde en az bir DirectQuery kaynağı olduğunda etkinleştirilir. Değer tüm DirectQuery sorgularına ve aynı modele eklenen tüm yeni DirectQuery kaynaklarına uygulanır.
 
@@ -95,7 +95,7 @@ Bir DirectQuery veri kümesini temel alan raporlar, aşağıdaki madde işaretli
 
 - **Sorgu azaltma tekniklerini etkinleştirin:** Power BI Desktop _Seçenekleri ve Ayarları_, bir Sorgu Azaltma sayfası içerir. Bu sayfada üç yardımcı seçenek bulunur. Çapraz vurgulamayı ve çapraz filtrelemeyi varsayılan olarak devre dışı bırakmak mümkündür, ancak etkileşimler düzenlenerek bu ayar geçersiz kılınabilir. Ayrıca, dilimleyiciler ve filtreler üzerinde bir Uygula düğmesi göstermek de mümkündür. Rapor kullanıcısı düğmeye tıklamadığı sürece dilimleyici veya filtre seçenekleri uygulanmaz. Bu seçenekleri etkinleştirirseniz, raporu ilk kez oluştururken bunu yapmanızı öneririz.
 
-    ![Power BI Desktop penceresi açıktır ve Geçerli Dosya Sorgu Azaltma sayfası seçilidir. Gönderilen sorguların sayısını azaltmak ve dilimleyiciler ile filtreler için bir uygula düğmesi göstermek üzere üç seçenek mevcuttur.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![Seçenekler penceresindeki Sorgu Azaltma filtresini gösteren Power BI Desktop’ın ekran görüntüsü.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **Önce filtreleri uygulayın:** Raporları ilk kez tasarlarken, alanları görsel alanlarla eşlemeye başlamadan önce rapor, sayfa veya görsel düzeyinde uygulanabilir tüm filtreleri uygulamanızı öneririz. Örneğin, **Country** ve **Sales** ölçümlerini sürükleyip belirli bir yıla göre filtrelemek yerine, filtreyi öncelikle **Year** alanına uygulayın. Bunun nedeni, görsel oluşturma işleminin her adımında sorgu gönderilecek olmasıdır. İlk sorgu tamamlanmadan başka bir değişiklik yapılabilse de, temel alınan veri kaynağında yine de gereksiz yük oluşur. Filtreler erken uygulandığında, bu ara sorgular genellikle daha az maliyetli ve daha hızlı olur. Ayrıca, filtrelerin erken uygulanmaması yukarıda açıklandığı gibi 1 milyon satır sınırının aşılmasına neden olabilir.
 - **Sayfadaki görsel sayısını sınırlayın:** Bir rapor sayfası açıldığında (ve sayfa filtreleri uygulandığında), sayfadaki tüm görseller yenilenir. Ancak, yukarıda açıklandığı gibi, paralel olarak gönderilebilecek sorgu sayısı Power BI ortamı ve **Veri Kaynağı Başına En Fazla Bağlantı** ayarı ile sınırlandırılır. Bu nedenle, sayfa görsellerinin sayısı arttıkça, sayfa görsellerinin seri bir şekilde yenilenme olasılığı artar. Sonuç olarak tüm sayfayı yenileme süresi uzar ve aynı zamanda görsellerin tutarsız sonuçlar (geçici veri kaynakları için) gösterme olasılığı artar. Bu nedenle, herhangi bir sayfadaki görsel sayısının sınırlanması ve bunun yerine sade içeriklere sahip daha fazla sayıda sayfa oluşturulması önerilir. Birden fazla kart görseli tek bir çok satırlı kart görseli ile değiştirilerek benzer bir sayfa düzeni elde edilebilir.
@@ -105,7 +105,7 @@ Yukarıdaki iyileştirme teknikleri listesine ek olarak, aşağıdaki raporlama 
 
 - **Ölçü filtreleri:** Ölçü (veya sütun toplamları) içeren görsellerde bu ölçülere uygulanmış filtreler olabilir. Örneğin, aşağıdaki görselde **Kategori** filtresine göre **Satış** değeri gösterilmektedir ancak yalnızca 15 milyon ABD dolarından yüksek satışa sahip kategoriler dahil edilmiştir.
 
-    ![Bir tablo görselinin iki sütunu vardır: Kategori ve Satış. Filtreler bölmesi, 15 milyon ABD dolarından büyük değerler için Satış ölçümüne filtre uygular. Tabloda üç satır bulunur ve her satır 15 milyon ABD dolarından büyük bir Satış değerine sahiptir.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![Uygulanmış filtreler içeren tablosal verileri gösteren Power BI Desktop’ın ekran görüntüsü.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     Bunun sonucunda, temel alınan kaynağa iki sorgu gönderilebilir:

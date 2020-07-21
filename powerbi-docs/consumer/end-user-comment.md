@@ -2,20 +2,20 @@
 title: Panolara ve raporlara açıklama ekleme
 description: Bu belgede, bir panoya, rapora veya görsele açıklama ekleme ve birlikte çalıştığınız kişilerle konuşmak için açıklamaları kullanma işlemleri gösterilir.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 07/07/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 4d9581a617241afbe668d8e1810c0c3f60a0835c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76a3bd087899126d1c3aa9eed6eb7d20b1441bff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236054"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161905"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
 
@@ -33,7 +33,7 @@ Kişisel bir açıklama ekleyin veya iş arkadaşlarınızla bir pano ya da rapo
 ## <a name="how-to-use-the-comments-feature"></a>Açıklamalar özelliğini kullanma
 Panonun tamamına, panodaki ayrı ayrı görsellere, rapor sayfasına, sayfalandırılmış rapora ve rapor sayfasında yer alan ayrı ayrı görsellere açıklama ekleyebilirsiniz. Genel bir açıklama veya belirli iş arkadaşlarınızı hedefleyen bir açıklama ekleyin.  
 
-Rapora bir açıklama eklediğinizde Power BI geçerli filtre ve dilimleyici değerlerini yakalar. Bu, bir açıklamayı seçtiğinizde veya yanıtladığınızda, rapor sayfası veya rapor görselinin açıklama ilk eklendiğinde etkin olan filtre ve dilimleyici seçimlerini göstermek için değişebildiği anlamına gelir.  
+Rapora bir açıklama eklediğinizde Power BI geçerli filtre ve dilimleyici değerlerini yakalayıp bir [yer işareti](end-user-bookmarks.md) oluşturur. Bu, bir açıklamayı seçtiğinizde veya yanıtladığınızda, rapor sayfası veya rapor görselinin açıklama ilk eklendiğinde etkin olan filtre ve dilimleyici seçimlerini göstermek için değişebildiği anlamına gelir.  
 
 ![filtre ile rapor videosu](media/end-user-comment/power-bi-comment.gif)
 
@@ -46,15 +46,15 @@ Bir panoya veya rapora açıklama ekleme işlemi benzerdir.  Bu örnekte pano se
 
 1. Bir Power BI panosunu veya raporunu açın ve **Açıklamalar** simgesini seçin. Bu Açıklamalar iletişim kutusunu açar.
 
-    ![açıklamalar simgesi](media/end-user-comment/power-bi-comment-menu.png)
+    ![açıklamalar simgesi](media/end-user-comment/power-bi-comments-icon.png)
 
     Burada pano oluşturucusunun zaten genel bir açıklama eklediğini görürsünüz.  Bu panoya erişimi olan herkes bu açıklamayı görebilir.
 
-    ![açıklamalar simgesi](media/end-user-comment/power-bi-first-comments.png)
+    ![açıklamalar simgesi](media/end-user-comment/power-bi-first-comment.png)
 
 2. Yanıtlamak için, **Yanıtla**’yı seçin, yanıtınızı yazın ve **Gönder**’i seçin.  
 
-    ![Açıklamalar Yanıt simgesi](media/end-user-comment/power-bi-comment-reply.png)
+    ![Açıklamalar Yanıt simgesi](media/end-user-comment/power-bi-comments-reply.png)
 
     Varsayılan olarak, Power BI yanıtınızı açıklama yazışmasını başlatan kişiye yönlendirir (bu örnekte Aaron). 
 
@@ -62,7 +62,7 @@ Bir panoya veya rapora açıklama ekleme işlemi benzerdir.  Bu örnekte pano se
 
  3. Mevcut yazışmanın bir parçası olmayan bir açıklama eklemek istiyorsanız, açıklamanızı üstteki metin alanına girin.
 
-    ![Açıklamalar Yanıt simgesi](media/end-user-comment/power-bi-new-comments.png)
+    ![Açıklamalar Yanıt simgesi](media/end-user-comment/power-bi-new-commenting.png)
 
     Bu pano için açıklamalar aşağıdaki gibi görünür.
 
@@ -74,11 +74,11 @@ Bir panonun tamamına veya bütün bir rapor sayfasına açıklama eklemenin yan
 1. Görselin üzerine gelin ve **Diğer seçenekler**’i (...) seçin.    
 2. Açılan listeden **Yorumları aç**'ı seçin.
 
-    ![Açıklama ekle, ilk seçenektir](media/end-user-comment/power-bi-report-comment.png)  
+    ![Açıklama ekle, ilk seçenektir](media/end-user-comment/power-bi-comment-reports.png)  
 
 3.  **Açıklamalar** iletişim kutusu açılır ve sayfadaki diğer görseller gri renkte gösterilir. Bu görselde henüz açıklama yok. 
 
-    ![Kendiniz için açıklama ekleme](media/end-user-comment/power-bi-comment-column.png)  
+    ![Kendiniz için açıklama ekleme](media/end-user-comment/power-bi-comments-column.png)  
 
 4. Açıklamanızı yazın ve **Gönder**'i seçin.
 
@@ -94,13 +94,15 @@ Bir panonun tamamına veya bütün bir rapor sayfasına açıklama eklemenin yan
 5. Panoya veya rapora dönmek için **Kapat**’ı seçin.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ işaretini kullanarak iş arkadaşlarınızın dikkatini çekme
-Pano, rapor, kutucuk veya görsel açıklaması oluştururken, "\@" sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  "\@" sembolünü yazdığınızda, Power BI kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne "\@" sembolü eklenen doğrulanmış adlar mavi yazı tipiyle gösterilir. 
+Pano, rapor, kutucuk veya görsel açıklaması oluştururken, "\@" sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  "\@" sembolünü yazdığınızda, Power BI kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne "\@" sembolü eklenen doğrulanmış adlar mavi yazı tipiyle gösterilir. @mentioned kişiler hemen bir e-posta alırlar. Power BI Mobil uygulamasını kullanıyorlarsa cihazlarına bir anında iletme bildirimi gelir. Yorumu doğrudan bildirimden açabilir, verileri görüntüleyebilir ve uygun şekilde yanıtlayabilirler.
 
-Burada görselleştirme *tasarımcısı* ile yaptığım konuşma gösteriliyor. Açıklamayı gördüğümden emin olmak için @ sembolünü kullanıyor. Bu açıklamanın benim için olduğunu biliyorum. Power BI'da bu uygulama panosunu açtığımda, üst bilgiden **Açıklamalar**'ı seçiyorum. **Açıklamalar** bölmesinde konuşmamız görüntüleniyor.
+Burada görselleştirme *tasarımcısı* ile yaptığım konuşma gösteriliyor. Açıklamayı gördüğümden emin olmak için @ sembolünü kullanıyor. Bir bildirim alıyorum ve bu pano ile ilgili konuşmayı açmak için bağlantıyı seçiyorum.  
 
 ![Açıklamada bahsetme ekleme](media/end-user-comment/power-bi-comment-convo.png)  
 
+## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
+- Bir konuşmayı yanıtladığınızda yer işaretleri yakalanmaz. Bir konuşmadaki yalnızca ilk yorum yer işareti oluşturur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Tüketiciler için görselleştirmeler](end-user-visualizations.md)   konusuna dönün  

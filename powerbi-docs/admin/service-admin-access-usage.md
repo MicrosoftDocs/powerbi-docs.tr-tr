@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228885"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161204"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 
@@ -29,7 +29,7 @@ Tüm kullanıcılar (yönetici olmayanlar dahil) kendi oturum açma işlemlerini
 
 * Kiracınızın bununla ilişkili bir Azure Active Directory Premium lisansına sahip olması gerekir.
 
-* Şu rollerden birine atanmış olmanız gerekir: Genel Yönetici, Güvenlik Yöneticisi veya Güvenlik Okuyucusu.
+* Şu rollerden birinde olmalısınız: Genel Yönetici, Güvenlik Yöneticisi veya Güvenlik Okuyucusu.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Oturum açma etkinliklerini görüntülemek için Azure portalı kullanma
 
@@ -51,7 +51,7 @@ Oturum açma etkinliğini görüntülemek için aşağıdaki adımları izleyin.
 
 [Bir oturum açma raporunu](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) iki biçimden biriyle indirebilirsiniz: CSV dosyası veya JSON dosyası.
 
-![İndirme düğmesinin ekran görüntüsü.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![İndirme seçeneği vurgulanmış verileri dışarı aktarma özelliğinin ekran görüntüsü.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 **Oturum açma işlemleri** raporunun üstünde, **İndir** seçeneğini ve ardından aşağıdaki seçeneklerden birini belirleyin:
 

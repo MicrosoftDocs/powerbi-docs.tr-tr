@@ -1,18 +1,18 @@
 ---
 title: Power BI paylaşılan veri kümesiyle sayfalandırılmış rapor oluşturma - Power BI Report Builder
 description: Power BI Report Builder'da Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturun.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239784"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216782"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI paylaşılan veri kümesini temel alan bir sayfalandırılmış rapor oluşturma
 
@@ -104,6 +104,9 @@ Sorguyu almak için gerekli adımlar aşağıda verilmiştir.
     ![Rapor Oluşturucusu Sorgu Tasarımcısı](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. Üstteki kutuda, Power BI Desktop’tan kopyaladığınız sorguyu yapıştırın.
+
+    > [!NOTE]
+    > Sorgunuzda TOPN işlevi varsa bu işlevi sorgudan silin.
 
 1. Sorgunuzun çalıştığından emin olmak için **Sorguyu Yürüt** (kırmızı ünlem işareti,!) seçeneğini belirleyin. 
 

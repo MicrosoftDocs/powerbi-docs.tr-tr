@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 3d1c1919b5a940bc4ed6c5b0de9bd0af6444af00
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220069"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264907"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında veri uyarıları oluşturma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -37,14 +37,14 @@ Power BI Pro lisansınız varsa veya paylaşılan pano Premium kapasitedeyse kut
 ### <a name="set-an-alert-on-an-iphone-or-ipad"></a>iPhone veya iPad'de uyarı ayarlama
 1. Panodaki sayı veya ölçek kutucuklarından birine dokunarak odak modunda açın.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. Uyarı eklemek için zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) dokunun.  
+   ![Odak modundaki ölçer kutucuğunu gösteren bir panonun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+2. Uyarı eklemek için ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) zil simgesine dokunun.  
 3. **Uyarı kuralı ekle**'ye dokunun.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
+   ![Ayarlanan bir uyarı olmadığını gösteren uyarı kuralının ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
 4. Belirli bir değerin üzerinde veya altında uyarı alma seçeneğini belirleyip değeri ayarlayın.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
+   ![Ayarlanan uyarı başlığını ve değeri gösteren uyarı ayarlarının ekran görüntüsü](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-set-alert-threshold.png)
 5. Saatlik veya günlük uyarı seçeneğinin yanı sıra uyarı durumunda e-posta almak isteyip istemediğinizi belirtin.
    
    > [!NOTE]
@@ -55,32 +55,32 @@ Power BI Pro lisansınız varsa veya paylaşılan pano Premium kapasitedeyse kut
 7. **Kaydet**'e dokunun.
 8. Tek bir kutucukta bir eşiğin hem üzeri hem de altı için uyarı belirlenebilir. **Uyarıları yönet** bölümünde **Uyarı kuralı ekle**'ye dokunun.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
+   ![Uyarı kuralı eklemeye bakan bir işaretçiyi gösteren Uyarıyı yönet seçeneğinin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone veya iPad'de uyarıları yönetme
 Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir sayı veya ölçek kutucuğuna dokunun.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![Uyarıya sahip olan sayı kutucuğunu gösteren panonun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. Zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png) dokunun.  
+2. Uyarı eklemek için ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
 3. Düzenlemek istediğini uyarının adına dokunun, kaydırıcıya dokunarak e-posta uyarılarını kapatın veya çöp kutusuna dokunarak uyarıyı silin.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
+    ![Uyarı adını, uyarıyı silmek için çöp kutusunu ve uyarıyı kapatmak için kaydırıcıyı gösteren uyarının ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
 
 ## <a name="data-alerts-on-an-android-device"></a>Android cihazlarda veri uyarıları
 ### <a name="set-an-alert-on-an-android-device"></a>Android cihazlarda uyarı ayarlama
 1. Power BI panosunda bir sayı veya ölçek kutucuğuna dokunarak açın.  
-2. Uyarı eklemek için zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) dokunun.  
+2. Uyarı eklemek için ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) zil simgesine dokunun.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Uyarıya sahip olan sayı kutucuğunu gösteren panonun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. Artı simgesine (+) dokunun.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
+   ![Artı simgesine bakan bir işaretçiyi gösteren Uyarıları yönet seçeneğinin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
 4. Belirli bir değerin üzerinde veya altında uyarı alma seçeneğini belirleyip değeri yazın.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
+   ![Kaydet ve Bitti seçeneklerine bakan işaretçileri gösteren uyarı ayarının ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tablet-set-alert-condition.png)
 5. **Bitti**'ye dokunun.
 6. Saatlik veya günlük uyarı seçeneğinin yanı sıra uyarı durumunda e-posta almak isteyip istemediğinizi belirtin.
    
@@ -95,12 +95,12 @@ Mobil cihazınızda yalnızca belirli uyarıları yönetebilir veya [tüm uyarı
 Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir kart veya ölçer kutucuğuna dokunun.  
-2. Koyu renkli zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png) dokunun.  
+2. Koyu zil simgesine dokunun ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
 3. Uyarıya dokunarak değerini değiştirin veya kapatın.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
+    ![Uyarı eklemeye yarayan artı simgesini gösteren Uyarıyı yönet kutucuğunun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. Aynı kutucuğa başka bir uyarı eklemek için artı simgesine (+) dokunun.
-5. Uyarıyı silmek için çöp kutusu simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png) dokunun.
+5. Uyarıyı silmek için çöp kutusu simgesine dokunun ![Çöp kutusu simgesi](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows cihazlarda veri uyarıları
 
@@ -109,15 +109,15 @@ Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [t
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows cihazlarda veri uyarısı ayarlama
 1. Panodaki sayı veya ölçek kutucuklarından birine dokunarak açın.  
-2. Uyarı eklemek için zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) dokunun.  
+2. Uyarı eklemek için ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) zil simgesine dokunun.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Uyarıya sahip olan sayı kutucuğunu gösteren panonun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. Artı simgesine (+) dokunun.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
+   ![Ayarlanan bir uyarı olmadığını gösteren Uyarıları yönet seçeneğinin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
 4. Belirli bir değerin üzerinde veya altında uyarı alma seçeneğini belirleyip değeri yazın.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
+   ![Uyarıyı düzenlemeye yarayan girişleri gösteren uyarı ayarlarının ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-set-alert.png)
 5. Saatlik veya günlük uyarı seçeneğinin yanı sıra uyarı durumunda e-posta almak isteyip istemediğinizi belirtin.
    
    > [!NOTE]
@@ -128,18 +128,18 @@ Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [t
 7. Onay işaretine dokunun.
 8. Tek bir kutucukta bir eşiğin hem üzeri hem de altı için uyarı belirlenebilir. **Uyarıları yönet** bölümünde artı işaretine (+) dokunun.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+   ![Uyarı eklemeye yarayan artı simgesini gösteren Uyarıları yönet seçeneğinin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Windows cihazlarda uyarıları yönetme
 Power BI mobil uygulamasında yalnızca belirli uyarıları yönetebilir veya [tüm uyarılarınızı Power BI hizmetinde yönetebilirsiniz](../../create-reports/service-set-data-alerts.md).
 
 1. Panoda uyarı içeren bir kart veya ölçer kutucuğuna dokunun.  
-2. Zil simgesine ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png) dokunun.  
+2. Uyarı eklemek için ![Zil](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
+   ![Uyarıya sahip olan sayı kutucuğunu gösteren panonun ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. Uyarıya dokunarak değerini değiştirin veya kapatın.
    
-    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
+    ![Uyarı eklemeye yarayan artı simgesini gösteren Uyarıları yönet seçeneğinin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 4. Uyarıyı silmek için sağ tıklayın veya basılı tutun ve **Sil**'i seçin.
 
 ## <a name="receiving-alerts"></a>Uyarı alma
@@ -152,7 +152,7 @@ Veri kaynakları genelde her gün yenilenecek şekilde ayarlanmıştır ancak ba
    Veriler eşiği geçtiği sürece saatte veya 24 saatte bir uyarı gönderilir.
 2. Uyarının e-posta gönderme ayarını etkinleştirdiyseniz, Gelen Kutunuzda aşağıdakine benzer bir ileti görürsünüz.
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
+   ![Uyarıyı gösteren bir e-posta bildiriminin ekran görüntüsü.](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
 3. Power BI [Bildirim merkezinize](mobile-apps-notification-center.md) bir ileti ekler; ayrıca başlık çubuğundaki zil simgesine ![zil simgesi](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) (iOS ve Android) veya genel gezinti düğmesine ![genel gezinti düğmesi](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 cihazları) sarı bir nokta ekler.
 
 

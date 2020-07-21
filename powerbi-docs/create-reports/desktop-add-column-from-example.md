@@ -9,17 +9,17 @@ ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229074"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263186"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop'ta örneklerden sütun ekleme
 Power Query Düzenleyicisi'nde *örneklerden sütun ekleme* ile, yalnızca yeni sütunlar için bir veya birden fazla örnek değer sağlayarak veri modelinize yeni sütunlar ekleyebilirsiniz. Bir seçimden yeni sütun örnekleri oluşturabileceğiniz gibi, tablodaki tüm mevcut sütunları temel alarak giriş de sağlayabilirsiniz.
 
-![](media/desktop-add-column-from-example/add-column-from-example_01.png)
+![Power BI Desktop’taki örneklerden sütun eklemeyi gösteren Power Query Düzenleyicisi’nin ekran görüntüsü.](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
 *Örnekten sütun ekleme* yöntemini kullanmak hızlı ve kolay bir şekilde yeni sütunlar oluşturmanıza olanak tanır ve ayrıca aşağıdaki durumlar için harikadır:
 
@@ -165,4 +165,3 @@ Sütun başlığına çift tıklayıp **Yeniden Adlandır**'ı seçerek yeni sü
 - Toplam
 - Tanjant
 - Gruplandırma/Aralıklar
-

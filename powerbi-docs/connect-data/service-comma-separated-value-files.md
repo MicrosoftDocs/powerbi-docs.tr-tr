@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4827049ee8eff86b2ce71ee9befd3d01760c0840
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230487"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216327"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
-![](media/service-comma-separated-value-files/csv_icon.png)
+![CSV simgesi](media/service-comma-separated-value-files/csv_icon.png)
 
 Genellikle .CSV olarak bilinen virgülle ayrılmış değer dosyaları, her değerin virgülle ayrıldığı veri satırları içeren basit metin dosyalarıdır. Bu tür dosyaların çok büyük miktarda veriyi görece küçük boyutlu bir dosya içinde barındırması, bu dosyaları Power BI için ideal bir veri kaynağı haline getirir. Bir .CSV dosyası örneğini [buradan](https://go.microsoft.com/fwlink/?LinkID=619356) indirebilirsiniz.
 
@@ -41,13 +41,13 @@ Bir .CSV dosyanız varsa bu dosyayı bir veri kümesi olarak Power BI sitenize a
 
 1. Power BI'daki gezinti bölmesinden **Veri Al**'ı seçin.
    
-   ![](media/service-comma-separated-value-files/csv_get_data_button.png)
+   ![Gezgin bölmesindeki düğmeyi gösteren Power BI Desktop’taki Veri Al’ın ekran görüntüsü.](media/service-comma-separated-value-files/csv_get_data_button.png)
 2. **Dosyalar**'da, **Al**'a tıklayın.
    
-   ![](media/service-comma-separated-value-files/csv_files_get.png)
+   ![Al düğmesini gösteren, Dosyalar iletişim kutusunun ekran görüntüsü.](media/service-comma-separated-value-files/csv_files_get.png)
 3. Dosyanızı bulun.
    
-   ![](media/service-comma-separated-value-files/csv_find_your_file.png)
+   ![Yerel dosya, OneDrive İş, OneDrive Bireysel ve SharePoint seçimlerini gösteren, dosyanızı bulmaya yönelik dört kutucuğun ekran görüntüsü.](media/service-comma-separated-value-files/csv_find_your_file.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Verilerinizi araştırma**: Verileri dosyanızdan Power BI'a aktardığınızda artık araştırmaya başlayabilirsiniz. Yeni veri kümesine sağ tıklayıp **Araştır** seçeneğini belirlemeniz yeterlidir.

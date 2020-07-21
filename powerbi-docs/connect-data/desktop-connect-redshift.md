@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69cc3e21befb2c3becca737f853947e869bd681c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b832e96b795b38133939296a15dcab6ece3996be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224207"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214907"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Amazon Redshift veritabanına bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop'ta** **Amazon Redshift** veritabanına bağlanabilir ve temel alınan verileri kullanabilirsiniz.
@@ -22,19 +22,19 @@ Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi **Power BI
 ## <a name="connect-to-an-amazon-redshift-database"></a>Bir Amazon Redshift veritabanına bağlanma
 Bir **Amazon Redshift** veritabanına bağlanmak için Power BI Desktop'taki **Giriş** şeridinden **Veri Al** seçeneğini belirleyin. Soldaki kategorilerden **Veritabanı**'nı seçtiğinizde **Amazon Redshift**'i görebilirsiniz.
 
-![](media/desktop-connect-redshift/connect_redshift_3.png)
+![Amazon Redshift veritabanı seçimini gösteren Veri Al iletişim kutusunun ekran görüntüsü.](media/desktop-connect-redshift/connect_redshift_3.png)
 
 Görüntülenen **Amazon Redshift** penceresindeki kutuya, **Amazon Redshift** sunucunuzun ve veritabanınızın adını yazın veya yapıştırın. Kullanıcılar, *Sunucu* alanına şu biçimde bir bağlantı noktası girebilir: *SunucuURL:BağlantıNoktası*
 
-![](media/desktop-connect-redshift/connect_redshift_4.png)
+![Sunucu ve Veritabanı alanlarını gösteren Amazon Redshift iletişim kutusunun ekran görüntüsü.](media/desktop-connect-redshift/connect_redshift_4.png)
 
 İstendiğinde kullanıcı adınızı ve parolanızı girin. Hataları önlemek için SSL sertifikası ile tam olarak eşleşen sunucu adını kullanmanız gerekir. 
 
-![](media/desktop-connect-redshift/connect_redshift_5.png)
+![Kullanıcı Adı ve Parola alanlarını gösteren Amazon Redshift kimlik bilgileri isteminin ekran görüntüsü.](media/desktop-connect-redshift/connect_redshift_5.png)
 
-Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya birden çok öğe seçebilirsiniz.
+Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya daha fazla öğe seçebilirsiniz.
 
-![](media/desktop-connect-redshift/connect_redshift_6.png)
+![Sunucudaki kullanılabilir verileri gösteren Gezgin iletişim kutusunun ekran görüntüsü.](media/desktop-connect-redshift/connect_redshift_6.png)
 
 **Gezgin** penceresinden seçiminizi yaptıktan sonra veriler için **Yükle** veya **Düzenle** seçeneğini belirleyebilirsiniz.
 
@@ -45,7 +45,7 @@ Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve s
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

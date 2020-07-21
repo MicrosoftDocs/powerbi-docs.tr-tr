@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564035"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161710"
 ---
 # <a name="use-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
 
@@ -37,7 +37,7 @@ Microsoft 365'te alternatif adres belirtmek için aşağıdaki adımları izleyi
 
     Bilgilerinizi düzenleyemiyorsanız e-posta adresiniz yöneticiniz tarafından yönetiliyor demektir. E-posta adresinizi güncelleştirmek için yöneticinize başvurun.
 
-    ![Kişi ayrıntıları](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![Alternatif bir e-posta belirtmeyi gösteren, Kişi ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. **Alternatif e-posta** alanına Microsoft 365’in Power BI güncelleştirmeleri için kullanılmasını istediğiniz e-posta adresini girin.
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223330"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214599"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop aracılığıyla Project Online verilerine bağlanma
 Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz.
@@ -37,7 +37,7 @@ Power BI Desktop aracılığıyla Project Online verilerinize bağlanabilirsiniz
 
 5. Power BI Desktop iş veya okul hesabınızla kimliğinizi doğrulamanızı ister. Kuruluş hesabınızı seçip kimlik bilgilerinizi girin.
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![Bağlanmak için kimlik bilgileri istemini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-project-online-connect-to-data/image.png)
 
 OData akışına bağlanmak için kullandığınız hesabın, Project Web App sitesine en az Portföy Görüntüleyicisi düzeyinde erişim izni olması gerekir. 
 
