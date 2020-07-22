@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c691446d7cc9a976e38cab5aefc385c988cb1552
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347781"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409318"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop’ta Microsoft Graph Güvenliği API’sine bağlanma
 
@@ -32,6 +32,7 @@ Onay, bağlayıcının uygulama kimliğini ve adını gerektirir (burada belirti
 |----------|-------|
 | **Uygulama adı** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **Uygulama Kimliği** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+| **Yönlendirme URI'si** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
 Bağlayıcıya onay vermek için Azure AD kiracısı yöneticiniz aşağıdaki yöntemlerden birini kullanabilir:
