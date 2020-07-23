@@ -156,8 +156,6 @@
           items:
             - name: Dosyalardan veri alma
               href: service-get-data-from-files.md
-            - name: Excel'den büyüleyici raporlara
-              href: service-from-excel-to-stunning-report.md
             - name: Excel çalışma kitabı dosyalarından veri alma
               href: service-excel-workbook-files.md
             - name: Power BI Desktop dosyalarından veri alma
