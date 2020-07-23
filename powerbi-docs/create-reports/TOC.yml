@@ -11,6 +11,10 @@
     - name: Öğreticiler
       expanded: true
       items:
+        - name: 'Power BI Desktop: Excel’den rapora'
+          href: desktop-excel-stunning-report.md
+        - name: 'Power BI hizmeti: Excel’den rapora'
+          href: service-from-excel-to-stunning-report.md
         - name: 'Çevrimiçi kurs: Sayfalandırılmış raporlar'
           href: ../learning-catalog/paginated-reports-online-course.md
         - name: Sayfalandırılmış rapor oluşturma ve karşıya yükleme
@@ -205,7 +209,7 @@
               href: service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
               href: service-interact-with-a-report-in-editing-view.md
-            - name: Excel’de çözümleme
+            - name: Excel’de Analiz Et
               href: ../collaborate-share/service-analyze-in-excel.md
             - name: Hizmetteki kümelerle çalışma
               href: service-aggregates.md
