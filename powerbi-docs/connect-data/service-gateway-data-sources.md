@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 02/21/2020
+ms.date: 07/16/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e1b127bae83338264ac450438956e03a5ec24cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236632"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459566"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
@@ -102,6 +102,9 @@ Bir ağ geçidine veri kaynağı ekledikten sonra, kullanıcılara ve e-posta ö
 
 Ayrıca, kullanıcılara ve güvenlik gruplarına ağ geçidi için yönetim erişimi verebilirsiniz.
 
+> [!NOTE]
+> Veri kaynağına erişimi olan kullanıcılar, veri kümelerini veri kaynağıyla ilişkilendirebilir ve veri kaynağı oluşturulurken seçilmiş olan güvenlik seçeneklerine (kayıtlı kimlik bilgileri veya çoklu oturum açma) göre bağlantı kurabilir.
+
 ### <a name="add-users-to-a-data-source"></a>Veri kaynağına kullanıcı ekleme
 
 1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-data-sources/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
@@ -138,7 +141,7 @@ Ağ geçidine bir veri kaynağı eklediğinizde bu veri kaynağına yönelik kim
 * [Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)
 * [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)
 * [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)
-* [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
+* [Veri kaynağınızı yönetme - İçeri aktarma/zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Veri ağ geçidi dağıtmaya ilişkin yönergeler](service-gateway-deployment-guidance.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.

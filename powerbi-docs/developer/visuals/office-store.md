@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238976"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437227"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -23,7 +23,7 @@ Power BI görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi 
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), Microsoft ürünleriniz ve hizmetleriniz için SaaS uygulamalarını ve eklentilerini bulabileceğiniz yerdir.
 
-![Office Mağazası](media/office-store/appsource-01.png)
+![AppSource'taki Power BI görsellerinin ekran görüntüsü.](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI görselinizi göndermek için hazırlanma
 
@@ -61,7 +61,7 @@ E-postanıza **pbiviz dosyasını** ve **örnek rapor pbix dosyasını** ekleyin
 
 ## <a name="submitting-to-appsource"></a>AppSource'a gönderme
 
-Power BI görselinizi AppSource'a göndermek için Power BI ekibinden bir uygulama paketi almalı ve ardından bunu İş Ortağı Merkezi'ne göndermelisiniz. 
+Power BI görselinizi AppSource'a göndermek için Power BI ekibinden bir uygulama paketi almalı ve ardından bunu İş Ortağı Merkezi'ne göndermelisiniz.
 
 ### <a name="getting-the-app-package"></a>Uygulama paketini alma
 
@@ -73,6 +73,11 @@ Power BI ekibi yeni Power BI görsel gönderimleri, mevcut Power BI görsellerin
 
 Power BI görselinizi İş Ortağı Merkezi'ne göndermek için İş Ortağı Merkezi'ne kaydolmanız gerekir. Henüz kaydolmadıysanız [İş Ortağı Merkezi'nde bir geliştirici hesabı açın](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
+>[!NOTE]
+>**Bireysel yayıncılar**, şu yöntemlerden birini kullanarak Power BI görseli gönderebilir:
+>* Eski bir Satıcı Panosu hesabınız varsa bu hesabın kimlik bilgilerini kullanarak İş Ortağı Merkezi'nde oturum açabilirsiniz.
+>* Eski bir Satıcı Panosu hesabınız yoksa ve İş Ortağı Merkezi'ne kaydolmadıysanız iş e-posta adresinizi kullanarak [İş Ortağı Merkezi'nde bir geliştirici hesabı açmanız](https://docs.microsoft.com/office/dev/store/open-a-developer-account) gerekir.
+
 Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki adımları izleyin. Gönderim işlemi hakkında daha fazla bilgi için bkz. [Office çözümünüzü İş Ortağı Merkezi üzerinden AppSource'a gönderme](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
 
 1. **İş Ortağı Merkezi**'nde oturum açın.
@@ -83,7 +88,7 @@ Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki ad�
 
 4. **Yeni oluştur**'u seçin ve açılan menüden **Power BI görseli**'ni seçin.
 
-    ![Office Mağazası](media/office-store/power-bi-visual.png)
+    ![İş Ortağı Merkezi'nin Office Mağazası sekmesinde yeni Power BI görseli oluşturma işleminin ekran görüntüsü.](media/office-store/power-bi-visual.png)
 
 5. **Yeni Power BI görseli oluştur** penceresinde Power BI görseliniz için bir ad girin ve **Oluştur**'u seçin.
 

@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 06/06/2020
 ms.custom: include file
-ms.openlocfilehash: 8e50a529bfd398a4075ebf049ee4aec1bcf48b4d
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 569d7dfe251183962a14de1c42d85ee2e58950af
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315854"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86401672"
 ---
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
@@ -25,3 +25,4 @@ ms.locfileid: "84315854"
 * [Veri akışları](../transform-model/service-dataflows-overview.md) yönetimi desteklenmez.
 * Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
 * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
+* Hizmet sorumlusu şu an için ağ geçidindeki veri kaynaklarına erişim sağlayamaz. Başka bir ifadeyle hizmet sorumlusunu ağ geçidindeki veri kaynağı kullanıcılarının arasına ekleyemezsiniz.

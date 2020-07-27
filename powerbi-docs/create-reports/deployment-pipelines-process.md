@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034302"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557222"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Dağıtım sürecini anlama (önizleme)
 
@@ -152,11 +152,11 @@ Dağıtım sırasında şu veri kümesi özellikleri de kopyalanmaz:
 
 Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece her uygulama güncelleştirmesini son kullanıcının bakış açısıyla test edebilirsiniz. Dağıtım işlem hattı, bu süreci kolayca yönetmenizi sağlar. Çalışma alanı kartındaki yayımla veya görüntüle düğmesini kullanarak uygulamayı yayımlayın veya belirli bir işlem hattı aşamasında görüntüleyin.
 
-[![uygulama yayımlama](media/deployment-pipelines-process/publish.png "Uygulamayı yayımla")](media/deployment-pipelines-process/publish.png#lightbox)
+[![Üretim aşamasının sağ alt köşesinde yer alan uygulamayı yayımlama düğmesinin vurgulandığı ekran görüntüsü.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 Üretim aşamasında, sol alt köşedeki ana eylem düğmesi Power BI’da uygulama güncelleştirme sayfasını açar, böylece tüm içerik güncelleştirmeleri uygulama kullanıcılarının kullanımına sunulur.
 
-[![uygulama güncelleştirme](media/deployment-pipelines-process/update-app.png "Uygulamayı güncelleştir")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![Üretim aşamasının sağ alt köşesinde yer alan uygulamayı güncelleştirme düğmesinin vurgulandığı ekran görüntüsü.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >Dağıtım işlemi, uygulama içeriğinin veya ayarlarının güncelleştirilmesini içermez. İçerikte ve ayarlarda değişiklikler uygulamak için, uygulamayı gerekli işlem hattı aşamasında kendiniz güncelleştirmeniz gerekir.

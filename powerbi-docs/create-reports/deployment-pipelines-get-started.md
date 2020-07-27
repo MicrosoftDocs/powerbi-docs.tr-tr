@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354743"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557268"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>Dağıtım işlem hatlarını kullanmaya başlama (önizleme)
 
@@ -31,7 +31,7 @@ Aşağıdaki koşullar sağlandığında dağıtım işlem hatları özelliğine
 >[!NOTE]
 > Önceden bir işlem hattı oluşturduysanız veya sizinle bir işlem hattı paylaşıldıysa da dağıtım işlem hatları düğmesini görebilirsiniz.
 
-![dağıtım işlem hatları açılış sayfası](media/deployment-pipelines-get-started/creating-pipeline.png)
+![Dağıtım işlem hatları açılış sayfasının ekran görüntüsü.](media/deployment-pipelines-get-started/creating-pipeline.png)
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>1\. Adım: Dağıtım işlem hattı oluşturma
 
@@ -84,7 +84,7 @@ Dağıtım tamamlandıktan sonra veri kümesini yenileyin. Daha fazla bilgi içi
 
 İçinden dağıtılacak aşamayı seçip dağıtım düğmesine tıklayın. Dağıtım işlemi, hedef aşamada yinelenen bir çalışma alanı oluşturur. Bu çalışma alanı, geçerli aşamada bulunan tüm içeriğe sahiptir.
 
-[![dağıtma](media/deployment-pipelines-get-started/deploy.png "Tüm içeriği dağıtma")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![Dağıtım işlem hattındaki geliştirme ve test aşamaları için dağıtım düğmesini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Seçmeli dağıtım
 
@@ -92,7 +92,7 @@ Yalnızca belirli öğeleri dağıtmak için **Daha fazla göster** bağlantıs�
 
 Pano, rapor ve veri kümeleri ilişkili olduğundan ve bağımlılıklara sahip olduğundan, bu öğelerin bağımlı olduğu tüm öğeleri işaretlemek için ilişkili seç düğmesini kullanabilirsiniz. Örneğin, bir rapor sonraki aşamaya dağıtmak isterseniz ilişkili seç düğmesine tıkladığınızda raporun bağlı olduğu veri kümesi işaretlenir, böylece her ikisi de tek seferde dağıtılır ve rapor kesintiye uğramaz.
 
-[![seçmeli dağıtım](media/deployment-pipelines-get-started/selective-deploy.png "Seçmeli dağıtım")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![Daha fazlasını göster seçeneği belirlendikten sonra açılan dağıtım işlem hattı seçmeli dağıtım seçeneğini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/selective-deploy.png)](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * Bir raporun veya panonun bağımlı olduğu öğeler sonraki aşamada yoksa bu rapor veya pano sonraki aşamaya dağıtılamaz.
@@ -104,7 +104,7 @@ Pano, rapor ve veri kümeleri ilişkili olduğundan ve bağımlılıklara sahip 
 
 Önceki bir aşamaya dağıtmak yalnızca önceki aşamadaki içeriğin boş olması durumunda işe yarar. Önceki aşamaya dağıtırken belirli öğeler seçilemez. Aşamadaki tüm içerik dağıtılır.
 
-[![geriye dönük dağıtım](media/deployment-pipelines-get-started/deploy-back.png "Geriye dönük dağıtım")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![Test veya üretim aşaması menülerinden ulaşılabilen önceki aşamaya dağıt düğmesini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>4\. Adım: Veri kümesi kuralları oluşturma
 
@@ -121,15 +121,15 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 1. Veri kümesi kuralı oluşturmak istediğiniz işlem hattı aşamasında **Dağıtım ayarları**’na tıklayın.
 
-    ![dağıtım ayarları](media/deployment-pipelines-get-started/deployment-settings.png)
+    ![Dağıtım işlem hattı aşamalarının her birinde sağ üstte bulunan dağıtım ayarları düğmesinin ekran görüntüsü.](media/deployment-pipelines-get-started/deployment-settings.png)
 
 2. Dağıtım ayarları bölmesinden kural oluşturmak istediğiniz veri kümesini seçin.
 
-    [![veri kümesi kuralları](media/deployment-pipelines-get-started/dataset-rules.png "Bir veri kümesi seçme")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![Veri kümesi kuralı oluşturmak için veri kümesi seçimini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. Oluşturmak istediğiniz kural türünü seçin, listeyi genişletin ve **Kural ekle**’ye tıklayın.
 
-     [![kural ekleme](media/deployment-pipelines-get-started/add-rule.png "Kural ekleme")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![Veri kaynağı kuralı seçip kural ekle seçeneğine tıklamayı gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>Veri kümesi kural türleri
 
@@ -152,6 +152,8 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 * Bir öğe kaldırıldığında veya silindiğinde kuralları da silinir. Bu kurallar geri yüklenemez.
 
 * Bir kuralda tanımlanan veri kaynağı veya parametreler değiştirilirse veya kaynak veri kümesinden kaldırılırsa kural geçerli olmaz ve dağıtım başarısız olur.
+
+* Parametre kuralları, *Tümü* veya *İkili* türündeki parametreler için tanımlanamaz. Daha fazla bilgi için bkz. [Veri kümesi güncelleştirme parametresi kısıtlamaları](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
 
 * Veri kaynağı kuralları, yalnızca şu veri kaynakları için tanımlanabilir:
     * Azure Analysis Services
@@ -180,7 +182,7 @@ Dağıtım zamanı, bir aşamayı son güncelleştirildiği zamana göre oluştu
 
 Ardışık iki aşamada içerik bulunduğunda bu içerik, içerik öğeleri meta verileri temel alınarak karşılaştırılır. Bu karşılaştırma, verileri karşılaştırmayı veya aşamalar arasındaki zamanı yenilemeyi kapsamaz.
 
- [![dağıtım akışı](media/deployment-pipelines-get-started/deployment-flow.png "Aşamaları karşılaştırma")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![Bir dağıtım işlem hattını ve karşılaştırma göstergelerini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/deployment-flow.png)](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 İki ardışık aşama arasındaki farklara yönelik hızlı bir görsel içgörü elde etmek için bunlar arasında bir karşılaştırma simgesi göstergesi görünür. Karşılaştırma göstergesinin iki durumu vardır:
 
@@ -201,13 +203,13 @@ Ardışık iki aşamada içerik bulunduğunda bu içerik, içerik öğeleri meta
     >[!NOTE]
     >Dağıtım, *şurada eksik* olan öğeleri etkilemez.
 
- [![karşılaştırma](media/deployment-pipelines-get-started/compare.png "Karşılaştırma görünümü")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![Karşılaştırma görünümünü genişleten ve farklı dağıtım işlem hatlarındaki öğelerin karşılaştırılmasını sağlayan karşılaştırma seçeneğini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/compare.png)](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>İçeriği geçersiz kılma
 
 Kaynak aşamadaki içerikte değişiklikler yaptıktan sonra dağıttığınızda, hedef aşamada değiştirdiğiniz içeriğin üzerine yazılır. *Dağıt*’a tıkladıktan sonra, üzerine yazılacak öğelerin sayısını içeren bir uyarı listesi alırsınız.
 
-![değiştirilmiş içerik uyarısı](media/deployment-pipelines-get-started/replaced-content.png)
+![Bir dağıtımın, dağıtım yapılan aşamadaki öğelerde değişiklik yapılmasına neden olacak olması halinde görüntülenen değiştirilen içerik uyarısının ekran görüntüsü.](media/deployment-pipelines-get-started/replaced-content.png)
 
 [Dağıtım sürecini anlama](deployment-pipelines-process.md) bölümünde, [sonraki aşamaya kopyalanan öğeler](deployment-pipelines-process.md#deployed-items) ve [kopyalanmayan öğeler](deployment-pipelines-process.md#unsupported-items) hakkında daha fazla bilgi edinebilirsiniz.
 

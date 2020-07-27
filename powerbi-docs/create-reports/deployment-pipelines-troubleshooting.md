@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485887"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557192"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>Dağıtım işlem hatları sorunlarını giderme (önizleme)
 
@@ -110,7 +110,7 @@ Dağıtımınız daha önce başarılı olduysa ve hatalı kurallar nedeniyle bi
 
 Veri kümesi kurallarınızın değerleri eksik. Bu durum, veri kümenizin değişmesinden dolayı oluşabilir.
 
-![hatalı kural](media/deployment-pipelines-troubleshooting/broken-rule.png)
+![Bir dağıtım hatalı bağlantılar nedeniyle başarısız olduğunda görüntülenen geçersiz kurallar hatasının ekran görüntüsü.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
 Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma**’ya tıklayabilirsiniz. Veri kümesine tıkladığınızda hatalı kurallar işaretlenir.
 

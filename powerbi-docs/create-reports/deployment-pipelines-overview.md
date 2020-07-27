@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: be945d1d9612804a90c14c47d2c468f5ed5a843f
-ms.sourcegitcommit: 008467dc9d4f88f91728c59caeb68b7db94f267c
+ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82885042"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557153"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>Dağıtım işlem hatlarına giriş (önizleme)
 
@@ -40,7 +40,7 @@ Bu araç üç aşamalı bir işlem hattı olarak tasarlanmıştır:
 
     İçeriği test ettikten sonra üretim aşamasını kullanarak içeriğinizin son sürümünü kuruluşunuzdaki iş kullanıcılarıyla paylaşabilirsiniz.
 
-![dağıtım işlem hatları](media/deployment-pipelines-overview/deployment-pipelines.png)
+![Dağıtım, test ve üretim aşamalarının doldurulmuş olduğu çalışan bir dağıtım işlem hattının ekran görüntüsü.](media/deployment-pipelines-overview/deployment-pipelines.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

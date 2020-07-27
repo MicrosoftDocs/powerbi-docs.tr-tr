@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218551"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409525"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI’da göreli saat dilimleyicisi ve filtresi kullanma
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218551"
 
 Yeni ortaya çıkan hızlı yenileme senaryolarında, daha kısa bir zaman aralığına filtreleme becerisi yararlı olabilir. Göreli saat dilimleyici veya göreli saat filtresi kullanarak veri modelinizdeki tarih veya saat sütunlarına zamana bağlı filtre uygulayabilirsiniz. Örneğin göreli saat dilimleyicisini kullanarak yalnızca son dakika veya son saat içindeki video görünümlerini gösterebilirsiniz. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Göreli saat örneği":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="Göreli saat dilimleyicisinin ekran görüntüsü.":::
 
 Bu özelliği [otomatik sayfa yenileme](../create-reports/desktop-automatic-page-refresh.md) özelliğiyle birlikte kullanmak zorunda değilsiniz. Bununla birlikte birçok göreli saat senaryosu otomatik sayfa yenileme özelliğiyle birlikte iyi sonuç verir.  
 
 > [!NOTE]
 > Sayfa veya rapor düzeyinde göreli saat filtresi veya dilimleyicisi uyguladığınızda söz konusu sayfa veya rapordaki tüm görseller paylaşılan *sabit saat noktası* kullanılarak tam olarak aynı zaman aralığına filtrelenir. Görsellerin yürütme zamanları biraz farklı olabileceğinden, bu paylaşılan sabit saat noktası görsellerin sayfanız veya raporunuz genelinde eşitlenmesini sağlar. Bu makalede [sabit zaman](#understanding-anchor-time) hakkında daha fazla bilgi edinebilirsiniz.
-
-## <a name="turn-on-relative-time-preview"></a>Göreli saat önizlemesini açma
-
-Göreli saat filtresi önizleme aşamasındadır, bu nedenle özellik anahtarını açmanız gerekir. **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** yolunu izleyin. **Genel ayarlar** > **Önizleme özellikleri**’nin altında **Göreli saat filtresi**’nin seçili olduğundan emin olun.
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="Göreli saat önizleme seçeneğini ayarlama":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>Göreli saat dilimleyicisi veya filtresi oluşturma
 
@@ -45,7 +39,7 @@ Göreli saat filtresi önizleme aşamasındadır, bu nedenle özellik anahtarın
 
 2. **Dilimleyici** görselleştirme türünü seçin.
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Saat dilimleyicisi oluşturma":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="Saat dilimleyicisi oluşturma işleminin ekran görüntüsü.":::
 
 ### <a name="create-a-filter"></a>Filtre oluşturma
  
@@ -55,27 +49,27 @@ Göreli saat filtresi önizleme aşamasındadır, bu nedenle özellik anahtarın
 
 Ardından filtre türünü **Göreli Saat** olarak değiştirirsiniz.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Göreli saat olarak değiştirme":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="Göreli saate geçme işleminin ekran görüntüsü.":::
  
 Dilimleyicide şöyle görünür:
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Dilimleyicide göreli saat":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="Dilimleyicideki göreli saatin ekran görüntüsü.":::
 
 Filtre kartında şöyle görünür: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Filtrede göreli saat":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="Filtredeki göreli saatin ekran görüntüsü.":::
  
-Bu yeni filtre türüyle **Son**, **Sonraki** veya **Bu zaman aralığı** temelinde filtreleme seçeneğiniz olur: 
+Bu yeni filtre türüyle **Son**, **Sonraki** veya **Bu zaman aralığı** temelinde filtreleme yapabilirsiniz: 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Son, Sonraki veya Bu zaman aralığı’nı seçme":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="Son, Sonraki veya Bu zaman aralığı seçiminin ekran görüntüsü.":::
  
 Zaman penceresini bir tam sayı ve bir zaman birimi kullanarak belirtirsiniz: **Dakika** veya **Saat**.
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Dakika veya saat seçme":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="Dakika veya saat seçiminin ekran görüntüsü.":::
 
 Tuvalde yer kazanmanız gerekirse göreli saat filtresini Filtreler bölmesinde bir filtre kartı olarak da oluşturabilirsiniz.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Göreli saati filtrede ayarlama":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="Göreli saati filtrede ayarlama seçeneğinin ekran görüntüsü.":::
  
 ## <a name="understanding-anchor-time"></a>Sabit saat noktasını anlama
 
@@ -101,7 +95,7 @@ Göreli saat dilimleyicisi ve filtresi için geçerli sınırlamalar ve önemli 
     - Ekleme API’si aracılığıyla desteklenmez.
     - Web’de yayımlama için desteklenmez.
 
-- **Sorgu önbelleği**: İstemci önbelleğini kullanırız. Bu nedenle "son 1 dakika", sonra "son 5 dakika" ve sonra da yeniden "son 1 dakika" seçeneklerini belirttiğinizi düşünün. Bu noktada, sayfayı yenilemediğiniz veya sayfa otomatik olarak yenilenmediği sürece ilk çalıştırıldığı zamankiyle aynı sonuçları görürsünüz.
+- **Sorgu önbelleği**: İstemci önbelleğini kullanıyoruz. "Son 1 dakika", sonra "son 5 dakika" ve sonra da yeniden "son 1 dakika" seçeneklerini belirttiğinizi düşünün. Bu noktada, sayfayı yenilemediğiniz veya sayfa otomatik olarak yenilenmediği sürece ilk çalıştırıldığı zamankiyle aynı sonuçları görürsünüz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

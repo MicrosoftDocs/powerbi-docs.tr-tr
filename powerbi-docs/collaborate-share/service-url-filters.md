@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225235"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437294"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
 Power BI hizmetinde bir raporu açtığınızda, rapordaki her sayfanın kendine ait bir URL'si bulunur. Bu rapor sayfasının filtrelemek için rapor tuvalindeki Filtreler bölmesini kullanabilirsiniz.  Alternatif olarak URL'ye sorgu dizesi parametreleri ekleyerek rapora ön filtreleme uygulayabilirsiniz. İş arkadaşlarınıza göstermek istediğiniz bir raporunuz olabilir ve bu raporu onlar için önceden filtrelemek isteyebilirsiniz. Filtre uygulamanın bir yolu raporun varsayılan URL'si ile başlamak, filtre parametrelerini URL'ye eklemek ve ardından iş arkadaşlarınıza yeni URL'nin tamamını e-posta ile göndermektir.
 
-![Hizmette Power BI raporu](media/service-url-filters/power-bi-report2.png)
+Bu makalede Perakende Analizi Örneği raporu kullanılmıştır. Bu kılavuzla birlikte ilerlemek için [örnek raporu indirebilirsiniz](../create-reports/sample-retail-analysis.md#get-the-sample).
+
+![Hizmette Power BI raporunun ekran görüntüsü.](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>Sorgu dizisi parametrelerinin kullanımları
 
@@ -35,18 +37,10 @@ Parametreleri kullanarak boşluk veya özel karakter içerenler dahil olmak üze
 
 *URL*?filter=*Tablo*/*Alan* eq '*değer*'
 
-![Filtre ile URL](media/service-url-filters/power-bi-filter-urls7b.png)
+![Filtre içeren URL'nin ekran görüntüsü.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **Tablo** ve **Alan** adları büyük/küçük harfe duyarlıdır, **değer** ise değildir.
 * Rapor görünümünden gizlenen alanlar yine de filtrelenebilir.
-
-### <a name="reports-in-apps"></a>Uygulamalardaki raporlar
-
-Uygulamadaki rapora URL filtresi eklemek isterseniz, biçimlendirme biraz farklıdır. Uygulamadaki raporlara yönelik bağlantıların, URL'ye eklenen bir sorgu parametresi (ctid) vardır. Sorgu parametrelerini bir ve işareti (&) ile ayırın. “?filter=” özelliğini tutun ve ctid parametresini URL’nin sonuna taşıyıp önüne bir ve işareti (&) getirin. 
-
-Şu örnekteki gibi olmalıdır:
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>Alan türleri
 
@@ -62,27 +56,19 @@ Yine de karmaşık geliyorsa ayrıntıları görmek için okumaya devam edin.
 
 Aşağıdakinin raporumuzun URL'si olduğunu kabul edelim.
 
-![URL’yi başlatma](media/service-url-filters/power-bi-filter-urls6.png)
+![Başlatma URL'sinin ekran görüntüsü.](media/service-url-filters/power-bi-filter-urls6.png)
 
-Harita görselleştirmemizde (yukarıda) Kuzey Carolina'da mağazalarımız olduğunu görüyoruz.
+Yukarıdaki harita görselleştirmemizde Kuzey Carolina'da mağazalarımız olduğunu görüyoruz. *NC*, **Store** tablosunun **Territory** alanındaki Kuzey Carolina'yı temsil eden değerdir. Raporu yalnızca "NC" içindeki mağazaları göstermek üzere filtrelemek için URL'ye şu dizeyi ekleyin:
 
->[!NOTE]
->Bu örnekte [Perakende Analiz Örneği](../create-reports/sample-datasets.md) temel alınmıştır.
-> 
-
-Raporu yalnızca "NC"de (Kuzey Carolina) bulunan mağazaları göstermek üzere filtrelemek için URL'ye aşağıdakileri ekleyin;
-
+```
 ?filter=Store/Territory eq 'NC'
+```
 
-![Filtre ile URL](media/service-url-filters/power-bi-filter-urls7.png)
+![Filtre içeren URL'nin ekran görüntüsü.](media/service-url-filters/power-bi-filter-urls7.png)
 
->[!NOTE]
->*NC*, **Store** tablosunun **Territory** alanında depolanan bir değerdir.
-> 
+Raporumuz şimdi Kuzey Carolina için filtrelendi, raporda bulunan tüm görselleştirmeler yalnızca Kuzey Carolina'ya ait verileri gösterir.
 
-Raporumuz Kuzey Carolina için filtrelendi, rapor sayfasında bulunan tüm görselleştirmeler yalnızca Kuzey Carolina'ya ait verileri gösterir.
-
-![Kuzey Carolina için filtrelenmiş rapor](media/service-url-filters/power-bi-report4.png)
+![Kuzey Carolina için filtrelenmiş raporun ekran görüntüsü.](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>Alandaki birden çok değere göre filtreleme
 
@@ -92,7 +78,9 @@ Tek bir alanda birden çok değere göre filtrelemek için **and** işleci yerin
 
 Aynı örneği kullanarak raporu yalnızca "NC"de (Kuzey Carolina) veya “TN”de (Tennessee) bulunan mağazaları göstermek üzere filtrelemek için URL'ye aşağıdakileri ekleyin;
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 Diğer yararlı işleçlerin listesi için makalenin devamındaki [İşleçler](#operators) tablosuna bakın.
 
@@ -167,10 +155,10 @@ Tablo ve sütun adlarında özel karakter ve boşluk kullanımı için gerçekle
 |**[Sütun]**     |  [ is 0x005B ] is 0x005D       |  _x005B_Column_x005D_       |
 |**Sütun+Artı**     | + 0x2B        |  Sütun_x002B_Artı       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![özel karakterler içeren tablo görseli](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Değerlerdeki özel karakterler
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Raporu Power BI hizmetinde yayımlayın ve ardından yalnızca NC'deki Lindseys mağazalarına ait verileri görüntülemek üzere filtrelemek için URL sorgu dizesini kullanın.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Filtrelenen bir rapordan kutucuk sabitleme
 
@@ -216,6 +206,7 @@ Sorgu dizesi parametrelerini kullanırken dikkat edilmesi gereken bazı noktalar
 * Power BI Rapor Sunucusu, “filtre” URL parametresini kullanarak ek filtre belirtme özelliğini de destekler. URL’nin Power BI Rapor Sunucusu’nda nasıl gözüktüğünü şu örnekte görebilirsiniz: `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * Rapor URL filtrelerinin 10 ifade sınırı vardır (AND ile bağlanan 10 filtre).
 * JavaScript sınırlamaları nedeniyle uzun veri türü (2^53-1) olarak belirlenmiştir.
+* Power BI, URL sorgu dizelerindeki karakter sayısını sınırlamaz. Her tarayıcının kendine özgü uzunluk sınırlaması vardır.
 
 URL filtreleri yalnızca bazı ekleme senaryolarında desteklenir.
 

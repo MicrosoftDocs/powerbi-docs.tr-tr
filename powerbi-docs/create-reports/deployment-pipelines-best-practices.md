@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275927"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557199"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>Dağıtım işlem hatlarına yönelik en iyi yöntemler (önizleme)
 
@@ -140,7 +140,7 @@ Bu üç faktörün test ortamınızda ele alındığından emin olun:
 
 Test sırasında, üretim aşamasındakiyle aynı boyuttaki kapasiteyi kullanabilirsiniz. Ancak bu, üretim aşamasının yük test etme sırasında kararsız olmasına neden olabilir. Kararsız üretimden kaçınmak için, üretim kapasitesindeki kaynaklara benzer başka bir kapasiteyi test amacıyla kullanın. Ek maliyetlerden kaçınmak amacıyla, yalnızca test etme süresini ödemek için [Azure A kapasitelerini](../developer/embedded/azure-pbie-create-capacity.md) kullanabilirsiniz.
 
-![dağıtım işlem hatlarına yönelik en iyi yöntemler diyagramı](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![Üretim ortamını simüle eden test ortamını içeren bir dağıtım işlem hattını gösteren diyagram.](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>Veri kümesi kurallarını gerçek hayattaki bir veri kaynağıyla kullanma
 

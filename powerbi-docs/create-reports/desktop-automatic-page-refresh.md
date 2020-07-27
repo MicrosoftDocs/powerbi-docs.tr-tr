@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1febf93d35500d56f5b3b104487725f33d7b17ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234187"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557245"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik sayfa yenileme 
 
@@ -146,6 +147,7 @@ Power BI Desktop veya Power BI hizmetinde otomatik sayfa yenilemeyi kullanırken
 * İçeri Aktarma, LiveConnect ve Push depolama modları, otomatik sayfa yenileme için desteklenmez.  
 * En az bir DirectQuery veri kaynağı olan bileşik modeller desteklenir.
 * Power BI Desktop’ta yenileme aralıklarına yönelik bir kısıtlama yoktur. Aralık her saniye gibi bir sıklıkta olabilir. Raporlar Power BI hizmetinde yayımlandığında, bu makalenin [önceki](#restrictions-on-refresh-intervals) kısmında açıklandığı gibi belirli kısıtlamalar uygulanır.
+* SharePoint Online ekleme seçeneği, otomatik sayfa yenileme özelliğini desteklemez.
 
 ### <a name="performance-diagnostics"></a>Performans tanılamaları
 

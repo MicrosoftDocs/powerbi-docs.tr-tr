@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237766"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459658"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Şirket içi veri kaynakları ile veri akışlarını kullanma
 
@@ -69,6 +69,7 @@ Kurumsal Ağ Geçitlerini ve veri akışlarını kullanmanın bilinen birkaç s�
 * Ağ geçidinin değiştirilmesi tüm veri akışını etkiler.
 * Birkaç ağ geçidi gerekliyse en iyi yöntem birden fazla veri akışı (her ağ geçidi için bir tane) oluşturmak ve verileri birleştirmek için işlem veya varlık başvuru özelliklerinden yararlanmaktır.
 * Veri akışları yalnızca kurumsal ağ geçitleri kullanıldığında desteklenir. Kişisel ağ geçitleri açılan listelerde ve ayarlar ekranlarında seçim için sunulmaz.
+* [DirectQuery ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) seçeneğiyle yapılandırılmış olan şirket içi veri kaynakları, veri akışlarında desteklenmez.
 
 
 ## <a name="next-steps"></a>Sonraki Adımlar

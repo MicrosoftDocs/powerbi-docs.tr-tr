@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162287"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459612"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -52,11 +52,12 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
-    - *Sürüm: 2.81.5831.941 (Mayıs 2020), Yayınlama tarihi: 27 Temmuz 2020* (yeni derleme ve yeni sürüm)
+   - *Sürüm: 2.81.5831.1181 (Mayıs 2020), Yayınlanma tarihi: 9 Haziran 2020*
+        - Hata Düzeltmesi
+           -  Market görselleri için düzeltme
+   - *Sürüm: 2.81.5831.941 (Mayıs 2020), Yayınlama tarihi: 27 Temmuz 2020* (yeni derleme ve yeni sürüm)
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Mayıs 2020)        
-
-
-
+   
 ## <a name="january-2020"></a>Ocak 2020
 - **Power BI Rapor Sunucusu**
     - *Sürüm: 1.6.7364.4075 (Derleme 15.0.1102.777), Yayın Tarihi: 2 Mart 2020*

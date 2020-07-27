@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034509"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557129"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -117,9 +117,10 @@ Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU�
 
 Dışarı aktarma işi oluştururken izlenmesi gereken üç adım vardır:
 
-1. Dışarı aktarma isteği gönderme.
-2. Yoklama.
-3. Dosyayı alma.
+1. [Dışarı aktarma isteği gönderme](#step-1---sending-an-export-request).
+2. [Yoklama](#step-2---polling).
+3. [Dosyayı alma](#step-3---getting-the-file).
+4. [Dosya akışını kullanma](#step-4---using-the-file-stream).
 
 Bu bölümde her adım için örnekler sağlanır.
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>4\. Adım - Dosya akışını kullanma
+
+Dosya akışını kullanıyorsanız gereksinimlerinize göre düzenleyebilirsiniz. Örneğin bunu e-posta ile gönderebilir veya dışarı aktarılan raporları indirmek için kullanabilirsiniz.
 
 ### <a name="end-to-end-example"></a>Uçtan uca örnek
 
