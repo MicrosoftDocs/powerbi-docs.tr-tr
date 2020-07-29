@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/05/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: def07ed0ea061c02489d6e92b9648ad1a8d0edad
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035251"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252142"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
@@ -83,7 +83,7 @@ Power BI raporlarını, panolarını ve görsellerini Microsoft Teams ve SharePo
 
 Aşağıdaki ekleme senaryoları desteklenir:
 * [Kuruluşunuz için ekleme](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 uygulamaları (örn. [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) ve [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 uygulamaları (örn. [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) ve [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [Güvenli URL ekleme](../collaborate-share/service-embed-secure.md) (Power BI hizmetinden ekleme) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında duyarlılık etiketleri

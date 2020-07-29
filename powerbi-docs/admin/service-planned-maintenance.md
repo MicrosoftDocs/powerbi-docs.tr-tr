@@ -11,11 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: cc9364129159b5527d309f125d42e661d0b4c206
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120579"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252050"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI planlı bakımı
 
@@ -36,7 +37,7 @@ Kuruluşunuz etkilenecekse sizi önceden bilgilendiririz. Microsoft 365 yönetic
 * Power BI Mobil uygulama kullanıcılarının en güncel sürümü kullandıklarını doğrulamaları ve oturumlarını kapatıp açmaları gerekir. Telefonunuzun uygulama mağazasını veya [Power BI Mobil](https://powerbi.microsoft.com/mobile/) sayfamızı kontrol edin.
 * Yerel konumlardan veya OneDrive ve SharePoint konumlarından olması fark etmeksizin, kuruluş görsellerinin kullanıldığı raporları aktif bir şekilde düzenleyip yayımlayan müşterilerin yeniden yayımlamadan önce görseli kuruluş görsel mağazasından yeniden içeri aktarmaları veya güncelleştirilmiş PBIX’i indirmeleri gerekir. Kuruluş görselleri hakkında daha fazla bilgi için bkz. [Kuruluş görselleri](service-admin-portal.md#organization-visuals).
 * Excel’de Analiz özelliğinden yararlanan Excel çalışma kitapları yenilenmezse bağlantı dizesini güncelleştirmeniz veya veri kümesi için ODC bağlantısını yeniden indirmeniz gerekir. Daha fazla bilgi için bkz. [Excel’de Analiz](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data).
-* Power BI Embedded içerik bağlantıları, bakım tamamlandıktan sonra bağlanamayabilir. Örneğin, SharePoint veya Teams’e eklenen bir bağlantı kullanıcı hatasıyla sonuçlanabilir. Bu sorunu çözmek için Power BI’daki ekli bağlantıyı yeniden oluşturmanız ve sonra kullanıldıkları konumları güncelleştirmeniz gerekir. Ekli bağlantılar hakkında daha fazla bilgi için bkz. [SharePoint Online’da rapor web bölümü ekleme](../collaborate-share/service-embed-report-spo.md) ve [Power BI ile Microsoft Teams’de işbirliği yapma](../collaborate-share/service-embed-report-microsoft-teams.md).
+* Power BI Embedded içerik bağlantıları, bakım tamamlandıktan sonra bağlanamayabilir. Örneğin, SharePoint veya Teams’e eklenen bir bağlantı kullanıcı hatasıyla sonuçlanabilir. Bu sorunu çözmek için Power BI’daki ekli bağlantıyı yeniden oluşturmanız ve sonra kullanıldıkları konumları güncelleştirmeniz gerekir. Ekli bağlantılar hakkında daha fazla bilgi için bkz. [SharePoint Online’da rapor web bölümü ekleme](../collaborate-share/service-embed-report-spo.md) ve [Power BI ile Microsoft Teams’de işbirliği yapma](../collaborate-share/service-collaborate-microsoft-teams.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

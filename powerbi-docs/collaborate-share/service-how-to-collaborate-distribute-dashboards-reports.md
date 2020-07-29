@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf9d59926c1a38d83f386c7ae01fbdcf1a7fc95
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120449"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252556"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI’da işbirliği yapma ve paylaşma yöntemleri
 
@@ -72,7 +73,7 @@ Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor içi
 
 :::image type="content" source="media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-teams-conversation-tab.png" alt-text="Microsoft Teams konuşma sekmesi":::
 
-[Power BI ile Microsoft Teams’de işbirliği yapma](service-embed-report-microsoft-teams.md) hakkında daha fazla bilgi edinin.
+[Power BI ile Microsoft Teams’de işbirliği yapma](service-collaborate-microsoft-teams.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="share-dashboards-and-reports"></a>Panoları ve raporları paylaşma
 

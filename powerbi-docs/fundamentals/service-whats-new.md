@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273081"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252786"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -42,7 +42,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 
 ### <a name="february-2020"></a>Şubat 2020
 * Power BI Giriş sayfasında panoları, raporları ve uygulamaları öne çıkarma olanağı.
-* Microsoft Teams’e rapor eklemeyi sağlayan yeni [Power BI sekmesi](../collaborate-share/service-embed-report-microsoft-teams.md).
+* Microsoft Teams’e rapor eklemeyi sağlayan yeni [Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md).
 * Power BI Pro kullanıcıları desteğine sahip [artımlı yenileme](../admin/service-premium-incremental-refresh.md) özelliğinin genel kullanılabilirliği.
 * Dış e-posta adresleri için e-posta abonelikleri desteği.
 * Power BI Premium için [Kendi Anahtarını Getir (BYOK)](../admin/service-encryption-byok.md) özelliğinin genel kullanılabilirliği.
