@@ -37,6 +37,8 @@
               href: service-data-lineage.md
             - name: Veri kümesi etki analizi
               href: service-dataset-impact-analysis.md
+            - name: Veri kaynağı etki analizi
+              href: service-data-source-impact-analysis.md
             - name: Veri duyarlılık etiketleri uygulama
               href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
@@ -45,6 +47,16 @@
               href: service-collaborate-power-bi-workspace.md
             - name: Power BI ve Microsoft 365’teki grubunuzu yönetme
               href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: Teams’de Power BI
+          items:
+            - name: Teams’de işbirliği
+              href: service-collaborate-microsoft-teams.md
+            - name: Teams’de rapor ekleme
+              href: service-embed-report-microsoft-teams.md
+            - name: Doğrudan Teams’de paylaşma
+              href: service-share-report-teams.md
+            - name: Teams’de bağlantı önizlemesini alma
+              href: service-teams-link-preview.md
         - name: Çalışmanızı yayımlama ve paylaşma
           items:
             - name: Panoları ve raporları paylaşma
@@ -61,8 +73,6 @@
               href: service-report-subscribe.md
             - name: Giriş sayfasındaki özellik içeriği
               href: service-featured-content.md
-            - name: Microsoft Teams’e rapor ekleme
-              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online'a rapor ekleme
               href: service-embed-report-spo.md
             - name: Raporu güvenli bir portala veya web sitesine ekleme
@@ -71,20 +81,22 @@
               href: service-publish-to-web.md
             - name: OneDrive'daki Excel çalışma kitaplarına bağlanan panoları paylaşma
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-        - name: Power BI’ı Genişletme
+        - name: Excel’de Power BI
           items:
             - name: Excel’de Analiz Et
               href: service-analyze-in-excel.md
-            - name: Excel’de öne çıkan Power BI tabloları
+            - name: Excel’de öne çıkan Power BI tablolarını kullanma
               href: service-excel-featured-tables.md
+            - name: Öne çıkan tabloları ayarlama
+              href: service-create-excel-featured-tables.md
             - name: Excel’de çözümleme sorunlarını giderme
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Hata: Excel çalışma kitabınızda veri bulamadık'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-            - name: Power Automate ve Power BI
-              href: service-flow-integration.md
-            - name: Üçüncü taraf uygulamaları kullanma
-              href: service-power-bi-get-started-third-party-apps.md
+        - name: Power Automate ve Power BI
+          href: service-flow-integration.md
+        - name: Üçüncü taraf uygulamaları kullanma
+          href: service-power-bi-get-started-third-party-apps.md
         - name: Kurumsal içerik paketleri
           items:
             - name: Kurumsal içerik paketlerine giriş
