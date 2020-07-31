@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227681"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252096"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
@@ -25,7 +25,7 @@ Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncel
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office’in Microsoft 365 denemesine kaydolma
 
-[Microsoft 365 web sitesinden](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) Microsoft 365 deneme sürümüne kaydolun. Henüz bir hesabınız yoksa Microsoft hesap oluşturma adımlarında size yol gösterir. Ticari e-posta hesapları (Hotmail ve Gmail gibi) Microsoft 365’le kullanılamadığından, kullanılabilen yeni bir hesap oluşturursunuz.  E-posta hesabı şuna benzer olacaktır: *zalan@onmicrosoft.com* .
+[Microsoft 365 web sitesinden](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) Microsoft 365 deneme sürümüne kaydolun. Henüz bir hesabınız yoksa Microsoft hesap oluşturma adımlarında size yol gösterir. Ticari e-posta hesapları (Hotmail ve Gmail gibi) Microsoft 365’le kullanılamadığından, kullanılabilen yeni bir hesap oluşturursunuz.  Bu e-posta hesabı şuna benzer olacaktır: *zalan\@onmicrosoft.com*.
 
 ![Ücretsiz deneyin'i seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

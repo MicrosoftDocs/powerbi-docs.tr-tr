@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 01/16/2019
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7589858749585cb506d4f313557abcb889b506c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a22610ea8ca3b7a26763a435b98bf7c114e1bfa0
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221729"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252832"
 ---
-# <a name="use-cross-report-drillthrough-in-power-bi"></a>Power BI’da çapraz rapor detaylandırma özelliğini kullanma
+# <a name="use-cross-report-drill-through-in-power-bi"></a>Power BI’da çapraz rapor detaylandırma özelliğini kullanma
 
 Power BI *çapraz rapor detaylandırma* özelliğini kullanarak aynı Power BI hizmeti çalışma alanı veya uygulamasında bir rapordan başka bir rapora bağlamsal olarak atlayabilirsiniz. İlgili içeriğe sahip iki veya daha fazla raporu bağlamak ve çapraz rapor bağlantısıyla birlikte filtre bağlamını iletmek için çapraz rapor detaylandırma özelliğini kullanabilirsiniz. 
 
@@ -33,7 +33,7 @@ Bu makalede Power BI raporları için çapraz rapor detaylandırma özelliğini 
 > [!NOTE]
 > Çapraz rapor detaylandırma özelliğini bireysel olarak paylaşılan [Benimle paylaşılan raporlarda](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report) kullanamazsınız. Çapraz rapor detaylandırma özelliğini kullanmak için, üyesi olduğunuz çalışma alanlarındaki raporlara erişmeniz gerekir.
 
-## <a name="enable-cross-report-drillthrough"></a>Çapraz rapor detaylandırmayı etkinleştirme
+## <a name="enable-cross-report-drill-through"></a>Çapraz rapor detaylandırmayı etkinleştirme
 
 Çapraz rapor detaylandırma özelliğini etkinleştirmenin ilk adımı, kaynak ve hedef raporların veri modellerini doğrulamaktır. Her rapordaki şemaların aynı olması gerekmese de, geçirmek istediğiniz alanların her iki veri modelinde de mevcut olması gerekir. Alanların adları ve bunları barındıran tabloların adları özdeş olmalıdır. Dizeler eşleşmeli ve büyük/küçük harfe duyarlı olmalıdır.
 
@@ -55,9 +55,9 @@ Modellerinizi doğruladıktan sonra kaynak raporun çapraz rapor detaylandırmay
    
    ![Power BI hizmetinde çapraz rapor detaylandırma özelliğini etkinleştirme](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
 
-## <a name="set-up-a-cross-report-drillthrough-target"></a>Çapraz rapor detaylandırma hedefini ayarlama
+## <a name="set-up-a-cross-report-drill-through-target"></a>Çapraz rapor detaylandırma hedefini ayarlama
 
-Çapraz rapor detaylandırma için hedef sayfayı ayarlamak, bir rapor içinde detaylandırmayı ayarlama işlemine benzerdir. Hedef sayfada detaylandırmayı etkinleştirmek, diğer görsellerin detaylandırma için sayfayı hedef almasına olanak tanır. Tek bir rapor içinde detaylandırma oluşturmak için bkz. [Power BI Desktop’ta detaylandırma özelliğini kullanma](desktop-drillthrough.md).
+Çapraz rapor detaylandırma için hedef sayfayı ayarlamak, bir raporun içinde detaylandırmayı ayarlama işlemine benzerdir. Hedef sayfada detaylandırmayı etkinleştirmek, diğer görsellerin detaylandırma için sayfayı hedef almasına olanak tanır. Tek bir raporun içinde detaylandırma oluşturmak için bkz. [Power BI Desktop’ta detaylandırma özelliğini kullanma](desktop-drillthrough.md).
 
 Çapraz rapor detaylandırma özelliği için Power BI Desktop'ta veya Power BI hizmetinde hedefi ayarlayabilirsiniz. 
 1. Hedef dosyayı düzenleyin ve hedef raporun hedef sayfasında, **Görsel Öğeler** bölmesinin **Alanlar** bölümünü seçin. 
@@ -72,11 +72,11 @@ Modellerinizi doğruladıktan sonra kaynak raporun çapraz rapor detaylandırmay
 
 İşte bu kadar. Raporlarınız çapraz rapor detaylandırmaya hazır. 
 
-## <a name="use-cross-report-drillthrough"></a>Çapraz rapor detaylandırmayı kullanma
+## <a name="use-cross-report-drill-through"></a>Raporlar arası detaylandırmayı kullanma
 
 Çapraz rapor detaylandırma özelliğini kullanmak için Power BI hizmetinde kaynak raporu seçin ve ardından hedef sayfayı ayarlarken belirttiğiniz şekilde detaylandırma alanını kullanan bir görsel seçin. Veri noktasına sağ tıklayarak görsel bağlam menüsünü açın, **Detaylandırma**’yı ve sonra da detaylandırma hedefini seçin. Çapraz rapor detaylandırma hedefleri **Sayfa adı [Rapor adı]** olarak biçimlendirilir.
 
-![Power BI çapraz rapor detaylandırma işlevi](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
+![Power B I çapraz rapor detaylandırma seçeneği](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
 Sonuçları, hedefi oluştururken ayarladığınız gibi hedef çapraz rapor detaylandırma sayfasında görürsünüz. Sonuçlar detaylandırma ayarlarına göre filtrelenir.
 
@@ -100,9 +100,13 @@ Power BI hedef rapordan yapışkan filtreleri uygulamaz ama varsayılan kişisel
 
 Çapraz rapor detaylandırma eyleminden sonra kaynak rapora dönmek isterseniz tarayıcının **Geri** düğmesini kullanın. 
 
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+
+Çapraz rapor detaylandırma, Power BI Rapor Sunucusu'ndaki Power BI raporlarında çalışmaz.
+
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Aşağıdaki makaleler de ilginizi çekebilir:
 
 - [Power BI'da dilimleyiciler](../visuals/power-bi-visualization-slicers.md)
-- [Power BI Desktop'ta detaylandırma özelliğini kullanma](desktop-drillthrough.md)
+- [Power BI Desktop’ta detaylandırmayı kullanma](desktop-drillthrough.md)

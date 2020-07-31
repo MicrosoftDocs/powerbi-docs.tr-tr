@@ -1,5 +1,5 @@
 ---
-title: Oracle veritabanlarına bağlanma
+title: Power BI Desktop'la Oracle veritabanına bağlanma
 description: Power BI Desktop'tan Oracle veritabanlarına bağlanmak için gerçekleştirilmesi gereken işlemler ve indirmeler
 author: davidiseminger
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e74ff0bf54b263df65af7e7497eb57f3e5c2adb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224332"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252073"
 ---
-# <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
-Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit.
+# <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop'la Oracle veritabanına bağlanma
+Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit. Ayrıca Oracle sunucunuzun sürümüne de bağlıdır.
 
 Desteklenen Oracle sürümleri: 
-- Oracle 9 ve üstü
-- Oracle istemci yazılımı 8.1.7 ve üstü
+- Oracle Server 9 ve üzeri
+- Oracle Data Access Client (ODAC) yazılımı 11.2 ve üzeri
 
 > [!NOTE]
 > Power BI Desktop, Şirket İçi Veri Ağ Geçidi veya Power BI Rapor Sunucusu için bir Oracle veritabanı yapılandırıyorsanız [Oracle Bağlantı Türü](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) makalesindeki bilgilere göz atın. 
@@ -32,12 +32,14 @@ Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirlemek için **Do
 
 ![Power BI Desktop sürümü](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>Oracle istemcisini yükleme
+## <a name="install-the-oracle-client"></a>Oracle istemcisini yükleme
 - Power BI Desktop'ın 32 bit sürümü için [32 bit Oracle istemcisini indirip yükleyin](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html).
 
 - Power BI Desktop'ın 64 bit sürümü için [64 bit Oracle istemcisini indirip yükleyin](https://www.oracle.com/database/technologies/odac-downloads.html).
 
 > [!NOTE]
+> Oracle Server'ınızla uyumlu bir Oracle Data Access Client (ODAC) seçin. Örneğin ODAC 12.x her zaman Oracle Server sürüm 9'u desteklemez.
+> Oracle İstemcisinin Windows yükleyicisini seçin.
 > Oracle istemcisinin kurulumu sırasında kurulum sihirbazında ilgili onay kutusunu seçerek *Makine düzeyinde ASP.NET için ODP.NET ve/veya Oracle Providers’ı yapılandır* seçeneğini etkinleştirdiğinizden emin olun. Oracle istemci sihirbazının bazı sürümlerinde onay kutusu varsayılan olarak seçilidir; bazılarında ise seçili değildir. Power BI’ın Oracle veritabanınıza bağlanabilmesi için onay kutusunun seçili olduğundan emin olun.
 
 ## <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
@@ -53,9 +55,7 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
 
    ![Oracle sunucu adını girin](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
-   > [!TIP]
-   > Bu adımda bağlanma ile ilgili bir sorun yaşıyorsanız **Sunucu** alanında aşağıdaki biçimi kullanmayı deneyin: *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=konak_adı)(PORT=bağlantı_noktası_numarası))(CONNECT_DATA=(SERVICE_NAME=hizmet_adı)))*
-   
+      
 3. Yerel veritabanı sorgusu kullanarak verileri içeri aktarmak istiyorsanız sorgunuzu **SQL deyimi** kutusuna girin. Bu kutuya ulaşmak için **Oracle veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.
    
    ![Gelişmiş seçenekleri genişletme](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
@@ -64,6 +64,18 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
 
 
 ## <a name="troubleshooting"></a>Sorun giderme
+
+Adlandırma söz dizimi yanlış olduğunda veya doğru yapılandırılmadığında Oracle'da çeşitli hatalarla karşılaşabilirsiniz:
+
+* ORA-12154: TNS: could not resolve the connect identifier specified (TNS: Belirtilen bağlantı tanımlayıcısı çözümlenemiyor).
+* ORA-12514: TNS: listener does not currently know of service requested in connect descriptor (TNS: dinleyici, bağlantı tanımlayıcıda istenen hizmeti şu anda tanımıyor).
+* ORA-12541: TNS: no listener (TNS: dinleyici yok).
+* ORA-12170: TNS:Connect timeout occurred (TNS: Bağlantı zaman aşımı oluştu).
+* ORA-12504: TNS: listener was not given the SERVICE_NAME in CONNECT_DATA (TNS: dinleyiciye CONNECT_DATA konumunda SERVICE_NAME verilmedi).
+
+Oracle istemcisi yüklü olmadığında veya doğru yapılandırılmadığında bu hatalar oluşabilir. Yüklüyse tnsnames.ora dosyasının düzgün şekilde yapılandırıldığını ve uygun net_service_name kullandığınızı doğrulayın. Ayrıca, Power BI Desktop'ı kullanan makine ile ağ geçidini çalıştıran makine arasında aynı net_service_name değerinin kullanıldığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Oracle istemcisini yükleme](#install-the-oracle-client).
+
+Oracle sunucu sürümü ve Oracle Data Access İstemci sürümü arasındaki uyumsuzluktan kaynaklanan bir sorunla karşılaşabilirsiniz. Bazı bileşimler uyumsuz olduğundan genellikle bu sürümlerin eşleşmesini istersiniz. Örneğin ODAC 12.x, Oracle Server sürüm 9'u desteklemez.
 
 Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hatasından dolayı Oracle veritabanlarına bağlanamayabilirsiniz. Bu sorunla karşılaşırsanız, şu hata iletisi döndürülür: *Nesne başvurusu ayarlanmadı*. Sorunu gidermek için aşağıdakilerden adımlardan birini uygulayın:
 

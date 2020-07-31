@@ -1,5 +1,5 @@
 ---
-title: Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
+title: Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 description: Power BI panoları ve raporları için yeni çalışma alanı deneyiminde kullanım ölçümlerini görüntüleme, kaydetme ve kullanma.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162055"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953042"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
 
@@ -65,6 +65,9 @@ Yukarıdaki yordamı izleyerek geliştirilmiş kullanım ölçümleri raporunu g
 ### <a name="usage-metrics-report-dataset"></a>Kullanım ölçümleri raporu veri kümesi
 
 Geliştirilmiş kullanım ölçümleri raporu Kullanım Ölçümleri Raporu veri kümesine dayanır. Bu veri kümesi, geliştirilmiş kullanım ölçümleri raporunu ilk kez başlattığınızda Power BI’ın otomatik olarak oluşturduğu veri kümesidir. Ardından Power BI bu veri kümesini her gün yeniler. Yenileme zamanlamasını değiştiremezsiniz ama Power BI’ın kullanım ölçümleri verilerini yenilemek için kullandığı kimlik bilgilerini güncelleştirebilirsiniz. Kimlik bilgilerinin süresi dolduysa veya veri kümesinin bulunduğu çalışma alanından kullanım ölçümleri raporunu ilk kez başlatan kullanıcıyı kaldırdıysanız, zamanlanmış yenilemeyi sürdürmek için bu gerekli olabilir.
+
+> [!NOTE]
+> Hala önizleme aşamasındayken, kullanım ölçümleri veri kümesinde özel raporları etkileyecek küçük değişiklikler olabilir.  
 
 ### <a name="usage-metrics-report-pages"></a>Kullanım ölçümleri raporu sayfaları
 

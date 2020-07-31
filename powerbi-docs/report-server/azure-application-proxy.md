@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239527"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364089"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Power BI Rapor Sunucusu’nu Azure Uygulama Ara Sunucusu’yla yapılandırma
 
@@ -110,7 +110,7 @@ Rapor sunucusu hizmet hesabında temsilci ayarlarını yapılandırmamız gereki
 3. Protokol geçişi ile kısıtlanmış temsili yapılandıracağız. Kısıtlanmış temsilde, temsilci olarak seçeceğimiz hizmetleri açıkça belirtmeliyiz.
 4. **Rapor sunucusu hizmet hesabına** sağ tıklayın ve **Özellikler**'i seçin.
 5. **Temsilci Seçme** sekmesini seçin.
-6. **Bu bilgisayara yalnızca belirtilen hizmetlere temsilci seçmek için güven**'i seçin.
+6. **Bu kullanıcıya yalnızca belirtilen hizmetlerde temsilci seçiminde güven**'i seçin.
 7. **Herhangi bir kimlik doğrulama protokolünü kullan**'ı seçin.
 8. **Bu hesabın temsilci seçilen kimlik bilgilerini sunacağı hizmetler**: bölümünde **Ekle**'yi seçin.
 9. Yeni iletişim kutusunda **Kullanıcı/Bilgisayar**'ı seçin.

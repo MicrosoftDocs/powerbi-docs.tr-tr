@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238831"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952651"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>Erişilebilirlik özelliklerinden faydalanarak Power BI raporlarını kullanma
 Power BI'da, engelli kullanıcıların Power BI raporlarını daha kolay bir şekilde kullanmasına ve raporlarla etkileşime geçmesine yardımcı olan birçok özellik bulunur. Bu araçlar, kullanıcıların yardımcı teknoloji kullanmayan bir rapordan aynı bilgileri almasına yardımcı olur.
@@ -114,5 +114,3 @@ Power BI erişilebilirliği ile ilgili makale koleksiyonu aşağıda verilmişti
 * [Power BI raporlarını erişilebilirlik araçlarıyla oluşturma](desktop-accessibility-creating-tools.md)
 * [Power BI raporlarına yönelik erişilebilirlik klavye kısayolları](desktop-accessibility-keyboard-shortcuts.md)
 * [Rapor erişilebilirliği denetim listesi](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

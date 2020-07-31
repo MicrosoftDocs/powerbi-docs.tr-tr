@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238491"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953019"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -54,7 +54,7 @@ Power BI'da grafik eksenleri için ya da dilimleyicide veya filtrede kategori (d
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Bing ipuçlarıyla haritaları daha kolay oluşturma
 Power BI, varsayılan harita koordinatlarını sağlamak için Bing ile tümleşir (coğrafi kodlama adlı bir işlem). Bu sayede daha kolay bir şekilde harita oluşturabilirsiniz. Bing, doğru konumu almak için bazı algoritmalar ve ipuçları kullanır ancak sonuçta yapılan bir tahmindir. Doğru coğrafi kodlama ihtimalini artırmak için aşağıdaki ipuçlarından faydalanabilirsiniz:
 
-Harita oluşturduğunuzda genelde ülke, eyalet ve şehir değerlerine önem verirsiniz. Power BI Desktop’ta sütunları coğrafi konuma göre adlandırırsanız Bing'e görüntülemek istediğiniz nesne konusunda yardımcı olmuş olursunuz. Örneğin "California" ve "Washington" gibi ABD'deki eyaletlerin adlarının yer aldığı bir alanınız varsa Bing, "Washington" kelimesi için Washington State yerine Washington, DC konumunu döndürebilir. Sütuna "Eyalet" adını vermeniz coğrafi kodlamayı geliştirecektir. Bu durum "Ülke" ve "Şehir" adlı sütunlar için de geçerlidir. 
+Harita oluşturduğunuzda genelde ülke/bölge, eyalet ve şehir değerlerine önem verirsiniz. Power BI Desktop’ta sütunları coğrafi konuma göre adlandırırsanız Bing'e görüntülemek istediğiniz nesne konusunda yardımcı olmuş olursunuz. Örneğin "California" ve "Washington" gibi ABD'deki eyaletlerin adlarının yer aldığı bir alanınız varsa Bing, "Washington" kelimesi için Washington State yerine Washington, DC konumunu döndürebilir. Sütuna "Eyalet" adını vermeniz coğrafi kodlamayı geliştirecektir. Bu durum "Ülke" ve "Şehir" adlı sütunlar için de geçerlidir. 
 
 Bazı terimler birden fazla ülke/bölge söz konusu olduğunda belirsiz olabilir. Bazı durumlarda bir ülkede/bölgede "eyalet" olarak kabul edilen bir ad başka bir yerde "şehir" veya "semt" olabilir. Birden fazla alanı bir araya getiren sütunlar ekleyip bunları veri konumlarını çizmek üzere kullanarak coğrafi kodlama doğruluğunu artırabilirsiniz. Örnek olarak yalnızca "Wiltshire" yerine "Wiltshire, England" yazarak daha doğru bir coğrafi kodlama sonucuna ulaşabilirsiniz. 
 

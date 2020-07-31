@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 12/16/2019
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216931"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252740"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
@@ -31,6 +31,11 @@ Power BI Desktop’ın en yaygın kullanım şekilleri aşağıda verilmiştir:
 * Power BI hizmetini kullanarak raporları başkalarıyla paylaşma
 
 Çoğunlukla bu tür görevlerden sorumlu kişilerin *veri analistleri* (bazı durumlarda yalnızca *analistler* olarak anılır) ya da iş zekası uzmanları (genellikle *rapor oluşturucular* olarak anılır) olduğu düşünülür. Ancak, kendisini çözümleyici veya rapor oluşturucu olarak görmeyen birçok kişi, ilgi çekici raporlar oluşturmak veya çeşitli kaynaklardan verileri çekmek ve veri modelleri oluşturmak için Power BI Desktop kullanır.
+
+
+> [!IMPORTANT]
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
+
 
 Power BI Desktop’ta, tuvalin sol tarafından seçebileceğiniz üç görünüm bulunur. Göründükleri sırayla gösterilen görünümler aşağıdaki gibidir:
 * **Rapor**: Bu görünüm, raporları ve görselleri oluşturduğunuz ve oluşturma zamanınızın büyük bir kısmının geçtiği yerdir.
@@ -128,5 +133,5 @@ Power BI Desktop raporunu yayımlamak için:
 Power BI Desktop'ı kullanmaya başlamak için ilk olarak uygulamayı indirip yüklemeniz gerekir. Power BI Desktop’ı edinmenin iki yolu vardır:
 
 * [Microsoft Store’dan Power BI Desktop’ı edinme](https://aka.ms/pbidesktopstore)
-* [Web’den Power BI Desktop'ı indirme](https://docs.microsoft.com/power-bi/desktop-get-the-desktop#download-power-bi-desktop-directly)
+* [Web’den Power BI Desktop'ı indirme](https://www.microsoft.com/download/details.aspx?id=58494)
 

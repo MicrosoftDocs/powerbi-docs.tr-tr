@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: f8d9ef38e56e22fb84175ebe5ec97eee2d123023
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409341"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252717"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
@@ -25,8 +25,7 @@ Power BI Desktop Temmuz güncelleştirmelerimiz yeni özelliklerin yanı sıra k
 [İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 çalıştırıyorsanız, [Microsoft Store](https://aka.ms/pbidesktopstore)'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
-> Eylül 2019 yayınından itibaren Power BI Desktop desteklenen tüm dilleri içeren tek bir .exe dosyası olarak yayınlanmaktadır. .msi sürümü artık yayınlanmamaktadır.
-
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
 
 Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki bağlantılar şöyle yorumlanır:
 

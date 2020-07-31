@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/13/2020
+ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
-ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
+ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84754180"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364066"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -85,7 +85,11 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+<a name="limit">1</a> - Yalnızca özel istek üzerine. 100 GB'tan çok daha büyük modeller için.
 
 >[!NOTE]
 >Daha küçük SKU'ları (örneğin iki P1 SKU'su) birleştirmek yerine tek bir büyük SKU (örneğin tek P2 SKU'su) kullanmak tercih edilebilir. Örneğin P2 ile daha büyük modeller kullanabilir ve daha iyi bir paralellik elde edebilirsiniz.

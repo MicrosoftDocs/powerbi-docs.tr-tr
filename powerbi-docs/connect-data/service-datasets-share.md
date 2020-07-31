@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1fd2ee46edd2447e7cf5096307f9d4947168a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236723"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252671"
 ---
 # <a name="share-a-dataset"></a>Veri kümesini paylaşma
 

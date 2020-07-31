@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237586"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364020"
 ---
 # <a name="manage-your-data-source---oracle"></a>Veri kaynağınızı yönetme - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237586"
 
 [Şirket içi veri ağ geçidini yükledikten](/data-integration/gateway/service-gateway-install) sonra ağ geçidi ile kullanılabilecek [veri kaynaklarını](service-gateway-data-sources.md#add-a-data-source) eklemeniz gerekir. Bu makalede, zamanlanmış yenileme veya DirectQuery için ağ geçitleri ve Oracle veri kaynaklarıyla nasıl çalışılacağı açıklanır.
 
+## <a name="connect-to-an-oracle-database"></a>Oracle veritabanlarına bağlanma
+Şirket içi veri ağ geçidinden bir Oracle veritabanına bağlanmak için ağ geçidinin çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemcisi Oracle sunucu sürümüne bağlıdır ama her zaman 64 bit ağ geçidiyle eşleşir.
+
+Desteklenen Oracle sürümleri: 
+- Oracle Server 9 ve üzeri
+- Oracle Data Access Client (ODAC) yazılımı 11.2 ve üzeri
+
 ## <a name="install-the-oracle-client"></a>Oracle istemcisini yükleme
+- [64 bit Oracle istemcisini](https://www.oracle.com/database/technologies/odac-downloads.html) indirin ve yükleyin.
 
-Ağ geçidini Oracle sunucunuza bağlamak için .NET için Oracle Veri Sağlayıcısı’nın (ODP.NET) yüklenmesi ve yapılandırılması gerekir. ODP.NET, Oracle Data Access Components'ın (ODAC) bir parçasıdır.
-
-Power BI Desktop'ın 32 bit sürümü için, 32 bit Oracle istemcisini indirip yüklemek amacıyla aşağıdaki bağlantıyı kullanın:
-
-* [Oracle Developer Tools for Visual Studio (12.1.0.2.4) ile 32 bit Oracle Data Access Components (ODAC)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-Power BI Desktop’ın 64 bit sürümü veya Şirket içi veri ağ geçidi için, 64 bit Oracle istemcisini indirip yüklemek üzere aşağıdaki bağlantıyı kullanın:
-
-* [Windows x64 için 64 bit ODAC 12.2c Sürüm 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-İstemci yüklendikten sonra, tnsnames.ora dosyanızı veritabanınız için uygun bilgilerle yapılandırın. Power BI Desktop ve ağ geçidi, tnsnames.ora dosyasında tanımlanan net_service_name için farklı değerlere sahip olur. net_service_name yapılandırılmamışsa bağlanamazsınız. tnsnames.ora için varsayılan yol şudur: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. tnsnames.ora dosyalarının nasıl yapılandırılacağı hakkında daha fazla bilgi için bkz. [Oracle: Yerel adlandırma parametreleri (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
-
-### <a name="example-tnsnamesora-file-entry"></a>Örnek tnsnames.ora dosya girişi
-
-tnsname.ora dosyasındaki bir girişin temel biçimi şöyledir:
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-Burada sunucu ve bağlantı noktası bilgileri doldurulmuş bir örnek verilmiştir:
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> Oracle Server'ınızla uyumlu bir Oracle Data Access Client (ODAC) seçin. Örneğin ODAC 12.x her zaman Oracle Server sürüm 9'u desteklemez.
+> Oracle İstemcisinin Windows yükleyicisini seçin.
+> Oracle istemcisinin kurulumu sırasında kurulum sihirbazında ilgili onay kutusunu seçerek *Makine düzeyinde ASP.NET için ODP.NET ve/veya Oracle Providers’ı yapılandır* seçeneğini etkinleştirdiğinizden emin olun. Oracle istemci sihirbazının bazı sürümlerinde onay kutusu varsayılan olarak seçilidir; bazılarında ise seçili değildir. Power BI’ın Oracle veritabanınıza bağlanabilmesi için onay kutusunun seçili olduğundan emin olun.
+ 
+İstemci yüklendikten ve ODAC düzgün yapılandırıldıktan sonra, Ağ Geçidinde düzgün yükleme ve yapılandırmayı doğrulamak için PowerBI Desktop'ı veya diğer test istemcisini kullanmanızı öneririz.
 
 ## <a name="add-a-data-source"></a>Veri kaynağı ekleme
 
@@ -111,7 +89,7 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
-Adlandırma söz dizimi yanlış olduğunda veya doğru yapılandırılmadığında Oracle'da birkaç hata ile karşılaşabilirsiniz:
+Adlandırma söz dizimi yanlış olduğunda veya doğru yapılandırılmadığında Oracle'da çeşitli hatalarla karşılaşabilirsiniz:
 
 * ORA-12154: TNS: could not resolve the connect identifier specified (TNS: Belirtilen bağlantı tanımlayıcısı çözümlenemiyor).
 * ORA-12514: TNS: listener does not currently know of service requested in connect descriptor (TNS: dinleyici, bağlantı tanımlayıcıda istenen hizmeti şu anda tanımıyor).
@@ -121,8 +99,9 @@ Adlandırma söz dizimi yanlış olduğunda veya doğru yapılandırılmadığı
 
 Oracle istemcisi yüklü olmadığında veya doğru yapılandırılmadığında bu hatalar oluşabilir. Yüklüyse tnsnames.ora dosyasının düzgün şekilde yapılandırıldığını ve uygun net_service_name kullandığınızı doğrulayın. Ayrıca, Power BI Desktop'ı kullanan makine ile ağ geçidini çalıştıran makine arasında aynı net_service_name değerinin kullanıldığından emin olmanız gerekir. Daha fazla bilgi için bkz. [Oracle istemcisini yükleme](#install-the-oracle-client).
 
-> [!NOTE]
-> Oracle sunucu sürümü ve Oracle istemci sürümü arasındaki uyumsuzluktan kaynaklanan bir sorunla karşılaşabilirsiniz. Genellikle bu sürümlerin eşleşmesi istenir.
+Oracle sunucu sürümü ve Oracle Data Access İstemci sürümü arasındaki uyumsuzluktan kaynaklanan bir sorunla karşılaşabilirsiniz. Bazı bileşimler uyumsuz olduğundan genellikle bu sürümlerin eşleşmesini istersiniz. Örneğin ODAC 12.x, Oracle Server sürüm 9'u desteklemez.
+
+Veri kaynağı sunucusu ile Ağ Geçidi makinesi arasındaki bağlantı sorunlarını tanılamak için ağ geçidi makinesine bir istemci (PowerBI Desktop veya Oracle ODBC Test gibi) yüklemeniz önerilir. Veri kaynağı sunucusuyla bağlantıyı denetlemek için istemciyi kullanabilirsiniz.
 
 Ağ geçidi ile ilgili daha fazla sorun giderme bilgisi için bkz. [Şirket içi veri ağ geçidiyle ilgili sorunları giderme](/data-integration/gateway/service-gateway-tshoot).
 

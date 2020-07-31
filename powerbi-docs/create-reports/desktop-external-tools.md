@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411941"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252901"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop'ta dış araçları kullanma (önizleme)
 
@@ -23,6 +23,13 @@ Power BI Desktop'ın Temmuz 2020 sürümünden itibaren dış araçları kullana
 Power BI Desktop'taki **Dış Araçlar** şeridinde makineye yüklenmiş ve Power BI Desktop'a kaydedilmiş olan dış araçlara ait düğmeler yer alır. Power BI Desktop'tan başlatılan dış araçlar, otomatik olarak Power BI Desktop'ın bir parçası olarak çalışan Analysis Services altyapısına bağlanarak kullanıcılar için sorunsuz bir deneyim sunar.
 
 ![Power BI Desktop'taki dış araçlar şeridi](media/desktop-external-tools/desktop-external-tools-01.png)
+
+Bu öne çıkan dış araçlar, yükleme konumlarının bağlantılarıyla birlikte aşağıda verilmiştir. Her dış araç kendi araç yazarları tarafından desteklenir:
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM Araç Seti](http://alm-toolkit.com)
+
 
 Aşağıdaki bölümlerde dış araçlar tarafından desteklenen işlemlere, Power BI Desktop'ta bulunan öne çıkan araçlara ve ek araçları kaydetme adımlarına yer verilmiştir.
 
@@ -43,7 +50,7 @@ Tüm [Tablolu Nesne Modeli](https://docs.microsoft.com/analysis-services/tom/int
 
 ## <a name="featured-external-tools"></a>Öne çıkan dış araçlar
 
-Aşağıdaki açık kaynak topluluğu araçları Power BI Desktop'ta kullanılabilir. Her aracın yükleyicisi, yükleme işleminin ardından aracı Power BI Desktop'a kaydeder:
+Aşağıdaki açık kaynak topluluğu araçları Power BI Desktop'ta kullanılabilir. Bunlar ilgili araç yazarları tarafından desteklenir. Her aracın yükleyicisi, yükleme işleminin ardından aracı Power BI Desktop'a kaydeder:
 
 * Tabular Editor
 * DAX Studio
@@ -122,6 +129,18 @@ Dosyayı `"<tool name>.pbitool.json"` olarak adlandırın ve şu klasöre yerle�
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
 Belirtilen konumda yer alan **.pbitool.json** uzantılı dosyalar, Power BI Desktop başlatılırken yüklenir.
+
+## <a name="disabling-external-tools-using-the-registry"></a>Kayıt defterini kullanarak dış araçları devre dışı bırakma
+
+Dış Araçlar, **Grup İlkeleri** kullanılarak veya kayıt defteri düzenlenerek devre dışı bırakılabilir; bu, **Özel Görseller**'i devre dışı bırakma işlemine benzer.
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+1 (ondalık) değeri Power BI’da dış araçların kullanımını etkinleştirir (bu varsayılan değerdir).
+
+0 (ondalık) değeri Power BI'da dış araçların kullanımını devre dışı bırakır.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

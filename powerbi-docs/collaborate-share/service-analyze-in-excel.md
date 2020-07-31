@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226971"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952768"
 ---
 # <a name="analyze-in-excel"></a>Excel’de çözümleme
 **Excel’de Çözümle** ile Power BI veri kümelerini Excel’e getirebilir, ardından PivotTable’ları, grafikleri, dilimleyicileri ve diğer Excel özelliklerini kullanarak bu verileri görüntüleyebilir ve bunlarla etkileşimli çalışabilirsiniz. **Excel’de Çözümle** özelliğini kullanmak için önce özelliği Power BI’dan indirmeniz, yüklemeniz ve ardından Excel’de kullanmak üzere bir veya birden fazla veri kümesi seçmeniz gerekir. 
@@ -62,36 +62,41 @@ Tamamlandıktan sonra Power BI hizmetinde bir rapor (veya başka bir Power BI ve
 
 ## <a name="connect-to-power-bi-data"></a>Power BI verilerine bağlanma
 
-Power BI hizmetinde Excel’de analiz etmek istediğiniz veri kümesine veya rapora gidin ve **Diğer seçenekler** menüsünü (...) seçerek **Excel’de Çözümle** menü seçeneğini bulun. Aşağıdaki resimde rapor seçimi gösterilir.
-
-![Güncelleştirmeler yükleniyor](media/service-analyze-in-excel/analyze-excel-06.png)
-
-Veri kümesini Power BI hizmetinden Excel’e alma işlemi birkaç adımdan oluşur:
+Power BI hizmetinde, Excel'de analiz etmek istediğiniz veri kümesine veya rapora gidin ve ardından:
 
 1. **Diğer seçenekler** menüsünü seçin.
-2. Görüntülenen menü öğeleri arasından **Excel’de Çözümle** öğesini seçin.
 
-    Ardından Power BI hizmeti, veri kümesinin **Excel’de Çözümle** özelliğiyle kullanılmak üzere tasarlanan (ve yapılandırılan), .ODC dosya uzantısına sahip bir dosyasını oluşturur. Dosya oluşturulur ve tarayıcınızda otomatik olarak bir indirme işlemi başlar.
+1. Görüntülenen menü öğeleri arasından **Excel’de Çözümle** öğesini seçin.
+
+    Aşağıdaki resimde rapor seçimi gösterilir.
+
+    ![Güncelleştirmeler yükleniyor](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![ODC dosyası indiriliyor](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >Rapor menüsünden Excel'de Çözümle'yi seçerseniz, Excel'e getirilenin raporun temel veri kümesi olduğunu unutmayın.
+
+    Ardından Power BI hizmeti, veri kümesinin **Excel’de Çözümle** özelliğiyle kullanılmak üzere tasarlanan (ve yapılandırılan) bir Excel dosyası oluşturur ve tarayıcınızda bir indirme işlemi başlar.
     
-    Dosya adı, türetildiği veri kümesi (ya da rapor veya başka bir veri kaynağı) ile eşleşir. Bu nedenle raporun adı *Latest-Sales* olduğunda indirilen dosya **Latest-Sales.ODC** olacaktır.
+    ![Excel dosyasını indirme](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. .ODC dosyasını başlatma
+    Dosya adı, türetildiği veri kümesi (ya da rapor veya başka bir veri kaynağı) ile eşleşir. Dolayısıyla raporun adı *Quarterly Report* olduğunda indirilen dosya **Quarterly Report.xlsx** olur.
 
-Dosya zaten **Excel’de Çözümle** özelliğiyle ilişkilendirilmiştir, dolayısıyla bu .ODC dosyasını seçtiğinizde veya başlattığınızda Excel başlatılır ve otomatik olarak .ODC dosyasını yüklemeye başlar. Bununla birlikte büyük olasılıkla bir dış veri kaynağı tehdidi hakkında uyarı görürsünüz:
+3. Excel dosyasını başlatın.
 
-![Güvenlik uyarısı](media/service-analyze-in-excel/analyze-excel-08.png)
+    >[!NOTE]
+    >Dosyayı ilk kez açtığınızda [Korumalı görünüm](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb) ve [Güvenilir belge](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53) ayarlarına bağlı olarak **Düzenlemeyi Etkinleştir**'i ve ardından **İçeriği Etkinleştir**'i kullanmanız gerekebilir.
+    >
+    >![Korumalı görünüm düzenlemeyi etkinleştirme başlığının ekran görüntüsü](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![Güvenilir belge içeriği etkinleştirme başlığının ekran görüntüsü](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-**Excel’de Çözümle** özelliğine .ODC dosyasını yüklemek için **Etkinleştir**’i seçin; Excel dosyayı yükler. 
+## <a name="use-excel-to-analyze-the-data"></a>Verileri analiz etmek için Excel kullanma
 
-## <a name="use-excel-to-analyze-the-data"></a>Excel’i kullanarak verileri analiz etme
+Düzenlemeyi ve içeriği etkinleştirdikten sonra Excel size Power BI veri kümesinden analiz edilmeye hazır boş bir **PivotTable** ve **Alanlar** gösterir.
 
-Siz Güvenlik Bildirimi’nde **Etkinleştir**’i seçerek .ODC dosyasının yüklenmesine izin verdikten sonra, Excel size Power BI’dan boş ve analiz edilmeye hazır bir **PivotTable** ve **Alanlar** listesi gösterir.
+![Veri bağlantılı Excel](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-![Veri bağlantılı Excel](media/service-analyze-in-excel/analyze-excel-09.png)
-
-.ODC dosyası, Power BI'daki veri kümenize bağlanan bir MSOLAP bağlantı dizesi içeriyor. Siz verilerle çalışırken veya verileri çözümlerken Excel, söz konusu veri kümesini Power BI'da sorgular ve sonuçları Excel'e döndürür. Söz konusu veri kümesi DirectQuery kullanarak canlı bir veri kaynağına bağlanırsa Power BI, veri kaynağını sorgular ve sonuçları Excel'e döndürür.
+Excel dosyası, Power BI'daki veri kümenize bağlanan bir MSOLAP bağlantı dizesi içeriyor. Siz verilerle çalışırken veya verileri çözümlerken Excel, söz konusu veri kümesini Power BI'da sorgular ve sonuçları Excel'e döndürür. Söz konusu veri kümesi DirectQuery kullanarak canlı bir veri kaynağına bağlanırsa Power BI, veri kaynağını sorgular ve sonuçları Excel'e döndürür.
 
 Power BI’daki verilere bağlantı artık kurulduğundan, Excel'de tıpkı yerel bir veri kümesiyle çalışır gibi söz konusu veritabanını analiz edebilir, PivotTable'lar ve grafikler oluşturabilirsiniz.
 
@@ -107,7 +112,7 @@ Excel’de Çözümle özelliğini kullanmaya başladığınızda dikkate alınm
 
 
 ### <a name="sign-in-to-power-bi"></a>Power BI'da oturum açma
-Tarayıcınız üzerinden Power BI'da oturum açmış olsanız da ilk kez Excel'de yeni bir .ODC dosyasını açtığınız zaman Power BI hesabınızla Power BI'da oturum açmanız istenebilir. Bu, Excel ile Power BI arasındaki bağlantının kimliğini doğrular.
+Tarayıcınız üzerinden Power BI'da oturum açmış olsanız da ilk kez Excel'de yeni bir Excel dosyasını açtığınız zaman Power BI hesabınızla Power BI'da oturum açmanız istenebilir. Bu, Excel ile Power BI arasındaki bağlantının kimliğini doğrular.
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Birden çok Power BI hesabı olan kullanıcılar
 Bazı kullanıcıların birden fazla Power BI hesabı vardır. Siz de bunlardan biriyseniz, bir hesapla Power BI’da oturum açmış olabilirsiniz ama Excel’de Çözülme özelliğinde kullanılan veri kümesine erişimizin olan hesap diğer hesabınız olabilir. Bu durumda, bir **Yasak** hatası ya da Excel'de Çözümle'de kullanılmakta olan bir veri kümesine erişim sağlamaya çalışırken oturum açma hatası görebilirsiniz.

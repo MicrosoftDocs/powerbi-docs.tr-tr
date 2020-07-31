@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279170"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252855"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -29,7 +29,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | Azure SQL Yönetilen Örneği | Temel | Ortak veya Özel Uç Nokta aracılığıyla (Özel Uç Nokta’nın Kurumsal Ağ Geçidi üzerinden yönlendirilmesi gerekir)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir.|
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
-| Premium Power BI veri kümesi (XMLA) | SSO |   |
+| Premium Power BI veri kümesi (XMLA) | SSO | Power BI veri kümeleri ekli sayfalandırılmış raporlar için veri kaynağı olarak desteklenmez.  |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |
 
 Siz raporu Power BI hizmetine yükledikten sonra Azure SQL Veritabanı dışındaki tüm veri kaynakları kullanıma hazırdır. Veri kaynakları uygulanabilir olduğunda varsayılan olarak çoklu oturum açmayı (SSO) kullanır. Azure Analysis Services için kimlik doğrulaması türünü OAuth2 olarak değiştirebilirsiniz. Ancak, belirli bir veri kaynağına ait kimlik doğrulaması türü OAuth2 olarak değiştirildikten sonra, bu veri kaynağı SSO kullanmaya geri döndürülemez.  Ayrıca bu değişiklik, söz konusu kiracıdaki tüm çalışma alanları genelinde bu veri kaynağını kullanan tüm raporlara uygulanır.  Sayfalandırılmış raporlarda satır düzeyinde güvenlik, kullanıcılar kimlik doğrulaması türü olarak SSO’yu seçmedikleri sürece çalışmaz.

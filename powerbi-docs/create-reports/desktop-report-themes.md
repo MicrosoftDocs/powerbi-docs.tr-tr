@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232249"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364112"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 
@@ -43,6 +43,9 @@ Bir Power BI Desktop raporuna rapor teması uygulamak için aşağıdaki seçene
 * [Özel bir tema JSON dosyasını içeri aktarın](#import-custom-report-theme-files).
 
 Bu seçeneklerin her birine sırayla göz atacağız.
+
+> [!NOTE]
+> Temalar yalnızca Power BI Desktop kullanılırken uygulanabilir. Power BI hizmetinde mevcut raporlara temaları uygulayamazsınız. 
 
 ### <a name="built-in-report-themes"></a>Yerleşik rapor temaları
 
@@ -198,6 +201,15 @@ Rapor temasında kullanılabilir olan renkleri görüntülemek için:
 Örneğimizde, Aziz Patrik Günü rapor temasından çok sayıda kahverengi ve yeşil renk uyguladıktan sonra tema renklerini görüntüleyin. Tüm yeşil renkleri görüyor musunuz? Bunun nedeni, bu renklerin içeri aktarıp uyguladığımız rapor temasında yer almasıdır.
 
 Renk paletindeki renkler geçerli temayla ilişkilidir. Örneğin, bir veri noktası için üst satırın üçüncü rengini seçtiğinizi varsayalım. Daha sonra, farklı bir temaya geçerseniz, Microsoft Office’in temasını değiştirdiğinizde olduğu gibi o veri noktasının rengi de otomatik olarak üst satırın üçüncü rengine güncelleştirilir.
+
+Rapor temaları ayarlandığında, rapor genelinde görsellerde kullanılan varsayılan renkler değişir. Power BI, görsellerin raporda görüntülenecek birçok benzersiz renge sahip olmasını sağlamak için yüzlerce renkten oluşan bir liste bulundurur. Power BI bir görsel serisine renkler atarken, serinin renklerinin seçilmesinde önce gelen alır ilkesi geçerli olur. Bir temayı içeri aktardığınızda veri serileri için renk eşlemesi sıfırlanır. 
+
+Power BI dinamik serinin rengini izler ve diğer görsellerde bir değer için aynı rengi kullanır. *Dinamik seride* görsellerde sunulan seri sayısı ölçülere, değerlere ve diğer özelliklere göre değişebilir. Örneğin bir raporda *Bölgeye Göre Kâr*'ı gösterirken satış bölgelerinizin sayısı beş olabilir veya dokuz olabilir. Bölge sayısı dinamiktir, bu nedenle dinamik seri olarak kabul edilir. 
+
+Buna karşılık *statik serilerde* seri sayısı bilinir. Örneğin *Kâr* ve *Gelir* değerleri statik serilerdir. Statik serilerde Power BI tema paletlerindeki dizine göre renkleri atar. Biçimlendirme bölmesinde **Veri renkleri**’nin altından bir renk seçerek varsayılan renk atamasını geçersiz kılabilirsiniz. Tüm olası seri değerlerini görmek ve bunların renklerini de ayarlamak için dilimleyici seçimlerinizi değiştirebilirsiniz. **Özellikler** bölmesini kullanarak tek bir görsele açıkça bir renk ayarlarsanız, içeri aktarılan tema bu açıkça tanımlanmış renklerin hiçbirine uygulanmaz. 
+
+Bu açıkça seçilmiş renklere temanın uygulanmasına izin vermek için, açıkça renk uygulamasını geri almak ve temanın uygulanmasına izin vermek üzere rengin açıkça ayarlandığı görselin **Veri Renkleri** bölümünde **Varsayılana geri dön**'ü kullanın.
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Rapor teması renklerinin raporlarınıza eklenmediği durumlar
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459566"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123500"
 ---
 # <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
 
@@ -44,6 +44,9 @@ Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçek
     ![Veri kaynağı ayarları](media/service-gateway-data-sources/data-source-settings.png)
 
 5. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirtirsiniz. **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
+
+    > [!NOTE]
+    > Kimlik doğrulaması yöntemi olarak OAuth seçilirse, OAuth belirteci süre sonu ilkesinden daha uzun çalışan tüm sorgular başarısız olabilir.
 
 6. **Gelişmiş ayarlar**'ın altında veri kaynağınız için [Çoklu Oturum Açma (SSO)](service-gateway-sso-overview.md) yapılandırmasını yapabilirsiniz. 
 

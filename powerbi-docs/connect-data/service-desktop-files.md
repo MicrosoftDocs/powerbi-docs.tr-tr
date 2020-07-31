@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263023"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363997"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop dosyalarından veri alma
 ![Power BI Desktop dosya simgesi](media/service-desktop-files/pbid_file_icon.png)
@@ -30,7 +30,7 @@ ms.locfileid: "86263023"
 
 **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş ile ilgili olarak elde ettiğiniz avantajların pek çoğundan yararlanırsınız. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel adımlarını kullanarak) OneDrive oturumunuzu Microsoft hesabınızla açmanız gerekir. Bu hesap genellikle, Power BI'da oturum açarken kullandığınızdan farklı bir hesaptır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
 
-**SharePoint - Ekip Siteleri**: Power BI Desktop dosyalarınızı SharePoint - Ekip Siteleri'ne kaydetmek, OneDrive İş'e kaydetmeye çok benzer. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz.
+**SharePoint - Ekip Siteleri**: Power BI Desktop dosyalarınızı SharePoint - Ekip Siteleri'ne kaydetmek, OneDrive İş'e kaydetmeye çok benzer. En büyük fark, Power BI'dan dosyaya bağlanma şeklinizdir. Bir URL belirtebilir veya kök klasöre bağlanabilirsiniz. Ayrıca SharePoint klasörüne işaret eden <a href="https://support.microsoft.com/office/sync-sharepoint-and-teams-files-with-the-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88">bir Eşitleme klasörü de ayarlayabilirsiniz</a>; buradaki dosyalar SharePoint'in ana kopyasıyla eşitlenir.
 
 ## <a name="import-or-connect-to-a-power-bi-desktop-file-from-power-bi"></a>Bir Power BI Desktop dosyasını Power BI'a aktarma veya Power BI'dan bu dosyaya bağlanma
 >[!IMPORTANT]

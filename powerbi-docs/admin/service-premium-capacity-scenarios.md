@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135296"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952674"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
@@ -67,7 +67,7 @@ Power BI yöneticisi, veri kümeleri için yeterli belleğin sağlandığından 
 
 ## <a name="identifying-slow-responding-datasets"></a>Yavaş yanıt veren veri kümelerini tanımlama
 
-Bu senaryoda kullanıcıların, belirli raporların açılmasının çok uzun sürdüğü ve bazen kilitlendiği yönündeki şikayetleri üzerine bir araştırma başlatılmıştır.
+Bu senaryoda kullanıcıların, belirli raporların açılmasının çok uzun sürdüğü ve bazen yanıt vermeyi bıraktığı yönündeki şikayetleri üzerine bir araştırma başlatılmıştır.
 
 Power BI yöneticisi uygulama içinde **Sorgu Süreleri** görselini kullanarak veri kümelerini **Ortalama Süre** ölçütüne göre azalan sırada sıralayarak performansı en düşük olan veri kümelerini görebilir. Bu görselde ayrıca veri kümesi sorgu sayıları da vardır ve bu sayede veri kümelerinin ne kadar sorgulandığını görebilirsiniz.
 
@@ -141,7 +141,7 @@ Bu etki özellikle veri kümesinin birden fazla kullanıcıdan gelen yüksek yo�
 
 Bazı durumlarda Power BI yöneticileri, veri kümesi sahiplerinin rapor yerine pano (önbelleğe alınmış kutucuklar için veri kümesi yenileme işlemleriyle ve belirli aralıklarla sorgu gönderen) oluşturmalarını sağlayarak daha az geçici sorgu iş yükü oluşturmasını isteyebilir. Bu durum, pano yüklendiğinde karşılaşılan ani artışların engellenmesine yardımcı olabilir. Bu çözüm her zaman iş gereksinimlerine uygun olmayabilir ancak veri kümesinde değişiklik yapmadan CPU'nun doyma noktasına gelmesinden kaçınmanın etkili bir yolu olabilir.
 
-## <a name="acknowledgements"></a>Bildirimler
+## <a name="acknowledgments"></a>Teşekkürler
 
 Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
 

@@ -6,21 +6,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f0eef1441eb0bb87b6e7b85e791c47174c752bc7
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 01155e3ed4921a11f87acaeaf67f20772a4d01dd
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409433"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252763"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
 Bu makalede, **Power BI Desktop**'a yönelik önceki güncelleştirmeler açıklanmaktadır. En yeni sürüm için [**Power BI Desktop** ile ilgili en son güncelleştirmelere](desktop-latest-update.md) göz atın.
 
 [İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 kullanıyorsanız, Windows 10'da Microsoft Store'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
+
+
+> [!IMPORTANT]
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
+
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 

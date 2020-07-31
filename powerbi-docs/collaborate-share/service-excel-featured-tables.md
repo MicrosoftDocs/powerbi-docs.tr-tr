@@ -6,96 +6,94 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 07/24/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a872c0ada80a7168ebc6bb545de1ad474c4561b7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00fba391a6ad92f1e3edaf0e2af9691452724f6e
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226370"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251760"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel’de Power BI öne çıkan tablolarına erişme (önizleme)
 
-Excel’de Veri Türleri Galerisinde Power BI veri kümelerindeki öne çıkan tablolardan veri bulabilirsiniz. Öne çıkan tablolar Excel sayfalarınıza kurumsal veriler eklemenizi kolaylaştırır. Power BI’ın onaylı ve tanıtılan veri kümesi özelliklerini kullanarak, kuruluşlar daha fazla kullanıcının ilgili ve yenilenebilir verileri bularak ve kullanarak daha iyi kararlar almasına olanak tanır. Excel belgelerinde [Power BI’dan Excel veri türlerini kullanma](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9) hakkında daha fazla bilgi edinebilirsiniz.
+Excel’de Veri Türleri Galerisinde Power BI veri kümelerindeki *öne çıkan tablolardan* veri bulabilirsiniz. Öne çıkan tablolar Excel sayfalarınıza kurumsal veriler eklemenizi kolaylaştırır. Burada Power BI verilerini Excel sayfalarına alma adımları verilmiştir.
 
-Veri Türleri Galerisi yalnızca Power BI veri kümelerinde modelleyicinin seçtiği öne çıkan tabloları gösterir. Ayrıca Power BI’da erişebileceğiniz tüm veri kümelerine Excel’de göz atabilirsiniz. Excel’de **Veri** şeridindeki **Veri Al**’ın altında **Power BI Veri Kümeleri**’ni seçin.
+- Power BI veri modelleyicisi [Power BI’da veri kümesini yükseltir veya onaylar](../connect-data/service-datasets-promote.md).
+- Veri modelleyicisi veri kümesinde [öne çıkan tabloları belirler](service-create-excel-featured-tables.md) ve veri kümesini Power BI hizmetine kaydeder.
+- Kuruluşun geri kalanı ilgili ve yenilenebilir veriler için Excel'de bu öne çıkan tablolara bağlanabilir. Excel bu tablolara *veri türleri* olarak başvurur ve bunları Veri Türleri Galerisinde listeler.
 
-## <a name="access-power-bi-data-through-the-excel-data-types-gallery"></a>Excel Veri Türleri Galerisi’nden Power BI verilerine erişme
-Power BI veri kümelerindeki öne çıkan tablolar Veri şeridindeki Excel Veri Türleri galerisinde görüntülenir.
+> [!NOTE]
+> Excel’de, Power BI’dan erişebildiğiniz herhangi bir veri kümesindeki verileri de alabilirsiniz. **Veri** şeridinde **Veri Al** > **Power BI (Microsoft)** öğesini seçin.
+> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="Veri şeridinde Power BI’dan Veri Al seçeneğinin ekran görüntüsü.":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel Veri şeridi":::
+## <a name="the-excel-data-types-gallery"></a>Excel Veri Türleri Galerisi
+Power BI veri kümelerinde öne çıkan tablolar Excel'in **Veri** şeridinde *veri türleri* olarak **Veri Türleri** galerisinde görünür.
 
-Galeri genişletildiğinde en çok kullanılan veri kümelerini gösterir.
+:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel Veri şeridinde Veri Türleri galerisinin ekran görüntüsü.":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel Veri Türleri Galerisi":::
+Genişletildiğinde galeri **Hisse Senetleri** ve **Coğrafya** gibi genel veri türlerini ve sizin tarafınızdan kullanılabilecek ilk 10 **Kuruluş** veri türünü (Power BI veri kümelerinde öne çıkan tablolar) gösterir.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel Veri Türleri Galerisinin ekran görüntüsü.":::
+
+## <a name="format-a-range-of-cells-as-a-table-optional"></a>Hücre aralığını tablo olarak biçimlendirme (isteğe bağlı)
+
+ Başlamadan önce verilerinizi Excel tablosu olarak biçimlendirmeniz önerilir. Böylece bir satırda yaptığınız değişiklikler tablodaki diğer satırlara da uygulanır. 
+
+1. Sütun üst bilgisi ekleyin. 
+2. Ardından verilerinizde bir hücre seçin ve Ctrl + T tuşlarına basın. 
+3. **Tablom üst bilgi satırı içeriyor** > **Tamam**’ı işaretleyin.
+
+    :::image type="content" source="media/service-excel-featured-tables/excel-format-table.png" alt-text="Aralığı tabloya dönüştürmeyi gösteren ekran görüntüsü.":::
+
+## <a name="search-for-power-bi-data-in-the-excel-data-types-gallery"></a>Excel Veri Türleri Galerisinde Power BI verilerini arama
+
+Power BI öne çıkan tablosunda verileri aramak için, Excel sayfanızda öne çıkan tablodaki bir değerle eşleşen değerin yer aldığı bir hücre veya aralık seçin. **Kuruluş**’u seçin. Excel, erişiminiz olan tüm öne çıkan tablolarda eşleşme arar.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-table-organization.png" alt-text="Hücre veya hücre aralığı seçmenin ekran görüntüsü.":::
  
-Power BI öne çıkan tablosundaki verileri aramak için Excel sayfanızda bir hücre veya aralık seçin.
+Aradığınız öne çıkan tabloyu biliyorsanız galeriden **Kuruluşunuzdan (önizleme)** öğesini seçin ve tabloyu belirleyin.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-cell.png" alt-text="Hücre seçin":::
+:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="Excel Kuruluş Verileri, Sağlayıcılar veri türü tablosunun ekran görüntüsü.":::
  
-Erişiminiz olan sertifikalı veri kümelerindeki öne çıkan tablolarda yer alan verileri aramak için galeride **Kuruluş verileri** seçeneğini belirtin.
+Arama yaptığınızda Excel yüksek güvenilirlikle eşleşen satırları bulduğunda bu hücreler hemen söz konusu satırlara bağlanır. Bağlantılı öğe simgesi hücrelerin Power BI’daki satırlara bağlandığını gösterir.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data.png" alt-text="Excel Kuruluş Verileri":::
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-card-icon.png" alt-text="Bağlantılı öğe simgesinin ekran görüntüsü.":::
+
+Hücrede eşleşme olasılığı olan birden fazla satır varsa hücre bir soru işareti simgesi gösterir ve **Veri Seçici** bölmesi açılır. Aşağıdaki örnekte kullanıcı B2:B10 aralığını seçti ve bir Power BI öne çıkan tablosu arattı. B5 hücresi “Ma Maison” dışındaki tüm satırlar eşleşiyor. **Veri Seçici** iki olası eşleşmeyi gösteriyor.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel Veri Seçici bölmesinin ekran görüntüsü.":::
  
-Hangi tür veri aradığınızı biliyorsanız veya Kuruluş verileri seçeneğini kullanarak eşleşen satırları bulamazsanız belirli bir veri türünü seçin.
+Kuruluş veri seçeneği birden çok öne çıkan tablodan satırları döndürebilir. Excel, olası satır eşleşmelerini geldikleri veri türüne göre gruplandırır. Excel veri türlerini en güçlü olası satır eşleşmesi temelinde sıralar. Eşleşen satırların veri türlerini daraltmak ve genişletmek için köşeli ayraç oklarını kullanın.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-data-type.png" alt-text="Veri türünü seçin":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="Birden çok olasılık içeren Excel Veri Seçici bölmesinin ekran görüntüsü.":::
  
-Arama yaptığınızda yüksek güvenilirlikle eşleşen bir satır bulunursa, hücre hemen söz konusu satıra bağlanır. Bağlantılı öğe simgesi hücrenin Power BI’daki satıra bağlandığını gösterir.
+Her satır için satır adını seçerek satırda daha fazla ayrıntı görüntüleyin. Bunlar doğru satırı seçmenize yardımcı olur. Bunu bulduğunuzda, **Seç**’e basarak satırı Excel’deki hücreye bağlayın. 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="Bağlantılı öğe simgesi":::
-
-Hücrenin birden çok olası satır eşleşmesi varsa bir veri seçici bölmesi gösterilir. Hücrede soru işareti gösterilir; bu soru işareti söz konusu satırın veri seçici bölmesini açar. Burada kullanıcının A2:A7 aralığını seçtikten ve Power BI öne çıkan tablosunda arama yaptıktan sonrası gösteren bir örnek vardır.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-multiple-matches.png" alt-text="Birden çok olası satır eşleşmesi":::
-
-**Veri Seçicisi** bölmesinde olası satır eşleşmeleri gösterilir.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel Veri Seçicisi bölmesi":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-details.png" alt-text="Veri Seçici ayrıntılarının ekran görüntüsü.":::
  
-Kuruluş verileri seçeneği birden çok veri türünde satırlar döndürebilir. Excel, olası satır eşleşmelerini geldikleri veri türüne göre gruplandırır. Excel veri türlerini en güçlü olası satır eşleşmesi temelinde sıralar. Eşleşen satırların veri türlerini daraltmak ve genişletmek için köşeli ayraç oklarını kullanın.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="Excel Veri Seçicisi bölmesi":::
+Hücrede **Kart** simgesi seçildiğinde öne çıkan tablodaki tüm alanların ve hesaplanan alanların verilerini içeren bir kart gösterilir. Kartın başlığında öne çıkan tablodaki satır etiketi alanını değeri yer alır.
  
-Her satır için satır adını seçerek satırda daha fazla ayrıntı görüntüleyin. Bunlar doğru satırı seçmenize yardımcı olur. Satırı bulduğunuzda **Seç**’e basarak satırı Excel’deki hücreye bağlayın. 
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="Bağlı öğe ayrıntılarının ekran görüntüsü.":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-select.png" alt-text="Veri Seçici ayrıntıları":::
- 
-Satır seçildiğinde hücre satıra bağlanır ve değeri Power BI öne çıkan tablosundaki **Satır Etiketi** alanının değerine bağlanır. 
+Alanın değerini kılavuza eklemek için **Veri Ekle** simgesini seçin ve alan listesinden bir alan adı seçin.  
 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="Excel bağlantılı öğesi":::
- 
-**Bağlı Hücre** simgesi seçildiğinde öne çıkan tablodaki tüm alanların ve hesaplanan alanların verilerini içeren bir kart gösterilir. Kartın başlığında öne çıkan tablodaki satır etiketi alanını değeri yer alır.
- 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="Bağlantılı öğe ayrıntıları":::
+:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="Alan adı seç öğesinin ekran görüntüsü.":::
 
-Alan değerlerini kılavuza eklemek için **Veri Ekle** simgesini seçin.
+Alan değeri veya değerleri bitişik hücrelere yerleştirilir. Hücre formülü bağlı hücreye ve hücre adına başvurur, bu nedenle verileri Excel işlevlerinde kullanabilirsiniz.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-insert-data.png" alt-text="Veri ekleme"::: 
-
-Alanın değerini kılavuza eklemek için alan listesinden bir alan adı seçin.  
-
-:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="Alan adı seçin":::
-
-Alan değeri bitişik hücreye yerleştirilir. Hücre formülü bağlı hücreye ve hücre adına başvurur, bu nedenle verileri Excel işlevlerinde kullanabilirsiniz.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel hücre formülü":::
- 
-Verilerinizi Excel tablosu olarak biçimlendirdiğinizde, alanların eklenmesi tabloyu genişletir ve hücre başlığını alan adıyla eşleşecek şekilde ayarlar. Aynı veri türlerine bağlı olan satırlar da bunlara karşılık gelen değerlerle doldurulur.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-field-column-name.png" alt-text="Alan, sütun adıdır"::: 
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel hücre formülünün ekran görüntüsü.":::
 
 ## <a name="cell-formulas"></a>Hücre formülleri
 
 Excel tablosunu kullanırken bağlı tablo sütununa başvurabilir ve `.` (nokta) başvurusunu kullanarak veri alanları ekleyebilirsiniz.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel nokta başvurusu":::
+:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel nokta başvurusunun ekran görüntüsü.":::
 
 Benzer şekilde bir hücreyi kullanırken hücreye başvurabilir ve alanları almak için `.` (nokta) başvurusu kullanabilirsiniz.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="Hücre nokta başvurusu":::
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="Hücre nokta başvurusunun ekran görüntüsü.":::
  
 ## <a name="data-caching-and-refresh"></a>Verileri önbelleğe alma ve yenileme
 
@@ -103,24 +101,25 @@ Excel bir hücreyi Power BI öne çıkan tablosundaki bir satıra bağladığın
 
 Bağlantılı hücrelerdeki verileri yenilemek için **Veri** şeridindeki **Tümünü Yenile** düğmesini kullanın. 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="Tümünü Yenile":::
+:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="Tümünü Yenile öğesinin ekran görüntüsü.":::
  
 Ayrıca tek tek hücreleri de yenileyebilirsiniz. Hücreye sağ tıklayın ve **Veri Türleri** > **Yenile**’yi seçin.
 
 ## <a name="show-a-card-change-or-convert-to-text"></a>Kart gösterme, değiştirme veya metne dönüştürme
 
-Bağlantılı hücreler sağ tıklatma menü seçeneklerine eklenir. Hücreye sağ tıklayın > **Veri Türü** >’nü seçin  
+Bağlantılı hücreler sağ tıklatma menü seçeneklerine eklenir. Bir hücreye sağ tıklayın. Her zamanki seçeneklere ek olarak şunları görürsünüz:
 
-- **Kartı Göster**
-- **Yenile**
-- **Değiştir** 
+- **Veri Türünü Göster Kartı**.
+- **Yenile**.
+- **Değiştir**.
 - **Metne Dönüştür**.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="Sağ tıklayın, Metne Dönüştür":::
+:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="Sağ tıklama, Metne Dönüştür ekran görüntüsü.":::
  
 **Metne Dönüştür** seçeneği Power BI öne çıkan tablosundaki satıra yönelik bağlantıyı kaldırır. Burada önemi olan, hücredeki metnin bağlantılı hücrenin satır etiketi değeri olmasıdır. Hücreyi istemediğiniz bir satıra bağladıysanız, ilk hücre değerlerini geri yüklemek için Excel’de **Geri Al**’ı seçin.
 
 ## <a name="licensing"></a>Lisanslama
+
 Excel Veri Türleri Galerisi ve Power BI öne çıkan tablolarına bağlantı deneyimleri yalnızca Excel E5 ve G5 müşterilerine yöneliktir. 
 
 ## <a name="security"></a>Güvenlik
@@ -128,39 +127,6 @@ Excel Veri Türleri Galerisi ve Power BI öne çıkan tablolarına bağlantı de
 Yalnızca Power BI’da izniniz olan veri kümelerindeki öne çıkan tabloları görürsünüz. Verileri yenilerken, satırları almak için Power BI’daki veri kümesine erişim izniniz olmalıdır. Veri kümesi üzerinde Oluşturma veya Yazma izni gerekir. Excel, satırın tamamı için döndürülen verileri önbelleğe alır. Excel dosyasını paylaştığınız herkes tüm bağlantılı hücrelerdeki alanların tümünü görebilir.
 
 Power BI veri kümesinin satır düzeyi güvenliği varsa veya veri kümesine Microsoft Bilgi Koruması duyarlılık etiketi uygulandıysa, bu veri kümesindeki öne çıkan tablolar Excel Veri Türleri Galerisi’ne eklenmez. Bu ilk önizlemenin sınırlamalarından biridir.
-
-## <a name="curate-a-featured-table-in-power-bi-desktop"></a>Power BI Desktop’ta bir öne çıkan tablo seçme
-Excel Veri Türleri Galerisi, Power BI hizmetine yüklenen veri kümelerindeki öne çıkan tabloları gösterir. Veri modelinde öne çıkan tabloları seçki olarak sunmak için Power BI Desktop’ı kullanın, sonra bunları Power BI hizmetine yükleyin.
-
-### <a name="turn-on-the-featured-table-preview"></a>Öne çıkan tablo önizlemesini açma
-
-1. Power BI Desktop'ta **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**'ni seçin.
-2. **Öne çıkan tablolar** onay kutusunu seçin.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
-
-### <a name="select-a-table"></a>Tablo seçme
-
-1. Power BI Desktop'ta Model görünümüne gidin.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Model görünümü":::
- 
-2. Tablo seçin ve **Öne çıkan tablo** öğesini **Evet** olarak ayarlayın.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Öne çıkan tablo seçeneğini Evet olarak ayarlama":::
-
-4. **Bu öne çıkan tabloyu ayarla** bölümünde gerekli alanları sağlayın:
-
-    - **Açıklama**.
-    - **Satır etiketi** alanının değeri Excel’de kullanılır ve böylece kullanıcılar satırı kolayca belirleyebilir. **Veri Seçicisi** bölmesinde ve **Bilgi** kartında bağlı hücre için hücre değeri olarak görüntülenir. 
-    - **Anahtar sütunu** alanının değeri satır için benzersiz bir kimlik sağlar. Bu değer Excel’in bir hücreyi tablodaki belirli bir satıra bağlamasına olanak tanır.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Öne çıkan tabloyu ayarlama":::
-
-Veri kümesini Power BI hizmetine yayımladıktan veya içeri aktardıktan sonra öne çıkan tablo Excel Veri Türleri Galerisi’nde görüntülenir.
-
-- Excel veri türleri listesini önbelleğe aldığından, yeni yayımlanan önce çıkan tabloları görmek için Excel’i yeniden başlatmanız gerekir.
-- Bazı veri kümeleri önizlemede desteklenmez; söz konusu veri kümelerinde tanımlanan öne çıkan tablolar Excel’de görüntülenmez. Ayrıntılar için önemli noktalar ve sınırlamalara bakın.
 
 ## <a name="administrative-control"></a>Yönetim denetimi
 
@@ -193,7 +159,7 @@ Denetim günlüğü olaylarının tam listesi için bkz. [Power BI’da kullanı
     - Öne çıkan tabloda tanımlanan ölçüler.
     - İlgili tablolarda tanımlanan ölçüler ve ilişkilerden hesaplanan örtük ölçüler.
 
-- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları görüntüler. Klasik çalışma alanlarında veya Çalışma Alanım’da depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
+- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları (*veri türlerini*) görüntüler. Klasik çalışma alanlarında veya Çalışma Alanım’da depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
 
 Excel’deki Veri Türleri deneyimi arama işlevine benzer. Excel sayfası tarafından sağlanan bir hücre değerini alır ve Power BI öne çıkan tablolardaki eşleşen satırlar için arama yapar. Arama deneyiminin şöyle davranışları vardır:
 
@@ -213,5 +179,7 @@ Excel’deki Veri Türleri deneyimi arama işlevine benzer. Excel sayfası taraf
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
+- [Power BI Desktop'ta öne çıkan tabloları ayarlama](service-create-excel-featured-tables.md)
+- Excel belgelerinde [Power BI’dan Excel veri türlerini kullanma](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9) hakkında bilgi edinebilirsiniz.
 - Sorularınız mı var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

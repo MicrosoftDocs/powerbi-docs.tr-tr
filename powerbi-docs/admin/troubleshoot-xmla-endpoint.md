@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459681"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363974"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -135,6 +135,10 @@ Sağlayıcı veri kaynakları için tanımlayabileceğiniz kimliğe bürünme ay
 Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetiklerken Power BI genellikle veri kümesinin tamamını yeniler. Çoğu durumda, yenilemeleri daha seçici bir şekilde gerçekleştirmek daha verimlidir. Ayrıntılı işleme görevlerini aşağıda gösterildiği şekilde SQL Server Management Studio’da (SSMS) veya üçüncü taraf araçlarını ya da betiklerini kullanarak gerçekleştirebilirsiniz.
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="SSMS’de tabloları işleme":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>TMSL Yenileme komutunda geçersiz kılmalar
+
+[Yenileme komutundaki (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) geçersiz kılmalar kullanıcıların yenileme işlemi için sorgu tanımının veya veri kaynağı tanımının farklı bölümlerini seçmesine olanak tanır. Şu anda Power BI Premium'da **geçersiz kılmalar desteklenmez**. "Power BI Premium'da sıradışı bağlamaya izin verilmez. Ek bilgi için ürün bilgilerinde 'XMLA okuma/yazma desteği' konusuna bakın." hatası döndürülür.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

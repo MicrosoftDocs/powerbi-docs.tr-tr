@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215598"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252809"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 Power BI Desktop'la çalışmaya başlama kılavuzuna hoş geldiniz. Bu turda Power BI Desktop'ın nasıl çalıştığı, neler yapabileceği ve iş zekanızı artırmak için nasıl güçlü veri modelleri ve büyüleyici raporlar oluşturulabileceği gösterilir.
@@ -24,6 +24,11 @@ Power BI Desktop'ın nasıl çalıştığına ve nasıl kullanılacağına hızl
 ![Örnek bir çalışma öğesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-getting-started/hero-02.png)
 
 Ayrıca [Power BI Desktop ile Çalışmaya Başlama](https://www.youtube.com/watch?v=Qgam9M8I0xA) videosunu izleyebilir ve videoyla birlikte takip etmek üzere [Finansal Örnek](https://go.microsoft.com/fwlink/?LinkID=521962) adlı Excel çalışma kitabını indirebilirsiniz.
+
+
+> [!IMPORTANT]
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
+
 
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop nasıl çalışır?
 Power BI Desktop ile şunları yapabilirsiniz:

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349644"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953065"
 ---
 # <a name="get-samples-for-power-bi"></a>Power BI için örnek alma
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Belki de Power BI’in bazı özelliklerini gösteren raporları görmek istiyorsunuz. Size yardımcı olabiliriz.
@@ -25,7 +25,7 @@ Power BI farklı amaçlara yönelik farklı türlerde örnekler sunar:
 - AppSource’tan veya doğrudan Power BI hizmetinden indirebileceğiniz bir **[örnek uygulama](#sample-app-from-appsource)** . Uygulamalarda panolar, raporlar ve veri kümeleri bulunur. Bunları değiştirip iş arkadaşlarınıza dağıtabilirsiniz.
 - Power BI’daki pano, rapor ve veri kümeleri içeren, *içerik paketleri* halinde **[sekiz özgün yerleşik örnek](#eight-original-samples)** . Bunları doğrudan Power BI hizmetine yükleyebilirsiniz. Yerleşik örnekler Power BI raporları (.pbix) veya Excel çalışma kitapları (.xlsx) olarak da sunulur.
 - Veri modeli ve Power View sayfalarını içeren, yerleşik örneklerin **[Excel çalışma kitabı](#download-sample-excel-files)** sürümleri. Excel’deki veri modelini keşfedip düzenleyebilir, ayrıca Excel çalışma kitabını Power BI raporu için veri kaynağı olarak kullanabilirsiniz. Dilerseniz çalışma kitabını Excel dosyası olarak karşıya yükleyebilir ve Excel görselleri ile PivotTable’ları Power BI raporlarında görüntüleyebilirsiniz. 
-- Bir Excel dosyasındaki basit, düz bir tablo olan **[Finansal veri örneği çalışma kitabını](sample-financial-download.md)** da indirebilirsiniz. Bu çalışma kitabında, satışları segmentlere ve ülkelere göre bölünmüş kurgusal ürünleri içeren anonim veriler yer alır. Bu sayede bir Power BI raporuna yönelik yararlı, temel bir veri kaynağı haline gelir.
+- Bir Excel dosyasındaki basit, düz bir tablo olan **[Finansal veri örneği çalışma kitabını](sample-financial-download.md)** da indirebilirsiniz. Bu çalışma kitabında, satışları segmentlere ve ülkelere/bölgelere göre bölünmüş kurgusal ürünleri içeren anonim veriler yer alır. Bu sayede bir Power BI raporuna yönelik yararlı, temel bir veri kaynağı haline gelir.
 
 Çevrimiçi belgelerimizde öğretici ve örneklerde yer alan örnekler kullanıldığından bunları takip edebilirsiniz.
 

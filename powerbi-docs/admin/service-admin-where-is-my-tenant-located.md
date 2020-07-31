@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793275"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952697"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
@@ -34,7 +34,7 @@ Kiracınızın bulunduğu bölgeyi bulmak için aşağıdaki adımları izleyin.
 
 ## <a name="how-the-data-region-is-selected"></a>Veri bölgesi nasıl seçilir?
 
-Veri bölgesi, kiracınızı oluştururken seçtiğiniz ülkeye göre belirlenir. Bu bilgi paylaşıldığından seçim hem Microsoft 365 hem de Power BI kayıtları için geçerlidir. Yeni bir kiracı oluşturuyorsanız kaydolma işlemleri sırasında listeden uygun ülkeyi seçin.
+Veri bölgesi, kiracınızı oluştururken seçtiğiniz ülkeye/bölgeye göre belirlenir. Bu bilgi paylaşıldığından seçim hem Microsoft 365 hem de Power BI kayıtları için geçerlidir. Yeni bir kiracı oluşturuyorsanız kaydolma işlemleri sırasında listeden uygun ülkeyi/bölgeyi seçin.
 
 ![Ülke seçimi](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -44,4 +44,3 @@ Power BI, seçiminize en yakın veri bölgesini seçer ve kiracınıza ait veril
 > Kiracıyı oluşturduktan sonra seçimi değiştiremezsiniz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

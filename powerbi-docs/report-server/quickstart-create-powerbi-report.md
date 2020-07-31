@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/03/2020
+ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 8e907b87c26dd7f2e764705a1178efc5df432a3e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239011"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251359"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI raporu oluşturma
 Power BI raporlarını, bulut üzerindeki Power BI hizmetinde (https://powerbi.com) ) depoladığınız gibi şirket içi Power BI Rapor Sunucusu web portalında da depolayabilir ve yönetebilirsiniz. Raporları Power BI Desktop uygulamasında oluşturup düzenledikten sonra web portalında yayımlarsınız. Ardından kuruluşunuzdaki rapor okuyucuları bu raporları bir tarayıcıda veya mobil cihazlarındaki Power BI mobil uygulamasında görüntüleyebilir.
@@ -40,13 +40,13 @@ Power BI Desktop uygulamasında Power BI raporları oluşturduysanız Power BI R
 
     - **PBIDesktopRS_x64.msi** (64 bit sürümü).
 
-4. Yükleyiciyi indirdikten sonra, Power BI Desktop (Eylül 2019) Kurulum Sihirbazını çalıştırın.
+4. Yükleyiciyi indirdikten sonra, Power BI Desktop Kurulum Sihirbazını çalıştırın.
 
 2. Yüklemenin sonunda **Start Power BI Desktop now** (Power BI Desktop'ı şimdi başlat) onay kutusunu işaretleyin.
    
-    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğundaki **Power BI Desktop (Eylül 2019)** ifadesi, doğru sürüme sahip olduğunuzu gösterir.
+    Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir. Başlık çubuğunda **Power BI Desktop (Mart 2020)** ifadesinin bulunması, doğru sürüme sahip olduğunuzu gösterir.
 
-    ![Power BI Desktop Eylül 2019](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
+    ![Power BI Desktop Mayıs 2020](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. Power BI Desktop uygulamasını daha önceden kullanmadıysanız karşılama ekranındaki videoları izlemek isteyebilirsiniz.
    

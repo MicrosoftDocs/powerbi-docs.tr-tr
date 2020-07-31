@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228737"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252533"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -185,6 +185,7 @@ Yönetici portalının **Kiracı ayarları** bölümünde çalışma alanların�
 
 - Yeni çalışma alanı deneyimi oluşturma.
 - Veri kümelerini çalışma alanları arasında kullanma.
+- Klasik çalışma alanı oluşturma işlemini engelleme.
 
 ### <a name="create-the-new-workspaces"></a>Yeni çalışma alanları oluşturma
 
@@ -213,6 +214,13 @@ Yöneticiler, kuruluştaki hangi kullanıcıların veri kümelerini farklı çal
 
 Daha fazla bilgi için bkz. [Çalışma alanları arasında veri kümelerine giriş](../connect-data/service-datasets-across-workspaces.md).
 
+### <a name="block-classic-workspace-creation"></a>Klasik çalışma alanı oluşturma işlemini engelleme
+
+Yöneticiler kuruluşun klasik çalışma alanları oluşturabilme becerisini denetleyebilir. Bu ayar etkinleştirildiğinde, çalışma alanını oluşturan kullanıcılar yalnızca yeni çalışma alanı deneyimi çalışma alanları oluşturabilir. 
+
+![Klasik çalışma alanı oluşturma işlemini engelleme](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+Etkinleştirildiğinde, yeni oluşturulan Office 365 Grupları Power BI çalışma alanları listesinde gösterilmez. Mevcut çalışma alanları listede gösterilmeye devam eder. Ayar etkinleştirildiğinde, kullanıcının üyesi olduğu tüm Office 365 Grupları çalışma alanları listesinde görüntülenir. [Yeni çalışma alanı deneyimi çalışma alanları](../collaborate-share/service-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="export-and-sharing-settings"></a>Dışarı aktarma ve paylaşım ayarları
 
@@ -250,14 +258,14 @@ Yöneticiler **Web’de yayımlama** ayarını **Etkin**, **Ekleme kodlarının 
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
-|Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
+|Özellik |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
 |Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
 |Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum **Devre dışı** görünür|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
 
-### <a name="export-data"></a>Verileri dışarı aktar
+### <a name="export-data"></a>Verileri dışarı aktarma
 
 Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. Bu, Excel’de Çözümle, .csv dosyasına aktar, veri kümesi indirmeleri (.pbix) ve Power BI Hizmeti Live Connect özelliklerini denetler. [Kutucuktaki veya görseldeki verileri dışarı aktarma](../visuals/power-bi-visualization-export-data.md) hakkında daha fazla bilgi edinin.
 
@@ -369,6 +377,15 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 **Verileri dışarı aktar** kiracı ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
 
 [Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) hakkında daha fazla bilgi edinin.
+
+## <a name="share-to-teams-tenant-setting"></a>Teams’de Paylaş kiracı ayarı
+
+**Teams'de Paylaş** ayarı Power BI yönetici portalının **Kiracı ayarları** bölümünde yer alır. Ayar kuruluşların Power BI hizmetinde **Teams'de Paylaş** düğmelerini gizlemesine olanak tanır. Devre dışı olarak ayarlandığında, Power BI hizmetinde raporları ve panoları görüntüleyen kullanıcılar eylem çubuğunda veya bağlam menülerinde **Teams’de Paylaş** düğmelerini görmez.
+
+![Power B I yönetici portalında Teams'de Paylaş kiracı ayarının ekran görüntüsü.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+[Power BI içeriğini Teams'de paylaşma](../collaborate-share/service-share-report-teams.md) hakkında daha fazla bilgi edinin.
+
 
 ## <a name="power-bi-visuals-settings"></a>Power BI görselleri ayarları
 
@@ -591,13 +608,13 @@ Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağl
 
 Bir yönetici olarak, kiracınızda bulunan çalışma alanlarını görebilirsiniz. Çalışma alanları listesini filtreleyebilir, sıralayabilir ve her çalışma alanının ayrıntılarını görüntüleyebilirsiniz. Tablo sütunları, çalışma alanları için [Power BI yönetimi Rest API](/rest/api/power-bi/admin) tarafından döndürülen özelliklere karşılık gelir. Kişisel çalışma alanları **PersonalGroup** türünde, klasik çalışma alanları **Group** türünde ve yeni çalışma alanları deneyimi **Workspace** türündedir. Daha fazla bilgi için bkz. [Yeni çalışma alanlarında çalışmayı düzenleme](../collaborate-share/service-new-workspaces.md).
 
-Yöneticiler ayrıca yönetici portalını veya PowerShell Cmdlet'lerini kullanarak çalışma alanlarını yönetebilir ve kurtarabilirler. 
+Yöneticiler ayrıca yönetici portalını veya PowerShell cmdlet'lerini kullanarak çalışma alanlarını yönetebilir ve kurtarabilir. 
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 
 **Çalışma Alanları** sekmesinde her çalışma alanı için *durumu* görürsünüz. Aşağıdaki tabloda bu durumların anlamları hakkında daha ayrıntılı bilgiler verilmektedir.
 
-|Eyalet  |Açıklama  |
+|Durum  |Açıklama  |
 |---------|---------|
 | Etkin | Normal bir çalışma alanı. Kullanımı veya içindekiler hakkında bir şey ifade etmez, yalnızca çalışma alanının "normal" olduğu anlamına gelir. |
 | Yalnız bırakılmış | Yönetici kullanıcısı olmayan çalışma alanı. |

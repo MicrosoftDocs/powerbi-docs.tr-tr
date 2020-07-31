@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 01/29/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215113"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252648"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -25,6 +25,11 @@ Power BI Desktop'ı aşağıda açıklanan iki yöntemden birini kullanarak edin
 * [Bilgisayarınıza indirdiğiniz ve yüklediğiniz bir yürütülebilir dosya olarak doğrudan indirme](#download-power-bi-desktop-directly).
 
 Her iki yöntemle de bilgisayarınıza Power BI Desktop'ın en son sürümünü almış olursunuz ama dikkat edilmesi gereken ve aşağıdaki bölümlerde açıklanan bazı farklılıklar söz konusudur.
+
+
+> [!IMPORTANT]
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
+
 
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>Microsoft Store’dan bir uygulama olarak yükleme
 Microsoft Store'dan Power BI Desktop'ın en son sürümüne birkaç yolla erişilebilir. 
