@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: 1c5195e94752f0eead4b123d6a4055696e0f7d31
-  ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+  ms.openlocfilehash: d293b27b65e3997b895d3fd10d69292db661bc3b
+  ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/19/2020
-  ms.locfileid: "83565960"
+  ms.lasthandoff: 07/28/2020
+  ms.locfileid: "87364043"
 highlightedContent:
   items:
   - title: ABD verilerini içeren bir COVID-19 raporu oluşturma
@@ -222,7 +222,7 @@ conceptualContent:
     - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
       text: İş kararlarını veren kişiler
-    - url: guided-learning/introductiontodax.yml?tutorial-step=1
+    - url: https://docs.microsoft.com/learn/paths/dax-power-bi/
       itemType: learn
       text: DAX kullanmaya başlama
     - url: learning-catalog/learning-catalog-solution-architect.md
