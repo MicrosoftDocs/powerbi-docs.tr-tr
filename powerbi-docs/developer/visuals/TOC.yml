@@ -24,9 +24,9 @@
           href: funnel-plot-from-r.md
     - name: Kavramlar
       items:
-        - name: Power BI görseli proje yapısı
+        - name: Power BI görselleri proje yapısı
           href: visual-project-structure.md
-        - name: Görsel kavramlar
+        - name: ' Power BI görselleri sistem tümleştirmesi'
           href: power-bi-visuals-concept.md
         - name: Power BI’da kuruluşlara yönelik görseller
           href: power-bi-custom-visuals-organization.md
