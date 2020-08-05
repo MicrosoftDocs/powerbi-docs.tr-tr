@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7db5832ec97ff8be59e704cafddcb04dd4d8f3f8
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 00846cda8498791f0b61933fbc751a8472d2ab62
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263565"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537309"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI hizmetinin önizleme özelliklerini kullanmayı kabul etme
 

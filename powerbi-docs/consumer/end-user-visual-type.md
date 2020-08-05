@@ -2,7 +2,7 @@
 title: Power BI’da tüketiciler için görsel türleri
 description: Power BI hizmetindeki görsel türleri
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
@@ -10,11 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393853"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537723"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 

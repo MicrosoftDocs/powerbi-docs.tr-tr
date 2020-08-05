@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252901"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411969"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop'ta dış araçları kullanma (önizleme)
 
@@ -42,8 +42,6 @@ Dış araçlar, Power BI Desktop veri kümesine (Analysis Services modeli) bağl
 * Veri kümesi meta verilerinin odaklanmış, iş alanına özgü görünümlerini tanımlamak için [perspektifler](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)
 
 Dış araçların meta veri çevirisi yönetimi için kullanılması ileride mümkün olabilir ancak bu önizleme sürümünde desteklenmemektedir. Geçerli kullanıcının yerel ayarı çevrilmiş bir yerel ayar ise geçerli Power BI Desktop sürümü kullanıldığında alan listesindeki nesnelerin düzenlenmesi düzgün çalışmaz. 
-
-Hesaplama grupları tanımlanmış modeller için rapor oluştururken ortaya çıkan bilinen bir sorun vardır. Hesaplama grubu, dinamik biçimlendirmeyi seçili hesaplamaya/ölçüye göre tanımlıyorsa bu tür biçimlendirme yalnızca tablo, matris ve kart görselleriyle birlikte kullanılabilir.
 
 Tüm [Tablolu Nesne Modeli](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) veri kümesi meta verilerine salt okunur olarak erişim sağlanabilir ancak [Tablolu Nesne Modeli](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) makalesinde yer alan listede bulunmayan nesneler için Power BI Desktop Analysis Services örneğinde düzenleme desteği sunulmaz.
 
@@ -134,9 +132,9 @@ Belirtilen konumda yer alan **.pbitool.json** uzantılı dosyalar, Power BI Desk
 
 Dış Araçlar, **Grup İlkeleri** kullanılarak veya kayıt defteri düzenlenerek devre dışı bırakılabilir; bu, **Özel Görseller**'i devre dışı bırakma işlemine benzer.
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 1 (ondalık) değeri Power BI’da dış araçların kullanımını etkinleştirir (bu varsayılan değerdir).
 

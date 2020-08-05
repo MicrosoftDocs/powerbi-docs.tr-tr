@@ -4,6 +4,7 @@ description: Bu hızlı başlangıçta **tüketiciler** Power BI, uygulamalar, r
 services: powerbi
 documentationcenter: ''
 author: mihart
+ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/17/2020
 ms.author: mihart
-ms.openlocfilehash: 20d54e9050e1481180b3a8b58a69c7235198bef3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355157"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537263"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
 

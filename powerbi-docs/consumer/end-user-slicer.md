@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c25f19a17ab24398b5a4992104b5487036e2171
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264177"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536113"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI hizmetindeki dilimleyiciler
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5e38be33e851997e82bdde2cc3fc898b02044254
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 5fa66f2ff3650e4b4578207c2c70b70041c2c3d5
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263991"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537746"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI ile pano kutucuklarında veri içgörülerini görüntüleme
 

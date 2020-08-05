@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252533"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537516"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -43,8 +43,8 @@ Portalda dokuz sekme vardır. Bu makalenin kalan bölümünde bu sekmelerden her
 * [Kiracı ayarları](#tenant-settings)
 * [Kapasite ayarları](#capacity-settings)
 * [Ekleme kodları](#embed-codes)
-* [Kuruluş görselleri](#organizational-visuals)
-* [Veri akışı depolama (önizleme)](#dataflowStorage)
+* [Kuruluş görselleri](organizational-visuals.md#organizational-visuals)
+* [Veri akışı depolama (önizleme)](#dataflow-storage-preview)
 * [Çalışma alanları](#workspaces)
 * [Özel marka](#custom-branding)
 
@@ -386,55 +386,6 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 
 [Power BI içeriğini Teams'de paylaşma](../collaborate-share/service-share-report-teams.md) hakkında daha fazla bilgi edinin.
 
-
-## <a name="power-bi-visuals-settings"></a>Power BI görselleri ayarları
-
-### <a name="add-and-use-power-bi-visuals"></a>Power BI görselleri ekleme ve kullanma
-
-Kuruluştaki kullanıcılar, Power BI görselleriyle etkileşime geçebilir ve bunları paylaşabilir. [Daha fazla bilgi](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> Bu ayar kuruluş geneline uygulanabilir veya belirli gruplarla sınırlandırılabilir.
-
-Power BI Desktop (19 Mart’tan itibaren), kuruluşta dağıtılan bilgisayarlarda Power BI görsellerinin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
-
-<table>
-<tr><th>Öznitelik</th><th>Değer</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-1 (ondalık) değeri Power BI’da Power BI görselleri kullanımını etkinleştirir (Bu varsayılan değerdir).
-
-0 (ondalık) değeri, Power BI’da Power BI görsellerinin kullanımını devre dışı bırakır.
-
-### <a name="allow-only-certified-visuals"></a>Yalnızca sertifikalı görsellere izin ver
-
-Kuruluş içindeki, “Power BI görselleri ekle ve kullan” ayarıyla Power BI görselleri ekleme ve kullanma izni verilmiş kullanıcılar yalnızca [sertifikalı Power BI görsellerini](https://go.microsoft.com/fwlink/?linkid=2002010) kullanabilir (sertifikalı olmayan görseller engellenir ve kullanıldıklarında bir hata iletisi görüntülenir). 
-
-
-Power BI Desktop (19 Mart’tan itibaren), kuruluşta dağıtılan bilgisayarlarda sertifikasız Power BI görsellerinin kullanımını devre dışı bırakmak için **Grup İlkesi** kullanılmasını destekler.
-
-<table>
-<tr><th>Öznitelik</th><th>Değer</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-1 (ondalık) değeri Power BI’da sertifikasız Power BI görseli kullanımını etkinleştirir (Bu varsayılan değerdir).
-
-0 (ondalık) değeri Power BI’da sertifikasız Power BI görseli kullanımını devre dışı bırakır (Bu seçenek yalnızca [sertifikalı Power BI görsellerinin](https://go.microsoft.com/fwlink/?linkid=2002010) kullanımını etkinleştirir).
-
 ## <a name="r-visuals-settings"></a>R görseli ayarları
 
 ### <a name="interact-with-and-share-r-visuals"></a>R görselleriyle etkileşim kur ve bunları paylaş
@@ -540,67 +491,7 @@ Bir yönetici olarak, raporları genel kullanıma açmak amacıyla kiracınız i
 
 ![Power BI yönetici portalındaki ekleme kodları](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">Kuruluş görselleri</a> 
-
-**Kuruluş görselleri** sekmesi, kuruluşunuzda Power BI görselleri dağıtmanızı ve bunları yönetmenizi sağlar. Kuruluş görsellerini kullanarak kuruluşunuzda kolayca özel görseller dağıtabilirsiniz. Rapor yazarları Power BI Desktop'ta bu görselleri bulabilir ve raporlarına aktarabilir. [Daha fazla bilgi](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> Özel görseller güvenlik veya gizlilik riski taşıyan kodlar içerebileceğinden, özel görseli kuruluş deponuza dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.
-
-Aşağıdaki görüntüde, bir kuruluş deposunda dağıtılmış olan tüm Power BI görselleri gösterilmiştir.
-
-![Kuruluş yöneticisi görseli](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>Yeni özel görsel ekleme
-
-Listeye yeni bir özel görsel eklemek için aşağıdaki adımları izleyin. 
-
-1. Sağ taraftaki bölmede **Özel görsel ekle**'yi seçin.
-
-    ![Power BI görselleri formu](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. **Özel görsel ekle** formunu doldurun:
-
-    * **Bir .pbiviz dosyası seçin** (gerekli): Karşıya yüklemek üzere bir özel görsel dosyasını seçin. Yalnızca sürümü tutulan API Power BI görselleri desteklenir (bunun ne anlama geldiğini buradan öğrenebilirsiniz).
-
-    Bir özel görseli karşıya yüklemeden önce görselin kuruluşunuzun standartlarına uygun olduğundan emin olmak için görseli güvenlik ve gizlilik bakımından gözden geçirmeniz gerekir.
-
-    * **Özel görselinizi adlandırın** (gerekli): Power BI Desktop kullanıcılarının görselin ne işe yaradığını anlayabilmesi için görsele kısa bir başlık verin
-
-    * **Simge**: Power BI Desktop kullanıcı arabiriminde gösterilen simge dosyası.
-
-    * **Açıklama**: Kullanıcıya daha fazla bağlam bilgisi ve eğitim sağlanması için görselin kısa bir açıklaması
-
-1. Karşıya yükleme isteğini başlatmak için **Ekle**'yi seçin. İşlem başarılı olursa yeni öğeyi listede görürsünüz. Başarısız olursa, uygun bir hata iletisi alabilirsiniz
-
-### <a name="delete-a-custom-visual-from-the-list"></a>Özel bir görseli listeden silme
-
-Bir görseli kalıcı olarak silmek için depoda görsele ait çöp kutusu simgesini seçin.
-
-> [!IMPORTANT]
-> Silme işlemi geri alınamaz. Görsel silindikten hemen sonra mevcut raporlarda gösterilmemeye başlar. Aynı görseli yeniden yükleseniz dahi silinmiş olanın yerini almaz. Ancak kullanıcılar yeni görseli yeniden içeri aktararak raporlarındaki örneği yenisiyle değiştirebilir.
-
-### <a name="disable-a-custom-visual-in-the-list"></a>Özel bir görseli listeden devre dışı bırakma
-
-Kuruluş deposundaki bir görseli devre dışı bırakmak için dişli simgesini seçin. **Erişim** bölümünde özel görseli devre dışı bırakın.
-
-Devre dışı bıraktığınız görseller var olan raporlarda işlenmez ve aşağıdaki hata iletisi görüntülenir.
-
-*Bu özel görsel artık kullanılamıyor. Ayrıntılar için lütfen yöneticinizle iletişime geçin.*
-
-Ancak yer işaretlerine eklenmiş olan görseller çalışmaya devam eder.
-
-Güncelleştirmeler veya yönetici tarafından gerçekleştirilen değişikliklerden sonra Power BI Desktop kullanıcılarının güncelleştirmeleri görmek için uygulamayı yeniden başlatması veya Power BI hizmeti için tarayıcıyı yenilemesi gerekir.
-
-### <a name="update-a-visual"></a>Karşıya görsel yükleme
-
-Kuruluş deposundaki bir görseli güncelleştirmek için dişli simgesini seçin. Görselin yeni sürümüne göz atın ve karşıya yükleyin.
-
-Görsel Kimliğinin değişmediğinden emin olun. Yeni dosya, kuruluşunuz genelinde tüm raporların önceki dosyasının yerini alır. Ancak görselin yeni sürümü, görselin önceki sürümünün kullanımını veya veri yapısını bozabilirse, önceki sürümü değiştirmeyin. Bunun yerine, görselin yeni sürümü için yeni bir liste oluşturmanız gerekir. Örneğin, yeni listelenen görselin başlığına yeni bir sürüm numarası (X.X sürümü) ekleyin. Böylece bunun güncelleştirilmiş sürüm numarasına sahip aynı görsel olduğu açıkça görülmektedir; bu nedenle mevcut raporların işlevi bozulmaz. Görsel Kimliğinin değişmediğinden emin olun. Daha sonra kullanıcılar, Power BI Desktop’tan kuruluş deposuna bir sonraki girişlerinde yeni sürümü içeri aktarabilir ve bunu yaptıklarında rapordaki mevcut sürümün değiştirilmesini isteyip istemedikleri sorulur.
-
-Daha fazla bilgi edinmek için [Power BI kuruluş görselleri hakkında sık sorulan sorular](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) bağlantısını ziyaret edin
-
-## <a name=""></a><a name="dataflowStorage">Veri akışı depolama (önizleme)</a>
+## <a name="dataflow-storage-preview"></a>Veri akışı depolama (önizleme)
 
 Varsayılan olarak, Power BI ile kullanılan veriler, Power BI tarafından sağlanan iç depolama alanında depolanır. Veri akışları ve Azure Data Lake Storage 2. Nesil (ADLS 2. Nesil) tümleştirmesi ile, kuruluşunuzun Azure Data Lake Storage 2. Nesil hesabında veri akışlarınızı depolayabilirsiniz. Daha fazla bilgi için bkz. [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](../transform-model/service-dataflows-azure-data-lake-integration.md)
 

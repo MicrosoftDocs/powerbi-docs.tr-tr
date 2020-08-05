@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: a706864ef5bd0e4858cfe593a68e7d1f399e06df
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 2d55c7dbf0b57d9414436c57e314a22837efeba2
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264336"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536481"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmetinde rapor görüntüleme
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14db7c1c7e9553f2ed96cc20cd691da057a2e696
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 00adcf77d2d53a44e4faf6013c0134b7ffd1af80
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264208"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536159"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI hizmetinde oturum açma
 

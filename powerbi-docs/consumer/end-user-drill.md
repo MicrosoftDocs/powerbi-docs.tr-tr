@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 787b5b35e1a8ab0365a5e5576d69dd7153188acb
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 13a7726715ba784a6a1df8e3fe1b67b2df5d535f
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216276"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537884"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
 

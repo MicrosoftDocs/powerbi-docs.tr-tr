@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7738fef88a82b84c1391af4b3e784b305478ccb2
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 4d17d98d452911043143691236ec3da15b2bfdcd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263929"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537792"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d8a024fe64accd873398437105bdcee701361b26
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 50f52058e43c1e59ce0a6894ff83d67528acc291
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264327"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536297"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI hizmetinde ilişkili içeriği görüntüleme
 

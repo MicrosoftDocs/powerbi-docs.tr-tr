@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b12eef42a3e5ac778d686f9d627e5f84bc66fcde
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263365"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537286"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
 

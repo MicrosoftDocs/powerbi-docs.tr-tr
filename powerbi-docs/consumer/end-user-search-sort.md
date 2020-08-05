@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 799cbe00274e14709e6987df1f9c4abe664f9b55
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215741"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536274"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI tüketicileri için gezinti: genel arama
 
