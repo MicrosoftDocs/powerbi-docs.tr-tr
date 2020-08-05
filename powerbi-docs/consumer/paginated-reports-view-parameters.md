@@ -3,17 +3,17 @@ title: Power BI hizmetinde sayfalandırılmış raporlar için parametreleri gö
 description: Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametrelerle etkileşimde bulunma hakkında bilgi edineceksiniz.
 author: maggiesMSFT
 ms.author: maggies
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 85cbca003ed4950495e75ce44f3368ede021afa7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97d116e233395368ddf86b86811f1a3ee72a43c4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240224"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538091"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme
 

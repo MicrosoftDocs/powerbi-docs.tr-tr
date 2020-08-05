@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a947b872b56924f91e8cfadadcf474eae76ba018
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263642"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537976"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 

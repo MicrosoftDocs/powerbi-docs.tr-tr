@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 51573f66a572c4227e9a0699e32fbc5c4b42ee38
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 59ea8bf0ffa3b4b871c26758fd7433525e1eecd3
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264284"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537953"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Sizinle paylaşılan panoları ve raporları görüntüleme
 
