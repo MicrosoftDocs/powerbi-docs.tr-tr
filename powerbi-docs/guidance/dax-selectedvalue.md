@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6aef2c06cc62668ea7dea9fe404e294d1a5faa93
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 70f28bd916f2c8d9c6ce40e61cd7f4c90a7726f8
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700490"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537447"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX: VALUES yerine SELECTEDVALUE kullanma
 
@@ -58,4 +58,6 @@ IF(
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
+- Öğrenme yolu: [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

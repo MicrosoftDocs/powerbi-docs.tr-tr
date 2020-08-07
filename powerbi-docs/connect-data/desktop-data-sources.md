@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223924"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411992"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -73,7 +73,7 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Access veritabanı
 * SQL Server Analysis Services veritabanı
 * Oracle veritabanı
-* IBM DB2 veritabanı
+* IBM Db2 veritabanı
 * IBM Informix veritabanı (Beta)
 * IBM Netezza
 * MySQL veritabanı
@@ -116,7 +116,7 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 * Power BI veri kümeleri
 * Power BI veri akışları
 * Common Data Service
-* Power Platform veri akışları
+* Power Platform veri akışları (Beta)
 
 Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -133,6 +133,7 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * Azure Blob Depolama
 * Azure Tablo Depolama
 * Azure Cosmos DB
+* Azure Veri Gezgini (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage 1. Nesil
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Marketo (Beta)
 * Mixpanel (Beta)
 * Planview Enterprise One - PRM (Beta)
-* Planview Projectplace (Beta)
 * QuickBooks Online (Beta)
 * Smartsheet
 * SparkPost (Beta)
 * SweetIQ (Beta)
 * Planview Enterprise One - CTM (Beta)
 * Twilio (Beta)
-* tyGraph (Beta)
-* Webtrends (Beta)
 * Zendesk (Beta)
 * Asana (Beta)
 * Dynamics 365 Customer Insights (Beta)
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
-* FactSet Analytics (Beta)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune Veri Ambarı (Beta)
 * Microsoft Graph Güvenliği (Beta)
@@ -218,7 +217,10 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
+* Acterys: Model Automation & Planning (Beta)
+* Automation Anywhere (Beta)
 * Solver
+* Cherwell (Beta)
 * Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
@@ -233,6 +235,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Tenforce (Smart)List
 * TIBCO(R) Veri Sanallaştırması (Beta)
 * Vena (Beta)
+* Vessel Insight (Beta)
 * Workforce Dimensions (Beta)
 * Zucchetti HR Infinity (Beta)
 * Boş Sorgu

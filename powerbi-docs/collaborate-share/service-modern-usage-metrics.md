@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953042"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478165"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 
 İçeriğinizin nasıl kullanıldığını bilmeniz etkinizi göstermenize ve çalışmalarınızı önceliklendirmenize yardımcı olur. Kullanım ölçümleriniz, raporlarınızdan birinin kuruluşunuzdaki çok sayıda kullanıcı tarafından her gün kullanıldığını, oluşturduğunuz panolardan birinin ise hiç görüntülenmediğini gösterebilir. Bu tür geri bildirimler çalışmalarınızı yönlendirme açısından benzersizdir.
 
@@ -81,7 +81,7 @@ Geliştirilmiş kullanım ölçümleri raporu aşağıdaki rapor sayfalarını i
 
 | **Sayfa** | **Ölçüm** | **Açıklama** |
 | --- | --- | --- |
-| Kullanım bildirme | Rapor görünümleri | Birisi raporu her açtığında bir rapor görünümü kaydedilir. Görünüm tanımının önceki kullanım ölçümleri raporlarından farklı olduğuna dikkat edin. Rapor sayfalarının değiştirilmesi artık ek bir görünüm olarak kabul edilmez. |
+| Kullanım bildirme | Rapor görünümleri | Birisi raporu her açtığında bir rapor görünümü kaydedilir. Görünüm tanımının önceki kullanım ölçümleri raporlarından farklı olduğuna dikkat edin. Rapor sayfalarının değiştirilmesi artık ek bir görünüm olarak kabul edilmez. Paylaşım ve sabitleme gibi etkinlikler artık kullanım ölçümlerinde dikkate alınmaz.|
 | Kullanım bildirme | Benzersiz görüntüleyiciler | Görüntüleyici, zaman aralığı içinde raporu en az bir kez açmış olan kişidir (AAD kullanıcı hesabı temelinde). |
 | Kullanım bildirme | Görünüm eğilimi | Görünüm eğilimi zaman içindeki görünüm sayısı değişikliklerini yansıtır. Seçilen zaman aralığının ilk yarısını ikinci yarısıyla karşılaştırır. |
 | Kullanım bildirme | Tarih dilimleyici | Rapor kullanım sayfasında zaman aralığını değiştirebilir, örneğin haftalık veya iki haftalık eğilimleri hesaplayabilirsiniz. Rapor kullanımı sayfasının sol alt köşesinde, seçili rapor için kullanım verilerinin sağlandığı en erken ve en geç tarihi belirleyebilirsiniz. |

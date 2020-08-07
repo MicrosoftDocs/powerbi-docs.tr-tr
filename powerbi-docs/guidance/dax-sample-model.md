@@ -8,11 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 470bfcd4d9131c98412c504e4aba7daf6a995890
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 6e2fe331fa274305447266321893204dddcc3148
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785265"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537470"
 ---
 # <a name="dax-sample-model"></a>DAX örnek modeli
 
@@ -49,5 +50,6 @@ Power BI Desktop örnek model dosyasını [buradan](https://aka.ms/dax-docs-samp
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
+- Öğrenme yolu: [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

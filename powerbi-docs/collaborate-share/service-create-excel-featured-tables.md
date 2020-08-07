@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254299"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478096"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop’ta öne çıkan tabloları ayarlama (önizleme)
 
 Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri kümelerinizden gelen *öne çıkan tablo* verilerini bulabilir. Bu makalede, veri kümelerinizde tabloları *öne çıkan* olarak ayarlamayı öğreneceksiniz. Bu etiketler kullanıcılarınızın Excel sayfalarına kurumsal verileri eklemesini kolaylaştırır. Öne çıkan tabloları ayarlamaya ve paylaşmaya yönelik temel adımlar burada verilmiştir.
 
-1. [Power BI’da veri kümelerini yükseltir veya onaylarsınız](../connect-data/service-datasets-promote.md). 
 1. Power BI Desktop’taki veri kümelerinizde öne çıkan tabloları belirlersiniz (bu makale)
 1. Öne çıkan tabloları içeren bu veri kümelerini yeni çalışma alanlarından birine kaydedersiniz. Rapor oluşturucuları bu öne çıkan tablolarla rapor oluşturabilir. 
 1. Kuruluşun geri kalanı ilgili ve yenilenebilir veriler için Excel'de *veri türleri* olarak başvurulan bu öne çıkan tablolara bağlanabilir. [Excel’de Power BI öne çıkan tablolarına erişme (önizleme)](service-excel-featured-tables.md) makalesinde, bu öne çıkan tabloların Excel’de nasıl kullanılacağı açıklanır.
+
+> [!NOTE]
+> [Power BI’da veri kümelerini yükseltebilir veya onaylayabilirsiniz](../connect-data/service-datasets-promote.md). Buna *destekleme* adı verilir. Excel, Veri Türleri Galerisindeki desteklenen veri kümelerinde tabloları önceliklendirir. Excel, önce sertifikalı veri kümelerindeki öne çıkan tabloları, ardından yükseltilen veri kümelerindeki tabloları listeler. Excel daha sonra desteklenmeyen veri kümelerindeki öne çıkan tabloları listeler. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Öne çıkan tablo önizlemesini açma
 
@@ -31,6 +33,8 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
 2. **Öne çıkan tablolar** onay kutusunu seçin.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
+
+3. Power BI Desktop'ı yeniden başlatın.
 
 ## <a name="select-a-table"></a>Tablo seçme
 

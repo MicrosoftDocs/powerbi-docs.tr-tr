@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c3733f98c278895102165e9d2db52f0e9318903
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279584"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537539"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: DIVIDE işleviyle bölme işlecini (/) karşılaştırma
 
@@ -65,5 +65,6 @@ DIVIDE işlevinin alternatif değer döndürüp döndürmeyeceğini dikkatli bir
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
+- Öğrenme yolu: [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4730e835c511153232f79c193de5bbd56d63b963
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f00f554a35c4e92328b1ea1017baf7d8006386a0
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74410919"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537493"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX: Hata işlevlerinin uygun kullanımı
 
@@ -64,4 +64,7 @@ Profit Margin
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Veri Çözümleme İfadeleri (DAX) Başvurusu](/dax/)
+
+- Öğrenme yolu: [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com)

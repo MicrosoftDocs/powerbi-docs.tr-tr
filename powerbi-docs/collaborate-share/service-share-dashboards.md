@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485610"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768531"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarını ve raporları iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, başkalarına Power BI hizmetindeki pano ve raporlarınıza erişim vermenin en kolay yoludur. Kuruluşunuz hem içindeki hem de dışındaki kişilerle paylaşabilirsiniz.
@@ -33,7 +34,7 @@ Doğrudan Power BI Desktop’tan pano *paylaşamazsınız*. [Power BI Desktop’
 
 ## <a name="share-a-dashboard-or-report"></a>Pano veya raporu paylaşma
 
-1. Pano veya rapor listesinde ya da açık bir pano veya raporda **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) öğesini seçin.
+1. Pano veya rapor listesinde ya da açık bir pano veya raporda **Paylaş** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: seçeneğini belirleyin.
 
 2. Üstteki kutuya kişilerin, dağıtım gruplarının veya güvenlik gruplarının tam e-posta adreslerini girin. Dinamik dağıtım listeleri ile paylaşım yapamazsınız. 
    
@@ -66,7 +67,7 @@ Doğrudan Power BI Desktop’tan pano *paylaşamazsınız*. [Power BI Desktop’
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Paylaştığınız panoya veya rapora kimlerin erişimi olduğunu görme
 Bazen kimlerle paylaşımda bulunduğunuzu ve bu kişilerin kimlerle paylaşım yaptığını görmeniz gerekir.
 
-1. Pano ve rapor listesinde veya panoda ya da raporda bulunan **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) seçeneğini belirleyin. 
+1. Pano ve rapor listesinde veya panoda ya da raporda **Paylaş** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: seçeneğini belirleyin. 
 2. **Panoyu paylaş** veya **Raporu paylaş** iletişim kutusunda **Erişim**’i seçin.
    
     ![Panoyu paylaş iletişim kutusu, Erişim sekmesi](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -109,7 +110,7 @@ Yalnızca pano veya rapor sahibi, yeniden paylaşımı etkinleştirebilir veya d
 * Göndermeden önce davetin alt bölümünde bulunan **Alıcıların panonuzu (veya raporunuzu) paylaşmasına izin verin** onay kutusunun işaretini kaldırın.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Panoyu veya raporu zaten paylaştıysanız
-1. Pano ve rapor listesinde veya panoda ya da raporda bulunan **Paylaş** ![Paylaş simgesi](media/service-share-dashboards/power-bi-share-icon.png) seçeneğini belirleyin. 
+1. Pano ve rapor listesinde veya panoda ya da raporda **Paylaş** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: seçeneğini belirleyin. 
 2. **Panoyu paylaş** veya **Raporu paylaş** iletişim kutusunda **Erişim**’i seçin.
    
     ![Panoyu paylaş iletişim kutusu, Erişim sekmesi](media/service-share-dashboards/power-bi-share-dialog-access.png)

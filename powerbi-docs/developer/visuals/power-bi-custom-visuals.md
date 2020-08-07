@@ -1,6 +1,6 @@
 ---
 title: Power BI’daki görseller
-description: Power BI'daki özel görselleştirmeler
+description: Bu makalede özel Power BI görselleri açıklanmaktadır
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561651"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538022"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
 Power BI, kullanıma hazır birçok görselle birlikte gelir. [Power BI Desktop](https://powerbi.microsoft.com/desktop/) ve [Power BI hizmetinin](https://app.powerbi.com) görselleştirme bölmesinden ulaşabileceğiniz bu görselleri Power BI içeriği oluşturmak ve düzenlemek için kullanabilirsiniz.
 
-![görselleştirmeler](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Power BI görselleştirme bölmesinin Power BI Desktop ve Power BI hizmetinde göründüğü halinin ekran görüntüsü.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) veya Power BI üzerinden daha fazla Power BI görseline ulaşabilirsiniz. Microsoft ve Microsoft iş ortakları tarafından oluşturulan bu görseller, AppSource doğrulama ekibi tarafından test edilmekte ve doğrulanmaktadır.
 
@@ -38,6 +38,11 @@ Varsayılan Power BI görsellerini görselleştirme bölmesine yeniden yüklemek
 ## <a name="appsource-power-bi-visuals"></a>AppSource Power BI görselleri
 
 Hem Microsoft hem de topluluk üyeleri, genel kamu yararı için Power BI görseli katkısında bulunup bunları [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) üzerinde yayımlamaktadır. Bu görselleri indirip Power BI raporlarınıza ekleyebilirsiniz. Microsoft bu Power BI görsellerini işlevsellik ve kalite bakımından test edip onaylamıştır.
+
+>[!NOTE]
+>* SDK’mızla oluşturulan Power BI görsellerini kullanarak, Power BI kiracınızın coğrafi alanının, uyumluluk sınırının veya ulusal bulut örneğinin dışında bulunan diğer hizmetlere veya üçüncü taraflara veri gönderebilir ya da buralardan verileri içeri aktarabilirsiniz.
+>* Power BI sertifikalı görseller, görselin dış hizmetlere veya kaynaklara erişmediğinden emin olmak için ek olarak test edilmiş olan, AppSource’daki görsellerdir.
+>* AppSource’dan Power BI görselleri içeri aktarıldıktan sonra görseller ek bir bildirim olmadan otomatik olarak güncelleştirilebilir.
 
 ### <a name="what-is-appsource"></a>AppSource nedir?
 
@@ -74,10 +79,17 @@ Web geliştiricisiyseniz ve kendi görselinizi oluşturup AppSource'a eklemek is
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* Geliştiriciyseniz, [Power BI görseli geliştirme](custom-visual-develop-tutorial.md) öğreticisiyle başlayın.
+>[!div class="nextstepaction"]
+>[Power BI görseli geliştirme](custom-visual-develop-tutorial.md)
 
-* [Power BI görsel projelerinin nasıl bir yapıya sahip olduğunu](visual-project-structure.md) öğrenin.
+>[!div class="nextstepaction"]
+>[Power BI görselleri proje yapısı](visual-project-structure.md)
 
-* [Power BI görselleri için yönergeleri](guidelines-powerbi-visuals.md) keşfedin.
+>[!div class="nextstepaction"]
+>[Power BI görselleri için yönergeler](guidelines-powerbi-visuals.md)
 
-Başka bir sorunuz mu var? [Power BI görselleri hakkında sık sorulan sorular](power-bi-custom-visuals-faq.md) sayfasını veya [Power BI Topluluğu](https://community.powerbi.com/)’nu deneyin.
+>[!div class="nextstepaction"]
+>[Sık sorulan sorular](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI Topluluğu](https://community.powerbi.com/)

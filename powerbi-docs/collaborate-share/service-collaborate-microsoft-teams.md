@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254298"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478050"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Power BI ile Microsoft Teams’de işbirliği yapma
 
-Microsoft Teams kanallarında ve sohbetlerinde etkileşimli Power BI içeriğini paylaşmak ve bu içerik üzerinde işbirliği yapmak için çeşitli seçenekleriniz vardır. 
+Dağıtılmış ve uzak iş gücü norm haline geldikçe daha fazla kuruluş, çalışanların senkronizasyonunu sağlamak için Microsoft Teams kullanıyor. Power BI, Microsoft Teams kanallarında ve sohbetlerinde etkileşimli Power BI içeriğini paylaşmak ve bu içerik üzerinde işbirliği yapmak için çeşitli seçenekler sunar. 
 
 - Microsoft Teams için **Power BI** sekmesi sayesinde [etkileşimli raporları Microsoft Teams kanallarına ve sohbetlerine ekleyebilirsiniz](service-embed-report-microsoft-teams.md). **Power BI** sekmesi iş arkadaşlarınızın ekibinizin verilerini bulmasına ve verileri ekip kanalınızda tartışmalarına yardımcı olur. 
 - Microsoft Teams ileti kutusuna raporlarınızın, panolarınızın ve uygulamalarınızın bağlantılarını yapıştırdığınızda bir [bağlantı önizlemesi](service-teams-link-preview.md) oluşturun. Bağlantı önizlemesi bağlantı ile ilgili bilgileri gösterir. 
@@ -34,17 +34,6 @@ Genel olarak Power BI’ın Microsoft Team’de çalışması için şunlardan e
 - Kullanıcılarınızın bir Power BI Pro lisansına sahip olması veya raporun Power BI lisansına sahip bir [Power BI Premium kapasite (EM veya P SKU)](../admin/service-premium-what-is.md) içinde yer alması.
 - Kullanıcıların, Power BI lisansını etkinleştirmek için Power BI hizmetinde oturum açmış olması.
 - Kullanıcıların, Microsoft Teams’de **Power BI** sekmesini kullanma gereksinimlerini karşılaması.
-
-Microsoft Teams'de **Power BI** sekmesini kullanmak için şunlardan emin olmalısınız:
-
-- Microsoft Teams’de **Power BI** sekmesinin bulunması.
-- **Power BI** sekmesi olan Microsoft Teams’e rapor eklemek için, raporu barındıran çalışma alanında en azından Görüntüleyici rolünüz olması. Farklı roller hakkında bilgi edinmek için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
-- Raporu Microsoft Teams’in **Power BI** sekmesinde görmek için kullanıcıların rapor görüntüleme izni olmalıdır.
-- Kullanıcıların, kanallara ve sohbetlere erişimi olan Microsoft Teams kullanıcıları olması gerekir.
-
-Power BI’da **Teams'de Paylaş** işlevini kullanmak için bu ayarın aşağıdaki gibi olduğundan emin olun:
-
-- Power BI yöneticileri Power BI yönetici portalındaki**Teams’de Paylaş** kiracı ayarını devre dışı bırakmamış. Bu ayar kuruluşların **Teams’de Paylaş** düğmelerini gizlemesini sağlar. Ayrıntılar için [Power BI yönetici portalı](../admin/service-admin-portal.md#share-to-teams-tenant-setting) makalesine bakın.
 
 ## <a name="grant-access-to-reports"></a>Raporlara erişim verme
 

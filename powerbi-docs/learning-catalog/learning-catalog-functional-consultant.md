@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: e4514cae5f083ace75c9703999a177da033a844d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532339"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411923"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>İşlevsel Uygulama Danışmanı öğrenme kataloğu
 
@@ -35,6 +35,7 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 | [Yapay zeka BI’ı üç farklı şekilde değiştiriyor](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | Analistler açısından paydaşlarının içgörüleri hızla ve etkili bir yöntemle bulmasına yardımcı olmak için verileri araştırmak ve görselleştirmek kritik önem taşıyor. Daha önce yöneticiler bir şeyin ne olduğunu ve ne zaman olduğunu sorarken, iş taleplerinin geçirdiği evrim sonucu şimdi neden olduğunu ve gelecekte neler olacağını öğrenmek istiyor. Yapay zekayı (AI) iş zekasıyla (BI) buluşturan üç veri içgörüsü fırsatını öğrenmek için bu web seminerine kaydolun.   | Web Semineri       |                   |
 | [Power BI’ın gücünü ortaya çıkarma – ipuçları ve püf noktaları, Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | Güney Yarıkürede yapılan en büyük Power BI dağıtımı çerçevesinde size bazı ayrıntılarda yol gösteren, nasıl kullanıldığını ve BI gereksinimlerini nasıl karşıladığını açıklayan Philip Seamark’a katılın. Bu oturum Power BI raporlarınızı geliştirmenize yardımcı olacak çeşitli ipuçları ve püf noktaları da içeriyor.   | Web Semineri       | 53 dk 47 sn       |
 | [Power BI nedir?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI’a genel bakış   | Web sitesi       | Okuma süresi 3 dakika |
+| [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/) | Bu öğrenme yolunda, Veri Çözümleme İfadeleri (DAX) tanıtılmakta ve hesaplamalarla veri modellerini geliştirmek için gereken temel beceriler sağlanmaktadır.  | Kendi hızınızda ilerleyebileceğiniz ücretsiz ve çevrimiçi öğrenme yolu | 4 sa 30 dk |
 ## <a name="best-practices"></a>En İyi Yöntemler<a name="best-practices"></a>
 | İçerik   | Açıklama  | Biçim   | Uzunluk   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|

@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252579"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478027"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Power BI içeriğini Microsoft Teams'e ekleme
 
 Etkileşimli Power BI raporlarını Microsoft Teams kanallarına ve sohbetlerine kolayca ekleyebilirsiniz. 
 
-Power BI ile Teams'in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve karşılanacak gereksinimler için bkz. [Power BI ile Microsoft Teams'de işbirliği yapma](service-embed-report-microsoft-teams.md).
+## <a name="requirements"></a>Gereksinimler
+
+Microsoft Teams'de **Power BI** sekmesini kullanmak için şunlardan emin olmalısınız:
+
+- Microsoft Teams’de **Power BI** sekmesinin bulunması.
+- **Power BI** sekmesi olan Microsoft Teams’e rapor eklemek için, raporu barındıran çalışma alanında en azından Görüntüleyici rolünüz olması. Farklı roller hakkında bilgi edinmek için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
+- Raporu Microsoft Teams’in **Power BI** sekmesinde görmek için kullanıcıların rapor görüntüleme izni olmalıdır.
+- Kullanıcıların, kanallara ve sohbetlere erişimi olan Microsoft Teams kullanıcıları olması gerekir.
+
+Power BI ile Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-embed-report-microsoft-teams.md).
 
 ## <a name="embed-a-report-in-teams"></a>Teams'e rapor ekleme
 

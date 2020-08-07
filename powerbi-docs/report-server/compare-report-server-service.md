@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252878"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412061"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 
@@ -48,13 +48,14 @@ Power BI Rapor Sunucusu ile Power BI hizmetinin çok sayıda benzerliği ve baz�
 | Sayfalandırılmış raporlar için e-posta abonelikleri | Evet | Evet | [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services’da e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Veri uyarıları | Hayır | Evet | Power BI hizmetinde [veri uyarıları](../create-reports/service-set-data-alerts.md)
 | Satır düzeyi güvenlik (RLS) | Evet | Evet | DirectQuery (veri kaynağı) ve İçeri Aktarma modunda kullanılabilir <br><br>[Power BI hizmetinde](../admin/service-admin-rls.md) satır düzeyi güvenlik <br><br>[Power BI Rapor Sunucusu](row-level-security-report-server.md)'nda satır düzeyi güvenlik |
+| Çok-çok ilişkileri | Hayır | Evet | Power BI Desktop’ta [Çoka çok ilişkileri uygulama](../transform-model/desktop-many-to-many-relationships.md) |
 | Raporlar arası detaylandırma | Hayır | Evet | [Raporlar arası detaylandırmayı kullanma](../create-reports/desktop-cross-report-drill-through.md) |
 | Tam ekran modu | Hayır | Evet | Power BI hizmetinde [tam ekran modu](../consumer/end-user-focus.md) |
-| Gelişmiş Microsoft 365 işbirliği | Hayır | Evet | Microsoft 365 ile [bir çalışma alanında işbirliği yapma](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R betikleri ve görselleri | Hayır | Yes | Power BI Desktop’ta [R görselleri oluşturup](../create-reports/desktop-r-visuals.md) R betikleri çalıştırın ve bunları Power BI hizmetine yayımlayın. R betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz.  |
-| Python betikleri ve görselleri | Hayır | Yes | Power BI Desktop’ta [Python görselleri ve betikleri oluşturup](../connect-data/desktop-python-scripts.md) bunları Power BI hizmetine yayımlayın. Python betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz. |
+| Gelişmiş Microsoft 365 işbirliği | Hayır | Yes | Microsoft 365 ile [bir çalışma alanında işbirliği yapma](../collaborate-share/service-collaborate-power-bi-workspace.md) |
+| R betikleri ve görselleri | Hayır | Evet | Power BI Desktop’ta [R görselleri oluşturup](../create-reports/desktop-r-visuals.md) R betikleri çalıştırın ve bunları Power BI hizmetine yayımlayın. R betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz.  |
+| Python betikleri ve görselleri | Hayır | Evet | Power BI Desktop’ta [Python görselleri ve betikleri oluşturup](../connect-data/desktop-python-scripts.md) bunları Power BI hizmetine yayımlayın. Python betikleri veya görselleri içeren Power BI raporlarını Power BI Rapor Sunucusu’na kaydedemezsiniz. |
 | Önizleme özellikleri | Hayır | Evet | [Power BI hizmetinin önizleme özelliklerini kullanma](../consumer/end-user-preview-features.md) |
-| Power BI görselleri | Yes | Evet | [Power BI görselleri](../developer/visuals/power-bi-custom-visuals.md) |
+| Power BI görselleri | Yes | Yes | [Power BI görselleri](../developer/visuals/power-bi-custom-visuals.md) |
 | Bileşik modeller | Hayır | Yes |
 | Power BI Desktop | Rapor Sunucusu için en iyi duruma getirilmiş sürüm, Rapor Sunucusu ile birlikte indirilebilir | Power BI Hizmeti için en iyi duruma getirilmiş sürüm, Microsoft Store’dan indirilebilir | [Rapor sunucusu için Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI hizmeti için Power BI Desktop](https://aka.ms/pbidesktopstore) |
 

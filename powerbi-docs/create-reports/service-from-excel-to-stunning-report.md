@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251797"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478142"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Öğretici: Excel çalışma kitabından Power BI hizmetindeki bir rapora ve Microsoft Teams'e
 Yöneticiniz gün sonuna kadar en son satış ve kâr rakamlarınızı içeren bir rapor görmek istiyor. Ama en yeni verileriniz çeşitli üçüncü taraf sistemlerinde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.
@@ -204,8 +204,6 @@ Ayrıca Microsoft Teams'de raporları ve panoları doğrudan iş arkadaşların�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI hizmeti ile çalışmaya başlama](../fundamentals/service-get-started.md)
-* [Power BI Desktop ile çalışmaya başlama](../fundamentals/desktop-getting-started.md)
-* [Power BI hizmetinde tasarımcılara yönelik temel kavramlar](../fundamentals/service-basic-concepts.md)
+* Power BI hizmetinde temel bir rapor oluşturduğunuza göre şimdi de Power BI Desktop’ta bir rapor oluşturmaya ne dersiniz? [Power BI Desktop’ta Excel çalışma kitabından muhteşem raporlar elde etme](desktop-excel-stunning-report.md) başlıklı öğreticiyi deneyin.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).

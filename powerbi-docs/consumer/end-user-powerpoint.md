@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263720"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768984"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -104,7 +104,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 * Bazı raporlar dışarı aktarılamaz. Bu modüller şunlardır:
     - Power BI kiracı etki alanınızın dışındaki bir kullanıcıya ait raporlar (örneğin, kuruluşunuzun dışındaki birine ait olan ve sizinle paylaşılan raporlar).
     - Bir panoyu kuruluşunuzun dışındaki biriyle (yani Power BI kiracınızda bulunmayan bir kullanıcıyla) paylaştığınızda bu kullanıcı, paylaşılan panonun ilişkili raporlarını PowerPoint’e aktaramaz. Örneğin, siz aaron@contoso.com iseniz david@cohowinery.com ile paylaşımda bulunabilirsiniz. Ancak david@cohowinery.com, ilişkili raporları PowerPoint’e aktaramaz.
-    - 30'dan fazla rapor sayfası olan raporlar. Yalnızca ilk 30 sayfa dışarı aktarılır.
+    - 50'den fazla rapor sayfası olan raporlar. Yalnızca ilk 50 sayfa dışarı aktarılır.
     - PowerPoint'in eski sürümlerine aktarılan raporlar.
     - İşlenmesi bir saatten uzun süren raporlar. 
     - Yüklenmesi 6 dakikadan uzun süren rapor sayfaları. 
