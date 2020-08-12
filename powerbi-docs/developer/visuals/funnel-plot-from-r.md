@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354490"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878706"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -75,7 +75,7 @@ Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/ra
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
 > [!NOTE]
-> İndirme için [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) bakın.
+> İndirme için [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) bakın.
 
 ## <a name="make-r-based-visual-improvements"></a>R tabanlı görsel iyileştirmeler yapma
 
@@ -274,7 +274,7 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
 
 * Her R Görseli, giriş tablosuna `unique` işlecini uygular. Özdeş satırların kaldırılmasını önlemek için benzersiz kimliğe sahip ek bir giriş alanı ekleyip bunu R kodunda yoksaymak yararlı olabilir.   
 
-* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) geliştirmek için Power BI hizmetini kullanın.
+* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](/power-bi/developer/visuals/custom-visual-develop-tutorial/) geliştirmek için Power BI hizmetini kullanın.
 
 ### <a name="html-widgets-gallery"></a>HTML pencere öğeleri galerisi
 Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](http://gallery.htmlwidgets.org/) görselleri keşfedin. İşlemlerinizi kolaylaştırmak adına, aralarından seçim yapabileceğiniz 20’den fazla etkileşimli HTML görseli içeren bir [görsel proje deposu](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) oluşturduk!

@@ -10,12 +10,12 @@ ms.date: 07/08/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7362eb683dae6318dc0e64de68afb8a8b57d62c6
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162180"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878815"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -76,7 +76,7 @@ Ayrıca, uygulama tasarımcısının e-posta ile gönderdiği doğrudan bağlant
 
 **Bilgisayarınızda** 
 
-E-postadaki bağlantıyı seçtiğiniz zaman, Power BI hizmeti ([https://powerbi.com](https://app/powerbi.com)) uygulamayı tarayıcınızda açar. 
+E-postadaki bağlantıyı seçtiğiniz zaman, Power BI hizmeti ([https://app.powerbi.com](https://app.powerbi.com)) uygulamayı tarayıcınızda açar. 
 
 **iOS veya Android mobil cihazınızda** 
 

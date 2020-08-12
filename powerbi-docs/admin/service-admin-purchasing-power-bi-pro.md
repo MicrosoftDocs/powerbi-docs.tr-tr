@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227650"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878365"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
@@ -29,7 +29,7 @@ Power BI Pro kullanıcıların Power BI hizmetinde diğer kullanıcılar tarafı
 Bu makalede Microsoft 365 yönetim merkezinde Power BI Pro kullanıcı lisanslarının nasıl satın alınacağı açıklanır. Lisansları satın aldıktan sonra, Microsoft 365 yönetim merkezinde veya Azure portalında bunları kullanıcılara atayabilirsiniz.
 
 > [!NOTE]
-> 14 Ocak 2020’den itibaren ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi için bkz. [Self servis satın alma hakkında SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Self servis satın alma özelliklerini etkinleştirmek veya devre dışı bırakmak için, bkz. [Self servis kaydolma ve satın alma özelliklerini etkinleştirme veya devre dışı bırakma](/service-admin-disable-self-service.md).
+> 14 Ocak 2020’den itibaren ticari bulut kullanıcıları Power Platform ürünlerinde (Power BI, Power Apps ve Power Automate) self servis satın alma, abonelik ve lisans yönetimi özelliklerini kullanabilir. Daha fazla bilgi için bkz. [Self servis satın alma hakkında SSS](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq). Self servis satın alma özelliklerini etkinleştirmek veya devre dışı bırakmak için, bkz. [Self servis kaydolma ve satın alma özelliklerini etkinleştirme veya devre dışı bırakma](/power-bi/admin/service-admin-disable-self-service).
 
 ### <a name="prerequisites"></a>Önkoşullar
 

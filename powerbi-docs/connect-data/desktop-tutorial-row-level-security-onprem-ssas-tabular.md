@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286372"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878315"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
 
@@ -64,7 +64,7 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>2\. Görev: Olgu ve boyut tablolarıyla tablolu modeli oluşturma
 
-İlişkisel veri ambarınızı oluşturduktan sonra tablolu modeli tanımlamanız gerekir. Modeli [SQL Server Veri Araçları](/sql/ssdt/sql-server-data-tools)'nı (SSDT) kullanarak oluşturursunuz. Daha fazla bilgi için bkz. [Yeni Tablolu Model Projesi Oluşturma](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project).
+İlişkisel veri ambarınızı oluşturduktan sonra tablolu modeli tanımlamanız gerekir. Modeli [SQL Server Veri Araçları](/sql/ssdt/sql-server-data-tools)'nı (SSDT) kullanarak oluşturursunuz. Daha fazla bilgi için bkz. [Yeni Tablolu Model Projesi Oluşturma](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project).
 
 1. Aşağıda gösterilen şekilde gerekli tüm tabloları modele aktarın.
 
@@ -101,7 +101,7 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
     Bu formül tüm sütunların `false` olarak çözümleneceğini belirtir; başka bir deyişle `DimUserSecurity` tablosunun sütunları sorgulanamaz.
 
-Şimdi yapmanız gereken modeli işleyip dağıtmaktır. Daha fazla bilgi için bkz. [Dağıtma](/sql/analysis-services/lesson-13-deploy).
+Şimdi yapmanız gereken modeli işleyip dağıtmaktır. Daha fazla bilgi için bkz. [Dağıtma](/analysis-services/tutorial-tabular-1200/lesson-13-deploy).
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>3\. Görev: Şirket içi veri ağ geçidinizin içine Veri Kaynaklarını ekleme
 
@@ -164,9 +164,9 @@ Tebrikler! Power BI hizmeti, şirket içi Analysis Services tablolu modelinde ta
 Bu görevde şirket içi SSAS tablolu örneğinizde bir SQL Server Profiler izi yakalamanız gerektiği için [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler) hakkında bilgi sahibi olduğunuz kabul edilir.
 
 Oturum, Rita adlı kullanıcı Power BI hizmetindeki panoya eriştiği anda başlatılır. **salesterritoryusers** rolünün **<EffectiveUserName>rita@contoso.com</EffectiveUserName>** olan geçerli kullanıcı adıyla aynı anda geçerli hale geldiğini görebilirsiniz
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 Analysis Services, geçerli kullanıcı adı isteğine göre yerel Active Directory örneğini sorguladıktan sonra isteği gerçek `contoso\rita` kimlik bilgisine dönüştürür. Analysis Services kimlik bilgilerini aldıktan sonra, kullanıcının görüntüleme ve erişme izni olan verileri döndürür.
 
 Panoda daha fazla etkinlik gerçekleştirilirse SQL Profiler içinde Analysis Services tablolu modeline DAX sorgusu olarak gönderilen belirli bir sorgu olduğunu görebilirsiniz. Örneğin Rita panodan bağlantılı rapora giderse aşağıdaki sorgu gerçekleşir.

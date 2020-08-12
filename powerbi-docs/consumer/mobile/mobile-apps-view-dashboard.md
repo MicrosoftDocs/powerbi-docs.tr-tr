@@ -1,21 +1,21 @@
 ---
-title: Power BI mobil uygulamalarında pano ve raporları görüntüleme
-description: Power BI hizmetinde pano ve raporlar oluşturun veya var olanlara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin.
+title: Power BI mobil uygulamalarında pano görüntüleme
+description: Power BI hizmetinde pano oluşturun veya var olan panolara bağlanın. Ardından bu panoları Power BI mobil uygulamalarında görüntüleyin.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: 5911d1ded5c2ccf780454c60b7a5867223801a49
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220414"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091713"
 ---
-# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano ve raporları görüntüleme
+# <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android telefon](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android tablet](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
