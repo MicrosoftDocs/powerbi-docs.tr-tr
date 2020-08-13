@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: Kendi şifreleme anahtarlarınızı getirme
               href: service-encryption-byok.md
+            - name: Müşteri tarafından yönetilen anahtarları kullanma
+              href: service-encryption-customer-managed-keys.md
             - name: Premium kapasiteyi yeniden başlatma
               href: service-admin-premium-restart.md
             - name: XMLA uç noktasıyla veri kümesi bağlantısı
