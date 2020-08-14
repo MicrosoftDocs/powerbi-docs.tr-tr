@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681871"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837578"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -94,7 +94,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | ODBC | Evet | Evet | Hayır | Evet | Evet |
 | OleDb | Evet | Evet | Hayır | Evet | Evet |
 | Oracle | Evet | Evet | Evet | Evet | Evet |
-| Paxata | Evet | Evet | Hayır | Evet | Hayır |
+| Paxata <sup>8</sup> | Evet | Evet | Hayır | Evet | Hayır |
 | PDF | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
 | Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır |
@@ -155,6 +155,8 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 
 <sup>7</sup> Power BI hizmeti, kimlik doğrulaması gerektiren OData akışlarını desteklemez.
 
+<sup>8</sup> Paxata, Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop sürümünde desteklenir. Power BI Rapor Sunucusu’na yayımlanan Power BI raporlarında desteklenmez. Desteklenen veri kaynakları listesi için bkz. [Power BI Rapor Sunucusu’nda Power BI raporu veri kaynakları](../report-server/data-sources.md).
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery kaynakları için çoklu oturum açma (SSO)
 
 SSO seçeneği etkinleştirildiğinde ve kullanıcılarınız veri kaynağının üstünde derlenen raporlara eriştiğinde, Power BI, kimliği doğrulanmış sorgulardaki Azure AD kimlik bilgilerini temel alınan veri kaynağı gönderir. Bu sayede Power BI, veri kaynağı seviyesinde yapılandırılmış olan güvenlik ayarlarını uygular.
@@ -180,3 +182,4 @@ SSO seçeneği bu veri kaynağını kullanan tüm veri kümelerinde geçerli olu
 [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)  
 [Power BI'da SQL Server Analysis Services canlı verileri](sql-server-analysis-services-tabular-data.md)  
 [Şirket içi veri ağ geçidi nedir?](service-gateway-onprem.md)  
+[Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları](../report-server/data-sources.md)

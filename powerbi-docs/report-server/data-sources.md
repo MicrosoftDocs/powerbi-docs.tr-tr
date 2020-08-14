@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80979857"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837624"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
-Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir.
+Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’na yayımlanan Power BI raporları için iyileştirilmiş olmayan bazı veri kaynakları desteklenir. Her iki yerde de desteklenen veri kaynakları için aşağıdaki listeye bakın.
 
 Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
@@ -25,8 +25,6 @@ Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporları
 >  
 
 ## <a name="list-of-supported-data-sources"></a>Desteklenen veri kaynaklarının listesi
-
-Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile çalışıyor olabilir.
 
 | **Veri kaynağı** | **Önbelleğe veri alma** | **Zamanlanmış yenileme** | **Canlı/DirectQuery** |
 | --- | --- | --- | --- |
@@ -43,7 +41,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | Azure HDInsight (HDFS) |Evet |Hayır |Hayır |
 | Azure HDInsight (Spark) |Evet |Hayır |Hayır |
 | Azure Tablo Depolama |Evet |Evet |Hayır |
-| Dynamics 365 (Çevrimiçi) |Evet |Hayır |Hayır |
+| Dynamics 365 (çevrimiçi) |Evet |Hayır |Hayır |
 | Facebook |Evet |Hayır |Hayır |
 | Klasör |Evet |Evet |Hayır |
 | Google Analytics |Evet |Hayır |Hayır |
@@ -80,7 +78,7 @@ Bunlar dışındaki veri kaynakları, desteklenenler listesinde bulunmasa bile �
 | Azure HDInsight Spark (Beta) |Evet |Hayır |Hayır |
 | Common Data Service (Beta) |Evet |Hayır |Hayır |
 | comScore Digital Analytix (Beta) |Evet |Hayır |Hayır |
-| Customer Insights için Dynamics 365 (Beta) |Evet |Hayır |Hayır |
+| Dynamics 365 for Customer Insights (Beta) |Evet |Hayır |Hayır |
 | Dynamics 365 for Financials (Beta) |Evet |Hayır |Hayır |
 | GitHub (Beta) |Evet |Hayır |Hayır |
 | Google BigQuery (Beta) |Evet |Hayır |Hayır |
@@ -130,7 +128,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | Azure HDInsight (HDFS) |Hayır |Hayır |Hayır |Hayır |
 | Azure HDInsight (Spark) |Hayır |Hayır |Hayır |Hayır |
 | Azure Tablo Depolama |Hayır |Evet |Hayır |Hayır |
-| Dynamics 365 (Çevrimiçi) |Hayır |Hayır |Hayır |Hayır |
+| Dynamics 365 (çevrimiçi) |Hayır |Hayır |Hayır |Hayır |
 | Facebook |Hayır |Hayır |Hayır |Hayır |
 | Klasör |Hayır |Hayır |Hayır |Evet |
 | Google Analytics |Hayır |Hayır |Hayır |Hayır |
@@ -163,7 +161,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 | Azure HDInsight Spark (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Common Data Service (Beta) |Hayır |Hayır |Hayır |Hayır |
 | comScore Digital Analytix (Beta) |Hayır |Hayır |Hayır |Hayır |
-| Customer Insights için Dynamics 365 (Beta) |Hayır |Hayır |Hayır |Hayır |
+| Dynamics 365 for Customer Insights (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Dynamics 365 for Financials (Beta) |Hayır |Hayır |Hayır |Hayır |
 | GitHub (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Google BigQuery (Beta) |Hayır |Hayır |Hayır |Hayır |
@@ -210,6 +208,7 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 **SAP HANA Tümleşik Windows Kimlik Doğrulaması ile DirectQuery'yi yalnızca bunu yayımlanmış Power BI Desktop dosyasında (.pbix) ilişkisel veritabanı olarak kullandığında destekler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Veri kaynağınıza bağlandığınıza göre, artık bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturabilirsiniz](quickstart-create-powerbi-report.md).
+
+Power BI hizmetinde [Power BI raporları için veri kaynakları[(../connect-data/power-bi-data-sources.md) Veri kaynağınıza bağlandığınıza göre şimdi bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturun](quickstart-create-powerbi-report.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

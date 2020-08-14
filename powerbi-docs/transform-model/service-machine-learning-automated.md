@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232629"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878617"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
 
@@ -141,6 +141,10 @@ ML modelini uygulamak için, uygulanması gereken varlığın adını ve model �
 ML modelinin uygulanması, çıkış varlığında puan veren her bir satır için tahminler ve kişiselleştirilmiş açıklamalar içeren iki yeni veri akışı varlığı oluşturur. Örneğin, _PurchaseIntent_ modelini _OnlineShoppers_ varlığına uygularsanız, çıkış **OnlineShoppers zenginleştirilmiş PurchaseIntent** ve **OnlineShoppers zenginleştirilmiş PurchaseIntent açıklamaları** varlıklarını oluşturur. Zenginleştirilmiş varlıktaki her satır için **Açıklamalar**, giriş özelliğine göre zenginleştirilmiş açıklamalar varlığındaki birden fazla satıra bölünür. **ExplanationIndex**, zenginleştirilmiş açıklamalar varlığındaki satırları zenginleştirilmiş varlıktaki satırla eşlemeye yardımcı olur.
 
 ![Sorgu düzenleyicisi](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
+
+PQO işlev tarayıcısında Yapay Zeka İçgörülerini kullanarak aynı çalışma alanındaki herhangi bir veri akışında varlıklara Power BI AutoML modelini de uygulayabilirsiniz. Böylece, aynı çalışma alanında başkaları tarafından oluşturulan modelleri, modeli içeren veri akışının sahibi olma zorunluluğu olmadan kullanabilirsiniz. Power Query, çalışma alanındaki tüm Power BI ML modellerini keşfeder ve bunları dinamik Power Query işlevleri olarak kullanıma sunar. Power Query Düzenleyicisi’nin şeridinden bu işlevlere erişerek veya M işlevini doğrudan çağırarak da bunları çağırabilirsiniz.Bu işlevsellik şu anda yalnızca Power BI veri akışlarında ve Power BI hizmetindeki Power Query Online'da desteklenmektedir. Bunun AutoML sihirbazı kullanılarak bir veri akışında ML modellerinin uygulanmasından çok farklı olduğunu unutmayın. Bu yöntem kullanılarak oluşturulan bir açıklamalar varlığı yoktur ve veri akışının sahibi olmadığınız sürece model eğitimi raporlarına erişemezsiniz veya modeli yeniden eğitemezsiniz. Kaynak modeli düzenlenirse (giriş alanları eklenerek veya kaldırılarak) ya da model veya kaynak veri akışı silinirse bu bağımlı veri akışı bozulur.
+
+![PQO İşlev tarayıcısını kullanarak model uygulama](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
 
 Modeli uyguladıktan sonra, veri akışı her yenilendiğinde AutoML tahminlerinizi güncel tutar.
 

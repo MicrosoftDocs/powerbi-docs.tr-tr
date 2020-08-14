@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252142"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049264"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
@@ -39,7 +39,7 @@ Duyarlılık etiketleri ve dosya şifreleme Excel, PowerPoint ve PDF’ye dışa
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Duyarlılık etiketlerinin Power BI’daki işleyişi
 
-Bir Power BI panosuna, raporuna, veri kümesine veya veri akışına duyarlılık etiketi uyguladığınızda, kaynağa aşağıdaki avantajlara sahip olan bir etiket uygulamaya benzer:
+Bir Power BI panosuna, raporuna, veri kümesine veya veri akışına duyarlılık etiketi uygulamanız, bu kaynağa aşağıdaki avantajlara sahip bir etiket uygulamaya benzer:
 * **Özelleştirilebilir** - Kuruluşunuzda Kişisel, Ortak, Genel, Gizli ve Çok Gizli gibi farklı düzeylerde hassas içerikler için kategoriler oluşturabilirsiniz.
 * **Düz metin** - Etiket düz metin biçiminde olduğundan, kullanıcıların duyarlılık etiketi yönergelerine uygun olarak içeriğin nasıl işleneceğini anlaması kolaydır.
 * **Kalıcı**: İçeriğe bir duyarlılık etiketi uygulandıktan sonra Excel, PowerPoint ve PDF dosyalarına dışarı aktarılan içeriğe eşlik eder ve ilkelerin uygulanıp zorunlu tutulmasına yönelik bir temel oluşturur.
@@ -69,11 +69,23 @@ Excel, PowerPoint veya PDF dosyalarından Power BI'a veri aktarıldığında, bu
 
 Power BI’dan dosya aktaran kullanıcının, duyarlık etiketi ayarlarına uygun olarak bu dosyaya erişme ve dosyayı düzenleme izinleri vardır. Kullanıcıya dosya için sahip izinleri verilmez.
 
-Veriler .csv veya .pbix dosyalarına, Excel’de Analiz Et’e veya başka bir dışarı aktarma yoluna aktarıldığında duyarlılık etiketleri ve koruma uygulanmaz.
+Veriler .csv veya .pbix dosyalarına veya başka bir dışarı aktarma yoluna aktarıldığında duyarlılık etiketleri ve koruma uygulanmaz.
 
 Dışarı aktarılan bir dosyaya duyarlılık etiketi ve koruma uygulandığında, dosyaya içerik işaretlemesi eklenmez. Ancak, etiket içerik işaretlemelerini uygulayacak şekilde yapılandırıldıysa dosya Office masaüstü uygulamalarında açıldığında içerik işaretlemeleri Azure Information Protection birleşik etiketleme istemcisi tarafından otomatik olarak uygulanır. Masaüstü uygulamaları, mobil uygulamalar ve web uygulamaları için yerleşik etiketleme kullandığınızda içerik işaretlemeleri otomatik olarak uygulanmaz. Diğer ayrıntılar için bkz. [Office uygulamaları içerik işaretlemesini ve şifrelemeyi ne zaman uygular?](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption).
 
 Veriler bir dosyaya dışarı aktarıldığında etiket uygulanamıyorsa dışarı aktarma işlemi başarısız olur. Dışarı aktarma işleminin etiket uygulanamadığından başarısız olup olmadığını denetlemek için başlık çubuğunun ortasındaki rapor veya pano adına tıklayın ve açılan bilgi menüsünde “Duyarlılık etiketi yüklenemiyor” yazıp yazmadığına bakın. Bu durum, geçici bir sistem sorununun sonucunda veya uygulanan etiket güvenlik yöneticisi tarafından yayımdan kaldırıldıysa ortaya çıkabilir.
+
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>Excel’de Çözümle seçeneğinde duyarlılık etiketi devralma
+
+Power BI veri kümesine canlı bağlantıyla Excel’de bir PivotTable oluşturduğunuzda (Power BI’dan [Excel’de Çözümle](../collaborate-share/service-analyze-in-excel.md) seçeneğiyle veya [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US)’den bunu yapabilirsiniz), veri kümesinin duyarlılık etiketi devralınır ve ilişkili koruma ile birlikte Excel dosyanıza uygulanır. Daha sonra veri kümesindeki etiket daha kısıtlayıcı bir etiketle değiştirilirse, bağlantılı Excel dosyasında uygulanan etiket, veri yenilemesinden sonra otomatik olarak güncelleştirilir.
+
+![Canlı bağlantı aracılığıyla veri kümesinden devralınan duyarlılık etiketini gösteren Excel ekran görüntüsü.](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+Excel’de el ile ayarlanmış olan duyarlılık etiketlerinin üzerine, veri kümesinin duyarlılık etiketi tarafından otomatik olarak yazılmaz. Bunun yerine bir başlık, veri kümesinin duyarlılık etiketi içerdiğini size bildirir ve bunu uygulamanızı önerir.
+
+>[!NOTE]
+>Veri kümesinin duyarlılık etiketi, Excel dosyasının duyarlılık etiketinden daha az kısıtlayıcıysa, etiket devralma veya güncelleştirme işlemi gerçekleşmez. Excel dosyası hiçbir zaman daha az kısıtlayıcı bir duyarlılık etiketini devralmaz.
+
 
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>Eklenen raporlarda ve panolarda duyarlılık etiketi kalıcılığı
 
@@ -83,7 +95,7 @@ Power BI raporlarını, panolarını ve görsellerini Microsoft Teams ve SharePo
 
 Aşağıdaki ekleme senaryoları desteklenir:
 * [Kuruluşunuz için ekleme](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 uygulamaları (örn. [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) ve [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 uygulamaları (örneğin, [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) ve [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [Güvenli URL ekleme](../collaborate-share/service-embed-secure.md) (Power BI hizmetinden ekleme) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında duyarlılık etiketleri
@@ -95,18 +107,9 @@ Duyarlılık etiketleri, Power BI mobil uygulamalarından açılan raporlar ve p
 ## <a name="supported-clouds"></a>Desteklenen bulutlar
 Duyarlılık etiketleri yalnızca küresel (genel) bulutlardaki kiracılarda desteklenir, ulusal bulutlar gibi bulutlar içindeki kiracılar için desteklenmez.
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini kullanma gereksinimleri
+## <a name="licensing-and-requirements"></a>Lisanslama ve gereksinimler
 
-Power BI’da duyarlılık etiketlerinizin etkinleştirilip kullanılabilmesi için önce aşağıdaki önkoşulları karşılamanız gerekir:
-* Duyarlılık etiketlerinin [Microsoft 365 güvenlik merkezi](https://security.microsoft.com/) ya da [Microsoft 365 uyumluluk merkezi](https://compliance.microsoft.com/) içinde oluşturulup yönetildiğinden emin olun.
-* Power BI’da [duyarlılık etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md).
-* Kullanıcıların [uygun lisanslara](#licensing) sahip olduğundan emin olma.
-
-## <a name="licensing"></a>Lisanslama
-
-* Power BI’da Microsoft Azure Information Protection duyarlılık etiketlerini uygulamak ve görüntülemek için bir Azure Information Protection Premium P1 veya Premium P2 lisansı gerekir. Microsoft Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın.
-* Office uygulamalarında etiketleri görüntülemek ve uygulamak için [lisanslama gereksinimleri](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels) mevcuttur.
-* Power BI içeriğine etiketler uygulamak için, kullanıcının yukarıda bahsedilen Azure Information Protection lisanslarından birine ek olarak Power BI Pro lisansına sahip olması gerekir.
+Bkz. [Lisanslama ve gereksinimler](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements).
 
 ## <a name="sensitivity-label-creation-and-management"></a>Duyarlılık etiketi oluşturma ve yönetme
 

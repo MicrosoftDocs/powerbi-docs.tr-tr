@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768815"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837509"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -52,6 +52,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 **PDF’ye Aktar** özelliğiyle çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
 
+* PDF, Power BI tuvalinizde görünür olan verileri ve görselleştirmeleri içerir. Görselde kaydırma çubukları varsa PDF, görseli kaydırılmamış varsayılan durumunda içerir.  
 * R ve Python görselleri şu anda desteklenmemektedir. PDF’de bu görseller boştur ve bir hata raporu görüntülenir. 
 * Sertifikalanmış Power BI görselleri desteklenir. Bir Power BI görselini nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı Power BI görselleri hakkında daha fazla bilgi için bkz. [Power BI görsellerini sertifikalatma](../developer/visuals/power-bi-custom-visuals-certified.md). Sertifikalanmamış Power BI görselleri desteklenmez. PDF’te bunlar bir hata iletisiyle görüntülenir.
 * ESRI görseli desteklenmez

@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120366"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049288"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 
-*Çalışma alanları*, çalışma arkadaşlarınızla işbirliği yaparak pano, rapor, veri kümesi ve sayfalandırılmış rapor koleksiyonları oluşturabildiğiniz yerlerdir. Yeni çalışma alanı deneyimi içeriğe erişimi daha iyi yönetmenize yardımcı olur. Bu makalede yeni çalışma alanları açıklanır ve klasik çalışma alanlarından farkları ortaya konur.  Klasik çalışma alanları gibi bunları da uygulamaları oluşturmak ve dağıtmak için kullanırsınız. Yeni bir çalışma alanı oluşturmaya hazır mısınız? Bkz. [Yeni çalışma alanı oluşturma deneyimi](service-create-the-new-workspaces.md).
+*Çalışma alanları*, çalışma arkadaşlarınızla işbirliği yaparak pano, rapor, veri kümesi ve sayfalandırılmış rapor koleksiyonları oluşturabildiğiniz yerlerdir. Yeni çalışma alanı deneyimi içeriğe erişimi daha iyi yönetmenize yardımcı olur. Bu makalede yeni çalışma alanları açıklanır ve klasik çalışma alanlarından farkları ortaya konur.  Klasik çalışma alanları gibi bunları da uygulamaları oluşturmak ve dağıtmak için kullanırsınız. 
+
+Yeni bir çalışma alanı oluşturmaya hazır mısınız? Bkz. [Yeni çalışma alanı oluşturma deneyimi](service-create-the-new-workspaces.md).
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Power BI yeni çalışma alanı deneyimi":::
 
@@ -86,8 +88,10 @@ Yeni çalışma alanlarından birisi paylaşılan bir kapasitede yer alıyorsa b
 
 Yeni çalışma alanı Power BI Premium kapasitesinde olduğunda, Görüntüleyici rolüne sahip kullanıcılar Power BI Pro lisansları olmasa bile çalışma alanına erişebilir. Öte yandan bu kullanıcıları Yönetici, Üye veya Katkıda Bulunan gibi daha yüksek bir role atarsanız, kullanıcılar çalışma alanına erişmeye çalıştığında bir Pro denemesi başlatmaları istenir. Pro lisansı olmayan kullanıcıların Görüntüleyici rolünü kullanmalarını istiyorsanız bireysel veya bir kullanıcı grubunun parçası olarak başka çalışma alanı rollerine sahip olmadıklarından emin olun.
 
+Raporları yeni çalışma alanı deneyiminde yayımlama işlemi mevcut lisans kurallarının daha sıkı uygulanmasını gerektirir. Pro lisansı olmadan Power BI Desktop'tan veya başka istemci araçlarından yayımlamayı denerseniz "Yalnızca Power BI Pro lisansı olan kullanıcılar bu çalışma alanında yayımlayabilir" hatasını görürsünüz.
+
 > [!NOTE]
-> Raporları yeni çalışma alanı deneyiminde yayımlama işlemi mevcut lisans kurallarının daha sıkı uygulanmasını gerektirir. Pro lisansı olmadan Power BI Desktop'tan veya başka istemci araçlarından yayımlamayı denerseniz "Yalnızca Power BI Pro lisansı olan kullanıcılar bu çalışma alanında yayımlayabilir" hatasını görürsünüz.
+> Power BI US Government, Ücretsiz lisans olarak sağlanmaz. Lisanslama ayrıntıları için bkz. [ABD kamu müşterileri için Power BI](../admin/service-govus-overview.md).
 
 ### <a name="guest-users"></a>Konuk kullanıcılar
 
@@ -95,7 +99,9 @@ Varsayılan olarak [Azure AD B2B Konuk kullanıcıları](../admin/service-admin-
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>Yeni çalışma alanı deneyimi çalışma alanlarını yönetme
 
-Yeni çalışma alanı deneyimiyle oluşturulan çalışma alanlarının yönetimi Power BI yönetim portalından yapılır. Bir kuruluşta kimlerin çalışma alanı oluşturup uygulama dağıtacağına Power BI yöneticileri karar verir. Yöneticiler, kuruluşlarındaki tüm çalışma alanlarının durumunu görebilir. Ayrıca çalışma alanlarını yönetebilir ve kurtarabilirler. [Yeni çalışma alanlarını yönetme](../admin/service-admin-portal.md#create-the-new-workspaces) hakkında daha fazla bilgi için Yönetim portalı makalesini inceleyin.
+Yeni çalışma alanı deneyimiyle oluşturulan çalışma alanlarının yönetimi Power BI yönetim portalından yapılır. Bir kuruluşta kimlerin çalışma alanı oluşturup uygulama dağıtacağına Power BI yöneticileri karar verir. "Yönetici portalı" makalesinde [kullanıcıların çalışma alanı oluşturma yeteneğini yönetme](../admin/service-admin-portal.md#create-the-new-workspaces) hakkında bilgi edinin. 
+
+Yöneticiler, kuruluşlarındaki tüm çalışma alanlarının durumunu da görebilirler. Çalışma alanlarını yönetebilir, kurtarabilir ve hatta silebilirler. "Yönetici portalı" makalesinde [çalışma alanlarını yönetme](../admin/service-admin-portal.md#workspaces) hakkında bilgi edinin.
 
 ### <a name="auditing"></a>Denetim
 

@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161733"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091630"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -318,6 +318,9 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI veri akışı yenileme isteği gönderildi               | RequestDataflowRefresh                      | Şu anda kullanılmıyor                       |
 | Power BI veri kümesi yenileme isteği gönderildi                | RefreshDataset                              |                                          |
 | Power BI çalışma alanları alındı                     | GetWorkspaces                               |                                          |
+| Duyarlılık Etiketi Uygulandı                         | SensitivityLabelApplied                     |                                          |
+| Duyarlılık Etiketi Değiştirildi                         | SensitivityLabelChanged                     |                                          |
+| Duyarlılık Etiketi Kaldırıldı                         | SensitivityLabelRemoved                     |                                          |
 | Çalışma alanı için veri akışı depolama konumu ayarlandı     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI veri akışı üzerinde zamanlanmış yenileme ayarlandı        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI veri kümesi üzerinde zamanlanmış yenileme ayarlandı         | SetScheduledRefresh                         |                                          |

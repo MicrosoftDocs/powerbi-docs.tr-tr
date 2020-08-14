@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236612"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988694"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Şirket içi veri ağ geçidinde özel veri bağlayıcılarını kullanma
 
@@ -47,6 +47,7 @@ Bu seçenek etkinleştirildiğinde, özel bağlayıcılarınızı bu ağ geçidi
 * Oluşturduğunuz klasöre arka plan ağ geçidi hizmeti tarafından erişilebildiğinden emin olun. Genellikle kullanıcınızın Windows klasörü veya sistem klasörleri içindeki klasörler erişilebilir durumda olmayacaktır. Klasör erişilebilir değilse şirket içi veri ağ geçidi uygulaması bir ileti gösterir. Bu yönerge, şirket içi veri ağ geçidi (kişisel mod) için geçerli değildir.
 * Özel bağlayıcıların şirket içi veri ağ geçidi ile çalışabilmesi için özel bağlayıcı kodunda “TestConnection” bölümü oluşturulması gerekir. Power BI Desktop ile özel bağlayıcılar kullanıldığında bu kısım gerekli olmaz. Bu nedenle, Power BI Desktop ile çalışan ancak ağ geçidi ile çalışmayan bir bağlayıcınız olabilir. TestConnection bölümü uygulama hakkında daha fazla bilgi için lütfen [bu belgeye](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) bakın.
 * Ağ geçitleri üzerinden özel bağlayıcılar için OAuth şu anda yalnızca ağ geçidi yöneticileri için desteklenir; diğer veri kaynağı kullanıcıları için desteklenmez.
+* Özel bağlayıcınız bir ağ sürücüsündeyse şirket içi veri ağ geçidi uygulamasında tam yolu ekleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -54,7 +55,7 @@ Bu seçenek etkinleştirildiğinde, özel bağlayıcılarınızı bu ağ geçidi
 * [Veri kaynağınızı yönetme - SAP HANA](service-gateway-enterprise-manage-sap.md)  
 * [Veri kaynağınızı yönetme - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md)  
-* [Veri kaynağınızı yönetme - İçeri aktarma/Zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
+* [Veri kaynağınızı yönetme - İçeri aktarma/zamanlanmış yenileme](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Şirket içi veri ağ geçidi için ara sunucu ayarlarını yapılandırma](/data-integration/gateway/service-gateway-proxy)
 * [Power BI’dan şirket içi veri kaynaklarına kadar SSO (çoklu oturum açma) için Kerberos’u kullanma](service-gateway-sso-kerberos.md)  
 

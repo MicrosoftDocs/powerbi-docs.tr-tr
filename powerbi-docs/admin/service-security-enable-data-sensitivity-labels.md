@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034348"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049196"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini etkinleştirme
 
@@ -24,7 +24,20 @@ Duyarlılık etiketleri etkinleştirildiğinde:
 * Kuruluştaki belirli kullanıcılar ve güvenlik grupları Power BI rapor, pano, veri kümesi ve veri akışlarına [duyarlılık etiketleri uygulayabilir](./service-security-apply-data-sensitivity-labels.md) ve bu etiketleri sınıflandırabilir.
 * Kuruluşun tüm üyeleri bu etiketleri görebilir.
 
-Duyarlılık etiketlerinin etkinleştirilmesi için Azure Information Protection lisansı gerekir. Ayrıntılar için bkz. [Lisanslama](service-security-sensitivity-label-overview.md#licensing).
+Duyarlılık etiketlerinin etkinleştirilmesi için Azure Information Protection lisansı gerekir. Ayrıntılar için bkz. [Lisanslama ve gereksinimler](#licensing-and-requirements).
+
+## <a name="licensing-and-requirements"></a>Lisanslama ve gereksinimler
+
+* Power BI’da Microsoft Information Protection duyarlılık etiketlerini uygulamak veya görüntülemek için bir Azure Information Protection Premium P1 veya Premium P2 lisansı gerekir. Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın.
+
+* Kullanıcının, Power BI içeriğine etiketler uygulayabilmek için yukarıda bahsedilen Azure Information Protection lisanslarından birine ek olarak Power BI Pro lisansına sahip olması gerekir.
+
+* Office uygulamalarının [duyarlılık etiketlerini görüntülemeye ve uygulamaya yönelik kendi lisanslama gereksinimleri]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ) vardır.
+
+* Kiracınızda duyarlılık etiketlerini etkinleştirmeden önce, ilgili kullanıcılar ve gruplar için duyarlılık etiketlerinin tanımlandığından ve yayımlandığından emin olun. Ayrıntılar için bkz. [Duyarlılık etiketlerini ve ilkelerini oluşturma ve yapılandırma](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
+
+>[!NOTE]
+> Kuruluşunuz Azure Information Protection duyarlılık etiketlerini kullanıyorsa bunların Power BI’da kullanılabilmesi için Microsoft Information Protection Birleşik Etiketleme platformuna geçirilmesi gerekir. [Duyarlılık etiketlerini geçirme hakkında daha fazla bilgi edinin](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="enable-sensitivity-labels"></a>Duyarlılık etiketlerini etkinleştirme
 
@@ -52,9 +65,9 @@ Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın
 
 Power BI, Microsoft Information Protection duyarlılık etiketlerini kullanır. Bu nedenle, duyarlılık etiketlerini etkinleştirmeye çalışırken bir hata iletisiyle karşılaşırsanız bunun nedeni aşağıdakilerden biri olabilir:
 
-* Azure Information Protection [lisansınız](service-security-sensitivity-label-overview.md#licensing) yoktur.
-* Duyarlılık etiketleri, Power BI tarafından desteklenen Microsoft Information Protection sürümüne geçirilmemiştir. [Duyarlılık etiketlerini geçirme](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) hakkında daha fazla bilgi edinin.
-* Kuruluşta hiçbir Microsoft Information Protection duyarlılık etiketi tanımlanmamıştır. Etiketin kullanılabilir olması için etiketin yayımlanmış bir ilkenin parçası olması gerektiğini unutmayın. [Duyarlılık etiketleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) veya [Microsoft güvenlik ve uyumluluk merkezini](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) ziyaret ederek etiketleri tanımlama ve kuruluşunuz için ilkeler yayımlama hakkında bilgi edinin.
+* Azure Information Protection [lisansınız](#licensing-and-requirements) yoktur.
+* Duyarlılık etiketleri, Power BI tarafından desteklenen Microsoft Information Protection sürümüne [geçirilmemiştir](#enable-sensitivity-labels).
+* Kuruluşta Microsoft Information Protection [duyarlılık etiketi tanımlanmamıştır](#enable-sensitivity-labels).
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

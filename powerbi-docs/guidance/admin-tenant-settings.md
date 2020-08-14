@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216724"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049311"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Kiracı yöneticisi ayarları rehberi
 
@@ -39,9 +39,13 @@ Bunu yapacaksanız, _tüm kuruluş için_ **“Yardım Alın” bilgilerini yay�
 Bu URL’ler, Power BI yardım menüsünde bağlantı olarak kullanıma sunulur.
 
 > [!NOTE]
-> **Lisanslama istekleri** URL’sinin sağlanması, bireysel kullanıcıların 60 günlük ücretsiz Power BI Pro deneme sürümüne kaydolmasını engeller. Bunun yerine, kullanıcılar Power BI Ücretsiz veya Pro için lisans alma bilgilerini içeren iç sitenize yönlendirilir.
+> **Lisanslama istekleri** URL’sinin sağlanması, tek tek kullanıcıların Power BI Pro lisansı satın almasını engeller. Bunun yerine, kullanıcılar lisans alma bilgilerini içeren iç sitenize yönlendirilir. **Kullanıcıların Power BI Pro’yu denemesine izin ver** ayarı varsayılan olarak etkinleştirilir ve satın alma ile deneme deneyimlerini birbirinden ayırır. Bu ayarların birlikte nasıl çalıştığı hakkında daha fazla bilgi edinmek için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro).
+>
+>
 
 ![Yardım ve Destek ayarlarını gösteren Power BI Desktop’ın ekran görüntüsü.](media/admin-tenant-settings/publish-get-help-information.png)
+
+Daha fazla bilgi için bkz. [Yardım ve destek ayarları](../admin/service-admin-portal.md#help-and-support-settings).
 
 ## <a name="manage-risk"></a>Riski yönetin
 Riskleri yönetme ayarları, Power BI kiracınızda idare ilkeleri oluşturmanıza yardımcı olabilir. Ancak, idare ayarlarının bir güvenlik ölçümü olmadığını unutmayın. Örneğin, **Verileri dışarı aktar** ayarını devre dışı bırakmak, özelliği Power BI kullanıcı arabiriminden kaldırır ve bu şekilde Power BI kullanıcılarının kuruluşunuzun idare ilkeleriyle uyumlu bir şekilde çalışmasına yardımcı olur, ancak belirli kullanıcıların diğer seçenekleri kullanarak dışarı veri aktarmalarını önlemez. Güvenlik açısından, bir veri kümesine ilişkin okuma iznine sahip bir Power BI kullanıcısı bu veri kümesini sorgulama iznine sahiptir ve Power BI kullanıcı arabiriminde kullanılabilir özelliklerden bağımsız olarak sonuçları kalıcı hale getirebilir.

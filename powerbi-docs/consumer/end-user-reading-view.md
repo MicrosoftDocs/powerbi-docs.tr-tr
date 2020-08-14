@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537263"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049748"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
 
@@ -98,11 +98,11 @@ Bir panoyu izlemek için Power BI'ı açmanıza gerek yoktur.  Bunun yerine abon
  [Power BI abonelikleri](end-user-subscribe.md) hakkında daha fazla bilgi edinin
 
 #### <a name="get-alerts-when-your-data-reaches-a-threshold"></a>Verileriniz bir eşiğe ulaştığında uyarı alma
-Verileriniz canlıdır ve görselleriniz bunu yansıtacak şekilde otomatik olarak güncelleştirilir. Verilerdeki değişiklikler sizin ayarladığınız bir eşiğin üzerine çıktığında veya altına düştüğünde bildirim almak istiyorsanız veri uyarılarını kullanın. Uyarılar, ölçerlerde, KPI’lerde ve kartlarda çalışır.    
+Verileriniz canlıdır ve görselleriniz bunu yansıtacak şekilde otomatik olarak güncelleştirilir. Verilerdeki değişiklikler sizin ayarladığınız bir eşiğin üzerine çıktığında veya altına düştüğünde bildirim almak istiyorsanız veri uyarılarını kullanın. Uyarılar; ölçerlerde, KPI’larda ve kartlarda çalışır.    
 ![kutucuk, kart, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
 Değer ayarladığınız sınırın üzerine çıkar veya altına düşerse Power BI size bir e-posta gönderir.  
-![Uyarı e-postası](media/end-user-alerts/power-bi-alert-email.png)
+![Uyarı e-postası](media/end-user-alerts/power-bi-email.png)
 
 [Power BI uyarıları](end-user-alerts.md) hakkında daha fazla bilgi edinin
 

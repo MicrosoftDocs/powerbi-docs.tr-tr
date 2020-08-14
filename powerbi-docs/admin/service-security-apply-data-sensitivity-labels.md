@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035253"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049219"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketlerini uygulama
 
@@ -21,8 +21,8 @@ Rapor, pano, veri kümesi ve veri akışlarınıza uygulanan Microsoft Informati
 
 Power BI’da duyarlılık etiketleri uygulayabilmek için:
 * Bir Power BI Pro lisansına ve etiketlemek istediğiniz içerik üzerinde Düzenleme izinlerine sahip olmanız gerekir.
-* [Power BI’da duyarlılık etiketlerini etkinleştirme](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels) makalesinde açıklandığı gibi, duyarlılık etiketlerini uygulama izinleri olan bir güvenlik grubuna dahil olmanız gerekir.
-* Tüm [önkoşulların](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) ve [lisans gereksinimlerinin](./service-security-data-protection-overview.md#licensing) karşılanması gerekir.
+* [Power BI’da duyarlılık etiketlerini etkinleştirme](./service-security-enable-data-sensitivity-labels.md) makalesinde açıklandığı gibi, duyarlılık etiketlerini uygulama izinleri olan bir güvenlik grubuna dahil olmanız gerekir.
+* Tüm [lisanslama gereksinimleri ve diğer gereksinimler](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements) karşılanmış olmalıdır.
 
 Power BI’daki duyarlılık etiketleri hakkında daha fazla bilgi için bkz. [Power BI'daki duyarlılık etiketleri](service-security-sensitivity-label-overview.md).
 

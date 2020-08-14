@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214027"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988729"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop ile Power BI hizmetini karşılaştırma
 
@@ -25,13 +25,15 @@ Power BI Desktop ile Power BI hizmetinin karşılaştırıldığı Venn diyagram
 
 **Power BI Desktop**, yerel bilgisayarınıza ücretsiz olarak yüklediğiniz eksiksiz bir veri analizi ve rapor oluşturma aracıdır. Çok sayıda farklı veri kaynağına bağlanıp bu kaynakları bir veri modelinde (çoğunlukla modelleme olarak adlandırılır) birleştirebileceğiniz Sorgu Düzenleyicisi’ni içerir. Daha sonra bu veri modelini temel alan bir rapor tasarlayacaksınız. [Power BI Desktop ile çalışmaya başlama kılavuzu](desktop-getting-started.md) bu işlemde size yol gösterir.
 
-**Power BI hizmeti**, bulut tabanlı bir hizmettir. Takımlar ve kuruluşlar için hafif rapor düzenleme işlemini ve işbirliğini destekler. Power BI hizmetinde de veri kaynaklarına bağlanabilirsiniz ama modelleme sınırlıdır. 
+**Power BI hizmeti**, bulut tabanlı bir hizmettir. Takımlar ve kuruluşlar için hafif rapor düzenleme işlemini ve işbirliğini destekler. Power BI hizmetinde de veri kaynaklarına bağlanabilirsiniz ama modelleme sınırlıdır.
 
-İş zekası projelerinde çalışan rapor tasarımcılarının çoğu, rapor oluşturmak için **Power BI Desktop** uygulamasını ve sonra raporlarını başkalarına dağıtmak için **Power BI hizmetini** kullanır.
+İş zekası projelerinde çalışan Power BI rapor tasarımcılarının çoğu, Power BI raporları oluşturmak için **Power BI Desktop** uygulamasını ve sonra işbirliği yapmak ve raporlarını dağıtmak için **Power BI hizmetini** kullanır.
 
-## <a name="report-editing"></a>Rapor düzenleme
+Power BI hizmeti ayrıca, Power BI Premium kapasitesi tarafından desteklenen çalışma alanlarında *sayfalandırılmış raporları* barındırır. Sayfalandırılmış raporları Power BI Rapor Oluşturucusu ile oluşturursunuz. “Power BI Premium’da sayfalandırılmış raporlar nelerdir?” başlıklı makalede [Power BI raporlarını ve sayfalandırılmış raporları karşılaştırma](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports) bölümüne bakın. bölümüne bakın.
 
-Hem uygulamada hem de hizmette *raporları* oluşturabilir ve düzenleyebilirsiniz. Bir rapor, görseller ve görsel koleksiyonları içeren bir veya birden çok sayfadan oluşabilir. Gezintiyi geliştirmek için raporlarınıza yer işaretleri, düğmeler, filtreler ve detaylandırma ekleyin.
+## <a name="editing-power-bi-reports"></a>Power BI raporlarını düzenleme
+
+Hem uygulamada hem de hizmette Power BI *raporları* oluşturabilir ve düzenleyebilirsiniz. Bir rapor, görseller ve görsel koleksiyonları içeren bir veya birden çok sayfadan oluşabilir. Gezintiyi geliştirmek için raporlarınıza yer işaretleri, düğmeler, filtreler ve detaylandırma ekleyin.
 
 ![Numaralandırılmış seçimler içeren Power BI Desktop ve Power BI hizmetinin ekran görüntüleri.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -48,7 +50,6 @@ Bu videoda, Power BI Desktop'taki rapor düzenleyicisi gösterilir.
 ## <a name="working-in-the-power-bi-service"></a>Power BI hizmetinde çalışma
 
 ### <a name="collaborating"></a>İşbirliği
-
 
 Raporlarınızı oluşturduktan sonra, bunları *Power BI hizmetinde* iş arkadaşlarınızla işbirliği yapabileceğiniz bir **çalışma alanına** kaydedebilirsiniz. Bu raporların üstünde *panolar* oluşturursunuz. Sonra bu panoları ve raporları kuruluşunuz içindeki ve dışındaki rapor kullanıcılarıyla paylaşırsınız. Raporunuzun kullanıcıları bunları Power BI hizmetinde, Düzenleme görünümünde değil *Okuma görünümünde* görüntüler. Rapor oluşturucularına sağlanan özelliklerin tümüne erişemezler.  Veri kümelerinizi başkalarıyla da paylaşabilir ve başkalarının bunlardan kendi raporlarını oluşturmasına izin verebilirsiniz. [Power BI hizmetinde işbirliği](../collaborate-share/service-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
