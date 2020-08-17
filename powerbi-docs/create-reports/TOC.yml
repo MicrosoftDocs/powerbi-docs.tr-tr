@@ -119,7 +119,7 @@
       items:
         - name: Power BI raporları
           items:
-            - name: Otomatik sayfa yenilemeyi etkinleştirme (önizleme)
+            - name: Otomatik sayfa yenilemeyi etkinleştirme
               href: desktop-automatic-page-refresh.md
             - name: Performans Analizi ile rapor öğelerini inceleme
               href: desktop-performance-analyzer.md
