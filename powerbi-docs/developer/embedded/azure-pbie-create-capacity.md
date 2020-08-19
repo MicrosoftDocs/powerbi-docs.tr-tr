@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768762"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204836"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -56,7 +56,7 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
 
     * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](embedded-multi-geo.md) konumu değiştirebilirsiniz.
 
-    * **Boyut** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/embedded/embedded-capacity.md#sku-memory-and-computing-power).
+    * **Boyut** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/power-bi/developer/embedded/embedded-capacity).
 
     * **Power BI kapasite yöneticisi** - Kapasite için bir yönetici.
         >[!NOTE]
@@ -229,9 +229,10 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
 
     * **Ad** - Kapasite adı.
 
-    * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](/embedded/embedded-multi-geo.md) konumu değiştirebilirsiniz.
+    * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+) konumu değiştirebilirsiniz.
 
-    * **SKU** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/embedded/embedded-capacity.md#sku-memory-and-computing-power).
+    * **SKU** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/power-bi/developer/embedded/embedded-capacity).
 
     * **Yönetici** - Kapasite için bir yönetici.
         >[!NOTE]
