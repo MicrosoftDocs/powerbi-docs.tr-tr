@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227260"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204314"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
 
-- **Kendi anahtarını getir (KAG) şifrelemesi**: Premium Dosyaların etkinleştirildiği veri kümeleri [KAG](service-encryption-byok.md) ile şifrelenmez.
 - **Multi-geo desteği**: Premium Dosyaların etkinleştirildiği veri kümeleri, [multi-geo](service-admin-premium-multi-geo.md) özelliğinin de etkin olduğu kapasitelerde hata verecektir.
 
 - **Power BI Desktop'a indirme**: Premium Dosyalarda depolanan veri kümeleri için [.pbix olarak indirme](../create-reports/service-export-to-pbix.md) işlemi başarısız olur.
@@ -131,8 +130,8 @@ Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölge
 |Azure bölgesi  |Azure bölgesi kısaltması  |
 |---------|---------|
 |Doğu Avustralya     | australiaeast        |
-|Güneydoğu Avustralya     | australiasoutheast        |
-|Orta ABD     | centralus        |
+|Avustralya Güneydoğu     | australiasoutheast        |
+|Central US     | centralus        |
 |Doğu Asya     | eastasia        |
 |Doğu ABD     | eastus        |
 |Doğu ABD 2     | eastus2        |
@@ -146,7 +145,7 @@ Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölge
 |Güneydoğu Asya     | southeastasia        |
 |Güney Birleşik Krallık     | uksouth        |
 |Batı Birleşik Krallık     | ukwest        |
-|Batı Avrupa     | westeurope        |
+|West Europe     | westeurope        |
 |Batı ABD     | westus        |
 |Batı ABD 2     | westus2        |
 

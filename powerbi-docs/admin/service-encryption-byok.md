@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227497"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204579"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
@@ -32,7 +32,7 @@ KAG kullanmak için verileri bir Power BI Desktop (PBIX) dosyasından Power BI h
 - Excel çalışma kitapları (veriler önce Power BI Desktop'a içeri aktarılmadıysa)
 - [Gönderme veri kümeleri](/rest/api/power-bi/pushdatasets)
 - [Akış veri kümeleri](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [Büyük modeller](service-premium-large-models.md)
+
 
 KAG yalnızca veri kümeleri için geçerlidir. Gönderme veri kümeleri, Excel dosyaları ve kullanıcıların hizmete yükleyebileceği CSV dosyaları kendi anahtarınız kullanılarak şifrelenmez. Çalışma alanınızda depolanan yapıtları tanımlamak için şu PowerShell komutunu kullanın:
 
@@ -82,7 +82,7 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
     ![PBIX dosyası bileşenleri](media/service-encryption-byok/create-rsa-key.png)
 
-1. **Oluştur**'u seçin.
+1. **Oluştur**’u seçin.
 
 1. **Anahtarlar**'ın altında, oluşturduğunuz anahtarı seçin.
 
