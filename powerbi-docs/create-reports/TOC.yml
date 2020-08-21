@@ -71,6 +71,8 @@
               items:
                 - name: Soru-Cevap’a giriş
                   href: ../natural-language/q-and-a-intro.md
+                - name: Soru-Cevap veri kaynakları
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: Soru-Cevap araçlarına giriş
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Soru-Cevap araçları gelişmiş
