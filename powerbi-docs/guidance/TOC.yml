@@ -118,6 +118,24 @@
               href: report-performance-troubleshoot.md
             - name: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
               href: ../create-reports/deployment-pipelines-best-practices.md
+    - name: Power BI’a geçirme
+      items:
+        - name: Geçişe genel bakış
+          href: powerbi-migration-overview.md
+        - name: Geçişe hazırlanma
+          href: powerbi-migration-pre-migration-steps.md
+        - name: Gereksinimleri toplama
+          href: powerbi-migration-requirements.md
+        - name: Dağıtım planlama
+          href: powerbi-migration-planning.md
+        - name: Kavram kanıtı yönetme
+          href: powerbi-migration-proof-of-concept.md
+        - name: İçerik oluşturma
+          href: powerbi-migration-create-validate-content.md
+        - name: Power BI'a dağıtma
+          href: powerbi-migration-deploy-support-monitor.md
+        - name: Müşteri Power BI geçişlerinden öğrenme
+          href: powerbi-migration-learn-from-customers.md
     - name: Üstün Başarı Merkezi (COE)
       items:
         - name: Microsoft’un BI dönüşümü

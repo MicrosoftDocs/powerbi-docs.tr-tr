@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 934916784df57b901fc2bbd45afa551b0dc3636e
-  ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+  ms.openlocfilehash: 33affa71190eb7441822dd57d9e50feb9f7fead1
+  ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 07/09/2020
-  ms.locfileid: "86162333"
+  ms.lasthandoff: 08/25/2020
+  ms.locfileid: "88803032"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -139,6 +139,26 @@ landingContent:
       url: report-performance-troubleshoot.md
     - text: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
       url: ../create-reports/deployment-pipelines-best-practices.md
+- title: Power BI’a geçirme
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Geçişe genel bakış
+      url: powerbi-migration-overview.md
+    - text: Geçişe hazırlanma
+      url: powerbi-migration-pre-migration-steps.md
+    - text: Gereksinimleri toplama
+      url: powerbi-migration-requirements.md
+    - text: Dağıtım planlama
+      url: powerbi-migration-planning.md
+    - text: Kavram kanıtı yönetme
+      url: powerbi-migration-proof-of-concept.md
+    - text: İçerik oluşturma
+      url: powerbi-migration-create-validate-content.md
+    - text: Power BI'a dağıtma
+      url: powerbi-migration-deploy-support-monitor.md
+    - text: Müşteri Power BI geçişlerinden öğrenme
+      url: powerbi-migration-learn-from-customers.md
 - title: Üstün Başarı Merkezi (COE)
   linkLists:
   - linkListType: concept
