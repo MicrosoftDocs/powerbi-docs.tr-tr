@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: Öğreticiler
       items:
+        - name: Power BI Desktop ile çalışmaya başlama
+          href: desktop-getting-started.md
         - name: Power BI hizmeti ile çalışmaya başlama
           href: service-get-started.md
     - name: Kavramlar
@@ -41,8 +43,6 @@
       items:
         - name: Power BI Desktop uygulamasını edinme
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop ile çalışmaya başlama
-          href: desktop-getting-started.md
     - name: Başvuru
       items:
         - name: Desteklenen diller ve ülkeler/bölgeler
