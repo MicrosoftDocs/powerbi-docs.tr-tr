@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435893"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204914"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Power BI görselinizi başkalarının bulması ve kullanması amacıyla Microsoft AppSource’ta [yayımlamadan](office-store.md) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun.
@@ -59,6 +59,9 @@ Bağlam menüsü, kullanıcı imlecini bir görselin üzerine getirdiğinde gör
 Birleşik bir deneyim sunmak için tüm Power BI görsellerinde bağlam menüsü etkinleştirmelidir.
 Bağlam menüsü eklemeyi öğrenmek için lütfen [bu makaleye](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) bakın.
 
+>[!div class="mx-imgBorder"]
+>![Power BI görsel bağlam menüsünün ekran görüntüsü.](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>Ticari logo
 Bu bölümde, Power BI görsellerine ticari logo ekleme belirtimleri açıklanır. Ticari logolar zorunlu değildir. Eklendiyse, bu kurallara uymalıdır.
 
@@ -74,15 +77,15 @@ Bu bölümde, Power BI görsellerine ticari logo ekleme belirtimleri açıklanı
 Üç tür ticari logo vardır:
 * **Logo** - Logo, birlikte kullanılan bir simge ve bir addan oluşur.
 
-    ![Microsoft logosu](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **Sembol** - Metin içermeyen bir grafik.
 
-    ![Microsoft sembolü](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Microsoft simgesinin ekran görüntüsü.](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **Logo türü** - Yalnızca metinden oluşan, simgesi olmayan bir logo.
 
-    ![Microsoft sembolü](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![Simge olmadan Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>Ticari logo rengi
 
@@ -90,15 +93,15 @@ Ticari bir logo kullanılırken, logo rengi gri (onaltılı renk #C8C8C8) olmal�
 
 * **Logo**
 
-    ![Microsoft sembolü](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![Gri renkteki Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **Sembol** - Metin içermeyen bir grafik.
 
-    ![Microsoft sembolü](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![Gri renkteki Microsoft simgesinin ekran görüntüsü.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **Logo türü** - Yalnızca metinden oluşan, simgesi olmayan bir logo.
 
-    ![Microsoft sembolü](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![Simge olmadan, gri renkteki Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * Power BI görseliniz bir grafik içeriyorsa logonuza beyaz arka plan (10 piksel kenar boşlukları ile) eklemeniz yararlı olabilir.
@@ -110,13 +113,13 @@ Bir Power BI görseli, biri büyük kutucuklar ve diğeri küçük kutucuklar i�
 
 Aşağıdaki tabloda Power BI görselleri için boyut hakkında dikkat edilmesi gereken noktalar açıklanmaktadır.
 
-|  |Küçük Power BI görseli  |Büyük Power BI görseli  |
+|Ayarlar  |Küçük Power BI görseli  |Büyük Power BI görseli  |
 |---------|---------|---------|
 |*Logo genişliği*    |En fazla 240 piksel         |240 pikselden büyük         |
 |*Logo yüksekliği*     |En fazla 160 piksel         |160 pikselden büyük         |
 |*Sınırlayıcı kutu boyutu*     |40 x 15 piksel         |101 x 30 piksel         |
-|*Ticari logo örneği*     |![Microsoft sembolü](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft logosu](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*Sınırlayıcı kutu örneği*    |![küçük logo örneği](media/guidelines-powerbi-visuals/small-logo-box.png)         |![büyük logo örneği](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*Ticari logo örneği*     |![Microsoft Commercial logosunun küçük sürümünün ekran görüntüsü.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft Commercial logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Sınırlayıcı kutu örneği*    |![Küçük bir logunun boyutlarının ekran görüntüsü.](media/guidelines-powerbi-visuals/small-logo-box.png)         |![Büyük bir logunun boyutlarının ekran görüntüsü.](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>Ticari logo davranışı
@@ -140,13 +143,13 @@ Ticari logolara yalnızca düzenleme modunda izin verilir. Tıklandığında, ti
 
 * Renkli veya siyah bir ticari logo kullanmaktan kaçının. Ticari logo gri olmalıdır (onaltılı renk #C8C8C8).
 
-    ![Yetkisiz renkli logo](media/guidelines-powerbi-visuals/no-color-logo.png) ![Yetkisiz siyah logo](media/guidelines-powerbi-visuals/black-logo.png)
+    ![Yetkisiz bir renkli Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/no-color-logo.png) ![Yetkisiz bir siyah Microsoft logosunun ekran görüntüsü.](media/guidelines-powerbi-visuals/black-logo.png)
 
 * Gradyan veya güçlü gölgeler gibi efektler içeren bir ticari logo.
 
-    ![Yetkisiz logo stili](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![Yetkisiz bir Microsoft logosu tarzı örneğinin ekran görüntüsü.](media/guidelines-powerbi-visuals/no-style-logo.png)
 
-## <a name="best-practices"></a>En iyi yöntemler
+## <a name="best-practices"></a>En iyi uygulamalar
 
 Power BI görseli yayımlarken, kullanıcılara harika bir deneyim sunmak için aşağıdaki önerileri göz önünde bulundurun.
 
@@ -164,4 +167,7 @@ Power BI görselleri hakkında daha fazla bilgi için bkz. [Ek satın almalar ge
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Power BI görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla [Microsoft AppSource’ta](office-store.md) nasıl yayımlayabileceğinizi öğrenin.
+Power BI görselinizi diğer kullanıcıların keşfetmesi ve kullanması amacıyla Microsoft AppSource’ta nasıl yayımlayabileceğinizi öğrenin.
+
+>[!div class="nextstepaction"]
+>[Power BI görsellerini yayımlama](office-store.md)

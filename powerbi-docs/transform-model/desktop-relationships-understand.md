@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4928d194367c1bb2f38fb520722dd040e8ee1a3f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3df3e29d2f6517fec68bf185bf71d9f4f3c5618a
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83296722"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512874"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 

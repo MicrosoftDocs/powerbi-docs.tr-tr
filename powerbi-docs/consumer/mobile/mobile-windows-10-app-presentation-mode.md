@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091680"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204513"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. Sunu modu Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır.
@@ -64,9 +64,24 @@ Eylem araç çubuğunda **Oynat** düğmesini seçtiğinizde slayt gösterisi ba
 
  Denetleyici, görüntülenen geçerli görünümün (sayfa veya yer işareti ve sayfa) adını gösterir. Yukarıdaki resimde **Satış** adlı raporu görüyoruz ve şu anda **Satış Performansı** sayfasındaki **Asya Pasifik** yer işaretini görüntülüyoruz.
 
+Bir slayt gösterisi varsayılan olarak yalnızca sayfalar arasında her 30 saniyede bir geçiş yapar. [Slayt gösterisi ayarlarındaki](#slideshow-settings) varsayılan davranışı siz ayarlarsınız.
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>Başlangıçta bir slayt gösterisini otomatik oynatma
+
+Power BI mobil uygulamasını, uygulama başlatıldığında otomatik olarak bir slayt gösterisini oynatmaya başlayacak şekilde ayarlayabilirsiniz. Bu seçenek, el ile müdahale olmaksızın herkese açık ekranlarda bir raporun çalıştırıldığı kiosk benzeri deneyimler oluşturmak için faydalıdır. Raporu otomatik oynatılacak şekilde ayarlama hakkında daha fazla bilgi için bkz. [Slayt gösterisi ayarları](#slideshow-settings).
+
 ### <a name="slideshow-settings"></a>Slayt gösterisi ayarları
 
-Bir slayt gösterisi varsayılan olarak sayfalar arasında her 30 saniyede bir geçiş yapar. Bu varsayılan ayarları aşağıda gösterildiği gibi **Ayarlar > Seçenekler**’e giderek değiştirebilirsiniz.
+Bir slayt gösterisi varsayılan olarak yalnızca sayfalar arasında her 30 saniyede bir geçiş yapar. Bu varsayılan davranışı aşağıda gösterildiği gibi **Ayarlar > Seçenekler**’e giderek değiştirebilirsiniz. Dilerseniz otomatik oynatmayı açabilir ve oynatılmak üzere bir rapor seçebilirsiniz.
+
+1. Ayarlar simgesini seçin.
+
+1. Seçenekler sekmesini açın.
+
+1. Dilerseniz varsayılan ayarı slayt gösterisinin döngüye gireceği öğeye göre (sayfalar, yer işaretleri veya her ikisi) ve slaytların ne sıklıkta geçeceğine yönelik değiştirebilirsiniz.
+
+1. Uygulama başlatıldığında raporunuzun otomatik olarak oynatılmaya başlamasını istiyorsanız ayarı açık duruma getirip **Rapor Seç**’e tıklayın. Erişiminiz olan raporları da arayabilirsiniz.
 
 ![Slayt gösterisi ayarlarının ekran görüntüsü](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

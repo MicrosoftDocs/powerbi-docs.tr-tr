@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238099"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160593"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Kullanıcıların rapordaki görselleri kişiselleştirmesine olanak tanıma
 
@@ -41,6 +41,59 @@ Bu özellik yeni inceleme olanakları sağlamakla kalmaz. Ayrıca tüketicilerin
 - Bir raporda yaptıkları tüm değişiklikleri sıfırlama
 - Bir görselde yaptıkları tüm değişiklikleri sıfırlama
 - Son değişikliklerini temizleme
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>Daha odaklanmış bir görünüm için Perspektifleri kullanma
+
+Görsel öğeleri kişiselleştirmek için, daha odaklanmış bir görünüm sağlayan model alt kümelerinden birini seçmek amacıyla **Perspektifler**’i kullanabilirsiniz. Yönetilen alanlardan oluşan bir alt kümeye odaklanıp rapor okuyucularını bu büyük modeldeki tüm alanların yer aldığı eksiksiz koleksiyonla boğmadan, bir alt kümeyi seçmek buradaki büyük veri modeliyle çalışırken faydalı olabilir. 
+
+![Görsel öğeleri kişiselleştirme](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+Perspektiflerle çalışırken aşağıdaki konuları göz önünde bulundurun:
+
+* Perspektiflerin güvenlik mekanizması olarak kullanılması amaçlanmaz, bunlar daha iyi bir kullanıcı deneyimi sunmaya yönelik araçlardır. Bir perspektifin tüm güvenliği, temelindeki modelden alınır.
+
+* Hem tablosal hem d çok boyutlu modellerdeki perspektifler desteklenir. Ancak çok boyutlu modellerdeki perspektiflerde, perspektifi yalnızca raporun temel küpüyle aynı olacak şekilde ayarlayabilirsiniz.
+
+* Modelden perspektif silmeden önce, perspektifin Görsel öğelerin kişiselleştirme deneyiminde kullanılmadığından emin olun. 
+
+Perspektifleri kullanmak amacıyla, raporlarınız için Görsel öğeleri kişiselleştirmeniz gerekir. Ayrıca, son kullanıcıların Görsel öğeleri kişiselleştirme deneyimiyle etkileşim kurmasını istediğiniz boyutları ve ölçüleri de içeren en az bir Perspektif oluşturmanız gerekir.
+
+Perspektif oluşturmak için, şu konumdan indirebileceğiniz [Tablosal Düzenleyici](https://tabulareditor.com/)’yi kullanın: Tablosal Düzenleyici’yi indirme
+
+**Tablosal Düzenleyici**’yi indirdiğinizde raporu **Power BI Desktop**’ta açın ve aşağıda gösterildiği gibi, şeritteki **Dış Araçlar** sekmesinden **Tablosal Düzenleyici**’yi başlatın.
+
+![Dış Araçlar şeridinde Tablosal Düzenleyici](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+Tablosal Düzenleyici’de, yeni bir perspektif oluşturmak için **Perspektifler** klasörüne tıklayın.
+
+![Tablosal Düzenleyici’de yeni Perspektifler klasörü oluşturma](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+Perspektifi yeniden adlandırmak için metne çift tıklayabilirsiniz.
+
+![Perspektifi yeniden adlandırma](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+Daha sonra, Tablosal Düzenleyici’deki **Tablolar** klasörünü açarak perspektife alanlar ekleyip perspektifte göstermek istediğiniz alanlara sağ tıklayın.
+
+![Perspektife alanlar ekleme](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+Perspektife eklemek istediğiniz her alan için bu işlemi tekrarlayın. Perspektife yinelenen alanlar eklenemez. Yani bir perspektife zaten eklediğiniz tüm alanlarda bunu devre dışı bırakılmış şekilde ekleme seçeneği bulunur.
+
+İstediğiniz tüm alanları ekledikten sonra, ayarlarınızı hem Tablosal Düzenleyici’de hem de Power BI Desktop’ta kaydettiğinizden emin olun.
+
+![Perspektif ayarlarını Tablosal Düzenleyici’de ve Power BI Desktop’ta kaydetme](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+Modele yeni perspektifi ve Power BI Desktop raporunu kaydettikten sonra, **Görsel öğeyi kişiselleştirme** adlı yeni bölümü göreceğiniz **Biçim** bölmesine gidin.
+
+![Biçim bölmesindeki görsel öğeyi kişiselleştirme bölümü](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+*Rapor okuyucusu perspektifi* seçimi ilk olarak *Varsayılan alanlara* ayarlanır. Açılan oku seçtiğinizde, oluşturduğunuz diğer Perspektifleri görürsünüz.
+
+![Diğer perspektiflerinizi görmek için açılan oku seçme](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+Rapor sayfasının Perspektifini ayarladığınızda, bu sayfadaki Görsel öğeleri kişiselleştirme deneyimi seçili Perspektife göre filtrelenir. **Tüm sayfalara uygula** seçeneğini belirlemeniz, Perspektif ayarlarını raporunuzdaki tüm mevcut sayfalara uygulamanızı sağlar.
+
+![Perspektifin raporun tamamına uygulanması için Tüm sayfalara uygula seçeneğini belirleme](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>Önizleme özelliğini açma
 

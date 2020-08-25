@@ -1,24 +1,24 @@
 ---
 title: Rapor görsellerindeki dalgalanmaları açıklamak için Analiz özelliğini kullanma
-description: Power BI Desktop'ta artışlar veya düşüşler hakkında kolayca öngörü elde edin
+description: Power BI hizmetinde artışlar veya düşüşler hakkında kolayca öngörü elde edin
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162310"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168496"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>Rapor görsellerindeki dalgalanmaları açıklamak için Analiz özelliğini kullanma (önizleme)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Rapor görsellerindeki dalgalanmaları açıklamak için Analiz özelliğini kullanma
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 Genellikle rapor görsellerindeki değerlerde büyük bir artış ve ardından sert bir düşüş görürsünüz. Bu dalgalanmaların nedenini merak ediyor olabilirsiniz. **Power BI hizmetindeki** **Analiz** sayesinde nedeni birkaç tıklamayla bulabilirsiniz.
 
@@ -26,7 +26,7 @@ Genellikle rapor görsellerindeki değerlerde büyük bir artış ve ardından s
 
 ![Artışlar ve düşüşler içeren görsel](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-Power BI görsellerdeki hizmetinden artışları, düşüşleri ve olağandışı dağıtımları açıklamasını isteyip verileriniz hakkında hızlı, otomatikleştirilmiş, bilgiye dayalı analiz alabilirsiniz. Tek yapmanız gereken bir veri noktasına sağ tıklayıp **Analiz > Düşüşü açıkla**'yı (veya önceki değer daha düşükse artışı) veya **Analiz > Bu dağıtımın nerede farklı olduğunu bul**'u seçmektir. İçgörü, kullanışlı bir pencerede gösterilir.
+Power BI görsellerdeki hizmetinden artışları, düşüşleri ve olağandışı dağıtımları açıklamasını isteyip verileriniz hakkında hızlı, otomatikleştirilmiş, bilgiye dayalı analiz alabilirsiniz. Bir veri noktasına sağ tıklayıp **Analiz > Düşüşü açıkla**’yı (veya önceki değer daha düşükse artışı) veya **Analiz > Bu dağıtımın nerede farklı olduğunu bul**’u seçin. İçgörü, kullanışlı bir pencerede gösterilir.
 
 ![Görsellerde gösterilen içgörüler](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ Analiz özelliği bağlamsaldır ve bir önceki veri noktasını (bir önceki ç
 
 ### <a name="which-factors-and-categories-are-chosen"></a>Seçilen faktörler ve kategoriler
 
-Farklı sütunlar incelendikten sonra Power BI, göreli katkıda en yüksek değişikliği gösterenleri seçip görüntüler. Katkı açısından en önemli değişikliğe sahip olan değerler açıklamada vurgulanır. Ayrıca en büyük gerçek artış ve düşüşlerin olduğu değerler de vurgulanır.
+Farklı sütunlar incelendikten sonra Power BI, göreli katkıda en yüksek değişikliği gösteren bu faktörleri seçip görüntüler. Katkı açısından en önemli değişikliğe sahip olan değerler açıklamada vurgulanır. Ayrıca en büyük gerçek artış ve düşüşlerin olduğu değerler de vurgulanır.
 
 Power BI tarafından oluşturulan tüm içgörüleri görmek için kaydırma çubuğunu kullanın. Sıra, ilk olarak en önemli katkıda bulunanın gösterildiği şekilde derecelendirilir. 
 
@@ -71,15 +71,19 @@ Döndürülen her içgörü için gösterilebilecek dört görsel vardır. Bu g�
 
 ### <a name="the-scatter-plot"></a>Dağılım
 
+![Dağılım grafiğinin seçili olduğunu gösteren küçük ekran görüntüsü](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 Dağılım görseli, sütundaki (bu örnekte *Eyalet*) her bir değer için ölçünün birinci dönemdeki değerini (x ekseni değeri) ölçünün ikinci dönemdeki değeriyle (y ekseni) karşılaştırır. Değerin artması durumunda veri noktaları yeşil bölgede, azalması durumunda ise kırmızı bölgede olur. 
 
 Kesik çizgi en iyi eşleşmeyi gösterir ve bu çizginin üzerindeki veri noktalarının genel eğilime göre daha fazla, altındakilerin ise daha az artmış olduğunu gösterir.  
 
 ![Kesik çizgili dağılım](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-Dönemlerden birinde boş değere sahip olan veri öğelerinin dağılımda görünmeyeceğini unutmayın.
+Dönemlerden birinde boş değere sahip olan veri öğeleri dağılımda görünmez.
 
 ### <a name="the-100-stacked-column-chart"></a>%100 yığılmış sütun grafik
+
+![Sütun grafiğinin seçili olduğunu gösteren küçük ekran görüntüsü](media/end-user-analyze-visuals/power-bi-column-icon.png)
 
 %100 yığılmış sütun grafik görseli, seçili veri noktası ve önceki veri noktası için toplama (%100) yapılan katkının değerini gösterir. Bu da her veri noktasına yapılan katkının yan yana karşılaştırılmasını sağlar. Bu örnekte araç ipucu, seçilen değer olan Texas için gerçek katkıyı gösterir. Eyaletleri listesi uzun olduğundan, araç ipuçları ayrıntıları görmenize yardımcı olur. Araç ipuçlarını kullanarak Texas’ın toplam birimlere (%31 ve %32) yaklaşık olarak aynı yüzdeyle katkıda bulunduğunu, ancak toplam birimlerin gerçek sayısı 89’dan 71’e düştüğünü görüyoruz. Y ekseninin bir toplam değil yüzde olduğunu, her sütun bandının değer değil yüzde olduğunu unutmayın. 
 
@@ -87,11 +91,15 @@ Dönemlerden birinde boş değere sahip olan veri öğelerinin dağılımda gör
 
 ### <a name="the-ribbon-chart"></a>Şerit grafik
 
+![Şerit grafiğinin seçili olduğunu gösteren küçük ekran görüntüsü](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
 Şerit grafik görseli ölçünün önceki ve sonraki değerini gösterir. Katkıda bulunanların *sıralaması* değiştiğinde (örneğin, *LA* iki numaralı katkıda bulunandan on bir numaralıya düşmüş) katkıda bulunanlardaki değişiklikleri göstermek için özellikle faydalıdır.  *TX*, üstünde önceki ve sonraki en önemli katkıda bulunan olduğunu belirten geniş bir şeritle temsil edildiğinden düşüş, katkı değerinin hem seçili dönemde hem de sonrasında düştüğünü gösterir.
 
 ![Şerit grafik](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>Şelale grafiği
+
+![Şelale grafiğinin seçili olduğunu gösteren küçük ekran görüntüsü](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
 Dördüncü görsel, dönemler arasındaki artışları veya düşüşleri gösteren bir şelale grafiğidir. Bu görsel, Haziran 2014’te bir önemli katkıda bulunanın net bir şekilde düşüşe geçtiğini (bu durumda **Eyalet**) gösteriyor. **Eyalet**’in toplam birimler üzerindeki etkisinin önemi Louisiana, Texas ve Colorado’daki düşüşlerin en önemli rolü oynadığını göstermesidir.      
 
@@ -120,6 +128,6 @@ Bu içgörüler bir önceki veri noktasına göre gerçekleşen değişimi temel
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Şelale grafikleri](../visuals/power-bi-visualization-waterfall-charts.md)    
-[Dağılım grafikleri](../visuals/power-bi-visualization-scatter.md)
-[Sütun grafikleri](../visuals/power-bi-report-visualizations.md)
-[Şerit grafikleri](../visuals/desktop-ribbon-charts.md)
+[Dağılım grafikleri](../visuals/power-bi-visualization-scatter.md)    
+[Sütun grafikleri](../visuals/power-bi-report-visualizations.md)    
+[Şerit grafikler](../visuals/desktop-ribbon-charts.md)

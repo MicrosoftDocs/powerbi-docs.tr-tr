@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091653"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204954"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -53,7 +53,10 @@ Panodan rapor almak için kutucuğun sağ üst köşesindeki **Diğer seçenekle
   
   Tüm kutucuklar rapor olarak açılamaz. Örneğin Soru-Cevap kutusunda soru sorduğunuzda oluşturulan kutucuklara dokunduğunuzda rapor açılmaz.
   
-## <a name="interact-with-reports"></a>Raporlarla etkileşimli çalışma
+## <a name="zoom-in-on-your-data"></a>Verilerinizi yakınlaştırma   
+Raporlarınızı daha ayrıntılı bir biçimde incelemek amacıyla yakınlaştırmak için sıkıştırma hareketini kullanın. Tekrar uzaklaştırmak için büyütme hareketi yapın. Yakınlaştırmak için sıkıştırma hareketi Android ve iOS telefonlar ile tabletlerde desteklenir.
+
+## <a name="interact-with-reports"></a>Raporlarla etkileşim kurma
 Uygulamada bir rapor açtıktan sonra raporla çalışmaya başlayabilirsiniz. Raporunuzla ve içindeki verilerle yapabileceğiniz birçok şey vardır. Rapor alt bilgisinde, rapor üzerinde gerçekleştirebileceğiniz eylemleri bulabilirsiniz. Raporda gösterilen verilere dokunarak ve uzun dokunarak, verileri dilimleyip analiz de edebilirsiniz.
 
 ### <a name="single-tap-versus-double-tap-interaction"></a>Tek dokunma ve iki kez dokunma etkileşimi karşılaştırması
@@ -83,7 +86,7 @@ Görsele dokunduğunuzda bir kenarlık gösterildiğini fark etmişsinizdir. Ken
 ### <a name="tooltip-and-drill-actions"></a>Araç ipucu ve detaylandırma eylemleri
 Veri noktasına uzun dokunduğunuzda (dokunup beklediğinizde) bu veri noktasının temsil ettiği değerleri gösteren bir araç ipucu görüntülenir:
 
-![Araç İpucu](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
+![Araç ipucu](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
 Rapor yazarı rapor sayfası ipucunu yapılandırdıysa, varsayılan araç ipucu yerine rapor sayfası araç ipucu gösterilir:
 
@@ -127,7 +130,7 @@ Rapor alt bilgisinde **Diğer seçenekler** (...) düğmesine dokunduğunuzda ra
 ![Tüm rapor eylemleri](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 Bazı eylemler belirli rapor özelliklerine bağımlı olduğundan devre dışı bırakılabilir.
-Örnek:
+Örneğin:
 
 **Yer İşaretleri**'nin var olması için raporda [yer işaretlerinin](mobile-reports-in-the-mobile-apps.md#bookmarks) ayarlanmış olması gerekir. Hem Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretleri hem de rapor oluşturucusu tarafından tanımlanan yer işaretleri gösterilir. Yer işaretlerinden biri varsayılan yer işareti olarak tanımlandıysa, rapor yüklendiğinde söz konusu görünümde açılır.
 
@@ -139,9 +142,9 @@ Rapor yazarı raporu coğrafi verilere göre kategorilere ayrılmışsa **Geçer
 
 **Raporu barkoda göre filtrelemek için tara** seçeneğinin etkinleştirilmesi için raporunuzdaki veri kümesinin **Barkod** olarak etiketlenmiş olması gerekir. Daha fazla bilgi için [Power BI Desktop'ta barkodları etiketleme](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) konusunu okuyun.
 
-### <a name="bookmarks"></a>Yer imleri
+### <a name="bookmarks"></a>Yer işaretleri
 
-Power BI mobil uygulaması hem rapor oluşturucusunun tanımladığı rapor yer işaretlerini hem de Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretlerini destekler. Yer işaretleri menüsünü [rapor eylemleri araç çubuğunda](mobile-reports-in-the-mobile-apps.md#all-report-actions) **Diğer seçenekler**'in (...) altında bulabilirsiniz.
+Power BI mobil uygulaması hem rapor oluşturucusunun tanımladığı rapor yer işaretlerini hem de Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretlerini destekler. Yer işaretleri menüsünü [rapor eylemleri araç çubuğunda](mobile-reports-in-the-mobile-apps.md#all-report-actions)**Diğer seçenekler**'in (...) altında bulabilirsiniz.
 
 Varsayılan yer işaretleri özel bir simgeyle gösterilir. Ayarlayabileceğiniz kişisel yer işaretleri için, değiştirmek istediğiniz yer işaretinin yanındaki **Diğer seçenekler (...)** öğesine dokunarak ve ardından **Varsayılan yap**'ı veya **Varsayılanı temizle**'yi seçerek varsayılan ayarı kaldırın veya değiştirin.
 

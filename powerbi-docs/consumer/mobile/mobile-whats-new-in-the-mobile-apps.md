@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091676"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204870"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,23 @@ ms.locfileid: "88091676"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>Ağustos 2020
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>İçeriğinize gitme yönteminizi geliştirdik (iOS ve Android)
+Rapor, pano ve uygulamalardaki üst bilgi açılır menüsünde yer alan **Yeni gezinti ağacı** sayesinde içeriğinizde hızlı ve kolay bir şekilde gezinebilirsiniz. Bir bakışta içeriğinizin hiyerarşisini görürsünüz ve içerik hiyerarşisinde yukarı gidebilir, eşdüzey içeriğe gidebilir ve hatta hızla giriş sayfanıza dönebilirsiniz. Görüntülemekte olduğunuz öğe bir uygulamanın parçasıysa ağaçta bağlantılar, tüm raporlar ve panolar olmak üzere uygulamanın içeriğinin tamamı görüntülenir. Görüntülemekte olduğunuz öğe bir raporsa tüm görünür rapor sayfalarının bir listesini de bulabilirsiniz. Bir sayfadan diğerine geçmek hiç bu kadar kolay olmamıştı! Bir göz atın! 
+
+![Power BI mobil uygulaması gezinti ağacının ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>En sevdiğiniz uygulamaları kullanarak Power BI’dan paylaşma (iOS ve Android)
+Şimdi kişilerinizle Power BI içeriklerinin bağlantılarını paylaşabilirsiniz. Microsoft Teams veya posta uygulaması gibi, cihazınızda bulunan bir işbirliği aracını kullanarak üst bilgideki yeni paylaşma eylemini kullanarak bağlantıyı gönderin. Bağlantı geçerli görünümü yakalar, böylece filtrelenmiş rapor görünümlerini bile paylaşabilirsiniz.
+
+![Power BI mobil uygulaması Paylaş simgesinin ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>Sıkıştırıp yakınlaştırma şimdi telefon ve tablet olmak üzere tüm rapor görünümlerinde kullanıma sunuldu (iOS ve Android)   
+Tüm rapor görünümlerinde sıkıştırıp yakınlaştırmayı etkinleştirerek telefonunuzda veya tabletinizde olmanız fark etmeksizin rapor içeriğinizi yakınlaştırıp uzaklaştırmayı sizin için daha kolay hale getirdik.
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>Başlangıçta bir slayt gösterisini otomatik oynatma (Windows)
+Power BI Windows uygulaması başlatıldığında bir raporun slayt gösterisinde otomatik olarak oynatılmasını tercih edebilirsiniz. Bu, el ile müdahale olmaksızın herkese açık ekranlarda bir raporun çalıştırıldığı kiosk benzeri deneyimler oluşturmak için faydalıdır. [Daha fazla bilgi edinin!](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>Temmuz 2020
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>Windows için Power BI mobil uygulaması artık kurumsal markalamayı destekliyor
@@ -173,7 +190,7 @@ Yeni görünüm önizleme aşamasında olduğundan, keyfini çıkarmak için aç
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) Uygulama Ara Sunucusu ile güvenli erişim (iOS ve Android)
 
-Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (AAD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
+Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (Azure AD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
 
 ## <a name="july-2019"></a>Temmuz 2019
 
@@ -211,7 +228,7 @@ Tek dokunma artık genel kullanıma sunuldu ve yeni kullanıcılar için varsay�
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Gelişmiş koşullu erişim koruması (iOS, Android)
 
-Uygulama ilkesi uygulanmadan önce Power BI'a erişimi sınırlayarak güvenliği artırmak için AAD [yeni uygulama koruması tabanlı koşullu erişim özelliğini](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) tümleştirdik.
+Uygulama ilkesi uygulanmadan önce Power BI'a erişimi sınırlayarak güvenliği artırmak için Azure AD [yeni uygulama koruması tabanlı koşullu erişim özelliğini](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) tümleştirdik.
 
 ### <a name="device-protection-ios"></a>Cihaz koruması (iOS)
 
@@ -530,7 +547,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 Zaman dilimleyicileri için dokunma etkileşimini iyileştirdik.
 
 #### <a name="ios-devices"></a>iOS cihazları
-**Soru-Cevap özelliğiyle verileriniz hakkında soru sorma ve geri bildirimde bulunma** Soru-Cevap özelliğini kullanarak verileriniz hakkında sorular sorun ve bize geri bildirimde bulunmak için bir gülen yüz veya üzgün yüz ifadesi gönderin.
+**Soru-Cevap özelliğiyle verileriniz hakkında soru sorma ve geri bildirimde bulunma** Soru-Cevap özelliğini kullanarak verileriniz hakkında sorular sorun ve bize geri bildirimde bulunmak için bir gülen yüz ifadesi veya üzgün ifade gönderin.
 
 **Sık kullanılan işlemler için 3D Touch'ı kullanma** iPhone 6s veya sonraki modellerde bildirimlere, arama işlevine ve son kullanılan panolara erişmek için giriş ekranınızdaki Power BI uygulama simgesine sertçe basın.
 

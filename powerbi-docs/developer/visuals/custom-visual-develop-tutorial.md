@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739357"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512943"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 
@@ -130,7 +130,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 4. Açık tüm tarayıcıları kapatın.
 
 > [!NOTE]
-> Sertifika tanınmıyorsa bilgisayarınızı yeniden başlatmanız gerekebilir.
+> Sertifika tanınmıyorsa bilgisayarınızı yeniden başlatmanız gerekebilir. Firefox gibi bazı tarayıcılar için otomatik imzalı sertifikaya güvenmeniz gerekir. Bunu yapmak için web paketi sunucu sayfasına (https://localhost:8080/webpack-dev-server) ) gidip riski kabul edin.
 
 ## <a name="creating-a-custom-visual"></a>Özel görsel oluşturma
 
@@ -365,7 +365,7 @@ Artık özel görseli daire ve metin görüntüleyecek şekilde geliştirebilirs
     code .
     ```
 
-6. **Gezgin bölmesinde** **node_modules** klasörünü genişleterek **d3 library** bileşeninin yüklendiğini doğrulayın.
+6. **Gezgin bölmesinde****node_modules** klasörünü genişleterek **d3 library** bileşeninin yüklendiğini doğrulayın.
 
     ![Visual Studio Code uygulamasında D3 kitaplığı](media/custom-visual-develop-tutorial/d3-library.png)
 
@@ -377,7 +377,7 @@ Artık özel görseli daire ve metin görüntüleyecek şekilde geliştirebilirs
 
 Artık daire ve örnek metin gösteren bir özel görseli geliştirme adımlarına geçebiliriz.
 
-1. **Gezgin bölmesinde** **src** klasörünü genişletip **visual.ts** dosyasını seçin.
+1. **Gezgin bölmesinde****src** klasörünü genişletip **visual.ts** dosyasını seçin.
 
     > [!Note]
     > **visual.ts** dosyasının en üst bölümündeki açıklamaları inceleyin. Power BI özel görsel paketlerini kullanma izni, MIT Lisansı koşulları kapsamında ücretsiz olarak sunulur. Anlaşmanın bir parçası olarak dosyanın en üstünde bulunan açıklamaları tutmanız gerekir.
@@ -517,7 +517,7 @@ Artık daire ve örnek metin gösteren bir özel görseli geliştirme adımları
 
     Bu seçenek, projede yapılan değişiklikler kaydedildiğinde görselin otomatik olarak yeniden yüklenmesini sağlar.
 
-3. **Alanlar bölmesinden** **Quantity** alanını geliştirici görseline sürükleyin.
+3. **Alanlar bölmesinden****Quantity** alanını geliştirici görseline sürükleyin.
 
 4. Görselin aşağıdaki gibi göründüğünü doğrulayın.
 
@@ -643,7 +643,7 @@ Veri rollerini yapılandırdınız ve görseli veri görünümüne bağladınız
 
 Bir sonraki öğreticide özel görsele biçimlendirme seçenekleri eklemeyi öğreneceksiniz.
 
-## <a name="debugging"></a>Hata ayıklama
+## <a name="debugging"></a>Hata Ayıklama
 
 Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals) giderek göz atabilirsiniz.
 

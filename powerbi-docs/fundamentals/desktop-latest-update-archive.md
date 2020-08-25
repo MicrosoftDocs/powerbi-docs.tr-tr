@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 01155e3ed4921a11f87acaeaf67f20772a4d01dd
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d8b98afff55c830a1ce3fadd39c11b4cf98036a8
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252763"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578209"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -37,6 +37,85 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
 Aşağıdaki bölümlerde, **Power BI Desktop** için önceki aylarda yapılan güncelleştirmeler açıklanmıştır.
+
+
+## <a name="july-2020-update-2835894661"></a>Temmuz 2020 Güncelleştirmesi (2.83.5894.661)
+
+Power BI Desktop Temmuz güncelleştirmelerimiz yeni özelliklerin yanı sıra kutlamaya değer özellikleri, güneşli günleri ve dostlarla birlikte keyfine varılmayı bekleyen mangal partilerini beraberinde getirdi. 
+
+[İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 çalıştırıyorsanız, [Microsoft Store](https://aka.ms/pbidesktopstore)'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
+
+> [!IMPORTANT]
+> Power BI Desktop müşteri geri bildirimlerini ve yeni özellikleri bir araya getirecek şekilde aylık olarak güncelleştirilir ve kullanıma sunulur. Yalnızca Power BI Desktop'ın en son sürümü desteklenir; Power BI Desktop için müşteri desteğine başvuran müşterilerden en son sürümü yükseltmeleri istenir. Power BI Desktop'ın en son sürümünü [Windows Store](https://aka.ms/pbidesktopstore)'dan alabileceğiniz gibi tüm desteklenen dilleri içeren ve bilgisayarınıza [indirip](https://www.microsoft.com/download/details.aspx?id=58494) yüklediğiniz tek bir yürütülebilir dosya olarak da elde edebilirsiniz.
+
+Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki bağlantılar şöyle yorumlanır:
+
+* \[blog\]: Çoğu özellik, aylık güncelleştirme blog gönderisinin bir bölümünde açıklanır.
+* \[video\]: Bazı özelliklerde, özelliği açıklayan ve yeni bir tarayıcı sekmesinde çalınan bir video alıntısı bulunur.
+* \[makale\]: Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir makale bulunur.
+* Kalan özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı gerektirmez.
+
+[Power BI Desktop aylık güncelleştirme videosunun](#power-bi-desktop-monthly-update-video) tamamını da izleyebilirsiniz.
+
+Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+
+
+### <a name="reporting"></a>Raporlama
+* Gradyan düzeni [[video]](https://youtu.be/BCNYMJKyjEo?t=15) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* Dilimleyici üst bilgi metnini daha fazla özelleştirme imkanı [[video]](https://youtu.be/BCNYMJKyjEo?t=159) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* Göreli saat filtresi genel kullanıma sunuldu [[video]](https://youtu.be/BCNYMJKyjEo?t=195) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
+
+
+### <a name="analytics"></a>Analiz
+* Soru-Cevap geliştirmeleri [[video]](https://youtu.be/BCNYMJKyjEo?t=214) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
+
+
+### <a name="visuals"></a>Görseller
+* Azure Haritalar görseli (önizleme) [[video]](https://youtu.be/BCNYMJKyjEo?t=390) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* XViz Multi-Axis Chart güncelleştirmeleri [[video]](https://youtu.be/BCNYMJKyjEo?t=783) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
+
+
+### <a name="modeling"></a>Modelleme
+* Excel finansal işlevleri için destek [[video]](https://youtu.be/BCNYMJKyjEo?t=812) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* Canlı bağlantı için etkinleştirilen model görünümü genel kullanıma sunuldu [[video]](https://youtu.be/BCNYMJKyjEo?t=956) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
+
+
+### <a name="data-preparation"></a>Veri hazırlama
+* Otomatik tür algılamayı devre dışı bırakma genel seçeneği [[video]](https://youtu.be/BCNYMJKyjEo?t=989) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>Şablon uygulamalar
+* YouTube Analytics by MAQ Software [[video]](https://youtu.be/BCNYMJKyjEo?t=1035) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
+
+
+### <a name="other-features"></a>Diğer özellikler
+* Power BI Desktop'tan dış araçları başlatma (önizleme) [[video]](https://youtu.be/BCNYMJKyjEo?t=1066) [[makale]](../create-reports/desktop-external-tools.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
+
+
+Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/).
+
+[Power BI hizmetindeki yenilikleri](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikleri](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) gözden geçirin.
+
+> [!NOTE]
+> [Power BI Desktop'ta kullanılabilir veri kaynaklarına](../connect-data/desktop-data-sources.md) bakın. Listemiz sürekli büyüyor, bu nedenle sık sık gözden geçirin.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
+Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
+
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
+
+Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebilirsiniz. Her zaman Power BI Desktop'ın önceki bir sürümünü değil en son sürümünü kullanmanızı öneririz. Tüm önceki sürümlerde aşağıdaki sınırlamalar vardır:
+
+* Power BI Desktop'ın önceki sürümlerine bakım sağlanmıyor; en son özellikler ve güncelleştirmeler için her zaman en son sürümü kullanmalısınız.
+* Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
+* Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
+* Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
+
+Önceki sürümü indirmek için bağlantıları izleyin: 
+
+* [Power BI Desktop’ın Temmuz 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07.exe)
+* [Power BI Desktop’ın Temmuz 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07_x64.exe)
 
 
 ## <a name="june-2020-update-2825858301"></a>Haziran 2020 Güncelleştirmesi (2.82.5858.301)
@@ -121,9 +200,6 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 * [Power BI Desktop'ın Haziran 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
 * [Power BI Desktop'ın Haziran 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
-
-
-
 
 
 
@@ -309,9 +385,6 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 
 
-
-
-
 ## <a name="march-2020-update-2795768562"></a>Mart 2020 Güncelleştirmesi (2.79.5768.562)
 
 Mart Power BI Desktop’ımızı sizinle paylaştığımız için kendimizi şanslı hissettik. 
@@ -404,11 +477,6 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 
 
-
-
-
-
-
 ## <a name="february-2020-update-2785740642"></a>Şubat 2020 Güncelleştirmesi (2.78.5740.642)
 
 Şubat güncelleştirmelerimizi beğendik ve yeni özelliklerimizin bir kutu çikolatadan daha güzel olduğunu düşündük. 
@@ -480,8 +548,8 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Önceki sürümü indirmek için bağlantıları izleyin: 
 
-* [Power BI Desktop’ın Şubat 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
-* [Power BI Desktop’ın Şubat 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
+* [Power BI Desktop’ın Şubat 2020 sürümü - 32 bit](https://download.microsoft.com/download/3/C/0/3C0A5D40-85C6-4959-BB51-3A2087B18BCA/PBIDesktopRS.msi)
+* [Power BI Desktop’ın Şubat 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>Aralık 2019 Güncelleştirmesi (2.76.5678.661)

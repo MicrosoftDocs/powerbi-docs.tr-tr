@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227703"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204446"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -59,8 +59,10 @@ Veri kümeleri iş yükü varsayılan olarak etkindir ve devre dışı bırakıl
 | **En Büyük Sonuç Satır Kümesi Sayısı** | DAX sorgusunda döndürülen satır sayısı üst sınırı. Varsayılan değer -1'dir (sınır yok) ve izin verilen değerler 100000 ile 2147483647 arasındadır. |
 | **Sorgu Belleği Sınırı (%)** | Çalışma yükünde MDX veya DAX sorgusu yürütmek için kullanılabilen belleğin en büyük yüzdesi. Varsayılan değer 0’dır ve bu, SKU’ya özgü otomatik sorgu belleği sınırının uygulanmasına neden olur. |
 | **Sorgu Zaman Aşımı (saniye)** | Sorgu zaman aşımına uğramadan önce geçebilecek en uzun süre. Varsayılan değer 3600 saniyedir (1 saat). 0 değeri sorguların zaman aşımına uğramayacağını belirtir. |
-| **Otomatik sayfa yenileme (önizleme)** | Premium çalışma alanlarının otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
+| **Otomatik sayfa yenileme** | Premium çalışma alanlarının sabit aralıkları temel alarak otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
 | **Minimum yenileme aralığı** | Otomatik sayfa yenileme açıksa, sayfa yenileme aralığı için izin verilen minimum aralık. Varsayılan değer beş dakika ve izin verilen minimum değer de bir saniyedir. |
+| **Değişiklik algılama ölçüsü** | Premium çalışma alanlarının değişiklik algılamasını temel alarak otomatik sayfa yenileme özellikli raporları olmasına izin vermek için açma/kapatma düğmesi. |
+| **Minimum yürütme aralığı** | Değişiklik algılama ölçüsü açıksa en düşük yürütme aralığının veri değişikliklerini yoklamasına izin verilir. Varsayılan değer beş saniye, izin verilen minimum değer de bir saniyedir. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>En Büyük Ara Satır Kümesi Sayısı
@@ -107,7 +109,7 @@ Varsayılan ayar 0’dır ve bu, aşağıdaki SKU’ya özgü otomatik sorgu bel
 | Otomatik Sorgu Belleği Sınırı | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
-Sistemin performansını korumak için, kullanıcı tarafından yapılandırılan sorgu belleği sınırından bağımsız olarak, Power BI raporları tarafından yürütülen tüm sorgularda 10 GB’lık bir sabit tavan zorunlu tutulur. Bu sabit tavan Analysis Services protokolünü (XMLA) kullanan araçların gönderdiği sorgulara uygulanmaz. Bellek çok fazla bellek kullanıyorsa kullanıcıların sorguyu ve hesaplamalarını basitleştirmeyi göz önünde bulundurması gerekir.
+Sistemin performansını korumak için, kullanıcı tarafından yapılandırılan sorgu belleği sınırından bağımsız olarak, Power BI raporları tarafından yürütülen tüm sorgularda 10 GB’lık bir sabit tavan zorunlu tutulur. Bu sabit tavan Analysis Services protokolünü (XMLA olarak da bilinir) kullanan araçların gönderdiği sorgulara uygulanmaz. Bellek çok fazla bellek kullanıyorsa kullanıcıların sorguyu ve hesaplamalarını basitleştirmeyi göz önünde bulundurması gerekir.
 
 #### <a name="query-timeout"></a>Sorgu Zaman Aşımı
 

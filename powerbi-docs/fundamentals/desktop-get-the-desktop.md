@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252648"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160223"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -97,6 +97,9 @@ Buradan veri modelleri veya raporlar oluşturmaya başlayabilir ve ardından bu 
 
 ## <a name="minimum-requirements"></a>Minimum gereksinimler
 Power BI Desktop'ı çalıştırmaya yönelik minimum gereksinimler aşağıdaki listede verilmiştir:
+
+> [!IMPORTANT]
+> Power BI Desktop, 31 Ocak 2021’den sonra Windows 7’de desteklenmeyecektir. Bu tarihten sonra Power BI Desktop, yalnızca en son sürümü için Windows 8 veya daha yeni sürümlerde desteklenecektir. 
 
 * Windows 7/Windows Server 2008 R2 veya sonraki sürümler
 * .NET 4.5

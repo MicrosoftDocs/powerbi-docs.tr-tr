@@ -7,107 +7,160 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/10/2020
+ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a1e42b4901e8659bb5d999294f29a80a0389280
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 070dfd4048c494f9a1865603be4e692231f771f5
+ms.sourcegitcommit: 9b193dc155a306738a23b6bf20bcc424b8c64afd
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557245"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "88247152"
 ---
-# <a name="automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik sayfa yenileme 
+# <a name="automatic-page-refresh-in-power-bi"></a>Power BI’da otomatik sayfa yenileme
 
-Kritik olayları izlerken, kaynak veriler güncelleştirildiği anda verilerin yenilenmesi önemlidir. Örneğin, üretim sektöründe bir makinenin hatalı çalıştığını veya hatalı çalışmak üzere olduğunu bilmeniz kritik önem taşır.
+Kritik olayları izlerken, kaynak veriler güncelleştirildiği anda verilerin yenilenmesi önemlidir. Örneğin, üretim sektöründe bir makinenin hatalı çalıştığını veya hatalı çalışmak üzere olduğunu bilmeniz kritik önem taşır. Sosyal medya yaklaşımı gibi sinyalleri izliyorsanız ani değişiklikleri gerçekleştikleri anda bilmek istersiniz.
 
-Power BI’daki otomatik sayfa yenileme özelliği, etkin rapor sayfanızın [DirectQuery kaynakları](https://docs.microsoft.com/power-bi/desktop-directquery-about) için önceden tanımlanmış bir tempoda yeni verileri sorgulamasını sağlar.
+Power BI’daki otomatik sayfa yenileme, etkin rapor sayfanızın [DirectQuery kaynakları](../connect-data/desktop-directquery-about.md) için önceden tanımlanmış bir tempoda yeni verileri sorgulamasını sağlar.
 
-## <a name="using-automatic-page-refresh"></a>Otomatik sayfa yenilemeyi kullanma
+## <a name="refresh-types"></a>Yenileme türleri
 
-Otomatik sayfa yenileme yalnızca DirectQuery veri kaynakları için kullanılabilir.
+Otomatik sayfa yenilemeyi kullanırken, sabit aralık ve değişiklik algılama olmak üzere iki tür yenileme vardır.
 
-Otomatik sayfa yenilemeyi kullanmak için, yenilemeyi etkinleştirmek istediğiniz rapor sayfasını seçin. **Görsel Öğeler** bölmesinde **Biçimlendirme** düğmesini (boya rulosu) seçin ve bölmenin alt kısmından **Sayfa yenileme**’yi bulun. 
+### <a name="fixed-interval"></a>Sabit aralık
+
+Bu yenileme türü, bir rapor sayfasındaki tüm görselleri bir saniye veya beş dakika gibi sabit bir aralığa göre güncelleştirmenize olanak verir. Bu belirli aralığa ulaşıldığında, söz konusu sayfadaki tüm görseller veri kaynağına bir güncelleştirme sorgusu gönderir ve uygun şekilde güncelleştirilirler.
+
+### <a name="change-detection"></a>Değişiklik algılama
+
+Bu yenileme türü, belirli bir aralık yerine verilerdeki değişiklikleri algılayarak sayfadaki görselleri yenilemenize olanak verir. Ayrıntılı ifade etmek gerekirse bu ölçüm, [DirectQuery kaynağınıza](../connect-data/desktop-directquery-about.md) yapılan değişikleri yoklar. Ölçüyü tanımlamanın yanı sıra, Power BI Desktop’ın değişiklikleri denetleme sıklığını da seçmeniz gerekir. Hizmette yayımladığınızda, bu yenileme türü yalnızca bir Premium kapasitenin parçası olan çalışma alanlarında desteklenir.
+
+## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik sayfa yenileme ile rapor yazma
+
+Otomatik sayfa yenileme yalnızca [DirectQuery sorguları](../connect-data/desktop-directquery-about.md) için kullanılabileceğinden, yalnızca bir DirectQuery veri kaynağına bağlandığınızda kullanılabilir hale gelir. Bu kısıtlama, her iki otomatik sayfa yenileme türü için de geçerlidir.
+
+Power BI Desktop’ta otomatik sayfa yenilemeyi kullanmak için, otomatik sayfa yenilemeyi etkinleştirmek istediğiniz rapor sayfasını seçin. **Görsel Öğeler** bölmesinde **Biçimlendirme** düğmesini (boya rulosu) seçin ve bölmenin alt kısmından **Sayfa yenileme** bölümünü bulun.
 
 ![Sayfa yenileme konumu](media/desktop-automatic-page-refresh/automatic-page-refresh-01.png)
 
-Aşağıdaki görüntüde **Sayfa yenileme** kartı gösterilmektedir. Numaralandırılmış öğeler resimden sonra açıklanmaktadır.
+1. Sayfa yenilemeyi açar veya kapatır.
+2. Yenileme türü
+3. Girişler ve bilgiler (yenileme türüne bağlı olarak)
 
-![Sayfa yenileme kartı](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
+**Sayfa yenileme** kartı yalnızca bir [DirectQuery kaynağına](../connect-data/desktop-directquery-about.md) bağlıysanız kullanılabilir. Otomatik sayfa yenilemeyi etkinleştirmek için geçişin Açık konumda olması gerekir. Gereken girişler ve sağlanan bilgiler, seçilen yenileme türüne bağlıdır.
 
-1.    Sayfa yenilemeyi açar veya kapatır
-2.    Sayfa yenileme aralığına ilişkin sayı değeri
-3.    Sayfa yenileme aralığı birimi
+### <a name="fixed-interval-setup"></a>Sabit aralık kurulumu
 
-Bu kartta sayfa yenilemeyi açabilir ve yenileme süresini seçebilirsiniz. Varsayılan değer 30 dakikadır. (En az yenileme aralığı bir saniyedir.) Raporunuz, belirlediğiniz aralıkta yenilemeye başlar. 
+Yenileme türü olarak **Otomatik sayfa yenilemeyi** seçtiğinizde, istenen yenileme aralığını sağlamanız gerekir. Varsayılan değer 30 dakikadır. (En az yenileme aralığı bir saniyedir.) Raporunuz, belirlediğiniz aralıkta yenilemeye başlar.
 
-## <a name="determining-the-page-refresh-interval"></a>Sayfa yenileme aralığını belirleme
+Ayrıntıları göster seçeneğine tıkladığınızda, Power BI şununla ilgili daha fazla bilgi sağlayacaktır:
+
+- Özellik yöneticiniz tarafından etkinleştirildiyse (yalnızca Power BI hesabınızda oturum açıldığında)
+- Yöneticiniz tarafından izin verilen en kısa aralık (yalnızca Power BI hesabınızda oturum açıldığında)
+- Gerçek yenileme oranı (genellikle seçtiğiniz aralıktan daha uzundur)
+- Son yenileme zamanı
+
+![Sayfa yenileme ayrıntılarını göster](media/desktop-automatic-page-refresh/automatic-page-refresh-02.png)
+
+### <a name="change-detection-setup"></a>Değişiklik algılama kurulumu
+
+Yenileme türü olarak **Değişiklik algılama** seçildiğinde **Değişiklik algılama ekle** bağlantısıyla karşılaşırsınız. **Değişiklik algılama** penceresinde şeritteki Modelleme sekmesinden de erişebilirsiniz. Daha sonra, **Sayfa yenileme** bölümündeki **Değişiklik algılama** simgesine tıklayın. Son olarak, Değerler kutusundaki herhangi bir değere sağ tıklayıp veya bu değerin yanındaki açılan oku seçip menüden **Değişiklik algılama** seçeneğini belirleyebilirsiniz.
+
+![Değişiklik algılama kartı](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
+
+Pencere açıldığında, mevcut bir ölçüyü seçebileceğiniz veya sıfırdan yeni bir ölçü oluşturabileceğiniz **Ölçü türü** seçeneğiyle karşılaşırsınız. Mevcut bir ölçüyü seçtiğinizde, alanlar listesinden istediğiniz ölçüyü seçmeniz veya ölçüyü **Mevcut ölçüyü seç** bölümüne sürükleyip bırakmanız yeterlidir. Yeni bir ölçü oluştururken say, farklı say, minimum, maksimum ve toplam arasından bir ölçüm için **Hesaplamayı seçebilirsiniz**. Örneğin, müşteri kimliklerini saymak için farklı say seçeneğini kullanabilir ve yalnızca listeye yeni bir müşteri eklendiğinde yenilemeyi tercih edebilirsiniz. Bir ölçüyü seçtiğinizde, Power BI’ın **değişiklikleri ne sıklıkta denetleyeceğini** belirlemeniz gerekir. Bu, Power BI’ın ölçü ve yoklama değişikliklerini hesaplama sıklığındaki aralığı ifade eder. Uygula’ya tıkladığınızda, değişiklik algılama simgesine sahip yeni bir ölçü alan listenizde görünür.
+
+![Değişiklik algılama penceresi](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
+
+Daha sonra sayfa yenileme bölümüne döndüğünüzde, değişiklik algılama için kullanılmakta olan ölçüme ilişkin bilgileri ve başvurabilmeniz için tanımlı aralığı görürsünüz.
+
+![Ayrıntılarla değişiklik algılama kartı](media/desktop-automatic-page-refresh/automatic-page-refresh-05.png)
+
+> [!NOTE]
+> Her model için yalnızca bir değişiklik algılama ölçüsüne izin verilir.
+
+## <a name="determining-the-refresh-interval"></a>Yenileme aralığını belirleme
 
 Otomatik sayfa yenileme etkinleştirildiğinde Power BI Desktop, DirectQuery kaynağınıza sürekli olarak sorgu gönderir. Sorgunun gönderilmesi ile verilerin döndürülmesi arasında bir gecikme olur. Bu nedenle kısa yenileme aralıkları için sorguların sorgulanan verileri yapılandırılan aralık içinde başarıyla döndürdüğünü onaylamanız gerekir. Veriler aralık içinde döndürülmezse görseller yapılandırılandan daha az sıklıkta güncelleştirilir.
 
+Bu konular hem sabit aralık hem de değişiklik algılama olmak üzere her iki yenileme türü için de geçerlidir. Aralarındaki asıl fark, değişiklik algılama için kaynağa sabit bir aralıkla geri dönen yalnızca bir sorgu olması ve görsellerin yenilemesinin yalnızca değişiklik algılama ölçüsünün değeri değiştiğinde tetiklenmesidir.
+
 En iyi uygulama olarak yenileme aralığı en azından beklenen yeni veri alım hızıyla eşleşmelidir:
 
-* Yeni veriler her 20 dakikada bir kaynağa ulaşırsa yenileme aralığınız 20 dakikadan kısa olamaz. 
-
-* Her saniye yeni veriler alınıyorsa aralığı bir saniye olarak ayarlayın. 
+* Yeni veriler her 20 dakikada bir kaynağa ulaşırsa yenileme aralığınız 20 dakikadan kısa olamaz.
+* Her saniye yeni veriler alınıyorsa aralığı bir saniye olarak ayarlayın.
 
 Bir saniye gibi düşük yenileme aralıkları için aşağıdakiler gibi faktörleri göz önünde bulundurun:
+
 - DirectQuery veri kaynağının türü
 - Sorgularınızın üzerinde oluşturduğu yük
-- Rapor görüntüleyicilerinizin kapasitenin veri merkezine uzaklığı 
+- Rapor görüntüleyicilerinizin kapasitenin veri merkezine uzaklığı
 
-Power BI Desktop’ta Performans Analizi’ni kullanarak döndürme sürelerini tahmin edebilirsiniz. Performans Analizi, her görsel sorgunun kaynaktan sonuçlarla dönmek için yeterli süresi olup olmadığını denetlemenize olanak verir. Ayrıca, zamanın harcandığı yeri belirlemenizi sağlar. Performans Analizi’nin sonuçlarına göre, veri kaynağını ayarlayabilir veya raporunuzdaki diğer görseller ve ölçülerle deneme yapabilirsiniz.
+Power BI Desktop’taki [Performans Analizi](desktop-performance-analyzer.md)’ni kullanarak dönüş sürelerini tahmin edebilir ve sabit aralıklı yenileme türü için sayfa yenileme bölümündeki ayrıntılar menüsünü gösterebilirsiniz. Performans Analizi, her görsel sorgunun kaynaktan sonuçlarla dönmek için yeterli süresi olup olmadığını denetlemenize olanak verir. Ayrıca, zamanın harcandığı yeri belirlemenizi sağlar. Performans Analizi’nin sonuçlarına göre, veri kaynağını ayarlayabilir veya raporunuzdaki diğer görseller ve ölçülerle deneme yapabilirsiniz.
 
-Aşağıdaki resimde, Performans Analizi’ndeki DirectQuery sonuçları gösterilmektedir:
+Aşağıdaki resimde, Performans Analizi’ndeki DirectQuery kaynağının sonuçları gösterilmektedir:
 
-![Performans Analizi sonuçları](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
+![Performans Analizi sonuçları](media/desktop-automatic-page-refresh/automatic-page-refresh-06.png)
 
-Bu veri kaynağıyla ilgili bazı diğer özellikleri ele alalım: 
+Bu veri kaynağıyla ilgili bazı diğer özellikleri ele alalım:
 
--    Veriler 2 saniyelik hızla ulaşır. 
--    Performans Analizi, yaklaşık 4,9 saniyelik (4,688 milisaniyelik) maksimum sorgu + görüntüleme süresini gösterir. 
--    Veri kaynağı, saniyede yaklaşık 1,000 eşzamanlı sorguyu işleyecek şekilde yapılandırılmıştır. 
--    Yaklaşık 10 kullanıcının raporu eşzamanlı olarak görüntülemesini beklersiniz.
+- Veriler 2 saniyelik hızla ulaşır
+- Performans Analizi, yaklaşık 4,9 saniyelik (4,688 milisaniyelik) maksimum sorgu + görüntüleme süresini gösterir
+- Veri kaynağı, saniyede yaklaşık 1,000 eşzamanlı sorguyu işleyecek şekilde yapılandırılmıştır
+- Yaklaşık 10 kullanıcının raporu eşzamanlı olarak görüntülemesini beklersiniz
 
 Böylece aşağıdaki denklemdekiler oluşur:
 
-**5 görsel x 10 kullanıcı = yaklaşık 50 sorgu**
+- **5 görsel x 10 kullanıcı = yaklaşık 50 sorgu**
 
-Bu hesaplamanın sonucu, veri kaynağının destekleyebileceğinden çok daha fazla yüke sahip olduğunu gösterir. Veriler iki saniyelik hızla ulaşır ve bu da sizin yenileme hızınız olmalıdır. Ancak sorgunun tamamlanması yaklaşık beş saniye sürdüğünden bunu beş saniyeden uzun bir süreye ayarlamanız gerekir. 
+Bu hesaplamanın sonucu, veri kaynağının destekleyebileceğinden çok daha fazla yüke sahip olduğunu gösterir. Veriler iki saniyelik hızla ulaşır ve bu da sizin yenileme hızınız olmalıdır. Ancak sorgunun tamamlanması yaklaşık beş saniye sürdüğünden bunu beş saniyeden uzun bir süreye ayarlamanız gerekir.
 
-Ayrıca, raporunuzu hizmette yayımladığınızda bu sürenin değişebileceğini unutmayın. Rapor, bulutta barındırılan Azure Analysis Services örneğini kullandığı için bu fark oluşur. Yenileme hızınızı uygun şekilde ayarlamanız faydalı olabilir. 
+Ayrıca, raporunuzu hizmette yayımladığınızda bu sürenin değişebileceğini unutmayın. Rapor, bulutta barındırılan Azure Analysis Services örneğini kullandığı için bu fark oluşur. Yenileme hızınızı uygun şekilde ayarlamanız faydalı olabilir.
 
-Sorguları ve yenileme zamanlamasını hesaba katmak için Power BI yalnızca kalan tüm yenileme sorguları tamamlandığında bir sonraki yenileme sorgusunu çalıştırır. Bu nedenle, yenileme aralığınız, sorgularınızın işlenme süresinden kısa olursa Power BI yalnızca kalan sorgular tamamlandıktan sonra tekrar yenileme yapar. 
+Sorguları ve yenileme zamanlamasını hesaba katmak için Power BI yalnızca kalan tüm yenileme sorguları tamamlandığında bir sonraki yenileme sorgusunu çalıştırır. Bu nedenle, yenileme aralığınız, sorgularınızın işlenme süresinden kısa olursa Power BI yalnızca kalan sorgular tamamlandıktan sonra tekrar yenileme yapar.
+
+Değişiklik algılama yenileme türü söz konusu olduğunda bu konular yine geçerlidir. [Performans Analizi](desktop-performance-analyzer.md), raporunuzdaki hiçbir görselle eşleşmese dahi değişiklik algılama ölçü sorgusuna yönelik sonuçları size gösterir. Önceden bahsettiğimiz kılavuzun aynısını izleyen bu özel ölçü türünde sorun giderebilmeniz için bu özelliği size sunuyoruz. Bu yenileme türündeki asıl fark, tüm görsellerdeki tüm sorgular yerine yalnızca bir sorgunun veri kaynağına gitmesidir. Raporu birden çok kullanıcı görüntülediğinde de durum aynıdır.
+
+![Değişiklik algılamaya sahip Performans Analizi sonuçları](media/desktop-automatic-page-refresh/automatic-page-refresh-07.png)
+
+Önceden ele aldığımız senaryonun aynısı için:
+
+- **5 görsele yönelik 1 değişiklik algılama ölçü sorgusu, görüntüleyici sayısından bağımsız olarak tek bir sorgu oluşturur**
+
+- **Değişiklik algılama ölçüsü, 5 görsel x 10 kullanıcı = yaklaşık 50 sorgu olan aynı senaryoyu varsayarak bir güncelleştirmeyi tetiklediğinde**
+
+Özetlemek gerekirse, değişiklik algılama kullanılırken bir değişiklik algılanana kadar veri kaynağına yalnızca bir sorgu gönderilir. Bu durum oluştuğunda, sabit aralıklı yenileme türü için kullanılan mantığın aynısı tüm kullanıcılar için tüm görseller güncelleştirilirken aynı sayıda sorgu oluşturur. Bu yaklaşımın, uzun vadede daha verimli olması beklenir.
 
 Şimdi de kapasite yöneticisi olarak performans sorunlarını nasıl algılayıp tanılayabileceğinize bakalım. Daha sonra bu makalenin ilerleyen bölümünde, performans ve sorun giderme ile ilgili diğer sorular ve yanıtlar için [Sık sorulan sorular](#frequently-asked-questions) bölümüne de göz atabilirsiniz.
 
 ## <a name="automatic-page-refresh-in-the-power-bi-service"></a>Power BI hizmetinde otomatik sayfa yenileme
 
-Ayrıca, Power BI Desktop’ta yazılmış ve Power BI hizmetinde yayımlanmış olan raporlar için de otomatik sayfa yenilemeyi ayarlayabilirsiniz. 
+Veri kaynağı [DirectQuery](../connect-data/desktop-directquery-about.md) olduğu sürece, Power BI hizmetinde yayımlanan raporlar için otomatik sayfa yenilemeyi ayarlayabilirsiniz.
 
-Power BI hizmetindeki raporlar için otomatik sayfa yenilemeyi yapılandırmak için, Power BI Desktop’takine benzer adımları kullanırsınız. Power BI hizmetinde yapılandırıldığında, otomatik sayfa yenileme [eklenmiş Power BI](../developer/embedded/embedding.md) içeriğini de destekler. Bu resimde, Power BI hizmeti için **Sayfa yenileme** yapılandırması gösterilmektedir:
+Power BI hizmetindeki raporlar için otomatik sayfa yenilemeyi yapılandırma adımları Power BI Desktop’takine benzer. Power BI hizmetinde yapılandırıldığında, otomatik sayfa yenileme [eklenmiş Power BI](../developer/embedded/embedding.md) içeriğini de destekler. Bu resimde, Power BI hizmeti için **Sayfa yenileme** yapılandırması gösterilmektedir:
 
-![Power BI hizmetinde otomatik sayfa yenileme](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
+![Hizmette sayfa yenileme konumu](media/desktop-automatic-page-refresh/automatic-page-refresh-08.png)
 
-Bu açıklamalar, numaralandırılmış öğelere karşılık gelir: 
+1. Sayfa yenilemeyi açar veya kapatır.
+2. Yenileme türü
+3. Girişler ve bilgiler (yenileme türüne bağlı olarak)
 
-1.    Sayfa yenilemeyi açar veya kapatır.
-2.    Sayfa yenileme aralığına ilişkin sayı değeri. Bir tamsayı olmalıdır.
-3.    Sayfa yenileme aralığı birimi.
+> [!NOTE]
+> Power BI Desktop’tan otomatik sayfa yenileme özelliği etkin raporunuzu hizmette yayımlarken, veri kümesi ayarları menüsünde DirectQuery veri kaynağı için kimlik bilgilerini sağlamanız gerekir. Kaynaktaki güvenlik yapılandırmasını dikkate almak kaydıyla, rapor görüntüleyicilerinin bu veri kaynağına kendi kimlikleriyle erişebilmesi için kimlik bilgilerini ayarlayabilirsiniz. Değişiklik algılama ölçüsü durumunda, her zaman yazarın kimlik bilgileriyle değerlendirilir.
 
 ### <a name="page-refresh-intervals"></a>Sayfa yenileme aralıkları
 
-Power BI hizmetinde izin verilen sayfa yenileme aralıkları, raporun çalışma alanı türünden etkilenir. Bu raporlar için geçerlidir:
+Power BI hizmetinde izin verilen sayfa yenileme türleri ve aralıkları, raporun çalışma alanı türünden etkilenir. Bu senaryolar için geçerlidir:
 
 * Otomatik sayfa yenileme özelliği etkin olan bir çalışma alanında rapor yayımlama
 * Bir çalışma alanında zaten bulunan bir sayfa yenileme aralığını düzenleme
 * Doğrudan hizmette rapor oluşturma
 
-Power BI Desktop’ta yenileme aralıklarına yönelik bir kısıtlama yoktur. Yenileme aralığı her saniye gibi bir sıklıkta olabilir. Ancak raporlar Power BI hizmetinde yayımlandığında, belirli kısıtlamalar uygulanır. Bu kısıtlamalar aşağıdaki bölümlerde açıklanmıştır.
+Power BI Desktop’ın yenileme aralığı için bir kısıtlaması yoktur ve yenileme aralığı, bir saniye sıklığında bile olabilir. Ancak, raporlar Power BI hizmetinde yayımlandığında, aşağıdaki bölümlerde açıklanan belirli kısıtlamalar uygulanır.
 
 ### <a name="restrictions-on-refresh-intervals"></a>Yenileme aralıklarındaki kısıtlamalar
 
-Power BI hizmetinde, otomatik sayfa yenilemeye çalışma alanı gibi faktörler ve Premium hizmetleri kullanıp kullanmadığınız temel alınarak kısıtlamalar uygulanır.
+Power BI hizmetinde, otomatik sayfa yenileme kısıtlamaları raporun yayımlandığı çalışma alanına göre uygulanır. Premium hizmetleri veya Premium kapasitesi yönetici ayarlarını kullanmanız fark etmez.
 
 Bu kısıtlamaların nasıl çalıştığını netleştirmek için kapasiteler ve çalışma alanıyla ilgili bazı arka plan bilgileriyle başlayalım.
 
@@ -119,26 +172,31 @@ Power BI *çalışma alanları* kapasitelerin içinde yer alır. Bunlar güvenli
 
 Burada, iki çalışma alanı senaryosu için bazı ayrıntılara yer verilmiştir:
 
-**Paylaşılan çalışma alanları**. Düzenli çalışma alanları (Premium kapasitenin parçası olmayan çalışma alanları) için otomatik sayfa yenileme minimum 30 dakikalık aralığa (izin verilen en düşük aralık) sahip olur.
+**Paylaşılan çalışma alanları**. Düzenli çalışma alanları (Premium kapasitenin parçası olmayan çalışma alanları) için otomatik sayfa yenileme minimum 30 dakikalık aralığa (izin verilen en düşük aralık) sahip olur. Değişiklik algılama yenileme türü, paylaşılan kapasitelerde kullanılamaz.
 
-**Premium çalışma alanları**. Premium çalışma alanlarındaki otomatik sayfa yenileme kullanılabilirliği, Premium yöneticinizin Power BI Premium kapasitesi için ayarladığı iş yükü ayarlarına bağlı olur. Otomatik sayfa yenilemeyi ayarlama yeteneğinizi etkileyebilecek iki değişken vardır:
+**Premium çalışma alanları**. Premium çalışma alanlarındaki otomatik sayfa yenileme kullanılabilirliği (hem sabit aralık hem de değişiklik algılama için), Premium yöneticinizin Power BI Premium kapasitesi için ayarladığı iş yükü ayarlarına bağlı olur. Otomatik sayfa yenilemeyi ayarlama yeteneğinizi etkileyebilecek iki değişken vardır:
 
- - **Özellik açık/kapalı**. Kapasite yöneticiniz özelliği devre dışı bıraktıysa yayımlanmış raporunuzda herhangi bir sayfa yenileme türü ayarlayamazsınız.
+ - **Özellik açık/kapalı**. Kapasite yöneticiniz özelliği devre dışı bıraktıysa yayımlanmış raporunuzda herhangi bir sayfa yenileme türü ayarlayamazsınız. Sabit aralık ve değişiklik algılama ayrı ayrı açılıp kapatılabilir.
 
- - **Minimum yenileme aralığı**. Özellik etkinleştirilirken, kapasite yöneticinizin bir minimum yenileme aralığı ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar. Bu geçersiz kılma işlemi, aşağıdaki tabloda “Kapasite yönetimini geçersiz kılma” olarak adlandırılmıştır. 
+ - **Minimum yenileme aralığı**. Sabit aralık için otomatik sayfa yenileme etkinleştirildiğinde, kapasite yöneticinizin bir en kısa yenileme aralığı (varsayılan değer beş dakikadır) ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar.
+
+ - **En kısa yürütme aralığı**. Değişiklik algılama etkinleştirildiğinde, kapasite yöneticinizin bir en kısa yürütme aralığı (varsayılan değer beş saniyedir) ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar.
+
+![Kapasite yönetim portalında otomatik sayfa yenileme ayarları](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 Bu tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](../connect-data/service-dataset-modes-understand.md) ilişkin sınırlar açıklanmaktadır:
 
 | Depolama modu | Ayrılmış kapasite | Paylaşılan kapasite |
 | --- | --- | --- |
-| DirectQuery | **Desteklenen**: Evet <br>**Minimum yenileme aralığı**: 1 saniye <br>**Kapasite yönetimini geçersiz kılma**: Evet | **Desteklenen**: Evet <br>**Minimum yenileme aralığı**: 30 dakika <br>**Kapasite yönetimini geçersiz kılma**: Hayır |
-| İçeri Aktar | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK |
-| Karma mod (DirectQuery ve diğer veri kaynakları) | **Desteklenen**: Evet <br>**Minimum yenileme aralığı**: 1 saniye <br>**Kapasite yönetimini geçersiz kılma**: Evet | **Desteklenen**: Evet <br>**Minimum yenileme aralığı**: 30 dakika <br>**Kapasite yönetimini geçersiz kılma**: Hayır |
-| Live connect AS | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK |
-| Live connect PBI | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK | **Desteklenen**: Hayır <br>**Minimum yenileme aralığı**: YOK <br>**Kapasite yönetimini geçersiz kılma**: YOK |
+| DirectQuery | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| İçeri Aktar | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
+| Karma mod (DirectQuery ve diğer veri kaynakları) | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| Live connect AS | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
+| Live connect PBI | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
 
-> [!NOTE]
-> Power BI Desktop’tan otomatik sayfa yenileme özelliği etkin raporunuzu hizmette yayımlarken, veri kümesi ayarları menüsünde DirectQuery veri kaynağı için kimlik bilgilerini sağlamanız gerekir.
+*Tablo göstergesi:*
+1. *SA: Sabit aralık*
+2. *DA: Değişiklik algılama*
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
@@ -146,8 +204,9 @@ Power BI Desktop veya Power BI hizmetinde otomatik sayfa yenilemeyi kullanırken
 
 * İçeri Aktarma, LiveConnect ve Push depolama modları, otomatik sayfa yenileme için desteklenmez.  
 * En az bir DirectQuery veri kaynağı olan bileşik modeller desteklenir.
-* Power BI Desktop’ta yenileme aralıklarına yönelik bir kısıtlama yoktur. Aralık her saniye gibi bir sıklıkta olabilir. Raporlar Power BI hizmetinde yayımlandığında, bu makalenin [önceki](#restrictions-on-refresh-intervals) kısmında açıklandığı gibi belirli kısıtlamalar uygulanır.
-* SharePoint Online ekleme seçeneği, otomatik sayfa yenileme özelliğini desteklemez.
+* Power BI Desktop’ta yenileme aralıklarına yönelik bir kısıtlama yoktur. Aralık, hem sabit aralık hem de değişiklik algılama yenileme türü için her saniye gerçekleşecek sıklıkta olabilir. Raporlar Power BI hizmetinde yayımlandığında, bu makalenin [önceki](#restrictions-on-refresh-intervals) kısmında açıklandığı gibi belirli kısıtlamalar uygulanır.
+* Veri kümesi başına yalnızca bir değişiklik algılama ölçüsüne sahip olabilirsiniz.
+* Bir Power BI kiracısında değişiklik algılama ölçüsüne sahip en fazla 10 model olabilir.
 
 ### <a name="performance-diagnostics"></a>Performans tanılamaları
 
@@ -181,13 +240,14 @@ Kapasitenizin düşük öncelikli sorgularla aşırı yüklendiğini fark ederse
 **Ben bir rapor yazarıyım. Rapor yenileme aralığını Power BI Desktop’ta bir saniye olacak şekilde tanımladım, ancak yayımlandıktan sonra raporum hizmette yenilenmiyor.**
 
 * Sayfa için otomatik sayfa yenilemenin açık olduğundan emin olun. Bu ayar sayfa başına olduğundan, raporda yenilemek istediğiniz her bir sayfa için bunun açık olduğundan emin olmanız gerekir.
-* Ekli Premium kapasiteye sahip bir çalışma alanına yükleyip yüklemediğinizi kontrol edin. Yapmadıysanız yenileme aralığınız 30 dakikada kilitlenir.
-* Raporunuz bir Premium çalışma alanındaysa bu özelliğin ekli kapasite için etkin olup olmadığını yöneticinize sorun. Ayrıca, kapasite için minimum yenileme aralığının raporunuzla aynı veya raporunuzdan daha düşük olduğundan da emin olun.
+* Ekli Premium kapasiteye sahip bir çalışma alanına yükleyip yüklemediğinizi kontrol edin. Henüz yapmadıysanız yenileme aralığınız sabit aralık için 30 dakikada kilitlenir ve değişiklik algılama için kullanılamaz.
+* Raporunuz bir Premium çalışma alanındaysa bu özelliğin ekli kapasite için etkin olup olmadığını yöneticinize sorun. Ayrıca, kapasite için minimum yenileme aralığının raporunuzla aynı veya raporunuzdan daha düşük olduğundan da emin olun. Bu hem sabit aralık hem de değişiklik algılama için ayrı ayrı geçerlidir
 
 **Ben bir kapasite yöneticisiyim. Otomatik sayfa yenileme aralığım için ayarları değiştirdim, ancak değişiklikler yansıtılmadı. Başka bir deyişle, raporlar halen olmaması gereken bir hızda yenileniyor veya otomatik sayfa yenileme ayarını açtığım halde yenilenmiyor.**
 
 * Kapasite yöneticisi kullanıcı arabiriminde yapılan otomatik sayfa yenileme ayarı değişikliklerinin raporlara yayılması 5 dakika kadar sürebilir.
 * Otomatik sayfa yenileme özelliğini hem kapasite için açmanız hem de bir raporun bunu etkinleştirmek istediğiniz sayfaları için açmanız gerekir.
+* Her iki yenileme türü de, etkinleştirmekte olduğunuz yenileme türünün açıldığından emin olmak amacıyla ayrı ayrı yönetilir.
 
 **Raporum karma modda çalışıyor. (Karma mod, raporun hem DirectQuery bağlantısına hem de İçeri aktarma veri kaynağına sahip olduğu anlamına gelir.) Bazı görseller yenilenmiyor.**
 
@@ -207,6 +267,13 @@ Kapasitenizin düşük öncelikli sorgularla aşırı yüklendiğini fark ederse
 **Otomatik sayfa yenileme sorguları, önbellekten sunulur mu?**
 
 * Hayır. Tüm otomatik sayfa yenileme sorguları, önbelleğe alınmış verileri atlar.
+
+**Değişiklik algılama ölçüm güncelleştirmeleri tetiklemiyor**
+
+* Değişiklik algılamanın sayfa için açık olduğundan emin olun. Bu ayar sayfa başına olduğundan, raporda yenilemek istediğiniz her bir sayfa için bunun açık olduğundan emin olmanız gerekir.
+* Ekli Premium kapasiteye sahip bir çalışma alanına yükleyip yüklemediğinizi kontrol edin. Bunu yapmadıysanız değişiklik algılama çalışmayacaktır.
+* Raporunuz bir Premium çalışma alanındaysa bu özelliğin ekli kapasite için etkin olup olmadığını yöneticinize sorun. Ayrıca, kapasite için minimum yürütme aralığının raporunuzla aynı veya raporunuzdan daha düşük olduğundan da emin olun.
+* Önceden bahsedilen tüm öğeleri denetlediyseniz ölçünün değişip değişmediğini görmek için Power BI Desktop’ta veya Düzenleme modunda denetleyin. Bunu yapmak için ölçüyü tuvale sürükleyin ve değerin değişip değişmediğini denetleyin. Değer değişmezse ölçü veri kaynağı değişikliklerini yoklamak için iyi bir tercih olmayabilir.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

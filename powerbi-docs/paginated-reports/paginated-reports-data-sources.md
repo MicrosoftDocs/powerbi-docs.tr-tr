@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252855"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168432"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -27,7 +27,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | --- | --- | --- |
 | Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 | Azure SQL DB ile Kurumsal Ağ Geçidi kullanabilirsiniz. Bununla birlikte söz konusu senaryolarda kimlik doğrulaması için SSO veya oAuth2 kullanamazsınız.   |
 | Azure SQL Yönetilen Örneği | Temel | Ortak veya Özel Uç Nokta aracılığıyla (Özel Uç Nokta’nın Kurumsal Ağ Geçidi üzerinden yönlendirilmesi gerekir)  |
-| Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir.|
+| Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının BlackForest bölgesindeki tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir. Bu yalnızca BlackForest bölgesinde geçerlidir. |
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
 | Premium Power BI veri kümesi (XMLA) | SSO | Power BI veri kümeleri ekli sayfalandırılmış raporlar için veri kaynağı olarak desteklenmez.  |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |

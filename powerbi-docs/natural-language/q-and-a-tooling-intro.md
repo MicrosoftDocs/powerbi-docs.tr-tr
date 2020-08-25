@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866086"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578174"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Soru-Cevap eğitimi için Soru-Cevap araçlarına giriş (önizleme)
 
@@ -42,13 +42,31 @@ Soru-Cevap araçları yalnızca Power BI Desktop’ta kullanılabilir ve şu and
 
     ![Soru-Cevap Kullanmaya başlama](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
-### <a name="review-questions"></a>Soruları gözden geçirin
+### <a name="field-synonyms"></a>Alan Eş Anlamlıları
+
+Modele ait tüm tablo ve sütunları görmek için **Alan Eş Anlamlıları**’nı seçin. Bu görünüm, kullanıcılara yardım etmek amacıyla sütunlarla eşleşecek alternatif adlar eklemenize olanak verir. Bir sütunun veya tablonun Soru-Cevap’tan gizlenmesi gerekip gerekmediğini de seçebilirsiniz.
+
+![Soru-Cevap alan eş anlamlıları giriş sayfası](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-home.png)
+
+Genişletmek için tablolardan birine tıkladığınızda, aşağıdakine benzer bir iletişim kutusu görürsünüz.
+
+![Genişletilmiş Soru-Cevap alan eş anlamlıları](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-expanded.png)
+
+İletişim kutusu, tüm sütun ve tablolara ek olarak, kullanıcıların veri kümesine soru sorarken kullanabileceği ilgili terimleri/eş anlamlıları gösterir. Tüm terimleri hızla tek bir yerde görebilir ve birden çok sütuna terim ekleyip kaldırabilirsiniz. 
+
+- Terim ekleme: Satış adlı bir alanınız varsa Gelir diye bir terim eklemeye karar verebilirsiniz. Böylece kullanıcı, satış sözcüğü yerine bu sözcüğü kullanabilir. Hızla yeni terim eklemek için İmza ekle’ye tıklayın
+
+- Soru-Cevap’a dahil etme: Bu seçenek, bir sütun veya tablonun Soru-Cevap’ta atlanmasını, yani görüntülenmemesini veya bu sütunu içeren bir sonucun gösterilmemesini sağlar. Tarihlerle ilgilenirken bir sütunu dahil etmemeye karar verebileceğiniz bir durum oluşabilir. Çok sayıda tarih alanı veya yabancı anahtar varsa kullanıcı tarihle ilgili bir soru sorduğunda doğru tarih sütununun seçilmesini sağlamak için bir tanesi hariç tüm tarih sütunlarını kaldırmaya karar verebilirsiniz.
+
+- Önerilen Terimler: Soru-Cevap, terimleri/eş anlamlıları hızla eklemenize yardımcı olmak için öneriler altyapımızdan alınan önerilen terimleri de size tavsiye eder. Öneriler eklenmese de çalışır, ancak kullanıcıya Soru-Cevap’ın bir yanıtı olduğunu düşündüğünü, fakat emin olmadığını gösteren turuncu noktalı çizgi gösterir. Önerilen eş anlamlı sözcük doğruysa eş anlamlı olarak kullanılabilmesi için + simgesine tıklayın. Öneri hatalıysa x’e tıklayarak terimi kaldırın ve terim/eş anlamlı olarak kullanılmayacağından ve Soru-Cevap’ta işlenmeyeceğinden emin olun. Öneriler hem Office Sözlüğü tarafından desteklenir hem de bir rapordaki yeniden adlandırmaları temel alır
+
+### <a name="review-questions"></a>Soruları gözden geçirme
 
 Kiracınız için Power BI hizmetinde kullanılmakta olan veri kümelerinin bir listesini görmek için **Soruları inceleyin**’i seçin. **Soruları inceleyin** sayfası ayrıca veri kümesi sahibini, çalışma alanını ve son yenileme tarihini gösterir. Buradan bir veri kümesi seçerek kullanıcıların sorduğu soruları görebilirsiniz. Veriler tanınmayan sözcükleri de gösterir. Burada gösterilen tüm veriler son 28 güne aittir.
 
 ![Soru-Cevap sorularını inceleme](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
-### <a name="teach-qa"></a>Soru-Cevap’a öğretin
+### <a name="teach-qa"></a>Soru-Cevap’a öğretme
 
 **Soru-Cevap Öğretimi** bölümünü kullanarak Soru-Cevap’ı sözcükleri tanıması için eğitebilirsiniz. Başlamak için, Soru-Cevap’ın tanımadığı bir veya daha fazla sözcüğü içeren bir soru yazın. Soru-Cevap ilgili terimin tanımını sorar. Sözcüğün temsil ettiği anlama karşılık gelen bir filtre veya alan adı girin. Bundan sonra Soru-Cevap özgün soruyu yeniden yorumlar. Sonuçlardan memnunsanız girişinizi kaydedebilirsiniz. Daha fazla bilgi edinmek için bkz. [Soru-Cevap Öğretimi](q-and-a-tooling-teach-q-and-a.md)
 
@@ -62,7 +80,7 @@ Soru-Cevap Öğretimi bölümünde kaydettiğiniz her şey burada gösterilir, b
 
 ### <a name="suggest-questions"></a>Soru önerme
 
-Herhangi bir kurulum yapmadan Soru-Cevap başlangıç olarak çeşitli sorular önerecektir. Bu sorular, veri modeliniz temelinde otomatik olarak oluşturulur. **Soru öner** bölümünde otomatik olarak oluşturulan soruların üzerine kendi sorularınızı yazabilirsiniz. 
+Herhangi bir kurulum yapmadan Soru-Cevap başlangıç olarak çeşitli sorular önerecektir. Bu sorular, veri modeliniz temelinde otomatik olarak oluşturulur. **Soru öner** bölümünde otomatik olarak oluşturulan soruların üzerine kendi sorularınızı yazabilirsiniz.
 
 Başlangıç olarak eklemek istediğiniz soruyu metin kutusuna yazın. Önizleme bölümünde, Soru-Cevap görselinde sonucun nasıl görüneceğini görürsünüz. 
 
@@ -74,30 +92,12 @@ Bu soruyu **Önerilen sorularınız**’a eklemek için **Ekle**’yi seçin. Gi
  
 Öneriler sorular listenizin Soru-Cevap görselinde gösterilmesi için **Kaydet**’i seçtiğinizden emin olun. 
 
+> [!NOTE]
+> Önerilen sorular, Soru-Cevap görselinin tüm örnekleri için görünür. Her Soru-Cevap görseli için ayrı bir öneri kümesi oluşturmak mümkün olmaz.
+> 
+> 
 
 ## <a name="other-qa-settings"></a>Diğer Soru-Cevap ayarları
-
-### <a name="bulk-synonyms"></a>Toplu eş anlamlılar
-
-Power BI Desktop **Modelleme** sekmesinde Soru-Cevap deneyimini geliştirmeye yönelik daha fazla seçenek bulunur. 
-
-1. Power BI Desktop'ta Modelleme görünümünü seçin.
-
-2. Bir alan veya tablo seçerek **Özellikler** bölmesini görüntüleyin.  Bu bölme, tuvalin sağ tarafında gösterilir ve birkaç Soru-Cevap eylemini listeler. Seçeneklerden biri **Eş anlamlılar**’dır. **Eş anlamlılar** kutusunda, seçtiğiniz tablo veya alan için hızlıca alternatifler tanımlayabilirsiniz. Ayrıca, Araçlar iletişim kutusunun **Soru-Cevap Öğretimi** bölümünde eş anlamlıları tanımlayabilirsiniz ancak bir tablodaki çok sayıda alan için eş anlamlıları genellikle burada daha hızlı tanımlarsınız.
-
-    ![Soru-Cevap Modelleme bölmesi eş anlamlılar](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
-
-3. Tek bir alana ait birden çok eş anlamlı tanımlamak için, bir sonraki eş anlamlıyı göstermek üzere virgül kullanın.
-
-### <a name="hide-from-qa"></a>Soru-Cevap’tan gizle
-
-Ayrıca alanları ve tabloları Soru-Cevap sonuçlarında görünmeyecek şekilde gizleyebilirsiniz. 
-
-1. Power BI Desktop'ta Modelleme görünümünü seçin.
-
-2. Bir alan veya tablo seçerek **Özellikler** bölmesini görüntüleyin ve **Gizli** seçeneğini **Açık** duruma getirin.
-
-    Soru-Cevap bu ayara uyar ve alanın Soru-Cevap tarafından tanınmamasını sağlar. Örneğin, aynı ada sahip alanların gereksiz yinelenmesini önlemek için Kimlik alanlarını ve yabancı anahtarları gizlemek isteyebilirsiniz. Alanı gizleseniz bile Soru-Cevap dışındaki görsellerde Power BI Desktop ile kullanabilirsiniz.
 
 ### <a name="set-a-row-label"></a>Satır etiketi ayarlama
 

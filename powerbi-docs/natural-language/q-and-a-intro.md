@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939650"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578117"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI Soru-Cevap’a giriş
 
@@ -43,22 +43,20 @@ Sorunuzu yazarken Power BI Soru-Cevap, doğal dil ile hızlıca üretken olmanı
 
 ![Soru-Cevap ifadesi tamamlama](media/qna-suggestion-phrase-completion.png)
 
-### <a name="redblue-underlines"></a>Kırmızı/Mavi alt çizgiler
+### <a name="redblueorange-underlines"></a>Kırmızı/Mavi/Turuncu alt çizgiler
 
 Soru-Cevap, sistemin anladığı veya tanımadığı sözcükleri görmenize yardımcı olmak için sözcükleri alt çizgilerle gösterir. Kesintisiz mavi alt çizgi, sistemin sözcüğü veri modelindeki bir alanla veya değerle başarılı bir şekilde eşleştirdiğini gösterir. Aşağıdaki örnekte, Soru-Cevap’ın *AB Satışları* sözcüğünü tanıdığı gösterilmektedir.
 
 ![Soru-Cevap mavi alt çizgi](media/qna-blue-underline.png)
 
-Genellikle Soru-Cevap’a bir sözcük yazdığınızda sözcük kırmızı alt çizgiyle işaretlenir. Kırmızı alt çizgi, iki olası sorundan birini gösterebilir. İlk sorun türü *düşük güven* kategorisine ayrılmıştır. Şüpheli veya belirsiz bir sözcük yazarsanız alanın altına kırmızı çizgi eklenir. 'Satış' sözcüğü örnek olabilir. Birden fazla alan 'Satış' sözcüğünü içerebilir. Bu nedenle sistem, hedeflediğiniz alanı seçmenizi istemek için kırmızı bir alt çizgi kullanır. 'Alan' sözcüğünü yazmanıza rağmen eşleştiği sütunun 'bölge' olması başka bir düşük güven örneğidir. Power BI Soru-Cevap, Bing ve Office ile tümleştirme sayesinde aynı anlama gelen sözcükleri tanır. Soru-Cevap, sözcüğe kırmızı alt çizgi ekler, böylece doğrudan eşleşme olmadığını bilirsiniz.
+ Turuncu alt çizgi, sözcüğün veya sözcüklerin*düşük güven düzeyinde* olduğunu belirtir. Şüpheli veya belirsiz bir sözcük yazarsanız alanın altına turuncu çizgi eklenir. 'Satış' sözcüğü örnek olabilir. Birden fazla alan “Satış” sözcüğünü içerebilir. Bu nedenle sistem, hedeflediğiniz alanı seçmenizi istemek için turuncu bir alt çizgi kullanır. 'Alan' sözcüğünü yazmanıza rağmen eşleştiği sütunun 'bölge' olması başka bir düşük güven örneğidir. Bing ve Office ile olan tümleştirme sayesinde Power BI Soru-Cevap, aynı anlama gelen sözcükleri tanıyarak rapordaki yeniden adlandırmaları olası öneriler olarak yorumlar. Soru-Cevap, sözcüğe turuncu alt çizgi ekler, böylece doğrudan eşleşme olmadığını bilirsiniz.
 
-![Soru-Cevap kırmızı altı çizili Satış](media/qna-red-underline-sales.png)
-
-Sorunun ikinci türü, Soru-Cevap’ın sözcüğü hiç tanımamasıdır. Verilerin hiçbir yerinde bahsedilmeyen, etki alanına özgü bir terim kullanarak bu sorunla karşılaşmış olabilirsiniz veya veri alanları yanlış adlandırılmıştır. Verilerin hiçbir yerinde mevcut olmamasına rağmen 'Maliyetler' sözcüğünün kullanılması bu durumun örneği olabilir. Sözcük Türkçe sözlükte yer alır ancak Soru-Cevap bu sözcüğe kırmızı alt çizgi ekler.
+Kırmızı alt çizgi, Soru-Cevap’ın kelimeyi hiçbir şekilde tanımadığı anlamına gelir. Verilerin hiçbir yerinde bahsedilmeyen, etki alanına özgü bir terim kullanarak bu sorunla karşılaşmış olabilirsiniz veya veri alanları yanlış adlandırılmıştır. Verilerin hiçbir yerinde mevcut olmamasına rağmen “Maliyetler” sözcüğünün kullanılması bu durumun örneği olabilir. Bu sözcük İngilizce sözlükte yer alır, ancak Soru-Cevap bu terimi veriler arasında bulamadığını belirtmek için sözcüğün altını kırmızıyla çizer.
 
 ![Soru-Cevap kırmızı altı çizili Satış](media/qna-red-underline-costs.png)
 
 > [!NOTE]
-> Soru-Cevap **Görsel biçimlendirme** bölmesinde mavi/kırmızı alt çizgi renklerini özelleştirebilirsiniz. Ayrıca, [Soru-Cevap araçları](q-and-a-tooling-teach-q-and-a.md) makalesinde, Soru-Cevap’ın tanımadığı terimleri tanımlamak için kullandığınız *Soru-Cevap Öğretimi* açıklanmaktadır.
+> Soru-Cevap **Görsel biçimlendirme** bölmesinde mavi/kırmızı/turuncu alt çizgi renklerini özelleştirebilirsiniz. Ayrıca, [Soru-Cevap araçları](q-and-a-tooling-teach-q-and-a.md) makalesinde, Soru-Cevap’ın tanımadığı terimleri tanımlamak için kullandığınız *Soru-Cevap Öğretimi* açıklanmaktadır.
 
 ### <a name="visualization-results"></a>Görselleştirme sonuçları
 
