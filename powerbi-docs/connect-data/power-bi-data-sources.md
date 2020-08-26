@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837578"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764963"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -35,7 +35,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure Blob Depolama Alanı | Evet | Evet | Hayır | Evet | Hayır |
 | Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Hayır | Hayır |
+| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Yes | Hayır |
 | Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır |
 | Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |

@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878370"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702640"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -53,6 +53,8 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
    * Web'de yayımla
    * ArcGIS maps by Esri
    * Power BI Embedded (ayrı ölçülen ISV lisansı, ileride [Microsoft Azure Almanya](https://azure.microsoft.com/overview/clouds/germany/) tarafından sunulacak)
+   * Etkinlik günlüğü
+
 7. **Uygulamalarımda kullanmak ve tümleştirmek üzere Almanya bulutu için Power BI hizmetine özel yapılandırma bilgilerini nerede bulabilirim?**
    
    [SaaS Embedding geliştirici örneklerimizi](https://github.com/Microsoft/PowerBI-Developer-Samples) Almanya ve diğer Power BI bulutlarına özgü yapılandırma bilgileriyle güncelleştirdik. Buluta özgü yapılandırma uç noktaları için örneklerdeki **Bulut Yapılandırmaları** klasörüne bakın. Aşağıdaki tabloda Almanya bulutu için Power BI hizmetine yönelik farklı yapılandırma uç noktaları yer almaktadır (çapraz başvuru için Genel Bulut karşılıkları da verilmiştir).
