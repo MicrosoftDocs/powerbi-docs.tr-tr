@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
+ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837624"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88857786"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’na yayımlanan Power BI raporları için iyileştirilmiş olmayan bazı veri kaynakları desteklenir. Her iki yerde de desteklenen veri kaynakları için aşağıdaki listeye bakın.
@@ -209,6 +209,8 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Power BI hizmetinde [Power BI raporları için veri kaynakları[(../connect-data/power-bi-data-sources.md) Veri kaynağınıza bağlandığınıza göre şimdi bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturun](quickstart-create-powerbi-report.md).
+Power BI hizmetinde [Power BI raporlarına yönelik veri kaynakları](../connect-data/power-bi-data-sources.md)
+
+Veri kaynağınıza bağlandığınıza göre, artık bu veri kaynağındaki verileri kullanarak [bir Power BI raporu oluşturabilirsiniz](quickstart-create-powerbi-report.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
