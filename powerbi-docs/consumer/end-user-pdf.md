@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837509"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702686"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -68,6 +68,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 * Olağan dışı sayıda özel sayfa içeren raporlar, dışarı aktarma senayolarında sorunlara neden olabilir. En iyi sonuçları almak için raporunuzda standart sayfa boyutuna geçmeyi düşünebilirsiniz.
 * PDF'ye dışarı aktarırken, özel yazı tipleri bulunan temaların kullanıldığı raporlarda özel yazı tipleri yerine varsayılan yazı tipleri kullanılır.
 * Tutarlı bir deneyim sağlamak istiyoruz ama Power BI hizmetinden dışarı aktarılan PDF'nin her zaman yerel Power BI Desktop dosyasından dışarı aktarılan PDF'yle eşleşeceğini garanti edemeyiz.
+* PBIX raporları PDF’ye dışarı aktarılırken bunlar için mükemmel piksel uygunluk garantisi verilmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor yazdırma](end-user-print.md)

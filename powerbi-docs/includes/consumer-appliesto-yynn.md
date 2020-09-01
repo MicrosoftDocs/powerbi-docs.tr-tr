@@ -5,14 +5,14 @@ services: ''
 author: mihart
 ms.service: ''
 ms.topic: include
-ms.date: 02/11/2020
+ms.date: 08/19/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: 0fb60788802d17192419fa9966b2fe0d7d5342c6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 19bbea79bb3dc2a6c84919c9e67b013cf7b1599a
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040230"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88655316"
 ---
-<Token>**Şunlar için geçerlidir:** ![evet](media/yes.png)***Tüketiciler*** için Power BI hizmeti ![evet](media/yes.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![hayır](media/no.png)Power BI Desktop ![hayır](media/no.png)Pro veya Premium lisans gerektirir</Token>
+<Token>**Şunlar için geçerlidir:** ![evet](media/yes.png)***İş kullanıcıları*** için Power BI hizmeti ![evet](media/yes.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![hayır](media/no.png)Power BI Desktop ![hayır](media/no.png)Pro veya Premium lisans gerektirir </Token>

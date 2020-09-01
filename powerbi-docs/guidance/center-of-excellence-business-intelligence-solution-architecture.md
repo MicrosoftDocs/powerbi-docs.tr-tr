@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940403"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638692"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Üstün Başarı Merkezi'nde iş zekası çözümü mimarisi
 
 Bu makale, BT uzmanlarına ve BT yöneticilerine yöneliktir. COE’de iş zekası çözümü mimarisi ve kullanılan farklı teknolojiler hakkında bilgi edineceksiniz. Azure, Power BI ve Excel, bu teknolojilerden bazılarıdır. Bu çözümleri birlikte kullanarak ölçeklenebilir ve veri temelli bir bulut iş zekası platformu oluşturabilirsiniz.
 
-Sağlam bir iş zekası platformu oluşturmak, bir köprü inşa etmeye benzer. Kaynakta bulunan verileri dönüştürüp zenginleştirerek veri tüketicilerine sunan bir aracıdır. Böyle bir karmaşık yapıyı tasarlamak için mühendis gözüyle bakmanız gerekir ancak sürecin sonucunda mümkün olan en yaratıcı ve en faydalı BT mimarilerinden birini tasarlamış olursunuz.
+Sağlam bir iş zekası platformu oluşturmak, bir köprü inşa etmeye benzer. Kaynakta bulunan verileri dönüştürüp zenginleştirerek veri tüketicilerine sunan bir aracıdır. Böyle bir karmaşık yapıyı tasarlamak için mühendis gözüyle bakmanız gerekir ancak sürecin sonucunda mümkün olan en yaratıcı ve en faydalı BT mimarilerinden birini tasarlamış olursunuz. Büyük bir kuruluşun iş zekası çözüm mimarisi şunları içerebilir:
+
+- Veri kaynakları
+- Veri alımı
+- Büyük veri / veri hazırlama
+- Veri ambarı
+- İş zekası anlam modelleri
+- Raporlar
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Veri kaynaklarından başlayarak veri alımı, büyük veri, depolama, veri ambarı, iş zekası anlam modeli, raporlama ve makine öğrenmesini kapsayan iş zekası platformu mimarisi diyagramını gösteren diyagram.":::
 
 Platformun belirli talepleri karşılaması gerekir. Özellikle iş hizmetlerinin ve veri tüketicilerinin beklentilerini karşılayacak ölçeğe ve performansa sahip olmalıdır. Aynı zamanda en küçük bileşeninden itibaren güvenli olacak şekilde tasarlanmalıdır. Ayrıca zaman içinde yeni veriler ve ilgi alanları çevrimiçi ortama geçeceğinden değişikliğe uyum sağlayabilecek kadar dayanıklı olmalıdır.
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Veri kaynaklarından başlayarak veri alımı, büyük veri, depolama, veri ambarı, raporlama ve makine öğrenmesini kapsayan iş zekası platformu mimarisi diyagramını gösteren görüntü.":::
 
 ## <a name="frameworks"></a>Framework’ler
 
@@ -40,7 +47,7 @@ Veri modelleri, verilerin yapılandırılması ve bunlara erişim sağlanması k
 Bir iş zekası platformu üç farklı türde model sunabilir:
 
 - Kurumsal modeller
-- İş zekası modelleri
+- İş zekası anlam modelleri
 - Makine öğrenmesi (ML) modelleri
 
 ### <a name="enterprise-models"></a>Kurumsal modeller
@@ -51,17 +58,15 @@ Kurumsal modeller, raporlama ve iş zekası için tutarlı ve tek bir veri kayna
 
 Bir bulut iş zekası platformunda kurumsal modeller [Azure Synapse'teki bir Synapse SQL havuzuna](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse) dağıtılabilir. Bu durumda Synapse SQL havuzu, kuruluşun hızlı ve sağlam içgörüler için güvenebileceği tek veri sürümü haline gelir.
 
-### <a name="bi-models"></a>İş zekası modelleri
+### <a name="bi-semantic-models"></a>İş zekası anlam modelleri
 
-**İş zekası modelleri**, kurumsal katmanlar üzerine uygulanan semantik katmanı temsil eder. Bu katmanlar iş zekası geliştiricileri ve iş kullanıcıları tarafından oluşturulur ve bakımları da yine onlar tarafından yapılır. İş zekası geliştiricileri, kurumsal modellerdeki verileri kullanan çekirdek iş zekası modellerini oluşturur. İş kullanıcıları daha küçük ölçekli ve bağımsız modeller oluşturabilir. Alternatif olarak çekirdek iş zekası modellerini departman kaynakları veya dış kaynaklarla zenginleştirebilirler. İş zekası modelleri genellikle tek bir konu alanına odaklanır ve geniş ölçekte paylaşılır.
+**İş zekası anlam modelleri**, kurumsal katmanlar üzerine uygulanan anlam katmanını temsil eder. Bu katmanlar iş zekası geliştiricileri ve iş kullanıcıları tarafından oluşturulur ve bakımları da yine onlar tarafından yapılır. İş zekası geliştiricileri, kurumsal modellerdeki verileri kullanan temel iş zekası anlam modellerini oluşturur. İş kullanıcıları daha küçük ölçekli ve bağımsız modeller oluşturabilir ya da temel anlam modellerini departman kaynakları veya dış kaynaklarla zenginleştirebilirler. İş zekası anlam modelleri genelde tek bir konu alanına odaklanır ve geniş ölçekte paylaşılır.
 
-İş özellikleri yalnızca verilerle değil aynı zamanda kavramları, ilişkileri, kuralları ve standartları belirleyen iş zekası modelleriyle sunulur. Bu şekilde veri ilişkilerini tanımlayan ve iş kurallarını hesaplama işlemleri olarak kapsülleyen sezgisel ve kolay anlaşılır yapılar haline gelirler. Bu yapılar ayrıca ayrıntılı veri izinleri de uygulayarak doğru kişilerin doğru verilere erişmesini sağlar. Ayrıca sorgu performansını artırarak terabayt boyutundaki veriler için dahi çok hızlı yanıt veren etkileşimli analizler sunar. Kurumsal modellerde olduğu gibi iş zekası modelleri de tutarlılık sağlamak için adlandırma kurallarından faydalanır.
+Verilerin yanı sıra kavramları, ilişkileri, kuralları ve standartları belirleyen iş zekası anlam modelleri de iş özellikleri sunar. Bu şekilde veri ilişkilerini tanımlayan ve iş kurallarını hesaplama işlemleri olarak kapsülleyen sezgisel ve kolay anlaşılır yapılar haline gelirler. Bu yapılar ayrıca ayrıntılı veri izinleri de uygulayarak doğru kişilerin doğru verilere erişmesini sağlar. Ayrıca sorgu performansını artırarak terabayt boyutundaki veriler için dahi çok hızlı yanıt veren etkileşimli analizler sunar. Kurumsal modellerde olduğu gibi, iş zekası anlam modelleri de tutarlılık sağlamak için adlandırma kurallarından faydalanır.
 
-Bulut iş zekası platformlarında iş zekası geliştiricileri, iş zekası modellerini [Azure Analysis Services](/azure/analysis-services/) veya [Power BI Premium kapasitelerine](../admin/service-premium-what-is.md#dedicated-capacities) dağıtabilir. Raporlama ve analiz katmanı olarak Power BI kullanıyorsanız dağıtımı da oraya yapmanız önerilir. Bu ürünler farklı depolama modellerini destekler ve bu sayede veri modeli tablolarının verilerini önbelleğe almalarını veya sorguları doğrudan temel alınan veri kaynağına geçiren bir teknoloji olan [DirectQuery](directquery-model-guidance.md)'yi kullanmalarını mümkün kılar. DirectQuery, model tabloları büyük veri birimlerini temsil ettiğinde veya gerçek zamanlıya yakın sonuçlar sunma ihtiyacı söz konusu olduğunda ideal depolama modudur. İki depolama modu birlikte kullanılabilir: [Bileşik modeller](composite-model-guidance.md), farklı depolama alanı modlarını kullanan tabloları tek bir modelde birleştirir.
+İş zekası geliştiricileri, iş zekası anlam modellerini bulut iş zekası platformlarında [Azure Analysis Services](/azure/analysis-services/) veya [Power BI Premium kapasitelerine](../admin/service-premium-what-is.md#dedicated-capacities) dağıtabilir. Raporlama ve analiz katmanı olarak Power BI kullanıyorsanız dağıtımı da oraya yapmanız önerilir. Bu ürünler farklı depolama modellerini destekler ve bu sayede veri modeli tablolarının verilerini önbelleğe almalarını veya sorguları doğrudan temel alınan veri kaynağına geçiren bir teknoloji olan [DirectQuery](directquery-model-guidance.md)'yi kullanmalarını mümkün kılar. DirectQuery, model tabloları büyük veri birimlerini temsil ettiğinde veya gerçek zamanlıya yakın sonuçlar sunma ihtiyacı söz konusu olduğunda ideal depolama modudur. İki depolama modu birlikte kullanılabilir: [Bileşik modeller](composite-model-guidance.md), farklı depolama alanı modlarını kullanan tabloları tek bir modelde birleştirir.
 
-Yoğun olarak sorgulanan modeller için [Azure Load Balancer](/azure/load-balancer/load-balancer-overview), sorgu yükünü model çoğaltmaları arasında eşit bir şekilde dağıtabilir. Bu hizmet, uygulamalarınızı ölçeklendirerek yüksek oranda kullanılabilir iş zekası modelleri oluşturmanızı sağlar.
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+Yoğun olarak sorgulanan modeller için [Azure Load Balancer](/azure/load-balancer/load-balancer-overview), sorgu yükünü model çoğaltmaları arasında eşit bir şekilde dağıtabilir. Bu hizmet, uygulamalarınızı ölçeklendirerek yüksek oranda kullanılabilir iş zekası anlam modelleri oluşturmanızı sağlar.
 
 ### <a name="machine-learning-models"></a>Makine öğrenmesi modelleri
 
@@ -134,7 +139,7 @@ ADLS 2. Nesil, iki sistemin de en iyi özelliklerini sunuyor. Blob depolama alan
 
 Raporlama katmanındaki iş hizmetleri, veri ambarından alınan kurumsal verileri kullanır. Bu hizmetler ayrıca geçici analiz veya veri bilimi görevleri için doğrudan veri gölündeki verilere erişir.
 
-Veri gölü, kurumsal modeller ve iş zekası modelleri olmak üzere tüm katmanlarda ayrıntılı izinler uygulanır. Bu izinler, veri tüketicilerinin yalnızca erişim iznine sahip oldukları verileri görebilmesini sağlar.
+Veri gölü, kurumsal modeller ve iş zekası anlam modelleri olmak üzere tüm katmanlarda ayrıntılı izinler uygulanır. Bu izinler, veri tüketicilerinin yalnızca erişim iznine sahip oldukları verileri görebilmesini sağlar.
 
 Microsoft olarak Power BI raporlarına ve panolarına ek olarak [Power BI sayfalandırılmış raporlarını](../paginated-reports/paginated-reports-report-builder-power-bi.md) kullanıyoruz. Özellikle finansal raporlama alanında raporlama ve geçici analiz işlemlerinin bazıları Excel'de yapılıyor.
 
@@ -142,11 +147,11 @@ Veri modellerimiz hakkında başvuru bilgileri sağlayan veri dizinlerini yayım
 
 Veri tüketim desenleri genellikle role göre değişiklik gösterir:
 
-- **Veri analistleri** doğrudan çekirdek iş zekası modellerine bağlanır. İş zekası modelleri, ihtiyaç duydukları tüm verileri ve mantığı içeriyorsa canlı bağlantılar kullanarak Power BI raporları ve panoları oluştururlar. Modelleri departmana özgü verilerle genişletmeleri gerektiğinde Power BI [bileşik modelleri](composite-model-guidance.md) oluştururlar. Elektronik tablo stilinde raporlara ihtiyaç duyarlarsa Excel'i kullanarak çekirdek iş zekası modellerini veya departmana özgü iş zekası modellerini temel alan raporlar oluştururlar.
-- **İş zekası geliştiricileri** ve operasyonel rapor yazarları doğrudan kurumsal modellere bağlanır. Bu kullanıcılar, Power BI Desktop'ı kullanarak canlı bağlantı analiz raporları oluşturur. Bu kullanıcılar ayrıca T-SQL kullanarak Azure Synapse Analytics kurumsal modellerindeki verilere veya DAX ya da MDX kullanarak Power BI modellerine erişmek üzere yerel SQL sorguları yazarak Power BI sayfalandırılmış raporları biçiminde operasyonel türde iş zekası raporları oluşturabilir.
+- **Veri analistleri** doğrudan temel iş zekası anlam modellerine bağlanır. İhtiyaç duydukları tüm verileri ve mantığı içeren temel iş zekası anlam modelleri, canlı bağlantıları kullanarak Power BI raporu veya panosu oluşturabilir. Modelleri departmana özgü verilerle genişletmeleri gerektiğinde Power BI [bileşik modelleri](composite-model-guidance.md) oluştururlar. Temel iş zekası anlam modelleri, Excel’i kullanarak elektronik tablo stilinde raporlara ihtiyaç duyulduğunda temel iş zekası anlam modellerini veya departmana özgü iş zekası anlam modellerini temel alan raporları oluşturabilir.
+- **İş zekası geliştiricileri** ve operasyonel rapor yazarları doğrudan kurumsal modellere bağlanır. Bu kullanıcılar, Power BI Desktop'ı kullanarak canlı bağlantı analiz raporları oluşturur. Bu kullanıcılar, T-SQL kullanarak Azure Synapse Analytics kurumsal modellerindeki verilere veya DAX ya da MDX kullanarak Power BI anlam modellerine erişmek için yerel SQL sorguları yazarak operasyonel türde iş zekası raporlarını Power BI sayfalandırılmış raporları biçiminde oluşturabilir.
 - **Veri bilimcileri** doğrudan veri gölündeki verilere bağlanır. Bu kullanıcılar Azure Databricks ve Python not defterlerini kullanarak genellikle deneysel olan ve üretim ortamında kullanım için özel beceriler gerektiren makine öğrenmesi modelleri geliştirir.
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Azure Synapse Analytics'in Power BI ve Azure Machine Learning ile kullanılmasını gösteren görüntü.":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Azure Synapse Analytics’in Power BI, Excel ve Azure Machine Learning ile kullanılmasını gösteren görüntü.":::
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -155,3 +160,9 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Azure Synapse Analytics ile Azure'da kurumsal iş zekası](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>Profesyonel hizmetler
+
+Sertifikalı Power BI iş ortakları, kuruluşunuzun COE’yi başarıyla ayarlamasına yardımcı olabilir. İş ortakları, size uygun maliyetli eğitim veya veri denetimi hizmeti sunabilir. Bir Power BI iş ortağından yardım almak için [Power BI iş ortağı portalını](https://powerbi.microsoft.com/partners/) ziyaret edin.
+
+Deneyimli danışmanlık iş ortaklarıyla da etkileşime geçebilirsiniz. Bu iş ortakları, Power BI’ı [incelemenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [değerlendirmenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) veya [uygulamanıza](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) yardımcı olabilir.

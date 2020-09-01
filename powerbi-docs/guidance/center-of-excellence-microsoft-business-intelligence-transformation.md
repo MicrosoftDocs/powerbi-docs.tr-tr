@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162379"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638716"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft’un BI dönüşümü
 
@@ -53,9 +53,9 @@ Dönüşüm süreci tek seferde tamamlanmadı. Yaklaşık 30 KPI içeren yan kur
 
 **Starlight**; finans, satış, pazarlama ve mühendislik departmanları için destek sunan iç veri birleştirme ve analiz platformumuza verdiğimiz ad. Görevi ise sağlam, paylaşılan ve ölçeklenebilir bir veri platformu sunmak. Tamamen finans ekibi tarafından geliştirilmiş olan bu platform, günümüzde de en güncel Microsoft ürünlerini kullanarak çalışmaya devam etmektedir.
 
-**KPI Gölü** bir Azure Data Lake örneği değildir. Bunun yerine Microsoft SQL Server Analysis Services hizmetini kullanarak Azure IaaS platformunda barındırılan Starlight destekli tablosal bir modeldir. Tablosal model 100'den fazla iç kaynaktan alınan verileri sunar ve sayısız hiyerarşi ile KPI tanımlar. Görevi; finans, pazarlama ve satış ekipleri arasında iş performansı raporlama ve analiz ekiplerine destek olmaktır. Bunu yapmak için birleşik modeller aracılığıyla ilgili kaynaklardan zamanında, doğru ve yüksek performanslı içgörüler elde eder.
+**KPI Gölü** bir Azure Data Lake örneği değildir. Bu, Microsoft SQL Server Analysis Services hizmeti kullanılarak Azure IaaS platformunda barındırılan bir Starlight destekli tablosal iş zekası anlam modelidir. İş zekası anlam modeli model 100’den fazla iç kaynaktan alınan verileri sunar ve sayısız hiyerarşiyi ve KPI’yı tanımlar. Görevi; finans, pazarlama ve satış ekipleri arasında iş performansı raporlama ve analiz ekiplerine destek olmaktır. Bunu yaparak birleşik iş zekası anlam modelleri aracılığıyla ilgili kaynaklardan zamanında, doğru ve yüksek performanslı içgörüler elde eder.
 
-İlk dağıtıldığında tablosal model anlık ve ölçülebilir avantajlar sunduğundan heyecanlı bir deneyim yaşatmıştı. İlk sürüm C+E finans ve pazarlama iş zekası platformlarını merkezi hale getirmişti. Ardından geçen altı yılın sonunda ek iş içgörüsü çözümlerini birleştirecek şekilde genişletildi. Günümüzde gelişmeye ve global ile ticari iş gözden geçirmelerine ek olarak standart raporlama ve SSBI konusunda destek sunmaya devam ediyor. Benimsenme oranı yayımlandığı zamandan bugüne kadar 5 kat artarak bizim de başlangıçtaki beklentilerimizin ötesine geçti.
+Tablosal iş zekası anlam modeli, ilk dağıtıldığında anlık ve ölçülebilir avantajlar sunduğu için heyecanlı bir deneyim yaşatmıştı. İlk sürüm C+E finans ve pazarlama iş zekası platformlarını merkezi hale getirmişti. Ardından geçen altı yılın sonunda ek iş içgörüsü çözümlerini birleştirecek şekilde genişletildi. Günümüzde gelişmeye ve global ile ticari iş gözden geçirmelerine ek olarak standart raporlama ve SSBI konusunda destek sunmaya devam ediyor. Benimsenme oranı yayımlandığı zamandan bugüne kadar 5 kat artarak bizim de başlangıçtaki beklentilerimizin ötesine geçti.
 
 Önemli avantajları aşağıda verilmiştir:
 
@@ -71,8 +71,8 @@ Dönüşüm süreci tek seferde tamamlanmadı. Yaklaşık 30 KPI içeren yan kur
 Starlight platformu; alma, işleme ve yayımlama sürecindeki veri akışını yönetir:
 
 1. Zamanlanmış bir şekilde sağlam ve çevik veri tümleştirmesi gerçekleştirilerek 100'den fazla ham veri kaynağında bulunan veriler birleştirilir. Kaynak veri sistemleri arasında ilişkisel veritabanları, Azure Data Lake Storage ve Azure Synapse veritabanları bulunabilir. Konu alanları finans, pazarlama, satış ve mühendisliktir.
-2. Hazırlanan veriler, ana veriler ve iş mantığı kullanılarak uyumlu hale getirilir ve zenginleştirilir. Ardından veri ambarı tablolarına yüklenir. Sonrasında tablosal model yenilenir.
-3. Şirket genelindeki analistler, Excel ve Power BI'ı kullanarak tablosal modelden içgörü ve analiz sunabilir. Bu model ayrıca iş sahiplerinin kendi işleri için ölçüm tanımları oluşturmalarını sağlar. Gerektiğinde Azure IaaS ve yük dengeleme kullanılarak ölçeklendirme gerçekleştirilir.
+2. Hazırlanan veriler, ana veriler ve iş mantığı kullanılarak uyumlu hale getirilir ve zenginleştirilir. Ardından veri ambarı tablolarına yüklenir. Tablosal iş zekası anlam modeli yenilenir.
+3. Şirketin analistleri, tablosal iş zekası anlam modelinden içgörü ve analiz sunmak için Excel ve Power BI’ı kullanır. Bu model ayrıca iş sahiplerinin kendi işleri için ölçüm tanımları oluşturmalarını sağlar. Gerektiğinde Azure IaaS ve yük dengeleme kullanılarak ölçeklendirme gerçekleştirilir.
 
 ## <a name="deliver-success"></a>Başarıya ulaşma
 
@@ -86,10 +86,16 @@ Daha fazla bilgi edinmek için sizi bu COE dizisindeki makaleleri okumaya davet 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Bu dizinin bir sonraki makalesinde](center-of-excellence-establish.md) bir COE'nin Microsoft'un sahip olduğu verilerden içgörü elde etmesini sağlayacak standartlaştırılmış analiz ve veri platformu oluşturmasına nasıl yardımcı olduğunu öğrenebilirsiniz.
-
 Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 - [Üstün Başarı Merkezi oluşturma](center-of-excellence-establish.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+
+[Bu dizinin bir sonraki makalesinde](center-of-excellence-establish.md) bir COE'nin Microsoft'un sahip olduğu verilerden içgörü elde etmesini sağlayacak standartlaştırılmış analiz ve veri platformu oluşturmasına nasıl yardımcı olduğunu öğrenebilirsiniz.
+
+### <a name="professional-services"></a>Profesyonel hizmetler
+
+Sertifikalı Power BI iş ortakları, kuruluşunuzun COE’yi başarıyla ayarlamasına yardımcı olabilir. İş ortakları, size uygun maliyetli eğitim veya veri denetimi hizmeti sunabilir. Bir Power BI iş ortağından yardım almak için [Power BI iş ortağı portalını](https://powerbi.microsoft.com/partners/) ziyaret edin.
+
+Deneyimli danışmanlık iş ortaklarıyla da etkileşime geçebilirsiniz. Bu iş ortakları, Power BI’ı [incelemenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [değerlendirmenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) veya [uygulamanıza](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) yardımcı olabilir.

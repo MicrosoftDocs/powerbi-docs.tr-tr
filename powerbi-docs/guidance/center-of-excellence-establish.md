@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940378"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638624"
 ---
 # <a name="establish-a-center-of-excellence"></a>Üstün Başarı Merkezi oluşturma
 
@@ -45,10 +45,10 @@ Microsoft'ta COE, İş Zekası Platformu olarak bilinir. Finans, satış ve paza
 
 İş zekası platformunu kurmak ve çalıştırmak için paylaşılan özelliklere ihtiyaç duyulur. Bu özellikler, platformu fonlayan tüm paydaş grupları destekler. Bunlar aşağıdaki ekiplerden oluşur:
 
-- **Çekirdek platformu mühendisliği:** İş zekası platformunu mühendis gözüyle tasarladık. Bu platform veri alımı, verileri zenginleştirmek üzere işleme ve bu verileri analistler tarafından kullanılacak veri modelleri şeklinde sunma konusunda destek sunan çerçevelerden oluşan bir kümedir. Çekirdek iş zekası platformunun özellikleri ile ilgili teknik tasarım ve uygulama aşamalarından da mühendisler sorumludur. Örneğin veri işlem hatlarını onlar tasarlayıp uygular.
+- **Çekirdek platformu mühendisliği:** İş zekası platformunu mühendis gözüyle tasarladık. Bu, veri alımı, verilerin zenginleştirilmek üzere işlenmesi ve analistler tarafından kullanılacak veri modelleri şeklinde sağlanmasına yönelik destek sunan bir çerçeve kümesidir. Çekirdek iş zekası platformunun özellikleri ile ilgili teknik tasarım ve uygulama aşamalarından da mühendisler sorumludur. Örneğin veri işlem hatlarını onlar tasarlayıp uygular.
 - **Altyapı ve barındırma:** Tüm Azure hizmetlerinin sağlanması ve yönetilmesi, BT mühendislerinin sorumluluğundadır.
 - **Destek ve operasyon:** Bu ekip, platformu çalışır halde tutar. Destek ekibi, veri izinleri gibi kullanıcı gereksinimleriyle ilgilenir. Operasyon ekibi platformun kesintisiz bir şekilde çalışmasını sağlayarak Hizmet Düzeyi Sözleşmelerinin (SLA) karşılanmasını sağlar, gecikme veya hata durumlarını bildirir.
-- **Sürüm yönetimi:** Değişiklikler, teknik program yöneticileri (PM) tarafından yayımlanır. Değişiklikler, platform çerçevesinde yapılan güncelleştirmelerden veri modelleri için yapılan değişiklik isteklerine kadar çok çeşitli olabilir. Değişikliklerin herhangi bir hataya yol açmadığından emin olan son savunma hattını oluştururlar.
+- **Sürüm yönetimi:** Değişiklikler, teknik program yöneticileri (PM) tarafından yayımlanır. Değişiklikler, platform çerçevesinde yapılan güncelleştirmelerden iş zekası anlam modelleri için yapılan değişiklik isteklerine kadar çok çeşitli olabilir. Değişikliklerin herhangi bir hataya yol açmadığından emin olan son savunma hattını oluştururlar.
 
 ### <a name="dedicated-deliveries"></a>Ayrılmış teslimler
 
@@ -60,13 +60,22 @@ Microsoft'un iş zekası platformu, uzmanlardan oluşan ölçeklenebilir ekipler
 
 - **Program yöneticileri:** PM'ler ayrılmış kaynaklardır. İş zekası ekibi ile paydaşlar arasında birincil iletişim noktası olarak görev yaparlar. Görevleri, paydaşların iş gereksinimlerini teknik belirtimlere dönüştürmektir. Ayrıca paydaş teslimlerinin önceliklendirmesini de onlar yapar.
 - **Veritabanı liderleri:** Bunlar yeni veri kümelerinin merkezi veri ambarına eklenmesinden sorumlu olan ayrılmış kaynaklardır. Bir veri kümesini eklemek için uyumlu boyutların ayarlanması, iş mantığının ve özel özniteliklerin eklenmesi, standart adların belirlenmesi ve biçimlendirme yapılması gerekebilir.
-- **Analiz liderleri:** Bunlar veri modellerinin tasarımından ve geliştirmesinden sorumlu olan ayrılmış kaynaklardır. Standart adlandırma ve biçimlendirme kullanarak tutarlı bir mimari elde etmeye çalışırlar. Performans iyileştirmesi, görevlerinin önemli bir parçasıdır.
+- **Analiz liderleri:** İş zekası anlam modellerinin tasarlanmasından ve geliştirilmesinden sorumlu ayrılmış kaynaklardır. Standart adlandırma ve biçimlendirme kullanarak tutarlı bir mimari elde etmeye çalışırlar. Performans iyileştirmesi, görevlerinin önemli bir parçasıdır.
 - **Operasyon ve altyapı:** Bunlar işleri ve veri işlem hatlarını yönetmekten sorumlu olan paylaşılan kaynaklardır. Ayrıca Azure aboneliklerini, Power BI kapasitelerini, sanal makineleri ve veri ağ geçitlerini yönetme sorumlulukları da vardır.
-- **Destek:** Bunlar belge yazma, eğitim düzenleme, veri modeli değişikliklerini iletme ve kullanıcı sorularını yanıtlama konularından sorumlu olan paylaşılan kaynaklardır.
+- **Destek:** Belge yazma, eğitim düzenleme, iş zekası anlam modeli değişikliklerini iletme ve kullanıcı sorularını yanıtlamadan sorumlu paylaşılan kaynaklardır.
 
 ## <a name="governance-and-compliance"></a>İdare ve uyum
 
 PM liderleri her paydaş grubu için programlar arası idare ve gözetim sağlar. Temel amacı, yapılan BT yatırımlarının iş değerini artırdığından ve riskleri azalttığından emin olmaktır. İlerleme durumunu gözden geçirmek ve önemli girişimleri onaylamak için düzenli aralıklarla yönlendirme komitesi toplantıları düzenlenir.
+
+## <a name="grow-your-own-community"></a>Kendi topluluğunuzu oluşturma
+
+Şunları yaparak kuruluşunuzda kendi topluluğunuzu oluşturun ve bu topluluğu büyütün:
+
+- Düzenli “Mesai Saatleri” etkinlikleri düzenleyerek iş zekası ekibine zaman ayırın ve topluluk üyelerine soru sorma, öneride bulunma, fikir paylaşma ve şikayet bildirme olanağı tanıyın.
+- Destek sağlamak ve topluluk üyelerini soru sormaya ve gönderilen soruları yanıtlamaya teşvik etmek için bir Teams kanalı oluşturma.
+- Resmi olmayan kullanıcı gruplarını yönetip yükseltin ve kullanıcıları katılım göstermeye ve fikir paylaşmaya teşvik edin.
+- Belirli ürünlere ve iş zekası platformuna yönelik daha fazla resmi eğitim etkinliği gerçekleştirme. Ücretsiz kurs seti olarak sunulan ve ilk kez Power BI kullanan çalışanlara hizmeti tanıtan [Power BI Dashboard in a Day](https://powerbi.microsoft.com/diad/)’i çalışanlara sunun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -75,3 +84,11 @@ Bu makale hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [COE’de iş zekası çözümü mimarisi](center-of-excellence-business-intelligence-solution-architecture.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
+
+[Bu serinin sonraki makalesinde](center-of-excellence-business-intelligence-solution-architecture.md), COE’deki iş zekası çözüm mimarisi ve kullanılan farklı teknolojiler hakkında bilgi edineceksiniz.
+
+### <a name="professional-services"></a>Profesyonel hizmetler
+
+Sertifikalı Power BI iş ortakları, kuruluşunuzun COE’yi başarıyla ayarlamasına yardımcı olabilir. İş ortakları, size uygun maliyetli eğitim veya veri denetimi hizmeti sunabilir. Bir Power BI iş ortağından yardım almak için [Power BI iş ortağı portalını](https://powerbi.microsoft.com/partners/) ziyaret edin.
+
+Deneyimli danışmanlık iş ortaklarıyla da etkileşime geçebilirsiniz. Bu iş ortakları, Power BI’ı [incelemenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [değerlendirmenize](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) veya [uygulamanıza](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) yardımcı olabilir.

@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427127"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638785"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -86,7 +86,7 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |Office 365 Güvenlik ve Uyumluluk yönetim merkezi üzerinden denetim|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Dış kullanıcı paylaşımı|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Raporlar ve panolar için kullanım ölçümleri|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |GCC ile ticari bulut arasında Azure B2B|Kullanılabilir|Kullanılabilir|Kullanılabilir|
+|  |GCC ile ticari bulut arasında Azure B2B İşbirliği<sup>1</sup>|Kullanılabilir|Kullanılamaz|Kullanılamaz|
 |Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
 |  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
@@ -108,6 +108,8 @@ Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planları
 |  |Otomatik Makine Öğrenmesi|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Azure Bilişsel Hizmetler|Kullanılamaz|Kullanılamaz|Kullanılamaz|
 |  |Azure Machine Learning|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+
+<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. US Government için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile Azure Genel karşılaştırması](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

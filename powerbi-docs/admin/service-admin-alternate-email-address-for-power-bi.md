@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161710"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638808"
 ---
 # <a name="use-an-alternate-email-address"></a>Alternatif e-posta adresi kullanma
 
@@ -23,7 +23,7 @@ Power BI'a kaydolurken bir e-posta adresi belirtirsiniz. Power BI, hizmet etkinl
 Bazı durumlarda bu e-postaların kayıt sırasında kullandığınızdan farklı bir e-posta adresine teslim edilmesini isteyebilirsiniz. Bu makalede Microsoft 365 ve PowerShell'de alternatif e-posta adresi belirtme adımları anlatılmaktadır. Makalede ayrıca Azure Active Directory'nin (Azure AD) bir e-posta adresini nasıl çözümlediği açıklanmaktadır.
 
 > [!NOTE]
-> Alternatif bir e-posta adresi belirtmek, Power BI'ın hizmet güncelleştirmeleri, bültenler ve diğer tanıtım amaçlı yazışmalar için kullandığı e-posta adresini etkilemez. Bu yazışmalar her zaman Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.
+> Alternatif bir e-posta adresinin belirtilmesi, Power BI’ın e-posta abonelikleri, hizmet güncelleştirmeleri, bültenler ve diğer tanıtım amaçlı yazışmalar için kullandığı e-posta adresini etkilemez. Bu yazışmalar her zaman Power BI'a kaydolurken kullandığınız e-posta adresine gönderilir.
 
 ## <a name="use-microsoft-365"></a>Microsoft 365’i kullanma
 

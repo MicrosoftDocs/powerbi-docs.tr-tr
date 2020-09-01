@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578082"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803101"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI'da panolar ve raporlar içeren uygulamalar yükleme ve bunları kullanma
 
@@ -27,7 +27,7 @@ ms.locfileid: "88578082"
 
 ## <a name="ways-to-get-a-new-app"></a>Yeni bir uygulama alma yolları
 Yeni bir uygulama almanın birkaç yolu vardır:
-* Power BI’daki Power BI Uygulama marketinden alabilirsiniz.
+* Power BI hizmetinde sunulan Power BI Uygulama marketinden bunu edinebilirsiniz.
 * Uygulama tasarımcısından aldığınız doğrudan uygulama bağlantısını kullanabilirsiniz. 
 * Kuruluşunuzdaki bir uygulama tasarımcısı, uygulamayı otomatik olarak Power BI hesabınıza yükleyebilir.
 
@@ -37,6 +37,8 @@ Power BI mobil ile bir uygulamayı yalnızca doğrudan bağlantı aracılığıy
 Uygulamaları her Power BI kullanıcısı görüntüleyemez veya bunlarla etkileşim kuramaz. 
 - Ücretsiz lisansınız varsa Premium kapasitede depolanan ve sizinle paylaşılan uygulamaları açabilirsiniz.  
 - Pro lisansınız varsa sizinle paylaşılan uygulamaları açabilirsiniz.
+
+Uygulamaları açamıyorsanız yöneticinize veya yardım masasına ulaşın. Lisanslama hakkında bilgi edinmek için bkz. [Power BI lisanslaması](end-user-license.md).
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Uygulamayı Power BI Uygulamaları marketinden alma
 
