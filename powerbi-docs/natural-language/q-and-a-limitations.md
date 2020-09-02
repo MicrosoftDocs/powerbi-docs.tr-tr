@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866783"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937597"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI Soru-Cevap sınırlamaları
 
@@ -75,7 +75,6 @@ Soru-Cevap Öğretimi iki tür hatayı düzeltmenize izin verir:
 
 ### <a name="statements-not-supported"></a>Desteklenmeyen deyimler
 
-- Koşullarda ölçülerin kullanımı şu anda desteklenmemektedir. Bunun yerine, ölçüleri çalıştırmak için hesaplanmış sütunlara dönüştürün.
 - Birden fazla koşul desteklenmemektedir. Geçici bir çözüm olarak, çok durumlu bir deyim Boole değerini değerlendiren bir DAX hesaplanmış sütunu oluşturun ve onun yerine bu alanı kullanın.
 - Soru-Cevap bir veri alt kümesi sorduğunda filtre koşulu belirtmezseniz, deyimin tamamında kırmızı alt çizgi olmasa bile tanımı kaydedemezsiniz.
 
