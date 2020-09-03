@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537861"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040259"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Bir görseli görüntü olarak panonuza kopyalama
 
@@ -35,15 +35,15 @@ Görselin statik bir görüntüsünü kopyaladığınızda, meta verilerle birli
 
 2. Görselin sağ üst köşesinden **Diğer eylemler (...)** ve ardından **Görseli görüntü olarak kopyala**’yı seçin. 
 
-    ![Görseli görüntü olarak kopyala simgesi görüntülendi](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![Açılan menüde görünen Görseli resim olarak kopyala seçeneği](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. **Görselinizi kopyalamaya hazır** iletişim kutusu göründüğünde **Panoya kopyala**'yı seçin.
 
     ![Panoya kopyala seçeneğine sahip iletişim kutusu](media//end-user-copy-paste/power-bi-copied.png)
 
-4. Görseliniz kopyalandığında, **Ctrl + V** kullanarak veya sağ tıklayıp > Yapıştır’ı seçerek başka bir uygulamaya yapıştırın. Aşağıdaki ekran görüntüsünde görseli Microsoft Word'e yapıştırdık. 
+4. Görseliniz kopyalandığında, **Ctrl + V** kullanarak veya **sağ tıklayıp** > **Yapıştır**’ı seçerek başka bir uygulamaya yapıştırın. Aşağıdaki ekran görüntüsünde görseli Microsoft Word'e yapıştırdık. 
 
-    ![Outlook'a yapıştırılan görsel](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![Microsoft Word'e yapıştırılan görsel](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Rapor görselindeki kopya 
 
@@ -58,7 +58,7 @@ Görselin statik bir görüntüsünü kopyaladığınızda, meta verilerle birli
     ![Panoya kopyala seçeneğine sahip iletişim kutusu](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. Görseliniz kopyalandığında, **Ctrl + V** kullanarak veya sağ tıklayıp > Yapıştır’ı seçerek başka bir uygulamaya yapıştırın. Aşağıdaki ekran görüntüsünde görseli bir e-postaya yapıştırdık.
+4. Görseliniz kopyalandığında, **Ctrl + V** kullanarak veya **sağ tıklayıp** > **Yapıştır**’ı seçerek başka bir uygulamaya yapıştırın. Aşağıdaki ekran görüntüsünde görseli bir e-postaya yapıştırdık.
 
     ![Outlook'a yapıştırılan görsel](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -79,10 +79,10 @@ Görselin statik bir görüntüsünü kopyaladığınızda, meta verilerle birli
 
 S: Kopyala simgesi neden bir görselde devre dışıdır?    
 Y: Şu anda yerel Power BI görsellerini ve onaylı özel görselleri destekliyoruz. Aşağıdakiler dahil belirli görseller için sınırlı destek vardır: 
-- ESRI ve diğer Harita görselleri 
+- ESRI ve diğer harita görselleri 
 - Python görselleri 
 - R görselleri 
-- PowerApps    
+- PowerApps görselleri   
 
 Y: Bir görseli kopyalama özelliği, BT departmanınız veya Power BI yöneticiniz tarafından kapatılabilir.
 
@@ -94,6 +94,8 @@ Y: Özel görseller ve animasyonlu görseller için sınırlamalar vardır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görselleştirmeler](end-user-visual-type.md) hakkında daha fazla bilgi
+
+Raporda düzenleme izinleriniz varsa [içindeki görselleri kopyalayabilir ve yapıştırabilirsiniz](../visuals/power-bi-visualization-copy-paste.md). 
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
 

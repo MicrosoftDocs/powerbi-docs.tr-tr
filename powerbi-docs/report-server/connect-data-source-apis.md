@@ -6,24 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/21/2020
+ms.date: 09/01/2020
 ms.author: maggies
-ms.openlocfilehash: bb769937e99cd3e936d7f5f3967e8f17b939242c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236067"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286740"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirin
 
 
-PowerShell'de API'leri kullanarak Power BI Rapor Sunucusu’ndaki veri kaynağı bağlantı dizelerini değiştirebilirsiniz. 
+PowerShell'i kullanıp gerekli API'lerle etkileşim kurarak Power BI Rapor Sunucusu'nda barındırılan Power BI raporlarının veri kaynağı bağlantı dizelerini değiştirebilirsiniz. 
 
 > [!NOTE]
 > Şu anda bu işlevsellik yalnızca DirectQuery’de çalışır. İçeri aktarma ve veri yenileme desteği yakında sağlanacaktır.
 
 1. Power BI Rapor Sunucusu PowerShell komutlarını yükleyin. Komutlar ve yükleme yönergeleri için bkz. [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+
+    Aşağıdaki komutu kullanarak `ReportingServicesTools` modülünü doğrudan [PowerShell Galerisi](https://www.powershellgallery.com/packages/ReportingServicesTools/)'nden yükleyin.
+
+    ```powershell
+    Install-Module ReportingServicesTools
+    ```
 
 2. Power BI dosyası için mevcut veri kaynağı bilgilerini PowerShell komutları aracılığıyla getirin:
 

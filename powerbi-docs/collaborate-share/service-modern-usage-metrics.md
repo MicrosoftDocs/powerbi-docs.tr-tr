@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478165"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937551"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 
@@ -184,6 +184,10 @@ Rapor verilerini yakından incelemek veya temel veri kümesiyle kendi raporları
 1. Yeni rapor geçerli çalışma alanında Raporlar sekmesine kaydedilir ve Son görüntülenen içerik listesine eklenir.
 
     ![Raporlar sekmesinde yeni rapor](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> Kullanım ölçümleri raporunuzun bir kopyasını kaydettiğinizde normal bir Power BI raporu gibi kullanabilirsiniz. Görüntüleyici rolüne sahip olan kullanıcılar dahil olmak üzere çalışma alanında görüntüleme izinlerine sahip olan tüm kullanıcıların erişimine açık olur.
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Power BI Desktop'ta yeni kullanım raporu oluşturma
 
@@ -242,7 +246,14 @@ Excel’de kullanım verilerine bağlandığınızda, önceden tanımlanmış ö
 
 ## <a name="usage-metrics-in-national-clouds"></a>Ulusal bulutlarda kullanım ölçümleri
 
-Power BI, ayrı ayrı ulusal bulutlarda kullanılabilir. Bu bulutlar hizmet teslimi, veri dayanıklılığı, erişim ve denetimle ilgili yerel yasal düzenlemelere yönelik benzersiz bir modelle birlikte, Power BI'ın küresel sürümüyle aynı güvenlik, gizlilik, uyumluluk ve saydamlık düzeyleri sunar. Yerel yasal düzenlemelere yönelik bu benzersiz modelden dolayı, ulusal bulutlarda kullanım ölçümleri sağlanmaz. Daha fazla bilgi için [ulusal bulutlar](https://powerbi.microsoft.com/clouds/) konusuna bakın.
+Power BI, ayrı ayrı ulusal bulutlarda kullanılabilir. Bu bulutlar hizmet teslimi, veri dayanıklılığı, erişim ve denetimle ilgili yerel yasal düzenlemelere yönelik benzersiz bir modelle birlikte, Power BI'ın küresel sürümüyle aynı güvenlik, gizlilik, uyumluluk ve saydamlık düzeyleri sunar. Modern kullanım ölçümleri şu an için aşağıdaki ulusal bulutlarda kullanılabilir durumdadır: 
+
+- ABD Devlet Topluluğu Bulutu
+- ABD Devlet Topluluğu Bulutu Yüksek
+- ABD Savunma Bakanlığı
+- Çin
+
+Daha fazla bilgi için [ulusal bulutlar](https://powerbi.microsoft.com/clouds/) konusuna bakın.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

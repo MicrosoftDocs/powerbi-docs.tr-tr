@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161779"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040356"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI raporlarında grafiklerin sıralanma biçimini değiştirme
 
@@ -24,24 +24,24 @@ ms.locfileid: "86161779"
 > [!IMPORTANT]
 > **Bu makale rapor veya veri kümesi üzerinde düzenleme izinleri olmayan ve Power BI’ın yalnızca çevrimiçi sürümünde (Power BI hizmeti) çalışan Power BI kullanıcılarına yöneliktir. Rapor *tasarımcısı*, *yöneticisi* veya *sahibiyseniz*, bu makale ihtiyacınız olan tüm bilgileri içermiyor olabilir. Bunun yerine lütfen [Power BI Desktop'ta sütuna göre sıralama](../create-reports/desktop-sort-by-column.md)** konusunu okuyun.
 
-Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz. İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görselleştirmelerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
+Power BI hizmetinde farklı veri alanlarına göre sıralayarak bir görselin görüntülenme şeklini değiştirebilirsiniz. Görseli sıralama ölçütünü değiştirerek iletmek istediğiniz bilgileri vurgulayabilirsiniz. İster sayısal veriler (satış rakamları gibi) ister metin verileri (eyalet adları gibi) kullanıyor olun, görsellerinizi istediğiniz gibi sıralayabilirsiniz. Power BI, sıralama için kullanabileceğiniz birçok seçenek ve hızlı menüler sunmaktadır. 
 
-Panodaki görseller sıralanamaz. Ancak bir Power BI raporundaki çoğu görselleştirmeyi tek seferde bazen bir, bazen iki alana göre sınıflandırabilirsiniz. Belirli görsel türlerinde sıralama kullanılamaz: ağaç haritaları, ölçüler, haritalar vb. 
+Panodaki görseller sıralanamaz. Ancak bir Power BI raporundaki çoğu görseli tek seferde bazen bir, bazen iki alana göre sınıflandırabilirsiniz. Belirli görsel türlerinde sıralama kullanılamaz: ağaç haritaları, ölçüler, haritalar vb. 
 
 ## <a name="get-started"></a>Kullanmaya başlayın
 
-Başlamak için sizinle paylaşılmış olan herhangi bir raporu açın. Bir görsel (sıralayabileceğiniz) seçtikten sonra **Diğer eylemler** (...) öğesini seçin.  Üç sıralama seçeneği vardır: **Azalan düzende sırala**, **Artan düzende sırala** ve **Sıralama ölçütü**. 
+Başlamak için kendi oluşturduğunuz veya sizinle paylaşılmış olan herhangi bir raporu açın. Bir görsel (sıralayabileceğiniz) seçtikten sonra **Diğer eylemler** (...) öğesini seçin.  Üç sıralama seçeneği vardır: **Azalan düzende sırala**, **Artan düzende sırala** ve **Sıralama ölçütü**. 
     
 
-![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/power-bi-more-actions.png)
+![Y eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/power-bi-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Alfabetik veya sayısal olarak sıralama
 
-Görseller, görseldeki kategorilerin metin adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralanabilir. Örneğin, bu grafik X ekseni mağaza **Adı** kategorisine göre alfabetik olarak sıralanmıştır.
+Görseller, görseldeki kategorilerin adlarına göre alfabetik şekilde veya kategorilerin sayısal değerlerine göre sıralanabilir. Örneğin, bu grafik X ekseni mağaza **Adı** kategorisine göre alfabetik olarak sıralanmıştır.
 
 ![X eksenine göre alfa sıralaması olan çubuk grafik](media/end-user-change-sort/powerbi-sort-category.png)
 
-Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürebilirsiniz. **Diğer eylemler** (...) ve **Sıralama ölçütü** öğelerini seçin. Görselde kullanılan bir sayısal değeri seçin.  Bu örnekte biz **Sales Per Sq Ft** değerini seçtik.
+Sıralama ölçütünü kategoriden (store name) değere (sales per square feet) dönüştürmek için **Diğer eylemler** (...) ve **Sıralama ölçütü**'nü seçin. Görselde kullanılan bir sayısal değeri seçin.  Bu örnekte biz **Sales Per Sq Ft** değerini seçtik.
 
 ![Sıralama ölçütü'nün ve ardından değerin seçilmesini gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-value.png)
 
@@ -55,14 +55,14 @@ Gerekirse artan ve azalan sıralama düzenleri arasında geçiş yapın.  **Diğ
 ## <a name="sorting-by-multiple-columns"></a>Birden fazla sütuna göre sıralama
 Bu tablodaki veriler **Müşterilerin sayısına** göre sıralanmıştır.  Bunu, *Sayı* sözcüğünün altındaki küçük oktan anlıyoruz. Ok aşağıyı işaret ediyor, bu da sütunun *azalan* düzende sıralandığı anlamına geliyor.
 
-![sıralama için kullanılan ilk sütunu gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-first.png)
+![sıralama için kullanılan ilk sütunu gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-column.png)
 
 
 Sıralama düzenine daha fazla sütun eklemek için Shift tuşunu basılı tutarak, sonraki sıralama düzenine eklemek istediğiniz sütun üst bilgisine tıklayın. Örneğin **Müşteri sayısına** tıklayıp daha sonra Shift tuşunu basılı tutarak **Toplam gelir**’e tıklarsanız tablo ilk önce müşterilere, daha sonra gelire göre sıralanır. Kırmızı ana hat, sıralama düzeninin değiştiği alanları gösterir.
 
 ![sıralama için kullanılan ikinci sütunu gösteren ekran görüntüsü](media/end-user-change-sort/power-bi-sort-second.png)
 
-Aynı sütunda Shift tuşunu basılı tutarak ikinci kez tıklarsanız bu, ilgili sütunun sıralama yönünü değiştirir. Dahası, Shift tuşunu basılı tutup daha önce sıralama düzenine eklediğiniz bir sütuna tıklarsanız bu, sütunu sıralama düzenine geri taşır.
+Aynı sütunda Shift tuşunu basılı tutarak ikinci kez tıklarsanız bu, ilgili sütunun sıralama yönünü (artan, azalan) değiştirir. Dahası, Shift tuşunu basılı tutup daha önce sıralama düzenine eklediğiniz bir sütuna tıklarsanız bu, sütunu sıralama düzenine geri taşır.
 
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Sıralama düzeninde yaptığınız değişiklikleri kaydetme
@@ -80,7 +80,7 @@ Bazı durumlarda görselinizi farklı bir alana (görsele dahil olmayan) veya ö
 
 Yalnızca raporu tasarlayan kişi sizin için bu değişiklikleri yapabilir. *Tasarımcının* iletişim bilgileri başlık çubuğundan rapor adı seçilerek bulunabilir.
 
-![İletişim bilgilerini gösteren açılır menü](media/end-user-change-sort/power-bi-contact.png)
+![İletişim bilgilerini gösteren açılır menü](media/end-user-change-sort/power-bi-header.png)
 
 *Tasarımcıysanız* ve içerik üzerinde düzenleme izinleriniz varsa, veri kümesini güncelleştirmeyi ve bu tür bir sıralamayı etkinleştirmeyi öğrenmek için [Power BI Desktop’ta sütuna göre sıralama](../create-reports/desktop-sort-by-column.md) konusunu okuyun.
 

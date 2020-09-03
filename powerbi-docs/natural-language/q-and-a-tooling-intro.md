@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578174"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937482"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Soru-Cevap eğitimi için Soru-Cevap araçlarına giriş (önizleme)
 
@@ -80,6 +80,11 @@ Soru-Cevap Öğretimi bölümünde kaydettiğiniz her şey burada gösterilir, b
 
 ### <a name="suggest-questions"></a>Soru önerme
 
+> [!NOTE]
+> Önerilen sorular, Soru-Cevap görselinin tüm örnekleri için görünür. Her Soru-Cevap görseli için ayrı bir öneri kümesi oluşturmak mümkün olmaz.
+> 
+> 
+
 Herhangi bir kurulum yapmadan Soru-Cevap başlangıç olarak çeşitli sorular önerecektir. Bu sorular, veri modeliniz temelinde otomatik olarak oluşturulur. **Soru öner** bölümünde otomatik olarak oluşturulan soruların üzerine kendi sorularınızı yazabilirsiniz.
 
 Başlangıç olarak eklemek istediğiniz soruyu metin kutusuna yazın. Önizleme bölümünde, Soru-Cevap görselinde sonucun nasıl görüneceğini görürsünüz. 
@@ -91,11 +96,6 @@ Bu soruyu **Önerilen sorularınız**’a eklemek için **Ekle**’yi seçin. Gi
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Önerilen soruları kaydetme":::
  
 Öneriler sorular listenizin Soru-Cevap görselinde gösterilmesi için **Kaydet**’i seçtiğinizden emin olun. 
-
-> [!NOTE]
-> Önerilen sorular, Soru-Cevap görselinin tüm örnekleri için görünür. Her Soru-Cevap görseli için ayrı bir öneri kümesi oluşturmak mümkün olmaz.
-> 
-> 
 
 ## <a name="other-qa-settings"></a>Diğer Soru-Cevap ayarları
 

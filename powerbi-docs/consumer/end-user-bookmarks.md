@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162078"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937726"
 ---
 # <a name="what-are-bookmarks"></a>Yer işaretleri nedir?
 
@@ -29,18 +29,24 @@ Yer işaretlerinin birçok kullanımı vardır. İlgi çekici bir içgörü keş
 
 Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sırasını istediğiniz gibi düzenleyebilir ve birbiriyle ilişkili bir dizi içgörüyü vurgulamak için sunu sırasında her bir yer işareti üzerinden ilerleyebilirsiniz.  
 
-![Şeritten seçerek, Yer İşaretleri Bölmesi’ni gösterin.](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![Şeritten seçerek, Yer İşaretleri Bölmesi’ni gösterin.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>Yer işaretlerini açın
-Yer İşaretleri bölmesini açmak için menü çubuğundan **Yer işaretleri** > **Daha fazla yer işareti göster**’i seçin. Raporun yayımlanan özgün görünümüne dönmek için **Varsayılana sıfırla**’yı seçin.
+Yer İşaretleri bölmesini açmak için menü çubuğundan **Yer işaretleri** > **Daha fazla yer işareti göster**’i seçin. 
+
+![Yer işaretleri bölmesinin açık olduğu rapor tuvalinin ekran görüntüsü.](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+Raporun yayımlanan özgün görünümüne dönmek için **sıfırla** simgesini seçin.
+
+![Geri çevir simgesinin seçili olduğu ekran görüntüsü](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>Rapor yer işaretleri
-Rapor *tasarımcısı* rapor yer işaretleri eklediyse, bunları **Rapor yer işaretleri** başlığının altında bulabilirsiniz. Bu rapor sayfasında B1 ve B2 şeklinde iki yer işareti bulunur. 
+Rapor *tasarımcısı* rapor yer işaretleri eklediyse, bunları **Rapor yer işaretleri** başlığının altında bulabilirsiniz. Bu rapor sayfasında dört yer işareti var: B1, B2, VanArsdel YTD ve All YTD. Şu anda **All YTD** seçili durumda.
 
 > [!NOTE]
 > Paylaşılan raporları görüntülemek için Power BI Pro veya Premium lisansına ihtiyacınız olacaktır. 
 
-![Rapor yer işaretlerini gösterin.](media/end-user-bookmarks/power-bi-report.png)
+![Rapor yer işaretlerini gösterin.](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 Bu rapor görünümüne geçmek için ilgili yer işaretini seçin. 
 
@@ -48,26 +54,32 @@ Bu rapor görünümüne geçmek için ilgili yer işaretini seçin.
 
 ### <a name="personal-bookmarks"></a>Kişisel yer işaretleri
 
-Bir yer işareti oluşturduğunuzda aşağıdaki öğeler, bu yer işareti ile birlikte kaydedilir:
+Bir raporu görüntüleyebiliyorsanız kişisel yer işaretleri ekleyebilirsiniz.  Bir yer işareti oluşturduğunuzda aşağıdaki öğeler, bu yer işareti ile birlikte kaydedilir:
 
 * Geçerli sayfa
 * Filtreler
 * Dilimleyici türü (açılan menü veya liste) ve dilimleyici durumu dahil olmak üzere dilimleyiciler
 * Görsel seçim durumu (çapraz vurgulama filtreleri gibi)
-* Sıralama düzeni
+* Sıralama ölçütü
 * Detay konumu
 * Görünürlük (**Seçim** bölmesi kullanıldığında, bir nesnenin görünürlüğü)
 * Herhangi bir görünür nesnenin odak veya **Spotlight** modları
 
-Bir rapor sayfasını yer işaretinde görünmesini istediğiniz şekilde yapılandırın. Rapor sayfanızı ve görsellerinizi istediğiniz şekilde düzenledikten sonra yer işareti eklemek için **Yer İşaretleri** bölmesinden **Ekle**'yi seçin. Bu örnekte, bölge ve tarih için bazı filtreler ekledik. 
+Bir rapor sayfasını yer işaretinde görünmesini istediğiniz şekilde yapılandırın. Bu örnekte:
 
-![Kişisel yer işaretleri ekleyin.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. **Filtreler** bölmesindeki mevcut Tarih filtresini değiştirdik,
+1. **Filtreler** bölmesindeki mevcut Bölgeler filtresini değiştirdik
+1.  ve halka grafik görselindeki veri noktalarını seçerek rapor tuvalinde çapraz filtreleme ve çapraz vurgulama yaptık. 
+
+Rapor sayfanızı ve görsellerinizi istediğiniz şekilde düzenledikten sonra yer işareti eklemek için **Yer İşaretleri** bölmesinden **Ekle**'yi seçin. 
+
+![Kişisel yer işaretleri ekleyin.](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** kişisel bir yer işareti oluşturur ve yer işaretine genel bir ad veya sizin belirlediğiniz adı verir. Bir yer işaretini, yer işareti adının yanındaki üç nokta simgesini seçip görüntülenen menüden ilgili eylemi seçerek *yeniden adlandırabilir*, *silebilir* veya *güncelleştirebilirsiniz*.
 
 Yer işaretinizi oluşturduktan sonra, **Yer İşaretleri** bölmesinden seçerek görüntüleyebilirsiniz. 
 
-![Kişisel yer işaretleri ekleyin.](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![Görüntülemek için yer işaretlerinden birini seçin.](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ Yer işaretlerinin sunumunu yapmak veya bunları sırayla görüntülemek için 
 - Yer işareti başlık çubuğu, önceki ve sonraki yer işaretine gitmenize olanak sağlayan oklar içerir.
 - **Görünüm** modundan çıkmak için **Yer İşaretleri** bölmesindeki **Çıkış**’ı veya yer işareti başlık çubuğundaki **X** işaretini seçebilirsiniz.
 
-![Yer işareti slayt gösterisi](media/end-user-bookmarks/power-bi-slideshow.png)
+![Yer işareti slayt gösterisi](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 **Görünüm** modundayken sunumunuz için daha fazla alan sağlamak üzere **Yer İşaretleri** bölmesini kapatabilirsiniz (bölmedeki X işaretine tıklayarak). **Görünüm** modundayken tüm görseller etkileşimlidir ve normalde olduğu gibi çapraz vurgulama için kullanılabilir. 
 
@@ -156,7 +168,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-**Yer işaretleri**’nin bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
+**Yer işaretlerinin** bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
 * Çoğu Power BI görselinin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve Power BI görseliyle ilgili bir sorunla karşılaşırsanız, bu Power BI görselini oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin.
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.

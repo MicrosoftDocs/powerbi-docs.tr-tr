@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216200"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286831"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 
@@ -22,9 +22,9 @@ ms.locfileid: "86216200"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI *tüketicileri*, pano görüntülemeye oldukça fazla vakit harcar. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI tüketicileri de bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.
+Power BI *iş kullanıcıları*, pano görüntülemeye oldukça fazla vakit harcar. Panolar, bağlı raporlardaki ve veri kümelerindeki belirli bilgileri vurgulayacak şekilde tasarlanmıştır. Power BI iş kullanıcıları da bu bilgileri veri temelli iş kararları almak için takip etme, izleme, soru yanıtlama, test etme ve daha birçok süreç için kullanmaktadır.
 
-![pano](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![pano](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
 
 Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power BI Pro veya Premium lisansı gerekir. [Hangi lisansa sahibim?](end-user-license.md) 
@@ -35,14 +35,14 @@ Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power B
 
 |              |         |
 |------------|--------------------------------|
-|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>panoyu tanımladıktan sonra açmak kolaydır. Seçtiğinizde pano, Power BI tuvalinizi doldurur. |
+|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>pano gördüğünüzde seçerek Power BI tuvalinizi doldurmasını sağlayabilirsiniz. |
 |                    |          |
 
 
 
 Panoları gezinti bölmesindeki tüm kapsayıcılarda bulabilirsiniz. 
 
-![pano simgesi](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
+![Panoların bulunabileceği tüm konumları gösteren video](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **Giriş Ekranı** 
 - **Sık Kullanılanlar** - [bir panoyu Sık Kullanılanlara eklediyseniz](end-user-favorite.md)
@@ -54,5 +54,7 @@ Panoları gezinti bölmesindeki tüm kapsayıcılarda bulabilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
+* [Panoya genel bakışa](end-user-dashboards.md) dönün
+
 * Panoları daha rahat kullanmak için [örnek panolarımızdan](../create-reports/sample-tutorial-connect-to-the-samples.md) birine ilişkin tura katılın.    
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.

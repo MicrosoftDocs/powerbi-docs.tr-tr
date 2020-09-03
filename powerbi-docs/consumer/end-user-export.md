@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/28/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: eebe5bcf2a4e75d9ff6ed526fbd8f9d362ff26ee
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: a4b7b866d56852cb4e49cbe09150dcdb694b64c3
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537838"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89287015"
 ---
 # <a name="export-data-from-a-visual"></a>Bir görseldeki verileri dışarı aktarma
 
@@ -23,7 +23,9 @@ ms.locfileid: "87537838"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilir](end-user-show-data.md) ya da bir Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği belirli bir tür veya lisansa ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. Dışarı aktaramıyorsanız, Power BI yöneticinizle iletişime geçin. Verileri dışarı aktarmak için Power BI Pro lisansına ihtiyacınız vardır. Bu kullanıcı başına Pro lisansı veya Premium kapasite lisansı olan bir kuruluşta kullanıcı başına Pro lisansı olabilir. Bu tür lisanslar genellikle rapor *tüketiciler* tarafından değil rapor *tasarımcıları* tarafından kullanılır. Daha fazla bilgi edinmek için bkz. [Hangi lisansa sahibim?](end-user-license.md).
+Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [söz konusu verileri Power BI’da görüntüleyebilir](end-user-show-data.md) ya da bir Excel'e aktarabilirsiniz. Verileri dışarı aktarma seçeneği belirli bir tür veya lisansa ek olarak veri kümesi ve rapor için düzenleme izinleri gerektirir. Dışarı aktaramıyorsanız, Power BI yöneticinizle veya BT yardım masanızla iletişime geçin. 
+
+Verileri dışarı aktarmak için Power BI Pro lisansına sahip olmanız veya panonun ya da raporun sizinle Premium kapasite kullanılarak paylaşılmış olması gerekir. Daha fazla bilgi edinmek için bkz. [Hangi lisansa sahibim?](end-user-license.md).
 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Bir Power BI panosunda bulunan görselden
@@ -35,13 +37,13 @@ Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [sö
 
 2. Bir görselin üzerine gelerek **Diğer seçenekler** (...) seçeneğini ortaya çıkarın ve tıklayarak eylem menüsünü görüntüleyin.
 
-    ![Üç nokta seçildiğinde görünen menü](media/end-user-export/power-bi-options-menu.png)
+    ![Üç nokta seçildiğinde görünen menü](media/end-user-export/power-bi-option-menu.png)
 
 3. **CSV'ye Aktar**’ı seçin.
 
 4. Bundan sonra ne olacağı, kullandığınız tarayıcıya bağlıdır. Dosyayı kaydetmeniz istenebilir veya tarayıcının altında dışarı aktarılmış dosyanın bir bağlantısını görebilirsiniz. 
 
-    ![Dışarı aktarılmış dosya bağlantısını gösteren Chrome tarayıcısı](media/end-user-export/power-bi-dashboard-exports.png)
+    ![Dışarı aktarılmış dosya bağlantısını gösteren Chrome tarayıcısı](media/end-user-export/power-bi-dashboards-export.png)
 
 5. Dosyayı Excel'de açın. 
 
@@ -54,20 +56,20 @@ Bir görselin oluşturulması için kullanılan verileri görmek isterseniz [sö
 ## <a name="from-a-visual-in-a-report"></a>Bir raporda bulunan görselden
 Bir rapordaki görselden verileri .csv veya .xlsx (Excel) biçiminde dışarı aktarabilirsiniz. 
 
-1. Bir panoda, temel alınan raporu açmak için kutucuk seçin.  Bu örnekte, yukarıdakiyle aynı görseli seçiyoruz, *Yılbaşından Bugüne Toplam Birimler Var %* . 
+1. Bir panoda, temel alınan raporu açmak için kutucuk seçin.  Bu örnekte, yukarıdakiyle aynı görseli seçiyoruz, *Yılbaşından Bugüne Toplam Birimler Var %*. 
 
-    ![Vurgulanan pano kutucuğu](media/end-user-export/power-bi-export-reports.png)
+    ![Vurgulanan pano kutucuğu](media/end-user-export/power-bi-export-tile.png)
 
     Bu kutucuk *Satış ve Pazarlama Örneği* raporundan oluşturulduğu için bu rapor açılır. Ayrıca, seçili kutucuk görselini içeren sayfada açılır. 
 
 2. Raporda görseli seçin. Sağ taraftaki **Filtreler** bölmesine dikkat edin. Bu görsele filtreler uygulanmıştır. Filtreler hakkında daha fazla bilgi için bkz. [Raporda filtre kullanma](end-user-report-filter.md).
 
-    ![Filtre bölmesi seçildi](media/end-user-export/power-bi-export-filter.png)
+    ![Filtre bölmesi seçildi](media/end-user-export/power-bi-export-filter-pane.png)
 
 
 3. Görselleştirmenin sağ üst köşesinde **Diğer seçenekler (...)** öğesini seçin. **Verileri dışarı aktar** seçeneğini belirleyin.
 
-    ![Açılan menüden seçilen Verileri dışarı aktar](media/end-user-export/power-bi-export-report.png)
+    ![Açılan menüden seçilen Verileri dışarı aktar](media/end-user-export/power-bi-export-reports.png)
 
 4. Özetlenen verileri veya Temel alınan verileri dışarı aktarma seçeneklerini görürsünüz. *Satış ve pazarlama örneği* uygulamasını kullanıyorsanız, **Temel alınan veriler** devre dışı olacaktır. Ancak her iki seçeneğin de etkinleştirildiği raporlarla karşılaşabilirsiniz. Farkı hakkında bir açıklama aşağıda verilmiştir.
 
@@ -80,7 +82,7 @@ Bir rapordaki görselden verileri .csv veya .xlsx (Excel) biçiminde dışarı a
 
 5. Bundan sonra ne olacağı, kullandığınız tarayıcıya bağlıdır. Dosyayı kaydetmeniz istenebilir veya tarayıcının altında dışarı aktarılmış dosyanın bir bağlantısını görebilirsiniz. 
 
-    ![Microsoft Edge tarayıcısında dışarı aktarılan dosya görüntüleme](media/end-user-export/power-bi-export-edge-browser.png)
+    ![Microsoft Edge tarayıcısında dışarı aktarılan dosya görüntüleme](media/end-user-export/power-bi-export-edge-screen.png)
 
     > [!NOTE]
     > Veriler üzerinde izinleriniz yoksa, Excel'e dışarı aktaramaz veya Excel'de açamazsınız.  

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702640"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092349"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -65,7 +65,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
 | Power BI Hizmetinde doğrudan oturum açma |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | Hizmet API'si |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | Kullanıcı lisansı yönetimi, hizmet durumu ve yönetici destek istekleri için Office portalı |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| AAD Yetki URI'si |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| Azure Active Directory Yetkili URI'si |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Power BI Hizmeti Kaynak URI'si |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Power BI görselleri Kitaplığı |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Power BI'a Uygulama Kaydetme (Embedded için) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI ile yapabileceğiniz çok şey vardır. Daha fazla bilgi için, hizmete nasıl kaydolacağınızı açıklayan bir makaleyi de içeren aşağıdaki kaynaklara başvurun:
 
-* [Power BI için Destekli Öğrenme](../guided-learning/index.yml)
+* [Power BI için Destekli Öğrenme](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI hizmeti ile çalışmaya başlama](../fundamentals/service-get-started.md)
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236005"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040236"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI için yenileme özetleri
 
@@ -60,6 +60,8 @@ Zamanlama görünümü, tüm yenilemelerin çakışmadan tamamlanmasını sağla
 ![Zamanlama görünümü](media/refresh-summaries/refresh-summaries-02.jpg)
 
 *Ayrılmış yenileme süresi (dakika)* sütunu her ilişkili veri kümesi için en çok 60 kaydın ortalamasının hesaplamasıdır. Her 30 dakikalık zaman aralığının sayısal değeri, söz konusu zaman aralığında başlayacak şekilde zamanlanmış tüm yenilemeler **ve** *önceki* zaman aralığında başlayacak şekilde zamanlanmış ama ortalama süresi seçilmiş olan zaman aralığına taşan yenilemeler için hesaplanan dakika sayısının toplamıdır.
+
+*Kullanılabilir yenileme süresi (dakika)* sütunu, her bir zaman aralığında kullanılabilecek dakikalardan ilgili zaman aralığı için zamanlanmış olan yenileme süresinin çıkarılmasıyla elde edilen sonucu gösterir. Örneğin P2 aboneliğiniz 12 yenileme işleminin eşzamanlı olarak çalıştırılmasını destekliyorsa 12 adet 30 dakikalık zaman aralığına sahip olursunuz ve bu da ilgili zaman aralığında 12 yenileme x 30 dakika = 360 dakika yapar. Bu zaman aralığında 20 dakika süren bir yenileme zamanlandıysa ilgili zaman aralığındaki *Kullanılabilir yenileme süresi (dakika)* değeriniz 340 dakika olur (360 toplam kullanılabilir dakika eksi 20 dakika ayrılmış süre = 340 dakika kalan süre). 
 
 Bir zaman aralığı seçebilir ve sonra da bununla ilişkili **ayrıntılar** düğmesini seçerek hangi zamanlanmış yenileme olaylarının ayrılmış yenileme süresine denk geldiğini, bu olayların sahiplerini ve ne kadar sürede tamamlandıklarını görebilirsiniz.
 

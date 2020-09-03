@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857786"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937574"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
-Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’na yayımlanan Power BI raporları için iyileştirilmiş olmayan bazı veri kaynakları desteklenir. Her iki yerde de desteklenen veri kaynakları için aşağıdaki listeye bakın.
+Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’nda yayımlandığında desteklenmeyen bazı veri kaynakları bulunur.
 
 Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
@@ -116,44 +116,44 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 
 | **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** |
 | --- | --- | --- | --- | --- |
-| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |
-| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |
-| Web |Evet |Hayır |Evet |Evet |
-| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |
-| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |
-| Active Directory |Hayır |Hayır |Evet |Evet |
+| SQL Server Veritabanı |Hayır |Hayır |Yes |Evet |
+| SQL Server Analysis Services |Hayır |Hayır |Yes |Evet |
+| Web |Evet |Hayır |Yes |Evet |
+| Azure SQL Veritabanı |Hayır |Hayır |Yes |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Yes |Hayır |
+| Active Directory |Hayır |Hayır |Yes |Evet |
 | Amazon Redshift |Hayır |Hayır |Hayır |Hayır |
 | Azure Blob Depolama Alanı |Evet |Evet |Hayır |Hayır |
 | Azure Data Lake Store |Hayır |Hayır |Hayır |Hayır |
 | Azure HDInsight (HDFS) |Hayır |Hayır |Hayır |Hayır |
 | Azure HDInsight (Spark) |Hayır |Hayır |Hayır |Hayır |
-| Azure Tablo Depolama |Hayır |Evet |Hayır |Hayır |
+| Azure Tablo Depolama |Hayır |Yes |Hayır |Hayır |
 | Dynamics 365 (çevrimiçi) |Hayır |Hayır |Hayır |Hayır |
 | Facebook |Hayır |Hayır |Hayır |Hayır |
 | Klasör |Hayır |Hayır |Hayır |Evet |
 | Google Analytics |Hayır |Hayır |Hayır |Hayır |
 | Hadoop Dosyası (HDFS) |Hayır |Hayır |Hayır |Hayır |
-| IBM DB2 Veritabanı |Hayır |Hayır |Evet |Evet |
+| IBM DB2 Veritabanı |Hayır |Hayır |Yes |Evet |
 | Impala |Hayır |Hayır |Hayır |Hayır |
 | Microsoft Exchange |Hayır |Hayır |Hayır |Hayır |
 | Microsoft Exchange Online |Hayır |Hayır |Hayır |Hayır |
-| MySQL Veritabanı |Hayır |Hayır |Evet |Evet |
+| MySQL Veritabanı |Hayır |Hayır |Yes |Evet |
 | OData Akışı |Evet |Evet |Evet |Evet |
-| ODBC |Evet |Hayır |Evet |Evet |
-| OLE DB |Evet |Hayır |Evet |Evet |
-| Oracle Veritabanı |Hayır |Hayır |Evet |Evet |
-| PostgreSQL Veritabanı |Hayır |Hayır |Evet |Hayır |
+| ODBC |Evet |Hayır |Yes |Evet |
+| OLE DB |Evet |Hayır |Yes |Evet |
+| Oracle Veritabanı |Hayır |Hayır |Yes |Evet |
+| PostgreSQL Veritabanı |Hayır |Hayır |Yes |Hayır |
 | Power BI hizmeti |Hayır |Hayır |Hayır |Hayır |
 | R Betiği |Hayır |Hayır |Hayır |Hayır |
 | Salesforce Nesneleri |Hayır |Hayır |Hayır |Hayır |
 | Salesforce Raporları |Hayır |Hayır |Hayır |Hayır |
-| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |
-| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Yes |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Yes |Evet |
 | SharePoint Klasörü (şirket içi) |Evet |Hayır |Hayır |Evet |
 | SharePoint Listesi (şirket içi) |Evet |Hayır |Hayır |Evet |
 | SharePoint Online Listesi |Hayır |Hayır |Hayır |Hayır |
 | Snowflake |Hayır |Hayır |Hayır |Hayır |
-| Sybase Veritabanı |Hayır |Hayır |Evet |Evet |
+| Sybase Veritabanı |Hayır |Hayır |Yes |Evet |
 | Teradata |Hayır |Hayır |Evet |Evet** |
 | appFigures (Beta) |Hayır |Hayır |Hayır |Hayır |
 | Azure Analysis Services veritabanı (Beta) |Hayır |Hayır |Hayır |Hayır |
@@ -196,14 +196,14 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 
 | **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** | **Tümleşik Windows Kimlik Doğrulaması** |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
-| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |Evet |
-| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |Hayır |
-| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
-| Oracle Veritabanı |Hayır |Hayır |Evet |Evet |Evet |
-| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
-| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Evet** |
-| Teradata |Hayır |Hayır |Evet |Evet |Evet |
+| SQL Server Veritabanı |Hayır |Hayır |Yes |Evet |Evet |
+| SQL Server Analysis Services |Hayır |Hayır |Yes |Evet |Evet |
+| Azure SQL Veritabanı |Hayır |Hayır |Yes |Hayır |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Yes |Hayır |Hayır |
+| Oracle Veritabanı |Hayır |Hayır |Yes |Evet |Evet |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Yes |Hayır |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Yes |Evet |Evet** |
+| Teradata |Hayır |Hayır |Yes |Evet |Evet |
 
 **SAP HANA Tümleşik Windows Kimlik Doğrulaması ile DirectQuery'yi yalnızca bunu yayımlanmış Power BI Desktop dosyasında (.pbix) ilişkisel veritabanı olarak kullandığında destekler.
 

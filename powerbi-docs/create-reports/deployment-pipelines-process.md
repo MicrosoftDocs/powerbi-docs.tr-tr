@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557222"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220895"
 ---
 # <a name="understand-the-deployment-process-preview"></a>Dağıtım sürecini anlama (önizleme)
 
@@ -154,7 +154,7 @@ Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece h
 
 [![Üretim aşamasının sağ alt köşesinde yer alan uygulamayı yayımlama düğmesinin vurgulandığı ekran görüntüsü.](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
-Üretim aşamasında, sol alt köşedeki ana eylem düğmesi Power BI’da uygulama güncelleştirme sayfasını açar, böylece tüm içerik güncelleştirmeleri uygulama kullanıcılarının kullanımına sunulur.
+Üretim aşamasında, sağ alt köşedeki ana eylem düğmesi Power BI’da uygulama güncelleştirme sayfasını açar, böylece tüm içerik güncelleştirmeleri uygulama kullanıcılarının kullanımına sunulur.
 
 [![Üretim aşamasının sağ alt köşesinde yer alan uygulamayı güncelleştirme düğmesinin vurgulandığı ekran görüntüsü.](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 

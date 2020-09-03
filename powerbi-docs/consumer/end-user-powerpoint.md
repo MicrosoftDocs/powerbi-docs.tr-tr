@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160430"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040341"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -49,6 +49,8 @@ Açılan menüde **Geçerli değerler**’i veya **Varsayılan değerler**’i k
 ![Neyin Dışarı Aktarılacağını seçme](media/end-user-powerpoint/power-bi-current-values.png)
  
 Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır. Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz bu onay kutusunu seçin. Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz bu kutuyu işaretlemeden bırakın. Onay kutusu soluk görüntüleniyorsa raporda gizli sekme yoktur. Gizli sekmeye örnek olarak bir araç ipucu sekmesi verilebilir. [Özel araç ipuçları](../create-reports/desktop-tooltips.md) rapor *tasarımcıları* tarafından oluşturulur ve Power BI hizmetinde *tüketiciler* için rapor sekmeleri olarak görüntülenmez. 
+
+Ayrıca "Yalnızca geçerli sayfayı dışarı aktar" seçeneğini işaretleyerek raporun yalnızca görüntülemekte olduğunuz sayfasını dışarı aktarabilirsiniz.  Bu seçenek varsayılan olarak işaretlenmemiş durumdadır ve raporun tüm sayfaları dışarı aktarılır.
 
 Seçimlerinizi yaptıktan sonra devam etmek için **Dışarı Aktar**’ı seçin. Power BI hizmeti tarayıcı penceresinin sağ üst köşesinde, raporun PowerPoint’e aktarıldığını belirten bir bildirim başlığı görürsünüz. 
 

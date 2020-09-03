@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939500"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092326"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery'yi kullanma
 *Power BI Desktop* ile veri kaynağınıza bağlandığınızda verilerin bir kopyasını her zaman Power BI Desktop'a aktarabilirsiniz. Bazı veri kaynakları için alternatif bir yaklaşım da sunulmaktadır: DirectQuery'yi kullanarak veri kaynağına doğrudan bağlanma.
@@ -50,6 +50,8 @@ DirectQuery özelliğini kullanmanın bazı avantajları vardır:
 - **Sorgu Düzenleyicisi** sorgusunun çok karmaşık olması halinde hata oluşur. Hatayı gidermek için **Sorgu Düzenleyicisi**'nde soruna yola açan adımı silmeniz veya verilere bağlanmak için DirectQuery yerine *İçeri Aktarma* seçeneğini kullanmanız gerekir. SAP Business Warehouse gibi çok boyutlu kaynaklar için **Sorgu Düzenleyicisi** kullanılmaz.
 
 - DirectQuery'de akıllı zaman gösterimi özellikleri kullanılamaz. Örneğin, tarih sütunlarının (yıl, çeyrek, ay veya gün gibi) özel olarak değerlendirilmesi, DirectQuery modunda desteklenmez.
+
+- Çoklu oturum açma (SSO) özelliğine sahip bir veri kaynağında bulunan bir DirectQuery tablosuna başvuran hesaplanan tablolar ve hesaplanmış sütunlar Power BI hizmetinde desteklenmez.
 
 - Temel alınan veri kaynağına gönderilen sorguların kabul edilebilir düzeyde bir performansa sahip olmasını sağlamak için, ölçümlerde izin verilen DAX ifadelerine sınırlamalar koyulur.
 

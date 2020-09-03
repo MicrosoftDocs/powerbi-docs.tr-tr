@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215896"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286786"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
@@ -49,7 +49,7 @@ Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı
 
 - **Ücretsiz lisans** - genellikle kuruluş içindeki *tüketicilere* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
 
-    ![Ücretsiz lisans kullanıcısı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
+    ![Premium kullanıcıyı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
 
     Premium kapasitesi olan bir kuruluşun üyesi olmak ücretsiz lisans kullanıcılarına süper güçler kazandırır. Pro lisansına sahip iş arkadaşları içerik paylaşmak için Premium kapasite çalışma alanlarını kullandığı sürece, ücretsiz lisans kullanıcıları bu içeriği görüntüleyebilir ve Pro iş arkadaşlarıyla işbirliği yapabilir.  **Bu yolla ücretsiz lisans kullanıcısı iş kararları vermek için gereken içeriği alma ve paylaşma becerisine sahip bir Power BI *tüketicisine* dönüşür.** 
  
@@ -87,7 +87,7 @@ Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etk
 |Sık kullanılanlara ekle | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
  |Düzenleme, güncelleştirme, yeniden paylaşma, yeniden yayımlama |![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png)   |
  |Yeni uygulama oluşturma |![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png)   |
- |Appsource: indirme ve açma | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) | 
+ |AppSource: indirme ve açma | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) | 
 |Kuruluş deposu: indirme ve açma|![turuncu x](media/end-user-features/orange-x.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
  |**Uygulama çalışma alanları**
 | Çalışma alanı veya içerik oluşturma, düzenleme veya silme  | ![turuncu x](media/end-user-features/orange-x.png)  |![turuncu x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etk
 | Başkalarının oluşturduğu yer işaretlerini görüntüleme ve kendi yer işaretlerinizi ekleme  | ![turuncu x](media/end-user-features/orange-x.png)|![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 | Başkalarından gelen açıklamaları görüntüleme ve yanıtlama; yeni açıklamalar ekleme  | ![turuncu x](media/end-user-features/orange-x.png)|![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 |Görüntüleme boyutlarını değiştirme   | ![yeşil myw](media/end-user-features/green-mwo.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  | 
-| Bir kopyasını kaydet |![turuncu x](media/end-user-features/orange-x.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*  
+| Bir kopyasını kaydet |![turuncu x](media/end-user-features/orange-x.png) |![turuncu x](media/end-user-features/orange-x.png)  
 |Görseli resim olarak kopyalama* |
 | Rapor görsellerini çapraz vurgulama ve çapraz filtreleme   |![yeşil myw](media/end-user-features/green-mwo.png) |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |
 |  Detaylandır   |![yeşil myw](media/end-user-features/green-mwo.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png)  |

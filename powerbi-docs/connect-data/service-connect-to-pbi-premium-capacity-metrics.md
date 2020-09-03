@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229940"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937643"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Kapasite Ölçümlerine Bağlanma
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Power BI Premium Kapasite Ölçümleri uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar.
@@ -63,6 +63,7 @@ Uygulamayı yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçla
 1. Görüntülenen iletişim kutusunda UTC farkını ayarlayın. UTC farkı, Eşgüdümlü Evrensel Saat ile sizin konumunuzun saati arasındaki saat farkıdır. Ardından **İleri**'ye tıklayın.
   
    ![Power BI Premium Kapasite Ölçümleri uygulaması UTC’yi ayarlama iletişim kutusu](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **Not: Yarım saat biçimi ondalık olmalıdır (örneğin 5,5; 2,5 vb.).**
 
 1. Görüntülenen sonraki iletişim kutusunda hiçbir şey yapmanız gerekmez. **Oturum aç**’ı seçmeniz yeterlidir.
 

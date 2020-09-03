@@ -9,11 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427461"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092303"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 
@@ -82,28 +83,29 @@ Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
 
 Sunu içeriğinden ve sekiz uygulamalı laboratuvardan oluşan kendi kendine çalışma setini indirebilir ve ayarlayabilirsiniz:
 
-1. Kendi kendine çalışma setini (.zip) yerel olarak bilgisayarınıza indirmek için [bu bağlantıyı](https://aka.ms/priad-student) kullanın.
-1. Dosya özelliklerini açın, "engellemeyi kaldır" öğesini işaretleyin (Windows dosyaya güvenilmez olabilir bayrağı ekleyebilir).
-1. Dosya içeriğini dosya sisteminizdeki bir klasöre ayıklayın. Kolayca bulunabilecek bir klasör oluşturmanızı öneririz; örneğin klasöre **Eğitim** adı verebilirsiniz. Laboratuvar belgeleri bu konuma **&lt;CourseFolder&gt;** olarak başvurur.
+1. Kendi kendine çalışma setini (.zip) yerel olarak bilgisayarınıza (Windows 7 veya üzeri) indirmek için [bu bağlantıyı](https://aka.ms/priad-student) kullanın.
+1. Zip dosyasının özelliklerini açın, "engellemeyi kaldır" öğesini işaretleyin (Windows dosyaya güvenilmez olabilir bayrağı ekleyebilir).
+1. Kurs için kullanacağınız kök klasörü oluşturun. "C:\Training" gibi bir ad kullanmanız önerilir. Laboratuvarlar sırasında kurs dosyalarına erişmeniz gerekeceğinden bu konumu unutmayın. Tüm laboratuvar belgelerinde bu konum **&lt;CourseFolder&gt;** olarak belirtilir.
+1. **PowerBIPRIAD-Student.zip** dosyasının içeriğini kök kurs klasörünüze ayıklayın.
+1. **&lt;CourseFolder&gt;\PowerBIPRIAD** klasöründeki **ReadMe.txt** dosyasını açın ve kurulum yönergelerini izleyin.
 
-Ayıklandıktan sonra **PowerBIPRIAD** klasörünüz olur ve bu klasörün içinde aşağıdaki klasörleri bulabilirsiniz:
-
-- **Lab01A** (ve diğer tüm laboratuvar klasörleri). Laboratuvar klasörleri, varlıklar ve çözüm dosyaları içerebilen laboratuvar belgesinden ve laboratuvar kaynaklarından oluşur.
-- **MySolution**: Bu klasörde çözüm dosyalarınız depolanır. Laboratuvar yönergeleri sizi bu klasörü kullanmaya yönlendirir.
-- **Presentation**: Bu klasör kursun PDF belgesi olarak sağlanan sunu dosyasını içerir.
-
-### <a name="get-started-with-the-kit"></a>Setle çalışmaya başlama
-
-Önce çevrimiçi kursun izlenmesini öneririz. Daha sonra **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** dosyasını açarak sunu teorisine yeniden başvurabilirsiniz. Sunuda, teorinin ne zaman uygulamaya geçirileceğini belirten sekiz laboratuvar slaydı yer alır. Ayrıca ilgili içeriği bulmanıza yardımcı olmak için birçok kaynak bağlantısı da içerir.
-
-İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak, veri kümesini karşıya yüklemek ve ardından [Power BI Report Builder](https://aka.ms/pbireportbuilder)’ı yüklemek için size yol gösterir.
+> [!TIP]
+> **ReadMe.txt** dosyasında İngilizcenin yanı sıra aşağıdaki sekiz dilde laboratuvar belgeleri ve sunum dosyaları (PDF) bulunur:
+> - Almanca (de-DE)
+> - İspanyolca (es-ES)
+> - Fransızca (fr-FR)
+> - İtalyanca (it-IT)
+> - Japonca (ja-JP)
+> - Korece (ko-KR)
+> - Portekizce, Brezilya (pt-BR)
+> - Çince, Basitleştirilmiş (zh-CN)
 
 > [!NOTE]
 > Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Çalışma alanına Power BI Desktop dosyası yayımlamak için Power BI’da oturum açmanız gerekir. Yayınlama sonucunda rapor veri kaynağı olarak kullanılan bir veri kümesi elde edilir. Veri kümesini rapor veri kaynağı olarak kullanmak için Power BI Pro lisansına veya Power BI Premium aboneliğine ihtiyacınız yoktur.
 >
-> Bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../admin/service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa, bunun yerine rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanır.
+> Bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../admin/service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa laboratuvarda rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanacaktır.
 
 ## <a name="instructor-kit"></a>Eğitmen seti
 

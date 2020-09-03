@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348632"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092372"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
 
@@ -169,7 +169,7 @@ Görselleştirmeyi ve ardından **Görselleştirmeler** bölmesindeki **Biçim**
 
 1. Görselleştirme seçiliyken, **Biçim** simgesini ve sonra **Veri renkleri**’ni seçerek veri rengi seçeneklerini genişletin.
 
-   ![Veri biçimlendirme renkleri](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![Biçim simgesi ve Veri renkleri seçimi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. **Tümünü göster** seçeneğini **Açık** duruma getirin ve ardından **Batı Almanya**’nın yanındaki açılır menüyü ve sarı rengi seçin.
 
@@ -179,7 +179,7 @@ Görselleştirmeyi ve ardından **Görselleştirmeler** bölmesindeki **Biçim**
 
 1. **Yazı tipi rengi**’ni kırmızı, **Metin boyutu**’nu **12** ve **Yazı tipi ailesi**’ni **Segoe (Kalın)** olarak değiştirin.
 
-   ![Veri biçimlendirme renkleri](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![Yazı tipi rengi, boyutu ve ailesi](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 Harita görselleştirmeniz şu şekilde görünür:
 
@@ -201,7 +201,7 @@ Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümle
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-* [Diğer Power BI Desktop eğitimlerini okuyun](/power-bi/guided-learning/)
+* [Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Desktop videolarını izleyin](../fundamentals/desktop-videos.md)
 * [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)

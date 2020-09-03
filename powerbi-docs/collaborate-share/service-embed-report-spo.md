@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939537"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937528"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online’da rapor web bölümü ekleme
 
@@ -30,6 +30,9 @@ Yeni **SharePoint Online'a ekle** seçeneğini kullandığınızda eklenen rapor
 * Bir Power BI Pro lisansı veya bir Power BI lisansı ile [Power BI Premium kapasitesi (EM veya P SKU)](../admin/service-premium-what-is.md).
 * SharePoint Online'a yönelik Power BI web bölümü için [Modern Sayfalar](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b) gereklidir.
 * Ekli bir raporu kullanmak için kullanıcıların Power BI hizmetinde oturum açarak Power BI lisanslarını etkinleştirmeleri gerekir.
+
+> [!Note]
+> Power BI ulusal bulutlarındaki kuruluşlar için ücretsiz lisans yoktur. Bu ortamda SharePoint'e eklenmiş olan rapora ulaşmak isteyen tüm kullanıcıların Power BI Pro lisansına sahip olması gerekir.
 
 ## <a name="embed-your-report"></a>Raporunuzu ekleme
 Raporunuzu SharePoint Online’a eklemek için rapor URL’sini alıp bunu SharePoint Online’ın Power BI web bölümüyle birlikte kullanın.

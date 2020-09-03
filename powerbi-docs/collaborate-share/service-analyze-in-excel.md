@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952768"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937505"
 ---
 # <a name="analyze-in-excel"></a>Excel’de çözümleme
 **Excel’de Çözümle** ile Power BI veri kümelerini Excel’e getirebilir, ardından PivotTable’ları, grafikleri, dilimleyicileri ve diğer Excel özelliklerini kullanarak bu verileri görüntüleyebilir ve bunlarla etkileşimli çalışabilirsiniz. **Excel’de Çözümle** özelliğini kullanmak için önce özelliği Power BI’dan indirmeniz, yüklemeniz ve ardından Excel’de kullanmak üzere bir veya birden fazla veri kümesi seçmeniz gerekir. 
@@ -44,7 +44,7 @@ Oturum açtıktan sonra Power BI hizmeti tarayıcınızda çalışırken sağ ü
 
 Alternatif olarak, Power BI hizmetinde analiz etmek istediğiniz veri kümesine gidebilir ve veri kümesi, rapor veya başka bir Power BI öğesi için **Diğer seçenekler**’i seçebilirsiniz. Aşağıdaki resimde gösterildiği gibi, görüntülenen menüde **Excel’de Çözümle**’yi seçin.
 
-![Excel’de çözümleme](media/service-analyze-in-excel/analyze-excel-01.png)
+![Veri kümesinden Excel'de Çözümleme](media/service-analyze-in-excel/analyze-excel-01.png)
 
 Her iki şekilde de Power BI Excel’de Çözümle özelliğini yükleyip yüklemediğinizi algılar, yüklemediyseniz indirmeniz istenir. 
 
@@ -56,7 +56,7 @@ Her iki şekilde de Power BI Excel’de Çözümle özelliğini yükleyip yükle
 
 İndirme işlemi tamamlandığında yükleyiciyi (.msi) çalıştırarak Excel’de Çözümle’yi yükleyin. Yükleme işleminin adı Excel’de Çözümle özelliğinin adından farklıdır; bu ad **Microsoft Analysis Services OLE DB Sağlayıcısı** veya benzer bir ad olacaktır.
 
-![Güncelleştirmeler yükleniyor](media/service-analyze-in-excel/analyze-excel-05.png)
+![Analysis Services OLE DB sağlayıcısını yükleyen güncelleştirmeler](media/service-analyze-in-excel/analyze-excel-05.png)
 
 Tamamlandıktan sonra Power BI hizmetinde bir rapor (veya başka bir Power BI veri öğesi, örneğin bir veri kümesi) seçip bunu Excel’de analiz etmeye hazır olursunuz.
 
@@ -81,6 +81,9 @@ Power BI hizmetinde, Excel'de analiz etmek istediğiniz veri kümesine veya rapo
 
     Dosya adı, türetildiği veri kümesi (ya da rapor veya başka bir veri kaynağı) ile eşleşir. Dolayısıyla raporun adı *Quarterly Report* olduğunda indirilen dosya **Quarterly Report.xlsx** olur.
 
+    >[!Note]
+    >Excel'de Çözümle artık ODC dosyası yerine Excel dosyası indirir. Bu da Power BI'dan dışarı aktarılan verilerde veri korumasını etkinleştirir. İndirilen Excel dosyası, Excel'de Çözümle için seçilen veri kümesindeki duyarlılık etiketini devralır.
+
 3. Excel dosyasını başlatın.
 
     >[!NOTE]
@@ -90,7 +93,7 @@ Power BI hizmetinde, Excel'de analiz etmek istediğiniz veri kümesine veya rapo
     >
     >![Güvenilir belge içeriği etkinleştirme başlığının ekran görüntüsü](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-## <a name="use-excel-to-analyze-the-data"></a>Verileri analiz etmek için Excel kullanma
+## <a name="use-excel-to-analyze-the-data"></a>Excel’i kullanarak verileri analiz etme
 
 Düzenlemeyi ve içeriği etkinleştirdikten sonra Excel size Power BI veri kümesinden analiz edilmeye hazır boş bir **PivotTable** ve **Alanlar** gösterir.
 
