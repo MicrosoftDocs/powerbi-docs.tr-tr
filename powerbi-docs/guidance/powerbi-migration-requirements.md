@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803615"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401991"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için gereksinimleri toplama
 
@@ -67,7 +67,7 @@ Verilerle ilgili şu ayrıntılı bilgileri derleyin:
 - **Veri yapısı ve temizlemeye yönelik ihtiyaçlar:** Her önkoşul veri kaynağına yönelik veri yapısını ve [veri temizleme](../transform-model/desktop-query-overview.md) etkinliklerinin ne ölçüde gerekli olduğunu belirleyin.
 - **Veri tümleştirmesi**: Birden fazla veri kaynağı olduğunda veri tümleştirmesinin nasıl işleneceğini ve [ilişkilerin](../transform-model/desktop-create-and-manage-relationships.md) her model tablosu arasında nasıl tanımlandığını değerlendirin. Modelin basitleştirilmesi ve [boyutunun azaltılması](import-modeling-data-reduction.md) için gereken belirli veri öğelerini tanımlayın.
 - **Kabul edilebilir veri gecikmesi:** Her veri kaynağına yönelik veri gecikme süresi ihtiyaçlarını belirleyin. Bu, hangi [veri depolama modunun](../transform-model/desktop-storage-mode.md) kullanılacağına ilişkin kararları etkiler. İçeri aktarma model tabloları için veri yenileme sıklığının da bilinmesi önemlidir.
-- **Veri hacmi ve ölçeklenebilirlik:** [Büyük model desteği](/admin/service-premium-large-models.md) ve DirectQuery modellerinin veya [Bileşik modellerin](../transform-model/desktop-composite-models.md) tasarlanmasına ilişkin kararlarda göz önünde bulundurulan veri hacmi beklentilerini değerlendirin. Geçmiş verilere ilişkin önemli noktaların da bilinmesi önemlidir. Büyük veri kümeleri için [artımlı veri yenilemesi](../admin/service-premium-incremental-refresh.md) kurallarının belirlenmesi de önemlidir.
+- **Veri hacmi ve ölçeklenebilirlik:** [Büyük model desteği](../admin/service-premium-large-models.md) ve DirectQuery modellerinin veya [Bileşik modellerin](../transform-model/desktop-composite-models.md) tasarlanmasına ilişkin kararlarda göz önünde bulundurulan veri hacmi beklentilerini değerlendirin. Geçmiş verilere ilişkin önemli noktaların da bilinmesi önemlidir. Büyük veri kümeleri için [artımlı veri yenilemesi](../admin/service-premium-incremental-refresh.md) kurallarının belirlenmesi de önemlidir.
 - **Ölçümler, KPI’lar ve iş kuralları:** Ölçümlere, KPI’lara ve iş kurallarına yönelik ihtiyacı değerlendirin. Bunlar, mantığın nereye (veri kümesine veya veri tümleştirme işlemine) uygulanacağı konusunda verilen kararları etkiler.
 - **Ana veri ve veri kataloğu:** İlgilenilmesi gereken ana veri sorunlarının olup olmadığını değerlendirin. Kurumsal bir veri kataloğuyla tümleştirme yapmanın bulunabilirliği geliştirme, tanımlara erişme veya kuruluş tarafından kabul gören tutarlı bir terminoloji oluşturma açısından uygun olup olmadığını belirleyin.
 - **Güvenlik ve veri gizliliği:** [Satır düzeyi güvenlik](../admin/service-admin-rls.md) gereksinimleri de dahil olmak üzere veri kümelerine yönelik belirli güvenlik veya veri gizliliği hususlarının olup olmadığını belirleyin.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 4087f3d09d509022cb4dd91caebae0f8038e203b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204308"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402037"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
@@ -78,7 +78,7 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonlineS.net/common/" />
+<add key="authorityUrl" value="https://login.microsoftonlineS.us/common/" />
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.high.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.high.powerbigov.us" />
@@ -93,7 +93,7 @@ Bu makalede GitHub üzerindeki [App Owns Data örneğinde](https://github.com/Mi
 3. DoDCON parametrelerini web.config dosyasına aşağıdaki şekilde ekleyin.
 
 ```xml
-<add key="authorityUrl" value="https://login.microsoftonline.net/common/" />
+<add key="authorityUrl" value="https://login.microsoftonline.us/common/" />
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
 <add key="apiUrl" value="https://api.mil.powerbigov.us/" />
 <add key="embedUrlBase" value="https://app.mil.powerbigov.us" />

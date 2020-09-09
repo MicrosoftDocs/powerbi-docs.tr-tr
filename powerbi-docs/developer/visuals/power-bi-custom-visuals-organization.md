@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278825"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401968"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
@@ -32,7 +32,7 @@ Oluşturduğunuz raporlarda Power BI kuruluş görsellerini kullanma hakkında d
 
 ## <a name="administer-organizational-power-bi-visuals"></a>Power BI kuruluş görsellerini yönetme
 
-Kuruluşunuzda Power BI kuruluş görsellerini yönetme, dağıtma ve yönetme hakkında daha fazla bilgi edinmek için şu makaleye bakın: [Power BI kuruluş görsellerinin dağıtımı ve yönetimi hakkında daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=866790).
+Kuruluşunuzda Power BI kuruluş görsellerini yönetme, dağıtma ve yönetme hakkında daha fazla bilgi edinmek için şu makaleye bakın: [Power BI kuruluş görsellerinin dağıtımı ve yönetimi hakkında daha fazla bilgi](../../admin/organizational-visuals.md).
 
 > [!WARNING]
 > Bir dosyadan yüklenen Power BI görseli, güvenlik veya gizlilik riski taşıyan kod içerebilir. Power BI görseli dosyasını kuruluş deposuna dağıtmadan önce görselin yazarına ve kaynağına güvendiğinizden emin olun.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803633"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402014"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI'a dağıtma
 
@@ -87,7 +87,7 @@ Dağıtım işlemi boyunca, aşağıda belirtilenler gibi tüm çözümün deste
 
 - **Değişiklik yönetimi:** Gerekirse dağıtım izni edinin ve standart değişiklik yönetimi uygulamalarınızı kullanarak dağıtımı kullanıcılara bildirin. Üretim dağıtımlarına izin verilen onaylı bir değişiklik yönetimi aralığı olabilir. Genelde BT tarafından yönetilen içeriklere uygulanan bu özellik self servis içeriğe çok nadir uygulanır.
 - **Geri alma planı:** Geçiş işlemlerinde, yeni bir çözümün ilk kez geçirilmesine yönelik bir beklenti oluşur. İçerik zaten mevcutsa, gerekli olması durumunda önceki sürüme geri dönme planı bulundurmak mantıklıdır. SharePoint ve OneDrive sürüm oluşturma özelliğini kullanarak Power BI Desktop dosyalarının önceki sürümlerini bulundurma bu amaç için uygundur.
-- **Bağlantı dizeleri ve parametreleri:** Test ve üretim ortamı farklı veri kaynaklarını kullanıyorsa veri kümesi bağlantı dizelerini ayarlayın. [Parametreleme](/connect-data/service-parameters.md), bu amaç için etkili şekilde kullanılabilir.
+- **Bağlantı dizeleri ve parametreleri:** Test ve üretim ortamı farklı veri kaynaklarını kullanıyorsa veri kümesi bağlantı dizelerini ayarlayın. [Parametreleme](../connect-data/service-parameters.md), bu amaç için etkili şekilde kullanılabilir.
 - **Veri yenileme:** İçeri aktarılan veri kümeleri için [veri kümesi yenilemesini zamanlayın](../connect-data/refresh-scheduled-refresh.md).
 - **Çalışma alanı içeriği:** Veri kümelerini ve raporları üretim çalışma alanında yayımlayın ve pano oluşturun. İçeriğiniz Premium kapasiteli çalışma alanlarında yayımlandıysa, [Dağıtım işlem hatları](../create-reports/deployment-pipelines-overview.md) ile geliştirme, test ve üretim çalışma alanlarına yönelik dağıtım işlemini basitleştirebilirsiniz.
 - **Uygulama:** İçerik dağıtım stratejiniz uygulamaları içeriyorsa, üretim çalışma alanınızda bulunan içeriği kullanarak bir [uygulama](../consumer/end-user-apps.md) yayımlayın.
