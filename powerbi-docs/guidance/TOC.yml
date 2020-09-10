@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: Power BI etkinlik günlüğüne erişme
+              href: admin-activity-log.md
     - name: Power BI’a geçirme
       items:
         - name: Geçişe genel bakış

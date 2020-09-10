@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 33affa71190eb7441822dd57d9e50feb9f7fead1
-  ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+  ms.openlocfilehash: f31cda77af94a087815906666e3b4791309368b1
+  ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 08/25/2020
-  ms.locfileid: "88803032"
+  ms.lasthandoff: 09/07/2020
+  ms.locfileid: "89511930"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -139,6 +139,8 @@ landingContent:
       url: report-performance-troubleshoot.md
     - text: Dağıtım işlem hatlarına yönelik en iyi uygulamalar
       url: ../create-reports/deployment-pipelines-best-practices.md
+    - text: Power BI etkinlik günlüğüne erişme
+      url: admin-activity-log.md
 - title: Power BI’a geçirme
   linkLists:
   - linkListType: concept
