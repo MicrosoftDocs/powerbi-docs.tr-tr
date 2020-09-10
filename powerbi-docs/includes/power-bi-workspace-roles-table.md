@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260184"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512796"
 ---
 |Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260184"
 | Öğeyi görüntüleme ve bununla etkileşim kurma.<sup>5</sup> |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | Çalışma alanı veri akışlarında depolanan verileri okuma | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> Katkıda Bulunanlar uygulama meta verilerini güncelleştirebilir ancak yeni bir uygulama yayımlayamaz veya [çalışma alanı Yöneticisi bu izni Katkıda Bulunanlara devrederse](../collaborate-share/service-create-the-new-workspaces.md#security-settings) uygulamaya izni olan kişileri değiştiremez.
+<sup>1</sup> Katkıda bulunanlar, çalışma alanı Yöneticisinin kendisine bu izin verilmesi durumunda [çalışma alanıyla ilişkili uygulamayı güncelleştirebilir](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app). Öte yandan, yeni bir uygulama yayımlayamaz veya yeni bir uygulamaya yönelik izne sahip kişileri değiştiremezler.
 
 <sup>2</sup> Katkıda Bulunanlar ve Görüntüleyiciler, bir çalışma alanındaki öğeleri ancak yeniden paylaşma izinleri varsa paylaşabilir.
 

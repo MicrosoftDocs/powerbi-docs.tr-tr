@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802986"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512068"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> Power BI etkinlik günlüğü olaylarının nasıl filtreleneceği ve alınacağı hakkında bilgi edinmenize yardımcı olması için bir Power BI örneği sağlanmıştır. Daha fazla bilgi için bkz. [Power BI etkinlik günlüğüne erişme](../guidance/admin-activity-log.md).
 
 ## <a name="use-the-audit-log"></a>Denetim günlüğünü kullanma
 
@@ -369,8 +372,8 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI yönetimi nedir?](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI Yönetici Portalı](service-admin-portal.md)  
-
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- [Power BI yönetimi nedir?](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI Yönetici Portalı](service-admin-portal.md)
+- [Power BI etkinlik günlüğüne erişme](../guidance/admin-activity-log.md)
+- Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+- Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)

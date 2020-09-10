@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227211"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490365"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 
@@ -63,11 +63,11 @@ Hizmet sorumlunuzun Premium çalışma alanı ve veri kümesi işlemleri yaparke
 
 1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi**’ni seçin.
 
-    ![Çalışma alanı ayarları](media/service-premium-service-principal/workspace-access.png)
+    ![Çalışma alanı erişimi ayarları](media/service-premium-service-principal/workspace-access.png)
 
 2. Uygulama adına göre arama yapın, hizmet sorumlusunu çalışma alanına **Yönetici** veya **Üye** olarak ekleyin.
 
-    ![Çalışma alanı yöneticisi](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![Erişim iletişim kutusu](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>XMLA uç noktası için bağlantı dizeleri
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO ve ADOMD
 
-İstemci uygulamalarıyla ve web uygulamalarıyla bağlantı kurarken, NuGet’ten [AMO ve ADOMD istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) sürüm 15.0.2 ve üzeri yüklenebilir paketleri bağlantı dizelerinde şu söz dizimiyle hizmet sorumlularının kullanılmasını destekler: `app:AppID` ve parola veya `cert:thumbprint`.
+İstemci uygulamalarıyla ve web uygulamalarıyla bağlantı kurarken, NuGet’ten [AMO ve ADOMD istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) sürüm 15.1.42.26 (Haziran 2020) ve üzeri yüklenebilir paketleri, bağlantı dizelerinde şu söz dizimiyle hizmet sorumlularının kullanılmasını destekler: `app:AppID` ve parola veya `cert:thumbprint`.
 
 Aşağıdaki örnekte bir model veritabanı yenileme işlemi gerçekleştirmek için `appID` ve `password` kullanılmıştır:
 

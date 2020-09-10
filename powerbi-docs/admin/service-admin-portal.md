@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049814"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490456"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -141,7 +141,7 @@ Denetim günlüklerini kullanmak için [**İç etkinlik denetimi ve uyumluluk i�
 
 Aşağıdaki resimde **Kiracı ayarları** sekmesinin birkaç ayarı gösterilir.
 
-![Kiracı ayarları](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+![Kiracı ayarları](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
 
 > [!NOTE]
 > Ayar değişikliğinin kuruluşunuzdaki herkes için geçerlilik kazanması 15 dakikaya kadar sürebilir.
@@ -251,18 +251,36 @@ Etkinleştirildiğinde, yeni oluşturulan Office 365 Grupları Power BI çalış
 
 ## <a name="export-and-sharing-settings"></a>Dışarı aktarma ve paylaşım ayarları
 
-### <a name="share-content-with-external-users"></a>Dış kullanıcılarla içerik paylaşma
+### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver
 
-Kuruluştaki kullanıcılar, kuruluş dışındaki kullanıcılarla panoları, raporları ve uygulamaları paylaşabilir. [Dış paylaşım](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization) hakkında daha fazla bilgi edinin.
+Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure AD B2B) konuk kullanıcılarının Power BI’a erişmesine olanak sağlar. Bu ayarı devre dışı bıraktığınızda konuk kullanıcılar Power BI’a erişmeye çalışırken bir hata alır. Kuruluşun tamamı için bu ayarı devre dışı bıraktığınızda, kullanıcıların kuruluşunuza konukları davet etmesi ve tek tek konuk kullanıcılara izin ataması da engellenir. Hangi konuk kullanıcıların Power BI’a erişebileceğini denetlemek için belirli güvenlik gruplarını kullanın.
 
-![Dış kullanıcılar ayarı](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
-Aşağıdaki resimde bir dış kullanıcıyla paylaştığınızda görünen ileti gösterilir.
+### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver
 
-![Dış kullanıcıyla paylaşma](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+Bu etkinleştirildiğinde, kuruluşunuzdaki kullanıcılar Power BI’da izinler veya deneyim paylaşımı yoluyla tek tek konuk kullanıcılara izin verebilir. Bu seçenek bir kullanıcı için devre dışı bırakıldığında, söz konusu kullanıcı, konuk kullanıcılara izin atayamaz veya konuk kullanıcıları Power BI’a davet edemez.
+
+![Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
+
 
 > [!IMPORTANT]
-> Bu seçenek, Power BI’daki kullanıcıların Power BI aracılığıyla dış kullanıcıları Azure Active Directory B2B (Azure AD B2B) konuk kullanıcıları olmaları için davet edip edemeyeceklerini denetler. Etkinleştirildiğinde, Azure AD’de Konuk Davet Eden rolüne sahip olan kullanıcılar rapor, pano ve Power BI uygulamaları paylaşırken dış e-posta adresleri ekleyebilir. Dış alıcı, kuruluşunuza bir Azure AD B2B konuk kullanıcısı olarak katılmaya davet edilir. Daha da önemlisi, bu ayar devre dışı bırakılırken kuruluşunuzda zaten Azure AD B2B konuk kullanıcıları olan dış kullanıcılar Power BI’daki kişi seçicisi kullanıcı arabiriminde görünmeye devam eder ve bu kişilere öğe, çalışma alanı ve uygulama erişimi verilebilir.
+>  Bu ayar, konuk kullanıcılara her durumda izin atanmasını engellemez. Bu ayar yalnızca tek tek konuk kullanıcılara erişim verilmesini engeller. Konuk kullanıcılara yine de güvenlik, Office 365 Grupları veya dağıtım listeleri gibi kullanıcı grubu aracılığıyla erişim izni verilebilir. 
+
+Konuk kullanıcılara izin verme izni olmayan bir kullanıcı, konuk kullanıcılara izin vermeye çalışırsa kullanıcı arabiriminde bir hata iletisi görür. Ayrıca bir öğedeki izinler değiştirilirken, konuklara izin verme izni olmayan kullanıcıların öğeye izin verebilmesi veya öğenin izinlerini değiştirebilmesi için önce konuk kullanıcıları erişim listesinden kaldırması gerekir. 
+
+### <a name="invite-external-users-to-your-organization"></a>Dış kullanıcıları kuruluşuma davet et 
+
+**Dış kullanıcıları kuruluşuma davet et** ayarı, kuruluşların Power BI paylaşım ve izinleri yoluyla yeni dış kullanıcıların kuruluşa davet edilip edilemeyeceğini seçmesine yardımcı olur. Devre dışı bırakıldığında, dış kullanıcı halihazırda kuruluşta bir konuk kullanıcı değilse Power BI aracılığıyla kuruluşa eklenemez. 
+
+![Dış kullanıcıları kuruluşuma davet et](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
+
+> [!IMPORTANT]
+> Bu ayar daha önce “Dış kullanıcılarla içerik paylaş” olarak adlandırılıyordu. Düzeltilen ad, ayarın ne yaptığını daha doğru yansıtır.
+
+Kullanıcının dış kullanıcıları kuruluşunuza davet edebilmesi için Azure Active Directory Konuk Davet Eden rolüne de sahip olması gerekir. Bu ayar yalnızca Power BI aracılığıyla davet etme özelliğini denetler. 
+
+Bir kullanıcı için **Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver** ayarı devre dışı bırakıldığında söz konusu kullanıcı, Power BI aracılığıyla kuruluşunuza dış kullanıcıları da davet edemez.
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 

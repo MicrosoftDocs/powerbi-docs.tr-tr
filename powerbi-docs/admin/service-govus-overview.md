@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2020
+ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
+ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638785"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89474838"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -33,6 +33,14 @@ Yeni bir müşteriyseniz Microsoft 365 Kamu planına kaydolmadan önce kuruluşu
 > Power BI’ı zaten ticari bir ortama dağıttıysanız ve ABD kamu bulutuna geçmek istiyorsanız, Microsoft 365 Kamu planınıza yeni bir Power BI Pro aboneliği eklemeniz gerekir. Ardından ticari verileri ABD kamu için Power BI hizmetine çoğaltın, kullanıcı hesaplarından ticari lisans atamalarını kaldırın ve sonra kullanıcı hesaplarına Power BI Pro kamu lisansı atayın.
 >
 >
+### <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>Kamu müşterileri için Power BI Pro aboneliği satın alma
+
+Microsoft 365’i dağıttıktan sonra bir Power BI Pro aboneliği ekleyebilirsiniz. Power BI Pro kamu hizmetini satın almak için [ABD kamu kuruluşunuzu kaydetme](service-govus-signup.md) konusundaki adım adım yönergeleri izleyin. Power BI’ı kullanması gereken tüm kullanıcılara yetecek kadar lisans satın alın ve bu lisansları tek tek kullanıcı hesaplarına atayın.
+
+> [!IMPORTANT]
+> Power BI US Government, *Ücretsiz* lisans olarak sağlanmaz. Kamu topluluk bulutuna erişebilmeleri için her kullanıcıya bir *Pro* lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, bu kullanıcı yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Power BI Premium’u satın aldıysanız, kullanıcı erişimini etkinleştirmek için Pro lisansları atamanız gerekmez.  Kuruluştaki kullanıcılar, Premium kapasitede yayımlandığı sürece kendileriyle paylaşılan raporlara erişebilir. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](../fundamentals/service-features-license-type.md).
+>
+
 ## <a name="government-cloud-instances"></a>Kamu bulutu örnekleri
 
 Microsoft 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluşlarına farklı ortamlar sağlar. Ortamlar hakkında daha fazla bilgi için şu sayfalara bakın:
@@ -53,14 +61,6 @@ Kamu kullanıcılarının Power BI'a bağlanmak için kullanmaları gereken URL,
 
 Hesabınız birden fazla bulutta ayarlanmış olabilir. Hesabınız bu şekilde ayarlanmışsa Power BI Desktop’ta oturum açtığınızda hangi buluta bağlanacağınızı seçebilirsiniz.
 
-## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>Kamu müşterileri için Power BI Pro aboneliği satın alma
-
-Microsoft 365’i dağıttıktan sonra bir Power BI Pro aboneliği ekleyebilirsiniz. Power BI Pro kamu hizmetini satın almak için [ABD kamu kuruluşunuzu kaydetme](service-govus-signup.md) konusundaki adım adım yönergeleri izleyin. Power BI’ı kullanması gereken tüm kullanıcılara yetecek kadar lisans satın alın ve bu lisansları tek tek kullanıcı hesaplarına atayın.
-
-> [!IMPORTANT]
-> Power BI US Government, *Ücretsiz* lisans olarak sağlanmaz. Kamu topluluk bulutuna erişebilmeleri için her kullanıcıya bir *Pro* lisansı atanmalıdır. Bir kullanıcı hesabına Ücretsiz lisans atandıysa, bu kullanıcı yalnızca ticari buluta erişim yetkisine sahip olur; kimlik doğrulaması ve erişim sorunlarıyla karşılaşır. Power BI Premium’u satın aldıysanız, kullanıcı erişimini etkinleştirmek için Pro lisansları atamanız gerekmez.  Kuruluştaki kullanıcılar, Premium kapasitede yayımlandığı sürece kendileriyle paylaşılan raporlara erişebilir. Lisans türleri arasındaki farkları gözden geçirmek için bkz. [Lisans türüne göre Power BI hizmeti özellikleri](../fundamentals/service-features-license-type.md).
->
-
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Kamuya özgü ve genel Azure bulut hizmetleri arasında bağlantı kurma
 
 Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bir örneğin bağlantısını açarken güvenlik duvarı kurallarını etkinleştirebilirsiniz ama bulutlar arası ağ farklıdır.  Genel buluttaki hizmetlerle Government Community Cloud’daki hizmetler arasında iletişim kurmak için belirli güvenlik duvarı kurallarını yapılandırmanız gerekir. Örneğin Power BI’ın kamu bulut dağıtımından bir SQL veritabanının genel bulut örneklerine erişmek istiyorsanız, SQL veritabanında bir güvenlik duvarı kuralına ihtiyacınız vardır. Aşağıdaki veri merkezlerinde Azure Kamu Bulutu’na bağlantılara izin vermek için SQL veritabanında belirli güvenlik duvarı kurallarını yapılandırın:
@@ -76,40 +76,31 @@ SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik
 
 ## <a name="power-bi-feature-availability"></a>Power BI özellik kullanılabilirliği
 
-Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planlarıyla ticari planlar arasında bazı farklılıklar vardır. Her kamu ortamında hangi özelliklerin kullanılabildiğini görmek için aşağıdaki tabloya bakın:
+Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planlarıyla ticari planlar arasında bazı farklılıklar vardır. Hedefimiz, tüm özellikleri kamu bulutlarında 30 günlük genel kullanılabilirlik süresi içinde kullanılabilir hale getirmektir. Bazı durumlarda temel bağımlılıklar bir özelliği kullanıma sunmamızı engeller.
 
-|Öne çıkan özelliği |   |GCC |GCC High |DoD|
-|------|------|------|------|------|
-|Yönetim|Ücretsiz Lisanslar|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Veri depolama sınırlarını ayarlama|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Paylaşım ve erişim denetimi için Active Directory gruplarını kullanma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Office 365 Güvenlik ve Uyumluluk yönetim merkezi üzerinden denetim|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Dış kullanıcı paylaşımı|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Raporlar ve panolar için kullanım ölçümleri|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |GCC ile ticari bulut arasında Azure B2B İşbirliği<sup>1</sup>|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|Rapor oluşturma|Pano ve rapor oluşturma ve bunları görüntüleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Zamanlanmış veri yenileme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Yenilenebilir ekip panoları|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Sayfalandırılmış raporlar|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Şablon uygulamalar|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|Verilere bağlanma|Excel’den verileri ve raporları içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |CSV dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Power BI Desktop dosyalarından verileri içeri aktarma|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |CDS bağlantısı|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|  |Azure Data Lake Storage 2. Nesil bağlayıcısı|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|Veri yönetimi|Veri yönetimi ağ geçidi|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Azure SQL Veritabanı'nda veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Power BI için Blob Depolama’da veri şifreleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|Ürünler arası tümleştirme|Power BI web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|  |Embed web bölümünü kullanarak SharePoint Online’a ekleme|Kullanılabilir|Kullanılabilir|Kullanılabilir|
-|  |Veri akışları ve yapay zeka işlevleri|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Veri odaklı uyarılar için Power Automate bağlantısı|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Teams’de Power BI sekmesi|Kullanılabilir|Kullanılamaz|Kullanılamaz|
-|  |Otomatik Makine Öğrenmesi|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Azure Bilişsel Hizmetler|Kullanılamaz|Kullanılamaz|Kullanılamaz|
-|  |Azure Machine Learning|Kullanılamaz|Kullanılamaz|Kullanılamaz|
+Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler ve sürüm planlanıyorsa tahmini kullanılabilirlik zamanı listelenmektedir:
 
-<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. US Government için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile Azure Genel karşılaştırması](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
+|Öne çıkan özelliği |GCC |GCC High |DoD|
+|------|------|------|------|
+|[Kamu bulutu ve ticari bulut arasında Azure B2B İşbirliği](service-admin-azure-ad-b2b.md)<sup>1</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
+|[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
+|[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+|[Kapasite Ölçümleri](../admin/service-admin-premium-monitor-portal.md)|Ç3 2020 |Ç3 2020|Ç3 2020|
+|[Büyük modeller](service-premium-large-models.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
+|[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/service-dataflows-enhanced-compute-engine.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
+|[Veri akışları - Doğrudan Sorgu](../transform-model/service-dataflows-directquery.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
+|[Hizmet kesintisi bildirimleri](service-premium-large-models.md)|Ç4 2020 |Ç4 2020|Ç4 2020|
+|[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
+|[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
+|[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
+|[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+
+<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+
+<sup>2</sup> GCC için Teams’de Power BI deneyimi sınırlıdır, yalnızca klasik çalışma alanları için çalışır ve [Power BI içeriğini Microsoft Teams’e ekleme](../collaborate-share/service-embed-report-microsoft-teams.md) bölümünde açıklanan gelişmiş işlevleri içermez.
+
+<sup>3</sup> Yayınlanan Şablon Uygulamaları ve Özel Görseller işlevleri, resmi bulutlarla sınırlı olacaktır. Belirli sınırlamalar hakkında daha fazla bilgi, yayın sırasında yayımlanacaktır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

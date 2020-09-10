@@ -1,6 +1,6 @@
 ---
-title: Power BI Desktop'ta SAP HANA'yı kullanma
-description: Power BI Desktop'ta SAP HANA'yı kullanma
+title: Power BI’da SAP HANA’yı kullanma
+description: Power BI’da SAP HANA’yı kullanma
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222788"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401945"
 ---
-# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Power BI Desktop'ta SAP HANA veritabanlarına bağlanma
+# <a name="connect-to-sap-hana-databases-in-power-bi"></a>Power BI’da SAP HANA veritabanlarına bağlanma
 
 Power BI Desktop'ta artık *SAP HANA* veritabanlarına erişebilirsiniz. SAP HANA'yı kullanmak için, yerel istemci bilgisayara SAP HANA ODBC sürücüsünün yükleyerek Power BI Desktop SAP HANA veri bağlantısının düzgün çalışmasını sağlamanız gerekir. Gerekli ODBC sürücüsünü içeren SAP HANA İstemci araçlarını [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools) sayfasından indirebilirsiniz. Bunu [SAP Software Download Center](https://support.sap.com/en/my-support/software-downloads.html) sayfasından da alabilirsiniz. Software portalında Windows bilgisayarlar için *SAP HANA CLIENT* uygulamasını arayın. SAP Software Download Center sayfasının yapısı sıklıkla değiştiğinden sitede gezinmeyle ilgili ayrıntılı bilgi veremiyoruz.
 
@@ -61,6 +61,7 @@ SAP HANA kullanımıyla ilgili de birkaç sınırlama vardır ve bunlar aşağı
 * SMALLDECIMAL desteklenmez.
 * VARBINARY desteklenmez.
 * Geçerli Tarihler 1899/12/30 ile 9999/12/31 arasıdır.
+* SSO ile SAP HANA yenilemesi şu anda gerçekleşen Excel çalışma kitabı yenilemeleri için desteklenmez. Power BI’da verileri yenilemek için SAP HANA SSO ile Power BI raporunu kullanabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

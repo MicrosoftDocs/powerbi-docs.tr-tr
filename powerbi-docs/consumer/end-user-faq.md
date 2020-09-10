@@ -6,16 +6,16 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 12d31c19e3f32068778eb6f3eb7b3b5b18e93847
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215988"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443318"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
@@ -28,16 +28,16 @@ ms.locfileid: "86215988"
 
 Power BI hizmeti, verilerin daha hızlı, verimli ve daha iyi kavranacak şekilde ile görselleştirilmesini ve analiz edilebilmesini sağlayan bulut tabanlı bir iş analizi hizmetidir. Verileri anlamlandıran kullanımı kolay panolar, etkileşimli raporlar ve ilgi çekici görselleştirmeler ile kullanıcıların çok çeşitli bulut tabanlı ve şirket içi veriler ile bağlantı kurmasını sağlar. [Power BI](../fundamentals/power-bi-overview.md) ile ilgili daha fazla bilgi edinin.
 
-## <a name="what-is-a-power-bi-consumers"></a>Power BI *tüketicisi* nedir?
+## <a name="what-is-a-power-bi-business-user"></a>Power BI *iş kullanıcısı* nedir?
 
-Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir son kullanıcı veya *tüketici* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi olursunuz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız.  [Tüketiciler için Power BI](index.yml) hakkında daha fazla bilgi edinin.
+Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Bir son kullanıcı veya *iş kullanıcısı* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi sizsiniz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız.  [İş kullanıcıları için Power BI](index.yml) hakkında daha fazla bilgi edinin.
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro ile Power BI Premium arasındaki fark nedir?
 
-Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
+Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Diğer çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
 
-Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *tüketiciler* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
+Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *iş kullanıcıları* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
 
 Daha fazla bilgi edinmek için bkz. [Ne tür bir lisansa sahibim?](end-user-license.md).
 
@@ -47,9 +47,9 @@ Power BI Premium hakkındaki sorularınız için bkz. [Power BI Premium hakkınd
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
-Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri bilimcileri, rapor tasarımcıları, yöneticiler ve geliştiriciler rapor oluşturmak ve bunları sizin gibi Power BI hizmeti *tüketicilerine* sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../fundamentals/desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
+Power BI Desktop kendi bilgisayarınıza yükleyebileceğiniz ücretsiz bir uygulamadır. Power BI Desktop, Power BI hizmeti ile uyumlu bir şekilde çalışır.  Veri bilimcileri, rapor tasarımcıları, yöneticiler ve geliştiriciler rapor oluşturup bunları sizin gibi Power BI hizmeti *iş kullanıcılarına* sunmak için Power BI Desktop ile çalışır. [Power BI Desktop Nedir](../fundamentals/desktop-what-is-desktop.md) sorusuyla ilgili daha fazla bilgi edinin.
 
-## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>Bir *tüketici* olarak Power BI hizmetini kullanmak için neler gerekir?
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>*İş kullanıcısı* olarak Power BI hizmetini kullanmak için ne yapmam gerekir?
 
 Şirketiniz Power BI lisansları veya Premium kapasite hesabı satın aldıysa, tek ihtiyacınız olan bir Web tarayıcısı ve kimlik bilgileridir. Oturum açarken iş e-posta adresinizle parolanızı (Power BI yöneticiniz tarafından ayarlanır) kullanırsınız.  
 
@@ -84,7 +84,7 @@ Kullanmaya başlarken yardım almak için aşağıdaki kaynaklardan yararlanabil
 * [Power BI Blogu](https://powerbi.microsoft.com/blog/)
 * [Web Seminerleri](../fundamentals/webinars.md)
 * [YouTube Kanalımızdaki](https://www.youtube.com/user/mspowerbi) başlangıç videoları
-* [*Tüketici* olarak Power BI kullanmaya başlama](index.yml) makalesi
+* [*İş kullanıcısı* olarak Power BI’ı kullanmaya başlama](index.yml) makalesi
 * [Topluluğumuza katılın](https://community.powerbi.com/) ve soru sorun
 * Daha fazla öneri için bkz. [Yardım almaya yönelik 10 ipucu](../fundamentals/service-tips-for-finding-help.md)
 
@@ -112,7 +112,7 @@ Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da girdiğiniz son
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI tüketicisi nedir?](end-user-consumer.md)
-* [Tüketici Power BI'ı nasıl kullanır?](end-user-reading-view.md)
+* [Power BI iş kullanıcısı nedir?](end-user-consumer.md)
+* [İş kullanıcısı, Power BI ile nasıl etkileşim kurar?](end-user-reading-view.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 * Sorununuz hâlâ çözülmedi mi? [Power BI destek sayfasını](https://powerbi.microsoft.com/support/) ziyaret edin

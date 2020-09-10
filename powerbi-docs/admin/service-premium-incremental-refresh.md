@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227441"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443341"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -25,12 +26,11 @@ Artımlı yenileme, aşağıdaki avantajlarla Power BI'daki çok büyük veri k�
 > * **Kaynak tüketimi azaltılır** - Yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır.
 
 > [!NOTE]
-> Artımlı yenileme artık Power BI Pro, Premium ve paylaşılan abonelikler ve veri kümelerinde kullanılabilir. 
+> Artımlı yenileme şimdi Power BI Pro, Premium ve paylaşılan abonelikler ile veri kümeleri için kullanılabilir.
 
 ## <a name="configure-incremental-refresh"></a>Artımlı yenilemeyi yapılandırma
 
 Artımlı yenileme ilkeleri, Power BI Desktop’ta tanımlanır ve Power BI hizmetinde yayımlandıktan sonra uygulanır.
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Power BI Desktop’ta büyük veri kümelerini filtreleme
 
@@ -98,18 +98,17 @@ Artımlı yenileme iletişim kutusu görüntülenir. İletişim durumunu etkinle
 
 #### <a name="refresh-ranges"></a>Yenileme aralıkları
 
-Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tarihe kadar mevcut yılın verilerini depolayacak ve on günlük verileri artımlı olarak yenileyecek bir yenileme ilkesi tanımlanır. Birinci yenileme işlemi, geçmiş verileri yükler. Sonraki yenileme işlemleri artımlı olur ve (günlük olarak çalışacak şekilde zamanlanmışsa) aşağıdaki işlemleri gerçekleştirir:
+Aşağıdaki örnekte, toplam beş takvim yılı verisine ek olarak geçerli tarihe kadar mevcut yılın verilerini depolayacak ve tam on günlük verileri artımlı olarak yenileyecek bir yenileme ilkesi tanımlanır. Birinci yenileme işlemi, geçmiş verileri yükler. Sonraki yenileme işlemleri artımlı olur ve (günlük olarak çalışacak şekilde zamanlanmışsa) aşağıdaki işlemleri gerçekleştirir:
 
 - Veriler için yeni bir gün ekleme.
 
-- Güncel tarihe kadarki on günü yenileme.
+- Güncel tarihe kadarki tam on günü yenileme.
 
 - Güncel tarihten beş yıl öncesinden daha eski zamana ait takvim yıllarını kaldırma. Örneğin, güncel tarih 1 Ocak 2019 ise, 2013 yılı kaldırılır.
 
 Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri aktarılması uzun sürebilir. Sonraki yenilemeler hızlı şekilde tamamlanabilir.
 
 ![Yenileme aralıkları](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>Geçerli tarih
 
@@ -139,7 +138,7 @@ On günlük artımlı yenileme, beş yılın tam yenilemesini yapmaktan çok dah
 
 #### <a name="only-refresh-complete-periods"></a>Yalnızca tam dönemleri yenileme
 
-Yenilemenin her sabah 4:00’da çalıştırılacak şekilde zamanlandığını varsayalım. Bu 4 saat boyunca kaynak sistemde veri görüntülenirse, bunu hesaba katmak istemeyebilirsiniz. Petrol ve doğal gaz endüstrisindeki günlük fıçı sayısı gibi bazı iş ölçümleri, kısmi günler için bir anlam taşımaz.
+Yenilemenin her sabah 4:00’da çalıştırılacak şekilde zamanlandığını varsayalım. Bu 4 saat boyunca kaynak sistemde veri görüntülenirse, bunu hesaba katmak istemeyebilirsiniz. Petrol ve doğal gaz endüstrisindeki günlük varil sayısı gibi bazı iş ölçümleri, kısmi günler için bir anlam taşımaz.
 
 Ayın 12. takvim gününde önceki ayın verilerinin onaylandığı bir finansal sistemden verilerin yenilenmesi de başka bir örnek olarak verilebilir. Artımlı aralığı 1 ay olarak ayarlayabilir ve yenilemeyi ayın 12. gününde çalıştırılacak şekilde zamanlayabilirsiniz. Bu seçenek işaretlendiğinde, örneğin, Ocak verileri 12 Şubat’ta yenilenir.
 
