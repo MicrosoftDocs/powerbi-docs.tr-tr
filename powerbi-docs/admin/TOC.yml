@@ -62,6 +62,8 @@
               href: service-admin-syndication-partner.md
         - name: Yönetici portalını kullanma
           href: service-admin-portal.md
+        - name: Power BI için özel bağlantıları kullanma
+          href: service-security-private-links.md
         - name: Power BI görselleri yönetici ayarlarını yönetme
           href: organizational-visuals.md
         - name: Oturum açan kullanıcıları bulma

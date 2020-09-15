@@ -12,27 +12,27 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/31/2020
-  ms.openlocfilehash: d293b27b65e3997b895d3fd10d69292db661bc3b
-  ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+  ms.date: 09/09/2020
+  ms.openlocfilehash: f1334267e0b1698c8105115e821d8eccb69c1b00
+  ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 07/28/2020
-  ms.locfileid: "87364043"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "90008618"
 highlightedContent:
   items:
-  - title: ABD verilerini içeren bir COVID-19 raporu oluşturma
-    itemType: sample
-    url: create-reports/sample-covid-19-us.md
   - title: Power BI Desktop ile çalışmaya başlama
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Power BI hizmetine kaydolma
-    itemType: how-to-guide
-    url: fundamentals/service-self-service-signup-for-power-bi.md
-  - title: İşbirliği yapma ve paylaşma yolları
+  - title: Microsoft Teams’de Power BI ile işbirliği yapma
     itemType: concept
-    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-collaborate-microsoft-teams.md
+  - title: Power BI içeriğini bir uygulamaya ekleme
+    itemType: tutorial
+    url: developer/embedded/embed-sample-for-customers.md
+  - title: Microsoft Learn’de Power BI
+    itemType: learn
+    url: https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
 conceptualContent:
   items:
   - title: 'Power BI: Kullanmaya başlayın'
@@ -40,12 +40,12 @@ conceptualContent:
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI nedir?
-    - url: fundamentals/desktop-what-is-desktop.md
-      itemType: overview
-      text: Power BI Desktop nedir?
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI hizmeti nedir?
+    - url: fundamentals/service-self-service-signup-for-power-bi.md
+      itemType: overview
+      text: Power BI hizmetine kaydolma
     footerLink:
       url: fundamentals/index.yml
       text: Daha fazlasını göster
@@ -71,9 +71,9 @@ conceptualContent:
     - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: Kuruluşunuzda lisanslama
-    - url: admin/service-admin-portal.md
+    - url: admin/service-premium-what-is.md
       itemType: concept
-      text: Yönetici portalı
+      text: Power BI Premium nedir?
     footerLink:
       url: admin/index.yml
       text: Daha fazlasını göster
@@ -107,9 +107,9 @@ conceptualContent:
       text: Daha fazlasını göster
   - title: Verileri dönüştürme ve şekillendirme
     links:
-    - url: transform-model/desktop-analytics-pane.md
-      itemType: how-to-guide
-      text: Analiz bölmesini kullanma
+    - url: transform-model/desktop-query-overview.md
+      itemType: overview
+      text: Sorgu Düzenleyicisi’ne genel bakış
     - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: Ortak sorgu görevleri
@@ -135,9 +135,9 @@ conceptualContent:
       text: Daha fazlasını göster
   - title: Raporlar ve panolar oluşturma
     links:
-    - url: create-reports/desktop-report-themes.md
-      itemType: concept
-      text: Rapor temaları
+    - url: create-reports/sample-covid-19-us.md
+      itemType: sample
+      text: ABD verileri ile COVID-19 raporu oluşturma
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: Sayfalandırılmış raporlar nedir?
