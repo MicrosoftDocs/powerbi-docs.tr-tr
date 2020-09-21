@@ -11,11 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238970"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008940"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -267,7 +268,9 @@ Bu sınırlamalar ve önemli noktalar Power BI Desktop ve Power BI hizmeti (Powe
   
   1. Dosyanın depolandığı yerel klasöre gidin ve *.csv*'yi seçin.
 
-- *.csv* dosyasına aktarılırken bazı karakterlerin başına **'** kaçış karakteri eklenir.
+- *.csv* olarak dışarı aktarma sırasında, dosyanın Excel’de açılması durumunda betik yürütme gerçekleşmesini engellemek için başa **'** koyularak belirli karakterlere kaçış karakteri eklenir. Aşağıdaki durumlarda bu gerçekleşir:
+  - Sütun, **_ve_** veri modelinde “Metin” türü olarak tanımlandığında
+  - Metnin ilk karakteri şunlardan biri olduğunda: **=, @, +, -**
 
 - Power BI yöneticileri verilerin dışarı aktarılmasını devre dışı bırakabilir.
 

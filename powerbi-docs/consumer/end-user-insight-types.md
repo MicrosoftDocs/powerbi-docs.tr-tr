@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537769"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008836"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -27,7 +27,7 @@ Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri
 ![bir grup İçgörü](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
-Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *tüketicileri* pano kutucuklarında İçgörüleri çalıştırabilir.
+Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları*, pano kutucuklarında İçgörüleri çalıştırabilir.
 
 ## <a name="some-terminology"></a>Bazı terimler
 Power BI İçgörüleri ortaya çıkarmak için istatistiksel algoritmalar kullanır. Algoritmalar bu makalenin sonraki bölümünde listelenmiş ve açıklanmıştır. Algoritmalara gelmeden önce burada tanımıyor olabileceğiniz bazı terimlerin açıklamalarını sağladık. 
@@ -44,49 +44,49 @@ Bunlar Power BI'ın kullandığı algoritmalardır.
 ### <a name="category-outliers-topbottom"></a>Kategori aykırı değerleri (üst/alt)
 Bir veya iki kategorinin diğer kategorilerden çok daha yüksek değerlere sahip olduğu durumları vurgular.  
 
-![Kategori aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![Kategori aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>Zaman serilerindeki değişim noktaları
 Verilere ilişkin bir zaman serisindeki eğilimlerde görülen önemli değişiklikleri vurgular.
 
-![Zaman serilerindeki değişim noktaları örneği](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![Zaman serilerindeki değişim noktaları örneği](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>Bağıntı
 Birden çok ölçünün, veri kümesindeki bir kategori veya değer için çizildiğinde benzer bir desen veya eğilim gösterdiği durumları algılar.
 
-![Bağıntı örneği](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![Bağıntı örneği](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>Düşük Varyans
 Bir boyut için veri noktalarının orta değerden uzak olmadığı, dolayısıyla "varyansın" düşük olduğu durumları algılar. "Satış" ölçünüzün ve "bölge" boyutunuzun olduğunu varsayalım. Bölge geneline baktığınızda veri noktalarıyla orta değer (veri noktalarının orta değeri) arasında çok az fark olduğunu görüyorsunuz. Tüm bölgelerdeki satışların varyansı eşiğin altında olduğunda içgörü tekikleniyor. Diğer bir deyişle tüm bölgelerde satışlar birbirine oldukça yakın olduğunda tetikleniyor.
 
-![Düşük Varyans örneği](./media/end-user-insight-types/power-bi-low-variance.png)
+![Düşük Varyans örneği](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>Çoğunluk (Ana etkenler)
 Bir toplam değerin çoğunluğunun, başka bir boyuta göre değerlendirildiğinde tek bir etkenle ilişkilendirilebildiği durumları bulur.  
 
-![Ana etkenler örneği](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![Ana etkenler örneği](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>Zaman serisindeki genel eğilimler
 Zaman serisi verilerinde görülen yukarı veya aşağı yönlü eğilimleri algılar.
 
-![Zaman serisindeki genel eğilimler örneği](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![Zaman serisindeki genel eğilimler örneği](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>Zaman serisinde mevsimsellik
 Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi dönemsel düzenler bulur.
 
-![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>Düzenli paylaşım
 Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin "kuzeydoğu bölgesi") bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
 
 Düzenli paylaşım içgörüsü düşük varyans içgörüsüne benzer, çünkü her ikisi de zaman içinde bir değerin varyansının eksik olmasıyla ilgilidir. Öte yandan, düzenli paylaşım içgörüsü zaman içinde **genel yüzdenin** varyansının eksikliğini ölçerken, düşük varyans içgörüsü boyut genelinde mutlak ölçü değerlerinin varyansının eksikliğini ölçer.
 
-![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![Düzenli paylaşım örneği](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>Zaman serisi aykırı değerleri
 Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğer tarih/saat değerlerinden büyük ölçüde farklılık gösteren değerler içerdiği durumları algılar.
 
-![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI öngörüleri](end-user-insights.md)

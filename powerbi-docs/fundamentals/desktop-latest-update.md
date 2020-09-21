@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 42c21a99422e7a3c67cdb65b62d6c323f8c8aa0d
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4282b4fc5d59e2ff5e0def353ad444546dcf5f43
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092257"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008526"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
@@ -91,7 +91,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu 
 Videolar ve diğer ilgi çekici içerikler yoluyla Power BI hakkında bilgi edinmek hoşunuza gitti mi? Aşağıdaki video kaynağı ve içeriği koleksiyonuna göz atın:
 
 -   [Power BI kanalı](https://www.youtube.com/user/mspowerbi): YouTube'daki Power BI video koleksiyonu.
--   [Power BI için destekli öğrenme](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Küçük parçalara ayrılmış, Power BI sıralı eğitim turu.
+-   [Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Bayt boyutunda parçalar halinde, Power BI’ın sıralı öğrenme turu.
 
 ## <a name="updates-for-previous-months"></a>Önceki aylara ait güncelleştirmeler
 

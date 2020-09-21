@@ -6,45 +6,41 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764963"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084065"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
 Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](../transform-model/service-dataflows-data-sources.md).
 
-> [!NOTE]
-> Birçok Power BI Desktop veri bağlayıcısı, kimlik doğrulaması için Internet Explorer 10 (veya daha yeni bir sürümü) uygulamasına ihtiyaç duyar. 
-
-
 | Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) |
 |---|---|---|---|---|---|---|---|
 | Access veritabanı | Evet | Evet | Hayır | Evet <sup>1</sup> | Evet |
-| ActiveDirectory | Evet | Evet | Hayır | Evet | Evet |
+| ActiveDirectory | Evet | Evet | Hayır | Yes | Evet |
 | Adobe Analytics | Evet | Evet | Hayır | Hayır | Hayır |
 | Amazon Redshift | Evet | Evet | Evet | Evet | Hayır |
 | appFigures | Evet | Evet | Hayır | Hayır | Hayır |
 | AtScale küpleri | Evet | Evet | Evet | Evet | Hayır |
 | Azure Analysis Services | Evet | Evet | Evet | Hayır | Hayır |
-| Azure Blob Depolama Alanı | Evet | Evet | Hayır | Evet | Hayır |
+| Azure Blob Depolama Alanı | Evet | Evet | Hayır | Yes | Hayır |
 | Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Yes | Hayır |
+| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Evet | Hayır |
 | Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır |
+| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Yes | Hayır |
 | Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure DevOps Server | Evet | Evet | Hayır | Evet | Evet |
+| Azure DevOps Server | Evet | Evet | Hayır | Yes | Evet |
 | Azure HDInsight (HDFS) | Evet | Evet | Hayır | Hayır | Hayır |
 | Azure HDInsight Spark | Evet | Evet | Evet | Hayır | Hayır |
 | Azure SQL Veritabanı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
 | Azure SQL Veri Ambarı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
-| Azure Tablo Depolama | Evet | Evet | Hayır | Evet | Hayır |
+| Azure Tablo Depolama | Evet | Evet | Hayır | Yes | Hayır |
 | BI Bağlayıcısı | Evet | Evet | Evet | Evet | Evet |
 | BI360 - Budgeting & Financial Reporting | Evet | Evet | Hayır | Hayır | Hayır |
 | Common Data Service | Evet | Evet | Hayır | Hayır | Hayır |
@@ -62,15 +58,15 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Exasol | Evet | Evet | Evet | Evet | Evet |
 | Excel | Evet <sup>3</sup> | Evet <sup>3</sup> | Hayır | Evet <sup>3</sup> | Hayır <sup>4</sup> |
 | Facebook | Evet | Evet | Hayır | Hayır | Hayır |
-| Dosya | Evet | Evet | Hayır | Evet | Evet |
-| Klasör | Evet | Evet | Hayır | Evet | Evet |
+| Dosya | Evet | Evet | Hayır | Yes | Evet |
+| Klasör | Evet | Evet | Hayır | Yes | Evet |
 | GitHub | Evet | Evet | Hayır | Hayır | Hayır |
 | Google Analytics | Evet | Evet | Hayır | Hayır | Hayır |
 | Google BigQuery | Evet | Evet | Evet | Hayır | Hayır |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır |
 | IBM DB2 | Evet | Evet | Evet | Evet | Hayır |
-| IBM Informix Veritabanı | Evet | Evet | Hayır | Evet | Hayır |
+| IBM Informix Veritabanı | Evet | Evet | Hayır | Yes | Hayır |
 | IBM Netezza | Evet | Evet | Evet | Evet | Evet |
 | Impala | Evet | Evet | Evet | Evet | Evet |
 | Indexima | Evet | Evet | Evet | Evet | Evet |
@@ -85,16 +81,16 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Marketo | Evet | Evet | Hayır | Hayır | Hayır |
 | MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet |
 | Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır |
-| Microsoft Exchange | Evet | Evet | Hayır | Evet | Hayır |
+| Microsoft Exchange | Evet | Evet | Hayır | Yes | Hayır |
 | Microsoft Exchange Online | Evet | Evet | Hayır | Hayır | Hayır |
-| Microsoft Graph Güvenliği | Evet | Evet | Hayır | Evet | Hayır |
+| Microsoft Graph Güvenliği | Evet | Evet | Hayır | Yes | Hayır |
 | Mixpanel | Evet | Evet | Hayır | Hayır | Hayır |
-| MySQL | Evet | Evet | Hayır | Evet | Evet |
-| OData | Evet | Evet <sup>7</sup> | Hayır | Evet | Hayır |
-| ODBC | Evet | Evet | Hayır | Evet | Evet |
-| OleDb | Evet | Evet | Hayır | Evet | Evet |
+| MySQL | Evet | Evet | Hayır | Yes | Evet |
+| OData | Evet | Evet <sup>7</sup> | Hayır | Yes | Hayır |
+| ODBC | Evet | Evet | Hayır | Yes | Evet |
+| OleDb | Evet | Evet | Hayır | Yes | Evet |
 | Oracle | Evet | Evet | Evet | Evet | Evet |
-| Paxata <sup>8</sup> | Evet | Evet | Hayır | Evet | Hayır |
+| Paxata <sup>8</sup> | Evet | Evet | Hayır | Yes | Hayır |
 | PDF | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
 | Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır |
 | Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır |
@@ -105,10 +101,10 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Power Platform veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
 | Python betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Evet |
 | QubolePresto | Evet | Evet | Evet | Evet | Evet |
-| Quick Base | Evet | Evet | Hayır | Evet | Evet |
+| Quick Base | Evet | Evet | Hayır | Yes | Evet |
 | QuickBooks Online | Evet | Evet | Hayır | Hayır | Hayır |
 | R betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Hayır |
-| Roamler | Evet | Evet | Hayır | Evet | Hayır |
+| Roamler | Evet | Evet | Hayır | Yes | Hayır |
 | Salesforce Nesneleri | Evet | Evet | Hayır | Hayır | Hayır |
 | Salesforce Raporları | Evet | Evet | Hayır | Hayır | Hayır |
 | SAP Business Warehouse İleti Sunucusu | Evet | Evet | Evet | Evet | Evet |
@@ -124,10 +120,10 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | SQL Server | Evet | Evet | Evet | Evet | Evet |
 | SQL Server Analysis Services | Evet | Evet | Evet | Evet | Evet |
 | Stripe | Evet | Evet | Hayır | Hayır | Hayır |
-| SurveyMonkey | Evet | Evet | Hayır | Evet | Hayır |
+| SurveyMonkey | Evet | Evet | Hayır | Yes | Hayır |
 | SweetIQ | Evet | Evet | Hayır | Hayır | Hayır |
-| Sybase | Evet | Evet | Hayır | Evet | Evet |
-| TeamDesk | Evet | Evet | Hayır | Evet | Hayır |
+| Sybase | Evet | Evet | Hayır | Yes | Evet |
+| TeamDesk | Evet | Evet | Hayır | Yes | Hayır |
 | Tenforce | Evet | Evet | Hayır | Hayır | Hayır |
 | Teradata | Evet | Evet | Evet | Evet | Evet |
 | Metin/CSV | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
@@ -136,7 +132,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Vertica | Evet | Evet | Evet | Evet | Evet |
 | Web | Evet | Evet | Hayır | Evet | Evet <sup>6</sup> |
 | Webtrends | Evet | Evet | Hayır | Hayır | Hayır |
-| Workforce Dimensions | Evet | Evet | Hayır | Evet | Hayır |
+| Workforce Dimensions | Evet | Evet | Hayır | Yes | Hayır |
 | XML | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
 | Zendesk | Evet | Evet | Hayır | Hayır | Hayır |
 | | | | | | | | |
@@ -156,6 +152,11 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 <sup>7</sup> Power BI hizmeti, kimlik doğrulaması gerektiren OData akışlarını desteklemez.
 
 <sup>8</sup> Paxata, Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop sürümünde desteklenir. Power BI Rapor Sunucusu’na yayımlanan Power BI raporlarında desteklenmez. Desteklenen veri kaynakları listesi için bkz. [Power BI Rapor Sunucusu’nda Power BI raporu veri kaynakları](../report-server/data-sources.md).
+
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+
+- Birçok Power BI Desktop veri bağlayıcısı, kimlik doğrulaması için Internet Explorer 10 (veya daha yeni bir sürümü) gerektirir. 
+- Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’nda yayımlandığında desteklenmeyen bazı veri kaynakları bulunur. Desteklenen veri kaynakları listesi için bkz. [Power BI Rapor Sunucusu’nda Power BI raporu veri kaynakları](../report-server/data-sources.md).
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery kaynakları için çoklu oturum açma (SSO)
 

@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: 7e321bd524dcb4915273627aec6cf487126e5e1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
+ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235677"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90571015"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
-Yeni Power BI *şablon uygulamaları* Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makale, Power BI şablon uygulaması oluşturmak için adım adım yönergeler içerir.
+Power BI *şablon uygulamaları*, Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makalede, Power BI şablon uygulaması oluşturmaya yönelik adım adım yönergeler yer almaktadır.
 
-Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması oluşturucusu* olabilir ve analitik içerik oluşturup bu içeriği *uygulama* içinde paketleyebilirsiniz. Uygulamanızı, AppSource gibi herhangi bir kullanılabilir platform aracılığıyla veya kendi web hizmetinizde kullanarak diğer Power BI kiracılarına dağıtabilirsiniz. Bir oluşturucu olarak dağıtım için korumalı bir analiz paketi oluşturma olanağınız olur.
+Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması oluşturucusu* olabilir ve analitik içeriklerini derleyip *uygulama* içinde paketleyebilirsiniz. Uygulamanızı, AppSource gibi herhangi bir kullanılabilir platform aracılığıyla veya kendi web hizmetinizde kullanarak diğer Power BI kiracılarına dağıtabilirsiniz. Bir oluşturucu olarak dağıtım için korumalı bir analiz paketi oluşturabilirsiniz.
 
 Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI kiracı yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
 
@@ -40,52 +40,50 @@ Diğer Power BI kiracılarına dağıtabileceğiniz bir şablon uygulaması olu�
 
     ![Çalışma alanı oluşturma](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. **Çalışma alanı oluştur**’da **Yenisine yükselt** seçeneğini belirleyin.
+2. **Çalışma alanı oluştur** bölümünde, çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
 
     ![Yeni çalışma alanlarını deneme](media/service-template-apps-create/power-bi-upgrade-new.png)
-
-3. Çalışma alanınız için ad, açıklama (isteğe bağlı) ve logo resmi (isteğe bağlı) girin.
 
 4. **Gelişmiş** bölümünü genişletin ve **Şablon uygulaması geliştirin**’i seçin.
 
     ![Şablon uygulaması geliştirin](media/service-template-apps-create/power-bi-template-app-develop.png)
 
-5. **Kaydet**'i seçin.
+5. **Kaydet**’i seçin.
 >[!NOTE]
 >Şablon uygulamalarını tanıtmak için Power BI yöneticinizin izinleri gerekir.
 
-## <a name="create-the-content-in-your-template-app"></a>Şablon uygulamanızdaki içeriği oluşturma
+## <a name="add-content-to-the-template-app-workspace"></a>Şablon uygulaması çalışma alanına içerik ekleme
 
-Normal Power BI çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanında içeriği oluşturmaktır.  
+Normal Power BI çalışma alanlarında olduğu gibi, sonraki adımınız çalışma alanına içerik eklemektir.  
 
 - Çalışma alanınızda [Power BI içeriğinizi oluşturun](index.yml).
 
-Power Query’de parametreleri kullanıyorsanız, bunların iyi tanımlanmış türde (örneğin, Text) olmasına dikkat edin. Any ve Binary türleri desteklenmez.
+Power Query’de parametreleri kullanıyorsanız, bunların iyi tanımlanmış türlerde (örneğin, Metin) olmasına dikkat edin. Any ve Binary türleri desteklenmez.
 
 [Power BI’da şablon uygulaması yazmaya yönelik ipuçları](service-template-apps-tips.md) makalesinde şablon uygulamanız için rapor ve pano oluştururken göz önüne alınacak öneriler bulunur.
 
-## <a name="create-the-test-template-app"></a>Test şablon uygulaması oluşturma
+## <a name="define-the-properties-of-the-template-app"></a>Şablon uygulamasının özelliklerini tanımlama
 
 Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir şablon uygulamasında paketlemeye hazırsınız. İlk adım yalnızca kiracınızda kuruluşunuzun içinden erişilebilen bir test şablon uygulaması oluşturmaktır.
 
-1. Şablon çalışma alanında **Uygulama oluştur**’u seçin.
+1. Şablon uygulaması çalışma alanında **Uygulama oluştur**’u seçin.
 
     ![Uygulama oluşturma](media/service-template-apps-create/power-bi-create-app.png)
 
-    Burada, şablon uygulamanız için beş kategoride ek derleme seçeneklerini doldurursunuz:
+    Burada, şablon uygulamanız için altı sekmede ek derleme seçeneklerini doldurursunuz:
 
-    **Markalama**
+    **Marka**
 
-    ![Markalama](media/service-template-apps-create/power-bi-create-branding.png)
+    ![Marka](media/service-template-apps-create/power-bi-create-branding.png)
     - Uygulama adı
-    - Açıklama
+    - Description
     - Destek sitesi (şablon uygulaması kuruluş uygulaması olarak yeniden dağıtıldıktan sonra bu bağlantı uygulama bilgilerinin altında gösterilir)
     - Uygulama logosu (45K dosya boyutu sınırı, 1:1 en boy oranı, .png .jpg .jpeg biçimleri)
     - Uygulama tema rengi
 
     **Gezinti**
 
-    Uygulamanın gezinti bölmesini tanımlayabileceğiniz **Yeni gezinti oluşturucu**’yu etkinleştirin (Ayrıntılar için bu makaledeki [Gezinti deneyimini tasarlama](../collaborate-share/service-create-distribute-apps.md#design-the-navigation-experience) bölümüne bakın).
+    Uygulamanın gezinti bölmesini tanımlayabileceğiniz **Yeni gezinti derleyicisi**’ni etkinleştirin (Ayrıntılar için bu makaledeki [Gezinti deneyimini tasarlama](../collaborate-share/service-create-distribute-apps.md#design-the-navigation-experience) bölümüne bakın).
 
    ![Uygulama giriş sayfasını ayarlama](media/service-template-apps-create/power-bi-install-app-content.png)
     
@@ -93,7 +91,7 @@ Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir ş
 
     **Denetim**
 
-    Uygulamanızdaki içerikle ilgili olarak, uygulama kullanıcıları için geçerli olacak sınırları ve kısıtlamaları ayarlayın. Bu denetimi kullanarak uygulamanızda fikri mülkiyeti koruyabilirsiniz.
+    Uygulamanızın içeriğiyle ilgili olarak, uygulama kullanıcılarınız için geçerli olacak sınırları ve kısıtlamaları ayarlayın. Bu denetimi kullanarak uygulamanızda fikri mülkiyeti koruyabilirsiniz.
 
     ![Denetim](media/service-template-apps-create/power-bi-create-control.png)
 
@@ -102,14 +100,43 @@ Artık çalışma alanınızda içeriğiniz olduğuna göre, bu içeriği bir ş
 
     **Parametreler**
 
-    Veri kaynaklarına bağlanırken parametre davranışını yönetmek için bu kategoriyi kullanın. [Sorgu parametreleri oluşturma](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) hakkında daha fazla bilgi edinin.
+    Parametreler özgün pbix dosyasında oluşturulur ([sorgu parametreleri oluşturma](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) hakkında daha fazla bilgi edinin). Uygulama yükleyicisinin, verilerine bağlandığında yüklemeden sonra uygulamayı yapılandırmasına yardımcı olmak için bu sekmedeki özellikleri kullanırsınız.
+
+    Bu sekmede, uygulama belgelerinin bağlantısını da sağlarsınız.
 
     ![Parametreler](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **Değer**: varsayılan parametre değeri.
-    - **Gerekli**: yükleyicinin kullanıcıya özel bir parametre girmesini gerektirmek için bunu kullanın.
-    - **Kilit**: Kilitleme, yükleyicinin parametreyi güncelleştirmesini engeller.
 
-    **Erişim**: Test aşamasında, kuruluşunuzda başka kimlerin uygulamanızı yükleyebileceğine ve test edebileceğine karar verin. Endişelenmeyin; istediğiniz zaman geri dönebilir ve bu ayarları değiştirebilirsiniz. Bu ayar, dağıtılmış Şablon uygulamasının erişimini etkilemez.
+    Her parametrenin, sorgudan gelen bir adı ve açıklaması ile bir değer alanı vardır. Yükleme sırasında parametreye yönelik bir değer almak için üç seçeneğiniz vardır.
+
+    * Yükleyicinin bir değer girmesini zorunlu tutabilirsiniz. Bu durumda, yerlerini alacak bir örnek sağlarsınız. Bir parametreyi bu şekilde yapılandırmak için, **Zorunlu** onay kutusunu işaretleyin ve metin kutusunda, kullanıcıya ne tür değer beklendiğini gösteren bir örnek verin. Örnek:
+
+       ![Kullanıcının girmek zorunda olduğu parametre değerinin ekran görüntüsü.](media/service-template-apps-create/power-bi-create-parameters-require-user.png)
+
+    * Uygulamayı yükleyen kullanıcının değiştiremeyeceği, önceden doldurulmuş bir değer sağlayabilirsiniz. Bu şekilde yapılandırılan bir parametre, uygulamayı yükleyen kişiden gizlenir. Yalnızca önceden doldurulmuş değerin, tüm kullanıcılar için geçerli olduğundan eminseniz bu yöntemi kullanmanız gerekir. Aksi takdirde, kullanıcı girişini gerektiren, yukarıda belirtilen birinci yöntemi kullanın.
+
+       Bir parametreyi bu şekilde yapılandırmak için, **Değer** metin kutusuna değeri girin ve kilit simgesine tıklayın. Böylece değer değiştirilemez hale getirilir. Örnek:
+
+       ![Mutlak parametre değerinin ekran görüntüsü.](media/service-template-apps-create/power-bi-create-parameters-absolute.png)
+
+    * Kullanıcının yükleme sırasında değiştirebileceği varsayılan bir değer sağlayabilirsiniz. Bir parametreyi bu şekilde yapılandırmak için, **Değer** metin kutusuna istediğiniz varsayılan değeri girin ve kilit simgesini kilidi açık şekilde bırakın. Örnek:
+
+      ![Değiştirilebilir varsayılan parametre değerinin ekran görüntüsü.](media/service-template-apps-create/power-bi-create-parameters-default.png)
+
+    **Kimlik Doğrulaması**
+    
+    Bu sekmede, kullanılacak kimlik doğrulama yöntemini seçersiniz. Kullanılabilen seçenekler, kullanılmakta olan veri kaynağı türlerine bağlıdır.
+
+    ![Kimlik doğrulama yöntemi seçeneğinin ekran görüntüsü.](media/service-template-apps-create/power-bi-create-authentication.png)
+
+    Gizlilik düzeyi otomatik olarak yapılandırılır:
+   * Tek bir veri kaynağı: Otomatik şekilde özel olarak yapılandırılır.
+   * Çoklu anonim veri kaynağı: Otomatik şekilde genel olarak yapılandırılır.
+
+    **Erişim**
+    
+    Test aşamasında, kuruluşunuzda başka kimlerin uygulamanızı yükleyebileceğine ve test edebileceğine karar verin. Endişelenmeyin; istediğiniz zaman geri dönebilir ve bu ayarları değiştirebilirsiniz. Bu ayar, dağıtılmış şablon uygulamasının erişimini etkilemez.
+
+    ![Erişim sekmesinin ekran görüntüsü.](media/service-template-apps-create/power-bi-create-access.png)
 
 2. **Uygulama oluştur**'u seçin.
 
@@ -136,29 +163,27 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     ![Sürüm Yönetimi simgesi](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. **Uygulama oluştur**'u seçin.
+2. Yukarıdaki **Test şablon uygulaması oluşturma** bölümünde test uygulamasını oluşturduysanız (sonuç olarak, **Test**’in yanındaki sarı nokta önceden doldurulmuş olur) **Bağlantı al** seçeneğini belirleyin.
 
-    Yukarıdaki **Test şablon uygulaması oluştur** seçeneğiyle test uygulaması oluşturduysanız, **Test**’in yanındaki sarı nokta zaten doldurulmuş görünür ve burada **Uygulama oluştur**’u seçmeniz gerekmez. Seçerseniz, şablon uygulaması oluşturma işlemine geri dönersiniz.
-
-3. **Bağlantı al**’ı seçin.
+    Henüz uygulamayı oluşturmadıysanız **Uygulama oluştur**’u seçin. Böylece şablon uygulaması oluşturma işlemine geri dönersiniz.
 
     ![Uygulama oluşturma, bağlantı alma](media/service-template-apps-create/power-bi-dev-template-create-app-get-link.png)
 
 4. Uygulama yükleme deneyimini test etmek için, bildirim penceresindeki bağlantıyı kopyalayın ve yeni bir tarayıcı penceresine yapıştırın.
 
-    Burada, müşterilerinizin izleyeceği yordamın aynısını izlersiniz. Sürümleri için bkz. [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](service-template-apps-install-distribute.md).
+    Burada, müşterilerinizin izleyeceği yordamın aynısını izlersiniz. Bkz. [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](service-template-apps-install-distribute.md).
 
 5. İletişim kutusunda **Yükle**'yi seçin.
 
     Yükleme başarılı olduğunda yeni uygulamanın hazır olduğuna ilişkin bir bildirim görürsünüz.
 
-6. **Uygulamaya git**’i seçin.
+6. **Uygulamaya gidin**'i seçin.
 7. **Yeni uygulamanızı kullanmaya başlayın** penceresinde uygulamanızı aynı müşterilerinizin göreceği gibi görürsünüz.
 
     ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. Test uygulamasını örnek verilerle doğrulamak için **Uygulamayı Keşfet**’i seçin.
 9. Değişiklik yapmak için özgün çalışma alanındaki uygulamaya geri dönün. Sonuçtan memnun kalana kadar test uygulamasını güncelleştirin.
-10. Uygulamanızı kiracınızın dışında test edilmek üzere üretim öncesi aşamaya yükseltmek için, **Sürüm Yönetimi** bölmesine dönün ve **Uygulamayı yükselt**’i seçin. 
+10. Uygulamanızı kiracınızın dışında test edilmek üzere üretim öncesi aşamaya yükseltmek için, **Sürüm Yönetimi** bölmesine dönün ve **Uygulamayı yükselt**’i seçin.
 
     ![Uygulamayı üretim öncesi aşamaya yükseltme](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]
@@ -166,7 +191,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     Bu seçeneği görmüyorsanız, Power BI yöneticinize başvurun ve size yönetim portalında [şablon uygulaması geliştirme izinleri](../admin/service-admin-portal.md#template-apps-settings) vermesini isteyin.
 11. Seçiminizi onaylamak için **Yükselt**’i seçin.
-12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni İş ortağı merkezi teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. İş ortağı merkezine yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource'ta yayımlandığına ilişkin bildirimi aldıktan sonra bu paketi Power BI'da üretime yükseltebilirsiniz.
+12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni İş ortağı merkezi teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. İş ortağı merkezine yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource’ta yayımlandığına ilişkin bildirim aldıktan sonra bu paketi Power BI’da üretime yükseltebilirsiniz.
 13. Uygulamanız üretime veya AppSource yoluyla paylaşıma hazır olduğunda, **Sürüm Yönetimi** bölmesine dönün ve **Ön üretim**’in yanındaki **Uygulamayı yükselt**’i seçin.
 14. Seçiminizi onaylamak için **Yükselt**’i seçin.
 

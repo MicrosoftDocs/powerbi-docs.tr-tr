@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214530"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642631"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 
@@ -127,7 +127,7 @@ Bir DirectQuery modelini Bileşik modele dönüştürerek elde edilebilen birço
 
 ## <a name="educate-users"></a>Kullanıcıları eğitme
 
-DirectQuery veri kümelerini temel alan raporlarla verimli bir şekilde çalışmak için kullanıcılarınızı eğitmeniz önemlidir. Rapor yazarlarınız, [Rapor tasarımlarını iyileştirme](#optimize-report-designs section) sayfasında açıklanan içerikle eğitilmelidir.
+DirectQuery veri kümelerini temel alan raporlarla verimli bir şekilde çalışmak için kullanıcılarınızı eğitmeniz önemlidir. Rapor yazarlarınız, [Rapor tasarımlarını iyileştirme](#optimize-report-designs) bölümünde açıklanan içerik konusunda eğitim almış olmalıdır.
 
 Rapor tüketicilerinizi, DirectQuery veri kümelerini temel alan raporlarınız hakkında eğitmenizi öneririz. Bu makalede açıklanan ilgili sınırlamalar da dahil olmak üzere genel veri mimarisini öğrenmeleri yararlı olabilir. Yenileme yanıtlarının ve etkileşimli filtrelemenin zaman zaman yavaş olabileceğini bildirin. Rapor kullanıcıları performans düşüşünün nedenlerini anladıklarında raporlara ve verilere yönelik güven kaybı yaşama olasılığı düşüktür.
 

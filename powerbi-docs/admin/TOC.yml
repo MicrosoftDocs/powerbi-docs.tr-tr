@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: Veri koruma
           items:
-            - name: Power BI'da duyarlılık etiketleri
+            - name: Power BI’da veri koruma
+              href: service-security-data-protection-overview.md
+            - name: Duyarlılık etiketine genel bakış
               href: service-security-sensitivity-label-overview.md
             - name: Duyarlılık etiketini etkinleştirme
               href: service-security-enable-data-sensitivity-labels.md

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562456"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008894"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI’da göreli tarih dilimleyicisi ve filtresi oluşturma
 
@@ -45,9 +45,7 @@ Ardından ayarları seçebilirsiniz.
 ![İlk ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * Son
-
 * İleri
-
 * Bu
 
 *Göreli tarih dilimleyicisinde* ikinci (ortadaki) ayar, göreli tarih aralığını tanımlamak üzere bir sayı girmenizi sağlar.
@@ -59,26 +57,19 @@ Ardından ayarları seçebilirsiniz.
 ![Üçüncü ayar açıklama balonu içine alınarak Göreli yapılandırma seçeneklerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * Gün
-
 * Hafta
-
 * Hafta (Takvim)
-
 * Ay
-
 * Ay (Takvim)
-
 * Yıl
-
 * Yıl (Takvim)
 
 Listeden **Ay**'ı seçip ortadaki ayara *2* girerseniz şu olur:
 
-* bugün 20 Temmuz ise
+* Bugün 20 Temmuz ise:
 
-* dilimleyici tarafından kısıtlanan görsellere eklenen veriler, önceki iki ayın verilerini gösterir
-
-* 21 Mayıs’ta başlayıp 20 Temmuz’a (bugünün tarihi) kadar devam eden
+    - Dilimleyici tarafından kısıtlanan görsellere eklenen veriler, 21 Mayıs’ta başlayıp 20 Temmuz’a (bugünün tarihi) kadar devam edecek şekilde,
+    - önceki iki ayın verilerini gösterir.
 
 Buna karşılık *Ay (Takvim)* seçeneğini belirlerseniz kısıtlanan görseller 1 Mayıs-30 Haziran arasındaki (son iki tam takvim ayı) verileri gösterir.
 
@@ -100,10 +91,9 @@ Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, 
 
 **Göreli tarih aralığı dilimleyici** ve filtresi için geçerli sınırlamalar ve önemli noktalar aşağıda belirtilmiştir.
 
+* Dilimleyicideki alanın veri türü, varsayılan metin türü değil, tarih olmalıdır. Aksi takdirde, göreli seçenekler dilimleyicide gösterilmez.
 * **Power BI**'daki veri modellerinde saat dilimi bilgisi yoktur. Modeller saat bilgisi depolayabilir ancak bulundukları saat dilimiyle ilgili bir belirtim mevcut değildir.
-
 * Dilimleyici ve filtre her zaman UTC cinsinden saati temel alır. Bir raporda filtre oluşturup farklı bir saat dilimindeki iş arkadaşınıza gönderirseniz, her ikiniz de aynı verileri görürsünüz. UTC saat diliminde değilseniz, hem sizin hem de iş arkadaşınızın aradaki saat farkını dikkate alması gerekir.
-
 * **Sorgu Düzenleyicisi**'ni kullanarak bir yerel saat diliminde yakalanan verileri UTC'ye dönüştürebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar

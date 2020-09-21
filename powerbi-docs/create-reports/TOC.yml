@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Power BI paylaşılan veri kümesiyle rapor oluşturma
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: Sayfalandırılmış bir rapor için .rdl dosyasını indirme
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: Parametreler oluşturma
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Rapor görünümlerini ayarlama

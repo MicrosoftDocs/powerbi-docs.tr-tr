@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216549"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642645"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -180,7 +180,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/of
 - [Paylaşılan ve sertifikalı veri kümeleri](../connect-data/service-datasets-share.md).
 - Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
 - Düzenleme yetkisine sahip bir üye olmadığınız çalışma alanındaki raporlar.
-- “R” görselleri şu an için raporları **Web'de yayımla** özelliği tarafından desteklenmiyor.
+- “R” ve Python görselleri şu anda **Web’de yayımla** raporlarında desteklenmemektedir.
 - Web’de yayımlanan bir rapordaki görsellerden verileri dışarı aktarma.
 - ArcGIS Maps for Power BI görselleri.
 - Rapor düzeyi DAX ölçüleri içeren raporlar.

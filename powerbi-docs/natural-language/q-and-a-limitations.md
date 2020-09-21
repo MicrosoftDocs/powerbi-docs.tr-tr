@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937597"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642352"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI Soru-Cevap sınırlamaları
 
@@ -31,12 +31,17 @@ Power BI Soru-Cevap, Power BI hizmetindeki veri kaynaklarının aşağıdaki yap
 
 Bu yapılandırmaların her birinde, satır düzeyi güvenlik de desteklenir.
 
+**Soru-Cevap için DirectQuery desteği** (önizleme)
+
+Soru-Cevap artık SQL Server 2019, Azure SQL Veritabanı ve Azure Synapse Analytics gibi SQL DirectQuery kaynaklarını destekler. Bu veri kaynaklarına karşı doğal dil soruları sormak için Soru-Cevap özelliğini kullanabilirsiniz. DirectQuery modundayken Soru-Cevap davranışı üzerinde küçük bir değişiklik vardır: Sorunuzu yazdıktan sonra **Gönder** düğmesini seçersiniz. Bu değişiklik, siz yazarken gereksiz sorgularla DirectQuery kaynağının aşırı yüklenmesini engeller.
+
+Diğer DirectQuery kaynakları, Soru-Cevap için desteklenmez. Veri kümenizde başka DirectQuery kaynaklarınız varsa, Soru-Cevap özelliğini engellemeyiz, ancak bazı sorular doğru yanıtlanmayabilir veya hatalar döndürebilir.
+
 ### <a name="data-sources-not-supported"></a>Desteklenmeyen veri kaynakları
 
 Power BI Soru-Cevap şu anda aşağıdaki yapılandırmaları desteklemez:
 
 - Herhangi bir veri kaynağı türüyle nesne düzeyi güvenlik
-- Herhangi bir kaynağa göre DirectQuery. Geçici bir çözüm, DirectQuery kullanan Azure Analysis Services’le Canlı bağlantı kullanmaktır.
 - Bileşik modeller
 - Reporting Services 
 

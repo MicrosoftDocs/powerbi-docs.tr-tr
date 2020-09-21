@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215853"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642451"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI hizmetindeki öne çıkan panolar
 
@@ -23,9 +23,9 @@ ms.locfileid: "86215853"
 Çoğumuzun diğerlerinden daha sık ziyaret ettiğimiz bir pano vardır. Bu, işlerimizi yürütmek için kullandığımız pano olabilir. Veya birçok farklı pano ve rapordaki kutucukların toplamından oluşan bir pano olabilir.
 
 ## <a name="create-a-featured-dashboard"></a>Öne çıkan pano oluşturma
-Panoyu *öne çıkan* olarak ayarlarsanız, Power BI hizmetini açtığınızda bu pano görüntülenir. 
+Panoyu *öne çıkan* olarak ayarlarsanız, Power BI hizmetini her açtığınızda bu pano görüntülenir. 
 
-![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropdown.png)
+![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropbox.png)
 
 İsterseniz birden fazla pano seçip sık kullanılanlara ekleyebilirsiniz. Bkz. [Sık kullanılan panolar](end-user-favorite.md).
 
@@ -37,19 +37,19 @@ Panoyu *öne çıkan* olarak ayarlarsanız, Power BI hizmetini açtığınızda 
 1. Öne çıkan olarak ayarlamak istediğiniz panoyu açın. 
 2. Üst menü çubuğunda **Diğer seçenekler** (...) ve sonra **Öne çıkan olarak ayarla**’yı seçin. 
    
-    ![Öne çıkan olarak ayarla simgesi](./media/end-user-featured/power-bi-dropdown.png)
+    ![Öne çıkan olarak ayarla seçeneği ile dropbox’ı gösteren ekran görüntüsü.](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Seçiminizi onaylayın.
    
     ![Öne çıkan pano ayarlama](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>Öne çıkan panoyu değiştirme
-İleride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan pano olarak ayarlayabilirsiniz.
+İleride fikrinizi değiştirmeniz durumunda yeni bir panoyu öne çıkan pano olarak ayarlayabilirsiniz. Öne çıkanlardan kaldırdığınız pano Power BI’dan kaldırılmaz. 
 
 1. Yukarıdaki 1. ve 2. adımları izleyin.
    
-2. **Öne çıkan pano olarak ayarla**’yı seçin. Öne çıkanlardan kaldırdığınız pano Power BI’dan kaldırılmaz. 
+2. **Öne çıkan pano olarak ayarla**’yı seçin. 
    
-    ![Başarılı iletisi](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![Başarılı iletisi](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Öne çıkan panoyu kaldırma
 Herhangi bir panoyu öne çıkarmak istemediğinize karar verirseniz bu yönergeleri izleyerek öne çıkan panoyu kaldırabilirsiniz.

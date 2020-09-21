@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490456"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642816"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -253,21 +253,9 @@ Etkinleştirildiğinde, yeni oluşturulan Office 365 Grupları Power BI çalış
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver
 
-Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure AD B2B) konuk kullanıcılarının Power BI’a erişmesine olanak sağlar. Bu ayarı devre dışı bıraktığınızda konuk kullanıcılar Power BI’a erişmeye çalışırken bir hata alır. Kuruluşun tamamı için bu ayarı devre dışı bıraktığınızda, kullanıcıların kuruluşunuza konukları davet etmesi ve tek tek konuk kullanıcılara izin ataması da engellenir. Hangi konuk kullanıcıların Power BI’a erişebileceğini denetlemek için belirli güvenlik gruplarını kullanın.
+Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure AD B2B) konuk kullanıcılarının Power BI’a erişmesine olanak sağlar. Bu ayarı devre dışı bıraktığınızda konuk kullanıcılar Power BI’a erişmeye çalışırken bir hata alır. Kuruluşun tamamı için bu ayarı devre dışı bıraktığınızda, kullanıcıların kuruluşunuza konuklar davet etmesi de engellenir. Hangi konuk kullanıcıların Power BI’a erişebileceğini denetlemek için belirli güvenlik gruplarını kullanın.
 
 ![Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver
-
-Bu etkinleştirildiğinde, kuruluşunuzdaki kullanıcılar Power BI’da izinler veya deneyim paylaşımı yoluyla tek tek konuk kullanıcılara izin verebilir. Bu seçenek bir kullanıcı için devre dışı bırakıldığında, söz konusu kullanıcı, konuk kullanıcılara izin atayamaz veya konuk kullanıcıları Power BI’a davet edemez.
-
-![Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  Bu ayar, konuk kullanıcılara her durumda izin atanmasını engellemez. Bu ayar yalnızca tek tek konuk kullanıcılara erişim verilmesini engeller. Konuk kullanıcılara yine de güvenlik, Office 365 Grupları veya dağıtım listeleri gibi kullanıcı grubu aracılığıyla erişim izni verilebilir. 
-
-Konuk kullanıcılara izin verme izni olmayan bir kullanıcı, konuk kullanıcılara izin vermeye çalışırsa kullanıcı arabiriminde bir hata iletisi görür. Ayrıca bir öğedeki izinler değiştirilirken, konuklara izin verme izni olmayan kullanıcıların öğeye izin verebilmesi veya öğenin izinlerini değiştirebilmesi için önce konuk kullanıcıları erişim listesinden kaldırması gerekir. 
 
 ### <a name="invite-external-users-to-your-organization"></a>Dış kullanıcıları kuruluşuma davet et 
 
@@ -279,8 +267,6 @@ Konuk kullanıcılara izin verme izni olmayan bir kullanıcı, konuk kullanıcı
 > Bu ayar daha önce “Dış kullanıcılarla içerik paylaş” olarak adlandırılıyordu. Düzeltilen ad, ayarın ne yaptığını daha doğru yansıtır.
 
 Kullanıcının dış kullanıcıları kuruluşunuza davet edebilmesi için Azure Active Directory Konuk Davet Eden rolüne de sahip olması gerekir. Bu ayar yalnızca Power BI aracılığıyla davet etme özelliğini denetler. 
-
-Bir kullanıcı için **Mevcut Azure Active Directory konuk kullanıcılarına izin vermeye izin ver** ayarı devre dışı bırakıldığında söz konusu kullanıcı, Power BI aracılığıyla kuruluşunuza dış kullanıcıları da davet edemez.
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
@@ -303,7 +289,7 @@ Yöneticiler **Web’de yayımlama** ayarını **Etkin**, **Ekleme kodlarının 
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
-|Özellik |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
+|Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
 |Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237625"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642293"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 
@@ -36,7 +36,7 @@ Veri kaynağı ekleme hakkında bilgi edinmek için bkz. [Veri kaynağı ekleme]
 Veri kaynağına ilişkin **Sunucu** ve **Veritabanı** bilgilerini doldurun. **Kullanıcı Adı** ve **Parola** için girdiğiniz bilgiler ağ geçidi tarafından Analysis Services örneğine bağlanmak için kullanılır.
 
 > [!NOTE]
-> Girdiğiniz Windows hesabının bağlantı kurduğunuz örneğe ilişkin Sunucu Yöneticisi izinlerine sahip olması gerekir. Bu hesabın parolası, süresi dolacak şekilde ayarlanmışsa kullanıcılar, parolanın veri kaynağı için güncelleştirilmemesi durumunda bağlantı hatası alabilir. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
+> Girdiğiniz Windows hesabı, bağlandığınız Analysis Services örneğindeki Sunucu Yöneticisi rolünün bir üyesi olmalıdır. Bu hesabın parolası, süresi dolacak şekilde ayarlanmışsa kullanıcılar, parolanın veri kaynağı için güncelleştirilmemesi durumunda bağlantı hatası alabilir. Kimlik bilgilerinin nasıl depolandığı hakkında daha fazla bilgi edinmek için bkz. [Şifrelenmiş kimlik bilgilerini bulutta depolama](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Veri kaynağı ayarlarını doldurma](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
