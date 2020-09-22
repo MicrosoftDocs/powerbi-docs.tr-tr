@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 09/09/2020
-  ms.openlocfilehash: f1334267e0b1698c8105115e821d8eccb69c1b00
-  ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
+  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 09/10/2020
-  ms.locfileid: "90008618"
+  ms.lasthandoff: 09/22/2020
+  ms.locfileid: "90857945"
 highlightedContent:
   items:
   - title: Power BI Desktop ile çalışmaya başlama
@@ -32,7 +32,7 @@ highlightedContent:
     url: developer/embedded/embed-sample-for-customers.md
   - title: Microsoft Learn’de Power BI
     itemType: learn
-    url: https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
+    url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
 conceptualContent:
   items:
   - title: 'Power BI: Kullanmaya başlayın'
@@ -222,7 +222,7 @@ conceptualContent:
     - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
       text: İş kararlarını veren kişiler
-    - url: https://docs.microsoft.com/learn/paths/dax-power-bi/
+    - url: /learn/paths/dax-power-bi/
       itemType: learn
       text: DAX kullanmaya başlama
     - url: learning-catalog/learning-catalog-solution-architect.md
@@ -240,7 +240,7 @@ additionalContent:
       url: report-server/index.yml
     - title: Power BI REST API'leri
       summary: Power BI REST API’leri, ekleme, yönetim ve kullanıcı kaynakları için hizmet uç noktaları sağlar.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: Power Platform belgeleri
       summary: Power BI, Power Apps, Power Automate ve Power Virtual Agents’ın birbirini geliştirmek için birlikte nasıl çalıştığını öğrenin.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/

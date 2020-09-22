@@ -19,7 +19,7 @@
       items:
         - name: Yenilikler
           href: whats-new.md
-        - name: Yöneticiye genel bakış
+        - name: Yönetici genel bakışı
           href: admin-handbook-overview.md
         - name: Değişiklik günlüğü
           href: changelog.md
@@ -40,9 +40,9 @@
             - name: Sayfalandırılmış rapor veri kaynakları
               href: connect-data-sources.md
             - name: Abonelikler
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+              href: /sql/reporting-services/working-with-subscriptions-web-portal
             - name: Mobil uygulamayı kullanma
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+              href: ../consumer/mobile/mobile-apps-for-mobile-devices.md
             - name: Zamanlanmış yenileme ile ilgili sorunları giderme
               href: scheduled-refresh-troubleshoot.md
         - name: Geliştiriciler için rapor sunucusu
@@ -50,9 +50,9 @@
             - name: Geliştiriciler için rapor sunucusu
               href: developer-handbook-overview.md
             - name: Rapor Görüntüleyicisi denetimi
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+              href: /sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
             - name: Uzantı geliştirme
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+              href: /sql/reporting-services/extensions/reporting-services-extension-library
             - name: Rapor ekleme
               href: quickstart-embed.md
     - name: Nasıl yapılır
@@ -74,7 +74,7 @@
             - name: Verileri doğrudan sayfalandırılmış bir rapora girme
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: KPI’lerle çalışma
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+              href: /sql/reporting-services/working-with-kpis-in-reporting-services
             - name: Paylaşılan veri kümelerine OData akışı olarak erişme
               href: access-dataset-odata.md
             - name: PowerShell ile veri kaynağı bağlantı dizelerini değiştirme
@@ -102,7 +102,7 @@
             - name: Azure Uygulama Ara Sunucusu ile rapor sunucusu yapılandırma
               href: azure-application-proxy.md
             - name: Azure AD ile uzaktan mobil erişim
-              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+              href: /azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi
             - name: Excel çalışma kitapları barındırma
               href: excel-oos.md
     - name: Başvuru
@@ -110,13 +110,13 @@
         - name: REST API
           href: rest-api.md
         - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+          href: /sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs
         - name: SOAP API'leri
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+          href: /sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework
         - name: URL Erişimi
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+          href: /sql/reporting-services/url-access-ssrs
         - name: Uzantılar
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+          href: /sql/reporting-services/extensions/reporting-services-extension-library
     - name: Kaynaklar
       items:
         - name: Kapasite planlamaya ilişkin teknik inceleme
