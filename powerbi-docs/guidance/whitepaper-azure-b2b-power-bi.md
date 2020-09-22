@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782797"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965377"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -31,7 +31,7 @@ ms.locfileid: "85782797"
 
 Power BI kuruluşların işletmelerini 360 derece bir görünümünü sağlar ve bu kuruluşlardaki herkesin verileri kullanarak akıllı kararlar vermesini kolaylaştırır. Bu kuruluşların birçoğu dış iş ortakları, istemciler ve yükleniciler için güçlü ve güvenilen ilişkilere sahiptir. Bu kuruluşların, bu dış iş ortaklarının kullanıcılarına Power BI panolar ve raporlar için güvenli erişim sağlaması gerekir.
 
-Power BI, [işletmeler arası (Azure AD B2B) Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b) ile tümleşerek, kuruluşun dışındaki konuk kullanıcılara Power BI içeriğinin güvenli dağıtımına olanak tanır; ancak hala denetim ve iç verilere erişimi yöneten.
+Power BI, [işletmeler arası (Azure AD B2B) Azure Active Directory](/azure/active-directory/b2b/what-is-b2b) ile tümleşerek, kuruluşun dışındaki konuk kullanıcılara Power BI içeriğinin güvenli dağıtımına olanak tanır; ancak hala denetim ve iç verilere erişimi yöneten.
 
 Bu Teknik İnceleme, Power BI Azure Active Directory B2B tümleştirmesini anlamak için ihtiyacınız olan tüm ayrıntıları ele almaktadır. En yaygın kullanım örneği, kurulum, lisanslama ve satır düzeyi güvenliği ele alınmaktadır.
 
@@ -64,7 +64,7 @@ Dış Kullanıcı contoso kaynaklarına erişim için davet edildikten sonra con
 
 Contoso, oyların güvenilirlik analizini gerçekleştirmek için bir alt yükleniciyle birlikte çalışmaktadır. Taşeron, contoso 'nun Power BI ortamındaki verilere erişmesi gereken 10 kişiden oluşan bir ekibe sahiptir. Contoso Azure AD yöneticisi, tüm kullanıcıları davet etme ve taşeronun yaptığı eklemeleri/değişiklikleri herhangi bir şekilde işlemesini sağlar. Azure AD yöneticisi, taşeron 'daki tüm çalışanlar için bir güvenlik grubu oluşturur. Contoso çalışanları, güvenlik grubunu kullanarak raporlara erişimi kolayca yönetebilir ve gerekli tüm taşeron personelinin tüm gerekli raporlara, panolara ve Power BI uygulamalarına erişiminin olmasını sağlayabilir. Azure AD yöneticisi, her zaman personel yönetimini sağlamak için Contoso veya taşeronda bir güvenilen çalışana davet haklarının yetkisini almanın yanı sıra davet işlemine de engel olabilir.
 
-Bazı kuruluşlar dış kullanıcılar eklendiğinde daha fazla denetim gerektirir, bir dış kuruluşta veya birçok harici kuruluşa çok sayıda kullanıcı davet edilir. Bu durumlarda, planlı paylaşım paylaşım ölçeğini yönetmek, kuruluş ilkelerini zorlamak ve hatta dış kullanıcıları davet etmek ve yönetmek üzere güvenilen bireylere haklar vermek için kullanılabilir. Azure AD B2B, bir [BT Yöneticisi tarafından doğrudan Azure Portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)gönderilmek üzere planlı davetleri destekler veya bir kullanıcı kümesinin tek bir eylemde davet edilmesi için [davet Yöneticisi API 'sini kullanarak PowerShell](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api) aracılığıyla yapılır. Kuruluş, planlı davet yaklaşımını kullanarak kullanıcıları davet edebilen ve onay süreçlerini uygulayabilen kişileri denetleyebilir. Dinamik gruplar gibi gelişmiş Azure AD özellikleri, güvenlik grubu üyeliğini otomatik olarak korumayı kolaylaştırır.
+Bazı kuruluşlar dış kullanıcılar eklendiğinde daha fazla denetim gerektirir, bir dış kuruluşta veya birçok harici kuruluşa çok sayıda kullanıcı davet edilir. Bu durumlarda, planlı paylaşım paylaşım ölçeğini yönetmek, kuruluş ilkelerini zorlamak ve hatta dış kullanıcıları davet etmek ve yönetmek üzere güvenilen bireylere haklar vermek için kullanılabilir. Azure AD B2B, bir [BT Yöneticisi tarafından doğrudan Azure Portal](/azure/active-directory/b2b/add-users-administrator)gönderilmek üzere planlı davetleri destekler veya bir kullanıcı kümesinin tek bir eylemde davet edilmesi için [davet Yöneticisi API 'sini kullanarak PowerShell](/azure/active-directory/b2b/customize-invitation-api) aracılığıyla yapılır. Kuruluş, planlı davet yaklaşımını kullanarak kullanıcıları davet edebilen ve onay süreçlerini uygulayabilen kişileri denetleyebilir. Dinamik gruplar gibi gelişmiş Azure AD özellikleri, güvenlik grubu üyeliğini otomatik olarak korumayı kolaylaştırır.
 
 
 ![Hangi konukların içeriği görebildiği kontrol](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_02.png)
@@ -80,7 +80,7 @@ Bazı kuruluşlar dış kullanıcılar eklendiğinde daha fazla denetim gerektir
 
 Contoso, bir veya daha fazla tedarikçiyle paylaşılması gereken bir raporlar ve panolar kümesi içerir. Tüm gerekli dış kullanıcıların bu içeriğe erişebildiğinden emin olmak için Power BI bir uygulama olarak paketlenmiştir. Dış kullanıcılar doğrudan uygulama erişim listesine veya güvenlik gruplarına eklenir. Contoso 'daki birisi, uygulama URL 'sini örneğin bir e-postada tüm dış kullanıcılara gönderir. Dış kullanıcılar bağlantıyı açtığında, tek bir kolay gezinme deneyimindeki tüm içeriği görürler.
 
-Power BI uygulamasının kullanılması, contoso 'nun tedarikçileri için bir bı portalı oluşturmasını kolaylaştırır. Tek bir erişim listesi, öğe düzeyi izinlerinin denetlenmesi ve ayarlanması için gereken tüm içeriğe erişimi, harcanan süreyi azaltarak denetler. Azure AD B2B, tedarikçinin yerel kimliğini kullanarak güvenlik erişimini korur, böylece kullanıcılar ek oturum açma kimlik bilgileri gerektirmez. Planlı davetleri güvenlik grupları ile birlikte kullanıyorsanız, personelin proje içine veya dışına çevrildiğinden uygulamaya erişim yönetimi basitleştirilmiştir. Bir tedarikçiden gelen tüm dış kullanıcıların otomatik olarak uygun güvenlik grubuna eklenmesi için güvenlik gruplarında el ile veya [dinamik grupları](https://docs.microsoft.com/azure/active-directory/b2b/use-dynamic-groups)kullanarak üyelik.
+Power BI uygulamasının kullanılması, contoso 'nun tedarikçileri için bir bı portalı oluşturmasını kolaylaştırır. Tek bir erişim listesi, öğe düzeyi izinlerinin denetlenmesi ve ayarlanması için gereken tüm içeriğe erişimi, harcanan süreyi azaltarak denetler. Azure AD B2B, tedarikçinin yerel kimliğini kullanarak güvenlik erişimini korur, böylece kullanıcılar ek oturum açma kimlik bilgileri gerektirmez. Planlı davetleri güvenlik grupları ile birlikte kullanıyorsanız, personelin proje içine veya dışına çevrildiğinden uygulamaya erişim yönetimi basitleştirilmiştir. Bir tedarikçiden gelen tüm dış kullanıcıların otomatik olarak uygun güvenlik grubuna eklenmesi için güvenlik gruplarında el ile veya [dinamik grupları](/azure/active-directory/b2b/use-dynamic-groups)kullanarak üyelik.
 
 
 ![AAD ile içerik denetleme](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_03.png)
@@ -157,13 +157,13 @@ Bu yapıdaki kuruluşların karşılaştığı birkaç önemli zorluk vardır:
 
 İkinci yaklaşım, Power BI içerik özelliğinin platformlar arası düzenlemesini ve yönetimini temel alır. Üst kuruluş, yan kuruluşlardaki kullanıcıların Power BI erişmesini ve izin üzerinden neleri erişebileceğini denetmaları sağlar. Bu, bağlı olan kullanıcının ana kuruluşun kiracısında kendileriyle paylaşılan kapsamlı bir içerik listesi gördüğü Power BI girişe erişim sağlar. Daha sonra ana kuruluşların Power BI ortamının URL 'SI, yan kuruluşlardaki kullanıcılara verilir.
 
-Son yaklaşım, her bir yan için Power BI kiracısında oluşturulan Power BI uygulamasını kullanır. Power BI uygulama, [dış bağlantı seçeneğiyle yapılandırılmış kutucukları](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile#hyperlink)olan bir Pano içerir. Kullanıcı kutucuğa bastığında, ana kuruluşun Power BI uygun rapor, pano veya uygulamaya götürülürsünüz. Bu yaklaşım, uygulamanın bağlı olan tüm kullanıcılar için otomatik olarak yüklenebilmesine ve kendi Power BI ortamlarında oturum açtıklarında bu uygulamaların kullanılabilir olmasını sağlar. Bu yaklaşımın bir avantajı, bağlantıyı yerel olarak açabilme Power BI mobil uygulamalarla iyi çalışmadır. Ayrıca, Power BI ortamları arasında daha kolay geçiş sağlamak için bunu ikinci yaklaşımla birleştirebilirsiniz.
+Son yaklaşım, her bir yan için Power BI kiracısında oluşturulan Power BI uygulamasını kullanır. Power BI uygulama, [dış bağlantı seçeneğiyle yapılandırılmış kutucukları](../create-reports/service-dashboard-edit-tile.md#hyperlink)olan bir Pano içerir. Kullanıcı kutucuğa bastığında, ana kuruluşun Power BI uygun rapor, pano veya uygulamaya götürülürsünüz. Bu yaklaşım, uygulamanın bağlı olan tüm kullanıcılar için otomatik olarak yüklenebilmesine ve kendi Power BI ortamlarında oturum açtıklarında bu uygulamaların kullanılabilir olmasını sağlar. Bu yaklaşımın bir avantajı, bağlantıyı yerel olarak açabilme Power BI mobil uygulamalarla iyi çalışmadır. Ayrıca, Power BI ortamları arasında daha kolay geçiş sağlamak için bunu ikinci yaklaşımla birleştirebilirsiniz.
 
 #### <a name="allowing-subsidiary-users-to-access-data-sources-hosted-by-the-parent-organization"></a>Bağlı kullanıcıların üst kuruluş tarafından barındırılan veri kaynaklarına erişmesine izin verme
 
 Genellikle bir yan kuruluşdaki analistlerin, ana kuruluşun sağladığı verileri kullanarak kendi analizlerini oluşturması gerekir. Bu durumda, genellikle zorluk karşılamak için bulut veri kaynakları kullanılır.
 
-İlk yaklaşım, aşağıdaki görüntüde gösterildiği gibi üst ve yan kuruluşları genelinde analistlerin ihtiyaçlarını sunan bir kurumsal sınıf veri ambarı oluşturmak için [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) yararlanır. Contoso, verileri barındırabilir ve satır düzeyi güvenlik gibi özellikleri kullanarak her bir yan bilgisayardaki kullanıcıların yalnızca verilerine erişebilmesini sağlar. Her kuruluştaki analistler, Power BI Desktop aracılığıyla veri ambarına erişebilir ve sonuç analizlerini ilgili Power BI kiracılarına yayımlayabilir.
+İlk yaklaşım, aşağıdaki görüntüde gösterildiği gibi üst ve yan kuruluşları genelinde analistlerin ihtiyaçlarını sunan bir kurumsal sınıf veri ambarı oluşturmak için [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) yararlanır. Contoso, verileri barındırabilir ve satır düzeyi güvenlik gibi özellikleri kullanarak her bir yan bilgisayardaki kullanıcıların yalnızca verilerine erişebilmesini sağlar. Her kuruluştaki analistler, Power BI Desktop aracılığıyla veri ambarına erişebilir ve sonuç analizlerini ilgili Power BI kiracılarına yayımlayabilir.
 
 ![Power BI kiracılar ile paylaşma nasıl gerçekleşir](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_07.png)
 
@@ -257,7 +257,7 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
     > [!NOTE]
     > Azure portal Konuk kullanıcıları davet etmek için kiracınızın Azure Active Directory için yönetici olmanız gerekir.
 
-    Contoso birçok konuk kullanıcıyı davet etmek isterse, PowerShell 'i kullanarak bunu yapabilir. Contoso 'nun Azure AD yöneticisi, tüm konuk kullanıcıların e-posta adreslerini bir CSV dosyasında depolar. [Azure ACTIVE DIRECTORY B2B işbirliği kodu ve PowerShell örnekleri](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) ve yönergeleri aşağıda verilmiştir.
+    Contoso birçok konuk kullanıcıyı davet etmek isterse, PowerShell 'i kullanarak bunu yapabilir. Contoso 'nun Azure AD yöneticisi, tüm konuk kullanıcıların e-posta adreslerini bir CSV dosyasında depolar. [Azure ACTIVE DIRECTORY B2B işbirliği kodu ve PowerShell örnekleri](/azure/active-directory/b2b/code-samples) ve yönergeleri aşağıda verilmiştir.
 
     Davetden sonra, Konuk kullanıcılar davet bağlantısına sahip bir e-posta alır.
 
@@ -267,7 +267,7 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
     Konuk kullanıcılar bağlantıya tıkladıktan sonra, contoso Azure AD kiracısındaki içeriğe erişebilirler.
 
     > [!NOTE]
-    > [Burada](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)açıklandığı gıbı Azure AD markalama özelliğini kullanarak davetiye e-postası düzeninin değiştirilmesi mümkündür.
+    > [Burada](/azure/active-directory/active-directory-b2b-invitation-email)açıklandığı gıbı Azure AD markalama özelliğini kullanarak davetiye e-postası düzeninin değiştirilmesi mümkündür.
 
 
     **Geçici davetler**
@@ -336,7 +336,7 @@ Azure AD hesabının, Dış tarafın Azure AD 'de kullanılacağını veya oluş
 Contoso, kuruluşların ve iş ortağı kuruluşlarından konuk kullanıcıların Power BI içeriğe erişimine sahip olmasını sağlamak için üç yaklaşımdan birini seçebilir.
 
 > [!NOTE]
-> _Azure AD B2B's ücretsiz katmanı, Azure AD B2B ile Power BI kullanmak için yeterlidir. Dinamik gruplar gibi bazı gelişmiş Azure AD B2B özellikleri için ek lisans gerekir. Daha fazla bilgi için lütfen Azure AD B2B belgelerine başvurun:_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Azure AD B2B's ücretsiz katmanı, Azure AD B2B ile Power BI kullanmak için yeterlidir. Dinamik gruplar gibi bazı gelişmiş Azure AD B2B özellikleri için ek lisans gerekir. Daha fazla bilgi için lütfen Azure AD B2B belgelerine başvurun:_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Yaklaşım 1: contoso Power BI Premium kullanır
 
@@ -463,7 +463,7 @@ Dış kullanıcılar için, dış kullanıcılar genellikle şirket içi AD tara
 
 ![Kullanıcı adlarını eşleme](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-Bu yöntem, contoso 'nun yalnızca bir kullanıcısı varsa veya contoso tüm dış kullanıcıları tek bir dahili hesapla eşleyebilir ise bu yöntem uygundur. Her kullanıcının kendi kimlik bilgilerine ihtiyacı olan daha karmaşık senaryolar için, [veri kaynağınızı yönetme-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)açıklandığı şekilde eşlemeyi yapmak üzere [Özel ad öznitelikleri](https://technet.microsoft.com/library/cc961737.aspx) kullanan daha gelişmiş bir yaklaşım vardır. Bu, contoso yöneticisinin Azure AD 'nizin her kullanıcısı için bir eşleme tanımlamasına olanak tanır (Ayrıca dış B2B kullanıcıları).  Bu öznitelikler, betik veya kod kullanarak AD nesne modeli aracılığıyla ayarlanabilir, böylece contoso, davet veya zamanlanan bir temposunda eşlemeyi tamamen otomatikleştirebilir.
+Bu yöntem, contoso 'nun yalnızca bir kullanıcısı varsa veya contoso tüm dış kullanıcıları tek bir dahili hesapla eşleyebilir ise bu yöntem uygundur. Her kullanıcının kendi kimlik bilgilerine ihtiyacı olan daha karmaşık senaryolar için, [veri kaynağınızı yönetme-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)açıklandığı şekilde eşlemeyi yapmak üzere [Özel ad öznitelikleri](/previous-versions/windows/it-pro/windows-2000-server/cc961737(v=technet.10)) kullanan daha gelişmiş bir yaklaşım vardır. Bu, contoso yöneticisinin Azure AD 'nizin her kullanıcısı için bir eşleme tanımlamasına olanak tanır (Ayrıca dış B2B kullanıcıları).  Bu öznitelikler, betik veya kod kullanarak AD nesne modeli aracılığıyla ayarlanabilir, böylece contoso, davet veya zamanlanan bir temposunda eşlemeyi tamamen otomatikleştirebilir.
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>Dış kullanıcıların Power BI içinde içerik düzenlemesine ve yönetmesine olanak sağlama
 
@@ -490,7 +490,7 @@ Konuk kullanıcılar salt okunurdur ve içeriği düzenleyebilir ve yönetebilir
 
 Bu kullanıcıların Power BI oturum açmasını sağlamak için kiracı URL 'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
-1. Power BI hizmeti, üst menüdeki yardım ( **?** ) **Power BI**.
+1. Power BI hizmeti, üst menüdeki yardım ( **?** )  **Power BI**.
 2. **Kiracı URL 'sinin**yanındaki değeri arayın. Bu, Konuk kullanıcılarınızla paylaşabileceğiniz kiracı URL 'sidir.
 
     ![Kiracı URL'si](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -525,7 +525,7 @@ Azure AD B2B paylaşımı kullanılırken, Azure Active Directory Yöneticisi d�
 
 Ayarlarla ilgili ayrıntılara buradan ulaşabilirsiniz:
 
-[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
+[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
 > Varsayılan olarak, Konuk kullanıcıları izinleri sınırlı seçeneği Evet olarak ayarlanır. bu nedenle Power BI içindeki Konuk kullanıcılar özellikle de kişiler seçicisinin bu kullanıcılar için çalışmamasına ilişkin sınırlı deneyimlere sahiptir. İyi bir deneyim sağlamak için aşağıda gösterildiği gibi, Azure AD yöneticinizle birlikte çalışmak önemlidir. * *
@@ -542,13 +542,13 @@ Power BI Yöneticiler Power BI Yönetici portalını ziyaret ederek yalnızca Po
 - Yöneticiler, konuk davet eden rolü ve Üyeler davet edebilir
 - Konuklar dahil tüm kullanıcılar davet edebilir
 
-Bu ilkeler hakkında daha fazla bilgiyi [Azure ACTIVE DIRECTORY B2B işbirliği Için temsilci davetlerinde](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)bulabilirsiniz.
+Bu ilkeler hakkında daha fazla bilgiyi [Azure ACTIVE DIRECTORY B2B işbirliği Için temsilci davetlerinde](/azure/active-directory/active-directory-b2b-delegate-invitations)bulabilirsiniz.
 
 Dış kullanıcılara göre tüm Power BI eylemleri [Denetim portalımızda da denetlenir](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/).
 
 ### <a name="conditional-access-policies-for-guest-users"></a>Konuk kullanıcılar için koşullu erişim ilkeleri
 
-Contoso, contoso kiracısından içeriğe erişen Konuk kullanıcılar için koşullu erişim ilkeleri uygulayabilir. [B2B işbirliği kullanıcıları Için koşullu erişim](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)bölümünde ayrıntılı yönergeler bulabilirsiniz.
+Contoso, contoso kiracısından içeriğe erişen Konuk kullanıcılar için koşullu erişim ilkeleri uygulayabilir. [B2B işbirliği kullanıcıları Için koşullu erişim](/azure/active-directory/active-directory-b2b-mfa-instructions)bölümünde ayrıntılı yönergeler bulabilirsiniz.
 
 ## <a name="common-alternative-approaches"></a>Yaygın alternatif yaklaşımlar
 
@@ -576,7 +576,7 @@ Bu alternatifi seçmemek için nedenler:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternatif seçenek 2: özel kimlik doğrulaması kullanarak özel bir Power BI Embedded uygulaması oluşturma
 
-Contoso için başka bir seçenek de özel kimlik doğrulaması ([' veri sahibi](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)') ile kendi özel katıştırılmış Power BI uygulamasını derlemenize yöneliktir. Birçok kuruluş, Power BI içeriğini dış iş ortaklarına dağıtmak üzere özel bir uygulama oluşturmak için zaman veya kaynaklara sahip olmasa da, bazı kuruluşlar için bu en iyi yaklaşım ve ciddi bir değerlendirme sunar.
+Contoso için başka bir seçenek de özel kimlik doğrulaması ([' veri sahibi](../developer/embedded/embed-sample-for-customers.md)') ile kendi özel katıştırılmış Power BI uygulamasını derlemenize yöneliktir. Birçok kuruluş, Power BI içeriğini dış iş ortaklarına dağıtmak üzere özel bir uygulama oluşturmak için zaman veya kaynaklara sahip olmasa da, bazı kuruluşlar için bu en iyi yaklaşım ve ciddi bir değerlendirme sunar.
 
 Genellikle kuruluşlar, iş ortakları için tüm kurumsal kaynaklara erişimi merkezileştirmek, dahili kurumsal kaynaklardan yalıtım sağlamak ve iş ortaklarının birçok iş ortağı ve bireysel kullanıcılarını desteklemesi için kolaylaştırılmış deneyimler sağlamak üzere mevcut iş ortağı portallarına sahiptir.
 
@@ -612,11 +612,11 @@ Bu alternatifi seçmemek için nedenler:
 
 Son kullanıcının, içeriğe erişebilmeleri için her zaman onay deneyimine tıklaması gerekir.
 
-Çok sayıda konuk kullanıcı davet ediyorsanız, [kaynak kuruluştaki konuk davet eden rolüne bir kullanıcı ekleyerek](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-add-guest-to-role)bunu çekırdek Azure AD yöneticinizden temsilcilerinizi öneririz. Bu Kullanıcı, oturum açma kullanıcı arabirimi, PowerShell betikleri veya API 'Leri kullanarak iş ortağı kuruluştaki diğer kullanıcıları davet edebilir. Bu, Azure AD yöneticilerinizin yönetim yükünü, iş ortağı kuruluştaki kullanıcılara davet etmek veya yeniden gönderilmesi için azaltır.
+Çok sayıda konuk kullanıcı davet ediyorsanız, [kaynak kuruluştaki konuk davet eden rolüne bir kullanıcı ekleyerek](/azure/active-directory/active-directory-b2b-add-guest-to-role)bunu çekırdek Azure AD yöneticinizden temsilcilerinizi öneririz. Bu Kullanıcı, oturum açma kullanıcı arabirimi, PowerShell betikleri veya API 'Leri kullanarak iş ortağı kuruluştaki diğer kullanıcıları davet edebilir. Bu, Azure AD yöneticilerinizin yönetim yükünü, iş ortağı kuruluştaki kullanıcılara davet etmek veya yeniden gönderilmesi için azaltır.
 
 **Contoso, iş ortaklarının Multi-Factor Authentication yoksa Konuk kullanıcılar için Multi-Factor Authentication 'ı zorlayabilir mi?**
 
-Evet. Daha fazla bilgi için bkz. [B2B işbirliği kullanıcıları Için koşullu erişim](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions).
+Evet. Daha fazla bilgi için bkz. [B2B işbirliği kullanıcıları Için koşullu erişim](/azure/active-directory/active-directory-b2b-mfa-instructions).
 
 **Davet edilen iş ortağı, kendi şirket içi kimlik doğrulamasını eklemek için Federasyon kullanıyorsa B2B işbirliği nasıl çalışır?**
 
