@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427733"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853989"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
 
@@ -38,7 +38,7 @@ Sayfalandırılmış rapor oluşturmanın önkoşulları şunlardır:
 
 - [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden](https://aka.ms/pbireportbuilder) yükleyin. 
 
-- [Azure portalda Azure SQL veritabanı örneği oluşturma](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) hızlı başlangıcını izleyin. Değeri **Genel bakış** sekmesinin **Sunucu adı** kutusuna kopyalayın ve kaydedin. Azure'da oluşturduğunuz kullanıcı adını ve parolayı unutmayın.
+- [Azure portalda Azure SQL veritabanı örneği oluşturma](/azure/sql-database/sql-database-get-started-portal) hızlı başlangıcını izleyin. Değeri **Genel bakış** sekmesinin **Sunucu adı** kutusuna kopyalayın ve kaydedin. Azure'da oluşturduğunuz kullanıcı adını ve parolayı unutmayın.
 
 Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşullar şunlardır:
 

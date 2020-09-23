@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161756"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860981"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
 
@@ -62,6 +62,5 @@ Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Tüketiciler için Power BI hizmetinde bir tura katılın](end-user-reading-view.md)    
-[Tüketiciler için Power BI hizmeti eğitimi](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
-[Power BI *tüketicileri* için terimler ve kavramlar](end-user-basic-concepts.md)    
-
+[Tüketiciler için Power BI hizmeti eğitimi](/learn/paths/consume-data-with-power-bi/)    
+[Power BI *tüketicileri* için terimler ve kavramlar](end-user-basic-concepts.md)

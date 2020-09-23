@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
-ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
+ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90571015"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860682"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -191,7 +191,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     Bu seçeneği görmüyorsanız, Power BI yöneticinize başvurun ve size yönetim portalında [şablon uygulaması geliştirme izinleri](../admin/service-admin-portal.md#template-apps-settings) vermesini isteyin.
 11. Seçiminizi onaylamak için **Yükselt**’i seçin.
-12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni İş ortağı merkezi teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. İş ortağı merkezine yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource’ta yayımlandığına ilişkin bildirim aldıktan sonra bu paketi Power BI’da üretime yükseltebilirsiniz.
+12. Bu yeni URL’yi kopyalayın ve kiracınızın dışında test edilmesi için paylaşın. Bu aynı zamanda, [yeni İş ortağı merkezi teklifi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) oluşturarak uygulamanızı AppSource’ta dağıtma sürecini başlatmak için göndereceğiniz bağlantıdır. İş ortağı merkezine yalnızca üretim öncesi bağlantılarını gönderin. Ancak uygulama onaylandıktan ve AppSource’ta yayımlandığına ilişkin bildirim aldıktan sonra bu paketi Power BI’da üretime yükseltebilirsiniz.
 13. Uygulamanız üretime veya AppSource yoluyla paylaşıma hazır olduğunda, **Sürüm Yönetimi** bölmesine dönün ve **Ön üretim**’in yanındaki **Uygulamayı yükselt**’i seçin.
 14. Seçiminizi onaylamak için **Yükselt**’i seçin.
 
@@ -199,10 +199,10 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     ![Üretim ortamında uygulama](media/service-template-apps-create/power-bi-template-app-production.png)
 
-Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Müşterilerinizin şablon uygulamanızla nasıl etkileşim kurduğunu görmek için bkz. [Kuruluşunuzda şablon uygulamalarını yükleme, özelleştirme ve dağıtma](service-template-apps-install-distribute.md).
 
-Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).

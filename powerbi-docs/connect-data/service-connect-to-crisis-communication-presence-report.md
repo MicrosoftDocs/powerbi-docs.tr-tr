@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860314"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Kriz İletişimi Durum Raporu’na Bağlanma
 
@@ -23,15 +23,15 @@ Bu Power BI uygulaması, Kriz İletişimi için Microsoft Power Platform çözü
 
 Sağlık sistemleri genelindeki verileri toplayan bu pano, acil durum yöneticilerinin zamanında ve doğru kararlar almasına yardımcı olur.
 
-Bu makalede, uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Kriz İletişimi uygulaması hakkında daha fazla bilgi için bkz. [Power Apps’te Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+Bu makalede, uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Kriz İletişimi uygulaması hakkında daha fazla bilgi için bkz. [Power Apps’te Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 
 Şablon uygulamasını yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçlarınıza göre özelleştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza bir uygulama olarak dağıtabilirsiniz.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu şablon uygulamasını yüklemeden önce, [Kriz İletişimi örneğini](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
+Bu şablon uygulamasını yüklemeden önce, [Kriz İletişimi örneğini](/powerapps/maker/canvas-apps/sample-crisis-communication-app) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
 
-Kriz İletişimi örneğini yüklerken [“CI_Employee Status” SharePoint listesi klasör yolunu ve liste kimliğini](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) not edin.
+Kriz İletişimi örneğini yüklerken [“CI_Employee Status” SharePoint listesi klasör yolunu ve liste kimliğini](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) not edin.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -68,7 +68,7 @@ Kriz İletişimi örneğini yüklerken [“CI_Employee Status” SharePoint list
    ![Kriz İletişimi Durum Raporu uygulaması, verilerinize bağlanın bağlantısı](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. İletişim kutusunda:
-   1. SharePoint_Folder alanına [“CI_Employee Status” SharePoint listesi yolunu](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) girin.
+   1. SharePoint_Folder alanına [“CI_Employee Status” SharePoint listesi yolunu](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) girin.
    1. List_ID alanına, liste ayarlarından aldığınız liste kimliğinizi girin. İşiniz bittiğinde **İleri**’ye tıklayın.
 
    ![Kriz İletişimi Durum Raporu uygulaması URL iletişim kutusu](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
@@ -102,7 +102,7 @@ Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlam
 Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](../create-reports/sample-covid-19-us.md#disclaimers) gözden geçirdiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 * [Power BI şablon uygulamaları nedir?](../connect-data/service-template-apps-overview.md)
 * [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../connect-data/service-template-apps-install-distribute.md)

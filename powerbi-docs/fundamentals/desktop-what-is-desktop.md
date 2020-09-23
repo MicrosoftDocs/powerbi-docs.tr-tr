@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252740"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860797"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
@@ -66,7 +66,7 @@ Verilere bağlanmak için:
 
 ## <a name="transform-and-clean-data-create-a-model"></a>Verileri dönüştürme ve temizleme, model oluşturma
 
-Power BI Desktop’ta yerleşik [Power Query Düzenleyicisi](https://docs.microsoft.com/power-bi/desktop-query-overview)’ni kullanarak verileri temizleyebilir ve dönüştürebilirsiniz. Power Query Düzenleyicisi ile verilerinizde, veri türünü değiştirme, sütunları kaldırma veya birden çok kaynaktan veri birleştirme gibi değişiklikler yapabilirsiniz. Biraz heykeltıraşlık gibidir; büyük bir kil (veya veri) bloğu ile başlayabilir, sonra verilerin şekli istediğiniz duruma gelene kadar gerektikçe parçaları tıraş edebilir ya da ekleyebilirsiniz. 
+Power BI Desktop’ta yerleşik [Power Query Düzenleyicisi](../transform-model/desktop-query-overview.md)’ni kullanarak verileri temizleyebilir ve dönüştürebilirsiniz. Power Query Düzenleyicisi ile verilerinizde, veri türünü değiştirme, sütunları kaldırma veya birden çok kaynaktan veri birleştirme gibi değişiklikler yapabilirsiniz. Biraz heykeltıraşlık gibidir; büyük bir kil (veya veri) bloğu ile başlayabilir, sonra verilerin şekli istediğiniz duruma gelene kadar gerektikçe parçaları tıraş edebilir ya da ekleyebilirsiniz. 
 
 Power Query Düzenleyicisi'ni başlatmak için:
 
@@ -134,4 +134,3 @@ Power BI Desktop'ı kullanmaya başlamak için ilk olarak uygulamayı indirip y�
 
 * [Microsoft Store’dan Power BI Desktop’ı edinme](https://aka.ms/pbidesktopstore)
 * [Web’den Power BI Desktop'ı indirme](https://www.microsoft.com/download/details.aspx?id=58494)
-

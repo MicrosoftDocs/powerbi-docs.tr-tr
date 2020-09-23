@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a0b9eb90e3c39cf1f07842f5ea1da88b7cd06ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb23da89489966cd3d96bb2c4daaa6302a96326
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859739"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI’da self servis veri hazırlığı
 
@@ -24,7 +24,7 @@ Veri hacmi artmaya devam ettikçe, bu verileri düzgün biçimlendirilmiş, eyle
 
 Power BI **veri akışlarını**, kuruluşların dağınık kaynaklardan gelen verileri birleştirmesine ve modellemeye hazırlamasına yardımcı olmak için kullanıma sunmuştur. Analistler tanıdık, self servis araçları kullanarak veri akışlarını kolayca oluşturabilir. Veri akışları, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha birçok öğeyi tanımlayarak büyük verileri almak, dönüştürmek, tümleştirmek ve zenginleştirmek için kullanılır. Buna ek olarak, veri akışlarının bir parçası olan yeni model odaklı hesaplama altyapısı veri hazırlığı işleminin hem veri analistleri hem de rapor oluşturucuları için daha yönetilebilir, daha belirleyici ve daha az külfetli olmasını sağlar. Elektronik tabloların tüm etkilenen formüller için yeniden hesaplamaları işlemesine benzer şekilde, veri akışları da varlık veya veri öğesinin değişikliklerini sizin adınıza yönetir, güncelleştirmeleri otomatik hale getirir ve temel bir veri yenilemesi için bile bıktırıcı ve zaman alıcı olan mantık denetimlerini azaltır. Veri akışlarıyla, daha önce veri bilimcilerinin gözetiminde yapılması gereken (ve tamamlanması saatlerce veya günlerce süren) görevler artık analistler veya rapor oluşturucuları tarafından birkaç tıklamayla gerçekleştirilebilir. 
 
-Veriler, Azure Data Lake Storage 2. Nesil'de [**Ortak Veri Modeli**](https://docs.microsoft.com/powerapps/common-data-model/overview)'nde varlıklar olarak depolanır. Veri akışları Power BI hizmeti kullanılarak çalışma alanlarında oluşturulur ve yönetilir.  
+Veriler, Azure Data Lake Storage 2. Nesil'de [**Ortak Veri Modeli**](/powerapps/common-data-model/overview)'nde varlıklar olarak depolanır. Veri akışları Power BI hizmeti kullanılarak çalışma alanlarında oluşturulur ve yönetilir.  
  
 **Veri akışları**, **Ortak Veri Modeli**'ni kullanacak şekilde tasarlanmıştır. Bu veri modeli, Microsoft tarafından yayımlanmış olan ve veri oluşturma, kullanma ve analiz etme konularında kolaylık sağlamak üzere tasarlanmış olan standartlaştırılmış, modüler, genişletilebilir veri şeması koleksiyonudur. Bu modelle, neredeyse hiçbir uyumsuzlukla karşılaşmadan veri kaynaklarından Power BI panolarına geçebilirsiniz.
 
@@ -117,4 +117,4 @@ Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makal
 * [Zamanlanmış yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)

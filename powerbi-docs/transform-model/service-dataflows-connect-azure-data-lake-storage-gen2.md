@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385964"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859831"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
 
@@ -46,13 +46,13 @@ Azure Data Lake Storage 2. Nesil hesabıyla Power BI’ı yapılandırabilmeniz 
 2. Depolama hesabı, Power BI kiracınızla aynı AAD kiracısında oluşturulmalıdır.
 3. Depolama hesabı, Power BI kiracınızla aynı bölgede oluşturulmalıdır. Power BI kiracınızın bulunduğu yeri belirlemek için [Power BI kiracım nerede bulunur?](../admin/service-admin-where-is-my-tenant-located.md) makalesine bakın.
 4. Depolama hesabı için *Hiyerarşik Ad Alanı* özelliği etkinleştirilmiş olmalıdır.
-5. Depolama hesabı geçerli kullanıcı tarafından oluşturulmadıysa lütfen geçerli kullanıcıya [Depolama Blob Verileri Sahibi](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) ve [sahip](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) izinlerinin atandığından emin olun. (Sahip, veri düzeyinde izne sahip olmadığından Blob Veri sahibi rolü gereklidir.)
+5. Depolama hesabı geçerli kullanıcı tarafından oluşturulmadıysa lütfen geçerli kullanıcıya [Depolama Blob Verileri Sahibi](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) ve [sahip](/azure/role-based-access-control/built-in-roles#owner) izinlerinin atandığından emin olun. (Sahip, veri düzeyinde izne sahip olmadığından Blob Veri sahibi rolü gereklidir.)
 
 Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrıntılı şekilde yapılandırmak için gerekli adımlar açıklanmaktadır.
 
 ### <a name="create-the-storage-account"></a>Depolama hesabı oluşturma
 
-[Azure Data Lake Storage 2. Nesil depolama hesabı oluştur](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account) makalesindeki adımları izleyin.
+[Azure Data Lake Storage 2. Nesil depolama hesabı oluştur](/azure/storage/blobs/data-lake-storage-quickstart-create-account) makalesindeki adımları izleyin.
 
 1. Power BI kiracınızla aynı konumu seçtiğinizden ve depolama alanınızı **StorageV2 (general purpose v2)** olarak ayarladığınızdan emin olun
 2. Hiyerarşik ad alanı özelliğini etkinleştirdiğinizden emin olun
@@ -62,7 +62,7 @@ Aşağıdaki bölümlerde, Azure Data Lake Storage 2. Nesil hesabınızı ayrın
 
 Daha sonra Power BI hizmetine, oluşturduğunuz depolama hesabında okuyucu ve veri erişimi rolleri vermeniz gerekir. Bunların ikisi de yerleşik rollerdir, bu nedenle adımlar basittir. 
 
-[Yerleşik RBAC rolü atama](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) adımlarını izleyin.
+[Yerleşik RBAC rolü atama](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) adımlarını izleyin.
 
 **Rol ataması ekle** penceresinde, **Okuyucu ve Veri Erişimi** rolünü seçin. Ardından, **Power BI Hizmeti** uygulamasını arayıp bulup.
 Aynı adımları **Depolama Blobu Veri Sahibi** rolü için yineleyin ve rolü hem **Power BI Hizmeti** hem de **Power BI Premium** uygulamalarına atayın.
@@ -155,11 +155,11 @@ Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 * [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
-* [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Depolama güvenlik kılavuzu](/azure/storage/common/storage-security-guide)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
+* [CDM klasörleri](/common-data-model/data-lake)
+* [CDM model dosyası tanımı](/common-data-model/model-json)
 
 Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

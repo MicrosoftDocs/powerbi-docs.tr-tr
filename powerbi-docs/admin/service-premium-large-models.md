@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204314"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854679"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
 
@@ -94,7 +94,7 @@ Büyük modellerde çıkarmanın etkisini göz önünde bulundurmanız gerekir. 
 
 ## <a name="checking-dataset-size"></a>Veri kümesi boyutunu denetleme
 
-Geçmiş verileri yükledikten sonra [XMLA uç noktası](service-premium-connect-tools.md) aracılığıyla [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) kullanarak model özellikleri penceresinden tahmini veri kümesi boyutunu denetleyebilirsiniz.
+Geçmiş verileri yükledikten sonra [XMLA uç noktası](service-premium-connect-tools.md) aracılığıyla [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) kullanarak model özellikleri penceresinden tahmini veri kümesi boyutunu denetleyebilirsiniz.
 
 ![Tahmini veri kümesi boyutu](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
 
 ## <a name="availability-in-regions"></a>Bölgelerdeki kullanılabilirlik
 
-Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
+Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
 
 Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölgeler listelenir. Aşağıdaki listede yer almayan bölgeler, büyük modeller için desteklenmez:
 
@@ -155,7 +155,7 @@ Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölge
 
 Aşağıdaki bağlantılarda, büyük modellerle çalışırken yararlı olabilecek bilgiler sağlanır:
 
-* [Azure Premium Dosyalar Depolaması](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure Premium Dosyalar Depolaması](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium için Multi-Geo desteğini yapılandırma](service-admin-premium-multi-geo.md)
 * [Power BI için kendi anahtarını getir şifrelemesi](service-encryption-byok.md)
 * [Kapasiteler nasıl çalışır?](service-premium-what-is.md#how-capacities-function)

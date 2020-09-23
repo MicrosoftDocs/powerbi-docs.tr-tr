@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049196"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854326"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini etkinleştirme
 
-[Microsoft Information Protection duyarlılık etiketlerinin](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) Power BI’da kullanılabilmesi için kiracıda etkinleştirilmeleri gerekir. Bu makalede, Power BI kiracı yöneticilerinin bunu nasıl yapılacağı gösterilmektedir. Power BI’daki duyarlılık etiketleri hakkında genel bakış için bkz. [Power BI'daki duyarlılık etiketleri](service-security-sensitivity-label-overview.md). Power BI’da duyarlılık etiketlerini uygulama hakkında bilgi için bkz. [Duyarlılık etiketleri uygulama](./service-security-apply-data-sensitivity-labels.md) 
+[Microsoft Information Protection duyarlılık etiketlerinin](/microsoft-365/compliance/sensitivity-labels) Power BI’da kullanılabilmesi için kiracıda etkinleştirilmeleri gerekir. Bu makalede, Power BI kiracı yöneticilerinin bunu nasıl yapılacağı gösterilmektedir. Power BI’daki duyarlılık etiketleri hakkında genel bakış için bkz. [Power BI'daki duyarlılık etiketleri](service-security-sensitivity-label-overview.md). Power BI’da duyarlılık etiketlerini uygulama hakkında bilgi için bkz. [Duyarlılık etiketleri uygulama](./service-security-apply-data-sensitivity-labels.md) 
 
 Duyarlılık etiketleri etkinleştirildiğinde:
 
@@ -34,10 +34,10 @@ Duyarlılık etiketlerinin etkinleştirilmesi için Azure Information Protection
 
 * Office uygulamalarının [duyarlılık etiketlerini görüntülemeye ve uygulamaya yönelik kendi lisanslama gereksinimleri]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ) vardır.
 
-* Kiracınızda duyarlılık etiketlerini etkinleştirmeden önce, ilgili kullanıcılar ve gruplar için duyarlılık etiketlerinin tanımlandığından ve yayımlandığından emin olun. Ayrıntılar için bkz. [Duyarlılık etiketlerini ve ilkelerini oluşturma ve yapılandırma](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
+* Kiracınızda duyarlılık etiketlerini etkinleştirmeden önce, ilgili kullanıcılar ve gruplar için duyarlılık etiketlerinin tanımlandığından ve yayımlandığından emin olun. Ayrıntılar için bkz. [Duyarlılık etiketlerini ve ilkelerini oluşturma ve yapılandırma](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
 
 >[!NOTE]
-> Kuruluşunuz Azure Information Protection duyarlılık etiketlerini kullanıyorsa bunların Power BI’da kullanılabilmesi için Microsoft Information Protection Birleşik Etiketleme platformuna geçirilmesi gerekir. [Duyarlılık etiketlerini geçirme hakkında daha fazla bilgi edinin](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
+> Kuruluşunuz Azure Information Protection duyarlılık etiketlerini kullanıyorsa bunların Power BI’da kullanılabilmesi için Microsoft Information Protection Birleşik Etiketleme platformuna geçirilmesi gerekir. [Duyarlılık etiketlerini geçirme hakkında daha fazla bilgi edinin](/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="enable-sensitivity-labels"></a>Duyarlılık etiketlerini etkinleştirme
 
@@ -78,6 +78,6 @@ Power BI'daki duyarlılık etiketi sınırlamaları için bkz. [Power BI'daki du
 Bu makalede, Power BI'da duyarlılık etiketlerini etkinleştirme işlemi açıklanmıştır. Aşağıdaki makalelerde Power BI’da veri koruma hakkında daha fazla bilgi verilmektedir. 
 
 * [Power BI'daki duyarlılık etiketlerine genel bakış](service-security-sensitivity-label-overview.md)
-* [Power BI'da duyarlılık etiketlerini uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI'da duyarlılık etiketlerini uygulama](./service-security-apply-data-sensitivity-labels.md)
 * [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](service-security-using-microsoft-cloud-app-security-controls.md)
 * [Koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)

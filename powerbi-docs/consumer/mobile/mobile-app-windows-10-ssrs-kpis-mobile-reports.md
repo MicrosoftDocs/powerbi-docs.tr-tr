@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a56fecdadc8eddba3fa755497a4ebc978496b7a1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 98f528e13bd92692bd76afc42aaac43828f7f586
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231353"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860912"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows uygulamasında şirket içi raporları ve KPI'leri görüntüleme
 Windows 10 için Power BI uygulaması, SQL Server 2016 Reporting Services'deki önemli şirket içi iş bilgilerinize gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişim olanağı sağlar. 
@@ -28,7 +28,7 @@ Ardından, klasörler halinde düzenlenmiş veya sık kullanılanlar olarak bir 
 > Cihazınızın Windows 10'u çalıştırması gerekir. Uygulama, en az 1 GB RAM'e ve 8 GB iç depolama alanına sahip olan cihazlarda en iyi şekilde çalışır.
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>Bir SQL Server 2016 Reporting Services sunucusu olmadan örnekleri keşfetme
 Reporting Services web portalına erişiminiz olmasa bile Reporting Services mobil raporlarının özelliklerini inceleyebilirsiniz.

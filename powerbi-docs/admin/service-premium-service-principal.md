@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490365"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854633"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 
@@ -40,14 +40,14 @@ Yazma işlemleri gerçekleştirmek için kapasitenin **Veri kümeleri iş yükü
 
 Hizmet sorumluları Azure portalında bir uygulama kaydı olarak veya PowerShell kullanılarak oluşturulur. Hizmet sorumlunuzu oluştururken uygulama adını, Uygulama (istemci) Kimliğini ve istemci gizli anahtarını ayrı ayrı kopyalayıp yapıştırdığınızdan emin olun. Hizmet sorumlusu oluşturma adımları için bkz:
 
-[Hizmet sorumlusu oluşturma - Azure portalı](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Hizmet sorumlusu oluşturma - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Hizmet sorumlusu oluşturma - Azure portalı](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Hizmet sorumlusu oluşturma - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Azure AD güvenlik grubu oluşturma
 
 Varsayılan olarak, hizmet sorumluları etkinleştirilmiş oldukları tüm kiracı ayarlarına erişebilir. Yönetici ayarlarınıza bağlı olarak erişim belirli güvenlik gruplarını veya kuruluşun tamamını içerebilir.
 
-Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için belirli güvenlik gruplarına erişim izni verebilirsiniz. Dilerseniz hizmet sorumluları için ayrılmış bir güvenlik grubu oluşturabilir ev bu grubu istediğiniz kiracı ayarlarından dışlayabilirsiniz. Güvenlik grubu oluşturma ve hizmet sorumlusu ekleme adımları için bkz. [Temel bir grup oluşturma ve Azure Active Directory’yi kullanarak üyeleri ekleme](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için belirli güvenlik gruplarına erişim izni verebilirsiniz. Dilerseniz hizmet sorumluları için ayrılmış bir güvenlik grubu oluşturabilir ev bu grubu istediğiniz kiracı ayarlarından dışlayabilirsiniz. Güvenlik grubu oluşturma ve hizmet sorumlusu ekleme adımları için bkz. [Temel bir grup oluşturma ve Azure Active Directory’yi kullanarak üyeleri ekleme](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## <a name="enable-service-principals"></a>Hizmet sorumlularını etkinleştirme
 
@@ -59,7 +59,7 @@ Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlu
 
 ## <a name="workspace-access"></a>Çalışma alanı erişimi
 
-Hizmet sorumlunuzun Premium çalışma alanı ve veri kümesi işlemleri yaparken gereken izinlere sahip olması için, hizmet sorumlusunu çalışma alanı Üyesi veya Yöneticisi olarak eklemelisiniz. Burada Power BI hizmetinde Çalışma alanı erişiminin kullanılması açıklanmıştır ama [Grup Kullanıcısı Ekleme User REST API’sini](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) de kullanabilirsiniz.
+Hizmet sorumlunuzun Premium çalışma alanı ve veri kümesi işlemleri yaparken gereken izinlere sahip olması için, hizmet sorumlusunu çalışma alanı Üyesi veya Yöneticisi olarak eklemelisiniz. Burada Power BI hizmetinde Çalışma alanı erişiminin kullanılması açıklanmıştır ama [Grup Kullanıcısı Ekleme User REST API’sini](/rest/api/power-bi/groups/addgroupuser) de kullanabilirsiniz.
 
 1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi**’ni seçin.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO ve ADOMD
 
-İstemci uygulamalarıyla ve web uygulamalarıyla bağlantı kurarken, NuGet’ten [AMO ve ADOMD istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) sürüm 15.1.42.26 (Haziran 2020) ve üzeri yüklenebilir paketleri, bağlantı dizelerinde şu söz dizimiyle hizmet sorumlularının kullanılmasını destekler: `app:AppID` ve parola veya `cert:thumbprint`.
+İstemci uygulamalarıyla ve web uygulamalarıyla bağlantı kurarken, NuGet’ten [AMO ve ADOMD istemci kitaplıkları](/azure/analysis-services/analysis-services-data-providers) sürüm 15.1.42.26 (Haziran 2020) ve üzeri yüklenebilir paketleri, bağlantı dizelerinde şu söz dizimiyle hizmet sorumlularının kullanılmasını destekler: `app:AppID` ve parola veya `cert:thumbprint`.
 
 Aşağıdaki örnekte bir model veritabanı yenileme işlemi gerçekleştirmek için `appID` ve `password` kullanılmıştır:
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)  
-[Azure Otomasyonu](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure Otomasyonu](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[Power BI REST API'leri](/rest/api/power-bi/)

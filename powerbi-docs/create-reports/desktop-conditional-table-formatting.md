@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222252"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860038"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme kullanma 
 
@@ -181,9 +181,9 @@ Koşul tablo biçimlendirme ile çalışırken dikkat etmeniz gereken birkaç ö
 
 - Koşullu biçimlendirme yalnızca Tablo veya Matris görsellerinin değerlerine uygulanır ve alt toplamlar, genel toplamlar ya da **Toplam** satırı için uygulanmaz. 
 - Gruplandırması olmayan tablolar, koşullu biçimlendirmeyi desteklemeyen tek bir satır olarak görüntülenir.
-- Verilerinizde *NaN* değerleri varsa otomatik en yüksek/en düşük değerler ile gradyan biçimlendirmesi veya yüzde kurallarıyla kural tabanlı biçimlendirme uygulayamazsınız. NaN, "Sayı değil" anlamına gelir ve genellikle sıfıra bölme hatasından kaynaklanır. Bu hataları engellemek için [DIVIDE() DAX işlevini](https://docs.microsoft.com/dax/divide-function-dax) kullanabilirsiniz.
+- Verilerinizde *NaN* değerleri varsa otomatik en yüksek/en düşük değerler ile gradyan biçimlendirmesi veya yüzde kurallarıyla kural tabanlı biçimlendirme uygulayamazsınız. NaN, "Sayı değil" anlamına gelir ve genellikle sıfıra bölme hatasından kaynaklanır. Bu hataları engellemek için [DIVIDE() DAX işlevini](/dax/divide-function-dax) kullanabilirsiniz.
 - Koşullu biçimlendirme için değere bir toplama veya ölçüm uygulanması gerekir. Bu nedenle **Değere göre renk** örneğinde "İlk" veya "Son" değerler görünmektedir. Bir Analysis Service çok boyutlu küpü için rapor oluşturuyorsanız, küp sahibi değeri sağlayan bir ölçü oluşturmadığı sürece koşullu biçimlendirme için öznitelik kullanamazsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Renk biçimlendirme hakkında daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](../visuals/service-tips-and-tricks-for-color-formatting.md)  
+Renk biçimlendirme hakkında daha fazla bilgi için bkz. [Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları](../visuals/service-tips-and-tricks-for-color-formatting.md)

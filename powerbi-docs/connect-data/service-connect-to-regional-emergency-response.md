@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229668"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860751"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Bölgesel Acil Durum Müdahale Panosu’na bağlanma
-Bölgesel Acil Durum Müdahale Panosu, [Microsoft Power Platform Bölgesel Acil Durum Müdahale Panosu çözümünün](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview) raporlama bileşenidir. Bölgesel kuruluş yöneticileri, etkili kararlar almalarına yardımcı olan önemli verileri ve ölçümleri hızla görüntülemelerini sağlayan Power BI kiracılarındaki panoyu görüntüleyebilir.
+Bölgesel Acil Durum Müdahale Panosu, [Microsoft Power Platform Bölgesel Acil Durum Müdahale Panosu çözümünün](/powerapps/sample-apps/regional-emergency-response/overview) raporlama bileşenidir. Bölgesel kuruluş yöneticileri, etkili kararlar almalarına yardımcı olan önemli verileri ve ölçümleri hızla görüntülemelerini sağlayan Power BI kiracılarındaki panoyu görüntüleyebilir.
 
 ![Bölgesel Acil Durum Müdahale Panosu uygulama raporu](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 Bu makalede, Bölgesel Acil Durum Müdahale Panosu şablon uygulamasını kullanarak Bölgesel Acil Durum Müdahalesi uygulamasını yükleme ve veri kaynaklarına bağlanma açıklanır.
 
-Panoda sunulanlar hakkında ayrıntılı bilgi için bkz. [İçgörüler edinme](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
+Panoda sunulanlar hakkında ayrıntılı bilgi için bkz. [İçgörüler edinme](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights).
 
 Şablon uygulamasını yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçlarınıza göre özelleştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza bir uygulama olarak dağıtabilirsiniz.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu şablon uygulamasını yüklemeden önce [Bölgesel Acil Durum Müdahale çözümünü](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
+Bu şablon uygulamasını yüklemeden önce [Bölgesel Acil Durum Müdahale çözümünü](/powerapps/sample-apps/regional-emergency-response/deploy) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
 
-Bölgesel Acil Durum Müdahale çözümünü yüklerken [Common Data Service ortam örneğinizin URL’sini](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard) not edin. Şablon uygulamasını verilere bağlamak için bu URL’ye ihtiyacınız olacak.
+Bölgesel Acil Durum Müdahale çözümünü yüklerken [Common Data Service ortam örneğinizin URL’sini](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard) not edin. Şablon uygulamasını verilere bağlamak için bu URL’ye ihtiyacınız olacak.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -62,7 +62,7 @@ Bölgesel Acil Durum Müdahale çözümünü yüklerken [Common Data Service ort
 
    ![Bölgesel Acil Durum Müdahale Panosu uygulaması, verilerinize bağlanma bağlantısı](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. Görüntülenen iletişim kutusuna [Common Data Service ortam örneğinizin URL’sini](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) yazın. Örneğin: https://[myenv].crm.dynamics.com. İşiniz bittiğinde **İleri**’ye tıklayın.
+1. Görüntülenen iletişim kutusuna [Common Data Service ortam örneğinizin URL’sini](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) yazın. Örneğin: https://[myenv].crm.dynamics.com. İşiniz bittiğinde **İleri**’ye tıklayın.
 
    ![Bölgesel Acil Durum Müdahale Panosu uygulaması, URL iletişim kutusu](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlam
 
 ## <a name="customize-and-share"></a>Özelleştirin ve paylaşın
 
-Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) gözden geçirdiğinizden emin olun.
+Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) gözden geçirdiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Bölgesel Acil Durum Müdahale Panosu’nu anlama](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Bölgesel Acil Durum Müdahale Panosu’nu anlama](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 * [Power BI şablon uygulamaları nedir?](../connect-data/service-template-apps-overview.md)
 * [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../connect-data/service-template-apps-install-distribute.md)

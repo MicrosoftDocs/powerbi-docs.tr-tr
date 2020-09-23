@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 10049517ff1d9313838f72270c34091e2a0d3f73
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937344"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854725"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -84,10 +84,9 @@ Daha fazla bilgi için bkz. [Power BI Rapor Sunucusu ile çalışmaya başlama](
 **Sonraki adımlar**
 
 * [Power BI Premium nedir?](service-premium-what-is.md)
-* [Power BI Premium sürüm notları](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
-* [Uzatılmış Pro Deneme Sürümünü etkinleştirme](../service-extended-pro-trial.md)
+* [Uzatılmış Pro Deneme Sürümünü etkinleştirme](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded SSS](../developer/embedded/embedded-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

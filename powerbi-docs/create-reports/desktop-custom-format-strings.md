@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221672"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859923"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
 
@@ -68,7 +68,7 @@ Aşağıdaki tabloda desteklenen **Saat sembolleri** gösterilmektedir:
 | _ss_ | 00-59 (Başında sıfır olan dakika saniyesi) |
 
 
-Özel değer dizelerinin nasıl biçimlendirileceğini gösteren bir [örneği](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) görebilirsiniz.
+Özel değer dizelerinin nasıl biçimlendirileceğini gösteren bir [örneği](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) görebilirsiniz.
 
 Sayılara yönelik kullanıcı tanımlı bir biçim ifadesinin noktalı virgülle ayrılmış bir ila üç bölümü olabilir. Aralarında hiçbir şey olmadan noktalı virgül eklerseniz, eksik bölüm gösterilmez (&quot;&quot; olur). Noktalı virgül belirtilmezse pozitif biçimi kullanır.
 
@@ -151,7 +151,7 @@ Aşağıdaki tabloda **kullanıcı tanımlı sayı biçimleri** oluşturmak içi
 ## <a name="next-steps"></a>Sonraki adımlar
 Aşağıdaki makaleler de ilginizi çekebilir:
 
-* [VBA biçim dizeleri](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [VBA biçim dizeleri](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
 * [Power BI Desktop’taki ölçümler](../transform-model/desktop-measures.md)
 * [Power BI Desktop'taki veri türleri](../connect-data/desktop-data-types.md)
 * [Tablolarda koşullu biçimlendirme](desktop-conditional-table-formatting.md)

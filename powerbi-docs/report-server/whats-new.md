@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214372"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859992"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -206,7 +206,7 @@ Raporları yazarken, rapordaki her öğenin metnini belirtmek için araç ipuçl
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory Uygulama Ara Sunucusu desteği
 
-Azure Active Directory Uygulama Ara Sunucusu ile artık web veya mobil uygulamalar üzerinden güvenli erişime izin vermek için kendi web uygulaması ara sunucunuzu yönetmeniz gerekmez. Daha fazla bilgi için bkz. [Azure Active Directory'nin Uygulama Ara Sunucusu aracılığıyla şirket içi uygulamalarına uzaktan erişim](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy).
+Azure Active Directory Uygulama Ara Sunucusu ile artık web veya mobil uygulamalar üzerinden güvenli erişime izin vermek için kendi web uygulaması ara sunucunuzu yönetmeniz gerekmez. Daha fazla bilgi için bkz. [Azure Active Directory'nin Uygulama Ara Sunucusu aracılığıyla şirket içi uygulamalarına uzaktan erişim](/azure/active-directory/manage-apps/application-proxy).
 
 #### <a name="custom-headers"></a>Özel üst bilgiler
 
@@ -572,7 +572,7 @@ Bir görselde belirtilen bir kategoride detaya gittiğinizde, sayfadaki tüm gö
 
 #### <a name="export-to-accessible-pdf"></a>Erişilebilir PDF'ye dışa aktarma
 
-Sayfalandırılmış (RDL) raporu PDF’ye dışarı aktardığınızda artık erişilebilir/etiketlenmiş bir PDF dosyası elde edebilirsiniz. Boyutu daha büyüktür, ancak ekran okuyucularının ve diğer yardımcı teknolojilerin okuması ve gezinmesi daha kolaydır. **AccessiblePDF** cihaz bilgileri ayarını **True** olarak belirleyerek erişilebilir PDF’yi etkinleştirebilirsiniz. Bkz. [PDF Cihaz Bilgileri Ayarları](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) ve [Cihaz Bilgileri Ayarlarını Değiştirme](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+Sayfalandırılmış (RDL) raporu PDF’ye dışarı aktardığınızda artık erişilebilir/etiketlenmiş bir PDF dosyası elde edebilirsiniz. Boyutu daha büyüktür, ancak ekran okuyucularının ve diğer yardımcı teknolojilerin okuması ve gezinmesi daha kolaydır. **AccessiblePDF** cihaz bilgileri ayarını **True** olarak belirleyerek erişilebilir PDF’yi etkinleştirebilirsiniz. Bkz. [PDF Cihaz Bilgileri Ayarları](/sql/reporting-services/pdf-device-information-settings) ve [Cihaz Bilgileri Ayarlarını Değiştirme](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
 
 ### <a name="other-improvements"></a>Diğer iyileştirmeler
 
@@ -639,7 +639,7 @@ Daha büyük dosyalar için yeni bir API vardır ve bu Swagger'ın Power BI Rapo
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) ve Power BI Rapor Sunucusu bellek ayak izi
 
-SQL Server Analysis Services (SSAS) artık Power BI Rapor Sunucusu içinde barındırılmaktadır. Bu durum zamanlanmış yenilemeye özgü değildir. SSAS hizmetinin barındırılması sayesinde rapor sunucusu bellek ayak izi önemli ölçüde genişletilebilir. AS.ini yapılandırma dosyası sunucu düğümleri üzerinde mevcuttur. Bu nedenle SSAS konusunda bilgi sahibiyseniz maksimum bellek sınırı ve diski önbelleğe alma gibi özellikler de dahil olmak üzere bu ayarları güncelleştirebilirsiniz. Ayrıntılar için bkz. [Analysis Services'deki sunucu özellikleri](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services).
+SQL Server Analysis Services (SSAS) artık Power BI Rapor Sunucusu içinde barındırılmaktadır. Bu durum zamanlanmış yenilemeye özgü değildir. SSAS hizmetinin barındırılması sayesinde rapor sunucusu bellek ayak izi önemli ölçüde genişletilebilir. AS.ini yapılandırma dosyası sunucu düğümleri üzerinde mevcuttur. Bu nedenle SSAS konusunda bilgi sahibiyseniz maksimum bellek sınırı ve diski önbelleğe alma gibi özellikler de dahil olmak üzere bu ayarları güncelleştirebilirsiniz. Ayrıntılar için bkz. [Analysis Services'deki sunucu özellikleri](/sql/analysis-services/server-properties/server-properties-in-analysis-services).
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Excel çalışma kitaplarını görüntüleme ve bunlarla etkileşim kurma
 

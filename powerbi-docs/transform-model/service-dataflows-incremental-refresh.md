@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1cf289e4f556fb3f92806dad1343797824f0888e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240012"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860015"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Power BI veri akışları ile artımlı yenilemeyi kullanma
 
@@ -163,4 +163,4 @@ Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makal
 * [Zamanlanmış yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)

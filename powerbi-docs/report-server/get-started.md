@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219586"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859854"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
@@ -38,9 +38,9 @@ Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görü
 
 ![Power BI Rapor Sunucusu web portalı](media/get-started/web-portal.png)
 
-İzinlerinize bağlı olarak, web portalındaki içeriği yönetebilirsiniz. Rapor işleme zamanlaması oluşturabilir, isteğe bağlı olarak raporlara erişebilir ve yayımlanan raporlara abone olabilirsiniz. Ayrıca, web portalınıza kendi özel [markalamanızı](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) uygulayabilirsiniz. 
+İzinlerinize bağlı olarak, web portalındaki içeriği yönetebilirsiniz. Rapor işleme zamanlaması oluşturabilir, isteğe bağlı olarak raporlara erişebilir ve yayımlanan raporlara abone olabilirsiniz. Ayrıca, web portalınıza kendi özel [markalamanızı](/sql/reporting-services/branding-the-web-portal) uygulayabilirsiniz. 
 
-[Power BI Rapor Sunucusu web portalı](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode) hakkında daha fazla bilgi.
+[Power BI Rapor Sunucusu web portalı](/sql/reporting-services/web-portal-ssrs-native-mode) hakkında daha fazla bilgi.
 
 ## <a name="power-bi-reports"></a>Power BI raporları
 Rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümü ile Power BI raporları (.pbix) oluşturabilirsiniz. Sonra bu raporları kendi ortamınızdaki web portalında yayımlayabilir ve görüntüleyebilirsiniz.
@@ -56,17 +56,17 @@ Sayfalandırılmış raporlar (.rdl), görseller içeren ve içindeki tabloları
 
 ![Power BI Rapor Sunucusundaki sayfalandırılmış raporlar](media/get-started/paginated-reports.png)
 
-[SQL Server Veri Araçları'nda (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)[Rapor Oluşturucusu](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)'nu veya Rapor Tasarımcısı'nı kullanarak sayfalandırılmış raporlar oluşturabilirsiniz.
+[SQL Server Veri Araçları'nda (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)[Rapor Oluşturucusu](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016)'nu veya Rapor Tasarımcısı'nı kullanarak sayfalandırılmış raporlar oluşturabilirsiniz.
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services mobil raporları
 Mobil raporlar şirket içi verilere bağlanır ve farklı cihazlara ve cihazları nasıl tuttuğunuza göre uyum sağlayan farklı yöntemlere uyum sağlayan esnek bir düzene sahiptir. Bu raporları SQL Server Mobil Rapor Yayımcısı ile oluşturabilirsiniz.
 
-[Reporting Services mobil raporları](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) hakkında daha fazla bilgi. 
+[Reporting Services mobil raporları](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) hakkında daha fazla bilgi. 
 
 ## <a name="report-server-programming-features"></a>Rapor Sunucusu programlama özellikleri
 Özel uygulamalardaki veri ve rapor işleme süreçlerini tümleştirmeye veya genişletmeye yönelik API'lerle raporlarınızı genişletmek ve özelleştirmek için Power BI Rapor Sunucusu programlama özelliklerinden yararlanın.
 
-Diğer [Rapor Sunucusu geliştirici belgeleri](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
+Diğer [Rapor Sunucusu geliştirici belgeleri](/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  

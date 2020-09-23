@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252786"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860176"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
 
-- [İş zekası Ekim 2018’deki yenilikler](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) Microsoft Business Applications Grubu’nun sürüm notları: İş uygulamalarımızdaki en son güncelleştirmeler.
+- [İş zekası Ekim 2018’deki yenilikler](/business-applications-release-notes/October18/intelligence-platform/planned-features) Microsoft Business Applications Grubu’nun sürüm notları: İş uygulamalarımızdaki en son güncelleştirmeler.
 - [Power BI Desktop'taki yenilikler](desktop-latest-update.md)  
 - [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI ekibi blogu](https://powerbi.microsoft.com/blog/)
@@ -189,7 +189,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 *    Power BI raporlarını paylaşma ve sık kullanılanlara ekleme.
 *    Azure SQL Veritabanı ve Veri Ambarı için OAuth2 ve DirectQuery Çoklu Oturum Açma (SSO) Desteği.
 *    Bölge için denetim: Denetim günlükleri artık kiracı ile aynı Microsoft 365 bölgesinde depolanabilecek.
-*    SharePoint Online [Power BI raporu web bölümü](https://go.microsoft.com/fwlink/p/?LinkId=825698) genel kullanıma sunuldu.
+*    SharePoint Online [Power BI raporu web bölümü](../collaborate-share/service-embed-report-spo.md) genel kullanıma sunuldu.
 *    Bir kiracıdaki tüm kullanıcılar için Power BI görsellerinin görüntülenmesini kapatmaya yönelik yönetici denetimi.
 *    Azure Analysis Services (AAS) için zamanlanan yenileme desteği.
 
@@ -200,7 +200,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Yapay zeka destekli uygulama önerileri.
 * Pano kutucuğu üzerinde UI güncelleştirmeleri.
 * Uygulamalar için e-posta abonelikleri desteği. 
-* [Web'de yayımlama](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
+* [Web'de yayımlama](../admin/service-admin-portal.md#export-and-sharing-settings) için ayrıntılı yönetici denetimi.
 
 ### <a name="september-2017"></a>Eylül 2017
 * Premium kapasitede, panoları Power BI Pro lisansı olmayan kullanıcılara paylaştırma.
@@ -646,7 +646,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 * Bu haftanın hizmet güncelleştirmesi sayesinde yeni bir rapor oluştururken birden fazla sayfa boyutu arasından seçim yapabilir veya sayfa boyutunu kendiniz tanımlayabilirsiniz. Rapordaki sayfaların boyutu ve en boy oranı buradan kontrol edilir.
 * Görüntüler ve kabarcık grafikleri için daha fazla görsel biçimlendirme desteği ekledik. Görüntünün bozulmasını önlemek için yeniden boyutlandırma sırasında en boy oranını sabit tutabilirsiniz ve dağılım grafiği kabarcıkları dolu ya da boş olacak şekilde yapılandırılabilir.
 * Power BI, paylaşım davetlerini alternatif e-posta adreslerine de gönderir. Sizinle bir pano paylaşıldığında davet bağlantısını hem özgün e-posta adresinize hem de alternatif e-posta adresinize (yapılandırdıysanız) göndereceğiz.
-* Power BI, Dedicated on Multitenant (DonMT) Microsoft 365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Kiracı yöneticisi sizseniz [buradaki](https://go.microsoft.com/fwlink/?LinkId=627174) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
+* Power BI, Dedicated on Multitenant (DonMT) Microsoft 365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Kiracı yöneticisi sizseniz [buradaki](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
 * Azure Denetim Günlükleri, Azure aboneliğinizdeki işlem günlüklerini görüntülemenizi ve denetlemenizi sağlar. Power BI Azure Denetim Günlükleri içerik paketi, bu günlüklerde yer alan bilgileri kolayca çözümlemenize ve görselleştirmenize yardımcı olabilir. İçerik paketi verilerinize bağlanıp hazır panoları ve raporları kullanarak öngörüleri keşfetmenizi sağar. Daha fazla bilgi için [blog sayfamızı](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) ve [çevrimiçi belgeleri](../connect-data/service-connect-to-services.md) inceleyin.
 
 [Daha fazla bilgi için blog sayfamıza bakın](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
@@ -708,7 +708,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 * [Excel dosyalarının tamamını alma](../connect-data/service-excel-workbook-files.md): Artık OneDrive İş üzerinde depolanan herhangi bir Excel çalışma kitabını Power BI'a alarak Excel Online'daki gibi çalışma kitabının tamamını görüntüleyebilirsiniz.
 * [CSV dosyalarını alma](../connect-data/service-get-data-from-files.md): Excel veya Power BI Desktop dosyası gibi virgülle ayrılmış değerler (CSV) metin dosyası da Power BI panolarınızda ve raporlarınızda veri kümesi olarak kullanılabilir.
 * Excel, Power BI Desktop ve CSV dosyalarını değiştirme: Dosyanın güncelleştirilmiş sürümünü Power BI'a yükleyerek var olan veri kümesinin yerine kullanabilirsiniz. Bu veri kümesine bağlı olan tüm raporlar ve panolar otomatik olarak yeni sürümü kullanmaya başlar.
-* Bu haftaki Power BI güncelleştirmesinin [Visual Studio Online içerik paketi](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/) ile iş öğesi izleme olanağı sunduğunu duyurmaktan mutluluk duyuyoruz. Bu güncelleştirme iş öğelerinizde öngörüler sunan yeni bir pano, rapor ve güncelleştirilmiş veri kümesinin yanı sıra Git deponuz, çekme istekleri ve ilk sürüme dahil olan sürüm denetim içeriği hakkında önemli ölçümler sunmaktadır. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen [Power BI için Visual Studio Online içerik paketi yardım sayfasına](../connect-data/service-connect-to-quickbooks-online.md) bakın.
+* Bu haftaki Power BI güncelleştirmesinin [Visual Studio Online içerik paketi](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/) ile iş öğesi izleme olanağı sunduğunu duyurmaktan mutluluk duyuyoruz. Bu güncelleştirme iş öğelerinizde öngörüler sunan yeni bir pano, rapor ve güncelleştirilmiş veri kümesinin yanı sıra Git deponuz, çekme istekleri ve ilk sürüme dahil olan sürüm denetim içeriği hakkında önemli ölçümler sunmaktadır. Bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için lütfen [Power BI için Visual Studio Online içerik paketi yardım sayfasına](../connect-data/service-connect-to-services.md) bakın.
 
 **14 Temmuz 2015**
 
@@ -743,7 +743,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 
 **28 Mayıs 2015**
 
-* [İçerik paketimizi](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data) kullanarak QuickBooks Online hesabı verileriniz hakkında hızlı öngörülere ulaşın. Bağlantı kurmanıza ve bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için Power BI için QuickBooks Online içerik paketi [belgelerine](../connect-data/service-connect-to-quickbooks-online.md) bakın.
+* [İçerik paketimizi](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data) kullanarak QuickBooks Online hesabı verileriniz hakkında hızlı öngörülere ulaşın. Bağlantı kurmanıza ve bu özelliği kullanmaya başlamanıza yardımcı olacak bilgiler için Power BI için QuickBooks Online içerik paketi [belgelerine](../connect-data/service-connect-to-services.md) bakın.
 
 **13 Mayıs 2015**
 

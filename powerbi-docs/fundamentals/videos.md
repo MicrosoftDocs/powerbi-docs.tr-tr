@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 7848ac9539b324dd4b572445877297294dbe8236
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092234"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860061"
 ---
 # <a name="power-bi-videos"></a>Power BI videoları
 Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.com/user/mspowerbi/videos) ziyaret edebilirsiniz. Power BI'da yeni bir kullanıcıysanız [Analyze and Visualize data with Power BI (Power BI ile verileri çözümleme ve görselleştirme) oynatma listesiyle](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) başlangıç yapmak iyi bir fikir olabilir.
@@ -42,7 +42,7 @@ Power BI için bir YouTube kanalımız var! [Kanalımızı](https://www.youtube.
 ## <a name="more-videos"></a>Daha fazla video
 Daha fazla video için aşağıdaki kaynak ve içerik koleksiyonuna göz atın.
 
-* [[Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [[Power BI için Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI nedir?](power-bi-overview.md)

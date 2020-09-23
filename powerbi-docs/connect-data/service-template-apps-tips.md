@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235548"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860291"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -124,15 +124,15 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 Şablon uygulamaları AppSource’da yayımlanabilir; uygulamanızı AppSource’a göndermeden önce şu yönergeleri izleyin:
 
 * Şablon uygulamalarını, yükleyicinin uygulamanın neler yapabileceğini anlamasına yardımcı olacak ilgi çekici örnek verilerle oluşturduğunuzdan emin olun (boş rapor ve panolar onaylanmaz).
-Şablon uygulamaları yalnızca örnek veriler içeren uygulamaları destekler; statik uygulama onay kutusunu işaretlediğinizden emin olun. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+Şablon uygulamaları yalnızca örnek veriler içeren uygulamaları destekler; statik uygulama onay kutusunu işaretlediğinizden emin olun. [Daha fazla bilgi](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * Doğrulama ekibinin izleyeceği, verilere bağlanmak için gereken kimlik bilgilerini ve parametreleri de içeren yönergeler ekleyin.
-* Uygulamanın, Power BI'da ve CPP teklifinizde bir Uygulama simgesi içermesi gerekir. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Yapılandırılmış giriş sayfası. [Daha fazla bilgi](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* [İş ortağı merkezi -> Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) ile ilgili belgelere uyduğunuzdan emin olun.
+* Uygulamanın, Power BI'da ve CPP teklifinizde bir Uygulama simgesi içermesi gerekir. [Daha fazla bilgi](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Yapılandırılmış giriş sayfası. [Daha fazla bilgi](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* [İş ortağı merkezi -> Power BI Uygulama teklifi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) ile ilgili belgelere uyduğunuzdan emin olun.
 * Uygulamanızda bir pano varsa boş olmadığından emin olun.
 * Uygulamayı göndermeden önce uygulama bağlantısını kullanarak yükleyin; veri kümesini bağlayabildiğinizden ve uygulama deneyiminin planladığınız gibi olduğundan emin olun.
 * Şablon çalışma alanına pbix’i yüklemeden önce gereksiz tüm bağlantıları kaldırdığınızdan emin olun.
-* Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) izleyin.
+* Kullanıcılarınız üzerinde en fazla etkiyi yaratmak ve dağıtım onayı almak için Power BI'ın [Raporlar ve görseller için en iyi tasarım yöntemlerini](../visuals/power-bi-report-visualizations.md) izleyin.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>Uygulama için indirme bağlantısı oluşturma

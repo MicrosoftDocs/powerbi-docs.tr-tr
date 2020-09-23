@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204870"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860245"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -23,7 +23,7 @@ ms.locfileid: "88204870"
 * [Power BI hizmetindeki yenilikler](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>Ağustos 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>İçeriğinize gitme yönteminizi geliştirdik (iOS ve Android)
@@ -153,19 +153,19 @@ Power BI mobil uygulaması artık Power BI'da oluşturulan yer işaretlerini des
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Rapor Sunucusu erişim ayarlarının uzak yapılandırması için Android desteği
 
-Power BI mobil uygulamasının Rapor Sunucusu erişim ayarlarının uzak yapılandırması için Android desteği ekledik. BT yöneticileri artık bu ayarları hem iOS hem de Android cihazlarda uzaktan yapılandırmak için kuruluşunuzun MDM aracını kullanabilir. Ayrıntılar için bkz. [Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote).
+Power BI mobil uygulamasının Rapor Sunucusu erişim ayarlarının uzak yapılandırması için Android desteği ekledik. BT yöneticileri artık bu ayarları hem iOS hem de Android cihazlarda uzaktan yapılandırmak için kuruluşunuzun MDM aracını kullanabilir. Ayrıntılar için bkz. [Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
 ### <a name="cross-report-drillthrough"></a>Çapraz rapor detaylandırma
 
 Bu ay çapraz rapor detaylandırma desteği ekledik. Artık bir veri noktasına dokunup detaylandırma yaparak diğer raporlara ve rapor sayfalarına erişebilirsiniz. Detaylandırarak hedef sayfaya gittiğinizde ilgili sayfadaki içerikler de detaylandırma ayarlarına göre filtrelenir.
 
 > [!NOTE]
-> Çapraz rapor detaylandırma yalnızca rapor oluşturma sırasında etkinleştirilmişse kullanılabilir. [Çapraz rapor detaylandırma hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+> Çapraz rapor detaylandırma yalnızca rapor oluşturma sırasında etkinleştirilmişse kullanılabilir. [Çapraz rapor detaylandırma hakkında daha fazla bilgi edinin](../../create-reports/desktop-cross-report-drill-through.md).
 
 
 ### <a name="data-sensitivity-labels"></a>Veri duyarlılık etiketleri
 
-Artık içerik sahiplerinin veri duyarlılık sınıflandırması için raporlarda, panolarda, veri kümelerinde ve veri akışlarında belirledikleri duyarlılık etiketlerini görebilirsiniz. Duyarlılık etiketleri, içeriğin diğer kullanıcılarla nasıl paylaşılabileceğini belirler. [Power BI'daki veri duyarlılığı etiketleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+Artık içerik sahiplerinin veri duyarlılık sınıflandırması için raporlarda, panolarda, veri kümelerinde ve veri akışlarında belirledikleri duyarlılık etiketlerini görebilirsiniz. Duyarlılık etiketleri, içeriğin diğer kullanıcılarla nasıl paylaşılabileceğini belirler. [Power BI'daki veri duyarlılığı etiketleri hakkında daha fazla bilgi edinin](../../admin/service-security-data-protection-overview.md).
 
 ### <a name="support-for-custom-app-navigation-windows"></a>Özel uygulama gezintisi için destek (Windows)
 
@@ -190,7 +190,7 @@ Yeni görünüm önizleme aşamasında olduğundan, keyfini çıkarmak için aç
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure Active Directory (AD) Uygulama Ara Sunucusu ile güvenli erişim (iOS ve Android)
 
-Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (Azure AD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
+Azure Active Directory ekibiyle işbirliği yaparak Power BI mobil uygulamalarını Azure Active Directory (Azure AD) Uygulama Ara Sunucusu ile tümleştirdik. Bu yapılandırma ile, kurumsal sınırların içinde barındırılan Rapor Sunucusu’na, karmaşık şirket içi yapılandırmayı ayarlamanız gerekmeden Power BI Mobil uygulamasından bağlanabilirsiniz. [Power BI Mobil ve Azure AD Uygulaması Ara Sunucusu tümleştirmesi](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) bölümünden daha fazla bilgi edinebilirsiniz. [Azure AD Uygulaması Ara Sunucusunu ve Power BI’ı yapılandırmayı](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi) öğrenin.
 
 ## <a name="july-2019"></a>Temmuz 2019
 
@@ -228,11 +228,11 @@ Tek dokunma artık genel kullanıma sunuldu ve yeni kullanıcılar için varsay�
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Gelişmiş koşullu erişim koruması (iOS, Android)
 
-Uygulama ilkesi uygulanmadan önce Power BI'a erişimi sınırlayarak güvenliği artırmak için Azure AD [yeni uygulama koruması tabanlı koşullu erişim özelliğini](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) tümleştirdik.
+Uygulama ilkesi uygulanmadan önce Power BI'a erişimi sınırlayarak güvenliği artırmak için Azure AD [yeni uygulama koruması tabanlı koşullu erişim özelliğini](/azure/active-directory/conditional-access/app-protection-based-conditional-access) tümleştirdik.
 
 ### <a name="device-protection-ios"></a>Cihaz koruması (iOS)
 
-Kullanıcılar Power BI'ın güvenliğini sağlamak için cihazın yerleşik korumasını kullanabilir ve Power BI'a erişim için Face ID, Touch ID veya geçiş kodu sorulmasını sağlayabilir. Bu özellik kullanıcı tarafından uygulama ayarları kullanılarak denetlenebileceği gibi, yöneticiler tarafından Intune ve diğer herhangi bir MDM aracı kullanılarak da denetlenebilir. [Daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+Kullanıcılar Power BI'ın güvenliğini sağlamak için cihazın yerleşik korumasını kullanabilir ve Power BI'a erişim için Face ID, Touch ID veya geçiş kodu sorulmasını sağlayabilir. Bu özellik kullanıcı tarafından uygulama ayarları kullanılarak denetlenebileceği gibi, yöneticiler tarafından Intune ve diğer herhangi bir MDM aracı kullanılarak da denetlenebilir. [Daha fazla bilgi edinin](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>Tek sayfalı rapor Slayt Gösterisi (Windows)
 
@@ -274,7 +274,7 @@ Rapor etkileşiminde yaptığımız değişiklikle artık verileriyle hemen etki
 ![Tek dokunmayla etkileşim](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Mevcut kullanıcıların uygulama ayarında bu davranışı açması gerekecek. Daha fazla bilgi için [Tek dokunmayla rapor etkileşimini yapılandırma](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) makalesine bakın.
+> Mevcut kullanıcıların uygulama ayarında bu davranışı açması gerekecek. Daha fazla bilgi için [Tek dokunmayla rapor etkileşimini yapılandırma](./mobile-app-interaction-settings.md) makalesine bakın.
 
 ## <a name="january---february-2019"></a>Ocak - Şubat 2019
  
@@ -304,11 +304,11 @@ Surface Hub ve Windows 10 cihazları için gelişmiş sunu modu.  Geliştirilmi�
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Tabletlerde dikey rapor düzeni (iOS ve Android)
 
-Tablette dikey mod yönlendirmesinde rapor görüntülemek için artık mevcut olduğunda telefon raporu düzenini kullanıyoruz. [Power BI Hizmetinde veya Power BI Desktop'ta telefon düzeni oluşturma](https://docs.microsoft.com/power-bi/desktop-create-phone-report/) hakkındaki diğer yazıları okuyun.
+Tablette dikey mod yönlendirmesinde rapor görüntülemek için artık mevcut olduğunda telefon raporu düzenini kullanıyoruz. [Power BI Hizmetinde veya Power BI Desktop'ta telefon düzeni oluşturma](/power-bi/desktop-create-phone-report/) hakkındaki diğer yazıları okuyun.
 
 ### <a name="supporting-report-query-string"></a>Rapor sorgu dizesi desteği 
 
-Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulamada açılıyor ve sorgu dizesinde tanımlanan koşullar temelinde önceden filtreleniyor. [Sorgu dizesiyle rapor url'si oluşturma](https://docs.microsoft.com/power-bi/service-url-filters/) hakkında daha fazla bilgi edinin.  
+Sorgu dizesini içeren rapor bağlantısı açıldığında artık mobil uygulamada açılıyor ve sorgu dizesinde tanımlanan koşullar temelinde önceden filtreleniyor. [Sorgu dizesiyle rapor url'si oluşturma](/power-bi/service-url-filters/) hakkında daha fazla bilgi edinin.  
 
 ### <a name="shared-credentials-now-in-android"></a>Paylaşılan kimlik bilgileri (artık Android'de)
 

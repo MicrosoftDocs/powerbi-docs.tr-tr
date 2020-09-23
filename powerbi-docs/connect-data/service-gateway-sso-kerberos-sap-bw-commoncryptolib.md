@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3aa107dca6e4d1764bf8355eb0c79a8e113ee910
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231467"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860659"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib (sapcrypto.dll) kullanarak SSO için SAP BW’de Kerberos çoklu oturum açma kullanma
 
@@ -95,7 +95,7 @@ Power BI hizmetindeki raporu yenileyemiyorsanız, bu sorunu tanılamak olması i
 
 1. Sorunu yeniden üretin.
 
-2. [Ağ geçidi uygulamasını](https://docs.microsoft.com/data-integration/gateway/service-gateway-app) açın ve **Tanılama** sekmesinden **Günlükleri dışarı aktar**’ı seçin.
+2. [Ağ geçidi uygulamasını](/data-integration/gateway/service-gateway-app) açın ve **Tanılama** sekmesinden **Günlükleri dışarı aktar**’ı seçin.
 
       ![Ağ geçidi günlüklerini dışarı aktarma](media/service-gateway-sso-kerberos/export-gateway-logs.png)
 

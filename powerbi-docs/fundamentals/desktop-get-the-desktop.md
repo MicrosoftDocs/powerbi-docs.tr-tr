@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160223"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860222"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -38,7 +38,7 @@ Microsoft Store'dan Power BI Desktop'ın en son sürümüne birkaç yolla erişi
 
    - Tarayıcıyı açın ve doğrudan Microsoft Store'un [Power BI Desktop sayfasına](https://aka.ms/pbidesktopstore) gidin.
 
-    - [Power BI hizmetinde](https://docs.microsoft.com/power-bi/service-get-started), sağ üst köşedeki **İndir** simgesini seçin ve sonra da **Power BI Desktop**'ı seçin.
+    - [Power BI hizmetinde](./service-get-started.md), sağ üst köşedeki **İndir** simgesini seçin ve sonra da **Power BI Desktop**'ı seçin.
 
       ![Power BI Desktop’ı indirme seçeneğini gösteren Microsoft Store’un ekran görüntüsü.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ Power BI Desktop uygulamasını yükledikten sonra aşağıdaki içerik hızla �
 * [Power BI Desktop'ta veri kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'ta verilere bağlanma](../connect-data/desktop-connect-to-data.md)
 * [Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki genel sorgu görevleri](../transform-model/desktop-common-query-tasks.md)   
+* [Power BI Desktop'taki genel sorgu görevleri](../transform-model/desktop-common-query-tasks.md)

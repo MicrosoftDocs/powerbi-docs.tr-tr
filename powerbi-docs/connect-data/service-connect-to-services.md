@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236243"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860728"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI ile kullandığınız hizmetlere bağlanma
 Power BI ile, Salesforce, Microsoft Dynamics ve Google Analytics gibi, işletmenizde kullandığınız birçok hizmetle bağlantı kurabilirsiniz. Power BI, hizmete bağlanmak için sizin kimlik bilgilerinizi kullanarak başlar. Verilerinizi otomatik olarak gösteren ve işletmenizle ilgili görsel öngörüler sunan bir panoyu ve çeşitli Power BI raporlarını içeren bir Power BI *çalışma alanı* oluşturur.
 
 >[!IMPORTANT]
->Hizmet içerik paketleri [Şablon uygulamaları](https://docs.microsoft.com/power-bi/service-template-apps-overview) ile değiştiriliyor. 25 Eylül 2019’dan itibaren bir dizi içerik paketi zaten kullanım dışı bırakılmıştır. Yüklediğiniz tüm kullanım dışı içerik paketleri hesabınızda kalır, ancak bunlar için bir belge veya destek sağlanmaz ya da bunları yeniden yüklemek mümkün olmaz.
+>Hizmet içerik paketleri [Şablon uygulamaları](./service-template-apps-overview.md) ile değiştiriliyor. 25 Eylül 2019’dan itibaren bir dizi içerik paketi zaten kullanım dışı bırakılmıştır. Yüklediğiniz tüm kullanım dışı içerik paketleri hesabınızda kalır, ancak bunlar için bir belge veya destek sağlanmaz ya da bunları yeniden yüklemek mümkün olmaz.
 
 [Bağlantı kurabileceğiniz tüm hizmetleri](https://app.powerbi.com/getdata/services) görüntülemek için Power BI’da oturum açın. 
 

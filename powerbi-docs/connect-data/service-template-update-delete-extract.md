@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235623"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860544"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 
@@ -46,7 +46,7 @@ Power BI Desktop’ta değişiklikler yaptıysanız (1). adımdan başlayın. Po
 
    Bağlantınız artık canlıdır. **Üretim öncesi aşamada Uygulamayı yükselt düğmesinin gri olduğuna dikkat edin**. Bunun amacı, Bulut İş Ortağı Portalı yeni uygulama sürümünü doğrulayıp onaylamadan önce geçerli uygulama sürümünün canlı üretim bağlantısının yanlışlıkla üzerine yazmasını engellemektir.
 
-1. [Power BI Uygulama teklifi güncelleştirmesi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantınızı yeniden Bulut İş Ortağı Portalı'na (CPP) gönderin. Bulut İş Ortağı Portalı’nda teklifinizi tekrar **yayımlamanız** ve doğrulatıp onaylatmanız gerekir.
+1. [Power BI Uygulama teklifi güncelleştirmesi](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer) altındaki adımları izleyerek bağlantınızı yeniden Bulut İş Ortağı Portalı'na (CPP) gönderin. Bulut İş Ortağı Portalı’nda teklifinizi tekrar **yayımlamanız** ve doğrulatıp onaylatmanız gerekir.
 
    Teklifiniz onaylandığında Uygulamayı yükselt düğmesi yeniden etkin olur. 
 1. Uygulamanızı üretim aşamasına yükseltin.
@@ -84,4 +84,4 @@ Bir uygulama sürümü silindiğinde, artık çalışmayan uygulama url’si de 
 
 Müşterilerinizin şablon uygulamanızla nasıl etkileşim kurduğunu görmek için bkz. [Kuruluşunuzda şablon uygulamalarını yükleme, özelleştirme ve dağıtma](service-template-apps-install-distribute.md).
 
-Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+Uygulamanızı dağıtma işleminin ayrıntıları için bkz. [Power BI Uygulama teklifi](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).

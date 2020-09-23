@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008572"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854702"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -98,7 +98,7 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 
 Kapasite iş yükleri kullanıcılarının kullanımına sunulan hizmetlerdir. Varsayılan olarak, Premium ve Azure kapasiteleri yalnızca çalışan Power BI sorgularıyla ilişkili veri kümesi iş yüklerini destekler. Veri kümesi iş yükleri devre dışı bırakılamaz. [AI (Bilişsel Hizmetler)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Veri akışları](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) ve [Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirilebilir. Bu iş yükleri yalnızca Premium aboneliklerinde desteklenir. 
 
-Eklenen her iş yükünde, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasına (toplam kullanılabilir belleğin yüzdesi olarak) izin verilir. Maksimum bellek için varsayılan değerler SKU tarafından belirlenir. Bu ek iş yüklerini yalnızca kullanıldıklarında etkinleştirerek kapasitenizin kullanılabilir kaynaklarını en üst düzeye çıkarabilirsiniz. Ayrıca bellek ayarlarını yalnızca belirlenmiş varsayılan ayarlarınızın kapasite kaynak gereksinimlerinizi karşılamadığı durumlarda değiştirebilirsiniz. Bir kapasite için iş yükleri kapasite yöneticileri tarafından **Yönetim portalındaki**[Kapasite ayarları](service-admin-portal.md) veya [Kapasite REST API'leri](https://docs.microsoft.com/rest/api/power-bi/capacities) kullanılarak etkinleştirilebilir ve yapılandırılabilir.  
+Eklenen her iş yükünde, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasına (toplam kullanılabilir belleğin yüzdesi olarak) izin verilir. Maksimum bellek için varsayılan değerler SKU tarafından belirlenir. Bu ek iş yüklerini yalnızca kullanıldıklarında etkinleştirerek kapasitenizin kullanılabilir kaynaklarını en üst düzeye çıkarabilirsiniz. Ayrıca bellek ayarlarını yalnızca belirlenmiş varsayılan ayarlarınızın kapasite kaynak gereksinimlerinizi karşılamadığı durumlarda değiştirebilirsiniz. Bir kapasite için iş yükleri kapasite yöneticileri tarafından **Yönetim portalındaki**[Kapasite ayarları](service-admin-portal.md) veya [Kapasite REST API'leri](/rest/api/power-bi/capacities) kullanılarak etkinleştirilebilir ve yapılandırılabilir.  
 
 ![İş yüklerini etkinleştirme](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ Premium yatırımınızdan kullanıcılarınız için iyi performansı ve kendin
 
 ### <a name="capacities-rest-apis"></a>Kapasite REST API'leri
 
-Power BI REST API'leri bir [Kapasite API'leri](https://docs.microsoft.com/rest/api/power-bi/capacities) koleksiyonu içerir. Yöneticiler API'lerle Premium kapasitenizin çeşitli yönlerini programlı olarak yönetebilir. Örneğin iş yüklerini etkinleştirebilir ve devre dışı bırakabilir, kapasiteye çalışma alanları atayabilir ve daha birçok işlem yapabilirler.
+Power BI REST API'leri bir [Kapasite API'leri](/rest/api/power-bi/capacities) koleksiyonu içerir. Yöneticiler API'lerle Premium kapasitenizin çeşitli yönlerini programlı olarak yönetebilir. Örneğin iş yüklerini etkinleştirebilir ve devre dışı bırakabilir, kapasiteye çalışma alanları atayabilir ve daha birçok işlem yapabilirler.
 
 ## <a name="large-datasets"></a>Büyük veri kümeleri
 
@@ -252,5 +252,3 @@ Daha fazla bilgi için bkz. [XMLA uç noktasıyla veri kümesi bağlantısı](se
 > [Premium kapasiteleri yönetme](service-premium-capacity-manage.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-

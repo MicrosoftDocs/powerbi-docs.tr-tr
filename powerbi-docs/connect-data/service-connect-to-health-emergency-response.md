@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230133"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854242"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Hastanede Acil Durum Yanıtlamada Karar Desteği Panosuna Bağlanma
 Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu şablon uygulaması, [Sağlık hizmetlerinde acil müdahale için Microsoft Power Platform çözümünün](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/) raporlama bileşenidir. Sağlık sistemleri genelindeki verileri toplayan bu pano, acil durum yöneticilerinin zamanında ve doğru kararlar almasına yardımcı olur.
 
 ![Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu uygulama raporu](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-Bu makalede, uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Bu uygulamada göreceğiniz raporu kullanmayı öğrenmek için bkz. [Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu belgeleri](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
+Bu makalede, uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Bu uygulamada göreceğiniz raporu kullanmayı öğrenmek için bkz. [Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu belgeleri](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard).
 
 Şablon uygulamasını yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçlarınıza göre özelleştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza bir uygulama olarak dağıtabilirsiniz.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu şablon uygulamasını yüklemeden önce [Hastane Acil Durum Yanıtı Power Platform çözümünü](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
+Bu şablon uygulamasını yüklemeden önce [Hastane Acil Durum Yanıtı Power Platform çözümünü](/powerapps/sample-apps/emergency-response/deploy-configure) yükleyip ayarlamanız gerekir. Bu çözüm yüklendiğinde, uygulamayı verilerle doldurmak için gereken veri kaynağı başvuruları oluşturulur.
 
-Hastane Acil Durum Yanıtı Power Platform çözümünü yüklerken [Common Data Service ortam örneğinizin URL’sini](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) not edin. Şablon uygulamasını verilere bağlamak için bu URL’ye ihtiyacınız olacak.
+Hastane Acil Durum Yanıtı Power Platform çözümünü yüklerken [Common Data Service ortam örneğinizin URL’sini](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) not edin. Şablon uygulamasını verilere bağlamak için bu URL’ye ihtiyacınız olacak.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -66,7 +66,7 @@ Hastane Acil Durum Yanıtı Power Platform çözümünü yüklerken [Common Data
 
 1. İletişim kutusunda:
    1. Kuruluş adı alanına kuruluşunuzun adını (ör. “Contoso Sağlık Sistemleri”) girin. Bu alan isteğe bağlıdır. Bu ad, panonun sol üst kısmında görünür.
-   1. CDS_base_solution alanına [Common Data Service ortam örneğinizin URL’sini](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) yazın. Örneğin: https://[myenv].crm.dynamics.com. İşiniz bittiğinde **İleri**’ye tıklayın.
+   1. CDS_base_solution alanına [Common Data Service ortam örneğinizin URL’sini](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard) yazın. Örneğin: https://[myenv].crm.dynamics.com. İşiniz bittiğinde **İleri**’ye tıklayın.
 
    ![Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu uygulaması, URL iletişim kutusu](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ Veri yenileme tamamlandığında, raporu güncel tutmak için [yenileme zamanlam
 Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app). Uygulamayı yayımlamadan veya dağıtmadan önce [rapor sorumluluk reddini](../create-reports/sample-covid-19-us.md#disclaimers) gözden geçirdiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Hastane Acil Durum Yanıtı raporunu anlama](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Hastane Acil Durum Yanıtı raporunu anlama](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [Power Apps’teki Kriz İletişimi örnek şablonunu ayarlama ve bunun hakkında bilgi edinme](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 * [Power BI şablon uygulamaları nedir?](../connect-data/service-template-apps-overview.md)
 * [Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma](../connect-data/service-template-apps-install-distribute.md)

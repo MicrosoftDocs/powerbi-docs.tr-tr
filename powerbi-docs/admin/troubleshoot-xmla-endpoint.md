@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363974"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854093"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -138,11 +138,11 @@ Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetikler
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>TMSL Yenileme komutunda geçersiz kılmalar
 
-[Yenileme komutundaki (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) geçersiz kılmalar kullanıcıların yenileme işlemi için sorgu tanımının veya veri kaynağı tanımının farklı bölümlerini seçmesine olanak tanır. Şu anda Power BI Premium'da **geçersiz kılmalar desteklenmez**. "Power BI Premium'da sıradışı bağlamaya izin verilmez. Ek bilgi için ürün bilgilerinde 'XMLA okuma/yazma desteği' konusuna bakın." hatası döndürülür.
+[Yenileme komutundaki (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) geçersiz kılmalar kullanıcıların yenileme işlemi için sorgu tanımının veya veri kaynağı tanımının farklı bölümlerini seçmesine olanak tanır. Şu anda Power BI Premium'da **geçersiz kılmalar desteklenmez**. "Power BI Premium'da sıradışı bağlamaya izin verilmez. Ek bilgi için ürün bilgilerinde 'XMLA okuma/yazma desteği' konusuna bakın." hatası döndürülür.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
 [Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme](service-premium-service-principal.md)   
 [Excel’de Analiz özelliği ile ilgili sorunları giderme](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Tablolu model çözümü dağıtımı](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[Tablolu model çözümü dağıtımı](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

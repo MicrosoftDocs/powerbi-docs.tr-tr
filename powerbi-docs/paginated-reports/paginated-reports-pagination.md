@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921252"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859716"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarında sayfalandırma
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921252"
   
  Sayfa boyutu, varsayılan olarak 21,59 x 27,94 santimetredir. Ancak, bu boyutu **Rapor Özellikleri** bölmesinden, **Sayfa Düzeni** iletişim kutusundan veya **Özellikler** bölmesindeki PageHeight ve PageWidth özelliklerini değiştirerek ayarlayabilirsiniz. Sayfa boyutu, rapor gövdesinin içeriklerine uyum sağlayacak şekilde büyümez veya küçülmez. Raporun tek bir sayfada görünmesini istiyorsanız, rapor gövdesindeki tüm içeriklerin fiziksel sayfaya sığması gerekir. Sabit sayfa sonlu biçimi kullanıyorsanız ve içerikler sığmıyorsa, rapora ek sayfa eklenmesi gerekir. Rapor gövdesi fiziksel sayfanın sağ kenarından dışarı taşarsa, sayfa sonu yatay olarak eklenir. Rapor gövdesi fiziksel sayfanın alt kenarından dışarı taşarsa, sayfa sonu dikey olarak eklenir.  
   
- Raporda tanımlanan fiziksel sayfa boyutunu geçersiz kılmak istiyorsanız, raporu dışarı aktarmak için kullandığınız işleyiciye yönelik Cihaz Bilgisi ayarlarını kullanarak fiziksel sayfa boyutunu belirtebilirsiniz. Tam liste için SQL Server Reporting Services belgelerindeki [İşleme Uzantıları için Cihaz Bilgisi Ayarları](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) bölümüne bakın.  
+ Raporda tanımlanan fiziksel sayfa boyutunu geçersiz kılmak istiyorsanız, raporu dışarı aktarmak için kullandığınız işleyiciye yönelik Cihaz Bilgisi ayarlarını kullanarak fiziksel sayfa boyutunu belirtebilirsiniz. Tam liste için SQL Server Reporting Services belgelerindeki [İşleme Uzantıları için Cihaz Bilgisi Ayarları](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services) bölümüne bakın.  
   
 ### <a name="margins"></a>Kenar boşlukları
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921252"
   
  Disabled ve ResetPageNumber özelliklerinin değerlerini ayarlamak için sabitlerin yanı sıra basit ve karmaşık ifadeleri de kullanabilirsiniz. Ancak, BreakLocation özelliği ile ifade kullanamazsınız. İfadeleri yazma ve kullanma hakkında daha fazla bilgi edinmek için bkz. [Power BI Rapor Oluşturucusu’ndaki ifadeler](report-builder-expressions.md).  
   
- Raporunuzda, **Globals** koleksiyonunu kullanarak mevcut sayfa adlarına veya sayfa numaralarına başvuran ifadeleri yazabilirsiniz. Daha fazla bilgi için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Yerleşik Genel Değişkenler ve Kullanıcı Başvuruları](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) bölümüne bakın.
+ Raporunuzda, **Globals** koleksiyonunu kullanarak mevcut sayfa adlarına veya sayfa numaralarına başvuran ifadeleri yazabilirsiniz. Daha fazla bilgi için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Yerleşik Genel Değişkenler ve Kullanıcı Başvuruları](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder) bölümüne bakın.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Excel çalışma sayfası sekmelerini adlandırma
 
  Bu özellikler, raporları Excel çalışma kitapları olarak dışarı aktardığınızda yararlı olur. Raporu dışarı aktarırken çalışma sayfası sekmesi için bir varsayılan ad belirtmek amacıyla InitialPage özelliğini, her çalışma sayfası için farklı adlar sağlamak amacıyla da sayfa sonlarını ve PageName özelliğini kullanın. Sayfa sonuyla tanımlanan her yeni rapor sayfası, PageName özelliğinin değeriyle adlandırılan farklı bir çalışma sayfasına aktarılır. PageName özelliği boş olmasına rağmen raporun ilk sayfa adı bulunuyorsa, Excel çalışma kitabındaki tüm çalışma sayfaları aynı adı (ilk sayfa adını) kullanır.  
   
- Raporlar Excel’e aktarıldığında bu özelliklerin nasıl çalıştığı hakkında daha fazla bilgi edinmek için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Microsoft Excel’e Aktarma](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) bölümüne bakın.  
+ Raporlar Excel’e aktarıldığında bu özelliklerin nasıl çalıştığı hakkında daha fazla bilgi edinmek için, Rapor Oluşturucusu ve Reporting Services belgelerindeki [Microsoft Excel’e Aktarma](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) bölümüne bakın.  
   
 ## <a name="next-steps"></a>Sonraki adımlar
 

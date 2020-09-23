@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332326"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860567"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Öğretici: Power BI ile bir GitHub deposuna bağlanma
 Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şunlar gibi soruların cevaplarını görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer sorular. 
@@ -39,7 +39,7 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
 
 Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabınız olması gerekir. 
 
-- [GitHub hesabına](https://docs.microsoft.com/contribute/get-started-setup-github) kaydolun.
+- [GitHub hesabına](/contribute/get-started-setup-github) kaydolun.
 
 
 ## <a name="how-to-connect"></a>Bağlanma
@@ -139,5 +139,3 @@ Bu öğreticide, bir GitHub genel deposuna bağlandınız ve Power BI’ın biç
  
 > [!div class="nextstepaction"]
 > [Kullandığınız çevrimiçi hizmetlere bağlanma](service-connect-to-services.md)
-
-

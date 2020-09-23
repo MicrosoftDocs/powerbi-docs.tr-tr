@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3539da05aed1fda28ca6e93c96e1e2f7793c3d6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878496"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860107"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop’ta Yapay Zeka İçgörüleri’ni kullanma
 
@@ -40,10 +40,10 @@ Power BI'da Metin Analizi ve Görüntü İşleme'yle, Power Query'de verileri ze
 
 Bugün desteklenen hizmetler şunlardır:
 
-* [Yaklaşım Analizi](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
-* [Anahtar İfade Ayıklama](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
-* [Dil Algılama](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
-* [Resim Etiketleme](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). 
+* [Yaklaşım Analizi](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
+* [Anahtar İfade Ayıklama](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
+* [Dil Algılama](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
+* [Resim Etiketleme](/azure/cognitive-services/computer-vision/concept-tagging-images). 
 
 Dönüştürmeler Power BI hizmetinde yürütülür ve Azure Bilişsel Hizmetler aboneliği gerekmez. 
 
@@ -63,7 +63,7 @@ Bu bölümde Power BI'da Bilişsel Hizmetler'le kullanılabilen işlevler açık
 
 Dil algılama işlevi metin girişini değerlendirir ve her alan için dil adını ve ISO tanımlayıcısını döndürür. Bu işlev dilin bilinmediği rastgele metinleri toplayan veri sütunlarında kullanışlıdır. İşlev, giriş olarak metin biçiminde veriler bekler.
 
-Metin Analizi 120 dile kadar tanır. Daha fazla bilgi için [desteklenen dillere](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages) bakın.
+Metin Analizi 120 dile kadar tanır. Daha fazla bilgi için [desteklenen dillere](/azure/cognitive-services/text-analytics/text-analytics-supported-languages) bakın.
 
 #### <a name="extract-key-phrases"></a>Anahtar ifadeleri ayıklama
 
@@ -79,7 +79,7 @@ Metin Analizi'nde 0 ile 1 arasında bir yaklaşım puanı oluşturmak için maki
 
 Yaklaşım analizi, metindeki belirli bir varlığın yaklaşımını ayıklamak yerine giriş alanının tamamında gerçekleştirilir. Uygulamada, büyük metin blokları yerine bir veya iki tümce içeren belgelerde puanlama doğruluğu gelişme eğilimi gösterir. Nesnellik değerlendirmesi aşamasında, model bir bütün olarak giriş alanının nesnel olduğunu veya yaklaşım içerdiğini saptar. Büyük ölçüde nesnel olan bir giriş alanı yaklaşım algılama aşamasına ilerletilmez; sonuçta 0,50 puan alır ve başka işlem yapılmaz. İşlem hattında ilerleyen giriş alanları için, sonraki aşamada giriş alanında algılanan yaklaşımın derecesine bağlı olarak 0,50'nin üstünde veya altında bir puan oluşturulur.
 
-Şu anda Yaklaşım Analizi İngilizce, Almanca, İspanyolca ve Fransızcayı desteklemektedir. Diğer diller önizleme aşamasındadır. Daha fazla bilgi için [desteklenen dillere](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages) bakın.
+Şu anda Yaklaşım Analizi İngilizce, Almanca, İspanyolca ve Fransızcayı desteklemektedir. Diğer diller önizleme aşamasındadır. Daha fazla bilgi için [desteklenen dillere](/azure/cognitive-services/text-analytics/text-analytics-supported-languages) bakın.
 
 #### <a name="tag-images"></a>Resimleri etiketleme
 
@@ -87,7 +87,7 @@ Yaklaşım analizi, metindeki belirli bir varlığın yaklaşımını ayıklamak
 
 Resmi karşıya yükledikten veya resim URL'sini belirttikten sonra, Görüntü İşleme algoritmaları resimde tanımlanan nesnelere, canlılara ve eylemlere dayanarak etiketlerin çıkışını yapar. Etiketleme ön plandaki kişi gibi ana konuyla sınırlı değildir; ortamı (iç mekan veya dış mekan), mobilyaları, araçları, bitkileri, hayvanları, aksesuarları ve gereçleri de içerir.
 
-Bu işleve giriş olarak bir resim URL'si ve base-64 alanı gerekir. Şu anda resim etiketleme İngilizce, İspanyolca, Japonca, Portekizce ve Basitleştirilmiş Çinceyi desteklemektedir. Daha fazla bilgi için [desteklenen dillere](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters) bakın.
+Bu işleve giriş olarak bir resim URL'si ve base-64 alanı gerekir. Şu anda resim etiketleme İngilizce, İspanyolca, Japonca, Portekizce ve Basitleştirilmiş Çinceyi desteklemektedir. Daha fazla bilgi için [desteklenen dillere](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters) bakın.
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>Power Query'de Metin Analizi veya Görüntü İşleme işlevleri
 
@@ -162,8 +162,8 @@ Veri akışları hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self
 
 Azure Machine Learning hakkında daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
-- Genel Bakış: [Azure Machine Learning nedir?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning için Hızlı Başlangıçlar ve Öğreticiler: [Azure Machine Learning Belgeleri](https://docs.microsoft.com/azure/machine-learning/)
+- Genel Bakış: [Azure Machine Learning nedir?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning için Hızlı Başlangıçlar ve Öğreticiler: [Azure Machine Learning Belgeleri](/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Azure ML modeline erişim verme
 
@@ -172,7 +172,7 @@ Power BI'dan Azure ML modeline erişmek için, kullanıcının Azure aboneliğin
 - Machine Learning Studio (klasik) modelleri için, Machine Learning Studio (klasik) web hizmetine **Okuma** erişiminiz olmalıdır
 - Machine Learning modelleri için, Machine Learning çalışma alanına **Okuma** erişiminiz olmalıdır
 
-Bu bölümdeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barındırılan model üzerinde erişim verme işlemi açıklanır. Bu sayede bu modele bir Power Query işlevi olarak erişebilirler. Diğer ayrıntılar için bkz. [RBAC'yi ve Azure portalını kullanarak erişimi yönetme](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
+Bu bölümdeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barındırılan model üzerinde erişim verme işlemi açıklanır. Bu sayede bu modele bir Power Query işlevi olarak erişebilirler. Diğer ayrıntılar için bkz. [RBAC'yi ve Azure portalını kullanarak erişimi yönetme](/azure/role-based-access-control/role-assignments-portal).
 
 1. [Azure portalında](https://portal.azure.com/) oturum açın.
 2. **Abonelikler** sayfasına gidin. **Abonelikler** sayfasını, Azure portalının sol gezinti menüsündeki **Tüm Hizmetler** listesi aracılığıyla bulabilirsiniz.
@@ -186,7 +186,7 @@ Bu bölümdeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barınd�
 
 Veri bilimcileri Machine Learning için makine öğrenmesi modellerini geliştirir hatta dağıtırken öncelikli olarak Python kullanır. Model için şema dosyası oluşturma görevini otomatikleştirmenize yardımcı olan Machine Learning Studio'dan (klasik) farklı olarak, Machine Learning'de veri bilimcisinin Python kullanarak şema dosyasını açıkça oluşturması gerekir.
 
-Bu şema dosyası, Machine Learning modelleri için dağıtılan web hizmetine dahil edilmelidir. Şemayı web hizmeti için otomatik olarak oluşturmak isterseniz, dağıtılan modelin giriş betiğinde bir giriş/çıkış örneği sağlamalısınız. Lütfen [Azure Machine Learning hizmeti belgelerine sahip Dağıtım modellerindeki Otomatik Swagger şema oluşturma alt bölümüne (İsteğe bağlı)](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) bakın. Bu bağlantı, şema oluşturma deyimlerine sahip örnek giriş betiğini içerir.
+Bu şema dosyası, Machine Learning modelleri için dağıtılan web hizmetine dahil edilmelidir. Şemayı web hizmeti için otomatik olarak oluşturmak isterseniz, dağıtılan modelin giriş betiğinde bir giriş/çıkış örneği sağlamalısınız. Lütfen [Azure Machine Learning hizmeti belgelerine sahip Dağıtım modellerindeki Otomatik Swagger şema oluşturma alt bölümüne (İsteğe bağlı)](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) bakın. Bu bağlantı, şema oluşturma deyimlerine sahip örnek giriş betiğini içerir.
 
 Özellikle, giriş betiğindeki _@input\_schema_ ve _@output\_schema_ işlevleri, _input\_sample_ ve _output\_sample_ değişkenlerindeki giriş ve çıkış örneği biçimlerine başvurur ve dağıtım sırasında web hizmeti için bir OpenAPI (Swagger) belirtimi oluşturmak üzere bu örnekleri kullanır.
 

@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221756"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853805"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI raporlarını mobil uygulama için iyileştirme
 Mobil kullanıcılar bir Power BI rapor sayfasını yatay yönlendirmede görüntüleyebilir. Ancak rapor yazarları, mobil cihazlar için iyileştirilmiş ek bir görünüm oluşturabilir ve dikey yönlendirmede görüntüleyebilirler. Hem Power BI Desktop’ta hem de Power BI hizmetinde kullanılabilir olan bu tasarım seçeneği, yazarların yalnızca hareket halindeki mobil kullanıcılar için anlamlı olan bu görselleri seçip yeniden düzenlemesine olanak verir.
@@ -119,5 +120,5 @@ Yalnızca bazı sayfaları iyileştirirseniz iyileştirilmemiş bir sayfaya geld
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da bir panonun telefon görünümünü oluşturma](service-create-dashboard-mobile-phone-view.md).
 * [View Power BI reports optimized for your phone (Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme)](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Raporlar ve panolar oluşturmaya yönelik Power BI belgeleri](https://docs.microsoft.com/power-bi/create-reports/).
+* [Raporlar ve panolar oluşturmaya yönelik Power BI belgeleri](./index.yml).
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/).

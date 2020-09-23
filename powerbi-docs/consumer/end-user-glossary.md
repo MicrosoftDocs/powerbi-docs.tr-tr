@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803055"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860866"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI hizmetinin iş kullanıcılarına yönelik sözlük    
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -97,7 +97,7 @@ Power BI hizmeti içeriği genellikle panolar, raporlar ve uygulamalardır. Ayr�
 Bir uygulamanın içerik dizini.
 
 **content pack (içerik paketi)**     
- Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Bunlar **uygulamalar** ile değiştiriliyor. [Yeni çalışma alanı deneyimi hakkında](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) bilgi edinin. 
+ Önceden paketlenmiş veri kümeleri, raporlar ve panolar koleksiyonu. Bunlar **uygulamalar** ile değiştiriliyor. [Yeni çalışma alanı deneyimi hakkında](../collaborate-share/service-create-the-new-workspaces.md) bilgi edinin. 
 
 **content view (içerik görünümü)**
 

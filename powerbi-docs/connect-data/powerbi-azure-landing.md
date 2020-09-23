@@ -9,12 +9,12 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: dca45ed9719dfa8d6f17001407835282049382ab
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4278b59576466942991fef710f8864b5c0a1391c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347482"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860774"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure kullanıcıları için Power BI 
 
@@ -74,9 +74,9 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                     <div class="cardText"> 
                                           <h3>Diğer Azure hizmetlerinden verileri analiz etme</h3> 
                                           <p></p>
-                                                <a href="https://docs.microsoft.com/azure/stream-analytics/stream-analytics-power-bi-dashboard">Azure Stream Analytics'e bağlanma</a><br/> 
-                                                <a href="https://docs.microsoft.com/azure/cosmos-db/powerbi-visualize">Cosmos DB verilerini görselleştirme</a><br/> 
-                                                <a href="https://docs.microsoft.com/azure/data-explorer/visualize-power-bi">Azure Veri Gezgini verilerini görselleştirme</a>
+                                                <a href="/azure/stream-analytics/stream-analytics-power-bi-dashboard">Azure Stream Analytics'e bağlanma</a><br/> 
+                                                <a href="/azure/cosmos-db/powerbi-visualize">Cosmos DB verilerini görselleştirme</a><br/> 
+                                                <a href="/azure/data-explorer/visualize-power-bi">Azure Veri Gezgini verilerini görselleştirme</a>
                                     </div> 
                               </div> 
                         </div> 
