@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239817"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853309"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)
 
@@ -45,7 +45,7 @@ Aşağıdaki diyagramda, Power BI veri akışı tarafından oluşturulan, üç v
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI, veri gölünde CDM klasörlerini düzenler
 
-Power BI veri akışları ve ADLS 2. Nesil ile tümleştirmesi sayesinde Power BI, bir veri gölünde veri üretebilir. Power BI bir veri üreticisi olarak, model.json dosyasını ve ilişkili veri dosyalarını içeren her veri akışı için bir CDM klasörü oluşturmalıdır. Power BI, *dosya sistemlerini* kullanarak veri gölünde diğer veri üreticilerinden yalıtılmış olarak verilerini depolar. Azure Data Lake Storage 2. Nesil dosya sistemi ve hiyerarşik ad alanı hakkında, [onları açıklayan makaleden](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace) daha fazla bilgi edinebilirsiniz.
+Power BI veri akışları ve ADLS 2. Nesil ile tümleştirmesi sayesinde Power BI, bir veri gölünde veri üretebilir. Power BI bir veri üreticisi olarak, model.json dosyasını ve ilişkili veri dosyalarını içeren her veri akışı için bir CDM klasörü oluşturmalıdır. Power BI, *dosya sistemlerini* kullanarak veri gölünde diğer veri üreticilerinden yalıtılmış olarak verilerini depolar. Azure Data Lake Storage 2. Nesil dosya sistemi ve hiyerarşik ad alanı hakkında, [onları açıklayan makaleden](/azure/storage/data-lake-storage/namespace) daha fazla bilgi edinebilirsiniz.
 
 Power BI, belirsizliği önlemek ve **Power BI hizmetinde** sunulduğunda verilerin geliştirilmiş düzenlemesini sağlamak için alt klasörleri kullanır. Klasör adlandırması ve yapısı, çalışma alanlarını (Klasörler) ve veri akışlarını (CDM Klasörleri) temsil eder. Aşağıdaki diyagramda, Power BI ve diğer veri üreticileri tarafından paylaşılan bir veri gölünün nasıl yapılandırılmış olabileceği gösterilmektedir. Her bir hizmet (bu durumda Dynamics 365, Dynamics for Finance and Operation ve Power BI) kendi dosya sistemini oluşturur ve korur. Her bir hizmetteki deneyime bağlı olarak, dosya sistemi içinde CDM klasörlerini daha iyi düzenlemek için alt klasörler oluşturulur. 
 
@@ -61,12 +61,12 @@ Power BI dosya sistemi içinde CDM klasörleri oluşturmak ve yönetmek için, d
 
 Active Directory OAuth Bearer belirteçleri ve POSIX ACL’leri sayesinde CDM klasörlerinin, verileri okuması gereken kullanıcılar veya hizmetler gibi veri tüketicileriyle paylaşılması kolaylaştırılmıştır. Böylece yöneticilerin CDM klasörüne kimin eriştiğini izleyebilmesi sağlanır. Gereken tek işlem, istediğiniz Active Directory nesnesine (örn. bir kullanıcı grubu veya hizmet) CDM Klasörüne erişme izni vermektir. Veri üreticisi dışındaki tüm kimlikler için CDM klasörüne yönelik tüm erişim izinlerinin salt okunur erişim izni olarak verilmesini öneririz. Böylece, üreticinin oluşturduğu verilerin bütünlüğü korunur.
 
-Power BI’a CDM klasörleri eklemek için, CDM Klasörünü ekleyen kullanıcının hem CDM klasörü üzerinde hem de onun içindeki tüm dosyalar ve klasörler üzerinde *Okuma* Erişimi ACL’lerine sahip olması gerekir. Ayrıca, hem CDM klasörü üzerinde hem de onun içindeki tüm klasörler üzerinde *Yürütme* Erişimi ACL’leri de gerekir. Daha fazla bilgi için hem [Dosyalarda ve dizinde erişim denetim listeleri](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) hem de [Azure Data Lake Storage 2. Nesil kullanımına yönelik en iyi yöntemler](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) makalesini gözden geçirmeniz önerilir.
+Power BI’a CDM klasörleri eklemek için, CDM Klasörünü ekleyen kullanıcının hem CDM klasörü üzerinde hem de onun içindeki tüm dosyalar ve klasörler üzerinde *Okuma* Erişimi ACL’lerine sahip olması gerekir. Ayrıca, hem CDM klasörü üzerinde hem de onun içindeki tüm klasörler üzerinde *Yürütme* Erişimi ACL’leri de gerekir. Daha fazla bilgi için hem [Dosyalarda ve dizinde erişim denetim listeleri](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) hem de [Azure Data Lake Storage 2. Nesil kullanımına yönelik en iyi yöntemler](/azure/storage/blobs/data-lake-storage-best-practices) makalesini gözden geçirmeniz önerilir.
 
 
 ### <a name="alternative-forms-of-authorization"></a>Alternatif yetkilendirme biçimleri
 
-Power BI dışındaki kişiler veya hizmetler de alternatif yetkilendirme biçimlerinden yararlanabilir. Bu alternatifler, hesaptaki *tüm* kaynaklara temel erişimi olan kişilerin göldeki tüm kaynaklara tam erişim elde etmesine izin verir ve dosya sistemlerine ya da CDM Klasörlerine bunların kapsamı belirlenemez. Bu alternatifler, erişim izni vermenin basit yolları olabilir, ancak veri gölündeki belirli kaynakları paylaşma yeteneğini sınırlar ve kullanıcılara, depolama alanına erişen kişilerin denetimini sağlamaz. Kullanılabilir yetkilendirme şemalarının tüm ayrıntıları [Azure Data Lake Storage 2. Nesil’de erişim denetimi makalesinde](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Power BI dışındaki kişiler veya hizmetler de alternatif yetkilendirme biçimlerinden yararlanabilir. Bu alternatifler, hesaptaki *tüm* kaynaklara temel erişimi olan kişilerin göldeki tüm kaynaklara tam erişim elde etmesine izin verir ve dosya sistemlerine ya da CDM Klasörlerine bunların kapsamı belirlenemez. Bu alternatifler, erişim izni vermenin basit yolları olabilir, ancak veri gölündeki belirli kaynakları paylaşma yeteneğini sınırlar ve kullanıcılara, depolama alanına erişen kişilerin denetimini sağlamaz. Kullanılabilir yetkilendirme şemalarının tüm ayrıntıları [Azure Data Lake Storage 2. Nesil’de erişim denetimi makalesinde](/azure/storage/blobs/data-lake-storage-access-control
 ) sağlanmıştır.
 
 
@@ -88,12 +88,12 @@ Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 * [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
-* [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Depolama güvenlik kılavuzu](/azure/storage/common/storage-security-guide)
 * [Azure Veri Hizmetleri’nden github örneklerini kullanmaya başlama](https://aka.ms/cdmadstutorial)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
+* [CDM klasörleri](/common-data-model/data-lake)
+* [CDM model dosyası tanımı](/common-data-model/model-json)
 
 Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

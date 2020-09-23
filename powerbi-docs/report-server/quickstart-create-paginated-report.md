@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236321"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853552"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma
 Bu makalede Power BI Rapor Sunucusu için birkaç kolay adımda sayfalandırılmış rapor oluşturacaksınız.
@@ -60,7 +60,7 @@ Grafik sihirbazının **Veri kümesi seçin** adlı ilk sayfasında veri kümesi
    
     ![Grafik Sihirbazı: Veri kümesi seçme](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     Veri kümesi oluşturmanız mı gerekiyor? Bkz. [Paylaşılan veya eklenen bir veri kümesi oluşturma](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
+     Veri kümesi oluşturmanız mı gerekiyor? Bkz. [Paylaşılan veya eklenen bir veri kümesi oluşturma](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Bir grafik türü (bu örnekte, çubuk grafik) seçin.
    
     ![Grafik Sihirbazı: Grafik türü](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ Grafik sihirbazının **Veri kümesi seçin** adlı ilk sayfasında veri kümesi
 
 Düzeni, değerleri veya açıklamayı değiştirerek (hemen hemen istediğiniz her değişikliği yaparak), oluşturduğunuz grafiği değiştirebilirsiniz.
 
-Ayrıca diğer her türlü görselleştirmeyi ekleyebilirsiniz: ölçerler, tablolar, matrisler, haritalar ve daha fazlası... Birden fazla sayfa için üst bilgi ve altbilgi ekleyebilirsiniz. Bu işlemleri kendi başınıza denemek için bkz. [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials).
+Ayrıca diğer her türlü görselleştirmeyi ekleyebilirsiniz: ölçerler, tablolar, matrisler, haritalar ve daha fazlası... Birden fazla sayfa için üst bilgi ve altbilgi ekleyebilirsiniz. Bu işlemleri kendi başınıza denemek için bkz. [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](/sql/reporting-services/report-builder-tutorials).
 
 ![Rapor Oluşturucusu Tasarım görünümü](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ Raporunuz hazır olduğunda bu raporu Power BI Rapor Sunucusu'na kaydedin.
 ## <a name="next-steps"></a>Sonraki adımlar
 SQL Server Veri Araçları'nı kullanarak Rapor Oluşturucusu'nda ve Rapor Tasarımcısı'nda rapor oluşturmaya yönelik çok sayıda harika kaynak mevcuttur. Rapor Oluşturucusu eğitimleri başlangıç yapmak için idealdir.
 
-* [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [Report Builder tutorials (Rapor Oluşturucusu eğitimleri)](/sql/reporting-services/report-builder-tutorials)
 * [Power BI Rapor Sunucusu nedir?](get-started.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

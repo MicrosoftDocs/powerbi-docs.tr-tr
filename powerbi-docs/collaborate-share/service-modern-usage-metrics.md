@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/22/2020
+ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937551"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763655"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 

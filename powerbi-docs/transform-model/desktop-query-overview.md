@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214133"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853621"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 Power BI Desktop ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.
@@ -81,7 +81,7 @@ Mevcut veri kaynakları hakkında daha fazla bilgi için bkz. **Veri Kaynakları
 
 ![Giriş sekmesini gösteren Power BI Desktop’ın ekran görüntüsü.](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Örnekler de dahil olmak üzere veri dönüştürme hakkında daha fazla bilgi edinmek için bkz. [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+Örnekler de dahil olmak üzere veri dönüştürme hakkında daha fazla bilgi edinmek için bkz. [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md).
 
 **Sütun Ekle** sekmesinde; sütun ekleme, sütun verilerini biçimlendirme ve özel sütunlar ekleme ile ilişkili ek görevler bulunur. Aşağıdaki görüntüde **Sütun Ekle** sekmesi gösterilmektedir.  
 
@@ -145,4 +145,4 @@ Power BI Desktop ile yapabileceğiniz çok şey var. Özellikler hakkında daha 
 * [Power BI Desktop'ta veri kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'ta verilere bağlanma](../connect-data/desktop-connect-to-data.md)
 * [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme](desktop-common-query-tasks.md)   
+* [Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme](desktop-common-query-tasks.md)

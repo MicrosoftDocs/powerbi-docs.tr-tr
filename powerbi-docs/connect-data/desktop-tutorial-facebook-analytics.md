@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286165"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965344"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak Facebook verilerini analiz etme
 
@@ -114,7 +114,7 @@ Tarih ve saat verileri, istediğiniz şekilde olduğuna göre şimdi iç içe ge
    ![Uygulanan Adımlar](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >**Uygulanan Adımlar** ekranının temelini [Power Query M formül dili](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) ile yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin **Giriş** sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin. 
+   >**Uygulanan Adımlar** ekranının temelini [Power Query M formül dili](/powerquery-m/quick-tour-of-the-power-query-m-formula-language) ile yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin **Giriş** sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin. 
 
 ### <a name="import-the-transformed-data"></a>Dönüştürülmüş verileri içeri aktarma
 
@@ -251,7 +251,6 @@ Gördüğünüz gibi verileri istediğiniz şekilde sunmak için raporunuzdaki g
 Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümleme ihtiyaçlarınızı karşılayacak şekilde biçimlendirmeye ek olarak bu verileri zengin ve etkileşimli bir şekilde görselleştirmeye kadar sorunsuz ve uçtan uca bir deneyim sunar. Raporunuz hazır hale geldikten sonra raporunuzu [Power BI hizmetine yükleyebilir](../create-reports/desktop-upload-desktop-files.md), bunu kullanan panolar oluşturabilir ve diğer Power BI kullanıcılarıyla paylaşabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [Diğer Power BI Desktop eğitimlerini okuyun](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop videolarını izleyin](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI için Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)

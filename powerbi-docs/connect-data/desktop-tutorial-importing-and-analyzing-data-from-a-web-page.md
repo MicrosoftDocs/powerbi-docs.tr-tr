@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 2a8c27029a494898849cab39c8bf843d3afc09a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092372"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853254"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
 
@@ -201,7 +201,7 @@ Power BI Desktop, birçok farklı veri kaynağından veri almanın ve çözümle
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-* [Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Power BI için Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Desktop videolarını izleyin](../fundamentals/desktop-videos.md)
 * [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)

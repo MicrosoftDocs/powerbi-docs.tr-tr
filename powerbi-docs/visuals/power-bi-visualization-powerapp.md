@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233226"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858934"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Öğretici: Power BI raporuna yeni bir Power Apps görseli ekleme
 
@@ -32,8 +32,8 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 ## <a name="prerequisites"></a>Önkoşullar
 
 * [Google Chrome](https://www.google.com/chrome/browser/) veya [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) tarayıcı
-* [Fırsat Analizi Örneği](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)’nin yüklü olduğu bir [Power BI aboneliği](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps’te uygulama oluşturma](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) ve [Power BI raporlarını düzenleme](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour) hakkında bilgi sahibi olma
+* [Fırsat Analizi Örneği](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)’nin yüklü olduğu bir [Power BI aboneliği](../fundamentals/service-self-service-signup-for-power-bi.md)
+* [Power Apps’te uygulama oluşturma](/powerapps/maker/canvas-apps/data-platform-create-app-scratch) ve [Power BI raporlarını düzenleme](../create-reports/service-the-report-editor-take-a-tour.md) hakkında bilgi sahibi olma
 
 
 
@@ -105,8 +105,8 @@ Uygulamadaki fırsat sayısının, raporun sol üst köşesindeki sayıyla eşle
 Fırsat Analizi Örneğini artık kullanmak istemiyorsanız pano, rapor ve veri kümesini silebilirsiniz.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
-Sorun giderme bilgileri için bkz. [Power BI için Power Apps görseli](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
+Sorun giderme bilgileri için bkz. [Power BI için Power Apps görseli](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Soru-Cevap görseli](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[Öğretici: Power BI raporuna Power Apps görseli ekleme](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[Öğretici: Power BI raporuna Power Apps görseli ekleme](/powerapps/maker/canvas-apps/powerapps-custom-visual)

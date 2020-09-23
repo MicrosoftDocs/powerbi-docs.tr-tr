@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092418"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853759"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Öğretici: Excel’deki ve OData akışındaki satış verilerini analiz etme
 
@@ -172,7 +172,7 @@ Power Query Editor’ın sol tarafındaki **Sorgular** listesinden her bir sorgu
 ![Ürünler sorgusu Uygulanan Adımlar](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![Siparişler sorgusu Uygulanan Adımlar](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->Uygulanan Adımların temelini [M dili](https://docs.microsoft.com/powerquery-m/power-query-m-reference) olarak da bilinen *Power Query Dili*'nde yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin **Giriş** sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin.
+>Uygulanan Adımların temelini [M dili](/powerquery-m/power-query-m-reference) olarak da bilinen *Power Query Dili*'nde yazılan formüller oluşturur. Formülleri görmek ve düzenlemek için, şeridin **Giriş** sekmesinin **Sorgu** grubunda **Gelişmiş Düzenleyici**’yi seçin.
 
 ## <a name="import-the-transformed-queries"></a>Dönüştürülmüş sorguları içeri aktarma
 
@@ -272,7 +272,7 @@ Tamamlanmış raporunuz *Products.xlsx* Excel dosyasındaki ve Northwind OData a
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [Power BI Desktop videolarını izleyin](/power-bi/fundamentals/desktop-videos)
+* [Power BI için Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Power BI Desktop videolarını izleyin](../fundamentals/desktop-videos.md)
 * [Power BI Forumu'nu ziyaret edin](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI Blogu'nu okuyun](https://go.microsoft.com/fwlink/?LinkID=519327)

@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537976"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763921"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 
@@ -35,13 +35,13 @@ Amanda’nın bildirimleri incelemesini, yönetmesini ve bunlara yanıt vermesin
 ## <a name="view-your-notifications"></a>Bildirimlerinizi görüntüleme
 1. Power BI'da oturum açtığınızda, siz çevrimdışıyken size gönderilen tüm bildirimler, akışınıza eklenir. Yeni bildirimleriniz varsa Power BI, yeni öğe sayısının yer aldığı sarı bir baloncuk görüntüler.
    
-   ![yeni Bildirim simgesi](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![yeni Bildirim simgesi](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. Power BI menü çubuğunda **Bildirimler** simgesini seçin.
    
-   ![Bildirimler simgesinin seçili olduğu üst menü çubuğu](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![Bildirimler simgesinin seçili olduğu üst menü çubuğu](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. Bildirimler, son görüntülenenler üstte yer alacak ve okunmamış iletiler vurgulanacak şekilde görüntülenir. Bildirimler, daha önce silmediğiniz veya 100 üst sınırına ulaşmadığınız sürece 90 gün boyunca saklanır.
    
-   ![Bildirim Merkezi](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![Bildirim Merkezi](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. Bir bildirimi kapatmak için X simgesini seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar

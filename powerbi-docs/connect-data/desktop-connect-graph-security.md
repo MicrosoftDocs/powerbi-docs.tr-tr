@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409318"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858543"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop’ta Microsoft Graph Güvenliği API’sine bağlanma
 
-[Microsoft Graph Güvenliği API’sine](https://aka.ms/graphsecuritydocs) bağlanmak için Power BI Desktop Microsoft Graph Güvenlik bağlayıcısını kullanın. Bu sayede panolar ve raporlar oluşturabilir, güvenlikle ilgili [uyarılar](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0) ve [güvenlik puanı](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta) içgörüleri kazanabilirsiniz.
+[Microsoft Graph Güvenliği API’sine](/graph/security-concept-overview) bağlanmak için Power BI Desktop Microsoft Graph Güvenlik bağlayıcısını kullanın. Bu sayede panolar ve raporlar oluşturabilir, güvenlikle ilgili [uyarılar](/graph/api/resources/alert?view=graph-rest-1.0) ve [güvenlik puanı](/graph/api/resources/securescores?view=graph-rest-beta) içgörüleri kazanabilirsiniz.
 
-Microsoft Graph Güvenlik API’si, uyarı bağıntılarını kolaylaştırmak için Microsoft ve ekosistem iş ortaklarından [birden çok güvenlik çözümünü](https://aka.ms/graphsecurityalerts) birbirine bağlar. Bu birleşim zengin bağlamsal bilgilere erişim sağlar ve otomasyonu basitleştirir. Maliyetleri ve karmaşıklığı azaltırken kuruluşların birden çok güvenlik ürününden içgörüleri hızlıca alarak harekete geçmesini sağlar.
+Microsoft Graph Güvenlik API’si, uyarı bağıntılarını kolaylaştırmak için Microsoft ve ekosistem iş ortaklarından [birden çok güvenlik çözümünü](/graph/api/resources/security-api-overview#alerts) birbirine bağlar. Bu birleşim zengin bağlamsal bilgilere erişim sağlar ve otomasyonu basitleştirir. Maliyetleri ve karmaşıklığı azaltırken kuruluşların birden çok güvenlik ürününden içgörüleri hızlıca alarak harekete geçmesini sağlar.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Microsoft Graph Güvenlik bağlayıcısını kullanma önkoşulları
 
-Microsoft Graph Güvenliği bağlayıcısını kullanmak için, Azure Active Directory (Azure AD) kiracı yöneticisinden *açıkça* onay almanız gerekir. Bkz. [Microsoft Graph Güvenliği kimlik doğrulaması gereksinimleri](https://aka.ms/graphsecurityauth).
+Microsoft Graph Güvenliği bağlayıcısını kullanmak için, Azure Active Directory (Azure AD) kiracı yöneticisinden *açıkça* onay almanız gerekir. Bkz. [Microsoft Graph Güvenliği kimlik doğrulaması gereksinimleri](/graph/security-authorization).
 Onay, bağlayıcının uygulama kimliğini ve adını gerektirir (burada belirtilmiştir ve [Azure portalda](https://portal.azure.com) bulunabilir):
 
 | Özellik | Değer |
@@ -37,11 +37,11 @@ Onay, bağlayıcının uygulama kimliğini ve adını gerektirir (burada belirti
 
 Bağlayıcıya onay vermek için Azure AD kiracısı yöneticiniz aşağıdaki yöntemlerden birini kullanabilir:
 
-* [Azure AD uygulamaları için onay verme](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+* [Azure AD uygulamaları için onay verme](/azure/active-directory/develop/v2-permissions-and-consent)
 
-* [Uygulama onayı deneyimi](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) aracılığıyla ilk çalıştırma sırasında mantıksal uygulamanızın gönderdiği bir isteği yanıtlayın
+* [Uygulama onayı deneyimi](/azure/active-directory/develop/application-consent-experience) aracılığıyla ilk çalıştırma sırasında mantıksal uygulamanızın gönderdiği bir isteği yanıtlayın
    
-Microsoft Graph Güvenlik bağlayıcısında oturum açan kullanıcı hesabına Azure AD Güvenlik Okuyucusu rolü atanmalıdır (kullanıcı **Güvenlik Yöneticisi** rolüne üye *değilse*). Bkz. [Kullanıcılara Azure AD rolleri atama](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users).
+Microsoft Graph Güvenlik bağlayıcısında oturum açan kullanıcı hesabına Azure AD Güvenlik Okuyucusu rolü atanmalıdır (kullanıcı **Güvenlik Yöneticisi** rolüne üye *değilse*). Bkz. [Kullanıcılara Azure AD rolleri atama](/graph/security-authorization#assign-azure-ad-roles-to-users).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Microsoft Graph Güvenlik bağlayıcısını kullanma
 
@@ -69,13 +69,13 @@ Bağlayıcıyı kullanmak için aşağıdaki adımları izleyin:
 
     !["Şu anda oturumunuz açık" iletişim kutusu](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. Bağlandıktan sonra, **Gezgin** penceresi uyarıları, güvenlik puanlarını ve 4. adımda seçtiğiniz sürüm için [Microsoft Graph Güvenlik API’sinde](https://aka.ms/graphsecuritydocs) kullanılabilen diğer varlıkları görüntüler. İçeri aktarıp Power BI Desktop’ta kullanmak üzere bir veya daha fazla varlık seçin. Daha sonra, 9. adımdan sonra gösterilen sonuç görünümünü almak için **Yükle**’yi seçin.
+8. Bağlandıktan sonra, **Gezgin** penceresi uyarıları, güvenlik puanlarını ve 4. adımda seçtiğiniz sürüm için [Microsoft Graph Güvenlik API’sinde](/graph/security-concept-overview) kullanılabilen diğer varlıkları görüntüler. İçeri aktarıp Power BI Desktop’ta kullanmak üzere bir veya daha fazla varlık seçin. Daha sonra, 9. adımdan sonra gösterilen sonuç görünümünü almak için **Yükle**’yi seçin.
 
     ![Gezgin iletişim kutusu](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Microsoft Graph Güvenlik API'sinde gelişmiş bir sorgu kullanmak isterseniz **Sonuçları filtrelemek için özel Microsoft Graph Güvenlik URL'si belirtin**’i seçin. Microsoft Graph Güvenlik API'sine gerekli izinlerle bir [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) sorgusu yapmak için bu işlevi kullanın.
+9. Microsoft Graph Güvenlik API'sinde gelişmiş bir sorgu kullanmak isterseniz **Sonuçları filtrelemek için özel Microsoft Graph Güvenlik URL'si belirtin**’i seçin. Microsoft Graph Güvenlik API'sine gerekli izinlerle bir [OData.Feed](./desktop-connect-odata.md) sorgusu yapmak için bu işlevi kullanın.
 
-   Aşağıdaki örnek `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*’sini kullanır. En son sonuçları filtrelemek, sıralamak veya getirmek üzere sorgular oluşturmak için bkz. [OData sistem sorgusu seçeneği](https://docs.microsoft.com/graph/query-parameters).
+   Aşağıdaki örnek `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*’sini kullanır. En son sonuçları filtrelemek, sıralamak veya getirmek üzere sorgular oluşturmak için bkz. [OData sistem sorgusu seçeneği](/graph/query-parameters).
 
    ![OdataFeed örneği](media/desktop-connect-graph-security/ODataFeed.PNG)
     

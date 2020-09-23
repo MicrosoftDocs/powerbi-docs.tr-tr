@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224856"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858704"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop’taki Analysis Services tablo verilerine bağlanma
 Power BI Desktop uygulamasında SQL Server Analysis Services tablo modellerinize bağlanmak ve onlardan veri almak için kullanabileceğiniz iki yöntem bulunur: Canlı bağlantı kullanarak keşfetme veya öğeleri seçip Power BI Desktop'a aktarma.
@@ -81,7 +81,7 @@ Power BI Desktop'ta oluşturduğunuz dinamik raporları Power BI sitenizde yayı
 **Cevap:** Evet. Tablosal modelinizin kullandığı özelliklere bağlı olarak Power BI Desktop'taki deneyim değişebilir. Bazı örnekler:
 * Modelde ölçülerin tablolarda sütunlar boyunca gruplandırılması yerine **Alanlar** bölmesindeki listenin en üstünde birlikte gruplandırıldığını görebilirsiniz. Endişelenmeyin, bunları yine normal şekilde kullanabilirsiniz, yalnızca bu yolla daha kolay bulabilirsiniz.
 
-* Tablosal modelde hesaplama grupları tanımlandıysa, bunları yalnızca model ölçüleriyle birlikte kullanabilirsiniz. Görsele sayısal alanlar ekleyerek oluşturduğunuz örtülü ölçülerle kullanamazsınız. Ayrıca modelin **DiscourageImplicitMeasures** bayrağı el ile ayarlanmış olabilir ve bu da aynı etkiyi yapar. Daha fazla bilgi edinmek için bkz. [Analysis Services'te hesaplama grupları](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits).
+* Tablosal modelde hesaplama grupları tanımlandıysa, bunları yalnızca model ölçüleriyle birlikte kullanabilirsiniz. Görsele sayısal alanlar ekleyerek oluşturduğunuz örtülü ölçülerle kullanamazsınız. Ayrıca modelin **DiscourageImplicitMeasures** bayrağı el ile ayarlanmış olabilir ve bu da aynı etkiyi yapar. Daha fazla bilgi edinmek için bkz. [Analysis Services'te hesaplama grupları](/analysis-services/tabular-models/calculation-groups#benefits).
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>İlk bağlantının ardından sunucu adını değiştirme
 Canlı keşfetme bağlantısıyla bir Power BI Desktop dosyası oluşturduktan sonra bağlantıyı farklı bir sunucuya almak isteyebileceğiniz durumlar söz konusu olabilir. Örneğin Power BI Desktop dosyasını geliştirme sunucusuna bağlıyken oluşturduysanız Power BI hizmetinde yayımlamadan önce bağlantıyı üretim sunucusuna geçirmek isteyebilirsiniz.
@@ -97,4 +97,3 @@ Sunucu adını değiştirmek için:
 Aşağıdaki listede SQL Server Analysis Services (SSAS) veya Azure Analysis Services’a bağlanma sırasında yaşandığı bilinen tüm sorunlar açıklanmıştır: 
 
 * **Hata: Model şeması yüklenemedi**: Bu hata genellikle Analysis Services’a bağlanan kullanıcının veritabanına/modele erişimi olmadığında oluşur.
-

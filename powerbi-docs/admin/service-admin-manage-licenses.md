@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161365"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857278"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI kullanıcıları lisanslarını görüntüleme ve yönetme
 
@@ -37,11 +37,11 @@ Etkin Power BI abonelikleriniz, sahip olduğunuz diğer aboneliklerle birlikte l
 
   ![Ücretsiz bir aboneliği gösteren Power BI aboneliğinin ekran görüntüsü.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Kullanıcılar self servis kaydolma özelliğinden yararlanıyorsa, bu tür bir abonelik sizin için oluşturulur. Daha fazla bilgi edinmek için bkz. [Kuruluşunuzda Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Kullanıcılar self servis kaydolma özelliğinden yararlanıyorsa, bu tür bir abonelik sizin için oluşturulur. Daha fazla bilgi edinmek için bkz. [Kuruluşunuzda Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Microsoft 365’te kullanıcı lisanslarını yönetme
 
-Kullanıcı lisanslarını yönetmek üzere Microsoft 365 yönetim merkezini kullanmak için bkz. [İş abonelikleri ve faturalama belgeleri](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide).
+Kullanıcı lisanslarını yönetmek üzere Microsoft 365 yönetim merkezini kullanmak için bkz. [İş abonelikleri ve faturalama belgeleri](/microsoft-365/commerce/?view=o365-worldwide).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Azure portalında kullanıcı lisanslarını yönetme
 

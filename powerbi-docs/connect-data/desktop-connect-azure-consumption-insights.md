@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034440"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858637"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop’ta Azure Consumption Insights verilerine bağlanma
 
@@ -178,7 +178,7 @@ Bu noktada özgün görselleriniz, tablolarınız ve detaylandırma özellikleri
 Azure tarafından sağlanan bir [**Azure Tüketim Öngörüleri (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/)'si de mevcuttur. ACI API'sini kulla6narak Azure kullanım bilgilerini toplama, raporlama ve görselleştirmeye yönelik kendi özel çözümlerinizi oluşturabilirsiniz.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Adları ve kullanım ayrıntılarını portal, bağlayıcı ve API arasında eşleme
-Azure Portalındaki sütunların ve ayrıntıların adları API ve bağlayıcıda benzerdir ama her zaman tam olarak aynı değildir. Durumu netleştirmek için aşağıdaki tabloda eşleme sağlanır. Ayrıca, ilgili sütunun kullanımdan kaldırılıp kaldırılmadığı da belirtilmiştir. Daha fazla bilgi edinmek ve terim açıklamalarını görmek için bkz. [Azure faturalama verileri sözlüğü](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
+Azure Portalındaki sütunların ve ayrıntıların adları API ve bağlayıcıda benzerdir ama her zaman tam olarak aynı değildir. Durumu netleştirmek için aşağıdaki tabloda eşleme sağlanır. Ayrıca, ilgili sütunun kullanımdan kaldırılıp kaldırılmadığı da belirtilmiştir. Daha fazla bilgi edinmek ve terim açıklamalarını görmek için bkz. [Azure faturalama verileri sözlüğü](/azure/billing/billing-enterprise-api-usage-detail).
 
 | ACI Bağlayıcısı/İçerik Paketi Sütun Adı | ACI API'si Sütun Adı | EA Sütun Adı | Kullanımdan kalktı/Geriye dönük uyumluluk için mevcut |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Power BI Desktop’ı kullanarak birçok farklı veri kaynağına bağlanabilirs
 * [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
-* [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   
+* [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)

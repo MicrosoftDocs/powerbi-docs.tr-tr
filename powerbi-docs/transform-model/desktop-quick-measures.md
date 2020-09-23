@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214165"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853409"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Yaygın hesaplamalar için hızlı ölçüler özelliğini kullanma
 Yaygın ve güçlü hesaplamaları hızla ve kolayca yapabilmek için *hızlı ölçüleri* kullanabilirsiniz. Hızlı ölçü arka planda bir dizi Veri Çözümleme İfadeleri (DAX) komutu çalıştırır, sonra da raporunuzda kullanabilmeniz için sonuçları size sunar. DAX formülü yazmanız gerekmez; iletişim kutusunda sağladığınız giriş temelinde bu sizin yerinize yazılır. Kullanılabilen çok sayıda hesaplama kategorisi ve her hesaplamayı gereksinimlerinize uyacak şekilde değiştirmenin çeşitli yöntemleri vardır. Belki de en iyisi hızlı ölçü tarafından yürütülen DAX’ı görebilmeniz ve kendi DAX bilginizi hemen kullanmaya başlayabilmeniz veya genişletebilmenizdir.
@@ -131,8 +131,7 @@ Dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar vardır.
 > Hızlı ölçülere yönelik DAX deyimlerinde bağımsız değişken ayırıcıları olarak yalnızca virgül kullanılır. Power BI Desktop sürümünüz, ondalık ayırıcı olarak virgülü kullanan bir dildeyse hızlı ölçüler düzgün çalışmaz.
 
 ### <a name="time-intelligence-and-quick-measures"></a>Akıllı zaman gösterimi ve hızlı ölçüler
-Akıllı zaman gösterimi hızlı ölçüleriyle kendi özel tarih tablolarınızı kullanabilirsiniz. Dış tablosal model kullanıyorsanız, [Akıllı zaman gösterimiyle kullanmak için Tarih Tablosu Olarak İşaretle seçeneğini belirtme](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) başlığı altında açıklandığı gibi, modelin ne zaman oluşturulduğundan ve ilgili tablodaki birincil tarih sütununun tarih tablosu olarak işaretlendiğinden emin olun. Kendi tarih tablonuzu içeri aktarıyorsanız, [Power BI Desktop'ta tarih tablolarını ayarlama ve kullanma](desktop-date-tables.md) başlığı altında açıklandığı gibi bunu bir tarih tablosu olarak işaretlediğinizden emin olun.
+Akıllı zaman gösterimi hızlı ölçüleriyle kendi özel tarih tablolarınızı kullanabilirsiniz. Dış tablosal model kullanıyorsanız, [Akıllı zaman gösterimiyle kullanmak için Tarih Tablosu Olarak İşaretle seçeneğini belirtme](/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) başlığı altında açıklandığı gibi, modelin ne zaman oluşturulduğundan ve ilgili tablodaki birincil tarih sütununun tarih tablosu olarak işaretlendiğinden emin olun. Kendi tarih tablonuzu içeri aktarıyorsanız, [Power BI Desktop'ta tarih tablolarını ayarlama ve kullanma](desktop-date-tables.md) başlığı altında açıklandığı gibi bunu bir tarih tablosu olarak işaretlediğinizden emin olun.
 
 ### <a name="additional-information-and-examples"></a>Ek bilgi ve örnekler
 Hızlı ölçü ile ilgili henüz sunulmamış bir fikriniz mi var? Harika! [Power BI Fikirleri](https://go.microsoft.com/fwlink/?linkid=842906) sayfasını gözden geçirin, hızlı ölçülerle ilgili olarak Power BI Desktop'ta görmek istediğiniz fikirlerinizi ve DAX formüllerini gönderin. Gelecekteki sürümlerden birinde bunları hızlı ölçüler listesine eklemeyi göz önünde bulunduracağız.
-
