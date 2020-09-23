@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
-ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
+ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89474838"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855116"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -27,7 +27,7 @@ Power BI ABD kamu aboneliğini alabilmek ve kullanıcılara lisans atayabilmek i
 
 ### <a name="enroll-in-a-microsoft-365-government-plan"></a>Microsoft 365 Kamu planına kaydolma
 
-Yeni bir müşteriyseniz Microsoft 365 Kamu planına kaydolmadan önce kuruluşunuzun uygunluğunu doğrulamanız gerekir.  Başlangıç olarak [Microsoft 365 Kamu uygunluk doğrulama formunu](https://www.microsoft.com/microsoft-365/government/eligibility-validation) tamamlayın. Kuruluşunuza doğru planı seçtiğinizden emin olmak için [Microsoft 365 ABD Kamu hizmet açıklamalarına](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) başvurun.
+Yeni bir müşteriyseniz Microsoft 365 Kamu planına kaydolmadan önce kuruluşunuzun uygunluğunu doğrulamanız gerekir.  Başlangıç olarak [Microsoft 365 Kamu uygunluk doğrulama formunu](https://www.microsoft.com/microsoft-365/government/eligibility-validation) tamamlayın. Kuruluşunuza doğru planı seçtiğinizden emin olmak için [Microsoft 365 ABD Kamu hizmet açıklamalarına](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) başvurun.
 
 > [!NOTE]
 > Power BI’ı zaten ticari bir ortama dağıttıysanız ve ABD kamu bulutuna geçmek istiyorsanız, Microsoft 365 Kamu planınıza yeni bir Power BI Pro aboneliği eklemeniz gerekir. Ardından ticari verileri ABD kamu için Power BI hizmetine çoğaltın, kullanıcı hesaplarından ticari lisans atamalarını kaldırın ve sonra kullanıcı hesaplarına Power BI Pro kamu lisansı atayın.
@@ -45,11 +45,11 @@ Microsoft 365’i dağıttıktan sonra bir Power BI Pro aboneliği ekleyebilirsi
 
 Microsoft 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kuruluşlarına farklı ortamlar sağlar. Ortamlar hakkında daha fazla bilgi için şu sayfalara bakın:
 
-* Federal yönetim, eyalet yönetimi ve yerel yönetim için tasarlanan [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).
+* Federal yönetim, eyalet yönetimi ve yerel yönetim için tasarlanan [Microsoft 365 Government Community Cloud (GCC)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).
 
-* [Microsoft 365 Government Community Cloud (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) federal kurumlar, savunma sektörü, havacılık sektörü ve denetimli sınıflandırılmamış bilgiler bulunduran diğer kuruluşlar için tasarlanmıştır. Bu ortam ulusal güvenlik kuruluşlarına ve Uluslararası Silah Trafiği Yönetmeliği (ITAR) verilerinin veya Savunma Federal İktisap Yönetmeliği Ekleri (DFARS) gereksinimlerinin söz konusu olduğu şirketlere uygundur.
+* [Microsoft 365 Government Community Cloud (GCC High)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) federal kurumlar, savunma sektörü, havacılık sektörü ve denetimli sınıflandırılmamış bilgiler bulunduran diğer kuruluşlar için tasarlanmıştır. Bu ortam ulusal güvenlik kuruluşlarına ve Uluslararası Silah Trafiği Yönetmeliği (ITAR) verilerinin veya Savunma Federal İktisap Yönetmeliği Ekleri (DFARS) gereksinimlerinin söz konusu olduğu şirketlere uygundur.
 
-* [Microsoft 365 DoD ortamı](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır.
+* [Microsoft 365 DoD ortamı](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır.
 
 ## <a name="connect-to-power-bi-for-us-government"></a>ABD kamu için Power BI’a bağlanma
 
@@ -72,7 +72,7 @@ Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bi
 
 Genel bulutta IP alanları kullanılabilir. ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin.
 
-SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik duvarı kurallarını oluşturma ve yönetme](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
+SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik duvarı kurallarını oluşturma ve yönetme](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
 ## <a name="power-bi-feature-availability"></a>Power BI özellik kullanılabilirliği
 
@@ -83,7 +83,7 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler ve sür
 |Öne çıkan özelliği |GCC |GCC High |DoD|
 |------|------|------|------|
 |[Kamu bulutu ve ticari bulut arasında Azure B2B İşbirliği](service-admin-azure-ad-b2b.md)<sup>1</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
+|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Kapasite Ölçümleri](../admin/service-admin-premium-monitor-portal.md)|Ç3 2020 |Ç3 2020|Ç3 2020|
@@ -96,7 +96,7 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler ve sür
 |[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 
-<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
 
 <sup>2</sup> GCC için Teams’de Power BI deneyimi sınırlıdır, yalnızca klasik çalışma alanları için çalışır ve [Power BI içeriğini Microsoft Teams’e ekleme](../collaborate-share/service-embed-report-microsoft-teams.md) bölümünde açıklanan gelişmiş işlevleri içermez.
 
@@ -105,6 +105,6 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler ve sür
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [ABD kamu için Power BI'a kaydolma](service-govus-signup.md)
-* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
-* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
+* [Microsoft Power Apps US Government](/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](/power-automate/us-govt)
 * [Power BI US Government Demosu](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

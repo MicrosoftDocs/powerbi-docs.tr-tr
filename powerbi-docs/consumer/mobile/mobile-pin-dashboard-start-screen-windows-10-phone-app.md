@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8f9ed1a9f2ba0e1f3c41eded45f32b8ef220f00
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219862"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855829"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI mobil uygulamasındaki bir panoyu Windows 10 Başlangıç ekranına sabitleme
 Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows Başlangıç ekranına sabitleyebilirsiniz. Başlangıç ekranında bulunan kutucuğa tıkladığınızda pano Windows 10 için Power BI mobil uygulamasında açılır.
@@ -20,7 +20,7 @@ Windows 10 için Power BI mobil uygulamasındaki Power BI panolarını Windows B
 ![Windows kutucuğu](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-tile"></a>Bir panoyu Başlangıç ekranınıza kutucuk olarak sabitleme
 1. Bir pano açın.

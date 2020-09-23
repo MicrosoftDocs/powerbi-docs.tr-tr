@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034256"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856036"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında verilerinizi çevrimdışı olarak görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -23,7 +23,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI'ı mobil tarayıcı yerine mobil uygulamada görüntülemenin avantajlarından biri de ağ bağlantınız bulunmasa bile verilerinizi görebilmenizdir. 
 

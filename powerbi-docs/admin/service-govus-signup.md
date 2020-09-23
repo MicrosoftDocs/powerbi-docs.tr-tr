@@ -10,11 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 776120f9781f05376e767175a795943ab58243d3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485473"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855047"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>ABD kamu kuruluşunuzu Power BI hizmetine kaydetme
 
@@ -76,4 +77,4 @@ ABD kamu Power BI hizmetlerini kullanabilmek istiyorsanız önce kuruluşunuz i�
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI ABD kamu sürümüne genel bakış](service-govus-overview.md)
-- [Microsoft 365 Kamu’yu nasıl satın alırım?](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy#how-do-i-buy-microsoft-365-government)
+- [Microsoft 365 Kamu’yu nasıl satın alırım?](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy#how-do-i-buy-microsoft-365-government)

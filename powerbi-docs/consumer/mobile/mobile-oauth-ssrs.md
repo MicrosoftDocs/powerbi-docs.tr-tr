@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220276"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856105"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth kullanarak Power BI Rapor Sunucusu ve SSRS’e bağlanma
 
@@ -72,7 +72,7 @@ Daha fazla bilgi için bkz. [Modify a Reporting Services Configuration File (Bir
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Active Directory Federasyon Hizmetleri (ADFS) Yapılandırması
 
-ADFS'yi ortamınızda bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu yapılandırma, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+ADFS'yi ortamınızda bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu yapılandırma, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](/windows-server/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Bir uygulama grubu oluşturma
 
@@ -136,7 +136,7 @@ Tamamlandığında, aşağıda gösterilen şekilde uygulama grubunuzun özellik
 
 ## <a name="web-application-proxy-wap-configuration"></a>Web Uygulaması Ara Sunucusu (WAP) Yapılandırması
 
-Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bir Windows 2016 sunucusu üzerinde olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bir Windows 2016 sunucusu üzerinde olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Kısıtlanmış temsil yapılandırması
 
@@ -228,7 +228,7 @@ Power BI mobil uygulamasında Reporting Services örneğinize bağlanmak istiyor
 
 ## <a name="multi-factor-authentication"></a>Çok faktörlü kimlik doğrulaması
 
-Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğrulamasını etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
+Ortamınıza yönelik ek güvenlik sağlamak için çok faktörlü kimlik doğrulamasını etkinleştirebilirsiniz. Daha fazla bilgi için bkz. [Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Sorun giderme
 
@@ -245,8 +245,8 @@ Fiddler kullandığınızda oturum açma işlemi başarılı olursa WAP uygulama
 [Register a Service Principal Name (SPN) for a Report Server (Rapor Sunucusu için bir Hizmet Asıl Adı (SPN) kaydı yapma)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Modify a Reporting Services Configuration File (Bir Reporting Services Yapılandırma Dosyasını değiştirme)](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [Configure Windows Authentication on a Report Server (Bir Rapor Sunucusunda Windows Kimlik Doğrulamasını yapılandırma)](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Active Directory Federation Services (Active Directory Federasyon Hizmetleri)](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Active Directory Federation Services (Active Directory Federasyon Hizmetleri)](/windows-server/identity/active-directory-federation-services)  
+[Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[Configure AD FS 2016 and Azure MFA (AD FS 2016 ve Azure MFA'yı yapılandırma)](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

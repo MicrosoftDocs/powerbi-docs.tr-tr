@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092395"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861119"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Öğretici: Power BI hizmetinde içerik oluşturmaya başlama
 Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
@@ -226,5 +226,5 @@ Pano alanını daha iyi kullanmak için kutucukları yeniden düzenleyebiliriz.
 
 Power BI için şu Microsoft Learn içerik koleksiyonlarını keşfedin:
 
-- [Power BI’ı öğrenme](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-- [Power BI veri analisti olma](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)
+- [Power BI’ı öğrenme](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+- [Power BI veri analisti olma](/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

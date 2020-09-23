@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937574"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861211"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’nda yayımlandığında desteklenmeyen bazı veri kaynakları bulunur.
 
-Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
 > Bir Power BI Desktop raporundaki tüm veri kaynaklarının zamanlanmış yenilemeyi yapılandırma özelliğini desteklemesi gerekir.

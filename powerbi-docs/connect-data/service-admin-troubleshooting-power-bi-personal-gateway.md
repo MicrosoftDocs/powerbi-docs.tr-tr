@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231085"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861510"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway’de sorun giderme (kişisel mod)
 
@@ -31,7 +31,7 @@ Ağ geçidi sürümü güncel olmadığında birçok sorun ortaya çıkabilir. E
 ## <a name="installation"></a>Yükleme
 **Ağ Geçidi (kişisel mod) 64 bitlik sürümlerde çalışır:** Makineniz 32 bitlik sürümü kullanıyorsa ağ geçidini (kişisel mod) yükleyemezsiniz. İşletim sisteminizin sürümü 64 bit olmalıdır. Windows’un 64 bitlik bir sürümünü yükleyin veya ağ geçidini (kişisel mod) 64 bitlik işletim sistemi kullanan bir makineye yükleyin.
 
-**Bilgisayarda yerel yönetici olmanıza rağmen ağ geçidinin (kişisel mod) yüklemesi başarısız oluyor:** Kullanıcı, bilgisayarın yerel yönetici grubunda bulunursa yükleme başarısız olabilir. Ancak, Grup İlkesi bu kullanıcı adının bir hizmet olarak oturum açmasına izin vermez. Grup İlkesinin bir kullanıcının hizmet olarak oturum açmasına izin verdiğinden emin olun. Bu soruna ilişkin bir düzeltme üzerinde çalışıyoruz. Daha fazla bilgi için bkz. [Bir hesaba hizmet olarak oturum açma hakkı ekleme](https://technet.microsoft.com/library/cc739424.aspx).
+**Bilgisayarda yerel yönetici olmanıza rağmen ağ geçidinin (kişisel mod) yüklemesi başarısız oluyor:** Kullanıcı, bilgisayarın yerel yönetici grubunda bulunursa yükleme başarısız olabilir. Ancak, Grup İlkesi bu kullanıcı adının bir hizmet olarak oturum açmasına izin vermez. Grup İlkesinin bir kullanıcının hizmet olarak oturum açmasına izin verdiğinden emin olun. Bu soruna ilişkin bir düzeltme üzerinde çalışıyoruz. Daha fazla bilgi için bkz. [Bir hesaba hizmet olarak oturum açma hakkı ekleme](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10)).
 
 **İşlem zaman aşımına uğradı:** Bu ileti, kişisel ağ geçidini (kişisel mod) yüklediğiniz bilgisayarın tek çekirdekli bir işlemciye sahip olduğu durumlarda sık karşılaşılan bir sorundur. Tüm uygulamaları kapatın ve gerekli olmayan işlemleri devre dışı bırakıp yüklemeyi tekrar gerçekleştirmeyi deneyin.
 

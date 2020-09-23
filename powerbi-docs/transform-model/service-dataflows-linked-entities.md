@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239969"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861073"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme
 
@@ -99,4 +99,4 @@ Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makal
 * [Zamanlanmış yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)

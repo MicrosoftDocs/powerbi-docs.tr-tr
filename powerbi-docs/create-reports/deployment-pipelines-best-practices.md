@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220872"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855571"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>Dağıtım işlem hatlarına yönelik en iyi yöntemler (önizleme)
+# <a name="deployment-pipelines-best-practices"></a>Dağıtım işlem hatlarına yönelik en iyi uygulamalar
 
 Bu makalede, yaşam döngüsü boyunca içeriklerini yöneten iş zekası oluşturucularına yönelik kılavuz sağlanır. İş zekası içeriği yaşam döngüsü yönetim aracı olarak dağıtım işlem hatlarından yararlanmaya ağırlık verilir.
 
@@ -79,7 +79,7 @@ Güvenli ve kolay bir iş akışı uygulamak için, işlem hattının her bir b�
 
 ### <a name="use-parameters-in-your-model"></a>Modelinizde parametreler kullanma
 
-Veri kümesi veri kaynakları Power BI hizmetinde düzenlenemeyeceğinden, örnek adları ve veritabanı adları gibi bağlantı ayrıntılarını depolamak için statik bağlantı dizesi yerine [parametrelerin](https://docs.microsoft.com/power-query/power-query-query-parameters) kullanılmasını öneririz. Bu sayede, daha sonraki aşamalarda bağlantıları Power BI hizmeti web portalı üzerinden veya [API’leri kullanarak](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) yönetebilirsiniz.
+Veri kümesi veri kaynakları Power BI hizmetinde düzenlenemeyeceğinden, örnek adları ve veritabanı adları gibi bağlantı ayrıntılarını depolamak için statik bağlantı dizesi yerine [parametrelerin](/power-query/power-query-query-parameters) kullanılmasını öneririz. Bu sayede, daha sonraki aşamalarda bağlantıları Power BI hizmeti web portalı üzerinden veya [API’leri kullanarak](/rest/api/power-bi/datasets/updateparametersingroup) yönetebilirsiniz.
 
 Dağıtım işlem hatlarında dağıtım, test ve üretim aşamalarında belirli değerler ayarlamak için parametre kurallarını yapılandırabilirsiniz.
 

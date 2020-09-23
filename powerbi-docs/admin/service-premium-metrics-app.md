@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227719"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855093"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 
@@ -342,10 +342,9 @@ Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme s
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI Premium nedir?](service-premium-what-is.md)
-* [Power BI Premium sürüm notları](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
-* [Uzatılmış Pro Deneme Sürümünü etkinleştirme](../service-extended-pro-trial.md)
+* [Uzatılmış Pro Deneme Sürümünü etkinleştirme](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded SSS](../developer/embedded/embedded-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

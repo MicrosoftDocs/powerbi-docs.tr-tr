@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2c12a2eb919dcef3b9decde9a15f799d78dc18e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220483"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856243"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bildirim alma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -23,7 +23,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Bildirimler, Power BI deneyiminizle ilgili bilgileri doğrudan Power BI hizmetine veya mobil cihazınıza iletiyor. Bildirimler'i açtığınızda, [oluşturduğunuz uyarılar](mobile-set-data-alerts-in-the-mobile-apps.md), sizinle paylaşılan yeni panolar, grup çalışma alanınızda yapılan değişiklikler, Power BI etkinlikleri ve toplantılarıyla ilgili bilgiler ve daha fazlası hakkında sıralı bir ileti akışıyla karşılaşırsınız.
 

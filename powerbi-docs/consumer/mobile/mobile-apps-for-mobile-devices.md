@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347275"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856427"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?
 Power BI; iOS, Android ve Windows 10 mobil cihazlar için bir dizi mobil uygulama sunar. Mobil uygulamalarda bulut ve şirket içi verilerinize bağlanıp etkileşimde bulunabilirsiniz. 
@@ -38,7 +38,7 @@ Power BI Desktop'ta raporlar oluşturabilirsiniz. Power BI rapor hizmetinde ([ht
 | [![Windows cihazları](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |Windows 10 için Power BI mobil uygulaması, Windows 10 telefonlar da dahil olmak üzere tüm Windows 10 cihazlarında çalıştırılabilir. Diğer mobil uygulamaların sağladığı çoğu özelliğin yanı sıra Windows 10 için Power BI mobil uygulaması özel işlevler de sunar. Örneğin, Power BI mobil uygulamasındaki [bir Power BI panosunu Windows 10 Başlangıç ekranına sabitleyebilirsiniz](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Ayrıca Windows 10 için Power BI mobil uygulaması ile [Power BI'ı Surface Hub sunum modunda da çalıştırabilirsiniz](mobile-windows-10-app-presentation-mode.md). <br/>[Windows 10 cihazları için Power BI mobil uygulamasını](mobile-windows-10-phone-app-get-started.md) kullanmaya başlayın. |||
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları için kurumsal destek
 Kuruluşlar, Android ve iOS için Power BI mobil uygulamaları da dahil olmak üzere cihazları ve uygulamaları yönetmek için Microsoft Intune'u kullanabilir.

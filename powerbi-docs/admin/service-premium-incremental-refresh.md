@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443341"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855046"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -112,7 +112,7 @@ Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri a
 
 #### <a name="current-date"></a>Geçerli tarih
 
-*Geçerli tarih*, yenileme anındaki sistem tarihini temel alır. Power BI hizmetinde veri kümesi için zamanlanmış yenilemenin etkinleştirilmiş olması durumunda geçerli tarih belirlenirken belirtilen saat dilimi dikkate alınır. Hem el ile çağrılan hem de Power BI hizmeti üzerinden zamanlanmış yenileme işlemleri varsa saat dilimini dikkate alır. Örneğin 20:00 PT (ABD ve Kanada) itibarıyla gerçekleşen ve saat dilimi belirtilmiş olan bir yenileme işlemi, geçerli tarihi GMT (bu durumda bir sonraki gün olacaktır) değil PT olarak kabul eder. [TMSL yenileme komutu](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) gibi, Power BI hizmeti üzerinden çağrılmayan yenileme işlemleri, zamanlanmış yenileme saat dilimini dikkate almaz
+*Geçerli tarih*, yenileme anındaki sistem tarihini temel alır. Power BI hizmetinde veri kümesi için zamanlanmış yenilemenin etkinleştirilmiş olması durumunda geçerli tarih belirlenirken belirtilen saat dilimi dikkate alınır. Hem el ile çağrılan hem de Power BI hizmeti üzerinden zamanlanmış yenileme işlemleri varsa saat dilimini dikkate alır. Örneğin 20:00 PT (ABD ve Kanada) itibarıyla gerçekleşen ve saat dilimi belirtilmiş olan bir yenileme işlemi, geçerli tarihi GMT (bu durumda bir sonraki gün olacaktır) değil PT olarak kabul eder. [TMSL yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) gibi, Power BI hizmeti üzerinden çağrılmayan yenileme işlemleri, zamanlanmış yenileme saat dilimini dikkate almaz
 
 ![Saat dilimi](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Ayın 12. takvim gününde önceki ayın verilerinin onaylandığı bir finansal
 
 ## <a name="query-timeouts"></a>Sorgu zaman aşımları
 
-[Yenileme sorunlarını giderme](../connect-data/refresh-troubleshooting-refresh-scenarios.md) makalesinde, Power BI hizmetindeki yenileme işlemlerinin zaman aşımına tabi olduğu açıklanmaktadır. Sorgular, veri kaynağı için varsayılan zaman aşımıyla da sınırlanabilir. Çoğu ilişkisel kaynak, M ifadesindeki zaman aşımlarının geçersiz kılınmasına olanak sağlar. Örneğin, aşağıdaki ifadede zaman aşımını 2 saate ayarlamak için [SQL Server veri erişimi işlevi](https://docs.microsoft.com/powerquery-m/sql-database) kullanılır. İlke aralıkları tarafından tanımlanan her dönem, komut zaman aşımı ayarını gözlemleyerek bir sorgu gönderir.
+[Yenileme sorunlarını giderme](../connect-data/refresh-troubleshooting-refresh-scenarios.md) makalesinde, Power BI hizmetindeki yenileme işlemlerinin zaman aşımına tabi olduğu açıklanmaktadır. Sorgular, veri kaynağı için varsayılan zaman aşımıyla da sınırlanabilir. Çoğu ilişkisel kaynak, M ifadesindeki zaman aşımlarının geçersiz kılınmasına olanak sağlar. Örneğin, aşağıdaki ifadede zaman aşımını 2 saate ayarlamak için [SQL Server veri erişimi işlevi](/powerquery-m/sql-database) kullanılır. İlke aralıkları tarafından tanımlanan her dönem, komut zaman aşımı ayarını gözlemleyerek bir sorgu gönderir.
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ Okuma/yazma özelliği etkin XMLA uç noktası sayesinde SSMS, artımlı yenilem
 
 #### <a name="override-incremental-refresh-behavior"></a>Artımlı yenileme davranışını geçersiz kılma
 
-SSMS sayesinde [Tablosal Model Betik Dili (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) ve [Tablosal Nesne Modeli (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) kullanarak artımlı yenilemeleri çağırma konusunda daha fazla denetime sahip olursunuz. Örneğin SSMS’deki Nesne Gezgini’nde bir tabloya sağ tıklayıp **Tabloyu İşle** menü seçeneğini belirleyin. Ardından bir TMSL yenileme komutu oluşturmak için **Betik** düğmesine tıklayın.
+SSMS sayesinde [Tablosal Model Betik Dili (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) ve [Tablosal Nesne Modeli (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) kullanarak artımlı yenilemeleri çağırma konusunda daha fazla denetime sahip olursunuz. Örneğin SSMS’deki Nesne Gezgini’nde bir tabloya sağ tıklayıp **Tabloyu İşle** menü seçeneğini belirleyin. Ardından bir TMSL yenileme komutu oluşturmak için **Betik** düğmesine tıklayın.
 
 ![Tabloyu İşle iletişim kutusundaki Betik düğmesi](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ Aşağıdaki parametreler, varsayılan artımlı yenileme davranışını geçer
 }
 ```
 
-TMSL ile varsayılan artımlı yenileme davranışını geçersiz kılma hakkında daha fazla bilgi için bkz. [Yenileme komutu](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+TMSL ile varsayılan artımlı yenileme davranışını geçersiz kılma hakkında daha fazla bilgi için bkz. [Yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Veri değişikliklerini algılamak için özel sorgular
 
@@ -247,4 +247,4 @@ ALM Araç Seti’nin en son sürümünü [Analysis Services Git deposundan](http
 ## <a name="see-also"></a>Ayrıca bkz.
 
 [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
-[Yenileme ile ilgili sorun giderme senaryoları](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[Yenileme ile ilgili sorun giderme senaryoları](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

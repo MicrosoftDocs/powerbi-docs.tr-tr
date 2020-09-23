@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238929"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861096"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Power BI Desktop'ta Power Platform veri akışlarıyla oluşturulan verilere bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop**'ta **Power Platform veri akışları** tarafından oluşturulan verilere bağlanabilirsiniz.
@@ -47,7 +47,7 @@ Bu şekilde, büyük verilerin işlenmesi çalışan **Power BI Desktop** örne�
 
     ![Veri akışını kullanma girişimi sırasında hata oluştu](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](https://go.microsoft.com/fwlink/?linkid=2029121) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
+Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](./service-dataflows-azure-data-lake-integration.md) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
@@ -72,4 +72,4 @@ Ayrıca **Power BI Desktop** hakkında yararlı bulabileceğiniz makaleler vard�
 
 * [Power BI Desktop'ta Veri Kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](../connect-data/desktop-shape-and-combine-data.md)
-* [Verileri doğrudan Power BI Desktop'a girme](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Verileri doğrudan Power BI Desktop'a girme](../connect-data/desktop-enter-data-directly-into-desktop.md)

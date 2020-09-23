@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264877"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856197"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -87,7 +87,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 mobil uygulamasındaki kutucuklar
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Windows 10 için [Power BI mobil uygulamasında bir pano açın](mobile-apps-view-dashboard.md).
 2. Kutucuk üzerindeki dikey üç nokta simgesine dokunun. Buradan şunları yapabilirsiniz: 

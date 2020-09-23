@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281726"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861027"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)
 
@@ -31,11 +31,11 @@ Bu öğreticide, **Azure Machine Learning Studio (klasik)** modelinden gelen iç
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML modeli oluşturma ve yayımlama
 
-[İzlenecek Yol 1. Adım: Machine Learning Studio (klasik) çalışma alanı oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) yönergelerini izleyerek **Machine Learning** çalışma alanını oluşturun.
+[İzlenecek Yol 1. Adım: Machine Learning Studio (klasik) çalışma alanı oluşturma](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) yönergelerini izleyerek **Machine Learning** çalışma alanını oluşturun.
 
-Mevcut Azure ML modelinizle veya veri kümenizle bu adımları kullanabilirsiniz. Yayımlanmış bir modeliniz yoksa, Otomobil Fiyat Tahminine yönelik bir Azure ML modelinin ayarlandığı [Azure Machine Learning Studio'da (klasik) ilk veri bilimi denemenizi oluşturma](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) makalesinden yararlanarak birkaç dakika içinde bir model oluşturabilirsiniz.
+Mevcut Azure ML modelinizle veya veri kümenizle bu adımları kullanabilirsiniz. Yayımlanmış bir modeliniz yoksa, Otomobil Fiyat Tahminine yönelik bir Azure ML modelinin ayarlandığı [Azure Machine Learning Studio'da (klasik) ilk veri bilimi denemenizi oluşturma](/azure/machine-learning/studio/create-experiment) makalesinden yararlanarak birkaç dakika içinde bir model oluşturabilirsiniz.
 
-Azure ML modelini bir web hizmeti olarak yayımlamak için [Azure Machine Learning Studio (klasik) web hizmetini dağıtma](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) başlığı altında verilen adımları izleyin.
+Azure ML modelini bir web hizmeti olarak yayımlamak için [Azure Machine Learning Studio (klasik) web hizmetini dağıtma](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) başlığı altında verilen adımları izleyin.
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI kullanıcısına erişim verme
 

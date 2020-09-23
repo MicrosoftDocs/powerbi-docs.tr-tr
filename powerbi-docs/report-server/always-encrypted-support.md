@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710218"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861257"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Always Encrypted özelliği
 
-Bu makalede, Microsoft SQL Server ve Microsoft Azure SQL Veritabanı veri kaynağı türleri kullanılırken Power BI Rapor Sunucusu'ndaki Always Encrypted desteği açıklanır. SQL Server'ın Always Encrypted özellikleri hakkında daha fazla bilgi için [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) makalesine bakın.
+Bu makalede, Microsoft SQL Server ve Microsoft Azure SQL Veritabanı veri kaynağı türleri kullanılırken Power BI Rapor Sunucusu'ndaki Always Encrypted desteği açıklanır. SQL Server'ın Always Encrypted özellikleri hakkında daha fazla bilgi için [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) makalesine bakın.
 
 ## <a name="always-encrypted-user-isolation"></a>Always Encrypted kullanıcı yalıtımı
 
@@ -37,8 +37,8 @@ Bu makalede, Microsoft SQL Server ve Microsoft Azure SQL Veritabanı veri kayna�
 
 Sertifikaya erişimi olması gereken hesap, hizmet hesabıdır. Sertifika yerel bilgisayarın sertifika depolama alanında depolanmalıdır. Daha fazla bilgi için bkz.
 
-- [Rapor Sunucusu Hizmet Hesabını Yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
-- "Always Encrypted için sütun ana anahtarlarını oluşturma ve depolama" adlı SQL Server makalesinin [Sertifikaları uygulamaların ve kullanıcıların kullanımına sunma](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) bölümü.
+- [Rapor Sunucusu Hizmet Hesabını Yapılandırma](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
+- "Always Encrypted için sütun ana anahtarlarını oluşturma ve depolama" adlı SQL Server makalesinin [Sertifikaları uygulamaların ve kullanıcıların kullanımına sunma](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) bölümü.
 
 ### <a name="column-encryption-strategy"></a>Sütun şifreleme stratejisi
 
@@ -51,7 +51,7 @@ Power BI Rapor Sunucusu'nda sütun şifreleme stratejisi *belirlenimci* veya *ra
 |COUNT ve DISTINCT haricinde toplama alanı olarak kullanılabilir. | Hayır, COUNT ve DISTINCT hariç | Hayır |
 |Rapor parametresi olarak kullanılabilir | Evet | Hayır |
 
-[Belirlenimci ile rastgele şifreleme karşılaştırması](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) hakkında daha fazla bilgi edinin.
+[Belirlenimci ile rastgele şifreleme karşılaştırması](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) hakkında daha fazla bilgi edinin.
 
 ### <a name="parameter-usage"></a>Parametre kullanımı
 
@@ -73,7 +73,7 @@ Bunlar **Basamaklı parametrelerdir**. Always Encrypted ile basamaklı parametre
 | --- | --- | --- | --- | --- | --- |
 | int | Evet | Evet | COUNT, DISTINCT | Evet, Tamsayı olarak |   |
 | float | Evet | Evet | COUNT, DISTINCT | Evet, Float olarak |   |
-| nvarchar | Evet | Evet | COUNT, DISTINCT | Evet, Metin olarak | Belirlenimci şifrelemede, karakter sütunları için binary2 sıralama düzeninde bir sütun harmanlama kullanılmalıdır. Ayrıntılar için SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) makalesine bakın.  |
+| nvarchar | Evet | Evet | COUNT, DISTINCT | Evet, Metin olarak | Belirlenimci şifrelemede, karakter sütunları için binary2 sıralama düzeninde bir sütun harmanlama kullanılmalıdır. Ayrıntılar için SQL Server [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) makalesine bakın.  |
 | varchar | Evet | Evet | COUNT, DISTINCT | Hayır |   |
 | decimal | Evet | Evet | COUNT, DISTINCT | Hayır |   |
 | numeric | Evet | Evet | COUNT, DISTINCT | Hayır |   |
@@ -86,11 +86,10 @@ Bunlar **Basamaklı parametrelerdir**. Always Encrypted ile basamaklı parametre
 
 ## <a name="always-encrypted-in-connection-strings"></a>Bağlantı dizelerinde Always Encrypted
 
-SQL Server veri kaynağı için bağlantı dizesinde Always Encrypted özelliğini etkinleştirmeniz gerekir. [Uygulama sorgularında Always Encrypted özelliğini](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries) etkinleştirme hakkında daha fazla bilgi edinin.
+SQL Server veri kaynağı için bağlantı dizesinde Always Encrypted özelliğini etkinleştirmeniz gerekir. [Uygulama sorgularında Always Encrypted özelliğini](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries) etkinleştirme hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-SQL Server ve Azure SQL Veritabanı'nda [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+SQL Server ve Azure SQL Veritabanı'nda [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

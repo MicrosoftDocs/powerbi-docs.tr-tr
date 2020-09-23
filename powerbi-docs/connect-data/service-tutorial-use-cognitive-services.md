@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281588"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861050"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma
 
-Power BI, Veri Akışları için self servis veri hazırlığında verilerinizi zenginleştirmek için Azure Bilişsel Hizmetler'den bir dizi işleve erişim sağlar. Bugün desteklenen hizmetler [Yaklaşım Analizi](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Anahtar İfade Ayıklama](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Dil Algılama](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) ve [Resim Etiketleme](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)'dir. Dönüştürmeler Power BI hizmetinde yürütülür ve Azure Bilişsel Hizmetler aboneliği gerekmez. Bu özellik için Power BI Premium gerekir.
+Power BI, Veri Akışları için self servis veri hazırlığında verilerinizi zenginleştirmek için Azure Bilişsel Hizmetler'den bir dizi işleve erişim sağlar. Bugün desteklenen hizmetler [Yaklaşım Analizi](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Anahtar İfade Ayıklama](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Dil Algılama](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) ve [Resim Etiketleme](/azure/cognitive-services/computer-vision/concept-tagging-images)'dir. Dönüştürmeler Power BI hizmetinde yürütülür ve Azure Bilişsel Hizmetler aboneliği gerekmez. Bu özellik için Power BI Premium gerekir.
 
 Bilişsel Hizmetler dönüştürmeleri, [veri akışları için Self Servis Veri Hazırlığında](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/) desteklenir. Başlangıç olarak metin analizi ve resim etiketleme için aşağıdaki adım adım örnekleri kullanın.
 
@@ -174,7 +174,7 @@ Artık ihtiyacınız kalmadığında Power Query düzenleyicisinde sorgu adına 
 
 Bu öğreticide Power BI veri akışına yaklaşım puanlaması ve resim etiketleme işlevlerini uyguladınız. Power BI'da Bilişsel Hizmetler hakkında daha fazla bilgi edinmek için aşağıdaki makaleleri okuyun.
 
-* [Azure'da Bilişsel Hizmetler](https://docs.microsoft.com/azure/cognitive-services/)
+* [Azure'da Bilişsel Hizmetler](/azure/cognitive-services/)
 * [Veri akışlarında self servis veri hazırlığına](../transform-model/service-dataflows-overview.md) başlama
 * [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/) ile ilgili daha fazla bilgi edinin
 

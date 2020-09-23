@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204954"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855967"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -23,7 +23,7 @@ Aşağıdakiler cihazlar için geçerlidir:
 | iPhone'lar |iPad'ler |Android telefonlar |Android tabletler |Windows 10 cihazları |
 
 >[!NOTE]
->**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI raporu, verilerinizin etkileşimli bir görünümüdür ve verilerinize dayalı farklı bulguları ve öngörüleri temsil eden görseller içerir. Power BI mobil uygulamalarında raporları görüntülemek, üç adımlı bir işlemin üçüncü adımıdır:
 
@@ -134,13 +134,13 @@ Bazı eylemler belirli rapor özelliklerine bağımlı olduğundan devre dışı
 
 **Yer İşaretleri**'nin var olması için raporda [yer işaretlerinin](mobile-reports-in-the-mobile-apps.md#bookmarks) ayarlanmış olması gerekir. Hem Power BI hizmetinde tanımlayabileceğiniz kişisel yer işaretleri hem de rapor oluşturucusu tarafından tanımlanan yer işaretleri gösterilir. Yer işaretlerinden biri varsayılan yer işareti olarak tanımlandıysa, rapor yüklendiğinde söz konusu görünümde açılır.
 
-Kuruluşunuzda Power BI mobil uygulamasından paylaşımı yasaklayan bir [Intune koruma ilkesi](https://docs.microsoft.com/intune/app-protection-policies) varsa **Not ekle ve paylaş** seçeneği kapalı olabilir.
+Kuruluşunuzda Power BI mobil uygulamasından paylaşımı yasaklayan bir [Intune koruma ilkesi](/intune/app-protection-policies) varsa **Not ekle ve paylaş** seçeneği kapalı olabilir.
 
 **Davet et** seçeneğinin etkinleştirilmesi için raporu başkalarıyla paylaşma izninizin olması gerekir. İzninizin olması için de raporun sahibi olmalısınız veya raporun sahibi size yeniden paylaşım izni vermiş olmalıdır.
 
-Rapor yazarı raporu coğrafi verilere göre kategorilere ayrılmışsa **Geçerli konuma göre filtrele** seçeneği etkinleştirilir. Daha fazla bilgi için [rapordaki coğrafi verileri tanımlama](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) konusunu okuyun.
+Rapor yazarı raporu coğrafi verilere göre kategorilere ayrılmışsa **Geçerli konuma göre filtrele** seçeneği etkinleştirilir. Daha fazla bilgi için [rapordaki coğrafi verileri tanımlama](../../transform-model/desktop-mobile-geofiltering.md) konusunu okuyun.
 
-**Raporu barkoda göre filtrelemek için tara** seçeneğinin etkinleştirilmesi için raporunuzdaki veri kümesinin **Barkod** olarak etiketlenmiş olması gerekir. Daha fazla bilgi için [Power BI Desktop'ta barkodları etiketleme](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) konusunu okuyun.
+**Raporu barkoda göre filtrelemek için tara** seçeneğinin etkinleştirilmesi için raporunuzdaki veri kümesinin **Barkod** olarak etiketlenmiş olması gerekir. Daha fazla bilgi için [Power BI Desktop'ta barkodları etiketleme](../../transform-model/desktop-mobile-barcodes.md) konusunu okuyun.
 
 ### <a name="bookmarks"></a>Yer işaretleri
 
@@ -154,7 +154,7 @@ Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı rapor
 
 ![yer işareti görünümü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+[Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](../end-user-bookmarks.md).
 
 ## <a name="configure-your-experience-with-reports"></a>Raporlarla deneyiminizi yapılandırma
 Power BI mobil uygulamasında, rapor deneyiminizi denetlemenize olanak tanıyan bir dizi ayar vardır. Şu anda yapılandırabilecekleriniz

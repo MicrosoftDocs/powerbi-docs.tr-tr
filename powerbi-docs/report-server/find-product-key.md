@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 86d3bf34a8b222e72d76a5471fe6bfca93390afc
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214011"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861142"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Rapor sunucusu ürün anahtarınızı bulma
 Sunucunuzu üretim ortamına yüklemek için Power BI Rapor Sunucusu ürün anahtarınızı nasıl bulabileceğinizi öğrenin.
@@ -47,7 +47,6 @@ SQL Server Enterprise YG sözleşmeniz varsa ürün anahtarınızı [Toplu Lisan
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

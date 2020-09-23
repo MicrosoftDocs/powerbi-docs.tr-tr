@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8372a588c57ef3c0cbe910165c5293993e98897c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227408"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854978"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
 
@@ -26,7 +26,7 @@ ms.locfileid: "85227408"
 
 ## <a name="whats-an-xmla-endpoint"></a>XMLA uç noktası nedir?
 
-Power BI Premium, istemci uygulamalarıyla Power BI çalışma alanınızı ve veri kümelerinizi yöneten altyapı arasında iletişimi sağlamak için [XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) protokolünü kullanır. Bu iletişimler genellikle XMLA olarak adlandırılan uç noktalar üzerinden gerçekleştirilir. XMLA, Microsoft Analysis Services altyapısı tarafından kullanılan iletişim protokolüyle aynıdır. Bu protokol, yakından bakıldığında Power BI’ın anlamsal modellemesi, yönetim, yaşam döngüsü ve veri yönetimini çalıştırır.
+Power BI Premium, istemci uygulamalarıyla Power BI çalışma alanınızı ve veri kümelerinizi yöneten altyapı arasında iletişimi sağlamak için [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) protokolünü kullanır. Bu iletişimler genellikle XMLA olarak adlandırılan uç noktalar üzerinden gerçekleştirilir. XMLA, Microsoft Analysis Services altyapısı tarafından kullanılan iletişim protokolüyle aynıdır. Bu protokol, yakından bakıldığında Power BI’ın anlamsal modellemesi, yönetim, yaşam döngüsü ve veri yönetimini çalıştırır.
 
 Varsayılan olarak, uç noktayı kullanan *salt okunur* bağlantı, bir kapasitedeki **Veri kümeleri iş yükü** için etkindir. Veri görselleştirme uygulamaları ve araçları, salt okunur ile veri kümesi model verilerini, meta verileri, olayları ve şemayı sorgulayabilir. Uç noktayı kullanan *okuma/yazma* işlemleri ek veri kümesi yönetimi, idare, gelişmiş anlam modelleme, hata ayıklama ve izleme sağlanarak etkinleştirilebilir. Okuma/Yazma etkinken Power BI Premium veri kümeleri, Azure Analysis Services ve SQL Server Analysis Services kurumsal düzeyde tablosal modelleme araçları ve işlemleriyle daha fazla eşliğe sahiptir.
 
@@ -37,17 +37,17 @@ Varsayılan olarak, uç noktayı kullanan *salt okunur* bağlantı, bir kapasite
 
 Bunlar Azure Analysis Services ve SQL Server Analysis Services ile kullanılan en yaygın araçlardan bazılarıdır ve artık Power BI Premium veri kümeleri tarafından desteklenir:
 
-**Analysis Services projeleri ile Visual Studio** : SQL Server Veri Araçları (veya **SSDT**) olarak da bilinen bu araçlar, Analysis Services tablosal modellere yönelik kurumsal düzeyde bir model yazma aracıdır. Analysis Services projeleri uzantıları, ücretsiz Topluluk sürümü de dahil olmak üzere tüm Visual Studio 2017 ve üzeri sürümlerde desteklenir. Tablosal modelleri bir Premium çalışma alanına dağıtmak için uzantının 2.9.6 veya üzeri sürümleri gerekir. Premium çalışma alanına dağıtırken model 1500 veya üzeri uyumluluk düzeyinde olmalıdır. XMLA okuma/yazma, veri kümeleri iş yükünde gereklidir. Daha fazla bilgi için bkz. [Analysis Services Araçları](https://docs.microsoft.com/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
+**Analysis Services projeleri ile Visual Studio** : SQL Server Veri Araçları (veya **SSDT**) olarak da bilinen bu araçlar, Analysis Services tablosal modellere yönelik kurumsal düzeyde bir model yazma aracıdır. Analysis Services projeleri uzantıları, ücretsiz Topluluk sürümü de dahil olmak üzere tüm Visual Studio 2017 ve üzeri sürümlerde desteklenir. Tablosal modelleri bir Premium çalışma alanına dağıtmak için uzantının 2.9.6 veya üzeri sürümleri gerekir. Premium çalışma alanına dağıtırken model 1500 veya üzeri uyumluluk düzeyinde olmalıdır. XMLA okuma/yazma, veri kümeleri iş yükünde gereklidir. Daha fazla bilgi için bkz. [Analysis Services Araçları](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
 
-**SQL Server Management Studio (SSMS)**  : DAX, MDX ve XMLA sorgularını destekler. [Tablosal Model Betik Dilini](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) kullanarak hassas yenileme işlemleri gerçekleştirin ve veri kümesi meta verilerinde betik oluşturun. Sorgu işlemleri için salt okunur bağlantı gerekir. Meta verilerin betiğini oluşturma işlemi için okuma/yazma bağlantısı gerekir. SSMS sürüm 18.4 veya üzeri gerekir.  [Buradan](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) indirin.
+**SQL Server Management Studio (SSMS)**  : DAX, MDX ve XMLA sorgularını destekler. [Tablosal Model Betik Dilini](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) kullanarak hassas yenileme işlemleri gerçekleştirin ve veri kümesi meta verilerinde betik oluşturun. Sorgu işlemleri için salt okunur bağlantı gerekir. Meta verilerin betiğini oluşturma işlemi için okuma/yazma bağlantısı gerekir. SSMS sürüm 18.4 veya üzeri gerekir.  [Buradan](/sql/ssms/download-sql-server-management-studio-ssms) indirin.
 
-**SQL Server Profiler** : SSMS ile yüklenen bu araç, veri kümesi olayları için izleme ve hata ayıklama desteği sağlar. SQL Server için resmi olarak kullanım dışı bırakılmış olsa da Profiler SSMS’ye eklenmeye, Analysis Services ve Power BI Premium için desteklenmeye devam eder. XMLA salt-okunur gereklidir. Daha fazla bilgi için bkz.  [Analysis Services için SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current).
+**SQL Server Profiler** : SSMS ile yüklenen bu araç, veri kümesi olayları için izleme ve hata ayıklama desteği sağlar. SQL Server için resmi olarak kullanım dışı bırakılmış olsa da Profiler SSMS’ye eklenmeye, Analysis Services ve Power BI Premium için desteklenmeye devam eder. XMLA salt-okunur gereklidir. Daha fazla bilgi için bkz.  [Analysis Services için SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current).
 
-**Analysis Services Dağıtım Sihirbazı** : SSMS ile yüklenen bu araç, Visual Studio tarafından yazılan tablosal model projelerinin Analysis Services ve Power BI Premium çalışma alanlarına dağıtılmasını sağlar. Bu araç, etkileşimli olarak veya otomasyon için komut satırından çalıştırılabilir. XMLA okuma/yazma gereklidir. Daha fazla bilgi için bkz. [Analysis Services Dağıtım Sihirbazı](https://docs.microsoft.com/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current).
+**Analysis Services Dağıtım Sihirbazı** : SSMS ile yüklenen bu araç, Visual Studio tarafından yazılan tablosal model projelerinin Analysis Services ve Power BI Premium çalışma alanlarına dağıtılmasını sağlar. Bu araç, etkileşimli olarak veya otomasyon için komut satırından çalıştırılabilir. XMLA okuma/yazma gereklidir. Daha fazla bilgi için bkz. [Analysis Services Dağıtım Sihirbazı](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current).
 
-**PowerShell cmdlet’leri** : Analysis Services cmdlet’leri, yenileme işlemleri gibi veri kümesi yönetim görevlerini otomatikleştirmek için kullanılabilir. XMLA okuma/yazma gereklidir. [SqlServer PowerShell modülünün](https://www.powershellgallery.com/packages/SqlServer/) **21.1.18221** veya üzeri bir sürümü gerekir. Az.AnalysisServices modülündeki Azure Analysis Services cmdlet’leri, Power BI Premium için desteklenmez. Daha fazla bilgi için bkz. [Analysis Services PowerShell Başvurusu](https://docs.microsoft.com/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current).
+**PowerShell cmdlet’leri** : Analysis Services cmdlet’leri, yenileme işlemleri gibi veri kümesi yönetim görevlerini otomatikleştirmek için kullanılabilir. XMLA okuma/yazma gereklidir. [SqlServer PowerShell modülünün](https://www.powershellgallery.com/packages/SqlServer/) **21.1.18221** veya üzeri bir sürümü gerekir. Az.AnalysisServices modülündeki Azure Analysis Services cmdlet’leri, Power BI Premium için desteklenmez. Daha fazla bilgi için bkz. [Analysis Services PowerShell Başvurusu](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current).
 
-**Power BI Report Builder** : Sayfalandırılmış raporlar yazmaya yarayan bir araçtır. Hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturur. Rapor Oluşturucusu’nda raporunuzun önizlemesini görüntüleyebilir, ardından raporunuzu Power BI hizmetinde yayımlayabilirsiniz. XMLA salt-okunur gereklidir. Daha fazla bilgi için bkz.  [Power BI Report Builder](https://docs.microsoft.com/power-bi/report-builder-power-bi).
+**Power BI Report Builder** : Sayfalandırılmış raporlar yazmaya yarayan bir araçtır. Hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturur. Rapor Oluşturucusu’nda raporunuzun önizlemesini görüntüleyebilir, ardından raporunuzu Power BI hizmetinde yayımlayabilirsiniz. XMLA salt-okunur gereklidir. Daha fazla bilgi için bkz.  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
 **Tablo Düzenleyicisi**: Sezgisel ve hafif bir düzenleyici kullanarak tablosal modelleri oluşturmaya, sürdürmeye ve yönetmeye yarayan açık kaynaklı bir araçtır. Tablosal modelinizdeki tüm nesneler hiyerarşik bir görünümde gösterilir. Nesneler, çoklu seçim özellik düzenlemesi ve DAX söz dizimi vurgulaması için görüntüleme klasörleri tarafından düzenlenir. Sorgu işlemleri için XMLA salt okunur gerekir. Meta veri işlemleri için okuma/yazma bağlantısı gerekir. Daha fazla bilgi için bkz. [tabulareditor.github.io](https://tabulareditor.github.io/).
 
@@ -61,17 +61,17 @@ Bunlar Azure Analysis Services ve SQL Server Analysis Services ile kullanılan e
 
 ### <a name="client-libraries"></a>İstemci kitaplıkları
 
-İstemci uygulamaları XMLA uç noktasıyla doğrudan iletişim kurmaz. Bunun yerine, özet düzeyi olarak *istemci kitaplıklarını* kullanırlar. Bunlar, Azure Analysis Services ve SQL Server Analysis Services’a bağlanmak için kullanılan istemci kitaplıkları uygulamalarının aynısıdır. Excel, SQL Server Management Studio (SSMS) ve Visual Studio için Analysis Services projeleri uzantısı gibi Microsoft uygulamaları, üç istemci kitaplığını da yükleyip normal uygulama ve uzantı güncelleştirmeleriyle birlikte bu kitaplıkları da güncelleştirir. Geliştiriciler de özel uygulamalar oluşturmak için istemci kitaplıklarını kullanabilir. Bazı durumlarda, özellikle üçüncü taraf uygulamalar söz konusu olduğunda, uygulamalarla yüklü gelmediyse istemci kitaplıklarının daha yeni sürümlerini yüklemeniz gerekebilir. İstemci kitaplıkları aylık olarak güncelleştirilir. Daha fazla bilgi için bkz.  [Analysis Services’a bağlanmak için istemci kitaplıkları](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers).
+İstemci uygulamaları XMLA uç noktasıyla doğrudan iletişim kurmaz. Bunun yerine, özet düzeyi olarak *istemci kitaplıklarını* kullanırlar. Bunlar, Azure Analysis Services ve SQL Server Analysis Services’a bağlanmak için kullanılan istemci kitaplıkları uygulamalarının aynısıdır. Excel, SQL Server Management Studio (SSMS) ve Visual Studio için Analysis Services projeleri uzantısı gibi Microsoft uygulamaları, üç istemci kitaplığını da yükleyip normal uygulama ve uzantı güncelleştirmeleriyle birlikte bu kitaplıkları da güncelleştirir. Geliştiriciler de özel uygulamalar oluşturmak için istemci kitaplıklarını kullanabilir. Bazı durumlarda, özellikle üçüncü taraf uygulamalar söz konusu olduğunda, uygulamalarla yüklü gelmediyse istemci kitaplıklarının daha yeni sürümlerini yüklemeniz gerekebilir. İstemci kitaplıkları aylık olarak güncelleştirilir. Daha fazla bilgi için bkz.  [Analysis Services’a bağlanmak için istemci kitaplıkları](/azure/analysis-services/analysis-services-data-providers).
 
 ## <a name="supported-write-operations"></a>Desteklenen yazma işlemleri
 
 Veri kümesi meta verileri, geliştiricilerin özel uygulamalar oluşturması için Tablosal Nesne Modeli (TOM) temelli istemci kitaplıkları üzerinden kullanıma sunulur. Bu, Tablosal Düzenleyici gibi açık kaynaklı topluluk araçları ve Visual Studio’nun henüz Power BI Desktop’ta desteklenmeyen, ancak Analysis Services altyapısı tarafından desteklenen ek veri modellemesi ve dağıtım özellikleri sunmasına olanak verir. Ek veri modelleme işlevi şunları içerir:
 
-- Hesaplama yeniden kullanılabilirliği ve karmaşık modellerin basitleştirilmiş kullanımına yönelik [hesaplama grupları](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current).
+- Hesaplama yeniden kullanılabilirliği ve karmaşık modellerin basitleştirilmiş kullanımına yönelik [hesaplama grupları](/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current).
 
-- Çok dilli raporları ve veri kümelerini desteklemeye yönelik [meta veri çevirileri](https://docs.microsoft.com/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current).
+- Çok dilli raporları ve veri kümelerini desteklemeye yönelik [meta veri çevirileri](/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current).
 
-- Veri kümesi meta verilerinin odaklanmış, iş alanına özgü görünümlerini tanımlamaya yönelik [perspektifler](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current).
+- Veri kümesi meta verilerinin odaklanmış, iş alanına özgü görünümlerini tanımlamaya yönelik [perspektifler](/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current).
 
 Nesne düzeyinde güvenlik (OLS) henüz Power BI Premium veri kümelerinde desteklenmiyor.
 
@@ -149,7 +149,7 @@ XMLA uç noktası üzerinden erişim, çalışma alanı/uygulama düzeyine ayarl
 
 Çalışma alanına katkıda bulunanlar ve daha üst düzeydekiler veri kümesine yazma erişimine sahip olduklarından, Analysis Services veritabanı yöneticileriyle eşit haklara sahiptir. Bu kişiler, Visual Studio’dan yeni veri kümeleri dağıtıp SSMS’de TMSL betiklerini yürütebilir.
 
-Sunucu düzeyinde izlemeler ve [EffectiveUserName](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) bağlantı/dize özelliğini kullanarak kullanıcıların kimliğine bürünme gibi Analysis Services sunucu yöneticisi izinleri (veritabanı yöneticisi yerine) gerektiren işlemler şu anda Power BI Premium’da desteklenmiyor.
+Sunucu düzeyinde izlemeler ve [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) bağlantı/dize özelliğini kullanarak kullanıcıların kimliğine bürünme gibi Analysis Services sunucu yöneticisi izinleri (veritabanı yöneticisi yerine) gerektiren işlemler şu anda Power BI Premium’da desteklenmiyor.
 
 Veri kümesinde [Oluşturma iznine](../connect-data/service-datasets-build-permissions.md) sahip olan diğer kullanıcılar, Analysis Services veritabanı okuyucularıyla eşit haklara sahiptir. Bu kişiler, veri kullanımı ve görselleştirmesi için veri kümelerine bağlanıp göz atabilirler. Satır düzeyi güvenlik (RLS) kuralları kabul edilir ve bu kişiler iç veri kümesi meta verilerini görüntüleyemez.
 
@@ -210,17 +210,17 @@ Bağlandığınızda, çalışma alanı bir Analysis Services sunucusu olarak ve
 
 ![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
 
-SSM’yi betik meta verilerinde kullanma hakkında daha fazla bilgi için bkz. [Analysis Services betikleri oluşturma](https://docs.microsoft.com/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) ve [Tablosal Model Betik Dili (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current).
+SSM’yi betik meta verilerinde kullanma hakkında daha fazla bilgi için bkz. [Analysis Services betikleri oluşturma](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) ve [Tablosal Model Betik Dili (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current).
 
 ## <a name="dataset-refresh"></a>Veri kümesi yenilemesi
 
-XMLA uç noktası SSMS kullanarak hassas yenilemenin özellikleri ve TOM kullanarak PowerShell ile otomasyon, [Azure Otomasyonu](https://docs.microsoft.com/azure/automation/automation-intro) ile [Azure İşlevleri](https://docs.microsoft.com/azure/azure-functions/functions-overview) gibi çok çeşitli senaryolar sunar. Örneğin, tüm geçmiş verileri yeniden yüklemek zorunda kalmadan, belirli geçmiş bölümlerde [artımlı yineleme](service-premium-incremental-refresh.md) yapabilirsiniz.
+XMLA uç noktası SSMS kullanarak hassas yenilemenin özellikleri ve TOM kullanarak PowerShell ile otomasyon, [Azure Otomasyonu](/azure/automation/automation-intro) ile [Azure İşlevleri](/azure/azure-functions/functions-overview) gibi çok çeşitli senaryolar sunar. Örneğin, tüm geçmiş verileri yeniden yüklemek zorunda kalmadan, belirli geçmiş bölümlerde [artımlı yineleme](service-premium-incremental-refresh.md) yapabilirsiniz.
 
 Power BI hizmetinde yenilemeyi yapılandırmanın aksine, XMLA uç noktası üzerinden yapılan yenileme işlemleri günlük 48 yenileme işlemiyle sınırlı değildir ve [zamanlanan yenileme zaman aşımı](../connect-data/refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) uygulanmaz.
 
 ## <a name="dynamic-management-views-dmv"></a>Dinamik Yönetim Görünümleri (DMV)
 
-Analysis Services [DMV’leri](https://docs.microsoft.com/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) veri kümesi meta verilerine, veri kökenine ve kaynak kullanımına yönelik görünürlük sağlar. XMLA uç noktası üzerinden Power BI’da sorgulama yapmak için kullanılan DMV’ler, en fazla veritabanı/yönetici izinleri gerekenlerle sınırlıdır. Örneğin, bazı DMV’ler için Analysis Services sunucu/yönetici izinleri gerektiğinden bunlara erişilemez.
+Analysis Services [DMV’leri](/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) veri kümesi meta verilerine, veri kökenine ve kaynak kullanımına yönelik görünürlük sağlar. XMLA uç noktası üzerinden Power BI’da sorgulama yapmak için kullanılan DMV’ler, en fazla veritabanı/yönetici izinleri gerekenlerle sınırlıdır. Örneğin, bazı DMV’ler için Analysis Services sunucu/yönetici izinleri gerektiğinden bunlara erişilemez.
 
 ## <a name="power-bi-desktop-authored-datasets"></a>Power BI Desktop’ta yazılan veri kümeleri
 
@@ -233,7 +233,7 @@ Power BI Desktop’ta yazılan ve gelişmiş meta verilere ihtiyaç duyan bir Pr
 
 ### <a name="data-source-declaration"></a>Veri kaynağı bildirimi
 
-Veri kaynaklarına bağlanılıp veriler sorgulanırken Power BI Desktop, satır içi veri kaynağı bildirimi olarak Power Query M ifadelerini kullanır. Power Query M satır içi veri kaynağı bildirimi Power BI Premium çalışma alanlarında desteklenirken, Azure Analysis Services veya SQL Server Analysis Services tarafından desteklenmez. Bunun yerine Visual Studio gibi Analysis Services veri modelleme araçları, meta verileri *yapılandırılmış* ve/veya *sağlayıcı* veri kaynağı bildirimleri kullanarak oluşturur. XMLA uç noktası sayesinde Power BI Premium, yapılandırılmış ve sağlayıcı veri kaynaklarını da destekler. Ancak bu destek, Power BI Desktop modellerinde Power Query M satır içi veri kaynağı bildirimlerinin bir parçası olarak yer almaz. Daha fazla bilgi için bkz. [Sağlayıcıları anlama](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource#understanding-providers).
+Veri kaynaklarına bağlanılıp veriler sorgulanırken Power BI Desktop, satır içi veri kaynağı bildirimi olarak Power Query M ifadelerini kullanır. Power Query M satır içi veri kaynağı bildirimi Power BI Premium çalışma alanlarında desteklenirken, Azure Analysis Services veya SQL Server Analysis Services tarafından desteklenmez. Bunun yerine Visual Studio gibi Analysis Services veri modelleme araçları, meta verileri *yapılandırılmış* ve/veya *sağlayıcı* veri kaynağı bildirimleri kullanarak oluşturur. XMLA uç noktası sayesinde Power BI Premium, yapılandırılmış ve sağlayıcı veri kaynaklarını da destekler. Ancak bu destek, Power BI Desktop modellerinde Power Query M satır içi veri kaynağı bildirimlerinin bir parçası olarak yer almaz. Daha fazla bilgi için bkz. [Sağlayıcıları anlama](/azure/analysis-services/analysis-services-datasource#understanding-providers).
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Canlı bağlanma modunda Power BI Desktop
 
@@ -269,7 +269,3 @@ Daha fazla bilgi için bkz.  [Power BI’ı denetleme](service-admin-auditing.
 ## <a name="see-also"></a>Ayrıca bkz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-
-
-

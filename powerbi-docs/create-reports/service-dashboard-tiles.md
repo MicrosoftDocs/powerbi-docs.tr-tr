@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219686"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861441"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 
@@ -42,7 +42,7 @@ Bir panoya kutucuk eklemenin (sabitlemenin) birçok farklı yolu vardır. Kutucu
 * [Başka bir panodan](service-pin-tile-to-another-dashboard.md)
 * [OneDrive İş'teki Excel çalışma kitabı](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (Hızlı Öngörüler)](service-insights.md)
-* [Power BI Rapor Sunucusu veya SQL Server Reporting Services içindeki bir şirket içi sayfalandırılmış rapordan](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Power BI Rapor Sunucusu veya SQL Server Reporting Services içindeki bir şirket içi sayfalandırılmış rapordan](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 [Kutucuk ekle](service-dashboard-add-widget.md) denetimini kullanarak doğrudan pano üzerinde resimler, metin kutuları, videolar, akış verileri ve web içeriği için tek başına kutucuklar oluşturabilirsiniz.
 

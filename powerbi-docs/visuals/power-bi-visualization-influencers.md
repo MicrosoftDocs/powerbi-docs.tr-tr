@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557291"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861326"
 ---
 # <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 
@@ -241,7 +241,7 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Ölçü veya özetlenmiş sütun olan bir ölçümü analiz etme
 
-Ölçü veya özetlenmiş sütun söz konusu olduğunda analiz varsayılan olarak [yukarıda](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) açıklanan **Sürekli Çözümleme Türü** olur. Bu değiştirilemez. Ölçüyü/Özetlenmiş sütunu analiz etmekle özetlenmemiş bir sayısal sütunu analiz etmek arasındaki en büyük fark analizin çalıştırılma düzeyidir.
+Ölçü veya özetlenmiş sütun söz konusu olduğunda analiz varsayılan olarak [yukarıda](#analyze-a-metric-that-is-numeric) açıklanan **Sürekli Çözümleme Türü** olur. Bu değiştirilemez. Ölçüyü/Özetlenmiş sütunu analiz etmekle özetlenmemiş bir sayısal sütunu analiz etmek arasındaki en büyük fark analizin çalıştırılma düzeyidir.
 
 Özetlenmemiş sütunlar söz konusu olduğunda analiz her zaman tablo düzeyinde çalıştırılır. Yukarıdaki ev fiyatı örneğinde, ev fiyatının artmasını/düşmesini nelerin etkilediğini görmek için **Ev Fiyatı** ölçümünü analiz etmiştik. Analiz otomatik olarak tablo düzeyinde çalıştırıldı. Tablomuzda her ev için benzersiz bir kimlik olduğundan analiz ev düzeyinde çalıştırıldı.
 
@@ -255,7 +255,7 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde öğrenebileceği desenler bulması zor olacaktır. Daha iyi sonuçlar elde etmek için analizi daha ayrıntılı düzeyde çalıştırmalıyız. Ev fiyatını ev düzeyinde analiz etmek isteseydik analize açıkça **ID** (Kimlik) alanını eklememiz gerekecekti. Bununla birlikte ev kimliğinin bir etmen olarak değerlendirilmesini istemiyoruz. Ev kimliği yükseldikçe ev fiyatının yükseldiğini öğrenmek yararlı bir bilgi değil. İşte bu noktada **Genişletme Ölçütü** alanı seçeneği yararlı oluyor. Yeni etmenler aramadan analizin düzeyini ayarlamak amacıyla kullanmak istediğiniz alanları eklemek için **Genişletme Ölçütü**'nü kullanabilirsiniz.
 
-**Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
+**Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
 
 ![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

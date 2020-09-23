@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240257"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861671"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI'da veri akışlarını oluşturma ve kullanma
 
@@ -77,7 +77,7 @@ Sorgu Düzenleyicisi'nin her adımda oluşturduğu kodu görmek veya kendi şeki
 
 Veri akışı varlıkları, iş verilerinizi Common Data Model ile (Microsoft’un standartlaştırılmış şeması) kolayca eşlemenizi, bunu Microsoft ve üçüncü taraf verileriyle zenginleştirmenizi, makine öğrenmesine basitleştirilmiş erişim elde etmenizi sağlayan yeni araçlar içerir. İş verilerinize zeka ve eyleme dönüştürülebilir içgörüler getirmek için bu yeni özelliklerden yararlanılabilir. Sorguları Düzenleme adımındaki tüm dönüştürmeleri tamamladıktan sonra, veri kaynağı tablolarınızdaki sütunları Common Data Model ile de tanımlanan standart varlık alanlarına eşleyebilirsiniz. Standart varlıkların ortak veri modeliyle tanımlanan, bilinen bir şeması vardır.
 
-[Ortak Veri Modeli nedir?](https://docs.microsoft.com/powerapps/common-data-model/overview) makalesinde, bu yaklaşım hakkında ve Ortak Veri Modeli hakkında daha fazla bilgi bulabilirsiniz.
+[Ortak Veri Modeli nedir?](/powerapps/common-data-model/overview) makalesinde, bu yaklaşım hakkında ve Ortak Veri Modeli hakkında daha fazla bilgi bulabilirsiniz.
 
 Veri akışınızla Ortak Veri Modeli'nden yararlanmak için, **Sorguları Düzenle** iletişim kutusunda **Standart ile Eşle**'ye tıklayın. Görüntülenen **Varlıkları Eşle** ekranında, eşlemek istediğiniz standart varlığı seçebilirsiniz.
 
@@ -175,7 +175,7 @@ Bu makalede kendi **veri akışınızı** oluşturma ve bundan yararlanmak için
 * [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
 * [GitHub'da Ortak Veri Modeli şeması ve varlıkları hakkında daha fazla bilgi edinin](https://github.com/Microsoft/CDM)
 
 İlgili Power BI Desktop makaleleri:

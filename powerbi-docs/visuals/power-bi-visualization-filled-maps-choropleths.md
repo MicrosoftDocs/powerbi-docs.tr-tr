@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d53721b6a759410b873cc04deb919dd37ebc5b07
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240275"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861648"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI'da kartogram (koroplet harita) oluşturma ve kullanma
 
@@ -129,12 +129,10 @@ Power BI Desktop'ta veri kümesini düzenleme izniniz varsa haritalarla ilgili k
 
 Enlem ve boylam verilerine erişiminiz yoksa ama veri kümesi üzerinde düzenleme erişiminiz varsa [veri kümenizi güncelleştirmek için bu yönergeleri izleyin](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
-Harita görselleştirmeleri hakkında daha fazla yardım için bkz. [Harita görselleştirmeleri için ipuçları ve püf noktaları](../power-bi-map-tips-and-tricks.md).
+Harita görselleştirmeleri hakkında daha fazla yardım için bkz. [Harita görselleştirmeleri için ipuçları ve püf noktaları](./power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Şekil haritası](desktop-shape-map.md)
 
 [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-

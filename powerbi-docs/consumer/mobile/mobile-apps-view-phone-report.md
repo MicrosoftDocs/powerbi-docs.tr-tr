@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220299"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856166"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Telefonunuz için en iyi duruma getirilmiş Power BI raporlarını görüntüleme
 
@@ -115,7 +115,7 @@ Birkaç farklı türde detaya gitme bulunur:
 
 ## <a name="drill-through-from-a-value"></a>Bir değerden detaylandırma
 Detaylandırma, bir rapor sayfasındaki değerleri diğer rapor sayfalarına bağlar. Bir veri noktasından farklı bir rapor sayfasına detaylandırma yaptığınızda, detaylandırılan sayfayı filtrelemek için veri noktası değerleri kullanılır veya sayfa, seçilen verilerin bağlamında olur.
-Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](https://docs.microsoft.com/power-bi/desktop-drillthrough).
+Rapor yazarları, raporu oluştururken [detaylandırmayı tanımlayabilir](../../create-reports/desktop-drillthrough.md).
 
 1. Bir görseldeki veri noktasına uzun süreyle dokunun (dokunun ve basılı tutun).
 2. Araç ipucu görünür. Detaylandırma tanımlıysa, araç ipucu alt bilgisinde detaylandırma oku gösterilir.

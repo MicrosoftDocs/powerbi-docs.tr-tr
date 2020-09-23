@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240041"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861556"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Power BI veri akışları için geliştirici kaynakları
 
@@ -28,7 +28,7 @@ Power BI veri akışları ile çalışmak için aşağıdaki geliştirici kaynak
 
 | Veri akışı kaynağı | Açıklama |
 | --- | --- |
-| [Power BI veri akışı Rest API Başvurusu](https://go.microsoft.com/fwlink/?linkid=2047629)    | Veri akışı REST API’sine eksiksiz başvuru kılavuzu.|
+| [Power BI veri akışı Rest API Başvurusu](/rest/api/power-bi/dataflows)    | Veri akışı REST API’sine eksiksiz başvuru kılavuzu.|
 
 
 ## <a name="next-steps"></a>Sonraki Adımlar
@@ -41,9 +41,9 @@ Bu makalede veri akışları için geliştirici kaynakları hakkında bilgi veri
 * [Şirket içi veri kaynakları ile veri akışlarını kullanma](service-dataflows-on-premises-gateways.md)
 
 CDM geliştirme ve öğretici kaynakları hakkında bilgi için aşağıdakilere bakın:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
+* [CDM klasörleri](/common-data-model/data-lake)
+* [CDM model dosyası tanımı](/common-data-model/model-json)
 
 
 Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
