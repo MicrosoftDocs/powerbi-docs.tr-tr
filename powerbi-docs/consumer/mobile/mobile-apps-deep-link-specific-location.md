@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393807"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856657"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Power BI’da bulunan belirli öğelere doğrudan ulaşmak için bağlantıları kullanabilirsiniz: Rapor, Pano ve Kutucuk.
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Power BI içindeki bağlantılar, mobil uygulamalarda Power Hizmeti’nde çalıştıkları gibi çalışır.
 
-Raporunuza, farklı bir Power BI öğesine işaret eden bağlantı eklemek istiyorsanız, tarayıcı adres çubuğundan bu öğe URL’sini kopyalayabilirsiniz. [Bir rapordaki metin kutusuna köprü ekleme](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box) hakkında daha fazla bilgi edinin.
+Raporunuza, farklı bir Power BI öğesine işaret eden bağlantı eklemek istiyorsanız, tarayıcı adres çubuğundan bu öğe URL’sini kopyalayabilirsiniz. [Bir rapordaki metin kutusuna köprü ekleme](../../create-reports/service-add-hyperlink-to-text-box.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="use-report-url-with-filter"></a>Filtre ile rapor URL’si kullanma
 Power BI hizmetinde olduğu gibi, Power BI Mobil uygulamaları da filtre sorgu parametresi içeren rapor URL’lerini destekler. Raporu Power BI Mobil uygulamasında açabilir ve belirli bir durum için filtreleyebilirsiniz. Örneğin, bu URL, Satış raporunu açıp Bölgeye göre filtreler
@@ -109,7 +109,7 @@ Power BI hizmetinde olduğu gibi, Power BI Mobil uygulamaları da filtre sorgu p
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-[Raporları filtrelemek için sorgu parametreleri oluşturma](https://docs.microsoft.com/power-bi/service-url-filters) hakkında daha fazla bilgi edinin.
+[Raporları filtrelemek için sorgu parametreleri oluşturma](../../collaborate-share/service-url-filters.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 
@@ -118,4 +118,3 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 * Bizi Twitter'da takip edin: @MSPowerBI
 * [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
 * [Power BI nedir?](../../fundamentals/power-bi-overview.md)
-

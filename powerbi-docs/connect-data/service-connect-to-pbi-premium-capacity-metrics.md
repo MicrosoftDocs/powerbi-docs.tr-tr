@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937643"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861970"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Kapasite Ölçümlerine Bağlanma
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Power BI Premium Kapasite Ölçümleri uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar.
 
 ![Power BI Premium Kapasite Ölçümleri uygulaması raporu](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-Bu makalede uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Raporun içeriği ve nasıl kullanılacağı hakkında bilgi için bkz. [Uygulama ile Premium kapasiteleri izleme](../service-admin-premium-monitor-capacity.md) ve [Premium Kapasite Ölçümleri uygulaması blog gönderisi](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
+Bu makalede uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri açıklanır. Raporun içeriği ve nasıl kullanılacağı hakkında bilgi için bkz. [Uygulama ile Premium kapasiteleri izleme](../admin/service-admin-premium-monitor-capacity.md) ve [Premium Kapasite Ölçümleri uygulaması blog gönderisi](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/).
 
 Uygulamayı yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçlarınıza göre özelleştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza dağıtabilirsiniz.
 

@@ -8,11 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236083"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859049"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI raporlarında zamanlanmış yenilemeyi yapılandırma
 Power BI Rapor Sunucusu’ndaki Power BI raporunuzda yer alan verileri yenilemek için zamanlanmış bir yenileme planı oluşturmanız gerekir. Bu planı rapor sunucusunda bir Power BI raporunun *Yönet* alanından oluşturursunuz.
@@ -20,7 +21,7 @@ Power BI Rapor Sunucusu’ndaki Power BI raporunuzda yer alan verileri yenilemek
 ![Power BI raporunda başarılı zamanlanmış yenileme](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Veri kaynağı kimlik bilgilerini yapılandırma
-Zamanlanmış bir yenileme planı oluşturmak için gerekli izinlere sahip olmanız gerekir. İzinler, rapor sunucusunun rol tanımlarında açıklanmıştır. Ayrıntılar için SQL Server Reporting Services’daki [Rol tanımları - önceden tanımlanan roller](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)’e göz atın.
+Zamanlanmış bir yenileme planı oluşturmak için gerekli izinlere sahip olmanız gerekir. İzinler, rapor sunucusunun rol tanımlarında açıklanmıştır. Ayrıntılar için SQL Server Reporting Services’daki [Rol tanımları - önceden tanımlanan roller](/sql/reporting-services/security/role-definitions-predefined-roles)’e göz atın.
 
 Zamanlanmış veri yenileme planı oluşturmadan önce Power BI raporunuzda kullanılan **tüm veri kaynaklarının** kimlik bilgilerini ayarlamanız gerekir.
 
@@ -85,9 +86,8 @@ Zamanlanmış yenileme planının durumunu Web portalında görüntüleyebilirsi
 Geçerli durumu görmek için web sayfasının yenilenmesi gerekiyor. Durum otomatik olarak değişmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Zamanlama oluşturma ve değiştirme hakkında daha fazla bilgi edinmek için bkz. [Zamanlama oluşturma, değiştirme ve silme](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
+Zamanlama oluşturma ve değiştirme hakkında daha fazla bilgi edinmek için bkz. [Zamanlama oluşturma, değiştirme ve silme](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules).
 
 Zamanlanmış yenilemeyle ilgili sorunları gidermek için bkz. [Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme](scheduled-refresh-troubleshoot.md).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

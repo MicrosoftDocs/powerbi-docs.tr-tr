@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238899"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861717"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
 
@@ -26,7 +26,7 @@ Aşağıdaki listede açıklandığı gibi CDM klasörlerinden veri akışları 
 
 * Bir yöneticinin, ADLS 2. Nesil depolama hesabını kullanmadan önce Power BI’a bağlaması gerekir. ADLS 2. Nesil hesabını Power BI’a bağlamayı öğrenmek için [Azure Data Lake Storage 2. Nesil’i veri akışı depolaması için bağlama](service-dataflows-connect-azure-data-lake-storage-gen2.md) makalesine göz atın.
 * CDM klasörlerinden veri akışları oluşturma *yalnızca*[yeni çalışma alanı deneyiminde](../collaborate-share/service-create-the-new-workspaces.md) mevcuttur. 
-* Power BI’a CDM klasörü eklemek için klasörü ekleyen kullanıcının [CDM klasörü ve dosyaları için yetkilendirmeye](https://go.microsoft.com/fwlink/?linkid=2029121) sahip olması gerekir.
+* Power BI’a CDM klasörü eklemek için klasörü ekleyen kullanıcının [CDM klasörü ve dosyaları için yetkilendirmeye](./service-dataflows-azure-data-lake-integration.md) sahip olması gerekir.
 * CDM klasöründeki tüm dosyaları ve klasörleri Power BI’a eklemek için, size bu dosya ve klasörler üzerinde okuma ve yürütme izinleri verilmesi gerekir.
 
 Aşağıdaki bölümlerde bir CDM klasöründen veri akışı oluşturma işlemi açıklanmaktadır.
@@ -86,7 +86,7 @@ Aşağıdaki listede açıklandığı gibi, dikkate alınacak bazı ek unsurlar 
 
   ![Veri akışını kullanma girişimi sırasında hata oluştu](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](https://go.microsoft.com/fwlink/?linkid=2029121) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
+Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](./service-dataflows-azure-data-lake-integration.md) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
 
 
 ## <a name="next-steps"></a>Sonraki Adımlar
@@ -107,13 +107,13 @@ Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 * [Power BI veri akışları için geliştirici kaynakları](service-dataflows-developer-resources.md)
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
-* [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Depolama güvenlik kılavuzu](/azure/storage/common/storage-security-guide)
 * [Zamanlanmış yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md)
 * [Azure Veri Hizmetleri’nden github örneklerini kullanmaya başlama](https://aka.ms/cdmadstutorial)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
+* [CDM klasörleri](/common-data-model/data-lake)
+* [CDM model dosyası tanımı](/common-data-model/model-json)
 
 Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

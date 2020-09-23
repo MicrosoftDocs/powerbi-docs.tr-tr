@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236191"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859072"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Web Uygulaması Ara Sunucusu’nu ve Active Directory Federasyon Hizmetleri’ni Kullanma - Power BI Rapor Sunucusu
 
@@ -40,7 +40,7 @@ Geçerli bir Hizmet Asıl Adımız (SPN) olduğundan emin olmalıyız. Geçerli 
 
 SPN, Kerberos kimlik doğrulaması kullanan bir hizmet için benzersiz bir tanımlayıcıdır. Rapor sunucunuz için doğru bir HTTP SPN'sine sahip olduğunuzdan emin olun.
 
-Rapor sunucunuz için doğru Hizmet Asıl Adı'nı (SPN) yapılandırma hakkında bilgi almak isterseniz bkz. [Register a Service Principal Name (SPN) for a Report Server (Rapor Sunucusu için bir Hizmet Asıl Adı (SPN) kaydı yapma)](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
+Rapor sunucunuz için doğru Hizmet Asıl Adı'nı (SPN) yapılandırma hakkında bilgi almak isterseniz bkz. [Register a Service Principal Name (SPN) for a Report Server (Rapor Sunucusu için bir Hizmet Asıl Adı (SPN) kaydı yapma)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server).
 
 ### <a name="enabling-negotiate-authentication"></a>Anlaşma kimlik doğrulamasını etkinleştirme
 
@@ -56,11 +56,11 @@ Kerberos kimlik doğrulamasını kullanmak üzere bir rapor sunucusunu etkinleş
 </AuthenticationTypes>
 ```
 
-Daha fazla bilgi için bkz. [Modify a Reporting Services Configuration File (Bir Reporting Services Yapılandırma Dosyasını değiştirme)](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) ve [Configure Windows Authentication on a Report Server (Bir Rapor Sunucusunda Windows Kimlik Doğrulamasını yapılandırma)](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
+Daha fazla bilgi için bkz. [Modify a Reporting Services Configuration File (Bir Reporting Services Yapılandırma Dosyasını değiştirme)](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) ve [Configure Windows Authentication on a Report Server (Bir Rapor Sunucusunda Windows Kimlik Doğrulamasını yapılandırma)](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2. Active Directory Federasyon Hizmetleri'ni (ADFS) yapılandırma
 
-AD FS'yi ortamınızdaki bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu yapılandırma, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services).
+AD FS'yi ortamınızdaki bir Windows 2016 sunucusunda yapılandırmanız gerekir. Bu yapılandırma, Sunucu Yöneticisi aracılığıyla ve Yönet bölümündeki Rol ve Özellik Ekle seçeneği belirlenerek gerçekleştirilebilir. Daha fazla bilgi için bkz. [Active Directory Federasyon Hizmetleri](/windows-server/identity/active-directory-federation-services).
 
 AD FS sunucusunda AD FS Yönetim Uygulaması’nı kullanarak bu adımları tamamlayın.
 
@@ -93,7 +93,7 @@ AD FS sunucusunda AD FS Yönetim Uygulaması’nı kullanarak bu adımları tama
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. Web Uygulaması Ara Sunucusu’nu (WAP) yapılandırma
 
-Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bir Windows 2016 sunucusu üzerinde olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
+Ortamınızdaki bir sunucuda Web Uygulaması Ara Sunucusu (Rol) Windows Rolünü etkinleştirmeniz gerekir. Bir Windows 2016 sunucusu üzerinde olmalıdır. Daha fazla bilgi için bkz. [Web Application Proxy in Windows Server 2016 (Windows Server 2016'daki Web Uygulaması Ara Sunucusu)](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) ve [Publishing Applications using AD FS Preauthentication (AD FS Ön Kimlik Doğrulaması ile Uygulama Yayımlama)](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
 
 ### <a name="configure-constrained-delegation"></a>Kısıtlanmış temsilciyi yapılandırma
 
@@ -174,4 +174,3 @@ Bundan sonra tarayıcıdan Genel WAP URL’sine, örneğin web hizmeti için `ht
 *[Power BI Rapor Sunucusu nedir?](get-started.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

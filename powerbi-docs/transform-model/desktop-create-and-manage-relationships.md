@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239048"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861832"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, analiz yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve otomatik algılama özelliği sizin yerinize bunları yapar. Öte yandan bazen ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.
@@ -45,7 +45,7 @@ Bu hatayla karşılaşırsanız, sorunu düzeltmenin birkaç yolu vardır:
 * Benzersiz değerler içeren bir sütun oluşturmak için **Yinelenenleri Kaldır** seçeneğini kullanın. Bu yaklaşımın bir dezavantajı, yinelenen satırlar kaldırıldığında bilgileri kaybedebilirsiniz; genellikle bir anahtar (satır) iyi bir nedenle yinelenir.
 * Modele, daha sonra ilişkideki her iki özgün sütuna bağlanacak farklı anahtar değerlerinin listesinden oluşan bir ara tablo ekleyin.
 
-Daha fazla bilgi için [bu blog gönderisine](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) bakın.
+Daha fazla bilgi için [bu blog gönderisine](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message) bakın.
 
 
 ## <a name="edit-a-relationship"></a>Bir ilişkiyi düzenleme
@@ -65,7 +65,7 @@ Daha fazla bilgi için [bu blog gönderisine](https://blogs.technet.microsoft.co
 
 **Tek-çok (1:*)** : Tek-çok ilişkide bir tablodaki sütunda belirli bir değerin yalnızca bir örneği vardır ve diğer ilişkili tabloda bir değerin birden fazla örneği olabilir.
 
-**Çok-çok (\*:\*)** : Bileşik modeller sayesinde tablolar arasında çok-çok ilişki oluşturabilirsiniz; böylece tablolardaki benzersiz değerler için gereksinimler kaldırılır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Çok-çok kardinalitesine sahip ilişkiler](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
+**Çok-çok (\*:\*)** : Bileşik modeller sayesinde tablolar arasında çok-çok ilişki oluşturabilirsiniz; böylece tablolardaki benzersiz değerler için gereksinimler kaldırılır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Çok-çok kardinalitesine sahip ilişkiler](./desktop-many-to-many-relationships.md). 
 
 Kardinalitenin ne zaman değiştirileceği hakkında daha fazla bilgi için bkz. [Ek seçenekleri anlama](#understanding-additional-options).
 
@@ -358,4 +358,3 @@ Etkin ilişkiyi değiştirebilir ve **OpenedBy** tablosu yerine **SubmittedBy** 
 Bazen modelinizin birden çok tablosu olur ve bunlar arasında karmaşık ilişkiler bulunur. Power BI Desktop'taki **İlişki** görünümü modelinizdeki tüm ilişkileri, bunların yönünü ve kardinalitesini kolay anlaşılır ve özelleştirilebilir bir diyagramda gösterir. 
 
 Daha fazla bilgi edinmek için bkz. [Power BI Desktop'ta İlişki görünümüyle çalışma](desktop-relationship-view.md).
-

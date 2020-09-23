@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252096"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857094"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Yeni bir Microsoft 365 Deneme Sürümü ile Power BI uygulamasına kaydolma
 
@@ -45,7 +45,7 @@ Power BI’a e-posta adresinizle kaydolma konusunda sorun yaşıyorsanız öncel
 
     ![Yeni bir hesaba kaydolmayı seçin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
-4. Hepsi bu!  Artık Power BI’a kaydolmak için kullanabileceğiniz bir e-posta adresiniz var. [Power BI hizmetine bireysel olarak kaydolma](../service-self-service-signup-for-power-bi.md) sayfasına gidin
+4. Hepsi bu!  Artık Power BI’a kaydolmak için kullanabileceğiniz bir e-posta adresiniz var. [Power BI hizmetine bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md) sayfasına gidin
 
      ![iletişim bilgilerinizi girin](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-thank.png)
 

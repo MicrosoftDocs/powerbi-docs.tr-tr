@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: c8dd2a4313f3b78eac7bd0b9863d5403c31adc08
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236137"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859141"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Power BI mobil uygulamasının Rapor Sunucusu’na erişimini uzaktan yapılandırma
 
@@ -69,9 +69,8 @@ Artık KPI’leri ve Rapor Sunucusunda depolanmış Power BI raporlarını gör�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Azure AD Uygulama Ara Sunucusu ile Power BI Mobil’e uzaktan erişimi etkinleştirme](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Azure AD Uygulama Ara Sunucusu ile Power BI Mobil’e uzaktan erişimi etkinleştirme](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [Yönetici genel bakışı](admin-handbook-overview.md)  
 - [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

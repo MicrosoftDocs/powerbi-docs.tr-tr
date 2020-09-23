@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263006"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856818"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android cihazlarda Power BI mobil uygulaması ile çalışmaya başlama
 Android telefonlardaki Microsoft Power BI uygulaması Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. 
@@ -112,7 +112,7 @@ Android cihazı için Power BI mobil uygulamasındaki panolar ve raporların yan
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI Rapor Sunucusu ve Reporting Services web portallarındaki raporlar ve KPI'ler
 * Android cihazlardaki Power BI mobil uygulamasını kullanarak [web portalındaki raporları ve KPI'leri görüntüleme](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
-* [Web portalında KPI'ler](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
+* [Web portalında KPI'ler](/sql/reporting-services/working-with-kpis-in-reporting-services) oluşturma.
 * [Power BI Desktop'ta raporlar oluşturma ve bunları Power BI Rapor Sunucusu](../../report-server/quickstart-create-powerbi-report.md) web portalında yayımlama
 
 ### <a name="see-also"></a>Ayrıca bkz.

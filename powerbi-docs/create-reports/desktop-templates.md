@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238517"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861947"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop için rapor şablonu oluşturma
 
@@ -70,7 +70,7 @@ Parametreler ve veriler belirtildikten sonra tüm sayfaları, görselleri, veri 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 **Sorgu Parametreleri** hakkında bilgi edinmek de ilginizi çekebilir:
-* [Power BI Desktop'ta Sorgu Parametrelerini kullanma](https://docs.microsoft.com/power-query/power-query-query-parameters)
+* [Power BI Desktop'ta Sorgu Parametrelerini kullanma](/power-query/power-query-query-parameters)
 
 Bunun yanı sıra, Power BI Desktop ile yapabileceğiniz birçok şey vardır. Özellikleri hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
@@ -78,4 +78,4 @@ Bunun yanı sıra, Power BI Desktop ile yapabileceğiniz birçok şey vardır. �
 * [Power BI Desktop ile Sorgulara Genel Bakış](../transform-model/desktop-query-overview.md)
 * [Power BI Desktop'taki Veri Türleri](../connect-data/desktop-data-types.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop'taki Genel Sorgu Görevleri](../transform-model/desktop-common-query-tasks.md)    
+* [Power BI Desktop'taki Genel Sorgu Görevleri](../transform-model/desktop-common-query-tasks.md)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 5696807957d6facc62a92923dcfc888bcab2154b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237988"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861740"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 
@@ -30,7 +30,7 @@ Bir rapor sunucusunu yükseltmeden önce rapor sunucunuzu yedeklemek için aşa�
 
 ### <a name="backing-up-the-encryption-keys"></a>Şifreleme anahtarlarını yedekleme
 
-Bir rapor sunucusu yüklemesini ilk kez yapılandırırken, şifreleme anahtarlarını yedeklemeniz gerekir. Ayrıca hizmet hesaplarının kimliklerini her değiştirdiğinizde veya bilgisayarı her yeniden adlandırdığınızda da anahtarları yedeklemeniz gerekir. Daha fazla bilgi için bkz. [Reporting Services Şifreleme Anahtarlarını Yedekleme ve Geri Yükleme](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
+Bir rapor sunucusu yüklemesini ilk kez yapılandırırken, şifreleme anahtarlarını yedeklemeniz gerekir. Ayrıca hizmet hesaplarının kimliklerini her değiştirdiğinizde veya bilgisayarı her yeniden adlandırdığınızda da anahtarları yedeklemeniz gerekir. Daha fazla bilgi için bkz. [Reporting Services Şifreleme Anahtarlarını Yedekleme ve Geri Yükleme](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
 
 ### <a name="backing-up-the-report-server-databases"></a>Rapor sunucusu veritabanlarını yedekleme
 
@@ -40,7 +40,7 @@ Rapor sunucusu durum bilgisi olmayan bir sunucu olduğundan, tüm uygulama veril
 * **reportservertempdb** veritabanını yedeklemek için basit kurtarma modelini kullanın.
 * Her veritabanı için farklı yedekleme zamanlamaları kullanabilirsiniz. **reportservertempdb** veritabanının yedeklenmesinin tek nedeni, bir donanım arızası durumunda yeniden oluşturmak zorunda kalmamaktır. Donanım arızası durumunda **reportservertempdb** veritabanındaki verilerin kurtarılması gerekmez ancak tablo yapısının kurtarılması önemlidir. **reportservertempdb** veritabanını kaybetmeniz durumunda geri almanın tek yolu, rapor sunucusu veritabanını yeniden oluşturmaktır. **reportservertempdb** veritabanının yeniden oluşturulacak olması durumunda, birincil rapor sunucusu veritabanıyla aynı ada sahip olması önemlidir.
 
-SQL Server ilişkisel veritabanlarının yedeklenmesi ve kurtarılması hakkında daha fazla bilgi için bkz. [Back Up and Restore of SQL Server Databases (SQL Server Veritabanlarının Yedeklenmesi ve Geri Yüklenmesi)](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
+SQL Server ilişkisel veritabanlarının yedeklenmesi ve kurtarılması hakkında daha fazla bilgi için bkz. [Back Up and Restore of SQL Server Databases (SQL Server Veritabanlarının Yedeklenmesi ve Geri Yüklenmesi)](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
 ### <a name="backing-up-the-configuration-files"></a>Yapılandırma dosyalarını yedekleme
 
@@ -80,13 +80,13 @@ Rapor sunucusu yükseltildikten sonra tüm Power BI Rapor yazarlarının Power B
 
 * [Yönetici genel bakışı](admin-handbook-overview.md)  
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
-* [Reporting Services yüklemesini doğrulama](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-* [Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-* [Rapor sunucusu URL'lerini yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-* [Rapor sunucusu veritabanı bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-* [Bir rapor sunucusunu başlatma](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-* [Rapor sunucusunda SSL bağlantılarını yapılandırma](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-* [Configure windows service accounts and permissions (Windows hizmet hesaplarını ve izinleri yapılandırma)](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+* [Reporting Services yüklemesini doğrulama](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+* [Rapor sunucusu hizmet hesabını yapılandırma](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+* [Rapor sunucusu URL'lerini yapılandırma](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+* [Rapor sunucusu veritabanı bağlantısını yapılandırma](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+* [Bir rapor sunucusunu başlatma](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+* [Rapor sunucusunda SSL bağlantılarını yapılandırma](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+* [Configure windows service accounts and permissions (Windows hizmet hesaplarını ve izinleri yapılandırma)](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 * [Power BI Rapor Sunucusu için tarayıcı desteği](browser-support.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

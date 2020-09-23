@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034172"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857071"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 
@@ -61,10 +61,10 @@ Bu durum, **şirket içi veri ağ geçidi** kullanılarak **SQL Server Analysis 
 
 ## <a name="enforcing-tls-version-usage"></a>TLS sürümü kullanımını zorlama
 
-Ağ ve BT yöneticileri, ağ üzerinden gerçekleştirilen güvenli iletişimler için geçerli TLS (Aktarım Katmanı Güvenliği) kullanımını zorunlu kılabilir. Windows, [TLS Schannel SSP makalesinde açıklandığı gibi](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-) Microsoft Schannel Provider üzerinden TLS sürümlerini destekler.
+Ağ ve BT yöneticileri, ağ üzerinden gerçekleştirilen güvenli iletişimler için geçerli TLS (Aktarım Katmanı Güvenliği) kullanımını zorunlu kılabilir. Windows, [TLS Schannel SSP makalesinde açıklandığı gibi](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-) Microsoft Schannel Provider üzerinden TLS sürümlerini destekler.
 
-Bu zorlama kayıt defteri anahtarlarının ayarlanmasıyla sağlanabilir. Zorlama adımları [AD FS SSL Protokollerini Yönetme makalesinde](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) anlatılmıştır. 
+Bu zorlama kayıt defteri anahtarlarının ayarlanmasıyla sağlanabilir. Zorlama adımları [AD FS SSL Protokollerini Yönetme makalesinde](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs) anlatılmıştır. 
 
 **Power BI Desktop**, bu makalelerde anlatılan kayıt defteri anahtarı ayarlarını dikkate alır ve bu kayıt defteri ayarları mevcut olduğunda yalnızca izin verilen TLS sürümü kullanılarak oluşturulan bağlantılara izin verilir.
 
-Bu kayıt defteri anahtarlarını oluşturma hakkında daha fazla bilgi için [TLS Kayıt Defteri Ayarları](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) makalesini inceleyin.
+Bu kayıt defteri anahtarlarını oluşturma hakkında daha fazla bilgi için [TLS Kayıt Defteri Ayarları](/windows-server/security/tls/tls-registry-settings) makalesini inceleyin.

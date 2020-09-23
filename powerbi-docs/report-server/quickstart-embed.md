@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412015"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861878"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
@@ -24,7 +24,7 @@ Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sun
 ## <a name="prerequisites"></a>Önkoşullar
 * [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış.
 * [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması](install-powerbi-desktop.md) yüklü.
-* [SharePoint 2013, 2016 veya 2019 ortamı](https://docs.microsoft.com/sharepoint/install/install) yüklü ve yapılandırılmış.
+* [SharePoint 2013, 2016 veya 2019 ortamı](/sharepoint/install/install) yüklü ve yapılandırılmış.
 * Internet Explorer 11, belge modu IE11 (Microsoft Edge) olarak ayarlandığında veya SharePoint Online kullanılırken desteklenir. SharePoint şirket içi ve SharePoint Online ile desteklenen diğer tarayıcıları kullanabilirsiniz.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI rapor URL’si oluşturma
@@ -101,4 +101,4 @@ URL'nizi edindikten sonra, raporun barındırılması için bir SharePoint sayfa
 - [Power BI Rapor Sunucusu için Power BI raporu oluşturma](quickstart-create-powerbi-report.md).  
 - [Power BI Rapor Sunucusu için sayfalandırılmış rapor oluşturma](quickstart-create-paginated-report.md).  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/). 
+Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/).

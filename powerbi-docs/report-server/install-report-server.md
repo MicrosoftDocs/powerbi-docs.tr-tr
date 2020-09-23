@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239040"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861901"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükleme
 
@@ -93,9 +93,9 @@ Yükleme sırasında SQL Server Veritabanı Altyapısı sunucusuna ihtiyacınız
 
 ## <a name="configure-your-report-server"></a>Rapor sunucunuzu yapılandırma
 
-Kurulumda **Rapor Sunucusunu Yapılandır**'ı seçtiğinizde Reporting Services Yapılandırma Yöneticisi açılır. Daha fazla bilgi için bkz. [Reporting Services Yapılandırma Yöneticisi](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
+Kurulumda **Rapor Sunucusunu Yapılandır**'ı seçtiğinizde Reporting Services Yapılandırma Yöneticisi açılır. Daha fazla bilgi için bkz. [Reporting Services Yapılandırma Yöneticisi](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
-Reporting Services’in ilk yapılandırmasını tamamlamak için [rapor sunucusu veritabanı oluşturmanız](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) gerekir. Bu adımı tamamlamak için bir SQL Server Veritabanı sunucusu gerekir.
+Reporting Services’in ilk yapılandırmasını tamamlamak için [rapor sunucusu veritabanı oluşturmanız](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) gerekir. Bu adımı tamamlamak için bir SQL Server Veritabanı sunucusu gerekir.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Farklı bir sunucuda veritabanı oluşturma
 
@@ -109,7 +109,7 @@ Geçici çözüm için, hizmet hesabını Ağ Hizmeti veya etki alanı hesabı o
 
 ![Rapor sunucusu hizmet hesabını yapılandırma](media/install-report-server/pbireportserver-configure-account.png)
 
-Daha fazla bilgi için bkz. [Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
+Daha fazla bilgi için bkz. [Rapor sunucusu hizmet hesabını yapılandırma](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Windows Hizmeti
 
@@ -143,23 +143,23 @@ Web Hizmeti URL'niz ve Web Portalı URL'niz için yapılandırmış olduğunuz T
 
 ## <a name="additional-configuration"></a>Ek yapılandırma
 
-* Power BI panolarına rapor öğeleri sabitleyebilmek için Power BI hizmeti ile tümleştirme yapılandırmak isterseniz bkz. [Power BI hizmetiyle tümleştirme](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
-* Abonelik işlemleri için e-posta yapılandırması gerçekleştirmek isterseniz bkz. [E-posta ayarları](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) ve [Rapor sunucusunda e-posta teslimi](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
-* Web portalını, raporları görüntülemek ve yönetmek için bir rapor bilgisayarından erişilebilecek şekilde yapılandırmak isterseniz bkz. [Configure a firewall for report server access (Rapor sunucusu erişimi için güvenlik duvarını yapılandırma)](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) ve [Configure a report server for remote administration (Rapor sunucusunu uzaktan yönetim için yapılandırma)](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
-* SQL Server Management Studio’da rapor sunucusu sistem özelliklerini ayarlama işleminin ayrıntıları için bkz. [Sunucu Özellikleri Gelişmiş Sayfası](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). Aksi belirtilmedikçe, seçenekler hem Power BI Rapor Sunucusu’na hem de SQL Server Reporting Services’e uygulanır.
+* Power BI panolarına rapor öğeleri sabitleyebilmek için Power BI hizmeti ile tümleştirme yapılandırmak isterseniz bkz. [Power BI hizmetiyle tümleştirme](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
+* Abonelik işlemleri için e-posta yapılandırması gerçekleştirmek isterseniz bkz. [E-posta ayarları](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) ve [Rapor sunucusunda e-posta teslimi](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
+* Web portalını, raporları görüntülemek ve yönetmek için bir rapor bilgisayarından erişilebilecek şekilde yapılandırmak isterseniz bkz. [Configure a firewall for report server access (Rapor sunucusu erişimi için güvenlik duvarını yapılandırma)](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) ve [Configure a report server for remote administration (Rapor sunucusunu uzaktan yönetim için yapılandırma)](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
+* SQL Server Management Studio’da rapor sunucusu sistem özelliklerini ayarlama işleminin ayrıntıları için bkz. [Sunucu Özellikleri Gelişmiş Sayfası](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services). Aksi belirtilmedikçe, seçenekler hem Power BI Rapor Sunucusu’na hem de SQL Server Reporting Services’e uygulanır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Rapor sunucusu ürün anahtarınızı bulma](find-product-key.md)  
 [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
-[Reporting Services yüklemesini doğrulama](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[Rapor sunucusu hizmet hesabını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[Rapor sunucusu URL'lerini yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[Rapor sunucusu veritabanı bağlantısını yapılandırma](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-[Bir rapor sunucusunu başlatma](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[Rapor sunucusunda SSL bağlantılarını yapılandırma](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[Configure windows service accounts and permissions (Windows hizmet hesaplarını ve izinleri yapılandırma)](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+[Reporting Services yüklemesini doğrulama](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[Rapor sunucusu hizmet hesabını yapılandırma](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[Rapor sunucusu URL'lerini yapılandırma](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[Rapor sunucusu veritabanı bağlantısını yapılandırma](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+[Bir rapor sunucusunu başlatma](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[Rapor sunucusunda SSL bağlantılarını yapılandırma](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Configure windows service accounts and permissions (Windows hizmet hesaplarını ve izinleri yapılandırma)](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Power BI Rapor Sunucusu için tarayıcı desteği](browser-support.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

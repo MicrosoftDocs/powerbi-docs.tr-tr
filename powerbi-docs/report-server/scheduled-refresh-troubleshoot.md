@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698705"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861809"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
@@ -35,9 +35,9 @@ Bellek baskısı, raporların işlenmesi ve oluşturulması için daha fazla bel
 
 Bellek baskısı sorunuyla sürekli karşılaşıyorsanız kaynak yükünü dağıtmak için rapor sunucusunu daha geniş ölçekteki bir dağıtıma taşımayı tercih edebilirsiniz. rsreportserver.config dosyasındaki `IsDataModelRefreshService` ayarı ile de Veri yenileme için kullanılacak belirli bir rapor sunucusu tanımlayabilirsiniz. Bu ayarı kullanarak bir veya daha fazla sunucuyu isteğe bağlı raporları işleyecek ön uç sunucusu haline getirebilir, başka bir sunucu kümesini ise yalnızca zamanlanmış yenileme için kullanılacak şekilde ayarlayabilirsiniz.
 
-Analysis Services örneklerini izleme hakkında bilgi için bkz. [Monitor an Analysis Services Instance (bir Analysis Services örneğini izleme)](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
+Analysis Services örneklerini izleme hakkında bilgi için bkz. [Monitor an Analysis Services Instance (bir Analysis Services örneğini izleme)](/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
-Analysis Services bellek ayarları hakkında bilgi için bkz. [Memory Properties (Bellek Özellikleri)](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
+Analysis Services bellek ayarları hakkında bilgi için bkz. [Memory Properties (Bellek Özellikleri)](/sql/analysis-services/server-properties/memory-properties).
 
 ### <a name="kerberos-configuration"></a>Kerberos yapılandırması
 Windows kimlik bilgileriyle bir veri kaynağına başarılı bir bağlantı oluşturmak için Kerberos kısıtlanmış temsil yapılandırması gerekli olabilir. Kerberos kısıtlanmış temsil yapılandırması hakkında daha fazla bilgi için bkz. [Power BI raporlarını kullanmak için Kerberos'u yapılandırma](configure-kerberos-powerbi-reports.md).
@@ -180,7 +180,7 @@ Aşağıdaki ayarlar Analysis Services işlemi her çalıştırıldığında sı
 ### <a name="profiling-the-local-analysis-services-process"></a>Yerel Analysis Services işleminin profilini oluşturma
 Tanılama amacıyla yerel Analysis Services işlemi üzerinde bir SQL Profiler izlemesi çalıştırılabilir. Yerel Analysis Services örneğine bağlanmak için aşağıdakileri uygulayın.
 
-SQL Server Profiler İzlemesi, [SQL Server Management Studio (SSMS) indirilebilir dosyası](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) içinde yer almaktadır.
+SQL Server Profiler İzlemesi, [SQL Server Management Studio (SSMS) indirilebilir dosyası](/sql/ssms/download-sql-server-management-studio-ssms) içinde yer almaktadır.
 
 1. **SQL Server Profiler**'ı yönetici olarak çalıştırın.
 2. **Yeni İzleme** düğmesini seçin.
@@ -188,7 +188,6 @@ SQL Server Profiler İzlemesi, [SQL Server Management Studio (SSMS) indirilebili
 4. **İzleme özellikleri** iletişim kutusunda, yakalamak istediğiniz olayları seçin ve ardından **Çalıştır** seçeneğini belirleyin.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>Sayfaları Bellekte Kilitle adlı Windows ayrıcalığı
-Power BI raporu oluşturamadığınızı fark ederseniz Power BI Rapor Sunucusu'nun çalıştırıldığı hesaba **Sayfaları bellekte kilitle** ayrıcalığını atayabilirsiniz. **Sayfaları bellekte kilitle** ayrıcalığını yapılandırma hakkında daha fazla bilgi için bkz. [Windows privileges assigned to the Analysis Services service account (Analysis Services hizmet hesabına atanmış olan Windows ayrıcalıkları)](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
+Power BI raporu oluşturamadığınızı fark ederseniz Power BI Rapor Sunucusu'nun çalıştırıldığı hesaba **Sayfaları bellekte kilitle** ayrıcalığını atayabilirsiniz. **Sayfaları bellekte kilitle** ayrıcalığını yapılandırma hakkında daha fazla bilgi için bkz. [Windows privileges assigned to the Analysis Services service account (Analysis Services hizmet hesabına atanmış olan Windows ayrıcalıkları)](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv).
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

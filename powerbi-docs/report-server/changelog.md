@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459612"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859256"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -32,7 +32,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
             - Sorguları birleştirmek için benzer eşleşme kullanıldığında yenilemenin başarısız olmasıyla ilgili bir sorun düzeltildi.
     - *Sürüm: 1.8.7450.37410 (Derleme 15.0.1103.227), Yayın Tarihi: 27 Mayıs 2020*
          - Özellikler
-            -  Özelleştirilebilir katalog bağlantı havuzu boyutu için destek eklendi. (Daha fazla bilgi için bkz. [MaxCatalogConnectionPoolSizePerProcess ayarı](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service).)
+            -  Özelleştirilebilir katalog bağlantı havuzu boyutu için destek eklendi. (Daha fazla bilgi için bkz. [MaxCatalogConnectionPoolSizePerProcess ayarı](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service).)
             -  Yenileme işlemi sırasında rapor görüntüleme davranışı iyileştirildi.
         - Güvenlik güncelleştirmeleri
         - Hata düzeltmeleri
@@ -65,7 +65,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
            -  Belirli veri kaynakları için karşıdan yükleyemeyen Power BI raporları düzeltmesi
            -  Portaldan Power BI Rapor Sunucusu Masaüstü bağlantısı indirme konumu düzeltmesi
            -  Excel işlemesi için DynamicImageDPI düzeltmesi
-           -  Çok kullanıcılı bazı senaryolarda yanlış iş parçacığı kültürü kullanan Oracle bağlantıları düzeltmesi (daha fazla bilgi için bkz. [UseInstalledUICulture belgeleri](https://docs.microsoft.com/power-bi/report-server/connect-data-sources))
+           -  Çok kullanıcılı bazı senaryolarda yanlış iş parçacığı kültürü kullanan Oracle bağlantıları düzeltmesi (daha fazla bilgi için bkz. [UseInstalledUICulture belgeleri](./connect-data-sources.md))
            -  Rapor ekleme işleminde hatalara neden olan CustomHeaders varsayılan değerinin düzeltmesi
            -  Bazı durumlarda yanlış oluşturulan SQL parametre adlarının düzeltmesi
     - *Sürüm: 1.6.7327.3007 (Derleme 15.0.1102.759), Yayın Tarihi: 23 Ocak 2020*
@@ -351,7 +351,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
     - *Derleme 14.0.600.305, Yayın Tarihi: 19 Eylül 2017*  
         - Hata Düzeltmeleri
-            - En son [Bing Haritalar Web Denetimi](https://msdn.microsoft.com/library/mt712542.aspx) sürümüne yönelik güncelleştirme
+            - En son [Bing Haritalar Web Denetimi](/bingmaps/v8-web-control/) sürümüne yönelik güncelleştirme
 
     - *Derleme 14.0.600.301, Yayın Tarihi: 11 Temmuz 2017*
         - Hata Düzeltmeleri
@@ -373,6 +373,6 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 [Yönetici genel bakışı](admin-handbook-overview.md)  
 [Power BI Rapor Sunucusu'nu yükleme](install-report-server.md)  
 [Rapor Oluşturucusu’nu indirme](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Download SQL Server Data Tools (SSDT) (SQL Server Veri Araçlarını (SSDT) indirme)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921160"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859533"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
 İçerik ve rapor görünümünü denetlemek için Power BI Report Builder’da ifadeler sıklıkla kullanılır. Microsoft Visual Basic’te yazılan ifadeler yerleşik işlevleri, özel kodu, rapor ve grup değişkenlerini, kullanıcı tanımlı değişkenleri kullanabilir. İfadeler eşittir işaretiyle (=) başlar.   
@@ -38,7 +38,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
  Bir raporda bulunan ifadelerin çoğu işlev içerir. Bu işlevleri kullanarak verileri biçimlendirebilir, mantık uygulayabilir ve raporun meta verilerine erişebilirsiniz. Microsoft Visual Basic çalışma zamanı kitaplığındaki işlevlerin yanı sıra `xref:System.Convert` ve `xref:System.Math` ad alanlarındaki işlevleri de kullanan ifadeler yazabilirsiniz. Özel kodda işlevlere başvurular ekleyebilirsiniz. `xref:System.Text.RegularExpressions` dahil olmak üzere Microsoft .NET Framework sınıflarını da kullanabilirsiniz.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic işlevleri  
- Metin kutularında görüntülenen veya parametreler, özellikler veya raporun diğer alanları için kullanılan verileri denetlemek için Visual Basic işlevlerini kullanabilirsiniz. Bu bölüm, bu işlevlerin bazılarını gösteren örnekleri sunar. Daha fazla bilgi için MSDN’de bulunan [Visual Basic Çalışma Zamanı Kitaplığı Üyeleri](https://go.microsoft.com/fwlink/?LinkId=198941) bölümüne göz atın.  
+ Metin kutularında görüntülenen veya parametreler, özellikler veya raporun diğer alanları için kullanılan verileri denetlemek için Visual Basic işlevlerini kullanabilirsiniz. Bu bölüm, bu işlevlerin bazılarını gösteren örnekleri sunar. Daha fazla bilgi için MSDN’de bulunan [Visual Basic Çalışma Zamanı Kitaplığı Üyeleri](/dotnet/visual-basic/language-reference/runtime-library-members) bölümüne göz atın.  
   
  .NET Framework birçok özel biçim seçeneği sunar (örneğin, belirli tarih biçimlerine yönelik seçenekler). Daha fazla bilgi için bkz. [Biçimlendirme Türleri](/dotnet/standard/base-types/formatting-types).  
   
@@ -517,4 +517,3 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Premium’da sayfalandırılmış raporlar nelerdir?](paginated-reports-report-builder-power-bi.md)
-  

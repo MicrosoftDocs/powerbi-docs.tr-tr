@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642396"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859417"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI’da bulunan sayfalandırılmış raporlardaki URL parametreleri
 
@@ -170,7 +170,7 @@ XML:
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**Köprüyü aynı tarayıcı penceresine açma** Power BI’ın bu köprüyü aynı tarayıcı penceresinde açmasını sağlamak için raporunuzdaki köprü URL’sine “rdl:targetSameWindow=true” ekleyebilirsiniz. Rapora köprüler ekleme hakkında daha fazla bilgi için SQL Server Reporting Services belgelerindeki [URL’ye köprü ekleme](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) sayfasına bakın.
+**Köprüyü aynı tarayıcı penceresine açma** Power BI’ın bu köprüyü aynı tarayıcı penceresinde açmasını sağlamak için raporunuzdaki köprü URL’sine “rdl:targetSameWindow=true” ekleyebilirsiniz. Rapora köprüler ekleme hakkında daha fazla bilgi için SQL Server Reporting Services belgelerindeki [URL’ye köprü ekleme](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs) sayfasına bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

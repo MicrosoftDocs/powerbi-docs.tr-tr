@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285981"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859624"
 ---
 # <a name="trusted-third-party-connectors"></a>Güvenilen üçüncü taraf bağlayıcılar
 
@@ -24,7 +24,7 @@ Power BI'da genellikle "Veri uzantısı güvenliği" düzeyinin yüksek tutulmas
 
 Bağlayıcıyı geliştiren kişi bunu bir sertifika ile imzalayabilir ve güvenlik ayarlarınızı düşürmeye gerek kalmadan güvenli bir şekilde yüklemeniz için gerekli bilgileri sağlayabilir.
 
-Güvenlik ayarları hakkında daha fazla bilgi edinmek için [bu sayfayı](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) inceleyebilirsiniz.
+Güvenlik ayarları hakkında daha fazla bilgi edinmek için [bu sayfayı](./desktop-connector-extensibility.md) inceleyebilirsiniz.
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>Üçüncü taraf bağlayıcılarına güvenmek için kayıt defterini kullanma
 
@@ -46,4 +46,4 @@ Yönergeleri doğru bir şekilde takip ettiyseniz ve geliştiriciden doğru parm
 
 ## <a name="how-to-sign-connectors"></a>Bağlayıcıları İmzalama
 
-Sizin veya geliştiricinizin imzalaması gereken bir bağlayıcı varsa gerekli bilgilere [buradaki](https://docs.microsoft.com/power-query/handlingconnectorsigning) Power Query belgesinden ulaşabilirsiniz.
+Sizin veya geliştiricinizin imzalaması gereken bir bağlayıcı varsa gerekli bilgilere [buradaki](/power-query/handlingconnectorsigning) Power Query belgesinden ulaşabilirsiniz.

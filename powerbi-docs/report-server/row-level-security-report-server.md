@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238058"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861855"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda satır düzeyi güvenlik (RLS)
 
@@ -31,7 +31,7 @@ Varsayılan olarak, ilişkilerin tek yönlü veya çift yönlü olarak ayarlanm�
 
     ![Güvenlik filtresi uygula](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Kullanıcı adı veya oturum açma kimliğine dayalı [dinamik satır düzeyi güvenlik](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) uyguladığınızda bu kutuyu işaretleyin. 
+Kullanıcı adı veya oturum açma kimliğine dayalı [dinamik satır düzeyi güvenlik](/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) uyguladığınızda bu kutuyu işaretleyin. 
 
 Daha fazla bilgi edinmek için [Power BI Desktop'ta DirectQuery'yi kullanarak çift yönlü çapraz filtreleme](../transform-model/desktop-bidirectional-filtering.md) makalesine ve [Tablolu BI Anlam Modelinin Güvenliğini Sağlama](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) başlıklı teknik incelemeye bakın.
 
@@ -122,4 +122,3 @@ Evet. Power BI Rapor Sunucusu'nda zaten mevcut rolleriniz tanımlanmış ve üye
 [Yönetici el kitabı](admin-handbook-overview.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

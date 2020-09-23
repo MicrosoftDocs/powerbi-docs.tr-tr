@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204579"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856855"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
@@ -39,7 +39,7 @@ KAG yalnızca veri kümeleri için geçerlidir. Gönderme veri kümeleri, Excel 
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> Bu cmdlet için Power BI yönetim modülü v1.0.840 gerekir. Get-InstalledModule -Name MicrosoftPowerBIMgmt komutunu kullanarak sahip olduğunuz sürümü görebilirsiniz. Son sürümü yüklemek için Install-Module -Name MicrosoftPowerBIMgmt komutunu çalıştırın. Power BI cmdlet'i ve parametreleri hakkında daha fazla bilgi için bkz. [Power BI PowerShell cmdlet modülü](https://docs.microsoft.com/powershell/power-bi/overview).
+> Bu cmdlet için Power BI yönetim modülü v1.0.840 gerekir. Get-InstalledModule -Name MicrosoftPowerBIMgmt komutunu kullanarak sahip olduğunuz sürümü görebilirsiniz. Son sürümü yüklemek için Install-Module -Name MicrosoftPowerBIMgmt komutunu çalıştırın. Power BI cmdlet'i ve parametreleri hakkında daha fazla bilgi için bkz. [Power BI PowerShell cmdlet modülü](/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault'u yapılandırma
 
@@ -193,7 +193,7 @@ Power BI kiracınızda KAG'nin yönetilmesine yardımcı olmak için ek cmdlet'l
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI PowerShell cmdlet modülü](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Power BI PowerShell cmdlet modülü](/powershell/power-bi/overview) 
 
 * [Power BI'da çalışmanızı paylaşmanın yolları](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI kiracınızda KAG'nin yönetilmesine yardımcı olmak için ek cmdlet'l
 * [SharePoint Online'da rapor web bölümüyle ekleme](../collaborate-share/service-embed-report-spo.md)
 
 * [Power BI'dan Web'de yayımlama](../collaborate-share/service-publish-to-web.md)
-
