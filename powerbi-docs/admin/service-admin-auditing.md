@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512068"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857715"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Tüm etkinliklerin görünmesi 24 saate kadar beklemeniz gerekebilir. Ancak genelde tüm veriler çok daha erken sunulur.
 >
 >
-Power BI REST API’sini kullanmaya ilişkin daha fazla bilgi edinmek için Power BI REST API’si başvuru belgelerinde sunulan ve denetim etkinliği olaylarını almaya ilişkin örnekleri içeren [Yönetici - Etkinlik Olaylarını Alma](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) bölümüne bakın.
+Power BI REST API’sini kullanmaya ilişkin daha fazla bilgi edinmek için Power BI REST API’si başvuru belgelerinde sunulan ve denetim etkinliği olaylarını almaya ilişkin örnekleri içeren [Yönetici - Etkinlik Olaylarını Alma](/rest/api/power-bi/admin/getactivityevents) bölümüne bakın.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet'i
 
@@ -122,7 +122,7 @@ Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri küme
 
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
 
-- Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır. Denetim günlüklerini görüntüleyebilen roller hakkında daha fazla bilgi edinmek için bkz. [Denetim günlüğünü aramaya ilişkin gereksinimler](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır. Denetim günlüklerini görüntüleyebilen roller hakkında daha fazla bilgi edinmek için bkz. [Denetim günlüğünü aramaya ilişkin gereksinimler](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
 
     Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için kullanıcıyı bu rol gruplarından birine üye olarak ekleyin. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 

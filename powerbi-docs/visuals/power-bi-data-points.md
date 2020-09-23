@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240130"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857738"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
 
@@ -41,7 +41,7 @@ Her bir strateji için, görselleştirilmekte olan verilerin şekline ve türün
 ## <a name="statistics"></a>İstatistik
 Belirli modeller, belirli sütunlar için değer sayısıyla ilgili istatistikler sağlayabilir. Bu tür bilgiler mevcut olduğunda, bir görselin bir strateji için değer sayısını açıkça geçersiz kılmaması durumunda birden çok hiyerarşi genelinde daha iyi dengeleme sağlamak için bu bilgilerden yararlanırız.
 
-Daha fazla bilgi için bkz. [Analysis Services’taki yenilikler](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+Daha fazla bilgi için bkz. [Analysis Services’taki yenilikler](/sql/analysis-services/what-s-new-in-analysis-services)
 
 ## <a name="dynamic-limits"></a>Dinamik sınırlar
 Yukarıdaki stratejilere ek olarak, iki gruplandırma sütunu hiyerarşisi (eksen ve gösterge veya kategori ve seri) içeren görseller, *dinamik sınırlar* adı verilen ek bir strateji kullanır.  Dinamik sınırlar, veri noktalarını daha iyi dengelemek için tasarlanmıştır. 
@@ -50,7 +50,7 @@ Dinamik sınırlar, seyrek veriler için statik sınırlardan daha iyi nokta se�
 
 Sunucu aşağıda ayrıntıları verilen özelliklere sahip olduğunda dinamik sınırlar otomatik olarak uygulanır:
 
-* [Sunucudaki SuperDax özelliklerinden yararlanılarak](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/) Şirket içi SSAS 2016 veya daha yüksek sürüm ile Power BI Desktop’ta
+* [Sunucudaki SuperDax özelliklerinden yararlanılarak](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3) Şirket içi SSAS 2016 veya daha yüksek sürüm ile Power BI Desktop’ta
 
 * İçeri aktarılan bir model, Doğrudan Sorgu, hizmetle canlı bağlantı veya AS PaaS ile canlı bağlantı kullanılırken Masaüstü ve Power BI hizmetinde. 
 
@@ -132,7 +132,7 @@ Azaltma stratejisi yoktur
 - Değerler: Aynı anda 200 satırlık Pencere kullanılarak sanallaştırma
 
 ### <a name="scatter-chart-high-density"></a>Dağılım grafiği (yüksek yoğunluklu)
-Bkz. [Yüksek yoğunluklu dağılım](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+Bkz. [Yüksek yoğunluklu dağılım](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>Pasta
 - Maksimum nokta sayısı: 3.500

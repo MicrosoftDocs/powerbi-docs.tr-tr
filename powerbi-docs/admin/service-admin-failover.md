@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782331"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857439"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -54,7 +55,7 @@ Power BI destek sayfasına bildirim gönderilir ([https://powerbi.microsoft.com/
 
 Yük devretme işleminin gerçekleştirilmesi gerektiği belirlendikten sonra Power BI'ın yeniden çalışmaya başlaması yaklaşık olarak 15 dakika sürer. Yük devretmenin gerekli olduğunu belirlemek için harcanan zaman bozuk senaryoya bağlı olarak değişir. 
 
-Yük devretme kararı verildikten sonra Power BI, yük devretmeyi gerçekleştirmek için Azure Depolama coğrafi çoğaltmayı kullanır. Bu tür çoğaltma işlemleri genellikle 15 dakikalık bir dönüş noktasına sahiptir ancak [Azure Depolama bu zaman dilimini bir SLA ile garanti etmez](https://docs.microsoft.com/azure/storage/common/storage-redundancy) ve bu nedenle Power BI da bir zaman dilimini garanti edemez. 
+Yük devretme kararı verildikten sonra Power BI, yük devretmeyi gerçekleştirmek için Azure Depolama coğrafi çoğaltmayı kullanır. Bu tür çoğaltma işlemleri genellikle 15 dakikalık bir dönüş noktasına sahiptir ancak [Azure Depolama bu zaman dilimini bir SLA ile garanti etmez](/azure/storage/common/storage-redundancy) ve bu nedenle Power BI da bir zaman dilimini garanti edemez. 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Premium kapasitem kullanılamaz duruma gelirse çalışma alanlarıma ve raporlarıma ne olur? 
 

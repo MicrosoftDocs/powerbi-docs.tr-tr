@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75c1d76d5fbdfc0d844e69ef0f76ced7cd2e302d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292950"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858336"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI’da çok boyutlu modellerle çalışma
 
 Power BI'da çok boyutlu modellere bağlanabilir ve modelin içindeki her tür veriyi görselleştiren raporlar oluşturabilirsiniz. Çok boyutlu modellerle çalışırken, Power BI *varsayılan üye* olarak hangi sütunun tanımlandığına dayanarak verileri nasıl işleyeceğine ilişkin kurallar uygular. 
 
-Çok boyutlu modellerle çalışırken, Power BI modelden gelen verileri **DefaultMember** özniteliğini içeren sütunun nerede kullanıldığına dayanarak işler. Çok boyutlu modeldeki belirli bir sütun için *DefaultMember* özniteliği CSDL'de (Kavramsal Şema Tanımlama Dili) ayarlanır. [Öznitelik özellikleri makalesinde](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017), varsayılan üye hakkında bilgi edinebilirsiniz. DAX sorgusu yürütüldüğünde, modelde belirtilen varsayılan üye otomatik olarak uygulanır.
+Çok boyutlu modellerle çalışırken, Power BI modelden gelen verileri **DefaultMember** özniteliğini içeren sütunun nerede kullanıldığına dayanarak işler. Çok boyutlu modeldeki belirli bir sütun için *DefaultMember* özniteliği CSDL'de (Kavramsal Şema Tanımlama Dili) ayarlanır. [Öznitelik özellikleri makalesinde](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017), varsayılan üye hakkında bilgi edinebilirsiniz. DAX sorgusu yürütüldüğünde, modelde belirtilen varsayılan üye otomatik olarak uygulanır.
 
 Bu makalede, *varsayılan üyenin* nerede bulunduğuna bağlı olarak Power BI'ın çok boyutlu modellerle çalışırken çeşitli koşullarda nasıl davrandığı açıklandı. 
 

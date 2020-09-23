@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239759"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857922"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Çalışma alanının veri akışı ayarlarını yapılandırma (Önizleme)
 
@@ -128,13 +128,13 @@ Genel veri akışları hakkında bilgi için şu makalelere göz atın:
 
 Azure depolama hakkında daha fazla bilgi için şu makaleleri okuyabilirsiniz:
 
-* [Azure Depolama güvenlik kılavuzu](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Depolama güvenlik kılavuzu](/azure/storage/common/storage-security-guide)
 * [Azure Veri Hizmetleri’nden github örneklerini kullanmaya başlama](https://aka.ms/cdmadstutorial)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
 
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM klasörleri](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM model dosyası tanımı](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)
+* [CDM klasörleri](/common-data-model/data-lake)
+* [CDM model dosyası tanımı](/common-data-model/model-json)
 
 Ayrıca her zaman [Power BI Topluluğuna soru sormayı](https://community.powerbi.com/) deneyebilirsiniz.

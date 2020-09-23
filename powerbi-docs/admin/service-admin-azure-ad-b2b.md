@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161388"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857623"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -151,7 +151,7 @@ Konuk kullanıcının, kendi kuruluşları aracılığıyla zaten onlara atanmı
 
 * Dış konuk kullanıcıların kuruluşunuz genelinde yapabileceklerini sınırlayabilen Azure Active Directory ayarları vardır. Bu ayarlar Power BI ortamınıza da uygulanır. Aşağıdaki belgelerde bu ayarlar açıklanır:
   * [Dış İşbirliği Ayarlarını Yönetme](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [Belirli kuruluşlardan B2B kullanıcılarına gönderilen davetlere izin verme veya engelleme](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [Belirli kuruluşlardan B2B kullanıcılarına gönderilen davetlere izin verme veya engelleme](/azure/active-directory/b2b/allow-deny-list)
   * [Erişime izin vermek veya erişimi engellemek için Koşullu Erişim kullanma](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * GCC gibi bir kamu bulutundaki içeriği bir dış ticari bulut kullanıcısıyla paylaşabilirsiniz. Ancak, konuk kullanıcı kendi lisansını kullanamaz. İçeriğin, erişimin etkinleştirilmesi için Premium’a atanmış bir kapasitede bulunması gerekir. Alternatif olarak, konuk hesabına bir Power BI Pro lisansı atayabilirsiniz.
@@ -162,6 +162,6 @@ Konuk kullanıcının, kendi kuruluşları aracılığıyla zaten onlara atanmı
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Satır düzeyi güvenliğin nasıl çalıştığını öğrenmek ve daha ayrıntılı bilgi edinmek için teknik incelemeyi gözden geçirin: [Azure AD B2B kullanarak Power BI içeriklerini dış konuk kullanıcılara dağıtma](https://aka.ms/powerbi-b2b-whitepaper).
+Satır düzeyi güvenliğin nasıl çalıştığını öğrenmek ve daha ayrıntılı bilgi edinmek için teknik incelemeyi gözden geçirin: [Azure AD B2B kullanarak Power BI içeriklerini dış konuk kullanıcılara dağıtma](../guidance/whitepaper-azure-b2b-power-bi.md).
 
 Azure AD B2B hakkında daha fazla bilgi için bkz. [Azure AD B2B işbirliği nedir?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/).

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230885"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858162"
 ---
 # <a name="azure-and-power-bi"></a>Azure ve Power BI
 
@@ -66,4 +66,4 @@ Daha fazla bilgi için bkz. [Azure’daki Power BI Embedded nedir?](../developer
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure ve Power BI ile neler yapabilirsiniz?
 
-**Azure** ve **Power BI**'ın birlikte kullanılabileceği farklı türde birçok senaryo vardır. Olasılıklar ve fırsatlar işletmeniz kadar benzersizdir. **Azure hizmetleri** hakkında daha fazla bilgi için bu [genel bakış sayfasını](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment) inceleyin. Bu sayfada **Azure'ın kullanıldığı Veri Analizi Senaryolarının** yanı sıra veri kaynaklarınızı işletmenize avantaj sağlayacak iş zekasına dönüştürme yöntemlerine yer verilmiştir.
+**Azure** ve **Power BI**'ın birlikte kullanılabileceği farklı türde birçok senaryo vardır. Olasılıklar ve fırsatlar işletmeniz kadar benzersizdir. **Azure hizmetleri** hakkında daha fazla bilgi için bu [genel bakış sayfasını](/azure/machine-learning/team-data-science-process/plan-your-environment) inceleyin. Bu sayfada **Azure'ın kullanıldığı Veri Analizi Senaryolarının** yanı sıra veri kaynaklarınızı işletmenize avantaj sağlayacak iş zekasına dönüştürme yöntemlerine yer verilmiştir.

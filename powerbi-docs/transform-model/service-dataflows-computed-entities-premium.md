@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0b43864078e52381aa92e6e16366ba4fdf5fea29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79ab3a38a6f1df97b445c06adf13a4b53af30d87
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239754"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858037"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium’da hesaplanan varlıkları kullanma
 
@@ -95,4 +95,4 @@ Power Query ve zamanlanmış yenileme hakkında daha fazla bilgi için şu makal
 * [Zamanlanmış yenileme yapılandırma](../connect-data/refresh-scheduled-refresh.md)
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:
-* [Ortak Veri Modeli - genel bakış ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Ortak Veri Modeli - genel bakış ](/powerapps/common-data-model/overview)

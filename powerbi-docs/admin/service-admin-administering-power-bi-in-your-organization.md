@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161342"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857600"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI yönetimi nedir?
 
@@ -25,7 +25,7 @@ Power BI yönetimi, Power BI’ın nasıl çalıştığını denetleyen kuruluş
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI ile ilgili yönetici rolleri
 
-Kuruluşunuz için Power BI’ı yönetmek üzere birlikte çalışan birkaç rol vardır. Çoğu yönetici rolü Microsoft 365 yönetim merkezinden veya PowerShell kullanılarak atanır. Kapasite oluşturulduğunda, Power BI Premium Kapasitesi ve Power BI Embedded Kapasitesi yönetici rolleri atanır. Yönetici rollerinin her biri hakkında daha fazla bilgi edinmek için bkz. [Yönetici rolleri hakkında](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). Yönetici rollerini atamayı öğrenmek için bkz. [Yönetici rolleri atama](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
+Kuruluşunuz için Power BI’ı yönetmek üzere birlikte çalışan birkaç rol vardır. Çoğu yönetici rolü Microsoft 365 yönetim merkezinden veya PowerShell kullanılarak atanır. Kapasite oluşturulduğunda, Power BI Premium Kapasitesi ve Power BI Embedded Kapasitesi yönetici rolleri atanır. Yönetici rollerinin her biri hakkında daha fazla bilgi edinmek için bkz. [Yönetici rolleri hakkında](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). Yönetici rollerini atamayı öğrenmek için bkz. [Yönetici rolleri atama](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide).
 
 | **Yönetici türü** | **Yönetim kapsamı** | **Power BI görevleri** |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Power BI yöneticileri çoğunlukla Power BI yönetici portalında çalışır. 
 | | Bilgi idaresi |
 | [Azure portalında Azure Active Directory (AAD)](https://aad.portal.azure.com) | Power BI kaynaklarına koşullu erişimi yapılandırma |
 | | Power BI Embedded kapasitesi sağlama |
-| [PowerShell cmdlet'leri](https://docs.microsoft.com/powershell/power-bi/overview) | Betikler aracılığıyla çalışma alanlarını ve Power BI’ın diğer yönlerini yönetme |
+| [PowerShell cmdlet'leri](/powershell/power-bi/overview) | Betikler aracılığıyla çalışma alanlarını ve Power BI’ın diğer yönlerini yönetme |
 | [Yönetim API’leri ve SDK’sı](service-admin-reference.md) | Özel yönetici araçları oluşturun. Örneğin, Power BI Desktop bu API’leri kullanarak yönetimle ilgili verileri temel alan raporlar oluşturabilir. |
 
 ## <a name="next-steps"></a>Sonraki adımlar
@@ -79,7 +79,7 @@ Power BI yönetimine dahil olan özellikler hakkında temel bilgilere sahip oldu
 
 - [Power BI yönetim portalını kullanma](service-admin-portal.md)
 - [Kiracı yöneticisi ayarları rehberi](../guidance/admin-tenant-settings.md)
-- [PowerShell cmdlet’lerini kullanma](https://docs.microsoft.com/powershell/power-bi/overview)
+- [PowerShell cmdlet’lerini kullanma](/powershell/power-bi/overview)
 - [Power BI yönetimi SSS](service-admin-faq.md)
 - [Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama](service-admin-licensing-organization.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

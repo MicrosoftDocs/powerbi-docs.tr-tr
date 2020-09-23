@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402014"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964999"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI'a dağıtma
 
@@ -100,7 +100,7 @@ Dağıtım işlemi boyunca, aşağıda belirtilenler gibi tüm çözümün deste
 - **Rapor ve pano ayarları:** Her rapor ve panoya yönelik ayarları güncelleştirin ve doğrulayın. En önemli ayarlar şunlardır:
   - Açıklama
   - İlgili kişi veya grup
-  - [Duyarlılık etiketi](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [Duyarlılık etiketi](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Öne çıkan içerik](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **Abonelikler:** Gerekirse rapor abonelikleri ayarlayın.
 
@@ -136,7 +136,7 @@ Bir noktada, Power BI’a geçirilen raporların eski iş zekası platformunda d
 
 ## <a name="monitor-the-solution"></a>Çözümü izleme
 
-[Power BI etkinlik günlüğündeki](../admin/service-admin-auditing.md) (veya Power BI Rapor Sunucusu’na dağıtılan içeriğe yönelik [yürütme günlüğü](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15)) olaylar kullanılarak yeni çözümün kullanım desenlerine ilişkin bilgi edinilebilir. Etkinlik günlüğünün analiz edilmesi, gerçek kullanımın beklentilerden farklı olup olmadığının belirlenmesine yardımcı olabilir. Çözümün yeterli düzeyde desteklendiğini de doğrulayabilir.
+[Power BI etkinlik günlüğündeki](../admin/service-admin-auditing.md) (veya Power BI Rapor Sunucusu’na dağıtılan içeriğe yönelik [yürütme günlüğü](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view)) olaylar kullanılarak yeni çözümün kullanım desenlerine ilişkin bilgi edinilebilir. Etkinlik günlüğünün analiz edilmesi, gerçek kullanımın beklentilerden farklı olup olmadığının belirlenmesine yardımcı olabilir. Çözümün yeterli düzeyde desteklendiğini de doğrulayabilir.
 
 Etkinlik günlüğünün incelenmesiyle şu sorular yanıtlanabilir:
 

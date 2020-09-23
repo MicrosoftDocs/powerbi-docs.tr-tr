@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 308e34e5bf70a9999939c99667075b2e468b4df4
-ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
+ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85095668"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965029"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta satır düzeyi güvenlik (RLS) kılavuzu
 
@@ -54,9 +54,9 @@ TRUE()
 RLS, her DAX sorgusuna otomatik olarak filtre uygulayarak çalışır ve bu filtrelerin sorgu performansı üzerinde olumsuz bir etkisi olabilir. Bu nedenle, verimli RLS için modelin iyi tasarlanması gerekir. Aşağıdaki makalelerde açıklandığı şekilde, model tasarım kılavuzunu izlemek önemlidir:
 
 - [Yıldız şemasını ve Power BI açısından önemini anlama](star-schema.md)
-- [Power BI kılavuz belgelerinde](https://docs.microsoft.com/power-bi/guidance/) bulunan tüm ilişki kılavuzu makaleleri
+- [Power BI kılavuz belgelerinde](./index.yml) bulunan tüm ilişki kılavuzu makaleleri
 
-Genel anlamda, RLS filtrelerini olgu türünde tablolar yerine boyut türünde tablolarda zorunlu kılmak çoğu zaman daha verimlidir. Ayrıca, RLS filtrelerinin diğer model tablolarına yayılmasını sağlamak için iyi tasarlanmış ilişkileri kullanabilirsiniz. Bu nedenle, model ilişkileri aynı sonuca ulaşacağı zaman [LOOKUPVALUE](https://docs.microsoft.com/dax/lookupvalue-function-dax) DAX işlevini kullanmaktan kaçının.
+Genel anlamda, RLS filtrelerini olgu türünde tablolar yerine boyut türünde tablolarda zorunlu kılmak çoğu zaman daha verimlidir. Ayrıca, RLS filtrelerinin diğer model tablolarına yayılmasını sağlamak için iyi tasarlanmış ilişkileri kullanabilirsiniz. Bu nedenle, model ilişkileri aynı sonuca ulaşacağı zaman [LOOKUPVALUE](/dax/lookupvalue-function-dax) DAX işlevini kullanmaktan kaçının.
 
 DirectQuery tablolarında RLS filtreleri her zorunlu kılındığında ve diğer DirectQuery tablolarıyla ilişkiler söz konusu olduğunda, kaynak veritabanını iyileştirdiğinizden emin olun. Bu işlem için uygun dizinlerin tasarlanması veya kalıcı olarak hesaplanan sütunların kullanılması gerekebilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta DirectQuery modeli kılavuzu](directquery-model-guidance.md).
 
@@ -74,7 +74,7 @@ Power BI’da yayımlandığında, üyeleri veri kümesi rolleriyle eşlemeniz g
 
 Modeli doğru şekilde filtrelemesini sağlamak için her bir rolü test edin. Bu işlem, **Modelleme** şerit sekmesindeki **Farklı Görüntüle** komutunu kullanarak kolayca yapılır.
 
-Model [USERNAME](https://docs.microsoft.com/dax/username-function-dax) DAX işlevini kullanarak dinamik kurallara sahip olduğunda, beklenen _ve beklenmeyen_ değerleri test ettiğinizden emin olun. Power BI içeriğini eklerken (özellikle [Uygulama verilere sahiptir](../developer/embedded/embedding.md#embedding-for-your-customers) senaryosu kullanılırken) uygulama mantığı tüm değerleri etkili bir kimlik kullanıcı adı olarak geçirebilir. Mümkün olduğunda, yanlışlıkla veya kötü amaçlı kullanılan değerlerin filtrelerde satır döndürmemesini sağlayın.
+Model [USERNAME](/dax/username-function-dax) DAX işlevini kullanarak dinamik kurallara sahip olduğunda, beklenen _ve beklenmeyen_ değerleri test ettiğinizden emin olun. Power BI içeriğini eklerken (özellikle [Uygulama verilere sahiptir](../developer/embedded/embedding.md#embedding-for-your-customers) senaryosu kullanılırken) uygulama mantığı tüm değerleri etkili bir kimlik kullanıcı adı olarak geçirebilir. Mümkün olduğunda, yanlışlıkla veya kötü amaçlı kullanılan değerlerin filtrelerde satır döndürmemesini sağlayın.
 
 Uygulamanın, kullanıcının iş rolünü etkin kullanıcı adı olarak geçirdiği, Power BI Embedded kullandığınız bir örneği ele alın: Bu “Yönetici” veya “Çalışan” olabilir. Yöneticiler tüm satırları görebilir, ancak çalışanlar yalnızca **Tür** sütun değerinin “İç” olduğu satırları görebilir.
 
@@ -142,7 +142,7 @@ SUMMARIZECOLUMNS(
 
 |İlişki|Açıklama|
 |---------|---------|
-|![Akış çizelgesi sonlandırıcı 1.](media/common/icon-01-red-30x30.png)|**Salesperson** ve **Sales** tabloları arasında çoka çok ilişki vardır. RLS kuralı, [USERNAME](https://docs.microsoft.com/dax/username-function-dax) DAX işlevini kullanarak gizli **Salesperson** tablosunun **EmailAddress** sütununu filtreler. **Region** sütun değeri (rapor kullanıcısı için) **Sales** tablosuna yayılır.|
+|![Akış çizelgesi sonlandırıcı 1.](media/common/icon-01-red-30x30.png)|**Salesperson** ve **Sales** tabloları arasında çoka çok ilişki vardır. RLS kuralı, [USERNAME](/dax/username-function-dax) DAX işlevini kullanarak gizli **Salesperson** tablosunun **EmailAddress** sütununu filtreler. **Region** sütun değeri (rapor kullanıcısı için) **Sales** tablosuna yayılır.|
 |![Akış çizelgesi sonlandırıcı 2.](media/common/icon-02-red-30x30.png)|**Date** ve **Sales** tablolarında bire çok ilişkiler vardır.|
 |![Akış çizelgesi sonlandırıcı 3.](media/common/icon-03-red-30x30.png)|**Date** ve **SalesRevenueSummary** tabloları arasında bire çok ilişkiler vardır.|
 
@@ -163,7 +163,7 @@ DIVIDE(
 
 İhtiyaç duymadığınız sürece RLS’yi kullanmaktan kaçının. Statik filtreler uygulayan az sayıda basitleştirilmiş RLS kuralınız varsa bunun yerine birden çok veri kümesini yayımlamanız yararlı olabilir. Aynı veri izinlerine sahip her veri kümesi belirli bir rapor kullanıcı kitlesine yönelik veri içerdiğinden, veri kümelerinin hiçbiri rolleri tanımlamaz. Daha sonra, kitle başına bir çalışma alanı oluşturup çalışma alanına veya uygulamaya erişim izinleri atayın.
 
-Örneğin, yalnızca iki satış bölgesi olan bir şirket farklı çalışma alanlarına _her satış bölgesi için_ bir veri kümesi yayımlamaya karar verir. Veri kümeleri RLS’yi zorunlu kılmaz. Ancak, kaynak verilerini filtrelemek için [sorgu parametrelerini](https://docs.microsoft.com/power-query/power-query-query-parameters) kullanırlar. Bu yöntemle, aynı model her çalışma alanında yayımlanır, yalnızca veri kümesi parametre değerleri farklıdır. Satış personellerine yalnızca bir çalışma alanına (veya yayımlanan uygulamaya) erişim atanır.
+Örneğin, yalnızca iki satış bölgesi olan bir şirket farklı çalışma alanlarına _her satış bölgesi için_ bir veri kümesi yayımlamaya karar verir. Veri kümeleri RLS’yi zorunlu kılmaz. Ancak, kaynak verilerini filtrelemek için [sorgu parametrelerini](/power-query/power-query-query-parameters) kullanırlar. Bu yöntemle, aynı model her çalışma alanında yayımlanır, yalnızca veri kümesi parametre değerleri farklıdır. Satış personellerine yalnızca bir çalışma alanına (veya yayımlanan uygulamaya) erişim atanır.
 
 RLS’den kaçınmanın çeşitli avantajları vardır:
 
@@ -191,7 +191,7 @@ RLS beklenmeyen sonuçlar üretirse aşağıdaki sorunları denetleyin:
 Belirli bir kullanıcının hiç veri görmemesi, UPN’lerinin depolanmamasından veya yanlış girilmesinden kaynaklanabilir. Bir ad değişikliğinin sonucu olarak kullanıcı hesabı değiştiyse bu durum bir anda oluşabilir.
 
 > [!TIP]
-> Test amacıyla, [USERNAME](https://docs.microsoft.com/dax/username-function-dax) DAX işlevini döndüren bir ölçü ekleyin. Bunu “Ben Kimim?” şeklinde adlandırabilirsiniz. Daha sonra, ölçüyü rapordaki bir kart görseline ekleyip Power BI’da yayımlayın.
+> Test amacıyla, [USERNAME](/dax/username-function-dax) DAX işlevini döndüren bir ölçü ekleyin. Bunu “Ben Kimim?” şeklinde adlandırabilirsiniz. Daha sonra, ölçüyü rapordaki bir kart görseline ekleyip Power BI’da yayımlayın.
 
 Belirli bir kullanıcı tüm verileri görebiliyorsa raporlara doğrudan çalışma alanından erişiyor olabilir veya veri kümesinin sahibi olabilir. RLS yalnızca şu durumlarda zorunlu kılınır:
 
