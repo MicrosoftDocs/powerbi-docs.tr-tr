@@ -51,7 +51,9 @@
           items:
             - name: Teams’de işbirliği
               href: service-collaborate-microsoft-teams.md
-            - name: Teams’de rapor ekleme
+            - name: Power BI uygulamasını Teams’e ekleme
+              href: service-microsoft-teams-app.md
+            - name: Teams sekmelerine rapor ekleme
               href: service-embed-report-microsoft-teams.md
             - name: Doğrudan Teams’de paylaşma
               href: service-share-report-teams.md

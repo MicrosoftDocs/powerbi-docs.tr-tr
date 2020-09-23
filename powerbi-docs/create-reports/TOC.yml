@@ -269,6 +269,8 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Ayrıştırma ağacı görselleri
               href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: Akıllı açıklamalar
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Halka grafikler
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Kartogramlar (koropletler)
