@@ -28,6 +28,8 @@
           href: embedded-capacity.md
         - name: Kapasite planlaması
           href: embedded-capacity-planning.md
+        - name: Ekleme belirteci oluşturmak için dikkate alınması gerekenler
+          href: generate-embed-token.md
         - name: Performans açısından en iyi yöntemleri
           href: embedded-performance-best-practices.md
         - name: Satır düzeyi güvenlik
