@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478027"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965114"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Power BI içeriğini Microsoft Teams'e ekleme
 
@@ -30,9 +30,9 @@ Microsoft Teams'de **Power BI** sekmesini kullanmak için şunlardan emin olmal�
 - Raporu Microsoft Teams’in **Power BI** sekmesinde görmek için kullanıcıların rapor görüntüleme izni olmalıdır.
 - Kullanıcıların, kanallara ve sohbetlere erişimi olan Microsoft Teams kullanıcıları olması gerekir.
 
-Power BI ile Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-embed-report-microsoft-teams.md).
+Power BI ile Microsoft Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-embed-report-microsoft-teams.md).
 
-## <a name="embed-a-report-in-teams"></a>Teams'e rapor ekleme
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams’e rapor ekleme
 
 Raporunuzu bir Microsoft Teams kanalına veya sohbetine eklemek için bu adımları izleyin.
 
@@ -62,7 +62,7 @@ Raporunuzu bir Microsoft Teams kanalına veya sohbetine eklemek için bu adımla
 
 ## <a name="start-a-conversation"></a>Bir konuşma başlat
 
-Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor için otomatik olarak bir sekme görüşmesi oluşturur.
+Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Microsoft Teams, rapor için otomatik olarak bir sekme görüşmesi oluşturur.
 
 - Sağ üst köşedeki **Sekme konuşmasını göster** simgesini seçin.
 
@@ -74,6 +74,7 @@ Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor içi
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
+- Microsoft Teams’de, bir Power BI raporundaki görselde yer alan verileri dışarı aktardığınızda bu veriler otomatik olarak İndirmeler klasörünüze kaydedilir. Bu, “data (*n*).xlsx” adlı bir Excel dosyasıdır. Burada *n*, aynı klasöre verileri kaç kez dışarı aktardığınızı belirten bir sayıdır.
 - Power BI panolarını, Microsoft Teams için **Power BI** sekmesine ekleyemezsiniz.
 - Microsoft Teams için **Power BI** sekmesinde [URL filtreleri](service-url-filters.md) desteklenmez.
 - Yeni **Power BI** sekmesi ulusal bulutlarda kullanılamaz. Power BI uygulamalarındaki yeni çalışma alanı deneyimini veya raporları desteklemeyen eski bir sürüm kullanılabilir.

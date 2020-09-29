@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537286"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860508"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI hizmetinden yazdırma
 
@@ -49,9 +49,9 @@ Burada basılı çıktınızı biçimlendirmek için kullanabileceğiniz birkaç
 
 ## <a name="print-a-dashboard"></a>Pano yazdırma
 1. Yazdırmak istediğiniz panoyu açın.
-2. Sol üst köşede Dışarı Aktar’ı seçip **Bu sayfayı yazdır** seçeneğini belirleyin.
+2. Sol üst köşede **Dosya**’yı seçip **Bu sayfayı yazdır** seçeneğini belirleyin.
    
-    ![Panoyu yazdır seçeneği](./media/end-user-print/power-bi-dashboard-print.png)
+    ![Panoyu yazdır seçeneği](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. Tarayıcınızın Yazdır penceresi açılır. Ayarları seçin. Örneğin panonuzun genişliği uzunluğundan fazlaysa, düzeni **Yatay** olarak değiştirmek isteyebilirsiniz. **Yazdır**'ı seçin.
    
@@ -62,11 +62,13 @@ Burada basılı çıktınızı biçimlendirmek için kullanabileceğiniz birkaç
 
 3. **Diğer seçenekler**’in (...) üzerine gelip **Odak modunda aç** seçeneğini veya odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçerek [Kutucuğu odak modunda açın](end-user-focus.md).
    
-    ![üç nokta menüsü](./media/end-user-print/power-bi-menu-options.png)
+    ![üç nokta menüsü](./media/end-user-print/power-bi-focus-tile.png)
 
 4. Seçenekler menüsünün gösterilmesi için kutucuğun üzerine gelin.
    
-    ![tam ekran seçenekler menüsü](./media/end-user-print/menu-options-new.png)
+    ![tam ekran seçenekler menüsü](./media/end-user-print/power-bi-menu-option.png)
+
+    ![tam ekran modu](./media/end-user-print/power-bi-focus.png)
 
 4. Yazdır simgesini seçin ![yazdır simgesi](./media/end-user-print/print-icon.png).     
 
@@ -83,9 +85,9 @@ Burada basılı çıktınızı biçimlendirmek için kullanabileceğiniz birkaç
 ## <a name="print-a-report-page"></a>Rapor sayfası yazdırma
 Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 
-1. Geçerli rapor sayfasını yazdırmak için raporu açıp **Dışarı aktar** > **Yazdır** seçeneğini belirleyin.
+1. Geçerli rapor sayfasını yazdırmak için raporu açıp **Dosya** > **Bu sayfayı yazdır** seçeneğini belirleyin.
    
-    ![Power BI Dosya menüsü](./media/end-user-print/power-bi-report-print.png)
+    ![Power BI Dosya menüsü](./media/end-user-print/power-bi-print-report.png)
 2. Tarayıcınızın Yazdır penceresi açılır.
 
 3. Yukarıdaki **Pano yazdırma** altında verilen yazdırma adımlarını izleyin.
@@ -95,9 +97,12 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 ## <a name="print-a-report-visual"></a>Rapor görseli yazdırma
 1. [Görseli Odak modunda açmak](end-user-focus.md) için kutucuğun üzerine gelin ve sağ üst köşedeki Odak simgesini ![Odak simgesi](./media/end-user-print/power-bi-focus-icon.png) seçin.
 
-2. Görseli yazdırmak için sol üst köşedeki **Dışarı aktar** > **Yazdır** seçeneğini belirleyin.
 
-    ![Power BI Dosya menüsü](./media/end-user-print/power-bi-report-print.png)
+    ![Görseli Odak modunda açma](./media/end-user-print/power-bi-visual-focus.png)
+
+2. Görseli yazdırmak için sol üst köşedeki **Dosya** > **Bu sayfayı yazdır** seçeneğini belirleyin.
+
+    ![Power BI Dosya menüsünün ekran görüntüsü](./media/end-user-print/power-bi-visual-print.png)
 
 
 3. Yukarıdaki **Pano yazdırma** altında verilen yazdırma adımlarını izleyin.
@@ -105,9 +110,9 @@ Tek seferde yalnızca bir rapor sayfası yazdırılabilir.
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
 * S: Tüm rapor sayfalarını tek seferde yazdıramıyorum.    
-* Y: Doğru. Rapor sayfaları yalnızca tek tek yazdırılabilir.
+* C: Doğru. Rapor sayfaları yalnızca tek tek yazdırılabilir.
 * S: PDF olarak yazdıramıyorum.    
-* Y: Bu seçeneği yalnızca tarayıcınızda PDF sürücüsünü yapılandırmış olmanız durumunda görürsünüz.    
+* Y: Bu seçeneği yalnızca tarayıcınızda PDF sürücüsünü yapılandırmış olmanız halinde görürsünüz.    
 * S: **Yazdır** seçeneğini belirlediğimde görüntülediğim ekran burada gösterilen ile aynı değil.    
 * Y: Yazdır ekranları, tarayıcı ve yazılım sürümüne göre değişiklik gösterir.
 * S: Çıktım doğru ölçeklendirilmemiş.  Panom sayfaya sığmıyor. Ölçeklendirme ve yönlendirme ile ilgili diğer sorular.    

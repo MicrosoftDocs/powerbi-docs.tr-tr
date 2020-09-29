@@ -6,36 +6,50 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049264"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854219"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
-Bu makalede Power BI'daki [Microsoft Information Protection duyarlılık etiketlerinin](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide) işlevleri anlatılmaktadır. Duyarlılık etiketlerini Power BI raporlarına, panolarına, veri kümelerine ve veri akışlarına uygulama hakkında bilgi için bkz. [Power BI'da duyarlılık etiketleri uygulama](./service-security-apply-data-sensitivity-labels.md). Kiracınızda duyarlılık etiketlerini etkinleştirme hakkında bilgi için bkz. [Power BI'da veri duyarlılığı etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md).
+Bu makalede Power BI'daki Microsoft Information Protection duyarlılık etiketlerinin işlevleri anlatılmaktadır.
+
+Lisanslama gereksinimleri ve önkoşulları dahil olmak üzere kiracınızda duyarlılık etiketlerini etkinleştirme hakkında bilgi için bkz. [Power BI’da veri duyarlılığı etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md).
+
+Duyarlılık etiketlerini Power BI raporlarına, panolarına, veri kümelerine ve veri akışlarına uygulama hakkında bilgi için bkz. [Power BI'da duyarlılık etiketleri uygulama](./service-security-apply-data-sensitivity-labels.md).
+
+## <a name="introduction"></a>Giriş
 
 Microsoft Information Protection duyarlılık etiketleri, kullanıcılarınızın Power BI'daki kritik içeriği üretkenliği veya işbirliğini etkilemeden sınıflandırmasına yardımcı olan kolay bir yöntem sunar.
 
-Duyarlılık etiketleri veri kümelerine, raporlara, panolara ve veri akışlarına uygulanabilir. Excel, PowerPoint veya PDF dosyalarından Power BI'a veri aktarıldığında, bu veriler Power BI'dan dışarı aktarılırken otomatik olarak bir duyarlılık etiketi uygulanır ve etiketin sağladığı dosya şifreleme ayarlarına göre koruma sağlanır. Bu şekilde verileriniz nerede olursa olsun koruma altında olmaya devam eder.
+Duyarlılık etiketleri veri kümelerine, raporlara, panolara ve veri akışlarına uygulanabilir. Etiketlenmiş veriler Excel, PowerPoint veya PDF dosyalarına dışarı aktarılarak ya da Excel’de Analiz veya Excel’deki PivotTable’lara canlı bağlantı gibi diğer desteklenen dışarı aktarma senaryoları aracılığıyla Power BI’dan çıktığında, Power BI dışarı aktarılan dosyaya etiketi otomatik olarak uygular ve etiketin dosya şifreleme ayarlarına göre bu dosyayı korur. Bu şekilde verileriniz nerede olursa olsun koruma altında olmaya devam eder.
 
-Power BI raporlarına, panolarına, veri kümelerine ve veri akışlarına uygulanan duyarlılık etiketleri, Power BI hizmetindeki birçok noktada görünür. Raporlardaki ve panolardaki duyarlılık etiketleri ayrıca Power BI iOS ve Android mobil uygulamalarında ve başka yerlere eklenen görsellerde de görülebilir.
+Rapor, pano, veri kümesi ve veri akışlarındaki duyarlılık etiketleri, Power BI hizmetindeki birçok noktada görünür. Raporlardaki ve panolardaki duyarlılık etiketleri ayrıca Power BI iOS ve Android mobil uygulamalarında ve başka yerlere eklenen görsellerde de görülebilir.
 
 Power BI yönetim portalında bulunan [koruma ölçümleri raporu](service-security-data-protection-metrics-report.md), Power BI yöneticilerine Power BI kiracısındaki hassas veriler üzerinde tam görünürlük sağlar. Ayrıca Power BI denetim günlükleri de etiket uygulama, kaldırma ve değiştirme gibi etkinliklerin yanı sıra raporları ve panoları görüntüleme gibi etkinlikler hakkında duyarlılık etiketi bilgileri sunar. Bu sayede Power BI ve güvenlik yöneticileri izleme, araştırma ve güvenlik uyarıları amacıyla hassas verilerin kullanımı üzerinde görünürlük sahibi olur.
 
 ## <a name="important-considerations"></a>Önemli noktalar
 
-Duyarlılık etiketlemesi Power BI’daki içeriğe erişimi **etkilemez**. Power BI’daki içeriğe erişim yalnızca Power BI izinleri tarafından yönetilir. Etiketler görünür olduğundan, ilişkili şifreleme ayarlarının ([Microsoft 365 güvenlik merkezinde](https://security.microsoft.com/) veya [Microsoft 365 uyumluluk merkezinde](https://compliance.microsoft.com/) yapılandırılan) hiçbiri uygulanmaz. Yalnızca Excel, PowerPoint ve PDF dosyalarına dışarı aktarılan verilere uygulanırlar.
+Duyarlılık etiketlemesi Power BI’daki içeriğe erişimi **etkilemez**. Power BI’daki içeriğe erişim yalnızca Power BI izinleri tarafından yönetilir. Etiketler görünür olduğundan, ilişkili şifreleme ayarlarının ([Microsoft 365 güvenlik merkezinde](https://security.microsoft.com/) veya [Microsoft 365 uyumluluk merkezinde](https://compliance.microsoft.com/) yapılandırılan) hiçbiri uygulanmaz. Bunlar yalnızca Excel, PowerPoint veya PDF dosyalarına ya da desteklenen diğer dışarı aktarma yollarına dışarı aktarılarak Power BI’dan çıkan verilere uygulanır.
 
-Duyarlılık etiketleri ve dosya şifreleme Excel, PowerPoint ve PDF’ye dışarı aktarmalar dışındaki hiçbir dışarı aktarma yoluna **uygulanmaz**. Power BI kiracı yöneticisi, duyarlılık etiketlerinin ve bu etiketlerle ilişkili dosya şifreleme ayarlarının uygulanmasını desteklemeyen dışarı aktarma yollarının bir kısmını veya tamamını devre dışı bırakabilir.
+Duyarlılık etiketleri ve dosya şifreleme, desteklenmeyen dışarı aktarma yollarında **uygulanmaz**. Power BI kiracı yöneticisi, desteklenmeyen dışarı aktarma yollarından dışarı aktarmayı engelleyebilir:
 
 >[!NOTE]
 > [Satır düzeyi güvenlik (RLS)](./service-admin-rls.md), erişimlerini kısıtlamadığı sürece, bir rapora erişim izni verilen kullanıcılara temeldeki veri kümesinin tamamına erişim izni verilmiş olur. Rapor yazarları, duyarlılık etiketlerini kullanarak raporları sınıflandırıp etiketleyebilir. Duyarlılık etiketinde koruma ayarları varsa Power BI bu koruma ayarlarını rapor verilerini Excel’e, PowerPoint’e veya PDF dosyalarına aktardığında uygular. Korumalı dosyaları yalnızca yetkili kullanıcılar açabilir.
+
+## <a name="supported-export-paths"></a>Desteklenen dışarı aktarma yolları
+Duyarlılık etiketlerini ve ilgili korumaları Power BI’dan çıkan verilere uygulama işlemi şu anda aşağıdaki dışarı aktarma yolları için desteklenmektedir:
+* Excel, PowerPoint ve PDF dosyalarına dışarı aktarma.
+* Power BI veri kümesine canlı bağlantı içeren Excel dosyasındaki bir indirmeyi tetikleyen Power BI hizmetindeki Excel’de Analiz.
+* M365 E3 ve üzerine sahip kullanıcılar için Power BI veri kümesine canlı bağlantı içeren Excel’deki PivotTable. 
+
+
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Duyarlılık etiketlerinin Power BI’daki işleyişi
 
@@ -48,9 +62,7 @@ Aşağıda Power BI’da duyarlılık etiketinin işleyişi hakkında kısa bir 
 
 ![Duyarlılık etiketlerinin uygulanmasını ve kalıcılığını gösteren animasyonlu GIF](media/service-security-sensitivity-label-overview/ApplyLabelandProtection.gif)
 
-Microsoft Office uygulamalarında duyarlılık etiketi, yukarıdaki görüntüdekine benzer şekilde e-posta veya belge üzerinde etiket olarak görünür.
-
-Ayrıca, Power BI genelinde kullanılan ve paylaşılan içerikle kalıcı hale gelip dolaşan içeriğe bir sınıflandırma (etiket gibi) atayabilirsiniz. Bu sınıflandırmayı kullanarak kullanım raporları oluşturabilir ve hassas içeriğiniz için etkinlik verilerini görebilirsiniz. Bu bilgilere göre, koruma ayarlarını uygulamayı daha sonra dilediğiniz zaman seçebilirsiniz.
+İçeriğe uyguladığınız duyarlılık etiketleri, Power BI genelinde kullanılıp paylaşıldığından içerikle birlikte dolaşımda kalır. Etiketlemeyi kullanarak kullanım raporları oluşturabilir ve hassas içeriğiniz için etkinlik verilerini görebilirsiniz.
 
 ## <a name="sensitivity-label-inheritance-upon-creation-of-new-content"></a>Yeni içerik oluşturulduğunda duyarlılık etiketinin devralınması
 
@@ -71,7 +83,7 @@ Power BI’dan dosya aktaran kullanıcının, duyarlık etiketi ayarlarına uygu
 
 Veriler .csv veya .pbix dosyalarına veya başka bir dışarı aktarma yoluna aktarıldığında duyarlılık etiketleri ve koruma uygulanmaz.
 
-Dışarı aktarılan bir dosyaya duyarlılık etiketi ve koruma uygulandığında, dosyaya içerik işaretlemesi eklenmez. Ancak, etiket içerik işaretlemelerini uygulayacak şekilde yapılandırıldıysa dosya Office masaüstü uygulamalarında açıldığında içerik işaretlemeleri Azure Information Protection birleşik etiketleme istemcisi tarafından otomatik olarak uygulanır. Masaüstü uygulamaları, mobil uygulamalar ve web uygulamaları için yerleşik etiketleme kullandığınızda içerik işaretlemeleri otomatik olarak uygulanmaz. Diğer ayrıntılar için bkz. [Office uygulamaları içerik işaretlemesini ve şifrelemeyi ne zaman uygular?](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption).
+Dışarı aktarılan bir dosyaya duyarlılık etiketi ve koruma uygulandığında, dosyaya içerik işaretlemesi eklenmez. Ancak, etiket içerik işaretlemelerini uygulayacak şekilde yapılandırıldıysa dosya Office masaüstü uygulamalarında açıldığında içerik işaretlemeleri Azure Information Protection birleşik etiketleme istemcisi tarafından otomatik olarak uygulanır. Masaüstü uygulamaları, mobil uygulamalar ve web uygulamaları için yerleşik etiketleme kullandığınızda içerik işaretlemeleri otomatik olarak uygulanmaz. Diğer ayrıntılar için bkz. [Office uygulamaları içerik işaretlemesini ve şifrelemeyi ne zaman uygular?](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption).
 
 Veriler bir dosyaya dışarı aktarıldığında etiket uygulanamıyorsa dışarı aktarma işlemi başarısız olur. Dışarı aktarma işleminin etiket uygulanamadığından başarısız olup olmadığını denetlemek için başlık çubuğunun ortasındaki rapor veya pano adına tıklayın ve açılan bilgi menüsünde “Duyarlılık etiketi yüklenemiyor” yazıp yazmadığına bakın. Bu durum, geçici bir sistem sorununun sonucunda veya uygulanan etiket güvenlik yöneticisi tarafından yayımdan kaldırıldıysa ortaya çıkabilir.
 
@@ -118,7 +130,7 @@ Duyarlılık etiketleri [Microsoft 365 güvenlik merkezi](https://security.micro
 Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandırma > Duyarlılık etiketleri**’ne gidin. Bu duyarlılık etiketleri Azure Information Protection, Office uygulamaları ve Office 365 hizmetleri gibi birden çok Microsoft hizmeti tarafından kullanılabilir.
 
 >[!Important]
-> Kuruluşunuzda Azure Information Protection duyarlılık etiketleri kullanılıyorsa bunları Power BI’da kullanılabilmeleri için önceden listelenen hizmetlerden birine [geçirmeniz](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) gerekir.
+> Kuruluşunuzda Azure Information Protection duyarlılık etiketleri kullanılıyorsa bunları Power BI’da kullanılabilmeleri için önceden listelenen hizmetlerden birine [geçirmeniz](/azure/information-protection/configure-policy-migrate-labels) gerekir.
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -127,8 +139,8 @@ Aşağıdaki listede, Power BI’daki duyarlılık etiketlerinin bazı sınırla
 * Duyarlılık etiketleri yalnızca panolara, raporlara, veri kümelerine ve veri akışlarına uygulanabilir. Bunlar, şu anda [sayfalandırılmış raporlar](../paginated-reports/report-builder-power-bi.md) ve çalışma kitapları için kullanılamaz.
 * Power BI varlıklarındaki duyarlılık etiketleri çalışma alanı listesi, veri kökeni, sık kullanılanlar, son kullanılanlar ve uygulama görünümlerinde görünür durumdadır. Etiketler şu anda “benimle paylaşılan” görünümünde görünür değildir. Ancak, görünür olmasa bile, Power BI varlığına uygulanmış bir etiketin Excel, PowerPoint ve PDF dosyalarına aktarılmış veriler üzerinde her zaman kalıcı olacağını unutmayın.
 * Veri duyarlılık etiketleri şablon uygulamaları için desteklenmez. Şablon uygulama oluşturucu tarafından ayarlanan duyarlılık etiketleri, uygulama ayıklandığında ve yüklendiğinde kaldırılır ve yüklü bir şablon uygulamada uygulama tüketicisi tarafından yapıtlara eklenen duyarlılık etiketleri, uygulama güncelleştirildiğinde kaybolur (sıfırlanır).
-* Power BI [İletme](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [kullanıcı tanımlı](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) ve [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) koruma türlerinin duyarlılık etiketlerini desteklemez. İletme ve kullanıcı tanımlı koruma türleri [Microsoft 365 güvenlik merkezinde](https://security.microsoft.com/) ve [Microsoft 365 uyumluluk merkezinde](https://compliance.microsoft.com/) tanımlanan etiketleri ifade eder.
-* Kullanıcıların Power BI’da üst etiketler uygulamaları önerilmez. İçeriğe bir üst etiket uygulandıysa bu içerikten bir dosyaya (Excel, PowerPoint ve PDF) veri aktarma işlemi başarısız olur. Bkz. [Alt etiketler (gruplandırma etiketleri)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
+* Power BI [İletme](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [kullanıcı tanımlı](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) ve [HYOK](/azure/information-protection/configure-adrms-restrictions) koruma türlerinin duyarlılık etiketlerini desteklemez. İletme ve kullanıcı tanımlı koruma türleri [Microsoft 365 güvenlik merkezinde](https://security.microsoft.com/) ve [Microsoft 365 uyumluluk merkezinde](https://compliance.microsoft.com/) tanımlanan etiketleri ifade eder.
+* Kullanıcıların Power BI’da üst etiketleri uygulamasına izin vermeniz önerilmez. (Bir etiket, yalnızca alt etiketleri varsa üst etiket olarak kabul edilir.) İçeriğe bir üst etiket uygulandıysa bu içerikten bir dosyaya (Excel, PowerPoint ve PDF) veri aktarma işlemi başarısız olur. Bkz. [Alt etiketler (gruplandırma etiketleri)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

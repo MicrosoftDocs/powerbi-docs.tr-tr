@@ -6,30 +6,30 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 09/01/2020
+ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286786"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763081"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-*Tüketici* olarak Power BI hizmetini iş kararları alma amacıyla raporları ve panoları keşfetmek için kullanırsınız. Bu raporlar ve panolar Power BI *Pro* lisansına sahip *tasarımcılar* tarafından oluşturulmuştur. Pro kullanıcıları iş arkadaşlarıyla içerik paylaşabilir ve iş arkadaşlarının bu içerikle neler yapabileceğini ve neler yapamayacağını kontrol edebilir. Bazen tasarımcılar size bağlantılar göndererek içerik paylaşır, bazen de içerik otomatik olarak yüklenir ve Power BI’da **Uygulamalar** veya **Benimle paylaşılan** alanında görüntülenir.
+*İş kullanıcısı* olarak Power BI hizmetini iş kararları alma amacıyla raporları ve panoları keşfetmek için kullanırsınız. Bu raporlar ve panolar Power BI *Pro* lisansına sahip *tasarımcılar* tarafından oluşturulmuştur. Pro kullanıcıları iş arkadaşlarıyla içerik paylaşabilir ve iş arkadaşlarının bu içerikle neler yapabileceğini ve neler yapamayacağını kontrol edebilir. Bazen tasarımcılar size bağlantılar göndererek içerik paylaşır, bazen de içerik otomatik olarak yüklenir ve Power BI’da **Uygulamalar** veya **Benimle paylaşılan** alanında görüntülenir.
 
-Tasarımcıların içerik paylaşmasının birçok farklı yolu vardır. Ama bu makale Power BI *tüketicilerine* yönelik olduğundan, yalnızca tüketicilerin içeriği nasıl alacağı ve içerikle nasıl etkileşim kuracağı açıklanmaktadır. İçerik paylaşmanın diğer yolları hakkında daha fazla bilgi için bkz. [Power BI’da çalışmanızı paylaşmanın yolları](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
+Tasarımcıların içerik paylaşmasının birçok farklı yolu vardır. Ama bu makale Power BI *iş kullanıcılarına* yönelik olduğundan, yalnızca *iş kullanıcılarının* içeriği nasıl alacağı ve içerikle nasıl etkileşim kuracağı açıklanmaktadır. İçerik paylaşmanın diğer yolları hakkında daha fazla bilgi için bkz. [Power BI’da çalışmanızı paylaşmanın yolları](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md).
 
 ![Power BI gezinti bölmesi](media/end-user-features/power-bi-share.png)
 
 [Önceki makalede](end-user-license.md), Power BI hizmetinde panolar, raporlar ve uygulamalar (içerik) ile neler yapabileceğinizin üç şeye bağlı olduğunu öğrendiniz: lisanslarınız, rollerinizle izinleriniz ve içeriğin depolandığı yer.
 
-Bu makalede, Power BI hizmetindeki hangi özelliklerin sizin gibi *tüketicilerin* kullanımına sunulduğu listelenmektedir. Tanım gereği, *tüketiciler* Power BI hizmetinde (Power BI Desktop değil) çalışmak için ücretsiz bir lisans kullanır ve Premium kapasiteye sahip kuruluşların üyeleridir.
+Bu makalede, Power BI hizmetindeki hangi özelliklerin sizin gibi *iş kullanıcılarının* kullanımına sunulduğu listelenmektedir. Tanım gereği, *iş kullanıcıları* Power BI hizmetinde (Power BI Desktop’ta değil) çalışmak için ücretsiz bir lisans kullanır ve Premium kapasitede içerik depolayan kuruluşların üyeleridir.
 
 <art>
 
@@ -37,21 +37,21 @@ Bu makalede, Power BI hizmetindeki hangi özelliklerin sizin gibi *tüketicileri
 Listeye gelmeden önce bazı Power BI kavramlarını gözden geçirelim. Bu hızlı bir gözden geçirme olacaktır. Daha fazla ayrıntıya ihtiyacınız varsa [Tüketiciler için lisanslar](end-user-license.md) veya [Power BI temel kavramları](end-user-basic-concepts.md) konusunu ziyaret edin.
 
 ### <a name="workspaces-and-roles"></a>Çalışma alanları ve roller
-İki tür çalışma alanı vardır: **Çalışma alanım** ve uygulama çalışma alanları. **Çalışma alanım** sayfanıza yalnızca siz erişebilirsiniz. İşbirliği yapmak ve paylaşmak için Pro lisanslarına sahip içerik *tasarımcılarının* bir uygulama çalışma alanı kullanması gerekir. 
+İki tür çalışma alanı vardır: **Çalışma alanım** ve uygulama çalışma alanları. Kendi **Çalışma alanım** sayfanıza yalnızca siz erişebilirsiniz. İşbirliği yapmak ve paylaşmak için Pro lisanslarına sahip içerik *tasarımcılarının* bir uygulama çalışma alanı kullanması gerekir. 
 
-Uygulama çalışma alanları içinde *roller*, ilgili çalışma alanında kimlerin hangi işlemleri yapabileceğini yönetmek için tasarımcılar tarafından atanır. *Tüketicilere* **Görüntüleyici** rolü atanır. 
+Uygulama çalışma alanları içinde *roller*, ilgili çalışma alanında kimlerin hangi işlemleri yapabileceğini yönetmek için tasarımcılar tarafından atanır. *İş kullanıcılarına* sıklıkla **Görüntüleyici** rolü atanır. 
 
 ### <a name="premium-capacity"></a>Premium kapasite
 Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıcıları *ayrılmış kapasiteye* çalışma alanları atayabilir. Ayrılmış kapasitedeki çalışma alanı, Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşım ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro lisansları olması gerekmez. Söz konusu çalışma alanları içinde ücretsiz lisans kullanıcılarının yükseltilmiş izinleri olur (aşağıdaki listeye bakın). 
 
 ### <a name="licenses"></a>Lisanslar 
-Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. *Tüketiciler* ücretsiz lisanslara sahiptir.
+Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. *İş kullanıcıları* ücretsiz lisanslara sahiptir.
 
-- **Ücretsiz lisans** - genellikle kuruluş içindeki *tüketicilere* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
+- **Ücretsiz lisans**: Genellikle kuruluş içindeki *iş kullanıcılarına* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
 
     ![Premium kullanıcıyı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
 
-    Premium kapasitesi olan bir kuruluşun üyesi olmak ücretsiz lisans kullanıcılarına süper güçler kazandırır. Pro lisansına sahip iş arkadaşları içerik paylaşmak için Premium kapasite çalışma alanlarını kullandığı sürece, ücretsiz lisans kullanıcıları bu içeriği görüntüleyebilir ve Pro iş arkadaşlarıyla işbirliği yapabilir.  **Bu yolla ücretsiz lisans kullanıcısı iş kararları vermek için gereken içeriği alma ve paylaşma becerisine sahip bir Power BI *tüketicisine* dönüşür.** 
+    Premium kapasitesi olan bir kuruluşun üyesi olmak ücretsiz lisans kullanıcılarına süper güçler kazandırır. Pro lisansına sahip iş arkadaşları içerik paylaşmak için Premium kapasite çalışma alanlarını kullandığı sürece, ücretsiz lisans kullanıcıları bu içeriği görüntüleyebilir ve Pro iş arkadaşlarıyla işbirliği yapabilir.  **Bu yöntemle, ücretsiz kullanıcılar da başkaları tarafından oluşturulan içeriği tüketme becerisi elde eder. İş kullanıcıları, Pro kullanıcılar da dahil olmak üzere iş arkadaşlarıyla birlikte aynı panoları, raporları ve uygulamaları alır, paylaşır ve iş kararları vermek üzere bunlar üzerinde işbirliği yapar.** 
  
     ![Ücretsiz lisans kullanıcısı gösteren ekran](media/end-user-features/power-bi-free-user.png)
 
@@ -59,15 +59,15 @@ Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı
    
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>*Tüketicilere* ve ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
-Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etkileşime giren bir *tüketici* tarafından hangi görevlerin gerçekleştirilebileceğini tanımlar.    
+Aşağıdaki grafik, Premium kapasitede içerikle etkileşime giren bir *iş kullanıcısı* tarafından hangi görevlerin gerçekleştirilebileceğini tanımlar.    
 
 İlk sütun **Çalışma alanım**’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı Power BI hizmetinde iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım**’dan paylaşamaz. 
 
-İkinci sütun *tüketiciyi* temsil eder.  Tüketici:
+İkinci sütun *iş kullanıcısını* temsil eder.  İş kullanıcısı:
 
 - ücretsiz kullanıcı lisansına sahiptir
 - Premium kapasite aboneliği olan bir kuruluşun üyesidir
-- Pro kullanıcılarının ayrılmış kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
+- Pro kullanıcılarının ayrılmış Premium kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
 - söz konusu uygulama çalışma alanlarında kendisine atanmış **Görüntüleyici** rolüne sahiptir. 
 
 ### <a name="legend"></a>Gösterge
@@ -79,7 +79,7 @@ Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etk
 
 ### <a name="feature-list"></a>Özellik listesi
 
-|Özellikler   | Senaryo 1: Ayrılmış kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | Senaryo 2: Ayrılmış kapasitede depolanan içerik üzerinde **Görüntüleyici** izinleri olan Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *tüketicisidir*. |
+|Özellikler   | Senaryo 1: Ayrılmış kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | Senaryo 2: Ayrılmış kapasitede depolanan içerik üzerinde **Görüntüleyici** izinleri olan Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *iş kullanıcısıdır*. |
 |---|---|---|
 |**Uygulamalar** 
 |Otomatik olarak yüklenir | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*| 
@@ -170,8 +170,6 @@ Aşağıdaki grafik, Premium kapasitede ve paylaşılan kapasitede içerikle etk
 | Görseller: üzerine gelerek ayrıntıları ve araç ipuçlarını ortaya çıkarma  |![yeşil myw](media/end-user-features/green-mwo.png)  |![yeşil nokta](media/end-user-license/power-bi-green-dot.png) |
 
 
-1. Yalnızca **Benimle paylaşılan** içerik görünümünden kullanılabilir. 
-
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[*Tüketiciler* için Power BI](end-user-consumer.md)    
+[*İş kullanıcıları* için Power BI](end-user-consumer.md)    

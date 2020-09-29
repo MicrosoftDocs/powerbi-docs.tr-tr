@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937505"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020079"
 ---
 # <a name="analyze-in-excel"></a>Excel’de çözümleme
 **Excel’de Çözümle** ile Power BI veri kümelerini Excel’e getirebilir, ardından PivotTable’ları, grafikleri, dilimleyicileri ve diğer Excel özelliklerini kullanarak bu verileri görüntüleyebilir ve bunlarla etkileşimli çalışabilirsiniz. **Excel’de Çözümle** özelliğini kullanmak için önce özelliği Power BI’dan indirmeniz, yüklemeniz ve ardından Excel’de kullanmak üzere bir veya birden fazla veri kümesi seçmeniz gerekir. 
@@ -92,6 +92,15 @@ Power BI hizmetinde, Excel'de analiz etmek istediğiniz veri kümesine veya rapo
     >![Korumalı görünüm düzenlemeyi etkinleştirme başlığının ekran görüntüsü](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![Güvenilir belge içeriği etkinleştirme başlığının ekran görüntüsü](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+Power BI’ı PivotTable aracılığıyla analiz etmek için Excel kullanırken, Power BI duyarlılık etiketi devralmayı Excel’e genişletir. Power BI veri kümesine uygulanan bir duyarlılık etiketi, Excel’de bir PivotTable oluşturduğunuzda Excel dosyasına otomatik olarak uygulanır. 
+
+Veri kümesindeki etiket sonradan daha kısıtlayıcı olacak şekilde değiştirilirse Excel dosyasına uygulanan etiket, Excel’de veri yenilenmesinin ardından otomatik olarak güncelleştirilir. Veri kümesi daha az kısıtlayıcı olacak şekilde değiştirilirse etiket devralma veya güncelleştirme gerçekleşmez.
+
+Excel’de el ile ayarlanmış olan duyarlılık etiketlerinin üzerine, veri kümesinin etiketi tarafından otomatik olarak yazılmaz. Bir Excel dosyasında el ile ayarlanmış duyarlılık etiketi varsa bu etiketi yükseltmeye yönelik bir ilke ipucu önerisi görüntülenir. 
+
+Daha fazla bilgi için bkz. [Power BI’da duyarlılık etiketlerini uygulama](../admin/service-security-apply-data-sensitivity-labels.md).
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel’i kullanarak verileri analiz etme
 
@@ -177,4 +186,4 @@ Aşağıdaki makaleler de ilginizi çekebilir:
 * [Power BI Desktop’ta dilimleyicileri kullanma](../visuals/power-bi-visualization-slicers.md)
 * [Excel'de Çözümleme sorunlarını giderme](desktop-troubleshooting-analyze-in-excel.md)
 * [Excel’de Power BI öne çıkan tablolarına erişme (önizleme)](service-excel-featured-tables.md).
-
+* [Power BI'da duyarlılık etiketlerini uygulama](../admin/service-security-apply-data-sensitivity-labels.md)

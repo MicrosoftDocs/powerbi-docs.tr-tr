@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008917"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860337"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar
 
@@ -36,7 +36,7 @@ Bu basit sayfalandırılmış rapor, siz **Year** parametresini seçtikten sonra
 
 ![Basit tek parametreli rapor](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-Sayfalandırılmış raporlarla karşılaştırıldığında Power BI raporları çok daha etkileşimlidir. Power BI raporları geçici raporlamaya izin verir ve Power BI görselleri de içinde olmak üzere çok daha fazla görsel türünü destekler.
+Sayfalandırılmış raporlarla karşılaştırıldığında Power BI raporları çok daha etkileşimlidir. Power BI raporları geçici raporlamaya izin verir ve özel görseller de içinde olmak üzere çok daha fazla görsel türünü destekler.
 
 ## <a name="identify-a-paginated-report"></a>Sayfalandırılmış raporu tanımlama
 
@@ -78,7 +78,7 @@ Bazı sayfalandırılmış raporlar birçok sayfadan oluşur.  Raporda gezinmek 
 ### <a name="export-the-paginated-report"></a>Sayfalandırılmış raporu dışarı aktarma
 Sayfalandırılmış raporları dışarı aktarırken PDF, Word, XML, PowerPoint ve Excel gibi daha birçok seçeneğiniz vardır. Dışarı aktarma sırasında biçimlendirme mümkün olabildiğince korunur. Örneğin Excel, Word, PowerPoint, MHTML ve PDF'ye aktarılan sayfalandırılmış raporlarda "piksel düzeyinde mükemmel" biçimlendirme korunur. 
 
-![yeni satış siparişi](./media/end-user-paginated-report/power-bi-exporting.png)
+![Dışarı aktarılmış bir sayfalandırılmış raporun gösterildiği ekran görüntüsü.](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![dört farklı dışarı aktarma türü](./media/end-user-paginated-report/power-bi-four.png)
 

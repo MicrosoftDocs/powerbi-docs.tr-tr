@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084042"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854380"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI’a erişmek için özel bağlantılar
 
@@ -158,7 +158,7 @@ Bir sonraki adım, sanal ağ ve sanal makinenin barındırılacağı alt ağın 
     |Boyut | Varsayılan **Standart DS1 v2** değerini değiştirmeyin |
     |YÖNETİCİ HESABI ||
     |Kullanıcı adı |Seçtiğiniz bir kullanıcı adını girin |
-    |Parola | Seçtiğiniz bir parolayı girin. Parola en az 12 karakter uzunluğunda olmalı ve [belirlenen karmaşıklık gereksinimlerini](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm) karşılamalıdır |
+    |Parola | Seçtiğiniz bir parolayı girin. Parola en az 12 karakter uzunluğunda olmalı ve [belirlenen karmaşıklık gereksinimlerini](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) karşılamalıdır |
     |Parolayı Onayla | Parolayı yeniden girin |
     |GELEN BAĞLANTI NOKTASI KURALLARI ||
     |Genel gelen bağlantı noktaları | Varsayılan **Yok** değerini değiştirmeyin |
@@ -284,6 +284,7 @@ Power BI’da özel bağlantılarla çalışılırken dikkate alınması gereken
 * Özel bağlantı ortamı kullanılırken dış resimler veya temalar kullanılamaz ve bunlar özel görselleri etkileyebilir
 * Özel bağlantı ortamı kullanılırken PDF’ye dışarı aktarma, rapordan Excel’e dışarı aktarma gibi dışarı aktarma hizmetleri ve diğer dışarı aktarma hizmetleri çalışmaz
 * Genellikle RDL dosyaları (*.rdl biçiminde dosyalar) olarak bilinen SQL Server Reporting Services raporları, özel bağlantı ortamlarında işlenmez
+* İnternet erişimi devre dışıysa ve veri kümesi ya da veri akışı, veri kaynağı olarak bir Power BI veri kümesine veya veri akışına bağlanıyorsa bağlantı başarısız olur
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

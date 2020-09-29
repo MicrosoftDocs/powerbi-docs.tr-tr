@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238434"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019940"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop'tan veri kümesi ve rapor yayımlama
 Power BI Desktop dosyasını Power BI hizmetine yayımladığınızda, modeldeki verileri Power BI çalışma alanınızda yayımlarsınız. Aynı durum **Rapor** görünümünde oluşturduğunuz raporlar için de geçerlidir. Çalışma Alanı gezgininizde tüm raporları ve aynı adda yeni bir veri kümesi görürsünüz.
@@ -30,8 +30,8 @@ Power BI Desktop'tan yayımlamak ile Power BI Desktop dosyasına bağlanmak ve b
    ![Yayımla düğmesi](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Power BI'da oturum açın.
-3. Hedefi seçin.
+2. Henüz yapmadıysanız Power BI’da oturum açın.
+3. Hedefi seçin. Eylül 2020 sürümünden itibaren, yayımlamak istediğiniz çalışma alanını bulmak için kullanılabilir çalışma alanları listenizde arama yapabilirsiniz. Arama kutusu, çalışma alanlarınızı filtrelemenize olanak verir. Çalışma alanını seçin ve **Seç** düğmesine tıklayarak yayımlayın.
 
    ![Yayımlama hedefi seçme](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ Bu basit bir işlem olsa da bilmeniz gereken bazı noktalar vardır:
 > [!NOTE]
 > Power BI raporlarındaki bazı veri bağlantılarında, Power BI hizmetine içeri aktarılan veri kümesindeki veriler yerine, verilere yönelik bağlantılar yer alabilir. Örneğin DirectQuery bağlantıları verilerin kendisi içeri aktarıldığında değil, güncelleştirmeler veya etkileşimler oluştuğunda verilere bağlanır. Raporunuzdaki bağlı veri kaynakları şirket içindeyse bunlara Power BI’dan erişmek için bir ağ geçidine ihtiyacınız olabilir. Daha fazla bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](../connect-data/service-gateway-onprem.md).
 > 
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+Power BI Desktop ile her şeyi yapabilirsiniz. Özellikler hakkında daha fazla bilgi edinmek için aşağıdaki kaynaklara bakın:
+
+* [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop ile sorgulara genel bakış](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop'taki veri türleri](../connect-data/desktop-data-types.md)
+* [Öğretici: Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevleri](../transform-model/desktop-common-query-tasks.md)

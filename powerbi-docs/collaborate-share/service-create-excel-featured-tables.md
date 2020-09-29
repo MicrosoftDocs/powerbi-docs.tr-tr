@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478096"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811863"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop’ta öne çıkan tabloları ayarlama (önizleme)
 
@@ -40,11 +40,11 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
 
 1. Power BI Desktop'ta Model görünümüne gidin.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Model görünümü":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
  
 2. Tablo seçin ve **Öne çıkan tablo** öğesini **Evet** olarak ayarlayın.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Öne çıkan tablo seçeneğini Evet olarak ayarlama":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
 
 4. **Bu öne çıkan tabloyu ayarla** bölümünde gerekli alanları sağlayın:
 
@@ -54,7 +54,7 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
     - **Satır etiketi** alanının değeri Excel’de kullanılır ve böylece kullanıcılar satırı kolayca belirleyebilir. **Veri Seçicisi** bölmesinde ve **Bilgi** kartında bağlı hücre için hücre değeri olarak görüntülenir. 
     - **Anahtar sütunu** alanının değeri satır için benzersiz bir kimlik sağlar. Bu değer Excel’in bir hücreyi tablodaki belirli bir satıra bağlamasına olanak tanır.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Öne çıkan tabloyu ayarlama":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
 
 1. Veri kümesini Power BI hizmetine yayımladıktan veya içeri aktardıktan sonra öne çıkan tablo Excel Veri Türleri Galerisi’nde görüntülenir. Siz ve diğer rapor oluşturucuları da bu veri kümesine dayanan raporlar da oluşturabilirsiniz.
 
@@ -66,19 +66,13 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
 
 İlk önizlemenin sınırlamaları şunlardır.
 
-- Aşağıdaki özelliklerin kullanıldığı Power BI veri kümelerindeki öne çıkan tablolar Excel’de gösterilmez: 
+- Aşağıdaki özelliklerin kullanıldığı Power BI veri kümelerindeki öne çıkan tablolar Excel’de gösterilmez:
 
-    - Satır düzeyi güvenlik veri kümeleri.
-    - Microsoft Information Protection’ın etkinleştirildiği veri kümeleri.
     - DirectQuery veri kümeleri.
     - Canlı bağlantısı olan veri kümeleri.
 
-- Excel yalnızca öne çıkan tablonun sütunlarında ve hesaplanan sütunlarında bulunan verileri gösterir. İlk önizlemede aşağıdakiler sağlanmaz:
-
-    - Öne çıkan tabloda tanımlanan ölçüler.
-    - İlgili tablolarda tanımlanan ölçüler ve ilişkilerden hesaplanan örtük ölçüler.
-
-- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları görüntüler. Klasik çalışma alanlarında veya Çalışma Alanım’da depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
+- Excel yalnızca öne çıkan tablonun sütunlarında ve hesaplanan sütunlarında bulunan verileri gösterir. İlgili tablolarda tanımlanan ölçüler ve ilişkilerden hesaplanan örtük ölçüler ilk önizlemede sağlanmaz.
+- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları görüntüler. Klasik çalışma alanlarında depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
 - Excel'le ilgili diğer konular için “Excel’de Power BI öne çıkan tablolarına erişme” makalesinin [Önemli noktalar ve sınırlamalar](service-excel-featured-tables.md#considerations-and-limitations) bölümüne bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar

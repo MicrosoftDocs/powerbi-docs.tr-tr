@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642645"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858865"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -183,6 +183,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/of
 - “R” ve Python görselleri şu anda **Web’de yayımla** raporlarında desteklenmemektedir.
 - Web’de yayımlanan bir rapordaki görsellerden verileri dışarı aktarma.
 - ArcGIS Maps for Power BI görselleri.
+- Power BI görsellerine yönelik Soru-Cevap.
 - Rapor düzeyi DAX ölçüleri içeren raporlar.
 - Çoklu oturum açma veri sorgulama modelleri.
 - Gizli veya özel bilgilerin güvenliğini sağlama.

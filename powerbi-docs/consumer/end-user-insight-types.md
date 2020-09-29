@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008836"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764000"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -77,7 +77,7 @@ Zaman serisi verilerinde haftalık, aylık veya yıllık mevsimsellik gibi döne
 ![Mevsimsellik örneği](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>Düzenli paylaşım
-Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin "kuzeydoğu bölgesi") bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
+Üst öğenin toplam değeri ile bir alt değerin payı arasında sürekli bir değişkene göre değerlendirilen bir üst-alt bağıntısının gözlemlendiği durumları vurgular. Düzenli paylaşım içgörüsü bir ölçü, bir boyut ve başka bir tarih/saat boyutu bağlamında uygulanır. Bu içgörü, belirli bir boyut değeri (örneğin “doğu bölgesi”) bu tarih/saat boyutu genelindeki satışların düzenli bir yüzdesine sahip olduğunda tetiklenir.
 
 Düzenli paylaşım içgörüsü düşük varyans içgörüsüne benzer, çünkü her ikisi de zaman içinde bir değerin varyansının eksik olmasıyla ilgilidir. Öte yandan, düzenli paylaşım içgörüsü zaman içinde **genel yüzdenin** varyansının eksikliğini ölçerken, düşük varyans içgörüsü boyut genelinde mutlak ölçü değerlerinin varyansının eksikliğini ölçer.
 

@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040341"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764299"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -27,7 +27,7 @@ Power BI hizmetiyle (app.powerbi.com) raporunuzu Microsoft PowerPoint’te yayı
 * Power BI raporundaki her sayfa, PowerPoint’te tek bir slayt olur.
 * Power BI raporundaki her sayfa, PowerPoint’te yüksek çözünürlüklü tek bir görüntü olarak dışarı aktarılır.
 * Rapora eklediğiniz filtre ve dilimleyici ayarlarını koruyabilirsiniz.
-* PowerPoint’te Power BI raporuna bağlanan bir bağlantı oluşturulur.
+* PowerPoint’te Power BI raporuna yeniden bağlanan bir bağlantı oluşturulur.
 
 **Power BI raporunuzu** **PowerPoint**’e hızla aktarabilirsiniz. Sonraki bölümde açıklanan adımları uygulayın.
 
@@ -48,9 +48,9 @@ Açılan menüde **Geçerli değerler**’i veya **Varsayılan değerler**’i k
 
 ![Neyin Dışarı Aktarılacağını seçme](media/end-user-powerpoint/power-bi-current-values.png)
  
-Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır. Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz bu onay kutusunu seçin. Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz bu kutuyu işaretlemeden bırakın. Onay kutusu soluk görüntüleniyorsa raporda gizli sekme yoktur. Gizli sekmeye örnek olarak bir araç ipucu sekmesi verilebilir. [Özel araç ipuçları](../create-reports/desktop-tooltips.md) rapor *tasarımcıları* tarafından oluşturulur ve Power BI hizmetinde *tüketiciler* için rapor sekmeleri olarak görüntülenmez. 
+Ayrıca, raporun gizli sekmelerinin dışarı aktarılıp aktarılmayacağını seçebileceğiniz bir onay kutusu vardır. Yalnızca tarayıcınızda görebildiğiniz rapor sekmelerini dışarı aktarmak isterseniz bu onay kutusunu seçin. Dışarı aktarma işlemine tüm gizli sekmelerin de alınmasını tercih ederseniz bu kutuyu işaretlemeden bırakın. Onay kutusu soluk görüntüleniyorsa raporda gizli sekme yoktur. Gizli sekmeye örnek olarak bir araç ipucu sekmesi verilebilir. [Özel araç ipuçları](../create-reports/desktop-tooltips.md) rapor *tasarımcıları* tarafından oluşturulur ve Power BI hizmetinde *iş kullanıcıları* için rapor sekmeleri olarak görüntülenmez. 
 
-Ayrıca "Yalnızca geçerli sayfayı dışarı aktar" seçeneğini işaretleyerek raporun yalnızca görüntülemekte olduğunuz sayfasını dışarı aktarabilirsiniz.  Bu seçenek varsayılan olarak işaretlenmemiş durumdadır ve raporun tüm sayfaları dışarı aktarılır.
+Ayrıca **Yalnızca geçerli sayfayı dışarı aktar** seçeneğini işaretleyerek raporun yalnızca görüntülemekte olduğunuz sayfasını dışarı aktarabilirsiniz.  Bu seçenek varsayılan olarak işaretlenmemiş durumdadır ve raporun tüm sayfaları dışarı aktarılır.
 
 Seçimlerinizi yaptıktan sonra devam etmek için **Dışarı Aktar**’ı seçin. Power BI hizmeti tarayıcı penceresinin sağ üst köşesinde, raporun PowerPoint’e aktarıldığını belirten bir bildirim başlığı görürsünüz. 
 
@@ -76,7 +76,7 @@ Power BI'dan aktarılan PowerPoint dosyasını açtığınızda, ilgi çekici ve
 
 
 3. Gezinti bölmesinde gösterildiği gibi her rapor sayfası ayrı bir slayttır. 
-4. Yayımlanan raporunuz, varsa ilgili Power BI ayarlarınıza, yoksa tarayıcınızın yerel ayarına göre seçilen dilde gösterilir. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin. Yerel ayar bilgileri için bkz. [Power BI için desteklenen diller ve ülkeler veya bölgeler](../fundamentals/supported-languages-countries-regions.md).
+4. Yayımlanan raporunuz, varsa ilgili Power BI ayarlarınıza, yoksa tarayıcınızın yerel ayarına göre seçilen dilde gösterilir. Tarayıcınızda dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin. Yerel ayar bilgileri için bkz. [Power BI için desteklenen diller ve ülkeler veya bölgeler](../fundamentals/supported-languages-countries-regions.md).
 
 
 Tek bir slaytı görüntülediğinizde her rapor sayfasının bağımsız bir görüntü olduğunu görürsünüz. PowerPoint'te her slayt statik bir resim olduğundan kaydırma kullanılamaz.
@@ -110,8 +110,8 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
     - İşlenmesi bir saatten uzun süren raporlar. 
     - Yüklenmesi 6 dakikadan uzun süren rapor sayfaları. 
 
-* Power BI hizmetinde **PowerPoint’e Aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla kiracı yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için kiracı yöneticinizle iletişime geçin.
-* Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
+* Power BI hizmetinde **PowerPoint’e Aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla kiracı yöneticisinin veya rapor sahibinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için kiracı yöneticinizle veya rapor sahibiyle iletişime geçin.
+* Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Tarayıcınızda dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
 
 
 

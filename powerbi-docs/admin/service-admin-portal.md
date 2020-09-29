@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642816"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857968"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -116,7 +116,7 @@ Varsayılan olarak, kullanım ölçümleri için kullanıcı başına veriler et
 Yöneticiler kuruluşun tamamı için kullanım ölçümlerini devre dışı bırakırken aşağıdaki seçeneklerden birini veya her ikisini seçebilir:
 
 - **Tüm mevcut kullanım ölçümleri içeriğini silin** seçeneği kullanım ölçümleri raporları ve veri kümeleri kullanılarak oluşturulmuş tüm mevcut raporları ve pano kutucuklarını silmek için kullanılır. Bu seçenek, kullanmakta olanlar dahil olmak üzere kuruluştaki tüm kullanıcılar için kullanım ölçümlerine yönelik erişimi kaldırır.
-- **Geçerli kullanım ölçümleri içeriğindeki tüm kullanıcıya özgü verileri silin** seçeneği kuruluşta bunları kullanıyor olabilecek tüm kullanıcılar için kullanıcı başına verilere erişimi kaldırır. 
+- **Geçerli kullanım ölçümleri içeriğindeki tüm kullanıcıya özgü verileri silin** seçeneği kuruluşta bunları kullanıyor olabilecek tüm kullanıcılar için kullanıcı başına verilere erişimi kaldırır.
 
 Mevcut kullanım ve kullanıcı başına ölçümleri içeriğini silme işlemi geri alınamadığından dikkatli hareket etmeniz önerilir.
 
@@ -156,7 +156,7 @@ Ayarlar üç durumdan birine sahip olabilir:
 
     ![Tümü etkin ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Kuruluşun bir alt kümesi için etkinleştirildi**: Kuruluşun tamamı için özelliği etkinleştirmek yerine, ayarı, kuruluşunuzda bu özelliği kullanmasına izin verilen **Belirli güvenlik gruplarına** uygulayabilirsiniz.
+* **Kuruluşun bir alt kümesi için etkinleştirildi**: Kuruluşunuzdaki belirli güvenlik gruplarının bu özelliği kullanmasına izin verilir.
 
     **Belirli kullanıcı grupları dışında** kuruluşunuzun tamamı için de bir özelliği etkinleştirebilirsiniz.
 
@@ -172,9 +172,11 @@ Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bak
 
 ### <a name="publish-get-help-information"></a>“Yardım alın” bilgilerini yayımlama
 
+![“Yardım alın” bilgilerini yayımlama](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 Yöneticiler, lisans yükseltmeleri için ve Power BI yardım menüsünde bağlantıların hedefini geçersiz kılmak amacıyla iç URL’ler belirtebilir. Özel URL’ler ayarlanırsa kuruluştaki kullanıcılar, varsayılan hedefler yerine iç yardım ve destek kaynaklarına gider. Aşağıdaki kaynak hedefleri özelleştirilebilir:
 
-* **Öğrenin**. Varsayılan olarak bu yardım menüsü bağlantısı, [tüm Power BI öğrenme yollarımızın ve modüllerimizin listesini](https://docs.microsoft.com/learn/browse/?products=power-bi) hedefler. Bunun yerine bu bağlantıyı iç eğitim kaynaklarına yönlendirmek için, **Eğitim belgelerine** yönelik özel bir URL ayarlayın.
+* **Öğrenin**. Varsayılan olarak bu yardım menüsü bağlantısı, [tüm Power BI öğrenme yollarımızın ve modüllerimizin listesini](/learn/browse/?products=power-bi) hedefler. Bunun yerine bu bağlantıyı iç eğitim kaynaklarına yönlendirmek için, **Eğitim belgelerine** yönelik özel bir URL ayarlayın.
 
 * **Topluluk**. Kullanıcıları, yardım menüsünden [Power BI Topluluğu](https://community.powerbi.com/) yerine bir iç foruma götürmek için **Tartışma forumu**’na yönelik özel bir URL ayarlayın.
 
@@ -182,15 +184,15 @@ Yöneticiler, lisans yükseltmeleri için ve Power BI yardım menüsünde bağla
 
 * **Yardım alın**. Kullanıcıları, yardım menüsünden [Power BI Desteği](https://powerbi.microsoft.com/support/) yerine bir iç yardım masasına götürmek için **Yardım Masası**’na yönelik özel bir URL ayarlayın.
 
-![“Yardım alın” bilgilerini yayımlama](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylara yönelik e-posta bildirimlerini etkinleştir
 
 Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenlik grupları e-posta bildirimleri alır. [Hizmet kesintisi bildirimleri](service-interruption-notifications.md) hakkında daha fazla bilgi edinin.
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>Kullanıcıların Power BI Pro’yu denemesine izin verme
 
-**Kullanıcıların Power BI Pro’yu denemesine izin ver** ayarı varsayılan olarak etkindir ve kullanıcıların Power BI Pro lisanslarını edinme şekli üzerindeki denetiminizi artırır. Self servis satın almayı engellediğiniz senaryolarda bu ayar, kullanıcıların Power BI Pro deneme sürümünü başlatmasına olanak sağlar. Son kullanıcı deneyimi, lisans ayarlarını nasıl birleştirdiğinize bağlıdır. Aşağıdaki tabloda, Power BI’dan (ücretsiz) Power BI Pro’ya yükseltme deneyiminizin farklı ayar birleşimlerinden nasıl etkilendiği gösterilmektedir:
+![Kullanıcıların Power BI Pro’yu denemesine izin verme ayarları kullanıcı arabirimi](media/service-admin-portal/allow-pro-trial.png)
+
+**Kullanıcıların Power BI Pro’yu denemesine izin verme** ayarı varsayılan olarak etkindir. Bu ayar, kullanıcıların Power BI Pro lisanslarını edinme yöntemi üzerindeki denetiminizi artırır. Self servis satın almayı engellediğiniz senaryolarda bu ayar, kullanıcıların Power BI Pro deneme sürümünü başlatmasına olanak sağlar. Son kullanıcı deneyimi, lisans ayarlarını nasıl birleştirdiğinize bağlıdır. Aşağıdaki tabloda, Power BI’dan (ücretsiz) Power BI Pro’ya yükseltme deneyiminizin farklı ayar birleşimlerinden nasıl etkilendiği gösterilmektedir:
 
 | Self servis satın alma ayarı | Kullanıcının Power BI Pro’yu denemesine izin verme ayarı | Son kullanıcı deneyimi |
 | ------ | ------ | ----- |
@@ -200,9 +202,7 @@ Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenl
 | Devre dışı | Etkin | Kullanıcı bir Pro deneme sürümü başlatabilir, ancak ücretli lisans almak için BT yöneticisiyle iletişim kurmalıdır |
 
 > [!NOTE]
-> [Yardım ve destek ayarları](#help-and-support-settings) bölümünde lisans istekleri için bir iç URL ekleyebilirsiniz. URL’yi ayarlarsanız, varsayılan satın alma deneyimi geçersiz kılınır. Yukarıdaki tabloda açıklanan senaryolarda lisans satın alabilen kullanıcılar, iç URL’nize yeniden yönlendirilir.
-
-![Kullanıcıların Power BI Pro’yu denemesine izin verme ayarları kullanıcı arabirimi](media/service-admin-portal/allow-pro-trial.png)
+> [Yardım ve destek ayarları](#help-and-support-settings) bölümünde lisans istekleri için bir iç URL ekleyebilirsiniz. URL’yi ayarlarsanız varsayılan self servis satın alma deneyimi geçersiz kılınır. Power BI Pro lisans denemesi için kaydolma sayfasına yeniden yönlendirmez. Yukarıdaki tabloda açıklanan senaryolarda lisans satın alabilen kullanıcılar, iç URL’nize yeniden yönlendirilir.
 
 Daha fazla bilgi edinmek için bkz. [Self servis kaydolma ve satın alma işlemlerini etkinleştirme veya devre dışı bırakma](service-admin-disable-self-service.md).
 
@@ -216,7 +216,7 @@ Yönetici portalının **Kiracı ayarları** bölümünde çalışma alanların�
 
 ### <a name="create-the-new-workspaces"></a>Yeni çalışma alanları oluşturma
 
-Çalışma alanları kullanıcıların panolar, raporlar ve diğer içerikler üzerinde işbirliği yapabileceği alanlardır. Yöneticiler, kuruluştaki hangi kullanıcıların çalışma alanı oluşturabileceğini belirtmek için **Çalışma alanı oluştur (yeni çalışma alanı deneyimi)** ayarını kullanır. Yöneticiler kuruluştaki kişilerin tümüne yeni çalışma alanı deneyimi oluşturma izni verebilir veya hiçbirine vermeyebilir. Ayrıca çalışma alanı oluşturmayı belirli güvenlik gruplarının üyeleriyle de sınırlayabilir. [Çalışma alanları](../collaborate-share/service-new-workspaces.md) hakkında daha fazla bilgi edinin.
+Çalışma alanları kullanıcıların panolar, raporlar ve diğer içerikler üzerinde işbirliği yaptığı alanlardır. Yöneticiler, kuruluştaki hangi kullanıcıların çalışma alanı oluşturabileceğini belirtmek için **Çalışma alanı oluştur (yeni çalışma alanı deneyimi)** ayarını kullanır. Yöneticiler kuruluştaki kişilerin tümüne yeni çalışma alanı deneyimi oluşturma izni verebilir veya hiçbirine vermeyebilir. Ayrıca çalışma alanı oluşturmayı belirli güvenlik gruplarının üyeleriyle de sınırlayabilir. [Çalışma alanları](../collaborate-share/service-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
 
@@ -237,7 +237,7 @@ Yönetici portalında, hangi kullanıcıların kuruluş uygulamalarını dağıt
 
 Yöneticiler, kuruluştaki hangi kullanıcıların veri kümelerini farklı çalışma alanlarında kullanabileceğini denetleyebilir. Bu ayar etkinleştirildiğinde de kullanıcılar, belirli bir veri kümesi için gerekli Oluşturma iznine ihtiyaç duyar.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Veri kümelerini çalışma alanları arasında kullanma":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
 
 Daha fazla bilgi için bkz. [Çalışma alanları arasında veri kümelerine giriş](../connect-data/service-datasets-across-workspaces.md).
 
@@ -253,13 +253,13 @@ Etkinleştirildiğinde, yeni oluşturulan Office 365 Grupları Power BI çalış
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver
 
-Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure AD B2B) konuk kullanıcılarının Power BI’a erişmesine olanak sağlar. Bu ayarı devre dışı bıraktığınızda konuk kullanıcılar Power BI’a erişmeye çalışırken bir hata alır. Kuruluşun tamamı için bu ayarı devre dışı bıraktığınızda, kullanıcıların kuruluşunuza konuklar davet etmesi de engellenir. Hangi konuk kullanıcıların Power BI’a erişebileceğini denetlemek için belirli güvenlik gruplarını kullanın.
+Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure AD B2B) konuk kullanıcılarının Power BI’a erişmesine olanak sağlar. Bu ayarı devre dışı bırakırsanız konuk kullanıcılar Power BI’a erişmeye çalışırken bir hata alır. Kuruluşun tamamı için bu ayarın devre dışı bırakılması, kullanıcıların kuruluşunuza konuklar davet etmesini de engeller. Hangi konuk kullanıcıların Power BI’a erişebileceğini denetlemek için belirli güvenlik gruplarını kullanın.
 
 ![Azure Active Directory konuk kullanıcılarının Power BI’a erişmesine izin ver](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>Dış kullanıcıları kuruluşuma davet et 
 
-**Dış kullanıcıları kuruluşuma davet et** ayarı, kuruluşların Power BI paylaşım ve izinleri yoluyla yeni dış kullanıcıların kuruluşa davet edilip edilemeyeceğini seçmesine yardımcı olur. Devre dışı bırakıldığında, dış kullanıcı halihazırda kuruluşta bir konuk kullanıcı değilse Power BI aracılığıyla kuruluşa eklenemez. 
+**Dış kullanıcıları kuruluşuma davet et** ayarı, kuruluşların Power BI paylaşım ve izinleri yoluyla yeni dış kullanıcıların kuruluşa davet edilip edilemeyeceğini seçmesine yardımcı olur. Ayar devre dışıysa kuruluşta bir konuk kullanıcı olmayan dış kullanıcı, Power BI aracılığıyla kuruluşa eklenemez.
 
 ![Dış kullanıcıları kuruluşuma davet et](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde far
 
 ### <a name="export-data"></a>Verileri dışarı aktarma
 
-Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. Bu, Excel’de Çözümle, .csv dosyasına aktar, veri kümesi indirmeleri (.pbix) ve Power BI Hizmeti Live Connect özelliklerini denetler. [Kutucuktaki veya görseldeki verileri dışarı aktarma](../visuals/power-bi-visualization-export-data.md) hakkında daha fazla bilgi edinin.
+Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. Bu ayar Excel’de Çözümle, .csv dosyasına aktar, veri kümesi indirmeleri (.pbix) ve Power BI Hizmeti Live Connect özelliklerini denetler. [Kutucuktaki veya görseldeki verileri dışarı aktarma](../visuals/power-bi-visualization-export-data.md) hakkında daha fazla bilgi edinin.
 
 >[!NOTE]
 > Excel’e Aktar ayarı sunulmadan önce verilerin Excel dosyalarına aktarılmasını da bu ayar denetliyordu. Ayrıntılar için [Excel’e Aktar seçeneğinin altında yer alan nota](#export-to-excel) bakın.
@@ -403,7 +403,7 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 
 **Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** kiracı ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Öne çıkan tablolara yönelik tüm bağlantılar":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
 
 **Verileri dışarı aktar** kiracı ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
 
@@ -488,19 +488,19 @@ Bu ayarlar şablon uygulamalarının şablon uygulaması yayımlama veya yüklem
 
 Kuruluştaki kullanıcılar, şablon uygulama çalışma alanları oluşturabilir. Hangi kullanıcıların [AppSource](https://appsource.microsoft.com)’u veya başka bir dağıtım yöntemini kullanarak şablon uygulamaları yayımlayabileceğini veya bu uygulamaları kuruluşunuzun dışındaki istemcilere dağıtabileceğini denetleyin.
 
-![Power BI yönetim portalı, Şablon uygulamaları oluştur ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![Şablon uygulamalarını yayımla ayarı tüm kuruluş için etkinleştirildi](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>AppSource’ta listelenen şablon uygulamalarını yükleme
 
 Kuruluştaki kullanıcılar **yalnızca**[AppSource](https://appsource.microsoft.com)’tan şablon uygulamalarını indirebilir ve yükleyebilir. Hangi kullanıcıların veya güvenlik gruplarının AppSource’tan şablon uygulamaları yükleyebileceğini denetleyin.
 
-![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![Şablon uygulamalarını yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>AppSource’ta listelenmeyen şablon uygulamalarını yükleme
 
 Kuruluştaki hangi kullanıcıların **[AppSource](https://appsource.microsoft.com)’ta listelenmeyen** şablon uygulamalarını indirebileceğini ve yükleyebileceğini denetleyin.
 
-![Power BI yönetici portalı, Şablon uygulamaları yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![AppSource’ta listelenmeyen şablon uygulamalarını yükle ayarı](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Kapasite ayarları
 

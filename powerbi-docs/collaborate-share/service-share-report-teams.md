@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinden doğrudan Teams ile paylaşma
+title: Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma
 description: Power BI panolarını ve raporlarını Power BI hizmetinden doğrudan Microsoft Teams'le paylaşabilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478073"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964834"
 ---
-# <a name="share-directly-to-teams-from-the-power-bi-service"></a>Power BI hizmetinden doğrudan Teams ile paylaşma
+# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma
 
 Power BI panolarını, raporlarını ve görsellerini Power BI hizmetinden doğrudan Microsoft Teams'le paylaşabilirsiniz. Power BI hizmetinde raporları ve panoları görüntülerken hızla konuşma başlatmak için **Teams’de Paylaş** özelliğini kullanın.
 
@@ -27,9 +27,9 @@ Power BI’da **Teams'de Paylaş** işlevini kullanmak için bu ayarın aşağı
 
 - Power BI yöneticileri Power BI yönetici portalındaki**Teams’de Paylaş** kiracı ayarını devre dışı bırakmamış. Bu ayar kuruluşların **Teams’de Paylaş** düğmelerini gizlemesini sağlar. Ayrıntılar için [Power BI yönetici portalı](../admin/service-admin-portal.md#share-to-teams-tenant-setting) makalesine bakın.
 
-Power BI ile Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-collaborate-microsoft-teams.md).
+Power BI ile Microsoft Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-collaborate-microsoft-teams.md).
 
-## <a name="share-power-bi-content-to-teams"></a>Power BI içeriğini Teams'de paylaşma
+## <a name="share-power-bi-content-to-microsoft-teams"></a>Power BI içeriğini Microsoft Teams’de paylaşma
 
 Power BI hizmetindeki raporlar, panolar ve görsellerin bağlantılarını Microsoft Teams kanalları ve sohbetlerinde paylaşmak için şu adımları izleyin.
 

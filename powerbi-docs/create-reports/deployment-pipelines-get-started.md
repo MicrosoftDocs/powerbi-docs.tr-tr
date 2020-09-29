@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557268"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855797"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>Dağıtım işlem hatlarını kullanmaya başlama (önizleme)
+# <a name="get-started-with-deployment-pipelines"></a>Dağıtım işlem hatlarını kullanmaya başlama
 
 Bu makalede, dağıtım işlem hatlarını kullanmak için gereken temel ayarlara ilişkin yollar gösterilir.
 
@@ -35,13 +36,31 @@ Aşağıdaki koşullar sağlandığında dağıtım işlem hatları özelliğine
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>1\. Adım: Dağıtım işlem hattı oluşturma
 
-Dağıtım işlem hattı oluşturmak için aşağıdakileri yapın:
-
-1. Power BI hizmetindeki gezinti bölmesinde **Dağıtım işlem hatları**’nı seçip **İşlem hattı oluştur**’a tıklayın.
-
-2. *Dağıtım işlem hattı oluştur* iletişim kutusunda işlem hattı için bir ad ve açıklama girip **Oluştur**’a tıklayın.
+Dağıtım işlem hatları sekmesinden veya bir çalışma alanından işlem hattı oluşturabilirsiniz.
 
 İşlem hattını oluşturduktan sonra diğer kullanıcılarla paylaşabilir veya silebilirsiniz. İşlem hattını başkalarıyla paylaştığınızda, işlem hattını paylaştığınız kullanıcılara [işlem hattı erişimi](deployment-pipelines-process.md#user-with-pipeline-access) verilir. İşlem hattı erişimi kullanıcıların işlem hattını görüntülemesine, paylaşmasına, düzenlemesine ve silmesine olanak verir.
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>Dağıtım işlem hatları sekmesinden işlem hattı oluşturma
+
+Dağıtım işlem hatları sekmesinden işlem hattı oluşturmak için şunları yapın:
+
+1. Power BI hizmetindeki gezinti bölmesinde **Dağıtım işlem hatları**’nı seçip **İşlem hattı oluştur** seçeneğini belirleyin.
+
+2. *Dağıtım işlem hattı oluştur* iletişim kutusunda işlem hattı için bir ad ve açıklama girip **Oluştur**’u seçin.
+
+### <a name="create-a-pipeline-from-a-workspace"></a>Çalışma alanından işlem hattı oluşturma
+
+[Yeni çalışma alanı deneyiminde](../collaborate-share/service-create-the-new-workspaces.md) bir yönetici olduğunuz takdirde mevcut bir çalışma alanından işlem hattı oluşturabilirsiniz.
+
+1. Çalışma alanından **İşlem hattı oluştur**’u seçin.
+
+    > [!div class="mx-imgBorder"]
+    > ![Çalışma alanındaki işlem hattı oluştur düğmesinin ekran görüntüsü.](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. *Dağıtım işlem hattı oluştur* iletişim kutusunda işlem hattı için bir ad ve açıklama girip **Oluştur**’u seçin.
+
+>[!NOTE]
+>Çalışma alanı, kuruluşunuzun Premium kapasitesine atanmadıysa [kapasiteye atamanızı](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) söyleyen bir bildirim alırsınız.  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>2\. Adım: Dağıtım işlem hattına çalışma alanı atama
 
@@ -51,9 +70,12 @@ Dağıtım işlem hattına bir çalışma alanı atayabilirsiniz. Dağıtım iş
 
 Dağıtım işlem hattına çalışma alanı atamak için şu adımları izleyin:
 
-1. Yeni oluşturulan dağıtım işlem hattında **Çalışma alanı ata**’ya tıklayın.
+1. Yeni oluşturulan dağıtım işlem hattında **Çalışma alanı ata**’yı seçin.
 
 2. *Çalışma alanı seç* açılan menüsünde işlem hattına atamak istediğiniz çalışma alanını seçin.
+
+    >[!NOTE]
+    >Çalışma alanından bir işlem hattı oluşturuyorsanız çalışma alanı zaten seçili olduğundan bu aşamayı atlayabilirsiniz.
 
 3. Çalışma alanını atamak istediğiniz aşamayı seçin.
 
@@ -82,13 +104,13 @@ Dağıtım tamamlandıktan sonra veri kümesini yenileyin. Daha fazla bilgi içi
 
 ### <a name="deploying-all-content"></a>Tüm içeriği dağıtma
 
-İçinden dağıtılacak aşamayı seçip dağıtım düğmesine tıklayın. Dağıtım işlemi, hedef aşamada yinelenen bir çalışma alanı oluşturur. Bu çalışma alanı, geçerli aşamada bulunan tüm içeriğe sahiptir.
+İçinden dağıtılacak aşamayı ve sonra dağıtım düğmesini seçin. Dağıtım işlemi, hedef aşamada yinelenen bir çalışma alanı oluşturur. Bu çalışma alanı, geçerli aşamada bulunan tüm içeriğe sahiptir.
 
 [![Dağıtım işlem hattındaki geliştirme ve test aşamaları için dağıtım düğmesini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Seçmeli dağıtım
 
-Yalnızca belirli öğeleri dağıtmak için **Daha fazla göster** bağlantısına tıklayıp dağıtmak istediğiniz öğeleri seçin. Dağıt düğmesine tıkladığınızda, sonraki aşamaya yalnızca seçili öğeler dağıtılır.
+Yalnızca belirli öğeleri dağıtmak için **Daha fazla göster** bağlantısını, ardından dağıtmak istediğiniz öğeleri seçin. Dağıt düğmesine tıkladığınızda, sonraki aşamaya yalnızca seçili öğeler dağıtılır.
 
 Pano, rapor ve veri kümeleri ilişkili olduğundan ve bağımlılıklara sahip olduğundan, bu öğelerin bağımlı olduğu tüm öğeleri işaretlemek için ilişkili seç düğmesini kullanabilirsiniz. Örneğin, bir rapor sonraki aşamaya dağıtmak isterseniz ilişkili seç düğmesine tıkladığınızda raporun bağlı olduğu veri kümesi işaretlenir, böylece her ikisi de tek seferde dağıtılır ve rapor kesintiye uğramaz.
 
@@ -119,7 +141,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 ### <a name="create-a-dataset-rule"></a>Veri kümesi kuralı oluşturma
 
-1. Veri kümesi kuralı oluşturmak istediğiniz işlem hattı aşamasında **Dağıtım ayarları**’na tıklayın.
+1. Veri kümesi kuralı oluşturmak istediğiniz işlem hattı aşamasında **Dağıtım ayarları**’nı seçin.
 
     ![Dağıtım işlem hattı aşamalarının her birinde sağ üstte bulunan dağıtım ayarları düğmesinin ekran görüntüsü.](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
     [![Veri kümesi kuralı oluşturmak için veri kümesi seçimini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. Oluşturmak istediğiniz kural türünü seçin, listeyi genişletin ve **Kural ekle**’ye tıklayın.
+3. Oluşturmak istediğiniz kural türünü seçin, listeyi genişletin ve sonra **Kural ekle** seçeneğini belirleyin.
 
      [![Veri kaynağı kuralı seçip kural ekle seçeneğine tıklamayı gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
     1. Listeden seçin.
 
-    2. **Diğer**’e tıklayıp yeni veri kaynağını el ile ekleyin. Yalnızca aynı türdeki bir veri kaynağıyla değiştirebilirsiniz.
+    2. **Diğer**’i seçip yeni veri kaynağını el ile ekleyin. Yalnızca aynı türdeki bir veri kaynağıyla değiştirebilirsiniz.
 
 * **Parametre kuralları**: Geçerli değerin gösterildiği parametre listesinden bir parametre seçin. Değeri, her dağıtımdan sonra geçerli olmasını istediğiniz değer olarak düzenleyin.
 
@@ -153,7 +175,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 * Bir kuralda tanımlanan veri kaynağı veya parametreler değiştirilirse veya kaynak veri kümesinden kaldırılırsa kural geçerli olmaz ve dağıtım başarısız olur.
 
-* Parametre kuralları, *Tümü* veya *İkili* türündeki parametreler için tanımlanamaz. Daha fazla bilgi için bkz. [Veri kümesi güncelleştirme parametresi kısıtlamaları](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters).
+* Parametre kuralları, *Tümü* veya *İkili* türündeki parametreler için tanımlanamaz. Daha fazla bilgi için bkz. [Veri kümesi güncelleştirme parametresi kısıtlamaları](/rest/api/power-bi/datasets/updateparameters).
 
 * Veri kaynağı kuralları, yalnızca şu veri kaynakları için tanımlanabilir:
     * Azure Analysis Services
@@ -172,7 +194,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 Bir işlem hattı aşamasında içeriğe sahip olduğunuzda bu içeriği sonraki aşamaya dağıtabilirsiniz. Başka bir aşamaya içerik dağıtmak genellikle işlem hattında bazı eylemler gerçekleştirdikten sonra yapılır. Örneğin, dağıtım aşamasında içeriğinizde değişiklik yapılması veya test aşamasında içeriğinizin test edilmesi. İçeriği bir aşamadan diğerine taşımaya ilişkin tipik bir iş akışı geliştirmeden teste ve sonra testten üretime şeklinde gerçekleşir. [Mevcut bir çalışma alanına içerik dağıtma](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace) bölümünde bu süreç hakkında daha fazla bilgi edinebilirsiniz.
 
-Dağıtım işlem hattındaki sonraki aşamaya içerik dağıtmak için, aşamanın alt kısmındaki dağıt düğmesine tıklayın.
+Dağıtım işlem hattındaki sonraki aşamaya içerik dağıtmak için, aşamanın alt kısmındaki dağıt düğmesini seçin.
 
 Test ve üretim aşaması kartlarını gözden geçirirken son dağıtım zamanını görebilirsiniz. Bu, içeriğin aşamaya son dağıtıldığı zamanı belirtir.
 

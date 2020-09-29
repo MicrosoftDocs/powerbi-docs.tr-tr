@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220895"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024047"
 ---
-# <a name="understand-the-deployment-process-preview"></a>Dağıtım sürecini anlama (önizleme)
+# <a name="understand-the-deployment-process"></a>Dağıtım işlemini anlama
 
 Dağıtım süreci, içeriği işlem hattındaki bir aşamadan diğerine (genellikle geliştirmeden teste ve testten üretime) kopyalamanıza olanak verir.
 
@@ -90,7 +91,7 @@ Dağıtım işlem hatları aşağıdaki öğeleri desteklemez:
 
 * Desteklenmeyen veri kümelerini temel alan raporlar
 
-* Çalışma alanı bir şablon uygulaması kullanamaz
+* [Şablon uygulaması çalışma alanları](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * Sayfalandırılmış raporlar
 
@@ -137,14 +138,60 @@ Dağıtım sırasında şu öğe özellikleri kopyalanmaz:
 Dağıtım sırasında şu veri kümesi özellikleri de kopyalanmaz:
 
 * Rol ataması
-    
+
 * Yenileme zamanlaması
-    
+
 * Veri kaynağı kimlik bilgileri
-    
+
 * Sorgu önbelleğe alma ayarları (kapasiteden alınabilir)
-    
+
 * Onay ayarları
+
+## <a name="incremental-refresh"></a>Artımlı yenileme
+
+Dağıtım işlem hatları, daha düşük tüketimle büyük veri kümelerinin daha hızlı ve güvenilir yenilemeler yapmasına olanak sağlayan [artımlı yenileme](../admin/service-premium-incremental-refresh.md) özelliğini destekler.
+
+Dağıtım işlem hatları sayesinde, hem verileri hem de bölümleri korurken artımlı yenileme ile veri kümesinde güncelleştirmeler yapabilirsiniz. Veri kümesini dağıttığınızda ilke de birlikte kopyalanır.
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>İşlem hattında artımlı yenilemeyi etkinleştirme
+
+Artımlı yenilemeyi etkinleştirmek için [Power BI Desktop’ta açın](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) ve sonra veri kümenizi yayımlayın. Yayımladıktan sonra, artımlı yenileme ilkesi işlem hattı genelinde benzerdir ve yalnızca Power BI Desktop’ta yazılabilir.
+
+İşlem hattınız artımlı yenilemeyle yapılandırıldığında, aşağıdaki akışı kullanmanızı öneririz:
+
+1. Power BI Desktop’taki PBIX dosyanızda değişiklikler yapın. Uzun bekleme sürelerini önlemek için, verilerinizin bir örneğini kullanarak değişiklik yapabilirsiniz.
+
+2. PBIX dosyasını *geliştirme* aşamasına yükleyin.
+
+3. İçeriğinizi *test* aşamasına dağıtın. Dağıtımın ardından, yaptığınız değişiklikler kullanmakta olduğunuz veri kümesinin tamamına uygulanır.
+
+4. *Test* aşamasında yaptığınız değişiklikleri gözden geçirin ve bunları doğruladıktan sonra *üretim* aşamasına dağıtın.
+
+### <a name="usage-examples"></a>Kullanım örnekleri
+
+Artımlı yenilemeyi dağıtım işlem hatlarıyla nasıl tümleştirebileceğinizi gösteren birkaç örnek aşağıda verilmiştir.
+
+* [Yeni bir işlem hattı](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline) oluşturun ve artımlı yenileme özelliği etkinleştirilmiş veri kümesi içeren bir çalışma alanına bu işlem hattını bağlayın.
+
+* Zaten *geliştirme* çalışma alanında olan bir veri kümesinde artımlı yenilemeyi etkinleştirin.  
+
+* Artımlı yenileme kullanan veri kümesi içeren bir üretim çalışma alanından işlem hattı oluşturun. Bu işlem, çalışma alanı yeni işlem hattının *üretim* aşamasına atanarak, önce *test* aşamasına dağıtmak için [geriye dönük dağıtım](deployment-pipelines-get-started.md#backwards-deployment) kullanılarak ve sonra *geliştirme* aşamasına dağıtılarak yapılır.
+
+* Artımlı yenileme kullanan bir veri kümesini, mevcut bir işlem hattının bir parçası olan çalışma alanında yayımlayın.
+
+### <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+
+Artımlı yenileme için, dağıtım işlem hatları yalnızca [gelişmiş veri kümesi meta verilerini](../connect-data/desktop-enhanced-dataset-metadata.md) kullanan veri kümelerini destekler. Power BI Desktop’ın Eylül 2020 sürümünden itibaren, Power BI Desktop ile oluşturulan veya değiştirilen tüm veri kümeleri otomatik olarak gelişmiş veri kümesi meta verilerini uygular.
+
+Artımlı yenilemenin etkin olduğu bir veri kümesi, etkin bir işlem hattında yeniden yayımlandığında veri kaybı olasılığı nedeniyle aşağıdaki değişiklikler dağıtım hatasına neden olur:
+
+* Artımlı yenilemenin etkin olduğu bir veri kümesini değiştirmek için, artımlı yenilemenin etkin olmadığı bir veri kümesini yeniden yayımlama.
+
+* Artımlı yenileme özelliği etkin olan bir tabloyu yeniden adlandırma.
+
+* Artımlı yenilemenin etkin olduğu bir tabloda, hesaplanmamış sütunları yeniden adlandırma.
+
+Sütun ekleme, kaldırma ve hesaplanmış bir sütunu yeniden adlandırma gibi diğer değişikliklere izin verilir. Ancak değişiklikler görüntüyü etkiliyorsa değişiklik görünür olmadan önce yenilemeniz gerekir.
 
 ## <a name="deploying-power-bi-apps"></a>Power BI uygulamalarını dağıtma
 
@@ -170,9 +217,9 @@ Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece h
 İşlem hattı erişimi olan kullanıcılar aşağıdaki izinlere sahiptir:
 
 * İşlem hattını görüntüleme
-    
+
 * İşlem hattını başkalarıyla paylaşma
-    
+
 * İşlem hattını düzenleme ve silme
 
 >[!NOTE]
@@ -202,9 +249,9 @@ Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece h
 *İşlem hattı erişimi* olan çalışma alanı üyeleri şunları da yapabilir:
 
 * Çalışma alanı içeriğini görüntüleme
-    
+
 * Aşamaları karşılaştırma
-    
+
 * Raporları ve panoları dağıtma
 
 * Çalışma alanlarını kaldırma
@@ -222,7 +269,7 @@ Her dağıtım işlem hattı aşaması için bir uygulama oluşturun, böylece h
 Çalışma alanı üyesi veya yöneticisi olan veri kümesi sahipleri şunları da yapabilir:
 
 * Veri kümelerini güncelleştirme
-    
+
 * Kuralları yapılandırma
 
 >[!NOTE]
@@ -244,13 +291,11 @@ Bu bölümde, dağıtım işlem hatlarındaki sınırlamaların çoğu listeleni
 
 ### <a name="dataset-limitations"></a>Veri kümesi sınırlamaları
 
-* [Artımlı yineleme](../admin/service-premium-incremental-refresh.md) ile yapılandırılan veri kümeleri dağıtılamaz.
-
 * Gerçek zamanlı veri bağlantısı kullanan veri kümeleri dağıtılamaz.
 
 * Hedef veri kümesi dağıtım sırasında bir [canlı bağlantı](../connect-data/desktop-report-lifecycle-datasets.md)kullanıyorsa kaynak veri kümesinin de bu bağlantı modunu kullanması gerekir.
 
-* Dağıtımdan sonra, bir veri kümesinin indirilmesi (dağıtıldığı aşamadan) desteklenmez.
+* Dağıtımdan sonra, bir veri kümesinin (dağıtıldığı aşamadan) indirilmesi desteklenmez.
 
 * Veri kümesi kuralı sınırlamaları listesi için bkz. [veri kümesi kuralı sınırlamaları](deployment-pipelines-get-started.md#dataset-rule-limitations).
 

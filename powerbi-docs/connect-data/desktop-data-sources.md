@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160407"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020056"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -95,12 +95,13 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Denodo
 * Dremio
 * Exasol
-* Indexima (Beta)
+* Indexima
 * InterSystems IRIS (Beta)
 * Jethro (Beta)
 * Kyligence
 * Linkar PICK Style / MultiValue Databases (Beta)
 * MarkLogic
+* MariaDB (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
@@ -127,7 +128,7 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 **Azure** kategorisinde, aşağıdaki veri bağlantıları sağlanır:
 
 * Azure SQL Veritabanı
-* Azure SQL Veri Ambarı
+* Azure Synapse Analytics (SQL DW)
 * Azure Analysis Services veritabanı
 * PostgreSQL için Azure Veritabanı
 * Azure Blob Depolama
@@ -139,9 +140,9 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu
-* Azure Veri Gezgini (Kusto)
 * Azure Maliyet Yönetimi
 * Azure Time Series Insights (Beta)
+* Azure Databricks
 
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -194,8 +195,10 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Workplace Analytics (Beta)
 * Zoho Creator (Beta)
+* Workplace Analytics (Beta)
+* Hexagon PPM Smart API
+
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
@@ -217,29 +220,27 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Python betiği
 * ODBC
 * OLE DB
+* Acterys: Model Automation & Planning (Beta)
+* Automation Anywhere (Beta)
 * Solver
+* Cherwell (Beta)
+* Cognite Data Fusion (Beta)
 * FHIR
 * Information Grid (Beta)
 * Jamf Pro (Beta)
+* Power BI için MicroStrategy
 * Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
 * Shortcuts Business Insights (Beta)
 * Siteimprove
+* SurveyMonkey (Beta)
 * Tenforce (Smart)List
 * TIBCO(R) Veri Sanallaştırması (Beta)
-* Vessel Insight (Beta)
-* Workforce Dimensions (Beta)
-* Zucchetti HR Infinity (Beta)
-* Cognite Data Fusion (Beta)
-* Power BI için MicroStrategy
-* SurveyMonkey (Beta)
 * Vena (Beta)
-* Acterys: Model Automation & Planning (Beta)
-* Automation Anywhere (Beta)
-* Cherwell (Beta)
+* Zucchetti HR Infinity (Beta)
+* Vessel Insight (Beta)
 * Boş Sorgu
-
 
 
 
@@ -288,7 +289,7 @@ Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sa
 
 PBIDS dosyası, kimlik doğrulaması bilgilerini ve tablo ve şema bilgilerini *içermez*.  
 
-Aşağıda kod parçacıkları PBIDS dosyalarının birkaç yaygın örneğini gösterir ama bunlar eksiksiz veya kapsamlı değildir. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
+Aşağıda kod parçacıkları PBIDS dosyalarının birkaç yaygın örneğini gösterir ama bunlar eksiksiz veya kapsamlı değildir. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
 
 Bu örnekler yalnızca kolaylık sağlamak için verilmiştir; tüm örnekleri kapsamaz ve DSR biçiminde desteklenen tüm bağlayıcıları içermez. Yöneticiler veya kuruluşlar kılavuz olarak bu örnekleri kullanarak kendi veri kaynaklarını oluşturabilir. Bu örnekler sayesinde kendi veri kaynağı dosyalarını oluşturup destekleyebilirler.
 

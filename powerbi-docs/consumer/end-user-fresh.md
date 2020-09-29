@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 09/15/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c3ae3974b411ccd7f1be175910878cdeb0bc5c40
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215908"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763310"
 ---
 # <a name="your-content-is-up-to-date"></a>İçeriğiniz güncel
 
@@ -23,7 +23,7 @@ ms.locfileid: "86215908"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Bir *tüketici* olarak *tasarımcılar* tarafından oluşturulup sizinle paylaşılan içeriklerle etkileşim kurarsınız. Bu içeriğin güncel olup olmadığını merak edebilir ya da yalnızca içeriğin en son ne zaman yenilendiğini öğrenmek isteyebilirsiniz. En yeni içerikle çalıştığınızı bilmek size güven verir.  
+Bir *iş kullanıcısı* olarak *tasarımcılar* tarafından oluşturulup sizinle paylaşılan içeriklerle etkileşim kurarsınız. Bu içeriğin güncel olup olmadığını merak edebilir ya da yalnızca içeriğin en son ne zaman yenilendiğini öğrenmek isteyebilirsiniz. En yeni içerikle çalıştığınızı bilmek size güven verir.  
  
 ![Power BI panosu](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -38,7 +38,7 @@ Verilerin güncelliği hakkında sorularınız varsa tasarımcıya başvurun.
 
 Sahibin adı panolar ve raporların başlık çubuğunda bulunabilir. **Sahip** gibi ek ayrıntıları ortaya çıkarmak için raporu veya panoyu seçin.
 
-![Power BI panosu sahibi](media/end-user-fresh/power-bi-owner.png)
+![Power BI panosu sahibi](media/end-user-fresh/power-bi-designer.png)
 
 
 ### <a name="apps"></a>Uygulamalar
@@ -47,19 +47,19 @@ Uygulama ekranı hem tasarımcının adını hem de uygulamanın son güncelleş
 
 1. Gezinti bölmesinde **Uygulamalar**’ı seçin.
 
-    ![gezinti bölmesi](media/end-user-fresh/power-bi-nav-app.png)
+    ![gezinti bölmesi](media/end-user-fresh/power-bi-nav-apps.png)
 
 
 
 2. Tasarımcının başlığını, güncellik tarihini ve adını göstermek için uygulamanın üzerine gelin. 
 
-    ![Biri seçili 2 uygulama](media/end-user-fresh/power-bi-app.png)
+    ![Biri seçili 2 uygulama](media/end-user-fresh/power-bi-apps.png)
 
 
 ### <a name="shared-with-me"></a>Benimle paylaşılıyor mu?
 **Benimle paylaşılan** ekranı size içerik sahibinin adını ve içeriğin sizinle son paylaşıldığı tarihi gösterir.
 
-![Değiştirme tarihi ve Sahip’in gösterildiği Benimle paylaşılan ekranı](media/end-user-fresh/power-bi-share.png) 
+![Değiştirme tarihi ve Sahip’in gösterildiği Benimle paylaşılan ekranı](media/end-user-fresh/power-bi-shared.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Son yenileme tarihini arama
@@ -70,20 +70,20 @@ Pano kutucuklarının Son yenileme zaman damgasını görmek için kutucuğu Oda
 
 1. Bir pano kutucuğunda **Diğer seçenekler** (...) ve **Odak modunda aç**’ı seçin.
 
-    ![Üç noktayı seçtikten sonra görüntülenen menü](media/end-user-fresh/power-bi-focus-mode.png)
+    ![Üç noktayı seçtikten sonra görüntülenen menü](media/end-user-fresh/power-bi-fresh-focus.png)
 
 2. Son yenileme tarihi sağ üst köşede görüntülenir. Tarihi görmüyorsanız, büyütmek için tarayıcınızı genişletin. 
 
-    ![son yenilemenin gösterildiği geniş tarayıcı](media/end-user-fresh/power-bi-last-refresh2.png)
+    ![son yenilemenin gösterildiği geniş tarayıcı](media/end-user-fresh/power-bi-last-refresh.png)
 
 ### <a name="dashboards-and-reports"></a>Panolar ve raporlar
-Son yenileme tarihini bulmanın bir başka yolu da **İlişkilileri görüntüle**’yi kullanmaktır.  **İlişkilileri görüntüle** seçeneği, Power BI’ın üst menü çubuğundan **Diğer seçenekler** (...) seçilerek görüntülenebilir.
+Son yenileme tarihini bulmanın bir başka yolu da **İlgili içeriği görüntüle**’yi kullanmaktır.  **İlgili içeriği görüntüle** seçeneği, Power BI’ın üst menü çubuğundan **Diğer eylemler** (...) seçilerek görüntülenebilir.
 
-![Menüden İlişkilileri görüntüle'yi seçin](media/end-user-fresh/power-bi-view-related-dropdown.png)
+![Menüden ilgili içeriği görüntüle seçeneğini belirleme](media/end-user-fresh/power-bi-see-related.png)
 
 **İlişkili içerik** bölmesi pano ve raporların temel aldıkları veri kümesinin son yenileme bilgilerini görüntüler.
 
-![Power BI panosu](media/end-user-fresh/power-bi-refresh.png)
+![İlgili içerik bölmesinin ekran görüntüsü](media/end-user-fresh/power-bi-see-related-screen.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Uygulama, tasarımcısı tarafından silinirse ne olur?
 

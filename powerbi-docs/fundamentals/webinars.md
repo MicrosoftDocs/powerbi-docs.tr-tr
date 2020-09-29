@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768413"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020033"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com), Chauncy Freels ile çalışan ve bu web semineri listesini korumaya yardımcı olan bir satıcıdır"
@@ -22,11 +22,23 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
+**Power BI ile Hızla Çalışmaya Başlayın**  
+Sağlayan: Miguel Martinez, Microsoft  
+[5 Kasım 2020’de (10:00 – 11:00 PDT) izlemek için kaydolun](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
+
+**Microsoft Power BI Sayesinde Verilerinizi Gerçek Zamanlı Olarak İzleyin**  
+Sağlayan: Miguel Martinez ve Peter Myers  
+[Hemen izleyin](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Power BI ve Snowflake Kullanarak Ölçeklenebilir İş Zekası Çözümleri Oluşturun**  
+Sağlayan: Chris Webb, Craig Collier ve Chris Holliday  
+[Hemen izleyin](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **BI İçeriğini Yönetmeye Yönelik En İyi Deneyimlerle Kullanıcı Memnuniyetini Artırın**  
 Hazırlayan: Nimrod Shalit  

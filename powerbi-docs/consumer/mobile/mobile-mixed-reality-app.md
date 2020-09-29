@@ -1,22 +1,22 @@
 ---
-title: Karma Gerçeklik için Power BI uygulaması (Önizleme)
+title: HoloLens için Power BI (1. nesil)
 description: Karma Gerçeklik için Power BI uygulamasında (Önizleme) panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde veya ortamınız bağlamında görüntüleyin.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205930"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005526"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
-Karma Gerçeklik için Power BI uygulamasında (Önizleme) panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 
+# <a name="power-bi-for-hololens-1st-gen"></a>HoloLens için Power BI (1. nesil)
+HoloLens için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada çevreleyici bir şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 
 
 Windows mağazasından [Karma Gerçeklik için Power BI](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) uygulamasını ("Power BI Mobile" olarak adlandırılır) indirin. Pano ve raporlarınızla sanal dünyada etkileşim kurun ve yerleştirmek istediklerinizi seçin. 
 

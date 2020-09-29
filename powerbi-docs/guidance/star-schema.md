@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273466"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965477"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
@@ -65,7 +65,7 @@ Yıldız şeması tasarımında Power BI modeline uygulanabilecek birçok başka
 
 Yıldız şeması tasarımında **ölçü** özetlenecek değerlerin depolandığı bir olgu tablosu sütunudur.
 
-Power BI modelinde **ölçünün** farklı ama benzer bir tanımı vardır. Özetleme yapabilen [Veri Çözümleme İfadeleri (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) dilinde yazılmış bir formüldür. Ölçü ifadeleri çoğunlukla sorgu süresinde skaler bir değer sonucu üretmek için SUM, MIN, MAX ve AVERAGE gibi DAX toplama işlevlerinden yararlanır (değerler hiçbir zaman modelde depolanmaz). Ölçü ifadesi basit sütun toplamalarından filtre bağlamını ve/veya ilişki yayma işlemini geçersiz kılan daha gelişmiş formüllere kadar değişebilir. Daha fazla bilgi için [Power BI Desktop'ta DAX ile İlgili Temel Bilgiler](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) makalesini okuyun.
+Power BI modelinde **ölçünün** farklı ama benzer bir tanımı vardır. Özetleme yapabilen [Veri Çözümleme İfadeleri (DAX)](/dax/data-analysis-expressions-dax-reference) dilinde yazılmış bir formüldür. Ölçü ifadeleri çoğunlukla sorgu süresinde skaler bir değer sonucu üretmek için SUM, MIN, MAX ve AVERAGE gibi DAX toplama işlevlerinden yararlanır (değerler hiçbir zaman modelde depolanmaz). Ölçü ifadesi basit sütun toplamalarından filtre bağlamını ve/veya ilişki yayma işlemini geçersiz kılan daha gelişmiş formüllere kadar değişebilir. Daha fazla bilgi için [Power BI Desktop'ta DAX ile İlgili Temel Bilgiler](../transform-model/desktop-quickstart-learn-dax-basics.md) makalesini okuyun.
 
 Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha desteklediğini anlamanız önemlidir. Herhangi bir sütun ve genellikle de sayısal sütunlar rapor görseli veya Soru-Cevap kullanılarak özetlenebilir. Bu sütunlara _örtülü ölçüler_ denir. Birçok durumda ölçüler oluşturmanız gerekmediğinden bir model geliştiricisi olarak bu size kolaylık sağlar. Örneğin Adventure Works bayi satışlarının **Sales Amount** (Satış Tutarı) sütunu, olası her toplama türü için bir ölçü oluşturmaya gerek kalmadan çok sayıda yolla (sum, count, average, median, min, max vb.) özetlenebilir.
 
@@ -73,7 +73,7 @@ Power BI modellerinin özetlemeyi başarmak için ikinci bir yöntemi daha deste
 
 Öte yandan basit sütun düzeyi özetlemelerinde bile ölçüler oluşturmanız için üç cazip neden vardır:
 
-- Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](https://docs.microsoft.com/power-bi/service-analyze-in-excel) yapılırken MDX kullanılır çünkü PivotTable’lar MDX sorguları gönderir.
+- Rapor yazarlarınızın modeli [Çok Boyutlu İfadeler (MDX)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query) kullanarak sorgulayacağını biliyorsanız, modelin _açık ölçüler_ içermesi gerekir. Açık ölçüler DAX kullanılarak tanımlanır. Power BI veri kümesi MDX kullanılarak sorgulandığında bu tasarım yaklaşımı son derece uygundur çünkü MDX sütun değerlerinin özetlemesini yapamaz. Özellikle, [Excel'de Analiz](../collaborate-share/service-analyze-in-excel.md) yapılırken MDX kullanılır çünkü PivotTable’lar MDX sorguları gönderir.
 - Rapor yazarlarınızın MDX sorgu tasarımcısını kullanarak Power BI sayfalandırılmış raporları oluşturacağını biliyorsanız, modelin açık ölçüler içermesi gerekir. [Sunucu toplamalarını](/sql/reporting-services/report-design/report-builder-functions-aggregate-function) yalnızca MDX sorgu tasarımcısı destekler. Bu nedenle rapor yazarlarının ölçülerin Power BI tarafından değerlendirilmesine (sayfalandırılmış rapor altyapısı yerine) ihtiyaç duyması halinde MDX sorgu tasarımcısını kullanmaları gerekir.
 - Rapor yazarlarınızın sütunları yalnızca belirli yollarla özetleyebildiğinden emin olmanız gerektiğinde. Örneğin bayi satışlarının **Unit Price** (Birim Fiyatı) sütunu (birim başına ücreti temsil eder) özetlenebilir ama bu yalnızca belirli toplama işlevleri kullanılarak yapılabilir. Hiçbir zaman toplanmamalıdır ama başka toplama işlevleriyle (min, max, average vb.) özetlemeye uygundur. Bu örnekte modelleyici **Unit Price** sütununu gizleyebilir ve tüm uygun toplama işlevleri için ölçüler oluşturabilir.
 
@@ -83,7 +83,7 @@ Bu tasarım yaklaşımı Power BI hizmetinde yazılan raporlarda ve Soru-Cevap i
 
 **Vekil anahtar** yıldız şeması modellemesini desteklemek için tabloya eklediğiniz benzersiz bir tanımlayıcıdır. Tanımı gereği kaynak verilerde tanımlanmaz veya depolanmaz. Yaygın olarak vekil anahtarlar ilişkisel veri ambarı boyut tablolarına eklenerek boyut tablosu satırlarının her biri için benzersiz tanımlayıcı sağlanır.
 
-Power BI modeli ilişkilerinde bir tablodaki tek bir benzersiz sütun temel alınır ve bu sütun farklı bir tablodaki tek sütuna filtreleri yayar. Modelinizde boyut türündeki bir tablo tek bir benzersiz sütun içermiyorsa, ilişkinin "bir" tarafına dönüşmesi için benzersiz tanımlayıcı eklemelisiniz. Power BI Desktop'ta [Power Query dizin sütunu](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) oluşturarak bu gereksinimi kolayca karşılayabilirsiniz.
+Power BI modeli ilişkilerinde bir tablodaki tek bir benzersiz sütun temel alınır ve bu sütun farklı bir tablodaki tek sütuna filtreleri yayar. Modelinizde boyut türündeki bir tablo tek bir benzersiz sütun içermiyorsa, ilişkinin "bir" tarafına dönüşmesi için benzersiz tanımlayıcı eklemelisiniz. Power BI Desktop'ta [Power Query dizin sütunu](/powerquery-m/table-addindexcolumn) oluşturarak bu gereksinimi kolayca karşılayabilirsiniz.
 
 ![Power Query araç çubuğunda dizin sütunu oluşturma](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ Power BI modelinde bu tasarım iki tablo arasında birden çok ilişki oluşturu
 
 ![Tek rol yapan boyut ve ilişkiler örneği](media/star-schema/relationships.png)
 
-Etkin olmayan ilişki kullanmanın tek yolu [USERELATIONSHIP işlevini](https://docs.microsoft.com/dax/userelationship-function-dax) kullanan bir DAX ifadesi tanımlamaktır. Bizim örneğimizde model geliştiricisinin sevk tarihine ve teslim tarihine göre bayi satışlarını analiz etmeye olanak tanımak için ölçüler oluşturması gerekir. Özellikle de bayi tablosunun çok sayıda ölçü tanımladığı durumlarda bu bıktırıcı bir çalışma olabilir. Ayrıca ölçülerin aşırı bolluğu nedeniyle **Alanlar** bölmesinde dağınıklığa da yol açar. Başka sınırlamaları da vardır:
+Etkin olmayan ilişki kullanmanın tek yolu [USERELATIONSHIP işlevini](/dax/userelationship-function-dax) kullanan bir DAX ifadesi tanımlamaktır. Bizim örneğimizde model geliştiricisinin sevk tarihine ve teslim tarihine göre bayi satışlarını analiz etmeye olanak tanımak için ölçüler oluşturması gerekir. Özellikle de bayi tablosunun çok sayıda ölçü tanımladığı durumlarda bu bıktırıcı bir çalışma olabilir. Ayrıca ölçülerin aşırı bolluğu nedeniyle **Alanlar** bölmesinde dağınıklığa da yol açar. Başka sınırlamaları da vardır:
 
 - Rapor yazarları ölçüleri tanımlamak yerine sütunları özetlemeye dayandığında, rapor düzeyi bir ölçü yazmadan etkin olmayan ilişkileri özetlemeyi başaramaz. Rapor düzeyi ölçüleri ancak raporlar Power BI Desktop'ta yazılırken tanımlanabilir.
 - Tarih ile bayi satışları arasında tek bir etkin ilişki yolu olduğunda bayi satışlarını farklı tarih türlerine göre eş zamanlı olarak filtrelemek mümkün olmaz. Örneğin sevk edilen satışlara göre sipariş tarihi satışlarının çizildiği bir görsel oluşturamazsınız.
 
-Bu sınırlamaları aşmak için yaygın kullanılan bir Power BI modelleme tekniği her rol yapan örnek için boyut türünde bir tablo oluşturmaktır. Normalde DAX kullanarak ek boyut tablolarını [hesaplanan tablolar](https://docs.microsoft.com/dax/calculatetable-function-dax) olarak oluşturursunuz. Hesaplanan tablolar kullanıldığında model bir **Date** (Tarih) tablosu, bir **Ship Date** (Sevk Tarihi) tablosu ve bir de **Delivery Date** (Teslim Tarihi) tablosu içerebilir. Her birinin kendi ilgili bayi satış tablosu sütunlarıyla tek ve etkin bir ilişkisi olur.
+Bu sınırlamaları aşmak için yaygın kullanılan bir Power BI modelleme tekniği her rol yapan örnek için boyut türünde bir tablo oluşturmaktır. Normalde DAX kullanarak ek boyut tablolarını [hesaplanan tablolar](/dax/calculatetable-function-dax) halinde oluşturursunuz. Hesaplanan tablolar kullanıldığında model bir **Date** (Tarih) tablosu, bir **Ship Date** (Sevk Tarihi) tablosu ve bir de **Delivery Date** (Teslim Tarihi) tablosu içerebilir. Her birinin kendi ilgili bayi satış tablosu sütunlarıyla tek ve etkin bir ilişkisi olur.
 
 ![Rol yapan boyutlar ve ilişkiler örneği](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Daha fazla bilgi için bkz. [Etkin ve etkin olmayan ilişki karşılaştırması
 
 Gereksiz boyutun tasarım amacı, hem model depolama boyutunu küçültmek hem de daha az model tablosu ortaya koyarak **Alanlar** bölmesindeki dağınıklığı azaltmak için birçok "küçük" boyutu tek bir boyutta birleştirmektir.
 
-Gereksiz boyut tablosu normalde tüm boyut öznitelik üyelerinin bir vekil anahtar sütunuyla Kartezyen çarpımıdır. Vekil anahtar tablodaki her satıra benzersiz bir başvuru sağlar. Boyutu bir veri ambarında oluşturabileceğiniz gibi, Power Query kullanıp [tam dış sorgu birleştirmeleri](https://docs.microsoft.com/powerquery-m/table-join) gerçekleştiren bir sorgu oluşturarak ve ardından vekil anahtar (dizin sütunu) ekleyerek de oluşturabilirsiniz.
+Gereksiz boyut tablosu normalde tüm boyut öznitelik üyelerinin bir vekil anahtar sütunuyla Kartezyen çarpımıdır. Vekil anahtar tablodaki her satıra benzersiz bir başvuru sağlar. Boyutu bir veri ambarında oluşturabileceğiniz gibi, Power Query kullanıp [tam dış sorgu birleştirmeleri](/powerquery-m/table-join) gerçekleştiren bir sorgu oluşturarak ve ardından vekil anahtar (dizin sütunu) ekleyerek de oluşturabilirsiniz.
 
 ![Gereksiz boyut örneği](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Yıldız şeması tasarımı ve Power BI modeli tasarımı hakkında daha fazla 
 - [Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu](relationships-active-inactive.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 - Önerileriniz mi var? [Power BI'ı geliştirmek için fikirlerinizi paylaşın](https://ideas.powerbi.com/)
-
-

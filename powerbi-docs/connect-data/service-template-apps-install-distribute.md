@@ -6,13 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235700"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763792"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma
 
@@ -74,13 +75,9 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 
    ![GitHub uygulaması verilerinize bağlanma](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    Bu, örnek verilerin kaynağını kendi veri kaynağınız (bkz. [bilinen sınırlamalar](service-template-apps-overview.md#known-limitations)) olarak değiştirebileceğiniz parametreler iletişim kutusunu açar, ardından kimlik doğrulama yöntemi iletişim kutusu açılır. Bu iletişim kutularındaki değerleri yeniden tanımlamanız gerekebilir. Ayrıntılar için, yüklemekte olduğunuz şablon uygulamasına özgü belgelere göz atın.
 
-    
-    Böylece veri kaynağını, örnek verilerden kendi veri kaynağınıza değiştireceğiniz bir veya bir dizi iletişim kutusu açılır. Bu genellikle veri kümesi parametrelerinin ve veri kaynağı kimlik bilgilerinin yeniden tanımlanması anlamına gelir. Bkz. [Bilinen sınırlamalar](service-template-apps-overview.md#known-limitations).
-    
-    Aşağıdaki örnekte verilere bağlanma işleminde iki iletişim kutusu vardır.
-
-   ![Verilere bağlanma iletişim kutuları](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![Verilere bağlanma iletişim kutularının ekran görüntüsü.](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     Bağlantı iletişim kutularını doldurma işlemini tamamlamanızın ardından bağlantı işlemi başlar. Bir başlıkta verilerin yenilenmekte olduğu ve bu arada örnek verilerin görüntülendiği size bildirilir.
 
@@ -109,11 +106,11 @@ Zaman zaman şablon uygulaması oluşturucuları, şablon uygulamalarının yeni
 
 Uygulamayı başlangıçta AppSource’dan indirdiyseniz, şablon uygulamasının yeni sürümü kullanıma sunulduğunda iki yolla bildirim alırsınız:
 * Power BI hizmetinde yeni uygulama sürümünün kullanılabilir olduğunu bildiren bir güncelleştirme başlığı görüntülenir.
-  ![Şablon uygulaması güncelleştirme bildirimi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![Şablon uygulaması güncelleştirme bildirimi başlığı](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Power BI'ın bildirim bölmesinde bir bildirim alırsınız.
 
 
-  ![Şablon uygulaması güncelleştirme bildirimi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![Şablon uygulaması güncelleştirme bildirimi bölmesi](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Uygulamayı ilk olarak AppSource yerine doğrudan bağlantı aracılığıyla aldıysanız, yeni bir sürüm kullanılabilir olduğunda bunu bilmeniz için tek yol, şablon uygulaması oluşturucusuyla iletişim kurmaktır.

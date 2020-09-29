@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364089"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861303"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Power BI Rapor Sunucusu’nu Azure Uygulama Ara Sunucusu’yla yapılandırma
 
-Bu makalede Azure Active Directory Uygulama Ara Sunucusu’nu kullanarak Power BI Rapor Sunucusu’na ve SQL Server Reporting Services (SSRS) 2016 ve üstüne nasıl bağlanabileceğiniz açıklanır. Bu tümleştirme aracılığıyla, şirket ağından uzak olan kullanıcılar istemci tarayıcılarından Power BI Rapor Sunucusu ve Reporting Services raporlarına erişebilir ve Azure Active Directory (AD) tarafından korunabilir. Şirket içi uygulamalara [Azure Active Directory'nin Uygulama Ara Sunucusu](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) aracılığıyla uzaktan erişme hakkında daha fazla bilgi edinin.
+Bu makalede Azure Active Directory Uygulama Ara Sunucusu’nu kullanarak Power BI Rapor Sunucusu’na ve SQL Server Reporting Services (SSRS) 2016 ve üstüne nasıl bağlanabileceğiniz açıklanır. Bu tümleştirme aracılığıyla, şirket ağından uzak olan kullanıcılar istemci tarayıcılarından Power BI Rapor Sunucusu ve Reporting Services raporlarına erişebilir ve Azure Active Directory (AD) tarafından korunabilir. Şirket içi uygulamalara [Azure Active Directory'nin Uygulama Ara Sunucusu](/azure/active-directory/manage-apps/application-proxy) aracılığıyla uzaktan erişme hakkında daha fazla bilgi edinin.
 
 ## <a name="environment-details"></a>Ortam ayrıntıları
 
@@ -125,7 +125,7 @@ Bu adımlar Power BI Rapor Sunucusu’nu Kerberos kimlik doğrulama mekanizması
 
 ## <a name="configure-azure-application-proxy-connector"></a>Azure Uygulama Ara Sunucusu bağlayıcısını yapılandırma
 
-[Uygulama Ara Sunucusu bağlayıcısıyla ilgili yapılandırma](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) konusundaki makaleye bakın
+[Uygulama Ara Sunucusu bağlayıcısıyla ilgili yapılandırma](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) konusundaki makaleye bakın
 
 Biz Uygulama Ara Sunucusu bağlayıcısını Power BI Rapor Sunucusu’na yükledik ama bunu ayrı bir sunucuda yapılandırabilir ve temsilin düzgün ayarlandığından emin olabilirsiniz.
 
@@ -150,14 +150,14 @@ KCD’yi yapılandırmak için aşağıdaki adımları her bağlayıcı makinesi
 
 Artık Azure AD Uygulaması Ara Sunucusu’nu yapılandırmaya hazırsınız.
 
-Power BI Rapor Sunucusu’nu aşağıdaki ayarları kullanarak Uygulama Ara Sunucusu aracılığıyla yayımlayın. Uygulama Ara Sunucusu aracılığıyla uygulama yayımlama işleminin adım adım yönergeleri için bkz. [Azure AD Uygulama Ara Sunucusu’nu kullanarak uygulamaları yayımlama](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
+Power BI Rapor Sunucusu’nu aşağıdaki ayarları kullanarak Uygulama Ara Sunucusu aracılığıyla yayımlayın. Uygulama Ara Sunucusu aracılığıyla uygulama yayımlama işleminin adım adım yönergeleri için bkz. [Azure AD Uygulama Ara Sunucusu’nu kullanarak uygulamaları yayımlama](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad).
 
 - **İç URL**: Bağlayıcının şirket ağında ulaşabileceği rapor sunucusunun URL’sini girin. Bağlayıcının yüklendiği sunucudan bu URL’ye ulaşılabildiğinden emin olun. Uygulama Ara Sunucusu aracılığıyla yayımlanan alt yollarla ilgili sorunlardan kaçınmak için `https://servername/` gibi bir üst düzey etki alanı kullanmak iyi bir yöntemdir. Örneğin `https://servername/` kullanın ama `https://servername/reports/` veya `https://servername/reportserver/` kullanmayın. Biz ortamımızı `https://pbirsazureapp.eastus.cloudapp.azure.com/` ile yapılandırdık.
 
     > [!NOTE]
-    > Rapor sunucusuna güvenli HTTPS bağlantısı kullanmanızı öneririz. Nasıl yapılacağına ilişkin bilgi için bkz. [Yerel moddaki rapor sunucusunda SSL bağlantılarını yapılandırma](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017).
+    > Rapor sunucusuna güvenli HTTPS bağlantısı kullanmanızı öneririz. Nasıl yapılacağına ilişkin bilgi için bkz. [Yerel moddaki rapor sunucusunda SSL bağlantılarını yapılandırma](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server).
 
-- **Dış URL**: Power BI mobil uygulamasının bağlanacağı genel URL’yi girin. Özel etki alanı kullanılıyorsa örneğin `https://reports.contoso.com` gibi bir URL olabilir. Özel etki alanı kullanmak için etki alanının sertifikasını karşıya yükleyin ve bir DNS kaydının uygulamanız için varsayılan msappproxy.net etki alanına işaret etmesini sağlayın. Ayrıntılı adımlar için bkz. [Azure AD Uygulama Ara Sunucusu’nda özel etki alanlarıyla çalışma](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain).
+- **Dış URL**: Power BI mobil uygulamasının bağlanacağı genel URL’yi girin. Özel etki alanı kullanılıyorsa örneğin `https://reports.contoso.com` gibi bir URL olabilir. Özel etki alanı kullanmak için etki alanının sertifikasını karşıya yükleyin ve bir DNS kaydının uygulamanız için varsayılan msappproxy.net etki alanına işaret etmesini sağlayın. Ayrıntılı adımlar için bkz. [Azure AD Uygulama Ara Sunucusu’nda özel etki alanlarıyla çalışma](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain).
 
 Biz ortamımız için dış URL’yi `https://pbirsazureapp-umacontoso2410.msappproxy.net/` olarak yapılandırdık.
 
@@ -184,7 +184,7 @@ Uygulamanız yayımlandığında, aşağıdaki adımları kullanarak çoklu otur
     - Kerberos biletinin oluşturulması için bir rapor çalıştırmayı veya veri kaynağına test bağlantısı oluşturmayı deneyin.
     - Raporun/test bağlantısının başarıyla yürütülmesinin ardından komut istemini açın ve şu komutu çalıştırın: `klist`. Sonuç bölümünde `http/` SPN’siyle bir bilet görüyor olmalısınız. Power BI Rapor Sunucusu’nda yapılandırdığınız SPN’yle aynıysa, bu bölümde bu SPN’yi kullanın.
 
-1. Bağlayıcıyı kullanıcılar adına kullanmak için **Temsilci Oturum Açma Kimliği**’ni seçin. Daha fazla bilgi için bkz. [Farklı şirket içi ve bulut kimlikleriyle çalışma](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities).
+1. Bağlayıcıyı kullanıcılar adına kullanmak için **Temsilci Oturum Açma Kimliği**’ni seçin. Daha fazla bilgi için bkz. [Farklı şirket içi ve bulut kimlikleriyle çalışma](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities).
 
     Kullanıcı Asıl Adını kullanmanızı öneririz. Biz örneğimizde bunu **Kullanıcı Asıl Adı** seçeneğiyle çalışacak şekilde yapılandırdık:
 
@@ -216,7 +216,7 @@ Uygulamanızı ayarlamayı bitirmek için **Kullanıcılar ve gruplar** bölüm�
 1. Önce oturum açarken kullanmayı planladığımız özel etki alanını yapılandırmalı ve sonra da bunun doğrulandığından emin olmalıyız
 2. Bu örnekte umacontoso.com adlı bir etki alanı satın aldık ve DNS bölgesini girdilerle yapılandırdık. Ayrıca `onmicrosoft.com` etki alanını kullanmayı ve bunu şirket içi AD ile eşitlemeyi de deneyebilirsiniz.
 
-    Başvuru için [Öğretici: Mevcut özel DNS adını Azure App Service'e eşleme](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain) makalesine bakın.
+    Başvuru için [Öğretici: Mevcut özel DNS adını Azure App Service'e eşleme](/Azure/app-service/app-service-web-tutorial-custom-domain) makalesine bakın.
 
 1. Özel etki alanının DNS girdisini başarıyla doğruladıktan sonra portalda etki alanına ilişkin olarak **Doğrulandı** durumunu görüyor olmalısınız.
 
@@ -295,8 +295,6 @@ Power BI mobil uygulamasının Power BI Rapor Sunucusu’na bağlanabilmesi ve e
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Azure AD Uygulama Ara Sunucusu ile Power BI Mobil’e uzaktan erişimi etkinleştirme](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[Azure AD Uygulama Ara Sunucusu ile Power BI Mobil’e uzaktan erişimi etkinleştirme](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-
-                

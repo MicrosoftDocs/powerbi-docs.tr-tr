@@ -6,21 +6,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4282b4fc5d59e2ff5e0def353ad444546dcf5f43
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008526"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019987"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
-## <a name="august-2020-update-2844610"></a>Ağustos 2020 Güncelleştirmesi (2.84.461.0)
+## <a name="september-2020-update-2852840"></a>Eylül 2020 Güncelleştirmesi (2.85.284.0)
 
-Power BI Desktop Ağustos güncelleştirmelerimiz yeni özelliklerin yanı sıra kutlamaya değer özellikleri, güneşli günleri ve dostlarla birlikte keyfine varılmayı bekleyen mangal partilerini beraberinde getiriyor. 
+Eylül ayındaki Power BI Desktop güncelleştirmelerimiz sonbahar mevsimi gibi hoşunuza gidecek öğeler içeriyor. 
+
+Ayrıca bu ayın yeniliklerinden biri olarak, Power BI Desktop’a yönelik aylık blog ve video güncelleştirmelerinde Power BI mobil ve Power BI hizmetine yönelik yeni güncelleştirmeler yer alır. Bu makalede, Power BI Desktop’a yönelik güncelleştirmeler ele alınmaktadır. Mobil ve Power BI hizmetine yönelik güncelleştirmeler hakkında bilgi edinmek için ilgili yenilikler makalelerine göz atın:
+
+* [Power BI hizmetindeki yenilikler](service-whats-new.md)
+* [Power BI mobil uygulamalarındaki yenilikler](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 [İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 çalıştırıyorsanız, [Microsoft Store](https://aka.ms/pbidesktopstore)'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
 
@@ -34,48 +39,56 @@ Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki
 * \[makale\]: Bazı özelliklerin daha ayrıntılı olarak açıklandığı bir makale bulunur.
 * Kalan özellikler yeterince açık olduğundan herhangi bir makale veya video bağlantısı gerektirmez.
 
-[Power BI Desktop aylık güncelleştirme videosunun](#power-bi-desktop-monthly-update-video) tamamını da izleyebilirsiniz.
+[Power BI aylık güncelleştirme videosunun](#power-bi-desktop-monthly-update-video) tamamını da izleyebilirsiniz.
 
 > [!IMPORTANT]
 > Power BI Desktop, 31 Ocak 2021’den sonra Windows 7’de desteklenmeyecektir. Bu tarihten sonra Power BI Desktop, yalnızca en son sürümü için Windows 8 veya daha yeni sürümlerde desteklenecektir. 
 
 Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
 
-### <a name="reporting"></a>Raporlama
-* Görselleri kişiselleştirme (önizleme) için perspektif desteği [[video]](https://youtu.be/TPsV7N4bZZg?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Perspectives) 
-* Veri noktaları için dikdörtgen kement seçimi (önizleme)  [[video]](https://youtu.be/TPsV7N4bZZg?t=448)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Data_point) 
-* Daha fazla görsele dinamik biçimlendirme desteği eklendi [[video]](https://youtu.be/TPsV7N4bZZg?t=715)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_dynamic_formatting) 
 
+https://www.youtube.com/watch?v=gPGy18Yo0Go
+
+https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
 
 ### <a name="analytics"></a>Analiz
-* Soru-Cevap için DirectQuery desteği [[video]](https://youtu.be/TPsV7N4bZZg?t=926)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Direct_Query) 
+* Akıllı anlatılar (önizleme) [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Soru-Cevap şimdi aritmetik işlemleri destekliyor [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+
+
+### <a name="reporting"></a>Raporlama
+* Ek grafiklere yönelik veri noktası dikdörtgen seçimi [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* Katman sırasını korumak için genel görsel seçeneği eklendi [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* Yayımlama sırasında çalışma alanı arama [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* Yığılmış görseller için toplam etiket sayısı [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* Mobil yazma geliştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+
+
+### <a name="modeling"></a>Modelleme
+* Gelişmiş Veri Kümesi Meta Verileri genel kullanıma sunuldu [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200) [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* Para birimi veri türü sütunlarını içeren toplama ifadelerine yönelik performans iyileştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+
+
+### <a name="data-connectivity"></a>Veri bağlantısı
+* Azure Databricks [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* Diğer veri bağlantısı güncelleştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>Görsel Nesneler
-* Çeşitli şirketlere ait birden çok yeni görse [[video]](https://youtu.be/TPsV7N4bZZg?t=956)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Visualizations)
-* ArcGIS Haritalarıyla ilgili güncelleştirmeler [[video]](https://youtu.be/TPsV7N4bZZg?t=1096)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_ArcGIS)
-* AppSource görselleri için yönetici özelliklerini genişletme [[video]](https://youtu.be/TPsV7N4bZZg?t=1135)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Admin)
+* Çeşitli sağlayıcılardan yeni görseller [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
-### <a name="template-apps"></a>Şablon uygulamalar
-* Agile CRM Analytics for Dynamics 365 [[video]](https://youtu.be/TPsV7N4bZZg?t=1300)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_CRM)
+### <a name="template-apps"></a>Şablon Uygulamaları
+* Çok kanallı öznitelik panosu[[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* Çalışma alanı analiz panosu [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
-### <a name="data-preparation"></a>Veri hazırlama
-* Örneğe göre Text/CSF (önizleme) [[video]](https://youtu.be/TPsV7N4bZZg?t=1335)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_text_csv) 
+Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/).
 
-### <a name="data-connectivity"></a>Veri bağlantısı
-* Cherwell bağlayıcısı [[video]](https://youtu.be/TPsV7N4bZZg?t=1392)   [[makale]](../create-reports/desktop-external-tools.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Cherwell_connector) 
-
-* Automation Anywhere bağlayıcısı [[video]](https://youtu.be/TPsV7N4bZZg?t=1414)   [[makale]](../create-reports/desktop-external-tools.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Auto_connector) 
-
-* Acterys bağlayıcısı [[video]](https://youtu.be/TPsV7N4bZZg?t=1434)   [[makale]](../create-reports/desktop-external-tools.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Acterys_connector) 
-
-
-Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/).
-
-[Power BI hizmetindeki yenilikleri](service-whats-new.md) ve [Power BI mobil uygulamalarındaki yenilikleri](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md) gözden geçirin.
 
 > [!NOTE]
 > [Power BI Desktop'ta kullanılabilir veri kaynaklarına](../connect-data/desktop-data-sources.md) bakın. Listemiz sürekli büyüyor, bu nedenle sık sık gözden geçirin.
@@ -91,7 +104,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu 
 Videolar ve diğer ilgi çekici içerikler yoluyla Power BI hakkında bilgi edinmek hoşunuza gitti mi? Aşağıdaki video kaynağı ve içeriği koleksiyonuna göz atın:
 
 -   [Power BI kanalı](https://www.youtube.com/user/mspowerbi): YouTube'daki Power BI video koleksiyonu.
--   [Power BI için Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Bayt boyutunda parçalar halinde, Power BI’ın sıralı öğrenme turu.
+-   [Power BI için Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Bayt boyutunda parçalar halinde, Power BI’ın sıralı öğrenme turu.
 
 ## <a name="updates-for-previous-months"></a>Önceki aylara ait güncelleştirmeler
 

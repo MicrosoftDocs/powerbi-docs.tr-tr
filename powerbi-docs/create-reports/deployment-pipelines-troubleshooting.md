@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557192"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855391"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>Dağıtım işlem hatları sorunlarını giderme (önizleme)
+# <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 
 Dağıtım işlem hatlarında sorunları gidermek için bu makaleyi kullanın.
 
@@ -39,6 +39,13 @@ Aşağıdaki koşullar karşılanmazsa dağıtım işlem hatları düğmesini g�
 * Çalışma alanı yalnızca tek bir işlem hattına atanabilir
 
 * Yeni çalışma alanı yöneticisi olma
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Çalışma alanımda neden işlem hattı aşaması etiketini göremiyorum?
+
+Dağıtım işlem hatları, bir işlem hattına atanmış çalışma alanlarında işlem hattı aşaması etiketini görüntüler. *Geliştirme* ve *Test* aşamalarına yönelik etiketler her zaman görünür. Ancak, [işlem hattına erişiminiz varsa](deployment-pipelines-process.md#user-with-pipeline-access) veya bir [çalışma alanı yöneticisiyseniz](deployment-pipelines-process.md#workspace-admin) yalnızca *Üretim* etiketini görürsünüz.
+
+> [!div class="mx-imgBorder"]
+> ![Üretin işlem hattı çalışma alanındaki üretim etiketinin ekran görüntüsü.](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>Lisanslama
 
@@ -112,7 +119,7 @@ Veri kümesi kurallarınızın değerleri eksik. Bu durum, veri kümenizin deği
 
 ![Bir dağıtım hatalı bağlantılar nedeniyle başarısız olduğunda görüntülenen geçersiz kurallar hatasının ekran görüntüsü.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma**’ya tıklayabilirsiniz. Veri kümesine tıkladığınızda hatalı kurallar işaretlenir.
+Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma**’yı seçebilirsiniz. Veri kümesini seçtiğinizde hatalı kurallar işaretlenir.
 
 Başarıyla dağıtmak için hatalı kuralları düzeltin veya kaldırın ve yeniden dağıtın.
 
@@ -120,9 +127,9 @@ Başarıyla dağıtmak için hatalı kuralları düzeltin veya kaldırın ve yen
 
 Power BI hizmetindeki veri kaynağı bağlantısını değiştiremezsiniz.
 
-Test veya üretim aşamalarındaki veri kaynağını değiştirmek istiyorsanız [veri kümesi kurallarını](deployment-pipelines-get-started.md#step-4---create-dataset-rules) veya [API’leri](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) kullanabilirsiniz. Veri kümesi kuralları, yalnızca sonraki dağıtımın ardından etkili olur.
+Test veya üretim aşamalarındaki veri kaynağını değiştirmek istiyorsanız [veri kümesi kurallarını](deployment-pipelines-get-started.md#step-4---create-dataset-rules) veya [API’leri](/rest/api/power-bi/datasets/updateparametersingroup) kullanabilirsiniz. Veri kümesi kuralları, yalnızca sonraki dağıtımın ardından etkili olur.
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Üretimde bir hata düzelttim, ancak şimdi “önceki aşamaya dağıt” düğmesine tıklayamıyorum. Neden gri renkte?
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Üretim ortamında bir hata düzelttim, ancak şimdi “önceki aşamaya dağıt” düğmesini seçemiyorum. Neden gri renkte?
 
 Geriye dönük dağıtımı yalnızca boş bir aşamaya yapabilirsiniz. Test aşamasında içeriğiniz varsa üretimden geriye dönük dağıtım yapamazsınız.
 

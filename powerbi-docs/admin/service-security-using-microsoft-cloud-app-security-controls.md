@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034233"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854175"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI’da Microsoft Cloud App Security denetimlerini kullanma
 
@@ -22,7 +22,7 @@ Power BI ile Cloud App Security’yi kullanarak Power BI raporlarınızı, veril
 
 ![Cloud App Security denetimler bölmesini kullanma](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
-Cloud App Security’yi yalnızca Power BI değil, her türlü uygulama ve hizmet için yapılandırabilirsiniz. Power BI verileriniz ve analizlerinizin Cloud App Security korumalarının avantajlarından yararlanması için Cloud App Security’yi Power BI ile çalışacak şekilde yapılandırmanız gerekir. İşleyişi, panosu ve uygulama risk puanları dahil olmak üzere Cloud App Security hakkında daha fazla bilgi için [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) belgelerine bakın.
+Cloud App Security’yi yalnızca Power BI değil, her türlü uygulama ve hizmet için yapılandırabilirsiniz. Power BI verileriniz ve analizlerinizin Cloud App Security korumalarının avantajlarından yararlanması için Cloud App Security’yi Power BI ile çalışacak şekilde yapılandırmanız gerekir. İşleyişi, panosu ve uygulama risk puanları dahil olmak üzere Cloud App Security hakkında daha fazla bilgi için [Cloud App Security](/cloud-app-security/) belgelerine bakın.
 
 
 ## <a name="using-cloud-app-security-with-power-bi"></a>Cloud App Security’yi Power BI ile kullanma
@@ -41,17 +41,17 @@ Aşağıdaki bölümlerde Power BI’da Cloud App Security kullanma adımları a
 ### <a name="set-session-policies-in-azure-ad-required"></a>Azure AD’de oturum ilkelerini ayarlama (gerekli)
 Oturum denetimlerini ayarlamak için gereken adımlar, Azure AD ve Cloud App Security portallarında tamamlanır. Azure AD portalında Power BI için bir koşullu erişim ilkesi oluşturup Cloud App Security hizmeti aracılığıyla Power BI kullanılan oturumları yönlendirebilirsiniz. 
 
-Cloud App Security, bir ters ara sunucu mimarisi kullanarak çalışır ve Power BI kullanıcı etkinliğini gerçek zamanlı olarak izlemek için Azure AD koşullu erişimiyle tümleşiktir. Aşağıdaki adımlar, işlemi anlamanıza yardımcı olmak için verilmiştir ve aşağıdaki adımların her birinde bağlantısı verilen içerikte ayrıntılı adım adım yönergeler sunulmaktadır. İşlemin tamamını açıklayan bu [Cloud App Security makalesini](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad) de okuyabilirsiniz.
+Cloud App Security, bir ters ara sunucu mimarisi kullanarak çalışır ve Power BI kullanıcı etkinliğini gerçek zamanlı olarak izlemek için Azure AD koşullu erişimiyle tümleşiktir. Aşağıdaki adımlar, işlemi anlamanıza yardımcı olmak için verilmiştir ve aşağıdaki adımların her birinde bağlantısı verilen içerikte ayrıntılı adım adım yönergeler sunulmaktadır. İşlemin tamamını açıklayan bu [Cloud App Security makalesini](/cloud-app-security/proxy-deployment-aad) de okuyabilirsiniz.
 
-1.  [Azure AD koşullu erişim testi ilkesi oluşturma](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#add-azure-ad)
-2.  [İlke kapsamındaki bir kullanıcıyı kullanarak her bir uygulamada oturum açma](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
-3.  [Uygulamaların erişim ve oturum denetimlerini kullanacak şekilde yapılandırıldığını doğrulama](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#portal)
-4.  [Dağıtımı test etme](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
+1.  [Azure AD koşullu erişim testi ilkesi oluşturma](/cloud-app-security/proxy-deployment-aad#add-azure-ad)
+2.  [İlke kapsamındaki bir kullanıcıyı kullanarak her bir uygulamada oturum açma](/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
+3.  [Uygulamaların erişim ve oturum denetimlerini kullanacak şekilde yapılandırıldığını doğrulama](/cloud-app-security/proxy-deployment-aad#portal)
+4.  [Dağıtımı test etme](/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
 
-Oturum ilkelerini ayarlama işlemi, [Oturum ilkeleri](https://docs.microsoft.com/cloud-app-security/session-policy-aad) makalesinde ayrıntılı olarak açıklanmıştır. 
+Oturum ilkelerini ayarlama işlemi, [Oturum ilkeleri](/cloud-app-security/session-policy-aad) makalesinde ayrıntılı olarak açıklanmıştır. 
 
 ### <a name="set-anomaly-detection-policies-to-monitor-power-bi-activities-recommended"></a>Power BI etkinliklerini izlemek için anomali algılama ilkelerini ayarlama (önerilir)
-Yalnızca ilkeye dahil etmek ve ilkeden dışlamak istediğiniz kullanıcılar ve gruplar için geçerli olacak şekilde bağımsız kapsamlı olabilecek anomali Power BI algılama ilkeleri tanımlayabilirsiniz. [Daha fazla bilgi edinin](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
+Yalnızca ilkeye dahil etmek ve ilkeden dışlamak istediğiniz kullanıcılar ve gruplar için geçerli olacak şekilde bağımsız kapsamlı olabilecek anomali Power BI algılama ilkeleri tanımlayabilirsiniz. [Daha fazla bilgi edinin](/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
 
 Cloud App Security, Power BI için iki ayrılmış iki yerleşik algılamaya sahiptir. [Ayrıntılı bilgi için bu belgenin ilerleyen kısımlarındaki bölüme bakın](#built-in-cloud-app-security-detections-for-power-bi).
 
@@ -69,7 +69,7 @@ Cloud App Security algılamaları, yöneticilerin izlenen bir uygulamanın belir
 
 * **Raporların toplu paylaşımı**: Bir kullanıcı tek oturumda çok sayıda farklı rapor paylaştığında algılar.
 
-Bu algılamaların ayarları Cloud App Security portalında yapılandırılır. [Daha fazla bilgi edinin](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
+Bu algılamaların ayarları Cloud App Security portalında yapılandırılır. [Daha fazla bilgi edinin](/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
 
 ## <a name="power-bi-admin-role-in-cloud-app-security"></a>Cloud App Security’de Power BI yönetici rolü
 
@@ -80,10 +80,9 @@ Power BI ile Cloud App Security kullanımı, kullanıcı oturumlarını ve etkin
 
 * Cloud App Security yalnızca Excel, PowerPoint ve PDF dosyalarında çalışabilir.
 * Power BI için oturum ilkelerinizde duyarlılık etiketleri özelliklerini kullanmak istiyorsanız, bir Azure Information Protection Premium P1 veya Premium P2 lisansına sahip olmanız gerekir. Microsoft Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın. Ayrıca, duyarlılık etiketlerinin Power BI varlıklarınıza uygulanmış olması gerekir.
-* Oturum denetimi her işletim sistemi üzerinde, her platforma her tarayıcı için kullanılabilir. Internet Explorer 11, Microsoft Edge (en son), Google Chrome (en son), Mozilla Firefox (en son) veya Apple Safari (en son) kullanmanızı öneririz. Power BI genel API çağrıları ve tarayıcı tabanlı olmayan diğer oturumlar, Cloud App Security oturum denetiminin bir parçası olarak desteklenmez. [Ek ayrıntıları görüntüleyin](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
+* Oturum denetimi her işletim sistemi üzerinde, her platforma her tarayıcı için kullanılabilir. Internet Explorer 11, Microsoft Edge (en son), Google Chrome (en son), Mozilla Firefox (en son) veya Apple Safari (en son) kullanmanızı öneririz. Power BI genel API çağrıları ve tarayıcı tabanlı olmayan diğer oturumlar, Cloud App Security oturum denetiminin bir parçası olarak desteklenmez. [Ek ayrıntıları görüntüleyin](/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
-> * Cloud App Security üzerindeki *içerik denetleme* ilkesi şu anda bir Excel dosya ilkesi uygulanırken Power BI’da kullanılamamaktadır; bu nedenle bu ilkeyi Power BI için ayarlamayın.
 > * Oturum ilkesinde, "Eylem" bölümündeki "koru" özelliği yalnızca öğede bir etiket yoksa çalışır. Zaten bir etiket varsa "koru" eylemi uygulanmaz; Power BI’de bir öğeye zaten uygulanmış olan mevcut bir etiketi geçersiz kılamazsınız.
 
 ## <a name="example"></a>Örnek
@@ -110,7 +109,7 @@ Görüntülenen pencerede oturum ilkesini oluşturun. Numaralandırılmış adı
 
       **Etkinlik kaynağı** bölümünde ilgili engelleme ilkelerini seçin. Yönetilmeyen ve uyumlu olmayan cihazların engellenmesini öneririz. Oturum Power BI’da olduğunda indirmeleri engellemeyi seçin.
 
-        ![Oturum ilkesi oluşturma](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
+        ![İndirmeleri engellemeye yönelik oturum ilkesi oluşturun.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
 
         Sayfayı aşağı kaydırdığınızda daha fazla seçenek görürsünüz. Aşağıdaki görüntüde, ek örneklerle birlikte bu seçenekler gösterilmektedir. 
 
@@ -119,28 +118,25 @@ Görüntülenen pencerede oturum ilkesini oluşturun. Numaralandırılmış adı
   6. İhtiyaçlarınıza uyan **Engelle** seçeneğini belirleyin.
   7. Böyle bir eylem için uyarı oluşturduğunuzdan emin olun.
 
-        ![Oturum ilkesi ayarlarını seçme](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
+        ![Oturum ilkesi ayarlarını seçin.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
 
         
 
   8. Son olarak, oturum ilkesini oluşturmak için **Oluştur** düğmesini seçtiğinizden emin olun.
 
-        ![Oturum ilkesi oluşturma](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
-
-> [!CAUTION]
-> Power BI Excel dosyaları üzerinde bir **İçerik İnceleme** ilkesi oluşturmadığınızdan emin olun. Bu sınırlama, bu özelliğin bilinen bir sınırlamasıdır.
+        ![Oturum ilkesini oluşturun.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Bu makalede Cloud App Security’nin Power BI için veri ve içerik korumalarını nasıl sağlayabileceği açıklanmıştır. Power BI için Veri Koruma ve onu etkinleştiren Azure hizmetleri için destekleyici içerikleri açıklayan aşağıdaki makaleler de ilginizi çekebilir.
 
 * [Power BI'daki duyarlılık etiketlerine genel bakış](service-security-sensitivity-label-overview.md)
 * [Power BI’da duyarlılık etiketlerini etkinleştirme](service-security-enable-data-sensitivity-labels.md)
-* [Power BI'da duyarlılık etiketlerini uygulama](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI'da duyarlılık etiketlerini uygulama](service-security-apply-data-sensitivity-labels.md)
 
 Aşağıdaki Azure ve güvenlik makaleleri de ilginizi çekebilir:
 
-* [Microsoft Cloud App Security Koşullu Erişim Uygulama Denetimi ile uygulamaları koruma](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
-* [Öne çıkan uygulamalar için Koşullu Erişim Uygulama Denetimi dağıtma](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-* [Oturum ilkeleri](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-* [Duyarlılık etiketlerine genel bakış](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Microsoft Cloud App Security Koşullu Erişim Uygulama Denetimi ile uygulamaları koruma](/cloud-app-security/proxy-intro-aad)
+* [Öne çıkan uygulamalar için Koşullu Erişim Uygulama Denetimi dağıtma](/cloud-app-security/proxy-deployment-aad)
+* [Oturum ilkeleri](/cloud-app-security/session-policy-aad)
+* [Duyarlılık etiketlerine genel bakış](/microsoft-365/compliance/sensitivity-labels)
 * [Veri koruma ölçümleri raporu](service-security-data-protection-metrics-report.md)
