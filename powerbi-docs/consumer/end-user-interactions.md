@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537378"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763977"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Görseller bir Power BI raporunda birbirini nasıl çapraz filtreler?
 
@@ -52,7 +52,7 @@ Aşağıdaki rapor sayfalarına bakarken bu terimleri tanımlayalım. "Total cat
     
 - Rapor sayfasında diğer görseller çapraz filtrelenirken ve çapraz vurgulanırken görsel düzeyinde filtreler korunur. Bu neden VisualA'nın rapor tasarımcısı tarafından uygulanan veya sizin uyguladığınız görsel düzeyinde filtreleri varsa ve visualB ile etkileşim kurmak için visualA'yı kullanıyorsanız, visualA'daki görsel düzeyinde filtreler visualB'ye uygulanır.
 
-    ![Halka grafiğin Moderation segmenti seçildikten sonra rapor sayfası](media/end-user-interactions/power-bi-visual-filters.png)
+    ![Zaten ayarlanmış filtreleri gösteren rapor sayfası](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor filtrelerini kullanma](../consumer/end-user-report-filter.md)
