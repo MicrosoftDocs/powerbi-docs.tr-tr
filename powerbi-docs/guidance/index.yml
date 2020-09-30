@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: f31cda77af94a087815906666e3b4791309368b1
-  ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+  ms.openlocfilehash: 3c3b5889cb7691529dcbf9c20313a6460e85b6b3
+  ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 09/07/2020
-  ms.locfileid: "89511930"
+  ms.lasthandoff: 09/29/2020
+  ms.locfileid: "91525582"
 landingContent:
 - title: Power BI kılavuzu
   linkLists:
@@ -129,7 +129,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Kiracı yöneticisi ayarları
+    - text: Kiracı ayarları
       url: admin-tenant-settings.md
     - text: Şirket içi veri ağ geçidi boyutlandırması
       url: gateway-onprem-sizing.md

@@ -108,7 +108,7 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Yönetim ve dağıtım
           items:
-            - name: Kiracı yöneticisi ayarları
+            - name: Kiracı ayarları
               href: admin-tenant-settings.md
             - name: Şirket içi veri ağ geçidi boyutlandırması
               href: gateway-onprem-sizing.md
