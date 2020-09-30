@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965377"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528402"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -535,7 +535,7 @@ Ayarlarla ilgili ayrıntılara buradan ulaşabilirsiniz:
 
 ### <a name="control-guest-invites"></a>Konuk davetlerinizi denetleme
 
-Power BI Yöneticiler Power BI Yönetici portalını ziyaret ederek yalnızca Power BI için dış paylaşımı denetleyebilir. Ancak kiracı yöneticileri, çeşitli Azure AD ilkeleriyle dış paylaşımı da denetleyebilir.  Bu ilkeler, kiracı yöneticilerinin
+Power BI Yöneticiler Power BI Yönetici portalını ziyaret ederek yalnızca Power BI için dış paylaşımı denetleyebilir. Ancak yöneticiler, çeşitli Azure AD ilkeleriyle dış paylaşımı da denetleyebilir.  Bu ilkeler yöneticilerin şunları yapmasına izin verir:
 
 - Son kullanıcılara göre davetleri kapatma
 - Yalnızca konuk davet eden rolündeki Yöneticiler ve kullanıcılar davet edebilir
