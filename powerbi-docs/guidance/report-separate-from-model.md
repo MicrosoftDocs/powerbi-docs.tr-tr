@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277445"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525950"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop’ta raporları modellerden ayırma
 
@@ -37,7 +37,7 @@ _Tek dosya çözümü_, modeli temel alan yalnızca tek bir rapor olduğunda iş
 - Veri modelcileri ve rapor yazarları farklı kişilerdir.
 - Bir modelin, şu anda veya gelecekte birden çok raporun kaynağı olduğu bilinir.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Üç PBIX dosyası vardır. İlki yalnızca bir model içerir. Diğer ikisi yalnızca raporlar içerir ve Power BI hizmetinde barındırılan modele canlı olarak bağlanır. Raporlar farklı kişiler tarafından geliştirilir." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Tek bir dosya, aynı kişi tarafından geliştirilen bir model ve rapor içerir." border="true":::
 
 Veri modelcileri, model tasarımlarını test etmek ve doğrulamak için Power BI Desktop rapor yazma deneyimini kullanmaya devam edebilir. Ancak dosyalarını Power BI hizmetinde yayımladıktan hemen sonra, raporu çalışma alanından kaldırmaları gerekir. Ayrıca, yeniden yayımladıkları ve veri kümesinin üzerine yazdıkları her seferde raporu kaldırmayı hatırlamaları gerekir.
 
@@ -56,7 +56,7 @@ Yeni tabloları, sütunları, hiyerarşileri, hiyerarşi düzeylerini veya ölç
 
 Modellerinizde hataya neden olan değişiklikler yapmanız gerekiyorsa, şunlardan birini yapmanızı öneririz:
 
-- Power BI hizmetinde [veri kümesinin ilgili içeriğini görüntüleyin](../consumer/end-user-related.md#view-related-content-for-a-dataset).
+- Power BI hizmetinde [veri kümesinin ilgili içeriğini görüntüleyin](../consumer/end-user-related.md).
 - Power BI hizmetinde [Veri kökeni](../collaborate-share/service-data-lineage.md) görünümünü keşfedin.
 
 Her iki seçenek de ilgili raporları ve panoları hızlıca tanımlamanızı sağlar. İlgili her yapıt için ilgili kişiyi kolayca görebilmeniz nedeniyle veri kökeni görünümü büyük olasılıkla daha iyi bir seçimdir. Aslında bu, ilgili kişiye yönelik bir e-posta iletisi açan bir köprüdür.

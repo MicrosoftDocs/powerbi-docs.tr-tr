@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411923"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527826"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>İşlevsel Uygulama Danışmanı öğrenme kataloğu
 
@@ -34,8 +34,8 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 | [Power BI: Doğru Analiz](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | Tüm Analytics ve Excel meraklılarına sesleniyoruz: Herkesin kullanmak isteyeceği harika raporlar hazırlamayı öğrenin, içgörüleri kolayca anlaşılabilen ve güzel görünen bir biçimde paylaşın, karmaşık verilerden oluşan siloları güvenli bir şekilde parçalara ayırarak bunlara daha kolay erişilmesini sağlayın. Ürünlerle ilgili yeniliklerin yanı sıra modern kurumsal BI ve self servis BI konusundaki vizyonumuzu paylaşarak kurumunuzun veri odaklı bir kültür oluşturmasını sağlayabiliriz.   | Web Semineri       |                   |
 | [Yapay zeka BI’ı üç farklı şekilde değiştiriyor](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | Analistler açısından paydaşlarının içgörüleri hızla ve etkili bir yöntemle bulmasına yardımcı olmak için verileri araştırmak ve görselleştirmek kritik önem taşıyor. Daha önce yöneticiler bir şeyin ne olduğunu ve ne zaman olduğunu sorarken, iş taleplerinin geçirdiği evrim sonucu şimdi neden olduğunu ve gelecekte neler olacağını öğrenmek istiyor. Yapay zekayı (AI) iş zekasıyla (BI) buluşturan üç veri içgörüsü fırsatını öğrenmek için bu web seminerine kaydolun.   | Web Semineri       |                   |
 | [Power BI’ın gücünü ortaya çıkarma – ipuçları ve püf noktaları, Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | Güney Yarıkürede yapılan en büyük Power BI dağıtımı çerçevesinde size bazı ayrıntılarda yol gösteren, nasıl kullanıldığını ve BI gereksinimlerini nasıl karşıladığını açıklayan Philip Seamark’a katılın. Bu oturum Power BI raporlarınızı geliştirmenize yardımcı olacak çeşitli ipuçları ve püf noktaları da içeriyor.   | Web Semineri       | 53 dk 47 sn       |
-| [Power BI nedir?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI’a genel bakış   | Web sitesi       | Okuma süresi 3 dakika |
-| [Power BI Desktop’ta DAX kullanma](https://docs.microsoft.com/learn/paths/dax-power-bi/) | Bu öğrenme yolunda, Veri Çözümleme İfadeleri (DAX) tanıtılmakta ve hesaplamalarla veri modellerini geliştirmek için gereken temel beceriler sağlanmaktadır.  | Kendi hızınızda ilerleyebileceğiniz ücretsiz ve çevrimiçi öğrenme yolu | 4 sa 30 dk |
+| [Power BI nedir?](../fundamentals/power-bi-overview.md)  | Power BI’a genel bakış   | Web sitesi       | Okuma süresi 3 dakika |
+| [Power BI Desktop’ta DAX kullanma](/learn/paths/dax-power-bi/) | Bu öğrenme yolunda, Veri Çözümleme İfadeleri (DAX) tanıtılmakta ve hesaplamalarla veri modellerini geliştirmek için gereken temel beceriler sağlanmaktadır.  | Kendi hızınızda ilerleyebileceğiniz ücretsiz ve çevrimiçi öğrenme yolu | 4 sa 30 dk |
 ## <a name="best-practices"></a>En İyi Yöntemler<a name="best-practices"></a>
 | İçerik   | Açıklama  | Biçim   | Uzunluk   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|
