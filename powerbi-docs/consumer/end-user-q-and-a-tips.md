@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537240"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375293"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Soru-Cevap özelliği ile soru sormaya ilişkin ipuçları
 
@@ -67,7 +67,7 @@ Aşağıdaki listede geniş zaman kullanılmaktadır, ancak çoğu durumda tüm 
 |  |  |
 |**Üst N**     |     (düzen, sıralama): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [Power BI görselleridir](../developer/visuals/power-bi-custom-visuals.md).  |
+|**Görsel türleri**     |  Power BI'da yerleşik olarak bulunan tüm görsel türleri.  Görsel Öğeler bölmesinde seçenek olarak mevcut olan tüm görselleri sorunuza ekleyebilirsiniz.  Bu kurala yönelik tek istisna, Görsel Öğeler bölmesine elle eklemiş olduğunuz [Power BI özel görselleridir](../developer/visuals/power-bi-custom-visuals.md).  |
 |  |  Örnek: show districts by month and sales total as bar chart (bölgeleri aya ve satış toplamına göre çubuk grafik olarak göster)               |
 |        |         |
 |**Wh (ilişki, belirtili)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

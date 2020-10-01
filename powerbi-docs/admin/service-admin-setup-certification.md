@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227535"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374925"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Veri kümesi ve veri akışı onaylamasını ayarlama (önizleme)
 
 Kuruluşunuz, kritik bilgiler için yetkili kaynaklar olan veri kümelerini ve veri akışlarını onaylayabilir.
 
-Power BI kiracı yöneticisi olarak kuruluşunuzda onaylama işlemini ayarlamak sizin sorumluluğunuzdadır. Diğer bir deyişle:
+Power BI yöneticisi olarak kuruluşunuzda onaylama işlemini ayarlamak sizin sorumluluğunuzdadır. Diğer bir deyişle:
 * Kiracınızda onaylamayı etkinleştirirsiniz.
 * Veri kümelerini ve veri akışlarını onaylama yetkisi olacak grupların ve kullanıcıların listesini tanımlarsınız.
 * Veri kümeleri için, kuruluşun veri kümesi onaylama ilkesinin (varsa) URL’sini sağlarsınız.

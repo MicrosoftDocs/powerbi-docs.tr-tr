@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861970"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375247"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Kapasite Ölçümlerine Bağlanma
+
 Premium kapasite kaynaklarını en iyi şekilde kullanma konusunda bilinçli kararlar alabilmek için kapasitelerinizi izlemek temel önem taşır. Power BI Premium Kapasite Ölçümleri uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar.
 
 ![Power BI Premium Kapasite Ölçümleri uygulaması raporu](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ Bu makalede uygulamayı yükleme ve veri kaynaklarına bağlanma işlemleri aç�
 Uygulamayı yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçlarınıza göre özelleştirebilirsiniz. Daha sonra bunu, kuruluşunuzdaki iş arkadaşlarınıza dağıtabilirsiniz.
 
 > [!NOTE]
-> Şablon uygulamalarını yüklemek için [izinler](./service-template-apps-install-distribute.md#prerequisites) gerekir. İzinlerinizin yeterli olmadığını fark ederseniz kiracı yöneticinizle iletişime geçin.
+> Şablon uygulamalarını yüklemek için [izinler](./service-template-apps-install-distribute.md#prerequisites) gerekir. İzinlerinizin yeterli olmadığını fark ederseniz Power BI yöneticinizle iletişime geçin.
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
@@ -83,7 +84,7 @@ Uygulamayı yükleyip veri kaynaklarına bağlandıktan sonra, raporu ihtiyaçla
 
 Uygulamayı özelleştirmeye başlamak için sağ üst köşedeki kalem simgesine tıklayın.
 
- ![Microsoft oturum açma ekranı](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![Düzenle simgesi](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 Ayrıntılar için bkz. [Uygulamayı özelleştirme ve paylaşma](./service-template-apps-install-distribute.md#customize-and-share-the-app).
 

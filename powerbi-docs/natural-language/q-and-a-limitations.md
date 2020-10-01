@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642352"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528310"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI Soru-Cevap sınırlamaları
 
@@ -53,7 +53,7 @@ Yeni araç iletişim kutusu, kullanıcıların Soru-Cevap’taki doğal dili öz
 
 İnceleme soruları yalnızca 28 güne kadar veri modeliniz için sorulmuş soruları depolar. Yeni inceleme soruları özelliğini kullanırken bazı soruların kaydedilmediğini fark edebilirsiniz. Doğal dil altyapısı bir kullanıcının her tuş dokunuşunun kaydedilmediğinden veya gösterilmediğinden emin olmak için bir dizi veri temizleme adımı gerçekleştirdiği için, bunların kaydedilmemesi tasarıma bilerek eklenmiştir.
 
-Kiracı yöneticileri, soru depolama özelliğini yönetmek için kiracı yöneticisi ayarlarını kullanabilir. İzinler güvenlik gruplarını temel alır. 
+Power BI yöneticileri, soru depolama özelliğini yönetmek için kiracı ayarlarını kullanabilir. İzinler güvenlik gruplarını temel alır. 
 
 Kullanıcılar ayrıca **Ayarlar** > **Genel**’i seçip **Soru-Cevap’ın ifademi kaydetmesine izin ver** kutusunun işaretini kaldırarak sorularının kaydedilmesini engelleyebilir. 
 

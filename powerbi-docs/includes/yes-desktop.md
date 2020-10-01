@@ -8,11 +8,11 @@ ms.topic: include
 ms.date: 03/17/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 2cd232b1bcb7f55a9e32d6196d728132d5926b33
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a36263605bf509d45d6522c6a0d33f15ecd917f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114094"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91545296"
 ---
-![evet](media/yes.png) Power BI Desktop
+![Şunun için geçerlidir:](media/yes.png) Power BI Desktop

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325587"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528057"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta çoka çok ilişkilerini uygulama
 
@@ -93,7 +93,7 @@ Geçici çözüm tablosunu görünür durumda tutabilirdiniz. Ya da geçici çö
 
 **State** (**CityData** tablosundan) ile toplam **Population** ve toplam **Sales** değerlerini gösteren bir görsel aşağıdaki gibi olacaktır:
 
-![State, Population ve Sales tabloları, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![Eyalet, Popülasyon ve Satış verilerini içeren tablonun ekran görüntüsü.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > Bu geçici çözümde **CityData** tablosundan eyalet değerinin kullanılmasıyla, yalnızca söz konusu tablodaki eyaletlerin listelendiğine (ve dolayısıyla TX eyaletinin hariç tutulduğuna) dikkat edin. Aynı zamanda, *Çok-1* ilişkilerinden farklı olarak, toplam satırı tüm **Sales** değerlerini (TX eyaletininkiler de dahil) içerirken ayrıntılar bu tür eşleşmeyen satırları kapsayan boş satırı içermez. Benzer biçimde, **State** için null değeri olan bir **Sales** değerini kapsayacak boş bir satır yoktur.

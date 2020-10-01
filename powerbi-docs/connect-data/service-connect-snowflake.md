@@ -9,11 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485792"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375224"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Power BI hizmetinde Snowflake’e bağlanma
 
@@ -37,7 +38,7 @@ SSO’yu etkinleştirmek için bir genel yöneticinin Power BI Yönetim portalı
 1. Sayfa üst bilgisi menüsünde **Ayarlar**’ı ve sonra **Yönetim portalı**’nı seçin.
 1. **Kiracı ayarları**’nı seçin ve sonra **Tümleştirme ayarları**’nı bulmak için kaydırın.
 
-   ![Snowflake SSO için kiracı yöneticisi ayarı](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Snowflake SSO için kiracı ayarı](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. **Snowflake SSO**’yu genişletin, ayarı **Etkin** olarak değiştirin ve **Uygula**’yı seçin.
 
