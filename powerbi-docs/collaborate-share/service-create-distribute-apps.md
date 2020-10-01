@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226657"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526456"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -135,7 +135,7 @@ Yeni gezinti oluşturucuyu kullanırken genel olarak aklınızda tutmanız gerek
 Uygulamanızın gezintisine bağlantı eklediğinizde ve İçerik alanı seçeneğini kullandığınızda:
 * Bağlantının eklenebildiğinden emin olun. Bazı hizmetler Power BI gibi üçüncü taraf sitelerine içeriğinin eklenmesini engeller.
 * Raporlar ve panolar gibi Power BI hizmeti içeriğinin başka çalışma alanlarına eklenmesi desteklenmez. 
-* Power BI Rapor Sunucusu içeriğini bir şirket içi dağıtımdan yerel ekleme URL'si içeriği aracılığıyla ekleyin. URL'yi almak için [Power BI Rapor Sunucusu URL'sini oluşturma](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) altında verilen adımları kullanın. Normal kimlik doğrulama kurallarının geçerli olduğunu, dolayısıyla içeriği görüntülemek için şirket içi sunucuya VPN bağlantısı gerektiğini aklınızda bulundurun. 
+* Power BI Rapor Sunucusu içeriğini bir şirket içi dağıtımdan yerel ekleme URL'si içeriği aracılığıyla ekleyin. URL'yi almak için [Power BI Rapor Sunucusu URL'sini oluşturma](../report-server/quickstart-embed.md#create-the-power-bi-report-url) altında verilen adımları kullanın. Normal kimlik doğrulama kurallarının geçerli olduğunu, dolayısıyla içeriği görüntülemek için şirket içi sunucuya VPN bağlantısı gerektiğini aklınızda bulundurun. 
 * Eklenen içeriğin Power BI'da olmadığını belirtmek için bu içeriğin en üstünde bir güvenlik uyarısı gösterilir.
 
 ## <a name="automatically-install-apps-for-end-users"></a>Son kullanıcılar için uygulamaları otomatik olarak yükleme
@@ -144,12 +144,12 @@ Bir yönetici size gereken izinleri verirse uygulamaları otomatik olarak yükle
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>Uygulamayı son kullanıcılara otomatik olarak gönderme
 Yöneticiniz size izinleri verdikten sonra, **uygulamayı otomatik olarak yüklemek** için yeni bir seçeneğiniz olur. Kutuyu işaretlediğinizde ve **Uygulamayı yayımlayın**'ı (veya **Uygulamayı güncelleştir**'i) seçtikten sonra, uygulama **Erişim** sekmesinin **İzinler** bölümünde tanımlanan tüm kullanıcılara veya gruplara gönderilir.
 
-![Uygulama göndermeyi etkinleştirme](media/service-create-distribute-apps//power-bi-apps-access.png)
+![Power BI içindeki Uygulamayı yayımlayın seçeneğinin ekran görüntüsü. Uygulamayı yükle otomatik olarak seçilmiş.](media/service-create-distribute-apps//power-bi-apps-access.png)
 
 ### <a name="how-users-get-the-apps-that-you-push-to-them"></a>Kullanıcılar onlara gönderdiğiniz uygulamaları nasıl alır?
 Uygulamayı göndermenizin ardından uygulama otomatik olarak onların Uygulamalar listesinde görünür. Bu şekilde kuruluşunuzdaki belirli bir kullanıcının veya iş rolünün el altında bulundurması gereken uygulamaları seçki olarak sunabilirsiniz.
 
-![Uygulama göndermeyi etkinleştirme](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![Power BI Uygulamalar listesinin ekran görüntüsü. Yayımladığınız uygulama gösterilmiş.](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 ### <a name="considerations-for-automatically-installing-apps"></a>Uygulamaları otomatik olarak yüklemeye ilişkin dikkat edilmesi gereken noktalar
 Aşağıda, son kullanıcılara uygulama gönderirken göz önünde bulundurmanız gereken noktalar verilmiştir:
@@ -215,5 +215,5 @@ Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
 * [Çalışma alanı oluşturma](service-create-workspaces.md)
 * [Power BI'da uygulamaları yükleme ve kullanma](../consumer/end-user-apps.md)
 * [Dış hizmetler için Power BI uygulamaları](../connect-data/service-connect-to-services.md)
-* [Power BI Yönetici Portalı](https://docs.microsoft.com/power-bi/service-admin-portal)
+* [Power BI Yönetici Portalı](../admin/service-admin-portal.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

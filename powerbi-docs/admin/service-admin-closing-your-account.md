@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161250"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374453"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI hesabınızı kapatma
 
-Power BI'ı artık kullanmak istemiyorsanız Power BI hesabınızı kapatabilirsiniz.  Hesabınızı kapattıktan sonra Power BI’da oturum açamazsınız. Ayrıca, Power BI Hizmet Koşulları’ndaki veri saklama ilkesinde belirtildiği gibi, Power BI yüklediğiniz veya oluşturduğunuz tüm müşteri verilerini siler. Bu veriler saklanmaz.
+Power BI'ı artık kullanmak istemiyorsanız Power BI hesabınızı kapatabilirsiniz.  Hesabınızı kapattıktan sonra Power BI’da oturum açamazsınız. Ayrıca [Power BI Hizmet Sözleşmesi](https://azure.microsoft.com/support/legal/subscription-agreement/)'ndeki veri saklama ilkesinde belirtildiği gibi, Power BI yüklediğiniz veya oluşturduğunuz tüm müşteri verilerini siler.
 
 ## <a name="individual-power-bi-users"></a>Bireysel Power BI kullanıcıları
 
@@ -44,9 +44,9 @@ Power BI'a bireysel olarak kaydolduysanız **Ayarlar** ekranından hesabınızı
 
     ![Hesabınız kapatıldı onay iletişim kutusunun ekran görüntüsü.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
-## <a name="managed-tenant-users"></a>Yönetilen kiracı kullanıcıları
+## <a name="managed-users"></a>Yönetilen kullanıcılar
 
-Power BI kaydınız kuruluşunuz tarafından oluşturulduysa kiracınızın yöneticisiyle iletişim geçin. Yöneticiden hesabınızdaki lisansı kaldırmasını isteyin.
+Power BI kaydınız kuruluşunuz tarafından oluşturulduysa yöneticinizle iletişim geçin. Yöneticiden hesabınızdaki lisansı kaldırmasını isteyin.
 
 ![Yönetilen hesabı kapatma ekran görüntüsü.](media/service-admin-closing-your-account/close-account-managed.png)
 

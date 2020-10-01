@@ -1,49 +1,45 @@
 ---
 title: Oturum açmış Power BI kullanıcılarını bulma
-description: Kiracı yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız, görünürlük elde etmek için Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
+description: Yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız Azure Active Directory erişim ve kullanım raporlarını kullanabilirsiniz.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e278918fdcf19a8de5cd5af1995bbc050dd765ec
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161204"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374757"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Oturum açmış Power BI kullanıcılarını bulma
 
-Kiracı yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız, görünürlük elde etmek için [Azure Active Directory erişim ve kullanım raporlarını](/azure/active-directory/reports-monitoring/concept-sign-ins) kullanın.
+Kuruluşunuzda yöneticisiyseniz ve Power BI'da kimin oturum açtığını görmek istiyorsanız [Azure Active Directory erişim ve kullanım raporlarını](/azure/active-directory/reports-monitoring/concept-sign-ins) kullanın.
 
 > [!NOTE]
-> **Oturum açma işlemleri**raporu yararlı bilgiler sunar ancak her kullanıcının sahip olduğu lisans türünü tanımlamaz. Lisansları görüntülemek için Microsoft 365 yönetim merkezini kullanın.
+> **Oturum açma işlemleri** raporu yararlı bilgiler sunar ancak her kullanıcının sahip olduğu lisans türünü tanımlamaz. Lisansları görüntülemek için Microsoft 365 yönetim merkezini kullanın.
 
 ## <a name="requirements"></a>Gereksinimler
 
-Tüm kullanıcılar (yönetici olmayanlar dahil) kendi oturum açma işlemlerini içeren raporu görebilir ancak tüm kullanıcıları kapsayan bir rapor oluşturmak için aşağıdaki gereksinimleri karşılamanız gerekir.
+Kullanıcılar, kendi oturum açma işlemlerinin raporunu görüntüleyebilir. Tüm kullanıcılarınızı kapsayan raporu görmek için şu rollerden birinde olmanız gerekir: Genel Yönetici, Güvenlik Yöneticisi, Güvenlik Okuyucusu, Genel Okuyucu veya Rapor Okuyucusu.
 
-* Kiracınızın bununla ilişkili bir Azure Active Directory Premium lisansına sahip olması gerekir.
-
-* Şu rollerden birinde olmalısınız: Genel Yönetici, Güvenlik Yöneticisi veya Güvenlik Okuyucusu.
-
-## <a name="use-the-azure-portal-to-view-sign-ins"></a>Oturum açma etkinliklerini görüntülemek için Azure portalı kullanma
+## <a name="use-the-azure-active-directory-admin-center-to-view-sign-ins"></a>Oturum açma işlemlerini görüntülemek için Azure Active Directory yönetim merkezini kullanma
 
 Oturum açma etkinliğini görüntülemek için aşağıdaki adımları izleyin.
 
-1. **Azure portalda** **Azure Active Directory**'yi seçin.
+1. [Azure Active Directory yönetim merkezinde](https://aad.portal.azure.com) oturum açın ve ardından portal menüsünden **Azure Active Directory**'yi seçin.
 
-1. **İzleme** bölümünde **Oturum açma işlemleri**'ni seçin.
+1. Kaynak menüsünden **İzleme** > **Oturum açma işlemleri**'ni seçin.
    
-    ![Azure arabiriminin, Azure Active Directory ve Oturum Açma işlemleri seçenekleri vurgulanmış ekran görüntüsü.](media/service-admin-access-usage/azure-portal-sign-ins.png)
+    ![Azure Active Directory yönetim merkezinin ekran görüntüsü. Oturum açma işlemleri seçeneği vurgulanmış.](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
-1. Uygulamayı **Microsoft Power BI** veya **Power BI Gateway** olarak filtreleyin ve **Uygula**'yı seçin.
+1. Varsayılan olarak tüm kullanıcıların ve uygulamaların son 24 saat içindeki oturum açma işlemleri gösterilir. Farklı bir zaman aralığı seçmek için çalışma bölmesinde **Tarih**'i seçip uygun zaman aralıklarından birini belirleyin. Yalnızca son yedi güne ait bilgiler kullanılabilir. Yalnızca Power BI ile ilgili oturum açma işlemlerini görüntülemek için filtre ekleyin. **Filtre ekle**'yi seçin, filtreleme ölçütü olarak **Uygulama**'yı ve ardından **Uygula**'yı seçin. Çalışma bölmesinin üst tarafından **Uygulama şununla başlar**'ı seçip uygulama adını girin. **Uygula**’yı seçin.
 
-    **Microsoft Power BI**, hizmetle ilgili oturum açma etkinliğine filtrelerken, **Power BI Gateway**, şirket içi ver ağ geçidine özgü oturum açma etkinliğine filtreler.
+    **Microsoft Power BI** filtresi, hizmetle ilgili oturum açma etkinliğini gösterir. **Power BI Gateway** filtresi, şirket içi veri ağ geçidiyle ilgili oturum açma etkinliğini gösterir.
    
     ![Oturum açma işlemleri filtresinin, Uygulamalar alanı vurgulanmış ekran görüntüsü.](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -51,20 +47,22 @@ Oturum açma etkinliğini görüntülemek için aşağıdaki adımları izleyin.
 
 [Bir oturum açma raporunu](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report) iki biçimden biriyle indirebilirsiniz: CSV dosyası veya JSON dosyası.
 
+1. **Oturum açma işlemleri** raporunun komut çubuğundan **İndir**'i seçip aşağıdaki seçeneklerden birini belirleyin:
+
+   * O sırada filtrelenmiş veri için bir CSV dosyası indirmek için **CSV**.
+
+   * O sırada filtrelenmiş veri için bir JSON dosyası indirmek için **JSON**.
+
+2. Bir dosya adı yazın ve **İndir**'i seçin.
+
 ![İndirme seçeneği vurgulanmış verileri dışarı aktarma özelliğinin ekran görüntüsü.](media/service-admin-access-usage/download-sign-in-data-csv.png)
-
-**Oturum açma işlemleri** raporunun üstünde, **İndir** seçeneğini ve ardından aşağıdaki seçeneklerden birini belirleyin:
-
-* O sırada filtrelenmiş veri için bir CSV dosyası indirmek için **CSV**.
-
-* O sırada filtrelenmiş veri için bir JSON dosyası indirmek için **JSON**.
 
 ## <a name="data-retention"></a>Veri saklama
 
-Oturum açma verileri 30 güne kadar saklanabilir. Daha fazla bilgi için bkz. [Azure Active Directory rapor saklama ilkeleri](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
+Azure AD premium lisansına sahip olan kuruluşların haricinde oturum açma işlemleriyle ilgili veriler en fazla yedi gün saklanır. Azure AD Premium P1 veya Azure AD Premium P2 kullanıyorsanız son 30 güne ait verileri görebilirsiniz. Daha fazla bilgi için bkz. [Azure Active Directory rapor saklama ilkeleri](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Kuruluşunuzda denetim özelliğini kullanma](service-admin-auditing.md)
+[Kullanıcı etkinliğini denetleme](service-admin-auditing.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
