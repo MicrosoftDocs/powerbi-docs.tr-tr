@@ -1,22 +1,22 @@
 ---
-title: Power BI Premium Kapasitelerini Dağıtma ve Yönetme
+title: Power BI Premium kapasiteleri dağıtma ve yönetme
 description: Power BI Premium potansiyelini anlayın ve ölçeklenebilir çözümleri tasarlama, dağıtma, izleme ve sorun giderme hakkında bilgi edinin.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: db5f123f0ab0eba373aca97fd975645cd38b4cd9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e24b9949eeaaf488f88677fc1171fae5ece5d383
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349437"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600390"
 ---
-# <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium Kapasitelerini Dağıtma ve Yönetme
+# <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium kapasiteleri dağıtma ve yönetme
 
 Ayrı makalelerde güncel bilgi sağlamak için Power BI Premium teknik incelemeyi devre dışı bırakıyoruz. Teknik incelemeyi içeriğini bulmak için aşağıdaki tabloyu kullanın. 
 
