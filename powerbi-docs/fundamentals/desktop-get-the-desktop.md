@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860222"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136155"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -105,9 +105,12 @@ Power BI Desktop'ı çalıştırmaya yönelik minimum gereksinimler aşağıdaki
 * .NET 4.5
 * Internet Explorer 10 veya sonraki sürümler
 * Bellek (RAM): En az 1 GB kullanılabilir bellek. (1,5 GB veya daha fazla bellek önerilir.)
-* Ekran: En az 1440x900 veya 1600x900 (16:9) ekran önerilir. Belirli denetimler (başlangıç ekranını kapatma gibi) bu çözünürlükleri aşacağı için 1024x768 veya 1280x800 gibi daha düşük çözünürlükler önerilmez.
+* Ekran: En az 1440x900 veya 1600x900 (16:9) çözünürlük gerekir. Belirli denetimler (başlangıç ekranını kapatma gibi) bu çözünürlükleri aşacağı için 1024x768 veya 1280x800 gibi daha düşük çözünürlükler desteklenmez.
 * Windows görüntü ayarları: Görüntü ayarlarınızı metin, uygulama ve diğer öğelerin boyutunu %100'den fazla değiştirecek şekilde belirlerseniz Power BI Desktop'ı kullanmaya devam etmek için etkileşimli çalışmanız gereken bazı iletişim kutularını göremeyebilirsiniz. Bu sorunla karşılaşırsanız Windows'da **Ayarlar** > **Sistem** > **Görüntü**'ye gidip görüntü ayarlarınızı denetleyin ve kaydırıcıyı kullanarak görüntü ayarlarını %100'e getirin.
-* CPU: 1 gigahertz (GHz) veya daha hızlı 32 bit veya 64 bit x86 işlemci önerilir.
+* CPU: 1 gigahertz (GHz) 64 bit (x64) işlemci önerilir.
+
+> [!NOTE]
+> Windows Server yerine Windows 10 gibi bir Windows istemci sürümünü kullanmanız önerilir. Örneğin Power BI Desktop, Internet Explorer Artırılmış Güvenlik Yapılandırması'nı desteklemez. Bu özellik, Power BI Desktop'tan Power BI hizmetinde oturum açılmasını engeller.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

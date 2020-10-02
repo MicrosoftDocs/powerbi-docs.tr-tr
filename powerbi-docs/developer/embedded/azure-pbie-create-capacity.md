@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204836"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528379"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -46,7 +46,7 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
 
 4. Gerekli bilgileri girdikten sonra **İncele ve Oluştur**’u seçin.
 
-    ![Azure portalda yeni kapasite oluşturmak için doldurulacak alanların ekran görüntüsü](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![Power BI Embedded sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 
@@ -219,7 +219,7 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
 
 2. Gerekli bilgileri girdikten sonra **İncele ve Oluştur**’u seçin.
 
-    ![Azure portalda yeni kapasite oluşturmak için doldurulacak alanların ekran görüntüsü](media/azure-pbie-create-capacity/arm-template.png)
+    ![Power BI Embedded kapasitesi oluşturma sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/arm-template.png)
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 

@@ -45,7 +45,7 @@ Bununla birlikte, ne elde etmek istediğinize veya belirli bir proje için sahip
 Power BI'ı nasıl kullandığınız, Power BI'ın hangi özelliğinin veya hizmetinin sizin durumunuza en uygun araç olduğuna bağlı olabilir. Örneğin, bir yandan Power BI hizmetindeki gerçek zamanlı bir panoda envanter ve üretim sürecini izlerken diğer yandan kendi ekibiniz için müşteri ilişkilerine yönelik istatistiklerle ilgili raporlar oluşturmak üzere Power BI Desktop'ı kullanabilirsiniz. Bir Power BI veri kümesini temel alan, postayla gönderilebilir raporlardan oluşan sayfalandırılmış bir rapor oluşturabilirsiniz. Power BI'ın her bölümü kullanılabilir, onu bu kadar esnek ve cazip yapan da budur.
 
 Rolünüzle ilgili belgeleri keşfetme:
-- [*İş kullanıcıları*](../consumer/end-user-consumer.md) için Power BI
+- [*İşletme kullanıcıları*](../consumer/end-user-consumer.md) için Power BI
 - [*Rapor oluşturucuları*](desktop-what-is-desktop.md) için Power BI Desktop
 - [*Kurumsal rapor oluşturucuları*](../paginated-reports/paginated-reports-report-builder-power-bi.md) için Power BI Report Builder
 - [*Yöneticileri*](../admin/service-admin-administering-power-bi-in-your-organization.md) için Power BI
@@ -56,7 +56,7 @@ Rolünüzle ilgili belgeleri keşfetme:
     * [Geliştiriciler Power BI API ile neler yapabilir?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI'daki iş akışı
-Power BI’da kullanılan ortak bir iş akışı, Power BI Desktop’ta veri kaynaklarına bağlanarak ve rapor oluşturarak başlar. Ardından bu raporu Power BI Desktop'tan Power BI hizmetine yayımlar ve paylaşırsınız. Bu sayede Power BI hizmetindeki ve mobil cihazlardaki iş kullanıcıları raporu görüntüleyebilir ve raporla etkileşimli çalışabilir.
+Power BI’da kullanılan ortak bir iş akışı, Power BI Desktop’ta veri kaynaklarına bağlanarak ve rapor oluşturarak başlar. Ardından bu raporu Power BI Desktop'tan Power BI hizmetine yayımlar ve paylaşırsınız. Bu sayede Power BI hizmetindeki ve mobil cihazlardaki işletme kullanıcıları raporu görüntüleyebilir ve raporla etkileşimli çalışabilir.
 
 Bu yaygın bir iş akışıdır ve üç ana Power BI öğesinin birbirini nasıl tamamladığını gösterir.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278273"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136270"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Birebir ilişki kılavuzu
 
@@ -131,13 +131,13 @@ Bizim örneğimizde rapor yazarları **Category** alanını **Marketing** görü
 
 ![Alanlar bölmesinde Category alanı Marketing adlı bir görüntü klasörü içinde yer alır.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Yine de modelinizde birebir ada içi ilişkiler tanımlamaya karar verirseniz, mümkünse ilişkili tablolarda eşleşen satırların bulunduğundan emin olun. Birebir ada içi ilişkisi [güçlü bir ilişki](../transform-model/desktop-relationships-understand.md#strong-relationships) olarak değerlendirildiğinden, rapor görsellerinizde veri bütünlüğü sorunları BOŞLUKLAR olarak kendini gösterebilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
+Yine de modelinizde birebir ada içi ilişkiler tanımlamaya karar verirseniz, mümkünse ilişkili tablolarda eşleşen satırların bulunduğundan emin olun. Birebir ada içi ilişkisi [normal bir ilişki](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirildiğinden, rapor görsellerinizde veri bütünlüğü sorunları BOŞLUKLAR olarak kendini gösterebilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>Adalar arası birebir ilişki
 
-Tablolar arasında birebir _adalar arası_ ilişki bulunduğunda, veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [zayıf bir ilişki](../transform-model/desktop-relationships-understand.md#weak-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
+Tablolar arasında birebir _adalar arası_ ilişki bulunduğunda, veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [sınırlı bir ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
 
-Şimdi her iki tablodaki alanlar bir tablo görseline eklendiğinde ve tablolar arasında zayıf ilişki olduğunda neler olduğuna bakalım.
+Şimdi her iki tablodaki alanlar bir tablo görseline eklendiğinde ve tablolar arasında sınırlı ilişki olduğunda neler olduğuna bakalım.
 
 ![Tablo görselinde dört sütun vardır: SKU, Product, Color ve Category. Tablonun yalnızca iki satırı vardır.](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

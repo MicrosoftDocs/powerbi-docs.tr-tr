@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857968"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375270"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -270,7 +270,7 @@ Kullanıcının dış kullanıcıları kuruluşunuza davet edebilmesi için Azur
 
 ### <a name="publish-to-web"></a>Web'de yayımla
 
-**Web’de yayımla** ayarı bir Power BI kiracısının yöneticisi olarak, raporları web’de yayımlamak için ekleme kodu oluşturabilecek kullanıcıları seçmenizi sağlar. Bu işlev, raporu ve verilerini web’deki herkesin kullanımına sunar. [Web’de yayımlama](../collaborate-share/service-publish-to-web.md) hakkında daha fazla bilgi edinin.
+Power BI yöneticisi olarak **Web'de yayımla** ayarıyla kullanıcıların raporları web üzerinde yayımlamalarını sağlayacak ekleme kodları oluşturmalarına izin verebilirsiniz. Bu işlev, raporu ve verilerini web’deki herkesin kullanımına sunar. [Web’de yayımlama](../collaborate-share/service-publish-to-web.md) hakkında daha fazla bilgi edinin.
 
 > [!NOTE]
 > Yeni web’de yayımlama ekleme kodları oluşturma işlemine yalnızca Power BI yöneticileri izin verebilir. Kuruluşların mevcut ekleme kodları olabilir. Yayımlanmış raporları gözden geçirmek için yönetici portalının [Ekleme kodları](service-admin-portal.md#embed-codes) bölümüne göz atın.
@@ -319,7 +319,7 @@ Kuruluştaki kullanıcılar, görselleştirmedeki verileri bir Excel dosyasına 
 ![Excel’e Aktar ayarı](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> Excel’e Aktar ayarı sunulmadan önce verilerin Excel dosyalarına aktarılmasını da bu ayar denetliyordu. Bu nedenle, kiracı yöneticileri Excel’e Aktar ayarı sunulmadan önce oluşturulan kiracılarda Excel’e Aktar ayarına ilk kez baktığında, bunun *Uygulanmamış değişikler* içerdiğini görür. Yeni ayarın etkili olması için bu değişiklikleri uygulamaları gerekir. Aksi takdirde, Verileri dışarı aktar ayarı Excel dosyasına aktarma özelliğini denetlemeye devam eder.
+> Excel’e Aktar ayarı sunulmadan önce verilerin Excel dosyalarına aktarılmasını da bu ayar denetliyordu. Bu nedenle, Power BI yöneticileri Excel’e Aktar ayarı sunulmadan önce oluşturulan kiracılarda Excel’e Aktar ayarına ilk kez baktığında, bunun *Uygulanmamış değişikler* içerdiğini görür. Yeni ayarın etkili olması için bu değişiklikleri uygulamaları gerekir. Aksi takdirde, Verileri dışarı aktar ayarı Excel dosyasına aktarma özelliğini denetlemeye devam eder.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktarma
 
@@ -401,11 +401,11 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 
 ## <a name="featured-tables-settings"></a>Öne çıkan tablo ayarları
 
-**Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** kiracı ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
+**Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
 
-**Verileri dışarı aktar** kiracı ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
+**Verileri dışarı aktar** ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
 
 [Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) hakkında daha fazla bilgi edinin.
 
@@ -586,7 +586,7 @@ Power BI için bilgi korumasını etkinleştirdikten sonra veri koruması ölç�
 
 ## <a name="manage-featured-content"></a>Öne çıkan içeriği yönetme
 
-Kiracı yöneticisi olarak, kuruluşunuz genelinde Power BI Giriş Sayfasında Öne Çıkanlar bölüme yükseltilen tüm raporları, panoları ve uygulamaları yönetebilirsiniz.
+Power BI yöneticisi olarak, kuruluşunuz genelinde Power BI Giriş Sayfasında Öne Çıkanlar bölüme yükseltilen tüm raporları, panoları ve uygulamaları yönetebilirsiniz.
 
 - Yönetici portalında **Öne çıkan içerik** seçeneğini belirleyin.
 

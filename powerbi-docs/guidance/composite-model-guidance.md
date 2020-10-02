@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 528fc40427a1cb242d9154028d1a7c6617c8a14e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279699"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136224"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta Bileşik model kılavuzu
 
@@ -54,8 +54,8 @@ Bileşik modelde her tablo için depolama modunu yapılandırabilirsiniz (hesapl
 Power BI’ın Bileşik modeli sorguladığı çeşitli olası senaryolar vardır:
 
 - **Yalnızca İçeri Aktarma tablolarını veya İkili tabloları sorgular**: Tüm veriler model önbelleğinden veriler alınır. Mümkün olan en hızlı performansı getirir. Bu senaryo, filtreler veya dilimleyici görselleri tarafından sorgulanan boyut türündeki tablolarda yaygındır.
-- **Aynı kaynaktan İkili tabloları veya DirectQuery tablolarını sorgular**: Tüm veriler DirectQuery kaynağına bir veya birden çok yerel sorgu gönderilerek alınır. Özellikle kaynak tablolarda uygun dizinler mevcut olduğunda mümkün olan en hızlı performansı getirir. Bu senaryo, İkili boyut türündeki tablolarla ve DirectQuery olgu türündeki tablolarıyla ilgili sorgularda yaygındır. Bu sorgular _ada içinde_ çalıştırılır ve dolayısıyla tüm bire bir veya bire çok ilişkileri [güçlü ilişkiler](../transform-model/desktop-relationships-understand.md#strong-relationships) olarak değerlendirilir.
-- **Tüm diğer sorgular**: Bu sorgular adalar arası ilişkiler içerir. Bunun nedeni İçeri Aktarma tablosunun bir DirectQuery tablosuyla ilgili olması veya İkili tablonun farklı kaynaktan bir DirectQuery tablosuyla ilgili olmasıdır (bu durumda İçeri Aktarma tablosu gibi davranır). Tüm ilişkiler [zayıf ilişki](../transform-model/desktop-relationships-understand.md#weak-relationships) olarak değerlendirilir. Ayrıca DirectQuery olmayan tablolara uygulanan gruplandırmaların DirectQuery kaynağına sanal tablo olarak gönderilmesi gerektiği anlamına da gelir. Bu durumda yerel sorgu, özellikle de büyük gruplandırma kümeleri için verimsiz olabilir. Ayrıca yerel sorguda hassas verileri ortaya çıkarma olasılığı vardır.
+- **Aynı kaynaktan İkili tabloları veya DirectQuery tablolarını sorgular**: Tüm veriler DirectQuery kaynağına bir veya birden çok yerel sorgu gönderilerek alınır. Özellikle kaynak tablolarda uygun dizinler mevcut olduğunda mümkün olan en hızlı performansı getirir. Bu senaryo, İkili boyut türündeki tablolarla ve DirectQuery olgu türündeki tablolarıyla ilgili sorgularda yaygındır. Bu sorgular _ada içinde_ çalıştırılır ve dolayısıyla tüm bire bir veya bire çok ilişkileri [normal ilişkiler](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirilir.
+- **Tüm diğer sorgular**: Bu sorgular adalar arası ilişkiler içerir. Bunun nedeni İçeri Aktarma tablosunun bir DirectQuery tablosuyla ilgili olması veya İkili tablonun farklı kaynaktan bir DirectQuery tablosuyla ilgili olmasıdır (bu durumda İçeri Aktarma tablosu gibi davranır). Tüm ilişkiler [sınırlı ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirilir. Ayrıca DirectQuery olmayan tablolara uygulanan gruplandırmaların DirectQuery kaynağına sanal tablo olarak gönderilmesi gerektiği anlamına da gelir. Bu durumda yerel sorgu, özellikle de büyük gruplandırma kümeleri için verimsiz olabilir. Ayrıca yerel sorguda hassas verileri ortaya çıkarma olasılığı vardır.
 
 Özetle şunları yapmanızı öneririz:
 
@@ -63,7 +63,7 @@ Power BI’ın Bileşik modeli sorguladığı çeşitli olası senaryolar vardı
 - Tablo büyük hacimli verilerin depolandığı olgu türünde bir tablo olduğunda depolama modunu **DirectQuery** olarak ayarlayın
 - Tablo boyut türünde bir tablo olduğunda depolama modunu **İkili** olarak ayarlayın; aynı kaynak temelinde **DirectQuery** olgu türündeki tablolarıyla birlikte sorgulanacaktır
 - İkili tabloların (ve tüm bağımlı hesaplanmış tabloların) model önbelleğini kaynak veritabanlarıyla eşitlenmiş durumda tutmak için uygun yenileme sıklıkları yapılandırın
-- Veri kaynakları arasında (model önbelleği dahil) veri bütünlüğünü korumaya çalışın; zayıf ilişkiler, ilgili sütun değerleri eşleşmediğinde satırları ortadan kaldırır
+- Veri kaynakları arasında (model önbelleği dahil) veri bütünlüğünü korumaya çalışın. Sınırlı ilişkiler, ilgili sütun değerleri eşleşmediğinde satırları ortadan kaldırır
 - Verimli birleştirme, filtreleme ve gruplandırma işlemleri için uygun dizinlerle DirectQuery veri kaynaklarını iyileştirin
 - Yerel sorguda araya girilme riski varsa İçeri Aktarma veya İkili tablolara hassas verileri yüklemeyin; daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma (Güvenlik üzerindeki etkileri)](../transform-model/desktop-composite-models.md#security-implications)
 

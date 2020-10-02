@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2c627e728af5cbe20594c712d6fd3d3733e30777
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861073"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527735"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI’da veri akışları arasındaki varlıkları ilişkilendirme
 
@@ -22,7 +22,7 @@ Power BI’daki veri akışları sayesinde, iş analizi uzmanlarının verileri 
 
 Veri akışları arasındaki varlıkları ilişkilendirdiğinizde, bu verileri sürdürme gereksinimi olmadan, başkalarının sahip olduğu diğer veri akışları tarafından zaten alınmış, temizlenmiş ve dönüştürülmüş varlıkları yeniden kullanabilirsiniz. Bağlantılı varlıklar diğer veri akışlarındaki varlıkları işaret eder ve verileri *kopyalamaz* veya yinelemez.
 
-![Power BI’daki bağlantılı varlıklar](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Veri akışınızı oluşturmaya başlamak için varlık ekleyin iletişim kutusunu gösteren ekran görüntüsü.](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 Bağlantılı varlıklar **salt okunur** özelliktedir. Bağlantılı bir varlık için dönüşümler oluşturmak istiyorsanız, bağlantılı varlığa başvuru ile birlikte yeni bir hesaplanmış varlık oluşturmanız gerekir.
 
@@ -42,11 +42,11 @@ Bağlantılı varlıklar yalnızca yeni Power BI çalışma alanlarında düzgü
 
 Power BI’da veri akışları arasındaki varlıkları birkaç şekilde ilişkilendirebilirsiniz. Aşağıdaki görüntüde gösterildiği gibi Veri Akışları yazma aracından **Bağlantılı varlıkları ekle**’yi seçebilirsiniz. 
 
-![Power BI’daki bağlantılı varlıklar](media/service-dataflows-linked-entities/linked-entities_00.png)
+![Bağlantılı varlıkları ekle'yi seçebileceğiniz Veri akışınızı oluşturmaya başlamak için varlık ekleyin iletişim kutusunu gösteren ekran görüntüsü.](media/service-dataflows-linked-entities/linked-entities_00.png)
 
 Ayrıca, Power BI hizmetindeki **Varlık ekle** menü öğesinden **Bağlantılı varlıkları ekle**’yi seçebilirsiniz.
 
-![Power BI’daki bağlantılı varlıklar](media/service-dataflows-linked-entities/linked-entities_01.png)
+![Power BI hizmetindeki Varlık ekle menüsünde yer alan Bağlantılı varlıkları ekle menü seçeneğini gösteren ekran görüntüsü.](media/service-dataflows-linked-entities/linked-entities_01.png)
 
 Varlıkları ilişkilendirmek için Power BI kimlik bilgilerinizle oturum açmanız gerekir.
 

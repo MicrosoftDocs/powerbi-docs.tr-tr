@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7f08d75ecc9386dc2329c6564448023dfbfb3b9b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858543"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374971"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop’ta Microsoft Graph Güvenliği API’sine bağlanma
 
-[Microsoft Graph Güvenliği API’sine](/graph/security-concept-overview) bağlanmak için Power BI Desktop Microsoft Graph Güvenlik bağlayıcısını kullanın. Bu sayede panolar ve raporlar oluşturabilir, güvenlikle ilgili [uyarılar](/graph/api/resources/alert?view=graph-rest-1.0) ve [güvenlik puanı](/graph/api/resources/securescores?view=graph-rest-beta) içgörüleri kazanabilirsiniz.
+[Microsoft Graph Güvenliği API’sine](/graph/security-concept-overview) bağlanmak için Power BI Desktop Microsoft Graph Güvenlik bağlayıcısını kullanın. Bu sayede panolar ve raporlar oluşturabilir, güvenlikle ilgili [uyarılar](/graph/api/resources/alert) ve [güvenlik puanı](/graph/api/resources/securescores) içgörüleri kazanabilirsiniz.
 
-Microsoft Graph Güvenlik API’si, uyarı bağıntılarını kolaylaştırmak için Microsoft ve ekosistem iş ortaklarından [birden çok güvenlik çözümünü](/graph/api/resources/security-api-overview#alerts) birbirine bağlar. Bu birleşim zengin bağlamsal bilgilere erişim sağlar ve otomasyonu basitleştirir. Maliyetleri ve karmaşıklığı azaltırken kuruluşların birden çok güvenlik ürününden içgörüleri hızlıca alarak harekete geçmesini sağlar.
+Microsoft Graph Güvenlik API’si, uyarı bağıntılarını kolaylaştırmak için Microsoft ve iş ortakları tarafından sunulan [birden çok güvenlik çözümünü](/graph/api/resources/security-api-overview#alerts) birbirine bağlar. Bu birleşim zengin bağlamsal bilgilere erişim sağlar ve otomasyonu basitleştirir. Maliyetleri ve karmaşıklığı azaltırken kuruluşların birden çok güvenlik ürününden içgörüleri hızlıca alarak harekete geçmesini sağlar.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Microsoft Graph Güvenlik bağlayıcısını kullanma önkoşulları
 
-Microsoft Graph Güvenliği bağlayıcısını kullanmak için, Azure Active Directory (Azure AD) kiracı yöneticisinden *açıkça* onay almanız gerekir. Bkz. [Microsoft Graph Güvenliği kimlik doğrulaması gereksinimleri](/graph/security-authorization).
+Microsoft Graph Güvenliği bağlayıcısını kullanmak için, Azure Active Directory (Azure AD) genel yöneticisinden *açıkça* onay almanız gerekir. Bkz. [Microsoft Graph Güvenliği kimlik doğrulaması gereksinimleri](/graph/security-authorization).
 Onay, bağlayıcının uygulama kimliğini ve adını gerektirir (burada belirtilmiştir ve [Azure portalda](https://portal.azure.com) bulunabilir):
 
 | Özellik | Değer |
@@ -35,7 +35,7 @@ Onay, bağlayıcının uygulama kimliğini ve adını gerektirir (burada belirti
 | **Yönlendirme URI'si** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
-Bağlayıcıya onay vermek için Azure AD kiracısı yöneticiniz aşağıdaki yöntemlerden birini kullanabilir:
+Bağlayıcıya onay vermek için Azure AD genel yöneticiniz aşağıdaki yöntemlerden birini kullanabilir:
 
 * [Azure AD uygulamaları için onay verme](/azure/active-directory/develop/v2-permissions-and-consent)
 
@@ -61,7 +61,7 @@ Bağlayıcıyı kullanmak için aşağıdaki adımları izleyin:
 
     ![Oturum aç](media/desktop-connect-graph-security/SignIn.PNG) 
     
-6. Kiracı yönetici sizseniz *ve* size henüz Microsoft Graph Güvenliği Power BI bağlayıcısı (uygulaması) onayı verilmediyse aşağıdaki iletişim kutusuyla karşılaşırsınız. **Kuruluşunuz adına onay verin**’i seçin.
+6. Yönetici sizseniz *ve* size henüz Microsoft Graph Güvenliği Power BI bağlayıcısı (uygulaması) onayı verilmediyse aşağıdaki iletişim kutusuyla karşılaşırsınız. **Kuruluşunuz adına onay verin**’i seçin.
 
     ![Yönetici onayı iletişim kutusu](media/desktop-connect-graph-security/AdminConsent.PNG)
     

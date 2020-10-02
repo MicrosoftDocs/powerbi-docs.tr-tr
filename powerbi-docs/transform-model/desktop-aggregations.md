@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b18d803ce70c74688fe90f93b4d5143eb7b24f30
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339801"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136178"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamaları kullanma
 
@@ -144,11 +144,11 @@ Toplanan **Sales Agg** tablosunun depolama modu **İçeri Aktarma** olarak deği
 
 İkili depolama modu hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta depolama modunu yönetme](desktop-storage-mode.md).
 
-### <a name="strong-vs-weak-relationships"></a>Güçlü ve zayıf ilişkiler
+### <a name="regular-vs-limited-relationships"></a>Normal ve sınırlı ilişkiler
 
-Toplamada ilişkileri temel alan isabetler için güçlü ilişkiler gerekir.
+Toplamada ilişkileri temel alan isabetler için normal ilişkiler gerekir.
 
-Güçlü ilişkiler, her iki tablonun da tek kaynaktan geldiği aşağıdaki depolama modu bileşimlerini içerir:
+Normal ilişkiler, her iki tablonun da tek kaynaktan geldiği aşağıdaki depolama modu bileşimlerini içerir:
 
 | *Çok* taraflarındaki tablo | *1* tarafındaki tablo |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ Güçlü ilişkiler, her iki tablonun da tek kaynaktan geldiği aşağıdaki dep
 | İçeri Aktar        | İçeri Aktarma veya İkili       | 
 | DirectQuery   | DirectQuery veya İkili  | 
 
-*Çapraz kaynak* ilişkisinin güçlü kabul edildiği tek durum, her iki tablonun da İçeri Aktarma moduna ayarlanmasıdır. Çoka çok ilişkiler her zaman zayıf olarak kabul edilir.
+*Çapraz kaynak* ilişkisinin normal kabul edildiği tek durum, her iki tablonun da İçeri Aktarma moduna ayarlanmasıdır. Çok-çok ilişkileri her zaman sınırlı olarak kabul edilir.
 
 *Çapraz kaynak* toplamasında ilişkilere dayanmayan isabetler için bkz. [GroupBy sütunlarına dayanan toplamalar](#aggregation-based-on-groupby-columns). 
 

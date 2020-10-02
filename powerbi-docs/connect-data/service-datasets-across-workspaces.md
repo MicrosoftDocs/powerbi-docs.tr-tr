@@ -1,6 +1,6 @@
 ---
 title: Çalışma alanları arasında veri kümelerine giriş
-description: Kuruluş genelindeki kullanıcılarla veri kümesi paylaşmayı öğrenin. Kendi çalışma alanlarında sizin veri kümelerinizi temel alan raporlar oluşturabilirler.
+description: Çalışma alanları için veri kümesi paylaşma ve bulma hakkında bilgi edinin. Kuruluş genelindeki kullanıcılar kendi çalışma alanlarında sizin veri kümelerinizi temel alan raporlar oluşturabilirler.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f79411d7eedc97e99aabc8b44dbf12a22696bba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236865"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374281"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Çalışma alanları arasında veri kümelerine giriş
 
@@ -22,7 +22,7 @@ ms.locfileid: "85236865"
 
 ![Paylaşılan veri kümesi seçme](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümelerinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Kiracı yöneticilerinin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
+Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümelerinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Yöneticilerin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Veri kümesi paylaşma ve yeni çalışma alanı deneyimi
 

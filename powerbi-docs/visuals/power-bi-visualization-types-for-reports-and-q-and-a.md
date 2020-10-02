@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 5e3b5687a9e955da53d816ab7297456b9721fab4
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814026"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524915"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -133,7 +133,7 @@ Daha fazla bilgi için bkz. [Power BI'daki Şekil Haritaları](desktop-shape-map
 
 
 ### <a name="matrix"></a>Matris
-![matris](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![Matris görselinin ekran görüntüsü](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Tablo iki boyutu destekler ancak matris, çok boyutlu verileri daha anlamlı bir şekilde görüntülemeyi kolaylaştırır ve basamaklı düzeni destekler. Matris verileri otomatik olarak toplar ve detaya gitmeye olanak tanır. 
@@ -232,7 +232,7 @@ Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken s
 
 "***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
 
-Panonuzda Soru-Cevap alanı yoksa bu özellik kiracı yöneticiniz tarafından devre dışı bırakılmış olabilir. 
+Panonuzda Soru-Cevap alanı yoksa bu özellik Power BI yöneticiniz tarafından devre dışı bırakılmış olabilir. 
 
 ![Belirtilen görselleştirme türünü gösteren Soru-Cevap soru kutusu](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

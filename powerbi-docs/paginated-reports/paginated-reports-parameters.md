@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: ab2d0a0678fb5ff251e65d42784f02c1fb8c0cea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 09/28/2020
+ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219587"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526364"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 
-Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma hakkında bilgi edineceksiniz.  Rapor parametresi, rapor verilerini seçmenin ve raporu sunusunu çeşitlendirmenin bir yolunu sağlar. Varsayılan bir değer veya kullanılabilir değerlerin bir listesini sağlayabilirsiniz ve seçiminiz raporu okuyanlar tarafından değiştirilebilir.  
+Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma hakkında bilgi edineceksiniz.  Rapor parametresi, rapor verilerini seçmenin ve raporu sunusunu çeşitlendirmenin bir yolunu sağlar. Varsayılan bir değer veya kullanılabilir değerlerin bir listesini sağlayabilirsiniz. Seçiminiz raporu okuyanlar tarafından değiştirilebilir. Okuyucular ayrıca parametre metin kutularını kullanarak değer araması yapabilir. İşletme kullanıcılarınızın Power BI hizmetinde parametrelerle nasıl etkileşim kurabileceğini görmek için bkz. [Sayfalandırılmış raporlar için parametreleri görüntüleme](../consumer/paginated-reports-view-parameters.md).  
 
 Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate ve @ToDate parametreleri ile birlikte bir rapor için Power BI Rapor Oluşturucusu’nda gösterilmektedir. 
   
@@ -64,7 +64,7 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-- Veri kaynağınız olarak Power BI veri kümesini veya Analysis Services modelini kullanıyorsanız, DAX sınırlamalarına göre tek istekte 1.000'den fazla parametre değeri geçiremezsiniz. 
+- Veri kaynağınız olarak Power BI veri kümesini veya Analysis Services modelini kullanıyorsanız, tek istekte 1.000'den fazla parametre değeri geçiremezsiniz. DAX, 1.000 parametre üst sınırına sahiptir. 
 
  
 ## <a name="next-steps"></a>Sonraki adımlar

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 79ab3a38a6f1df97b445c06adf13a4b53af30d87
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 412da06f6188ec4d8c0e8e027475d99872a21ecf
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858037"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528333"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium’da hesaplanan varlıkları kullanma
 
@@ -56,11 +56,11 @@ Hesaplanan varlıklarla ne tür dönüşümler gerçekleştirilebilir? Depolama 
 
 İlk olarak her hesap için önceki yıl içinde yapılan destek aramalarının sayısını hesaplamak için ServiceCalls’dan gelen verileri toplamanız gerekir. 
 
-![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
+![Hesap kimliğine göre gruplandırma iletişim kutusunun yer aldığı sorgu düzenleme sayfasını gösteren ekran görüntüsü.](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
 Sonra, zenginleştirilmiş **Hesap** tablosunu hesaplamak için *Account* varlığını *ServiceCallsAggregated* varlığı ile birleştirmek istersiniz.
 
-![Power BI Premium'da hesaplanan varlık örneği](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
+![Birleştir iletişim kutusunun yer aldığı sorgu düzenleme sayfasını gösteren ekran görüntüsü.](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 
 Bundan sonra, aşağıdaki görüntüde *EnrichedAccount* olarak gösterilen sonuçları görebilirsiniz.
 

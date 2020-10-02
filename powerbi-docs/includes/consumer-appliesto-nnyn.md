@@ -15,4 +15,4 @@ ms.contentlocale: tr-TR
 ms.lasthandoff: 09/29/2020
 ms.locfileid: "91545125"
 ---
-<Token>**ŞUNUN İÇİN GEÇERLİDİR:** ![Şunun için geçerli değildir:](media/no.png)***İş kullanıcıları*** için Power BI hizmeti ![Şunun için geçerli değildir:](media/no.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![Şunun için geçerlidir:](media/yes.png)Power BI Desktop ![Şunun için geçerli değildir:](media/no.png)Pro veya Premium lisansı gerekir </Token>
+<Token>**ŞUNUN İÇİN GEÇERLİDİR:** ![Şunun için geçerli değildir:](media/no.png)***İşletme kullanıcıları*** için Power BI hizmeti ![Şunun için geçerli değildir:](media/no.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![Şunun için geçerlidir:](media/yes.png)Power BI Desktop ![Şunun için geçerli değildir:](media/no.png)Pro veya Premium lisansı gerekir </Token>

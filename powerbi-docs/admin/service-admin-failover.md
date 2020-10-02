@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857439"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374235"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -74,4 +74,8 @@ Kuruluşunuzda kullanılan Power BI çözümü aşağıdaki öğelerden birini i
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>Ağ geçitleri yük devretme modunda çalışır mı?
 
-Hayır. Şirket içi veri kaynaklarından alınması gereken veriler (Doğrudan Sorgu ve Canlı Bağlantı’yı temel alan herhangi bir rapor ve pano) yük devretme sırasında çalışmaz. Öte yandan ağ geçidi yapılandırması değişmez: Power BI örneği özgün durumuna döndüğünde ağ geçitleri de normal işlevlerine döner.
+Hayır. Şirket içi veri kaynaklarından alınması gereken veriler (Doğrudan Sorgu ve Canlı Bağlantı’yı temel alan herhangi bir rapor ve pano) yük devretme sırasında çalışmaz. Öte yandan ağ geçidi yapılandırması değişmez. Power BI örneği özgün durumuna döndüğünde ağ geçitleri de normal işlevlerine döner.
+
+Birincil bölgede olağanüstü durum yaşanması ve bu bölgenin uzun bir süre çevrimiçi duruma döndürülememesi durumunda yük devredilen birincil bölge hem okuma hem de yazma işlemlerine izin verir ve müşteriler yeni bölgeyi kullanarak aç geçitlerini yeniden dağıtabilir ve yapılandırabilir.
+
+Müşteriler farklı bir makineye yeni bir ağ geçidi yüklemeyi veya var olan ağ geçitlerini devretmeyi tercih edebilir. Eski ağ geçidiyle ilişkilendirilen tüm veri kaynakları yeni ağ geçidine taşınacağından var olan ağ geçidini devretme seçeneği daha kolaydır.

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 7eb55555efa6fe3eb9acad5c67e05288f0e55f21
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763838"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527459"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -60,7 +60,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 * ESRI görseli desteklenmez.
 * 50’den fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
 * Raporu PDF’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
-* Power BI hizmetinde **PDF’ye aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla kiracı yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için kiracı yöneticinizle iletişime geçin.
+* Power BI hizmetinde **PDF’ye aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla Power BI yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılı bilgi için yöneticinizle iletişime geçin.
 * Arka plan görüntüleri grafiğin sınırlayıcı alanına göre kırpılır. Arka plan görüntülerini PDF’e aktarmadan önce arka plan görüntülerini kaldırmanızı öneririz.
 * Power BI kiracı etki alanınızın dışındaki bir kullanıcıya ait raporlar (örneğin, kuruluşunuzun dışındaki birine ait olan ve sizinle paylaşılan raporlar) PDF’te yayımlanamaz.
 * Bir panoyu kuruluşunuzun dışındaki biriyle (yani Power BI kiracınızda bulunmayan bir kullanıcıyla) paylaştığınızda bu kullanıcı, paylaşılan panonun ilişkili raporlarını PDF’e aktaramaz. Örneğin, siz aaron@contoso.com iseniz cassie@northwinds.com ile paylaşımda bulunabilirsiniz. Ancak, cassie@northwinds.com ilişkili raporları PDF’e aktaramaz.

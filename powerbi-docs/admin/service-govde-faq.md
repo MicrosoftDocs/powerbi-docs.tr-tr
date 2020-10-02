@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855139"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374825"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Almanya Bulut müşterileri için Power BI hakkında Sık Sorulan Sorular
 **Power BI hizmeti**, Avrupa Birliği/Avrupa Serbest Ticaret Birliği (EU/EFTA) müşterilerine yönelik genelde Microsoft Cloud Deutschland (MCD) olarak adlandırılan bir sürüme sahiptir. Bu makalede ele alınan **Power BI hizmeti** sürümü, EU/EFTA müşterileri için özellikle tasarlanmıştır ve **Power BI hizmetinin** ticari sürümünden veya kamu müşterilerine sunulan Power BI hizmetlerinden farklıdır.
@@ -34,7 +34,7 @@ Aşağıdaki sorular ve cevaplar, EU/EFTA müşterilerine özel olarak sunulan P
    [Power BI Almanya Bulutu ana sayfasından](https://powerbi.microsoft.com/power-bi-germany/) fiyat bilgileri dahil olmak üzere birçok bilgiye ulaşabilirsiniz. Bu sayfada 25 kullanıcı lisansına sahip 30 günlük **Power BI Pro hizmeti** deneme sürümüne kaydolma bağlantısı da yer almaktadır. Deneme sürümüne kaydolurken ihtiyacınız doğrultusunda lisans satın alabilir veya ekleyebilirsiniz. Ayrıca Kurumsal Sözleşme (EA), Kamu ve kâr amacı gütmeyen kuruluş fiyatları da sunuyoruz. Diğer ayrıntılar için Microsoft müşteri temsilcinize ulaşın.
 3. **Azure Almanya ve/veya Office 365 Almanya aboneliklerimin bir parçası olarak Almanya Bulutu kiracım var. Power BI Almanya'ya kaydolmak için mevcut kiracımı kullanabilir miyim?**
    
-   Evet. Kaydolma işlemi sırasında var olan Almanya Bulutu kiracınızın yönetici hesabıyla oturum açarak Almanya Bulutu'ndaki mevcut kiracınıza Power BI Pro lisansı ekleyebilirsiniz. Almanya Bulutu kiracılarının ve kullanıcı hesaplarının Almanya bulutu Power BI hizmetinden farklı olduğunu unutmayın.
+   Evet. Kaydolma işlemi sırasında var olan Almanya Bulutu yönetici hesabıyla oturum açarak Almanya Bulutu'ndaki mevcut kiracınıza Power BI Pro lisansı ekleyebilirsiniz. Almanya Bulutu kiracılarının ve kullanıcı hesaplarının Almanya bulutu Power BI hizmetinden farklı olduğunu unutmayın.
 4. **Almanya bulutu için Power BI hizmetinde ücretsiz hizmet seçeneği var mı?**
    
    Hayır. Almanya bulutu için Power BI hizmetinde ücretsiz lisans sürümü sunmuyoruz. Ancak, işletmenizin ihtiyaçları Power BI ücretsiz sürümüne uygunsa [genel bulutumuzdaki Power BI ücretsiz teklifine](https://powerbi.microsoft.com/get-started/) kaydolmanızı öneriyoruz.

@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetindeki raporlar
-description: Tüketiciler için Power BI hizmetindeki raporlar
+description: İşletme kullanıcıları için Power BI hizmetindeki raporlar
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536228"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528080"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536228"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan kişi de olabilirsiniz. Bu makale *tüketiciler* içindir.
+Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan bir işletme kullanıcısı da olabilirsiniz. Bu makale, *iş kullanıcılarına* yöneliktir.
 
 ![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. *Filtreler* bölmesi tüm rapor sayfalarına bir filtre uygulandığını gö
 D. Power BI başlığı, raporun adını ve son güncelleştirme tarihini görüntüler. Rapor sahibinin adını da gösteren bir menü açmak için oku seçin.    
 E. Eylem çubuğu, bu raporda gerçekleştirebileceğiniz eylemleri içerir.  Örneğin, bir yorum ekleyebilir, bir yer işaretini görüntüleyebilir veya verileri rapordan dışarı aktarabilirsiniz.  Ek rapor işlevlerinin listesini göstermek için **Diğer seçenekler** (...) simgesini seçin.    
 
-Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti tüketicileri için temel kavramlar](end-user-basic-concepts.md) makalesini okuyarak iyi bir temel oluşturabilirsiniz. Raporlar mobil cihazlarda görüntülenebilir, paylaşılabilir ve raporlara not eklenebilir. Daha fazla bilgi için bkz. [Power BI mobil uygulamalarında raporları araştırma](mobile/mobile-reports-in-the-mobile-apps.md).
+Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti işletme kullanıcıları için temel kavramlar](end-user-basic-concepts.md) makalesini okuyarak iyi bir temel oluşturabilirsiniz. Raporlar mobil cihazlarda görüntülenebilir, paylaşılabilir ve raporlara not eklenebilir. Daha fazla bilgi için bkz. [Power BI mobil uygulamalarında raporları araştırma](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Raporların avantajları
 
@@ -68,14 +68,14 @@ Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez. Kaydedebilirsiniz
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>Rapor tasarımcıları ve rapor kullanıcıları
+## <a name="report-designers-and-report-users"></a>Rapor tasarımcıları ve rapor kullanıcıları
 
 İş rolünüze bağlı olarak, kendi kullanımınız veya iş arkadaşlarınızla paylaşmak için rapor oluşturan bir *tasarımcı* olabilirsiniz. Bu durumda raporları nasıl oluşturacağınızı ve paylaşacağınızı öğrenmek istersiniz.
 
-Buna karşılık başkalarından rapor alan bir *kullanıcı* da olabilirsiniz. Bu durumda raporları nasıl anlayacağınızı ve raporlarla nasıl etkileşim kuracağınızı öğrenmek istersiniz. Bir rapor *kullanıcısıysanız*, bu bağlantılar işinize yarayabilir:
+Buna karşılık başkalarından rapor alan bir *işletme kullanıcısı* da olabilirsiniz. Bu durumda raporları nasıl anlayacağınızı ve raporlarla nasıl etkileşim kuracağınızı öğrenmek istersiniz. Bir rapor *işletme kullanıcısıysanız*, bu bağlantılar işinize yarayabilir:
 
 * Raporları ve rapor araçlarını nerede bulacağınızı öğrenmek için [Power BI hizmeti turu](end-user-basic-concepts.md) ile başlayın.
-* [Bir raporu açmayı](end-user-report-open.md) ve [tüketicilerin kullanabileceği tüm etkileşimleri](end-user-reading-view.md) öğrenin.
+* [Bir raporu açmayı](end-user-report-open.md) ve [işletme kullanıcılarının kullanabileceği tüm etkileşimleri](end-user-reading-view.md) öğrenin.
 * Raporları daha rahat kullanmak için [örneklerimizden](../create-reports/sample-tutorial-connect-to-the-samples.md) biriyle tura katılın.  
 * Raporun hangi veri kümesini kullandığını ve hangi panoların rapordaki görselleri (*sabitlemeler*) gösterdiğini görmek için bkz. [Power BI hizmetinde ilişkili içeriği görüntüleme](end-user-related.md).
 

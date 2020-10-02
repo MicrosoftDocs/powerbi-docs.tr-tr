@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764299"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527456"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -110,7 +110,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
     - İşlenmesi bir saatten uzun süren raporlar. 
     - Yüklenmesi 6 dakikadan uzun süren rapor sayfaları. 
 
-* Power BI hizmetinde **PowerPoint’e Aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla kiracı yöneticisinin veya rapor sahibinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için kiracı yöneticinizle veya rapor sahibiyle iletişime geçin.
+* Power BI hizmetinde **PowerPoint’e Aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla Power BI yöneticisinin veya rapor sahibinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılar için yöneticinize veya rapor sahibine başvurun.
 * Power BI hizmeti, PowerPoint dışa aktarma dili olarak Power BI dil ayarınızı kullanır. Tarayıcınızda dil tercihinizi görmek veya ayarlamak için dişli simgesini seçin ve ![Dişli simgesi](media/end-user-powerpoint/power-bi-settings-icon.png) > **Ayarlar** > **Genel** > **Dil** seçeneğini belirtin.
 
 

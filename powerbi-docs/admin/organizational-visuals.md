@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857761"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524800"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI görselleri yönetici ayarlarını yönetme
 
@@ -148,11 +148,11 @@ Kuruluşunuzdaki tüm kullanıcıların görselleştirme bölmesinde otomatik ol
 
 1. Eklemek istediğiniz görselin satırında **ayarlar**’a tıklayın.
 
-    ![kuruluş bölmesi](media/organizational-visuals/organizational-pane.png)kuruluş bölmesi
+    ![Kuruluş görsellerinin seçildiği ve ayarlar simgesinin vurgulandığı yönetici portalını gösteren ekran görüntüsü.](media/organizational-visuals/organizational-pane.png)kuruluş bölmesi
 
 2. Görselleştirme bölmesi ayarını etkinleştirip **Güncelleştir**’e tıklayın.
 
-    ![kuruluş bölmesini güncelleştirme](media/organizational-visuals/update-organizational-pane.png)
+    ![Görselin kuruluşunuzun tamamı için görünmesini sağlayabileceğiniz Görsel Ayarları iletişim kutusunu gösteren ekran görüntüsü.](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>Dosyadan karşıya yüklenen bir görseli silme
 

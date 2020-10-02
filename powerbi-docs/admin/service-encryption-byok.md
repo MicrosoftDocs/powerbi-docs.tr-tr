@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856855"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374902"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
@@ -67,7 +67,7 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
 1. **Anahtar izinleri**'nin altında **Anahtar Sarmalamasını Kaldır**'ı ve **Anahtarı Sarmala**'yı seçin.
 
-    ![PBIX dosyası bileşenleri](media/service-encryption-byok/service-principal.png)
+    ![PBIX dosyası için hizmet sorumlusunu ve şifreleme işlemlerini seçme](media/service-encryption-byok/service-principal.png)
 
 1. **Tamam**'ı, sonra da **Kaydet**'i seçin.
 
@@ -80,7 +80,7 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
 1. **Anahtar Türü** olarak RSA ve **RSA Anahtar Boyutu** olarak 4096 seçin.
 
-    ![PBIX dosyası bileşenleri](media/service-encryption-byok/create-rsa-key.png)
+    ![Anahtar oluşturma adımı, anahtar türü ve boyutu vurgulanmış](media/service-encryption-byok/create-rsa-key.png)
 
 1. **Oluştur**’u seçin.
 
@@ -90,7 +90,7 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
 1. Hem **Anahtar Sarmala** hem de **Anahtar Sarmalamasını Kaldır**'ın seçildiğinden emin olun. Power BI'da KAG'yi etkinleştirirken kullanmak üzere **Anahtar Tanımlayıcısı**'nı kopyalayın.
 
-    ![PBIX dosyası bileşenleri](media/service-encryption-byok/key-properties.png)
+    ![Özellikler, anahtar tanımlayıcısı ve izin verilen işlemler vurgulanmış](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>Geçici silme seçeneği
 
@@ -114,7 +114,7 @@ KAG'yi etkinleştirmeden önce aşağıdaki noktaları aklınızda bulundurun:
 
 ### <a name="enable-byok"></a>KAG'yi etkinleştirme
 
-KAG'yi etkinleştirmek için Power BI hizmetinin `Connect-PowerBIServiceAccount` cmdlet'ini kullanarak oturum açmış bir kiracı yöneticisi olmalısınız. Ardından aşağıdaki örnekte gösterildiği gibi [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) kullanarak KAG'yi etkinleştirin:
+KAG'yi etkinleştirmek için `Connect-PowerBIServiceAccount` cmdlet'ini kullanarak oturum açmış bir Power BI yöneticisi olmanız gerekir. Ardından aşağıdaki örnekte gösterildiği gibi [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) kullanarak KAG'yi etkinleştirin:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

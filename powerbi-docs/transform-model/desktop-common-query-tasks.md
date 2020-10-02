@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238869"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526272"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
 
@@ -87,7 +87,7 @@ Bu örnekte bir eğitim kaydı veri kümesindeki satırları gruplandıracaksın
 
 Şimdi her eyalette kaç Kurum olduğunu bulalım. (Kurumlar okul bölgeleri, bölgesel hizmet kuruluşları gibi diğer eğitim kurumları, vb. olabilir.) **Agency ID - NCES Assigned \[District\] Latest available year** sütununu ve sonra da şeritteki **Dönüştür** sekmesindeki veya **Giriş** sekmesindeki **Gruplandır** düğmesini seçin. (**Gruplandır** düğmesi her iki sekmede de sağlanır.)
 
-![Gruplandır iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![Tablodaki satırları gruplandırma şeklini gösteren ekran görüntüsü.](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
 **Gruplandır** iletişim kutusu görüntülenir. Power Query Düzenleyicisi satırları gruplandırdığında, **Gruplandır** işleminden elde edilen sonuçları yerleştirdiği yeni bir sütun oluşturur. **Gruplandır** işlemini aşağıda belirtilen yollarla ayarlayabilirsiniz:
 
@@ -98,7 +98,7 @@ Bu örnekte bir eğitim kaydı veri kümesindeki satırları gruplandıracaksın
 
 Bir **Gruplandır** işlemine daha fazla gruplanma veya toplama eklemek için **Gruplama ekle** veya **Toplama ekle** düğmesini seçin. Gruplama veya toplamayı kaldırmak için satırın sağındaki üç nokta simgesini ( **...** ) ve sonra da **Sil**’i seçin. Devam edin ve neler olduğunu görmek için varsayılan değerleri kullanarak **Gruplandır** işlemini deneyin.
 
-![Gruplandır iletişim kutusu, Power Query Düzenleyicisi, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![Gruplama ekle ve Toplama ekle alanlarının vurgulandığı Gruplandır iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 **Tamam**’ı seçtiğimizde Sorgu **Gruplandır** işlemini yapar ve sonuçları döndürür. Şuna bir bakın: Bugün Ohio, Illinois, Texas ve California eyaletlerinden her birinde binin üzerinde kurum var!
 

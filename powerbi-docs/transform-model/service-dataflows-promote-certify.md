@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 473d1375ed35e638a94f82970b29809d35482584
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87b1f15b53ef5a76fe61e040766822dd2714add4
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237691"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528287"
 ---
 # <a name="promote-or-certify-dataflows-preview"></a>Veri akışlarını yükseltme veya onaylama (önizleme)
 
@@ -21,9 +21,9 @@ Power BI değerli, yüksek kaliteli veri akışlarınızın görünürlüğünü
 
 * **Yükseltme**: Yükseltme, kullanıcıların değerli olduğunu ve başkalarının da kullanabileceğini düşündüğü veri akışlarını vurgulamasına olanak tanır. Bu yolla kuruluş içinde veri akışlarının işbirliğine dayayı yayılmasını teşvik eder. Tüm veri akışı sahipleri ve veri akışının bulunduğu çalışma alanı üzerinde yazma izinleri olan tüm üyeler, paylaşım için yeterince iyi olduğunu düşündükleri veri akışlarını doğrudan yükseltebilir.
 
-* **Onaylama**: Onaylama veri akışının yetkili bir gözden geçiren tarafından denetlendiği ve gerçekten kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkili bir veri kaynağı olduğu anlamına gelir. Hangi veri akışlarının onaylanacağına, Power BI kiracı yöneticisi tarafından seçilen bir grup gözden geçiren karar verir. Belirli bir veri akışının onaylanması gerektiğini düşünen ama onaylama yetkisi olmayan bir kullanıcı kiracı yöneticisiyle iletişim kurmalıdır.
+* **Onaylama**: Onaylama veri akışının yetkili bir gözden geçiren tarafından denetlendiği ve gerçekten kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkili bir veri kaynağı olduğu anlamına gelir. Hangi veri akışlarının onaylanacağına, Power BI yöneticisi tarafından seçilen bir grup gözden geçiren karar verir. Belirli bir veri akışının onaylanması gerektiğini düşünen ama onaylama yetkisi olmayan bir kullanıcı yöneticisiyle iletişim kurmalıdır.
 
-  Veri akışının onaylanması ancak [Power BI kiracı yöneticisi tarafından etkinleştirilmişse](../admin/service-admin-setup-certification.md) mümkündür.
+  Veri akışının onaylanması ancak [Power BI yöneticisi tarafından etkinleştirilmişse](../admin/service-admin-setup-certification.md) mümkündür.
 
 Veri akışını yükseltme veya onaylama işlemine *onay* adı verilir. Power BI rapor oluşturucularının çoğunlukla aralarından seçim yapabilecekleri birçok farklı veri akışı vardır ve onay işlemi onları güvenilir ve yetkili veri akışlarına yönlendirmeye yardımcı olur.
 
@@ -35,9 +35,9 @@ Aşağıdaki resimde yükseltilen ve onaylanan veri akışlarının Power Query�
 
 Bu makalede şunlar açıklanmaktadır:
 * Veri akışını yükseltme (veri akışı sahibi veya veri akışının bulunduğu çalışma alanı üzerinde üye izinleri olan herhangi bir kullanıcı)
-* Veri akışını onaylama (kiracı yöneticisi tarafından belirlenen yetkili veri akışı onaylayıcısı)
+* Veri akışını onaylama (Power BI yöneticisi tarafından belirlenen yetkili veri akışı onaylayıcısı)
 
-Veri akışı onaylamasını ayarlama (kiracı yöneticisi) hakkında bilgi için bkz. [Veri kümesi ve veri akışı onaylamasını ayarlama](../admin/service-admin-setup-certification.md)
+Veri akışı onaylamasını ayarlama (yönetici) hakkında bilgi için bkz. [Veri kümesi ve veri akışı onaylamasını ayarlama](../admin/service-admin-setup-certification.md)
 
 
 ## <a name="promote-a-dataflow"></a>Veri akışını yükseltme
@@ -58,7 +58,7 @@ Veri akışını yükseltmek için, yükseltmek istediğiniz veri akışının b
 
 ## <a name="certify-a-dataflow"></a>Veri akışını onaylama
 
-Bu bölüm kiracı yöneticisi tarafından veri akışlarını onaylama yetkisi verilmiş kullanıcılara yöneliktir. Veri akışlarını onaylamak büyük bir sorumluluktur. Bu bölümde izleyeceğiniz onaylama süreci açıklanır.
+Bu bölüm Power BI yöneticisi tarafından veri akışlarını onaylama yetkisi verilmiş kullanıcılara yöneliktir. Veri akışlarını onaylamak büyük bir sorumluluktur. Bu bölümde izleyeceğiniz onaylama süreci açıklanır.
 
 1. Onaylamak istediğiniz veri akışının bulunduğu çalışma alanı üzerinde yazma izinleri alın. Bu izinler veri akışı sahibinden veya çalışma alanı üzerinde yönetici izinleri olan herhangi birinden alınabilir. 
 
