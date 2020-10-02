@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b97e26d7e8bc814452491b6363d375e9d9da9982
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228604"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524731"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 
 Microsoft Intune, kuruluşların cihazları ve uygulamaları yönetmesine olanak sağlar. iOS ve Android için Power BI mobil uygulamaları Intune ile tümleştirilmiştir. Bu tümleştirme sayesinde cihazlarınızdaki uygulamayı yönetebilir ve güvenlik denetimi gerçekleştirebilirsiniz. Yapılandırma ilkeleri aracılığıyla erişim PIN'i gerektirme, verilerin uygulama tarafından işlenme şekli ve hatta uygulama kullanılmadığı sırada uygulama verilerini şifreleme gibi öğeleri denetleyebilirsiniz.
+
+Microsoft Power BI mobil uygulaması, işinizle ilgili önemli bilgilere erişmenizi sağlar. Kuruluşunuzun yönetilen cihaz ve uygulama iş verilerinizle ilgili panoları ve raporları görüntüleyebilir, bunlarla etkileşim kurabilirsiniz. Desteklenen Intune uygulamaları hakkında daha fazla bilgi için bkz. [Microsoft Intune korumalı uygulamaları](/intune/apps/apps-supported-intune-apps).
 
 ## <a name="general-mobile-device-management-configuration"></a>Genel mobil cihaz yönetim yapılandırması
 
@@ -26,167 +28,42 @@ Bu makalede Intune'un düzgün yapılandırıldığı ve Intune'da kayıtlı cih
 
 Microsoft Intune, Microsoft 365'te Mobil Cihaz Yönetimi (MDM) ile birlikte bulunabilir. MDM'yi kullanıyorsanız cihaz, MDM'de kayıtlı olarak görünür ancak Intune'da yönetilebilir.
 
+Son kullanıcıların Power BI uygulamasını cihazlarında kullanabilmesi için Intune yöneticisinin ilgili uygulamayı Intune'a eklemesi ve ayrıca son kullanıcılara ataması gerekir.
+
 > [!NOTE]
 > Intune'u yapılandırdıktan sonra iOS veya Android cihazınızda Power BI mobil uygulaması için arka planda veri yenileme özelliği kapatılır. Uygulamaya girdiğinizde Power BI, web üzerindeki Power BI hizmetinden verileri yeniler.
 
-## <a name="step-1-get-the-url-for-the-application"></a>1\. Adım: Uygulamanın URL'sini alma
+## <a name="step-1-add-the-power-bi-app-to-intune"></a>1\. Adım: Power BI'ı Intune'a ekleme
 
-Intune'da uygulamayı oluşturmadan önce uygulamaların URL'lerini almamız gerekir. iOS cihazları için URL'leri iTunes'dan alırız. Android cihazlar için ise URL'leri Power BI mobil sayfasından alabilirsiniz.
+Power BI uygulamasını Intune'a eklemek için aşağıdaki konu başlıklarında sunulan adımları izleyin:
+- [iOS mağaza uygulamalarını Microsoft Intune’a ekleme](/intune/apps/store-apps-ios)
+- [Android mağazası uygulamalarını Microsoft Intune’a ekleme](/intune/apps/store-apps-android)
 
-Uygulamayı oluştururken ihtiyaç duyacağımız için URL'yi kaydedin.
+## <a name="step-2-assign-the-app-to-your-end-users"></a>2\. Adım: Uygulamayı son kullanıcılarınıza atama
 
-### <a name="get-ios-url"></a>iOS URL'sini alma
+Power BI uygulamasını Microsoft Intune'a ekledikten sonra kullanıcılara ve cihazlara atayabilirsiniz. Uygulamayı Intune ile yönetilmeyen cihazlara da atayabileceğinizi unutmayın.
 
-iOS için uygulama URL'sini iTunes'dan almamız gerekir.
+Power BI uygulamasını kullanıcılara ve cihazlara atamak için bkz. [Microsoft Intune ile uygulamaları gruplara atama](/intune/apps/apps-deploy).
 
-1. iTunes'u açın.
+## <a name="step-3-create-and-assign-app-protection-policies"></a>3\. Adım: Uygulama koruma ilkesi oluşturma ve atama
 
-1. *Power BI* için arama yapın.
+Uygulama koruma ilkeleri (APP), kuruluş verilerinin yönetilen uygulama içinde güvende olmasını veya orada kalmasını sağlayan kurallardır. İlke, kullanıcı “kurumsal” verilere erişmeye veya bunları taşımaya çalıştığında uygulanan bir kural veya kullanıcı uygulamadayken yasaklanan veya izlenen bir eylemler kümesi olabilir. Yönetilen bir uygulama, uygulama koruma ilkelerinin uygulandığı ve Intune tarafından yönetilebilen bir uygulamadır.
 
-1. **iPhone Uygulamaları** ve **iPad Uygulamaları** altında **Microsoft Power BI**'ı görmeniz gerekir. Aynı URL'yi alacağınız için bunlardan herhangi birini kullanabilirsiniz.
+Mobil Uygulama Yönetimi (MAM) uygulama koruma ilkeleri, uygulama içindeki kuruluş bilgilerini yönetmenizi ve korumanızı sağlar. Kayıtsız MAM (MAM-WE) ile, hassas veriler içeren iş veya okul ile ilgili uygulamalar, kendi cihazını getir (KCG) senaryolarında kişisel cihazlar dahil neredeyse her cihazdan yönetilebilir. Daha fazla bilgi için bkz. [Uygulama koruma ilkelerine genel bakış](/intune/apps/app-protection-policy).
 
-1. **Al** açılan listesini ve **Bağlantıyı Kopyala**'yı seçin.
+Power BI uygulamasına yönelik uygulama koruma ilkesi oluşturmak ve atamak için [Uygulama koruma ilkesi oluşturma ve atama](/intune/apps/app-protection-policies) makalesindeki adımları izleyin.
 
-    ![iTunes uygulama URL'si](media/service-admin-mobile-intune/itunes-url.png)
+## <a name="step-4-use-the-application-on-a-device"></a>4\. Adım: Uygulamayı bir cihazda kullanma
 
-Şuna benzer olmalıdır: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
+Yönetilen uygulamalar, şirketinizin destek biriminin ilgili uygulamada erişebildiğiniz şirket verilerini korumak üzere ayarlayabildiği uygulamalardır. Cihazınızdaki yönetilen uygulamadan şirket verilerine eriştiğinizde uygulamanın beklediğinizden farklı çalıştığını fark edebilirsiniz. Örneğin, korunan şirket verilerini kopyalayıp yapıştıramayabilir veya bu verileri belirli konumlara kaydedemeyebilirsiniz.
 
-### <a name="get-android-url"></a>Android URL'sini alma
-
-[Power BI mobil sayfasını](https://powerbi.microsoft.com/mobile/) kullanarak Google Play URL'sini alabilirsiniz. **Google Play'den indirin**'i seçtiğinizde uygulama sayfasına yönlendirilirsiniz. Tarayıcınızın adres çubuğundan URL'yi kopyalayabilirsiniz. Şuna benzer olmalıdır: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
-
-## <a name="step-2-create-a-mobile-application-management-policy"></a>2\. Adım: Mobil uygulama yönetim ilkesi oluşturma
-
-Mobil uygulama yönetimi ilkesi sayesinde erişim PIN'i gibi öğeleri zorunlu tutabilirsiniz. Intune portalında bir ilke oluşturabilirsiniz.
-
-İlk olarak uygulamayı veya ilkeyi oluşturmayı tercih edebilirsiniz. Eklenme sıraları önemli değildir. Dağıtım adımı için ikisinin de mevcut olması yeterlidir.
-
-1. Intune portalında **İlke** > **Yapılandırma İlkeleri**'ni seçin.
-
-    ![Intune portalı](media/service-admin-mobile-intune/intune-policy.png)
-
-1. **Ekle...** 'yi seçin.
-
-1. **Yazılım** bölümünde Android veya iOS için Mobil Uygulama Yönetimi seçeneğini belirleyebilirsiniz. Hemen başlamak için, **Önerilen Ayarlarla İlke Oluştur**'u seçebilir veya özel bir ilke oluşturabilirsiniz.
-
-1. Uygulamada istediğiniz kısıtlamaları yapılandırmak için ilkeyi düzenleyin.
-
-## <a name="step-3-create-the-application"></a>3\. Adım: Uygulamayı oluşturma
-
-Uygulama, dağıtım için Intune'a kaydedilen bir başvuru veya pakettir. Bir uygulama oluşturmamız ve Google Play'den veya iTunes'dan aldığımız uygulama URL'sine başvurmamız gerekir.
-
-İlk olarak uygulamayı veya ilkeyi oluşturmayı tercih edebilirsiniz. Eklenme sıraları önemli değildir. Dağıtım adımı için ikisinin de mevcut olması yeterlidir.
-
-1. Intune portalına gidin ve soldaki menüden **Uygulamalar**'ı seçin.
-
-1. **Uygulama Ekle**'yi seçin. Bu işlem, **Yazılım Ekle** uygulamasını başlatır.
-
-### <a name="create-for-ios"></a>iOS için oluşturma
-
-1. Açılan listeden **Uygulama Mağazası'ndan Yönetilen iOS Uygulaması**'nı seçin.
-
-1. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **Sonraki** seçeneğini belirleyin.
-
-    ![Yazılım kurulumu: iOS](media/service-admin-mobile-intune/intune-add-software-ios1.png)
-
-1. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
-
-1. Uygulamayı **Herhangi bir** (varsayılan), **iPad** veya **iPhone** seçeneklerinden birini belirleyerek yayımlamayı tercih edebilirsiniz. Varsayılan olarak, **Herhangi bir** seçeneği belirlenmiştir ve her iki cihaz türü için de kullanılabilir. Power BI uygulamasının URL'si iPhone ve iPad için aynıdır. **İleri**’yi seçin.
-
-1. **Karşıya Yükle**'yi seçin.
-
-1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
-
-    ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-ios2.png)
-
-### <a name="create-for-android"></a>Android için oluşturma
-
-1. Açılan listeden **Dış Bağlantı**'yı seçin.
-
-1. [1. Adım](#step-1-get-the-url-for-the-application)'da aldığımız uygulama URL'sini girin ve **Sonraki** seçeneğini belirleyin.
-
-    ![Yazılım kurulumu: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
-
-1. Bir **Yayımcı**, **Ad** ve **Açıklama** girin. İsteğe bağlı olarak bir **Simge** de belirleyebilirsiniz. **Kategori** alanı, Şirket Portalı uygulamasına yöneliktir. İşiniz bittiğinde **İleri**'yi seçin.
-
-1. **Karşıya Yükle**'yi seçin.
-
-1. Uygulamayı listede görmüyorsanız sayfayı yenileyin: **Genel Bakış**'a, sonra yeniden **Uygulamalar**'a gidin.
-
-    ![Uygulamalar sekmesi](media/service-admin-mobile-intune/intune-add-software-android2.png)
-
-## <a name="step-4-deploy-the-application"></a>4\. Adım: Uygulamayı dağıtma
-
-Uygulamayı ekledikten sonra, son kullanıcılarınızın kullanabilmesi için dağıtmanız gerekir. Bu, oluşturduğunuz ilkeyi uygulamaya bağlayacağınız adımdır.
-
-### <a name="deploy-for-ios"></a>iOS için dağıtma
-
-1. Uygulamalar ekranında, oluşturduğunuz uygulamayı seçin. Ardından, **Dağıtımı Yönet...** bağlantısını seçin.
-
-    ![Dağıtımı yönetme](media/service-admin-mobile-intune/intune-deploy-ios1.png)
-
-1. **Grup Seç** ekranında, bu uygulamayı dağıtmak istediğiniz grupları seçebilirsiniz. **İleri**’yi seçin.
-
-1. **Dağıtım Eylemi** ekranında, bu uygulamayı nasıl dağıtmak istediğinizi seçebilirsiniz. **Kullanılabilir Yükleme** veya **Gerekli Yükleme** seçenekleri arasında yapılacak tercih, uygulamanın kullanıcılar tarafından isteğe bağlı olarak yüklenmesi için Şirket Portalı'nda bulunmasını sağlar. Seçiminizi yaptıktan sonra, **İleri**'yi seçin.
-
-    ![Dağıtım eylemi](media/service-admin-mobile-intune/intune-deploy-ios2.png)
-
-1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Mevcut tek iOS ilkesi olması halinde, oluşturduğunuz ilke varsayılan olarak kullanılır. **İleri**’yi seçin.
-
-    ![Mobil uygulama yönetimi](media/service-admin-mobile-intune/intune-deploy-ios3.png)
-
-1. Kuruluşunuza yönelik bir ilke varsa **VPN Profili** ekranında bunu seçebilirsiniz. Varsayılan olarak **Yok** seçeneği belirlenir. **İleri**’yi seçin.
-
-1. **Mobil Uygulama Yapılandırması** ekranında, bir **Uygulama Yapılandırma İlkesi** (oluşturduysanız) seçebilirsiniz. Varsayılan olarak **Yok** seçeneği belirlenir. Bu gerekli değildir. **Son**'u seçin.
-
-Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölümünde **Evet** seçeneğinin gösterilmesi gerekir.
-
-### <a name="deploy-for-android"></a>Android için dağıtma
-
-1. Uygulamalar ekranında, oluşturduğunuz uygulamayı seçin. Ardından, **Dağıtımı Yönet...** bağlantısını seçin.
-
-    ![Dağıtımı yönetme](media/service-admin-mobile-intune/intune-deploy-android1.png)
-1. **Grup Seç** ekranında, bu uygulamayı dağıtmak istediğiniz grupları seçebilirsiniz. **İleri**’yi seçin.
-
-1. **Dağıtım Eylemi** ekranında, bu uygulamayı nasıl dağıtmak istediğinizi seçebilirsiniz. **Kullanılabilir Yükleme** veya **Gerekli Yükleme** seçenekleri arasında yapılacak tercih, uygulamanın kullanıcılar tarafından isteğe bağlı olarak yüklenmesi için Şirket Portalı'nda bulunmasını sağlar. Seçiminizi yaptıktan sonra, **İleri**'yi seçin.
-
-    ![Dağıtım eylemi](media/service-admin-mobile-intune/intune-deploy-android2.png)
-
-1. **Mobil Uygulama Yönetimi** ekranında, [2. Adım](#step-2-create-a-mobile-application-management-policy)'da oluşturduğumuz Mobil Uygulama Yönetimi ilkesini seçebilirsiniz. Kullanılabilir tek Android ilkesi ise oluşturduğunuz ilkeyi varsayılan olarak kullanır. **Son**'u seçin.
-
-    ![Mobil uygulama yönetimi](media/service-admin-mobile-intune/intune-deploy-android3.png)
-
-Uygulamayı dağıttıktan sonra, uygulamalar sayfasındaki Dağıtıldı bölümünde **Evet** seçeneğinin gösterilmesi gerekir.
-
-## <a name="step-5-install-the-application-on-a-device"></a>5\. Adım: Uygulamayı bir cihaza yükleme
-
-Uygulamayı, *Şirket Portalı* uygulaması aracılığıyla yüklersiniz. Şirket Portalı uygulamasını henüz yüklemediyseniz iOS veya Android platformundaki uygulama mağazasını kullanarak edinebilirsiniz. Şirket Portalı'nda oturum açmak için kurumsal oturum açma bilgilerinizi kullanırsınız.
-
-1. Şirket Portalı uygulamasını açın.
-
-1. Listelenen uygulamalar arasında Power BI uygulamasını görmüyorsanız **Şirket Uygulamaları**'nı açın.
-
-    ![Şirket Uygulamaları](media/service-admin-mobile-intune/intune-companyportal1.png)
-
-1. Dağıttığınız Power BI uygulaması seçin.
-
-    ![Power BI uygulaması](media/service-admin-mobile-intune/intune-companyportal2.png)
-
-1. **Yükle**'yi seçin.
-
-    ![Uygulamayı yükleme](media/service-admin-mobile-intune/intune-companyportal3.png)
-
-1. iOS kullanıyorsanız uygulama size iletilir. Gönderim iletişim kutusundaki **Yükle**'yi seçin.
-
-    ![Uygulama yüklemesi](media/service-admin-mobile-intune/intune-companyportal5.png)
-
-1. Uygulama yüklendikten sonra, bunun **Şirketiniz tarafından yönetilen** bir uygulama olduğunu görürsünüz. İlkede PIN kullanarak erişimi etkinleştirdiyseniz aşağıdaki ekranla karşılaşırsınız.
-
-    ![PIN kodunu girme](media/service-admin-mobile-intune/intune-powerbi-pin.png)
+Son kullanıcılarınızın Power BI uygulamasını cihazlarında nasıl kullanabileceklerini anlamak için aşağıdaki makalelerde verilen adımları inceleyin:
+- [iOS cihazınızdaki yönetilen uygulamaları kullanma](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Android cihazınızdaki yönetilen uygulamaları kullanma](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Configure and deploy mobile application management policies in the Microsoft Intune console (Microsoft Intune konsolunda mobil uygulama yönetimi ilkelerini yapılandırma ve dağıtma)](/intune/app-protection-policies/)  
+[Uygulama koruma ilkeleri oluşturma ve atama](/intune/app-protection-policies) 
 
 [Mobil cihazlar için Power BI uygulamaları](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 

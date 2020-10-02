@@ -1,19 +1,19 @@
 ---
 title: Hizmet kesintisi bildirimleri
-description: Power BI hizmeti kesintisi veya hizmette performans düşüşü yaşandığında e-posta bildirimlerini almayı öğrenin.
+description: Power BI hizmeti kesintisi yaşandığında e-posta bildirimlerini almayı öğrenin.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642286"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374879"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -36,16 +36,15 @@ Raporları açma, veri kümesi yenileme veya sorgu yürütme gibi işlemlerde _u
 
 Power BI Premium kapasitesi, güvenilirliği etkileme ihtimali olan genişletilmiş yüksek düzeyde kaynak kullanımı süreleriyle karşılaştığında bir bildirim e-postası gönderilir. Bu tür etkilerin örnekleri arasında rapor açma, veri kümesi yenileme ve sorgu yürütmeleri gibi işlemlerde uzun gecikmelere yer alır. 
 
-Bildirim e-postası, aşağıdakiler gibi yüksek kaynak kullanımının nedenleri hakkında bilgi sağlar:
+Bildirim e-postası, aşağıdakiler gibi yüksek kaynak kullanımının nedenleri hakkında bilgiler sunar:
 
 * İlgili veri kümesinin veri kümesi kimliği
 * İşlem türü
 * Yüksek kaynak kullanımıyla ilişkili CPU süresi. Aşağıda, [CPU süresinin Wikipedia’daki tanımı](https://wikipedia.org/wiki/CPU_time) verilmiştir.
 
-Power BI Premium kapasitesinde aşırı yükleme algılandığında da Power BI e-posta bildirimi gönderir. E-postada aşırı yüklemenin olası nedeni, geçtiğimiz 10 dakikada yükü oluşturan işlemler ve her işlemin oluşturduğu yük miktarı açıklanır. 
+Power BI Premium kapasitesinde aşırı yükleme algılandığında da Power BI e-posta bildirimi gönderir. E-postada aşırı yüklemenin olası nedeni, geçtiğimiz 10 dakikada yükü oluşturan işlemler ve her işlemin oluşturduğu yük miktarı açıklanır.
 
-
-Birden çok Premium kapasiteye sahipseniz e-postada aşırı yüklenme süresi boyunca bu kapasitelerin hepsine ilişkin bilgiler yer alır. Böylece yoğun kaynağa sahip öğeler içeren çalışma alanlarınızı daha az yüke sahip kapasitelere taşımayı düşünebilirsiniz.
+Birden fazla Premium kapasiteniz varsa, e-postada aşırı yük dönemi sırasında bu kapasitelerin durumu hakkında bilgiler sunulur. Bu bilgiler, yoğun kaynak kullanan öğeler içeren çalışma alanlarını en düşük yüke sahip olan kapasitelere taşıma konusunda karar vermenize yardımcı olur.
 
 Aşırı yüklenme e-posta bildirimleri, yalnızca bir aşırı yüklenme eşiği tetiklendiğinde gönderilir. Premium kapasitedeki yük miktarı, aşırı yük düzeyinin altına indiğinde ikinci bir e-posta bildirimi gönderilmez.
 
@@ -56,7 +55,7 @@ Aşağıdaki resimde bir bildirim e-postası örneği gösterilir:
 
 ## <a name="enable-notifications"></a>Bildirimleri etkinleştirme
 
-Power BI kiracı yöneticisi, yönetici portalından bildirimleri etkinleştirir:
+Power BI yöneticisi, yönetici portalından bildirimleri etkinleştirir:
 
 1. Bildirimleri alması gereken bir e-posta etkin güvenlik grubu tanımlayın veya oluşturun.
 
@@ -68,6 +67,10 @@ Power BI kiracı yöneticisi, yönetici portalından bildirimleri etkinleştirir
 
 > [!NOTE]
 > Power BI şu hesaptan bildirim gönderir: no-reply-powerbi@microsoft.com. Bildirimlerin gereksiz e-posta klasörüne düşmemesi için, bu hesabın güvenli gönderen listenize eklendiğinden emin olun.
+
+## <a name="service-health-in-microsoft-365"></a>Microsoft 365'te hizmet durumu
+
+Bu makalede Power BI aracılığıyla hizmet bildirimi alma adımları anlatılmıştır. Power BI hizmetinin durumunu Microsoft 365 üzerinden de izleyebilirsiniz. Microsoft 365 üzerinden hizmet durumu hakkında e-posta bildirimi almak için kaydolun. Daha fazla bilgi için bkz. [Microsoft 365 hizmet durumunu denetleme](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
