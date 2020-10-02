@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: Power BI’da çok boyutlu modellerle çalışma
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: Veri akışları
+      items:
+        - name: Veri akışlarına giriş
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: Veri akışı oluşturma
+          href: dataflows/dataflows-create.md
+        - name: Veri akışı yapılandırma ve kullanma
+          href: dataflows/dataflows-configure-consume.md
+        - name: Veri akışları ve Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: Veri akışlarının Premium özellikleri
+          href: dataflows/dataflows-premium-features.md
+        - name: Veri akışları ile Makine Öğrenimi ve Bilişsel Hizmetleri kullanma
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: Veri akışı sınırlamaları ve önemli noktalar
+          href: dataflows/dataflows-features-limitations.md
     - name: Nasıl yapılır kılavuzları
       items:
         - name: Ortak sorgu görevlerini gerçekleştirme
