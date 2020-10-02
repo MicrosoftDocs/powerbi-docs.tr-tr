@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965319"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635712"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -171,12 +171,11 @@ Power BI hizmeti, verileri **DirectQuery** ile veya içeri aktarmayla erişilmel
 
 Aşağıdaki tabloda kullanılan sorgu türü temelinde Power BI verileri açıklanır. **X** işareti ilişkili veri türü kullanıldığında Power BI verilerinin varlığına işaret eder.
 
-
-|  |İçeri Aktarma  |DirectQuery  |Canlı Bağlantı  |
-|---------|---------|---------|---------|
-|Şema     |     X    |    X     |         |
-|Ham veriler     |    X     |         |         |
-|Görsellerin veri önbelleği     |    X     |     X    |    X     |
+|                         | İçeri Aktarma   | DirectQuery | Canlı Bağlantı  |
+|-------------------------|----------|-------------|---------------|
+|**Şema**               | X        | X           |               |
+|**Ham veriler**             | X        |             |               |
+|**Görsellerin veri önbelleği** | X        | X           | X             |
 
 DirectQuery ile diğer sorgular arasındaki fark, Power BI hizmetinin bekleyen verileri nasıl işlediğini ve sorgunun şifrelenip şifrelenmediğini belirler. Aşağıdaki bölümlerde bekleyen ve taşınan veriler, ayrıca şifreleme, konum ve verilerin işlenme işlemi açıklanır.
 
