@@ -12,14 +12,14 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 54ee992aa47d10801079aa7a2cdcc9dd6718fc21
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516411"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748359"
 landingContent:
-- title: Kullanmaya başlayın
+- title: başlarken
   linkLists:
   - linkListType: get-started
     links:
@@ -56,9 +56,9 @@ landingContent:
   - linkListType: reference
     links:
     - text: Power BI REST API'leri
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - text: Power BI Rest API başvurusu
-      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+      url: ./rest-api-reference.md
     - text: Geliştirici merkezi
       url: https://powerbi.microsoft.com/developers/
     - text: Power BI kitaplıkları
