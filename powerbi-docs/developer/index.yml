@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
-  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 06/16/2020
-  ms.locfileid: "84795059"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748506"
 highlightedContent:
   items:
   - title: Power BI ile tümleşik analiz
@@ -83,13 +83,13 @@ additionalContent:
   - items:
     - title: Power BI REST API'leri
       summary: Power BI REST API’leri, ekleme, yönetim ve kullanıcı kaynakları için hizmet uç noktaları sağlar.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: Azure Resource Manager REST API’leri
       summary: Ayrılmış Power BI kapasiteleri oluşturmanızı, almanızı, güncelleştirmenizi ve silmenizi sağlayan bir dizi RESTful web hizmeti sağlayan bir API.
-      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+      url: /rest/api/power-bi-embedded/
     - title: Power Platform belgeleri
       summary: Power BI, Power Apps, Power Automate ve Power Virtual Agents’ın birbirini geliştirmek için birlikte nasıl çalıştığını öğrenin.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/
     - title: Power BI geliştirici merkezi
       summary: Power BI ile oluşturun.
       url: https://powerbi.microsoft.com/developers/

@@ -91,9 +91,9 @@
         - name: API'ler
           items:
             - name: Azure Kaynak Yönetimi REST API'leri
-              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+              href: /rest/api/power-bi-embedded/
             - name: Power BI REST API'leri
-              href: 'https://docs.microsoft.com/rest/api/power-bi/'
+              href: /rest/api/power-bi/
         - name: Power BI kitaplıkları
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Özel düzenleri uygulamaya ekleme
