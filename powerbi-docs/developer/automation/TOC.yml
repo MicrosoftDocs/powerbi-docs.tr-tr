@@ -5,7 +5,7 @@
     - name: Genel Bakış
       expanded: true
       items:
-        - name: Power BI API ile neler yapabilirim?
+        - name: Power BI API’siyle ne yapabilirim?
           href: overview-of-power-bi-rest-api.md
     - name: Öğreticiler
       expanded: true
@@ -39,7 +39,7 @@
     - name: Başvuru
       items:
         - name: REST API'leri
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Power BI Rest API başvurusu
           href: rest-api-reference.md
         - name: Tam kod listesi
@@ -48,7 +48,7 @@
       items:
         - name: Geliştirme Merkezi
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI C# Git Deposu'
+        - name: Power BI C# Git Deposu
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK İndirme
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
