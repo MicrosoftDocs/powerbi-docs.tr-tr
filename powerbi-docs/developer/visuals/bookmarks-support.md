@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878590"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749012"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI görselleri için yer işareti desteği ekleme
 
 Power BI rapor yer işaretleriyle rapor sayfasının, seçim durumunun ve görselin filtreleme durumunun yapılandırılmış görünümünü yakalayabilirsiniz. Öte yandan Power BI görselleri tarafında yer işaretini desteklemek ve değişikliklere doğru tepki vermek için ek eylem gerekir.
 
-Yer işaretleri hakkında daha fazla bilgi için bkz. [Power BI'da içgörüleri paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](https://docs.microsoft.com/power-bi/desktop-bookmarks).
+Yer işaretleri hakkında daha fazla bilgi için bkz. [Power BI'da içgörüleri paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma](../../create-reports/desktop-bookmarks.md).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Görselinizde rapor yer işaretleri desteği
 

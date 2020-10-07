@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239912"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749035"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI görsellerinde Analiz bölmesi
 
-**Analiz**  bölmesi Kasım 2018’de [yerel görseller](https://docs.microsoft.com/power-bi/desktop-analytics-pane) için kullanıma sunuldu.
+**Analiz**  bölmesi Kasım 2018’de [yerel görseller](../../transform-model/desktop-analytics-pane.md) için kullanıma sunuldu.
 Bu makalede Power BI görsellerinin API v2.5.0 ile özelliklerini **Analiz** bölmesinde nasıl gösterebildiği ve yönetebildiği açıklanır.
 
 ![Analiz bölmesi](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Analiz bölmesini yönetme
 
-Aynı [**Biçim** bölmesindeki özellikleri yönettiğiniz gibi](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), görselin *capabilities.json* dosyasında bir nesne tanımlayarak **Analiz** bölmesini de yönetebilirsiniz.
+Aynı [**Biçim** bölmesindeki özellikleri yönettiğiniz gibi](./custom-visual-develop-tutorial-format-options.md), görselin *capabilities.json* dosyasında bir nesne tanımlayarak **Analiz** bölmesini de yönetebilirsiniz.
 
 **Analiz** bölmesinin farklılıkları şunlardır:
 

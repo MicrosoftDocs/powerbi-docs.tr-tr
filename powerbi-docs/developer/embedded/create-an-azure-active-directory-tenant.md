@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354950"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748782"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 
@@ -27,7 +27,7 @@ Kuruluşunuz, uygulamanızla birlikte kullanabileceğiniz bir Azure AD kiracıs�
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory kiracısı oluşturma
 
-Power BI'ı özel uygulamanızla tümleştirmek için Azure AD'nin içinde Azure AD dizini gerektiren bir uygulama tanımlamalısınız. Bu dizin sizin *kiracınızdır*. Kuruluşunuzun Power BI veya Microsoft 365 kullanmadığı için henüz bir kiracısı yoksa [bir geliştirme ortamı ayarlamanız gerekir](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da bu öğeleri yalıtmanızı sağlayacak yeni bir kiracı oluşturmanız gerekir. Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
+Power BI'ı özel uygulamanızla tümleştirmek için Azure AD'nin içinde Azure AD dizini gerektiren bir uygulama tanımlamalısınız. Bu dizin sizin *kiracınızdır*. Kuruluşunuzun Power BI veya Microsoft 365 kullanmadığı için henüz bir kiracısı yoksa [bir geliştirme ortamı ayarlamanız gerekir](/azure/active-directory/develop/active-directory-howto-tenant). Ayrıca, uygulamanızın kuruluşunuzun kiracısıyla karışmasını istemediğiniz durumlarda da bu öğeleri yalıtmanızı sağlayacak yeni bir kiracı oluşturmanız gerekir. Yalnızca test amacıyla kullanmak üzere de bir kiracı oluşturmak isteyebilirsiniz.
 
 Yeni Azure AD kiracısı oluşturmak için:
 
@@ -93,8 +93,8 @@ Dizini oluşturduğunuza göre şimdi de en az iki kullanıcı oluşturalım. Bi
 
 Artık bir Azure AD kiracınız olduğuna göre, bu kiracıyı kullanarak Power BI'ın içindeki öğeleri test edebilirsiniz. Ayrıca uygulamanıza Power BI panoları ve raporları ekleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-customers.md).
 
-[Azure Active Directory nedir?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[Azure Active Directory nedir?](/azure/active-directory/active-directory-whatis) 
  
-[Hızlı başlangıç: Geliştirme ortamınızı ayarlama](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Hızlı başlangıç: Geliştirme ortamınızı ayarlama](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

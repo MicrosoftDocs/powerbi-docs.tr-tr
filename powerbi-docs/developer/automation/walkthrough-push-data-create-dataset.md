@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354996"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748897"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3\. Adım: Power BI'da veri kümesi oluşturma
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
-Bir veri kümesine veri gönderme kılavuzunun [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) başlıklı **2. Adım**'ında, **Azure AD**'de kimlik doğrulaması gerçekleştirmek için bir belirteç alırsınız. Bu adımda, [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırmak için belirteci kullanırsınız.
+Bir veri kümesine veri gönderme kılavuzunun [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) başlıklı **2. Adım**'ında, **Azure AD**'de kimlik doğrulaması gerçekleştirmek için bir belirteç alırsınız. Bu adımda, [PostDataset](/rest/api/power-bi/pushdatasets) işlemini çağırmak için belirteci kullanırsınız.
 
 Bir REST kaynağına çağrı yapmak için, kaynağın yerini belirleyen bir URL kullanır ve Power BI hizmeti kaynağına, veri kümesini tanımlayan bir JavaScript Nesne Gösterimi (JSON) dizesi gönderirsiniz. Power BI hizmetinin kullanmak istediğiniz bölümü bir REST kaynağı tarafından tanımlanır. Veri kümesine veri gönderme işlemi için hedef kaynak bir **Veri Kümesidir**. Bir veri kümesini tanımlayan URL `https://api.PowerBI.com/v1.0/myorg/datasets`. Bir grup içindeki verileri gönderiyorsanız URL `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`.
 
 Bir Power BI REST işleminin kimliğini doğrulamak için, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) bölümünde edindiğiniz belirteci bir istek üst bilgisine eklersiniz:
 
-[PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) işlemini çağırdığınızda, yeni bir veri kümesi oluşturulur. 
+[PostDataset](/rest/api/power-bi/pushdatasets) işlemini çağırdığınızda, yeni bir veri kümesi oluşturulur. 
 
 ![veri kümesi oluşturma](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -229,11 +229,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  
 * [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API başvurusu](/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

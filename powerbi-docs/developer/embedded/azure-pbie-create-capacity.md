@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528379"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748874"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -26,11 +26,11 @@ Bu hızlı başlangıcı tamamlamak için aşağıdakilere ihtiyacınız vardır
 
 * **Azure aboneliği:** Hesap oluşturmak için [Azure Ücretsiz Deneme](https://azure.microsoft.com/free/) sayfasını ziyaret edin.
 
-* **Azure Active Directory:** Aboneliğinizin bir Azure Active Directory (Azure AD) kiracısıyla ilişkilendirilmesi gerekir. Ayrıca ***bu kiracıdaki bir hesapla Azure'da oturum açmış olmanız gerekir***. Microsoft hesapları desteklenmez. Daha fazla bilgi için bkz. [Kimlik doğrulaması ve izinler](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
+* **Azure Active Directory:** Aboneliğinizin bir Azure Active Directory (Azure AD) kiracısıyla ilişkilendirilmesi gerekir. Ayrıca ***bu kiracıdaki bir hesapla Azure'da oturum açmış olmanız gerekir***. Microsoft hesapları desteklenmez. Daha fazla bilgi için bkz. [Kimlik doğrulaması ve izinler](/azure/analysis-services/analysis-services-manage-users).
 
 * **Power BI kiracısı:** Azure Active Directory kiracınızdaki hesaplardan en az birinin Power BI hizmetine kaydolmuş olması gerekir.
 
-* **Kaynak grubu:** Mevcut kaynak gruplarınızdan birini kullanabilir veya [yeni bir tane oluşturabilirsiniz](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Kaynak grubu:** Mevcut kaynak gruplarınızdan birini kullanabilir veya [yeni bir tane oluşturabilirsiniz](/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Kapasite oluşturma
 
@@ -50,13 +50,13 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 
-    * **Kaynak grubu** - Bu yeni kapasiteyi içeren kaynak grubu. Var olan kaynak gruplarından birini seçebilir veya yeni bir tane oluşturabilirsiniz. Daha fazla bilgi için bkz. [Azure Resource Manager'a genel bakış](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Kaynak grubu** - Bu yeni kapasiteyi içeren kaynak grubu. Var olan kaynak gruplarından birini seçebilir veya yeni bir tane oluşturabilirsiniz. Daha fazla bilgi için bkz. [Azure Resource Manager'a genel bakış](/azure/azure-resource-manager/resource-group-overview).
 
     * **Kaynak adı** - Kapasitenin kaynak adı.
 
     * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](embedded-multi-geo.md) konumu değiştirebilirsiniz.
 
-    * **Boyut** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/power-bi/developer/embedded/embedded-capacity).
+    * **Boyut** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](./embedded-capacity.md).
 
     * **Power BI kapasite yöneticisi** - Kapasite için bir yönetici.
         >[!NOTE]
@@ -114,7 +114,7 @@ Power BI ekli kapasite komutları için Azure CLI 2.3.1 veya sonraki bir sürüm
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Azure CLI ile kapasite oluşturma
 
-Kapasite oluşturmak için [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) komutunu kullanın.
+Kapasite oluşturmak için [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) komutunu kullanın.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Azure CLI ile kapasite silme
 
-Azure CLI kullanarak kapasite silmek için [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
+Azure CLI kullanarak kapasite silmek için [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Azure CLI ile kapasitenizi yönetme
 
-[az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest)’da tüm Power BI Embedded Azure CLI komutlarını görüntüleyebilirsiniz.
+[az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest)’da tüm Power BI Embedded Azure CLI komutlarını görüntüleyebilirsiniz.
 
 # <a name="arm-template"></a>[ARM şablonu](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Resource Manager şablonu kullanma
 
-[Resource Manager şablonu](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) projenizin altyapısını ve yapılandırmasını tanımlayan bir JavaScript Nesne Gösterimi (JSON) dosyasıdır. Şablon, dağıtmak istediğiniz öğeyi oluşturmaya yönelik programlama komutları dizisini yazmak zorunda kalmadan bu öğeyi belirtmenize imkan tanıyan bildirim temelli söz dizimini kullanır. Resource Manager şablonları geliştirme hakkında daha fazla bilgi edinmek istiyorsanız bkz. [Resource Manager belgeleri](https://docs.microsoft.com/azure/azure-resource-manager/) ve [şablon başvurusu](https://docs.microsoft.com/azure/templates/).
+[Resource Manager şablonu](/azure/azure-resource-manager/templates/overview) projenizin altyapısını ve yapılandırmasını tanımlayan bir JavaScript Nesne Gösterimi (JSON) dosyasıdır. Şablon, dağıtmak istediğiniz öğeyi oluşturmaya yönelik programlama komutları dizisini yazmak zorunda kalmadan bu öğeyi belirtmenize imkan tanıyan bildirim temelli söz dizimini kullanır. Resource Manager şablonları geliştirme hakkında daha fazla bilgi edinmek istiyorsanız bkz. [Resource Manager belgeleri](/azure/azure-resource-manager/) ve [şablon başvurusu](/azure/templates/).
 
 Azure aboneliğiniz yoksa başlamadan önce [ücretsiz](https://azure.microsoft.com/free/) bir hesap oluşturun.
 
@@ -209,7 +209,7 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
 }
 ```
 
-Şablonda bir Azure kaynağı tanımlanmıştır: [Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded kapasitesi oluşturun.
+Şablonda bir Azure kaynağı tanımlanmıştır: [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded kapasitesi oluşturun.
 
 ### <a name="deploy-the-template"></a>Şablonu dağıtma
 
@@ -223,16 +223,16 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 
-    * **Kaynak grubu** - Bu yeni kapasiteyi içeren kaynak grubu. Var olan kaynak gruplarından birini seçebilir veya yeni bir tane oluşturabilirsiniz. Daha fazla bilgi için bkz. [Azure Resource Manager'a genel bakış](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+    * **Kaynak grubu** - Bu yeni kapasiteyi içeren kaynak grubu. Var olan kaynak gruplarından birini seçebilir veya yeni bir tane oluşturabilirsiniz. Daha fazla bilgi için bkz. [Azure Resource Manager'a genel bakış](/azure/azure-resource-manager/resource-group-overview).
 
     * **Bölge** - Kapasitenin ait olacağı bölge.
 
     * **Ad** - Kapasite adı.
 
-    * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **Konum** - Kiracınız için Power BI hizmetinin barındırıldığı konum. Varsayılan konum ana bölgenizdir ancak [Multi-Geo seçeneklerini kullanarak](./embedded-multi-geo.md
 ) konumu değiştirebilirsiniz.
 
-    * **SKU** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](/power-bi/developer/embedded/embedded-capacity).
+    * **SKU** - İhtiyacınız olan [bir SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios). Daha fazla bilgi için bkz. [SKU belleği ve işlem gücü](./embedded-capacity.md).
 
     * **Yönetici** - Kapasite için bir yönetici.
         >[!NOTE]

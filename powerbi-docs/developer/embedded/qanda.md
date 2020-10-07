@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114394"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749288"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
 
@@ -96,7 +96,7 @@ qna.on("visualRendered", function(event) {
 
 ## <a name="embed-token"></a>Ekleme belirteci
 
-Soru-Cevap bölümü eklemek için bir veri kümesinden ekleme belirteci oluşturmanız gerekir. Daha fazla bilgi için bkz. [Belirteç oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Soru-Cevap bölümü eklemek için bir veri kümesinden ekleme belirteci oluşturmanız gerekir. Daha fazla bilgi için bkz. [Belirteç oluşturma](/rest/api/power-bi/embedtoken).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

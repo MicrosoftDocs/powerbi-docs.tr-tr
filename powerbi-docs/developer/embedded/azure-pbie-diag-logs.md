@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495815"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748805"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure'da Power BI Embedded için tanılama günlüğüne kaydetme
 
-[Azure kaynak tanılama günlükleri](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) ile kapasitenizdeki birçok olayı günlüğe kaydedebilir, bir analiz aracına aktarabilir ve kaynağınızın davranışlarıyla ilgili içgörüler elde edebilirsiniz.
+[Azure kaynak tanılama günlükleri](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) ile kapasitenizdeki birçok olayı günlüğe kaydedebilir, bir analiz aracına aktarabilir ve kaynağınızın davranışlarıyla ilgili içgörüler elde edebilirsiniz.
 
 Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
 
@@ -36,12 +36,12 @@ Tanılama özelliklerini aşağıdaki gibi senaryolar için kullanabilirsiniz:
 
     * **Ad**: Oluşturulacak tanılama ayarları için bir ad girin.
 
-    * **Bir depolama hesabına arşivle**: Bu seçeneği kullanmak için var olan bir depolama hesabına bağlanmanız gerekir. Depolama hesabı oluşturma yönergeleri için bkz. [Depolama hesabı oluşturma](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account). Ardından portalda bu sayfaya dönerek depolama hesabınızı seçin. Yeni oluşturulan depolama hesaplarının açılan menüde görünmesi birkaç dakika sürebilir. Günlük dosyası JSON biçiminde depolanır.
-    * **Bir olay hub'ına akış yap**: Bu seçeneği kullanmak için var olan bir Event Hubs ad alanına ve olay hub'ına bağlanmanız gerekir. Daha fazla bilgi için bkz. [Azure portalı kullanarak Event Hubs ad alanı ve olay hub'ı oluşturma](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).
-    * **Log Analytics'e gönder**: Bu seçeneği kullanmak için var olan bir çalışma alanını kullanın veya portalda [yeni bir çalışma alanı oluşturma](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) adımlarını izleyerek yeni bir Log Analytics çalışma alanı oluşturun. Bu seçenek yerleşik analiz, pano oluşturma ve bildirim özellikleri sunan [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview) hizmetinden faydalanır. Log Analytics'i kullanarak diğer veri kaynaklarındaki verilere bağlanabilir ve uygulamanızın tüm kaynaklarını aynı anda görüntüleyebilirsiniz. [Tek tıklamayla Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)'a da bağlanabilir.
-    Log Analytics'teki günlüklerinizi görüntüleme hakkında daha fazla bilgi için bkz. [Log Analytics'te günlük görüntüleme](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity).
+    * **Bir depolama hesabına arşivle**: Bu seçeneği kullanmak için var olan bir depolama hesabına bağlanmanız gerekir. Depolama hesabı oluşturma yönergeleri için bkz. [Depolama hesabı oluşturma](/azure/storage/common/storage-create-storage-account). Ardından portalda bu sayfaya dönerek depolama hesabınızı seçin. Yeni oluşturulan depolama hesaplarının açılan menüde görünmesi birkaç dakika sürebilir. Günlük dosyası JSON biçiminde depolanır.
+    * **Bir olay hub'ına akış yap**: Bu seçeneği kullanmak için var olan bir Event Hubs ad alanına ve olay hub'ına bağlanmanız gerekir. Daha fazla bilgi için bkz. [Azure portalı kullanarak Event Hubs ad alanı ve olay hub'ı oluşturma](/azure/event-hubs/event-hubs-create).
+    * **Log Analytics'e gönder**: Bu seçeneği kullanmak için var olan bir çalışma alanını kullanın veya portalda [yeni bir çalışma alanı oluşturma](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) adımlarını izleyerek yeni bir Log Analytics çalışma alanı oluşturun. Bu seçenek yerleşik analiz, pano oluşturma ve bildirim özellikleri sunan [Azure Log Analytics](/azure/log-analytics/log-analytics-overview) hizmetinden faydalanır. Log Analytics'i kullanarak diğer veri kaynaklarındaki verilere bağlanabilir ve uygulamanızın tüm kaynaklarını aynı anda görüntüleyebilirsiniz. [Tek tıklamayla Power BI](/azure/log-analytics/log-analytics-powerbi)'a da bağlanabilir.
+    Log Analytics'teki günlüklerinizi görüntüleme hakkında daha fazla bilgi için bkz. [Log Analytics'te günlük görüntüleme](/azure/log-analytics/log-analytics-activity).
     * **Altyapı**: Aşağıda [listelenen altyapı olaylarını](#whats-logged) günlüğe kaydetmek için bu seçeneği belirleyin.
-    * **Tüm Ölçümler**: [Ölçümler](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics) içinde ayrıntılı veri depolamak için bu seçeneği belirleyin. Bir depolama hesabına arşivleme yapıyorsanız tanılama günlüklerinin saklama süresini belirleyebilirsiniz. Saklama süresinin sonunda günlükler otomatik olarak silinir.
+    * **Tüm Ölçümler**: [Ölçümler](/azure/analysis-services/analysis-services-monitor#server-metrics) içinde ayrıntılı veri depolamak için bu seçeneği belirleyin. Bir depolama hesabına arşivleme yapıyorsanız tanılama günlüklerinin saklama süresini belirleyebilirsiniz. Saklama süresinin sonunda günlükler otomatik olarak silinir.
 
 3. **Kaydet**’i seçin.
 
@@ -87,11 +87,11 @@ Bu parametreleri bir arada kullanarak birden fazla çıkış seçeneği oluştur
 
 ### <a name="rest-api"></a>REST API'si
 
-[Azure İzleyici REST API'sini kullanarak tanılama ayarlarını değiştirmeyi](https://docs.microsoft.com/rest/api/monitor/) öğrenin. 
+[Azure İzleyici REST API'sini kullanarak tanılama ayarlarını değiştirmeyi](/rest/api/monitor/) öğrenin. 
 
 ### <a name="resource-manager-template"></a>Resource Manager şablonu
 
-[Resource Manager şablonu kullanarak kaynak oluşturma sırasında tanılama ayarını etkinleştirmeyi](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template) öğrenin.
+[Resource Manager şablonu kullanarak kaynak oluşturma sırasında tanılama ayarını etkinleştirmeyi](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template) öğrenin.
 
 ## <a name="whats-logged"></a>Günlüğe neler kaydedilir?
 
@@ -174,11 +174,11 @@ Veri toplamayı etkinleştirdiniz, şimdi **Günlükler** sayfasında **Toplanan
 
 **EventClass\_'ları** veya olay adlarından birini seçtiğinizde Log Analytics sorguyu oluşturmaya devam eder. Sorgularınızı daha sonra kullanmak üzere kaydetmeyi unutmayın.
 
-Toplanan verilerde gelişmiş sorgulama, pano ve uyarı oluşturma özelliklerini sunan [Log Analytics](https://docs.microsoft.com/azure/log-analytics/) sayfasını incelemeyi unutmayın.
+Toplanan verilerde gelişmiş sorgulama, pano ve uyarı oluşturma özelliklerini sunan [Log Analytics](/azure/log-analytics/) sayfasını incelemeyi unutmayın.
 
 ### <a name="queries"></a>Sorgular
 
-Kullanabileceğiniz yüzlerce sorgu vardır. Başlamanıza yardımcı olacak birkaç seçenek aşağıda verilmiştir. Yeni Günlük Araması sorgu dilini kullanma hakkında daha fazla bilgi için bkz. [Log Analytics'teki günlük aramalarını anlama](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
+Kullanabileceğiniz yüzlerce sorgu vardır. Başlamanıza yardımcı olacak birkaç seçenek aşağıda verilmiştir. Yeni Günlük Araması sorgu dilini kullanma hakkında daha fazla bilgi için bkz. [Log Analytics'teki günlük aramalarını anlama](/azure/log-analytics/log-analytics-log-search).
 
 * Tamamlanması beş dakikadan kısa (300.000 milisaniye) süren sorgu yanıtı.
 
@@ -206,7 +206,7 @@ Kullanabileceğiniz yüzlerce sorgu vardır. Başlamanıza yardımcı olacak bir
 Azure kaynaklarında tanılama günlüğüne kaydetme hakkında daha fazla bilgi edinebilirsiniz.
 
 > [!div class="nextstepaction"]
-> [Azure kaynaklarında tanılama günlüğüne kaydetme](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Azure kaynaklarında tanılama günlüğüne kaydetme](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

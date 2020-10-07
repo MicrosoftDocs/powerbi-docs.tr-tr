@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034072"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748966"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 
@@ -25,7 +25,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Veri kaynakları için kimlik bilgisi akışını güncelleştirme
 
-1. Veri kümesinin veri kaynaklarını bulmak için [Get Datasources](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup) çağrısı yapın. Her veri kaynağının yanıt gövdesinde tür, bağlantı ayrıntıları, ağ geçidi ve veri kaynağı kimliği bulunur.
+1. Veri kümesinin veri kaynaklarını bulmak için [Get Datasources](/rest/api/power-bi/datasets/getdatasourcesingroup) çağrısı yapın. Her veri kaynağının yanıt gövdesinde tür, bağlantı ayrıntıları, ağ geçidi ve veri kaynağı kimliği bulunur.
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
     var datasource = datasources.First();
     ```
 
-2. Kimlik bilgileri türüne bağlı olarak [Update Datasource Examples](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) komutuna göre kimlik bilgileri dizesi derleyin.
+2. Kimlik bilgileri türüne bağlı olarak [Update Datasource Examples](/rest/api/power-bi/gateways/updatedatasource) komutuna göre kimlik bilgileri dizesi derleyin.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
     ---
 
     >[!NOTE]
-    >Bulut veri kaynaklarını kullanıyorsanız bu bölümde yer alan sonraki adımları izlemeyin. 1\. adımda aldığınız ağ geçidi ve veri kaynağı kimliklerini kullanıp [Veri Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaparak kimlik bilgilerini belirleyin. 
+    >Bulut veri kaynaklarını kullanıyorsanız bu bölümde yer alan sonraki adımları izlemeyin. 1\. adımda aldığınız ağ geçidi ve veri kaynağı kimliklerini kullanıp [Veri Update Datasource](/rest/api/power-bi/gateways/updatedatasource) çağrısı yaparak kimlik bilgilerini belirleyin. 
 
-3. Ağ geçidi ortak anahtarını almak için [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
+3. Ağ geçidi ortak anahtarını almak için [Get Gateway](/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
     ---
 
-6. Kimlik bilgilerini ayarlamak için [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
+6. Kimlik bilgilerini ayarlamak için [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) çağrısı yapın.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 1. Makinenize [Şirket içi veri ağ geçidini](https://powerbi.microsoft.com/gateway/) yükleyin.
 
-2. Ağ geçidi kimliğini ve ortak anahtarını almak için [Get Gateways](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
+2. Ağ geçidi kimliğini ve ortak anahtarını almak için [Get Gateways](/rest/api/power-bi/gateways/getgateways) çağrısı yapın.
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
             dataSourceName: "my sql datasource");
     ```
 
-5. [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) API’sini çağırın.
+5. [Create Datasource](/rest/api/power-bi/gateways/createdatasource) API’sini çağırın.
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu 
 
 ## <a name="credential-types"></a>Kimlik bilgisi türleri
 
-[Power BI Rest API'sini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak **kurumsal şirket içi ağ geçidinin** altında [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) veya [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
+[Power BI Rest API'sini](/rest/api/power-bi/) kullanarak **kurumsal şirket içi ağ geçidinin** altında [Create Datasource](/rest/api/power-bi/gateways/createdatasource) veya [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) çağrısı yaptığınızda, kimlik bilgileri değeri ağ geçidinin genel anahtarı kullanılarak şifrelenmelidir.
 
 >[!NOTE]
 >.NET SDK v3, aşağıda listelenen .NET SDK v2 örneklerini de çalıştırır.
@@ -233,6 +233,6 @@ Bu sorun, veri kümesinin bir ağ geçidine bağlı olmadığı anlamına gelir.
 
 Veri kümesini oluşturduktan sonra, veri kümesiyle tüm bağlantılar için eşleşen veri kaynaklarını içeren uygun bir ağ geçidi arasında otomatik bir bağlama oluşturulur. Bu tür bir ağ geçidi yoksa veya birden çok uygun ağ geçidi varsa otomatik bağlama başarısız olur.
 
-Şirket içi veri kümelerini kullanıyorsanız, eksik olan şirket içi veri kaynaklarını oluşturun ve [Bind To Gateway](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway) komutunu kullanarak veri kümesini bir ağ geçidine kendiniz bağlayın.
+Şirket içi veri kümelerini kullanıyorsanız, eksik olan şirket içi veri kaynaklarını oluşturun ve [Bind To Gateway](/rest/api/power-bi/datasets/bindtogateway) komutunu kullanarak veri kümesini bir ağ geçidine kendiniz bağlayın.
 
-Bağlanabilecek ağ geçitlerini bulmak için [Discover Gateways](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways) komutunu kullanın.
+Bağlanabilecek ağ geçitlerini bulmak için [Discover Gateways](/rest/api/power-bi/datasets/discovergateways) komutunu kullanın.

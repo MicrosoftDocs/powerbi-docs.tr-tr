@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23e71d08b344fc27edca26372b7781b9e0d3d6d1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238772"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749127"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded için Multi-Geo desteği
 
@@ -65,11 +65,11 @@ Bir kapasiteyi içeriğini yeniden atamadan silmeye karar vermeniz halinde kapas
 
 Multi-Geo kapasite yönetimi özelliklerini API aracılığıyla sunmak için var olan API'lerde bazı değişiklikler yaptık:
 
-1. **[Kapasiteleri Alma](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API, kullanıcının erişimi olan kapasitelerin bir listesini döndürür. Yanıta kapasitenin konumunu belirten ‘region’ (bölge) özelliği eklenmiştir.
+1. **[Kapasiteleri Alma](/rest/api/power-bi/capacities/getcapacities)** - API, kullanıcının erişimi olan kapasitelerin bir listesini döndürür. Yanıta kapasitenin konumunu belirten ‘region’ (bölge) özelliği eklenmiştir.
 
-2. **[Kapasiteye Atama](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API, belirli bir çalışma alanının bir kapasiteye atanmasına izin verir. Bu işlem çalışma alanlarını ana bölgenizin dışındaki bir kapasiteye atamanıza veya farklı bölgelerde bulunan kapasiteler arasında çalışma alanı taşıması gerçekleştirmenize izin vermez. Bu işlemi gerçekleştirmek için kullanıcının veya [hizmet sorumlusunun](embed-service-principal.md) yine çalışma alanında yönetici izinlerine ve hedef kapasitede yönetici veya atama izinlerine ihtiyacı vardır.
+2. **[Kapasiteye Atama](/rest/api/power-bi/capacities)** - API, belirli bir çalışma alanının bir kapasiteye atanmasına izin verir. Bu işlem çalışma alanlarını ana bölgenizin dışındaki bir kapasiteye atamanıza veya farklı bölgelerde bulunan kapasiteler arasında çalışma alanı taşıması gerçekleştirmenize izin vermez. Bu işlemi gerçekleştirmek için kullanıcının veya [hizmet sorumlusunun](embed-service-principal.md) yine çalışma alanında yönetici izinlerine ve hedef kapasitede yönetici veya atama izinlerine ihtiyacı vardır.
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - *Create* ve *Delete* dahil olmak üzere tüm Azure Resource Manager API işlemleri Multi-Geo'yu destekler.
+3. **[Azure Resource Manager API](/rest/api/power-bi-embedded/capacities)** - *Create* ve *Delete* dahil olmak üzere tüm Azure Resource Manager API işlemleri Multi-Geo'yu destekler.
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 

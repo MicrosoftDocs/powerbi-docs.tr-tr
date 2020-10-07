@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/05/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224199"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780100"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
@@ -46,45 +46,38 @@ Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki
 
 Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
-https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
-
-
-https://www.youtube.com/watch?v=gPGy18Yo0Go
-
-https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
-
 ### <a name="analytics"></a>Analiz
-* Akıllı anlatılar (önizleme) [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
-* Soru-Cevap şimdi aritmetik işlemleri destekliyor [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+* Akıllı anlatılar (önizleme) [[video]](https://youtu.be/gPGy18Yo0Go?t=51)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Soru-Cevap şimdi aritmetik işlemleri destekliyor [[video]](https://youtu.be/gPGy18Yo0Go?t=333)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
 
 ### <a name="reporting"></a>Raporlama
-* Ek grafiklere yönelik veri noktası dikdörtgen seçimi [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
-* Katman sırasını korumak için genel görsel seçeneği eklendi [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
-* Yayımlama sırasında çalışma alanı arama [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
-* Yığılmış görseller için toplam etiket sayısı [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
-* Mobil yazma geliştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+* Ek grafiklere yönelik veri noktası dikdörtgen seçimi [[video]](https://youtu.be/gPGy18Yo0Go?t=370)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* Katman sırasını korumak için genel görsel seçeneği eklendi [[video]](https://youtu.be/gPGy18Yo0Go?t=405)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* Yayımlama sırasında çalışma alanı arama [[video]](https://youtu.be/gPGy18Yo0Go?t=615)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* Yığılmış görseller için toplam etiket sayısı [[video]](https://youtu.be/gPGy18Yo0Go?t=630)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* Mobil yazma geliştirmeleri [[video]](https://youtu.be/gPGy18Yo0Go?t=786)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
 
 
 ### <a name="modeling"></a>Modelleme
-* Gelişmiş Veri Kümesi Meta Verileri genel kullanıma sunuldu [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200) [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
-* Para birimi veri türü sütunlarını içeren toplama ifadelerine yönelik performans iyileştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+* Gelişmiş Veri Kümesi Meta Verileri genel kullanıma sunuldu [[video]](https://youtu.be/gPGy18Yo0Go?t=1200) [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* Para birimi veri türü sütunlarını içeren toplama ifadelerine yönelik performans iyileştirmeleri [[video]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
 
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
-* Azure Databricks [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
-* MariaDB [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
-* Hexagon PPM Smart API [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
-* Diğer veri bağlantısı güncelleştirmeleri [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+* Azure Databricks [[video]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[video]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[video]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* Diğer veri bağlantısı güncelleştirmeleri [[video]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>Görsel Nesneler
-* Çeşitli sağlayıcılardan yeni görseller [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+* Çeşitli sağlayıcılardan yeni görseller [[video]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
 ### <a name="template-apps"></a>Şablon Uygulamaları
-* Çok kanallı öznitelik panosu[[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
-* Çalışma alanı analiz panosu [[video]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+* Çok kanallı öznitelik panosu[[video]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* Çalışma alanı analiz panosu [[video]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
 Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/).

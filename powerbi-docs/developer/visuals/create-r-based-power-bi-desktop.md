@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527781"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749334"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Öğretici: R destekli Power BI görselleri oluşturma
 
@@ -31,9 +31,9 @@ Bu öğreticide şunların nasıl yapıldığını öğreneceksiniz:
 ## <a name="prerequisites"></a>Ön koşullar
 
 * **Power BI Pro hesabı**. Başlamadan önce [ücretsiz deneme sürümüne kaydolun](https://powerbi.microsoft.com/pricing/).
-* R altyapısı. R'yi [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirebilirsiniz. Daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../../desktop-r-visuals.md).
+* R altyapısı. R'yi [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirebilirsiniz. Daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../../create-reports/desktop-r-visuals.md).
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* Windows kullanıcıları için [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
+* Windows kullanıcıları için [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
 
 ## <a name="getting-started"></a>Başlarken
 
@@ -283,6 +283,6 @@ Görselinizin son hali aşağıdaki örneğe benzer görünür:
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-R destekli görseller hakkında daha fazla bilgi edinmek için bkz. [Power BI’da R destekli Power BI görsellerini kullanma](../../desktop-r-powered-custom-visuals.md).
+R destekli görseller hakkında daha fazla bilgi edinmek için bkz. [Power BI’da R destekli Power BI görsellerini kullanma](../../create-reports/desktop-r-powered-custom-visuals.md).
 
-Power BI Desktop’ta R destekli görseller hakkında daha fazla bilgi edinmek için bkz. [R kullanarak Power BI görselleri oluşturma](../../desktop-r-visuals.md).
+Power BI Desktop’ta R destekli görseller hakkında daha fazla bilgi edinmek için bkz. [R kullanarak Power BI görselleri oluşturma](../../create-reports/desktop-r-visuals.md).
