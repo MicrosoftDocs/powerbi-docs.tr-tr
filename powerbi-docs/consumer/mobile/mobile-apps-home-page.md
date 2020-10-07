@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565181"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635321"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Mobil uygulama giriş sayfasında hızlı bir tur
 Bu turda Power BI mobil uygulamasının giriş sayfasıyla ve ihtiyacınız olana hızla ulaşmanız için size sağlanan gezinti yardımlarıyla tanışacaksınız.
@@ -52,7 +52,7 @@ Etkinlik öğeleri toplanmıştır; dolayısıyla aynı uygulama veya çalışma
 
 Sayfanın en altında gezinti çubuğunu bulursunuz.
 
-![Etkinlik akışı](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
+![Gezinti çubuğu](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
 
 Gezinti çubuğu şunlara hızlı erişim sağlar:
 

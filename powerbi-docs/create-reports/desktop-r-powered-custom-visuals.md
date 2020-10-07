@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229382"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634999"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI’da R destekli Power BI görsellerini kullanma
 
@@ -125,20 +125,25 @@ Power BI ekibi, siz henüz karşılaşmadan bu tür sorunları azaltmak için et
 
 3. R konsolunu kullanarak R paketlerini el ile yükleyin. Bu yaklaşıma ilişkin adımlar aşağıda açıklanmıştır:
 
-   a.  R tabanlı görselin yükleme betiğini indirin ve bu dosyayı yerel bir sürücüye kaydedin.
+   a. R tabanlı görselin yükleme betiğini indirin ve bu dosyayı yerel bir sürücüye kaydedin.
 
-   b.  R konsolunda aşağıdaki komutu çalıştırın:
+   b. R konsolunda aşağıdaki komutu çalıştırın:
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    Genellikle, varsayılan yükleme konumları şunlardır:
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. Önceki adımlar işe yaramazsa şunları deneyin:
 
    a. **R Studio**'yu kullanın ve yukarıdaki 3.b. maddesinde açıklanan adımı uygulayın. (Betik satırını R konsolunda çalıştırın.)

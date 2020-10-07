@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813635"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635229"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
@@ -68,10 +68,9 @@ Aşağıdaki tablo özelliklerin özetini, gereken kapasiteyi ve her birinin ger
 
 Bu tabloda özel bir uygulama, ekli analiz kullanılarak oluşturulan bir web uygulamasına başvurur. Geliştirici olarak özel web uygulamasına eklediğinizde (JavaScript veya .NET SDK’larını ya da REST API’leri kullanarak), UX’i denetleme ve özelleştirme olanağınız vardır. Power BI hizmeti ve Power BI Mobil gibi diğer ekleme seçeneklerini kullandığınızda bu olanak sağlanmaz.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**Senaryo**</br><p></p>|**Azure**</br>(A SKU’su)|**Office**</br>(P ve EM SKU’ları)|
+| Senaryo | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (A SKU’su) | (P ve EM SKU’ları) |
 |[Müşterileriniz için ekleme](embed-sample-for-customers.md)</br>(veriler uygulamaya aittir)     |✔        |✔        |
 |[Kuruluşunuz için ekleme](embed-sample-for-your-organization.md)</br>(veriler kullanıcıya aittir)     |✖        |✔         |
 |Microsoft 365 uygulamaları</br>(eski adı Office 365 uygulamaları)<ul><li>[Teams’de ekleme](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint’te ekleme](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

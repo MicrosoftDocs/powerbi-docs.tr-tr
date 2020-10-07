@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953019"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633550"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -44,7 +44,9 @@ Sıcaklıkların ve ölçülme Zamanlarının yer aldığı basit bir tabloyu el
 ## <a name="reference-lines-in-your-report"></a>Raporunuzdaki başvuru çizgisi
 Power BI Desktop’ta başvuru çizgisini tanımlamak için hesaplanmış bir sütun kullanabilirsiniz. Başvuru çizgisi oluşturmak için kullanmak istediğiniz tabloyu ve sütunu belirleyin. Şeritteki "Yeni Sütun" komutunu seçip formül çubuğuna aşağıdaki formülü yazın:
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 Bu hesaplanmış sütun, kullanıldığı yerden bağımsız olarak 100 değerini döndürür. Yeni sütun Alan Listesinde gösterilir. Hedef Değer hesaplanmış sütununu bir çizgi grafiğe ekleyerek dizinin belirli başvuru çizgisiyle olan ilişkisini gösterebilirsiniz. 
 
@@ -66,7 +68,9 @@ Veri alanlarında Veri Kategorisi belirlemek, alanlarda doğru coğrafi kodlaman
 ## <a name="better-geocoding-with-more-specific-locations"></a>Daha belirli konumlarla daha iyi coğrafi kodlama
 Bazen veri kategorilerinin ayarlanması bile harita oluşturma için yeterli olmaz. Power BI Desktop'taki Sorgu Düzenleyicisi'ni kullanarak açık adres gibi daha belirli bir konuma yer verebilirsiniz. Özel sütun oluşturmak için Sütun Ekle özelliğini kullanın. Ardından aşağıda belirtilen şekilde istediğiniz konumu oluşturun: 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 Ardından bu sonuç alanını harita görselleştirmelerinde kullanın. Bu durum özellikle veri kümelerinde sık kullanılan gönderim adresi alanlarından açık adresleri oluşturmak için kullanışlıdır. Bu kısaltma özelliğinin yalnızca metin alanlarında çalıştığını unutmayın. Gerekirse açık adresi adres oluşturmak üzere kullanmadan metin veri türüne dönüştürün.
 
@@ -77,11 +81,13 @@ En Basit Histogramlar: Histogram oluşturmak istediğiniz alanın hangi sorguda 
 
 Histogram oluşturmak için demet tanımlama: Histogram oluşturmak istediğiniz alanın hangi sorguda bulunduğunu belirleyin. Sorgunun yeni bir sorgu oluşturması için "Başvuru" seçeneğini kullanın ve yeni sorguyu "FieldName" olarak adlandırın. Ardından, demetleri bir kural ile tanımlayın. Sütun Ekle şeridindeki Özel Sütun Ekle seçeneğini kullanarak özel bir kural oluşturun. Basit bir demet oluşturma kuralı şuna benzeyebilir:
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 Elde edilecek olan toplama sütunu için, veri türünün bir sayı olduğundan emin olun. Artık, En Basit Histogram bölümünde açıklanan gruplandırma yöntemini kullanarak histogramı oluşturabilirsiniz. Bu seçenek daha fazla veri noktasıyla birlikte kullanılabilir ancak fırça kullanımına bunda da izin verilmez.
 

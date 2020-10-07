@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160384"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746137"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160384"
 * **.png**
     * .png dosyasına aktarırken, birden çok sayfalı bir rapor zip dosyasında sıkıştırılır
     * .zip dosyası içindeki her dosya bir rapor sayfasını temsil eder
-    * Sayfa adları, [Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API’lerinin dönüş değerleriyle aynı olur
+    * Sayfa adları, [Sayfaları Alma](/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](/rest/api/power-bi/reports/getpagesingroup) API’lerinin dönüş değerleriyle aynı olur
 
 ## <a name="usage-examples"></a>Kullanım örnekleri
 
@@ -38,17 +38,17 @@ API’yi kullanmadan önce aşağıdaki [yönetici kiracı ayarlarının](../../
 * **Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktarma** - Varsayılan olarak etkindir.
 * **Raporları resim dosyaları olarak dışarı aktarma** - Yalnızca *.png* için gereklidir ve varsayılan olarak devre dışı bırakılır.
 
-API zaman uyumsuzdur. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
+API zaman uyumsuzdur. [exportToFile](/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
 
 Yoklama sırasında API tamamlanan çalışma miktarını temsil eden bir sayı döndürür. Her dışarı aktarma işindeki çalışmalar, raporun sayfa sayısı temelinde hesaplanır. Tüm sayfaların ağırlığı aynıdır. Örneğin 10 sayfalık bir raporu dışarı aktarıyorsanız ve yoklamada 70 sayısı döndürülüyorsa, API dışarı aktarma işindeki 10 sayfadan yedisini işlemiştir.
 
-Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak için bir [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile)’si döndürür. URL 24 saat süreyle kullanılabilir.
+Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak için bir [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)’si döndürür. URL 24 saat süreyle kullanılabilir.
 
 ## <a name="supported-features"></a>Desteklenen özellikler
 
 ### <a name="selecting-which-pages-to-print"></a>Yazdırılacak sayfaları seçme
 
-[Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) dönüş değerine göre yazdırmak istediğiniz sayfaları belirtin. Ayrıca dışarı aktardığınız sayfaların sırasını da belirtebilirsiniz.
+[Sayfaları Alma](/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](/rest/api/power-bi/reports/getpagesingroup) dönüş değerine göre yazdırmak istediğiniz sayfaları belirtin. Ayrıca dışarı aktardığınız sayfaların sırasını da belirtebilirsiniz.
 
 ### <a name="bookmarks"></a>Yer imleri
 

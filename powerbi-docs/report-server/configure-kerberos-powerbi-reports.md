@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859187"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634976"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI raporlarını kullanmak için Kerberos'u yapılandırma
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ Kısıtlanmış temsil yapılandırması gerçekleştirmeniz gerekir. Kerberos, 
 ## <a name="error-running-report"></a>Rapor çalıştırırken oluşan hata
 Rapor sunucunuz doğru şekilde yapılandırılmamışsa aşağıdaki hatayla karşılaşabilirsiniz.
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 Teknik ayrıntılar bölümünde aşağıdaki iletiyi görürsünüz.
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Analysis Services sunucusuna bağlanmaya ilişkin sorunlarla ilgili hata iletisini gösteren Power BI Raporları’nın ekran görüntüsü.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Rapor sunucunuz bir etki alanı kullanıcı hesabını kullanacak şekilde yapı
 
 İki SPN oluşturmanız önerilir. Birinde NetBIOS adını, diğerinde de tam etki alanı adını (FQDN) kullanabilirsiniz. SPN aşağıdaki biçimde olacaktır.
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI Rapor Sunucusu HTTP Hizmeti kullanır. HTTP SPN'leri için bağlantı noktası belirtmeniz gerekmez. Burada ilgilendiğimiz hizmet HTTP'dir. SPN ana bilgisayarı URL'de kullandığınız ad olacaktır. Bu genellikle makine adıdır. Bir yük dengeleyicinin arkasındaysanız sanal makine adı da olabilir.
 
@@ -119,13 +125,17 @@ SPN eklemek için SetSPN aracını kullanabilirsiniz. Makine hesabı ve etki ala
 
 Hem FQDN hem de NetBIOS SPN için SPN'yi bir makine hesabına yerleştirdiğinizde contosoreports sanal URL'sini kullanıyormuşsunuz gibi bir sonuç elde edersiniz.
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 Hem FQDN hem de NetBIOS SPN için SPN'yi bir etki alanı kullanıcı hesabına yerleştirdiğinizde SPN ana bilgisayarının makine adını kullanıyormuşsunuz gibi bir sonuç elde edersiniz.
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Analysis Services hizmetine ilişkin SPN'ler
 Analysis Services hizmetine ilişkin SPN'ler, Power BI Rapor Sunucusu ile benzerdir. Adlandırılmış bir örneğiniz varsa SPN biçimi biraz farklı olacaktır.
@@ -146,13 +156,17 @@ SPN eklemek için SetSPN aracını kullanabilirsiniz. Bu örnekte makine adı Co
 
 Hem FQDN hem de NetBIOS SPN için SPN'yi bir makine hesabına yerleştirdiğinizde aşağıdaki gibi bir sonuç elde edersiniz.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 Hem FQDN hem de NetBIOS SPN için SPN'yi bir etki alanı kullanıcı hesabına yerleştirdiğinizde aşağıdaki gibi bir sonuç elde edersiniz.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SQL Browser hizmetine ilişkin SPN'ler
 Analysis Services adlandırılmış örneğiniz varsa Browser hizmeti için de bir SPN'ye sahip olduğunuzdan emin olun. Söz konusu SPN, Analysis Services için benzersizdir.
@@ -164,8 +178,10 @@ SQL Browser için MSOLAPDisco.3 hizmeti kullanmanız gerekir. SPN'deki bağlant�
 
 Örnek Analysis Services SPN'si aşağıda verilmiştir.
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 SPN yerleşimi de Power BI Rapor Sunucusu'ndaki ile benzerdir. Buradaki fark, SQL Browser hizmetinin her zaman Yerel Sistem hesabında çalışmasıdır. Bu da SPN'lerin her zaman makine hesabına yerleştirileceği anlamına gelir. 
 
@@ -174,8 +190,10 @@ SPN eklemek için SetSPN aracını kullanabilirsiniz. Bu örnekte makine adı Co
 
 Hem FQDN hem de NetBIOS SPN için SPN'yi makine hesabına yerleştirdiğinizde aşağıdaki gibi bir sonuç elde edersiniz.
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 Daha fazla bilgi için bkz. [SQL Server Browser hizmeti için bir SPN gereklidir](https://support.microsoft.com/kb/950599).
 

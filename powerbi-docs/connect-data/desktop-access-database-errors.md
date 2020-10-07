@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f27bfb97d175c962d6eaf281ac061fdc60765781
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225087"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634769"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop'ta Access ve Excel .xls dosyalarını içeri aktarma sorunlarını giderme
 
@@ -74,10 +74,12 @@ Access Veritabanı Altyapısının her iki bit sürümünü de yüklemek için a
 1. [İndirme sayfasından](https://www.microsoft.com/download/details.aspx?id=13255) Access Veritabanı Altyapısının her iki bit sürümünü de yükleyin. 
 
 1. Access Veritabanı Altyapısı'nın her bir sürümünü, */passive* anahtarını kullanarak çalıştırın. Örnek:
-   
-       c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
-   
-       c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+
+   ```console
+   c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
+
+   c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+   ```
 
 ## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>3\. Durum: Bir Microsoft 365 aboneliğiyle Access veya .XLS dosyaları kullanılırken sorun yaşanması
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857048"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632860"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -24,13 +24,12 @@ Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme v
 
 Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için iyileştirilmiştir ve bunlarla sınırlıdır. Premium kapasiteler ayrıca kapasitenizin kaynaklarını kullanabilen ek iş yüklerini de destekler. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. Belirtilen en yüksek değere kadar bellek, AI ve veri akışları için dinamik olarak ayrılır ancak sayfalandırılmış raporlar için statik olarak ayrılır.
 
-|                   | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
-|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
-| AI                | Desteklenmeyen               | %40 varsayılan; %40 en küçük  | %20 varsayılan; %20 en küçük  | %20 varsayılan; %8 en küçük  | %20 varsayılan; %4 en küçük  | %20 varsayılan; %2 en küçük   |
-| Veri kümeleri          | %100 varsayılan; %67 en küçük | %100 varsayılan; %40 en küçük | %100 varsayılan; %20 en küçük | %100 varsayılan; %8 en küçük | %100 varsayılan; %4 en küçük | %100 varsayılan; %2 en küçük  |
-| Veri akışları         | %40 varsayılan; %40 en küçük  | %24 varsayılan; %24 en küçük  | %20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük  | %20 varsayılan; %2 en küçük   |
-| Sayfalandırılmış raporlar | Desteklenmeyen               | Desteklenmeyen               | Desteklenmeyen               | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %2,5 en küçük |
-|                   |                           |                           |                           |                          |                          |                           |
+|                       | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
+|-----------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| **AI**                | Desteklenmeyen               | %40 varsayılan; %40 en küçük  | %20 varsayılan; %20 en küçük  | %20 varsayılan; %8 en küçük  | %20 varsayılan; %4 en küçük  | %20 varsayılan; %2 en küçük   |
+| **Veri kümeleri**          | %100 varsayılan; %67 en küçük | %100 varsayılan; %40 en küçük | %100 varsayılan; %20 en küçük | %100 varsayılan; %8 en küçük | %100 varsayılan; %4 en küçük | %100 varsayılan; %2 en küçük  |
+| **Veri akışları**         | %40 varsayılan; %40 en küçük  | %24 varsayılan; %24 en küçük  | %20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük  | %20 varsayılan; %2 en küçük   |
+| **Sayfalandırılmış raporlar** | Desteklenmeyen               | Desteklenmeyen               | Desteklenmeyen               | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %2,5 en küçük |
 
 ## <a name="workload-settings"></a>İş yükü ayarları
 
@@ -81,10 +80,9 @@ Bu ayarda belirttiğiniz boyuttan daha büyük bir veri kümeniz varsa, kullanı
 
 Sistemin performansını korumak için, yapılandırılan değerden bağımsız olarak en büyük çevrimdışı veri kümesi boyutuna ek SKU’ya özgü bir sabit tavan uygulanır. Bu sabit tavan, büyük veri boyutları için iyileştirilmiş Power BI veri kümelerine uygulanmaz. Daha fazla bilgi için bkz. [Power BI Premium'da büyük modeller](service-premium-large-models.md).
 
-|                                           | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
-|-------------------------------------------|----------|----------|----------|---------|---------|---------|
-| En Yüksek Çevrimdışı Veri Kümesi Boyutu için sabit tavan | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
-|                                           |          |          |          |         |         |         |
+|                                               | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |
+|-----------------------------------------------|----------|----------|----------|---------|---------|---------|
+| **En Yüksek Çevrimdışı Veri Kümesi Boyutu için sabit tavan** | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
 
 #### <a name="max-result-row-set-count"></a>En Büyük Sonuç Satır Kümesi Sayısı
 
@@ -104,10 +102,9 @@ Veri yenileme işlemlerinin de, veri kümesindeki veriler yenilendikten sonra pa
 
 Varsayılan ayar 0’dır ve bu, aşağıdaki SKU’ya özgü otomatik sorgu belleği sınırının uygulanmasına neden olur.
 
-|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
-|------------------------------|----------|----------|----------|---------|---------|---------|
-| Otomatik Sorgu Belleği Sınırı | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
-|                              |          |          |          |         |         |         |
+|                                  | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |
+|----------------------------------|----------|----------|----------|---------|---------|---------|
+| **Otomatik Sorgu Belleği Sınırı** | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 
 Sistemin performansını korumak için, kullanıcı tarafından yapılandırılan sorgu belleği sınırından bağımsız olarak, Power BI raporları tarafından yürütülen tüm sorgularda 10 GB’lık bir sabit tavan zorunlu tutulur. Bu sabit tavan Analysis Services protokolünü (XMLA olarak da bilinir) kullanan araçların gönderdiği sorgulara uygulanmaz. Bellek çok fazla bellek kullanıyorsa kullanıcıların sorguyu ve hesaplamalarını basitleştirmeyi göz önünde bulundurması gerekir.
 

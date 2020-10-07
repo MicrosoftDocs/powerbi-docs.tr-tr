@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301011"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633711"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -60,10 +60,10 @@ Kullanıcıların, eklenen raporu görüntülemek için Power BI Pro lisansına 
 
 Ekleme URL’sinin giriş ayarlarını kullanarak kullanıcı deneyimini özelleştirebilirsiniz. Sağlanan iFrame’de URL’nin **src** ayarlarını güncelleştirebilirsiniz.
 
-| Özellik  | Açıklama  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | **pageName** sorgu dizesi parametresini, hangi rapor sayfasının açılacağını ayarlamak için kullanabilirsiniz. Aşağıda gösterildiği gibi, bu değeri bir raporu Power BI hizmetinde görüntülerken rapor URL’sinin son kısmında bulabilirsiniz. |  |  |  |
-| URL Filtreleri  | Eklenen içeriği filtrelemek için Power BI kullanıcı arabirimden aldığınız ekleme URL'sinde [URL Filtreleri](service-url-filters.md) kullanabilirsiniz. Bu şekilde, yalnızca temel düzeyde bir HTML ve JavaScript deneyimiyle alt düzey kod tümleştirmeleri oluşturabilirsiniz.  |  |  |  |
+| Özellik  | Açıklama  |
+|-----------|--------------|
+| pageName  | **pageName** sorgu dizesi parametresini, hangi rapor sayfasının açılacağını ayarlamak için kullanabilirsiniz. Aşağıda gösterildiği gibi, bu değeri bir raporu Power BI hizmetinde görüntülerken rapor URL’sinin son kısmında bulabilirsiniz. |
+| URL Filtreleri  | Eklenen içeriği filtrelemek için Power BI kullanıcı arabirimden aldığınız ekleme URL'sinde [URL Filtreleri](service-url-filters.md) kullanabilirsiniz. Bu şekilde, yalnızca temel düzeyde bir HTML ve JavaScript deneyimiyle alt düzey kod tümleştirmeleri oluşturabilirsiniz.  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>Katıştırılmış bir rapor için hangi sayfanın açılacağını belirleyin 
 

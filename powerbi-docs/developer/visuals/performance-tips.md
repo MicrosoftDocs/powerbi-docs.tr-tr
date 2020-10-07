@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196572"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746091"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Yüksek performanslı Power BI görseli oluşturma
 Bu makalede, bir geliştiricinin görselleri işlerken yüksek performans elde edebilmesine yönelik teknikler ele alınır. 
@@ -104,7 +104,7 @@ JQuery’nin `show`, `hide`, `addClass` ve diğer işlevlerine yönelik alternat
 ### <a name="use-canvas-or-webgl"></a>Tuval veya WebGL kullanma 
 Animasyonların yinelenen kullanımı için SVG yerine **Tuval** veya **WebGL** kullanmayı tercih edin. Bu seçenekler sayesinde performans, SVG’nin aksine içerik yerine boyuta göre belirlenir. 
 
-[SVG ile Canvas Karşılaştırması: Seçim Yapma](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx) bölümünde farklar hakkında daha fazla bilgi edinebilirsiniz. 
+[SVG ile Canvas Karşılaştırması: Seçim Yapma](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)) bölümünde farklar hakkında daha fazla bilgi edinebilirsiniz. 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>setTimeout yerine requestAnimationFrame kullanma 
 Ekrandaki animasyonlarınızı güncelleştirmek için [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) kullanırsanız animasyon işlevleriniz tarayıcı başka bir yeniden çizim çağırmadan **önce** çağrılır.
@@ -113,4 +113,4 @@ Daha fazla bilgi için, `requestAnimationFrame` kullanarak düzgün animasyon el
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-[Power BI için iyileştirme kılavuzundaki](/power-bi/guidance/power-bi-optimization) iyileştirme teknikleri hakkında daha fazla bilgi edinin.
+[Power BI için iyileştirme kılavuzundaki](../../guidance/power-bi-optimization.md) iyileştirme teknikleri hakkında daha fazla bilgi edinin.
