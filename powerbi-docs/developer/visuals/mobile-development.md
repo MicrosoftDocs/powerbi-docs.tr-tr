@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196641"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747540"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma
 Mobil kullanımın Power BI’da önemli bir rolü vardır. Güçlü yönlerinden biri, verilerinize her yerde ve her zaman bağlı kalmasıdır.
 
 Bir geliştirici Power BI görselleri oluştururken, her mobil cihazın benzersiz kısıtlamaları, mümkün olduğunca çok kullanıcıya ulaşacak ve en iyi mobil deneyimi sunacak şekilde ele alınmalıdır.
 
-Hareket halindeki iş kullanıcılarınıza verilerinin kapsamlı bir görünümünü en kolay şekilde sunmak amacıyla [Windows, iOS ve Android için Power BI uygulamasını kullanın](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices).
+Hareket halindeki iş kullanıcılarınıza verilerinin kapsamlı bir görünümünü en kolay şekilde sunmak amacıyla [Windows, iOS ve Android için Power BI uygulamasını kullanın](../../consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 ## <a name="requirements"></a>Gereksinimler
 
@@ -63,7 +63,7 @@ Aşağıdakiler isteğe bağlı olarak kabul edilir ve daha iyi son kullanıcı 
   Aynı ayar, masaüstü tarayıcılardaki görsellere de uygulanabilir ve görseli daha küçük ekranlara sığdırmak için gerekirse geçersiz kılınabilir.
 
   > [!NOTE]
-  > **Odak** modundaki bir görseli iyileştirmek için hem yatay hem de dikey ekran boyutunu ele almak gerekir; bkz. [Odak modunda içerik görüntüleme](/power-bi/consumer/end-user-focus).
+  > **Odak** modundaki bir görseli iyileştirmek için hem yatay hem de dikey ekran boyutunu ele almak gerekir; bkz. [Odak modunda içerik görüntüleme](../../consumer/end-user-focus.md).
 
 - Etkileşimli
 
@@ -74,9 +74,9 @@ Aşağıdakiler isteğe bağlı olarak kabul edilir ve daha iyi son kullanıcı 
   Mobil cihazda işlenemiyorsa görselin açıklayıcı bir hata iletisi göstermesi gerekir.
 
 ## <a name="supported-browsers-and-devices"></a>Desteklenen tarayıcılar ve cihazlar
-Power BI görsellerinin Power BI Uygulamalarını destekleyen tüm cihazlarda işlenmesi gerekir, daha fazla bilgi için bkz. [Power BI için desteklenen tarayıcılar](/power-bi/power-bi-browsers) ve [Power BI mobil uygulamaları](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices).
+Power BI görsellerinin Power BI Uygulamalarını destekleyen tüm cihazlarda işlenmesi gerekir, daha fazla bilgi için bkz. [Power BI için desteklenen tarayıcılar](../../fundamentals/power-bi-browsers.md) ve [Power BI mobil uygulamaları](../../consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 Windows, iOS ve Android cihazların en son modelleriyle test edilirken, geliştiricilerin bu kalite boyutlarından her birini ele alması gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Kullanmaya başlamak için bkz. [Öğretici: Power BI görseli geliştirme](/power-bi/developer/visuals/custom-visual-develop-tutorial).
+Kullanmaya başlamak için bkz. [Öğretici: Power BI görseli geliştirme](./custom-visual-develop-tutorial.md).

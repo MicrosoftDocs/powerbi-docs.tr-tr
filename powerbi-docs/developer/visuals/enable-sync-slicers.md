@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5c364713ec7e0328e8278694985950266734c91d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238379"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748115"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI görsellerinde dilimleyicileri eşitleme
 
-[Dilimleyicileri Eşitleme](https://docs.microsoft.com/power-bi/desktop-slicers) özelliğini desteklemek için özel dilimleyici görselinizin API sürüm 1.13.0 veya üstünü kullanıyor olması gerekir.
+[Dilimleyicileri Eşitleme](../../visuals/power-bi-visualization-slicers.md) özelliğini desteklemek için özel dilimleyici görselinizin API sürüm 1.13.0 veya üstünü kullanıyor olması gerekir.
 
 Bunun yanı sıra, aşağıdaki kodda gösterildiği gibi bu seçeneği *capabilities.json* dosyasında da etkinleştirmelisiniz:
 

@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487856"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746229"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
@@ -43,7 +43,7 @@ Power BI içeriğini eklerken kullanılabilecek iki ana senaryo vardır:
  
 - Power BI lisansı gerektirmeden kullanıcılarınız ve müşterileriniz için ekleme. 
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)'si iki senaryo için de kullanılabilir.
+[Power BI REST API](/rest/api/power-bi/)'si iki senaryo için de kullanılabilir.
 
 Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve raporları özel uygulamanıza ekleyebilir, aynı API'yi kullanarak kuruluşunuza veya müşterilerinize sunabilirsiniz. Müşterileriniz uygulama tarafından yönetilen verileri görür. Ayrıca, kuruluşunuzdaki Power BI kullanıcıları da *verilerini* doğrudan Power BI'da veya eklenen uygulamanın bağlamında görüntülemeye ilişkin ek seçeneklere sahip olur. İçerik eklerken JavaScript ve REST API'lerinin tüm özelliklerini kullanabilirsiniz.
 
@@ -53,7 +53,7 @@ Power BI lisansı olmayan müşteriler ve kullanıcılar için panoları ve rapo
 
 **Embedding for your organization** seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bu tür eklemeler, uygulama kullanıcılarınızın içeriği görüntülemek için Power BI hizmetinde oturum açmasını gerektirir. Kuruluşunuzdaki bir kullanıcı oturum açtığında yalnızca sahip olduğu veya Power BI hizmetinde birisinin kendisiyle paylaştığı panolara ve raporlara erişebilir.
 
-Kuruluşunuz için içerik ekleme örnekleri arasında [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams tümleştirmesi (Yönetici haklarına sahip olmanız gerekir)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) ve [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) gibi şirket içi uygulamalar bulunur.
+Kuruluşunuz için içerik ekleme örnekleri arasında [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams tümleştirmesi (Yönetici haklarına sahip olmanız gerekir)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) ve [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) gibi şirket içi uygulamalar bulunur.
 
 Kuruluşunuz için eklemek istiyorsanız şu [Öğretici’ye göz atın: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md).
 

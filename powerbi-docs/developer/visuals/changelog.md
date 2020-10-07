@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878570"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748483"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI görselleri API’si değişiklik günlüğü
 Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen sürümlerin kararlı sürümler olduğu kabul edilir ve bu sürümler değişmeyecektir.
@@ -62,7 +62,7 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
 * `proto` özelliği artık dataView içinde gizli meta veriler/veriler depolamaz. Bu güncelleştirme sonucunda özelliklere `proto` aracılığıyla erişen görseller bozulabilir.
 
 ## <a name="api-v1130"></a>API v1.13.0
-* **[Dilimleyicileri Eşitleme](./enable-sync-slicers.md)** desteği sunar. Bu özelliğin PBI geçerli kod durumu nedeniyle yalnızca tek alanlı dilimleyicileri desteklediğini unutmayın. [Daha fazla bilgi edinin](/power-bi/desktop-slicers).
+* **[Dilimleyicileri Eşitleme](./enable-sync-slicers.md)** desteği sunar. Bu özelliğin PBI geçerli kod durumu nedeniyle yalnızca tek alanlı dilimleyicileri desteklediğini unutmayın. [Daha fazla bilgi edinin](../../visuals/power-bi-visualization-slicers.md).
 * Erişilebilirlik: [Yüksek karşıtlık desteği](./high-contrast-support.md) 
 * Erişilebilirlik: Klavye Odağı bayrağına izin ver
 

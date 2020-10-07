@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148926"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746275"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Öğretici: React tabanlı görsel oluşturma
 
@@ -36,7 +36,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 * **Power BI Pro hesabı**. Başlamadan önce [ücretsiz deneme sürümüne kaydolun](https://powerbi.microsoft.com/pricing/).
 * [Visual Studio Code](https://www.visualstudio.com/).
-* Windows kullanıcıları için [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
+* Windows kullanıcıları için [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
 * [Geliştirici ortamı ayarlama](custom-visual-develop-tutorial.md#setting-up-the-developer-environment) bölümünde açıklandığı gibi bir ortam.
 
 ## <a name="getting-started"></a>Kullanmaya başlama

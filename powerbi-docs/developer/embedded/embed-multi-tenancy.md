@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276019"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747770"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -28,7 +28,7 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 ## <a name="concepts-and-terminology"></a>Kavramlar ve terminoloji
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
+**[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
 **AAD uygulaması**: AAD'de bir uygulama kimliği. Kimlik doğrulaması için bir AAD uygulaması gereklidir.
 
@@ -131,17 +131,17 @@ Kiracının verilerini yönetmek için iki ana yaklaşım vardır.
 
 SaaS uygulaması depolama alanında her kiracı için ayrı veritabanı bulunduruluyorsa, doğal seçim Power BI'da tek kiracılı veri kümeleri kullanmak ve her veri kümesi için eşleşen veritabanına işaret eden bir bağlantı dizesi sağlamaktır.
 
-SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../transform-model/desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)[API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)'yi kullanabilirsiniz.
+SaaS uygulamasın depolama alanında tüm kiracılar için çok kiracılı bir veritabanı kullanılıyorsa, kiracıları çalışma alanına göre ayırmak kolay olur. Yalnızca ilgili kiracının verilerini alan parametre tabanlı bir veritabanı sorgusuyla, Power BI veri kümesi için veritabanı bağlantısını yapılandırabilirsiniz. Bağlantıyı güncelleştirmek için [Power BI Desktop](../../transform-model/desktop-query-overview.md)'ı veya sorgudaki [parametrelerle](/rest/api/power-bi/datasets/updatedatasourcesingroup)[API](/rest/api/power-bi/datasets/updateparametersingroup)'yi kullanabilirsiniz.
 
 ### <a name="data-isolation"></a>Veri yalıtımı
 
-Bu kiracı modelinde veriler çalışma alanı düzeyinde ayrılır. Çalışma alanıyla kiracı arasındaki basit bir eşleme, bir kiracıdaki kullanıcıların diğer kiracıdaki içeriği görmesini önler. Tek bir *ana* kullanıcı kullanmak için tüm farklı çalışma alanlarına erişiminizin olması gerekir. Son kullanıcının hangi verileri görüntüleyeceğini belirleyen yapılandırma, [ekleme belirtecini oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken) sırasında tanımlanır. Bu, son kullanıcının göremediği veya değiştiremediği yalnızca arka uçta çalışan bir işlemdir.
+Bu kiracı modelinde veriler çalışma alanı düzeyinde ayrılır. Çalışma alanıyla kiracı arasındaki basit bir eşleme, bir kiracıdaki kullanıcıların diğer kiracıdaki içeriği görmesini önler. Tek bir *ana* kullanıcı kullanmak için tüm farklı çalışma alanlarına erişiminizin olması gerekir. Son kullanıcının hangi verileri görüntüleyeceğini belirleyen yapılandırma, [ekleme belirtecini oluşturma](/rest/api/power-bi/embedtoken) sırasında tanımlanır. Bu, son kullanıcının göremediği veya değiştiremediği yalnızca arka uçta çalışan bir işlemdir.
 
 Daha fazla yalıtım eklemek için, uygulama geliştiricisi birden çok çalışma alanına erişimi olan tek bir *ana* kullanıcı veya uygulama yerine, her çalışma alanı için birer *ana* kullanıcı veya uygulama tanımlayabilir. Bu sayede, herhangi bir insan hatasının veya kimlik bilgileri sızıntısının birden çok müşterinin verilerinin ortaya çıkmasına neden olmayacağından emin olabilirsiniz.
 
 ### <a name="scalability"></a>Ölçeklenebilirlik
 
-Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, kullanılmayan veri kümelerini çıkararak etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur.
+Bu modelin avantajlarından biri, her kiracı için verileri birden çok veri kümesine ayırarak [tek veri kümesinin boyut sınırlarıyla](../../admin/service-premium-what-is.md) (şu anda kapasitede 10 GB) başa çıkabilmektir. Kapasite aşırı yüklendiğinde, kullanılmayan veri kümelerini çıkararak etkin veri kümeleri için belleği serbest bırakabilir. Tek bir büyük veri kümesinde bu görevi yerine getirmek mümkün değildir. Birden çok veri kümesi kullanıldığında, gerektiğinde kiracıları birden çok Power BI kapasitesine ayırmak da mümkün olur.
 
 Bu avantajlara rağmen, SaaS uygulamasının gelecekte ulaşabileceği ölçek göz önüne alınmalıdır. Örneğin, yönetilebilecek yapıt sayısıyla ilgili sınırlamalara ulaşılabilir. Daha fazla ayrıntı için bu makaledeki dağıtım [sınırlamalarına](#summary-comparison-of-the-different-approaches) bakın. Kullanılan kapasite SKU'su veri kümelerinin içine sığabilmesi gereken bellek boyutuna, aynı anda çalıştırılabilecek yenileme sayısına ve maksimum veri yenileme sıklığına sınır getirir. Yüzlerce veya binlerce veri kümesi yönetilirken, test edilmesi önerilir. Ortalama ve en yüksek kullanım hacimlerinin, ayrıca büyük veri kümeleri veya farklı kullanım desenleri olup diğer kiracılardan farklı yönetilen belirli kiracıların da göz önüne alınması önerilir.
 
@@ -155,7 +155,7 @@ Power BI çalışma alanı tabanlı yalıtımla, uygulama geliştiricisinin yüz
    * Belirli kiracıların planlanmamış özelleştirmeleri
    * Veri kümesi yenileme sıklığı
 
-Örneğin, yeni kiracı için çalışma alanı oluşturmak yaygın bir görevdir ve otomasyon gerektirir. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) ile [çalışma alanlarını oluştururken tam otomasyon](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) elde edebilirsiniz.
+Örneğin, yeni kiracı için çalışma alanı oluşturmak yaygın bir görevdir ve otomasyon gerektirir. [Power BI REST API](/rest/api/power-bi/) ile [çalışma alanlarını oluştururken tam otomasyon](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/) elde edebilirsiniz.
 
 ### <a name="multi-geo-needs"></a>Multi-Geo gereksinimleri
 
@@ -222,15 +222,15 @@ Son kullanıcılar raporları düzenler veya oluştururken üretimdeki çok kira
 > [!Important]
 > Aşağıdaki analizde, ürünün geçerli durumu temel alınmıştır. Her ay yeni özellikleri kullanıma sunarak, mevcut sınırlamaları ve zayıf noktaları gideren yeni beceriler ve özellikler sağlamaya devam ediyoruz. Yenilikleri görmek için aylık blog gönderilerimizi izlemeyi unutmayın ve yeni özelliklerin kiracı modeli önerilerini nasıl etkilediğini görmek için bu makaleyi yeniden gözden geçirin.
 
-| Değerlendirme Ölçütleri | Çalışma alanı tabanlı   | Satır düzeyi güvenlik tabanlı  |  |  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| Veri mimarisi  | Her kiracı için ayrı veri tabanı olduğunda en kolay  | Tüm kiracıların tüm verileri tek bir veri ambarında yer aldığında en kolay   |  |  |
-| Veri yalıtımı  | İyi. Her kullanıcının ayrılmış bir veri kümesi vardır.  | Orta. Tüm veriler aynı paylaşılan veri kümesinde yer alır ama erişim denetimi aracılığıyla yönetilir.  |  |  |
-| Ölçeklenebilirlik  | Orta. Verileri birden çok veri kümesine bölmek, en iyi duruma getirmeye olanak tanır.  | En düşük. Veri kümesi sınırlarıyla kısıtlanmıştır.  |  |  |
-| Multi-Geo gereksinimleri  | Kiracıların çoğu tek bir bölgede olduğunda uygun.  | Önerilmez. Birden çok bölgede depolanmış veri kümesinin tamamını korumayı gerektirir.  |  |  |
-| Otomasyon ve operasyonel karmaşıklık  | Tek tek kiracılar için iyi otomasyon.   Her ölçekte birçok yapıtın yönetimi karmaşık.  | Power BI yapıtlarının yönetimi kolay ama her ölçekte RLS yönetimi karmaşık.  |  |  |
-| Maliyet  | Düşük-orta. Kiracı başına maliyeti düşürmek için kullanımı en iyi duruma getirebilir.  Sık sık yenileme yapmak gerektiğinde maliyet artabilir.  | İçeri Aktarma modu kullanılıyorsa orta - yüksek.  Direct Query modu kullanılıyorsa düşük - orta.  |  |  |
-| İçerik özelleştirme ve yazma  | Uygun. Büyük ölçekte sınırları zorlayabilir.  | Yalnızca ekli iFrame'de içerik oluşturma  |  |  |
+| Değerlendirme Ölçütleri | Çalışma alanı tabanlı   | Satır düzeyi güvenlik tabanlı  |
+|---------------------|-------------------|---------------------------|
+| Veri mimarisi  | Her kiracı için ayrı veri tabanı olduğunda en kolay  | Tüm kiracıların tüm verileri tek bir veri ambarında yer aldığında en kolay   |
+| Veri yalıtımı  | İyi. Her kullanıcının ayrılmış bir veri kümesi vardır.  | Orta. Tüm veriler aynı paylaşılan veri kümesinde yer alır ama erişim denetimi aracılığıyla yönetilir.  |
+| Ölçeklenebilirlik  | Orta. Verileri birden çok veri kümesine bölmek, en iyi duruma getirmeye olanak tanır.  | En düşük. Veri kümesi sınırlarıyla kısıtlanmıştır.  |
+| Multi-Geo gereksinimleri  | Kiracıların çoğu tek bir bölgede olduğunda uygun.  | Önerilmez. Birden çok bölgede depolanmış veri kümesinin tamamını korumayı gerektirir.  |
+| Otomasyon ve operasyonel karmaşıklık  | Tek tek kiracılar için iyi otomasyon.   Her ölçekte birçok yapıtın yönetimi karmaşık.  | Power BI yapıtlarının yönetimi kolay ama her ölçekte RLS yönetimi karmaşık.  |
+| Maliyet  | Düşük-orta. Kiracı başına maliyeti düşürmek için kullanımı en iyi duruma getirebilir.  Sık sık yenileme yapmak gerektiğinde maliyet artabilir.  | İçeri Aktarma modu kullanılıyorsa orta - yüksek.  Direct Query modu kullanılıyorsa düşük - orta.  |
+| İçerik özelleştirme ve yazma  | Uygun. Büyük ölçekte sınırları zorlayabilir.  | Yalnızca ekli iFrame'de içerik oluşturma  |
 
 ## <a name="deployment-considerations-and-limitations"></a>Dağıtımla ilgili önemli noktalar ve sınırlamalar
 

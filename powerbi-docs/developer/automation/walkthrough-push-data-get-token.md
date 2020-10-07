@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: cb50e887b7821ed23a928c6eb28d0c8bb3a28cb1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213849"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746528"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
 
@@ -184,6 +184,6 @@ namespace walkthrough_push_data
 
 * Bu serinin sonraki makalesi [Power BI'da veri kümesi oluşturma](walkthrough-push-data-create-dataset.md) başlıklı makaledir
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API'leri](/rest/api/power-bi/)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

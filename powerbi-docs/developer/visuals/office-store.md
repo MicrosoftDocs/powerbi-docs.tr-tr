@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437227"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747977"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -35,7 +35,7 @@ Power BI görselinizi göndermeye hazır olduğunuzda görselinizin aşağıda l
 | --- | --- | --- |
 | Pbiviz paketi |Evet |Power BI görselinizi tüm gerekli meta verileri içeren bir Pbiviz paketine yerleştirin.<br>Görsel adı<br>Görünen ad<br>GUID<br>Sürüm<br>Açıklama<br>Yazarın adı ve e-posta adresi |
 | Örnek .pbix rapor dosyası |Evet |Görselinizi sergilemek için kullanıcıların görselle tanışmasına yardımcı olmanız gerekir. Görselin kullanıcıya sunduğu değeri vurgulayın, ayrıca kullanım ve biçimlendirme seçenekleriyle ilgili örnekler verin. En sona ekleyeceğiniz bir *"ipuçları"* sayfasına püf noktalarını ve kaçınılması gerekenleri girebilirsiniz.<br>Örnek .pbix rapor dosyası, dış bağlantı olmadan çevrimdışı çalıştırılmalıdır. |
-| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) boyutunda olmalıdır.<BR>**Önemli!** Simgeyi göndermeden önce [AppSource mağazası resim kılavuzunu](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) dikkatle gözden geçirin. |
+| Simge |Evet |Mağazada görünecek özel görsel logosunu eklemeniz gerekir. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Tam olarak 300 piksel (genişlik) x 300 piksel (yükseklik) boyutunda olmalıdır.<BR>**Önemli!** Simgeyi göndermeden önce [AppSource mağazası resim kılavuzunu](/office/dev/store/craft-effective-appsource-store-images) dikkatle gözden geçirin. |
 | Ekran görüntüleri |Evet |En az bir ekran görüntüsü ekleyin. Bu logo .png, .jpg, .jpeg veya .gif biçiminde olabilir. Boyutlar tam olarak 1366 piksel (genişlik) x 768 piksel (yükseklik) olmalıdır. Dosyanın boyutu 1024 KB'tan büyük olamaz.<br>Kullanım kolaylığı sağlamak için ekran görüntülerinde gösterilen önemli özellikleri vurgulayan metin kutuları ekleyin. |
 | Destek indirme bağlantısı |Evet |Müşterileriniz için destek URL'si sağlayın. Bu bağlantı, İş Ortağı Merkezi listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. URL'niz https:// veya https:// ile başlamalıdır. |
 | Gizlilik belgesi bağlantısı |Evet |Görselin gizlilik ilkesinin bağlantısını sağlayın. Bu bağlantı, İş Ortağı Merkezi listenizin bir parçası olarak girilir ve AppSource’ta görsellerinizin listesine eriştiklerinde kullanıcılar tarafından görülebilir. Bağlantınız https:// veya https:// ile başlamalıdır. |
@@ -71,14 +71,14 @@ Power BI ekibi yeni Power BI görsel gönderimleri, mevcut Power BI görsellerin
 
 ### <a name="submitting-to-partner-center"></a>İş Ortağı Merkezi'ne gönderme
 
-Power BI görselinizi İş Ortağı Merkezi'ne göndermek için İş Ortağı Merkezi'ne kaydolmanız gerekir. Henüz kaydolmadıysanız [İş Ortağı Merkezi'nde bir geliştirici hesabı açın](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
+Power BI görselinizi İş Ortağı Merkezi'ne göndermek için İş Ortağı Merkezi'ne kaydolmanız gerekir. Henüz kaydolmadıysanız [İş Ortağı Merkezi'nde bir geliştirici hesabı açın](/office/dev/store/open-a-developer-account).
 
 >[!NOTE]
 >**Bireysel yayıncılar**, şu yöntemlerden birini kullanarak Power BI görseli gönderebilir:
 >* Eski bir Satıcı Panosu hesabınız varsa bu hesabın kimlik bilgilerini kullanarak İş Ortağı Merkezi'nde oturum açabilirsiniz.
->* Eski bir Satıcı Panosu hesabınız yoksa ve İş Ortağı Merkezi'ne kaydolmadıysanız iş e-posta adresinizi kullanarak [İş Ortağı Merkezi'nde bir geliştirici hesabı açmanız](https://docs.microsoft.com/office/dev/store/open-a-developer-account) gerekir.
+>* Eski bir Satıcı Panosu hesabınız yoksa ve İş Ortağı Merkezi'ne kaydolmadıysanız iş e-posta adresinizi kullanarak [İş Ortağı Merkezi'nde bir geliştirici hesabı açmanız](/office/dev/store/open-a-developer-account) gerekir.
 
-Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki adımları izleyin. Gönderim işlemi hakkında daha fazla bilgi için bkz. [Office çözümünüzü İş Ortağı Merkezi üzerinden AppSource'a gönderme](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
+Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki adımları izleyin. Gönderim işlemi hakkında daha fazla bilgi için bkz. [Office çözümünüzü İş Ortağı Merkezi üzerinden AppSource'a gönderme](/office/dev/store/use-partner-center-to-submit-to-appsource).
 
 1. **İş Ortağı Merkezi**'nde oturum açın.
 
@@ -107,7 +107,7 @@ Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki ad�
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi
 
-[Doğrulama ilkelerini](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
+[Doğrulama ilkelerini](/legal/marketplace/certification-policies#1180-power-bi-visuals) inceleyebilirsiniz.
 
 * Uygulamayı gönderdikten sonra durumunu [uygulama panosu](https://sellerdashboard.microsoft.com/Application/Summary/) sayfasından görüntüleyebilirsiniz.
 

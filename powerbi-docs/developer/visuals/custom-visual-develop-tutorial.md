@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 3ff04b476cba281ef484fc6a1bfd73be94af563e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512943"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746666"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Öğretici: Power BI görseli geliştirme
 
@@ -38,7 +38,7 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 * **Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 * [Visual Studio Code](https://www.visualstudio.com/) uygulamasını yüklemiş olmanız gerekir.
-* Windows kullanıcıları için [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) gerekir.
+* Windows kullanıcıları için [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) gerekir.
 
 ## <a name="setting-up-the-developer-environment"></a>Geliştirici ortamını ayarlama
 

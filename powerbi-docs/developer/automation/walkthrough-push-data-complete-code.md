@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488304"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746505"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
 
@@ -230,7 +230,7 @@ Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrınt
 * [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
 * [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  
 * [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)  
-* [Power BI Rest API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI Rest API başvurusu](/rest/api/power-bi/)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

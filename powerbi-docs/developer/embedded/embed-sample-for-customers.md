@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092251"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746643"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -46,7 +46,7 @@ Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebi
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory'de (Azure AD) bir uygulamayı kaydetme
 
-Uygulamanızın [Power BI REST API'lerine](https://docs.microsoft.com/rest/api/power-bi/) erişmesini sağlamak için [uygulamanızı Azure Active Directory'ye kaydedin](register-app.md). Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve [Power BI REST kaynaklarıyla ilgili izinleri](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) belirleyebilirsiniz. Uygulama kaydına nasıl başlayacağınız, ana hesap mı yoksa [hizmet sorumlusu ](embed-service-principal.md) mu kullanmak istediğinize bağlıdır.
+Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesini sağlamak için [uygulamanızı Azure Active Directory'ye kaydedin](register-app.md). Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve [Power BI REST kaynaklarıyla ilgili izinleri](/azure/active-directory/develop/v2-permissions-and-consent) belirleyebilirsiniz. Uygulama kaydına nasıl başlayacağınız, ana hesap mı yoksa [hizmet sorumlusu ](embed-service-principal.md) mu kullanmak istediğinize bağlıdır.
 
 İzlediğiniz yöntem, Azure'a kaydettiğiniz uygulamanın türünü etkiler.
 
@@ -62,7 +62,7 @@ Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, ça
 
 ### <a name="create-and-publish-your-reports"></a>Raporlarınızı oluşturma ve yayımlama
 
-Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturabilir, ardından bu raporları çalışma alanında yayımlayabilirsiniz. Bu görevi gerçekleştirmenin iki yolu vardır: Son kullanıcı olarak, raporları bir ana hesapla (Power BI Pro lisansı) geleneksel çalışma alanına yayımlayabilirsiniz. Hizmet sorumlusu kullanıyorsanız, raporları [Power BI REST API'lerini](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) kullanarak yeni çalışma alanlarına yayımlayabilirsiniz.
+Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturabilir, ardından bu raporları çalışma alanında yayımlayabilirsiniz. Bu görevi gerçekleştirmenin iki yolu vardır: Son kullanıcı olarak, raporları bir ana hesapla (Power BI Pro lisansı) geleneksel çalışma alanına yayımlayabilirsiniz. Hizmet sorumlusu kullanıyorsanız, raporları [Power BI REST API'lerini](/rest/api/power-bi/imports/postimportingroup) kullanarak yeni çalışma alanlarına yayımlayabilirsiniz.
 
 Aşağıdaki adımlar PBIX raporunuzu Power BI çalışma alanınıza yayımlama işleminde yol gösterir.
 
@@ -224,11 +224,11 @@ Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) Authentic
 
 ## <a name="embed-content-within-your-application"></a>İçeriği uygulamanızın içine ekleme
 
-İçeriğinizi ekleme adımları [Power BI REST API’leri](https://docs.microsoft.com/rest/api/power-bi/) ile uygulanabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanır.
+İçeriğinizi ekleme adımları [Power BI REST API’leri](/rest/api/power-bi/) ile uygulanabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanır.
 
-Uygulamanıza müşterileriniz için içerik ekleme işlemi, **Azure AD**’den ana hesabınız veya [hizmet sorumlunuz](embed-service-principal.md) için bir **erişim belirteci** alınmasını gerektirir. [Power BI REST API’lerine](https://docs.microsoft.com/rest/api/power-bi/) çağrı yapmadan önce, Power BI uygulamanız için [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
+Uygulamanıza müşterileriniz için içerik ekleme işlemi, **Azure AD**’den ana hesabınız veya [hizmet sorumlunuz](embed-service-principal.md) için bir **erişim belirteci** alınmasını gerektirir. [Power BI REST API’lerine](/rest/api/power-bi/) çağrı yapmadan önce, Power BI uygulamanız için [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
 
-**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için, [Power BI REST API'leriyle](https://docs.microsoft.com/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnenizi oluşturmanız gerekir. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini ***Microsoft.Rest.TokenCredentials*** nesnesine sarmanız gerekir.
+**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için, [Power BI REST API'leriyle](/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnenizi oluşturmanız gerekir. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini ***Microsoft.Rest.TokenCredentials*** nesnesine sarmanız gerekir.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. İki 
 **Belirli bir öğe için ekleme belirteci oluşturmaya yönelik API'ler**
 
 Bu API’lerle oluşturulan ekleme belirteci, eklediğiniz öğeye özeldir. Bu API'lerle bir Power BI öğesi (rapor, pano veya kutucuk gibi) eklediğiniz her durumda öğe için yeni bir ekleme belirteci oluşturmanız gerekir.
-* [Panolar GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Veri kümeleri GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Raporlar GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Raporlar GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Kutucuklar GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Panolar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Veri kümeleri GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Raporlar GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Raporlar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Kutucuklar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 Bir rapor, pano veya kutucuk için ekleme belirteci oluşturma örnekleri, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içinde aşağıdaki dosyalarda bulunabilir.
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **Birden çok öğe için ekleme belirteci oluşturmaya yönelik API**<a id="multiEmbedToken"></a>
 
-[Belirteç Oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) ekleme API’si, birden çok öğeyi eklemek için kullanılabilecek bir belirteç oluşturur.
+[Belirteç Oluşturma](/rest/api/power-bi/embedtoken/generatetoken) ekleme API’si, birden çok öğeyi eklemek için kullanılabilecek bir belirteç oluşturur.
 
 Ayrıca, bir raporu eklerken veri kümesini dinamik olarak seçmek için kullanılabilir. API’nin bu kullanımı hakkında daha fazla bilgi için bkz. [dinamik bağlama](embed-dynamic-binding.md).
 
@@ -414,7 +414,7 @@ Adanmış kapasite oluşturduğunuzda, müşteriniz için özel olarak ayrılmı
 > [!NOTE]
 > A SKU’larla, ÜCRETSİZ Power BI lisansını kullanarak Power BI içeriğine erişemezsiniz.
 
-Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) tablosuna bakın.
+Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | DirectQuery/Canlı Bağlantı (saniyede) | Model Yenileme Paralelliği |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İ
 
 Geliştirme testi için Pro lisansıyla ekleme deneme belirteçlerini kullanabilirsiniz. Üretim ortamında ekleme yapmak için ayrılmış kapasite kullanın.
 
-Bir Power BI hizmet sorumlusunun veya ana hesabının oluşturabileceği ekleme deneme belirteci sayısı sınırlıdır. Geçerli ekleme kullanım yüzdenizi kontrol etmek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API'sini kullanın. Hizmet sorumlusu veya ana hesap başına kullanım miktarı görüntülenir.
+Bir Power BI hizmet sorumlusunun veya ana hesabının oluşturabileceği ekleme deneme belirteci sayısı sınırlıdır. Geçerli ekleme kullanım yüzdenizi kontrol etmek için [Kullanılabilir Özellikler](/rest/api/power-bi/availablefeatures/getavailablefeatures) API'sini kullanın. Hizmet sorumlusu veya ana hesap başına kullanım miktarı görüntülenir.
 
 Test sırasında ekleme belirteçleriniz tükenirse Power BI Embedded veya Premium [kapasitesi](embedded-capacity.md) satın almanız gerekir. Ayrılmış kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
 
@@ -441,7 +441,7 @@ Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış ka
 
 Eklenen içerikle (veri kümeleri, raporlar ve panolar dahil) ilgili Power BI kaynaklarını içeren tüm çalışma alanları ayrılmış kapasitelere atanmalıdır. Örneğin eklenen rapor ve ona bağlı olan veri kümesi farklı çalışma alanlarında bulunuyorsa, her iki çalışma alanı da ayrılmış kapasitelere atanmalıdır.
 
-[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
+[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
 
 **Ana hesap** kullanarak çalışma alanına adanmış kapasite atamak için aşağıdaki adımları izleyin.
 

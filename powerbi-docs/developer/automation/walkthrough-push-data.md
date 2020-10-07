@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488212"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746712"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI veri kümelerine veri gönderme
 
@@ -33,14 +33,14 @@ Sonraki bölümde, veri gönderilmesini sağlayan Power BI API işlemleri genel 
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Veri göndermeye yönelik için Power BI API işlemleri
 
-Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama veri kümesine satır eklediğinde, pano kutucukları yeni verilerle otomatik olarak güncelleştirilir. Verileri göndermek için [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) ve [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemlerini kullanın. Bir veri kümesini bulmak için [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini kullanın. Bu işlemlerden herhangi birinde bir grupla çalışmak için grup kimliği geçirebilirsiniz. Grup kimliği listesini almak için [Get Groups](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) işlemini kullanın.
+Power BI REST API'siyle Power BI'a veri kaynakları gönderebilirsiniz. Bir uygulama veri kümesine satır eklediğinde, pano kutucukları yeni verilerle otomatik olarak güncelleştirilir. Verileri göndermek için [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) ve [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) işlemlerini kullanın. Bir veri kümesini bulmak için [Veri Kümelerini Al](/rest/api/power-bi/datasets/getdatasets) işlemini kullanın. Bu işlemlerden herhangi birinde bir grupla çalışmak için grup kimliği geçirebilirsiniz. Grup kimliği listesini almak için [Get Groups](/rest/api/power-bi/groups/getgroups) işlemini kullanın.
 
 Bir veri kümesine veri göndermeye yönelik işlemler şunlardır:
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [Get Datasets (Veri Kümelerini Al)](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [Post Rows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [Grupları Al](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Get Datasets (Veri Kümelerini Al)](/rest/api/power-bi/datasets/getdatasets)
+* [Post Rows](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Grupları Al](/rest/api/power-bi/groups/getgroups)
 
 Bir JavaScript Nesne Gösterimi (JSON) dizesini Power BI hizmetine geçirerek veri kümesi oluşturabilirsiniz. JSON hakkında daha fazla bilgi edinmek için bkz. [Introducing JSON (JSON'a giriş)](https://json.org/).
 
@@ -48,54 +48,58 @@ Bir veri kümesi için JSON dizesi aşağıdaki biçimdedir:
 
 **Power BI Veri Kümesi JSON nesnesi**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Sales Marketing veri kümesi örneğimizde, aşağıda gösterildiği gibi bir JSON dizesi geçirebilirsiniz. Bu örnekte veri kümesinin adı **SalesMarketing** ve tablonun adı **Product**'tır. Tabloyu tanımladıktan sonra tablo şemasını tanımlarsınız. **SalesMarketing** veri kümesi için, tablo şemasının şu sütunları vardır: ProductID, Manufacturer, Category, Segment, Product ve IsCompete.
 
 **Örnek veri kümesi nesnesi JSON**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Bir Power BI tablo şeması için aşağıdaki veri türlerini kullanabilirsiniz.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145103"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746206"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -51,7 +51,7 @@ Bir ISV (tipik olarak büyük), kuruluşunda uygulamaya eklemenin yanı sıra ö
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Kaç tane ekleme belirteci oluşturabilirim?
 
-PRO lisansına sahip ekleme belirteçleri geliştirme testlerine yöneliktir. Bu nedenle, bir Power BI ana hesabı veya [hizmet sorumlusu](embed-service-principal.md) sınırlı sayıda belirteç oluşturabilir. Üretim ortamında ekleme yapmak için [kapasite satın alın](#technical). Kapasiteyi satın aldıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikler](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) bölümüne gidin.
+PRO lisansına sahip ekleme belirteçleri geliştirme testlerine yöneliktir. Bu nedenle, bir Power BI ana hesabı veya [hizmet sorumlusu](embed-service-principal.md) sınırlı sayıda belirteç oluşturabilir. Üretim ortamında ekleme yapmak için [kapasite satın alın](#technical). Kapasiteyi satın aldıktan sonra, oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur. Geçerli eklenmiş kullanımı yüzde cinsinden gösteren kullanım değerini denetlemek için [Kullanılabilir Özellikler](/rest/api/power-bi/availablefeatures) bölümüne gidin.
 
 ## <a name="technical"></a>Teknik
 
@@ -69,7 +69,7 @@ PRO lisansına sahip ekleme belirteçleri geliştirme testlerine yöneliktir. Bu
 
 * [Power BI Yönetim portalını](../../admin/service-admin-portal.md#power-bi-embedded) kullanarak.
 
-* Power BI’daki [ölçüm uygulamasını](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) indirerek.
+* Power BI’daki [ölçüm uygulamasını](../../admin/service-admin-premium-monitor-capacity.md) indirerek.
 
 * [Azure tanılama günlüğüne kaydetmeyi](azure-pbie-diag-logs.md) kullanarak.
 
@@ -79,7 +79,7 @@ PRO lisansına sahip ekleme belirteçleri geliştirme testlerine yöneliktir. Bu
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Kapasite oluşturma/ölçeklendirme/serbest bırakma işlemi neden kapasitenin askıya alınma durumuna geçmesine neden oluyor?
 
-Kapasite sağlama (ölçeklendirme/serbert bırakma/oluşturma) işlemi başarısız olabilir. Kapasitenin ProvisioningState değerini denetlemek için Ayrıntıları Alma API'sini kullanabilirsiniz: [Kapasiteler - Ayrıntıları Alma](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Kapasite sağlama (ölçeklendirme/serbert bırakma/oluşturma) işlemi başarısız olabilir. Kapasitenin ProvisioningState değerini denetlemek için Ayrıntıları Alma API'sini kullanabilirsiniz: [Kapasiteler - Ayrıntıları Alma](/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Yalnızca belirli bir bölgede mi Power BI Embedded kapasiteleri oluşturabilirim?
 
@@ -89,7 +89,7 @@ Kapasite sağlama (ölçeklendirme/serbert bırakma/oluşturma) işlemi başarı
 
 Kullanıcıya çalışma alanı, uygulama veya yapıt üzerinde izinler verildiğinde, API çağrıları üzerinden hemen kullanılabilir olmayabilir.
 Sonuçta 'GET' API yanıtında bir yapıt eksik olabilir veya yapıtı kullanmaya çalışıldığında hata alınabilir.
-Kullanıcı [refreshUserPermissions API'sini](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) çağırarak bu sorunu çözebilir ve bu API kullanıcı izinlerini güncelleştirir.
+Kullanıcı [refreshUserPermissions API'sini](/rest/api/power-bi/users/refreshuserpermissions) çağırarak bu sorunu çözebilir ve bu API kullanıcı izinlerini güncelleştirir.
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>PBI kiracı bölgemi nasıl bulabilirim?
@@ -114,8 +114,8 @@ Power BI için kuruluş hesabıyla kaydolmanız gerekir. Microsoft hesabı kulla
 
 Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Powershell cmdlet'leri ve Azure Resource Manager REST API'leri vardır.
 
-* [Rest API'leri](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [PowerShell cmdlet'leri](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [Rest API'leri](/rest/api/power-bi-embedded/) 
+* [PowerShell cmdlet'leri](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
 
@@ -145,7 +145,7 @@ Power BI Embedded, ana kullanıcının (belirlenmiş Power BI Pro lisanslı kull
 
 Zaten bir Azure AD kiracınız varsa mevcut dizininizi kullanabilirsiniz. Ayrıca tümleşik uygulamanızın içerik güvenliği için yeni bir Azure AD kiracısı da oluşturabilirsiniz.
 
-Bir AAD belirteci almak için [Azure Active Directory Kimlik Doğrulama Kitaplıkları](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)'ndan birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
+Bir AAD belirteci almak için [Azure Active Directory Kimlik Doğrulama Kitaplıkları](/azure/active-directory/develop/active-directory-authentication-libraries)'ndan birini kullanabilirsiniz. Birden fazla platformda kullanılabilen istemci kitaplıkları vardır.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Uygulamam zaten Kullanıcı Kimlik Doğrulaması için AAD kullanır. "Verilerin Kullanıcıya Ait" olduğu bir senaryoda Power BI'da kimlik doğrulaması yaparken bu Kimliği nasıl kullanabiliriz?
 
@@ -194,7 +194,7 @@ Diğer ayrıntılar için bkz. [RLS ve JavaScript filtreleri](embedded-row-level
 
 Hizmet sorumluları tüm Power BI kiracı ayarları için izinleri kendi güvenlik grubundan devralır. İzinleri kısıtlamak için hizmet sorumlularına ayrılmış bir güvenlik grubu oluşturun ve bu grubu ilgili, etkin Power BI ayarlarının **Belirli güvenlik grupları hariç** listesine ekleyin.
 
-Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak eklediğinizde önemlidir. Bu görevi [API'ler](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
+Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak eklediğinizde önemlidir. Bu görevi [API'ler](/rest/api/power-bi/groups/addgroupuser) aracılığıyla veya Power BI hizmetiyle yönetebilirsiniz.
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Uygulama kimliği ve hizmet sorumlusu nesne kimliği ne zaman kullanılır?
 
@@ -283,7 +283,7 @@ Kâr amacı gütmeyen ve eğitim kuruluşları için özel Azure fiyatlandırmas
     > [!Note]
     > Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu**’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
 
-Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded'e geçirme](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) bölümüne başvurun.
+Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded'e geçirme](./migrate-from-powerbi-embedded.md) bölümüne başvurun.
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI Çalışma Alanı Koleksiyonu'nun kullanımdan kaldırılması planlanıyor mu?
 
@@ -327,11 +327,11 @@ Güneydoğu Avustralya, Güney Brezilya, Orta Kanada, Doğu ABD 2, Doğu Japonya
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Kayıtlı uygulamamı nasıl düzenleyebilirim?
 
-Azure AD'ye kayıtlı uygulamaları düzenlemeyi öğrenmek için bkz. [Hızlı başlangıç: Azure Active Directory’de uygulamayı güncelleştirme](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
+Azure AD'ye kayıtlı uygulamaları düzenlemeyi öğrenmek için bkz. [Hızlı başlangıç: Azure Active Directory’de uygulamayı güncelleştirme](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Power BI kullanıcı profilimi veya verilerimi nasıl düzenleyebilirim?
 
-Power BI verilerinizi düzenleme hakkında bilgiyi [burada](https://docs.microsoft.com/power-bi/service-basic-concepts) bulabilirsiniz.
+Power BI verilerinizi düzenleme hakkında bilgiyi [burada](../../fundamentals/service-basic-concepts.md) bulabilirsiniz.
 
 Daha fazla bilgi için bkz. [Ekli uygulamanızın sorunlarını giderme](embedded-troubleshoot.md).
 

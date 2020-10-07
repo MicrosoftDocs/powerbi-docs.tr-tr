@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402037"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747586"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Öğretici: Ulusal bulutlar için Power BI içeriğini uygulamanıza ekleme
 
 Ulusal bulut için iş süreci uygulamalarınıza analiz içeriğinin nasıl ekleneceğini öğrenin. Web uygulamalarınıza bir raporu, panoyu veya kutucuğu eklemek için Power BI JavaScript API’si ile Power BI .NET SDK’sını kullanabilirsiniz.
 
-Power BI [ulusal bulutları](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud) da destekler.
+Power BI [ulusal bulutları](/azure/active-directory/develop/authentication-national-cloud) da destekler.
 
 Farklı ulusal bulutlar şunlardır:
 
@@ -43,7 +43,7 @@ Bu adım adım kılavuza başlamak için **Power BI hesabınız** olması gereki
 > [!NOTE]
 > Bunun yerine kuruluşunuz için bir pano eklemek mi istiyorsunuz? Bkz. [Kuruluşunuz için bir panoyu uygulamayla tümleştirme](embed-sample-for-your-organization.md).
 
-Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** API'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu ekleme belirteciyle yükleyebilirsiniz. **Power BI API'si** belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), Power BI .NET SDK’sı ve [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
+Bir panoyu web uygulamasıyla tümleştirmek için **Power BI** API'sini ve Azure Active Directory (AD) yetkilendirme **erişim belirtecini** kullanarak panoya ulaşmanız gerekir. Ardından panoyu ekleme belirteciyle yükleyebilirsiniz. **Power BI API'si** belirli **Power BI** kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API](/rest/api/power-bi/), Power BI .NET SDK’sı ve [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Örneği indirme
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
 
-JavaScript API’sini kullanarak bir ekleme belirteci oluşturabilirsiniz. Ekleme belirteci, eklediğiniz öğeye özeldir. Eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerekir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [Ekleme Belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+JavaScript API’sini kullanarak bir ekleme belirteci oluşturabilirsiniz. Ekleme belirteci, eklediğiniz öğeye özeldir. Eklediğiniz her Power BI içeriği için yeni bir ekleme belirteci oluşturmanız gerekir. Kullanılacak **accessLevel** dahil olmak üzere daha fazla bilgi için bkz. [Ekleme Belirteci](/rest/api/power-bi/embedtoken).
 
 > [!IMPORTANT]
-> Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
+> Ekleme belirteçleri yalnızca geliştirici testlerine yönelik olduğundan, bir Power BI ana hesabının oluşturabileceği ekleme belirteçlerinin sayısı sınırlıdır. Üretim ekleme senaryoları için [kapasite satın alınmalıdır](./embedded-faq.md#technical). Kapasite satın alındıktan sonra, ekleme belirteci oluşturmayla ilgili bir sınır yoktur.
 
 [Kuruluşunuz için ekleme örneğinin](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)**Controllers\HomeController.cs** dosyasında bir örnek mevcuttur.
 
@@ -440,7 +440,7 @@ Bir uygulama örneği [Kuruluşunuz için ekleme örneği](https://github.com/mi
 
 * JavaScript API’si hakkında daha fazla bilgi için [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) bölümüne bakın.
 
-* Almanya için Power BI bulutu hakkında daha fazla bilgi için [Almanya için Power BI bulutu ile ilgili SSS](https://docs.microsoft.com/power-bi/service-govde-faq) bölümüne bakın.
+* Almanya için Power BI bulutu hakkında daha fazla bilgi için [Almanya için Power BI bulutu ile ilgili SSS](../../admin/service-govde-faq.md) bölümüne bakın.
 
 * [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI’a geçirme](migrate-from-powerbi-embedded.md)
 

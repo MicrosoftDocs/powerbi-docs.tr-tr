@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355042"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748391"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5\. Adım: Bir Power BI tablosuna satır ekleme
 
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
-Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle kullanacaksınız. 
+Bir veri kümesine veri göndermenin **4. Adım**'ı olan [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md) bölümünde, [Veri Kümelerini Al](/rest/api/power-bi/datasets/getdatasets) işlemini ve Newtonsoft.Json dosyasını kullanarak bir veri kümesi kimliği aldınız. Bu adımda, **Power BI** veri kümesine satırlar eklemek için veri kümesi kimliğini [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) işlemiyle kullanacaksınız. 
 
-[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) işlemini çağırdığınızda, bir veri kümesine satırlar eklersiniz.
+[PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) işlemini çağırdığınızda, bir veri kümesine satırlar eklersiniz.
 
 ![satır ekleme](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ Bu kodu Program.cs'ye ekleyin.
     #endregion
 ```
 
-[Tam kod listesi](#code) aşağıdadır.
-
-<a name="code"/>
+Tam kod listesi aşağıdadır.
 
 ## <a name="complete-code-listing"></a>Tam kod listesi
 
@@ -315,5 +313,5 @@ Yukarıdaki kodda **_//İlk kimliği alın_** belirtimini eklemiş olsak da, en 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI Panolarına veri gönderme](walkthrough-push-data.md)  
 [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
-[Power BI REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API başvurusu](/rest/api/power-bi/)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 5f4067e77631f22951844c0d4d64b06e5e2e30cc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: de9fd241959b679a0da7926cd6b2254689afbfd2
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079589"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747287"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Power BI REST API sınırlamaları  
   
@@ -32,5 +32,5 @@ ms.locfileid: "79079589"
   
 ## <a name="see-also"></a>Ayıca bkz.
 
-* [Azure AD hizmet sınırlamaları ve kısıtlamaları](https://docs.microsoft.com/azure/active-directory/active-directory-service-limits-restrictions)   
-* [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](https://docs.microsoft.com/rest/api/power-bi/)
+* [Azure AD hizmet sınırlamaları ve kısıtlamaları](/azure/active-directory/active-directory-service-limits-restrictions)   
+* [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](/rest/api/power-bi/)

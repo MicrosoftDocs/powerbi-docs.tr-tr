@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 08/12/2020
-ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204914"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748576"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Power BI görselinizi başkalarının bulması ve kullanması amacıyla Microsoft AppSource’ta [yayımlamadan](office-store.md) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun.
@@ -28,7 +28,7 @@ Market’te ücretsiz olan Power BI görselleri gönderebilirsiniz (Microsoft Ap
 
 IAP Power BI görseli, *ücretsiz özelliklere* sahip *ücretsiz* bir görseldir. Ek ücret gerektiren gelişmiş özelliklere de sahip olabilir. Geliştiricilerin, Power BI görselinin açıklamasında çalıştırmak için ek satın almalar gereken özellikleri kullanıcılara bildirmesi gerekir. Şu anda Microsoft, uygulama içinde ve eklentilerde satın almayı desteklemek için yerel API'ler sağlamamaktadır.
 
-Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Daha fazla bilgi için [mağaza ilkemize](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads) bakın.
+Geliştiriciler söz konusu satın almalarda üçüncü taraf bir ödeme sistemi kullanabilir. Daha fazla bilgi için [mağaza ilkemize](/legal/marketplace/certification-policies#11002-displaying-ads) bakın.
 
 
 >[!IMPORTANT]  

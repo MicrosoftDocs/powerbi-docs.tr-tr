@@ -8,11 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299584"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746689"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
 
@@ -52,7 +53,7 @@ Aynı filtre, yer işareti ve dilimleyicilerle rapor eklerseniz, performansı ar
 Aynı iframe’e birden fazla rapor eklerken her rapor için yeni bir iframe oluşturmayın. Bunun yerine, yeni raporu eklemek için farklı bir yapılandırmaya sahip olan `powerbi.embed(element, config)` kullanın.
 
 > [!NOTE]
-> Müşterileriniz için içerik eklerken raporlar arasında geçiş yapma işlemi (“uygulama verilere sahiptir” senaryosu olarak da bilinir), tüm raporlara ve veri kümelerine yönelik izinler içeren ekli bir belirtecin kullanılmasını gerektirir. Daha fazla bilgi için bkz. [belirteç API’si oluşturma](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken).
+> Müşterileriniz için içerik eklerken raporlar arasında geçiş yapma işlemi (“uygulama verilere sahiptir” senaryosu olarak da bilinir), tüm raporlara ve veri kümelerine yönelik izinler içeren ekli bir belirtecin kullanılmasını gerektirir. Daha fazla bilgi için bkz. [belirteç API’si oluşturma](/rest/api/power-bi/embedtoken/generatetoken).
 
 ## <a name="query-caching"></a>Sorgu önbelleğe alma
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236927"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748667"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 
@@ -29,7 +29,7 @@ Kullanıcılarınızda uygulamaların otomatik yüklenmesine izin vermek için, 
 
 ![İçerik oluşturan uygulamayı kaydetme](media/embed-auto-install-app/register-app-create-content.png)
 
-Ardından ekleme URL'sinde uygulama kimliğini sağlamalısınız. Uygulama kimliğini sağlamak için, uygulama oluşturucunun önce uygulamayı yüklemesi ve ardından desteklenen [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) çağrılarından ([Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) veya [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) birini kullanması gerekir. Sonra uygulama oluşturucu REST API yanıtından ekleme Url'sini almalıdır. İçerik bir uygulamadan geliyorsa uygulama kimliği URL'de gösterilir.  Ekleme URL'sini aldıktan sonra bunu kullanarak düzenli aralıklarla ekleyebilirsiniz.
+Ardından ekleme URL'sinde uygulama kimliğini sağlamalısınız. Uygulama kimliğini sağlamak için, uygulama oluşturucunun önce uygulamayı yüklemesi ve ardından desteklenen [Power BI Rest API](/rest/api/power-bi/) çağrılarından ([Get Reports](/rest/api/power-bi/reports/getreports) veya [Get Dashboards](/rest/api/power-bi/dashboards/getdashboards)) birini kullanması gerekir. Sonra uygulama oluşturucu REST API yanıtından ekleme Url'sini almalıdır. İçerik bir uygulamadan geliyorsa uygulama kimliği URL'de gösterilir.  Ekleme URL'sini aldıktan sonra bunu kullanarak düzenli aralıklarla ekleyebilirsiniz.
 
 ## <a name="secure-embed"></a>Güvenli Ekleme
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355065"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746620"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 
-Bu makalede Power BI uygulamalarınızda kullanıcıların kimliğini doğrulama ve [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) ile kullanmak üzere bir erişim belirteci alma işlemleri gösterilir.
+Bu makalede Power BI uygulamalarınızda kullanıcıların kimliğini doğrulama ve [Power BI REST API](/rest/api/power-bi/) ile kullanmak üzere bir erişim belirteci alma işlemleri gösterilir.
 
-Uygulamanız REST API çağrısı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** almanız gerekir. Uygulamanız Power BI panolarına, kutucuklarına ve raporlarına erişmek için bir belirteç kullanır. Daha fazla bilgi edinmek için bkz. [OAuth 2.0 kod verme akışı kullanılarak Azure Active Directory web uygulamalarına erişimi yetkilendirme](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Uygulamanız REST API çağrısı yapmadan önce Azure Active Directory (Azure AD) **kimlik doğrulama erişim belirteci** almanız gerekir. Uygulamanız Power BI panolarına, kutucuklarına ve raporlarına erişmek için bir belirteç kullanır. Daha fazla bilgi edinmek için bkz. [OAuth 2.0 kod verme akışı kullanılarak Azure Active Directory web uygulamalarına erişimi yetkilendirme](/azure/active-directory/develop/v1-protocols-oauth-code).
 
 Erişim belirtecini alma yöntemi, içeriği ekleme şeklinize bağlı olarak değişiklik gösterir. Bu makalede iki farklı yaklaşım gösterilir.
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 Sorgu dizesi oluşturduktan sonra **Azure AD**'ye yönlendirerek **yetkilendirme kodu** alabilirsiniz.  Aşağıda **yetkilendirme kodu** sorgu dizesi oluşturmak ve **Azure AD**'ye yönlendirmek için kullanabileceğiniz tam kapsamlı bir C# yöntemi verilmiştir. Ardından **yetkilendirme kodunu** kullanarak bir **erişim belirteci** alırsınız.
 
-Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) çağrısı yaparak belirteç oluşturulur.
+Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) çağrısı yaparak belirteç oluşturulur.
 
 #### <a name="get-authorization-code"></a>Yetkilendirme kodunu alma
 

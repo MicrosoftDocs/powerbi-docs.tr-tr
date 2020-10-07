@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145124"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746758"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI tümleşik analizinde kapasite planlaması
 
@@ -42,7 +42,7 @@ Aracı çalıştırırken kapasitelerinizdeki mevcut yükü göz önünde bulund
 Burada planlama aracını nasıl kullanabileceğinizi gösteren bazı örnekler verilmiştir.
 
 * Kapasite yöneticileri belirli bir zaman çerçevesinde kapasitelerinin kaç kullanıcıyı kaldırabileceğini daha iyi anlayabilir.
-* Rapor yazarları Power BI Desktop’ın [Performans Çözümleyicisi](https://docs.microsoft.com/power-bi/desktop-performance-analyzer) ile ölçülen kullanıcı yükünün etkisini anlayabilir.
+* Rapor yazarları Power BI Desktop’ın [Performans Çözümleyicisi](../../create-reports/desktop-performance-analyzer.md) ile ölçülen kullanıcı yükünün etkisini anlayabilir.
 * İşlemelerin tarayıcınızda gerçek zamanlı olarak yapıldığını görebilirsiniz.
 * SQL Server Profiler’ı kullanarak, ölçülen kapasitelerin [XMLA uç noktalarına bağlanabilir](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) ve yürütülen sorguları görebilirsiniz.
 * Yük testinin etkileri premium kapasite ölçümler uygulamasının Veri Kümeleri sayfasında görülebilir. Kapasite yöneticileri bu aracı kullanarak yük oluşturabilir ve bu yükün nasıl göründüğüne bakabilir.

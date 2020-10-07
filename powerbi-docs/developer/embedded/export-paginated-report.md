@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556900"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748184"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
 
@@ -38,9 +38,9 @@ Dışarı aktarma özelliği çeşitli yollarla kullanabilirsiniz. Aşağıda bi
 
 ## <a name="using-the-api"></a>API'yi kullanma
 
-API zaman uyumsuzdur. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
+API zaman uyumsuzdur. [exportToFile](/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
 
-Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak için bir [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile)’si döndürür. URL 24 saat süreyle kullanılabilir.
+Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak için bir [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)’si döndürür. URL 24 saat süreyle kullanılabilir.
 
 ## <a name="supported-features"></a>Desteklenen özellikler
 
