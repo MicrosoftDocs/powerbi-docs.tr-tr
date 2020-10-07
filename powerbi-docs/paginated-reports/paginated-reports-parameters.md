@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526364"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600503"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 
@@ -62,11 +62,6 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
 9. **Tamam**’ı seçin. 
 
-## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-
-- Veri kaynağınız olarak Power BI veri kümesini veya Analysis Services modelini kullanıyorsanız, tek istekte 1.000'den fazla parametre değeri geçiremezsiniz. DAX, 1.000 parametre üst sınırına sahiptir. 
-
- 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Parametrelerin Power BI hizmetinde nasıl göründüğünü görmek için bkz. [Sayfalandırılmış raporlar için parametreleri görüntüleme](../consumer/paginated-reports-view-parameters.md).

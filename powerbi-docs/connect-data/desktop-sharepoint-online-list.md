@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222674"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598649"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint Listesinde rapor oluşturma
 
@@ -30,7 +30,7 @@ Bu beş dakikalık öğretici videoyu izleyin veya adım adım yönergeler için
 2. Power BI Desktop’ı açın ve şeridin Giriş sekmesinde **Verileri Al** > **Daha fazla**’yı seçin.
 3. **Çevrimiçi Hizmetler**’i seçin ve ardından **SharePoint Online Listesi**’ni seçin.  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. **Bağlan**'ı seçin.
 4. Listenizi içeren SharePoint Online sitenizin adresini (URL olarak da bilinir) bulun.  SharePoint Online’daki bir sayfadan, gezinti bölmesinde **Giriş**’i veya en üstteki sitenin simgesini seçerek site adresini alabilir ve ardından adresi web tarayıcınızın adres çubuğundan kopyalayabilirsiniz.
@@ -52,7 +52,7 @@ Bu beş dakikalık öğretici videoyu izleyin veya adım adım yönergeler için
 
 9. Gezginin sol tarafında, bağlanmak istediğiniz SharePoint listesinin yanındaki onay kutusunu seçin.
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. **Yükle**’yi seçin.  Power BI, liste verilerinizi yeni bir rapora yükler.
 

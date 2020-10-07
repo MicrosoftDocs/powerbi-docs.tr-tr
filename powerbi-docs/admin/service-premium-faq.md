@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 10049517ff1d9313838f72270c34091e2a0d3f73
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854725"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599123"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 

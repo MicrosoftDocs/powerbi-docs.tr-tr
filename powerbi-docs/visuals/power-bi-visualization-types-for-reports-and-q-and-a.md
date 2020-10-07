@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e3b5687a9e955da53d816ab7297456b9721fab4
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524915"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600522"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -113,7 +113,7 @@ Daha fazla bilgi için bkz. [Harita görselleri için ipuçları ve püf noktala
 ### <a name="maps-arcgis-maps"></a>Haritalar: ArcGIS haritaları
 ![ArcGIS haritası](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualization-arcgis.md).
+Daha fazla bilgi için bkz. [Power BI'daki ArcGIS’lar](power-bi-visualizations-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Haritalar: Kartogramlar (Koroplet)
 ![kartogram](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)

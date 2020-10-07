@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859693"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632515"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
 
@@ -41,30 +41,30 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
 
 1. Rapor Verileri bölmesindeki araç çubuğunda **Yeni** > **Veri Kaynağı**’nı seçin. **Veri Kaynağı Özellikleri** iletişim kutusu açılır.
 
-    ![Yeni Veri Kaynağı](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
+   ![Yeni Veri Kaynağı](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
-2.  **Ad** metin kutusuna veri kaynağı için bir ad girin ya da varsayılan adı kabul edin.  
+1. **Ad** metin kutusuna veri kaynağı için bir ad girin ya da varsayılan adı kabul edin.  
   
-3.  **Raporuma katıştırılmış bağlantı kullan**’ı seçin.  
+1. **Raporuma katıştırılmış bağlantı kullan**’ı seçin.  
   
-1.  **Bağlantı türünü seçin** listesinden bir veri kaynağı türü seçin. 
+1. **Bağlantı türünü seçin** listesinden bir veri kaynağı türü seçin. 
 
-1.  Aşağıdaki yöntemlerden birini kullanarak bir bağlantı dizesi belirtin:  
+1. Aşağıdaki yöntemlerden birini kullanarak bir bağlantı dizesi belirtin:  
   
-    -   Bağlantı dizesini doğrudan **Bağlantı dizesi** metin kutusuna yazın. 
+   - Bağlantı dizesini doğrudan **Bağlantı dizesi** metin kutusuna yazın. 
   
-     -   2\. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
+   - 2\. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
   
-        **Bağlantı Özellikleri** iletişim kutusundaki alanları veri kaynağı türüne uygun şekilde doldurun. Bağlantı özellikleri; veri kaynağı türünü, veri kaynağının adını ve kullanılacak kimlik bilgilerini içerir. Bu iletişim kutusunda değerleri belirttikten sonra, veri kaynağının kullanılabilir olduğunu doğrulamak ve belirttiğiniz kimlik bilgilerinin doğruluğunu onaylamak için **Bağlantıyı Sına**’yı seçin.  
+     **Bağlantı Özellikleri** iletişim kutusundaki alanları veri kaynağı türüne uygun şekilde doldurun. Bağlantı özellikleri; veri kaynağı türünü, veri kaynağının adını ve kullanılacak kimlik bilgilerini içerir. Bu iletişim kutusunda değerleri belirttikten sonra, veri kaynağının kullanılabilir olduğunu doğrulamak ve belirttiğiniz kimlik bilgilerinin doğruluğunu onaylamak için **Bağlantıyı Sına**’yı seçin.  
   
-4.  **Kimlik Bilgileri**’ni seçin.  
+1. **Kimlik Bilgileri**’ni seçin.  
   
-     Bu veri kaynağı için kullanılacak kimlik bilgilerini belirtin. Veri kaynağının sahibi, desteklenen kimlik bilgilerinin türünü seçer. Daha fazla bilgi için bkz. [Rapor Veri Kaynakları için Kimlik Bilgisi ve Bağlantı Bilgilerini Belirtme](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
+   Bu veri kaynağı için kullanılacak kimlik bilgilerini belirtin. Veri kaynağının sahibi, desteklenen kimlik bilgilerinin türünü seçer. Daha fazla bilgi için bkz. [Rapor Veri Kaynakları için Kimlik Bilgisi ve Bağlantı Bilgilerini Belirtme](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
-5.  **Tamam**’ı seçin.  
+1. **Tamam**’ı seçin.  
   
-     Veri kaynağı, Rapor Verileri bölmesinde görünür.  
-     
+   Veri kaynağı, Rapor Verileri bölmesinde görünür.
+
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve Önemli Noktalar
 
 Power BI veri kümelerine bağlanan sayfalandırılmış raporlar, birkaç küçük değişiklikle birlikte Power BI’da paylaşılan veri kümelerindeki kuralları izler.  Kullanıcıların, Power BI veri kümelerini kullanarak sayfalandırılmış raporları düzgün bir şekilde görüntüleyebilmesini ve satır düzeyinde güvenliğin (RLS) etkinleştirilip tüm görüntüleyiciler için zorlanmasını sağlamak için şu kurallara uyduğunuzdan emin olun:

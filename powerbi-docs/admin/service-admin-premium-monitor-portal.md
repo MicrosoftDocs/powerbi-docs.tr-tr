@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fee1c7d0ff71b683a9f74b416e51e4515f6295ca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3948cca3a7e274c22ac1ea5cc80773edd0d5e451
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228035"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599786"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Yönetim portalında kapasiteleri izleme
 

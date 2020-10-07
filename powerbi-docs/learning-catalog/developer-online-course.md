@@ -9,11 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467045"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527896"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Bir Gündeki Power BI Geliştiricisi kursu
 
@@ -84,7 +85,7 @@ Laboratuvarları tamamlayabilmeniz için bir Windows bilgisayarına (Windows 7 v
 
 - [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)’ın en son sürümü.
 - Visual Studio 2015 veya üzeri. [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) önerilir. Öğrenme senaryoları için ücretsiz ve uygun olan **Topluluk** sürümünü kullanabilirsiniz. **ASP.NET ve web geliştirme** iş yükünün yüklü olması gerekir.
-- [Power BI tarafından desteklenen](../power-bi-browsers.md) bir web tarayıcısı. Microsoft Edge’i öneririz.
+- [Power BI tarafından desteklenen](../fundamentals/power-bi-browsers.md) bir web tarayıcısı. Microsoft Edge’i öneririz.
 
 Kuruluma başlamak için bu adımları izleyin:
 
@@ -105,7 +106,7 @@ Ayıklandıktan sonra **PowerBIDevIAD** klasörünüz olur ve bu klasörün içi
 İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf**dosyasını açın. Bu belge Power BI hizmetinde oturum açmak ve bir Power BI raporu hazırlamanız için size yol gösterir.
 
 > [!NOTE]
-> Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../service-self-service-signup-for-power-bi.md).
+> Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Hesabınızın bir Power BI Pro lisansı olması gerekir veya yalnızca bir kez kabul edilebilen bir teklif olan Power BI Pro Deneme Sürümü lisansını kabul edebilirsiniz. Ayrıca, hesabınızın Power BI Pro lisansıyla kullanılabilen ücretsiz eklenmiş belirteçlerin rezervasyonunu tamamen tüketmemiş olması gerekir.
 >
