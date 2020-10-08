@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238510"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600319"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop’ta rapor sayfalarına dayalı olarak araç ipuçları oluşturma
 **Power BI Desktop**’ta oluşturduğunuz rapor sayfalarına bağlı olarak, görsellerin üzerine geldiğinizde görünen, görsel olarak zengin **rapor araç ipuçları** oluşturabilirsiniz. Araç ipucunuz olarak kullanılan bir rapor sayfası oluşturduğunuzda özel araç ipuçlarınız görselleri, resimleri ve rapor sayfasında oluşturduğunuz diğer öğe koleksiyonlarından herhangi birini içerebilir. 
@@ -46,7 +46,7 @@ Ayrıca rapor sayfasını, amacı belirgin olacak şekilde de adlandırabilirsin
 
 Buradan, araç ipucunuzda görünmesini istediğiniz görseli oluşturabilirsiniz. Aşağıdaki resimde, araç ipucu sayfasında iki kart ve bir kümelenmiş çubuk grafiğin yanı sıra sayfaya istediğimiz görünümü kazandırabilmemiz için sayfanın kendisine yönelik bir arka plan rengi ve görsellerin her birine yönelik arka planlar bulunur.
 
-![Power BI Desktop için rapor araç ipuçları](media/desktop-tooltips/desktop-tooltips_06.png)
+![Ekran görüntüsü özelleştirilmiş bir rapor araç ipucunu gösterir.](media/desktop-tooltips/desktop-tooltips_06.png)
 
 Araç ipucu rapor sayfanız bir araç ipucu olarak çalışmaya hazır hale gelmeden önce tamamlanması gereken başka adımlar vardır. Sonraki bölümde açıklandığı gibi araç ipucu sayfasını birkaç şekilde yapılandırmanız gerekir. 
 

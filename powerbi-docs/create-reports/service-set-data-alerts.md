@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218735"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635091"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI hizmetinde veri uyarıları
 
@@ -46,7 +46,7 @@ Bu örnekte Perakende Analizi örneği panosu kullanılmıştır. Örneği takip
 
 1. Başlamak için **+ Uyarı kuralı ekle**'yi seçin kaydırıcının **Etkin** kaydırıcısının **Açık** konumda olduğundan emin olun ve uyarınıza bir ad verin. Başlıklar, uyarılarınızı kolayca ayırt etmenizi sağlar.
 
-   ![Uyarıları yönetme penceresi](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Ekran görüntüsü Uyarı kuralı ekleme, Toplam Mağaza Sayısına Yönelik Uyarılar ve Uyarı başlığının vurgulandığı Uyarıları yönet penceresini gösterir.](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. Sayfayı aşağı kaydırıp uyarıyla ilgili ayrıntıları girin.  Bu örnekte toplam mağaza sayısı 100'ün üzerine çıktığında size günde bir kez bilgilendiren bir uyarı oluşturacaksınız.
 
@@ -93,7 +93,7 @@ Uyarılarınızı yönetmenin birçok yolu vardır:
 
     Power BI, ilgili kutucuk için ayarladığınız tüm uyarıları gösterir.
 
-    ![Uyarıları yönetme penceresi](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![Ekran görüntüsü Uyarıları yönet penceresini gösterir.](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. Bir uyarıyı değiştirmek için adının sol tarafındaki oku seçin.
 

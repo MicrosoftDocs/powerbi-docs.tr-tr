@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040236"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600457"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI için yenileme özetleri
 
@@ -53,11 +53,11 @@ Dışarı aktarılan dosyadaki bilgilerle, yenileme örneği için kaydedilmiş 
 
 Yenileme özetlerinde **Zamanlama**’ya tıklayarak **Zamanlama** görünümünü seçebilirsiniz. Zamanlama görünümü, haftanın zamanlama bilgilerini 30 dakikalık zaman aralıklarına bölünmüş olarak görüntüler. 
 
-![Zamanlama görünümü](media/refresh-summaries/refresh-summaries-02a.jpg)
+![Ekran görüntüsü, Zamanlamayı yenile sayfasındaki zamanlama sekmesini yakından gösterir.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 Zamanlama görünümü, tüm yenilemelerin çakışmadan tamamlanmasını sağlamak için zamanlanmış yenileme olaylarının düzgün aralıklı ayarlanıp ayarlanmadığını veya fazla uzun süren ve kaynak çekişmesi oluşturabilecek yenileme olayları zamanlayıp zamanlamadığınızı saptama açısından çok yararlıdır. Bu tür bir kaynak çekişmesi bulursanız, zamanlanmış yenilemelerinizin başarıyla tamamlanabilmesi için yenileme zamanlamalarınızı çakışmaları veya örtüşmeleri önleyecek şekilde ayarlamalısınız. 
 
-![Zamanlama görünümü](media/refresh-summaries/refresh-summaries-02.jpg)
+![Ekran görüntüsü, Zamanlamayı yenile sayfasındaki zamanlama sekmesini gösterir.](media/refresh-summaries/refresh-summaries-02.jpg)
 
 *Ayrılmış yenileme süresi (dakika)* sütunu her ilişkili veri kümesi için en çok 60 kaydın ortalamasının hesaplamasıdır. Her 30 dakikalık zaman aralığının sayısal değeri, söz konusu zaman aralığında başlayacak şekilde zamanlanmış tüm yenilemeler **ve** *önceki* zaman aralığında başlayacak şekilde zamanlanmış ama ortalama süresi seçilmiş olan zaman aralığına taşan yenilemeler için hesaplanan dakika sayısının toplamıdır.
 
@@ -67,7 +67,7 @@ Bir zaman aralığı seçebilir ve sonra da bununla ilişkili **ayrıntılar** d
 
 Nasıl çalıştığını görmek için şimdi bir örneği gözden geçirelim. Pazar günü 8:30 PM zaman aralığını seçtiğinizde aşağıdaki iletişim kutusu görüntülenir. **Ayrıntılar**’a tıklayın.
 
-![Zamanlama görünümü](media/refresh-summaries/refresh-summaries-04.jpg)
+![Ekran görüntüsü, seçili süreye yönelik zamanlamaların ayrıntılarını gösterir.](media/refresh-summaries/refresh-summaries-04.jpg)
 
 Bu zaman aralığında gerçekleşen üç zamanlanmış yenileme olayı var. 
 
