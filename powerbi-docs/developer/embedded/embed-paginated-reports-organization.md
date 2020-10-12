@@ -1,6 +1,6 @@
 ---
 title: Uygulamanıza kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
-description: Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğrenin.
+description: Bu öğreticide Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğreneceksiniz.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878738"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747632"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Öğretici: Uygulamaya kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
 
 **Power BI**’da *kullanıcı verilere sahiptir* senaryosunu kullanarak bir uygulamaya kuruluşunuz için sayfalandırılmış raporlar ekleyebilirsiniz.
 
 Sayfalandırılmış raporlar, yüksek kaliteli yazdırma için tasarlanmış raporlardır. Bu raporlar genellikle, yazdırılan sayfalara sığacak şekilde işlenmiş çok sayıda veri içerir.
-Power BI’ın sayfalandırılmış raporları nasıl desteklediğini anlamak için bkz. [Power BI Premium’daki sayfalandırılmış raporlar nelerdir?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+Power BI’ın sayfalandırılmış raporları nasıl desteklediğini anlamak için bkz. [Power BI Premium’daki sayfalandırılmış raporlar nelerdir?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 **Verilerin sahibi kullanıcıdır** yapısı, tümleşik analizi kullanmak için uygulamanızın Power BI hizmetinin kapsamını genişletebilmesini sağlar. Bu öğreticide, sayfalandırılmış raporun bir uygulamayla nasıl tümleştirileceği gösterilmektedir.
 

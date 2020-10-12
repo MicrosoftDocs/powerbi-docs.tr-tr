@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856197"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668563"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -57,7 +57,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
     ![Power BI’ın bağlantıları iç tarayıcıyla açmasına olanak verdiğini gösteren iletişim kutusunun ekran görüntüsü.](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Bağlantıyı Power BI uygulamasında açıktan sonra kopyalayıp bir tarayıcı penceresinde de açabilirsiniz.
-7. Kutucuğun temel aldığı [raporu açın](mobile-reports-in-the-mobile-apps.md) ![Raporu aç simgesi](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
+7. Kutucuğun temel aldığı [raporu açın](mobile-reports-in-the-mobile-apps.md) ![iOS için Raporu aç simgesi](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
 8. Odak modundan çıkmak için kutucuğun adına dokunduktan sonra panonun adına veya **Çalışma Alanım**'a dokunabilirsiniz.
    
     ![Çalışma Alanım ve Fırsat Analizi Örneği’ne bakan işaretçileri gösteren bir panonun ekran görüntüsü.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
    * Görselleştirmenin belirli bir noktasındaki değerleri görüntülemek üzere çizgi, çubuk, sütun veya kabarcık türündeki bir grafikte bulunan çubuğu hareket ettirmek için grafiğe dokunabilirsiniz.  
    * [Kutucuğa not eklemek](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için Kalem simgesine ![Kalem simgesi](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) ve ardından bunu başkalarıyla [paylaşmak](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) için Anlık görüntüyü paylaş simgesine ![Anlık görüntüyü paylaş simgesi](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) dokunun.
-   * Raporu aç simgesine ![Raporu aç simgesi](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) dokunarak mobil uygulamada [raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
+   * Raporu aç simgesine ![Android için Raporu aç simgesi](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) dokunun. Bunu yaptığınızda mobil uygulamada [raporu görüntüleyebilirsiniz](mobile-reports-in-the-mobile-apps.md).
 3. Bazen panoyu oluşturan kişi kutucuğa bağlantı ekleyebilir. Bu durumda dikey üç nokta simgesine ( **...** ) dokunduğunuzda **Bağlantıyı aç** ![Bağlantı simgesi](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) seçeneğini görürsünüz:
    
     ![Bağlantıyı Aç seçeneğini işaret eden dikey üç noktayı gösteren bir panonun ekran görüntüsü.](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

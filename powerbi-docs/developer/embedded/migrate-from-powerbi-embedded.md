@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221058"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749058"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 
@@ -48,7 +48,7 @@ Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine g
    * Uygulamanız için ayrı bir kiracı mı kullanacaksınız?
    * Her müşteri için ayrı bir kiracı mı kullanacaksınız?
 
-     Uygulamanız veya her müşteri için yeni bir kiracı oluşturmaya karar verirseniz [Azure Active Directory kiracısı oluşturma](create-an-azure-active-directory-tenant.md) veya [Azure Active Directory kiracısı edinme](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant) konularına bakın.
+     Uygulamanız veya her müşteri için yeni bir kiracı oluşturmaya karar verirseniz [Azure Active Directory kiracısı oluşturma](create-an-azure-active-directory-tenant.md) veya [Azure Active Directory kiracısı edinme](/azure/active-directory/develop/active-directory-howto-tenant) konularına bakın.
 2. Bu yeni kiracıda oluşturduğunuz kullanıcı, uygulamanızın "ana" hesabı olur. Bu hesabın Power BI'a kaydolması ve kendisine atanmış bir Power BI Pro lisansı olması gerekir.
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD içindeki hesaplar
@@ -58,7 +58,7 @@ Aşağıdaki hesapların kiracınızda bulunması gerekir.
 > [!NOTE]
 > Bu hesapların çalışma alanlarını kullanabilmesi için Power BI Pro lisansına sahip olması gerekir.
 
-1. Kiracı yöneticisi rolüne sahip bir kullanıcı.
+1. Power BI yöneticisi.
 
     Bu kullanıcının eklemek üzere oluşturulan tüm çalışma alanlarına üye olması önerilir.
 
@@ -168,7 +168,7 @@ Power BI Çalışma Alanı Koleksiyonu hizmetinden geçirdiğiniz içeriğe ek o
 ## <a name="rebuild-your-application"></a>Uygulamanızı yeniden oluşturma
 
 1. Uygulamanızı Power BI REST API'lerini ve powerbi.com içindeki rapor konumunu kullanacak şekilde değiştirmeniz gerekir.
-2. Uygulamanızın *ana* hesabını kullanarak AuthN/AuthZ kimlik doğrulamanızı yeniden oluşturun. Bu kullanıcının diğer kullanıcıların adına hareket etmesine izin vermek için [ekleme belirteci](https://docs.microsoft.com/rest/api/power-bi/embedtoken) kullanabilirsiniz.
+2. Uygulamanızın *ana* hesabını kullanarak AuthN/AuthZ kimlik doğrulamanızı yeniden oluşturun. Bu kullanıcının diğer kullanıcıların adına hareket etmesine izin vermek için [ekleme belirteci](/rest/api/power-bi/embedtoken) kullanabilirsiniz.
 3. powerbi.com'daki raporlarınızı uygulamanıza ekleyin.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Kullanıcılarınızı bir Power BI kullanıcısıyla eşleme
@@ -180,7 +180,7 @@ Uygulamanızın içinde yönettiğiniz kullanıcıları, uygulamanızın amaçla
 Üretim aşamasına geçmeye hazır olduğunuzda aşağıdaki işlemleri yapmanız gerekir.
 
 * Geliştirme için ayrı bir kiracı kullanıyorsanız çalışma alanlarınızın, panolarınızın ve raporlarınızın üretim ortamınızda kullanılabilir durumda olduğundan emin olmanız gerekir. Ayrıca uygulamayı üretim kiracınızın Azure AD ortamında oluşturduğunuzdan ve 1. Adım ile belirtilen gerekli uygulama izinlerini atadığınızdan da emin olmanız gerekir.
-* İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Power BI Embedded analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
+* İhtiyaçlarınıza uygun bir kapasite satın alın. Gereken kapasite miktarını ve türünü daha iyi anlamak için bkz. [Power BI Embedded analiz kapasite planlama teknik incelemesi](./embedded-capacity-planning.md). Azure’da [kapasite satın alabilirsiniz](https://portal.azure.com/#create/Microsoft.PowerBIDedicated).
 * Çalışma alanını düzenleyin ve gelişmiş ayarlar bölümünden bir Premium kapasite atayın.
 
     ![Premium kapasite](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Azure'da biraz temizlik yapmanız gerekir.
 [JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Çalışma Alanı Koleksiyonu analiz kapasite planlama teknik incelemesi](https://aka.ms/pbiewhitepaper)  
+[Çalışma Alanı Koleksiyonu analiz kapasite planlama teknik incelemesi](./embedded-capacity-planning.md)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

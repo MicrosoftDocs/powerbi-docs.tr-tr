@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763954"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527965"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>*İş kullanıcılarına* yönelik lisanslar ve abonelikler
 
@@ -36,7 +36,7 @@ Bu makalede, her bir lisans türünün özellikleri ve *içeriğin depolandığ�
 
 ## <a name="licenses"></a>Lisanslar
 
-Her Power BI hizmeti kullanıcısı bir *ücretsiz* lisansa veya *Pro* lisansına sahiptir. Power BI *iş kullanıcısıysanız* büyük olasılıkla Power BI kiracı yöneticiniz tarafından yönetilen ücretsiz bir lisans kullanıyorsunuz demektir.
+Her Power BI hizmeti kullanıcısı bir *ücretsiz* lisansa veya *Pro* lisansına sahiptir. Power BI *işletme kullanıcısıysanız* büyük olasılıkla Power BI yöneticiniz tarafından yönetilen ücretsiz bir lisans kullanıyorsunuz demektir.
 
 Aynı anda birden fazla lisansa sahip olmak mümkündür.  Hizmet her zaman şu anda sahip olduğunuz en geniş kapsamlı lisansa göre bir deneyim sunar.
 

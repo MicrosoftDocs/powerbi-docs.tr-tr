@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337131"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748851"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
@@ -57,7 +57,7 @@ Ekleyeceğiniz sayfalandırılmış raporu içeri aktarmadan veya yüklemeden ö
 * **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) ayrılmış kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
-Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) tablosuna bakın.
+Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İ
 
 Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz.
 
-[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
+[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yükleme
 
 Sayfalandırılmış raporunuzu [Power BI Rapor Oluşturucusu](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) ile oluşturduktan sonra [raporu hizmete yükleyebilirsiniz](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service).
 
-[Power BI REST API'lerini](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup) kullanarak sayfalandırılmış raporları yeni çalışma alanlarında içeri aktarabilirsiniz.
+[Power BI REST API'lerini](/rest/api/power-bi/imports/postimportingroup) kullanarak sayfalandırılmış raporları yeni çalışma alanlarında içeri aktarabilirsiniz.
 
 ## <a name="embed-content-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriği ekleme
 
@@ -119,7 +119,7 @@ Bu örnek tanıtım amacıyla bilerek basit tutulmuştur. Uygulama gizli dizisin
 
 3. **applicationId** değerinin gerektiği uygulamayı seçin.
 
-    ![Uygulama Seçme](media/embed-paginated-reports-for-customers/display-name.png)
+    ![Uygulama Kimliğine ihtiyaç duyan bir uygulamanın seçildiği uygulama görünen adlarını gösteren ekran görüntüsü.](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. GUID olarak listelenen bir **Uygulama Kimliği** vardır. Bu **Uygulama Kimliği**’ni uygulamanın **applicationId** değeri olarak kullanın.
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
 
-    ![Uygulama Seçme](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![Uygulama gizli dizisine ihtiyaç duyan bir uygulamanın seçildiği uygulama görünen adlarını gösteren ekran görüntüsü.](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. **Yönet**’in altında **Sertifikalar ve gizli diziler**’i seçin.
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Uygulamanıza sayfalandırılmış Power BI raporları ekleme
 
-Power BI sayfalandırılmış raporları ekleme adımları [Power BI REST API’leri](https://docs.microsoft.com/rest/api/power-bi/) ile uygulanabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanmıştır.
+Power BI sayfalandırılmış raporları ekleme adımları [Power BI REST API’leri](/rest/api/power-bi/) ile uygulanabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanmıştır.
 
-Uygulamanıza müşterileriniz için Power BI sayfalandırılmış raporlarını eklemek için bir **Azure AD** [hizmet sorumlusuna](embed-service-principal.md) sahip olmanız ve [Power BI REST API'lerini](https://docs.microsoft.com/rest/api/power-bi/) çağırabilmek için bir [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
+Uygulamanıza müşterileriniz için Power BI sayfalandırılmış raporlarını eklemek için bir **Azure AD** [hizmet sorumlusuna](embed-service-principal.md) sahip olmanız ve [Power BI REST API'lerini](/rest/api/power-bi/) çağırabilmek için bir [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
 
-**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için [Power BI REST API'leriyle](https://docs.microsoft.com/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnesini oluşturun. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini ***Microsoft.Rest.TokenCredentials*** nesnesine sarmanız gerekir.
+**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için [Power BI REST API'leriyle](/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnesini oluşturun. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini ***Microsoft.Rest.TokenCredentials*** nesnesine sarmanız gerekir.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
 
-JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Raporlar GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API'sini kullanın.
+JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Raporlar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API'sini kullanın.
 
 Ekleme belirteci oluşturma örneği, [örnek uygulamanın](https://github.com/Microsoft/PowerBI-Developer-Samples) *Services\EmbedService.cs* dosyasında sağlanmıştır.
 

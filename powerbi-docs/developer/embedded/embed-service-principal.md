@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231226"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746804"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -24,21 +24,21 @@ Bu makalede, *Uygulama Kimliği* ve *Uygulama gizli dizisi* kullanılarak hizmet
 
 >[!NOTE]
 >Arka uç hizmetlerinizin güvenliğini, gizli diziler yerine sertifikaları kullanarak sağlamanızı öneririz.
->* [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](/azure/architecture/multitenant-identity/client-assertion).
 >* [Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Yöntem
 
 Ekli analizlerle hizmet sorumlusunu ve uygulama kimliğini kullanmak için şu adımları izleyin:
 
-1. [Azure AD uygulaması](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management) oluşturun.
+1. [Azure AD uygulaması](/azure/active-directory/manage-apps/what-is-application-management) oluşturun.
 
     1. Azure AD uygulamasının gizli dizisini oluşturun.
     
     2. Uygulamanın *Uygulama Kimliğini* ve *Uygulama gizli dizisini* alın.
 
     >[!NOTE]
-    >Bu adımlar, **1. Adım**’da açıklanmaktadır. Azure AD uygulaması oluşturma hakkında daha fazla bilgi için [Azure AD uygulaması oluşturma](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) makalesine göz atın.
+    >Bu adımlar, **1. Adım**’da açıklanmaktadır. Azure AD uygulaması oluşturma hakkında daha fazla bilgi için [Azure AD uygulaması oluşturma](/azure/active-directory/develop/howto-create-service-principal-portal) makalesine göz atın.
 
 2. Bir Azure AD güvenlik grubu oluşturun.
 
@@ -55,7 +55,7 @@ Ekli analizlerle hizmet sorumlusunu ve uygulama kimliğini kullanmak için şu a
 
 Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 * Uygulamayı [Microsoft Azure portalında](https://portal.azure.com/#allservices) oluşturma.
-* Uygulamayı [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) kullanarak oluşturma.
+* Uygulamayı [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) kullanarak oluşturma.
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portalında Azure AD uygulaması oluşturma
 
@@ -63,7 +63,7 @@ Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 
 7. **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
-     ![uygulama kimliği](media/embed-service-principal/certificates-and-secrets.png)
+     ![Azure portalında bir uygulamanın Sertifikalar ve gizli diziler bölmesini gösteren ekran görüntüsü.](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. **Yeni istemci gizli dizisine** tıklayın.
@@ -81,7 +81,7 @@ Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell kullanarak Azure AD uygulaması oluşturma
 
-Bu bölüm, [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
+Bu bölüm, [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ Azure AD güvenlik grubu oluşturmanın iki yolu vardır:
 
 ### <a name="create-a-security-group-manually"></a>El ile güvenlik grubu oluşturma
 
-El ile Azure güvenlik grubu oluşturmak için [Temel grup oluşturma ve Azure Active Directory kullanarak üye ekleme](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) makalesindeki yönergeleri izleyin. 
+El ile Azure güvenlik grubu oluşturmak için [Temel grup oluşturma ve Azure Active Directory kullanarak üye ekleme](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) makalesindeki yönergeleri izleyin. 
 
 ### <a name="create-a-security-group-using-powershell"></a>PowerShell kullanarak güvenlik grubu oluşturma
 
@@ -121,7 +121,7 @@ Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örne
 >Hizmet sorumlusu erişimini kuruluşun tamamı için etkinleştirmek istiyorsanız bu adımı atlayın.
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Azure AD’de oluşturduğunuz güvenlik grubunu **Geliştirici ayarlarının** 
 Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama erişim yapıtlarınızı etkinleştirmek için, hizmet sorumlusu varlığını çalışma alanınıza üye veya yönetici olarak ekleyin.
 
 >[!NOTE]
->Bu bölümde, kullanıcı arabirimi yönergeleri sağlanır. Ayrıca, [Gruplar - grup kullanıcı API’si eklemeyi](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) kullanarak çalışma alanına bir hizmet sorumlusu ekleyebilirsiniz.
+>Bu bölümde, kullanıcı arabirimi yönergeleri sağlanır. Ayrıca, [Gruplar - grup kullanıcı API’si eklemeyi](/rest/api/power-bi/groups/addgroupuser) kullanarak çalışma alanına bir hizmet sorumlusu ekleyebilirsiniz.
 
 1. Erişimini etkinleştirmek istediğiniz çalışma alanına gidin ve **Daha fazla** menüsünden **Çalışma alanı erişimini** seçin.
 
@@ -179,7 +179,7 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 >[Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

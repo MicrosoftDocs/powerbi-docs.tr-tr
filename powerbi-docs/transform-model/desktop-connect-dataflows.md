@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861096"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668471"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Power BI Desktop'ta Power Platform veri akışlarıyla oluşturulan verilere bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi **Power BI Desktop**'ta **Power Platform veri akışları** tarafından oluşturulan verilere bağlanabilirsiniz.
@@ -37,7 +37,7 @@ Veri akışları için veri alım performansını artırabilirsiniz. Örneğin, 
 
 Bu şekilde, büyük verilerin işlenmesi çalışan **Power BI Desktop** örneğinizde yerel olarak gerçekleştirilmek yerine veri akışlarında çevrimiçi olarak gerçekleştirilir. Bu yaklaşım, Power BI Desktop'ın daha küçük miktarlarda veri almasına olanak tanır ve veri akışlarıyla hızlı duyarlı ve hızlı bir deneyim sağlar.
 
-## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+## <a name="additional-considerations"></a>Diğer konular
 
 Çoğu veri akışı, Power BI hizmet kiracısında yer alır. Ancak **Power BI Desktop** kullanıcıları, veri akışının sahibi olmadığı veya veri akışının CDM klasörüne yönelik açıkça yetkilendirilmediği sürece, Azure Data Lake Storage 2. Nesil hesabında depolanan veri akışlarına erişemez. Aşağıdaki durumu dikkate alın:
 
@@ -45,28 +45,21 @@ Bu şekilde, büyük verilerin işlenmesi çalışan **Power BI Desktop** örne�
 2.  Ayşe’nin oluşturduğu çalışma alanının da üyesi olan Berk, Ayşe’nin oluşturduğu veri akışından veri almak için Power BI Desktop ve veri akışı bağlayıcısını kullanmak ister.
 3.  Berk, veri gölünde veri akışının CDM klasörüne yetkili bir kullanıcı olarak eklenmediği için oluşan bir hata alır.
 
-    ![Veri akışını kullanma girişimi sırasında hata oluştu](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Bu makalede](./service-dataflows-azure-data-lake-integration.md) CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
+Bu sorunu çözmek için Berk’e, CDM Klasörü ve dosyaları için okuyucu izinleri verilmelidir. [Veri akışı yapılandırma ve kullanma](dataflows/dataflows-configure-consume.md) sayfasında CDM Klasörü için nasıl erişim izni verileceği hakkında daha fazla bilgi edinebilirsiniz.
 
 
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Power Platform veri akışları ile pek çok ilgi çekici işlem yapabilirsiniz. Daha fazla bilgi için aşağıdaki kaynaklara göz atın:
+Veri akışları ile pek çok ilgi çekici işlem yapabilirsiniz. Daha fazla bilgi için aşağıdaki kaynaklara göz atın:
 
-* [Veri akışları ile self servis veri hazırlığı](service-dataflows-overview.md)
-* [Power BI’da veri akışları oluşturma ve kullanma](service-dataflows-create-use.md)
-* [Power BI Premium’da hesaplanan varlıkları kullanma (Önizleme)](service-dataflows-computed-entities-premium.md)
-* [Şirket içi veri kaynakları ile veri akışlarını kullanma (Önizleme)](service-dataflows-on-premises-gateways.md)
-* [Power Platform veri akışları için geliştirici kaynakları (Önizleme)](service-dataflows-developer-resources.md)
+* [Veri akışlarına giriş ve self servis veri hazırlığı](dataflows/dataflows-introduction-self-service.md)
+* [Veri akışı oluşturma](dataflows/dataflows-create.md)
+* [Veri akışı yapılandırma ve kullanma](dataflows/dataflows-configure-consume.md)
+* [Veri akışı depolama alanını Azure Data Lake 2. Nesil kullanacak şekilde yapılandırma](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [Veri akışlarının Premium özellikleri](dataflows/dataflows-premium-features.md)
+* [Veri akışları ve yapay zeka](dataflows/dataflows-machine-learning-integration.md)
 
-Azure Data Lake Storage 2. Nesil ile tümleştirme hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
-
-* [Veri akışları ve Azure Data Lake tümleştirmesi (Önizleme)](service-dataflows-azure-data-lake-integration.md)
-* [Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)](service-dataflows-configure-workspace-storage-settings.md)
-* [Power BI’a veri akışı olarak bir CDM klasörü ekleme (Önizleme)](service-dataflows-add-cdm-folder.md)
-* [Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama (Önizleme)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Ayrıca **Power BI Desktop** hakkında yararlı bulabileceğiniz makaleler vardır:
 

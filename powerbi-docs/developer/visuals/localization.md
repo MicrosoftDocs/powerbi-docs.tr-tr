@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinde veri görünümü eşlemesini anlama
-description: Bu makalede Power BI’ın verileri görsellere geçirmeden önce nasıl dönüştürdüğü açıklanır.
+title: Power BI'da Power BI görselleri için yerel ayar ekleme
+description: Görsellerin, içeriklerini uygun dilde yerelleştirmek için Power BI yerel ayarını nasıl alabileceğini öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349299"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746086"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI'da Power BI görselleri için yerel ayar ekleme
 

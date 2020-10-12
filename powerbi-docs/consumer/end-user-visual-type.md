@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537723"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526893"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 
@@ -142,7 +142,7 @@ Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak
 Şekil haritaları haritadaki bölgeleri renk kullanarak karşılaştırır. Şekil haritası, harita üzerinde veri noktalarının hassas coğrafi konumlarını gösteremez. Bunun yerine, ana amacı bölgelerin göreli karşılaştırmalarını, farklı şekilde renklendirerek bir haritada göstermektir.
 
 ### <a name="matrix"></a>Matris
-![matris](media/end-user-visual-type/matrix.png)
+![Gelir ve Yılbaşından Bugüne Gelir için yılları ve üç aylık dönemleri gösteren veri tablosunun ekran görüntüsü.](media/end-user-visual-type/matrix.png)
 
 Matris görseli basamaklı düzeni destekleyen bir tür tablo görselidir (aşağıdaki "Tablo" bölümüne bakın). Genellikle rapor tasarımcıları rapor ve panolara matrisler ekler ve bu matrisler kullanıcıların rapor sayfasındaki diğer görselleri çapraz vurgulayabilmek için matristeki bir veya birden fazla öğeyi (satır, sütun, hücre) seçebilmesini sağlar.  
 

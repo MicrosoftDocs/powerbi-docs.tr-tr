@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136270"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668425"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Birebir ilişki kılavuzu
 
@@ -82,7 +82,7 @@ Burada iki tablonun kısmi bir model diyagramı verilmiştir.
 
 **Alanlar** bölmesinde rapor yazarları iki tabloda yer alan ürünle ilgili alanları bulacaktır: **Product** ve **Product Category**.
 
-![Alanlar bölmesinde iki tabloyu da genişletilmiş olarak gösterir ve sütunlar alan olarak listelenir.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![Alanlar bölmesi iki tabloyu da genişletilmiş olarak gösteriyor ve sütunlar alan olarak listelenmiş. Product ve Product Category vurgulanmış.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 Şimdi her iki tablodaki alanlar da bir tablo görseline eklendiğinde ne olduğuna bakalım. Bu örnekte **SKU** sütunun kaynağı **Product** tablosudur.
 
@@ -112,7 +112,7 @@ Aşağıdaki adımlarda birebir ilişkili verileri birleştirme ve modelleme yö
 
     Bizim örneğimizde, rapor yazarları artık **Alanlar** bölmesinde **Product** adlı tek bir tablo bulurlar. Bu tablo ürünle ilişkili alanları içerir.
 
-    ![Alanlar bölmesinde iki tabloyu da genişletilmiş olarak gösterir ve sütunlar alan olarak listelenir.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![Alanlar bölmesinde iki tabloyu da genişletilmiş olarak gösteriyor ve sütunlar alan olarak listelenmiş. Product vurgulanmış.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **Eksik değerleri değiştir**: İkinci sorguda eşleşmeyen satırlar varsa bu sorgudan eklenen sütunlarda NULL değerleri gösterilir. Uygun olduğunda NULL değerlerini bir belirteç değeriyle değiştirmeyi göz önünde bulundurun. Rapor yazarları sütun değerlerine göre filtreleme veya gruplandırma yaptığında eksik değerleri değiştirmek özellikle önemlidir çünkü rapor görsellerinde BOŞLUK görüntülenebilir.
 
     Aşağıdaki tablo görselinde SKU CL-02 ürününün kategorisinde _[Tanımsız]_ ifadesinin gösterildiğine dikkat edin. Sorguda null kategoriler bu belirteç metin değeriyle değiştirilmiştir.
@@ -123,7 +123,7 @@ Aşağıdaki adımlarda birebir ilişkili verileri birleştirme ve modelleme yö
 
     Bizim örneğimizde rapor yazarları artık iki düzeyi olan bir hiyerarşi kullanabilir: **Category** ve **Product**.
 
-    ![Alanlar bölmesinde iki tabloyu da genişletilmiş olarak gösterir ve sütunlar alan olarak listelenir.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![Alanlar bölmesi iki tabloyu da genişletilmiş olarak gösteriyor ve sütunlar alan olarak listelenmiş. Products vurgulanmış.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 Ayrı tabloların alanlarınızı düzenlemeye yardımcı olmasından memnun olsanız bile, yine de tek tabloda birleştirmenizi öneririz. Alanlarınızı yine düzenleyebilirsiniz ama bu kez _görüntü klasörlerini_ kullanırsınız.
 

@@ -1,21 +1,21 @@
 ---
 title: ABD kamu müşterileri için Power BI - Genel Bakış
-description: ABD Kamu müşterileri Microsoft 365 kamu planlarına bir Power BI Pro aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
+description: ABD Kamu müşterileri Microsoft 365 kamu planlarına bir Power BI Pro aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı, bağlanmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855116"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524639"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -51,7 +51,8 @@ Microsoft 365 çeşitli uyumluluk gereksinimlerini karşılamak için kamu kurul
 
 * [Microsoft 365 DoD ortamı](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) özel olarak ABD Savunma Bakanlığı için tasarlanmıştır.
 
-## <a name="connect-to-power-bi-for-us-government"></a>ABD kamu için Power BI’a bağlanma
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>Power BI for US Government oturumu açma
 
 Kamu kullanıcılarının Power BI'a bağlanmak için kullanmaları gereken URL, ticari kullanıcılarınkinden farklıdır. Power BI’da oturum açmak için aşağıdaki URL’leri kullanın:
 
@@ -61,6 +62,38 @@ Kamu kullanıcılarının Power BI'a bağlanmak için kullanmaları gereken URL,
 
 Hesabınız birden fazla bulutta ayarlanmış olabilir. Hesabınız bu şekilde ayarlanmışsa Power BI Desktop’ta oturum açtığınızda hangi buluta bağlanacağınızı seçebilirsiniz.
 
+## <a name="allow-connections-to-power-bi"></a>Power BI bağlantılarına izin verme
+
+Power BI hizmetini kullanmak için internet üzerindeki gerekli uç noktalarla bağlantı kurulmasına izin vermeniz gerekir. Ağınız, Power BI ve diğer bağımlı hizmetler arasında iletişim kurulabilmesi için bu hedeflere erişim sağlanabiliyor olması gerekir.
+
+Aşağıdaki tabloda genel site kullanımı için Power BI hizmeti bağlantısını etkinleştirmek üzere izin verilenler listenize eklemeniz gereken uç noktalar listelenmiştir. Bu uç noktalar, ABD Kamu bulutuna özeldir. Power BI hizmetlerinin listelenen uç noktaları için yalnızca 443 numaralı TCP bağlantı noktasının açılması gerekir. Veri alma, pano ve rapor tümleştirmesi, Power BI görselleri ve diğer isteğe bağlı hizmetler ile ilgili uç noktalar, ABD Kamu bulutuna özel değildir. Bu URL'leri de izin verilenler listenize eklemek için bkz. [Power BI URL'lerini izin verilenler listenize ekleme](power-bi-whitelist-urls.md).
+
+Power BI'ın kimlik doğrulaması, kimlik ve yönetim özellikleri, Microsoft 365 hizmetlerini kullanır. Denetim günlüklerini görüntülemek için de Microsoft 365'e bağlanmanız gerekir. Bu hizmetlerin uç noktalarını belirlemek için aşağıdaki Microsoft 365 tümleştirme tablosunu inceleyin.
+
+### <a name="power-bi-urls-for-general-site-usage"></a>Genel site kullanımına yönelik Power BI URL'leri
+
+|  Amaç | Hedef |
+| ---- | ----- |
+| Arka uç API’leri | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| Arka uç API’leri | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| Arka uç API’leri | **Tümü**: *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Microsoft 365 tümleştirmesi | **GCC**: [Dünya genelindeki uç noktalar](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [ABD Hükümeti GCC High uç noktaları](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [ABD Hükümeti DoD uç noktaları](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| Hizmet telemetrisi | **Tümü**: dc.services.visualstudio.us |
+| Bilgilendirme iletileri (isteğe bağlı) | **Tümü**: dynmsg.modpim.com |
+| NPS anketleri (isteğe bağlı) | **Tümü**: nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Kamuya özgü ve genel Azure bulut hizmetleri arasında bağlantı kurma
 
 Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bir örneğin bağlantısını açarken güvenlik duvarı kurallarını etkinleştirebilirsiniz ama bulutlar arası ağ farklıdır.  Genel buluttaki hizmetlerle Government Community Cloud’daki hizmetler arasında iletişim kurmak için belirli güvenlik duvarı kurallarını yapılandırmanız gerekir. Örneğin Power BI’ın kamu bulut dağıtımından bir SQL veritabanının genel bulut örneklerine erişmek istiyorsanız, SQL veritabanında bir güvenlik duvarı kuralına ihtiyacınız vardır. Aşağıdaki veri merkezlerinde Azure Kamu Bulutu’na bağlantılara izin vermek için SQL veritabanında belirli güvenlik duvarı kurallarını yapılandırın:
@@ -69,8 +102,12 @@ Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bi
 * USGov Virginia
 * USGov Texas
 * USGov Arizona
+* Doğu US DoD
+* Orta US DoD
 
-Genel bulutta IP alanları kullanılabilir. ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin.
+ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin. Hem Power BI hem de Power Query aralıkları listelenmiştir.
+
+Microsoft Azure Kamu bulutu hizmetleri hakkında daha fazla bilgi için [Azure Kamu belgelerini](https://docs.microsoft.com/azure/azure-government/) inceleyin.
 
 SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik duvarı kurallarını oluşturma ve yönetme](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
@@ -78,12 +115,12 @@ SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik
 
 Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planlarıyla ticari planlar arasında bazı farklılıklar vardır. Hedefimiz, tüm özellikleri kamu bulutlarında 30 günlük genel kullanılabilirlik süresi içinde kullanılabilir hale getirmektir. Bazı durumlarda temel bağımlılıklar bir özelliği kullanıma sunmamızı engeller.
 
-Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler ve sürüm planlanıyorsa tahmini kullanılabilirlik zamanı listelenmektedir:
+Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listelenmiştir. Sürüm planlanıyorsa tahmini kullanılabilirlik zamanı da belirtilmiştir:
 
 |Öne çıkan özelliği |GCC |GCC High |DoD|
 |------|------|------|------|
 |[Kamu bulutu ve ticari bulut arasında Azure B2B İşbirliği](service-admin-azure-ad-b2b.md)<sup>1</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
+|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Kapasite Ölçümleri](../admin/service-admin-premium-monitor-portal.md)|Ç3 2020 |Ç3 2020|Ç3 2020|

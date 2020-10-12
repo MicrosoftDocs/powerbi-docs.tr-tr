@@ -1,6 +1,6 @@
 ---
 title: Sayfalandırılmış raporlardaki URL parametreleri - Power BI Rapor Oluşturucusu
-description: Bu konu başlığında, Power BI Report Builder ’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır.
+description: E-postaya veya web sayfasına ekleyebileceğiniz bir URL’ye parametre ekleyerek, Power BI’daki sayfalandırılmış raporlara komut göndermeyi öğrenin.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859417"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747494"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI’da bulunan sayfalandırılmış raporlardaki URL parametreleri
 

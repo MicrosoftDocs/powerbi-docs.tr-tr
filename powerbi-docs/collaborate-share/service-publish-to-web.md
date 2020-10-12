@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858865"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375178"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -161,14 +161,14 @@ Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Rap
 
 Power BI yönetici portalı, web’de yayımlayabilecek kişileri denetlemenizi sağlayan ayarlara sahiptir. Yönetici portalında [Web’de yayımla kiracı ayarlarını](../admin/service-admin-role.md) değiştirmek için kuruluşunuzun [Power BI yöneticisiyle](../admin/service-admin-portal.md#publish-to-web) çalışın.
 
-Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI yöneticisi olmayabilir. [Kiracı yöneticisi devralma sürecimizi](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover) izleyin. Power BI yöneticiniz varsa, yöneticiniz sizin için ekleme kodu oluşturmayı etkinleştirebilir.
+Power BI’a kaydolan kişilerin veya küçük kuruluşların henüz Power BI yöneticisi olmayabilir. [Yönetici devralma sürecimizi](/azure/active-directory/users-groups-roles/domains-admin-takeover) izleyin. Power BI yöneticiniz varsa, yöneticiniz sizin için ekleme kodu oluşturmayı etkinleştirebilir.
 
 Büyük kuruluşlar genelde bir Power BI yöneticisine sahip olur. Aşağıdaki rollerden herhangi birine sahip olan kişiler Power BI yöneticisi olarak görev yapabilir:
 
 - Genel yöneticiler
 - Azure Active Directory’de Power BI hizmet yöneticisi rolüne sahip olan kullanıcılar
 
-Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) ve yönetici portalındaki [Web’de yayımla kiracı ayarlarını](../admin/service-admin-portal.md#publish-to-web) güncelleştirmelerini istemeniz gerekir.
+Kuruluşunuzdaki [bu kişilerden birini bulmanız](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) ve yönetici portalındaki [Web’de yayımla kiracı ayarlarını](../admin/service-admin-portal.md#publish-to-web) güncelleştirmelerini istemeniz gerekir.
 
 ## <a name="limitations"></a>Sınırlamalar
 
@@ -196,5 +196,3 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](https://docs.microsoft.com/of
 - [Raporu güvenli bir portala veya web sitesine ekleme](service-embed-secure.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221821"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668333"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Öğretici: Power BI iOS uygulamalarındaki Soru-Cevap sanal analistini kullanarak verileriniz hakkında sorular sorma
 
@@ -92,13 +92,13 @@ Bu öğreticide şunları yapacaksınız:
 
 3. Panolar sekmesine tıklayın ve ardından Fırsat Analizi Örneği satırında çöp kutusuna tıklayın.
 
-    ![Sil simgesini seçme](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![Bir panonun seçildiği ve silme simgesinin vurgulandığı Power BI çalışma alanını gösteren ekran görüntüsü.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     Şimdi raporlar sekmesini seçin ve aynı işlemi yapın.
 
 4. Veri kümeleri sekmesini seçin, **Diğer seçenekler** (...) öğesine tıklayın ve sonra **Sil**'i seçin.
 
-    ![Sil simgesini seçme](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![Bir veri kümesinin belirlendiği ve Diğer seçenekler menüsünden Sil'in seçildiği Power BI çalışma alanını gösteren ekran görüntüsü.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

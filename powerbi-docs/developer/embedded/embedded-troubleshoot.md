@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485703"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749081"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -75,27 +75,27 @@ Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. Azure AD'de kay�
 
 Daha fazla araştırmak için Fiddler ile yakalama gerekebilir. 403 hatasının birkaç nedeni olabilir.
 
-* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aşmıştır. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın alın ve çalışma alanını bu kapasiteye atayın. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
+* Kullanıcı, paylaşılan bir kapasitede oluşturulabilecek ekleme belirteci miktarını aşmıştır. Ekleme belirteçleri oluşturmak için Azure kapasitesi satın alın ve çalışma alanını bu kapasiteye atayın. Bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](/azure/power-bi-embedded/create-capacity).
 * Azure AD kimlik doğrulama belirtecinin kullanım süresi dolmuştur.
 * Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) üyesi değildir.
 * Kimliği doğrulanmış kullanıcı, grubun (çalışma alanı) yöneticisi değildir.
-* Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
+* Kimliği doğrulanmış kullanıcının izinleri yoktur. İzinler [refreshUserPermissions API'si](/rest/api/power-bi/users/refreshuserpermissions) kullanılarak güncelleştirilebilir
 * Yetkilendirme üst bilgisi doğru listelenmemiş olabilir. Yazım hatası olmadığından emin olun.
 
 GenerateToken çağrılmadan önce uygulamanın arka ucunun kimlik doğrulaması belirtecini yenilemesi gerekebilir.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>Kimlik Doğrulama
 
@@ -113,13 +113,13 @@ Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümü
 
 Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken ***error:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
 
-Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlendiği bir [Azure AD İlkesi](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
+Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlendiği bir [Azure AD İlkesi](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
 
 Bu ilkeyi yalnızca uygulama özelinde etkinleştirmenizi öneririz.
 
 Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin **Genel Yöneticisi** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
 
-1. [Azure AD Preview PowerShell Modülü](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
+1. [Azure AD Preview PowerShell Modülü](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
 
 2. Aşağıdaki PowerShell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda birden çok uygulama olmadığından emin olun).
 
@@ -153,7 +153,7 @@ GenerateToken, etkin kimlik sağlandığında birkaç nedenden dolayı başarıs
 
 Hangisi olduğunu belirlemek için aşağıdaki adımları deneyin.
 
-* [Veri kümesi al](https://docs.microsoft.com/rest/api/power-bi/datasets) komutunu yürütün. IsEffectiveIdentityRequired özelliği doğru mu?
+* [Veri kümesi al](/rest/api/power-bi/datasets) komutunu yürütün. IsEffectiveIdentityRequired özelliği doğru mu?
 * Kullanıcı adı her EffectiveIdentity için zorunludur.
 * IsEffectiveIdentityRolesRequired doğruysa Rol gereklidir.
 * DatasetId her EffectiveIdentity için zorunludur.
@@ -270,37 +270,43 @@ Ekleme kurulum aracı ile test ederken karşılaşabileceğiniz bazı yaygın so
 
 **İzin ver**’i seçtiğinizde (İzin verme adımı) aşağıdaki hatayı alırsınız:
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 Bunun çözümü, açılır pencereyi kapatmak ve birkaç saniye bekleyip tekrar denemektir. Bu eylemi birkaç kez yinelemeniz gerekebilir. Uygulama kayıt işlemini tamamlama ile dış API’lerin kullanımına sunulması arasındaki zaman aralığı bu soruna neden olur.
 
 Örnek uygulama çalıştırılırken aşağıdaki hata iletisi görüntülenir:
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 Örnek uygulamaya eklenmeyen tek değer kullanıcı parolanız olduğundan bu hata oluşur. Çözümde Web.config dosyasını açın ve pbiPassword alanını kullanıcınızın parolasıyla doldurun.
 
 Şu hatayı alırsanız: AADSTS50079: Kullanıcının çok faktörlü kimlik doğrulaması kullanması gereklidir.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA özelliği etkin olmayan bir AAD hesabı kullanılması gerekir.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>Embed for your organization örnek uygulamasını kullanma
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Kuruluşunuzun örnek uygulamasında Embed kullanma
 
 **Embed for your organization** deneyimi ile çalışıyorsanız *PowerBI-Developer-Samples.zip* dosyasını kaydedin ve sıkıştırmasını açın. Ardından *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* klasörünü açın ve *pbi-saas-embed-report.sln* dosyasını çalıştırın.
 
 **Embed for your organization** örnek uygulamasını çalıştırdığınızda aşağıdaki hatayı alırsınız:
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 Bu hatanın nedeni, web sunucusu uygulaması için belirtilen yeniden yönlendirme URL’sinin örneğe ait URL’den farklı olmasıdır. Örnek uygulamayı kaydetmek istiyorsanız yeniden yönlendirme URL’si olarak `https://localhost:13526/` kullanın.
 
-Kayıtlı uygulamayı düzenlemek isterseniz, uygulamanın web API’lerine erişim sağlayabilmesi için [Azure AD kayıtlı uygulamasını](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) güncelleştirme hakkında bilgi edinin.
+Kayıtlı uygulamayı düzenlemek isterseniz, uygulamanın web API’lerine erişim sağlayabilmesi için [Azure AD kayıtlı uygulamasını](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) güncelleştirme hakkında bilgi edinin.
 
-Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](https://docs.microsoft.com/power-bi/service-basic-concepts) düzenleme hakkında bilgi edinin.
+Power BI kullanıcı profilinizi veya verilerinizi düzenlemek istiyorsanız, [Power BI verilerinizi](../../fundamentals/service-basic-concepts.md) düzenleme hakkında bilgi edinin.
 
-Şu hatayı alırsanız: AADSTS50079: Kullanıcının çok faktörlü kimlik doğrulaması kullanması gereklidir.
+AADSTS50079 hatasını alırsanız: Kullanıcının çok faktörlü kimlik doğrulaması kullanması gereklidir.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA özelliği etkin olmayan bir AAD hesabı kullanılması gerekir.
 
 Daha fazla bilgi için lütfen bkz. [Power BI Embedded SSS](embedded-faq.md).
 

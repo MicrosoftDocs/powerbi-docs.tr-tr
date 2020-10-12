@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b3b447b315befef11f342f537d4ab3ad8c837f03
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856243"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668494"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında bildirim alma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -61,15 +61,15 @@ Power BI bildirimlerinizi nasıl alacağınızı değiştirebilirsiniz.
    
     **iPhone'da**
    
-    ![Bildirimleri seçme](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
+    ![Bildirimlere izin verip onları yönetebileceğiniz Power BI başlıklı iPhone ekranını gösteren ekran görüntüsü.](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
    
     **Android telefonda**
    
-    ![Bildirimleri seçme](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
+    ![Bildirimlere izin verip onları yönetebileceğiniz Power BI başlıklı Android telefon ekranını gösteren ekran görüntüsü.](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
 
     **Windows 10 cihazında**
 
-    ![Bildirimleri seçme](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
+    ![Power BI bildirimlerine izin verip onları yönetebileceğiniz Windows 10 cihazı ekranını gösteren ekran görüntüsü.](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI hizmetindeki veri uyarıları](../../create-reports/service-set-data-alerts.md)

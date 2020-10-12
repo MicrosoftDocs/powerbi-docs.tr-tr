@@ -1,6 +1,6 @@
 ---
 title: Power BI sayfalandırılmış raporlarındaki alt raporlar
-description: Bu makalede Power BI hizmetindeki sayfalandırılmış raporlar için desteklenen veri kaynaklarını ve Azure SQL Veritabanı veri kaynaklarına nasıl bağlanacağınızı öğreneceksiniz.
+description: Bu makalede, Power BI hizmetindeki sayfalandırılmış raporlar için desteklenen veri kaynakları hakkında bilgi edineceksiniz.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861395"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746597"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarındaki alt raporlar
 
@@ -33,7 +33,7 @@ Power BI Report Builder bilgisayarınızdaki sayfalandırılmış raporlarla (ye
 
 Oturum açtıktan sonra Power BI Report Builder’da **Dosya** menüsünün **Aç** ve **Farklı Kaydet** seçenekleri için **Power BI Hizmeti** değerini görürsünüz. Dosyaya kaydederken **Power BI Hizmeti**’ni seçerseniz, Power BI Report Builder ile Power BI hizmeti arasında bir canlı bağlantı oluşturursunuz. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI hizmetinden açma":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI’da oturum açma":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Power BI hizmetinde yerel raporu kaydetme
 
@@ -48,7 +48,7 @@ Ana rapora bir alt rapor ekleyebilmek için önce iki rapor oluşturun ve bunlar
 
 3. **Farklı Kaydet** iletişim kutusunda, sayfalandırılmış raporlarınızı depolayabileceğiniz bir Power BI Premium çalışma alanı seçin.  Premium çalışma alanlarının adının yanında ![Premium elmas simgesi](media/subreports/report-builder-premium-diamond.png) bulunur.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI hizmetine farklı kaydetme":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI’da oturum açma":::
 
 4. **Kaydet**'i seçin.
 
@@ -58,7 +58,7 @@ Artık her iki raporu da aynı Premium çalışma alanına kaydettiğinize göre
 
 1. **Ekle** şeridinde **Alt Rapor** düğmesini seçin veya rapor tuvaline sağ tıklayın ve **Ekle** > **Alt Rapor**’u seçin.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Rapora bir alt rapor ekleme":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Power BI’da oturum açma":::
 
     **Alt Rapor Özellikleri** iletişim kutusu açılır.  
 

@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231847"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749196"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->Arka uç hizmetlerinizin güvenliğini, gizli diziler yerine sertifikaları kullanarak sağlamanızı öneririz. [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>Arka uç hizmetlerinizin güvenliğini, gizli diziler yerine sertifikaları kullanarak sağlamanızı öneririz. [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](/azure/architecture/multitenant-identity/client-assertion).
 
 ## <a name="certificate-based-authentication"></a>Sertifika tabanlı kimlik doğrulaması
 
-Sertifika tabanlı kimlik doğrulaması, Azure Active Directory (Azure AD) kullanılarak Windows, Android veya iOS cihazda bulunan ya da bir [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)’ta tutulan bir istemci sertifikasıyla kimliğinizin doğrulanmasına olanak tanır.
+Sertifika tabanlı kimlik doğrulaması, Azure Active Directory (Azure AD) kullanılarak Windows, Android veya iOS cihazda bulunan ya da bir [Azure Key Vault](/azure/key-vault/basic-concepts)’ta tutulan bir istemci sertifikasıyla kimliğinizin doğrulanmasına olanak tanır.
 
 Bu kimlik doğrulaması yönteminin kullanılması, döndürme veya iptal için CA kullanılarak merkezi bir yerden sertifikaların yönetilmesine olanak verir.
 
@@ -49,7 +49,7 @@ Ekli analizlerle hizmet sorumlusunu ve sertifika kullanmak için şu adımları 
 
 Güvenilir bir *Sertifika Yetkilisi*’nden bir sertifika temin edebilir veya kendiniz bir sertifika oluşturabilirsiniz.
 
-Bu bölümde, [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) kullanılarak bir sertifika oluşturma ve genel anahtar içeren *.cer* dosyasını indirme işlemleri açıklanmaktadır.
+Bu bölümde, [Azure Key Vault](/azure/key-vault/create-certificate) kullanılarak bir sertifika oluşturma ve genel anahtar içeren *.cer* dosyasını indirme işlemleri açıklanmaktadır.
 
 1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
 
@@ -63,11 +63,11 @@ Bu bölümde, [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/creat
 
 4. **Sertifikalar**’a tıklayın.
 
-    ![sertifikalar](media/embed-service-principal-certificate/certificates.png)
+    ![Sertifikalar'ın vurgulandığı anahtar kasaları sayfasını gösteren ekran görüntüsü.](media/embed-service-principal-certificate/certificates.png)
 
 5. **Oluştur/İçeri Aktar**’a tıklayın.
 
-    ![oluştur](media/embed-service-principal-certificate/generate.png)
+    ![Oluştur/İçeri Aktar seçeneğinin vurgulandığı Sertifika bölmesini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/generate.png)
 
 6. **Sertifika oluştur** alanlarını aşağıdaki şekilde yapılandırın:
 
@@ -107,7 +107,7 @@ Bu bölümde, [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/creat
 
 1. Azure AD uygulamanızda **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
-     ![uygulama kimliği](media/embed-service-principal/certificates-and-secrets.png)
+     ![Azure portalında bir uygulamanın Sertifikalar ve gizli diziler bölmesini gösteren ekran görüntüsü.](media/embed-service-principal/certificates-and-secrets.png)
 
 2. **Sertifikayı karşıya yükle**’ye tıklayın ve bu öğreticinin [ilk adımında](#step-1---create-a-certificate) oluşturup indirdiğiniz *.cer* dosyasını karşıya yükleyin. *.cer* dosyası ortak anahtarı içerir.
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>Visual Studio’yu MSI kullanacak şekilde yapılandırma
 
-Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliği’ni (MSI) kullanacak şekilde yapılandırmanız yararlı olabilir. [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview), Azure AD kimliğinizi yönetmenizi sağlayan bir özelliktir. Yapılandırıldıktan sonra, Visual Studio’nun Azure Key Vault’a göre kimlik doğrulaması yapmasını sağlar.
+Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliği’ni (MSI) kullanacak şekilde yapılandırmanız yararlı olabilir. [MSI](/azure/active-directory/managed-identities-azure-resources/overview), Azure AD kimliğinizi yönetmenizi sağlayan bir özelliktir. Yapılandırıldıktan sonra, Visual Studio’nun Azure Key Vault’a göre kimlik doğrulaması yapmasını sağlar.
 
 1. Projenizi Visual Studio’da açın.
 
@@ -200,7 +200,7 @@ Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliğ
 >[Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory'deki uygulama ve hizmet sorumlusu nesneleri](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216695"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668540"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 
@@ -48,7 +48,7 @@ Tabloları ilişkilendirmek için iki tane bire çok ilişkisi eklenir. Burada i
 > [!NOTE]
 > Power BI Desktop model diyagramında tablo satırlarını görüntülemek mümkün değildir. Bu makalede açıklamayı net örneklerle desteklemek için yapılmıştır.
 
-![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Dört tablonun satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 Dört tablonun satır ayrıntıları aşağıdaki madde işaretli listede açıklanır:
 
@@ -137,7 +137,7 @@ Her iki tabloda da yinelenen **OrderID** değerlerinin depolanmasını desteklem
 
 Şimdi tablo satırlarını gözden geçirelim. **Fulfillment** tablosunda sipariş satırlarının birden çok gönderimle karşılanabileceğine dikkat edin. (Bir sipariş satırının eksik olması, siparişin henüz karşılanmadığını gösterir.)
 
-![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. Satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Modelin tablo satırlarını ortaya çıkardığını gösteren diyagram. İki tablonun satır ayrıntıları aşağıdaki paragrafta açıklanmıştır.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 İki tablonun satır ayrıntıları aşağıdaki madde işaretli listede açıklanır:
 
@@ -161,7 +161,7 @@ Görsel doğru bir sonuç göstermektedir. Öte yandan modelin kullanışlılı�
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Çoka çok olguları ilişkilendirme yönergeleri
 
-Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _zayıf ilişkilerin_ doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+Genel olarak çoka çok kardinalitesi kullanılarak iki olgu türünde tablonun doğrudan ilişkilendirilmesi önerilmez. Bunun ana nedeni modelin rapor görsellerini filtreleme veya gruplandırma yolları konusunda esneklik sağlamamasıdır. Örnekte görselleri yalnızca **Order** tablosunun **OrderID** sütununa göre filtrelemek veya gruplandırmak mümkündür. Bir diğer nedeni de verilerinizin kalitesiyle ilgilidir. Verilerinizde bütünlük sorunları varsa, _sınırlı ilişkinin_  doğasına bağlı olarak sorgulama sırasında bazı satırlar atlanabilir. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 Olgu türündeki tabloları doğrudan ilişkilendirmek yerine [Yıldız Şeması](star-schema.md) tasarım ilkelerini benimsemenizi öneririz. Bunu, boyut türünde tablolar ekleyerek yaparsınız. Sonra boyut türündeki tablolar bire çok ilişkileri kullanılarak olgu türündeki tablolarla ilişkilendirilir. Bu tasarım yaklaşımı esnek raporlama seçenekleri getirdiğinden güçlü bir yaklaşımdır. Boyut türündeki sütunlardan herhangi birini kullanarak filtrelemenize veya gruplandırmanıza ve ilişkili olgu türündeki tabloları özetlemenize olanak tanır.
 
@@ -184,7 +184,7 @@ Zaman ayırıp yıldız şeması tasarım ilkelerinin uygulanması aşağıdaki 
 - Rapor görselleriniz boyut türündeki tabloların tüm görünür sütunlarına göre _filtrelenebilir veya gruplandırılabilir_
 - Rapor görselleriniz olgu türündeki tabloların tüm görünür sütunlarına göre _özetlenebilir_
 - **OrderLine**, **OrderDate** veya **Product** tablolarına uygulanan filtreler olgu türündeki her iki tabloya da yayılır
-- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _güçlü ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+- İlişkilerin tümü bire çok ilişkisidir ve her ilişki _normal ilişkidir_. Veri bütünlüğü sorunları maskelenmez. Daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
 ## <a name="relate-higher-grain-facts"></a>Daha yüksek dilimli olguları ilişkilendirme
 
@@ -228,7 +228,7 @@ IF(
 
 Aşağıdaki matris görseli şimdi **Target Quantity** ölçüsünü kullanır. Tüm aylık hedef miktarlarının BOŞ olduğunu gösterir.
 
-![2020 yılının hedef miktarının 270 olduğunu ortaya çıkaran matris görselini gösteren diyagram.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![2020 yılının hedef miktarının 270 olduğunu boş aylık değerlerle birlikte ortaya çıkaran matris görselini gösteren diyagram.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Daha yüksek dilimi ilişkilendirme (tarih dışı)
 

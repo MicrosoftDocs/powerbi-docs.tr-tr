@@ -1,6 +1,6 @@
 ---
 title: Power BI sayfalandırılmış raporlarındaki alt raporların sorunlarını giderme
-description: Bu makalede Power BI hizmetindeki sayfalandırılmış raporlar için desteklenen veri kaynaklarını ve Azure SQL Veritabanı veri kaynaklarına nasıl bağlanacağınızı öğreneceksiniz.
+description: Sayfalandırılmış raporun içindeki rapor öğeleri olan alt raporları kullanırken karşılaşılan yaygın sorunların çözümünü öğrenin.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 49a4143fe3dbf55b31b4d30473fe6af3c047dda4
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485933"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747517"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarındaki alt raporların sorunlarını giderme
 

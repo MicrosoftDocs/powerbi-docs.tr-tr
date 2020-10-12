@@ -1,17 +1,17 @@
 ---
 title: Katalogları öğrenen yöneticiler
-description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
+description: Temel düzeyden ileri düzeye kadar yöneticiler için Power BI'a yönelik tüm eğitim seçeneklerini bulun.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 84fe80590a043626a31830765d8db4e28b52f666
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 3bf6e26eb21bdf4c8a348600bc6cf45b42b17ae3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411785"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749150"
 ---
 # <a name="administrators-learning-catalog"></a>Katalogları öğrenen yöneticiler
 

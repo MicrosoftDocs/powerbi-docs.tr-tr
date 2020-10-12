@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878706"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747724"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -66,11 +66,11 @@ Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/ra
 
 1. *capabilities.json* dosyasını düzenleyin ve `Values` dizesini `dataset` ile değiştirin. Bu, şablondaki “Rol” adını R kodundakine benzeyecek şekilde değiştirir.
 
-   ![önce ile sonra karşılaştırması](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![json dosyasındaki değişiklik karşılaştırmasını gösteren ekran görüntüsü.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(isteğe bağlı)* *dependencies.json* dosyasını düzenleyin ve R betiği için gereken her R pakete yönelik bir bölüm ekleyin. Bu işlem Power BI’a, görsel ilk kez yüklendiğinde bu paketleri otomatik olarak içeri aktarmasını söyler.
 
-   ![önce ile sonra karşılaştırması](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![cranPackages öğelerine içeriğin eklendiği karşılaştırmayı gösteren ekran görüntüsü.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
@@ -119,7 +119,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
 1. Kullanıcı arabirimindeki iç parametreler de dahil olmak üzere, görsel öğelerdeki renk ve boyutları denetlemek amacıyla kullanıcı için özellikler ekleyin.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![Araçlar bölmesinin iki sürümünü gösteren ekran görüntüsü, sağdakine bazı seçenekler eklenmiş.](./media/funnel-plot/diagram-two.PNG)
 
 1. *capabilities.json* dosyasını düzenleyip `objects` bölümünü güncelleştirin. Burada her parametrenin adını, araç ipuçlarını ve türlerini tanımlayıp parametrelerin gruplara ayrılmasına (bu örnekte üç grup) karar veririz.
 
@@ -274,7 +274,7 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
 
 * Her R Görseli, giriş tablosuna `unique` işlecini uygular. Özdeş satırların kaldırılmasını önlemek için benzersiz kimliğe sahip ek bir giriş alanı ekleyip bunu R kodunda yoksaymak yararlı olabilir.   
 
-* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](/power-bi/developer/visuals/custom-visual-develop-tutorial/) geliştirmek için Power BI hizmetini kullanın.
+* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](./custom-visual-develop-tutorial.md) geliştirmek için Power BI hizmetini kullanın.
 
 ### <a name="html-widgets-gallery"></a>HTML pencere öğeleri galerisi
 Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](http://gallery.htmlwidgets.org/) görselleri keşfedin. İşlemlerinizi kolaylaştırmak adına, aralarından seçim yapabileceğiniz 20’den fazla etkileşimli HTML görseli içeren bir [görsel proje deposu](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) oluşturduk!
@@ -291,15 +291,15 @@ Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](htt
 1. *pbiviz.json* dosyasındaki meta verileri, özellikle `guid` alanını değiştirin.
 1. Yeniden paketleyin ve görseli dilediğiniz gibi özelleştirmeye devam edin. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![Bu makalenin önceki bölümlerinde bahsedilen altı arabirim öğesini gösteren ekran görüntüsü.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![Bu makalenin önceki bölümlerinde bahsedilen diğer altı arabirim öğesini gösteren ekran görüntüsü.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > Bu projedeki arabirim öğelerinin tamamı hizmet tarafından desteklenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Daha fazla bilgi için [Power BI görselleri](./custom-visual-develop-tutorial.md) ve [R görsellerindeki](/power-bi/visuals/service-r-visuals) ek öğreticilere başvurun.
+Daha fazla bilgi için [Power BI görselleri](./custom-visual-develop-tutorial.md) ve [R görsellerindeki](../../visuals/service-r-visuals.md) ek öğreticilere başvurun.
 
 [Görselleri geliştirip](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) [Office Mağazasına (galeri)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) göndermeyi öğrenin veya daha fazla örnek için [R betiği gösterimine](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals) göz atın

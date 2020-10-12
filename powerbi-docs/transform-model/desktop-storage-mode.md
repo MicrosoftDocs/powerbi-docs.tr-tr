@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331383"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528172"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop’ta depolama modunu yönetme
 
@@ -78,7 +78,7 @@ Bu modeldeki tüm tabloların başlangıç ayarının **DirectQuery** olduğunu 
 
 ![Depolama modu uyarı penceresi](media/desktop-storage-mode/storage-mode-05.png)
 
-Boyut tablolarını (**Customer**, **Geography** ve **Date**), veri kümesindeki zayıf ilişki sayısını azaltmak ve performansı artırmak için **İkili** olarak ayarlayabilirsiniz. Zayıf ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. İkili tablolar, DirectQuery veya İçeri Aktarma tabloları olarak kullanılabildiğinden bu durumdan kaçınmış olursunuz.
+Boyut tablolarını (**Customer**, **Geography** ve **Date**), veri kümesindeki sınırlı ilişki sayısını azaltmak ve performansı artırmak için **İkili** olarak ayarlayabilirsiniz. Sınırlı ilişkiler normalde kaynak sistemlere birleştirme mantığının gönderilemediği en az bir DirectQuery tablosu içerir. İkili tablolar, DirectQuery veya İçeri Aktarma tabloları olarak kullanılabildiğinden bu durumdan kaçınmış olursunuz.
 
 Yayma mantığı, birçok tablo içeren modellerde yardımcı olmak için tasarlanmıştır. 50 tablo içeren bir modeliniz olduğunu ve yalnızca bazı olgu (işlem) tablolarının önbelleğe alınması gerektiğini varsayalım. Power BI Desktop'ın mantığı **İkili** olarak ayarlanması gereken en küçük boyut tablosu kümesini hesaplayabildiğinden, bunu sizin yapmanız gerekmez.
 
@@ -118,15 +118,15 @@ Her *Query Begin* olayı için, aynı *ActivityID* değerine sahip diğer olayla
 
 Önceki örnekten devam edersek, aşağıdaki sorgu **Date** tablosundan tek bir sütuna başvurur ve bu sütun da **İkili** modundadır. Dolayısıyla sorgunun önbelleğe isabet etmesi gerekir:
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-06.png)
+![Date tablosuna başvuran sorgu metnini gösteren ekran görüntüsü.](media/desktop-storage-mode/storage-mode-06.png)
 
 Aşağıdaki sorgu **Sales** tablosundan tek bir sütuna başvurur ve bu sütun da **DirectQuery** modundadır. Dolayısıyla, bunun önbelleği isabet *etmemesi* gerekir:
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-07.png)
+![Sales tablosuna başvuran sorgu metnini gösteren ekran görüntüsü.](media/desktop-storage-mode/storage-mode-07.png)
 
 Aşağıdaki sorgu ilginçtir çünkü her iki sütunu da birleştirir. Bu sorgu önbelleğe isabet etmez. Başlangıçta **CalendarYear** değerlerini önbellekten ve **SalesAmount** değerlerini de kaynaktan alıp sonuçları birleştirmesini bekleyebilirsiniz ama bu yaklaşım kaynak sisteme SUM/GROUP BY işlemi göndermekten daha az verimli olabilir. İşlem kaynağa doğru gönderilirse, döndürülen satır sayısı çok daha az olabilir: 
 
-![Depolama modu tanılamaları için betik](media/desktop-storage-mode/storage-mode-08.png)
+![Hem Date hem de Sales tablosuna başvuran sorgu metnini gösteren ekran görüntüsü.](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Bu davranış, önbelleğe alınmış ve alınmamış tabloların birleştirildiği [Power BI Desktop'ta çok-çok ilişkilerinden](desktop-many-to-many-relationships.md) farklıdır.

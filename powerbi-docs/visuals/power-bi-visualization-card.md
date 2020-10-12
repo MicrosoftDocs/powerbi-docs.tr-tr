@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237507"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526847"
 ---
 # <a name="create-card-visualizations"></a>Kart görselleştirmeleri oluşturma
 
@@ -102,7 +102,8 @@ Biçimlendirme bölmesi, rapordaki kartla etkileşimli çalışırken kullanıla
 5. Kartınız tam olarak istediğiniz şekilde olana kadar biçimlendirme seçeneklerini incelemeye devam edin. 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-Soru kutusu görmüyorsanız sistem veya kiracı yöneticinizle iletişime geçin.    
+
+Soru kutusu görmüyorsanız Power BI yöneticinizle iletişime geçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI'daki birleşik grafikler](power-bi-visualization-combo-chart.md)

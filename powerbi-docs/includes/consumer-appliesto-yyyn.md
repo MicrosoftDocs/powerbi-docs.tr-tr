@@ -8,11 +8,11 @@ ms.topic: include
 ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: e9401c6ea5ee9cc9f1e1bb6a5e23c2b28434f93c
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: a2a7ae1a0fa8f37d24ec62ddaf575782f014ccc5
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88639070"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528010"
 ---
-<Token>**Şunlar için geçerlidir:** ![evet](media/yes.png)***İş kullanıcıları*** için Power BI hizmeti ![evet](media/yes.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![evet](media/yes.png)Power BI Desktop ![hayır](media/no.png)Pro veya Premium lisans gerektirir </Token>
+<Token>**ŞUNUN İÇİN GEÇERLİDİR:** ![Şunun için geçerlidir:](media/yes.png)***İşletme kullanıcıları*** için Power BI hizmeti ![Şunun için geçerlidir:](media/yes.png)Tasarımcılar ve geliştiriciler için Power BI hizmeti ![Şunun için geçerlidir:](media/yes.png)Power BI Desktop ![Şunun için geçerli değildir:](media/no.png)Pro veya Premium lisansı gerekir </Token>

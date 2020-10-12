@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537815"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747931"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI görselleri hakkında SSS
 
@@ -32,9 +32,9 @@ Yönetici Power BI kuruluş görselinin yeni sürümünü yüklediğinde kurulu�
 
 Kullanıcılar Power BI kuruluş görsellerini yerleşik Power BI Desktop ve Power BI hizmeti kuruluş deposunda, *KURULUŞUM* sekmesinin altında bulabilir. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Yöneticinin genel marketten kuruluş deposuna yüklediği Power BI görselinde satıcı tarafından yapılan güncelleştirmeler otomatik olarak uygulanır mı?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Yöneticinin *Görsel ekle > AppSource'tan* yolunu izleyerek genel marketten kuruluş deposuna yüklediği Power BI görselinde satıcı tarafından yapılan güncelleştirmeler otomatik olarak uygulanır mı?
 
-Hayır, genel marketten otomatik güncelleştirme yapılmaz. Power BI kuruluş görselinin sürümünü güncelleştirmek Yöneticinin sorumluluğundadır.
+Evet, görsel genel marketten otomatik olarak güncelleştirilir. Görsel onaylıysa sertifika ve PDF veya PowerPoint olarak dışarı aktarma gibi ek özellikler korunur.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>Kuruluş deposunu devre dışı bırakmak mümkün mü?
 
@@ -135,7 +135,7 @@ IAP görselleri gelişmiş özellikler için isteğe bağlı uygulama içi satı
 
 ### <a name="what-is-changing-in-the-submission-process"></a>Gönderim işleminde neler değişti?
 
-IAP Power BI görsellerini markete gönderim işlemi, ücretsiz Power BI görsellerini gönderim işlemiyle aynıdır. Power BI görselini [İş Ortağı Merkezi](https://docs.microsoft.com/partner-center/) kullanılarak sertifikalanacak şekilde gönderebilirsiniz.
+IAP Power BI görsellerini markete gönderim işlemi, ücretsiz Power BI görsellerini gönderim işlemiyle aynıdır. Power BI görselini [İş Ortağı Merkezi](/partner-center/) kullanılarak sertifikalanacak şekilde gönderebilirsiniz.
 
 
 Power BI görselinizi kaydederken *Ürün kurulumu* sekmesine gidin ve *Ürünüm için hizmet satın alınması gerekiyor* onay kutusunu işaretleyin.

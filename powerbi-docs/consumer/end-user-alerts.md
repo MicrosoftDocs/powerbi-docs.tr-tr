@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049715"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525352"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Öğretici: Power BI panolarında uyarı ayarlama
 
@@ -86,7 +86,7 @@ Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydo
    
 1. **Uyarıları yönet** bölmesinde **+ Uyarı kuralı ekle**'yi seçin.  Kaydırıcının **Açık** konumda olduğundan emin olun ve uyarınıza bir ad verin. Başlıklar, uyarılarınızı kolayca ayırt etmenizi sağlar.
    
-   ![Uyarıları yönetme penceresi](media/end-user-alerts/power-bi-alert-manage.png)
+   ![Uyarı kuralı ekleme penceresi](media/end-user-alerts/power-bi-alert-manage.png)
 4. Sayfayı aşağı kaydırıp uyarıyla ilgili ayrıntıları girin.  Bu örnekte, pazar payımız 40’a veya daha üzerine çıktığında bizi günde bir kez bilgilendiren bir uyarı oluşturacağız. Uyarılar, [Bildirim merkezimizde](end-user-notification-center.md) görüntülenecek. Ayrıca Power BI bize bir e-posta da gönderecek.
    
    ![Uyarıları yönetme penceresi, Eşiği ayarlama](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ Uyarılarınızı yönetmek için kullanabileceğiniz birçok farklı yöntem va
 
 ## <a name="tips-and-troubleshooting"></a>İpuçları ve sorun giderme 
 
-* Bir ölçer, KPI veya kart için uyarı ayarlayamıyorsanız yardım için kiracı yöneticinize veya BT yardım masanıza başvurun. Uyarılar, bazen panolarınız veya belirli türden pano kutucukları için kapatılır veya kullanılamaz.
+* Bir ölçer, KPI veya kart için uyarı ayarlayamıyorsanız yardım için Power BI yöneticinize veya BT yardım masanıza başvurun. Uyarılar, bazen panolarınız veya belirli türden pano kutucukları için kapatılır veya kullanılamaz.
 * Uyarılar yalnızca yenilenen verilerde çalışır. Sabit veriler üzerinde çalışmazlar. Microsoft tarafından sağlanan örneklerin çoğu statiktir. 
 * Paylaşılan içeriği almak ve görüntülemek için Power BI Pro veya Premium lisansı gerekir. Daha fazla bilgi için bkz. [Hangi lisansa sahibim?](end-user-license.md)
 * Bir rapordan panoya sabitlenmiş olan akış veri kümelerinden oluşturulan görseller üzerinde uyarılar ayarlanabilir. **Kutucuk ekle** > **Özel akış verileri** kullanılarak doğrudan pano üzerinde oluşturulan akış kutucukları üzerinde uyarılar ayarlanamaz.

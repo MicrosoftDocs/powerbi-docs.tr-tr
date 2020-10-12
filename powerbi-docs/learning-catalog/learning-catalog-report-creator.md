@@ -1,17 +1,17 @@
 ---
 title: Rapor oluşturucusu öğrenme kataloğu
-description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
+description: Temel düzeyden ileri düzeye kadar rapor tasarımcıları için Power BI'a yönelik tüm eğitim seçeneklerini bulun.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 6b12b5333f852a62cc4e6232169fe353ace25fc3
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526133"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749380"
 ---
 # <a name="report-creator-learning-catalog"></a>Rapor Oluşturucusu Öğrenme Kataloğu
 

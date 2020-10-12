@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220023"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668609"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Power BI uygulamasını Face ID, Touch ID, geçiş kodu veya biyometrik verilerle koruma 
 
@@ -48,7 +48,7 @@ Bu ayar açıldıktan sonra, uygulamayı her başlattığınızda veya ön plana
 
 Aşağıdaki resimde parmak izi kimlik doğrulaması ekranı gösterilir.
 
-![Power BI iOS Face ID](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![Android telefonda Ek kimlik doğrulaması gerekiyor iletisini gösteren ekran görüntüsü.](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >Mobil uygulamanın “Biyometrik Kimlik Doğrulaması Gerektir” ayarını kullanabilmek için önce Android cihazınızda biyometrik verileri ayarlamanız gerekir. Cihazınız biyometrik verileri desteklemiyorsa bu mobil uygulama ayarını kullanarak Power BI verilerinize yönelik erişimin güvenliğini sağlayamazsınız.

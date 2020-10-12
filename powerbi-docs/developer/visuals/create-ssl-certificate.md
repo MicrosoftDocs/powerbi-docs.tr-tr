@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276387"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747563"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL sertifikası oluşturma
 
 Bu makalede Power BI görselleri için Güvenli Yuva Katmanı (SSL) sertifikası oluşturma ve yükleme adımları anlatılmaktadır.
 
-Windows, macOS X ve Linux yordamları için Power BI Görsel Araçlar **pbiviz** paketini yüklemiş olmanız gerekir. Daha fazla bilgi için bkz. [Geliştirici ortamını ayarlama](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment). 
+Windows, macOS X ve Linux yordamları için Power BI Görsel Araçlar **pbiviz** paketini yüklemiş olmanız gerekir. Daha fazla bilgi için bkz. [Geliştirici ortamını ayarlama](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment). 
 
 ## <a name="create-a-certificate-on-windows"></a>Windows'da sertifika oluşturma
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Windows 7'de `pbiviz` aracını kullanabilmeniz için komut satırından OpenSSL yardımcı programına erişebiliyor olmanız gerekir. OpenSSL’yi yüklemek için [OpenSSL](https://www.openssl.org) veya [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries) sayfasına gidin.
 
-Sertifika yükleme hakkında daha fazla bilgi ve yönergeler için bkz. [Windows için sertifika oluşturma ve yükleme](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows).
+Sertifika yükleme hakkında daha fazla bilgi ve yönergeler için bkz. [Windows için sertifika oluşturma ve yükleme](./custom-visual-develop-tutorial.md#windows).
 
 ## <a name="create-a-certificate-on-macos-x"></a>macOS X'te sertifika oluşturma
 
@@ -58,7 +58,7 @@ OpenSSL yardımcı programını yükledikten sonra yeni bir sertifika oluşturma
 pbiviz --install-cert
 ```
 
-Daha fazla bilgi ve yönergeler için bkz. [OS X için sertifika oluşturma ve yükleme](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx).
+Daha fazla bilgi ve yönergeler için bkz. [OS X için sertifika oluşturma ve yükleme](./custom-visual-develop-tutorial.md#osx).
 
 ## <a name="create-a-certificate-on-linux"></a>Linux'ta sertifika oluşturma
 
@@ -184,7 +184,7 @@ PFX sertifika dosyanız için şifre gerekiyorsa:
    \PowerBI-visuals-tools\config.json
    ```
    
-1. `server` bölümünde "\<YOUR PASSPHRASE>" yer tutucusunun yerine kendi şifrenizi belirtin:
+1. `server` bölümünde \<YOUR PASSPHRASE> yer tutucusunun yerine kendi şifrenizi belirtin:
 
     ```cmd
     "server":{

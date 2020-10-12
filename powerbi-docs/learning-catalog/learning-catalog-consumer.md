@@ -1,17 +1,17 @@
 ---
 title: Tüketiciler öğrenme kataloğu
-description: Power BI’a yönelik tüm eğitim seçeneklerini bulun
+description: Temel düzeyden ileri düzeye kadar raporları ve panoları kullanan tüketiciler için Power BI'a yönelik tüm eğitim seçeneklerini bulun.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532753"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749426"
 ---
 # <a name="consumers-learning-catalog"></a>Tüketiciler öğrenme kataloğu
 
@@ -22,6 +22,6 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 ## <a name="get-started"></a>Kullanmaya başlayın<a name="get-started"></a>
 | İçerik  | Açıklama  | Biçim| Uzunluk  |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
-| [Power BI ile verileri tüketme](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | İş kararlarınızın verilerle desteklenmesini ister misiniz? Power BI’da bunu nasıl yapabileceğinizi öğrenin. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşim kurmak için Power BI’da çalışmayı öğrenin. | Kendi hızınızda ilerleyebileceğiniz ücretsiz ve çevrimiçi öğrenme yolu | 2 sa 9 dk  |
+| [Power BI ile verileri tüketme](/learn/paths/consume-data-with-power-bi/) | İş kararlarınızın verilerle desteklenmesini ister misiniz? Power BI’da bunu nasıl yapabileceğinizi öğrenin. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşim kurmak için Power BI’da çalışmayı öğrenin. | Kendi hızınızda ilerleyebileceğiniz ücretsiz ve çevrimiçi öğrenme yolu | 2 sa 9 dk  |
 | [Microsoft Power BI YouTube kanalı](https://www.youtube.com/user/mspowerbi/videos) | Microsoft Power BI ürün ekibinin sağladığı içeriğin bulunduğu YouTube kanalı  | Videolar  |            |
-| [Power BI nedir?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | Power BI’a genel bakış | Web sitesi  | Okuma süresi 3 dakika |
+| [Power BI nedir?](../fundamentals/power-bi-overview.md) | Power BI’a genel bakış | Web sitesi  | Okuma süresi 3 dakika |
