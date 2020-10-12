@@ -12,34 +12,36 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2020
+ms.date: 09/30/2020
 ms.author: mihart
-ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049748"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780531"
 ---
-# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Hızlı başlangıç: *Tüketiciler* için Power BI özellikleri hakkında bilgi edinin
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>Hızlı başlangıç: *İşletme kullanıcıları* için Power BI özellikleri hakkında bilgi edinin
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-Bu hızlı başlangıçta Power BI ile etkileşim kurarak veri temelli iş içgörülerini keşfetmeyi öğreneceksiniz. Bu makalede ayrıntılı bilgiler yerine Power BI **tüketicileri** için sunulan eylemlerin bazılarıyla ilgili kısa bilgiler verilmektedir.
+Bu hızlı başlangıçta Power BI ile etkileşim kurarak veri temelli iş içgörülerini keşfetmeyi öğreneceksiniz. Bu makalede ayrıntılı bilgiler yerine Power BI **işletme kullanıcıları** için sunulan eylemlerin bazılarıyla ilgili kısa bilgiler verilmektedir.
 
 Power BI’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 ## <a name="what-is-power-bi"></a>Power BI nedir? 
 Power BI, birbirinden bağımsız veri kaynaklarınızı tutarlı, görsel olarak sürükleyici ve etkileşimli içgörülere dönüştürmenizi sağlamak için birlikte çalışan yazılım hizmetlerinden, uygulamalardan ve bağlayıcılardan oluşan bir koleksiyondur. Verilerinizin basit bir Excel elektronik tablosu veya farklı veri kaynaklarından alınmış bir veri koleksiyonu olması fark etmeksizin Power BI, veri kaynaklarınıza kolayca bağlanmanıza, önemli verileri görselleştirmenize (veya araştırmanıza) ve bunları istediğiniz herkesle paylaşmanıza olanak sağlar. 
 
-![Uygulama edinin simgesi](./media/end-user-reading-view/power-bi-conceptual.png)
+![Çeşitli kaynaklardan içerik alarak rapor oluşturan Power BI hizmetini gösteren ekran görüntüsü.](./media/end-user-reading-view/power-bi-concept.png)
+
+Power BI hizmetini bir tarayıcıda veya mobil cihazda açın. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir uygulama, pano ve raporlarda birlikte çalışırsınız.   
 
 ## <a name="reading-view"></a>Okuma görünümü
-Okuma görünümü, rapor *tüketicileri* için Power BI hizmetinde kullanılabilir. Okuma görünümü, iş arkadaşlarınızın sizinle paylaştığı raporu, panoyu veya uygulamayı keşfetmek ve bununla etkileşim kurmak için kullanabileceğiniz görünümdür. 
+Power BI hizmetinde raporlarla etkileşimli çalışmak için kullanabileceğiniz iki mod vardır: Düzenleme görünümü ve Okuma görünümü.  Başkaları tarafından oluşturulan raporları kullanan *işletme kullanıcıları* genellikle Okuma görünümünü tercih eder. Düzenleme görünümü, rapor oluşturan ve başkalarıyla paylaşan *tasarımcılar* tarafından kullanılır. İş arkadaşlarınız tarafından oluşturulan raporları incelemek ve onlarla etkileşime geçmek için Okuma görünümünü kullanmanız gerekir. 
 
-Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir uygulama, pano ve raporlarda birlikte çalışırsınız.   
 
-İçerik statik olmadığından eğilimleri, içgörüleri ve diğer iş zekası verilerini aramak için ayrıntılı incelemeler yapabilirsiniz. İçeriği ayrıntılı olarak inceleyin ve kendi cümlelerinizi kullanarak soru sorun. Dilerseniz arkanıza yaslanıp verilerinizin sizin için ilgi çekici içgörüleri keşfetmesini, veriler değişince sizi bilgilendirmesini ve ayarladığınız bir zamanlamada raporları size e-posta olarak göndermesini bekleyebilirsiniz. Verilerinize buluttan veya şirket içinden, herhangi bir cihazı kullanarak istediğiniz her zaman erişin. 
+
+Okuma görünümünde dahi içerik sabit değildir. Eğilimleri, içgörüleri ve diğer iş zekası verilerini aramak için ayrıntılı incelemeler yapabilirsiniz. İçeriği ayrıntılı olarak inceleyin ve kendi cümlelerinizi kullanarak soru sorun. Dilerseniz arkanıza yaslanıp verilerinizin sizin için ilgi çekici içgörüleri keşfetmesini, veriler değişince sizi bilgilendirmesini ve ayarladığınız bir zamanlamada raporları size e-posta olarak göndermesini bekleyebilirsiniz. Verilerinize buluttan veya şirket içinden, herhangi bir cihazı kullanarak istediğiniz her zaman erişin. 
 
 Bu özellikler ve diğerleri hakkında daha fazla bilgi edinmek için okumaya devam edin.
 
@@ -52,19 +54,19 @@ Power BI’da "içerik" terimini kullandığımızda raporlardan, panolardan ve 
 
 ###  <a name="apps"></a>Uygulamalar
 
-*Uygulama*, ilgili panoları ve raporları bir araya getiren bir Power BI içerik türüdür. Bir uygulamada bir veya daha fazla pano ve bir veya daha fazla rapor bir arada bulunabilir. Uygulamalar Power BI *tasarımcıları* tarafından oluşturulur ve sizin gibi *tüketicilere* dağıtılarak paylaşılır. 
+*Uygulama*, ilgili panoları ve raporları bir araya getiren bir Power BI içerik türüdür. Bir uygulamada bir veya daha fazla pano ve bir veya daha fazla rapor bir arada bulunabilir. Uygulamalar Power BI *tasarımcıları* tarafından oluşturulur ve sizin gibi *işletme kullanıcılarına* dağıtılarak paylaşılır. 
 
 Uygulamalarınızı görüntülemenin bir yolu gezinti bölmesinden **Uygulamalar**’ı seçmek ve açılacak uygulamayı belirlemektir.
 
-![Uygulama edinin simgesi](./media/end-user-reading-view/power-bi-apps.png)
+![Sekiz farklı uygulamayı gösteren Uygulamalar ekranının ekran görüntüsü.](./media/end-user-reading-view/power-bi-app.png)
 
 Uygulamaları görüntüleme hakkında daha fazla bilgi edinmek için bkz. [Power BI uygulamaları](end-user-apps.md)
 
 ### <a name="reports"></a>Raporlar
 
-Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar. Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. Raporlar Power BI *tasarımcıları* tarafından oluşturulur ve sizin gibi *tüketicilere* dağıtılarak paylaşılır.
+Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar. Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. Raporlar Power BI *tasarımcıları* tarafından oluşturulur ve sizin gibi *işletme kullanıcılarına* dağıtılarak paylaşılır.
 
-![Uygulama edinin simgesi](./media/end-user-reading-view/power-bi-report-phone.png)
+![Aynı raporu hem cep telefonunda hem de bilgisayardaki tarayıcıda gösteren çizim.](./media/end-user-reading-view/power-bi-report-phone.png)
 
 Raporların nasıl görüntülendiğini öğrenmek için bkz. [Power BI raporları](end-user-reports.md)
 
@@ -74,7 +76,7 @@ Power BI panosu, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle
 
 Panoda gördüğünüz görselleştirmeler, kutucuk olarak adlandırılır ve rapor *tasarımcıları* tarafından panoya sabitlenir. Çoğu durumda bir kutucuğu seçtiğinizde görselleştirmenin oluşturulduğu rapor sayfasına gidersiniz. 
 
-![Uygulama edinin simgesi](./media/end-user-reading-view/power-bi-dashboard-phone.png)
+![Hem cep telefonunda hem de bilgisayardaki tarayıcı ekranında aynı panonun görüntülendiğini gösteren çizim.](./media/end-user-reading-view/power-bi-dashboard-phone.png)
 
 Panoların nasıl görüntüleneceğini öğrenmek için bkz. [Power BI panoları](end-user-dashboards.md)
  
@@ -93,7 +95,7 @@ Power BI hizmetinin sizin için çalışmasını sağlamanın yollarından ikisi
 #### <a name="subscribe-to-a-dashboard-or-report"></a>Bir panoya (veya rapora) abone olma
 Bir panoyu izlemek için Power BI'ı açmanıza gerek yoktur.  Bunun yerine abone olabilir ve Power BI'ın belirlediğiniz aralıklarla ilgili panonun anlık görüntüsünü e-posta ile göndermesini sağlayabilirsiniz. 
 
-![Abone ol simgesini seçme](./media/end-user-reading-view/power-bi-subscribe-email.png).
+![Abone ol simgesini seçme](./media/end-user-reading-view/power-bi-subscribe-and-email.png)
 
  [Power BI abonelikleri](end-user-subscribe.md) hakkında daha fazla bilgi edinin
 
@@ -110,7 +112,7 @@ Değer ayarladığınız sınırın üzerine çıkar veya altına düşerse Powe
 ### <a name="use-qa-to-ask-questions-using-natural-language"></a>Doğal dil kullanarak soru sormak için Soru-Cevap özelliğini kullanma
 Bazen verilerinize ilişkin cevaplar edinmenin en hızlı yolu doğal dil kullanarak bir soru sormaktır. Soru-Cevap soru kutusu panonuzun en üstünde bulunur. Örneğin "show me count of large opportunities by sales stage as a funnel" (satış aşamasına göre büyük fırsat sayısını huni olarak göster). 
 
-![Soru-Cevap](./media/end-user-reading-view/power-bi-q-and-a.png)
+![Soru-Cevap](./media/end-user-reading-view/power-bi-q-and-a-funnel.png)
 
 [Power BI Soru-Cevap](end-user-q-and-a.md) hakkında daha fazla bilgi edinin
 
@@ -120,22 +122,26 @@ Görseller veri noktalarından oluşur ve bir veri noktasının üzerine geldiğ
 ![ayrıntıları görmek için öğelerin üzerine gelin](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Bir panoyu sık kullanılanlara ekleme
-İçeriği *sık kullanılanlara* eklediğinizde buna gezinti bölmesinden erişebilirsiniz. Gezinti bölmesi, Power BI'ın neredeyse tüm alanlarından görünür. Sık kullanılanlar, en çok ziyaret ettiğiniz panolar, rapor sayfaları ve uygulamalardır.
+İçeriği *sık kullanılanlara* eklediğinizde buna [Giriş](end-user-home.md) ekranından ve gezinti bölmesinden erişebilirsiniz. Gezinti bölmesi, Power BI hizmetinin neredeyse tüm alanlarından görünür. Sık kullanılanlar, en çok ziyaret ettiğiniz panolar, rapor sayfaları ve uygulamalardır.
 
-Power BI hizmetinin sağ üst köşesinde **Sık Kullan**’ı seçin veya bu seçenek görünmüyorsa **Diğer seçenekler**’i (...) ve açılır listeden **Sık Kullanılan**’ı seçin. 
+İçeriği sık kullanılanlara eklemek için Power BI hizmetinin sağ üst köşesinde bulunan yıldız simgesini seçin. 
    
-![Sık kullanılan simgesi](./media/end-user-reading-view/power-bi-favorites.png)
+![Panonun sağ üst köşesinde bulunan vurgulanmış yıldız simgesini gösteren ekran görüntüsü.](./media/end-user-reading-view/power-bi-favorite-icon.png)
 
-Açılan listede sağlanan diğer eylemleri gözden geçirin.  Bunların tümünü bu makaleye almadık ama başka makalelere ekledik.  Power BI içindekiler tablosunu veya **Arama** alanını kullanma hakkında daha fazla bilgi edinin. 
+Sık kullandığınız öğeleri görmek için gezinti bölmesinden **Sık kullanılanlar**'ı seçin.
+
+![Sık kullanılanlar seçilmiş ve kırmızıyla vurgulanmış şekilde Giriş ekranının ekran görüntüsü.](./media/end-user-reading-view/power-bi-list-favorite.png)
+
+Menü çubuğunda sağlanan diğer eylemleri gözden geçirin.  Bunların tümünü bu makaleye almadık ama başka makalelere ekledik.  Power BI içindekiler tablosunu veya **Arama** alanını kullanma hakkında daha fazla bilgi edinin. 
 
 [Sık kullanılanlar ve öne çıkanlar](end-user-favorite.md) hakkında daha fazla bilgi edinin
 
 ### <a name="adjust-the-display-dimensions"></a>Görüntüleme boyutlarını ayarlama
 Raporlar çok farklı cihazlarda görüntülenir ve bu cihazların ekran boyutlarıyla en/boy oranları birbirinden farklıdır.  Rapor, varsayılan oluşturma işlemi sonucunda cihazda görüntülemek istediğinizden farklı olabilir.  
 
-Görüntüyü ayarlamak için sağ üst menü çubuğunda **Görünüm**’ü seçin ve görüntü seçeneklerinden birini belirtin. 
+Görüntüyü ayarlamak için sağ üst menü çubuğunda **Görünüm** simgesini seçin ve görüntü seçeneklerinden birini belirtin. 
 
-![rapor Görünüm menüsü](media/end-user-reading-view/power-bi-view-menu.png)
+![rapor Görünüm menüsü](media/end-user-reading-view/power-bi-view-icon.png)
 
 ### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>Sayfadaki tüm görseller arasındaki bağlantıyı görme
 Rapor sayfasındaki ilgili görselleştirmeleri çapraz vurgulayın ve çapraz filtreleyin. Tek bir rapor sayfasındaki görselleştirmeler birbirine "bağlıdır".  Başka bir deyişle, görselleştirmenizdeki değerlerin birini veya daha fazlasını seçtiğinizde aynı verileri kullanan diğer görselleştirmeler de yaptığınız seçime göre değişir.
@@ -159,13 +165,15 @@ Easily navigate between the visualizations on the report page.
 ### <a name="zoom-in-on-individual-visuals"></a>Görselleri yakınlaştırma
 Görselin üzerine gelip **Odak modu** simgesini ![menüden Odak modunu seç ](media/end-user-reading-view/pbi_popouticon.jpg) seçin. Bir görselleştirmeyi Odak modunda görüntülediğinizde aşağıda gösterildiği gibi rapor tuvalinin tamamını dolduracak şekilde genişletilir.
 
-![odak modu](media/end-user-reading-view/power-bi-full-screen-before.png)
+![Odak modu simgesini gösteren okun bulunduğu ekran görüntüsü.](media/end-user-reading-view/power-bi-fullscreen.png)
 
-![tam ekran modu](media/end-user-reading-view/power-bi-full-screen-after.png)
+![Odak modundaki görselinin tuvali doldurduğunu gösteren ekran görüntüsü.](media/end-user-reading-view/power-bi-fullscreen-after.png)
 
-<!-- To display that same visualization without the distraction of menubars, filter pane, and other chrome -- select the **Full Screen** icon from the top menubar  ![full screen icon](media/end-user-reading-view/power-bi-focus-icon.png)  .
+Aynı görselleştirmeyi menü çubukları, filtre bölmesi ve diğer görselleştirmeler olmadan görüntülemek için Görünüm açılan menüsünden **Tam ekran**'ı seçin.   
 
-![full screen mode](media/end-user-reading-view/power-bi-full-screen-after.png) -->
+![Görünüm açılan menüsünü gösteren ekran görüntüsü.](media/end-user-reading-view/power-bi-focus.png)
+
+![Aynı görseli tam ekran modunda gösteren ekran görüntüsü.](media/end-user-reading-view/power-bi-full.png)
 
 [Odak modu ve tam ekran modu](end-user-focus.md) hakkında daha fazla bilgi edinin
 
@@ -179,11 +187,11 @@ Görseli etkinleştirmek için üzerine gelin ve **Diğer seçenekler**’i (...
 [Görselleri sıralama](end-user-search-sort.md) hakkında daha fazla bilgi edinin
 
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri gösterme
-Power BI görselleştirmeleri, bağlı veri kümelerindeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. **Verileri Göster**'i seçtiğinizde, Power BI ilgili verileri görselleştirmenin altında (veya yanında) görüntüler.
+Power BI görselleştirmeleri, bağlı veri kümelerindeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. Power BI, **Tablo olarak göster**’i seçtiğinizde verileri görselleştirmenin altında (veya yanında) gösterir.
 
-Bir görsel etkinken **Diğer seçenekler**’i (...) ve **Verileri göster**’i seçin.
+Bir görsel etkinken **Diğer seçenekler**’i (...) ve **Tablo olarak göster**’i seçin.
    
-   ![Verileri Göster’i seçme](./media/end-user-show-data/power-bi-explore-show-data.png)
+   ![Üstte alan grafiğini ve altta verilerin bulunduğu tabloyu gösteren ekran görüntüsü.](./media/end-user-show-data/power-bi-show-data-table.png)
 
 
 ### <a name="export-data-to-excel"></a>Excel’e verileri aktarma
@@ -195,7 +203,7 @@ Görseli oluştururken kullanılan verileri göstermenin yanı sıra, bu veriler
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
-Bu hızlı başlangıç, *tüketicilerin* Power BI hizmeti ile gerçekleştirebileceği işlemlere hızlı bir genel bakış niteliğindedir.  
+Bu hızlı başlangıç, *işletme kullanıcılarının* Power BI hizmeti ile gerçekleştirebileceği işlemlere hızlı bir genel bakış niteliğindedir.  
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
 - Bir uygulamaya bağlandıysanız gezinti bölmesinden **Uygulamalar**'ı seçerek Uygulamalar içerik listesini açın. Silmek istediğiniz uygulamanın üzerine gelip çöp kutusu simgesini seçin.
@@ -203,5 +211,5 @@ Bu hızlı başlangıç, *tüketicilerin* Power BI hizmeti ile gerçekleştirebi
 - Bir Power BI örnek raporunu içeri aktardıysanız veya raporla bağlantı kurduysanız gezinti bölmesinden **Çalışma alanım**'ı açın. Yukarıdaki sekmeleri kullanarak panoyu, raporu ve veri kümesini bulun ve her birinin yanındaki çöp kutusu simgesini seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Tüketiciler için Power BI](end-user-consumer.md)
+[İş kullanıcıları için Power BI](end-user-consumer.md)
 

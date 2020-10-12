@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215152"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668632"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Çift yönlü ilişki kılavuzu
 
@@ -77,7 +77,7 @@ Rapor kullanıcıları Australia’ya göre dilimlediğinde, **Product** dilimle
 
 Şimdi **Product** dilimleyicisinde tek öğe listelenir: T-shirt. Bu öğe Avustralyalı (Australia) müşterilere satılan tek ürünü temsil eder.
 
-![Üç görsel içeren rapor sayfasını gösteren diyagram. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Üç görsel içeren rapor sayfasını gösteren diyagram. Product vurgulanmış. Ayrıntılar aşağıdaki paragrafta açıklanmıştır.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 Önce bu tasarımın rapor kullanıcılarınıza uygun olup olmadığını dikkatle irdelemenizi öneririz. Bazı rapor kullanıcıları bu deneyimi kafa karıştırıcı bulabilir. Diğer dilimleyicilerle etkileşim kurduklarında dilimleyici öğelerinin neden dinamik olarak göründüğünü veya kaybolduğunu anlamayabilirler.
 

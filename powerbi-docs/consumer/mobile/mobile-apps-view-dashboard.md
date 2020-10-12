@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091713"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668655"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında pano görüntüleme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -45,11 +45,11 @@ Power BI hizmetinde Power BI panoları şu şekilde görünür:
     ![Panoya dokunun](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
    
    Power BI panoları iPhone'unuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı boyuttadır ve yukarıdan aşağıya doğru alt alta dizilmiştir.
    
-    ![Dikey pano görünümü](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![Aynı boyutta birkaç Power BI kutucuğu bulunan iPhone ekranını gösteren ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../create-reports/service-create-dashboard-mobile-phone-view.md). 
@@ -67,7 +67,7 @@ Power BI hizmetinde Power BI panoları şu şekilde görünür:
    * [Panoyu Apple Watch cihazınızla eşitleyebilirsiniz](mobile-apple-watch.md).
 4. Pano listesine dönmek için pano başlığının yanındaki oka ve ardından **Çalışma Alanım**'a dokunun.
    
-   ![İçerik haritası](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![Tasarım gereği farklı boyutlarda olan kutucukların yer aldığı Power BI panosunu gösteren ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Panoları iPhone'unuzda yatay modda görüntüleme
 Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterlidir. Pano düzeni kutucuk dizisinden tam kapsamlı pano görünümüne dönüşür. Bu sayede tüm pano kutucuklarını Power BI hizmetindeki gibi görüntüleyebilirsiniz.
@@ -82,13 +82,13 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    Önce Apple App Store'dan [iPad uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkId=522062) mi gerekiyor?
 2. Uygulamanın en üstünde yer alan **Panolar**'a dokunun.  
    
-   ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![PANOLARIM öğesinin seçili olduğu Çalışma Alanım bölümünü gösteren iPad ekranının ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 3. Çalışma alanınızdaki panoları paylaşabilirsiniz. Pano kutucuğunun sağ alt köşesindeki üç nokta ( **...** ) simgesine tıklayıp **Diğerlerini Davet Et**'e dokunun.
    
-   ![Davet et simgesi](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![Diğerlerini Davet Et seçeneğini görüntüleyen üç nokta simgesini gösteren ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. Dilerseniz herhangi bir panoya dokunarak açabilir ve panodaki kutucukları görüntüleyebilirsiniz. Açık panolarla etkileşimde bulunabilirsiniz:
    
    * Kutucukla [etkileşimde bulunmak için dokunun](mobile-tiles-in-the-mobile-apps.md).
@@ -97,7 +97,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    * Kutucuğun [ekran görüntüsüne not ekleyin ve paylaşın](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 5. Çalışma Alanım sayfasına geri dönmek için sol üst köşede bulunan pano adına dokunup **Çalışma Alanım**'ı seçin.
    
-   ![İçerik haritası](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![Çalışma Alanım öğesinin seçili olduğu içerik haritası menüsünü gösteren iPad ekranının ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Panoları Android telefonunuzda görüntüleme
 1. Android telefonunuzda Power BI uygulamasını açıp oturum açın.
@@ -105,15 +105,15 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    Önce [Android uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
 2. Açmak istediğiniz panoya dokunun.   
    
-   ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![PANOLARIM öğesinin seçili olduğu Çalışma Alanım bölümünü gösteren Android telefon ekranının ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
 
-    Pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
+    Pano adının altındaki gösterim (bu örnekte "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 
     Power BI panoları Android telefonunuzda varsayılan olarak biraz farklı görünür. Tüm kutucuklar aynı genişliktedir ve yukarıdan aşağıya doğru alt alta dizilmişlerdir.
 
-    ![Dikey pano görünümü](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![Aynı boyutta birkaç kutucuğun bulunduğu Android telefon ekranını gösteren ekran görüntüsü.](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     Panonun sahibi sizseniz Power BI hizmetinde dikey modda [telefonlara özel bir pano görünümü oluşturabilirsiniz](../../create-reports/service-create-dashboard-mobile-phone-view.md). 
 
@@ -129,10 +129,10 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    Önce [Android uygulamasını indirmeniz](https://go.microsoft.com/fwlink/?LinkID=544867) mi gerekiyor?
 2. Açmak istediğiniz panoya dokunun.   
    
-   ![Pano giriş sayfası](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![PANOLARIM öğesinin seçili olduğu Çalışma Alanım bölümünü gösteren Android tablet ekranının ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Sarı yıldızlar ![Sık kullanılanlar yıldızı](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) sık kullanılan panoları gösterir. 
-   * Her pano adının altındaki gösterim (bu örnekte "MBI") ![Veri sınıflandırması](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
+   * Her pano adının altındaki gösterim (bu örnekte "MBI") :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: panolardaki verilerin nasıl sınıflandırıldığını gösterir. [Power BI'daki veri sınıflandırması](../../create-reports/service-data-classification.md) hakkında daha fazla bilgi edinin.
 3. Pano adının yanındaki **Diğer seçenekler** (...) düğmesine dokunarak bir iş arkadaşınızı davet edebilir, panoyu yenileyebilir veya pano hakkında bilgi alabilirsiniz:
    
    ![Üç nokta menüsü](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ Panoları yatay modda görüntülemek için telefonunuzu yan çevirmeniz yeterli
    "Sıkıştırma" hareketini kullanarak panonuzun farklı bölümlerini yakınlaştırıp uzaklaştırabilir, ekranı kaydırarak panoda gezinebilirsiniz. Bu modda da [bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) odak modunda açabilir ve verilerinizle etkileşim kurabilirsiniz.
 5. Pano giriş sayfasına geri dönmek için pano adına dokunarak içerik haritasını açın ve **Çalışma Alanım**'a dokunun:
    
-    ![İçerik haritası](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![Çalışma Alanım öğesinin seçili olduğu içerik haritası menüsünü gösteren Android tabletin ekran görüntüsü.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     "Sıkıştırma" hareketini kullanarak panonuzun farklı bölümlerini yakınlaştırıp uzaklaştırabilir, ekranı kaydırarak panoda gezinebilirsiniz. Bu modda da [bir kutucuğa dokunarak](mobile-tiles-in-the-mobile-apps.md) odak modunda açabilir ve verilerinizle etkileşim kurabilirsiniz.
 

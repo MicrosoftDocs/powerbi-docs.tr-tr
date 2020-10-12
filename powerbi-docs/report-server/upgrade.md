@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
-ms.date: 09/05/2017
-ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 09/22/2020
+ms.openlocfilehash: 9267d6318bd951fdff41cb51786a4a519fa75917
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861740"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136063"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 
 Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
 
- **İndirin** ![indirin](media/upgrade/download.png "indirin")
+ **İndirin** ![indirme simgesi](media/upgrade/download.png "indirme simgesi")
 
 Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
 
@@ -30,21 +30,21 @@ Bir rapor sunucusunu yükseltmeden önce rapor sunucunuzu yedeklemek için aşa�
 
 ### <a name="backing-up-the-encryption-keys"></a>Şifreleme anahtarlarını yedekleme
 
-Bir rapor sunucusu yüklemesini ilk kez yapılandırırken, şifreleme anahtarlarını yedeklemeniz gerekir. Ayrıca hizmet hesaplarının kimliklerini her değiştirdiğinizde veya bilgisayarı her yeniden adlandırdığınızda da anahtarları yedeklemeniz gerekir. Daha fazla bilgi için bkz. [Reporting Services Şifreleme Anahtarlarını Yedekleme ve Geri Yükleme](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
+Bir rapor sunucusu yüklemesini ilk kez yapılandırırken, şifreleme anahtarlarını yedekleyin. Ayrıca hizmet hesaplarının kimliklerini her değiştirdiğinizde veya bilgisayarı her yeniden adlandırdığınızda da anahtarları yedekleyin. Daha fazla bilgi için bkz. [Reporting Services Şifreleme Anahtarlarını Yedekleme ve Geri Yükleme](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys).
 
 ### <a name="backing-up-the-report-server-databases"></a>Rapor sunucusu veritabanlarını yedekleme
 
-Rapor sunucusu durum bilgisi olmayan bir sunucu olduğundan, tüm uygulama verileri bir SQL Server Veritabanı Altyapısı örneğinde çalışan **reportserver** ve **reportservertempdb** veritabanlarında depolanır. SQL Server veritabanlarını yedeklemek için desteklenen yöntemlerden birini kullanarak **reportserver** ve **reportservertempdb** veritabanlarını yedekleyebilirsiniz. Aşağıda, rapor sunucusu veritabanlarına özel bazı öneriler sunulmuştur:
+Rapor sunucusu durum bilgisi olmayan bir sunucu olduğundan, tüm uygulama verileri bir SQL Server Veritabanı Altyapısı örneğinde çalışan **reportserver** ve **reportservertempdb** veritabanlarında depolanır. SQL Server veritabanlarını yedeklemek için desteklenen yöntemlerden birini kullanarak **reportserver** ve **reportservertempdb** veritabanlarını yedekleyebilirsiniz. Bu öneriler rapor sunucusu veritabanlarına özeldir:
 
 * **reportserver** veritabanını yedeklemek için tam kurtarma modelini kullanın.
 * **reportservertempdb** veritabanını yedeklemek için basit kurtarma modelini kullanın.
-* Her veritabanı için farklı yedekleme zamanlamaları kullanabilirsiniz. **reportservertempdb** veritabanının yedeklenmesinin tek nedeni, bir donanım arızası durumunda yeniden oluşturmak zorunda kalmamaktır. Donanım arızası durumunda **reportservertempdb** veritabanındaki verilerin kurtarılması gerekmez ancak tablo yapısının kurtarılması önemlidir. **reportservertempdb** veritabanını kaybetmeniz durumunda geri almanın tek yolu, rapor sunucusu veritabanını yeniden oluşturmaktır. **reportservertempdb** veritabanının yeniden oluşturulacak olması durumunda, birincil rapor sunucusu veritabanıyla aynı ada sahip olması önemlidir.
+* Her veritabanı için farklı yedekleme zamanlamaları kullanabilirsiniz. **reportservertempdb** veritabanının yedeklenmesinin tek nedeni, bir donanım arızası durumunda yeniden oluşturmak zorunda kalmamaktır. Donanım arızası durumunda **reportservertempdb** veritabanındaki verileri kurtarmanıza gerek yoktur ancak tablo yapısına ihtiyacınız olacaktır. **reportservertempdb** veritabanını kaybetmeniz durumunda geri almanın tek yolu, rapor sunucusu veritabanını yeniden oluşturmaktır. **reportservertempdb** veritabanının yeniden oluşturulacak olması durumunda, birincil rapor sunucusu veritabanıyla aynı ada sahip olması önemlidir.
 
 SQL Server ilişkisel veritabanlarının yedeklenmesi ve kurtarılması hakkında daha fazla bilgi için bkz. [Back Up and Restore of SQL Server Databases (SQL Server Veritabanlarının Yedeklenmesi ve Geri Yüklenmesi)](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases).
 
 ### <a name="backing-up-the-configuration-files"></a>Yapılandırma dosyalarını yedekleme
 
-Power BI Rapor Sunucusu, uygulama ayarlarını depolamak için yapılandırma dosyalarını kullanır. Sunucuyu ilk kez yapılandırırken ve herhangi bir özel uzantıyı dağıtmanızın ardından dosyaları yedeklemeniz gerekir. Yedeklenecek dosyalar şunlardır:
+Power BI Rapor Sunucusu, uygulama ayarlarını depolamak için yapılandırma dosyalarını kullanır. Sunucuyu ilk kez yapılandırırken ve herhangi bir özel uzantıyı dağıtmanızın ardından dosyaları yedekleyin. Yedeklenecek dosyalar şunlardır:
 
 * config.json
 * RSHostingService.exe.config
@@ -72,9 +72,17 @@ Power BI Rapor Sunucusu'nu yükseltmek oldukça kolaydır. Dosyaları yüklemek 
 
     ![Yapılandırmayı yükseltme](media/upgrade/reportserver-upgrade-configure.png)
 
+## <a name="enable-microsoft-update-security-fixes-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Microsoft Update güvenlik düzeltmelerini etkinleştirme
+
+Power BI Rapor Sunucusu, güvenlik düzeltmelerini Microsoft Update aracılığıyla alır. Bunları almak için Microsoft Update'i el ile etkinleştirmeniz gerekir.
+
+1.  Etkinleştirmek istediğiniz bilgisayarda **Güncelleştirme ve güvenlik ayarları**'nın altında Windows Update'i açın.
+2.  **Gelişmiş seçenekler**'i seçin.
+3.  **Windows'u güncelleştirdiğinizde diğer Microsoft ürünleri için güncelleştirmeler alın** onay kutusunu seçin.
+
 ## <a name="upgrade-power-bi-desktop"></a>Power BI Desktop'ı yükseltme
 
-Rapor sunucusu yükseltildikten sonra tüm Power BI Rapor yazarlarının Power BI Rapor Sunucusu için en iyi duruma getirilmiş olan ve sunucuyla eşleşen Power BI Desktop sürümüne yükseltme yaptığından emin olmanızda yarar vardır.
+Rapor sunucusunu yükselttikten sonra tüm Power BI rapor yazarlarının Power BI Rapor Sunucusu için en iyi duruma getirilmiş olan ve sunucuyla eşleşen Power BI Desktop sürümüne yükseltme yaptığından emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
