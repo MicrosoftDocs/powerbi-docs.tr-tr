@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216130"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634126"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Hızlı Başlangıç - Power BI hizmetinde dolaşma
 
@@ -47,12 +47,12 @@ Başlamak için Power BI hizmetini (app.powerbi.com) açın ve **Giriş**’e gi
 
 1. Uygulama yüklendikten sonra gezinti bölmesinde **Uygulamalar** seçeneğini belirleyin. 
 
-   ![Power BI hizmetini ilk kez açın](./media/end-user-experience/power-bi-home-steps.png)
+   ![Karşılama iletisinin yer aldığı Power BI Giriş ekranını gösteren ekran görüntüsü.](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. **Uygulamalar** ekranında **Satış ve Pazarlama örneği** uygulamasını seçin.
 
-    ![Power BI hizmetini ilk kez açın](./media/end-user-experience/power-bi-sample-app.png)
+    ![Satış ve Pazarlama örneği adlı uygulamanın yer aldığı Power BI Uygulamalar ekranını gösteren ekran görüntüsü.](./media/end-user-experience/power-bi-sample-app.png)
 
 2. **Uygulamayı keşfet** seçeneğini belirleyin.
 

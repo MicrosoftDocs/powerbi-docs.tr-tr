@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965344"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600474"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak Facebook verilerini analiz etme
 
@@ -128,7 +128,7 @@ Verilerden memnun kaldığınızda, verileri Power BI Desktop’a içeri aktarma
    
    Veriler yüklendikten sonra, **Rapor** görünümünde **Alanlar** bölmesinde yeni bir sorgu olarak görüntülenir.
    
-   ![Yeni sorgu](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Sorgu1 adlı sorgu için kullanılabilecek alanları gösteren ekran görüntüsü.](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>Rapor görselleştirmelerindeki verileri kullanma 
 
@@ -138,7 +138,7 @@ Facebook sayfasındaki verileri içeri aktardığınıza göre şimdi görselle�
 
 1. Power BI Desktop **Rapor** görünümünde, **Alanlar** bölmesinden **ileti** öğesini seçin veya tuvale sürükleyin. Tuvalde, tüm gönderi iletilerini gösteren bir tablo görüntülenir. 
    
-   ![Yeni sorgu](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![İleti listesinin yer aldığı Rapor görünümünü gösteren ekran görüntüsü.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. Bu tablo seçili durumdayken, **Alanlar** bölmesinden **Açıklama sayısı**’nı da seçin veya tabloya sürükleyin. 
    

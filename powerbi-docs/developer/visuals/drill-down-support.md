@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240102"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635942"
 ---
 # <a name="add-drill-down-support"></a>Detaya gitme desteği ekleme
 
@@ -26,7 +26,9 @@ Power BI görsellerinde Power BI’ın detaya gitme özelliği kullanılabilir.
 
 Görselinizde detaya gitmeyi desteklemek için `capabilities.json` dosyasına "drill-down" adlı ve tek özelliği olan yeni bir alan ekleyin:
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > Detaya gitme dataRole, `Grouping` türünde olmalıdır.
@@ -222,11 +224,11 @@ Görseli test etmek için örnek verileri hazırlayın:
 
 Power BI Desktop'ta Hiyerarşi oluşturun:
 
-![Yeni hiyerarşi oluşturma](media/drill-down-support/create-new-hierarchy.png)
+![Bağlam menüsünde Yeni hiyerarşi'nin seçili olduğu Power BI Desktop uygulamasını gösteren ekran görüntüsü.](media/drill-down-support/create-new-hierarchy.png)
 
 Tüm kategori sütunlarını (H1, H2, H3) yeni hiyerarşiye ekleyin:
 
-![Yeni hiyerarşi oluşturma](media/drill-down-support/new-hierarchy.png)
+![Yeni hiyerarşiye eklenebilecek kategori sütunlarının gösterildiği ekran görüntüsü.](media/drill-down-support/new-hierarchy.png)
 
 Bu adımlardan sonra aşağıdaki görseli elde etmelisiniz:
 
@@ -305,11 +307,11 @@ export class Visual implements IVisual {
 
 Verileri görsele uygulayın:
 
-![Verileri içeren görsel](media/drill-down-support/dev-visual-drilldown-data.png)
+![Hiyerarşiyi gösteren ve H2'nin vurgulandığı ekran görüntüsü.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 Son adımda seçimleri ve bağlam menüsü olan bir görsel elde etmelisiniz:
 
-![Detaya gitme desteği olan görsel](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![Görsel bağlam menüsünden Detaya gitme ve Detaydan çıkma seçeneklerini gösteren animasyon.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Matris veri görünümü eşlemesi için detaya gitme desteği ekleme
 
@@ -389,7 +391,7 @@ Görsel için aşağıdaki veri görünümü eşlemesini uygulayın:
 
 Verileri görsele uygulayın:
 
-![Verileri içeren görsel](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![Sütun ve satır hiyerarşisi ile üyeleri seçilmiş MatrixHierarchy öğesini gösteren ekran görüntüsü.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Matris veri görünümü eşlemelerini işlemek için gerekli arabirimleri içeri aktarın:
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 Son adımda bağlam menüsü olan bir görsel elde etmelisiniz:
 
-![Detaya gitme desteği olan görsel](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![Görsel için detaya gitme ve detaydan çıkma seçeneklerinin bulunduğu bağlam menüsünü gösteren animasyon.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

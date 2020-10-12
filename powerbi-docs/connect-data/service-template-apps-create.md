@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860682"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375017"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
@@ -21,7 +21,7 @@ Power BI *şablon uygulamaları*, Power BI iş ortaklarının çok az kodlamayla
 
 Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması oluşturucusu* olabilir ve analitik içeriklerini derleyip *uygulama* içinde paketleyebilirsiniz. Uygulamanızı, AppSource gibi herhangi bir kullanılabilir platform aracılığıyla veya kendi web hizmetinizde kullanarak diğer Power BI kiracılarına dağıtabilirsiniz. Bir oluşturucu olarak dağıtım için korumalı bir analiz paketi oluşturabilirsiniz.
 
-Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI kiracı yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
+Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -163,7 +163,7 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
 
     ![Sürüm Yönetimi simgesi](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. Yukarıdaki **Test şablon uygulaması oluşturma** bölümünde test uygulamasını oluşturduysanız (sonuç olarak, **Test**’in yanındaki sarı nokta önceden doldurulmuş olur) **Bağlantı al** seçeneğini belirleyin.
+2. Yukarıdaki **Şablon uygulamasının özelliklerini tanımlama** bölümünde test uygulamasını oluşturduysanız (sonuç olarak, **Test**’in yanındaki sarı nokta önceden doldurulmuş olur) **Bağlantı al** seçeneğini belirleyin.
 
     Henüz uygulamayı oluşturmadıysanız **Uygulama oluştur**’u seçin. Böylece şablon uygulaması oluşturma işlemine geri dönersiniz.
 

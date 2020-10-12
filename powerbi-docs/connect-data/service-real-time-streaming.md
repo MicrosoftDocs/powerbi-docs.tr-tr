@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860636"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634539"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği, gerçek zamanlı olarak veri akışı gerçekleştirmenizi ve panoları güncelleştirmenizi sağlar. Power BI'da oluşturulan tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyebilir ve güncelleştirebilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve diğer birçok zamana duyarlı veri toplayıcısı veya aktarıcısı olabilir.
@@ -52,7 +52,7 @@ Bir akış veri kümesini görselleştirmenin tek yolu kutucuk eklemek ve akış
 Uygulamada, akış veri kümeleri ve onlara eşlik eden akış görselleri, veri gönderme ve görselleştirme arasındaki gecikmenin en aza indirilmesinin yüksek düzeyde önemli olduğu durumlarda tercih edilecek en iyi seçenektir. Ayrıca en iyi uygulama olarak, verilerin başka bir toplama işlemi yapılmadan, olduğu gibi görselleştirilebileceği bir şekilde gönderilmesini sağlayabilirsiniz. Olduğu gibi kullanılmaya hazır verilere örnek olarak sıcaklıklar ve önceden hesaplanmış ortalamalar verilebilir.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub akış veri kümesi
-**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır. Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca izin verilenler listesine eklenen giden trafiğe izin veriyorsanız PubNub trafiğini de izin verilenler listesine eklemeniz gerekir. Ayrıntılı bilgi için [PubNub için giden trafiği beyaz listeye ekleme](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) makalesindeki yönergeleri inceleyin.
+**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır. Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca onaylanan giden trafiğe izin veriyorsanız PubNub trafiğini de izin verilenler listesine eklemeniz gerekir. Ayrıntılı bilgi için [PubNub için giden trafiği onaylama](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-) makalesindeki yönergeleri inceleyin.
 
 **Akış veri kümelerinde** olduğu gibi, **PubNub akış veri kümesinde** de Power BI’da temel alınan bir veritabanı bulunmaz. Bu nedenle, akışı sağlanan verilere ilişkin rapor görselleri oluşturamaz, filtreleme ve Power BI görselleri gibi rapor özelliklerinden yararlanamazsınız. Benzer şekilde, **PubNub akış veri kümesi**, yalnızca panoya bir kutucuk eklenip PubNub veri akışı kaynak olarak yapılandırılarak görselleştirilebilir.
 
@@ -183,12 +183,9 @@ Bu örnekte, **PubNub**'da bulunan ve genel olarak erişilebilen bir akış kull
 2. Henüz bir akış veri kaynağınız yoksa, **verileri yönet** bağlantısını seçin (**İleri** düğmesinin hemen üzerinde bulunur), ardından pencerenin sağ üst tarafında bulunan bağlantıdan **+ Akış veri kümesi ekle** seçeneğini belirleyin. **PubNub**'ı seçin ve ardından **Sonraki** seçeneğini belirleyin.
 3. Veri kümenize bir ad verdikten sonra pencereye aşağıdaki değerleri yapıştırın ve **Sonraki** seçeneğini belirleyin:
    
-   *Alt anahtar:*
-   
-       sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe
-   *Kanal:*
-   
-       pubnub-sensor-network
+   **Abonelik anahtarı:** *sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe*
+
+   **Kanal:** *pubnub-sensor-network*
    
    ![Veri kümesi adının nasıl oluşturulacağını ve Alt anahtar ile Kanal adı alanlarındaki girişleri gösteren Yeni akış veri kümesi iletişim kutusunun ekran görüntüsü.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. Aşağıdaki pencerede, yalnızca varsayılanları seçin (otomatik olarak doldurulur) ve ardından **Oluştur** seçeneğini belirleyin.

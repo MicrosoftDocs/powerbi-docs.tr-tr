@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219586"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633435"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Rapordan Power BI panosu oluşturma
 [Power BI'da panolara giriş](service-dashboards.md) makalesini okuduğunuza göre artık kendi panolarınızı oluşturabilirsiniz. Pano oluşturmanın birçok farklı yolu vardır. Örneğin bir rapordan, sıfırdan, bir veri kümesinden veya mevcut panoyu yinelenerek oluşturulabilirler.  
@@ -27,7 +27,7 @@ Bu makaleyi tamamladıktan sonra şu konular hakkında fikir sahibi olacaksını
 - Kutucukları sabitleme 
 - Panoyla rapor arasında gezinme 
  
-![Pano](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Birkaç görselleştirmenin bulunduğu bir Power BI panosunu gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > Panolar Power BI Desktop'ın değil Power BI hizmetinin sunduğu bir özelliktir. Power BI mobil uygulamalarında pano oluştaramasanız da bu cihazlarda onları [görüntüleyebilir ve paylaşabilirsiniz](../consumer/mobile/mobile-apps-view-dashboard.md).
@@ -59,7 +59,7 @@ Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini i
     ![OneDrive İş penceresi](media/service-dashboard-create/power-bi-import.png)
 8. Başarılı iletisi gösterildiğinde kapatmak için **x** işaretini seçin.
 
-   ![Başarılı iletisi](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![X'in vurgulandığı başarılı iletisini gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > Biliyor muydunuz? Yukarıda yer alan üç çizgili simgeyi (![gezinti bölmesini göster veya gizle simgesi](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png)) seçerek gezinti bölmesini daraltabilirsiniz. Böylelikle rapor için daha fazla alan elde edersiniz.
@@ -77,17 +77,17 @@ Adım adım ilerleyen bu kılavuzda, Power BI örnek veri kümelerinden birini i
     ![Kutucuğun üzerine gelin](media/service-dashboard-create/power-bi-hover.png)
 4. Yeni bir pano oluşturduğumuz için **Yeni pano** seçeneğini belirtin ve buna bir ad verin.
 
-    ![Panoya sabitle iletişim kutusu](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![Panoya sabitle penceresini gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-pin-tile.png)
 5. **Sabitle**'yi seçtiğinizde, Power BI geçerli çalışma alanında yeni bir pano oluşturur. **Panoya sabitlendi** iletisi görüntülendiğinde **Panoya git**'i seçin. Raporu kaydetmeniz istenirse **Kaydet**'i seçin.
 
-    ![Başarılı iletisi](media/service-dashboard-create/power-bi-pin-success.png)
+    ![Panoya git seçeneğinin vurgulandığı başarılı iletisini gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI yeni panoyu açar. Tek kutucuğu vardır: yeni sabitlediğiniz görselleştirme.
 
    ![bir kutucuk içeren pano](media/service-dashboard-create/power-bi-pinned.png)
 7. Rapora dönmek için kutucuğu seçin. Yeni panoya birkaç kutucuk daha sabitleyin. **Panoya sabitle** penceresi görüntülendiğinde, **Var olan pano**'yu seçin.  
 
-   ![Panoya sabitle iletişim kutusu](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Var olan pano seçeneğinin vurgulandığı Panoya sabitle penceresini gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Rapor sayfasının tamamını panoya sabitleme
 Görselleri tek tek sabitlemek yerine, [bir rapor sayfasının tamamını *canlı kutucuk* olarak sabitleyebilirsiniz](service-dashboard-pin-live-tile-from-report.md). Şimdi bu işlemi yapalım.
@@ -102,11 +102,11 @@ Görselleri tek tek sabitlemek yerine, [bir rapor sayfasının tamamını *canl�
 
 3. **Panoya sabitle** penceresi görüntülendiğinde **Var olan pano**'yu seçin.
 
-   ![Panoya sabitle iletişim kutusu](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Var olan pano seçeneğinin seçili olduğu ve Canlı sabitle düğmesinin bulunduğu Panoya sabitle penceresini gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Başarılı iletisi görüntülendikten sonra **Panoya git**'i seçin. Burada, rapordan sabitlediğiniz kutucukları görürsünüz. Aşağıdaki örnekte biri raporun ilk sayfasından ve diğeri de canlı kutucuk olan (raporun ikinci sayfası) iki kutucuk sabitledik.
 
-   ![Pano](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Bu makaledeki görselleştirmelerin bulunduğu Power BI panosunu gösteren ekran görüntüsü.](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Tebrikler, ilk panonuzu oluşturdunuz! Artık panonuz olduğuna göre bununla birçok şey yapabilirsiniz. Aşağıdaki önerilen makalelerden birini izleyin veya kendi başınıza keşfetmeye başlayın: 

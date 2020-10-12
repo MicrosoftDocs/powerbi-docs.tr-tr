@@ -9,18 +9,18 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859854"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634056"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Rapor Sunucusu nedir?
 
 Power BI Rapor Sunucusu, içinde rapor ve KPI’ları görüntüleyip yönettiğiniz bir web portalı olan, şirket içi bir rapor sunucusudur. Bu sunucuyla birlikte Power BI raporları, sayfalandırılmış raporlar, mobil raporlar ve KPI’lar oluşturan araçlar gelir. Kullanıcılarınız bu raporlara farklı yöntemlerle erişebilir: bir web tarayıcısı ya da mobil cihazdan veya gelen kutularında e-posta olarak görüntüleyerek.
 
-![Power BI Rapor Sunucusu web portalı](media/get-started/power-bi-report-server-overview.png)
+![Power BI Rapor Sunucusu web portalını gösteren ekran görüntüsü.](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Rapor Sunucusunu karşılaştırma 
 Power BI Rapor Sunucusu hem SQL Server Reporting Services hem de Power BI çevrimiçi hizmetiyle benzerdir, ancak bu benzerlik farklı şekillerde görülür. Power BI hizmeti gibi Power BI Rapor Sunucusu da Power BI raporlarını (.pbix), Excel dosyalarını ve sayfalandırılmış raporları (.rdl) barındırır. Power BI Rapor Sunucusu, Reporting Services gibi şirket içidir. Power BI Rapor Sunucusu'nun özellikleri Reporting Services’in bir üst kümesidir: Reporting Services'de yapabileceğiniz her şeyi ve Power BI raporları desteğiyle birlikte daha fazlasını Power BI Rapor Sunucusu ile de yapabilirsiniz. Ayrıntılar için bkz. [Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma](compare-report-server-service.md).
@@ -36,7 +36,7 @@ Power BI raporlarını Power BI Rapor Sunucusu’nda yayımlarsanız bir Power B
 ## <a name="web-portal"></a>Web portalı
 Power BI Rapor Sunucusu'nun giriş noktası, tüm güncel tarayıcılarda görüntüleyebileceğiniz güvenli bir web portalıdır. Buradan tüm raporlarınıza ve KPI'larınıza erişirsiniz. Web portalındaki içerik, geleneksel bir klasör hiyerarşisi halinde düzenlenir. Klasörlerinizde, içerik türe göre gruplandırılır: Power BI raporları, mobil raporlar, sayfalandırılmış raporlar, KPI’lar ve Excel çalışma kitapları. Paylaşılan veri kümeleri ve paylaşılan veri kaynakları raporlarınızın yapı taşı olarak kullanılmak üzere kendi klasörlerinde yer alır. Sık kullanılanları tek bir klasörde görüntülemek üzere etiketlersiniz. Ayrıca doğrudan web portalında KPI'lar oluşturursunuz. 
 
-![Power BI Rapor Sunucusu web portalı](media/get-started/web-portal.png)
+![Power BI Rapor Sunucusu web portalını gösteren bir dizüstü bilgisayarın yer aldığı fotoğraf.](media/get-started/web-portal.png)
 
 İzinlerinize bağlı olarak, web portalındaki içeriği yönetebilirsiniz. Rapor işleme zamanlaması oluşturabilir, isteğe bağlı olarak raporlara erişebilir ve yayımlanan raporlara abone olabilirsiniz. Ayrıca, web portalınıza kendi özel [markalamanızı](/sql/reporting-services/branding-the-web-portal) uygulayabilirsiniz. 
 

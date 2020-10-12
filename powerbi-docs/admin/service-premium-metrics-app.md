@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855093"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633191"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 
@@ -61,7 +61,7 @@ Etkin bellek KPI’nin ayrıntılarını öğrenmek için **Araştır** düğmes
 
 İki senaryo açıklanmıştır; rapor sayfasında **Senaryo 1** veya **Senaryo 2**’yi seçerek bunları görüntüleyebilirsiniz. 
 
-![Etkin bellek ayrıntı sayfası](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![Etkin bellek ayrıntı sayfasını gösteren ekran görüntüsü.](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 Her senaryoyla ilişkilendirilmiş sorun giderme kılavuzları ölçümlerin ne anlama geldiğine ilişkin ayrıntılı açıklamalar sağlar. Böylelikle kapasitenin durumunu ve varsa sorunları azaltmak için ne yapılabileceğini daha iyi anlayabilirsiniz. 
 
@@ -116,7 +116,7 @@ Senaryo bir ile ilişkilendirilmiş sorunları düzeltmek için aşağıdaki ad�
 
 Kapasitenin iş yüklerini tamamlamasına yetecek kadar bellek olup olmadığını saptamak için sayfadaki üst kısmında yer alan **A: Tüketilen Bellek Yüzdeleri**, görseline başvurabilirsiniz. Bu görsel şu anda etkin olarak işlenen ve bu nedenle çıkarılamayacak olan veri kümelerinin tükettiği belleği temsil eder. Siyah noktalı çizgi eğilimleri vurgular. Bellek baskısıyla karşılaşılan kapasitede aynı görsel bellek eğilim çizgisinin (siyah noktalı çizgi) açıkça yukarı doğru çıktığını gösterecektir. Bunun anlamı, zamanın bu noktasında ek veri kümelerini belleğe yüklemenin büyük olasılıkla engellendiğidir. Siyah noktalı eğilim çizgisi yedi günlük verilere dayanarak büyüme eğilimini gösterir. 
 
-![Etkin bellek ayrıntı sayfası](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![İkinci senaryoya ait etkin bellek ayrıntı sayfasını gösteren ekran görüntüsü.](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>Senaryo iki için tanılama
 
@@ -267,7 +267,7 @@ Etkileşimli sorguda veri kümesini yüklemek için yeterli bellek yoksa, zamanl
 
 Senaryo bir’de tanılama için önce azaltmanın yetersiz bellekten kaynaklanıp kaynaklanmadığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1.    **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1. **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ Ayrılmış kapasiteler için Power BI eşzamanlı olarak gerçekleşebilecek ye
 
 Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme sayısı üst sınırına ulaşılmasından mı kaynaklandığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1.    **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1. **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

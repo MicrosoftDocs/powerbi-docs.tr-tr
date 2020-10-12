@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219793"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635689"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
 
@@ -75,7 +75,7 @@ X ekseni etiketleri, grafiğin sütunlarının altında görüntülenir. Etiketl
 
 3. **X ekseni** kaydırıcısını **Açık** konuma getirin.
 
-    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![X ekseni için Açık kaydırıcısının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     Bazı durumlarda X eksenini **Kapalı** duruma getirmek isteyebilirsiniz. Görselleştirme, etiket olmadan anlaşılabilir durumda olabilir veya rapor sayfası kalabalık olduğu için daha fazla veriye yer açma gereksinimi duyuyor olabilirsiniz.
 
@@ -139,7 +139,7 @@ Y ekseni etiketleri varsayılan olarak sol tarafta gösterilir. Etiketler şu an
 
 1. **Y Ekseni** kaydırıcısını **Açık** konuma getirin.  
 
-    ![Açık kaydırıcının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Y ekseni için Açık kaydırıcısının ekran görüntüsü.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     Daha fazla veriye yer açmak için Y eksenini kapatmak isteyebilirsiniz.
 

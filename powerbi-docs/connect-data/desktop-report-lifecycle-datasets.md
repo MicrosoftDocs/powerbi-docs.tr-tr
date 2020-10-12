@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223067"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598797"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 
@@ -32,7 +32,7 @@ Power BI'ın bu kadar popüler olmasının bir sonucu olarak raporlar, panolar v
 
 Diyelim ki Anna takımınızda bir iş analisti. Anna genellikle veri kümesi olarak adlandırılan iyi veri modelleri oluşturma becerisine sahip. Anna bir veri kümesi ve rapor oluşturup bu raporu Power BI hizmetinde paylaşabiliyor.
 
-![Power BI hizmetinde yayımlama](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Power BI hizmeti için Yayımla düğmesini gösteren ekran görüntüsü.](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 Anna’nın raporunu ve veri kümesini herkes beğeniyor. İşte sorun bu noktada başlıyor. Anna'nın ekibindeki herkes bu veri kümesinin *kendilerine ait bir sürümünü* oluşturmaya ve ekiple kendi raporlarını paylaşmaya çalışıyor. Birdenbire ekibinizin Power BI hizmetindeki çalışma alanında farklı veri kümelerinden çok sayıda rapor beliriyor. En yakın tarihli olan hangisiydi? Veri kümeleri neredeyse mi aynıydı, yoksa tamamen mi? Farklar nelerdi? Power BI hizmeti canlı bağlantısı özelliği sayesinde bütün bunlar iyi yönde değişebilir. Aşağıdaki bölümde, Anna'nın yayımlanmış veri kümesini diğer ekip üyelerinin kendi çalışma alanlarında kendi raporları için nasıl kullanabileceğini ve herkesin benzersiz raporunu oluşturabilmesi için aynı sağlam, onaylanmış ve yayımlanmış veri kümesini kullanmasına izin verilebileceğini göreceğiz.
 

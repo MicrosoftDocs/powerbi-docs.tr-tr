@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635298"
 ---
 # <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 
@@ -231,13 +231,13 @@ Son olarak, ölçü örneğinde evin inşa edilme yılı ortalamasına bakıyoru
 -   Sağ bölmedeki dağılım grafiği, tablodaki her farklı değer için ortalama ev fiyatını belirtir
 -   Balondaki değer, ortalama yıl standart sapma kadar arttığında (bu örnekte 30 yıl) evin fiyatının ortalama olarak ne kadar yükseldiğini gösterir (bu örnekte 1.350 ABD Doları)
 
-![Sayısal hedef ölçülerini etkileyen etmenler](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![Sol tarafta etkileyiciler, sağ tarafta dağılım grafiği olmak üzere Başlıca etkileyicileri gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>Sonuçları yorumlayın: En Üst Segmentler
 
 Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak genel veri kümesindeki fiyatlardan daha yüksek olduğu grupları gösterir. Örneğin, aşağıda **Segment 1**’in **GarajOto** (garajın kaç araba kapasiteli olduğu) değeri 2’den büyük olan ve **ÇatıStil** değeri ortası kabarık çatı olan evlerden oluştuğunu görebiliriz. Verilerdeki ortalama fiyat 180 bin ABD Dolarına kıyasla bu özelliklere sahip evlerin ortalama fiyatı 355 bin ABD Dolarıdır.
 
-![Sayısal hedef ölçülerini etkileyen etmenler](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![Ev fiyatları için Üst segmentleri gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Ölçü veya özetlenmiş sütun olan bir ölçümü analiz etme
 
@@ -245,19 +245,19 @@ Sayısal hedefler için en üst segmentler, ev fiyatlarının ortalama olarak ge
 
 Özetlenmemiş sütunlar söz konusu olduğunda analiz her zaman tablo düzeyinde çalıştırılır. Yukarıdaki ev fiyatı örneğinde, ev fiyatının artmasını/düşmesini nelerin etkilediğini görmek için **Ev Fiyatı** ölçümünü analiz etmiştik. Analiz otomatik olarak tablo düzeyinde çalıştırıldı. Tablomuzda her ev için benzersiz bir kimlik olduğundan analiz ev düzeyinde çalıştırıldı.
 
-![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![Ev fiyatı örneği için tablo düzeyindeki analizi gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 Ölçüler ve özetlenmiş sütunlar için, bunların hangi düzeyde analiz edileceğini hemen bilemeyiz. **Ev Fiyatı** **Ortalama** olarak özetlenmişse, bu ortalama ev fiyatının hangi düzeyde hesaplanmasını istediğiniz konusunda düşünmemiz gerekir. Bu ortalama ev fiyatı mahalle düzeyinde mi? Yoksa bölgesel düzeyde mi?
 
 Ölçüler ve özetlenmiş sütunlar otomatik olarak kullanılan **Açıklama ölçütü** alanlarının düzeyinde analiz edilir. **Açıklama ölçütü**'nde ilgilendiğimiz üç alan olduğunu düşünün: **Kitchen Quality** (Mutfak Kalitesi), **Building Type** (Bina Türü) ve **Air Conditioning** (Havalandırma). Bu üç alanın her benzersiz bileşimi için **Average House Price** (Ortalama Ev Fiyatı) hesaplanabilir. Değerlendirilen verilerin nasıl göründüğüne göz atmak için tablo görünümüne geçmek genellikle yararlı olur.
 
-![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![Üç sütunu ve ortalama ev fiyatını gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde öğrenebileceği desenler bulması zor olacaktır. Daha iyi sonuçlar elde etmek için analizi daha ayrıntılı düzeyde çalıştırmalıyız. Ev fiyatını ev düzeyinde analiz etmek isteseydik analize açıkça **ID** (Kimlik) alanını eklememiz gerekecekti. Bununla birlikte ev kimliğinin bir etmen olarak değerlendirilmesini istemiyoruz. Ev kimliği yükseldikçe ev fiyatının yükseldiğini öğrenmek yararlı bir bilgi değil. İşte bu noktada **Genişletme Ölçütü** alanı seçeneği yararlı oluyor. Yeni etmenler aramadan analizin düzeyini ayarlamak amacıyla kullanmak istediğiniz alanları eklemek için **Genişletme Ölçütü**'nü kullanabilirsiniz.
 
 **Genişletme Ölçütü**'ne **ID** alanını eklediğimizde görselleştirmenin nasıl göründüğüne bakın. Ölçünüzün hangi düzeyde değerlendirilmesini istediğinizi tanımladıktan sonra, etmenler [özetlenmemiş sayısal sütunlarla](#analyze-a-metric-that-is-numeric) tam olarak aynı şekilde yorumlanır.
 
-![Ölçüler tablosu](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![Bu bölümde anlatılan üç sütunu temel alan ev fiyatı görselleştirmesini gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 Önemli etmenler görselleştirmesiyle ölçüleri nasıl analiz edebileceğiniz konusunda daha fazla bilgi edinmek istiyorsanız lütfen aşağıdaki öğreticiyi izleyin.
 

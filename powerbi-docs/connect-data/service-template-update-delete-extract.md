@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860544"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634953"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Şablon uygulamasını güncelleştirme, silme ve ayıklama
 
@@ -23,11 +23,11 @@ Uygulamanız artık üretim ortamında olduğundan, üretimdeki uygulamaya müda
 Power BI Desktop’ta değişiklikler yaptıysanız (1). adımdan başlayın. Power BI Desktop’ta değişiklikler yapmadıysanız (4). adımdan başlayın.
 
 1. Güncelleştirilmiş veri kümesini karşıya yükleyin ve mevcut veri kümesinin üzerine yazın. **Tam olarak aynı veri kümesi adını kullandığınızdan emin olun**. Farklı bir ad kullanmak, uygulamayı güncelleştiren kullanıcılar için yeni bir veri kümesi oluşturur.
-![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![Veri kümesinin seçili olduğu Power BI şablon uygulamasını güncelleştirme adımını gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. Pbix dosyasını bilgisayarınızdan içeri aktarın.
-![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![Dosyalar'ın altında Al'ın vurgulandığı Veri Al sayfasını gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. Üzerine yazmayı onaylayın.
-![veri kümesinin üzerine yazma](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![Aynı ada sahip bir veri kümesi zaten var onay iletisini ve bunu değiştirme seçeneğini gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. **Sürüm yönetimi** bölmesinde **Uygulama oluştur**’u seçin.
 1. Uygulama oluşturma sürecine en baştan yeniden başlayın.
@@ -64,7 +64,8 @@ Ayıklama özelliği sayesinde artık bir şablon uygulamasını önceki sürüm
 
 1. Yayın yönetimi bölmesinde diğer simgesine **(...)** ve ardından **Ayıkla**’ya basın.
 
-    ![şablon uygulaması sürümünü ayıklama](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![şablon uygulaması sürümünü ayıklama](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![Menüden Ayıkla'nın seçilmiş olduğu Sürüm Yönetimi bölmesini gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![Bu uygulamayı ayıkla onay iletisini gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. İletişim kutusunda, ayıklanan çalışma alanının adını girin. yeni bir çalışma alanı eklenir.
 
 Yeni çalışma alanı sürümünüz sıfırlanır ve şablon uygulamasını yeni ayıklanan çalışma alanından geliştirmeye ve dağıtmaya devam edebilirsiniz.
@@ -74,8 +75,8 @@ Yeni çalışma alanı sürümünüz sıfırlanır ve şablon uygulamasını yen
 Bir uygulama sürümü silindiğinde, artık çalışmayan uygulama url’si de silinir.
 
 1. Yayın yönetimi bölmesinde üç noktaya **(...)** ve ardından **Sil**’e basın.
- ![Şablon uygulaması sürümünü silme](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![Şablon uygulaması sürümünü silme](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![Menüden Sil'in seçildiğini gösteren Sürüm Yönetimi bölmesinin ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![Bu uygulamayı sil onay iletisini gösteren ekran görüntüsü.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Müşteriler veya **AppSource** tarafından kullanılan uygulama sürümünü silmemeye özen gösterin. Aksi takdirde uygulama çalışmayacaktır.

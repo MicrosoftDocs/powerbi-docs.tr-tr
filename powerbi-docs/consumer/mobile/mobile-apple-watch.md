@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239185"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633275"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch'unuzdaki Power BI mobil uygulamasında verilerinizi araştırma
 Power BI Apple Watch uygulamasıyla, Power BI panolarınızdaki KPI'leri ve kart kutucuklarını doğrudan saatinizde görüntüleyebilirsiniz. KPI'ler ve kart kutucukları küçük ekranda bir kalp atışı ölçümü sunmak üzere en iyi şekilde yerleştirilir. iPhone'dan veya doğrudan Apple Watch'tan bir panoyu yenileyebilirsiniz.
@@ -24,16 +24,16 @@ Power BI Apple Watch uygulaması iOS için Power BI uygulamasıyla birlikte sunu
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch'ta Power BI uygulamasını kullanma
 Saatin duyuru panosundan veya doğrudan saat kadranındaki Power BI pencere öğesine tıklayarak (yapılandırılmışsa) Power BI Apple Watch uygulamasına gidin.
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![Power BI uygulamasının yüklü olduğu Apple Watch cihazını gösteren fotoğraf.](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 Power BI Apple Watch uygulaması iki bölümden oluşur.
 
 * **Dizin ekranı**, eşitlenmiş panodan tüm KPI'lere ve kart kutucuklarına yönelik hızlı bir genel bakış sağlar.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![Dizin ekranının göründüğü Apple Watch cihazını gösteren fotoğraf.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **Odak kutucuğu**: Dizin ekranında belirli bir kutucuğa ait kapsamlı bir görünüm için bir kutucuğa tıklayın.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![Kutucuğun görüntülendiği Apple Watch cihazını gösteren fotoğraf.](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Bir panoyu Apple Watch'unuzdan yenileme
 Eşitlenen bir panoyu doğrudan saatinizden yenileyebilirsiniz.
@@ -75,7 +75,7 @@ Apple Watch kadranındaki alanın küçüklüğü nedeniyle Power BI Apple Watch
 
 * iPhone'unuzda, Apple Watch adlı denetim uygulamasına gidin, Power BI'ı seçin, pencere öğesi adı alanına gidin ve yeni bir ad yazın.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![My Watch uygulamasının açık olduğu ve Power BI simgesinin göründüğü iPhone ekranını gösteren fotoğraf.](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > Adı değiştirmezseniz Power BI pencere öğesi, saat kadranındaki küçük alana sığacak karakter sayısına göre mevcut adı kısaltır. 

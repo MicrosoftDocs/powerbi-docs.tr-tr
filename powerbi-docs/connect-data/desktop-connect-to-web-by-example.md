@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224049"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632469"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Örnek sağlayarak web sayfası verilerini alma
 
@@ -36,7 +36,9 @@ Grafikteki fiyatlar yalnızca örnek amaçlıdır.
 
 Takip etmek isterseniz bu makalede kullandığımız [Microsoft Store URL'sini](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) kullanabilirsiniz:
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Web iletişim kutusu](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ Takip etmek isterseniz bu makalede kullandığımız [Microsoft Store URL'sini](
 
 Bu örnekte, sayfadaki her bir oyunun *Ad* ve *Fiyat* verilerini ayıklayacağız. Her sütun için sayfadan birkaç örnek belirterek bunu yapabiliriz. Siz örnekleri girdiğinizde *Power Query* akıllı veri ayıklama algoritmalarını kullanarak örnek girdilerin desenine uyan verileri ayıklar.
 
-![örneğe göre veriler](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![İnternetten gelen verileri gösteren ekran görüntüsü.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > Değer önerileri yalnızca uzunluğu 128 karakter veya altında olan değerleri içerir.
 
 Web sayfasından ayıklanan verilerden memnun kalırsanız **Tamam**'ı seçerek Power Query Düzenleyicisi'ne gidin. Daha fazla dönüştürme uygulayabilir veya verileri şekillendirebilirsiniz; örneğin bu verileri kaynaklarımızdaki başka verilerle birleştirebilirsiniz.
 
-![örneğe göre veriler](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![İnternetten gelen verilerin Power Query Düzenleyicisi'nde ayıklanmasını gösteren ekran görüntüsü.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 Buradan, görseller oluşturabilir veya Power BI Desktop raporlarınızı oluştururken web sayfası verilerini diğer şekillerde kullanabilirsiniz.
 

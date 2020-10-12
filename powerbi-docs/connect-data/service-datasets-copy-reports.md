@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236798"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633220"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Diğer çalışma alanlarından raporları kopyalama
 
@@ -82,7 +82,7 @@ Bir çalışma alanında yer alan ve başka bir çalışma alanındaki veri küm
 
 1. Raporlar liste görünümünde **İlgili olanları görüntüle** seçeneğini belirleyin.
 
-    ![İlişkilileri görüntüle simgesini](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![Eylemler'in altındaki İlgili olanları görüntüle simgesini gösteren ekran görüntüsü.](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. **İlgili içerik** iletişim kutusu tüm ilgili öğeleri gösterir. Veri kümesi bu listede diğerleri gibi görünür. Farklı bir çalışma alanında bulunduğunu ayırt edemezsiniz. Bu sorun biliniyor.
  
@@ -98,7 +98,7 @@ Raporu ve raporla ilişkilendirilmiş paylaşılan veri kümesini artık çalı�
 
 2. Veri kümesi listesinde paylaşılan veri kümeleri için **Sil** simgelerinin olmadığını görürsünüz. Sayfayı yenileyin veya başka bir sayfaya gidin geri dönün. Veri kümesi görüntüden kaldırılır. Aksi takdirde **İlişkilileri görüntüle**'ye bakın. Çalışma alanınızdaki başka bir tabloyla ilişkili olabilir.
 
-    ![İlişkilileri görüntüle simgesini](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![İlgili tabloları denetlemek için kullanılan İlgili olanları görüntüle seçeneğinin yer aldığı veri kümesini gösteren ekran görüntüsü.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > Bu çalışma alanındaki paylaşılan veri kümesinin silinmesi, veri kümesini silmez. Yalnızca bu veri kümesine başvuruyu siler.

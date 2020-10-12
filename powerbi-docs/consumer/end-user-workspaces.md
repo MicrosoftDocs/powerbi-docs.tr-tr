@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237300"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634033"
 ---
 # <a name="collaborate-in-workspaces"></a>Çalışma alanında işbirliği yapma
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237300"
 
  Çalışma alanlarınızı Power BI **Giriş** ekranından veya sol gezinti bölmenizdeki **Çalışma alanı** veya **Çalışma alanımı** seçerek görüntüleyebilirsiniz.
 
- ![iki tür çalışma alanı gösteren gezinti bölmesi](media/end-user-workspaces/power-bi-home.png)
+ ![İki tür çalışma alanını gösteren gezinti bölmesinin ekran görüntüsü.](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>Çalışma alanlarının türleri
 **Çalışma Alanım**, size ait olan ve sizin oluşturduğunuz tüm içeriği depolar. Bunu kişisel koruma alanınız veya kendi içeriğinize yönelik bir çalışma alanı gibi düşünün. Yeni içerik oluşturmak çoğu Power BI *tüketicisinin* işinin bir parçası olmadığından birçok kullanıcının **Çalışma alanım** bölümü boş gözükür. Tanım gereği *tüketiciler*, diğer kişiler tarafından oluşturulan verileri kullanır ve iş kararları alırken bu verilerden faydalanır. İçerik oluşturuyorsanız, [Tasarımcılara yönelik Power BI makalelerini](../create-reports/index.yml) okuyabilirsiniz.
@@ -34,7 +34,7 @@ ms.locfileid: "85237300"
 
 Aşağıdaki Fig sales çalışma alanı, üç rapor ve bir pano içerir. 
 
-![iki tür çalışma alanı gösteren gezinti bölmesi](media/end-user-workspaces/power-bi-app-workspace.png)
+![Çalışma Alanları menü öğesinin altında görünen ve rapor ile pano içeren çalışma alanını gösteren ekran görüntüsü.](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>Çalışma alanlarındaki roller
 

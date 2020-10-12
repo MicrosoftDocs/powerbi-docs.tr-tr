@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 13792dbefbb459f4a3bb428b5965c6c56eff4b8c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538068"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600109"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Yeni görünüm: Eylemler nereye gitti?
 
@@ -38,17 +38,17 @@ Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkil
 | Genişliğe sığdır | Görünüm > Genişliğe sığdır | Menü çubuğundaki Görünüm (sağ taraf) > Genişliğe sığdır |
 | Gerçek boyut | Görünüm > Asıl boyut | Menü çubuğundaki Görünüm (sağ taraf) > Asıl boyut |
 | Yüksek karşıtlıklı renkler | Görünüm > Yüksek karşıtlıklı renkler | Menü çubuğundaki Görünüm (sağ taraf) > Yüksek karşıtlıklı renkler |
-| Yer İşaretleri bölmesi | Görünüm > Yer İşaretleri bölmesi |  Menü çubuğundaki Yer işaretleri > Diğer yer işaretlerini göster |
-| Yenile | Yenile | Menü çubuğundaki Diğer seçenekler (...) > Yenile |
+| Yer İşaretleri bölmesi | Görünüm > Yer İşaretleri bölmesi |  Menü çubuğundaki Yer işaretleri (sağ taraf) > Diğer yer işaretlerini göster |
+| Yenile | Yenile | Menü çubuğu (sağ taraf) Yenile |
 | Canlı sayfayı sabitle | Canlı sayfayı sabitle | Menü çubuğundaki Diğer seçenekler (...) > Canlı sayfayı sabitle |
 | Varsayılana sıfırla | Varsayılana sıfırla | Varsayılana sıfırla |
 | Yorumlar | Yorumlar | Yorumlar |
 | İlgili olanları görüntüle | İlgili olanları görüntüle | Menü çubuğundaki Diğer seçenekler (...) > İlişkili olanları görüntüle |
 | Sık kullanılanlara ekle | Sık kullanılanlara ekle | Sık kullanılanlara ekle |
 | Abonelik | Abonelik |Abonelik |
-| Paylaş | Paylaş | Paylaş |
-| QR kodu oluştur | Menü çubuğundaki Diğer seçenekler (...) > QR kodu oluştur | Menü çubuğundaki Diğer seçenekler (...) > QR kodu oluştur |
-| Excel’de Analiz Et | Menü çubuğundaki Diğer seçenekler (...) > Excel’de Analiz et | Menü çubuğundaki Diğer seçenekler (...) > Excel’de Analiz et |
+| Paylaş | Paylaş | Paylaş > Rapor |
+| QR kodu oluştur | Menü çubuğundaki Diğer seçenekler (...) > QR kodu oluştur | Paylaş > QR kodu oluştur |
+| Excel’de Analiz Et | Menü çubuğundaki Diğer seçenekler (...) > Excel’de Analiz et | Dışarı aktar > Excel’de analiz et |
 | Tam ekran modu | Tam ekran modu | Üst çubuk Görünümü (sağ taraf) > Tam ekran |
 
 ## <a name="dashboard-actions-in-the-new-look"></a>Yeni görünümde pano eylemleri

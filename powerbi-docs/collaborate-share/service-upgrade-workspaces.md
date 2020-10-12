@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225269"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633067"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 
@@ -27,7 +27,7 @@ Bu makalede klasik bir çalışma alanını yeni çalışma alanı deneyimine y�
 
 Öte yandan çalışma alanınızda bilmeniz ve planlama yapmanız gereken değişiklikler olabilir. Örneğin yeni çalışma alanı deneyiminde içerik paketleri desteklenmez. Bu makalenin devamındaki [Yükseltmenin önemli noktaları ve sınırlamaları](#upgrade-considerations-and-limitations) bölümüne bakın.
 
-## <a name="things-to-do-after-upgrading"></a>Yükseltme sonrasında yapmanız gerekenler
+## <a name="things-to-plan-before-upgrading"></a>Yükseltmeden önce planlanması gerekenler
 
 Yükseltmeniz uygulandıktan *sonra* birkaç şey yapmalısınız. Yükseltme *öncesinde* bunları planlamanız iyi olacaktır:
 - Erişim listesini gözden geçirin ve [yükseltmeden sonraki izinleri](#permissions-after-upgrade) anlayın.
@@ -52,7 +52,7 @@ Her çalışma alanı yöneticisi çalışma alanını yükseltebilir. Klasik ç
 
 2. Yükseltme sırasında **Yükseltiliyor** iletisini görürsünüz. Çalışma alanınızın yükseltilmesi genellikle bir dakikadan kısa sürer.
 
-1. Yükseltme bittikten sonra **Başarılı** iletişim kutusunu görürsünüz. Yeni çalışma alanlarının klasik çalışma alanlarından nasıl farklı olduğunu anlamak için [Yeni çalışma alanlarında çalışmayı düzenleme](service-new-workspaces.md) makalesini okumanızı öneririz.
+1. Yükseltme bittikten sonra **Başarılı** iletişim kutusunu görürsünüz. Aynı ada ve içeriğe sahip olan yeni çalışma alanı deneyiminizi görürsünüz. Yeni çalışma alanlarının klasik çalışma alanlarından nasıl farklı olduğunu anlamak için [Yeni çalışma alanlarında çalışmayı düzenleme](service-new-workspaces.md) makalesini okumanızı öneririz.
 
 ### <a name="impact-on-other-workspace-users"></a>Diğer çalışma alanı kullanıcıları üzerindeki etkisi
 
@@ -62,6 +62,7 @@ Yükseltmeyi az sayıda kullanıcının etkin olarak çalışma alanını görü
 
 ## <a name="upgrade-considerations-and-limitations"></a>Yükseltmenin önemli noktaları ve sınırlamaları
 
+- Yükseltme işleminden sonra klasik çalışma alanının içeriği yeni çalışma alanında görünür. Ayrıca **Benimle paylaşılan** bölümünde de listelenir.
 - Çalışma alanınızın URL'leri ve kimlikleri, çalışma alanındaki içerik ve çalışma alanından yayımlanmış uygulama değişmez. Çalışma alanınıza yüklenmiş olan içerik paketlerinin içeriği ayrı işlenir. Ayrıntılar için bu makalenin [Yükseltme sırasında içerik paketleri](#content-packs-during-upgrade) bölümüne bakın.
 - Yeni çalışma alanı deneyiminde içerik paketleri desteklenmez. Yükseltme sırasında bunların nasıl işlendiğini öğrenmek için [yayımlanmış içerik paketleri](#published-content-packs) veya [yüklenmiş içerik paketleri](#installed-content-packs) ile ilgili bölümleri okuyun. Çalışma alanınıza yüklenmiş veya yayımlanmış içerik paketlerini yükseltme yapmadan önce silmenizi öneririz.
 - Klasik çalışma alanınızın Microsoft 365 grubu Power BI'daki çalışma alanı yükseltmesinden etkilenmez. Microsoft 365 tarafından yönetilen Teams, SharePoint siteleri, posta kutuları veya diğer kaynaklar değişmez. Power BI çalışma alanınızı yükselttikten sonra bunlar olduğu gibi kalır. Microsoft 365 grubu daha önce olduğu gibi var olmaya devam eder.
@@ -111,7 +112,7 @@ Yeni çalışma alanı deneyimi, klasik çalışma alanlarında bulunmayan özel
 
 1. Çalışma alanı ayarlarına erişmek için çalışma alanı içerik listesinin üst kısmındaki menü çubuğunda **Ayarlar**'ı seçin.
 
-    ![Çalışma alanı ayarları](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Menü çubuğundan Ayarlar'ı seçme adımını gösteren ekran görüntüsü.](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. **Gelişmiş**'in altında, çalışma alanı **Kişi listesi** çalışma alanının yükseltildiği Microsoft 365 grubu olacak şekilde yapılandırılır. Kişi listesine daha fazla kullanıcı veya grup ekleyebilir veya bunu çalışma alanı yöneticilerine geçirebilirsiniz.
 
@@ -119,11 +120,11 @@ Yeni çalışma alanı deneyimi, klasik çalışma alanlarında bulunmayan özel
 
 ### <a name="the-workspace-onedrive"></a>OneDrive çalışma alanı 
 
-Yükseltmeden sonra **OneDrive** çalışma alanı Microsoft 365 grubu SharePoint belge kitaplığına bağlanır. Bu belge kitaplığı **Veri Al > Dosyalar** deneyiminde **OneDrive** seçeneği olarak gösterilir. Microsoft 365 grubunda yer almadığı sürece tüm çalışma alanı kullanıcılarının bu belge kitaplığı üzerinde izni olmayacağını bilmelisiniz.
+Yükseltmeden sonra **OneDrive** çalışma alanı Microsoft 365 grubu SharePoint belge kitaplığına bağlanır. Bu belge kitaplığı **Veri Al > Dosyalar** deneyiminde **OneDrive** seçeneği olarak gösterilir. Microsoft 365 grubunda yer almayan çalışma alanı kullanıcıları bu belge kitaplığı için gerekli izinlere sahip olmayabilir.
 
 ## <a name="content-packs-during-upgrade"></a>Yükseltme sırasında içerik paketleri
 
-Yeni çalışma alanı deneyimi içerik paketlerini desteklemez. Bunun yerine çalışma alanında içerik dağıtmak için uygulamaları ve paylaşılan veri kümelerini kullanın. Yükseltme öncesinde yayımlanmış veya yüklenmiş içerik paketlerini çalışma alanından kaldırmanızı öneririz. Öte yandan yükseltirken yayımlanmış veya yüklenmiş içerik paketleri varsa yükseltme işlemi aşağıda açıklandığı gibi içeriği korumaya çalışır.  Yükseltmeyi yaptıktan sonra içerik paketini veya içeriğin içerik paketiyle ilişkisini geri yüklemenin hiçbir yolu yoktur.
+Yeni çalışma alanı deneyimi içerik paketlerini desteklemez. Bunun yerine çalışma alanında içerik dağıtmak için uygulamaları ve paylaşılan veri kümelerini kullanın. Yükseltme öncesinde yayımlanmış veya yüklenmiş içerik paketlerini çalışma alanından kaldırmanızı öneririz. Öte yandan yükseltirken yayımlanmış veya yüklenmiş içerik paketleri varsa yükseltme işlemi bu makalenin ilerleyen bölümlerinde açıklandığı gibi içeriği korumaya çalışır.  Yükseltmeyi yaptıktan sonra içerik paketini veya içeriğin içerik paketiyle ilişkisini geri yüklemenin hiçbir yolu yoktur.
 
 ### <a name="published-content-packs"></a>Yayımlanmış içerik paketleri
 
@@ -148,7 +149,7 @@ Geri dönmek için, çalışma alanının yükseltilmeden önce ilişkilendirilm
 
 1. Çalışma alanı içerik listesinde **Diğer seçenekler** ( **...** ) > **Çalışma alanı ayarları**'nı seçin.
 
-    ![Çalışma alanı ayarları](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Diğer seçenekler (…) > Çalışma alanı ayarları'nı gösteren ekran görüntüsü.](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. **Gelişmiş** seçeneğini genişletin ve **Klasik görünüme geç**'i seçin. Size bu seçenek sağlanmıyorsa bu makalenin [Klasik çalışma alanına geri dönerken dikkate alınacak noktalar](#considerations-for-switching-back-to-classic) bölümüne bakın.
 
@@ -202,10 +203,10 @@ Bazı kuruluşlar çalışma alanlarının çoğunu veya tümünü yeni çalış
    
 ## <a name="known-issues"></a>Bilinen sorunlar
 
-Bilinen bazı sorunlarla karşılaşabilirsiniz:
-- Yükseltmeden sonra kullanıcılar “Model yüklenemedi” uyarı iletişim kutusunu görebilir. Bu ileti yanlışlıkla gösterilir ve yoksayılabilir. 
-- Yükseltmeden sonra, bazı çalışma alanı adları yükseltmeden önceki adlarından farklı olabilir. Bu sorun oluştuğunda, çalışma alanı adı önceki adlarından birine döndürülür veya boş kalır. Bu sorunu çözmek için çalışma alanını dilediğiniz bir adla yeniden adlandırın.
-- Yüklü içerik paketine sahip olan bir çalışma alanını yükselttikten sonra, çalışma alanında yükseltmeden önce görülemeyen ek panolar görebilirsiniz. Bu sorun, bir içerik paketinin yakın zamanda güncelleştirilmediği bazı durumlarda oluşur. Bu panoları güvenli bir şekilde kaldırabilirsiniz.
+Yükseltme sonrasında bilinen bazı sorunlarla karşılaşabilirsiniz:
+- "Model yüklenemedi" uyarı iletişim kutusunu görebilirsiniz. Bu ileti yanlışlıkla gösterilir ve yoksayılabilir. 
+- Bazı çalışma alanı adları yükseltmeden önceki adlarından farklı olabilir. Bu durumda çalışma alanı adı önceki adlarından birine döndürülür veya boş kalır. Bu sorunu çözmek için çalışma alanını dilediğiniz bir adla yeniden adlandırın.
+- Yüklü içerik paketine sahip olan bir çalışma alanında yükseltmeden önce görülemeyen ek panolar görebilirsiniz. Bu durumda içerik paketi yakın zamanda güncelleştirilmemiş olabilir. Bu panoları güvenli bir şekilde kaldırabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364112"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634746"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 
@@ -53,11 +53,11 @@ Kullanılabilir rapor temalarından seçim yapmak için:
 
 1. **Görünüm** şeridindeki **Temalar** açılır ok düğmesi **Tema Değiştir**’i seçin.
 
-   ![Rapor teması seçme](media/desktop-report-themes/report-themes-02.png)
+   ![Birçok farklı temanın sunulduğu Görünüm şeridini gösteren ekran görüntüsü.](media/desktop-report-themes/report-themes-02.png)
 
 2. Karşınıza çıkan açılır menüdeki temalar arasından seçim yapın.
 
-   ![Rapor teması seçme](media/desktop-report-themes/report-themes-03.png)
+   ![Seçilebilecek Power BI temalarını gösteren ekran görüntüsü.](media/desktop-report-themes/report-themes-03.png)
 
    Rapor temanız rapora uygulandı.
 
@@ -600,7 +600,9 @@ Boole değerleri true veya false şeklindedir. Dizeler, "bu bir dizedir" örneğ
 
 Renklerde, aşağıdaki biçim kullanılır. Buradaki örnekte "FFFFFF" yerine özel onaltılık kodunuz gelir:
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 En çok, açılan biçimlendirme seçenekleri için kullanılan bir sabit listesi, bölmede görülen seçeneklerden herhangi birine ayarlanabileceği anlamına gelir. Örneğin, gösterge konumu için “RightCenter” veya pasta veri etiketi için “Veri değeri, toplamın yüzdesi”. Numaralandırma seçenekleri, özellik listesinin altında gösterilir.
 

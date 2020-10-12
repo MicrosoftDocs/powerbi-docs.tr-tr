@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234355"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600159"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel’deki içeriği Power BI’da yayımlama
 Excel 2016 veya üzeri bir sürümü kullanarak Excel çalışma kitaplarınızı, çalışma kitabı verilerine dayalı olarak son derece etkileşimli raporlar ve panolar oluşturabileceğiniz [Power BI](https://powerbi.microsoft.com) çalışma alanınızda doğrudan yayımlayabilirsiniz. Daha sonra öngörülerinizi, kuruluşunuzdaki diğer kişilerle paylaşabilirsiniz.
@@ -44,11 +44,11 @@ Excel, yerel Excel dosyalarının yayımlanmasını destekler. Dosyaların OneDr
 
 **Yayımla**'yı seçtiğinizde, yayımlamak istediğiniz çalışma alanını seçebilirsiniz. Excel dosyanız OneDrive İş’te duruyorsa yalnızca *Çalışma Alanım* alanınıza yayımlayabilirsiniz. Excel dosyanız yerel sürücüde duruyorsa *Çalışma Alanım*’a veya erişiminiz olan bir paylaşılan çalışma alanına yayımlayabilirsiniz.
 
-![Power BI'da yayımla](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Çalışma Alanım'ın seçili olduğu Power BI'da Yayımla adımını gösteren ekran görüntüsü.](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 Çalışma kitabınızı Power BI’a aktarmak için iki seçenek vardır.
 
-![Power BI'da yayımla](media/service-publish-from-excel/pbi_uploadexport3.png)
+![Çalışma Alanım'ın seçili olduğu Yayımla adımını gösteren ekran görüntüsü.](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 Yayımlandıktan sonra, yayımladığınız çalışma kitabı içeriği Power BI’a, yerel dosyadan ayrı bir şekilde içeri aktarılır. Dosyayı Power BI’da güncelleştirmek istiyorsanız güncelleştirilmiş sürümü yeniden yayımlamanız gerekir. Dilerseniz zamanlanmış yenileme yapılandırarak çalışma kitabında veya Power BI’daki veri kümesinde bulunan verileri yenileyebilirsiniz.
 

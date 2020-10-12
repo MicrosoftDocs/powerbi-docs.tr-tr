@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226048"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374948"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 
@@ -24,7 +24,7 @@ Panoları, raporları ve uygulamaları öne çıkarabilirsiniz; böylece bu öğ
 
 ## <a name="who-can-feature-content"></a>İçeriği kimler öne çıkarabilir?
 
-Kiracınızda içeriği öne çıkarma yeteneğinin etkinleştirilmesi, Power BI kiracı yöneticinize bağlıdır. Yönetici, içeriği kimlerin öne çıkarabileceğini de seçer. Ayrıntılar için [yönetici portalı](../admin/service-admin-portal.md#featured-content) makalesine bakın.
+Kiracınızda içeriği öne çıkarma yeteneğinin etkinleştirilmesi, Power BI yöneticinize bağlıdır. Yönetici, içeriği kimlerin öne çıkarabileceğini de seçer. Ayrıntılar için [yönetici portalı](../admin/service-admin-portal.md#featured-content) makalesine bakın.
 
 Kuruluşunuzda bu sorumluluğa sahip bir grupsanız Power BI Pro lisansına sahip olmanız gerekir. Panoları ve raporları öne çıkarmak için çalışma alanında Yönetici, Üye veya Katkıda Bulunan rolüne sahip olmanız gerekir. Uygulamanın kendisini öne çıkarmak için, çalışma alanında Yönetici veya Üye rolüne sahip olmanız gerekir. Ayrıntılar için [Yeni çalışma alanlarındaki roller](service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
 
@@ -38,13 +38,13 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 1. Çalışma alanı için **Panolar** veya **Raporlar** listesinde **Ayarlar** simgesini seçin.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Rapor Ayarları simgesi":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
 
 2. **Ayarlar** bölmesinde adı işaretleyin veya değiştirin. İsterseniz bir **Açıklama** ekleyin ve bir **Anlık görüntü** karşıya yükleyin. Kullanıcılarınızın içeriğinizi bulmasına yardımcı olacağı için bunlar kullanışlıdır.
 
 3. **Öne Çıkanlar**’ı seçin.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Öne çıkan içerik ayarları":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
 
 4. **Kaydet**'i seçin.
 

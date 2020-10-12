@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239830"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632837"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme
 
@@ -53,7 +53,7 @@ Görselleştirme için iki tür giriş gerekir:
 
 Sonraki adım detayına gitmek istediğiniz bir veya birden fazla boyutu getirmektir. Bu alanları **Açıklama ölçütü** demetine ekleyin. Kök düğümünüzün yanında bir artı işareti gösterildiğine dikkat edin. Bu + işaretinin seçilmesi hangi alanda detaya gitmek istediğinizi seçmenize olanak tanır (alanlarda istediğiniz sırada detaya gidebilirsiniz).
 
-![Ayrıştırma ağacı menüsü](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![Açıklama ölçütü listesindeki seçenekleri gösteren artı simgesinin seçili olduğu ekran görüntüsü.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **Forecast bias** (Tahmin sapması) öğesinin seçilmesi, ağacın genişlemesine ve ölçünün sütundaki değerlere göre ayrılmasına neden olur. Bu işlem detaya gidilecek başka bir düğüm seçilerek tekrarlanabilir.
 
@@ -61,7 +61,7 @@ Sonraki adım detayına gitmek istediğiniz bir veya birden fazla boyutu getirme
 
 Son düzeyden bir düğüm seçildiğinde verilere çapraz filtre uygulanır. Önceki düzeyden bir düğüm seçildiğinde yol değişir.
 
-![Ayrıştırma ağacı menüsü](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![Önceki düzeydeki bir düğümün seçildiğini ve ekranı alt düğümlerini gösterecek şekilde nasıl değiştirdiğini gösteren animasyon.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 Diğer görsellerle etkileşim kurulduğunda ayrıştırma ağacına çapraz filtre uygulanır. Sonuç olarak düzeylerin içindeki düğüm sırası değişebilir.
 Aşağıdaki örnekte Ubisoft'a göre ağaca çapraz filtre uyguladık. Yol güncelleştirildi ve PlayStation tarafından geride bırakılan Xbox satışları ilk sıradan ikinci sıraya geçti. 
@@ -70,7 +70,7 @@ Ağaca Nintendo'ya göre çapraz filtre uygularsak, Xbox tarafından geliştiril
 
 Yol görüntüden kaldırılsa da mevcut düzeyler (bu örnekte Game Genre) ağaçta sabitlenmiş olarak durur. Dolayısıyla Nintendo düğümü seçildiğinde ağaç otomatik olarak Game Genre öğesine genişletilir.
 
-![Ayrıştırma ağacı menüsü](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![Görüntülenen düğümleri etkileyen çapraz filtre seçimini gösteren animasyon.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI bölmeleri
@@ -132,11 +132,11 @@ Ağaçta farklı bir düğüm seçerseniz AI Bölmeleri sıfırdan yeniden hesap
 
 Ayrıştırma ağacına başka bir görselle çapraz filtreleme uyguladığınızda da AI düzeyleri yeniden hesaplanır. Aşağıdaki örnekte, Plant #0477'de sipariş açığı yüzdemizin en yüksek düzeyde olduğunu görebiliriz.
 
-![Ayrıştırma ağacı çapraz filtrelemesi](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![Tüm ayların seçili olduğu Kök Neden Analizi'ni gösteren ekran görüntüsü.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 Ama çubuk grafikte **April**'i (Nisan) seçersek, en yüksek değer **Advanced Surgical Ürün Türü** olarak değişir. Bu durumda yalnızca düğümler yeniden sıralanmakla kalmaz, tamamen farklı bir sütun seçilir. 
 
-![Ayrıştırma ağacı çapraz filtrelemesi](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![Yalnızca Nisan ayının seçili olduğu Kök Neden Analizi'ni gösteren ekran görüntüsü.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 AI düzeylerinin AI olmayan düzeyler gibi davranmasını istiyorsanız, ampul simgesini seçerek varsayılan davranışa dönün. 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237387"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635850"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
 
@@ -77,7 +77,7 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
    
     Görsel, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler görselin filtrelenmiş halini görür ve değerleri seçerek veya temizleyerek Okuma görünümünde filtre ile etkileşim kurabilir.
      
-    ![Filtrelenen görsel](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![Filtrelenen değerlerin göründüğü çubuk grafiği gösteren ekran görüntüsü.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     Filtreyi, alanın toplu olduğu bir görselde kullanılan alanda kullandığınızda (örneğin, toplam, ortalama veya sayı) her veri noktasındaki *toplanmış* değer için filtre uygularsınız. Bu nedenle, yukarıdaki görselde **Bu Yılın Satışları > 500000** gibi bir filtre uygulamak isterseniz, sonuçta yalnızca **13 - Charleston Fashion Direct** veri noktasını görürsünüz. [Model ölçümlerindeki](../transform-model/desktop-measures.md) filtreler her zaman veri noktasının toplu değeri için geçerlidir.
 
@@ -95,7 +95,7 @@ Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de ind
 
     Ayrıca görselleştirmenin kendisi de bu işlemden sonra, belirtilen mağazalar için yalnızca bu yöneticilerin bu yılki satışlarını gösterecek şekilde filtrelenmiştir.
      
-    ![Filtrelenen görsel](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Yeni alana göre filtrelenen değerlerin göründüğü çubuk grafiği gösteren ekran görüntüsü.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Raporunuzu bu filtreyle kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma görünümünde **District Manager** filtresiyle etkileşim kurabilir.
     

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161802"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633898"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI hizmetindeki düğmeler
 İş arkadaşlarınızın gönderdiği raporlardaki düğmeleri fark etmiş ve bunların nasıl kullanılacağını öğrenmek istemiş olabilirsiniz. Bu düğmelerin bazılarının üzerinde sözcükler, bazılarında oklar, diğerlerinde ise grafikler ve hatta açılan menüler bulunur. Bu makale, düğmeleri tespit etme ve gerçekleştirdikleri işlemleri öğrenme konusunda size yol gösterecektir.
@@ -31,11 +31,11 @@ Geri düğmesinin üzerinde bir ok olabilir ve bu düğmeyi seçtiğinizde Power
 1. Çubuk grafikte **Sözcük**'ü seçin.
 1. **Detaylandır**'ı ve ardından **Pazar sepeti çözümlemesi**'ni seçin.
 
-    ![Geri düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-drillthrough.png)
+    ![Detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-drillthrough.png)
 
     **Pazar sepeti çözümlemesi**'ni seçtiğinizde Power BI, *Pazar sepeti çözümlemesi* rapor sayfasını açar ve kaynak sayfada yapılan seçimleri kullanarak hedef sayfada gösterilen içeriği filtreler.
 
-    ![Geri düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-go-back.png)
+    ![Geri düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-go-back.png)
 
     Sözcük için filtrelenmiş olan **Pazar sepeti çözümlemesi** rapor sayfasına ulaşmış olursunuz. Önceki sayfaya geri dönmek için Geri düğmesini seçin. 
 
@@ -60,15 +60,15 @@ Detaylandırma düğmelerinde birden fazla önkoşul olabilir. Tüm önkoşullar
 
 Aşağıda bizi *Mağaza ayrıntıları* sayfasına götürecek olan bir detaylandırma düğmesi gösterilmiştir. Düğmenin üzerine geldiğinizde mağaza ve ürün seçmemiz gerektiğini bildiren bir araç ipucu görüntülenir. İki seçimi de yapana kadar düğmeyi seçemezsiniz.
 
-![Üzerine gelindiğinde görünen ipucuna sahip detaylandırma düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-drill-two-selections.png)
+![Üzerine gelindiğinde görünen ipucuna sahip Detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 Bir ürün (**Sözcük**) ve bir mağaza (**Leo**) seçtiğimize göre düğmenin rengi değişir ve düğme etkin duruma gelir.
 
-![Üzerine gelindiğinde görünen ipucuna sahip detaylandırma düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-select-both.png)
+![Mağaza ayrıntıları için Detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-select-both.png)
 
 Detaylandırma düğmesini seçtiğinizde *Mağaza* rapor sayfası açılır. *Mağaza* sayfası **Sözcük** ve **Leo** seçimlerinize göre filtrelenir.
 
-![Üzerine gelindiğinde görünen ipucuna sahip detaylandırma düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-store.png)
+![Mağaza raporları sayfasının ekran görüntüsü.](media/end-user-buttons/power-bi-store.png)
 
 Detaylandırma düğmelerinde hedef seçeneği sunan açılan menüler de bulunabilir. Kaynak rapor sayfasında gerekli seçimleri yaptıktan sonra detaylandırmak istediğiniz hedef rapor sayfasını seçebilirsiniz. Aşağıdaki örnekte detaylandırma seçimimizi *Pazar ayrıntıları* rapor sayfası olarak değiştiriyoruz. 
 
@@ -78,13 +78,13 @@ Detaylandırma düğmelerinde hedef seçeneği sunan açılan menüler de buluna
 
 Sayfa gezintisi düğmeleri sizi aynı rapordaki farklı bir sayfaya götürür. Rapor tasarımcıları gezinti düğmelerini genellikle bir hikaye anlatmak veya rapor içgörüleri arasında gezinti yapmanızı sağlamak için oluşturur. Aşağıdaki örnekte rapor tasarımcısı, raporun her sayfasına eklediği düğmeyle sizi ilk sayfa olan üst düzey özet sayfasına yönlendirmektedir. Bu raporda çok fazla sayfa bulunduğundan bu sayfa gezinti düğmesi yararlıdır.
 
-![Ekip puan kartı adlı sayfa gezintisi düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-nav-button.png)
+![Ekip puan kartı adlı sayfa gezintisi düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>Soru-Cevap düğmeleri 
 Bir Soru-Cevap düğmesini seçtiğinizde Power BI Soru-Cevap Gezgini penceresi açılır. Soru-Cevap penceresi rapor sayfasının en üstünde görüntülenir ve X simgesinden kapatılabilir. [Soru-Cevap hakkında bilgi edinin](end-user-q-and-a.md)
 
-![Ekip puan kartı adlı sayfa gezintisi düğmesinin ekran görüntüsü](media/end-user-buttons/power-bi-qna.png)
+![Verilerinizle ilgili bir soru sorun metninin yer aldığı Power BI Soru-Cevap Gezgini penceresinin ekran görüntüsü.](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web URL'si
 Web URL'si düğmeleri yeni bir tarayıcı penceresi açar. Rapor tasarımcıları bu tür düğmeleri başvuru kaynağı sunmak, kuruluşun web sitesine bağlantı vermek veya farklı bir rapora ya da panoya bağlantı sağlamak için ekleyebilir. Aşağıdaki örnekte bulunan Web URL'si düğmesi, raporun kaynak dosyasını indirmenizi sağlar. 

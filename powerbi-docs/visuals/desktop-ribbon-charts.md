@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221638"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635781"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI'da şerit grafikleri oluşturma
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221638"
 
 Verileri görselleştirmek ve hangi veri kategorisinin en yüksek dereceye (en yüksek değer) sahip olduğunu hızla keşfetmek için şerit grafikleri oluşturabilirsiniz. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir. 
 
-![Şerit grafik](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![Yıla ve çeyreğe göre görüntülenen Ses, Cep telefonları ve diğer kategorilere ait verilerin yer aldığı şerit grafiği gösteren ekran görüntüsü.](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bireysel Power BI Pro lisanslarınızın olması veya raporun Premium kapasitede depolanması gerekir. Bkz. [Raporları paylaşma](../collaborate-share/service-share-reports.md).
@@ -57,12 +57,12 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 3. Şerit grafiğinde tüm ayların derecelendirmesi gösterilir. Zaman içinde derecelendirmenin nasıl değiştiğine dikkat edin. Örneğin Home kategorisi Şubat'tan Mart'ta kadar ikinci sıradan beşinci sıraya geçmiş.
 
-    ![Şerit grafik](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![Oluşturduğunuz ve bazı verilerin vurgulanmış olduğu şerit grafiği gösteren ekran görüntüsü.](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Bir şerit grafiği biçimlendirme
 Bir şerit grafik oluşturduğunuzda **Görsel Öğeler** bölmesinin **Biçim** bölümünde bazı biçimlendirme seçenekleri kullanıma sunulur. Şerit grafiklere yönelik biçimlendirme seçenekleri, yığılmış sütun grafiklere yönelik biçimlendirme seçeneklerine benzese de şeritlere özel ek biçimlendirme seçenekleri içerir.
 
-![Görselleştirme bölmesinde şerit şablonu](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![Biçim simgesinin seçili olduğunu ve Şeritler alanının genişletildiğini gösteren ekran görüntüsü.](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Şerit grafikleri için bu biçimlendirme seçenekleri ayarlar yapmanızı sağlar.
 
@@ -77,7 +77,7 @@ Bir şerit grafik oluşturduğunuzda **Görsel Öğeler** bölmesinin **Biçim**
 
 Veri etiketleriniz için biçimlendirme seçeneklerini ayarlayın. Bu örnekte, metin rengini beyaz ve görüntü birimlerini binler olarak ayarladık.
 
-![Görselleştirme bölmesinde şerit şablonu](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![Şerit grafiğinizin son biçimini gösteren ekran görüntüsü.](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

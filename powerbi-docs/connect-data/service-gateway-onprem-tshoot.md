@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860705"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634655"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Ağ geçidiyle ilgili sorunları giderme - Power BI
 
@@ -32,9 +32,11 @@ Yapılandırma işleminin sonunda Power BI hizmeti, ağ geçidini doğrulamak i�
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Hata: Bağlanılamıyor. Ayrıntılar: "Bağlantı kimlik bilgileri geçersiz"
 
-**Ayrıntıları göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız:
+**Ayrıntıları göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir iletiyle karşılaşırsınız:
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 Doğru kullanıcı adına ve parolaya sahip olduğunuzdan emin olun. Ayrıca, bu kimlik bilgileriyle veri kaynağına başarılı bir şekilde bağlanabildiğinizi de doğrulayın. Kullanılmakta olan hesabın, kimlik doğrulama yöntemiyle eşleştiğinden emin olun.
 
@@ -44,7 +46,9 @@ Sunucuya bağlanabildiğinizi ancak belirtilen veritabanına bağlanamadığın�
 
 **Ayrıntıları göster** bölümünde, veri kaynağından alınan hata iletisi görüntülenir. SQL Server için aşağıdakine benzer bir hata iletisiyle karşılaşırsınız:
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Hata: Bağlanılamıyor. Ayrıntılar: "Veri ağ geçidinde bilinmeyen hata oluştu"
 
@@ -62,11 +66,15 @@ Belirtilen veri kaynağına bağlanamadığınızı gösterir. Söz konusu veri 
 
 Temel alınan hata iletisi aşağıdakine benzerse bu veri kaynağı için kullandığınız hesabın, ilgili Analysis Services örneği için bir sunucu yöneticisi olmadığı anlamına gelir. Daha fazla bilgi için bkz. [Analysis Services örneğine sunucu yöneticisi hakları verme](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance).
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 Temel alınan hata iletisi aşağıdakine benzerse bu Analysis Services'e ilişkin hizmet hesabında [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) dizin özniteliğinin eksik olduğu anlamına gelebilir.
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Windows 2000 öncesi uyumluluk erişimine sahip etki alanlarında TGGAU özniteliği etkindir. Yeni oluşturulan etki alanlarının çoğunda bu öznitelik varsayılan olarak etkin değildir. Daha fazla bilgi için bkz. [Bazı uygulamalar ve API'ler hesap nesneleriyle ilgili yetkilendirme bilgilerine erişim gerektirir](https://support.microsoft.com/kb/331951).
 
@@ -75,13 +83,17 @@ Windows 2000 öncesi uyumluluk erişimine sahip etki alanlarında TGGAU öznitel
 1. SQL Server Management Studio'daki Analysis Services makinesine bağlanın. Gelişmiş bağlantı özellikleri bölümünde, söz konusu kullanıcı için EffectiveUserName özelliğini ekleyin ve bu eklemenin hatayı yeniden oluşturup oluşturmadığına bakın.
 2. Özniteliğin listelenip listelenmediğini doğrulamak için dsacls Active Directory aracını kullanabilirsiniz. Bu araç bir etki alanı denetleyicisinde bulunur. Hesaba ilişkin ayırt edici etki alanı adının ne olduğunu bilmeniz ve bu adı araca iletmeniz gerekir.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     Aşağıdakine benzer bir sonuç elde etmelisiniz:
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 Bu sorunu gidermek üzere, Analysis Services Windows hizmeti için kullanılan hesapta TGGAU özniteliğini etkinleştirmeniz gerekir.
 
@@ -139,7 +151,9 @@ Etkin kullanıcı adını onaylamak için şu adımları izleyin.
 1. [Ağ geçidi günlüklerinde](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app) etkin kullanıcı adını bulun.
 2. Değeriniz geçirildikten sonra değerin doğru olduğunu onaylayın. Değer kullanıcınıza aitse bir komut isteminde aşağıdaki komutu kullanarak kullanıcı asıl adını görebilirsiniz. UPN bir e-posta adresine benzer.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 İsterseniz Power BI'ın Azure Active Directory'den alacağı değeri görebilirsiniz.
 
@@ -147,10 +161,13 @@ Etkin kullanıcı adını onaylamak için şu adımları izleyin.
 2. Sağ üst köşede **Oturum aç**'ı seçin.
 3. Aşağıdaki sorguyu çalıştırın. Daha kapsamlı bir JSON yanıtı alırsınız.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. **userPrincipalName** değerini bulun.
 
-Azure Active Directory kullanıcı asıl adınız yerel Active Directory kullanıcı asıl adınızla eşleşmezse geçerli bir değerle değiştirmek için [Kullanıcı adlarını eşle](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) özelliğini kullanabilirsiniz. Alternatif olarak, kullanıcı asıl adınızı değiştirmek için kiracı yöneticinizle veya yerel Active Directory yöneticinizle iletişime geçebilirsiniz.
+Azure Active Directory kullanıcı asıl adınız yerel Active Directory kullanıcı asıl adınızla eşleşmezse geçerli bir değerle değiştirmek için [Kullanıcı adlarını eşle](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) özelliğini kullanabilirsiniz. Alternatif olarak, kullanıcı asıl adınızı değiştirmek için Power BI yöneticinizle veya yerel Active Directory yöneticinizle iletişime geçebilirsiniz.
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ UPN (alias@domain.com) kullanılarak kullanıcının kimliğine bürünüldüyse
 
 * SAP HANA, kimliğine bürünülen kullanıcının Active Directory'de (kullanıcı diğer adı) sAMAccountName özniteliğini kullanmasını gerektirir. Bu öznitelik doğru değilse 1033 hatasını görürsünüz.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![Öznitelik düzenleyicisi](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * Günlüklerde, etki alanının takip ettiği diğer ad (alias@doimain.com) olan UPN’yi değil, sAMAccountName (diğer ad) adını görürsünüz.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![Günlüklerdeki hesap bilgisi](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952674"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599399"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
@@ -67,7 +67,7 @@ Power BI yöneticisi, veri kümeleri için yeterli belleğin sağlandığından 
 
 ## <a name="identifying-slow-responding-datasets"></a>Yavaş yanıt veren veri kümelerini tanımlama
 
-Bu senaryoda kullanıcıların, belirli raporların açılmasının çok uzun sürdüğü ve bazen yanıt vermeyi bıraktığı yönündeki şikayetleri üzerine bir araştırma başlatılmıştır.
+Bu senaryoda kullanıcıların, belirli raporların açılmasının çok uzun sürdüğü yönündeki şikayetleri üzerine bir araştırma başlatılmıştır. Raporlar yanıt vermeyi durdurmaktadır.
 
 Power BI yöneticisi uygulama içinde **Sorgu Süreleri** görselini kullanarak veri kümelerini **Ortalama Süre** ölçütüne göre azalan sırada sıralayarak performansı en düşük olan veri kümelerini görebilir. Bu görselde ayrıca veri kümesi sorgu sayıları da vardır ve bu sayede veri kümelerinin ne kadar sorgulandığını görebilirsiniz.
 
@@ -79,27 +79,27 @@ Yönetici, filtrelenen zaman aralığı için kümelenmiş olan sorgu performans
 
 Görsel etkileşimlidir ve çubuğun bir bölümü seçildiğinde rapor sayfasındaki karşılık gelen **Sorgu Süreleri** tablo görseline çapraz filtre uygulanarak temsil ettiği veri kümeleri gösterilir. Çapraz filtreleme, Power BI yöneticisinin yavaş yanıt veren veri kümelerini kolayca tanımlamasını sağlar.
 
-Aşağıdaki görüntüde **Saatlik Sorgu Süresi Dağılımları** ölçütüyle filtrelenmiş olan ve bir saatlik aralıklarla en düşük performanslı veri kümelerini gösteren bir görsel yer almaktadır. 
+Aşağıdaki görüntüde **Saatlik Sorgu Süresi Dağılımları** ölçütüyle filtrelenmiş olan ve bir saatlik aralıklarla en düşük performanslı veri kümelerini gösteren bir görsel yer almaktadır.
 
 ![En düşük performanslı veri kümelerini gösteren filtrelenmiş Saatlik Sorgu Süresi Dağılımları görseli](media/service-premium-capacity-scenarios/hourly-query-duration-distributions.png)
 
-Power BI yöneticisi, belirli bir saatin içindeki düşük performanslı veri kümesini belirledikten sonra düşük performansın nedeninin kapasiteye aşırı yüklenilmesinden mi yoksa kötü tasarlanmış veri kümesi ve rapordan mı kaynaklandığını araştırmaya başlayabilir. Yönetici, **Sorgu Bekleme Süreleri** görseline bakarak veri kümelerini azalan ortalama sorgu bekleme süresine göre sıralayabilir. Sorguların büyük bir bölümü bekliyorsa, veri kümesi yüksek talep nedeniyle çok fazla sorguyu bekletiyor olabilir. Ortalama sorgu bekleme süresi önemli bir düzeydeyse (> 100 ms), veri kümesi ve raporu inceleyerek iyileştirme yapılıp yapılamayacağı belirlenebilir. Örneğin ilgili raporun sayfalarındaki görsel sayısı azaltılabilir veya DAX ifadeleri iyileştirilebilir.
+Power BI yöneticisi, belirli bir saatin içindeki düşük performanslı veri kümesini belirledikten sonra düşük performansın nedeninin kapasiteye aşırı yüklenilmesinden mi yoksa kötü tasarlanmış veri kümesi ve rapordan mı kaynaklandığını araştırmaya başlayabilir. Yönetici, **Sorgu Bekleme Süreleri** görseline bakarak veri kümelerini azalan ortalama sorgu bekleme süresine göre sıralayabilir. Sorguların büyük bir bölümü gecikiyorsa, veri kümesi yüksek talep nedeniyle çok fazla sorguyu bekletiyor olabilir. Ortalama sorgu bekleme süresi önemli bir düzeydeyse (> 100 ms), veri kümesi ve raporu inceleyerek iyileştirme yapılıp yapılamayacağı belirlenebilir. Örneğin ilgili raporun sayfalarındaki görsel sayısı azaltılabilir veya DAX ifadeleri iyileştirilebilir.
 
 ![Sorgu Bekleme Süreleri görseli, düşük performanslı veri kümelerinin belirlenmesine yardımcı olur](media/service-premium-capacity-scenarios/query-wait-times.png)
 
 Veri kümelerindeki sorgu bekleme sürelerinin artmasının birden fazla nedeni olabilir:
 
 - Uygun olmayan model tasarımı, ölçü ifadeleri ve hatta rapor tasarımı gibi yüksek düzeyde CPU kullanan ve uzun süre çalışan sorgulara neden olabilecek tüm koşullar. Bu durum, yeni sorguların CPU iş parçacıkları müsait duruma gelene kadar beklemesine neden olur ve bir konvoy etkisi yaratabilir (trafik sıkışıklığı gibi düşünebilirsiniz). Bu, yoğun iş saatlerinde sık görülen bir durumdur. Veri kümelerinin ortalama sorgu bekleme süresinin yüksek olup olmadığını belirlemek için öncelikli olarak **Sorgu Beklemeleri** sayfasını incelemeniz gerekir.
-- Bir raporu veya veri kümesini eşzamanlı olarak kullanan kullanıcıların sayısının çok yüksek (yüzlerce veya binlerce) olması. Eşzamanlılık eşiğinin aşılması durumunda iyi tasarlanmış veri kümeleri dahi kötü bir performans sergileyebilir. Bu durum genellikle tek bir veri kümesinin diğer veri kümelerine kıyasla çok daha yüksek bir sorgu sayısına sahip olmasıyla anlaşılabilir (örneğin bir veri kümesine 300 binden fazla sorgu gelirken diğer veri kümelerine gelen sorguların toplamı 30 binden küçük olabilir). Bu veri kümesine gönderilen sorgular belirli bir noktada aksamaya başlayacaktır ve bu durum **Sorgu Süreleri** görselinden takip edilebilir.
+- Bir raporu veya veri kümesini eşzamanlı olarak kullanan kullanıcıların sayısının çok yüksek (yüzlerce veya binlerce) olması. Eşzamanlılık eşiğinin aşılması durumunda iyi tasarlanmış veri kümeleri dahi kötü bir performans sergileyebilir. Bu durum genellikle tek bir veri kümesinin diğer veri kümelerine kıyasla çok daha yüksek bir sorgu sayısına sahip olmasıyla anlaşılabilir. Örneğin bir veri kümesine 300 binden fazla sorgu gelirken diğer veri kümelerine gelen sorguların toplamı 30 binden küçük olabilir. Bu veri kümesine gönderilen sorgular belirli bir noktada aksamaya başlayacaktır ve bu durum **Sorgu Süreleri** görselinden takip edilebilir.
 - Birbirinden ayrı birçok veri kümesinin aynı anda sorgulanması nedeniyle belleğe alınan ve atılan veri kümesi sayısının çok olması, bu nedenle belleğin sürekli temizlenmesi. Veri kümesi her seferinde belleğe yüklendiğinden kullanıcılar düşük performansla karşılaşır. Power BI yöneticisi bu durumu doğrulamak için **Saatlik Veri Kümesi Çıkarmaları ve Bellek Tüketimi** görseline bakabilir. Bu görselde belleğe yüklenen çok sayıdaki veri kümesinin sürekli çıkarıldığı gösteriliyor olabilir.
 
 ## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Aralıklı olarak yavaş yanıt veren veri kümeleriyle ilgili nedenleri tanımlama
 
-Bu senaryoda, kullanıcıların görsellerin belirli zamanlarda yavaşlayıp yanıt vermeyi durdurabildiğini ancak onun dışında kabul edilebilir düzeyde hızlı olduğunu belirtmeleri üzerine bir araştırma başlatılmıştır.
+Bu senaryoda, kullanıcıların görsellerin belirli zamanlarda yavaşlayıp yanıt vermeyi durdurabildiğini belirtmeleri üzerine bir araştırma başlatılmıştır. Rapor görselleri bunun dışında kabul edilebilir düzeyde hızlıdır.
 
 Bu duruma neden olan veri kümesini bulmak için uygulamanın içindeki **Sorgu Süreleri** bölümü kullanılmış ve aşağıdaki adımlar izlenmiştir:
 
-- Yönetici, **Sorgu Süreleri** görselinde veri kümesine göre filtreleme yapmış (en çok sorgulanan veri kümeleriyle başlayarak) ve **Saatlik Sorgu Dağılımları** görselindeki çapraz filtrelenmiş çubukları incelemiştir.
+- Yönetici, Sorgu Süreleri görselinde veri kümesine göre filtreleme yapmış (en çok sorgulanan veri kümeleriyle başlayarak) ve **Saatlik Sorgu Dağılımları** görselindeki çapraz filtrelenmiş çubukları incelemiştir.
 - Saatlik çubuklardan birinin, tüm sorgu süresi grupları ile veri kümesinin diğer bir saatlik çubukları arasında önemli bir fark göstermesi (örneğin, renkler arasındaki oranların önemli ölçüde değişmesi), veri kümesinin performansının önemli ölçüde değiştiğini gösterir.
 - Düşük performanslı sorguların düzensiz olduğu zamanı gösteren bir saatlik çubuklar, veri kümesinin diğer veri kümelerinin etkinliklerinden kaynaklanan gürültülü komşu etkisine maruz kaldığını göstermektedir.
 

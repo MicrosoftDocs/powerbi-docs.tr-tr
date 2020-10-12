@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/14/2019
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858498"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599872"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop'ta Azure Maliyet Yönetimi bağlayıcısı ile görseller ve raporlar oluşturma
 
@@ -26,6 +26,10 @@ Azure Maliyet Yönetimi bağlayıcısı, Azure’da kimlik doğrulaması için O
 > [!NOTE]
 > Bu bağlayıcı, önceden kullanılabilir olan [Azure Consumption Insights ve Azure Maliyet Yönetimi (Beta)](desktop-connect-azure-consumption-insights.md) bağlayıcılarının yerini alır. Önceki bağlayıcı ile oluşturulan raporların bu bağlayıcı kullanılarak yeniden oluşturulması gerekir.
 
+> [!NOTE]
+> Power BI Desktop için Azure Maliyet Yönetimi bağlayıcısı, kamu bulutlarına bağlanmayı desteklemez. 
+
+
 ## <a name="connect-using-azure-cost-management"></a>Azure Maliyet Yönetimi’ni kullanarak bağlanma
 
 Power BI Desktop’ta **Azure Maliyet Yönetimi bağlayıcısını** kullanmak için:
@@ -34,7 +38,7 @@ Power BI Desktop’ta **Azure Maliyet Yönetimi bağlayıcısını** kullanmak i
 2.  Veri kategorileri listesinden **Azure**’ı seçin.
 3.  **Azure Maliyet Yönetimi**’ni seçin.
 
-    ![Veri al](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
+    ![Verileri alma](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
 4. Görüntülenen iletişim kutusunda, **Microsoft Müşteri Sözleşmeleri** için **Faturalama Profili Kimliği** bilginizi veya **Kurumsal Anlaşma** için **Kayıt Numarası** bilginizi girin. 
 
@@ -50,7 +54,7 @@ Bir **Microsoft Müşteri Sözleşmesi** hesabına bağlanmak için, Azure porta
 5.  **Kapsam Seçin** için **Faturalama Profili Kimliği**’ni seçin ve önceki adımdaki faturalama profili kimliğini yapıştırın. 
 6.  Ay sayısını girip **Tamam**’ı seçin.
 
-    ![Faturalama kimliğini alma](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
+    ![Faturalama Profili Kimliği kapsamındaki Azure Maliyet Yönetimi özelliklerini gösteren ekran görüntüsü.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
 7.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. 
 
@@ -65,7 +69,7 @@ Bir Kurumsal Anlaşma (EA) hesabıyla bağlantı kurmak için, Azure portalında
 4.  **Kapsam Seçin** için **Kayıt Numarası**’nı seçin ve önceki adımdaki faturalama profili kimliğini yapıştırın. 
 5.  Ay sayısını girip **Tamam**’ı seçin.
 
-    ![Faturalama kimliğini alma](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
+    ![Kayıt Numarası kapsamındaki Azure Maliyet Yönetimi özelliklerini gösteren ekran görüntüsü.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
 6.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. 
 
@@ -77,23 +81,23 @@ Başarıyla kimlik doğrulaması yapmanızın ardından **Gezgin** penceresi, a�
 
 | **Tablo** | **Açıklama** |
 | --- | --- |
-| **Balance summary** | Kurumsal Anlaşmalar için bakiye özeti. |
+| **Bakiye özeti** | Kurumsal Anlaşmalar için bakiye özeti. |
 | **Faturalama olayları** | Yeni faturalar, kredi satın almaları vb. için olay günlüğü. Yalnızca Microsoft Müşteri Sözleşmesi. |
 | **Budgets** | Mevcut bütçe hedeflerine göre gerçek maliyetleri ve kullanımı görüntülemek için bütçe ayrıntıları. |
-| **Charges** | Azure kullanımı, Market ücretleri ve ayrı faturalanan ücretlerin ay bazında özeti. Yalnızca Microsoft Müşteri Sözleşmesi. |
+| **Ücretler** | Azure kullanımı, Market ücretleri ve ayrı faturalanan ücretlerin ay bazında özeti. Yalnızca Microsoft Müşteri Sözleşmesi. |
 | **Credit lots** | Belirtilen faturalama profili için Azure kredi lot satın alma ayrıntıları. Yalnızca Microsoft Müşteri Sözleşmesi. |
-| **Pricesheets** | Sağlanan faturalama profili veya Kurumsal Anlaşma kaydı için geçerli ölçüm ücretleri. |
-| **RI charges** | Son 24 ayda Ayrılmış Örneklerinizle ilişkili ücretler. |
-| **RI recommendations (shared)** | Son 7, 30 veya 60 günde tüm aboneliklerinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri. |
-| **RI recommendations (single)** | Son 7, 30 veya 60 günde tek bir aboneliğinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri. |
-| **RI usage details** | Mevcut Ayrılmış Örneklerinizin geçen ayki tüketim ayrıntıları. |
-| **RI usage summary** | Günlük Azure rezervasyon kullanım yüzdesi. |
-| **Usage details** | Kurumsal Anlaşma kaydında belirtilen faturalama profilinin tüketilen miktar ve tahmini ücretlerinin dökümü. |
-| **İtfa edilen kullanım ayrıntıları** | Kurumsal Anlaşma kaydında belirtilen faturalama profilinin tüketilen miktar ve tahmini itfa edilen ücretlerinin dökümü. |
+| **Fiyat listeleri** | Belirtilen faturalama profili veya EA kaydı için geçerli ölçüm ücretleri. |
+| **RI ücretleri** | Son 24 ayda Ayrılmış Örneklerinizle ilişkili ücretler. |
+| **RI önerileri (paylaşılan)** | Son 7, 30 veya 60 günde tüm aboneliklerinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri. |
+| **RI önerileri (tek)** | Son 7, 30 veya 60 günde tek bir aboneliğinizdeki kullanım eğilimlerinden yola çıkarak Ayrılmış Örnek için satın alma önerileri. |
+| **RI kullanım ayrıntıları** | Mevcut Ayrılmış Örneklerinizin geçen ayki tüketim ayrıntıları. |
+| **RI kullanım özeti** | Günlük Azure rezervasyonu kullanım yüzdesi. |
+| **Kullanım ayrıntıları** | Kurumsal Anlaşma kaydında belirtilen faturalama profilinin tüketilen miktar ve tahmini ücretlerinin dökümü. |
+| **Amorti edilmiş kullanım ayrıntıları** | Kurumsal Anlaşma kaydında belirtilen faturalama profilinin tüketilen miktar ve tahmini itfa edilen ücretlerinin dökümü. |
 
 Önizleme iletişim kutusunu görmek için bir tablo seçebilirsiniz. Tablo adlarının yanlarında bulunan kutuları seçerek bir veya daha fazla tablo seçebilir ve ardından **Yükle** seçeneğini belirleyebilirsiniz.
 
-![Faturalama kimliğini alma](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
+![Gezgin iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 **Yükle**’yi seçtiğinizde veriler Power BI Desktop’a yüklenir. 
 

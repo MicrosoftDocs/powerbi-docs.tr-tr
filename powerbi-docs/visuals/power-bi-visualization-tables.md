@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237538"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634723"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
@@ -157,7 +157,7 @@ Tek bir hücrenin değerlerini kopyalamak için:
 
 1. **Kopyala** > **Değeri kopyala**’yı seçin.
 
-    ![kopyalama seçenekleri](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![Değeri kopyala seçeneğinin vurgulandığı Seçileni kopyala adımını gösteren ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     Panonuza kaydedilen biçimlendirilmemiş hücre değerini artık başka bir uygulamaya yapıştırabilirsiniz.
 
@@ -169,7 +169,7 @@ Birden fazla hücreyi kopyalamak için:
 
 1. **Kopyala** > **Seçimi kopyala**’yı seçin.
 
-    ![kopyalama seçenekleri](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![Seçimi kopyala seçeneğinin vurgulandığı Seçileni kopyala adımını gösteren ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Tablonun sütun genişliğini ayarlama
 

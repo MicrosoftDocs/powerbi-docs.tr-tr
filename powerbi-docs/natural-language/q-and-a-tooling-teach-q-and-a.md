@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239924"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635252"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI Soru-Cevap'taki soru ve terimleri anlamak için Soru-Cevap Öğretimi
 
@@ -61,7 +61,7 @@ Soru-Cevap, tanınmayan bir sözcük isim olduğunda Microsoft Office’ten edin
 
 Bu kutuyu, verilerinizdeki terimle doldurun.
 
-![Soru-Cevap Öğretimi eşanlamlısı sorma](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![Soru-Cevap kutusunun Revenue sözcüğünün yer aldığı bölümünü ve Revenue isteminin başvurduğu bilgilerin metin kutusunun yanında yer aldığını gösteren ekran görüntüsü.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Veri modelindeki bir alan dışında bir seçenek belirtirseniz istenmeyen sonuçlar alabilirsiniz.
 
@@ -73,7 +73,7 @@ Bazen, temel alınan verilerde koşul görevi gören terimleri tanımlamak istey
 
 Kutuyu koşulla doldurursunuz.
 
-![Soru-Cevap Öğretimi eşanlamlısı sorma](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![Soru-Cevap kutusunun Awesome publishers sözcüklerinin yer aldığı bölümünü ve Publishers isteminin başvurduğu bilgilerin metin kutusunun yanında yer aldığını ve bu sözcüklerin awesome olduğunu gösteren ekran görüntüsü.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Tanımlayabileceğiniz bazı örnek koşullar şunlardır:
 

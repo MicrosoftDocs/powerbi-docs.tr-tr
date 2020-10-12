@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229464"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600231"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI raporlarını erişilebilirlik için tasarlama
 Etkileyici raporlar tasarlayıp oluşturabilir, aynı zamanda bu raporları erişilebilirlik için tasarlayabilirsiniz. Bir rapor oluştururken, hedef kitleniz kim olursa olsun, raporlarınızı özel bir tasarıma uyarlanmasına gerek kalmadan mümkün olduğunca kullanılabilir olacak şekilde oluşturmanız gerekir.
@@ -72,11 +72,11 @@ Genel olarak, Power BI’da klavye ile gezinme özelliği olan her nesne ekran o
 
 Power BI raporlarında yüksek karşıtlık desteği mevcuttur. Windows’ta bir yüksek karşıtlık modu kullanıyorsanız, Power BI Desktop Windows’ta hangi yüksek karşıtlık temasının kullanıldığını otomatik olarak algılar ve bu ayarları raporlarınıza uygular. Bu yüksek karşıtlık renkleri, Power BI hizmetinde veya başka bir yerde yayımlandığında raporu izler.
 
-![Yüksek karşıtlık pencere ayarları](media/desktop-accessibility/accessibility-05b.png)
+![Yüksek karşıtlıklı pencereler ayarlarına sahip bir raporu gösteren ekran görüntüsü.](media/desktop-accessibility/accessibility-05b.png)
 
 Power BI hizmeti ayrıca Windows için seçilen yüksek karşıtlık ayarlarını algılamaya çalışır, ancak bu algılamanın ne kadar etkili ve doğru olduğu Power BI hizmeti için kullanılan tarayıcıya bağlıdır. Power BI hizmetinde temayı el ile ayarlamak isterseniz, sağ üst köşeden **Görünüm > Yüksek karşıtlık renkleri**’ni ve sonra rapora uygulamak istediğiniz temayı seçebilirsiniz.
 
-![Erişilebilirlik gezintisi için odak](media/desktop-accessibility/accessibility-creating-reports-02.png)
+![Yüksek karşıtlıklı renklerin yer aldığı bir temayı seçme adımını gösteren ekran görüntüsü.](media/desktop-accessibility/accessibility-creating-reports-02.png)
 
 ### <a name="focus-mode"></a>Odak modu
 Rapor tüketicisi bir panodaki görsele bakıyorsa, görselin bağlam menüsüne gidip **Odak modunda aç**'ı seçerek görseli ekranın daha büyük bir kısmını dolduracak şekilde genişletebilir.

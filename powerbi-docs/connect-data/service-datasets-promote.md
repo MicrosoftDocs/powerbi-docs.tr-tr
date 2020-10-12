@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 984ac0bc0e89ff1be5281039f4f4586025d7973e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ac0b032d8f20610dff97fb112d3ac54d5cc43889
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236766"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374304"
 ---
 # <a name="promote-your-dataset---power-bi"></a>Veri kümenizi yükseltme - Power BI
 
 Power BI rapor oluşturucularınızın artık pek çok farklı veri kümesine erişimi olabileceği için, kuruluşların bu oluşturuculara güvenilir, yüksek kaliteli veri kümeleri için kılavuzluk etmesi gereklidir. Power BI, veri kümelerini *onaylamak* için iki yol sunar:
 
 - **Yükseltme**: Veri kümesi sahibi olarak, yaygın kullanım için hazır olduklarında kendi veri kümelerinizi yükseltebilirsiniz. Yazma izni olan tüm çalışma alanı üyeleri veri kümesini yükseltebilir. Veri kümesini kimlerin yükseltebileceği konusunda hiçbir kısıtlama yoktur. Yükseltme, kuruluş içindeki veri kümelerinin işbirliğine dayalı yayılmasını destekler. Bu makale, veri kümenizi yükseltme hakkındadır.
-- **Onaylama**: Yükseltilen bir veri kümesinin onaylanmasını isteyebilirsiniz. **Veri Kümesi Onaylama** kiracı yöneticisi ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Ayrıntılar için bkz. [Veri kümelerini onaylama](service-datasets-certify.md).
+- **Onaylama**: Yükseltilen bir veri kümesinin onaylanmasını isteyebilirsiniz. **Veri Kümesi Onaylama** kiracı ayarında tanımlı seçili bir kullanıcı grubu, hangi veri kümelerinin onaylanacağına karar verir. Ayrıntılar için bkz. [Veri kümelerini onaylama](service-datasets-certify.md).
 
 ## <a name="promote-a-dataset"></a>Bir veri kümesini yükseltme
 
@@ -41,7 +41,7 @@ Yükseltmeye hazır olduğunuzda, veri kümenizin Power BI hizmetindeki yeni bir
 
 ## <a name="request-dataset-certification"></a>Veri kümesi onayı isteme
 
-Kiracı yöneticiniz, veri kümelerini onaylayabilecek kuruluşunuzdaki kişileri tanımlamıştır. Veri kümenizi onaylamalarını isteyebilirsiniz.
+Power BI yöneticiniz, veri kümelerini onaylayabilecek kuruluşunuzdaki kişileri tanımlamıştır. Veri kümenizi onaylamalarını isteyebilirsiniz.
 
 1. Onaylayıcıya, veri kümesinin bulunduğu çalışma alanı için üye izinleri verin.
 
@@ -49,7 +49,7 @@ Kiracı yöneticiniz, veri kümelerini onaylayabilecek kuruluşunuzdaki kişiler
 
 1. **Daha fazla bilgi edinin** bağlantısını seçin.
 
-    Power BI Kiracı yöneticiniz, kiracınızdaki onay süreciyle ilgili ayrıntılara sahip belirtilen bir konuma gitmek için **Daha fazla bilgi edinin** bağlantısını yapılandırabilir.   **Daha fazla bilgi edinin** bağlantısını yapılandırmamışlarsa, bağlantı varsayılan olarak [veri kümesi onaylama](service-datasets-certify.md) makalesine işaret eder.
+    Power BI yöneticiniz, kiracınızdaki onay süreciyle ilgili ayrıntılara sahip belirtilen bir konuma gitmek için **Daha fazla bilgi edinin** bağlantısını yapılandırabilir.   **Daha fazla bilgi edinin** bağlantısını yapılandırmamışlarsa, bağlantı varsayılan olarak [veri kümesi onaylama](service-datasets-certify.md) makalesine işaret eder.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

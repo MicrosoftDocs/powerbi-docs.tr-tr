@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861027"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600410"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)
 
@@ -45,7 +45,7 @@ Aşağıdaki adımlarda, modelin yayımlandığı Azure aboneliğinin ve kaynak 
 
 [Azure portalında](https://portal.azure.com) oturum açın ve gezinti bölmesi menüsündeki **Tüm Hizmetler** listesini kullanarak bulabileceğiniz **Abonelikler** sayfasına gidin.
 
-![Azure portalı](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![Abonelikler'in seçili olduğu Azure portalını gösteren ekran görüntüsü.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 Modeli yayımlarken kullandığınız Azure aboneliğini seçin ve **Erişim Denetimi (IAM)** seçeneğini belirtin. Bundan sonra **Rol ataması ekle**'yi, **Okuyucu** rolünü ve Power BI kullanıcısını seçin. İşiniz bittiğinde **Kaydet**’i seçin. Aşağıdaki resimde bu seçimler gösterilir.
 
@@ -95,7 +95,7 @@ Sonraki ekranda veri kaynağına bağlanmanız istenir. Azure ML modelinizi olu�
 
 Power Query Düzenleyicisi CSV dosyasındaki verilerin önizlemesini gösterir. Komut şeridinde **Tabloyu Dönüştür**'ü seçin ve sonra da **İlk Satırı Üst Bilgi Olarak Kullan**'ı seçin.  Bu seçim sağ taraftaki _Uygulanan adımlar_ bölmesine **Yükseltilen üst bilgiler** sorgu adımını ekler. Sağ taraftaki bölmeyi kullanarak sorgunun adını _Otomobil Fiyatları_ gibi daha kolay bir adla değiştirebilirsiniz.
 
-![Azure portalı](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![Verilerin önizlemesinin yer aldığı Power Query Düzenleyicisi'ni gösteren ekran görüntüsü.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 Kaynak veri kümemizde '?' olarak ayarlanmış bilinmeyen diğerler vardır.  Bunu temizlemek için, kolaylık açısından daha sonra '?' işaretlerini '0' değerleriyle değiştirebilirsiniz.  Bunu yapmak için, sütun başlıklarında adlarına tıklayarak *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* ve *price* sütunlarını seçin, ardından 'Sütunları dönüştür' seçeneğine tıklayın ve 'Değerleri değiştir'i seçin.  '?' işaretlerini '0' değeriyle değiştirin.
 

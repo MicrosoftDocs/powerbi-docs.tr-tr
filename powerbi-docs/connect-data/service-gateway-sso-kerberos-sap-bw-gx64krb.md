@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237687"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374258"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5 kullanarak SAP BW’da çoklu oturum açma (SSO) için Kerberos'u kullanma
 
 Bu makalede, gx64krb5 kullanılarak Power BI hizmetinden SSO'yu etkinleştirmek için SAP BW veri kaynağınızın nasıl yapılandırılacağı açıklanmaktadır.
 
+> [!IMPORTANT]
+> SAP artık gx64krb5 desteği sunmadığından Microsoft da desteğini sonlandırmıştır. Var olan ve yeni bağlantılar 2020'nin sonuna kadar çalışmaya devam edecektir ancak Ocak 2021 itibarıyla devre dışı kalacaktır. Bunun yerine CommonCryptoLib kullanın. 
+
 > [!NOTE]
-> Power BI hizmetinde SAP BW Uygulama Sunucusu tabanlı raporlar için SSO tabanlı yenilemeyi etkinleştirmek üzere [Kerberos SSO yapılandırma](service-gateway-sso-kerberos.md) adımlarına ek olarak bu makaledeki adımları tamamlayabilirsiniz. Ancak Microsoft, SNC kitaplığı olarak gx64krb5 değil CommonCryptoLib kullanılmasını önerir. SAP artık gx64krb5 desteği sunmamaktadır ve ağ geçidi için yapılandırmak üzere gereken adımlar CommonCryptoLib ile karşılaştırıldığında çok daha karmaşıktır. CommonCryptoLib kullanarak SSO’yu yapılandırma hakkında bilgi için bkz. [CommonCryptoLib kullanarak SSO için SAP BW’yu yapılandırma](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). SNC kitaplığı olarak CommonCryptoLib _veya_ gx64krb5 kullanmanız gerekir. Her iki kitaplık için yapılandırma adımlarını tamamlamayın.
+> Power BI hizmetinde SAP BW Uygulama Sunucusu tabanlı raporlar için SSO tabanlı yenilemeyi etkinleştirmek üzere [Kerberos SSO yapılandırma](service-gateway-sso-kerberos.md) adımlarına ek olarak bu makaledeki adımları tamamlayabilirsiniz. Ancak Microsoft, SNC kitaplığı olarak gx64krb5 değil CommonCryptoLib kullanılmasını önerir. SAP artık gx64krb5 desteği sunmamaktadır ve ağ geçidi için yapılandırmak üzere gereken adımlar CommonCryptoLib ile karşılaştırıldığında çok daha karmaşıktır. CommonCryptoLib kullanarak SSO’yu yapılandırma hakkında bilgi için bkz. [CommonCryptoLib kullanarak SSO için SAP BW’yu yapılandırma](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). SNC kitaplığı olarak CommonCryptoLib *veya* gx64krb5 kullanın; ikisini birden kullanmayın. Her iki kitaplık için yapılandırma adımlarını tamamlamayın.
 
 Bu kılavuz kapsamlıdır; açıklanan adımlardan bazılarını zaten tamamladıysanız bu adımları atlayabilirsiniz. Örneğin gx64krb5 kullanarak SSO için zaten SAP BW sunucunuzu ayarlamış olabilirsiniz.
 

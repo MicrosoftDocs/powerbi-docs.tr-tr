@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221359"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635275"
 ---
 # <a name="configure-report-interaction-settings"></a>Rapor etkileşim ayarlarını yapılandırma
 
@@ -21,13 +21,12 @@ ms.locfileid: "85221359"
 
 Power BI mobil uygulamasının bir dizi yapılandırılabilir "etkileşim" ayarı vardır. Bu ayarlar verilerinizle kurduğunuz etkileşimi denetlemenize ve Power BI mobil uygulamasındaki bazı öğelerin davranışını tanımlamanıza olanak tanır. Aşağıdaki tabloda şu anda kullanılabilen etkileşim ayarları ve bunlara sahip olan cihazlar gösterilir.
 
-|| Android telefon | iPhone | Android tablet  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| Ayar | Android telefon | iPhone | Android tablet  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [Rapor görsellerinde tek dokunma veya iki kez dokunma etkileşimi](#single-tap) |✔|✔|||
 | [Rapor görsellerinde veri noktalarının çoklu seçimi ve tek seçimi](#multi-select) |✔|✔|✔|✔|
 | [Yerleşik veya dinamik rapor alt bilgisi](#docked-report-footer) |✔|✔|||
 | [Düğmeyle başlatılan rapor yenileme veya çekerek yenileme](#report-refresh) |✔||||
-|
 
 Etkileşim ayarlarına ulaşmak için profil resminize dokunarak [yan paneli](./mobile-apps-home-page.md#header) açın, **Ayarlar**'ı seçin ve **Etkileşim** bölümünü bulun.
 

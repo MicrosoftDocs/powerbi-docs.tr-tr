@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855415"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598910"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
 
@@ -22,7 +22,7 @@ Power BI Desktop'ta Sorgu Düzenleyicisi'ni kullanarak modelinize veri içeren y
 
 Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu sütunu sorgunun **Sorgu Ayarları**’nda **Uygulanan Adım** olarak ekler. Her zaman değiştirilebilir, taşınabilir veya üzerinde değişiklik yapılabilir.
 
-![Özel Sütun Ekle sayfası](media/desktop-add-custom-column/add-custom-column_01.png)
+![Özel Sütun Ekle iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>Özel sütun eklemek için Sorgu Düzenleyicisi'ni kullanma
 
@@ -51,7 +51,7 @@ Sorgu Düzenleyicisi'nde özel bir sütun oluşturduğunuzda Power BI Desktop bu
 
 - [Özel sütun formülü](/powerquery-m/power-query-m-function-reference) kutusunda **PowerQuery M formülü sorguları**. Bu sorguları, yeni özel sütununuzun tanımlandığı formülü oluşturarak oluşturursunuz. 
 
-   ![Özel Sütun Ekle sayfası](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![Seçilebilecek sütunların yer aldığı Özel Sütun Ekle iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Özel sütununuz için formül oluşturma
 

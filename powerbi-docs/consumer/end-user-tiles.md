@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537930"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633918"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
 
@@ -41,15 +41,15 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
 
     - Soru-Cevap kullanılarak oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-1.png)
+        ![Altı seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-1.png)
 
     - çalışma kitabından oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-2.png)
+        ![Üç seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-2.png)
 
     - rapordan oluşturulan kutucuk
    
-        ![üç nokta simgesi](./media/end-user-tiles/power-bi-options-3.png)
+        ![Beş seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-3.png)
    
     Burada yapabilecekleriniz:
    

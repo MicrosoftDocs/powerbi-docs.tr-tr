@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380868"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635965"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI görsellerinde veri görünümü eşlemesini anlama
 
@@ -337,14 +337,13 @@ Veri görünümü eşlemesi şöyledir:
 
 Kategorik veri görünümü şu şekilde görselleştirilebilir:
 
-| Kategorik |  |  | | | |
-|-----|-----|------|------|------|------|
-| | Yıl | 2013 | 2014 | 2015 | 2016 |
-| Ülke | | |
-| Amerika Birleşik Devletleri | | x | x | 650 | 350 |
-| Kanada | | x | 630 | 490 | x |
-| Meksika | | 645 | x | x | x |
-| Birleşik Krallık | | x | x | 831 | x |
+| Ülke | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| ABD | x | x | 650 | 350 |
+| Kanada | x | 630 | 490 | x |
+| Meksika | 645 | x | x | x |
+| Birleşik Krallık | x | x | 831 | x |
+
 
 Power BI bunu kategorik veri görünümü olarak oluşturur. Kategori kümesidir.
 
@@ -545,15 +544,15 @@ Tablo veri görünümünü aşağıdaki gibi görselleştirebilirsiniz:
 
 Veri örneği:
 
-| Ülke| Yıl | Satışlar |
+| Ülke| Yıl | Sales |
 |-----|-----|------|
-| Amerika Birleşik Devletleri | 2016 | 100 |
-| Amerika Birleşik Devletleri | 2015 | 50 |
+| ABD | 2016 | 100 |
+| ABD | 2015 | 50 |
 | Kanada | 2015 | 200 |
 | Kanada | 2015 | 50 |
 | Meksika | 2013 | 300 |
 | Birleşik Krallık | 2014 | 150 |
-| Amerika Birleşik Devletleri | 2015 | 75 |
+| ABD | 2015 | 75 |
 
 Veri bağlama:
 
@@ -603,7 +602,7 @@ Power BI verilerinizi tablo veri görünümü olarak gösterir. Verilerin sıral
 
 İstenen alanı ve sonra da toplamı seçerek verileri toplayabilirsiniz.  
 
-![Verileri toplama](media/dataview-mappings/data-aggregation.png)
+![Veri toplama](media/dataview-mappings/data-aggregation.png)
 
 Tablo veri görünümü eşlemeyi işlemek için kod örneği.
 
@@ -864,11 +863,11 @@ Varsayılan olarak tüm Power BI görsellerinde *count* değerinin 1000 veri nok
 
 Dört tür veri azaltma algoritması ayarı vardır:
 
-* `top` Verileri veri kümesinin en üstünden alınan değerlerle sınırlamak istiyorsanız. İlk *count* değerleri veri kümesinden alınacaktır.
-* `bottom` Verileri veri kümesinin en altından alınan değerlerle sınırlamak istiyorsanız. Son "count" değerleri veri kümesinden alınacaktır.
-* `sample` Veri kümesini, *count* öğe sayısıyla sınırlı bir basit örnekleme algoritması ile azaltabilirsiniz. Bu, ilk ve son öğelerin dahil olduğu ve aralarında eşit aralıklar olan bir *count* öğe sayısı olduğu anlamına gelir.
+* `top`: Verileri veri kümesinin en üstünden alınan değerlerle sınırlamak istiyorsanız. İlk *count* değerleri veri kümesinden alınacaktır.
+* `bottom`: Verileri veri kümesinin en altından alınan değerlerle sınırlamak istiyorsanız. Son "count" değerleri veri kümesinden alınacaktır.
+* `sample`: Veri kümesini, *count* öğe sayısıyla sınırlı bir basit örnekleme algoritması ile azaltabilirsiniz. Bu, ilk ve son öğelerin dahil olduğu ve aralarında eşit aralıklar olan bir *count* öğe sayısı olduğu anlamına gelir.
 Örneğin veri kümeniz [0, 1, 2, ... 100] ve *count* değeri 9 olduğunda, [0, 10, 20 ... 100] değerlerini alırsınız.
-* `window` Bir kerede *count* öğelerini içeren bir *window* kadar veri öğesi yükler. Şu anda `top` ve `window` eşdeğerdir. Pencereleme ayarına tam destek sağlamak için çalışıyoruz.
+* `window`: Bir kerede *count* öğelerini içeren bir *window* kadar veri öğesi yükler. Şu anda `top` ve `window` eşdeğerdir. Pencereleme ayarına tam destek sağlamak için çalışıyoruz.
 
 ## <a name="data-reduction-algorithm-usage"></a>Veri azaltma algoritmasının kullanımı
 

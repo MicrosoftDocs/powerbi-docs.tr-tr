@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860981"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633987"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Tüketiciler için Power BI hizmeti
 
@@ -24,17 +24,17 @@ ms.locfileid: "90860981"
  
 Size her türden rapor, elektronik tablo, grafik içeren e-posta ve hatta basılı materyaller gönderirler. Veriler biriktikçe, ihtiyacınız olan şeyi hızla bulmanız zorlaşır. Ayrıca, kullandığınız bilgilerin güncel olup olmadığından da şüphe etmeye başlarsınız.  
  
-![Power BI panosu](media/end-user-consumer/power-bi-consumer-pipes.png)
+![Raporlar, Grafikler, E-postalar ve Elektronik Tablolar etiketlerine sahip biçimlerde veri alan bir tüketiciyi gösteren diyagram.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>*Tüketiciler* için Power BI hizmeti
 
 Power BI işinizi hem kolaylaştırır hem de daha etkili hale getirir. Tüm bunlar, verilerinizin görselleştirildiği grafiklere dönüşür. Veri içgörüleriniz, uzun listelerin veya sayılardan ve kelimelerden oluşan tabloların yerine verilerinizdeki içgörülerin hikayesini anlatan renkli, ilgi çekici ve ***güzel*** görsellerden oluşur. 
 
-![Power BI panosu](media/end-user-consumer/power-bi-consumer-examples.png)
+![Farklı grafik türlerinin bulunduğu bir Power BI raporunu gösteren ekran görüntüsü.](media/end-user-consumer/power-bi-consumer-examples.png)
  
 Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş arkadaşlarınızla birlikte, her zaman en güncel içeriklerle çalışmanız için otomatik olarak güncelleştirilip yenilenen, güvenilir pano ve raporlarda çalışırsınız.   
 
-![Power BI panosu](media/end-user-consumer/power-bi-funnel.png)
+![Farklı biçimlerdeki verilerin Power BI'da birleştirilmesini ve bir bilgisayar ekranı ile mobil cihazda görüntülenmesini gösteren diyagram.](media/end-user-consumer/power-bi-funnel.png)
 
 İçerik statik olmadığından eğilimleri, içgörüleri ve diğer iş zekası verilerini aramak için ayrıntılı incelemeler yapabilirsiniz. İçeriği ayrıntılı olarak inceleyin ve kendi cümlelerinizi kullanarak soru sorun. Dilerseniz arkanıza yaslanıp verilerinizin sizin için ilgi çekici içgörüleri keşfetmesini, veriler değişince sizi bilgilendirmesini ve ayarladığınız bir zamanlamada raporları size e-posta olarak göndermesini bekleyebilirsiniz. Verilerinize buluttan veya şirket içinden, herhangi bir cihazı kullanarak istediğiniz her zaman erişin. Bunlar yalnızca başlangıç. Power BI çok daha fazlasını yapabilir. 
 
@@ -56,7 +56,7 @@ Verilerinize zarar vermeniz mümkün değildir.  Power BI, herhangi bir şeyi "b
  
 Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz. Ancak bu değişiklikler yalnızca sizin içeriği nasıl göreceğinizi etkiler. Varsayılan özgün görünüme geri dönmek de bir düğmeye tıklamak kadar kolaydır.  
 
-![Power BI panosu](media/end-user-consumer/power-bi-reset.png)
+![Varsayılana sıfırla düğmesini gösteren ekran görüntüsü.](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

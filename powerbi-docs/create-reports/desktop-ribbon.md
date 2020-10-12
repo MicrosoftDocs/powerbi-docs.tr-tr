@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793969"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600580"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop’taki güncelleştirilmiş şeridi kullanma
 
@@ -30,7 +30,7 @@ Güncelleştirilmiş şerit Power BI Desktop’ın Mayıs 2020 sürümünden ba�
 
 Şeridi güncelleştirmenin avantajlarında hem Power BI Desktop'ta hem de diğer Microsoft ürünlerinde deneyimi kolay ve tanıdık hale getirmek amaçlanmıştır. 
 
-![Power BI Desktop'ta yeni şerit](media/desktop-ribbon/desktop-ribbon-03.png)
+![Power BI Desktop şeridini yakından gösteren ekran görüntüsü.](media/desktop-ribbon/desktop-ribbon-03.png)
 
 Bu avantajlar aşağıdaki kategorilere gruplandırılabilir:
 

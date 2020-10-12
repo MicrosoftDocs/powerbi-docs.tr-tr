@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354720"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635873"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -207,7 +207,7 @@ Matrisinizde veya tablonuzdaki içeriği başka uygulamalarda kullanmak isteyebi
 
 Web sitesi URL'leri içeren bir sütununuz veya ölçünüz varsa koşullu biçimlendirmeyi kullanarak bu URL'leri alanlara etkin bağlantılar olarak uygulayabilirsiniz. Bu seçeneği biçimlendirme bölmesindeki **Koşullu biçimlendirme** kartı altında bulabilirsiniz.
 
-![Hangi satırların seçildiğini gösteren Filtreler kartı](media/desktop-matrix-visual/power-bi-web-url.png)
+![Web URL'siyle ilgili biçimlendirme simgesini gösteren ekran görüntüsü.](media/desktop-matrix-visual/power-bi-web-url.png)
 
 **Web URL’si** ayarını Açık konuma getirin ve sütun için URL olarak kullanılacak alanı seçin. Uygulandığında, bu alanda (sütun) yer alan değerler etkin bağlantılara dönüşür. Bağlantıyı görmek için üzerine gelin ve söz konusu sayfaya atlamak için seçin. 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205108"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635827"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI hizmetinde örnek Satış ve Pazarlama uygulamasını yükleme ve kullanma
 
@@ -53,11 +53,11 @@ Artık [Power BI içeriğini almayı temelde anladığınıza](end-user-app-view
 
 6. Kendi verilerinizi bağlama, örnek verilerle keşfetme veya yeni uygulamanızı özelleştirip paylaşma seçeneklerinden birini belirleyin. Microsoft örnek uygulamasını seçtiğimiz için keşfetme ile başlayalım. 
 
-    ![Örnek verilerle keşfedin](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![Örnek verilerle keşfedin seçeneğinin vurgulandığı Yeni uygulamanızı kullanmaya başlayın ekranını gösteren ekran görüntüsü.](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  Yeni uygulamanız bir pano ile açılır. Uygulama *tasarımcısı*, uygulamayı bir raporu açacak şekilde ayarlamış da olabilir.  
 
-    ![Örnek verilerle keşfedin](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![Uygulamanızın panosunu gösteren ekran görüntüsü.](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

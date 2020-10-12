@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859923"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600561"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop’ta özel biçim dizelerini kullanma
 
 **Power BI Desktop**’taki özel biçim dizelerini kullanarak alanların görsellerde nasıl göründüğünü özelleştirebilir ve raporlarınızın tam istediğiniz gibi göründüğünden emin olabilirsiniz.
 
-![Özel biçim dizelerini kullanma](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![Özel biçimin seçildiği Power BI Desktop uygulamasını gösteren ekran görüntüsü. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>Özel biçim dizeleri nasıl kullanılır?
@@ -31,7 +31,7 @@ ms.locfileid: "90859923"
 
 **Biçim** açılır listesinden **Özel**’i seçtikten sonra yaygın olarak kullanılan biçim dizeleri listesinden seçim yapabilirsiniz. 
 
-![Özel biçim dizelerini kullanma](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![Özel biçimin ayrıntılarını gösteren ekran görüntüsü.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>Desteklenen özel biçim söz dizimi

@@ -9,11 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354628"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633849"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
 
@@ -129,15 +130,15 @@ Ayrılan renk ölçeklerini kullanmak için **Ayrılan** onay kutusunu seçin. *
 ## <a name="add-color-to-table-rows"></a>Tablo satırlarına renk ekleme
 Tablolar ve matrislerde renk biçimlendirmesi için birçok seçenek sunulur. 
 
-![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![Beyaz ve gri satırlara sahip bir tabloyu gösteren ekran görüntüsü.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 Tablo veya matrise renk uygulamanın en hızlı yollarından biri Biçimlendirme sekmesini açıp **Stil**’i seçmektir.  Aşağıdaki resimde biz **Kalın üst bilgi parlak satırları**’nı seçtik.
 
-![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![Üst bilgi satırını siyah, diğer satırları açık ve koyu yeşil hale getiren Kalın üst bilgi parlak satırları stil seçeneğini gösteren ekran görüntüsü.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 Diğer renk biçimlendirme seçenekleriyle denemeler yapın. Bu resimde, **Sütun üst bilgileri**’nin altında arka plan rengini ve **Değerler** (satırlar) için hem **Arka plan rengi**’ni hem de **Alternatif arka plan rengi**’ni değiştirdik.
 
-![varsayılan tablo](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![Arka plan rengi ve Alternatif arka plan rengi için değer seçicileri gösteren ekran görüntüsü.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Power BI'da yapılan bir işlemi geri alma
 Diğer birçok Microsoft hizmeti ve yazılımı gibi Power BI da son komutunuzu geri almanız için kolay bir yol sunar. Örneğin, bir veya bir dizi veri noktasının rengini değiştirdiniz ve görselleştirmede ortaya çıkan rengi beğenmediniz. Önceden hangi rengin seçili olduğunu hatırlamıyorsunuz ancak eski renge geri dönmek istiyorsunuz!
@@ -148,7 +149,7 @@ Biçimlendirme kartında yaptığınız tüm değişiklikleri atmak için **Vars
 
 ![En altta Varsayılana dön seçeneğinin gösterildiği Biçimlendirme kartı](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Geri bildirim
+## <a name="give-us-your-feedback"></a>Görüşlerinizi bize iletin
 Paylaşmak istediğiniz bir ipucu var mı? Bu listeye ekleyip eklemeyeceğimize karar vermemiz için lütfen ipucunuzu bizimle paylaşın.
 
 ## <a name="next-steps"></a>Sonraki adımlar

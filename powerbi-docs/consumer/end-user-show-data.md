@@ -1,20 +1,20 @@
 ---
-title: Görseli oluşturmak için kullanılan verileri gösterme
-description: Bu belgede Power BI tüketicilerinin bir görseli oluşturmak için kullanılan verileri nasıl "görebileceği" anlatılmaktadır.
+title: Rapor görselini oluşturmak için kullanılan verileri gösterme
+description: Bu belgede Power BI işletme kullanıcılarının rapor görseli oluşturmak için kullanılan verileri nasıl "görebileceği" anlatılmaktadır.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536251"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780259"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI ile verileri görüntüleme
 
@@ -37,7 +37,11 @@ Bir panoda, temel alınan verileri görmek için [Excel’e Aktar](end-user-expo
 
 4. Yönü değiştirmek için, görselleştirmenin sağ üst köşesinde dikey düzeni ![düzen simgesi](media/end-user-show-data/power-bi-vertical-icon-new.png) seçin.
    
-   ![görsel ve veri yatay görüntüsü](./media/end-user-show-data/power-bi-horizontal.png)
+   ![görsel ve veri yatay görüntüsü](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+Rapora geri dönmek sol üst köşeden **Rapora geri dön**'ü seçin. 
+
+   ![Rapora geri dön bağlantısını gösteren ekran görüntüsü.](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI raporlarındaki görseller](../visuals/power-bi-report-visualizations.md)    

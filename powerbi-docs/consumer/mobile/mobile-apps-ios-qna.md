@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264927"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634424"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS uygulamalarında Soru-Cevap sanal çözümleyicisi - Power BI
 
@@ -52,7 +52,7 @@ iOS için Power BI uygulamasını şu sürümler destekler:
 4. Anahtar sözcüklerden **by** sözcüğünü seçin, açılan öneri listesinden **item** seçeneğine ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
     ![Sales by item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Anahtar sözcüklerden **as** sözcüğünü seçin, sütun grafik simgesine ![Grafik simgesi](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+5. Anahtar sözcüklerden **as** sözcüğünü seçin, sütun grafik simgesine :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false"::: ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 6. Çıkan grafiğe uzun basın ve **Genişlet** seçeneğini belirleyin.
 
     ![Genişlet seçeneğine bakan işaretçiyi gösteren sütun grafiğinin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ iOS için Power BI uygulamasını şu sürümler destekler:
 10. Anahtar sözcüklerden **by** sözcüğünü seçin, yukarıda çıkan öneri listesindeki **time** seçeneğine ve ardından **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
      ![Zaman içinde birim başına ortalama miktara göre en yüksek satışı gösteren bir grafiğin ekran görüntüsü.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **as** yazın, öneri listesindeki çizgi grafik simgesini ![Grafik simgesi](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) seçin ve **Gönder**’e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
+11. **as** yazın, öneri listesindeki çizgi grafik simgesini :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: seçin ve **Gönder**'e ![Gönder simgesi](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) dokunun.
 
     ![Sütundan çizgi grafiğine bakan bir işaretçiyi gösteren sütun ve çizgi grafiğinin ekran görüntüsü](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

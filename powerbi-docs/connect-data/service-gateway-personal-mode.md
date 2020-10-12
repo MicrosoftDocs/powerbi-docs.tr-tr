@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632584"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI 'de kişisel ağ geçitleri kullanma
 
@@ -31,13 +31,13 @@ Aşağıdaki tablo, şirket içi veri ağ geçidi ve şirket içi veri ağ geçi
 
 |   |Şirket içi veri ağ geçidi | Şirket içi veri ağ geçidi (kişisel mod) |
 | ---- | ---- | ---- |
-|Desteklenen bulut hizmetleri |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, veri akışları |Power BI |
-|Çalıştırmalar |Ağ geçidine erişimi olan kullanıcılar tarafından yapılandırıldığı gibi |Windows kimlik doğrulaması için ve diğer kimlik doğrulaması türleri için sizin tarafınızdan yapılandırıldığı gibi |
-|Sadece bilgisayar yöneticisi olarak yüklenebilir |Evet |Hayır |
-|Merkezi ağ geçidi ve veri kaynağı yönetimi |Evet |Hayır |
-|Verileri içeri aktar ve yenilemeyi zamanla |Evet |Evet |
-|DirectQuery desteği |Evet |Hayır |
-|Analysis Services için LiveConnect desteği |Evet |Hayır |
+|**Desteklenen bulut hizmetleri** |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, veri akışları |Power BI |
+|**Çalıştırmalar** |Ağ geçidine erişimi olan kullanıcılar tarafından yapılandırıldığı gibi |Windows kimlik doğrulaması için ve diğer kimlik doğrulaması türleri için sizin tarafınızdan yapılandırıldığı gibi |
+|**Sadece bilgisayar yöneticisi olarak yüklenebilir** |Evet |Hayır |
+|**Merkezi ağ geçidi ve veri kaynağı yönetimi** |Evet |Hayır |
+|**Verileri içeri aktar ve yenilemeyi zamanla** |Evet |Evet |
+|**DirectQuery desteği** |Evet |Hayır |
+|**Analysis Services için LiveConnect desteği** |Evet |Hayır |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>Şirket içi veri ağ geçidini (kişisel mod) yükleme
 

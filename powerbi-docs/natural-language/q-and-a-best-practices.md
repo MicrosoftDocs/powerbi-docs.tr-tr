@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240426"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635804"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI’da Soru-Cevap’ı iyileştirmek için en iyi yöntemler
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Daha da değerlisi, verilerinizin yanıt vermesi. İşte Power BI’daki Soru-Cevap bunu yapar.
@@ -116,11 +116,11 @@ Daha büyük bir tablo içinde tek başına ayrı bir birim görevi gören birde
 
 **Üzerinde çalışılması gerekiyor**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-09.png)
+![İletişim bilgilerinin yer aldığı Tedarikçiler tablosunu gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Soru-Cevap için Hazır**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-10.png)
+![Tedarikçiler ve İlgili kişiler olmak üzere iki tabloyu gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>Özellik paketlerini ortadan kaldırmak için özetleme
 
@@ -134,7 +134,7 @@ Modelinizde *özellik paketleri* varsa bunlar özellik başına tek bir sütun i
 
 **Soru-Cevap için Hazır**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-12.png)
+![Yaş, Medeni Durum, Şehir ve Cinsiyet özelliklerini farklı müşteriler için farklı değerlerin yer aldığı sütunlar olarak gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>Bölümlemeyi ortadan kaldırmak için birleştirme
 
@@ -148,7 +148,7 @@ Benzer şekilde, normal bir özetlenmiş değer sütununu ele alalım: Yazar, Ki
 
 **Soru-Cevap için Hazır**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-14.png)
+![Biri turlar için kitap ve yazar bilgilerini, diğeri ise turlarla ilgili şehirleri içeren iki tabloyu gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>Biçimlendirilmiş sütunları bölme
 
@@ -160,7 +160,7 @@ Verilerinizi içeri aktardığınız kaynak biçimlendirilmiş sütunlar içeriy
 
 **Soru-Cevap için Hazır**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-16.png)
+![Müşterilerin, tam adres satırının ve adresi sokak, şehir ve ülke olarak ayıran üç satırın bulunduğu tabloyu gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 Benzer şekilde, bir kişi için tam ad sütunlarınız varsa, kısmi ad kullanılarak soru sorulmak istenmesi ihtimaline karşı **Ad** ve **Soyadı** sütunlarını ekleyin. 
 
@@ -175,7 +175,7 @@ Yine benzer şekilde, verilerinizi içeri aktardığınız kaynak çok değerli 
 
 **Soru-Cevap için Hazır**
 
-![Soru-Cevap için birden çok tablo kullanma](media/q-and-a-best-practices/desktop-qna-18.png)
+![Biri ad ve cinsiyet, diğeri ise besteci içeren iki tabloyu gösteren ekran görüntüsü.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Etkin olmayan ilişkileri ortadan kaldırmak için normalleştirmeyi geri alın
 

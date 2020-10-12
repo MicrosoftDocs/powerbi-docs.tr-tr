@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274202"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634608"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI'da çizgi grafikler
 
@@ -67,11 +67,11 @@ Grafikte tüm bölgelerin toplam birimlerini tek çizgiyle göstermek yerine, to
 ### <a name="use-two-y-axes"></a>İki Y ekseni kullanma
 Peki hem toplam satıları hem de toplam birimleri aynı grafikte görmek isterseniz ne yapacaksınız? Satış rakamları birim sayılarından çok daha büyük olduğundan kullanılabilir bir çizgi grafik elde edemezsiniz. Aslında toplam birimlerin kırmızı çizgisi sıfır gibi görünür.
 
-   ![çok aykırı değerler](media/power-bi-line-charts/power-bi-diverging.png)
+   ![Tek bir y ekseni kullanmanın toplam birim sayısını düz olarak gösterdiğini ve satış rakamlarıyla karşılaştırma için faydasız olduğunu gösteren ekran görüntüsü.](media/power-bi-line-charts/power-bi-diverging.png)
 
 Çok aykırı değerleri tek grafikte görüntülemek için birleşik harita kullanın. [Power BI'da birleşik haritalar](power-bi-visualization-combo-chart.md) makalesini okursanız birleşik haritalarla ilgili her şeyi öğrenebilirsiniz. Aşağıdaki örneğimizde, ikinci bir Y ekseni ekleyerek hem satışları hem de toplam birimleri aynı grafikte birlikte görüntüleyebiliriz. 
 
-   ![çok aykırı değerler](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![Satış değerlerini y ekseninin solda, toplam birim sayısının y ekseniyle sağ tarafta çizgi olarak gösterildiği çubuk grafik olarak gösteren ekran görüntüsü.](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Vurgulama ve çapraz filtreleme
 Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekleme](../create-reports/power-bi-report-add-filter.md).

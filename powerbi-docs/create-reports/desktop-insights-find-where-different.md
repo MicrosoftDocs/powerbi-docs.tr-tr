@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239150"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632538"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Dağıtımların değişkenlik gösterdiği yerleri keşfetmek için Power BI Desktop'ta içgörüler uygulama (önizleme)
 
@@ -110,18 +110,20 @@ Farklı sütunlar ve bu sütunların değerleri incelendikten sonra en yüksek f
 
 Mevcut sürede model içindeki tüm sütunlar incelenemeyebilir ve bu nedenle en çok etkiye sahip sütunların ve değerlerin görüntüleneceğine dair bir garanti verilmez. Ancak en yüksek ihtimale sahip sütunların ilk sırada incelenmesini sağlamak için çeşitli buluşsal yöntemler kullanılır. Örneğin, tüm sütunlar incelendikten sonra aşağıdaki sütunların/değerlerin dağıtımda en yüksek etkiye sahip olduğunun belirlendiğini ve etki düzeyine göre azalan sırada listelendiğini düşünelim:
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 Bu durumda sütun sırası çıkışı şu şekilde olacaktır:
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Alt kategori: Gezi Bisikletleri, Dağ Bisikletleri, Yol Bisikletleri (yalnızca üçü listelenir ve üçten daha fazlasının önemli bir etkiye sahip olacağını belirtmek için "...ve diğerleri" metni eklenir) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Kanal = Doğrudan (etki düzeyi Mağaza'dan daha yüksek olması durumunda yalnızca Doğrudan listelenir)
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 **Öngörüler** için desteklenmeyen senaryoların listesi aşağıda verilmiştir:
@@ -144,7 +146,7 @@ Ayrıca aşağıdaki model türleri ve veri kaynakları da öngörüler için de
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
 * [Power BI Desktop ile Sorgulara Genel Bakış](../transform-model/desktop-query-overview.md)
-* [Power BI Desktop'taki veri kaynakları](../connect-data/desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'taki Verilere Bağlanma](../connect-data/desktop-connect-to-data.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](../connect-data/desktop-shape-and-combine-data.md)
 * [Power BI Desktop'taki Genel Sorgu Görevleri](../transform-model/desktop-common-query-tasks.md)   

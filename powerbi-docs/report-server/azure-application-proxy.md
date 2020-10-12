@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861303"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634240"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Power BI Rapor Sunucusu’nu Azure Uygulama Ara Sunucusu’yla yapılandırma
 
@@ -201,7 +201,7 @@ Uygulamanızı ayarlamayı bitirmek için **Kullanıcılar ve gruplar** bölüm�
     - Yeni bir Yeniden Yönlendirme URL’si oluşturun ve bunu **Tür** = **Web** ve **Yeniden Yönlendirme URI’si** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/` ile yapılandırın
     - **Gelişmiş Ayarlar** bölümünde **Oturum Kapatma URL’si** seçeneğini `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout` ile yapılandırın
 
-    ![Kimlik doğrulaması ayarları](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![Yeniden yönlendirme URI'leri ve Gelişmiş ayarlar bölümlerinin yer aldığı PBIRS Kimlik Doğrulaması bölmesini gösteren ekran görüntüsü.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. Power BI Rapor Sunucusu uygulaması için Uygulama kaydının **Kimlik Doğrulaması** bölümünü yapılandırmaya devam edin. **Örtük onay**, **Varsayılan istemci türü** ve **Desteklenen hesap türleri**’ni aşağı gösterildiği gibi yapılandırın:
 
@@ -209,7 +209,7 @@ Uygulamanızı ayarlamayı bitirmek için **Kullanıcılar ve gruplar** bölüm�
     - **Varsayılan istemci türü** için **Hayır**’ı ayarlayın.
     - **Desteklenen hesap türleri** için **Yalnızca bu kuruluş dizinindeki hesaplar (Yalnızca UmaContoso – Tek kiracı)** seçeneğini ayarlayın.
 
-    ![Kimlik doğrulaması ayarları](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![Belirtilen ayarların görüntülendiği PBIRS Kimlik doğrulaması bölmesinin ekran görüntüsü.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. Çoklu oturum açma ayarlandıktan ve `https://pbirsazureapp-umacontoso2410.msappproxy.net` URL’si çalışmaya başladıktan sonra, oturum açtığımız hesabın Power BI Rapor Sunucusu’nda izinlerin sağlandığı hesapla eşitlendiğinden emin olmamız gerekir.
 

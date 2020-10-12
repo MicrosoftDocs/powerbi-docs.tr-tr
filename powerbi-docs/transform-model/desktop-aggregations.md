@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b18d803ce70c74688fe90f93b4d5143eb7b24f30
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136178"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600348"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamaları kullanma
 
@@ -53,7 +53,7 @@ Toplu tablo oluşturmak için:
 - Sum
 - Tablo satırlarını say
 
-![Toplamaları yönetme iletişim kutusu](media/desktop-aggregations/aggregations_07.jpg)
+![Toplamaları yönet iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-aggregations/aggregations_07.jpg)
 
 İlişkiye dayalı bu toplama örneğinde GroupBy girdileri isteğe bağlıdır. DISTINCTCOUNT haricinde bunlar toplama davranışını etkilemez ve asıl olarak okunabilirliğe yöneliktir. GroupBy girişleri olmadan da toplamalar ilişkilere göre isabet alacaktır. Bu, GroupBy girdilerinin gerekli olduğu makalenin devamındaki [büyük veri örneğinden](#aggregation-based-on-groupby-columns) farklıdır.
 
@@ -244,11 +244,11 @@ Aşağıdaki sorgu toplamayı isabet alır çünkü toplama tablosu **CalendarMo
 
 Aşağıdaki sorgu toplamaya isabet etmez çünkü toplama tablosu **CalendarDay** öğesini kapsamaz.
 
-![Toplamaya isabet etmeyen sorgu örneği](media/desktop-aggregations/aggregations-code_10.jpg)
+![CalendarDay öğesini içeren sorgu metnini gösteren ekran görüntüsü.](media/desktop-aggregations/aggregations-code_10.jpg)
 
 Aşağıdaki akıllı zaman sorgusu toplamaya isabet etmez çünkü DATESYTD işlevi bir **CalendarDay** değerleri tablosu oluşturur ve toplama tablosu **CalendarDay** değerlerini kapsamaz.
 
-![Toplamaya isabet etmeyen sorgu örneği](media/desktop-aggregations/aggregations-code_11.jpg)
+![DATESYTD işlevini içeren sorgu metnini gösteren ekran görüntüsü.](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>Toplama önceliği
 
@@ -271,7 +271,7 @@ Bu modelin bellek ayak izi oldukça küçüktür ancak çok büyük bir veri kü
 
 Zincirleme toplamalara izin verilmediğinden **Ayrıntı Tablosu** sütununda **Driver Activity Agg** değil **Driver Activity** tablosu belirtilmiştir.
 
-![Toplamaları yönetme iletişim kutusu](media/desktop-aggregations/aggregations_14.jpg)
+![Öncelik alanının vurgulandığı Toplamaları yönet iletişim kutusunu gösteren ekran görüntüsü.](media/desktop-aggregations/aggregations_14.jpg)
 
 Aşağıdaki tabloda **Driver Activity Agg2** tablosunun toplamaları gösterilmiştir.
 

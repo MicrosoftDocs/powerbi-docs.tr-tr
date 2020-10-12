@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437294"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633013"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL'de sorgu dizesi parametreleri kullanarak bir raporu filtreleme
 
@@ -64,7 +64,7 @@ Yukarıdaki harita görselleştirmemizde Kuzey Carolina'da mağazalarımız oldu
 ?filter=Store/Territory eq 'NC'
 ```
 
-![Filtre içeren URL'nin ekran görüntüsü.](media/service-url-filters/power-bi-filter-urls7.png)
+![Kuzey Carolina filtresine sahip URL'nin ekran görüntüsü.](media/service-url-filters/power-bi-filter-urls7.png)
 
 Raporumuz şimdi Kuzey Carolina için filtrelendi, raporda bulunan tüm görselleştirmeler yalnızca Kuzey Carolina'ya ait verileri gösterir.
 
@@ -155,10 +155,10 @@ Tablo ve sütun adlarında özel karakter ve boşluk kullanımı için gerçekle
 |**[Sütun]**     |  [ is 0x005B ] is 0x005D       |  _x005B_Column_x005D_       |
 |**Sütun+Artı**     | + 0x2B        |  Sütun_x002B_Artı       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![Özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Unicode için özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Power BI ile kodlama için özel karakterler içeren tablo görselinin ekran görüntüsü.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Değerlerdeki özel karakterler
 
@@ -172,11 +172,11 @@ URL filtreleri zaten alan değerlerinde tek tırnak işareti (') dışında tüm
 
 - `?filter=Table/Name eq 'Lee''s Summit'` şöyle olur:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee'nin Zirvesi":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Ad O'Brien":::
 
 - `in` işleci şu kaçışı da destekler: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` şöyle olur:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee'nin Zirvesi veya O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Ad O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX kullanarak birden fazla değerde filtreleme
 

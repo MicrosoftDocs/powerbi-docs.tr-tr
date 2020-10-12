@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286831"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633964"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 
@@ -31,14 +31,11 @@ Hem pano paylaşmak hem de paylaşılan bir panoyu görüntülemek için Power B
 
 ## <a name="open-a-dashboard"></a>Bir panoyu açma
 
+Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir.
 
+![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![pano simgesi](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Panolar, Power BI hizmetinin birçok farklı konumundan açılabilir. <br> Bu pano simgesini aramanız yeterlidir. Bir <br>pano gördüğünüzde seçerek Power BI tuvalinizi doldurmasını sağlayabilirsiniz. |
-|                    |          |
-
-
+Bu pano simgesini aramanız yeterlidir. Bir pano gördüğünüzde seçerek Power BI tuvalinizi doldurmasını sağlayabilirsiniz.
 
 Panoları gezinti bölmesindeki tüm kapsayıcılarda bulabilirsiniz. 
 

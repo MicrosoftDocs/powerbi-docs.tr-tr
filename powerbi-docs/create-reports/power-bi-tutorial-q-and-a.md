@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234719"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633504"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Soru-Cevap ile verilerinizi keşfetme ve görseller oluşturma
 
@@ -33,7 +33,7 @@ Power BI hizmetinde (app.powerbi.com) panolar, bir veya daha fazla veri kümesin
 
 Soru-Cevap soru kutusu, panonuzun sol üst köşesinde bulunur. Burası, doğal dil kullanarak sorunuzu yazdığınız yerdir. Soru-Cevap kutusunu görmüyor musunuz? **Tüketiciler için Soru-Cevap** makalesinin [Önemli noktalar ve sorun giderme](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting) bölümünü inceleyin.  Soru-Cevap, yazdığınız kelimeleri tanıyarak cevabı nerede (hangi veri kümesinde) bulabileceğini belirler. Soru-Cevap ayrıca sorunuzu otomatik tamamlama ve farklı şekilde ifade etme özelliklerinin yanı sıra diğer metin ve görsel desteklerle biçimlendirmenize yardımcı olur.
 
-![Soru-Cevap soru kutusu](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![Verilerinizle ilgili bir soru sorun seçeneğinin bulunduğu Power BI panosunu gösteren ekran görüntüsü.](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 Sorunuzun cevabı etkileşimli görselleştirme olarak görüntülenir ve soruyu değiştirdiğinizde güncelleştirilir.
 
@@ -87,7 +87,7 @@ Raporlarda Soru-Cevap özelliğini kullanabilmeniz için söz konusu rapora ve t
 
 2. Rapor tuvalinizde bir Soru-Cevap soru kutusu görüntülenir. Aşağıdaki örnekte soru kutusu, başka bir görselleştirmenin üst kısmında görüntülenmektedir. Bunda bir sakınca yoktur ancak soru sormadan önce rapora boş bir sayfa eklemek daha iyi bir seçenek olabilir.
 
-    ![Soru-Cevap soru kutusu](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![Görselleştirme üzerinde Soru-Cevap soru kutusunun bulunduğu bir tuvali gösteren ekran görüntüsü.](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. İmlecinizi soru kutusuna yerleştirin. Siz sorunuzu yazdıkça Soru-Cevap, sorunuzu oluşturmaya yardımcı olmak üzere bazı öneriler görüntüler.
 

@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854702"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598999"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -30,7 +30,7 @@ Kuruluşunuz için ayrılmış ve gelişmiş kaynakları edinmek için Power BI 
 > * Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
 
 
-![Yönetici portalı](media/service-premium-what-is/premium-admin-portal.png) 
+![Power BI Yönetim portalını gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal.png) 
 
 Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır. Power BI Pro ve Power BI Premium hakkında daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
 
@@ -139,11 +139,11 @@ Genel yöneticiler ve Power BI hizmeti yöneticileri kullanılabilir sanal çeki
 
 Kapasiteleri oluşturma işleminde yönetim görevlerinin çoğu [Yönetim portalında](service-admin-portal.md) tamamlanır.
 
-![Yönetici portalı](media/service-premium-what-is/premium-admin-portal.png)
+![Çalışma Alanım'ın seçili olduğu Power BI Yönetim portalını gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal.png)
 
 Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir, bellek ayırmalarını ayarlayabilir ve aşırı yüklenmiş kapasitede işlemleri sıfırlayarak gerekirse kapasiteyi yeniden başlatabilir.
 
-![Yönetici portalı](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Power BI Yönetim portalındaki kapasite yönetimini gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 Yine kapasite yöneticileri kapasitenin sorunsuz çalıştığından emin olunmasını sağlayabilir. Doğrudan Yönetim portalında veya Premium kapasite ölçümleri uygulamasını kullanarak kapasitenin durumunu izleyebilirler.
 
@@ -155,7 +155,7 @@ Premium kapasitelerin izlenmesi yöneticilerin kapasitelerin nasıl performans g
 
 Portalda izleme, son yedi gün içinde kapasitenizde yerleştirilen yükleri ve kullanılan kaynakları gösteren, ortalaması alınmış üst düzey ölçümlere hızlı bir bakış sağlar. 
 
-![Yönetici portalı](media/service-premium-what-is/premium-admin-portal-health.png)
+![Power BI Yönetim portalındaki kapasite durumunu gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal-health.png)
 
 **Power BI Premium Kapasite Ölçümleri** uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Uygulamada bir üst düzey pano ve daha ayrıntılı raporlar sağlanır.
 

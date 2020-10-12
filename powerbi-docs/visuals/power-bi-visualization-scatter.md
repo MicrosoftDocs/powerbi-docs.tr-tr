@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238164"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632906"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 
@@ -143,7 +143,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
         a. **Toplam satış varyansı yüzdesi** alanını **Geçen yılın brüt kar yüzdesi** olarak değiştirin
 
-        ![Ortanca çizgisi eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![Geçen Yılın Brüt Kar Yüzdesi değerinin seçili olduğu Ayrıntılar bölümünün ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. Analiz bölmesinden **Simetri gölgelendirme** ekleyin. Gölgelendirmeden, Hosiery’nin (pembe gölgeli alandaki yeşil balon) mağaza kare ölçüsü başına satışları yerine brüt karı tercih eden tek kategori olduğunu görebiliriz. 
 
@@ -151,7 +151,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
     - Verilerinize yönelik ilginç içgörüleri bulmak için Analiz bölmesini keşfetmeye devam edin. 
 
-        ![Simetri gölgelendirme eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![Analiz bölmesinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Noktalı çizim grafiği oluşturma
 
