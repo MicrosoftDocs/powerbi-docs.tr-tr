@@ -1,16 +1,16 @@
 - name: Power BI’ı keşfetme (../tüketici)
-  href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
+  href: /learn/modules/explore-power-bi-service
 - name: Power BI’da veri analizi (../tüketici)
-  href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
+  href: /learn/modules/analyze-data-power-bi
 - name: Power BI ile oluşturmaya başlayın
-  href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
+  href: /learn/modules/get-started-with-power-bi
 - name: Veri al
-  href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
+  href: /learn/modules/get-data-power-bi
 - name: Verileri modelleme
-  href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
+  href: /learn/modules/model-data-power-bi
 - name: Görselleri kullanma
-  href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
+  href: /learn/modules/visuals-in-power-bi
 - name: Verileri keşfetme
-  href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
+  href: /learn/modules/explore-data-power-bi
 - name: Yayımlama ve kaydetme
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
