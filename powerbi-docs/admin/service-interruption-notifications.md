@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374879"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981539"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -70,7 +70,7 @@ Power BI yöneticisi, yönetici portalından bildirimleri etkinleştirir:
 
 ## <a name="service-health-in-microsoft-365"></a>Microsoft 365'te hizmet durumu
 
-Bu makalede Power BI aracılığıyla hizmet bildirimi alma adımları anlatılmıştır. Power BI hizmetinin durumunu Microsoft 365 üzerinden de izleyebilirsiniz. Microsoft 365 üzerinden hizmet durumu hakkında e-posta bildirimi almak için kaydolun. Daha fazla bilgi için bkz. [Microsoft 365 hizmet durumunu denetleme](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
+Bu makalede Power BI aracılığıyla hizmet bildirimi alma adımları anlatılmıştır. Power BI hizmetinin durumunu Microsoft 365 üzerinden de izleyebilirsiniz. Microsoft 365 üzerinden hizmet durumu hakkında e-posta bildirimi almak için kaydolun. Daha fazla bilgi için bkz. [Microsoft 365 hizmet durumunu denetleme](/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860958"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525637"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 
@@ -49,7 +49,7 @@ Yüz yüze laboratuvar eğitimlerinden kısa videolara kadar neredeyse sınırs�
 
 Aşağıda, İnternet üzerinden faydalanabileceğiniz diğer olanaklar da belirtilmiştir:
 
-* **edX.org**, [Analyzing and Visualizing Data with Power BI (Power BI ile Verileri Çözümleme ve Görselleştirme)](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4) adlı ücretsiz bir kurs sunar.
+* **edX.org**, [Analyzing and Visualizing Data with Power BI (Power BI ile Verileri Çözümleme ve Görselleştirme)](https://www.edx.org/course/data-analysis-in-power-bi) adlı ücretsiz bir kurs sunar.
 * **Lynda.com**, [Power BI Pro Essential Training (Power BI Pro Temel Eğitimi)](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html) gibi kurslar sunar.
 * Yüz yüze "**Dashboard in a Day (Bir Günde Pano)** " eğitim oturumları arayın.
 
