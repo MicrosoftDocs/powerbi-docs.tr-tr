@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524731"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981562"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune ile mobil uygulamaları yapılandırma
 
@@ -58,8 +58,8 @@ Power BI uygulamasına yönelik uygulama koruma ilkesi oluşturmak ve atamak iç
 Yönetilen uygulamalar, şirketinizin destek biriminin ilgili uygulamada erişebildiğiniz şirket verilerini korumak üzere ayarlayabildiği uygulamalardır. Cihazınızdaki yönetilen uygulamadan şirket verilerine eriştiğinizde uygulamanın beklediğinizden farklı çalıştığını fark edebilirsiniz. Örneğin, korunan şirket verilerini kopyalayıp yapıştıramayabilir veya bu verileri belirli konumlara kaydedemeyebilirsiniz.
 
 Son kullanıcılarınızın Power BI uygulamasını cihazlarında nasıl kullanabileceklerini anlamak için aşağıdaki makalelerde verilen adımları inceleyin:
-- [iOS cihazınızdaki yönetilen uygulamaları kullanma](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Android cihazınızdaki yönetilen uygulamaları kullanma](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [iOS cihazınızdaki yönetilen uygulamaları kullanma](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Android cihazınızdaki yönetilen uygulamaları kullanma](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -67,4 +67,4 @@ Son kullanıcılarınızın Power BI uygulamasını cihazlarında nasıl kullana
 
 [Mobil cihazlar için Power BI uygulamaları](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)  
+Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

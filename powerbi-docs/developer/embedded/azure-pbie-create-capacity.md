@@ -8,13 +8,14 @@ ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
+ms.custom: subject-armqs
 ms.date: 08/02/2020
-ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0f7a6c72a393aa398996f7b4e818d6288b746583
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748874"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025968"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 

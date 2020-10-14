@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512796"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983759"
 ---
 |Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512796"
 
 <sup>3</sup> Raporu kopyalamak ve bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için [veri kümesine yönelik Oluşturma iznine](../connect-data/service-datasets-build-permissions.md) sahip olmanız gerekir. Bu çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla otomatik olarak Oluşturma izinleri olur.
 
-<sup>4</sup> Ağ geçidi üzerinde de izinlerinizin olması gerektiğini unutmayın. Söz konusu izinler başka bir yerde, çalışma alanı rolleri ve izinlerinden bağımsız olarak yönetilir. Ayrıntılar için bkz. [Şirket içi ağ geçidini yönetme](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage).
+<sup>4</sup> Ağ geçidi üzerinde de izinlerinizin olması gerektiğini unutmayın. Söz konusu izinler başka bir yerde, çalışma alanı rolleri ve izinlerinden bağımsız olarak yönetilir. Ayrıntılar için bkz. [Şirket içi ağ geçidini yönetme](/data-integration/gateway/service-gateway-manage).
 
 <sup>5</sup> Power BI Pro lisansınız olmasa bile, öğeler Premium kapasitedeki bir çalışma alanında yer alıyorsa Power BI hizmetinde öğeleri görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
