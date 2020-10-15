@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516250"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92049327"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
@@ -34,7 +34,7 @@ landingContent:
   - linkListType: tutorial
     links:
     - text: 'Öğretici: Power BI görseli geliştirme'
-      url: custom-visual-develop-tutorial.md
+      url: develop-circle-card.md
     - text: 'Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme'
       url: custom-visual-develop-tutorial-format-options.md
   - linkListType: concept

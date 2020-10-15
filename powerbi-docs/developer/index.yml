@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
-  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+  ms.openlocfilehash: 33b047952ce5ca7748bc54595e27c4025bd34e6b
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/06/2020
-  ms.locfileid: "91748506"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92048844"
 highlightedContent:
   items:
   - title: Power BI ile tümleşik analiz
@@ -54,7 +54,7 @@ conceptualContent:
     - url: visuals/power-bi-custom-visuals.md
       itemType: overview
       text: Power BI’daki görseller
-    - url: visuals/custom-visual-develop-tutorial.md
+    - url: visuals/develop-circle-card.md
       itemType: tutorial
       text: Power BI görseli geliştirme
     - url: visuals/office-store.md
