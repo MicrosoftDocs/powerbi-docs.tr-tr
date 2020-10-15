@@ -10,8 +10,8 @@
     - name: Öğreticiler
       expanded: true
       items:
-        - name: Power BI görseli geliştirme
-          href: custom-visual-develop-tutorial.md
+        - name: 'Öğretici: Power BI dairesel kart görseli geliştirme'
+          href: develop-circle-card.md
         - name: React Tabanlı Görseller Oluşturma
           href: create-react-visual.md
         - name: Çubuk grafik oluşturma
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: AppSource'ta Power BI görsellerini yayımlama
           href: office-store.md
+        - name: Power BI görseli geliştirmek için ortamınızı ayarlama
+          href: environment-setup.md
         - name: R destekli görseller oluşturma
           href: create-r-based-power-bi-desktop.md
         - name: Power BI görselinizi test etme
