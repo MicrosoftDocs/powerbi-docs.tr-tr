@@ -26,11 +26,13 @@
             - name: Çalışma alanlarının yeni görünümünü kullanmaya başlama
               href: service-workspaces-new-look.md
             - name: Klasik çalışma alanları yükseltme
-              href: ../collaborate-share/service-upgrade-workspaces.md
+              href: service-upgrade-workspaces.md
             - name: Klasik çalışma alanları oluşturma
               href: service-create-workspaces.md
             - name: Çalışma alanlarındaki uygulamaları yayımlama
               href: service-create-distribute-apps.md
+            - name: Çalışma alanı için dosyaları OneDrive’da depolama
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Çalışma alanlarındaki veri depolama alanlarını yönetme
               href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
             - name: Veri kökeni
@@ -41,8 +43,6 @@
               href: service-data-source-impact-analysis.md
             - name: Veri duyarlılık etiketleri uygulama
               href: ../admin/service-security-apply-data-sensitivity-labels.md
-            - name: Grubunuzun OneDrive’daki dosyalarına bağlanma
-              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Klasik bir çalışma alanında işbirliği yapma
               href: service-collaborate-power-bi-workspace.md
             - name: Power BI ve Microsoft 365’teki grubunuzu yönetme
