@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855571"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116489"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Dağıtım işlem hatlarına yönelik en iyi uygulamalar
 
@@ -103,7 +103,7 @@ Power BI Desktop’ı yerel geliştirme ortamınız olarak düşünün. Power BI
 
 ### <a name="version-control-for-pbix-files"></a>.pbix dosyaları için sürüm denetimi
 
-Raporlarınızın ve veri kümelerinizin sürüm geçmişini yönetmek istiyorsanız [Power BI’ın OneDrive ile otomatik eşitlemesini](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md) kullanın. Bu, dosyalarınızın en son sürümle güncelleştirilmesini sağlar. Ayrıca, gerekirse eski sürümleri de almanıza olanak tanır.
+Raporlarınızın ve veri kümelerinizin sürüm geçmişini yönetmek istiyorsanız [Power BI’ın OneDrive ile otomatik eşitlemesini](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md) kullanın. Bu, dosyalarınızın en son sürümle güncelleştirilmesini sağlar. Ayrıca, gerekirse eski sürümleri de almanıza olanak tanır.
 
 >[!NOTE]
 >OneDrive ile (veya başka bir depo ile) otomatik eşitleme özelliğini yalnızca dağıtım işlem hatlarının dağıtım aşamasındaki .pbix dosyalarıyla kullanın. .pbix dosyalarını dağıtım işlem hatlarının test ve üretim aşamalarına eşitlemeyin. Bu, içeriği işlem hattı genelinde dağıtmayla ilgili sorunlara neden olur.

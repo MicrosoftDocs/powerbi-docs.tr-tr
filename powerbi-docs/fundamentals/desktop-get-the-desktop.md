@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136155"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256413"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -80,7 +80,7 @@ Haziran 2019 sürümünden başlayarak, Power BI Desktop desteklenen tüm diller
 
 Yükleme paketini başlattıktan sonra Power BI Desktop bir uygulama olarak yüklenir ve masaüstünüzde çalışır.
 
-![Kurulum sihirbazını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/designer_gsg_install.png)
+![Kurulum sihirbazını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/desktop-install-01.png)
 
 > [!NOTE]
 > Power BI Desktop’ın indirilen (MSI) sürümünü (kullanımdan kaldırıldı) ve Microsoft Store sürümünü aynı bilgisayara yükleme işlemi (bazı durumlarda *yan yana* yükleme olarak adlandırılır) desteklenmemektedir. Power BI Desktop'ı Microsoft Store'dan indirmeden önce bilgisayardan el ile kaldırın.
@@ -89,7 +89,7 @@ Yükleme paketini başlattıktan sonra Power BI Desktop bir uygulama olarak yük
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop'ı kullanma
 Power BI Desktop'ı başlattığınızda hoş geldiniz ekranı görüntülenir.
 
-![Karşılama ekranını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/getpbid_05.png)
+![Karşılama ekranını gösteren Power BI Desktop yüklemesinin ekran görüntüsü.](media/desktop-get-the-desktop/desktop-splash-screen.png)
 
 Power BI Desktop'ı ilk kez kullanıyorsanız (yani yükleme bir yükseltme değilse), devam etmeden önce bir form doldurmanız veya Power BI hizmetinde oturum açmanız istenir.
 

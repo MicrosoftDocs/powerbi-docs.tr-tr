@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379180"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197645"
 ---
 # <a name="tooltip-utils"></a>Araç ipucu yardımcı programları
 Bu makale araç ipucu yardımcı programlarını yükleme, içeri aktarma ve kullanma işlemlerinde size yardımcı olur. Bu yardımcı program Power BI görsellerinde yapılan tüm araç ipucu özelleştirmelerinde yararlı olur.
@@ -29,7 +29,7 @@ Paketi kullanmak için aşağıdaki öğelere sahip olmalısınız:
 Paketi yüklemek için geçerli görselinizin dizininde aşağıdaki komutu çalıştırmalısınız:
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Bu komut paketi yükler ve ```package.json``` dosyanıza bağımlılık olarak bir paket ekler
 

@@ -3,18 +3,18 @@ title: Hizmet sorumlularıyla Power BI Premium çalışma alanı ve veri kümesi
 description: Hizmet sorumluları kullanılarak Power BI Premium çalışma alanı ve veri kümesi yönetim görevlerinin nasıl otomatik hale getirileceğini öğrenin.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-premium
+ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 10/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cc4c40f4ef3269fe5e8a5e2a2ba5a4879320aeb
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598770"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116512"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 

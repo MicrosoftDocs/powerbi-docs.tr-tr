@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 74fec4e7fae2fc8630592c435adb42b34c93ef43
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407428"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049373"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI görseli proje yapısı
 
@@ -174,4 +174,4 @@ Bu dosya [TSLint yapılandırmasını](https://palantir.github.io/tslint/usage/c
 
 * Görsel, kullanıcı ve Power BI arasındaki etkileşimleri anlamak için bkz. [Power BI görseli kavramı](./power-bi-visuals-concept.md).
 
-* [Adım adım kılavuzu](./custom-visual-develop-tutorial.md) kullanarak sıfırdan kendi Power BI görsellerinizi geliştirmeye başlayın.
+* [Adım adım kılavuzu](./develop-circle-card.md) kullanarak sıfırdan kendi Power BI görsellerinizi geliştirmeye başlayın.

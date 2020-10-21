@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205884"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256351"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin nesneleri ve özellikleri
 

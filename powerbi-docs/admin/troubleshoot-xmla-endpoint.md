@@ -3,19 +3,19 @@ title: Power BI Premium’da XMLA uç nokta bağlantısı sorunlarını giderme 
 description: Power BI Premium’da XMLA uç noktası üzerinden kurulan bağlantı sorunlarının nasıl giderilebileceği açıklanmaktadır.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/28/2020
+ms.date: 10/14/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854093"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116581"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -79,7 +79,7 @@ Power BI yeni veri kümenizi veri kaynağı kimlik bilgilerine bağlayamazsa “
 
 İşleme hatasından kaçınmak için **Dağıtım seçenekleri** > **İşleme Seçenekleri** ayarını aşağıda gösterildiği gibi **İşleme** olarak ayarlayın. Daha sonra Visual Studio yalnızca meta verileri dağıtır. Daha sonra veri kaynağı kimlik bilgilerini yapılandırabilir ve Power BI kullanıcı arabirimindeki veri kümesi için **Şimdi yenile** seçeneğine tıklayabilirsiniz. İşleme sorunlarını giderme hakkında bilgi için bu makalenin devamındaki [Veri kümesini yenileme](#refreshing-a-dataset) bölümüne bakın.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="İşleme seçeneği":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Model dağıtım hatası":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Mevcut bir veri kümesinden yeni proje
 
@@ -128,13 +128,13 @@ Gelişmiş meta veriler olmadan bir modele karşı XMLA uç noktası aracılığ
 
 Sağlayıcı veri kaynakları için tanımlayabileceğiniz kimliğe bürünme ayarları Power BI için uygun değildir. Power BI, veri kaynağı kimlik bilgilerini yönetmek için veri kümesi ayarlarına bağlı farklı bir mekanizma kullanır. Bu nedenle, bir Sağlayıcı Veri Kaynağı oluşturuyorsanız **Hizmet Hesabı** seçtiğinizden emin olun.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Hizmet hesabı kimliğine bürünme":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Model dağıtım hatası":::
 
 ### <a name="fine-grained-processing"></a>Ayrıntılı işleme
 
 Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetiklerken Power BI genellikle veri kümesinin tamamını yeniler. Çoğu durumda, yenilemeleri daha seçici bir şekilde gerçekleştirmek daha verimlidir. Ayrıntılı işleme görevlerini aşağıda gösterildiği şekilde SQL Server Management Studio’da (SSMS) veya üçüncü taraf araçlarını ya da betiklerini kullanarak gerçekleştirebilirsiniz.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="SSMS’de tabloları işleme":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Model dağıtım hatası":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>TMSL Yenileme komutunda geçersiz kılmalar
 

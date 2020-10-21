@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214084"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197668"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Sayfalandırılmış raporlarda basamaklı parametreleri kullanma
 
@@ -128,7 +128,7 @@ Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 >
 > Genel olarak saklı yordamların kullanılması daha iyi bir tasarım yaklaşımıdır. Çünkü saklı yordamların sorgu planları daha hızlı yürütülmesi için önbelleğe alınmıştır ve gerektiğinde daha ileri düzey bir mantık geliştirmenize olanak tanır. Öte yandan bunlar şu anda ağ geçidi ilişkisel veri kaynaklarında, yani SQL Server, Oracle ve Teradata’da desteklenmemektedir.
 >
-> Son olarak, her zaman verimli bir veri alma işlemini destekleyecek uygun dizinlerin mevcut olduğundan emin olmalısınız. Aksi takdirde rapor parametreleriniz yavaş doldurulabilir ve veritabanı aşırı yüklenebilir. SQL Server dizini hakkında daha fazla bilgi için bkz. [SQL Server Dizin Mimarisi ve Tasarım Kılavuzu](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017).
+> Son olarak, her zaman verimli bir veri alma işlemini destekleyecek uygun dizinlerin mevcut olduğundan emin olmalısınız. Aksi takdirde rapor parametreleriniz yavaş doldurulabilir ve veritabanı aşırı yüklenebilir. SQL Server dizini hakkında daha fazla bilgi için bkz. [SQL Server Dizin Mimarisi ve Tasarım Kılavuzu](/sql/relational-databases/sql-server-index-design-guide).
 
 ### <a name="filter-by-a-grouping-column"></a>Gruplandırma sütununa göre filtreleme
 
@@ -220,7 +220,7 @@ Basamaklı parametreleri şu şekilde geliştirebilirsiniz:
 > [!TIP]
 > Bu tasarım üzerinde geliştirmeler yaparak rapor kullanıcılarınıza daha fazla denetim sağlayabilirsiniz. Bu tasarım kendi düzen eşleştirme değerlerini tanımlamalarına izin verir. Örneğin, "red%" arama değeri adları “red” karakterleriyle _başlayan_ bayileri listeler.
 >
-> Daha fazla bilgi için bkz. [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character).
+> Daha fazla bilgi için bkz. [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character).
 
 Rapor kullanıcılarına kendi düzenlerini tanımlama olanağını nasıl sağlayacağınız aşağıda gösterilmiştir.
 

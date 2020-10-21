@@ -211,13 +211,13 @@
               href: service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
               href: service-interact-with-a-report-in-editing-view.md
-            - name: Excel’de çözümleme
+            - name: Excel’de Analiz Et
               href: ../collaborate-share/service-analyze-in-excel.md
             - name: Hizmetteki kümelerle çalışma
               href: service-aggregates.md
             - name: Rapor için QR kodu oluşturma
               href: service-create-qr-code-for-report.md
-            - name: Tüketicilerin görselleri özelleştirmesine izin verme (Önizleme)
+            - name: Kullanıcıların görselleri özelleştirmesini sağlama
               href: power-bi-personalize-visuals.md
             - name: Bir raporu Power BI Desktop’a dışarı aktarma (Önizleme)
               href: service-export-to-pbix.md
@@ -399,7 +399,7 @@
               href: service-dashboard-themes.md
         - name: Dağıtım işlem hatları
           items:
-            - name: Kullanmaya başlayın
+            - name: başlarken
               href: deployment-pipelines-get-started.md
             - name: Sorun giderme
               href: deployment-pipelines-troubleshooting.md
