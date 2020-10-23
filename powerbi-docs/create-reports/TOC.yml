@@ -121,6 +121,8 @@
       items:
         - name: Power BI raporları
           items:
+            - name: Hizmette rapor oluşturma
+              href: service-report-create-new.md
             - name: Otomatik sayfa yenilemeyi etkinleştirme
               href: desktop-automatic-page-refresh.md
             - name: Performans Analizi ile rapor öğelerini inceleme
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: Rapor şablonları oluşturma
               href: desktop-templates.md
-            - name: Bir veri kümesinden rapor oluşturma
-              href: service-report-create-new.md
+            - name: Rapor ayarlarını değiştirme
+              href: power-bi-report-settings.md
+            - name: Başkalarının Giriş sayfalarında raporları öne çıkarma
+              href: ../collaborate-share/service-featured-content.md
+            - name: Tüketicilerin görselleri özelleştirmesine izin verme (Önizleme)
+              href: power-bi-personalize-visuals.md
             - name: Raporu kaydetme
               href: service-report-save.md
             - name: Düzenleme görünümünde bir raporla etkileşim kurma
