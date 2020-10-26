@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746413"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983126"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Power BI Premium adanmış kapasitesini kullanma
+## <a name="using-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesi kullanma
 
-Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
+Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
 
-### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
+### <a name="create-a-capacity"></a>Kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Kapasite oluşturduğunuzda, çalışma alanınızdaki içeriğe özel kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak kapasite oluşturabilirsiniz.
 
 Aşağıdaki tabloda, [Microsoft 365](../../admin/service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
 
@@ -400,17 +400,17 @@ Aşağıdaki tabloda, [Microsoft 365](../../admin/service-admin-premium-purchase
 > - Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz bir Power BI lisansıyla içeriğe erişmek için EM SKU’larını kullanabilirsiniz. Ancak Powerbi.com veya Power BI mobil kullanırken ücretsiz bir Power BI lisansı ile içeriğe erişemezsiniz.
 > - Powerbi.com veya Power BI mobil kullanarak Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz Power BI lisansı ile içeriğe erişebilirsiniz.
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye çalışma alanı atama
+### <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
 
-Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
+Kapasite oluşturduktan sonra, çalışma alanınızı bu kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
 
 1. Power BI hizmetinde, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanının üç noktasını seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
 
     ![Çalışma alanını düzenleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. **Gelişmiş**’i genişletin ve **Adanmış kapasite**’yi etkinleştirin. Oluşturduğunuz adanmış kapasiteyi seçin. Sonra **Kaydet**'i seçin.
+2. **Gelişmiş**’i genişletin ve **Kapasite**’yi etkinleştirin. Oluşturduğunuz kapasiteyi seçin. Sonra **Kaydet**'i seçin.
 
-    ![Adanmış kapasite atama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![Kapasite atama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
 3. **Kaydet**’i seçtikten sonra, çalışma alanının yanında bir baklava işareti görmeniz gerekir.
 

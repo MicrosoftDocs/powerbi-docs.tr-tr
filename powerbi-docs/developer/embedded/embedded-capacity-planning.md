@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746758"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983057"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI tümleşik analizinde kapasite planlaması
 
@@ -27,11 +27,11 @@ Kapasitenizi planlarken dikkate alınacak noktalardan bazıları şunlardır:
 * Veri yenileme hızları
 * Tahmin edilmesi zor olan ek kullanım desenleri.
 
-Bu makale Power BI tümleşik analizi kapasitelerinde (*A*, *EM* veya *P* SKU’ları) otomatik yük testi yapmak için oluşturulan [Power BI Ayrılmış Kapasite Yük Değerlendirmesi Aracı](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)’nı kullanarak Power BI tümleşik analizi kapasite planlamasını kolaylaştırmak için tasarlanmıştır.
+Bu makale Power BI tümleşik analizi kapasitelerinde (*A*, *EM* veya *P* SKU’ları) otomatik yük testi yapmak için oluşturulan [Power BI Kapasite Yük Değerlendirmesi Aracı](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)’nı kullanarak Power BI tümleşik analizi kapasite planlamasını kolaylaştırmak için tasarlanmıştır.
 
 ## <a name="planning-tool"></a>Planlama aracı
 
- [Power BI Ayrılmış Kapasite Yük Değerlendirmesi Aracı](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), kapasitenizin ne kadar kullanıcı yükünü kaldırabileceğini anlamanıza yardımcı olabilir. Bu araç PowerShell kullanarak kapasiteleriniz için otomatik yük testleri oluşturur, ayrıca hangi raporların test edileceğini ve kaç eş zamanlı kullanıcının benzetiminin yapılacağını seçmenizi sağlar.
+ [Power BI Kapasite Yük Değerlendirmesi Aracı](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), kapasitenizin ne kadar kullanıcı yükünü kaldırabileceğini anlamanıza yardımcı olabilir. Bu araç PowerShell kullanarak kapasiteleriniz için otomatik yük testleri oluşturur, ayrıca hangi raporların test edileceğini ve kaç eş zamanlı kullanıcının benzetiminin yapılacağını seçmenizi sağlar.
 
 Araç her raporu yeni filtre değerleriyle (rapor önbelleğinden dolayı gerçekçi olmayan iyi performans sonuçları almayı önlemek için) sürekli işleyerek kapasitede yük oluşturur ve hizmette aracın kimliğini doğrulamak için gereken belirtecin süresi dolana kadar buna devam eder.
 

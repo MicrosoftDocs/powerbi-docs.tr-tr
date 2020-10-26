@@ -1,5 +1,5 @@
 ---
-title: Power BI ile otomatik olarak veri içgörüleri oluşturma
+title: Veri kümenizden otomatik veri içgörüleri oluşturma
 description: Veri kümeleriniz ve pano kutucuklarınız hakkındaki öngörüleri nasıl edineceğinizi öğrenin.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,29 +8,29 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 09/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221104"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524478"
 ---
-# <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI ile otomatik olarak veri içgörüleri oluşturma
+# <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Power BI ile veri kümenizden otomatik veri içgörüleri oluşturma
 Yeni bir veri kümeniz var ve keşfetmeye nereden başlayacağınızı bilemiyor musunuz?  Hızla bir pano mu oluşturmanız gerekiyor?  Gözünüzden kaçmış olabilecek öngörülere göz atmak mı istiyorsunuz?
 
-Verilerinizi temel alan ilgi çekici ve etkileşimli görselleştirmeler oluşturmak için hızlı öngörüler çalıştırın. Hızlı öngörüler, bir veri kümesinin tamamında (hızlı öngörüler) veya belirli bir pano kutucuğu üzerinde (kapsamlı öngörüler) çalıştırılabilir. Bir öngörü üzerinde bile hızlı öngörüler çalıştırabilirsiniz!
+Verilerinizi temel alan ilgi çekici görselleştirmeler oluşturmak için hızlı içgörüler çalıştırın. Bu makalede bir veri kümesinin tamamında hızlı içgörü (hızlı içgörüler) çalıştırma adımları verilmiştir. İsterseniz [belirli bir pano kutucuğunu temel alan hızlı içgörüler ](../consumer/end-user-insights.md) (kapsamlı içgörüler) de çalıştırabilirsiniz. Bir öngörü üzerinde bile hızlı öngörüler çalıştırabilirsiniz!
 
 > [!NOTE]
 > İçgörüler DirectQuery ile birlikte çalışmaz. Yalnızca Power BI’a yüklenmiş olan verilerle birlikte çalışır.
 > 
 
-Öngörü özelliği Microsoft Research ekibiyle birlikte geliştirilen ve sayısı artmaya devam eden [gelişmiş analiz algoritmaları kümesi](../consumer/end-user-insight-types.md) üzerine kurulmuştur. Bu özelliği, daha fazla kullanıcının, verilerindeki öngörülere yeni ve sezgisel yöntemlerle ulaşmasını sağlamak için kullanmaya devam edeceğiz.
+İçgörü özelliği, Microsoft Research ekibi tarafından sürekli olarak geliştirilen [gelişmiş analitik algoritmaları](../consumer/end-user-insight-types.md) temel alır. İnsanların verileriyle ilgili içgörülere yeni ve sezgisel bir şekilde ulaşmasına yardımcı olmak için bu algoritmaları kullanmaya devam ediyoruz. [Verilerinizi hızlı içgörüler için iyileştirmeyi](service-insights-optimize.md) öğrenmek de isteyebilirsiniz.
 
 ## <a name="run-quick-insights-on-a-dataset"></a>Bir veri kümesi üzerinde hızlı öngörüler çalıştırma
-Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Odak modunda açan, öngörülerden birini panosuna kutucuk olarak sabitleyen ve bir görsel için öngörüler edinen Amanda'yı izleyin.
+Bir veri kümesi üzerinde hızlı içgörüler çalıştıran ve içgörülerden birini Odak modunda açan Amanda'yı izleyin. Amanda, içgörüyü panoya kutucuk olarak sabitleyip pano kutucuğuyla ilgili içgörüler alıyor.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
@@ -71,25 +71,15 @@ Bir veri kümesi üzerinde hızlı öngörüler çalıştıran, öngörüleri Od
    * Görselleştirmeleri filtreleyebilirsiniz. **Filtreler** bölmesi zaten açık değilse, pencerenin sağ tarafındaki oku seçerek genişletin.
 
        ![Genişletilmiş İçgörü Filtreleri menüsü](media/service-insights/power-bi-insights-filter-new.png)
-   * **Raptiye görselini** seçerek içgörü kartını bir panoya sabitleyebilirsiniz.
+   * **Görseli sabitle**'yi seçerek içgörü kartını bir panoya sabitleyebilirsiniz.
    * İçgörüyü kart üzerinde çalıştırın. Bu durum genellikle *kapsama alınmış içgörüler* olarak adlandırılır. Sağ üst köşede, ampul simgesini ![İçgörü al simgesi](media/service-insights/power-bi-bulb-icon.png) veya **İçgörü al**’ı seçin.
      
        ![İçgörü Al simgesi](media/service-insights/pbi-autoinsights-tile.png)
      
-     Öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni kartlar da sağ tarafta görüntülenir.
+     Sol tarafta içgörü görüntülenir. Yalnızca bu tek içgörüdeki verileri temel alan yeni kartlar sağ tarafta görüntülenir.
      
        ![İçgörüler üzerinde içgörüler](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Özgün öngörü tuvaline geri dönmek için sol üst köşedeki **Odak modundan çık**'ı seçin.
-
-## <a name="run-insights-on-a-dashboard-tile"></a>Bir pano kutucuğu üzerinde öngörüler çalıştırma
-İçgörüleri bir veri kümesinin tamamında aramak yerine aramanızı tek bir pano kutucuğunu oluşturmak için kullanılan veriler üzerinde kapsama alınmış bir içgörüyle sınırlayabilirsiniz. 
-
-1. Bir pano açın.
-2. Bir kutucuğun üzerine gelin, **Diğer seçenekler** (...) ve sonra **İçgörüleri görüntüle**’yi seçin. Kutucuk, öngörü kartları sağ tarafta görüntülenecek şekilde [Odak modunda](../consumer/end-user-focus.md) açılır.    
-   
-    ![Odak modu](media/service-insights/pbi-insights-tile.png)    
-3. Öngörülerden biri ilginizi mi çekti? İlgili öngörü kartını seçerek detaylandırabilirsiniz. Seçilen öngörü sol tarafta, yalnızca bu tek öngörüdeki verileri temel alan yeni öngörü kartları da sağ tarafta görüntülenir.    
-4. Verilerinizi ayrıntılı olarak incelemeye devam edin, ilginizi çeken bir öngörü bulduğunuzda sağ üst köşedeki **Görseli sabitle**'yi seçerek bu öngörüyü panonuza sabitleyin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 - Bir veri kümesine sahipseniz [bu veri kümesini Hızlı İçgörüler için en iyi duruma getirebilirsiniz](service-insights-optimize.md).

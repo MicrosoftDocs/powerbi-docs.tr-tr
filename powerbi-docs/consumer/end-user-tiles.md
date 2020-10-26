@@ -1,20 +1,20 @@
 ---
-title: Tüketiciler için Power BI'daki pano kutucukları
-description: Tüketiciler için Power BI'daki pano kutucukları hakkında tüm bilinmesi gerekenler. SQL Server Reporting Services (SSRS) ile oluşturulan kutucuklar da ele alınmaktadır.
+title: İşletme kullanıcıları için Power BI'daki pano kutucukları
+description: İşletme kullanıcıları için Power BI'daki pano kutucukları hakkında tüm bilinmesi gerekenler. SQL Server Reporting Services (SSRS) ile oluşturulan kutucuklar da ele alınmaktadır.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ab8cfefab74d3120451b56c3ea30518e538ad543
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633918"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830533"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI'daki pano kutucukları
 
@@ -36,29 +36,22 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
 
 1. Üç noktanın görüntülenmesi için kutucuğun üzerine gelin.
    
-    ![kutucuk üç noktası](./media/end-user-tiles/ellipses_new.png)
-2. Kutucuk eylem menüsünü açmak için üç nokta simgesini seçin. Seçenekler, kutucuğu oluşturmak için kullanılan görsel türüne ve yöntemine göre değişiklik gösterir. Görebileceğiniz birkaç örnek aşağıda verilmiştir.
+    ![kutucuk üç noktası](./media/end-user-tiles/power-bi-ellipsis.png)
+2. Kutucuk eylem menüsünü açmak için üç nokta simgesini seçin. Seçenekler izinlerinize, görsel türüne ve kutucuğu oluşturmak için kullanılan yönteme göre değişiklik gösterir. Örneğin Soru-Cevap özelliğinden sabitlenen kutucuklara yönelik menü öğeleri, rapordan sabitlenen kutucuklardan farklıdır. Aşağıda Soru-Cevap kullanılarak oluşturulan bir kutucuğa ait eylem menüsü gösterilmiştir.
 
-    - Soru-Cevap kullanılarak oluşturulan kutucuk
-   
-        ![Altı seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-1.png)
 
-    - çalışma kitabından oluşturulan kutucuk
    
-        ![Üç seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-2.png)
+    ![Dokuz seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-qna-menu.png)
 
-    - rapordan oluşturulan kutucuk
    
-        ![Beş seçeneğin bulunduğu menüyü gösteren ekran görüntüsü.](./media/end-user-tiles/power-bi-options-3.png)
+    Bu menüler aracılığıyla sunulan eylemlerden bazıları şunlardır:
    
-    Burada yapabilecekleriniz:
-   
-   * [Bu kutucuğu oluşturmak için kullanılan raporu açma ](end-user-reports.md) ![rapor simgesi](./media/end-user-tiles/chart-icon.jpg)  
+   * [Kutucuğu oluşturmak için kullanılan raporu açma ](end-user-reports.md) ![rapor simgesi](./media/end-user-tiles/chart-icon.jpg)  
    
    * [Kutucuğu oluşturmak için kullanılan Soru-Cevap sorusunu açma ](end-user-reports.md) ![Soru-Cevap simgesi](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [Bu kutucuğu oluşturmak için kullanılan çalışma kitabını açma ](end-user-reports.md) ![çalışma sayfası simgesi](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [Kutucuğu oluşturmak için kullanılan çalışma kitabını açma ](end-user-reports.md) ![çalışma sayfası simgesi](./media/end-user-tiles/power-bi-open-worksheet.png)  
    * [Kutucuğu odak modunda görüntüleme ](end-user-focus.md) ![odak simgesi](./media/end-user-tiles/fullscreen-icon.jpg)  
    * [İçgörüler görüntüleme ](end-user-insights.md) ![içgörüler simgesi](./media/end-user-tiles/power-bi-insights.png)
    * [Bir yorum ekleme ve tartışma başlatma](end-user-comment.md) ![yorum simgesi](./media/end-user-tiles/comment-icons.png)
@@ -72,16 +65,16 @@ Power BI'ın yapı taşlarını anlamak için yardıma mı ihtiyacınız var?  B
 Bir kutucuğu seçtiğinizde sonraki adım, kutucuğun nasıl oluşturulduğuna ve [özel bağlantı](../create-reports/service-dashboard-edit-tile.md) içerip içermediğine göre değişir. Kutucuk özel bir bağlantı içeriyorsa kutucuğu seçtiğinizde söz konusu bağlantıya yönlendirilirsiniz. Aksi halde, kutucuğu seçtiğinizde, kutucuğu oluşturmak için kullanılan rapora, Excel Online çalışma kitabına, şirket içi SSRS raporuna veya Soru-Cevap sorusuna yönlendirilirsiniz.
 
 > [!NOTE]
-> Bu, **Kutucuk ekle** seçeneği kullanılarak doğrudan pano üzerinde oluşturulan video kutucukları için geçerli değildir. Bu şekilde oluşturulmuş bir video kutucuğunun seçilmesi, videonun doğrudan panoda oynatılmasına neden olur.   
+> Bu durum *tasarımcılar* tarafından panolara eklenen video kutucukları için geçerli değildir. Bu şekilde oluşturulmuş bir video kutucuğunun seçilmesi, videonun doğrudan panoda oynatılmasına neden olur.   
 > 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
-* Görselleştirmeyi oluşturmak için kullanılan rapor kaydedilmemişse kutucuk seçildiğinde herhangi bir işlem gerçekleşmez.
-* Kutucuk Excel Online'daki bir çalışma kitabından oluşturulduysa ve bu çalışma kitabı için en azından Okuma izinlerine sahip değilseniz kutucuğu seçtiğinizde çalışma kitabı Excel Online'da açılmaz.
+* Bir kutucuğu seçtiğinizde (üzerine tıkladığınızda) bir şey olmuyorsa veya hata iletisi görüntüleniyorsa aşağıdaki nedenleri değerlendirebilirsiniz:
+  - Görselleştirmeyi oluşturmak için kullanılan rapor kaydedilmemiş veya silinmiş olabilir.
+  - Kutucuk Excel Online'da bir çalışma kitabından oluşturulmuş olabilir ve söz konusu çalışma kitabı üzerinde Okuma izniniz yoktur.
+  - SSRS'den oluşturulan kutucuklar için SSRS raporuna veya SSRS sunucusunun bulunduğu ağa erişim izniniz olmayabilir.
 * **Kutucuk ekle** seçeneği kullanılarak doğrudan pano üzerinde oluşturulan kutucuklar için özel bir köprü oluşturulduysa başlığı, alt başlığı ve/veya kutucuğu seçtiğinizde söz konusu URL açılır.  Aksi halde, bir resim, web kodu veya metin kutusu için doğrudan panoda oluşturulan bu kutucukları seçtiğinizde varsayılan olarak herhangi bir işlem geçekleşmez.
-* SSRS'deki rapor için izniniz yoksa SSRS'den oluşturulmuş bir kutucuğu seçtiğinizde erişiminizin olmadığını belirten bir sayfa (rsAccessDenied) görüntülenir.
-* SSRS sunucusunun bulunduğu ağa erişiminiz yoksa SSRS'den oluşturulmuş bir kutucuğu seçtiğinizde sunucunun bulunamadığını belirten bir sayfa (HTTP 404) görüntülenir. Raporu görüntülemek için cihazınızın, rapor sunucusuna ilişkin ağ erişimine sahip olması gerekir.
 * Kutucuğu oluşturmak için kullanılan özgün görselleştirmenin değişmesi halinde kutucuk değişmez.  Örneğin, *tasarımcı* bir rapordan çizgi grafik sabitler ve ardından çizgi grafiği çubuk grafik olarak değiştirirse pano kutucuğunda bir çizgi grafik gösterilmeye devam eder. Veriler yenilenir ancak görselleştirme türü yenilenmez.
 
 ## <a name="next-steps"></a>Sonraki adımlar

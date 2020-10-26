@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747977"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049442"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
-Power BI görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması için bunu AppSource'ta yayımlamak isteyebilirsiniz. Power BI görseli oluşturma hakkında daha fazla bilgi için bkz. [Power BI görseli geliştirme](custom-visual-develop-tutorial.md).
+Power BI görselinizi oluşturduktan sonra diğer kullanıcıların keşfetmesi ve kullanması için bunu AppSource'ta yayımlamak isteyebilirsiniz. Power BI görseli oluşturma hakkında daha fazla bilgi için bkz. [Power BI daire kartı görseli geliştirme](develop-circle-card.md).
 
 ## <a name="what-is-appsource"></a>AppSource nedir?
 
@@ -119,7 +119,7 @@ Görseliniz oluşturulduktan sonra isterseniz görselinizi [sertifikalayabilirsi
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-* [Power BI özel görseli geliştirme](custom-visual-develop-tutorial.md)
+* [Power BI daire kartı görseli geliştirme](develop-circle-card.md)
 
 * [Power BI'daki Görselleştirmeler](../../visuals/power-bi-report-visualizations.md)  
 

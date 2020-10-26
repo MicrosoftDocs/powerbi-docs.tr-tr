@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239081"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928298"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 Power BI Desktop'la verilerinizi görselleştirmek için *R* programlama dilini kullanabilirsiniz. [R](https://mran.revolutionanalytics.com/documents/what-is-r) istatistiksel bilgi işlem ve grafiklere yönelik bir dil ve ortamdır.
@@ -129,6 +129,8 @@ Power BI Desktop'ta R görsellerinin şöyle sınırlamaları vardır:
 
 * Veri boyutları: R görseli tarafından çizim için kullanılan veriler 150.000 satırla sınırlıdır. 150.000'den fazla satır seçilirse yalnızca ilk 150.000 satır kullanılır ve görüntünün üzerinde bir ileti görüntülenir.
 
+* Çıkış boyutu: R görseli, 2 MB çıkış boyutu sınırına sahiptir.
+
 * Çözünürlük: Tüm R görselleri 72 DPI çözünürlükte görüntülenir.
 
 * Çizim cihazı: Yalnızca varsayılan cihazla çizim yapma desteklenir. 
@@ -150,5 +152,5 @@ Power BI Desktop'ta R görsellerinin şöyle sınırlamaları vardır:
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI'da R hakkında daha fazla bilgi için aşağıdaki makalelere bakın:
 
-* [Power BI Desktop'ta R Betikleri Çalıştırma](../connect-data/desktop-r-scripts.md)
+* [Power BI Desktop'ta R Betikleri çalıştırma](../connect-data/desktop-r-scripts.md)
 * [Power BI ile harici bir R IDE kullanma](../connect-data/desktop-r-ide.md)

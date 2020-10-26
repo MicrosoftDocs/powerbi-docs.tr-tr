@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634815"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025945"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. Sunu modu Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır.
@@ -56,7 +56,7 @@ Araç çubuğunu yerinden çıkarabilir ve sürükleyip bırakarak ekranın herh
 
 ## <a name="slideshows"></a>Slayt gösterileri
 
-Sununuzda otomatik olarak geçiş yapması için bir slayt gösterisi oynatabilirsiniz. Slayt gösterisini sayfalar, yer işaretleri veya her ikisinde geçiş yapacak şekilde ayarlayabilirsiniz.
+Sununuzda otomatik olarak geçiş yapması için bir slayt gösterisi oynatabilirsiniz. Slayt gösterisini sayfalar, yer işaretleri veya her ikisinde geçiş yapacak şekilde ayarlayabilirsiniz. Slayt gösterisi sırasında [otomatik sayfa yenilemesi](../../create-reports/desktop-automatic-page-refresh.md) ayarına sahip olan rapor sayfaları otomatik olarak yapılandırılarak yenilenir ve bu sayede her zaman en güncel verilerin görüntülenmesi sağlanır.
 
 Eylem araç çubuğunda **Oynat** düğmesini seçtiğinizde slayt gösterisi başlar. Slayt gösterisini durdurmanıza veya oynatılan öğeyi (sayfalar, yer işaretleri veya her ikisi) değiştirmenize olanak veren bir denetleyici karşınıza gelir.
 

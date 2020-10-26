@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 07/01/2020
-ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 08/11/2020
+ms.openlocfilehash: 4725db331269bc9a2f41abf4c432e0bdf427bae6
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524800"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981700"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI görselleri yönetici ayarlarını yönetme
 
@@ -130,7 +130,7 @@ Bir .pbiviz dosyasından yeni bir Power BI görseli eklemek için bu yöntemi ku
 
 3. Karşıya yükleme isteğini başlatmak için **Ekle**’yi seçin. Karşıya yüklendikten sonra görsel, kuruluş görselleri listesinde görüntülenir.
 
-### <a name="add-a-visual-from-appsource-preview"></a>AppSource’dan görsel ekleme (önizleme)
+### <a name="add-a-visual-from-appsource"></a>AppSource’dan görsel ekleme
 
 AppSource’dan yeni bir Power BI görseli eklemek için bu yöntemi kullanın.
 

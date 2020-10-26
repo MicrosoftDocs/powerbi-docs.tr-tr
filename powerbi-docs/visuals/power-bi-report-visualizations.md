@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234632"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049465"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
@@ -29,7 +29,7 @@ Doğrudan Power BI'daki Görselleştirmeler bölmesinden kullanabileceğiniz ço
 
 ![her görselleştirme türüne ait simgeleri içeren bölme](media/power-bi-report-visualizations/power-bi-icons.png)
 
-[Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com) daha fazla Power BI görseli sağlanır. AppSource’da, Microsoft ve topluluk tarafından sağlanan [Power BI görsellerine](../developer/visuals/custom-visual-develop-tutorial.md) göz atabilir ve bunları [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+[Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com) daha fazla Power BI görseli sağlanır. AppSource’da, Microsoft ve topluluk tarafından sağlanan Power BI görsellerine göz atabilir ve bunları [indirebilirsiniz](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 
 Power BI'da yeniyseniz veya bilgilerinizi tazelemek istiyorsanız Power BI görselleştirmeleri ile ilgili temel bilgileri edinmek için aşağıdaki bağlantıları kullanın.  Alternatif olarak, daha da fazla faydalı bilgiye ulaşmak için İçindekiler (bu makalenin sol tarafında) başlıklı bölümümüzü kullanabilirsiniz.
 
@@ -39,7 +39,7 @@ Rapor sayfalarınızda [görselleştirmeler oluşturun](power-bi-report-add-visu
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Dosyadan veya AppSource’dan görselleştirmeyi karşıya yükleme
 
-Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirici araçlarımızı](../developer/visuals/custom-visual-develop-tutorial.md) kullanın ve [bunu toplulukla paylaşın](../developer/visuals/office-store.md). Power BI görseli geliştirme hakkında daha fazla bilgi edinmek için, [Power BI görseli geliştirme](../developer/visuals/custom-visual-develop-tutorial.md) bağlantısını ziyaret edin.
+Kendi oluşturduğunuz veya [Microsoft AppSource topluluk sitesinde](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) bulduğunuz bir görselleştirmeyi ekleyin. Yaratıcılığınızı konuşturmak mı istiyorsunuz? Kaynak kodumuzu inceleyin, yeni bir görselleştirme türü oluşturmak için [geliştirme araçlarımızı](../developer/visuals/environment-setup.md) kullanın ve [bunu toplulukla paylaşın](../developer/visuals/office-store.md). Power BI görseli geliştirme hakkında daha fazla bilgi edinmek için, [Power BI görseli geliştirme](../developer/visuals/develop-circle-card.md) bağlantısını ziyaret edin.
 
 ## <a name="personalize-your-visualization-pane"></a>Görselleştirme bölmenizi kişiselleştirme
 

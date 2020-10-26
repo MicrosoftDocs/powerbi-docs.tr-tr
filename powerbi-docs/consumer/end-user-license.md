@@ -7,16 +7,16 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527965"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830348"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>*İş kullanıcılarına* yönelik lisanslar ve abonelikler
 
@@ -51,8 +51,16 @@ Bu çalışma alanları içinde, tasarımcılar **Görüntüleyici**, **Katkıda
 Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../admin/service-premium-what-is.md).
 
 ## <a name="find-out-which-licenses-you-have"></a>Sahip olduğunuz lisansları öğrenme
+Profil resminizi seçerek hesap bilgilerinizi görüntüleyin. Zalan ücretsiz bir lisans kullanıyor. 
 
-Size atanan lisansları görmek için [Microsoft **Hesabım** sayfanızı](https://portal.office.com/account) ziyaret edin.  **Abonelikler** sekmesini seçin.
+![Profil resminize tıkladığınızda görüntülenen açılan menünün ekran görüntüsü](media/end-user-license/power-bi-profiles.png)
+
+
+Hesabınızla ilgili ek bilgilere ulaşmak için **Hesabı görüntüle**'yi seçin. Yeni bir tarayıcı sekmesinde [Microsoft **Hesabım** sayfası](https://portal.office.com/account) açılır.  Size atanmış olan lisansları görmek için.  **Abonelikler** sekmesini seçin.
+
+![Microsoft 365 Hesaplar sayfasının ekran görüntüsü.](media/end-user-license/power-bi-subscriptions.png)
+
+
 
 
 Bu ilk kullanıcı olan Pradtanna, Power BI Pro lisansı içeren Office 365 E5 aboneliğine sahiptir.
@@ -95,7 +103,7 @@ Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapa
 
 |Lisans türü  |Paylaşılan kapasite |Ayrılmış Premium kapasite  |
 |---------|---------|---------|
-|**Ücretsiz**     |  Kendiniz için içerik oluşturduğunuz ve bu içerikle etkileşime girdiğiniz kişisel bir korumalı alan olarak kullanabilirsiniz. Ücretsiz lisans, Power BI hizmetini denemeniz için harika bir yoldur. Başka birisinden içerik tüketmez veya içeriğinizi başkalarıyla paylaşamazsınız <sup>1</sup>     |   Ayrılmış kapasiteye atanan ve sizinle paylaşılan içerikle etkileşime girin. Ücretsiz ve Pro kullanıcıları, ücretsiz kullanıcıların Pro hesaplarına sahip olması gerekmeden işbirliği yapabilir.      |
+|**Ücretsiz**     |  Kendiniz için içerik oluşturduğunuz ve bu içerikle etkileşime girdiğiniz kişisel bir korumalı alan olarak kullanabilirsiniz. Ücretsiz lisans, Power BI hizmetini denemeniz için harika bir yoldur. Başka birisinden içerik tüketmez veya içeriğinizi başkalarıyla paylaşamazsınız <sup>1</sup>     |   Ayrılmış Premium kapasiteye atanan ve sizinle paylaşılan içerikle etkileşime girin. Ücretsiz ve Pro kullanıcıları, ücretsiz kullanıcıların Pro hesaplarına sahip olması gerekmeden işbirliği yapabilir.      |
 |**Pro**     |  İçerik oluşturup paylaşarak diğer Pro kullanıcılarıyla işbirliği yapın.        |  İçerik oluşturup paylaşarak ücretsiz ve Pro kullanıcılarıyla işbirliği yapın.       |
 
 
@@ -125,7 +133,7 @@ Power BI Pro *tasarımcısı* bu çalışma alanlarından herhangi birinde diğe
 
 - <sup>1</sup> Power BI hizmeti için ücretsiz bir kullanıcı lisansı, keşfeden veya lisansı **Çalışma alanım** ile kişisel veri analizi ve görselleştirmeler amacıyla kullanan kişiler için mükemmeldir. Ücretsiz tek başına bir kullanıcı, iş arkadaşlarıyla işbirliği yapmak için Power BI kullanmıyor. Ücretsiz lisansı olan tek başına kullanıcılar, başkaları tarafından paylaşılan içeriği görüntüleyemez ve kendi içeriklerini diğer Power BI kullanıcılarıyla paylaşamaz.
 
-    ![tek başına lisansı kullanıcılarının resmi](media/end-user-license/power-bi-free-license.jpg)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

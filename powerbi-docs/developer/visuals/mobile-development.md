@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747540"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049304"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma
 Mobil kullanımın Power BI’da önemli bir rolü vardır. Güçlü yönlerinden biri, verilerinize her yerde ve her zaman bağlı kalmasıdır.
@@ -79,4 +79,4 @@ Power BI görsellerinin Power BI Uygulamalarını destekleyen tüm cihazlarda i�
 Windows, iOS ve Android cihazların en son modelleriyle test edilirken, geliştiricilerin bu kalite boyutlarından her birini ele alması gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
-Kullanmaya başlamak için bkz. [Öğretici: Power BI görseli geliştirme](./custom-visual-develop-tutorial.md).
+Kullanmaya başlamak için bkz. [Power BI daire kartı görseli geliştirme](./develop-circle-card.md).

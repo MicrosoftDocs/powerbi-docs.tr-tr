@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538022"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049258"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 
@@ -72,7 +72,7 @@ Power BI görselleri, kendisine sunulan verileri işlemeye yönelik kod içeren 
 
 Bir Power BI görselini içeri aktarmak için *Görselleştirme* bölmesinde **Özel bir görseli içeri aktar**'a tıklayıp **Dosyadan içeri aktar**'ı seçin.
 
-Web geliştiricisiyseniz ve kendi görselinizi oluşturup AppSource'a eklemek istiyorsanız [Power BI görseli geliştirme](custom-visual-develop-tutorial.md) ve [AppSource'ta Power BI görseli yayımlama](office-store.md) sayfalarını inceleyin.
+Web geliştiricisiyseniz ve kendi görselinizi oluşturup AppSource'a eklemek istiyorsanız [Power BI daire kartı görseli geliştirme](develop-circle-card.md) ve [AppSource'ta Power BI görseli yayımlama](office-store.md) sayfalarını inceleyin.
 
 > [!WARNING]
 > Bir Power BI görsel, güvenlik veya gizlilik riski taşıyan kod içerebilir. Power BI görselini raporunuza içeri aktarmadan önce özel görselin yazarına ve kaynağına güvendiğinizden emin olun.
@@ -80,7 +80,7 @@ Web geliştiricisiyseniz ve kendi görselinizi oluşturup AppSource'a eklemek is
 ## <a name="next-steps"></a>Sonraki adımlar
 
 >[!div class="nextstepaction"]
->[Power BI görseli geliştirme](custom-visual-develop-tutorial.md)
+>[Power BI daire kartı görseli geliştirme](develop-circle-card.md)
 
 >[!div class="nextstepaction"]
 >[Power BI görselleri proje yapısı](visual-project-structure.md)

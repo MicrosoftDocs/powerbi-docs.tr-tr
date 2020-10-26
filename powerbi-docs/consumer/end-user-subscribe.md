@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 10/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
-ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
+ms.openlocfilehash: e6ab41b7a9330ff1c99bb0dcc963608485cc3f94
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86875061"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830574"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -27,13 +27,13 @@ En önemli panolarınıza ve raporlarınıza ilişkin en güncel verilere sahip 
 
 E-posta ve anlık görüntü, Power BI ayarlarında belirtilen dil ayarını kullanır (bkz. [Power BI için desteklenen diller ve ülkeler/bölgeler](../fundamentals/supported-languages-countries-regions.md)). Herhangi bir dil tanımlanmadığında Power BI, İngilizce dilini kullanır. Dil tercihinizi görmek veya belirlemek için sırasıyla dişli simgesini ![dişli simgesi](./media/end-user-subscribe/power-bi-settings-icon.png) > **Ayarlar > Genel > Dil** seçeneklerini belirleyin. 
 
-![Dil açılan menüsü](./media/end-user-subscribe/power-bi-language.png)
+![Dil açılan menüsü](./media/end-user-subscribe/power-bi-languages.png)
 
 Aldığınız e-postanın "rapora veya panoya git" bağlantısı içerdiğini görürsünüz. Power BI uygulamalarının yüklü olduğu mobil cihazlarda bu bağlantı seçildiğinde uygulama başlatılır (Power BI web sitesinde varsayılan olarak gerçekleştirilen, raporu veya panoyu açma işleminin aksine).
 
 
 ## <a name="requirements"></a>Gereksinimler
-Kendinize abonelik **oluşturmanız** için belirli bir [lisans](end-user-license.md) türü gerekir. Abonelik oluşturamıyorsanız Power BI yöneticinize başvurun. **Başkalarını abone yapma** yalnızca pano veya rapor sahibi tarafından kullanılabilir. Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md). 
+Kendinize abonelik **oluşturmanız** için belirli bir [lisans](end-user-license.md) türü gerekir. Abonelik oluşturamıyorsanız Power BI yöneticinize veya BT yardım masasına başvurun. **Başkalarını abone yapma** yalnızca pano veya rapor sahibi tarafından kullanılabilir. Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md). 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Bir panoya veya rapor sayfasına abone olma
 Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.
@@ -41,7 +41,8 @@ Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullan
 ![Abone ol simgesini seçme](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Panoyu veya raporu açın.
-2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![Abone ol simgesi](./media/end-user-subscribe/power-bi-icon-envelope.png) seçin.
+2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![Abone ol simgesi](./media/end-user-subscribe/power-bi-icon-envelope.png) seçin.    
+1. **Yeni abonelik ekle**'yi seçin.
    
 
 
@@ -65,7 +66,7 @@ Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullan
 
 3. Her şey düzgün görünüyorsa, aboneliği kaydetmek için **Kaydet ve kapat**'ı seçin. Ayarladığınız zamanlamaya göre bir e-posta ve pano veya raporun anlık görüntüsünü alırsınız. Sıklığı **Veri yenilemesinden sonra** olarak ayarlanan tüm aboneliklerde, yalnızca söz konusu günde yapılan ilk zamanlanmış yenilemeden sonra e-posta gönderilir.
    
-   ![panonun anlık görüntüsünü e-posta ile gönderme](media/end-user-subscribe/power-bi-email-old.png)
+   ![panonun anlık görüntüsünü e-posta ile gönderme](media/end-user-subscribe/power-bi-subscription-email.png)
    
     Rapor sayfasını yenilediğinizde veri kümesi yenilenmez. Yalnızca veri kümesi sahibi bir veri kümesini el ile yenileyebilir. Temel alınan veri kümesinin sahibinin adını aramak için menü çubuğundan açılan listeyi seçin veya ilk abonelik e-postasını arayın.
    
@@ -73,7 +74,7 @@ Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullan
 
 
 ## <a name="manage-your-subscriptions"></a>Aboneliklerinizi yönetme
-Oluşturduğunuz abonelikleri yalnızca siz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından sol alt köşedeki **Tüm abonelikleri yönet**'i seçin (yukarıdaki ekran görüntülerine bakın). Görüntülenen abonelikler o sırada etkin olan çalışma alanına bağlıdır. Tüm çalışma alanları için aboneliklerinizi aynı anda görmek için **Çalışma Alanım**'ın etkin olduğundan emin olun. Çalışma alanlarının anlaşılması konusunda yardım almak için bkz. [Power BI'daki Çalışma Alanları](end-user-workspaces.md). 
+Oluşturduğunuz abonelikleri yalnızca siz yönetebilirsiniz. Tekrar **Abone ol**'u ve ardından sol alt köşedeki **Tüm abonelikleri yönet**'i seçin (yukarıdaki ekran görüntülerine bakın). Geçerli çalışma alanına ait abonelikler görüntülenir. Çalışma alanlarının anlaşılması konusunda yardım almak için bkz. [Power BI'daki Çalışma Alanları](end-user-workspaces.md). 
 
 ![Çalışma Alanım içinde tüm abonelikleri görüntüleme](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
@@ -86,14 +87,13 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.
 * Pano abonelikleri için belirli kutucuk türleri henüz desteklenmiyor. Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları. 
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olursanız ve bu rapor sayfası yeniden adlandırılırsa, aboneliğinizi yeniden oluşturmanız gerekir.
-* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize başvurun. Kuruluşunuz bu özelliği devre dışı bırakmış olabilir.  
+* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize veya BT yardım masasına başvurun. Kuruluşunuz bu özelliği devre dışı bırakmış olabilir.  
 * E-posta abonelikleri çoğu [özel görseli](../developer/visuals/power-bi-custom-visuals.md) desteklemez.  Power BI özel görsellerindeki istisna, [sertifikalı](../developer/visuals/power-bi-custom-visuals-certified.md) olanlardır.    
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez. Sayfalandırılmış Raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.  
 * E-posta abonelikleri şu anda R tarafından desteklenen Power BI görsellerini desteklememektedir.  
-* Özellikle pano abonelikleri için belirli kutucuk türleri henüz desteklenmemektedir.  Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları.     
 * E-posta boyutu sınırları nedeniyle, çok büyük resimler içeren panolarda veya raporlarda abonelikler başarısız olabilir.    
 * Power BI, 2 aydan daha uzun bir süredir ziyaret edilmemiş panolar ve raporlar ile ilişkili veri kümelerinde yenilemeyi otomatik olarak duraklatır.  Ancak bir panoya veya rapora abonelik eklerseniz, bu abonelik ziyaret edilmese bile duraklatılmaz.
-* Unutmayın; aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandıktan sonra abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışıyoruz ama talebin yoğun olduğu zamanlarda aynı anda gönderilebilen abonelik sayısından dolayı daha uzun bir gecikmeyle karşılaşabilirsiniz.  Müşterilerin çoğunluğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır ama kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bir müşteri bu uzunlukta bir gecikme yaşarsa ilk önce no-reply-powerbi@microsoft.com adresinin güvenli gönderenler listesinde olduğundan ve e-posta sağlayıcınız tarafından engellenmediğinden emin olmaları gerekir.  E-posta engellenmemişse yardım için Power BI desteğine ulaşmaları gerekir.
+* Unutmayın; aynı diğer BI ürünlerde olduğu gibi aboneliğinizi ayarladığınız zaman, aboneliğin işlemeye başladığı zaman olur.  Rapor işleme tamamlandıktan sonra abonelik kuyruğa alınır ve e-posta alıcılarına gönderilir.  Tüm abonelikleri mümkün olan en kısa zamanda işlemeye ve teslim etmeye çalışıyoruz ama talebin yoğun olduğu zamanlarda aynı anda gönderilebilen abonelik sayısından dolayı daha uzun bir gecikmeyle karşılaşabilirsiniz.  Müşterilerin çoğunluğu raporların işlenmesi ve gönderilmesinde 15 dakikadan daha uzun bir gecikmeyle karşılaşmamalıdır ama kullanımın önemli düzeyde olduğu bazı dönemlerde ve kiracılarda bu süre 30 dakikaya kadar çıkabilir.  Hiçbir zaman aboneliğin zamanlanmasıyla teslimi arasında 60 dakikadan fazla bir gecikme olmasını beklemiyoruz.  Bir müşteri bu uzunlukta bir gecikme yaşarsa ilk önce no-reply-powerbi@microsoft.com adresinin güvenli gönderenler listesinde olduğundan ve e-posta sağlayıcınız tarafından engellenmediğinden emin olmaları gerekir.  E-posta engellenmemişse yardım için Power BI yöneticilerine veya BT yardım masasına ulaşmaları gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

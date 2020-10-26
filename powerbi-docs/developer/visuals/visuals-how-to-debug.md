@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232654"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525559"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI görsellerinde hata ayıklama
 
@@ -78,7 +78,7 @@ Ayrıca tarayıcıyı özel durumlarda kesecek şekilde ayarlayabilirsiniz. Bu a
 3. **Özel durumlarda kes** simgesine (duraklatma simgesi olan altıgen) tıklayın.
 4. **Tüm özel durumlarda kes**’i seçin.
 
-![Veri rolü alanları](media/visuals-how-to-debug/how-to-debug-edge.png)
+![Tüm özel durumlarda kes'in seçili olduğu Hata ayıklayıcı sekmesinin ekran görüntüsü.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -87,7 +87,7 @@ Ayrıca tarayıcıyı özel durumlarda kesecek şekilde ayarlayabilirsiniz. Bu a
 3. **Özel durumlarda kes** simgesine (duraklatma simgesi olan dur işareti) tıklayın.
 4. **Yakalanan Özel Durumlarda Duraklat** onay kutusunu seçin.
 
-![Veri rolü alanları](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![Yakalanan Özel Durumlarda Duraklar'ın seçili olduğu Kaynaklar sekmesinin ekran görüntüsü.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI görselleriyle ilgili sorunları giderme](power-bi-custom-visuals-troubleshoot.md)

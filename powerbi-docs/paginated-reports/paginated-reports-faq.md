@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216672"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257042"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -76,7 +76,7 @@ Sayfalandırılmış raporlar için her Premium SKU'daki varsayılan bellek:
 - **P2/A5**: %20 varsayılan; %5 en küçük
 - **P3/A6**: %20 varsayılan; %2,5 en küçük
 
-Power BI kiracı yöneticileri en fazla bellek yüzdesini Yönetici portalından değiştirebilir. **Kapasite ayarları** sekmesindeki **Power BI Premium** seçeneğinde yer alan **Sayfalandırılmış Raporlar** iş yükü bölümüne bakın.
+Power BI yöneticileri en fazla bellek yüzdesini Yönetici portalından değiştirebilir. **Kapasite ayarları** sekmesindeki **Power BI Premium** seçeneğinde yer alan **Sayfalandırılmış Raporlar** iş yükü bölümüne bakın.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Sayfalandırılmış raporlar bölümündeki kapasite ayarları sekmesi":::
 
@@ -178,6 +178,12 @@ Evet, artık Giriş'ten sayfalandırılmış raporlar için arama yapabilirsiniz
 Sayfalandırılmış raporlarda DateTime alanlarıyla çalışırken aklınızda bulunması gereken bir şeyi burada bulabilirsiniz.
 
 - Şu anda DateTime parametreleriyle ilgili bazı genelleştirme sınırlamaları vardır. Power BI hizmetindeki tüm DateTime parametreleri, Power BI Report Builder’da DateTime’ı nasıl tasarladığınız fark etmeksizin ABD biçiminde (AA/GG/YYYY) getirilir.
+
+Kullanıcılar, Power BI hizmetinde sayfalandırılmış raporları görüntülerken oturum zaman aşımına uğrayabilir ve aşağıdaki bildirim görüntülenebilir:
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Sayfalandırılmış raporlar bölümündeki kapasite ayarları sekmesi":::
+
+- Oturum, 60 dakika boyunca herhangi bir işlem yapılmadığında veya cihazın kilitlenmesi ya da boşta kalması durumunda daha erken bir noktada veya raporun tarayıcının etkin sekmesinde görüntülenmemesi halinde zaman aşımına uğrar.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

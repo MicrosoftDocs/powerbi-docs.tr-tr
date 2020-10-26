@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136109"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116627"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 
@@ -92,7 +92,7 @@ Geliştirilmiş kullanım ölçümleri raporu aşağıdaki rapor sayfalarını i
 | Kullanım bildirme | Platform dilimleyici | Rapora Power BI hizmetinden (powerbi.com) veya Power BI Embedded üzerinden mi yoksa mobil cihazdan mı erişim sağlandığı. |
 | Kullanım bildirme | Rapor görünümleri olan kullanıcılar | Raporu açan kullanıcıların görünüm sayısına göre sıralanmış listesini gösterir. |
 | Kullanım bildirme | Sayfalar | Raporda 1'den fazla sayfa varsa raporu görüntülenen sayfalara göre dilimleyebilirsiniz. Listede "Boş" seçeneğinin bulunması, bir rapor sayfasının yeni eklendiğini (yeni sayfanın gerçek adının dilimleyici listesine eklenmesi 24 saat kadar sürebilir) ve/veya rapor sayfalarının silindiğini gösterir. Bu gibi durumlarda "Boş" seçeneği görüntülenir. |
-| Rapor performansı | Tipik açılış süresi | Tipik rapor açılış süresi, raporu açma işleminin süresinin yüzde birlik bölümünün 50’ncisine karşılık gelir. Diğer bir deyişle, rapor açma eylemlerinin %50’sinin tamamlanma süresinin altında kalan süredir. Rapor performansı sayfası da tipik rapor açılış süresini tüketim yöntemine ve tarayıcı türüne göre ayırır.   |
+| Rapor performansı | Tipik açılış süresi | Tipik rapor açılış süresi, raporu açma işleminin süresinin yüzde birlik bölümünün 50’ncisine karşılık gelir. Diğer bir deyişle, rapor açma eylemlerinin %50’sinin tamamlanma süresinin altında kalan süredir. Rapor performansı sayfası da tipik rapor açılış süresini tüketim yöntemine ve tarayıcı türüne göre ayırır. Şu an için raporun ilk yüklenmesi ve ilk sayfanın görüntülenmesi için geçerli performansı ölçüyoruz. Ölçüm, rapor isteğiyle birlikte başlayıp son görselin işlenmesi tamamlandığında sona erer. Dilimleme, filtreleme ve sayfa değiştirme gibi rapor etkileşimleri performans ölçümlerine dahil değildir.  |
 | Rapor performansı | Açılış süresi eğilimi | Açılış süresi eğilimi, rapor açma performansının zaman içindeki değişikliklerini yansıtır. Bu, raporun seçilen zaman aralığının ilk yarısındaki açılış sürelerini ikinci yarısındaki sürelerle karşılaştırır. |
 | Rapor performansı | Tarih dilimleyici | Rapor performansı sayfasında zaman aralığını değiştirebilir, örneğin haftalık veya iki haftalık eğilimleri hesaplayabilirsiniz. Rapor performansı sayfasının sol alt köşesinde, seçili rapor için kullanım verilerinin sağlandığı en erken ve en geç tarihi belirleyebilirsiniz. |
 | Rapor performansı | Günlük performans | Tek tek her gün için hesaplanan rapor açma eylemlerinin %10’unun, %50’sinin ve %90’ının performansı. |

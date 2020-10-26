@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746137"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116466"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -52,11 +52,18 @@ Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak içi
 
 ### <a name="bookmarks"></a>Yer imleri
 
- Rapora filtreleri uyguladıktan sonra programlama yoluyla raporu belirli bir durumda dışarı aktarmak için `exportToFile` API’sini kullanabilirsiniz. Bu işlem [Yer İşaretleri](../../consumer/end-user-bookmarks.md) özellikleri kullanılarak yapılır. Raporu yer işaretlerini kullanarak dışarı aktarmak için [yer işaretleri JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks)’sini kullanın.
+[Yer işaretleri](../../consumer/end-user-bookmarks.md) uygulanan filtreler ve rapordaki görsellerin durumu dahil olmak üzere belirli bir rapor yapılandırmasını kaydetmek için kullanılabilir. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API'sini kullanarak bir raporun yer işaretini program aracılığıyla ve iki farklı şekilde dışarı aktarabilirsiniz:
 
- Örneğin yer işaretinin `capturedBookmark.state` yöntemini kullanarak belirli bir kullanıcının raporda yaptığı değişiklikleri yakalayabilir ve ardından bunu geçerli durumunda karşıya yükleyebilirsiniz.
+* **Var olan bir yer işaretini dışarı aktarma**
 
-[Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
+    Var olan bir [rapor yer işaretini](../../consumer/end-user-bookmarks.md#report-bookmarks) dışarı aktarmak için `name` özelliğini ve [yer işaretleri JavaScript API'sini](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks) kullanarak alabileceğiniz benzersiz (büyük/küçük harfe duyarlı) kimliği kullanın.
+
+* **Raporun durumunu dışarı aktarma**
+
+    Raporun geçerli durumunu dışarı aktarmak için `state` özelliğini kullanın. Örneğin yer işaretinin `bookmarksManager.capture` yöntemini kullanarak belirli bir kullanıcının raporda yaptığı değişiklikleri yakalayabilir ve ardından `capturedBookmark.state` kullanarak bunu geçerli durumunda dışarı aktarabilirsiniz.
+
+>[!NOTE]
+>[Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
 
 ### <a name="authentication"></a>Kimlik Doğrulama
 

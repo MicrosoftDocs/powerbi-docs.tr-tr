@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981747"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -195,7 +195,7 @@ REST API’yi çağırıyorsanız her kimliğin içine özel veriler ekleyebilir
 
 Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlamanız için adımlar burada verilmiştir.
 
-1. Azure Analysis Services veritabanınızı oluşturun. Ardından [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) aracılığıyla Azure Analysis Services sunucunuzda oturum açın.
+1. Azure Analysis Services veritabanınızı oluşturun. Ardından [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) aracılığıyla Azure Analysis Services sunucunuzda oturum açın.
 
     ![Azure Analysis Services veritabanı oluşturma](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -217,7 +217,7 @@ Power BI Embedded uygulamanızla CustomData() özelliğini ayarlamaya başlaman�
 
     ![Rol Oluşturma - Satır Filtrelerini Ayarlama](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. PBI raporu oluşturun ve ayrılmış kapasiteye sahip bir çalışma alanında yayımlayın.
+6. PBI raporu oluşturun ve kapasiteye sahip bir çalışma alanında yayımlayın.
 
     ![PBI raporu örneği](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
@@ -261,7 +261,7 @@ Her kullanıcının Azure SQL'deki görünümünü yönetmek veya çok kiracıl�
 
 Bu tür etkili kimlik sorunları Azure SQL Server'da RLS kurallarını doğrudan uygular. Power BI Embedded, Azure SQL Server'dan verileri sorgularken sağlanan erişim belirtecini kullanır. Kullanıcının UPN değerine (erişim belirtecinin sağlanma nedeni olan değer), USER_NAME() SQL işlevinin sonucundan erişilebilir.
 
-Belirteç tabanlı kimlik, yalnızca AAD kimlik doğrulamasına izin verecek şekilde yapılandırılmış Azure SQL Veritabanı'na bağlı, ayrılmış kapasitedeki DirectQuery modellerinde çalışır. ([Azure SQL Veritabanı için AAD kimlik doğrulaması hakkında daha fazla bilgi edinin](/azure/sql-database/sql-database-manage-logins).) Belirteç tabanlı kimlik kullanmak için, veri kümesinin veri kaynağı son kullanıcıların OAuth2 kimlik bilgilerini kullanacak şekilde yapılandırılmalıdır.
+Belirteç tabanlı kimlik, yalnızca AAD kimlik doğrulamasına izin verecek şekilde yapılandırılmış Azure SQL Veritabanı'na bağlı, kapasitedeki DirectQuery modellerinde çalışır ([Azure SQL Veritabanı için AAD kimlik doğrulaması hakkında daha fazla bilgi edinin](/azure/sql-database/sql-database-manage-logins)). Belirteç tabanlı kimlik kullanmak için, veri kümesinin veri kaynağı son kullanıcıların OAuth2 kimlik bilgilerini kullanacak şekilde yapılandırılmalıdır.
 
    ![Azure SQL Server'ı yapılandırma](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -342,7 +342,7 @@ Yönetim portalını kullanarak bu izni ayarlayamazsınız. Bu izin yalnızca AP
 
 ### <a name="token-based-identity-limitations"></a>Belirteç Tabanlı Kimlik sınırlamaları
 
-* RLS’yi yalnızca ayrılmış bir kapasiteniz varsa kullanabilirsiniz.
+* RLS’yi yalnızca kapasiteniz varsa kullanabilirsiniz.
 * RLS, SQL Server şirket içi ile çalışmaz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

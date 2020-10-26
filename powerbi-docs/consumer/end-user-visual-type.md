@@ -1,21 +1,21 @@
 ---
-title: Power BI’da tüketiciler için görsel türleri
+title: Power BI’da işletme kullanıcılarına yönelik görsel türleri
 description: Power BI hizmetindeki görsel türleri
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/24/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526893"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830649"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 
@@ -25,18 +25,20 @@ Görseller (*grafikler* ve *görselleştirmeler* olarak da bilinir), verileriniz
 
 Bu sayfada açıklanan görseller, Power BI ile birlikte sunulanlardır. Bunlar en sık karşılaşacağınız görsel türleridir. Bu sayfa, bu önceden paketlenmiş görsellere ilişkin hızlı bir genel bakış sağlar. Bu görsellerden herhangi biriyle ilgili daha ayrıntılı bilgi için [Görsel türleriyle ilgili Power BI rapor *tasarımcısı* belgelerine](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) bakın.
 
-Power BI’a otomatik olarak dahil edilmeyen görseller, *özel görseller* olarak adlandırılır. Özel görseller Microsoft AppSource gibi dış web sitelerinden veya kuruluşunuzun mağazası gibi iç kaynaklardan Power BI’a içeri aktarılabilir. Özel görselleri içeri aktarmak için raporda düzenleme izinlerine sahip olmanız gerekir. Bu ek görseller hakkında daha fazla bilgi edinmek için [Power BI’daki Görseller](../developer/visuals/power-bi-custom-visuals.md) sayfasını ziyaret edin.
+Power BI’a otomatik olarak dahil edilmeyen görseller, *özel görseller* olarak adlandırılır. Özel görseller Microsoft AppSource gibi dış web sitelerinden veya kuruluşunuzun mağazası gibi iç kaynaklardan Power BI’a içeri aktarılabilir. Özel görselleri içeri aktarmak için raporda düzenleme izinlerine sahip olmanız gerekir. Bu ek görseller hakkında daha fazla bilgi edinmek için [Power BI’daki özel görseller](../developer/visuals/power-bi-custom-visuals.md) sayfasını ziyaret edin.
 
 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI’da sağlanan görsellerin listesi
 Bu görsellerin tümü Power BI panolarıyla raporlarında bulunabilir ve [Soru-Cevap’ta belirtilebilir](end-user-q-and-a.md). Görsellerle etkileşimli çalışmayı öğrenmek için bkz. [Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma](end-user-visualizations.md)
 
-### <a name="area-charts-basic-layered-and-stacked"></a>Alan grafikleri: Basit (Katmanlı) ve Yığılmış
+## <a name="a"></a>A
+### <a name="area-charts-basic-layered-and-stacked"></a>Alan grafikleri: basit (katmanlı) ve yığılmış
 ![alan grafiği](media/end-user-visual-type/basic-area-map-small.png)
 
 Basit alan grafiği için çizgi grafik temel alınır ve eksen ile çizgi arasındaki alan doldurulur. Alan grafikleri, zaman içindeki değişimin büyüklüğünü vurgular ve bir eğilime ilişkin toplam değere dikkat çekmek için kullanılabilir. Örneğin, zaman içindeki kârı gösteren veriler, bir alan grafiğinde toplam kârı vurgulayacak şekilde gösterilebilir.
 
+## <a name="b"></a>B
 ### <a name="bar-and-column-charts"></a>Çubuk grafikler ve sütun grafikleri
 ![sütun grafik](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
@@ -44,6 +46,7 @@ Basit alan grafiği için çizgi grafik temel alınır ve eksen ile çizgi aras�
 
 Belirli bir değere farklı kategorilerde bakmak için standart olarak çubuk grafikler kullanılır.
 
+## <a name="c"></a>C
 ### <a name="cards-single-number"></a>Kartlar: Tek sayı
 ![tek sayı kartı](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
@@ -67,7 +70,7 @@ Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 - bir ölçünün, başka bir ölçü tarafından tanımlanan hedefi karşılayıp karşılamadığını kontrol etmek istediğinizde
 - tuval alanını tasarruflu kullanmak istediğinizde
 
-
+## <a name="d"></a>D    
 ### <a name="decomposition-tree"></a>Ayrıştırma ağacı
 ![ayrıştırma ağacı](media/end-user-visual-type/power-bi-decomposition.png)
 
@@ -78,6 +81,7 @@ Ayrıştırma ağacı görseli, birden çok boyuttaki verileri görselleştirmen
 
 Halka grafikler, pasta grafiklerine benzer.  Parçaların bütünle ilişkisini gösterir. Tek fark ortasının boş ve bir etiket veya simge yerleştirmeye müsait olmasıdır.
 
+## <a name="f"></a>F
 ### <a name="funnel-charts"></a>Huni grafikler
 ![huni grafik](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
@@ -86,7 +90,7 @@ Huniler, aşamalardan oluşan bir işlemin görselleştirilmesine yardımcı olu
 Örneğin, şu aşamalarda müşterileri izleyen bir satış hunisi: Müşteri Adayı > Nitelikli Müşteri Adayı > Olası Müşteri > Sözleşme > Kapanış. Huninin şekli ilk bakışta takip ettiğiniz sürecin ilerleme durumu hakkında bilgi verir.
 Huninin her aşaması, toplamın belirli bir yüzdesini temsil eder. Bu nedenle çoğu durumda huni grafik bir huniye benzer. İlk aşama en büyüktür ve sonraki her aşama da bir öncekinden küçüktür. Armut şeklindeki huni de kullanışlıdır. Süreçte bir sorun olduğunu belirtebilir. Ancak genellikle ilk aşama olan "giriş" aşaması en büyük olandır.
 
-
+## <a name="g"></a>G
 ### <a name="gauge-charts"></a>Ölçek grafikleri
 ![ölçek grafiği](media/end-user-visual-type/gauge-m.png)
 
@@ -100,6 +104,7 @@ Radial ölçerler şunlar için harika bir seçimdir:
 - tek bir ölçünün durumunu göstermek
 - hızla taranabilen ve anlaşılabilen bilgiler görüntülemek
 
+## <a name="k"></a>K
  ### <a name="key-influencers-chart"></a>Ana etmenler grafiği
 ![ana etmen](media/end-user-visual-type/power-bi-influencer.png)
 
@@ -116,11 +121,13 @@ KPI'ler şunlar için harika seçimdir:
 - ilerlemeyi ölçme (ne kadar geride ne kadar ilerideyim?)
 - bir hedef için kalan mesafeyi ölçme (ne kadar yakın ne kadar uzağım?)
 
+## <a name="l"></a>L
 ### <a name="line-charts"></a>Çizgi grafikler
 ![çizgi grafik](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 Çizgi grafikler değerler dizisinin tümünün, genellikle zaman içindeki genel şeklini vurgular.
 
+## <a name="m"></a>M
 ### <a name="maps-basic-maps"></a>Haritalar: Temel haritalar
 ![temel harita](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
@@ -146,6 +153,7 @@ Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak
 
 Matris görseli basamaklı düzeni destekleyen bir tür tablo görselidir (aşağıdaki "Tablo" bölümüne bakın). Genellikle rapor tasarımcıları rapor ve panolara matrisler ekler ve bu matrisler kullanıcıların rapor sayfasındaki diğer görselleri çapraz vurgulayabilmek için matristeki bir veya birden fazla öğeyi (satır, sütun, hücre) seçebilmesini sağlar.  
 
+## <a name="p"></a>P
 ### <a name="pie-charts"></a>Pasta grafikleri
 ![pasta grafiği](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
@@ -154,8 +162,9 @@ Pasta grafikleri parçaların bütünle ilişkisini gösterir.
 ### <a name="power-apps-visual"></a>Power Apps görseli
 ![Power Apps görseli](media/end-user-visual-type/power-bi-powerapps-visual.png)
 
-Rapor tasarımcıları bir Power App oluşturup bunu Power BI raporuna ekleyebilir. Tüketiciler Power BI raporunun içinde bu görselle etkileşimli çalışabilir. 
+Rapor tasarımcıları bir Power App oluşturup bunu Power BI raporuna ekleyebilir. *İşletme kullanıcıları* Power BI raporunun içinde bu görselle etkileşimli çalışabilir. 
 
+## <a name="q"></a>Q
 ### <a name="qa-visual"></a>Soru-Cevap görseli
 ![Soru-Cevap görselleri](media/end-user-visual-type/power-bi-q-and-a.png)
 
@@ -164,13 +173,14 @@ Rapor tasarımcıları bir Power App oluşturup bunu Power BI raporuna ekleyebil
 
 Daha fazla bilgi için bkz. [Power BI’daki Soru-Cevap görselleri](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
+## <a name="r"></a>R
 ### <a name="ribbon-chart"></a>Şerit grafik
 ![Şerit grafik](media/end-user-visual-type/power-bi-ribbon.png)
 
 Şerit grafikleri hangi veri kategorisinin en yüksek derecelendirmeye (en büyük değer) sahip olduğunu gösterir. Şerit grafikler, sıralama değişimini gösterme konusunda etkili bir araçtır; en yüksek sıra (değer) her bir zaman aralığı için her zaman en üstte görüntülenir.
 
+## <a name="s"></a>S
 ### <a name="scatter-bubble-and-dot-plot-charts"></a>Dağılım ve kabarcık grafikleriyle noktalı grafikler
-
 
 Dağılım grafiğinde her zaman, biri yatay eksende bir sayısal veri kümesi gösteren, diğeri ise dikey eksen üzerinde bir sayısal değer kümesi gösteren iki değer ekseni bulunur. Grafik, X ve Y sayısal değerlerinin kesişim noktalarını görüntüler ve bu değerleri tekli veri noktalarına dönüştürür. Bu veri noktaları, verilere bağlı olarak yatay eksende eşit veya eşit olmayan şekilde dağıtılabilir.
 
@@ -202,12 +212,18 @@ Dilimleyiciler aşağıdaki durumlarda harika seçimdir:
 - veri tablolarında gereksiz ve gizli sütunlara göre filtreleme yapmak
 - dilimleyicileri önemli görsellerin yanına koyarak daha iyi odaklanmış raporlar oluşturmak
 
+
+### <a name="smart-narrative"></a>Akıllı anlatı
+![akıllı anlatı](media/end-user-visual-type/power-bi-smart-narrative.png)
+
+Akıllı anlatı; eğilimleri ve ana fikirleri göstermek için raporlara metinler ekler ve açıklama ile bağlam katar. Metin, kullanıcıların verileri anlamasına ve önemli bulgulara hızlıca ulaşmasına yardımcı olur.
+
 ### <a name="standalone-images"></a>Tek başına resimler
 ![tek başına resim](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 Tek başına resim rapora veya panoya eklenmiş bir grafiktir. 
 
-
+## <a name="t"></a>T
 ### <a name="tables"></a>Tablolar
 ![tablo grafiği](media/end-user-visual-type/table-type.png)
 
@@ -231,6 +247,7 @@ Ağaç haritaları aşağıdaki durumlarda kullanım için mükemmel seçimdir:
 - boyut ve renk kodlaması kullanarak öznitelikleri gösterme
 - desenleri, aykırı değerleri, en önemli katkıda bulunanları ve istisnaları bulma
 
+## <a name="w"></a>W
 ### <a name="waterfall-charts"></a>Şelale grafikler
 ![Şelale grafiği](media/end-user-visual-type/waterfall-small.png)
 

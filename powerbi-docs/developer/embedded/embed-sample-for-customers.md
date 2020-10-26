@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746643"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983379"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -401,16 +401,16 @@ Burada, **EmbedConfig** modeliyle **TileEmbedConfig** modelinin yanı sıra rapo
 
 ## <a name="move-to-production"></a>Üretime geçme
 
-Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi adanmış kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz. 
+Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
 
 > [!Important]
-> Üretime geçmek için adanmış kapasite gerekir. Tüm çalışma alanları (raporları veya panoları içeren çalışma alanı ile veri kümesini içeren çalışma alanı) bir kapasiteye atanmalıdır.
+> Üretime geçmek için bir kapasite gerekir. Tüm çalışma alanları (raporları veya panoları içeren çalışma alanı ile veri kümesini içeren çalışma alanı) bir kapasiteye atanmalıdır.
 
-### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
+### <a name="create-a-capacity"></a>Kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, müşteriniz için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. İki tür kapasiteden birini seçebilirsiniz:
+Kapasite oluşturduğunuzda, müşterinize yönelik bir kaynaktan yararlanabilirsiniz. İki tür kapasiteden birini seçebilirsiniz:
 * **Power BI Premium** - *EM* ve *P* şeklinde iki SKU ailesinde kullanılabilen kiracı düzeyindeki bir Office 356 aboneliği. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) ayrılmış kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
+* **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 > [!NOTE]
 > A SKU’larla, ÜCRETSİZ Power BI lisansını kullanarak Power BI içeriğine erişemezsiniz.
 
@@ -428,30 +428,30 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İ
 
 ### <a name="development-testing"></a>Geliştirme testi
 
-Geliştirme testi için Pro lisansıyla ekleme deneme belirteçlerini kullanabilirsiniz. Üretim ortamında ekleme yapmak için ayrılmış kapasite kullanın.
+Geliştirme testi için Pro lisansıyla ekleme deneme belirteçlerini kullanabilirsiniz. Üretim ortamında ekleme yapmak için bir kapasite kullanın.
 
 Bir Power BI hizmet sorumlusunun veya ana hesabının oluşturabileceği ekleme deneme belirteci sayısı sınırlıdır. Geçerli ekleme kullanım yüzdenizi kontrol etmek için [Kullanılabilir Özellikler](/rest/api/power-bi/availablefeatures/getavailablefeatures) API'sini kullanın. Hizmet sorumlusu veya ana hesap başına kullanım miktarı görüntülenir.
 
-Test sırasında ekleme belirteçleriniz tükenirse Power BI Embedded veya Premium [kapasitesi](embedded-capacity.md) satın almanız gerekir. Ayrılmış kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
+Test sırasında ekleme belirteçleriniz tükenirse Power BI Embedded veya Premium [kapasitesi](embedded-capacity.md) satın almanız gerekir. Kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
 
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye çalışma alanı atama
+### <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
 
-Adanmış kapasite oluşturduktan sonra, çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz.
+Kapasite oluşturduktan sonra, çalışma alanınızı bu kapasiteye atayabilirsiniz.
 
-Eklenen içerikle (veri kümeleri, raporlar ve panolar dahil) ilgili Power BI kaynaklarını içeren tüm çalışma alanları ayrılmış kapasitelere atanmalıdır. Örneğin eklenen rapor ve ona bağlı olan veri kümesi farklı çalışma alanlarında bulunuyorsa, her iki çalışma alanı da ayrılmış kapasitelere atanmalıdır.
+Eklenen içerikle (veri kümeleri, raporlar ve panolar dahil) ilgili Power BI kaynaklarını içeren tüm çalışma alanları kapasitelere atanmalıdır. Örneğin eklenen rapor ve ona bağlı olan veri kümesi farklı çalışma alanlarında bulunuyorsa, her iki çalışma alanı da kapasitelere atanmalıdır.
 
-[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
+[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
 
-**Ana hesap** kullanarak çalışma alanına adanmış kapasite atamak için aşağıdaki adımları izleyin.
+**Ana hesap** kullanarak çalışma alanına kapasite atamak için aşağıdaki adımları izleyin.
 
 1. **Power BI hizmetinde**, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanına yönelik olan üç noktayı seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
 
     ![Çalışma Alanını Düzenleme](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. **Gelişmiş**’i genişletin, ardından **Adanmış kapasite**’yi etkinleştirin, sonra da oluşturduğunuz adanmış kapasiteyi seçin. Sonra **Kaydet**'i seçin.
+2. **Gelişmiş**’i genişletin, ardından **Kapasite**’yi etkinleştirin, sonra da oluşturduğunuz kapasiteyi seçin. Sonra **Kaydet**'i seçin.
 
-    ![Adanmış kapasite atama](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+    ![Kapasite atama](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
 3. **Kaydet**’i seçtikten sonra, çalışma alanının yanında bir **baklava** işareti görmeniz gerekir.
 

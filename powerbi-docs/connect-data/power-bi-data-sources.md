@@ -6,140 +6,138 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2020
+ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084065"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981493"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
 Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](../transform-model/service-dataflows-data-sources.md).
 
-| Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) |
+| Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) | Power BI Veri Akışları |
 |---|---|---|---|---|---|---|---|
-| Access veritabanı | Evet | Evet | Hayır | Evet <sup>1</sup> | Evet |
-| ActiveDirectory | Evet | Evet | Hayır | Yes | Evet |
-| Adobe Analytics | Evet | Evet | Hayır | Hayır | Hayır |
-| Amazon Redshift | Evet | Evet | Evet | Evet | Hayır |
-| appFigures | Evet | Evet | Hayır | Hayır | Hayır |
-| AtScale küpleri | Evet | Evet | Evet | Evet | Hayır |
-| Azure Analysis Services | Evet | Evet | Evet | Hayır | Hayır |
-| Azure Blob Depolama Alanı | Evet | Evet | Hayır | Yes | Hayır |
-| Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Evet | Hayır |
-| Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Yes | Hayır |
-| Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure DevOps Server | Evet | Evet | Hayır | Yes | Evet |
-| Azure HDInsight (HDFS) | Evet | Evet | Hayır | Hayır | Hayır |
-| Azure HDInsight Spark | Evet | Evet | Evet | Hayır | Hayır |
-| Azure SQL Veritabanı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
-| Azure SQL Veri Ambarı | Evet | Evet | Evet | Evet <sup>2</sup> | Hayır |
-| Azure Tablo Depolama | Evet | Evet | Hayır | Yes | Hayır |
-| BI Bağlayıcısı | Evet | Evet | Evet | Evet | Evet |
-| BI360 - Budgeting & Financial Reporting | Evet | Evet | Hayır | Hayır | Hayır |
-| Common Data Service | Evet | Evet | Hayır | Hayır | Hayır |
-| Data.World - Veri Kümesi Al | Evet | Evet | Hayır | Hayır | Hayır |
-| Denodo | Evet | Evet | Evet | Evet | Evet |
-| Dremio | Evet | Evet | Evet | Evet | Evet |
-| Dynamics 365 (çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır |
-| Dynamics 365 Business Central | Evet | Evet | Hayır | Hayır | Hayır |
-| Dynamics 365 Business Central (şirket içi) | Evet | Evet | Hayır | Hayır | Hayır |
-| Dynamics 365 Customer Insights | Evet | Evet | Hayır | Hayır | Hayır |
-| Dynamics NAV | Evet | Evet | Hayır | Hayır | Hayır |
-| Emigo Data Source | Evet | Evet | Hayır | Hayır | Hayır |
-| Entersoft Business Suite | Evet | Evet | Hayır | Hayır | Hayır |
-| Essbase | Evet | Evet | Evet | Evet | Evet |
-| Exasol | Evet | Evet | Evet | Evet | Evet |
-| Excel | Evet <sup>3</sup> | Evet <sup>3</sup> | Hayır | Evet <sup>3</sup> | Hayır <sup>4</sup> |
-| Facebook | Evet | Evet | Hayır | Hayır | Hayır |
-| Dosya | Evet | Evet | Hayır | Yes | Evet |
-| Klasör | Evet | Evet | Hayır | Yes | Evet |
-| GitHub | Evet | Evet | Hayır | Hayır | Hayır |
-| Google Analytics | Evet | Evet | Hayır | Hayır | Hayır |
-| Google BigQuery | Evet | Evet | Evet | Hayır | Hayır |
-| Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır |
-| HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır |
-| IBM DB2 | Evet | Evet | Evet | Evet | Hayır |
-| IBM Informix Veritabanı | Evet | Evet | Hayır | Yes | Hayır |
-| IBM Netezza | Evet | Evet | Evet | Evet | Evet |
-| Impala | Evet | Evet | Evet | Evet | Evet |
-| Indexima | Evet | Evet | Evet | Evet | Evet |
-| Industrial App Store | Evet | Evet | Hayır | Hayır | Hayır |
-| Information Grid | Evet | Evet | Hayır | Hayır | Hayır |
-| Intersystems IRIS | Evet | Evet | Evet | Evet | Evet |
-| Intune Veri Ambarı | Evet | Evet | Hayır | Hayır | Hayır |
-| Jethro ODBC | Evet | Evet | Evet | Evet | Evet |
-| JSON | Evet | Evet | Hayır | Evet** | Hayır <sup>4</sup> |
-| Kyligence Enterprise | Evet | Evet | Evet | Evet | Evet |
-| MailChimp | Evet | Evet | Hayır | Hayır | Hayır |
-| Marketo | Evet | Evet | Hayır | Hayır | Hayır |
-| MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet |
-| Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır |
-| Microsoft Exchange | Evet | Evet | Hayır | Yes | Hayır |
-| Microsoft Exchange Online | Evet | Evet | Hayır | Hayır | Hayır |
-| Microsoft Graph Güvenliği | Evet | Evet | Hayır | Yes | Hayır |
-| Mixpanel | Evet | Evet | Hayır | Hayır | Hayır |
-| MySQL | Evet | Evet | Hayır | Yes | Evet |
-| OData | Evet | Evet <sup>7</sup> | Hayır | Yes | Hayır |
-| ODBC | Evet | Evet | Hayır | Yes | Evet |
-| OleDb | Evet | Evet | Hayır | Yes | Evet |
-| Oracle | Evet | Evet | Evet | Evet | Evet |
-| Paxata <sup>8</sup> | Evet | Evet | Hayır | Yes | Hayır |
-| PDF | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
-| Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır |
-| Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır |
-| Planview Projectplace | Evet | Evet | Hayır | Hayır | Hayır |
-| PostgreSQL | Evet | Evet | Evet | Evet | Hayır |
-| Power BI veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
-| Power BI veri kümeleri | Evet | Evet | Evet | Hayır | Hayır |
-| Power Platform veri akışları | Evet | Evet | Hayır | Hayır | Hayır |
-| Python betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Evet |
-| QubolePresto | Evet | Evet | Evet | Evet | Evet |
-| Quick Base | Evet | Evet | Hayır | Yes | Evet |
-| QuickBooks Online | Evet | Evet | Hayır | Hayır | Hayır |
-| R betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Hayır |
-| Roamler | Evet | Evet | Hayır | Yes | Hayır |
-| Salesforce Nesneleri | Evet | Evet | Hayır | Hayır | Hayır |
-| Salesforce Raporları | Evet | Evet | Hayır | Hayır | Hayır |
-| SAP Business Warehouse İleti Sunucusu | Evet | Evet | Evet | Evet | Evet |
-| SAP Business Warehouse Sunucusu | Evet | Evet | Evet | Evet | Evet |
-| SAP HANA | Evet | Evet | Evet | Evet | Evet |
-| SharePoint Klasörü | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
-| SharePoint Listesi | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
-| SharePoint Online Listesi | Evet | Evet | Hayır | Evet <sup>2</sup> | Hayır |
-| Smartsheet | Evet | Evet | Hayır | Hayır | Hayır |
-| Snowflake | Evet | Evet | Evet | Evet | Hayır |
-| Spark | Evet | Evet | Evet | Evet | Hayır |
-| SparkPost | Evet | Evet | Hayır | Hayır | Hayır |
-| SQL Server | Evet | Evet | Evet | Evet | Evet |
-| SQL Server Analysis Services | Evet | Evet | Evet | Evet | Evet |
-| Stripe | Evet | Evet | Hayır | Hayır | Hayır |
-| SurveyMonkey | Evet | Evet | Hayır | Yes | Hayır |
-| SweetIQ | Evet | Evet | Hayır | Hayır | Hayır |
-| Sybase | Evet | Evet | Hayır | Yes | Evet |
-| TeamDesk | Evet | Evet | Hayır | Yes | Hayır |
-| Tenforce | Evet | Evet | Hayır | Hayır | Hayır |
-| Teradata | Evet | Evet | Evet | Evet | Evet |
-| Metin/CSV | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
-| Twilio | Evet | Evet | Hayır | Hayır | Hayır |
-| tyGraph | Evet | Evet | Hayır | Hayır | Hayır |
-| Vertica | Evet | Evet | Evet | Evet | Evet |
-| Web | Evet | Evet | Hayır | Evet | Evet <sup>6</sup> |
-| Webtrends | Evet | Evet | Hayır | Hayır | Hayır |
-| Workforce Dimensions | Evet | Evet | Hayır | Yes | Hayır |
-| XML | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> |
-| Zendesk | Evet | Evet | Hayır | Hayır | Hayır |
+| Access veritabanı | Evet | Evet | Hayır | Evet <sup>1</sup> | Evet | Evet |
+| ActiveDirectory | Evet | Yes | Hayır | Evet | Evet | Evet |
+| Adobe Analytics | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Amazon Redshift | Evet | Evet | Evet | Evet | Hayır | Evet |
+| appFigures | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| AtScale küpleri | Evet | Evet | Evet | Evet | Hayır | Hayır |
+| Azure Analysis Services | Evet | Evet | Yes | Hayır | Hayır | Hayır |
+| Azure Blob Depolama Alanı | Evet | Evet | Hayır | Evet | Hayır | Evet |
+| Azure Cosmos DB | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Azure Maliyet Yönetimi | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Azure Veri Gezgini (kusto) | Evet | Evet | Evet | Evet | Hayır | Evet |
+| Azure Data Lake Storage 1. Nesil | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Azure Data Lake Storage Gen2 | Evet | Evet | Hayır | Evet | Hayır | Evet |
+| Azure DevOps | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Azure DevOps Server | Evet | Evet | Hayır | Evet | Evet | Hayır |
+| Azure HDInsight (HDFS) | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Azure HDInsight Spark | Evet | Evet | Evet | Hayır | Hayır | Evet |
+| Azure SQL Veritabanı | Evet | Evet | Evet | Evet | Hayır | Evet |
+| Azure SQL Veri Ambarı | Evet | Evet | Evet | Evet | Hayır | Evet |
+| Azure Tablo Depolama | Evet | Evet | Hayır | Evet | Hayır | Evet |
+| BI Bağlayıcısı | Evet | Evet | Evet | Evet | Evet | Hayır |
+| BI360 - Budgeting & Financial Reporting | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Common Data Service | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Data.World - Veri Kümesi Al | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Denodo | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Dremio | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Dynamics 365 (çevrimiçi) | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Dynamics 365 Business Central | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Dynamics 365 Business Central (şirket içi) | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Dynamics 365 Customer Insights | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Dynamics NAV | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Emigo Data Source | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Entersoft Business Suite | Yes | Evet | Hayır | Hayır | Hayır | Hayır |
+| Essbase | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Exasol | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Excel | Evet <sup>3</sup> | Evet <sup>3</sup> | Hayır | Evet <sup>3</sup> | Hayır <sup>4</sup> | Evet |
+| Facebook | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Dosya | Evet | Evet | Hayır | Evet | Evet | Evet |
+| Klasör | Evet | Evet | Hayır | Evet | Evet | Evet |
+| GitHub | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Google Analytics | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Google BigQuery | Evet | Evet | Evet | Hayır | Hayır | Evet |
+| Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır | Hayır |
+| HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır | Hayır |
+| IBM DB2 | Evet | Evet | Evet | Evet | Hayır | Evet |
+| IBM Informix Veritabanı | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| IBM Netezza | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Impala | Evet | Evet | Evet | Evet | Evet | Evet |
+| Indexima | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Industrial App Store | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Information Grid | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Intersystems IRIS | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Intune Veri Ambarı | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Jethro ODBC | Evet | Evet | Evet | Yes | Evet | Hayır |
+| JSON | Evet | Evet | Hayır | Evet** | Hayır <sup>4</sup> | Evet |
+| Kyligence Enterprise | Evet | Yes | Evet | Evet | Evet | Hayır |
+| MailChimp | Yes | Evet | Hayır | Hayır | Hayır | Hayır |
+| Marketo | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Microsoft Exchange | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| Microsoft Exchange Online | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Microsoft Graph Güvenliği | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| Mixpanel | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| MySQL | Evet | Evet | Hayır | Evet | Evet | Evet |
+| OData | Evet | Evet <sup>7</sup> | Hayır | Evet | Hayır | Evet |
+| ODBC | Evet | Evet | Hayır | Evet | Evet | Evet |
+| OleDb | Evet | Evet | Hayır | Evet | Evet | Hayır |
+| Oracle | Evet | Evet | Evet | Evet | Evet | Evet |
+| Paxata <sup>8</sup> | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| PDF | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
+| Planview Enterprise One - CTM | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Planview Enterprise One - PRM | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Planview Projectplace | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| PostgreSQL | Evet | Evet | Evet | Evet | Hayır | Evet |
+| Power BI veri akışları | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Power BI veri kümeleri | Evet | Evet | Evet | Hayır | Hayır | Hayır |
+| Power Platform veri akışları | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Python betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Evet | Hayır |
+| QubolePresto | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Quick Base | Evet | Evet | Hayır | Evet | Evet | Hayır |
+| QuickBooks Online | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| R betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Hayır | Hayır |
+| Roamler | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| Salesforce Nesneleri | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Salesforce Raporları | Evet | Yes | Hayır | Hayır | Hayır | Evet |
+| SAP Business Warehouse İleti Sunucusu | Evet | Evet | Evet | Evet | Evet | Evet |
+| SAP Business Warehouse Sunucusu | Evet | Evet | Evet | Evet | Evet | Yes |
+| SAP HANA | Evet | Evet | Evet | Evet | Evet | Evet |
+| SharePoint Klasörü | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
+| SharePoint Listesi | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
+| SharePoint Online Listesi | Evet | Evet | Hayır | Evet | Hayır | Evet |
+| Smartsheet | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Snowflake | Evet | Evet | Evet | Evet | Hayır | Evet |
+| Spark | Evet | Evet | Evet | Evet | Hayır | Evet |
+| SparkPost | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| SQL Server | Evet | Evet | Evet | Evet | Evet | Evet |
+| SQL Server Analysis Services | Evet | Evet | Evet | Evet | Evet | Hayır |
+| Stripe | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| SurveyMonkey | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| SweetIQ | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Sybase | Evet | Evet | Hayır | Evet | Evet | Evet |
+| TeamDesk | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| Tenforce | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Teradata | Evet | Evet | Evet | Evet | Evet | Evet |
+| Metin/CSV | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
+| Twilio | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| tyGraph | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Vertica | Evet | Evet | Evet | Evet | Evet | Evet |
+| Web | Evet | Evet | Hayır | Evet | Evet <sup>6</sup> | Evet |
+| Webtrends | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
+| Workforce Dimensions | Evet | Evet | Hayır | Evet | Hayır | Hayır |
+| XML | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
+| Zendesk | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | | | | | | | | |
 
 <sup>1</sup>[ACE OLEDB sağlayıcısı](https://www.microsoft.com/download/details.aspx?id=54920) ile desteklenir, ağ geçidiyle aynı makineye yüklenir.
-
-<sup>2</sup> Şirket içi sürümüyle aynı M işleviyle desteklenir ve Kimlik Doğrulama seçeneklerinin kısıtlanmasına neden olur (ağ geçidinin OAuth desteği yoktur).
 
 <sup>3</sup> Excel 1997-2003 dosyaları (.xls) [ACE OLEDB sağlayıcısını](https://www.microsoft.com/download/details.aspx?id=54920) gerektirir.
 

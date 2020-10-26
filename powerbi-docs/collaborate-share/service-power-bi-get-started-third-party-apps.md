@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: d845cde571679355fd50560a154358885f981db0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9e83d8689564471365666f9b4adfe2c3b9d1c05e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225502"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526755"
 ---
 # <a name="get-started-with-third-party-apps"></a>Üçüncü taraf uygulamalarla çalışmaya başlama
 
@@ -58,4 +58,4 @@ Bir uygulamanın talep edebileceği erişim türleri aşağıda verilmiştir.
 
 3. Uygulama kutucuğunun üzerine gelin, **(...)** düğmesine ve ardından **Kaldır**'a tıklayın.
 
-   ![Kaldır](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![Üçüncü taraf izinleri kaldıran Kaldır seçeneğini gösteren ekran görüntüsü.](media/service-power-bi-get-started-third-party-apps/remove.png)

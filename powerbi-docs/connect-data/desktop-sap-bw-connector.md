@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db5c8b77851ccd35c5f8ccddf5e6587eb1383518
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223029"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598852"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Power BI Desktop’ta SAP Business Warehouse bağlayıcısını kullanma
 
@@ -147,19 +147,19 @@ Var olan raporların Uygulama 2.0 kullanacak şekilde değiştirilmesi yalnızca
 
     Sorgunun zaten aşağıdaki örnekteki gibi bir seçenek kaydı içerip içermediğini belirleyin:
 
-    ![sorgu kod parçacığı](media/desktop-sap-bw-connector/sap_bw_9.png)
+    ![Seçenek kaydı içeren düz metin sorgusunu gösteren ekran görüntüsü.](media/desktop-sap-bw-connector/sap_bw_9.png)
 
     İçeriyorsa, aşağıda gösterildiği gibi `Implementation` 2.0 seçeneğini ekleyin ve varsa `ScaleMeasures` seçeneğini kaldırın:
 
-    ![sorgu kod parçacığı](media/desktop-sap-bw-connector/sap_bw_10.png)
+    ![Implementation = 2.0 değeri eklenmiş düz metin sorgusunu gösteren ekran görüntüsü.](media/desktop-sap-bw-connector/sap_bw_10.png)
 
     Sorgu henüz bir seçenekler kaydı içermiyorsa eklemeniz yeterlidir. Aşağıdaki seçenek için:
 
-    ![sorgu kod parçacığı](media/desktop-sap-bw-connector/sap_bw_11.png)
+    ![Seçenek kaydı eklenmiş düz metin sorgusunu gösteren ekran görüntüsü.](media/desktop-sap-bw-connector/sap_bw_11.png)
 
     Yalnızca şu şekilde değiştirin:
 
-    ![sorgu kod parçacığı](media/desktop-sap-bw-connector/sap_bw_12.png)
+    ![Implementation = 2.0 eklenmiş yeni seçeneğin yer aldığı düz metin sorgusunu gösteren ekran görüntüsü.](media/desktop-sap-bw-connector/sap_bw_12.png)
 
 SAP BW Bağlayıcısı Uygulama 2.0’ı 1. sürümle uyumlu hale getirmek için her türlü çaba gösterilmiştir. Ancak, kullanılmakta olan farklı SAP BW MDX yürütme modları nedeniyle bazı farklılıklar olabilir. Tutarsızlıkları gidermek için yürütme modları arasında geçiş yapmayı deneyin.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860176"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525214"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -80,7 +80,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Başkalarına yenileme bildirimleri gönderme.
 * Power BI Premium kapasiteleri için [test aracı](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/).
 * [Hizmet kullanılabilirlik bildirimlerinin](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/) genel önizlemesi.
-* Power BI raporları için [Yeni Görünümün](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) genel önizlemesi.
+* Power BI raporları için [Yeni Görünümün](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/) genel önizlemesi.
 * Güney Afrika'daki yeni Power BI bölgesi.
 
 ### <a name="june-2019"></a>Haziran 2019
@@ -312,7 +312,7 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 ***Satır düzeyi güvenlik (RLS)***
 
-* Azure Active Directory (AAD) grubu desteği: Kullanıcılar artık AAD gruplarına (güvenlik grupları ve dağıtım listeleri) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
+* Azure Active Directory (Azure AD) grubu desteği: Kullanıcılar artık Azure AD gruplarına (güvenlik grupları) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
 * [RLS kullanımdayken verilerle desteklenen raporlarla RLS rollerinizi test edin](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): RLS önizlememize belirli bir rolle veri kümenizi test etmenizi sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
 * Doğrudan sorguları temel alarak bulut modellerinde RLS tanımlayın ve uygulayın: Şimdi doğrudan sorgunun veri kaynakları için RLS kuralları oluşturabilir ve uygulayabilirsiniz.
 
@@ -646,7 +646,7 @@ Daha fazla bilgi için [blog sayfasını](https://powerbi.microsoft.com/blog/pow
 * Bu haftanın hizmet güncelleştirmesi sayesinde yeni bir rapor oluştururken birden fazla sayfa boyutu arasından seçim yapabilir veya sayfa boyutunu kendiniz tanımlayabilirsiniz. Rapordaki sayfaların boyutu ve en boy oranı buradan kontrol edilir.
 * Görüntüler ve kabarcık grafikleri için daha fazla görsel biçimlendirme desteği ekledik. Görüntünün bozulmasını önlemek için yeniden boyutlandırma sırasında en boy oranını sabit tutabilirsiniz ve dağılım grafiği kabarcıkları dolu ya da boş olacak şekilde yapılandırılabilir.
 * Power BI, paylaşım davetlerini alternatif e-posta adreslerine de gönderir. Sizinle bir pano paylaşıldığında davet bağlantısını hem özgün e-posta adresinize hem de alternatif e-posta adresinize (yapılandırdıysanız) göndereceğiz.
-* Power BI, Dedicated on Multitenant (DonMT) Microsoft 365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Kiracı yöneticisi sizseniz [buradaki](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
+* Power BI, Dedicated on Multitenant (DonMT) Microsoft 365 mimarisi üzerindekiler de dahil olmak üzere tüm müşteriler tarafından kullanılabilir. Power BI'ı çok kiracılı modda paylaşılan hizmet olarak kullanıyor olacaksınız. Çoğu durumda Power BI kaydınızı kolay [self servis kayıt işlemiyle](https://powerbi.microsoft.com/) gerçekleştirebilirsiniz. Hizmeti kullanmaya başlamak için iş e-posta adresinizi, adınızı ve parolanızı girmeniz yeterlidir. Lisans yöneticisi sizseniz [buradaki](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc) yönergeleri kullanarak kullanıcılarınıza lisans ataması yapabilirsiniz.
 * Azure Denetim Günlükleri, Azure aboneliğinizdeki işlem günlüklerini görüntülemenizi ve denetlemenizi sağlar. Power BI Azure Denetim Günlükleri içerik paketi, bu günlüklerde yer alan bilgileri kolayca çözümlemenize ve görselleştirmenize yardımcı olabilir. İçerik paketi verilerinize bağlanıp hazır panoları ve raporları kullanarak öngörüleri keşfetmenizi sağar. Daha fazla bilgi için [blog sayfamızı](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) ve [çevrimiçi belgeleri](../connect-data/service-connect-to-services.md) inceleyin.
 
 [Daha fazla bilgi için blog sayfamıza bakın](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

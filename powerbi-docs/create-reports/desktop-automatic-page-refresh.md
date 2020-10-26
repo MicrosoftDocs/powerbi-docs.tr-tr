@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 3ffc865a4be18b8fa11dda2d94bc2c8892fc3000
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764986"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116535"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI’da otomatik sayfa yenileme
 
@@ -197,6 +197,9 @@ Bu tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı
 *Tablo göstergesi:*
 1. *SA: Sabit aralık*
 2. *DA: Değişiklik algılama*
+
+> [!WARNING]
+> Veri kümenizde etkinleştirildiğinde değişiklik algılama ölçümü DirectQuery veri kaynağınıza bağlanarak ölçümü hesaplayıp değişiklikleri yoklar. Bu bağlantı, Power BI tarafından yapılan Düşük Öncelikli yenileme bağlantılarından farklıdır.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

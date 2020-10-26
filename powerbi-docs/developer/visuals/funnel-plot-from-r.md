@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747724"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049350"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -49,7 +49,7 @@ Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/ra
 
 ## <a name="create-an-r-powered-visual-and-package-in-r-code"></a>R kodunda R destekli görsel ve paket oluşturma
 
-1. Başlamadan önce [PBIVIZ araçlarını yüklediğinizden](./custom-visual-develop-tutorial.md#installing-packages) emin olun.
+1. Başlamadan önce [PBIVIZ araçlarını yüklediğinizden](./environment-setup.md#install-pbiviz) emin olun.
 
 1. Yeni bir R destekli görsel oluşturmak için şu komutu çalıştırın:
 
@@ -274,7 +274,7 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
 
 * Her R Görseli, giriş tablosuna `unique` işlecini uygular. Özdeş satırların kaldırılmasını önlemek için benzersiz kimliğe sahip ek bir giriş alanı ekleyip bunu R kodunda yoksaymak yararlı olabilir.   
 
-* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](./custom-visual-develop-tutorial.md) geliştirmek için Power BI hizmetini kullanın.
+* Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](./develop-circle-card.md) geliştirmek için Power BI hizmetini kullanın.
 
 ### <a name="html-widgets-gallery"></a>HTML pencere öğeleri galerisi
 Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](http://gallery.htmlwidgets.org/) görselleri keşfedin. İşlemlerinizi kolaylaştırmak adına, aralarından seçim yapabileceğiniz 20’den fazla etkileşimli HTML görseli içeren bir [görsel proje deposu](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) oluşturduk!
@@ -300,6 +300,6 @@ Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](htt
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Daha fazla bilgi için [Power BI görselleri](./custom-visual-develop-tutorial.md) ve [R görsellerindeki](../../visuals/service-r-visuals.md) ek öğreticilere başvurun.
+Daha fazla bilgi edinmek için diğer Power BI öğreticilerini inceleyin: [Power BI daire kartı görseli geliştirme](./develop-circle-card.md) ve [R görselleri](../../visuals/service-r-visuals.md).
 
 [Görselleri geliştirip](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) [Office Mağazasına (galeri)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) göndermeyi öğrenin veya daha fazla örnek için [R betiği gösterimine](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals) göz atın

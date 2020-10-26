@@ -10,11 +10,12 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485680"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526778"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -47,13 +48,13 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 ![Abone ol simgesini seçme](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Panoyu veya raporu açın.
-2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini ![Abone ol simgesi](media/service-report-subscribe/power-bi-icon-envelope.png) seçin.
+2. Üstteki menü çubuğundan **Abone ol** seçeneğini belirleyin veya zarf simgesini :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false"::: seçin.
    
     ![Abone ol simgesi](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. Aboneliği açıp kapatmak için sarı kaydırıcıyı kullanın. Kaydırıcı **Kapalı** olarak ayarlandığında abonelik silinmez. Aboneliği silmek için çöp kutusu simgesini seçin.
 
-2. E-postanız zaten **Abone ol** kutusundadır. Aboneliğe aynı etki alanındaki başka e-posta adresleri de ekleyebilirsiniz. Rapor veya pano [Premium kapasitede](https://docs.microsoft.com/power-bi/service-premium-what-is) barındırılıyorsa, sizin etki alanınızda olup olmadıklarına bakılmaksızın tek tek e-posta adreslerini ve grup diğer adlarını abone yapabilirsiniz. Rapor veya pano Premium kapasitede barındırılmıyorsa, başkalarını yine abone yapabilirsiniz ama o kişilerin de Power BI Pro lisansları olmalıdır. Ayrıntılar için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
+2. E-postanız zaten **Abone ol** kutusundadır. Aboneliğe aynı etki alanındaki başka e-posta adresleri de ekleyebilirsiniz. Rapor veya pano [Premium kapasitede](../admin/service-premium-what-is.md) barındırılıyorsa, sizin etki alanınızda olup olmadıklarına bakılmaksızın tek tek e-posta adreslerini ve grup diğer adlarını abone yapabilirsiniz. Rapor veya pano Premium kapasitede barındırılmıyorsa, başkalarını yine abone yapabilirsiniz ama o kişilerin de Power BI Pro lisansları olmalıdır. Ayrıntılar için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
 
 3. E-posta iletisinin **Konu** ve **İleti** ayrıntılarını doldurun.
 
@@ -130,7 +131,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Başkalarını, sayfalandırılmış raporlar haricinde satır düzeyi güvenlik (RLS) uygulanmış bir rapora abone yapamazsınız. Güvenlik bağlamınızı kullanarak diğer kullanıcıları sayfalandırılmış raporlara abone yapabilirsiniz. [Sayfalandırılmış raporlara abone olma](../consumer/paginated-reports-subscriptions.md) hakkında daha fazla bilgi edinin.
 - Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 - Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir. Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
-- E-posta abonelikleri çoğu [özel görselleri](../developer/power-bi-custom-visuals.md) desteklemez. Bu konudaki tek istisna, [sertifikalı](../developer/power-bi-custom-visuals-certified.md) özel görsellerdir.
+- E-posta abonelikleri çoğu [özel görselleri](../developer/visuals/power-bi-custom-visuals.md) desteklemez. Bu konudaki tek istisna, [sertifikalı](../developer/visuals/power-bi-custom-visuals-certified.md) özel görsellerdir.
 - E-posta abonelikleri şu anda R tarafından desteklenen özel görselleri desteklemiyor.
 - E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez. Sayfalandırılmış raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.
 - Analysis Services’a canlı bağlantı içeren bir raporunuz olduğunu ve veri yenilemeden sonra çalıştırılmaya ayarlanmış bir aboneliğe sahip olduğunuzu varsayalım. Power BI hizmeti şirket içi modelinizde ilk kez değişiklik algıladığında, Analysis Services örneğini yokladığında çalışacaktır.  Power BI, aboneliğin gönderileceği zamanı belirlemek için Analysis Services veri modelini değişiklik olup olmadığını görmek için her saat kontrol eder.

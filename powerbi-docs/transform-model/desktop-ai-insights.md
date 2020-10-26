@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860107"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525513"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop’ta Yapay Zeka İçgörüleri’ni kullanma
 
@@ -199,13 +199,13 @@ Bu şema oluşturma yönergeleri, giriş betiği güncelleştirilerek, Azure Mac
 
 Size erişim verilmiş olan herhangi bir Azure ML modelini doğrudan Power Query Düzenleyicisi'nden çağırabilirsiniz. Azure ML modellerine erişmek için Power Query düzenleyicisinin **Giriş** veya **Sütun Ekle** şeridinde **Azure Machine Learning** düğmesini seçin.
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-06.png)
+![Power Query Düzenleyicisi'ndeki Azure Machine Learning düğmesini gösteren ekran görüntüsü.](media/desktop-ai-insights/ai-insights-06.png)
 
 Erişiminiz olan tüm Azure ML modelleri burada Power Query işlevleri olarak listelenir. Ayrıca, Azure ML modeli için giriş parametreleri de otomatik olarak ilgili Power Query işlevinin parametreleri olarak eşlenir.
 
 Azure ML modelini çağırmak için, açılan listeden seçilen tüm varlık sütunlarını giriş olarak belirtebilirsiniz. Sütun simgesini giriş iletişim kutusunun sol tarafına doğru döndürerek giriş olarak bir sabitin kullanılmasını da belirtebilirsiniz.
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-07.png)
+![Seçebileceğiniz Azure Machine Learning modellerini gösteren ekran görüntüsü.](media/desktop-ai-insights/ai-insights-07.png)
 
 Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Tamam**'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
 

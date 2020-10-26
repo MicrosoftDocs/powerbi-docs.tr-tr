@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860245"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026060"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,20 @@ ms.locfileid: "90860245"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="october-2020"></a>Ekim 2020
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>Otomatik sayfa yenileme şimdi destekleniyor (Windows)
+
+Artık [otomatik sayfa yenilemesi](../../create-reports/desktop-automatic-page-refresh.md) ayarına sahip olan rapor sayfaları Windows cihazlar için Power BI uygulamasında da otomatik olarak yenileniyor. Üstelik bu durum normal rapor görünümüyle sınırlı değildir. Otomatik sayfa yenilemesiyle [sunularınız ve slayt gösterileriniz](mobile-windows-10-app-presentation-mode.md#slideshows) gerçek zamanlı olarak güncelleştirilir. Bu sayede her zaman en son işletme verilerini ve içgörüleri görüntülemeniz sağlanır.
+
+### <a name="support-for-notch-displays-ios"></a>Çentikli ekran desteği (iOS)
+iPhone ve iPad'lere çentikli ekran desteği ekleyerek raporlarınız ve panolarınız için daha fazla ekran alanı sağladık. 
+
+## <a name="september-2020"></a>Eylül 2020
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>HoloLens 2 için Power BI uygulaması (önizleme) çıktı!
+
+HoloLens 2 için Power BI uygulaması size yepyeni ve kapsamlı bir deneyim sunar. HoloLens 2’nin el hareketi sistemini kullanarak sık kullandığınız raporları ve panoları alet kemerinizden çıkarabilir, yeniden boyutlandırarak etrafınızda istediğiniz yere yerleştirebilir ve hatta rapor sayfalarına göz atabilirsiniz. Uygulamayı kullandığınız sırada raporlarda ve uygulamalarda yapılan değişiklikler doğrudan yansıtılır. Daha fazla bilgi için [belgeleri](mobile-hololens2-app.md) ve [blog gönderisini](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/) inceleyin!
+
 
 ## <a name="august-2020"></a>Ağustos 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>İçeriğinize gitme yönteminizi geliştirdik (iOS ve Android)

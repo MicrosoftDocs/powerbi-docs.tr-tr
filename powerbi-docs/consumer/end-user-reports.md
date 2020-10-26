@@ -6,23 +6,25 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/28/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4ee852e18056fc6db0288066f5b2074eba784487
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528080"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983471"
 ---
 # <a name="reports-in-power-bi"></a>Power BI'daki raporlar
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan bir işletme kullanıcısı da olabilirsiniz. Bu makale, *iş kullanıcılarına* yöneliktir.
+Power BI raporları, bir veri kümesinden edinilen farklı bulguları ve öngörüleri temsil eden görseller yardımıyla bu veri kümesine ilişkin çok yönlü bir yaklaşım sunar.  Bir raporda tek bir görsel olabilir veya rapor, görsellerle dolu sayfalardan oluşabilir. İş rolünüze bağlı olarak, rapor *tasarlayan* kişi olabilirsiniz. Raporları *tüketen* veya kullanan bir *işletme kullanıcısı* da olabilirsiniz. Bu makale, *iş kullanıcılarına* yöneliktir.
+
+## <a name="the-parts-of-a-report"></a>Bir raporun parçaları
 
 ![Bir rapor sayfasının ekran görüntüsü.](./media/end-user-reports/power-bi-report.png)
 
@@ -36,14 +38,14 @@ Power BI'ı kullanmaya yeni başladıysanız [Power BI hizmeti işletme kullanı
 
 ## <a name="advantages-of-reports"></a>Raporların avantajları
 
-Power BI bir raporda tek bir veri kümesini temel alır. Rapor *tasarımcıları*, bir rapor içinde bir bilgiyi temsil eden görseller oluşturur. Görseller statik değildir.  Temel alınan veriler değiştikçe güncelleştirilir. İçgörüleri keşfetmek ve yanıt aramak için verilerin ayrıntılarına indikçe görseller ve filtrelerle etkileşimde bulunabilirsiniz. Bir pano gibi, rapor da yüksek oranda etkileşimli ve yüksek oranda özelleştirilebilir niteliktedir.
+Power BI bir raporda tek bir veri kümesini temel alır. Rapor *tasarımcıları*, bir rapor içinde bir bilgiyi temsil eden görseller oluşturur. Görseller statik değildir.  Temel alınan veriler değiştikçe güncelleştirilir. İçgörüleri keşfetmek ve yanıt aramak için verilerin ayrıntılarına indikçe görseller ve filtrelerle etkileşimde bulunabilirsiniz. Bir pano gibi, rapor da yüksek oranda etkileşimli ve yüksek oranda özelleştirilebilir niteliktedir. Rapor ile yapabilecekleriniz, rapor *tasarımcısı* tarafından atanan role ve izinlere bağlıdır.
 
 ### <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma
 
 İçeriğinizi keşfedip filtreleme, dilimleme, abone olma ve dışarı aktarma gibi etkileşimlerde bulundukça, raporları bozamazsınız. Çalışmanız, temel alınan veri kümesini veya özgün paylaşılan içeriği etkilemez. Bu durum panolar, raporlar ve uygulamalar için geçerlidir.
 
 > [!NOTE]
-> Verilerinize zarar veremeyeceğinizi unutmayın. Power BI, bir şeyi bozma korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.
+> Verilerinize zarar veremeyeceğinizi unutmayın. Power BI hizmeti, bir şeyi bozma korkusu duymadan deneyip keşfetmeniz için harika bir yerdir.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Değişikliklerinizi kaydedin veya varsayılan ayarlara geri dönün
 

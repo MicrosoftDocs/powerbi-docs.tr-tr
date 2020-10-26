@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
+ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855391"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "92080266"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 

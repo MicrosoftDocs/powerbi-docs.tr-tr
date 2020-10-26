@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
+ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634723"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91862968"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
@@ -183,6 +183,8 @@ Bazen Power BI bir rapordaki veya bir panodaki sütun başlığını kısaltabil
 * Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: **Otomatik**, **Sol**, **Orta**, **Sağ**. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.
 
 * Tablonuzun hücrelerinde veya üst bilgilerinde yer alan metin verileri yeni satır karakterleri içeriyorsa, öğenin ilişkilendirilmiş biçimlendirme bölmesi kartında 'Sözcük Kaydırma' seçeneğine geçmediğiniz sürece bu karakterler yoksayılır. 
+
+* Power BI, maksimum hücre boyutunu hesaplarken ilk yirmi sütunu ve ilk elli satırı dikkate alır. Bu noktaların dışındaki hücreler uygun şekilde boyutlandırılmayabilir.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

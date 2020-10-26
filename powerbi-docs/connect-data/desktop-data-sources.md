@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020056"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256661"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -185,19 +185,21 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* Hexagon PPM Smart API
 * Intune Veri Ambarı (Beta)
 * Microsoft Graph Güvenliği (Beta)
-* Power BI için Projectplace (Beta)
 * Product Insights (beta)
 * Quick Base
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
-* Zoho Creator (Beta)
 * Workplace Analytics (Beta)
-* Hexagon PPM Smart API
+* Zoho Creator (Beta)
+* Palantir Foundry
+* Industrial App Store
+* Power BI için Projectplace
+* eWay-CRM (Beta)
+* Spigit (Beta)
 
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -238,18 +240,26 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Tenforce (Smart)List
 * TIBCO(R) Veri Sanallaştırması (Beta)
 * Vena (Beta)
-* Zucchetti HR Infinity (Beta)
 * Vessel Insight (Beta)
+* Zucchetti HR Infinity (Beta)
 * Boş Sorgu
 
 
 
 Aşağıda, **Diğer** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
 
-![Diğer veri kaynakları, Veri Al iletişim kutusu, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Power BI Desktop'daki diğer veri kaynakları](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Şu anda, güvenliği Azure Active Directory ile sağlanan özel veri kaynaklarına bağlanılamamaktadır.
+
+### <a name="template-apps"></a>Şablon uygulamalar
+
+**Veri Al** penceresinin alt tarafındaki **Şablon Uygulamaları** bağlantısını seçerek kuruluşunuza yönelik şablon uygulamaları bulabilirsiniz. 
+
+![Power BI Desktop'da Diğer veri kaynakları için Veri Al iletişim kutusu](media/desktop-data-sources/data-sources-12.png)
+
+Kullanılabilir Şablon Uygulamaları, kuruluşunuza göre farklılık gösterebilir.
 
 ## <a name="connecting-to-a-data-source"></a>Veri kaynağına bağlanma
 
@@ -273,25 +283,43 @@ Power BI Desktop'ta veri kaynaklarına bağlanmak için tüm yapmanız gereken b
 
 PBIDS dosyaları, belirli bir yapısı olan ve Power BI veri kaynağı dosyası olarak tanımlanması için .PBIDS uzantısına sahip olan Power BI Desktop dosyalarıdır.
 
-Kuruluşunuzda rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştırmak için bir PBIDS dosyası oluşturabilirsiniz. Yeni bir rapor yazarının PBIDS dosyalarını kullanmasını kolaylaştırmak için, bir yöneticinin ortak kullanılan bağlantılarda bu dosyaları oluşturmasını öneririz.
+Kuruluşunuzdaki yeni veya başlangıç düzeyindeki rapor oluşturanlara yönelik **Veri Al** deneyimini kolaylaştırmak için bir PBIDS dosyası oluşturabilirsiniz. Mevcut raporlardan PBIDS dosyası oluşturursanız başlangıç düzeyindeki rapor yazarlarının aynı verilerden yeni raporlar oluşturması daha kolay olur.
 
-Yazar PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. **Gezinti** iletişim kutusu görüntülenir ve kullanıcının veri kaynağından modele yüklenecek tabloları seçmesi gerekir. PBIDS dosyasında belirtilmemişse, kullanıcıların veritabanlarını seçmesi de gerekebilir.
+Yazar PBIDS dosyasını açtığında Power BI Desktop açılır ve kullanıcıdan kimlik doğrulaması yapıp dosyada belirtilen veri kaynağına bağlanması için kimlik bilgileri istenir. **Gezinti** iletişim kutusu görüntülenir ve kullanıcının veri kaynağından modele yüklenecek tabloları seçmesi gerekir. PBIDS dosyasında belirtilmemişse, kullanıcıların veritabanlarını ve bağlantı modunu seçmesi de gerekebilir.
 
 Bu noktadan itibaren kullanıcı görselleştirmeler oluşturmaya başlayabilir veya modele yeni bir tablo kümesi yüklemek için **Son Kaynaklar**’ı seçebilir.
 
 Şu anda PBIDS dosyaları tek dosyada yalnızca bir veri kaynağını destekler. Birden fazla veri kaynağı belirtilmesi bir hatayla sonuçlanır.
 
-Yönetici PBIDS dosyasını oluştururken, tek bağlantı için gerekli girişleri belirtmelidir. Ayrıca bağlantı modu olarak DirectQuery veya İçeri Aktarma’yı belirtebilir. Dosyada **mode** ayarı yoksa veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan **DirectQuery** veya **İçeri Aktarma**’yı seçmesi istenir.
+
+### <a name="how-to-create-a-pbids-connection-file"></a>PBIDS bağlantı dosyası oluşturma
+
+Kullanmak istediğiniz verilere bağlı olan bir Power BI Desktop (.PBIX) dosyanız varsa bu bağlantı dosyalarını Power BI Desktop'tan kolayca dışarı aktarabilirsiniz. PBIDS dosyalarının Desktop'tan otomatik olarak oluşturulmasını sağladığından tercih edilen yöntem budur. İsterseniz dosyayı bir metin düzenleyici aracılığıyla el ile oluşturabilir veya düzenleyebilirsiniz. 
+
+PBIDS dosyasını oluşturmak için **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'nı seçin:
+
+![Veri kaynağı ayarları menü seçeneği](media/desktop-data-sources/data-sources-09.png)
+
+Açılan iletişim kutusunda PBIDS olarak dışarı aktarmak istediğiniz veri kaynağını belirleyip **PBIDS olarak dışarı aktar**'ı seçin.
+
+![Veri kaynağı ayarları iletişim kutusu](media/desktop-data-sources/data-sources-10.png)
+
+**PBIDS olarak dışarı aktar** düğmesini seçtiğinizde Power BI Desktop, PBIDS dosyasını oluşturur. Bu dosyayı yeniden adlandırıp istediğiniz yere kaydedebilir ve başkalarıyla paylaşabilirsiniz. İsterseniz dosyayı bir metin düzenleyici ile açıp üzerinde değişiklik yapabilir, aşağıdaki görüntüde gösterildiği gibi dosyanın bağlantı modunu değiştirebilirsiniz. 
+
+![Metin düzenleyici ile PBIDS dosyasını değiştirme](media/desktop-data-sources/data-sources-11.png)
+
+PBIDS dosyalarınızı metin düzenleyici aracılığıyla el ile oluşturmak isterseniz tek bir bağlantı için gerekli giriş bilgilerini belirtmeniz ve dosyayı PBIDS uzantısıyla kaydetmeniz gerekir. İsterseniz bağlantı modu olarak DirectQuery veya İçeri Aktarma’yı belirtebilirsiniz. Dosyada **mode** ayarı yoksa veya null ise, Power BI Desktop’ta dosyayı açan kullanıcıdan **DirectQuery** veya **İçeri Aktarma**’yı seçmesi istenir.
+
 
 ### <a name="pbids-file-examples"></a>PBIDS dosyası örnekleri
 
-Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sağlanmaktadır. PBIDS dosya türü yalnızca Power BI Desktop’ta da desteklenen veri bağlantılarını destekler. Bunun yalnızca iki istisnası vardır: Live Connect ve Boş Sorgu.
+Bu bölümde, yaygın olarak kullanılan veri kaynaklarından bazı örnekler sağlanmaktadır. PBIDS dosya türü yalnızca Power BI Desktop’ta da desteklenen veri bağlantılarını destekler. Bunun belirli istisnaları vardır: Wiki URL'leri, Live Connect ve Boş Sorgu.
 
 PBIDS dosyası, kimlik doğrulaması bilgilerini ve tablo ve şema bilgilerini *içermez*.  
 
 Aşağıda kod parçacıkları PBIDS dosyalarının birkaç yaygın örneğini gösterir ama bunlar eksiksiz veya kapsamlı değildir. Diğer veri kaynakları için, [Protokol ve adres bilgileri için Veri Kaynağı Başvurusu (DSR) biçimi](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) bölümüne bakabilirsiniz.
 
-Bu örnekler yalnızca kolaylık sağlamak için verilmiştir; tüm örnekleri kapsamaz ve DSR biçiminde desteklenen tüm bağlayıcıları içermez. Yöneticiler veya kuruluşlar kılavuz olarak bu örnekleri kullanarak kendi veri kaynaklarını oluşturabilir. Bu örnekler sayesinde kendi veri kaynağı dosyalarını oluşturup destekleyebilirler.
+Bağlantı dosyalarını düzenliyorsanız veya el ile oluşturuyorsanız bu örnekler yalnızca kolaylık sağlamak için verilmiştir; tüm örnekleri kapsamaz ve DSR biçiminde desteklenen tüm bağlayıcıları içermez.
 
 #### <a name="azure-as"></a>Azure AS
 

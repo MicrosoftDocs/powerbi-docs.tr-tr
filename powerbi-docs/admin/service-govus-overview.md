@@ -10,12 +10,12 @@ ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524639"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981516"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -84,9 +84,9 @@ Power BI'ın kimlik doğrulaması, kimlik ve yönetim özellikleri, Microsoft 36
 | Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
 | | **GCC High**: high.content.powerapps.us |
 | | **DoD**: mil.content.powerapps.us |
-| Microsoft 365 tümleştirmesi | **GCC**: [Dünya genelindeki uç noktalar](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [ABD Hükümeti GCC High uç noktaları](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [ABD Hükümeti DoD uç noktaları](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Microsoft 365 tümleştirmesi | **GCC**: [Dünya genelindeki uç noktalar](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [ABD Hükümeti GCC High uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [ABD Hükümeti DoD uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
 | Portal |**GCC**: *.powerbigov.us |
 | | **GCC-High**: *.high.powerbigov.us |
 | | **DoD**: *.mil.powerbigov.us |
@@ -107,7 +107,7 @@ Azure birden çok buluta dağıtılmıştır. Varsayılan olara buluta özgü bi
 
 ABD kamu bulutu IP aralıklarını almak için [Azure IP Aralıkları ve Hizmet Etiketleri – ABD Kamu Bulutu](https://www.microsoft.com/download/details.aspx?id=57063) dosyasını indirin. Hem Power BI hem de Power Query aralıkları listelenmiştir.
 
-Microsoft Azure Kamu bulutu hizmetleri hakkında daha fazla bilgi için [Azure Kamu belgelerini](https://docs.microsoft.com/azure/azure-government/) inceleyin.
+Microsoft Azure Kamu bulutu hizmetleri hakkında daha fazla bilgi için [Azure Kamu belgelerini](/azure/azure-government/) inceleyin.
 
 SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik duvarı kurallarını oluşturma ve yönetme](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules).
 
@@ -123,7 +123,6 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Kapasite Ölçümleri](../admin/service-admin-premium-monitor-portal.md)|Ç3 2020 |Ç3 2020|Ç3 2020|
 |[Büyük modeller](service-premium-large-models.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
 |[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/service-dataflows-enhanced-compute-engine.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
 |[Veri akışları - Doğrudan Sorgu](../transform-model/service-dataflows-directquery.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
@@ -131,6 +130,7 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
 |[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
+|[Çağrı Kalitesi Veri Bağlayıcısı](/microsoftteams/cqd-power-bi-connector)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 
 <sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)

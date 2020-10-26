@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254295"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526248"
 ---
 # <a name="data-source-impact-analysis"></a>Veri kaynağı etki analizi
 
@@ -42,6 +42,17 @@ Etki analizi yan paneli açılır.
  
 * **Etki özeti**: Etkilenme olasılığı olan çalışma alanlarının, veri akışlarının ve veri kümelerinin sayısını gösterir. Bu sayı erişiminiz olmayan çalışma alanlarını içerir.
 * **Kullanım dökümü**: Size her çalışma alanı için etkilenen veri akışlarının ve veri kümelerinin adlarını gösterir. Belirli bir çalışma alanındaki etkiyi daha ayrıntılı incelemek için çalışma alanı adına tıklayarak çalışma alanını açın. Etkilenen çalışma alanına geldiğinizde bağlı raporların ve panoların ayrıntılarını görmek için [veri kümesi etki analizini](service-dataset-impact-analysis.md) kullanın.
+
+## <a name="notify-contacts"></a>Kişilere bildirme
+
+Veri kaynağında değişiklik yaptıysanız veya yapmayı düşünüyorsanız, ilgili kullanıcılarla iletişim kurup onları bilgilendirmek isteyebilirsiniz. Kişilere bildirimde bulunduğunuzda, etkilenen tüm çalışma alanlarının [kişi listelerine](service-create-the-new-workspaces.md#create-a-contact-list) e-posta gönderilir (klasik çalışma alanlarında e-posta, çalışma alanı yöneticilerine gönderilir). Adınız e-postada görüntülendiğinden kişiler sizi bulabilir ve yeni bir e-posta yazışmasında yanıtlayabilir. 
+
+1. Etki analizi yan bölmesinde **Kişilere bildir**’e tıklayın. Kişilere bildir iletişim kutusu görüntülenir.
+
+   ![Veri kaynağının Kişilere bildir iletişim kutusunun ekran görüntüsü.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. Metin kutusunda değişikliklerle ilgili bazı ayrıntılar girin.
+1. İleti hazır olduğunda **Gönder**’e tıklayın.
 
 ## <a name="privacy"></a>Gizlilik
 

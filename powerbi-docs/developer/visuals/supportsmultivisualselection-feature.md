@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272707"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049419"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>supportsMultiVisualSelection özelliğini kullanma
 
@@ -45,4 +45,4 @@ Bu özellik görüntü görsellerine uygulanamaz. Temel sürücü, ayrıştırma
 
 Power BI kavramları hakkında daha fazla bilgi için bkz. [Power BI'daki görseller](power-bi-visuals-concept.md).
 
-Power BI ile görsel geliştirmeyi denemek için bkz. [Power BI görseli geliştirme](custom-visual-develop-tutorial.md).
+Power BI ile görsel geliştirmeyi denemek için bkz. [Power BI daire kartı geliştirme](develop-circle-card.md).

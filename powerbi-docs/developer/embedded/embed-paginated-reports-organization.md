@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747632"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983424"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Öğretici: Uygulamaya kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
 
@@ -58,11 +58,11 @@ Sunucu tarafı web uygulaması kaydetmek için [Power BI ile kullanmak için Azu
 >* Uygulama gizli anahtarını alma
 >* Uygulamanıza **Report.ReadAll** izinlerini (kapsam) uygulayın.
 
-### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
+### <a name="create-a-capacity"></a>Kapasite oluşturma
 
-Adanmış kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içerik için özel olarak ayrılmış bir kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak adanmış kapasite oluşturabilirsiniz.
+Kapasite oluşturduğunuzda, uygulama çalışma alanınızdaki içeriğe özel kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için uygulama çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak kapasite oluşturabilirsiniz.
 
-Aşağıdaki tabloda, [Microsoft Office 365](../../admin/service-admin-premium-purchase.md)’te sayfalandırılmış raporlara yönelik ayrılmış bir kapasite oluşturmak için kullanılabilen Power BI Premium SKU’ları listelenmektedir:
+Aşağıdaki tabloda, [Microsoft Office 365](../../admin/service-admin-premium-purchase.md)’te sayfalandırılmış raporlara yönelik kapasite oluşturmak için kullanılabilen Power BI Premium SKU’ları listelenmektedir:
 
 | Kapasite düğümü | Toplam sanal çekirdek<br/>(arka uç + ön uç) | Arka uç sanal çekirdekleri | Ön uç sanal çekirdekleri | DirectQuery/canlı bağlantı sınırları |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Aşağıdaki tabloda, [Microsoft Office 365](../../admin/service-admin-premium-p
 
 ### <a name="enable-paginated-reports-workload"></a>Sayfalandırılmış raporların iş yükünü etkinleştirme
 
-Ayrılmış kapasitenizde sayfalandırılmış raporların iş yükünü etkinleştirmeniz gerekir.
+Kapasitenizde sayfalandırılmış raporların iş yükünü etkinleştirmeniz gerekir.
 
 1. [Power BI > Yönetim portalı > Kapasite ayarları](https://app.powerbi.com/admin-portal/capacities)’nda oturum açın.
 
@@ -91,17 +91,17 @@ Ayrılmış kapasitenizde sayfalandırılmış raporların iş yükünü etkinle
 
     ![Sayfalandırılmış raporların iş yükü](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye uygulama çalışma alanı atama
+### <a name="assign-an-app-workspace-to-a-capacity"></a>Bir kapasiteye uygulama çalışma alanı atama
 
-Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
+Kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
 
 1. Power BI hizmetinde, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanındaki **Diğer** seçeneğini belirleyin. Sonra **Çalışma alanı ayarları**’nı seçin.
 
     ![Çalışma alanını düzenleme](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. **Premium**’u seçin ve **Ayrılmış kapasite**’yi etkinleştirin. Oluşturduğunuz adanmış kapasiteyi seçin. Sonra **Kaydet**'i seçin.
+2. **Premium**’u seçin ve **Kapasite**’yi etkinleştirin. Oluşturduğunuz kapasiteyi seçin. Sonra **Kaydet**'i seçin.
 
-    ![Adanmış kapasite atama](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![Kapasite atama](media/embed-paginated-reports-organization/capacity.png)
 
 3. **Kaydet**’i seçtikten sonra, uygulama çalışma alanının yanında bir baklava işareti görmeniz gerekir.
 

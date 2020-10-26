@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749196"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197783"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 
@@ -35,17 +35,48 @@ Azure AD’de [İstemci kimlik bilgisi akışları](https://github.com/AzureAD/m
 
 Ekli analizlerle hizmet sorumlusunu ve sertifika kullanmak için şu adımları izleyin:
 
-1. Sertifika oluşturun.
+1. Azure AD uygulaması oluşturun.
 
-2. Azure AD uygulaması oluşturun.
+2. Bir Azure AD güvenlik grubu oluşturun.
 
-3. Sertifikası kimlik doğrulaması ayarlayın.
+3. Power BI hizmeti yönetici ayarlarını etkinleştirin.
 
-4. Azure Key Vault’tan bir sertifikayı alın.
+4. Hizmet sorumlusunu çalışma alanınıza ekleyin.
 
-5. Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapın.
+5. Sertifika oluşturun.
 
-## <a name="step-1---create-a-certificate"></a>1\. Adım: Sertifika oluşturma
+6. Sertifikası kimlik doğrulaması ayarlayın.
+
+7. Azure Key Vault’tan bir sertifikayı alın.
+
+8. Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapın.
+
+## <a name="step-1---create-an-azure-ad-application"></a>1\. Adım: Azure AD uygulaması oluşturma
+
+[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+
+### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell kullanarak Azure AD uygulaması oluşturma
+
+Bu bölüm, [PowerShell](/powershell/azure/create-azure-service-principal-azureps) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
+
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
+
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
+
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>5\. Adım: Sertifika oluşturma
 
 Güvenilir bir *Sertifika Yetkilisi*’nden bir sertifika temin edebilir veya kendiniz bir sertifika oluşturabilirsiniz.
 
@@ -55,15 +86,15 @@ Bu bölümde, [Azure Key Vault](/azure/key-vault/create-certificate) kullanılar
 
 2. **Anahtar Kasaları**’nı arayın ve **Anahtar Kasaları** bağlantısına tıklayın.
 
-    ![anahtar kasası](media/embed-service-principal-certificate/key-vault.png)
+    ![Azure portalındaki anahtar kasası bağlantısını gösteren ekran görüntüsü.](media/embed-service-principal-certificate/key-vault.png)
 
 3. Sertifika eklemek istediğiniz anahtar kasasına tıklayın.
 
-    ![Anahtar kasası seçin](media/embed-service-principal-certificate/select-key-vault.png)
+    ![Azure portalındaki anahtar kasalarının bulanık bir listesini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/select-key-vault.png)
 
 4. **Sertifikalar**’a tıklayın.
 
-    ![Sertifikalar'ın vurgulandığı anahtar kasaları sayfasını gösteren ekran görüntüsü.](media/embed-service-principal-certificate/certificates.png)
+    ![Sertifikalar'ın vurgulandığı Anahtar kasaları sayfasını gösteren ekran görüntüsü.](media/embed-service-principal-certificate/certificates.png)
 
 5. **Oluştur/İçeri Aktar**’a tıklayın.
 
@@ -97,21 +128,17 @@ Bu bölümde, [Azure Key Vault](/azure/key-vault/create-certificate) kullanılar
 
 9. **CER biçiminde indir**’e tıklayın. İndirilen dosyada ortak anahtar yer alır.
 
-    ![cer olarak indir](media/embed-service-principal-certificate/download-cer.png)
+    ![CER biçiminde indir düğmesini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-2---create-an-azure-ad-application"></a>2\. Adım: Azure AD uygulaması oluşturma
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-## <a name="step-3---set-up-certificate-authentication"></a>3\. Adım: Sertifika kimlik doğrulaması ayarlama
+## <a name="step-6---set-up-certificate-authentication"></a>6\. Adım: Sertifika kimlik doğrulaması ayarlama
 
 1. Azure AD uygulamanızda **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
      ![Azure portalında bir uygulamanın Sertifikalar ve gizli diziler bölmesini gösteren ekran görüntüsü.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. **Sertifikayı karşıya yükle**’ye tıklayın ve bu öğreticinin [ilk adımında](#step-1---create-a-certificate) oluşturup indirdiğiniz *.cer* dosyasını karşıya yükleyin. *.cer* dosyası ortak anahtarı içerir.
+2. **Sertifikayı karşıya yükle**’ye tıklayın ve bu öğreticinin [ilk adımında](#step-5---create-a-certificate) oluşturup indirdiğiniz *.cer* dosyasını karşıya yükleyin. *.cer* dosyası ortak anahtarı içerir.
 
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>4\. Adım: Azure Key Vault’tan bir sertifikayı alma
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>7\. Adım: Azure Key Vault’tan bir sertifikayı alma
 
 Azure Key Vault’tan sertifikayı almak için Yönetilen Hizmet Kimliği’ni (MSI) kullanın. Bu işlem, hem ortak hem de özel anahtarları içeren *.pfx* sertifikasını almayı içerir.
 
@@ -138,7 +165,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>5\. Adım: Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapma
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>8\. Adım: Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapma
 
 Azure Key Vault’a bağlanıp burada depolanan hizmet sorumlusunu ve sertifikayı kullanarak uygulamanızın kimliğini doğrulayabilirsiniz.
 
@@ -181,11 +208,11 @@ Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliğ
 
 2. **Araçlar** > **Seçenekler**’e tıklayın.
 
-     ![Visual Studio seçenekleri](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![Visual Studio'nun Araçlar menüsündeki Seçenekler düğmesini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/visual-studio-options.png)
 
 3. **Hesap Seçimi**’ni arayın ve **Hesap Seçimi**’ne tıklayın.
 
-    ![hesap seçimi](media/embed-service-principal-certificate/account-selection.png)
+    ![Visual Studio'nun seçenekler penceresindeki Hesap seçimi seçeneğini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/account-selection.png)
 
 4. Azure Key Vault’unuz erişimi olan hesabı ekleyin.
 

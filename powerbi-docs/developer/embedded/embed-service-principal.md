@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 05/12/2020
-ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 6f6a13f239d1bcfa7731361f4efcd129da7e2031
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746804"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197760"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -54,8 +54,10 @@ Ekli analizlerle hizmet sorumlusunu ve uygulama kimliğini kullanmak için şu a
 ## <a name="step-1---create-an-azure-ad-app"></a>1\. Adım: Azure AD uygulaması oluşturma
 
 Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
+
 * Uygulamayı [Microsoft Azure portalında](https://portal.azure.com/#allservices) oluşturma.
-* Uygulamayı [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1) kullanarak oluşturma.
+
+* Uygulamayı [PowerShell](/powershell/azure/create-azure-service-principal-azureps) kullanarak oluşturma.
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure portalında Azure AD uygulaması oluşturma
 
@@ -68,20 +70,20 @@ Bu yöntemlerden birini kullanarak Azure AD uygulaması oluşturun:
 
 8. **Yeni istemci gizli dizisine** tıklayın.
 
-    ![yeni istemci gizli dizisi](media/embed-service-principal/new-client-secret.png)
+    ![Sertifikalar ve gizli diziler bölmesindeki Yeni istemci gizli dizisi düğmesini gösteren ekran görüntüsü.](media/embed-service-principal/new-client-secret.png)
 
 9. *İstemci gizli dizisi ekle* penceresinde açıklama girin, istemci gizli dizisinin süresinin ne zaman dolmasını istediğinizi belirleyin ve **Ekle**’ye tıklayın.
 
 10. *İstemci gizli dizisi* değerini kopyalayıp kaydedin.
 
-    ![istemci gizli dizi değeri](media/embed-service-principal/client-secret-value.png)
+    ![Sertifikalar ve gizli diziler bölmesindeki bulanık gizli dizi değerini gösteren ekran görüntüsü.](media/embed-service-principal/client-secret-value.png)
 
     >[!NOTE]
     >Siz bu pencereden çıktıktan sonra gizli dizi değeri gizlendiğinden, yeniden görüntüleyip kopyalayamazsınız.
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell kullanarak Azure AD uygulaması oluşturma
 
-Bu bölüm, [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
+Bu bölüm, [PowerShell](/powershell/azure/create-azure-service-principal-azureps) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
 
 ```powershell
 # The app ID - $app.appid
@@ -100,64 +102,7 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 # Get the service principal key
 $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 ```
-
-## <a name="step-2---create-an-azure-ad-security-group"></a>2\. Adım: Azure AD güvenlik grubu oluşturma
-
-Hizmet sorumlunuz Power BI içeriklerinize ve API’lerinize erişemez. Hizmet sorumlusuna erişim vermek için Azure AD’de bir güvenlik grubu oluşturun ve oluşturduğunuz hizmet sorumlusunu bu güvenlik grubuna ekleyin.
-
-Azure AD güvenlik grubu oluşturmanın iki yolu vardır:
-* El ile (Azure’da)
-* PowerShell'i kullanma
-
-### <a name="create-a-security-group-manually"></a>El ile güvenlik grubu oluşturma
-
-El ile Azure güvenlik grubu oluşturmak için [Temel grup oluşturma ve Azure Active Directory kullanarak üye ekleme](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) makalesindeki yönergeleri izleyin. 
-
-### <a name="create-a-security-group-using-powershell"></a>PowerShell kullanarak güvenlik grubu oluşturma
-
-Güvenlik grubu oluşturmak ve bu güvenlik grubuna uygulama eklemek için örnek betik aşağıda verilmiştir.
-
->[!NOTE]
->Hizmet sorumlusu erişimini kuruluşun tamamı için etkinleştirmek istiyorsanız bu adımı atlayın.
-
-```powershell
-# Required to sign in as admin
-Connect-AzureAD
-
-# Create an Azure AD security group
-$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
-
-# Add the service principal to the group
-Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-```
-
-## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>3\. Adım: Power BI hizmeti yönetici ayarlarını etkinleştirme
-
-Bir Azure AD uygulamasının Power BI içeriğine ve API’lerine erişebilmesi için, bir Power BI yöneticisinin Power BI yönetici portalında hizmet sorumlusu erişimini etkinleştirmesi gerekir.
-
-Azure AD’de oluşturduğunuz güvenlik grubunu **Geliştirici ayarlarının** belirli bir güvenlik grubu bölümüne ekleyin.
-
->[!IMPORTANT]
->Hizmet sorumluları, etkinleştirilmiş oldukları tüm kiracı ayarlarına erişebilir. Yönetici ayarlarınıza bağlı olarak bu, belirli güvenlik gruplarını veya kuruluşun tamamını içerir.
->
->Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için yalnızca belirli güvenlik gruplarına erişim izni verin. Dilerseniz hizmet sorumluları için ayrılmış bir güvenlik grubu oluşturabilir ev bu grubu istediğiniz kiracı ayarlarından dışlayabilirsiniz.
-
-![Yönetici portalı](media/embed-service-principal/admin-portal.png)
-
-## <a name="step-4---add-the-service-principal-to-your-workspace"></a>4\. Adım: Hizmet sorumlusunu çalışma alanınıza ekleme
-
-Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama erişim yapıtlarınızı etkinleştirmek için, hizmet sorumlusu varlığını çalışma alanınıza üye veya yönetici olarak ekleyin.
-
->[!NOTE]
->Bu bölümde, kullanıcı arabirimi yönergeleri sağlanır. Ayrıca, [Gruplar - grup kullanıcı API’si eklemeyi](/rest/api/power-bi/groups/addgroupuser) kullanarak çalışma alanına bir hizmet sorumlusu ekleyebilirsiniz.
-
-1. Erişimini etkinleştirmek istediğiniz çalışma alanına gidin ve **Daha fazla** menüsünden **Çalışma alanı erişimini** seçin.
-
-    ![Çalışma alanı ayarları](media/embed-service-principal/workspace-access.png)
-
-2. Hizmet sorumlusunu çalışma alanına **Yönetici** veya **Üye** olarak ekleyin.
-
-    ![Çalışma alanı yöneticisi](media/embed-service-principal/add-service-principal-in-the-UI.png)
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
 
 ## <a name="step-5---embed-your-content"></a>5\. Adım: İçeriğinizi ekleme
 

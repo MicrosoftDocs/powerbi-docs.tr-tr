@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803614"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525812"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI’a geçişe hazırlanma
 
@@ -73,7 +73,7 @@ Bir Power BI uygulamasının başında ele alınması gereken konular şunlardı
 
 Bir Power BI uygulamasının başında ele alınması gereken bazı önemli konular şunlardır:
 
-- [Power BI kiracı yöneticisi ayarlarına](admin-tenant-settings.md) ilişkin kararlar (belgelenmesi gerekir).
+- [Power BI kiracı ayarlarına](admin-tenant-settings.md) ilişkin kararlar (belgelenmesi gerekir).
 - [Çalışma alanı yönetimine](../collaborate-share/service-new-workspaces.md) ilişkin kararlar (belgelenmesi gerekir).
 - Uygulamalar, çalışma alanları, paylaşma, abonelikler ve içerik ekleme gibi veri ve [içerik dağıtım yöntemlerine](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md) ilişkin noktalar ve tercihler.
 - İçeri aktarma modu, DirectQuery modu ve iki modun bir [Bileşik modelde](composite-model-guidance.md) birleştirilmesi gibi [veri kümesi modlarına](../connect-data/service-dataset-modes-understand.md) ilişkin tercihler.
@@ -96,7 +96,7 @@ Bir Power BI uygulamasının başında ele alınması gereken bazı önemli konu
 - Power BI kiracı kurulumu ve Azure Active Directory tümleştirmesi.
 - [Power BI yöneticilerini](../admin/service-admin-role.md) tanımlama.
 - İlk [kullanıcı lisanslarını](../admin/service-admin-licensing-organization.md) temin etme ve atama.
-- [Power BI kiracı yöneticisi ayarlarını](admin-tenant-settings.md) yapılandırma ve gözden geçirme.
+- [Power BI kiracı ayarlarını](admin-tenant-settings.md) yapılandırma ve gözden geçirme.
 - [Çalışma alanı rolleri](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) kurulumu ve Azure Active Directory güvenlik gruplarına ve kullanıcılarına erişim atama.
 - İlk [veri ağ geçidi](../connect-data/service-gateway-deployment-guidance.md) kümesini yapılandırma ve bunu düzenli olarak güncelleştirmeye yönelik bir plan belirleme.
 - İlk [Premium kapasite lisansını](../admin/service-admin-premium-purchase.md) (varsa) temin etme.

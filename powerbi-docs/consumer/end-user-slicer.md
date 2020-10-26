@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536113"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830406"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI hizmetindeki dilimleyiciler
 
@@ -29,7 +29,7 @@ Dilimleyici, rapor sayfasındaki diğer görselleri filtreleyen bir görsel tür
 Raporları oluştururken *tasarımcılar* bir hikayenin anlatılmasına yardımcı olmak ve verilerinizi keşfederken kullanabileceğiniz araçlar sağlamak için dilimleyiciler ekler.
 
 ### <a name="numeric-range-slicer"></a>Sayısal aralık dilimleyici
- Yukarıdaki sayısal aralık dilimleyicisi coğrafyaya, stoktaki birim sayısına ve sipariş tarihine göre toplam satışları incelemenize yardımcı olur. Aralığı seçmek için tutamaçları kullanın. 
+ Sayısal aralık dilimleyicisi coğrafyaya, stoktaki birim sayısına ve sipariş tarihine göre toplam satışlar gibi nicel verileri incelemenize yardımcı olur. Aralığı seçmek için tutamaçları kullanın. 
 
 ![Aralık dilimleyicisi için tutamaçlar](media/end-user-slicer/power-bi-handles.png)
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226008"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526732"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI ve Microsoft 365'te çalışma alanınızı yönetme
 
@@ -42,7 +42,7 @@ Microsoft 365 veya [Power BI'daki bir çalışma alanının](service-create-dist
 
 1. Power BI hizmetinde **Çalışma Alanları**'nın yanındaki oku > çalışma alanı adının yanındaki **Diğer seçenekler**’i (…) > **Bu çalışma alanını düzenle**'yi seçin.
 
-   ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Çalışma alanları'nın ve Diğer seçenekler menüsünden Bu çalışma alanını düzenle'nin seçili olduğu Power BI Giriş sayfasını gösteren ekran görüntüsü.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
    > **Bu çalışma alanını düzenle** seçeneğini yalnızca çalışma alanı yöneticisi görebilir.
@@ -61,7 +61,7 @@ Ayrıca, bir çalışma alanının farklı yönlerini doğrudan Microsoft 365 i�
 
 1. Power BI hizmetinde **Çalışma Alanlarım**’ın yanındaki oku seçin > çalışma alanı adının yanındaki **Diğer seçenekler**’i (...) > **Üyeler**’i seçin.
 
-   ![Power BI'da çalışma alanlarını düzenleme](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![Çalışma alanları'nın ve Diğer seçenekler menüsünden Üyeler'in seçili olduğu Power BI Giriş sayfasını gösteren ekran görüntüsü.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    Çalışma alanınıza ait Microsoft 365 için Outlook grup görünümü açılır. Kurumsal hesabınızda oturum açmanız gerekebilir.
 

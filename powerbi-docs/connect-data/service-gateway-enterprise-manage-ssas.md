@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642293"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375316"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Veri kaynağınızı yönetme - Analysis Services
 
@@ -219,7 +219,9 @@ EffectiveUserName, etki alanına katılmamış bir Analysis Services sunucusunda
 
 UPN'nizin ne olduğunu bilmeyebilir ve bir etki alanı yöneticisi olmayabilirsiniz. Hesabınızın UPN'sini bulmak için iş istasyonunuzdan aşağıdaki komutu çalıştırabilirsiniz.
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 Sonuç e-posta adresi gibi görünür ama bu etki alanı hesabınızdaki UPN'dir. Canlı bağlantılar için Analysis Services veri kaynağı kullanıyorsanız ve bu UPN Power BI'da oturum açmak için kullandığınız e-posta adresiyle eşleşmiyorsa [kullanıcı adlarını eşlemeyi](#map-user-names-for-analysis-services-data-sources) öğrenmek isteyebilirsiniz.
 
@@ -235,7 +237,7 @@ Bulut hizmetleri yalnızca Azure AD'deki hesapları tanır. Yerel Active Directo
 
 - Yerel hesapları Azure AD kiracınızla eşitlemek için [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) aracını kullanabilirsiniz.
 
-   Azure AD Connect aracı, dizini eşitlemeye ve kimlik doğrulamasını ayarlamaya yönelik seçenekler sunar. Seçenekler parola karması eşitlemeyi, geçiş kimlik doğrulamasını ve federasyonu içerir. Kiracı yöneticisi veya yerel etki alanı yöneticisi değilseniz, yapılandırmada yardım almak için BT yöneticinize başvurun.
+   Azure AD Connect aracı, dizini eşitlemeye ve kimlik doğrulamasını ayarlamaya yönelik seçenekler sunar. Seçenekler parola karması eşitlemeyi, geçiş kimlik doğrulamasını ve federasyonu içerir. Yönetici veya yerel etki alanı yöneticisi değilseniz, yapılandırmada yardım almak için BT yöneticinize başvurun.
 
    Azure AD Connect, UPN'nin Azure AD ile yerel Active Directory örneğiniz arasında eşleşmesini sağlar.
 

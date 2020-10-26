@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748851"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983494"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
@@ -34,7 +34,7 @@ Başlamak için şunlara sahip olmalısınız:
 * Bir [hizmet sorumlusu (yalnızca uygulama belirteci)](embed-service-principal.md)
 * Bir [Microsoft Azure](https://azure.microsoft.com/) aboneliği
 * Kendi [Azure Active Directory kiracısı](create-an-azure-active-directory-tenant.md) kurulumunuz
-* En az bir A4 veya P1 [kapasitesi](#create-a-dedicated-capacity), [sayfalandırılmış raporlar](../../admin/service-admin-premium-workloads.md#paginated-reports) iş yükü etkinleştirilmiş
+* En az bir A4 veya P1 [kapasitesi](#create-a-capacity), [sayfalandırılmış raporlar](../../admin/service-admin-premium-workloads.md#paginated-reports) iş yükü etkinleştirilmiş
 
 Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
 
@@ -45,17 +45,17 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 
-Sayfalandırılmış raporları eklemek için bir çalışma alanını ayrılmış kapasiteye atamanız ve raporu çalışma alanına yüklemeniz gerekir.
+Sayfalandırılmış raporları eklemek için bir çalışma alanını kapasiteye atamanız ve raporu çalışma alanına yüklemeniz gerekir.
 
 ### <a name="create-an-app-workspace"></a>Uygulama çalışma alanı oluştur
 
 Uygulamanızda oturum açmak için [hizmet sorumlusu](embed-service-principal.md) kullandığınız için [yeni çalışma alanlarını](../../collaborate-share/service-create-the-new-workspaces.md) kullanmanız gerekir. *Hizmet sorumlusu* olarak ayrıca uygulamanızda kullanılan uygulama çalışma alanlarının yöneticisi veya üyesi olmanız gerekir.
 
-### <a name="create-a-dedicated-capacity"></a>Adanmış kapasite oluşturma
+### <a name="create-a-capacity"></a>Kapasite oluşturma
 
 Ekleyeceğiniz sayfalandırılmış raporu içeri aktarmadan veya yüklemeden önce, raporu içeren çalışma alanına en az bir A4 veya P1 kapasitesi atanmış olmalıdır. İki tür kapasiteden birini seçebilirsiniz:
 * **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) ayrılmış kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
+* **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
 Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
 
@@ -66,11 +66,11 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İ
 | P3/A6 | 32 | 16 | 100 | 16 |
 | | | | | |
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Adanmış kapasiteye uygulama çalışma alanı atama
+### <a name="assign-an-app-workspace-to-a-capacity"></a>Bir kapasiteye uygulama çalışma alanı atama
 
-Adanmış kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu adanmış kapasiteye atayabilirsiniz.
+Kapasite oluşturduktan sonra, uygulama çalışma alanınızı bu kapasiteye atayabilirsiniz.
 
-[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına adanmış kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
+[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yükleme
 

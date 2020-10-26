@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855967"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026105"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -156,6 +156,25 @@ Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı rapor
 
 [Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](../end-user-bookmarks.md).
 
+## <a name="refresh-your-data"></a>Verilerinizi yenileme
+
+Görüntülediğiniz verilerin güncel olup olmadığından emin değilseniz Power BI hizmetindeki yeni verileri raporunuza çekebilirsiniz:
+
+* iOS cihazlarında ve Android tabletlerde rapor sayfası açıkken ekranı yukarıdan aşağıya doğru hafifçe çekin.
+* Android telefonlarda [etkileşim ayarlarına](mobile-app-interaction-settings.md) bağlı olarak çekme eylemini veya yenileme düğmesini kullanabilirsiniz.
+* Windows cihazlarında ekranın sağ üst köşesindeki yenileme düğmesini kullanın.
+
+    [Otomatik sayfa yenileme](../../create-reports/desktop-automatic-page-refresh.md) özelliğine sahip olan rapor sayfaları otomatik olarak yenilenir (yalnızca Windows uygulaması).
+
+>[!NOTE]
+>Yukarıdaki yenileme yöntemleri, temel alınan veri kümesini yenilemez. Bu yöntemler, mobil uygulamada görüntülemekte olduğunuz raporu Power BI'daki yeni verilerle güncelleştirir.
+
+### <a name="how-do-i-know-when-my-report-was-last-refreshed"></a>Raporumun en son ne zaman yenilendiğini nereden öğrenebilirim?
+
+Raporunuzun en son ne zaman yenilendiğini öğrenmek için rapor başlığına dokunun. Rapor gezinti ağacına ek olarak son yenileme tarihini ve saatini görebilirsiniz. 
+
+![Mobil uygulamadaki rapor yenileme bilgilerinin ekran görüntüsü.](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-refresh-info.png)
+ 
 ## <a name="configure-your-experience-with-reports"></a>Raporlarla deneyiminizi yapılandırma
 Power BI mobil uygulamasında, rapor deneyiminizi denetlemenize olanak tanıyan bir dizi ayar vardır. Şu anda yapılandırabilecekleriniz
 * **Rapor görselleriyle etkileşim**: Tek dokunmalı veya iki kez dokunmalı etkileşimi seçebilirsiniz.

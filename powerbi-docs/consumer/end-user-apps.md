@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 10/09/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbf4c242ef1bc3fe304e162a49d2d971677f463d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 15345c8ca7249c3a6bf4018a322a8ce3d78b9de3
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512920"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982123"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 
@@ -35,7 +35,7 @@ Bir uygulamayı görmek ve açmak için bazı izinler gerekir. Alıcının bir P
 ## <a name="advantages-of-apps"></a>Uygulamaların avantajları
 Uygulamalar, *tasarımcılar* için farklı türden içeriği tek tek paylaşmanın kolay yoludur. Uygulama *tasarımcıları*, panoları ve raporları oluşturup bunları bir uygulamada paketler. Ardından, *tasarımcılar* uygulamayı sizin (*iş kullanıcısının*) erişebileceğiniz bir konumda paylaşır veya yayımlar. İlgili pano ve raporlar paketlendiği için, bunu Power BI hizmetinde ([https://powerbi.com](https://powerbi.com)) ve mobil cihazınızda bulup yüklemeniz daha kolay olur. Bir uygulamayı yükledikten sonra, pano ve raporlar tek uygulamada, tarayıcınızda veya mobil cihazınızda birlikte bulunduğu için çok sayıda farklı pano ve raporun adını hatırlamak zorunda kalmazsınız.
 
-Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz. 
+Uygulamaları kullanırken, uygulama yazarı her güncelleştirme yayımladığında bir bildirim alır veya değişiklikleri otomatik olarak görürsünüz. Yazar ayrıca verilerin yenileme zamanlamasının sıklığını da denetler, bu sayede uygulamayı güncel tutma konusunda endişelenmezsiniz. 
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Yeni bir uygulama alma
@@ -44,7 +44,7 @@ Yeni bir uygulama almanın birkaç farklı yolu vardır. Uygulamaları arayabili
 ### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>Power BI Uygulamaları marketinden uygulamaları bulup yükleme
 Uygulamaları bulmanın bir yolu, Power BI **Uygulamaları** ekranından **Uygulamayı al**’ı seçmektir. 
 
-![Uygulamaları al simgesini gösteren Uygulamalar ekranının ekran görüntüsü](./media/end-user-apps/power-bi-get-apps-icon.png)
+![Uygulamaları al simgesini gösteren Uygulamalar ekranının ekran görüntüsü](./media/end-user-apps/power-bi-get-apps-button.png)
 
 Yükleyeceğiniz uygulamayı bulana kadar Power BI Uygulamaları marketindeki uygulamalar listesine göz atın. Yalnızca şirketinizdeki kişiler tarafından kullanılabilen **Kuruluş uygulamalarını** veya tüm Power BI kullanıcılarının yükleyebilmesi için Microsoft ve topluluk tarafından yayımlanan **Şablon uygulamalarını** seçin. 
 
@@ -59,7 +59,7 @@ Uygulamaları almanın farklı birkaç yolu daha vardır. Bu yollardan bazılar�
 
 Uygulamalarınız **Uygulamalar** içerik listesinde düzenlenir. Uygulamalarınızı görüntülemek için **Uygulamalar**’ı seçmeniz yeterlidir. Uygulamanın sahibini ve son güncelleştirme tarihini görmek için imlecinizi bir uygulamanın üzerine getirin. 
 
-![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps-red.png)
+![Power BI'daki uygulamalar](./media/end-user-apps/power-bi-apps.png)
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

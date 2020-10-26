@@ -1,20 +1,20 @@
 ---
-title: Görselleştirmelerle (görsellerle) bir tüketici olarak çalışma
+title: Görselleştirmelerle (görsellerle) bir işletme kullanıcısı olarak çalışma
 description: 'Power BI kavramları ve terminolojisi: görselleştirmeler, görseller. Power BI bağlamında görselleştirme, görsel nedir?'
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 01/29/2020
+ms.date: 10/7/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a65752f6b49590c4b83c6dee471fa881a639acbe
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537677"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830266"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
 
@@ -27,23 +27,25 @@ Görseller panolarda, raporlarda bulunur ve Power BI Soru-Cevap kullanılarak he
 ![Kutucuklar içeren pano](media/end-user-visualizations/power-bi-dashboard.png)
 
 > [!TIP]
-> Buradaki ayrıntılı bilgilere geçmeden önce genel bakış niteliğindeki [*Tüketiciler* için Power BI temel kavramları](end-user-basic-concepts.md) sayfasını incelemenizi öneririz.
+> Buradaki ayrıntılı bilgilere geçmeden önce genel bakış niteliğindeki [*İşletme kullanıcıları* için Power BI temel kavramları](end-user-basic-concepts.md) sayfasını incelemenizi öneririz.
 
 ## <a name="what-can-i-do-with-visuals"></a>Görseller ile ne yapabilirim?
 
-Görseller, rapor ve pano *tasarımcıları* tarafından oluşturulur ve *tüketicilerle* paylaşılır. Tüketici olarak içgörülere ulaşmak ve verilere dayalı iş kararları almak üzere görsellerle etkileşim kurmak için birçok seçeneğiniz vardır. Bu seçeneklerin çoğu aşağıdaki tabloda, adım adım yönergelerin bağlantılarıyla birlikte listelenmiştir.
+Görseller, rapor ve pano *tasarımcıları* tarafından oluşturulur ve iş arkadaşlarıyla paylaşılır. Tasarımcı, iş arkadaşlarına raporu veya panoyu kullanma şekline göre farklı izinler atar. Örneğin bir *geliştiriciye* atanan izinler, bir *işletme kullanıcısına* atananlardan farklı olabilir. 
 
-Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özelliklerini görme veya kullanma becerinizi devre dışı bırakabilir. Ayrıca bu özelliklerden bazıları yalnızca belirli görsellerde çalışır.  Sorularınız varsa yöneticinize ya da rapor veya panonun sahibine başvurun. Sahibi bulmak için pano veya rapor açılan listesini seçin. 
+*İşletme kullanıcılarına* yönelik yaygın görevler aşağıdaki tabloda, adım adım yönergelerin bağlantılarıyla birlikte listelenmiştir. *İşletme kullanıcıları* içgörülere ulaşmak ve verilere dayalı iş kararları almak üzere görsellerle etkileşim kurmak için birçok seçeneğe sahiptir.  
 
-![Sahibi gösteren başlık açılan listesi](media/end-user-visualizations/power-bi-owner.png)
+Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özelliklerini görme veya kullanma becerinizi devre dışı bırakabilir. Ayrıca bu özelliklerden bazıları yalnızca belirli görsel türleriyle çalışır.  Sorularınız varsa yöneticinize ya da rapor veya panonun sahibine başvurun. Sahibi bulmak için pano veya rapor açılan listesini seçin. 
+
+![Sahibi gösteren başlık açılan listesi](media/end-user-visualizations/power-bi-designer.png)
 
 
 > [!IMPORTANT]
-> Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu bir görselle yanıtlar. Soru-Cevap, tüketicilerin hemen kendi görsellerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görseller kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [Tüketiciler için Soru-Cevap](end-user-q-and-a.md).
+> Ama önce Soru-Cevap özelliği konusunda bilgi vermek istiyoruz. Soru-Cevap, Power BI'ın doğal dil arama aracıdır. Doğal dil kullanarak bir soru yazarsınız, Soru-Cevap özelliği de sorunuzu bir görselle yanıtlar. Soru-Cevap, işletme kullanıcılarının hemen kendi görsellerini oluşturmak için kullanabilecekleri bir araçtır. Ancak Soru-Cevap ile oluşturulan görseller kaydedilemez. Ancak verilerden öğrenmek istediğiniz, tasarımcının bir rapora veya panoya dahil etmediği bir bilgi varsa Soru-Cevap yardımınıza koşabilir. Soru-Cevap hakkında daha fazla bilgi edinmek için bkz. [İşletme kullanıcıları için Soru-Cevap](end-user-q-and-a.md).
 
 
 
-|Task  |Panoda  |Raporda  | Soru-Cevap özelliğinde
+|Görev  |Panoda  |Raporda  | Soru-Cevap özelliğinde
 |---------|---------|---------|--------|
 |[Görsele kendi kullanımınız için açıklamalar ekleyin veya iş arkadaşlarınızla görsel hakkında bir konuşma başlatın](end-user-comment.md).     |  evet       |   evet      |  hayır  |
 |[Görselin oluşturulduğu raporu açın ve keşfedin](end-user-tiles.md).     |    evet     |   yok      |  hayır |
@@ -60,13 +62,13 @@ Bu seçeneklerin birçoğu için yöneticiniz veya *tasarımcı* bu özellikleri
 |[Sayfadaki diğer görselleri birlikte filtreleyin ve vurgulayın.](end-user-interactions.md)    |   hayır      |   evet      | yok  |
 |[Görseli oluşturmak için kullanılan verileri gösterin](end-user-show-data.md).     |  hayır       |   evet      | hayır  |
 | [Görselin sıralama ölçütünü değiştirin](end-user-change-sort.md). | hayır  | evet  | sorunun ifade biçimi değiştirilerek sıralama değiştirilebilir  |
-| Görsele spot ışığı ekleyin. | hayır  | evet  |  hayır |
+| [Görsele spot ışığı ekleyin](end-user-spotlight.md). | hayır  | evet  |  hayır |
 | [Excel'e dışarı aktarın.](end-user-export.md) | evet | evet | hayır|
 | Ayarladığınız eşiği aşan değerlerin size bildirilmesi için [uyarı oluşturun](end-user-alerts.md).  | evet  | hayır  | hayır |
 | [Sayfadaki diğer görselleri çapraz filtreleyin ve çapraz vurgulayın](end-user-report-filter.md).  | hayır      | evet  | yok |
 | [Hiyerarşisi olan görseli detaylandırın](end-user-drill.md).  | hayır  | evet   | hayır |
 
 ## <a name="next-steps"></a>Sonraki adımlar
-[Tüketiciler için temel kavramlar](end-user-basic-concepts.md) sayfasına dönün    
+[İşletme kullanıcıları için temel kavramlar](end-user-basic-concepts.md) sayfasına dönün    
 [Rapor açmak için bir görsel seçme](end-user-report-open.md)    
 [Power BI'da kullanılabilen görsellerin türleri](end-user-visual-type.md)

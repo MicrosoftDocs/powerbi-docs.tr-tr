@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746229"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982206"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
@@ -82,9 +82,9 @@ Power BI Pro hesabı, uygulamanızın ana hesabı olarak kullanılır (bunu ara 
 Geliştiriciler, Power BI Embedded kullanarak görselleri ve analitiği geliştirmeye zaman harcamak yerine uygulamalarının temel işlevselliğini oluşturmaya zaman ayırabilir. Müşterilerin rapor ve pano taleplerini hızla karşılayıp tümüyle belgelenmiş API'leri ve SDK'ları kolayca ekleyebilirler. ISV'ler uygulamalarında gezinmesi kolay veri keşfi özellikleri sunarak müşterilerinin her cihazdan bağlam içinde hızlı ve veri odaklı kararlar vermesini sağlar.
 
 > [!IMPORTANT]
-> Ekleme Power BI hizmetini gerektirse de uygulamanızın eklenmiş içeriğini görüntülemek için müşterilerinizin bir Power BI hesabı olması gerekmez. 
+> Ekleme Power BI hizmetini gerektirse de uygulamanızın eklenmiş içeriğini görüntülemek için müşterilerinizin bir Power BI hesabı olması gerekmez.
 
-Üretim aşamasına geçmeye hazır olduğunuzda çalışma alanınızın ayrılmış bir kapasiteye atanması gerekir. Microsoft Azure'daki Power BI Embedded çözümü, uygulamalarınızla kullanılabilecek [ayrılmış kapasiteler](azure-pbie-create-capacity.md) sunar.
+Üretim aşamasına geçmeye hazır olduğunuzda çalışma alanınızın bir kapasiteye atanması gerekir. Uygulamalarınızla birlikte kullanmak üzere Microsoft Azure'da [Power BI Embedded kapasitesi oluşturun](azure-pbie-create-capacity.md).
 
 Ekleme işleminin ayrıntıları için bkz. [Power BI içeriğini ekleme](embed-sample-for-customers.md).
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8ec7b228f17fc87dcaac6ae5e278dd2c99ab036d
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634539"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116650"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği, gerçek zamanlı olarak veri akışı gerçekleştirmenizi ve panoları güncelleştirmenizi sağlar. Power BI'da oluşturulan tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyebilir ve güncelleştirebilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve diğer birçok zamana duyarlı veri toplayıcısı veya aktarıcısı olabilir.
@@ -159,6 +159,9 @@ Power BI'ın bu veri akışı yoluyla gönderilen verileri depolamasını istiyo
 Veri akışınızı başarılı bir şekilde oluşturduktan sonra bir REST API URL uç noktası edinirsiniz. Böylece uygulamanız, oluşturduğunuz Power BI **akış verileri** veri kümesine verilerinizi göndermek üzere *POST* isteklerini kullanarak bu uç noktayı çağırabilir.
 
 *POST* istekleri yaparken, istek gövdesinin, Power BI kullanıcı arabiriminde sağlanan örnek JSON ile eşleştiğinden emin olmanız gerekir. Örneğin, JSON nesnelerinizi bir dizi halinde kaydırın.
+
+> [!WARNING]
+> Power BI hizmeti kullanıcı arabirimi kullanılarak oluşturulan veri kümeleriyle akış yapılması için veri kümesi sahibine **kaynak anahtarının** bulunduğu bir URL verilir. Bu anahtar, istek sahibinin Azure AD OAuth taşıyıcı belirteci kullanılmadan veri kümesine veri göndermesini sağlar. Bu nedenle bu veri kümesi türünü ve yöntemi kullanırken URL'de **gizli dizi anahtarının** bulunmasının doğurabileceği sonuçları göz önünde bulundurun.
 
 ### <a name="using-pubnub"></a>PubNub'ı kullanma
 **PubNub** akışının Power BI ile tümleştirilmesi sonucunda, düşük gecikmeli **PubNub** veri akışlarınızı kullanabilir (veya yenilerini oluşturabilir) ve Power BI'da bunlardan faydalanabilirsiniz. **PubNub**'ı ve ardından **Sonraki** seçeneğini belirlediğinizde, aşağıdaki pencereyi görürsünüz:

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48255955f6611f4687ca6dd48cbb5ec9876daed7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224783"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928321"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
 Power BI Desktop'ta bir Google **BigQuery** veritabanına bağlanabilir ve veritabanındaki verileri diğer Power BI Desktop veri kaynakları gibi kullanabilirsiniz.
@@ -41,17 +41,32 @@ Google **BigQuery** bağlayıcısı ile ilgili olarak göz önünde bulundurman�
 
 * Google BigQuery bağlayıcısı Power BI Desktop'ta ve Power BI hizmetinde bulunur. Power BI hizmetinde bağlayıcıya Power BI'dan Google BigQuery'ye olan Buluttan Buluta bağlantı kullanılarak erişilebilir.
 
-Power BI'yı Google BigQuery **Faturalama Projesi** ile kullanabilirsiniz. Power BI varsayılan olarak kullanıcı için döndürülen listedeki ilk projeyi kullanır. Power BI ile kullanırken Faturalama Projesi davranışını özelleştirmek için aşağıdaki adımları uygulayın:
+* Power BI'yı Google BigQuery **Faturalama Projesi** ile kullanabilirsiniz. Power BI varsayılan olarak kullanıcı için döndürülen listedeki ilk projeyi kullanır. 
 
- * Power BI Desktop'ta **Power Query Editor** kullanılarak özelleştirilebilecek, Kaynak adımında temel alınan M'de aşağıdaki seçeneği belirtin:
+  Power BI ile birlikte kullandığınızda Faturalama Projesi'nin davranışını özelleştirmek için Power BI Desktop'ta **Power Query Düzenleyicisi** kullanılarak özelleştirilebilecek, Kaynak adımında temel alınan M'de aşağıdaki seçeneği belirtin:
 
-    ```Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])```
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
+  ```
+
+  Eylül 2020 sürümünden itibaren [Google BigQuery Storage API](https://cloud.google.com/bigquery/docs/reference/storage) desteğini etkinleştirdik. Ayrıntılı izinleri kullanan bazı müşteriler bu özellikle ilgili sorun yaşayabilir. Bu senaryoda aşağıdaki hata iletisini görebilirsiniz:
+
+  `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
+
+  Bu sorunu çözmek için Storage API için geçerli kullanıcı izinlerini ayarlamanız gerekir. Storage API için şu izinleri atayın:
+
+  - `bigquery.readsessions.create`: BigQuery Storage API aracılığıyla yeni bir okuma oturumu oluşturur.
+  - `bigquery.readsessions.getData`: BigQuery Storage API aracılığıyla okuma oturumundaki verileri okur.
+  - `bigquery.readsessions.update`: BigQuery Storage API aracılığıyla bir okuma oturumunu güncelleştirir.
+
+  Bu izinler genellikle BigQuery.User rolünde sağlanır. Daha fazla bilgi için bkz. [Google BigQuery Predefined roles and permissions](https://cloud.google.com/bigquery/docs/access-control) (Önceden tanımlanmış roller ve izinler).
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
-* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)   

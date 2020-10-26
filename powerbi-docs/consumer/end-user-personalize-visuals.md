@@ -1,20 +1,20 @@
 ---
-title: Rapordaki görselleri kişiselleştirme (Önizleme)
+title: Rapordaki görselleri kişiselleştirme
 description: Raporu düzenlemeden kendi rapor görünümünüzü oluşturun.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528149"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256792"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Rapordaki görselleri kişiselleştirme
 
@@ -45,7 +45,7 @@ Bu özellik yeni inceleme olanakları sağlamakla kalmaz. Ayrıca yaptığınız
 - Yaptığınız son değişiklikleri temizleme
 
 > [!IMPORTANT]
-> Görseli kişiselleştirme, rapor *tasarımcısı* tarafından etkinleştirilmesi gereken bir Önizleme özelliğidir. **Bu görseli kişiselleştir** ![Bu görseli kişiselleştir simgesi](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) simgesini görmüyorsanız rapor tasarımcısı geçerli raporda bu özelliği etkinleştirmemiş demektir. 
+> Görseli kişiselleştirme özelliği, rapor *tasarımcısı* tarafından etkinleştirilmelidir. **Bu görseli kişiselleştir** ![Bu görseli kişiselleştir simgesi](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) simgesini görmüyorsanız rapor tasarımcısı geçerli raporda bu özelliği etkinleştirmemiş demektir. Rapor sahibi veya Power BI yöneticinizle iletişime geçerek özelliğin etkinleştirilmesini isteyin. Rapor sahibinin iletişim bilgilerini görüntülemek için Power BI menü çubuğunda raporun adını seçin.
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI hizmetinde görselleri kişiselleştirme
 
@@ -54,8 +54,6 @@ Görseli kişiselleştirerek, [rapor okuma görünümünden](end-user-reading-vi
 1. Power BI hizmetinde bir raporu okuma görünümünde açın.
 
 2. Görselin menü çubuğunda **Bu görseli kişiselleştirin** ![Bu görseli kişiselleştirin simgesi](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) simgesini seçin. 
-
-3. **Kişiselleştir** alanlarından herhangi birini temizlemek için **Diğer seçenekler (...)** ve ardından **Alanı kaldır**'ı seçin.
 
 ### <a name="change-the-visualization-type"></a>Görselleştirme türünü değiştirme
 
@@ -72,6 +70,16 @@ X ekseni için kullanılan alanı değiştirmek için önce istediğiniz alanı,
 Gösterge ekleyerek, görsele kategoriye göre renk kodu uygulayabilirsiniz. Bu örnekte şirket adına göre renk belirliyoruz. 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Görseli kişiselleştirme":::
+
+### <a name="change-the-placement-of-fields"></a>Alanların yerini değiştirme
+
+Sürükle ve bırak yöntemiyle aynı görsel özellik içinde veya farklı görsel özelliklerinde bulunan alanların yerini değiştirebilirsiniz. Örneğin göstergede bulunan bir alanı hızlıca görselin eksenine taşıyabilirsiniz.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Görseli kişiselleştirme":::
+
+Ayrıca bir tablonun veya matrisin sütunlarını hızlıca yeniden sıralayabilirsiniz.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Görseli kişiselleştirme":::
 
 ### <a name="compare-two-or-more-different-measures"></a>İki veya daha fazla farklı ölçüyü karşılaştırma
 Farklı ölçülerin değerlerini karşılaştırmak için, + simgesini kullanarak görsele birden çok ölçü ekleyin. Bir ölçüyü kaldırmak için **Diğer seçenekler (...)** öğesini ve **Alanı kaldır**'ı seçin.
@@ -113,7 +121,7 @@ Belirli bir görselde yaptığınız tüm değişiklikleri sıfırlamak ve bu g�
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Görseli kişiselleştirme":::
 
-## <a name="limitations-and-known-issues"></a>Sınırlamalar ve bilinen sorunlar
+## <a name="limitations"></a>Sınırlamalar
 
 Şu anda özelliğin bilinmesi gereken birkaç sınırlaması vardır.
 
@@ -121,12 +129,6 @@ Belirli bir görselde yaptığınız tüm değişiklikleri sıfırlamak ve bu g�
 - Kullanıcının incelemeleri otomatik olarak kalıcı olmaz. Değişikliklerinizi yakalamak için görünümünüzü kişisel bir yer işareti olarak kaydetmeniz gerekir.
 - Bu özellik, iOS ve Android tabletler için Power BI mobil uygulamalarında ve Power BI Windows uygulamasında desteklenir; telefonlar için Power BI mobil uygulamalarında desteklenmez. Bununla birlikte, Power BI hizmetindeyken kişisel yer işaretine kayıtlı bir görselde yapılan değişiklikler, tüm Power BI mobil uygulamalarında dikkate alınır.
 
-Ayrıca ilgilendiğimiz bazı bilinen sorunlar da vardır:
-
-- Hiyerarşi ekleme desteklenmez; alt öğelerin her birini tek tek eklemeniz gerekir.
-- Kişisel yer işaretleriyle, seçtiğiniz sıraya bağlı olarak biraz farklı sonuçlar elde edebilirsiniz. Tutarsızlıklar olması mümkündür çünkü raporun tam durumunu değil yalnızca yapılan değişiklikleri yakalarız. Geçici çözüm olarak **Varsayılana sıfırla**’yı ve sonra da görüntülemek istediğiniz yer işaretini seçmektir. 
-
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor görselini statik görüntü olarak kopyalama](../visuals/power-bi-visualization-copy-paste.md)    
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3df3e29d2f6517fec68bf185bf71d9f4f3c5618a
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512874"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136017"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 
@@ -140,7 +140,7 @@ Model ilişkileriyle ilgili olan birçok DAX işlevi vardır. Bu işlevler aşa�
 
 ## <a name="relationship-evaluation"></a>İlişki değerlendirmesi
 
-Model ilişkileri, değerlendirme açısından _güçlü_ veya _zayıf_ olarak sınıflandırılır. Yapılandırılabilir ilişki özelliği değildir. Aslında aralarında ilişki bulunan iki tablonun kardinalite türünden ve veri kaynağından oluşur. Veri bütünlüğünün tehlikeye girmesi durumunda performans açısından belirli etkileri veya sonuçları olabileceğinden değerlendirme türünü anlamak önemlidir. Bu konu başlığında bu etkiler ve bütünlük açısından sonuçlar açıklanmaktadır.
+Model ilişkileri, değerlendirme açısından _normal_ veya _sınırlı_ olarak sınıflandırılır. Yapılandırılabilir ilişki özelliği değildir. Aslında aralarında ilişki bulunan iki tablonun kardinalite türünden ve veri kaynağından oluşur. Veri bütünlüğünün tehlikeye girmesi durumunda performans açısından belirli etkileri veya sonuçları olabileceğinden değerlendirme türünü anlamak önemlidir. Bu konu başlığında bu etkiler ve bütünlük açısından sonuçlar açıklanmaktadır.
 
 Öncelikle ilişki değerlendirmelerini anlamak için modelleme konusunda bazı teorik bilgilerin dikkate alınması gerekir.
 
@@ -154,17 +154,17 @@ Ancak bir Bileşik model, farklı depolama modları (İçeri aktarma, DirectQuer
 
 Bu örnekteki Bileşik model, iki adadan oluşmaktadır: Vertipaq veri adası ve DirectQuery kaynağı veri adası. Vertipaq veri adasında üç tablo, DirectQuery kaynağı veri adasında ise iki tablo vardır. Vertipaq veri adasındaki bir tablo ile DirectQuery kaynağı veri adasındaki bir tablo arasında ilişki kuran bir adalar arası ilişki mevcuttur.
 
-### <a name="strong-relationships"></a>Güçlü ilişkiler
+### <a name="regular-relationships"></a>Normal ilişkiler
 
-Sorgu altyapısının ilişkinin "bir" tarafını belirleyebildiği model ilişkileri, _güçlü_ ilişki olarak kabul edilir. Bu durum, "bir" taraftaki sütunun benzersiz değerler içerdiğini onaylar. Bir-çok türündeki ada içi ilişkiler, güçlü ilişkilerdir.
+Sorgu altyapısının ilişkinin "bir" tarafını belirleyebildiği model ilişkileri, _normal_ ilişki olarak kabul edilir. Bu durum, "bir" taraftaki sütunun benzersiz değerler içerdiğini onaylar. Bir-çok türündeki ada içi ilişkiler, normal ilişkilerdir.
 
-Aşağıdaki örnekte iki güçlü ilişki vardır ve ikisi de **S** harfiyle gösterilmiştir. İlişkiler, Vertipaq adası içinde yer alan Bir-çok ilişkisi ile DirectQuery kaynağında yer alan Bir-çok ilişkisini kapsamaktadır.
+Aşağıdaki örnekte iki normal ilişki vardır ve ikisi de **S** harfiyle gösterilmiştir. İlişkiler, Vertipaq adası içinde yer alan Bir-çok ilişkisi ile DirectQuery kaynağında yer alan Bir-çok ilişkisini kapsamaktadır.
 
-![Güçlü ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-strong.png)
+![Normal ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-strong.png)
 
-Tüm verilerin Vertipaq önbelleğinde depolandığı İçeri aktarma modellerinde, veriler yenilendiğinde her bir güçlü ilişki için bir veri yapısı oluşturulur. Veri yapıları, tüm sütunlar arası değerlerin dizinlenmiş eşleşmelerini içerir ve sorgu zamanında tabloların daha hızlı birleştirilmesini sağlamak için kullanılır.
+Tüm verilerin Vertipaq önbelleğinde depolandığı İçeri aktarma modellerinde, veriler yenilendiğinde her bir normal ilişki için bir veri yapısı oluşturulur. Veri yapıları, tüm sütunlar arası değerlerin dizinlenmiş eşleşmelerini içerir ve sorgu zamanında tabloların daha hızlı birleştirilmesini sağlamak için kullanılır.
 
-Güçlü ilişkiler, sorgu zamanında _tablonun genişletilmesini_ sağlar. Tablo genişletme işleminin sonucunda temel tablonun yerel sütunları alınıp ilişkili tablolarla genişletilerek bir sanal tablo oluşturulur. İçeri aktarma tablolarında bu işlem sorgu altyapısında, DirectQuery tablolarında ise kaynak veritabanına gönderilen yerel sorguda gerçekleştirilir (**Bilgi tutarlılığı varsay** özelliğinin etkinleştirilmemiş olması koşuluyla). Ardından sorgu altyapısı genişletilen tabloya göre işlem yapar ve bu tablonun sütunlarında filtre uygulama ve gruplama işlemlerini gerçekleştirir.
+Normal ilişkiler, sorgu zamanında _tablonun genişletilmesini_ sağlar. Tablo genişletme işleminin sonucunda temel tablonun yerel sütunları alınıp ilişkili tablolarla genişletilerek bir sanal tablo oluşturulur. İçeri aktarma tablolarında bu işlem sorgu altyapısında, DirectQuery tablolarında ise kaynak veritabanına gönderilen yerel sorguda gerçekleştirilir (**Bilgi tutarlılığı varsay** özelliğinin etkinleştirilmemiş olması koşuluyla). Ardından sorgu altyapısı genişletilen tabloya göre işlem yapar ve bu tablonun sütunlarında filtre uygulama ve gruplama işlemlerini gerçekleştirir.
 
 > [!NOTE]
 > Hesaplama için kullanılmayanlar da dahil olmak üzere devre dışı ilişkiler de genişletilir. İki yönlü ilişkilerin tablo genişletme işlemi üzerinde bir etkisi yoktur.
@@ -181,34 +181,34 @@ Tablo genişletme işleminin nasıl çalıştığını animasyonlu bir örnekle 
 
 Bu örnekte model üç tablodan oluşmaktadır: **Kategori**, **Ürün** ve **Satış**. **Kategori** tablosu ile **Ürün** tablosu arasında Bir-çok ilişkisi, **Ürün** tablosu ile de **Satış** tablosu arasında Bir-çok ilişkisi vardır. **Kategori** tablosunda iki satır, **Ürün** tablosunda üç satır, **Satış** tablosunda ise beş satır vardır. Tüm ilişkilerin iki tarafında da eşleşen değerler vardır ve bu nedenle bilgi tutarlılığı ihlali mevcut değildir. Sorgu zamanında oluşturulan bir genişletilmiş tablo gösterilmektedir. Bu tablo, üç ayrı tablodan alınan tüm sütunları içermektedir. Bu tablo, üç tabloda yer alan verilerin normalleştirilmişlikten çıkarılmış bir perspektifini sunmaktadır. **Satış** tablosuna yeni bir satır eklenmiştir ve bu satırda **Ürün** tablosunda karşılığı bulunmayan üretim tanımlayıcısı değeri (9) mevcuttur. Bu bir bilgi tutarlılığı ihlalidir. Genişletilmiş tablodaki yeni satır (Boş), **Kategori** ve **Ürün** tablosundaki sütunların değerlerini içermektedir.
 
-### <a name="weak-relationships"></a>Zayıf ilişkiler
+### <a name="limited-relationships"></a>Sınırlı ilişkiler
 
-"Bir" taraf garantisi bulunmayan model ilişkileri, _zayıf_ ilişki olarak kabul edilir. Bu durumun iki farklı nedeni olabilir:
+"Bir" taraf garantisi bulunmayan model ilişkileri, _sınırlı_ ilişki olarak kabul edilir. Bu durumun iki farklı nedeni olabilir:
 
 - İlişki Çok-çok kardinalite türünü kullanmaktadır (sütunların biri veya her ikisi benzersiz değer içeriyor olsa da)
 - Adalar arası ilişki vardır (Bileşik modellerde yalnızca bu ilişki türü kullanılabilir)
 
-Aşağıdaki örnekte iki zayıf ilişki vardır ve ikisi de **W** harfiyle gösterilmiştir. İki ilişki, Vertipaq adası içinde yer alan Çok-çok ilişkisi ile Bir-çok adalar arası ilişkiyi kapsamaktadır.
+Aşağıdaki örnekte iki sınırlı ilişki vardır ve ikisi de **W** harfiyle gösterilmiştir. İki ilişki, Vertipaq adası içinde yer alan Çok-çok ilişkisi ile Bir-çok adalar arası ilişkiyi kapsamaktadır.
 
-![Zayıf ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-weak.png)
+![Sınırlı ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-weak.png)
 
-İçeri aktarma modellerinde zayıf ilişkiler için veri yapısı oluşturulmaz. Bu da tablo birleşimlerinin sorgu zamanında çözümlenmesi gerektiği anlamına gelir.
+İçeri aktarma modellerinde sınırlı ilişkiler için veri yapısı oluşturulmaz. Bu da tablo birleşimlerinin sorgu zamanında çözümlenmesi gerektiği anlamına gelir.
 
-Zayıf tablolar için tablo genişletme işlemi gerçekleştirilmez. Tablo birleşimleri, INNER JOIN semantiği kullanılarak elde edilir ve bu nedenle bilgi tutarlılığı ihlallerini telafi etmek için boş sanal satırlar eklenmez.
+Sınırlı ilişkiler için tablo genişletme işlemi gerçekleştirilmez. Tablo birleşimleri, INNER JOIN semantiği kullanılarak elde edilir ve bu nedenle bilgi tutarlılığı ihlallerini telafi etmek için boş sanal satırlar eklenmez.
 
-Zayıf ilişkilerle ilgili ek kısıtlamalar da mevcuttur:
+Sınırlı ilişkilerle ilgili ek kısıtlamalar da mevcuttur:
 
 - RELATED DAX işlevi, "bir" taraftaki sütun değerlerini alma amacıyla kullanılamaz
 - RLS'nin zorunlu kılınması, bazı topoloji kısıtlamalarını da beraberinde getirir
 
 > [!NOTE]
-> Power BI Desktop model görünümünde bir modelin güçlü mü yoksa zayıf mı olduğunu tespit etmek her zaman mümkün olmayabilir. Çok-çok ilişkileri ve adalar arası Bir-çok ilişkileri her zaman zayıf olacaktır. İlişkinin adalar arası ilişki olup olmadığını belirlemek için tablo depolama modlarını ve veri kaynaklarını incelemeniz gerekir.
+> Power BI Desktop model görünümünde bir modelin normal mi yoksa sınırlı mı olduğunu tespit etmek her zaman mümkün olmayabilir. Çok-çok ilişkileri ve adalar arası Bir-çok ilişkileri her zaman sınırlı olacaktır. İlişkinin adalar arası ilişki olup olmadığını belirlemek için tablo depolama modlarını ve veri kaynaklarını incelemeniz gerekir.
 
 ### <a name="precedence-rules"></a>Öncellik kuralları
 
 İki yönlü ilişkiler, model tabloları arasında birden fazla (ve belirsiz) filtre yayma yolu oluşturabilir. Aşağıdaki listede Power BI'ın belirsizlik algılama ve yol çözümleme amacıyla kullandığı öncelik kuralları verilmiştir:
 
-1. Zayıf ilişkiler dahil olmak üzere Çok-bir ve Bir-bir ilişkileri
+1. Sınırlı ilişkiler dahil olmak üzere Çok-bir ve Bir-bir ilişkileri
 2. Çok-çok ilişkileri
 3. Ters yöndeki iki yönlü ilişkiler ("Çok" tarafından)
 

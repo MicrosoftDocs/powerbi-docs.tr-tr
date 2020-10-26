@@ -1,6 +1,6 @@
 ---
-title: Akıllı Anlatılar öğreticisi
-description: 'Öğretici: Power BI’da Akıllı Anlatılar oluşturma'
+title: Akıllı anlatılar öğreticisi
+description: "Öğretici: Power BI'da akıllı anlatı özeti görselleştirmeleri oluşturma"
 author: aphilip94
 ms.reviewer: aphilip94
 ms.service: powerbi
@@ -9,89 +9,95 @@ ms.topic: how-to
 ms.date: 09/14/2020
 ms.author: anphil
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aef49d1528611a48eae21459f516bf3740987289
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
+ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020874"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91862937"
 ---
-# <a name="create-smart-narratives-preview"></a>Akıllı Anlatılar oluşturma (önizleme)
+# <a name="create-smart-narrative-summaries-preview"></a>Akıllı anlatı özetleri oluşturma (önizleme)
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Akıllı anlatılar görselleştirmesi, özelleştirilebilir ve alakalı olan kullanıma hazır içgörüler sağlayarak görselleri ve raporları hızla özetlemenize yardımcı olur.
+Akıllı anlatı görselleştirmesi, görselleri ve raporları hızlıca özetlemenize yardımcı olur. Özelleştirebileceğiniz ilgili ve yenilikçi içgörüler sunar.
 
-![Akıllı Anlatılar](media/power-bi-visualization-smart-narratives/1.png)
+![Bir raporun sağ tarafındaki akıllı anlatı özetini gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/1.png)
 
-İçerik oluşturucuları bu özelliği kullanarak önemli fikirleri ele almak, eğilimleri göstermek, dili düzenlemek ve belirli bir kitleye uyacak şekilde biçimlendirmek için raporlarına anlatılar ekleyebilir. Önemli ana fikirleri ekleyerek PowerPoint’teki raporunun ekran görüntüsünü yapıştırmak yerine şimdi rapora, her yenileme işleminde güncelleştirilen anlatılar ekleyebilirler. Son kullanıcılarınız verileri anlamak, ana fikirlere daha hızlı bir şekilde ulaşmak ve verileri başkalarına açıklamak için anlatıları kullanabilir.
+Raporlarınızda akıllı anlatı özetlerini kullanarak ana fikirlere dikkat çekebilir, eğilimleri belirleyebilir ve dil ile biçimi belirli bir hedef kitleye göre düzenleyebilirsiniz. PowerPoint'e raporunuzun ana fikirlerini içeren bir ekran görüntüsü yapıştırmak yerine her yenileme sonrasında güncelleştirilen anlatılar ekleyebilirsiniz. Hedef kitleniz verileri anlamak, ana fikirlere daha hızlı bir şekilde ulaşmak ve verileri başkalarına açıklamak için özetleri kullanabilir.
 
 >[!NOTE]
-> Bu özellik önizleme aşamasında olduğundan ilk olarak Dosya > Seçenekler ve Ayarlar > Seçenekler > Önizleme özelliği’ni açmanız ve  **Akıllı anlatı görseli** ayarının açık olduğundan emin olmanız gerekir:
+> Akıllı anlatı özelliği önizleme aşamasında olduğundan kullanmak için etkinleştirmeniz gerekir. Power BI'da **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**'ne gidin. Ardından **Akıllı anlatı görseli**'ni seçin.
+>
+>![Power BI seçeneklerini gösteren ekran görüntüsü. Akıllı anlatı görseli seçeneği belirlenmiş.](media/power-bi-visualization-smart-narratives/2.png)
 
-![Önizleme Bayrağı](media/power-bi-visualization-smart-narratives/2.png)
+Bu öğreticiyi takip etmek için çevrimiçi satış senaryosunu konu alan [örnek dosyayı](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) indirebilirsiniz.
 
-Çevrimiçi Satış senaryosu için kullanılan PBIX dosyasını [buradaki](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) belgelerde bulabilirsiniz.
+## <a name="get-started"></a>başlarken 
 
-## <a name="get-started"></a>Başlarken 
+Otomatik özet oluşturmak için **Görselleştirmeler** bölmesinde **Akıllı anlatı** simgesini seçin.
 
-Otomatik olarak bir özet oluşturmak için görselleştirme bölmesindeki yeni akıllı anlatılar simgesine tıklayın.
+![Görselleştirmeler bölmesini gösteren ekran görüntüsü. Akıllı anlatı simgesi seçilmiş.](media/power-bi-visualization-smart-narratives/3.png)
 
-![Akıllı Anlatılar simgesi](media/power-bi-visualization-smart-narratives/3.png)
-
- Sayfadaki tüm görsellere göre oluşturulan bir anlatı görürsünüz. Örneğin, bu rapordaki gelir, web sitesi ziyareti ve satışlardan bahseden görsellerin otomatik olarak özetini oluşturmak için simgeye tıklayabilirsiniz. Power BI’ın Gelir ve Ziyaretlerin her ikisinin de arttığını göstermek için otomatik olarak eğilim analizi yaptığına ve gördüğü büyüme türünü de hesapladığına (bu durumda, %72 artış) dikkat edin.
+Sayfadaki tüm görselleri temel alan bir anlatı görürsünüz. Örnek dosyada akıllı anlatılar rapordaki gelir, web sitesi ziyareti ve satış görsellerinin otomatik bir özetini oluşturabilir. Power BI, eğilimleri otomatik olarak analiz ederek gelirin ve ziyaret sayısının paralel olarak arttığını gösterir. Hatta büyüme oranını (bu örnekte yüzde 72) bile hesaplar.
  
- ![Akıllı Anlatılar Özeti](media/power-bi-visualization-smart-narratives/4.gif)
+![Akıllı anlatı özeti oluşturma işlemini gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/4.gif)
  
- Ayrıca, görsele sağ tıklayıp **'özetle'** seçeneğini belirleyebilirsiniz. Bu, görselleştirmenin otomatik bir özetini oluşturur. Örneğin, çeşitli işlemleri gösteren dağılım grafiğinde Özetle seçeneğine sağ tıkladığınızda, Power BI verileri analiz edip işlem başına en yüksek gelire ve en yüksek işlem sayısına sahip olan ülkeyi/bölgeyi gösterir. Ayrıca, bu ölçümler için beklenen değer aralıklarını da gösterir. Böylece çoğu şirketin işlem başına gelir bakımından 45 ABD dolarının altında ve 10’dan az işleme sahip olduğunu anlayabilirsiniz.
+Bir görselleştirmeden akıllı anlatı oluşturmak için üzerinde sağ tıkayıp **Özetle**'yi seçin. Örneğin buradaki dosyada farklı işlemleri gösteren dağılım grafiğini özetlemeyi deneyin. Power BI verileri analiz eder ve işlem başına en yüksek gelirle en yüksek işlem sayısına sahip şehri veya bölgeyi gösterir. Akıllı anlatı ayrıca bu ölçümler için beklenen değer aralığını da gösterir. Çoğu şehrin işlem başına 45 TL'nin altında kazandırdığını ve 10'dan az işleme sahip olduğunu görebilirsiniz.
  
   
- ![Akıllı Anlatılar Özeti](media/power-bi-visualization-smart-narratives/5.gif)
+![Dağılım grafiğini özetleyen bir akıllı anlatıyı gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/5.gif)
  
- ## <a name="edit-the-summary"></a>Özeti düzenleme
+## <a name="edit-the-summary"></a>Özeti düzenleme
  
- Yeni metin ekleyebileceğiniz veya normal metin kutusundaki denetimlerin aynısını kullanarak mevcut metni düzenleyebileceğiniz özet oldukça **özelleştirilebilirdir**. Örneğin, metni kalın yapabilir veya metin rengini değiştirebilirsiniz.
+Akıllı anlatı özeti, yüksek oranda özelleştirilebilir niteliktedir. Metin kutusu komutlarını kullanarak yeni metin ekleyebilir veya var olan metni düzenleyebilirsiniz. Örneğin, metni kalın yapabilir veya rengini değiştirebilirsiniz.
  
-  ![Akıllı Anlatılar Metin Kutusu Denetimi](media/power-bi-visualization-smart-narratives/6.png)
+![Araç çubuğundaki metin biçimlendirme komutlarını gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/6.png)
   
-  Ayrıca özeti özelleştirebilir ve **dinamik değerler** ekleyerek kendi içgörülerinizi de ekleyebilirsiniz. Metni mevcut alanlarla ve ölçümlerle eşleyebilir veya metne eşlemek üzere yeni bir ölçüm tanımlamak için doğal dili kullanabilirsiniz. Örneğin, döndürülen öğelerin sayısı hakkında bilgi eklemek isterseniz GIF’te gösterildiği şekilde, değer ekleme deneyiminden yararlanabilirsiniz. Dinamik değerler eklemek amacıyla Soru-Cevap deneyimini tümleştirdik. Siz yazdıkça, Soru-Cevap görselinde açılan menü olarak öneriler alırsınız ve bunları değer olarak kaydedebilirsiniz.  Bu nedenle, Soru-Cevap’ta verilerinizle ilgili sorular sorabilmenin yanı sıra bu kapsam, DAX işlemleri yapmadan kendi hesaplamalarınızı yapabileceğiniz şekilde genişletilmiştir. 
+Özeti özelleştirmek veya kendi içgörülerinizi eklemek için *dinamik değerleri* kullanın. Metni mevcut alanlarla ve ölçümlerle eşleyebilir veya metne eşlemek üzere yeni bir ölçüm tanımlamak için doğal dili kullanabilirsiniz. Örneğin bu dosyaya iade edilen ürün sayısı hakkında bilgi eklemek için bir değer ekleyin. 
+
+Değer adı yazarken Soru-Cevap görselinde olduğu gibi öneriler arasından seçim yapabilirsiniz. Dolayısıyla Soru-Cevap görselinde verilerinizle ilgili soru sormaya ek olarak Veri Çözümleme İfadeleri (DAX) kullanmadan kendi hesaplamalarınızı oluşturabilirsiniz. 
   
-   ![Dinamik Değer](media/power-bi-visualization-smart-narratives/7.gif)
+![Akıllı anlatı görselleştirmesi için dinamik değer oluşturma adımını gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/7.gif)
   
-  Para birimi olarak gösterme, ondalık basamakları belirtme, binlik ayracı vb. dinamik değerleri biçimlendirebilirsiniz. 
+İsterseniz dinamik değerleri biçimlendirebilirsiniz. Örneğin bu dosyada değerleri para birimi olarak gösterebilir, ondalık basamak sayısını belirtebilir ve binlik ayıracı seçebilirsiniz. 
    
-   ![Dinamik Değerleri Biçimlendirme](media/power-bi-visualization-smart-narratives/8.gif)
+![Dinamik değer biçimlendirme adımını gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/8.gif)
    
-   Biçimlendirmek için doğrudan özetteki değerin üzerine veya metin kutusu denetiminin gözden geçirme sekmesindeki karşılık gelen değerdeki düzenle düğmesine tıklayarak bunu yapabilirsiniz. 
+Dinamik bir değeri biçimlendirmek için özetten istediğiniz değeri seçin. Kullanabileceğiniz düzenleme seçenekleri **Gözden Geçirme** sekmesinde görüntülenir. Alternatif olarak metin kutusunda düzenlemek istediğiniz değerin yanında bulunan Düzenle düğmesini seçin. 
    
-   ![Dinamik Değerleri Biçimlendirme Gözden Geçirme sekmesi](media/power-bi-visualization-smart-narratives/9.png)
+![Değer sekmesinin seçili olduğu metin kutusunu gösteren ekran görüntüsü. Değer adının yanındaki Düzenle düğmesi vurgulanmış.](media/power-bi-visualization-smart-narratives/9.png)
    
-   Önceden tanımlanan değerleri gözden geçirmek, silmek veya yeniden kullanmak için Gözden Geçirme sekmesini de kullanabilirsiniz.  Artı simgesine tıkladığınızda değer özete eklenir. Ayrıca, alt kısımdaki seçeneği açıp kapatarak otomatik olarak oluşturulan değerleri gösterebilirsiniz.
+Önceden tanımlanan değerleri gözden geçirmek, silmek veya yeniden kullanmak için **Gözden Geçirme** sekmesini de kullanabilirsiniz. Değeri özete eklemek için artı işaretini (+) kullanın. Ayrıca **Gözden Geçirme** sekmesinin en altında bulunan seçeneği etkinleştirerek otomatik oluşturulan değerleri de gösterebilirsiniz.
 
-Bazen, “Geçerli veriler ve filtreler bu değer için sonuç üretmiyor” iletisinin görüntülendiği bir gizli özetler simgesi görebilirsiniz. Bunun nedeni, bahsedilecek ilginç bir şey olmadığında bazı özetlerin boş olabilmesidir. Örneğin, bir çizgi grafiğindeki yüksek ve düşük değerlerle ilgili özet, düz bir çizgiyse boş olabilir ancak başka koşullar altında dolu olabilir. Bu simgeler yalnızca özetleri düzenlemeye çalıştığınızda görünür hale gelir.
+Bazen akıllı anlatılarda gizli özet simgesi görünür. Bu simge, geçerli verilerin ve filtrelerin bu değer için bir sonuç üretmediğini belirtir. İçgörü olmadığında özet boş olur. Örneğin bu dosyanın çizgi grafiğindeki çizgi düz olduğunda yüksek ve düşük değerlerin özeti boş olabilir. Ancak diğer koşullarda özet görünebilir. Gizli özet simgeleri yalnızca özeti düzenlemeye çalıştığınızda görünür.
 
 
-   ![Gizli özet](media/power-bi-visualization-smart-narratives/10.png)
+![Akıllı anlatı özetindeki iki gizli özet simgesini gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/10.png)
    
-   ## <a name="visual-interactions"></a>Görsel etkileşimler
-   Özet dinamiktir ve çapraz filtreleme yaptığınızda otomatik olarak hem oluşturulmuş metni hem de dinamik değerleri güncelleştirir. Örneğin, halka grafikte Elektronik ürünlerini seçerseniz raporun geri kalanı çapraz filtrelenir ve özet de Elektronik ürünlerine odaklanmak amacıyla çapraz filtrelenmiş olur.  Bu durumda, ziyaretler ve gelirlerin farklı eğilimleri vardır. Yani metin, bunu yansıtacak şekilde güncelleştirilir. Eklediğiniz iade değerinin sayısı 4196 ABD doları olarak güncelleştirilir. Bazı boş özetler de çapraz filtreleme yaptığınızda güncelleştirilebilir.
+## <a name="visual-interactions"></a>Görsel etkileşimler
+Özetler dinamiktir. Çapraz filtreleme yaptığınızda otomatik olarak hem oluşturulmuş metni hem de dinamik değerleri güncelleştirir. Örneğin, bu dosyadaki halka grafikte elektronik ürünlerini seçerseniz raporun geri kalanı çapraz filtrelenir ve özet de elektronik ürünlerine odaklanmak amacıyla çapraz filtrelenmiş olur.  
+
+Bu durumda, ziyaretler ve gelirlerin farklı eğilimleri vardır. Dolayısıyla özet metni, eğilimleri yansıtacak şekilde güncelleştirilir. Eklediğimiz iade sayısı değeri 4196 TL güncelleştirilir. Boş özetler de çapraz filtreleme yaptığınızda güncelleştirilebilir.
    
-   ![Çapraz Filtre](media/power-bi-visualization-smart-narratives/11.gif)
+![Grafikte yapılan seçimin özette çapraz filtreleme yapabileceğini gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/11.gif)
    
-   Daha gelişmiş filtreleme işlemleri de yapabilirsiniz. Örneğin, birden çok farklı ürünün eğilimlerine bakan bu görseldeki belirli bir çeyrekte yer alan eğilimle ilgileniyorsanız yalnızca bu kısım için özeti güncelleştirmek üzere ilgili veri noktalarını seçebilirsiniz.
+Daha gelişmiş filtreleme işlemleri de yapabilirsiniz. Örnek dosyada birden çok ürüne ait eğilimleri gösteren görseli inceleyin. Yalnızca belirli bir çeyrekteki eğilimi görmek istiyorsanız ilgili veri noktalarını seçerek özeti ilgili eğilime göre güncelleştirebilirsiniz.
    
-   ![Filtreleme ](media/power-bi-visualization-smart-narratives/12.gif)
+![Bir eğilim satırı seçerek özeti yalnızca ilgili eğilimi gösterecek şekilde filtreleme işlemini gösteren ekran görüntüsü.](media/power-bi-visualization-smart-narratives/12.gif)
    
-   ## <a name="limitations"></a>Sınırlamalar
-   - Panoya sabitleme desteklenmez.
-   - Dinamik Değerlerin ve Koşullu Biçimlendirmenin (örneğin, veri bağlantılı başlık) kullanılması desteklenmez.
-   - Azure Analysis Services, Şirket içi AS desteklenmez.
-   - KPI, Kart, Çok satırlı kart, Haritalar, Tablo, Matrisler, R/Python görselleri ve özel görseller, özetlemeyi desteklemez. Bu görsellerin bazıları gelecekte eklenebilir.
-   - Özetleme, diğer sütunlar tarafından gruplanmış sütunlar içeren ve Veri Grubu alanı üzerinde oluşturulmuş görsellerde desteklenmez. 
-   - Görselden çapraz filtreleme yapılması desteklenmez.
-   - Dinamik değerleri yeniden adlandırma veya otomatik oluşturulmuş dinamik değerleri düzenleme desteklenmez.
-   - Soru-Cevap aritmetiği, Genel Toplamın Yüzdesi gibi anlık hesaplamalar içeren görsellerin özetlemesi desteklenmez.
+## <a name="limitations"></a>Sınırlamalar
+
+Akıllı anlatı özelliği aşağıdaki işlevleri desteklemez:
+- Panoya sabitleme 
+- Dinamik değerlerin ve koşullu biçimlendirmenin (örneğin, veri bağlantılı başlık) kullanılması
+- Azure Analysis Services, şirket içi AS
+- KPI'ler, kartlar, çoklu satır kartları, haritalar, tablolar, matrisler, R görselleri veya Python görselleri, özel görseller 
+- Diğer sütunlar tarafından gruplanmış sütunlar içeren ve veri grubu alanını temel alan görseller 
+- Görselde çapraz filtreleme
+- Dinamik değerleri yeniden adlandırma veya otomatik oluşturulmuş dinamik değerleri düzenleme
+- Soru-Cevap aritmetiği ve genel toplam yüzdesi gibi anlık hesaplamalar içeren görsellerin özetleri 
    
 

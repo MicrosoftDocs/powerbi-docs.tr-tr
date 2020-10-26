@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 07/21/2020
+ms.date: 10/13/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 275a83c8588bb9489361d467c6c6ab458abc86b2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 40c874e9178ffc3586c2dde83f32260bdb86bfad
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635344"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256949"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta Excel çalışma kitabından muhteşem raporlar elde etme
 
 Bu öğreticide 20 dakikada başından sonuna kadar güzel bir rapor oluşturacaksınız! 
+
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
 
 Yöneticiniz en son satış rakamlarınızı içeren bir rapor görmek istiyor. Şu konuları içeren bir yönetici özeti istendi: 
 
@@ -28,12 +30,10 @@ Yöneticiniz en son satış rakamlarınızı içeren bir rapor görmek istiyor. 
 
 Örnek finans çalışma kitabımızı kullanarak bu raporu kısa süre içinde oluşturabiliriz. Raporun son hali aşağıdaki gibi görünecek. Başlayalım! 
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü."::: 
-
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
 > [!div class="checklist"]
-> * Örnek verileri indirme
+> * Örnek verileri iki farklı şekilde indirme
 > * Birkaç dönüştürmeyle verilerinizi hazırlama
 > * Başlığı, üç görseli ve dilimleyicisi olan bir rapor oluşturma
 > * Raporunuzu iş arkadaşlarınızla paylaşabilmek için Power BI hizmetinde yayımlama
@@ -43,9 +43,23 @@ Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 - Başlamadan önce [Power BI Desktop'ı indirmelisiniz](https://powerbi.microsoft.com/desktop/).
 - Raporunuzu Power BI hizmetinde yayımlamayı planlıyorsanız ve henüz kaydolmadıysanız, [ücretsiz denemeye kaydolun](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-## <a name="download-the-sample"></a>Örneği indirme
+## <a name="get-data"></a>Verileri alma 
 
-Bu öğreticiyi takip etmek için örnek çalışma kitabını indirmelisiniz. 
+Bu öğreticide kullanılan verileri almak için iki farklı yöntemden birini seçebilirsiniz.
+
+### <a name="get-data-in-power-bi-desktop"></a>Power BI Desktop’ta veri alma
+
+Power BI Desktop'ı açtıktan sonra boş tuvalde **Örnek veri kümesini deneyin**'i seçin.
+
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-desktop-canvas-sample-dataset.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
+
+Bu öğreticiye Power BI Desktop'tan ulaştıysanız **Verileri yükleyin**'i seçin.
+
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-two-ways-load-data.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
+
+### <a name="download-the-sample"></a>Örneği indirme
+
+İsterseniz örnek çalışma kitabını doğrudan indirebilirsiniz. 
 
 1. [Financial Sample Excel çalışma kitabını](https://go.microsoft.com/fwlink/?LinkID=521962) indirin.
 1. Power BI Desktop'ı açın.
@@ -58,39 +72,39 @@ Bu öğreticiyi takip etmek için örnek çalışma kitabını indirmelisiniz.
 
 1. **Financials** tablosunu ve **Veri Dönüştürme**'yi seçin. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
 
 1. **Units Sold** (Satılan Birim Sayısı) sütununu seçin. **Giriş** sekmesinde **Veri Türü**'nü ve sonra da **Tamsayı**'yı seçin. Sütun türünü değiştirmek için **Mevcut olanı değiştir**'i seçin. 
 
     Kullanıcıların en sık uyguladığı veri temizleme adımı veri türlerini değiştirmektir. Bu örnekte satılan birim sayısı ondalık biçimdedir. Satılan birim sayısının 0,2 veya 0,5 olması sizce de anlamsız değil mi? Bu nedenle bu sayıyı tamsayı olarak değiştirelim. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
 
 1. **Segment** sütununu seçin. **Dönüştür** sekmesinde **Biçim**'i ve sonra da **BÜYÜK HARF**'i seçin.
 
     Ayrıca segmentlerin daha sonra grafikte daha kolay görünür olmasını sağlamak istiyoruz. Şimdi Segment sütununu biçimlendirelim. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Şimdi de **Month Name** (Ay Adı) olan sütun adını **Month** (Ay) olarak kısaltalım. **Month Name** sütununa çift tıklayın ve yalnızca **Month** olarak yeniden adlandırın.  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. **Product** (Ürün) sütununda açılan listeyi seçin ve **Montana**'nın yanındaki kutuyu temizleyin. 
 
      Montana ürününün geçen ay sonlandırıldığını biliyoruz, dolayısıyla karışıklığı önlemek için bu verilerin raporumuzdan filtrelenmesini istiyoruz. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Her dönüştürmenin **Sorgu Ayarları**'nın altındaki **Uygulanan Adımlar** listesine eklendiğini görürsünüz.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. **Giriş** sekmesine dönüp **Kapat ve Uygula**'yı seçin. Verilerimiz raporu oluşturmak için neredeyse hazır durumda. 
 
     Alanlar listesinde Sigma simgesini görüyor musunuz? Power BI bu alanların sayısal olduğunu algıladı. Power BI tarih alanını da takvim simgesiyle gösterir.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 ### <a name="extra-credit-write-a-measure-in-dax"></a>Ek çalışma: DAX dilinde ölçü yazma
 
@@ -98,11 +112,11 @@ Bu öğreticiyi takip etmek için örnek çalışma kitabını indirmelisiniz.
 
 1. Sol tarafta **Veri Görünümü**'nü seçin. 
  
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. **Giriş** şeridinde **Yeni Tablo**'yu seçin. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. 1 Ocak 2013 ile 31 Aralık 2014 arasındaki tüm verilerin Calendar (Takvim) tablosunu oluşturmak için bu ölçüyü yazın.  
 
@@ -110,15 +124,15 @@ Bu öğreticiyi takip etmek için örnek çalışma kitabını indirmelisiniz.
 
 2. İşlemek için onay işaretini seçin.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Şimdi sol tarafta **Model Görünümü**'nü seçin. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Tabloları birleştirmek için Financials tablosundan **Date** (Tarih) alanını Calendar tablosundaki **Date** alanına sürükleyin ve iki arasında bir *ilişki* oluşturun.  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 ## <a name="build-your-report"></a>Raporunuzu oluşturma 
 
@@ -126,14 +140,14 @@ Artık verilerinizi dönüştürdüğünüze ve yüklediğinize göre raporunuzu
 
 Şimdi bir kerede bir görsel olmak üzere raporun son halini oluşturalım. 
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 ### <a name="visual-1-add-a-title"></a>Görsel 1: Başlık ekleme 
 
 1. **Ekle** şeridinde **Metin Kutusu**'nu seçin. “Yönetici Özeti – Finans Raporu” yazın. 
 1. Yazdığınız metni seçin. Yazı tipi boyutunu 20 ve kalın olarak ayarlayın. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Görselleştirmeler bölmesinde **Arka Plan**'ı **Kapalı** olarak ayarlayın. 
 1. Kutuyu tek satıra sığdırmak için yeniden boyutlandırın. 
@@ -145,19 +159,19 @@ Artık verilerinizi dönüştürdüğünüze ve yüklediğinize göre raporunuzu
 1. Alanlar bölmesindeki **Profit** (Kâr) alanını rapor tuvalinde boş bir alana sürükleyin. Varsayılan olarak Power BI tek sütunu (Profit) olan bir sütun grafiği görüntüler. 
 1. **Date** alanını aynı görsele sürükleyin. Power BI, iki yıla göre kârı gösterecek şekilde sütun grafiğini güncelleştirir.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Görselleştirmeler bölmesinin **Alanlar** bölümünde, **Eksen** değerinin açılan listesini seçin. **Date Hierarchy** (Tarih Hiyerarşisi) olan **Date** öğesini **Date** olarak değiştirin.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
     Power BI, her ayın kârını gösterecek şekilde sütun grafiğini güncelleştirir.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. Görselleştirmeler bölmesinde, görselleştirme türünü **Çizgi grafik** olarak değiştirin. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
     Artık en yüksek kârın Aralık 2014'te elde edildiğini kolayca görebilirsiniz.
 
@@ -170,9 +184,9 @@ En yüksek kârların hangi ülkede elde edildiğini görmek için bir harita ol
 
     Power BI her bir konumun göreceli kârını temsil eden balonlar içeren bir harita görseli oluşturur. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
-    Avrupa'da, Kuzey Amerika'dan daha iyi sonuçlar elde edilmiş gibi görünüyor. 
+    Avrupa'da, Kuzey Amerika'dan daha iyi bir performans elde edilmiş gibi görünüyor. 
 
 ### <a name="visual-4-sales-by-product-and-segment"></a>Görsel 4: Ürün ve Segment göre satışlar 
 
@@ -187,7 +201,7 @@ Hangi şirketlere ve segmentlere yatırım yapılacağını saptamak için bir �
 
 1. Grafiği sürükleyerek, üstteki iki grafiğin altında kalan alanı kaplayacak kadar genişletin.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
     Şirketin Paseo ürününe yatırım yapmaya devam etmesi ve Small Business (Küçük İşletme) ile Government (Kamu) segmentlerini hedeflemesi gerekiyor gibi görünüyor.  
 
@@ -199,11 +213,11 @@ Dilimleyiciler, rapor sayfasındaki görselleri belirli bir seçime göre filtre
 2. Görselleştirmeler bölmesinde **Dilimleyici**'yi seçin. 
 3. Görselleştirmeler bölmesinin Alanlar bölmesinde, **Alanlar**'daki açılan listeyi seçin. Yalnızca Year (Yıl) ve Month (Ay) kalacak şeklide Quarter (Çeyrek) ve Day (Gün) öğelerini kaldırın. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 4. Her yılı genişletin ve tüm ayların görünür olması için görseli yeniden boyutlandırın.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 Artık yöneticiniz yalnızca 2013 verilerini görmek isterse dilimleyiciyi kullanarak yıllar arasında veya her yılın belirli aylarına geçiş yapabilirsiniz. 
 
@@ -215,13 +229,13 @@ Bu raporda görünümünü biraz daha geliştirecek basit biçimlendirmeler yapm
 
 - **Görünüm** şeridinde temayı **Yönetici** olarak değiştirin.  
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
 
 **Görselleri süsleme** 
 
 Görselleştirmeler bölmesinin **Biçim** sekmesinde aşağıdaki değişiklikleri yapın.
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü." seçeneğini göster** ayarını **Açık** olarak değiştirin. **Dilimleyici üst bilgisi** bölümünde **Metin boyutu** ayarını **16 nokta** olarak artırın. 
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü." seçeneğini göster** ayarını **Açık** olarak değiştirin. **Dilimleyici üst bilgisi** bölümünde **Metin boyutu** ayarını **16 nokta** olarak artırın. 
 
 **Başlık için bir arka plan şekli ekleme**
 
@@ -229,7 +243,7 @@ Görselleştirmeler bölmesinin **Biçim** sekmesinde aşağıdaki değişiklikl
 1. **Şekli biçimlendir** bölmesinin **Çizgi** bölümünde **Saydamlık** ayarını **%100** olarak değiştirin. 
 1. **Dolgu** bölümünde **Dolgu rengi** ayarını **Tema rengi 5 #6B91C9** (mavi) olarak değiştirin. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 1. **Biçim** sekmesinde **Arkaya gönder** > **En arkaya gönder**'i seçin. 
 1. Görsel 1'deki başlık metnini seçin ve yazı tipi rengini **Beyaz** olarak değiştirin. 
@@ -244,7 +258,7 @@ Görselleştirmeler bölmesinin **Biçim** sekmesinde aşağıdaki değişiklikl
 
 Raporun görünümü geliştirilmiş son hali şöyle görünür:  
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 Özette, bu rapor yöneticinizin en önemleri sorularını yanıtlar: 
 
@@ -275,15 +289,15 @@ Raporunuzu yöneticinizle ve iş arkadaşlarınızla paylaşmak için Power BI h
 1. Power BI hizmetinde **Çalışma alanım** gibi bir hedef seçin, sonra da **Seç** düğmesini seçin.
 1. **'dosya-adınız' öğesini Power BI'da aç**'ı seçin.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
     Tamamlanmış raporunuz tarayıcıda açılır.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-report-service.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-report-service.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü."::: 
 
 1. Raporunuzu başkalarıyla paylaşmak için raporun en üstündeki **Paylaş**'ı seçin.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Power BI hizmetinde Power BI raporunun ekran görüntüsü.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Tamamlanmış Power BI raporunun ekran görüntüsü.":::
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
