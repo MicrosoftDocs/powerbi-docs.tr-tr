@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: Veri akışı yapılandırma ve kullanma
           href: dataflows/dataflows-configure-consume.md
+        - name: Power BI Premium veri akışı iş yüklerini yapılandırma
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: Veri akışları ve Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: Veri akışlarının Premium özellikleri
