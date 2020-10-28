@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: Yeni çalışma alanlarında kullanımı izleme
           href: service-modern-usage-metrics.md
+        - name: İçerik onayı
+          href: service-endorsement-overview.md
     - name: Nasıl yapılır kılavuzları
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: Kendinizin ve başkalarının abone olmasını sağlama
               href: service-report-subscribe.md
+            - name: İçeriğinizi onaylama
+              href: service-endorse-content.md
             - name: Giriş sayfasındaki özellik içeriği
               href: service-featured-content.md
             - name: SharePoint Online'a rapor ekleme
