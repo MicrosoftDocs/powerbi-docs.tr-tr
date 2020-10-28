@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Power BI veri kaynağı önkoşulları
           href: desktop-data-source-prerequisites.md
-        - name: Power BI Desktop’ta gelişmiş veri kümesi meta verilerini kullanma (önizleme)
+        - name: Power BI Desktop’ta gelişmiş veri kümesi meta verilerini kullanma
           href: desktop-enhanced-dataset-metadata.md
         - name: Power BI’da çok boyutlu modellerle çalışma
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: Veri kümelerinin kullanımını denetleme
               href: service-datasets-admin-across-workspaces.md
-        - name: Veri kümelerini destekleme
-          items:
-            - name: Veri kümelerini yükseltme
-              href: service-datasets-promote.md
-            - name: Veri kümelerini onaylama
-              href: service-datasets-certify.md
         - name: Veritabanlarından veri alma
           items:
             - name: Azure ve Power BI
