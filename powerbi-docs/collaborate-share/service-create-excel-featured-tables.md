@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811863"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680774"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop’ta öne çıkan tabloları ayarlama (önizleme)
 
@@ -25,11 +25,11 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
 1. Kuruluşun geri kalanı ilgili ve yenilenebilir veriler için Excel'de *veri türleri* olarak başvurulan bu öne çıkan tablolara bağlanabilir. [Excel’de Power BI öne çıkan tablolarına erişme (önizleme)](service-excel-featured-tables.md) makalesinde, bu öne çıkan tabloların Excel’de nasıl kullanılacağı açıklanır.
 
 > [!NOTE]
-> [Power BI’da veri kümelerini yükseltebilir veya onaylayabilirsiniz](../connect-data/service-datasets-promote.md). Buna *destekleme* adı verilir. Excel, Veri Türleri Galerisindeki desteklenen veri kümelerinde tabloları önceliklendirir. Excel, önce sertifikalı veri kümelerindeki öne çıkan tabloları, ardından yükseltilen veri kümelerindeki tabloları listeler. Excel daha sonra desteklenmeyen veri kümelerindeki öne çıkan tabloları listeler. 
+> [Power BI’da veri kümelerini yükseltebilir veya onaylayabilirsiniz](../collaborate-share/service-endorse-content.md). Buna *destekleme* adı verilir. Excel, Veri Türleri Galerisindeki desteklenen veri kümelerinde tabloları önceliklendirir. Excel, önce sertifikalı veri kümelerindeki öne çıkan tabloları, ardından yükseltilen veri kümelerindeki tabloları listeler. Excel daha sonra desteklenmeyen veri kümelerindeki öne çıkan tabloları listeler. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>Öne çıkan tablo önizlemesini açma
 
-1. Power BI Desktop'ta **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri**'ni seçin.
+1. Power BI Desktop'ta **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Önizleme Özellikleri** 'ni seçin.
 2. **Öne çıkan tablolar** onay kutusunu seçin.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="Öne çıkan tablolar önizleme seçeneği":::
@@ -48,7 +48,7 @@ Excel’de Veri Türleri Galerisinde kullanıcılarınız sizin Power BI veri k�
 
 4. **Bu öne çıkan tabloyu ayarla** bölümünde gerekli alanları sağlayın:
 
-    - **Açıklama**. 
+    - **Açıklama** . 
         > [!TIP]
         > Power BI rapor oluşturucularının bunu belirlemesine yardımcı olmak için açıklamaya “Öne çıkan tablo” ile başlayın.
     - **Satır etiketi** alanının değeri Excel’de kullanılır ve böylece kullanıcılar satırı kolayca belirleyebilir. **Veri Seçicisi** bölmesinde ve **Bilgi** kartında bağlı hücre için hücre değeri olarak görüntülenir. 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374281"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681155"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Çalışma alanları arasında veri kümelerine giriş
 
@@ -22,7 +22,7 @@ ms.locfileid: "91374281"
 
 ![Paylaşılan veri kümesi seçme](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir*. Bu yolla, rapor yazarları hangi veri kümelerinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Yöneticilerin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
+Power BI’da veri kümesi oluşturucular verilerine kimlerin erişebileceğini [Derleme iznini](service-datasets-build-permissions.md) kullanarak denetleyebilir. Veri kümesi oluşturucular ayrıca başkalarının bulabilmesi için veri kümelerini *onaylayabilir* veya *tanıtabilir* . Bu yolla, rapor yazarları hangi veri kümelerinin kaliteli ve resmi olduğunu bilir ve Power BI'da yazarken her zaman o veri kümelerini kullanır. Yöneticilerin [çalışma alanları arasında veri kümesi kullanımını yönetmelerini](service-datasets-admin-across-workspaces.md) sağlayan yeni bir kiracı ayarı vardır.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Veri kümesi paylaşma ve yeni çalışma alanı deneyimi
 
@@ -47,7 +47,7 @@ Derleme izin türüyle, bir veri kümesi oluşturucusuysanız kuruluşunuzda kim
 
 ## <a name="promotion-and-certification"></a>Tanıtma ve onaylama
 
-Başkalarının da yararlanabileceği veri kümeleri oluşturuyorsanız [veri kümenizi tanıtarak](service-datasets-promote.md) daha kolay bulunmasını sağlayabilirsiniz. Kuruluşunuzdaki uzmanların [veri kümenizi onaylamalarını](service-datasets-certify.md) da isteyebilirsiniz.
+Başkalarının da yararlanabileceği veri kümeleri oluşturuyorsanız [veri kümenizi tanıtarak](../collaborate-share/service-endorse-content.md#promote-content) daha kolay bulunmasını sağlayabilirsiniz. Kuruluşunuzdaki uzmanların [veri kümenizi onaylamalarını](../collaborate-share/service-endorse-content.md#request-content-certification) da isteyebilirsiniz.
 
 ## <a name="licensing"></a>Lisanslama
 
@@ -69,7 +69,8 @@ Paylaşılan veri kümesi özelliklerinde yerleşik olarak bulunan belirli özel
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Veri kümelerini tanıtma](service-datasets-promote.md)
-- [Veri kümelerini onaylama](service-datasets-certify.md)
+- [Veri kümelerini tanıtma](../collaborate-share/service-endorse-content.md#promote-content)
+- [Veri kümelerini onaylama](../collaborate-share/service-endorse-content.md#certify-content)
+- [Veri kümesi onayı isteme](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [Çalışma alanları arasında veri kümeleri kullanımını yönetme](service-datasets-admin-across-workspaces.md)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

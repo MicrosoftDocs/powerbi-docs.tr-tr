@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/21/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d602c97384f42bdd35f12052f67b15a0ca7bae38
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236887"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462430"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Paylaşılan veri kümeleri için oluşturma izni
 
@@ -32,9 +32,9 @@ Kullanıcıların verilerle Power BI *dışında* çalışabilmesi için de Olu�
 
 Bir veri kümesi için Oluşturma izni vermenin farklı yolları bulunur:
 
-- Bir çalışma alanının en az bir Katkıda bulunan rolüne sahip olan üyelerine otomatik olarak bu çalışma alanındaki veri kümeleri için Oluşturma ve rapor kopyalama izni verilir.
+- Bir çalışma alanının en az bir Katkıda bulunan rolüne sahip olan üyelerine otomatik olarak bu çalışma alanındaki veri kümeleri için Oluşturma ve rapor kopyalama izni verilir. [Yeni çalışma alanlarındaki roller](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) hakkında daha fazla bilgi edinin.
  
-- Veri kümesinin bulunduğu çalışma alanının üyeleri, izin merkezindeki belirli kullanıcılara veya güvenlik gruplarına izni atayabilir. Çalışma alanına üyeyseniz bir veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri Yönet**’i seçin.
+- Veri kümesinin bulunduğu çalışma alanının üyeleri, izin merkezindeki belirli kullanıcılara veya güvenlik gruplarına izni atayabilir. Çalışma alanına üyeyseniz bir veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri Yönet** ’i seçin.
 
     ![Üç nokta simgesini seçin](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -55,11 +55,11 @@ Kişinin bir veri kümesine yönelik Oluşturma iznini kaldırabilirsiniz. Bunu 
 Bazı durumlarda, bir veri kümesinin bazı kullanıcılarının Oluşturma iznini kaldırmanız gerekebilir. 
 
 1. Çalışma alanında **Veri kümeleri** listesi sayfasına gidin. 
-1. Veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri yönet**’i seçin.
+1. Veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri yönet** ’i seçin.
 
     ![İzinleri yönet](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Bir adın yanındaki **Diğer seçenekler** (...) > **Derlemeyi kaldır**’ı seçin.
+1. Bir adın yanındaki **Diğer seçenekler** (...) > **Derlemeyi kaldır** ’ı seçin.
 
     ![Oluşturma iznini kaldırma](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -73,10 +73,10 @@ Bir çalışma alanından bir kişi grubuna uygulama dağıttığınızı varsay
 
     ![Uygulamayı güncelleştir](media/service-datasets-build-permissions/power-bi-app-update.png)
 
-1. Kişiyi veya grubu silmek için **İzinler** sekmesinde **X**’i seçin. 
+1. Kişiyi veya grubu silmek için **İzinler** sekmesinde **X** ’i seçin. 
 
     ![X’i seçin](media/service-datasets-build-permissions/power-bi-app-delete-user.png)
-1. **Uygulamayı güncelleştir**’i seçin.
+1. **Uygulamayı güncelleştir** ’i seçin.
 
     Mevcut erişimi olan kullanıcıların Oluşturma iznini kaldırmak için **İzinleri yönet** bölümüne gitmeniz gerektiğini açıklayan bir ileti görürsünüz. 
 
@@ -85,11 +85,11 @@ Bir çalışma alanından bir kişi grubuna uygulama dağıttığınızı varsay
 1. **Güncelleştir** seçeneğini belirleyin.
 
 1. Çalışma alanında **Veri kümeleri** listesi sayfasına gidin. 
-1. Veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri yönet**’i seçin.
+1. Veri kümesinin yanındaki **Diğer seçenekler** (...) > **İzinleri yönet** ’i seçin.
 
     ![İzinleri yönet](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Adının yanındaki **Diğer seçenekler** (...) > **Derlemeyi kaldır**’ı seçin.
+1. Adının yanındaki **Diğer seçenekler** (...) > **Derlemeyi kaldır** ’ı seçin.
 
     ![Oluşturma iznini kaldırma](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

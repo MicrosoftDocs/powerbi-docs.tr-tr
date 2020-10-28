@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964999"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681015"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI'a dağıtma
 
@@ -93,7 +93,7 @@ Dağıtım işlemi boyunca, aşağıda belirtilenler gibi tüm çözümün deste
 - **Uygulama:** İçerik dağıtım stratejiniz uygulamaları içeriyorsa, üretim çalışma alanınızda bulunan içeriği kullanarak bir [uygulama](../consumer/end-user-apps.md) yayımlayın.
 - **Güvenlik:** İçerik dağıtımı ve işbirliği stratejinizi temel alarak [çalışma alanı rollerini](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) güncelleştirin ve doğrulayın.
 - **Veri kümesi ayarları:** Her veri kümesi için şu ayarları güncelleştirin ve doğrulayın:
-  - [Destekleme](../connect-data/service-datasets-certify.md) (sertifikalı veya yükseltilen gibi)
+  - [Destekleme](../collaborate-share/service-endorse-content.md) (sertifikalı veya yükseltilen gibi)
   - Ağ geçidi bağlantısı veya veri kaynağı kimlik bilgileri
   - Zamanlanmış yenileme
   - [Öne çıkan Soru-Cevap soruları](../create-reports/service-q-and-a-create-featured-questions.md)

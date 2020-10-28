@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401991"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680955"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için gereksinimleri toplama
 
@@ -65,7 +65,7 @@ Verilerle ilgili şu ayrıntılı bilgileri derleyin:
 - **Mevcut sorgular:** Bir [DirectQuery modeli](../connect-data/desktop-use-directquery.md) veya [Bileşik model](../transform-model/desktop-composite-models.md) tarafından kullanılabilecek ya da bir İçeri aktarma modeline dönüştürülebilecek mevcut rapor sorgularının ve saklı yordamların olup olmadığını belirleyin.
 - **Veri kaynağı türleri:** Merkezi hale getirilmiş veri kaynakları (kurumsal veri ambarı gibi) ve standartlaştırılmamış veri kaynakları (düz dosyalar veya veri kaynaklarını raporlama için geliştiren Excel dosyaları gibi) da dahil olmak üzere gerekli olan veri kaynağı türlerini derleyin. [Veri ağ geçidi](../connect-data/service-gateway-onprem.md) bağlantısı için veri kaynaklarının konumunun bulunması da önemlidir.
 - **Veri yapısı ve temizlemeye yönelik ihtiyaçlar:** Her önkoşul veri kaynağına yönelik veri yapısını ve [veri temizleme](../transform-model/desktop-query-overview.md) etkinliklerinin ne ölçüde gerekli olduğunu belirleyin.
-- **Veri tümleştirmesi**: Birden fazla veri kaynağı olduğunda veri tümleştirmesinin nasıl işleneceğini ve [ilişkilerin](../transform-model/desktop-create-and-manage-relationships.md) her model tablosu arasında nasıl tanımlandığını değerlendirin. Modelin basitleştirilmesi ve [boyutunun azaltılması](import-modeling-data-reduction.md) için gereken belirli veri öğelerini tanımlayın.
+- **Veri tümleştirmesi** : Birden fazla veri kaynağı olduğunda veri tümleştirmesinin nasıl işleneceğini ve [ilişkilerin](../transform-model/desktop-create-and-manage-relationships.md) her model tablosu arasında nasıl tanımlandığını değerlendirin. Modelin basitleştirilmesi ve [boyutunun azaltılması](import-modeling-data-reduction.md) için gereken belirli veri öğelerini tanımlayın.
 - **Kabul edilebilir veri gecikmesi:** Her veri kaynağına yönelik veri gecikme süresi ihtiyaçlarını belirleyin. Bu, hangi [veri depolama modunun](../transform-model/desktop-storage-mode.md) kullanılacağına ilişkin kararları etkiler. İçeri aktarma model tabloları için veri yenileme sıklığının da bilinmesi önemlidir.
 - **Veri hacmi ve ölçeklenebilirlik:** [Büyük model desteği](../admin/service-premium-large-models.md) ve DirectQuery modellerinin veya [Bileşik modellerin](../transform-model/desktop-composite-models.md) tasarlanmasına ilişkin kararlarda göz önünde bulundurulan veri hacmi beklentilerini değerlendirin. Geçmiş verilere ilişkin önemli noktaların da bilinmesi önemlidir. Büyük veri kümeleri için [artımlı veri yenilemesi](../admin/service-premium-incremental-refresh.md) kurallarının belirlenmesi de önemlidir.
 - **Ölçümler, KPI’lar ve iş kuralları:** Ölçümlere, KPI’lara ve iş kurallarına yönelik ihtiyacı değerlendirin. Bunlar, mantığın nereye (veri kümesine veya veri tümleştirme işlemine) uygulanacağı konusunda verilen kararları etkiler.
@@ -74,7 +74,7 @@ Verilerle ilgili şu ayrıntılı bilgileri derleyin:
 - **Açık sorunlar ve kapsam öğeleri:** Bilinen sorunları, bilinen veri kalitesi kusurlarını, ileride gerçekleştirilecek bakım işlemlerini, veya ertelenmiş istekleri bu aşamada kapsama ekleyin.
 
 > [!IMPORTANT]
-> [Paylaşılan veri kümeleriyle](../connect-data/service-datasets-share.md) veri yeniden kullanılabilirliği elde edilebilir. Güvenilirliği göstermek ve bulunabilirliği geliştirmek için bunu isteğe bağlı olarak [sertifikalı](../connect-data/service-datasets-certify.md) yapabilirsiniz. Birden fazla veri kümesindeki yinelenen mantığın azaltılması için [veri akışlarıyla](../transform-model/service-dataflows-overview.md) veri hazırlama yeniden kullanılabilirliği elde edebilirsiniz. Veri akışları, veriler daha az sıklıkta alındığı için kaynak sistemlerin yükünü de önemli ölçüde azaltır. Böylece, birden fazla veri kümesi verileri veri akışından içeri aktarabilir.
+> [Paylaşılan veri kümeleriyle](../connect-data/service-datasets-share.md) veri yeniden kullanılabilirliği elde edilebilir. Güvenilirliği göstermek ve bulunabilirliği geliştirmek için bunu isteğe bağlı olarak [sertifikalı](../collaborate-share/service-endorse-content.md) yapabilirsiniz. Birden fazla veri kümesindeki yinelenen mantığın azaltılması için [veri akışlarıyla](../transform-model/service-dataflows-overview.md) veri hazırlama yeniden kullanılabilirliği elde edebilirsiniz. Veri akışları, veriler daha az sıklıkta alındığı için kaynak sistemlerin yükünü de önemli ölçüde azaltır. Böylece, birden fazla veri kümesi verileri veri akışından içeri aktarabilir.
 
 ## <a name="identify-improvement-opportunities"></a>Geliştirme fırsatlarını tanımlama
 

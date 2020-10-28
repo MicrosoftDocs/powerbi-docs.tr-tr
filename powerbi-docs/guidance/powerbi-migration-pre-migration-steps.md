@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525812"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680987"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI’a geçişe hazırlanma
 
@@ -79,7 +79,7 @@ Bir Power BI uygulamasının başında ele alınması gereken bazı önemli konu
 - İçeri aktarma modu, DirectQuery modu ve iki modun bir [Bileşik modelde](composite-model-guidance.md) birleştirilmesi gibi [veri kümesi modlarına](../connect-data/service-dataset-modes-understand.md) ilişkin tercihler.
 - [Verilerin ve erişimin güvenliğini sağlama](../admin/service-admin-power-bi-security.md).
 - Yeniden kullanılabilirlik için [paylaşılan veri kümeleriyle](../connect-data/service-datasets-share.md) çalışma.
-- Yetkili ve güvenilir verilerin kullanımını öne çıkarmak için [veri sertifikasyonu](../connect-data/service-datasets-certify.md) uygulama.
+- Yetkili ve güvenilir verilerin kullanımını öne çıkarmak için [veri sertifikasyonu](../collaborate-share/service-endorsement-overview.md) uygulama.
 - Farklı kullanım durumları veya iş birimleri için Power BI raporları, Excel raporları veya sayfalandırılmış raporlar gibi farklı [rapor türlerini](../create-reports/index.yml) kullanma.
 - Merkezi hale getirilmiş iş zekası yapıtlarının ve işletme tarafından yönetilen iş zekası yapıtlarının yönetilmesi için yönetim yaklaşımlarını değiştirme.
 - Tüketicilere, veri modelleyicilerine, rapor yazarlarına ve yöneticilere yönelik eğitim planları.
