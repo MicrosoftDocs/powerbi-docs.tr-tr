@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528402"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916901"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -25,7 +25,7 @@ ms.locfileid: "91528402"
 **Teknik gözden geçirenler:** Adam Solson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> Tarayıcınızdan **Yazdır** ' ı seçerek ve ardından **PDF olarak kaydet**' i seçerek bu teknik incelemeyi kaydedebilir veya yazdırabilirsiniz.
+> Tarayıcınızdan **Yazdır** ' ı seçerek ve ardından **PDF olarak kaydet** ' i seçerek bu teknik incelemeyi kaydedebilir veya yazdırabilirsiniz.
 
 ## <a name="introduction"></a>Giriş
 
@@ -188,7 +188,7 @@ Uygulamada, bu yapılar aşağıdaki görüntüde gösterildiği gibi karmaşık
 
 Paylaşılan bir Power BI kiracı oluşturmak için bir Azure Active Directory oluşturulması ve bu Active Directory 'deki bir kullanıcı için en az bir Power BI Pro Kullanıcı hesabının satın alınması gerekir. Bu Kullanıcı, gerekli kullanıcıları paylaşılan kuruluşa davet eder. Bu senaryoda, contoso kullanıcıları paylaşılan kuruluşun Power BI içinde çalıştıklarında dış Kullanıcı olarak kabul edilir.
 
-İşlem aşağıdaki gibidir:
+Süreç şu şekilde ilerler:
 
 1. Paylaşılan kuruluş yeni bir Azure Active Directory olarak oluşturulmuştur ve yeni kuruluşta en az bir kullanıcı hesabı oluşturulur. Bu kullanıcıya atanmış bir Power BI Pro Lisansı olmalıdır.
 2. Bu Kullanıcı daha sonra bir Power BI kiracı oluşturur ve gerekli kullanıcıları contoso ve Iş ortağı kuruluştan davet eder. Kullanıcı aynı zamanda Azure Analysis Services gibi paylaşılan veri varlıkları da oluşturur. Contoso ve Iş ortağının kullanıcıları, paylaşılan kuruluşun Power BI Konuk Kullanıcı olarak erişebilir. Power BI içinde içerik düzenleme ve yönetme izni varsa, dış kullanıcılar Power BI giriş, çalışma alanları, karşıya yükleme veya düzenleme ve rapor paylaşma olabilir. Genellikle tüm paylaşılan varlıklar, paylaşılan kuruluştan depolanır ve bunlara erişir.
@@ -288,7 +288,7 @@ Power BI Azure AD B2B tümleştirmesi, contoso 'yu, ziyaretçi kullanıcıların
     Artık contoso 'nun bı ekibi, bı portalını oluşturmuş ve konuk kullanıcıları davet ettiği için, konuk kullanıcıların uygulamaya erişmesine ve yayımlamasına izin vererek, bu kişilerin portalını son kullanıcılarına dağıtabilirler. Daha önce contoso kiracısına eklenen konuk kullanıcıların adlarını otomatik olarak tamamlar Power BI. Diğer Konuk kullanıcılara geçici davetler de bu noktada eklenebilir.
 
     > [!NOTE]
-    > Dış kullanıcılar için uygulamaya erişimi yönetmek üzere güvenlik grupları kullanıyorsanız, planlı davetler yaklaşımını kullanın ve uygulamaya erişmesi gereken her bir dış kullanıcıyla doğrudan uygulama bağlantısını paylaşabilirsiniz. Aksi takdirde, dış kullanıcı uygulamanın içinden içerik yükleyemeyebilir veya içeriği görüntüleyemeyebilir. _
+    > Dış kullanıcılar için uygulamaya erişimi yönetmek üzere güvenlik grupları kullanıyorsanız, planlı davetler yaklaşımını kullanın ve uygulamaya erişmesi gereken her bir dış kullanıcıyla doğrudan uygulama bağlantısını paylaşabilirsiniz. Aksi takdirde, dış Kullanıcı app._ içinden içerik yükleyemeyebilir veya içeriği görüntüleyemeyebilir
 
     Konuk kullanıcılar, uygulamanın bağlantısını içeren bir e-posta alır.
 
@@ -344,7 +344,7 @@ Contoso, bu yaklaşımla Power BI Premium kapasiteyi satın alır ve bu kapasite
 
 Dış kullanıcılar ayrıca, Power BI Premium içinde içerik kullanılırken yalnızca Power BI "ücretsiz" kullanıcılara sunulan tüketim deneyimlerine tabidir.
 
-Contoso, daha fazla yenileme ücretleri, adanmış kapasite ve büyük model boyutları gibi uygulamalar için diğer Power BI Premium özelliklerinden de yararlanabilir.
+Contoso, daha fazla yenileme ücretleri, kapasite ve büyük model boyutları gibi uygulamalar için diğer Power BI Premium özelliklerinden de yararlanabilir.
 
 ![Ek özellikler](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
@@ -457,7 +457,7 @@ Görebileceğiniz gibi, dinamik RLS hem iç hem de Konuk kullanıcılarla birlik
 Power BI, contoso 'nın [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) veya Şirket [içi veri ağ geçidine](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)doğrudan teşekkürler [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) gibi şirket içi veri kaynaklarından yararlanmasını sağlar. Power BI ile birlikte kullanılan aynı kimlik bilgileriyle bu veri kaynaklarında oturum açmak bile mümkündür.
 
 > [!NOTE]
-> Power BI kiracınıza bağlanmak üzere bir ağ geçidi yüklerken kiracınızda oluşturulmuş bir Kullanıcı kullanmanız gerekir. Dış kullanıcılar bir ağ geçidi yükleyemez ve kiracınıza bağlanamaz. _
+> Power BI kiracınıza bağlanmak üzere bir ağ geçidi yüklerken kiracınızda oluşturulmuş bir Kullanıcı kullanmanız gerekir. Dış kullanıcılar ağ geçidini yükleyemez ve tenant._ bağlanamaz
 
 Dış kullanıcılar için, dış kullanıcılar genellikle şirket içi AD tarafından bilinmediği için bu daha karmaşık olabilir. Power BI, contoso yöneticilerinin dış kullanıcı adlarını, [veri Analysis Services kaynağınızı yönetme](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)bölümünde açıklandığı gibi iç kullanıcı adlarıyla eşlemelerine izin vererek bunun için geçici bir çözüm sunar. Örneğin, [lucy@supplier1.com](mailto:lucy@supplier1.com) [Lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)ile eşlenebilir.
 
@@ -490,8 +490,8 @@ Konuk kullanıcılar salt okunurdur ve içeriği düzenleyebilir ve yönetebilir
 
 Bu kullanıcıların Power BI oturum açmasını sağlamak için kiracı URL 'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
-1. Power BI hizmeti, üst menüdeki yardım ( **?** )  **Power BI**.
-2. **Kiracı URL 'sinin**yanındaki değeri arayın. Bu, Konuk kullanıcılarınızla paylaşabileceğiniz kiracı URL 'sidir.
+1. Power BI hizmeti, üst menüdeki yardım ( **?** )  **Power BI** .
+2. **Kiracı URL 'sinin** yanındaki değeri arayın. Bu, Konuk kullanıcılarınızla paylaşabileceğiniz kiracı URL 'sidir.
 
     ![Kiracı URL'si](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
