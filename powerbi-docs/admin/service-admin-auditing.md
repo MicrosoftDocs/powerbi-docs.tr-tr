@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857715"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681001"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -136,13 +136,13 @@ Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğ
 
 Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog)'nden erişebilirsiniz. Power BI yönetici portalında doğrudan bir bağlantı da mevcuttur:
 
-1. Power BI'da sağ üst köşedeki **dişli simgesini** ve ardından **Yönetici portalı**'nı seçin.
+1. Power BI'da sağ üst köşedeki **dişli simgesini** ve ardından **Yönetici portalı** 'nı seçin.
 
    ![Yönetim portalı seçeneği öne çıkarılmış dişli açılan menüsünün ekran görüntüsü.](media/service-admin-auditing/powerbi-admin.png)
 
-1. **Denetim günlükleri**'ni seçin.
+1. **Denetim günlükleri** 'ni seçin.
 
-1. **Microsoft 365 Yönetim Merkezi’ne gidin**’i seçin.
+1. **Microsoft 365 Yönetim Merkezi’ne gidin** ’i seçin.
 
    ![Denetim günlükleri seçeneği ve Microsoft 365 Yönetim Merkezi’ne Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -152,7 +152,7 @@ Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle
 
 1. **Denetim günlüğü arama** sayfasının **Ara** bölümünde **Etkinlikler** açılan menüsünü seçin.
 
-2. **Power BI etkinlikleri**'ni seçin.
+2. **Power BI etkinlikleri** 'ni seçin.
 
    ![Power BI etkinliklerinin vurgulandığı Denetim günlüğü aramasının ekran görüntüsü.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -176,7 +176,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 
 ### <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 
-**Ara**’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
+**Ara** ’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
 
 #### <a name="view-the-main-results"></a>Ana sonuçları görüntüleme
 
@@ -195,7 +195,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 
 Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Microsoft 365 hizmetine bağlı olarak özellikler gösterilir.
 
-Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
+Bu bilgileri görüntülemek için **Daha fazla bilgi** 'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
    ![Daha fazla bilgi seçeneği öne çıkarılmış denetim ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-auditing/audit-details.png)
 
@@ -203,9 +203,9 @@ Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI
 
 Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için aşağıdaki adımları izleyin.
 
-1. **Sonuçları dışarı aktar**'ı seçin.
+1. **Sonuçları dışarı aktar** 'ı seçin.
 
-1. **Yüklenen sonuçları kaydet**'i veya **Tüm sonuçları indir**'i seçin.
+1. **Yüklenen sonuçları kaydet** 'i veya **Tüm sonuçları indir** 'i seçin.
 
     ![Tüm sonuçları indir seçeneğinin vurgulandığı, Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
 
@@ -310,6 +310,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Veri akışı izinleri kaldırılamadı             | FailedToRemoveDataflowPermissions           | Şu anda kullanılmıyor                       |
 | Power BI veri akışı SAS belirteci oluşturuldu             | GenerateDataflowSasToken                    |                                          |
 | Power BI Ekleme Belirteci oluşturuldu                    | GenerateEmbedToken                          |                                          |
+| Ekran görüntüsü oluşturuldu                       | GenerateScreenshot |                     |
 | Dosya Power BI'a aktarıldı                         | İçeri Aktar                                      |                                          |
 | Power BI uygulaması yüklendi                            | InstallApp                                  |                                          |
 | Çalışma alanı bir kapasiteye geçirildi                  | MigrateWorkspaceIntoCapacity                |                                          |

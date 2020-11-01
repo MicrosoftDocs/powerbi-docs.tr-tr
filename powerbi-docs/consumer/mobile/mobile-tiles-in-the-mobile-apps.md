@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668563"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683389"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarındaki kutucukları keşfetme
 Aşağıdakiler cihazlar için geçerlidir:
@@ -58,7 +58,7 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     Bağlantıyı Power BI uygulamasında açıktan sonra kopyalayıp bir tarayıcı penceresinde de açabilirsiniz.
 7. Kutucuğun temel aldığı [raporu açın](mobile-reports-in-the-mobile-apps.md) ![iOS için Raporu aç simgesi](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
-8. Odak modundan çıkmak için kutucuğun adına dokunduktan sonra panonun adına veya **Çalışma Alanım**'a dokunabilirsiniz.
+8. Odak modundan çıkmak için kutucuğun adına dokunduktan sonra panonun adına veya **Çalışma Alanım** 'a dokunabilirsiniz.
    
     ![Çalışma Alanım ve Fırsat Analizi Örneği’ne bakan işaretçileri gösteren bir panonun ekran görüntüsü.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -96,10 +96,10 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
     [Kutucuğun anlık görüntüsünü paylaşabilirsiniz](mobile-windows-10-phone-app-get-started.md).
    
-    [Temeldeki raporu görüntülemek için](mobile-reports-in-the-mobile-apps.md) **Raporu Aç**’a ![Raporu Aç simgesi](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) dokunun.
+    [Temeldeki raporu görüntülemek için](mobile-reports-in-the-mobile-apps.md) **Raporu Aç** ’a ![Raporu Aç simgesi](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) dokunun.
    
     Mevcut olması halinde [bağlantıyı açabilirsiniz](../../create-reports/service-dashboard-edit-tile.md#hyperlink). Bağlantılar Power BI panolarına veya dış URL'lere yönlendirebilir.
-3. **Kutucuğu Genişlet**’e ![Kutucuğu Genişlet simgesi](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) dokunun. Kutucuk verilerini daha kolay görüntülemenizi ve araştırmanızı sağlayan odak modu açılır. Bu modda şunları yapabilirsiniz:
+3. **Kutucuğu Genişlet** ’e ![Kutucuğu Genişlet simgesi](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png) dokunun. Kutucuk verilerini daha kolay görüntülemenizi ve araştırmanızı sağlayan odak modu açılır. Bu modda şunları yapabilirsiniz:
    
    Bir pasta grafiğini döndürerek dilimin değerinin pastanın en üstünde gösterilmesini sağlayabilirsiniz.  
    
@@ -111,10 +111,10 @@ Ardından Power BI mobil uygulamalarında bu kutucukları odak modunda açarak o
    
    *Bu çubuk grafikte **Decor** çubuğunun değerleri grafiğin en üstünde gösterilmektedir.*
    
-   **Tam ekran** simgesine ![Tam ekran simgesi](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) dokunarak kutucuğu, gezinti ve menü çubuklarının görünmediği tam ekran modunda açabilirsiniz.
+   **Sunu moduna geç** simgesine ![Sunu moduna geç simgesinin görüntüsü](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) dokunun. Bunu yaptığınızda kutucuk sunu modunda açılır ve gezinme çubuğuyla menü çubuğu görünmez.
    
    > [!NOTE]
-   > Ayrıca Windows 10 için Power BI mobil uygulamasında [panoları ve raporları tam ekran modunda görüntüleyebilirsiniz](mobile-windows-10-app-presentation-mode.md).
+   > Ayrıca Windows 10 için Power BI mobil uygulamasında [panoları ve raporları sunu modunda görüntüleyebilirsiniz](mobile-windows-10-app-presentation-mode.md).
    > 
    > 
    

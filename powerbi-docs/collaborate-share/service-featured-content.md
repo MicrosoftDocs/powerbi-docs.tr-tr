@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374948"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462476"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 
-Panoları, raporları ve uygulamaları öne çıkarabilirsiniz; böylece bu öğeler, iş arkadaşlarınızın Power BI Giriş sayfasının Öne Çıkanlar bölümünde görüntülenir. İçeriği öne çıkarma özellikle de yeni çalışanları Power BI’a eklemek için kullanışlıdır. Önce hangi içeriği göreceklerine karar verebilirsiniz. Kullanıcıların ihtiyaç duyduğu şeyleri bulmasına yardımcı olmak için açıklamalar ve küçük resimler ekleyebilirsiniz. İçeriğin yeni bir çalışma alanında olması gerekir.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+Panoları, raporları ve uygulamaları öne çıkarabilirsiniz; böylece bu öğeler, iş arkadaşlarınızın Power BI Giriş sayfasının Öne Çıkanlar bölümünde görüntülenir. İçeriği öne çıkarma özellikle de yeni çalışanları Power BI’a eklemek için kullanışlıdır. Önce hangi içeriği göreceklerine siz karar verirsiniz. Kullanıcıların ihtiyaç duyduğu şeyleri bulmasına yardımcı olmak için açıklamalar ve küçük resimler ekleyin. İçeriğin yeni bir çalışma alanında olması gerekir.
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
 
@@ -30,7 +32,7 @@ Kuruluşunuzda bu sorumluluğa sahip bir grupsanız Power BI Pro lisansına sahi
 
 ## <a name="who-sees-featured-content"></a>Öne çıkan içeriği kimler görür?
 
-Çalışma alanından bir panoyu veya raporu öne çıkarırsanız, çalışma alanında en azından Görüntüleyici rolüne sahip olan kişiler onun öne çıktığını görebilir. Bir uygulamadaki panoyu veya raporu ya da uygulamanın kendisini öne çıkarırsanız, uygulamayı dağıttığınız kişiler onun öne çıktığını görebilir.
+Bir çalışma alanında bulunan bir panoyu veya raporu öne çıkarabilirsiniz. Bunu yaptığınızda çalışma alanında en az Görüntüleyici rolüne sahip olanlar öne çıkarılan içeriği görebilir. Ayrıca bir uygulamada bulunan bir panoyu veya raporu veya uygulamanın kendisini de öne çıkarabilirsiniz. Bu durumda uygulamayı dağıttığınız kişiler öne çıkardığınız içeriği görebilir.
 
 ## <a name="feature-a-dashboard-or-report"></a>Panoyu veya raporu öne çıkarma
 
@@ -42,19 +44,19 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 2. **Ayarlar** bölmesinde adı işaretleyin veya değiştirin. İsterseniz bir **Açıklama** ekleyin ve bir **Anlık görüntü** karşıya yükleyin. Kullanıcılarınızın içeriğinizi bulmasına yardımcı olacağı için bunlar kullanışlıdır.
 
-3. **Öne Çıkanlar**’ı seçin.
+3. **Öne Çıkanlar** ’ı seçin.
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
 
-4. **Kaydet**'i seçin.
+4. **Kaydet** 'i seçin.
 
-    Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
+    Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası** ’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
 ## <a name="feature-an-app"></a>Uygulamayı öne çıkarma
 
-- Bir uygulamayı öne çıkarmak için, uygulamanın çalışma alanını açın, **Seçenekler** menüsünü seçin ( **...** ) > **Bu uygulamayı Giriş sayfasında öne çıkar**.
+- Bir uygulamayı öne çıkarmak için, uygulamanın çalışma alanını açın, **Seçenekler** menüsünü seçin ( **...** ) > **Bu uygulamayı Giriş sayfasında öne çıkar** .
 
-Şimdi bu uygulamaya erişimi olan herkes **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
+Şimdi bu uygulamaya erişimi olan herkes **Giriş Sayfası** ’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

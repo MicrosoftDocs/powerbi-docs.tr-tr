@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/21/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6fc8dba8e4cdcb8d8ff38c00f3e477902fe8234e
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374258"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349472"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5 kullanarak SAP BW’da çoklu oturum açma (SSO) için Kerberos'u kullanma
 
 Bu makalede, gx64krb5 kullanılarak Power BI hizmetinden SSO'yu etkinleştirmek için SAP BW veri kaynağınızın nasıl yapılandırılacağı açıklanmaktadır.
 
 > [!IMPORTANT]
-> SAP artık gx64krb5 desteği sunmadığından Microsoft da desteğini sonlandırmıştır. Var olan ve yeni bağlantılar 2020'nin sonuna kadar çalışmaya devam edecektir ancak Ocak 2021 itibarıyla devre dışı kalacaktır. Bunun yerine CommonCryptoLib kullanın. 
+> SAP artık gx64krb5 desteği sunmadığından Microsoft da desteğini sonlandırmıştır. Var olan ve yeni bağlantılar 2020'nin sonuna kadar çalışmaya devam edecektir ancak 1 Ocak 2021 itibarıyla devre dışı kalacaktır. Bunun yerine CommonCryptoLib kullanın. 
 
 > [!NOTE]
 > Power BI hizmetinde SAP BW Uygulama Sunucusu tabanlı raporlar için SSO tabanlı yenilemeyi etkinleştirmek üzere [Kerberos SSO yapılandırma](service-gateway-sso-kerberos.md) adımlarına ek olarak bu makaledeki adımları tamamlayabilirsiniz. Ancak Microsoft, SNC kitaplığı olarak gx64krb5 değil CommonCryptoLib kullanılmasını önerir. SAP artık gx64krb5 desteği sunmamaktadır ve ağ geçidi için yapılandırmak üzere gereken adımlar CommonCryptoLib ile karşılaştırıldığında çok daha karmaşıktır. CommonCryptoLib kullanarak SSO’yu yapılandırma hakkında bilgi için bkz. [CommonCryptoLib kullanarak SSO için SAP BW’yu yapılandırma](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). SNC kitaplığı olarak CommonCryptoLib *veya* gx64krb5 kullanın; ikisini birden kullanmayın. Her iki kitaplık için yapılandırma adımlarını tamamlamayın.
@@ -52,7 +52,7 @@ Ağ geçidi aracılığıyla bir SSO bağlantısını tamamlamak için gx64krb5 
 gx64krb5 kullanarak SAP BW sunucunuzu SNC iletişimi (örneğin SSO) için henüz yapılandırmadıysanız bu bölümü tamamlayın.
 
 > [!NOTE]
-> Bu bölümde, BW için bir hizmet kullanıcısı oluşturduğunuz ve bu kullanıcıya uygun bir SPN bağladığınız (*SAP/* ile başlayan bir ad) varsayılır.
+> Bu bölümde, BW için bir hizmet kullanıcısı oluşturduğunuz ve bu kullanıcıya uygun bir SPN bağladığınız ( *SAP/* ile başlayan bir ad) varsayılır.
 
 1. Hizmet kullanıcısına, SAP BW Application Server’ınıza yönelik erişim verin:
 
@@ -60,25 +60,25 @@ gx64krb5 kullanarak SAP BW sunucunuzu SNC iletişimi (örneğin SSO) için henü
 
         ![Bilgisayar Yönetimi programı](media/service-gateway-sso-kerberos/computer-management.png)
 
-    1. Local Admin grubuna çift tıklayın ve **Ekle**'yi seçerek hizmet kullanıcınızı gruba ekleyin. 
+    1. Local Admin grubuna çift tıklayın ve **Ekle** 'yi seçerek hizmet kullanıcınızı gruba ekleyin. 
 
-    1. Adı doğru girdiğinizden emin olmak için **Adları Denetle**’yi ve sonra **Tamam**’ı seçin.
+    1. Adı doğru girdiğinizden emin olmak için **Adları Denetle** ’yi ve sonra **Tamam** ’ı seçin.
 
 1. SAP BW sunucusunun hizmet kullanıcısını, SAP BW sunucusu makinesinde SAP BW sunucusu hizmetini başlatan kullanıcı olarak ayarlayın:
 
-    1. **Çalıştır**’ı açın ve **Services.msc** yazın. 
+    1. **Çalıştır** ’ı açın ve **Services.msc** yazın. 
 
-    1. SAP BW Uygulama Sunucusu örneğine karşılık gelen hizmeti bulup sağ tıklayın ve **Özellikler**’i seçin.
+    1. SAP BW Uygulama Sunucusu örneğine karşılık gelen hizmeti bulup sağ tıklayın ve **Özellikler** ’i seçin.
 
         ![Özellikler seçeneği vurgulanmış halde hizmetler ekran görüntüsü](media/service-gateway-sso-kerberos/server-properties.png)
 
     1. **Oturum açma** sekmesine geçin ve kullanıcıyı, SAP BW hizmet kullanıcınız olarak değiştirin. 
 
-    1. Kullanıcı parolasını girin ve **Tamam**'ı seçin.
+    1. Kullanıcı parolasını girin ve **Tamam** 'ı seçin.
 
 1. SAP Logon uygulamasında, sunucunuzda oturum açın ve RZ10 işlemini kullanarak aşağıdaki profil parametrelerini ayarlayın:
 
-    1. **snc/identity/as** profil parametresini, oluşturduğunuz *p:&lt;SAP BW hizmet kullanıcısına ayarlayın&gt;* . Örneğin, *p:BWServiceUser\@MYDOMAIN.COM*. *p:* ifadesini hizmet kullanıcısı UPN’sinden önce geldiğine, buna karşılık *p:CN=* ifadesinin SNC kitaplığı olarak CommonCryptoLib kullandığınızda UPN’den önce geldiğine dikkat edin.
+    1. **snc/identity/as** profil parametresini, oluşturduğunuz *p:&lt;SAP BW hizmet kullanıcısına ayarlayın&gt;* . Örneğin, *p:BWServiceUser\@MYDOMAIN.COM* . *p:* ifadesini hizmet kullanıcısı UPN’sinden önce geldiğine, buna karşılık *p:CN=* ifadesinin SNC kitaplığı olarak CommonCryptoLib kullandığınızda UPN’den önce geldiğine dikkat edin.
 
     1. **snc/gssapi\_lib** profil parametresini *&lt;BW sunucusundaki gx64krb5.dll yoluna&gt;* ayarlayın. Kitaplığı SAP BW Application Server’ın erişebileceği bir konuma yerleştirin.
 
@@ -129,15 +129,15 @@ SSO erişimini etkinleştirmiş olduğunuz Active Directory kullanıcısı olara
 
 1. SAP Logon’u başlatın ve yeni bir bağlantı oluşturun.
 
-1. **Yeni Sistem Girdisi Oluştur** ekranından **Kullanıcı Tarafından Belirtilen Sistem**'i ve **İleri**'yi seçin.
+1. **Yeni Sistem Girdisi Oluştur** ekranından **Kullanıcı Tarafından Belirtilen Sistem** 'i ve **İleri** 'yi seçin.
 
     ![Yeni Sistem Girişi Oluştur ekranı](media/service-gateway-sso-kerberos/new-system-entry.png)
 
-1. Sonraki ekranda, uygulama sunucusu, örnek sayısı ve sistem kimliği gibi gerekli bilgileri girin. Ardından **Son**'u seçin.
+1. Sonraki ekranda, uygulama sunucusu, örnek sayısı ve sistem kimliği gibi gerekli bilgileri girin. Ardından **Son** 'u seçin.
 
-1. Yeni bağlantıya sağ tıklayıp **Özellikler**’i ve sonra **Ağ** sekmesini seçin. 
+1. Yeni bağlantıya sağ tıklayıp **Özellikler** ’i ve sonra **Ağ** sekmesini seçin. 
 
-1. **SNC Adı** kutusuna *p:&lt;SAP BW hizmet kullanıcısının UPN’ini girin&gt;* . Örneğin, *p:BWServiceUser\@MYDOMAIN.COM*. **Tamam**’ı seçin.
+1. **SNC Adı** kutusuna *p:&lt;SAP BW hizmet kullanıcısının UPN’ini girin&gt;* . Örneğin, *p:BWServiceUser\@MYDOMAIN.COM* . **Tamam** ’ı seçin.
 
     ![Sistem Girişi Özellikleri ekranı](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -155,13 +155,13 @@ Hem ağ geçidinin yüklendiği makinenin hem de Power BI Desktop’tan bağlan�
 
 ## <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service-or-edit-an-existing-one"></a>Power BI hizmetine yeni bir SAP BW Application Server veri kaynağı ekleyin veya var olanı düzenleyin
 
-1. Veri kaynağı yapılandırma penceresinde SAP BW Uygulama Sunucusu’nun **Ana bilgisayar adı**, **Sistem Numarası** ve **İstemci Kimliği** bilgilerini Power BI Desktop'tan SAP BW sunucusunda oturum açar gibi girin.
+1. Veri kaynağı yapılandırma penceresinde SAP BW Uygulama Sunucusu’nun **Ana bilgisayar adı** , **Sistem Numarası** ve **İstemci Kimliği** bilgilerini Power BI Desktop'tan SAP BW sunucusunda oturum açar gibi girin.
 
 1. **SNC İş Ortağı Adı** alanına *p:&lt;SAP BW hizmet kullanıcınıza eşlediğiniz SPN'yi girin&gt;* . Örneğin, SPN SAP/BWServiceUser\@MYDOMAIN.COM ise **SNC İş Ortağı Adı** alanına *p:SAP/BWServiceUser\@MYDOMAIN.COM* yazın.
 
-1. SNC Kitaplığı alanında **SNC\_LIB** veya **SNC\_LIB\_64** değerini seçin. Ağ geçidi makinesindeki **SNC\_LIB\_64**’ün gx64krb5.dll dosyasını işaret ettiğinden emin olun. Alternatif olarak, **Özel** seçeneğini belirleyebilir ve ağ geçidi makinesinde gx64krb5.dll dosyasının mutlak yolunu belirtebilirsiniz.
+1. SNC Kitaplığı alanında **SNC\_LIB** veya **SNC\_LIB\_64** değerini seçin. Ağ geçidi makinesindeki **SNC\_LIB\_64** ’ün gx64krb5.dll dosyasını işaret ettiğinden emin olun. Alternatif olarak, **Özel** seçeneğini belirleyebilir ve ağ geçidi makinesinde gx64krb5.dll dosyasının mutlak yolunu belirtebilirsiniz.
 
-1. **DirectQuery sorguları için Kerberos üzerinden SSO kullanın**’ı ve **Uygula**'yı seçin. Bağlantı testi başarılı olmazsa önceki kurulum ve yapılandırma adımlarının doğru şekilde tamamlandığından emin olun.
+1. **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** ’ı ve **Uygula** 'yı seçin. Bağlantı testi başarılı olmazsa önceki kurulum ve yapılandırma adımlarının doğru şekilde tamamlandığından emin olun.
 
 1. [Power BI raporu çalıştırma](service-gateway-sso-kerberos.md#run-a-power-bi-report)
 
@@ -177,21 +177,21 @@ Aşağıdaki sorunlardan biriyle karşılaşırsanız gx64krb5 yüklemesinin ve 
 
 * Temel alınan veri kaynağı kimlik bilgileri (örneğin, SQL Server) hakkında sunucunun başlatılmasını engelleyen hatalar alıyorsanız hizmet kullanıcısına SAP BW veritabanı erişiminin verildiğini doğrulayın.
 
-* Aşağıdaki iletiyi alıyorsunuz: *(GSS-API) belirtilen hedef bilinmiyor veya hedefe ulaşılamıyor*. Bu hata genellikle yanlış SNC adı belirttiğiniz anlamına gelir. İstemci uygulamasındaki hizmet kullanıcısı UPN’sinden önce *p:CN=* değil, yalnızca *p:* kullandığınızdan emin olun.
+* Aşağıdaki iletiyi alıyorsunuz: *(GSS-API) belirtilen hedef bilinmiyor veya hedefe ulaşılamıyor* . Bu hata genellikle yanlış SNC adı belirttiğiniz anlamına gelir. İstemci uygulamasındaki hizmet kullanıcısı UPN’sinden önce *p:CN=* değil, yalnızca *p:* kullandığınızdan emin olun.
 
-* Aşağıdaki iletiyi alıyorsunuz: *(GSS-API) Geçersiz bir ad belirtildi*. SNC kimlik profili parametre değerinin *p:* olduğundan emin olun.
+* Aşağıdaki iletiyi alıyorsunuz: *(GSS-API) Geçersiz bir ad belirtildi* . SNC kimlik profili parametre değerinin *p:* olduğundan emin olun.
 
-* Aşağıdaki iletiyi alıyorsunuz: *(SNC hatası) Belirtilen modül bulunamadı*. Bu hata genellikle gx64krb5.dll dosyasının erişim için yükseltilmiş ayrıcalıklar (yönetici hakları) gerektiren bir konuma yerleştirilmesinden kaynaklanır.
+* Aşağıdaki iletiyi alıyorsunuz: *(SNC hatası) Belirtilen modül bulunamadı* . Bu hata genellikle gx64krb5.dll dosyasının erişim için yükseltilmiş ayrıcalıklar (yönetici hakları) gerektiren bir konuma yerleştirilmesinden kaynaklanır.
 
 ### <a name="troubleshoot-gateway-connectivity-issues"></a>Ağ geçidi bağlantı sorunlarını giderme
 
-1. Ağ geçidi günlüklerini kontrol edin. Ağ geçidi yapılandırması uygulamasını açın, **Tanılama Günlükleri**'ni ve **Günlükleri dışarı aktar**'ı seçin. En son hatalar, incelediğiniz günlük dosyalarının sonunda bulunur.
+1. Ağ geçidi günlüklerini kontrol edin. Ağ geçidi yapılandırması uygulamasını açın, **Tanılama Günlükleri** 'ni ve **Günlükleri dışarı aktar** 'ı seçin. En son hatalar, incelediğiniz günlük dosyalarının sonunda bulunur.
 
     ![Tanılama vurgulanmış olarak Şirket içi veri ağ geçidi uygulaması](media/service-gateway-sso-kerberos/gateway-diagnostics.png)
 
 1. SAP BW izlemeyi açın ve oluşturulan günlük dosyalarını inceleyin. Birçok farklı SAP BW izleme türü vardır (örneğin, CPIC izlemesi):
 
-   a. CPIC izlemeyi etkinleştirmek için iki ortam değişkeni ayarlayın: **CPIC\_TRACE** ve **CPIC\_TRACE\_DIR**.
+   a. CPIC izlemeyi etkinleştirmek için iki ortam değişkeni ayarlayın: **CPIC\_TRACE** ve **CPIC\_TRACE\_DIR** .
 
       İlk değişken izleme düzeyini, ikinci değişken de izleme dosyası dizinini ayarlar. Dizin, Kimliği Doğrulanmış Kullanıcılar grubunun yazma izninin bulunduğu bir konum olmalıdır. 
  

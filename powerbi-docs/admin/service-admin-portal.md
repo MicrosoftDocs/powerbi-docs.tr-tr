@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600270"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462659"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -52,7 +52,7 @@ Yönetici portalında birkaç bölüm vardır. Bu makalenin kalan kısmında bu 
 
 ## <a name="usage-metrics"></a>Kullanım ölçümleri
 
-**Kullanım ölçümleri**, kuruluşunuz için Power BI kullanımını izlemenize olanak sağlar. Ayrıca kuruluşunuzdaki hangi kullanıcıların ve grupların Power BI’da en etkin olduğunu da gösterir.
+**Kullanım ölçümleri** , kuruluşunuz için Power BI kullanımını izlemenize olanak sağlar. Ayrıca kuruluşunuzdaki hangi kullanıcıların ve grupların Power BI’da en etkin olduğunu da gösterir.
 
 > [!NOTE]
 > Panoya ilk kez eriştiğinizde veya panoyu görüntülemeniz üzerinden uzun bir süre geçtikten sonra panoyu tekrar ziyaret ettiğinizde, biz panoyu yüklerken büyük olasılıkla bir yükleme ekranıyla karşılaşırsınız.
@@ -89,7 +89,7 @@ Bu bilgilerle, kullanıcıların kuruluşunuz genelinde Power BI’ı nasıl kul
 
 ## <a name="control-usage-metrics"></a>Kullanım ölçümlerini denetleme
 
-Kullanım ölçümleri raporları, Power BI yöneticileri veya genel yöneticiler tarafından etkinleştirilip devre dışı bırakılabilecek bir özelliktir. Yöneticiler, hangi kullanıcıların kullanım ölçümlerine erişebileceği konusunda ayrıntılı bir denetime sahiptir. Bunlar kuruluştaki tüm kullanıcılar için varsayılan olarak **Açık**'tır.
+Kullanım ölçümleri raporları, Power BI yöneticileri veya genel yöneticiler tarafından etkinleştirilip devre dışı bırakılabilecek bir özelliktir. Yöneticiler, hangi kullanıcıların kullanım ölçümlerine erişebileceği konusunda ayrıntılı bir denetime sahiptir. Bunlar kuruluştaki tüm kullanıcılar için varsayılan olarak **Açık** 'tır.
 
 Yöneticiler içerik oluşturucuların kullanım ölçümlerinde kullanıcı başına verileri görüp göremeyeceğini de belirleyebilir. 
 
@@ -97,11 +97,11 @@ Raporlar hakkındaki ayrıntılar için bkz. [Power BI panoları ve raporları i
 
 ### <a name="usage-metrics-for-content-creators"></a>İçerik oluşturucuları için kullanım ölçümleri
 
-1. Yönetici portalında **Kiracı ayarları** > **Denetim ve kullanım ayarları** > **İçerik oluşturucuları için kullanım ölçümleri**’ni seçin.
+1. Yönetici portalında **Kiracı ayarları** > **Denetim ve kullanım ayarları** > **İçerik oluşturucuları için kullanım ölçümleri** ’ni seçin.
 
     ![Yönetici portalı kiracı ayarları kullanım ölçümleri](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
-1. Kullanım ölçümlerini etkinleştirin (veya devre dışı bırakın) > **Uygula**'yı seçin.
+1. Kullanım ölçümlerini etkinleştirin (veya devre dışı bırakın) > **Uygula** 'yı seçin.
 
     ![Kullanım ölçümleri etkin](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
@@ -134,29 +134,27 @@ Denetim günlüklerini kullanmak için [**İç etkinlik denetimi ve uyumluluk i�
 
 ## <a name="tenant-settings"></a>Kiracı ayarları
 
-**Kiracı ayarları**, kuruluşunuzun kullanımına sunulan özellikler üzerinde çok ayrıntılı bir denetime olanak tanır. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz belirli özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz.
+**Kiracı ayarları** , kuruluşunuzun kullanımına sunulan özellikler üzerinde çok ayrıntılı bir denetime olanak tanır. Gizli verilerle ilgili endişeleriniz varsa, sunduğumuz belirli özellikler kuruluşunuz için uygun olmayabilir veya belirli bir özelliğin yalnızca belirli bir grubun kullanımına sunulmasını isteyebilirsiniz.
 
 > [!NOTE]
 > Power BI kullanıcı arabirimindeki özelliklerin kullanılabilirliğini denetleyen kiracı ayarları, idare ilkelerinin oluşturulmasında yardımcı olabilir ancak birer güvenlik ölçümü değildir. Örneğin, **Verileri dışarı aktar** ayarı, bir veri kümesindeki Power BI kullanıcısının izinlerini kısıtlamaz. Veri kümesine ilişkin okuma erişimine sahip Power BI kullanıcıları bu veri kümesini sorgulama iznine sahiptir ve Power BI kullanıcı arabirimindeki **Verileri dışarı aktar** özelliğini kullanmadan sonuçları kalıcı hale getirebilir.
 
-Aşağıdaki resimde **Kiracı ayarları** sekmesinin birkaç ayarı gösterilir.
-
-![Kiracı ayarları](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
+Aşağıdaki bölümlerde **Kiracı ayarları** sekmesinin ayarları ele alınmıştır.
 
 > [!NOTE]
 > Ayar değişikliğinin kuruluşunuzdaki herkes için geçerlilik kazanması 15 dakikaya kadar sürebilir.
 
-Ayarlar üç durumdan birine sahip olabilir:
+Çoğu ayar üç durumdan birine sahip olabilir:
 
-* **Tüm kuruluş için devre dışı bırakıldı**: Kuruluşunuzda kimse bu özelliği kullanamaz.
+* **Tüm kuruluş için devre dışı bırakıldı** : Kuruluşunuzda kimse bu özelliği kullanamaz.
 
     ![Tümü devre dışı ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Tüm kuruluş için etkinleştirildi**: Kuruluşunuzdaki herkes bu özelliği kullanabilir.
+* **Tüm kuruluş için etkinleştirildi** : Kuruluşunuzdaki herkes bu özelliği kullanabilir.
 
     ![Tümü etkin ayarı](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Kuruluşun bir alt kümesi için etkinleştirildi**: Kuruluşunuzdaki belirli güvenlik gruplarının bu özelliği kullanmasına izin verilir.
+* **Kuruluşun bir alt kümesi için etkinleştirildi** : Kuruluşunuzdaki belirli güvenlik gruplarının bu özelliği kullanmasına izin verilir.
 
     **Belirli kullanıcı grupları dışında** kuruluşunuzun tamamı için de bir özelliği etkinleştirebilirsiniz.
 
@@ -168,6 +166,12 @@ Ayarlar üç durumdan birine sahip olabilir:
 
 Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bakışa yer verilmiştir.
 
+## <a name="tenant-wide-new-look-settings"></a>Kiracı genelindeki yeni görünüm ayarları
+
+**Yeni görünüm** seçeneği devre dışı bırakıldığında bu kuruluştaki kullanıcılar Power BI'ın yeni görünümü açabilir ve kapatabilir. **Yeni görünüm** seçeneğini etkinleştirdiğinizde bu kuruluştaki *tüm* kullanıcılar her zaman Power BI'ın yeni görünümündeki modern denetimleri görür. Kullanıcılar yeni görünümü kapatamaz. Yeni görünüm seçeneği varsayılan olarak etkindir.
+
+:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Yönetici portalındaki Yeni görünümü devre dışı bırak seçeneğinin ekran görüntüsü.":::
+
 ## <a name="help-and-support-settings"></a>Yardım ve destek ayarları
 
 ### <a name="publish-get-help-information"></a>“Yardım alın” bilgilerini yayımlama
@@ -176,13 +180,13 @@ Aşağıdaki bölümlerde kiracı ayarlarının farklı türleri için genel bak
 
 Yöneticiler, lisans yükseltmeleri için ve Power BI yardım menüsünde bağlantıların hedefini geçersiz kılmak amacıyla iç URL’ler belirtebilir. Özel URL’ler ayarlanırsa kuruluştaki kullanıcılar, varsayılan hedefler yerine iç yardım ve destek kaynaklarına gider. Aşağıdaki kaynak hedefleri özelleştirilebilir:
 
-* **Öğrenin**. Varsayılan olarak bu yardım menüsü bağlantısı, [tüm Power BI öğrenme yollarımızın ve modüllerimizin listesini](/learn/browse/?products=power-bi) hedefler. Bunun yerine bu bağlantıyı iç eğitim kaynaklarına yönlendirmek için, **Eğitim belgelerine** yönelik özel bir URL ayarlayın.
+* **Öğrenin** . Varsayılan olarak bu yardım menüsü bağlantısı, [tüm Power BI öğrenme yollarımızın ve modüllerimizin listesini](/learn/browse/?products=power-bi) hedefler. Bunun yerine bu bağlantıyı iç eğitim kaynaklarına yönlendirmek için, **Eğitim belgelerine** yönelik özel bir URL ayarlayın.
 
-* **Topluluk**. Kullanıcıları, yardım menüsünden [Power BI Topluluğu](https://community.powerbi.com/) yerine bir iç foruma götürmek için **Tartışma forumu**’na yönelik özel bir URL ayarlayın.
+* **Topluluk** . Kullanıcıları, yardım menüsünden [Power BI Topluluğu](https://community.powerbi.com/) yerine bir iç foruma götürmek için **Tartışma forumu** ’na yönelik özel bir URL ayarlayın.
 
-* **Lisans yükseltmeleri**. Power BI (ücretsiz) lisansına sahip kullanıcılara, hizmeti kullanırken hesaplarını Power BI Pro’ya yükseltme fırsatı sunulabilir. **Lisanslama istekleri** için bir iç URL belirtirseniz kullanıcıları bir iç isteğe ve satın alma akışına yeniden yönlendirir ve self servis satın alma işlemini engellersiniz. Kullanıcıların lisans satın almasını engellemek istiyorsanız, ancak kullanıcıların Power BI Pro deneme sürümü başlatmasına izin vermek istiyorsanız satın alma ve deneme deneyimlerini ayırmak için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](#allow-users-to-try-power-bi-pro).
+* **Lisans yükseltmeleri** . Power BI (ücretsiz) lisansına sahip kullanıcılara, hizmeti kullanırken hesaplarını Power BI Pro’ya yükseltme fırsatı sunulabilir. **Lisanslama istekleri** için bir iç URL belirtirseniz kullanıcıları bir iç isteğe ve satın alma akışına yeniden yönlendirir ve self servis satın alma işlemini engellersiniz. Kullanıcıların lisans satın almasını engellemek istiyorsanız, ancak kullanıcıların Power BI Pro deneme sürümü başlatmasına izin vermek istiyorsanız satın alma ve deneme deneyimlerini ayırmak için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](#allow-users-to-try-power-bi-pro).
 
-* **Yardım alın**. Kullanıcıları, yardım menüsünden [Power BI Desteği](https://powerbi.microsoft.com/support/) yerine bir iç yardım masasına götürmek için **Yardım Masası**’na yönelik özel bir URL ayarlayın.
+* **Yardım alın** . Kullanıcıları, yardım menüsünden [Power BI Desteği](https://powerbi.microsoft.com/support/) yerine bir iç yardım masasına götürmek için **Yardım Masası** ’na yönelik özel bir URL ayarlayın.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Hizmet kesintileri veya olaylara yönelik e-posta bildirimlerini etkinleştir
 
@@ -218,7 +222,7 @@ Yönetici portalının **Kiracı ayarları** bölümünde çalışma alanların�
 
 Çalışma alanları kullanıcıların panolar, raporlar ve diğer içerikler üzerinde işbirliği yaptığı alanlardır. Yöneticiler, kuruluştaki hangi kullanıcıların çalışma alanı oluşturabileceğini belirtmek için **Çalışma alanı oluştur (yeni çalışma alanı deneyimi)** ayarını kullanır. Yöneticiler kuruluştaki kişilerin tümüne yeni çalışma alanı deneyimi oluşturma izni verebilir veya hiçbirine vermeyebilir. Ayrıca çalışma alanı oluşturmayı belirli güvenlik gruplarının üyeleriyle de sınırlayabilir. [Çalışma alanları](../collaborate-share/service-new-workspaces.md) hakkında daha fazla bilgi edinin.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Yönetici portalındaki Yeni görünümü devre dışı bırak seçeneğinin ekran görüntüsü.":::
 
 Microsoft 365 Gruplarını temel alan klasik çalışma alanlarında yönetim yine yönetim portalında ve Azure Active Directory'de gerçekleşir.
 
@@ -237,7 +241,7 @@ Yönetici portalında, hangi kullanıcıların kuruluş uygulamalarını dağıt
 
 Yöneticiler, kuruluştaki hangi kullanıcıların veri kümelerini farklı çalışma alanlarında kullanabileceğini denetleyebilir. Bu ayar etkinleştirildiğinde de kullanıcılar, belirli bir veri kümesi için gerekli Oluşturma iznine ihtiyaç duyar.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Yönetici portalındaki Yeni görünümü devre dışı bırak seçeneğinin ekran görüntüsü.":::
 
 Daha fazla bilgi için bkz. [Çalışma alanları arasında veri kümelerine giriş](../connect-data/service-datasets-across-workspaces.md).
 
@@ -283,13 +287,13 @@ Yönetici portalındaki **Web’de yayımla** ayarı, kullanıcıların ekleme k
 
 ![Web’de yayımla ayarı](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-Yöneticiler **Web’de yayımlama** ayarını **Etkin**, **Ekleme kodlarının nasıl çalışacağını seçme** ayarını ise **Yalnızca mevcut ekleme kodlarına izin ver** olarak belirleyebilir. Bu durumda kullanıcılar ekleme kodları oluşturabilir, ancak izin vermesi için Power BI yöneticisine ulaşmaları gerekir.
+Yöneticiler **Web’de yayımlama** ayarını **Etkin** , **Ekleme kodlarının nasıl çalışacağını seçme** ayarını ise **Yalnızca mevcut ekleme kodlarına izin ver** olarak belirleyebilir. Bu durumda kullanıcılar ekleme kodları oluşturabilir, ancak izin vermesi için Power BI yöneticisine ulaşmaları gerekir.
 
 ![Web'de yayımla istemi](../collaborate-share/media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
-|Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
+|Özellik |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
 |Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
@@ -358,7 +362,7 @@ Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](.
 
 ### <a name="featured-content"></a>Öne çıkan içerik
 
-Kuruluşunuzdaki rapor yazarlarının bazılarının veya tümünün içeriklerini Power BI Giriş Sayfasının Öne Çıkanlar bölümünde öne çıkarmasına izin verin. Yeni kullanıcılar, Power BI Giriş sayfasının üst kısmında öne çıkan içerikleri görür. Öne çıkan içerik, kullanıcılar **Sık kullanılanlar**, **sık ziyaret edilenler** ve **Son Kullanılanlar** ekledikçe Giriş sayfasının aşağısına taşınır. 
+Kuruluşunuzdaki rapor yazarlarının bazılarının veya tümünün içeriklerini Power BI Giriş Sayfasının Öne Çıkanlar bölümünde öne çıkarmasına izin verin. Yeni kullanıcılar, Power BI Giriş sayfasının üst kısmında öne çıkan içerikleri görür. Öne çıkan içerik, kullanıcılar **Sık kullanılanlar** , **sık ziyaret edilenler** ve **Son Kullanılanlar** ekledikçe Giriş sayfasının aşağısına taşınır. 
 
 Önce küçük bir dizi destekleyenle başlanmasını öneririz. Tüm kuruluşun Giriş Sayfasında içeriği öne çıkarmasına izin verilmesi, tüm tanıtılan içeriğin takip edilmesini zorlaştırabilir. 
 
@@ -403,7 +407,7 @@ Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerin
 
 **Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Yeni çalışma alanı deneyimi oluşturma":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Yönetici portalındaki Yeni görünümü devre dışı bırak seçeneğinin ekran görüntüsü.":::
 
 **Verileri dışarı aktar** ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
 
@@ -571,11 +575,11 @@ Yönetici olarak, tüm kuruluşunuz için Power BI görünümünü özelleştire
 
 ![Özel marka seçenekleri](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **Logo Yükle**: En iyi sonuçlar için .png olarak kaydedilmiş, 10 KB veya daha küçük boyutta ve en az 200 x 30 piksel çözünürlüğe sahip bir logo yükleyin.
+* **Logo Yükle** : En iyi sonuçlar için .png olarak kaydedilmiş, 10 KB veya daha küçük boyutta ve en az 200 x 30 piksel çözünürlüğe sahip bir logo yükleyin.
 
-* **Kapak resmi yükle**: En iyi sonuçlar için .jpg veya .png olarak kaydedilmiş, 1 MB veya daha küçük boyutta ve en az 1920 x 160 piksel çözünürlüğe sahip bir kapak resmi yükleyin.
+* **Kapak resmi yükle** : En iyi sonuçlar için .jpg veya .png olarak kaydedilmiş, 1 MB veya daha küçük boyutta ve en az 1920 x 160 piksel çözünürlüğe sahip bir kapak resmi yükleyin.
 
-* **Tema rengi seç**: Bir onaltılık sayı, RGB, değer kullanarak veya verilen paletten temanızı seçebilirsiniz.
+* **Tema rengi seç** : Bir onaltılık sayı, RGB, değer kullanarak veya verilen paletten temanızı seçebilirsiniz.
 
 
 Daha fazla bilgi için bkz. [Kuruluşunuz için özel marka oluşturma](https://aka.ms/orgBranding).

@@ -7,17 +7,45 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/24/2020
+ms.date: 10/21/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224222"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349449"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI’a erişmek için özel bağlantılar
+
+Azure ağında Power BI'ın güvenli erişim sunmasını sağlayan iki güvenlik özelliği vardır: Azure Özel Bağlantı ve Özel Uç Nokta. Azure Özel Bağlantı ve Özel Uç Nokta ile veri trafiği Microsoft'un özel omurga ağı altyapısı üzerinden geçer ve bu sayede internet üzerinden geçmemiş olur. 
+
+Özel bağlantılar, Power BI kullanıcılarının Power BI hizmetindeki kaynaklara erişmek için Microsoft'un özel ağ omurgasını kullanmasını sağlar.
+
+Daha fazla bilgi için bkz. [Azure Özel Bağlantı](https://azure.microsoft.com/services/private-link/).
+
+## <a name="understanding-private-links"></a>Özel bağlantıları anlama
+
+Özel bağlantılar, kuruluşunuzun Power BI yapıtlarına (raporlar veya çalışma alanları gibi) *giden* trafiğin her zaman kuruluşunuz tarafından yapılandırılan özel bağlantı ağ yolundan geçeceğini garanti eder. Power BI yapıtlarına doğru giden kullanıcı trafiğinin kurulan özel bağlantı üzerinden gelmesi gerekir. Ayrıca Power BI'ı yapılandırılan ağ yolundan gelmeyen tüm istekleri reddedecek şekilde yapılandırabilirsiniz. 
+
+Özel bağlantılar, Power BI'dan dış (bulutta veya şirket içinde bulunan) veri kaynaklarınıza giden bağlantılar için güvenlik garantisi *vermez* . Bunu gerçekleştirmek için veri kaynaklarınızın güvenliğini sağlayacak güvenlik duvarı kuralları ve sanal ağlar yapılandırmanız gerekir. 
+
+### <a name="power-bi-and-private-links-integration"></a>Power BI ve özel bağlantılar tümleştirmesi
+
+Power BI için Azure Özel Uç Nokta, Azure Özel Bağlantı tarafından sunulan ve Power BI hizmetine özel ve güvenli bir şekilde bağlanmanızı sağlayan bir ağ arabirimidir.   
+
+Özel Uç Nokta tümleştirmesi, hizmet olarak platform (PaaS) hizmetlerinin müşterinin sanal ve şirket içi ağlarından dağıtılıp özel olarak erişilmesini sağlar. Bu senaryoda hizmet, müşterinin ağının dışında çalıştırılmaya devam eder. Özel Uç Nokta, istemcilerin belirli bir hizmete bağlanmasını sağlayan tek ve yönlü bir teknolojidir. Ancak hizmetin, müşteri ağına bağlantı kurmasına izin vermez. Hizmetin müşteri ağındaki ilke yapılandırmasından bağımsız olarak çalışmasını sağladığından bu Özel Uç Nokta tümleştirme deseni yönetim yalıtımı sunar. Bu Özel Uç Nokta modeli çok kiracılı hizmetler için aynı hizmette barındırılan diğer müşterilere ait kaynaklara erişimi engelleme amacıyla bağlantı tanımlayıcıları sağlar. Özel Uç Nokta ile tümleştirme kullanılarak hizmetlerden yalnızca sınırlı bir PaaS hizmeti kaynağı kümesine erişim sağlanabilir.  
+
+Power BI hizmeti, Hizmet Uç Noktası değil Özel Uç Nokta kullanır.  
+
+Özel Bağlantılar, Power BI hizmetiyle birlikte kullanıldığında şu avantajları sağlar:
+
+1. Özel Bağlantılar, trafiğin Azure omurgasından geçerek Azure bulut tabanlı kaynaklarına yönelik özel uç noktaya ulaşmasını sağlar. 
+
+2. Şirket içi erişim gibi Azure harici altyapılardan ağ trafiği yalıtımı sağlanması için müşterinin ExpressRoute veya Sanal Özel Ağ (VPN) yapılandırmasına sahip olması gerekir.  
+
+## <a name="using-secure-private-links-to-access-power-bi"></a>Power BI'a erişmek için güvenli özel bağlantıları kullanma
 
 Power BI’da, kuruluşunuzun Power BI’a özel olarak erişmesini sağlayan bir uç nokta yapılandırıp kullanabilirsiniz. Özel bağlantılar yapılandırmak için Power BI yöneticisi olmanız, Azure’da Sanal Makineler ve Sanal Ağlar gibi kaynaklar oluşturma ve yapılandırma iznine sahip olmanız gerekir. 
 
@@ -36,7 +64,7 @@ Aşağıdaki bölümlerde, her bir adım için ek bilgiler sağlanmaktadır.
 
 ## <a name="enable-private-links-for-power-bi"></a>Power BI için özel bağlantıları etkinleştirme
 
-Başlamak için app.powerbi.com adresine gidip Power BI’da yönetici olarak oturum açın ve Yönetici portalına gidin. **Kiracı ayarları**’nı seçip **Gelişmiş Ağ**’a gidin ve aşağıdaki resimde gösterildiği gibi **Azure Özel Bağlantı**’yı açmak için radyo düğmesinin durumunu değiştirin. 
+Başlamak için app.powerbi.com adresine gidip Power BI’da yönetici olarak oturum açın ve Yönetici portalına gidin. **Kiracı ayarları** ’nı seçip **Gelişmiş Ağ** ’a gidin ve aşağıdaki resimde gösterildiği gibi **Azure Özel Bağlantı** ’yı açmak için radyo düğmesinin durumunu değiştirin. 
 
 Kiracınız için özel bağlantının yapılandırılması yaklaşık 15 dakika sürer. Kiracının Power BI hizmetleriyle özel olarak iletişim kurması için ayrı bir FQDN yapılandırılması da buna dahildir.
 
@@ -76,7 +104,7 @@ ARM şablonu oluşturma
 }
 ```
 
-Görüntülenen iletişim kutusunda, hüküm ve koşulları kabul etmek için onay kutusunu işaretleyip **Satın Al**’ı seçin.
+Görüntülenen iletişim kutusunda, hüküm ve koşulları kabul etmek için onay kutusunu işaretleyip **Satın Al** ’ı seçin.
 
 ![Hüküm ve koşulları kabul edip şablonu satın alın](media/service-security-private-links/service-private-links-02.png)
 
@@ -101,7 +129,7 @@ Sonraki adım, sanal ağ ve alt ağ oluşturmaktır. Bir sanal ağ ve alt ağ ol
     |-------------------|---------|
     |**Proje ayrıntıları**|
     |Abonelik | Azure Aboneliğinizi seçin |
-    |Kaynak Grubu |   **Yeni oluştur** seçeneğini belirleyin, ```<resource-group-name>``` değerini girin, ardından **Tamam**’ı seçin veya parametrelere göre var olan bir ```<resource-group-name>``` seçin. |
+    |Kaynak Grubu |   **Yeni oluştur** seçeneğini belirleyin, ```<resource-group-name>``` değerini girin, ardından **Tamam** ’ı seçin veya parametrelere göre var olan bir ```<resource-group-name>``` seçin. |
     |**Örnek ayrıntıları** |
     | Name  | ```<virtual-network-name>``` değerini girin |
     |Region | ```<region-name>``` seçeneğini belirleyin |
@@ -130,9 +158,9 @@ Sonraki adım, sanal ağ ve alt ağ oluşturmaktır. Bir sanal ağ ve alt ağ ol
     
     ![Sanal ağ oluşturma, Alt ağı düzenle sekmesi](media/service-security-private-links/service-private-links-05.png)
 
-5. Ardından **Kaydet**’i ve sonra **Gözden geçir ve oluştur** sekmesini seçin veya **Gözden geçir ve oluştur** düğmesini seçin. 
+5. Ardından **Kaydet** ’i ve sonra **Gözden geçir ve oluştur** sekmesini seçin veya **Gözden geçir ve oluştur** düğmesini seçin. 
 
-6. Ardından **Oluştur**’u seçin.
+6. Ardından **Oluştur** ’u seçin.
 
 Bu adımları tamamladıktan sonra, bir sonraki bölümde açıklandığı gibi bir sanal makine (VM) oluşturabilirsiniz.
 
@@ -152,9 +180,9 @@ Bir sonraki adım, sanal ağ ve sanal makinenin barındırılacağı alt ağın 
     |Kaynak Grubu |   Önceki bölümde oluşturduğunuz **myResourceGroup** öğesini seçin. |
     |**Örnek ayrıntıları** ||
     |Name | **myVm** değerini girin |
-    |Region | **Orta ABD**’yi seçin |
+    |Region | **Orta ABD** ’yi seçin |
     |Kullanılabilirlik seçenekleri| Varsayılan **Altyapı yedekliliği gerekmez** değerini değiştirmeyin |
-    |Görüntü | **Windows 10 Pro**’yu seçin |
+    |Görüntü | **Windows 10 Pro** ’yu seçin |
     |Boyut | Varsayılan **Standart DS1 v2** değerini değiştirmeyin |
     |YÖNETİCİ HESABI ||
     |Kullanıcı adı |Seçtiğiniz bir kullanıcı adını girin |
@@ -176,10 +204,10 @@ Bir sonraki adım, sanal ağ ve sanal makinenin barındırılacağı alt ağın 
     |Alt ağ |Varsayılan **mySubnet (10.1.0.0/24)** değerini değiştirmeyin|
     |Genel IP| Varsayılan **(new) myVm-ip** değerini değiştirmeyin|
     |Genel gelen bağlantı noktaları|  **Seçilenlere izin ver** seçeneğini belirleyin|
-    |Gelen bağlantı noktalarını seçin|  **RDP**’yi seçin|
+    |Gelen bağlantı noktalarını seçin|  **RDP** ’yi seçin|
 
-6. **Gözden geçir ve oluştur**’u seçin. Azure’ın yapılandırmanızı doğrulayacağı **Gözden geçir ve oluştur** sayfasına yönlendirilirsiniz.
-7. **Doğrulama başarılı** iletisini gördüğünüzde **Oluştur**’u seçin.
+6. **Gözden geçir ve oluştur** ’u seçin. Azure’ın yapılandırmanızı doğrulayacağı **Gözden geçir ve oluştur** sayfasına yönlendirilirsiniz.
+7. **Doğrulama başarılı** iletisini gördüğünüzde **Oluştur** ’u seçin.
 
 
 ## <a name="create-a-private-endpoint"></a>Özel uç nokta oluşturma
@@ -197,7 +225,7 @@ Bu bölümde açıklanan sonraki bölüm, Power BI için özel bir uç nokta olu
     |Kaynak Grubu|    **myResourceGroup** öğesini seçin. Önceki bölümde bunu oluşturdunuz|
     |**Örnek ayrıntıları** ||
     |Name|  *myPrivateEndpoint* değerini girin. Bu ad daha önce alındıysa benzersiz bir ad oluşturun|
-    |Region|    **Orta ABD**’yi seçin|
+    |Region|    **Orta ABD** ’yi seçin|
     
     Aşağıdaki resimde **Özel uç nokta oluşturma - Temel Bilgiler** penceresi gösterilmektedir.
     
@@ -225,14 +253,14 @@ Bu bölümde açıklanan sonraki bölüm, Power BI için özel bir uç nokta olu
     |Sanal ağ|   *myVirtualNetwork* öğesini seçin |
     |Alt ağ |*mySubnet* öğesini seçin |
     |**ÖZEL DNS TÜMLEŞTİRMESİ** ||
-    |Özel DNS bölgesi ile tümleştirme|   **Evet**’i seçin |
+    |Özel DNS bölgesi ile tümleştirme|   **Evet** ’i seçin |
     |Özel DNS Bölgesi   |Şunu seçin: <br> *(New)privatelink.analysis.windows.net* <br> *(New)privatelink.pbidedicated.windows.net* <br> *(New)privatelink.tip1.powerquery.microsoft.com* |
     
     Aşağıdaki resimde **Özel uç nokta oluşturma - Yapılandırma** penceresi gösterilmektedir.
     
     ![Özel uç nokta oluşturma, yapılandırma](media/service-security-private-links/service-private-links-08.png)
     
-    Ardından **Gözden geçir ve oluştur** seçeneğini belirleyin. Böylece Azure’ın yapılandırmanızı doğrulayacağı **Gözden geçir ve oluştur** sayfası görüntülenir. **Doğrulama başarılı** iletisini gördüğünüzde **Oluştur**’u seçin.
+    Ardından **Gözden geçir ve oluştur** seçeneğini belirleyin. Böylece Azure’ın yapılandırmanızı doğrulayacağı **Gözden geçir ve oluştur** sayfası görüntülenir. **Doğrulama başarılı** iletisini gördüğünüzde **Oluştur** ’u seçin.
 
 ## <a name="connect-to-a-vm-using-remote-desktop-rdp"></a>Uzak Masaüstü (RDP) kullanarak sanal makineye bağlanma
 
@@ -240,12 +268,12 @@ Bu bölümde açıklanan sonraki bölüm, Power BI için özel bir uç nokta olu
 
 1. Portalın arama çubuğuna *myVm* değerini girin.
 2. **Bağlan** düğmesini seçin. **Bağlan** düğmesini seçtikten sonra **Sanal makineye bağlan** sayfası açılır.
-3. **RDP Dosyasını İndir**’i seçin. Azure bir Uzak Masaüstü Protokolü (.rdp) dosyası oluşturur ve bunu bilgisayarınıza indirir.
+3. **RDP Dosyasını İndir** ’i seçin. Azure bir Uzak Masaüstü Protokolü (.rdp) dosyası oluşturur ve bunu bilgisayarınıza indirir.
 4. İndirilen .rdp dosyasını açın.
-5. İstendiğinde **Bağlan**’ı seçin.
+5. İstendiğinde **Bağlan** ’ı seçin.
 6. Önceki adımda sanal makine oluştururken belirttiğiniz kullanıcı adını ve parolayı girin.
-7. **Tamam**’ı seçin.
-8. Oturum açma işlemi sırasında bir sertifika uyarısı alabilirsiniz. Bir sertifika uyarısı alırsanız **Evet**’i veya **Devam**’ı seçin.
+7. **Tamam** ’ı seçin.
+8. Oturum açma işlemi sırasında bir sertifika uyarısı alabilirsiniz. Bir sertifika uyarısı alırsanız **Evet** ’i veya **Devam** ’ı seçin.
 
 ## <a name="access-power-bi-privately-from-the-vm"></a>Sanal makineden özel olarak Power BI’a erişme
 
@@ -270,7 +298,7 @@ Bir sonraki adım, aşağıdaki adımlar kullanılarak, önceki adımda oluştur
 
 Son olarak, Power BI için genel erişimi devre dışı bırakmanız gerekir. 
 
-App.powerbi.com adresinde yönetici olarak oturum açın ve **Yönetici portalı**’na gidin. **Kiracı ayarları**’nı seçip **Gelişmiş ağ** bölümüne gidin. Aşağıdaki resimde gösterildiği gibi, **Genel İnternet Erişimini Engelle** bölümünde açma/kapatma düğmesini etkinleştirin. Sistemin, kuruluşunuzun genel İnternet’ten Power BI’a erişimini devre dışı bırakması yaklaşık 15 dakika sürer.
+App.powerbi.com adresinde yönetici olarak oturum açın ve **Yönetici portalı** ’na gidin. **Kiracı ayarları** ’nı seçip **Gelişmiş ağ** bölümüne gidin. Aşağıdaki resimde gösterildiği gibi, **Genel İnternet Erişimini Engelle** bölümünde açma/kapatma düğmesini etkinleştirin. Sistemin, kuruluşunuzun genel İnternet’ten Power BI’a erişimini devre dışı bırakması yaklaşık 15 dakika sürer.
 
 Hepsi bu kadar. Bu adımlar izlendikten sonra kurumlarınız için Power BI’a yalnızca özel bağlantılardan erişilebilir ve genel İnternet’ten erişilemez. 
 

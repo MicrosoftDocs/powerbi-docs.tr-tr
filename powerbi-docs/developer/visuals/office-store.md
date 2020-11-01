@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049442"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349702"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI görsellerini İş Ortağı Merkezi'nde yayımlama
 
@@ -63,6 +63,9 @@ E-postanıza **pbiviz dosyasını** ve **örnek rapor pbix dosyasını** ekleyin
 
 Power BI görselinizi AppSource'a göndermek için Power BI ekibinden bir uygulama paketi almalı ve ardından bunu İş Ortağı Merkezi'ne göndermelisiniz.
 
+>[!IMPORTANT]
+>Bir görseli yeniden gönderiyorsanız GUID değerini değiştiremezsiniz.
+
 ### <a name="getting-the-app-package"></a>Uygulama paketini alma
 
 Görselinizi AppSource'a göndermeden önce **pbiviz** dosyasını ve **pbix** dosyasını e-posta ile Power BI ekibine göndermeniz gerekir. Böylece Power BI ekibi, dosyaları herkese açık paylaşım sunucusuna yükleyebilir. Aksi halde mağaza, dosyaları alamaz. 
@@ -74,35 +77,35 @@ Power BI ekibi yeni Power BI görsel gönderimleri, mevcut Power BI görsellerin
 Power BI görselinizi İş Ortağı Merkezi'ne göndermek için İş Ortağı Merkezi'ne kaydolmanız gerekir. Henüz kaydolmadıysanız [İş Ortağı Merkezi'nde bir geliştirici hesabı açın](/office/dev/store/open-a-developer-account).
 
 >[!NOTE]
->**Bireysel yayıncılar**, şu yöntemlerden birini kullanarak Power BI görseli gönderebilir:
+>**Bireysel yayıncılar** , şu yöntemlerden birini kullanarak Power BI görseli gönderebilir:
 >* Eski bir Satıcı Panosu hesabınız varsa bu hesabın kimlik bilgilerini kullanarak İş Ortağı Merkezi'nde oturum açabilirsiniz.
 >* Eski bir Satıcı Panosu hesabınız yoksa ve İş Ortağı Merkezi'ne kaydolmadıysanız iş e-posta adresinizi kullanarak [İş Ortağı Merkezi'nde bir geliştirici hesabı açmanız](/office/dev/store/open-a-developer-account) gerekir.
 
 Power BI görselinizi İş Ortağı Merkezi'ne göndermek için aşağıdaki adımları izleyin. Gönderim işlemi hakkında daha fazla bilgi için bkz. [Office çözümünüzü İş Ortağı Merkezi üzerinden AppSource'a gönderme](/office/dev/store/use-partner-center-to-submit-to-appsource).
 
-1. **İş Ortağı Merkezi**'nde oturum açın.
+1. **İş Ortağı Merkezi** 'nde oturum açın.
 
-2. Sol bölmede **OFFICE MAĞAZASI**'nı seçin.
+2. Sol bölmede **OFFICE MAĞAZASI** 'nı seçin.
 
-3. **Genel bakış**'ı seçin.
+3. **Genel bakış** 'ı seçin.
 
-4. **Yeni oluştur**'u seçin ve açılan menüden **Power BI görseli**'ni seçin.
+4. **Yeni oluştur** 'u seçin ve açılan menüden **Power BI görseli** 'ni seçin.
 
     ![İş Ortağı Merkezi'nin Office Mağazası sekmesinde yeni Power BI görseli oluşturma işleminin ekran görüntüsü.](media/office-store/power-bi-visual.png)
 
-5. **Yeni Power BI görseli oluştur** penceresinde Power BI görseliniz için bir ad girin ve **Oluştur**'u seçin.
+5. **Yeni Power BI görseli oluştur** penceresinde Power BI görseliniz için bir ad girin ve **Oluştur** 'u seçin.
 
-6. **Paketler**'i seçin ve Power BI görseli XML uygulama paketinizi karşıya yükleyin.
+6. **Paketler** 'i seçin ve Power BI görseli XML uygulama paketinizi karşıya yükleyin.
 
-7. **Özellikler**'i seçin ve gerekli bilgileri sağlayın.
+7. **Özellikler** 'i seçin ve gerekli bilgileri sağlayın.
 
-8. Ürününüz ek satın alma gerektiriyorsa **Ürün kurulumu**'nu seçin ve **İlişkili hizmet satın alma** onay kutusunu işaretleyin.
+8. Ürününüz ek satın alma gerektiriyorsa **Ürün kurulumu** 'nu seçin ve **İlişkili hizmet satın alma** onay kutusunu işaretleyin.
 
-9. (İsteğe bağlı) Görselinizi [sertifikalamak](power-bi-custom-visuals-certified.md) istiyorsanız **Ürün kurulumu**'nu seçin ve **Power BI sertifikasyonu** onay kutusunu işaretleyin.
+9. (İsteğe bağlı) Görselinizi [sertifikalamak](power-bi-custom-visuals-certified.md) istiyorsanız **Ürün kurulumu** 'nu seçin ve **Power BI sertifikasyonu** onay kutusunu işaretleyin.
     >[!TIP]
     >Power BI sertifikasyon işlemi zaman alabilir. Yeni Power BI görseli oluşturuyorsanız, Power BI sertifikasyonu istemeden önce Power BI görselinizi İş Ortağı Merkezi'nde yayımlamanızı öneririz. Bu şekilde görselinizin yayımlanmasını geciktirmemiş olursunuz.
 
-10. **Ürün kurulumu**'nu seçin ve **Gözden geçir ve yayımla**'ya tıklayın.
+10. **Ürün kurulumu** 'nu seçin ve **Gözden geçir ve yayımla** 'ya tıklayın.
 
 
 ## <a name="tracking-submission-status-and-usage"></a>Gönderme ve kullanma durumu takibi

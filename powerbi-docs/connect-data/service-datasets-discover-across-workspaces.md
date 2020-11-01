@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e9bffc860baa424caef05bad3ac423932868c410
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374350"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681111"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Farklı çalışma alanlarını temel alarak raporlar oluşturma
 
 Diğer çalışma alanlarındaki veri kümelerini temel alarak kendi çalışma alanınızda nasıl rapor oluşturabileceğinizi öğrenin. Mevcut bir veri kümesinin üzerinde rapor oluşturmak için Çalışma Alanım bölümünüzdeki veya [yeni bir çalışma alanı deneyimindeki](../collaborate-share/service-create-the-new-workspaces.md) Power BI Desktop veya Power BI hizmetinden başlayabilirsiniz.
 
-- Power BI hizmetinde: **Veri alma** > **Paylaşılan veri kümeleri**.
-- Power BI Desktop’ta: **Veri alma** > **Power BI veri kümeleri**.
+- Power BI hizmetinde: **Veri alma** > **Paylaşılan veri kümeleri** .
+- Power BI Desktop’ta: **Veri alma** > **Power BI veri kümeleri** .
 
     ![Mevcut bir veri kümesine bağlanma](media/service-datasets-across-workspaces/power-bi-connect-dataset-pk.png)
    
@@ -40,7 +40,7 @@ Bu listede gördüğünüz veri kümeleri şu koşullardan en az birini karşıl
 > [!NOTE]
 > Ücretsiz kullanıcıysanız, sadece My Workspace bölümünüzde bulunan veri kümelerini veya Premium kapasiteli çalışma alanlarında bulunan ve Oluşturma izniniz olan veri kümelerini görürsünüz.
 
-**Oluştur**’a tıkladığınızda veri kümesiyle canlı bir bağlantı oluşturursunuz ve rapor oluşturma deneyimi kullanılabilir olan tam veri kümesi ile açılır. Veri kümesinin bir kopyasını oluşturmadınız. Bu veri kümesi hala özgün konumunda bulunuyor. Kendi raporlarınızı oluşturmak için veri kümesindeki tüm tabloları ve ölçümleri kullanabilirsiniz. Veri kümenizde satır düzeyi güvenlik (RLS) kısıtlamaları uygulandığı için, sadece RLS rolünüzün görme izni bulunan izinleri görürsünüz.
+**Oluştur** ’a tıkladığınızda veri kümesiyle canlı bir bağlantı oluşturursunuz ve rapor oluşturma deneyimi kullanılabilir olan tam veri kümesi ile açılır. Veri kümesinin bir kopyasını oluşturmadınız. Bu veri kümesi hala özgün konumunda bulunuyor. Kendi raporlarınızı oluşturmak için veri kümesindeki tüm tabloları ve ölçümleri kullanabilirsiniz. Veri kümenizde satır düzeyi güvenlik (RLS) kısıtlamaları uygulandığı için, sadece RLS rolünüzün görme izni bulunan izinleri görürsünüz.
 
 Raporu, Power BI hizmetindeki mevcut çalışma alanına kaydedebilir veya Power BI Desktop’tan bir çalışma alanında yayımlayabilirsiniz. Rapor çalışma alanının dışındaki bir veri kümesini temel alıyorsa, Power BI veri kümeleri listesinde otomatik olarak bir giriş oluşturur. Bu veri kümesinin simgesi, çalışma alanındaki veri kümelerinin simgesinden farklıdır: ![Paylaşılan veri kümesi simgesi](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
 
@@ -50,14 +50,14 @@ Böylece, çalışma alanının üyeleri hangi raporların ve panoların çalı�
 
 ## <a name="find-an-endorsed-dataset"></a>Desteklenen bir veri kümesi bulma
 
-İki farklı türde desteklenen veri kümesi bulunur. Veri kümesi sahipleri size önerdikleri bir veri kümesini *yükseltebilir*. Ayrıca Power BI yöneticisi, kuruluşunuzda herkesin kullanabilmesi için veri kümelerini *onaylayan* uzmanlar belirleyebilir. Yükseltilen ve onaylanan veri kümelerinde, bir veri kümesini ararken veya bir çalışma alanındaki veri kümelerinin listesinde gördüğünüz *rozetler* görüntülenir. Veri kümesi bulma deneyimi sırasında veri kümesini onaylayan kişinin adı bir araç ipucunda görüntülenir; **Onaylandı** etiketinin üzerine gelirseniz bunu görürsünüz.
+İki farklı türde desteklenen veri kümesi bulunur. Veri kümesi sahipleri size önerdikleri bir veri kümesini *yükseltebilir* . Ayrıca Power BI yöneticisi, kuruluşunuzda herkesin kullanabilmesi için veri kümelerini *onaylayan* uzmanlar belirleyebilir. Yükseltilen ve onaylanan veri kümelerinde, bir veri kümesini ararken veya bir çalışma alanındaki veri kümelerinin listesinde gördüğünüz *rozetler* görüntülenir. Veri kümesi bulma deneyimi sırasında veri kümesini onaylayan kişinin adı bir araç ipucunda görüntülenir; **Onaylandı** etiketinin üzerine gelirseniz bunu görürsünüz.
 
-- Power BI hizmetinde: **Veri alma** > **Paylaşılan veri kümeleri**.
-- Power BI Desktop’ta: **Veri alma** > **Power BI veri kümeleri**.
+- Power BI hizmetinde: **Veri alma** > **Paylaşılan veri kümeleri** .
+- Power BI Desktop’ta: **Veri alma** > **Power BI veri kümeleri** .
 
     **Bir veri kümesi seçin** iletişim kutusunda, desteklenen veri kümeleri varsayılan olarak en üstte görünür. 
 
-    ![Yükseltilen veri kümesi](media/service-datasets-certify-promote/power-bi-dataset-promoted.png)
+    ![Yükseltilen veri kümesi](media/service-datasets-discover-across-workspaces/power-bi-dataset-promoted.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

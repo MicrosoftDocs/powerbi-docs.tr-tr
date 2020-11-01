@@ -7,19 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222878"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501915"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA için şifrelemeyi etkinleştirme
 
-Power BI Desktop ve Power BI hizmetinden bir SAP HANA sunucusuna yönelik bağlantıları şifrelemenizi öneririz. Hem OpenSSL hem de SAP'nin özel CommonCryptoLib (eski adıyla sapcrypto) kitaplığını kullanarak HANA şifrelemesini etkinleştirebilirsiniz. SAP, CommonCryptoLib kullanmayı önerir, ancak temel şifreleme özellikleri kitaplıklardan herhangi biri kullanılarak kullanılabilir.
+Power BI Desktop ve Power BI hizmetinden bir SAP HANA sunucusuna yönelik bağlantıları şifrelemenizi öneririz. SAP'nin özel CommonCryptoLib (eski adıyla sapcrypto) kitaplığını kullanarak HANA şifrelemesini etkinleştirebilirsiniz. SAP, CommonCryptoLib kullanılmasını önerir.
+
+> [!IMPORTANT]
+> SAP artık OpenSSL desteği sunmadığından Microsoft da desteğini sonlandırmıştır. Var olan ve yeni bağlantılar 2020'nin sonuna kadar çalışmaya devam edecektir ancak 1 Ocak 2021 itibarıyla devre dışı kalacaktır. Bunun yerine CommonCryptoLib kullanın.
 
 Bu makalede, OpenSSL kullanarak şifrelemeyi etkinleştirmeye ilişkin bir genel bakış sağlanır ve SAP belgelerinin belirli bölümlerine başvurulur. İçerikleri ve bağlantıları düzenli aralıklarla güncelleştiriyoruz, ancak kapsamlı yönergeler ve destek için her zaman resmi SAP belgelerine başvurun. OpenSSL yerine CommonCryptoLib kullanarak şifrelemeyi ayarlamak istiyorsanız bkz. [SAP HANA 2.0 içinde TLS/SSL’yi yapılandırma](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/) OpenSSL’den CommonCryptoLib’e geçiş adımları için bkz. [SAP Not 2093286](https://launchpad.support.sap.com/#/notes/2093286) (s-user gereklidir).
 
@@ -40,7 +43,7 @@ HANA sunucusu için bir X509 sertifika imzalama isteği oluşturun.
 
 1. SSH kullanarak, HANA sunucusunun \<sid\>adm olarak çalıştığı Linux makinesine bağlanın.
 
-1. _/__usr/sap/\<sid\>/home_ ana dizinine gidin.
+1. _/_ _usr/sap/\<sid\>/home_ ana dizinine gidin.
 
 1. Zaten mevcut değilse _.__ssl_ adlı bir gizli dizin oluşturun.
 
@@ -98,7 +101,7 @@ HANA sunucusuna bağlanmak için kullanacağınız istemciler tarafından güven
 
 Bağlantıyı Power BI Desktop’ta veya Power BI hizmetinde test edin.
 
-1. Power BI Desktop veya Power BI hizmetinin **Ağ geçitlerini yönet** sayfasında, SAP HANA sunucunuzla bağlantı kurmaya çalışmadan önce **Sunucu sertifikasını doğrula**’nın etkinleştirildiğinden emin olun. **SSL şifreleme sağlayıcısı** için, bu kitaplığı şifreleme sağlayıcınız olarak yapılandırmış olmanız durumunda, OpenSSL kurulum adımlarını ve commoncrypto’yu izlediyseniz, mscrypto’yu seçin. SSL anahtar deposu ve SSL güven deposu alanlarını boş bırakın.
+1. Power BI Desktop veya Power BI hizmetinin **Ağ geçitlerini yönet** sayfasında, SAP HANA sunucunuzla bağlantı kurmaya çalışmadan önce **Sunucu sertifikasını doğrula** ’nın etkinleştirildiğinden emin olun. **SSL şifreleme sağlayıcısı** için, bu kitaplığı şifreleme sağlayıcınız olarak yapılandırmış olmanız durumunda, OpenSSL kurulum adımlarını ve commoncrypto’yu izlediyseniz, mscrypto’yu seçin. SSL anahtar deposu ve SSL güven deposu alanlarını boş bırakın.
 
     - Power BI Desktop
 

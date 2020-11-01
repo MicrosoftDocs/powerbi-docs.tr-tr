@@ -1,6 +1,6 @@
 ---
 title: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
-description: Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
+description: Şirket içi Analysis Services tablolu modeli ile dinamik satır düzeyi güvenlik
 author: davidiseminger
 ms.reviewer: davidi
 editor: davidi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878315"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349610"
 ---
-# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services tablosal modelinde satır düzeyi güvenlik uygulama
+# <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>Şirket içi Analysis Services tablolu modeli ile satır düzeyi güvenlik uygulama
 
-Bu öğreticide aşağıdaki adımların üzerinden geçerken örnek bir veri kümesi kullanılarak *Analysis Services Tablolu Modeli*'nde [**satır düzeyi güvenliğin**](../admin/service-admin-rls.md) uygulanması ve bunun bir Power BI raporunda kullanılması gösterilir.
+Bu öğreticide aşağıdaki adımların üzerinden geçerken örnek bir veri kümesi kullanılarak şirket içi *Analysis Services Tablolu Modeli* 'nde [**satır düzeyi güvenliğin**](../admin/service-admin-rls.md) uygulanması ve bunun bir Power BI raporunda kullanılması gösterilir.
 
 * [AdventureworksDW2012 veritabanında](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks) yeni bir güvenlik tablosu oluşturma
 * Gerekli olgu ve boyut tablolarıyla tablolu modeli oluşturma
@@ -44,11 +44,11 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
 1. Tabloyu oluşturup kaydettikten sonra aşağıda gösterildiği gibi `DimUserSecurity` tablosunun `SalesTerritoryID` sütunuyla `DimSalesTerritory` tablosunun `SalesTerritoryKey` sütunu arasında bir ilişki kurmanız gerekir.
 
-   SSMS'de **DimUserSecurity** öğesine sağ tıklayın ve **Tasarım**'ı seçin. Ardından **Tablo Tasarımcısı** > **İlişkiler...** seçeneğini belirtin. İşiniz bittiğinde tabloyu kaydedin.
+   SSMS'de **DimUserSecurity** öğesine sağ tıklayın ve **Tasarım** 'ı seçin. Ardından **Tablo Tasarımcısı** > **İlişkiler...** seçeneğini belirtin. İşiniz bittiğinde tabloyu kaydedin.
 
    ![Yabancı Anahtar İlişkileri](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 
-1. Tabloya kullanıcıları ekleyin. **DimUserSecurity** öğesine sağ tıklayın ve **İlk 200 Satırı Düzenle**'yi seçin. Kullanıcıları ekledikten sonra `DimUserSecurity` tablosu aşağıdaki örneğe benzer görünmelidir:
+1. Tabloya kullanıcıları ekleyin. **DimUserSecurity** öğesine sağ tıklayın ve **İlk 200 Satırı Düzenle** 'yi seçin. Kullanıcıları ekledikten sonra `DimUserSecurity` tablosu aşağıdaki örneğe benzer görünmelidir:
 
    ![Örnek kullanıcılarla DimUserSecurity tablosu](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
 
@@ -60,7 +60,7 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
     select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
     ```
 
-   Birleştirilmiş tabloda 2. Adımda oluşturulan ilişki sayesinde her satış bölgesinden kimin sorumlu olduğu gösterilir. Örneğin *Rita Santos*'un *Avustralya*'dan sorumlu olduğunu görebilirsiniz.
+   Birleştirilmiş tabloda 2. Adımda oluşturulan ilişki sayesinde her satış bölgesinden kimin sorumlu olduğu gösterilir. Örneğin *Rita Santos* 'un *Avustralya* 'dan sorumlu olduğunu görebilirsiniz.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>2\. Görev: Olgu ve boyut tablolarıyla tablolu modeli oluşturma
 
@@ -70,9 +70,9 @@ Buradaki adımlar AdventureworksDW2012 ilişkisel veritabanının kullanılması
 
     ![Veri araçlarıyla kullanmak üzere içeri aktarılan SQL Server](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
-1. Gerekli tabloları içeri aktardıktan sonra Okuma iznine sahip *SalesTerritoryUsers* adlı rolü tanımlamanız gerekir. SQL Server Veri Araçları'nda **Model** menüsünü seçin ve sonra da **Roller**'i seçin. **Rol Yöneticisi**'nde **Yeni**'yi seçin.
+1. Gerekli tabloları içeri aktardıktan sonra Okuma iznine sahip *SalesTerritoryUsers* adlı rolü tanımlamanız gerekir. SQL Server Veri Araçları'nda **Model** menüsünü seçin ve sonra da **Roller** 'i seçin. **Rol Yöneticisi** 'nde **Yeni** 'yi seçin.
 
-1. **Rol Yöneticisi**'nin **Üyeler** sekmesinde, [1. Görevdeki](#task-1-create-the-user-security-table-and-define-data-relationship) `DimUserSecurity` tablosunda tanımladığınız kullanıcıları ekleyin.
+1. **Rol Yöneticisi** 'nin **Üyeler** sekmesinde, [1. Görevdeki](#task-1-create-the-user-security-table-and-define-data-relationship) `DimUserSecurity` tablosunda tanımladığınız kullanıcıları ekleyin.
 
     ![Rol Yöneticisi'nde kullanıcıları ekleme](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
@@ -117,19 +117,19 @@ Bu yordam tamamlandığında ağ geçidi yapılandırılmış ve şirket içi An
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>4\. Görev: Power BI Desktop'ı kullanarak Analysis Services tablolu modeline dayanan bir rapor oluşturma
 
-1. Power BI Desktop'ı başlatın ve **Veri Al** > **Veritabanı**'nı seçin.
+1. Power BI Desktop'ı başlatın ve **Veri Al** > **Veritabanı** 'nı seçin.
 
-1. Veri kaynakları listesinden **SQL Server Analysis Services Veritabanı**'nı ve ardından **Bağlan**'ı seçin.
+1. Veri kaynakları listesinden **SQL Server Analysis Services Veritabanı** 'nı ve ardından **Bağlan** 'ı seçin.
 
    ![SQL Server Analysis Services Veritabanına Bağlanma](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Analysis Services tablolu örneğinizle ilgili bilgileri girip **Canlı bağlan**'ı seçin. Ardından **Tamam**'ı seçin.
+1. Analysis Services tablolu örneğinizle ilgili bilgileri girip **Canlı bağlan** 'ı seçin. Ardından **Tamam** 'ı seçin.
   
    ![Analysis Services ayrıntıları](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
    Power BI'da dinamik güvenlik yalnızca canlı bağlantı ile kullanılabilir.
 
-1. Dağıtılan modelin Analysis Services örneğinde olduğunu görebilirsiniz. İlgili modeli ve ardından **Tamam**'ı seçin.
+1. Dağıtılan modelin Analysis Services örneğinde olduğunu görebilirsiniz. İlgili modeli ve ardından **Tamam** 'ı seçin.
 
    Power BI Desktop uygulamasında tuvalin sağ tarafındaki **Alanlar** bölmesinde kullanılabilir durumdaki tüm alanlar görüntülenir.
 
@@ -139,7 +139,7 @@ Bu yordam tamamlandığında ağ geçidi yapılandırılmış ve şirket içi An
 
    ![Halka grafik görselleştirmesi](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-1. Raporunuz hazır olduğunda doğrudan Power BI portalında yayımlayabilirsiniz. Power BI Desktop uygulamasının **Giriş** şeridinden **Yayımla**'yı seçin.
+1. Raporunuz hazır olduğunda doğrudan Power BI portalında yayımlayabilirsiniz. Power BI Desktop uygulamasının **Giriş** şeridinden **Yayımla** 'yı seçin.
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>5\. Görev: Pano oluşturma ve yapılandırma
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374162"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681055"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Çalışma alanları genelinde veri kümeleri kullanımını denetleme
 
@@ -32,9 +32,9 @@ Bu ayarı kapatırsanız, rapor oluşturucularda şöyle etkileri olur:
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Onaylama süreci için bağlantı sağlama
 
-Power BI yöneticisi olarak **Onay** ayarı sayfasındaki **Daha fazla bilgi edinin** bağlantısı için bir URL sağlayabilirsiniz.  Bu bağlantı onaylama süreciniz hakkındaki belgelere gidebilir. **Daha fazla bilgi edinin** bağlantısı için bir hedef sağlamazsanız, bağlantı varsayılan olarak [veri kümesi onaylama](service-datasets-certify.md) makalesine işaret eder.
+Power BI yöneticisi olarak **Onay** ayarı sayfasındaki **Daha fazla bilgi edinin** bağlantısı için bir URL sağlayabilirsiniz.  Ayrıntılar için bkz. [İçerik onayını etkinleştirme](../admin/service-admin-setup-certification.md). Bu bağlantı onaylama süreciniz hakkındaki belgelere gidebilir. **Daha fazla bilgi edinin** bağlantısı için bir hedef sağlamazsanız, bağlantı varsayılan olarak [İçeriğinizi onaylama](../collaborate-share/service-endorse-content.md) makalesini açar.
 
-![Veri kümesi onayı - Daha fazla bilgi edinin](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
+![Veri kümesi onayı - Daha fazla bilgi edinin](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

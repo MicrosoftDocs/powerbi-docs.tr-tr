@@ -9,22 +9,22 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928321"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349426"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
 Power BI Desktop'ta bir Google **BigQuery** veritabanına bağlanabilir ve veritabanındaki verileri diğer Power BI Desktop veri kaynakları gibi kullanabilirsiniz.
 
 ## <a name="connect-to-google-bigquery"></a>Google BigQuery'ye bağlanma
-Bir Google **BigQuery** veritabanına bağlanmak için Power BI Desktop'ta **Giriş** şeridinden **Veri Al**'ı seçin. Soldaki kategorilerden **Veritabanı**'nı seçtiğinizde **Google BigQuery**'yi görebilirsiniz.
+Bir Google **BigQuery** veritabanına bağlanmak için Power BI Desktop'ta **Giriş** şeridinden **Veri Al** 'ı seçin. Soldaki kategorilerden **Veritabanı** 'nı seçtiğinizde **Google BigQuery** 'yi görebilirsiniz.
 
 ![Google BigQuery için Veri Al iletişim kutusu](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-Açılan **Google BigQuery** penceresinde, Google BigQuery hesabınızda oturum açın ve **Bağlan**'ı seçin.
+Açılan **Google BigQuery** penceresinde, Google BigQuery hesabınızda oturum açın ve **Bağlan** 'ı seçin.
 
 ![Google BigQuery'de oturum açma](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -32,7 +32,7 @@ Oturum açtığınızda aşağıdaki pencereyi gösterirsiniz ve bu kimliğinizi
 
 ![Google'da oturum açıldı](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya birden çok öğe seçebilirsiniz.
+Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop** 'a aktarılıp kullanılacak bir veya birden çok öğe seçebilirsiniz.
 
 ![Google BigQuery verileri](media/desktop-connect-bigquery/connect_bigquery_03.png)
 
@@ -49,7 +49,7 @@ Google **BigQuery** bağlayıcısı ile ilgili olarak göz önünde bulundurman�
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  Eylül 2020 sürümünden itibaren [Google BigQuery Storage API](https://cloud.google.com/bigquery/docs/reference/storage) desteğini etkinleştirdik. Ayrıntılı izinleri kullanan bazı müşteriler bu özellikle ilgili sorun yaşayabilir. Bu senaryoda aşağıdaki hata iletisini görebilirsiniz:
+  Eylül 2020 sürümünden itibaren [Google BigQuery Storage API](https://cloud.google.com/bigquery/docs/reference/storage) desteğini etkinleştirdik. Bu özellik varsayılan olarak etkindir ve "UseStorageApi" adlı isteğe bağlı Boole bağımsız değişkeni tarafından denetlenir. Ayrıntılı izinleri kullanan bazı müşteriler bu özellikle ilgili sorun yaşayabilir. Bu senaryoda aşağıdaki hata iletisini görebilirsiniz:
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ Google **BigQuery** bağlayıcısı ile ilgili olarak göz önünde bulundurman�
   - `bigquery.readsessions.update`: BigQuery Storage API aracılığıyla bir okuma oturumunu güncelleştirir.
 
   Bu izinler genellikle BigQuery.User rolünde sağlanır. Daha fazla bilgi için bkz. [Google BigQuery Predefined roles and permissions](https://cloud.google.com/bigquery/docs/access-control) (Önceden tanımlanmış roller ve izinler).
-
+  
+  Yukarıdaki adımları uygulamanıza rağmen sorununuz çözülmediyse veya Depolama API'si desteğini devre dışı bırakmak isterseniz sorgunuzu şu şekilde değiştirin:
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  Kullanmakta olduğunuz bir faturalama projesi varsa sorguyu şu şekilde değiştirin:
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

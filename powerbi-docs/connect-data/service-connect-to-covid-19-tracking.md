@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230253"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349536"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>COVID-19 ABD izleme raporuna bağlanma
 Bu makalede COVID-19 izleme raporuna yönelik şablon uygulamasını yükleme ve veri kaynaklarına bağlanma yöntemi açıklanır.
@@ -26,13 +26,13 @@ Sorumluluk reddi ve veriler hakkındaki bilgiler de dahil olmak üzere raporun k
 
 ## <a name="install-the-app"></a>Uygulamayı yükleme
 
-1. Uygulamaya ulaşmak için aşağıdaki bağlantıya tıklayın: [COVID-19 ABD İzleme Raporu şablon uygulaması](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+1. Uygulamaya ulaşmak için aşağıdaki bağlantıya tıklayın: [COVID-19 ABD İzleme Raporu şablon uygulaması](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Uygulamanın AppSource sayfasına ulaştığınızda [**ŞİMDİ EDİNİN**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)’e tıklayın.
+1. Uygulamanın AppSource sayfasına ulaştığınızda [**ŞİMDİ EDİNİN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)’e tıklayın.
 
-    [![AppSource’ta COVID-19 ABD İzleme Raporu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+    [![AppSource’ta COVID-19 ABD İzleme Raporu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Sorulduğunda **Yükle**’ye tıklayın. Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
+1. Sorulduğunda **Yükle** ’ye tıklayın. Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
 
    ![Uygulama sayfasında COVID-19 ABD İzleme Raporu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
@@ -40,15 +40,25 @@ Sorumluluk reddi ve veriler hakkındaki bilgiler de dahil olmak üzere raporun k
 
 1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeye tıklayın.
 
-1. Görüntülenen karşılama ekranında **Bağlan**’ı seçin.
+1. Görüntülenen karşılama ekranında **Bağlan** ’ı seçin.
 
    ![Şablon uygulaması karşılama ekranı](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Art arda iki oturum açma iletişim kutusu açılır. Gizlilik düzeyini her ikisinde de Genel olarak ayarlayın.
+1. Parametreler iletişim kutusu açılır. Gerekli parametre yoktur. **İleri** ’ye tıklayın.
 
-   ![COVID-19 ABD İzleme Raporu oturum açma iletişim kutusu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+   ![Covid-19 US İzleme Kaydı için parametre iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
-   Rapor veri kaynaklarına bağlanıp güncel verilerle doldurulur. Bu sırada, etkinlik izleyicisi açılır.
+1. Kimlik doğrulama yöntemi iletişim kutusu açılır. Önerilen değerler önceden doldurulmuştur. Diğer değerler hakkında bilginiz yoksa mevcut değerleri değiştirmeyin.
+
+    **İleri** ’ye tıklayın.
+
+   ![Covid-19 US İzleme Kaydı için kimlik doğrulaması iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
+
+1. **Oturum aç** ’a tıklayın.
+
+   ![Covid-19 US İzleme Kaydı için oturum açma iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+ 
+   Rapor veri kaynaklarına bağlanıp güncel verilerle doldurulur. Bu süre boyunca örnek verileri ve devam eden bir yenileme işlemi olduğunu görürsünüz.
 
    ![COVID-19 ABD İzleme Raporu, yenileme sürüyor](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-refresh-monitor.png)
 

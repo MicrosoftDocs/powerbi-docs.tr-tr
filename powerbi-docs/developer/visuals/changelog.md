@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748483"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501961"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI görselleri API’si değişiklik günlüğü
 Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen sürümlerin kararlı sürümler olduğu kabul edilir ve bu sürümler değişmeyecektir.
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData` : yeni `aggregateSegments` parametresi (varsayılan değeri true); toplama yapmadan fetchMoreData desteği için
 
 ## <a name="api-v320"></a>API v3.2.0
   * **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** ’ı destekler
 
 ## <a name="api-v260"></a>API v2.6.0
-  * Güncelleştirme seçeneğine **isInFocus**, görsel konak için de **switchFocusModeState** yöntemi ekler
+  * Güncelleştirme seçeneğine **isInFocus** , görsel konak için de **switchFocusModeState** yöntemi ekler
   * **subtotals** özelleştirmesini destekler
 
 ## <a name="api-v250"></a>API v2.5.0

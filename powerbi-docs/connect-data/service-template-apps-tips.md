@@ -8,19 +8,19 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860291"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349679"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
 Power BI’da [şablon uygulamanızı yazarken](service-template-apps-create.md), bu sürecin bir bölümü çalışma alanı oluşturma, test etme ve üretim lojistiğinden oluşur. Ama bu sürecin bir diğer önemli bölümünün de rapor ve pano yazma olduğu açıktır. Yazma sürecini dört ana bileşene ayırabiliriz. Bu bileşenler üzerinde çalışmak mümkün olan en iyi şablon uygulamasını oluşturmanıza yardımcı olur:
 
-* **Sorgularla**, verilere [bağlanıp](desktop-connect-to-data.md) onları [dönüştürür](../transform-model/desktop-query-overview.md) ve [parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) tanımlarsınız. 
-* **Veri modelinde**, [ilişkileri](../transform-model/desktop-create-and-manage-relationships.md) ve [ölçüleri](../transform-model/desktop-measures.md) oluşturur, Soru-Cevap geliştirmeleri yaparsınız.  
+* **Sorgularla** , verilere [bağlanıp](desktop-connect-to-data.md) onları [dönüştürür](../transform-model/desktop-query-overview.md) ve [parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) tanımlarsınız. 
+* **Veri modelinde** , [ilişkileri](../transform-model/desktop-create-and-manage-relationships.md) ve [ölçüleri](../transform-model/desktop-measures.md) oluşturur, Soru-Cevap geliştirmeleri yaparsınız.  
 * **[Rapor sayfaları](../create-reports/desktop-report-view.md)** verilerinize yönelik içgörüler sağlayan görseller ve filtreler içerir.  
 * **[Panolar](../consumer/end-user-dashboards.md)** ve [kutucuklar](../create-reports/service-dashboard-create.md) sağlanan içgörülere genel bir bakış sunar.
 * Örnek veriler, uygulamanızın yüklenmesinin hemen ardından bulunabilmesini sağlar.
@@ -30,7 +30,7 @@ Belirtilen bileşenler birer Power BI özelliği olarak tanıdık gelebilir. Şa
 <a name="queries"></a>
 
 ## <a name="queries"></a>Sorgular
-Şablon uygulamaları için, Power BI Desktop'ta geliştirilen sorgular veri kaynağınızla bağlantı kurmak ve verileri içeri aktarmak için kullanılır. Bu sorgular, tutarlı bir şema döndürmek için gereklidir ve Zamanlanmış Veri yenilemede desteklenir (DirectQuery desteklenmez).
+Şablon uygulamaları için, Power BI Desktop'ta geliştirilen sorgular veri kaynağınızla bağlantı kurmak ve verileri içeri aktarmak için kullanılır. Bu sorgular, tutarlı bir şema döndürmek için gereklidir ve Zamanlanmış Veri yenilemede desteklenir.
 
 ### <a name="connect-to-your-api"></a>API'nize bağlanma
 Öncelikle, sorgularınızı oluşturmaya başlamak için Power BI Desktop'tan API'nize bağlanmanız gerekir.
