@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: PowerShell ile veri kaynağı bağlantı dizelerini değiştirme
               href: connect-data-source-apis.md
+            - name: 'PowerShell ile veri kaynağı bağlantı dizelerini değiştirme, Ekim 2020 öncesi'
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: Zamanlanmış yenileme yapılandırma
               href: configure-scheduled-refresh.md
             - name: Raporlara açıklama ekleme
