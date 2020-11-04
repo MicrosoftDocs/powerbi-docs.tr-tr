@@ -9,20 +9,22 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f103f29c61d1a4e4a5340d97598d80a86c708701
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239555"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298043"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI’da, bir sayfalandırılmış rapor için URL’de rapor parametresi geçirme 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Rapor parametrelerini, bir sayfalandırılmış rapor URL’sine ekleyerek geçirebilirsiniz. Tüm sorgu parametrelerinin karşılık gelen rapor parametreleri olabilir. Böylelikle, karşılık gelen rapor parametresini geçirerek bir sorgu parametresini rapora geçirirsiniz. Power BI’ın parametre adını URL’de tanıması için, parametre adına `rp:` ön eki getirmeniz gerekir. 
 
 Rapor parametreleri büyük/küçük harfe duyarlıdır ve şu özel karakterleri kullanır: 
 
-- URL’nin parametre bölümündeki bir boşluk, artı işaretiyle (+) değiştirilir.  Örnek: 
+- URL’nin parametre bölümündeki bir boşluk, artı işaretiyle (+) değiştirilir.  Örneğin: 
 
     ```rp:Holiday=Christmas+Day```
 
@@ -54,7 +56,7 @@ Bir parametreye null değerini geçirmek için aşağıdaki söz dizimini kullan
 parameter:isnull=true
 ```
 
-Örnek:
+Örneğin:
 
 ```
 rp:SalesOrderNumber:isnull=true

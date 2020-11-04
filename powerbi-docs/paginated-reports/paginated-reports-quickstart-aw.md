@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853989"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297530"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Öğretici: Sayfalandırılmış rapor oluşturma ve bu raporu Power BI hizmetine yükleme
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Bu öğreticide, örnek bir Azure SQL veritabanına bağlanırsınız. Ardından Power BI Rapor Oluşturucusu'ndaki sihirbazı kullanarak birden çok sayfaya yayılmış bir tablosu olan sayfalandırılmış raporu oluşturursunuz. Sayfalandırılmış raporu Power BI hizmetinde Premium kapasitedeki bir çalışma alanına yüklersiniz.
 
@@ -53,13 +55,13 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
   
      ![Rapor Oluşturucusu’nu Kullanmaya Başlama](media/paginated-reports-create-embedded-dataset/power-bi-paginated-get-started.png)
   
-1.  Sol bölmede **Yeni Rapor**'un seçili olduğundan emin olun ve sağ bölmede **Tablo ve Matris Sihirbazı**'nı seçin.  
+1.  Sol bölmede **Yeni Rapor** 'un seçili olduğundan emin olun ve sağ bölmede **Tablo ve Matris Sihirbazı** 'nı seçin.  
   
-4.  **Veri kümesi seçin** sayfasında **Veri kümesi oluştur** > **İleri**'yi seçin.  
+4.  **Veri kümesi seçin** sayfasında **Veri kümesi oluştur** > **İleri** 'yi seçin.  
 
     ![Veri kümesi oluşturma](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
-5.  **Bir veri kaynağı bağlantısı seçin** sayfasında **Yeni**'yi seçin. 
+5.  **Bir veri kaynağı bağlantısı seçin** sayfasında **Yeni** 'yi seçin. 
 
     ![Yeni veri kaynağı](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
@@ -67,37 +69,37 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
   
 6.  Veri kaynağını istediğiniz gibi adlandırabilir, karakterleri ve alt çizgileri kullanabilirsiniz. Bu öğreticide, **Ad** kutusuna **AzureVeriKaynağım** yazın.  
   
-7.  **Bağlantı türünü seçin** kutusunda **Microsoft Azure SQL Veritabanı**'nı seçin.  
+7.  **Bağlantı türünü seçin** kutusunda **Microsoft Azure SQL Veritabanı** 'nı seçin.  
   
-8.  **Bağlantı dizesi** kutusunun yanında **Oluştur**'u seçin. 
+8.  **Bağlantı dizesi** kutusunun yanında **Oluştur** 'u seçin. 
 
     ![Veri kaynağı özellikleri - Oluştur](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **Azure'da:** Azure portalına gidin ve **SQL veritabanları**'nı seçin.
+9. **Azure'da:** Azure portala gidin ve **SQL veritabanları** 'nı seçin.
 
 1. Bu makalenin **Önkoşullar** bölümünde, "Azure portalda Azure SQL veritabanı örneği oluşturma" hızlı başlangıcında oluşturduğunuz Azure SQL veritabanını seçin.
 
 1. **Genel bakış** sekmesinde, **Sunucu adı** kutusundaki değeri kopyalayın.
 
-2. **Rapor Oluşturucusu'nda**: Kopyaladığınız sunucu adını **Bağlantı Özellikleri** iletişim kutusundaki **Sunucu adı**'nın altına yapıştırın. 
+2. **Rapor Oluşturucusu'nda** : Kopyaladığınız sunucu adını **Bağlantı Özellikleri** iletişim kutusundaki **Sunucu adı** 'nın altına yapıştırın. 
 
-1. **Sunucuda oturum açın** bölümünde **SQL Server Kimlik Doğrulaması kullan**'ın seçildiğinden emin olun, sonra Azure'da örnek veritabanı için oluşturduğunuz kullanıcı adını ve parolayı yazın.
+1. **Sunucuda oturum açın** bölümünde **SQL Server Kimlik Doğrulaması kullan** 'ın seçildiğinden emin olun, sonra Azure'da örnek veritabanı için oluşturduğunuz kullanıcı adını ve parolayı yazın.
 
 1. **Veritabanına bağlan** bölümünde, aşağı açılan oku seçtikten sonra Azure'da oluşturduğunuz veritabanı adını seçin.
  
     ![Veri kaynağı bağlantı özellikleri](media/paginated-reports-quickstart-aw/power-bi-paginated-connection-properties.png)
 
-1. **Bağlantıyı Sına**'yı seçin. **Test sonuçları** olarak **Sınama bağlantısı başarılı** iletisini görürsünüz.
+1. **Bağlantıyı Sına** 'yı seçin. **Test sonuçları** olarak **Sınama bağlantısı başarılı** iletisini görürsünüz.
 
-1. **Tamam** > **Tamam**'ı seçin. 
+1. **Tamam** > **Tamam** 'ı seçin. 
 
    Şimdi Rapor Oluşturucusu, **Bağlantı dizesi** kutusunda az önce oluşturduğunuz bağlantı dizesini görüntüler. 
 
     ![Veri kaynağı bağlantı dizesi](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
-1. **Tamam**’ı seçin.
+1. **Tamam** ’ı seçin.
   
-9. **Bir veri kaynağı bağlantısı seçin** sayfasında, az önce oluşturduğunuz veri kaynağı bağlantısının altında "(bu Raporda)" ifadesini görürsünüz. Bu veri kaynağını > **İleri**'yi seçin.  
+9. **Bir veri kaynağı bağlantısı seçin** sayfasında, az önce oluşturduğunuz veri kaynağı bağlantısının altında "(bu Raporda)" ifadesini görürsünüz. Bu veri kaynağını > **İleri** 'yi seçin.  
 
     ![Azure veri kaynağım](media/paginated-reports-quickstart-aw/power-bi-paginated-my-azure-data-source.png)
 
@@ -116,13 +118,13 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
     
     ![Sorgu tasarlama](media/paginated-reports-quickstart-aw/power-bi-paginated-design-query.png)
  
-1.  **Sorgu Çalıştır**'ı seçin. Rapor Oluşturucusu **Sorgu sonuçları**'nı görüntüler. 
+1.  **Sorgu Çalıştır** 'ı seçin. Rapor Oluşturucusu **Sorgu sonuçları** 'nı görüntüler. 
  
      ![Sorgu sonuçları](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. **İleri**’yi seçin. 
+18. **İleri** ’yi seçin. 
 
-19. **Veri kümesi seçin** sayfasında, az önce oluşturduğunuz veri kümesini > **İleri**'yi seçin.
+19. **Veri kümesi seçin** sayfasında, az önce oluşturduğunuz veri kümesini > **İleri** 'yi seçin.
 
     ![Veri kümesi seçme](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
@@ -142,7 +144,7 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
 
     ![Alanları düzenleme](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. **Düzeni seçin** sayfasında, tüm varsayılan ayarları koruyun ama **Grupları genişlet/daralt**'ı temizleyin. Genel olarak, grupları genişletme/daraltma özelliği çok yararlıdır ama bu kez tablonun birden çok satıra kaydırılmasını istiyorsunuz.
+24. **Düzeni seçin** sayfasında, tüm varsayılan ayarları koruyun ama **Grupları genişlet/daralt** 'ı temizleyin. Genel olarak, grupları genişletme/daraltma özelliği çok yararlıdır ama bu kez tablonun birden çok satıra kaydırılmasını istiyorsunuz.
 
 1. **Sonraki** > **Son** seçeneğini belirleyin. Tablo tasarım yüzeyinde görüntülenir.
  
@@ -160,12 +162,12 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
 
     Hala gerçek veri değerlerini görmüyorsunuz. Bunları görmek için raporu çalıştırmanız gerekir.
 
-4. Özellikler bölmesinde, seçimi matrisin adı Tablix1'dir. Rapor Oluşturucusu'nda *Tablix*, verileri satırlar ve sütunlar halinde görüntüleyen bir veri bölgesidir. Bu bir tablo veya matris olabilir.
+4. Özellikler bölmesinde, seçimi matrisin adı Tablix1'dir. Rapor Oluşturucusu'nda *Tablix* , verileri satırlar ve sütunlar halinde görüntüleyen bir veri bölgesidir. Bu bir tablo veya matris olabilir.
 
 5. Gruplandırma bölmesinde, sihirbazda oluşturduğunuz üç satır grubunu görürsünüz: 
 
     - CompanyName
-    - Satış Siparişi
+    - Sales Order
     - Ürün Adı
 
     Bu matrisin sütun grubu yoktur.
@@ -174,19 +176,19 @@ Sayfalandırılmış raporunuzu Power BI hizmetine yüklemeye yönelik önkoşul
 
 Gerçek değerleri görmek için raporu çalıştırmanız gerekir.
 
-1. **Giriş** araç çubuğunda **Çalıştır**'ı seçin.
+1. **Giriş** araç çubuğunda **Çalıştır** 'ı seçin.
 
    Artık değerleri görürsünüz. Matrisin Tasarım görünümünde gördüğünüzden çok daha fazla satırı vardır! Rapor Oluşturucusu'nda sayfa **1** / **2?** gösterildiğine dikkat edin. Rapor Oluşturucusu raporu mümkün olan en kısa sürede yükler, dolayısıyla bir kerede yalnızca birkaç sayfaya yetecek kadar veri alır. Soru işareti, Rapor Oluşturucusu'nun henüz tüm verileri yüklemediğini gösterir.
 
    ![Raporu çalıştırma](media/paginated-reports-quickstart-aw/power-bi-paginated-run-report.png)
 
-2. **Yazdırma Düzeni**'ni seçin. Yazdırdığınızda raporun biçimi böyle olacaktır. Rapor Oluşturucusu artık raporun 33 sayfa olduğunu biliyordur ve alt bilgiye otomatik olarak tarih ve saat eklemiştir.
+2. **Yazdırma Düzeni** 'ni seçin. Yazdırdığınızda raporun biçimi böyle olacaktır. Rapor Oluşturucusu artık raporun 33 sayfa olduğunu biliyordur ve alt bilgiye otomatik olarak tarih ve saat eklemiştir.
 
 ## <a name="format-the-report"></a>Raporu biçimlendirme
 
 Artık 33 sayfaya kaydırılmış bir matris içeren bir raporunuz vardır. Şimdi de başka bazı özellikler ekleyelim ve görünümünü geliştirelim. Ne duruma geldiğini görmek isterseniz, her adımdan sonra raporu çalıştırabilirsiniz.
 
-- Değişiklik yapmaya devam edebilmek için, Şeridin **Çalıştır** sekmesinde **Tasarım**'ı seçin.  
+- Değişiklik yapmaya devam edebilmek için, Şeridin **Çalıştır** sekmesinde **Tasarım** 'ı seçin.  
 
 ### <a name="set-page-width"></a>Sayfa genişliğini ayarlama
 
@@ -196,9 +198,9 @@ Normalde, sayfalandırılmış raporlar yazdırma için biçimlendirilir ve norm
 
 1. Tasarım yüzeyinin çevresindeki gri alana tıklayarak **Rapor** özelliklerini görüntüleyin.
 
-    Özellikler bölmesini görmüyorsanız, **Görünüm** sekmesi > **Özellikler**'e tıklayın.
+    Özellikler bölmesini görmüyorsanız, **Görünüm** sekmesi > **Özellikler** 'e tıklayın.
 
-2. **Kenar Boşlukları**'nı genişletin ve 1 inç olan **Sol** ile **Sağ** değerlerini 0,75 inç olarak değiştirin. 
+2. **Kenar Boşlukları** 'nı genişletin ve 1 inç olan **Sol** ile **Sağ** değerlerini 0,75 inç olarak değiştirin. 
 
     ![Sayfa kenar boşluklarını ayarlama](media/paginated-reports-quickstart-aw/power-bi-paginated-set-margins.png)
   
@@ -206,7 +208,7 @@ Normalde, sayfalandırılmış raporlar yazdırma için biçimlendirilir ve norm
 
 1. Sayfanın en üstündeki **Başlık eklemek için tıklayın** sözcüklerini seçin ve **Şirkete Göre Satışlar** yazın.  
 
-2. Başlık metnini seçin ve Özellikler bölmesinde, **Yazı Tipi**'nin altındaki **Renk** değerini **Mavi** olarak değiştirin.
+2. Başlık metnini seçin ve Özellikler bölmesinde, **Yazı Tipi** 'nin altındaki **Renk** değerini **Mavi** olarak değiştirin.
   
 ### <a name="add-a-page-number"></a>Sayfa numarası ekleme
 
@@ -214,15 +216,15 @@ Raporun alt bilgisinde bir tarih ve saat damgası olduğunu gördünüz. Alt bil
 
 1. Tasarım yüzeyinin en altında, alt bilgide sağ tarafta [&ExecutionTime] ifadesini görürsünüz. 
 
-2. Rapor Verileri bölmesinde Yerleşik Alanlar klasörünü genişletin. **Sayfa Numarası**'nı alt bilginin sol tarafına, [&ExecutionTime] ile aynı yüksekliğe sürükleyin.
+2. Rapor Verileri bölmesinde Yerleşik Alanlar klasörünü genişletin. **Sayfa Numarası** 'nı alt bilginin sol tarafına, [&ExecutionTime] ile aynı yüksekliğe sürükleyin.
 
 3. [&PageNumber] kutusunun sağ tarafını sürükleyerek kutuyu kare haline getirin.
 
-4. **Ekle** sekmesinde **Metin Kutusu**'nu seçin.
+4. **Ekle** sekmesinde **Metin Kutusu** 'nu seçin.
 
 5. [&PageNumber] kutusunun sağına tıklayın, "/" yazın ve ardından metin kutusunu kare haline getirin.
 
-6. **Genel Toplam Sayfa Sayısı**'nı alt bilgiye, "/" işaretinin sağ tarafına sürükleyin, ardından sağ tarafını sürükleyerek bunu da kare haline getirin.
+6. **Genel Toplam Sayfa Sayısı** 'nı alt bilgiye, "/" işaretinin sağ tarafına sürükleyin, ardından sağ tarafını sürükleyerek bunu da kare haline getirin.
 
     ![Sayfa numaralarını sürükleyin](media/paginated-reports-quickstart-aw/power-bi-paginated-add-page-numbers.png)
 
@@ -248,7 +250,7 @@ Raporu çalıştırdığınızda dolar tutarlarının henüz para birimi olarak 
 
     ![Para birimi değerleri içeren hücreleri seçin](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. **Giriş** sekmesinde dolar işareti ( **$** ) para birimi simgesini seçin ve ardından **Yer tutucu stilleri**'nin yanındaki oku  > **Örnek Değerler**'i seçin.
+2. **Giriş** sekmesinde dolar işareti ( **$** ) para birimi simgesini seçin ve ardından **Yer tutucu stilleri** 'nin yanındaki oku  > **Örnek Değerler** 'i seçin.
  
     ![Örnek değerleri görüntüleme](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 
@@ -260,23 +262,23 @@ Raporu çalıştırdığınızda dolar tutarlarının henüz para birimi olarak 
 
 Raporu Power BI hizmetinde yayımlamadan önce bir biçimlendirme geliştirmesi daha yapalım ve sütun başlıklarının raporun her sayfasında gösterilmesini sağlayalım.
 
-1. Gruplandırma bölmesindeki üst çubuğun sağ ucunda aşağı açılan oku > **Gelişmiş Mod**'u seçin.
+1. Gruplandırma bölmesindeki üst çubuğun sağ ucunda aşağı açılan oku > **Gelişmiş Mod** 'u seçin.
 
     ![Gelişmiş Modu açma](media/paginated-reports-quickstart-aw/power-bi-paginated-advanced-mode.png)
 
-2. **Satır Grupları**'nda üstteki **Statik** çubuğu seçin. Matriste Şirket Adı hücresinin seçili olduğunu görürsünüz.
+2. **Satır Grupları** 'nda üstteki **Statik** çubuğu seçin. Matriste Şirket Adı hücresinin seçili olduğunu görürsünüz.
 
    ![Statik grubu seçme](media/paginated-reports-quickstart-aw/power-bi-paginated-static-group.png)
 
-3. **Özellikler** bölmesinde, **Tablix Üyesi**'nin özelliklerini görürsünüz. **KeepWithGroup** özelliğini **After** ve **RepeatOnNewPage** özelliğini **True** olarak ayarlayın.
+3. **Özellikler** bölmesinde, **Tablix Üyesi** 'nin özelliklerini görürsünüz. **KeepWithGroup** özelliğini **After** ve **RepeatOnNewPage** özelliğini **True** olarak ayarlayın.
 
     ![RepeatOnNewPage değerini ayarlama](media/paginated-reports-quickstart-aw/power-bi-paginated-repeat-on-new-page.png)
 
     Artık raporu çalıştırabilir ve nasıl göründüğüne bakabilirsiniz.
 
-5. **Giriş** sekmesinde **Çalıştır**'ı seçin.
+5. **Giriş** sekmesinde **Çalıştır** 'ı seçin.
 
-6. Henüz seçilmediyse, **Yazdırma Düzeni**'ni seçin. Şimdi raporda 29 sayfa vardır. Birkaç sayfayı kaydırın. Para biriminin biçimlendirildiğini, her sayfada sütun başlıklarının olduğunu ve her sayfada raporun alt bilgisinde sayfa numaralarıyla tarih ve saat damgasının yer aldığını görürsünüz.
+6. Henüz seçilmediyse, **Yazdırma Düzeni** 'ni seçin. Şimdi raporda 29 sayfa vardır. Birkaç sayfayı kaydırın. Para biriminin biçimlendirildiğini, her sayfada sütun başlıklarının olduğunu ve her sayfada raporun alt bilgisinde sayfa numaralarıyla tarih ve saat damgasının yer aldığını görürsünüz.
  
     ![Tamamlanmış sayfa](media/paginated-reports-quickstart-aw/power-bi-paginated-finished-page.png)
 
@@ -286,29 +288,29 @@ Raporu Power BI hizmetinde yayımlamadan önce bir biçimlendirme geliştirmesi 
 
 Bu sayfalandırılmış raporu oluşturduğunuza göre, artık raporu Power BI hizmetine yükleyebilirsiniz.
 
-1. Gezinti bölmesindeki Power BI hizmetinde (`https://app.powerbi.com`) **Çalışma alanları** > **Çalışma alanı oluştur**’u seçin.
+1. Gezinti bölmesindeki Power BI hizmetinde (`https://app.powerbi.com`) **Çalışma alanları** > **Çalışma alanı oluştur** ’u seçin.
 
 2. Çalışma alanınızı **Azure AW** olarak adlandırın (veya başka bir benzersiz ad kullanın). Şimdilik tek üye sizsiniz. 
 
-3. **Gelişmiş**'in yanındaki oku seçin ve **Ayrılmış kapasite**'yi açın. 
+3. **Gelişmiş** 'in yanındaki oku seçin ve **Ayrılmış kapasite** 'yi açın. 
 
     ![Premium kapasitede çalışma alanı oluşturma](media/paginated-reports-quickstart-aw/power-bi-paginated-create-workspace-premium-capacity.png)
 
     Bunu açamazsanız, Power BI yöneticinizden ayrılmış Premium kapasiteye çalışma alanı ekleme izni istemelisiniz.
 
-4. **Bu çalışma alanı için kullanılabilir bir ayrılmış kapasite** seçin ve gerekirse > **Kaydet**'i seçin.
+4. **Bu çalışma alanı için kullanılabilir bir ayrılmış kapasite** seçin ve gerekirse > **Kaydet** 'i seçin.
     
     ![Elmas Premium simgesi](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
     Çalışma alanı Premium kapasitede değilse, raporunuzu karşıya yüklemeyi denediğinizde "Sayfalandırılmış rapor karşıya yüklenemiyor" iletisini görürsünüz. Çalışma alanını taşımak için Power BI yöneticinize başvurun.
 
-1. Yeni çalışma alanınızda **Veri Al**'ı seçin.
+1. Yeni çalışma alanınızda **Veri Al** 'ı seçin.
 
-2. **Dosyalar** kutusunda **Al**'ı seçin.
+2. **Dosyalar** kutusunda **Al** 'ı seçin.
 
-3. **Yerel Dosya**'yı seçin, dosyayı kaydettiğiniz yere gidin > **Aç**'ı seçin.
+3. **Yerel Dosya** 'yı seçin, dosyayı kaydettiğiniz yere gidin > **Aç** 'ı seçin.
 
-   Power BI dosyanızı içeri aktarır ve siz dosyayı Uygulama listesi sayfasındaki **Raporlar**'ın altında görürsünüz.
+   Power BI dosyanızı içeri aktarır ve siz dosyayı Uygulama listesi sayfasındaki **Raporlar** 'ın altında görürsünüz.
 
     ![Uygulama listesinde Rapor](media/paginated-reports-quickstart-aw/power-bi-paginated-app-list.png)
 
@@ -318,7 +320,7 @@ Bu sayfalandırılmış raporu oluşturduğunuza göre, artık raporu Power BI h
 
     ![Raporunuzu yönetin](media/paginated-reports-quickstart-aw/power-bi-paginated-manage-report.png)
 
-6. **Kimlik bilgilerini düzenle**'yi seçin ve Azure veritabanını oluşturduğunuzda Azure'da kullandığınız kimlik bilgilerini girin.
+6. **Kimlik bilgilerini düzenle** 'yi seçin ve Azure veritabanını oluşturduğunuzda Azure'da kullandığınız kimlik bilgilerini girin.
 
     ![Rapor kimlik bilgilerini düzenleyin](media/paginated-reports-quickstart-aw/power-bi-paginated-edit-credentials.png)
 

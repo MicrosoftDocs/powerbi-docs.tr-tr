@@ -8,17 +8,18 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dc8400361ca8d7bdd3713efa7bdf180578a597a2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921183"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297919"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
-  Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.  
-  
-   
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.  
   
 ##  <a name="designing-reports"></a><a name="DesigningReports"></a> Raporları tasarlama  
   
@@ -127,7 +128,7 @@ ms.locfileid: "78921183"
   
     -   Kapsayıcılar, alt öğelerin büyümesine uyum sağlamak için genişler. Seçili bir öğe için, Özellikler bölmesindeki Üst özellik, öğe için kapsayıcıyı tanımlar. Rapor öğelerinin kapsama hiyerarşisini görmek için Belge Ana Hattı bölmesini de kullanabilirsiniz.  
   
-    -   **Düzen** araç çubuğu, kenarların, merkezlerin ve rapor öğelerine yönelik boşlukların hizalanmasını sağlayan birden fazla tuş sunar. **Düzen** araç çubuğunu etkinleştirmek için **Görünüm** menüsünden **Araç Çubukları**’na gelip **Düzen**’e tıklayın.  
+    -   **Düzen** araç çubuğu, kenarların, merkezlerin ve rapor öğelerine yönelik boşlukların hizalanmasını sağlayan birden fazla tuş sunar. **Düzen** araç çubuğunu etkinleştirmek için **Görünüm** menüsünden **Araç Çubukları** ’na gelip **Düzen** ’e tıklayın.  
   
 -   Raporu bir .pdf dosyası halinde kaydetmeyi planlıyorsanız, rapor genişliğinin net bir değer ile ayarlanmış olması gerekir. Bu değeri belirlerken, dışarı aktarma biçiminde elde etmek istediğiniz sonuçları dikkate alın. Örneğin, rapor sayfası genişliğini tam 20,16125 cm olarak, sol ve sağ boşlukları da 1,27 cm olarak ayarlayın.  
   

@@ -8,14 +8,17 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859533"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297789"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
 İçerik ve rapor görünümünü denetlemek için Power BI Report Builder’da ifadeler sıklıkla kullanılır. Microsoft Visual Basic’te yazılan ifadeler yerleşik işlevleri, özel kodu, rapor ve grup değişkenlerini, kullanıcı tanımlı değişkenleri kullanabilir. İfadeler eşittir işaretiyle (=) başlar.   
 
 Bu konu, bir raporda sıkça gerçekleştirilen görevler için kullanılabilen ifadelerin örneklerini sunar.  
@@ -42,7 +45,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
  .NET Framework birçok özel biçim seçeneği sunar (örneğin, belirli tarih biçimlerine yönelik seçenekler). Daha fazla bilgi için bkz. [Biçimlendirme Türleri](/dotnet/standard/base-types/formatting-types).  
   
-### <a name="math-functions"></a>Matematik İşlevleri  
+### <a name="math-functions"></a>Matematik işlevleri  
   
 -   **Round** işlevi, sayıları en yakın tamsayıya yuvarlamak için kullanışlıdır. Aşağıdaki ifade 1,3 değerini 1’e yuvarlar:  
   
@@ -117,7 +120,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =FORMAT(Fields!SellStartDate.Value, "dd/MM/yyyy")  
     ```  
   
--   **CDate** işlevi değeri bir tarihe dönüştürür. **Now** işlevi, sisteminize göre geçerli tarih ve saati içeren değeri döndürür. **DateDiff**, iki Tarih değerinin arasındaki zaman aralıklarının sayısını belirten bir Long değeri döndürür.  
+-   **CDate** işlevi değeri bir tarihe dönüştürür. **Now** işlevi, sisteminize göre geçerli tarih ve saati içeren değeri döndürür. **DateDiff** , iki Tarih değerinin arasındaki zaman aralıklarının sayısını belirten bir Long değeri döndürür.  
   
      Aşağıdaki örnek, geçerli yılın başlangıç tarihini görüntüler  
   
@@ -177,7 +180,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
      Metin kutusu sadece bir tarih veya sayı içeriyorsa, biçimlendirmeyi uygulamak için metin kutusunun içinde **Format** işlevinin yerine metin kutusunun Format özelliğini kullanmanız gerekir.  
   
--   **Right**, **Len** ve **InStr** işlevleri bir alt dizeyi döndürmek için kullanışlıdır. Örneğin, *ETKİALANI*\\*kullanıcıadı*’nı yalnızca kullanıcı adından oluşacak şekilde kırpabilirsiniz. Aşağıdaki ifade *User* adlı bir parametreden, dizenin ters eğik çizgi karakterinin (\\) sağında yer alan kısmını döndürür:  
+-   **Right** , **Len** ve **InStr** işlevleri bir alt dizeyi döndürmek için kullanışlıdır. Örneğin, *ETKİALANI*\\*kullanıcıadı* ’nı yalnızca kullanıcı adından oluşacak şekilde kırpabilirsiniz. Aşağıdaki ifade *User* adlı bir parametreden, dizenin ters eğik çizgi karakterinin (\\) sağında yer alan kısmını döndürür:  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +205,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
     ```  
   
--   .NET Framework `xref:System.Text.RegularExpressions` içindeki **Regex** işlevleri, mevcut dizelerin biçimini değiştirmek için kullanışlıdır (örneğin, bir telefon numarasını biçimlendirme). Aşağıdaki ifade, bir alanda yer alan on haneli telefon numarasını “*nnn*-*nnn*-*nnnn*” biçiminden “(*nnn*) *nnn*-*nnnn*” biçimine çevirmek için **Replace** işlevini kullanır:  
+-   .NET Framework `xref:System.Text.RegularExpressions` içindeki **Regex** işlevleri, mevcut dizelerin biçimini değiştirmek için kullanışlıdır (örneğin, bir telefon numarasını biçimlendirme). Aşağıdaki ifade, bir alanda yer alan on haneli telefon numarasını “ *nnn*-*nnn*-*nnnn* ” biçiminden “( *nnn* ) *nnn*-*nnnn* ” biçimine çevirmek için **Replace** işlevini kullanır:  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -272,13 +275,13 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   `PhoneNumber` alanının değerini test edin ve **null** ise “Değer Yok” (Visual Basic’te **Nothing**) döndürün. Aksi takdirde, telefon numarası değerini döndürün. Bu ifade, bir rapor öğesindeki metin kutusunun değerini denetlemek için kullanılabilir.  
+-   `PhoneNumber` alanının değerini test edin ve **null** ise “Değer Yok” (Visual Basic’te **Nothing** ) döndürün. Aksi takdirde, telefon numarası değerini döndürün. Bu ifade, bir rapor öğesindeki metin kutusunun değerini denetlemek için kullanılabilir.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   `Department` alanının değerini test edin ve bir alt rapor adını veya **null** değerini döndürün (Visual Basic’te **Nothing**). Bu ifade, koşullu detaylandırma alt raporları için kullanılabilir.  
+-   `Department` alanının değerini test edin ve bir alt rapor adını veya **null** değerini döndürün (Visual Basic’te **Nothing** ). Bu ifade, koşullu detaylandırma alt raporları için kullanılabilir.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -356,7 +359,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =Last(ReportItems("LastName").Value)  
     ```  
   
- Aşağıdaki örnek, sayfa toplamının nasıl görüntülendiğini açıklamaktadır. Örnek, veri bölgesinin `Cost` adlı bir metin kutusu içerdiğini varsayar.  
+ Aşağıdaki örnek, sayfa toplamının nasıl görüntülendiğini açıklamaktadır. Örnek, `Cost` adlı metin kutusunu içeren bir veri bölgesinin olduğunu varsayar.  
   
 -   Sayfa üst bilgisine veya alt bilgisine yerleştirilen aşağıdaki ifade, `Cost` metin kutusunda sayfanın değerlerinin toplamını sağlar:  
   
@@ -492,7 +495,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   İfadenin değerini döndürmek için bir özel kod işlevi kullanın. Aşağıdaki örnek, bir mevcut değer ve önceki değer arasındaki yüzdelik farkını döndürür. Bu, iki ardışık değer arasındaki farkı hesaplamak için kullanılabilir, (önceki değer olmadığında) ilk karşılaştırmanın eşik durumunu ve önceki değer veya mevcut değerden herhangi birinin **null** (Visual Basic’te **Nothing**) olduğu durumları işler.  
+-   İfadenin değerini döndürmek için bir özel kod işlevi kullanın. Aşağıdaki örnek, bir mevcut değer ve önceki değer arasındaki yüzdelik farkını döndürür. Bu, iki ardışık değer arasındaki farkı hesaplamak için kullanılabilir, (önceki değer olmadığında) ilk karşılaştırmanın eşik durumunu ve önceki değer veya mevcut değerden herhangi birinin **null** (Visual Basic’te **Nothing** ) olduğu durumları işler.  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

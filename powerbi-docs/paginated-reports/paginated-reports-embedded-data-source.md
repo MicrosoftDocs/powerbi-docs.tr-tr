@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 29ed0a764773c2252989aa05bfcabe5976472d11
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632515"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297819"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için tümleşik veri kaynağı oluşturma
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Bu makalede, Power BI hizmetindeki sayfalandırılmış bir rapor için tümleşik bir veri kaynağı oluşturma ve değiştirme işlemini öğreneceksiniz. Tümleşik bir veri kaynağını tek bir raporda tanımlayabilir ve yalnızca o raporda kullanabilirsiniz. Şu anda, Power BI hizmetinde yayımlanan sayfalandırılmış raporlar için tümleşik veri kümeleri ve tümleşik veri kaynakları gereklidir ve şu veri kaynaklarına bağlanılabilir:
 
@@ -39,13 +41,13 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
   
 1. Power BI Rapor Oluşturucusu'nu açın.
 
-1. Rapor Verileri bölmesindeki araç çubuğunda **Yeni** > **Veri Kaynağı**’nı seçin. **Veri Kaynağı Özellikleri** iletişim kutusu açılır.
+1. Rapor Verileri bölmesindeki araç çubuğunda **Yeni** > **Veri Kaynağı** ’nı seçin. **Veri Kaynağı Özellikleri** iletişim kutusu açılır.
 
    ![Yeni Veri Kaynağı](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
 1. **Ad** metin kutusuna veri kaynağı için bir ad girin ya da varsayılan adı kabul edin.  
   
-1. **Raporuma katıştırılmış bağlantı kullan**’ı seçin.  
+1. **Raporuma katıştırılmış bağlantı kullan** ’ı seçin.  
   
 1. **Bağlantı türünü seçin** listesinden bir veri kaynağı türü seçin. 
 
@@ -53,15 +55,15 @@ Daha ayrıntılı bilgi için bkz. [Power BI Rapor Oluşturucusu'nda Rapor Veril
   
    - Bağlantı dizesini doğrudan **Bağlantı dizesi** metin kutusuna yazın. 
   
-   - 2\. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme**’yi seçin.  
+   - 2. adımda seçtiğiniz veri kaynağına ait **Bağlantı Özellikleri** iletişim kutusunu açmak için **Derleme** ’yi seçin.  
   
-     **Bağlantı Özellikleri** iletişim kutusundaki alanları veri kaynağı türüne uygun şekilde doldurun. Bağlantı özellikleri; veri kaynağı türünü, veri kaynağının adını ve kullanılacak kimlik bilgilerini içerir. Bu iletişim kutusunda değerleri belirttikten sonra, veri kaynağının kullanılabilir olduğunu doğrulamak ve belirttiğiniz kimlik bilgilerinin doğruluğunu onaylamak için **Bağlantıyı Sına**’yı seçin.  
+     **Bağlantı Özellikleri** iletişim kutusundaki alanları veri kaynağı türüne uygun şekilde doldurun. Bağlantı özellikleri; veri kaynağı türünü, veri kaynağının adını ve kullanılacak kimlik bilgilerini içerir. Bu iletişim kutusunda değerleri belirttikten sonra, veri kaynağının kullanılabilir olduğunu doğrulamak ve belirttiğiniz kimlik bilgilerinin doğruluğunu onaylamak için **Bağlantıyı Sına** ’yı seçin.  
   
-1. **Kimlik Bilgileri**’ni seçin.  
+1. **Kimlik Bilgileri** ’ni seçin.  
   
    Bu veri kaynağı için kullanılacak kimlik bilgilerini belirtin. Veri kaynağının sahibi, desteklenen kimlik bilgilerinin türünü seçer. Daha fazla bilgi için bkz. [Rapor Veri Kaynakları için Kimlik Bilgisi ve Bağlantı Bilgilerini Belirtme](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
-1. **Tamam**’ı seçin.  
+1. **Tamam** ’ı seçin.  
   
    Veri kaynağı, Rapor Verileri bölmesinde görünür.
 

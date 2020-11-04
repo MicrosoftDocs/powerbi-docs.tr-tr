@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: edda0fa0232430541af1fc1766fd5d8bc23c5e1c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221035"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297323"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış rapor yayımlama
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Bu makalede, sayfalandırılmış bir raporu yerel bilgisayarınızdan yükleyerek Power BI hizmetinde yayımlama hakkında bilgi edineceksiniz. Sayfalandırılmış raporları Çalışma Alanım’a veya Premium kapasitede olan başka bir çalışma alanına yükleyebilirsiniz. Çalışma alanı adının yanında ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) elmas simgesini arayın. 
 
@@ -25,11 +27,11 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
 Çalışma alanı adının yanında baklava simgesi ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) yoksa, çalışma alanını bir Premium kapasiteye eklemeniz gerekir. 
 
-1. **Çalışma Alanları**’nı seçin, çalışma alanı adının yanındaki üç noktayı ( **...** ) ve sonra **Çalışma alanını düzenle**’yi seçin.
+1. **Çalışma Alanları** ’nı seçin, çalışma alanı adının yanındaki üç noktayı ( **...** ) ve sonra **Çalışma alanını düzenle** ’yi seçin.
 
     ![Çalışma alanını düzenle seçeneğini belirleme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
-1. **Çalışma alanını düzenle** iletişim kutusunda **Gelişmiş**’i genişletin, ardından **Ayrılmış kapasite**’yi **Açık** seçeneğine sürükleyin.
+1. **Çalışma alanını düzenle** iletişim kutusunda **Gelişmiş** ’i genişletin, ardından **Ayrılmış kapasite** ’yi **Açık** seçeneğine sürükleyin.
 
     ![Ayrılmış kapasite seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace-dialog.png)
 
@@ -39,13 +41,13 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
 1. Rapor Oluşturucusu'nda sayfalandırılmış raporunuzu oluşturun ve yerel bilgisayarınıza kaydedin.
 
-1. Report Builder'ın **Dosya** menüsünde **Farklı kaydet**'i seçin.
+1. Report Builder'ın **Dosya** menüsünde **Farklı kaydet** 'i seçin.
 
     ![Dosya menüsü > Kaydet > Farklı kaydet](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
-    Henüz Power BI'da oturum açmadıysanız bu aşamada oturum açmanız veya hesap oluşturmanız gerekir. Report Builder'ın sağ üst köşesinde **Oturum aç**'ı seçip gerekli adımları tamamlayın.
+    Henüz Power BI'da oturum açmadıysanız bu aşamada oturum açmanız veya hesap oluşturmanız gerekir. Report Builder'ın sağ üst köşesinde **Oturum aç** 'ı seçip gerekli adımları tamamlayın.
 
-2. Sol taraftaki çalışma alanları listesinden adının yanında elmas simgesi ![Power BI Premium kapasite elması simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) bulunan çalışma alanlarından birini seçin. **Dosya adı** kutusuna bir ad yazıp **Kaydet**'i seçin. 
+2. Sol taraftaki çalışma alanları listesinden adının yanında elmas simgesi ![Power BI Premium kapasite elması simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) bulunan çalışma alanlarından birini seçin. **Dosya adı** kutusuna bir ad yazıp **Kaydet** 'i seçin. 
 
     ![Premium çalışma alanı seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
 
@@ -67,23 +69,23 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
 1. Power BI hizmetini bir tarayıcıda açın ve raporu yayımlamak istediğiniz Premium çalışma alanına göz atın. Adın yanındaki elmas simgesine ![Power BI Premium kapasite elmas simgesi](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) dikkat edin. 
 
-1. **Veri Al**’ı seçin.
+1. **Veri Al** ’ı seçin.
 
-    ![Power BI Veri Al](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
+    ![Power BI Veri Alma](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-get-data.png)
 
-1. **Dosyalar** kutusunda **Al**'ı seçin.
+1. **Dosyalar** kutusunda **Al** 'ı seçin.
 
     ![Power BI Dosya Al](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-files-get.png)
 
-1. **Yerel dosya**’yı seçin > sayfalandırılmış rapora göz atın > **Aç**’ı seçin.
+1. **Yerel dosya** ’yı seçin > sayfalandırılmış rapora göz atın > **Aç** ’ı seçin.
 
     ![Yerel Dosya seçme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-local-file.png)
 
-1. **Devam** > **Kimlik bilgilerini düzenle**’yi seçin.
+1. **Devam** > **Kimlik bilgilerini düzenle** ’yi seçin.
 
     ![Kimlik bilgilerini düzenle’yi seçin](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-edit-credentials.png)
 
-1. Kimlik bilgilerinizi yapılandırın > **Oturum aç**’ı seçin.
+1. Kimlik bilgilerinizi yapılandırın > **Oturum aç** ’ı seçin.
 
     ![Kimlik bilgilerini düzenle](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
@@ -101,7 +103,7 @@ Rapor veri kaynağınız şirket içindeyse, raporu karşıya yükledikten sonra
 
 Diğer tüm Power BI raporlarında olduğu gibi, rapor veri kaynağı şirket içindeyse verilere erişmek için bir ağ geçidi oluşturmanız veya bir ağ geçidine bağlanmanız gerekir.
 
-1. Rapor adının yanındaki **Yönet**’i seçin.
+1. Rapor adının yanındaki **Yönet** ’i seçin.
 
    ![Sayfalandırılmış raporu yönetme](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 

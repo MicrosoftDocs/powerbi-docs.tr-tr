@@ -8,15 +8,18 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921505"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297692"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu'ndaki tablolar, matrisler ve listeler
- Rapor Oluşturucusu'nda tablolar, matrisler ve listeler, satır ve sütunlar halinde düzenlenmiş hücrelerde sayfalandırılmış rapor verilerinin görüntülendiği *veri bölgeleridir*. Hücreler normalde metin, tarih ve sayı gibi metin verileri içerir ama ölçerler, grafikler ve resim gibi rapor öğeleri de içerebilir. Tablolar, matrisler ve listeler hep birlikte *tablix* veri bölgeleri olarak adlandırılır.  
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Rapor Oluşturucusu'nda tablolar, matrisler ve listeler, satır ve sütunlar halinde düzenlenmiş hücrelerde sayfalandırılmış rapor verilerinin görüntülendiği *veri bölgeleridir*. Hücreler normalde metin, tarih ve sayı gibi metin verileri içerir ama ölçerler, grafikler ve resim gibi rapor öğeleri de içerebilir. Tablolar, matrisler ve listeler hep birlikte *tablix* veri bölgeleri olarak adlandırılır.  
   
  Tablo, matris ve liste şablonları, verilerin hücrelerde görüntülenebildiği esnek bir kılavuz olan tablix veri bölgesi üzerinde oluşturulur. Tablo ve matris şablonlarında hücreler satır ve sütunlar halinde düzenlenmiştir. Şablonlar temeli oluşturan genel tablix veri bölgesinin çeşitlemeleri olduğundan, verileri şablon biçimlerinin bileşimiyle görüntüleyebilir ve raporunuzu oluştururken tablo, matris veya listeyi değiştirip başka bir veri gölgesinin özelliklerini içermesini sağlayabilirsiniz. Örneğin, bir tablo ekler ve bunun ihtiyaçlarınızı karşılamadığını fark ederseniz, sütun grupları ekleyip tabloyu matrise dönüştürebilirsiniz.  
   

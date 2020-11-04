@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f19e80a421c6e27fa3b85814d00bfb05dc2789b2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207149"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297706"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Sayfalandırılmış raporlar için Rapor Tasarımı Görünümünde dolaşma
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Power BI Rapor Oluşturucusu'nun Rapor Tasarımı Görünümü, Power BI hizmetine yayımlayabileceğiniz sayfalandırılmış raporları oluşturmaya yönelik tasarım alanıdır. Tasarım yüzeyi Rapor Oluşturucusu'nun ortasında yer alır ve çevresinde şerit ile bölmeler vardır. Tasarım yüzeyi, rapor öğelerinizi eklediğiniz ve düzenlediğiniz yerdir. Bu makalede, rapor kaynaklarınızı eklemek, seçmek ve düzenlemek, ayrıca rapor öğesi özelliklerini değiştirmek için kullandığınız panolar açıklanır.  
 
@@ -41,20 +43,20 @@ Power BI Rapor Oluşturucusu'nun Rapor Tasarımı Görünümü, Power BI hizmeti
  Rapor tasarım yüzeyine bir şey eklediğinizde Rapor Verileri bölmesine bazı öğeler otomatik olarak eklenir. Örneğin raporunuza görüntü eklediğinizde, bu görüntü Rapor Verileri bölmesindeki Görüntüler klasörüne eklenir.  
   
 > [!NOTE]  
->  Rapor Verileri bölmesine yeni öğe eklemek için **Yeni** düğmesini kullanabilirsiniz. Rapora aynı veri kaynağından veya farklı veri kaynaklarından birden çok veri kümesi ekleyebilirsiniz. Aynı veri kaynağından yeni bir veri kümesi eklemek için, veri kaynağına sağ tıklayın > **Veri Kümesi Ekle**'ye tıklayın.  
+>  Rapor Verileri bölmesine yeni öğe eklemek için **Yeni** düğmesini kullanabilirsiniz. Rapora aynı veri kaynağından veya farklı veri kaynaklarından birden çok veri kümesi ekleyebilirsiniz. Aynı veri kaynağından yeni bir veri kümesi eklemek için, veri kaynağına sağ tıklayın > **Veri Kümesi Ekle** 'ye tıklayın.  
   
 ## <a name="2-report-design-surface"></a>2 Rapor tasarım yüzeyi  
  Rapor Oluşturucusu rapor tasarım yüzeyi, raporlarınızı tasarlarken kullandığınız ana çalışma alanıdır. Raporunuza veri bölgeleri, alt raporlar, metin kutuları, görüntüler, dikdörtgenler ve çizgiler gibi rapor öğelerini yerleştirmek için, bu öğeleri şeritten veya Rapor Bölümü Galerisi'nden tasarım yüzeyine eklersiniz. Ardından, rapor öğelerinize gruplar, ifadeler, parametreler, filtreler, eylemler, görünürlük ve biçimlendirme ekleyebilirsiniz.  
   
  Ayrıca şunları da değiştirebilirsiniz:  
   
--   Tasarım yüzeyinde herhangi bir rapor öğesinin dışındaki beyaz alana sağ tıklayıp **Gövde Özellikleri**'ni seçerek, kenarlık ve dolgu rengi gibi rapor gövdesi özellikleri.  
+-   Tasarım yüzeyinde herhangi bir rapor öğesinin dışındaki beyaz alana sağ tıklayıp **Gövde Özellikleri** 'ni seçerek, kenarlık ve dolgu rengi gibi rapor gövdesi özellikleri.  
   
--   Tasarım yüzeyinde üst bilgi veya alt bilgi alanında, herhangi bir rapor öğesinin dışındaki beyaz alana sağ tıklayıp **Üst Bilgi Özellikleri**'ni veya **Alt Bilgi Özellikleri**'ni seçerek, kenarlık ve dolgu rengi gibi üst bilgi ve alt bilgi özellikleri.  
+-   Tasarım yüzeyinde üst bilgi veya alt bilgi alanında, herhangi bir rapor öğesinin dışındaki beyaz alana sağ tıklayıp **Üst Bilgi Özellikleri** 'ni veya **Alt Bilgi Özellikleri** 'ni seçerek, kenarlık ve dolgu rengi gibi üst bilgi ve alt bilgi özellikleri.  
   
--   Tasarım yüzeyinin çevresindeki gri alana tıklayıp **Rapor Özellikleri**'ni seçerek, sayfa yapısı gibi raporun kendi özellikleri.  
+-   Tasarım yüzeyinin çevresindeki gri alana tıklayıp **Rapor Özellikleri** 'ni seçerek, sayfa yapısı gibi raporun kendi özellikleri.  
   
--   Üzerlerine tıklayıp **Özellikler**'i seçerek, rapor öğelerinin özellikleri.  
+-   Üzerlerine tıklayıp **Özellikler** 'i seçerek, rapor öğelerinin özellikleri.  
   
 ### <a name="design-surface-size-and-print-area"></a>Tasarım yüzeyi boyutu ve yazdırma alanı  
 Tasarım yüzeyi boyutu, raporu yazdırmak için belirttiğiniz sayfa boyutu yazdırma alanından farklı olabilir. Tasarım yüzeyinin boyutunun değiştirilmesi, raporunuzun yazdırma alanını değiştirmez. Raporunuzun yazdırma alanı için hangi boyutu ayarlarsanız ayarlayın, tam tasarım alanının boyutu değişmez. Daha fazla bilgi için İşleme Davranışları'na bakın. 
@@ -71,7 +73,7 @@ Tasarım yüzeyi boyutu, raporu yazdırmak için belirttiğiniz sayfa boyutu yaz
   
  Bu özellikleri Özellikler bölmesinde görebilirsiniz. Bölmedeki özellikler, seçtiğiniz rapor öğesine bağlı olarak değişir.  
   
-- Özellikler bölmesini görmek için, **Görünüm** sekmesinin **Göster/Gizle** grubunda > **Özellikler**'i seçin.  
+- Özellikler bölmesini görmek için, **Görünüm** sekmesinin **Göster/Gizle** grubunda > **Özellikler** 'i seçin.  
   
 ### <a name="changing-property-values"></a>Özellik Değerlerini Değiştirme  
  Rapor Oluşturucusu'nda, rapor öğelerinin özelliklerini çeşitli yollarda değiştirebilirsiniz:  
@@ -87,14 +89,14 @@ Tasarım yüzeyi boyutu, raporu yazdırmak için belirttiğiniz sayfa boyutu yaz
  Özelliği bağlı olarak, açılan listeden bir özellik değeri ayarlayabilir, değeri yazabilir veya ifade oluşturmak için `<Expression>` öğesini seçebilirsiniz.  
   
 ### <a name="changing-the-properties-pane-view"></a>Özellikler Bölmesi Görünümünü Değiştirme  
- Varsayılan olarak, Özellikler bölmesinde görüntülenen özellikler Eylem, Kenarlık, Dolgu, Yazı Tipi ve Genel gibi geniş kategoriler halinde düzenlenmiştir. Her kategoriyle ilişkilendirilmiş bir özellik kümesi vardır. Örneğin, aşağıdaki özellikler Yazı Tipi kategorisinde listelenmiştir: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight ve TextDecoration. Bölmede listelenen tüm özellikleri alfabetik olarak sıralamayı tercih edebilirsiniz. Bu sıralama kategorileri kaldırır ve kategorisine bakılmaksızın tüm özellikleri alfabetik olarak sıralar.  
+ Varsayılan olarak, Özellikler bölmesinde görüntülenen özellikler Eylem, Kenarlık, Dolgu, Yazı Tipi ve Genel gibi geniş kategoriler halinde düzenlenmiştir. Her kategoriyle ilişkilendirilmiş bir özellik kümesi vardır. Örneğin, Yazı Tipi kategorisinde şu özellikler listelenir: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight ve TextDecoration. Bölmede listelenen tüm özellikleri alfabetik olarak sıralamayı tercih edebilirsiniz. Bu sıralama kategorileri kaldırır ve kategorisine bakılmaksızın tüm özellikleri alfabetik olarak sıralar.  
   
- Özellikler bölmesinin üst kısmında üç düğme vardır: **Kategori**, **Alfabetik Yap** ve **Özellik Sayfası**. Özellikler bölmesinin görünümleri arasında geçiş yapmak için Kategori ve Alfabetik düğmelerini seçin. Seçili rapor öğesinin özellikler iletişim kutusunu açmak için **Özellik Sayfaları** düğmesini seçin.  
+ Özellikler bölmesinin üç kısmında üç düğme vardır: **Kategori** , **Alfabetik** ve **Özellik Sayfası**. Özellikler bölmesinin görünümleri arasında geçiş yapmak için Kategori ve Alfabetik düğmelerini seçin. Seçili rapor öğesinin özellikler iletişim kutusunu açmak için **Özellik Sayfaları** düğmesini seçin.  
   
   
 ## <a name="5-grouping-pane"></a>5 Gruplandırma bölmesi
 
- Gruplar, rapor verilerinizi görsel bir hiyerarşide düzenlemek ve toplamları hesaplamak için kullanılır. Veri bölgesindeki satır ve sütun gruplarını hem tasarım yüzeyinde hem de Gruplandırma bölmesine görüntüleyebilirsiniz. Gruplandırma bölmesinde iki bölme vardır: Satır Grupları ve Sütun Grupları. Bir veri bölgesi seçtiğinizde, Gruplandırma bölmesinde söz konusu veri bölgesinin tüm grupları hiyerarşik bir liste şeklinde görüntülenir: Alt gruplar kendi üst gruplarının altında girintili olarak gösterilir.  
+ Gruplar, rapor verilerinizi görsel bir hiyerarşide düzenlemek ve toplamları hesaplamak için kullanılır. Veri bölgesindeki satır ve sütun gruplarını hem tasarım yüzeyinde hem de Gruplandırma bölmesine görüntüleyebilirsiniz. Gruplandırma bölmesinde iki bölme vardır: Satır Grupları ve Sütun Grupları. Bir veri bölgesi seçtiğinizde, Gruplandırma bölmesinde söz konusu veri bölgesinin tüm grupları hiyerarşik bir liste şeklinde görüntülenir: Alt gruplar, kendi üst gruplarının altında girintili olarak görünür.  
   
  Rapor Verileri bölmesindeki alanları sürükleyip tasarım yüzeyine veya Gruplandırma bölmesine bırakarak gruplar oluşturabilirsiniz. Gruplandırma bölmesinde üst, bitişik ve alt gruplar ekleyebilir, grup özelliklerini değiştirebilir ve grupları silebilirsiniz.  
   
@@ -104,7 +106,7 @@ Tasarım yüzeyi boyutu, raporu yazdırmak için belirttiğiniz sayfa boyutu yaz
   
 ## <a name="6-current-report-status-bar"></a>6 Geçerli rapor durum çubuğu
 
-Geçerli rapor durum çubuğunda, raporun bağlandığı sunucunun adı veya "Geçerli rapor sunucusu yok" ifadesi gösterilir. Sunucuya bağlanmak için **Bağlan**'ı seçebilirsiniz.
+Geçerli rapor durum çubuğunda, raporun bağlandığı sunucunun adı veya "Geçerli rapor sunucusu yok" ifadesi gösterilir. Sunucuya bağlanmak için **Bağlan** 'ı seçebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

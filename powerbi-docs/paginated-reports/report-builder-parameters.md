@@ -9,16 +9,18 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 823f2ea621d16eb911284cadeced2fb676fa5c75
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923069"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297806"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 
-Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanır. Rapor parametreleri, rapor verilerini denetleme, ilgili raporları birbirine bağlama ve rapor sunumunu çeşitlendirme olanağı tanır. Rapor parametrelerini, Rapor Oluşturucusu’nda oluşturduğunuz sayfalandırılmış raporlarda kullanabilirsiniz.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Bu konu başlığında, Power BI Report Builder ’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanmaktadır. Rapor parametreleri, rapor verilerini denetleme, ilgili raporları birbirine bağlama ve rapor sunumunu çeşitlendirme olanağı tanır. Rapor parametrelerini, Rapor Oluşturucusu’nda oluşturduğunuz sayfalandırılmış raporlarda kullanabilirsiniz.
 
 ## <a name="common-uses-for-parameters"></a><a name="bkmk_Common_Uses_for_Parameters"></a> Parametrelerin yaygın kullanımları
 
@@ -46,13 +48,13 @@ Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici ara
   
 2. **@SalesDate parametresi**@SalesDate parametresi, **DateTime** veri türüdür. Metin kutusunun yanında Tarihi Seçin istemi görünür. Tarihi değiştirmek için metin kutusuna yeni bir tarih girin veya takvim denetimini kullanın.  
   
-3. **@ShowAll parametresi**@ShowAll parametresi, **Boole** veri türüdür. **True** veya **False**’u belirtmek için radyo düğmelerini kullanın.  
+3. **@ShowAll parametresi**@ShowAll parametresi, **Boole** veri türüdür. **True** veya **False** ’u belirtmek için radyo düğmelerini kullanın.  
   
 4. **Parametre Alanı tanıtıcısını Göster veya Gizle** Parametreler panosunu göstermek veya gizlemek için rapor görüntüleyici araç çubuğunda bu oka tıklayın.  
   
 5. **@CategoryQuota parametresi**@CategoryQuota parametresi **Float** veri türü olduğu için sayısal bir değer alır.  @CategoryQuota birden çok değere izin verecek şekilde ayarlanır.  
   
-6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle**’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
+6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle** ’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
   
 ## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Parametreleri oluşturma
 
@@ -104,7 +106,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 |Özellik|Açıklama|  
 |--------------|-----------------|  
 |Ad|Parametre için büyük/küçük harfe duyarlı bir ad yazın. Ad harf ile başlamalıdır ve harf, rakam ve bir alt çizgi (_) içerebilir. Ad boşluk içeremez. Otomatik olarak oluşturulan parametrelerde, ad parametreyle veri kümesi sorgusunda eşleşir. Varsayılan olarak, el ile oluşturulan parametreler ReportParameter1’e benzerdir.|  
-|Sor|Rapor görüntüleyici araç çubuğunda, parametrenin yanında çıkan metin.|  
+|İstem|Rapor görüntüleyici araç çubuğunda, parametrenin yanında çıkan metin.|  
 |Veri türü|Rapor parametresi, aşağıdaki veri türlerinden biri olmalıdır:<br /><br /> **Boole**. Kullanıcı, bir radyo düğmesinden True veya False seçimi yapar.<br /><br /> **DateTime**. Kullanıcı, bir takvim denetiminden tarih seçer.<br /><br /> **Tamsayı**. Kullanıcı, değerleri bir metin kutusuna yazar.<br /><br /> **Float**. Kullanıcı, değerleri bir metin kutusuna yazar.<br /><br /> **Metin**. Kullanıcı, değerleri bir metin kutusuna yazar.<br /><br /> Bir parametre için kullanılabilecek değerler tanımlandığında, veri türü **DateTime** olsa bile kullanıcı değerleri açılan listeden seçer.|  
 |Boş değere izin ver|Parametrenin değeri bir boş dize veya boş değer olabiliyorsa bu seçeneği belirleyin.<br /><br /> Bir parametre için geçerli değerleri belirtirseniz ve boş değerin bunlardan biri olmasını istiyorsanız, bunu belirttiğiniz değerler arasına eklemeniz gerekir. Bu seçeneğin belirlenmesi, kullanılabilir değerler için otomatik olarak bir boş değer eklemez.|  
 |Null değere izin ver|Parametrenin değeri null olabilirse bu seçeneği belirleyin.<br /><br /> Bir parametre için geçerli değerleri belirtirseniz ve null’un bunlardan biri olmasını istiyorsanız, null’u belirttiğiniz değerler arasına eklemeniz gerekir. Bu seçeneğin belirlenmesi, null değerini kullanılabilen değerler arasına otomatik olarak eklemez.|  
@@ -112,9 +114,9 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 |Görünür|Çalıştırıldığında rapor parametresini raporun üstünde görüntülemek için bu seçeneği belirleyin. Bu seçenek, kullanıcıların çalışma zamanında parametre değerlerini seçmesine olanak tanır.|  
 |Gizli|Yayımlanan raporda rapor parametresini gizlemek için bu seçeneği belirleyin. Rapor parametresi değerleri bir rapor URL’sinde, abonelik tanımında veya rapor sunucusunda yine de ayarlanabilir.|  
 |İç|Rapor parametresini gizlemek için bu seçeneği belirleyin. Paylaşılan raporda, rapor parametresi yalnızca rapor tanımında görüntülenebilir.|  
-|Kullanılabilir değerler|Bir parametre için kullanılabilecek değerleri belirttiyseniz, geçerli değerler her zaman bir açılan liste olarak görünür. Örneğin, bir **DateTime** parametresi için kullanılabilecek değerleri sağlarsanız, parametre bölmesinde takvim denetiminin yerine tarihin seçilmesine olanak tanıyan bir açılan liste görünür.<br /><br /> Bir değerler listesinin raporlarda ve alt raporlarda tutarlı olmasını sağlamak için veri kaynağında, bir veri kaynağı ile ilişkilendirilmiş veri kümelerindeki tüm sorgular için tek işlem kullanma seçeneğini ayarlayabilirsiniz.<br /><br /> **Güvenlik Notu** **Metin** veri türünde bir parametre içeren tüm raporlarda kullanılabilir değerler listesini (geçerli değerler listesi olarak da bilinir) kullandığınızdan ve raporu çalıştıran tüm kullanıcıların yalnızca rapordaki verileri görüntülemek için gereken izinlerinin bulunduğundan emin olun.|  
-|Varsayılan Değerler|Bir sorgudan veya statik listeden varsayılan değerler ayarlama.<br /><br /> Her parametrenin varsayılan değeri olduğunda, rapor ilk görünümde otomatik olarak çalışır.|  
-|Gelişmiş|Bu parametrenin rapordaki verileri doğrudan veya dolaylı olarak etkileyip etkilemeyeceğini belirten **UsedInQuery** değeri için rapor tanımı özniteliğini ayarlayın.<br /><br /> **Ne zaman yenileneceğini otomatik olarak belirleme**<br /> Rapor işlemcisinin bu değer için bir ayar belirlemesini istediğinizde bu seçeneği belirleyin. Rapor işlemcisi, bu parametreye doğrudan veya dolaylı başvurusu olan bir veri kümesi sorgusu algılarsa veya raporun alt raporları varsa bu değer **True** olur.<br /><br /> **Her zaman yenile**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini True olarak ayarlar.<br /><br /> **Asla yenileme**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılmıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini False olarak ayarlar.<br /><br /> **Dikkat** **Asla Yenileme** özelliğini dikkatle kullanın. Rapor sunucusunda, rapor verileri ve işlenmiş raporlar için önbellek seçeneklerini ve anlık görüntü raporlarının parametre seçeneklerini kolayca denetlemek için **UsedInQuery** kullanılır. **Asla Yenileme** özelliğini yanlış ayarlarsanız, yanlış rapor verilerinin veya raporların önbelleğe alınmasına veya anlık görüntü raporu verilerinin tutarsız olmasına sebep olabilirsiniz. |  
+|Kullanılabilir değerler|Bir parametre için kullanılabilecek değerleri belirttiyseniz, geçerli değerler her zaman bir açılan liste olarak görünür. Örneğin, bir **DateTime** parametresi için kullanılabilecek değerleri sağlarsanız, parametre bölmesinde takvim denetiminin yerine tarihin seçilmesine olanak tanıyan bir açılan liste görünür.<br /><br /> Bir değerler listesinin raporlarda ve alt raporlarda tutarlı olmasını sağlamak için veri kaynağında, bir veri kaynağı ile ilişkilendirilmiş veri kümelerindeki tüm sorgular için tek işlem kullanma seçeneğini ayarlayabilirsiniz.<br /><br /> **Güvenlik Notu****Metin** veri türünde bir parametre içeren tüm raporlarda kullanılabilir değerler listesini (geçerli değerler listesi olarak da bilinir) kullandığınızdan ve raporu çalıştıran tüm kullanıcıların yalnızca rapordaki verileri görüntülemek için gereken izinlerinin bulunduğundan emin olun.|  
+|Varsayılan değerler|Bir sorgudan veya statik listeden varsayılan değerler ayarlama.<br /><br /> Her parametrenin varsayılan değeri olduğunda, rapor ilk görünümde otomatik olarak çalışır.|  
+|Gelişmiş|Bu parametrenin rapordaki verileri doğrudan veya dolaylı olarak etkileyip etkilemeyeceğini belirten **UsedInQuery** değeri için rapor tanımı özniteliğini ayarlayın.<br /><br /> **Ne zaman yenileneceğini otomatik olarak belirleme**<br /> Rapor işlemcisinin bu değer için bir ayar belirlemesini istediğinizde bu seçeneği belirleyin. Rapor işlemcisi, bu parametreye doğrudan veya dolaylı başvurusu olan bir veri kümesi sorgusu algılarsa veya raporun alt raporları varsa bu değer **True** olur.<br /><br /> **Her zaman yenile**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini True olarak ayarlar.<br /><br /> **Asla yenileme**<br /> Rapor parametresi bir veri kümesi sorgusunda veya parametre ifadesinde doğrudan ya da dolaylı olarak kullanılmıyorsa bu seçeneği belirleyin. Bu seçenek, **UsedInQuery** değerini False olarak ayarlar.<br /><br /> **Dikkat****Asla Yenileme** özelliğini dikkatle kullanın. Rapor sunucusunda, rapor verileri ve işlenmiş raporlar için önbellek seçeneklerini ve anlık görüntü raporlarının parametre seçeneklerini kolayca denetlemek için **UsedInQuery** kullanılır. **Asla Yenileme** özelliğini yanlış ayarlarsanız, yanlış rapor verilerinin veya raporların önbelleğe alınmasına veya anlık görüntü raporu verilerinin tutarsız olmasına sebep olabilirsiniz. |  
   
 ##  <a name="dataset-query"></a><a name="bkmk_Dataset_Parameters"></a> Veri kümesi sorgusu  
  Veri kümesi sorgusundaki verileri filtrelemek için, sonuç kümesine eklenecek veya bu kümeden çıkarılacak değerleri belirtilerek alınan verileri sınırlayan bir sınırlama yan tümcesi ekleyebilirsiniz.  
@@ -130,7 +132,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
   
  Yayımlanan bir rapor için şunları kullanabilirsiniz:  
   
--    **Rapor parametresi özellikleri.** Rapor parametresi değerlerini, rapor tanımından bağımsız olarak rapor sunucusunda doğrudan değiştirin.  
+-   **Rapor parametresi özellikleri.** Rapor parametresi değerlerini, rapor tanımından bağımsız olarak rapor sunucusunda doğrudan değiştirin.  
   
 -   **Rapor abonelikleri.** Abonelikler aracılığıyla verileri filtrelemek ve raporları teslim etmek için parametre değerleri belirtebilirsiniz. 
   
@@ -143,7 +145,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Abonelik için parametreler  
  Bir isteğe bağlı veya anlık görüntü için abonelik tanımlayıp, abonelik işleme sırasında kullanılacak parametre değerlerini belirtebilirsiniz.  
   
--   **İsteğe bağlı rapor.**  İsteğe bağlı bir raporda, raporda listelenen her parametre için yayımlanan değerden farklı bir parametre değeri belirtebilirsiniz. Örneğin, geçerli gün, hafta veya ay için müşteri hizmetleri isteklerini döndürmek amacıyla bir *Zaman Aralığı* kullanan Çağrı Merkezi raporunuzun olduğunu varsayalım. Raporun varsayılan parametre değeri **bugün** olarak ayarlandıysa, haftalık veya aylık rakamları içeren bir rapor oluşturmak için aboneliğiniz farklı bir parametre değeri (**hafta** veya **ay** gibi) kullanabilir.  
+-   **İsteğe bağlı rapor.**  İsteğe bağlı bir raporda, raporda listelenen her parametre için yayımlanan değerden farklı bir parametre değeri belirtebilirsiniz. Örneğin, geçerli gün, hafta veya ay için müşteri hizmetleri isteklerini döndürmek amacıyla bir *Zaman Aralığı* kullanan Çağrı Merkezi raporunuzun olduğunu varsayalım. Raporun varsayılan parametre değeri **bugün** olarak ayarlandıysa, haftalık veya aylık rakamları içeren bir rapor oluşturmak için aboneliğiniz farklı bir parametre değeri ( **hafta** veya **ay** gibi) kullanabilir.  
   
 ## <a name="next-steps"></a>Sonraki adımlar
 
