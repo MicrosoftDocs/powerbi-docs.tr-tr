@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: ''
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230950"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297355"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için rapor görünümlerini ayarlama
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Power BI hizmetinde sayfalandırılmış raporu işlerken, varsayılan görünüm HTML tabanlı ve etkileşimlidir. PDF gibi sabit sayfa biçimlerine yönelik bir diğer rapor görünümü de yeni Sayfa Görünümü seçeneğidir.
 
@@ -35,19 +37,19 @@ Sayfa Görünümü Yakınlaştırma, Uzaklaştırma ve Sayfaya sığdırma gibi 
 
 Sayfalandırılmış raporu açtığınızda varsayılan olarak etkileşimli görünümde işlenir. Raporun parametreleri varsa, parametreleri seçin ve ardından raporu görüntüleyin.
 
-1. Araç çubuğunda **Görünüm** > **Sayfa Görünümü**’nü seçin.
+1. Araç çubuğunda **Görünüm** > **Sayfa Görünümü** ’nü seçin.
 
     ![Sayfa Görünümüne geçme](media/page-view/power-bi-paginated-page-view-dropdown.png)
 
-2. Araç çubuğundaki **Görünüm** menüsünde **Sayfa Ayarları**’nı seçerek sayfa görünümünün ayarlarını değiştirebilirsiniz. 
+2. Araç çubuğundaki **Görünüm** menüsünde **Sayfa Ayarları** ’nı seçerek sayfa görünümünün ayarlarını değiştirebilirsiniz. 
 
     ![Sayfa Ayarları’nı seçme](media/page-view/power-bi-paginated-page-settings-dropdown.png)
     
-    **Sayfa Ayarları** iletişim kutusunda, Sayfa Görünümü için **Sayfa Boyutu** ve **Yönlendirme**’yi ayarlama seçenekleri vardır. Siz sayfa ayarlarını uyguladıktan sonra, aynı seçenekler daha sonra sayfayı yazdırdığınızda da geçerli olur.
+    **Sayfa Ayarları** iletişim kutusunda, Sayfa Görünümü için **Sayfa Boyutu** ve **Yönlendirme** ’yi ayarlama seçenekleri vardır. Siz sayfa ayarlarını uyguladıktan sonra, aynı seçenekler daha sonra sayfayı yazdırdığınızda da geçerli olur.
    
     ![Sayfa Ayarları iletişim kutusu](media/page-view/power-bi-paginated-page-settings-dialog.png)
 
-3. Etkileşimli görünümüne geri dönmek için **Görünüm** açılan kutusunda **Varsayılan**’ı seçin.
+3. Etkileşimli görünümüne geri dönmek için **Görünüm** açılan kutusunda **Varsayılan** ’ı seçin.
 
 ## <a name="browser-support"></a>Tarayıcı desteği
 

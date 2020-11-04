@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216738"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297852"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Rapor Oluşturucusu
 
- Power BI Rapor Oluşturucusu, Power BI hizmetinde yayımlayabileceğiniz sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Rapor Oluşturucusu, Power BI hizmetinde yayımlayabileceğiniz sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
  
 Yazmaya başlamaya hazır mısınız? Microsoft İndirme Merkezi’nden [Power BI Rapor Oluşturucusu’nu yükleyin](https://aka.ms/pbireportbuilder).
 
@@ -48,7 +50,7 @@ Aşağıdaki sayfalandırılmış raporda satır ve sütun grupları, mini grafi
   
 -   **Etkileşimli özellikler ekleyin**. Alt raporlara ve detaylandırma raporlarına belge haritaları, göster/gizle düğmeleri ve detaylandırma bağlantıları gibi özellikler ekleyebilirsiniz. Özelleştirilmiş görünümler için verileri filtrelemek üzere parametreler ve filtreler kullanın.  
   
--   **Resimler ekleyin veya bunlara başvurun**, ayrıca dış içerik de dahil olmak üzere diğer kaynakları ekleyin ya da başvurun.  
+-   **Resimler ekleyin veya bunlara başvurun** , ayrıca dış içerik de dahil olmak üzere diğer kaynakları ekleyin ya da başvurun.  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Raporunuzu yönetme  
   

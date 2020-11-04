@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746597"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298023"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporlarındaki alt raporlar
 
-*Alt rapor*, ana sayfalandırılmış raporun gövdesi içinde başka bir sayfalandırılmış rapor görüntüleyen bir sayfalandırılmış rapor öğesidir. Kavramsal olarak bir raporun içindeki alt rapor, Web sayfasındaki çerçeveye benzer. Bunu, raporun içine rapor eklemek için kullanırsınız. Her raporu alt rapor olarak kullanabilirsiniz. Alt rapor olarak görüntülenen raporu, ana raporla aynı Premium çalışma alanında depolarsınız. Ana raporu, parametreleri alt rapora geçirecek şekilde tasarlayabilirsiniz. Alt rapor veri bölgeleri içinde yinelenebilir ve bir parametre kullanılarak alt raporun her örneğindeki veriler filtrelenebilir.  
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*Alt rapor* , ana sayfalandırılmış raporun gövdesi içinde başka bir sayfalandırılmış rapor görüntüleyen bir sayfalandırılmış rapor öğesidir. Kavramsal olarak bir raporun içindeki alt rapor, Web sayfasındaki çerçeveye benzer. Bunu, raporun içine rapor eklemek için kullanırsınız. Her raporu alt rapor olarak kullanabilirsiniz. Alt rapor olarak görüntülenen raporu, ana raporla aynı Premium çalışma alanında depolarsınız. Ana raporu, parametreleri alt rapora geçirecek şekilde tasarlayabilirsiniz. Alt rapor veri bölgeleri içinde yinelenebilir ve bir parametre kullanılarak alt raporun her örneğindeki veriler filtrelenebilir.  
   
  ![Sayfalandırılmış rapordaki alt rapor](media/subreports/paginated-report-subreport.png "Sayfalandırılmış rapor alt raporu")  
   
@@ -27,38 +29,38 @@ Sayfalandırılmış rapor tanımı (.rdl) dosyalarını Power BI Report Builder
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Report Builder ve Power BI hizmetiyle çalışma
 
-Power BI Report Builder bilgisayarınızdaki sayfalandırılmış raporlarla (yerel raporlar olarak bilinir) veya Power BI hizmetindeki raporlarla çalışabilir.  Report Builder’ı ilk kez açtığınızda Power BI hesabınızda oturum açmanız istenir. Oturum açmadıysanız, sağ üst köşede **Oturum aç**'ı seçin.
+Power BI Report Builder bilgisayarınızdaki sayfalandırılmış raporlarla (yerel raporlar olarak bilinir) veya Power BI hizmetindeki raporlarla çalışabilir.  Report Builder’ı ilk kez açtığınızda Power BI hesabınızda oturum açmanız istenir. Oturum açmadıysanız, sağ üst köşede **Oturum aç** 'ı seçin.
 
 :::image type="content" source="media/subreports/report-builder-sign-in.png" alt-text="Power BI’da oturum açma":::
 
-Oturum açtıktan sonra Power BI Report Builder’da **Dosya** menüsünün **Aç** ve **Farklı Kaydet** seçenekleri için **Power BI Hizmeti** değerini görürsünüz. Dosyaya kaydederken **Power BI Hizmeti**’ni seçerseniz, Power BI Report Builder ile Power BI hizmeti arasında bir canlı bağlantı oluşturursunuz. 
+Oturum açtıktan sonra Power BI Report Builder’da **Dosya** menüsünün **Aç** ve **Farklı Kaydet** seçenekleri için **Power BI Hizmeti** değerini görürsünüz. Dosyaya kaydederken **Power BI Hizmeti** ’ni seçerseniz, Power BI Report Builder ile Power BI hizmeti arasında bir canlı bağlantı oluşturursunuz. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI’da oturum açma":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI hizmetinden açma":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Power BI hizmetinde yerel raporu kaydetme
 
 Ana rapora bir alt rapor ekleyebilmek için önce iki rapor oluşturun ve bunları aynı Power BI Premium çalışma alanına kaydedin. 
 
-1. Mevcut yerel raporu açmak için **Dosya** menüsünde **Aç** > **Bu bilgisayar**’ı ve sonra da .rdl dosyasını seçin.  
+1. Mevcut yerel raporu açmak için **Dosya** menüsünde **Aç** > **Bu bilgisayar** ’ı ve sonra da .rdl dosyasını seçin.  
 
-2. **Dosya** menüsünde **Farklı Kaydet** > **Power BI Hizmeti**'ni seçin.  Ayrıntılar için bkz. [Power BI hizmetinde sayfalandırılmış rapor yayımlama](paginated-reports-save-to-power-bi-service.md).
+2. **Dosya** menüsünde **Farklı Kaydet** > **Power BI Hizmeti** 'ni seçin.  Ayrıntılar için bkz. [Power BI hizmetinde sayfalandırılmış rapor yayımlama](paginated-reports-save-to-power-bi-service.md).
 
     > [!NOTE]
     > Ayrıca Power BI hizmetinden başlayarak da raporu karşıya yükleyebilirsiniz. Aynı [Power BI hizmetinde sayfalandırılmış rapor yayımlama](paginated-reports-save-to-power-bi-service.md) makalesinde ayrıntıları bulabilirsiniz.
 
 3. **Farklı Kaydet** iletişim kutusunda, sayfalandırılmış raporlarınızı depolayabileceğiniz bir Power BI Premium çalışma alanı seçin.  Premium çalışma alanlarının adının yanında ![Premium elmas simgesi](media/subreports/report-builder-premium-diamond.png) bulunur.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI’da oturum açma":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI hizmetine farklı kaydetme":::
 
-4. **Kaydet**'i seçin.
+4. **Kaydet** 'i seçin.
 
 ## <a name="add-a-subreport-to-a-report"></a>Rapora bir alt rapor ekleme
 
 Artık her iki raporu da aynı Premium çalışma alanına kaydettiğinize göre, raporlardan birini diğerine alt rapor olarak ekleyebilirsiniz. Alt rapor eklemenin iki yolu vardır. 
 
-1. **Ekle** şeridinde **Alt Rapor** düğmesini seçin veya rapor tuvaline sağ tıklayın ve **Ekle** > **Alt Rapor**’u seçin.
+1. **Ekle** şeridinde **Alt Rapor** düğmesini seçin veya rapor tuvaline sağ tıklayın ve **Ekle** > **Alt Rapor** ’u seçin.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Power BI’da oturum açma":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Rapora bir alt rapor ekleme":::
 
     **Alt Rapor Özellikleri** iletişim kutusu açılır.  
 
@@ -80,7 +82,7 @@ Artık her iki raporu da aynı Premium çalışma alanına kaydettiğinize göre
 
 Report Builder’da raporlarınızın önizlemesini görüntüleyebilirsiniz.
 
-- **Giriş** şeridinde **Çalıştır**'ı seçin. 
+- **Giriş** şeridinde **Çalıştır** 'ı seçin. 
 
 Report Builder bir tasarım aracı olduğundan, raporun önizlemesi raporu Power BI hizmetinde işlemekten farklı görünebilir.
 

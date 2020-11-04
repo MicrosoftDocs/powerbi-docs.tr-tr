@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257042"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297888"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Bu makalede sayfalandırılmış raporlar hakkında sık sorulan sorular yanıtlanır. Bu raporlar, üst düzeyde biçimlendirilmiş, yazdırma veya PDF oluşturma için iyileştirilmiş mükemmel çıkışlardır. "Sayfalandırılmış" olarak adlandırılmalarının nedeni, birden çok sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Sayfalandırılmış raporlar, SQL Server Reporting Services’in RDL rapor teknolojisini temel alır. 
 
@@ -72,9 +74,9 @@ Hata iletisi alırsınız ve iş yükü yeniden açılana kadar raporunuzu gör�
 
 Sayfalandırılmış raporlar için her Premium SKU'daki varsayılan bellek:
 
-- **P1/A4**: %20 varsayılan; %10 en küçük
-- **P2/A5**: %20 varsayılan; %5 en küçük
-- **P3/A6**: %20 varsayılan; %2,5 en küçük
+- **P1/A4** : %20 varsayılan; %10 en küçük
+- **P2/A5** : %20 varsayılan; %5 en küçük
+- **P3/A6** : %20 varsayılan; %2,5 en küçük
 
 Power BI yöneticileri en fazla bellek yüzdesini Yönetici portalından değiştirebilir. **Kapasite ayarları** sekmesindeki **Power BI Premium** seçeneğinde yer alan **Sayfalandırılmış Raporlar** iş yükü bölümüne bakın.
 
@@ -181,7 +183,7 @@ Sayfalandırılmış raporlarda DateTime alanlarıyla çalışırken aklınızda
 
 Kullanıcılar, Power BI hizmetinde sayfalandırılmış raporları görüntülerken oturum zaman aşımına uğrayabilir ve aşağıdaki bildirim görüntülenebilir:
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Sayfalandırılmış raporlar bölümündeki kapasite ayarları sekmesi":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Sayfalandırılmış rapor oturumunun süresinin dolduğunu gösteren bildirim":::
 
 - Oturum, 60 dakika boyunca herhangi bir işlem yapılmadığında veya cihazın kilitlenmesi ya da boşta kalması durumunda daha erken bir noktada veya raporun tarayıcının etkin sekmesinde görüntülenmemesi halinde zaman aşımına uğrar.
 

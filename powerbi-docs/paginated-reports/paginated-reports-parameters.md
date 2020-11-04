@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600503"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297217"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Bu makalede, Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma hakkında bilgi edineceksiniz.  Rapor parametresi, rapor verilerini seçmenin ve raporu sunusunu çeşitlendirmenin bir yolunu sağlar. Varsayılan bir değer veya kullanılabilir değerlerin bir listesini sağlayabilirsiniz. Seçiminiz raporu okuyanlar tarafından değiştirilebilir. Okuyucular ayrıca parametre metin kutularını kullanarak değer araması yapabilir. İşletme kullanıcılarınızın Power BI hizmetinde parametrelerle nasıl etkileşim kurabileceğini görmek için bkz. [Sayfalandırılmış raporlar için parametreleri görüntüleme](../consumer/paginated-reports-view-parameters.md).  
 
@@ -38,7 +40,7 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
 1.  Sayfalandırılmış raporunuzu Power BI Rapor Oluşturucusu'nda açın.
 
-1. **Rapor Verileri** bölmesinde **Parametreler** düğümüne sağ tıklayın > **Parametre Ekle**’yi seçin. **Rapor Parametresi Özellikleri** iletişim kutusu açılır.  
+1. **Rapor Verileri** bölmesinde **Parametreler** düğümüne sağ tıklayın > **Parametre Ekle** ’yi seçin. **Rapor Parametresi Özellikleri** iletişim kutusu açılır.  
   
 2.  **Ad** alanına parametre için bir ad girin ya da varsayılan adı kabul edin.  
   
@@ -46,21 +48,21 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
 4.  **Veri türü** alanında parametre değeri için veri türünü seçin.  
   
-5.  Parametre boş bir değer içeriyorsa **Boş değere izin ver**’i seçin.  
+5.  Parametre boş bir değer içeriyorsa **Boş değere izin ver** ’i seçin.  
   
-6.  Parametre bir null değer içeriyorsa **Null değere izin ver**’i seçin.  
+6.  Parametre bir null değer içeriyorsa **Null değere izin ver** ’i seçin.  
   
-7.  Kullanıcının bir parametre için birden fazla değer seçmesine izin vermek için **Birden çok değere izin ver**’i seçin.  
+7.  Kullanıcının bir parametre için birden fazla değer seçmesine izin vermek için **Birden çok değere izin ver** ’i seçin.  
   
 8.  Görünürlük seçeneğini ayarlayın.  
   
-    -   Parametreyi raporun üst kısmındaki araç çubuğunda göstermek için **Görünür**’ü seçin.  
+    -   Parametreyi raporun üst kısmındaki araç çubuğunda göstermek için **Görünür** ’ü seçin.  
   
-    -   Araç çubuğunda gösterilmemesi için parametreyi gizlemek istiyorsanız **Gizli**’yi seçin.  
+    -   Araç çubuğunda gösterilmemesi için parametreyi gizlemek istiyorsanız **Gizli** ’yi seçin.  
   
-    -   Parametreyi gizlemek ve rapor yayımlandıktan sonra rapor sunucusunda değiştirilmeye karşı korumak için **İç**’i seçin. Bu durumda rapor parametresi yalnızca rapor tanımında görüntülenebilir. Bu seçenek için bir varsayılan değer ayarlamanız ya da parametrenin bir null değeri kabul etmesine izin vermeniz gerekir.  
+    -   Parametreyi gizlemek ve rapor yayımlandıktan sonra rapor sunucusunda değiştirilmeye karşı korumak için **İç** ’i seçin. Bu durumda rapor parametresi yalnızca rapor tanımında görüntülenebilir. Bu seçenek için bir varsayılan değer ayarlamanız ya da parametrenin bir null değeri kabul etmesine izin vermeniz gerekir.  
   
-9. **Tamam**’ı seçin. 
+9. **Tamam** ’ı seçin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

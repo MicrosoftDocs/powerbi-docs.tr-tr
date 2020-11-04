@@ -8,14 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3f075372436723cd8952decd68ecc764bd6e92a0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923000"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297734"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor planlama
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Power BI Report Builder çok çeşitli sayfalandırılmış raporlar oluşturmanıza olanak tanır. Örneğin özet veya ayrıntılı satış verilerini, pazarlama ve satış eğilimlerini, işlem raporlarını veya panoları gösteren raporlar oluşturabilirsiniz. Ayrıca satış siparişleri, ürün katalogları ve form mektupları gibi zengin biçimlendirilmiş metinlerden yararlanan raporlar da oluşturabilirsiniz. Bu raporların hepsi Rapor Oluşturucusu'ndaki aynı temel yapı taşlarının farklı bileşimleri kullanılarak oluşturulur. Kullanışlı, kolay anlaşılır raporlar oluşturmak için önce planlamak yararlı olur. Başlamadan önce şu noktaları göz önünde bulundurmak isteyebilirsiniz:  
   
