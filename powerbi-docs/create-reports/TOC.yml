@@ -85,6 +85,8 @@
           items:
             - name: Power BI’da Rapor Oluşturucusu
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: Örnek Power BI sayfalandırılmış raporlar
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: Rapor Tasarım Görünümünde gezinme
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: Rapor planlama
