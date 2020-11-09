@@ -11,12 +11,12 @@ ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830348"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916993"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>*İş kullanıcılarına* yönelik lisanslar ve abonelikler
 
@@ -42,11 +42,11 @@ Aynı anda birden fazla lisansa sahip olmak mümkündür.  Hizmet her zaman şu 
 
 ## <a name="power-bi-premium-capacity"></a>Power BI Premium kapasitesi
 
-Premium, içeriğin depolanması için farklı bir yol sağlayan (ayrılmış kapasite) bir kurumsal aboneliktir. Premium ile kuruluşunuzun içinde veya dışında izinleri olan herkes tek tek Power BI Pro lisansı satın almadan bu Premium kapasitede depolanan içeriği görüntüleyebilir. 
+Premium, içeriğin depolanması için farklı bir yol sağlayan, bir kapasite kullanan bir kurumsal aboneliktir. Premium ile kuruluşunuzun içinde veya dışında izinleri olan herkes tek tek Power BI Pro lisansı satın almadan bu Premium kapasitede depolanan içeriği görüntüleyebilir. 
 
 Premium ayrıca içeriği görüntüleyen alıcılarda Pro lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar. İçerik tasarımcıları için Pro lisansları gerekir. Tasarımcılar veri kaynaklarına bağlanır, verileri modeller ve çalışma alanı uygulamaları olarak paketlenen raporlar ve panolar oluşturur. Pro lisansı olmayan kullanıcılar [bu çalışma alanında bir role](end-user-workspaces.md) atandığı sürece Power BI Premium kapasitesindeki çalışma alanına yine de erişebilir.
 
-Bu çalışma alanları içinde, tasarımcılar **Görüntüleyici**, **Katkıda bulunan**, **Üye** ve **Yönetici** gibi roller atayabilir. Bu roller, iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirler. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
+Bu çalışma alanları içinde, tasarımcılar **Görüntüleyici** , **Katkıda bulunan** , **Üye** ve **Yönetici** gibi roller atayabilir. Bu roller, iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirler. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
 
 Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../admin/service-premium-what-is.md).
 
@@ -56,7 +56,7 @@ Profil resminizi seçerek hesap bilgilerinizi görüntüleyin. Zalan ücretsiz b
 ![Profil resminize tıkladığınızda görüntülenen açılan menünün ekran görüntüsü](media/end-user-license/power-bi-profiles.png)
 
 
-Hesabınızla ilgili ek bilgilere ulaşmak için **Hesabı görüntüle**'yi seçin. Yeni bir tarayıcı sekmesinde [Microsoft **Hesabım** sayfası](https://portal.office.com/account) açılır.  Size atanmış olan lisansları görmek için.  **Abonelikler** sekmesini seçin.
+Hesabınızla ilgili ek bilgilere ulaşmak için **Hesabı görüntüle** 'yi seçin. Yeni bir tarayıcı sekmesinde [Microsoft **Hesabım** sayfası](https://portal.office.com/account) açılır.  Size atanmış olan lisansları görmek için.  **Abonelikler** sekmesini seçin.
 
 ![Microsoft 365 Hesaplar sayfasının ekran görüntüsü.](media/end-user-license/power-bi-subscriptions.png)
 
@@ -77,7 +77,7 @@ Ardından, Premium kapasiteye sahip bir kuruluşun parçası olup olmadığını
 
 Zalan’ın kuruluşunun, kullanılabilir depolama alanı miktarına bakarak Premium kapasiteye sahip olup olmadığını belirleyebiliriz. 
 
-- Power BI hizmetinde **Çalışma alanım**'ı ve ardından sağ üst köşedeki dişli simgesini seçin. **Kişisel depolama alanını yönet**'i seçin.
+- Power BI hizmetinde **Çalışma alanım** 'ı ve ardından sağ üst köşedeki dişli simgesini seçin. **Kişisel depolama alanını yönet** 'i seçin.
 
     ![Dişli/Ayarlar menüsü](media/end-user-license/power-bi-license-personal.png)
 
@@ -95,11 +95,11 @@ Aşağıdaki görüntüde, uygulamaların üçü Premium kapasitede depolanır.
 
 ![Uygulamalar ekranı](media/end-user-license/power-bi-premium.png)
 
-Ücretsiz lisansı olan bir kullanıcıysanız *tasarımcı* çalışma alanını ayrılmış Premium kapasiteye eklediği sürece **bu çalışma alanı içinde** paylaşılan içeriği görüntüleme, iş arkadaşlarıyla işbirliği yapma ve uygulama panolarıyla ve raporlarıyla çalışma gibi işlemleri yapabilirsiniz. İzinlerinin kapsamı, Power BI yöneticiniz ve içerik tasarımcısı tarafından belirlenir.
+Ücretsiz lisansı olan bir kullanıcıysanız *tasarımcı* çalışma alanını Premium kapasiteye eklediği sürece **bu çalışma alanı içinde** paylaşılan içeriği görüntüleme, iş arkadaşlarıyla işbirliği yapma ve uygulama panolarıyla ve raporlarıyla çalışma gibi işlemleri yapabilirsiniz. İzinlerinin kapsamı, Power BI yöneticiniz ve içerik tasarımcısı tarafından belirlenir.
 
 ## <a name="putting-it-all-together"></a>Hepsini bir araya getirme
 
-Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapasitede çalışarak içerik oluşturacak ve paylaşacak olan çalışanlara Pro lisansları atar. Pro kullanıcıları [çalışma alanları](end-user-workspaces.md) oluşturur ve bu çalışma alanlarına içerik (panolar, raporlar, uygulamalar) ekler. Ücretsiz kullanıcıların bu çalışma alanlarında işbirliği yapmasına olanak sağlamak için yönetici veya Pro kullanıcı, çalışma alanlarını *ayrılmış kapasiteye* atar.  
+Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapasitede çalışarak içerik oluşturacak ve paylaşacak olan çalışanlara Pro lisansları atar. Pro kullanıcıları [çalışma alanları](end-user-workspaces.md) oluşturur ve bu çalışma alanlarına içerik (panolar, raporlar, uygulamalar) ekler. Ücretsiz kullanıcıların bu çalışma alanlarında işbirliği yapmasına olanak sağlamak için yönetici veya Pro kullanıcı, çalışma alanlarını *bir kapasiteye* atar.  
 
 |Lisans türü  |Paylaşılan kapasite |Ayrılmış Premium kapasite  |
 |---------|---------|---------|
@@ -111,13 +111,13 @@ Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapa
 
 Aşağıdaki diyagramın sol tarafında, uygulama çalışma alanlarında içerik oluşturan ve paylaşan Pro kullanıcıları gösterilir.
 
-- **Çalışma Alanı A**, Premium kapasitesi olmayan bir kuruluşta oluşturulmuştur.
+- **Çalışma Alanı A** , Premium kapasitesi olmayan bir kuruluşta oluşturulmuştur.
 
-- **Çalışma Alanı B**, Premium aboneliği olan bir kuruluşta oluşturulmuştur. Çalışma alanı ayrılmış kapasiteye kaydedilmiştir. Bu çalışma alanının baklava simgesi vardır.  
+- **Çalışma Alanı B** , Premium aboneliği olan bir kuruluşta oluşturulmuştur. Çalışma alanı bir kapasiteye kaydedilmiştir. Bu çalışma alanının baklava simgesi vardır.  
 
     ![üç çalışma alanının görüntüsü](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro *tasarımcısı* bu çalışma alanlarından herhangi birinde diğer Pro kullanıcılarıyla içerik paylaşıp işbirliği yapabilir. Ancak, Power BI Pro kullanıcısının ücretsiz kullanıcılarla paylaşım ve işbirliği yapabileceği tek yol, Premium ayrılmış kapasitede olan Çalışma Alanı B’yi kullanmaktır.  Çalışma alanı içinde tasarımcı işbirliği yaptığı kullanıcılara roller atar. Çalışma alanı içinde yapabileceğiniz eylemler rolünüz tarafından belirlenir. Power BI *iş kullanıcılarına* genellikle *Görüntüleyici* rolü atanır. Roller hakkında daha fazla bilgi edinmek için bkz. [Power BI iş kullanıcıları için çalışma alanları](end-user-workspaces.md).
+Power BI Pro *tasarımcısı* bu çalışma alanlarından herhangi birinde diğer Pro kullanıcılarıyla içerik paylaşıp işbirliği yapabilir. Ancak, Power BI Pro kullanıcısının ücretsiz kullanıcılarla paylaşım ve işbirliği yapabileceği tek yol, Premium kapasitede olan Çalışma Alanı B’yi kullanmaktır.  Çalışma alanı içinde tasarımcı işbirliği yaptığı kullanıcılara roller atar. Çalışma alanı içinde yapabileceğiniz eylemler rolünüz tarafından belirlenir. Power BI *iş kullanıcılarına* genellikle *Görüntüleyici* rolü atanır. Roller hakkında daha fazla bilgi edinmek için bkz. [Power BI iş kullanıcıları için çalışma alanları](end-user-workspaces.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
