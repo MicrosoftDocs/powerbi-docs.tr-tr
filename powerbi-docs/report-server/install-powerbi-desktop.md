@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252624"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044756"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
 
@@ -25,11 +25,11 @@ Endişelenmenize gerek yok. Power BI Desktop ile Power BI Rapor Sunucusu için e
 
 Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en güncel sürümüne sahip olduğunuzdan emin olmanın en kolay yolu rapor sunucunuzun web portalına gitmektir.
 
-1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop**'ı seçin.
+1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop** 'ı seçin.
 
     ![Web portalından Power BI Desktop'ı indirme](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Veya [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) giriş sayfasına giderek **Gelişmiş indirme seçenekleri**’ni belirleyin.
+    Veya [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) giriş sayfasına giderek **Gelişmiş indirme seçenekleri** ’ni belirleyin.
 
 2. İndirme Merkezi sayfasında bir dil seçin, ardından **İndir** seçeneğini belirtin.
 
@@ -40,14 +40,14 @@ Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en 
 
 1. Yükleyiciyi indirdikten sonra, Power BI Desktop Kurulum Sihirbazını çalıştırın.
 
-2. Yüklemenin sonunda **Power BI Desktop’ı Başlat**’ı seçin.
+2. Yüklemenin sonunda **Power BI Desktop’ı Başlat** ’ı seçin.
 
     Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Doğru sürümü kullandığınızdan emin olma
-Doğru Power BI Desktop'ı kullandığınızdan kolayca emin olabilirsiniz: Power BI Desktop'taki başlatma ekranına veya başlık çubuğuna bakın. Başlık çubuğunda **Power BI Desktop (Mart 2020)** ifadesinin bulunması, doğru sürüme sahip olduğunuzu gösterir. Ayrıca Power BI logo renkleri de ters çevrilmiştir; artık sarı üstüne siyah değil siyah üstüne sarıdır.
+Doğru Power BI Desktop'ı kullandığınızdan kolayca emin olabilirsiniz: Power BI Desktop'taki başlatma ekranına veya başlık çubuğuna bakın. Başlık çubuğundaki **Power BI Desktop (Ekim 2020)** ifadesi, doğru sürüme sahip olduğunuzu gösterir. Ayrıca Power BI logo renkleri de ters çevrilmiştir; artık sarı üstüne siyah değil siyah üstüne sarıdır.
 
-![Power BI Desktop Mayıs 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop Ekim 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 Başlık çubuğunda Power BI hizmeti için Power BI Desktop sürümüne ilişkin ay ve yıl bilgisi görüntülenmez.
 

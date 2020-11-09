@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374902"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916165"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
@@ -58,37 +58,37 @@ Bu bölümdeki yönergelerde temel Azure Key Vault bilgisine sahip olduğunuz va
 
 ### <a name="add-the-service-principal"></a>Hizmet sorumlusunu ekleme
 
-1. Azure portalında, anahtar kasanızda **Erişim ilkeleri**'nin altından **Yeni Ekle**'yi seçin.
+1. Azure portalında, anahtar kasanızda **Erişim ilkeleri** 'nin altından **Yeni Ekle** 'yi seçin.
 
-1. **Sorumlu seç**'in altında Microsoft.Azure.AnalysisServices'i arayın ve seçin.
+1. **Sorumlu seç** 'in altında Microsoft.Azure.AnalysisServices'i arayın ve seçin.
 
     > [!NOTE]
     > “Microsoft.Azure.AnalysisServices” öğesini bulamıyorsanız Azure Key Vault’unuz ile ilişkilendirilen aboneliğinizle bir Power BI kaynağının asla ilişkilendirilmemiş olması muhtemeldir. Bunun yerine aşağıdaki dizeyi aramayı deneyin: 00000009-0000-0000-c000-000000000000.
 
-1. **Anahtar izinleri**'nin altında **Anahtar Sarmalamasını Kaldır**'ı ve **Anahtarı Sarmala**'yı seçin.
+1. **Anahtar izinleri** 'nin altında **Anahtar Sarmalamasını Kaldır** 'ı ve **Anahtarı Sarmala** 'yı seçin.
 
     ![PBIX dosyası için hizmet sorumlusunu ve şifreleme işlemlerini seçme](media/service-encryption-byok/service-principal.png)
 
-1. **Tamam**'ı, sonra da **Kaydet**'i seçin.
+1. **Tamam** 'ı, sonra da **Kaydet** 'i seçin.
 
 > [!NOTE]
 > Gelecekte Power BI'ın verilerinize erişimini iptal etmek için Azure Key Vault'unuzdan bu hizmet sorumlusuna yönelik erişim haklarını kaldırın.
 
 ### <a name="create-an-rsa-key"></a>RSA anahtarı oluşturma
 
-1. Anahtar kasanızdaki **Anahtarlar**'ın altında **Oluştur/İçeri Aktar**'ı seçin.
+1. Anahtar kasanızdaki **Anahtarlar** 'ın altında **Oluştur/İçeri Aktar** 'ı seçin.
 
 1. **Anahtar Türü** olarak RSA ve **RSA Anahtar Boyutu** olarak 4096 seçin.
 
     ![Anahtar oluşturma adımı, anahtar türü ve boyutu vurgulanmış](media/service-encryption-byok/create-rsa-key.png)
 
-1. **Oluştur**’u seçin.
+1. **Oluştur** ’u seçin.
 
-1. **Anahtarlar**'ın altında, oluşturduğunuz anahtarı seçin.
+1. **Anahtarlar** 'ın altında, oluşturduğunuz anahtarı seçin.
 
 1. Anahtarın **Geçerli Sürümü** olarak GUID seçin.
 
-1. Hem **Anahtar Sarmala** hem de **Anahtar Sarmalamasını Kaldır**'ın seçildiğinden emin olun. Power BI'da KAG'yi etkinleştirirken kullanmak üzere **Anahtar Tanımlayıcısı**'nı kopyalayın.
+1. Hem **Anahtar Sarmala** hem de **Anahtar Sarmalamasını Kaldır** 'ın seçildiğinden emin olun. Power BI'da KAG'yi etkinleştirirken kullanmak üzere **Anahtar Tanımlayıcısı** 'nı kopyalayın.
 
     ![Özellikler, anahtar tanımlayıcısı ve izin verilen işlemler vurgulanmış](media/service-encryption-byok/key-properties.png)
 
@@ -108,9 +108,9 @@ KAG'yi etkinleştirmeden önce aşağıdaki noktaları aklınızda bulundurun:
 
 - Şu anda, KAG'yi etkinleştirdikten sonra devre dışı bırakamazsınız. `Add-PowerBIEncryptionKey` için parametreleri nasıl belirttiğinize bağlı olarak KAG'yi bir veya birden çok kapasitenizde nasıl kullanacağınızı denetleyebilirsiniz. Öte yandan anahtarların kiracınıza tanıtılmasını geri alamazsınız. Daha fazla bilgi için bkz. [KAG'yi etkinleştirme](#enable-byok).
 
-- KAG kullanan bir çalışma alanını Power BI Premium'daki ayrılmış kapasiteden paylaşılan kapasiteye _doğrudan_ taşıyamazsınız. Çalışma alanını önce KAG'nin etkinleştirilmediği bir ayrılmış kapasiteye taşımanız gerekir.
+- KAG kullanan bir çalışma alanını Power BI Premium’daki kapasiteden paylaşılan kapasiteye _doğrudan_ taşıyamazsınız. Çalışma alanını önce KAG’nin etkinleştirilmediği bir kapasiteye taşımanız gerekir.
 
-- KAG kullanan bir çalışma alanını Power BI Premium'daki bir ayrılmış kapasiteden paylaşılan kapasiteye taşırsanız, Anahtar ile şifrelendiğinden raporlara ve veri kümelerine erişim sağlayamazsınız. Bu durumla karşılaşmamak için çalışma alanını önce KAG'nin etkinleştirilmediği bir ayrılmış kapasiteye taşımanız gerekir.
+- KAG kullanan bir çalışma alanını Power BI Premium’daki bir kapasiteden paylaşılan kapasiteye taşırsanız Anahtar ile şifrelendiğinden raporlara ve veri kümelerine erişim sağlayamazsınız. Bu durumla karşılaşmamak için çalışma alanını önce KAG'nin etkinleştirilmediği bir kapasiteye taşımanız gerekir.
 
 ### <a name="enable-byok"></a>KAG'yi etkinleştirme
 
@@ -183,7 +183,7 @@ Power BI kiracınızda KAG'nin yönetilmesine yardımcı olmak için ek cmdlet'l
 
     Şifrelemenin kapasite düzeyinde etkinleştirildiğine ama belirtilen çalışma alanı için eşitleme durumunu veri kümesi düzeyinde aldığınıza dikkat edin.
 
-- Şifreleme için kullanılan anahtarın sürümünü değiştirmek için [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) veya (_döndür_ işlevini) kullanın. Cmdlet yalnızca `-Name` anahtarı için `-KeyVaultKeyUri` değerini güncelleştirir:
+- Şifreleme için kullanılan anahtarın sürümünü değiştirmek için [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) veya ( _döndür_ işlevini) kullanın. Cmdlet yalnızca `-Name` anahtarı için `-KeyVaultKeyUri` değerini güncelleştirir:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

@@ -7,18 +7,20 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860567"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132632"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Öğretici: Power BI ile bir GitHub deposuna bağlanma
-Bu öğreticide, Power BI ile GitHub hizmetindeki gerçek verilere bağlanırsınız ve Power BI otomatik olarak panolar ve raporlar oluşturur. Power BI içerik genel deposuna (*depo* olarak da bilinir) bağlanır ve şunlar gibi soruların cevaplarını görürsünüz: Power BI genel içeriğine kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer sorular. 
+Bu öğreticide gerçek verilere bağlanabilirsiniz: GitHub hizmetindeki Power BI içeriği genel deposu ( *depo* olarak da bilinir). Power BI, verilerle otomatik olarak bir pano ve rapor oluşturur. Aşağıdakine benzer sorulara ilişkin yanıtları görürsünüz: Power BI genel deposuna kaç kişi katkıda bulunuyor? En çok kim katkıda bulunuyor? En çok haftanın hangi gününde katkıda bulunuluyor? Ve diğer sorular. 
+
+Kendi özel depolarınıza veya genel GitHub depolarına da bağlanabilirsiniz. [Power BI ile GitHub’a bağlanma](service-connect-to-github.md) makalesinde, depolarınıza bağlanmak için Power BI *şablon uygulamasının* nasıl kullanılacağı açıklanmaktadır.
 
 ![Power BI’daki GitHub raporu](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -48,23 +50,23 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
    
    ![Power BI Get uygulamaları](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. **Uygulamalar**’ı seçin, arama kutusuna **GitHub** yazın > **Hemen edinin**’e tıklayın.
+3. **Uygulamalar** ’ı seçin, arama kutusuna **GitHub** yazın > **Hemen edinin** ’e tıklayın.
    
    ![Power BI Get GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. **Bu Power BI uygulaması yüklensin mi?** iletişim kutusunda **Yükle**’yi seçin.
+4. **Bu Power BI uygulaması yüklensin mi?** iletişim kutusunda **Yükle** ’yi seçin.
 5. **Yeni uygulamanız hazır** alanında **Uygulamaya gidin** seçeneğini belirleyin.
 6. **Yeni uygulamanızı kullanmaya başlayın** alanında **Bağlan** seçeneğini belirleyin.
 
     ![Yeni uygulamanızı kullanmaya başlayın](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. Depo adını ve sahibini girin. Bu depodaki URL https://github.com/MicrosoftDocs/powerbi-docs olduğundan, **Depo Sahibi** **MicrosoftDocs** ve **Depo** da **powerbi-docs**’tur. 
+7. Depo adını ve sahibini girin. Bu depodaki URL https://github.com/MicrosoftDocs/powerbi-docs olduğundan, **Depo Sahibi****MicrosoftDocs** ve **Depo** da **powerbi-docs** ’tur. 
    
     ![Power BI GitHub depo adı](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. Oluşturduğunuz GitHub kimlik bilgilerini girin. Önceden tarayıcınızda GitHub’da oturum açtıysanız Power BI bu adımı atlayabilir. 
 
-6. **Kimlik Doğrulama Yöntemi** için **OAuth2** seçimini koruyun ve \>**Oturum Açın**.
+6. **Kimlik Doğrulama Yöntemi** için **OAuth2** seçimini koruyun ve \> **Oturum Açın**.
 
 7. GitHub kimlik doğrulaması ekranlarındaki yönergeleri uygulayın. Power BI’a GitHub verileri için izin verin.
    
@@ -75,7 +77,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
     ![Gezinti bölmesindeki uygulama](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Pano adının yanındaki **Diğer seçenekler** (...) > **Yeniden adlandır**’ı seçin ve **GitHub panosu** yazın.
+10. Pano adının yanındaki **Diğer seçenekler** (...) > **Yeniden adlandır** ’ı seçin ve **GitHub panosu** yazın.
  
     ![Power BI GitHub kutucuğu](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -91,7 +93,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
     
 
-## <a name="ask-a-question"></a>Soru sorun
+## <a name="ask-a-question"></a>Bir soru sorun
 
 1. İmlecinizi **Verileriniz hakkında soru sorun** bölümüne yerleştirin. Power BI, **kullanmaya başlamaya yönelik sorular** sunar. 
 
@@ -128,7 +130,7 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 
 Öğreticiyi bitirdiğinize göre şimdi GitHub uygulamasını silebilirsiniz. 
 
-1. Gezinti bölmesinde **Uygulamalar**’ı seçin.
+1. Gezinti bölmesinde **Uygulamalar** ’ı seçin.
 2. İmleci GitHub kutucuğunun üzerine getirin ve **Sil** çöp kutusunu seçin.
 
     ![GitHub uygulamasını silme](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
@@ -138,4 +140,4 @@ Bu öğreticiyi tamamlamak için, bir GitHub hesabınız yoksa GitHub hesabını
 Bu öğreticide, bir GitHub genel deposuna bağlandınız ve Power BI’ın biçimlendirdiği verileri bir panoda ve raporda aldınız. Pano ve raporu keşfederek veriler hakkında bazı soruları yanıtladınız. Şimdi Salesforce, Microsoft Dynamics ve Google Analytics gibi diğer hizmetlere bağlanma hakkında daha fazla bilgi edinebilirsiniz. 
  
 > [!div class="nextstepaction"]
-> [Kullandığınız çevrimiçi hizmetlere bağlanma](service-connect-to-services.md)
+> [Power BI şablon uygulamasıyla GitHub’a bağlanma](service-connect-to-github.md)

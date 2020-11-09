@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600410"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916855"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)
 
@@ -47,7 +47,7 @@ Aşağıdaki adımlarda, modelin yayımlandığı Azure aboneliğinin ve kaynak 
 
 ![Abonelikler'in seçili olduğu Azure portalını gösteren ekran görüntüsü.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Modeli yayımlarken kullandığınız Azure aboneliğini seçin ve **Erişim Denetimi (IAM)** seçeneğini belirtin. Bundan sonra **Rol ataması ekle**'yi, **Okuyucu** rolünü ve Power BI kullanıcısını seçin. İşiniz bittiğinde **Kaydet**’i seçin. Aşağıdaki resimde bu seçimler gösterilir.
+Modeli yayımlarken kullandığınız Azure aboneliğini seçin ve **Erişim Denetimi (IAM)** seçeneğini belirtin. Bundan sonra **Rol ataması ekle** 'yi, **Okuyucu** rolünü ve Power BI kullanıcısını seçin. İşiniz bittiğinde **Kaydet** ’i seçin. Aşağıdaki resimde bu seçimler gösterilir.
 
 ![Azure portalında Erişim Denetimi](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -59,66 +59,66 @@ Ardından Power BI kullanıcısına Azure ML modelinin dağıtıldığı belirli
 
 Önceki adımda Azure ML modeli üzerinde erişim verdiğiniz kullanıcı kimlik bilgileriyle Power BI hizmetinde oturum açın.
 
-Bu adımda Azure ML modelinizle puanlamak istediğiniz verilerinizin CSV biçiminde olduğu varsayılır.  Machine Learning Studio'da (klasik) modeli oluştururken **Automobile Pricing Experiment**'i kullandıysanız, bu denemenin veri kümesi aşağıdaki bağlantıda paylaşılır:
+Bu adımda Azure ML modelinizle puanlamak istediğiniz verilerinizin CSV biçiminde olduğu varsayılır.  Machine Learning Studio'da (klasik) modeli oluştururken **Automobile Pricing Experiment** 'i kullandıysanız, bu denemenin veri kümesi aşağıdaki bağlantıda paylaşılır:
 
 * [Azure Learning Studio (klasik) örnek modeli](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>Veri akışı oluşturma
 
-Veri akışınızda varlıkları oluşturmak için, Power BI hizmetinde oturum açın ve AI önizlemesinin etkinleştirildiği ayrılmış kapasitenizdeki çalışma alanına gidin.
+Veri akışınızda varlıkları oluşturmak için, Power BI hizmetinde oturum açın ve kapasitenizde AI önizlemesinin etkinleştirildiği çalışma alanına gidin.
 
-Henüz çalışma alanınız yoksa, soldaki menüde **Çalışma Alanları**'nı ve sonra da alttaki panelde **Çalışma alanı oluştur**'u seçerek bir çalışma alanı oluşturabilirsiniz.  Çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Çalışma alanı adı girin ve **Kaydet**'i seçin.
+Henüz çalışma alanınız yoksa, soldaki menüde **Çalışma Alanları** 'nı ve sonra da alttaki panelde **Çalışma alanı oluştur** 'u seçerek bir çalışma alanı oluşturabilirsiniz.  Çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Çalışma alanı adı girin ve **Kaydet** 'i seçin.
 
 ![Çalışma alanı oluşturma](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_03.png)
 
-Çalışma alanı oluşturulduktan sonra Hoş Geldiniz ekranının sağ alt kısmında **Atla**'yı seçebilirsiniz.
+Çalışma alanı oluşturulduktan sonra Hoş Geldiniz ekranının sağ alt kısmında **Atla** 'yı seçebilirsiniz.
 
 ![Atla](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-**Veri akışları (önizleme)** sekmesini seçin, çalışma alanının sağ üst kısmındaki **Oluştur** düğmesini ve sonra da **Veri akışı**'nı seçin.
+**Veri akışları (önizleme)** sekmesini seçin, çalışma alanının sağ üst kısmındaki **Oluştur** düğmesini ve sonra da **Veri akışı** 'nı seçin.
 
 ![Veri akışları (önizleme)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
-**Yeni varlıklar ekle**'yi seçin; bu seçim tarayıcıda **Power Query Düzenleyicisi**'ni başlatır.
+**Yeni varlıklar ekle** 'yi seçin; bu seçim tarayıcıda **Power Query Düzenleyicisi** 'ni başlatır.
 
 ![Yeni varlık ekleme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_06.png)
 
-Veri kaynağı olarak **Metin/CSV Dosyası**'nı seçin.
+Veri kaynağı olarak **Metin/CSV Dosyası** 'nı seçin.
 
 ![Veri kaynağı seç](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_07.png)
 
-Sonraki ekranda veri kaynağına bağlanmanız istenir. Azure ML modelinizi oluştururken kullandığınız verilerin bağlantısını yapıştırın. _Automotive Pricing_ verilerini kullandıysanız, aşağıdaki bağlantıyı **Dosya yolu veya URL** kutusuna yapıştırıp **İleri**'ye tıklayabilirsiniz.
+Sonraki ekranda veri kaynağına bağlanmanız istenir. Azure ML modelinizi oluştururken kullandığınız verilerin bağlantısını yapıştırın. _Automotive Pricing_ verilerini kullandıysanız, aşağıdaki bağlantıyı **Dosya yolu veya URL** kutusuna yapıştırıp **İleri** 'ye tıklayabilirsiniz.
 
 `https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Veri kaynağına bağlanma](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
-Power Query Düzenleyicisi CSV dosyasındaki verilerin önizlemesini gösterir. Komut şeridinde **Tabloyu Dönüştür**'ü seçin ve sonra da **İlk Satırı Üst Bilgi Olarak Kullan**'ı seçin.  Bu seçim sağ taraftaki _Uygulanan adımlar_ bölmesine **Yükseltilen üst bilgiler** sorgu adımını ekler. Sağ taraftaki bölmeyi kullanarak sorgunun adını _Otomobil Fiyatları_ gibi daha kolay bir adla değiştirebilirsiniz.
+Power Query Düzenleyicisi CSV dosyasındaki verilerin önizlemesini gösterir. Komut şeridinde **Tabloyu Dönüştür** 'ü seçin ve sonra da **İlk Satırı Üst Bilgi Olarak Kullan** 'ı seçin.  Bu seçim sağ taraftaki _Uygulanan adımlar_ bölmesine **Yükseltilen üst bilgiler** sorgu adımını ekler. Sağ taraftaki bölmeyi kullanarak sorgunun adını _Otomobil Fiyatları_ gibi daha kolay bir adla değiştirebilirsiniz.
 
 ![Verilerin önizlemesinin yer aldığı Power Query Düzenleyicisi'ni gösteren ekran görüntüsü.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-Kaynak veri kümemizde '?' olarak ayarlanmış bilinmeyen diğerler vardır.  Bunu temizlemek için, kolaylık açısından daha sonra '?' işaretlerini '0' değerleriyle değiştirebilirsiniz.  Bunu yapmak için, sütun başlıklarında adlarına tıklayarak *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* ve *price* sütunlarını seçin, ardından 'Sütunları dönüştür' seçeneğine tıklayın ve 'Değerleri değiştir'i seçin.  '?' işaretlerini '0' değeriyle değiştirin.
+Kaynak veri kümemizde '?' olarak ayarlanmış bilinmeyen diğerler vardır.  Bunu temizlemek için, kolaylık açısından daha sonra '?' işaretlerini '0' değerleriyle değiştirebilirsiniz.  Bunu yapmak için, sütun başlıklarında adlarına tıklayarak *normalized-losses* , *bore* , *stroke* , *compression-ratio* , *horsepower* , *peak-rpm* ve *price* sütunlarını seçin, ardından 'Sütunları dönüştür' seçeneğine tıklayın ve 'Değerleri değiştir'i seçin.  '?' işaretlerini '0' değeriyle değiştirin.
 
 ![Değerleri değiştirme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 Metin/CSV kaynağından gelen tablodaki tüm sütunlar metin sütunları olarak kabul edilir.  Bundan sonra, sayısal sütunları doğru veri türlerine dönüştürmemiz gerekir.  Bu işlemi Power Query'de sütun üst bilgisindeki veri türü simgesine tıklayarak yapabilirsiniz.  Sütunları aşağıdaki türlere dönüştürün:
 
-- **Tam sayı**: symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
-- **Ondalık sayı**: wheel-base, length, width, height, bore, stroke, compression-ratio
+- **Tam sayı** : symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
+- **Ondalık sayı** : wheel-base, length, width, height, bore, stroke, compression-ratio
 
 ![Sütunları değiştirme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
-**Bitti**'ye tıklayarak Power Query Düzenleyicisi'ni kapatın. Bu işlem bize eklediğimiz _Automobile Pricing_ verileriyle varlık listesini gösterir. Sağ üst köşedeki **Kaydet**'i seçin, veri akışı için bir ad girin ve **Kaydet**'i seçin.
+**Bitti** 'ye tıklayarak Power Query Düzenleyicisi'ni kapatın. Bu işlem bize eklediğimiz _Automobile Pricing_ verileriyle varlık listesini gösterir. Sağ üst köşedeki **Kaydet** 'i seçin, veri akışı için bir ad girin ve **Kaydet** 'i seçin.
 
 ![Veri akışını kaydetme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_12.png)
 
 ### <a name="refresh-the-dataflow"></a>Veri akışını yenileme
 
-Veri akışı kaydedildiğinde, veri akışınızın kaydedildiğine ilişkin bir bildirim gösterilir. Verileri kaynaktan veri akışına almak için **Şimdi yenile**'yi seçin.
+Veri akışı kaydedildiğinde, veri akışınızın kaydedildiğine ilişkin bir bildirim gösterilir. Verileri kaynaktan veri akışına almak için **Şimdi yenile** 'yi seçin.
 
 ![Veri akışını yenileme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_13.png)
 
-Sağ üst köşedeki **Kapat**'ı seçin ve veri akışını yenileme işleminin tamamlanmasını bekleyin.
+Sağ üst köşedeki **Kapat** 'ı seçin ve veri akışını yenileme işleminin tamamlanmasını bekleyin.
 
 Veri akışınızı yenilemek için **Eylemler** komutlarını da kullanabilirsiniz. Yenileme tamamlandığında veri akışı zaman damgasını görüntüler.
 
@@ -154,9 +154,9 @@ Bizim örneğimizde, tablomuz modeli eğitmek için kullanılan özgün veri kü
 
 ![Modeli eğitme](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_17.png)
 
-Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Çağır**'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
+Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Çağır** 'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
 
-Modelin çıkışı, çıkış sütununda bir kayıt olarak gösterilir. Sütunu genişletip ayrı sütunlarda tek tek çıkış parametreleri oluşturabilirsiniz. Bizim örneğimizde, yalnızca otomobilin tahmini fiyatını içeren _Scored Labels_ ile ilgileniyoruz.  Dolayısıyla kalan öğelerin seçimini kaldırıyor ve **Tamam**'ı seçiyoruz.
+Modelin çıkışı, çıkış sütununda bir kayıt olarak gösterilir. Sütunu genişletip ayrı sütunlarda tek tek çıkış parametreleri oluşturabilirsiniz. Bizim örneğimizde, yalnızca otomobilin tahmini fiyatını içeren _Scored Labels_ ile ilgileniyoruz.  Dolayısıyla kalan öğelerin seçimini kaldırıyor ve **Tamam** 'ı seçiyoruz.
 
 ![Model çıkışı](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_18.png)
 

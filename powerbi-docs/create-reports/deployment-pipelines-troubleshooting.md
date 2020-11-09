@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080266"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916832"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 
@@ -55,7 +55,7 @@ Dağıtım işlem hatlarını kullanmak için [Premium kapasiteye](../admin/serv
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Bir işlem hattındaki çalışma alanına hangi tür kapasiteyi atayabilirim?
 
-Bir dağıtım işlem hattındaki tüm çalışma alanlarının, işlem hattının işlevsel olması için ayrılmış bir kapasitede yer alması gerekir. Ancak, bir işlem hattındaki farklı çalışma alanları için farklı kapasiteler kullanabilirsiniz. Aynı işlem hattındaki farklı çalışma alanları için farklı kapasite türleri de kullanabilirsiniz.
+Bir dağıtım işlem hattındaki tüm çalışma alanlarının, işlem hattının işlevsel olması için bir kapasitede yer alması gerekir. Ancak, bir işlem hattındaki farklı çalışma alanları için farklı kapasiteler kullanabilirsiniz. Aynı işlem hattındaki farklı çalışma alanları için farklı kapasite türleri de kullanabilirsiniz.
 
 Geliştirme ve test için, her kullanıcıya yönelik bir Pro Power BI hesabının yanı sıra A veya EM kapasitesini kullanabilirsiniz.
 
@@ -119,7 +119,7 @@ Veri kümesi kurallarınızın değerleri eksik. Bu durum, veri kümenizin deği
 
 ![Bir dağıtım hatalı bağlantılar nedeniyle başarısız olduğunda görüntülenen geçersiz kurallar hatasının ekran görüntüsü.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma**’yı seçebilirsiniz. Veri kümesini seçtiğinizde hatalı kurallar işaretlenir.
+Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma** ’yı seçebilirsiniz. Veri kümesini seçtiğinizde hatalı kurallar işaretlenir.
 
 Başarıyla dağıtmak için hatalı kuralları düzeltin veya kaldırın ve yeniden dağıtın.
 
@@ -152,11 +152,11 @@ Dağıtım işlem hatları izinler modeli [izinler](deployment-pipelines-process
 
 İçerik boş bir aşamaya veya içeriğe sahip olan bir aşamaya dağıtılabilir. İçeriğin bir [premium kapasitede](../admin/service-premium-what-is.md) yer alması gerekir.
 
-* **Boş bir aşamaya dağıtma**: Kaynak çalışma alanında üye veya yönetici olan herhangi bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
+* **Boş bir aşamaya dağıtma** : Kaynak çalışma alanında üye veya yönetici olan herhangi bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
 
-* **İçeriğe sahip olan bir aşamaya dağıtma**: Hem hedef hem de kaynak dağıtım aşamalarındaki çalışma alanlarının her ikisinin de üyesi veya yöneticisi olan bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
+* **İçeriğe sahip olan bir aşamaya dağıtma** : Hem hedef hem de kaynak dağıtım aşamalarındaki çalışma alanlarının her ikisinin de üyesi veya yöneticisi olan bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
 
-* **Bir veri kümesini geçersiz kılma**: Dağıtım, veri kümesi değişmese bile hedef aşamaya dahil olan her veri kümesini geçersiz kılar. Kullanıcının, dağıtımda belirtilen tüm hedef aşama veri kümelerinin sahibi olması gerekir.
+* **Bir veri kümesini geçersiz kılma** : Dağıtım, veri kümesi değişmese bile hedef aşamaya dahil olan her veri kümesini geçersiz kılar. Kullanıcının, dağıtımda belirtilen tüm hedef aşama veri kümelerinin sahibi olması gerekir.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>Veri kümesi kurallarını yapılandırmak için hangi izinlere sahip olmam gerekir?
 

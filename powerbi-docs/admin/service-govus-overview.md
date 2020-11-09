@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981516"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132379"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -74,25 +74,25 @@ Power BI'ın kimlik doğrulaması, kimlik ve yönetim özellikleri, Microsoft 36
 
 |  Amaç | Hedef |
 | ---- | ----- |
-| Arka uç API’leri | **GCC**: api.powerbigov.us |
-| | **GCC-High**: api.high.powerbigov.us |
-| | **DoD**: api.mil.powerbi.gov.us |
-| Arka uç API’leri | **GCC**: *analysis.usgovcloudapi.net |
-| | **GCC High**: *.high.analysis.usgovcloudapi.net |
-| | **DoD**: *.mil.analysis.usgovcloudapi.net |
-| Arka uç API’leri | **Tümü**: *.pbidedicated.usgovcloudapi.net |
-| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
-| | **GCC High**: high.content.powerapps.us |
-| | **DoD**: mil.content.powerapps.us |
-| Microsoft 365 tümleştirmesi | **GCC**: [Dünya genelindeki uç noktalar](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [ABD Hükümeti GCC High uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [ABD Hükümeti DoD uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Portal |**GCC**: *.powerbigov.us |
-| | **GCC-High**: *.high.powerbigov.us |
-| | **DoD**: *.mil.powerbigov.us |
-| Hizmet telemetrisi | **Tümü**: dc.services.visualstudio.us |
-| Bilgilendirme iletileri (isteğe bağlı) | **Tümü**: dynmsg.modpim.com |
-| NPS anketleri (isteğe bağlı) | **Tümü**: nps.onyx.azure.net |
+| Arka uç API’leri | **GCC** : api.powerbigov.us |
+| | **GCC-High** : api.high.powerbigov.us |
+| | **DoD** : api.mil.powerbi.gov.us |
+| Arka uç API’leri | **GCC** : *analysis.usgovcloudapi.net |
+| | **GCC High** : *.high.analysis.usgovcloudapi.net |
+| | **DoD** : *.mil.analysis.usgovcloudapi.net |
+| Arka uç API’leri | **Tümü** : *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC** : gov.content.powerapps.us |
+| | **GCC High** : high.content.powerapps.us |
+| | **DoD** : mil.content.powerapps.us |
+| Microsoft 365 tümleştirmesi | **GCC** : [Dünya genelindeki uç noktalar](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High** : [ABD Hükümeti GCC High uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD** : [ABD Hükümeti DoD uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC** : *.powerbigov.us |
+| | **GCC-High** : *.high.powerbigov.us |
+| | **DoD** : *.mil.powerbigov.us |
+| Hizmet telemetrisi | **Tümü** : dc.services.visualstudio.us |
+| Bilgilendirme iletileri (isteğe bağlı) | **Tümü** : dynmsg.modpim.com |
+| NPS anketleri (isteğe bağlı) | **Tümü** : nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Kamuya özgü ve genel Azure bulut hizmetleri arasında bağlantı kurma
 
@@ -126,11 +126,11 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Büyük modeller](service-premium-large-models.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
 |[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/service-dataflows-enhanced-compute-engine.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
 |[Veri akışları - Doğrudan Sorgu](../transform-model/service-dataflows-directquery.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
-|[Hizmet kesintisi bildirimleri](service-premium-large-models.md)|Ç4 2020 |Ç4 2020|Ç4 2020|
 |[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
 |[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[Çağrı Kalitesi Veri Bağlayıcısı](/microsoftteams/cqd-power-bi-connector)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+|[Kendi Depolama Alanını Getir (Azure Data Lake 2. Nesil)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 
 <sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)

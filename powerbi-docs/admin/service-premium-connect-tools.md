@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116558"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916073"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA uç noktasıyla veri kümesi bağlantısı (Önizleme)
 
@@ -37,7 +37,7 @@ Varsayılan olarak, uç noktayı kullanan *salt okunur* bağlantı, bir kapasite
 
 Bunlar Azure Analysis Services ve SQL Server Analysis Services ile kullanılan en yaygın araçlardan bazılarıdır ve artık Power BI Premium veri kümeleri tarafından desteklenir:
 
-**Analysis Services projeleri ile Visual Studio** : SQL Server Veri Araçları (veya **SSDT**) olarak da bilinen bu araçlar, Analysis Services tablosal modellere yönelik kurumsal düzeyde bir model yazma aracıdır. Analysis Services projeleri uzantıları, ücretsiz Topluluk sürümü de dahil olmak üzere tüm Visual Studio 2017 ve üzeri sürümlerde desteklenir. Tablosal modelleri bir Premium çalışma alanına dağıtmak için uzantının 2.9.6 veya üzeri sürümleri gerekir. Premium çalışma alanına dağıtırken model 1500 veya üzeri uyumluluk düzeyinde olmalıdır. XMLA okuma/yazma, veri kümeleri iş yükünde gereklidir. Daha fazla bilgi için bkz. [Analysis Services Araçları](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
+**Analysis Services projeleri ile Visual Studio** : SQL Server Veri Araçları (veya **SSDT** ) olarak da bilinen bu araçlar, Analysis Services tablosal modellere yönelik kurumsal düzeyde bir model yazma aracıdır. Analysis Services projeleri uzantıları, ücretsiz Topluluk sürümü de dahil olmak üzere tüm Visual Studio 2017 ve üzeri sürümlerde desteklenir. Tablosal modelleri bir Premium çalışma alanına dağıtmak için uzantının 2.9.6 veya üzeri sürümleri gerekir. Premium çalışma alanına dağıtırken model 1500 veya üzeri uyumluluk düzeyinde olmalıdır. XMLA okuma/yazma, veri kümeleri iş yükünde gereklidir. Daha fazla bilgi için bkz. [Analysis Services Araçları](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current).
 
 **SQL Server Management Studio (SSMS)**  : DAX, MDX ve XMLA sorgularını destekler. [Tablosal Model Betik Dilini](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) kullanarak hassas yenileme işlemleri gerçekleştirin ve veri kümesi meta verilerinde betik oluşturun. Sorgu işlemleri için salt okunur bağlantı gerekir. Meta verilerin betiğini oluşturma işlemi için okuma/yazma bağlantısı gerekir. SSMS sürüm 18.4 veya üzeri gerekir.  [Buradan](/sql/ssms/download-sql-server-management-studio-ssms) indirin.
 
@@ -49,11 +49,11 @@ Bunlar Azure Analysis Services ve SQL Server Analysis Services ile kullanılan e
 
 **Power BI Report Builder** : Sayfalandırılmış raporlar yazmaya yarayan bir araçtır. Hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturur. Rapor Oluşturucusu’nda raporunuzun önizlemesini görüntüleyebilir, ardından raporunuzu Power BI hizmetinde yayımlayabilirsiniz. XMLA salt-okunur gereklidir. Daha fazla bilgi için bkz.  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md).
 
-**Tablo Düzenleyicisi**: Sezgisel ve hafif bir düzenleyici kullanarak tablosal modelleri oluşturmaya, sürdürmeye ve yönetmeye yarayan açık kaynaklı bir araçtır. Tablosal modelinizdeki tüm nesneler hiyerarşik bir görünümde gösterilir. Nesneler, çoklu seçim özellik düzenlemesi ve DAX söz dizimi vurgulaması için görüntüleme klasörleri tarafından düzenlenir. Sorgu işlemleri için XMLA salt okunur gerekir. Meta veri işlemleri için okuma/yazma bağlantısı gerekir. Daha fazla bilgi için bkz. [tabulareditor.github.io](https://tabulareditor.github.io/).
+**Tablo Düzenleyicisi** : Sezgisel ve hafif bir düzenleyici kullanarak tablosal modelleri oluşturmaya, sürdürmeye ve yönetmeye yarayan açık kaynaklı bir araçtır. Tablosal modelinizdeki tüm nesneler hiyerarşik bir görünümde gösterilir. Nesneler, çoklu seçim özellik düzenlemesi ve DAX söz dizimi vurgulaması için görüntüleme klasörleri tarafından düzenlenir. Sorgu işlemleri için XMLA salt okunur gerekir. Meta veri işlemleri için okuma/yazma bağlantısı gerekir. Daha fazla bilgi için bkz. [tabulareditor.github.io](https://tabulareditor.github.io/).
 
 **DAX Studio** : DAX yazma, tanılama, performans ayarlama ve analiz etmeye yönelik açık kaynaklı bir araçtır. Özellikler arasında nesne göz atma, tümleşik izleme, ayrıntılı istatistiklere sahip sorgu yürütme dökümleri, DAX söz dizimi vurgulama ve biçimlendirme yer alır. Sorgu işlemleri için XMLA salt okunur gerekir. Daha fazla bilgi edinmek için bkz.  [daxstudio.org](https://daxstudio.org/).
 
-**ALM Araç Seti**: En çok uygulama yaşam döngüsü yönetimi (ALM) senaryolarında kullanılan, Power BI veri kümeleri için açık kaynaklı bir şema karşılaştırma aracıdır. Ortamlar arasında dağıtım gerçekleştirir ve artımlı yenileme geçmiş verilerini korur. Meta veri dosyalarını, dallarını ve depolarını ayırıp birleştirir. Veri kümeleri arasındaki yaygın tanımları yeniden kullanır. Sorgu işlemleri için salt okunur bağlantı gerekir. Meta veri işlemleri için okuma/yazma bağlantısı gerekir. Daha fazla bilgi için bkz.  [alm-toolkit.com](http://alm-toolkit.com/).
+**ALM Araç Seti** : En çok uygulama yaşam döngüsü yönetimi (ALM) senaryolarında kullanılan, Power BI veri kümeleri için açık kaynaklı bir şema karşılaştırma aracıdır. Ortamlar arasında dağıtım gerçekleştirir ve artımlı yenileme geçmiş verilerini korur. Meta veri dosyalarını, dallarını ve depolarını ayırıp birleştirir. Veri kümeleri arasındaki yaygın tanımları yeniden kullanır. Sorgu işlemleri için salt okunur bağlantı gerekir. Meta veri işlemleri için okuma/yazma bağlantısı gerekir. Daha fazla bilgi için bkz.  [alm-toolkit.com](http://alm-toolkit.com/).
 
 **Microsoft Excel** : Excel PivotTable’lar Power BI veri kümelerindeki özet verileri özetlemek, analiz etmek, bulmak ve sunmak için kullanılan en yaygın araçlardan biridir. Sorgu işlemleri için salt okunur bağlantı gerekir. Office 16.0.11326.10000 veya üzeri bir Tıkla-Çalıştır sürümü gerekir.
 
@@ -86,13 +86,13 @@ Varsayılan olarak, Premium kapasitede XMLA Uç Noktası özelliği ayarı salt 
 ### <a name="to-enable-read-write-for-a-capacity"></a>Bir kapasitede okuma/yazma özelliğini etkinleştirmek için:
 
 1. Yönetim portalında **Kapasite ayarları** > **Power BI Premium** > kapasite adına tıklayın.
-2. **İş yüklerini** genişletin. **XMLA Uç Noktası** ayarında **Okuma/Yazma**’yı seçin.
+2. **İş yüklerini** genişletin. **XMLA Uç Noktası** ayarında **Okuma/Yazma** ’yı seçin.
 
     ![XMLA uç noktasını etkinleştirin](media/service-premium-connect-tools/xmla-endpoint-enable.png)
 
 ## <a name="connecting-to-a-premium-workspace"></a>Premium çalışma alanına bağlanma
 
-Ayrılmış kapasiteye atanan çalışma alanlarının `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]` gibi, URL biçiminde bir bağlantı dizesi vardır.
+Kapasiteye atanan çalışma alanlarının `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]` gibi, URL biçiminde bir bağlantı dizesi vardır.
 
 Çalışma alanına bağlanan uygulamalar, URL’yi Analysis Services sunucu adında olduğu gibi kullanır. Örneğin, `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
@@ -102,7 +102,7 @@ B2B kullanıcılarının kiracı adında kuruluş UPN’lerini belirtmeleri gere
 
 ### <a name="to-get-the-workspace-connection-url"></a>Çalışma alanı bağlantı URL’sini almak için:
 
-Çalışma alanında **Ayarlar** > **Premium** > **Çalışma Alanı Bağlantısı** adımlarını izleyip **Kopyala**’ya tıklayın.
+Çalışma alanında **Ayarlar** > **Premium** > **Çalışma Alanı Bağlantısı** adımlarını izleyip **Kopyala** ’ya tıklayın.
 
 ![Çalışma alanı bağlantı dizesi](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -178,15 +178,15 @@ Visual Studio’daki bir tablosal model projesini Power BI Premium çalışma al
 > [!IMPORTANT]
 > Genel önizleme aşamasında rol üyelikleri, XMLA uç noktaları kullanan araçlar tarafından belirlenemez. Model projeniz dağıtılamazsa herhangi bir rolde hiçbir kullanıcının belirtilmediğinden emin olun. Model başarıyla dağıtıldıktan sonra, Power BI hizmetindeki veri kümesi rolleri için kullanıcıları belirtin. Daha fazla bilgi edinmek için, bu makalenin önceki kısımlarında yer alan [Model rollerine](#model-roles) bakın.
 
-Visual Studio’da yazılmış bir tablosal model projesini dağıtmak için, öncelikle projedeki **Dağıtım Sunucusu** özelliğindeki çalışma alanı bağlantı URL’sini ayarlamanız gerekir. Visual Studio’da, **Çözüm Gezgini**’nde projeye sağ tıklayıp **Özellikler**’i seçin. **Sunucu** özelliğinde, çalışma alanı bağlantı URL’sini yapıştırın.
+Visual Studio’da yazılmış bir tablosal model projesini dağıtmak için, öncelikle projedeki **Dağıtım Sunucusu** özelliğindeki çalışma alanı bağlantı URL’sini ayarlamanız gerekir. Visual Studio’da, **Çözüm Gezgini** ’nde projeye sağ tıklayıp **Özellikler** ’i seçin. **Sunucu** özelliğinde, çalışma alanı bağlantı URL’sini yapıştırın.
 
 ![Dağıtım özelliği](media/service-premium-connect-tools/xmla-endpoint-ssdt-deploy-property.png)
 
 Proje, Dağıtım Sunucusu özelliği belirtildikten sonra dağıtılabilir.
 
-**İlk kez dağıtıldığında**, model.bim öğesindeki meta veriler kullanılarak çalışma alanında bir veri kümesi oluşturulur. Dağıtım işleminin bir parçası olarak, çalışma alanında model verilerinden bir veri kümesi oluşturulduktan sonra, veri kaynaklarından veri kümesine veri yükleme işlemi başarısız olur.
+**İlk kez dağıtıldığında** , model.bim öğesindeki meta veriler kullanılarak çalışma alanında bir veri kümesi oluşturulur. Dağıtım işleminin bir parçası olarak, çalışma alanında model verilerinden bir veri kümesi oluşturulduktan sonra, veri kaynaklarından veri kümesine veri yükleme işlemi başarısız olur.
 
-Azure veya SQL Server Analysis Server örneğine dağıtırken veri kaynağı kimlik bilgileri dağıtım işleminin bir parçası olarak istenirken, Premium çalışma alanına dağıtım yapılırken çalışma alanı veri kaynağı kimlik bilgileri, dağıtım işleminin bir parçası olarak belirtilemeyeceği için işlem başarısız olur. Bu işlemde veri kaynağı kimlik bilgileri, ancak meta veri dağıtımı başarılı olduktan ve veri kümesi oluşturulduktan sonra Power BI hizmetinde veri kümesi ayarlarında belirtilir. Çalışma alanında **Veri kümeleri** > **Ayarlar** > **Veri kaynağı kimlik bilgileri** > **Kimlik bilgilerini düzenle**’ye tıklayın.
+Azure veya SQL Server Analysis Server örneğine dağıtırken veri kaynağı kimlik bilgileri dağıtım işleminin bir parçası olarak istenirken, Premium çalışma alanına dağıtım yapılırken çalışma alanı veri kaynağı kimlik bilgileri, dağıtım işleminin bir parçası olarak belirtilemeyeceği için işlem başarısız olur. Bu işlemde veri kaynağı kimlik bilgileri, ancak meta veri dağıtımı başarılı olduktan ve veri kümesi oluşturulduktan sonra Power BI hizmetinde veri kümesi ayarlarında belirtilir. Çalışma alanında **Veri kümeleri** > **Ayarlar** > **Veri kaynağı kimlik bilgileri** > **Kimlik bilgilerini düzenle** ’ye tıklayın.
 
 ![Veri kaynağı kimlik bilgileri](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -200,9 +200,9 @@ Bir çalışma alanına bağlanmak için SSMS kullanmak, Azure veya SQL Server A
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>SSMS kullanarak çalışma alanına bağlanma
 
-1. SQL Server Management Studio’da **Bağlan** > **Sunucuya Bağlan**’a tıklayın.
+1. SQL Server Management Studio’da **Bağlan** > **Sunucuya Bağlan** ’a tıklayın.
 
-2. **Sunucu Türü**’nde **Analysis Services**’i seçin. **Sunucu adı**’na çalışma alanı URL’sini girin. **Kimlik Doğrulaması**’nda **Active Directory - MFA ile Evrensel**’i seçin ve **Kullanıcı adı** olarak kurumsal kullanıcı kimliğinizi girin.
+2. **Sunucu Türü** ’nde **Analysis Services** ’i seçin. **Sunucu adı** ’na çalışma alanı URL’sini girin. **Kimlik Doğrulaması** ’nda **Active Directory - MFA ile Evrensel** ’i seçin ve **Kullanıcı adı** olarak kurumsal kullanıcı kimliğinizi girin.
 
     ![SSMS’de sunucuya bağlanma](media/service-premium-connect-tools/xmla-endpoint-connect-server.png)
 
@@ -239,18 +239,18 @@ Veri kaynaklarına bağlanılıp veriler sorgulanırken Power BI Desktop, satır
 
 Power BI Desktop canlı bağlantı kullanarak bir Power BI Premium veri kümesine bağlanabilir. Canlı bağlantı kullanıldığında verilerin yerel olarak çoğaltılması gerekmez ve bu da kullanıcılar açısından anlamsal modellerin kullanımını kolaylaştırır. Kullanıcılar iki yolla bağlanabilir:
 
-**Power BI veri kümeleri**’ni ve sonra da rapor oluşturmak için bir veri kümesini seçerek. Kullanıcıların veri kümelerine canlı bağlantı kurması için **önerilen** yöntem budur. Bu yöntem veri kümelerinin onay düzeyini gösteren gelmiş bir bulma deneyimi sağlar. Kullanıcıların çalışma alanı URL’lerini bulması ve bunların kaydını tutması gerekmez. Kullanıcıların veri kümesini bulmak için veri kümesi adını yazması veya aradıkları veri kümesini bulana kadar listeyi kaydırması yeterli olur.
+**Power BI veri kümeleri** ’ni ve sonra da rapor oluşturmak için bir veri kümesini seçerek. Kullanıcıların veri kümelerine canlı bağlantı kurması için **önerilen** yöntem budur. Bu yöntem veri kümelerinin onay düzeyini gösteren gelmiş bir bulma deneyimi sağlar. Kullanıcıların çalışma alanı URL’lerini bulması ve bunların kaydını tutması gerekmez. Kullanıcıların veri kümesini bulmak için veri kümesi adını yazması veya aradıkları veri kümesini bulana kadar listeyi kaydırması yeterli olur.
 
 ![Veri kümesine canlı bağlantı kurma](media/service-premium-connect-tools/dataset-live-connect.png)
 
-Kullanıcıların bağlanmak için kullanabilecekleri diğer yol **Veri Al** > **Analysis Services**’i seçmek, URL olarak bir Power BI Premium çalışma alanı adı belirtmek, **Canlı bağlan**’ı seçmek ve sonra da Gezgin’de bir veri kümesi belirtmektir. Bu durumda Power BI Desktop veri kümesine canlı bağlanmak için bir Analysis Services veri modeliymiş gibi XMLA uç noktasını kullanır. 
+Kullanıcıların bağlanmak için kullanabilecekleri diğer yol **Veri Al** > **Analysis Services** ’i seçmek, URL olarak bir Power BI Premium çalışma alanı adı belirtmek, **Canlı bağlan** ’ı seçmek ve sonra da Gezgin’de bir veri kümesi belirtmektir. Bu durumda Power BI Desktop veri kümesine canlı bağlanmak için bir Analysis Services veri modeliymiş gibi XMLA uç noktasını kullanır. 
 
 ![Analysis Services veri kümesine canlı bağlanma](media/service-premium-connect-tools/as-live-connect.png)
 
-Analysis Services veri modellerine canlı bağlantılı raporları olan ve Power BI premium veri kümelerine geçmek isteyen kuruluşların **Verileri dönüştür** > **Veri kaynağı ayarları**’nda sunucu adı URL’sini değiştirmeleri yeterli olur.
+Analysis Services veri modellerine canlı bağlantılı raporları olan ve Power BI premium veri kümelerine geçmek isteyen kuruluşların **Verileri dönüştür** > **Veri kaynağı ayarları** ’nda sunucu adı URL’sini değiştirmeleri yeterli olur.
 
 > [!NOTE]
-> XMLA okuma-yazma genel önizlemesi sırasında Power BI Desktop’la **Veri Al** > **Analysis Services**’i kullanıp **Canlı bağlan** seçeneğini belirterek Power BI Premium veri kümesine bağlanırken, raporu Power BI hizmetinde yayımlamak henüz desteklenmiyor.
+> XMLA okuma-yazma genel önizlemesi sırasında Power BI Desktop’la **Veri Al** > **Analysis Services** ’i kullanıp **Canlı bağlan** seçeneğini belirterek Power BI Premium veri kümesine bağlanırken, raporu Power BI hizmetinde yayımlamak henüz desteklenmiyor.
 
 ## <a name="audit-logs"></a>Denetim günlükleri
 

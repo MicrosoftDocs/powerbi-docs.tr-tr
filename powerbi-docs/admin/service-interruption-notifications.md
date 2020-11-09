@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981539"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916142"
 ---
 # <a name="service-interruption-notifications"></a>Hizmet kesintisi bildirimleri
 
@@ -21,7 +21,7 @@ Görev açısından kritik iş uygulamalarınızın kullanılabilirliği hakkın
 
 ![Yenileme bildirimi e-postası](media/service-interruption-notifications/refresh-notification-email.png)
 
-Şu anda, aşağıdaki _güvenilirlik senaryoları_için e-posta göndeririz:
+Şu anda, aşağıdaki _güvenilirlik senaryoları_ için e-posta göndeririz:
 
 - Rapor güvenilirliğini açma
 - Model yenileme güvenilirliği
@@ -30,7 +30,7 @@ Görev açısından kritik iş uygulamalarınızın kullanılabilirliği hakkın
 Raporları açma, veri kümesi yenileme veya sorgu yürütme gibi işlemlerde _uzun gecikme_ yaşandığında bildirim gönderilir. Bir olay çözümlendikten sonra bir izleme e-postası alırsınız.
 
 > [!NOTE]
-> Bu özellik, şu anda yalnızca Power BI Premium’daki ayrılmış kapasiteler için sunulmaktadır. Paylaşılan veya ekli kapasite için sunulmamaktadır.
+> Bu özellik, şu anda yalnızca Power BI Premium’daki kapasiteler için sunulmaktadır. Paylaşılan veya ekli kapasite için sunulmamaktadır.
 
 ## <a name="capacity-and-reliability-notifications"></a>Kapasite ve güvenilirlik bildirimleri
 
@@ -61,7 +61,7 @@ Power BI yöneticisi, yönetici portalından bildirimleri etkinleştirir:
 
 1. Yönetici portalında **Kiracı ayarlarını** seçin. **Yardım ve destek ayarlarının** altında **Hizmet kesintileri veya olaylar için e-posta bildirimlerini etkinleştir** seçeneğini genişletin.
 
-1. E-posta bildirimlerini etkinleştirin, bir güvenlik grubu girin ve **Uygula**’yı belirleyin.
+1. E-posta bildirimlerini etkinleştirin, bir güvenlik grubu girin ve **Uygula** ’yı belirleyin.
 
     ![Hizmet bildirimlerini etkinleştirme](media/service-interruption-notifications/enable-notifications.png)
 

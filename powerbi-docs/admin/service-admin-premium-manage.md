@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f100051f81ec5a58dcc5df48761975ed28a7c6b2
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599986"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916395"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
 
@@ -24,7 +24,7 @@ Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve iz
 
 ![Power BI kapasite ayarları ekranı](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*Kapasite*, Power BI Premium ve Power BI Embedded tekliflerinin merkezindedir. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Ayrılmış kapasiteye sahip olmak kuruluşunuzdaki kullanıcılar için kullanıcı başına lisans satın almak zorunda kalmadan onlara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
+*Kapasite* , Power BI Premium ve Power BI Embedded tekliflerinin merkezindedir. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Kapasiteye sahip olmak kullanıcı başına lisans satın almak zorunda kalmadan kuruluşunuzdaki kullanıcılara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
 
 ## <a name="manage-capacity"></a>Kapasiteyi yönetme
 
@@ -83,7 +83,7 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve genel yöneticil
 
 Power BI yöneticileri ve genel yöneticiler, Power BI Premium kapasitelerini değiştirebilir. Power BI yöneticisi veya genel yönetici olmayan kapasite yöneticileri bu seçeneğe sahip olmaz.
 
-1. **Kapasite boyutunu değiştir**'i seçin.
+1. **Kapasite boyutunu değiştir** 'i seçin.
 
     ![Power BI Premium kapasite boyutunu değiştirme](media/service-admin-premium-manage/change-capacity-size.png)
 
@@ -103,7 +103,7 @@ Power BI yöneticileri ve genel yöneticiler, Power BI Premium kapasitelerini de
 
 ### <a name="manage-user-permissions"></a>Kullanıcı izinlerini yönetme
 
-Ek kapasite yöneticileri ve *kapasite atama* iznine sahip kullanıcılar atayabilirsiniz. Atama izinleri bulunan kullanıcılar, söz konusu çalışma alanının yöneticisi olmaları halinde kapasiteye çalışma alanı atayabilir. Bu kapasiteye kişisel Çalışma Alanlarını (*Çalışma Alanım*) da atayabilirler. Atama izinlerine sahip kullanıcılar yönetici portalına erişemez.
+Ek kapasite yöneticileri ve *kapasite atama* iznine sahip kullanıcılar atayabilirsiniz. Atama izinleri bulunan kullanıcılar, söz konusu çalışma alanının yöneticisi olmaları halinde kapasiteye çalışma alanı atayabilir. Bu kapasiteye kişisel Çalışma Alanlarını ( *Çalışma Alanım* ) da atayabilirler. Atama izinlerine sahip kullanıcılar yönetici portalına erişemez.
 
 > [!NOTE]
 > Power BI Embedded için kapasite yöneticileri Microsoft Azure portalda tanımlanır.
@@ -141,7 +141,7 @@ Kapasite yöneticilerinin yanı sıra Power BI yöneticileri ve genel yöneticil
 
 Söz konusu çalışma alanının ayarlarından çalışma alanını Premium kapasiteye de atayabilirsiniz. Bir çalışma alanını kapasiteye taşımak için söz konusu çalışma alanının yönetici izinlerinin yanı sıra bu kapasiteye ilişkin kapasite atama izinlerine de sahip olmanız gerekir. Çalışma alanı yöneticilerinin bir çalışma alanını Premium kapasiteden istedikleri zaman kaldırabileceğini unutmayın.
 
-1. Üç nokta **(. . .)** simgesini ve **Çalışma alanını düzenle**'yi seçerek çalışma alanını düzenleyin.
+1. Üç nokta **(. . .)** simgesini ve **Çalışma alanını düzenle** 'yi seçerek çalışma alanını düzenleyin.
 
     ![Üç nokta bağlam menüsünden çalışma alanı düzenleme](media/service-admin-premium-manage/edit-app-workspace.png)
 
@@ -151,7 +151,7 @@ Söz konusu çalışma alanının ayarlarından çalışma alanını Premium kap
 
     ![Kapasite seçimi açılan listesi](media/service-admin-premium-manage/app-workspace-advanced.png)
 
-1. **Kaydet**'i seçin.
+1. **Kaydet** 'i seçin.
 
 Kaydedildikten sonra çalışma alanı ve tüm içerikleri, son kullanıcılar için herhangi bir deneyim kesintisi olmaksızın Premium kapasiteye taşınır.
 
@@ -161,7 +161,7 @@ Power BI yönetici portalının **Kapasite ayarları** sekmesinde Power BI Rapor
 
 ![Kapasite ayarlarındaki Power BI Rapor Sunucusu anahtarı](media/service-admin-premium-manage/pbirs-product-key.png)
 
-**Power BI Rapor Sunucusu anahtarı**'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
+**Power BI Rapor Sunucusu anahtarı** 'nı seçtiğinizde ürün anahtarınızı içeren bir iletişim kutusu görüntülenir. Ürün anahtarınızı kopyalayıp yükleme esnasında kullanabilirsiniz.
 
 ![Power BI Rapor Sunucusu ürün anahtarı](media/service-admin-premium-manage/pbirs-product-key-dialog.png)
 

@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462245"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93136303"
 ---
 |Özellik   | Yönetici  | Üye  | Katılımcı  | Görüntüleyici |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ ms.locfileid: "92462245"
 | Diğer yöneticiler de dahil olmak üzere kişileri ekleyebilir/kaldırabilir.  |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Katkıda Bulunanların çalışma alanı için uygulamayı güncelleştirmesine izin verme  |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Üyeleri ve düşük izinlere sahip diğer kişileri ekleyebilir.  |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
-| Uygulamayı yayımlama ve uygulama izinlerini değiştirme |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Uygulamayı yayımlama, yayımdan kaldırma ve uygulama izinlerini değiştirme |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Uygulamayı güncelleştirin. |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |  İzin veriliyorsa <sup>1</sup>  |   |
 | Bir öğe veya uygulama paylaşma.<sup>2</sup> |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Diğer kişilerin öğeleri yeniden paylaşmasına izin verme.<sup>2</sup> |  ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Evet onay işareti](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 94ffbb508fea27e8b80f137539b6120e4c094030
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092303"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916740"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 
@@ -105,7 +105,7 @@ Sunu içeriğinden ve sekiz uygulamalı laboratuvardan oluşan kendi kendine ça
 >
 > Çalışma alanına Power BI Desktop dosyası yayımlamak için Power BI’da oturum açmanız gerekir. Yayınlama sonucunda rapor veri kaynağı olarak kullanılan bir veri kümesi elde edilir. Veri kümesini rapor veri kaynağı olarak kullanmak için Power BI Pro lisansına veya Power BI Premium aboneliğine ihtiyacınız yoktur.
 >
-> Bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [ayrılmış kapasitede](../admin/service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa laboratuvarda rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanacaktır.
+> Bazı laboratuvar görevleri sayfalandırılmış raporunuzu çalışma alanına yayımlamayı içerir. Sayfalandırılmış raporu açabilmeniz için raporun, sayfalandırılmış rapor iş yükünün etkinleştirildiği [kapasitede](../admin/service-premium-what-is.md#dedicated-capacities) yer alan bir çalışma alanına kaydedilmiş olması gerekir. Uygun bir çalışma alanına erişiminiz yoksa laboratuvarda rapor yayımlama işleminin gösterildiği videoyu izlemeniz için bir bağlantı sağlanacaktır.
 
 ## <a name="instructor-kit"></a>Eğitmen seti
 

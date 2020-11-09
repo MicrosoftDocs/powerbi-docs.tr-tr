@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/18/2020
+ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375178"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297634"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -42,11 +42,11 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
    
    Kuruluşunuzda Web’de yayımlama özelliğini etkinleştirebilecek kişiyi bulmanıza yardımcı olması için bu makalenin devamındaki [Power BI yöneticinizi bulma](#find-your-power-bi-administrator) bölümüne bakın.
 
-3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
+3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur** ’u seçin.
 
    ![Genel bir web sitesine eklemeyi gözden geçirme](media/service-publish-to-web/publish_to_web2_ga.png)
 
-4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
+4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla** 'yı seçin.
 
    ![Uyarıyı gözden geçirme](media/service-publish-to-web/publish_to_web3_ga.png)
 
@@ -54,23 +54,25 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
 
    ![Başarılı: bir bağlantı ve HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
+6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla** ’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
 
    ![Kod ekleme iletişim kutusu](media/service-publish-to-web/publish_to_web5.png)
 
    Her rapor için yalnızca bir ekleme kodu oluşturabilirsiniz.
 
+İletişim kutusunda değişiklik yaparsanız güncelleştirilmiş ayarları sayfanızda kullanmak için, güncelleştirilmiş URL’yi veya iFrame’i kopyaladığınızdan emin olun.
+
 
 ### <a name="tips-for-view-modes"></a>Görünüm modları için ipuçları
 
-İçeriği bir blog gönderisine eklediğinizde genelde belirli bir ekran boyutuna sığdırmanız gerekir.  iFrame etiketinde yükseklik ve genişliği gerektiği şekilde ayarlayabilirsiniz. Ancak raporunuzun sağlanan iFrame alanına sığdığından emin olmalısınız, bu nedenle raporu düzenlerken uygun Görünüm Modunu da ayarlamanız gerekir.
+İçeriği bir blog gönderisine eklediğinizde genelde belirli bir ekran boyutuna sığdırmanız gerekir.  iFrame etiketinde yükseklik ve genişliği gerektiği şekilde ayarlayabilirsiniz. Ancak raporunuzun sağlanan iFrame alanına sığdığından emin olmalısınız, bu nedenle raporu düzenlerken uygun Görünüm Modunu ayarlamanız gerekir.
 
 Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüneceği hakkında bilgiler verilmiştir.
 
 | Görünüm Modu | Eklendiğinde nasıl görüneceği |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır** ayarı, raporunuzun sayfasının yükseklik ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi *dinamik* oranlara ayarladıysanız içeriğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame'e eklendiğinde *sinemaskop* etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame’in yükseklik ve genişlik ayarını uygun şekilde değiştirin. |
-| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır** ayarı, raporunuzun sayfasının yükseklik ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi *dinamik* oranlara ayarladıysanız içeriğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame’e eklendiğinde *sinemaskop* etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame’in yükseklik ve genişlik ayarını uygun şekilde değiştirin. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut** , raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur** ayarı, içeriğin iFrame’in yatay alanını doldurmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
 
 ### <a name="tips-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları
@@ -96,7 +98,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 **Web'de yayımla** ekleme kodunu oluşturduktan sonra kodlarınızı Power BI'ın **Ayarlar** menüsünden yönetebilirsiniz. Ekleme kodlarını yöneterek belirli bir kodun içindeki hedef görseli veya raporu kaldırabilir (ekleme kodunu geçersiz kılabilir) veya ekleme kodunu alabilirsiniz.
 
-1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet**'i seçin.
+1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet** 'i seçin.
 
    ![Ekleme kodlarını yönet](media/service-publish-to-web/publish_to_web8.png)
 
@@ -108,17 +110,25 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. **Sil**’i seçerseniz onaylamanız istenir.
+4. **Sil** ’i seçerseniz onaylamanız istenir.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Raporları güncelleştirme ve veri yenileme
 
-**Web'de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır ve ekleme kodu bağlantısı anında etkinleştirilir. Bağlantıyı açan herkes bunu görüntüleyebilir. İlk kez oluşturulduktan sonra raporlara veya görsellere yapılan güncelleştirmelerin kullanıcılar tarafından görülmesi iki saati bulabilir. Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?** ](#howitworks) bölümünü inceleyin. 
+**Web’de yayımla** ekleme kodunuzu oluşturup paylaştıktan sonra yaptığınız değişiklikler rapora yansıtılır. Ekleme kodu bağlantısı anında etkin olur. Bağlantıyı açan herkes bunu görüntüleyebilir. Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz. Daha fazla bilgi edinmek için bu makalenin devamındaki [**Nasıl çalışır?**](#howitworks) bölümünü inceleyin. 
 
 ### <a name="data-refresh"></a>Veri yenileme
 
-Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Yenilenen verilerin ekleme kodlarından görünür hale gelmesi iki saate kadar sürebilir. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
+Veri yenileme işlemleri eklediğiniz raporlara veya görsellere otomatik olarak yansıtılır. Power BI hizmetindeki bir içeri aktarma veri modeli için veriler yenilendiğinde, hizmet önbelleği temizleyerek verilerin hızla güncelleştirilmesini sağlar. Otomatik yenilemeyi devre dışı bırakmak için raporun kullandığı veri kümesinin zamanlamasındaki **yenileme** seçeneğini kullanın.  
+
+### <a name="heavy-usage"></a>Ağır kullanım
+
+Rapor kısa sürede çok sayıda sorgu alırsa ağır kullanım deneyimi oluşabilir. Ağır kullanım oluştuğunda kullanıcılar, ağır kullanım süresi geçene kadar raporu görüntüleyemez veya raporla etkileşim kuramaz. 
+
+Raporunuz için bir yer tutucu resmi ayarlamanızı öneririz. Ağır kullanım oluşursa kullanıcılar yer tutucu resmi görürler. 
+
+Ağır kullanım deneyimini önlemeye yardımcı olmak amacıyla, raporunuzun oluşturabileceği farklı sorgu sayısını ve veri yenileme sıklığını sınırlayın.
 
 ## <a name="power-bi-visuals"></a>Power BI görselleri
 
@@ -153,9 +163,9 @@ Microsoft’a sorununuzu açıklayan bir e-posta göndermeniz istenir. Microsoft
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>Nasıl çalışır? (teknik bilgiler)
 
-**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar genel URL'yi doğrudan açarak veya bir web sayfasında ya da blogda eklenmiş biçimde raporu görüntüledikçe Power BI, rapor tanımını ve raporu görüntülemek için gerekli olan sorguların sonuçlarını önbelleğe alır. Bu önbelleğe alma işlemi, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
+**Web'de yayımla** özelliğini kullanarak bir ekleme kodu oluşturduğunuzda rapor, İnternet kullanıcılarına açık hale gelir. Rapor herkese açık olduğundan görüntüleyenler, ilerleyen zamanlarda sosyal medya üzerinden kolayca paylaşabilir. Kullanıcılar doğrudan genel URL’yi açarak veya ekli bir web sayfasında ya da blogda görüntüleyerek raporu görebilir. Bunu yaptıklarında, Power BI rapor tanımını ve raporu görüntülemek için gereken sorguların sonuçlarını önbelleğe alır. Bu önbelleğe alma işlemi, binlerce kullanıcının performansı etkilemeden eş zamanlı olarak raporu görüntüleyebilmesini sağlar.
 
-Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması iki saate kadar sürebilir. Her öğe ve veri değeri bağımsız bir şekilde önbelleğe alındığından veri güncelleştirmesi gerçekleştiğinde kullanıcıya güncel ve eski değerler bir arada gösterilebilir. Bu nedenle, çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir. Verileriniz yenilenecekse yenileme sayısını en aza indirin ve yenileme işlemlerini yoğun olmayan saatlerde gerçekleştirin. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz.
+Veriler, alındığı zamandan itibaren bir saat için önbelleğe alınır. Rapor tanımını güncelleştirmeniz (Görünüm modunu değiştirme gibi) durumunda veya rapor verilerini yenilediğinizde değişikliklerin, raporun kullanıcılarınızın görüntülediği sürümüne uygulanması biraz zaman alabilir. İçeri aktarma veri modeli için veri yenileme yapıldığında, hizmet önbelleğe alınan verileri temizleyip yeni verileri alır. Çoğu durumda veriler, verilerin içeri aktarılmasıyla neredeyse eşzamanlı olarak güncelleştirilir. Ancak, çok sayıda farklı sorgu içeren raporların güncelleştirilmesi zaman alabilir. Her öğe ve veri değeri bağımsız bir şekilde önbelleğe alındığından, veri güncelleştirmesi gerçekleştiğinde kullanıcı güncel ve eski değerleri bir arada görebilir. Bu nedenle, çalışmanızı önceden planlayıp **Web’de yayımla** ekleme kodunu ancak gerekli ayarları tamamladıktan sonra oluşturmanız önerilir. Verileriniz yenilenecekse yenileme sayısını en aza indirin ve yenileme işlemlerini yoğun olmayan saatlerde gerçekleştirin. Sıkça yenilenmesi gereken veriler için Web’de yayımla seçeneğinin kullanılmasını önermiyoruz.
 
 ## <a name="find-your-power-bi-administrator"></a>Power BI yöneticinizi bulma
 
@@ -172,7 +182,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](/office365/admin/admin-overvi
 
 ## <a name="limitations"></a>Sınırlamalar
 
-**Web’de yayımlama**, Power BI hizmetindeki çok sayıda veri kaynağı ve rapor için desteklenir. Ancak, şu rapor türleri şu anda desteklenmez veya **Web’de yayımlamak** için kullanılamaz:
+**Web’de yayımlama** , Power BI hizmetindeki çok sayıda veri kaynağı ve rapor için desteklenir. Ancak, şu rapor türleri şu anda desteklenmez veya **Web’de yayımlamak** için kullanılamaz:
 
 - Satır düzeyi güvenlik kullanan raporlar.
 - Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.

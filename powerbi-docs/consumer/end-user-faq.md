@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860935"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916809"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI hakkında sık sorulan sorular
 
@@ -37,7 +37,7 @@ Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. 
 
 Power BI Pro, tüm Power BI hizmeti içeriğine ve özelliklerine erişim sağlayan bireysel kullanıcı lisansıdır. İçeriği diğer Pro kullanıcılarıyla paylaşabilir ve onlarla işbirliği yapabilirsiniz. Diğer çalışma alanlarına içerik yayımlama, panoları paylaşma ve pano ile raporlara abone olma işlemlerini yalnızca Pro kullanıcıları yapabilir. 
 
-Power BI Premium, Power BI’da daha tutarlı performans sağlamak için ayrılmış kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *iş kullanıcıları* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
+Power BI Premium, daha tutarlı performans sağlamak için kapasite sunar. Power BI’daki daha büyük hacimli verileri de destekler. Bireysel kullanıcılar için, Premium Pro lisansı sahibi kullanıcıların içeriği geniş ölçekte dağıtmasına olanak tanır ve alıcıların içeriği görüntülemek için kullanıcı başına Pro lisansları olması gerekmez. Diğer bir deyişle *iş kullanıcıları* iş arkadaşlarıyla işbirliği yapabilir, kendileriyle paylaşılmış olan panoları, raporları ve uygulamaları görüntüleyebilir, bunlarla etkileşim kurabilir. 
 
 Daha fazla bilgi edinmek için bkz. [Ne tür bir lisansa sahibim?](end-user-license.md).
 

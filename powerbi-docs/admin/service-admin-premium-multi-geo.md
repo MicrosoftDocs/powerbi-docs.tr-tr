@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/26/2019
+ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d8841c35b2086f9a7e452cdcb4aa9a0fc4c16bd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599648"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044705"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
@@ -37,7 +37,7 @@ Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi içi
 
 ## <a name="enable-and-configure"></a>Etkinleştirme ve yapılandırma
 
-Yeni kapasiteler için, açılan listeden varsayılan bölgenin dışında bir bölge seçerek Multi-Geo'yu etkinleştirin.  Kullanılabilir her kapasite, şu anda bulunduğu bölgeyi (**Orta Batı ABD**) gösterir.
+Yeni kapasiteler için, açılan listeden varsayılan bölgenin dışında bir bölge seçerek Multi-Geo'yu etkinleştirin.  Kullanılabilir her kapasite, şu anda bulunduğu bölgeyi ( **Orta Batı ABD** ) gösterir.
 
 ![Kapasite boyutu: bölge seçin. Power BI Multi-Geo](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -90,14 +90,16 @@ Mevcut içeriğin bölgesini değiştirmeniz gerekiyorsa, iki seçeneğiniz vard
 - Çalışma alanının bulunduğu yerdeki geçerli kapasiteyi silin.  Bu işlem çalışma alanını ana bölgedeki paylaşılan kapasiteye geri taşır.
 - Tek tek çalışma alanlarını geriye, ana kiracıda yer alan Premium kapasiteye geçirin.
 
+Büyük depolama biçimli veri kümeleri, oluşturuldukları bölgeden taşınmamalıdır. Büyük biçimli veri kümesini temel alan raporlar veri kümesini yükleyemez ve *Model yüklenemiyor* hatasını döndürür. Büyük depolama biçimli veri kümesini yeniden kullanılabilir hale getirmek için özgün bölgesine geri taşıyın.
+
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 - Veri aktarımını başlatmadan önce bölgeler arasında başlattığınız her taşıma işleminin tüm kurumsal ve resmi uyumluluk gereksinimlerini karşıladığını onaylayın.
 - Uzak bölgede depolanan ve önbelleğe alınan bir sorgu, o bölgede bekletilir. Öte yandan, taşınan diğer veriler birden çok coğrafya arasında ileri ve geri gidebilir.
 - Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca son kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
 - İçeri aktarılan veri modelleri için sorgu metni ve sorgu sonucu trafiği giriş bölgesi üzerinden aktarılmaz. Rapor meta verileri yine uzak bölgeden gelir ve bazı DNS yönlendirme durumları trafiği bölgenin dışına taşıyabilir. 
-
 - [Veri akışları](../transform-model/service-dataflows-overview.md) özelliği şu anda Multi-Geo’da desteklenmiyor.
+- Büyük depolama biçimli veri kümelerini oluşturuldukları bölgeden taşımak, raporların veri kümesini yükleyememesine neden olur. Büyük depolama veri kümesini kullanılabilir hale getirmek için özgün bölgesine geri taşıyın. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

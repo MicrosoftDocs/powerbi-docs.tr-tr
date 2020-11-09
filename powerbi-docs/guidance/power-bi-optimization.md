@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278619"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916556"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI için iyileştirme kılavuzu
 
@@ -83,7 +83,7 @@ Kapasite ayarlarını yapılandırarak, veri ağ geçitlerini boyutlandırarak v
 
 ### <a name="capacity-settings"></a>Kapasite ayarları
 
-Power BI Premium (P SKU’ları) veya Power BI Embedded (A SKU’ları, A4-A6) ile sağlanan ayrılmış kapasiteleri kullanırken kapasite ayarlarını yönetebilirsiniz. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../admin/service-premium-capacity-manage.md). Kapasitenizi nasıl iyileştireceğinize ilişkin yönergeler için bkz. [Premium kapasiteleri iyileştirme](../admin/service-premium-capacity-optimize.md).
+Power BI Premium (P SKU’ları) veya Power BI Embedded (A SKU’ları, A4-A6) ile sağlanan kapasiteleri kullanırken kapasite ayarlarını yönetebilirsiniz. Daha fazla bilgi için bkz. [Premium kapasiteleri yönetme](../admin/service-premium-capacity-manage.md). Kapasitenizi nasıl iyileştireceğinize ilişkin yönergeler için bkz. [Premium kapasiteleri iyileştirme](../admin/service-premium-capacity-optimize.md).
 
 ### <a name="gateway-sizing"></a>Ağ geçidini boyutlandırma
 

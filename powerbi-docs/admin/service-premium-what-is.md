@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power BI Premium nedir?
-description: Power BI Premium kuruluşunuz için ayrılmış kapasiteler sağlar ve kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri getirir.
+description: Power BI Premium, kuruluşunuz için kapasiteler sağlar, kullanıcı başına lisans satın almanıza gerektirmeden daha güvenilir performans ve daha yüksek veri hacimleri sunar.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598999"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916027"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -177,7 +177,7 @@ Power BI REST API'leri bir [Kapasite API'leri](/rest/api/power-bi/capacities) ko
 
 ## <a name="large-datasets"></a>Büyük veri kümeleri
 
-SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI Desktop (.pbix) model dosyalarının karşıya yüklenmesini destekler. Model yüklendiğinde, Premium kapasiteye atanmış bir çalışma alanında yayımlanabilir. Ardından veri kümesi boyutu **12 GB**’a ulaşana kadar yenilenebilir.
+SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI Desktop (.pbix) model dosyalarının karşıya yüklenmesini destekler. Model yüklendiğinde, Premium kapasiteye atanmış bir çalışma alanında yayımlanabilir. Ardından veri kümesi boyutu **12 GB** ’a ulaşana kadar yenilenebilir.
 
 ### <a name="size-considerations"></a>Boyutla ilgili dikkat edilmesi gerekenler
 
@@ -205,7 +205,7 @@ Premium kapasitede sorgu başına bellek ve süre sınırları çok daha yüksek
 
 ## <a name="incremental-refresh"></a>Artımlı yenileme
 
-Artımlı yenileme, Power BI Premium’da ve Power BI Pro’da büyük veri kümelerini bulundurmanın ve tutmanın çok önemli bir parçasını sağlar. Artımlı yenilemenin birçok avantajı vardır; örneğin yalnızca değişmiş verilerin yenilenmesi gerektiğinden yenileme işlemi daha hızlı yapılır. Yenilemeler daha güvenilir olur çünkü geçici veri kaynaklarına uzun süreli bağlantıların sürdürülmesi gerekli değildir. Kaynak tüketimi azaltılır çünkü yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır. Artımlı yenileme ilkeleri, **Power BI Desktop**’ta tanımlanır ve Premium kapasitedeki bir çalışma alanına yayımlandıktan sonra uygulanır. 
+Artımlı yenileme, Power BI Premium’da ve Power BI Pro’da büyük veri kümelerini bulundurmanın ve tutmanın çok önemli bir parçasını sağlar. Artımlı yenilemenin birçok avantajı vardır; örneğin yalnızca değişmiş verilerin yenilenmesi gerektiğinden yenileme işlemi daha hızlı yapılır. Yenilemeler daha güvenilir olur çünkü geçici veri kaynaklarına uzun süreli bağlantıların sürdürülmesi gerekli değildir. Kaynak tüketimi azaltılır çünkü yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır. Artımlı yenileme ilkeleri, **Power BI Desktop** ’ta tanımlanır ve Premium kapasitedeki bir çalışma alanına yayımlandıktan sonra uygulanır. 
 
 ![Yenileme ayrıntıları](media/service-premium-incremental-refresh/refresh-details.png)
 

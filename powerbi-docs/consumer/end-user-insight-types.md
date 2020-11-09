@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 10/12/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764000"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045286"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -27,7 +27,7 @@ Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri
 ![bir grup İçgörü](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
-Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları*, pano kutucuklarında İçgörüleri çalıştırabilir.
+Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları* , pano kutucuklarında İçgörüleri çalıştırabilir.
 
 ## <a name="some-terminology"></a>Bazı terimler
 Power BI İçgörüleri ortaya çıkarmak için istatistiksel algoritmalar kullanır. Algoritmalar bu makalenin sonraki bölümünde listelenmiş ve açıklanmıştır. Algoritmalara gelmeden önce burada tanımıyor olabileceğiniz bazı terimlerin açıklamalarını sağladık. 
@@ -66,6 +66,11 @@ Bir toplam değerin çoğunluğunun, başka bir boyuta göre değerlendirildiği
 
 ![Ana etkenler örneği](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
+### <a name="outliers"></a>Aykırı değerler
+Bu içgörü türü, zaman serisi dışı verilerdeki aykırı değerleri bulmak için bir kümeleme modeli kullanır. Aykırı değerler, diğer kategorilere kıyasla önemli ölçüde farklı değerlere sahip belirli kategoriler olduğunu algılar.
+
+![aykırı değerler örneği](./media/end-user-insight-types/power-bi-outliers.png)
+
 ### <a name="overall-trends-in-time-series"></a>Zaman serisindeki genel eğilimler
 Zaman serisi verilerinde görülen yukarı veya aşağı yönlü eğilimleri algılar.
 
@@ -87,6 +92,7 @@ Düzenli paylaşım içgörüsü düşük varyans içgörüsüne benzer, çünk�
 Bir zaman serisindeki verilerde yer alan belirli tarihlerin veya saatlerin, diğer tarih/saat değerlerinden büyük ölçüde farklılık gösteren değerler içerdiği durumları algılar.
 
 ![Zaman serisi aykırı değerleri örneği](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI öngörüleri](end-user-insights.md)

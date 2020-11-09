@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981493"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297608"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -64,6 +64,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Google Analytics | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | Google BigQuery | Evet | Evet | Evet | Hayır | Hayır | Evet |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır | Hayır |
+| Hive LLAP | Evet | Evet | Evet | Evet | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır | Hayır |
 | IBM DB2 | Evet | Evet | Evet | Evet | Hayır | Evet |
 | IBM Informix Veritabanı | Evet | Evet | Hayır | Evet | Hayır | Hayır |
@@ -74,10 +75,10 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Information Grid | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | Intersystems IRIS | Evet | Evet | Evet | Evet | Evet | Hayır |
 | Intune Veri Ambarı | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
-| Jethro ODBC | Evet | Evet | Evet | Yes | Evet | Hayır |
-| JSON | Evet | Evet | Hayır | Evet** | Hayır <sup>4</sup> | Evet |
-| Kyligence Enterprise | Evet | Yes | Evet | Evet | Evet | Hayır |
-| MailChimp | Yes | Evet | Hayır | Hayır | Hayır | Hayır |
+| Jethro ODBC | Evet | Evet | Evet | Evet | Evet | Hayır |
+| JSON | Evet | Yes | Hayır | Evet** | Hayır <sup>4</sup> | Evet |
+| Kyligence Enterprise | Yes | Evet | Evet | Evet | Evet | Hayır |
+| MailChimp | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | Marketo | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | MarkLogic ODBC | Evet | Evet | Evet | Evet | Evet | Hayır |
 | Microsoft Azure Consumption Insights | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
@@ -105,10 +106,10 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | QuickBooks Online | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | R betiği | Evet | Evet <sup>5</sup> | Hayır | Evet <sup>5</sup> | Hayır | Hayır |
 | Roamler | Evet | Evet | Hayır | Evet | Hayır | Hayır |
-| Salesforce Nesneleri | Evet | Evet | Hayır | Hayır | Hayır | Evet |
-| Salesforce Raporları | Evet | Yes | Hayır | Hayır | Hayır | Evet |
-| SAP Business Warehouse İleti Sunucusu | Evet | Evet | Evet | Evet | Evet | Evet |
-| SAP Business Warehouse Sunucusu | Evet | Evet | Evet | Evet | Evet | Yes |
+| Salesforce Nesneleri | Evet | Yes | Hayır | Hayır | Hayır | Evet |
+| Salesforce Raporları | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| SAP Business Warehouse İleti Sunucusu | Evet | Evet | Evet | Evet | Evet | Yes |
+| SAP Business Warehouse Sunucusu | Evet | Evet | Evet | Evet | Evet | Evet |
 | SAP HANA | Evet | Evet | Evet | Evet | Evet | Evet |
 | SharePoint Klasörü | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |
 | SharePoint Listesi | Evet | Evet | Hayır | Evet | Hayır <sup>4</sup> | Evet |

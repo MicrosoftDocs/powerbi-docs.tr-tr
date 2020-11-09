@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599123"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915912"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -32,7 +32,7 @@ Power BI Premium, aşağıdakileri içeren bir kapasite tabanlı tekliftir:
 * Tek bir API yüzeyi, tutarlı özellik kümesi ve katıştırılmış analiz için en güncel özellikler.
 
 **Power BI Premium ne işe yarar? Nasıl çalışır?**  
-Power BI Premium, her bir kuruluşa özel olarak ayrılmış Power BI hizmeti kapasitesini kapsar. Kapasite tamamen Microsoft tarafından yönetilen adanmış donanımlarla desteklenir. Kuruluşlar adanmış kapasitelerini geniş çapta uygulamayı tercih edebilir veya bu kapasiteyi atanmış çalışma alanlarına kullanıcı sayısına, iş yükü gereksinimlerine veya diğer etmenlere göre atayabilir. Gereksinimler değiştikçe ölçek büyütülebilir veya küçültülebilir.
+Power BI Premium, her bir kuruluşa özel olarak ayrılmış Power BI hizmeti kapasitesini kapsar. Kapasite tamamen Microsoft tarafından yönetilen adanmış donanımlarla desteklenir. Kuruluşlar kapasitelerini geniş çapta uygulamayı tercih edebilir veya bu kapasiteyi atanmış çalışma alanlarına kullanıcı sayısına, iş yükü gereksinimlerine veya diğer etmenlere göre atayabilir. Gereksinimler değiştikçe ölçek büyütülebilir veya küçültülebilir.
 
 **Power BI Pro ile Power BI Premium arasındaki fark nedir?**  
 Power BI Premium kapasite tabanlı bir lisans, Power BI Pro ise kullanıcı tabanlı bir lisanstır. Power BI Pro; raporlar yayımlayan, panolar paylaşan, çalışma alanlarında iş arkadaşlarıyla işbirliği yapan ve aşağıdakiler gibi diğer ilişkili etkinlikler ile ilgilenen kullanıcılara yöneliktir:

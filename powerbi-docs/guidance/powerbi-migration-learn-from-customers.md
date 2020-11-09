@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803630"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916694"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Müşteri Power BI geçişlerinden öğrenme
 
@@ -158,7 +158,7 @@ Power BI şirket genelinde daha yaygın olarak benimsendi ve çok katmanlı bir 
 
 Şirketin iç kataloğunda artık altı iç Power BI kursu sunuluyor. [Dashboard in a Day](https://powerbi.microsoft.com/diad/) kursu yeni başlayanlara yönelik popüler bir kurs olma unvanını koruyor. Şirket, kullanıcıların becerilerini geliştirmesine yardımcı olmak için üç Power BI kursu ve iki DAX kursundan oluşan bir kurs serisi sunuyor.
 
-Bu, Premium kapasitelerin yönetilmesiyle ilişkili en önemli veri idaresi kararlarından biriydi. Şirket, sahip oldukları ayrılmış kapasiteyi, iş birimleri ve paylaşılan hizmetlerdeki önemli analiz alanlarıyla uyumlu hale getirmeye karar verdi. Böylece, verimsizliklerin yalnızca verimsizliğin oluştuğu bölgeyi etkilemesi sağlandı ve merkezi olmayan kapasite yöneticilerine kapasiteyi uygun buldukları şekilde yönetme olanağı tanındı.
+Bu, Premium kapasitelerin yönetilmesiyle ilişkili en önemli veri idaresi kararlarından biriydi. Şirket, sahip oldukları kapasiteyi, iş birimleri ve paylaşılan hizmetlerdeki önemli analiz alanlarıyla uyumlu hale getirmeye karar verdi. Böylece, verimsizliklerin yalnızca verimsizliğin oluştuğu bölgeyi etkilemesi sağlandı ve merkezi olmayan kapasite yöneticilerine kapasiteyi uygun buldukları şekilde yönetme olanağı tanındı.
 
 > [!IMPORTANT]
 > Premium kapasitelerin nasıl kullanıldığına ve çalışma alanlarının bunlara nasıl atandığına dikkat edin.

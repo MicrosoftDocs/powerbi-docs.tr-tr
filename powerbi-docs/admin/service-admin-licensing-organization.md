@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857301"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916096"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
@@ -53,9 +53,9 @@ Self servis kaydolma özelliğini kapatmak, kullanıcıların veri görselleşti
 
 1. Genel yönetici veya faturalama yöneticisi kimlik bilgilerini kullanarak [Microsoft 365 yönetim merkezinde](https://admin.microsoft.com) oturum açın.
 1. Sol kenar çubuğu menüsünde **Faturalama** > **Hizmetleri satın alın** öğesini seçin.
-1. Power BI (ücretsiz) teklifini bulmak için arayın veya kaydırın. Teklifi ve sonra **Şimdi al**’ı seçin.
+1. Power BI (ücretsiz) teklifini bulmak için arayın veya kaydırın. Teklifi ve sonra **Şimdi al** ’ı seçin.
 1. Tüm kullanıcılarınızı kapsayacak lisans sayısını girin.
-1. **Lisansı olmayan tüm kullanıcılara otomatik olarak ata**’yı seçin ve kullanıma alın.
+1. **Lisansı olmayan tüm kullanıcılara otomatik olarak ata** ’yı seçin ve kullanıma alın.
 
   ![Self servis kaydolmayı gösteren, Power BI ücretsiz otomatik atanmış aboneliğin ekran görüntüsü.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
@@ -84,7 +84,7 @@ Kuruluşlara yönelik iki tür Power BI aboneliği vardır: standart ve premium.
 
 Standart bir self servis Power BI Pro aboneliğiyle yöneticiler kullanıcı başına lisans atar. Power BI Pro lisanslarının kullanıcı başına aylık bir ücreti vardır. Bu lisans türü işbirliğine, yayımlamaya, paylaşıma ve geçici analizlere olanak tanır. İçerik, Microsoft tarafından tam olarak yönetilen paylaşılan depolama kapasitesine kaydedilir.
 
-Power BI Premium aboneliği, bir kuruluşa ayrılmış kapasite ayırır. Kurumsal BI, büyük veri analizi ve bulut ile şirket içi raporlama için uygun olan Premium, gelişmiş yönetim ve dağıtım denetimleri sağlar. Ayrılmış işlem ve depolama kaynakları, kuruluşunuzdaki kapasite yöneticileri tarafından yönetilir. Bu ayrılmış ortam için aylık bir maliyet vardır. Diğer Premium avantajlarına ek olarak, Power BI Pro lisansları olmayan kullanıcılar Premium kapasitede depolanan içeriğe erişilebilir ve bu içerik aynı kullanıcılara dağıtılabilir. Premium'u kullanabilmek için en az bir kullanıcıya Power BI Pro lisansı atanmış olması ve içerik oluşturucuları ile geliştiricilerinin yine de bir Power BI Pro lisansı olması gerekir.
+Power BI Premium aboneliği, bir kuruluşa kapasite ayırır. Kurumsal BI, büyük veri analizi ve bulut ile şirket içi raporlama için uygun olan Premium, gelişmiş yönetim ve dağıtım denetimleri sağlar. Ayrılmış işlem ve depolama kaynakları, kuruluşunuzdaki kapasite yöneticileri tarafından yönetilir. Bu ayrılmış ortam için aylık bir maliyet vardır. Diğer Premium avantajlarına ek olarak, Power BI Pro lisansları olmayan kullanıcılar Premium kapasitede depolanan içeriğe erişilebilir ve bu içerik aynı kullanıcılara dağıtılabilir. Premium'u kullanabilmek için en az bir kullanıcıya Power BI Pro lisansı atanmış olması ve içerik oluşturucuları ile geliştiricilerinin yine de bir Power BI Pro lisansı olması gerekir.
 
 İki tür abonelik birlikte kullanılabilir. Hem Power BI Premium hem de Power BI Pro’ya sahip olabilirsiniz. Bu yapılandırmada, Premium kapasitede depolanan içerik tüm kullanıcılarla paylaşılabilir ve paylaşılan kapasite de kullanılabilir. Kapasite sınırları hakkında bilgi edinmek için bkz. [Power BI çalışma alanlarında veri depolamayı yönetme](service-admin-manage-your-data-storage-in-power-bi.md).
 

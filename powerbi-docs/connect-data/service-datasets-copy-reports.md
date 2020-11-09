@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633220"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132333"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Diğer çalışma alanlarından raporları kopyalama
 
 Çalışma alanında veya uygulamada hoşunuza giden bir rapor bulduğunuzda kopyasını alabilir ve bunu farklı bir çalışma alanına kaydedebilirsiniz. Ardından, raporun kopyasını değiştirebilir veya görselleri ve diğer öğeleri ekleyip silebilirsiniz. Veri modelini oluşturmaya kafa yormanız gerekmez. Bu zaten sizin için oluşturulur. Mevcut raporu değiştirmek, en baştan başlamaktan çok daha kolaydır. Ancak, bazı durumlarda çalışma alanınızdan bir uygulama oluştururken rapor kopyanızı uygulamada yayımlayamazsınız. Ayrıntılar için ["Veri kümelerini çalışma alanları arasında kullanma" makalesinde diğer dikkate alınacak noktalar ve sınırlamalara](service-datasets-across-workspaces.md#considerations-and-limitations) bakın.
 
-> [!NOTE]
-> Bir kopya oluşturmak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile bir Pro lisansı gereklidir.
+## <a name="prerequisites"></a>Önkoşullar
+
+- Bir raporu kopyalamak için, özgün rapor Premium kapasitesi içindeki bir çalışma alanında olsa bile bir Pro lisansı gereklidir.
+- Raporu kopyalamak veya bu çalışma alanındaki veri kümesini temel alarak başka bir çalışma alanında rapor oluşturmak için veri kümesine yönelik Oluşturma iznine sahip olmanız gerekir. Özgün çalışma alanındaki veri kümeleri için Yönetici, Üye ve Katkıda Bulunan rollerine sahip kişilerin çalışma alanı rolleri aracılığıyla otomatik olarak Oluşturma izinleri olur. Ayrıntılar için [Yeni çalışma alanlarındaki roller](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) bölümüne bakın.
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Çalışma alanında raporun bir kopyasını kaydetme
 
@@ -29,7 +31,7 @@ ms.locfileid: "91633220"
 
     ![Raporlar liste görünümü](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
-1. **Eylemler**’in altından **Bir kopyasını kaydet** seçeneğini belirleyin.
+1. **Eylemler** ’in altından **Bir kopyasını kaydet** seçeneğini belirleyin.
 
     ![Raporun bir kopyasını kaydetme](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
@@ -41,7 +43,7 @@ ms.locfileid: "91633220"
 
     Raporu, mevcut çalışma alanına veya Power BI hizmetindeki farklı bir çalışma alanına kaydedebilirsiniz. Sadece üyesi olduğunuz yeni deneyim çalışma alanları olan çalışma alanlarını görürsünüz. 
   
-4. **Kaydet**'i seçin.
+4. **Kaydet** 'i seçin.
 
     Rapor çalışma alanının dışındaki bir veri kümesini temel alıyorsa, Power BI otomatik olarak raporun bir kopyasını oluşturur ve veri kümeleri listesine bir girdi ekler. Bu veri kümesinin simgesi, çalışma alanındaki veri kümelerinin simgesinden farklıdır: ![Paylaşılan veri kümesi simgesi](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
     
@@ -54,19 +56,19 @@ ms.locfileid: "91633220"
 ## <a name="copy-a-report-in-an-app"></a>Uygulamaya rapor kopyalama
 
 1. Uygulamada, kopyalamak istediğiniz raporu açın.
-2. Menü çubuğunda **Diğer seçenekler** ( **...** ) > **Kopyasını kaydet**’i seçin.
+2. Menü çubuğunda **Diğer seçenekler** ( **...** ) > **Kopyasını kaydet** ’i seçin.
 
     ![Raporun kopyasını kaydetme](media/service-datasets-copy-reports/power-bi-save-copy.png)
 
     **Kopyasını kaydet** seçeneği, rapor yeni çalışma alanı deneyiminde bulunuyorsa ve [Oluşturma izniniz](service-datasets-build-permissions.md) varsa görünür.
 
-3. Raporunuza bir ad verin > **Kaydet**’i seçin.
+3. Raporunuza bir ad verin > **Kaydet** ’i seçin.
 
     ![Rapor kopyanızı adlandırma](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
 
     Kopyanız otomatik olarak Çalışma Alanım’a kaydedilir.
 
-4. Kopyanızı açmak için **Rapora git**’i seçin.
+4. Kopyanızı açmak için **Rapora git** ’i seçin.
 
 ## <a name="your-copy-of-the-report"></a>Rapor kopyanız
 
@@ -96,7 +98,7 @@ Raporu ve raporla ilişkilendirilmiş paylaşılan veri kümesini artık çalı�
 
     ![Raporu sil simgesi](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
 
-2. Veri kümesi listesinde paylaşılan veri kümeleri için **Sil** simgelerinin olmadığını görürsünüz. Sayfayı yenileyin veya başka bir sayfaya gidin geri dönün. Veri kümesi görüntüden kaldırılır. Aksi takdirde **İlişkilileri görüntüle**'ye bakın. Çalışma alanınızdaki başka bir tabloyla ilişkili olabilir.
+2. Veri kümesi listesinde paylaşılan veri kümeleri için **Sil** simgelerinin olmadığını görürsünüz. Sayfayı yenileyin veya başka bir sayfaya gidin geri dönün. Veri kümesi görüntüden kaldırılır. Aksi takdirde **İlişkilileri görüntüle** 'ye bakın. Çalışma alanınızdaki başka bir tabloyla ilişkili olabilir.
 
     ![İlgili tabloları denetlemek için kullanılan İlgili olanları görüntüle seçeneğinin yer aldığı veri kümesini gösteren ekran görüntüsü.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 

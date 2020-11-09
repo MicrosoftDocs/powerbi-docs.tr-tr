@@ -6,71 +6,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 09/01/2020
+ms.date: 10/26/2020
 ms.author: maggies
-ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286740"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044941"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirin
 
 
-PowerShell'i kullanıp gerekli API'lerle etkileşim kurarak Power BI Rapor Sunucusu'nda barındırılan Power BI raporlarının veri kaynağı bağlantı dizelerini değiştirebilirsiniz. 
+Power BI Rapor Sunucusu’nun 2020 Ekim sürümünden itibaren, DirectQuery ve yenileme işlemi için Power BI raporlarına yönelik bağlantıları güncelleştirme özelliğini kullanıma sunuyoruz.
 
-> [!NOTE]
-> Şu anda bu işlevsellik yalnızca DirectQuery’de çalışır. İçeri aktarma ve veri yenileme desteği yakında sağlanacaktır.
+> [!IMPORTANT]
+> Ayrıca bu özellik, önceki sürümlerde özelliği ayarlama yönteminizle ilgili yeni bir değişikliktir. Power BI Rapor Sunucusu’nun Ekim 2020’den önceki bir sürümünü kullanıyorsanız bkz. [PowerShell - Ekim 2020’den önceki bir Power BI Rapor Sunucusu sürümü ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis-pre-oct-2020.md)
 
-1. Power BI Rapor Sunucusu PowerShell komutlarını yükleyin. Komutlar ve yükleme yönergeleri için bkz. [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+## <a name="prerequisites"></a>Önkoşullar:
+- [Power BI Rapor Sunucusu’nun ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın](https://powerbi.microsoft.com/report-server/) Ekim 2020 sürümünü indirin.
+- Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ekim 2020 sürümüyle kaydedilen ve **Gelişmiş Veri Kümesi Meta Verileri** ’nin etkin olduğu bir rapor.
+- Parametreli hale getirilmiş bağlantıları kullanan bir rapor. Yalnızca parametreli hale getirilmiş bağlantılara ve veritabanlarına sahip raporlar yayımlandıktan sonra güncelleştirilebilir.
+- Bu örnekte, Reporting Services PowerShell araçları kullanılmaktadır. Yeni REST API’lerini kullanarak da aynı sonucu elde edebilirsiniz.
 
-    Aşağıdaki komutu kullanarak `ReportingServicesTools` modülünü doğrudan [PowerShell Galerisi](https://www.powershellgallery.com/packages/ReportingServicesTools/)'nden yükleyin.
+## <a name="create-a-report-with-parameterized-connections"></a>Parametreli hale getirilmiş bağlantılara sahip raporlar oluşturma
+    
+1. Bir sunucuya SQL Server bağlantısı oluşturma. Aşağıdaki örnekte, localhost’u ReportServer adlı bir veritabanına bağlayıp ExecutionLog’dan veri çekiyoruz.
 
-    ```powershell
-    Install-Module ReportingServicesTools
+    :::image type="content" source="media/connect-data-source-apis/sql-server-connect-database.png" alt-text="SQL Server veritabanına bağlanma":::
+
+    Bu noktada M sorgusu aşağıdaki gibi görünür:
+
+    ```
+    let
+        Source = Sql.Database("localhost", "ReportServer"),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
     ```
 
-2. Power BI dosyası için mevcut veri kaynağı bilgilerini PowerShell komutları aracılığıyla getirin:
+2. Power Query Düzenleyicisi şeridinde **Parametreleri Yönet** ’i seçin.
+
+    :::image type="content" source="media/connect-data-source-apis/power-query-manage-parameters.png" alt-text="Parametreleri Yönet’i seçme":::
+
+1.  servername ve databasename için parametreler oluşturun.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-parameters.png" alt-text="Parametreleri Yönet, servername ve databasename ayarlama.":::
+
+
+3. Sorguyu ilk bağlantı için düzenleyip databasename ve servername öğelerini eşleyin.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-map-database-server.png" alt-text="Sunucu ve Veritabanı adını eşleme":::
+
+    Sorgu şimdi şu şekilde görünür:
+
+    ```
+    let
+        Source = Sql.Database(ServerName, Databasename),
+        dbo_ExecutionLog3 = Source{[Schema="dbo",Item="ExecutionLog3"]}[Data]
+    in
+        dbo_ExecutionLog3
+    ```
+    
+    4. Bu raporu sunucuda yayımlayın. Bu örnekte rapor executionlogparameter olarak adlandırılmıştır. Aşağıdaki resim, bir veri kaynağı yönetim sayfası örneğidir.
+
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-data-source-credentials.png" alt-text="Veri kaynağı yönetim sayfası.":::
+
+## <a name="update-parameters-using-the-powershell-tools"></a>PowerShell araçlarını kullanarak parametreleri güncelleştirme
+
+1. PowerShell’i açın ve [https://github.com/microsoft/ReportingServicesTools](https://github.com/microsoft/ReportingServicesTools) sayfasındaki yönergeleri izleyerek Reporting Services araçlarının en son sürümünü yükleyin.
+    
+2.  Raporun parametresini almak için, aşağıdaki PowerShell çağrısını kullanarak yeni REST DataModelParameters API’sini kullanın:
 
     ```powershell
-    Get-RsRestItemDataSource -RsItem '/MyPbixReport'
+    Get-RsRestItemDataModelParameters '/executionlogparameter'
+
+        Name         Value
+        ----         -----
+        ServerName   localhost
+        Databasename ReportServer
     ```
 
-    Power BI raporunda bulunan ilk veri kaynağına ilişkin bilgileri görüntülemek için: 
+3. Bu çağrının sonucunu bir değişkene kaydediyoruz:
 
     ```powershell
-    $dataSources[0]
+    $parameters = Get-RsRestItemDataModelParameters '/executionlogparameter'
     ```
 
-3. Bağlantı ve kimlik bilgilerini gerektiği şekilde güncelleştirin. Bağlantı dizesi güncelleştiriliyorsa ve veri kaynağı depolanan kimlik bilgilerini kullanıyorsa, hesap parolasını sağlamanız gerekir. 
-
-    Veri kaynağı bağlantı dizesini güncelleştirmek için:
+4. Bu değişken, değiştirmemiz gereken değerlerle güncelleştirilir.
+5. Bu çağrının sonucunu bir değişkene kaydediyoruz:
 
     ```powershell
-    $dataSources[0].ConnectionString = 'data source=myCatalogServer;initial catalog=ReportServer;persist security info=False' 
+    $parameters[0].Value = 'myproductionserver'
+    $parameters[1].Value = 'myproductiondatabase'
     ```
 
-    Veri kaynağı kimlik bilgisi türünü değiştirmek için:
+6. Güncelleştirilmiş değerlerle, sunucudaki değerleri güncelleştirmek için `Set-RsRestItemDataModelParameters` commandlet’ini kullanabiliriz:
 
     ```powershell
-    $dataSources[0].DataModelDataSource.AuthType = 'Integrated'
+    Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-    Veri kaynağı kullanıcı adını/parolasını değiştirmek için:
+7. Parametreler güncelleştirildiğinde sunucu, parametrelere bağlı tüm veri kaynaklarını güncelleştirir. **Veri kaynağını düzenle** iletişim kutusuna geri dönerek, güncelleştirilmiş sunucu ve veritabanının kimlik bilgilerini ayarlayabilmeniz gerekir.
 
-    ```powershell
-    $dataSources[0].DataModelDataSource.Username = 'domain\user'
-    ```
-    ```powershell
-    $dataSources[0].DataModelDataSource.Secret = 'password'
-    ```
-
-4. Güncelleştirilmiş kimlik bilgilerini sunucuya geri kaydedin.
-
-    ```powershell
-    Set-RsRestItemDataSource -RsItem '/MyPbixReport' -RsItemType 'PowerBIReport' -DataSources $dataSources
-    ```
+    :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Güncelleştirilmiş sunucu ve veritabanı için kimlik bilgilerini ayarlama.":::
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -10,12 +10,12 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763081"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916717"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
@@ -39,15 +39,15 @@ Listeye gelmeden önce bazı Power BI kavramlarını gözden geçirelim. Bu hız
 ### <a name="workspaces-and-roles"></a>Çalışma alanları ve roller
 İki tür çalışma alanı vardır: **Çalışma alanım** ve uygulama çalışma alanları. Kendi **Çalışma alanım** sayfanıza yalnızca siz erişebilirsiniz. İşbirliği yapmak ve paylaşmak için Pro lisanslarına sahip içerik *tasarımcılarının* bir uygulama çalışma alanı kullanması gerekir. 
 
-Uygulama çalışma alanları içinde *roller*, ilgili çalışma alanında kimlerin hangi işlemleri yapabileceğini yönetmek için tasarımcılar tarafından atanır. *İş kullanıcılarına* sıklıkla **Görüntüleyici** rolü atanır. 
+Uygulama çalışma alanları içinde *roller* , ilgili çalışma alanında kimlerin hangi işlemleri yapabileceğini yönetmek için tasarımcılar tarafından atanır. *İş kullanıcılarına* sıklıkla **Görüntüleyici** rolü atanır. 
 
 ### <a name="premium-capacity"></a>Premium kapasite
-Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıcıları *ayrılmış kapasiteye* çalışma alanları atayabilir. Ayrılmış kapasitedeki çalışma alanı, Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşım ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro lisansları olması gerekmez. Söz konusu çalışma alanları içinde ücretsiz lisans kullanıcılarının yükseltilmiş izinleri olur (aşağıdaki listeye bakın). 
+Kuruluşun Premium kapasite aboneliği olduğunda, yöneticiler ve Pro kullanıcıları bir *kapasiteye* çalışma alanları atayabilir. Kapasite içindeki çalışma alanı Pro kullanıcılarının ücretsiz lisans kullanıcılarıyla paylaşabilecekleri ve işbirliği yapabilecekleri bir alandır; bunun için ücretsiz lisans kullanıcılarının Pro lisanslarına sahip olmaları gerekmez. Söz konusu çalışma alanları içinde ücretsiz lisans kullanıcılarının yükseltilmiş izinleri olur (aşağıdaki listeye bakın). 
 
 ### <a name="licenses"></a>Lisanslar 
 Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı vardır. *İş kullanıcıları* ücretsiz lisanslara sahiptir.
 
-- **Ücretsiz lisans**: Genellikle kuruluş içindeki *iş kullanıcılarına* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
+- **Ücretsiz lisans** : Genellikle kuruluş içindeki *iş kullanıcılarına* atanır (aşağıdaki ilk görüntüye bakın). Ayrıca Power BI hizmetine birey olarak kaydolan ve [Power BI hizmetini tek başına modunda](../fundamentals/service-self-service-signup-for-power-bi.md) denemek isteyen herkese atanır (aşağıdaki ikinci görüntüye bakın). 
 
     ![Premium kullanıcıyı gösteren ekran](media/end-user-features/power-bi-free-organization.png)
 
@@ -61,7 +61,7 @@ Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>*Tüketicilere* ve ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 Aşağıdaki grafik, Premium kapasitede içerikle etkileşime giren bir *iş kullanıcısı* tarafından hangi görevlerin gerçekleştirilebileceğini tanımlar.    
 
-İlk sütun **Çalışma alanım**’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı Power BI hizmetinde iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım**’dan paylaşamaz. 
+İlk sütun **Çalışma alanım** ’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı Power BI hizmetinde iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım** ’dan paylaşamaz. 
 
 İkinci sütun *iş kullanıcısını* temsil eder.  İş kullanıcısı:
 
@@ -79,7 +79,7 @@ Aşağıdaki grafik, Premium kapasitede içerikle etkileşime giren bir *iş kul
 
 ### <a name="feature-list"></a>Özellik listesi
 
-|Özellikler   | Senaryo 1: Ayrılmış kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | Senaryo 2: Ayrılmış kapasitede depolanan içerik üzerinde **Görüntüleyici** izinleri olan Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *iş kullanıcısıdır*. |
+|Özellikler   | 1\. Senaryo: Kapasitede barındırılan içeriğe erişimi olmayan Power BI ücretsiz lisans kullanıcısı.    | 2\. Senaryo: Kapasitede depolanan içerik üzerinde **Görüntüleyici** izinlerie sahip Power BI ücretsiz lisans kullanıcısı. Bu kişi bir Power BI *iş kullanıcısıdır*. |
 |---|---|---|
 |**Uygulamalar** 
 |Otomatik olarak yüklenir | ![turuncu x](media/end-user-features/orange-x.png) | ![yeşil nokta](media/end-user-license/power-bi-green-dot.png)*| 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 268594b54186ca319eca6a7577dcfaa17c066fd4
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952697"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916119"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
@@ -26,9 +26,9 @@ Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğr
 
 Kiracınızın bulunduğu bölgeyi bulmak için aşağıdaki adımları izleyin.
 
-1. Power BI hizmetinde üst taraftaki menüden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında**'yı seçin.
+1. Power BI hizmetinde üst taraftaki menüden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında** 'yı seçin.
 
-1. **Verilerinizin depolandığı yer** ifadesinin yanındaki değere bakın. Bu bölge, kiracınızın bulunduğu yerdir. Bu değer ayrıca, çalışma alanlarınız için farklı bölgelerdeki ayrılmış kapasiteleri kullanmadığınız sürece verileriniz de bu bölgede depolanır.
+1. **Verilerinizin depolandığı yer** ifadesinin yanındaki değere bakın. Bu bölge, kiracınızın bulunduğu yerdir. Bu değer ayrıca, çalışma alanlarınız için farklı bölgelerdeki kapasiteleri kullanmadığınız sürece verileriniz de bu bölgede depolanır.
 
     ![Veri bölgesi](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746206"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916510"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -117,7 +117,7 @@ Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Pow
 * [Rest API'leri](/rest/api/power-bi-embedded/) 
 * [PowerShell cmdlet'leri](/powershell/module/azurerm.powerbiembedded/)
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded adanmış kapasite rolü nedir?
+### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded kapasite rolü nedir?
 
 [Çözümünüzü üretime yükseltmek](embed-sample-for-customers.md#move-to-production) için uygulamanızın kullandığı Power BI içeriğini (çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atamanız gerekir.
 
@@ -160,7 +160,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-object-id-is-the-service-principal-object-id"></a>Hangi nesne kimliği hizmet sorumlusu nesne kimliğidir?
 
-Kayıtlı uygulamanın ana ekranındaki *Nesne Kimliği*, uygulamanın nesne kimliğidir.
+Kayıtlı uygulamanın ana ekranındaki *Nesne Kimliği* , uygulamanın nesne kimliğidir.
 
 *Yerel dizinde yönetilen uygulama > Özellikler* bölümünde bulunan nesne kimliği, kullanmanız gereken hizmet sorumlusu nesne kimliğidir. Bu nesne kimliği işlemler için bir hizmet sorumlusuna başvurmaya veya hizmet sorumlusu nesne kimliğinde değişiklik yapmaya yöneliktir. Örneğin, çalışma alanına yönetici olarak bir hizmet sorumlusu uygulamak olabilir.
 
@@ -270,7 +270,7 @@ Kâr amacı gütmeyen ve eğitim kuruluşları için özel Azure fiyatlandırmas
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonu nedir?
 
-**Power BI Çalışma Alanı Koleksiyonu** (**Power BI Embedded** Sürüm 1), **Power BI Çalışma Alanı Koleksiyonu** Azure kaynağını temel alan bir çözümdür. Bu çözüm, **Power BI Çalışma Alanı Koleksiyonu** çözümü altındaki Power BI içeriğini, özel API’leri ve Power BI’da uygulama kimliğini doğrulamak amacıyla çalışma alanı koleksiyonu anahtarlarını kullanarak müşterileriniz için **Power BI Embedded** uygulamaları oluşturmanıza olanak tanır.
+**Power BI Çalışma Alanı Koleksiyonu** ( **Power BI Embedded** Sürüm 1), **Power BI Çalışma Alanı Koleksiyonu** Azure kaynağını temel alan bir çözümdür. Bu çözüm, **Power BI Çalışma Alanı Koleksiyonu** çözümü altındaki Power BI içeriğini, özel API’leri ve Power BI’da uygulama kimliğini doğrulamak amacıyla çalışma alanı koleksiyonu anahtarlarını kullanarak müşterileriniz için **Power BI Embedded** uygulamaları oluşturmanıza olanak tanır.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonundan Power BI Embedded’e geçiş yapabilir miyim?
 
@@ -278,10 +278,10 @@ Kâr amacı gütmeyen ve eğitim kuruluşları için özel Azure fiyatlandırmas
 
 2. İlk olarak, Power BI içeriği kullanan **Power BI Embedded** uygulama POC’si ile başlayın.
 
-3. Üretime hazır olduğunuzda **Power BI Embedded** ayrılmış kapasitesi satın alın ve Power BI içeriğinizi (çalışma alanı) bu kapasiteye atayın.
+3. Üretime hazır olduğunuzda **Power BI Embedded** kapasitesi satın alın ve Power BI içeriğinizi (çalışma alanı) bu kapasiteye atayın.
 
     > [!Note]
-    > Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu**’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
+    > Bir **Power BI Embedded** çözümü ile paralel olarak derleme yaparken **Power BI Çalışma Alanı Koleksiyonu** ’nu kullanmaya devam edebilirsiniz. Hazır olduğunuzda, müşterinizi yeni **Power BI Embedded** çözümüne geçirebilir ve **Power BI Çalışma Alanı Koleksiyonu** çözümünü kullanımdan kaldırabilirsiniz.
 
 Daha fazla bilgi için lütfen [Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded'e geçirme](./migrate-from-powerbi-embedded.md) bölümüne başvurun.
 

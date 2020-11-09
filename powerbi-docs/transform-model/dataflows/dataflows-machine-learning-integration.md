@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aca67da12bd1a80337a269c779691401161a4e83
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638542"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917039"
 ---
 # <a name="ai-with-dataflows"></a>Veri akışları ve yapay zeka
 
@@ -50,7 +50,7 @@ Açılan pencerede kullanmak istediğiniz işlevi ve dönüştürmek istediğini
 
 ![İşlev seçme](media/service-cognitive-services/cognitive-services-04.png)
 
-**Cultureinfo**, metnin dilini belirtmeye yönelik isteğe bağlı bir giriştir. Bu alanda bir ISO kodu beklenir. Cultureinfo için giriş olarak bir sütunu veya statik bir alanı kullanabilirsiniz. Bu örnekte tüm sütun için dil olarak İngilizce (en) belirtilmiştir. Bu alanı boş bırakırsanız, Power BI işlevi uygulamadan önce dili otomatik olarak algılar. Ardından **Çağır**'ı seçin.
+**Cultureinfo** , metnin dilini belirtmeye yönelik isteğe bağlı bir giriştir. Bu alanda bir ISO kodu beklenir. Cultureinfo için giriş olarak bir sütunu veya statik bir alanı kullanabilirsiniz. Bu örnekte tüm sütun için dil olarak İngilizce (en) belirtilmiştir. Bu alanı boş bırakırsanız, Power BI işlevi uygulamadan önce dili otomatik olarak algılar. Ardından **Çağır** 'ı seçin.
 
 ![Çağır'ı seçin](media/service-cognitive-services/cognitive-services-05.png)
 
@@ -112,7 +112,7 @@ Veri akışları, büyük veriler için self servis veri hazırlığı sunar. Au
 
 Power BI’da AutoML, veri analistlerinin Power BI becerilerini kullanarak basitleştirilmiş bir deneyimle makine öğrenmesi modelleri oluşturmak için veri akışlarını kullanmasına olanak tanır. ML modellerinin oluşturulmasının altında yatan veri biliminin büyük bölümü Power BI ile otomatikleştirilir. AutoML, oluşturulan modelin kaliteli olduğundan ve ML modelinizi oluşturmak için kullanılan işlemin görünürlüğünü sağladığından emin olmaya yönelik korumalara sahiptir.
 
-AutoML, veri akışları için **İkili Tahmin**, **Sınıflandırma** ve **Regresyon Modelleri**’nin oluşturulmasını destekler. Bunlar, denetimli makine öğrenmesi tekniklerinin türleridir. Diğer bir deyişle, diğer gözlemlerin sonuçlarını tahmin etmek için geçmiş gözlemlerin bilinen sonuçlarını öğrenirler. Bir AutoML modelinin eğitimine yönelik giriş veri kümesi, bilinen sonuçlarla **etiketlenmiş** bir kayıt kümesidir.
+AutoML, veri akışları için **İkili Tahmin** , **Sınıflandırma** ve **Regresyon Modelleri** ’nin oluşturulmasını destekler. Bunlar, denetimli makine öğrenmesi tekniklerinin türleridir. Diğer bir deyişle, diğer gözlemlerin sonuçlarını tahmin etmek için geçmiş gözlemlerin bilinen sonuçlarını öğrenirler. Bir AutoML modelinin eğitimine yönelik giriş veri kümesi, bilinen sonuçlarla **etiketlenmiş** bir kayıt kümesidir.
 
 Power BI’da AutoML, modellerinizi oluşturmak için [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)'in [otomatik ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) özelliğini tümleştirir. Ancak, Power BI’da AutoML kullanmak için bir Azure aboneliğinizin olması gerekmez. ML modellerini eğitme ve barındırma işlemi tamamen Power BI hizmeti tarafından yönetilir.
 
@@ -182,7 +182,7 @@ Ardından, örnekleme ve normalleştirme gereken şekilde verilerinize uygulanı
 
 AutoML, veri türüne ve istatistiksel özelliklerine göre her bir seçili giriş alanına birkaç dönüşüm uygular. AutoML, ML modelinizi eğitirken kullanılacak özellikleri eğitmek için bu dönüşümleri kullanır.
 
-AutoML modellerinin eğitim süreci, en iyi performansa sahip modeli bulmak için farklı modelleme algoritmalarına ve hiper parametre ayarlarına sahip 50'ye kadar yinelemeden oluşur. AutoML gözlemlenen bir performans iyileşmesi olmadığını fark ederse eğitim daha az yinelemeyle sona erebilir. Bu modellerin her birinin performansı, gizleme testi veri kümesiyle doğrulama yapılarak değerlendirilir. Bu eğitim adımı sırasında AutoML, bu yinelemelerin eğitimi ve doğrulanması için birkaç işlem hattı oluşturur. Veri kümenizin boyutuna ve kullanılabilir ayrılmış kapasite kaynaklarına bağlı olarak, modellerin performansını değerlendirme işlemi sihirbazda yapılandırılmış eğitim süresine kadar birkaç dakika ile birkaç saat arasında sürebilir.
+AutoML modellerinin eğitim süreci, en iyi performansa sahip modeli bulmak için farklı modelleme algoritmalarına ve hiper parametre ayarlarına sahip 50'ye kadar yinelemeden oluşur. AutoML gözlemlenen bir performans iyileşmesi olmadığını fark ederse eğitim daha az yinelemeyle sona erebilir. Bu modellerin her birinin performansı, gizleme testi veri kümesiyle doğrulama yapılarak değerlendirilir. Bu eğitim adımı sırasında AutoML, bu yinelemelerin eğitimi ve doğrulanması için birkaç işlem hattı oluşturur. Veri kümenizin boyutuna ve kullanılabilir kapasite kaynaklarına bağlı olarak, modellerin performansını değerlendirme işlemi sihirbazda yapılandırılmış eğitim süresine kadar birkaç dakika ile birkaç saat arasında sürebilir.
 
 Bazı durumlarda, oluşturulan son model daha iyi tahmine dayalı performans sağlamak için birden çok modelin kullanıldığı grup öğrenmesini kullanabilir.
 
@@ -220,11 +220,11 @@ Oluşturulan ML modelinin performansından memnunsanız, veri akışınız yenil
 
 ML modelini uygulamak için, uygulanması gereken varlığın adını ve model çıkışı için bu varlığa eklenecek sütunların ön ekini belirtmeniz gerekir. Sütun adları için varsayılan ön ek, model adıdır. _Uygula_ işlevi, model türüne özgü ek parametreler içerebilir.
 
-ML modelinin uygulanması, çıkış varlığında puan veren her bir satır için tahminler ve kişiselleştirilmiş açıklamalar içeren iki yeni veri akışı varlığı oluşturur. Örneğin, _PurchaseIntent_ modelini _OnlineShoppers_ varlığına uygularsanız, çıkış **OnlineShoppers zenginleştirilmiş PurchaseIntent** ve **OnlineShoppers zenginleştirilmiş PurchaseIntent açıklamaları** varlıklarını oluşturur. Zenginleştirilmiş varlıktaki her satır için **Açıklamalar**, giriş özelliğine göre zenginleştirilmiş açıklamalar varlığındaki birden fazla satıra bölünür. **ExplanationIndex**, zenginleştirilmiş açıklamalar varlığındaki satırları zenginleştirilmiş varlıktaki satırla eşlemeye yardımcı olur.
+ML modelinin uygulanması, çıkış varlığında puan veren her bir satır için tahminler ve kişiselleştirilmiş açıklamalar içeren iki yeni veri akışı varlığı oluşturur. Örneğin, _PurchaseIntent_ modelini _OnlineShoppers_ varlığına uygularsanız, çıkış **OnlineShoppers zenginleştirilmiş PurchaseIntent** ve **OnlineShoppers zenginleştirilmiş PurchaseIntent açıklamaları** varlıklarını oluşturur. Zenginleştirilmiş varlıktaki her satır için **Açıklamalar** , giriş özelliğine göre zenginleştirilmiş açıklamalar varlığındaki birden fazla satıra bölünür. **ExplanationIndex** , zenginleştirilmiş açıklamalar varlığındaki satırları zenginleştirilmiş varlıktaki satırla eşlemeye yardımcı olur.
 
 ![Sorgu düzenleyicisi](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
-PQO işlev tarayıcısında Yapay Zeka İçgörülerini kullanarak aynı çalışma alanındaki herhangi bir veri akışında varlıklara Power BI AutoML modelini de uygulayabilirsiniz. Böylece, aynı çalışma alanında başkaları tarafından oluşturulan modelleri, modeli içeren veri akışının sahibi olma zorunluluğu olmadan kullanabilirsiniz. Power Query, çalışma alanındaki tüm Power BI ML modellerini keşfeder ve bunları dinamik Power Query işlevleri olarak kullanıma sunar. Power Query Düzenleyicisi’nin şeridinden bu işlevlere erişerek veya M işlevini doğrudan çağırarak da bunları çağırabilirsiniz.Bu işlevsellik şu anda yalnızca Power BI veri akışlarında ve Power BI hizmetindeki Power Query Online'da desteklenmektedir. Bunun AutoML sihirbazı kullanılarak bir veri akışında ML modellerinin uygulanmasından çok farklı olduğunu unutmayın. Bu yöntem kullanılarak oluşturulan bir açıklamalar varlığı yoktur ve veri akışının sahibi olmadığınız sürece model eğitimi raporlarına erişemezsiniz veya modeli yeniden eğitemezsiniz. Kaynak modeli düzenlenirse (giriş alanları eklenerek veya kaldırılarak) ya da model veya kaynak veri akışı silinirse bu bağımlı veri akışı bozulur.
+PQO işlev tarayıcısında Yapay Zeka İçgörülerini kullanarak aynı çalışma alanındaki herhangi bir veri akışında varlıklara Power BI AutoML modelini de uygulayabilirsiniz. Böylece, aynı çalışma alanında başkaları tarafından oluşturulan modelleri, modeli içeren veri akışının sahibi olma zorunluluğu olmadan kullanabilirsiniz. Power Query, çalışma alanındaki tüm Power BI ML modellerini keşfeder ve bunları dinamik Power Query işlevleri olarak kullanıma sunar.  Power Query Düzenleyicisi’nin şeridinden bu işlevlere erişerek veya M işlevini doğrudan çağırarak da bunları çağırabilirsiniz. Bu işlevsellik şu anda yalnızca Power BI veri akışlarında ve Power BI hizmetindeki Power Query Online'da desteklenmektedir. Bunun AutoML sihirbazı kullanılarak bir veri akışında ML modellerinin uygulanmasından çok farklı olduğunu unutmayın. Bu yöntem kullanılarak oluşturulan bir açıklamalar varlığı yoktur ve veri akışının sahibi olmadığınız sürece model eğitimi raporlarına erişemezsiniz veya modeli yeniden eğitemezsiniz. Kaynak modeli düzenlenirse (giriş alanları eklenerek veya kaldırılarak) ya da model veya kaynak veri akışı silinirse bu bağımlı veri akışı bozulur.
 
 ![PQO İşlev tarayıcısını kullanarak model uygulama](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
 
@@ -272,9 +272,9 @@ Model raporunun **Doğruluk Raporu** sayfasında, _Kümülatif Kazançlar_ grafi
 
 ![Tahmin girişleri](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Bir İkili Tahmin modeli uygulandığında zenginleştirilmiş çıkış varlığına dört çıkış sütunu ekler: **Outcome**, **PredictionScore**, **PredictionExplanation** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
+Bir İkili Tahmin modeli uygulandığında zenginleştirilmiş çıkış varlığına dört çıkış sütunu ekler: **Outcome** , **PredictionScore** , **PredictionExplanation** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
-**PredictionScore**, hedef sonuca ulaşma olasılığını tanımlayan bir olasılık puanıdır.
+**PredictionScore** , hedef sonuca ulaşma olasılığını tanımlayan bir olasılık puanıdır.
 
 **Outcome** sütunu tahmin edilen sonuç etiketini içerir. Eşiği aşma olasılıklarını içeren kayıtların hedef sonuca ulaşma olasılığı yüksek olarak tahmin edilir ve bu kayıtlar True olarak etiketlenir. Eşiğin altındaki kayıtlar, sonuca ulaşma olasılığı düşük olarak tahmin edilir ve False olarak etiketlenir.
 
@@ -314,11 +314,11 @@ Sınıflandırma modeli raporu ayrıca bu makalenin önceki kısımlarında yer 
 
 Bir Sınıflandırma ML modelini uygulamak için, giriş verileri ve çıkış sütunu adı ön ekiyle birlikte varlığı belirtmeniz gerekir.
 
-Bir Sınıflandırma modeli uygulandığında zenginleştirilmiş çıkış varlığına beş çıkış sütunu ekler: **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
+Bir Sınıflandırma modeli uygulandığında zenginleştirilmiş çıkış varlığına beş çıkış sütunu ekler: **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
 **ClassProbabilities** sütunu, her olası sınıfın kaydına ait olasılık puanlarının listesini içerir.
 
-**ClassificationScore**, bir kaydın belirli bir sınıfa yönelik ölçütlere ulaşma olasılığını tanımlayan bir olasılık yüzdesidir.
+**ClassificationScore** , bir kaydın belirli bir sınıfa yönelik ölçütlere ulaşma olasılığını tanımlayan bir olasılık yüzdesidir.
 
 **ClassificationResult** sütunu, kayıt için en yüksek olasılıkla tahmin edilen sınıfı içerir.
 
@@ -358,7 +358,7 @@ Bir Regresyon ML modelini uygulamak için, giriş verileri ve çıkış sütunu 
 
 ![Regresyon uygulama](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-Bir Regresyon modeli uygulandığında zenginleştirilmiş çıkış varlığına üç çıkış sütunu ekler: **RegressionResult**, **RegressionExplanation** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
+Bir Regresyon modeli uygulandığında zenginleştirilmiş çıkış varlığına üç çıkış sütunu ekler: **RegressionResult** , **RegressionExplanation** ve **ExplanationIndex**. Model uygulandığında, varlıktaki sütun adları belirtilen ön eki alır.
 
 **RegressionResult** sütunu, giriş alanlarını temel alarak kaydın tahmin edilen değerini gösterir. **RegressionExplanation** sütunu, giriş özelliklerinin **RegressionResult** üzerinde sahip olduğu etki ile birlikte bir açıklama içerir.
 
@@ -403,11 +403,11 @@ Bu makaledeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barındı
 
     [ ![Erişim denetimi IAM](media/service-machine-learning-integration/machine-learning-integration-03.png) ](media/service-machine-learning-integration/machine-learning-integration-03.png#lightbox)
 
-5. Rol olarak **Okuyucu**'yu seçin. Azure ML modeline erişim vermek istediğiniz Power BI kullanıcısını seçin.
+5. Rol olarak **Okuyucu** 'yu seçin. Azure ML modeline erişim vermek istediğiniz Power BI kullanıcısını seçin.
 
     [ ![Rol olarak Okuyucu'yu seçme](media/service-machine-learning-integration/machine-learning-integration-04.png) ](media/service-machine-learning-integration/machine-learning-integration-04.png#lightbox)
 
-6. **Kaydet**'i seçin.
+6. **Kaydet** 'i seçin.
 
 7. Kullanıcıya belirli bir Machine Learning Studio (klasik) web hizmeti *veya* modeli barındıran Machine Learning çalışma alanı üzerinde **Okuma** erişimi vermek için üç ile altı arasındaki adımları yineleyin.
 
@@ -440,7 +440,7 @@ Azure ML modelini çağırmak için, açılan listeden seçilen tüm varlık sü
 
 [ ![sütun seçme](media/service-machine-learning-integration/machine-learning-integration-07.png) ](media/service-machine-learning-integration/machine-learning-integration-07.png#lightbox)
 
-Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Çağır**'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
+Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Çağır** 'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
 
 [ ![Çağır'ı seçme](media/service-machine-learning-integration/machine-learning-integration-08.png) ](media/service-machine-learning-integration/machine-learning-integration-08.png#lightbox)
 

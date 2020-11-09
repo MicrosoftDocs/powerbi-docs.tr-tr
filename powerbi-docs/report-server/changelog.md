@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859256"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044771"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -21,6 +21,26 @@ Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğeler
 
 Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’ndaki yenilikler](whats-new.md). 
 
+## <a name="october-2020"></a>Ekim 2020
+- **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.9.7604.41261 (Derleme 15.0.1104.239), Yayın Tarihi: 27 Ekim 2020*
+         - Özellikler
+            - Power BI Rapor Sunucusu’ndaki gelişmiş veri kümesi meta verilerine yönelik destek kullanıma sunuldu.
+            - DirectQuery ve yenilemeye yönelik Power BI raporlarının bağlantılarını güncelleştirme özelliği eklendi. (Diğer bilgiler için bkz. [Veri kaynağı bağlantı dizelerini değiştirme](./connect-data-source-apis.md).)
+        - Güvenlik güncelleştirmeleri
+        - Hata düzeltmeleri
+            - Kullanıcıların Power BI rapor yenileme zamanlamalarını değiştirmelerini engelleyen bir sorun düzeltildi.
+            - Kimlik bilgilerinin süresi dolduğunda, kullanıcıların raporları yönetirken aldıkları kafa karıştırıcı hata iletileri düzeltildi.
+            - Adında nokta bulunan raporların dışarı aktarılmasıyla ilgili bir sorun düzeltildi.
+            - Tablix’teki ekran okuyucusu sorunları düzeltildi.
+            - Günlük dosyalarının bazı durumlarda boş olmasıyla ilgili bir sorun düzeltildi.
+            - “Power BI’a bağlan” iletişim kutusuyla ilgili bir sorun düzeltildi
+            - MHTML işleyicisi, daha yeni HTML DOCTYPE’ı kullanacak şekilde güncelleştirildi
+
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+   - *Sürüm: 2.86.961.0 (Ekim 2020), Yayın Tarihi: 27 Ekim 2020* (yeni derleme ve yeni sürüm)
+        - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Ekim 2020)        
+   
 ## <a name="may-2020"></a>Mayıs 2020
 - **Power BI Rapor Sunucusu**
     - *Sürüm: 1.8.7485.35104 (Derleme 15.0.1103.234), Yayın Tarihi: 30 Haziran 2020*
@@ -103,7 +123,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
     - *Sürüm: 1.6.7221.30698 (Derleme 15.0.1102.620), Yayınlanma Tarihi: 9 Ekim 2019*
         - Hata düzeltmeleri
             - Metin Filtresi özel görseli için düzeltme.
-            - Açılır liste dilimleyicilerinin performansı için düzeltme.
+            - Açılır liste dilimleyicilerinin performansıyla ilgili bir sorun düzeltildi.
             - Telemetriden Şerit PII için düzeltme.
           - URL’lerin büyük/küçük harfe duyarlı olmaması için düzeltme.
           
@@ -225,7 +245,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 - **Power BI Rapor Sunucusu**
     - *Sürüm 1.3.6816.37243 (Derleme 15.0.2.557), Yayın Tarihi: 30 Ağustos 2018*
         - Hata düzeltmeleri
-            - Sunucu önceki Power BI Rapor Sunucusu sürümlerinden yükseltildiğinde bir bağlama yeniden yönlendirmesi güncelleştirilmediğinde müşterinin şu hatayla karşılaşmasına neden olan sorun düzeltildi:      
+            - Sunucu, bağlama yeniden yönlendirmesinin güncelleştirilmediği önceki Power BI Rapor Sunucusu sürümlerinden yükseltildiğinde müşterinin şu hata iletisiyle karşılaşmasına neden olan sorun düzeltildi:      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -279,7 +299,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
             - Sayfalandırılmış Raporlar (RDL) için, özellikleri düzenlendikten sonra geri alınan bağlantılı bir rapordaki parametrelerin görünürlüğü için düzeltme
             - Kayan zaman aşımı tanımlama bilgisini yoksayan özel form kimlik doğrulaması içeren web portalı için düzeltme
             - Satır içeriği boş olduğunda eşit olmayan satır yüksekliği oluşturan Word’e dışarı aktarma için düzeltme
-            - Sayfalandırılmış Raporlar (RDL) için, veri kaynağının kimlik bilgilerini değiştirdiğimizde silinen ifadeye dayalı bağlantı dizesi için düzeltme
+            - Sayfalandırılmış Raporlar (RDL) için, veri kaynağının kimlik bilgilerini değiştirdiğimizde silinen ifadeye dayalı bağlantı dizesiyle ilgili bir sorun düzeltildi
             - Metin değerleri ile KPI kullanma yeteneği için düzeltme
             - Sayfalandırılmış Raporlar (RDL) için, mevcut bir Sayfalandırılmış Rapora (RDL) yeni veri kümesi atama yeteneği için düzeltme
             - Diğer kararlılık ve kullanılabilirlik düzeltmeleri
@@ -311,8 +331,8 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
     - *Sürüm 1.1.6514.9163 (Derleme 14.0.600.434), Yayın Tarihi: 1 Kasım 2017*
         - Hata Düzeltmeleri
-            - Boyutu 500 MB'ı aşan PBIX raporlarına ilişkin karşıya yükleme güvenilirliği sorunlarına yönelik düzeltme
-            - Boyutu 1 GB'ı aşan PBIX raporlarına ilişkin yükleme sorununa yönelik düzeltme
+            - Boyutu 500 MB'ı aşan PBIX raporlarına ilişkin karşıya yükleme güvenilirliği sorunları düzeltildi
+            - Boyutu 1 GB’ı aşan PBIX raporlarına ilişkin yükleme sorunları düzeltildi
 
     - *Sürüm 1.1.6513.3500 (Derleme 14.0.600.433), Yayın Tarihi: 31 Ekim 2017*
         - Özellikler

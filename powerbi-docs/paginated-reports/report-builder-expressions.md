@@ -8,17 +8,20 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921137"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298173"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki ifadeler
-  İfadeler Power BI Report Builder sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır. 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+İfadeler Power BI Report Builder sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır. 
   
-  Birçok rapor öğesi özelliği ifadeye ayarlanabilir. İfadeler raporunuzun içeriğini, tasarımını ve etkileşimini denetlemenize yardımcı olur. İfadeler Microsoft Visual Basic'te yazılır, rapor tanımına kaydedilir ve raporu çalıştırdığınızda rapor işlemcisi tarafından işlenir.  
+Birçok rapor öğesi özelliği ifadeye ayarlanabilir. İfadeler raporunuzun içeriğini, tasarımını ve etkileşimini denetlemenize yardımcı olur. İfadeler Microsoft Visual Basic'te yazılır, rapor tanımına kaydedilir ve raporu çalıştırdığınızda rapor işlemcisi tarafından işlenir.  
   
  Doğrudan çalışma sayfalarında verilerle çalıştığınız Microsoft Office Excel gibi uygulamalardan farklı olarak, raporda verilerin yer tutucuları olan ifadelerle çalışırsınız. Hesaplanan ifadelerden gerçek verileri görmek için raporun önizlemesine bakmalısınız. Raporu çalıştırdığınızda rapor işlemcisi tablolar ve grafikler gibi rapor verilerini ve rapor düzeni öğelerini birleştirirken her ifadeyi hesaplar.  
   
@@ -28,14 +31,14 @@ ms.locfileid: "78921137"
   
  Raporun önizlemesini görüntülerken rapor işlemcisi tablo veri bölgesini veri bağlantısından gelen gerçek verilerle birleştirir ve sonuç kümesindeki her satır için tabloda bir satır görüntüler.  
   
- İfadeleri el ile girmek için tasarım yüzeyinde bir öğe seçin, sonra kısayol menülerini ve iletişim kutularını kullanarak öğenin özelliklerini ayarlayın. ***(fx)*** düğmesini veya açılan listede `<Expression>` değerini gördüğünüzde, ifade için özellik ayarlayabileceğinizi anlarsınız. 
+ İfadeleri el ile girmek için tasarım yüzeyinde bir öğe seçin, sonra kısayol menülerini ve iletişim kutularını kullanarak öğenin özelliklerini ayarlayın. * **(fx)** _ düğmesini veya açılan listede `<Expression>` değerini gördüğünüzde, ifade için özellik ayarlayabileceğinizi anlarsınız. 
   
 ##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Basit ve karmaşık ifadeleri anlama  
  İfadeler eşittir işaretiyle (=) başlar ve Microsoft Visual Basic'te yazılır. İfadelerde sabitlerin, işleçlerin, yerleşik değerlere (alanlar, koleksiyonlar ve işlevler) ve dış veya özel kodlara başvuruların bir bileşimi bulunabilir.  
   
  İfadeleri kullanarak birçok rapor öğesi özelliğinin değerini ayarlayabilirsiniz. En yaygın özellikler metin kutularının ve yer tutucu metinlerin değerleridir. Genellikle, metin kutusu tek bir ifade içeriyorsa bu ifade metin kutusu özelliğinin değeridir. Metin kutusu birden çok ifade içeriyorsa, her ifade metin kutusundaki yer tutucu metnin değeridir.  
   
- Varsayılan olarak ifadeler rapor tasarım yüzeyinde *basit* veya *karmaşık ifadeler* olarak gösterilir.  
+ Varsayılan olarak ifadeler rapor tasarım yüzeyinde _basit* veya *karmaşık ifadeler* olarak gösterilir.  
   
 -   **Basit** Basit ifade yerleşik koleksiyondaki tek bir öğeye, örneğin veri kümesi alanına, parametreye veya yerleşik alana başvuru içerir. Tasarım yüzeyinde basit ifade köşeli ayraç içinde gösterilir. Örneğin `[FieldName]` temel `=Fields!FieldName.Value` ifadesine karşılık gelir. Siz rapor düzenini oluştururken ve öğeleri Rapor Verileri bölmesinden tasarım yüzeyine sürüklerken basit ifadeler sizin için otomatik olarak oluşturulur. Farklı yerleşik koleksiyonları temsil eden semboller hakkında daha fazla bilgi için bkz. [Basit İfadeler için Ön Ek Sembollerini Anlama](#DisplayText).  
   
@@ -75,7 +78,7 @@ Basit ifadelerde başvurunun bir alan, parametre, yerleşik koleksiyon veya Repo
 |Rapor Oluşturucusu'ndaki İfadelerde Özel Kod ve Derleme Başvuruları |Bir dış derlemeden yerleşik `xref:System.Math` ve `xref:System.Convert` CLR sınıflarına, diğer CLR sınıflarına, Visual Basic çalışma zamanı kitaplık işlevlerine veya yöntemlere nasıl erişebileceğinizi açıklar.<br /><br /> Raporunuza eklenmiş olan veya derleyip hem rapor istemcisine hem de rapor sunucusuna özel derleme olarak yüklediğiniz özel koda nasıl erişebileceğinizi açıklar.|`=Sum(Fields!Sales.Value)`<br /><br /> `=CDate(Fields!SalesDate.Value)`<br /><br /> `=DateAdd("d",3,Fields!BirthDate.Value)`<br /><br /> `=Code.ToUSD(Fields!StandardCost.Value)`|  
    
 ##  <a name="validating-expressions"></a><a name="Valid"></a> Doğrulama ifadeleri  
- Belirli bir rapor öğesi özelliği için ifade oluştururken, ifadeye ekleyebileceğiniz başvurular rapor öğesi özelliğinin kabul edebileceği değerlere ve özelliğin değerlendirildiği kapsama bağlıdır. Örnek:  
+ Belirli bir rapor öğesi özelliği için ifade oluştururken, ifadeye ekleyebileceğiniz başvurular rapor öğesi özelliğinin kabul edebileceği değerlere ve özelliğin değerlendirildiği kapsama bağlıdır. Örneğin:  
   
 -   Varsayılan olarak, [Sum] ifadesi ifadenin değerlendirildiği sırada kapsam içinde kalan verilerin toplamını hesaplar. Tablo hücresi için kapsam, satır ve sütun grubu üyeliklerine bağlıdır. 
   

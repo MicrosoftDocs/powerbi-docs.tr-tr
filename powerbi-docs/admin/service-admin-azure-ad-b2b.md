@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857623"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916188"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -54,9 +54,9 @@ Hangi kullanıcıları davet edeceğinizi biliyorsanız planlı davetleri kullan
 
 Azure portalda davet göndermek için aşağıdaki adımları izleyin.
 
-1. [Azure portalda](https://portal.azure.com)**Azure Active Directory**'yi seçin.
+1. [Azure portalda](https://portal.azure.com)**Azure Active Directory** 'yi seçin.
 
-1. **Yönet** bölümünde **Kullanıcılar** > **Tüm kullanıcılar** > **Yeni konuk kullanıcı**'yı seçin.
+1. **Yönet** bölümünde **Kullanıcılar** > **Tüm kullanıcılar** > **Yeni konuk kullanıcı** 'yı seçin.
 
     ![Yeni konuk kullanıcı seçeneği gösterilen Azure portalının ekran görüntüsü.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
@@ -92,7 +92,7 @@ Paylaştığınız içeriği görüntüleyebilmesi için konuk kullanıcının d
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium kullanma
 
-Çalışma alanının [Power BI Premium kapasitesine](service-premium-what-is.md) atanması, konuk kullanıcının uygulamayı bir Power BI Pro lisansına ihtiyaç duymadan kullanabilmesine olanak sağlar. Power BI Premium uygulamaların artırılmış yenileme sıklığı, ayrılmış kapasite ve büyük model boyutları gibi başka özelliklerden de yararlanmasına izin verir.
+Çalışma alanının [Power BI Premium kapasitesine](service-premium-what-is.md) atanması, konuk kullanıcının uygulamayı bir Power BI Pro lisansına ihtiyaç duymadan kullanabilmesine olanak sağlar. Power BI Premium uygulamaların artırılmış yenileme sıklığı ve büyük model boyutları gibi başka özelliklerden de yararlanmasına olanak sağlar.
 
 ![Power BI Premium ile konuk kullanıcı deneyiminin diyagramı.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -114,7 +114,7 @@ Konuk kullanıcının, kendi kuruluşları aracılığıyla zaten onlara atanmı
 
 İzin verilen konukların Power BI'da oturum açmalarına yardımcı olmak için onlara Kiracı URL'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
-1. Power BI hizmetinde üst bilgi menüsünden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında**’yı seçin.
+1. Power BI hizmetinde üst bilgi menüsünden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında** ’yı seçin.
 
 2. **Kiracı URL'si** öğesinin yanındaki değere bakın. Kiracı URL'nizi izin verilen konuk kullanıcılarınızla paylaşın.
 

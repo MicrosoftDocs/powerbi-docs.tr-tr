@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861211"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045066"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
 Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’nda yayımlandığında desteklenmeyen bazı veri kaynakları bulunur.
@@ -190,20 +190,22 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için model yenilem
 
 **Teradata ile LDAP kimlik doğrulamasını kullanma (Power BI Desktop’ta Komut İstemi komutu 'setx PBI_EnableTeradataLdap true' kullanılarak etkinleştirilir) model yenileme için desteklenmez.
 
+Power BI Rapor Sunucusu, web’deki verileri kullanırken bir sınırlamaya sahiptir: Yalnızca web’den alınan veri dosyaları yenilenebilir. Sayfayı veya Örneği temel alan veriler yenilenemez. Bu sınırlamanın nedeni, Web.BrowserContents ve Web.Page ile oluşturulan M ifadelerinin yenilenememesidir. Power BI Rapor Sunucusu yalnızca Web.Contents veri kaynaklarını yenileyebilir.
+
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery için desteklenen kimlik doğrulama yöntemleri listesi
 
 Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery’yi desteklemez.
 
 | **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** | **Tümleşik Windows Kimlik Doğrulaması** |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server Veritabanı |Hayır |Hayır |Yes |Evet |Evet |
-| SQL Server Analysis Services |Hayır |Hayır |Yes |Evet |Evet |
-| Azure SQL Veritabanı |Hayır |Hayır |Yes |Hayır |Hayır |
-| Azure SQL Veri Ambarı |Hayır |Hayır |Yes |Hayır |Hayır |
-| Oracle Veritabanı |Hayır |Hayır |Yes |Evet |Evet |
-| SAP Business Warehouse sunucusu |Hayır |Hayır |Yes |Hayır |Hayır |
-| SAP HANA Veritabanı |Hayır |Hayır |Yes |Evet |Evet** |
-| Teradata |Hayır |Hayır |Yes |Evet |Evet |
+| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |Yes |
+| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |Yes |
+| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
+| Oracle Veritabanı |Hayır |Hayır |Evet |Evet |Yes |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Evet** |
+| Teradata |Hayır |Hayır |Evet |Evet |Evet |
 
 **SAP HANA Tümleşik Windows Kimlik Doğrulaması ile DirectQuery'yi yalnızca bunu yayımlanmış Power BI Desktop dosyasında (.pbix) ilişkisel veritabanı olarak kullandığında destekler.
 

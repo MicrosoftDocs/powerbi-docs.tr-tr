@@ -1,24 +1,24 @@
 ---
 title: Power BI'da klasik çalışma alanları oluşturma
-description: Kuruluşunuza ana ölçümler sunmayı amaçlayan çalışma alanları, pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturmayı öğrenin.
+description: Kuruluşunuza ana ölçümler sunmayı amaçlayan klasik çalışma alanları, pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturmayı öğrenin.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44d4c24edbb6ebece8b07ed9fb99261f7f1f0408
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226532"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132402"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
-Power BI'da, çalışma arkadaşlarınızla işbirliği yaparak pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturabildiğiniz ve bunları geliştirebildiğiniz bir yer olarak *çalışma alanları* oluşturabilirsiniz. Sonra, koleksiyonu *uygulamaların* içinde birlikte paketler ve kuruluşunuzun tamamına veya belirli kişi veya gruplara dağıtabilirsiniz. 
+Power BI'da, çalışma arkadaşlarınızla işbirliği yaparak pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturabildiğiniz ve bunları geliştirebildiğiniz bir yer olarak *çalışma alanları* oluşturabilirsiniz. Power BI’da özgün veya *klasik* çalışma alanları ve yeni çalışma alanları olmak üzere iki farklı türde çalışma alanı bulunur. Bu makale, klasik çalışma alanı oluşturma hakkındadır.
 
 **Biliyor muydunuz?** Power BI, artık varsayılan olan yeni bir çalışma alanı deneyimi sunmaktadır. Yeni çalışma alanlarıyla ilgili ayrıntılar için [Yeni çalışma alanlarında çalışmayı düzenleme](service-new-workspaces.md) konusunu okuyun. Klasik çalışma alanınızı geçirmeye hazır mısınız? Ayrıntılar için bkz. [Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme](service-upgrade-workspaces.md).
 
@@ -38,7 +38,7 @@ Bir çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Microsoft 365
 ### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 çalışma alanınıza görüntü ekleme (isteğe bağlı)
 Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini içeren küçük ve renkli bir daire oluşturur. Ancak, bunu bir görüntüyle özelleştirmek isteyebilirsiniz. Bir görüntü eklemek için Exchange Online lisansı gerekir.
 
-1. **Çalışma Alanları**'nı, çalışma alanı adının yanındaki **Diğer seçenekler**'i (...), sonra da **Üyeler**’i seçin. 
+1. **Çalışma Alanları** 'nı, çalışma alanı adının yanındaki **Diğer seçenekler** 'i (...), sonra da **Üyeler** ’i seçin. 
    
      ![Çalışma Alanı Üyelerini seçme](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
@@ -52,7 +52,7 @@ Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini iç
 
      Görüntüler .png, .jpg veya .bmp dosyaları olabilir. Dosya boyutu 3 MB'a varan büyüklükte olabilir. 
 
-4. **Tamam**'ı, sonra da **Kaydet**'i seçin.
+4. **Tamam** 'ı, sonra da **Kaydet** 'i seçin.
    
     Görüntü, Microsoft 365 Outlook penceresindeki renkli dairenin yerine geçer.
    

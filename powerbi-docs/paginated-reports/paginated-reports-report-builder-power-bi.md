@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859670"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297769"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium’da sayfalandırılmış raporlar nelerdir?
 
-*Sayfalandırılmış raporlar*, yazdırılmak veya paylaşılmak üzere tasarlanmıştır. *Sayfalandırılmış* olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğinizden, bunlar *piksel düzeyinde hassas* olarak da anılırlar. Power BI Report Builder, sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. Sayfalandırılmış raporlar, SQL Server Reporting Services’ta uzun süredir standart rapor biçimi olan RDL rapor teknolojisini temel alır. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*Sayfalandırılmış raporlar* , yazdırılmak veya paylaşılmak üzere tasarlanmıştır. *Sayfalandırılmış* olarak adlandırılmalarının nedeni, bir sayfaya düzgün yerleştirilecek şekilde biçimlendirilmiş olmalarıdır. Tablo birden fazla sayfaya yayılsa bile tüm verileri bir tabloda gösterirler. Rapor sayfası düzenini tam olarak denetleyebileceğinizden, bunlar *piksel düzeyinde hassas* olarak da anılırlar. Power BI Report Builder, Power BI hizmeti için sayfalandırılmış raporlar yazmaya yarayan bağımsız bir araçtır. 
+
+Kullanmaya başlamaya hazırsanız aşağıdaki hızlı bağlantılardan yararlanabilirsiniz:
+
+- [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://aka.ms/pbireportbuilder)
+- [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
+- [Örnek Power BI sayfalandırılmış raporları](paginated-reports-samples.md)
+- Power BI Rapor Sunucusu için Rapor Oluşturucusu veya SQL Server Reporting Services hakkında daha fazla bilgiye mi ihtiyacınız var? Bkz. [Rapor Oluşturucusu’nu yükleme - Power BI Rapor Sunucusu](../report-server/install-report-builder.md).
 
 Sayfalandırılmış raporlar genellikle çok sayıda sayfadan oluşur. Örneğin bu raporun 563 sayfası vardır. Her biri tam olarak her fatura için bir sayfa olacak ve üst bilgiler ile alt bilgiler tekrarlanacak şekilde düzenlenmiştir.
 
@@ -98,5 +107,6 @@ Ayrıntılar için [Kendinizi ve başkalarını Power BI hizmetinde sayfalandır
 - [Power BI Rapor Oluşturucusu'nu Microsoft İndirme Merkezi'nden yükleme](https://aka.ms/pbireportbuilder)
 - [Öğretici: Sayfalandırılmış rapor oluşturma](paginated-reports-quickstart-aw.md)
 - [Çevrimiçi kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları](../learning-catalog/paginated-reports-online-course.md)
+- [Örnek Power BI sayfalandırılmış raporları](paginated-reports-samples.md)
 - [Verileri doğrudan sayfalandırılmış bir rapora girme](paginated-reports-enter-data.md)
 - [Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme](../developer/embedded/embed-paginated-reports-customers.md)
