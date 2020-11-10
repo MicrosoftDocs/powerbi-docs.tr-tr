@@ -21,7 +21,7 @@
             - name: Power Query arka plan yenilemesini devre dışı bırakma
               href: power-query-background-refresh.md
             - name: Veri akışları için en iyi uygulamalar
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: Veri modelleme
           items:
             - name: Yıldız şeması nedir?

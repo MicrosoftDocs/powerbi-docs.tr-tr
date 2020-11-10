@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d8d30cc860146e904c788dcd374d580d5a3fcf0b
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.openlocfilehash: be6af98722f53079cb23d4ef031dc2e162fb9b84
+  ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83279124"
+  ms.lasthandoff: 11/10/2020
+  ms.locfileid: "94396944"
 landingContent:
 - title: Verileri dönüştürme ve şekillendirme
   linkLists:
@@ -76,6 +76,6 @@ landingContent:
   - linkListType: concept
     links:
     - text: 'Veri akışları: Self servis veri hazırlığı'
-      url: service-dataflows-overview.md
+      url: ./dataflows/dataflows-introduction-self-service.md
     - text: Veri akışları oluşturma ve kullanma
-      url: service-dataflows-create-use.md
+      url: ./dataflows/dataflows-create.md
