@@ -1,8 +1,8 @@
 ---
 title: Power BI'da radyal ölçer grafikleri
 description: Power BI'da radyal ölçer grafikleri
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354904"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412338"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI'da radyal ölçer grafikleri
 
@@ -23,7 +23,7 @@ ms.locfileid: "85354904"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe veya Ana Performans Göstergesi’ne (KPI) yönelik ilerlemeyi ölçen tek bir değeri gösterir. Satır veya (*iğne*) hedeflenen veya amaçlanan değeri temsil eder. Gölgelendirme, hedefe yönelik ilerlemeyi temsil eder. Yayın içindeki değer ilerleme değerini temsil eder. Power BI, olası tüm değerleri minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağıtır.
+Radyal ölçerler dairesel bir yay içerir ve belirli bir hedefe veya Ana Performans Göstergesi’ne (KPI) yönelik ilerlemeyi ölçen tek bir değeri gösterir. Satır veya ( *iğne* ) hedeflenen veya amaçlanan değeri temsil eder. Gölgelendirme, hedefe yönelik ilerlemeyi temsil eder. Yayın içindeki değer ilerleme değerini temsil eder. Power BI, olası tüm değerleri minimumdan (en soldaki değer) başlayıp maksimumda (en sağdaki değer) sonlanacak şekilde yay boyunca eşit olarak dağıtır.
 
 ![Radyal ölçer ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -48,15 +48,15 @@ Radial ölçerler şunlar için harika bir seçimdir:
 
 Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılır.
 
-1. Menü çubuğunun sol üst kısmından **Veri Al** > **Excel**’i seçin
+1. Menü çubuğunun sol üst kısmından **Veri Al** > **Excel** ’i seçin
    
 2. **Financial sample Excel dosyası** kopyanızı bulun
 
-1. **Financial sample Excel dosyası**’nı rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
+1. **Financial sample Excel dosyası** ’nı rapor görünümünde ![Rapor görünümü simgesinin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-report-view.png) açın.
 
-1. **Mali** ve **Sayfa1**’i seçin
+1. **Mali** ve **Sayfa1** ’i seçin
 
-1. **Yükle**’ye tıklayın
+1. **Yükle** ’ye tıklayın
 
 1. Seç ![Sarı sekmenin ekran görüntüsü.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) yeni bir sayfa ekleyin.
 
@@ -83,11 +83,11 @@ Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com
     **Financial Sample** dosyasını ne zaman indirdiğinize bağlı olarak, bu sayılarla eşleşmeyen sayılar görebilirsiniz.
 
     > [!TIP]
-    > Varsayılan olarak, Power BI, geçerli değerin (bu örnekte, **Ortalama Gross Sales**) ölçerin ortasındaki değer olduğunun varsayıldığı bir ölçer grafiği oluşturur. **Ortalama Brüt Satış** değeri 182.760 ABD doları olduğundan, başlangıç değeri (Minimum) 0 olarak, bitiş değeri ise (Maksimum) geçerli değerin iki katı olarak ayarlanır.
+    > Varsayılan olarak, Power BI, geçerli değerin (bu örnekte, **Ortalama Gross Sales** ) ölçerin ortasındaki değer olduğunun varsayıldığı bir ölçer grafiği oluşturur. **Ortalama Brüt Satış** değeri 182.760 ABD doları olduğundan, başlangıç değeri (Minimum) 0 olarak, bitiş değeri ise (Maksimum) geçerli değerin iki katı olarak ayarlanır.
 
 ### <a name="step-3-set-a-target-value"></a>3\. Adım: Hedef değer ayarlama
 
-1. **COGS**’yi **Alanlar** bölmesinden **Hedef değer** kutusuna sürükleyin.
+1. **COGS** ’yi **Alanlar** bölmesinden **Hedef değer** kutusuna sürükleyin.
 
 1. Toplama işlemini **Ortalama** olarak değiştirin.
 
@@ -126,7 +126,7 @@ Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com
 
    ![Boya rulosu simgesi işaretlenmiş olarak Ölçer grafiği ve Format bölmesi ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
 
-1. **Ölçer ekseni**'ni genişletin ve **Minimum** ve **Maksimum** değerleri girin.
+1. **Ölçer ekseni** 'ni genişletin ve **Minimum** ve **Maksimum** değerleri girin.
 
     ![Ölçer ekseni seçenekleri ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 
@@ -134,7 +134,7 @@ Bu öğreticide [Financial Sample Excel dosyası](https://download.microsoft.com
 
     ![Temizlenmiş COGS seçeneği ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. **Ölçer ekseni**'nin altında **Hedef** alanı göründüğünde, buraya bir değer girin.
+1. **Ölçer ekseni** 'nin altında **Hedef** alanı göründüğünde, buraya bir değer girin.
 
      ![Hedef işaretlenmiş olarak Ölçer ekseni seçenekleri ekran görüntüsü.](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 

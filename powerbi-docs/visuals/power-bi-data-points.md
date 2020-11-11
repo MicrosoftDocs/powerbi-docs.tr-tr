@@ -1,7 +1,7 @@
 ---
 title: Büyük veri kümeleri, veri noktası sınırları ve veri stratejileri
 description: Veri azaltma stratejileri ve görseller için veri sınırları
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857738"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412062"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
 
@@ -31,9 +31,9 @@ Her bir görsel, genel veri miktarını etkilemek için bu stratejiler üzerinde
 Her bir strateji için, görselleştirilmekte olan verilerin şekline ve türüne dayalı varsayılanlar vardır. Ancak doğru kullanıcı deneyimini sağlamak için Power BI Biçimlendirme bölmesinde varsayılanlar geçersiz kılınabilir. 
 
 * **Veri Pencereleme** (Segmentlere Ayırma): Kullanıcıların, genel veri kümesi parçalarını aşamalı olarak yükleyerek bir görseldeki verilerde gezinmesine olanak sağlar.
-* **TopN**: Yalnızca ilk N öğeyi gösterir
-* **Basit Örnek**: İlk öğeyi, son öğeyi ve bunlar arasında eşit olarak dağıtılmış N öğeyi gösterir.
-* **BottomN**: Yalnızca son N öğeyi gösterir.  Sık güncelleştirilen verilerin izlenmesi için yararlıdır.
+* **TopN** : Yalnızca ilk N öğeyi gösterir
+* **Basit Örnek** : İlk öğeyi, son öğeyi ve bunlar arasında eşit olarak dağıtılmış N öğeyi gösterir.
+* **BottomN** : Yalnızca son N öğeyi gösterir.  Sık güncelleştirilen verilerin izlenmesi için yararlıdır.
 * **Yüksek yoğunluklu örnekleme** - Aykırı değerlere ve/veya bir eğrinin şekline daha iyi uyan, gelişmiş bir örnekleme algoritmasıdır.
     * **Bölünmüş çizgi örnekleme** - Bir eksen boyunca bölmelerdeki aykırı değerlere dayalı örnek veri noktaları
     * **Çakışan noktaları örnekleme** - Aykırı değerleri korumak için çakışan değerlere dayalı örnek veri noktaları
@@ -52,7 +52,7 @@ Sunucu aşağıda ayrıntıları verilen özelliklere sahip olduğunda dinamik s
 
 * [Sunucudaki SuperDax özelliklerinden yararlanılarak](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3) Şirket içi SSAS 2016 veya daha yüksek sürüm ile Power BI Desktop’ta
 
-* İçeri aktarılan bir model, Doğrudan Sorgu, hizmetle canlı bağlantı veya AS PaaS ile canlı bağlantı kullanılırken Masaüstü ve Power BI hizmetinde. 
+* İçeri aktarılan bir model, Doğrudan Sorgu, hizmetle canlı bağlantı veya AS PaaS ile canlı bağlantı kullanılırken Masaüstü ve Power BI hizmetinde. 
 
 * Şirket içi SSAS’a şirket içi bir ağ geçidi üzerinden bağlanılırken Power BI Hizmetinde dinamik sınırları kullanamayız. Şirket içi ağ geçidi, şirket içi SSAS’tan farklı sonuç kümeleri yapısı döndüren dinamik sınırlar stratejisini tamamen desteklemez.  
 

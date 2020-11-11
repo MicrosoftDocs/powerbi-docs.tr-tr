@@ -1,21 +1,21 @@
 ---
 title: X ve Y ekseni özelliklerini özelleştirme
 description: X ve Y ekseni özelliklerini özelleştirme
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635689"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413166"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X ekseni ve Y ekseni özelliklerini özelleştirme
 
@@ -81,13 +81,13 @@ X ekseni etiketleri, grafiğin sütunlarının altında görüntülenir. Etiketl
 
 4. Metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
-    - **Renk**: Siyahı seçin
+    - **Renk** : Siyahı seçin
 
-    - **Metin boyutu**: *14* girin
+    - **Metin boyutu** : *14* girin
 
-    - **Yazı tipi ailesi**: **Arial Black** seçin
+    - **Yazı tipi ailesi** : **Arial Black** seçin
 
-    - **İç dolgu**: *%40* girin
+    - **İç dolgu** : *%40* girin
 
         ![Açılı etiketleri gösteren ekran görüntüsü](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -113,11 +113,11 @@ X ekseni başlığı **Açık** olduğunda X ekseni etiketlerinin altında X eks
 
 1. Başlığın metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
-    - **Başlık rengi**: Turuncu seçin
+    - **Başlık rengi** : Turuncu seçin
 
-    - **Eksen başlığı**: *Mali Ay* (boşluk bırakarak) yazın
+    - **Eksen başlığı** : *Mali Ay* (boşluk bırakarak) yazın
 
-    - **Başlık metin boyutu**: *18* girin
+    - **Başlık metin boyutu** : *18* girin
 
     Özelleştirmeleri bitirdikten sonra yığılmış sütun grafiğiniz aşağıdakine benzer görünecektir:
 
@@ -145,11 +145,11 @@ Y ekseni etiketleri varsayılan olarak sol tarafta gösterilir. Etiketler şu an
 
 1. Metin rengini, boyutunu ve yazı tipini biçimlendirin:
 
-    - **Renk**: Siyahı seçin
+    - **Renk** : Siyahı seçin
 
-    - **Metin boyutu**: *10* girin
+    - **Metin boyutu** : *10* girin
 
-    - **Görüntüleme birimleri**: **Milyon**'u seçin
+    - **Görüntüleme birimleri** : **Milyon** 'u seçin
 
     ![Y ekseni biçimlendirilmiş grafik](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
@@ -159,9 +159,9 @@ Y ekseni başlığı **Açık** olduğunda Y ekseni etiketlerinin yanında Y eks
 ### <a name="customize-the-gridlines"></a>Kılavuz çizgilerini özelleştirme
 Rengi değiştirerek ve darbeyi artırarak kılavuz çizgilerini belirginleştirin:
 
-- **Renk**: Turuncu seçin
+- **Renk** : Turuncu seçin
 
-- **Darbe**: *2* girin
+- **Darbe** : *2* girin
 
 Bu özelleştirmelerin ardından sütun grafiğiniz aşağıdakine benzer şekilde görünür:
 

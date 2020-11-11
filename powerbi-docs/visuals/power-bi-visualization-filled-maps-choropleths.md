@@ -1,8 +1,8 @@
 ---
 title: Power BI'da Kartogramlar (Koroplet Haritalar)
 description: Power BI'da Kartogram (Koroplet Harita) oluşturma belgeleri
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861648"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413005"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI'da kartogram (koroplet harita) oluşturma ve kullanma
 
@@ -28,7 +28,7 @@ Bir kartogram, değerlerin bir coğrafya veya bölge üzerinde orantısal olarak
 ![ABD haritası](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Bing'e neler gönderilir?
-Power BI, varsayılan harita koordinatlarını sağlamak için Bing ile tümleşir (coğrafi kodlama adlı bir işlem). Power BI hizmetinde veya Power BI Desktop'ta bir harita görselleştirmesi oluşturduğunuzda **Konum**, **Enlem** ve **Boylam** demetlerindeki veriler (söz konusu görselleştirmenin oluşturulması için kullanılan) Bing'e gönderilir.
+Power BI, varsayılan harita koordinatlarını sağlamak için Bing ile tümleşir (coğrafi kodlama adlı bir işlem). Power BI hizmetinde veya Power BI Desktop'ta bir harita görselleştirmesi oluşturduğunuzda **Konum** , **Enlem** ve **Boylam** demetlerindeki veriler (söz konusu görselleştirmenin oluşturulması için kullanılan) Bing'e gönderilir.
 
 Sizin veya yöneticinizin, güvenlik duvarınızı Bing'in coğrafi kodlama için kullandığı URL'lere erişim izni verilecek şekilde güncelleştirmesi gerekebilir.  Bu URL'ler şunlardır:
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -49,7 +49,7 @@ Kartogramlar şu durumlarda kullanım için mükemmel seçimdir:
 
 ### <a name="prerequisites"></a>Önkoşullar
 Bu eğitimde [Satış ve Pazarlama örneği PBIX dosyası](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) kullanılmaktadır.
-1. Menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
+1. Menü çubuğunun sol üst kısmından **Dosya** > **Aç** ’ı seçin
    
 2. **Satış ve Pazarlama örneği PBIX dosyası** kopyanızı bulun
 
@@ -101,7 +101,7 @@ Filtreler bölmesini kullanma hakkında bilgi için bkz. [Bir rapora filtre ekle
 
 Bir kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselleştirmelere çapraz filtre uygular ve bu tam tersi için de geçerlidir.
 
-1. İzlemek için önce **Dosya > Kaydet**’i seçerek bu raporu kaydedin. 
+1. İzlemek için önce **Dosya > Kaydet** ’i seçerek bu raporu kaydedin. 
 
 2. CTRL-C kısayolunu kullanarak kartogramı kopyalayın.
 
@@ -113,7 +113,7 @@ Bir kartogramda bir konumun vurgulanması, rapor sayfasındaki diğer görselle�
 
    ![Yaklaşım sayfasına eklenen kartogram](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Kartogramda bir eyalet seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır ve çapraz filtrelenir. Örneğin **Texas**'ın seçilmesi kartlarda çapraz filtre uygular ve çubuk grafiğini çapraz vurgular. Buradan, Yaklaşımın 75 olduğunu ve Texas’ın Central District #23’te yer aldığını anlarım.   
+5. Kartogramda bir eyalet seçin.  Bu işlem ile sayfadaki diğer görselleştirmeler çapraz vurgulanır ve çapraz filtrelenir. Örneğin **Texas** 'ın seçilmesi kartlarda çapraz filtre uygular ve çubuk grafiğini çapraz vurgular. Buradan, Yaklaşımın 75 olduğunu ve Texas’ın Central District #23’te yer aldığını anlarım.   
    ![Texas seçili](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. VanArsdel üzerinde bir veri noktası seçin - Aya Göre Yaklaşım çizgi grafiği. Bu, rakibi için değil, VanArsdel için Yaklaşım verilerini göstermek amacıyla kartogramı filtreler.  
    ![yeni gölgelendirme](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)

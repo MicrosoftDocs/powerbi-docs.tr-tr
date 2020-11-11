@@ -1,8 +1,7 @@
 ---
 title: Ayrıştırma ağacı
 description: "Öğretici: Power BI'da ayrıştırma ağacı görselleştirmesi oluşturma"
-author: mihart
-manager: kvivek
+author: msftrien
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632837"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413097"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI’da ayrıştırma ağacı görselleri oluşturma ve görüntüleme
 
@@ -79,8 +78,8 @@ Verilerde bundan sonra nereye bakacağınızı anlamak için “AI Bölmeleri”
 
 Tercihlerinize bağlı olarak analiz iki yönde de çalışabilir. Varsayılan davranış şöyledir:
 
- - **Yüksek Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en yüksek değerini elde etmek için hangisinde detaya gidileceğini saptar.  
- - **Düşük Değer**: Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en düşük değerini elde etmek için hangisinde detaya gidileceğini saptar.  
+ - **Yüksek Değer** : Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en yüksek değerini elde etmek için hangisinde detaya gidileceğini saptar.  
+ - **Düşük Değer** : Tüm kullanılabilir alanları dikkate alır ve analiz edilen ölçümün en düşük değerini elde etmek için hangisinde detaya gidileceğini saptar.  
 
 Sipariş açığı örneğinde **Yüksek Değer** seçildiğinde sonuç aşağıdaki gibi olur:
 
@@ -134,7 +133,7 @@ Ayrıştırma ağacına başka bir görselle çapraz filtreleme uyguladığını
 
 ![Tüm ayların seçili olduğu Kök Neden Analizi'ni gösteren ekran görüntüsü.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
-Ama çubuk grafikte **April**'i (Nisan) seçersek, en yüksek değer **Advanced Surgical Ürün Türü** olarak değişir. Bu durumda yalnızca düğümler yeniden sıralanmakla kalmaz, tamamen farklı bir sütun seçilir. 
+Ama çubuk grafikte **April** 'i (Nisan) seçersek, en yüksek değer **Advanced Surgical Ürün Türü** olarak değişir. Bu durumda yalnızca düğümler yeniden sıralanmakla kalmaz, tamamen farklı bir sütun seçilir. 
 
 ![Yalnızca Nisan ayının seçili olduğu Kök Neden Analizi'ni gösteren ekran görüntüsü.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 

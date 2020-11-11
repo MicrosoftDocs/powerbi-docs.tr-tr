@@ -1,8 +1,8 @@
 ---
 title: Ana Performans Göstergesi (KPI) görselleri
 description: Power BI’da Ana Performans Göstergesi (KPI) görselleri oluşturma
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/30/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87e63358e2590bff1ebab6ce7816b558e72ac3e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237657"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412878"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>Ana performans göstergesi (KPI) görselleştirmeleri oluşturma
 
@@ -44,7 +44,7 @@ KPI veri kümelerinin bir KPI için hedef değerleri içermesi gerekir. Veri kü
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
 
 1. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -84,19 +84,19 @@ Bu örnekte bir satış hedefine göre kaydettiğiniz ilerlemeyi ölçen bir KPI
 
 1. İsteğe bağlı olarak, Biçimlendirme bölmesini açmak üzere boya rulosu simgesini seçerek KPI'yi biçimlendirebilirsiniz.
 
-    * **Gösterge**: göstergenin görüntü birimlerini ve ondalık basamakları denetler.
+    * **Gösterge** : göstergenin görüntü birimlerini ve ondalık basamakları denetler.
 
-    * **Eğilim ekseni**: **Açık** olarak ayarlandığında, eğilim eksenini KPI görselinin arka planı olarak gösterilir.  
+    * **Eğilim ekseni** : **Açık** olarak ayarlandığında, eğilim eksenini KPI görselinin arka planı olarak gösterilir.  
 
-    * **Hedefler**: **Açık** olarak belirlendiğinde, görsel, hedefi ve yüzde olarak hedefe olan mesafeyi gösterir.
+    * **Hedefler** : **Açık** olarak belirlendiğinde, görsel, hedefi ve yüzde olarak hedefe olan mesafeyi gösterir.
 
-    * **Renk kodlaması > Yön**: Bazı KPI'ler *yüksek* değerler için daha uygun görülürken bazılarının ise *düşük* değerler için daha uygun olduğu düşünülür. Örneğin kazanç ile bekleme süresi karşılaştırması. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir. **Yüksek iyidir**'i seçin ve isterseniz renk ayarlarını değiştirin.
+    * **Renk kodlaması > Yön** : Bazı KPI'ler *yüksek* değerler için daha uygun görülürken bazılarının ise *düşük* değerler için daha uygun olduğu düşünülür. Örneğin kazanç ile bekleme süresi karşılaştırması. Genellikle, kazanç değerinin daha yüksek olması bekleme süresinin daha yüksek olmasından iyidir. **Yüksek iyidir** 'i seçin ve isterseniz renk ayarlarını değiştirin.
 
 KPI’leri Power BI hizmetinde ve mobil cihazlarınızda kullanabilirsiniz. İşletmenizin can damarına her zaman bağlı olma seçeneği getirir.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-KPI'niz yukarıdaki gibi görünmüyorsa **FiscalMonth**’a göre sıralama yapmamış olabilirsiniz. KPI’lerin sıralama seçeneği yoktur. Yeniden başlayarak görselleştirmenizi KPI’ye dönüştürmeden *önce* **FiscalMonth**’a göre sıralamanız gerekir.
+KPI'niz yukarıdaki gibi görünmüyorsa **FiscalMonth** ’a göre sıralama yapmamış olabilirsiniz. KPI’lerin sıralama seçeneği yoktur. Yeniden başlayarak görselleştirmenizi KPI’ye dönüştürmeden *önce* **FiscalMonth** ’a göre sıralamanız gerekir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

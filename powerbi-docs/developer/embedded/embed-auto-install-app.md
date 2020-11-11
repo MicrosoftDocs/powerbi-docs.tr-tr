@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748667"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412407"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Kuruluşunuz için içerik eklerken Power BI uygulamalarını otomatik olarak yükleme
 
@@ -25,7 +25,7 @@ Kullanıcının uygulamaya erişim varsa ama uygulama yüklenmemişse, ekleme ba
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI kullanıcıları için ekleme (Veriler kullanıcıya aittir)
 
-Kullanıcılarınızda uygulamaların otomatik yüklenmesine izin vermek için, [uygulamanızı kaydederken](register-app.md#register-with-the-power-bi-application-registration-tool) 'İçerik Oluşturma' izni vermeli veya uygulamanızı zaten kaydettiyseniz bu izni eklemelisiniz.
+Kullanıcılarınızda uygulamaların otomatik yüklenmesine izin vermek için, [uygulamanızı kaydederken](register-app.md#register-an-azure-ad-app) 'İçerik Oluşturma' izni vermeli veya uygulamanızı zaten kaydettiyseniz bu izni eklemelisiniz.
 
 ![İçerik oluşturan uygulamayı kaydetme](media/embed-auto-install-app/register-app-create-content.png)
 

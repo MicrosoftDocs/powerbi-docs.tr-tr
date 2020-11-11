@@ -1,21 +1,21 @@
 ---
 title: Power BI görselleştirmelerini biçimlendirmeye başlama
 description: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ef9aec1bf01120c8c7e765fe3c59c23da40ceab
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235863"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411004"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>Görselleştirme başlıklarını, arka planlarını ve göstergelerini özelleştirme
 
@@ -59,9 +59,9 @@ Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende An
 
     ![Başlık metninin girildiği Biçim bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. **Yazı tipi rengi**’ni beyaz, **Arka plan rengi**’ni ise mavi olarak değiştirin.    
+1. **Yazı tipi rengi** ’ni beyaz, **Arka plan rengi** ’ni ise mavi olarak değiştirin.    
 
-    a. Açılan menüyü seçin ve **Tema renkleri**, **Son kullanılan renkler** veya **Özel renk**’ten bir renk seçin.
+    a. Açılan menüyü seçin ve **Tema renkleri** , **Son kullanılan renkler** veya **Özel renk** ’ten bir renk seçin.
     
     ![Yazı tipi rengi ve arka plan rengi seçenekleri.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
@@ -130,7 +130,7 @@ Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Gösterge** öze
 
 Rapor temalarıyla raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır.
 
-Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir**'i seçin. Tema seçin.  Aşağıdaki raporda **Güneş** teması kullanılmıştır.
+Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir** 'i seçin. Tema seçin.  Aşağıdaki raporda **Güneş** teması kullanılmıştır.
 
  
 ![Sarılar, turuncular ve kırmızılar içeren Güneş temasının kullanıldığı rapor](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)

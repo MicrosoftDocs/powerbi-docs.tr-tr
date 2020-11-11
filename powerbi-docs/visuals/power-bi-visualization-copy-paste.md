@@ -1,20 +1,20 @@
 ---
 title: Power BI'da görselleştirmeleri kopyalayıp yapıştırma
 description: Power BI'da görselleştirmeleri kopyalayıp yapıştırma
-author: mihart
+author: msftrien
 ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763170"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411073"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Rapor görselleştirmesini kopyalayıp yapıştırma
 
@@ -54,11 +54,11 @@ Görselin statik bir görüntüsünü kopyaladığınızda, meta verilerle birli
 
 1. Power BI hizmetini açın ve kopyalamak istediğiniz panoya gidin.
 
-2. Görselin sağ üst köşesinden **Diğer seçenekler(...)** ve ardından **Görseli görüntü olarak kopyala**'yı seçin. 
+2. Görselin sağ üst köşesinden **Diğer seçenekler(...)** ve ardından **Görseli görüntü olarak kopyala** 'yı seçin. 
 
     ![Görseli görüntü olarak kopyala simgesi görüntülendi](media/power-bi-visualization-copy-paste/power-bi-copy-dashboard.png)
 
-3. **Görselinizi kopyalamaya hazır** iletişim kutusu göründüğünde **Panoya kopyala**'yı seçin.
+3. **Görselinizi kopyalamaya hazır** iletişim kutusu göründüğünde **Panoya kopyala** 'yı seçin.
 
     ![Panoya kopyala seçeneğine sahip iletişim kutusu](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -74,7 +74,7 @@ Görselin statik bir görüntüsünü kopyaladığınızda, meta verilerle birli
 
     ![Görseli görüntü olarak kopyala seçeneğini gösteren ekran görüntüsü](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
-3. **Görselinizi kopyalamaya hazır** iletişim kutusu göründüğünde **Panoya kopyala**'yı seçin.
+3. **Görselinizi kopyalamaya hazır** iletişim kutusu göründüğünde **Panoya kopyala** 'yı seçin.
 
     ![Panoya kopyala seçeneğine sahip iletişim kutusu](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -99,11 +99,11 @@ Kullanıcıların belirli bir görseli kopyalayabilmesini istemiyorsanız Power 
 1. Boya rulosu simgesini seçin ve Biçimlendirme bölmesini açın. 
 
 1. **Görsel biçimlendirme** kartını açın.
-1. **Görsel üst bilgi**’ye gitmek için aşağı kaydırın, kartı genişletin ve **Kopyala simgesi**'ni kapatın.
+1. **Görsel üst bilgi** ’ye gitmek için aşağı kaydırın, kartı genişletin ve **Kopyala simgesi** 'ni kapatın.
 
     ![boya rulosu ve kopyala simgesi seçildi](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 
-1. **Görsel üst bilgi** ayarını bulamazsanız, **Rapor ayarları**’nın altındaki modern görsel üst bilgi seçeneğini açın. 
+1. **Görsel üst bilgi** ayarını bulamazsanız, **Rapor ayarları** ’nın altındaki modern görsel üst bilgi seçeneğini açın. 
 
     ![modern görsel üst bilgiyi etkinleştir seçildi](media/power-bi-visualization-copy-paste/power-bi-use-modern.png)
 
@@ -115,11 +115,11 @@ Kullanıcıların belirli bir görseli kopyalayabilmesini istemiyorsanız Power 
   
 1. Yönetici Portalı’na gidin.
 
-1. **Kiracı ayarları** altında **Dışarı aktarma ve paylaşım ayarları**'nı seçin. 
+1. **Kiracı ayarları** altında **Dışarı aktarma ve paylaşım ayarları** 'nı seçin. 
 
     ![Görselleri kopyala ve yapıştır seçeneğini etkinleştirme](media/power-bi-visualization-copy-paste/power-bi-enable.png)
 
-1. Seçili kullanıcı gruplarınız için **Görselleri kopyala ve yapıştır**’ı devre dışı bırakın. 
+1. Seçili kullanıcı gruplarınız için **Görselleri kopyala ve yapıştır** ’ı devre dışı bırakın. 
 
 1. Değişiklikleri kaydettiğinizde belirtilen gruplar, Power BI’ın tamamında **Görseli görüntü olarak kopyala** seçeneğini kullanamaz. 
   

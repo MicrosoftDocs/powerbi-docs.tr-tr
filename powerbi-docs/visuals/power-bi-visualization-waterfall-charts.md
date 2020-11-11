@@ -1,8 +1,8 @@
 ---
 title: Power BI'da şelale grafikler
 description: Power BI'da şelale grafikler
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635735"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412131"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 
@@ -45,7 +45,7 @@ Artış ve azalmaları hızla fark edebilmeniz için sütunlar renk kodludur. Ba
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -78,11 +78,11 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
 
 1. Power BI’ın şelale grafiğini aya göre kronolojik olarak sıraladığından emin olun. Grafiğin sağ üst köşesinden **Diğer seçenekler** (...) düğmesini seçin.
 
-    Bu örnek için **Sıralama ölçütü**'nü ve **FiscalMonth** öğesini seçin. Seçiminizin yanındaki sarı gösterge, belirttiğiniz seçeneğin ne zaman uygulandığını gösterir.
+    Bu örnek için **Sıralama ölçütü** 'nü ve **FiscalMonth** öğesini seçin. Seçiminizin yanındaki sarı gösterge, belirttiğiniz seçeneğin ne zaman uygulandığını gösterir.
 
     ![Sıralama ölçütü > FiscalMonth seçin](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
     
-    Ayları kronolojik düzende görüntülemek için **Artan düzende sırala**'yı seçin. Önceki adımda olduğu gibi **Artan düzende sırala** seçeneğinin solunda sarı bir gösterge olup olmadığını kontrol edin. Bu, belirlediğiniz seçeneğin uygulandığını gösterir.
+    Ayları kronolojik düzende görüntülemek için **Artan düzende sırala** 'yı seçin. Önceki adımda olduğu gibi **Artan düzende sırala** seçeneğinin solunda sarı bir gösterge olup olmadığını kontrol edin. Bu, belirlediğiniz seçeneğin uygulandığını gösterir.
 
     ![Sıralama ölçütü > Artan düzende sırala’yı seçin](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
@@ -94,17 +94,17 @@ Aya göre satış varyansını (tahmini satış ile gerçek satış karşılaşt
 
 Aydan aya değişikliklere en çok katkıda bulunan öğeleri görmek için biraz daha ayrıntıya inin.
 
-1.  **Depolama** > **Bölge**’yi seçtiğinizde **Bölge**, **Döküm** demetine eklenir.
+1.  **Depolama** > **Bölge** ’yi seçtiğinizde **Bölge** , **Döküm** demetine eklenir.
 
     ![Ekran görüntüsü, Döküm alanına Bölge ekleme işlemini gösterir.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Power BI görselleştirmeye başka veriler eklemek için **Döküm**'deki değeri kullanır. Her mali ay için artışa ve azalmaya en çok katkıda bulunan beş öğeyi ekler. Diğer bir deyişle şimdi Şubat ayının tek veri noktası yerine altı veri noktası vardır.  
+    Power BI görselleştirmeye başka veriler eklemek için **Döküm** 'deki değeri kullanır. Her mali ay için artışa ve azalmaya en çok katkıda bulunan beş öğeyi ekler. Diğer bir deyişle şimdi Şubat ayının tek veri noktası yerine altı veri noktası vardır.  
 
     ![Çözümleme demetindeki Mağazayı gösterir](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
     Sizi yalnızca en çok katkıda bulunan iki öğenin ilgilendirdiğini varsayalım.
 
-1. **Biçim** bölmesinde **Kırılım**’ı seçin ve **En yüksek kırılım**’ı **2** olarak ayarlayın.
+1. **Biçim** bölmesinde **Kırılım** ’ı seçin ve **En yüksek kırılım** ’ı **2** olarak ayarlayın.
 
     ![Biçim > Kırılım](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
