@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297608"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397404"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
-Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](../transform-model/service-dataflows-data-sources.md).
+Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki bilgiler de dahil olmak üzere Power BI’ın veri kümeleri için desteklediği veri kaynakları gösterilir. Veri akışları hakkında bilgi için bkz. [Power BI veri akışları için veri kaynaklarına bağlanma](../transform-model/dataflows/dataflows-configure-consume.md).
 
 | Veri kaynağı | Masaüstünden bağlanma | Hizmetten bağlanma ve yenileme | DirectQuery / Canlı bağlantı | Ağ Geçidi (desteklenen) | Ağ Geçidi (gerekli) | Power BI Veri Akışları |
 |---|---|---|---|---|---|---|---|
@@ -172,9 +172,6 @@ SSO seçeneği bu veri kaynağını kullanan tüm veri kümelerinde geçerli olu
 - Spark
 - SQL Server
 - Teradata
-
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) desteklenmiyor. DirectQuery ile SSO kullanmak isteyen kullanıcılar MFA'den muaf tutulmalıdır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

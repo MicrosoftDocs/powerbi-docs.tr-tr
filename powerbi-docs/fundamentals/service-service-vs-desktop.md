@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
-ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
+ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87988729"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397105"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop ile Power BI hizmetini karşılaştırma
 
@@ -23,9 +23,9 @@ Power BI Desktop ile Power BI hizmetinin karşılaştırıldığı Venn diyagram
 
 ![Power BI Desktop ve Power BI hizmeti arasındaki ilişkiyi gösteren Venn diyagramı.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop**, yerel bilgisayarınıza ücretsiz olarak yüklediğiniz eksiksiz bir veri analizi ve rapor oluşturma aracıdır. Çok sayıda farklı veri kaynağına bağlanıp bu kaynakları bir veri modelinde (çoğunlukla modelleme olarak adlandırılır) birleştirebileceğiniz Sorgu Düzenleyicisi’ni içerir. Daha sonra bu veri modelini temel alan bir rapor tasarlayacaksınız. [Power BI Desktop ile çalışmaya başlama kılavuzu](desktop-getting-started.md) bu işlemde size yol gösterir.
+**Power BI Desktop** , yerel bilgisayarınıza ücretsiz olarak yüklediğiniz eksiksiz bir veri analizi ve rapor oluşturma aracıdır. Çok sayıda farklı veri kaynağına bağlanıp bu kaynakları bir veri modelinde (çoğunlukla modelleme olarak adlandırılır) birleştirebileceğiniz Sorgu Düzenleyicisi’ni içerir. Daha sonra bu veri modelini temel alan bir rapor tasarlayacaksınız. [Power BI Desktop ile çalışmaya başlama kılavuzu](desktop-getting-started.md) bu işlemde size yol gösterir.
 
-**Power BI hizmeti**, bulut tabanlı bir hizmettir. Takımlar ve kuruluşlar için hafif rapor düzenleme işlemini ve işbirliğini destekler. Power BI hizmetinde de veri kaynaklarına bağlanabilirsiniz ama modelleme sınırlıdır.
+**Power BI hizmeti** , bulut tabanlı bir hizmettir. Takımlar ve kuruluşlar için hafif rapor düzenleme işlemini ve işbirliğini destekler. Power BI hizmetinde de veri kaynaklarına bağlanabilirsiniz ama modelleme sınırlıdır.
 
 İş zekası projelerinde çalışan Power BI rapor tasarımcılarının çoğu, Power BI raporları oluşturmak için **Power BI Desktop** uygulamasını ve sonra işbirliği yapmak ve raporlarını dağıtmak için **Power BI hizmetini** kullanır.
 
@@ -41,7 +41,7 @@ Power BI Desktop'taki ve hizmetteki rapor düzenleyicileri birbirine benzer. Bun
 
 1. Üst gezinti bölmeleri (Power BI Desktop ile hizmette farklıdır)    
 2. Rapor tuvali     
-3. **Alanlar**, **Görsel Öğeler** ve **Filtreler** bölmeleri
+3. **Alanlar** , **Görsel Öğeler** ve **Filtreler** bölmeleri
 
 Bu videoda, Power BI Desktop'taki rapor düzenleyicisi gösterilir. 
 
@@ -55,7 +55,7 @@ Raporlarınızı oluşturduktan sonra, bunları *Power BI hizmetinde* iş arkada
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Veri akışları ile self servis veri hazırlığı
 
-Veri akışları, kuruluşların dağınık kaynaklardan gelen verileri birleştirmesine ve modellemeye hazırlamasına yardımcı olmak için kullanıma sunmuştur. Analistler tanıdık, self servis araçları kullanarak veri akışlarını kolayca oluşturabilir. Analistler, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha birçok öğeyi tanımlayarak büyük verileri almak, dönüştürmek, tümleştirmek ve zenginleştirmek için veri akışlarını kullanılır. [Veri akışları ile self servis veri hazırlığı](../transform-model/service-dataflows-overview.md) hakkında daha fazla bilgi edinin.
+Veri akışları, kuruluşların dağınık kaynaklardan gelen verileri birleştirmesine ve modellemeye hazırlamasına yardımcı olmak için kullanıma sunmuştur. Analistler tanıdık, self servis araçları kullanarak veri akışlarını kolayca oluşturabilir. Analistler, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha birçok öğeyi tanımlayarak büyük verileri almak, dönüştürmek, tümleştirmek ve zenginleştirmek için veri akışlarını kullanılır. [Veri akışları ile self servis veri hazırlığı](../transform-model/dataflows/dataflows-introduction-self-service.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

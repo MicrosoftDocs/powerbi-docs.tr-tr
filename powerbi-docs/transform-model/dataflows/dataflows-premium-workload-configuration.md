@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4a919c499746711719d679fc5cb9a689731093cc
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502345"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397266"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI premium veri akışı iş yüklerini yapılandırma
 
@@ -69,7 +69,7 @@ Sonraki bölümlerde bu ayarların her biriyle ilgili ayrıntılı bilgiler sağ
 
 ### <a name="understanding-dataflow-workload-options"></a>Veri akışı iş yükü seçeneklerini anlama
 
-Veri akışı iş yükü seçeneklerini daha iyi kavramanız için bir benzetme üzerinden gidebiliriz. *Kapasite boyutunu* veya sahip olduğunuz Power BI Premium örneğinin türünü bir *restoran* gibi düşünebilirsiniz. Restoranın *mutfağı* , sizin *iş yükü belleğinizdir* . *İşlem altyapısı* ise *fırınınızdır* . Son olarak *kapsayıcıyı* da *şefinizin* tecrübesi olarak düşünebilirsiniz. Veri akışı iş yükü seçeneklerinizi değerlendirmek için önemli bir davette yemek hazırladığınızı düşünün. Çok önemli konukları ağırlayacaksınız ve onlar geldiğinde tüm yemeklerin servise hazır olması gerekiyor.
+Veri akışı iş yükü seçeneklerini daha iyi kavramanız için bir benzetme üzerinden gidebiliriz. *Kapasite boyutunu* veya sahip olduğunuz Power BI Premium örneğinin türünü bir *restoran* gibi düşünebilirsiniz. Restoranın *mutfağı* , sizin *iş yükü belleğinizdir*. *İşlem altyapısı* ise *fırınınızdır*. Son olarak *kapsayıcıyı* da *şefinizin* tecrübesi olarak düşünebilirsiniz. Veri akışı iş yükü seçeneklerinizi değerlendirmek için önemli bir davette yemek hazırladığınızı düşünün. Çok önemli konukları ağırlayacaksınız ve onlar geldiğinde tüm yemeklerin servise hazır olması gerekiyor.
 
 Ayarlarla ilgili açıklamalar yaparken ve kullanımlarıyla ilgili yol gösterirken bu restoran benzetmesini kullanacağız. En üst düzeyde Power BI Premium'u kullanırken yaptığınız ilk seçenek olan Premium kapasiteniz bulunur.
 
@@ -106,7 +106,7 @@ Bu bölümde Power BI Premium ile birlikte kullanılan veri akışı iş yükler
 
 Uzun yenileme süreleri genellikle paralel çalıştırmayla ilgili bir sorundur. Aşağıdaki seçenekleri verilen sırayla gözden geçirmeniz gerekir:
 
-1. Uzun yenileme süreleri için en önemli nokta, veri hazırlama sürecidir. Bu makalenin önceki bölümlerinde incelediğimiz restoran benzetmesine dönecek olursak bir yemeğin servise hazır olması durumunu düşünebilirsiniz. Bu senaryoda hazırlama süresinin kısa olması nedeniyle yemek çok daha hızlı pişirilebilir. Benzer şekilde hazırlama ve sorgu mantığının hazırlanması işlemlerinin veri kaynağınız tarafından gerçekleştirilmesini sağlayarak uzun yenileme sürelerini iyileştirebilirsiniz. Özellikle SQL gibi bir ilişkisel veritabanını kaynak olarak kullanıyorsanız ilk sorgunun kaynakta çalıştırılıp çalıştırılamayacağına bakın ve veri kaynağı için ilk çıkarma veri akışınızda bu kaynak sorgusunu kullanın. Kaynak sisteminde doğal sorgu kullanamıyorsanız veri akışları [altyapısının veri kaynağına döndürebileceği](https://docs.microsoft.com/power-query/power-query-folding) işlemler gerçekleştirin.
+1. Uzun yenileme süreleri için en önemli nokta, veri hazırlama sürecidir. Bu makalenin önceki bölümlerinde incelediğimiz restoran benzetmesine dönecek olursak bir yemeğin servise hazır olması durumunu düşünebilirsiniz. Bu senaryoda hazırlama süresinin kısa olması nedeniyle yemek çok daha hızlı pişirilebilir. Benzer şekilde hazırlama ve sorgu mantığının hazırlanması işlemlerinin veri kaynağınız tarafından gerçekleştirilmesini sağlayarak uzun yenileme sürelerini iyileştirebilirsiniz. Özellikle SQL gibi bir ilişkisel veritabanını kaynak olarak kullanıyorsanız ilk sorgunun kaynakta çalıştırılıp çalıştırılamayacağına bakın ve veri kaynağı için ilk çıkarma veri akışınızda bu kaynak sorgusunu kullanın. Kaynak sisteminde doğal sorgu kullanamıyorsanız veri akışları [altyapısının veri kaynağına döndürebileceği](/power-query/power-query-folding) işlemler gerçekleştirin.
 
 2. Yenileme sürelerinin aynı kapasiteye yayılma ihtimalini değerlendirin. Yenileme işlemleri, önemli miktarda işlem kapasitesi kullanır. Restoran benzetmesine dönecek olursak yenileme sürelerini yaymak, restoranınızdaki konuk sayısını sınırlamakla aynıdır. Restoranların konukları rezervasyonla kabul edip ona göre plan yaptıkları gibi yenileme işlemlerini de kullanımın en yoğun olduğu dönemlerden farklı zamanlarda yapmayı düşünebilirsiniz. Bunu yaparak kapasitenin üzerindeki yükü önemli ölçüde azaltmış olursunuz.
 
@@ -136,7 +136,7 @@ Uzun yenileme süreleri genellikle paralel çalıştırmayla ilgili bir sorundur
 
 1. *Alma* aşamasında verileri depolama alanına mümkün olduğunca hızlı almaya odaklanın. Filtreleri yalnızca veri kümesinin genel boyutunu azaltmaları durumunda kullanın. Dönüşüm mantığınızı bu adımdan ayırmak ve altyapının ilk bileşenleri toplamaya odaklanmasını sağlamak en iyi deneyimdir. Ardından bağlantılı veya hesaplanan varlıkları kullanarak dönüşüm ve iş mantığınızı aynı çalışma alanındaki farklı iş akışlarına ayırın. Bunu yapmak, altyapının etkinleştirilmesini ve hesaplamalarınızı hızlandırmasını sağlar. Benzetmemize dönecek olursak bunu mutfakta yemek hazırlamaya benzetebiliriz. Yemeği hazırlamak genellikle gerekli malzemeleri temin etmekten ayrı bir adımdır ve yemeğin fırına verilmesi için bu adımın tamamlanması şarttır. Benzer şekilde işlem altyapısından faydalanabilmek için mantığınızın ayrı bir şekilde hazırlanması gerekir.
 
-2. Birleştirme, birleşim, dönüştürme ve [diğer](https://docs.microsoft.com/power-query/power-query-folding#transformations-that-can-achieve-folding) işlemleri gerçekleştirdiğinizden emin olun.
+2. Birleştirme, birleşim, dönüştürme ve [diğer](/power-query/power-query-folding#transformations-that-can-achieve-folding) işlemleri gerçekleştirdiğinizden emin olun.
 
 3. Veri akışlarının [yayımlanan yönergeler ve sınırlamalar](dataflows-features-limitations.md#dataflows-in-premium) dahilinde olmasını sağlayın.
 

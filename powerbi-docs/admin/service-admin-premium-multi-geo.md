@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044705"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396414"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
@@ -98,7 +98,7 @@ Büyük depolama biçimli veri kümeleri, oluşturuldukları bölgeden taşınma
 - Uzak bölgede depolanan ve önbelleğe alınan bir sorgu, o bölgede bekletilir. Öte yandan, taşınan diğer veriler birden çok coğrafya arasında ileri ve geri gidebilir.
 - Verileri Multi-Geo ortamında bir bölgeden diğerine taşındığında, kaynak veriler bu verilerin taşındığı kaynak bölgede en çok 30 gün kalabilir. Bu süre boyunca son kullanıcıların bunlara erişimi olmaz. Veriler 30 gün boyunca bu bölgeden kaldırılır ve yok edilir.
 - İçeri aktarılan veri modelleri için sorgu metni ve sorgu sonucu trafiği giriş bölgesi üzerinden aktarılmaz. Rapor meta verileri yine uzak bölgeden gelir ve bazı DNS yönlendirme durumları trafiği bölgenin dışına taşıyabilir. 
-- [Veri akışları](../transform-model/service-dataflows-overview.md) özelliği şu anda Multi-Geo’da desteklenmiyor.
+- [Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) özelliği şu anda Multi-Geo’da desteklenmiyor.
 - Büyük depolama biçimli veri kümelerini oluşturuldukları bölgeden taşımak, raporların veri kümesini yükleyememesine neden olur. Büyük depolama veri kümesini kullanılabilir hale getirmek için özgün bölgesine geri taşıyın. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
@@ -107,4 +107,3 @@ Büyük depolama biçimli veri kümeleri, oluşturuldukları bölgeden taşınma
 - [Power BI Embedded kapasiteleri için Multi-Geo](../developer/embedded/embedded-multi-geo.md)
 
 Başka sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
-

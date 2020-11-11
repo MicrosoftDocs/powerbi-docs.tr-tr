@@ -8,11 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398340"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396652"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Power BI Desktop’ta tarih tabloları oluşturma
 
@@ -21,7 +22,7 @@ Bu makale, Power BI Desktop'la çalışan veri modelleyicilerine yöneliktir. Ve
 Veri Çözümleme İfadeleri (DAX) [akıllı zaman gösterimi işlevleri](/dax/time-intelligence-functions-dax) ile çalışmak için bir önkoşul modeli gereksinimi vardır: Modelinizde en az bir _tarih tablosu_ olmalıdır. Tarih tablosu, aşağıdaki gereksinimleri karşılayan bir tablodur:
 
 > [!div class="checklist"]
-> - _Tarih sütunu_ olarak bilinen **tarih** (veya **tarih/saat**) veri türü sütununa sahip olması gerekir.
+> - _Tarih sütunu_ olarak bilinen **tarih** (veya **tarih/saat** ) veri türü sütununa sahip olması gerekir.
 > - Tarih sütunu benzersiz değerler içermelidir.
 > - Tarih sütunu BOŞLUKLAR içermemelidir.
 > - Tarih sütununda eksik tarihler olmamalıdır.
@@ -59,7 +60,7 @@ Power Query kullanarak bir tarih tablosu oluşturabilirsiniz. Size nasıl yapıl
 - [Generating A Date Dimension Table In Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) (Power Query’de Tarih Boyutu Tablosu Oluşturma) - Chris Webb
 
 > [!TIP]
-> Kuruluşunuzda zaman için veri ambarı veya başka bir tutarlı tanım yoksa [veri akışı](../transform-model/service-dataflows-overview.md) yayımlamak için Power Query’yi kullanmanız faydalı olabilir. Daha sonra, tüm veri modelleyicileri kendi modellerine tarih tablosu eklemek için veri akışına bağlanır. Böylece veri akışı, kuruluşunuzda zaman için tek gerçek kaynak haline gelir.
+> Kuruluşunuzda zaman için veri ambarı veya başka bir tutarlı tanım yoksa [veri akışı](../transform-model/dataflows/dataflows-introduction-self-service.md) yayımlamak için Power Query’yi kullanmanız faydalı olabilir. Daha sonra, tüm veri modelleyicileri kendi modellerine tarih tablosu eklemek için veri akışına bağlanır. Böylece veri akışı, kuruluşunuzda zaman için tek gerçek kaynak haline gelir.
 
 Tarih tablosu oluşturmanız gerekiyorsa bunu DAX ile yapmanız faydalı olabilir. Bu, size daha kolay gelecektir. Ayrıca, DAX tarih tablolarını oluşturup yönetmeyi basitleştirmek için yerleşik zeka içerdiğinden, muhtemelen daha uygun olacaktır.
 
@@ -81,7 +82,7 @@ Bu makaleyle ilgili daha fazla bilgi için aşağıdaki kaynaklara bakın:
 - [Power BI Desktop’ta otomatik tarih/saat](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop’ta otomatik tarih/saat kılavuzu](auto-date-time.md)
 - [Power BI Desktop'ta tarih tabloları ayarlama ve kullanma](../transform-model/desktop-date-tables.md)
-- [Power BI’da self servis veri hazırlığı](../transform-model/service-dataflows-overview.md)
+- [Power BI’da self servis veri hazırlığı](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [CALENDAR işlevi (DAX)](/dax/calendar-function-dax)
 - [CALENDARAUTO işlevi (DAX)](/dax/calendarauto-function-dax)
 - Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

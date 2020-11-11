@@ -9,12 +9,12 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4278b59576466942991fef710f8864b5c0a1391c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f8c92f54a1dbe0e35b3cb377adfd58e6ac494577
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860774"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396875"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure kullanıcıları için Power BI 
 
@@ -134,7 +134,7 @@ Daha çok bir Power BI kullanıcısı mısınız? Siz de hoş geldiniz. [Kullan�
                                     <div class="cardText"> 
                                           <h3>Azure Machine Learning</h3> 
                                           <p></p>
-                                                <a href="../transform-model/service-machine-learning-integration.md">Azure Machine Learning ve Power BI</a><br/> 
+                                                <a href="/power-bi/transform-model/dataflows/dataflows-machine-learning-integration">Azure Machine Learning ve Power BI</a><br/> 
                                                 <a href="service-tutorial-invoke-machine-learning-model.md">Öğretici: Power BI'dan AML modelini çağırma</a><br/> 
                                     </div> 
                               </div> 

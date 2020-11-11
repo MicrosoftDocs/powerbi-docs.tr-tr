@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803613"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396990"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>Power BI’a geçiş yapmak için dağıtımı planlama
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için dağıtımı planlama
 
 Bu makalede, bir Power BI çözümüne ilişkin geçiş işleminin planlanmasını ele alan **2. aşama** açıklanmaktadır.
 
@@ -96,7 +96,7 @@ Bir rapor için gereken veriler çeşitli kararları etkileyebilir. Sorulacak so
 - Ek ihtiyaçların karşılanması için mevcut bir paylaşılan veri kümesinin yeni verilerle veya önlemlerle artırılması gerekir mi?
 - Hangi [veri depolama modu](../transform-model/desktop-storage-mode.md) en uygunu olur? İçeri aktarma, DirectQuery, Bileşik veya Canlı Bağlantı gibi seçenekler bulunur.
 - Sorgu performansının artırılması için [toplamaların](../transform-model/desktop-aggregations.md) kullanılması gerekir mi?
-- Bir [veri akışının](../transform-model/service-dataflows-overview.md) oluşturulması fayda sağlayıp çok sayıda veri kümesi için kaynak işlevi görebilir mi?
+- Bir [veri akışının](../transform-model/dataflows/dataflows-introduction-self-service.md) oluşturulması fayda sağlayıp çok sayıda veri kümesi için kaynak işlevi görebilir mi?
 - Yeni bir [ağ geçidi veri kaynağının](../connect-data/service-gateway-data-sources.md) kaydedilmesi gerekir mi?
 
 ## <a name="decide-where-original-content-will-be-stored"></a>Özgün içeriğin nerede depolanacağını belirleme

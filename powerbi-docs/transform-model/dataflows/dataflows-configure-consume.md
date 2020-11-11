@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cb68cdd0f7ca82c937b1a045055909582c0938d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638595"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396415"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>Veri akışı yapılandırma ve kullanma
 
@@ -22,7 +22,7 @@ Veri akışlarını kullanarak birden çok veri kaynağından gelen verileri bir
 
 ## <a name="configuring-a-dataflow"></a>Veri akışı yapılandırma
 
-Veri akışının yenilenmesini yapılandırmak için **Daha Fazla** menüsünü (üç nokta) ve ardından **Ayarlar**'ı seçin.
+Veri akışının yenilenmesini yapılandırmak için **Daha Fazla** menüsünü (üç nokta) ve ardından **Ayarlar** 'ı seçin.
 
 ![veri akışı ayarları portalı](media/dataflows-configure-consume/dataflow-settings.png)
 
@@ -30,7 +30,7 @@ Veri akışının yenilenmesini yapılandırmak için **Daha Fazla** menüsünü
 
 ![veri akışı ayarları](media/dataflows-configure-consume/dataflow-settings-detailed.png)
 
-* **Sahipliği Al:** Veri akışının sahibi siz değilseniz bu ayarların birçoğu devre dışı bırakılır. Veri akışının sahipliğini almak için **Devral**'ı seçerek denetimi üstlenin. Gerekli erişim düzeyine sahip olduğunuzdan emin olmak için kimlik bilgilerini sağlamanız istenir.
+* **Sahipliği Al:** Veri akışının sahibi siz değilseniz bu ayarların birçoğu devre dışı bırakılır. Veri akışının sahipliğini almak için **Devral** 'ı seçerek denetimi üstlenin. Gerekli erişim düzeyine sahip olduğunuzdan emin olmak için kimlik bilgilerini sağlamanız istenir.
 
 * **Ağ Geçidi Bağlantısı:** Bu bölümde veri akışının ağ geçidi kullanıp kullanmayacağını ve kullanılacak ağ geçidini seçebilirsiniz. 
 
@@ -40,7 +40,7 @@ Veri akışının yenilenmesini yapılandırmak için **Daha Fazla** menüsünü
 
 * **Zamanlanmış Yenileme:** Burada seçilen veri akışının yenileneceği saatleri tanımlayabilirsiniz. Veri akışı, veri kümesiyle aynı sıklıkta yenilenebilir.
 
-* **Gelişmiş İşlem Altyapısı ayarları:** Burada veri akışının işlem altyapısında depolanıp depolanmayacağını belirleyebilirsiniz. İşlem altyapısı bu veri akışına başvuran ek veri akışlarına izin vererek birleştirme ve diğer dönüştürme işlemlerini normale kıyasla çok daha hızlı gerçekleştirmenizi sağlar. Ayrıca veri akışında DirectQuery kullanılmasını da mümkün kılar. **Açık** seçeneği, veri akışının her zaman DirectQuery modunu desteklemesini ve başvuruların altyapıdan faydalanmasını sağlar. **İyileştirilmiş**, altyapının yalnızca bu veri akışına başvurulduğunda kullanılacağı anlamına gelir. **Kapalı** seçildiğinde işlem altyapısı ve DirectQuery özelliği bu veri akışı için devre dışı bırakılır.
+* **Gelişmiş İşlem Altyapısı ayarları:** Burada veri akışının işlem altyapısında depolanıp depolanmayacağını belirleyebilirsiniz. İşlem altyapısı bu veri akışına başvuran ek veri akışlarına izin vererek birleştirme ve diğer dönüştürme işlemlerini normale kıyasla çok daha hızlı gerçekleştirmenizi sağlar. Ayrıca veri akışında DirectQuery kullanılmasını da mümkün kılar. **Açık** seçeneği, veri akışının her zaman DirectQuery modunu desteklemesini ve başvuruların altyapıdan faydalanmasını sağlar. **İyileştirilmiş** , altyapının yalnızca bu veri akışına başvurulduğunda kullanılacağı anlamına gelir. **Kapalı** seçildiğinde işlem altyapısı ve DirectQuery özelliği bu veri akışı için devre dışı bırakılır.
 
 * **Onaylar:** Veri akışının sertifikalı mı yoksa yükseltilmiş mi olacağını tanımlayabilirsiniz. 
 
@@ -53,13 +53,13 @@ Veri akışları, birbirine bağlı yapı taşları gibi hareket eder. *Ham Veri
 
 * Kaynak yenilemesinin tamamlanmasıyla tetiklendiğinde yalnızca başvurulan varlıklar yenilenir. Tüm varlıkları zamanlamak için bağlantılı varlık için de bir yenileme zamanlamanız gerekir. Tekrar eden yenileme işlemlerinden kaçınmak için bağlantılı veri akışlarında yenileme zamanlaması ayarlamaktan kaçının.
 
-**Yenilemeyi İptal Et**: Veri kümelerinden farklı olarak veri akışları, yenileme işlemlerinin iptal edilmesini destekler. Uzun süre çalışan yenilemeler için veri akışı seçeneklerini (veri akışının yanındaki üç nokta simgesi) ve ardından **Yenilemeyi iptal et**'i seçebilirsiniz.
+**Yenilemeyi İptal Et** : Veri kümelerinden farklı olarak veri akışları, yenileme işlemlerinin iptal edilmesini destekler. Uzun süre çalışan yenilemeler için veri akışı seçeneklerini (veri akışının yanındaki üç nokta simgesi) ve ardından **Yenilemeyi iptal et** 'i seçebilirsiniz.
 
 **Artımlı Yenileme (yalnızca Premium)** : Veri akışları artımlı olarak yenilenecek şekilde de ayarlanabilir. Bunun için artımlı yenilemeyi ayarlamak istediğiniz veri akışını belirleyip artımlı yenileme simgesini seçin.
 
 ![Veri akışı artımlı yenilemesi](media/dataflows-configure-consume/dataflow-created-entity.png)
 
-Artımlı yenileme ayarlandığında veri akışına tarih aralığını belirten parametreler eklenir. Artımlı yenilemeyi ayarlama hakkında ayrıntılı bilgi için [Power Query'de artımlı yenileme](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) makalesini inceleyin.
+Artımlı yenileme ayarlandığında veri akışına tarih aralığını belirten parametreler eklenir. Artımlı yenilemeyi ayarlama hakkında ayrıntılı bilgi için [Power Query'de artımlı yenileme](/power-query/dataflows/incremental-refresh) makalesini inceleyin.
 
 Artımlı yenilemeyi ayarlamamanız gereken bazı durumlar vardır:
 
@@ -77,7 +77,7 @@ Veri akışları üç şekilde kullanılabilir. Bunlar:
 
 * CDM biçimini okuyabilen dış araçlardan bağlantı oluşturma
 
-**Power BI Desktop'tan kullanma**: Bir veri akışını kullanmak için Power BI Desktop'ı çalıştırıp **Veri Al** iletişim kutusundan **Power BI veri akışları bağlayıcısını** seçin.
+**Power BI Desktop'tan kullanma** : Bir veri akışını kullanmak için Power BI Desktop'ı çalıştırıp **Veri Al** iletişim kutusundan **Power BI veri akışları bağlayıcısını** seçin.
 
 > [!NOTE]
 > Power BI veri akışları bağlayıcısı, oturum açmış olan kullanıcının sahip olduğundan farklı kimlik bilgileri kullanır. Bu, çok kiracılı kullanıcıları desteklemek için bilinçli olarak eklenmiş olan bir özelliktir.

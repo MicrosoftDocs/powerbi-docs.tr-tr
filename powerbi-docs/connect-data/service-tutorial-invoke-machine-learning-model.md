@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916855"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397128"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)
 
@@ -180,4 +180,4 @@ Bu öğreticide Azure Machine Learning Studio'yla (klasik) basit bir veri kümes
 - Veri akışı oluşturma
 - Azure ML modelinden veri akışına içgörüleri uygulama
 
-Power BI'da Azure Machine Learning tümleştirmesi hakkında daha fazla bilgi için bkz. [Power BI'da Azure Machine Learning tümleştirmesi (Önizleme)](../transform-model/service-machine-learning-integration.md).
+Power BI'da Azure Machine Learning tümleştirmesi hakkında daha fazla bilgi için bkz. [Power BI'da Azure Machine Learning tümleştirmesi (Önizleme)](../transform-model/dataflows/dataflows-machine-learning-integration.md).

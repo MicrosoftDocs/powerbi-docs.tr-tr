@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132379"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396116"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -124,8 +124,8 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Büyük modeller](service-premium-large-models.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
-|[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/service-dataflows-enhanced-compute-engine.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
-|[Veri akışları - Doğrudan Sorgu](../transform-model/service-dataflows-directquery.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
+|[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/dataflows/dataflows-premium-features.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
+|[Veri akışları - Doğrudan Sorgu](../transform-model/dataflows/dataflows-configure-consume.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
 |[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
 |[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|

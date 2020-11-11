@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638992"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396599"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Veri akışı sınırlamaları ve önemli noktalar
 
@@ -24,7 +24,7 @@ Veri akışı yazma, yenileme ve kapasite yönetimi konularında kullanıcılar�
 
 Veri akışı yazan kullanıcıların aşağıdaki noktalara dikkat etmesi gerekir:
 
-* Veri akışlarında yazma işlemi Power Query Online (PQO) ortamında gerçekleştirilir. [Power Query sınırları](https://docs.microsoft.com/power-query/power-query-online-limits) sayfasında belirtilen sınırlamaları inceleyin.
+* Veri akışlarında yazma işlemi Power Query Online (PQO) ortamında gerçekleştirilir. [Power Query sınırları](/power-query/power-query-online-limits) sayfasında belirtilen sınırlamaları inceleyin.
 Veri akışı yazma işlemi Power Query Online (PQO) ortamında gerçekleştirildiğinden veri akışı iş yükü yapılandırmalarında gerçekleştirilen güncelleştirmeler yalnızca yenilemeleri etkiler; yazma deneyimini etkilemez
 
 * Veri akışları yalnızca sahipleri tarafından değiştirilebilir
@@ -37,7 +37,7 @@ Veri akışı yazma işlemi Power Query Online (PQO) ortamında gerçekleştiril
 
 ## <a name="api-considerations"></a>API'lerde dikkat edilmesi gerekenler
 
-Desteklenen veri akışları REST API'leri hakkında daha fazla bilgi için bkz. [REST API başvurusu](https://docs.microsoft.com/rest/api/power-bi/dataflows). Dikkat etmeniz gereken noktalardan bazıları şunlardır:
+Desteklenen veri akışları REST API'leri hakkında daha fazla bilgi için bkz. [REST API başvurusu](/rest/api/power-bi/dataflows). Dikkat etmeniz gereken noktalardan bazıları şunlardır:
 
 * Bir veri akışı dışarı ve içeri aktarıldığında yeni bir kimliğe sahip olur
 
@@ -75,7 +75,7 @@ Premium kapasitelerdeki veri akışları aşağıdaki sınırlamalara ve dikkat 
 
 * Bağlantılı bir varlık, verilerinin şirket içi veri kaynağından alan normal bir varlıkla birleştirilemez
 
-* Veri akışlarında bir sorgu (örneğin, *A* sorgusu), başka bir sorgunun (*B* sorgusu) hesaplanması için kullanıldığında *B* sorgusu hesaplanmış bir varlık olur. Hesaplanmış varlıklar, şirket içi kaynaklara başvuramaz.
+* Veri akışlarında bir sorgu (örneğin, *A* sorgusu), başka bir sorgunun ( *B* sorgusu) hesaplanması için kullanıldığında *B* sorgusu hesaplanmış bir varlık olur. Hesaplanmış varlıklar, şirket içi kaynaklara başvuramaz.
 
 
 **İşlem altyapısı:**
@@ -111,4 +111,3 @@ Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi s
 * [Veri akışı depolama alanını Azure Data Lake 2. Nesil kullanacak şekilde yapılandırma](dataflows-azure-data-lake-storage-integration.md)
 * [Veri akışlarının Premium özellikleri](dataflows-premium-features.md)
 * [Veri akışları ve yapay zeka](dataflows-machine-learning-integration.md)
-

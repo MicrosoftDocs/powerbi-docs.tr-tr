@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256352"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396185"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
-Bu makalede, **Power BI Desktop**'a yönelik önceki güncelleştirmeler açıklanmaktadır. En yeni sürüm için [**Power BI Desktop** ile ilgili en son güncelleştirmelere](desktop-latest-update.md) göz atın.
+Bu makalede, **Power BI Desktop** 'a yönelik önceki güncelleştirmeler açıklanmaktadır. En yeni sürüm için [**Power BI Desktop** ile ilgili en son güncelleştirmelere](desktop-latest-update.md) göz atın.
 
 [İndirme Merkezi](https://www.microsoft.com/download/details.aspx?id=58494)'nden Power BI Desktop'ın en son sürümünü alın. Windows 10 kullanıyorsanız, Windows 10'da Microsoft Store'dan da Power BI Desktop uygulamasını alabilirsiniz. Power BI Desktop'ı nasıl yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aylık sürümler aynıdır. Power BI Desktop'ı indirme ve yükleme hakkında daha fazla bilgi için bkz. [Power BI Desktop'ı alma](desktop-get-the-desktop.md). 
 
@@ -418,7 +418,7 @@ Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabili
 
 
 ### <a name="data-preparation"></a>Veri hazırlama
-* Veri Akışlarında DirectQuery  [[video]](https://youtu.be/JtuHIslowxk?t=1883)   [[makale]](../transform-model/service-dataflows-directquery.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* Veri Akışlarında DirectQuery  [[video]](https://youtu.be/JtuHIslowxk?t=1883)   [[makale]](../transform-model/dataflows/dataflows-configure-consume.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
 * Örneğe göre web artık varsayılan olarak otomatik tablo önerileri sağlıyor  [[video]](https://youtu.be/JtuHIslowxk?t=1916)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
 * Sorgu Tanılamasında Geliştirmeler: Gizlilik Düzeyi bölümleri  [[video]](https://youtu.be/JtuHIslowxk?t=1931)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
@@ -548,8 +548,8 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Önceki sürümü indirmek için bağlantıları izleyin: 
 
-* [Power BI Desktop'ın Nisan 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
-* [Power BI Desktop'ın Nisan 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+* [Power BI Desktop'ın Nisan 2020 sürümü - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
+* [Power BI Desktop'ın Nisan 2020 sürümü - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 
@@ -848,7 +848,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu 
 
 Ekim güncelleştirmelerimiz son derece eğlenceli ve heyecan vericiydi. 
 
-Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 > [!IMPORTANT]
 > Eylül 2019 yayınından itibaren Power BI Desktop desteklenen tüm dilleri içeren tek bir .exe dosyası olarak yayınlanmaktadır. .msi sürümü artık yayınlanmamaktadır.
@@ -863,7 +863,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * DirectQuery için otomatik sayfa yenileme [[video]](https://youtu.be/A8A9baUQsXQ?t=12)  [[makale]](../create-reports/desktop-automatic-page-refresh.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/#automaticPageRefresh) 
@@ -926,7 +926,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 Eylül güncelleştirmelerimiz okula heyecan verici bir geri dönüş; başka bir deyişle öğrenilecek yeni şeyler, yaz boyu özlediğimiz arkadaşlara güncelleştirmeler ve bildiklerimizi daha iyi gelecek raporlara uygulama gibiydi. 
 
-Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 > [!IMPORTANT]
 > Eylül 2019 yayınından itibaren Power BI Desktop desteklenen tüm dilleri içeren tek bir .exe dosyası olarak yayınlanmaktadır. .msi sürümü artık yayınlanmamaktadır.
@@ -941,7 +941,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Temalardaki renk ve metin sınıfları [[video]](https://youtu.be/neq0THnRJzo?t=11)  [[makale]](../create-reports/desktop-report-themes.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/#themeJSON) 
@@ -991,7 +991,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 Ağustos güncelleştirmelerimiz Power BI Desktop’ta oluşturduğunuz raporları öne çıkarıyordu. 
 
-Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık desteklenen tüm dilleri içeren tek bir .exe dosyası olarak sunulan [Power BI Desktop’ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1002,7 +1002,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Görselleri gruplandırma [[video]](https://youtu.be/sf4n7VXoQHY?t=10)  [[makale]](../create-reports/desktop-grouping-visuals.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
@@ -1054,7 +1054,7 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Temmuz güncelleştirmesi, Power BI Desktop’ınız için birçok yeni özellik ve işlev sunmuştur. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1065,7 +1065,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Tablo ve matrisle ilgili simge kümeleri [[video]](https://youtu.be/l7OMRUF9UYg?t=11)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
@@ -1119,7 +1119,7 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 
 Haziran güncelleştirmelerimiz, Power BI Desktop'ınız için tazeleyici ve parlak yeni renk düzeniyle raporlarınıza güneş ışığının ve mavi gökyüzünün ferahlığını getiriyor; ayrıca başka geliştirmeler de var. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1130,7 +1130,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Güncelleştirilmiş bölme tasarımı  [[video]](https://youtu.be/7k-nP38uHyQ?t=8)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
@@ -1190,7 +1190,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 Mayıs güncelleştirmelerimiz cazip yeni özellikler ve renkli, çok güzel görsellerle harika raporlar koleksiyonumuzda çiçek açtı. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1201,7 +1201,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Performance Analyzer bölmesi  [[video]](https://youtu.be/O8GlHDz8xUQ?t=10)  [[makale]](../create-reports/desktop-performance-analyzer.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
@@ -1255,7 +1255,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 Nisan güncelleştirmelerimiz yağmurlu günlerde kendinizi iyi hissetmenizi sağlayacak güncelleştirmelerle dolu. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1266,7 +1266,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Filtre bölmesi geliştirmeleri  [[video]](https://youtu.be/vih35kSrEHU?t=9)  [[makale]](../create-reports/power-bi-report-filter.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
@@ -1327,7 +1327,7 @@ Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta v
 
 Mart güncelleştirmelerimiz cazip ve kullanışlı güncelleştirmelerle doluydu ve bu geliştirmelerle dört yapraklı yonca bulmuş kadar şanslı hissettiğinizi umuyoruz. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1395,7 +1395,7 @@ Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta v
 Şubat güncelleştirmelerimizde müşterilerimiz yeni veri bağlayıcılarımızın, özelliklerimizin ve analiz iyileştirmelerimizin hepsine bayıldı. Bir kutu çikolata gibi, içinden ne çıkacağını tahmin edemezsiniz, ama bu Şubat güncelleştirmesinde tüm değişiklikler tatlı ve gerçekten lezzetli. 
 
 
-[Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+[Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
@@ -1407,7 +1407,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 * Yeni filtre bölmesinin güncelleştirmeleri (önizleme)  [[video]](https://youtu.be/dMD25wfElLg?t=11)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#smartGuides) 
@@ -1463,7 +1463,7 @@ Ocak 2019'da Power BI Desktop sürümü yoktu - hepimiz yeni yılı kutlamak, ar
 
 Aralık güncelleştirmelerimiz müşterilerimizin aklını uçurdu veya en azından cazip veri odaklı görseller oluşturmalarını sağladı. 
 
-Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop**’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
+Artık [Power BI Desktop'ın en son sürümünü indirebilirsiniz](https://powerbi.microsoft.com/desktop). Windows 10 işletim sistemini kullanıyorsanız Microsoft Store'dan **Power BI Desktop** uygulamasını da edinebilirsiniz. Aylık sürümler, **Power BI Desktop** ’ı hangi yöntemle yüklediğinizden bağımsız olarak, sürüm numaralandırması ikisi arasında farklılık gösterse bile aynıdır. Daha fazla bilgi için [bu makaleye](desktop-get-the-desktop.md) bakın. 
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -1474,7 +1474,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 
@@ -1588,7 +1588,7 @@ Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta v
 
 Ekim güncelleştirmelerimiz korkunç iyi, dehşet yararlı ve şeker dolu bir kovadan daha tatlıydı. 
 
-Ekim ayında **Power BI Desktop**'ta yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+Ekim ayında **Power BI Desktop** 'ta yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 
@@ -1647,7 +1647,7 @@ Aşağıdaki video kanalında bu güncelleştirmelerin her biri açıklanmakta v
 
 Eylül güncelleştirmelerimiz heyecan verici yeni bir sınıfa yerleşmek gibiydi. Bu güncelleştirmeleri bir deste ucu yeni açılmış No. 2 kalem gibi faydalı bulacağınızı umuyoruz. 
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama
 
@@ -1995,7 +1995,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 ## <a name="february-2018-update-2555010521"></a>Şubat 2018 Güncelleştirmesi (2.55.5010.521)
 
-Şubat ayında **Power BI Desktop**’ta yapılan güncelleştirmeler için heyecanla çalıştık ve sizin de bunları beğenmenizi, bunlarla ilgili bizim kadar heyecan duyacağınızı umuyoruz.
+Şubat ayında **Power BI Desktop** ’ta yapılan güncelleştirmeler için heyecanla çalıştık ve sizin de bunları beğenmenizi, bunlarla ilgili bizim kadar heyecan duyacağınızı umuyoruz.
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -2058,7 +2058,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 ## <a name="january-2018-update-2544970761"></a>Ocak 2018 Güncelleştirmesi (2.54.4970.761)
 
-Yılbaşında **Power BI Desktop**’a yönelik bir dizi güncelleştirme sağladık ve yeni yılda bunları devam ettirmeye kararlıyız.
+Yılbaşında **Power BI Desktop** ’a yönelik bir dizi güncelleştirme sağladık ve yeni yılda bunları devam ettirmeye kararlıyız.
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -2108,7 +2108,7 @@ Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanmakta ve göster
 
 ## <a name="december-2017-update-2534954481"></a>Aralık 2017 Güncelleştirmesi (2.53.4954.481)
 
-Aralık ayında **Power BI Desktop**'ta iş zekası odaklı çocuklara (ve yetişkinlere) yönelik çok sayıda güncelleştirme yapıldı.
+Aralık ayında **Power BI Desktop** 'ta iş zekası odaklı çocuklara (ve yetişkinlere) yönelik çok sayıda güncelleştirme yapıldı.
 
 Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
@@ -2233,7 +2233,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 İlk olarak bu makaledeki **Son Güncelleştirmeler** videosunu izlemek isterseniz güncelleştirme listesinin altında bulunan video görüntüsündeki **oynat** simgesine tıklayın.
 
-**Power BI Desktop**'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
+**Power BI Desktop** 'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 ### <a name="reporting"></a>Raporlama:
 
@@ -2258,7 +2258,7 @@ Her bir güncelleştirmenin yanında bulunan bağlantılarla ilgili açıklama:
 
 ### <a name="other"></a>Diğer:
 
--   Microsoft Store'dan **Power BI Desktop**'ı edinme  [[video]](https://youtu.be/jksjtR8GnBE?t=27m12s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[makale]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
+-   Microsoft Store'dan **Power BI Desktop** 'ı edinme  [[video]](https://youtu.be/jksjtR8GnBE?t=27m12s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#windowsStore) [[makale]](desktop-get-the-desktop.md#install-as-an-app-from-the-microsoft-store)
 -   Yardım içeriğine yönelik gelişmiş erişim  [[video]](https://youtu.be/jksjtR8GnBE?t=28m42s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#help)
 
 
@@ -2694,7 +2694,7 @@ Kasım ayında yapılan yeni Power BI Desktop güncelleştirmelerini aşağıda 
 ### <a name="analytics"></a>Analiz
 
 -   Kümeleme (önizleme) [[video]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   Tahmin etme (**Power BI hizmetinde** kullanıma sunuldu) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   Tahmin etme ( **Power BI hizmetinde** kullanıma sunuldu) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   Gruplar (artık şeritte mevcut) [[video]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2711,7 +2711,7 @@ Kasım ayında yapılan yeni Power BI Desktop güncelleştirmelerini aşağıda 
 
 -   *İşlev yazma* deneyimi geliştirildi [[video]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
 -   *Yüzde* veri türü desteği [[video]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
--   **Gezgin** ve **Sorgu Bağımlılıkları**'na **Ekranı Kapla** ve **Geri Yükle** düğmeleri eklendi [[video]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
+-   **Gezgin** ve **Sorgu Bağımlılıkları** 'na **Ekranı Kapla** ve **Geri Yükle** düğmeleri eklendi [[video]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
 
 
 > [!NOTE]
@@ -3027,7 +3027,7 @@ Mayıs ayında da Power BI Desktop için önemli bir dizi güncelleştirme yapı
 -   İlişkisel veritabanı bağlayıcıları iyileştirildi ve Şemayı Görüntüle desteği eklendi
 -   Veri Kaynağı Ayarları'na yönelik iyileştirmeler [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Gelişmiş **Filtre Satırları** iletişim kutusu modu [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
--   **Sorgu Düzenleyicisi**'nde İşlev çağırmaya yönelik Satır İçi Giriş denetimleri [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   **Sorgu Düzenleyicisi** 'nde İşlev çağırmaya yönelik Satır İçi Giriş denetimleri [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   Sorgu Parametreleri: [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
     -   Sorguları parametrelere (ve tam tersi) dönüştürme
     -   **Web** bağlayıcısında URL parametreleştirme ve çok parçalı URL desteği
@@ -3163,14 +3163,14 @@ Bu ay çok daha fazla güncelleştirme ile karşınızdayız! Şubat'ın 29 gün
 
 ### <a name="report-view"></a>Rapor Görünümü:
 
--   Görsellerle Bağlantılı Verileri Görüntüleme (*Verileri CSV Dosyalarına Aktarma* da dahil)
+-   Görsellerle Bağlantılı Verileri Görüntüleme ( *Verileri CSV Dosyalarına Aktarma* da dahil)
 -   Harita iyileştirmeleri - yalnızca enlem/boylam kullanarak harita çizme
 -   KPI kullanımı sürüm desteği (SSAS MD için KPI eğilimi ve gezinti hiyerarşisi desteği de dahil)
 -   SSAS İnceleme Modu: **Alanlar** bölmesindeki **Görüntüleme** klasörlerine yönelik destek
 -   Şerit düzeni geliştirmeleri: **Rapor Araçları** için bağlamsal şerit sekmesi
 -   Yeni KPI görseli
 -   Raporların, kaydetme işlemi sırasında görünür olan sayfa ile açılmasını sağlama
--   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği (**Rapor** & **Veri** görünümleri)
+-   Alanlar bölmesindeki tablo bağlamı menüsünde bulunan **Sorguyu Düzenle** seçeneği ( **Rapor** & **Veri** görünümleri)
 -   Şeritte bulunan **Sayfayı Yinele** seçeneği
 
 
@@ -3196,8 +3196,8 @@ Bu ay çok daha fazla güncelleştirme ile karşınızdayız! Şubat'ın 29 gün
 -   SAP HANA - **Alan** etiketlerine yönelik destek
 -   **Sütunları Seç** oluşturucusunda sütunları alfabetik olarak sıralama olanağı
 -   Sütunların yeniden adlandırılmasına/kaldırılmasına/yeniden sıralanmasına ilişkin performans iyileştirildi
--   **Sorgu Düzenleyicisi**'nde Sanallaştırılmış Önizleme
--   **Sorgu Düzenleyicisi**'nde yüklenmeyen sorgular için görsel gösterge
+-   **Sorgu Düzenleyicisi** 'nde Sanallaştırılmış Önizleme
+-   **Sorgu Düzenleyicisi** 'nde yüklenmeyen sorgular için görsel gösterge
 -   Tek tıklamada Yüzde dönüştürme
 
 Bu güncelleştirmeler hakkında daha fazla bilgi edinmek ister misiniz? Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi edinebileceğiniz [blog gönderisine](https://powerbi.microsoft.com/blog/power-bi-update-lots-of-new-authoring-features-and-a-new-power-bi-desktop-update/) göz atın.
@@ -3226,7 +3226,7 @@ Yeni yılda Power BI Desktop'a yönelik yepyeni iyileştirmeler ve geliştirmele
 ### <a name="data-connectivity"></a>Veri Bağlantısı:
 
 -   DirectQuery: Artık DirectQuery modunu kullanırken ölçüler oluşturabilirsiniz
--   Artık ayrı ayrı tablolardaki verileri yenilemek için şeritteki **tümünü yenile** seçeneğini kullanmak yerine (ve buna ek olarak) bu işlemi Alan Listesi'nde (**Rapor** ve **Veri** görünümlerindeki) gerçekleştirebilirsiniz
+-   Artık ayrı ayrı tablolardaki verileri yenilemek için şeritteki **tümünü yenile** seçeneğini kullanmak yerine (ve buna ek olarak) bu işlemi Alan Listesi'nde ( **Rapor** ve **Veri** görünümlerindeki) gerçekleştirebilirsiniz
 -   SQL Server Analysis Services Çok Boyutlu modelleri için İnceleme modu Genel Kullanıma (GA) sunuldu (artık bir önizleme özelliği değil)
 -   Hiyerarşi desteğine yönelik iyileştirmeler
 -   SAP HANA bağlayıcısı Genel Kullanıma (GA) sunuldu (artık bir önizleme özelliği değil)
@@ -3290,7 +3290,7 @@ Bir yılı daha geride bırakmaya hazırlandığımız Aralık ayında Power BI 
 -   [SSAS Çok Boyut desteği - hiyerarşi desteği](../connect-data/desktop-ssas-multidimensional.md)
 -   Stripe Bağlayıcısı
 -   Smartsheet Bağlayıcısı
--   **Verileri Girin**: Tablo oluşturmak için verileri yapıştırın veya girin
+-   **Verileri Girin** : Tablo oluşturmak için verileri yapıştırın veya girin
 -   DirectQuery iyileştirmeleri: Tüm T-SQL ve SAP HANA veri türlerine yönelik destek sonucunda performans iyileştirmeleri
 -   ODBC Bağlayıcısı: Kullanıcı/Sistem DSN'si seçme desteği
 -   CSV Bağlayıcısı: Kaynak iletişim kutusunda Sütun Sınırlayıcı belirtme seçeneği
@@ -3521,11 +3521,11 @@ Bu güncelleştirme hakkında daha ayrıntılı bilgi edinmek için aşağıdaki
 
 Bu güncelleştirmedeki özellikleri aşağıda bulabilirsiniz:
 
--   **Yeni Veri Bağlayıcıları**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio ve SweetIQ.
+-   **Yeni Veri Bağlayıcıları** : appFigures, Quickbooks Online, Zendesk, GitHub, Twilio ve SweetIQ.
 
--   **Yeni Dönüştürme Seçenekleri**: Metin Sütunlarındaki İlk/Son karakterleri veya belirli karakter Aralıklarını ayıklama; Sorguları Birleştir iletişim kutusunda Birleştirme Türü belirtme seçeneği; Sütunu Sınırlayıcıya Göre Böl iletişim kutusunda Alıntı Stilini özelleştirme olanağı.
+-   **Yeni Dönüştürme Seçenekleri** : Metin Sütunlarındaki İlk/Son karakterleri veya belirli karakter Aralıklarını ayıklama; Sorguları Birleştir iletişim kutusunda Birleştirme Türü belirtme seçeneği; Sütunu Sınırlayıcıya Göre Böl iletişim kutusunda Alıntı Stilini özelleştirme olanağı.
 
--   **Rapor Yazma Geliştirmeleri**: Yeni görselleştirmeler (Alan Grafiği, Şelale, Halka ve Matris); Yeni görsel biçimlendirme ve özelleştirme seçenekleri (etiketler, başlıklar, arka plan, açıklama, renkler vb.); Raporunuza Metin Kutusu ve Resim ekleme; Raporlar ve rapor tabloları için köprü desteği; Geri Al/Yinele eylemleri.
+-   **Rapor Yazma Geliştirmeleri** : Yeni görselleştirmeler (Alan Grafiği, Şelale, Halka ve Matris); Yeni görsel biçimlendirme ve özelleştirme seçenekleri (etiketler, başlıklar, arka plan, açıklama, renkler vb.); Raporunuza Metin Kutusu ve Resim ekleme; Raporlar ve rapor tabloları için köprü desteği; Geri Al/Yinele eylemleri.
 
 -   Analysis Services Tablolu Modellerinde **Doğrudan Rapor İnceleme** olanağı.
 

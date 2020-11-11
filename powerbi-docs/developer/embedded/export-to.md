@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116466"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396806"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -52,7 +52,7 @@ Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak içi
 
 ### <a name="bookmarks"></a>Yer imleri
 
-[Yer işaretleri](../../consumer/end-user-bookmarks.md) uygulanan filtreler ve rapordaki görsellerin durumu dahil olmak üzere belirli bir rapor yapılandırmasını kaydetmek için kullanılabilir. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API'sini kullanarak bir raporun yer işaretini program aracılığıyla ve iki farklı şekilde dışarı aktarabilirsiniz:
+[Yer işaretleri](../../consumer/end-user-bookmarks.md) uygulanan filtreler ve rapordaki görsellerin durumu dahil olmak üzere belirli bir rapor yapılandırmasını kaydetmek için kullanılabilir. [exportToFile](/rest/api/power-bi/reports/exporttofile) API'sini kullanarak bir raporun yer işaretini program aracılığıyla ve iki farklı şekilde dışarı aktarabilirsiniz:
 
 * **Var olan bir yer işaretini dışarı aktarma**
 

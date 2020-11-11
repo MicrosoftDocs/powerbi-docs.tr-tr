@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916970"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397243"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma
 
@@ -189,4 +189,4 @@ Bu öğreticide, aşağıdaki adımları kullanarak Power BI’da bir ikili tahm
 * Modeli bir veri akışı varlığına uygulama
 * Modeldeki puanlanmış çıkışı bir Power BI raporunda kullanma
 
-Power BI'da Machine Learning tümleştirmesi hakkında daha fazla bilgi için bkz. [Power BI'da Otomatik Makine Öğrenmesi](../transform-model/service-machine-learning-automated.md).
+Power BI'da Machine Learning tümleştirmesi hakkında daha fazla bilgi için bkz. [Power BI'da Otomatik Makine Öğrenmesi](../transform-model/dataflows/dataflows-machine-learning-integration.md).

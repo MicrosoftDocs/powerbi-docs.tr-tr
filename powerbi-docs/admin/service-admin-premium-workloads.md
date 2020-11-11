@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632860"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396346"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
-Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme ve yapılandırma açıklanmaktadır. Varsayılan olarak, kapasiteler yalnızca çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. **[AI (Bilişsel Hizmetler)](../transform-model/service-cognitive-services.md)** , **[Veri akışları](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** ve **[Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** için de ek iş yüklerini etkinleştirebilir ve yapılandırabilirsiniz.
+Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme ve yapılandırma açıklanmaktadır. Varsayılan olarak, kapasiteler yalnızca çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. **[AI (Bilişsel Hizmetler)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md)** ve **[Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** için de ek iş yüklerini etkinleştirebilir ve yapılandırabilirsiniz.
 
 ## <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
@@ -41,7 +41,7 @@ AI iş yükü Power BI'da bilişsel hizmetleri ve Otomatik Makine Öğrenmesi'ni
 |---------------------------------|----------------------------------------|
 | **En Yüksek Bellek (%)** | Kapasitede AI işlemlerinin kullanabileceği en yüksek kullanılabilir bellek yüzdesi. |
 | **Power BI Desktop’tan kullanıma izin ver** | Bu ayar gelecekte kullanım için ayrılmıştır ve tüm kiracılarda görüntülenmez. |
-| **Makine öğrenmesi modelleri oluşturmaya izin ver** | İş analistlerinin doğrudan Power BI'da makine öğrenmesi modellerini eğitmesine, doğrulamasına ve çağırmasına izin verilip verilmeyeceğini belirtir. Daha fazla bilgi için bkz. [Power BI’da Otomatik Makine Öğrenmesi (Önizleme)](../transform-model/service-machine-learning-automated.md). |
+| **Makine öğrenmesi modelleri oluşturmaya izin ver** | İş analistlerinin doğrudan Power BI'da makine öğrenmesi modellerini eğitmesine, doğrulamasına ve çağırmasına izin verilip verilmeyeceğini belirtir. Daha fazla bilgi için bkz. [Power BI’da Otomatik Makine Öğrenmesi (Önizleme)](../transform-model/dataflows/dataflows-machine-learning-integration.md). |
 | **AI istekleri için paralelliği etkinleştir** | AI isteklerinin paralel çalıştırılıp çalıştırılamayacağını belirtir. |
 |  |  |
 
@@ -187,7 +187,7 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 
 1. **Kapasite ayarları** > **PREMIUM KAPASİTELER** içinde, bir kapasite seçin.
 
-1. **DİĞER SEÇENEKLER** altında **İş Yükleri**’ni genişletin.
+1. **DİĞER SEÇENEKLER** altında **İş Yükleri** ’ni genişletin.
 
 1. Bir veya daha fazla iş yükünü etkinleştirin ve **En Büyük Bellek** için ve diğer ayarlar için değer belirleyin.
 
@@ -209,7 +209,7 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 ## <a name="next-steps"></a>Sonraki adımlar
 
 [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)
-[Veri akışlarıyla Power BI'da self servis veri hazırlığı](../transform-model/service-dataflows-overview.md)
+[Veri akışlarıyla Power BI'da self servis veri hazırlığı](../transform-model/dataflows/dataflows-introduction-self-service.md)
 [Power BI Premium'da sayfalandırılmış raporlar nedir?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 [Power BI Desktop'ta otomatik sayfa yenileme (önizleme)](../create-reports/desktop-automatic-page-refresh.md)
 

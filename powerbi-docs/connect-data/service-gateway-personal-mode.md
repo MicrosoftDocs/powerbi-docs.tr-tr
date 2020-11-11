@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/09/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632584"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483662"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI 'de kişisel ağ geçitleri kullanma
 
@@ -45,7 +45,7 @@ Aşağıdaki tablo, şirket içi veri ağ geçidi ve şirket içi veri ağ geçi
 
 1. [Şirket içi veri ağ geçidini indirin](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409).
 
-2. Yükleyicide, şirket içi veri ağ geçidini (kişisel mod) belirleyip **İleri**'yi seçin.
+2. Yükleyicide, şirket içi veri ağ geçidini (kişisel mod) belirleyip **İleri** 'yi seçin.
 
    ![Şirket içi veri ağ geçidini (kişisel mod) seçme](media/service-gateway-personal-mode/personal-gateway-select.png)
 
@@ -87,7 +87,7 @@ Bir kişisel ağ geçidinde Hızlı Birleştirme yapma, sorguları yürütürken
 
 **Soru:** Neden kimlik bilgilerimi güncelleştirmem isteniyor?
   
-**Cevap:** Birçok durumda kimlik bilgileriniz istenebilir. En yaygın olarak, şirket içi veri ağ geçidini (kişisel mod) Power BI - kişisel ağ geçidinizden farklı bir makinede yeniden yüklediğinizde karşılaşırsınız. Veya veri kaynağında bir sorun olabilir, Power BI bir test bağlantısını gerçekleştirememiş olabilir ya da zaman aşımı veya bir sistem hatası meydana gelmiş olabilir. Power BI hizmetinde kimlik bilgilerinizi güncelleştirmek için dişli simgesini ve **Ayarlar** > **Veri Kümeleri**'ni seçin. Söz konusu veri kümesini bulun ve **Veri kaynağı kimlik bilgileri**'ni seçin.
+**Cevap:** Birçok durumda kimlik bilgileriniz istenebilir. En yaygın olarak, şirket içi veri ağ geçidini (kişisel mod) Power BI - kişisel ağ geçidinizden farklı bir makinede yeniden yüklediğinizde karşılaşırsınız. Veya veri kaynağında bir sorun olabilir, Power BI bir test bağlantısını gerçekleştirememiş olabilir ya da zaman aşımı veya bir sistem hatası meydana gelmiş olabilir. Power BI hizmetinde kimlik bilgilerinizi güncelleştirmek için dişli simgesini ve **Ayarlar** > **Veri Kümeleri** 'ni seçin. Söz konusu veri kümesini bulun ve **Veri kaynağı kimlik bilgileri** 'ni seçin.
 
 **Soru:** Yükseltme sırasında önceki kişisel ağ geçidim ne kadar süreyle çevrimdışı olacak?
   
@@ -99,6 +99,7 @@ Bir kişisel ağ geçidinde Hızlı Birleştirme yapma, sorguları yürütürken
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
+* [Ağ geçidi veri kaynağı ekleme veya kaldırma](service-gateway-data-sources.md)
 * [Şirket içi veri ağ geçidi için proxy ayarlarını yapılandırma](/data-integration/gateway/service-gateway-proxy)  
 
 Başka bir sorunuz mu var? [Power BI Topluluğu](https://community.powerbi.com/)'nu deneyin.

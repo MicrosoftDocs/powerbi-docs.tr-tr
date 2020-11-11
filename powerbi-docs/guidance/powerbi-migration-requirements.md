@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680955"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396668"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için gereksinimleri toplama
 
@@ -74,7 +74,7 @@ Verilerle ilgili şu ayrıntılı bilgileri derleyin:
 - **Açık sorunlar ve kapsam öğeleri:** Bilinen sorunları, bilinen veri kalitesi kusurlarını, ileride gerçekleştirilecek bakım işlemlerini, veya ertelenmiş istekleri bu aşamada kapsama ekleyin.
 
 > [!IMPORTANT]
-> [Paylaşılan veri kümeleriyle](../connect-data/service-datasets-share.md) veri yeniden kullanılabilirliği elde edilebilir. Güvenilirliği göstermek ve bulunabilirliği geliştirmek için bunu isteğe bağlı olarak [sertifikalı](../collaborate-share/service-endorse-content.md) yapabilirsiniz. Birden fazla veri kümesindeki yinelenen mantığın azaltılması için [veri akışlarıyla](../transform-model/service-dataflows-overview.md) veri hazırlama yeniden kullanılabilirliği elde edebilirsiniz. Veri akışları, veriler daha az sıklıkta alındığı için kaynak sistemlerin yükünü de önemli ölçüde azaltır. Böylece, birden fazla veri kümesi verileri veri akışından içeri aktarabilir.
+> [Paylaşılan veri kümeleriyle](../connect-data/service-datasets-share.md) veri yeniden kullanılabilirliği elde edilebilir. Güvenilirliği göstermek ve bulunabilirliği geliştirmek için bunu isteğe bağlı olarak [sertifikalı](../collaborate-share/service-endorse-content.md) yapabilirsiniz. Birden fazla veri kümesindeki yinelenen mantığın azaltılması için [veri akışlarıyla](../transform-model/dataflows/dataflows-introduction-self-service.md) veri hazırlama yeniden kullanılabilirliği elde edebilirsiniz. Veri akışları, veriler daha az sıklıkta alındığı için kaynak sistemlerin yükünü de önemli ölçüde azaltır. Böylece, birden fazla veri kümesi verileri veri akışından içeri aktarabilir.
 
 ## <a name="identify-improvement-opportunities"></a>Geliştirme fırsatlarını tanımlama
 

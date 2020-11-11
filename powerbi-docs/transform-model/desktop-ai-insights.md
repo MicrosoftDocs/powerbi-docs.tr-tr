@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525513"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396760"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop’ta Yapay Zeka İçgörüleri’ni kullanma
 
@@ -26,7 +26,7 @@ Bu makalede her ikisi de Azure Bilişsel Hizmetler'den olan Metin Analizi ve Gö
 
 ## <a name="how-to-enable-ai-insights"></a>Yapay Zeka İçgörüleri'ni etkinleştirme
 
-Yapay Zeka İçgörüleri, Power BI Desktop’ın Haziran 2020 sürümü kapsamında genel kullanıma sunuldu. Power BI Desktop’ın önceki sürümlerinde, Power BI’daki Yapay Zeka İçgörüleri’nin **Dosya > Seçenekler ve ayarlar > Seçenekler**’i ve sonra soldaki sütundan **Önizleme özellikleri**’ni seçerek etkinleştirilmesi gerekir. Sağ bölmede bir **Yapay Zeka İçgörüleri işlev tarayıcısı** seçimi vardır. Önizleme özelliğini etkinleştirmek için **Yapay Zeka İçgörüleri işlev tarayıcısı**'nın yanındaki kutuyu işaretleyin. Önizleme özelliğinin geçerlilik kazanması için Power BI Desktop'ı yeniden başlatmanız gerekir.
+Yapay Zeka İçgörüleri, Power BI Desktop’ın Haziran 2020 sürümü kapsamında genel kullanıma sunuldu. Power BI Desktop’ın önceki sürümlerinde, Power BI’daki Yapay Zeka İçgörüleri’nin **Dosya > Seçenekler ve ayarlar > Seçenekler** ’i ve sonra soldaki sütundan **Önizleme özellikleri** ’ni seçerek etkinleştirilmesi gerekir. Sağ bölmede bir **Yapay Zeka İçgörüleri işlev tarayıcısı** seçimi vardır. Önizleme özelliğini etkinleştirmek için **Yapay Zeka İçgörüleri işlev tarayıcısı** 'nın yanındaki kutuyu işaretleyin. Önizleme özelliğinin geçerlilik kazanması için Power BI Desktop'ı yeniden başlatmanız gerekir.
 
 > [!NOTE]
 > Yapay Zeka İçgörüleri, Haziran 2020 sürümünden itibaren Power BI Desktop’ın tüm sürümlerinde genel kullanıma sunuldu ve bu sürümlerde önizleme özelliği olarak etkinleştirilmesi gerekmiyor.
@@ -53,7 +53,7 @@ Dönüştürmeler Power BI hizmetinde yürütülür ve Azure Bilişsel Hizmetler
 
 ### <a name="enabling-text-analytics-and-vision-on-premium-capacities"></a>Premium kapasitelerde Metin Analizi ve Görüntü İşleme'yi etkinleştirme
 
-Bilişsel Hizmetler EM2, A2 veya P1 ve üstü Premium kapasite düğümleri için desteklenir. Bilişsel Hizmetler'i çalıştırmak için kapasitede ayrı bir AI iş yükü kullanılır. Bu özelliklerin genel önizlemesi (Haziran 2019 öncesi) sırasında bu iş yükü varsayılan olarak devre dışı bırakılmıştı. Power BI'da Bilişsel Hizmetleri kullanmadan önce yönetim portalının **kapasite ayarlarında** AI iş yükünün etkinleştirilmesi gerekir. **İş yükleri** bölümünde **AI iş yükü**'nü açmalı ve bu iş yükünün kullanmasını istediğiniz en büyük bellek miktarını tanımlamalısınız. Önerilen bellek sınırı %20'dir. Bu sınırın aşılması sorgunun yavaşlamasına neden olur.
+Bilişsel Hizmetler EM2, A2 veya P1 ve üstü Premium kapasite düğümleri için desteklenir. Bilişsel Hizmetler'i çalıştırmak için kapasitede ayrı bir AI iş yükü kullanılır. Bu özelliklerin genel önizlemesi (Haziran 2019 öncesi) sırasında bu iş yükü varsayılan olarak devre dışı bırakılmıştı. Power BI'da Bilişsel Hizmetleri kullanmadan önce yönetim portalının **kapasite ayarlarında** AI iş yükünün etkinleştirilmesi gerekir. **İş yükleri** bölümünde **AI iş yükü** 'nü açmalı ve bu iş yükünün kullanmasını istediğiniz en büyük bellek miktarını tanımlamalısınız. Önerilen bellek sınırı %20'dir. Bu sınırın aşılması sorgunun yavaşlamasına neden olur.
 
 ### <a name="available-functions"></a>Kullanılabilir işlevler
 
@@ -105,7 +105,7 @@ Power BI işlevi çalıştırmak üzere bir Premium kapasite seçer ve sonuçlar
 
 ![Kullanılacak Premium kapasiteyi seçin](media/desktop-ai-insights/ai-insights-04.png)
 
-**Cultureinfo**, metnin dilini belirtmeye yönelik isteğe bağlı bir giriştir. Bu alan bir ISO kodudur. Cultureinfo için giriş olarak bir sütunu veya statik bir alanı kullanabilirsiniz. Bu örnekte tüm sütun için dil olarak İngilizce (en) belirtilmiştir. Bu alanı boş bırakırsanız, Power BI işlevi uygulamadan önce dili otomatik olarak algılar. Sonra **Uygula**'yı seçin.
+**Cultureinfo** , metnin dilini belirtmeye yönelik isteğe bağlı bir giriştir. Bu alan bir ISO kodudur. Cultureinfo için giriş olarak bir sütunu veya statik bir alanı kullanabilirsiniz. Bu örnekte tüm sütun için dil olarak İngilizce (en) belirtilmiştir. Bu alanı boş bırakırsanız, Power BI işlevi uygulamadan önce dili otomatik olarak algılar. Sonra **Uygula** 'yı seçin.
 
 Yeni veri kaynağında Yapay Zeka İçgörüleri'ni ilk kez kullandığınızda, verilerinizin gizlilik düzeyini ayarlamanız istenir.
 
@@ -158,7 +158,7 @@ Bu özelliği kullanmak için bir veri bilimcisi Azure portalını kullanarak BI
 
 Bu işlevsellik Power BI Desktop’da, Power BI veri akışlarında ve Power BI hizmetindeki Power Query Online'da desteklenir.
 
-Veri akışları hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self servis veri hazırlığı](service-dataflows-overview.md).
+Veri akışları hakkında daha fazla bilgi edinmek için bkz. [Power BI'da self servis veri hazırlığı](./dataflows/dataflows-introduction-self-service.md).
 
 Azure Machine Learning hakkında daha fazla bilgi edinmek için aşağıdaki makalelere bakın:
 
@@ -178,8 +178,8 @@ Bu bölümdeki adımlarda Power BI kullanıcısına Azure ML hizmetinde barınd�
 2. **Abonelikler** sayfasına gidin. **Abonelikler** sayfasını, Azure portalının sol gezinti menüsündeki **Tüm Hizmetler** listesi aracılığıyla bulabilirsiniz.
 3. Aboneliğinizi seçme
 4. **Erişim denetimi (IAM)** öğesini ve sonra da **Ekle** düğmesini seçin.
-5. Rol olarak **Okuyucu**'yu seçin. Azure ML modeline erişim vermek istediğiniz Power BI kullanıcısını seçin.
-6. **Kaydet**'i seçin
+5. Rol olarak **Okuyucu** 'yu seçin. Azure ML modeline erişim vermek istediğiniz Power BI kullanıcısını seçin.
+6. **Kaydet** 'i seçin
 7. Kullanıcıya belirli bir Machine Learning Studio (klasik) web hizmeti *veya* modeli barındıran Machine Learning çalışma alanı üzerinde **Okuma** erişimi vermek için üç ile altı arasındaki adımları yineleyin.
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning modelleri için şema bulma
@@ -207,7 +207,7 @@ Azure ML modelini çağırmak için, açılan listeden seçilen tüm varlık sü
 
 ![Seçebileceğiniz Azure Machine Learning modellerini gösteren ekran görüntüsü.](media/desktop-ai-insights/ai-insights-07.png)
 
-Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Tamam**'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
+Azure ML modeli çıkışının önizlemesini varlık tablosunda yeni bir sütun olarak görüntülemek için **Tamam** 'ı seçin. Ayrıca model çağrısını da sorgu için uygulanmış bir adım olarak görürsünüz.
 
 Model birden çok çıkış parametresi döndürürse, bunlar çıkış sütununda bir kayıt olarak gruplandırılır. Sütunu genişletip ayrı sütunlarda tek tek çıkış parametreleri oluşturabilirsiniz.
 
@@ -225,7 +225,7 @@ Bu makalede Machine Learning'i Power BI Desktop'a tümleştirme işlemine genel 
 
 - [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Power BI'da Bilişsel Hizmetler](service-cognitive-services.md)
-- [Power BI'da Azure Machine Learning tümleştirmesi](service-machine-learning-integration.md)
+- [Power BI'da Bilişsel Hizmetler](./dataflows/dataflows-machine-learning-integration.md)
+- [Power BI'da Azure Machine Learning tümleştirmesi](./dataflows/dataflows-machine-learning-integration.md)
 - [Uygulama ile Premium kapasiteleri izleme](../admin/service-admin-premium-monitor-capacity.md)
 - [Premium kapasite ölçümler uygulamasında yapay zeka ölçümleri](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/) mevcut olan yapay zeka ölçümleri

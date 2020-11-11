@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91639046"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397312"
 ---
 # <a name="premium-features-of-dataflows"></a>Veri akışlarının Premium özellikleri
 
@@ -34,7 +34,7 @@ Aşağıdaki bölümlerde bu özellikler daha ayrıntılı olarak açıklanmış
 
 Power BI geliştirilmiş işlem altyapısı, Power BI Premium abonelerinin kapasitelerini kullanarak veri akışlarının kullanımını iyileştirmelerini sağlar. Geliştirilmiş işlem altyapısını kullanmak şu avantajları sunar:
 
-* *Birleştirme*, *benzersiz*, *filtre* ve *gruplama* gibi işlemleri gibi hesaplanan varlıklar üzerinde gerçekleştirilen uzun süreli ETL adımları için gerekli olan yenileme süresini önemli ölçüde azaltır.
+* *Birleştirme* , *benzersiz* , *filtre* ve *gruplama* gibi işlemleri gibi hesaplanan varlıklar üzerinde gerçekleştirilen uzun süreli ETL adımları için gerekli olan yenileme süresini önemli ölçüde azaltır.
 * Varlıklar üzerinde DirectQuery sorgusu gerçekleştirme
 
 Bir sonraki bölümde geliştirilmiş işlem altyapısını etkinleştirme adımları ve sık sorulan soruların yanıtları verilmiştir.
@@ -52,8 +52,8 @@ Geliştirilmiş işlem altyapısı açıldıktan sonra **veri akışlarına** d�
 
 İşlem altyapısını en verimli şekilde kullanmak için ETL aşamasını şu şekilde iki ayrı veri akışına ayırın:
 
-* **Veri akışı 1**: Bu veri akışı yalnızca veri kaynağındaki gerekli verileri almalı ve veri akışı 2 içine yerleştirmelidir.
-* **Veri akışı 2**: Tüm ETL işlemlerini bu ikinci veri akışında gerçekleştirin ancak aynı kapasite üzerinde yer alan Veri akışı 1'e başvurduğunuzdan emin olun. Ayrıca işlem altyapısının kullanıldığından emin olmak için diğer işlemlerden önce katlanabilecek (filtre, gruplama, benzersiz, birleşim) işlemler gerçekleştirdiğinizden emin olun.
+* **Veri akışı 1** : Bu veri akışı yalnızca veri kaynağındaki gerekli verileri almalı ve veri akışı 2 içine yerleştirmelidir.
+* **Veri akışı 2** : Tüm ETL işlemlerini bu ikinci veri akışında gerçekleştirin ancak aynı kapasite üzerinde yer alan Veri akışı 1'e başvurduğunuzdan emin olun. Ayrıca işlem altyapısının kullanıldığından emin olmak için diğer işlemlerden önce katlanabilecek (filtre, gruplama, benzersiz, birleşim) işlemler gerçekleştirdiğinizden emin olun.
 
 ### <a name="common-questions-and-answers"></a>Sık sorulan sorular ve yanıtları
 
@@ -146,7 +146,7 @@ Her yenileme işleminde verilerin çekilmesinden kaçınmak için veri akışlar
 
 ![Artımlı yenileme](media/dataflows-premium-features/incremental-refresh.png)
 
-Artımlı yenileme ayarlandığında veri akışına tarih aralığını belirten parametreler eklenir. Artımlı yenilemeyi ayarlama hakkında ayrıntılı bilgi için [artımlı yenileme](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) makalesini inceleyin.
+Artımlı yenileme ayarlandığında veri akışına tarih aralığını belirten parametreler eklenir. Artımlı yenilemeyi ayarlama hakkında ayrıntılı bilgi için [artımlı yenileme](/power-query/dataflows/incremental-refresh) makalesini inceleyin.
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>Artımlı yenilemenin kullanılmaması gereken durumlar
 

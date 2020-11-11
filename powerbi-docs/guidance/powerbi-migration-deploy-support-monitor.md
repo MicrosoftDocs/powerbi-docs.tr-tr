@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681015"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396139"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI'a dağıtma
 
@@ -76,7 +76,7 @@ Dağıtım işlemi boyunca, aşağıda belirtilenler gibi tüm çözümün deste
 - **Ağ geçidi bakımı:** Veri ağ geçidinde [yeni bir veri kaynağını](../connect-data/service-gateway-data-sources.md) kaydetmeniz gerekebilir.
 - **Ağ geçidi sürücüleri ve bağlayıcılar:** Yeni bir özel veri kaynağının kullanılması, ağ geçidi kümesinde yeni bir sürücünün veya özel bağlayıcının kullanılmasını gerektirebilir.
 - **Yeni bir Premium kapasite oluşturma:** Mevcut bir [Premium kapasiteyi](../admin/service-premium-capacity-manage.md) kullanabilirsiniz. Ya da, yeni bir Premium kapasitenin kullanılmasını gerektiren durumlar oluşabilir. Departmana ilişkin bir iş yükünü ayırmak istediğinizde bu durum yaşanabilir.
-- **Power BI veri akışı ayarlama:** Veri hazırlama etkinlikleri, Power Query Online kullanılarak her [Power BI veri akışında](../transform-model/service-dataflows-overview.md) bir kez ayarlanabilir. Bu, veri hazırlama işlemlerinin birçok Power BI Desktop dosyasında yinelenmesine yönelik gereksinimini ortadan kaldırır.
+- **Power BI veri akışı ayarlama:** Veri hazırlama etkinlikleri, Power Query Online kullanılarak her [Power BI veri akışında](../transform-model/dataflows/dataflows-introduction-self-service.md) bir kez ayarlanabilir. Bu, veri hazırlama işlemlerinin birçok Power BI Desktop dosyasında yinelenmesine yönelik gereksinimini ortadan kaldırır.
 - **Yeni bir kuruluş görseli kaydetme:** AppSource’ta bulunmayan özel görsellere yönelik [kuruluş görseli](../developer/visuals/power-bi-custom-visuals-organization.md) kaydı yönetici portalından yapılabilir.
 - **Öne çıkan içerik ayarlama:** Power BI hizmeti giriş sayfasında kimlerin [içeriği öne çıkarabileceğini](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) denetleyen bir kiracı ayarı bulunur.
 - **Duyarlılık etiketleri ayarlama:** Tüm [duyarlılık etiketleri](../admin/service-security-data-protection-overview.md) Microsoft Information Protection ile tümleşiktir.

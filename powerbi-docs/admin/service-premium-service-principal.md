@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116512"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483731"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 
@@ -22,7 +22,7 @@ Hizmet sorumlusu, katılımsız kaynak ve hizmet düzeyinde işlemler gerçekle�
 
 Power BI Premium, Power BI Embedded ile aynı hizmet sorumlusu işlevini kullanır. Daha fazla bilgi edinmek için bkz. [Hizmet sorumlularıyla Power BI içeriği ekleme](../developer/embedded/embed-service-principal.md).
 
-Ayrıca **Power BI Premium**’da hizmet sorumluları [XMLA uç noktasıyla](service-premium-connect-tools.md) birlikte kullanılarak çalışma alanları sağlama, modelleri dağıtma ve veri kümesini yenileme gibi veri kümesi yönetim görevleri şunlarla otomatik hale getirilebilir:
+Ayrıca **Power BI Premium** ’da hizmet sorumluları [XMLA uç noktasıyla](service-premium-connect-tools.md) birlikte kullanılarak çalışma alanları sağlama, modelleri dağıtma ve veri kümesini yenileme gibi veri kümesi yönetim görevleri şunlarla otomatik hale getirilebilir:
 
 - PowerShell
 - Azure Otomasyonu
@@ -32,9 +32,6 @@ Ayrıca **Power BI Premium**’da hizmet sorumluları [XMLA uç noktasıyla](ser
 Hizmet sorumlularını kullanan XMLA uç nokta bağlantılarını yalnızca [Yeni çalışma alanları](../collaborate-share/service-new-workspaces.md) destekler. Klasik çalışma alanları desteklenmez. Hizmet sorumlusu yalnızca atandığı çalışma alanlarındaki görevleri gerçekleştirmek için gereken izinlere sahiptir. İzinler, normal UPN hesaplarına çok benzer biçimde çalışma alanı erişimi aracılığıyla atanır.
 
 Yazma işlemleri gerçekleştirmek için kapasitenin **Veri kümeleri iş yükünde** [XMLA uç noktasının okuma-yazma için etkinleştirilmiş](service-premium-connect-tools.md#enable-xmla-read-write) olması gerekir. Power BI Desktop’tan yayımlanan veri kümelerinde [Gelişmiş meta veri biçimi](../connect-data/desktop-enhanced-dataset-metadata.md) özelliği etkinleştirilmelidir.
-
-> [!NOTE]
-> Power BI Premium’da XMLA uç nokta özelliği **Önizleme** aşamasındadır. Önizleme aşamasındaki özellikler üretim ortamında kullanılmamalıdır. Belirli işlevler, destek ve belgeler sınırlıdır.  Ayrıntılar için [Microsoft Çevrimiçi Hizmet Koşulları’na (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) göz atın.
 
 ## <a name="create-a-service-principal"></a>Hizmet sorumlusu oluşturma
 
@@ -53,7 +50,7 @@ Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için beli
 
 Power BI’da hizmet sorumlularını kullanabilmek için önce yöneticinin Power BI yönetim portalında hizmet sorumlusu erişimini etkinleştirmesi gerekir.
 
-Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlularının Power BI API'leri kullanmasına izin ver** seçeneğini genişletin ve **Etkin**’e tıklayın. İzinleri güvenlik grubuna uygulamak için **Belirli güvenlik grupları**’na grup adını ekleyin.
+Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlularının Power BI API'leri kullanmasına izin ver** seçeneğini genişletin ve **Etkin** ’e tıklayın. İzinleri güvenlik grubuna uygulamak için **Belirli güvenlik grupları** ’na grup adını ekleyin.
 
 ![Çalışma alanı ayarları](media/service-premium-service-principal/admin-portal.png)
 
@@ -61,7 +58,7 @@ Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlu
 
 Hizmet sorumlunuzun Premium çalışma alanı ve veri kümesi işlemleri yaparken gereken izinlere sahip olması için, hizmet sorumlusunu çalışma alanı Üyesi veya Yöneticisi olarak eklemelisiniz. Burada Power BI hizmetinde Çalışma alanı erişiminin kullanılması açıklanmıştır ama [Grup Kullanıcısı Ekleme User REST API’sini](/rest/api/power-bi/groups/addgroupuser) de kullanabilirsiniz.
 
-1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi**’ni seçin.
+1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi** ’ni seçin.
 
     ![Çalışma alanı erişimi ayarları](media/service-premium-service-principal/workspace-access.png)
 
