@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Akıllı açıklamalar
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: Anormallik algılama
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Halka grafikler
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Kartogramlar (koropletler)
