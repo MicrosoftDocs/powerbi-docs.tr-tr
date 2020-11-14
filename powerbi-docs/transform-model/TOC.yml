@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Başvuru
       items:
+        - name: Power BI Desktop’ta Alan listesini kullanma (önizleme)
+          href: desktop-field-list.md
         - name: Formül düzenleyicisi kısayolları
           href: desktop-formula-editor.md

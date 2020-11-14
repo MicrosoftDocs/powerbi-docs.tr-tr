@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Power BI Premium hakkında SSS
               href: service-premium-faq.md
+            - name: Kullanıcı Başına Power BI Premium SSS
+              href: service-premium-per-user-faq.md
     - name: Nasıl yapılır
       items:
         - name: Lisanslama ve kaydolma
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: İş yüklerini yapılandırma
               href: service-admin-premium-workloads.md
+            - name: Test için Power BI Premium satın alma
+              href: service-admin-premium-testing.md
             - name: Uygulama ile kapasiteleri izleme
               href: service-admin-premium-monitor-capacity.md
             - name: Premium iş yükü ölçümlerini izleme
