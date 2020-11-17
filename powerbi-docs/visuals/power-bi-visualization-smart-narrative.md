@@ -2,19 +2,20 @@
 title: Akıllı anlatılar öğreticisi
 description: "Öğretici: Power BI'da akıllı anlatı özeti görselleştirmeleri oluşturma"
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862937"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397220"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>Akıllı anlatı özetleri oluşturma (önizleme)
 
@@ -33,9 +34,12 @@ Raporlarınızda akıllı anlatı özetlerini kullanarak ana fikirlere dikkat ç
 >
 >![Power BI seçeneklerini gösteren ekran görüntüsü. Akıllı anlatı görseli seçeneği belirlenmiş.](media/power-bi-visualization-smart-narratives/2.png)
 
-Bu öğreticiyi takip etmek için çevrimiçi satış senaryosunu konu alan [örnek dosyayı](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) indirebilirsiniz.
 
-## <a name="get-started"></a>başlarken 
+
+## <a name="get-started"></a>Kullanmaya başlayın 
+Akıllı anlatıları nasıl kullanacağınızı gösteren Justyna'yı izleyin ve sonrasında videonun altında bulunan öğreticiyi kullanarak kendiniz deneyin.  Bu öğreticiyi takip etmek için çevrimiçi satış senaryosunu konu alan [örnek dosyayı](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) indirebilirsiniz.
+
+> [!VIDEO https://youtu.be/01UrT-z37sw]
 
 Otomatik özet oluşturmak için **Görselleştirmeler** bölmesinde **Akıllı anlatı** simgesini seçin.
 
@@ -95,9 +99,10 @@ Akıllı anlatı özelliği aşağıdaki işlevleri desteklemez:
 - Dinamik değerlerin ve koşullu biçimlendirmenin (örneğin, veri bağlantılı başlık) kullanılması
 - Azure Analysis Services, şirket içi AS
 - KPI'ler, kartlar, çoklu satır kartları, haritalar, tablolar, matrisler, R görselleri veya Python görselleri, özel görseller 
-- Diğer sütunlar tarafından gruplanmış sütunlar içeren ve veri grubu alanını temel alan görseller 
+- Diğer sütunlar tarafından gruplanmış sütunlar içeren ve veri grubu alanını temel alan görseller 
 - Görselde çapraz filtreleme
 - Dinamik değerleri yeniden adlandırma veya otomatik oluşturulmuş dinamik değerleri düzenleme
 - Soru-Cevap aritmetiği ve genel toplam yüzdesi gibi anlık hesaplamalar içeren görsellerin özetleri 
+- [Hesaplama grupları](/analysis-services/tabular-models/calculation-groups)
    
 

@@ -1,7 +1,7 @@
 ---
 title: Bir Power BI görselleştirmesindeki verileri dışarı aktarma
 description: Bir rapor görselleştirmesindeki ve pano görselleştirmesindeki verileri dışarı aktarıp Excel'de görüntüleyin.
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861602"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412982"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -81,8 +81,8 @@ Birlikte ilerleyebilmek için, [Tedarik analizi örneği raporunu](../create-rep
 
 Artık dışarı aktarma işlemine yönelik iki seçeneği de denemeye hazırız.
 
-### <a name="export-summarized-data"></a>***Özetlenmiş*** verileri genişletme
-Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız **Özetlenmiş veriler** seçeneğini belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görseli oluşturmak için kullanılmakta olan verileri (sütunlar ve ölçüler) gösterir.  Görselin toplaması varsa, toplanan verileri dışarı aktarırsınız. Örneğin, dört çubuk gösteren bir çubuk grafiğiniz varsa dört Excel veri satırı elde edersiniz. Özetlenmiş verileri Power BI hizmetinde *.xlsx* ve *.csv* olarak ve Power BI Desktop'ta .csv olarak sağlanır.
+### <a name="export-_summarized__-data"></a>**_Özetlenmiş_* _ verileri dışarı aktarma
+Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız _ *Özetlenmiş veriler** seçeneğini belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görseli oluşturmak için kullanılmakta olan verileri (sütunlar ve ölçüler) gösterir.  Görselin toplaması varsa, toplanan verileri dışarı aktarırsınız. Örneğin, dört çubuk gösteren bir çubuk grafiğiniz varsa dört Excel veri satırı elde edersiniz. Özetlenmiş verileri Power BI hizmetinde *.xlsx* ve *.csv* olarak ve Power BI Desktop'ta .csv olarak sağlanır.
 
 1. Görselleştirmenin sağ üst köşesindeki üç noktayı seçin. **Verileri dışarı aktar**'ı seçin.
 
@@ -117,9 +117,9 @@ Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız **Öze
 
     - Görselleştirmelere filtre uyguladığımızdan, dışarı aktarılan veriler de filtrelenmiş olur. İlk satırda **Uygulanan filtreler: City is not Atlanta, GA** ifadesini görüntülendiğine dikkat edin. 
 
-### <a name="export-underlying-data"></a>***Temel*** verileri dışarı aktar
+### <a name="export-_underlying__-data"></a>**_Temel alınan_* _ verileri dışarı aktarma
 
-Görseldeki verileri ***ve*** veri kümesinden ek verileri görmek istiyorsanız bu seçeneği belirtin (ayrıntılar için aşağıdaki grafiğe bakın). Görselleştirmenizin toplaması varsa, **Temel alınan veriler**'in seçilmesi toplamayı kaldırır. Bu örnekte bulunan ve dışarı aktarmayla oluşturduğumuz Excel dosyasında, veri kümemizdeki her City satırı için bir satır ve söz konusu tek girdiye ilişkin indirim yüzdesi gösterilir. Power BI verileri düzleştirir, bunları toplamaz.  
+Görseldeki verileri _*_ve_*_ veri kümesinden ek verileri görmek istiyorsanız bu seçeneği belirtin (ayrıntılar için aşağıdaki grafiğe bakın). Görselleştirmenizin toplaması varsa, _ *Temel alınan veriler**'in seçilmesi toplamayı kaldırır. Bu örnekte bulunan ve dışarı aktarmayla oluşturduğumuz Excel dosyasında, veri kümemizdeki her City satırı için bir satır ve söz konusu tek girdiye ilişkin indirim yüzdesi gösterilir. Power BI verileri düzleştirir, bunları toplamaz.  
 
 **Dışarı Aktar**'ı seçtiğinizde Power BI verileri bir *.xlsx* dosyası olarak dışarı aktarır ve tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
 

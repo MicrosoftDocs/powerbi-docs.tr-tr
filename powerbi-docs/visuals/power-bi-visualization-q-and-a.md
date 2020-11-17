@@ -1,19 +1,19 @@
 ---
 title: Power BI Soru-Cevap görselini kullanma
 description: Power BI Soru-Cevap görselini ayarlama
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232298"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412361"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI Soru-Cevap görselleştirmelerine giriş
 
@@ -133,7 +133,7 @@ Renk körlerine uygun sütun grafik görselimizi biraz biçimlendirdik: bir baş
 
 Bu görsel artık bir Soru-Cevap görseli değil, standart sütun grafiğidir. Bir panoya sabitlenebilir. Raporda, bu görsel diğer standart görsellerle aynı şekilde davranır. Görselleştirmeler bölmesinde Soru-Cevap görseli simgesinin yerine bir Sütun grafiği simgesinin gösterildiğine dikkat edin.
 
-***Power BI Hizmeti***’ni kullanıyorsanız, raptiye simgesini seçerek görseli bir panoya sabitleyebilirsiniz. 
+**_Power BI hizmetini_* _ kullanıyorsanız, raptiye simgesini seçerek görseli bir panoya sabitleyebilirsiniz. 
 
 
 ![Raptiye simgesi vurgulanmış Power BI hizmeti](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ Soru-Cevap görseli, veri kümenizin alanlarındaki tanınmayan yaygın sözcük
 
 Doğal dili tümleştirebilmeniz için kullanabileceğiniz çeşitli yollar vardır. Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 
-* [Soru-Cevap Araçları](../natural-language/q-and-a-tooling-intro.md)
+_ [Soru-Cevap Araçları](../natural-language/q-and-a-tooling-intro.md)
 * [Soru-Cevap En İyi Yöntemler](../natural-language/q-and-a-best-practices.md)

@@ -1,20 +1,20 @@
 ---
 title: Rapor görselleştirmelerini biçimlendirme özelliğiyle çalışmaya başlama
 description: Rapor görselleştirmeleriyle biçimlendirme seçeneklerini kullanmaya başlama
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354605"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483913"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Biçimlendirme panosuyla çalışmaya başlama
 
@@ -41,6 +41,7 @@ Her görselleştirmenin birçok öğesini özelleştirebilirsiniz. Kullanılabil
 * Y ekseni
 * Veri renkleri
 * Veri etiketleri
+* Toplam etiketleri
 * Şekiller
 * Çizim alanı
 * Başlık
@@ -66,6 +67,7 @@ Biçimlendirme seçeneklerini kullanmayı öğrenmenin en iyi yolu bunları dene
 2. Stil uygulama    
 3. Eksen özelliklerini değiştirme    
 4. Veri etiketleri ekleme    
+1. Toplam etiketleri ekleme
 
 
 
@@ -141,7 +143,7 @@ Aşağıdaki örnekte Y eksenini biçimlendirmek için:
 
 ## <a name="adding-data-labels"></a>Veri etiketleri ekleme    
 
-Kendiniz keşfetmeye başlamadan önce son bir biçimlendirme örneği verelim.  Alan grafiğine veri etiketleri ekleyelim. 
+Alan grafiğine veri etiketleri ekleyelim. 
 
 İşte *öncesi* resmi. 
 
@@ -155,6 +157,27 @@ Kendiniz keşfetmeye başlamadan önce son bir biçimlendirme örneği verelim. 
 Görselleştirmeyi seçerek etkin hale getirdik ve Biçimlendirme sekmesini açtık.  **Veri etiketleri**’ni seçtik ve bunları Açık konuma getirdik. Sonra yazı tipini 12’ye büyüttük, yazı tipi ailesini Arial Black olarak değiştirdik, **Arka planı göster**’i Açık konuma getirdik, arka plan rengini %5 saydamlıkla beyaz yaptık.
 
 Bunlar mümkün olan biçimlendirme görevlerinden yalnızca birkaçıdır. Raporu Düzenleme modunda açın ve güzel, bilgilendirici görselleştirmeler oluşturmak için Biçimlendirme bölmesini keyifle keşfedin.
+
+## <a name="adding-total-labels"></a>Toplam etiketleri ekleme    
+
+Kendiniz keşfetmeye başlamadan önce son bir biçimlendirme örneği verelim.  Şimdi yığılmış sütun grafiğine toplam etiketleri ekleyelim. Toplam etiketleri yığılmış grafikler, birleşik grafikler ve alan grafikleri için kullanılabilir.
+
+Toplam etiketlerini açtığınızda Power BI verilerin toplamını görüntüler. Bir örneğe göz atalım. 
+
+Burada her bir tam yığının bölümlerine ait değerleri gösteren veri etiketlerinin bulunduğu bir yığılmış sütun grafiğimiz var.  Varsayılan görünümü bu şekilde. 
+
+![veri etiketleri içeren sütun grafiği](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+Görseli Düzenleme görünümünde açarak veri etiketlerinin ve toplam etiketlerinin görünümünü değiştirebilirsiniz. Görseli seçerek etkin hale getirdikten sonra Biçimlendirme bölmesini açın. **Veri etiketleri** ve **Toplam etiketleri** bölümüne kaydırın. **Veri etiketleri** Açık, **Toplam etiketleri** ise Kapalı durumdadır. 
+
+![biçimlendirilmemiş sütun grafik](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+**Veri etiketleri** ayarını Kapalı, **Toplam etiketleri** ayarını ise Açık duruma getirin. Power BI'da her sütun için toplam değerler görüntülenir.    
+![biçimlendirilmiş sütun grafik](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+Bunlar mümkün olan biçimlendirme görevlerinden yalnızca birkaçıdır. Raporu Düzenleme modunda açın ve güzel, bilgilendirici görselleştirmeler oluşturmak için Biçimlendirme bölmesini keyifle keşfedin.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Daha fazla bilgi için aşağıdaki makaleyi inceleyin: 

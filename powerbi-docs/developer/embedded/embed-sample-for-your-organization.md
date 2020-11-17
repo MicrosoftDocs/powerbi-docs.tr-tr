@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983126"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397289"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -44,7 +44,7 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://aka.ms/embedsetup/UserOwnsData) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
+Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://app.powerbi.com/embedsetup) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
 
 Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
 
@@ -52,9 +52,9 @@ Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsini
 
 Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesini sağlamak için [uygulamanızı Azure Active Directory'ye kaydedin](register-app.md). Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve Power BI REST kaynaklarıyla ilgili izinleri belirleyebilirsiniz.
 
-**Sunucu tarafı web uygulaması** kaydetme işlemiyle devam etmelisiniz. Sunucu tarafı web uygulamasını kaydederek bir uygulama gizli dizisi oluşturursunuz.
-
-Azure'da oluşturduğunuz uygulamanızı açın, *Kimlik Doğrulaması* bölümüne gidin, *Yeniden Yönlendirme URI'leri* altında *Yeniden Yönlendirme URI'si* alanına **/Redirect** ekleyin.
+>[!NOTE]
+>Kendi uygulamanızda *Kimlik doğrulaması* bölümüne gidip *Yeniden Yönlendirme URI'leri* alanına yeniden yönlendirme adresini girmeniz gerekir.
+Yeniden yönlendirme hakkında daha fazla bilgi edinmek için bkz. [Yeniden yönlendirme URI'si (yanıt URL'si) kısıtlamaları ve sınırlamaları](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 

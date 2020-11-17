@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324118"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483931"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Örnek Power BI sayfalandırılmış raporları
 
@@ -27,8 +27,25 @@ Bu makalede, indirip keşfedebileceğiniz birkaç örnek Power BI sayfalandırı
 - Bu raporları düzenleme yapmadan, olduğu gibi çevrimiçi ortamda paylaşabilirsiniz. Bunu yapmak için bir Power BI Pro lisansına ihtiyacınız vardır. [Power BI Pro lisansı için ücretsiz denemeye](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro) kaydolun.
 - Ayrıca [Premium kapasitede](../admin/service-premium-what-is.md) bulunan bir Power BI çalışma alanına erişiminiz olması gerekir.
 - Bu raporları düzenlemek için, Microsoft İndirme Merkezi’nden [Power BI Rapor Oluşturucusu’nu yüklemeniz](https://aka.ms/pbireportbuilder) gerekir.
-- Şimdi GitHub’dan [bu örnek sayfalandırılmış raporları indirmeye](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples) hazırsınız. GitHub hesabınız olması gerekmez. 
+- Şimdi GitHub’dan bu örnek sayfalandırılmış raporları indirmeye hazırsınız. GitHub hesabınız olması gerekmez. 
 
+## <a name="download-the-reports"></a>Raporları indirme
+
+Raporları başarıyla indirmek için depoyu zip dosyası olarak indirip ayıklamanız gerekir. Sayfalandırılmış raporlar .rdl dosyalarıdır.
+
+1. [Reporting Services GitHub deposunu](https://github.com/microsoft/Reporting-Services) açın.
+1. Yeşil renkli **Kod** düğmesindeki oku ve ardından **ZIP'i indir**'i seçin.
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="Örnek Power BI sayfalandırılmış raporlarının bulunduğu GitHub deposunun ekran görüntüsü.":::
+    
+1. Dosyayı açın, **Tümünü ayıkla**'yı seçin ve dosyalar için bir konum belirleyin. Klasör adı varsayılan olarak **Reporting-Services-master** şeklindedir.
+1. **Reporting-Services-master** klasörünü ve ardından **PaginatedReportSamples** klasörünü açın.
+
+    >[!NOTE]
+    >**Reporting-Services-master** klasörünün içindeki diğer tüm klasörleri silebilirsiniz. Bu klasörlerde ihtiyacınız olmayan farklı örnekler vardır.
+
+1. .rdl dosyalarından birini seçerek Power BI Rapor Oluşturucusu ile açın.
+1. Şimdi [sayfalandırılmış raporu Power BI hizmetinde yayımlayabilirsiniz](paginated-reports-save-to-power-bi-service.md).
 
 ## <a name="invoice"></a>Fatura
 

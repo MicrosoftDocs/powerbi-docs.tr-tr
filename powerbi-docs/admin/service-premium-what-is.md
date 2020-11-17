@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916027"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483754"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -96,7 +96,7 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 
 ### <a name="capacity-workloads"></a>Kapasite iş yükleri
 
-Kapasite iş yükleri kullanıcılarının kullanımına sunulan hizmetlerdir. Varsayılan olarak, Premium ve Azure kapasiteleri yalnızca çalışan Power BI sorgularıyla ilişkili veri kümesi iş yüklerini destekler. Veri kümesi iş yükleri devre dışı bırakılamaz. [AI (Bilişsel Hizmetler)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Veri akışları](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) ve [Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirilebilir. Bu iş yükleri yalnızca Premium aboneliklerinde desteklenir. 
+Kapasite iş yükleri kullanıcılarının kullanımına sunulan hizmetlerdir. Varsayılan olarak, Premium ve Azure kapasiteleri yalnızca çalışan Power BI sorgularıyla ilişkili veri kümesi iş yüklerini destekler. Veri kümesi iş yükleri devre dışı bırakılamaz. [AI (Bilişsel Hizmetler)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) ve [Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirilebilir. Bu iş yükleri yalnızca Premium aboneliklerinde desteklenir. 
 
 Eklenen her iş yükünde, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasına (toplam kullanılabilir belleğin yüzdesi olarak) izin verilir. Maksimum bellek için varsayılan değerler SKU tarafından belirlenir. Bu ek iş yüklerini yalnızca kullanıldıklarında etkinleştirerek kapasitenizin kullanılabilir kaynaklarını en üst düzeye çıkarabilirsiniz. Ayrıca bellek ayarlarını yalnızca belirlenmiş varsayılan ayarlarınızın kapasite kaynak gereksinimlerinizi karşılamadığı durumlarda değiştirebilirsiniz. Bir kapasite için iş yükleri kapasite yöneticileri tarafından **Yönetim portalındaki**[Kapasite ayarları](service-admin-portal.md) veya [Kapasite REST API'leri](/rest/api/power-bi/capacities) kullanılarak etkinleştirilebilir ve yapılandırılabilir.  
 
@@ -177,7 +177,7 @@ Power BI REST API'leri bir [Kapasite API'leri](/rest/api/power-bi/capacities) ko
 
 ## <a name="large-datasets"></a>Büyük veri kümeleri
 
-SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI Desktop (.pbix) model dosyalarının karşıya yüklenmesini destekler. Model yüklendiğinde, Premium kapasiteye atanmış bir çalışma alanında yayımlanabilir. Ardından veri kümesi boyutu **12 GB** ’a ulaşana kadar yenilenebilir.
+SKU'ya bağlı olarak, Power BI Premium boyunu en çok **10 GB** olan Power BI Desktop (.pbix) model dosyalarının karşıya yüklenmesini destekler. Model yüklendiğinde, Premium kapasiteye atanmış bir çalışma alanında yayımlanabilir. Ardından veri kümesi boyutu **12 GB**’a ulaşana kadar yenilenebilir.
 
 ### <a name="size-considerations"></a>Boyutla ilgili dikkat edilmesi gerekenler
 
@@ -205,7 +205,7 @@ Premium kapasitede sorgu başına bellek ve süre sınırları çok daha yüksek
 
 ## <a name="incremental-refresh"></a>Artımlı yenileme
 
-Artımlı yenileme, Power BI Premium’da ve Power BI Pro’da büyük veri kümelerini bulundurmanın ve tutmanın çok önemli bir parçasını sağlar. Artımlı yenilemenin birçok avantajı vardır; örneğin yalnızca değişmiş verilerin yenilenmesi gerektiğinden yenileme işlemi daha hızlı yapılır. Yenilemeler daha güvenilir olur çünkü geçici veri kaynaklarına uzun süreli bağlantıların sürdürülmesi gerekli değildir. Kaynak tüketimi azaltılır çünkü yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır. Artımlı yenileme ilkeleri, **Power BI Desktop** ’ta tanımlanır ve Premium kapasitedeki bir çalışma alanına yayımlandıktan sonra uygulanır. 
+Artımlı yenileme, Power BI Premium’da ve Power BI Pro’da büyük veri kümelerini bulundurmanın ve tutmanın çok önemli bir parçasını sağlar. Artımlı yenilemenin birçok avantajı vardır; örneğin yalnızca değişmiş verilerin yenilenmesi gerektiğinden yenileme işlemi daha hızlı yapılır. Yenilemeler daha güvenilir olur çünkü geçici veri kaynaklarına uzun süreli bağlantıların sürdürülmesi gerekli değildir. Kaynak tüketimi azaltılır çünkü yenilenecek verilerin daha az olması, belleğin ve diğer kaynakların genel tüketimini azaltır. Artımlı yenileme ilkeleri, **Power BI Desktop**’ta tanımlanır ve Premium kapasitedeki bir çalışma alanına yayımlandıktan sonra uygulanır. 
 
 ![Yenileme ayrıntıları](media/service-premium-incremental-refresh/refresh-details.png)
 
@@ -235,7 +235,7 @@ Premium ayrıca içeriği görüntüleyen alıcılarda Pro lisansı gerektirmede
 
 Daha fazla bilgi edinmek için bkz. [Power BI lisansı](service-admin-licensing-organization.md).
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium’da Analysis Services (Önizleme)
+## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium’da Analysis Services
 
 Yakından bakıldığında Power BI Premium çalışma alanlarına ve veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertipaq altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
 

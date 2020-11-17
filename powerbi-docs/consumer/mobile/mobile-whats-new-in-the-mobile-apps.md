@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 11/01/2020
 ms.author: painbar
-ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
+ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026060"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93355946"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,10 @@ ms.locfileid: "92026060"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="november-2020"></a>Kasım 2020
+### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>Tam ekran moduyla görünümü büyütme (Android tabletler)
+Android tabletler için mobil uygulamaya eklediğimiz yeni düğme sayesinde uygulama üst bilgilerini ve alt bilgilerini kaldırabilir, içeriğinizi alanın tamamını kullanarak görüntüleyebilirsiniz. Modlar arasında geçiş yapmak için ekranın sağ üst köşesindeki tam ekrana geçiş düğmesine dokunmanız yeterlidir.
 
 ## <a name="october-2020"></a>Ekim 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Otomatik sayfa yenileme şimdi destekleniyor (Windows)

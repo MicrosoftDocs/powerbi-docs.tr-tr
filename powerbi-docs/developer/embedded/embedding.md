@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982206"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396829"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 
@@ -31,8 +31,8 @@ Bir örnek uygulamayı indirmek ve hızlıca başlamak için [Ekleme kurulum ara
 
 Size uygun olan çözümü seçin:
 
-* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bunu yapmak için [Embed for your organization](https://aka.ms/embedsetup/UserOwnsData) çözümünü uygulayın.
-* [Müşterileriniz için ekleme](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. Bunu yapmak için [Embed for your organization](https://aka.ms/embedsetup/AppOwnsData) çözümünü uygulayın.
+* [Embedding for your organization](embedding.md#embedding-for-your-organization) seçeneği, Power BI hizmetinin kapsamını genişletmenize olanak tanır. Bunu yapmak için [Ekleme kurulum aracı](https://app.powerbi.com/embedsetup) içinde *Kuruluşunuz için ekleme* çözümünü uygulayın.
+* [Müşterileriniz için ekleme](embedding.md#embedding-for-your-customers) seçeneği, Power BI hesabı olmayan kullanıcılar için panolar ve raporlar eklemenize olanak sağlar. Bunu yapmak için [Ekleme kurulum aracı](https://app.powerbi.com/embedsetup) içinde *Müşterileriniz için ekleme* çözümünü uygulayın.
 
 ![PBIE örneği](media/embedding/what-can-you-do-02.png)
 
@@ -59,7 +59,7 @@ Kuruluşunuz için eklemek istiyorsanız şu [Öğretici’ye göz atın: Kurulu
 
 Düzenleme ve kaydetme gibi self servis özellikleri Power BI kullanıcıları için ekleme yaparken [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)’si aracılığıyla kullanılabilir.
 
-Kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için [Ekleme kurulum aracını](https://aka.ms/embedsetup/UserOwnsData) inceleyebilirsiniz.
+Kullanmaya başlamak ve kuruluşunuz için bir raporu tümleştirme adımlarını gösteren örnek bir uygulama indirmek için [Ekleme kurulum aracını](https://app.powerbi.com/embedsetup) inceleyebilirsiniz.
 
 ## <a name="embedding-for-your-customers"></a>Müşterileriniz için içerik ekleme
 

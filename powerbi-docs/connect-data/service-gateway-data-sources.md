@@ -1,23 +1,23 @@
 ---
-title: Veri kaynaklarını yönetme
-description: Power BI’da veri kaynaklarını yönetmeyi öğrenin.
+title: Ağ geçidi veri kaynağı ekleme veya kaldırma
+description: Power BI'da şirket içi ağ geçidine veri kaynağı eklemeyi öğrenin.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/22/2020
+ms.date: 11/03/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
-ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
+ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "87123500"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412582"
 ---
-# <a name="manage-data-sources"></a>Veri kaynaklarını yönetme
+# <a name="add-or-remove-a-gateway-data-source"></a>Ağ geçidi veri kaynağı ekleme veya kaldırma
 
 [!INCLUDE [gateway-rewrite](../includes/gateway-rewrite.md)]
 
@@ -25,25 +25,29 @@ Power BI, her biri kendi gereksinimlerine sahip olan birçok [şirket içi veri 
 
 Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçekleştirilebilir. Daha fazla bilgi için bkz. [REST API’ler (Ağ Geçitleri)](/rest/api/power-bi/gateways).
 
+Henüz yüklü bir ağ geçidiniz yoksa başlamak için bkz. [Şirket içi veri ağ geçidi yükleme](/data-integration/gateway/service-gateway-install).
+
 ## <a name="add-a-data-source"></a>Veri kaynağı ekleme
 
-1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-data-sources/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
+1. Power BI hizmeti sayfasının üst bilgi bölümünden **Ayarlar** ![Ayarlar dişli simgesi](media/service-gateway-data-sources/icon-gear.png) > **Ağ geçitlerini yönet**'i seçin.
 
     ![Ağ geçitlerini yönet](media/service-gateway-data-sources/manage-gateways.png)
 
-2. Bir ağ geçidi seçin ve sonra da **Veri kaynağı ekle**'yi seçin. İsterseniz **Ağ Geçitleri** > **Veri kaynağı ekle**'ye gidin.
+2. Bir ağ geçidi seçin ve sonra da **Veri kaynağı ekle**'yi seçin. **VERİ KAYNAĞI EKLE** üst bilgi metnini seçebilir veya imlecinizi ağ geçidi girişinin yanına getirerek diğer seçenekler menüsünün açılmasını sağlayabilirsiniz.
 
     ![Veri kaynağı ekleme](media/service-gateway-data-sources/add-data-source.png)
 
-3. **Veri Kaynağı Türü**’nü seçin.
+3. Veri kaynağınıza bir ad verin ve **Veri Kaynağı Türünü** seçin. Bu örnekte SQL Server'ı seçeceğiz.
 
     ![SQL Server'ı seçin](media/service-gateway-data-sources/select-sql-server.png)
 
-4. Veri kaynağı bilgilerini girin. Bu örnekte **Sunucu**, **Veritabanı** ve diğer bilgiler gereklidir. 
+4. Veri kaynağıyla ilgili bilgileri girin. SQL Server için **Sunucu** ve **Veritabanı** bilgilerini ekleyin.
 
     ![Veri kaynağı ayarları](media/service-gateway-data-sources/data-source-settings.png)
 
-5. SQL Server için **Kimlik Doğrulama Yöntemi** olarak **Windows** veya **Temel**  (SQL Kimlik Doğrulaması) seçeneğini belirtirsiniz. **Temel**’i seçerseniz veri kaynağınızın kimlik bilgilerini girin.
+5. Veri kaynağına bağlanırken kullanacağınız **Kimlik Doğrulama Yöntemini** seçin. SQL Server için **Windows** veya **Temel**'i (SQL Kimlik Doğrulaması) seçin. Veri kaynağınızın kimlik bilgilerini girin.
+
+   :::image type="content" source="media/service-gateway-data-sources/basic-auth.png" alt-text="Temel kimlik doğrulaması ayarları.":::
 
     > [!NOTE]
     > Kimlik doğrulaması yöntemi olarak OAuth seçilirse, OAuth belirteci süre sonu ilkesinden daha uzun çalışan tüm sorgular başarısız olabilir.
@@ -52,18 +56,18 @@ Veri kaynağı yönetimi işlemlerinin çoğu API’ler kullanılarak da gerçek
 
     ![Gelişmiş ayarlar](media/service-gateway-data-sources/advanced-settings-02.png)
 
-DirectQuery tabanlı raporlar için **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** veya **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** ve Yenileme tabanlı raporlar için **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneklerini yapılandırabilirsiniz.
+    DirectQuery tabanlı raporlar için **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** veya **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** ve Yenileme tabanlı raporlar için **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneklerini yapılandırabilirsiniz.
 
-**DirectQuery sorguları için Kerberos üzerinden SSO kullanın** seçeneğini işaretler ve bu veri kaynağını DirectQuery tabanlı bir rapor için kullanırsanız, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı kullanılır. Yenileme tabanlı rapor için **Kullanıcı adı** ve **Parola** alanlarına girdiğiniz kimlik bilgilerini kullanır.
+    **DirectQuery sorguları için Kerberos üzerinden SSO kullanın** seçeneğini işaretler ve bu veri kaynağını DirectQuery tabanlı bir rapor için kullanırsanız, Power BI hizmetinde oturum açan kullanıcının kimlik bilgileri kullanılır. Yenileme tabanlı rapor için **Kullanıcı adı** ve **Parola** alanlarına girdiğiniz kimlik bilgilerini kullanır.
 
-**DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğini kullanırsanız kimlik bilgisi belirtmeniz gerekmez. Bu veri kaynağı DirectQuery tabanlı bir rapor için kullanılırsa, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı kullanılır.  Yenileme tabanlı rapor için veri kümesi sahibinin güvenlik bağlamı kullanılır.
+    **DirectQuery Ve İçe Aktarma sorguları için Kerberos üzerinden SSO kullan** seçeneğini kullanırsanız kimlik bilgisi belirtmeniz gerekmez. Bu veri kaynağı DirectQuery tabanlı bir rapor için kullanılırsa, Power BI hizmetinde oturum açan (Azure) Active Directory kullanıcısıyla eşlenmiş olan kullanıcı kullanılır.  Yenileme tabanlı rapor için veri kümesi sahibinin güvenlik bağlamı kullanılır.
 
-> [!NOTE]
->İçeri Aktarma Sorguları için SSO yalnızca [Kerberos kısıtlanmış temsil](service-gateway-sso-kerberos.md) kullanan SSO veri kaynaklarının listesiyle kullanılabilir.
+    > [!NOTE]
+    >İçeri Aktarma Sorguları için SSO yalnızca [Kerberos kısıtlanmış temsil](service-gateway-sso-kerberos.md) kullanan SSO veri kaynaklarının listesiyle kullanılabilir.
 
 7. **Gelişmiş ayarlar** bölümünde, isteğe bağlı olarak veri kaynağınızın [gizlilik düzeyini](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) yapılandırın ([DirectQuery](desktop-directquery-about.md) için geçerli değildir).
 
-    ![Gelişmiş ayarlar](media/service-gateway-data-sources/advanced-settings.png)
+    :::image type="content" source="media/service-gateway-data-sources/privacy-level.png" alt-text="Gizlilik düzeyi seçimleri.":::
 
 8. **Ekle**'yi seçin. İşlem başarılı olursa *Bağlantı Başarılı* ifadesini görürsünüz.
 
@@ -75,16 +79,16 @@ DirectQuery tabanlı raporlar için **DirectQuery sorguları için Kerberos üze
 
 Artık kullanmıyorsanız veri kaynağını kaldırabilirsiniz. Bir veri kaynağını kaldırmak, o veri kaynağını kullanan panoların ve raporların çalışmamasına yol açar.
 
-Veri kaynağını kaldırmak için veri kaynağına gidin ve **Kaldır**’ı seçin.
+Veri kaynağını kaldırmak için veri kaynağına gidin ve diğer seçenekler menüsünden **Kaldır**’ı seçin. Diğer seçenekler menüsü, imlecinizi veri kaynağının adının yanına getirdiğinizde görüntülenir.
 
 ![Veri kaynaklarını kaldırma](media/service-gateway-data-sources/remove-data-source.png)
 
 ## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>Veri kaynağını zamanlanmış yenileme veya DirectQuery için kullanma
 
-Veri kaynağı, oluşturulduktan sonra DirectQuery bağlantılarıyla veya zamanlanmış yenileme yoluyla kullanılabilir.
+Veri kaynağı, oluşturulduktan sonra DirectQuery bağlantılarıyla veya zamanlanmış yenileme yoluyla kullanılabilir. [Zamanlanmış yenileme yapılandırma](refresh-scheduled-refresh.md) bölümünde zamanlanmış yenileme ayarlama hakkında daha fazla bilgi edinebilirsiniz.
 
 > [!NOTE]
->Şirket içi veri ağ geçidinde bulunan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adları eşleşmelidir.
+>Şirket içi veri ağ geçidine eklenmiş olan veri kaynağındaki ve Power BI Desktop’taki sunucu ve veritabanı adları eşleşmelidir.
 
 Ağ geçidindeki veri kaynağı ve veri kümeniz arasındaki bağlantı, sunucu ve veritabanı adınızı temel alır. Bu adların eşleşmesi gerekir. Örneğin, Power BI Desktop'ta sunucu adı için bir IP Adresi sağlarsanız bu IP adresini ağ geçidi yapılandırmasındaki veri kaynağında da kullanmanız gerekir. Power BI Desktop'ta *SUNUCU\ÖRNEK* yapılandırmasını kullanırsanız ağ geçidi için yapılandırılan veri kaynağında da aynısını kullanmanız gerekir.
 
@@ -101,7 +105,7 @@ OAuth, yalnızca şirket içi veri ağ geçidine sahip özel bağlayıcılara y�
 
 ## <a name="manage-users"></a>Kullanıcıları yönetme
 
-Bir ağ geçidine veri kaynağı ekledikten sonra, kullanıcılara ve e-posta özellikli güvenlik gruplarına ilgili veri kaynağı (tüm ağ geçidi değil) için erişim verirsiniz. Veri kaynağı kullanıcı listesi yalnızca veri kaynağından verileri içeren raporları yayımlamasına izin verilen kullanıcıları denetler. Rapor sahipleri panolar, içerik paketleri ve uygulamalar oluşturabilir ve sonra bu öğeleri diğer kullanıcılarla paylaşabilir.
+Bir ağ geçidine veri kaynağı ekledikten sonra, kullanıcılara ve e-posta özellikli güvenlik gruplarına ilgili veri kaynağı (tüm ağ geçidi değil) için erişim verirsiniz. Veri kaynağı için erişim listesi yalnızca veri kaynağından verileri içeren raporları yayımlamasına izin verilen kullanıcıları denetler. Rapor sahipleri panolar, içerik paketleri ve uygulamalar oluşturabilir ve sonra bu öğeleri diğer kullanıcılarla paylaşabilir.
 
 Ayrıca, kullanıcılara ve güvenlik gruplarına ağ geçidi için yönetim erişimi verebilirsiniz.
 
@@ -110,15 +114,11 @@ Ayrıca, kullanıcılara ve güvenlik gruplarına ağ geçidi için yönetim eri
 
 ### <a name="add-users-to-a-data-source"></a>Veri kaynağına kullanıcı ekleme
 
-1. Power BI hizmetinin sağ üst köşesinde ![Ayarlar dişli simgesi](media/service-gateway-data-sources/icon-gear.png) > **Ağ geçitlerini yönet** öğesini seçin.
+1. Power BI hizmeti sayfasının üst bilgi bölümünden **Ayarlar** ![Ayarlar dişli simgesi](media/service-gateway-data-sources/icon-gear.png) > **Ağ geçitlerini yönet**'i seçin.
 
 2. Kullanıcıları eklemek istediğiniz veri kaynağını seçin.
 
-3. **Kullanıcılar**’ı seçin ve kuruluşunuzda seçili veri kaynağına erişim vermek istediğiniz kullanıcıyı girin. Örneğin, aşağıdaki ekranda Maggie ve Adam'ı ekliyorsunuz.
-
-    ![Kullanıcılar sekmesi](media/service-gateway-data-sources/users-tab.png)
-
-4. **Ekle**’yi seçtiğinizde kutuda eklenen üyenin adı gösterilir.
+3. **Kullanıcılar**'ı seçtikten sonra kuruluşunuzdan seçili veri kaynağına erişecek olan kullanıcıları ve posta etkin güvenlik gruplarını girin. **Ekle**'yi seçtiğinizde eklenen üyenin adı bu veri kaynağını kullanan raporları yayımlayabilecek kişilerin listesine eklenir.
 
     ![Kullanıcı ekleme](media/service-gateway-data-sources/add-user.png)
 

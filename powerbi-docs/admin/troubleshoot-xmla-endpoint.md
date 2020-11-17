@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium’da XMLA uç nokta bağlantısı sorunlarını giderme (Önizleme)
+title: Power BI'da XMLA uç nokta bağlantı sorunlarını giderme
 description: Power BI Premium’da XMLA uç noktası üzerinden kurulan bağlantı sorunlarının nasıl giderilebileceği açıklanmaktadır.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116581"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483685"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -79,7 +79,7 @@ Power BI yeni veri kümenizi veri kaynağı kimlik bilgilerine bağlayamazsa “
 
 İşleme hatasından kaçınmak için **Dağıtım seçenekleri** > **İşleme Seçenekleri** ayarını aşağıda gösterildiği gibi **İşleme** olarak ayarlayın. Daha sonra Visual Studio yalnızca meta verileri dağıtır. Daha sonra veri kaynağı kimlik bilgilerini yapılandırabilir ve Power BI kullanıcı arabirimindeki veri kümesi için **Şimdi yenile** seçeneğine tıklayabilirsiniz. İşleme sorunlarını giderme hakkında bilgi için bu makalenin devamındaki [Veri kümesini yenileme](#refreshing-a-dataset) bölümüne bakın.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Model dağıtım hatası":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="İşleme seçeneği":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Mevcut bir veri kümesinden yeni proje
 
@@ -128,13 +128,13 @@ Gelişmiş meta veriler olmadan bir modele karşı XMLA uç noktası aracılığ
 
 Sağlayıcı veri kaynakları için tanımlayabileceğiniz kimliğe bürünme ayarları Power BI için uygun değildir. Power BI, veri kaynağı kimlik bilgilerini yönetmek için veri kümesi ayarlarına bağlı farklı bir mekanizma kullanır. Bu nedenle, bir Sağlayıcı Veri Kaynağı oluşturuyorsanız **Hizmet Hesabı** seçtiğinizden emin olun.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Model dağıtım hatası":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Hizmet hesabı kimliğine bürünme":::
 
 ### <a name="fine-grained-processing"></a>Ayrıntılı işleme
 
 Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetiklerken Power BI genellikle veri kümesinin tamamını yeniler. Çoğu durumda, yenilemeleri daha seçici bir şekilde gerçekleştirmek daha verimlidir. Ayrıntılı işleme görevlerini aşağıda gösterildiği şekilde SQL Server Management Studio’da (SSMS) veya üçüncü taraf araçlarını ya da betiklerini kullanarak gerçekleştirebilirsiniz.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Model dağıtım hatası":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="SSMS’de tabloları işleme":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>TMSL Yenileme komutunda geçersiz kılmalar
 
@@ -142,7 +142,7 @@ Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetikler
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
-[Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme](service-premium-service-principal.md)   
-[Excel’de Analiz özelliği ile ilgili sorunları giderme](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Tablolu model çözümü dağıtımı](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)  
+[Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme](service-premium-service-principal.md)  
+[Excel'de Çözümleme sorunlarını giderme](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[Tablolu model çözümü dağıtımı](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

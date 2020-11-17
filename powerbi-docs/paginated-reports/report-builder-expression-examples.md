@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Oluşturucusu’nda İfade örnekleri
 description: İçerik ve rapor görünümünü denetlemek için Power BI Report Builder’da ifadeler sıklıkla kullanılır.
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297789"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397358"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
 
@@ -120,7 +120,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =FORMAT(Fields!SellStartDate.Value, "dd/MM/yyyy")  
     ```  
   
--   **CDate** işlevi değeri bir tarihe dönüştürür. **Now** işlevi, sisteminize göre geçerli tarih ve saati içeren değeri döndürür. **DateDiff** , iki Tarih değerinin arasındaki zaman aralıklarının sayısını belirten bir Long değeri döndürür.  
+-   **CDate** işlevi değeri bir tarihe dönüştürür. **Now** işlevi, sisteminize göre geçerli tarih ve saati içeren değeri döndürür. **DateDiff**, iki Tarih değerinin arasındaki zaman aralıklarının sayısını belirten bir Long değeri döndürür.  
   
      Aşağıdaki örnek, geçerli yılın başlangıç tarihini görüntüler  
   
@@ -180,7 +180,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
      Metin kutusu sadece bir tarih veya sayı içeriyorsa, biçimlendirmeyi uygulamak için metin kutusunun içinde **Format** işlevinin yerine metin kutusunun Format özelliğini kullanmanız gerekir.  
   
--   **Right** , **Len** ve **InStr** işlevleri bir alt dizeyi döndürmek için kullanışlıdır. Örneğin, *ETKİALANI*\\*kullanıcıadı* ’nı yalnızca kullanıcı adından oluşacak şekilde kırpabilirsiniz. Aşağıdaki ifade *User* adlı bir parametreden, dizenin ters eğik çizgi karakterinin (\\) sağında yer alan kısmını döndürür:  
+-   **Right**, **Len** ve **InStr** işlevleri bir alt dizeyi döndürmek için kullanışlıdır. Örneğin, *ETKİALANI*\\*kullanıcıadı*’nı yalnızca kullanıcı adından oluşacak şekilde kırpabilirsiniz. Aşağıdaki ifade *User* adlı bir parametreden, dizenin ters eğik çizgi karakterinin (\\) sağında yer alan kısmını döndürür:  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -205,7 +205,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
   
     ```  
   
--   .NET Framework `xref:System.Text.RegularExpressions` içindeki **Regex** işlevleri, mevcut dizelerin biçimini değiştirmek için kullanışlıdır (örneğin, bir telefon numarasını biçimlendirme). Aşağıdaki ifade, bir alanda yer alan on haneli telefon numarasını “ *nnn*-*nnn*-*nnnn* ” biçiminden “( *nnn* ) *nnn*-*nnnn* ” biçimine çevirmek için **Replace** işlevini kullanır:  
+-   .NET Framework `xref:System.Text.RegularExpressions` içindeki **Regex** işlevleri, mevcut dizelerin biçimini değiştirmek için kullanışlıdır (örneğin, bir telefon numarasını biçimlendirme). Aşağıdaki ifade, bir alanda yer alan on haneli telefon numarasını “*nnn*-*nnn*-*nnnn*” biçiminden “(*nnn*) *nnn*-*nnnn*” biçimine çevirmek için **Replace** işlevini kullanır:  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -275,13 +275,13 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   `PhoneNumber` alanının değerini test edin ve **null** ise “Değer Yok” (Visual Basic’te **Nothing** ) döndürün. Aksi takdirde, telefon numarası değerini döndürün. Bu ifade, bir rapor öğesindeki metin kutusunun değerini denetlemek için kullanılabilir.  
+-   `PhoneNumber` alanının değerini test edin ve **null** ise “Değer Yok” (Visual Basic’te **Nothing**) döndürün. Aksi takdirde, telefon numarası değerini döndürün. Bu ifade, bir rapor öğesindeki metin kutusunun değerini denetlemek için kullanılabilir.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   `Department` alanının değerini test edin ve bir alt rapor adını veya **null** değerini döndürün (Visual Basic’te **Nothing** ). Bu ifade, koşullu detaylandırma alt raporları için kullanılabilir.  
+-   `Department` alanının değerini test edin ve bir alt rapor adını veya **null** değerini döndürün (Visual Basic’te **Nothing**). Bu ifade, koşullu detaylandırma alt raporları için kullanılabilir.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -454,6 +454,9 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Power BI sayfalandırılmış raporları **URL'ye git** ifadesinde JavaScript kullanılmasını desteklemez.  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> Rapor verileri  
  Raporda kullanılan verileri denetlemek için ifadeler kullanılabilir. Parametrelere ve diğer rapor bilgilerine başvurabilirsiniz. Rapora yönelik verileri almak için kullanılan sorguyu bile değiştirebilirsiniz.  
   
@@ -495,7 +498,7 @@ Basit ve karmaşık ifadeler, ifadelerin kullanım yerleri ve bir ifadeye ekleye
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   İfadenin değerini döndürmek için bir özel kod işlevi kullanın. Aşağıdaki örnek, bir mevcut değer ve önceki değer arasındaki yüzdelik farkını döndürür. Bu, iki ardışık değer arasındaki farkı hesaplamak için kullanılabilir, (önceki değer olmadığında) ilk karşılaştırmanın eşik durumunu ve önceki değer veya mevcut değerden herhangi birinin **null** (Visual Basic’te **Nothing** ) olduğu durumları işler.  
+-   İfadenin değerini döndürmek için bir özel kod işlevi kullanın. Aşağıdaki örnek, bir mevcut değer ve önceki değer arasındaki yüzdelik farkını döndürür. Bu, iki ardışık değer arasındaki farkı hesaplamak için kullanılabilir, (önceki değer olmadığında) ilk karşılaştırmanın eşik durumunu ve önceki değer veya mevcut değerden herhangi birinin **null** (Visual Basic’te **Nothing**) olduğu durumları işler.  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

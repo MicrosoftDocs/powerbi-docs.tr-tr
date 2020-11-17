@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525214"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397082"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -97,7 +97,7 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Hizmette Power BI raporları için [yorum yapma](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/).
 
 ### <a name="april-2019"></a>Nisan 2019
-* Power BI [veri akışlarının](../transform-model/service-dataflows-overview.md) genel kullanılabilirliği.
+* Power BI [veri akışlarının](../transform-model/dataflows/dataflows-introduction-self-service.md) genel kullanılabilirliği.
 * Yeni çalışma alanları deneyiminin genel kullanılabilirliği.
 * Fransa ve Kore'deki yeni Power BI bölgeleri.
 * Panolar için güncelleştirilmiş Soru-Cevap deneyimi.
@@ -120,12 +120,12 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Yönetim Portalı'nda toplu işlemler.
 * PPT ve PDF için filtrelenmiş dışarı aktarma.
 * Yönetici Portalı’nda [Yardım ve destek ayarları](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/).
-* [Veri akışları](../transform-model/service-dataflows-overview.md) için veri kökeni deneyimi.
+* [Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) için veri kökeni deneyimi.
 * Yönetici Portalında Sertifikalı Power BI görselleri ayarı.
 
 ### <a name="january-2019"></a>Ocak 2019
 * İç portallara veya web sitelerine [güvenli Power BI raporları ekleme](../collaborate-share/service-embed-report-spo.md).
-* [Veri akışları](../transform-model/service-dataflows-overview.md) düzenleyicisinde yeni bağlayıcılarla güncelleştirmeler, ayrıca yerel SQL sorguları ve Power Query Online dönüştürmeleri için destek.
+* [Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) düzenleyicisinde yeni bağlayıcılarla güncelleştirmeler, ayrıca yerel SQL sorguları ve Power Query Online dönüştürmeleri için destek.
 * Power BI hizmetinde [kişisel yer işaretleri](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/).
 * E-posta abonelikleriyle zamana bağlı planlama.
 
@@ -133,11 +133,11 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 ### <a name="december-2018"></a>Aralık 2018
 * Power BI Giriş’te yapay zeka destekli [önerilen uygulamalar](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/).
 * Yönetim Portalı’nda [çalışma alanı yönetimi](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/).
-* [Veri akışlarında](../transform-model/service-dataflows-overview.md) Power BI Veri Akışları ve Azure Data Lake Storage 2. Nesil Tümleştirmesi Önizlemesi.
+* [Veri akışlarında](../transform-model/dataflows/dataflows-introduction-self-service.md) Power BI Veri Akışları ve Azure Data Lake Storage 2. Nesil Tümleştirmesi Önizlemesi.
 * Power BI çözüm şablonları açık kaynağa dönüştürüldü.
 
 ### <a name="november-2018"></a>Kasım 2018
-* Power BI veri hazırlama, [veri akışları](../transform-model/service-dataflows-overview.md) genel önizlemesi ile sağlanıyor.
+* Power BI veri hazırlama, [veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) genel önizlemesi ile sağlanıyor.
 * Power BI Premium’da [sayfalandırılmış raporların](../paginated-reports/paginated-reports-report-builder-power-bi.md) genel önizlemesi.
 * [Kapasite İzleme uygulamasında](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/) veri boyutu ve bellekteki veri kümelerinin sayısı.
 
@@ -283,46 +283,46 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * [Metin sütunlarını Araç İpuçları olarak](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/) görüntüleme.
 
 ### <a name="july-2016"></a>Temmuz 2016
-***RLS önizleme sürümünden çıktı***
+***RLS önizleme sürümünden çıktı** _
 
-* Satır Düzeyi Güvenlik (RLS), veri erişimini erişen kullanıcılara göre sınırlamanızı sağlar. Kısa süre önce Power BI Desktop uygulamasına roller ve kurallar ekleyerek RLS yapılandırma işlemini basitleştirdik. Bugün RLS'nin tüm Power BI Pro kullanıcılarına sunulduğunu duyurmaktan mutluluk duyuyoruz.
+_ Satır Düzeyi Güvenlik (RLS), veri erişimini erişen kullanıcılara göre sınırlamanızı sağlar. Kısa süre önce Power BI Desktop uygulamasına roller ve kurallar ekleyerek RLS yapılandırma işlemini basitleştirdik. Bugün RLS'nin tüm Power BI Pro kullanıcılarına sunulduğunu duyurmaktan mutluluk duyuyoruz.
 
-***Veri sınıflandırma***
+***Veri sınıflandırma** _
 
-* Artık panolarınızı şirketinizin BT departmanı tarafından tanımlanan sınıflara ayırarak bunları görüntüleyen kullanıcıları, kullanılması gereken güvenlik düzeyi hakkında bilgilendirebilirsiniz.
+_ Artık panolarınızı şirketinizin BT departmanı tarafından tanımlanan sınıflara ayırarak bunları görüntüleyen kullanıcıları, kullanılması gereken güvenlik düzeyi hakkında bilgilendirebilirsiniz.
 
-***Şirket içi verilerinizi Excel'de çözümleme***
+***Şirket içi verilerinizi Excel'de çözümleme** _
 
-* Excel'de çözümle özelliği şirket içi veri kümelerini destekleyecek şekilde genişletildi. Şirket içi veri kümenize güvenli ve doğrudan bağlantı sunarak Excel'de çözümlemenizi mümkün hale getiriyoruz. Ayrıca, yöneticilerin şirket içi kaynaklarda Excel'de çözümle özelliğini devre dışı bırakmalarını sağlayan bir ayar ekledik.  
+_ Excel'de çözümle özelliği şirket içi veri kümelerini destekleyecek şekilde genişletildi. Şirket içi veri kümenize güvenli ve doğrudan bağlantı sunarak Excel'de çözümlemenizi mümkün hale getiriyoruz. Ayrıca, yöneticilerin şirket içi kaynaklarda Excel'de çözümle özelliğini devre dışı bırakmalarını sağlayan bir ayar ekledik.  
 
 Tüm ayrıntılar için [Power BI ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)
 
 ### <a name="june-2016"></a>Haziran 2016
-***Quick Insights (Hızlı Öngörüler)***
+***Hızlı İçgörüler** _
 
-* Hızlı İçgörüler Karmaşık Filtrelerle birlikte çalışıyor: Tek bir kutucukla sınırlandırılmış olan Hızlı İçgörüler'in artık karmaşık filtreleri anladığını duyurmaktan mutluluk duyuyoruz.
+_ Hızlı İçgörüler Karmaşık Filtrelerle birlikte çalışıyor: Tek bir kutucukla sınırlandırılmış olan Hızlı İçgörüler'in artık karmaşık filtreleri anladığını duyurmaktan mutluluk duyuyoruz.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)
 
 ### <a name="may-2016"></a>Mayıs 2016
-***Veri Alma***
+***Veri Al** _
 
-* Dosya boyutu sınırını 1 GB'a çıkardık: Hem Excel çalışma kitapları hem de Power BI Desktop dosyaları için dosya boyutu sınırını 1 GB düzeyine yükselttik.
+_ Dosya boyutu sınırını 1 GB'a çıkardık: Hem Excel çalışma kitapları hem de Power BI Desktop dosyaları için dosya boyutu sınırını 1 GB düzeyine yükselttik.
 * Kurumsal ağ geçidi ve diğer ağ geçidi güncelleştirmeleriyle SSAS sunucularını bulma ayarı: Artık bir Kurumsal ağ geçidi oluşturduğunuzda şirketinizdeki kullanıcılar bu sunuculara Power BI hizmetindeki Veri Al sayfasından erişebilecek. Ayrıca ağ geçidi kullanılarak, SAP Business Warehouse Server'dan alınan verileri içeren veri kümelerini yenileme ve ağ geçidi ile Analysis Services kullanılırken UPN eşleme kuralları oluşturma desteği de ekledik.
 
-***Satır düzeyi güvenlik (RLS)***
+***Satır düzeyi güvenlik (RLS)** _
 
-* Azure Active Directory (Azure AD) grubu desteği: Kullanıcılar artık Azure AD gruplarına (güvenlik grupları) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
+_ Azure Active Directory (Azure AD) grubu desteği: Kullanıcılar artık Azure AD gruplarına (güvenlik grupları) rol atayabilir. Bu sayede çok sayıda kullanıcıdan oluşan gruplara tek seferde rol atanabilir.
 * [RLS kullanımdayken verilerle desteklenen raporlarla RLS rollerinizi test edin](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): RLS önizlememize belirli bir rolle veri kümenizi test etmenizi sağlayan bir özellik ekledik. Bu sayede, panonuzu kullanıcıların erişimine açmadan rolün beklediğiniz gibi çalıştığından emin olabilirsiniz.
 * Doğrudan sorguları temel alarak bulut modellerinde RLS tanımlayın ve uygulayın: Şimdi doğrudan sorgunun veri kaynakları için RLS kuralları oluşturabilir ve uygulayabilirsiniz.
 
-***Panolar***
+***Panolar** _
 
-* Sık kullanılan panolar: En çok ziyaret ettiğiniz panolara daha kolay ulaşmanıza yardımcı olmak için bu panoları sık kullanılanlara ekleme ve tüm çalışma alanlarınızdan panolara kolayca erişme özelliği ekledik.
+_ Sık kullanılan panolar: En çok ziyaret ettiğiniz panolara daha kolay ulaşmanıza yardımcı olmak için bu panoları sık kullanılanlara ekleme ve tüm çalışma alanlarınızdan panolara kolayca erişme özelliği ekledik.
 
-***Excel'de Çözümle***
+***Excel’de Çözümle** _
 
-* Geliştirilmiş indirme deneyimi: Excel'de Çözümle özelliğindeki güncelleştirmeleri, yeni bir iletişim kutusu deneyimi ile kolayca indirin.
+_ Geliştirilmiş indirme deneyimi: Excel'de Çözümle özelliğindeki güncelleştirmeleri, yeni bir iletişim kutusu deneyimi ile kolayca indirin.
 * RLS desteği: RLS kurulumunu gerçekleştirdikten sonra verilere uyguladığınız kurallar artık kullanıcı verileri Excel'de çözümlediğinde de geçerli.
 * Şirket içi Analysis Services veritabanları için geliştirilmiş hata iletileri: Önceden, desteklenmeyen bir veri kaynağı için Excel'de Çözümle seçeneğini belirlediğinizde ODC dosyasını indirip Power BI bağlantısı kurmaya çalışana kadar hata iletisiyle karşılaşmıyordunuz. Artık desteklenmeyen bir veri kaynağı için Excel'de Çözümle özelliğini seçtiğinizde bu veri kaynağının henüz desteklenmediğini belirten bir ileti göreceksiniz.
 
@@ -351,49 +351,49 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 **14 Nisan 2016**
 
-***Kurumsal***
+**_Kurumsal_* _
 
-* [RLS için içerik paketi desteği](../admin/service-admin-rls.md) (Önizleme): Bir içerik paketiyle birlikte dağıtılmış olan panolar ve raporlar için RLS tanımlaması yapılmışsa ilgili içerik paketlerinin güvenlik kuralları korunur.
+_ [RLS için içerik paketi desteği](../admin/service-admin-rls.md) (Önizleme): Bir içerik paketiyle birlikte dağıtılmış olan panolar ve raporlar için RLS tanımlaması yapılmışsa ilgili içerik paketlerinin güvenlik kuralları korunur.
 
-***Panolar***
+***Panolar** _
 
-* [Vimeo video kutucuğu](../create-reports/service-dashboard-add-widget.md):  Panodan eklenmiş Vimeo oynatıcısını içeren bir kutucuk yerleştirebilirsiniz.
+_ [Vimeo video kutucuğu](../create-reports/service-dashboard-add-widget.md):  Panodan eklenmiş Vimeo oynatıcısını içeren bir kutucuk yerleştirebilirsiniz.
 
-***Excel'de Çözümle***
+***Excel’de Çözümle** _
 
-* [Excel'de Çözümle](../collaborate-share/service-analyze-in-excel.md) tüm kullanıcıların kullanımına açıldı: Power BI veri modellerine Excel'den erişme seçeneği, atanan lisanslarından bağımsız olarak tüm kullanıcıların kullanımına açıldı.
+_ [Excel'de Çözümle](../collaborate-share/service-analyze-in-excel.md) tüm kullanıcıların kullanımına açıldı: Power BI veri modellerine Excel'den erişme seçeneği, atanan lisanslarından bağımsız olarak tüm kullanıcıların kullanımına açıldı.
 * Geliştirilmiş çoklu kullanıcı hesabı deneyimi: Birden fazla Power BI kullanıcı hesabınız varsa oturum açmak artık daha kolay.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)
 
 **31 Mart 2016** Microsoft Data Insights Summit'te birçok güncelleştirme duyuruldu.
 
-***Panolar***
+**_Panolar_* _
 
-* Öne çıkan pano: Sizin için en önemli olan panoya daha kolay erişim.
+_ Öne çıkan pano: Sizin için en önemli olan panoya daha kolay erişim.
 * Pano listesini filtreleme: Tümünü görüntüleme, kendi oluşturduğunuz içeriği görüntüleme, sizinle paylaşılan içeriği görüntüleme.
 
-***Kurumsal özellikler***
+***Kurumsal özellikler** _
 
-* Yönetici kullanım raporu: Power BI yönetici merkezine kullanım raporu eklendi.
+_ Yönetici kullanım raporu: Power BI yönetici merkezine kullanım raporu eklendi.
 * Satır düzeyi güvenlik: Önizleme sürümündeki bu özellik sayesinde Power BI veri kümelerinde izin ayarı gerçekleştirebilirsiniz.
 * Verileri dışarı aktarmayı devre dışı bırakma: Kiracınızdaki kullanıcılar kutucuk ve görsel verilerini .csv dosyasına aktaramaz.
 
-***Soru-Cevap***
+***Soru-Cevap** _
 
-* "is" için otomatik tamamlama: Sütun adı ve ardından "is" yazdığınızda Soru-Cevap size değer önerisinde bulunacak.
+_ "is" için otomatik tamamlama: Sütun adı ve ardından "is" yazdığınızda Soru-Cevap size değer önerisinde bulunacak.
 
-***Cep***
+***Mobil** _
 
-* KPI'ler Apple Watch cihazınızda: KPI ve kart kutucuklarınızı Power BI uygulamasını açmadan takip etme.
+_ KPI'ler Apple Watch cihazınızda: KPI ve kart kutucuklarınızı Power BI uygulamasını açmadan takip etme.
 
-***Excel***
+***Excel** _
 
-* Excel'de Çözümle: Power BI veri modelinizi Excel'e bağlama ve çözümlemelerinizi Power BI yerine Excel'de gerçekleştirme.
+_ Excel'de Çözümle: Power BI veri modelinizi Excel'e bağlama ve çözümlemelerinizi Power BI yerine Excel'de gerçekleştirme.
 
-***Diğer***
+***Diğer** _
 
-* Power BI Avustralya'da: Artık Avustralya'daki tüm kişiler veya şirketler powerbi.microsoft.com adresine giderek Power BI'a kaydolabilir.
+_ Power BI Avustralya'da: Artık Avustralya'daki tüm kişiler veya şirketler powerbi.microsoft.com adresine giderek Power BI'a kaydolabilir.
 * Dil ayarları: Otomatik dil algılama ayarını geçersiz kılma ve Power BI dilini ayarlama.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)
@@ -402,19 +402,19 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 Bu ay panolarda, Hızlı Öngörülerde ve Soru-Cevap özelliğinde güncelleştirmeler yaptık.
 
-***Panolar***
+**_Panolar_* _
 
-* Tam Ekran modu: Tam Ekran modundan çıkmadan yazdırabilirsiniz
+_ Tam Ekran modu: Tam Ekran modundan çıkmadan yazdırabilirsiniz
 * Tam Ekran modu: **Genişliğe Uydur**'u seçerek kutucuklarınızı tuvali dolduracak şekilde genişletme ve fazla boşluğu kaldırma
 * Kutucuklarınızı otomatik olarak tuvalin sol üst köşesine hizalamak için Kutucuk Akışını kullanma.
 
-***Quick Insights (Hızlı Öngörüler)***
+***Hızlı İçgörüler** _
 
-* Eğilim ve Bağıntı içgörüleri artık veri desenlerini daha kolay görmeniz için eğilim çizgilerine sahip.
+_ Eğilim ve Bağıntı içgörüleri artık veri desenlerini daha kolay görmeniz için eğilim çizgilerine sahip.
 
-***Soru-Cevap***
+***Soru-Cevap** _
 
-* Artık Soru-Cevap içinde Ölçek ve Alan grafikleri belirtebilirsiniz
+_ Artık Soru-Cevap içinde Ölçek ve Alan grafikleri belirtebilirsiniz
 * Soru-Cevap için geliştirilmiş otomatik tamamlama: Birkaç karakter yazdığınızda Soru-Cevap otomatik tamamlamaya ve görsel önermeye başlar.
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)
@@ -423,31 +423,31 @@ Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.mi
 
 Bugün en çok istenen özelliklerden oluşan kapsamlı bir güncelleştirme yaptık. [Blog gönderisini okuyun](https://powerbi.microsoft.com/blog/power-bi-february-service-update/).
 
-***Paylaşım***
+**_Paylaşım_* _
 
-* Kuruluşunuzun dışındaki kullanıcılarla paylaşımda bulunma
+_ Kuruluşunuzun dışındaki kullanıcılarla paylaşımda bulunma
 * Bir panoya erişim isteği gönderme
 
-***Yönetici Portalı***
+***Yönetici Portalı** _
 
-* Microsoft 365 yönetim merkezi bağlantısı ile daha kolay kullanıcı yönetimi
+_ Microsoft 365 yönetim merkezi bağlantısı ile daha kolay kullanıcı yönetimi
 * Web'de yayımlama özelliğini devre dışı bırakabilme
 * Kullanıcıların içerik paketlerini kuruluşun tamamına yayımlamasını engelleme
 * Kuruluş dışındaki kullanıcılarla içerik paylaşımını devre dışı bırakma
 
-***Hızlı Öngörüler***
+***Hızlı İçgörüler** _
 
-* Power BI Desktop dosyalarını yayımladığınızda Hızlı Öngörüler
+_ Power BI Desktop dosyalarını yayımladığınızda Hızlı İçgörüler
 
-***Pano***
+***Pano** _
 
-* Panonuza Web içeriği ekleme (Pencere öğesi kullanarak)
+_ Panonuza Web içeriği ekleme (Pencere öğesi kullanarak)
 * Panonuza video içeriği ekleme (Pencere öğesi kullanarak)
 * Panoları yakınlaştırma
 
-***Bağlantı***
+***Bağlantı** _
 
-* URL aracılığıyla dosyaları SharePoint ekip sitenize bağlama
+_ URL aracılığıyla dosyaları SharePoint ekip sitenize bağlama
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)
 
@@ -466,37 +466,37 @@ Rapor oluşturma, çapraz vurgulama vs. için performans geliştirmeleri
 
 Power BI ekibi tatilde çok çalıştı. Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)
 
-***Panolar***
+**_Panolar_* _
 
-* Kutucuk verilerini dışarı aktarma
+_ Kutucuk verilerini dışarı aktarma
 * Panolara görüntü veya metin kutusu ekleme
 * Panoları yazdırma
 * Kutucuklar için yenileme süresi
 * Pano kutucuklarında araç ipuçları
 
-***İşbirliği***
+***İşbirliği** _
 
-* Pano paylaşım bildirimi
+_ Pano paylaşım bildirimi
 * Paylaşılan panonun veya kuruluş panosunun sahibiyle iletişime geçme
 
-***Raporlar***
+***Raporlar** _
 
-* Geçerli rapor sayfasını yazdırma
+_ Geçerli rapor sayfasını yazdırma
 * Rapor görsel verilerini dışarı aktarma
 
-***Bağlantı***
+***Bağlantı** _
 
-* SharePoint ekip sitelerindeki dosyalara bağlanma
+_ SharePoint ekip sitelerindeki dosyalara bağlanma
 
-***Excel Raporları***
+***Excel Raporları** _
 
-* Excel raporlarını Excel masaüstü uygulamasında açma
+_ Excel raporlarını Excel masaüstü uygulamasında açma
 * Excel grafiklerini sabitleme
 * Excel kutucukları için biçim geliştirmeleri
 
-***Diğer***
+***Diğer** _
 
-* Power BI Brezilya'da
+_ Power BI Brezilya'da
 * İbranice ve Arapça desteği
 
 Tüm ayrıntılar için [Power BI Ekibi blogunu ziyaret edin](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)

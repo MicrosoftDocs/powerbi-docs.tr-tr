@@ -8,20 +8,41 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131134"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397496"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Bir Power BI görselinin gönderim testi
 
-Görselinizin [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’da yayımlanmadan önce bu test çalışmalarını geçmesi gerekir. Göndermeden önce görselinizi test edin. Görseliniz gerekli test çalışmalarını geçemezse reddedilir.
+Görselinizin [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’da yayımlanmadan önce bu makalede listelenen testleri geçmesi gerekir. Göndermeden önce görselinizi test edin. Görseliniz gerekli test çalışmalarını geçemezse reddedilir.
 
 Yayımlama süreci hakkında daha fazla bilgi için bkz. [Power BI görsellerini İş Ortağı Merkezi’nde yayımlama](./office-store.md).
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>Yayımlanmış bir görselin yeni sürümünü test etme
+
+Önceden yayımlanmış bir görselin yeni sürümünü test ediyor veya hata ayıklama çalışması yapıyorsanız Power BI Desktop'ta Geliştirici modunu etkinleştirerek yerel dosya sürümüyle AppSource sürümünü geçersiz kılabilirsiniz.
+
+Geliştirici modunu etkinleştirmek için şu adımları izleyin:
+
+1. Power BI Desktop'ı açın.
+
+2.  **Dosya** > **Seçenekler ve ayarlar**'ı seçin.
+
+3.  **Seçenekler**'i belirleyin.
+
+4. Seçenekler penceresindeki GEÇERLİ DOSYA listesinde **Rapor ayarları**'nı seçin.
+
+5. Geliştirici Modu bölümünde **Bu oturum için geliştirici modunu aç**'ı seçin.
+
+>[!NOTE]
+>Power BI Desktop'ta Geliştirici modu yalnızca bir oturum için geçerlidir. Test için yeni bir Power BI Desktop örneği açarsanız Geliştirici modunu yeniden etkinleştirmeniz gerekir.
+
 ## <a name="general-test-cases"></a>Genel test çalışmaları
+
+Görselinizin genel test çalışmalarını geçtiğini doğrulayın.
 
 | Test çalışması | Beklenen sonuçlar
 | --------- | ----------------

@@ -1,26 +1,26 @@
 ---
-title: Raporlarda renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
-description: Power BI raporlarında renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
-author: mihart
-ms.reviewer: ''
+title: Raporlarda biçimlendirmeye ilişkin ipuçları ve püf noktaları
+description: Power BI raporlarında biçimlendirmeye ilişkin ipuçları ve püf noktaları
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633849"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483977"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI'da renk biçimlendirmeye ilişkin ipuçları ve püf noktaları
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>Raporlarda biçimlendirmeye ilişkin ipuçları ve püf noktaları
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
+Power BI, raporlarınızı özelleştirmek için birçok farklı yol sunar. Bu makalede, Power BI görselleştirmelerinizi daha etkileyici ve ilgi çekici bir hale getirip ihtiyaçlarınıza göre özelleştirmenizi sağlayacak birçok ipucu verilmektedir.
 
 İpuçlarını aşağıda bulabilirsiniz. Başka bir ipucu öneriniz mi var? Harika! Bu listeye ekleyip eklemeyeceğimize karar vermemiz için ipucunuzu bizimle paylaşın.
 
@@ -36,7 +36,7 @@ Power BI, panolarınızı ve raporlarınızı özelleştirmek için birçok fark
 
 Herhangi bir değişiklik yapmak için rapor üzerinde düzenleme izinlerine sahip olmanız gerekir. Power BI Desktop'ta raporu **Rapor** görünümünde açın. Power BI hizmetinde bu, aşağıdaki resimde gösterildiği gibi raporu açmak ve menü çubuğunda **Düzenle**’yi seçmek anlamına gelir.
 
-![Düzen menüsü nerede bulunur?](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![Düzen menüsü nerede bulunur?](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 Rapor tuvalinin sağ tarafında **Filtreler** ve **Görsel Öğeler** bölmeleri göründüğünde özelleştirme işlemine başlayabilirsiniz. Bölmeler gösterilmiyorsa, bunları açmak için sağ üst köşeden oku seçin.
 
@@ -108,7 +108,7 @@ Değerlerin bu renklerle nasıl eşleneceğini de değiştirebilirsiniz. Aşağ�
 
 ![yeşil ile turuncu arasındaki renk gradyanını gösteren sütun grafiği](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
-Şimdi **Minimum** ve **Maksimum** değer kutularına sayısal değerler girdiğimizde ne olduğuna bakalım. Hem **Minimum** hem de **Maksimum**için açılır kutularda **Özel**'i seçin, sonra da **Minimum** değerini 3.500 ve **Maksimum** değerini 6.000 olarak ayarlayın.
+Şimdi **Minimum** ve **Maksimum** değer kutularına sayısal değerler girdiğimizde ne olduğuna bakalım. Hem **Minimum** hem de **Maksimum** için açılır kutularda **Özel**'i seçin, sonra da **Minimum** değerini 3.500 ve **Maksimum** değerini 6.000 olarak ayarlayın.
 
 ![Sayıları göre koşullu biçimlendirme](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting-numbers.png)
 
