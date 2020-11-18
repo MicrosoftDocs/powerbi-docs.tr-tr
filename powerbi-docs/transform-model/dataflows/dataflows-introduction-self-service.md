@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396300"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669121"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>Veri akışlarına giriş ve self servis veri hazırlığı
 
@@ -49,6 +49,7 @@ Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi s
 * [Veri akışlarının Premium özellikleri](dataflows-premium-features.md)
 * [Veri akışları ve yapay zeka](dataflows-machine-learning-integration.md)
 * [Veri akışı sınırlamaları ve önemli noktalar](dataflows-features-limitations.md)
+* [Veri akışları için en iyi yöntemler](dataflows-best-practices.md)
 
 
 Ortak Veri Modeli hakkında daha fazla bilgi için genel bakış makalesini okuyabilirsiniz:

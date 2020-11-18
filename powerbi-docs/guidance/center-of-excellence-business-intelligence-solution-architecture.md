@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638692"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512137"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>Üstün Başarı Merkezi'nde iş zekası çözümü mimarisi
 
@@ -64,7 +64,7 @@ Bir bulut iş zekası platformunda kurumsal modeller [Azure Synapse'teki bir Syn
 
 Verilerin yanı sıra kavramları, ilişkileri, kuralları ve standartları belirleyen iş zekası anlam modelleri de iş özellikleri sunar. Bu şekilde veri ilişkilerini tanımlayan ve iş kurallarını hesaplama işlemleri olarak kapsülleyen sezgisel ve kolay anlaşılır yapılar haline gelirler. Bu yapılar ayrıca ayrıntılı veri izinleri de uygulayarak doğru kişilerin doğru verilere erişmesini sağlar. Ayrıca sorgu performansını artırarak terabayt boyutundaki veriler için dahi çok hızlı yanıt veren etkileşimli analizler sunar. Kurumsal modellerde olduğu gibi, iş zekası anlam modelleri de tutarlılık sağlamak için adlandırma kurallarından faydalanır.
 
-İş zekası geliştiricileri, iş zekası anlam modellerini bulut iş zekası platformlarında [Azure Analysis Services](/azure/analysis-services/) veya [Power BI Premium kapasitelerine](../admin/service-premium-what-is.md#dedicated-capacities) dağıtabilir. Raporlama ve analiz katmanı olarak Power BI kullanıyorsanız dağıtımı da oraya yapmanız önerilir. Bu ürünler farklı depolama modellerini destekler ve bu sayede veri modeli tablolarının verilerini önbelleğe almalarını veya sorguları doğrudan temel alınan veri kaynağına geçiren bir teknoloji olan [DirectQuery](directquery-model-guidance.md)'yi kullanmalarını mümkün kılar. DirectQuery, model tabloları büyük veri birimlerini temsil ettiğinde veya gerçek zamanlıya yakın sonuçlar sunma ihtiyacı söz konusu olduğunda ideal depolama modudur. İki depolama modu birlikte kullanılabilir: [Bileşik modeller](composite-model-guidance.md), farklı depolama alanı modlarını kullanan tabloları tek bir modelde birleştirir.
+İş zekası geliştiricileri, iş zekası anlam modellerini bulut iş zekası platformlarında [Azure Analysis Services](/azure/analysis-services/) veya [Power BI Premium kapasitelerine](../admin/service-premium-what-is.md#reserved-capacities) dağıtabilir. Raporlama ve analiz katmanı olarak Power BI kullanıyorsanız dağıtımı da oraya yapmanız önerilir. Bu ürünler farklı depolama modellerini destekler ve bu sayede veri modeli tablolarının verilerini önbelleğe almalarını veya sorguları doğrudan temel alınan veri kaynağına geçiren bir teknoloji olan [DirectQuery](directquery-model-guidance.md)'yi kullanmalarını mümkün kılar. DirectQuery, model tabloları büyük veri birimlerini temsil ettiğinde veya gerçek zamanlıya yakın sonuçlar sunma ihtiyacı söz konusu olduğunda ideal depolama modudur. İki depolama modu birlikte kullanılabilir: [Bileşik modeller](composite-model-guidance.md), farklı depolama alanı modlarını kullanan tabloları tek bir modelde birleştirir.
 
 Yoğun olarak sorgulanan modeller için [Azure Load Balancer](/azure/load-balancer/load-balancer-overview), sorgu yükünü model çoğaltmaları arasında eşit bir şekilde dağıtabilir. Bu hizmet, uygulamalarınızı ölçeklendirerek yüksek oranda kullanılabilir iş zekası anlam modelleri oluşturmanızı sağlar.
 

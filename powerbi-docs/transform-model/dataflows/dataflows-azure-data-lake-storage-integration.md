@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: eb67336868bb3eb3cf4527660330219573b1553d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f38908645cdf7846d43f97485c7a2d3e9e2e9b7b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638488"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668109"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Veri akışı depolama alanını Azure Data Lake 2. Nesil kullanacak şekilde yapılandırma 
 
@@ -61,3 +61,4 @@ Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi s
 * [Veri akışlarının Premium özellikleri](dataflows-premium-features.md)
 * [Veri akışları ve yapay zeka](dataflows-machine-learning-integration.md)
 * [Veri akışı sınırlamaları ve önemli noktalar](dataflows-features-limitations.md)
+* [Veri akışları için en iyi yöntemler](dataflows-best-practices.md)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235726"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718880"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI hizmetinde R paketlerini kullanarak görsel oluşturma
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -192,13 +192,12 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |curl|3,2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
-|d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
 |d3Network|0.5.2.1|https://cran.r-project.org/web/packages/d3Network/index.html|
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
 |veri kümeleri|3.4.4|NA|
-|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|tarih|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0,8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|
@@ -230,12 +229,12 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |doParallel|1.0.12|https://cran.r-project.org/web/packages/doParallel/index.html|
 |doSNOW|1.0.16|https://cran.r-project.org/web/packages/doSNOW/index.html|
 |dotCall64|0.9-5.2|https://cran.r-project.org/web/packages/dotCall64/index.html|
-|downloader|0,4|https://cran.r-project.org/web/packages/downloader/index.html|
+|downloader|0.4|https://cran.r-project.org/web/packages/downloader/index.html|
 |dplyr|0.8.0.1|https://cran.r-project.org/web/packages/dplyr/index.html|
 |DPpackage|1.1-7.4|https://cran.r-project.org/web/packages/DPpackage/index.html|
 |DRR|0.0.3|https://cran.r-project.org/web/packages/DRR/index.html|
 |dse|2015.12-1|https://cran.r-project.org/web/packages/dse/index.html|
-|DT|0,4|https://cran.r-project.org/web/packages/DT/index.html|
+|DT|0.4|https://cran.r-project.org/web/packages/DT/index.html|
 |dtt|0.1-2|https://cran.r-project.org/web/packages/dtt/index.html|
 |dtw|1.18-1|https://cran.r-project.org/web/packages/dtw/index.html|
 |dygraphs|1.1.1.4|https://cran.r-project.org/web/packages/dygraphs/index.html|
@@ -401,7 +400,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |hexbin|1.27.2|https://cran.r-project.org/web/packages/hexbin/index.html|
 |hflights|0.1|https://cran.r-project.org/web/packages/hflights/index.html|
 |HH|3.1-34|https://cran.r-project.org/web/packages/HH/index.html|
-|HI|0,4|https://cran.r-project.org/web/packages/HI/index.html|
+|HI|0.4|https://cran.r-project.org/web/packages/HI/index.html|
 |highcharter|0.5.0|https://cran.r-project.org/web/packages/highcharter/index.html|
 |highr|0.6|https://cran.r-project.org/web/packages/highr/index.html|
 |HistData|0.8-2|https://cran.r-project.org/web/packages/HistData/index.html|
@@ -559,7 +558,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |NbClust|3.0|https://cran.r-project.org/web/packages/NbClust/index.html|
 |ncvreg|3.9-1|https://cran.r-project.org/web/packages/ncvreg/index.html|
 |network|1.13.0|https://cran.r-project.org/web/packages/network/index.html|
-|networkD3|0,4|https://cran.r-project.org/web/packages/networkD3/index.html|
+|networkD3|0.4|https://cran.r-project.org/web/packages/networkD3/index.html|
 |neuralnet|1.33|https://cran.r-project.org/web/packages/neuralnet/index.html|
 |ngram|3.0.4|https://cran.r-project.org/web/packages/ngram/index.html|
 |nlme|3.1-131.1|https://cran.r-project.org/web/packages/nlme/index.html|
@@ -689,7 +688,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |RcppEigen|0.3.3.4.0|https://cran.r-project.org/web/packages/RcppEigen/index.html|
 |RcppExamples|0.1.8|https://cran.r-project.org/web/packages/RcppExamples/index.html|
 |RcppParallel|4.4.0|https://cran.r-project.org/web/packages/RcppParallel/index.html|
-|RcppProgress|0,4|https://cran.r-project.org/web/packages/RcppProgress/index.html|
+|RcppProgress|0.4|https://cran.r-project.org/web/packages/RcppProgress/index.html|
 |RcppRoll|0.2.2|https://cran.r-project.org/web/packages/RcppRoll/index.html|
 |RCurl|1.95-4.10|https://cran.r-project.org/web/packages/RCurl/index.html|
 |readbitmap|0.1-4|https://cran.r-project.org/web/packages/readbitmap/index.html|
@@ -897,7 +896,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |timelineS|0.1.1|https://cran.r-project.org/web/packages/timelineS/index.html|
 |timeSeries|3042.102|https://cran.r-project.org/web/packages/timeSeries/index.html|
 |timetk|0.1.0|https://cran.r-project.org/web/packages/timetk/index.html|
-|timevis|0,4|https://cran.r-project.org/web/packages/timevis/index.html|
+|timevis|0.4|https://cran.r-project.org/web/packages/timevis/index.html|
 |tm|0.7-3|https://cran.r-project.org/web/packages/tm/index.html|
 |tmap|1.11-1|https://cran.r-project.org/web/packages/tmap/index.html|
 |tmaptools|1.2-3|https://cran.r-project.org/web/packages/tmaptools/index.html|

@@ -6,18 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397266"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667994"
 ---
-# <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI premium veri akışı iş yüklerini yapılandırma
+# <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI Premium veri akışı iş yüklerini yapılandırma
 
 Power BI Premium aboneliğinizde veri akışı iş yükleri oluşturabilirsiniz. Power BI, Premium içerikleri tanımlamak için *iş yükleri* kavramını kullanır. İş yükleri arasında veri kümeleri, sayfalandırılmış raporlar, veri akışları ve yapay zeka özellikleri bulunur. *Veri akışları* iş yükü verileri almak, dönüştürmek, tümleştirmek ve zenginleştirmek için veri akışları self servis veri hazırlığını kullanmanıza olanak tanır. Power BI Premium veri akışları, **Yönetici portalından** yönetilir.
 
@@ -27,7 +27,7 @@ Aşağıdaki bölümlerde kuruluşunuzda veri akışlarını kullanma, Premium k
 
 ## <a name="enabling-dataflows-in-power-bi-premium"></a>Power BI Premium'da iş yüklerini etkinleştirme
 
-Power BI premium aboneliğinizde veri akışlarını kullanabilmek için yapmanız gereken ilk şey, kuruluşunuzda veri akışı oluşturma ve kullanma özelliğini etkinleştirmektir. **Yönetici portalında** **Kiracı Ayarları** 'nı seçtikten sonra aşağıdaki görüntüde gösterildiği gibi **Veri akışı ayarları** altındaki kaydırıcıyı **Etkin** konumuna getirin.
+Power BI premium aboneliğinizde veri akışlarını kullanabilmek için yapmanız gereken ilk şey, kuruluşunuzda veri akışı oluşturma ve kullanma özelliğini etkinleştirmektir. **Yönetici portalında** **Kiracı Ayarları**'nı seçtikten sonra aşağıdaki görüntüde gösterildiği gibi **Veri akışı ayarları** altındaki kaydırıcıyı **Etkin** konumuna getirin.
 
 ![Power BI premium iş yükleri için yönetici portalı](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -37,7 +37,7 @@ Veri akışı iş yükü etkinleştirildikten sonra varsayılan ayarlarla yapıl
 
 Veri akışları etkinleştirildikten sonra **Yönetici portalını** kullanarak veri akışlarının oluşturulma şeklini ve Power BI Premium aboneliğinizdeki kaynakların nasıl kullanılacağını değiştirebilir veya düzenleyebilirsiniz. Aşağıdaki adımlarda veri akışı ayarlarınızı nasıl düzenleyebileceğiniz gösterilmiştir.
 
-1. **Yönetici portalında**  **Kiracı ayarları** 'nı seçerek oluşturulan tüm kapasiteleri listeleyin. Ayarlarını yönetmek istediğiniz kapasiteyi seçin.
+1. **Yönetici portalında**  **Kiracı ayarları**'nı seçerek oluşturulan tüm kapasiteleri listeleyin. Ayarlarını yönetmek istediğiniz kapasiteyi seçin.
 
     ![Ayarlarını yönetmek istediğiniz kapasiteyi seçme](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-02.png)
 
@@ -69,7 +69,7 @@ Sonraki bölümlerde bu ayarların her biriyle ilgili ayrıntılı bilgiler sağ
 
 ### <a name="understanding-dataflow-workload-options"></a>Veri akışı iş yükü seçeneklerini anlama
 
-Veri akışı iş yükü seçeneklerini daha iyi kavramanız için bir benzetme üzerinden gidebiliriz. *Kapasite boyutunu* veya sahip olduğunuz Power BI Premium örneğinin türünü bir *restoran* gibi düşünebilirsiniz. Restoranın *mutfağı* , sizin *iş yükü belleğinizdir*. *İşlem altyapısı* ise *fırınınızdır*. Son olarak *kapsayıcıyı* da *şefinizin* tecrübesi olarak düşünebilirsiniz. Veri akışı iş yükü seçeneklerinizi değerlendirmek için önemli bir davette yemek hazırladığınızı düşünün. Çok önemli konukları ağırlayacaksınız ve onlar geldiğinde tüm yemeklerin servise hazır olması gerekiyor.
+Veri akışı iş yükü seçeneklerini daha iyi kavramanız için bir benzetme üzerinden gidebiliriz. *Kapasite boyutunu* veya sahip olduğunuz Power BI Premium örneğinin türünü bir *restoran* gibi düşünebilirsiniz. Restoranın *mutfağı*, sizin *iş yükü belleğinizdir*. *İşlem altyapısı* ise *fırınınızdır*. Son olarak *kapsayıcıyı* da *şefinizin* tecrübesi olarak düşünebilirsiniz. Veri akışı iş yükü seçeneklerinizi değerlendirmek için önemli bir davette yemek hazırladığınızı düşünün. Çok önemli konukları ağırlayacaksınız ve onlar geldiğinde tüm yemeklerin servise hazır olması gerekiyor.
 
 Ayarlarla ilgili açıklamalar yaparken ve kullanımlarıyla ilgili yol gösterirken bu restoran benzetmesini kullanacağız. En üst düzeyde Power BI Premium'u kullanırken yaptığınız ilk seçenek olan Premium kapasiteniz bulunur.
 
