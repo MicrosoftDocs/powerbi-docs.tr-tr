@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fc93ae0f54bfe4f72ec18687829e9eb78dfaedd7
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 215c84b9af9d3b785c055d633a41b99bbea2bb2f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349380"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512597"
 ---
 # <a name="use-customer-managed-keys-in-power-bi"></a>Power BI’da müşteri tarafından yönetilen anahtarları kullanma
 

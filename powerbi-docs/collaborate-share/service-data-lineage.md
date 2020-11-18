@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 697aa38a08acb561cca9b0ccba5656281157237e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
+ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226424"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94529040"
 ---
 # <a name="data-lineage"></a>Veri kökeni
 Modern iş zekası (BI) projelerinde verilerin veri kaynağından hedefine akışını anlamak güç olabilir. Birden çok veri kaynağına, yapıta ve bağımlılığa yayılan gelişmiş analiz projeleri oluşturduğunuzda bu güçlük daha da artar. "Bu verileri değiştirirsem ne olur?" veya "Bu rapor neden güncel değil?" gibi soruları yanıtlamak kolay olmayabilir. Bunu anlamak için bir uzman takımı veya derin bir araştırma gerekebilir. Veri kökeni görünümünü, bu soruları yanıtlamanıza yardımcı olmak için tasarladık.
@@ -23,7 +23,9 @@ Modern iş zekası (BI) projelerinde verilerin veri kaynağından hedefine akı�
  
 Power BI'da panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli yapıt türleri vardır. Birçok veri kümesi ve veri akışı SQL Server gibi dış veri kaynaklarına ve diğer çalışma alanlarındaki dış veri kümelerine bağlanır. Bir veri kümesi sahip olduğunuz çalışma alanının dışındaysa, BT'deki birine veya başka bir analiste ait veri kümesinde olabilir. Dış veri kaynakları ve veri kümeleri verilerin nihai olarak nereden geldiğini bilmeyi zorlaştırır. Hem karmaşık projeler hem de daha basit olanlar için köken görünümünü sunuyoruz.
 
-Köken görünümünde çalışma alanında yer alan tüm yapıtlar arasındaki köken ilişkilerini ve çalışma alanının tüm dış bağımlılıklarını görürsünüz. Hem yukarı hem de aşağı doğru akan veri akışlarıyla bağlantılar da dahil olmak üzere tüm çalışma alanı yapıtları arasındaki bağlantıları gösterir.
+Köken görünümünde çalışma alanında yer alan tüm yapıtlar arasındaki köken ilişkilerini ve çalışma alanının tüm dış bağımlılıklarını görürsünüz. Hem yukarı hem de aşağı doğru akan veri akışlarıyla bağlantılar da dahil olmak üzere tüm çalışma alanı yapıtları arasındaki bağlantıları gösterir.    
+
+> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>Köken görünümünü inceleme
 

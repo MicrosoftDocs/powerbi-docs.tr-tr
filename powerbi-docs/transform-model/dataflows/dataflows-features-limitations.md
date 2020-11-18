@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396599"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668178"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Veri akışı sınırlamaları ve önemli noktalar
 
@@ -75,7 +75,7 @@ Premium kapasitelerdeki veri akışları aşağıdaki sınırlamalara ve dikkat 
 
 * Bağlantılı bir varlık, verilerinin şirket içi veri kaynağından alan normal bir varlıkla birleştirilemez
 
-* Veri akışlarında bir sorgu (örneğin, *A* sorgusu), başka bir sorgunun ( *B* sorgusu) hesaplanması için kullanıldığında *B* sorgusu hesaplanmış bir varlık olur. Hesaplanmış varlıklar, şirket içi kaynaklara başvuramaz.
+* Veri akışlarında bir sorgu (örneğin, *A* sorgusu), başka bir sorgunun (*B* sorgusu) hesaplanması için kullanıldığında *B* sorgusu hesaplanmış bir varlık olur. Hesaplanmış varlıklar, şirket içi kaynaklara başvuramaz.
 
 
 **İşlem altyapısı:**
@@ -111,3 +111,4 @@ Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi s
 * [Veri akışı depolama alanını Azure Data Lake 2. Nesil kullanacak şekilde yapılandırma](dataflows-azure-data-lake-storage-integration.md)
 * [Veri akışlarının Premium özellikleri](dataflows-premium-features.md)
 * [Veri akışları ve yapay zeka](dataflows-machine-learning-integration.md)
+* [Veri akışları için en iyi yöntemler](dataflows-best-practices.md)

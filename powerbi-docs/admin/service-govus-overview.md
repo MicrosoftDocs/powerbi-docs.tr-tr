@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2020
+ms.date: 11/17/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396116"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718903"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -74,25 +74,25 @@ Power BI'ın kimlik doğrulaması, kimlik ve yönetim özellikleri, Microsoft 36
 
 |  Amaç | Hedef |
 | ---- | ----- |
-| Arka uç API’leri | **GCC** : api.powerbigov.us |
-| | **GCC-High** : api.high.powerbigov.us |
-| | **DoD** : api.mil.powerbi.gov.us |
-| Arka uç API’leri | **GCC** : *analysis.usgovcloudapi.net |
-| | **GCC High** : *.high.analysis.usgovcloudapi.net |
-| | **DoD** : *.mil.analysis.usgovcloudapi.net |
-| Arka uç API’leri | **Tümü** : *.pbidedicated.usgovcloudapi.net |
-| Content Delivery Network (CDN) | **GCC** : gov.content.powerapps.us |
-| | **GCC High** : high.content.powerapps.us |
-| | **DoD** : mil.content.powerapps.us |
-| Microsoft 365 tümleştirmesi | **GCC** : [Dünya genelindeki uç noktalar](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High** : [ABD Hükümeti GCC High uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD** : [ABD Hükümeti DoD uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Portal |**GCC** : *.powerbigov.us |
-| | **GCC-High** : *.high.powerbigov.us |
-| | **DoD** : *.mil.powerbigov.us |
-| Hizmet telemetrisi | **Tümü** : dc.services.visualstudio.us |
-| Bilgilendirme iletileri (isteğe bağlı) | **Tümü** : dynmsg.modpim.com |
-| NPS anketleri (isteğe bağlı) | **Tümü** : nps.onyx.azure.net |
+| Arka uç API’leri | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| Arka uç API’leri | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| Arka uç API’leri | **Tümü**: *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Microsoft 365 tümleştirmesi | **GCC**: [Dünya genelindeki uç noktalar](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [ABD Hükümeti GCC High uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [ABD Hükümeti DoD uç noktaları](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| Hizmet telemetrisi | **Tümü**: dc.services.visualstudio.us |
+| Bilgilendirme iletileri (isteğe bağlı) | **Tümü**: dynmsg.modpim.com |
+| NPS anketleri (isteğe bağlı) | **Tümü**: nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Kamuya özgü ve genel Azure bulut hizmetleri arasında bağlantı kurma
 
@@ -129,6 +129,7 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
 |[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
 |[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
+|[Azure Akış Analizi](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| Ç4 2020|Ç4 2020|Ç4 2020|
 |[Çağrı Kalitesi Veri Bağlayıcısı](/microsoftteams/cqd-power-bi-connector)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Kendi Depolama Alanını Getir (Azure Data Lake 2. Nesil)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
