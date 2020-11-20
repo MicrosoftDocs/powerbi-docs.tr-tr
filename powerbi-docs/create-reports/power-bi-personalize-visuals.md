@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256855"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668523"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Kullanıcıların rapordaki görselleri kişiselleştirmesine olanak tanıma
 
@@ -96,23 +96,23 @@ Rapor sayfasının Perspektifini ayarladığınızda, bu sayfadaki Görsel öğe
 
 ## <a name="enable-personalization-in-a-report"></a>Raporda kişiselleştirmeyi etkinleştirme
 
-Bu özelliği Power BI Desktop'ta veya Power BI hizmetinde etkinleştirebilirsiniz.
+Bu özelliği Power BI Desktop'ta veya Power BI hizmetinde etkinleştirebilirsiniz. Eklenmiş raporlarda da etkinleştirebilirsiniz.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop'ta
 
 Özelliği Power BI Desktop’ta etkinleştirmek için **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler** > **Geçerli dosya** > **Rapor ayarları**’na gidin. **Görselleri kişiselleştir** seçeneğinin açıldığından emin olun.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Raporda kişiselleştirmeyi etkinleştirme":::
 
 ### <a name="in-the-power-bi-service"></a>Power BI hizmetinde
 
 Özelliği bunun yerine Power BI hizmetinde etkinleştirmek için raporunuzun **Ayarlar** bölümüne gidin.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI hizmetinde rapor ayarları":::
 
 **Görselleri kişiselleştir** > **Kaydet**'i seçin.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Hizmette görselleri kişiselleştirme seçeneğini açma":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>Özelliği sayfa veya görsel düzeyinde açma ya da kapatma
 
@@ -122,7 +122,7 @@ Görselleri kişiselleştir ayarını belirli bir rapor için etkinleştirdiğin
 
 Sayfa sekmesini seçip **Görselleştirmeler** bölmesinden **Biçim**'i seçin.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Görseli kişiselleştir özelliğini bir sayfa için seçme.":::
  
 **Görseli kişiselleştir** >  kaydırıcısını **Açık** veya **Kapalı** konuma getirin.
 
@@ -130,11 +130,11 @@ Sayfa sekmesini seçip **Görselleştirmeler** bölmesinden **Biçim**'i seçin.
 
 Görseli seçin > **Görselleştirmeler** bölmesinde **Biçim**’i seçin > **Görsel üst bilgisi**’ni genişletin.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Görsel üst bilgisi’ni seçme":::
  
 **Görseli kişiselleştir** >  kaydırıcısını **Açık** veya **Kapalı** konuma getirin.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Görseli kişiselleştir kaydırıcısı açık veya kapalı":::
 
 
 ## <a name="limitations"></a>Sınırlamalar
