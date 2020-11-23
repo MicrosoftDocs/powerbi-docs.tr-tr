@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396806"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668592"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -93,6 +93,9 @@ Duyarlılık etiketine sahip olan raporlar [hizmet sorumlusu](embed-service-prin
 `exportToFile` eş zamanlı dışarı aktarma işi isteklerini destekler. Aşağıdaki tabloda raporunuzun bulunduğu SKU’ya bağlı olarak aynı anda çalıştırabileceğiniz işlerin sayısı gösterilir. Eş zamanlı istekler rapor sayfalarına karşılık gelir. Örneğin A6 SKU’sundaki bir rapor isteğinin 20 sayfası eş zamanlı olarak işlenir. Bu işlem her biri tek sayfa içeren 20 dışarı aktarma isteği göndermekle yaklaşık aynı zamanı alır.
 
 Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU’sunda üç sayfalık bir raporu dışarı aktarıyorsanız, ilk iş çalıştırılır ve ardından diğer iki iş sonraki iki yürütme döngüsünü bekler.
+
+>[!NOTE]
+>`exporToFile` API’sini kullanarak Power BI raporunu bir dosyaya aktarmak [Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) için desteklenmez. 
 
 |Azure SKU  |Office SKU  |Eş zamanlı rapor sayfası sayısı üst sınırı  |
 |-----------|------------|-----------|

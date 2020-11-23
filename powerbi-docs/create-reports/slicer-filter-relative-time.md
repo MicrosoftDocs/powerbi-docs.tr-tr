@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409525"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669236"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI’da göreli saat dilimleyicisi ve filtresi kullanma
 
@@ -90,10 +90,7 @@ Sayfa veya rapor düzeyinde bir filtre uygulandığında söz konusu sayfa veya 
 Göreli saat dilimleyicisi ve filtresi için geçerli sınırlamalar ve önemli noktalar aşağıda belirtilmiştir.
 
 - **Saat dilimiyle ilgili önemli noktalar**: Power BI'daki veri modellerinde saat dilimi bilgisi yoktur. Modeller saat bilgisi depolayabilir ancak bulundukları saat dilimiyle ilgili bir belirtim mevcut değildir. Dilimleyici ve filtre her zaman UTC cinsinden saati temel alır. Bir raporda filtre oluşturup farklı bir saat dilimindeki iş arkadaşınıza gönderirseniz, her ikiniz de aynı verileri görürsünüz. Siz veya iş arkadaşınız UTC saat diliminde değilseniz, her ikinizin de aradaki saat farkını dikkate almanız gerekir. Yerel saat diliminde yakalanan verileri UTC’ye dönüştürmek için Sorgu Düzenleyicisi'ni kullanın.
-- Bu yeni filtre türü Power BI Desktop’ta, Power BI hizmetinde, Power BI Embedded’de ve Power BI mobil uygulamalarında desteklenir. Öte yandan bilinen birkaç destek sınırlaması vardır:
-
-    - Ekleme API’si aracılığıyla desteklenmez.
-    - Web’de yayımlama için desteklenmez.
+- Bu yeni filtre türü Power BI Desktop’ta, Power BI hizmetinde, Power BI Embedded’de ve Power BI mobil uygulamalarında desteklenir. Ancak, Web’de Yayımla işlevi için desteklenmez.
 
 - **Sorgu önbelleği**: İstemci önbelleğini kullanıyoruz. "Son 1 dakika", sonra "son 5 dakika" ve sonra da yeniden "son 1 dakika" seçeneklerini belirttiğinizi düşünün. Bu noktada, sayfayı yenilemediğiniz veya sayfa otomatik olarak yenilenmediği sürece ilk çalıştırıldığı zamankiyle aynı sonuçları görürsünüz.
 

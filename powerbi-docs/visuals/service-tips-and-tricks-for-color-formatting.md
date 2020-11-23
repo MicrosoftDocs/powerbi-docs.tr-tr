@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483977"
+ms.locfileid: "94513119"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>Raporlarda biçimlendirmeye ilişkin ipuçları ve püf noktaları
 
@@ -40,12 +40,12 @@ Herhangi bir değişiklik yapmak için rapor üzerinde düzenleme izinlerine sah
 
 Rapor tuvalinin sağ tarafında **Filtreler** ve **Görsel Öğeler** bölmeleri göründüğünde özelleştirme işlemine başlayabilirsiniz. Bölmeler gösterilmiyorsa, bunları açmak için sağ üst köşeden oku seçin.
 
-![düzenleme görünümünde rapor tuvali](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![düzenleme görünümünde rapor tuvali](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>Tema uygulama
 Rapor temalarıyla raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır. Daha fazla bilgi edinmek için bkz. [Rapor temalarını kullanma](../create-reports/desktop-report-themes.md)
 
-![Menü çubuğundaki temayı değiştirme simgesi](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![Menü çubuğundaki temayı değiştirme simgesi](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 Burada Sales and Marketing (Satış ve Pazarlama) raporuna **Yenilik** temasını uyguladık.
 
@@ -56,13 +56,13 @@ Bazen belirli bir veri noktasını vurgulamak istersiniz. Örneğin, yeni bir ü
 
 Aşağıdaki görselleştirme satılan birimleri ürün segmentine göre derecelendirir. 
 
-![Veri renklerini gri yapma](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![Veri renklerini gri yapma](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 Şimdi, renkleri kullanarak bu yeni segmentin nasıl performans gösterdiğini ortaya koymak için **Convenience** segmentine dikkat çekmek istediğinizi düşünün. Uygulamanız gereken adımlar:
 
 **Veri renkleri** kartını genişletin ve **Tümünü göster** için kaydırıcıyı Açık konuma getirin. Bu işlemin ardından, görselleştirmedeki tüm veri öğelerine ilişkin renkler görüntüler. Artık veri noktalarından istediklerinizi değiştirebilirsiniz.
 
-![Tümünü göster ayarı Açık olan Biçim bölmesi](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Tümünü göster ayarı Açık olan Biçim bölmesi](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 **Convenience** veri noktasını turuncu olarak ayarlayın. 
 
@@ -84,9 +84,9 @@ Görselleştirmelerde genellikle renkleri, bir alanın sayısal değerine göre 
 Aşağıdaki bölümlerde, renk için bir sayısal değeri temel almaya ilişkin farklı yöntemler gösterilmiştir.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>Veri noktalarının rengi için bir değeri temel alma
-Rengin değere göre değişmesini sağlamak için, bir görselleştirmeyi seçerek etkinleştirin. Boya rulosu simgesini seçerek ve ardından **Veri renkleri** kartını açarak Biçimlendirme bölmesini açın. Kartın üzerine gelin, görüntülenen üç dikey noktayı seçin ve ardından **Koşullu biçimlendirme**'yi seçin.  
+Rengin değere göre değişmesini sağlamak için, bir görselleştirmeyi seçerek etkinleştirin. Boya rulosu simgesini ve ardından **Veri renkleri** kartını seçerek Biçimlendirme bölmesini açın. **Varsayılan rengin** altında fx simgesini seçin.  
 
-![üç dikey noktaya tıklayarak koşullu biçimlendirme seçeneğini belirtin](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![üç dikey noktaya tıklayarak koşullu biçimlendirme seçeneğini belirtin](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 **Varsayılan renkler** bölmesinde açılan listeleri kullanarak koşullu biçimlendirme için kullanılacak alanları tanımlayın. Bu örnekte **Sales fact** > **Total Units** alanını, **En düşük değer** için açık maviyi ve **En yüksek değer** için koyu maviyi seçtik. 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a3835ff26bf86024b827edf69e19d6f603e66c2c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599399"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512896"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
@@ -28,6 +28,9 @@ Bu makalede Power BI Premium kapasitelerinin uygulanmış olduğu gerçek dünya
 - [Yeterli CPU olup olmadığını belirleme](#determining-whether-there-is-enough-cpu)
 
 Adımlar, örnek grafikler ve tablolar, Power BI yöneticisi tarafından erişim sağlanabilecek **Power BI Premium Kapasite Ölçümleri uygulamasından** alınmıştır.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="keeping-datasets-up-to-date"></a>Veri kümelerini güncel tutma
 
@@ -123,6 +126,9 @@ Power BI yöneticisi, kapasitede iş yüklerini tamamlamaya yetecek kadar bellek
 
 Bellek baskısı yaşayan bir kapasitede aynı görsel, etkin bellekle toplam belleğin birbirine yakın olduğunu ve belleğe ek veri kümesi yüklemenin mümkün olmadığını gösterecektir. Power BI yöneticisi böyle bir durumda **Kapasite Yeniden Başlatma**'ya (yönetim portalının kapasite ayarları sayfasındaki **Gelişmiş Seçenekler** menüsünde) tıklayabilir. Kapasitenin yeniden başlatılması durumunda bellekteki tüm veri kümeleri boşaltılır ve ihtiyaç duyulanlar (sorguyla veya veri yenileme işlemiyle) belleğe yeniden yüklenir.
 
+> [!NOTE]
+> Premium 2. Nesil’de bellek tüketiminin izlenmesi gerekmez. Premium 2. Nesil’deki tek kısıtlama, tek bir yapıtın bellek ayak izindedir. Parmak izi, kapasitedeki kullanılabilir bellek miktarını aşamaz. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 ![**Etkin** bellek ile **Tümü** birbirine yakın](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
 ## <a name="determining-whether-there-is-enough-cpu"></a>Yeterli CPU olup olmadığını belirleme
@@ -141,6 +147,9 @@ Bu etki özellikle veri kümesinin birden fazla kullanıcıdan gelen yüksek yo�
 
 Bazı durumlarda Power BI yöneticileri, veri kümesi sahiplerinin rapor yerine pano (önbelleğe alınmış kutucuklar için veri kümesi yenileme işlemleriyle ve belirli aralıklarla sorgu gönderen) oluşturmalarını sağlayarak daha az geçici sorgu iş yükü oluşturmasını isteyebilir. Bu durum, pano yüklendiğinde karşılaşılan ani artışların engellenmesine yardımcı olabilir. Bu çözüm her zaman iş gereksinimlerine uygun olmayabilir ancak veri kümesinde değişiklik yapmadan CPU'nun doyma noktasına gelmesinden kaçınmanın etkili bir yolu olabilir.
 
+> [!NOTE]
+> Premium 2. Nesil’de CPU süresi kullanımı yapıt başına düzeyinde izlenir ve kapasite kullanım uygulamasında görülebilir. Her yapıt, verilen zaman aralığındaki toplam CPU süresi kullanımını gösterir. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 ## <a name="acknowledgments"></a>Teşekkürler
 
 Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
@@ -154,4 +163,13 @@ Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesol
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
-||||||
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+

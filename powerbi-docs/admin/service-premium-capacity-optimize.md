@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599295"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512850"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium kapasiteleri iyileştirme
 
@@ -28,7 +28,12 @@ Ek Premium kapasite gerektiğinde, bu makalede tanımlanan iki seçenek bulunur:
 
 Son olarak, yaklaşımlar ve Premium kapasite boyutlandırması test edilerek bu makale sonlandırılır.
 
-## <a name="best-practices"></a>En iyi yöntemler
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
+Bu makaledeki öneriler ve en iyi deneyimler her veri kümesinin ve diğer Power BI yapılarının CPU kullanımının iyileştirilmesini sağlar.
+
+## <a name="best-practices"></a>Önerilen uygulamalar
 
 En uygun kullanımı ve en iyi performansı elde etmek için şunları da içeren önerilen en iyi yöntemler bulunur:
 
@@ -258,7 +263,7 @@ Zaten bir kapasiteniz ve testi yüklemek istediğiniz raporlarınız varsa, hız
 
 Daha karmaşık bir test oluşturmak için, gerçekçi bir iş yüküne benzetim yapan bir yük test etme uygulaması geliştirmeyi düşünebilirsiniz. Daha fazla bilgi için bkz. [Visual Studio Yük Testi ile Power BI Uygulamalarında Yük Test Etme](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/).
 
-## <a name="acknowledgements"></a>Bildirimler
+## <a name="acknowledgments"></a>Teşekkürler
 
 Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
 
@@ -268,3 +273,13 @@ Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesol
 > [Premium kapasite senaryoları](service-premium-capacity-scenarios.md)   
   
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

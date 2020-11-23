@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/21/2020
+ms.openlocfilehash: b0b8d61224a91cd069caf48a2d321979ac2d291d
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855507"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513310"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>Dağıtım işlem hatlarına giriş
 
 Günümüzde analiz, neredeyse tüm kuruluşların karar verme sürecinin önemli bir parçasıdır. Analiz alanında her geçen gün daha fazla kullanıcıya ulaşan Power BI'ın daha fazla veriye ulaşması, ilgi çekici görünmesi ve kullanıcı dostu olması gerekmektedir. Ancak bunların da ötesinde Power BI her zaman kullanılabilir durumda ve güvenilir olmalıdır. BI ile içerik oluşturanlar bu gereksinimleri karşılamak için verimli bir şekilde işbirliği yapmalıdır.
 
-Dağıtım işlem hatları aracı, BI oluşturucularının kurumsal içeriğin yaşam döngüsünü yönetmesine olanak sağlar. Araç, Premium kapasiteye sahip bir kuruluştaki oluşturucular için verimlidir ve yeniden kullanılabilir. Araç, oluşturucuların Power BI içeriklerini, kullanıcılar tarafından kullanılmadan önce geliştirmesine ve test etmesine olanak sağlar. İçerik türleri arasında raporlar, panolar ve veri kümeleri yer alır.
+Dağıtım işlem hatları aracı, BI oluşturucularının kurumsal içeriğin yaşam döngüsünü yönetmesine olanak sağlar. Bu araç, Premium kapasiteye sahip bir kuruluştaki oluşturucular için verimlidir ve yeniden kullanılabilir. Dağıtım işlem hatları, oluşturucuların Power BI içeriklerini, kullanıcılar tarafından kullanılmadan önce geliştirmesine ve test etmesine olanak sağlar. İçerik türleri arasında raporlar, panolar ve veri kümeleri yer alır.
 
 Bu araç üç aşamalı bir işlem hattı olarak tasarlanmıştır:
 
@@ -29,7 +29,7 @@ Bu araç üç aşamalı bir işlem hattı olarak tasarlanmıştır:
 
 * **<a name="test"></a>Test**
 
-    İçerikleriniz üzerinde tüm değişiklikleri yaptıktan sonra test aşamasına girmeye hazırsınız demektir. Değiştirilen içeriği, bu test aşamasına taşınabilmesi için karşıya yüklersiniz. Test ortamında yapılabilecek işlemlere yönelik üç örnek aşağıda verilmiştir:
+    İçerikleriniz üzerinde gereken tüm değişiklikleri yaptıktan sonra test aşamasına girmeye hazırsınız demektir. Değiştirilen içeriği, bu test aşamasına taşınabilmesi için karşıya yüklersiniz. Test ortamında yapılabilecek işlemlere yönelik üç örnek aşağıda verilmiştir:
 
     * İçeriği test edenler ve gözden geçirenlerle paylaşma
 

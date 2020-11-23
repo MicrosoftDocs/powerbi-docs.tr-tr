@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 50c10343487765f4f42c895ba605618b852415fd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916418"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512252"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 
-**Power BI Premium Metrics uygulamasını** , Power BI Premium aboneliğinizin durumunu ve kapasitesini yönetmek için kullanabilirsiniz. Bu uygulamayla, yöneticiler uygulamanın **Kapasite durumu merkezi** ’ni kullanarak premium kapasitelerinin durumunu izleyen göstergeleri görebilir ve bunlarla etkileşimli çalışabilir. Metrics uygulaması **Kapasite Durumu Merkezi** adlı bir giriş sayfasından ve üç önemli ölçümün ayrıntılarından oluşur:
+**Power BI Premium Metrics uygulamasını**, Power BI Premium aboneliğinizin durumunu ve kapasitesini yönetmek için kullanabilirsiniz. Bu uygulamayla, yöneticiler uygulamanın **Kapasite durumu merkezi**’ni kullanarak premium kapasitelerinin durumunu izleyen göstergeleri görebilir ve bunlarla etkileşimli çalışabilir. Metrics uygulaması **Kapasite Durumu Merkezi** adlı bir giriş sayfasından ve üç önemli ölçümün ayrıntılarından oluşur:
 
 * Etkin bellek
 * Sorgu beklemeleri
@@ -31,6 +31,8 @@ Aşağıdaki bölümlerde giriş sayfası ve üç ölçüm raporu sayfası ayrı
 > [!IMPORTANT]
 > Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Bu, aşırı yüklenmiş kapasitelerde sorun gidermeye yönelik basitleştirilmiş bir yöntemdir. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Özellikle, ölçüm yöneticilerinin izlemesi gerekenleri (yalnızca CPU) önemli ölçüde azaltarak performansı ve kullanıcı deneyimini artırır. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 
 ## <a name="premium-capacity-health-center"></a>Premium kapasite durumu merkezi
@@ -59,7 +61,7 @@ Bu bölümde gösterilen ölçer görseli raporun son yenilenmesinden bu yana ge
 
 Etkin bellek KPI’nin ayrıntılarını öğrenmek için **Araştır** düğmesine tıklayarak ayrıntılı ölçümlerinin belirli görselleştirmelerini sağlayan rapor sayfasına bakabilirsiniz. Ayrıca bu sayfanın sağ sütununda bir sorun giderme kılavuzu da gösterilir. 
 
-İki senaryo açıklanmıştır; rapor sayfasında **Senaryo 1** veya **Senaryo 2** ’yi seçerek bunları görüntüleyebilirsiniz. 
+İki senaryo açıklanmıştır; rapor sayfasında **Senaryo 1** veya **Senaryo 2**’yi seçerek bunları görüntüleyebilirsiniz. 
 
 ![Etkin bellek ayrıntı sayfasını gösteren ekran görüntüsü.](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
@@ -69,7 +71,7 @@ Bu iki senaryo aşağıdaki bölümlerde açıklanmıştır.
 
 ### <a name="scenario-one---current-load-is-too-high"></a>Senaryo bir - geçerli yük fazla büyük 
 
-Kapasitenin iş yüklerini tamamlamasına yetecek kadar bellek olup olmadığını saptamak için sayfadaki ilk görsele başvurun: **A: Tüketilen Bellek Yüzdeleri** , şu anda etkin olarak işlenen ve bu nedenle çıkarılamayacak olan veri kümelerinin tükettiği belleği görüntüler.
+Kapasitenin iş yüklerini tamamlamasına yetecek kadar bellek olup olmadığını saptamak için sayfadaki ilk görsele başvurun: **A: Tüketilen Bellek Yüzdeleri**, şu anda etkin olarak işlenen ve bu nedenle çıkarılamayacak olan veri kümelerinin tükettiği belleği görüntüler.
 
 Kırmızı noktalı çizgiyle gösterilen alarm eşiği %90 bellek tüketimi durumlarına işaret eder.
 
@@ -81,9 +83,9 @@ Etkin belleğin alarm eşiğinin (kırmızı noktalı çizgi) ve bellek eğilim 
 
 Böyle durumlarla karşılaştığınızda, şu anda neden bu kadar sıklıkta bu kadar fazla bellek tüketildiğini ve yükün nasıl dengeleneceğini veya iyileştirileceğini ya da kapasitenin ölçeğini artırmanın gerekip gerekmediğini daha iyi saptamak için sayfadaki diğer grafikleri dikkatle gözden geçirmelisiniz. 
 
-Sayfadaki diğer görsel olan **B: Saatlik yüklenen etkin veri kümeleri** , saatlik demetler halinde belleğe yüklenmiş olan veri kümelerinin maksimum sayısını görüntüler. 
+Sayfadaki diğer görsel olan **B: Saatlik yüklenen etkin veri kümeleri**, saatlik demetler halinde belleğe yüklenmiş olan veri kümelerinin maksimum sayısını görüntüler. 
 
-Üçüncü görsel olan **C: Veri kümeleri neden bellekte** , veri kümesini çalışma alanı adı, veri kümesi adı, bellekte veri kümelerinin sıkıştırılmamış boyutuna göre listeleyen ve belleğe neden yüklendiğini açıklayan (yenileniyor, sorgulandı veya her ikisi gibi) bir tablodur.
+Üçüncü görsel olan **C: Veri kümeleri neden bellekte**, veri kümesini çalışma alanı adı, veri kümesi adı, bellekte veri kümelerinin sıkıştırılmamış boyutuna göre listeleyen ve belleğe neden yüklendiğini açıklayan (yenileniyor, sorgulandı veya her ikisi gibi) bir tablodur.
 
 #### <a name="diagnosing-scenario-one"></a>Senaryo bir için tanılama
 
@@ -95,7 +97,7 @@ Tutarlı yüksek bellek kullanımı, şu anda etkin bir şekilde kullanılan ver
 
     ![Grafik a, tüketilen bellek yüzdeleri](media/service-premium-metrics-app/premium-metrics-app-04.png)
 
-    **b.** *B: Saatlik yüklenen etkin veri kümeleri* , saatlik demetler halinde belleğe yüklenmiş olan benzersiz veri kümelerinin maksimum sayısını gösterir. Görselde bir çubuk seçildiğinde veri kümelerinin bellek görselinde olma nedenlerine çapraz filtre uygulanır.  
+    **b.** *B: Saatlik yüklenen etkin veri kümeleri*, saatlik demetler halinde belleğe yüklenmiş olan benzersiz veri kümelerinin maksimum sayısını gösterir. Görselde bir çubuk seçildiğinde veri kümelerinin bellek görselinde olma nedenlerine çapraz filtre uygulanır.  
 
     ![Grafik b, saate göre tüketilen bellek](media/service-premium-metrics-app/premium-metrics-app-05.png)     
 
@@ -114,7 +116,7 @@ Senaryo bir ile ilişkilendirilmiş sorunları düzeltmek için aşağıdaki ad�
 
 ### <a name="scenario-two---future-load-will-exceed-limits"></a>Senaryo iki - yük gelecekte sınırları aşacak
 
-Kapasitenin iş yüklerini tamamlamasına yetecek kadar bellek olup olmadığını saptamak için sayfadaki üst kısmında yer alan **A: Tüketilen Bellek Yüzdeleri** , görseline başvurabilirsiniz. Bu görsel şu anda etkin olarak işlenen ve bu nedenle çıkarılamayacak olan veri kümelerinin tükettiği belleği temsil eder. Siyah noktalı çizgi eğilimleri vurgular. Bellek baskısıyla karşılaşılan kapasitede aynı görsel bellek eğilim çizgisinin (siyah noktalı çizgi) açıkça yukarı doğru çıktığını gösterecektir. Bunun anlamı, zamanın bu noktasında ek veri kümelerini belleğe yüklemenin büyük olasılıkla engellendiğidir. Siyah noktalı eğilim çizgisi yedi günlük verilere dayanarak büyüme eğilimini gösterir. 
+Kapasitenin iş yüklerini tamamlamasına yetecek kadar bellek olup olmadığını saptamak için sayfadaki üst kısmında yer alan **A: Tüketilen Bellek Yüzdeleri**, görseline başvurabilirsiniz. Bu görsel şu anda etkin olarak işlenen ve bu nedenle çıkarılamayacak olan veri kümelerinin tükettiği belleği temsil eder. Siyah noktalı çizgi eğilimleri vurgular. Bellek baskısıyla karşılaşılan kapasitede aynı görsel bellek eğilim çizgisinin (siyah noktalı çizgi) açıkça yukarı doğru çıktığını gösterecektir. Bunun anlamı, zamanın bu noktasında ek veri kümelerini belleğe yüklemenin büyük olasılıkla engellendiğidir. Siyah noktalı eğilim çizgisi yedi günlük verilere dayanarak büyüme eğilimini gösterir. 
 
 ![İkinci senaryoya ait etkin bellek ayrıntı sayfasını gösteren ekran görüntüsü.](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
@@ -162,7 +164,7 @@ Düşük rapor performansının aşırı yüklenen kapasiteden mi yoksa yanlış
 Rapor sayfasında aşağıdaki görseller görüntülenir: 
 
 * Üstte yer alan **A: Uzun bekleme süreleri** tablosunda bekleyen sorguların bulunduğu veri kümeleri listelenir. 
-* **B: Saatlik uzun bekleme süresi dağılımları** , uzun bekleme sürelerinin dağılımını gösterir. 
+* **B: Saatlik uzun bekleme süresi dağılımları**, uzun bekleme sürelerinin dağılımını gösterir. 
 * **C: Saatlik uzun sorgu sayıları** başlıklı grafikte yürütülmüş olan uzun çalışan sorguların saatlik demetler halinde sayısı görüntülenir.
 * Son görsel olan **D: Uzun süre çalışan sorgular** tablosunda uzun süre çalışan sorgular ve onların istatistikleri listelenir.
 
@@ -176,7 +178,7 @@ Sorgu bekleme sürelerini tanılamak ve gidermek için izleyebileceğiniz adıml
 
 ![Uzun bekleme süreleri tablosu](media/service-premium-metrics-app/premium-metrics-app-11.png)
 
-100 ms’den fazla bekleyen sorguların sayısını gösteren **Grafik B** ’ye bakın. Yüksek bekleme sayısı gösteren sütunlardan birini seçin.
+100 ms’den fazla bekleyen sorguların sayısını gösteren **Grafik B**’ye bakın. Yüksek bekleme sayısı gösteren sütunlardan birini seçin.
 
 ![Uzun bekleme süresi dağılımı](media/service-premium-metrics-app/premium-metrics-app-12.png)
 
@@ -209,15 +211,15 @@ Yürütülecek sorguların sayısı kapasitenin sınırlarını aştığında, s
 
 #### <a name="diagnosing-scenario-two"></a>Senaryo iki için tanılama
 
-**Tablo A** ’dan bekleme süresi oranı yüksek bir veri kümesi seçin.
+**Tablo A**’dan bekleme süresi oranı yüksek bir veri kümesi seçin.
 
 ![uzun bekleme süreleri tablosu](media/service-premium-metrics-app/premium-metrics-app-16.png)
 
-Siz uzun bekleme süresi olan bir veri kümesi seçtikten sonra, **Grafik B** söz konusu veri kümesindeki sorgular için son yedi gündeki bekleme süresi dağılımlarını gösterecek şekilde filtrelenir. Sonra **Grafik B** ’deki sütunlardan birini seçin.
+Siz uzun bekleme süresi olan bir veri kümesi seçtikten sonra, **Grafik B** söz konusu veri kümesindeki sorgular için son yedi gündeki bekleme süresi dağılımlarını gösterecek şekilde filtrelenir. Sonra **Grafik B**’deki sütunlardan birini seçin.
 
 ![saatlik uzun bekleme süreleri dağılım grafiği](media/service-premium-metrics-app/premium-metrics-app-17.png)
 
-Ardından **Grafik C** , kuyruğun Grafik B’den seçildiği sıradaki uzunluğunu gösterecek şekilde filtrelenir.
+Ardından **Grafik C**, kuyruğun Grafik B’den seçildiği sıradaki uzunluğunu gösterecek şekilde filtrelenir.
 
 ![saatlik sorgu kuyruğu uzunluğu](media/service-premium-metrics-app/premium-metrics-app-18.png)
 
@@ -236,7 +238,7 @@ Senaryo iki ile ilişkilendirilmiş sorunları düzeltmek için aşağıdaki ad�
 
 ## <a name="the-refresh-waits-metric"></a>Yenileme beklemeleri ölçümü
 
-**Yenileme beklemeleri** ölçümü kullanıcıların eski rapor verileriyle karşılaşabileceği durumlarla ilgili içgörü sağlar. **Yenileme beklemeleri** , belirli bir veri yenilemesinin isteğe bağlı veya zamanlanmış olarak tetiklendiği zamandan başlayarak, yürütülmeden önce beklediği süredir. Bu KPI bekleyen yenileme isteklerinin %10’unun veya daha fazlasının 10 dakika veya daha uzun süre bekleyip beklemediğini gösterir. Bekleme durumları genellikle kullanılabilir belleğin veya CPU’nun yetersiz olduğu zamanlarda yaşanır.
+**Yenileme beklemeleri** ölçümü kullanıcıların eski rapor verileriyle karşılaşabileceği durumlarla ilgili içgörü sağlar. **Yenileme beklemeleri**, belirli bir veri yenilemesinin isteğe bağlı veya zamanlanmış olarak tetiklendiği zamandan başlayarak, yürütülmeden önce beklediği süredir. Bu KPI bekleyen yenileme isteklerinin %10’unun veya daha fazlasının 10 dakika veya daha uzun süre bekleyip beklemediğini gösterir. Bekleme durumları genellikle kullanılabilir belleğin veya CPU’nun yetersiz olduğu zamanlarda yaşanır.
 
 ![Yenileme beklemeleri ölçeri](media/service-premium-metrics-app/premium-metrics-app-20.png)
 
@@ -267,21 +269,21 @@ Etkileşimli sorguda veri kümesini yüklemek için yeterli bellek yoksa, zamanl
 
 Senaryo bir’de tanılama için önce azaltmanın yetersiz bellekten kaynaklanıp kaynaklanmadığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1. **Tablo A** ’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1. **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. **Tablo A** ’da veri kümesi seçildiğinde **Grafik B** beklemenin ne zaman oluştuğunu gösterecek şekilde filtrelenir.
+    a. **Tablo A**’da veri kümesi seçildiğinde **Grafik B** beklemenin ne zaman oluştuğunu gösterecek şekilde filtrelenir.
 
     ![Grafik B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
     b. Ardından **Grafik C** herhangi bir azaltmayı gösterecek şekilde filtrelenir (sonraki adımda açıklanmıştır). 
 
-2. Artık filtrelenmiş olan **Grafik C** ’deki sonuçları gözden geçirin. Grafik, veri kümesi beklerken bellek yetersiz azaltması oluştuğunu gösteriyorsa, veri kümesinin beklemesinin nedeni yetersiz bellek koşullarıdır.
+2. Artık filtrelenmiş olan **Grafik C**’deki sonuçları gözden geçirin. Grafik, veri kümesi beklerken bellek yetersiz azaltması oluştuğunu gösteriyorsa, veri kümesinin beklemesinin nedeni yetersiz bellek koşullarıdır.
 
     ![Grafik C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Son olarak, gerçekleşen yenilemelerin türünü (zamanlanmış veya isteğe bağlı) gösteren **Grafik D** ’yi denetleyin. Azaltmanın nedeni aynı anda gerçekleşen isteğe bağlı yenilemeler olabilir.
+3. Son olarak, gerçekleşen yenilemelerin türünü (zamanlanmış veya isteğe bağlı) gösteren **Grafik D**’yi denetleyin. Azaltmanın nedeni aynı anda gerçekleşen isteğe bağlı yenilemeler olabilir.
 
     ![Grafik D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -310,21 +312,21 @@ Power BI, kapasiteler için eşzamanlı olarak gerçekleşebilecek yenileme say�
 
 Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme sayısı üst sınırına ulaşılmasından mı kaynaklandığını saptayın. Bu işlemin adımları aşağıda verilmiştir.
 
-1. **Tablo A** ’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
+1. **Tablo A**’da ilgilendiğiniz veri kümesini tıklayarak seçin: 
 
     ![Tablo A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
-    a. **Tablo A** ’da veri kümesi seçildiğinde **Grafik B** beklemenin ne zaman oluştuğunu gösterecek şekilde filtrelenir.
+    a. **Tablo A**’da veri kümesi seçildiğinde **Grafik B** beklemenin ne zaman oluştuğunu gösterecek şekilde filtrelenir.
 
     ![Grafik B](media/service-premium-metrics-app/premium-metrics-app-23.png)
 
     b. Ardından **Grafik C** herhangi bir azaltmayı gösterecek şekilde filtrelenir (sonraki adımda açıklanmıştır). 
 
-2. Artık filtrelenmiş olan **Grafik C** ’deki sonuçları gözden geçirin. Grafik, veri kümesi beklerken oluşan *en fazla eşzamanlılık* değerini gösteriyorsa veri kümesinin beklemesinin nedeni kullanılabilir CPU’nun yeterli olmamasıdır.
+2. Artık filtrelenmiş olan **Grafik C**’deki sonuçları gözden geçirin. Grafik, veri kümesi beklerken oluşan *en fazla eşzamanlılık* değerini gösteriyorsa veri kümesinin beklemesinin nedeni kullanılabilir CPU’nun yeterli olmamasıdır.
 
     ![Grafik C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Son olarak, gerçekleşen yenilemelerin türünü (zamanlanmış veya isteğe bağlı) gösteren **Grafik D** ’yi denetleyin. Azaltmanın nedeni aynı anda gerçekleşen isteğe bağlı yenilemeler olabilir.
+3. Son olarak, gerçekleşen yenilemelerin türünü (zamanlanmış veya isteğe bağlı) gösteren **Grafik D**’yi denetleyin. Azaltmanın nedeni aynı anda gerçekleşen isteğe bağlı yenilemeler olabilir.
 
     ![Grafik D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -348,3 +350,13 @@ Senaryo iki’de tanılama yapmak için önce azaltmanın eşzamanlı yenileme s
 * [Power BI Embedded SSS](../developer/embedded/embedded-faq.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

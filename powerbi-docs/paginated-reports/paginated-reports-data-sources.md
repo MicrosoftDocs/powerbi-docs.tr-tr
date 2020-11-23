@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298207"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575319"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -27,7 +27,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 
 | Veri Kaynağı | Kimlik Doğrulama | Notlar |
 | --- | --- | --- |
-| Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 | Azure SQL DB ile Kurumsal Ağ Geçidi kullanabilirsiniz. Bununla birlikte söz konusu senaryolarda kimlik doğrulaması için SSO veya oAuth2 kullanamazsınız.   |
+| Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 | Azure SQL Veritabanı ile Kurumsal Ağ Geçidi kullanabilirsiniz. Bununla birlikte söz konusu senaryolarda kimlik doğrulaması için SSO veya oAuth2 kullanamazsınız.   |
 | Azure SQL Yönetilen Örneği | Temel | Ortak veya Özel Uç Nokta aracılığıyla (Özel Uç Nokta’nın Kurumsal Ağ Geçidi üzerinden yönlendirilmesi gerekir)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının BlackForest bölgesindeki tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir. Bu yalnızca BlackForest bölgesinde geçerlidir.  Dış kiracılardan SSO desteklenmez. |
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
@@ -40,14 +40,14 @@ Azure SQL Veritabanı veri kaynakları için, [Azure SQL Veritabanı Kimlik Doğ
 
 ## <a name="other-data-sources"></a>Diğer veri kaynakları
 
-Yukarıdaki yerel olarak desteklenen veri kaynaklarına ek olarak, aşağıdaki veri kaynaklarına da [Power BI veri ağ geçidi](../connect-data/service-gateway-onprem.md) yoluyla erişilebilir:
+Yukarıdaki yerel olarak desteklenen veri kaynaklarına ek olarak, aşağıdaki veri kaynaklarına da [Power BI kurumsal ağ geçidi](../connect-data/service-gateway-onprem.md) yoluyla erişilebilir:
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-Sayfalandırılmış raporlar için şu anda Azure SQL Veritabanı'na ve Azure Analysis Services'e Power BI veri ağ geçidi üzerinden erişilemez.
+Sayfalandırılmış raporlar için şu anda Azure Analysis Services’a bir Power BI kurumsal ağ geçidi aracılığıyla erişilemez.
 
 ## <a name="azure-sql-database-authentication"></a>Azure SQL Veritabanı kimlik doğrulaması
 
@@ -55,7 +55,7 @@ Azure SQL Veritabanı veri kaynakları için, raporu çalıştırmadan önce kim
 
 ![Power BI'da yayımlanıyor](media/paginated-reports-data-sources/power-bi-paginated-publishing.png)
 
-Kimlik bilgilerini sağlamazsanız raporu çalıştırdığınızda hata oluşur. Yeni karşıya yüklediğiniz raporun **Veri kaynağı kimlik bilgileri** sayfasına gitmek için **Devam** 'ı seçin:
+Kimlik bilgilerini sağlamazsanız raporu çalıştırdığınızda hata oluşur. Yeni karşıya yüklediğiniz raporun **Veri kaynağı kimlik bilgileri** sayfasına gitmek için **Devam**'ı seçin:
 
 ![Azure SQL Veritabanı için ayarlar](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 

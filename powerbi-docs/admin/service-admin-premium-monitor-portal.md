@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3948cca3a7e274c22ac1ea5cc80773edd0d5e451
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b6f6b819b5c31f655d0c0dc43d8852cb34b5a7a2
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599786"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512068"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Yönetim portalında kapasiteleri izleme
 
@@ -27,6 +27,8 @@ Daha kapsamlı ölçümlere ihtiyacınız varsa [Power BI Premium Kapasite Ölç
 > [!IMPORTANT]
 > Power BI Premium kapasitenizde performans ve güvenilirlik sorunlarına neden olan yüksek kaynak kullanımı sorunu yaşanıyorsa sorunu tanımlayıp çözmek için bildirim e-postaları alabilirsiniz. Bu, aşırı yüklenmiş kapasitelerde sorun gidermeye yönelik basitleştirilmiş bir yöntemdir. Daha fazla bilgi için bkz. [Kapasite ve güvenilirlik bildirimleri](service-interruption-notifications.md#capacity-and-reliability-notifications).
 
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="system-metrics"></a>Sistem Ölçümleri
 
@@ -124,3 +126,14 @@ Power BI Premium kapasitelerini izlemeyi anladığınıza göre kapasiteleri iyi
 
 > [!div class="nextstepaction"]
 > [Power BI Premium kapasitelerini en iyi duruma getirme](service-premium-capacity-optimize.md)
+
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

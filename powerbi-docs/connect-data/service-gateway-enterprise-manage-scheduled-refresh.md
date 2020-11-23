@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237058"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719041"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Veri kaynağınızı yönetme - İçeri aktarma/zamanlanmış yenileme
 
@@ -62,12 +62,11 @@ Ağ geçidinde yapılandırılan veri kaynağının **Kullanıcılar** sekmesind
 
 ![Kullanıcıları görüntüleme](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> Yeniden yayımlamanın ardından, veri kümesi sahibinin veri kümesini bir ağ geçidiyle ve karşılık gelen veri kaynağıyla yeniden ilişkilendirmesi gerekir. Önceki ilişkilendirme, yeniden yayımlama sırasında korunmaz. 
+
 > [!WARNING]
 > Veri kümeniz birden çok veri kaynağı içeriyorsa her bir veri kaynağı, ağ geçidine eklenmelidir. Ağ geçidine bir veya daha fazla veri kaynağı eklenmezse ağ geçidini zamanlanmış yenileme için kullanılabilir olarak göremezsiniz.
-
-## <a name="limitations"></a>Sınırlamalar
-
-OAuth, şirket içi veri ağ geçidi ile desteklenen bir kimlik doğrulama düzeni değildir. OAuth kimlik doğrulamasını gerekli kılan veri kaynakları ekleyemezsiniz. Veri kümeniz OAuth kimlik doğrulaması gerektiren bir veri kaynağı içeriyorsa ağ geçidini zamanlanmış yenileme için kullanamazsınız.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

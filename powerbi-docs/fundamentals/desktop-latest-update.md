@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 34882258e9a3f05f08dd1340941b216f8679fc39
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256007"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560069"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
-## <a name="october-2020-update-2863210"></a>Ekim 2020 Güncelleştirmesi (2.86.321.0)
+## <a name="november-2020-update-2872610"></a>Kasım 2020 Güncelleştirmesi (2.87.261.0)
 
-Power BI Desktop Ekim ayı güncelleştirmelerimiz sizi önümüzdeki haftalar boyunca meşgul edecek bir dolu özelliği kullanımınıza sunuyor. 
+Power BI Desktop’ın Kasım güncelleştirmeleri yeni ve iyileştirilmiş özellikleri bir arada içerir. 
 
 Power BI Desktop’a yönelik aylık blog ve video güncelleştirmelerinde Power BI mobil ve Power BI hizmetine yönelik yeni güncelleştirmeler yer alıyor. Bu makalede, Power BI Desktop’a yönelik güncelleştirmeler ele alınmaktadır. Mobil ve Power BI hizmetine yönelik güncelleştirmeler hakkında bilgi edinmek için ilgili yenilikler makalelerine göz atın:
 
@@ -47,48 +47,29 @@ Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki
 Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
 
-
 ### <a name="reporting"></a>Raporlama
-* Tuval filigranları [[video]](https://youtu.be/LveNuQqV5xk?t=17) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
-* Görselleri kişiselleştirme özelliği genel kullanıma sunuldu [[video]](https://youtu.be/LveNuQqV5xk?t=115) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[makale]](../create-reports/power-bi-personalize-visuals.md)
-* Ağaç haritası için veri noktası dikdörtgen seçimi (önizleme) [[video]](https://youtu.be/LveNuQqV5xk?t=292) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559) [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Yeni Alan Listesi (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
+* Yeni Model Görünümü (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=61)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[makale]](../create-reports/power-bi-personalize-visuals.md)
+* Tüm filtreleri uygula işlevi genel kullanıma sunuldu [[video]](https://youtu.be/DT_tOas5YIo?t=98)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Görsel yakınlaştırma kaydırıcısı [[video]](https://youtu.be/DT_tOas5YIo?t=160)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Veri noktası dikdörtgeni seçimi Harita görselini kapsayacak şekilde genişletildi [[video]](https://youtu.be/DT_tOas5YIo?t=185)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Web bağlantıları için sertifika iptal denetimi [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Sayfalandırılmış rapor güncelleştirmeleri [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="analytics"></a>Analiz
-* Soru-Cevap görselindeki verileri dışarı aktarma [[video]](https://youtu.be/LveNuQqV5xk?t=308) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
-
-
-### <a name="modeling"></a>Modelleme
-* IF ve SWITCH işlevleri için performans iyileştirmeleri [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
-
-
-### <a name="data-preparation"></a>Veri hazırlama
-* Dinamik M Sorgu Parametreleri (önizleme) [[video]](https://youtu.be/LveNuQqV5xk?t=329) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421) [[makale]](../connect-data/desktop-dynamic-m-query-parameters.md)
-* Excel dosyalarından otomatik tablo algılama [[video]](https://youtu.be/LveNuQqV5xk?t=615) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
-* JSON dosyalarından otomatik tablo algılama [[video]](https://youtu.be/LveNuQqV5xk?t=650) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+* Anomali algılama (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=199)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
+* Soru-Cevap şimdi kısmi eşleşen veri değerlerini destekliyor [[video]](https://youtu.be/DT_tOas5YIo?t=438)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
-* Power Platform Veri Akışları bağlayıcısı için daha geniş coğrafi destek [[video]](https://youtu.be/LveNuQqV5xk?t=675) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
-* MariaDB artık DirectQuery'yi destekliyor [[video]](https://youtu.be/LveNuQqV5xk?t=694) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
-* SharePoint Online listesi bağlayıcısı güncelleştirildi [[video]](https://youtu.be/LveNuQqV5xk?t=707) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
-* Yeni veri bağlayıcıları: Spigit ve eWay-CRM [[video]](https://youtu.be/LveNuQqV5xk?t=736) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+* Hive LLAP bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/DT_tOas5YIo?t=461)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
+* Yeni veri bağlayıcıları: Actian, Anaplan, Starburst Presto [[video]](https://youtu.be/DT_tOas5YIo?t=487)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
 
 
-### <a name="visuals"></a>Görseller
-* Genişletilmiş yönetici özellikleri genel kullanıma sunuldu [[video]](https://youtu.be/LveNuQqV5xk?t=997) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
-* Çeşitli sağlayıcılardan yeni görseller [[video]](https://youtu.be/LveNuQqV5xk?t=1039)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+### <a name="visuals"></a>Görsel Nesneler
+* Çeşitli sağlayıcılardan yeni görseller [[video]](https://youtu.be/DT_tOas5YIo?t=688)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
 
 
-### <a name="template-apps"></a>Şablon Uygulamaları
-* Şablon uygulamaları için basitleştirilmiş yükleme [[video]](https://youtu.be/LveNuQqV5xk?t=1127) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
-* Power BI Desktop'tan şablon uygulaması bulma [[video]](https://youtu.be/LveNuQqV5xk?t=1164) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
-
-### <a name="other"></a>Diğer
-* Power BI Desktop'ta veri kaynağını PBIDS olarak dışarı aktarma [[video]](https://youtu.be/LveNuQqV5xk?t=1255) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594) [[makale]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
-* Power BI için simge güncelleştirmesi [[video]](https://youtu.be/LveNuQqV5xk?t=1295) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
-* Power BI Desktop karşılama ekranını kapatma [[video]](https://youtu.be/LveNuQqV5xk?t=1313) [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
-
-
-Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/).
+Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/).
 
 
 > [!NOTE]
@@ -98,7 +79,7 @@ Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
 
-> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
 
 ## <a name="more-videos"></a>Daha fazla video
 

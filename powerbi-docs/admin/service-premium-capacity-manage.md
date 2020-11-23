@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599427"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512873"
 ---
 # <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 
@@ -24,6 +24,9 @@ Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve iz
 ## <a name="creating-and-managing-capacities"></a>Kapasite oluşturma ve yönetme
 
 Power BI Yönetim portalının **Kapasite Ayarları** sayfasında, satın alınan sanal çekirdek sayısı ve kullanılabilir Premium kapasiteler gösterilmektedir. Sayfa Genel yöneticilerin veya Power BI hizmet yöneticilerinin kullanılabilir sanal çekirdeklerden Premium kapasiteler oluşturmasına veya mevcut Premium kapasiteleri değiştirmesine izin verir.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 Premium kapasite oluştururken, yöneticilerin şunları tanımlaması gerekir:
 
@@ -148,7 +151,7 @@ Genel olarak, yavaş raporlar aşırı ısınan bir kapasitenin göstergesi olab
 
 Ölçümlerin nasıl kullanılacağına ilişkin daha ayrıntılı bir açıklama [Premium kapasiteleri iyileştirme](service-premium-capacity-optimize.md) makalesinde açıklanmıştır.
 
-## <a name="acknowledgements"></a>Bildirimler
+## <a name="acknowledgments"></a>Teşekkürler
 
 Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesolutions.com.au/)’da bağımsız BI uzmanı olan Peter Myers tarafından yazılmıştır.
 
@@ -161,3 +164,12 @@ Bu makale, Veri Platformu MVP’si ve [Bitwise Solutions](https://www.bitwisesol
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

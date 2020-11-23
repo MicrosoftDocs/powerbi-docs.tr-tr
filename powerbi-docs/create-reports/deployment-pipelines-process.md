@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/22/2020
-ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
-ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
+ms.date: 10/21/2020
+ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91024047"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668615"
 ---
 # <a name="understand-the-deployment-process"></a>Dağıtım işlemini anlama
 
@@ -38,6 +38,8 @@ Dağıtım tamamlandıktan sonra, yeni kopyalanmış içeriği kullanabilmek iç
 Kapasite izinleriniz varsa çalışma alanının içeriği dağıtım yaptığınız aşamaya kopyalanır ve Premium kapasitede bu aşamaya yönelik yeni bir çalışma alanı oluşturulur.
 
 Kapasite izinleriniz yoksa çalışma alanı oluşturulur ancak içerik kopyalanmaz. Bir kapasite yöneticisinin çalışma alanınızı kapasiteye eklemesini veya size kapasite için atama izinleri vermesini isteyebilirsiniz. Daha sonra, çalışma alanı kapasiteye atandığında içeriği bu çalışma alanına dağıtabilirsiniz.
+
+[Kullanıcı Başına Premium (PPU)](../admin/service-premium-per-user-faq.md) kullanıyorsanız çalışma alanınız, PPU’nuz ile ilişkili kapasitede otomatik olarak oluşturulur. Böyle durumlarda kapasite izinleri gerekmez. Ancak, bir PPU kullanıcısı tarafından oluşturulan çalışma alanlarına yalnızca diğer PPU kullanıcıları erişebilir. Buna ek olarak, bu tür çalışma alanlarında oluşturulan içerikleri yalnızca PPU kullanıcıları tüketebilir.
 
 ### <a name="workspace-and-content-ownership"></a>Çalışma alanı ve içerik sahipliği
 
@@ -67,7 +69,7 @@ Tablo veya ölçüler ekleme gibi küçük değişiklikler olduğunda Power BI �
 
 Dağıtılan içerik bir [premium kapasitede](../admin/service-premium-what-is.md) olduğu sürece, aşağıdaki koşulları karşılayan bir kullanıcı mevcut çalışma alanına sahip bir aşamaya dağıtabilir:
 
-* Hem hedef hem de kaynak dağıtım aşamalarındaki çalışma alanlarının her ikisinin de üyesi olan bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
+* Hem kaynak hem de hedef dağıtım aşamalarındaki çalışma alanlarının her ikisine de üye olan, [Pro lisansına](../admin/service-admin-purchasing-power-bi-pro.md) sahip bir kullanıcı veya bir [PPU kullanıcısı](../admin/service-premium-per-user-faq.md).
 
 * Dağıtım yapılmak üzere olan hedef çalışma alanındaki tüm veri kümelerinin sahibi.
 
@@ -87,7 +89,7 @@ Bir işlem hattından diğerine içerik dağıttığınızda, kopyalanan içerik
 
 Dağıtım işlem hatları aşağıdaki öğeleri desteklemez:
 
-* Bir. pbix dosyasından oluşturulmayan veri kümeleri
+* Bir PBIX dosyasından oluşturulmayan veri kümeleri
 
 * Desteklenmeyen veri kümelerini temel alan raporlar
 

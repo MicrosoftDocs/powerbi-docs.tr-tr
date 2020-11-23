@@ -7,32 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 07/28/2020
+ms.date: 11/12/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483754"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668224"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
-Kuruluşunuz için ayrılmış ve gelişmiş kaynakları edinmek için Power BI Premium kullanabilirsiniz. Böylece kuruluşunuzdaki kullanıcılar, Power BI hizmetini daha iyi performans ve daha yüksek yanıtlama hızıyla kullanabilir. Örneğin, siz ve kuruluşunuz bir Power BI Premium aboneliğiyle şunlara erişim elde edersiniz:
+Yalnızca Premium’da kullanılabilen özelliklere erişmek için Power BI Premium’u kullanabilir ve kuruluşunuzdaki Power BI içeriklerine yönelik daha yüksek ölçeklendirme ve performans sunabilirsiniz. Power BI Premium, kuruluşunuzdaki daha fazla kullanıcının daha iyi performans ve duyarlılık ile Power BI’dan en iyi şekilde yararlanmasını sağlar. Örneğin, Power BI Premium sayesinde siz ve kuruluşunuzdaki kullanıcılar şunları elde edersiniz:
 
 > [!div class="checklist"]
-> * Daha büyük ölçek ve performans
+> * Power BI raporlarında daha yüksek ölçeklendirme ve performans
 > * Kapasiteye göre lisanslama esnekliği
-> * Self servis ile kurumsal BI'ı birleştirme
-> * Şirket içi BI'ı Power BI Rapor Sunucusu ile genişletme
-> * Bölgeye göre veri yerleşimi desteği (Multi-Geo)
-> * Kullanıcı başına lisans satın almadan verileri herkesle paylaşma
+> * Veri görselleştirmeye ve yapay zeka destekli analiz, birleştirilebilir ve yeniden kullanılabilir veri akışları, sayfalandırılmış raporlar gibi içgörü ayıklamaya yönelik sınıfının en iyisi özellikler
+> * Daha yoğun iş yüklerini destekleyen ve kurumsal ölçek gerektiren, Premium’a özgü pek çok özellikler sayesinde self servisi ve kurumsal iş zekasını birleştirme
+> * Power BI Rapor Sunucusu ile şirket içi iş zekasını genişletmeyi sağlayan yerleşik lisans
+> * Bölgeye göre veri yerleşimi desteği (Multi-Geo) ve bekleyen verilere (Kendi Anahtarını Getir) yönelik, müşteri tarafından yönetilen şifreleme anahtarları
+> * Kullanıcı başına lisans satın almaksızın Power BI içeriğini herkesle (kuruluşunuzun dışındaki kişilerle bile) paylaşabilme özelliği
 
 
 ![Power BI Yönetim portalını gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal.png) 
 
 Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde, daha ayrıntılı bilgiler içeren makalelerin bağlantıları sağlanır. Power BI Pro ve Power BI Premium hakkında daha fazla bilgi için [Power BI fiyatlandırması](https://powerbi.microsoft.com/pricing/) konusunun _Power BI özelliklerinin karşılaştırması_ bölümüne bakın.
+
+## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium 2. Nesil (önizleme)
+
+Yakın zamanda Power BI Premium’un **Power BI Premium 2. Nesil** adlı yeni bir sürümü kullanıma sunuldu. Kolaylık açısından bu sürüm **Premium 2. Nesil** olarak adlandırılmaktadır. Premium 2. Nesil şu anda önizleme aşamasındadır ve bu süre boyunca kullanılmak üzere Premium abonelere sunulur. Premium’un özgün sürümünü kullanabilir veya Premium 2. Nesil’e geçiş yapabilirsiniz. Premium kapasitenizde yalnızca birini veya diğerini kullanabilirsiniz. 
+
+Premium 2. Nesil şu güncelleştirmeleri ve iyileştirilmiş deneyimleri sunar:
+
+* Kapasiteye göre lisanslamaya ek olarak, **Kullanıcı Başına Premium** lisanslama özelliği.
+
+* Her zaman, tüm kapasite boyutlarında gelişmiş **performans**: Analiz işlemleri, Premium 2. Nesil’de 16 kata kadar daha hızlı çalışır. İşlemler her zaman en yüksek hızda gerçekleştirilir ve kapasitedeki yük miktarı kapasite sınırına yaklaştığında yavaşlamaz.
+
+* **Daha yüksek ölçek**:
+    * Eşzamanlı yenileme sayısında *sınır yoktur*, kapasitenizde yenilenmekte olan veri kümeleri için artık zamanlamaları izlemeniz gerekmez
+    * Daha az bellek kısıtlaması
+    * Rapor etkileşimi ve zamanlanmış yenilemeler arasında eksiksiz ayrım
+
+* Boyutuna, işlenmeleri sırasında sistemdeki yük düzeyine vb. değil, yalnızca kapasitenin gerçekleştirdiği analiz işlemlerinin karmaşıklığına bağlı olan net ve normalleştirilmiş kapasite kullanım verilerine sahip **iyileştirilmiş ölçümler**. İyileştirilmiş ölçümler, kullanım analizi, bütçe planlaması, ücret yansıtma ve yükseltme gereksinimi yerleşik raporlama sayesinde net bir şekilde görülebilir. İyileştirilmiş ölçümler önizleme süresinde kullanıma sunulacak ve geliştirilecektir. 
+
+* Kapasitedeki yük kapasite sınırını aştığında **Otomatik Ölçeklendirme**,  24 saatlik süreler boyunca 1 sanal çekirdeğin *otomatik olarak eklenmesine* olanak sağlar ve böylece yük kaynaklı yavaşlamaları önler. Sanal çekirdekler, boşta süresi algılandığında otomatik olarak kaldırılır. Ek sanal çekirdeklerin ücreti Azure aboneliğinize, kullandıkça öde fiyatlandırması temel alınarak yansıtılır. Otomatik Ölçeklendirme, önizleme aşaması sırasında kullanıma sunulacaktır. 
+
+* Kapasite kullanım düzeyi ve yük artışı hakkındaki proaktif ve yapılandırılabilir yönetici bildirimleri sayesinde önemli ölçüde **azalan yönetimi yükü**.
+
+
+### <a name="using-premium-gen2"></a>Premium 2. Nesil’i kullanma
+
+Güncelleştirmelerinden yararlanmak için Premium 2. Nesil’i etkinleştirmeniz gerekir. Premium 2. Nesil’i etkinleştirmek için aşağıdaki adımları izleyin:
+
+1. Yönetici portalında **Kapasite ayarları**’na gidin.
+2. **Power BI Premium**’u seçin.
+3. Karşınıza çıkan **Premium 2. Nesil (önizleme)** başlıklı bölümde Premium 2. Nesil’i (önizleme) etkinleştirebileceğiniz bir kaydırıcı vardır. 
+4. Kaydırıcıyı **Etkin** seçeneğine kaydırın.
+
+Aşağıdaki resimde, Premium 2. Nesil’i nasıl etkinleştirebileceğiniz gösterilmektedir. 
+
+![Premium 2. Nesil’i etkinleştirme](media/service-premium-what-is/enable-premium-gen2.gif#lightbox) 
+
+### <a name="known-limitations-in-premium-gen2"></a>Premium 2. Nesil’deki bilinen sınırlamalar
+
+Şu anda aşağıdaki sınırlamaların Premium 2. Nesil’de uygulandığı bilinmektedir:
+
+1.  Premium 2. Nesil kapasite kullanımı ölçümler uygulamasında izlenemez.
+
+2.  Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz Yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
+
+3.  ADLS 2. Nesil veri kaynaklarına sahip veri akışları şu anda Premium 2. Nesil kapasitelerinde çalışmaz.  
+
+4.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
+
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 
@@ -42,19 +91,22 @@ Power BI Premium iki SKU (Stok Saklama Birimi) ailesinde sağlanan kiracı düze
 
 - **EM** SKU'ları (EM1-EM3) _kurumsal_ eklemeye yöneliktir, yıllık taahhüt gerektirir, aylık faturalanır. EM1 ve EM2 SKU'ları yalnızca toplu lisans planlarıyla sağlanır. Bunları doğrudan satın alamazsınız.
 
-Alternatif bir yaklaşım Azure'da **Power BI Embedded** aboneliği satın almaktır. Taahhüt gerektirmeyen tek bir **A** (A1-A6) SKU ailesi vardır ve uygulamalarda, portallarda ve web sitelerinde Power BI'ın markasını değiştirerek kullanımının karşılığı olarak ya da P veya EM kapasitelerini test etmenin bir yolu olarak saatlik faturalanır. Tüm SKU'lar kapasiteleri oluşturmak için sanal çekirdekler getirir ama EM SKU'ları daha küçük ölçekli eklemeyle sınırlanmıştır. Dörtten az sanal çekirdeği olan EM1, EM2, A1 ve A2 SKU'ları ayrılmış altyapı üzerinde çalıştırılmaz.
+### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+Premium 2. Nesil şu anda yalnızca **P** ve **EM** SKU’ları için tam olarak desteklenen önizleme özelliği şeklinde kullanılabilir. **A** SKU’ları kapasitesi henüz Premium 2. Nesil önizleme güncelleştirmesinde tanıtılan ek avantajların tamamını sağlamaz.
 
-Bu makale P SKU'larına odaklansa da, buradaki açıklamaların büyük bölümü A SKU'larına da uygundur. Premium aboneliği SKU'larının aksine, Azure SKU'ları hiçbir taahhüt süresi gerektirmez ve saatlik faturalanır. Bunlar tam esneklik getirerek ölçek büyütmeye, ölçek küçültmeye, duraklatmaya, sürdürmeye ve silmeye olanak tanırlar. 
-
-Azure Power BI Embedded büyük ölçüde bu makalenin kapsamı dışında kalır ama iş yüklerini test etmek ve ölçmek için pratik ve ekonomik bir seçenek olarak Premium kapasiteleri iyileştirme makalesinin [Test Yaklaşımları](service-premium-capacity-optimize.md#testing-approaches) bölümünde açıklanmıştır. Azure SKU'ları hakkında daha fazla bilgi edinmek için bkz. [Azure Power BI Embedded Belgeleri](https://azure.microsoft.com/services/power-bi-embedded/).
 
 ### <a name="purchasing"></a>Satın alma
 
 Power BI Premium abonelikleri Microsoft 365 yönetim merkezinde yöneticiler tarafından satın alınır. Özel olarak yalnızca Genel yöneticiler veya Faturalama Yöneticileri SKU satın alabilir. Satın alındığında, kiracı kapasitelere atamak üzere alışverişe karşılık gelen sayıda sanal çekirdek alır; bu *sanal çekirdek havuzu* olarak bilinir. Örneğin, P3 SKU satın almak kiracıya 32 sanal çekirdek sağlar. Daha fazla bilgi edinmek için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md).
 
-## <a name="dedicated-capacities"></a>Ayrılmış kapasiteler
+#### <a name="power-bi-premium-per-user-preview"></a>Kullanıcı Başına Power BI Premium (önizleme)
 
-Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. Aşağıdaki kaynakların size ayrılmış kapasitede değil paylaşılan kapasitede depolandığına dikkat edin:
+**Kullanıcı Başına Power BI Premium**, kuruluşların Premium özellikleri kullanıcı başına lisanslamalarına olanak verir. Kullanıcı Başına Premium (PPU) tüm Power BI Pro lisansı özelliklerine sahip olmanın yanı sıra, sayfalandırılmış raporlar, yapay zeka ve yalnızca Premium abonelere sunulan diğer özellikler gibi olanaklar ekler. Kullanıcı Başına Premium şu anda önizleme aşamasındadır. Özellik karşılaştırması ve önizleme sürümü hakkındaki diğer bilgiler gibi, Kullanıcı Başına Premium hakkında daha fazla bilgi için [Kullanıcı Başına Power BI Premium Hakkında SSS (önizleme)](service-premium-per-user-faq.md) başlıklı makaleye göz atın. 
+
+
+## <a name="reserved-capacities"></a>Ayrılmış kapasiteler
+
+Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin analiz işlemesi başka müşterilerle paylaşılan bilgi işlem kaynaklarında çalıştırıldığı paylaşılan kapasitenin tersine, ayrılmış kapasite özel olarak kuruluşun kullanımına yöneliktir. Barındırılan içerik için güvenilir ve tutarlı bir performans sağlayan ayrılmış bilgi işlem kaynaklarıyla yalıtılmıştır. Aşağıdaki Power BI içerik türlerinin işlenmesinin, ayrılmış kapasiteniz yerine paylaşılan kapasitede depolandığını unutmayın:
 
 * Excel çalışma kitapları (veriler önce Power BI Desktop'a içeri aktarılmadıysa)
 * [Gönderme veri kümeleri](/rest/api/power-bi/pushdatasets)
@@ -62,6 +114,12 @@ Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin 
 * [Soru-Cevap](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için ek **çalışma alanları** oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de çalışma alanları Premium kapasitelere atanabilir.
+
+Kapasite yöneticilerine ait Çalışma Alanlarım otomatik olarak Premium kapasitelere atanır.
+
+### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+Premium 2. Nesil düğümlerinde artık ayrılmış altyapı kullanılmaz. Bunun yerine hizmet, paylaşılan çok özellikli işleme düğümleri havuzundan yeterli sayıda kaynak ayırarak, çalışan her iş yükü için yeterli işleme gücünün sağlandığından emin olur.
+
 
 ### <a name="capacity-nodes"></a>Kapasite düğümleri
 
@@ -82,17 +140,22 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
-| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
+| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 <a name="limit">1</a> - Yalnızca özel istek üzerine. 100 GB'tan çok daha büyük modeller için.
 
 >[!NOTE]
 >Daha küçük SKU'ları (örneğin iki P1 SKU'su) birleştirmek yerine tek bir büyük SKU (örneğin tek P2 SKU'su) kullanmak tercih edilebilir. Örneğin P2 ile daha büyük modeller kullanabilir ve daha iyi bir paralellik elde edebilirsiniz.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+
+**Premium 2. Nesil** ile her düğüm boyutundaki kullanılabilir bellek miktarı, kümülatif bellek tüketimi yerine tek bir yapının bellek ayak izi sınırına ayarlanır. Örneğin, aynı anda işlenen veri kümelerinin toplam bellek ayak izinin 25 GB ile sınırlı olduğu özgün Premium ile karşılaştırıldığında, Premium 2. Nesil’de yalnızca tek bir veri kümesi boyutu 25 GB ile sınırlıdır.
+
 
 ### <a name="capacity-workloads"></a>Kapasite iş yükleri
 
@@ -123,6 +186,10 @@ Veri kümesi çıkarmanın normal ve beklenen bir davranış olduğunu vurgulama
 Modellerin belleğe yüklenmesini gerektirdiğinden, içeri aktarma modellerinin yenilenmesi her zaman bellek yoğun işlemlerdir. İşleme için ek bellek gerekir. Tam yenileme modele gereken belleğin yaklaşık olarak iki katını kullanabilir. Bu sayede model işlenirken bile sorgulanabilir çünkü yenileme tamamlanana ve yeni model verileri kullanılabilir duruma gelene kadar sorgular mevcut modele gönderilir. Artımlı yenileme daha az bellek gerektirir ve daha hızlı tamamlanabilir; dolayısıyla kapasite kaynakları üzerindeki baskıyı önemli ölçüde azaltabilir. Modeller için yenilemeler, özellikle karmaşık Power Query dönüştürmeleri ya da karmaşık olan veya büyük tablolara dayanan hesaplanan tablolar/sütunlar içeren yenilemeler de yoğun CPU kullanabilir.
 
 Sorgular gibi yenilemeler de modelin belleğe yüklenmesini gerektirir. Bellek yetersizse Power BI hizmeti etkin olmayan modelleri çıkarmayı dener ve bu mümkün olmazsa (tüm modeller etkinse) yenileme işi kuyruğa alınır. Yenilemeler normalde sorgulardan bile daha yoğun CPU kullanır. Bu nedenle eş zamanlı yenileme sayısında kapasite sınırları vardır; yuvarlak olarak arka uç sanal çekirdek sayısının 1,5 katına ayarlanır. Eş zamanlı yenilemelerin sayısı çok fazlaysa, zamanlanmış bir yenileme kuyruğa alınır. Böyle bir durum olduğunda yenilemenin tamamlanması daha uzun sürer. Kullanıcı isteği veya API çağrısı tarafından tetiklenen yenilemeler gibi isteğe bağlı yenilemeler üç kez \[[1](#endnote-1)\] yeniden denenir. Hala yeterli kaynak bulunamazsa yenileme başarısız olacaktır.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+Premium 2. Nesil kümülatif bellek sınırları gerektirmez ve yenilemeler için her zaman yeterli miktarda bellek bulunur. Ayrıca, sanal çekirdek başına çalışan 1,5 yenileme sınırı da yoktur. Dilediğiniz zaman, gereken sayıda yenileme zamanlayıp çalıştırabilirsiniz. Power BI hizmeti, bu yenilemeleri zamanlamaya uygun şekilde çalıştırır.
+
 
 Bölüm notları:   
 <a name="endnote-1"></a>\[1\] Değişebilir.
@@ -157,6 +224,10 @@ Portalda izleme, son yedi gün içinde kapasitenizde yerleştirilen yükleri ve 
 
 ![Power BI Yönetim portalındaki kapasite durumunu gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal-health.png)
 
+> [!NOTE]
+> **Premium 2. Nesil (Önizleme) Güncelleştirmeleri**: Premium 2. Nesil yalnızca tek bir boyutun izlenmesini gerektirir: Herhangi bir zamanda, kapasitenizin yük için sunması gereken CPU süresi. Satın aldığınız SKU başına CPU süresi boyutunu aşarsanız kapasiteniz ihtiyacı karşılamak adına otomatik olarak ölçeklendirir veya yapılandırma ayarlarınızı temel alarak etkileşimli işlemlerinizi kısıtlar.
+
+
 **Power BI Premium Kapasite Ölçümleri** uygulaması kapasitenizin performansıyla ilgili en ayrıntılı bilgileri sağlar. Uygulamada bir üst düzey pano ve daha ayrıntılı raporlar sağlanır.
 
 ![Ölçüm uygulama panosu](media/service-admin-premium-monitor-capacity/app-dashboard.png)
@@ -166,6 +237,10 @@ Uygulamanın panosunda bir ölçüm hücresine tıklayarak daha kapsamlı bir ra
 ![Sorgu bekleme süresi sayılarının düzenli aralıklarla zirve yapması olası CPU doyma noktasına işaret eder](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
 Kapasiteleri izleme hakkında daha fazla bilgi edinmek için bkz. [Power BI Yönetim portalında izleme](service-admin-premium-monitor-portal.md) ve [Power BI Premium Kapasite Ölçümleri uygulamasıyla izleme](service-admin-premium-monitor-capacity.md).
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+**Premium 2. Nesil** kapasitelerde Ölçümler uygulaması kullanılmaz. Bunun yerine, önizleme aşamasında kullanıma sunulacak olan Kapasite Kullanımı Uygulaması kullanılır. Kapasite Kullanımı Uygulaması, her kapasite için **Yönetici portalındaki** kapasite yönetim sayfanızdan başlatılabilir.
+
 
 ### <a name="optimizing-capacities"></a>Kapasiteleri iyileştirme
 
@@ -187,9 +262,9 @@ Aşağıdaki tabloda, .pbix dosyasını karşıya yüklemek veya Power BI hizmet
 
    |SKU  |.pbix dosyasının boyutu   |
    |---------|---------|
-   |P1/A4    | 3 GB’tan küçük        |
-   |P2/A5    | 6 GB’tan küçük        |
-   |P3/A6, P4, P5    | 10 GB'a kadar   |
+   |P1    | 3 GB’tan küçük        |
+   |P2    | 6 GB’tan küçük        |
+   |P3, P4, P5    | 10 GB'a kadar   |
 
 Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir.
 
@@ -216,6 +291,21 @@ Daha fazla bilgi edinmek için bkz. [Power BI Premium’da artımlı yenileme](s
 P1-P3 ve A4_A6 SKU'larında desteklenen sayfalandırılmış raporlarda, SQL Server Reporting Services'teki Rapor Tanımlama Dili (RDL) teknolojisi temel alınır. RDL teknolojisine dayansa da, şirket içinde yükleyebileceğiniz indirilebilir bir raporlama platformu olan ve Power BI Premium'da da sağlanan Power BI Rapor Sunucusu ile aynı değildir. Sayfalandırılmış raporlar yazdırılabilen ve paylaşılabilen bir sayfaya sığacak şekilde biçimlendirilir. Tablo birden fazla sayfaya yayılsa bile veriler bir tabloda gösterilir. Kullanıcılar ücretsiz [**Power BI Rapor Oluşturucusu**](https://aka.ms/pbireportbuilder) Windows Desktop uygulamasını kullanarak sayfalandırılmış raporlar yazar ve bunları hizmette yayımlar.
 
 Power BI Premium'da Sayfalandırılmış raporlar, Yönetim portalı kullanılarak bir kapasite için etkinleştirilmesi gereken bir iş yüküdür. Kapasite yöneticileri bunu etkinleştirebilir ve ardından kapasitenin genel bellek kaynaklarının bir yüzdesi olarak bellek miktarını belirtebilir. Diğer iş yükü türlerinden farklı olarak Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin olup olmadığına bakılmaksızın, bu alan için belirtilen en büyük bellek kullanılır. Varsayılan değer %20'dir. 
+
+> [!NOTE]
+> **Premium 2. Nesil’de (Önizleme)** , Sayfalandırılmış raporlar için bellek yönetimi yoktur. Premium 2. Nesil’de Sayfalandırılmış raporlar EM1-EM3 SKU’larında desteklenir.
+
+### <a name="paginated-reports-and-premium-gen2"></a>Sayfalandırılmış raporlar ve Premium 2. Nesil
+
+Premium 2. Nesil kullanılırken Power BI’daki Sayfalandırılmış raporlar, Premium 2. Nesil’de yapılan mimari ve mühendislikle ilgili iyileştirmelerden yararlanır. Aşağıdaki bölümlerde, Sayfalandırılmış raporlar için Premium 2. Nesil avantajları açıklanmaktadır.
+
+**Daha geniş SKU kullanılabilirliği**: Premium 2. Nesil’de çalışan sayfalandırılmış raporlar, tüm kullanılabilir ekli ve Premium SKU’larda raporları çalıştırabilir. Faturalama, 24 saatlik döngüde CPU saati başına hesaplanır. Bu, Sayfalandırılmış raporları destekleyen SKU’ları önemli ölçüde artırmaktadır.
+
+**Dinamik ölçeklendirme**: Premium 2. Nesil ile etkinlikteki ani artışlarla ilgili zorluklar veya kaynak ihtiyacı, ihtiyaç arttıkça dinamik olarak ele alınabilir. 
+
+**İyileştirilmiş önbelleğe alma**: Premium 2. Nesil’den önce, iş yükü kapasitesindeki ayrılan bellek bağlamında çok sayıda işlem gerçekleştirmek için sayfalandırılmış raporlara ihtiyaç duyulurdu. Şimdi Premium 2. Nesil sayesinde çok sayıda işlem için gereken bellek miktarındaki azalma, müşterilerin uzun süre çalışan işlemleri diğer kullanıcı oturumlarını etkilemeden gerçekleştirme olanağını artırır. 
+
+**Gelişmiş güvenlik ve kod yalıtımı**: Premium 2. Nesil ile kod yalıtımı, özgün Premium teklifindeki kapasite başına yerine kullanıcı başına düzeyinde gerçekleşebilir. 
 
 Daha fazla bilgi edinmek için bkz. [Power BI Premium’da sayfalandırılmış raporlar](../paginated-reports/paginated-reports-report-builder-power-bi.md). Sayfalandırılmış raporlar iş yükünü etkinleştirme hakkında daha fazla bilgi edinmek için bkz. [İş yüklerini yapılandırma](service-admin-premium-workloads.md).
 
@@ -250,5 +340,6 @@ Daha fazla bilgi için bkz. [XMLA uç noktasıyla veri kümesi bağlantısı](se
 
 > [!div class="nextstepaction"]
 > [Premium kapasiteleri yönetme](service-premium-capacity-manage.md)
+> [Azure Power BI Embedded Belgeleri](https://azure.microsoft.com/services/power-bi-embedded/)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

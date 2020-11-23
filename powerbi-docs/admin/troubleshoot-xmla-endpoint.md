@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483685"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668132"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -139,6 +139,36 @@ Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetikler
 ### <a name="overrides-in-refresh-tmsl-command"></a>TMSL Yenileme komutunda geçersiz kılmalar
 
 [Yenileme komutundaki (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) geçersiz kılmalar kullanıcıların yenileme işlemi için sorgu tanımının veya veri kaynağı tanımının farklı bölümlerini seçmesine olanak tanır. Şu anda Power BI Premium'da **geçersiz kılmalar desteklenmez**. "Power BI Premium'da sıradışı bağlamaya izin verilmez. Ek bilgi için ürün bilgilerinde 'XMLA okuma/yazma desteği' konusuna bakın." hatası döndürülür.
+
+## <a name="errors-in-ssms---premium-gen-2"></a>SSMS’deki hatalar - Premium 2. Nesil
+
+### <a name="query-execution"></a>Sorgu yürütme
+
+[Premium 2. Nesil](service-premium-what-is.md#power-bi-premium-generation-2-preview) kapasitesindeki bir çalışma alanına bağlandığında, SQL Server Management Studio aşağıdaki hatayı görüntüleyebilir:
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+Bu, SSMS v18.7.1 ile yüklenen istemci kitaplıkları oturum izlemeyi desteklemediğinden gerçekleşir. Bu, SSMS’nin sonraki bir sürümünde çözümlenecektir.
+
+### <a name="refresh-operations"></a>Yenileme işlemleri
+
+Premium 2. Nesil kapasitesindeki bir veri kümesi üzerinde uzun süre çalışan (1 dakikadan uzun) bir yenileme işlemi gerçekleştirmek için SSMS v18.7.1 veya daha önceki bir sürümü kullanırken, yenileme işlemi başarılı olsa bile SSMS aşağıdaki gibi bir hata görüntüleyebilir:
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+Bunun nedeni, yenileme isteğinin durumunun hatalı bir şekilde izlendiği istemci kitaplıklarındaki bilinen bir sorundan kaynaklanır. Bu, SSMS’nin sonraki bir sürümünde çözümlenecektir.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

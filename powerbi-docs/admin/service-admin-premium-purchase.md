@@ -7,27 +7,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: bce7b4fcb054dbc38ebf684088602a6f48f0ffb9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 2250a93d5fc061ff1e9d67217d021686935a8db7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599664"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512735"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
-Bu makalede kuruluşunuz için Power BI Premium kapasitesini satın alma adımları anlatılmaktadır. Makalede iki senaryo açıklanır:
+Bu makalede kuruluşunuz için Power BI Premium kapasitesini satın alma adımları anlatılmaktadır. Makalede aşağıdaki senaryo ele alınmaktadır:
 
 - Tipik üretim senaryolarında P SKU'larını kullanma. P SKU'ları için aylık veya yıllık taahhüt gerekir ve aylık faturalama yapılır.
-
-- Test senaryolarında ve P SKU'larını satın almak için gereken izinleriniz (Microsoft 365 Genel Yöneticisi rolü veya Faturalama Yöneticisi rolü) olmadığında A SKU'larını kullanma. A SKU'ları için zaman taahhütü gerekmez ve bu saatlik olarak faturalandırılır. A SKU'larını [Azure portalında](https://portal.azure.com) satın alırsınız.
 
 Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md). Geçerli fiyatlandırma ve planlama bilgileri için bkz. [Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/) ve [Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/). Kuruluşunuzda Power BI Premium sürümü kullanılsa da içerik oluşturucularının [Power BI Pro lisansına](service-admin-purchasing-power-bi-pro.md) sahip olması gerekir. Kuruluşunuz için en az bir Power BI Pro lisansı satın aldığınızdan emin olun. A SKU'larıyla, içerik kullanan _tüm kullanıcılara_ da Pro lisansları gerekir.
 
 > [!NOTE]
 > Premium aboneliğinizin süresi dolarsa kapasitenize 30 gün boyunca tam erişim sağlayabilirsiniz. Bu sürenin sonunda içeriğiniz paylaşılan kapasiteye dönüştürülür. 1 GB üzerindeki modeller paylaşılan kapasitede desteklenmez.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="purchase-p-skus-for-typical-production-scenarios"></a>Tipik üretim senaryolarında P SKU'larını kullanma
 
@@ -110,64 +111,7 @@ Premium aboneliğinizi iptal ettiğinizde veya kapasite lisansınızın süresi 
 
 ## <a name="purchase-a-skus-for-testing-and-other-scenarios"></a>Testler ve diğer senaryolar için A SKU'ları satın alma
 
-A SKU'ları Azure Power BI Embedded hizmeti aracılığıyla kullanıma sunulur. A SKU'larını aşağıdaki yöntemlerle kullanabilirsiniz:
-
-- Üçüncü taraf uygulamalarında Power BI eklemeyi etkinleştirin. Daha fazla bilgi için bkz. [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md).
-
-- P SKU'su satın almadan önce Premium işlevselliğini test edin.
-
-- P SKU'larını kullanan üretim ortamının yanında geliştirme ve test ortamları da oluşturun.
-
-- Microsoft 365 Genel Yöneticisi veya Faturalama Yöneticisi rolünde olmasanız bile Power BI Premium satın alın.
-
-> [!NOTE]
-> A4 veya daha yüksek bir SKU satın alırsanız sınırsız içerik paylaşımı dışında tüm Premium özelliklerden yararlanabilirsiniz. A SKU'larıyla, içerik kullanan _tüm kullanıcılara_ Pro lisansları gerekir.
-
-Azure portalında A SKU'ları satın almak için şu adımları izleyin:
-
-1. En azından Power BI'da kapasite yöneticisi izinlerine sahip olan bir hesapla [Azure portalında](https://portal.azure.com) oturum açın.
-
-1. _Power BI Embedded_ için arama yapın ve arama sonuçlarında hizmeti seçin.
-
-    ![Azure portalı araması](media/service-admin-premium-purchase/azure-portal-search.png)
-
-1. **Power BI Embedded Oluştur**'u seçin.
-
-    ![Power BI Embedded Oluştur](media/service-admin-premium-purchase/create-power-bi-embedded.png)
-
-1. **Power BI Embedded** oluşturma ekranında aşağıdaki bilgileri belirtin:
-
-    - İçinde Power BI Embedded hizmetinin oluşturulacağı **Abonelik**.
-
-    - İçinde hizmeti içeren kaynak grubunun oluşturulacağı fiziksel **Konum**. Daha iyi bir performans için, bu konumun Power BI için Azure Active Directory kiracınızın konumuna yakın olması gerekir.
-
-    - Kullanılacak mevcut **Kaynak grubu** veya örnekte gösterildiği gibi yeni bir kaynak grubu oluşturun.
-
-    - **Power BI kapasite yöneticisi**. Kapasite yöneticisi Azure AD kiracınızda üye kullanıcı veya hizmet sorumlusu olması gerekir.
-
-    ![Abonelik ve kaynak grubu](media/service-admin-premium-purchase/subscription-resource-group.png)
-
-1. Power BI Premium'un tüm özelliklerini (sınırsız paylaşım dışında) kullanmak istiyorsanız en az A4 SKU'suna ihtiyacınız vardır. **Boyutu değiştir**'i seçin.
-
-    ![Kapasite boyutunu değiştir](media/service-admin-premium-purchase/change-capacity-size.png)
-
-1. P1, P2 ve P3'e karşılık gelen A4, A5 veya A6 kapasite boyutunu seçin.
-
-    ![A3 kapasitesini seçme](media/service-admin-premium-purchase/select-a3-capacity.png)
-
-1. **Gözden Geçir + Oluştur**'u seçin, belirttiğiniz seçenekleri gözden geçirin, sonra da **Oluştur**'u seçin.
-
-    ![Kaynak oluşturma](media/service-admin-premium-purchase/create-resource.png)
-
-1. Dağıtımın tamamlanması birkaç dakika sürebilir. Hazır olduğunda **Kaynağa git**'i seçin.
-
-    ![Dağıtım tamamlandı](media/service-admin-premium-purchase/deployment-complete.png)
-
-1. Yönetim ekranında hizmeti yönetmek için size sağlanan seçenekleri gözden geçirin; bunlar arasında kullanmadığınız sırada hizmeti duraklatma seçeneği de yer alır.
-
-    ![Kapasiteyi yönetme](media/service-admin-premium-purchase/manage-capacity.png)
-
-Kapasiteyi satın aldıktan sonra [kapasiteleri yönetmeyi](service-admin-premium-manage.md#manage-capacity) ve kapasiteye [çalışma alanları atamayı](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) öğrenin.
+Test ve diğer amaçlar için, saatlik olarak Premium kapasite sağlayan A SKU’larını da satın alabilirsiniz. Daha fazla bilgi ve adımlar için bkz. [Test için Power BI Premium’u satın alma](service-admin-premium-testing.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
@@ -178,3 +122,13 @@ Kapasiteyi satın aldıktan sonra [kapasiteleri yönetmeyi](service-admin-premiu
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

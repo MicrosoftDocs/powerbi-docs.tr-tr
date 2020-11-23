@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396346"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512344"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
 Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme ve yapılandırma açıklanmaktadır. Varsayılan olarak, kapasiteler yalnızca çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. **[AI (Bilişsel Hizmetler)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md)** ve **[Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** için de ek iş yüklerini etkinleştirebilir ve yapılandırabilirsiniz.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
@@ -31,7 +34,13 @@ Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için
 | **Veri akışları**         | %40 varsayılan; %40 en küçük  | %24 varsayılan; %24 en küçük  | %20 varsayılan; %12 en küçük  | %20 varsayılan; %5 en küçük  | %20 varsayılan; %3 en küçük  | %20 varsayılan; %2 en küçük   |
 | **Sayfalandırılmış raporlar** | Desteklenmeyen               | Desteklenmeyen               | Desteklenmeyen               | %20 varsayılan; %10 en küçük | %20 varsayılan; %5 en küçük  | %20 varsayılan; %2,5 en küçük |
 
+> [!NOTE]
+> Şu anda önizleme aşamasında olan **Premium 2. Nesil**, bellek ayarlarının değiştirilmesini gerektirmez. Premium 2. Nesil’deki bellek, temeldeki sistem tarafından otomatik olarak yönetilir. 
+
+
 ## <a name="workload-settings"></a>İş yükü ayarları
+
+Aşağıdaki bölümlerde, önceki tabloda açıklanan iş yükü ayarları hakkında daha fazla ayrıntı sağlanmaktadır. 
 
 ### <a name="ai-preview"></a>AI (Önizleme)
 
@@ -187,7 +196,7 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 
 1. **Kapasite ayarları** > **PREMIUM KAPASİTELER** içinde, bir kapasite seçin.
 
-1. **DİĞER SEÇENEKLER** altında **İş Yükleri** ’ni genişletin.
+1. **DİĞER SEÇENEKLER** altında **İş Yükleri**’ni genişletin.
 
 1. Bir veya daha fazla iş yükünü etkinleştirin ve **En Büyük Bellek** için ve diğer ayarlar için değer belirleyin.
 
@@ -214,3 +223,13 @@ Bazı durumlarda sayfalandırılmış raporlar iş yükü kullanılamaz hale gel
 [Power BI Desktop'ta otomatik sayfa yenileme (önizleme)](../create-reports/desktop-automatic-page-refresh.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

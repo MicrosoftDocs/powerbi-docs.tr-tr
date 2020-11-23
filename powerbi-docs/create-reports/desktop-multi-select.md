@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1e6ec9c6f6195f69af67da4ffbf1d0428b0fc2
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257065"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559816"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Power BI Desktop'ta birden çok veri öğesini, veri noktasını ve görseli seçme
 
@@ -56,7 +56,7 @@ Bu özellik hakkında daha fazla bilgi için [bu özellikle ilgili blog gönderi
 
 Bir görsel içinde birden çok veri noktası seçerken dikkat etmeniz gereken bazı noktalar ve sınırlamalar vardır:
 
-* Çizgi, alan, dağılım grafiği ve ağaç haritası seçim çerçevesini destekler
+* Çizgi, alan, dağılım grafiği, ağaç haritası ve haritalar seçim çerçevesini destekler
 * Tek seferde en fazla 300 veri noktası seçebilirsiniz
 * Power BI hizmetinde bir raporu görüntülerken dikdörtgen seçim yalnızca kement seçim özelliğinin raporun kaydedilmesi ve yayımlanması sırasında etkinleştirilmiş olması durumunda etkinleştirilir
 

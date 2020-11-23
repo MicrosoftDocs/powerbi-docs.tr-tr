@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 06/22/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ca4257f73837b68d76734ea503e8f83e0d5ba49
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599050"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512965"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -27,6 +27,10 @@ Artımlı yenileme, aşağıdaki avantajlarla Power BI'daki çok büyük veri k�
 
 > [!NOTE]
 > Artımlı yenileme şimdi Power BI Pro, Premium ve paylaşılan abonelikler ile veri kümeleri için kullanılabilir.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Premium 2. Nesil, yenileme çakışmalarını önlemek amacıyla otomatik ölçeklendirmeyi etkinleştirerek zamanlanmış yenileme özelliğini önemli ölçüde iyileştirir. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 
 ## <a name="configure-incremental-refresh"></a>Artımlı yenilemeyi yapılandırma
 
@@ -248,3 +252,14 @@ ALM Araç Seti’nin en son sürümünü [Analysis Services Git deposundan](http
 
 [XMLA uç noktasıyla veri kümesi bağlantısı](service-premium-connect-tools.md)   
 [Yenileme ile ilgili sorun giderme senaryoları](../connect-data/refresh-troubleshooting-refresh-scenarios.md)
+
+
+Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
+* Performans
+* Kullanıcı başına lisanslama
+* Daha yüksek ölçek
+* İyileştirilmiş ölçümler
+* Otomatik ölçeklendirme
+* Azaltılmış yönetim yükü
+
+Power BI Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

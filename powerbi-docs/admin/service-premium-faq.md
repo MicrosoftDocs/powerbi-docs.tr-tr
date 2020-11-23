@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92915912"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511976"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -30,6 +30,11 @@ Power BI Premium, aşağıdakileri içeren bir kapasite tabanlı tekliftir:
 * Power BI hizmetindeki paylaşılan kapasiteye kıyasla daha geniş ölçek ve performans.
 * Power BI Rapor Sunucusu ile şirket içi BI varlıklarının bakımını yapma olanağı.
 * Tek bir API yüzeyi, tutarlı özellik kümesi ve katıştırılmış analiz için en güncel özellikler.
+
+**Power BI Premium 2. Nesil nedir?**
+
+Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Power BI Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+
 
 **Power BI Premium ne işe yarar? Nasıl çalışır?**  
 Power BI Premium, her bir kuruluşa özel olarak ayrılmış Power BI hizmeti kapasitesini kapsar. Kapasite tamamen Microsoft tarafından yönetilen adanmış donanımlarla desteklenir. Kuruluşlar kapasitelerini geniş çapta uygulamayı tercih edebilir veya bu kapasiteyi atanmış çalışma alanlarına kullanıcı sayısına, iş yükü gereksinimlerine veya diğer etmenlere göre atayabilir. Gereksinimler değiştikçe ölçek büyütülebilir veya küçültülebilir.
@@ -59,7 +64,7 @@ Aşağıdaki örnekler müşterilerin Power BI Pro ve Power BI Premium’u kulla
 Power BI Premium, sanal çekirdek sayısına göre satın alınır. Fiyatları [Power BI fiyatlandırma sayfasında](https://powerbi.microsoft.com/pricing/) görebilirsiniz. Düğümler ve sanal çekirdekler hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper). İhtiyacınız olan Premium kapasitesini belirlemek için bu [hesaplama aracını](https://powerbi.microsoft.com/calculator/) da kullanabilirsiniz.
 
 **"Kapasite" ile kast edilen nedir?**  
-Kapasite, Power BI Premium kapasite yönetim portalından bir yönetici tarafından sağlanan bir veya daha fazla düğümden oluşan bir gruptur. Daha fazla bilgi için bkz. [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper).
+Kapasite, kuruluşunuza Power BI kullanımı için ayrılan işlem gücü miktarıdır. Bu, **Kapasite Yönetimi** sayfasında Power BI Premium yönetici portalı aracılığıyla bir hizmet yöneticisi tarafından sağlanır.
 
 **Power BI Premium nasıl faturalandırılır?**  
 Power BI Premium, yıllık taahhütle aylık olarak faturalandırılır.

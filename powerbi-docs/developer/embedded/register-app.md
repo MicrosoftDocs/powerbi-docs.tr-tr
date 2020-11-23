@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 52e835f4ff0d3dc4cad13c2e3ecc77d254f3be9d
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412268"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668661"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 
@@ -235,7 +235,7 @@ Azure AD uygulama izinlerinizi program aracılığıyla değiştirmek için kira
 
 # <a name="c"></a>[C#](#tab/CSharp)
 
-Azure AD uygulamanızın izinlerini C# kullanarak da değiştirebilirsiniz. Sürecinizin bir bölümünü otomatikleştirmeyi düşünüyorsanız bu yöntem fayda sağlayabilir.
+Azure AD uygulamanızın izinlerini C# kullanarak da değiştirebilirsiniz. Daha fazla bilgi için [oAuth2PermissionGrant](https://docs.microsoft.com/graph/api/oauth2permissiongrant-get) API’sine göz atın. Sürecinizin bir bölümünü otomatikleştirmeyi düşünüyorsanız bu yöntem fayda sağlayabilir.
 
 HTTP istekleri hakkında daha fazla bilgi için [HTTP sekmesine](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions) bakın.
 
@@ -267,6 +267,12 @@ currentState.createdServicePrincipal = await graphClient.ServicePrincipals
     .Request()
     .AddAsync(servicePrincipal);
 
+GraphServiceClient graphClient = new GraphServiceClient(authProvider);
+
+// Use oAuth2PermissionGrant to change permissions
+var oAuth2PermissionGrant = await graphClient.Oauth2PermissionGrants["{id}"]
+               .Request()
+               .GetAsync();
 ```
 
 ---

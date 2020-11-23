@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855797"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669144"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Dağıtım işlem hatlarını kullanmaya başlama
 
@@ -23,11 +23,13 @@ Bu makalede, dağıtım işlem hatlarını kullanmak için gereken temel ayarlar
 
 Aşağıdaki koşullar sağlandığında dağıtım işlem hatları özelliğine erişebilirsiniz:
 
-* Power BI [Pro kullanıcısı](../admin/service-admin-purchasing-power-bi-pro.md) olma
+* Aşağıdakilerden Premium lisanslarından birine sahip olmanız:
 
-* Premium kapasiteye sahip bir kuruluşta çalışma
+    * Power BI [Pro kullanıcısı](../admin/service-admin-purchasing-power-bi-pro.md) olmanız ve Premium kapasiteye sahip bir kuruluşta çalışmanız.
 
-* [Yeni çalışma alanı deneyimi](../collaborate-share/service-create-the-new-workspaces.md) yöneticisi olma
+    * [Kullanıcı Başına Premium (PPU)](../admin/service-premium-per-user-faq.md).
+
+* [Yeni çalışma alanı deneyimi](../collaborate-share/service-create-the-new-workspaces.md) yöneticisi olmanız.
 
 >[!NOTE]
 > Önceden bir işlem hattı oluşturduysanız veya sizinle bir işlem hattı paylaşıldıysa da dağıtım işlem hatları düğmesini görebilirsiniz.
@@ -60,7 +62,7 @@ Dağıtım işlem hatları sekmesinden işlem hattı oluşturmak için şunları
 2. *Dağıtım işlem hattı oluştur* iletişim kutusunda işlem hattı için bir ad ve açıklama girip **Oluştur**’u seçin.
 
 >[!NOTE]
->Çalışma alanı, kuruluşunuzun Premium kapasitesine atanmadıysa [kapasiteye atamanızı](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) söyleyen bir bildirim alırsınız.  
+>Çalışma alanı, kuruluşunuzun Premium kapasitesine veya sizin PPU kapasitenize atanmadıysa [kapasiteye atamanızı](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity) söyleyen bir bildirim alırsınız.  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>2\. Adım: Dağıtım işlem hattına çalışma alanı atama
 
@@ -87,7 +89,7 @@ Dağıtım işlem hattına çalışma alanı atamak için şu adımları izleyin
 
 * Çalışma alanının başka bir işlem hattına atanmamış olması gerekir.
 
-* Çalışma alanının bir  [premium kapasitede](../admin/service-premium-what-is.md) bulunması gerekir.
+* Çalışma alanının bir  [Premium kapasitede](../admin/service-premium-what-is.md) bulunması gerekir.
 
 * [Power BI örnekleri](../create-reports/sample-datasets.md) içeren bir çalışma alanı, işlem hattı aşamasına atanamaz.
 
@@ -124,7 +126,7 @@ Pano, rapor ve veri kümeleri ilişkili olduğundan ve bağımlılıklara sahip 
 
 Örneğin, mevcut bir çalışma alanını üretim aşamasına dağıtıp daha sonra geriye dönük olarak önce test aşamasına, sonra geliştirme aşamasına dağıttığınız bir senaryoda olduğu gibi, önceki aşamaya dağıtmayı tercih edebilirsiniz.
 
-Önceki bir aşamaya dağıtmak yalnızca önceki aşamadaki içeriğin boş olması durumunda işe yarar. Önceki aşamaya dağıtırken belirli öğeler seçilemez. Aşamadaki tüm içerik dağıtılır.
+Önceki bir aşamaya dağıtmak yalnızca önceki aşamanın boş olması durumunda işe yarar. Önceki aşamaya dağıtırken belirli öğeler seçilemez. Aşamadaki tüm içerik dağıtılır.
 
 [![Test veya üretim aşaması menülerinden ulaşılabilen önceki aşamaya dağıt düğmesini gösteren ekran görüntüsü.](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -134,7 +136,7 @@ Dağıtım işlem hattında çalışırken farklı aşamaların farklı yapılan
 
 İşlem hattı aşamaları arasında içerik dağıtırken veri kümesi kurallarını yapılandırmak, bazı ayarları korurken içerikte değişiklik yapmanıza olanak verir.
 
-Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametreler üzerinde tanımlanır. Bunlar, belirli bir veri kümesindeki veri kaynaklarının veya parametrelerin değerlerini belirler. Örneğin, üretim aşamasındaki bir veri kümesinin bir üretim veritabanına işaret etmesini isterseniz bunun için bir kural tanımlayabilirsiniz. Kural, üretim aşamasında uygun veri kümesi kapsamında tanımlanır. Kural tanımlandığında, testten üretime dağıtılan içerik veri kümesi kurallarında tanımlandığı şekilde değeri alır, kural değiştirilmediği ve geçerli olduğu sürece uygulanır.
+Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametreler üzerinde tanımlanır. Bunlar, belirli bir veri kümesindeki veri kaynaklarının veya parametrelerin değerlerini belirler. Örneğin, üretim aşamasındaki bir veri kümesinin bir üretim veritabanına işaret etmesini isterseniz bunun için bir kural tanımlayabilirsiniz. Kural, üretim aşamasında uygun veri kümesi kapsamında tanımlanır. Kural tanımlandığında, testten üretime dağıtılan içerik veri kümesi kuralında tanımlandığı şekilde değeri alır, kural değiştirilmediği ve geçerli olduğu sürece uygulanır.
 
 >[!NOTE]
 > Veri kümesi kuralları, yalnızca kaynak ve hedef veri kaynağı aynı türden olduğunda çalışır.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0f237efece8403730ea7790d45bca6f5169e53fd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599543"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512528"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 
@@ -27,6 +27,9 @@ Power BI kullanıcılara muazzam miktarlardaki veriler üzerinde karmaşık anal
 Power BI paylaşılan kapasitesi dosya boyutlarına, yenileme zamanlamalarına ve hizmetin diğer yönlerine sınırlar uygulayarak bu tür durumlara karşı bir düzeyde koruma sağlıyor. Buna karşılık Power BI Premium kapasitesinde bu sınırların çoğu yükseltiliyor. Sonuç olarak, hatalı bir DAX ifadesi veya çok karmaşık bir model içeren tek bir rapor önemli performans sorunlarına yol açabiliyor. Rapor işlenirken, kapasitede sağlanan kaynakların tümünü tüketebiliyor. 
 
 Power BI, Premium kapasite kullanıcılarını bu tür sorunlara karşı koruma yöntemini sürekli geliştiriyor. Ayrıca kapasitelerin ne zaman ve neden aşırı yüklendiğini analiz eden araçlar sağlayarak yöneticileri güçlendiriyoruz. Daha fazla bilgi için [kısa eğitim oturumumuza](https://www.youtube.com/watch?v=UgsjMbhi_Bk&feature=youtu.be) ve [uzun eğitim oturumumuza](https://powerbi.tips/2018/07/) bakın. Aynı zamanda, önemli sorunlar çıktığında bunları hafifletebilmeniz de gerekiyor. Bu sorunları hafifletmenin en hızlı yolu, kapasiteyi yeniden başlatmaktır.
+
+> [!NOTE]
+> Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Önizleme 2. Nesil kapasiteleri için yeniden başlatma işlemleri gerekmediğinden, bu özellik Premium 2. Nesil’de sunulmaz.
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Yeniden başlatma işlemi güvenli mi? Verileri kaybedecek miyim?
 

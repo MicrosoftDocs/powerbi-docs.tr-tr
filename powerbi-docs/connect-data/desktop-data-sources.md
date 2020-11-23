@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256661"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560046"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -90,7 +90,6 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Snowflake
 * Essbase
 * AtScale küpleri
-* BI Bağlayıcısı 
 * Data Virtuality LDW (Beta)
 * Denodo
 * Dremio
@@ -100,8 +99,10 @@ Aşağıda, **Dosya** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Jethro (Beta)
 * Kyligence
 * Linkar PICK Style / MultiValue Databases (Beta)
-* MarkLogic
 * MariaDB (Beta)
+* MarkLogic
+* BI Bağlayıcısı
+* Actian (Beta)
 
 > [!NOTE]
 > Bazı veri bağlayıcıları için **Dosya > Seçenekler ve ayarlar > Seçenekler** bölümüne gidip **Önizleme Özellikleri**'ni seçerek ilgili bağlayıcıyı etkinleştirmeniz gerekir. Yukarıda belirtilen bağlayıcılardan bazılarını görmüyorsanız söz konusu bağlayıcıları kullanmak için **Önizleme Özellikleri** ayarlarınızı kontrol edin. Ayrıca, *Beta* veya *Önizleme* olarak işaretlenen veri kaynakları için destek ve işlevselliğin sınırlı olduğunu ve bunların, üretim ortamlarında kullanılmaması gerektiğini unutmayın.
@@ -141,8 +142,8 @@ Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** p
 * Azure HDInsight Spark
 * HDInsight Etkileşimli Sorgu
 * Azure Maliyet Yönetimi
-* Azure Time Series Insights (Beta)
 * Azure Databricks
+* Azure Time Series Insights (Beta)
 
 
 Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -185,21 +186,21 @@ Aşağıda, **Azure** kategorisine ilişkin **Veri Al** penceresi gösterilmekte
 * Emigo Data Source
 * Entersoft Business Suite (Beta)
 * FactSet Analytics
-* Hexagon PPM Smart API
+* Palantir Foundry
+* Industrial App Store
 * Intune Veri Ambarı (Beta)
 * Microsoft Graph Güvenliği (Beta)
+* Power BI için Projectplace
 * Product Insights (beta)
 * Quick Base
+* Spigit (Beta)
 * TeamDesk (Beta)
 * Webtrends Analytics (Beta)
 * Witivio (Beta)
 * Workplace Analytics (Beta)
 * Zoho Creator (Beta)
-* Palantir Foundry
-* Industrial App Store
-* Power BI için Projectplace
 * eWay-CRM (Beta)
-* Spigit (Beta)
+* Hexagon PPM Smart API
 
 
 Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.
@@ -217,7 +218,7 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Microsoft Exchange
 * Hadoop Dosyası (HDFS)
 * Spark
-* Hive LLAP (Beta)
+* Hive LLAP
 * R betiği
 * Python betiği
 * ODBC
@@ -242,6 +243,8 @@ Aşağıda, **Çevrimiçi Hizmetler** kategorisine ilişkin **Veri Al** penceres
 * Vena (Beta)
 * Vessel Insight (Beta)
 * Zucchetti HR Infinity (Beta)
+* Anaplan Connector v1.0 (Beta)
+* Starburst Enterprise Presto (Beta)
 * Boş Sorgu
 
 

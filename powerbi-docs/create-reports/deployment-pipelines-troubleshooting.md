@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916832"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668638"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 
@@ -32,13 +32,13 @@ Power BI’daki dağıtım işlem hatlarını anlamak için [dağıtım işlem h
 
 Aşağıdaki koşullar karşılanmazsa dağıtım işlem hatları düğmesini görüntüleyemezsiniz.
 
-* Power BI [Pro kullanıcısı](../admin/service-admin-purchasing-power-bi-pro.md) olma
+* Aşağıdakilerden Premium lisanslarından birine sahip olmanız:
 
-* Premium kapasiteye sahip bir kuruluşta çalışma
+    * Power BI [Pro kullanıcısı](../admin/service-admin-purchasing-power-bi-pro.md) olmanız ve Premium kapasiteye sahip bir kuruluşta çalışmanız.
 
-* Çalışma alanı yalnızca tek bir işlem hattına atanabilir
+    * [Kullanıcı Başına Premium (PPU)](../admin/service-premium-per-user-faq.md).
 
-* Yeni çalışma alanı yöneticisi olma
+* [Yeni çalışma alanı deneyimi](../collaborate-share/service-create-the-new-workspaces.md) yöneticisi olma.
 
 ### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Çalışma alanımda neden işlem hattı aşaması etiketini göremiyorum?
 
@@ -51,15 +51,24 @@ Dağıtım işlem hatları, bir işlem hattına atanmış çalışma alanlarınd
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>Dağıtım işlem hatlarıyla çalışmak için hangi lisanslara sahip olmak gerekir?
 
-Dağıtım işlem hatlarını kullanmak için [Premium kapasiteye](../admin/service-premium-what-is.md) sahip bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md) olmanız gerekir. Daha fazla bilgi için bkz. [dağıtım işlem hatlarına erişme](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
+Dağıtım işlem hatlarını kullanmak için aşağıdaki lisanslardan birine sahip olmanız gerekir:
+
+* [Premium](../admin/service-premium-what-is.md) kapasitede bulunan bir çalışma alanı ile [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md) lisansı.
+
+* [Kullanıcı Başına Premium (PPU)](../admin/service-premium-per-user-faq.md).
+
+Daha fazla bilgi için bkz. [dağıtım işlem hatlarına erişme](deployment-pipelines-get-started.md#accessing-deployment-pipelines).
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Bir işlem hattındaki çalışma alanına hangi tür kapasiteyi atayabilirim?
 
 Bir dağıtım işlem hattındaki tüm çalışma alanlarının, işlem hattının işlevsel olması için bir kapasitede yer alması gerekir. Ancak, bir işlem hattındaki farklı çalışma alanları için farklı kapasiteler kullanabilirsiniz. Aynı işlem hattındaki farklı çalışma alanları için farklı kapasite türleri de kullanabilirsiniz.
 
-Geliştirme ve test için, her kullanıcıya yönelik bir Pro Power BI hesabının yanı sıra A veya EM kapasitesini kullanabilirsiniz.
+Geliştirme ve test için, her kullanıcıya yönelik bir Pro Power BI hesabının yanı sıra A veya EM kapasitesini kullanabilirsiniz. Geliştirme ve test aşamalardaki her kullanıcı için bir PPU da kullanabilirsiniz.
 
-Üretim çalışma alanları için bir P kapasitenizin olması gerekir. Ekli uygulamalar aracılığıyla içerik dağıtan bir ISV’yseniz üretim için A ve EM kapasitelerini de kullanabilirsiniz.
+Üretim çalışma alanları için bir P kapasitenizin olması gerekir. Ekli uygulamalar aracılığıyla içerik dağıtan bir ISV’yseniz üretim için A ve EM kapasitelerini de kullanabilirsiniz. PPU’lar, üretim çalışma alanları için de kullanılabilir.
+
+>[!NOTE]
+>PPU ile bir çalışma alanı oluşturduğunuzda, yalnızca diğer PPU kullanıcıları çalışma alanına erişebilir ve içeriğini tüketebilir.
 
 ## <a name="technical"></a>Teknik
 
@@ -87,7 +96,7 @@ Dağıtım işlem hattı başına bir çalışma alanı atayabilirsiniz. Bir iş
 
 |Hata  |Eylem  |
 |---------|---------|
-|[Premium kapasite izinleriniz](deployment-pipelines-process.md#creating-a-premium-capacity-workspace) yok.     |Premium kapasite izinleri almak için, bir kapasite yöneticisinin çalışma alanınızı kapasiteye eklemesini veya size kapasite için atama izinleri vermesini isteyin. Çalışma alanınızı bir kapasiteye ekledikten sonra yeniden dağıtın.        |
+|[Premium kapasite izinleriniz](deployment-pipelines-process.md#creating-a-premium-capacity-workspace) yok.     |Premium kapasiteye sahip bir kuruluşta çalışıyorsanız bir kapasite yöneticisinin çalışma alanınızı kapasiteye eklemesini veya size kapasite için atama izinleri vermesini isteyin. Çalışma alanınızı bir kapasiteye ekledikten sonra yeniden dağıtın.</br></br>Premium kapasiteye sahip bir kuruluşta çalışmıyorsanız [Kullanıcı Başına Premium (PPU)](../admin/service-premium-per-user-faq.md) satın almanız faydalı olabilir.        |
 |Çalışma alanı izinleriniz yok.     |Dağıtmak için bir çalışma alanı üyesi olmanız gerekir. Çalışma alanı yöneticinizden size uygun izinleri vermesini isteyin.         |
 |Power BI yöneticiniz çalışma alanlarının oluşturulmasını devre dışı bıraktı.     |Destek için Power BI yöneticinize başvurun.         |
 |Çalışma alanınız bir [yeni çalışma alanı deneyimi](../collaborate-share/service-create-the-new-workspaces.md) değil.     |İçeriğinizi yeni çalışma alanı deneyiminde oluşturun. İçeriğiniz bir klasik çalışma alanındaysa bunu yeni çalışma alanı deneyimine [yükseltebilirsiniz](../collaborate-share/service-upgrade-workspaces.md).         |
@@ -119,7 +128,7 @@ Veri kümesi kurallarınızın değerleri eksik. Bu durum, veri kümenizin deği
 
 ![Bir dağıtım hatalı bağlantılar nedeniyle başarısız olduğunda görüntülenen geçersiz kurallar hatasının ekran görüntüsü.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma** ’yı seçebilirsiniz. Veri kümesini seçtiğinizde hatalı kurallar işaretlenir.
+Önceden başarılı olan bir dağıtım hatalı bağlantılar nedeniyle başarısız olursa bir uyarı görüntülenir. Başarısız veri kümelerinin işaretlendiği dağıtım ayarları bölmesine gitmek için **Kuralları yapılandırma**’yı seçebilirsiniz. Veri kümesini seçtiğinizde hatalı kurallar işaretlenir.
 
 Başarıyla dağıtmak için hatalı kuralları düzeltin veya kaldırın ve yeniden dağıtın.
 
@@ -152,11 +161,11 @@ Dağıtım işlem hatları izinler modeli [izinler](deployment-pipelines-process
 
 İçerik boş bir aşamaya veya içeriğe sahip olan bir aşamaya dağıtılabilir. İçeriğin bir [premium kapasitede](../admin/service-premium-what-is.md) yer alması gerekir.
 
-* **Boş bir aşamaya dağıtma** : Kaynak çalışma alanında üye veya yönetici olan herhangi bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
+* **Boş bir aşamaya dağıtma**: Kaynak çalışma alanında üye veya yönetici olan herhangi bir [Pro](../admin/service-admin-purchasing-power-bi-pro.md) kullanıcı veya [PPU](../admin/service-premium-per-user-faq.md) kullanıcısı.
 
-* **İçeriğe sahip olan bir aşamaya dağıtma** : Hem hedef hem de kaynak dağıtım aşamalarındaki çalışma alanlarının her ikisinin de üyesi veya yöneticisi olan bir [Pro kullanıcı](../admin/service-admin-purchasing-power-bi-pro.md).
+* **İçeriğe sahip olan bir aşamaya dağıtma**: Hem hedef hem de kaynak dağıtım aşamalarındaki çalışma alanlarının her ikisinin de üyesi veya yöneticisi olan bir [Pro](../admin/service-admin-purchasing-power-bi-pro.md) kullanıcı veya [PPU](../admin/service-premium-per-user-faq.md) kullanıcısı.
 
-* **Bir veri kümesini geçersiz kılma** : Dağıtım, veri kümesi değişmese bile hedef aşamaya dahil olan her veri kümesini geçersiz kılar. Kullanıcının, dağıtımda belirtilen tüm hedef aşama veri kümelerinin sahibi olması gerekir.
+* **Bir veri kümesini geçersiz kılma**: Dağıtım, veri kümesi değişmese bile hedef aşamaya dahil olan her veri kümesini geçersiz kılar. Kullanıcının, dağıtımda belirtilen tüm hedef aşama veri kümelerinin sahibi olması gerekir.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>Veri kümesi kurallarını yapılandırmak için hangi izinlere sahip olmam gerekir?
 

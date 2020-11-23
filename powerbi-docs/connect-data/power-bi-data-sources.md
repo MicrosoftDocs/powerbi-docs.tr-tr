@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397404"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719064"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -62,7 +62,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Klasör | Evet | Evet | Hayır | Evet | Evet | Evet |
 | GitHub | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
 | Google Analytics | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
-| Google BigQuery | Evet | Evet | Evet | Hayır | Hayır | Evet |
+| Google BigQuery | Evet | Evet | Evet | Yes | Hayır | Evet |
 | Hadoop Dosyası (HDFS) | Evet | Hayır | Hayır | Hayır | Hayır | Hayır |
 | Hive LLAP | Evet | Evet | Evet | Evet | Hayır | Hayır |
 | HDInsight Etkileşimli Sorgu | Evet | Evet | Evet | Hayır | Hayır | Hayır |
@@ -148,7 +148,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 
 <sup>6</sup> .html, .xls ve Access Veritabanları için gereklidir
 
-<sup>7</sup> Power BI hizmeti, kimlik doğrulaması gerektiren OData akışlarını desteklemez.
+<sup>7</sup> Power BI hizmeti genel OAuth2’yi desteklemez.
 
 <sup>8</sup> Paxata, Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop sürümünde desteklenir. Power BI Rapor Sunucusu’na yayımlanan Power BI raporlarında desteklenmez. Desteklenen veri kaynakları listesi için bkz. [Power BI Rapor Sunucusu’nda Power BI raporu veri kaynakları](../report-server/data-sources.md).
 

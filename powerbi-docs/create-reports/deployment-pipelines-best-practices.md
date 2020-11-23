@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116489"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513011"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Dağıtım işlem hatlarına yönelik en iyi uygulamalar
 
@@ -93,26 +93,26 @@ Bu bölümde, dağıtım işlem hatlarının dağıtım aşamasında çalışmay
 
 ### <a name="use-power-bi-desktop-to-edit-your-reports-and-datasets"></a>Raporlarınızı ve veri kümelerinizi düzenlemek için Power BI Desktop kullanma
 
-Power BI Desktop’ı yerel geliştirme ortamınız olarak düşünün. Power BI Desktop, raporlarınızda ve veri kümelerinizde güncelleştirmeleri denemenize, keşfetmenize ve gözden geçirmenize olanak verir. İşinizi tamamladıktan sonra yeni sürümünüzü dağıtım aşamasına yükleyebilirsiniz. Aşağıdaki nedenlerden dolayı .pbix dosyalarını Desktop’ta (Power BI hizmetinde değil) düzenlemeniz önerilir:
+Power BI Desktop’ı yerel geliştirme ortamınız olarak düşünün. Power BI Desktop, raporlarınızda ve veri kümelerinizde güncelleştirmeleri denemenize, keşfetmenize ve gözden geçirmenize olanak verir. İşinizi tamamladıktan sonra yeni sürümünüzü dağıtım aşamasına yükleyebilirsiniz. Aşağıdaki nedenlerden dolayı PBIX dosyalarını Desktop’ta (Power BI hizmetinde değil) düzenlemeniz önerilir:
 
-* Tüm değişiklikler aynı araçta yapıldığında diğer oluşturucularla aynı .pbix dosyası üzerinde işbirliği yapmak daha kolaydır.
+* Tüm değişiklikler aynı araçta yapıldığında diğer oluşturucularla aynı PBIX dosyası üzerinde işbirliği yapmak daha kolaydır.
 
- * Çevrimiçi değişiklikler yapma ve .pbix dosyasını indirip yeniden karşıya yükleme, raporların ve veri kümelerinin yinelemesini oluşturur.
+ * Çevrimiçi değişiklikler yapma ve PBIX dosyasını indirip yeniden karşıya yükleme, raporların ve veri kümelerinin yinelemesini oluşturur.
 
-* .pbix dosyalarınızın güncel kalmasını sağlamak için sürüm denetimini kullanabilirsiniz.
+* PBIX dosyalarınızın güncel kalmasını sağlamak için sürüm denetimini kullanabilirsiniz.
 
-### <a name="version-control-for-pbix-files"></a>.pbix dosyaları için sürüm denetimi
+### <a name="version-control-for-pbix-files"></a>PBIX dosyaları için sürüm denetimi
 
 Raporlarınızın ve veri kümelerinizin sürüm geçmişini yönetmek istiyorsanız [Power BI’ın OneDrive ile otomatik eşitlemesini](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md) kullanın. Bu, dosyalarınızın en son sürümle güncelleştirilmesini sağlar. Ayrıca, gerekirse eski sürümleri de almanıza olanak tanır.
 
 >[!NOTE]
->OneDrive ile (veya başka bir depo ile) otomatik eşitleme özelliğini yalnızca dağıtım işlem hatlarının dağıtım aşamasındaki .pbix dosyalarıyla kullanın. .pbix dosyalarını dağıtım işlem hatlarının test ve üretim aşamalarına eşitlemeyin. Bu, içeriği işlem hattı genelinde dağıtmayla ilgili sorunlara neden olur.
+>OneDrive ile (veya başka bir depo ile) otomatik eşitleme özelliğini yalnızca dağıtım işlem hatlarının dağıtım aşamasındaki PBIX dosyalarıyla kullanın. PBIX dosyalarını dağıtım işlem hatlarının test ve üretim aşamalarına eşitlemeyin. Bu, içeriği işlem hattı genelinde dağıtmayla ilgili sorunlara neden olur.
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>Rapor ve pano geliştirmeden ayrı modelleme geliştirmesi
 
 Kurumsal ölçekteki dağıtımlarda veri kümesi dağıtımını ve raporlar ile panoların dağıtımını ayırmanız önerilir. Değişiklikleri yalnızca bir raporda veya veri kümesinde öne çıkarmak için dağıtım işlem hatlarının seçmeli dağıtım seçeneğini kullanın.  
 
-Bu yaklaşımın, Power BI Desktop’ta veri kümeleri ve raporlar için ayrı .pbix dosyaları oluşturarak başlaması gerekir. Örneğin, bir veri kümesi .pbix dosyası oluşturup dağıtım aşamasına yükleyebilirsiniz. Daha sonra, rapor yazarlarınız yalnızca rapor için yeni bir .pbix dosyası oluşturabilir ve canlı bağlantı kullanarak bu raporu [yayımlanmış veri kümelerine bağlayabilir](../connect-data/service-datasets-discover-across-workspaces.md). Bu teknik, farklı oluşturucuların modelleme ve görselleştirmeler üzerinde ayrı ayrı çalışmalarına ve bunları bağımsız bir şekilde üretime dağıtmalarına olanak tanır.
+Bu yaklaşımın, Power BI Desktop’ta veri kümeleri ve raporlar için ayrı PBIX dosyaları oluşturarak başlaması gerekir. Örneğin, bir veri kümesi PBIX dosyası oluşturup dağıtım aşamasına yükleyebilirsiniz. Daha sonra, rapor yazarlarınız yalnızca rapor için yeni bir PBIX dosyası oluşturabilir ve canlı bağlantı kullanarak bu raporu [yayımlanmış veri kümelerine bağlayabilir](../connect-data/service-datasets-discover-across-workspaces.md). Bu teknik, farklı oluşturucuların modelleme ve görselleştirmeler üzerinde ayrı ayrı çalışmalarına ve bunları bağımsız bir şekilde üretime dağıtmalarına olanak tanır.
 
 [Paylaşılan veri kümeleri](../connect-data/service-datasets-share.md) sayesinde bu yöntemi çalışma alanları genelinde kullanabilirsiniz.
 
@@ -195,7 +195,7 @@ Veri kümesinde tanımlanmış veri kaynakları ve parametreler için üretim ve
 
 ### <a name="quick-fixes-to-content"></a>İçerikte yapılan hızlı düzeltmeler
 
-Üretimde hızlı düzeltme yapmanız gereken hatalar olduğunda, hemen üretim aşamasında doğrudan yeni bir .pbix sürümü yüklemeyi veya Power BI hizmetinde çevrimiçi değişiklik yapmayı düşünmeyin. Test ve geliştirme aşamalarında geriye dönük dağıtım yapmak, bu aşamalarda içerik varken mümkün değildir. Ayrıca, önce test etmeden bir düzeltmeyi dağıtmak iyi bir yöntem değildir. Bu nedenle, bu sorunu ele almanın doğru yolu düzeltmeyi dağıtım aşamasında uygulamak ve dağıtım işlem hattının kalan aşamalarına göndermektir. Böylece, üretime dağıtmadan önce düzeltmenin işe yarayıp yaramadığını denetleyebilirsiniz. İşlem hattı genelinde dağıtım yapmak yalnızca birkaç dakika sürer.
+Üretimde hızlı düzeltme yapmanız gereken hatalar olduğunda, hemen üretim aşamasında doğrudan yeni bir PBIX sürümü yüklemeyi veya Power BI hizmetinde çevrimiçi değişiklik yapmayı düşünmeyin. Test ve geliştirme aşamalarında geriye dönük dağıtım yapmak, bu aşamalarda içerik varken mümkün değildir. Ayrıca, önce test etmeden bir düzeltmeyi dağıtmak iyi bir yöntem değildir. Bu nedenle, bu sorunu ele almanın doğru yolu düzeltmeyi dağıtım aşamasında uygulamak ve dağıtım işlem hattının kalan aşamalarına göndermektir. Böylece, üretime dağıtmadan önce düzeltmenin işe yarayıp yaramadığını denetleyebilirsiniz. İşlem hattı genelinde dağıtım yapmak yalnızca birkaç dakika sürer.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

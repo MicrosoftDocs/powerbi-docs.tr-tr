@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: eb5b4b37e59a771d65917df5706a7ebbca488d21
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397312"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669098"
 ---
 # <a name="premium-features-of-dataflows"></a>Veri akışlarının Premium özellikleri
 
@@ -34,10 +34,10 @@ Aşağıdaki bölümlerde bu özellikler daha ayrıntılı olarak açıklanmış
 
 Power BI geliştirilmiş işlem altyapısı, Power BI Premium abonelerinin kapasitelerini kullanarak veri akışlarının kullanımını iyileştirmelerini sağlar. Geliştirilmiş işlem altyapısını kullanmak şu avantajları sunar:
 
-* *Birleştirme* , *benzersiz* , *filtre* ve *gruplama* gibi işlemleri gibi hesaplanan varlıklar üzerinde gerçekleştirilen uzun süreli ETL adımları için gerekli olan yenileme süresini önemli ölçüde azaltır.
+* *Birleştirme*, *benzersiz*, *filtre* ve *gruplama* gibi işlemleri gibi hesaplanan varlıklar üzerinde gerçekleştirilen uzun süreli ETL adımları için gerekli olan yenileme süresini önemli ölçüde azaltır.
 * Varlıklar üzerinde DirectQuery sorgusu gerçekleştirme
 
-Bir sonraki bölümde geliştirilmiş işlem altyapısını etkinleştirme adımları ve sık sorulan soruların yanıtları verilmiştir.
+Geliştirilmiş işlem altyapısı varsayılan olarak **Açık** durumdadır. Gelişmiş işlem altyapısı açık değilse bunu etkinleştirme işlemi, sık sorulan soruların yanıtlarıyla birlikte sonraki bölümde açıklanmaktadır.
 
 ### <a name="using-the-enhanced-compute-engine"></a>Geliştirilmiş işlem altyapısını kullanma
 
@@ -52,8 +52,8 @@ Geliştirilmiş işlem altyapısı açıldıktan sonra **veri akışlarına** d�
 
 İşlem altyapısını en verimli şekilde kullanmak için ETL aşamasını şu şekilde iki ayrı veri akışına ayırın:
 
-* **Veri akışı 1** : Bu veri akışı yalnızca veri kaynağındaki gerekli verileri almalı ve veri akışı 2 içine yerleştirmelidir.
-* **Veri akışı 2** : Tüm ETL işlemlerini bu ikinci veri akışında gerçekleştirin ancak aynı kapasite üzerinde yer alan Veri akışı 1'e başvurduğunuzdan emin olun. Ayrıca işlem altyapısının kullanıldığından emin olmak için diğer işlemlerden önce katlanabilecek (filtre, gruplama, benzersiz, birleşim) işlemler gerçekleştirdiğinizden emin olun.
+* **Veri akışı 1**: Bu veri akışı yalnızca veri kaynağındaki gerekli verileri almalı ve veri akışı 2 içine yerleştirmelidir.
+* **Veri akışı 2**: Tüm ETL işlemlerini bu ikinci veri akışında gerçekleştirin ancak aynı kapasite üzerinde yer alan Veri akışı 1'e başvurduğunuzdan emin olun. Ayrıca işlem altyapısının kullanıldığından emin olmak için diğer işlemlerden önce katlanabilecek (filtre, gruplama, benzersiz, birleşim) işlemler gerçekleştirdiğinizden emin olun.
 
 ### <a name="common-questions-and-answers"></a>Sık sorulan sorular ve yanıtları
 
@@ -158,6 +158,8 @@ Aşağıdaki durumlarda veri akışını artımlı yenileme olarak ayarlamayın:
 ## <a name="next-steps"></a>Sonraki adımlar
 Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi sunmaktadır:
 
+* [Veri akışları için en iyi yöntemler](dataflows-best-practices.md)
+* [Power BI Premium veri akışı iş yüklerini yapılandırma](dataflows-premium-workload-configuration.md)
 * [Veri akışlarına giriş ve self servis veri hazırlığı](dataflows-introduction-self-service.md)
 * [Veri akışı oluşturma](dataflows-create.md)
 * [Veri akışı yapılandırma ve kullanma](dataflows-configure-consume.md)

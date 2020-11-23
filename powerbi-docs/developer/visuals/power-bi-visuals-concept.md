@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8971c07b39de5b01b945218659fb8ead711c3f3c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048867"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511953"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Power BI görselleri sistem tümleştirmesi
 
@@ -92,7 +92,7 @@ Power BI görsellerinde eylemler ve izleyen güncelleştirmeler şu düzenlerden
 
 * Kullanıcı görsel özelliklerini değiştirir. (Örneğin kullanıcı ağacı genişletir ve görsel bu durumu özelliklere kaydeder.)
 
-    Görsel Power BI API'si aracılığıyla özellik değerlerini kaydedebilir. Örneğin kullanıcı görselle etkileşimli çalışırken görselin özellik değerlerini kaydetmesi veya güncelleştirmesi gerekirse, görsel `presistProperties` yöntemini çağırabilir.
+    Görsel Power BI API’si aracılığıyla özellik değerlerini kaydedebilir. Örneğin kullanıcı görselle etkileşimli çalışırken görselin özellik değerlerini kaydetmesi veya güncelleştirmesi gerekirse, görsel `presistProperties` yöntemini çağırabilir.
 
 * Kullanıcı URL’yi seçer.
 

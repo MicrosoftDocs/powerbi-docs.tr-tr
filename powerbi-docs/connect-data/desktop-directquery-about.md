@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120570"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718995"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -165,6 +165,7 @@ DirectQuery modelleri için neredeyse tüm raporlama özellikleri desteklenir. B
 * **Hızlı İçgörüler desteklenmez:** Power BI Hızlı İçgörüler ilgi çekici olabilecek içgörüleri keşfetmek için karmaşık bir algoritma kümesi uygulayarak veri kümenizin farklı alt kümelerinde arama yapar. Çok yüksek performanslı sorgular gerektiğinden bu özellik DirectQuery modundaki veri kümelerinde kullanılamaz.
 * **Soru-Cevap desteklenmez:** Power BI Soru-Cevap, kullanımı kolay, doğal dil özelliklerinden yararlanarak verilerinizi araştırmanızı ve grafikler ile graflar biçiminde cevaplar almanızı sağlar. Ancak bu özellik, DirectQuery kullanan veri kümelerinde şu anda desteklenmiyor.
 * **Excel'de İncele özelliğinin kullanılması performans düşüşüne yol açabilir:** Veri kümesinde “Excel'de İncele” özelliğini kullanarak verilerinizi inceleyebilirsiniz. Bu yaklaşım, Excel'de Özet Tabloların ve Özet Grafiklerin oluşturulmasını sağlar. DirectQuery kullanan veri kümelerinde bu özellik desteklense de, Power BI'da görsel oluşturmaya kıyasla performans genelde daha yavaş olur. Bu nedenle, senaryolarınız için Excel kullanımı önemliyse DirectQuery kullanıp kullanmayacağınıza karar verirken bu sınırlamayı göz önünde bulundurun.
+* **Metin sütunları için en fazla uzunluk:** DirectQuery kullanan veri kümelerindeki bir metin sütununda yer alan veriler için en fazla uzunluk 32.764 karakterdir. Daha uzun metinler üzerinde raporlama hatayla sonuçlanır.
 
 ### <a name="security"></a>Güvenlik
 

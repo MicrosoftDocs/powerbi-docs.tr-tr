@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502168"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560132"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Power BI raporlarındaki filtreleri tasarlama
 
@@ -65,7 +65,7 @@ Bu görünümde gösterilen filtre türleri şunlardır:
 
 Yeni Filtreler bölmesini etkinleştirdikten sonra, bölmeyi rapor sayfasının sağ tarafında, geçerli rapor ayarlarınıza göre varsayılan olarak biçimlendirilmiş şekilde görürsünüz. Filtreler bölmesinde hangi filtrelerin ekleneceğini yapılandırır ve mevcut filtreleri güncelleştirirsiniz. Filtreler bölmesi, raporunuzu yayımladığınızda rapor tüketicilerinin göreceği gibi görünür. 
 
-1. Varsayılan olarak rapor tüketicileriniz Filtreler bölmesini görebilir. Görmelerini istemiyorsanız **Filtreler** ’in yanındaki göz simgesini seçin.
+1. Varsayılan olarak rapor tüketicileriniz Filtreler bölmesini görebilir. Görmelerini istemiyorsanız **Filtreler**’in yanındaki göz simgesini seçin.
 
     ![Power BI filtre göz simgesine](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
@@ -79,7 +79,7 @@ Power BI Desktop’ın önizlemesinde yeni bir şerit vardır. **Görünüm** se
 
 ![Düzenlerken Filtreler bölmesini gösterme veya gizleme](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Bu ayar yalnızca Power BI Desktop’ta Filtreler bölmesini gizler. Son kullanıcılarınız için Filtreler bölmesini gizlemek istiyorsanız, bunun yerine **Filtreler** ’in yanındaki **göz** simgesini seçersiniz.
+Bu ayar yalnızca Power BI Desktop’ta Filtreler bölmesini gizler. Son kullanıcılarınız için Filtreler bölmesini gizlemek istiyorsanız, bunun yerine **Filtreler**’in yanındaki **göz** simgesini seçersiniz.
 
 ![Göz simgesi](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
@@ -116,7 +116,7 @@ Bu öğeleri, uygulanmış (bir değere ayarlanmış) veya kullanılabilir (temi
 
 ### <a name="format-the-filters-pane-and-cards"></a>Filtreler bölmesini ve kartlarını biçimlendirme
 
-1. Raporda, raporun kendisine veya arka plana ( *duvar kağıdı* ) tıklayın ve **Görselleştirmeler** bölmesinde **Biçimlendir** 'i seçin. 
+1. Raporda, raporun kendisine veya arka plana (*duvar kağıdı*) tıklayın ve **Görselleştirmeler** bölmesinde **Biçimlendir**'i seçin. 
     Rapor sayfasını, duvar kağıdını ve ayrıca Filtreler bölmesiyle Filtre kartlarını biçimlendirme seçeneklerini görürsünüz.
 
 1. Arka plan, simge ve sol kenarlık rengini rapor sayfasını tamamlayacak şekilde ayarlamak için **Filtreler bölmesini** genişletin.
@@ -214,7 +214,7 @@ Filtreler bölmesinin klavye gezintisini geliştirdik. Filtreler bölmesinin her
 ![Filtreler bölmesi erişilebilirliği](media/power-bi-report-filter/power-bi-filter-accessible.png)
 
 ## <a name="rename-filters"></a>Filtreleri yeniden adlandırma
-Filtreler bölmesini düzenlerken, başlığa çift tıklayarak başlığı düzenleyebilirsiniz. Son kullanıcılarınızın daha iyi anlayabilmesi için filtre kartını güncelleştirmek istiyorsanız yeniden adlandırma kullanışlıdır. Unutmayın; filtre kartını yeniden adlandırmak alanlar listesindeki alanın görünen adını *değiştirmez* . Yalnızca filtre kartında kullanılan görünen adını değiştirir.
+Filtreler bölmesini düzenlerken, başlığa çift tıklayarak başlığı düzenleyebilirsiniz. Son kullanıcılarınızın daha iyi anlayabilmesi için filtre kartını güncelleştirmek istiyorsanız yeniden adlandırma kullanışlıdır. Unutmayın; filtre kartını yeniden adlandırmak alanlar listesindeki alanın görünen adını *değiştirmez*. Yalnızca filtre kartında kullanılan görünen adını değiştirir.
 
 ![Filtreyi yeniden adlandırma](media/power-bi-report-filter/power-bi-filter-rename.png)
 
@@ -242,17 +242,17 @@ Filtreler bölmesi araması özelliği varsayılan olarak açık olsa da, **Seç
 
 Rapor okuyucuları varsayılan olarak raporunuzdaki filtreleri kaydedebilir. Okuyucuların filtreleri kaydetme iznini kaldırabilirsiniz.
 
-- Ayrıca **Seçenekler** iletişim kutusundaki **Rapor** ayarlarının **Kalıcı filtreler** bölümünde **Son kullanıcıların bu raporda filtre kaydetmesine izin verme** 'yi seçin.
+- Ayrıca **Seçenekler** iletişim kutusundaki **Rapor** ayarlarının **Kalıcı filtreler** bölümünde **Son kullanıcıların bu raporda filtre kaydetmesine izin verme**'yi seçin.
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="Son kullanıcıların bu raporda filtre kaydetmesine izin verme seçeneğinin ekran görüntüsü.":::
 
-## <a name="apply-filters-apply-button-preview"></a>Filtre uygulamak için Uygula düğmesi (önizleme)
+## <a name="apply-filters-button"></a>Filtre uygula düğmesi
 
 Filtre bölmesine tek bir **Uygula** düğmesi ekleyebilirsiniz. Bu düğme sizin ve son kullanıcılarınızın tüm filtre değişikliklerini tek seferde eklemenize olanak tanır. Filtre değişikliklerinin uygulanmasını geciktirmek istiyorsanız bu düğmenin bulunması yararlı olabilir. Rapora veya görsellere tüm filtre değişikliklerini uygulaya hazır olduktan sonra, yalnızca bir kez beklemeniz yeterli olur.
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Son kullanıcıların bu raporda filtre kaydetmesine izin verme seçeneğinin ekran görüntüsü.":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Filtre uygula düğmesi":::
 
-### <a name="turn-on-apply"></a>Uygula özelliğini açma
+### <a name="turn-on-the-apply-button"></a>Uygula düğmesini açma
 
 Bu özelliği rapor düzeyinde ayarlayabilirsiniz. Bununla birlikte bu özellik varsayılan olarak kapalıdır.
 
@@ -260,17 +260,18 @@ Bu özelliği rapor düzeyinde ayarlayabilirsiniz. Bununla birlikte bu özellik 
 
 1. **Değişiklikleri aynı anda uygulamak için filtre bölmesine tek bir Uygula düğmesi ekleyin** öğesini seçin.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="Son kullanıcıların bu raporda filtre kaydetmesine izin verme seçeneğinin ekran görüntüsü.":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="Filtre uygula düğmesini açma":::
 
 ### <a name="format-the-apply-button"></a>Uygula düğmesini yapılandırma
 
 Şu anda düğmenin **Uygula** metninin biçimlendirmesini bazı yönlerden denetleyebilirsiniz. **Biçim** bölmesinin **Filtre bölmesi** bölümünde şu seçenekleri ayarlayın:
 
+- **Onay kutusu ve Uygula rengi** dolgu rengini denetler. 
 - **Yazı tipi ve simge rengi** metnin rengini denetler.
 - **Üst bilgi metin boyutu** metnin boyutunu denetler.
 - **Yazı tipi ailesi** yazı tipini denetler.
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="Son kullanıcıların bu raporda filtre kaydetmesine izin verme seçeneğinin ekran görüntüsü.":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="Filtre uygula düğmesinin metnini biçimlendirme":::
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

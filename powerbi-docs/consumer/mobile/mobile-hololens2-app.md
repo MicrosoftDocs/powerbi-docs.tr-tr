@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049234"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718627"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>HoloLens 2 için Power BI (önizleme)
 HoloLens 2 için Power BI uygulaması fiziksel dünyada hareket ederek ilgili verilerinizi ihtiyaç duyduğunuz yerde ve zamanda alabileceğiniz 3B ve çevreleyici bir dokunmadan kullanım deneyimi oluşturmak için Power BI raporlarınızı ve panolarınızı fiziksel ortamınızla birleştirir.
@@ -24,11 +24,13 @@ HoloLens 2 için Power BI uygulaması fiziksel dünyada hareket ederek ilgili ve
 
 HoloLens 2 için Power BI uygulamasını [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478)’da bulabilirsiniz.
 
+Uygulama çoklu oturum açma ile çalışır; yani Power BI hizmetine karşı kimlik doğrulaması yapmak için HoloLens 2 cihazında oturum açmış olan kullanıcının kimliğini kullanır.
+
 HoloLens 2 cihazınıza uygulama yükleme hakkında [daha fazla bilgi edinin](/hololens/holographic-store-apps).
 
 ## <a name="open-the-power-bi-app-on-your-hololens-2"></a>HoloLens 2’nizde Power BI uygulamasını açma
 
-**Başlat** menüsünü açın ve Power BI uygulamasını seçin. Uygulama, görüntülemek için aralarından seçim yapabileceğiniz en sık kullandığınız raporlar ve panolar sanal alet kemerinize yüklenmiş olarak açılır.
+**Başlat** menüsünü açın ve Power BI uygulamasını seçin. Uygulama, görüntülemek için aralarından seçim yapabileceğiniz şekilde, en sık kullandığınız raporlar ve panolar sanal alet kemerinize yüklenmiş olarak açılır.
 
 ## <a name="using-the-power-bi-app-for-hololens-2"></a>HoloLens 2 için Power BI uygulamasını kullanma
 
