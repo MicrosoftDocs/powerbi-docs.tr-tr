@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 3ed27c97169c1b4a579dadb001555445fe8fc43f
-  ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+  ms.openlocfilehash: 9ef1261357bc5a41820fd4ad2e9eacd17d725bf8
+  ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/29/2020
-  ms.locfileid: "92916786"
+  ms.lasthandoff: 11/24/2020
+  ms.locfileid: "95513769"
 highlightedContent:
   items:
   - title: Power BI ile tümleşik analiz
@@ -30,9 +30,9 @@ highlightedContent:
   - title: Power BI’daki görseller
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
-  - title: Geliştiriciler Power BI API ile neler yapabilir?
-    itemType: overview
-    url: automation/overview-of-power-bi-rest-api.md
+  - title: Otomatikleştirilmiş şablon uygulama yapılandırması
+    itemType: concept
+    url: template-apps/template-apps-auto-install.md
 conceptualContent:
   items:
   - title: Ekli analiz
@@ -97,7 +97,7 @@ additionalContent:
       summary: Power BI örnekleri ile kod kitaplıklarının koleksiyonu.
       url: visuals/samples.md
     - title: Power BI kitaplıkları
-      summary: Power BI kitaplıkları (NuGet’ler).
+      summary: Power BI kitaplıkları (NuGet).
       url: https://www.nuget.org/profiles/powerbi
     - title: Katıştırma kurulum aracı
       summary: Power BI ekleme ortamınızı ayarlayın.

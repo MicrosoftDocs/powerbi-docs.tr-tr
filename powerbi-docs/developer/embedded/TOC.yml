@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: Nasıl yapılır
       items:
-        - name: Sertifika ile hizmet sorumlusu kullanarak ekleme
-          href: embed-service-principal-certificate.md
-        - name: Uygulama gizli dizisi ile hizmet sorumlusu kullanarak ekleme
+        - name: Hizmet sorumlusu kullanarak ekleme
           href: embed-service-principal.md
+        - name: Hizmet sorumlusu ve sertifika kullanarak ekleme
+          href: embed-service-principal-certificate.md
         - name: Uygulamadan ekleme
           href: embed-from-apps.md
         - name: Raporu dosyaya aktarma

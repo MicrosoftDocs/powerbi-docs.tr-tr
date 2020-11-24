@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: Tabloya satır ekleme
           href: walkthrough-push-data-add-rows.md
+        - name: Şablon uygulama yapılandırmasını otomatikleştirme
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: Kavramlar
       items:
         - name: Gerçek zamanlı veriler için otomatik elde tutma ilkesi
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: Veri modeli sürümü oluşturma
               href: api-data-model-versioning.md
+        - name: Otomatikleştirilmiş şablon uygulama yapılandırması
+          href: ../template-apps/template-apps-auto-install.md
     - name: Nasıl yapılır
       items:
         - name: Kimlik bilgilerini yapılandırma
           href: configure-credentials.md
+        - name: Şablon uygulama yapılandırmasını otomatikleştirme
+          href: ../template-apps/template-apps-auto-install.md
     - name: Başvuru
       items:
         - name: REST API'leri
