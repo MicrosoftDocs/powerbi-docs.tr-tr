@@ -39,6 +39,10 @@
               href: service-self-service-purchase-help.md
             - name: Power BI’a kaydolma hakkında yardım alma
               href: service-self-service-sign-up-help.md
+        - name: Güvenlik
+          items:
+            - name: Güvenlik temeli
+              href: security-baseline.md
     - name: Nasıl yapılır kılavuzları
       items:
         - name: Power BI Desktop uygulamasını edinme
