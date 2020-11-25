@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748966"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513838"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Kimlik bilgilerini Power BI için programlama yoluyla yapılandırma
 
 Kimlik bilgilerini Power BI için programlama yoluyla yapılandırmak üzere bu makaledeki adımları izleyin.
 
 >[!NOTE]
->* Çağıran kullanıcının bir veri kümesi sahibi veya ağ geçidi yöneticisi olması gerekir. Bir [hizmet sorumlusu](../embedded/embed-service-principal-certificate.md) da kullanabilirsiniz. Örneğin, hizmet sorumlusu veri kümesi sahibi olabilir.
+>* Çağıran kullanıcının bir veri kümesi sahibi veya ağ geçidi yöneticisi olması gerekir. Bir [hizmet sorumlusu](../embedded/embed-service-principal.md) da kullanabilirsiniz. Örneğin, hizmet sorumlusu veri kümesi sahibi olabilir.
 >* Bulut veri kaynakları ve bunlara karşılık gelen kimlik bilgileri kullanıcı düzeyinde yönetilir.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Veri kaynakları için kimlik bilgisi akışını güncelleştirme
