@@ -3,29 +3,22 @@ title: Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 description: Azure Active Directory uygulama hizmet sorumlusu ve sertifika kullanarak ekli analizin kimliğini doğrulamayı öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 10/15/2020
-ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.date: 11/23/2020
+ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197783"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514436"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
-
->[!NOTE]
->Arka uç hizmetlerinizin güvenliğini, gizli diziler yerine sertifikaları kullanarak sağlamanızı öneririz. [Gizli dizileri veya sertifikaları kullanarak Azure AD’den erişim belirteçlerini alma hakkında daha fazla bilgi edinin](/azure/architecture/multitenant-identity/client-assertion).
-
-## <a name="certificate-based-authentication"></a>Sertifika tabanlı kimlik doğrulaması
-
-Sertifika tabanlı kimlik doğrulaması, Azure Active Directory (Azure AD) kullanılarak Windows, Android veya iOS cihazda bulunan ya da bir [Azure Key Vault](/azure/key-vault/basic-concepts)’ta tutulan bir istemci sertifikasıyla kimliğinizin doğrulanmasına olanak tanır.
+Sertifika tabanlı kimlik doğrulaması, Azure Active Directory (Azure AD) kullanılarak Windows, Android veya iOS cihazda bulunan ya da bir [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)’ta tutulan bir istemci sertifikasıyla kimliğinizin doğrulanmasına olanak tanır.
 
 Bu kimlik doğrulaması yönteminin kullanılması, döndürme veya iptal için CA kullanılarak merkezi bir yerden sertifikaların yönetilmesine olanak verir.
 
@@ -33,50 +26,24 @@ Azure AD’de [İstemci kimlik bilgisi akışları](https://github.com/AzureAD/m
 
 ## <a name="method"></a>Yöntem
 
-Ekli analizlerle hizmet sorumlusunu ve sertifika kullanmak için şu adımları izleyin:
+1. [İçeriğinizi hizmet sorumlusuyla ekleme](embed-service-principal.md).
 
-1. Azure AD uygulaması oluşturun.
+2. [Sertifika oluşturma](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-2. Bir Azure AD güvenlik grubu oluşturun.
+3. [Sertifikası kimlik doğrulaması ayarlama](embed-service-principal-certificate.md#step-3---set-up-certificate-authentication).
 
-3. Power BI hizmeti yönetici ayarlarını etkinleştirin.
+4. [Sertifikayı Azure Key Vault’tan alma](embed-service-principal-certificate.md#step-4---get-the-certificate-from-azure-key-vault).
 
-4. Hizmet sorumlusunu çalışma alanınıza ekleyin.
+5. [Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapma](embed-service-principal-certificate.md#step-5---authenticate-using-service-principal-and-a-certificate).
 
-5. Sertifika oluşturun.
+## <a name="step-1---embed-your-content-with-service-principal"></a>1\. Adım: İçeriğinizi hizmet sorumlusuyla ekleme
 
-6. Sertifikası kimlik doğrulaması ayarlayın.
+İçeriğinizi hizmet sorumlusuyla eklemek için [Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](embed-service-principal.md) sayfasındaki yönergeleri izleyin.
 
-7. Azure Key Vault’tan bir sertifikayı alın.
+>[!NOTE]
+>Hizmet sorumlusu kullanılarak eklenmiş olan içeriğiniz varsa bu adımı atlayıp [2. adıma](embed-service-principal-certificate.md#step-2---create-a-certificate) geçin.
 
-8. Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapın.
-
-## <a name="step-1---create-an-azure-ad-application"></a>1\. Adım: Azure AD uygulaması oluşturma
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell kullanarak Azure AD uygulaması oluşturma
-
-Bu bölüm, [PowerShell](/powershell/azure/create-azure-service-principal-azureps) kullanarak yeni bir Azure AD uygulaması oluşturmaya yönelik örnek betik içerir.
-
-```powershell
-# The app ID - $app.appid
-# The service principal object ID - $sp.objectId
-# The app key - $key.value
-
-# Sign in as a user that's allowed to create an app
-Connect-AzureAD
-
-# Create a new Azure AD web application
-$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
-
-# Creates a service principal
-$sp = New-AzureADServicePrincipal -AppId $app.AppId
-```
-
-[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
-
-## <a name="step-5---create-a-certificate"></a>5\. Adım: Sertifika oluşturma
+## <a name="step-2---create-a-certificate"></a>2\. Adım: Sertifika oluşturma
 
 Güvenilir bir *Sertifika Yetkilisi*’nden bir sertifika temin edebilir veya kendiniz bir sertifika oluşturabilirsiniz.
 
@@ -130,15 +97,15 @@ Bu bölümde, [Azure Key Vault](/azure/key-vault/create-certificate) kullanılar
 
     ![CER biçiminde indir düğmesini gösteren ekran görüntüsü.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-6---set-up-certificate-authentication"></a>6\. Adım: Sertifika kimlik doğrulaması ayarlama
+## <a name="step-3---set-up-certificate-authentication"></a>3\. Adım: Sertifika kimlik doğrulaması ayarlama
 
 1. Azure AD uygulamanızda **Sertifikalar ve gizli diziler** sekmesine tıklayın.
 
      ![Azure portalında bir uygulamanın Sertifikalar ve gizli diziler bölmesini gösteren ekran görüntüsü.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. **Sertifikayı karşıya yükle**’ye tıklayın ve bu öğreticinin [ilk adımında](#step-5---create-a-certificate) oluşturup indirdiğiniz *.cer* dosyasını karşıya yükleyin. *.cer* dosyası ortak anahtarı içerir.
+2. **Sertifikayı karşıya yükle**’ye tıklayın ve bu öğreticinin [2. adımında](#step-2---create-a-certificate) oluşturup indirdiğiniz *.cer* dosyasını karşıya yükleyin. *.cer* dosyası ortak anahtarı içerir.
 
-## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>7\. Adım: Azure Key Vault’tan bir sertifikayı alma
+## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>4\. Adım: Azure Key Vault’tan bir sertifikayı alma
 
 Azure Key Vault’tan sertifikayı almak için Yönetilen Hizmet Kimliği’ni (MSI) kullanın. Bu işlem, hem ortak hem de özel anahtarları içeren *.pfx* sertifikasını almayı içerir.
 
@@ -165,7 +132,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>8\. Adım: Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapma
+## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>5\. Adım: Hizmet sorumlusu ve sertifika kullanarak kimlik doğrulaması yapma
 
 Azure Key Vault’a bağlanıp burada depolanan hizmet sorumlusunu ve sertifikayı kullanarak uygulamanızın kimliğini doğrulayabilirsiniz.
 
@@ -216,14 +183,12 @@ Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliğ
 
 4. Azure Key Vault’unuz erişimi olan hesabı ekleyin.
 
-[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
-
 ## <a name="next-steps"></a>Sonraki adımlar
 
 >[!div class="nextstepaction"]
 >[Uygulamayı kaydetme](register-app.md)
 
->[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 >[Müşterileriniz için Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
@@ -231,6 +196,3 @@ Ekli çözümünüzü oluştururken Visual Studio’yu Yönetilen Hizmet Kimliğ
 
 >[!div class="nextstepaction"]
 >[Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
->[!div class="nextstepaction"]
->[Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](embed-service-principal.md)
