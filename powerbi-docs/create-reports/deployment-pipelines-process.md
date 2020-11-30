@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668615"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514344"
 ---
 # <a name="understand-the-deployment-process"></a>Dağıtım işlemini anlama
 
@@ -286,6 +286,8 @@ Bu bölümde, dağıtım işlem hatlarındaki sınırlamaların çoğu listeleni
 * Raporlar ve panolar gibi Power BI [duyarlılık etiketlerine](../admin/service-security-sensitivity-label-overview.md) sahip olan Power BI öğeleri dağıtılamaz.
 
 * Tek bir dağıtımda en fazla 300 Power BI öğesi dağıtılabilir.
+
+* PBIX dosyasını dağıtımdan sonra indirme işlemi desteklenmez.
 
 * Çalışma alanı sınırlamalarının listesi için bkz. [çalışma alanı atama sınırlamaları](deployment-pipelines-get-started.md#workspace-assignment-limitations).
 

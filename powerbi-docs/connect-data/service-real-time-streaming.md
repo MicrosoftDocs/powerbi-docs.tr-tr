@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8ec7b228f17fc87dcaac6ae5e278dd2c99ab036d
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 6543f1246a3462f02aaae7d22b11ba35d3725c01
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116650"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012051"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği, gerçek zamanlı olarak veri akışı gerçekleştirmenizi ve panoları güncelleştirmenizi sağlar. Power BI'da oluşturulan tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyebilir ve güncelleştirebilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve diğer birçok zamana duyarlı veri toplayıcısı veya aktarıcısı olabilir.

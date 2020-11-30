@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719087"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947347"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -272,6 +272,16 @@ Bu ayarın etkinleştirilmesi, Azure Active Directory İşletmeler Arası (Azure
 
 Kullanıcının dış kullanıcıları kuruluşunuza davet edebilmesi için Azure Active Directory Konuk Davet Eden rolüne de sahip olması gerekir. Bu ayar yalnızca Power BI aracılığıyla davet etme özelliğini denetler. 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
+
+Azure AD B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
+
+Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin verme seçeneği gösterilir.
+
+![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+Yönetici portalında, hangi kullanıcıların kuruluşa dış kullanıcıları davet etme izni olduğunu da denetlersiniz. Ayrıntılar için bu makaledeki [Dış kullanıcılarla içerik paylaşma](#export-and-sharing-settings) bölümüne bakın.
+
 ### <a name="publish-to-web"></a>Web'de yayımla
 
 Power BI yöneticisi olarak **Web'de yayımla** ayarıyla kullanıcıların raporları web üzerinde yayımlamalarını sağlayacak ekleme kodları oluşturmalarına izin verebilirsiniz. Bu işlev, raporu ve verilerini web’deki herkesin kullanımına sunar. [Web’de yayımlama](../collaborate-share/service-publish-to-web.md) hakkında daha fazla bilgi edinin.
@@ -300,60 +310,73 @@ Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde far
 |Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum **Devre dışı** görünür|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
 
-### <a name="export-data"></a>Verileri dışarı aktarma
+### <a name="copy-and-paste-visuals"></a>Görselleri kopyala ve yapıştır
 
-Kuruluştaki kullanıcılar, bir kutucuktaki veya görselleştirmedeki verileri dışarı aktarabilir. Bu ayar Excel’de Çözümle, .csv dosyasına aktar, veri kümesi indirmeleri (.pbix) ve Power BI Hizmeti Live Connect özelliklerini denetler. [Kutucuktaki veya görseldeki verileri dışarı aktarma](../visuals/power-bi-visualization-export-data.md) hakkında daha fazla bilgi edinin.
+Kuruluştaki kullanıcılar, bir kutucuktaki görselleri veya rapor görsellerini kopyalayıp bunları dış uygulamalara statik görüntü olarak yapıştırabilir.
 
->[!NOTE]
-> Excel’e Aktar ayarı sunulmadan önce verilerin Excel dosyalarına aktarılmasını da bu ayar denetliyordu. Ayrıntılar için [Excel’e Aktar seçeneğinin altında yer alan nota](#export-to-excel) bakın.
-
-![Verileri dışarı aktarma ayarı](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-Aşağıdaki resimde kutucuktaki verileri dışarı aktarma seçeneği gösterilir.
-
-![Bir kutucuktaki verileri dışarı aktarma](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> **Verileri dışarı aktar** seçeneğinin devre dışı bırakılması, kullanıcıların [Excel'de Çözümle](../collaborate-share/service-analyze-in-excel.md) özelliğini ve Power BI hizmeti canlı bağlantısını kullanmasını da önler.
+![Görselleri kopyala ve yapıştır özelliğini etkinleştirme anahtarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>Excel'e aktar
 
 Kuruluştaki kullanıcılar, görselleştirmedeki verileri bir Excel dosyasına aktarabilir.
 
-![Excel’e Aktar ayarı](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![Excel’e aktar ayarının ekran görüntüsü](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> Excel’e Aktar ayarı sunulmadan önce verilerin Excel dosyalarına aktarılmasını da bu ayar denetliyordu. Bu nedenle, Power BI yöneticileri Excel’e Aktar ayarı sunulmadan önce oluşturulan kiracılarda Excel’e Aktar ayarına ilk kez baktığında, bunun *Uygulanmamış değişikler* içerdiğini görür. Yeni ayarın etkili olması için bu değişiklikleri uygulamaları gerekir. Aksi takdirde, Verileri dışarı aktar ayarı Excel dosyasına aktarma özelliğini denetlemeye devam eder.
+### <a name="export-to-csv"></a>.csv dosyasına aktar
+
+Kuruluştaki kullanıcılar, kutucuk görselleştirmesindeki verileri veya sayfalandırılmış raporu bir .csv dosyasına aktarabilir.
+
+![.csv dosyasına aktar ayarının ekran görüntüsü](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>Raporları indir
+
+Kuruluştaki kullanıcılar .pbix dosyalarını ve sayfalandırılmış raporları indirebilir.
+
+![Raporları indir ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>Canlı bağlantılara izin ver
+
+Kuruluştaki kullanıcılar Power BI Live Connect hizmetini kullanabilir. Excel'de Analiz Et özelliği de buna dahildir.
+
+![Canlı bağlantılara izin ver ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktarma
 
-Kuruluştaki kullanıcılar, Power BI raporlarını PowerPoint dosyaları veya PDF belgeleri olarak dışarı aktarabilir. [Daha fazla bilgi](../consumer/end-user-powerpoint.md)
+Kuruluştaki kullanıcılar, raporları PowerPoint dosyaları veya PDF belgeleri olarak dışarı aktarabilir.
 
-Aşağıdaki resimde **Raporları PowerPoint sunuları veya PDF belgeleri olarak dışarı aktar** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilir.
+![Raporları PowerPoint veya PDF belgeleri olarak dışarı aktarma ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![Raporları PowerPoint sunumları olarak dışarı aktarma](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>Raporları MHTML belgesi olarak dışarı aktar
+
+Kuruluştaki kullanıcılar, Sayfalandırılmış raporları MHTML belgeleri olarak dışarı aktarabilir.
+
+![MHTML belgesi olarak dışarı aktar ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>Raporları Word belgesi olarak dışarı aktar
+
+Kuruluştaki kullanıcılar, Sayfalandırılmış raporları Word belgeleri olarak dışarı aktarabilir.
+
+![Word belgesi olarak dışarı aktar ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>Raporları XML belgesi olarak dışarı aktar
+
+Kuruluştaki kullanıcılar, Sayfalandırılmış raporları XML belgeleri olarak dışarı aktarabilir.
+
+![XML belgesi olarak dışarı aktar ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>Raporları görüntü dosyası olarak dışarı aktar (önizleme)
+
+Kuruluştaki kullanıcılar, raporları görüntü dosyaları olarak dışarı aktarmak için raporu dosyaya aktarma API'sini kullanabilir.
+
+![Görüntü olarak dışarı aktar ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>Panoları ve raporları paylaşma
 
-Kuruluştaki kullanıcılar panoları ve raporları yazdırabilir. [Daha fazla bilgi](../consumer/end-user-print.md)
 
-Aşağıdaki görüntüde panoya yazdırma seçeneği gösterilmiştir.
+![Panoları ve raporları paylaşma ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![Panoyu yazdır](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-Aşağıdaki görüntüde **Panoları ve raporları yazdırın** ayarı etkinleştirildiğinde raporun **Dosya** menüsü gösterilmiştir.
-
-![Rapor yazdırma](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver
-
-Azure AD B2B konuk kullanıcıları kuruluş içeriklerini düzenleyebilir ve yönetebilir. [Daha fazla bilgi](service-admin-azure-ad-b2b.md)
-
-Aşağıdaki resimde Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin verme seçeneği gösterilir.
-
-![Harici konuk kullanıcıların kuruluş içeriklerini düzenlemelerine ve yönetmelerine izin ver](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-Yönetici portalında, hangi kullanıcıların kuruluşa dış kullanıcıları davet etme izni olduğunu da denetlersiniz. Ayrıntılar için bu makaledeki [Dış kullanıcılarla içerik paylaşma](#export-and-sharing-settings) bölümüne bakın.
+### <a name="certification"></a>Sertifikasyon
+Bu kuruluştaki kullanıcıların veri kümelerini, veri akışlarını, raporları ve uygulamaları onaylamalarına izin verin. Ayrıntılar için bkz. [İçerik onayını etkinleştirme](service-admin-setup-certification.md).
 
 ### <a name="email-subscriptions"></a>E-posta Abonelikleri
 Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](../collaborate-share/service-publish-to-web.md) hakkında daha fazla bilgi edinin.
@@ -367,6 +390,25 @@ Kuruluşunuzdaki rapor yazarlarının bazılarının veya tümünün içerikleri
 Önce küçük bir dizi destekleyenle başlanmasını öneririz. Tüm kuruluşun Giriş Sayfasında içeriği öne çıkarmasına izin verilmesi, tüm tanıtılan içeriğin takip edilmesini zorlaştırabilir. 
 
 Öne çıkan içeriği etkinleştirdikten sonra, Yönetici portalından da yönetebilirsiniz. Etki alanınızda öne çıkan içeriği denetleme hakkında bilgi edinmek için bu makalede [Öne çıkan içeriği yönetme](#manage-featured-content) bölümüne bakın.
+
+### <a name="allow-connections-to-featured-tables"></a>Öne çıkan tablolara yönelik bağlantılara izin ver
+
+Bu ayar Power BI yöneticilerinin, Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kimlerin kullanabileceğini denetlemesini sağlar. 
+
+![Öne çıkan tablolara yönelik bağlantılara izin ver ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>[Canlı bağlantılara izin ver](#allow-live-connections) ayarı devre dışı bırakıldığında öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
+
+[Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) hakkında daha fazla bilgi edinin.
+
+### <a name="share-to-teams"></a>Teams’de Paylaş
+
+Bu ayar kuruluşların Power BI hizmetinde **Teams'de Paylaş** düğmelerini gizlemesine olanak tanır. Devre dışı olarak ayarlandığında, Power BI hizmetinde raporları ve panoları görüntüleyen kullanıcılar eylem çubuğunda veya bağlam menülerinde **Teams’de Paylaş** düğmelerini görmez.
+
+![Power B I yönetici portalında Teams'de Paylaş kiracı ayarının ekran görüntüsü.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+[Power BI içeriğini Teams'de paylaşma](../collaborate-share/service-share-report-teams.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="content-pack-and-app-settings"></a>İçerik paketi ve uygulama ayarları
 
@@ -388,12 +430,9 @@ Rapor oluşturucular, kullanıcıların [AppSource](https://appsource.microsoft.
 
 ## <a name="integration-settings"></a>Tümleştirme ayarları
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle Excel'de Çözümle özelliğini kullanma
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle XMLA uç noktalarına ve Excel'de Çözümle özelliğine izin ver
 
-Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. [Daha fazla bilgi](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> **Verileri dışarı aktar** seçeneğinin devre dışı bırakılması, kullanıcıların **Excel'de Çözümle** özelliğini kullanmasını da engeller.
+Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. Bu ayar ayrıca XMLA uç noktalarıyla bağlantı kurulmasına izin verir. [Daha fazla bilgi edinin](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI kullanma
 
@@ -402,24 +441,6 @@ Kuruluştaki kullanıcılar, Esri tarafından sağlanan ArcGIS Maps for Power BI
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI için genel aramayı kullanma (Önizleme)
 
 Kuruluşunuzdaki kullanıcılar, Azure Search kullanan dış arama özelliklerinden yararlanabilir.
-
-## <a name="featured-tables-settings"></a>Öne çıkan tablo ayarları
-
-**Kiracı ayarları** bölümündeki **Öne çıkan tablolara yönelik bağlantılara izin ver** ayarı, Power BI yöneticilerinin Excel Veri Türleri Galerisi’ndeki öne çıkan tabloları kuruluşta kullanabilecek kişileri denetlemelerini sağlar. 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Öne çıkan tablolara yönelik tüm bağlantılar":::
-
-**Verileri dışarı aktar** ayarı **Devre dışı** olarak ayarlandıysa öne çıkan tablolara yönelik bağlantılar da devre dışı bırakılır.
-
-[Excel’de öne çıkan Power BI tabloları](../collaborate-share/service-excel-featured-tables.md) hakkında daha fazla bilgi edinin.
-
-## <a name="share-to-teams-tenant-setting"></a>Teams’de Paylaş kiracı ayarı
-
-**Teams'de Paylaş** ayarı Power BI yönetici portalının **Kiracı ayarları** bölümünde yer alır. Ayar kuruluşların Power BI hizmetinde **Teams'de Paylaş** düğmelerini gizlemesine olanak tanır. Devre dışı olarak ayarlandığında, Power BI hizmetinde raporları ve panoları görüntüleyen kullanıcılar eylem çubuğunda veya bağlam menülerinde **Teams’de Paylaş** düğmelerini görmez.
-
-![Power B I yönetici portalında Teams'de Paylaş kiracı ayarının ekran görüntüsü.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-[Power BI içeriğini Teams'de paylaşma](../collaborate-share/service-share-report-teams.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="r-visuals-settings"></a>R görseli ayarları
 
@@ -462,7 +483,7 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="web-content-on-dashboard-tiles"></a>Pano kutucuklarında web içeriği
 
-Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi edinin](../create-reports/service-dashboard-add-widget.md)
+Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi](../create-reports/service-dashboard-add-widget.md)
 
 > [!NOTE]
 > Bu, kuruluşunuzu kötü amaçlı web içerikleri aracılığıyla güvenlik risklerine açık hale getirebilir.

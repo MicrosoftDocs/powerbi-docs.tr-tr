@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681001"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513861"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -136,13 +136,13 @@ Günlüklere erişmek için öncelikle Power BI'da günlüğe kaydetme özelliğ
 
 Power BI denetim günlüklerine doğrudan [Office 365 Güvenlik ve Uyumluluk Merkezi](https://sip.protection.office.com/#/unifiedauditlog)'nden erişebilirsiniz. Power BI yönetici portalında doğrudan bir bağlantı da mevcuttur:
 
-1. Power BI'da sağ üst köşedeki **dişli simgesini** ve ardından **Yönetici portalı** 'nı seçin.
+1. Power BI'da sağ üst köşedeki **dişli simgesini** ve ardından **Yönetici portalı**'nı seçin.
 
    ![Yönetim portalı seçeneği öne çıkarılmış dişli açılan menüsünün ekran görüntüsü.](media/service-admin-auditing/powerbi-admin.png)
 
-1. **Denetim günlükleri** 'ni seçin.
+1. **Denetim günlükleri**'ni seçin.
 
-1. **Microsoft 365 Yönetim Merkezi’ne gidin** ’i seçin.
+1. **Microsoft 365 Yönetim Merkezi’ne gidin**’i seçin.
 
    ![Denetim günlükleri seçeneği ve Microsoft 365 Yönetim Merkezi’ne Git seçeneklerinin öne çıkarıldığı Yönetim portalı ekran görüntüsü.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -152,7 +152,7 @@ Aşağıdaki adımları izleyerek sonuçları yalnızca Power BI etkinlikleriyle
 
 1. **Denetim günlüğü arama** sayfasının **Ara** bölümünde **Etkinlikler** açılan menüsünü seçin.
 
-2. **Power BI etkinlikleri** 'ni seçin.
+2. **Power BI etkinlikleri**'ni seçin.
 
    ![Power BI etkinliklerinin vurgulandığı Denetim günlüğü aramasının ekran görüntüsü.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -176,7 +176,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 
 ### <a name="view-search-results"></a>Arama sonuçlarını görüntüleme
 
-**Ara** ’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
+**Ara**’yı seçtikten sonra arama sonuçları yüklenir. Birkaç dakika sonra **Sonuçlar** altında gösterilir. Arama tamamlandığında bulunan sonuç sayısı ekranda gösterilir. **Denetim günlüğü araması** en fazla 1000 olay gösterir. Arama ölçütlerine uyan 1000’den fazla olay varsa, uygulama en yeni 1000 olayı gösterir.
 
 #### <a name="view-the-main-results"></a>Ana sonuçları görüntüleme
 
@@ -195,7 +195,7 @@ Denetim günlüğü girişlerinde, gerçekleştirilen etkinlikler için belirli 
 
 Bir olay hakkında daha fazla ayrıntı görüntülemek için arama sonuçlarında olay kaydını seçin. Olay kaydının ayrıntılı özelliklerini içeren **Ayrıntılar** sayfası görüntülenir. **Ayrıntılar** sayfasında, olayın gerçekleştiği Microsoft 365 hizmetine bağlı olarak özellikler gösterilir.
 
-Bu bilgileri görüntülemek için **Daha fazla bilgi** 'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
+Bu bilgileri görüntülemek için **Daha fazla bilgi**'yi seçin. Tüm Power BI girişlerinin RecordType özelliği 20 değerine sahiptir. Diğer özellikler hakkında bilgi için bkz. [Denetim günlüğündeki ayrıntılı özellikler](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
    ![Daha fazla bilgi seçeneği öne çıkarılmış denetim ayrıntıları iletişim kutusunun ekran görüntüsü.](media/service-admin-auditing/audit-details.png)
 
@@ -203,9 +203,9 @@ Bu bilgileri görüntülemek için **Daha fazla bilgi** 'yi seçin. Tüm Power B
 
 Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için aşağıdaki adımları izleyin.
 
-1. **Sonuçları dışarı aktar** 'ı seçin.
+1. **Sonuçları dışarı aktar**'ı seçin.
 
-1. **Yüklenen sonuçları kaydet** 'i veya **Tüm sonuçları indir** 'i seçin.
+1. **Yüklenen sonuçları kaydet**'i veya **Tüm sonuçları indir**'i seçin.
 
     ![Tüm sonuçları indir seçeneğinin vurgulandığı, Sonuçları dışarı aktar seçeneğinin ekran görüntüsü.](media/service-admin-auditing/export-auditing-results.png)
 
@@ -276,6 +276,9 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI ağ geçidi oluşturma                          | CreateGateway                               |                                          |
 | Power BI grubu oluşturuldu                            | CreateGroup                                 |                                          |
 | Power BI raporu oluşturuldu                           | CreateReport <sup>1</sup>                                |                                          |
+| Power BI şablon uygulaması çalışma alanı oluşturma | CreateTemplateApp   |
+| Power BI şablon uygulaması yükleme anahtarı oluşturma | CreateTemplateAppInstallTicket |
+| Power BI şablon uygulaması paketi oluşturma | CreateTemplateAppPackage |
 | Özel görsel Azure AD erişim belirteci istedi                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | Özel görsel Office Web Uygulamaları erişim belirteci istedi                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Veri akışı dış depolama hesabına geçirildi     | DataflowMigratedToExternalStorageAccount    | Şu anda kullanılmıyor                       |
@@ -294,6 +297,8 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI ağ geçidi silme                          | DeleteGateway                               |                                          |
 | Power BI grubu silindi                            | DeleteGroup                                 |                                          |
 | Power BI raporu silindi                           | DeleteReport                                |                                          |
+| Power BI şablon uygulaması çalışma alanı silindi | DeleteTemplateApp |
+| Power BI şablon uygulaması paketi silindi | DeleteTemplateAppPackage |
 | Bir işlem hattı aşamasına dağıtılır                           | DeployAlmPipeline                                |                                          |
 | Power BI veri kümesi veri kaynakları keşfedildi          | GetDatasources                              |                                          |
 | Power BI raporu indirme                        | DownloadReport                              |                                          |
@@ -306,6 +311,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI veri akışı dışarı aktarıldı                        | ExportDataflow                              |                                          |
 | Power BI raporu görsel verileri dışarı aktarıldı              | ExportReport                                |                                          |
 | Power BI kutucuk verileri dışarı aktarıldı                       | ExportTile                                  |                                          |
+| Power BI şablon uygulaması paketi çalışma alanında ayıklandı | ExtractTemplateAppPackage |
 | Veri akışı izinleri eklenemedi                | FailedToAddDataflowPermissions              | Şu anda kullanılmıyor                       |
 | Veri akışı izinleri kaldırılamadı             | FailedToRemoveDataflowPermissions           | Şu anda kullanılmıyor                       |
 | Power BI veri akışı SAS belirteci oluşturuldu             | GenerateDataflowSasToken                    |                                          |
@@ -313,10 +319,12 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Ekran görüntüsü oluşturuldu                       | GenerateScreenshot |                     |
 | Dosya Power BI'a aktarıldı                         | İçeri Aktar                                      |                                          |
 | Power BI uygulaması yüklendi                            | InstallApp                                  |                                          |
+| Power BI şablon uygulaması yüklendi | InstallTemplateApp |
 | Çalışma alanı bir kapasiteye geçirildi                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Power BI açıklaması gönderildi                           | PostComment                                 |                                          |
 | Power BI panosu yazdırıldı                        | PrintDashboard                              |                                          |
 | Power BI rapor sayfası yazdırıldı                      | PrintReport                                 |                                          |
+| Power BI şablon uygulaması paketi yükseltildi | PromoteTemplateAppPackage |
 | Power BI raporu web'de yayımlandı                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Yayımlanmış veya güncelleştirilmiş öne çıkan tablolar | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault'tan Power BI veri akışı gizli dizisi alındı  | ReceiveDataflowSecretFromKeyVault           |                                          |
@@ -348,6 +356,7 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Kapasitenin görünen adı güncelleştirildi                     | UpdateCapacityDisplayName                   |                                          |
 | Veri akışı depolama alanı atama izinleri güncelleştirildi   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Dağıtım işlem hattı erişimi güncelleştirilir   | UpdateAlmPipelineAccess |                                          |
+| Power BI şablon uygulaması parametreleri güncelleştirildi ve yüklendi | UpdateInstalledTemplateAppParameters |
 | Dağıtım işlem hattı yapılandırması güncelleştirilir   | SetConfigurationAlmPipeline |                                          |
 | Kuruluşun Power BI ayarları güncelleştirildi          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI uygulaması güncelleştirildi                              | UpdateApp                                   |                                          |
@@ -358,6 +367,8 @@ Hem denetim hem de etkinlik günlüklerinde aşağıdaki işlemler kullanılabil
 | Power BI klasörü güncelleştirildi                           | UpdateFolder                                |                                          |
 | Power BI klasörüne erişim güncelleştirildi                    | UpdateFolderAccess                          |                                          |
 | Power BI ağ geçidi veri kaynağı kimlik bilgileri güncelleştirildi  | UpdateDatasourceCredentials                 |                                          |
+| Power BI şablon uygulaması ayarları güncelleştirildi | UpdateTemplateAppSettings |
+| Power BI şablon uygulaması test erişimi izinleri güncelleştirildi | UpdateTemplateAppTestPackagePermissions |
 | Power BI panosu görüntülendi                         | ViewDashboard                               |                                          |
 | Power BI veri akışı görüntülendi                          | ViewDataflow                                |                                          |
 | Power BI raporu görüntülendi                            | ViewReport                                  |                                          |

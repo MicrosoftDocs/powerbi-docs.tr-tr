@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d218a0cfb66e57e6f52301f8c10bef5cfb137b4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 340a4739065716e67f9fd1a7d7b78f875805f12b
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361877"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946921"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI için desteklenen tarayıcılar
 
-Power BI, desteklenen bu tarayıcıların tümüyle çalışacak şekilde tasarlanmıştır. Ancak, tercih ettiğiniz tarayıcıya göre performans farkı yaşayabilirsiniz. Özellikle, Internet Explorer kullanıyorsanız daha kötü performansla karşılaşabilirsiniz. Daha iyi performans almak için Internet Explorer’dan Microsoft Edge gibi daha modern bir tarayıcıya geçiş yapmanızı öneririz. Microsoft Edge’in sunduğu performansın Edge Chromium ile gelişmeye devam edeceğini düşünüyoruz. Hala kabul edilemez düzeyde performans alıyorsanız, desteklenen diğer modern tarayıcıları test edip Power BI çözümünüz için daha iyi sonuç verip vermediklerini öğrenin.
+Power BI, desteklenen bu tarayıcıların tümüyle çalışacak şekilde tasarlanmıştır. Ancak, tercih ettiğiniz tarayıcıya göre performans farkı yaşayabilirsiniz. Özellikle, Internet Explorer kullanıyorsanız daha kötü performansla karşılaşabilirsiniz. Internet Explorer’dan Microsoft Edge gibi daha modern bir tarayıcıya geçiş yapmanızı öneririz. Hala kabul edilemez düzeyde performans alıyorsanız, desteklenen diğer modern tarayıcıları test edip Power BI çözümünüz için daha iyi sonuç verip vermediklerini öğrenin.
 
 Power BI, bu tarayıcıları kullanılabildikleri tüm platformlarda destekler:
 

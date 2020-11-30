@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861188"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012003"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Power BI Rapor Sunucusu'na yönelik geliştirici el kitabına genel bakış
 
@@ -42,7 +42,13 @@ Power BI Rapor Sunucusu ile etkileşim kurmak için kullanabileceğiniz birçok 
 Rapor sunucunuzu yönetmek için açık kaynak [PowerShell yardımcı programlarını](https://github.com/Microsoft/ReportingServicesTools) da kullanabilirsiniz.
 
 > [!NOTE]
-> PowerShell yardımcı programları şu anda Power BI Desktop dosyalarını (.pbix) desteklememektedir.
+> PowerShell yardımcı programları, Power BI Desktop dosyalarını (.pbix) -RsRest* komutları aracılığıyla destekler.
+
+ReportingServicesTools PowerShell modülünde Power BI Desktop dosyalarını (.pbix) destekleyen komutları bulmak için aşağıdaki komutu çalıştırın.
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>Özel uzantılar
 

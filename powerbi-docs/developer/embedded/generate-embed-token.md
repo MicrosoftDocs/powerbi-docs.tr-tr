@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 24442f20a0c713deb489cd2461839f2b5da39a30
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: cea97f16cf06e80b7b16ef7740fcf3103b2f1eb4
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197714"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513792"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>Ekleme belirteci oluştururken dikkate alınması gerekenler
 
@@ -131,4 +131,4 @@ Tabloda ayrıca her bir RLS türüyle ilgili önemli noktalar ve sınırlamalar 
 >[Hizmet sorumlusuyla şirket içi veri ağ geçidinde satır düzeyi güvenlik kullanma](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
 
 >[!div class="nextstepaction"]
->[Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme](embed-service-principal-certificate.md)
+>[Hizmet sorumlusuyla Power BI içeriği ekleme](embed-service-principal.md)

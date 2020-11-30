@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/12/2020
+ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668224"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012022"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
-Yalnızca Premium’da kullanılabilen özelliklere erişmek için Power BI Premium’u kullanabilir ve kuruluşunuzdaki Power BI içeriklerine yönelik daha yüksek ölçeklendirme ve performans sunabilirsiniz. Power BI Premium, kuruluşunuzdaki daha fazla kullanıcının daha iyi performans ve duyarlılık ile Power BI’dan en iyi şekilde yararlanmasını sağlar. Örneğin, Power BI Premium sayesinde siz ve kuruluşunuzdaki kullanıcılar şunları elde edersiniz:
+Yalnızca Premium’da kullanılabilen özelliklere erişmek için Power BI Premium’u kullanabilir ve kuruluşunuzdaki Power BI içeriklerine yönelik daha yüksek ölçeklendirme ve performans sunabilirsiniz. Power BI Premium, kuruluşunuzdaki daha fazla kullanıcının daha iyi performans ve duyarlılık ile Power BI’dan en iyi şekilde yararlanmasını sağlar. Örneğin, Power BI Premium sayesinde siz ve kuruluşunuzdaki kullanıcılar şu özellikleri elde edersiniz:
 
 > [!div class="checklist"]
 > * Power BI raporlarında daha yüksek ölçeklendirme ve performans
@@ -50,16 +50,16 @@ Premium 2. Nesil şu güncelleştirmeleri ve iyileştirilmiş deneyimleri sunar:
     * Daha az bellek kısıtlaması
     * Rapor etkileşimi ve zamanlanmış yenilemeler arasında eksiksiz ayrım
 
-* Boyutuna, işlenmeleri sırasında sistemdeki yük düzeyine vb. değil, yalnızca kapasitenin gerçekleştirdiği analiz işlemlerinin karmaşıklığına bağlı olan net ve normalleştirilmiş kapasite kullanım verilerine sahip **iyileştirilmiş ölçümler**. İyileştirilmiş ölçümler, kullanım analizi, bütçe planlaması, ücret yansıtma ve yükseltme gereksinimi yerleşik raporlama sayesinde net bir şekilde görülebilir. İyileştirilmiş ölçümler önizleme süresinde kullanıma sunulacak ve geliştirilecektir. 
+* Boyutuna, analiz işlemleri sırasında sistemdeki yük düzeyine veya diğer faktörlere değil, yalnızca kapasitenin gerçekleştirdiği analiz işlemlerinin karmaşıklığına bağlı olan net ve normalleştirilmiş kapasite kullanım verilerine sahip **iyileştirilmiş ölçümler**. İyileştirilmiş ölçümler, kullanım analizi, bütçe planlaması, ücret yansıtma ve yükseltme gereksinimi yerleşik raporlama sayesinde net bir şekilde görülebilir. İyileştirilmiş ölçümler önizleme süresinde kullanıma sunulacak ve geliştirilecektir.
 
-* Kapasitedeki yük kapasite sınırını aştığında **Otomatik Ölçeklendirme**,  24 saatlik süreler boyunca 1 sanal çekirdeğin *otomatik olarak eklenmesine* olanak sağlar ve böylece yük kaynaklı yavaşlamaları önler. Sanal çekirdekler, boşta süresi algılandığında otomatik olarak kaldırılır. Ek sanal çekirdeklerin ücreti Azure aboneliğinize, kullandıkça öde fiyatlandırması temel alınarak yansıtılır. Otomatik Ölçeklendirme, önizleme aşaması sırasında kullanıma sunulacaktır. 
+* Kapasitedeki yük kapasite sınırını aştığında **Otomatik Ölçeklendirme**, 24 saatlik süreler boyunca bir sanal çekirdeğin *otomatik olarak eklenmesine* olanak sağlar ve böylece yük kaynaklı yavaşlamaları önler. Sanal çekirdekler, boşta süresi algılandığında otomatik olarak kaldırılır. Ek sanal çekirdeklerin ücreti Azure aboneliğinize, kullandıkça öde fiyatlandırması temel alınarak yansıtılır. Otomatik Ölçeklendirme, önizleme aşaması sırasında kullanıma sunulacaktır. 
 
-* Kapasite kullanım düzeyi ve yük artışı hakkındaki proaktif ve yapılandırılabilir yönetici bildirimleri sayesinde önemli ölçüde **azalan yönetimi yükü**.
+* Kapasite kullanım düzeyi ve yük artışı hakkındaki proaktif ve yapılandırılabilir yönetici bildirimleri sayesinde **azalan yönetim yükü**.
 
 
 ### <a name="using-premium-gen2"></a>Premium 2. Nesil’i kullanma
 
-Güncelleştirmelerinden yararlanmak için Premium 2. Nesil’i etkinleştirmeniz gerekir. Premium 2. Nesil’i etkinleştirmek için aşağıdaki adımları izleyin:
+Güncelleştirmelerinden yararlanmak için Premium 2. Nesil’i etkinleştirin. Premium 2. Nesil’i etkinleştirmek için aşağıdaki adımları izleyin:
 
 1. Yönetici portalında **Kapasite ayarları**’na gidin.
 2. **Power BI Premium**’u seçin.
@@ -76,12 +76,17 @@ Aşağıdaki resimde, Premium 2. Nesil’i nasıl etkinleştirebileceğiniz gös
 
 1.  Premium 2. Nesil kapasite kullanımı ölçümler uygulamasında izlenemez.
 
-2.  Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz Yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
+2.  Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
 
-3.  ADLS 2. Nesil veri kaynaklarına sahip veri akışları şu anda Premium 2. Nesil kapasitelerinde çalışmaz.  
+3.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
 
-4.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
+4.  Premium 2. Nesil ile sunulan analiz hizmetleri özellikleri yalnızca en son istemci kitaplıklarında desteklenir. Bu gereksinimi desteklemeye yönelik bağımlı araçlar için tahmini çıkış tarihleri şunlardır:
 
+    |Araç|Gerekli en düşük sürüm|Tahmini çıkış tarihi|
+    |---|---|---|
+    |SQL Server Management Studio (SSMS)|18.8|8 Aralık 2020|
+    |SQL Server Veri Araçları (SSDT)|2.9.15|Genel kullanılabilirlik: 30 Kasım 2020|
+    | AS PowerShell| 21.1.18229 üzeri|26 Kasım 2020|
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 

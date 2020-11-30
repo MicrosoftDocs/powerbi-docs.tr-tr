@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 08/24/2020
+ms.date: 11/21/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916602"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514275"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI hizmetinin iş kullanıcılarına yönelik sözlük    
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.
@@ -31,7 +31,7 @@ Power BI’da oturum açmak için iş veya okul hesabınızı kullanın. Yöneti
 Power BI yöneticilerinin kendi kuruluşlarında Power BI için kullanıcıları, özellikleri ve ayarları yönettiği konum. (Not: Microsoft 365, Azure ve PowerApps, yönetim merkezini kullanır.)
 
 **aggregates (toplamlar)**     
-Birden çok satırdaki değerlerin, daha önemli bir anlam veya ölçüme ilişkin tek bir değer oluşturmak için belirli ölçütlerde giriş olarak bir araya getirilmesi.
+Birden çok satırdaki değerlerin, daha önemli bir anlam veya ölçüme ilişkin tek bir değer oluşturmak için belirli ölçütlerde giriş olarak bir araya getirilmesi. Yalnızca örtük ölçüler (tanım için aşağıya bakın) toplanabilir.
 
 **aggregation (toplama)**     
 Temel veri kaynaklarındaki satırların bir modele uyacak şekilde azaltılması. Sonuçta toplam elde edilir.
@@ -50,9 +50,6 @@ Panoları, raporları ve veri kümelerini içeren paket. Ayrıca içerik tüketi
 
 **ArcGIS for Power BI**    
 ArcGIS, ESRI şirketi tarafından oluşturulan bir haritalama ve analiz platformudur. Power BI görsel kitaplığına eklenen görselin adı ArcGIS for Power BI'dır.
-
-**assign (atamak)**     
-[Power BI Premium] Çalışma alanını bir kapasitenin içine veya dışına taşımayı açıklayan fiil. Çalışma alanını bir kapasiteye taşıma işlemi için yükseltme fiilini kullanmayın çünkü bu fiil ayrılmış kapasitenin paylaşılan kapasiteden üstün olduğuna ilişkin bir çağrışım yaratır. 
 
 **Auto Insights**    
 Adı *Hızlı İçgörüler* olarak değiştirildi.
@@ -73,7 +70,7 @@ Raporlar ve panolar arasında hızla gezinmenize olanak tanıyan sol üst kısı
 Bir şeyin boyutunun veya sayısının matematiksel saptaması.
 
 **Kapasite**    
-[Power BI Premium] Her ölçekte tutarlı bir performans sağlamaya yardımcı olmak için Microsoft bulut veri merkezlerindeki ayrılmış donanımlarda çalıştırılan veri modelleri. BI çözümleri, Power BI lisansına bakılmaksızın kuruluşun tamamına sunulur.
+[Power BI Premium] Her ölçekte tutarlı bir performans sağlamaya yardımcı olmak için Microsoft bulut veri merkezlerinde bulunan ve tamamen Microsoft tarafından yönetilen donanımlarda çalıştırılan veri modelleri. BI çözümleri, Power BI lisansına bakılmaksızın kuruluşun tamamına sunulur.
 
 **card (kart)** (görsel türü)    
 Bir Power BI [görsel türü](end-user-visual-type.md).
@@ -91,7 +88,7 @@ Veri sınıflandırma olarak da adlandırılır. Bu seçenek, Power BI yönetici
 SQL Server Analysis Services veri modellerine bağlanma yöntemi. Canlı bağlantı olarak da adlandırılır.
 
 **container (kapsayıcı)**     
-*Kapsayıcılar* , gezinti bölmesindeki alanlardır. Gezinti bölmesinde şunlar için kapsayıcılar bulabilirsiniz: Sık Kullanılanlar, En Son, Uygulamalar, Benimle paylaşılan ve Giriş. 
+*Kapsayıcılar*, gezinti bölmesindeki alanlardır. Gezinti bölmesinde şunlar için kapsayıcılar bulabilirsiniz: Sık Kullanılanlar, En Son, Uygulamalar, Benimle paylaşılan ve Giriş. 
 
 **content (içerik)**     
 Power BI hizmeti içeriği genellikle panolar, raporlar ve uygulamalardır. Ayrıca, çalışma kitaplarını ve veri kümelerini de içerebilir.
@@ -122,7 +119,7 @@ Topluluk ve Microsoft tarafından oluşturulan görseller. Bunlar Power BI rapor
 ## <a name="d"></a>D
 
 **dashboard (pano)**     
-Durumu ve ölçümleri iletmek için seçilmiş görseller. Pano, verileri kolay anlaşılır bir yolla düzenler ve gösterir.
+Power BI hizmetinde pano, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi düzenlenmiş bir pano bu hikayenin yalnızca en önemli öğelerini içerir. Panolar yalnızca Power BI hizmetinde oluşturulabilir ve görüntülenebilir; bu işlemler Power BI Desktop uygulamasında yapılamaz. Daha fazla bilgi için bkz. [temel kavramlar, panolar](end-user-basic-concepts.md).
 
 **data classification (veri sınıflandırması)**     
 Bkz. sınıflandırma
@@ -137,7 +134,7 @@ Power BI içeriğinde, veri modeli tablo biçimindeki veri yapılarının eşlem
 Veri akışları, veri kaynağı bağlantılarını, ETL mantığını, yenileme zamanlamalarını ve daha fazlasını tanımlayarak büyük verileri alır, dönüştürür, tümleştirir ve zenginleştirir. Eski adı veri havuzu.
 
 **dataset** vs **data source**   (veri kümesi ile veri kaynağının karşılaştırılması)  
-**Veri kümesi** , görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
+**Veri kümesi**, görselleştirmeler ve raporlar oluşturmak için kullanılan veri koleksiyonudur.
 
 **Desktop (Masaüstü)** veya **Power BI Desktop**    
 Genelde rapor tasarımcıları, yöneticiler ve geliştiriciler tarafından kullanılan Ücretsiz Power BI aracı. 
@@ -178,6 +175,9 @@ Power BI geliştirici teklifinde, Power BI REST API'lerini ve Power BI SDK'sın�
 
 [Power BI Desktop, Power BI Mobil, Power BI hizmeti vb.] Power BI araçlarından birine başvurma yollarından biri. Power BI ortamı (kiracısı), kiracı terimine alışkın olan iş analistlerinin ikisinin ayrı şey olduğunu anlamalarına yardımcı olmak için kullanılabilir.
 
+**explicit measures (açık ölçüler)**     
+Power BI'da açık ölçüler ve örtük ölçüler (tanım için aşağıya bakın) kullanılır. Açık ölçüler, rapor tasarımcıları tarafından oluşturulur ve veri kümesiyle birlikte kaydedilir. Bu ölçüler Power BI'da alan olarak görüntülenir ve bu nedenle tekrar tekrar kullanılabilir. Örneğin bir rapor tasarımcısı, tüm fatura tutarlarını toplayan *TotalInvoice* adlı bir açık ölçü oluşturabilir. Bu veri kümesini kullanan ve rapor için düzenleme erişimine sahip olan iş arkadaşları bu alanı seçip görsel oluşturmak için kullanabilir. Açık ölçüler rapor tuvaline eklendiğinde veya sürüklendiğinde Power BI toplama gerçekleştirmez.  Açık ölçü oluşturmak için veri kümesinde düzenleme erişimine sahip olmanız gerekir. 
+
 ## <a name="f"></a>F
 
 **favorite, unfavorite (sık kullanılanlara ekleme, sık kullanılanlardan çıkarma)**
@@ -216,6 +216,9 @@ Power BI hizmetinin kullanıcıları için varsayılan giriş sayfası. Her şey
 
 ## <a name="i"></a>I
 
+**implicit measures (örtük ölçüler)**     
+Power BI'da örtük ölçüler ve açık ölçüler (tanım için yukarıya bakın) kullanılır. Örtük ölçüler dinamik olarak oluşturulur.  Örneğin görsel oluşturmak için bir alanı rapor tuvaline sürüklediğinizde oluşturulur. Power BI, yerleşik standart toplama işlemlerinden birini (SUM, COUNT, MIN, AVG vb.) kullanarak değeri otomatik olarak toplar. Örtük ölçü oluşturmak için raporda düzenleme erişimine sahip olmanız gerekir. 
+
 **insights (içgörüler)**     
 Bkz. **hızlı içgörüler**.
 
@@ -241,7 +244,7 @@ Erişim düzeyiniz hesabınızla ilişkili Power BI lisansı ve içeriğin depol
 
 Ücretsiz veya Pro bir lisans kullanıcıya atanır. Lisans, nasıl edinildiğine bağlı olarak ücretli veya ücretsiz olabilir. Hesaplar kullanıcı başına veya kuruluş hesapları olabilir. Kullanıcı başına hesapları *ücretsiz* veya *Pro* olarak sağlanır.  Power BI *ücretsiz* kullanıcısı tek başına Power BI Desktop’ı veya tek başına Power BI hizmetini ya da Premium kuruluş aboneliğine sahip bir kuruluştaki Power BI hizmetini kullanıyordur. Power BI kullanıcı başına *Pro* hesabı ücretli bir aylık aboneliktir. Diğer *Pro* kullanıcılarıyla işbirliğine ve içerik paylaşımına olanak tanır. 
 
-Kuruluş *Premium* ( *Premium kapasite* olarak da bilinir) aboneliği, kullanıcı başına lisanslarının üzerinde bir özellik katmanı daha ekler. Örneğin kuruluşları *Premium* aboneliğe sahip olan *ücretsiz* kullanıcı başına lisansı sahipleri, *Premium* aboneliği olmayan *ücretsiz* kullanıcılarına göre Power BI’da çok daha fazla şey yapabilirler. Örneğin *Premium* kuruluş hesapları olan *ücretsiz* lisans kullanıcıları, iş arkadaşlarıyla işbirliği yapabilir ve Power BI Premium kapasitede barındırılan içeriği görüntüleyebilir. 
+Kuruluş *Premium* (*Premium kapasite* olarak da bilinir) aboneliği, kullanıcı başına lisanslarının üzerinde bir özellik katmanı daha ekler. Örneğin kuruluşları *Premium* aboneliğe sahip olan *ücretsiz* kullanıcı başına lisansı sahipleri, *Premium* aboneliği olmayan *ücretsiz* kullanıcılarına göre Power BI’da çok daha fazla şey yapabilirler. Örneğin *Premium* kuruluş hesapları olan *ücretsiz* lisans kullanıcıları, iş arkadaşlarıyla işbirliği yapabilir ve Power BI Premium kapasitede barındırılan içeriği görüntüleyebilir. 
 
 **list page (liste sayfası)** veya **content list (içerik listesi)**     
 Gezinti bölmesindeki öğeler için bölüm sayfalarından biri. Örneğin Sık Kullanılanlar, Son Kullanılanlar, Çalışma Alanım, vb.
@@ -304,7 +307,7 @@ Power BI özel görsellerinin dosya uzantısı.
 Power BI Desktop dosyalarının dosya uzantısı.
 
 **permissions (izinler)**     
-Kullanıcının Power BI'da neler yapabileceği ve yapamayacağı izinlere bağlıdır. *Tüketici* olarak, bir *tasarımcı* , yönetici veya geliştirici ile aynı izinlere sahip olmazsınız.
+Kullanıcının Power BI'da neler yapabileceği ve yapamayacağı izinlere bağlıdır. *Tüketici* olarak, bir *tasarımcı*, yönetici veya geliştirici ile aynı izinlere sahip olmazsınız.
 
 **phone report (telefon raporu)**     
 Telefonda görüntülenmek üzere biçimlendirilmiş Power BI raporunun adı.
@@ -315,8 +318,8 @@ Power BI hizmetinde telefon raporunun düzenini belirlemek için kullanıcı ara
 **pin, unpin (sabitleme, sabitlemeyi kaldırma)**     
 Rapor *tasarımcısının* (genelde bir rapordan alınan) görseli bir panoya yerleştirmesi eylemi.
 
-**Power BI** , **Power BI hizmeti** , **Power BI Desktop** , **Power BI mobil**    
-Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI* 'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
+**Power BI**, **Power BI hizmeti**, **Power BI Desktop**, **Power BI mobil**    
+Power BI tekliflerinden bazıları. Genel olarak kullanılan terim *Power BI*'dır. İlk geçtiği yerde *Power BI hizmeti* ve *Power BI mobil* gibi tam ürün adları belirtildikten sonra bu ürünler için Power BI kullanılır.
 
 **Power BI Desktop**    
 Bunlar, *Masaüstü* olarak da adlandırılır. Yerel bilgisayarınıza yükleyebileceğiniz ve verilerinize bağlanmanızı, verileri dönüştürmenizi ve verilerinizi görselleştirmenizi sağlayan ücretsiz Power BI Windows uygulaması. Rapor tasarımcıları ve yöneticiler tarafından kullanılır. Daha fazla bilgi için bkz. [Power BI nedir?](../fundamentals/power-bi-overview.md)
@@ -325,7 +328,7 @@ Bunlar, *Masaüstü* olarak da adlandırılır. Yerel bilgisayarınıza yükleye
 Geliştiricilerin kendi uygulamalarına, sitelerine ve araçlarına Power BI panolarını ve raporlarını eklemek için kullanılan ürün.
 
 **Power BI Premium**    
-Kuruluşların ayrılmış donanım satın alarak BI çözümlerini öngörülebilir bir yolla ölçeklendirmelerine olanak tanıyan Power BI Pro lisansı eklentisi. Bkz. *hesap*.
+Kuruluşların Microsoft bulutunda ayrılmış donanım satın alarak BI çözümlerini öngörülebilir bir yolla ölçeklendirmelerine olanak tanıyan Power BI Pro lisansı eklentisi. Bkz. *hesap*.
 
 **Power BI Pro**    
 Raporlar ve panolar oluşturmaya, paylaşılan veriler üzerinde işbirliği yapmaya, otomatik olarak verilerin güncelliğini korumaya, verilere erişimi denetlemeye ve yönetmeye, içeriği dağıtım için paketlemeye (Power BI uygulamaları) olanak sağlayan aylık kullanıcı başına lisansı. Bkz. *hesap*.
@@ -345,7 +348,7 @@ Kapasitede çalışan ve müşterilere baklava şeklinde bir simgeyle gösterile
 **Pro** lisansı veya **Pro** hesabı Bkz. *hesap*.
 
 **publish (yayımlama)**     
-Power BI hizmet raporu *tasarımcıları* , Power BI çalışma alanının içeriklerini diğerlerinin kullanımına sunmak için bunları Power BI uygulaması olarak birleştirir. Power BI Desktop raporu *tasarımcıları* , Power BI Desktop raporundan pano oluşturup bunu kolayca diğer kişilerle paylaşabilmek amacıyla raporu Power BI hizmetine .pbix biçiminde göndermeye başvurmak için yayımlama özelliğini kullanır. 
+Power BI hizmet raporu *tasarımcıları*, Power BI çalışma alanının içeriklerini diğerlerinin kullanımına sunmak için bunları Power BI uygulaması olarak birleştirir. Power BI Desktop raporu *tasarımcıları*, Power BI Desktop raporundan pano oluşturup bunu kolayca diğer kişilerle paylaşabilmek amacıyla raporu Power BI hizmetine .pbix biçiminde göndermeye başvurmak için yayımlama özelliğini kullanır. 
 
 ## <a name="q"></a>Q    
 **Q&A (Soru-Cevap)**     

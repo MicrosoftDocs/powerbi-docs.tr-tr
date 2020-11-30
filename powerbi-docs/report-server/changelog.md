@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 11/18/2020
+ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044771"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947036"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -23,6 +23,12 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
 ## <a name="october-2020"></a>Ekim 2020
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.9.7627.11028 (Derleme 15.0.1104.264), Yayın Tarihi: 18 Kasım 2020*
+        - Hata düzeltmeleri
+            - Kullanıcıların portal aracılığıyla site ayarlarındaki alanları değiştirmesini engelleyen sorun düzeltildi.
+            - "EnterData" veri kaynağı kullanılırken Power BI raporlarının yenilenmesiyle ilgili sorun düzeltildi.
+            - Gelişmiş veri kümesi meta verileri kullanan bazı modellerin yenilenmesiyle ilgili soru düzeltildi.
+            - Bazı Power BI raporlarının Rapor Sunucusu'na yayımlanmasına engel olan sorun düzeltildi.
     - *Sürüm: 1.9.7604.41261 (Derleme 15.0.1104.239), Yayın Tarihi: 27 Ekim 2020*
          - Özellikler
             - Power BI Rapor Sunucusu’ndaki gelişmiş veri kümesi meta verilerine yönelik destek kullanıma sunuldu.

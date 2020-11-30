@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136017"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946967"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 
@@ -32,7 +32,7 @@ Basitçe ifade etmek gerekirse Power BI ilişkileri, model tablolarının sütun
 
 Şimdi ilişkilerin filtreleri nasıl yaydığını animasyonlu bir örnekte görelim.
 
-![İlişki filtresi yayılmasının animasyonlu örneği](media/desktop-relationships-understand/animation-filter-propagation.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-filter-propagation.gif" alt-text="İlişki filtresi yayılmasının animasyonlu örneği.":::
 
 Bu örnekte model dört tablodan oluşmaktadır: **Kategori**, **Ürün**, **Yıl** ve **Satış**. **Kategori** tablosu **Ürün** tablosuyla, **Ürün** tablosu da **Satış** tablosuyla ilişkilendirilmiştir. **Yıl** tablosu da **Satış** tablosuyla ilişkilendirilmiştir. Tüm ilişkiler bir-çok türündedir (bu türle ilgili ayrıntılar bu makalenin ilerleyen bölümlerinde açıklanmaktadır).
 
@@ -150,7 +150,7 @@ Ancak bir Bileşik model, farklı depolama modları (İçeri aktarma, DirectQuer
 
 Şimdi bir Bileşik model örneğine göz atalım.
 
-![İki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="İki adadan oluşan Bileşik model örneği.":::
 
 Bu örnekteki Bileşik model, iki adadan oluşmaktadır: Vertipaq veri adası ve DirectQuery kaynağı veri adası. Vertipaq veri adasında üç tablo, DirectQuery kaynağı veri adasında ise iki tablo vardır. Vertipaq veri adasındaki bir tablo ile DirectQuery kaynağı veri adasındaki bir tablo arasında ilişki kuran bir adalar arası ilişki mevcuttur.
 
@@ -158,9 +158,9 @@ Bu örnekteki Bileşik model, iki adadan oluşmaktadır: Vertipaq veri adası ve
 
 Sorgu altyapısının ilişkinin "bir" tarafını belirleyebildiği model ilişkileri, _normal_ ilişki olarak kabul edilir. Bu durum, "bir" taraftaki sütunun benzersiz değerler içerdiğini onaylar. Bir-çok türündeki ada içi ilişkiler, normal ilişkilerdir.
 
-Aşağıdaki örnekte iki normal ilişki vardır ve ikisi de **S** harfiyle gösterilmiştir. İlişkiler, Vertipaq adası içinde yer alan Bir-çok ilişkisi ile DirectQuery kaynağında yer alan Bir-çok ilişkisini kapsamaktadır.
+Aşağıdaki örnekte iki normal ilişki vardır ve ikisi de **R** harfiyle gösterilmiştir. İlişkiler, Vertipaq adası içinde yer alan Bir-çok ilişkisi ile DirectQuery kaynağında yer alan Bir-çok ilişkisini kapsamaktadır.
 
-![Normal ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-strong.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Normal ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği.":::
 
 Tüm verilerin Vertipaq önbelleğinde depolandığı İçeri aktarma modellerinde, veriler yenilendiğinde her bir normal ilişki için bir veri yapısı oluşturulur. Veri yapıları, tüm sütunlar arası değerlerin dizinlenmiş eşleşmelerini içerir ve sorgu zamanında tabloların daha hızlı birleştirilmesini sağlamak için kullanılır.
 
@@ -177,7 +177,7 @@ Boş sanal satırlar, _Bilinmeyen Üyeler_ olarak adlandırılır. Bilinmeyen ü
 
 Tablo genişletme işleminin nasıl çalıştığını animasyonlu bir örnekle inceleyelim.
 
-![Tablo genişletme işleminin animasyonlu örneği](media/desktop-relationships-understand/animation-expanded-table.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-expanded-table.gif" alt-text="Tablo genişletme işleminin animasyonlu örneği.":::
 
 Bu örnekte model üç tablodan oluşmaktadır: **Kategori**, **Ürün** ve **Satış**. **Kategori** tablosu ile **Ürün** tablosu arasında Bir-çok ilişkisi, **Ürün** tablosu ile de **Satış** tablosu arasında Bir-çok ilişkisi vardır. **Kategori** tablosunda iki satır, **Ürün** tablosunda üç satır, **Satış** tablosunda ise beş satır vardır. Tüm ilişkilerin iki tarafında da eşleşen değerler vardır ve bu nedenle bilgi tutarlılığı ihlali mevcut değildir. Sorgu zamanında oluşturulan bir genişletilmiş tablo gösterilmektedir. Bu tablo, üç ayrı tablodan alınan tüm sütunları içermektedir. Bu tablo, üç tabloda yer alan verilerin normalleştirilmişlikten çıkarılmış bir perspektifini sunmaktadır. **Satış** tablosuna yeni bir satır eklenmiştir ve bu satırda **Ürün** tablosunda karşılığı bulunmayan üretim tanımlayıcısı değeri (9) mevcuttur. Bu bir bilgi tutarlılığı ihlalidir. Genişletilmiş tablodaki yeni satır (Boş), **Kategori** ve **Ürün** tablosundaki sütunların değerlerini içermektedir.
 
@@ -188,9 +188,9 @@ Bu örnekte model üç tablodan oluşmaktadır: **Kategori**, **Ürün** ve **Sa
 - İlişki Çok-çok kardinalite türünü kullanmaktadır (sütunların biri veya her ikisi benzersiz değer içeriyor olsa da)
 - Adalar arası ilişki vardır (Bileşik modellerde yalnızca bu ilişki türü kullanılabilir)
 
-Aşağıdaki örnekte iki sınırlı ilişki vardır ve ikisi de **W** harfiyle gösterilmiştir. İki ilişki, Vertipaq adası içinde yer alan Çok-çok ilişkisi ile Bir-çok adalar arası ilişkiyi kapsamaktadır.
+Aşağıdaki örnekte iki sınırlı ilişki vardır ve ikisi de **L** harfiyle gösterilmiştir. İki ilişki, Vertipaq adası içinde yer alan Çok-çok ilişkisi ile Bir-çok adalar arası ilişkiyi kapsamaktadır.
 
-![Sınırlı ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği](media/desktop-relationships-understand/data-island-example-weak.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Sınırlı ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği.":::
 
 İçeri aktarma modellerinde sınırlı ilişkiler için veri yapısı oluşturulmaz. Bu da tablo birleşimlerinin sorgu zamanında çözümlenmesi gerektiği anlamına gelir.
 
