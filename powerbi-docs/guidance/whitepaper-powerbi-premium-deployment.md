@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 70584413a63f8566137b5e71cdd86011ac6c1acc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916648"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416474"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium kapasiteleri dağıtma ve yönetme
 

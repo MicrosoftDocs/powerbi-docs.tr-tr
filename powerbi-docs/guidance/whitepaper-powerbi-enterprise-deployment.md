@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.topic: conceptual
 ms.date: 05/19/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7b7a3e457c21ce050b7c4a624771be1823cf2fe2
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 2299f10c8ee249c62c5dc9209b60a4627c835fdc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694279"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416497"
 ---
 # <a name="power-bi-enterprise-deployment-whitepaper"></a>Power BI kuruluş dağıtımı teknik incelemesi
 

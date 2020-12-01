@@ -5,20 +5,20 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635712"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398603"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
-**Özet:** Power BI, Microsoft 'un sunduğu ve kolayca self servis Iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (*SaaS*veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
+**Özet:** Power BI, Microsoft 'un sunduğu ve kolayca self servis Iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (*SaaS* veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
 **Yazıcı:** David Iyayma aygıtı
 
@@ -31,7 +31,7 @@ ms.locfileid: "91635712"
 
 ## <a name="introduction"></a>Giriş
 
-**Power BI** , Microsoft 'un sunduğu ve kolayca self servis iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (_SaaS_veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
+**Power BI** , Microsoft 'un sunduğu ve kolayca self servis iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (_SaaS_ veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
 Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/compliance/compliance-overview)'nde uyumluluk hakkında daha fazla bilgi edinin.
 

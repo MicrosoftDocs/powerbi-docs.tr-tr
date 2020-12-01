@@ -2,19 +2,19 @@
 title: Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 description: Power BI dış Konuk kullanıcılara dağıtmak için Azure Active Directory B2B 'nın nasıl kullanılacağını açıklayan Teknik İnceleme
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9bf2d1ab3b782d0fbb201e203aa9bb2f2df4079d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916901"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417106"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribute Power BI content to external guest users using Azure Active Directory B2B (Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma)
 
@@ -25,7 +25,7 @@ ms.locfileid: "92916901"
 **Teknik gözden geçirenler:** Adam Solson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> Tarayıcınızdan **Yazdır** ' ı seçerek ve ardından **PDF olarak kaydet** ' i seçerek bu teknik incelemeyi kaydedebilir veya yazdırabilirsiniz.
+> Tarayıcınızdan **Yazdır** ' ı seçerek ve ardından **PDF olarak kaydet**' i seçerek bu teknik incelemeyi kaydedebilir veya yazdırabilirsiniz.
 
 ## <a name="introduction"></a>Giriş
 
@@ -490,7 +490,7 @@ Konuk kullanıcılar salt okunurdur ve içeriği düzenleyebilir ve yönetebilir
 
 Bu kullanıcıların Power BI oturum açmasını sağlamak için kiracı URL 'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
-1. Power BI hizmeti, üst menüdeki yardım ( **?** )  **Power BI** .
+1. Power BI hizmeti, üst menüdeki yardım ( **?** )  **Power BI**.
 2. **Kiracı URL 'sinin** yanındaki değeri arayın. Bu, Konuk kullanıcılarınızla paylaşabileceğiniz kiracı URL 'sidir.
 
     ![Kiracı URL'si](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
