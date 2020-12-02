@@ -2,19 +2,19 @@
 title: Power BI raporlarındaki filtreler ve vurgulama
 description: Power BI raporlarındaki filtreler ve vurgulama hakkında
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 708d57f6092029b3c82412336b54fce1ae0ca441
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280760"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393589"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Power BI raporlarındaki filtreler ve vurgulama
  Bu makalede, Power BI hizmetindeki filtreleme ve vurgulama özellikleri tanıtılmaktadır. Power BI Desktop ile sunulan deneyim de neredeyse aynıdır. *Filtreler*, odaklanmak istedikleriniz dışındaki tüm verileri kaldırır. *Vurgulama*, filtreleme değildir. Bu işlev verileri kaldırmaz, bunun yerine görünen verilerin bir alt kümesini vurgular. Vurgulanmayan veriler görünür kalır ancak gridir.

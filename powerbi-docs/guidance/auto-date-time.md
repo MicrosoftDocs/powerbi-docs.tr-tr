@@ -2,19 +2,19 @@
 title: Power BI Desktop’ta otomatik tarih/saat kılavuzu
 description: Power BI Desktop'taki otomatik tarih/saat işlevini kullanma kılavuzu.
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: ed99c48aaef116f58ebff0d8026b37938a39de3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393623"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394601"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat kılavuzu
 

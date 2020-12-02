@@ -2,18 +2,18 @@
 title: Üstün Başarı Merkezi oluşturma
 description: Üstün Başarı Merkezi'nin doğru işletim modeli, paydaş etkileşimi, paylaşılan ve ayrılmış yatırımlar sayesinde Microsoft'un sahip olduğu verilerden içgörü elde etmesini sağlayacak standartlaştırılmış analiz ve veri platformu oluşturmasına nasıl yardımcı olduğunu öğrenin.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 90de33f85c0ede28b14e651414c311e4986a2172
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638624"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394578"
 ---
 # <a name="establish-a-center-of-excellence"></a>Üstün Başarı Merkezi oluşturma
 

@@ -3,19 +3,19 @@ title: Azure portalında Power BI Embedded kapasitesi oluşturma | Microsoft Doc
 description: Bu makalede Microsoft Azure'da Power BI Embedded kapasitesi oluşturma adımları anlatılmaktadır.
 author: KesemSharabi
 ms.author: kesharab
-ms.service: power-bi-embedded
-ms.subservice: ''
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 42dfe1a2032c7afe9eff354829fcc564e69e0d36
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718949"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395153"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 

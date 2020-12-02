@@ -2,18 +2,18 @@
 title: 'DAX: VALUES yerine SELECTEDVALUE kullanma'
 description: SELECTEDVALUE işlevlerinin ne zaman kullanılacağına yönelik rehber.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/20/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 3f80a4bf4d7b220192c81e9c567d676e60f5baf0
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 1925333b935209484855dff444542a20040a0f6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965048"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394233"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX: VALUES yerine SELECTEDVALUE kullanma
 

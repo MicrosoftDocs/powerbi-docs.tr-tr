@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta Bileşik model kılavuzu
 description: Bileşik modelleri geliştirme kılavuzu.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136224"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394394"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta Bileşik model kılavuzu
 

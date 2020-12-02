@@ -2,20 +2,20 @@
 title: Panonuza resim, metin, video ve daha fazlasını ekleme
 description: Kutucuk ekle pencere öğesini kullanarak panolara resim, video, metin kutusu, web kodu ve akış verileri eklemeye ilişkin belge.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 27c5dba205ee396a2415259163e5dbfb8df11037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916924"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395452"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Panonuza resim, metin, video ve daha fazlasını ekleme
 
@@ -50,19 +50,19 @@ Panonuza doğrudan bir resim, metin kutusu, video, akış verileri veya web kodu
 ## <a name="add-an-image"></a>Resim ekleme
 Panonuza şirket logonuzu veya farklı bir görüntüyü eklemek istiyorsanız, görüntü dosyasını çevrimiçi olarak kaydedip buna bağlamanız gerekir. Resim dosyasına erişmek için güvenlik kimlik bilgilerine gerek duyulmadığından emin olun. Örneğin, OneDrive ve SharePoint için kimlik doğrulaması gerektiği için bu hesaplarda depolanan görüntüler panoya bu yöntemle eklenemez.  
 
-1. **Kutucuk ekle** penceresinden **Görüntü** ’yü seçip  > **İleri** seçeneğini belirleyin.
+1. **Kutucuk ekle** penceresinden **Görüntü**’yü seçip  > **İleri** seçeneğini belirleyin.
 
 2. **Resim kutucuğu ekle** penceresine görüntü bilgilerini ekleyin:   
    
-   a. Görüntünün üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle** ’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
+   a. Görüntünün üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle**’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
 
-   b. Resim **URL** 'sini girin.
+   b. Resim **URL**'sini girin.
 
-   c. Kutucuğu köprü haline getirmek için **Özel bağlantı ayarlayın** 'ı seçip **URL** 'yi girin. 
+   c. Kutucuğu köprü haline getirmek için **Özel bağlantı ayarlayın**'ı seçip **URL**'yi girin. 
 
       İş arkadaşlarınız resme veya başlığa tıkladığında bu URL açılır.
 
-   d. **Uygula** ’yı seçin. 
+   d. **Uygula**’yı seçin. 
 
       ![resim ekleme kutucuğu penceresi](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
 
@@ -78,13 +78,13 @@ Pano başlığı eklemek için başlığı metin kutusuna yazıp yazı tipi boyu
 
 2. Metin kutusunu biçimlendirin:
    
-   a. Metin kutusunun üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle** ’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
+   a. Metin kutusunun üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle**’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
 
    b. Metin kutusu için bir **İçerik** girip bunu biçimlendirin.  
 
    c. İsterseniz başlık için özel bir bağlantı ayarlayabilirsiniz. Özel bağlantı dış bir siteye veya çalışma alanınızdaki bir panoya gidebilir. Ancak, bu örnekte metin kutusunun kendisine köprü eklediğimiz için **Özel bağlantı ayarlayın** kutusunu işaretlemeyeceğiz.
 
-   d. **Uygula** ’yı seçin. 
+   d. **Uygula**’yı seçin. 
 
      ![Metin kutusu ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
@@ -95,16 +95,16 @@ Pano başlığı eklemek için başlığı metin kutusuna yazıp yazı tipi boyu
 ## <a name="add-a-video"></a>Video ekleme
 Panonuza YouTube veya Vimeo videosu kutucuğu eklediğinizde video doğrudan panonuzda oynatılır.
 
-1. **Kutucuk ekle** penceresinden **Video** ’yu seçip  > **İleri** seçeneğini belirleyin.
+1. **Kutucuk ekle** penceresinden **Video**’yu seçip  > **İleri** seçeneğini belirleyin.
 2. **Video ekleme kutucuğu** penceresine video ile ilgili bilgileri ekleyin:   
    
-   a. Video kutucuğunun üzerinde başlık ve alt konu başlığı görüntülemek için **Başlığı ve alt konu başlığını görüntüle** 'yi seçip bir **Başlık** ve isteğe bağlı bir **Alt konu başlığı** girin. Bu örnekte bir **Alt konu başlığı** ekleyip bu başlığı, YouTube'daki oynatma listesinin tamamına yönlendirme yapan bir köprüye dönüştüreceğiz.
+   a. Video kutucuğunun üzerinde başlık ve alt konu başlığı görüntülemek için **Başlığı ve alt konu başlığını görüntüle**'yi seçip bir **Başlık** ve isteğe bağlı bir **Alt konu başlığı** girin. Bu örnekte bir **Alt konu başlığı** ekleyip bu başlığı, YouTube'daki oynatma listesinin tamamına yönlendirme yapan bir köprüye dönüştüreceğiz.
 
-   b. Video için **Video URL** ’sini girin.
+   b. Video için **Video URL**’sini girin.
 
    c. İş arkadaşlarınızın ekli videoyu izledikten sonra YouTube’daki oynatma listesinin tamamını görüntüleyebilmelerini sağlamak adına **Başlık** ve **Alt konu başlığı** için bir köprü ekleyin. Bunu yapmak için **İşlevsellik** bölümünün altından **Özel bağlantı ayarla** seçeneğini belirleyip oynatma listesi için bir **URL** girin.
 
-   d. **Uygula** ’yı seçin.  
+   d. **Uygula**’yı seçin.  
 
    ![Video ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-video-new.png)
 
@@ -120,51 +120,51 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
-1. **Kutucuk ekle** penceresinden **Özel Akış Verileri** ’ni seçip  > **İleri** ’yi belirleyin.
+1. **Kutucuk ekle** penceresinden **Özel Akış Verileri**’ni seçip  > **İleri**’yi belirleyin.
 2. **Akış veri kümesi ekle** seçeneğini belirleyin.
 3. Power BI API’sini veya PubNub’ı kullanarak **Yeni bir akış veri kümesi** oluşturun.
-4. **Veri kümesi adı** , **Abonelik anahtarı** ve **Kanal adı** alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
-5. **İleri** 'yi seçin.
+4. **Veri kümesi adı**, **Abonelik anahtarı** ve **Kanal adı** alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
+5. **İleri**'yi seçin.
     Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
-6. **Bağlan** 'ı seçin.
+6. **Bağlan**'ı seçin.
     Bir akış veri kümesi oluşturdunuz.
-7. Panoya geri dönüp **Kutucuk ekle** ’yi,  > **Özel Akış Verileri** ’ni ve  > **İleri** ’yi belirleyin.
-8. Oluşturduğunuz algılayıcı verisi veri kümesini seçip **İleri** ’yi belirleyin.
+7. Panoya geri dönüp **Kutucuk ekle**’yi,  > **Özel Akış Verileri**’ni ve  > **İleri**’yi belirleyin.
+8. Oluşturduğunuz algılayıcı verisi veri kümesini seçip **İleri**’yi belirleyin.
 9. İstediğiniz görsel türünü seçin. Bir çizgi grafiği genellikle bu veriler için iyi sonuç verir.
-10. **Eksen** ’i, **Gösterge** ’yi, ve **Değerler** ’i seçin.
+10. **Eksen**’i, **Gösterge**’yi, ve **Değerler**’i seçin.
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
-12. **İleri** 'yi seçin.
+12. **İleri**'yi seçin.
 13. İsterseniz, buna bir **Başlık** veya **Alt Başlık** verin.
 14. Bunu panonuza sabitleyin.
 
 
-1. **Kutucuk ekle** penceresinden **Özel Akış Verileri** ’ni seçip  > **İleri** ’yi belirleyin.
+1. **Kutucuk ekle** penceresinden **Özel Akış Verileri**’ni seçip  > **İleri**’yi belirleyin.
 
 2. **Akış veri kümesi ekle** seçeneğini belirleyin.
 
 3. Power BI API’sini veya PubNub’ı kullanarak **Yeni bir akış veri kümesi** oluşturun.
 
-4. **Veri kümesi adı** , **Abonelik anahtarı** ve **Kanal adı** alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
+4. **Veri kümesi adı**, **Abonelik anahtarı** ve **Kanal adı** alanlarını doldurun. Bu güvenli bir bağlantıysa, yetkilendirme anahtarı da bulunur. Bunu denemek için PubNub’ın örnek değerlerini kullanabilirsiniz.
 
-5. **İleri** 'yi seçin.
+5. **İleri**'yi seçin.
 
    Veri kümesinde kullanılabilir olan alanları, bunların veri türlerini ve JSON biçimini görürsünüz.
 
-6. **Bağlan** 'ı seçin.
+6. **Bağlan**'ı seçin.
 
    Bir akış veri kümesi oluşturdunuz.
 
-7. Panoya geri dönüp **Kutucuk ekle** ’yi,  > **Özel Akış Verileri** ’ni ve  > **İleri** ’yi belirleyin.
+7. Panoya geri dönüp **Kutucuk ekle**’yi,  > **Özel Akış Verileri**’ni ve  > **İleri**’yi belirleyin.
 
-8. Oluşturduğunuz algılayıcı verisi veri kümesini seçip **İleri** ’yi belirleyin.
+8. Oluşturduğunuz algılayıcı verisi veri kümesini seçip **İleri**’yi belirleyin.
 
 9. İstediğiniz görsel türünü seçin. Bir çizgi grafiği genellikle bu veriler için iyi sonuç verir.
 
-10. **Eksen** ’i, **Gösterge** ’yi, ve **Değerler** ’i seçin.
+10. **Eksen**’i, **Gösterge**’yi, ve **Değerler**’i seçin.
 
 11. Görüntülenmesini istediğiniz zaman miktarını (saniye, dakika veya saat cinsinden) kararlaştırın.
 
-12. **İleri** 'yi seçin.
+12. **İleri**'yi seçin.
 
 13. İsteğe bağlı olarak, buna bir **Başlık** ve **Alt Konu Başlığı** verebilirsiniz.
 
@@ -173,15 +173,15 @@ Twitter akışları veya algılayıcı verileri gibi akış verilerini panonuzda
 ## <a name="add-web-content"></a>Web içeriği ekleme
 Raporunuza veya panonuza kutucuk olarak herhangi bir HTML içeriğini yapıştırabilir veya yazabilirsiniz. Ekleme kodunu el ile girin veya Twitter, YouTube, embed.ly gibi sitelerden kopyalayıp yapıştırın.
 
-1. **Kutucuk ekle** penceresinden **Web içeriğini** seçip  > **İleri** ’yi belirleyin.
+1. **Kutucuk ekle** penceresinden **Web içeriğini** seçip  > **İleri**’yi belirleyin.
 
 2. **Web içeriği kutucuğu ekle** penceresine bilgi ekleyin:
    
-   a. Kutucuğun üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle** ’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
+   a. Kutucuğun üzerine başlık yerleştirmek için **Başlığı ve alt konu başlığını görüntüle**’yi seçip bir **Başlık** ve isteğe bağlı bir **Alt Konu Başlığı** girin.
 
    b. Ekleme kodunu girin. Bu örnekte bir Twitter akışını kopyalayıp yapıştıracağız.
 
-   c. **Uygula** ’yı seçin.
+   c. **Uygula**’yı seçin.
 
    ![Web içeriği ekleme kutucuğu penceresi](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
@@ -229,7 +229,7 @@ Raporunuza veya panonuza kutucuk olarak herhangi bir HTML içeriğini yapıştı
 ## <a name="edit-a-tile"></a>Kutucukları düzenleme
 Varolan bir kutucukta değişiklik yapmak için:
 
-1. İmleci kutucuğun sağ üst köşesine getirip **Diğer seçenekler** ’i (...) seçin.
+1. İmleci kutucuğun sağ üst köşesine getirip **Diğer seçenekler**’i (...) seçin.
    
     ![kutucuk üç noktasını seçme](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. **Kutucuk ayrıntıları** penceresini gösterip değişiklik yapmak için **Ayrıntıları düzenle** seçeneğini belirleyin.

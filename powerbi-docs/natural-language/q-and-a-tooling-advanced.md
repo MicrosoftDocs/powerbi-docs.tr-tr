@@ -2,17 +2,17 @@
 title: Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme
 description: Power BI Soru-Cevap tarafından kullanılan dil şemasını düzenlemek için Power BI Desktop’ı kullanma.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9499dd99d89619d096d86ac676c54ebb214c3a55
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: ce01fc6c4dc34c614ac024240855301b3fb66968
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841860"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393681"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop'ta Soru-Cevap dil şemasını düzenleme ve ifade ekleme 
 Yaygın ifadeler ve doğal dil kullanarak verilerinize soru sorabilmek çok değerli bir olanaktır. Verilerinizin cevapladığında daha da güçlü olur. Power BI Soru-Cevap uygulamasına bir soru sorduğunuzda bu uygulama, doğru yanıtı vermek için en yüksek çabayı gösterir. Ancak daha da iyi Soru-Cevap etkileşimleri için yanıtları geliştirebilirsiniz. Bunun bir yolu, dil şemasını düzenlemektir. 

@@ -2,18 +2,18 @@
 title: 'DAX: Formüllerinizi geliştirmek için değişkenleri kullanma'
 description: DAX ifadelerinde değişken kullanma yönergeleri.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: cd2f71a2d96a0057e3da5ee7e02bbb05498c6065
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 2448ac8b94465872e4224738162c6a252cafe56c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965181"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393612"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: Formüllerinizi geliştirmek için değişkenleri kullanma
 

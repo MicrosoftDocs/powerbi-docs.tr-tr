@@ -1,20 +1,20 @@
 ---
 title: Power BI için desteklenen diller ve ülkeler/bölgeler
 description: Power BI hizmeti, Power BI Desktop ve Power BI belgeleri için desteklenen diller ile ülkelerin/bölgelerin bulunduğu listelere göz atın.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9bd968676e2e9413c0d366cc22980e0a6355e4f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395038"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 

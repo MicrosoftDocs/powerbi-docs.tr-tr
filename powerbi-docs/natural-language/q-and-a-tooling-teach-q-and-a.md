@@ -2,18 +2,18 @@
 title: Power BI Soru-Cevap'taki soru ve terimleri anlamak için Soru-Cevap Öğretimi
 description: Verilerinizi araştırmak için Power BI Soru-Cevap kullanma
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/21/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5f7237102415f5917dab66f9689764c516d2672f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635252"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393635"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI Soru-Cevap'taki soru ve terimleri anlamak için Soru-Cevap Öğretimi
 
