@@ -2,20 +2,20 @@
 title: Power BI için örnek alma
 description: Power BI için örnek içerik paketleri, uygulamalar, .pbix dosyaları ve Excel veri kümeleri
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953065"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396212"
 ---
 # <a name="get-samples-for-power-bi"></a>Power BI için örnek alma
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Belki de Power BI’in bazı özelliklerini gösteren raporları görmek istiyorsunuz. Size yardımcı olabiliriz.
@@ -229,7 +229,7 @@ Artık verileriniz olduğuna göre devam edebilirsiniz.  Örnek içerik paketler
 6. Örneği indirip kaydettiğiniz konumu kaydedin.
 
     ![Örneği kaydettiğiniz konum](media/sample-datasets/sample-files-select-location.png)
-7. Dosyayı seçin. Dosyayı kaydettiğiniz yere bağlı olarak **Bağlan**’ı veya**Aç**’ı seçin.
+7. Dosyayı seçin. Dosyayı kaydettiğiniz yere bağlı olarak **Bağlan**’ı veya **Aç**’ı seçin.
 
 8. Verileri içeri aktarma ile çalışma kitabını Power BI'a aktarıp tam olarak Excel Online'da göründüğü şekilde görüntüleme arasında bir seçim yapın.
 

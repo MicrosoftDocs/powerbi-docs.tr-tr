@@ -2,20 +2,20 @@
 title: Perakende Analizi örneğini bulma
 description: Perakende Analizi örneğini Power BI hizmetine ve Power BI Desktop’a yüklemeyi ve bu örneği bulmayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 257385b42cb31c691c649abe4ea5ad5a88453f7c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 87296ca881550180ec62262def3aff44eead956b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349690"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395740"
 ---
 # <a name="explore-the-retail-analysis-sample"></a>Perakende Analizi örneğini bulma
 

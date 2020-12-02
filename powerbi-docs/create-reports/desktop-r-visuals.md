@@ -2,19 +2,19 @@
 title: R programlama dilini kullanarak Power BI görselleri oluşturma
 description: Power BI Desktop'la verilerinizi görselleştirmek için R altyapısını kullanabilirsiniz.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 11/04/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 0e86e99dd02f202a9bbce36ecb7b6eb9085a34f6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928298"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396349"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R programlama dilini kullanarak Power BI görselleri oluşturma
 Power BI Desktop'la verilerinizi görselleştirmek için *R* programlama dilini kullanabilirsiniz. [R](https://mran.revolutionanalytics.com/documents/what-is-r) istatistiksel bilgi işlem ve grafiklere yönelik bir dil ve ortamdır.

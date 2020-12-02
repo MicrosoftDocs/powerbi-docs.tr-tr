@@ -2,19 +2,19 @@
 title: Power BI raporlarıyla ilgili ayarları değiştirme
 description: Power BI hizmetinde rapor ayarlarını değiştirme
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463147"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396188"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Power BI raporlarıyla ilgili ayarları değiştirme
 
@@ -40,18 +40,18 @@ Power BI Desktop ve Power BI hizmetindeki rapor ayarları sayesinde rapor okuyuc
 
 ## <a name="open-the-settings-pane-in-power-bi-desktop"></a>Power BI Desktop'ta Ayarlar bölmesini açın
 
-1. **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler** ’i seçin.
-1. **Geçerli dosya** bölümünde **Rapor ayarları** 'nı seçin.
+1. **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler**’i seçin.
+1. **Geçerli dosya** bölümünde **Rapor ayarları**'nı seçin.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI hizmetindeki rapor ayarları bölmesinin ekran görüntüsü.":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI Desktop'taki raporun Ayarlar bölmesinin ekran görüntüsü":::
 
     Bu makalenin devamında raporlarla ilgili bazı özel ayarlar ele alınmıştır.
 
 ## <a name="open-the-settings-pane-in-the-power-bi-service"></a>Power BI hizmetinde Ayarlar bölmesini açın
 
-1. Raporun okuma görünümünde **Dosya** > **Ayarlar** 'ı seçin.
+1. Raporun okuma görünümünde **Dosya** > **Ayarlar**'ı seçin.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Power BI hizmetindeki rapor ayarları bölmesinin ekran görüntüsü.":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Dosya menüsünün Ayarlar seçeneğinin ekran görüntüsü.":::
 
 1. **Ayarlar** bölmesinde ilgili rapor için düzenleyebileceğiniz bir dizi ayar yer alır. Bu makalenin devamında bunların bazıları ele alınmıştır.
 
@@ -63,13 +63,13 @@ Panoları, raporları ve uygulamaları öne çıkarabilirsiniz; böylece bu öğ
 
 Sayfalar bölmesi ayarını şu an için yalnızca Power BI hizmetinde değiştirebilirsiniz. **Sayfalar bölmesi** ayarını açık duruma getirdiğinize rapor okuyucuları Okuma görünümünde rapor sayfası sekmelerini yanda değil alt tarafta görür. Düzenleme görünümünde rapor sayfası sekmeleri zaten raporun altında yer alır.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Power BI hizmetindeki rapor ayarları bölmesinin ekran görüntüsü.":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Sayfalar bölmesi ayarının ekran görüntüsü.":::
 
 ## <a name="control-filters"></a>Denetim filtreleri
 
 Raporun **Ayarlar** bölmesinde okuyucuların raporunuzdaki filtrelerle etkileşim kurma şeklini denetlemeye yönelik üç ayar bulunur. Aşağıdaki bağlantıları izleyerek [Power BI raporlarındaki filtreleri tasarlama](power-bi-report-filter.md) makalesine ulaşabilir, ayarlar hakkında ayrıntılı bilgi edinebilirsiniz.
 
-- **Kalıcı filtreler** , okuyucuların [filtreleri rapora kaydetmesini](power-bi-report-filter.md#allow-saving-filters) sağlar.
+- **Kalıcı filtreler**, okuyucuların [filtreleri rapora kaydetmesini](power-bi-report-filter.md#allow-saving-filters) sağlar.
 - **Filtreleme deneyiminde** iki ayar daha vardır:
     
     Rapor okuyucularının [filtre türlerini değiştirmesine](power-bi-report-filter.md#restrict-changes-to-filter-type) izin verebilirsiniz.

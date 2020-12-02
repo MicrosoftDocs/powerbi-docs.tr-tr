@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki bir veya daha fazla görselde birden çok veri öğesini seçme
 description: Power BI Desktop görsellerinde basitçe CTRL+Tıklama ile birden fazla veri noktasını seçebilirsiniz
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: d373aab740d7c0431ef89361c767f027cb1dd351
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94559816"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396418"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Power BI Desktop'ta birden çok veri öğesini, veri noktasını ve görseli seçme
 

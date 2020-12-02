@@ -2,19 +2,19 @@
 title: 'Power BI için Satış ve Pazarlama örneği: Tura katılın'
 description: 'Power BI için Satış ve Pazarlama örneği: Tura katılın'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: bf24a42e49585fb560fcddec316ab8f218878f86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025991"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395705"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Power BI için Satış ve Pazarlama örneği: Tura katılın
 

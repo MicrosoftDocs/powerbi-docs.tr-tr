@@ -2,19 +2,19 @@
 title: 'Power BI için Perakende Analizi örneği: Tura katılın'
 description: 'Power BI için Perakende Analizi örneği: Tura katılın'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 373e5bfe3d52bf319ad68d766f268518a167012f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a3a4bc467299f7baeb12ca68af1d2730d5839f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349092"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396004"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Perakende Analizi örneği: Tura katılın
 

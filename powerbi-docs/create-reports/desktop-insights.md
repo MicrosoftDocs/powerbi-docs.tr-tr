@@ -2,20 +2,20 @@
 title: Görsellerdeki artışları ve düşüşleri açıklamak için içgörüleri kullanma (Önizleme)
 description: Power BI Desktop'ta artışlar veya düşüşler hakkında kolayca öngörü elde edin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/21/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a0ba50405605495ed819ab8264050882be9a47
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e8b483af507aa175e6d804bf0af70bdd0da5372
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239136"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396694"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Görsellerdeki dalgalanmaları açıklamak için Power BI Desktop'ta içgörüleri uygulama (önizleme)
 

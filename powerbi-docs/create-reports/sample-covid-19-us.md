@@ -1,21 +1,21 @@
 ---
 title: ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 description: ABD eyalet ve yerel hükümetlerinin verilerini içeren örnek raporu indirip COVID-19 pandemisine uygun şekilde değiştirin.
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: e6f8e02efa7dc2e56a945aaffcf22d8497052404
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83277905"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396027"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>ABD eyalet ve yerel hükümetlere yönelik COVID-19 izleme örneği
 
