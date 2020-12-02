@@ -2,18 +2,18 @@
 title: Yönetici genel bakışı, Power BI Rapor Sunucusu
 description: Bu makalede Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz şirket içi bir konum olan Power BI Rapor Sunucusu'na yönelik yönetici genel bakışı sunulmaktadır.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.author: maggies
-ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a1c8e11fbf3b157a0d9fc1a897347875b82226fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861280"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387270"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Yönetici genel bakışı, Power BI Rapor Sunucusu
 Bu makalede Power BI, mobil ve sayfalandırılmış raporlarınızı depolayabileceğiniz ve yönetebileceğiniz şirket içi bir konum olan Power BI Rapor Sunucusu'na yönelik yönetici genel bakışı sunulmaktadır. Bu makale, daha fazla bilgi içeren bağlantılarla birlikte Power BI Rapor Sunucunuzu planlama, dağıtma ve yönetme kavramlarını açıklamaktadır.

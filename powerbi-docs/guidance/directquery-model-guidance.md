@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta DirectQuery modeli kılavuzu
 description: DirectQuery modelleri geliştirme kılavuzu.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 10/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 2f6ae0508ca7d1c1e22f7437ffab11590c365a41
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965304"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387402"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta DirectQuery modeli kılavuzu
 

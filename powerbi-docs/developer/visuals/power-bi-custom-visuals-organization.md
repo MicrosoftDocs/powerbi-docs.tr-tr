@@ -5,16 +5,16 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3746cb038067617fd236e05412412b2c68947508
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749242"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386470"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 

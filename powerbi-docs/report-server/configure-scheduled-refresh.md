@@ -1,19 +1,19 @@
 ---
 title: Power BI raporlarında zamanlanmış yenilemeyi yapılandırma
 description: Power BI raporunuzdaki verilerin yenilenmesi için zamanlanmış yenileme planı oluşturmanız gerekir.
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
-ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 95119cf6ebebbf527245f5b75f0da541c1f87aef
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859049"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386332"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI raporlarında zamanlanmış yenilemeyi yapılandırma
 Power BI Rapor Sunucusu’ndaki Power BI raporunuzda yer alan verileri yenilemek için zamanlanmış bir yenileme planı oluşturmanız gerekir. Bu planı rapor sunucusunda bir Power BI raporunun *Yönet* alanından oluşturursunuz.

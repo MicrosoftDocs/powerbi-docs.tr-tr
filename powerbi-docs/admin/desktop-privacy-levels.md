@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki gizlilik düzeylerini anlama
 description: Power BI Desktop gizlilik düzeyleri
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-admin
 ms.topic: reference
 ms.date: 09/09/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 7dc5554844bafac1f8877ef7e2e8627d8078e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86033796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386824"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop gizlilik düzeyleri
 **Power BI Desktop**'ta gizlilik düzeyleri, bir veri kaynağının diğer veri kaynaklarından ne ölçüde yalıtılacağını tanımlayan bir yalıtım düzeyi belirtir. Kısıtlayıcı bir yalıtım düzeyi bilgilerin veri kaynakları arasında paylaşılmasını engellese de işlevselliği azaltabilir ve performansı etkileyebilir.

@@ -9,10 +9,10 @@ ms.date: 03/17/2020
 ms.author: maggies
 ms.custom: include file
 ms.openlocfilehash: 6e9491a768ec0685e21033e6c7babded3db70c32
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114092"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96119932"
 ---
 **ŞUNLAR İÇİN GEÇERLİDİR:**

@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132425"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120755"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
@@ -775,7 +775,7 @@ Excel ve Power BI, sektörde benzeri olmayan bir araç portföyü sunabilir. Bu 
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Yeni tablo ve matris görselleri için destek
 
-Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini desteklemektedir. Bu görsellerle rapor oluşturmak için Power BI Desktop uygulamasının Ekim 2017 sürümünü kullanmanız gerekir. Bu sürümü Power BI Desktop (Haziran 2017) yan yana yükleyebilirsiniz. Power BI Desktop uygulamasının en güncel sürümü için [Power BI Rapor Sunucusu indirme sayfasında](https://powerbi.microsoft.com/report-server/)**Gelişmiş indirme seçenekleri** 'ne tıklayın.
+Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini desteklemektedir. Bu görsellerle rapor oluşturmak için Power BI Desktop uygulamasının Ekim 2017 sürümünü kullanmanız gerekir. Bu sürümü Power BI Desktop (Haziran 2017) yan yana yükleyebilirsiniz. Power BI Desktop uygulamasının en güncel sürümü için [Power BI Rapor Sunucusu indirme sayfasında](https://powerbi.microsoft.com/report-server/)**Gelişmiş indirme seçenekleri**'ne tıklayın.
 
 ## <a name="june-2017"></a>Haziran 2017
 
@@ -786,7 +786,7 @@ Power BI Rapor Sunucusu artık yeni Power BI tablo ve matris görsellerini deste
 - Power BI Rapor Sunucusu Önizleme kullanıma sunuldu
 - Power BI raporlarını şirket içi ortamda yayımlama olanağı
   - Power BI görselleri desteği
-  - Daha fazla veri kaynağı için * *Analysis Services canlı bağlantı* - desteği yakında kullanıma sunulacaktır.
+  - Daha fazla veri kaynağı için **Analysis Services canlı bağlantı*- desteği yakında kullanıma sunulacaktır.
   - Power BI Mobil uygulaması Power BI Rapor Sunucusu'nda barındırılan Power BI raporlarını görüntüleyecek şekilde güncelleştirildi
 - Yorumlar eklenerek raporlardaki işbirliği özellikleri geliştirildi
 

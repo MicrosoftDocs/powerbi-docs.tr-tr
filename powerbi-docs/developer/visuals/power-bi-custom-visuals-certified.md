@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049189"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386721"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 

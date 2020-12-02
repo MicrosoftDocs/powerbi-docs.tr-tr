@@ -1,21 +1,21 @@
 ---
 title: Power BI hizmetindeki ve Power BI Desktop'taki rapor görselleştirmelerine genel bakış
 description: Microsoft Power BI'daki görselleştirmelere (görsellere) genel bakış.
-author: msftrien
-ms.author: rien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: b6b4ebb7d07ec73f8b2c51b7b2fabb75b197d91f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411349"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387448"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI raporlarındaki görselleştirmeler
 
@@ -65,7 +65,7 @@ Görseli düzenli olarak kullanmayı bıraktıysanız, görsele sağ tıklayabil
 
 Görselleştirme bölmesini geri yükleme yalnızca varsayılan görseller için geçerlidir. Görselleştirme bölmesine eklenmiş olan görseller bundan etkilenmez ve görselleştirme bölmesinde kullanılabilir durumda kalır. AppSource veya dosya görsellerini görselleştirme bölmesinden kaldırmak istiyorsanız, bunu el ile yapmalısınız.
 
-Görselleştirme bölmesini varsayılan durumuna geri yüklemek için diğer seçeneklere tıklayın ve **Varsayılan görselleri geri yükle** ’yi seçin.
+Görselleştirme bölmesini varsayılan durumuna geri yüklemek için diğer seçeneklere tıklayın ve **Varsayılan görselleri geri yükle**’yi seçin.
 
 ![Görselleştirme bölmesini varsayılan durumuna geri yükleme](media/power-bi-report-visualizations/restore-default.png)
 

@@ -2,19 +2,19 @@
 title: Power BI'da dilimleyiciler
 description: Power BI dilimleyicisi, tasarladığınız rapordaki diğer görselleştirmelerde gösterilen veri kümesi bölümünü daraltan alternatif bir filtreleme yöntemidir.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 07/07/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ecc28c703b083355646e1caa5a457cf60cc341
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: d3e0c75a50fb103414a874c4455de775bc20e1a9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412775"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387586"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI'da dilimleyiciler
 
@@ -51,9 +51,9 @@ Power BI dilimleyicileri şunları desteklemez:
 
 Bu dilimleyici verileri bölge (District) yöneticisine göre filtreler. Bu yordamı izlemek istiyorsanız [Perakende Analizi Örneği PBIX dosyasını](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) indirin.
 
-1. Power BI Desktop’ı açın ve menü çubuğundan **Dosya** > **Aç** ’ı seçin.
+1. Power BI Desktop’ı açın ve menü çubuğundan **Dosya** > **Aç**’ı seçin.
    
-1. **Perakende Analizi Örneği PBIX.pbix** dosyasına gidin ve **Aç** 'ı seçin.
+1. **Perakende Analizi Örneği PBIX.pbix** dosyasına gidin ve **Aç**'ı seçin.
 
 1. Soldaki bölmeden **Rapor** simgesini ![Rapor simgesinin ekran görüntüsü](media/power-bi-visualization-kpi/power-bi-report-view.png) seçin. Dosya, rapor görünümünde açılır.
 
@@ -102,7 +102,7 @@ Bir Dilimleyiciyi eşitleyebilir ve rapordaki herhangi bir sayfada veya tüm say
 
 Geçerli raporun **Bölgenin Aylık Satışları** sayfasında **Bölge Yöneticisi** dilimleyicisi bulunuyor. Peki bu dilimleyicinin ayrıca **Yeni Mağazalar** sayfasında bulunmasını istiyorsak ne olacak? **Yeni Mağazalar** sayfasında da dilimleyici bulunur. Ancak, bu dilimleyici yalnızca **Mağaza Adı** bilgisini sağlar. **Dilimleyicileri eşitle** bölmesiyle herhangi bir sayfada yapılan dilimleyici seçimlerinin üç sayfanın tümünde bulunan görselleştirmeleri etkilemesi amacıyla **Bölge Yöneticisi** dilimleyicisini bu sayfalarla eşitleyebilirsiniz.
 
-1. Power BI Desktop **Görünüm** menüsünde **Dilimleyicileri eşitle** ’yi seçin.
+1. Power BI Desktop **Görünüm** menüsünde **Dilimleyicileri eşitle**’yi seçin.
 
     ![Dilimleyicileri eşitle seçiminin ekran görüntüsü.](media/power-bi-visualization-slicers/power-bi-slicer-view-sync.png)
 
@@ -112,11 +112,11 @@ Geçerli raporun **Bölgenin Aylık Satışları** sayfasında **Bölge Yönetic
 
 1. Raporun **Bölgenin Aylık Satışları** sayfasında **Bölge Yöneticisi** dilimleyicisini seçin. 
 
-    **Genel Bakış** sayfasında zaten bir **Bölge Yöneticisi** ( **DM** ) dilimleyicisi oluşturmuş olduğunuzdan, **Dilimleyicileri eşitle** bölmesi şu şekilde görünür:
+    **Genel Bakış** sayfasında zaten bir **Bölge Yöneticisi** (**DM**) dilimleyicisi oluşturmuş olduğunuzdan, **Dilimleyicileri eşitle** bölmesi şu şekilde görünür:
     
     ![Bölgenin Aylık Satışları dilimleyicisini eşitleme seçeneğinin ekran görüntüsü.](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-1. **Dilimleyicileri eşitle** bölmesinin **Eşitle** sütununda **Genel Bakış** , **Bölgenin Aylık Satışları** ve **Yeni Mağazalar** sayfalarını seçin. 
+1. **Dilimleyicileri eşitle** bölmesinin **Eşitle** sütununda **Genel Bakış**, **Bölgenin Aylık Satışları** ve **Yeni Mağazalar** sayfalarını seçin. 
 
     Bu seçim, **Bölgenin Aylık Satışları** dilimleyicisinin bu üç sayfada eşitlenmesine neden olur. 
     
@@ -149,11 +149,11 @@ Dilimleyici türüne bağlı olarak farklı biçimlendirme seçenekleri mevcuttu
 1. Seçenekleri görüntülemek ve düzenlemek için her kategorinin yanındaki açılan okları seçin. 
 
 ### <a name="general-options"></a>Genel seçenekler
-1. **Biçim** altında **Genel** 'i ve **Ana hat rengi** altında kırmızı rengi seçip ardından **Ana hat ağırlığı** ’nı *2* olarak değiştirin. 
+1. **Biçim** altında **Genel**'i ve **Ana hat rengi** altında kırmızı rengi seçip ardından **Ana hat ağırlığı**’nı *2* olarak değiştirin. 
 
     Bu ayar, üst bilgi ile öğe ana hatlarının ve alt çizgilerinin rengini ve kalınlığını değiştirir.
 
-1. **Yönlendirme** için **Dikey** varsayılan olarak seçilir. Yatay yönde düzenlenmiş kutucuk veya düğmelerle bir dilimleyici oluşturmak için **Yatay** ’ı seçin ve dilimleyiciye sığmayan öğelere erişmek için okları kaydırın.
+1. **Yönlendirme** için **Dikey** varsayılan olarak seçilir. Yatay yönde düzenlenmiş kutucuk veya düğmelerle bir dilimleyici oluşturmak için **Yatay**’ı seçin ve dilimleyiciye sığmayan öğelere erişmek için okları kaydırın.
     
     ![Genel seçimlerin ekran görüntüsü.](media/power-bi-visualization-slicers/4-horizontal.png)
     
@@ -166,7 +166,7 @@ Dilimleyici türüne bağlı olarak farklı biçimlendirme seçenekleri mevcuttu
     >[!NOTE]
     >Duyarlı düzen değişiklikleri, ayarladığınız belirli üst bilgi ve öğe biçimlendirmesini geçersiz kılabilir. 
     
-1. **X Konumu** , **Y Konumu** , **Genişlik** ve **Yükseklik** altında, sayısal duyarlıkla dilimleyici konumunu ve boyutunu ayarlayın ya da dilimleyiciyi doğrudan tuval üzerinde taşıyıp yeniden boyutlandırın. 
+1. **X Konumu**, **Y Konumu**, **Genişlik** ve **Yükseklik** altında, sayısal duyarlıkla dilimleyici konumunu ve boyutunu ayarlayın ya da dilimleyiciyi doğrudan tuval üzerinde taşıyıp yeniden boyutlandırın. 
 
     Farklı öğe boyutları ve düzenlemelerle denemeler yapın ve duyarlı biçimlendirmenin uygun şekilde nasıl değiştiğine dikkat edin. Bu seçenekler yalnızca yatay yönlendirmeleri seçtiğinizde kullanılabilir. 
 
@@ -177,22 +177,22 @@ Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz
 ### <a name="selection-controls-options-list-slicers-only"></a>Seçim denetimi seçenekleri (yalnızca liste dilimleyiciler)
 1. **Seçim denetimleri** altında, dilimleyiciye **Tümünü Seç** öğesi eklemek için **“Tümünü seç”i göster** seçeneğini **Açık** duruma getirin. 
 
-    **“Tümünü seç”i göster** seçeneği varsayılan olarak **Kapalı** ’dır. Bu seçenek etkinleştirildiğinde seçeneği açar/kapatırsanız, tüm öğeler seçilir veya öğelerin seçimleri kaldırılır. Tüm öğeleri seçerseniz, bir öğe belirlendiğinde seçim kaldırılarak bir *is-not* filtre türünün uygulanmasına olanak tanınır.
+    **“Tümünü seç”i göster** seçeneği varsayılan olarak **Kapalı**’dır. Bu seçenek etkinleştirildiğinde seçeneği açar/kapatırsanız, tüm öğeler seçilir veya öğelerin seçimleri kaldırılır. Tüm öğeleri seçerseniz, bir öğe belirlendiğinde seçim kaldırılarak bir *is-not* filtre türünün uygulanmasına olanak tanınır.
     
     ![Seçim denetimlerinin ekran görüntüsü.](media/power-bi-visualization-slicers/7-select-all.png)
     
-1. **Ctrl** tuşu basılı tutulmadan birden çok öğenin seçilmesini sağlamak için **Tek seçim** ’i **Kapalı** duruma getirin. 
+1. **Ctrl** tuşu basılı tutulmadan birden çok öğenin seçilmesini sağlamak için **Tek seçim**’i **Kapalı** duruma getirin. 
 
-    **Tek seçim** varsayılan olarak **Açık** ’tır. Öğe seçildiğinde bu öğe seçilir ve **Ctrl** tuşu basılı tutulduğunda ise birden çok öğe seçilir. Öğe yeniden seçildiğinde bu öğenin seçimi kaldırılır.
+    **Tek seçim** varsayılan olarak **Açık**’tır. Öğe seçildiğinde bu öğe seçilir ve **Ctrl** tuşu basılı tutulduğunda ise birden çok öğe seçilir. Öğe yeniden seçildiğinde bu öğenin seçimi kaldırılır.
 
 ### <a name="title-options"></a>Başlık seçenekleri
-**Başlık** varsayılan olarak **Açık** ’tır. Bu seçim, veri alanı adını dilimleyicinin üst kısmında gösterir. Başlığı, özellikle de hiyerarşi dilimleyicileri için yararlı olacak şekilde düzenleyebilirsiniz. Ayrıntılar için "Hiyerarşi dilimleyicisine birden çok alan ekleme" makalesinin [Başlığı değiştirme](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md#change-the-title) bölümüne bakın.
+**Başlık** varsayılan olarak **Açık**’tır. Bu seçim, veri alanı adını dilimleyicinin üst kısmında gösterir. Başlığı, özellikle de hiyerarşi dilimleyicileri için yararlı olacak şekilde düzenleyebilirsiniz. Ayrıntılar için "Hiyerarşi dilimleyicisine birden çok alan ekleme" makalesinin [Başlığı değiştirme](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md#change-the-title) bölümüne bakın.
 
 - Bu makale için başlık metnini şu şekilde biçimlendirin: 
-   - **Yazı tipi rengi** : kırmızı
-   - **Metin boyutu** : **14 pt**
-   - **Hizalama** : **Orta**
-   - **Yazı tipi ailesi** : **Arial Black**
+   - **Yazı tipi rengi**: kırmızı
+   - **Metin boyutu**: **14 pt**
+   - **Hizalama**: **Orta**
+   - **Yazı tipi ailesi**: **Arial Black**
 
 
 ### <a name="items-options"></a>Öğe seçenekleri
@@ -200,10 +200,10 @@ Yatay yönlendirmeler ve duyarlı düzenler hakkında daha fazla bilgi için bkz
 Öğe seçenekleri yalnızca liste dilimleyicileri için kullanılabilir.
 
 1. Bu makale için **Öğeler** seçeneklerini şu şekilde biçimlendirin:
-    - **Yazı tipi rengi** : siyah
-    - **Arka plan** : açık kırmızı
-    - **Metin boyutu** : **10 pt**
-    - **Yazı tipi ailesi** : **Arial**
+    - **Yazı tipi rengi**: siyah
+    - **Arka plan**: açık kırmızı
+    - **Metin boyutu**: **10 pt**
+    - **Yazı tipi ailesi**: **Arial**
  
 1. **Ana hat** için, her bir öğenin çevresine **Genel** seçenekleri altında ayarladığınız boyuta ve renge sahip bir kenarlık çizmek için **Çerçeve** seçeneğini belirleyin. 
     
@@ -221,12 +221,12 @@ Tarih/sayısal girişler ve kaydırıcı seçenekleri yalnızca aralık kaydır�
 - **Kaydırıcı** seçenekleri, aralık kaydırıcının rengini ayarlamanıza veya kaydırıcıyı **Kapalı** duruma getirerek yalnızca sayısal girişleri bırakmanıza olanak tanır.
 
 ### <a name="other-formatting-options"></a>Diğer biçimlendirme seçenekleri
-Diğer biçimlendirme seçenekleri varsayılan olarak **Kapalı** ’dır. Bunları denetlemek için bu seçenekleri **Açık** duruma getirin: 
+Diğer biçimlendirme seçenekleri varsayılan olarak **Kapalı**’dır. Bunları denetlemek için bu seçenekleri **Açık** duruma getirin: 
 
-- **Arka plan** : Dilimleyiciye bir arka plan rengi ekler ve bunun saydamlığını ayarlar.
-- **Görünüşü kilitle** : Yeniden boyutlandırılırsa dilimleyicinin göreli yüksekliğini ve genişliğini korur.
-- **Kenarlık** : Dilimleyicinin çevresine bir kenarlık ekler ve bunun rengini ayarlar. Bu dilimleyici kenarlığı **Genel** ayarlarından ayrıdır ve bunlardan etkilenmez.
-- **Gölge** : Kaydırıcıya gölge ekler.
+- **Arka plan**: Dilimleyiciye bir arka plan rengi ekler ve bunun saydamlığını ayarlar.
+- **Görünüşü kilitle**: Yeniden boyutlandırılırsa dilimleyicinin göreli yüksekliğini ve genişliğini korur.
+- **Kenarlık**: Dilimleyicinin çevresine bir kenarlık ekler ve bunun rengini ayarlar. Bu dilimleyici kenarlığı **Genel** ayarlarından ayrıdır ve bunlardan etkilenmez.
+- **Gölge**: Kaydırıcıya gölge ekler.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Kaydırıcılar hakkında daha fazla bilgi için aşağıdaki makaleleri inceleyin:

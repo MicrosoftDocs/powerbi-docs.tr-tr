@@ -1,20 +1,20 @@
 ---
 title: Power BI Desktop Gizliliği
 description: Power BI Desktop Gizliliği seçenekleri
-author: MI77
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/14/2018
-ms.author: willthom
 LocalizationGroup: Learn more
-ms.openlocfilehash: af67eca7b1a4d1cb82f3b58ea4abdbb8b2ad4671
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f9299755f5509717c164f5ece448562c306ac7d3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86160859"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386707"
 ---
 # <a name="power-bi-desktop-privacy"></a>Power BI Desktop Gizliliği
 

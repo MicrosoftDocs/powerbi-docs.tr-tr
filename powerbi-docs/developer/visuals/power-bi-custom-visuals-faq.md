@@ -5,16 +5,16 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/30/2020
-ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f38aaf9ea5bcb62cabae6ce2b7aca99f97c75960
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747931"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386447"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI görselleri hakkında SSS
 

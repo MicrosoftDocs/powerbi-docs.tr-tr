@@ -1,20 +1,20 @@
 ---
 title: Power BI'da halka grafikler
 description: Power BI'da halka grafikler
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24788b16718e1223bdd2040d42a67e4f175b8371
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 3ebd618011f8c7a5fefb1187283702a85dee407c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413074"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386203"
 ---
 # <a name="create-and-use-doughnut-charts-in-power-bi"></a>Power BI'da halka grafik oluşturma ve kullanma
 
@@ -28,7 +28,7 @@ Halka grafik de pasta grafiği gibi parçaların bütünle olan ilişkisini gös
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -42,13 +42,13 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
 ## <a name="create-a-doughnut-chart"></a>Halka grafik oluşturma
 
-1. Boş bir rapor sayfasında başlayın ve Alanlar bölmesinden **Satış** \> **Geçen Yılın Satışları** ’nı seçin.  
+1. Boş bir rapor sayfasında başlayın ve Alanlar bölmesinden **Satış** \> **Geçen Yılın Satışları**’nı seçin.  
    
-3. Görsel Öğeler bölmesinde çubuk grafiğinizi halka grafiğe dönüştürmek için halka grafik simgesini ![halka grafik simgesi](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) seçin. **Last Year Sales** , **Değerler** alanında görüntülenmiyorsa oraya sürükleyin.
+3. Görsel Öğeler bölmesinde çubuk grafiğinizi halka grafiğe dönüştürmek için halka grafik simgesini ![halka grafik simgesi](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) seçin. **Last Year Sales**, **Değerler** alanında görüntülenmiyorsa oraya sürükleyin.
      
    ![Halka seçili görselleştirme bölmesi](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
-4. **Item** \> **Category** 'yi seçerek **Açıklama** alanına ekleyin. 
+4. **Item** \> **Category**'yi seçerek **Açıklama** alanına ekleyin. 
      
     ![Alanlar bölmesinin yanındaki halka](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 

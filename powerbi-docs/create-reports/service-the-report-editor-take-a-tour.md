@@ -2,20 +2,20 @@
 title: Rapor düzenleyicisi turu
 description: Power BI Desktop'da ve Power BI hizmetinde rapor düzenleyicisi, son kullanıcılarınızın gördüğü raporları tasarladığınız yerdir. Bu düzenleyici iki ortamda da benzerdir.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635206"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387793"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 

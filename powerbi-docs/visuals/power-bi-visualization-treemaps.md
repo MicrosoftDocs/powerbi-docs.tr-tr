@@ -1,20 +1,20 @@
 ---
 title: Power BI'da ağaç haritaları
 description: Power BI'da ağaç haritaları
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 11dbfceaf38cef74b4ea2190f805353a7723b0d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411464"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387425"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI'da ağaç haritaları
 
@@ -26,7 +26,7 @@ Ağaç haritaları, hiyerarşik verileri iç içe geçmiş dikdörtgenler kümes
 
 ![Count of Product by Category ve Manufacturer ağaç haritasının ekran görüntüsü.](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-Örneğin, satışlarınızı analiz ediyorsanız giysi kategorisi için üst düzey dallarınız olabilir: **Urban** , **Rural** , **Youth** ve **Mix**. Power BI, bu kategorideki giysi üreticileri için kategori dikdörtgenlerinizi yapraklara ayırır. Bu yapraklar, satılan sayıya göre boyutlandırılır ve gölgelendirilir.
+Örneğin, satışlarınızı analiz ediyorsanız giysi kategorisi için üst düzey dallarınız olabilir: **Urban**, **Rural**, **Youth** ve **Mix**. Power BI, bu kategorideki giysi üreticileri için kategori dikdörtgenlerinizi yapraklara ayırır. Bu yapraklar, satılan sayıya göre boyutlandırılır ve gölgelendirilir.
 
 Yukarıdaki **Urban** dalında çok sayıda **VanArsdel** giysisi satılmış. Daha az **Natura** ve **Fama** satılmış. Yalnızca birkaç tane **Leo** satılmış. Bu nedenle Ağar Haritanızın **Urban** dalı şöyle görünür:
 
@@ -61,7 +61,7 @@ Ağaç haritaları aşağıdaki durumlarda kullanım için mükemmel seçimdir:
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -89,20 +89,20 @@ Bir rapor oluşturacak ve basit bir ağaç haritası ekleyeceksiniz.
 
    ![Yapılandırılmamış ağaç haritasının ekran görüntüsü.](media/power-bi-visualization-treemaps/treemapconvertto-new.png)
 
-1. **Öğe** > **Kategori** ’yi seçerek **Kategori** ’yi **Grup** kutusuna ekleyin.
+1. **Öğe** > **Kategori**’yi seçerek **Kategori**’yi **Grup** kutusuna ekleyin.
 
     Power BI, dikdörtgen boyutunun toplam satışı temel aldığı, rengin ise kategoriyi gösterdiği bir ağaç haritası oluşturur. Temelde, toplam satışın kategoriye göre boyutunu görsel olarak açıklayan bir hiyerarşi oluşturdunuz. **Men's** kategorisi en yüksek satışa sahipken **Hosiery** kategorisi en düşük satışlara sahiptir.
 
     ![Yapılandırılmış ağaç haritasının ekran görüntüsü.](media/power-bi-visualization-treemaps/power-bi-complete.png)
 
-1. Ağaç haritanızı tamamlamak için **Depolama** > **Zincir** ’i seçerek **Zincir** ’i **Ayrıntılar** ’a ekleyin. Artık geçen yılın satışlarını kategori ve zincire göre karşılaştırabilirsiniz.
+1. Ağaç haritanızı tamamlamak için **Depolama** > **Zincir**’i seçerek **Zincir**’i **Ayrıntılar**’a ekleyin. Artık geçen yılın satışlarını kategori ve zincire göre karşılaştırabilirsiniz.
 
    ![Ayrıntılar'a Store > Chain’in eklendiği ağaç haritasını ekran görüntüsü.](media/power-bi-visualization-treemaps/power-bi-details.png)
 
    > [!NOTE]
    > Renk doygunluğu ve Ayrıntılar aynı anda kullanılamaz.
 
-1. **Category** 'nin bu kısmı için araç ipucunu göstermek üzere bir **Chain** alanının üzerine gelin.
+1. **Category**'nin bu kısmı için araç ipucunu göstermek üzere bir **Chain** alanının üzerine gelin.
 
     Örneğin, imleç **090-Home** dikdörtgeninde **Fashions Direct** üzerine getirildiğinde dikdörtgen, Home kategorisinin Fashions Direct bölümü için araç ipucunu görüntüler.
 
@@ -113,7 +113,7 @@ Bir rapor oluşturacak ve basit bir ağaç haritası ekleyeceksiniz.
 
 Ağaç haritasında bir **Kategori** veya **Ayrıntı** vurgulandığında rapor sayfasındaki diğer görselleştirmeler çapraz filtrelenir. Örneği takip etmek için, bu rapor sayfasına bazı görseller ekleyin veya ağaç haritasını bu rapordaki diğer sayfalardan birine kopyalayın. Aşağıdaki görüntüde ağaç haritası **Genel Bakış** sayfasına kopyalanmıştır. 
 
-1. Ağaç haritasında, **Kategori** veya **Kategori** 'nin içinden bir **Zincir** seçin. Bu işlem, sayfadaki diğer görselleştirmeleri çapraz vurgulayacaktır. Örneğin **050-Shoes** kategorisi seçildiğinde geçen yılki ayakkabı satışının **16.352.432 ABD doları** olduğu ve bunun **2.174.185 ABD doları** tutarındaki kısmının **Fashions Direct** ’ten geldiği görülür.
+1. Ağaç haritasında, **Kategori** veya **Kategori**'nin içinden bir **Zincir** seçin. Bu işlem, sayfadaki diğer görselleştirmeleri çapraz vurgulayacaktır. Örneğin **050-Shoes** kategorisi seçildiğinde geçen yılki ayakkabı satışının **16.352.432 ABD doları** olduğu ve bunun **2.174.185 ABD doları** tutarındaki kısmının **Fashions Direct**’ten geldiği görülür.
 
    ![Çapraz vurgulamayı gösteren Store Sales Overview raporunun ekran görüntüsü.](media/power-bi-visualization-treemaps/treemaphiliting.png)
 

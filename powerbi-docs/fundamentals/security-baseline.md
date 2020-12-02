@@ -1,18 +1,19 @@
 ---
 title: Power BI için Azure güvenlik temeli
 description: Power BI güvenlik temeli, Azure Güvenlik Karşılaştırması'nda belirtilen güvenlik önerilerini uygulamaya yönelik yordamsal rehberlik ve kaynaklar sunar.
-author: msmbaldwin
-ms.service: security
+author: mbaldwin
+ms.author: margoc
+ms.service: powerbi
+ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
-ms.author: mbaldwin
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b0eb2906463efa95615fa76f3f7dda2a91ef126a
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 9e7aefba7a2e47fbf5249feaab3ac56057ac867c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550577"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386275"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Power BI için Azure güvenlik temeli
 
