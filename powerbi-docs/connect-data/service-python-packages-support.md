@@ -2,19 +2,20 @@
 title: Desteklenen Python paketlerini öğrenin
 description: Power BI’da desteklenen ve desteklenmeyen Python paketleri
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1dc77d2ebf0803430ceeace7e14bfa62a6d2a60
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785245"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401731"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>Power BI hizmetinde Python paketlerini kullanarak görsel oluşturma
 Power BI hizmetinde görseller oluşturmak için güçlü [Python programlama dilini](https://www.python.org/) kullanabilirsiniz. Birçok Python paketi Power BI hizmetinde, çok daha fazlası ise sürekli desteklenir.

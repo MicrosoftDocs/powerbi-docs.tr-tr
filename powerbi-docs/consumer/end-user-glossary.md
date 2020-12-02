@@ -1,21 +1,21 @@
 ---
 title: Power BI iş kullanıcılarına yönelik sözlük
 description: Power BI ile birçok yeni terim ve tanıdık terimlerin yeni kullanımları ortaya çıktı. Power BI hizmetine ilişkin terminolojiye alışmak için sözlüğümüzü kullanabilirsiniz.
-services: power-bi
 author: mihart
+ms.author: mihart
+services: power-bi
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
 ms.date: 11/21/2020
 ms.custom: contperfq1
-ms.author: mihart
-ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 197ebcd029dbe6a6e87b1858da8f35325772237e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514275"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400029"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI hizmetinin iş kullanıcılarına yönelik sözlük    
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.

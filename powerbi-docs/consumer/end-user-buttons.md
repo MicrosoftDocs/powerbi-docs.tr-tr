@@ -2,19 +2,19 @@
 title: Power BI hizmetindeki düğmelerin nasıl çalıştığını öğrenin
 description: Düğmeler; rapor içi gezinti, detaylandırma ve çapraz rapor detaylandırma gibi çeşitli eylemleri başlatmak için kullanılabilir
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982182"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400972"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI hizmetindeki düğmeler
 İş arkadaşlarınızın gönderdiği raporlardaki düğmeleri fark etmiş ve bunların nasıl kullanılacağını öğrenmek istemiş olabilirsiniz. Bu düğmelerin bazılarının üzerinde sözcükler, bazılarında oklar, diğerlerinde ise grafikler ve hatta açılan menüler bulunur. Bu makale, düğmeleri tespit etme ve gerçekleştirdikleri işlemleri öğrenme konusunda size yol gösterecektir.

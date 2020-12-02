@@ -2,19 +2,19 @@
 title: Rapor görsellerindeki dalgalanmaları açıklamak için Analiz özelliğini kullanma
 description: Power BI hizmetinde artışlar veya düşüşler hakkında kolayca öngörü elde edin
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 9d66ec405ebec8c2da59a37cd986098444979c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401409"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Rapor görsellerindeki dalgalanmaları açıklamak için Analiz özelliğini kullanma
 

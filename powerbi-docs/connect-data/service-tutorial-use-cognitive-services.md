@@ -2,20 +2,20 @@
 title: "Öğretici: Power BI’da Bilişsel Hizmetler'i (Önizleme) kullanma"
 description: Bu öğreticide Power BI'da Bilişsel Hizmetler'i ve veri akışlarını kullanacaksınız.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397197"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401501"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma
 
@@ -48,17 +48,17 @@ Başlangıç olarak Premium kapasiteye sahip Power BI çalışma alanına gidin 
 
 ![Oluştur ve Pano öğelerinin seçili olduğu Power BI çalışma alanını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
-Veri akışı iletişim kutusunda size yeni veri akışı oluşturma seçenekleri gösterilir; **Yeni varlıklar ekle** 'yi seçin. Ardından, veri kaynakları menüsünde **Metin/CSV** 'yi seçin.
+Veri akışı iletişim kutusunda size yeni veri akışı oluşturma seçenekleri gösterilir; **Yeni varlıklar ekle**'yi seçin. Ardından, veri kaynakları menüsünde **Metin/CSV**'yi seçin.
 
 ![Bir veri kaynağı seçin altında Metin/CSV'yi gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-Bu URL'yi URL alanına yapıştırın: [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) ve **İleri** 'ye tıklayın.
+Bu URL'yi URL alanına yapıştırın: [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) ve **İleri**'ye tıklayın.
 
 ![URL'nin girildiği Veri kaynağına bağlanma adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
 Veriler artık metin analizinde kullanılmaya hazırdır ve müşteri yorumları sütununda Yaklaşım Puanlaması'nı ve Anahtar İfade Ayıklama'yı kullanabiliriz.
 
-Power Query Düzenleyicisi'nde **AI İçgörüler** 'i seçin
+Power Query Düzenleyicisi'nde **AI İçgörüler**'i seçin
 
 ![Tüm içgörüler'in seçili olduğu Sorguları düzenle adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
@@ -70,9 +70,9 @@ Power Query Düzenleyicisi'nde **AI İçgörüler** 'i seçin
 
 ![Metin açılan menüsünü içeren İşlevi çağır iletişim kutusunu gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-Şimdi **Çağır** 'ı işlevi çalıştırın. Tabloya her satırın yaklaşım puanını içeren yeni bir sütun eklenir. **AI içgörüler** 'e dönüp aynı yöntemle inceleme metninin anahtar ifadelerini ayıklayabilirsiniz.
+Şimdi **Çağır**'ı işlevi çalıştırın. Tabloya her satırın yaklaşım puanını içeren yeni bir sütun eklenir. **AI içgörüler**'e dönüp aynı yöntemle inceleme metninin anahtar ifadelerini ayıklayabilirsiniz.
 
-Dönüştürmeleri tamamladıktan sonra sorgu adını 'Customer comments' olarak değiştirin ve **Bitti** 'yi seçin.
+Dönüştürmeleri tamamladıktan sonra sorgu adını 'Customer comments' olarak değiştirin ve **Bitti**'yi seçin.
 
 ![Ad'ın vurgulandığı Sorguları düzenle adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
@@ -84,9 +84,9 @@ Veri akışı kaydedildikten ve yenilendikten sonra, bu veri akışını Power B
 
 ### <a name="step-2-connect-from-power-bi-desktop"></a>2\. Adım: Power BI Desktop'tan bağlanma
 
-Power BI Desktop'ı açın. Giriş şeridinde **Veri Al** 'ı seçin.
+Power BI Desktop'ı açın. Giriş şeridinde **Veri Al**'ı seçin.
 
-Power BI bölümünde **Power BI veri akışları (Beta** ) öğesine gidin ve **Bağlan** 'ı seçin.
+Power BI bölümünde **Power BI veri akışları (Beta**) öğesine gidin ve **Bağlan**'ı seçin.
 
 ![Power BI veri akışlarının seçili olduğu Veri Al bölmesini gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -94,7 +94,7 @@ Bu bir önizleme özelliği olduğundan, bağlayıcı önizleme koşullarını k
 
 ![Kuruluş hesabınız için oturum açma iletisini gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
-Az önce oluşturduğunuz veri akışını seçin. Müşteri yorumları tablosuna gidin ve **Yükle** 'ye tıklayın.
+Az önce oluşturduğunuz veri akışını seçin. Müşteri yorumları tablosuna gidin ve **Yükle**'ye tıklayın.
 
 ![Müşteri yorumları tablosunun seçili olduğu Gezgin'i gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
@@ -106,11 +106,11 @@ Premium kapasiteye sahip Power BI çalışma alanına gidin. Ekranın sağ üst 
 
 ![Oluştur ve Veri akışı öğelerinin seçili olduğu Power BI çalışma alanını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
-**Yeni varlıklar ekle** 'yi seçin.
+**Yeni varlıklar ekle**'yi seçin.
 
 ![İş akışı oluşturmaya başlamak için yeni varlık ekleme seçeneğini gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
-Veri kaynağı seçmeniz istendiğinde **Boş sorgu** 'yu seçin.
+Veri kaynağı seçmeniz istendiğinde **Boş sorgu**'yu seçin.
 
 ![Bir veri kaynağı seçin altında Boş sorgu'yu gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
@@ -128,7 +128,7 @@ in
 
 ![Sorgunuzu ve İleri düğmesini gösteren Veri kaynağına bağlanma adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
-Kimlik bilgileri istendiğinde *Anonim* 'i seçin.
+Kimlik bilgileri istendiğinde *Anonim*'i seçin.
 
 ![Kimlik bilgilerinin belirtilebileceği Sorguları düzenle adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
@@ -138,7 +138,7 @@ Aşağıdaki resmi görürsünüz.
 
 Tek tek her web sayfası için kimlik bilgileri sağlamanız istenir.
 
-Sorgu düzenleyicisinde **AI İçgörüler** 'i seçin.
+Sorgu düzenleyicisinde **AI İçgörüler**'i seçin.
 
 ![Tüm içgörüler'in seçili olduğu ve bir uyarının görüntülendiği Sorguları düzenle adımını gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
@@ -164,11 +164,11 @@ Tag Images işlevini seçin, sütun alanına _[Binary]_ ve kültür bilgisi alan
 
 ![Ters yönü işaret eden iki okun bulunduğu Genişlet düğmesini gösteren ekran görüntüsü.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
-**Bitti** 'yi seçin ve veri akışını kaydedin. Veri akışını yeniledikten sonra, Power BI Desktop'tan Veri Akışları bağlayıcısını kullanarak bu veri akışına bağlanabilirsiniz. (Bu belgenin 5. sayfasındaki adımlara bakın.)
+**Bitti**'yi seçin ve veri akışını kaydedin. Veri akışını yeniledikten sonra, Power BI Desktop'tan Veri Akışları bağlayıcısını kullanarak bu veri akışına bağlanabilirsiniz. (Bu belgenin 5. sayfasındaki adımlara bakın.)
 
 ## <a name="clean-up-resources"></a>Kaynakları temizleme
 
-Artık ihtiyacınız kalmadığında Power Query düzenleyicisinde sorgu adına sağ tıklayıp **Sil** 'i seçerek sorguyu silin.
+Artık ihtiyacınız kalmadığında Power Query düzenleyicisinde sorgu adına sağ tıklayıp **Sil**'i seçerek sorguyu silin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -2,18 +2,18 @@
 title: Şablon uygulamaları örnekleri
 description: AppSource’da şablon uygulamaları olarak kişisel kullanım veya yeniden dağıtım örnekleri
 author: paulinbar
+ms.author: painbar
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 10/28/2020
-ms.author: painbar
-ms.openlocfilehash: da044d3507e649f8a1af4258506961d26aa4ab37
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 65c3ccf13bb63248c123c5c494b91ca742c77715
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045107"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401432"
 ---
 # <a name="template-apps-samples"></a>Şablon uygulamaları örnekleri
 

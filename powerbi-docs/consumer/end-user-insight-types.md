@@ -2,19 +2,19 @@
 title: Power BI tarafından desteklenen Öngörü türleri
 description: Power BI ile Hızlı Öngörüler Öngörüleri görüntüleme.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045286"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400144"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -27,7 +27,7 @@ Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri
 ![bir grup İçgörü](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
-Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları* , pano kutucuklarında İçgörüleri çalıştırabilir.
+Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları*, pano kutucuklarında İçgörüleri çalıştırabilir.
 
 ## <a name="some-terminology"></a>Bazı terimler
 Power BI İçgörüleri ortaya çıkarmak için istatistiksel algoritmalar kullanır. Algoritmalar bu makalenin sonraki bölümünde listelenmiş ve açıklanmıştır. Algoritmalara gelmeden önce burada tanımıyor olabileceğiniz bazı terimlerin açıklamalarını sağladık. 

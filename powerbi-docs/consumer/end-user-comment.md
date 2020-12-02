@@ -2,20 +2,20 @@
 title: Panolara ve raporlara açıklama ekleme
 description: Bu belgede, bir panoya, rapora veya görsele açıklama ekleme ve birlikte çalıştığınız kişilerle konuşmak için açıklamaları kullanma işlemleri gösterilir.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375111"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400765"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
 
