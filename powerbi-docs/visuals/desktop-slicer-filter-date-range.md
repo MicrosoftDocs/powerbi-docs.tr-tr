@@ -2,19 +2,19 @@
 title: Power BI’da göreli tarih dilimleyicisi veya filtre kullanma
 description: Power BI’da göreli tarih aralıklarını kısıtlama amacıyla dilimleyicileri veya filtreleri kullanmayı öğrenin
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: rien
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 8d83a2b655c7a4dd788e34ce5744daaac0f73f63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412844"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397490"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI’da göreli tarih dilimleyicisi ve filtresi oluşturma
 
@@ -36,7 +36,7 @@ Tuvalinizin üzerinde dilimleyiciyi ve sonra dilimleyici görselinin sağ üst k
 
 ![Karatın çevresinde bir açıklama balonu ve Göreli ifadesini işaret eden bir okla birlikte dilimleyici görselinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
-Göreli tarih dilimleyici için *Göreli* 'yi seçin.
+Göreli tarih dilimleyici için *Göreli*'yi seçin.
 
 Ardından ayarları seçebilirsiniz.
 
@@ -64,7 +64,7 @@ Ardından ayarları seçebilirsiniz.
 * Yıl
 * Yıl (Takvim)
 
-Listeden **Ay** 'ı seçip ortadaki ayara *2* girerseniz şu olur:
+Listeden **Ay**'ı seçip ortadaki ayara *2* girerseniz şu olur:
 
 * Bugün 20 Temmuz ise:
 
@@ -79,11 +79,11 @@ Raporunuzun bir sayfası veya tamamı için göreli tarih aralığı filtresi de
 
 ![Sayfa düzeyi filtreleri bölmesine sürüklenen OrderDate alanının ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 
-Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, **göreli tarih dilimleyiciyi** özelleştirme işlemiyle benzerdir. **Filtre Türü** açılan menüsünden **Göreli tarih filtresi** 'ni seçin.
+Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, **göreli tarih dilimleyiciyi** özelleştirme işlemiyle benzerdir. **Filtre Türü** açılan menüsünden **Göreli tarih filtresi**'ni seçin.
 
 ![Filtre Türü açılır listesi ve Göreli Tarih filtrelemesi üzerindeki fare işaretçisini gösteren ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-07.png)
 
-**Göreli tarih filtresi** 'ni seçtikten sonra dilimleyicide olduğu gibi değiştirebileceğiniz ve ortada bir sayısal kutusu bulunan üç bölüm görünür.
+**Göreli tarih filtresi**'ni seçtikten sonra dilimleyicide olduğu gibi değiştirebileceğiniz ve ortada bir sayısal kutusu bulunan üç bölüm görünür.
 
 ![Değer seçenekleri ile birlikte Öğeleri göster seçeneğini işaret eden oklarla Rapor düzeyi filtrelerinin ekran görüntüsü.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-08.png)
 
@@ -92,9 +92,9 @@ Bu noktadan sonra göreli tarih aralığını değiştirebilirsiniz. Bu işlem, 
 **Göreli tarih aralığı dilimleyici** ve filtresi için geçerli sınırlamalar ve önemli noktalar aşağıda belirtilmiştir.
 
 * Dilimleyicideki alanın veri türü, varsayılan metin türü değil, tarih olmalıdır. Aksi takdirde, göreli seçenekler dilimleyicide gösterilmez.
-* **Power BI** 'daki veri modellerinde saat dilimi bilgisi yoktur. Modeller saat bilgisi depolayabilir ancak bulundukları saat dilimiyle ilgili bir belirtim mevcut değildir.
+* **Power BI**'daki veri modellerinde saat dilimi bilgisi yoktur. Modeller saat bilgisi depolayabilir ancak bulundukları saat dilimiyle ilgili bir belirtim mevcut değildir.
 * Dilimleyici ve filtre her zaman UTC cinsinden saati temel alır. Bir raporda filtre oluşturup farklı bir saat dilimindeki iş arkadaşınıza gönderirseniz, her ikiniz de aynı verileri görürsünüz. UTC saat diliminde değilseniz, hem sizin hem de iş arkadaşınızın aradaki saat farkını dikkate alması gerekir.
-* **Sorgu Düzenleyicisi** 'ni kullanarak bir yerel saat diliminde yakalanan verileri UTC'ye dönüştürebilirsiniz.
+* **Sorgu Düzenleyicisi**'ni kullanarak bir yerel saat diliminde yakalanan verileri UTC'ye dönüştürebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

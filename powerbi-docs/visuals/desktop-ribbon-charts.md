@@ -1,20 +1,20 @@
 ---
 title: Power BI'daki şerit grafikleri kullanma
 description: Power BI Desktop'ta şerit grafikler oluşturma ve bunları kullanma
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9fea98f30403d9325ed2c6826418220cdd29ade8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413143"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397647"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI'da şerit grafikleri oluşturma
 
@@ -33,7 +33,7 @@ Verileri görselleştirmek ve hangi veri kategorisinin en yüksek dereceye (en y
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -49,11 +49,11 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
     Şerit grafikler, şeritler kullanarak görselleştirilen zaman sürekliliği üzerinden bir veri kategorisine bağlanır ve belirli bir kategorinin, grafiğin x ekseni (genellikle zaman çizelgesi) aralığındaki sıralamasını görmenize olanak sağlar.
 
-2. **Eksen** , **Gösterge** ve **Değer** için alanları seçin.  Biz bu örnekte şunları seçtik: **Store** > **OpenDate** , **Item** > **Category** ve **Sales** > **This year sales** > **Value**.  
+2. **Eksen**, **Gösterge** ve **Değer** için alanları seçin.  Biz bu örnekte şunları seçtik: **Store** > **OpenDate**, **Item** > **Category** ve **Sales** > **This year sales** > **Value**.  
 
     ![seçili Alanlar](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Veri kümesi tek bir yılın verilerini içerdiğinden, **Eksen** 'den **Year** ve **Quarter** alanını da kaldırdık.
+    Veri kümesi tek bir yılın verilerini içerdiğinden, **Eksen**'den **Year** ve **Quarter** alanını da kaldırdık.
 
 3. Şerit grafiğinde tüm ayların derecelendirmesi gösterilir. Zaman içinde derecelendirmenin nasıl değiştiğine dikkat edin. Örneğin Home kategorisi Şubat'tan Mart'ta kadar ikinci sıradan beşinci sıraya geçmiş.
 
@@ -66,12 +66,12 @@ Bir şerit grafik oluşturduğunuzda **Görsel Öğeler** bölmesinin **Biçim**
 
 Şerit grafikleri için bu biçimlendirme seçenekleri ayarlar yapmanızı sağlar.
 
-* **Aralık** , şeritler arasında ne kadar boşluk olacağını ayarlamanıza olanak sağlar. Sütunun maksimum yüksekliğinin yüzde cinsinden değeridir.
-* **Seri rengini eşleştir** , şeritlerin rengiyle seri rengini eşleştirmenizi sağlar. **Kapalı** olarak ayarlandığında, şeritler gridir.
-* **Saydamlık** , şeritlerin saydamlığını belirler ve varsayılan olarak 30 değerine ayarlanmıştır.
-* **Kenarlık** , şeritlerin üst ve alt kısımlarına koyu renkli bir kenarlık yerleştirmenize olanak sağlar. Varsayılan olarak kenarlıklar kapalıdır.
+* **Aralık**, şeritler arasında ne kadar boşluk olacağını ayarlamanıza olanak sağlar. Sütunun maksimum yüksekliğinin yüzde cinsinden değeridir.
+* **Seri rengini eşleştir**, şeritlerin rengiyle seri rengini eşleştirmenizi sağlar. **Kapalı** olarak ayarlandığında, şeritler gridir.
+* **Saydamlık**, şeritlerin saydamlığını belirler ve varsayılan olarak 30 değerine ayarlanmıştır.
+* **Kenarlık**, şeritlerin üst ve alt kısımlarına koyu renkli bir kenarlık yerleştirmenize olanak sağlar. Varsayılan olarak kenarlıklar kapalıdır.
 
-Şerit grafiğinin y ekseninde etiket olmadığından, veri etiketleri eklemek isteyebilirsiniz. Biçimlendirme bölmesinde **Veri etiketleri** 'ni seçin. 
+Şerit grafiğinin y ekseninde etiket olmadığından, veri etiketleri eklemek isteyebilirsiniz. Biçimlendirme bölmesinde **Veri etiketleri**'ni seçin. 
 
 ![veri etiketleri için biçimlendirme seçenekleri](media/desktop-ribbon-charts/power-bi-labels.png)
 
