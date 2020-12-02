@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297634"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406791"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -42,11 +42,11 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
    
    Kuruluşunuzda Web’de yayımlama özelliğini etkinleştirebilecek kişiyi bulmanıza yardımcı olması için bu makalenin devamındaki [Power BI yöneticinizi bulma](#find-your-power-bi-administrator) bölümüne bakın.
 
-3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur** ’u seçin.
+3. İletişim kutusunun içeriğini inceleyin ve **Ekleme kodu oluştur**’u seçin.
 
    ![Genel bir web sitesine eklemeyi gözden geçirme](media/service-publish-to-web/publish_to_web2_ga.png)
 
-4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla** 'yı seçin.
+4. Burada gösterildiği gibi uyarıyı gözden geçirin ve verilerin genel bir web sitesine eklenmeye uygun olduğunu onaylayın. Uygunsa **Yayımla**'yı seçin.
 
    ![Uyarıyı gözden geçirme](media/service-publish-to-web/publish_to_web3_ga.png)
 
@@ -54,7 +54,7 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
 
    ![Başarılı: bir bağlantı ve HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla** ’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
+6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
 
    ![Kod ekleme iletişim kutusu](media/service-publish-to-web/publish_to_web5.png)
 
@@ -72,7 +72,7 @@ Aşağıdaki tabloda Görünüm Modu ve raporun eklendiği zaman nasıl görüne
 | Görünüm Modu | Eklendiğinde nasıl görüneceği |
 | --- | --- |
 | ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Sayfaya sığdır** ayarı, raporunuzun sayfasının yükseklik ve genişliğini dikkate alır. Sayfanızı 16:9 veya 4:3 gibi *dinamik* oranlara ayarladıysanız içeriğiniz iFrame içine sığacak şekilde ölçeklendirilir. **Sayfaya sığdır** ayarını kullanan raporlar bir iFrame’e eklendiğinde *sinemaskop* etkisine maruz kalabilir. Bu durumda içerik iFrame içine sığacak şekilde ölçeklendirildikten sonra iFrame alanında gri renkli arka plan gösterilir. Bu etkiyi en aza indirmek için iFrame’in yükseklik ve genişlik ayarını uygun şekilde değiştirin. |
-| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut** , raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Gerçek boyut**, raporunuzun rapor sayfasındaki boyutunu korumasını sağlar. Bunun sonucunda iFrame içinde kaydırma çubukları görüntülenebilir. Kaydırma çubuklarının gösterilmemesi için iFrame yükseklik ve genişlik ayarını değiştirin. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Genişliğe uydur** ayarı, içeriğin iFrame’in yatay alanını doldurmasını sağlar. Kenarlık gösterilmeye devam eder ancak içerik yatay boşluğun tamamını kullanacak şekilde ölçeklendirilir. |
 
 ### <a name="tips-for-iframe-height-and-width"></a>iFrame yükseklik ve genişlik ayarlarıyla ilgili ipuçları
@@ -98,7 +98,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
 **Web'de yayımla** ekleme kodunu oluşturduktan sonra kodlarınızı Power BI'ın **Ayarlar** menüsünden yönetebilirsiniz. Ekleme kodlarını yöneterek belirli bir kodun içindeki hedef görseli veya raporu kaldırabilir (ekleme kodunu geçersiz kılabilir) veya ekleme kodunu alabilirsiniz.
 
-1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet** 'i seçin.
+1. **Web'de yayımla** özelliğiyle oluşturduğunuz ekleme kodlarını yönetmek için **Ayarlar** menüsünü açıp **Ekleme kodlarını yönet**'i seçin.
 
    ![Ekleme kodlarını yönet](media/service-publish-to-web/publish_to_web8.png)
 
@@ -110,7 +110,7 @@ Daha iyi bir yerleşim sağlamak için iFrame’in yükseklik değerine 56 pikse
 
    ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
-4. **Sil** ’i seçerseniz onaylamanız istenir.
+4. **Sil**’i seçerseniz onaylamanız istenir.
 
    ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
@@ -182,7 +182,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](/office365/admin/admin-overvi
 
 ## <a name="limitations"></a>Sınırlamalar
 
-**Web’de yayımlama** , Power BI hizmetindeki çok sayıda veri kaynağı ve rapor için desteklenir. Ancak, şu rapor türleri şu anda desteklenmez veya **Web’de yayımlamak** için kullanılamaz:
+**Web’de yayımlama**, Power BI hizmetindeki çok sayıda veri kaynağı ve rapor için desteklenir. Ancak, şu rapor türleri şu anda desteklenmez veya **Web’de yayımlamak** için kullanılamaz:
 
 - Satır düzeyi güvenlik kullanan raporlar.
 - Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.

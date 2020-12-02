@@ -2,18 +2,18 @@
 title: Uygulamayı Power BI'da yayımlama
 description: Yerleşik gezintiyle pano ve rapor koleksiyonları olan yeni uygulamaları yayımlamayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526456"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407711"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 

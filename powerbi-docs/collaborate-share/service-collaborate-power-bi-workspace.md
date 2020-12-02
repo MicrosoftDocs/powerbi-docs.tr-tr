@@ -2,19 +2,19 @@
 title: Klasik bir çalışma alanında işbirliği yapma
 description: Microsoft 365 hizmetlerini (OneDrive İş'te dosya paylaşımı, Exchange'de sohbet, takvim ve görevler gibi) kullanarak çalışma alanınızda Power BI Desktop dosyaları üzerinde işbirliği yapma konusunda bilgi edinin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fdfe212825cc522aa7965f46d112ece4a1db35c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9017d5c938ec0382e2fb27b00e7fe08945e10a5b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226799"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407642"
 ---
 # <a name="collaborate-in-a-classic-workspace"></a>Klasik bir çalışma alanında işbirliği yapma
 Power BI çalışma alanları panolar, raporlar ve veri kümeleri üzerinde iş arkadaşlarınızla işbirliği yapıp *uygulamalar* oluşturabileceğiniz harika platformlardır. Bu makale, orijinal, *klasik* çalışma alanlarını ele alır.  

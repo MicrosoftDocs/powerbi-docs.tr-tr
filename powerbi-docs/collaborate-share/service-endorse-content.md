@@ -2,28 +2,28 @@
 title: İçeriğinizi onaylama
 description: Power BI içeriğini nasıl yükselteceğinizi ve onaylayacağınızı öğrenin.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95e4f2e560ebbb7d97d011944e35344239d048f2
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92682024"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407067"
 ---
 # <a name="endorse-your-content"></a>İçeriğinizi onaylama
 
-Power BI değerli, yüksek kaliteli içeriklerinizin görünürlüğünü artırmak üzere onları onaylamak için kullanabileceğiniz iki yol sağlar: **yükseltme** ve **onaylama** .
+Power BI değerli, yüksek kaliteli içeriklerinizin görünürlüğünü artırmak üzere onları onaylamak için kullanabileceğiniz iki yol sağlar: **yükseltme** ve **onaylama**.
 
-* **Yükseltme** : Yükseltme, değerli olduğunu ve başkalarının da kullanabileceğini düşündüğünüz içerikleri vurgulamanın bir yoludur. İçeriklerin kuruluş içinde işbirliğine dayalı bir şekilde kullanılmasını ve yayılmasını teşvik eder.
+* **Yükseltme**: Yükseltme, değerli olduğunu ve başkalarının da kullanabileceğini düşündüğünüz içerikleri vurgulamanın bir yoludur. İçeriklerin kuruluş içinde işbirliğine dayalı bir şekilde kullanılmasını ve yayılmasını teşvik eder.
 
     Tüm içerik sahipleri ve içeriğin bulunduğu çalışma alanı üzerinde yazma izinleri olan tüm üyeler, paylaşım için yeterince iyi olduğunu düşündükleri içerikleri yükseltebilir.
 
-* **Onaylama** : Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
+* **Onaylama**: Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
 
     İçerikleri yalnızca yetkili gözden geçirenler onaylayabilir. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
 
@@ -65,7 +65,7 @@ Onay hakkında daha fazla bilgi edinmek için bkz. [Onay: Power BI içeriklerini
 
 1. İçeriği onaylamaya karar verirseniz bulunduğu çalışma alanına gidin ve ardından onaylamak istediğiniz içeriğin [Ayarlar](#how-to-get-to-content-settings) sayfasını açın.
 
-1. Onay bölümünü genişletin ve **Onaylandı** 'yı seçin. 
+1. Onay bölümünü genişletin ve **Onaylandı**'yı seçin. 
 
     ![İçerik onaylama düğmesinin ekran görüntüsü.](media/service-endorse-content/power-bi-certify-content.png)
 
@@ -91,13 +91,13 @@ Onay hakkında daha fazla bilgi edinmek için bkz. [Onay: Power BI içeriklerini
 
 Onay iletişim kutusuna ulaşmak için onaylamak istediğiniz içeriğin ayarlarına girmeniz gerekir. Aşağıda her bir içerik türünde Ayarlar sayfasına erişmek için yapmanız gerekenler listelenmiştir.
 
-* **Veri kümeleri** : Liste görünümünde onaylamak istediğiniz veri kümesinin üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar** 'ı seçin.
-* **Veri akışları** (önizleme): Liste görünümünde onaylamak istediğiniz veri akışının üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar** 'ı seçin.
+* **Veri kümeleri**: Liste görünümünde onaylamak istediğiniz veri kümesinin üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar**'ı seçin.
+* **Veri akışları** (önizleme): Liste görünümünde onaylamak istediğiniz veri akışının üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar**'ı seçin.
 
 
-* **Raporlar** (önizleme): Liste görünümünde onaylamak istediğiniz raporun üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar** 'ı seçin. Alternatif olarak rapor açıkken **Dosya > Ayarlar** 'ı seçebilirsiniz.
+* **Raporlar** (önizleme): Liste görünümünde onaylamak istediğiniz raporun üzerine gelin, **Diğer seçenekler (...)** öğesine tıklayın ve açılan menüden **Ayarlar**'ı seçin. Alternatif olarak rapor açıkken **Dosya > Ayarlar**'ı seçebilirsiniz.
 
-* **Uygulamalar** (önizleme): Uygulama çalışma alanına gidin, menü çubuğundan **Diğer seçenekler (...)** öğesine tıklayıp **Bu uygulamayı onayla** 'yı seçin.
+* **Uygulamalar** (önizleme): Uygulama çalışma alanına gidin, menü çubuğundan **Diğer seçenekler (...)** öğesine tıklayıp **Bu uygulamayı onayla**'yı seçin.
 
     ![Uygulama ayarları bağlantısının ekran görüntüsü.](media/service-endorse-content/power-bi-app-settings.png)
 

@@ -2,19 +2,19 @@
 title: Power BI aboneliğinizi yeni Yerel Almanya bölgelerine geçirme
 description: Mevcut Microsoft Bulut Almanya (Microsoft Cloud Deutschland) müşterilerinin Power BI kullanıcılarını yeni Yerel Almanya bölgelerine nasıl geçirebileceği konusunda bilgi sağlar.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668241"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408492"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>Aboneliğinizi yeni Yerel Almanya bölgelerine geçirme
 

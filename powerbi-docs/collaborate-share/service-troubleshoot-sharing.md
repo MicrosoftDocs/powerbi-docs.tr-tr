@@ -2,19 +2,20 @@
 title: Panoları ve raporları paylaşma sorunlarını giderme
 description: Power BI panolarını ve raporları kuruluşunuzdaki iş arkadaşlarınızla ve kuruluş dışındaki diğer kullanıcılarla paylaşma sorunlarını giderme.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: troubleshooting
 ms.date: 06/23/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ef78847829ef292a16856a1597a53c95e7d20708
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89d0ddbbcdd5caf47256fc85864590e55a1caa86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85486816"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406690"
 ---
 # <a name="troubleshoot-sharing-dashboards-and-reports"></a>Panoları ve raporları paylaşma sorunlarını giderme
 
