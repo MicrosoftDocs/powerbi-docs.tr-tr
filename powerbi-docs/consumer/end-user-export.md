@@ -2,20 +2,20 @@
 title: Bir Power BI görselinden verileri dışarı aktarma
 description: Bir rapor görselindeki ve pano görselindeki verileri dışarı aktarıp Excel'de görüntüleyin.
 author: mihart
+ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 671bef8f00b79db87b11a059438d873a0641ef91
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462499"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391036"
 ---
 # <a name="export-data-from-a-visual"></a>Bir görseldeki verileri dışarı aktarma
 
@@ -30,16 +30,16 @@ Verileri dışarı aktarmak için Power BI Pro lisansına sahip olmanız veya pa
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Bir Power BI panosunda bulunan görselden
 
-1. Bir Power BI panosu başlatın. Burada * **Pazarlama ve satış örneği** _ uygulamasındaki panoyu kullanacağız. Bu uygulamayı [AppSource.com adresinden indirebilirsiniz](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+1. Bir Power BI panosu başlatın. Burada ***Pazarlama ve satış örneği** _ uygulamasındaki panoyu kullanacağız. Bu uygulamayı [AppSource.com adresinden indirebilirsiniz](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 ).
 
     ![Uygulama panosu](media/end-user-export/power-bi-dashboards.png)
 
-2. Bir görselin üzerine gelerek _ *Diğer seçenekler* * (...) seçeneğini ortaya çıkarın ve tıklayarak eylem menüsünü görüntüleyin.
+2. Bir görselin üzerine gelerek _ *Diğer seçenekler** (...) seçeneğini ortaya çıkarın ve tıklayarak eylem menüsünü görüntüleyin.
 
     ![Üç nokta seçildiğinde görünen menü](media/end-user-export/power-bi-option-menu.png)
 
-3. **CSV'ye Aktar** ’ı seçin.
+3. **CSV'ye Aktar**’ı seçin.
 
 4. Bundan sonra ne olacağı, kullandığınız tarayıcıya bağlıdır. Dosyayı kaydetmeniz istenebilir veya tarayıcının altında dışarı aktarılmış dosyanın bir bağlantısını görebilirsiniz. 
 
@@ -56,7 +56,7 @@ Verileri dışarı aktarmak için Power BI Pro lisansına sahip olmanız veya pa
 ## <a name="from-a-visual-in-a-report"></a>Bir raporda bulunan görselden
 Bir rapordaki görselden verileri .csv veya .xlsx (Excel) biçiminde dışarı aktarabilirsiniz. 
 
-1. Bir panoda, temel alınan raporu açmak için kutucuk seçin.  Bu örnekte, yukarıdakiyle aynı görseli seçiyoruz, *Yılbaşından Bugüne Toplam Birimler Var %* . 
+1. Bir panoda, temel alınan raporu açmak için kutucuk seçin.  Bu örnekte, yukarıdakiyle aynı görseli seçiyoruz, *Yılbaşından Bugüne Toplam Birimler Var %*. 
 
     ![Vurgulanan pano kutucuğu](media/end-user-export/power-bi-export-tile.png)
 
@@ -73,10 +73,10 @@ Bir rapordaki görselden verileri .csv veya .xlsx (Excel) biçiminde dışarı a
 
 4. Özetlenen verileri veya Temel alınan verileri dışarı aktarma seçeneklerini görürsünüz. *Satış ve pazarlama örneği* uygulamasını kullanıyorsanız, **Temel alınan veriler** devre dışı olacaktır. Ancak her iki seçeneğin de etkinleştirildiği raporlarla karşılaşabilirsiniz. Farkı hakkında bir açıklama aşağıda verilmiştir.
 
-    **Özetlenmiş veriler** : Görselde şu anda gördükleriniz için verileri dışarı aktarmak istiyorsanız bu seçeneği belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görselin şu anki durumunu oluşturmak için kullanılan verileri gösterir. Görselde uygulanmış filtreler varsa, dışarı aktardığınız veriler de filtrelenecektir. Örneğin, bu görsel için dışa aktarma işlemi yalnızca 2014 ve merkezi bölgenin verilerini ve yalnızca dört üreticinin verilerini içerir: VanArsdel, Natura, Aliqui ve Pirum. Görselinizin toplamaları (toplam, ortalama vb.) varsa, dışarı aktarma da toplanacaktır. 
+    **Özetlenmiş veriler**: Görselde şu anda gördükleriniz için verileri dışarı aktarmak istiyorsanız bu seçeneği belirtin.  Bu tür bir dışarı aktarma işlemi size yalnızca görselin şu anki durumunu oluşturmak için kullanılan verileri gösterir. Görselde uygulanmış filtreler varsa, dışarı aktardığınız veriler de filtrelenecektir. Örneğin, bu görsel için dışa aktarma işlemi yalnızca 2014 ve merkezi bölgenin verilerini ve yalnızca dört üreticinin verilerini içerir: VanArsdel, Natura, Aliqui ve Pirum. Görselinizin toplamaları (toplam, ortalama vb.) varsa, dışarı aktarma da toplanacaktır. 
   
 
-    **Temel alınan veriler** : Görselde gördüklerinize **ek olarak** temel alınan veri kümesinden ek verileri dışarı aktarmak istiyorsanız bu seçeneği belirleyin.  Buna veri kümesinde bulunmasına karşın görselde kullanılmayan veriler dahil olabilir. Görselde uygulanmış filtreler varsa, dışarı aktardığınız veriler de filtrelenecektir.  Görselinizin toplamaları (toplam, ortalama vb.) varsa, dışarı aktarma işlemi toplamayı kaldırır; temelde verileri düzleştirir. 
+    **Temel alınan veriler**: Görselde gördüklerinize **ek olarak** temel alınan veri kümesinden ek verileri dışarı aktarmak istiyorsanız bu seçeneği belirleyin.  Buna veri kümesinde bulunmasına karşın görselde kullanılmayan veriler dahil olabilir. Görselde uygulanmış filtreler varsa, dışarı aktardığınız veriler de filtrelenecektir.  Görselinizin toplamaları (toplam, ortalama vb.) varsa, dışarı aktarma işlemi toplamayı kaldırır; temelde verileri düzleştirir. 
 
     ![Temel alınan veya özetlenmiş verileri seçtiğiniz menü](media/end-user-export/power-bi-export-underlying.png)
 

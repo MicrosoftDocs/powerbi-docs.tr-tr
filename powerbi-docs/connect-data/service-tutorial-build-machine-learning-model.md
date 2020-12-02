@@ -2,20 +2,20 @@
 title: 'Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma'
 description: Bu öğreticide Power BI'da bir Makine öğrenmesi modeli oluşturacaksınız.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 08/03/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 31b56f4888393c12f94eb4e6d8f819d992a04029
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397243"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392360"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma
 
@@ -46,27 +46,27 @@ Veri kümesini UC Irvine web sitesinden indirebilirsiniz. Bu öğretici için a�
 
 Veri akışınızda varlıkları oluşturmak için, Power BI hizmetinde oturum açın ve yapay zekanın etkinleştirildiği kapasitenizdeki çalışma alanına gidin.
 
-Henüz çalışma alanınız yoksa, Power BI hizmetinin gezinti bölmesi menüsünde **Çalışma Alanları** 'nı ve sonra görüntülenen panelin altındaki **Çalışma alanı oluştur** 'u seçerek bir çalışma alanı oluşturabilirsiniz. Sağ tarafta, çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Bir çalışma alanı adı girin ve **Gelişmiş** 'i seçin. Radyo düğmesini kullanarak çalışma alanının Ayrılmış Kapasite kullandığını ve yapay zeka önizlemesi açık olan bir kapasite örneğine atandığını doğrulayın. Sonra **Kaydet** 'i seçin.
+Henüz çalışma alanınız yoksa, Power BI hizmetinin gezinti bölmesi menüsünde **Çalışma Alanları**'nı ve sonra görüntülenen panelin altındaki **Çalışma alanı oluştur**'u seçerek bir çalışma alanı oluşturabilirsiniz. Sağ tarafta, çalışma alanı ayrıntılarını girebileceğiniz bir panel açılır. Bir çalışma alanı adı girin ve **Gelişmiş**'i seçin. Radyo düğmesini kullanarak çalışma alanının Ayrılmış Kapasite kullandığını ve yapay zeka önizlemesi açık olan bir kapasite örneğine atandığını doğrulayın. Sonra **Kaydet**'i seçin.
 
 ![Çalışma alanı oluşturma](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 
-Çalışma alanı oluşturulduktan sonra, aşağıdaki görüntüde gösterildiği gibi Hoş Geldiniz ekranının sağ alt kısmındaki **Atla** 'yı seçebilirsiniz.
+Çalışma alanı oluşturulduktan sonra, aşağıdaki görüntüde gösterildiği gibi Hoş Geldiniz ekranının sağ alt kısmındaki **Atla**'yı seçebilirsiniz.
 
 ![Bir çalışma alanınız varsa atlayın](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-02.png)
 
- Çalışma alanının sağ üst kısmındaki **Oluştur** düğmesini ve sonra **Veri akışı** 'nı seçin.
+ Çalışma alanının sağ üst kısmındaki **Oluştur** düğmesini ve sonra **Veri akışı**'nı seçin.
 
 ![Veri akışı oluşturma](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-03.png)
 
-**Yeni varlıklar ekle** 'yi seçin. Bu işlem tarayıcıda **Power Query** düzenleyicisini başlatır.
+**Yeni varlıklar ekle**'yi seçin. Bu işlem tarayıcıda **Power Query** düzenleyicisini başlatır.
 
 ![Yeni varlık ekleme](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-04.png)
 
-Aşağıdaki görüntüde gösterilen **Metin/CSV Dosyası** ’nı veri kaynağı olarak seçin.
+Aşağıdaki görüntüde gösterilen **Metin/CSV Dosyası**’nı veri kaynağı olarak seçin.
 
 ![Text/CSF dosyası seçildi](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-05.png)
 
-Daha sonra görüntülenen **Veri kaynağı sayfasına bağlan** menüsünde, aşağıdaki _online_shoppers_intention.csv_ bağlantısını **Dosya yolu veya URL** kutusuna yapıştırın ve sonra **İleri** ’yi seçin.
+Daha sonra görüntülenen **Veri kaynağı sayfasına bağlan** menüsünde, aşağıdaki _online_shoppers_intention.csv_ bağlantısını **Dosya yolu veya URL** kutusuna yapıştırın ve sonra **İleri**’yi seçin.
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
@@ -80,19 +80,19 @@ Power Query sütun türlerini otomatik olarak anlar. Sütun üst bilgisinin üst
 
 ![Veri türünü değiştirme](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-08.png)
 
-**Kaydet ve Kapat** düğmesini seçerek Power Query Düzenleyicisi'ni kapatın. Aşağıdaki görüntüde gösterildiği gibi, veri akışı için bir ad sağlayın ve sonra iletişim kutusunda **Kaydet** ’i seçin.
+**Kaydet ve Kapat** düğmesini seçerek Power Query Düzenleyicisi'ni kapatın. Aşağıdaki görüntüde gösterildiği gibi, veri akışı için bir ad sağlayın ve sonra iletişim kutusunda **Kaydet**’i seçin.
 
 ![Veri akışını kaydetme](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-09.png)
 
 ## <a name="create-and-train-a-machine-learning-model"></a>Makine öğrenmesi modeli oluşturma ve eğitme
 
-Bir makine öğrenmesi modeli eklemek için, eğitim verilerinizi ve etiket bilgilerini içeren temel varlığın **Eylemler** listesindeki **ML modeli uygula** düğmesini seçin ve sonra **Makine öğrenmesi modeli ekle** ’yi seçin.
+Bir makine öğrenmesi modeli eklemek için, eğitim verilerinizi ve etiket bilgilerini içeren temel varlığın **Eylemler** listesindeki **ML modeli uygula** düğmesini seçin ve sonra **Makine öğrenmesi modeli ekle**’yi seçin.
 
 ![Makine öğrenmesi modeli ekle](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-10.png)
 
 Makine öğrenmesi modelimizi oluşturmanın ilk adımı, tahmin etmek istediğiniz sonuç alanını içeren geçmiş verileri tanımlamaktır. Model, bu verilerden öğrenilerek oluşturulacaktır.
 
-Kullandığımız veri kümesi söz konusu olduğunda burası **Revenue** alanıdır. 'Sonuç alanı' için **Revenue** değerini ve sonra **İleri** ’yi seçin.
+Kullandığımız veri kümesi söz konusu olduğunda burası **Revenue** alanıdır. 'Sonuç alanı' için **Revenue** değerini ve sonra **İleri**’yi seçin.
 
 ![Geçmiş verileri seçme](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-11.png)
 
@@ -102,11 +102,11 @@ Bu örnekte bir kullanıcının satın alıp almayacağına ilişkin ikili sonuc
 
 ![İkili tahmin seçildi](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-12.png)
 
-Power BI, verilerinizin bir örneğinin ön taramasını yapar ve daha doğru tahminler üretebilecek girişleri önerir. Power BI bir alan önermezse yanında bir açıklama verilir. Seçimleri yalnızca modelin üzerinde olmasını istediğiniz alanları içerecek şekilde değiştirme seçeneğiniz vardır veya varlık adının yanındaki onay kutusunu seçerek tüm alanları seçebilirsiniz. Girişleri kabul etmek için **İleri** ’yi seçin.
+Power BI, verilerinizin bir örneğinin ön taramasını yapar ve daha doğru tahminler üretebilecek girişleri önerir. Power BI bir alan önermezse yanında bir açıklama verilir. Seçimleri yalnızca modelin üzerinde olmasını istediğiniz alanları içerecek şekilde değiştirme seçeneğiniz vardır veya varlık adının yanındaki onay kutusunu seçerek tüm alanları seçebilirsiniz. Girişleri kabul etmek için **İleri**’yi seçin.
 
 ![İleri onay kutusunu seçin](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-13.png)
 
-Son adımda, modelimiz için bir ad sağlamamız gerekir. Modeli _Satın Alma Amacı Tahmini_ olarak adlandırın. Hızlı sonuçlar görmek için eğitim süresini azaltmayı veya en iyi modeli elde etmek için eğitim süresini artırmayı seçebilirsiniz. Ardından **Kaydet ve eğit** 'i seçerek modeli eğitmeye başlatın.
+Son adımda, modelimiz için bir ad sağlamamız gerekir. Modeli _Satın Alma Amacı Tahmini_ olarak adlandırın. Hızlı sonuçlar görmek için eğitim süresini azaltmayı veya en iyi modeli elde etmek için eğitim süresini artırmayı seçebilirsiniz. Ardından **Kaydet ve eğit**'i seçerek modeli eğitmeye başlatın.
 
 ![Modeli kaydetme](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-14.png)
 
@@ -125,7 +125,7 @@ Model eğitimi tamamlandıktan sonra veri akışı güncel bir yenileme saati g�
 ## <a name="review-the-model-validation-report"></a>Model doğrulama raporunu gözden geçirme
 Model doğrulama raporunu incelemek için, Makine öğrenmesi modelleri sekmesinde modelin Eylem sütunundan Eğitim raporunu görüntüle düğmesini seçin. Bu rapor, makine öğrenmesi modelinizin olası performansını açıklar.
 
-Raporun **Model Performansı** sayfasında, modelinize yönelik en iyi tahmin unsurlarını görüntülemek için **En iyi tahminleri gör** ’ü seçin. Çıkış dağılımının bir tahmin unsuruyla ilişkisini görmek için ilgili tahmin unsurunu seçebilirsiniz.
+Raporun **Model Performansı** sayfasında, modelinize yönelik en iyi tahmin unsurlarını görüntülemek için **En iyi tahminleri gör**’ü seçin. Çıkış dağılımının bir tahmin unsuruyla ilişkisini görmek için ilgili tahmin unsurunu seçebilirsiniz.
 
 ![Model performansı](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-17.png)
 

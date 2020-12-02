@@ -1,21 +1,21 @@
 ---
 title: Power BI'da SQL Server Analysis Services canlı verileri
 description: Power BI'da SQL Server Analysis Services canlı verileri. Bu işlem, kurumsal ağ geçidi için yapılandırılmış olan veri kaynağı aracılığıyla gerçekleştirilir.
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-author: davidiseminger
+author: Minewiskan
 ms.author: davidi
+ms.service: powerbi
+ms.subservice: pbi-data-sources
+ms.topic: how-to
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 81d2f350c524335d3aa8c7fbb9c82a6cb045e9e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916763"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391910"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI'da SQL Server Analysis Services canlı verileri
 
@@ -28,15 +28,15 @@ Power BI'da canlı SQL Server Analysis Services sunucusuna bağlanmak için kull
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Veri al ekranından bir modele bağlanmak için
 
-1. **Çalışma Alanım** 'da **Veri al** 'ı seçin. Varsa grup çalışma alanı da kullanabilirsiniz.
+1. **Çalışma Alanım**'da **Veri al**'ı seçin. Varsa grup çalışma alanı da kullanabilirsiniz.
 
    ![Veri al düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
-2. **Veritabanları ve Daha Fazlası** 'nı seçin.
+2. **Veritabanları ve Daha Fazlası**'nı seçin.
 
    ![Veri al 1 düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
-3. **SQL Server Analysis Services** > **Bağlan** 'ı seçin.
+3. **SQL Server Analysis Services** > **Bağlan**'ı seçin.
 
    ![Veri al 2 düğmesine bağlanma](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 

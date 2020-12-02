@@ -2,20 +2,20 @@
 title: Ücretsiz lisanslara sahip kullanıcılar için özellik kullanılabilirliği
 description: Tüketicilerin ve ücretsiz lisans kullanıcılarının kullanabildiği özellikleri gösteren açıklama ve grafik.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668500"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390737"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
@@ -67,7 +67,7 @@ Aşağıdaki grafik, Premium kapasitede içerikle etkileşime giren bir *iş kul
 
 - ücretsiz kullanıcı lisansına sahiptir
 - Premium kapasite aboneliği olan bir kuruluşun üyesidir
-- Pro kullanıcılarının ayrılmış Premium kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
+- Pro kullanıcılarının Premium kapasitedeki uygulama çalışma alanlarını kullanarak paylaştığı içeriği (uygulamalar, panolar, raporlar) alır.
 - söz konusu uygulama çalışma alanlarında kendisine atanmış **Görüntüleyici** rolüne sahiptir. 
 
 ### <a name="legend"></a>Gösterge

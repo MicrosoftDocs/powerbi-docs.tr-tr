@@ -2,19 +2,19 @@
 title: Görselde detaya gitme ve detaydan çıkma
 description: Bu makalede, Microsoft Power BI hizmetinde bir görselin detayına nasıl gidileceği gösterilir.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2b7d0d281c706673cb23ec4bd0e7ed9f6722f329
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 3456fe1b1c719d5ce085adc3eba32b32de86e883
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982891"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391358"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI’daki görsellerde detay modu
 

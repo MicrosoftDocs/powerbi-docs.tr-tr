@@ -2,20 +2,20 @@
 title: Hangi R paketlerinin desteklendiğini öğrenin
 description: Power BI'da desteklenen ve desteklenmeyen R paketleri
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 1f7168f0faa516828bd795eabd3b0d36ccfa8025
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718880"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392094"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI hizmetinde R paketlerini kullanarak görsel oluşturma
 Power BI hizmetinde görseller oluşturmak için güçlü [R programlama dilini](https://www.r-project.org/) kullanabilirsiniz. Birçok R paketi Power BI hizmetinde desteklenir (ve çok daha fazlası sürekli desteklenir) ancak bazı paketler desteklenmez.
@@ -197,7 +197,7 @@ Aşağıdaki tabloda Power BI'da **desteklenen** paketler gösterilmektedir.
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|
 |data.tree|0.7.5|https://cran.r-project.org/web/packages/data.tree/index.html|
 |veri kümeleri|3.4.4|NA|
-|tarih|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
+|date|1.2-38|https://cran.r-project.org/web/packages/date/index.html|
 |DBI|0,8|https://cran.r-project.org/web/packages/DBI/index.html|
 |dbplyr|1.2.1|https://cran.r-project.org/web/packages/dbplyr/index.html|
 |dbscan|1.1-1|https://cran.r-project.org/web/packages/dbscan/index.html|

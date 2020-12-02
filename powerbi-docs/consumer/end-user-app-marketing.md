@@ -2,19 +2,19 @@
 title: Power BI hizmetinde Satış ve Pazarlama uygulamasını yükleme ve kullanma
 description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Power BI Uygulamaları marketinden Satış ve Pazarlama uygulamasını yükleyin.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ba9b0f461d609cea2efd6d737f86b00554e9c0f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635827"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391772"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI hizmetinde örnek Satış ve Pazarlama uygulamasını yükleme ve kullanma
 
