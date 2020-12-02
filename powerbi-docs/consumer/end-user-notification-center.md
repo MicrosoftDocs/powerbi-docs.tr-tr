@@ -2,20 +2,20 @@
 title: Bildirim Merkezi'ndeki iletileri görüntüleme
 description: Bildirim Merkezi, Power BI deneyiminizle ilgili bilgilerin sıralı bir akışıdır.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 598cbca7756ab6f929180da0c3a95b68643abf00
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763921"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399799"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI bildirimlerini görüntüleme
 
