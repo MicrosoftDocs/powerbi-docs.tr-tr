@@ -2,19 +2,19 @@
 title: Manage your data source - SQL (Veri kaynağınızı yönetme - SQL)
 description: Şirket içi veri ağ geçitlerini ve bu ağ geçitlerine ait SQL Server veri kaynaklarını yönetme.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: bc14eb31aed256b4e70b66cad6243ca317cd0ac6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 513b5b509328641e2c9f4965741b92939526aee1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749472"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402421"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Manage your data source - SQL Server (Veri kaynağınızı yönetme - SQL Server)
 

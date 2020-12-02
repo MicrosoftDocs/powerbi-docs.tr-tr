@@ -1,20 +1,20 @@
 ---
 title: Power BI ile Project Online'a bağlanma
 description: Power BI için Project Online
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 07/25/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e5d97da4d643512396a17e95fb7cae2e841d7521
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527758"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403295"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI ile Project Web App’e bağlanma
 Microsoft Project Web App, proje portföy yönetimi (PPM) ve günlük çalışmalara yönelik esnek bir çevrimiçi çözümdür. Project Web App, kuruluşların çalışmaya başlayarak proje portföy yatırımlarını önceliklendirmesine ve planlanan iş değerini sunmasına olanak sağlar. Power BI için Project Web App Şablon Uygulaması, projelerin, portföylerin ve kaynakların yönetimine yardımcı olmak için Project Web App’te içgörü ortaya çıkarmanıza olanak sağlar.

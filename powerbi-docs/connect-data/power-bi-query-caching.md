@@ -5,16 +5,16 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: bhmerc
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 03e9862a82cef0946bdb81767c659e6afb330fc9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8495ccd75fec49079e87312bbf5a7693b78b3e6b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219540"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404146"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Power BI Premium/Embedded’de sorguları önbelleğe alma
 

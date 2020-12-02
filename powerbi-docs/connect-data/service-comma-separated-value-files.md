@@ -2,19 +2,19 @@
 title: Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
 description: CSV dosyalarından Power BI'a veri almayı öğrenin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20c289648dc6e9b9784335c0d92f6725328dfffc
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 01bef505d48f28df869bf2be705dcda963b3d0f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216327"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403341"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Virgülle Ayrılmış Değer (.CSV) dosyalarından veri alma
 ![CSV simgesi](media/service-comma-separated-value-files/csv_icon.png)

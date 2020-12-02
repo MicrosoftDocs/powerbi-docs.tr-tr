@@ -2,18 +2,18 @@
 title: Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma - Power BI
 description: Power BI’da şablon uygulamalarını kuruluşunuzda yükleme, özelleştirme ve dağıtma hakkında bilgi edinin.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: painbar
-ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763792"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402007"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma
 
@@ -38,7 +38,7 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 
     ![Uygulamaları edinin](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. Karşınıza çıkan Power BI Uygulamaları marketinde**Şablon uygulamaları**’nı seçin. AppSource’ta kullanılabilir olan tüm şablon uygulamaları gösterilir. Aradığınız şablon uygulamasını bulmak için göz atın veya arama kutusunu kullanarak, filtrelenmiş bir seçim alın. Şablon uygulamasının veya finans, analiz, pazarlama gibi bir kategori adının bir kısmını yazmak, aradığınız öğeyi bulmanızı kolaylaştırır.
+1. Karşınıza çıkan Power BI Uygulamaları marketinde **Şablon uygulamaları**’nı seçin. AppSource’ta kullanılabilir olan tüm şablon uygulamaları gösterilir. Aradığınız şablon uygulamasını bulmak için göz atın veya arama kutusunu kullanarak, filtrelenmiş bir seçim alın. Şablon uygulamasının veya finans, analiz, pazarlama gibi bir kategori adının bir kısmını yazmak, aradığınız öğeyi bulmanızı kolaylaştırır.
 
     ![AppSource'ta arama](media/service-template-apps-install-distribute/power-bi-appsource.png)
 

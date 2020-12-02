@@ -5,16 +5,16 @@ author: arthiriyer
 ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 1d91792d544854d5a98b1966b2561196249ff7c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d0b5ff4bbf14012eb0a60759007fa0d021befea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302863"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402168"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Şirket içi veri ağ geçidi nedir?
 

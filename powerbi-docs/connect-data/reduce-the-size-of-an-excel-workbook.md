@@ -2,19 +2,19 @@
 title: Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
 description: Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9996b8e3f571a04dc41d138947532f3ab402057a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234789"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404100"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI'da görüntülemek üzere bir Excel çalışma kitabının boyutunu azaltma
 Power BI'a boyutu 1 GB'ın altındaki herhangi bir Excel çalışma kitabını yükleyebilirsiniz. Bir Excel çalışma kitabı iki bölümden oluşabilir: Veri Modeli ve raporun geri kalanını oluşturan temel çalışma sayfası içeriği. Aşağıdaki boyut sınırlarına uygunsa, raporu **OneDrive İş**'e kaydedebilir, Excel Online'da görüntüleyebilir veya Power BI'dan rapora bağlanabilirsiniz:

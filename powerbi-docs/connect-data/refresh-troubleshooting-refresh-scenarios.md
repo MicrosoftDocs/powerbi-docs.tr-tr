@@ -2,19 +2,19 @@
 title: Yenileme ile ilgili sorun giderme senaryoları
 description: Yenileme ile ilgili sorun giderme senaryoları
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
+ms.subservice: pbi-data-sources
+ms.topic: troubleshooting
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a92314891b4738fc5da735adc361e5c215e83351
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7f8193971176a738b46f628e11736ac6016ec83e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222230"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403778"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 

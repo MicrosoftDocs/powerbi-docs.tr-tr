@@ -2,20 +2,20 @@
 title: Ağ geçidi veri kaynağı ekleme veya kaldırma
 description: Power BI'da şirket içi ağ geçidine veri kaynağı eklemeyi öğrenin.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/03/2020
-ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 55cdbfbe0572986de455ddb05c342af9e019de42
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412582"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402858"
 ---
 # <a name="add-or-remove-a-gateway-data-source"></a>Ağ geçidi veri kaynağı ekleme veya kaldırma
 

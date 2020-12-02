@@ -2,19 +2,19 @@
 title: Yerel bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
 description: Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e3c0a702ccd1035a5f6019b6f439624fcd7c7267
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d836c8d85915332c58032cf535194ca5ce803567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232943"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404031"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Yerel sürücüdeki bir Power BI Desktop dosyasından oluşturulan veri kümelerini yenileme
 

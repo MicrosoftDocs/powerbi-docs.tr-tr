@@ -1,21 +1,21 @@
 ---
 title: DirectQuery ile Azure SQL Veri Ambarı
 description: DirectQuery ile Azure SQL Veri Ambarı
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
 author: davidiseminger
 ms.author: davidi
+ms.service: powerbi
+ms.subservice: pbi-data-sources
+ms.topic: how-to
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f5c8a47ece5d4bc072c5518a12a553b7967059de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4edc60e844f45c91de11771655e9399cd0e073e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859946"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403709"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery ile Azure SQL Veri Ambarı
 

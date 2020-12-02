@@ -1,20 +1,20 @@
 ---
 title: Power BI ile Azure Search'e bağlanma
 description: Power BI için Azure Search
-author: SarinaJoan
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 08/29/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 5c2c5d3b6382fdb85125a71829d62624dab31e83
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216301"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403387"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI ile Azure Search'e bağlanma
 Azure Search Trafik Analizi, Azure Search hizmetinize ilişkin trafiği izleyip anlamanıza olanak sağlar. Power BI için Azure Search içerik paketi, son 30 güne ait Arama ve Dizin Oluşturma verilerinin yanı sıra Hizmet İstatistikleri ve Gecikme Süreleri de dahil olmak üzere Search verilerinize ilişkin ayrıntılı öngörüler sağlar. Daha ayrıntılı bilgiye [Azure blog gönderisinden](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/) ulaşabilirsiniz.

@@ -2,18 +2,18 @@
 title: Hastanede Acil Durum Yanıtlamada Karar Desteği Panosuna Bağlanma
 description: Sağlık hizmetlerindeki acil durumlara yönelik şablon uygulaması için COVID-19 Karar Desteği Panosunu edinme ve yükleme, verilere bağlanma
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854242"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403157"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Hastanede Acil Durum Yanıtlamada Karar Desteği Panosuna Bağlanma
 Hastanede Acil Durum Yanıtlamada Karar Desteği Panosu şablon uygulaması, [Sağlık hizmetlerinde acil müdahale için Microsoft Power Platform çözümünün](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/) raporlama bileşenidir. Sağlık sistemleri genelindeki verileri toplayan bu pano, acil durum yöneticilerinin zamanında ve doğru kararlar almasına yardımcı olur.

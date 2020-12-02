@@ -1,20 +1,20 @@
 ---
 title: Diğer uygulamalardan veya çalışma alanlarından raporları kopyalama - Power BI
 description: Raporun kopyasını oluşturmayı ve bunu kendi çalışma alanınıza kaydetmeyi öğrenin.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 3b635719fdce8f8b194593a2114808e08f34420f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397381"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402904"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Diğer çalışma alanlarından raporları kopyalama
 
