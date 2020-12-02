@@ -2,19 +2,19 @@
 title: Power BI Desktop’ta Python dilini kullanarak Power BI görselleri oluşturma
 description: Python programlama dilini kullanarak Power BI görselleri oluşturma
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/03/2020
-ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9609c18ddb75d0149907e15bb770474c7882837b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 721db43250f94301b09535d9844404668af338ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223197"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404813"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python programlama dilini kullanarak Power BI görselleri oluşturma
 

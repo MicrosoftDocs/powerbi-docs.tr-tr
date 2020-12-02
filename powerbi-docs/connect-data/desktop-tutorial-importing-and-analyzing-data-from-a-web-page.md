@@ -2,20 +2,20 @@
 title: 'Öğretici: Web sayfasından verileri içeri aktarma ve analiz etme'
 description: 'Öğretici: Power BI Desktop kullanarak bir web sayfasından verileri içeri aktarma ve çözümleme'
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2a8c27029a494898849cab39c8bf843d3afc09a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d407da8e11473180f21e62c94f0ab440050beedc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853254"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404836"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak web sayfası verilerini analiz etme
 

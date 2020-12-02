@@ -2,19 +2,19 @@
 title: Power BI Sorgu Düzenleyicisi'nde Python kullanma
 description: Gelişmiş analiz için Power BI Desktop Sorgu Düzenleyicisi'nde Python kullanma
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6e1c18f61cc822cd9656a49a65c98b225709c540
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: fac0b396abd6cde87e7e3b738e53480ce34eba88
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215491"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405181"
 ---
 # <a name="use-python-in-query-editor"></a>Sorgu Düzenleyicisi'nde Python kullanma
 İstatistik uzmanları, veri bilimciler ve veri analistleri tarafından yaygın olarak kullanılan bir programlama dili olan **Python**, Power BI Desktop'taki **Sorgu Düzenleyicisi**'nde kullanılabilir. Python programlama dilinin **Sorgu Düzenleyicisi** ile bu şekilde tümleştirilmesi, Python kullanarak veri temizlemenin yanı sıra veri kümelerinde eksik verilerin tamamlanması, tahminler ve kümeleme gibi gelişmiş veri şekillendirme ve analiz işlemleri gerçekleştirmenize olanak sağlar. **Python** güçlü bir dildir ve bu dili veri modelinizi hazırlamanın yanı sıra raporlar oluşturmak için **Sorgu Düzenleyicisi**'nde kullanabilirsiniz.

@@ -2,19 +2,19 @@
 title: SharePoint Listesinde rapor oluşturma
 description: Bu öğretici, SharePoint Listesi verilerinizi bir Power BI raporuna nasıl dönüştürebileceğinizi gösterir.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5347405c13f71fa0932c48eb218618b28a9f03c8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598649"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404537"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint Listesinde rapor oluşturma
 
@@ -60,7 +60,7 @@ Bu beş dakikalık öğretici videoyu izleyin veya adım adım yönergeler için
 
 1. SharePoint listesi verilerinizin yüklendiğini görmek için sol tarafta **Veri** simgesini seçin.
 
-2. Numara içeren liste sütunlarınızın, sağdaki **Alanları bölmesinde** Sum veya Sigma simgesini gösterdiğinden emin olun.  Numara içermeyen sütunlar için, tablo görünümünde sütun başlığını seçin, **Modelleme** sekmesini seçin, daha sonra verilere bağlı olarak **Veri türü**’nü **Ondalık Sayı** veya **Tamsayı**olacak şekilde değiştirin.  Değişikliklerinizi onaylamanız istenirse **Evet**’i seçin.  Numaranız para birimi gibi özel bir biçimde ise, **Biçim** ayarlayarak da bu seçeneği belirleyebilirsiniz.
+2. Numara içeren liste sütunlarınızın, sağdaki **Alanları bölmesinde** Sum veya Sigma simgesini gösterdiğinden emin olun.  Numara içermeyen sütunlar için, tablo görünümünde sütun başlığını seçin, **Modelleme** sekmesini seçin, daha sonra verilere bağlı olarak **Veri türü**’nü **Ondalık Sayı** veya **Tamsayı** olacak şekilde değiştirin.  Değişikliklerinizi onaylamanız istenirse **Evet**’i seçin.  Numaranız para birimi gibi özel bir biçimde ise, **Biçim** ayarlayarak da bu seçeneği belirleyebilirsiniz.
 
    Bu adımın videosunu izleyin:
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=147&end=204" frameborder="0" allowfullscreen></iframe>

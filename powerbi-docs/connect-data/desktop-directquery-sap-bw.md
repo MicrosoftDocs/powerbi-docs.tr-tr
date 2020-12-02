@@ -2,19 +2,19 @@
 title: Power BI'da DirectQuery ve SAP Business Warehouse (BW)
 description: SAP Business Warehouse (BW) ile DirectQuery kullanımına ilişkin önemli noktalar
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/28/2018
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b7cc8a159139cc53a0e243134b31305dff95812d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 06824a11c2c186dd9ac199e8e9b8155d618b3a0d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216441"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405250"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanarak SAP Business Warehouse'a bağlanma
 **SAP Business Warehouse (BW)** veri kaynaklarına **DirectQuery** kullanarak doğrudan bağlanabilirsiniz. SAP BW'nun OLAP/çok boyutlu yapısı göz önünde bulundurulduğunda DirectQuery'ye SAP BW üzerinden bağlanmakla SQL Server gibi ilişkisel kaynaklar üzerinden bağlanmak arasında birçok önemli farkı vardır. Bu farklar aşağıda özetlenmiştir:

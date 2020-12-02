@@ -2,19 +2,19 @@
 title: Power BI Desktop’ta örneğe göre bir web sayfasından veri ayıklama
 description: Çekmek istediklerinizle ilgili bir örnek vererek web sayfasından veri ayıklama
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 95d3de9adbe8ea1111af5094f2c1993ee189fcdd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632469"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405618"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Örnek sağlayarak web sayfası verilerini alma
 

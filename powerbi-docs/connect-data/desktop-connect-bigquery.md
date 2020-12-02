@@ -2,29 +2,29 @@
 title: Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
 description: Power BI Desktop Google BigQuery uygulamasına kolayca bağlanın ve uygulamayı kullanın
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7cffba9178d4eec0bfd468040b7551768aab7f1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349426"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405894"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop'ta bir Google BigQuery veritabanına bağlanma
 Power BI Desktop'ta bir Google **BigQuery** veritabanına bağlanabilir ve veritabanındaki verileri diğer Power BI Desktop veri kaynakları gibi kullanabilirsiniz.
 
 ## <a name="connect-to-google-bigquery"></a>Google BigQuery'ye bağlanma
-Bir Google **BigQuery** veritabanına bağlanmak için Power BI Desktop'ta **Giriş** şeridinden **Veri Al** 'ı seçin. Soldaki kategorilerden **Veritabanı** 'nı seçtiğinizde **Google BigQuery** 'yi görebilirsiniz.
+Bir Google **BigQuery** veritabanına bağlanmak için Power BI Desktop'ta **Giriş** şeridinden **Veri Al**'ı seçin. Soldaki kategorilerden **Veritabanı**'nı seçtiğinizde **Google BigQuery**'yi görebilirsiniz.
 
 ![Google BigQuery için Veri Al iletişim kutusu](media/desktop-connect-bigquery/connect_bigquery_01.png)
 
-Açılan **Google BigQuery** penceresinde, Google BigQuery hesabınızda oturum açın ve **Bağlan** 'ı seçin.
+Açılan **Google BigQuery** penceresinde, Google BigQuery hesabınızda oturum açın ve **Bağlan**'ı seçin.
 
 ![Google BigQuery'de oturum açma](media/desktop-connect-bigquery/connect_bigquery_02.png)
 
@@ -32,7 +32,7 @@ Oturum açtığınızda aşağıdaki pencereyi gösterirsiniz ve bu kimliğinizi
 
 ![Google'da oturum açıldı](media/desktop-connect-bigquery/connect_bigquery_02b.png)
 
-Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop** 'a aktarılıp kullanılacak bir veya birden çok öğe seçebilirsiniz.
+Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve sunucudaki kullanılabilir verileri görüntüler. Bu veriler arasından **Power BI Desktop**'a aktarılıp kullanılacak bir veya birden çok öğe seçebilirsiniz.
 
 ![Google BigQuery verileri](media/desktop-connect-bigquery/connect_bigquery_03.png)
 

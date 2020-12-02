@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta genel arabirimleri kullanarak verilere bağlanma
 description: Power BI Desktop'ta genel arabirimlerle farklı veri kaynaklarına bağlanmayı öğrenin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 106b2e4f9b829190cff8269342c3239429b41f24
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b7e0ec270ad70be91d5aea598148e69e88df09f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214742"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405572"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop genel arabirimlerini kullanarak verilere bağlanma 
 
