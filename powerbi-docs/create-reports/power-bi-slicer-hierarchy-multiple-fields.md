@@ -2,19 +2,19 @@
 title: Hiyerarşi dilimleyicisine birden çok alan ekleme
 description: Hiyerarşide birden çok alan içeren bir hiyerarşi dilimleyicisi oluşturmayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409590"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393474"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Hiyerarşi dilimleyicisine birden çok alan ekleme
 
@@ -64,7 +64,7 @@ Hiyerarşi dilimleyicilerinde başka biçimlendirme seçenekleri vardır. Geniş
 
 1. Dilimleyiciyi ve sonra **Biçim**’i seçin.
 1. **Öğeler**’i genişletin ve **Genişlet/daralt simgesini** seçin.
-1. **Köşeli Çift Ayraç**, **Artı/eksi**veya **Şapka**’yı seçin.
+1. **Köşeli Çift Ayraç**, **Artı/eksi** veya **Şapka**’yı seçin.
  
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="Hiyerarşi diliminiz için bir Genişlet/Daralt simgesi seçme işleminin ekran görüntüsü.":::
  

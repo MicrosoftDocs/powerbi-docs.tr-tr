@@ -2,19 +2,19 @@
 title: Power BI’da rapor performansını izleme
 description: Power BI’da rapor performansını izleme kılavuzu.
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216601"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393060"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI’da rapor performansını izleme
 
