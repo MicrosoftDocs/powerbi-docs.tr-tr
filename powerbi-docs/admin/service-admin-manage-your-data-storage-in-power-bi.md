@@ -2,20 +2,20 @@
 title: Çalışma alanlarınızdaki veri depolama alanlarını yönetme
 description: Rapor ve veri kümesi yayınlamaya devam edebilmek için bireysel veya çalışma alanlarınızla veri depolama alanlarınızı yönetmeyi öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 07/27/2020
-ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf9cc65cc5dc18d72ced490b18683a6a1af32ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408723"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI çalışma alanlarında veri depolama alanlarını yönetme
 

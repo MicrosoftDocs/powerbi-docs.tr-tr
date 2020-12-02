@@ -1,21 +1,21 @@
 ---
 title: Power BI ile satır düzeyi güvenlik (RLS)
 description: Power BI hizmetinde, içeri aktarılan veri kümeleri ve DirectQuery için satır düzeyi güvenliği yapılandırma.
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.author: kfollis
 ms.date: 09/17/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 590909ac01240a84a4401c74a63dcf66c99dacfd
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: f1358cbafa08c0dbb3790322c414d7a746386f0f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811743"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408585"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI ile satır düzeyi güvenlik (RLS)
 
