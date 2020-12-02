@@ -1,21 +1,21 @@
 ---
 title: Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma
 description: Rapor tüketicisi olarak okuma görünümünde ArcGIS Maps for Power BI görselini kullanma
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33065a518f99cf7be6c8ea494088440e7ab45474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413131"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397959"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları oluşturma
 
@@ -49,7 +49,7 @@ ArcGIS Maps for Power BI, Esri ([https://www.esri.com](https://www.esri.com/)) t
 
 Bu öğreticide Power BI Desktop ve PBIX [Perakende Analizi örneği](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır. ArcGIS Maps for Power BI, Power BI hizmeti kullanılarak da oluşturulabilir.
 
-1. Menü çubuğunun sol üst kısmından **Dosya** > **Rapor aç** 'ı seçin.
+1. Menü çubuğunun sol üst kısmından **Dosya** > **Rapor aç**'ı seçin.
 2. Yerel makinenizde kayıtlı **Perakende Analizi örneği PBIX dosyasını** bulun.
 3. **Perakende Analizi Örneği](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)'ni rapor görünümünde** Rapor görünümü simgesi![ açın.
 4. Seçim ![Yeni sayfa ekle simgesini](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-02.png) seçerek rapora yeni bir sayfa ekleyin.
@@ -150,11 +150,11 @@ Katman seçenekleri menüsünden erişilen tam kapsamlı **Konum türü** özell
 Verilerinizin konum türünü değiştirmek için şu adımları izleyin:
 
 1. Katmanlar listesinden çalışmak istediğiniz veri katmanını seçin.
-2. **Katman seçenekleri** düğmesine tıklayıp **Konum türü** 'nü seçin.
+2. **Katman seçenekleri** düğmesine tıklayıp **Konum türü**'nü seçin.
 
     ![Konum türü seçimi](media/power-bi-visualizations-arcgis/arcgis-tutorial-10.png)
 
-    Konumları haritada nokta olarak oluşturmak için varsayılan değerleri kabul edin ve **Bir ülke > ABD** 'yi seçin.
+    Konumları haritada nokta olarak oluşturmak için varsayılan değerleri kabul edin ve **Bir ülke > ABD**'yi seçin.
 
     ![Konum türü isteğe bağlı değerleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-11.png)
 
@@ -168,7 +168,7 @@ Bir katmanın sembollerini değiştirmek için şu adımları izleyin:
 
 1. Katmanlar listesinden çalışmak istediğiniz veri katmanını seçin.
 
-2. **Katman seçenekleri** düğmesine tıklayıp **Semboller** 'i seçin.
+2. **Katman seçenekleri** düğmesine tıklayıp **Semboller**'i seçin.
 
 Semboller bölmesi açılır ve Harita teması kategorisi genişletilir.
 
@@ -236,10 +236,10 @@ Seçim araçlarını görüntülemek için şu adımları izleyin:
     
     | **Araç** | **Açıklama** |
     | --- | --- |
-    | ![Tek seçim](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Tek seçim** : Bu araç, belirli konumlara tıklamak için kullanılabilecek bir tek seçim aracıdır. Varsayılan seçim aracı budur. Ctrl tuşunu basılı tutup tıklayarak birden çok konum seçebilirsiniz. Haritadaki veri konumlarına tıkladığınızda seçim yapılır ve diğer görselleştirmelerle etkileşimler tetiklenir. Başvuru katmanındaki bir raptiyeye veya konuma tıkladığınızda araç ipucu görüntülenir. |
-    | ![Kutu seçimi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Kutu seçimi** : Dikdörtgen seçiciyi sürükleyerek birden çok konum seçin veya konumlara tıklayarak teker teker seçin. Seçim aracında olduğu gibi başvuru katmanındaki bir raptiyeye veya konuma tıkladığınızda araç ipucu görüntülenir. Kutu seçimi aracı etkin olduğunda haritayı kaydıramazsınız. |
-    | ![Başvuru katmanı seçimi simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Başvuru katmanı seçimi** : Haritaya bir [başvuru katmanı](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) eklediyseniz bu aracı kullanarak başvuru katmanındaki alanlara tıklayıp konumları seçebilirsiniz. Başvuru katmanında sınırlı alanda bulunan konumlar vurgulanır. Haritanın diğer alanlarındaki konumlar kullanılamaz. Bu araç yalnızca haritada bir veya daha fazla başvuru katmanı bulunduğunda ve başvuru katmanı etkin olduğunda görünür. |
-    | ![Sürüş süresi seçimi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Sürüş süresi seçimi** : Haritaya bir [sürüş süresi alanı](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) eklediyseniz sürüş süresi alanı seçim aracını kullanarak tanımlı alan içindeki veri konumlarını seçebilirsiniz. |
+    | ![Tek seçim](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Tek seçim**: Bu araç, belirli konumlara tıklamak için kullanılabilecek bir tek seçim aracıdır. Varsayılan seçim aracı budur. Ctrl tuşunu basılı tutup tıklayarak birden çok konum seçebilirsiniz. Haritadaki veri konumlarına tıkladığınızda seçim yapılır ve diğer görselleştirmelerle etkileşimler tetiklenir. Başvuru katmanındaki bir raptiyeye veya konuma tıkladığınızda araç ipucu görüntülenir. |
+    | ![Kutu seçimi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Kutu seçimi**: Dikdörtgen seçiciyi sürükleyerek birden çok konum seçin veya konumlara tıklayarak teker teker seçin. Seçim aracında olduğu gibi başvuru katmanındaki bir raptiyeye veya konuma tıkladığınızda araç ipucu görüntülenir. Kutu seçimi aracı etkin olduğunda haritayı kaydıramazsınız. |
+    | ![Başvuru katmanı seçimi simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Başvuru katmanı seçimi**: Haritaya bir [başvuru katmanı](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) eklediyseniz bu aracı kullanarak başvuru katmanındaki alanlara tıklayıp konumları seçebilirsiniz. Başvuru katmanında sınırlı alanda bulunan konumlar vurgulanır. Haritanın diğer alanlarındaki konumlar kullanılamaz. Bu araç yalnızca haritada bir veya daha fazla başvuru katmanı bulunduğunda ve başvuru katmanı etkin olduğunda görünür. |
+    | ![Sürüş süresi seçimi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Sürüş süresi seçimi**: Haritaya bir [sürüş süresi alanı](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) eklediyseniz sürüş süresi alanı seçim aracını kullanarak tanımlı alan içindeki veri konumlarını seçebilirsiniz. |
     
 2. Haritada bir veya daha fazla konum seçin. Aynı anda en fazla 250 veri noktası seçebilirsiniz.
 
@@ -256,7 +256,7 @@ Bir konumu sabitlemek için aşağıdaki adımları izleyin:
 
     Anahtar sözcükler arasında adres, yer veya ilgi çekici nokta bulunabilir. Yazmaya başladığınızda benzer son aramalar veya benzer anahtar sözcükleri temel alan öneriler görüntülenir.
 
-3. Sonuç listesinden **Pittsburgh International Airport** girişini seçip **Kapat** 'a tıklayın.
+3. Sonuç listesinden **Pittsburgh International Airport** girişini seçip **Kapat**'a tıklayın.
 
     Harita üzerinde bir sembol görüntülenir ve konum otomatik olarak yakınlaştırılır. Harita üzerindeki raptiyeler yalnızca geçerli oturum boyunca korunur. Sabitlenmiş konumlar haritayla birlikte kaydedilemez. Sabitlenmiş konum, Katmanlar listesinde katman olarak da görünür. Diğer katmanlarda olduğu gibi bu katmanı da yeniden adlandırabilir, gösterebilir, gizleyebilir veya haritadan kaldırabilirsiniz.
 
@@ -284,7 +284,7 @@ Demografik bilgi katmanı eklemek için şu adımları izleyin:
 
 3. Galeride ilerleyin ve haritanıza eklemek istediğiniz katmanın küçük resmi üzerindeki **Ekle** düğmesine tıklayın.
 
-    Bu örnek için **2016 ABD Ortalama Hane Halkı Geliri** katmanını bulup **Ekle** 'ye tıklayın.
+    Bu örnek için **2016 ABD Ortalama Hane Halkı Geliri** katmanını bulup **Ekle**'ye tıklayın.
     
     Harita güncelleştirilir ve yeni katman gösterilir.
     
@@ -326,9 +326,9 @@ Bu örnekte daha önce sabitlediğiniz Pittsburgh International Airport'u başla
 
     **Sürüş süresi** bölmesi açılır.
 
-3. Tek seçim aracına tıklayın ve haritada daha önce sabitlediğiniz **Pittsburgh International Airport** 'u seçin.
-4. **Arama alanı** açılan menüsünde **Yarıçap** 'ı seçip mesafeyi **100** mil olarak ayarlayın.
-5. **Tamam** 'a tıklayın.
+3. Tek seçim aracına tıklayın ve haritada daha önce sabitlediğiniz **Pittsburgh International Airport**'u seçin.
+4. **Arama alanı** açılan menüsünde **Yarıçap**'ı seçip mesafeyi **100** mil olarak ayarlayın.
+5. **Tamam**'a tıklayın.
 
     Haritada sabitlenmiş havaalanı konumunu çevreleyen bir daire gösterilir. Sürüş süresi bölmesi genişletilerek sürüş mesafesi alanı için stil seçenekleri gösterilir.
     
@@ -355,12 +355,12 @@ Görselleştirmeden ArcGIS Maps for Power BI çevrimiçi yardımına erişmek i�
 1. Harita araçlarından **Ayarlar** düğmesine ![ayarlar simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png) tıklayın.
 
 2. **Ayarlar** bölmesinde **Yardım** düğmesine tıklayın.
-3. Açılan onay penceresinde **Tamam** 'a tıklayın.
+3. Açılan onay penceresinde **Tamam**'a tıklayın.
 
     ArcGIS Maps for Power BI çevrimiçi yardımı tarayıcıda açılır.
     
     - ArcGIS Maps for Power BI çevrimiçi yardım sayfasında [sık sorulan soruların](https://doc.arcgis.com/en/maps-for-powerbi/get-started/pbi-faq.htm#anchor5) yanıtlarını bulabilirsiniz.
-    - Power BI [topluluğunun **ArcGIS Maps for Power BI** 'a yönelik tartışma sayfasında](https://go.microsoft.com/fwlink/?LinkID=828771) soru sorabilir, en güncel bilgilere ulaşabilir, sorunları bildirebilir ve sorularınıza cevap bulabilirsiniz.
+    - Power BI [topluluğunun **ArcGIS Maps for Power BI**'a yönelik tartışma sayfasında](https://go.microsoft.com/fwlink/?LinkID=828771) soru sorabilir, en güncel bilgilere ulaşabilir, sorunları bildirebilir ve sorularınıza cevap bulabilirsiniz.
     - İyileştirme önerileriniz varsa lütfen [Power BI Ideas listesinde](https://ideas.powerbi.com/) paylaşın.
     
 ### <a name="manage-the-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>Kuruluşunuzda ArcGIS Maps for Power BI kullanımını yönetme
@@ -369,13 +369,13 @@ Tasarımcılar, Power BI yöneticileri ve kullanıcı yöneticileri, ArcGIS Maps
 
 #### <a name="designer-options"></a>Tasarımcı seçenekleri
 
-Power BI Desktop’ta tasarımcılar ArcGIS Maps for Power BI’yı güvenlik sekmesinden devre dışı bırakabilir. **Dosya**  >  **Seçenekler ve ayarlar** ’ı ve sonra **Seçenekler**  >  **Güvenlik** ’i seçin. ArcGIS Haritaları devre dışı bırakıldığında varsayılan olarak yüklenmez.
+Power BI Desktop’ta tasarımcılar ArcGIS Maps for Power BI’yı güvenlik sekmesinden devre dışı bırakabilir. **Dosya**  >  **Seçenekler ve ayarlar**’ı ve sonra **Seçenekler**  >  **Güvenlik**’i seçin. ArcGIS Haritaları devre dışı bırakıldığında varsayılan olarak yüklenmez.
 
 ![Tasarımcı seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-17.png)
 
 #### <a name="administrator-options"></a>Yönetici seçenekleri
 
-Power BI hizmetinde yöneticiler, ArcGIS Maps for Power BI’ı tüm kullanıcılar için kapatabilir. **Ayarlar** > **Yönetim Portalı** > **Kiracı ayarları** ’nı seçin. Bu seçenek devre dışı bırakıldığında, Power BI Görsel Öğeler bölmesinde artık ArcGIS Maps for Power BI simgesi gösterilmez.
+Power BI hizmetinde yöneticiler, ArcGIS Maps for Power BI’ı tüm kullanıcılar için kapatabilir. **Ayarlar** > **Yönetim Portalı** > **Kiracı ayarları**’nı seçin. Bu seçenek devre dışı bırakıldığında, Power BI Görsel Öğeler bölmesinde artık ArcGIS Maps for Power BI simgesi gösterilmez.
 
 ![Yönetici seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-18.png)
 

@@ -6,16 +6,16 @@ ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e6ab41b7a9330ff1c99bb0dcc963608485cc3f94
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 3ecd7e5c231be74e69cb2c6074f08794beec547f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830574"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398902"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 

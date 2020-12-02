@@ -2,19 +2,19 @@
 title: Rapor sayfasının görüntü boyutunu ve oranını değiştirme
 description: Power BI raporundaki bir sayfanın görüntüleme ayarlarını değiştirme
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 290af971972bf3ece31283b22cedbf824e9f8c1e
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 82a26fe2d1679aeb725876a6e0da286ebf6162af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527008"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399270"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Bir rapor sayfasının görünümünü değiştirme
 

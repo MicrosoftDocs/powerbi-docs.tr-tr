@@ -1,20 +1,20 @@
 ---
 title: Power BI’da matris görseli oluşturma
 description: Matris görselinin Power BI’da basamaklı düzenlere ve ayrıntılı vurgulamaya nasıl olanak sağladığını öğrenin.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412315"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398143"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -79,7 +79,7 @@ Görsel, **Satırlar** bölümünde oluşturulmuş bir gruplama içeriyorsa sol 
 
 ![detaylandırma denetimlerinin vurgulandığı matris](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Sales stage* 'den *Opportunity size* 'a gidebiliriz.
+Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Sales stage*'den *Opportunity size*'a gidebiliriz.
 
 ![yaba simgesinin vurgulandığı matris](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
@@ -93,32 +93,32 @@ Açılan menüde farklı sonuçlar elde etmenizi sağlayan birkaç seçenek bulu
 
 ![bir düzey detaya gitmiş matris](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
-**Detaydan çık** simgesini seçerek önceki en üst düzey görünümüne dönün. Ardından **Proposal** > **Sonraki Düzeyi Göster** 'i seçtiğinizde, daha üst düzey hiyerarşi kategorileri olmaksızın tüm sonraki düzey öğelerinin (bu örnekteki *Opportunity size* alanı) artan sırada bir listesini görürsünüz.
+**Detaydan çık** simgesini seçerek önceki en üst düzey görünümüne dönün. Ardından **Proposal** > **Sonraki Düzeyi Göster**'i seçtiğinizde, daha üst düzey hiyerarşi kategorileri olmaksızın tüm sonraki düzey öğelerinin (bu örnekteki *Opportunity size* alanı) artan sırada bir listesini görürsünüz.
 
 ![Sonraki düzeyi göster'in kullanıldığı matris](media/desktop-matrix-visual/power-bi-next-level-matrix.png)
 
-Matrisin tüm üst düzey kategorileri göstermesi için sol üst köşedeki **Detaydan çık** simgesini seçin, sonra **Proposal** > **Bir sonraki düzeye genişlet** 'i seçerek hiyerarşinin her iki düzeyi ( *Sales stage* ve *Opportunity size* ) için de tüm değerleri görün.
+Matrisin tüm üst düzey kategorileri göstermesi için sol üst köşedeki **Detaydan çık** simgesini seçin, sonra **Proposal** > **Bir sonraki düzeye genişlet**'i seçerek hiyerarşinin her iki düzeyi (*Sales stage* ve *Opportunity size*) için de tüm değerleri görün.
 
 ![Bir sonraki düzeye genişlet seçeneğinin kullanıldığı matris](media/desktop-matrix-visual/power-bi-matrix-expand-next.png)
 
-Görüntüde daha fazla denetim sağlamak için **Genişlet** menü öğesini de kullanabilirsiniz.  Örneğin **Proposal** > **Genişlet** > **Seçim** 'i seçin. Power BI *Proposal* öğesinin her *Sales stage* alanı ve tüm *Opportunity size* seçenekleri için bir toplam satırı görüntüler.
+Görüntüde daha fazla denetim sağlamak için **Genişlet** menü öğesini de kullanabilirsiniz.  Örneğin **Proposal** > **Genişlet** > **Seçim**'i seçin. Power BI *Proposal* öğesinin her *Sales stage* alanı ve tüm *Opportunity size* seçenekleri için bir toplam satırı görüntüler.
 
 ![Proposal öğesine Genişlet seçeneği uygulandıktan sonra matris](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Sütun başlıklarında detaya gitme
-Satırlarda detaya gitme özelliğine benzer şekilde sütunlarda da detaya gidebilirsiniz. Aşağıdaki görüntüde, **Sütunlar** alan kutusunda iki alan vardır ve bunlar yukarıda bahsedilen satırlar için kullandığımıza benzer bir hiyerarşi oluşturur. **Sütunlar** alan kutusunda *Region* ve *Segment* alanları bulunuyor. **Sütunlar** 'a ikinci alan eklendiği anda görselde yeni bir açılan menü görüntülenir; şu anda **Satırlar** gösterilmektedir.
+Satırlarda detaya gitme özelliğine benzer şekilde sütunlarda da detaya gidebilirsiniz. Aşağıdaki görüntüde, **Sütunlar** alan kutusunda iki alan vardır ve bunlar yukarıda bahsedilen satırlar için kullandığımıza benzer bir hiyerarşi oluşturur. **Sütunlar** alan kutusunda *Region* ve *Segment* alanları bulunuyor. **Sütunlar**'a ikinci alan eklendiği anda görselde yeni bir açılan menü görüntülenir; şu anda **Satırlar** gösterilmektedir.
 
 ![İkinci sütun değeri eklendikten sonra matris](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
-Sütunlarda detaya gitmek için, matrisin sol üst köşesinde yer alan **Detaylandır** menüsünden *Sütunlar* 'ı seçin. *East* bölgesini seçin ve **Detaya Git** 'i seçin.
+Sütunlarda detaya gitmek için, matrisin sol üst köşesinde yer alan **Detaylandır** menüsünden *Sütunlar*'ı seçin. *East* bölgesini seçin ve **Detaya Git**'i seçin.
 
 ![sütunlarda detaya gitme menüsü](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-**Detaya Git** ’i seçtiğinizde *Region > East* için sütun hiyerarşisinin sonraki düzeyi (bu örnekte *Opportunity count* ) görüntülenir. Diğer bölge gizlidir.
+**Detaya Git**’i seçtiğinizde *Region > East* için sütun hiyerarşisinin sonraki düzeyi (bu örnekte *Opportunity count*) görüntülenir. Diğer bölge gizlidir.
 
 ![sütunda tek düzey detaya gidilmiş matris](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-Menünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. ( **Satır başlıklarında detaya gitme** adlı önceki bölüme bakın). Satırlarda yaptığınız gibi sütunlarda da **Sonraki Düzeyi Göster** ve **Bir sonraki düzeye genişlet** seçeneklerini kullanabilirsiniz.
+Menünün diğer öğeleri, sütunlarda da satırlarda olduğu gibi işlev görür. (**Satır başlıklarında detaya gitme** adlı önceki bölüme bakın). Satırlarda yaptığınız gibi sütunlarda da **Sonraki Düzeyi Göster** ve **Bir sonraki düzeye genişlet** seçeneklerini kullanabilirsiniz.
 
 > [!NOTE]
 > Matris görselinin sol üstündeki detaya git ve detaydan çık simgeleri, yalnızca satırlar için kullanılabilir. Sütunlarda detaya gitmek için sağ tıklama menüsünü kullanmanız gerekir.
@@ -147,7 +147,7 @@ Hem satırlar hem de sütunlar için matris görsellerindeki alt toplamları etk
 
 ![toplamları ve alt toplamları gösteren matris](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Power BI, **Alt toplamları** açıp etiket eklediğinizde genel toplam değeri için bir satırı ve aynı etiketi de ekler. Genel toplam değerini biçimlendirmek için **Genel toplam** ’a yönelik biçimlendirme seçeneğini belirleyin. 
+Power BI, **Alt toplamları** açıp etiket eklediğinizde genel toplam değeri için bir satırı ve aynı etiketi de ekler. Genel toplam değerini biçimlendirmek için **Genel toplam**’a yönelik biçimlendirme seçeneğini belirleyin. 
 
 ![Genel toplam kartını gösteren matris](media/desktop-matrix-visual/power-bi-grand-total.png)
 
@@ -181,7 +181,7 @@ Ayrıca, çapraz vurgulama için Ctrl+Tıklama seçeneği de kullanılabilir. Ö
 Matrisinizde veya tablonuzdaki içeriği başka uygulamalarda kullanmak isteyebilirsiniz: Dynamics CRM, Excel ve diğer Power BI raporları. Power BI’da sağ tıkladığınızda tek bir hücreyi veya birden fazla hücreyi panonuza kopyalayabilirsiniz. Ardından bunları başka bir uygulamaya yapıştırırsınız.
 
 
-* Tek bir hücrenin değerini kopyalamak için hücreyi seçin, sağ tıklayın ve **Değeri kopyala** ’yı seçin. Panonuza kaydedilen biçimlendirilmemiş hücre değerini başka bir uygulamaya yapıştırabilirsiniz.
+* Tek bir hücrenin değerini kopyalamak için hücreyi seçin, sağ tıklayın ve **Değeri kopyala**’yı seçin. Panonuza kaydedilen biçimlendirilmemiş hücre değerini başka bir uygulamaya yapıştırabilirsiniz.
 
     ![Bir değere işaret eden bir ok bulunan Matris görselinin yer aldığı ve sağ tıklama menüsünün genişletilip Değer kopyala ve Seçimi kopyala seçeneklerinin öne çıkarıldığı ekran görüntüsü.](media/desktop-matrix-visual/power-bi-cell-copy.png)
 
@@ -216,11 +216,11 @@ Daha fazla bilgi için bkz. [Koşullu tablo biçimlendirme](../create-reports/de
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Matris görselleriyle gölgelendirme ve yazı tipi renkleri
 Matris görseliyle, matris içindeki hücrelerin arka planına koşullu biçimlendirme (renkler, gölgelendirme ve veri çubukları) uygulayabilir ve metin ve değerlerde koşullu biçimlendirme gerçekleştirebilirsiniz.
 
-Koşullu biçimlendirme uygulamak için matris görselini seçin ve **Biçim** bölmesini açın. **Koşullu biçimlendirme** kartını genişletin ve **Arka plan rengi** , **Yazı tipi rengi** veya **Veri çubukları** için kaydırıcıyı **Açık** konumuna getirin. Bu seçeneklerden biri etkinleştirildiğinde, koşullu biçimlendirme için renkleri ve değerleri özelleştirmenize olanak sağlayan bir *Gelişmiş denetimler* bağlantısı görüntülenir.
+Koşullu biçimlendirme uygulamak için matris görselini seçin ve **Biçim** bölmesini açın. **Koşullu biçimlendirme** kartını genişletin ve **Arka plan rengi**, **Yazı tipi rengi** veya **Veri çubukları** için kaydırıcıyı **Açık** konumuna getirin. Bu seçeneklerden biri etkinleştirildiğinde, koşullu biçimlendirme için renkleri ve değerleri özelleştirmenize olanak sağlayan bir *Gelişmiş denetimler* bağlantısı görüntülenir.
   
   ![Veri çubukları denetiminin gösterildiği Biçim bölmesi](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 
-Ayar yapmanızı sağlayan bir iletişim kutusu görüntülemek için *Gelişmiş denetimler* 'i seçin. Bu örnekte **Veri çubukları** 'nın iletişim kutusu gösterilir.
+Ayar yapmanızı sağlayan bir iletişim kutusu görüntülemek için *Gelişmiş denetimler*'i seçin. Bu örnekte **Veri çubukları**'nın iletişim kutusu gösterilir.
 
 ![Veri çubukları bölmesi](media/desktop-matrix-visual/power-bi-data-bars.png)
 

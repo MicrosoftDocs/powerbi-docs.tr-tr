@@ -2,20 +2,20 @@
 title: Power BI hizmetinde en son ziyaret edilen içerikleri görüntüleme
 description: Power BI'da son görüntülenenler ile ilgili belge
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/24/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527365"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399247"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI hizmetinde **son görüntülenen** içerik
 
