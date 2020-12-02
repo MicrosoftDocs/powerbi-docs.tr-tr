@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki Bilgi tutarlılığı varsay ayarı
 description: DirectQuery ile Power BI Desktop'ın bilgi tutarlılığı varsayma işlemini nasıl gerçekleştireceğini öğrenin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1b078f837efe0637a4ac7769ceb868af23c7a298
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599902"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405940"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop'taki Bilgi Tutarlılığı Varsay ayarını uygulama
 **DirectQuery** kullanarak bir veri kaynağına bağlanırken, veri kaynağınızda daha verimli sorgular çalıştırılmasını sağlamak için **Bilgi Tutarlılığı Varsay** seçeneğini kullanabilirsiniz. Bu özellik, temel alınan verilere ilişkin bazı gereksinimlere sahiptir ve yalnızca **DirectQuery** ile kullanılabilir.

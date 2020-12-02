@@ -2,19 +2,19 @@
 title: Bir kurumsal içerik paketinin bağlantısını kesme - Power BI
 description: Bir kurumsal içerik paketinin bağlantısını, Power BI'daki veri kümesini silerek nasıl keseceğiniz hakkında bilgi edinin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225792"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406423"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 

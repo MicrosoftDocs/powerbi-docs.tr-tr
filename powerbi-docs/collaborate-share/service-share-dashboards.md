@@ -2,20 +2,20 @@
 title: Power BI panolarını ve raporları iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 description: Power BI panolarını ve raporları kuruluşunuzdaki iş arkadaşlarınızla ve kuruluş dışındaki diğer kullanıcılarla paylaşma ve bu paylaşım konusunda bilinmesi gerekenler.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768531"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406584"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarını ve raporları iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, başkalarına Power BI hizmetindeki pano ve raporlarınıza erişim vermenin en kolay yoludur. Kuruluşunuz hem içindeki hem de dışındaki kişilerle paylaşabilirsiniz.
