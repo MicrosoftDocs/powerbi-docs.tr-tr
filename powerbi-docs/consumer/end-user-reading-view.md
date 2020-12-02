@@ -1,25 +1,25 @@
 ---
 title: Power BI hizmetindeki Power BI tüketici özellikleri
 description: Bu hızlı başlangıçta **tüketiciler** Power BI, uygulamalar, raporlar ve panolar hakkında bilgi edinecektir.
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780531"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390185"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>Hızlı başlangıç: *İşletme kullanıcıları* için Power BI özellikleri hakkında bilgi edinin
 

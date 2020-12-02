@@ -2,19 +2,19 @@
 title: Power BI hizmeti Giriş tuvalinden içerik bulma
 description: Giriş tuvalinden başlayıp raporları, panoları ve uygulamaları bulun ve açın.
 author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 11/13/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ee9fe651c886b41dfb913ccd20874432a8b4f1d7
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668960"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390622"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 

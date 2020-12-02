@@ -2,19 +2,19 @@
 title: Rapordaki görselleri kişiselleştirme
 description: Raporu düzenlemeden kendi rapor görünümünüzü oluşturun.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/13/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: aa94908c8601052c9cb8ac7cd4a6c0e895afeff6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256792"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390162"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Rapordaki görselleri kişiselleştirme
 
@@ -59,67 +59,67 @@ Görseli kişiselleştirerek, [rapor okuma görünümünden](end-user-reading-vi
 
 Verilerin yığılmış sütun grafiği olarak daha iyi görüneceğini mi düşünüyorsunuz? **Görselleştirme türünü** değiştirin.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Görselleştirme türünü değiştirme":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>Ölçü veya boyutu değiştirme
 X ekseni için kullanılan alanı değiştirmek için önce istediğiniz alanı, ardından da farklı bir alan seçin.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Ekseni değiştirme":::
  
 ### <a name="add-or-remove-a-legend"></a>Göstergeyi ekleme veya kaldırma
 Gösterge ekleyerek, görsele kategoriye göre renk kodu uygulayabilirsiniz. Bu örnekte şirket adına göre renk belirliyoruz. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Göstergeyi ekleme veya kaldırma":::
 
 ### <a name="change-the-placement-of-fields"></a>Alanların yerini değiştirme
 
 Sürükle ve bırak yöntemiyle aynı görsel özellik içinde veya farklı görsel özelliklerinde bulunan alanların yerini değiştirebilirsiniz. Örneğin göstergede bulunan bir alanı hızlıca görselin eksenine taşıyabilirsiniz.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Görseldeki bir alanı sürükleme işleminin ekran görüntüsü.":::
 
 Ayrıca bir tablonun veya matrisin sütunlarını hızlıca yeniden sıralayabilirsiniz.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Bir tablonun sütunlarını yeniden sıralama işleminin ekran görüntüsü.":::
 
 ### <a name="compare-two-or-more-different-measures"></a>İki veya daha fazla farklı ölçüyü karşılaştırma
 Farklı ölçülerin değerlerini karşılaştırmak için, + simgesini kullanarak görsele birden çok ölçü ekleyin. Bir ölçüyü kaldırmak için **Diğer seçenekler (...)** öğesini ve **Alanı kaldır**'ı seçin.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Ölçüleri karşılaştırma":::
 
 ### <a name="change-aggregations"></a>Toplamaları değiştirme
 **Kişiselleştir** bölmesindeki toplamayı değiştirerek bir ölçünün hesaplanma şeklini değiştirin. **Diğer seçenekler (...)** öğesini ve ardından kullanılacak toplamayı seçin.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Toplamaları değiştirme":::
 
 ### <a name="capture-changes"></a>Değişiklikleri yakalama 
 Kişisel yer işaretlerini kullanarak değişikliklerinizi yakalayabilir ve böylelikle kişiselleştirilmiş görünümünüze dönebilirsiniz. **Yer işaretleri** > **Kişisel yer işaretleri** yolunu izleyin ve yer işaretine bir ad verin. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Yer işareti oluşturma":::
  
 Yer işaretini varsayılan görünümünüz de yapabilirsiniz.
 
 ### <a name="share-changes"></a>Değişiklikleri paylaşma 
 Okuma ve yeniden paylaşma izinleriniz varsa, raporu paylaşırken değişikliklerinizi eklemeyi seçebilirsiniz.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Değişiklikleri paylaşma":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>Raporda yaptığınız tüm değişiklikleri sıfırlama
 
 Rapor tuvalinizin sağ üst köşesinden **Varsayılana sıfırla**'yı seçin. Bunu yaptığınızda raporda yaptığınız tüm değişiklikler sıfırlanır ve rapor yeniden yazarın son kaydettiği görünüme ayarlanır.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Tüm değişiklikleri sıfırlama":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>Görselde yaptığınız tüm değişiklikleri sıfırlama
 
 Belirli bir görselde yaptığınız tüm değişiklikleri sıfırlamak ve bu görseli yazarın son kaydettiği görünüme geri ayarlamak için görselin menü çubuğundan **Bu görseli sıfırla**’yı seçin.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Görseldeki tüm değişiklikleri sıfırlama":::
  
 ### <a name="clear-recent-changes"></a>Son yapılan değişiklikleri temizleme
 
 **Kişiselleştir** bölmesini açtıktan sonra yaptığınız son değişikliklerin tümünü temizlemek için silgi simgesini seçin.  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Görseli kişiselleştirme":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Son değişiklikleri geri alma":::
 
 ## <a name="limitations"></a>Sınırlamalar
 
