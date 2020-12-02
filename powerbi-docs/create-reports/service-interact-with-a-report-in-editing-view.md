@@ -2,19 +2,19 @@
 title: Düzenleme görünümünde bir raporla etkileşim kurma
 description: Power BI hizmetindeki rapor Düzenleme görünümünde bir raporla etkileşim kurma
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3cf9d404defa3cd1ea37035ea3913262903498dd
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: f1e162e0002051853081898f548864e751c5b429
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462522"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388391"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Power BI hizmetindeki Düzenleme görünümünde bir raporla etkileşim kurma
 

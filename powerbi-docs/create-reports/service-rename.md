@@ -2,19 +2,19 @@
 title: Panoları, raporları, çalışma alanlarını, rapor sayfalarını ve veri kümelerini yeniden adlandırma
 description: Power BI hizmetinde hemen hemen her şeyi yeniden adlandırabilirsiniz.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d37dfece5c7f181ddf55b58ea461e48fdd090d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fc120b832fda05d822e57ace56b15fbd773a53ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218758"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388046"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Power BI hizmetinde hemen hemen her şeyi yeniden adlandırabilirsiniz
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, rapor sayfasını, çalışma kitabını, veri kümesini, uygulamayı ve çalışma alanını yeniden adlandırma ile ilgili bilgiler sunulmaktadır.

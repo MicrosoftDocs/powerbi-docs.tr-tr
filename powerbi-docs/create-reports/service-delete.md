@@ -2,19 +2,19 @@
 title: Bir panoyu, raporu, çalışma kitabını, veri kümesini veya çalışma alanını silme
 description: Power BI hizmetindeki hemen her şeyi silmeyi öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/29/2020
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1e1cc55f21f43b7029a68670d9a7af9215f5b62c
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 9d6310daf5c9e3d658edec6a7949661ad171b102
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132533"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388782"
 ---
 # <a name="delete-almost-anything-in-the-power-bi-service"></a>Power BI hizmetindeki hemen her şeyi silme
 Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, veri kümesini, uygulamayı, görselleştirmeyi veya çalışma alanını silmeyle ilgili bilgiler sunulmaktadır. Bazı özel durumlar haricinde Power BI hizmetindeki hemen her şeyi silebilirsiniz. 
@@ -26,13 +26,13 @@ Bu makalede, Power BI hizmetindeki bir panoyu, raporu, çalışma kitabını, ve
 
     ![Diğer seçenekler öğesini seçme ve Sil seçeneğini belirleme işleminin ekran görüntüsü.](media/service-delete/power-bi-delete-dashboard.png)
 
-1. Silme işlemini onaylamak için **Sil** ’e tıklayın.
+1. Silme işlemini onaylamak için **Sil**’e tıklayın.
 
 ## <a name="remove-an-app-from-your-app-list-page"></a>Bir uygulamayı uygulama listesi sayfanızdan kaldırma
 
 Uygulamalar listesi sayfanızdan uygulamaları kolayca kaldırabilirsiniz. Kaldırılan uygulama diğer üyelerden silinmez. Uygulamayı çalışma alanından yalnızca çalışma alanı yöneticisi silebilir.
 
-1. Gezinti bölmesinde **Uygulamalar** 'ı seçerek uygulama listesi sayfasını açın.
+1. Gezinti bölmesinde **Uygulamalar**'ı seçerek uygulama listesi sayfasını açın.
 2. Silmek istediğiniz uygulamanın üzerine gelip Sil simgesini :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false"::: seçin.
 
    ![Uygulama seçme ekranının görüntüsü.](media/service-delete/power-bi-delete-app.png)
@@ -47,7 +47,7 @@ Power BI’da iki farklı türde çalışma alanı bulunur: özgün veya *klasik
 
 Yalnızca çalışma alanı yöneticileri yeni çalışma alanından kişileri kaldırabilir. Yöneticiyseniz kendinizi veya başkasını kaldırabilirsiniz. Ancak çalışma alanının tek yöneticisiyseniz Power BI kendinizi kaldırmanıza izin vermez.
 
-1. Çalışma alanı liste görünümünde sağ üstteki **Erişim** ’i seçin.
+1. Çalışma alanı liste görünümünde sağ üstteki **Erişim**’i seçin.
 
     :::image type="content" source="media/service-delete/power-bi-select-access.png" alt-text="Erişimi Seçme işleminin ekran görüntüsü.":::
 
@@ -61,17 +61,17 @@ Yalnızca çalışma alanı yöneticileri yeni çalışma alanından kişileri k
 
 Yöneticisi olduğunuz çalışma alanını silebilir veya kişileri buradan kaldırabilirsiniz. Ayrıca silme işleminin ardından ilişkili uygulama, tüm grup üyeleri için silinir ve AppSource’unuzdan kaldırılır. 
 
-1. Gezinti bölmesinden **Çalışma alanları** ’nı seçin
+1. Gezinti bölmesinden **Çalışma alanları**’nı seçin
 
-2. Silmek istediğiniz çalışma alanının sağ tarafındaki **Diğer seçenekler** ’i (...) ve **Çalışma alanı ayarları** ’nı seçin.
+2. Silmek istediğiniz çalışma alanının sağ tarafındaki **Diğer seçenekler**’i (...) ve **Çalışma alanı ayarları**’nı seçin.
 
     ![Diğer seçenekler, Çalışma alanı ayarlarını seçme işleminin ekran görüntüsü.](media/service-delete/power-bi-delete-workspace.png)
 
-3. **Çalışma alanı ayarları** bölmesinde, **Çalışma alanını sil** > **Sil** ’i seçin.
+3. **Çalışma alanı ayarları** bölmesinde, **Çalışma alanını sil** > **Sil**’i seçin.
 
 ### <a name="remove-a-classic-workspace-from-your-list"></a>Klasik çalışma alanını listenizden kaldırma
 
-Klasik çalışma alanının üyesi olmak istemiyorsanız * *_ayrılabilir_* _ve ilgili girişin listenizden kaldırılmasını sağlayabilirsiniz. Siz bir çalışma alanından ayrıldığınızda diğer çalışma alanı üyeleri için herhangi bir değişiklik olmaz.  
+Klasik çalışma alanının üyesi olmak istemiyorsanız **_ayrılabilir_* _ve ilgili girişin listenizden kaldırılmasını sağlayabilirsiniz. Siz bir çalışma alanından ayrıldığınızda diğer çalışma alanı üyeleri için herhangi bir değişiklik olmaz.  
 
 > [!NOTE]
 > Çalışma alanındaki tek yönetici sizseniz Power BI ayrılmanıza izin vermez.
@@ -79,7 +79,7 @@ Klasik çalışma alanının üyesi olmak istemiyorsanız * *_ayrılabilir_* _ve
 
 1. Kaldırmak istediğiniz çalışma alanında işleme başlayın.
 
-2. Sağ üst köşede _ *Diğer seçenekler* * (...) seçeneğini ve **Çalışma alanından ayrıl** > **Ayrıl** ’ı seçin.
+2. Sağ üst köşede _ *Diğer seçenekler** (...) seçeneğini ve **Çalışma alanından ayrıl** > **Ayrıl**’ı seçin.
 
       :::image type="content" source="media/service-delete/power-bi-leave-workspace.png" alt-text="Diğer seçenekler, Çalışma alanından ayrıl işleminin ekran görüntüsü.":::
 
@@ -95,13 +95,13 @@ Klasik çalışma alanının üyesi olmak istemiyorsanız * *_ayrılabilir_* _ve
 
 Bir çalışma alanını silmek, çalışma alanından ayrılmaktan farklıdır. Çalışma alanını silmek için çalışma alanı yöneticisi olmanız gerekir. Ayrıca silme işleminin ardından ilişkili uygulama, tüm grup üyeleri için silinir ve AppSource’unuzdan kaldırılır. Ancak çalışma alanının tek yöneticisiyseniz Power BI ayrılmanıza izin vermez.
 
-1. Gezinti bölmesinden **Çalışma alanları** ’nı seçin.
+1. Gezinti bölmesinden **Çalışma alanları**’nı seçin.
 
-2. Silinecek çalışma alanının yanında **Diğer seçenekler (...)**  > **Çalışma alanı ayarları** ’nı seçin.
+2. Silinecek çalışma alanının yanında **Diğer seçenekler (...)**  > **Çalışma alanı ayarları**’nı seçin.
 
     ![Çalışma alanı ayarlarının ekran görüntüsü.](media/service-delete/power-bi-workspace-settings-classic.png)
 
-3. **Ayarlar** bölmesinde, **Çalışma alanını sil** ’i seçip **Silme** işlemini onaylayın.
+3. **Ayarlar** bölmesinde, **Çalışma alanını sil**’i seçip **Silme** işlemini onaylayın.
 
     ![Çalışma alanını sil seçeneğinin ekran görüntüsü.](media/service-delete/power-bi-delete-classic-workspace.png)
 

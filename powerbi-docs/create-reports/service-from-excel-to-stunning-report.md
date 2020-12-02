@@ -2,19 +2,19 @@
 title: "Öğretici: Excel çalışma kitabında Power BI hizmetine, Teams'e"
 description: Bu makalede Excel çalışma kitabından Power BI hizmetinde nasıl hızla büyüleyici bir rapor oluşturabileceğinizi ve bunu Teams'le paylaşabileceğinizi öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478142"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388874"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Öğretici: Excel çalışma kitabından Power BI hizmetindeki bir rapora ve Microsoft Teams'e
 Yöneticiniz gün sonuna kadar en son satış ve kâr rakamlarınızı içeren bir rapor görmek istiyor. Ama en yeni verileriniz çeşitli üçüncü taraf sistemlerinde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.

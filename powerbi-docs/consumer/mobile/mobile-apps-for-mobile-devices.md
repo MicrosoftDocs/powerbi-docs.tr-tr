@@ -2,19 +2,19 @@
 title: Power BI mobil uygulamaları nelerdir?
 description: Power BI mobil uygulamaları, şirket içindeki veya buluttaki verilerinize her zaman bağlı kalmanıza olanak sağlar. Power BI panolarını ve raporlarını mobil cihazınızda görüntüleyin.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: overview
 ms.date: 03/11/2020
-ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d9dc34178980b07a0bb4aae25bf95e89d664d6ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856427"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389150"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları nelerdir?
 Power BI; iOS, Android ve Windows 10 mobil cihazlar için bir dizi mobil uygulama sunar. Mobil uygulamalarda bulut ve şirket içi verilerinize bağlanıp etkileşimde bulunabilirsiniz. 

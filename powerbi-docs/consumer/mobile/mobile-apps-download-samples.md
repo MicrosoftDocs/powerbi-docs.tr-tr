@@ -2,17 +2,17 @@
 title: Örnekleri Power BI hizmetinde Çalışma alanım'a indirme
 description: Örnek verileri Mobil uygulama öğreticisinde kullanmak için Power BI hizmeti hesabınızdaki Çalışma alanım'a indirin.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40105943dc1896b979264bc8b9cbc71c527f5ba1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256805"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389173"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Örnekleri Power BI hizmetinde Çalışma alanım'a indirme
 

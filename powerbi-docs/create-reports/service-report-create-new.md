@@ -2,19 +2,19 @@
 title: 'Power BI hizmetinde Excel dosyasından rapor oluşturma '
 description: Power BI hizmetinde Excel dosyasından bir Power BI raporu oluşturun.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d6a52fd72ab96541eee621d6be6cb50005f293e2
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462758"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388207"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Power BI hizmetinde Excel dosyasından rapor oluşturma
 [Power BI'daki raporlar](../consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın farklı yolları vardır. Bu makalede, Power BI hizmetinde bir Excel dosyasından temel bir rapor oluşturarak başlayacağız. Rapor oluşturmanın temeli anladıktan sonra, raporlara yönelik daha gelişmiş konu başlıkları için [sonraki adımlara](#next-steps) göz atın.  
@@ -26,25 +26,25 @@ ms.locfileid: "92462758"
 ## <a name="import-the-excel-file"></a>Excel dosyasını içeri aktarma
 Bu rapor oluşturma yöntemi için bir dosya ve boş bir tuval ile başlayacağız. Siz de Perakende Analizi Örneği Excel dosyasıyla takip edebilirsiniz.
 
-1. Gezinti bölmesinde **Çalışma Alanım** ’ı seçin.
+1. Gezinti bölmesinde **Çalışma Alanım**’ı seçin.
    
    :::image type="content" source="media/service-report-create-new/power-bi-select-my-workspace.png" alt-text="Çalışma Alanım seçeneğini belirleme işleminin ekran görüntüsü.":::
-2. Gezinti bölmesinin alt kısmından **Veri al** 'ı seçin.
+2. Gezinti bölmesinin alt kısmından **Veri al**'ı seçin.
    
    ![Verileri alma](media/service-report-create-new/power-bi-get-data3.png)
-3. **Dosyalar** 'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
+3. **Dosyalar**'ı seçin ve Retail Analysis Sample dosyasını kaydettiğiniz konuma gidin.
    
     ![Dosyalar’ı seçme](media/service-report-create-new/power-bi-select-files.png)
 4. Bu alıştırma için **İçeri aktar** seçeneğini belirleyin.
    
    ![İçeri aktar seçeneğini belirleme](media/service-report-create-new/power-bi-import.png)
-5. **Aç** ’ı seçin.
+5. **Aç**’ı seçin.
 
    Excel dosyası içeri aktarıldıktan sonra çalışma alanı listesinde *veri kümesi* olarak listelenir.
 
-1. Veri kümesinin yanındaki **Diğer seçenekler (...)** menüsünü ve ardından **Rapor oluştur** 'u seçin.
+1. Veri kümesinin yanındaki **Diğer seçenekler (...)** menüsünü ve ardından **Rapor oluştur**'u seçin.
    
-   :::image type="content" source="media/service-report-create-new/power-bi-dataset-create-report.png" alt-text="Çalışma Alanım seçeneğini belirleme işleminin ekran görüntüsü.":::
+   :::image type="content" source="media/service-report-create-new/power-bi-dataset-create-report.png" alt-text="Rapor oluştur seçeneğinin ekran görüntüsü.":::
 6. Rapor düzenleyicisi açılır. 
    
    ![Rapor düzenleyicisinin ekran görüntüsü.](media/service-report-create-new/power-bi-blank-report.png)
@@ -52,7 +52,7 @@ Bu rapor oluşturma yöntemi için bir dosya ve boş bir tuval ile başlayacağ�
 > [!TIP]
 > Menü simgesini seçerek gezinti bölmesini gizleyip kendinize yer açın.
 > 
-> :::image type="content" source="../media/power-bi-hide-navigation-pane.png" alt-text="Çalışma Alanım seçeneğini belirleme işleminin ekran görüntüsü.":::
+> :::image type="content" source="../media/power-bi-hide-navigation-pane.png" alt-text="Menü simgesini seçerek gezinti bölmesini gizleme adımının ekran görüntüsü.":::
 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Rapora Radyal Ölçer ekleme
