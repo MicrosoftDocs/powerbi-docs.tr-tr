@@ -1,20 +1,20 @@
 ---
 title: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 description: 2\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6ddee012d01c64e0f35ac491d2b20ba362f2da90
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412472"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI raporuna görsel ekleme (2. Bölüm)
 
@@ -32,7 +32,7 @@ Bu öğreticide Perakende Analizi veri kümesini derinlemesine inceleyeceğiz ve
 
 Bu öğreticide [Perakende analizi örneği PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç** ’ı seçin
+1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -56,7 +56,7 @@ Bu öğreticide [Perakende analizi örneği PBIX dosyası](https://download.micr
 
 3. [Görselleştirmeyi değiştirerek](power-bi-report-change-visualization-type.md) bir alan grafiğine dönüştürün.  Aralarından seçim yapabileceğiniz pek çok görselleştirme türü bulunur. Hangi türü kullanacağınıza karar vermek için [her birinin açıklamasına, en iyi uygulama ipuçlarına ve öğreticilere](power-bi-visualization-types-for-reports-and-q-and-a.md) başvurabilirsiniz. Görselleştirmeler bölmesinden alan grafiği simgesini ![Görselleştirmeler bölmesindeki Alan grafiği simgesi](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png) seçin.
 
-4. **Diğer eylemler** ’i (...) ve **Sıralama ölçütü** >  **FiscalMonth** öğesini seçerek görselleştirmeyi sıralayın.
+4. **Diğer eylemler**’i (...) ve **Sıralama ölçütü** >  **FiscalMonth** öğesini seçerek görselleştirmeyi sıralayın.
 
 5. Görselleştirmeyi seçerek ve ana hat dairelerinden birini yakalayıp sürükleyerek [görselleştirmeyi yeniden boyutlandırın](power-bi-visualization-move-and-resize.md). Kaydırma çubuğunu ortadan kaldırmak için yeterince geniş ve bir başka görselleştirme eklememiz için alan bırakacak kadar da küçük olmasını sağlayın.
    

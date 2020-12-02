@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki dinamik M sorgu parametreleri (önizleme)
 description: Power BI Desktop'ta dinamik M sorgu parametresi oluşturma
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7f7dd319c69291f690dae5cd18b95285618df07b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349656"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411207"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop'taki dinamik M sorgu parametreleri (önizleme)
 
@@ -24,7 +24,7 @@ Filtrelerinin semantiği konusunda anlayış sahibi olan model yazarları genell
 
 ## <a name="enabling-dynamic-m-query-parameters"></a>Dinamik M sorgu parametrelerini etkinleştirme
 
-**Dinamik M Sorgu Parametreleri** şu an için önizleme sürümündedir ve kullanabilmek için etkinleştirmeniz gerekir. **Dosya > Seçenekler ve ayarlar > Seçenekler** yolunu izleyip sol taraftaki bölmeden **Önizleme özellikleri** 'ni seçin. Burada **Dinamik M Sorgu Parametreleri** onay kutusunun seçili olduğundan emin olun. Yaptığınız değişikliğin etkili olması için Power BI Desktop'ı yeniden başlatmanız gerekebilir.
+**Dinamik M Sorgu Parametreleri** şu an için önizleme sürümündedir ve kullanabilmek için etkinleştirmeniz gerekir. **Dosya > Seçenekler ve ayarlar > Seçenekler** yolunu izleyip sol taraftaki bölmeden **Önizleme özellikleri**'ni seçin. Burada **Dinamik M Sorgu Parametreleri** onay kutusunun seçili olduğundan emin olun. Yaptığınız değişikliğin etkili olması için Power BI Desktop'ı yeniden başlatmanız gerekebilir.
 
 ![Önizleme özelliğini etkinleştirme](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
@@ -35,7 +35,7 @@ Bu özelliğin önkoşullarından biri, geçerli bir [M Sorgu Parametresi](/powe
 
 Şimdi bir parametreye dinamik olarak **tek bir değer** geçirmeye yönelik örneği inceleyelim:
 
-1. Power BI Desktop'ta **Veri** sekmesinden **Power Query** 'yi başlatın ve şeritteki **Parametreleri Yönet** düğmesinin altından **Yeni Parametreler** 'i seçin.
+1. Power BI Desktop'ta **Veri** sekmesinden **Power Query**'yi başlatın ve şeritteki **Parametreleri Yönet** düğmesinin altından **Yeni Parametreler**'i seçin.
 
     ![Şerit menüsü](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-02.png)
 
@@ -43,7 +43,7 @@ Bu özelliğin önkoşullarından biri, geçerli bir [M Sorgu Parametresi](/powe
 
     ![Parametre bilgileri](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-03.png)
 
-3. Eklemek istediğiniz başka parametre varsa tekrar **Yeni** 'ye tıklayın.
+3. Eklemek istediğiniz başka parametre varsa tekrar **Yeni**'ye tıklayın.
 
     ![Başka bir parametre oluşturma](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-04.png)
 
@@ -81,7 +81,7 @@ Bu özelliğin önkoşullarından biri, geçerli bir [M Sorgu Parametresi](/powe
 
     ![Alanı parametreye bağlama](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-10.png)
 
-10. **Parametreye bağla** 'nın altındaki açılan menüyü seçip alana bağlamak istediğiniz parametreyi belirleyin:
+10. **Parametreye bağla**'nın altındaki açılan menüyü seçip alana bağlamak istediğiniz parametreyi belirleyin:
 
     ![Parametreyi alana bağlama](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-11.png)
 
@@ -115,7 +115,7 @@ Products
  | project ReleaseDate, Name, Category, Region```
 ```
 
-Parametre için makul bir değer (örneğin, *Games* ) geçiren sıradan bir kullanıcıyla herhangi bir sorun yaşamazsınız:
+Parametre için makul bir değer (örneğin, *Games*) geçiren sıradan bir kullanıcıyla herhangi bir sorun yaşamazsınız:
 
 ```
 | where Category == 'Games' & HasReleased == 'True'

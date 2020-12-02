@@ -2,19 +2,19 @@
 title: Power BI'da klasik çalışma alanları oluşturma
 description: Kuruluşunuza ana ölçümler sunmayı amaçlayan klasik çalışma alanları, pano koleksiyonları, raporlar ve sayfalandırılmış raporlar oluşturmayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/29/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 024696aa69fc1c6e95b103a679b11de4fe468169
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132402"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411966"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanları oluşturma
 
@@ -38,7 +38,7 @@ Bir çalışma alanı oluşturduğunuzda, bu çalışma alanı bir Microsoft 365
 ### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 çalışma alanınıza görüntü ekleme (isteğe bağlı)
 Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini içeren küçük ve renkli bir daire oluşturur. Ancak, bunu bir görüntüyle özelleştirmek isteyebilirsiniz. Bir görüntü eklemek için Exchange Online lisansı gerekir.
 
-1. **Çalışma Alanları** 'nı, çalışma alanı adının yanındaki **Diğer seçenekler** 'i (...), sonra da **Üyeler** ’i seçin. 
+1. **Çalışma Alanları**'nı, çalışma alanı adının yanındaki **Diğer seçenekler**'i (...), sonra da **Üyeler**’i seçin. 
    
      ![Çalışma Alanı Üyelerini seçme](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
@@ -52,7 +52,7 @@ Varsayılan olarak Power BI, uygulamanız için uygulamanın baş harflerini iç
 
      Görüntüler .png, .jpg veya .bmp dosyaları olabilir. Dosya boyutu 3 MB'a varan büyüklükte olabilir. 
 
-4. **Tamam** 'ı, sonra da **Kaydet** 'i seçin.
+4. **Tamam**'ı, sonra da **Kaydet**'i seçin.
    
     Görüntü, Microsoft 365 Outlook penceresindeki renkli dairenin yerine geçer.
    

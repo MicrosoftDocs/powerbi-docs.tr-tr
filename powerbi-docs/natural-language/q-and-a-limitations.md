@@ -2,17 +2,17 @@
 title: Power BI Soru-Cevap sınırlamaları
 description: Power BI Soru-Cevap için geçerli sınırlamalar
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.author: maggies
-ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528310"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410034"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI Soru-Cevap sınırlamaları
 

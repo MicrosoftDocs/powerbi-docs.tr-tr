@@ -1,20 +1,20 @@
 ---
 title: Büyük veri kümeleri, veri noktası sınırları ve veri stratejileri
 description: Veri azaltma stratejileri ve görseller için veri sınırları
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: justyna
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 0feef179fddba93f192559c7ac7bed10c6fa5328
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412062"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412541"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Görsel türüne göre stratejiler ve veri noktası sınırları uygulama
 
@@ -31,9 +31,9 @@ Her bir görsel, genel veri miktarını etkilemek için bu stratejiler üzerinde
 Her bir strateji için, görselleştirilmekte olan verilerin şekline ve türüne dayalı varsayılanlar vardır. Ancak doğru kullanıcı deneyimini sağlamak için Power BI Biçimlendirme bölmesinde varsayılanlar geçersiz kılınabilir. 
 
 * **Veri Pencereleme** (Segmentlere Ayırma): Kullanıcıların, genel veri kümesi parçalarını aşamalı olarak yükleyerek bir görseldeki verilerde gezinmesine olanak sağlar.
-* **TopN** : Yalnızca ilk N öğeyi gösterir
-* **Basit Örnek** : İlk öğeyi, son öğeyi ve bunlar arasında eşit olarak dağıtılmış N öğeyi gösterir.
-* **BottomN** : Yalnızca son N öğeyi gösterir.  Sık güncelleştirilen verilerin izlenmesi için yararlıdır.
+* **TopN**: Yalnızca ilk N öğeyi gösterir
+* **Basit Örnek**: İlk öğeyi, son öğeyi ve bunlar arasında eşit olarak dağıtılmış N öğeyi gösterir.
+* **BottomN**: Yalnızca son N öğeyi gösterir.  Sık güncelleştirilen verilerin izlenmesi için yararlıdır.
 * **Yüksek yoğunluklu örnekleme** - Aykırı değerlere ve/veya bir eğrinin şekline daha iyi uyan, gelişmiş bir örnekleme algoritmasıdır.
     * **Bölünmüş çizgi örnekleme** - Bir eksen boyunca bölmelerdeki aykırı değerlere dayalı örnek veri noktaları
     * **Çakışan noktaları örnekleme** - Aykırı değerleri korumak için çakışan değerlere dayalı örnek veri noktaları

@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396208"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411805"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI’da işbirliği yapma ve paylaşma yöntemleri
 
@@ -28,7 +28,7 @@ Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlar
 **İşbirliği yapma**
 
 - Anlamlı raporlar ve panolar oluşturmak üzere iş arkadaşlarınızla *çalışma alanlarında* işbirliği yapma.
-- *Microsoft Teams* ’de işbirliği yapma.
+- *Microsoft Teams*’de işbirliği yapma.
 
 **Panoları ve raporları dağıtma veya paylaşma**
 
@@ -158,7 +158,7 @@ Kabul etmek gerekir ki bazı kişiler raporlarında kaliteli, iyi tasarlanmış 
 
 ## <a name="create-dataflows"></a>Veri akışları oluşturma
 
-*Veri akışları* , dağınık kaynaklardan alınan verileri birleştirip bunları modellemesi için hazırlamanın self servis bir yöntemidir. Analistler büyük verileri alma, dönüştürme, tümleştirme ve zenginleştirme amacıyla veri akışları oluşturur. Power BI hizmetindeki çalışma alanlarında bulunan veri akışlarını oluşturup yönetirler. [Veri akışları ile self servis veri hazırlığı](../transform-model/dataflows/dataflows-introduction-self-service.md) hakkında bilgi edinin.
+*Veri akışları*, dağınık kaynaklardan alınan verileri birleştirip bunları modellemesi için hazırlamanın self servis bir yöntemidir. Analistler büyük verileri alma, dönüştürme, tümleştirme ve zenginleştirme amacıyla veri akışları oluşturur. Power BI hizmetindeki çalışma alanlarında bulunan veri akışlarını oluşturup yönetirler. [Veri akışları ile self servis veri hazırlığı](../transform-model/dataflows/dataflows-introduction-self-service.md) hakkında bilgi edinin.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

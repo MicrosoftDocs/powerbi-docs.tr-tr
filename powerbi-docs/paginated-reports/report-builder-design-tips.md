@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
 description: Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki ipuçlarından faydalanın.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: dc8400361ca8d7bdd3713efa7bdf180578a597a2
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: fc43fd3b8cfa4aeace7ae2dd18e69958d241f83a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297919"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410057"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda rapor tasarlamaya yönelik ipuçları
 
@@ -128,7 +128,7 @@ Power BI Report Builder’da sayfalandırılmış rapor tasarlarken aşağıdaki
   
     -   Kapsayıcılar, alt öğelerin büyümesine uyum sağlamak için genişler. Seçili bir öğe için, Özellikler bölmesindeki Üst özellik, öğe için kapsayıcıyı tanımlar. Rapor öğelerinin kapsama hiyerarşisini görmek için Belge Ana Hattı bölmesini de kullanabilirsiniz.  
   
-    -   **Düzen** araç çubuğu, kenarların, merkezlerin ve rapor öğelerine yönelik boşlukların hizalanmasını sağlayan birden fazla tuş sunar. **Düzen** araç çubuğunu etkinleştirmek için **Görünüm** menüsünden **Araç Çubukları** ’na gelip **Düzen** ’e tıklayın.  
+    -   **Düzen** araç çubuğu, kenarların, merkezlerin ve rapor öğelerine yönelik boşlukların hizalanmasını sağlayan birden fazla tuş sunar. **Düzen** araç çubuğunu etkinleştirmek için **Görünüm** menüsünden **Araç Çubukları**’na gelip **Düzen**’e tıklayın.  
   
 -   Raporu bir .pdf dosyası halinde kaydetmeyi planlıyorsanız, rapor genişliğinin net bir değer ile ayarlanmış olması gerekir. Bu değeri belirlerken, dışarı aktarma biçiminde elde etmek istediğiniz sonuçları dikkate alın. Örneğin, rapor sayfası genişliğini tam 20,16125 cm olarak, sol ve sağ boşlukları da 1,27 cm olarak ayarlayın.  
   

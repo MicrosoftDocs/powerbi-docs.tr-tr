@@ -2,18 +2,18 @@
 title: COVID-19 ABD izleme raporuna bağlanma
 description: COVID-19 ABD’deki Vakalar şablon uygulamasını edinip yükleme ve verilerinize bağlanma.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349536"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410632"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>COVID-19 ABD izleme raporuna bağlanma
 Bu makalede COVID-19 izleme raporuna yönelik şablon uygulamasını yükleme ve veri kaynaklarına bağlanma yöntemi açıklanır.
@@ -32,7 +32,7 @@ Sorumluluk reddi ve veriler hakkındaki bilgiler de dahil olmak üzere raporun k
 
     [![AppSource’ta COVID-19 ABD İzleme Raporu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Sorulduğunda **Yükle** ’ye tıklayın. Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
+1. Sorulduğunda **Yükle**’ye tıklayın. Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
 
    ![Uygulama sayfasında COVID-19 ABD İzleme Raporu](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-apps-page-icon.png)
 
@@ -40,21 +40,21 @@ Sorumluluk reddi ve veriler hakkındaki bilgiler de dahil olmak üzere raporun k
 
 1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeye tıklayın.
 
-1. Görüntülenen karşılama ekranında **Bağlan** ’ı seçin.
+1. Görüntülenen karşılama ekranında **Bağlan**’ı seçin.
 
    ![Şablon uygulaması karşılama ekranı](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Parametreler iletişim kutusu açılır. Gerekli parametre yoktur. **İleri** ’ye tıklayın.
+1. Parametreler iletişim kutusu açılır. Gerekli parametre yoktur. **İleri**’ye tıklayın.
 
    ![Covid-19 US İzleme Kaydı için parametre iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
 1. Kimlik doğrulama yöntemi iletişim kutusu açılır. Önerilen değerler önceden doldurulmuştur. Diğer değerler hakkında bilginiz yoksa mevcut değerleri değiştirmeyin.
 
-    **İleri** ’ye tıklayın.
+    **İleri**’ye tıklayın.
 
    ![Covid-19 US İzleme Kaydı için kimlik doğrulaması iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
 
-1. **Oturum aç** ’a tıklayın.
+1. **Oturum aç**’a tıklayın.
 
    ![Covid-19 US İzleme Kaydı için oturum açma iletişim kutusunun ekran görüntüsü.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
  

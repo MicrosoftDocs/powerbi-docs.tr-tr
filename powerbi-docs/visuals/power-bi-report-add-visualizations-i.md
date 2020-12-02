@@ -1,21 +1,21 @@
 ---
 title: 1\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
 description: 1\. Bölüm, Bir Power BI raporuna görselleştirme ekleme
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4d4b04b10e45d67fdd4d7cb183e300587d4f2cc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411901"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412495"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Power BI raporuna görsel ekleme (1. Bölüm)
 
@@ -29,7 +29,7 @@ Bu makalede bir raporda görselleştirme oluşturma hakkında özet bilgiler ver
 
 Bu eğitimde [Satış ve pazarlama PBIX dosyası](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) kullanılmaktadır.
 
-1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç** ’ı seçin
+1. Power BI Desktop menü çubuğunun sol üst kısmından **Dosya** > **Aç**’ı seçin
    
 2. **Satış ve pazarlama örneği PBIX dosyası** kopyanızı bulun
 
@@ -48,7 +48,7 @@ Bu eğitimde [Satış ve pazarlama PBIX dosyası](https://download.microsoft.com
 
     ![Tek sütun içeren bir sütun grafiğinin ekran görüntüsü.](media/power-bi-report-add-visualizations-i/power-bi-column-chart.png)
 
-    Öte yandan **Name** ve **Product** gibi bir kategori alanıyla da başlayabilirsiniz. Power BI bir tablo oluşturur ve söz konusu alanı da **Değerler** 'e ekler.
+    Öte yandan **Name** ve **Product** gibi bir kategori alanıyla da başlayabilirsiniz. Power BI bir tablo oluşturur ve söz konusu alanı da **Değerler**'e ekler.
 
     ![Dört kategoriye sahip bir tablonun ekran görüntüsü](media/power-bi-report-add-visualizations-i/power-bi-product.png)
 
@@ -68,7 +68,7 @@ Bu eğitimde [Satış ve pazarlama PBIX dosyası](https://download.microsoft.com
 
    ![Yığılmış sütun grafiği simgesinin vurgulandığı Görselleştirmeler bölmesinin ekran görüntüsü.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Görselin sıralama ölçütünü değiştirmek için **Diğer eylemler** (...) öğesini seçin.  Sıralamanın yönünü (artan veya azalan) ve sıralamak için kullanılan sütunu ( **Sıralama ölçütü** ) değiştirmek üzere sıralama seçeneklerini kullanın.
+1. Görselin sıralama ölçütünü değiştirmek için **Diğer eylemler** (...) öğesini seçin.  Sıralamanın yönünü (artan veya azalan) ve sıralamak için kullanılan sütunu (**Sıralama ölçütü**) değiştirmek üzere sıralama seçeneklerini kullanın.
 
    ![Diğer eylemler açılır listesinin ekran görüntüsü.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   

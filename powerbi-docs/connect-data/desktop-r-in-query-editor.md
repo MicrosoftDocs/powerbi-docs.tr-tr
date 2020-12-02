@@ -2,20 +2,20 @@
 title: Power Sorgu Düzenleyicisi’nde R kullanma
 description: Gelişmiş çözümleme için Power BI Desktop Power Query Düzenleyicisi'nde R programlama dilini kullanın.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e45f8b84fd0c6b0d2c38b8849a12743d4d8e109e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c70422cc9f02566612cf67a9a5ee1b1b4b033063
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223150"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411115"
 ---
 # <a name="use-r-in-power-query-editor"></a>Power Sorgu Düzenleyicisi’nde R kullanma
 

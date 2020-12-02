@@ -2,18 +2,19 @@
 title: Bir Power BI çalışma alanı için OneDrive'daki dosyalara bağlanma
 description: Power BI çalışma alanınız için OneDrive'da Excel, CSV ve Power BI Desktop dosyalarınızı depolama ve bunlara bağlanma hakkında bilgi edinin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 738ef62811ff510b20be60851cb6bd8225b1ad34
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 6c3c43d8aad26249ac1b8afab09bdcbf1414f0cf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92117003"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411989"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI çalışma alanınız için OneDrive'da depolanan dosyalara bağlanma
 [Power BI'da bir çalışma alanı oluşturduğunuzda](service-create-workspaces.md) ilişkilendirilmiş bir OneDrive İş kaynağına sahip bir Microsoft 365 grubu da oluşturmuş olursunuz. Bu makalede Excel, CSV ve Power BI Desktop dosyalarınızı ilgili OneDrive İş kaynağında depolama ve güncel tutma adımları açıklanmaktadır. Bu güncelleştirmeler dosyalara bağlı olarak Power BI raporlarına ve panolarına otomatik olarak yansır.

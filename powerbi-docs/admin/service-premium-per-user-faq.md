@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f41e2f27c4e461e60c7a79b86f09286acce4f9fd
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94520147"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412265"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>Kullanıcı Başına Power BI Premium Hakkında SSS (önizleme)
 

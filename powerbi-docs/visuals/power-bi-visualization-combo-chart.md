@@ -1,21 +1,21 @@
 ---
 title: Power BI'da birleşik harita
 description: Birleşik haritalar ile ilgili bu eğitimde, birleşik haritaları ne zaman kullanacağınızın yanı sıra Power BI hizmetinde ve Power BI Desktop'ta nasıl oluşturacağınız açıklanmaktadır.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: f5731f8660fc27e6aef44878f5410819ce0c0eae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411579"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409942"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI'da birleşik haritalar oluşturma ve kullanma
 
@@ -42,7 +42,7 @@ Birleşik haritalar aşağıdaki durumlarda harika bir seçimdir:
 ### <a name="prerequisites"></a>Önkoşullar
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -71,9 +71,9 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
     c. **Eksen** kutusuna eklemek üzere **Time** \> **FiscalMonth** alanını seçin.
 
     ![birleşik öğretici örneği](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Görselleştirmenin sağ üst köşesindeki **Diğer seçenekler** ’i (...) ve **Sıralama ölçütü > FiscalMonth** öğesini seçin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala** 'yı seçin. Bu örnekte **Artan düzende sırala** kullanılacaktır.
+5. Görselleştirmenin sağ üst köşesindeki **Diğer seçenekler**’i (...) ve **Sıralama ölçütü > FiscalMonth** öğesini seçin. Sıralama düzenini değiştirmek için, üç nokta simgesini tekrar seçin ve **Artan düzende sırala** veya **Azalan düzende sırala**'yı seçin. Bu örnekte **Artan düzende sırala** kullanılacaktır.
 
-6. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik haritalar vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği** 'ni seçin.
+6. Sütun grafiğini bir birleşik haritaya dönüştürün. İki birleşik haritalar vardır: **Çizgi ve yığılmış sütun** ile **Çizgi ve kümelenmiş sütun**. Sütun grafiği seçiliyken **Görsel Öğeler** bölmesinde **Çizgi ve kümelenmiş sütun grafiği**'ni seçin.
 
     ![birleşik harita dönüştürme örneği](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. **Alanlar** bölmesinden **Sales** \> **Last Year Sales** alanını **Çizgi Değerleri** demetine sürükleyin.
@@ -87,7 +87,7 @@ Aşağıdaki videoda Will, Satış ve Pazarlama örneğini kullanarak bir birle�
 ## <a name="create-a-combo-chart-with-two-axes"></a>İki eksenli birleşik harita oluşturma
 Bu görevde brüt kâr ile satış verilerini karşılaştıracağız.
 
-1. **Gross Margin Last Year %** verilerini **FiscalMonth** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun. **Ay** ’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
+1. **Gross Margin Last Year %** verilerini **FiscalMonth** ölçütüne göre gösteren yeni bir çizgi grafik oluşturun. **Ay**’a göre ve **Artan düzende** sıralamak için üç nokta simgesini seçin.  
 Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmuz'da düşüyor ve Ağustos'ta tekrar zirveye çıkıyor. Geçen yıla ve bu yıla ait satış verilerini karşılaştırdığımızda benzer bir desen ile karşılaşacak mıyız?
 
    ![birleşik harita örnek satışları](media/power-bi-visualization-combo-chart/combo1-new.png)
@@ -105,13 +105,13 @@ Ocak ayında brüt kâr %35'lerdeyken Nisan'da %45 ile zirveye ulaşıyor, Temmu
 ## <a name="add-titles-to-the-axes"></a>Eksenlere başlık ekleme
 1. Boya rulosu simgesini ![boya rulosu simgesi](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) seçerek Biçimlendirme bölmesini açın.
 1. **Y Ekseni** seçeneklerini genişletmek için aşağı oku seçin.
-1. **Y Ekseni (Sütun)** için **Konum** 'u **Sol** , **Başlık** ’ı **Açık** , **Stil** ’i **Yalnızca başlığı göster** ve **Birimleri görüntüle** ’yi **Milyon** olarak ayarlayın.
+1. **Y Ekseni (Sütun)** için **Konum**'u **Sol**, **Başlık**’ı **Açık**, **Stil**’i **Yalnızca başlığı göster** ve **Birimleri görüntüle**’yi **Milyon** olarak ayarlayın.
 
    ![birleşik harita açık y örneği](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
 4. **Y Ekseni (Sütun)** altında **İkincili göster** seçeneğini görene kadar sayfayı aşağı kaydırın. Y eksenleri için çok sayıda seçenek olduğundan, her iki kaydırma çubuğunu da kullanmanız gerekebilir. İkinci göster bölümünde, birleşik haritanın çizgi grafik bölümünü biçimlendirmeye ilişkin seçenekler gösterilir.
 
    ![birleşik harita ikincil örneği](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. **Y Ekseni (Satır)** için **Konum** 'u **Sağ** , **Başlık** 'ı **Açık** , **Stil** 'i ise **Yalnızca başlığı göster** olarak ayarlayın.
+5. **Y Ekseni (Satır)** için **Konum**'u **Sağ**, **Başlık**'ı **Açık**, **Stil**'i ise **Yalnızca başlığı göster** olarak ayarlayın.
 
    Artık birleşik haritanız başlıkları olan iki eksen görüntüler.
 

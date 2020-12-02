@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki veri görünümü
 description: Power BI Desktop'taki veri görünümü
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6585c0e20fb0e63d366dfc8da17949ac03d42512
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 500346e9fbdc4302810cce1fe5e49e7fe915a3bb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223737"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411230"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop'taki Veri görünümüyle çalışma
 

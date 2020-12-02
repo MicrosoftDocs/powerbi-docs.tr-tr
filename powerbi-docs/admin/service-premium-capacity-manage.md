@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: ced239ba0ac8f34314caf559a04126bf64ca7c50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512873"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412357"
 ---
 # <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 

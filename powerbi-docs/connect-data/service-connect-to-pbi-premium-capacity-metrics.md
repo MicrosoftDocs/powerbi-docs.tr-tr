@@ -2,18 +2,18 @@
 title: Power BI Premium Kapasite Ölçümlerine Bağlanma
 description: Power BI Premium Kapasite Ölçümleri şablon uygulamasını alıp yükleme ve verilerinize bağlanma
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/18/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f7bb6cdd3279ac15b2952d5e20b9c36a66a0c518
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375247"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410609"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Kapasite Ölçümlerine Bağlanma
 

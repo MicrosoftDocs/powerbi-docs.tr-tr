@@ -2,19 +2,19 @@
 title: Power BI kiracım nerede bulunur?
 description: Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğrenin. Hizmetle kurduğunuz etkileşimleri etkileyebileceğinden öğrenmek önemlidir.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 268594b54186ca319eca6a7577dcfaa17c066fd4
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 632eca1fdcb1bed380ad699a36264bc0239baef5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412403"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Power BI kiracım nerede bulunur?
 
@@ -26,7 +26,7 @@ Power BI kiracınızın bulunduğu yeri ve bu konumun nasıl seçildiğini öğr
 
 Kiracınızın bulunduğu bölgeyi bulmak için aşağıdaki adımları izleyin.
 
-1. Power BI hizmetinde üst taraftaki menüden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında** 'yı seçin.
+1. Power BI hizmetinde üst taraftaki menüden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında**'yı seçin.
 
 1. **Verilerinizin depolandığı yer** ifadesinin yanındaki değere bakın. Bu bölge, kiracınızın bulunduğu yerdir. Bu değer ayrıca, çalışma alanlarınız için farklı bölgelerdeki kapasiteleri kullanmadığınız sürece verileriniz de bu bölgede depolanır.
 

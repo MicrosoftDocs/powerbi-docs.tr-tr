@@ -2,18 +2,18 @@
 title: Power BI’da duyarlılık etiketlerini etkinleştirme
 description: Power BI'da duyarlılık etiketlerini etkinleştirme hakkında bilgi edinin
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/10/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eb2afe2e7fa21bc0583185cfc8a160b20f56236c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374327"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412127"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini etkinleştirme
 

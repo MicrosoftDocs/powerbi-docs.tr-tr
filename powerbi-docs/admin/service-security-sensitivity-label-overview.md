@@ -2,19 +2,19 @@
 title: Power BI'daki Microsoft Information Protection duyarlılık etiketleri
 description: Power BI'daki Microsoft Information Protection duyarlılık etiketlerinin nasıl çalıştığını öğrenin
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 27d650fbe9415c2e771931801f5b573770eda5b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374431"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412150"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 

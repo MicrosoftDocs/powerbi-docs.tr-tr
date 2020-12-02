@@ -1,19 +1,19 @@
 ---
 title: Microsoft Sürdürülebilirlik Hesaplayıcısı'na bağlanma
 description: Power BI için Microsoft Sürdürülebilirlik Hesaplayıcısı
-author: joshthor3222
+author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 01/06/2020
-ms.author: v-tikid
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cffb7ecc195f5ce803ec2dfc81c794bac75c9448
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00c8ee0ff77d2253b1240c943261ab053f29765a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230018"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410540"
 ---
 # <a name="connect-the-microsoft-sustainability-calculator"></a>Microsoft Sürdürülebilirlik Hesaplayıcısı'na bağlanma
 Sürdürülebilir konusunda daha etkili bilgi işlem kararları almak için BT altyapınızın karbon ayrıntılarına yönelik içgörüler elde edin

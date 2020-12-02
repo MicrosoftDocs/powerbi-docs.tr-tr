@@ -2,19 +2,19 @@
 title: Klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 description: Klasik çalışma alanını yeni çalışma alanı deneyimine yükseltmeyi öğrenin. Tüm çalışma alanlarını yükseltebilirsiniz ama bazı değişiklikleri bilmeniz ve bunlar için planlama yapmanız gerekir.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633067"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411621"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 

@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: db9084e7f7e78ecf17abe38ade732ab7ad2df754
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 0a6f73c14c8dd8ebb48f856f3079ec8f5922ef9e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94946783"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411575"
 ---
 # <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma
 

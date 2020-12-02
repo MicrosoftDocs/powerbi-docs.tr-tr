@@ -2,19 +2,19 @@
 title: Azure AD B2B ile içerikleri dış konuk kullanıcılara dağıtma
 description: Power BI, İşletmeler Arası Azure Active Directory (Azure AD B2B) aracılığıyla dış konuk kullanıcılarla içerik paylaşma imkanı sunar.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 07/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4831921ad7dff0264d606acfecf2434ddcaee882
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916188"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409275"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B ile Power BI içeriklerini dış konuk kullanıcılara dağıtma
 
@@ -54,9 +54,9 @@ Hangi kullanıcıları davet edeceğinizi biliyorsanız planlı davetleri kullan
 
 Azure portalda davet göndermek için aşağıdaki adımları izleyin.
 
-1. [Azure portalda](https://portal.azure.com)**Azure Active Directory** 'yi seçin.
+1. [Azure portalda](https://portal.azure.com)**Azure Active Directory**'yi seçin.
 
-1. **Yönet** bölümünde **Kullanıcılar** > **Tüm kullanıcılar** > **Yeni konuk kullanıcı** 'yı seçin.
+1. **Yönet** bölümünde **Kullanıcılar** > **Tüm kullanıcılar** > **Yeni konuk kullanıcı**'yı seçin.
 
     ![Yeni konuk kullanıcı seçeneği gösterilen Azure portalının ekran görüntüsü.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
@@ -114,7 +114,7 @@ Konuk kullanıcının, kendi kuruluşları aracılığıyla zaten onlara atanmı
 
 İzin verilen konukların Power BI'da oturum açmalarına yardımcı olmak için onlara Kiracı URL'sini sağlayın. Kiracı URL'sini bulmak için şu adımları izleyin.
 
-1. Power BI hizmetinde üst bilgi menüsünden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında** ’yı seçin.
+1. Power BI hizmetinde üst bilgi menüsünden yardım simgesini ( **?** ) ve ardından **Power BI Hakkında**’yı seçin.
 
 2. **Kiracı URL'si** öğesinin yanındaki değere bakın. Kiracı URL'nizi izin verilen konuk kullanıcılarınızla paylaşın.
 

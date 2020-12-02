@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki Analysis Services çok boyutlu verileri
 description: Power BI Desktop'taki SQL Server Analysis Services (SSAS) çok boyutlu verileri
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b96e9707e9c91c6403047091bed00afbff3789d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222522"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410908"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop'ta SSAS çok boyutlu modellerine bağlanma
 

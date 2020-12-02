@@ -2,18 +2,18 @@
 title: Onay - Power BI içeriklerini yükseltme ve onaylama
 description: Kaliteli içeriği yükselterek veya onaylayarak daha kolay bulunmasını sağlamayı öğrenin
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92682036"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411851"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Onay - Power BI içeriklerini yükseltme ve onaylama
 
@@ -21,17 +21,17 @@ ms.locfileid: "92682036"
 
 Kuruluşlarda genellikle Power BI kullanıcılarının paylaşmasına ve yeniden kullanmasına yönelik çok fazla içerik bulunur. Güvenilir ve yetkili kişilerin onayladığı içerikleri bulmak zor olabilir. Onay, kullanıcıların ihtiyaç duyduğu yüksek kaliteli içeriğe daha kolay erişmelerini sağlar. Onaylanan içerikler etiketleri sayesinde hem Power BI'da hem de kullanıcıların Power BI içeriği aradığı ortamlarda (Excel gibi) kolayca ayırt edilebilir. Ayrıca bu içeriklere aramalarda öncelik verilir ve bazı listelerde arama ölçütü olarak kullanılabilir.
 
-İki tür onay vardır: **yükseltme** ve **onaylama** .
+İki tür onay vardır: **yükseltme** ve **onaylama**.
 
-* **Yükseltme** : Yükseltme, kullanıcıların değerli olduğunu ve başkalarının da kullanabileceğini düşündüğü içerikleri vurgulamasına olanak tanır. İçeriklerin kuruluş içinde işbirliğine dayalı bir şekilde yayılmasını teşvik eder.
+* **Yükseltme**: Yükseltme, kullanıcıların değerli olduğunu ve başkalarının da kullanabileceğini düşündüğü içerikleri vurgulamasına olanak tanır. İçeriklerin kuruluş içinde işbirliğine dayalı bir şekilde yayılmasını teşvik eder.
 
     Tüm içerik sahipleri veya içeriğin bulunduğu çalışma alanı üzerinde yazma izinleri olan tüm üyeler, paylaşım için yeterince iyi olduğunu düşündükleri içerikleri kolayca yükseltebilir.
 
-* **Onaylama** : Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
+* **Onaylama**: Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
 
     İçerikleri yalnızca Power BI yöneticisi tarafından seçilen bir grup gözden geçiren onaylayabilir. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
 
-    **Onaylama seçeneğini kullanabilmeniz için Power BI yöneticinizin bunu kuruluşunuz için etkinleştirmiş ve yapılandırmış olması gerekir** .
+    **Onaylama seçeneğini kullanabilmeniz için Power BI yöneticinizin bunu kuruluşunuz için etkinleştirmiş ve yapılandırmış olması gerekir**.
 
 Aşağıdaki görüntüde rapor oluşturmak için kullanacağınız bir veri kümesini ararken onaylı içeriğin (yükseltilmiş ve onaylanmış) nasıl belirtildiği gösterilmiştir.
 

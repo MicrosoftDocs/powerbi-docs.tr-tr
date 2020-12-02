@@ -2,20 +2,20 @@
 title: SAP HANA için şifrelemeyi etkinleştirme
 description: SAML SSO kullanarak Power BI’dan bir HANA sunucusuna bağlanırken bağlantıyı şifrelemeyi öğrenin.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: b6d3362f75a0267dc680e3e54d2f92e44a98598a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501915"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410954"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA için şifrelemeyi etkinleştirme
 
@@ -101,7 +101,7 @@ HANA sunucusuna bağlanmak için kullanacağınız istemciler tarafından güven
 
 Bağlantıyı Power BI Desktop’ta veya Power BI hizmetinde test edin.
 
-1. Power BI Desktop veya Power BI hizmetinin **Ağ geçitlerini yönet** sayfasında, SAP HANA sunucunuzla bağlantı kurmaya çalışmadan önce **Sunucu sertifikasını doğrula** ’nın etkinleştirildiğinden emin olun. **SSL şifreleme sağlayıcısı** için, bu kitaplığı şifreleme sağlayıcınız olarak yapılandırmış olmanız durumunda, OpenSSL kurulum adımlarını ve commoncrypto’yu izlediyseniz, mscrypto’yu seçin. SSL anahtar deposu ve SSL güven deposu alanlarını boş bırakın.
+1. Power BI Desktop veya Power BI hizmetinin **Ağ geçitlerini yönet** sayfasında, SAP HANA sunucunuzla bağlantı kurmaya çalışmadan önce **Sunucu sertifikasını doğrula**’nın etkinleştirildiğinden emin olun. **SSL şifreleme sağlayıcısı** için, bu kitaplığı şifreleme sağlayıcınız olarak yapılandırmış olmanız durumunda, OpenSSL kurulum adımlarını ve commoncrypto’yu izlediyseniz, mscrypto’yu seçin. SSL anahtar deposu ve SSL güven deposu alanlarını boş bırakın.
 
     - Power BI Desktop
 

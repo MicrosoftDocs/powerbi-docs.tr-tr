@@ -2,19 +2,19 @@
 title: İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 description: Kuruluşunuzdaki iş arkadaşları için Power BI Giriş sayfasında Power BI panoları ve raporlarını öne çıkarma.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462476"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411828"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>İş arkadaşlarınızın Power BI Giriş sayfasında içeriği öne çıkarma
 
@@ -40,23 +40,23 @@ Panoyu veya raporu öne çıkarma yordamı benzerdir.
 
 1. Çalışma alanı için **Panolar** veya **Raporlar** listesinde **Ayarlar** simgesini seçin.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Rapor Ayarları simgesi":::
 
 2. **Ayarlar** bölmesinde adı işaretleyin veya değiştirin. İsterseniz bir **Açıklama** ekleyin ve bir **Anlık görüntü** karşıya yükleyin. Kullanıcılarınızın içeriğinizi bulmasına yardımcı olacağı için bunlar kullanışlıdır.
 
-3. **Öne Çıkanlar** ’ı seçin.
+3. **Öne Çıkanlar**’ı seçin.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Giriş Sayfasında Power BI Öne Çıkan içeriği":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Öne çıkan içerik ayarları":::
 
-4. **Kaydet** 'i seçin.
+4. **Kaydet**'i seçin.
 
-    Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası** ’ndaki **Öne Çıkanlar** bölümünde bunu görür.
+    Şimdi bu panoya veya rapora erişimi olan tüm kullanıcılar, **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
 ## <a name="feature-an-app"></a>Uygulamayı öne çıkarma
 
-- Bir uygulamayı öne çıkarmak için, uygulamanın çalışma alanını açın, **Seçenekler** menüsünü seçin ( **...** ) > **Bu uygulamayı Giriş sayfasında öne çıkar** .
+- Bir uygulamayı öne çıkarmak için, uygulamanın çalışma alanını açın, **Seçenekler** menüsünü seçin ( **...** ) > **Bu uygulamayı Giriş sayfasında öne çıkar**.
 
-Şimdi bu uygulamaya erişimi olan herkes **Giriş Sayfası** ’ndaki **Öne Çıkanlar** bölümünde bunu görür.
+Şimdi bu uygulamaya erişimi olan herkes **Giriş Sayfası**’ndaki **Öne Çıkanlar** bölümünde bunu görür.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

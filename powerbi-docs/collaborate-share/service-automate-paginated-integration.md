@@ -2,19 +2,19 @@
 title: Sayfalandırılmış raporları Power Automate ile dışarı aktarma
 description: Power BI sayfalandırılmış raporlarını dışarı aktarmaya yönelik Power Automate akışlarını nasıl oluşturacağınızı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7cc3969b735c64de39ac41fdc6acf2152c4cda35
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011923"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412035"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Power Automate ile Power BI sayfalandırılmış raporlarını dışarı aktarma
 

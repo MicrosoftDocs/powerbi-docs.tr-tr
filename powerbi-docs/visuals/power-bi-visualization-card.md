@@ -1,20 +1,20 @@
 ---
 title: Kart görselleştirmeleri (büyük sayı kutucukları)
 description: Power BI'da Kart görselleştirmesi oluşturma
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c8d9691ce515bc7c216c7d3f1bb764ca8b511971
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: f1d4a5b2d69c6d0b2d8cbec8d48e2be00b5a0f78
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411050"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409988"
 ---
 # <a name="create-card-visualizations"></a>Kart görselleştirmeleri oluşturma
 
@@ -33,7 +33,7 @@ Bazen Power BI panonuzda veya raporunuzda izlemek istediğiniz en önemli şey (
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** \> **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** \> **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -87,15 +87,15 @@ Biçimlendirme bölmesi, rapordaki kartla etkileşimli çalışırken kullanıla
 
     ![boya rulosu ana hatları bulunan kart](media/power-bi-visualization-card/power-bi-format-card-2.png)
 
-2. Kart seçili durumdayken **Veri etiketi** ’ni genişletin ve renk, boyut ve yazı tipi ailesini değiştirin. Binlerce deponuz olsaydı, binlerce depo sayısını göstermek ve ondalık basamakları denetlemek için **Görüntüleme birimleri** ’ni kullanabilirdiniz. Örneğin, 125.832,00 yerine 125,8 bin.
+2. Kart seçili durumdayken **Veri etiketi**’ni genişletin ve renk, boyut ve yazı tipi ailesini değiştirin. Binlerce deponuz olsaydı, binlerce depo sayısını göstermek ve ondalık basamakları denetlemek için **Görüntüleme birimleri**’ni kullanabilirdiniz. Örneğin, 125.832,00 yerine 125,8 bin.
 
     ![veri biçimli kart örneği](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
-3.  **Kategori etiketi** ’ni genişletin ve renk ile boyutu değiştirin.
+3.  **Kategori etiketi**’ni genişletin ve renk ile boyutu değiştirin.
 
     ![kategorili kart örneği](media/power-bi-visualization-card/power-bi-card-format-category.png)
 
-4. **Arka plan** ’ı genişletin ve kaydırıcıyı Açık konuma taşıyın.  Artık arka plan rengini ve saydamlığı değiştirebilirsiniz.
+4. **Arka plan**’ı genişletin ve kaydırıcıyı Açık konuma taşıyın.  Artık arka plan rengini ve saydamlığı değiştirebilirsiniz.
 
     ![Kaydırıcı AÇIK olarak ayarlanmış](media/power-bi-visualization-card/power-bi-format-color-2.png)
 

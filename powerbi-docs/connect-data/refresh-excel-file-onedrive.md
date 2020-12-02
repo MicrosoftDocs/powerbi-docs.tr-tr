@@ -2,19 +2,19 @@
 title: Buluttaki bir Excel çalışma kitabı dosyasından oluşturulan veri kümelerini yenileme
 description: Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/06/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: c550cace73cff4b37da4e68693c0b46175156890
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ed4ba65da4c4b027d5e789844a86e57c2a9c478c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222383"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410816"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Bir Excel çalışma kitabından oluşturulan veri kümelerini OneDrive'da veya SharePoint Online'da yenileme
 
@@ -61,7 +61,7 @@ Microsoft hesabı kimlik bilgileriniz değiştirilmiş olabileceğinden, OneDriv
 
 OneDrive İş veya SharePoint Online üzerindeki bir Excel çalışma kitabına bağlandığınızda, çalışma kitabınızdaki içeriği Power BI'a almaya yönelik iki seçeneğiniz vardır.
 
-[**Excel verilerini Power BI'a aktarma** ](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi): OneDrive İş veya SharePoint Online hesabınızdaki bir Excel çalışma kitabını içeri aktardığınızda yukarıda açıklanan şekilde çalışır.
+[**Excel verilerini Power BI'a aktarma**](service-excel-workbook-files.md#import-or-connect-to-an-excel-workbook-from-power-bi): OneDrive İş veya SharePoint Online hesabınızdaki bir Excel çalışma kitabını içeri aktardığınızda yukarıda açıklanan şekilde çalışır.
 
 [**Power BI'da Excel'e bağlanma, Excel verilerini yönetme ve görüntüleme**](service-excel-workbook-files.md#one-excel-workbook--two-ways-to-use-it): Bu seçeneği kullandığınızda Power BI'dan OneDrive İş veya SharePoint Online hesabınızdaki çalışma kitabınıza doğrudan bir bağlantı oluşturursunuz.
 

@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: 4b3e628c2a8cd3c90d44ae2a6c8f3f9967b22d9a
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: b85be8e4b231e714b4b9aba8cdf88b404c8bda74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965705"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411782"
 ---
 # <a name="add-the-power-bi-app-to-microsoft-teams"></a>Power BI uygulamasını Microsoft Teams’e ekleme
 
@@ -42,7 +42,7 @@ Genel olarak Power BI’ın Microsoft Team’de çalışması için şunlardan e
 
 Sol gezinti çubuğunda **Diğer eklenen uygulamalar (...)** seçeneğini belirleyin ve sonra **Power BI**’ı seçin. Bu seçeneği görmüyorsanız **Uygulama bul** kutusuna **Power BI** yazın.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Microsoft Teams’deki Power BI uygulamasının ekran görüntüsü.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Power BI uygulamasının Microsoft Teams’e yüklenmesinin ekran görüntüsü.":::
 
 İşte bu kadar! Power BI uygulaması Microsoft Teams’e yüklenir.
 
@@ -52,11 +52,11 @@ Microsoft Teams’deki içeriğinizle etkileşim kurmak, Power BI hizmetindekiyl
 
 Microsoft Teams’deki Power BI uygulamasından, Microsoft Teams’deki iş arkadaşlarınızla rapor bile paylaşabilirsiniz.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Microsoft Teams’deki Power BI uygulamasının ekran görüntüsü.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Microsoft Teams uygulamasındaki Microsoft Teams’de Paylaş seçeneğinin ekran görüntüsü.":::
 
 Microsoft Teams’deki Power BI uygulaması eğitime yönelik bir merkeze de sahiptir. **Öğrenme Merkezi**’ni görüntülemek için **Learn** seçeneğini belirleyin.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams’deki Power BI uygulamasının ekran görüntüsü.":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams’deki Power BI uygulamasında yer alan Öğrenme Merkezi’nin ekran görüntüsü.":::
 
 ### <a name="differences-in-interactions"></a>Etkileşimlerdeki farklılıklar
 
@@ -64,11 +64,11 @@ Bazı etkileşimler, tarayıcıdakilere kıyasla Teams uygulamasında farklıdı
 
 - Bir pano veya rapora baktığınızda, Power BI gezinti bölmesini görmezsiniz. Giriş’e veya çalışma alanına geri dönmek için **Kapat** düğmesini seçin.
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams’deki Power BI uygulamasının ekran görüntüsü.":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams’deki Power BI uygulamasında yer alan Kapat düğmesinin ekran görüntüsü.":::
 
 - Raporu Microsoft Teams’de görüntülemek yerine Power BI hizmetinde açmayı tercih edebilirsiniz. **Bunu web’de aç** seçeneğini belirleyin.
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams’deki Power BI uygulamasının ekran görüntüsü.":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams’deki Power BI uygulamasında yer alan Bunu web’de aç düğmesinin ekran görüntüsü.":::
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 

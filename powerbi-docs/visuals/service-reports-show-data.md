@@ -1,27 +1,27 @@
 ---
 title: Power BI görselleştirmesini oluşturmak için kullanılan verileri gösterme
 description: Bu belgede Power BI'daki bir görseli oluşturmak için kullanılan verileri gösterme ve bu verileri .csv dosyası biçiminde dışarı aktarma adımları açıklanmaktadır.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3e996da62b71c008f4f7a5929cc8b91d38cc26e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412798"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409735"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Görselleştirmenin temel alınan verilerini görüntüleme
 
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 ## <a name="show-data"></a>Verileri göster
-Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. **Verileri Göster** 'i seçtiğinizde, Power BI ilgili verileri görselleştirmenin altında (veya yanında) görüntüler.
+Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluşturulur. Verilerin kaynağını merak ediyorsanız Power BI, görseli oluşturmak için kullanılan verileri *görüntülemenizi* sağlar. **Verileri Göster**'i seçtiğinizde, Power BI ilgili verileri görselleştirmenin altında (veya yanında) görüntüler.
 
 İsterseniz görselleştirmeyi oluşturmak için kullanılan verileri .xlsx veya .csv biçiminde dışarı aktarıp Excel'de görüntüleyebilirsiniz. Daha fazla bilgi için bkz. [Power BI görselleştirmelerindeki verileri dışarı aktarma](power-bi-visualization-export-data.md).
 
@@ -44,7 +44,7 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 4. Yönü değiştirmek için, görselleştirmenin sağ üst köşesinde dikey düzeni ![dikey yerleşime geçmek için kullanılan simgenin küçük ekran görüntüsü](media/service-reports-show-data/power-bi-vertical-icon-new.png) seçin.
    
    ![görsel ve veri yatay görüntüsü](media/service-reports-show-data/power-bi-show-data-side.png)
-5. Verileri .csv biçiminde dışarı aktarmak için üç noktayı ve ardından **Verileri dışarı aktar** 'ı seçin.
+5. Verileri .csv biçiminde dışarı aktarmak için üç noktayı ve ardından **Verileri dışarı aktar**'ı seçin.
    
     ![Verileri dışarı aktar’ı seçme](media/service-reports-show-data/power-bi-export-data-new.png)
    
@@ -64,7 +64,7 @@ Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin te
 
     ![Veri kümesindeki tek bir kaydın ekran görüntüsü.](media/service-reports-show-data/power-bi-row.png)
 
-4. Masaüstü rapor tuvaline geri dönmek için **Rapora geri dön** 'ü seçin. 
+4. Masaüstü rapor tuvaline geri dönmek için **Rapora geri dön**'ü seçin. 
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 

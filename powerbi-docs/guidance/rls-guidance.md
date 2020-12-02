@@ -1,19 +1,19 @@
 ---
 title: Power BI Desktop’ta satır düzeyi güvenlik (RLS) kılavuzu
 description: Power BI Desktop ile veri modellerinizde satır düzeyi güvenliği (RLS) zorunlu kılma kılavuzu.
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 3c8290391d549f4510b4f6ea6ee0fd596500045e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349633"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410103"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta satır düzeyi güvenlik (RLS) kılavuzu
 
@@ -117,7 +117,7 @@ Model dört tablodan oluşur:
 - **Salesperson** tablosu, satış personeli başına bir satır depolar. Her satış personelinin e-posta adresinin depolandığı **EmailAddress** sütununu içerir. Bu tablo gizlidir.
 - **Satış** tablosu, sipariş başına bir satır depolar. Rapor kullanıcısının bölgesinde elde edilen gelirlerin, tüm bölgelerde elde edilen gelirlere oranını döndürmek üzere tasarlanan **Revenue % All Region** ölçüsünü içerir.
 - **Date** tablosu tarih başına bir satır döndürür ve yıl ile ay şeklinde filtreleyip gruplandırmaya olanak verir.
-- **SalesRevenueSummary** , hesaplanan bir tablodur. Her sipariş tarihi için toplam geliri depolar. Bu tablo gizlidir.
+- **SalesRevenueSummary**, hesaplanan bir tablodur. Her sipariş tarihi için toplam geliri depolar. Bu tablo gizlidir.
 
 Aşağıdaki ifadede **SalesRevenueSummary** hesaplanan tablosu tanımlanır:
 
@@ -173,7 +173,7 @@ RLS’den kaçınmanın çeşitli avantajları vardır:
 
 Ancak, RLS’den kaçınmanın bazı dezavantajları da vardır:
 
-- **Birden çok çalışma alanı** : Her rapor kullanıcı kitlesi için bir çalışma alanı gerekir. Uygulamalar yayımlandıysa bu, rapor kullanıcı kitlesi başına bir uygulama olduğu anlamına gelir.
+- **Birden çok çalışma alanı**: Her rapor kullanıcı kitlesi için bir çalışma alanı gerekir. Uygulamalar yayımlandıysa bu, rapor kullanıcı kitlesi başına bir uygulama olduğu anlamına gelir.
 - **İçeriğin çoğaltılması:** Rapor ve panoların her bir çalışma alanında oluşturulmaları gerekir. Ayarlayıp sürdürmek için daha fazla çaba ve zaman harcamanız gerekir.
 - **Yüksek ayrıcalığa sahip kullanıcılar:** Birden çok rapor kullanıcı kitlesine ait olan yüksek ayrıcalığa sahip kullanıcılar, verilerin birleştirilmiş bir görünümünü göremez. Birden çok raporu (farklı çalışma alanlarından veya uygulamalardan) açmaları gerekir.
 

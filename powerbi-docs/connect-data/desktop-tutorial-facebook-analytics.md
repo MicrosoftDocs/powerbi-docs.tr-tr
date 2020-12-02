@@ -2,19 +2,19 @@
 title: 'Öğretici: Power BI Desktop kullanarak Facebook verilerini analiz etme'
 description: Facebook’tan verileri içeri aktarmayı ve Power BI Desktop’ta bunları kullanmayı öğrenin.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: c138b5d3b03b360ee1f83c57a98906b5fec25d6e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600474"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410977"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Öğretici: Power BI Desktop kullanarak Facebook verilerini analiz etme
 

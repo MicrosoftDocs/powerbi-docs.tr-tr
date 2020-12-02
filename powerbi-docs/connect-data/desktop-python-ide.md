@@ -2,19 +2,19 @@
 title: Power BI ile harici bir Python IDE kullanma
 description: Power BI ile dış IDE başlatabilir ve kullanabilirsiniz
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/18/2018
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8fdc0ecb4dfa1d35077e773ff7f568106168009c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c93c358f79b77a9cdda51eb815c35e674150cc39
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215362"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411092"
 ---
 # <a name="use-an-external-python-ide-with-power-bi"></a>Power BI ile harici bir Python IDE kullanma
 **Power BI Desktop** ile dış Python IDE'nizi (Tümleşik Geliştirme Ortamı) kullanarak Python betikleri oluşturabilir ve geliştirebilir, ardından da söz konusu betikleri Power BI'da kullanabilirsiniz.

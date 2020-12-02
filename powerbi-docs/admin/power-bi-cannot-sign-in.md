@@ -5,16 +5,16 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/25/2020
-ms.openlocfilehash: 00e1586b0b02167ee953ccd91237c71b0bb7c40d
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 2f6ed46060d9346342aa8469cf22072986f59aab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374695"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409367"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI'da oturum açma sorunlarını giderme
 

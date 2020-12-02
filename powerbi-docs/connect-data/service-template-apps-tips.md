@@ -2,25 +2,25 @@
 title: Power BI’da şablon uygulaması yazma ipuçları
 description: İyi şablon uygulamaları hazırlamak için sorgular, veri modelleri, raporlar ve panolar yazmaya yönelik ipuçları
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
-ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
+ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "94348071"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410126"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
 Power BI’da [şablon uygulamanızı yazarken](service-template-apps-create.md), bu sürecin bir bölümü çalışma alanı oluşturma, test etme ve üretim lojistiğinden oluşur. Ama bu sürecin bir diğer önemli bölümünün de rapor ve pano yazma olduğu açıktır. Yazma sürecini dört ana bileşene ayırabiliriz. Bu bileşenler üzerinde çalışmak mümkün olan en iyi şablon uygulamasını oluşturmanıza yardımcı olur:
 
-* **Sorgularla** , verilere [bağlanıp](desktop-connect-to-data.md) onları [dönüştürür](../transform-model/desktop-query-overview.md) ve [parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) tanımlarsınız. 
-* **Veri modelinde** , [ilişkileri](../transform-model/desktop-create-and-manage-relationships.md) ve [ölçüleri](../transform-model/desktop-measures.md) oluşturur, Soru-Cevap geliştirmeleri yaparsınız.  
+* **Sorgularla**, verilere [bağlanıp](desktop-connect-to-data.md) onları [dönüştürür](../transform-model/desktop-query-overview.md) ve [parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) tanımlarsınız. 
+* **Veri modelinde**, [ilişkileri](../transform-model/desktop-create-and-manage-relationships.md) ve [ölçüleri](../transform-model/desktop-measures.md) oluşturur, Soru-Cevap geliştirmeleri yaparsınız.  
 * **[Rapor sayfaları](../create-reports/desktop-report-view.md)** verilerinize yönelik içgörüler sağlayan görseller ve filtreler içerir.  
 * **[Panolar](../consumer/end-user-dashboards.md)** ve [kutucuklar](../create-reports/service-dashboard-create.md) sağlanan içgörülere genel bir bakış sunar.
 * Örnek veriler, uygulamanızın yüklenmesinin hemen ardından bulunabilmesini sağlar.

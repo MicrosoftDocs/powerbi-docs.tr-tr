@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/21/2020
-ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 36973d52f94b806db860b739a84f0c94b2a8945d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965114"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411874"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Power BI içeriğini Microsoft Teams'e ekleme
 

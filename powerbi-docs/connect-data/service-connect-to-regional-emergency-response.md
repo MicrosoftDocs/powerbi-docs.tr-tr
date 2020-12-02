@@ -2,18 +2,18 @@
 title: Bölgesel Acil Durum Müdahale Panosu’na bağlanma
 description: Bölgesel acil durumlara müdahaleye yönelik şablon uygulaması için COVID-19 Karar Desteği Panosu’nu edinme ve yükleme, verilere bağlanma
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/24/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b8cb2be15d084bba3fc2a70152165ce3b2909dab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860751"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410563"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Bölgesel Acil Durum Müdahale Panosu’na bağlanma
 Bölgesel Acil Durum Müdahale Panosu, [Microsoft Power Platform Bölgesel Acil Durum Müdahale Panosu çözümünün](/powerapps/sample-apps/regional-emergency-response/overview) raporlama bileşenidir. Bölgesel kuruluş yöneticileri, etkili kararlar almalarına yardımcı olan önemli verileri ve ölçümleri hızla görüntülemelerini sağlayan Power BI kiracılarındaki panoyu görüntüleyebilir.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: a3835ff26bf86024b827edf69e19d6f603e66c2c
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 21ec2baf472d9650e550de8808ce3dc98b7cb49f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412311"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
