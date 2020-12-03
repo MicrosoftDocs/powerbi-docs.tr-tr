@@ -2,20 +2,20 @@
 title: Power BI Desktop’ta rapor temalarını kullanma
 description: Power BI Desktop’ta özel bir renk paletinin nasıl kullanılacağını ve bunun tüm rapora nasıl uygulanacağını öğrenin.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/28/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1efc83ac18b2d2cf44aae05003e533f45ae11864
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634746"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413047"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 

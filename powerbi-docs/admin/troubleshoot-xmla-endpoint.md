@@ -1,8 +1,8 @@
 ---
 title: Power BI'da XMLA uç nokta bağlantı sorunlarını giderme
 description: Power BI Premium’da XMLA uç noktası üzerinden kurulan bağlantı sorunlarının nasıl giderilebileceği açıklanmaktadır.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: kfollis
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: ca9dd1b18fb037013e6d1d5c6e6c3510065068b4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668132"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413300"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 50c10343487765f4f42c895ba605618b852415fd
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 6b214aacaeff0cc939af60b97d0c4781e1e4d36b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512252"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413645"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics uygulaması
 

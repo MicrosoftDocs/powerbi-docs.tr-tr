@@ -2,18 +2,18 @@
 title: Mobil uygulama giriş sayfasına hızlı bir bakış
 description: Bu makalede Mobil uygulama giriş sayfasının ana özellikleri tanıtılır.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
-ms.author: painbar
-ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ee4b4d3537fc0bdb77a451a0b32159ae3d703833
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635321"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413231"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>Mobil uygulama giriş sayfasında hızlı bir tur
 Bu turda Power BI mobil uygulamasının giriş sayfasıyla ve ihtiyacınız olana hızla ulaşmanız için size sağlanan gezinti yardımlarıyla tanışacaksınız.

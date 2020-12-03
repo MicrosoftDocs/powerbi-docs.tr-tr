@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 28845a958edb516d6ecdaa3fedbaad62be723865
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 597ae36aaddcbabbedcd084061410dab9334a702
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94520119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413599"
 ---
 # <a name="purchase-power-bi-premium-for-testing"></a>Test için Power BI Premium satın alma
 

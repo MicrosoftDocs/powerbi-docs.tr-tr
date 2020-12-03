@@ -1,20 +1,20 @@
 ---
 title: Hizmet sorumlularıyla Power BI Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme | Microsoft Docs
 description: Hizmet sorumluları kullanılarak Power BI Premium çalışma alanı ve veri kümesi yönetim görevlerinin nasıl otomatik hale getirileceğini öğrenin.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483731"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413438"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini otomatikleştirme
 
@@ -22,7 +22,7 @@ Hizmet sorumlusu, katılımsız kaynak ve hizmet düzeyinde işlemler gerçekle�
 
 Power BI Premium, Power BI Embedded ile aynı hizmet sorumlusu işlevini kullanır. Daha fazla bilgi edinmek için bkz. [Hizmet sorumlularıyla Power BI içeriği ekleme](../developer/embedded/embed-service-principal.md).
 
-Ayrıca **Power BI Premium** ’da hizmet sorumluları [XMLA uç noktasıyla](service-premium-connect-tools.md) birlikte kullanılarak çalışma alanları sağlama, modelleri dağıtma ve veri kümesini yenileme gibi veri kümesi yönetim görevleri şunlarla otomatik hale getirilebilir:
+Ayrıca **Power BI Premium**’da hizmet sorumluları [XMLA uç noktasıyla](service-premium-connect-tools.md) birlikte kullanılarak çalışma alanları sağlama, modelleri dağıtma ve veri kümesini yenileme gibi veri kümesi yönetim görevleri şunlarla otomatik hale getirilebilir:
 
 - PowerShell
 - Azure Otomasyonu
@@ -50,7 +50,7 @@ Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için beli
 
 Power BI’da hizmet sorumlularını kullanabilmek için önce yöneticinin Power BI yönetim portalında hizmet sorumlusu erişimini etkinleştirmesi gerekir.
 
-Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlularının Power BI API'leri kullanmasına izin ver** seçeneğini genişletin ve **Etkin** ’e tıklayın. İzinleri güvenlik grubuna uygulamak için **Belirli güvenlik grupları** ’na grup adını ekleyin.
+Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlularının Power BI API'leri kullanmasına izin ver** seçeneğini genişletin ve **Etkin**’e tıklayın. İzinleri güvenlik grubuna uygulamak için **Belirli güvenlik grupları**’na grup adını ekleyin.
 
 ![Çalışma alanı ayarları](media/service-premium-service-principal/admin-portal.png)
 
@@ -58,7 +58,7 @@ Power BI **Yönetim portalı** > **Kiracı ayarları** altında **Hizmet sorumlu
 
 Hizmet sorumlunuzun Premium çalışma alanı ve veri kümesi işlemleri yaparken gereken izinlere sahip olması için, hizmet sorumlusunu çalışma alanı Üyesi veya Yöneticisi olarak eklemelisiniz. Burada Power BI hizmetinde Çalışma alanı erişiminin kullanılması açıklanmıştır ama [Grup Kullanıcısı Ekleme User REST API’sini](/rest/api/power-bi/groups/addgroupuser) de kullanabilirsiniz.
 
-1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi** ’ni seçin.
+1. Power BI hizmetinde çalışma alanı için **Diğer** > **Çalışma alanı erişimi**’ni seçin.
 
     ![Çalışma alanı erişimi ayarları](media/service-premium-service-principal/workspace-access.png)
 

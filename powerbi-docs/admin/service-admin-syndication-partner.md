@@ -2,20 +2,20 @@
 title: Power BI’ı Microsoft 365 iş ortağınız aracılığıyla satın alma
 description: İş ortağı aracılığıyla satın alınan bir Microsoft 365 aboneliğine Power BI’ı eklemeyi öğrenin. Dağıtılmış model, Microsoft 365 tarafından kullanılan bir satın alma modeli.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a7a2f06b019361f164f47469d5bd16218d4ebff2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227572"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413484"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Microsoft 365 iş ortağı aboneliğine Power BI’ı ekleme
 

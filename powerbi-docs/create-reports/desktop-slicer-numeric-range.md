@@ -2,20 +2,20 @@
 title: Power BI’da sayısal aralık dilimleyiciyi kullanma
 description: Power BI’da sayısal aralıkları kısıtlamak için dilimleyici kullanmayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91dfc9da235e9d5c8a763b3d6cba2abc11b77f6f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238593"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412794"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>Power BI’da sayısal aralık dilimleyiciyi kullanma
 

@@ -2,19 +2,19 @@
 title: Power BI Desktop’taki şablonları kullanma
 description: Power BI Desktop’ta şablon oluşturma ve paylaşma
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/16/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71e7167be5f39868b36211fd906cccf482cada5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861947"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412725"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop için rapor şablonu oluşturma
 

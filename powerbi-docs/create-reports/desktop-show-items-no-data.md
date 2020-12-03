@@ -2,19 +2,19 @@
 title: Power BI'da öğeleri veri olmadan gösterme
 description: Power BI'ın verisi olmayan öğeleri nasıl işlediğini ve görüntülediğini öğrenin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/16/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89c4c9919ac5b47a1e3c20c786b239be44c4308b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c65f7b18a7df70749c9374e1290313141244665
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238566"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412748"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Power BI'da öğeleri veri olmadan gösterme
 
@@ -138,7 +138,7 @@ Aşağıdaki durumlarda **Öğeleri veri olmadan göster** özelliğinin *hiçbi
 
 Sütunlar için değerleri seçme mekanizmasının sıraya bağımlı olduğuna da dikkat etmek gerekir. Bunu tablolar arasında bir *Sol dış birleştirme* olarak düşünebilirsiniz. Sütunların sırası değiştirilirse sonuçlar da değişir.
 
-Şimdi sıranın değiştirildiği bir örneğe bakalım ve bunun sonuçları nasıl etkilediğini görelim. Bu örnek, bu bölümün**2.** örneğiyle aynıdır, yalnızca sıralama değiştirilmiştir.
+Şimdi sıranın değiştirildiği bir örneğe bakalım ve bunun sonuçları nasıl etkilediğini görelim. Bu örnek, bu bölümün **2.** örneğiyle aynıdır, yalnızca sıralama değiştirilmiştir.
 
 **Product[Color] - ProductStyle[Finish] - Sum(Sales[Quantity])**
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI'da çizgi grafikler
 description: Power BI'da çizgi grafikler
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: acbd6e40a351885b8644aca48edf41db81462864
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6bd2ae3fe4abd3d1db21928edfa217d50f95ca92
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411993"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412610"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI'da çizgi grafikler
 
@@ -34,7 +34,7 @@ Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde g�
 
 1. Boş bir rapor sayfasında başlayın. Power BI hizmetini kullanıyorsanız raporu [Düzenleme Görünümü](../create-reports/service-interact-with-a-report-in-editing-view.md)'nde açtığınızdan emin olmanız gerekir.
 
-2. Alanlar bölmesinden **SalesFact** \> **Total units** 'i, sonra da **Date** > **Month** alanını seçin.  Power BI rapor tuvalinizde bir sütun grafik oluşturur.
+2. Alanlar bölmesinden **SalesFact** \> **Total units**'i, sonra da **Date** > **Month** alanını seçin.  Power BI rapor tuvalinizde bir sütun grafik oluşturur.
 
     ![Alanlar bölmesinden seçme](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -47,7 +47,7 @@ Bu yönergelerde bu yılın satışlarını kategorilere ayrılmış şekilde g�
      
     ![Alanlar bölmesinin yanındaki çizgi](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    **Gelişmiş filtreler** 'den **Temel filtreler** 'e geçin, ardından **2012** , **2013** ve **2014** 'ü seçin.
+    **Gelişmiş filtreler**'den **Temel filtreler**'e geçin, ardından **2012**, **2013** ve **2014**'ü seçin.
 
     ![Yıl için filtreleme](media/power-bi-line-charts/power-bi-filter-year.png)
 

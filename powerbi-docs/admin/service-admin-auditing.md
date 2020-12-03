@@ -2,20 +2,20 @@
 title: Power BI'da kullanıcı etkinliklerini izleme
 description: Gerçekleştirilen eylemleri izlemek ve araştırmak için Power BI ile birlikte etkinlik günlüklerini ve denetim özelliklerini nasıl kullanabileceğinizi öğrenin.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/20/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513861"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413760"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 

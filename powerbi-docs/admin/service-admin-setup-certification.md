@@ -2,18 +2,18 @@
 title: İçerik onayını etkinleştirme
 description: Veri kümeleri, veri akışları, raporlar ve uygulamalar için onayı nasıl etkinleştireceğinizi öğrenin.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4961f5f2b6364e06488baf32478b1f6e9338675e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680840"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413530"
 ---
 # <a name="enable-content-certification"></a>İçerik onayını etkinleştirme
 
@@ -42,7 +42,7 @@ Bu işlev, Power BI'ın *onay* özelliğinin bir parçasıdır. Daha fazla bilgi
 1. Üyeleri içerik onaylama yetkisine sahip olacak bir veya daha fazla güvenlik grubu belirtin. Bu yetkili onaylayıcılar [onay ayarları iletişim kutusunun](../collaborate-share/service-endorse-content.md#certify-content) onaylama bölümündeki Onaylama düğmesini kullanabilir.
     
     Bir güvenlik grubunun altında onay yetkisi vermek istemediğiniz güvenlik grupları varsa **Belirli güvenlik grupları hariç** kutusunu işaretleyip açılan kutuya ilgili grupların adını girebilirsiniz.
-1. **Uygula** 'ya tıklayın.
+1. **Uygula**'ya tıklayın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [İçerikleri yükseltme veya onaylama](../collaborate-share/service-endorse-content.md)
